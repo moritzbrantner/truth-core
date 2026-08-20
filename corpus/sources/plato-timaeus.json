@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-TIM",
+  "kind": "primary_text",
+  "author": "Plato",
+  "work": "Timaeus",
+  "citation_system": "Stephanus",
+  "work_urn": "urn:cts:greekLit:tlg0059.tlg031",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0059.tlg031.perseus-eng1",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0059.tlg031",
+  "notes": "Use Stephanus locators as the human-stable citation. Preserve the CTS work identifier for later cross-reference tooling."
+}

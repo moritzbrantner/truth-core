@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  corpus-and-lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: leanprover/lean-action@v1
+        with:
+          build: true
+          test: false
+          nanoda: true
+          nanoda-allow-sorry: false
+      - name: Validate corpus metadata
+        run: python3 scripts/corpus.py check
+
+  comparator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+      - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          build: false
+          test: false
+      - name: Build pinned Comparator toolchain
+        run: scripts/bootstrap-verifier.sh
+      - name: Verify all advertised results
+        run: scripts/verify-all.sh

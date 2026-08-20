@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-194B-FOUR-CAUSES-A",
+  "source_id": "ARIST-PHYS",
+  "locator": "II.3, 194b16-195a3",
+  "interpretation_group": "ARIST-PHYS-194B-FOUR-CAUSES",
+  "interpretation": "Exhaustive-classification reading: an explanatory cause falls under at least one of the four modes Aristotle enumerates. The predicates themselves remain parameters rather than being pre-defined by a universal ontology.",
+  "paraphrase": "Causes are classifiable under material, formal, source-of-change, or final modes.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.FourCauseExhaustiveReading",
+  "status": "formalized"
+}

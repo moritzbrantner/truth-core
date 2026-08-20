@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-MET",
+  "kind": "primary_text",
+  "author": "Aristotle",
+  "work": "Metaphysics",
+  "citation_system": "Bekker",
+  "work_urn": "urn:cts:greekLit:tlg0086.tlg025",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg025.perseus-grc2",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg025",
+  "notes": "Queued early because later scholastic metaphysics repeatedly depends on Aristotelian vocabulary and distinctions."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "PLATO-TIM-28BC-COSMOS-GENERATED",
+  "source_id": "PLATO-TIM",
+  "locator": "28b-28c",
+  "interpretation": "Minimal seed reading: the cosmos belongs to the class of things that have come to be.",
+  "paraphrase": "The cosmos has come to be.",
+  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CosmosGenerated",
+  "status": "formalized"
+}

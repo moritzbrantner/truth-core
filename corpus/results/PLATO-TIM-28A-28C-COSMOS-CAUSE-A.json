@@ -1,0 +1,13 @@
+{
+  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-A",
+  "claim_ids": [
+    "PLATO-TIM-28A-CAUSE-A",
+    "PLATO-TIM-28BC-COSMOS-GENERATED"
+  ],
+  "challenge_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution",
+  "theorem": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.cosmosHasCause",
+  "comparator_config": "results/PLATO-TIM-28A-28C-COSMOS-CAUSE-A/comparator.json",
+  "status": "solution-present",
+  "meaning": "Under the broad causal-principle reading and the generated-cosmos premise, a cause of the cosmos exists."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Plato.Timaeus.CosmosCauseB.cosmosHasDistinctCause"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

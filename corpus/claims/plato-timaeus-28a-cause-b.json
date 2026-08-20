@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-TIM-28A-CAUSE-B",
+  "source_id": "PLATO-TIM",
+  "locator": "28a",
+  "interpretation_group": "PLATO-TIM-28A-CAUSE",
+  "interpretation_of": "PLATO-TIM-28A-CAUSE-A",
+  "interpretation": "Stronger reading: the cause of something that comes to be is distinct from the thing that comes to be.",
+  "paraphrase": "Anything that comes to be has some distinct cause.",
+  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.DistinctCausePrinciple",
+  "status": "formalized"
+}

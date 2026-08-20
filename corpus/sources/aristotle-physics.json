@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-PHYS",
+  "kind": "primary_text",
+  "author": "Aristotle",
+  "work": "Physics",
+  "citation_system": "Bekker",
+  "work_urn": "urn:cts:greekLit:tlg0086.tlg031",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg031.opp-grc2",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg031",
+  "notes": "Use Bekker locators as the human-stable citation. The seed claim uses Physics II.3, 194b-195a."
+}
