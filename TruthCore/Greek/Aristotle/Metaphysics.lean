@@ -1,0 +1,68 @@
+/-!
+Source-derived claims from Aristotle's *Metaphysics*.
+-/
+
+namespace TruthCore.Greek.Aristotle.Metaphysics
+
+universe u v w
+
+/--
+Formal-object reading of Aristotle, *Metaphysics* IV.1, 1003a21-26: there is an
+inquiry that studies being qua being and studies what belongs to that formal object in
+its own right.
+
+`being` is deliberately a supplied formal object rather than a predicate whose extension
+is fixed by this declaration. Thus this reading does not decide whether Aristotle's
+"being" is a univocal genus, a focal notion, or something else. Likewise,
+`BelongsInOwnRight` records the passage's *kath' hauto* relation without identifying it
+with necessity, essence, or a modern modal notion.
+
+Source: Aristotle, *Metaphysics* IV.1, 1003a21-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
+-/
+def BeingQuaBeingInquiryFormalObjectReading
+    {Inquiry : Type u}
+    {Subject : Type v}
+    {Attribute : Type w}
+    (StudiesBeingQuaBeing : Inquiry → Subject → Prop)
+    (BelongsInOwnRight : Subject → Attribute → Prop)
+    (StudiesAttribute : Inquiry → Attribute → Prop)
+    (being : Subject) : Prop :=
+  ∃ inquiry,
+    StudiesBeingQuaBeing inquiry being ∧
+      ∀ property, BelongsInOwnRight being property → StudiesAttribute inquiry property
+
+/--
+Distributive-scope reading of Aristotle, *Metaphysics* IV.1, 1003a21-26: one inquiry
+studies every being under the respect in which it is, along with the attributes that
+belong to each such being in its own right.
+
+The immediately following contrast says that the particular sciences do not examine
+being "universally" (*katholou*) qua being. This makes a quantificational scope reading
+defensible, but it is kept separate from
+`BeingQuaBeingInquiryFormalObjectReading`: the Greek need not require that the scope of
+a science be represented by enumeration over entities. `StudiesEntityQuaBeing` expresses
+scope only; it does not claim exhaustive possession of knowledge about each entity.
+
+As in the formal-object reading, `BelongsInOwnRightTo` leaves *kath' hauto* uninterpreted
+as a relation; no necessity, essence, or causal dependence is added.
+
+Source: Aristotle, *Metaphysics* IV.1, 1003a21-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
+-/
+def BeingQuaBeingInquiryDistributiveReading
+    {Inquiry : Type u}
+    {Entity : Type v}
+    {Attribute : Type w}
+    (IsBeing : Entity → Prop)
+    (StudiesEntityQuaBeing : Inquiry → Entity → Prop)
+    (BelongsInOwnRightTo : Entity → Attribute → Prop)
+    (StudiesAttribute : Inquiry → Attribute → Prop) : Prop :=
+  ∃ inquiry,
+    (∀ entity, IsBeing entity → StudiesEntityQuaBeing inquiry entity) ∧
+      ∀ entity property,
+        IsBeing entity →
+          BelongsInOwnRightTo entity property →
+            StudiesAttribute inquiry property
+
+end TruthCore.Greek.Aristotle.Metaphysics
