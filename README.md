@@ -9,7 +9,7 @@ The MVP deliberately has a small scope:
 3. keep alternative defensible readings as separate claims rather than forcing a canonical interpretation;
 4. state arguments independently in `Challenge.lean`;
 5. prove the same statements in `Solution.lean`;
-6. verify the statement/proof boundary with [`leanprover/comparator`](https://github.com/leanprover/comparator), the mechanical core used by Palomar.
+6. verify the statement/proof boundary with the repository's Rust comparator.
 
 The public Palomar registry currently targets research mathematics. This repository therefore uses Palomar's mechanical architecture without pretending that its philosophical entries are public Palomar registrations.
 
@@ -32,7 +32,8 @@ corpus/
   results/                     result metadata
 results/<RESULT-ID>/            Comparator configurations
 scripts/corpus.py              inspect/validate the work queue
-scripts/verify-result.sh       run real Comparator for one result
+verifier/                      Rust Comparator implementation
+scripts/verify-result.sh       run Comparator for one result
 scripts/bootstrap-verifier.sh  build pinned verification tools
 ```
 
@@ -61,7 +62,7 @@ scripts/verify-result.sh PLATO-TIM-28A-28C-COSMOS-CAUSE-A
 scripts/verify-result.sh PLATO-TIM-28A-28C-COSMOS-CAUSE-B
 ```
 
-Comparator builds the Challenge and Solution independently, checks that the advertised theorem has the same statement on both sides, rejects non-permitted axioms, and replays the proof through Lean. The configs also enable NanoDa as an independent kernel check.
+The Rust Comparator builds the Challenge and Solution independently in Landrun, exports their Lean environments, checks that the advertised theorem and its transitive statement environment match, and rejects non-permitted axioms. Lean checks the freshly built solution; the configs also enable NanoDa as an independent kernel check.
 
 The local bootstrap is intended for reproducible development. Palomar's hosted service has additional registry, policy, sandboxing, disclosure, and editorial machinery that this MVP does not reproduce.
 
@@ -73,7 +74,9 @@ The initial vertical slice contains:
 - **Plato, _Timaeus_ 28b–28c** — the cosmos is treated as something that came to be.
 - **Two corresponding arguments** — from the relevant causal principle plus the generated-cosmos premise to existence of a cause; each has its own Challenge/Solution pair.
 - **Aristotle, _Physics_ II.3, 194b–195a** — a first source-derived four-causes classification claim.
-- **Aristotle, _Metaphysics_ IV.1, 1003a21ff.** — queued as the next candidate so the Codex loop has real work to continue with.
+- **Aristotle, _Metaphysics_ IV.1, 1003a21ff.** — two readings of inquiry into being qua being.
+- **Aristotle, _Categories_ V, 2a11-19** — a primary-substance definition that preserves the two subject-relations introduced in I.2.
+- **Aristotle, _Physics_ III.1, 200b12-15** — queued as the next dependency-oriented candidate on change.
 
 None of these records claims that Lean establishes the historical or philosophical truth of a premise. Lean/Comparator establishes only the formal consequence encoded by the verified argument. Source fidelity remains a distinct research/review question.
 

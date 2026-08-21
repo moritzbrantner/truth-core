@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-CAT",
+  "kind": "primary_text",
+  "author": "Aristotle",
+  "work": "Categories",
+  "citation_system": "Bekker",
+  "work_urn": "urn:cts:greekLit:tlg0086.tlg006",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg006.opp-grc1",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg006",
+  "notes": "Use Bekker locators as the human-stable citation. The initial claim reads the primary-substance definition in Categories V together with the relations defined in I.2."
+}

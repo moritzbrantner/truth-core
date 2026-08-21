@@ -1,0 +1,12 @@
+[package]
+name = "truth-core-comparator"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Rust comparator for truth-core Lean challenge/solution pairs"
+
+[dependencies]
+anyhow = "1.0.102"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tempfile = "3.25.0"

@@ -34,12 +34,8 @@ clone_at() {
   fi
 }
 
-echo "==> comparator $COMPARATOR_REV"
-clone_at https://github.com/leanprover/comparator.git "$COMPARATOR_REV" "$WORK/comparator"
-(
-  cd "$WORK/comparator"
-  lake build comparator
-)
+echo "==> truth-core Rust comparator"
+cargo build --locked --release --manifest-path "$ROOT/verifier/Cargo.toml" --target-dir "$WORK/rust-target"
 
 echo "==> lean4export $LEAN4EXPORT_REV (matches truth-core Lean 4.32.0)"
 clone_at https://github.com/leanprover/lean4export.git "$LEAN4EXPORT_REV" "$WORK/lean4export"
@@ -64,7 +60,7 @@ clone_at https://github.com/ammkrn/nanoda_lib.git "$NANODA_REV" "$WORK/nanoda_li
 
 cat <<SUMMARY
 verifier ready in $WORK
-  comparator:  $WORK/comparator/.lake/build/bin/comparator
+  comparator:  $WORK/rust-target/release/truth-core-comparator
   lean4export: $WORK/lean4export/.lake/build/bin/lean4export
   landrun:     $WORK/bin/landrun
   nanoda:      $WORK/nanoda_lib/target/release/nanoda_bin

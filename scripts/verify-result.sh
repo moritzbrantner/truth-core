@@ -16,7 +16,7 @@ if [[ ! -f "$CONFIG" ]]; then
   exit 2
 fi
 
-COMPARATOR_BIN="$WORK/comparator/.lake/build/bin/comparator"
+COMPARATOR_BIN="$WORK/rust-target/release/truth-core-comparator"
 LEAN4EXPORT_BIN="$WORK/lean4export/.lake/build/bin/lean4export"
 LANDRUN_BIN="$WORK/bin/landrun"
 NANODA_BIN="$WORK/nanoda_lib/target/release/nanoda_bin"
