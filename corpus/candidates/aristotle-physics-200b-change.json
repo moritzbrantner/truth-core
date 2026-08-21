@@ -1,9 +1,0 @@
-{
-  "id": "ARIST-PHYS-200B-CHANGE",
-  "source_id": "ARIST-PHYS",
-  "locator": "III.1, 200b12-15",
-  "priority": 10,
-  "goal": "Research and formalize the weakest faithful reading of Aristotle's account of change as the actuality of what exists potentially, insofar as it exists potentially.",
-  "reason": "This is the next bootstrap dependency after primary substance: it introduces change while preserving the potentiality/actuality distinction needed for later Metaphysics VII, IX, and XII work. It is distinct from the existing four-causes claim in Physics II.3.",
-  "status": "candidate"
-}
