@@ -4,7 +4,7 @@ Source-derived claims from Aristotle's *Physics*.
 
 namespace TruthCore.Greek.Aristotle.Physics
 
-universe u v
+universe u v w
 
 /--
 An exhaustive-classification reading of Aristotle, *Physics* II.3, 194b16-195a3:
@@ -32,5 +32,67 @@ def FourCauseExhaustiveReading
       Formal cause effect ∨
       SourceOfChange cause effect ∨
       Final cause effect
+
+/--
+Relation-preserving definitional reading of Aristotle, *Physics* III.1, 201a10-11:
+an occurrence is change exactly when it is the actuality of some subject that exists
+potentially, precisely qua potential.
+
+`ExistsPotentially` and `IsActualityOfQuaPotential` remain supplied predicates. The
+second preserves the passage's compound actuality/qua-potential relation without deciding
+whether `entelecheia` should be further explained as a product-like actuality, a
+process-like actualization, or a manifested potentiality. This reading adds no target state,
+temporal interval, mover, completed outcome, or particular category of change.
+
+The opening at 200b12-15 motivates the inquiry into change; the definition itself occurs at
+201a10-11. The subsequent examples and explanation clarify it but are not folded into this
+weakest reading.
+
+Source: Aristotle, *Physics* III.1, 201a10-11; immediate context 200b12-201b15
+(Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeAsActualityOfPotentialReading
+    {Occurrence : Type u}
+    {Subject : Type v}
+    (IsChange : Occurrence → Prop)
+    (ExistsPotentially : Subject → Prop)
+    (IsActualityOfQuaPotential : Occurrence → Subject → Prop) : Prop :=
+  ∀ occurrence,
+    IsChange occurrence ↔
+      ∃ subject,
+        ExistsPotentially subject ∧
+          IsActualityOfQuaPotential occurrence subject
+
+/--
+Outcome-indexed reading of Aristotle, *Physics* III.1, 201a10-11: an occurrence is
+change exactly when it is the actuality of a subject's potential for some outcome,
+precisely qua having that potential.
+
+The examples immediately following the definition—alterable qua alterable, increasable,
+buildable qua buildable—make a potential-for-an-outcome reading defensible. It remains
+separate from `ChangeAsActualityOfPotentialReading` because the compact Greek definition
+does not itself supply an explicit outcome variable.
+
+`PotentialFor` and `IsActualityOfQuaPotentialFor` remain primitive. Consequently this
+reading does not assert that change reaches the outcome, consumes the potentiality, is a
+completed actuality, or has any modern temporal or causal analysis.
+
+Source: Aristotle, *Physics* III.1, 201a10-15; explanatory context 201a27-201b15
+(Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeAsActualityOfPotentialForOutcomeReading
+    {Occurrence : Type u}
+    {Subject : Type v}
+    {Outcome : Type w}
+    (IsChange : Occurrence → Prop)
+    (PotentialFor : Subject → Outcome → Prop)
+    (IsActualityOfQuaPotentialFor : Occurrence → Subject → Outcome → Prop) : Prop :=
+  ∀ occurrence,
+    IsChange occurrence ↔
+      ∃ subject outcome,
+        PotentialFor subject outcome ∧
+          IsActualityOfQuaPotentialFor occurrence subject outcome
 
 end TruthCore.Greek.Aristotle.Physics
