@@ -35,6 +35,7 @@ scripts/corpus.py              inspect/validate the work queue
 verifier/                      Rust Comparator implementation
 scripts/verify-result.sh       run Comparator for one result
 scripts/bootstrap-verifier.sh  build pinned verification tools
+apps/corpus-explorer/          static scholarly corpus explorer
 ```
 
 There is intentionally no RDF, graph database, embedding index, or application database in the MVP. Those can be derived later from the verified corpus.
@@ -79,6 +80,21 @@ The initial vertical slice contains:
 - **Aristotle, _Physics_ III.1, 200b12-15** — queued as the next dependency-oriented candidate on change.
 
 None of these records claims that Lean establishes the historical or philosophical truth of a premise. Lean/Comparator establishes only the formal consequence encoded by the verified argument. Source fidelity remains a distinct research/review question.
+
+## Corpus Explorer
+
+The first web application is a static Next.js explorer of the canonical `corpus/`
+records. It is managed as a Bun workspace with Turborepo so later applications can
+be added under `apps/` without giving this read-only explorer its own database.
+
+```bash
+bun install
+bun run dev
+```
+
+Run `bun run typecheck`, `bun run test`, `bun run lint`, and `bun run build` to
+validate the web application. The production build writes the static site to
+`apps/corpus-explorer/out/`.
 
 ## Worker loop
 
