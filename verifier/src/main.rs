@@ -659,6 +659,8 @@ fn sandbox(
             "--env",
             "HOME",
             "--env",
+            "LEAN_PATH",
+            "--env",
             "LEAN_ABORT_ON_PANIC",
         ])
         .arg("--ro")

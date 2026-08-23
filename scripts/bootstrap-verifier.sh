@@ -30,8 +30,8 @@ clone_at() {
 
   if [[ "$(git -C "$dir" rev-parse HEAD 2>/dev/null || true)" != "$rev" ]]; then
     git -C "$dir" fetch --depth=1 origin "$rev"
-    git -C "$dir" checkout --detach "$rev"
   fi
+  git -C "$dir" checkout --detach "$rev"
 }
 
 echo "==> truth-core Rust comparator"
