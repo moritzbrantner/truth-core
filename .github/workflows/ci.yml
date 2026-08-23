@@ -19,8 +19,6 @@ jobs:
         with:
           build: true
           test: false
-          nanoda: true
-          nanoda-allow-sorry: false
       - name: Validate corpus metadata
         run: python3 scripts/corpus.py check
 
@@ -39,5 +37,7 @@ jobs:
           test: false
       - name: Build pinned Comparator toolchain
         run: scripts/bootstrap-verifier.sh
+      - name: Verify the built library with NanoDa
+        run: scripts/verify-library.sh
       - name: Verify all advertised results
         run: scripts/verify-all.sh

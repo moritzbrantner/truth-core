@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6f3ed;
+  --ink: #20201e;
+  --muted: #67645e;
+  --line: #d8d2c7;
+  --line-strong: #a8a196;
+  --accent: #28556b;
+  --callout: #ebe8e0;
+}
+
+:root[data-theme="light"] {
+  --paper: #f6f3ed;
+  --ink: #20201e;
+  --muted: #67645e;
+  --line: #d8d2c7;
+  --line-strong: #a8a196;
+  --accent: #28556b;
+  --callout: #ebe8e0;
+}
+
+:root[data-theme="dark"] {
+  --paper: #191a19;
+  --ink: #edebe5;
+  --muted: #bcb7ae;
+  --line: #3b3c39;
+  --line-strong: #7e7d77;
+  --accent: #89bdd2;
+  --callout: #242624;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #191a19;
+    --ink: #edebe5;
+    --muted: #bcb7ae;
+    --line: #3b3c39;
+    --line-strong: #7e7d77;
+    --accent: #89bdd2;
+    --callout: #242624;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a,
+button,
+input,
+select,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.font-serif {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.eyebrow {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.link-quiet {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: var(--line-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.link-quiet:hover {
+  color: var(--accent);
+  text-decoration-color: currentcolor;
+}
+
+.field-label {
+  color: var(--muted);
+  display: grid;
+  font-size: 0.72rem;
+  font-weight: 700;
+  gap: 0.55rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.field-control {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.75rem;
+  text-transform: none;
+}
+
+.field-control:focus-visible,
+summary:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.record-section {
+  border-top: 1px solid var(--line);
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+.record-link {
+  border: 1px solid var(--line);
+  display: block;
+  padding: 1.5rem;
+  transition: border-color 150ms ease, background 150ms ease, color 150ms ease;
+}
+
+.record-link:hover {
+  background: var(--callout);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.details-panel summary {
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  letter-spacing: -0.02em;
+}
+
+.details-panel dt {
+  color: var(--muted);
+}
