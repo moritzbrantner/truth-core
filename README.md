@@ -77,7 +77,7 @@ The initial vertical slice contains:
 - **Aristotle, _Physics_ II.3, 194b–195a** — a first source-derived four-causes classification claim.
 - **Aristotle, _Metaphysics_ IV.1, 1003a21ff.** — two readings of inquiry into being qua being.
 - **Aristotle, _Categories_ V, 2a11-19** — a primary-substance definition that preserves the two subject-relations introduced in I.2.
-- **Aristotle, _Physics_ III.1, 200b12-15** — queued as the next dependency-oriented candidate on change.
+- **Aristotle, _Physics_ III.1, 201a10–11** — a weakest relation-preserving definition of change and a separate outcome-indexed reading supported by the immediate examples.
 
 None of these records claims that Lean establishes the historical or philosophical truth of a premise. Lean/Comparator establishes only the formal consequence encoded by the verified argument. Source fidelity remains a distinct research/review question.
 

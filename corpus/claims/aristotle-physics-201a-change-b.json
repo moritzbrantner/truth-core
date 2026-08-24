@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-PHYS-201A-CHANGE-B",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201a10-15; explanatory context 201a27-201b15",
+  "interpretation_group": "ARIST-PHYS-201A-CHANGE",
+  "interpretation_of": "ARIST-PHYS-201A-CHANGE-A",
+  "interpretation": "Outcome-indexed reading: the potential subject is potential for some outcome, and change is the actuality of that subject precisely qua having that potential. The nearby alterable, increasable, and buildable examples support making the outcome explicit, but this is kept separate from the weaker relation-preserving reading. The relations remain primitive and do not imply completion, loss of potentiality, or a modern temporal or causal model.",
+  "paraphrase": "Change is the actuality of a subject's potential for an outcome, precisely qua that potential.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ChangeAsActualityOfPotentialForOutcomeReading",
+  "status": "formalized"
+}

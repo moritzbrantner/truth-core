@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-201A-CHANGE-A",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201a10-11; immediate context 200b12-201b15",
+  "interpretation_group": "ARIST-PHYS-201A-CHANGE",
+  "interpretation": "Relation-preserving definitional reading: an occurrence is change exactly when it is the actuality of some subject that exists potentially, precisely qua potential. Potential existence and the compound actuality/qua-potential relation remain primitive, so the claim does not decide between product-like actuality, process-like actualization, or manifested-potentiality analyses and adds no target state, time, mover, completion, or category.",
+  "paraphrase": "Change is the actuality of what exists potentially, insofar as it exists potentially.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ChangeAsActualityOfPotentialReading",
+  "status": "formalized"
+}

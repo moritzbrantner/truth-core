@@ -7,9 +7,9 @@ describe("corpus reader", () => {
     const corpus = getCorpus();
 
     expect(corpus.sources).toHaveLength(4);
-    expect(corpus.claims).toHaveLength(7);
+    expect(corpus.claims).toHaveLength(9);
     expect(corpus.results).toHaveLength(2);
-    expect(corpus.candidates).toHaveLength(1);
+    expect(corpus.candidates).toHaveLength(0);
     expect(resultsForClaim(corpus, "PLATO-TIM-28A-CAUSE-A")).toHaveLength(1);
   });
 
@@ -21,6 +21,8 @@ describe("corpus reader", () => {
       "ARIST-MET-1003A-BEING-QUA-BEING-A",
       "ARIST-MET-1003A-BEING-QUA-BEING-B",
       "ARIST-PHYS-194B-FOUR-CAUSES-A",
+      "ARIST-PHYS-201A-CHANGE-A",
+      "ARIST-PHYS-201A-CHANGE-B",
       "PLATO-TIM-28A-CAUSE-A",
       "PLATO-TIM-28A-CAUSE-B",
       "PLATO-TIM-28BC-COSMOS-GENERATED",

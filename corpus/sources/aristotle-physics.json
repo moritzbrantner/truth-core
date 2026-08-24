@@ -7,5 +7,5 @@
   "work_urn": "urn:cts:greekLit:tlg0086.tlg031",
   "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg031.opp-grc2",
   "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg031",
-  "notes": "Use Bekker locators as the human-stable citation. The seed claim uses Physics II.3, 194b-195a."
+  "notes": "Use Bekker locators as the human-stable citation. Initial claims use the four-causes discussion at II.3, 194b16-195a3 and the definition of change at III.1, 201a10-11. III.1 begins at 200b12, where Aristotle motivates investigating change; that opening is context, not the definition's locator."
 }
