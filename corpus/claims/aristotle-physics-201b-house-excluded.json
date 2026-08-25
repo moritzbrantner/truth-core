@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201B-HOUSE-EXCLUDED-A",
+  "statement_id": "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201b10-13",
+  "interpretation": "Compressed premise from Aristotle's parenthetical reasoning: the completed house cannot be the relevant actuality of the buildable qua buildable because, once the house is present, the subject is no longer buildable in that respect. This does not deny actuality to the house simpliciter.",
+  "status": "formalized"
+}

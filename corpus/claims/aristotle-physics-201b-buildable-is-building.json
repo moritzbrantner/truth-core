@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201B-BUILDABLE-IS-BUILDING-A",
+  "statement_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201b9-15",
+  "interpretation": "Conclusion of the buildable example: the actuality of the buildable qua buildable is building. The nearby statement that building is a kind of motion connects the example back to the general definition without identifying the completed product with the motion.",
+  "status": "formalized"
+}

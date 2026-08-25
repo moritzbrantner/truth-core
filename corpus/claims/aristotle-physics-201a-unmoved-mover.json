@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201A-UNMOVED-MOVER-A",
+  "statement_id": "STMT-UNMOVED-MOVER-EXISTS",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201a25-27",
+  "interpretation": "Minimal existential reading of Aristotle's explicit exception: some mover is unmoved. The passage defers the demonstration, so this claim imports neither the later proof nor any theological identification of the mover.",
+  "status": "formalized"
+}

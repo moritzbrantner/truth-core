@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201A-PHYSICAL-MOVER-MOVED-A",
+  "statement_id": "STMT-PHYSICAL-MOVER-IS-MOVED",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201a19-25",
+  "interpretation": "Qualified physical-mover reading: a mover of the kind under discussion in the reciprocal physical interaction is itself moved while moving. This intentionally does not universalize the claim to every mover, since Aristotle immediately announces an unmoved-mover exception.",
+  "status": "formalized"
+}
