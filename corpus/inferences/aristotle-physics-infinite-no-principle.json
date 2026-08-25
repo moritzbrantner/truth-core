@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-INFINITE-NO-PRINCIPLE",
+  "input_statement_ids": [
+    "STMT-INFINITE-PRINCIPLE-WOULD-LIMIT",
+    "STMT-INFINITE-NOT-LIMITED"
+  ],
+  "output_statement_id": "STMT-INFINITE-HAS-NO-PRINCIPLE",
+  "rule": "modus_tollens",
+  "meaning": "If a principle would limit the infinite and the infinite under discussion is not limited, it cannot have such a principle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
