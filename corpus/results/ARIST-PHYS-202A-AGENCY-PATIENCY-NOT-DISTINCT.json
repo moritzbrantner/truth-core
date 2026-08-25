@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
+  "argument_id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.agencyPatiencyNotDistinctMotions",
+  "comparator_config": "results/ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT/comparator.json",
+  "status": "solution-present"
+}

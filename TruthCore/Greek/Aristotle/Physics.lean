@@ -341,4 +341,117 @@ def MoverCarriesFormAsCauseReading
         CarriesForm mover form ∧
           FormIsSourceAndCauseOf form change
 
+/--
+Location reading of Aristotle, *Physics* III.3, 202a13-15: the motion is in the movable.
+
+`IsMotionOf` and `IsInMovable` remain supplied relations so that "in" is not silently
+converted into spatial containment. The source explains the location through motion's being
+the actuality of the movable under the action of what can move it.
+
+Source: Aristotle, *Physics* III.3, 202a13-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionLocatedInMovableReading
+    {Motion : Type u}
+    {Movable : Type v}
+    (IsMotionOf : Motion → Movable → Prop)
+    (IsInMovable : Motion → Movable → Prop) : Prop :=
+  ∀ motion movable, IsMotionOf motion movable → IsInMovable motion movable
+
+/--
+Shared-actuality reading of Aristotle, *Physics* III.3, 202a14-20: the actuality of the mover
+as acting on the movable and the actuality of the movable as being moved are one actuality.
+
+The two actuality relations remain distinct predicates even when one witness satisfies both.
+This preserves Aristotle's later insistence that the accounts of agency and patiency differ.
+
+Source: Aristotle, *Physics* III.3, 202a14-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MoverMovedShareOneActualityReading
+    {Mover : Type u}
+    {Movable : Type v}
+    {Actuality : Type w}
+    (Moves : Mover → Movable → Prop)
+    (ActualityOfMoverActing : Actuality → Mover → Movable → Prop)
+    (ActualityOfMovableBeingMoved : Actuality → Mover → Movable → Prop) : Prop :=
+  ∀ mover movable,
+    Moves mover movable →
+      ∃ actuality,
+        ActualityOfMoverActing actuality mover movable ∧
+          ActualityOfMovableBeingMoved actuality mover movable
+
+/--
+First premise of Aristotle's dialectical resolution in *Physics* III.3, 202a25-35: if
+agency and patiency were two distinct motions in the patient, the patient would undergo two
+simultaneous alterations toward one definite form.
+
+The propositions are intentionally scoped to the objection being answered; no general rule
+about every pair of activities is asserted.
+
+Source: Aristotle, *Physics* III.3, 202a25-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DistinctAgencyPatiencyWouldDoubleAlterationReading
+    (AgencyPatiencyAreDistinctMotions : Prop)
+    (TwoAlterationsTowardOneForm : Prop) : Prop :=
+  AgencyPatiencyAreDistinctMotions → TwoAlterationsTowardOneForm
+
+/--
+Second premise in Aristotle's *Physics* III.3, 202a31-35: two simultaneous alterations of
+one patient toward one definite form are impossible in the case under discussion.
+
+Source: Aristotle, *Physics* III.3, 202a31-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TwoAlterationsTowardOneFormImpossibleReading
+    (TwoAlterationsTowardOneForm : Prop) : Prop :=
+  ¬ TwoAlterationsTowardOneForm
+
+/--
+Conclusion of the preceding argument in Aristotle, *Physics* III.3, 202a31-36: agency and
+patiency are not two distinct motions in the patient; the actualization is one.
+
+This weak conclusion does not yet say that agency and patiency have the same definition.
+
+Source: Aristotle, *Physics* III.3, 202a31-36 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AgencyPatiencyNotDistinctMotionsReading
+    (AgencyPatiencyAreDistinctMotions : Prop) : Prop :=
+  ¬ AgencyPatiencyAreDistinctMotions
+
+/--
+Qualified identity reading of Aristotle, *Physics* III.3, 202b5-10: one actuality can belong
+to the agent and patient while their activities are not thereby the same in account.
+
+The two proposition parameters keep underlying actuality identity distinct from identity in
+definition. The statement records the combination Aristotle explicitly permits rather than a
+general principle that every shared actuality entails difference of account.
+
+Source: Aristotle, *Physics* III.3, 202b5-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SharedActualityDifferentAccountReading
+    (ShareOneActuality : Prop)
+    (SameInAccount : Prop) : Prop :=
+  ShareOneActuality ∧ ¬ SameInAccount
+
+/--
+Teaching/learning conclusion of Aristotle, *Physics* III.3, 202b16-22: teaching and learning,
+and more generally agency and patiency, belong to one underlying motion while differing in
+account.
+
+This preserves the source's distinction between sameness of the underlying motion and
+sameness of definition; it does not infer that the teacher learns merely because teaching and
+learning concern the same motion.
+
+Source: Aristotle, *Physics* III.3, 202b16-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TeachingLearningSameMotionDifferentAccountReading
+    (ShareUnderlyingMotion : Prop)
+    (SameInAccount : Prop) : Prop :=
+  ShareUnderlyingMotion ∧ ¬ SameInAccount
+
 end TruthCore.Greek.Aristotle.Physics

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.AgencyPatiency.agencyPatiencyNotDistinctMotions"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
