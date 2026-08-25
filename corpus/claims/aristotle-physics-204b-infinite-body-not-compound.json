@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-COMPOUND-A",
+  "statement_id": "STMT-INFINITE-SENSIBLE-BODY-NOT-COMPOUND",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.5, 204b10-22",
+  "interpretation": "Physical case analysis: an infinite sensible body cannot be a compound of the finite contrary elements. An infinite amount of one would overwhelm a finite contrary, while making every component infinite is also excluded. The elemental physics is kept source-scoped rather than generalized.",
+  "status": "formalized"
+}

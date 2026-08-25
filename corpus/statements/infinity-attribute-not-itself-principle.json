@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITY-ATTRIBUTE-NOT-ITSELF-PRINCIPLE",
+  "paraphrase": "If infinity belongs to something as an attribute, infinity qua infinity is not itself the underlying principle; the subject bearing it would be the candidate principle.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfinityAsAttributeNotItselfPrincipleReading"
+}

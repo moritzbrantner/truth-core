@@ -2,6 +2,7 @@ import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
+import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
@@ -9,3 +10,4 @@ import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution
 import TruthCore.Results.Aristotle.Physics.AlternativePredicates.Solution
 import TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution
 import TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution
+import TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution

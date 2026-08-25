@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "premise_statement_ids": [
+    "STMT-SEPARATE-INFINITE-SUBSTANCE-WOULD-BE-INDIVISIBLE",
+    "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE"
+  ],
+  "conclusion_statement_id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "inference_ids": [
+    "INF-ARIST-PHYS-NO-SEPARATE-INFINITE-SUBSTANCE"
+  ],
+  "meaning": "Aristotle's opening III.5 argument rejects a separable substance that is itself infinite in the physically relevant sense: the hypothesis makes it indivisible, while that is not the sense of infinity under investigation."
+}
