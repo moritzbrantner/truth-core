@@ -12,7 +12,7 @@ import {
   type Node,
   type NodeProps,
 } from "@xyflow/react";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 import {
   projectArgumentComposition,
@@ -175,7 +175,7 @@ export function ArgumentFlow({ corpus, rootArgumentId }: ArgumentFlowProps) {
     [corpus, expandedArgumentIds, rootArgumentId],
   );
 
-  function toggleArgument(argumentId: string) {
+  const toggleArgument = useCallback((argumentId: string) => {
     setExpandedArgumentIds((current) => {
       const next = new Set(current);
       if (next.has(argumentId)) {
@@ -185,11 +185,11 @@ export function ArgumentFlow({ corpus, rootArgumentId }: ArgumentFlowProps) {
       }
       return next;
     });
-  }
+  }, []);
 
   const nodes = useMemo(
     () => toFlowNodes(projection.nodes, toggleArgument),
-    [projection.nodes],
+    [projection.nodes, toggleArgument],
   );
   const edges = useMemo(() => toFlowEdges(projection.edges), [projection.edges]);
 
