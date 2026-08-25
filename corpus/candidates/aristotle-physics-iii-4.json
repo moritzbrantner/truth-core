@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-III-4",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.4",
+  "priority": 40,
+  "goal": "Process Physics III.4 as one contiguous source range, extracting and formalizing all philosophically substantive readings and arguments in source order rather than sentence-by-sentence prompting.",
+  "reason": "Continue the systematic Physics III pass in chapter order.",
+  "status": "candidate"
+}

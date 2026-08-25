@@ -21,7 +21,7 @@ describe("corpus reader", () => {
     expect(corpus.arguments).toHaveLength(2);
     expect(corpus.relations).toHaveLength(0);
     expect(corpus.results).toHaveLength(2);
-    expect(corpus.candidates).toHaveLength(0);
+    expect(corpus.candidates.every((candidate) => candidate.status === "candidate")).toBe(true);
     expect(resultsForClaim(corpus, "PLATO-TIM-28A-CAUSE-A")).toHaveLength(1);
   });
 
