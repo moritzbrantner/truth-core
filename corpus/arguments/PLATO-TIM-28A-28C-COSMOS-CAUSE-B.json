@@ -1,0 +1,12 @@
+{
+  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
+  "premise_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-DISTINCT",
+    "STMT-COSMOS-GENERATED"
+  ],
+  "conclusion_statement_id": "STMT-COSMOS-HAS-DISTINCT-CAUSE",
+  "inference_ids": [
+    "INF-PLATO-TIM-COSMOS-CAUSE-B"
+  ],
+  "meaning": "Under the stronger distinct-cause reading and the generated-cosmos premise, a cause distinct from the cosmos exists."
+}

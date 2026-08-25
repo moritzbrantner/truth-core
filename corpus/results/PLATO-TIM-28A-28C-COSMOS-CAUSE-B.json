@@ -1,13 +1,9 @@
 {
   "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
-  "claim_ids": [
-    "PLATO-TIM-28A-CAUSE-B",
-    "PLATO-TIM-28BC-COSMOS-GENERATED"
-  ],
+  "argument_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
   "challenge_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Challenge",
   "solution_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution",
   "theorem": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.cosmosHasDistinctCause",
   "comparator_config": "results/PLATO-TIM-28A-28C-COSMOS-CAUSE-B/comparator.json",
-  "status": "solution-present",
-  "meaning": "Under the stronger distinct-cause reading and the generated-cosmos premise, a cause distinct from the cosmos exists."
+  "status": "solution-present"
 }

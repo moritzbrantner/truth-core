@@ -1,0 +1,12 @@
+{
+  "id": "INF-PLATO-TIM-COSMOS-CAUSE-A",
+  "input_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-BROAD",
+    "STMT-COSMOS-GENERATED"
+  ],
+  "output_statement_id": "STMT-COSMOS-HAS-CAUSE",
+  "rule": "principle_application",
+  "meaning": "Apply the broad causal principle to the generated cosmos.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
