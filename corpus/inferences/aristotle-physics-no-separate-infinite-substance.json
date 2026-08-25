@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "input_statement_ids": [
+    "STMT-SEPARATE-INFINITE-SUBSTANCE-WOULD-BE-INDIVISIBLE",
+    "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE"
+  ],
+  "output_statement_id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "rule": "modus_tollens",
+  "meaning": "If a separable infinite substance would have to be indivisible, while the relevant infinite is not that indivisible item, reject the separable-substance hypothesis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

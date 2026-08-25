@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "argument_id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.noSeparateInfiniteSubstance",
+  "comparator_config": "results/ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE/comparator.json",
+  "status": "solution-present"
+}

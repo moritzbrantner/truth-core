@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-SENSIBLE-BODY-NOT-COMPOUND",
+  "paraphrase": "An actually infinite sensible body cannot be a compound of the finite set of contrary elements under discussion.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteSensibleBodyNotCompoundReading"
+}

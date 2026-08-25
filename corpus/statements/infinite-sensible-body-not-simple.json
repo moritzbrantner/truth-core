@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-SENSIBLE-BODY-NOT-SIMPLE",
+  "paraphrase": "An actually infinite sensible body cannot instead be one simple sensible body, whether a familiar element or an additional sensible element.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteSensibleBodyNotSimpleReading"
+}
