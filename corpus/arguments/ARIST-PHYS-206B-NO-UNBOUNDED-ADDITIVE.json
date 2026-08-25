@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "premise_statement_ids": [
+    "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
+    "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY"
+  ],
+  "conclusion_statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
+  "inference_ids": [
+    "INF-ARIST-PHYS-NO-UNBOUNDED-ADDITIVE"
+  ],
+  "meaning": "Physics III.6 reuses the III.5 rejection of an actually infinite sensible body to deny a potential infinity by addition that could exceed every determinate magnitude."
+}
