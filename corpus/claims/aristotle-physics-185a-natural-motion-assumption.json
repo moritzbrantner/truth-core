@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-185A-NATURAL-MOTION-ASSUMPTION-A",
+  "statement_id": "STMT-SOME-NATURAL-THINGS-IN-MOTION",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.2, 185a12-14",
+  "interpretation": "Starting-point reading: physics assumes that at least some natural things move, which Aristotle says is evident by induction. This is recorded as a source commitment rather than a theorem proved from the later theory of motion.",
+  "status": "formalized"
+}

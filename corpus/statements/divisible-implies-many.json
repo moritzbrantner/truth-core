@@ -1,0 +1,5 @@
+{
+  "id": "STMT-DIVISIBLE-IMPLIES-MANY",
+  "paraphrase": "What is divisible has a plurality of parts and so is many in that respect.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.DivisibleImpliesManyReading"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "premise_statement_ids": [
+    "STMT-CONTINUOUS-ONE-IMPLIES-DIVISIBLE",
+    "STMT-DIVISIBLE-IMPLIES-MANY"
+  ],
+  "conclusion_statement_id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "inference_ids": [
+    "INF-ARIST-PHYS-CONTINUOUS-ONE-MANY"
+  ],
+  "meaning": "Aristotle's Physics I.2 test of continuous unity: continuity entails divisibility, and divisibility entails plurality of parts, so the alleged One is many in that respect."
+}

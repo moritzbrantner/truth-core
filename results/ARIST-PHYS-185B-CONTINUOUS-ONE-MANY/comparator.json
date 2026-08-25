@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.continuousOneImpliesMany"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

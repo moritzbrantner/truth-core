@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "argument_id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.continuousOneImpliesMany",
+  "comparator_config": "results/ARIST-PHYS-185B-CONTINUOUS-ONE-MANY/comparator.json",
+  "status": "solution-present"
+}
