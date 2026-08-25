@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-HAS-NO-PRINCIPLE",
+  "paraphrase": "An infinite taken as unbounded has no prior principle or beginning, since such a principle would limit it.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteHasNoPrincipleReading"
+}

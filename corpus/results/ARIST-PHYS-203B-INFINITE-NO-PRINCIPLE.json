@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "argument_id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.infiniteHasNoPrinciple",
+  "comparator_config": "results/ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE/comparator.json",
+  "status": "solution-present"
+}
