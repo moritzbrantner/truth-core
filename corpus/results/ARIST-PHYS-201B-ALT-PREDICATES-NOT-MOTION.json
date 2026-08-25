@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
+  "argument_id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.motionNotIdenticalWithAlternatives",
+  "comparator_config": "results/ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION/comparator.json",
+  "status": "solution-present"
+}

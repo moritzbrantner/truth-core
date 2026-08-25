@@ -196,4 +196,149 @@ def BuildableActualityIsBuildingReading
     (BuildingIsActuality : Prop) : Prop :=
   BuildingIsActuality
 
+/--
+Non-necessitation reading of Aristotle, *Physics* III.2, 201b19-24: being different, unequal,
+or a non-being does not by itself necessitate being in motion.
+
+The three predicates remain uninterpreted. This preserves Aristotle's immediate argument
+against identifying motion with any of them without importing a modern account of
+difference, inequality, or non-being.
+
+Source: Aristotle, *Physics* III.2, 201b19-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlternativePredicatesDoNotNecessitateMotionReading
+    {Entity : Type u}
+    (Different : Entity → Prop)
+    (Unequal : Entity → Prop)
+    (NonBeing : Entity → Prop)
+    (IsMoved : Entity → Prop) : Prop :=
+  (¬ (∀ entity, Different entity → IsMoved entity)) ∧
+    (¬ (∀ entity, Unequal entity → IsMoved entity)) ∧
+    (¬ (∀ entity, NonBeing entity → IsMoved entity))
+
+/--
+Conclusion drawn in Aristotle, *Physics* III.2, 201b19-24: motion is not identical with
+difference, inequality, or non-being.
+
+Identity here is represented extensionally only for the purpose of the explicit rejection.
+No claim is made that Aristotle's metaphysical notion of identity is exhausted by predicate
+coextension.
+
+Source: Aristotle, *Physics* III.2, 201b19-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionNotIdenticalWithAlternativePredicatesReading
+    {Entity : Type u}
+    (Different : Entity → Prop)
+    (Unequal : Entity → Prop)
+    (NonBeing : Entity → Prop)
+    (IsMoved : Entity → Prop) : Prop :=
+  (¬ (∀ entity, Different entity ↔ IsMoved entity)) ∧
+    (¬ (∀ entity, Unequal entity ↔ IsMoved entity)) ∧
+    (¬ (∀ entity, NonBeing entity ↔ IsMoved entity))
+
+/--
+Classification reading of Aristotle, *Physics* III.2, 201b27-202a2: motion cannot simply be
+identified either with bare potentiality or with sheer/completed actuality.
+
+The passage argues by noting that what is merely potential need not already be moving and
+what is actually the relevant completed kind need not be moving either. The primitive
+predicates avoid deciding a broader Aristotelian taxonomy of actuality at this stage.
+
+Source: Aristotle, *Physics* III.2, 201b27-202a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionNeitherBarePotentialNorSheerActualityReading
+    {Entity : Type u}
+    (BarePotential : Entity → Prop)
+    (SheerActuality : Entity → Prop)
+    (IsMoved : Entity → Prop) : Prop :=
+  (¬ (∀ entity, BarePotential entity ↔ IsMoved entity)) ∧
+    (¬ (∀ entity, SheerActuality entity ↔ IsMoved entity))
+
+/--
+Positive classification reading of Aristotle, *Physics* III.2, 201b31-202a2: motion is an
+actuality, but an incomplete actuality, because the potential whose actuality it is is
+incomplete.
+
+`IsIncompleteActualityOfPotential` remains a supplied relation. This records Aristotle's
+classification without equating incompleteness with a modern temporal, mereological, or
+process-theoretic notion.
+
+Source: Aristotle, *Physics* III.2, 201b31-202a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionAsIncompleteActualityReading
+    {Occurrence : Type u}
+    (IsMotion : Occurrence → Prop)
+    (IsIncompleteActualityOfPotential : Occurrence → Prop) : Prop :=
+  ∀ occurrence, IsMotion occurrence → IsIncompleteActualityOfPotential occurrence
+
+/--
+Reciprocity-by-contact reading of Aristotle, *Physics* III.2, 202a3-7: when a mover acts on
+a movable by contact in the relevant way, the mover is at the same time affected.
+
+This is narrower than the earlier existence of an unmoved mover and does not erase that
+exception. `MovesByContact` records the local physical qualification supplied by this
+passage.
+
+Source: Aristotle, *Physics* III.2, 202a3-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContactMoverIsAffectedReading
+    {Mover : Type u}
+    {Movable : Type v}
+    (MovesByContact : Mover → Movable → Prop)
+    (IsAffected : Mover → Prop) : Prop :=
+  ∀ mover movable, MovesByContact mover movable → IsAffected mover
+
+/--
+Restatement reading of Aristotle, *Physics* III.2, 202a7-9: motion is the actuality of the
+movable precisely qua movable, with the occurrence taking place through contact with a mover.
+
+The contact relation is kept explicit rather than silently folded into the general III.1
+definition. This statement therefore records the additional mover/movable structure exposed
+in III.2.
+
+Source: Aristotle, *Physics* III.2, 202a7-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionAsActualityOfMovableByContactReading
+    {Occurrence : Type u}
+    {Movable : Type v}
+    {Mover : Type w}
+    (IsMotion : Occurrence → Prop)
+    (IsActualityOfQuaMovable : Occurrence → Movable → Prop)
+    (OccursByContactWith : Occurrence → Mover → Movable → Prop) : Prop :=
+  ∀ occurrence,
+    IsMotion occurrence ↔
+      ∃ movable mover,
+        IsActualityOfQuaMovable occurrence movable ∧
+          OccursByContactWith occurrence mover movable
+
+/--
+Form-as-source reading of Aristotle, *Physics* III.2, 202a9-12: a mover, insofar as it acts
+as mover, brings or carries a form that functions as source and cause of the change.
+
+The example of an actual human generating a human from a potential human motivates the
+relation while the formalization remains generic. It does not identify every efficient cause
+with a form or settle the relation among Aristotle's four causal modes.
+
+Source: Aristotle, *Physics* III.2, 202a9-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MoverCarriesFormAsCauseReading
+    {Mover : Type u}
+    {Form : Type v}
+    {Change : Type w}
+    (Moves : Mover → Change → Prop)
+    (CarriesForm : Mover → Form → Prop)
+    (FormIsSourceAndCauseOf : Form → Change → Prop) : Prop :=
+  ∀ mover change,
+    Moves mover change →
+      ∃ form,
+        CarriesForm mover form ∧
+          FormIsSourceAndCauseOf form change
+
 end TruthCore.Greek.Aristotle.Physics
