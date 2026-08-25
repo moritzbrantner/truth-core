@@ -1,11 +1,10 @@
 {
   "id": "ARIST-MET-1003A-BEING-QUA-BEING-B",
+  "statement_id": "STMT-BEING-QUA-BEING-DISTRIBUTIVE",
   "source_id": "ARIST-MET",
   "locator": "IV.1, 1003a21-26",
   "interpretation_group": "ARIST-MET-1003A-BEING-QUA-BEING",
   "interpretation_of": "ARIST-MET-1003A-BEING-QUA-BEING-A",
   "interpretation": "Distributive-scope reading: one inquiry studies every entity insofar as it is being, and the attributes that belong to each such entity in its own right. This represents the passage's universal-scope contrast with particular sciences, while keeping it separate from the formal-object reading and making no claim that being is univocal or that per se means necessity or essence.",
-  "paraphrase": "One inquiry covers every being as being and what belongs to each in its own right.",
-  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingQuaBeingInquiryDistributiveReading",
   "status": "formalized"
 }

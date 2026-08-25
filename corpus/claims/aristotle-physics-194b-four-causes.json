@@ -1,10 +1,9 @@
 {
   "id": "ARIST-PHYS-194B-FOUR-CAUSES-A",
+  "statement_id": "STMT-FOUR-CAUSES-EXHAUSTIVE",
   "source_id": "ARIST-PHYS",
   "locator": "II.3, 194b16-195a3",
   "interpretation_group": "ARIST-PHYS-194B-FOUR-CAUSES",
   "interpretation": "Exhaustive-classification reading: whenever something stands as a cause of an effect, that explanatory role falls under at least one of the four modes Aristotle enumerates. The roles are binary relations between cause and effect rather than intrinsic labels on cause-objects.",
-  "paraphrase": "Causal explanations are classifiable under material, formal, source-of-change, or final modes.",
-  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.FourCauseExhaustiveReading",
   "status": "formalized"
 }
