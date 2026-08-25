@@ -97,10 +97,12 @@ export function projectArgumentComposition(
   const activePath = new Set<string>();
   const completed = new Set<string>();
 
-  function ensureNode(argument: ProjectionArgument, depth: number) {
+  function ensureNode(argument: ProjectionArgument, depth: number, updateDepth = true) {
     const existing = nodeById.get(argument.id);
     if (existing) {
-      existing.depth = Math.max(existing.depth, depth);
+      if (updateDepth) {
+        existing.depth = Math.max(existing.depth, depth);
+      }
       return existing;
     }
 
@@ -156,7 +158,7 @@ export function projectArgumentComposition(
         }
 
         const isCycle = activePath.has(supporter.id);
-        ensureNode(supporter, depth + 1);
+        ensureNode(supporter, depth + 1, !isCycle);
         const edgeId = `${supporter.id}->${argument.id}:${premiseId}`;
         edgeById.set(edgeId, {
           id: edgeId,
