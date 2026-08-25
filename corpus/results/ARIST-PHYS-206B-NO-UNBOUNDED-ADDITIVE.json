@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "argument_id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.noUnboundedAdditivePotential",
+  "comparator_config": "results/ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE/comparator.json",
+  "status": "solution-present"
+}

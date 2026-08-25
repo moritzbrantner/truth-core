@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-ALWAYS-ANOTHER-FINITE-STAGE",
+  "paraphrase": "Infinity has a successive mode: each stage actually taken is finite, while another stage is always available.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteAsAlwaysAnotherFiniteStageReading"
+}

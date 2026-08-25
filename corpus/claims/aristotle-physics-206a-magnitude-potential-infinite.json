@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-206A-MAGNITUDE-POTENTIAL-INFINITE-A",
+  "statement_id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.6, 206a16-18",
+  "interpretation": "Magnitude-specific classification: magnitude is not actually infinite, but division does not terminate in indivisible lines; its infinity therefore has potential existence. Potentiality here is kept source-specific.",
+  "status": "formalized"
+}

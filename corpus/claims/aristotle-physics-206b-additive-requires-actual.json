@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-206B-ADDITIVE-REQUIRES-ACTUAL-A",
+  "statement_id": "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.6, 206b17-25",
+  "interpretation": "Argument premise: an additive potential capable of exceeding every determinate magnitude would require an actually infinite sensible body. Aristotle invokes the III.5 rejection of such a body to restrict additive potential infinity.",
+  "status": "formalized"
+}

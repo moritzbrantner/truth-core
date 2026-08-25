@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-206B-INFINITE-OUTSIDE-A",
+  "statement_id": "STMT-INFINITE-ALWAYS-SOMETHING-OUTSIDE",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.6, 206b33-207a14",
+  "interpretation": "Definition-like formulation: infinity belongs to a quantity for which something further can always be taken beyond what has already been taken. This opposes treating the infinite as a finished whole with nothing outside it.",
+  "status": "formalized"
+}
