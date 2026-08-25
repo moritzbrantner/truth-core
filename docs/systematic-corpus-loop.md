@@ -66,6 +66,19 @@ A failed proof does not justify strengthening a source claim. If an advertised a
 
 This is the main feedback path from proof work back into source work.
 
+## Campaign handoff
+
+The queue should replenish itself across campaigns as well as inside them.
+
+Before closing a completed campaign:
+
+1. follow any explicit successor campaign already named in the issue or repository guidance;
+2. ensure that successor campaign exists as a coarse issue when useful;
+3. seed at least its first chapter/range candidate so `python3 scripts/corpus.py next` has work immediately;
+4. then close the completed campaign.
+
+Do not ask the human to restart the loop when the successor is already determined. Escalate only when choosing the next work or philosopher is a genuine scope decision that the documented ordering and existing proof dependencies do not resolve.
+
 ## Campaign ordering
 
 Prefer depth before breadth:
@@ -75,4 +88,4 @@ Prefer depth before breadth:
 3. continue through the same work while the vocabulary remains useful;
 4. only then open a new work or philosopher, unless a proof dependency gives a concrete reason to branch.
 
-For the current seed corpus, the immediate campaign is Aristotle's `Physics` III, continuing immediately after the existing 201a10–11 change definition. The initial queue covers the remainder of III.1 and then III.2–III.8 in chapter order.
+For the current seed corpus, the immediate campaign is Aristotle's `Physics` III, continuing immediately after the existing 201a10–11 change definition. The initial queue covers the remainder of III.1 and then III.2–III.8 in chapter order. Existing campaign tickets then order the Physics I–II backfill before continuing through Physics IV–VIII.
