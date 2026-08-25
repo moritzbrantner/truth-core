@@ -31,20 +31,21 @@ The normal operating mode is **not one human prompt per proposition**. A queued 
 5. Prefer a reviewable batch of roughly 5–10 new source claims, one coherent argument cluster, or the remainder of a short candidate range—whichever boundary comes first.
 6. If a batch ends before the candidate range is exhausted, keep the same candidate ID and edit its locator/goal so it begins at the first unprocessed passage. Do not create a second candidate just to represent progress.
 7. When the candidate range is exhausted, delete its candidate file. The next run takes the next queued range automatically.
-8. Continue without human reprompting unless a stop condition below applies.
+8. When the last candidate of a campaign is exhausted, seed the explicitly ordered successor campaign and its first source-range candidate before stopping. Do not require a human restart when the successor is already determined by repository guidance or an existing campaign issue.
+9. Continue without human reprompting unless a stop condition below applies.
 
 A candidate is a queue item, not a philosophical entity and not a ticket-status system. Presence of the file means work remains; deletion means the queued range is complete. GitHub issues may group many candidates into a larger source campaign, and multiple PRs may close one campaign.
 
 ### Stop and escalate only for real judgment calls
 
-Do not stop merely because one atomic claim or one PR is finished. Stop the systematic loop only when:
+Do not stop merely because one atomic claim, one PR, or one campaign is finished. Stop the systematic loop only when:
 
 - the primary text or required context cannot be obtained reliably;
 - two materially different source readings require a human choice about project scope rather than simply preserving both;
 - a missing premise points outside the queued source range and choosing the next source is genuinely non-obvious;
 - the formal vocabulary would require a cross-cutting modeling decision that changes existing corpus semantics;
 - verification exposes a repository/tooling defect rather than a philosophical proof obligation; or
-- the enclosing source campaign is complete and no successor campaign has been queued.
+- the enclosing source campaign is complete and choosing its successor remains genuinely ambiguous after applying the documented campaign ordering and existing campaign tickets.
 
 See `docs/systematic-corpus-loop.md` for batching, completion, and campaign guidance.
 
