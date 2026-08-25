@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-186A-UNITY-MOTIONLESSNESS-A",
+  "statement_id": "STMT-UNITY-DOES-NOT-ENTAIL-MOTIONLESSNESS",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.3, 186a16-19",
+  "interpretation": "Aristotle rejects the transition from unity to motionlessness by pointing out that unified things can move and asking why the whole could not likewise move or alter. This records rejection of the entailment, not a proof that every unity moves.",
+  "status": "formalized"
+}

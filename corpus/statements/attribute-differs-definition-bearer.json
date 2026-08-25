@@ -1,0 +1,5 @@
+{
+  "id": "STMT-ATTRIBUTE-DIFFERS-DEFINITION-BEARER",
+  "paraphrase": "An attribute can differ in definition from its bearer without existing as a separate thing apart from that bearer.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.AttributeDiffersInDefinitionFromBearerReading"
+}
