@@ -1,0 +1,12 @@
+{
+  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-A",
+  "premise_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-BROAD",
+    "STMT-COSMOS-GENERATED"
+  ],
+  "conclusion_statement_id": "STMT-COSMOS-HAS-CAUSE",
+  "inference_ids": [
+    "INF-PLATO-TIM-COSMOS-CAUSE-A"
+  ],
+  "meaning": "Under the broad causal-principle reading and the generated-cosmos premise, a cause of the cosmos exists."
+}

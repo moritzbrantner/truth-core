@@ -1,0 +1,5 @@
+{
+  "id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "paraphrase": "Anything that comes to be has some distinct cause.",
+  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.DistinctCausePrinciple"
+}
