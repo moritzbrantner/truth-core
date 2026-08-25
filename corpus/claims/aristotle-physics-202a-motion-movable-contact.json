@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-202A-MOTION-MOVABLE-CONTACT-A",
+  "statement_id": "STMT-MOTION-ACTUALITY-MOVABLE-BY-CONTACT",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.2, 202a7-9",
+  "interpretation": "Restatement of the motion definition with the mover/movable structure made explicit: motion is the actuality of the movable qua movable and the occurrence is tied to contact with a mover. The contact predicate remains primitive.",
+  "status": "formalized"
+}

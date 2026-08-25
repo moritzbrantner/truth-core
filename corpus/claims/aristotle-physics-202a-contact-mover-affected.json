@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-202A-CONTACT-MOVER-AFFECTED-A",
+  "statement_id": "STMT-CONTACT-MOVER-IS-AFFECTED",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.2, 202a3-7",
+  "interpretation": "Qualified physical-contact reading: a mover that acts on the movable through the contact relation under discussion is simultaneously affected. This does not universalize the claim so far as to contradict the unmoved-mover exception already preserved from III.1.",
+  "status": "formalized"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "STMT-CONTACT-MOVER-IS-AFFECTED",
+  "paraphrase": "A mover acting on a movable by contact in the relevant physical way is at the same time affected.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContactMoverIsAffectedReading"
+}

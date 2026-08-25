@@ -1,0 +1,11 @@
+{
+  "id": "INF-ARIST-PHYS-ALT-PREDICATES-NOT-MOTION",
+  "input_statement_ids": [
+    "STMT-ALTERNATIVE-PREDICATES-DO-NOT-NECESSITATE-MOTION"
+  ],
+  "output_statement_id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
+  "rule": "rejection_by_counterexample_possibility",
+  "meaning": "If each proposed predicate can hold without necessitating motion, none can be coextensive with motion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
