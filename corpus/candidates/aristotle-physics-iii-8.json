@@ -1,9 +1,0 @@
-{
-  "id": "ARIST-PHYS-III-8",
-  "source_id": "ARIST-PHYS",
-  "locator": "III.8",
-  "priority": 80,
-  "goal": "Process Physics III.8 as the final contiguous range of the current Physics III campaign, extracting and formalizing all philosophically substantive readings and arguments in source order and reviewing existing statements before inventing new vocabulary.",
-  "reason": "Complete the systematic Physics III pass so the enclosing campaign can close without sentence-level human prompting.",
-  "status": "candidate"
-}
