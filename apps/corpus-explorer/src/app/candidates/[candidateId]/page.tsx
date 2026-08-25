@@ -8,8 +8,17 @@ type CandidatePageProps = {
   params: Promise<{ candidateId: string }>;
 };
 
+const emptyQueueSentinel = "__empty__";
+
 export function generateStaticParams() {
-  return getCorpus().candidates.map((candidate) => ({ candidateId: candidate.id }));
+  const candidates = getCorpus().candidates;
+
+  // Next static export currently rejects an empty generateStaticParams result.
+  // Keep the canonical research queue genuinely empty and emit one build-only
+  // route that resolves to notFound instead of inventing a corpus candidate.
+  return candidates.length
+    ? candidates.map((candidate) => ({ candidateId: candidate.id }))
+    : [{ candidateId: emptyQueueSentinel }];
 }
 
 export default async function CandidatePage({ params }: CandidatePageProps) {
