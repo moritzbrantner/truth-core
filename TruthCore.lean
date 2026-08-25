@@ -6,3 +6,4 @@ import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution
 import TruthCore.Results.Aristotle.Physics.AlternativePredicates.Solution
+import TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution

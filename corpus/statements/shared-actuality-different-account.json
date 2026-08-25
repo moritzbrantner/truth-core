@@ -1,0 +1,5 @@
+{
+  "id": "STMT-SHARED-ACTUALITY-DIFFERENT-ACCOUNT",
+  "paraphrase": "The agent and patient may share one underlying actuality while their activities differ in account.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SharedActualityDifferentAccountReading"
+}
