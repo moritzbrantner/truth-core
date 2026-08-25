@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.noSeparateInfiniteSubstance"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

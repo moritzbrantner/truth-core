@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-BODY-CONFLICTS-PROPER-PLACE",
+  "paraphrase": "An actually infinite sensible body conflicts with the differentiated proper places and natural motions Aristotle attributes to sensible bodies.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteSensibleBodyConflictsWithProperPlaceReading"
+}

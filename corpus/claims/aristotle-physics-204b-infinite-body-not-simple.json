@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-SIMPLE-A",
+  "statement_id": "STMT-INFINITE-SENSIBLE-BODY-NOT-SIMPLE",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.5, 204b22-205a7",
+  "interpretation": "Second branch of the physical case analysis: an infinite sensible body cannot be one simple body, either one of the familiar elements or an additional sensible element alongside them.",
+  "status": "formalized"
+}
