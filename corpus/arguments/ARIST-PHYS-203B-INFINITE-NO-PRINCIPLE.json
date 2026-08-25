@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "premise_statement_ids": [
+    "STMT-INFINITE-PRINCIPLE-WOULD-LIMIT",
+    "STMT-INFINITE-NOT-LIMITED"
+  ],
+  "conclusion_statement_id": "STMT-INFINITE-HAS-NO-PRINCIPLE",
+  "inference_ids": [
+    "INF-ARIST-PHYS-INFINITE-NO-PRINCIPLE"
+  ],
+  "meaning": "At this dialectical stage Aristotle reasons that an infinite understood as unbounded has no prior principle, because any such principle would impose a limit."
+}

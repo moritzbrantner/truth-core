@@ -1,0 +1,5 @@
+{
+  "id": "STMT-INFINITE-PRINCIPLE-WOULD-LIMIT",
+  "paraphrase": "If the infinite in the unbounded sense had a prior principle or beginning, that principle would impose a limit on it.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfinitePrincipleWouldLimitReading"
+}

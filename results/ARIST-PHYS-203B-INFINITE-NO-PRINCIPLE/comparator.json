@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.infiniteHasNoPrinciple"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
