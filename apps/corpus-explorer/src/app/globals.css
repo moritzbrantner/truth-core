@@ -121,7 +121,8 @@ summary {
 
 .field-control:focus-visible,
 summary:focus-visible,
-a:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
@@ -154,4 +155,194 @@ a:focus-visible {
 
 .details-panel dt {
   color: var(--muted);
+}
+
+.argument-flow-shell {
+  border: 1px solid var(--line);
+  height: 38rem;
+  min-height: 32rem;
+  width: 100%;
+}
+
+.argument-flow-shell .react-flow {
+  background: color-mix(in srgb, var(--paper) 94%, var(--callout));
+}
+
+.argument-flow-shell .react-flow__node-argument {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.argument-flow-node {
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  width: 100%;
+}
+
+.argument-flow-node[data-expanded="true"] {
+  border-color: var(--accent);
+}
+
+.argument-flow-node-header {
+  align-items: flex-start;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  min-height: 4.5rem;
+  padding: 1rem 1.1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.argument-flow-node-header strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 0.35rem;
+}
+
+.argument-flow-toggle {
+  align-items: center;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  flex: 0 0 2rem;
+  font-size: 1.2rem;
+  height: 2rem;
+  justify-content: center;
+}
+
+.argument-flow-summary {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0.75rem 1.1rem 0.9rem;
+}
+
+.argument-flow-proof {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  padding: 1rem;
+}
+
+.argument-flow-inference {
+  align-content: start;
+  border-right: 1px solid var(--line);
+  display: grid;
+  gap: 0.45rem;
+  padding-right: 0.9rem;
+}
+
+.argument-flow-inference p,
+.argument-flow-inference ol {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.argument-flow-inference ol {
+  padding-left: 1rem;
+}
+
+.argument-flow-symbol {
+  align-items: center;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  display: inline-flex;
+  font-size: 1.45rem;
+  height: 2.4rem;
+  justify-content: center;
+  margin-bottom: 0.35rem;
+  width: 2.4rem;
+}
+
+.argument-flow-statements,
+.argument-flow-stack {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.argument-flow-statement,
+.argument-flow-conclusion {
+  border: 1px solid var(--line);
+  padding: 0.75rem;
+}
+
+.argument-flow-statement p,
+.argument-flow-conclusion p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin: 0.3rem 0 0;
+}
+
+.argument-flow-intermediate {
+  border-top: 1px dashed var(--line-strong);
+  padding-top: 0.6rem;
+}
+
+.argument-flow-conclusion {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--paper));
+}
+
+.argument-flow-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.argument-flow-actions button,
+.argument-flow-shell .react-flow__controls-button {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.argument-flow-actions button {
+  cursor: pointer;
+  font-size: 0.72rem;
+  padding: 0.55rem 0.65rem;
+}
+
+.argument-flow-shell .react-flow__controls-button svg {
+  fill: currentcolor;
+}
+
+.argument-flow-shell .react-flow__handle {
+  background: var(--accent);
+  border-color: var(--paper);
+  height: 0.6rem;
+  width: 0.6rem;
+}
+
+.argument-flow-shell .react-flow__edge-text {
+  fill: var(--muted);
+  font-size: 0.65rem;
+}
+
+.argument-flow-shell .react-flow__edge-textbg {
+  fill: var(--paper);
+}
+
+@media (max-width: 640px) {
+  .argument-flow-shell {
+    height: 32rem;
+  }
+
+  .argument-flow-proof {
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+  }
 }
