@@ -95,4 +95,105 @@ def ChangeAsActualityOfPotentialForOutcomeReading
         PotentialFor subject outcome ∧
           IsActualityOfQuaPotentialFor occurrence subject outcome
 
+/--
+Physical-mover reading of Aristotle, *Physics* III.1, 201a19-25: a thing that is actively
+moving something in the relevant physical way is itself moved.
+
+`MovesPhysically` deliberately packages the passage's qualification. This does not say that
+every mover without qualification is moved; Aristotle immediately distinguishes the case of
+an unmoved mover.
+
+Source: Aristotle, *Physics* III.1, 201a19-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PhysicalMoverIsMovedReading
+    {Entity : Type u}
+    (MovesPhysically : Entity → Prop)
+    (IsMoved : Entity → Prop) : Prop :=
+  ∀ mover, MovesPhysically mover → IsMoved mover
+
+/--
+Existential reading of Aristotle, *Physics* III.1, 201a25-27: there is a mover that is
+unmoved.
+
+The passage only announces the exception here and defers its fuller demonstration. This
+reading therefore records existence without importing the later argument or identifying the
+mover with any theological description.
+
+Source: Aristotle, *Physics* III.1, 201a25-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def UnmovedMoverExistsReading
+    {Entity : Type u}
+    (IsMover : Entity → Prop)
+    (IsMoved : Entity → Prop) : Prop :=
+  ∃ mover, IsMover mover ∧ ¬ IsMoved mover
+
+/--
+Temporal-coincidence reading of Aristotle, *Physics* III.1, 201b5-8: a subject is moving at
+exactly those times at which the relevant actuality of it qua potential is present—neither
+before nor after.
+
+This is intentionally separate from the compact 201a10-11 definition because the later
+passage makes the temporal qualification explicit. `QuaPotentialActualityAt` remains
+primitive; the definition does not impose a modern theory of time or persistence.
+
+Source: Aristotle, *Physics* III.1, 201b5-8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionCoincidesWithQuaPotentialActualityReading
+    {Subject : Type u}
+    {Time : Type v}
+    (IsMovingAt : Subject → Time → Prop)
+    (QuaPotentialActualityAt : Subject → Time → Prop) : Prop :=
+  ∀ subject time,
+    IsMovingAt subject time ↔ QuaPotentialActualityAt subject time
+
+/--
+First premise of Aristotle's buildable example in *Physics* III.1, 201b9-11: for the
+actuality relevant to the buildable qua buildable, the live alternatives under discussion are
+the process of building or the completed house.
+
+The proposition variables are deliberately narrow: this is not a claim that every actuality
+whatsoever has exactly these alternatives.
+
+Source: Aristotle, *Physics* III.1, 201b9-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BuildableActualityAlternativeReading
+    (BuildingIsActuality : Prop)
+    (HouseIsActuality : Prop) : Prop :=
+  BuildingIsActuality ∨ HouseIsActuality
+
+/--
+Second premise distilled from Aristotle's parenthetical reasoning in *Physics* III.1,
+201b10-13: the completed house is not the actuality of the buildable precisely qua buildable,
+because once the house is there the subject is no longer buildable in that respect.
+
+This does not deny that the completed house is an actuality in another respect. It excludes
+only the completed-house alternative from the actuality whose subject is the buildable qua
+buildable.
+
+Source: Aristotle, *Physics* III.1, 201b10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CompletedHouseNotBuildableActualityReading
+    (HouseIsActuality : Prop) : Prop :=
+  ¬ HouseIsActuality
+
+/--
+Conclusion of Aristotle's buildable example in *Physics* III.1, 201b9-15: the actuality of
+the buildable precisely qua buildable is building, and building is a kind of motion.
+
+The wrapper preserves the source proposition as an independently identified statement while
+the corresponding verified argument records the disjunctive inference from Aristotle's two
+explicit premises.
+
+Source: Aristotle, *Physics* III.1, 201b9-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BuildableActualityIsBuildingReading
+    (BuildingIsActuality : Prop) : Prop :=
+  BuildingIsActuality
+
 end TruthCore.Greek.Aristotle.Physics

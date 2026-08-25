@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
+  "argument_id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.BuildableActuality.buildableActualityIsBuilding",
+  "comparator_config": "results/ARIST-PHYS-201B-BUILDABLE-ACTUALITY/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "STMT-MOTION-COINCIDES-QUA-POTENTIAL-ACTUALITY",
+  "paraphrase": "A subject is moving exactly while the actuality relevant to it qua potential is present, neither before nor after.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MotionCoincidesWithQuaPotentialActualityReading"
+}

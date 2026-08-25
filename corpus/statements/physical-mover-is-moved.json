@@ -1,0 +1,5 @@
+{
+  "id": "STMT-PHYSICAL-MOVER-IS-MOVED",
+  "paraphrase": "A thing that actively moves something in the relevant physical way is itself moved.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PhysicalMoverIsMovedReading"
+}

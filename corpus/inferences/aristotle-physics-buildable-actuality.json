@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-BUILDABLE-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
+    "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY"
+  ],
+  "output_statement_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
+  "rule": "disjunctive_syllogism",
+  "meaning": "From Aristotle's two alternatives for the relevant actuality and the exclusion of the completed-house alternative, infer that the actuality of the buildable qua buildable is building.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

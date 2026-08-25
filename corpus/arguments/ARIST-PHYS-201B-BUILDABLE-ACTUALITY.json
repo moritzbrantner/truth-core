@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
+  "premise_statement_ids": [
+    "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
+    "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY"
+  ],
+  "conclusion_statement_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
+  "inference_ids": [
+    "INF-ARIST-PHYS-BUILDABLE-ACTUALITY"
+  ],
+  "meaning": "Aristotle's Physics III.1 buildable example excludes the completed house from the two live candidates for the actuality of the buildable qua buildable, leaving building as the relevant actuality."
+}

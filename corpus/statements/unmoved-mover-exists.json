@@ -1,0 +1,5 @@
+{
+  "id": "STMT-UNMOVED-MOVER-EXISTS",
+  "paraphrase": "There exists a mover that is not itself moved.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnmovedMoverExistsReading"
+}

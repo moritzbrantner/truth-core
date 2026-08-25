@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.BuildableActuality.buildableActualityIsBuilding"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
