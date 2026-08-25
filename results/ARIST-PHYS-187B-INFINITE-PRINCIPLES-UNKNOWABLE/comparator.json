@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.compositeNotKnowableFromInfinitePrinciples"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

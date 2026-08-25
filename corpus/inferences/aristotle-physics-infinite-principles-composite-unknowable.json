@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-INFINITE-PRINCIPLES-COMPOSITE-UNKNOWABLE",
+  "input_statement_ids": [
+    "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
+    "STMT-COMPOSITE-KNOWLEDGE-REQUIRES-PRINCIPLE-KNOWLEDGE"
+  ],
+  "output_statement_id": "STMT-COMPOSITE-INFINITE-PRINCIPLES-NOT-KNOWABLE",
+  "rule": "modus_tollens",
+  "meaning": "If knowing the composite requires knowing its principles, while the infinite principles are unknowable, the composite is not knowable in the required scientific sense.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

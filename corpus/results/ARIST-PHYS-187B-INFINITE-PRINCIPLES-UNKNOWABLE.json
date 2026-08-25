@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "argument_id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.compositeNotKnowableFromInfinitePrinciples",
+  "comparator_config": "results/ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE/comparator.json",
+  "status": "solution-present"
+}
