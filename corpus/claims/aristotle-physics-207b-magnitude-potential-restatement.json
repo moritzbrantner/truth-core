@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-207B-MAGNITUDE-POTENTIAL-RESTATEMENT-A",
+  "statement_id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.7, 207b15-20",
+  "interpretation": "III.7 again states that continuous magnitude is indefinitely divisible but does not become infinite in the direction of increase. This reuses the III.6 proposition identity rather than introducing a duplicate statement.",
+  "status": "formalized"
+}

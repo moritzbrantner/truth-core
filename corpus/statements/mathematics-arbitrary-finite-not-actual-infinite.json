@@ -1,0 +1,5 @@
+{
+  "id": "STMT-MATHEMATICS-ARBITRARY-FINITE-NOT-ACTUAL-INFINITE",
+  "paraphrase": "Mathematical proof does not require an actually infinite magnitude; arbitrary finite extension as far as required suffices for the role Aristotle identifies.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MathematicsNeedsArbitraryFiniteNotActualInfiniteReading"
+}

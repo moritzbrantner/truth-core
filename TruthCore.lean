@@ -4,6 +4,7 @@ import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
+import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter7
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
