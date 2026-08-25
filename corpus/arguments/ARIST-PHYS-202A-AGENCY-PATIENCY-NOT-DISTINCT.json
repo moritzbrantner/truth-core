@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
+  "premise_statement_ids": [
+    "STMT-DISTINCT-AGENCY-PATIENCY-WOULD-DOUBLE-ALTERATION",
+    "STMT-TWO-ALTERATIONS-ONE-FORM-IMPOSSIBLE"
+  ],
+  "conclusion_statement_id": "STMT-AGENCY-PATIENCY-NOT-DISTINCT-MOTIONS",
+  "inference_ids": [
+    "INF-ARIST-PHYS-AGENCY-PATIENCY-NOT-DISTINCT"
+  ],
+  "meaning": "Aristotle's III.3 objection analysis rejects agency and patiency as two distinct motions in the patient because that would require two simultaneous alterations toward one definite form, which he treats as impossible."
+}

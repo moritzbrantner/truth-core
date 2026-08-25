@@ -1,0 +1,5 @@
+{
+  "id": "STMT-AGENCY-PATIENCY-NOT-DISTINCT-MOTIONS",
+  "paraphrase": "Agency and patiency are not two distinct underlying motions in the patient; the actualization is one.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.AgencyPatiencyNotDistinctMotionsReading"
+}

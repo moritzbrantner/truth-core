@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-AGENCY-PATIENCY-NOT-DISTINCT",
+  "input_statement_ids": [
+    "STMT-DISTINCT-AGENCY-PATIENCY-WOULD-DOUBLE-ALTERATION",
+    "STMT-TWO-ALTERATIONS-ONE-FORM-IMPOSSIBLE"
+  ],
+  "output_statement_id": "STMT-AGENCY-PATIENCY-NOT-DISTINCT-MOTIONS",
+  "rule": "modus_tollens",
+  "meaning": "If distinct agency and patiency motions would imply the impossible double alteration, reject their being two distinct underlying motions.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
