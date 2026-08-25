@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-207A-ADDITION-DIVISION-RESTATEMENT-A",
+  "statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.7, 207a33-207b1",
+  "interpretation": "III.7 restates the III.6 asymmetry: infinity does not survive as addition beyond every magnitude, while division remains indefinitely continuable. The existing statement is reused because the proposition is the same rather than merely similar.",
+  "status": "formalized"
+}
