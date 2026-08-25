@@ -39,6 +39,10 @@ jobs:
         run: bun run lint
       - name: Build explorer
         run: bun run build
+      - name: Build explorer for GitHub Pages
+        env:
+          GITHUB_PAGES: "true"
+        run: bun run build
 
   comparator:
     runs-on: ubuntu-latest
