@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-PHYS-184A-NATURAL-SCIENCE-PRINCIPLES",
+  "premise_statement_ids": [
+    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES"
+  ],
+  "conclusion_statement_id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
+  "inference_ids": [
+    "INF-ARIST-PHYS-NATURAL-SCIENCE-PRINCIPLES-APPLICATION"
+  ],
+  "meaning": "Physics I.1 explicitly moves from the general methodological requirement to its immediate application in natural science: determine the principles of nature first."
+}
