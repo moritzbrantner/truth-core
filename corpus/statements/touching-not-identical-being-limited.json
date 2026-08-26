@@ -1,0 +1,5 @@
+{
+  "id": "STMT-TOUCHING-NOT-IDENTICAL-BEING-LIMITED",
+  "paraphrase": "Touching and being limited are distinct: touching is relative to something touched, while being limited is not the same relation.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.TouchingNotIdenticalWithBeingLimitedReading"
+}
