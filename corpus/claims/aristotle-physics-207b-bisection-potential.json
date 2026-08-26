@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-207B-BISECTION-POTENTIAL-A",
+  "statement_id": "STMT-BISECTION-INFINITY-POTENTIAL-NOT-ACTUAL",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.7, 207b10-15",
+  "interpretation": "The number of possible bisections is potentially unbounded but never an actually completed or separable permanent infinite; its infinity consists in the continuing bisection process, analogously to time's succession.",
+  "status": "formalized"
+}
