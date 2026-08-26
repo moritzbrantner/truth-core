@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-ANAXAGORAS-ALREADY-PRESENT",
+  "input_statement_ids": [
+    "STMT-NOTHING-FROM-ABSOLUTE-NOT-BEING",
+    "STMT-CONTRARIES-COME-FROM-ONE-ANOTHER"
+  ],
+  "output_statement_id": "STMT-ANAXAGOREAN-ALREADY-PRESENT-MOTIVATION",
+  "rule": "attributed_motivation",
+  "meaning": "In Aristotle's reconstruction, rejecting generation from absolute not-being together with the emergence of contraries motivates Anaxagoras's conclusion that what appears was already present imperceptibly in the mixture.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

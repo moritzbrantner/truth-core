@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COMPOSITE-KNOWLEDGE-REQUIRES-PRINCIPLE-KNOWLEDGE",
+  "paraphrase": "Scientific knowledge of a composite requires knowing what its constituent principles are and how many there are.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.CompositeKnowledgeRequiresPrincipleKnowledgeReading"
+}
