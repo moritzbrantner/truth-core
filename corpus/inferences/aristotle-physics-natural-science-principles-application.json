@@ -1,0 +1,11 @@
+{
+  "id": "INF-ARIST-PHYS-NATURAL-SCIENCE-PRINCIPLES-APPLICATION",
+  "input_statement_ids": [
+    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES"
+  ],
+  "output_statement_id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
+  "rule": "source_application",
+  "meaning": "Aristotle explicitly applies the preceding general methodological principle to natural science and draws the research-order conclusion that its principles must be determined first.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
