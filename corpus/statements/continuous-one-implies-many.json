@@ -1,0 +1,5 @@
+{
+  "id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "paraphrase": "If the One is continuous, it is many in respect of its divisible parts.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContinuousOneImpliesManyReading"
+}

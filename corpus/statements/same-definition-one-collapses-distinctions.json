@@ -1,0 +1,5 @@
+{
+  "id": "STMT-SAME-DEFINITION-ONE-COLLAPSES-DISTINCTIONS",
+  "paraphrase": "If all beings are one by having the same definition, basic predicative distinctions collapse, so Aristotle's reductio says the thesis tends toward nothing rather than a differentiated plurality that is simply one.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SameDefinitionOneCollapsesDistinctionsReading"
+}

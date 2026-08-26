@@ -2,6 +2,7 @@ import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
+import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -16,3 +17,4 @@ import TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution
 import TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution
 import TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution
 import TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Solution
+import TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Solution
