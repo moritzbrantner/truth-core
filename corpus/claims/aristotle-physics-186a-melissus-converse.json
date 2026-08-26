@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-186A-MELISSUS-CONVERSE-A",
+  "statement_id": "STMT-MELISSUS-CONVERSE-INFERENCE-NOT-LICENSED",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.3, 186a5-16",
+  "interpretation": "Aristotle diagnoses Melissus's move from 'what comes to be has a beginning' to 'what has not come to be has no beginning' as an illicit inference. The formal wrapper targets inferential license rather than asserting stronger truth conditions for the two propositions.",
+  "status": "formalized"
+}
