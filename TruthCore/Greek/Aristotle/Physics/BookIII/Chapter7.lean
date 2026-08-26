@@ -85,10 +85,12 @@ def InfiniteMaterialCausePrivationReading
     (IsMaterialCause : Prop)
     (EssenceIsPrivation : Prop)
     (SubjectIsContinuousAndSensible : Prop)
+    (IsContained : Prop)
     (ContainsRatherThanIsContained : Prop) : Prop :=
   IsMaterialCause ∧
     EssenceIsPrivation ∧
     SubjectIsContinuousAndSensible ∧
+    IsContained ∧
     ¬ ContainsRatherThanIsContained
 
 end TruthCore.Greek.Aristotle.Physics
