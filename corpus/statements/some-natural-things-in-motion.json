@@ -1,0 +1,5 @@
+{
+  "id": "STMT-SOME-NATURAL-THINGS-IN-MOTION",
+  "paraphrase": "Natural science takes as given that all or at least some natural things are in motion, something Aristotle says is evident by induction.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SomeNaturalThingsAreInMotionReading"
+}

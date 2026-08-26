@@ -1,0 +1,5 @@
+{
+  "id": "STMT-CONTINUOUS-ONE-IMPLIES-DIVISIBLE",
+  "paraphrase": "If the alleged One is one by continuity, it is divisible.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContinuousOneImpliesDivisibleReading"
+}

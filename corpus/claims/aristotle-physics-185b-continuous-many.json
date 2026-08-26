@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-185B-CONTINUOUS-MANY-A",
+  "statement_id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.2, 185b5-16",
+  "interpretation": "Conclusion of Aristotle's test of continuity as the sense of One: a continuous One is many with respect to its divisible parts. The later qualification that one and many can coexist in different respects prevents treating this as a flat contradiction.",
+  "status": "formalized"
+}

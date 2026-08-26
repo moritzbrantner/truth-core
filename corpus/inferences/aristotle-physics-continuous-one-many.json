@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-CONTINUOUS-ONE-MANY",
+  "input_statement_ids": [
+    "STMT-CONTINUOUS-ONE-IMPLIES-DIVISIBLE",
+    "STMT-DIVISIBLE-IMPLIES-MANY"
+  ],
+  "output_statement_id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "rule": "hypothetical_syllogism",
+  "meaning": "Compose Aristotle's continuity-to-divisibility premise with divisibility-to-plurality to infer that unity by continuity entails plurality in parts.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
