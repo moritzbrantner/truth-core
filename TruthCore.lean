@@ -78,3 +78,4 @@ import TruthCore.Results.Aristotle.Physics.WithoutSoulNoTimeAsNumber.Solution
 import TruthCore.Results.Aristotle.Physics.DistinctSimultaneousMotionsShareTime.Solution
 import TruthCore.Results.Aristotle.Physics.TimeAppearsCircular.Solution
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter1
+import TruthCore.Results.Aristotle.Physics.ThreeKindsOfChange.Solution
