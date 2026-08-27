@@ -35,3 +35,4 @@ import TruthCore.Results.Aristotle.Physics.MatterUngeneratedImperishable.Solutio
 import TruthCore.Results.Aristotle.Physics.AntiphonMaterialNature.Solution
 import TruthCore.Results.Aristotle.Physics.GrowthTargetFormNature.Solution
 import TruthCore.Results.Aristotle.Physics.DefinitionMotionDependence.Solution
+import TruthCore.Results.Aristotle.Physics.PhysicsKnowsMatterForm.Solution
