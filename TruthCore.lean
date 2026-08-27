@@ -17,6 +17,7 @@ import TruthCore.Greek.Aristotle.Physics.BookII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter6
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter7
+import TruthCore.Greek.Aristotle.Physics.BookII.Chapter8
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -47,3 +48,4 @@ import TruthCore.Results.Aristotle.Physics.OrganismCosmosAsymmetry.Solution
 import TruthCore.Results.Aristotle.Physics.MarketplaceChance.Solution
 import TruthCore.Results.Aristotle.Physics.ChancePosteriority.Solution
 import TruthCore.Results.Aristotle.Physics.PhysicalFourCauses.Solution
+import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
