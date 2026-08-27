@@ -5,7 +5,7 @@
   "work": "Physics",
   "citation_system": "Bekker",
   "work_urn": "urn:cts:greekLit:tlg0086.tlg031",
-  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg031.opp-grc2",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg031.1st1K-grc1",
   "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg031",
-  "notes": "Use Bekker locators as the human-stable citation. Initial claims use the four-causes discussion at II.3, 194b16-195a3 and the definition of change at III.1, 201a10-11. III.1 begins at 200b12, where Aristotle motivates investigating change; that opening is context, not the definition's locator."
+  "notes": "Use Bekker locators as the human-stable citation. Source-derived claims are bound to immutable passage witnesses from the pinned First1K Greek edition; `python3 scripts/source_evidence.py verify` hash-checks that edition before it is used. Initial claims use the four-causes discussion at II.3, 194b16-195a3 and the definition of change at III.1, 201a10-11. III.1 begins at 200b12, where Aristotle motivates investigating change; that opening is context, not the definition's locator."
 }
