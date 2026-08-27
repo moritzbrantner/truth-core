@@ -14,6 +14,7 @@ import TruthCore.Greek.Aristotle.Physics.BookII.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter4
+import TruthCore.Greek.Aristotle.Physics.BookII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -41,3 +42,4 @@ import TruthCore.Results.Aristotle.Physics.PhysicsKnowsMatterForm.Solution
 import TruthCore.Results.Aristotle.Physics.MultipleProperCauses.Solution
 import TruthCore.Results.Aristotle.Physics.MostPreciseCause.Solution
 import TruthCore.Results.Aristotle.Physics.OrganismCosmosAsymmetry.Solution
+import TruthCore.Results.Aristotle.Physics.MarketplaceChance.Solution
