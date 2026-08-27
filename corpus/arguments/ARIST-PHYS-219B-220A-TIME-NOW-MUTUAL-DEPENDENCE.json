@@ -1,0 +1,1 @@
+{"id":"ARIST-PHYS-219B-220A-TIME-NOW-MUTUAL-DEPENDENCE","premise_statement_ids":["STMT-NO-TIME-ENTAILS-NO-NOW","STMT-NO-NOW-ENTAILS-NO-TIME"],"conclusion_statement_id":"STMT-TIME-AND-NOW-MUTUALLY-DEPENDENT","inference_ids":["INF-ARIST-PHYS-TIME-NOW-MUTUAL-DEPENDENCE"],"meaning":"Aristotle's Physics IV.11 two-direction dependence argument relating time and the now."}
