@@ -6,7 +6,7 @@ import {
   closeAxioms,
   detectFrameConditions,
   modalTruthAt,
-} from "@/lib/modal-cube";
+} from "./modal-cube";
 
 describe("modal cube", () => {
   test("S5 closes T and 5 to all optional cube axioms", () => {
@@ -33,7 +33,7 @@ describe("modal cube", () => {
     if (!s4) throw new Error("S4 must exist");
 
     const edges = buildWitnessFrame(s4);
-    const valuation = { actual: false, nearby: false, remote: true } as const;
+    const valuation = { actual: false, nearby: false, remote: true };
 
     expect(modalTruthAt("actual", edges, valuation)).toMatchObject({
       p: false,
