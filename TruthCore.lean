@@ -71,3 +71,4 @@ import TruthCore.Results.Aristotle.Physics.TimeIsNotMotion.Solution
 import TruthCore.Results.Aristotle.Physics.TimeBelongsToMotion.Solution
 import TruthCore.Results.Aristotle.Physics.TimeNowMutualDependence.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionMutualMeasurement.Solution
+import TruthCore.Results.Aristotle.Physics.EternalThingsNotInTime.Solution
