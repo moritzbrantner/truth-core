@@ -1,0 +1,13 @@
+{
+  "id": "INF-ARIST-PHYS-NATURAL-PRINCIPLE-COUNT",
+  "input_statement_ids": [
+    "STMT-NATURAL-PRINCIPLE-COUNT-CASES",
+    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
+    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-MORE-THAN-THREE"
+  ],
+  "output_statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
+  "rule": "disjunction_elimination",
+  "meaning": "From the enumerated count cases, exclude exactly one and more than three; the remaining alternatives are two or three. The separate rejection of infinitely many principles supports the chapter's broader finite-number discussion but is not needed for this narrow formal step.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

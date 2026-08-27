@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.naturalPrincipleCountTwoOrThree"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
