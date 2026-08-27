@@ -168,4 +168,146 @@ def FormalNatureServesAsFinalCauseReading
       OtherStagesAreForForm ∧
         FormalNatureIsFinalCause
 
+/--
+First premise of Aristotle's error analogy in *Physics* II.8, 199a33-199b4: grammarians and
+doctors can perform their arts incorrectly even though correct practice is for an end.
+
+Source: Aristotle, *Physics* II.8, 199a33-199b4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ArtCanFailWhileAimingAtEndReading
+    (ArtAimsAtEnds ArtCanFailToReachItsEnd : Prop) : Prop :=
+  ArtAimsAtEnds ∧ ArtCanFailToReachItsEnd
+
+/--
+Inferential bridge in Aristotle's *Physics* II.8, 199a33-199b4: if art can fail while aiming
+at an end and natural processes are analogous in this respect, then natural errors are
+compatible with natural teleology.
+
+Source: Aristotle, *Physics* II.8, 199a33-199b4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ArtNatureErrorAnalogyReading
+    (ArtCanFailWhileAimingAtEnd NaturalErrorsCompatibleWithTeleology : Prop) : Prop :=
+  ArtCanFailWhileAimingAtEnd → NaturalErrorsCompatibleWithTeleology
+
+/--
+Conclusion of Aristotle's error analogy in *Physics* II.8, 199b1-4: natural processes can
+miss their ends, and monsters are errors relative to the end rather than evidence that no end
+was operative.
+
+Source: Aristotle, *Physics* II.8, 199b1-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NaturalErrorsCompatibleWithTeleologyReading
+    (NaturalErrorsCompatibleWithTeleology : Prop) : Prop :=
+  NaturalErrorsCompatibleWithTeleology
+
+/--
+Application of the error account in Aristotle, *Physics* II.8, 199b1-4: monsters are natural
+failures relative to the end, not evidence that natural generation lacks ends altogether.
+
+Source: Aristotle, *Physics* II.8, 199b1-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MonstersAreFailuresRelativeToNaturalEndReading
+    (MonstersAreFailuresRelativeToNaturalEnd : Prop) : Prop :=
+  MonstersAreFailuresRelativeToNaturalEnd
+
+/--
+Reply to the Empedoclean hybrid in Aristotle, *Physics* II.8, 199b4-9: if primordial hybrids
+failed to reach a determinate limit and end, they arose through corruption of an originating
+principle, analogously to present failures caused by corrupted seed.
+
+Source: Aristotle, *Physics* II.8, 199b4-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrimordialHybridsAsCorruptedDevelopmentReading
+    (PrimordialHybridsFailedDeterminateEnd
+      FailureCameFromCorruptedOriginatingPrinciple
+      PresentCorruptedSeedIsAnalogous : Prop) : Prop :=
+  PrimordialHybridsFailedDeterminateEnd ∧
+    FailureCameFromCorruptedOriginatingPrinciple ∧
+      PresentCorruptedSeedIsAnalogous
+
+/--
+Developmental-order reply in Aristotle, *Physics* II.8, 199b9-13: seed must precede the
+completed animal; Empedocles' “whole-natured first” is therefore treated as seed rather than
+an immediately complete organism.
+
+Source: Aristotle, *Physics* II.8, 199b9-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SeedPrecedesCompletedOrganismReading
+    (SeedPrecedesCompletedOrganism
+      EmpedocleanWholeNaturedFirstWasSeed : Prop) : Prop :=
+  SeedPrecedesCompletedOrganism ∧ EmpedocleanWholeNaturedFirstWasSeed
+
+/--
+Plant-and-seed reductio in Aristotle, *Physics* II.8, 199b13-18: since purposiveness also
+appears in plants, a random-combination account would require analogous plant hybrids and
+random outcomes in seeds; Aristotle rejects those consequences.
+
+Source: Aristotle, *Physics* II.8, 199b13-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlantSeedRandomnessReductioReading
+    (RandomAccountRequiresPlantHybrids
+      RandomAccountRequiresIndeterminateSeedOutcomes
+      PlantHybridsAndIndeterminateSeedsAccepted : Prop) : Prop :=
+  RandomAccountRequiresPlantHybrids ∧
+    RandomAccountRequiresIndeterminateSeedOutcomes ∧
+      ¬ PlantHybridsAndIndeterminateSeedsAccepted
+
+/--
+Definition and criticism in Aristotle, *Physics* II.8, 199b18-26: natural things move
+continuously from an internal principle toward a determinate end, reaching the same outcome
+unless impeded. Treating this sequence as random abolishes both natural things and nature.
+
+Source: Aristotle, *Physics* II.8, 199b18-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InternalPrincipleDeterminateEndDefinesNatureReading
+    (NaturalThingsMoveContinuouslyFromInternalPrinciple
+      NaturalMotionReachesDeterminateEnd
+      SameOutcomeOccursUnlessImpeded
+      RandomAccountAbolishesNature : Prop) : Prop :=
+  NaturalThingsMoveContinuouslyFromInternalPrinciple ∧
+    NaturalMotionReachesDeterminateEnd ∧
+      SameOutcomeOccursUnlessImpeded ∧
+        RandomAccountAbolishesNature
+
+/--
+Chance qualification in Aristotle, *Physics* II.8, 199b26-28: an event can incidentally
+appear to occur for an end by chance, but what occurs always or for the most part in natural
+processes is neither incidental nor from chance.
+
+Source: Aristotle, *Physics* II.8, 199b26-28 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ApparentEndByChanceOnlyIncidentallyReading
+    (ChanceCanIncidentallyAppearForEnd
+      RegularNaturalOutcomeIsIncidentalOrChance : Prop) : Prop :=
+  ChanceCanIncidentallyAppearForEnd ∧
+    ¬ RegularNaturalOutcomeIsIncidentalOrChance
+
+/--
+Anti-deliberation reply in Aristotle, *Physics* II.8, 199b28-32: failure to observe a
+deliberating mover does not remove final causation. Art itself does not deliberate, and if
+shipbuilding were internal to wood it would produce as nature does; self-healing supplies the
+closest analogy.
+
+Source: Aristotle, *Physics* II.8, 199b28-32 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TeleologyDoesNotRequireDeliberatingMoverReading
+    (ObservedDeliberatingMoverRequiredForTeleology
+      ArtItselfDeliberates
+      InternalShipbuildingWouldActLikeNature
+      SelfHealingAnalogousToNature : Prop) : Prop :=
+  ¬ ObservedDeliberatingMoverRequiredForTeleology ∧
+    ¬ ArtItselfDeliberates ∧
+      InternalShipbuildingWouldActLikeNature ∧
+        SelfHealingAnalogousToNature
+
 end TruthCore.Greek.Aristotle.Physics
