@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES",
+  "argument_id": "ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.naturalBecomingFromContraryOrContraries",
+  "comparator_config": "results/ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES/comparator.json",
+  "status": "solution-present"
+}
