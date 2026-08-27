@@ -49,3 +49,4 @@ import TruthCore.Results.Aristotle.Physics.MarketplaceChance.Solution
 import TruthCore.Results.Aristotle.Physics.ChancePosteriority.Solution
 import TruthCore.Results.Aristotle.Physics.PhysicalFourCauses.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
+import TruthCore.Results.Aristotle.Physics.NaturalErrorTeleology.Solution
