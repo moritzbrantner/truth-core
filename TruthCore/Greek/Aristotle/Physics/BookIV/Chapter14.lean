@@ -175,4 +175,103 @@ def DistinctMotionsSameTimeThroughEqualSimultaneousNumberReading
   MotionsDifferentAndSeparate ∧ EqualSimultaneousNumberOneAndSame →
     TimeEverywhereSame
 
+/-- Homogeneous-unit measurement in Aristotle, *Physics* IV.14, 223b13-18: each thing is
+numbered by one thing homogeneous with it, and time is measured by a determinate time.
+
+Source: Aristotle, *Physics* IV.14, 223b13-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HomogeneousUnitAndDeterminateTimeMeasureReading
+    (EachThingMeasuredByHomogeneousUnit TimeMeasuredByDeterminateTime : Prop) : Prop :=
+  EachThingMeasuredByHomogeneousUnit ∧ TimeMeasuredByDeterminateTime
+
+/-- Primary temporal measure in Aristotle, *Physics* IV.14, 223b18-20: regular circular
+motion is the foremost measure because its number is best known.
+
+Source: Aristotle, *Physics* IV.14, 223b18-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RegularCircularMotionIsPrimaryMeasureReading
+    (RegularCircularMotionNumberBestKnown RegularCircularMotionPrimaryMeasure : Prop) : Prop :=
+  RegularCircularMotionNumberBestKnown → RegularCircularMotionPrimaryMeasure
+
+/-- Uniformity contrast in Aristotle, *Physics* IV.14, 223b20-23: alteration, growth, and
+generation are not uniform, whereas locomotion can be uniform.
+
+Source: Aristotle, *Physics* IV.14, 223b20-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def OnlyLocomotionAmongListedChangesCanBeUniformReading
+    (AlterationUniform GrowthUniform GenerationUniform LocomotionCanBeUniform : Prop) : Prop :=
+  ¬ AlterationUniform ∧ ¬ GrowthUniform ∧ ¬ GenerationUniform ∧
+    LocomotionCanBeUniform
+
+/-- Source of the sphere-motion identification in Aristotle, *Physics* IV.14, 223b23-25:
+time is thought to be the sphere's motion because that motion measures both other motions
+and time. This records the explanation of the appearance, not an identity claim.
+
+Source: Aristotle, *Physics* IV.14, 223b23-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SphereMotionMeasurementExplainsTimeIdentificationReading
+    (SphereMotionMeasuresOtherMotions SphereMotionMeasuresTime
+      TimeThoughtIdenticalToSphereMotion : Prop) : Prop :=
+  SphereMotionMeasuresOtherMotions ∧ SphereMotionMeasuresTime →
+    TimeThoughtIdenticalToSphereMotion
+
+/-- Circular measurement premise in Aristotle, *Physics* IV.14, 223b23-224a2: time is
+measured by regular circular motion.
+
+Source: Aristotle, *Physics* IV.14, 223b23-224a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CircularMotionMeasuresTimeReading
+    (TimeMeasuredByCircularMotion : Prop) : Prop :=
+  TimeMeasuredByCircularMotion
+
+/-- Appearance principle in Aristotle, *Physics* IV.14, 223b25-224a2: time's being
+measured by circular motion explains why time and temporally judged affairs appear cyclical.
+
+Source: Aristotle, *Physics* IV.14, 223b25-224a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CircularMeasurementMakesTimeAppearCircularReading
+    (TimeMeasuredByCircularMotion TimeAppearsCircular : Prop) : Prop :=
+  TimeMeasuredByCircularMotion → TimeAppearsCircular
+
+/-- Qualified appearance conclusion in Aristotle, *Physics* IV.14, 223b25-224a2: time
+appears circular.
+
+Source: Aristotle, *Physics* IV.14, 223b25-224a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeAppearsCircularReading (TimeAppearsCircular : Prop) : Prop :=
+  TimeAppearsCircular
+
+/-- Cyclical-affairs explanation in Aristotle, *Physics* IV.14, 223b25-224a2: human and
+natural affairs are called a circle because time judges their beginnings and ends as by a
+period, while time itself appears circular through circular measurement.
+
+Source: Aristotle, *Physics* IV.14, 223b25-224a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CyclicalAffairsAppearanceComesFromCircularTimeMeasureReading
+    (AffairsJudgedByTime HavePeriodicBeginningsAndEnds
+      TimeMeasuredByCircularMotion AffairsAppearCyclical : Prop) : Prop :=
+  AffairsJudgedByTime ∧ HavePeriodicBeginningsAndEnds ∧
+    TimeMeasuredByCircularMotion → AffairsAppearCyclical
+
+/-- Qualified sameness in Aristotle, *Physics* IV.14, 224a2-16: equal groups of different
+subjects have the same number but not the same decad or the same ten, just as equilateral
+and scalene triangles are the same figure but not the same triangle.
+
+Source: Aristotle, *Physics* IV.14, 224a2-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameNumberButDifferentEnumeratedWholeReading
+    (DifferentSubjectGroupsHaveSameNumber SameEnumeratedDecad
+      DifferentTrianglesSameFigure SameTriangle : Prop) : Prop :=
+  DifferentSubjectGroupsHaveSameNumber ∧ ¬ SameEnumeratedDecad ∧
+    DifferentTrianglesSameFigure ∧ ¬ SameTriangle
+
 end TruthCore.Greek.Aristotle.Physics

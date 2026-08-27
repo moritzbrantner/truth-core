@@ -76,3 +76,4 @@ import TruthCore.Results.Aristotle.Physics.ThingsNeitherMovingNorRestingNotInTim
 import TruthCore.Results.Aristotle.Physics.TimeMotionSameRecurrence.Solution
 import TruthCore.Results.Aristotle.Physics.WithoutSoulNoTimeAsNumber.Solution
 import TruthCore.Results.Aristotle.Physics.DistinctSimultaneousMotionsShareTime.Solution
+import TruthCore.Results.Aristotle.Physics.TimeAppearsCircular.Solution
