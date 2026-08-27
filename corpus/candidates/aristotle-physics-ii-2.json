@@ -1,9 +1,9 @@
 {
   "id": "ARIST-PHYS-II-2",
   "source_id": "ARIST-PHYS",
-  "locator": "II.2",
+  "locator": "II.2, 194a15-194b15",
   "priority": 111,
-  "goal": "Process Physics II.2 as one contiguous source range, extracting Aristotle's account of the physicist's subject matter and its relation to mathematics and form/matter.",
-  "reason": "Continue the Physics II foundational backfill in chapter order.",
+  "goal": "Complete the remaining Physics II.2 range in source order, beginning with the physicist's concern with the matter-form compound at 194a15 and continuing through the limits of physics at 194b15.",
+  "reason": "The 193b23-194a15 mathematics/physics boundary cluster has been processed; continue the same chapter candidate from the first unprocessed passage.",
   "status": "candidate"
 }
