@@ -5,6 +5,7 @@ import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter4
+import TruthCore.Greek.Aristotle.Physics.BookI.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -21,3 +22,4 @@ import TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution
 import TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Solution
 import TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Solution
 import TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Solution
+import TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.Solution

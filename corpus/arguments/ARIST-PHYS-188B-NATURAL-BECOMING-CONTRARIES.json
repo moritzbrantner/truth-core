@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES",
+  "premise_statement_ids": [
+    "STMT-BECOMING-FROM-CONTRARY-OR-INTERMEDIATE",
+    "STMT-INTERMEDIATES-DERIVED-FROM-CONTRARIES"
+  ],
+  "conclusion_statement_id": "STMT-NATURAL-BECOMING-FROM-CONTRARY-OR-CONTRARIES",
+  "inference_ids": [
+    "INF-ARIST-PHYS-NATURAL-BECOMING-CONTRARIES"
+  ],
+  "meaning": "Aristotle's Physics I.5 transition from the immediate alternatives of contrary or intermediate to the conclusion that natural becoming is from a contrary or from contraries."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-189A-PRINCIPLES-CONTRARIES-A",
+  "statement_id": "STMT-NATURAL-PRINCIPLES-MUST-BE-CONTRARIES",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.5, 189a9-10",
+  "interpretation": "The chapter closes with Aristotle's conclusion that natural principles must be contraries. This batch records the conclusion without claiming that Lean verifies the full historical-philosophical route to it.",
+  "status": "formalized"
+}
