@@ -75,3 +75,4 @@ import TruthCore.Results.Aristotle.Physics.EternalThingsNotInTime.Solution
 import TruthCore.Results.Aristotle.Physics.ThingsNeitherMovingNorRestingNotInTime.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionSameRecurrence.Solution
 import TruthCore.Results.Aristotle.Physics.WithoutSoulNoTimeAsNumber.Solution
+import TruthCore.Results.Aristotle.Physics.DistinctSimultaneousMotionsShareTime.Solution

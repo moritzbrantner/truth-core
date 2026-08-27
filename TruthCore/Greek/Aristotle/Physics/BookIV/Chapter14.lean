@@ -117,4 +117,62 @@ def MotionSubstrateMayExistWithoutSoulReading
   MotionCanExistWithoutSoul ∧ BeforeAfterBelongToMotion ∧
     TimeIsBeforeAfterQuaCountable
 
+/-- Scope of time's numbering in Aristotle, *Physics* IV.14, 223a30-223b1: time is number
+of every kind of motion precisely qua motion, and thus number of continuous motion in
+general rather than of one particular kind.
+
+Source: Aristotle, *Physics* IV.14, 223a30-223b1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeNumbersContinuousMotionGenerallyReading
+    (TimeNumbersEveryMotionQuaMotion TimeNumbersContinuousMotionGenerally
+      TimeNumbersOnlyOneParticularMotionKind : Prop) : Prop :=
+  TimeNumbersEveryMotionQuaMotion ∧ TimeNumbersContinuousMotionGenerally ∧
+    ¬ TimeNumbersOnlyOneParticularMotionKind
+
+/-- Numerical identity of time in Aristotle, *Physics* IV.14, 223b1-5: equal and
+simultaneous temporal number is one and the same time, while nonsimultaneous equal times
+remain one in kind.
+
+Source: Aristotle, *Physics* IV.14, 223b1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EqualSimultaneousNumberIsOneSameTimeReading
+    (TemporalNumbersAreEqual TemporalNumbersAreSimultaneous TimeIsOneAndSame : Prop) : Prop :=
+  TemporalNumbersAreEqual ∧ TemporalNumbersAreSimultaneous → TimeIsOneAndSame
+
+/-- Simultaneous different motions in Aristotle, *Physics* IV.14, 223b5-10: motions that
+end together can differ in speed and kind while their temporal number remains equal and
+simultaneous.
+
+Source: Aristotle, *Physics* IV.14, 223b5-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DistinctMotionsCanHaveEqualSimultaneousNumberReading
+    (MotionsAreDistinct TemporalNumbersAreEqual TemporalNumbersAreSimultaneous : Prop) : Prop :=
+  MotionsAreDistinct → TemporalNumbersAreEqual ∧ TemporalNumbersAreSimultaneous
+
+/-- Shared time of distinct motions in Aristotle, *Physics* IV.14, 223b5-13: simultaneous
+motions may be separate and unlike, yet share one and the same time.
+
+Source: Aristotle, *Physics* IV.14, 223b5-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DistinctSimultaneousMotionsShareSameTimeReading
+    (MotionsAreDistinct MotionsShareOneSameTime : Prop) : Prop :=
+  MotionsAreDistinct → MotionsShareOneSameTime
+
+/-- Explanation of time's sameness in Aristotle, *Physics* IV.14, 223b10-13: motions are
+different and separate, while time is everywhere the same because the number of equal and
+simultaneous motions is one and the same.
+
+Source: Aristotle, *Physics* IV.14, 223b10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DistinctMotionsSameTimeThroughEqualSimultaneousNumberReading
+    (MotionsDifferentAndSeparate EqualSimultaneousNumberOneAndSame
+      TimeEverywhereSame : Prop) : Prop :=
+  MotionsDifferentAndSeparate ∧ EqualSimultaneousNumberOneAndSame →
+    TimeEverywhereSame
+
 end TruthCore.Greek.Aristotle.Physics
