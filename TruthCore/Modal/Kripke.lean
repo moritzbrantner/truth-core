@@ -13,11 +13,13 @@ inductive Formula (Atom : Type v) where
 
 namespace Formula
 
+variable {Atom : Type v}
+
 /-- Classical negation encoded with implication and falsity. -/
 def neg (φ : Formula Atom) : Formula Atom := .imp φ .falsum
 
 /-- Conjunction, used only as a convenient derived connective in examples. -/
-def and (φ ψ : Formula Atom) : Formula Atom := neg (.imp φ (neg ψ))
+def conj (φ ψ : Formula Atom) : Formula Atom := neg (.imp φ (neg ψ))
 
 end Formula
 
@@ -27,6 +29,8 @@ structure Frame (World : Type u) where
 
 /-- Atomic truth assignments are intentionally separate from the frame. -/
 abbrev Valuation (World : Type u) (Atom : Type v) := World → Atom → Prop
+
+variable {World : Type u} {Atom : Type v}
 
 /-- Truth of a modal formula at one world in one Kripke model. -/
 def Holds (frame : Frame World) (valuation : Valuation World Atom) (world : World) : Formula Atom → Prop
