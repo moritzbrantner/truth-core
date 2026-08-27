@@ -19,8 +19,16 @@ jobs:
         with:
           build: true
           test: false
-      - name: Validate corpus metadata
+      - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      - name: Verify immutable primary-source witnesses
+        run: python3 scripts/source_evidence.py verify
+      - name: Exercise source materialization
+        run: |
+          python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt
+          python3 scripts/source_evidence.py materialize ARIST-CAT-V --output /tmp/aristotle-categories-v.txt
+          python3 scripts/source_evidence.py materialize ARIST-MET-IV-1 --output /tmp/aristotle-metaphysics-iv-1.txt
+          python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
 
   corpus-explorer:
     runs-on: ubuntu-latest

@@ -5,28 +5,30 @@ This repository grows one small source reading or argument at a time. Keep the c
 ## Permanent invariants
 
 1. **Research before formalization.** Every source-derived claim must point to a stable source record and a precise locator.
-2. **Statements have independent identity.** A statement is a proposition used by logic. A claim says that a source supports a statement under an interpretation. Never make statement identity depend on source provenance.
-3. **One defensible reading per claim.** If two materially different interpretations are both reasonable, create two claims. They may point to distinct statements even when later work could relate those statements.
-4. **Do not merge by similarity.** Textual identity, translation equivalence, formal equality, logical equivalence, philosophical equivalence, and historical identity are different possible relations. Add relations later; do not silently merge statement IDs.
-5. **Reuse before invention.** Search existing statements and Lean declarations before adding vocabulary. Reuse only when the meanings genuinely coincide; a false identification is worse than a duplicate statement.
-6. **Weakest faithful formalization.** Do not strengthen a source passage to make later arguments easier.
-7. **No premise smuggling.** A proof worker may not add an axiom, assumption, definition, or stronger reading solely because a proof needs it. Create a new candidate and source it instead.
-8. **Inference is explicit.** Arguments connect statement IDs through inference-application records. Never encode a logical step as an overloaded bare statement-to-statement edge.
-9. **Global cycles are allowed; circular proof is not.** Semantic relations and mutually supporting statements may form cycles. Each advertised argument must still be grounded in its premises and mechanically checked by Lean/Comparator.
-10. **Challenge is frozen before solution work.** Never weaken or otherwise edit a Challenge merely to make the Solution pass. If source review changes the statement, treat that as a new/revised claim first.
-11. **Formal verification is not source verification.** A result verifies an argument's formal consequence. It does not establish that a source really meant a statement or that a premise is philosophically true.
-12. **Prefer core Lean.** Add external Lean dependencies only when a philosophical formalization actually needs them.
-13. **Do not build identity infrastructure early.** No graph database, RDF ontology, embedding-based merger, or canonical-equivalence resolver until the corpus creates a concrete need. The typed JSON records are sufficient for now.
+2. **Materialize, do not remember.** Before formalizing a source-derived claim, resolve or create its `corpus/passages/` witness and run `python3 scripts/source_evidence.py materialize <PASSAGE-ID>`. Read that verified text and enough context to interpret it. Model memory, a search snippet, or a plausible citation is never source evidence.
+3. **Source integrity is not source fidelity.** A pinned revision, Git blob hash, CTS path, and successful materialization establish which source text was consulted. They do not establish that an interpretation is correct. Preserve that scholarly judgment separately.
+4. **Statements have independent identity.** A statement is a proposition used by logic. A claim says that a source supports a statement under an interpretation. Never make statement identity depend on source provenance.
+5. **One defensible reading per claim.** If two materially different interpretations are both reasonable, create two claims. They may point to distinct statements even when later work could relate those statements.
+6. **Do not merge by similarity.** Textual identity, translation equivalence, formal equality, logical equivalence, philosophical equivalence, and historical identity are different possible relations. Add relations later; do not silently merge statement IDs.
+7. **Reuse before invention.** Search existing statements and Lean declarations before adding vocabulary. Reuse only when the meanings genuinely coincide; a false identification is worse than a duplicate statement.
+8. **Weakest faithful formalization.** Do not strengthen a source passage to make later arguments easier.
+9. **No premise smuggling.** A proof worker may not add an axiom, assumption, definition, or stronger reading solely because a proof needs it. Create a new candidate and source it instead.
+10. **Inference is explicit.** Arguments connect statement IDs through inference-application records. Never encode a logical step as an overloaded bare statement-to-statement edge.
+11. **Global cycles are allowed; circular proof is not.** Semantic relations and mutually supporting statements may form cycles. Each advertised argument must still be grounded in its premises and mechanically checked by Lean/Comparator.
+12. **Challenge is frozen before solution work.** Never weaken or otherwise edit a Challenge merely to make the Solution pass. If source review changes the statement, treat that as a new/revised claim first.
+13. **Formal verification is not source verification.** A result verifies an argument's formal consequence. It does not establish that a source really meant a statement or that a premise is philosophically true.
+14. **Prefer core Lean.** Add external Lean dependencies only when a philosophical formalization actually needs them.
+15. **Do not build identity infrastructure early.** No graph database, RDF ontology, embedding-based merger, or canonical-equivalence resolver until the corpus creates a concrete need. The typed JSON records are sufficient for now.
 
-See `docs/corpus-model.md` for the entity boundaries.
+See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and verification boundaries.
 
 ## Outer systematic loop
 
 The normal operating mode is **not one human prompt per proposition**. A queued candidate represents a contiguous source range, normally a chapter or similarly coherent section. Once an agent starts a candidate, it keeps moving through that range in source order and repeatedly applies the atomic loop below.
 
 1. Run `python3 scripts/corpus.py next` and take the highest-priority candidate.
-2. Read the candidate's entire locator range before deciding its internal work sequence.
-3. Move through the range in order. Extract philosophically substantive propositions and arguments; do **not** create a claim merely because a sentence exists.
+2. Resolve the candidate range to a pinned source witness. Add the smallest coherent `corpus/passages/` slice if one does not exist, then materialize it and read the complete candidate range before deciding its internal work sequence.
+3. Move through the verified source text in order. Extract philosophically substantive propositions and arguments; do **not** create a claim merely because a sentence exists.
 4. For every substantive reading, run the atomic research/formalization/proof loop below.
 5. Prefer a reviewable batch of roughly 5–10 new source claims, one coherent argument cluster, or the remainder of a short candidate range—whichever boundary comes first.
 6. If a batch ends before the candidate range is exhausted, keep the same candidate ID and edit its locator/goal so it begins at the first unprocessed passage. Do not create a second candidate just to represent progress.
@@ -40,7 +42,7 @@ A candidate is a queue item, not a philosophical entity and not a ticket-status 
 
 Do not stop merely because one atomic claim, one PR, or one campaign is finished. Stop the systematic loop only when:
 
-- the primary text or required context cannot be obtained reliably;
+- the primary text or required context cannot be obtained reliably or pinned to an immutable witness;
 - two materially different source readings require a human choice about project scope rather than simply preserving both;
 - a missing premise points outside the queued source range and choosing the next source is genuinely non-obvious;
 - the formal vocabulary would require a cross-cutting modeling decision that changes existing corpus semantics;
@@ -53,12 +55,16 @@ See `docs/systematic-corpus-loop.md` for batching, completion, and campaign guid
 
 For each philosophically substantive reading or argument encountered inside the current candidate range, perform this loop:
 
-### 1. Research
+### 1. Research from verified source evidence
 
-- Read the cited passage and enough immediate context to avoid quotation-mining.
-- Prefer stable primary-source editions. Preserve the conventional classical locator and a CTS identifier when one exists.
+- Resolve the passage to a `corpus/passages/` record. Its source snapshot must name the exact edition URN, repository, immutable revision, file path, Git blob SHA, source URL, language, and license.
+- If no passage witness covers the range, add one from a stable primary-source edition before creating any claim.
+- Run `python3 scripts/source_evidence.py materialize <PASSAGE-ID>` and read the materialized text plus enough immediate context to avoid quotation-mining.
+- Preserve the conventional classical locator and CTS identity. The conventional locator remains the human citation; the pinned witness makes the consulted bytes reproducible.
 - Record a concise paraphrase rather than copying long translations into the repository.
 - Identify one atomic source reading or argument.
+
+A worker may use catalogs, translations, commentaries, or search for orientation, but those do not substitute for reading the materialized primary-source witness used by the claim.
 
 ### 2. Check reuse
 
@@ -70,6 +76,7 @@ Search `corpus/statements/` and `TruthCore/` for existing propositions and conce
 - Put source locator and interpretation notes in the Lean doc comment.
 - Add/update an independent `corpus/statements/*.json` record for the proposition.
 - Add/update the corresponding `corpus/claims/*.json` record linking the source reading to that statement.
+- Ensure the claim's `source_id` and `locator` resolve to exactly one pinned passage. `python3 scripts/corpus.py check` rejects missing or ambiguous passage evidence.
 - If another reading is also defensible, create a sibling claim with the same source locator and an `interpretation_of` link. Do not use that link to imply statement equivalence.
 
 ### 4. Critique fidelity
@@ -80,8 +87,9 @@ Before proving anything, explicitly ask:
 - Is it weaker in a way that removes philosophically relevant content?
 - Did a natural-language relation get replaced by a modern notion with different semantics?
 - Did quantifier scope, modality, time, identity, or causation change?
+- Does the cited locator genuinely support this reading when inspected in the pinned passage and its context?
 
-If the answer is materially uncertain, preserve alternatives rather than silently selecting one.
+If the answer is materially uncertain, preserve alternatives rather than silently selecting one. A green source-evidence check cannot answer these interpretive questions for you.
 
 ### 5. Create an argument only when there is an argument
 
@@ -108,15 +116,19 @@ If a Solution cannot be proved from the advertised premises:
 - do not broaden an existing source claim;
 - create a candidate describing the missing philosophical proposition and the source location that should be investigated.
 
-### 7. Verify
+### 7. Verify the three boundaries
 
 Run:
 
 ```bash
+python3 scripts/source_evidence.py check
+python3 scripts/source_evidence.py verify
 lake build
 python3 scripts/corpus.py check
 scripts/verify-result.sh <RESULT-ID>
 ```
+
+`source_evidence.py check` verifies offline manifest and claim bindings. `source_evidence.py verify` fetches the exact pinned editions and rejects byte drift by Git blob SHA. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
 
 Do not call an argument mechanically verified unless its result passes Comparator. CI also runs an independent no-`sorry` NanoDa check over the built library.
 
@@ -141,6 +153,13 @@ Statement IDs are stable proposition IDs and should not encode an assertion that
 ```text
 STMT-CAUSE-PRINCIPLE-BROAD
 STMT-COSMOS-HAS-CAUSE
+```
+
+Passage IDs identify reproducible source evidence ranges, not interpretations:
+
+```text
+PLATO-TIM-28
+ARIST-PHYS-I-4
 ```
 
 Argument IDs identify a composed derivation. Result IDs identify a verifier record and may intentionally match the argument ID in the seed corpus:

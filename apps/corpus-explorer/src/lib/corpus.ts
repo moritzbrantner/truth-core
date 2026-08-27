@@ -13,6 +13,36 @@ export type CorpusSource = {
   notes: string;
 };
 
+export type CorpusSourceSnapshot = {
+  source_id: string;
+  edition_urn: string;
+  language: string;
+  repository: string;
+  revision: string;
+  path: string;
+  git_blob_sha: string;
+  source_url: string;
+  license: string;
+};
+
+type CorpusPassageSlice = {
+  id: string;
+  locator: string;
+  claim_locator_prefixes: string[];
+  cts_path?: Array<{ subtype: string; n: string }>;
+};
+
+type CorpusPassageManifest = {
+  snapshot: CorpusSourceSnapshot;
+  passages: CorpusPassageSlice[];
+  notes?: string;
+};
+
+export type CorpusPassage = CorpusSourceSnapshot &
+  CorpusPassageSlice & {
+    notes?: string;
+  };
+
 export type CorpusStatement = {
   id: string;
   paraphrase: string;
@@ -32,6 +62,7 @@ type RawCorpusClaim = {
 
 export type CorpusClaim = RawCorpusClaim & {
   statement: CorpusStatement;
+  passage: CorpusPassage;
   paraphrase: string;
   lean_declaration?: string;
 };
@@ -107,6 +138,7 @@ export type ClaimListEntry = {
 
 export type Corpus = {
   sources: CorpusSource[];
+  passages: CorpusPassage[];
   statements: CorpusStatement[];
   claims: CorpusClaim[];
   inferences: CorpusInference[];
@@ -129,8 +161,35 @@ function readRecords<Record>(directory: string): Record[] {
     .map((file) => JSON.parse(readFileSync(path.join(directory, file), "utf8")));
 }
 
+function readPassages(): CorpusPassage[] {
+  return readRecords<CorpusPassageManifest>(path.join(corpusDirectory, "passages")).flatMap((manifest) =>
+    manifest.passages.map((passage) => ({
+      ...manifest.snapshot,
+      ...passage,
+      notes: manifest.notes,
+    })),
+  );
+}
+
+function passageForRawClaim(passages: CorpusPassage[], claim: RawCorpusClaim) {
+  const matches = passages.filter(
+    (passage) =>
+      passage.source_id === claim.source_id &&
+      passage.claim_locator_prefixes.some((prefix) => claim.locator.startsWith(prefix)),
+  );
+
+  if (matches.length !== 1) {
+    throw new Error(
+      `Claim ${claim.id} must resolve to exactly one source passage; matched ${matches.length}`,
+    );
+  }
+
+  return matches[0];
+}
+
 export function getCorpus(): Corpus {
   const sources = readRecords<CorpusSource>(path.join(corpusDirectory, "sources"));
+  const passages = readPassages();
   const statements = readRecords<CorpusStatement>(path.join(corpusDirectory, "statements"));
   const rawClaims = readRecords<RawCorpusClaim>(path.join(corpusDirectory, "claims"));
   const inferences = readRecords<CorpusInference>(path.join(corpusDirectory, "inferences"));
@@ -147,9 +206,11 @@ export function getCorpus(): Corpus {
     if (!statement) {
       throw new Error(`Unknown statement ${claim.statement_id} for claim ${claim.id}`);
     }
+
     return {
       ...claim,
       statement,
+      passage: passageForRawClaim(passages, claim),
       paraphrase: statement.paraphrase,
       lean_declaration: statement.lean_declaration,
     };
@@ -163,11 +224,25 @@ export function getCorpus(): Corpus {
     return { ...result, argument, meaning: argument.meaning };
   });
 
-  return { sources, statements, claims, inferences, arguments: arguments_, relations, results, candidates };
+  return {
+    sources,
+    passages,
+    statements,
+    claims,
+    inferences,
+    arguments: arguments_,
+    relations,
+    results,
+    candidates,
+  };
 }
 
 export function findSource(corpus: Corpus, sourceId: string) {
   return corpus.sources.find((source) => source.id === sourceId);
+}
+
+export function findPassage(corpus: Corpus, passageId: string) {
+  return corpus.passages.find((passage) => passage.id === passageId);
 }
 
 export function findStatement(corpus: Corpus, statementId: string) {
@@ -194,6 +269,10 @@ export function findCandidate(corpus: Corpus, candidateId: string) {
   return corpus.candidates.find((candidate) => candidate.id === candidateId);
 }
 
+export function passagesForSource(corpus: Corpus, sourceId: string) {
+  return corpus.passages.filter((passage) => passage.source_id === sourceId);
+}
+
 export function claimsForStatement(corpus: Corpus, statementId: string) {
   return corpus.claims.filter((claim) => claim.statement_id === statementId);
 }
@@ -215,7 +294,9 @@ export function resultsForClaim(corpus: Corpus, claimId: string) {
   if (!claim) {
     return [];
   }
-  const argumentIds = new Set(argumentsUsingStatement(corpus, claim.statement_id).map((argument) => argument.id));
+  const argumentIds = new Set(
+    argumentsUsingStatement(corpus, claim.statement_id).map((argument) => argument.id),
+  );
   return corpus.results.filter((result) => argumentIds.has(result.argument_id));
 }
 
@@ -262,21 +343,24 @@ export function claimListEntries(corpus: Corpus): ClaimListEntry[] {
       if (!source) {
         return [];
       }
-      return [{
-        id: claim.id,
-        sourceId: source.id,
-        author: source.author,
-        work: source.work,
-        locator: claim.locator,
-        paraphrase: claim.paraphrase,
-        status: claim.status,
-        hasVerifiedArgument: resultsForClaim(corpus, claim.id).length > 0,
-      }];
+      return [
+        {
+          id: claim.id,
+          sourceId: source.id,
+          author: source.author,
+          work: source.work,
+          locator: claim.locator,
+          paraphrase: claim.paraphrase,
+          status: claim.status,
+          hasVerifiedArgument: resultsForClaim(corpus, claim.id).length > 0,
+        },
+      ];
     })
-    .sort((left, right) =>
-      left.author.localeCompare(right.author) ||
-      left.work.localeCompare(right.work) ||
-      left.locator.localeCompare(right.locator),
+    .sort(
+      (left, right) =>
+        left.author.localeCompare(right.author) ||
+        left.work.localeCompare(right.work) ||
+        left.locator.localeCompare(right.locator),
     );
 }
 
@@ -284,11 +368,14 @@ export function alternativeClaims(corpus: Corpus, claim: CorpusClaim) {
   if (!claim.interpretation_group) {
     return [];
   }
-  return corpus.claims.filter((candidate) =>
-    candidate.interpretation_group === claim.interpretation_group && candidate.id !== claim.id,
+  return corpus.claims.filter(
+    (candidate) =>
+      candidate.interpretation_group === claim.interpretation_group && candidate.id !== claim.id,
   );
 }
 
 export function comparatorForResult(result: CorpusResult): ComparatorConfig {
-  return JSON.parse(readFileSync(path.resolve(corpusDirectory, "..", result.comparator_config), "utf8"));
+  return JSON.parse(
+    readFileSync(path.resolve(corpusDirectory, "..", result.comparator_config), "utf8"),
+  );
 }
