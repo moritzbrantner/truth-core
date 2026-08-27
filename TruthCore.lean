@@ -24,6 +24,7 @@ import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter8
+import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter1
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
@@ -52,3 +53,4 @@ import TruthCore.Results.Aristotle.Physics.PhysicalFourCauses.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalErrorTeleology.Solution
 import TruthCore.Results.Aristotle.Physics.SawHypotheticalNecessity.Solution
+import TruthCore.Results.Aristotle.Physics.PlaceFromReplacement.Solution
