@@ -136,4 +136,121 @@ def VoidEqualYieldImpliesAllDirectionsReading
     (VoidYieldsEquallyEverywhere BodyWouldMoveInEveryDirection : Prop) : Prop :=
   VoidYieldsEquallyEverywhere → BodyWouldMoveInEveryDirection
 
+/-- The two observed sources of speed differences in Aristotle, *Physics* IV.8, 215a24-29:
+the same body moves at different speeds through different media, and otherwise comparable
+bodies differ in speed with their weight or lightness.
+
+Source: Aristotle, *Physics* IV.8, 215a24-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MediumAndMovingBodyDetermineSpeedReading
+    (SameBodySpeedDiffersByMedium
+      ComparableBodySpeedDiffersByWeightOrLightness : Prop) : Prop :=
+  SameBodySpeedDiffersByMedium ∧
+    ComparableBodySpeedDiffersByWeightOrLightness
+
+/-- Medium-resistance account in Aristotle, *Physics* IV.8, 215a29-215b11: a medium impedes
+motion, denser and less easily divided media impede more, and traversal times vary with that
+resistance. This records Aristotle's proportional comparison without importing a modern law.
+
+Source: Aristotle, *Physics* IV.8, 215a29-215b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MediumResistanceDeterminesTraversalTimeReading
+    (MediumImpedesMotion DenserMediumImpedesMore
+      EasierDivisionAllowsFasterTraversal
+      TraversalTimesVaryWithMediumResistance : Prop) : Prop :=
+  MediumImpedesMotion ∧ DenserMediumImpedesMore ∧
+    EasierDivisionAllowsFasterTraversal ∧
+      TraversalTimesVaryWithMediumResistance
+
+/-- Ratio mismatch in Aristotle, *Physics* IV.8, 215b11-22: body bears no determinate ratio
+of excess to void, as a number bears none to zero, so void and full admit no corresponding
+ratio of media or motions.
+
+Source: Aristotle, *Physics* IV.8, 215b11-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VoidAndFullHaveNoMotionRatioReading
+    (VoidAndFullHaveMediumRatio MotionsThroughVoidAndFullHaveRatio : Prop) : Prop :=
+  ¬ VoidAndFullHaveMediumRatio ∧ ¬ MotionsThroughVoidAndFullHaveRatio
+
+/-- Finite-time supposition in Aristotle's reductio, *Physics* IV.8, 215b22-216a7: if a
+body traversed a stretch of void in some finite time, a suitably rare full medium would be
+traversed over the same distance in that same time.
+
+Source: Aristotle, *Physics* IV.8, 215b22-216a7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteVoidTraversalEntailsEqualFullVoidTraversalTimeReading
+    (FiniteVoidTraversal EqualFullAndVoidTraversalTime : Prop) : Prop :=
+  FiniteVoidTraversal → EqualFullAndVoidTraversalTime
+
+/-- The impossible consequence in Aristotle's reductio, *Physics* IV.8, 216a1-7: the same
+body cannot traverse equal distances through a full medium and void in equal time.
+
+Source: Aristotle, *Physics* IV.8, 216a1-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EqualFullVoidTraversalTimeImpossibleReading
+    (EqualFullAndVoidTraversalTime : Prop) : Prop :=
+  ¬ EqualFullAndVoidTraversalTime
+
+/-- Conclusion of Aristotle's finite-time reductio in *Physics* IV.8, 215b22-216a11: no
+body traverses a stretch of void in a finite time.
+
+Source: Aristotle, *Physics* IV.8, 215b22-216a11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteVoidTraversalImpossibleReading (FiniteVoidTraversal : Prop) : Prop :=
+  ¬ FiniteVoidTraversal
+
+/-- Summary of the ratio reductio in Aristotle, *Physics* IV.8, 216a8-12: any two finite
+motions, through their finite times, bear a ratio to one another, whereas void and full do
+not bear a ratio.
+
+Source: Aristotle, *Physics* IV.8, 216a8-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteMotionsButNotVoidAndFullHaveRatioReading
+    (AnyTwoFiniteMotionsHaveRatio VoidAndFullHaveRatio : Prop) : Prop :=
+  AnyTwoFiniteMotionsHaveRatio ∧ ¬ VoidAndFullHaveRatio
+
+/-- Moving-body comparison in Aristotle, *Physics* IV.8, 216a12-20: otherwise comparable
+bodies with greater weight or lightness traverse an equal full region faster because their
+shape or impulse divides the medium more forcefully.
+
+Source: Aristotle, *Physics* IV.8, 216a12-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GreaterImpulseDividesFullMediumFasterReading
+    (GreaterWeightOrLightnessGivesGreaterImpulse
+      GreaterImpulseDividesFullMediumFaster : Prop) : Prop :=
+  GreaterWeightOrLightnessGivesGreaterImpulse →
+    GreaterImpulseDividesFullMediumFaster
+
+/-- Equal-speed reductio in Aristotle, *Physics* IV.8, 216a16-21: void supplies no medium
+for greater shape or impulse to divide, so the void hypothesis makes all otherwise comparable
+bodies move equally fast; Aristotle rejects that consequence as impossible.
+
+Source: Aristotle, *Physics* IV.8, 216a16-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VoidSpeedEqualityReductioReading
+    (SeparatedVoidExists AllComparableBodiesMoveEquallyFastInVoid : Prop) : Prop :=
+  (SeparatedVoidExists → AllComparableBodiesMoveEquallyFastInVoid) ∧
+    ¬ AllComparableBodiesMoveEquallyFastInVoid
+
+/-- Separate-place consequence in Aristotle, *Physics* IV.8, 216a21-26: positing void as
+separated in itself amounts to positing place as an independently separated interval, which
+the preceding account of place has already rejected.
+
+Source: Aristotle, *Physics* IV.8, 216a21-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SeparatedVoidWouldBeImpossibleSeparatePlaceReading
+    (SeparatedVoidExists IndependentSeparatePlaceExists : Prop) : Prop :=
+  (SeparatedVoidExists → IndependentSeparatePlaceExists) ∧
+    ¬ IndependentSeparatePlaceExists
+
 end TruthCore.Greek.Aristotle.Physics

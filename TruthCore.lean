@@ -63,3 +63,4 @@ import TruthCore.Results.Aristotle.Physics.WholeHeavenNotInPlace.Solution
 import TruthCore.Results.Aristotle.Physics.VoidFromMotionArgument.Solution
 import TruthCore.Results.Aristotle.Physics.VoidNotNecessaryForMotion.Solution
 import TruthCore.Results.Aristotle.Physics.NoMotionInSeparatedVoid.Solution
+import TruthCore.Results.Aristotle.Physics.FiniteVoidTraversalImpossible.Solution
