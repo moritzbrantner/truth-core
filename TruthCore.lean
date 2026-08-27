@@ -18,6 +18,7 @@ import TruthCore.Greek.Aristotle.Physics.BookII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter6
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter8
+import TruthCore.Greek.Aristotle.Physics.BookII.Chapter9
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -50,3 +51,4 @@ import TruthCore.Results.Aristotle.Physics.ChancePosteriority.Solution
 import TruthCore.Results.Aristotle.Physics.PhysicalFourCauses.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalErrorTeleology.Solution
+import TruthCore.Results.Aristotle.Physics.SawHypotheticalNecessity.Solution
