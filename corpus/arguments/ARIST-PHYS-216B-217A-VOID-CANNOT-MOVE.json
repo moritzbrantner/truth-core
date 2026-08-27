@@ -1,0 +1,1 @@
+{"id":"ARIST-PHYS-216B-217A-VOID-CANNOT-MOVE","premise_statement_ids":["STMT-VOID-MOTION-ENTAILS-PLACE-FOR-VOID","STMT-PLACE-FOR-MOVING-VOID-IMPOSSIBLE"],"conclusion_statement_id":"STMT-VOID-CANNOT-MOVE","inference_ids":["INF-ARIST-PHYS-VOID-CANNOT-MOVE"],"meaning":"Aristotle's Physics IV.9 place reductio against the locomotion of internal void."}
