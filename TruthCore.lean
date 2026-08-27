@@ -61,3 +61,4 @@ import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter4
 import TruthCore.Results.Aristotle.Physics.PlaceContainingBoundary.Solution
 import TruthCore.Results.Aristotle.Physics.WholeHeavenNotInPlace.Solution
 import TruthCore.Results.Aristotle.Physics.VoidFromMotionArgument.Solution
+import TruthCore.Results.Aristotle.Physics.VoidNotNecessaryForMotion.Solution
