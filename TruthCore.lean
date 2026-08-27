@@ -59,3 +59,4 @@ import TruthCore.Results.Aristotle.Physics.PlaceNeitherFormNorMatter.Solution
 import TruthCore.Results.Aristotle.Physics.NoPrimarySelfLocation.Solution
 import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter4
 import TruthCore.Results.Aristotle.Physics.PlaceContainingBoundary.Solution
+import TruthCore.Results.Aristotle.Physics.WholeHeavenNotInPlace.Solution

@@ -1,0 +1,1 @@
+{"id":"STMT-EXTERNAL-CONTAINING-BODY-CONDITION","paraphrase":"A body is in place exactly when another body outside it contains it.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.ExternalContainingBodyConditionReading"}
