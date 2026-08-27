@@ -97,4 +97,123 @@ def MovingWithWholeVersusWithinContainerReading
   ContinuousPartMovesWithWhole ∧ SeparatedBodyMovesWithinContainer ∧
     ContainerMayMoveOrRemain ∧ HandMovesWithBody ∧ WaterMovesInVessel
 
+/-- The four exhaustive candidates in Aristotle, *Physics* IV.4, 211b5-10: place must be
+form, matter, an independent interval between the container's boundaries, or the containing
+boundary itself where no such further interval exists.
+
+Source: Aristotle, *Physics* IV.4, 211b5-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FourPlaceCandidatesReading
+    (PlaceIsForm PlaceIsMatter PlaceIsIndependentInterval
+      PlaceIsContainingBoundaryAtContact : Prop) : Prop :=
+  PlaceIsForm ∨ PlaceIsMatter ∨ PlaceIsIndependentInterval ∨
+    PlaceIsContainingBoundaryAtContact
+
+/-- Form-place boundary distinction in Aristotle, *Physics* IV.4, 211b10-15: form seems to
+be place because both are coincident boundaries, but form bounds the contained thing while
+place belongs to the containing body.
+
+Source: Aristotle, *Physics* IV.4, 211b10-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FormAndPlaceBoundDifferentBodiesReading
+    (FormBoundsContainedThing PlaceBoundsContainingBody
+      CoincidentBoundariesHaveSameSubject : Prop) : Prop :=
+  FormBoundsContainedThing ∧ PlaceBoundsContainingBody ∧
+    ¬ CoincidentBoundariesHaveSameSubject
+
+/-- Rejection of an independent interval in Aristotle, *Physics* IV.4, 211b15-29. Bodily
+replacement makes such an interval seem to persist, but some body always occupies the region;
+if a permanent independent interval existed, infinitely many changing and coincident places,
+including places of places, would result.
+
+Source: Aristotle, *Physics* IV.4, 211b15-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndependentIntervalPlaceRejectedReading
+    (ReplacementSuggestsPersistentInterval SomeBodyAlwaysOccupiesRegion
+      IndependentIntervalExists InfiniteCoincidentPlacesWouldResult
+      PlacesOfPlacesWouldResult : Prop) : Prop :=
+  ReplacementSuggestsPersistentInterval ∧ SomeBodyAlwaysOccupiesRegion ∧
+    (IndependentIntervalExists →
+      InfiniteCoincidentPlacesWouldResult ∧ PlacesOfPlacesWouldResult) ∧
+        ¬ IndependentIntervalExists
+
+/-- Matter-place comparison in Aristotle, *Physics* IV.4, 211b29-212a2. Successive bodies
+in one region can resemble one substrate through qualitative change, making matter appear
+to be place; but matter neither separates from nor contains the thing, while place does both.
+
+Source: Aristotle, *Physics* IV.4, 211b29-212a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MatterPlaceAppearanceAndRejectionReading
+    (SuccessionSuggestsMatterPlaceAnalogy MatterSeparableFromThing
+      MatterContainsThing PlaceSeparableFromThing PlaceContainsThing : Prop) : Prop :=
+  SuccessionSuggestsMatterPlaceAnalogy ∧ ¬ MatterSeparableFromThing ∧
+    ¬ MatterContainsThing ∧ PlaceSeparableFromThing ∧ PlaceContainsThing
+
+/-- Result of Aristotle's three eliminations in *Physics* IV.4, 211b10-212a5: place is
+neither the contained thing's form, nor its matter, nor a permanent independent interval.
+
+Source: Aristotle, *Physics* IV.4, 211b10-212a5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FormMatterIntervalExcludedReading
+    (PlaceIsForm PlaceIsMatter PlaceIsIndependentInterval : Prop) : Prop :=
+  ¬ PlaceIsForm ∧ ¬ PlaceIsMatter ∧ ¬ PlaceIsIndependentInterval
+
+/-- Conclusion of the four-candidate elimination in Aristotle, *Physics* IV.4, 212a2-7:
+place is the boundary of the containing body at which it contacts the contained body capable
+of locomotion.
+
+Source: Aristotle, *Physics* IV.4, 212a2-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlaceIsContainingBoundaryAtContactReading
+    (PlaceIsContainingBoundaryAtContact : Prop) : Prop :=
+  PlaceIsContainingBoundaryAtContact
+
+/-- Sources of the difficulty about place in Aristotle, *Physics* IV.4, 212a7-15: matter and
+form appear along with it, replacement occurs in a stationary container, and air's apparent
+incorporeality makes the vessel's interior look like an empty independent interval.
+
+Source: Aristotle, *Physics* IV.4, 212a7-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlaceDifficultySourcesReading
+    (MatterAndFormAppearWithPlace StationaryContainerHostsReplacement
+      AirAppearsIncorporeal VesselInteriorAppearsEmptyInterval : Prop) : Prop :=
+  MatterAndFormAppearWithPlace ∧ StationaryContainerHostsReplacement ∧
+    AirAppearsIncorporeal ∧ VesselInteriorAppearsEmptyInterval
+
+/-- Immobility refinement in Aristotle, *Physics* IV.4, 212a14-21: a vessel is movable
+place, while place is an immovable vessel. A moving river segment containing a boat therefore
+acts more as vessel than place; the whole stable river illustrates why place is the first
+immobile boundary of what contains.
+
+Source: Aristotle, *Physics* IV.4, 212a14-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlaceIsFirstImmobileContainingBoundaryReading
+    (VesselIsMovablePlace PlaceIsImmovableVessel
+      MovingRiverSegmentActsAsVessel WholeRiverActsAsPlace
+      PlaceIsFirstImmobileContainingBoundary : Prop) : Prop :=
+  VesselIsMovablePlace ∧ PlaceIsImmovableVessel ∧
+    MovingRiverSegmentActsAsVessel ∧ WholeRiverActsAsPlace ∧
+      PlaceIsFirstImmobileContainingBoundary
+
+/-- Directional and coincidence consequences in Aristotle, *Physics* IV.4, 212a21-30: the
+stable cosmic middle and outer extreme ground natural down and up; place appears surface-like
+and container-like, and is coincident with its bounded occupant because their boundaries meet.
+
+Source: Aristotle, *Physics* IV.4, 212a21-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NaturalDirectionsAndBoundaryCoincidenceReading
+    (CosmicMiddleGroundsDown CosmicExtremeGroundsUp
+      PlaceAppearsSurfaceAndContainer PlaceCoincidentWithLocatedThing : Prop) : Prop :=
+  CosmicMiddleGroundsDown ∧ CosmicExtremeGroundsUp ∧
+    PlaceAppearsSurfaceAndContainer ∧ PlaceCoincidentWithLocatedThing
+
 end TruthCore.Greek.Aristotle.Physics
