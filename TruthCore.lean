@@ -38,3 +38,4 @@ import TruthCore.Results.Aristotle.Physics.GrowthTargetFormNature.Solution
 import TruthCore.Results.Aristotle.Physics.DefinitionMotionDependence.Solution
 import TruthCore.Results.Aristotle.Physics.PhysicsKnowsMatterForm.Solution
 import TruthCore.Results.Aristotle.Physics.MultipleProperCauses.Solution
+import TruthCore.Results.Aristotle.Physics.MostPreciseCause.Solution

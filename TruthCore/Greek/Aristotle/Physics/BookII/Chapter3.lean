@@ -140,4 +140,146 @@ def FinalCauseGoodOrApparentGoodReading
   FinalCauseIsBestAndEnd ∧
     GoodAndApparentGoodBothServeThisDescription
 
+/--
+Priority within a causal kind in Aristotle, *Physics* II.3, 195a27-32: even causes of the
+same kind may be prior or posterior, with more inclusive and more particular descriptions,
+as expert and doctor or number and double ratio.
+
+Source: Aristotle, *Physics* II.3, 195a27-32 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameKindCausesPriorPosteriorInclusiveParticularReading
+    (SameKindCausesCanBePriorOrPosterior
+      CauseCanBeMoreInclusiveOrParticular : Prop) : Prop :=
+  SameKindCausesCanBePriorOrPosterior ∧
+    CauseCanBeMoreInclusiveOrParticular
+
+/--
+Incidental causation in Aristotle, *Physics* II.3, 195a32-195b3: Polyclitus causes a statue
+incidentally insofar as Polyclitus happens to be the sculptor; incidental causes also have
+genera and can be nearer to or more remote from the effect.
+
+Source: Aristotle, *Physics* II.3, 195a32-195b3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IncidentalCausesHaveGeneraAndRemotenessReading
+    (NamedIndividualIsCauseIncidentally
+      IncidentalCausesHaveGenera
+      IncidentalCausesVaryInRemoteness : Prop) : Prop :=
+  NamedIndividualIsCauseIncidentally ∧
+    IncidentalCausesHaveGenera ∧
+      IncidentalCausesVaryInRemoteness
+
+/--
+Potential/actual distinction in Aristotle, *Physics* II.3, 195b3-6: every proper and
+incidental cause may be described either as able to act or as actually acting, as builder or
+builder building.
+
+Source: Aristotle, *Physics* II.3, 195b3-6 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ProperIncidentalCausesPotentialOrActualReading
+    (ProperCausesPotentialOrActual
+      IncidentalCausesPotentialOrActual : Prop) : Prop :=
+  ProperCausesPotentialOrActual ∧
+    IncidentalCausesPotentialOrActual
+
+/--
+Description of effects and causes in Aristotle, *Physics* II.3, 195b6-12: effects, their
+materials, and incidental attributes may be named at particular or more generic levels, and
+cause descriptions may be compounded, as “Polyclitus the sculptor.”
+
+Source: Aristotle, *Physics* II.3, 195b6-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CausalDescriptionsVaryAndCanBeCompoundedReading
+    (EffectsCanBeParticularOrGeneric
+      MaterialsCanBeParticularOrGeneric
+      IncidentalDescriptionsVaryLikewise
+      CauseDescriptionsCanBeCompounded : Prop) : Prop :=
+  EffectsCanBeParticularOrGeneric ∧
+    MaterialsCanBeParticularOrGeneric ∧
+      IncidentalDescriptionsVaryLikewise ∧
+        CauseDescriptionsCanBeCompounded
+
+/--
+Sixfold summary in Aristotle, *Physics* II.3, 195b12-16: cause may be particular, generic,
+incidental, a genus of the incidental, a compound of these, or simply stated; every one is
+then said either actually or potentially.
+
+Source: Aristotle, *Physics* II.3, 195b12-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SixCausalDescriptionModesTwofoldReading
+    (SixCausalDescriptionModes
+      EveryModeActualOrPotential : Prop) : Prop :=
+  SixCausalDescriptionModes ∧ EveryModeActualOrPotential
+
+/--
+Temporal difference in Aristotle, *Physics* II.3, 195b16-21: an actually operating
+particular cause exists and ceases together with the effect it is producing, whereas a
+potential cause need not cease together with the effect.
+
+This is restricted to the actual-particular and potential contrast made in the passage.
+
+Source: Aristotle, *Physics* II.3, 195b16-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ActualParticularCauseCoevalPotentialNotNecessarilyReading
+    (ActualParticularCauseCoevalWithEffect
+      PotentialCauseAlwaysCoevalWithEffect : Prop) : Prop :=
+  ActualParticularCauseCoevalWithEffect ∧
+    ¬ PotentialCauseAlwaysCoevalWithEffect
+
+/--
+First premise of Aristotle's precision argument in *Physics* II.3, 195b21-25: if a human
+builds, being a builder is the relevant explanation of that building.
+
+Source: Aristotle, *Physics* II.3, 195b21-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HumanBuildsQuaBuilderReading
+    (HumanBuilds BuilderStatusExplainsBuilding : Prop) : Prop :=
+  HumanBuilds → BuilderStatusExplainsBuilding
+
+/--
+Second premise of Aristotle's precision argument in *Physics* II.3, 195b21-25: the builder
+builds in virtue of the building art, making that art the prior and more precise cause.
+
+Source: Aristotle, *Physics* II.3, 195b21-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BuilderBuildsThroughBuildingArtReading
+    (BuilderStatusExplainsBuilding BuildingArtIsMorePreciseCause : Prop) : Prop :=
+  BuilderStatusExplainsBuilding → BuildingArtIsMorePreciseCause
+
+/--
+Conclusion of Aristotle's precision argument in *Physics* II.3, 195b21-25: when a human
+builds, inquiry should reach the building art as the more precise cause.
+
+Source: Aristotle, *Physics* II.3, 195b21-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BuildingArtMostPreciseCauseReading
+    (HumanBuilds BuildingArtIsMorePreciseCause : Prop) : Prop :=
+  HumanBuilds → BuildingArtIsMorePreciseCause
+
+/--
+Closing matching rule in Aristotle, *Physics* II.3, 195b25-30: generic effects are assigned
+to generic causes and particular effects to particular causes; powers correspond to possible
+effects and actually operating causes to effects being actualized.
+
+Source: Aristotle, *Physics* II.3, 195b25-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MatchCauseEffectSpecificityAndActualityReading
+    (GenericCausesMatchGenericEffects
+      ParticularCausesMatchParticularEffects
+      PowersMatchPossibleEffects
+      ActualCausesMatchActualizedEffects : Prop) : Prop :=
+  GenericCausesMatchGenericEffects ∧
+    ParticularCausesMatchParticularEffects ∧
+      PowersMatchPossibleEffects ∧
+        ActualCausesMatchActualizedEffects
+
 end TruthCore.Greek.Aristotle.Physics
