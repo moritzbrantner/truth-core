@@ -32,3 +32,4 @@ import TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution
 import TruthCore.Results.Aristotle.Physics.PredecessorNoGeneration.Solution
 import TruthCore.Results.Aristotle.Physics.MatterUngeneratedImperishable.Solution
 import TruthCore.Results.Aristotle.Physics.AntiphonMaterialNature.Solution
+import TruthCore.Results.Aristotle.Physics.GrowthTargetFormNature.Solution
