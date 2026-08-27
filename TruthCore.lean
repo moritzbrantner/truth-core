@@ -7,6 +7,7 @@ import TruthCore.Greek.Aristotle.Physics.BookI.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter6
+import TruthCore.Greek.Aristotle.Physics.BookI.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6

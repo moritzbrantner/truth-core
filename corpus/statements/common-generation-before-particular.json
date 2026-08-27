@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COMMON-GENERATION-BEFORE-PARTICULAR-KINDS",
+  "paraphrase": "The account of coming-to-be should first consider features common to every case and only afterward the features peculiar to particular kinds.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.CommonGenerationBeforeParticularKindsReading"
+}
