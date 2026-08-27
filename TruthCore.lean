@@ -68,3 +68,4 @@ import TruthCore.Results.Aristotle.Physics.NoSeparatedVoid.Solution
 import TruthCore.Results.Aristotle.Physics.VoidCannotMove.Solution
 import TruthCore.Results.Aristotle.Physics.CompressionWithoutVoid.Solution
 import TruthCore.Results.Aristotle.Physics.TimeIsNotMotion.Solution
+import TruthCore.Results.Aristotle.Physics.TimeBelongsToMotion.Solution
