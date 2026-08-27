@@ -10,6 +10,7 @@ import TruthCore.Greek.Aristotle.Physics.BookI.Chapter6
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter8
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter9
+import TruthCore.Greek.Aristotle.Physics.BookII.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -30,3 +31,4 @@ import TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.Solutio
 import TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution
 import TruthCore.Results.Aristotle.Physics.PredecessorNoGeneration.Solution
 import TruthCore.Results.Aristotle.Physics.MatterUngeneratedImperishable.Solution
+import TruthCore.Results.Aristotle.Physics.AntiphonMaterialNature.Solution
