@@ -150,4 +150,153 @@ def NaturalObjectsNeitherMatterFreeNorMatterOnlyReading
     ¬ NaturalObjectsStudiedWithoutMatter ∧
       ¬ NaturalObjectsStudiedByMatterAlone
 
+/--
+Scope question in Aristotle, *Physics* II.2, 194a15-18: because the physicist studies the
+compound of matter and form, physical inquiry must know each of those two natures as well.
+
+Source: Aristotle, *Physics* II.2, 194a15-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PhysicistStudiesCompoundMatterAndFormReading
+    (PhysicistStudiesMatterFormCompound
+      PhysicistStudiesMatter
+      PhysicistStudiesForm : Prop) : Prop :=
+  PhysicistStudiesMatterFormCompound ∧
+    PhysicistStudiesMatter ∧
+      PhysicistStudiesForm
+
+/--
+Historical assessment in Aristotle, *Physics* II.2, 194a18-21: the earlier investigators
+make physics appear chiefly concerned with matter because Empedocles and Democritus touched
+form and essence only to a small extent.
+
+This is an attributed assessment, not a claim that their work contains no formal explanation.
+
+Source: Aristotle, *Physics* II.2, 194a18-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AncientsMostlyInvestigateMatterReading
+    (AncientsMostlyInvestigateMatter
+      EmpedoclesDemocritusInvestigateNoFormOrEssence : Prop) : Prop :=
+  AncientsMostlyInvestigateMatter ∧
+    ¬ EmpedoclesDemocritusInvestigateNoFormOrEssence
+
+/-- First premise in Aristotle's *Physics* II.2, 194a21-27 craft analogy: art imitates nature. -/
+def ArtImitatesNatureReading (ArtImitatesNature : Prop) : Prop :=
+  ArtImitatesNature
+
+/--
+Second premise in Aristotle's *Physics* II.2, 194a21-27 craft analogy: one craft knows both
+its form and, up to the relevant limit, the matter in which that form is realized, as medicine
+knows health and bodily materials and building knows house-form and bricks or wood.
+
+Source: Aristotle, *Physics* II.2, 194a21-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CraftKnowsFormAndMatterUpToPointReading
+    (OneCraftKnowsFormAndMatterUpToPoint : Prop) : Prop :=
+  OneCraftKnowsFormAndMatterUpToPoint
+
+/--
+Inferential bridge in Aristotle's *Physics* II.2, 194a21-27: if art imitates nature and one
+craft knows both form and matter to the appropriate extent, then physics likewise knows both
+senses of nature.
+
+Source: Aristotle, *Physics* II.2, 194a21-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CraftAnalogyTransfersMatterFormKnowledgeReading
+    (ArtImitatesNature OneCraftKnowsFormAndMatterUpToPoint
+      PhysicsKnowsMatterAndForm : Prop) : Prop :=
+  ArtImitatesNature ∧ OneCraftKnowsFormAndMatterUpToPoint →
+    PhysicsKnowsMatterAndForm
+
+/--
+Conclusion of the craft analogy in Aristotle, *Physics* II.2, 194a21-27: physical science
+knows both matter and form.
+
+Source: Aristotle, *Physics* II.2, 194a21-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PhysicsKnowsMatterAndFormReading
+    (PhysicsKnowsMatterAndForm : Prop) : Prop :=
+  PhysicsKnowsMatterAndForm
+
+/--
+Teleological scope in Aristotle, *Physics* II.2, 194a27-33: end and means belong to the same
+discipline; nature is an end and that for the sake of which, where an end is not merely the
+last stage of a continuous change but the best completion.
+
+Source: Aristotle, *Physics* II.2, 194a27-33 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NatureAsBestEndAndForSakeOfReading
+(EndAndMeansBelongToSameDiscipline
+      NatureIsEndAndForSakeOf
+      EveryLastStageIsEnd
+      EndIsBestRatherThanMerelyLast : Prop) : Prop :=
+  EndAndMeansBelongToSameDiscipline ∧
+    NatureIsEndAndForSakeOf ∧
+      ¬ EveryLastStageIsEnd ∧
+        EndIsBestRatherThanMerelyLast
+
+/--
+Matter for function in Aristotle, *Physics* II.2, 194a33-194b8: crafts make or render their
+matter serviceable for the work, whereas in natural things matter is already present.
+
+Source: Aristotle, *Physics* II.2, 194a33-194b8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ArtMakesMatterForFunctionNatureHasMatterReading
+    (ArtMakesOrPreparesMatterForFunction
+      NaturalThingsHaveMatterAlreadyPresent : Prop) : Prop :=
+  ArtMakesOrPreparesMatterForFunction ∧
+    NaturalThingsHaveMatterAlreadyPresent
+
+/--
+Directive arts in Aristotle, *Physics* II.2, 194a33-194b8: the using art and the
+architectonic productive art both govern matter but differ in knowledge—the user knows and
+prescribes form, while the productive director knows the matter and operations.
+
+Source: Aristotle, *Physics* II.2, 194a33-194b8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def UsingAndProductiveArtsDivideFormMatterKnowledgeReading
+    (UsingAndProductiveArtsGovernMatter
+      UsingArtKnowsAndPrescribesForm
+      ProductiveArtKnowsMatterAndOperations : Prop) : Prop :=
+  UsingAndProductiveArtsGovernMatter ∧
+    UsingArtKnowsAndPrescribesForm ∧
+      ProductiveArtKnowsMatterAndOperations
+
+/--
+Relativity of matter in Aristotle, *Physics* II.2, 194b8-9: matter is relative, since a
+different form has a different appropriate matter.
+
+Source: Aristotle, *Physics* II.2, 194b8-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MatterRelativeToFormReading
+    (MatterIsRelative DifferentFormHasDifferentMatter : Prop) : Prop :=
+  MatterIsRelative ∧ DifferentFormHasDifferentMatter
+
+/--
+Boundary of physical inquiry in Aristotle, *Physics* II.2, 194b9-15: the physicist knows
+form and essence up to the purpose of each natural thing and studies forms separable in
+account but present in matter; the mode of existence and essence of what is separable belongs
+to first philosophy.
+
+The passage's human-and-sun remark is not expanded into a general causal doctrine here.
+
+Source: Aristotle, *Physics* II.2, 194b9-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PhysicsFormKnowledgeLimitedByPurposeReading
+    (PhysicistKnowsFormAndEssenceUpToPurpose
+      PhysicalFormsSeparableInAccountButInMatter
+      SeparablesBelongToFirstPhilosophy : Prop) : Prop :=
+  PhysicistKnowsFormAndEssenceUpToPurpose ∧
+    PhysicalFormsSeparableInAccountButInMatter ∧
+      SeparablesBelongToFirstPhilosophy
+
 end TruthCore.Greek.Aristotle.Physics
