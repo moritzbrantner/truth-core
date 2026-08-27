@@ -19,8 +19,10 @@ jobs:
         with:
           build: true
           test: false
-      - name: Validate corpus metadata
+      - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      - name: Verify immutable primary-source witnesses
+        run: python3 scripts/source_evidence.py verify
 
   corpus-explorer:
     runs-on: ubuntu-latest
