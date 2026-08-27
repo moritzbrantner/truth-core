@@ -166,4 +166,139 @@ def AttributedElementsAsUltimateNatureReading
       ElementsAreEternal ∧
         OtherThingsRepeatedlyComeToBeAndPerish
 
+/--
+Material sense of nature in Aristotle, *Physics* II.1, 193a28-30: nature is said in one way
+as the primary matter underlying each thing that has an internal principle of motion and
+change.
+
+Source: Aristotle, *Physics* II.1, 193a28-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrimaryMatterAsNatureReading
+    (PrimaryUnderlyingMatterIsNature
+      ThingsHaveInternalMotionChangePrinciple : Prop) : Prop :=
+  PrimaryUnderlyingMatterIsNature ∧
+    ThingsHaveInternalMotionChangePrinciple
+
+/--
+Formal sense of nature in Aristotle, *Physics* II.1, 193a30-193b5: nature is also the shape
+or form specified in a thing's definition, separable from the natural compound only in
+account.
+
+The final qualification blocks a claim that the form is separately existing.
+
+Source: Aristotle, *Physics* II.1, 193a30-193b5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DefinitionalFormAsNatureReading
+    (DefinitionalFormIsNature FormIsSeparableBeyondAccount : Prop) : Prop :=
+  DefinitionalFormIsNature ∧ ¬ FormIsSeparableBeyondAccount
+
+/--
+Potential-material qualification in Aristotle, *Physics* II.1, 193a31-193b5: what is only
+potentially flesh or bone does not yet have its own nature and is not yet by nature before
+receiving the form specified in its definition.
+
+Source: Aristotle, *Physics* II.1, 193a31-193b5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PotentialFleshBoneNotYetNatureReading
+    (PotentialFleshBoneHasOwnNatureBeforeForm
+      PotentialFleshBoneIsByNatureBeforeForm : Prop) : Prop :=
+  ¬ PotentialFleshBoneHasOwnNatureBeforeForm ∧
+    ¬ PotentialFleshBoneIsByNatureBeforeForm
+
+/--
+Compound qualification in Aristotle, *Physics* II.1, 193b3-5: the compound of matter and
+form, such as a human being, is not itself a nature but is by nature or natural.
+
+Source: Aristotle, *Physics* II.1, 193b3-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NaturalCompoundIsByNatureNotNatureReading
+    (NaturalCompoundIsNature NaturalCompoundIsByNature : Prop) : Prop :=
+  ¬ NaturalCompoundIsNature ∧ NaturalCompoundIsByNature
+
+/--
+Priority claim in Aristotle, *Physics* II.1, 193b6-8: form is nature more than matter is,
+because a thing is called what it is more when actual than when potential.
+
+This records the comparative “more” and does not deny that matter is nature in the sense
+just established at 193a28-30.
+
+Source: Aristotle, *Physics* II.1, 193b6-8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FormMoreNatureThanMatterReading
+    (ThingNamedMoreByActualityThanPotentiality
+      FormIsNatureMoreThanMatter : Prop) : Prop :=
+  ThingNamedMoreByActualityThanPotentiality ∧
+    FormIsNatureMoreThanMatter
+
+/--
+Same-kind generation argument in Aristotle, *Physics* II.1, 193b8-12: a human comes from a
+human while a bed does not come from a bed; this supports form, as well as the material in
+the reported bed example, being nature.
+
+The statement does not claim that every natural generation is univocal in every respect.
+
+Source: Aristotle, *Physics* II.1, 193b8-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameKindGenerationSupportsFormNatureReading
+    (HumanComesFromHuman BedComesFromBed FormIsNature : Prop) : Prop :=
+  HumanComesFromHuman ∧ ¬ BedComesFromBed → FormIsNature
+
+/--
+First premise of Aristotle's growth argument in *Physics* II.1, 193b12-18: nature spoken of
+as generation or growth is a path into nature, unlike doctoring, which proceeds from the art
+of medicine toward health.
+
+Source: Aristotle, *Physics* II.1, 193b12-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GrowthAsPathIntoNatureReading (GrowthReachesNature : Prop) : Prop :=
+  GrowthReachesNature
+
+/--
+Second premise of Aristotle's growth argument in *Physics* II.1, 193b12-18: what grows moves
+toward its form, not toward the material source from which it began.
+
+Source: Aristotle, *Physics* II.1, 193b12-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GrowingTerminatesInFormNotMaterialReading
+    (GrowthReachesForm GrowthReachesMaterialSource : Prop) : Prop :=
+  GrowthReachesForm ∧ ¬ GrowthReachesMaterialSource
+
+/--
+Conclusion of Aristotle's growth argument in *Physics* II.1, 193b12-18: the target of growth
+is both form and nature, so the form attained through growth is nature.
+
+The proposition variables preserve the passage's target-relative conclusion rather than
+universalizing it to every later notion called form.
+
+Source: Aristotle, *Physics* II.1, 193b12-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GrowthTargetIsFormAndNatureReading
+    (GrowthReachesForm GrowthReachesNature : Prop) : Prop :=
+  GrowthReachesForm ∧ GrowthReachesNature
+
+/--
+Closing qualification in Aristotle, *Physics* II.1, 193b18-22: form and nature are said in
+two ways because privation too is form in a qualified sense; whether privation is a contrary
+in unqualified generation is deferred.
+
+Source: Aristotle, *Physics* II.1, 193b18-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrivationQualifiedFormQuestionDeferredReading
+    (FormAndNatureSaidInTwoWays
+      PrivationIsFormInQualifiedSense
+      PrivationContraryQuestionResolved : Prop) : Prop :=
+  FormAndNatureSaidInTwoWays ∧
+    PrivationIsFormInQualifiedSense ∧
+      ¬ PrivationContraryQuestionResolved
+
 end TruthCore.Greek.Aristotle.Physics
