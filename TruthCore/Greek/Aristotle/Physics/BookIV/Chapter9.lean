@@ -118,4 +118,133 @@ def NoCompressionProblemIsGenuineReading
   NoCompressionProblemIsGenuine ∧
     NoCompressionEntailsBulgingCompensationOrImmobility
 
+/-- Aristotle's matter principle in *Physics* IV.9, 217a20-27: one matter underlies hot,
+cold, and other natural contraries; actual states arise from what is potential, and matter,
+though inseparable from the contraries, differs from them in being and may be numerically one
+for colour, heat, and cold.
+
+Source: Aristotle, *Physics* IV.9, 217a20-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def OneMatterUnderliesNaturalContrariesReading
+    (OneMatterUnderliesNaturalContraries
+      ActualStateArisesFromPotentialState
+      MatterInseparableButDifferentInBeingFromContraries : Prop) : Prop :=
+  OneMatterUnderliesNaturalContraries ∧ ActualStateArisesFromPotentialState ∧
+    MatterInseparableButDifferentInBeingFromContraries
+
+/-- Extension of the matter principle in Aristotle, *Physics* IV.9, 217a27-33: the same
+matter is potentially the matter of both a large and a small body.
+
+Source: Aristotle, *Physics* IV.9, 217a27-33 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameMatterPotentiallyLargeAndSmallReading
+    (SameMatterIsPotentiallyLargeAndSmall : Prop) : Prop :=
+  SameMatterIsPotentiallyLargeAndSmall
+
+/-- Inferential bridge in Aristotle's account, *Physics* IV.9, 217a27-217b10: because the
+same matter is potentially both large and small, its contraction or expansion does not
+require the addition of void.
+
+Source: Aristotle, *Physics* IV.9, 217a27-217b10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameMatterPotentialityExcludesAddedVoidReading
+    (SameMatterIsPotentiallyLargeAndSmall
+      CompressionOrExpansionRequiresAddedVoid : Prop) : Prop :=
+  SameMatterIsPotentiallyLargeAndSmall →
+    ¬ CompressionOrExpansionRequiresAddedVoid
+
+/-- Conclusion of Aristotle's positive response in *Physics* IV.9, 217a20-217b10:
+compression and expansion do not require added void.
+
+Source: Aristotle, *Physics* IV.9, 217a20-217b10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CompressionAndExpansionDoNotRequireVoidReading
+    (CompressionOrExpansionRequiresAddedVoid : Prop) : Prop :=
+  ¬ CompressionOrExpansionRequiresAddedVoid
+
+/-- Water-air transformation in Aristotle, *Physics* IV.9, 217a27-33: the same matter
+becomes air from water and water from air without acquiring an addition, actualizing what it
+was potentially while changing between larger and smaller volume.
+
+Source: Aristotle, *Physics* IV.9, 217a27-33 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def WaterAirTransformationUsesSameMatterWithoutAdditionReading
+    (WaterAndAirHaveSameMatter MatterAcquiresAdditionInTransformation
+      PotentialStateBecomesActual VolumeChangesLargeOrSmall : Prop) : Prop :=
+  WaterAndAirHaveSameMatter ∧ ¬ MatterAcquiresAdditionInTransformation ∧
+    PotentialStateBecomesActual ∧ VolumeChangesLargeOrSmall
+
+/-- Degree analogies in Aristotle, *Physics* IV.9, 217a33-217b8: becoming hotter does not
+insert a previously non-hot part, just as changing a circle's curvature introduces no
+straight gap and every portion of flame remains hot and white.
+
+Source: Aristotle, *Physics* IV.9, 217a33-217b8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContinuousDegreeChangeNeedsNoInsertedPartReading
+    (GreaterHeatNeedsNoInsertedNonHotPart
+      CurvatureChangeNeedsNoStraightGap
+      EveryFlamePartRemainsHotAndWhite : Prop) : Prop :=
+  GreaterHeatNeedsNoInsertedNonHotPart ∧ CurvatureChangeNeedsNoStraightGap ∧
+    EveryFlamePartRemainsHotAndWhite
+
+/-- Dense-rare unity in Aristotle, *Physics* IV.9, 217b8-12: the same thing is dense and
+rare and the two states have one matter; the dense is heavy and the rare light.
+
+Source: Aristotle, *Physics* IV.9, 217b8-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DenseAndRareHaveOneMatterReading
+    (DenseAndRareAreStatesOfSameThing DenseAndRareHaveOneMatter
+      DenseIsHeavy RareIsLight : Prop) : Prop :=
+  DenseAndRareAreStatesOfSameThing ∧ DenseAndRareHaveOneMatter ∧
+    DenseIsHeavy ∧ RareIsLight
+
+/-- Two dense-rare associations in Aristotle, *Physics* IV.9, 217b12-20: heavy and hard
+appear dense while light and soft appear rare, but lead and iron show that heaviness and
+hardness do not coincide; contraction and expansion remain changes of the same matter.
+
+Source: Aristotle, *Physics* IV.9, 217b12-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DenseRareAssociationsRequireDistinctionReading
+    (HeavyAndHardAppearDense LightAndSoftAppearRare
+      HeavyAndHardAlwaysCoincide SameMatterContractsAndExpands : Prop) : Prop :=
+  HeavyAndHardAppearDense ∧ LightAndSoftAppearRare ∧
+    ¬ HeavyAndHardAlwaysCoincide ∧ SameMatterContractsAndExpands
+
+/-- Negative conclusion in Aristotle, *Physics* IV.9, 217b20-23: void exists neither
+separately, nor without qualification, nor in the rare, nor potentially.
+
+Source: Aristotle, *Physics* IV.9, 217b20-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VoidAbsentSeparatelyInRareAndPotentiallyReading
+    (SeparatedVoidExists UnqualifiedVoidExists VoidExistsInRare
+      VoidExistsPotentially : Prop) : Prop :=
+  ¬ SeparatedVoidExists ∧ ¬ UnqualifiedVoidExists ∧
+    ¬ VoidExistsInRare ∧ ¬ VoidExistsPotentially
+
+/-- Aristotle's qualified closing usage in *Physics* IV.9, 217b22-28: only if one insists
+on calling the cause of locomotion “void” could the matter of heavy and light bear that name;
+dense and rare produce locomotion under that contrariety, while hard and soft concern
+passivity, impassivity, and qualitative change instead.
+
+Source: Aristotle, *Physics* IV.9, 217b22-28 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualifiedVoidAsMatterOfHeavyAndLightReading
+    (VoidMeansCauseOfLocomotion MatterOfHeavyAndLightMayBeCalledVoid
+      DenseRareContrarietyProducesLocomotion
+      HardSoftContrarietyProducesQualitativeChange : Prop) : Prop :=
+  VoidMeansCauseOfLocomotion →
+    MatterOfHeavyAndLightMayBeCalledVoid ∧
+      DenseRareContrarietyProducesLocomotion ∧
+        HardSoftContrarietyProducesQualitativeChange
+
 end TruthCore.Greek.Aristotle.Physics

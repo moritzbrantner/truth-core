@@ -66,3 +66,4 @@ import TruthCore.Results.Aristotle.Physics.NoMotionInSeparatedVoid.Solution
 import TruthCore.Results.Aristotle.Physics.FiniteVoidTraversalImpossible.Solution
 import TruthCore.Results.Aristotle.Physics.NoSeparatedVoid.Solution
 import TruthCore.Results.Aristotle.Physics.VoidCannotMove.Solution
+import TruthCore.Results.Aristotle.Physics.CompressionWithoutVoid.Solution
