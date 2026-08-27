@@ -1,3 +1,6 @@
+import TruthCore.Modal.Kripke
+import TruthCore.Modal.Cube
+import TruthCore.Modal.Examples
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Physics
