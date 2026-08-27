@@ -41,7 +41,7 @@ theorem frame_is_s4 : FrameSatisfies .S4 frame := by
 /-- It is intentionally not symmetric, so the example does not silently become S5. -/
 theorem frame_not_symmetric : ¬ Symmetric frame := by
   intro hSymmetric
-  have hBack := hSymmetric .actual .nearby (by decide)
+  have hBack := hSymmetric .actual .nearby (by simp [frame, rank])
   simp [frame, rank] at hBack
 
 /-- Proposition p is true only at the remote world. -/
@@ -49,17 +49,17 @@ def valuation : Valuation World Atom := fun world _ => world = .remote
 
 /-- From the actual world p is possible. -/
 theorem actual_possible_p : Holds frame valuation .actual (.diamond (.atom .p)) := by
-  exact ⟨.remote, by decide, rfl⟩
+  exact ⟨.remote, by simp [frame, rank], rfl⟩
 
 /-- From the actual world p is not yet necessary. -/
 theorem actual_not_necessary_p : ¬ Holds frame valuation .actual (.box (.atom .p)) := by
   intro hNecessary
-  have hActual := hNecessary .actual (by decide)
+  have hActual := hNecessary .actual (by simp [frame, rank])
   simp [Holds, valuation] at hActual
 
 /-- At the remote world, p is both true and necessary. -/
 theorem remote_necessary_p : Holds frame valuation .remote (.box (.atom .p)) := by
   intro next hAccess
-  cases next <;> simp [frame, rank] at hAccess ⊢
+  cases next <;> simp [Holds, valuation, frame, rank] at hAccess ⊢
 
 end TruthCore.Modal.Examples
