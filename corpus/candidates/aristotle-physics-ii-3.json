@@ -1,9 +1,9 @@
 {
   "id": "ARIST-PHYS-II-3",
   "source_id": "ARIST-PHYS",
-  "locator": "II.3",
+  "locator": "II.3, 195a27-195b30",
   "priority": 112,
-  "goal": "Process Physics II.3 as one contiguous source range, reviewing and reusing the existing four-causes claim before adding any missing distinctions, examples, or argument structure. Do not duplicate the existing 194b-195a statement merely for campaign coverage.",
-  "reason": "Systematically backfill the already-seeded four-causes chapter while preserving proposition identity.",
+  "goal": "Complete the remaining Physics II.3 range in source order, beginning with the modes within causal kinds at 195a27 and continuing through the chapter conclusion at 195b30.",
+  "reason": "The existing four-causes statement was reused unchanged and the missing 194b16-195a26 distinctions were processed; continue from the first unprocessed passage.",
   "status": "candidate"
 }
