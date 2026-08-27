@@ -22,6 +22,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
   }
 
   const source = findSource(corpus, claim.source_id);
+  const passage = claim.passage;
   const results = resultsForClaim(corpus, claim.id);
   const alternatives = alternativeClaims(corpus, claim);
 
@@ -34,7 +35,9 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
         <StatusMark>Source-derived claim</StatusMark>
         <p className="font-mono text-xs text-[var(--muted)]">{claim.id}</p>
       </div>
-      <h1 className="mt-5 font-serif text-5xl leading-[0.98] tracking-[-0.05em] sm:text-6xl">{claim.paraphrase}</h1>
+      <h1 className="mt-5 font-serif text-5xl leading-[0.98] tracking-[-0.05em] sm:text-6xl">
+        {claim.paraphrase}
+      </h1>
 
       {source ? (
         <p className="mt-7 text-lg leading-8 text-[var(--muted)]">
@@ -46,8 +49,47 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
       ) : null}
 
       <section className="record-section">
+        <div className="flex flex-wrap items-center gap-3">
+          <p className="eyebrow">Primary-source evidence</p>
+          <StatusMark tone="accent">Pinned witness</StatusMark>
+        </div>
+        <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
+          This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
+          in an immutable source snapshot. The snapshot is byte-verified separately from the
+          scholarly interpretation below.
+        </p>
+        <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
+          <dt>Passage</dt>
+          <dd>{passage.locator}</dd>
+          <dt>Edition</dt>
+          <dd className="font-mono break-all">{passage.edition_urn}</dd>
+          <dt>Witness</dt>
+          <dd>
+            <a
+              className="link-quiet break-all"
+              href={passage.source_url}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Open immutable source snapshot ↗
+            </a>
+          </dd>
+          <dt>Revision</dt>
+          <dd className="font-mono break-all">{passage.revision}</dd>
+          <dt>Git blob</dt>
+          <dd className="font-mono break-all">{passage.git_blob_sha}</dd>
+          <dt>License</dt>
+          <dd>{passage.license}</dd>
+        </dl>
+      </section>
+
+      <section className="record-section">
         <p className="eyebrow">Interpretation</p>
         <p className="mt-4 text-lg leading-8 text-[var(--ink)]">{claim.interpretation}</p>
+        <p className="mt-4 text-sm leading-6 text-[var(--muted)]">
+          Source fidelity is a research/review judgment. A pinned witness proves what text was
+          consulted; it does not make this interpretation mechanically true.
+        </p>
       </section>
 
       {alternatives.length ? (
@@ -55,7 +97,11 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
           <p className="eyebrow">Alternative defensible readings</p>
           <div className="mt-4 divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {alternatives.map((alternative) => (
-              <Link className="block py-4 transition hover:text-[var(--accent)]" href={`/claims/${alternative.id}`} key={alternative.id}>
+              <Link
+                className="block py-4 transition hover:text-[var(--accent)]"
+                href={`/claims/${alternative.id}`}
+                key={alternative.id}
+              >
                 <span className="font-serif text-xl">{alternative.paraphrase}</span>
                 <span className="ml-3 text-sm text-[var(--muted)]">{alternative.id}</span>
               </Link>
