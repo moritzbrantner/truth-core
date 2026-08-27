@@ -239,4 +239,147 @@ def EternalThingNotInTimeReading
     (ThingIsEternalQuaEternal ThingIsInTime : Prop) : Prop :=
   ThingIsEternalQuaEternal → ¬ ThingIsInTime
 
+/-- Incidental measurement of rest in Aristotle, *Physics* IV.12, 221b8-10: because time
+measures motion and every rest is in time, time also measures rest incidentally.
+
+Source: Aristotle, *Physics* IV.12, 221b8-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeMeasuresRestIncidentallyReading
+    (TimeMeasuresMotion EveryRestIsInTime TimeMeasuresRestIncidentally : Prop) : Prop :=
+  TimeMeasuresMotion ∧ EveryRestIsInTime → TimeMeasuresRestIncidentally
+
+/-- Non-entailment of motion in Aristotle, *Physics* IV.12, 221b10-13: unlike being in
+motion, being in time does not require moving, since something resting can be within the
+number of motion.
+
+Source: Aristotle, *Physics* IV.12, 221b10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BeingInTimeDoesNotEntailMovingReading
+    (ThingIsInTime ThingMoves RestingThingCanBeInTime : Prop) : Prop :=
+  ¬ (ThingIsInTime → ThingMoves) ∧ RestingThingCanBeInTime
+
+/-- Necessary conditions for rest in Aristotle, *Physics* IV.12, 221b13-15: not everything
+unmoved rests; what rests is deprived of motion while naturally capable of moving.
+
+Source: Aristotle, *Physics* IV.12, 221b13-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RestEntailsPrivationInNaturallyMovableReading
+    (ThingRests ThingLacksMotion ThingIsNaturallyMovable : Prop) : Prop :=
+  ThingRests → ThingLacksMotion ∧ ThingIsNaturallyMovable
+
+/-- Number and measurement in Aristotle, *Physics* IV.12, 221b15-18: to be in number is
+for there to be a number of the thing and for its being to be measured by that number; if
+it is in time, its being is accordingly measured by time.
+
+Source: Aristotle, *Physics* IV.12, 221b15-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BeingInNumberEntailsNumberAndMeasurementReading
+    (ThingIsInNumber ThingHasNumber ThingBeingMeasuredByNumber : Prop) : Prop :=
+  ThingIsInNumber → ThingHasNumber ∧ ThingBeingMeasuredByNumber
+
+/-- Qualified temporal measurement in Aristotle, *Physics* IV.12, 221b18-23: time measures
+the moving and resting thing precisely insofar as it moves or rests, measuring how much
+motion or rest it has rather than merely how much the thing is.
+
+Source: Aristotle, *Physics* IV.12, 221b18-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeMeasuresMovingAndRestingQuaSuchReading
+    (TimeMeasuresMovingThingQuaMoving TimeMeasuresRestingThingQuaResting
+      TimeMeasuresMovingThingMerelyQuaQuantity : Prop) : Prop :=
+  TimeMeasuresMovingThingQuaMoving ∧ TimeMeasuresRestingThingQuaResting ∧
+    ¬ TimeMeasuresMovingThingMerelyQuaQuantity
+
+/-- Motion-rest scope of temporal measurement in Aristotle, *Physics* IV.12, 221b18-27:
+anything whose being is measured by time falls under motion or rest.
+
+Source: Aristotle, *Physics* IV.12, 221b18-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TemporalMeasurementEntailsMovingOrRestingReading
+    (ThingBeingMeasuredByTime ThingMoves ThingRests : Prop) : Prop :=
+  ThingBeingMeasuredByTime → ThingMoves ∨ ThingRests
+
+/-- Exclusion from time in Aristotle, *Physics* IV.12, 221b23-27: whatever neither moves
+nor rests is not in time.
+
+Source: Aristotle, *Physics* IV.12, 221b23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NeitherMovingNorRestingNotInTimeReading
+    (ThingMoves ThingRests ThingIsInTime : Prop) : Prop :=
+  ¬ ThingMoves ∧ ¬ ThingRests → ¬ ThingIsInTime
+
+/-- Restriction on nonbeing in Aristotle, *Physics* IV.12, 221b27-31: not every nonbeing
+is in time; an impossible state such as the diagonal's being commensurable with the side is
+excluded.
+
+Source: Aristotle, *Physics* IV.12, 221b27-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NotEveryNonbeingIsInTimeReading
+    (SomeNonbeingIsImpossible ImpossibleNonbeingIsInTime : Prop) : Prop :=
+  SomeNonbeingIsImpossible ∧ ¬ ImpossibleNonbeingIsInTime
+
+/-- Temporal scope restatement in Aristotle, *Physics* IV.12, 221b31-34: everything whose
+being time measures has its being in moving or resting.
+
+Source: Aristotle, *Physics* IV.12, 221b31-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeMeasuredBeingIsInMovingOrRestingReading
+    (ThingBeingMeasuredByTime ThingBeingIsInMoving ThingBeingIsInResting : Prop) : Prop :=
+  ThingBeingMeasuredByTime → ThingBeingIsInMoving ∨ ThingBeingIsInResting
+
+/-- Temporal inclusion of changing things in Aristotle, *Physics* IV.12, 221b34-222a1:
+generable and corruptible things, which at one time are and at another are not, are
+necessarily in time and are exceeded by a time greater than their being.
+
+Source: Aristotle, *Physics* IV.12, 221b34-222a1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenerableCorruptibleThingsNecessarilyInTimeReading
+    (ThingIsGenerable ThingIsCorruptible ThingIsSometimesAndSometimesNot
+      ThingIsInTime GreaterTimeExceedsThingBeing : Prop) : Prop :=
+  ThingIsGenerable ∧ ThingIsCorruptible ∧ ThingIsSometimesAndSometimesNot →
+    ThingIsInTime ∧ GreaterTimeExceedsThingBeing
+
+/-- Temporal containment of nonbeing in Aristotle, *Physics* IV.12, 221b35-222a4: a
+nonbeing contained by time was or will be, according to the temporal direction or directions
+in which time contains it.
+
+Source: Aristotle, *Physics* IV.12, 221b35-222a4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TemporallyContainedNonbeingWasOrWillBeReading
+    (NonbeingIsContainedByTime NonbeingWas NonbeingWillBe : Prop) : Prop :=
+  NonbeingIsContainedByTime → NonbeingWas ∨ NonbeingWillBe
+
+/-- Atemporal exclusion in Aristotle, *Physics* IV.12, 222a1-4: a nonbeing that time does
+not contain in any direction neither was, is, nor will be.
+
+Source: Aristotle, *Physics* IV.12, 222a1-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TemporallyUncontainedNonbeingNeverWasIsOrWillBeReading
+    (NonbeingIsUncontainedByTime NonbeingWas NonbeingIs NonbeingWillBe : Prop) : Prop :=
+  NonbeingIsUncontainedByTime → ¬ NonbeingWas ∧ ¬ NonbeingIs ∧ ¬ NonbeingWillBe
+
+/-- Modal-temporal contrast in Aristotle, *Physics* IV.12, 222a4-9: a nonbeing whose
+opposite always is never falls in time, whereas things whose contrary is not always can be
+and not be and undergo generation and corruption.
+
+Source: Aristotle, *Physics* IV.12, 222a4-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ImpossibleAndContingentNonbeingTemporalContrastReading
+    (OppositeAlwaysExists ImpossibleNonbeingIsInTime ContraryNotAlwaysExists
+      ThingCanBeAndNotBe ThingHasGenerationAndCorruption : Prop) : Prop :=
+  (OppositeAlwaysExists → ¬ ImpossibleNonbeingIsInTime) ∧
+    (ContraryNotAlwaysExists → ThingCanBeAndNotBe ∧ ThingHasGenerationAndCorruption)
+
 end TruthCore.Greek.Aristotle.Physics
