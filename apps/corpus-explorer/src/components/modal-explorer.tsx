@@ -13,6 +13,7 @@ import {
   impliedAxioms,
   modalTruthAt,
   requiredConditions,
+  type FrameCondition,
   type ModalSystemId,
   type WorldId,
 } from "@/lib/modal-cube";
@@ -30,6 +31,14 @@ const conditionLabels = {
   transitive: "transitive",
   euclidean: "Euclidean",
 } as const;
+
+const frameConditions: FrameCondition[] = [
+  "serial",
+  "reflexive",
+  "symmetric",
+  "transitive",
+  "euclidean",
+];
 
 function truthLabel(value: boolean) {
   return value ? "true" : "false";
@@ -142,7 +151,7 @@ export function ModalExplorer() {
   return (
     <div className="mt-10 space-y-12">
       <section className="grid gap-5 lg:grid-cols-[minmax(0,1.55fr)_minmax(18rem,0.7fr)]">
-        <div className="min-w-0 overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--panel)]">
+        <div className="min-w-0 overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--paper)]">
           <div className="border-b border-[var(--line)] px-5 py-4">
             <p className="eyebrow">Bird&apos;s-eye view</p>
             <h2 className="mt-1 font-serif text-3xl tracking-[-0.04em]">The modal cube</h2>
@@ -210,7 +219,7 @@ export function ModalExplorer() {
       </section>
 
       <section className="grid gap-5 lg:grid-cols-[minmax(0,1.35fr)_minmax(20rem,0.8fr)]">
-        <div className="min-w-0 overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--panel)]">
+        <div className="min-w-0 overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--paper)]">
           <div className="border-b border-[var(--line)] px-5 py-4">
             <p className="eyebrow">Inside one frame</p>
             <h2 className="mt-1 font-serif text-3xl tracking-[-0.04em]">Possible-world perspective</h2>
@@ -274,16 +283,16 @@ export function ModalExplorer() {
             <p className="eyebrow">This concrete witness</p>
             <h3 className="mt-2 font-serif text-2xl">Detected properties</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              {["serial", "reflexive", "symmetric", "transitive", "euclidean"].map((condition) => (
+              {frameConditions.map((condition) => (
                 <span
                   className={`rounded-full border px-3 py-1 text-xs ${
-                    detected.has(condition as keyof typeof conditionLabels)
+                    detected.has(condition)
                       ? "border-[var(--line-strong)] text-[var(--ink)]"
                       : "border-[var(--line)] text-[var(--muted)]"
                   }`}
                   key={condition}
                 >
-                  {condition === "euclidean" ? "Euclidean" : condition}
+                  {conditionLabels[condition]}
                 </span>
               ))}
             </div>
