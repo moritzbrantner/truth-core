@@ -1,6 +1,10 @@
 import TruthCore.Modal.Kripke
 
+universe u v
+
 namespace TruthCore.Modal
+
+variable {World : Type u} {Atom : Type v}
 
 /-- The fifteen non-redundant normal modal logics in the classical modal cube. -/
 inductive System where
