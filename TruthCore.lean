@@ -11,6 +11,7 @@ import TruthCore.Greek.Aristotle.Physics.BookI.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter8
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter9
 import TruthCore.Greek.Aristotle.Physics.BookII.Chapter1
+import TruthCore.Greek.Aristotle.Physics.BookII.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter6
@@ -33,3 +34,4 @@ import TruthCore.Results.Aristotle.Physics.PredecessorNoGeneration.Solution
 import TruthCore.Results.Aristotle.Physics.MatterUngeneratedImperishable.Solution
 import TruthCore.Results.Aristotle.Physics.AntiphonMaterialNature.Solution
 import TruthCore.Results.Aristotle.Physics.GrowthTargetFormNature.Solution
+import TruthCore.Results.Aristotle.Physics.DefinitionMotionDependence.Solution
