@@ -1,0 +1,5 @@
+{
+  "id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-MORE-THAN-THREE",
+  "paraphrase": "The number of primary natural principles is not greater than three: one subject is sufficient and no second primary contrariety is needed.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrincipleCountNotMoreThanThreeReading"
+}

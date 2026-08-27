@@ -1,0 +1,13 @@
+{
+  "id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
+  "premise_statement_ids": [
+    "STMT-NATURAL-PRINCIPLE-COUNT-CASES",
+    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
+    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-MORE-THAN-THREE"
+  ],
+  "conclusion_statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
+  "inference_ids": [
+    "INF-ARIST-PHYS-NATURAL-PRINCIPLE-COUNT"
+  ],
+  "meaning": "Physics I.6 narrows the enumerated count alternatives by excluding exactly one and more than three, leaving two or three while explicitly postponing the choice between them."
+}

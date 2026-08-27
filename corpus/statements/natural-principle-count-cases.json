@@ -1,0 +1,5 @@
+{
+  "id": "STMT-NATURAL-PRINCIPLE-COUNT-CASES",
+  "paraphrase": "The inquiry into the number of natural principles considers one, two, three, or more than three as the exhaustive count alternatives under discussion.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrincipleCountCasesReading"
+}
