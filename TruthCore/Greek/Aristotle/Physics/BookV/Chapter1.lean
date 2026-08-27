@@ -193,4 +193,91 @@ def SubjectToNonSubjectIsCorruptionReading
   SubjectToNonSubjectIsCorruption ∧ UnqualifiedCorruptionFromSubstance ∧
     ParticularCorruptionTowardOpposedNegation
 
+/-- Motion and senses of nonbeing in Aristotle, *Physics* V.1, 225a20-29: a qualified
+nonbeing such as a non-white human can move incidentally, but unqualified nonbeing cannot
+move or rest.
+
+Source: Aristotle, *Physics* V.1, 225a20-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualifiedNonbeingMovesIncidentallyUnqualifiedCannotReading
+    (QualifiedNonbeingCanMoveIncidentally UnqualifiedNonbeingCanMove
+      UnqualifiedNonbeingCanRest : Prop) : Prop :=
+  QualifiedNonbeingCanMoveIncidentally ∧ ¬ UnqualifiedNonbeingCanMove ∧
+    ¬ UnqualifiedNonbeingCanRest
+
+/-- Generation exclusion in Aristotle, *Physics* V.1, 225a25-29: generation is not motion
+because what unqualifiedly comes to be is described as nonbeing, which cannot move.
+
+Source: Aristotle, *Physics* V.1, 225a25-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenerationIsChangeNotMotionReading
+    (GenerationIsChange GenerationIsMotion : Prop) : Prop :=
+  GenerationIsChange ∧ ¬ GenerationIsMotion
+
+/-- Place reinforcement in Aristotle, *Physics* V.1, 225a29-32: everything moving is in
+place, whereas unqualified nonbeing is nowhere; otherwise it would be somewhere.
+
+Source: Aristotle, *Physics* V.1, 225a29-32 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MovingThingInPlaceUnqualifiedNonbeingNowhereReading
+    (EveryMovingThingIsInPlace UnqualifiedNonbeingIsSomewhere : Prop) : Prop :=
+  EveryMovingThingIsInPlace ∧ ¬ UnqualifiedNonbeingIsSomewhere
+
+/-- Corruption exclusion in Aristotle, *Physics* V.1, 225a32-34: corruption is not motion,
+since motion's contrary is motion or rest while corruption is contrary to generation.
+
+Source: Aristotle, *Physics* V.1, 225a32-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CorruptionIsChangeNotMotionReading
+    (CorruptionIsChange CorruptionIsMotion CorruptionContraryToGeneration : Prop) : Prop :=
+  CorruptionIsChange ∧ ¬ CorruptionIsMotion ∧ CorruptionContraryToGeneration
+
+/-- Combined exclusion in Aristotle, *Physics* V.1, 225a20-225b2: subject-to-nonsubject
+corruption and nonsubject-to-subject generation are changes but not motions.
+
+Source: Aristotle, *Physics* V.1, 225a20-225b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenerationAndCorruptionAreNotMotionsReading
+    (SubjectToNonSubjectIsMotion NonSubjectToSubjectIsMotion : Prop) : Prop :=
+  ¬ SubjectToNonSubjectIsMotion ∧ ¬ NonSubjectToSubjectIsMotion
+
+/-- Motion classification conclusion in Aristotle, *Physics* V.1, 225a34-225b3: because
+every motion is change while generation and corruption are not motions, only change from
+subject to subject is motion.
+
+Source: Aristotle, *Physics* V.1, 225a34-225b3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def OnlySubjectToSubjectChangeIsMotionReading
+    (ChangeIsSubjectToSubject : Prop) : Prop :=
+  ChangeIsSubjectToSubject
+
+/-- Termini of motion in Aristotle, *Physics* V.1, 225b3-5: the affirmative subjects
+between which motion occurs are contraries or intermediates, with privation treated as a
+contrary and expressed affirmatively in terms such as naked or toothless.
+
+Source: Aristotle, *Physics* V.1, 225b3-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionTerminiContrariesOrIntermediatesIncludingPrivationReading
+    (MotionTerminiContrariesOrIntermediates PrivationTreatedAsContrary
+      PrivationCanBeExpressedAffirmatively : Prop) : Prop :=
+  MotionTerminiContrariesOrIntermediates ∧ PrivationTreatedAsContrary ∧
+    PrivationCanBeExpressedAffirmatively
+
+/-- Three categories of motion in Aristotle, *Physics* V.1, 225b5-9: motion is with
+respect to quality, quantity, or place.
+
+Source: Aristotle, *Physics* V.1, 225b5-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ThreeCategoriesOfMotionReading
+    (MotionInQuality MotionInQuantity MotionInPlace : Prop) : Prop :=
+  MotionInQuality ∨ MotionInQuantity ∨ MotionInPlace
+
 end TruthCore.Greek.Aristotle.Physics
