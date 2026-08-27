@@ -54,3 +54,4 @@ import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
 import TruthCore.Results.Aristotle.Physics.NaturalErrorTeleology.Solution
 import TruthCore.Results.Aristotle.Physics.SawHypotheticalNecessity.Solution
 import TruthCore.Results.Aristotle.Physics.PlaceFromReplacement.Solution
+import TruthCore.Results.Aristotle.Physics.PlaceNotBody.Solution
