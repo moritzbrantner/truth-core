@@ -253,4 +253,107 @@ def SeparatedVoidWouldBeImpossibleSeparatePlaceReading
   (SeparatedVoidExists → IndependentSeparatePlaceExists) ∧
     ¬ IndependentSeparatePlaceExists
 
+/-- Equal-volume displacement in Aristotle, *Physics* IV.8, 216a26-34: a cube inserted
+into water displaces its own volume of water, and does the same in air even though this is
+less evident to perception.
+
+Source: Aristotle, *Physics* IV.8, 216a26-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CubeDisplacesEqualVolumeInMediaReading
+    (CubeDisplacesEqualWaterVolume CubeDisplacesEqualAirVolume : Prop) : Prop :=
+  CubeDisplacesEqualWaterVolume ∧ CubeDisplacesEqualAirVolume
+
+/-- Displacement puzzle for void in Aristotle, *Physics* IV.8, 216a30-216b2: whereas a
+body medium can move aside when the cube is inserted, void is no body and cannot be
+displaced, so the previously empty interval would have to pass through the cube.
+
+Source: Aristotle, *Physics* IV.8, 216a30-216b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VoidCannotDisplaceAroundCubeReading
+    (CubeInsertedIntoVoid PriorVoidIntervalPenetratesCube : Prop) : Prop :=
+  CubeInsertedIntoVoid → PriorVoidIntervalPenetratesCube
+
+/-- Magnitude-quality distinction in Aristotle, *Physics* IV.8, 216b2-10: the wooden
+cube's volume is distinct in being from its hot, cold, heavy, or light attributes, even
+though that volume is not separately existent, and it equals the interval it occupies.
+
+Source: Aristotle, *Physics* IV.8, 216b2-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CubeVolumeDistinctFromQualitiesReading
+    (CubeHasVolumeEqualToOccupiedInterval
+      CubeVolumeDiffersInBeingFromSensibleQualities : Prop) : Prop :=
+  CubeHasVolumeEqualToOccupiedInterval ∧
+    CubeVolumeDiffersInBeingFromSensibleQualities
+
+/-- Coincidence consequence in Aristotle, *Physics* IV.8, 216b7-12: on the separated-void
+hypothesis, the cube's body and a void or place interval equal to it would occupy the same
+region.
+
+Source: Aristotle, *Physics* IV.8, 216b7-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CubeAndEqualVoidWouldCoincideReading
+    (SeparatedVoidExists CubeAndEqualVoidCoincide : Prop) : Prop :=
+  SeparatedVoidExists → CubeAndEqualVoidCoincide
+
+/-- Unlimited-coincidence reductio in Aristotle, *Physics* IV.8, 216b10-12: if a body's
+magnitude and an equal void interval can coincide, there is no principled stopping point at
+two such magnitudes rather than arbitrarily many.
+
+Source: Aristotle, *Physics* IV.8, 216b10-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SeparatedVoidEntailsUnlimitedCoincidenceReading
+    (SeparatedVoidExists ArbitrarilyManyEqualMagnitudesCoincide : Prop) : Prop :=
+  SeparatedVoidExists → ArbitrarilyManyEqualMagnitudesCoincide
+
+/-- Aristotle's rejection of the coincidence consequence in *Physics* IV.8, 216b10-12:
+arbitrarily many equal magnitudes cannot all coincide in the same region.
+
+Source: Aristotle, *Physics* IV.8, 216b10-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def UnlimitedEqualMagnitudeCoincidenceImpossibleReading
+    (ArbitrarilyManyEqualMagnitudesCoincide : Prop) : Prop :=
+  ¬ ArbitrarilyManyEqualMagnitudesCoincide
+
+/-- Redundancy of an extra interval in Aristotle, *Physics* IV.8, 216b12-17: a body keeps
+its own volume while moving, so an equal attribute-free interval added around that volume
+contributes nothing to its emplacement.
+
+Source: Aristotle, *Physics* IV.8, 216b12-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AdditionalIntervalBeyondBodyVolumeContributesNothingReading
+    (MovingBodyRetainsItsVolume
+      AdditionalEqualIntervalContributesToEmplacement : Prop) : Prop :=
+  MovingBodyRetainsItsVolume ∧
+    ¬ AdditionalEqualIntervalContributesToEmplacement
+
+/-- Perceptibility check in Aristotle, *Physics* IV.8, 216b17-20: separated void should be
+discernible in moving things, but none is found; air is a body despite seeming empty, just as
+water might escape recognition by iron fish unable to discriminate it by touch.
+
+Source: Aristotle, *Physics* IV.8, 216b17-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoPerceptibleSeparatedVoidInMovingBodiesReading
+    (SeparatedVoidPerceptibleInMovingBodies
+      SeparatedVoidFoundWithinCosmos AirIsBodyDespiteAppearingEmpty : Prop) : Prop :=
+  (SeparatedVoidPerceptibleInMovingBodies → SeparatedVoidFoundWithinCosmos) ∧
+    ¬ SeparatedVoidFoundWithinCosmos ∧ AirIsBodyDespiteAppearingEmpty
+
+/-- Aristotle's conclusion in *Physics* IV.8, 216b20-21: separated void does not exist.
+The reading remains restricted to the chapter's target, rather than merging every ancient
+or modern use of “void.”
+
+Source: Aristotle, *Physics* IV.8, 216b20-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SeparatedVoidDoesNotExistReading (SeparatedVoidExists : Prop) : Prop :=
+  ¬ SeparatedVoidExists
+
 end TruthCore.Greek.Aristotle.Physics
