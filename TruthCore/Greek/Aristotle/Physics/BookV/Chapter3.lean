@@ -89,4 +89,66 @@ def ContinuousWhenTouchingLimitsBecomeOneReading
     (IsContiguous TouchingLimitsBecomeOne NaturallyFormsUnityByContact : Prop) : Prop :=
   IsContiguous ∧ TouchingLimitsBecomeOne ∧ NaturallyFormsUnityByContact
 
+/-- Contact implies succession, but not every succession involves contact, in
+Aristotle, *Physics* V.3, 227a17-20. Succession is therefore prior in definition.
+
+Source: Aristotle, *Physics* V.3, 227a17-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContactImpliesSuccessionNotConverselyReading
+    (Contact Succession EverySuccessionInvolvesContact : Prop) : Prop :=
+  (Contact → Succession) ∧ ¬ EverySuccessionInvolvesContact
+
+/-- Continuity implies contact, but contact does not by itself imply continuity, in
+Aristotle, *Physics* V.3, 227a20-23: two extremities may be together without being one.
+
+Source: Aristotle, *Physics* V.3, 227a20-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContinuityImpliesContactNotConverselyReading
+    (Continuity Contact EveryContactIsContinuous : Prop) : Prop :=
+  (Continuity → Contact) ∧ ¬ EveryContactIsContinuous
+
+/-- Consequence of Aristotle's implication hierarchy in *Physics* V.3, 227a17-23:
+continuity implies succession through contact.
+
+Source: Aristotle, *Physics* V.3, 227a17-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContinuityImpliesSuccessionReading
+    (Continuity Succession : Prop) : Prop :=
+  Continuity → Succession
+
+/-- Natural union requires contact, but not everything in contact is naturally united,
+in Aristotle, *Physics* V.3, 227a23-27. Natural union is therefore last in coming to be
+among the relations under discussion.
+
+Source: Aristotle, *Physics* V.3, 227a23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NaturalUnionRequiresContactNotConverselyReading
+    (NaturalUnion Contact EveryContactIsNaturallyUnited : Prop) : Prop :=
+  (NaturalUnion → Contact) ∧ ¬ EveryContactIsNaturallyUnited
+
+/-- Points and units are not identical in Aristotle, *Physics* V.3, 227a27-32:
+points can touch, whereas units do not touch but can stand in succession.
+
+Source: Aristotle, *Physics* V.3, 227a27-32 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PointsAndUnitsDifferByContactAndSuccessionReading
+    (PointAndUnitIdentical PointsCanTouch UnitsCanTouch UnitsCanBeSuccessive : Prop) : Prop :=
+  ¬ PointAndUnitIdentical ∧ PointsCanTouch ∧ ¬ UnitsCanTouch ∧ UnitsCanBeSuccessive
+
+/-- Something can lie between points, since a line is between points, whereas nothing
+need lie between units and nothing lies between one and two, in Aristotle,
+*Physics* V.3, 227a32-34.
+
+Source: Aristotle, *Physics* V.3, 227a32-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BetweenPointsButNotAdjacentUnitsReading
+    (SomethingCanLieBetweenPoints SomethingLiesBetweenOneAndTwo : Prop) : Prop :=
+  SomethingCanLieBetweenPoints ∧ ¬ SomethingLiesBetweenOneAndTwo
+
 end TruthCore.Greek.Aristotle.Physics
