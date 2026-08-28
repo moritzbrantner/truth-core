@@ -182,4 +182,108 @@ def ApparentlySharedAccountsMayBeHomonymousReading
   AccountsMayBeHomonymous ∧
     MuchEqualOneAndTwoMayConcealDifferentMeanings
 
+/-- A horse and a dog are comparable in whiteness because the relevant primary
+recipient is the same—the surface—and likewise comparable in magnitude under the
+corresponding common recipient, in Aristotle, *Physics* VII.4, 248b21-24.
+
+Source: Aristotle, *Physics* VII.4, 248b21-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HorseDogComparableThroughSamePrimaryRecipientReading
+    (SameRelevantPrimaryRecipient HorseDogWhitenessComparable
+      HorseDogMagnitudeComparable : Prop) : Prop :=
+  SameRelevantPrimaryRecipient ∧ HorseDogWhitenessComparable ∧
+    HorseDogMagnitudeComparable
+
+/-- Water and voice are not comparable because the relevant property belongs in
+different primary recipients, in Aristotle, *Physics* VII.4, 248b24-25.
+
+Source: Aristotle, *Physics* VII.4, 248b24-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def WaterVoiceIncomparableDifferentPrimaryRecipientsReading
+    (DifferentPrimaryRecipients WaterAndVoiceComparable : Prop) : Prop :=
+  DifferentPrimaryRecipients ∧ ¬ WaterAndVoiceComparable
+
+/-- Treating difference of recipient as sufficient to explain every difference
+would collapse all properties into one property instantiated in different
+subjects, making equal, sweet, and white the same in different bearers, in
+Aristotle's objection in *Physics* VII.4, 248b25-249a2.
+
+Source: Aristotle, *Physics* VII.4, 248b25-249a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RecipientDifferenceAloneRisksPropertyCollapseReading
+    (RecipientDifferenceAloneMakesPropertiesOne
+      EqualSweetAndWhiteWouldBecomeSameProperty : Prop) : Prop :=
+  RecipientDifferenceAloneMakesPropertiesOne ∧
+    EqualSweetAndWhiteWouldBecomeSameProperty
+
+/-- A recipient is not an arbitrary recipient of an arbitrary property; each
+property has its own primary recipient, in Aristotle, *Physics* VII.4, 249a1-3.
+
+Source: Aristotle, *Physics* VII.4, 249a1-3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EachPropertyHasOwnPrimaryRecipientReading
+    (NotEverySubjectReceivesEveryProperty EachPropertyHasOwnPrimaryRecipient : Prop) : Prop :=
+  NotEverySubjectReceivesEveryProperty ∧ EachPropertyHasOwnPrimaryRecipient
+
+/-- From the contrast between comparisons sharing a primary recipient and cases
+with different recipients, together with the specificity of each property's
+primary recipient, Aristotle derives that comparables must share meaning and have
+no relevant difference either in what is compared or in its primary subject, in
+*Physics* VII.4, 248b21-249a5.
+
+Source: Aristotle, *Physics* VII.4, 248b21-249a5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrimaryRecipientContrastEntailsComparabilityConditionsReading
+    (SameRelevantPrimaryRecipient DifferentPrimaryRecipients
+      EachPropertyHasOwnPrimaryRecipient ComparablesUseSameMeaning
+      NoRelevantDifferenceInComparedProperty
+      NoRelevantDifferenceInPrimaryRecipient : Prop) : Prop :=
+  (SameRelevantPrimaryRecipient ∧ DifferentPrimaryRecipients ∧
+      EachPropertyHasOwnPrimaryRecipient) →
+    (ComparablesUseSameMeaning ∧ NoRelevantDifferenceInComparedProperty ∧
+      NoRelevantDifferenceInPrimaryRecipient)
+
+/-- Comparable things must use the predicate with the same meaning and have no
+relevant difference either in the determinate property compared or in its primary
+recipient, in Aristotle, *Physics* VII.4, 249a3-5.
+
+These are recorded as necessary conditions, not as a sufficient decision
+procedure for every comparison.
+
+Source: Aristotle, *Physics* VII.4, 249a3-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ComparabilityRequiresSameMeaningPropertyAndSubjectReading
+    (ComparablesUseSameMeaning NoRelevantDifferenceInComparedProperty
+      NoRelevantDifferenceInPrimaryRecipient : Prop) : Prop :=
+  ComparablesUseSameMeaning ∧ NoRelevantDifferenceInComparedProperty ∧
+    NoRelevantDifferenceInPrimaryRecipient
+
+/-- Subjects are not compared as more colored merely qua generic color, since
+color divides into kinds; they are compared under a determinate color such as
+white, in Aristotle, *Physics* VII.4, 249a4-7.
+
+Source: Aristotle, *Physics* VII.4, 249a4-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenericColorNotComparableButWhiteComparableReading
+    (GenericColorDegreeComparable DeterminateWhiteDegreeComparable : Prop) : Prop :=
+  ¬ GenericColorDegreeComparable ∧ DeterminateWhiteDegreeComparable
+
+/-- Alteration and locomotion cannot be equal or equal in speed merely because
+each completes some amount in the same time, in Aristotle, *Physics* VII.4,
+249a7-10.
+
+Source: Aristotle, *Physics* VII.4, 249a7-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationAndLocomotionNotEqualSpeedReading
+    (AlterationEqualToLocomotion AlterationAndLocomotionEqualSpeed : Prop) : Prop :=
+  ¬ AlterationEqualToLocomotion ∧ ¬ AlterationAndLocomotionEqualSpeed
+
 end TruthCore.Greek.Aristotle.Physics
