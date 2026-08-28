@@ -67,4 +67,85 @@ def SameThingNotGeneratingOrPerishingForeverReading
     (SameThingGeneratesForever SameThingPerishesForever : Prop) : Prop :=
   ¬ SameThingGeneratesForever ∧ ¬ SameThingPerishesForever
 
+/-- Dividing a finite time into finitely many parts associates only finite traversed
+portions with those parts, so finite removal cannot exhaust an infinite extent in
+Aristotle, *Physics* VI.7, 238a20-30.
+
+Source: Aristotle, *Physics* VI.7, 238a20-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteTimePartsLeaveInfiniteExtentUnexhaustedReading
+    (FiniteTimeHasFinitePartMeasure EachTimePartTraversesFiniteExtent
+      InfiniteRemainderPersists : Prop) : Prop :=
+  FiniteTimeHasFinitePartMeasure ∧ EachTimePartTraversesFiniteExtent ∧
+    InfiniteRemainderPersists
+
+/-- The impossibility of exhausting an infinite extent in finite time is unchanged
+whether the extent is infinite in one direction or in both in Aristotle,
+*Physics* VI.7, 238a30-32.
+
+Source: Aristotle, *Physics* VI.7, 238a30-32 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def OneOrBothDirectionsInfiniteSameTraversalLimitReading
+    (OneDirectionInfiniteCovered BothDirectionsInfiniteCovered : Prop) : Prop :=
+  OneDirectionInfiniteCovered ∧ BothDirectionsInfiniteCovered
+
+/-- A finite moving magnitude cannot traverse an infinite extent in a finite time
+in Aristotle, *Physics* VI.7, 238a32-238b1.
+
+Source: Aristotle, *Physics* VI.7, 238a32-238b1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteMovingMagnitudeCannotTraverseInfiniteExtentInFiniteTimeReading
+    (FiniteMovingMagnitudeTraversesInfiniteExtentInFiniteTime : Prop) : Prop :=
+  ¬ FiniteMovingMagnitudeTraversesInfiniteExtentInFiniteTime
+
+/-- An infinite moving magnitude cannot pass over a finite extent in a finite time,
+because the finite extent would thereby measure across the infinite moving
+magnitude, in Aristotle, *Physics* VI.7, 238b1-11.
+
+Source: Aristotle, *Physics* VI.7, 238b1-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteMovingMagnitudeCannotTraverseFiniteExtentInFiniteTimeReading
+    (InfiniteMovingMagnitudeTraversesFiniteExtentInFiniteTime : Prop) : Prop :=
+  ¬ InfiniteMovingMagnitudeTraversesFiniteExtentInFiniteTime
+
+/-- An infinite moving magnitude cannot traverse an infinite extent in a finite
+time, since it contains a finite moving part already excluded from traversing that
+infinite extent in finite time, in Aristotle, *Physics* VI.7, 238b11-15.
+
+Source: Aristotle, *Physics* VI.7, 238b11-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteMovingMagnitudeCannotTraverseInfiniteExtentInFiniteTimeReading
+    (InfiniteMovingMagnitudeTraversesInfiniteExtentInFiniteTime : Prop) : Prop :=
+  ¬ InfiniteMovingMagnitudeTraversesInfiniteExtentInFiniteTime
+
+/-- Any supposed infinite locomotion in a finite time would instantiate one of
+three configurations: a finite moving magnitude across an infinite extent, an
+infinite moving magnitude across a finite extent, or an infinite moving magnitude
+across an infinite extent, in Aristotle, *Physics* VI.7, 238a32-238b22.
+
+Source: Aristotle, *Physics* VI.7, 238a32-238b22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteMotionFiniteTimeConfigurationCasesReading
+    (InfiniteMotionInFiniteTime FiniteAcrossInfinite InfiniteAcrossFinite
+      InfiniteAcrossInfinite : Prop) : Prop :=
+  InfiniteMotionInFiniteTime →
+    FiniteAcrossInfinite ∨ InfiniteAcrossFinite ∨ InfiniteAcrossInfinite
+
+/-- No infinite locomotion occurs in a finite time; if locomotion or its spatial
+magnitude were infinite, the other would have to be infinite as well, and the
+earlier cases exclude the traversal, in Aristotle, *Physics* VI.7, 238b15-22.
+
+Source: Aristotle, *Physics* VI.7, 238b15-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoInfiniteMotionInFiniteTimeReading
+    (InfiniteMotionInFiniteTime : Prop) : Prop :=
+  ¬ InfiniteMotionInFiniteTime
+
 end TruthCore.Greek.Aristotle.Physics

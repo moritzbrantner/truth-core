@@ -1,0 +1,1 @@
+{"id":"STMT-FINITE-TIME-PARTS-LEAVE-INFINITE-EXTENT-UNEXHAUSTED","paraphrase":"Dividing a finite time into finitely many parts yields only finitely many finite traversed portions, whose removal cannot exhaust an infinite extent.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.FiniteTimePartsLeaveInfiniteExtentUnexhaustedReading"}
