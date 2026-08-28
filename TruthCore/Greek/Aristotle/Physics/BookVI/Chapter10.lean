@@ -100,4 +100,83 @@ def IndivisibleMotionWouldRequireTimeFromNowsReading
     (IndivisibleMovesPerSe TimeComposedOfNows : Prop) : Prop :=
   IndivisibleMovesPerSe → TimeComposedOfNows
 
+/-- Before a moving thing can traverse a distance greater than itself, it must
+first traverse a distance equal to or less than itself, in Aristotle,
+*Physics* VI.10, 241a6-10.
+
+Source: Aristotle, *Physics* VI.10, 241a6-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MoverMustFirstTraverseEqualOrLessReading
+    (MovesPerSe FirstTraversalEqualOrLess : Prop) : Prop :=
+  MovesPerSe → FirstTraversalEqualOrLess
+
+/-- Because an indivisible has no smaller quantitative part, its hypothesized
+first traversal cannot be less than itself and would therefore have to equal
+itself, in Aristotle, *Physics* VI.10, 241a9-11.
+
+Source: Aristotle, *Physics* VI.10, 241a9-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibleFirstTraversalMustEqualItselfReading
+    (FirstTraversalEqualOrLess FirstTraversalEqual : Prop) : Prop :=
+  FirstTraversalEqualOrLess → FirstTraversalEqual
+
+/-- Repeated traversals each equal to a moving point would make the point measure
+the whole line and so make the line composed of points, in Aristotle,
+*Physics* VI.10, 241a10-13.
+
+Source: Aristotle, *Physics* VI.10, 241a10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RepeatedPointTraversalsWouldComposeLineReading
+    (PointMovesPerSe FirstTraversalEqualsPoint LineComposedOfPoints : Prop) : Prop :=
+  PointMovesPerSe ∧ FirstTraversalEqualsPoint → LineComposedOfPoints
+
+/-- No point or other quantitatively indivisible item can move in its own right,
+in Aristotle, *Physics* VI.10, 241a6-26.
+
+Source: Aristotle, *Physics* VI.10, 241a6-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoIndivisibleCanMovePerSeReading
+    (IndivisibleMovesPerSe : Prop) : Prop :=
+  ¬ IndivisibleMovesPerSe
+
+/-- Given that motion occurs in divisible time rather than in a now, a proposed
+motion in which an indivisible traverses its own extent yields a smaller time and
+therefore a traversal smaller than that extent, in Aristotle, *Physics* VI.10,
+241a14-22.
+
+Source: Aristotle, *Physics* VI.10, 241a14-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DivisibleTimeMotionYieldsSmallerThanIndivisibleReading
+    (EveryMotionOccursInTime EveryTimeDivisible SmallerTimeHasSmallerMotion
+      MotionInNow IndivisibleMovesPerSe SmallerThanIndivisible : Prop) : Prop :=
+  (EveryMotionOccursInTime ∧ EveryTimeDivisible ∧ SmallerTimeHasSmallerMotion) →
+    ¬ MotionInNow → IndivisibleMovesPerSe → SmallerThanIndivisible
+
+/-- A traversal smaller than an indivisible's own extent would divide what was
+stipulated to be indivisible and is therefore impossible, in Aristotle,
+*Physics* VI.10, 241a20-23.
+
+Source: Aristotle, *Physics* VI.10, 241a20-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibilityExcludesSmallerTraversalReading
+    (SmallerThanIndivisible : Prop) : Prop :=
+  ¬ SmallerThanIndivisible
+
+/-- The possibility of motion in a now and the possibility of motion of an
+indivisible stand or fall together under Aristotle's argument in *Physics* VI.10,
+241a23-26.
+
+Source: Aristotle, *Physics* VI.10, 241a23-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionInNowAndIndivisibleMotionSameAccountReading
+    (SameAccountApplies : Prop) : Prop :=
+  SameAccountApplies
+
 end TruthCore.Greek.Aristotle.Physics

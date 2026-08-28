@@ -1,0 +1,1 @@
+{"id":"STMT-MOVER-MUST-FIRST-TRAVERSE-EQUAL-OR-LESS","paraphrase":"Before a mover traverses a distance greater than itself, it must first traverse a distance equal to or less than itself.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.MoverMustFirstTraverseEqualOrLessReading"}
