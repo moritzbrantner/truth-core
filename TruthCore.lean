@@ -122,3 +122,5 @@ import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter9
 import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
 import TruthCore.Results.Aristotle.Physics.StadiumInferenceInvalid.Solution
 import TruthCore.Results.Aristotle.Physics.RotatingBodiesNeverRest.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter10
+import TruthCore.Results.Aristotle.Physics.IndivisibleCannotChangePerSe.Solution
