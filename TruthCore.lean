@@ -97,3 +97,5 @@ import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter2
 import TruthCore.Results.Aristotle.Physics.FasterEqualDistanceLessTime.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMagnitudeContinuous.Solution
 import TruthCore.Results.Aristotle.Physics.NoContinuousThingPartless.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter3
+import TruthCore.Results.Aristotle.Physics.PrimaryNowIndivisible.Solution
