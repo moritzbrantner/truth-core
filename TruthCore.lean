@@ -104,3 +104,5 @@ import TruthCore.Results.Aristotle.Physics.NothingRestsInNow.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter4
 import TruthCore.Results.Aristotle.Physics.EveryChangingSubjectDivisible.Solution
 import TruthCore.Results.Aristotle.Physics.EveryMotionTemporallyDivisible.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter5
+import TruthCore.Results.Aristotle.Physics.FirstCompletionTimeIndivisible.Solution
