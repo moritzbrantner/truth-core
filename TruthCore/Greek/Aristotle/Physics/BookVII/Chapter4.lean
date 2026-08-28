@@ -286,4 +286,106 @@ def AlterationAndLocomotionNotEqualSpeedReading
     (AlterationEqualToLocomotion AlterationAndLocomotionEqualSpeed : Prop) : Prop :=
   ¬ AlterationEqualToLocomotion ∧ ¬ AlterationAndLocomotionEqualSpeed
 
+/-- The explanation of the failed cross-kind speed comparisons is that motion has
+species, in Aristotle, *Physics* VII.4, 249a10-15.
+
+Source: Aristotle, *Physics* VII.4, 249a10-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionHasSpeciesReading
+    (MotionHasSpecies : Prop) : Prop :=
+  MotionHasSpecies
+
+/-- If that on which locomotion occurs is divided into species, locomotion has
+corresponding species, in Aristotle's proposed explanation in *Physics* VII.4,
+249a13-17.
+
+This conditional is weaker than the V.4 claim about different paths with the same
+subject, source, and goal, so the two statements retain independent identities.
+
+Source: Aristotle, *Physics* VII.4, 249a13-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PathSpeciesConditionallyDifferentiateLocomotionReading
+    (PathsHaveDifferentSpecies LocomotionsHaveDifferentSpecies : Prop) : Prop :=
+  PathsHaveDifferentSpecies → LocomotionsHaveDifferentSpecies
+
+/-- Aristotle also tests whether locomotion differs with the means of motion—feet
+yielding walking and wings flight—or instead with the shapes traced, in
+*Physics* VII.4, 249a15-18.
+
+The alternatives remain dialectical rather than being collapsed into a single
+settled criterion.
+
+Source: Aristotle, *Physics* VII.4, 249a15-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MeansAndShapeAsPossibleLocomotionDifferencesReading
+    (FeetYieldWalking WingsYieldFlight
+      ShapeMayInsteadDifferentiateLocomotion : Prop) : Prop :=
+  FeetYieldWalking ∧ WingsYieldFlight ∧
+    ShapeMayInsteadDifferentiateLocomotion
+
+/-- Given that motion has species, equal speed requires no difference in species
+of the motions compared, in Aristotle, *Physics* VII.4, 249a18-20.
+
+Source: Aristotle, *Physics* VII.4, 249a18-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionSpeciesAccountEntailsEqualSpeedSpeciesIdentityReading
+    (MotionHasSpecies MotionsEqualSpeed MotionsDifferInSpecies : Prop) : Prop :=
+  MotionHasSpecies → (MotionsEqualSpeed → ¬ MotionsDifferInSpecies)
+
+/-- Motions that differ in species are not equal in speed under the comparison
+criterion Aristotle is developing, in *Physics* VII.4, 249a18-20.
+
+This does not deny that a later mathematical framework could assign numerical
+rates across categories; it records Aristotle's required comparison class.
+
+Source: Aristotle, *Physics* VII.4, 249a18-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SpeciesDifferentMotionsNotEqualSpeedReading
+    (MotionsDifferInSpecies MotionsEqualSpeed : Prop) : Prop :=
+  MotionsDifferInSpecies → ¬ MotionsEqualSpeed
+
+/-- A genus is not always one undifferentiated item; it may conceal a plurality of
+kinds, in Aristotle, *Physics* VII.4, 249a20-22.
+
+Source: Aristotle, *Physics* VII.4, 249a20-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenusMayConcealMultipleKindsReading
+    (GenusMayConcealMultipleKinds : Prop) : Prop :=
+  GenusMayConcealMultipleKinds
+
+/-- Homonymous uses may be far apart, share some similarity, or lie close by
+genus or analogy, and the latter can escape notice as homonymy, in Aristotle,
+*Physics* VII.4, 249a20-24.
+
+Source: Aristotle, *Physics* VII.4, 249a20-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HomonymiesVaryInDistanceAndSimilarityReading
+    (SomeHomonymiesFarApart SomeShareSimilarity
+      SomeCloseByGenusOrAnalogy CloseHomonymyMayEscapeNotice : Prop) : Prop :=
+  SomeHomonymiesFarApart ∧ SomeShareSimilarity ∧
+    SomeCloseByGenusOrAnalogy ∧ CloseHomonymyMayEscapeNotice
+
+/-- The criterion for species difference remains under examination: whether the
+same item in a different recipient, or different items in different recipients,
+marks another species, and whether apparent difference is merely recipient-
+relative or absolute, in Aristotle, *Physics* VII.4, 249a24-29.
+
+Source: Aristotle, *Physics* VII.4, 249a24-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionSpeciesBoundaryRequiresFurtherCriterionReading
+    (SameInDifferentRecipientMayMarkSpeciesDifference
+      DifferentInDifferentRecipientsMayMarkSpeciesDifference
+      MustDistinguishRecipientRelativeFromAbsoluteDifference : Prop) : Prop :=
+  SameInDifferentRecipientMayMarkSpeciesDifference ∧
+    DifferentInDifferentRecipientsMayMarkSpeciesDifference ∧
+    MustDistinguishRecipientRelativeFromAbsoluteDifference
+
 end TruthCore.Greek.Aristotle.Physics
