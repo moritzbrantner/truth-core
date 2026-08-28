@@ -106,3 +106,5 @@ import TruthCore.Results.Aristotle.Physics.EveryChangingSubjectDivisible.Solutio
 import TruthCore.Results.Aristotle.Physics.EveryMotionTemporallyDivisible.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter5
 import TruthCore.Results.Aristotle.Physics.FirstCompletionTimeIndivisible.Solution
+import TruthCore.Results.Aristotle.Physics.NoFirstChangingTime.Solution
+import TruthCore.Results.Aristotle.Physics.NoFirstChangedPart.Solution

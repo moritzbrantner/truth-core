@@ -100,4 +100,78 @@ def GenerationDestructionCompleteAtIndivisibleBoundaryReading
   GenerationCompleteAtIndivisibleBoundary ∧
     DestructionCompleteAtIndivisibleBoundary
 
+/-- “The first time in which it has changed” may mean the boundary at which change
+is completed or a supposed first time at which changing begins in Aristotle,
+*Physics* VI.5, 236a7-12; only the completion sense has a first.
+
+Source: Aristotle, *Physics* VI.5, 236a7-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FirstCompletionBeginningDistinctionReading
+    (FirstCompletionBoundaryExists FirstBeginningIntervalExists : Prop) : Prop :=
+  FirstCompletionBoundaryExists ∧ ¬ FirstBeginningIntervalExists
+
+/-- A supposed first interval of changing cannot be indivisible, since that would
+make adjacent nows and make the subject both resting and already changed at their
+boundary, in Aristotle, *Physics* VI.5, 236a12-20.
+
+Source: Aristotle, *Physics* VI.5, 236a12-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FirstChangingIntervalNotIndivisibleReading
+    (FirstChangingIntervalIndivisible : Prop) : Prop :=
+  ¬ FirstChangingIntervalIndivisible
+
+/-- Any proposed first divisible interval of changing is self-defeating: division
+shows changing in every subinterval, so a proper subinterval is already an interval
+of changing, in Aristotle, *Physics* VI.5, 236a20-26.
+
+Source: Aristotle, *Physics* VI.5, 236a20-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ProposedFirstChangingTimeNotFirstReading
+    (ProposedFirstChangingTime : Prop) : Prop :=
+  ProposedFirstChangingTime → ¬ ProposedFirstChangingTime
+
+/-- There is no first extended time in which changing begins in Aristotle,
+*Physics* VI.5, 236a12-26.
+
+Source: Aristotle, *Physics* VI.5, 236a12-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoFirstChangingTimeReading
+    (FirstChangingTimeExists : Prop) : Prop :=
+  ¬ FirstChangingTimeExists
+
+/-- Every changing subject is divisible, so if one part were the first changed part,
+a smaller part would already have changed in an earlier half of its time, in
+Aristotle, *Physics* VI.5, 236a26-35.
+
+Source: Aristotle, *Physics* VI.5, 236a26-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ProposedFirstChangedPartHasEarlierSmallerPartReading
+    (ProposedFirstChangedPart EarlierSmallerChangedPart : Prop) : Prop :=
+  ProposedFirstChangedPart → EarlierSmallerChangedPart
+
+/-- If an earlier smaller changed part exists, the proposed first changed part was
+not first in Aristotle, *Physics* VI.5, 236a26-35.
+
+Source: Aristotle, *Physics* VI.5, 236a26-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EarlierSmallerPartExcludesFirstChangedPartReading
+    (EarlierSmallerChangedPart ProposedFirstChangedPart : Prop) : Prop :=
+  EarlierSmallerChangedPart → ¬ ProposedFirstChangedPart
+
+/-- No first part of a changing subject has completed the change in Aristotle,
+*Physics* VI.5, 236a26-236b1.
+
+Source: Aristotle, *Physics* VI.5, 236a26-236b1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoFirstChangedPartReading
+    (ProposedFirstChangedPart : Prop) : Prop :=
+  ¬ ProposedFirstChangedPart
+
 end TruthCore.Greek.Aristotle.Physics
