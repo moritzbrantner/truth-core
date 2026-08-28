@@ -82,4 +82,70 @@ def AbsenceOfChangeIsNotRestReading
     (AbsenceOfChangeIsRest : Prop) : Prop :=
   ¬ AbsenceOfChangeIsRest
 
+/-- Aristotle raises a puzzle in *Physics* V.6, 230a19-25: local motion and rest are
+called natural or unnatural, whereas alteration, increase, decrease, generation, and
+corruption do not initially appear divided in the same way.
+
+Source: Aristotle, *Physics* V.6, 230a19-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NaturalUnnaturalNonlocalChangePuzzleReading
+    (LocalMotionRestNaturalOrUnnatural
+      NonlocalChangesInitiallyNotSoDivided : Prop) : Prop :=
+  LocalMotionRestNaturalOrUnnatural ∧ NonlocalChangesInitiallyNotSoDivided
+
+/-- Convalescence is initially no more natural or unnatural than falling ill, nor
+whitening than blackening, and likewise for increase/decrease and generation/corruption,
+in Aristotle, *Physics* V.6, 230a19-31; ageing shows that corruption may be natural.
+
+Source: Aristotle, *Physics* V.6, 230a19-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NonlocalOppositesNotSimplyNaturalUnnaturalReading
+    (AlterationOppositesSimplyNaturalVersusUnnatural
+      QuantitativeOppositesSimplyNaturalVersusUnnatural
+      GenerationNaturalCorruptionUnnatural NaturalAgeing : Prop) : Prop :=
+  ¬ AlterationOppositesSimplyNaturalVersusUnnatural ∧
+    ¬ QuantitativeOppositesSimplyNaturalVersusUnnatural ∧
+    ¬ GenerationNaturalCorruptionUnnatural ∧ NaturalAgeing
+
+/-- If violence is contrary to nature, violent corruption, generation, increase, and
+decrease may stand against their natural counterparts in Aristotle, *Physics* V.6,
+230a31-230b2. Rapid maturation supplies the quantitative example.
+
+Source: Aristotle, *Physics* V.6, 230a31-230b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ViolentAndNaturalNonlocalChangesOpposedReading
+    (ViolenceIsUnnatural ViolentCorruptionOpposesNaturalCorruption
+      ViolentGenerationOpposesNaturalGeneration
+      ViolentGrowthDecreaseOpposeNaturalCounterparts : Prop) : Prop :=
+  ViolenceIsUnnatural →
+    (ViolentCorruptionOpposesNaturalCorruption ∧
+      ViolentGenerationOpposesNaturalGeneration ∧
+      ViolentGrowthDecreaseOpposeNaturalCounterparts)
+
+/-- Alterations too may be natural or unnatural in Aristotle, *Physics* V.6,
+230b2-6, as patients throw off fevers naturally on critical days or unnaturally at
+other times.
+
+Source: Aristotle, *Physics* V.6, 230b2-6 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationsCanBeNaturalOrUnnaturalReading
+    (NaturalAlterationsExist UnnaturalAlterationsExist : Prop) : Prop :=
+  NaturalAlterationsExist ∧ UnnaturalAlterationsExist
+
+/-- Corruptions can be contrary to one another in a qualified respect, such as one
+being pleasant and another painful, but not simply qua corruptions, in Aristotle,
+*Physics* V.6, 230b6-9.
+
+Source: Aristotle, *Physics* V.6, 230b6-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CorruptionsContraryQualifiedlyNotUnqualifiedlyReading
+    (CorruptionsContraryInQualifiedRespect
+      CorruptionsContraryWithoutQualification : Prop) : Prop :=
+  CorruptionsContraryInQualifiedRespect ∧ ¬ CorruptionsContraryWithoutQualification
+
 end TruthCore.Greek.Aristotle.Physics
