@@ -82,3 +82,4 @@ import TruthCore.Results.Aristotle.Physics.ThreeKindsOfChange.Solution
 import TruthCore.Results.Aristotle.Physics.OnlySubjectToSubjectMotion.Solution
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter2
 import TruthCore.Results.Aristotle.Physics.ChangeOfChangeRegress.Solution
+import TruthCore.Greek.Aristotle.Physics.BookV.Chapter3
