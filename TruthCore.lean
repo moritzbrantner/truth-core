@@ -93,3 +93,5 @@ import TruthCore.Results.Aristotle.Physics.MotionMoreContrary.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter1
 import TruthCore.Results.Aristotle.Physics.ContinuumNotIndivisibles.Solution
 import TruthCore.Results.Aristotle.Physics.MagnitudeMotionTimeNotIndivisibles.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter2
+import TruthCore.Results.Aristotle.Physics.FasterEqualDistanceLessTime.Solution
