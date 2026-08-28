@@ -1,0 +1,1 @@
+{"id":"STMT-DISTINCT-STATES-REQUIRE-DISTINCT-ACTIVITIES-NOT-CONVERSELY","paraphrase":"Numerically distinct states require numerically distinct activities, but one state does not by itself ensure one activity.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.DistinctStatesRequireDistinctActivitiesNotConverselyReading"}
