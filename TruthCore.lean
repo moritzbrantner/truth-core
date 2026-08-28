@@ -130,3 +130,4 @@ import TruthCore.Results.Aristotle.Physics.NoIndeterminateChange.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter1
 import TruthCore.Results.Aristotle.Physics.EveryMovingThingMoved.Solution
 import TruthCore.Results.Aristotle.Physics.InitialMoverReductioFails.Solution
+import TruthCore.Results.Aristotle.Physics.MovedMoverSeriesHasFirst.Solution

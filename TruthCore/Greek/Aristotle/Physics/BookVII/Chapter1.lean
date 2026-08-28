@@ -185,4 +185,71 @@ def InitialSimultaneousMotionReductioFailsReading
     (InitialReductioSucceeds : Prop) : Prop :=
   ¬ InitialReductioSucceeds
 
+/-- A primary bodily mover in locomotion must touch or be continuous with what it
+moves, in Aristotle, *Physics* VII.1, 242b23-27.
+
+Source: Aristotle, *Physics* VII.1, 242b23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrimaryBodilyMoverTouchesOrIsContinuousReading
+    (TouchesMovedBody ContinuousWithMovedBody : Prop) : Prop :=
+  TouchesMovedBody ∨ ContinuousWithMovedBody
+
+/-- Applying contact or continuity throughout the hypothesized moved-mover chain
+makes all its members one bodily unity, in Aristotle, *Physics* VII.1,
+242b23-27.
+
+Source: Aristotle, *Physics* VII.1, 242b23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteMovedMoverChainFormsOneUnityReading
+    (InfiniteMovedMoverChain ChainFormsOneBodilyUnity : Prop) : Prop :=
+  InfiniteMovedMoverChain → ChainFormsOneBodilyUnity
+
+/-- Whether the bodily unity formed by the chain is finite or infinite makes no
+difference to the corrected reductio, in Aristotle, *Physics* VII.1,
+242b27-29.
+
+Source: Aristotle, *Physics* VII.1, 242b27-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChainUnityFiniteOrInfiniteSameForReductioReading
+    (FiniteUnityCaseCovered InfiniteUnityCaseCovered : Prop) : Prop :=
+  FiniteUnityCaseCovered ∧ InfiniteUnityCaseCovered
+
+/-- If the infinite moved-mover chain forms one bodily unity, that single unity
+would undergo the chain's infinite motion in the finite time K, in Aristotle,
+*Physics* VII.1, 242b27-243a1.
+
+Source: Aristotle, *Physics* VII.1, 242b27-243a1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChainUnityWouldTraverseInfiniteMotionInFiniteTimeReading
+    (InfiniteMovedMoverChain ChainFormsOneBodilyUnity
+      OneUnityTraversesInfiniteMotionInFiniteTime : Prop) : Prop :=
+  InfiniteMovedMoverChain ∧ ChainFormsOneBodilyUnity →
+    OneUnityTraversesInfiniteMotionInFiniteTime
+
+/-- A theoretically possible hypothesis must not produce an impossible result, so
+it is enough that the corrected reductio selects one possible equal-or-greater
+motion configuration, in Aristotle, *Physics* VII.1, 242b27-243a2.
+
+Source: Aristotle, *Physics* VII.1, 242b27-243a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PossibleHypothesisMustNotYieldImpossibleReading
+    (HypothesisPossible HypothesisYieldsImpossible : Prop) : Prop :=
+  HypothesisPossible → ¬ HypothesisYieldsImpossible
+
+/-- The moved-mover series cannot lack a first mover and a first moved subject, in
+Aristotle, *Physics* VII.1, 242b23-243a2. This does not yet identify the first
+mover as unmoved or give it a theological description.
+
+Source: Aristotle, *Physics* VII.1, 242b23-243a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MovedMoverSeriesCannotLackFirstReading
+    (NoFirstMoverOrMoved : Prop) : Prop :=
+  ¬ NoFirstMoverOrMoved
+
 end TruthCore.Greek.Aristotle.Physics
