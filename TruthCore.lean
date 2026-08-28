@@ -90,3 +90,5 @@ import TruthCore.Results.Aristotle.Physics.ReverseMotionsContrary.Solution
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter6
 import TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest.Solution
 import TruthCore.Results.Aristotle.Physics.MotionMoreContrary.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter1
+import TruthCore.Results.Aristotle.Physics.ContinuumNotIndivisibles.Solution
