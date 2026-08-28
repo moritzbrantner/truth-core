@@ -143,3 +143,4 @@ import TruthCore.Results.Aristotle.Physics.IntellectualHabitsNotAlterations.Solu
 import TruthCore.Results.Aristotle.Physics.AlterationScopeVII3.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Results.Aristotle.Physics.NotEveryMotionComparable.Solution
+import TruthCore.Results.Aristotle.Physics.SharedMeaningNotSufficient.Solution
