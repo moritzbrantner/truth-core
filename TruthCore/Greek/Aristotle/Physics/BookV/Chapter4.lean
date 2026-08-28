@@ -225,4 +225,103 @@ def SpecificUnityNecessaryNotSufficientForUnqualifiedUnityReading
   (UnqualifiedlyOneMotion → SpecificallyOneMotion) ∧
     ¬ SpecificUnitySufficesForUnqualifiedUnity
 
+/-- A complete motion is called one, whether its unity is generic, specific, or
+numerical, in Aristotle, *Physics* V.4, 228b12-14; an incomplete motion may also be
+called one provided it is continuous.
+
+Source: Aristotle, *Physics* V.4, 228b12-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def CompleteMotionOneIncompleteIfContinuousReading
+    (CompleteMotionCalledOne IncompleteContinuousMotionCanBeCalledOne : Prop) : Prop :=
+  CompleteMotionCalledOne ∧ IncompleteContinuousMotionCanBeCalledOne
+
+/-- Regular motion is called one more readily than irregular motion in Aristotle,
+*Physics* V.4, 228b15-19, because irregular motion is divisible; the difference in
+unity is nevertheless one of greater and lesser degree.
+
+Source: Aristotle, *Physics* V.4, 228b15-19 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RegularMotionMoreOneThanIrregularReading
+    (RegularMotionCalledOneMore IrregularMotionDivisible
+      UnityDifferenceIsOfDegree : Prop) : Prop :=
+  RegularMotionCalledOneMore ∧ IrregularMotionDivisible ∧ UnityDifferenceIsOfDegree
+
+/-- Every kind of motion admits regularity and irregularity in Aristotle,
+*Physics* V.4, 228b19-22: alteration, locomotion, increase, and decrease can each be
+regular or irregular.
+
+Source: Aristotle, *Physics* V.4, 228b19-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EveryMotionKindAdmitsRegularityOrIrregularityReading
+    (AlterationAdmitsRegularityOrIrregularity
+      LocomotionAdmitsRegularityOrIrregularity
+      IncreaseDecreaseAdmitRegularityOrIrregularity : Prop) : Prop :=
+  AlterationAdmitsRegularityOrIrregularity ∧
+    LocomotionAdmitsRegularityOrIrregularity ∧
+    IncreaseDecreaseAdmitRegularityOrIrregularity
+
+/-- Irregularity can derive from the path or magnitude through which motion occurs in
+Aristotle, *Physics* V.4, 228b22-26: motion over a broken line, spiral, or another
+nonuniform magnitude cannot be regular.
+
+Source: Aristotle, *Physics* V.4, 228b22-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IrregularityCanDeriveFromNonuniformPathReading
+    (PathOrMagnitudeNonuniform MotionRegular : Prop) : Prop :=
+  PathOrMagnitudeNonuniform → ¬ MotionRegular
+
+/-- Regularity may instead concern how motion proceeds in Aristotle, *Physics* V.4,
+228b26-29: constant speed is regular and varying speed irregular, independently of
+the subject, time, or goal.
+
+Source: Aristotle, *Physics* V.4, 228b26-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ConstantSpeedRegularVaryingSpeedIrregularReading
+    (ConstantSpeed VaryingSpeed MotionRegular MotionIrregular : Prop) : Prop :=
+  (ConstantSpeed → MotionRegular) ∧ (VaryingSpeed → MotionIrregular)
+
+/-- Speed and slowness are not species or specific differences of motion in Aristotle,
+*Physics* V.4, 228b29-33, because they accompany motions of every species; heaviness
+and lightness likewise do not differentiate one kind of thing from itself.
+
+Source: Aristotle, *Physics* V.4, 228b29-33 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SpeedSlownessNotMotionSpeciesReading
+    (SpeedSlownessAreMotionSpeciesOrDifferences
+      HeavinessLightnessDifferentiateSameKindFromItself : Prop) : Prop :=
+  ¬ SpeedSlownessAreMotionSpeciesOrDifferences ∧
+    ¬ HeavinessLightnessDifferentiateSameKindFromItself
+
+/-- Irregular motion is one through continuity but one to a lesser degree in Aristotle,
+*Physics* V.4, 228b33-229a2, as with motion along a broken line; lesser degree always
+involves an admixture of the contrary.
+
+Source: Aristotle, *Physics* V.4, 228b33-229a2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IrregularContinuousMotionOneToLesserDegreeReading
+    (IrregularMotionContinuous IrregularMotionOneToLesserDegree
+      LesserDegreeAdmixtureOfContrary : Prop) : Prop :=
+  IrregularMotionContinuous ∧ IrregularMotionOneToLesserDegree ∧
+    LesserDegreeAdmixtureOfContrary
+
+/-- Successive motions that differ specifically cannot compose one continuous motion
+in Aristotle, *Physics* V.4, 229a2-6, because a composite of alteration and locomotion
+could not be regular: the parts of a regular motion must fit one another.
+
+Source: Aristotle, *Physics* V.4, 229a2-6 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DifferentSpecificMotionsCannotComposeRegularContinuousOneReading
+    (SuccessiveMotionsSpecificallyDifferent
+      CanComposeOneContinuousMotion PartsFitOneAnother : Prop) : Prop :=
+  SuccessiveMotionsSpecificallyDifferent ∧ ¬ CanComposeOneContinuousMotion ∧
+    (CanComposeOneContinuousMotion → PartsFitOneAnother)
+
 end TruthCore.Greek.Aristotle.Physics
