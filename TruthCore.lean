@@ -112,3 +112,5 @@ import TruthCore.Results.Aristotle.Physics.NoFirstContinuousTarget.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter6
 import TruthCore.Results.Aristotle.Physics.MotionInEverySubinterval.Solution
 import TruthCore.Results.Aristotle.Physics.ChangedThingPreviouslyChanging.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter7
+import TruthCore.Results.Aristotle.Physics.FiniteMagnitudeFiniteTraversalTime.Solution
