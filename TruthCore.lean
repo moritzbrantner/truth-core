@@ -147,3 +147,4 @@ import TruthCore.Results.Aristotle.Physics.SharedMeaningNotSufficient.Solution
 import TruthCore.Results.Aristotle.Physics.PrimaryRecipientComparabilityConditions.Solution
 import TruthCore.Results.Aristotle.Physics.MotionSpeciesEqualSpeed.Solution
 import TruthCore.Results.Aristotle.Physics.WhiteningHealingDifferentAlterations.Solution
+import TruthCore.Results.Aristotle.Physics.SameAffectionEqualSubjectAlterations.Solution
