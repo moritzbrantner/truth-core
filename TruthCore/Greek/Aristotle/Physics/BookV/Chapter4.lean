@@ -142,4 +142,87 @@ def NumericallySameRecurringStatePerishesAndExistsRepeatedlyReading
     (RecurringStateNumericallySame SameThingPerishesAndExistsRepeatedly : Prop) : Prop :=
   RecurringStateNumericallySame → SameThingPerishesAndExistsRepeatedly
 
+/-- Motion that is one without qualification must be continuous, and continuous motion
+is one, in Aristotle, *Physics* V.4, 228a20-228b11, subject to the chapter's further
+requirements on species, subject, and time.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def UnqualifiedUnityAndContinuityMutuallyRequireReading
+    (UnqualifiedlyOneMotion ContinuousMotion SpeciesSubjectTimeUnity : Prop) : Prop :=
+  (UnqualifiedlyOneMotion → ContinuousMotion) ∧
+    (SpeciesSubjectTimeUnity → ContinuousMotion → UnqualifiedlyOneMotion)
+
+/-- Motions can be continuous with one another only when their termini become one in
+Aristotle, *Physics* V.4, 228a20-228b11. Specifically different but homonymous termini,
+such as the end of a line and the end of walking, cannot touch and become one.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionContinuityRequiresOneSharedTerminusReading
+    (TerminiBecomeOne SpecificallyDifferentTerminiCanBecomeOne
+      MotionsContinuousWithEachOther : Prop) : Prop :=
+  TerminiBecomeOne ∧ ¬ SpecificallyDifferentTerminiCanBecomeOne ∧
+    MotionsContinuousWithEachOther
+
+/-- Motions different in species or genus may be successive but are not continuous in
+Aristotle, *Physics* V.4, 228a20-228b11, as when running is followed immediately by
+fever or one runner follows another in a torch race.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DifferentKindsOfMotionSuccessiveNotContinuousReading
+    (DifferentInSpeciesOrGenus CanBeSuccessive CanBeContinuous : Prop) : Prop :=
+  DifferentInSpeciesOrGenus ∧ CanBeSuccessive ∧ ¬ CanBeContinuous
+
+/-- Successive motions are joined through continuous time, whereas continuous motions
+are joined because their own termini become one, in Aristotle, *Physics* V.4,
+228a20-228b11.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TemporalSuccessionDiffersFromMotionContinuityReading
+    (SuccessionThroughContinuousTime
+      ContinuityThroughOneSharedMotionTerminus : Prop) : Prop :=
+  SuccessionThroughContinuousTime ∧ ContinuityThroughOneSharedMotionTerminus
+
+/-- A motion continuous and one without qualification must be specifically the same,
+of one subject, and in one uninterrupted time, in Aristotle, *Physics* V.4,
+228a20-228b11.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContinuousOneMotionRequiresSpeciesSubjectTimeReading
+    (SpecificallySameMotion OneMovingSubject OneUninterruptedTime : Prop) : Prop :=
+  SpecificallySameMotion ∧ OneMovingSubject ∧ OneUninterruptedTime
+
+/-- A temporal interval introduces rest, and rest between phases makes a motion many,
+not one or continuous, in Aristotle, *Physics* V.4, 228a20-228b11.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TemporalInterruptionMakesMotionManyReading
+    (TemporalInterval RestBetweenPhases MotionOneAndContinuous : Prop) : Prop :=
+  (TemporalInterval → RestBetweenPhases) ∧
+    (RestBetweenPhases → ¬ MotionOneAndContinuous)
+
+/-- Specific unity is necessary but not sufficient for unity without qualification in
+Aristotle, *Physics* V.4, 228a20-228b11: a motion that is one must be specifically one,
+but specifically one motions need not be numerically one.
+
+Source: Aristotle, *Physics* V.4, 228a20-228b11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SpecificUnityNecessaryNotSufficientForUnqualifiedUnityReading
+    (UnqualifiedlyOneMotion SpecificallyOneMotion
+      SpecificUnitySufficesForUnqualifiedUnity : Prop) : Prop :=
+  (UnqualifiedlyOneMotion → SpecificallyOneMotion) ∧
+    ¬ SpecificUnitySufficesForUnqualifiedUnity
+
 end TruthCore.Greek.Aristotle.Physics
