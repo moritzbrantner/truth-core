@@ -167,4 +167,93 @@ def StadiumInferenceInvalidReading
     (StadiumInferenceValid : Prop) : Prop :=
   ¬ StadiumInferenceValid
 
+/-- No impossibility follows in contradictory change merely because the changing
+thing is not wholly in either contradictory state during the transition, as in
+change from non-white to white, in Aristotle, *Physics* VI.9, 240a17-21.
+
+Source: Aristotle, *Physics* VI.9, 240a17-21 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContradictoryChangeWhollyInNeitherNotAbsurdReading
+    (WhollyInNeitherContradictory ChangeIsImpossible : Prop) : Prop :=
+  WhollyInNeitherContradictory → ¬ ChangeIsImpossible
+
+/-- A subject is called white or non-white because most or its principal parts have
+the relevant character, not because every part is wholly so, in Aristotle,
+*Physics* VI.9, 240a21-25.
+
+Source: Aristotle, *Physics* VI.9, 240a21-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PredicationByMostOrPrincipalPartsReading
+    (MostPartsHaveCharacter PrincipalPartsHaveCharacter
+      SubjectPredicatedWithCharacter : Prop) : Prop :=
+  MostPartsHaveCharacter ∨ PrincipalPartsHaveCharacter →
+    SubjectPredicatedWithCharacter
+
+/-- Not being in a state and not being wholly in that state are materially distinct
+conditions in Aristotle, *Physics* VI.9, 240a23-25.
+
+Source: Aristotle, *Physics* VI.9, 240a23-25 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NotInStateDistinctFromNotWhollyInStateReading
+    (NotInStateDistinctFromNotWhollyInState : Prop) : Prop :=
+  NotInStateDistinctFromNotWhollyInState
+
+/-- During change by contradiction, the subject is necessarily in one of the
+opposites while not always being wholly in either; Aristotle extends this to being
+and non-being and other contradictories in *Physics* VI.9, 240a25-29.
+
+Source: Aristotle, *Physics* VI.9, 240a25-29 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContradictoryChangeInOneOppositeNotAlwaysWhollyEitherReading
+    (NecessarilyInOneOpposite NotAlwaysWhollyInEitherOpposite : Prop) : Prop :=
+  NecessarilyInOneOpposite ∧ NotAlwaysWhollyInEitherOpposite
+
+/-- An objection says a rotating circle or sphere would both rest and move because
+the whole and its parts remain in the same place for a time, in Aristotle,
+*Physics* VI.9, 240a29-35.
+
+Source: Aristotle, *Physics* VI.9, 240a29-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RotationRestObjectionReading
+    (WholeAndPartsRemainSamePlace RotatingBodyBothRestsAndMoves : Prop) : Prop :=
+  WholeAndPartsRemainSamePlace → RotatingBodyBothRestsAndMoves
+
+/-- The parts of a rotating body do not remain in the same place for any time in
+Aristotle, *Physics* VI.9, 240a35-240b1.
+
+Source: Aristotle, *Physics* VI.9, 240a35-240b1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RotatingPartsNeverStableInPlaceReading
+    (WholeAndPartsSameThroughTime : Prop) : Prop :=
+  ¬ WholeAndPartsSameThroughTime
+
+/-- A rotating whole continually changes to a different circumference; circumferences
+taken from different points are the same only incidentally, as musical man and man
+are incidentally the same, in Aristotle, *Physics* VI.9, 240b1-5.
+
+Source: Aristotle, *Physics* VI.9, 240b1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RotatingWholeChangesCircumferenceReading
+    (DifferentPointCircumferencesOnlyIncidentallySame
+      RotatingWholeContinuouslyChangesCircumference : Prop) : Prop :=
+  DifferentPointCircumferencesOnlyIncidentallySame →
+    RotatingWholeContinuouslyChangesCircumference
+
+/-- A rotating circle never rests, and the same holds for a sphere and other bodies
+moving in themselves, in Aristotle, *Physics* VI.9, 240b5-8.
+
+Source: Aristotle, *Physics* VI.9, 240b5-8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RotatingBodiesNeverRestReading
+    (RotatingBodyRests : Prop) : Prop :=
+  ¬ RotatingBodyRests
+
 end TruthCore.Greek.Aristotle.Physics
