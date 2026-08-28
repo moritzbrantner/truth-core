@@ -148,3 +148,5 @@ import TruthCore.Results.Aristotle.Physics.PrimaryRecipientComparabilityConditio
 import TruthCore.Results.Aristotle.Physics.MotionSpeciesEqualSpeed.Solution
 import TruthCore.Results.Aristotle.Physics.WhiteningHealingDifferentAlterations.Solution
 import TruthCore.Results.Aristotle.Physics.SameAffectionEqualSubjectAlterations.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+import TruthCore.Results.Aristotle.Physics.HalfForceHalfLoadSameMotion.Solution
