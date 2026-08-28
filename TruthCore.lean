@@ -127,3 +127,5 @@ import TruthCore.Results.Aristotle.Physics.IndivisibleCannotChangePerSe.Solution
 import TruthCore.Results.Aristotle.Physics.PointDistanceNoIndivisibleMotion.Solution
 import TruthCore.Results.Aristotle.Physics.DivisibleTimeNoIndivisibleMotion.Solution
 import TruthCore.Results.Aristotle.Physics.NoIndeterminateChange.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter1
+import TruthCore.Results.Aristotle.Physics.EveryMovingThingMoved.Solution
