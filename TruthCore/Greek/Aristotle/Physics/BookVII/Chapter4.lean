@@ -388,4 +388,92 @@ def MotionSpeciesBoundaryRequiresFurtherCriterionReading
     DifferentInDifferentRecipientsMayMarkSpeciesDifference ∧
     MustDistinguishRecipientRelativeFromAbsoluteDifference
 
+/-- Healing supplies Aristotle's first example of equal-speed alteration: healing
+is alteration, people may heal quickly, slowly, or together, and equal-time
+instances may therefore be called equal in speed, in *Physics* VII.4,
+249a29-249b3.
+
+Source: Aristotle, *Physics* VII.4, 249a29-249b3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HealingCanSupplyEqualSpeedAlterationReading
+    (HealingIsAlteration PeopleHealFastSlowOrTogether
+      EqualTimeHealingCanBeEqualSpeed : Prop) : Prop :=
+  HealingIsAlteration ∧ PeopleHealFastSlowOrTogether ∧
+    EqualTimeHealingCanBeEqualSpeed
+
+/-- Qualitative alteration is compared by similarity rather than by the equality
+properly said of quantity, in Aristotle, *Physics* VII.4, 249b1-4.
+
+Source: Aristotle, *Physics* VII.4, 249b1-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualityComparisonUsesSimilarityNotEqualityReading
+    (QualitiesComparedBySimilarity QualitiesNotComparedByEquality : Prop) : Prop :=
+  QualitiesComparedBySimilarity ∧ QualitiesNotComparedByEquality
+
+/-- Aristotle provisionally calls alterations equal in speed when the same
+alteration occurs in equal times, in *Physics* VII.4, 249b3-5.
+
+Source: Aristotle, *Physics* VII.4, 249b3-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameAlterationEqualTimeCriterionReading
+    (SameAlteration EqualTime EqualSpeed : Prop) : Prop :=
+  SameAlteration → EqualTime → EqualSpeed
+
+/-- Health is the same affection and may be present similarly in two recipients;
+it is not itself more or less health, in Aristotle, *Physics* VII.4, 249b5-8.
+
+Source: Aristotle, *Physics* VII.4, 249b5-8 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HealthSameAndSimilarlyPresentReading
+    (HealthIsSame HealthNeitherMoreNorLess HealthSimilarlyPresent : Prop) : Prop :=
+  HealthIsSame ∧ HealthNeitherMoreNorLess ∧ HealthSimilarlyPresent
+
+/-- Whitening and healing involve different affections, for which Aristotle finds
+no common item that is the same, equal, or similar, in *Physics* VII.4,
+249b7-10.
+
+This records the local comparison problem without generalizing it to every pair
+of different affections.
+
+Source: Aristotle, *Physics* VII.4, 249b7-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def WhiteningHealingAffectionsDifferentNoCommonComparisonReading
+    (WhiteningHealingAffectionsDifferent NoSameEqualOrSimilarMeasure : Prop) : Prop :=
+  WhiteningHealingAffectionsDifferent ∧ NoSameEqualOrSimilarMeasure
+
+/-- In Aristotle's analysis, different affections make the corresponding
+alterations different in species, in *Physics* VII.4, 249b8-12.
+
+Source: Aristotle, *Physics* VII.4, 249b8-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DifferentAffectionsEntailDifferentAlterationSpeciesReading
+    (AffectionsDifferent AlterationsDifferInSpecies : Prop) : Prop :=
+  AffectionsDifferent → AlterationsDifferInSpecies
+
+/-- Whitening and healing are different species of alteration under Aristotle's
+affection-sensitive division, in *Physics* VII.4, 249b8-12.
+
+Source: Aristotle, *Physics* VII.4, 249b8-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def WhiteningHealingDifferentAlterationSpeciesReading
+    (WhiteningHealingAlterationsDifferInSpecies : Prop) : Prop :=
+  WhiteningHealingAlterationsDifferInSpecies
+
+/-- The comparison inquiry therefore requires determining the species of both
+alteration and locomotion, in Aristotle, *Physics* VII.4, 249b10-12.
+
+Source: Aristotle, *Physics* VII.4, 249b10-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MustEnumerateAlterationLocomotionSpeciesReading
+    (MustEnumerateAlterationSpecies MustEnumerateLocomotionSpecies : Prop) : Prop :=
+  MustEnumerateAlterationSpecies ∧ MustEnumerateLocomotionSpecies
+
 end TruthCore.Greek.Aristotle.Physics
