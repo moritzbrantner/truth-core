@@ -84,3 +84,4 @@ import TruthCore.Greek.Aristotle.Physics.BookV.Chapter2
 import TruthCore.Results.Aristotle.Physics.ChangeOfChangeRegress.Solution
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter3
 import TruthCore.Results.Aristotle.Physics.ContinuityImpliesSuccession.Solution
+import TruthCore.Greek.Aristotle.Physics.BookV.Chapter4
