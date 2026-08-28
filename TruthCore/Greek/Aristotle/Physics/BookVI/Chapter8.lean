@@ -88,4 +88,70 @@ def NoFirstExtendedPartOfContinuumReading
   TimeHasNoFirstExtendedPart ∧ MagnitudeHasNoFirstExtendedPart ∧
     EveryContinuumHasNoFirstExtendedPart
 
+/-- Rest requires the whole subject and each of its parts to remain in the same
+determinate state through a time, so that the same attribution is true at successive
+nows, in Aristotle, *Physics* VI.8, 239a25-28.
+
+Source: Aristotle, *Physics* VI.8, 239a25-28 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RestRequiresWholeAndPartsSameThroughTimeReading
+    (ThingIsAtRest WholeAndPartsSameThroughTime : Prop) : Prop :=
+  ThingIsAtRest → WholeAndPartsSameThroughTime
+
+/-- If a subject were wholly in the same determinate state through a time, it would
+be at rest in that state in Aristotle, *Physics* VI.8, 239a25-30.
+
+Source: Aristotle, *Physics* VI.8, 239a25-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def WhollyDeterminateThroughTimeEntailsRestReading
+    (WhollyDeterminateThroughTime ThingIsAtRest : Prop) : Prop :=
+  WhollyDeterminateThroughTime → ThingIsAtRest
+
+/-- A thing moving in its primary motion-time cannot be at rest during that time in
+Aristotle, *Physics* VI.8, 239b2-4.
+
+Source: Aristotle, *Physics* VI.8, 239b2-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PrimaryMotionExcludesRestDuringTimeReading
+    (MovesInPrimaryTime ThingIsAtRestDuringThatTime : Prop) : Prop :=
+  MovesInPrimaryTime → ¬ ThingIsAtRestDuringThatTime
+
+/-- During the primary time of its motion, a moving thing cannot be wholly in one
+determinate state through any temporal part, since that would make it rest, in
+Aristotle, *Physics* VI.8, 239a23-239b4.
+
+Source: Aristotle, *Physics* VI.8, 239a23-239b4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MovingThingNotWhollyDeterminateDuringPrimaryTimeReading
+    (MovesInPrimaryTime WhollyDeterminateThroughTime : Prop) : Prop :=
+  MovesInPrimaryTime → ¬ WhollyDeterminateThroughTime
+
+/-- A moving thing may be at a determinate boundary-state in a now, but this occurs
+at the limit of time and does not constitute rest through time, in Aristotle,
+*Physics* VI.8, 239a30-239b2.
+
+Source: Aristotle, *Physics* VI.8, 239a30-239b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DeterminateAtNowIsBoundaryNotRestReading
+    (AtDeterminateStateInNow AtBoundaryOfTime NotRestingThere : Prop) : Prop :=
+  AtDeterminateStateInNow → AtBoundaryOfTime ∧ NotRestingThere
+
+/-- Neither motion nor rest occurs in a now, although it may be true in that now
+that the subject is not moving and is at a determinate state, in Aristotle,
+*Physics* VI.8, 239a35-239b2.
+
+Source: Aristotle, *Physics* VI.8, 239a35-239b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NeitherMotionNorRestOccursInNowReading
+    (MotionOccursInNow RestOccursInNow NonmotionTrueInNow
+      DeterminateStateTrueInNow : Prop) : Prop :=
+  ¬ MotionOccursInNow ∧ ¬ RestOccursInNow ∧ NonmotionTrueInNow ∧
+    DeterminateStateTrueInNow
+
 end TruthCore.Greek.Aristotle.Physics
