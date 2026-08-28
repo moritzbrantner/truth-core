@@ -179,4 +179,137 @@ def MotionInNowAndIndivisibleMotionSameAccountReading
     (SameAccountApplies : Prop) : Prop :=
   SameAccountApplies
 
+/-- Every change is from something to something, whether the opposition is
+contradictory or contrary, in Aristotle, *Physics* VI.10, 241a26-28.
+
+Source: Aristotle, *Physics* VI.10, 241a26-28 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EveryChangeFromSomethingToSomethingReading
+    (EveryChangeFromSourceToTerminus : Prop) : Prop :=
+  EveryChangeFromSourceToTerminus
+
+/-- Affirmation and negation bound contradictory changes: generation terminates
+in being and destruction in non-being, in Aristotle, *Physics* VI.10, 241a28-31.
+
+Source: Aristotle, *Physics* VI.10, 241a28-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContradictoryChangesHaveAffirmativeNegativeTerminiReading
+    (AffirmationAndNegationAreTermini GenerationTerminatesInBeing
+      DestructionTerminatesInNonbeing : Prop) : Prop :=
+  AffirmationAndNegationAreTermini ∧ GenerationTerminatesInBeing ∧
+    DestructionTerminatesInNonbeing
+
+/-- Contrary changes are bounded by their contrary extremes, including alteration
+from contraries, in Aristotle, *Physics* VI.10, 241a31-34.
+
+Source: Aristotle, *Physics* VI.10, 241a31-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ContraryChangesBoundedByContraryExtremesReading
+    (ContrariesAreChangeExtremes AlterationProceedsFromContraries : Prop) : Prop :=
+  ContrariesAreChangeExtremes ∧ AlterationProceedsFromContraries
+
+/-- Growth is bounded by the naturally complete size proper to the thing, while
+diminution is departure from that size, in Aristotle, *Physics* VI.10,
+241a34-241b2.
+
+Source: Aristotle, *Physics* VI.10, 241a34-241b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GrowthAndDiminutionNaturalMagnitudeTerminiReading
+    (GrowthTerminatesAtNaturallyCompleteMagnitude
+      DiminutionDepartsFromThatMagnitude : Prop) : Prop :=
+  GrowthTerminatesAtNaturallyCompleteMagnitude ∧
+    DiminutionDepartsFromThatMagnitude
+
+/-- Locomotion is not bounded in the same way by contrary extremes, because not
+every locomotion is between contraries, in Aristotle, *Physics* VI.10, 241b2-4.
+
+Source: Aristotle, *Physics* VI.10, 241b2-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def LocomotionNotAlwaysBoundedByContrariesReading
+    (EveryLocomotionBetweenContraries : Prop) : Prop :=
+  ¬ EveryLocomotionBetweenContraries
+
+/-- If a moving thing actually changes to some endpoint, that endpoint must be one
+to which change is possible, in Aristotle, *Physics* VI.10, 241b4-9.
+
+Source: Aristotle, *Physics* VI.10, 241b4-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ActualChangeEndpointMustBePossibleReading
+    (ActualChangeEndpointPossible : Prop) : Prop :=
+  ActualChangeEndpointPossible
+
+/-- An infinite extent cannot be traversed, in Aristotle, *Physics* VI.10,
+241b9-11.
+
+Source: Aristotle, *Physics* VI.10, 241b9-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteExtentCannotBeTraversedReading
+    (InfiniteExtentTraversable : Prop) : Prop :=
+  ¬ InfiniteExtentTraversable
+
+/-- Aristotle's inferential transition in *Physics* VI.10, 241a26-241b12: being
+from something to something, having only possible actual termini, and the
+untraversability of an infinite extent exclude a change whose termini are wholly
+indeterminate.
+
+Source: Aristotle, *Physics* VI.10, 241a26-241b12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeTerminusPremisesExcludeIndeterminateInfinityReading
+    (EveryChangeFromSourceToTerminus ActualEndpointPossible
+      InfiniteExtentTraversable ChangeLacksDeterminateTermini : Prop) : Prop :=
+  EveryChangeFromSourceToTerminus → ActualEndpointPossible →
+    ¬ InfiniteExtentTraversable → ¬ ChangeLacksDeterminateTermini
+
+/-- No change is infinite in the sense of lacking determinate termini, in
+Aristotle, *Physics* VI.10, 241a26-241b12.
+
+Source: Aristotle, *Physics* VI.10, 241a26-241b12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoChangeInfiniteThroughIndeterminateTerminiReading
+    (ChangeLacksDeterminateTermini : Prop) : Prop :=
+  ¬ ChangeLacksDeterminateTermini
+
+/-- Infinity through indeterminate termini is distinct from the question whether
+one and the same motion can be infinite in duration, in Aristotle,
+*Physics* VI.10, 241b10-14.
+
+Source: Aristotle, *Physics* VI.10, 241b10-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TerminusInfinityDistinctFromTemporalInfinityReading
+    (TheTwoInfinityQuestionsAreDistinct : Prop) : Prop :=
+  TheTwoInfinityQuestionsAreDistinct
+
+/-- A succession of locomotion, alteration, growth, and generation could keep
+motion occurring forever, but would not constitute one motion, in Aristotle,
+*Physics* VI.10, 241b14-18.
+
+Source: Aristotle, *Physics* VI.10, 241b14-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HeterogeneousSuccessionCanBeEverlastingNotOneMotionReading
+    (SuccessionCanKeepMotionAlwaysOccurring CannotConstituteOneMotion : Prop) : Prop :=
+  SuccessionCanKeepMotionAlwaysOccurring ∧ CannotConstituteOneMotion
+
+/-- If one and the same motion is infinite in time, it must be circular
+locomotion, in Aristotle, *Physics* VI.10, 241b18-20. The chapter states this
+restriction here without supplying a new derivation of circular motion's
+continuity.
+
+Source: Aristotle, *Physics* VI.10, 241b18-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def OnlyCircularLocomotionCanBeOneMotionInfiniteInTimeReading
+    (OneMotion InfiniteInTime CircularLocomotion : Prop) : Prop :=
+  OneMotion ∧ InfiniteInTime → CircularLocomotion
+
 end TruthCore.Greek.Aristotle.Physics
