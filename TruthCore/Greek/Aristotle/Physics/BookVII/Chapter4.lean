@@ -476,4 +476,113 @@ def MustEnumerateAlterationLocomotionSpeciesReading
     (MustEnumerateAlterationSpecies MustEnumerateLocomotionSpecies : Prop) : Prop :=
   MustEnumerateAlterationSpecies ∧ MustEnumerateLocomotionSpecies
 
+/-- When the things moved in their own right differ in species, genus, or number,
+their motions differ at the corresponding level, in *Physics* VII.4,
+249b12-15.
+
+The restriction to motions belonging to their subjects in their own right
+excludes merely accidental motion.
+
+Source: Aristotle, *Physics* VII.4, 249b12-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PerSeMovedSubjectDifferencesTransferToMotionsReading
+    (SubjectsDifferInSpecies SubjectsDifferInGenus SubjectsDifferInNumber
+      MotionsDifferInSpecies MotionsDifferInGenus MotionsDifferInNumber : Prop) : Prop :=
+  (SubjectsDifferInSpecies → MotionsDifferInSpecies) ∧
+    (SubjectsDifferInGenus → MotionsDifferInGenus) ∧
+    (SubjectsDifferInNumber → MotionsDifferInNumber)
+
+/-- Aristotle's proposed two-factor analysis makes sameness or difference of an
+alteration track the affection, while equality or inequality tracks the amount
+altered, in *Physics* VII.4, 249b15-20.
+
+Source: Aristotle, *Physics* VII.4, 249b15-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationIdentityAndEqualityTrackAffectionAndSubjectReading
+    (SameAffection DifferentAffection EqualAffectedAmount UnequalAffectedAmount
+      SameAlteration DifferentAlteration EqualAlteration UnequalAlteration : Prop) : Prop :=
+  (SameAffection → SameAlteration) ∧
+    (DifferentAffection → DifferentAlteration) ∧
+    (EqualAffectedAmount → EqualAlteration) ∧
+    (UnequalAffectedAmount → UnequalAlteration)
+
+/-- Under Aristotle's two-factor analysis, the same affection in equal affected
+amounts yields alterations that are both the same and equal, in *Physics*
+VII.4, 249b15-20.
+
+Source: Aristotle, *Physics* VII.4, 249b15-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SameAffectionEqualSubjectAlterationsReading
+    (SameAffection EqualAffectedAmount SameAlteration EqualAlteration : Prop) : Prop :=
+  SameAffection ∧ EqualAffectedAmount → SameAlteration ∧ EqualAlteration
+
+/-- The same comparison question must be examined for generation and corruption,
+in Aristotle, *Physics* VII.4, 249b20.
+
+Source: Aristotle, *Physics* VII.4, 249b20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GenerationCorruptionRequireSameComparisonInquiryReading
+    (GenerationRequiresComparisonInquiry
+      CorruptionRequiresComparisonInquiry : Prop) : Prop :=
+  GenerationRequiresComparisonInquiry ∧ CorruptionRequiresComparisonInquiry
+
+/-- Generations are equal in speed when the same indivisible kind is produced in
+equal times; Aristotle's example is human rather than the wider genus animal,
+in *Physics* VII.4, 249b20-23.
+
+Here "indivisible" records the source's taxonomic comparison class, not spatial
+or numerical indivisibility.
+
+Source: Aristotle, *Physics* VII.4, 249b20-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EqualSpeedGenerationSameIndivisibleKindEqualTimeReading
+    (SameIndivisibleKind EqualTime EqualSpeedGeneration
+      HumanSuppliesComparisonKind AnimalGenusTooBroad : Prop) : Prop :=
+  (SameIndivisibleKind → EqualTime → EqualSpeedGeneration) ∧
+    HumanSuppliesComparisonKind ∧ AnimalGenusTooBroad
+
+/-- When different kinds are generated in equal times, Aristotle lacks a pair of
+comparison terms in which their difference corresponds to qualitative
+unlikeness, in *Physics* VII.4, 249b23-24.
+
+Source: Aristotle, *Physics* VII.4, 249b23-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DifferentGeneratedKindsLackUnlikenessStyleMeasureReading
+    (DifferentKindsGeneratedInEqualTime
+      NoComparisonPairCorrespondsToUnlikeness : Prop) : Prop :=
+  DifferentKindsGeneratedInEqualTime ∧
+    NoComparisonPairCorrespondsToUnlikeness
+
+/-- If substance is number, greater and lesser number may be said within one
+species, but Aristotle says that the common comparison relation is unnamed, in
+*Physics* VII.4, 249b24-26.
+
+The numerical account of substance remains the antecedent of a conditional; it
+is not asserted as Aristotle's adopted premise here.
+
+Source: Aristotle, *Physics* VII.4, 249b24-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SubstanceNumberComparisonConditionalAndUnnamedReading
+    (SubstanceIsNumber GreaterLesserNumberWithinSameSpecies
+      CommonComparisonRelationUnnamed : Prop) : Prop :=
+  SubstanceIsNumber →
+    GreaterLesserNumberWithinSameSpecies ∧ CommonComparisonRelationUnnamed
+
+/-- Qualitative degree is expressed by "more," whereas quantitative excess is
+expressed by "greater," in Aristotle, *Physics* VII.4, 249b24-26.
+
+Source: Aristotle, *Physics* VII.4, 249b24-26 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualityQuantityDegreeVocabularyDiffersReading
+    (QualityUsesMore QuantityUsesGreater : Prop) : Prop :=
+  QualityUsesMore ∧ QuantityUsesGreater
+
 end TruthCore.Greek.Aristotle.Physics
