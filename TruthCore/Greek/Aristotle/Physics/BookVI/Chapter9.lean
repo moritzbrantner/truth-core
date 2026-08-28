@@ -110,4 +110,61 @@ def ArrowSyllogismDependsOnNowCompositionReading
     (TimeComposedOfIndivisibleNows ArrowSyllogismValid : Prop) : Prop :=
   ¬ TimeComposedOfIndivisibleNows → ¬ ArrowSyllogismValid
 
+/-- Zeno's fourth argument sets equal rows moving at equal speed in opposite
+directions past equal bodies in the stadium and alleges that half a time equals its
+double, in Aristotle, *Physics* VI.9, 239b33-240a1.
+
+Source: Aristotle, *Physics* VI.9, 239b33-240a1 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ZenoStadiumSetupAndAllegedConclusionReading
+    (EqualRowsMoveOppositeDirections EqualSpeeds HalfTimeEqualsDoubleTime : Prop) : Prop :=
+  EqualRowsMoveOppositeDirections ∧ EqualSpeeds ∧ HalfTimeEqualsDoubleTime
+
+/-- The stadium inference requires equal magnitudes traversed at equal speed to take
+equal times whether the comparison is with a moving row or a stationary row, in
+Aristotle's diagnosis in *Physics* VI.9, 240a1-5.
+
+Source: Aristotle, *Physics* VI.9, 240a1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def StadiumInferenceDependsOnMovingStationaryEqualTimeReading
+    (StadiumInferenceValid MovingAndStationaryComparisonsTakeEqualTime : Prop) : Prop :=
+  StadiumInferenceValid → MovingAndStationaryComparisonsTakeEqualTime
+
+/-- It is false that passing an equal moving magnitude and passing an equal
+stationary magnitude at equal speed take equal times, so the stadium argument
+conflates relative and stationary comparisons, in Aristotle, *Physics* VI.9,
+240a1-5.
+
+Source: Aristotle, *Physics* VI.9, 240a1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MovingStationaryEqualTimePremiseFalseReading
+    (MovingAndStationaryComparisonsTakeEqualTime : Prop) : Prop :=
+  ¬ MovingAndStationaryComparisonsTakeEqualTime
+
+/-- In Zeno's stadium arrangement, a body in one moving row passes every body in the
+oppositely moving row while a body in the other passes only half the stationary row,
+so the two comparisons count different relative crossings, in Aristotle,
+*Physics* VI.9, 240a5-15.
+
+Source: Aristotle, *Physics* VI.9, 240a5-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def StadiumRelativeRowsCrossDifferentCountsReading
+    (OppositeRowPassesAll MovingRowPassesHalfStationary : Prop) : Prop :=
+  OppositeRowPassesAll ∧ MovingRowPassesHalfStationary
+
+/-- Zeno's stadium inference is invalid because it depends on the false equal-time
+premise for moving and stationary comparisons in Aristotle, *Physics* VI.9,
+240a1-17.
+
+Source: Aristotle, *Physics* VI.9, 240a1-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def StadiumInferenceInvalidReading
+    (StadiumInferenceValid : Prop) : Prop :=
+  ¬ StadiumInferenceValid
+
 end TruthCore.Greek.Aristotle.Physics
