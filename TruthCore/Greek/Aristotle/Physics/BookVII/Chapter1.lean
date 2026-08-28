@@ -68,4 +68,121 @@ def EveryMovingThingMovedBySomethingReading
     (EveryMovingThingMovedBySomething : Prop) : Prop :=
   EveryMovingThingMovedBySomething
 
+/-- Denying a first mover turns the moved-mover series into an infinite chain in
+which A is moved by B, B by C, and so on, in Aristotle, *Physics* VII.1,
+242a16-24.
+
+Source: Aristotle, *Physics* VII.1, 242a16-24 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoFirstMoverHypothesisProducesInfiniteChainReading
+    (NoFirstMover InfiniteMovedMoverChain : Prop) : Prop :=
+  NoFirstMover → InfiniteMovedMoverChain
+
+/-- Because each moved mover moves and is moved simultaneously, all the motions in
+the hypothesized chain are simultaneous, in Aristotle, *Physics* VII.1,
+242a20-30.
+
+Source: Aristotle, *Physics* VII.1, 242a20-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MovedMoverChainMotionsAreSimultaneousReading
+    (InfiniteMovedMoverChain AllChainMotionsSimultaneous : Prop) : Prop :=
+  InfiniteMovedMoverChain → AllChainMotionsSimultaneous
+
+/-- Each mover's motion can be taken as numerically one because it is from one
+numerical source to one numerical terminus in one numerical time and is not
+infinite in its termini, in Aristotle, *Physics* VII.1, 242a30-242b7.
+
+Source: Aristotle, *Physics* VII.1, 242a30-242b7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EachChainMotionNumericallyOneWithFiniteTerminiReading
+    (OneNumericalSource OneNumericalTerminus OneNumericalTime
+      MotionNotInfiniteInTermini MotionNumericallyOne : Prop) : Prop :=
+  OneNumericalSource ∧ OneNumericalTerminus ∧ OneNumericalTime ∧
+    MotionNotInfiniteInTermini ∧ MotionNumericallyOne
+
+/-- Motions may be the same generically by category, specifically by specifically
+identical termini, or numerically by numerically identical termini and time, in
+Aristotle, *Physics* VII.1, 242a30-242b7.
+
+Source: Aristotle, *Physics* VII.1, 242a30-242b7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionUnityGenericSpecificNumericalReading
+    (GenericUnityByCategory SpecificUnityByTerminusSpecies
+      NumericalUnityByTerminiAndTime : Prop) : Prop :=
+  GenericUnityByCategory ∧ SpecificUnityByTerminusSpecies ∧
+    NumericalUnityByTerminiAndTime
+
+/-- The finite motion selected for A occupies a finite time, in Aristotle,
+*Physics* VII.1, 242b7-11.
+
+Source: Aristotle, *Physics* VII.1, 242b7-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FiniteSelectedMotionHasFiniteTimeReading
+    (SelectedMotionFinite SelectedMotionTimeFinite : Prop) : Prop :=
+  SelectedMotionFinite → SelectedMotionTimeFinite
+
+/-- On the hypothesized infinite chain, the aggregate of the individual motions
+would be infinite if the motions are equal or later motions are greater, in
+Aristotle, *Physics* VII.1, 242b11-16.
+
+Source: Aristotle, *Physics* VII.1, 242b11-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteChainYieldsInfiniteAggregateMotionReading
+    (InfiniteMovedMoverChain EqualOrGreaterMotions
+      AggregateMotionInfinite : Prop) : Prop :=
+  InfiniteMovedMoverChain ∧ EqualOrGreaterMotions → AggregateMotionInfinite
+
+/-- Since all the individual motions are simultaneous, the apparent reductio puts
+their infinite aggregate into the finite time of A's motion, in Aristotle,
+*Physics* VII.1, 242b16-18.
+
+Source: Aristotle, *Physics* VII.1, 242b16-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ApparentReductioPutsInfiniteAggregateInFiniteTimeReading
+    (AllChainMotionsSimultaneous AggregateMotionInfinite
+      SelectedMotionTimeFinite InfiniteAggregateInFiniteTime : Prop) : Prop :=
+  AllChainMotionsSimultaneous ∧ AggregateMotionInfinite ∧
+    SelectedMotionTimeFinite → InfiniteAggregateInFiniteTime
+
+/-- The initial simultaneous-motion reductio succeeds only if an infinite aggregate
+of many subjects' motions in one finite time is impossible, in Aristotle's
+diagnosis in *Physics* VII.1, 242b19-23.
+
+Source: Aristotle, *Physics* VII.1, 242b19-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InitialReductioRequiresAggregateImpossibilityReading
+    (InitialReductioSucceeds InfiniteAggregateManySubjectsInFiniteTimeImpossible
+      : Prop) : Prop :=
+  InitialReductioSucceeds → InfiniteAggregateManySubjectsInFiniteTimeImpossible
+
+/-- Infinitely many motions of different subjects may occur in a finite time, since
+each subject undergoes its own motion and many things may move simultaneously, in
+Aristotle, *Physics* VII.1, 242b19-23.
+
+Source: Aristotle, *Physics* VII.1, 242b19-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InfiniteAggregateManySubjectsInFiniteTimePossibleReading
+    (InfiniteAggregateManySubjectsInFiniteTimeImpossible : Prop) : Prop :=
+  ¬ InfiniteAggregateManySubjectsInFiniteTimeImpossible
+
+/-- The initial simultaneous-motion reductio does not prove that the moved-mover
+series has a first member, in Aristotle, *Physics* VII.1, 242b19-23. Aristotle
+immediately repairs the proof by adding contact or continuity.
+
+Source: Aristotle, *Physics* VII.1, 242b19-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def InitialSimultaneousMotionReductioFailsReading
+    (InitialReductioSucceeds : Prop) : Prop :=
+  ¬ InitialReductioSucceeds
+
 end TruthCore.Greek.Aristotle.Physics
