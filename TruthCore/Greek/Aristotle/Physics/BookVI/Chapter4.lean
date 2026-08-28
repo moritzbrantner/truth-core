@@ -98,4 +98,116 @@ def WholeMotionEqualsComposedPartMotionsReading
       WholeMotionEqualToComposedPartMotions : Prop) : Prop :=
   WholeMotionSameAsComposedPartMotions ∧ WholeMotionEqualToComposedPartMotions
 
+/-- Every motion occurs in time, every time is divisible, and a smaller time contains
+a smaller motion in Aristotle, *Physics* VI.4, 235a10-13.
+
+Source: Aristotle, *Physics* VI.4, 235a10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionOccursInDivisibleTimeReading
+    (EveryMotionOccursInTime EveryTimeDivisible SmallerTimeHasSmallerMotion : Prop) : Prop :=
+  EveryMotionOccursInTime ∧ EveryTimeDivisible ∧ SmallerTimeHasSmallerMotion
+
+/-- Aristotle's temporal-divisibility transition in *Physics* VI.4, 235a10-13: the
+divisibility of a motion's time and correspondence of smaller times with smaller
+motions entails that the motion is divisible by time.
+
+Source: Aristotle, *Physics* VI.4, 235a10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DivisibleTimeImpliesMotionTemporallyDivisibleReading
+    (EveryMotionOccursInTime EveryTimeDivisible SmallerTimeHasSmallerMotion
+      EveryMotionTemporallyDivisible : Prop) : Prop :=
+  (EveryMotionOccursInTime ∧ EveryTimeDivisible ∧ SmallerTimeHasSmallerMotion) →
+    EveryMotionTemporallyDivisible
+
+/-- Every motion is divisible according to time in Aristotle, *Physics* VI.4,
+235a10-13.
+
+Source: Aristotle, *Physics* VI.4, 235a10-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EveryMotionTemporallyDivisibleReading
+    (EveryMotionTemporallyDivisible : Prop) : Prop :=
+  EveryMotionTemporallyDivisible
+
+/-- Time, motion, being-in-motion, the moving subject, and that in which the motion
+occurs have corresponding divisions in Aristotle, *Physics* VI.4, 235a13-18.
+
+Source: Aristotle, *Physics* VI.4, 235a13-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TimeMotionSubjectFieldCorrespondingDivisionsReading
+    (TimeMotionDivisionsCorrespond MotionActivityDivisionsCorrespond
+      SubjectFieldDivisionsCorrespond : Prop) : Prop :=
+  TimeMotionDivisionsCorrespond ∧ MotionActivityDivisionsCorrespond ∧
+    SubjectFieldDivisionsCorrespond
+
+/-- The field of local motion is divisible in itself, whereas a qualitative field is
+divisible incidentally through the divisible subject bearing it, in Aristotle,
+*Physics* VI.4, 235a15-18.
+
+Source: Aristotle, *Physics* VI.4, 235a15-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlacePerSeQualityIncidentallyDivisibleReading
+    (PlaceDivisiblePerSe QualityDivisibleIncidentally : Prop) : Prop :=
+  PlaceDivisiblePerSe ∧ QualityDivisibleIncidentally
+
+/-- Motion and its time imply one another's divisibility: dividing either yields a
+corresponding smaller part of the other in Aristotle, *Physics* VI.4, 235a18-23.
+
+Source: Aristotle, *Physics* VI.4, 235a18-23 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionTimeMutuallyDivisibleReading
+    (MotionDivisible TimeDivisible : Prop) : Prop :=
+  MotionDivisible ↔ TimeDivisible
+
+/-- Being-in-motion is divisible according to divisions of the motion in Aristotle,
+*Physics* VI.4, 235a23-27.
+
+Source: Aristotle, *Physics* VI.4, 235a23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BeingInMotionDivisibleWithMotionReading
+    (MotionDivisible BeingInMotionDivisible : Prop) : Prop :=
+  MotionDivisible → BeingInMotionDivisible
+
+/-- The activities of moving according to the part-motions continuously compose the
+whole activity of moving according to the whole motion in Aristotle, *Physics* VI.4,
+235a27-34.
+
+Source: Aristotle, *Physics* VI.4, 235a27-34 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PartActivitiesComposeWholeBeingInMotionReading
+    (PartActivitiesContinuous WholeActivityComposedFromPartActivities : Prop) : Prop :=
+  PartActivitiesContinuous ∧ WholeActivityComposedFromPartActivities
+
+/-- Dividing any one of time, motion, being-in-motion, moving subject, or field of
+change brings corresponding divisions of all the others in Aristotle, *Physics* VI.4,
+235a34-235b2.
+
+Source: Aristotle, *Physics* VI.4, 235a34-235b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DividingOneChangeCorrelateDividesAllReading
+    (DividingOneCorrelateDividesAll : Prop) : Prop :=
+  DividingOneCorrelateDividesAll
+
+/-- Finitude or infinity in time, motion, being-in-motion, subject, and field of
+change correspond across the same coordinated structure in Aristotle, *Physics* VI.4,
+235b2-5; their divisibility and infinity follow most directly from the changing
+subject.
+
+Source: Aristotle, *Physics* VI.4, 235b2-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeCorrelatesFinitudeInfinityCorrespondReading
+    (FinitudeInfinityCorrespondAcrossChangeCorrelates
+      DivisibilityInfinityFollowChieflyFromChangingSubject : Prop) : Prop :=
+  FinitudeInfinityCorrespondAcrossChangeCorrelates ∧
+    DivisibilityInfinityFollowChieflyFromChangingSubject
+
 end TruthCore.Greek.Aristotle.Physics
