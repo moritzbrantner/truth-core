@@ -101,4 +101,130 @@ def GenerationMayInvolveUnderlyingAlterationReading
     ¬ GeneratedThingItselfAltered ∧
     ¬ GenerationIsAlteration
 
+/-- Habits are classified as virtues or vices; virtue is a perfection in which a
+thing is most fully according to nature, while vice is the corruption of and
+departure from that perfection, in Aristotle, *Physics* VII.3, 246a10-18.
+
+Source: Aristotle, *Physics* VII.3, 246a10-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VirtueViceHabitsArePerfectionsOrDeparturesReading
+    (HabitsClassifiedAsVirtuesOrVices VirtueIsPerfection
+      ViceIsCorruptionAndDeparture : Prop) : Prop :=
+  HabitsClassifiedAsVirtuesOrVices ∧
+    VirtueIsPerfection ∧ ViceIsCorruptionAndDeparture
+
+/-- Just as completing a house by adding its coping or tiling perfects rather
+than alters the house, virtue and vice are respectively perfections and
+departures rather than alterations, in Aristotle, *Physics* VII.3,
+246a18-246b3.
+
+Source: Aristotle, *Physics* VII.3, 246a18-246b3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HouseCompletionAnalogyForHabitsReading
+    (HouseCompletionIsPerfectionRatherThanAlteration
+      VirtuesArePerfectionsAndVicesDepartures : Prop) : Prop :=
+  HouseCompletionIsPerfectionRatherThanAlteration ∧
+    VirtuesArePerfectionsAndVicesDepartures
+
+/-- Neither virtue nor vice is an alteration, in Aristotle, *Physics* VII.3,
+246a10-246b3.
+
+Source: Aristotle, *Physics* VII.3, 246a10-246b3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def VirtueAndViceAreNotAlterationsReading
+    (VirtueIsAlteration ViceIsAlteration : Prop) : Prop :=
+  ¬ VirtueIsAlteration ∧ ¬ ViceIsAlteration
+
+/-- Bodily virtues such as health, good condition, beauty, and strength are
+relational dispositions: mixtures or symmetries among internal hot and cold
+factors or between them and the environment, disposing their subject well or
+badly toward its characteristic affections, in Aristotle, *Physics* VII.3,
+246b3-10.
+
+Source: Aristotle, *Physics* VII.3, 246b3-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BodilyVirtuesAreRelationalDispositionsReading
+    (BodilyVirtuesAndVicesAreRelationalDispositions : Prop) : Prop :=
+  BodilyVirtuesAndVicesAreRelationalDispositions
+
+/-- Relatives are not themselves alterations and, in Aristotle's classification,
+do not intrinsically undergo alteration, generation, or any other change, in
+*Physics* VII.3, 246b10-12.
+
+This is kept as Aristotle's categorical premise rather than silently equated
+with a modern theory of relational properties.
+
+Source: Aristotle, *Physics* VII.3, 246b10-12 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RelativeStatesAdmitNoIntrinsicChangeReading
+    (RelativeStatesAdmitNoIntrinsicChange : Prop) : Prop :=
+  RelativeStatesAdmitNoIntrinsicChange
+
+/-- From the classification of habits as virtues or vices, their relational
+character, and the premise that relatives admit no intrinsic change, Aristotle
+infers that neither habits nor their acquisition or loss are alterations in
+*Physics* VII.3, 246b3-15.
+
+Source: Aristotle, *Physics* VII.3, 246b3-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def RelationalHabitAccountEntailsNoHabitAlterationReading
+    (HabitsClassifiedAsVirtuesOrVices
+      BodilyVirtuesAndVicesAreRelationalDispositions
+      RelativeStatesAdmitNoIntrinsicChange
+      HabitsOrTheirAcquisitionOrLossAreAlterations : Prop) : Prop :=
+  (HabitsClassifiedAsVirtuesOrVices ∧
+      BodilyVirtuesAndVicesAreRelationalDispositions ∧
+      RelativeStatesAdmitNoIntrinsicChange) →
+    ¬ HabitsOrTheirAcquisitionOrLossAreAlterations
+
+/-- Neither habits nor their acquisition or loss are alterations, in Aristotle,
+*Physics* VII.3, 246b10-15.
+
+Source: Aristotle, *Physics* VII.3, 246b10-15 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HabitsAndAcquisitionOrLossAreNotAlterationsReading
+    (HabitsOrTheirAcquisitionOrLossAreAlterations : Prop) : Prop :=
+  ¬ HabitsOrTheirAcquisitionOrLossAreAlterations
+
+/-- Habits may arise and perish only while underlying subjects or qualities—hot
+and cold, dry and wet, or their primary bearers—are altered; virtue and vice then
+dispose their subject toward the relevant affections, in Aristotle, *Physics*
+VII.3, 246b13-20.
+
+The modal wording preserves Aristotle's qualified `ἴσως ... ἀνάγκη`.
+
+Source: Aristotle, *Physics* VII.3, 246b13-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HabitsMayAriseThroughUnderlyingAlterationReading
+    (HabitsMayAriseOrPerishThroughUnderlyingAlteration
+      VirtueAndViceDisposeSubjectTowardAffections : Prop) : Prop :=
+  HabitsMayAriseOrPerishThroughUnderlyingAlteration ∧
+    VirtueAndViceDisposeSubjectTowardAffections
+
+/-- Psychic habits are likewise relational dispositions: their virtues are
+perfections disposing the subject well toward its proper affections and their
+vices are departures disposing it badly; neither they nor their acquisition or
+loss are alterations, in Aristotle, *Physics* VII.3, 246b20-247a5.
+
+Source: Aristotle, *Physics* VII.3, 246b20-247a5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PsychicHabitsAreRelationalNotAlterationsReading
+    (PsychicHabitsAreRelational PsychicVirtuesArePerfections
+      PsychicVicesAreDepartures PsychicVirtueDisposesWell
+      PsychicViceDisposesBadly
+      PsychicHabitsOrTheirAcquisitionOrLossAreAlterations : Prop) : Prop :=
+  PsychicHabitsAreRelational ∧ PsychicVirtuesArePerfections ∧
+    PsychicVicesAreDepartures ∧ PsychicVirtueDisposesWell ∧
+    PsychicViceDisposesBadly ∧
+    ¬ PsychicHabitsOrTheirAcquisitionOrLossAreAlterations
+
 end TruthCore.Greek.Aristotle.Physics

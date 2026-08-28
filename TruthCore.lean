@@ -137,3 +137,4 @@ import TruthCore.Results.Aristotle.Physics.NoAlterationIntermediate.Solution
 import TruthCore.Results.Aristotle.Physics.NoIntermediateThreeMotions.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Results.Aristotle.Physics.GenerationNotAlteration.Solution
+import TruthCore.Results.Aristotle.Physics.HabitsNotAlterations.Solution
