@@ -108,3 +108,4 @@ import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter5
 import TruthCore.Results.Aristotle.Physics.FirstCompletionTimeIndivisible.Solution
 import TruthCore.Results.Aristotle.Physics.NoFirstChangingTime.Solution
 import TruthCore.Results.Aristotle.Physics.NoFirstChangedPart.Solution
+import TruthCore.Results.Aristotle.Physics.NoFirstContinuousTarget.Solution

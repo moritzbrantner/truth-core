@@ -174,4 +174,81 @@ def NoFirstChangedPartReading
     (ProposedFirstChangedPart : Prop) : Prop :=
   ¬ ProposedFirstChangedPart
 
+/-- Change involves three correlates—the changing subject, the time in which it
+changes, and the target into which it changes—in Aristotle, *Physics* VI.5,
+236b1-5.
+
+Source: Aristotle, *Physics* VI.5, 236b1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeSubjectTimeTargetCorrelatesReading
+    (ChangingSubjectCorrelate TimeCorrelate TargetCorrelate : Prop) : Prop :=
+  ChangingSubjectCorrelate ∧ TimeCorrelate ∧ TargetCorrelate
+
+/-- The changing subject and time are divisible in themselves, while a quality such
+as white is divisible incidentally through its divisible bearer, in Aristotle,
+*Physics* VI.5, 236b3-9.
+
+Source: Aristotle, *Physics* VI.5, 236b3-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SubjectTimePerSeQualityIncidentallyDivisibleReading
+    (ChangingSubjectDivisiblePerSe TimeDivisiblePerSe
+      QualityDivisibleIncidentally : Prop) : Prop :=
+  ChangingSubjectDivisiblePerSe ∧ TimeDivisiblePerSe ∧
+    QualityDivisibleIncidentally
+
+/-- A proposed first target-part in continuous change must be either indivisible or
+divisible in Aristotle's exhaustive target analysis in *Physics* VI.5, 236b9-16.
+
+Source: Aristotle, *Physics* VI.5, 236b9-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def FirstContinuousTargetDivisibleOrIndivisibleReading
+    (FirstTargetIndivisible FirstTargetDivisible : Prop) : Prop :=
+  FirstTargetIndivisible ∨ FirstTargetDivisible
+
+/-- An indivisible first target-part would put one partless item immediately after
+another, while a divisible first target has a prior proper part reached first; either
+case excludes its being first in Aristotle, *Physics* VI.5, 236b9-16.
+
+Source: Aristotle, *Physics* VI.5, 236b9-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EitherTargetCaseExcludesFirstReading
+    (FirstTargetIndivisible FirstTargetDivisible FirstContinuousTargetExists : Prop) : Prop :=
+  (FirstTargetIndivisible → ¬ FirstContinuousTargetExists) ∧
+    (FirstTargetDivisible → ¬ FirstContinuousTargetExists)
+
+/-- There is no first target-part reached in a continuous change in Aristotle,
+*Physics* VI.5, 236b9-17.
+
+Source: Aristotle, *Physics* VI.5, 236b9-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoFirstContinuousTargetReading
+    (FirstContinuousTargetExists : Prop) : Prop :=
+  ¬ FirstContinuousTargetExists
+
+/-- Quantitative change has no first reached target because it occurs in a continuum
+in Aristotle, *Physics* VI.5, 236b16-18.
+
+Source: Aristotle, *Physics* VI.5, 236b16-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QuantitativeChangeHasNoFirstTargetReading
+    (FirstQuantitativeTargetExists : Prop) : Prop :=
+  ¬ FirstQuantitativeTargetExists
+
+/-- Only in qualitative motion may the target be indivisible in itself in Aristotle,
+*Physics* VI.5, 236b17-19; its bearer remains divisible, so this is not an exception
+to the divisibility of the changing subject.
+
+Source: Aristotle, *Physics* VI.5, 236b17-19 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualitativeTargetMayBeIndivisiblePerSeReading
+    (QualitativeTargetMayBeIndivisiblePerSe BearerRemainsDivisible : Prop) : Prop :=
+  QualitativeTargetMayBeIndivisiblePerSe ∧ BearerRemainsDivisible
+
 end TruthCore.Greek.Aristotle.Physics
