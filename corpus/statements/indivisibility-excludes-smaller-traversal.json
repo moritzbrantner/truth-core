@@ -1,0 +1,1 @@
+{"id":"STMT-INDIVISIBILITY-EXCLUDES-SMALLER-TRAVERSAL","paraphrase":"A traversal smaller than an indivisible's own extent would divide it and is therefore impossible.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.IndivisibilityExcludesSmallerTraversalReading"}
