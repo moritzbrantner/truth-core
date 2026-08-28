@@ -103,4 +103,106 @@ def BecomingOfBecomingEntailsSimultaneousPerishingReading
     (BecomingOfBecoming PerishingWhileBecoming : Prop) : Prop :=
   BecomingOfBecoming → PerishingWhileBecoming
 
+/-- Becoming and change require underlying matter and distinct termini in Aristotle,
+*Physics* V.2, 226a10-16. A process is the motion or becoming of some subject from
+something to something else; the becoming of a process is not that process itself.
+
+Source: Aristotle, *Physics* V.2, 226a10-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeRequiresUnderlyingMatterAndDistinctProcessReading
+    (BecomingAndChangeHaveUnderlyingMatter
+      ProcessBelongsToSubjectFromSourceToGoal
+      BecomingOfProcessIsThatProcess : Prop) : Prop :=
+  BecomingAndChangeHaveUnderlyingMatter ∧
+    ProcessBelongsToSubjectFromSourceToGoal ∧ ¬ BecomingOfProcessIsThatProcess
+
+/-- If motion itself were moved, its supposed subject and goal would have to belong to
+one of the three kinds of motion in Aristotle, *Physics* V.2, 226a17-18; for example,
+locomotion would have to be altered or locally moved.
+
+Source: Aristotle, *Physics* V.2, 226a17-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionOfMotionWouldRequireMotionKindSubjectAndGoalReading
+    (MotionOfMotionRequiresMotionKindSubjectAndGoal : Prop) : Prop :=
+  MotionOfMotionRequiresMotionKindSubjectAndGoal
+
+/-- Aristotle's summary in *Physics* V.2, 226a19-22: of the incidental, partial,
+and per se ways of being moved, change itself can change only incidentally, and
+incidental change has already been excluded from the classification.
+
+Source: Aristotle, *Physics* V.2, 226a19-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChangeChangesOnlyIncidentallyAndIsExcludedReading
+    (ChangeCanChangeOnlyIncidentally IncidentalChangeExcluded : Prop) : Prop :=
+  ChangeCanChangeOnlyIncidentally ∧ IncidentalChangeExcluded
+
+/-- Qualitative motion is alteration in Aristotle, *Physics* V.2, 226a23-27. The
+relevant quality is passive quality, according to which a thing is affected or
+unaffected, rather than the substantial quality expressed by a specific difference.
+
+Source: Aristotle, *Physics* V.2, 226a23-27 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QualityMotionIsAlterationInPassiveQualityReading
+    (QualityMotionIsAlteration RelevantQualityIsPassive
+      RelevantQualityIsSubstantialDifference : Prop) : Prop :=
+  QualityMotionIsAlteration ∧ RelevantQualityIsPassive ∧
+    ¬ RelevantQualityIsSubstantialDifference
+
+/-- Quantitative motion has no single common name in Aristotle, *Physics* V.2,
+226a28-31: motion toward complete magnitude is increase and motion away from it is
+decrease.
+
+Source: Aristotle, *Physics* V.2, 226a28-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def QuantityMotionIncreaseOrDecreaseReading
+    (CommonQuantityMotionName IncreaseTowardCompleteMagnitude
+      DecreaseAwayFromCompleteMagnitude : Prop) : Prop :=
+  ¬ CommonQuantityMotionName ∧ IncreaseTowardCompleteMagnitude ∧
+    DecreaseAwayFromCompleteMagnitude
+
+/-- Local motion may be called locomotion generally in Aristotle, *Physics* V.2,
+226a31-35, although strictly being carried applies to things unable to stop themselves
+or unable to move themselves locally.
+
+Source: Aristotle, *Physics* V.2, 226a31-35 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PlaceMotionCalledLocomotionStrictlyBeingCarriedReading
+    (PlaceMotionGenerallyCalledLocomotion
+      StrictlyCarriedCannotStopOrSelfMoveLocally : Prop) : Prop :=
+  PlaceMotionGenerallyCalledLocomotion ∧ StrictlyCarriedCannotStopOrSelfMoveLocally
+
+/-- Change to a greater or lesser degree within one kind is alteration in Aristotle,
+*Physics* V.2, 226b1-9, because it is qualified motion from or toward a contrary.
+
+Source: Aristotle, *Physics* V.2, 226b1-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DegreeChangeWithinKindIsAlterationReading
+    (GreaterOrLesserDegreeWithinKind QualifiedMotionFromOrTowardContrary
+      SuchChangeIsAlteration : Prop) : Prop :=
+  GreaterOrLesserDegreeWithinKind ∧ QualifiedMotionFromOrTowardContrary ∧
+    SuchChangeIsAlteration
+
+/-- Three senses of immovable in Aristotle, *Physics* V.2, 226b10-17: absolute
+incapacity, difficulty or slowness in beginning to move, and failure to move when,
+where, and as a naturally capable subject would. Only the third is rest, a privation
+of motion in a subject capable of receiving motion.
+
+Source: Aristotle, *Physics* V.2, 226b10-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ThreeSensesOfImmovableAndRestReading
+    (AbsolutelyIncapableOfMotion HardOrSlowToBeginMoving
+      NaturallyCapableButNotMovingAsNatural OnlyThirdSenseIsRest
+      RestIsPrivationInMotionCapableSubject : Prop) : Prop :=
+  (AbsolutelyIncapableOfMotion ∨ HardOrSlowToBeginMoving ∨
+    NaturallyCapableButNotMovingAsNatural) ∧
+    OnlyThirdSenseIsRest ∧ RestIsPrivationInMotionCapableSubject
+
 end TruthCore.Greek.Aristotle.Physics
