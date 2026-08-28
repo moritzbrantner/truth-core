@@ -227,4 +227,91 @@ def PsychicHabitsAreRelationalNotAlterationsReading
     PsychicViceDisposesBadly ∧
     ¬ PsychicHabitsOrTheirAcquisitionOrLossAreAlterations
 
+/-- Moral habits arise only while the sensitive part is altered, and that part is
+altered by sensible things, in Aristotle, *Physics* VII.3, 247a5-7.
+
+Source: Aristotle, *Physics* VII.3, 247a5-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MoralHabitsRequireSensitiveAlterationBySensiblesReading
+    (MoralHabitsAriseWithSensitivePartAltered
+      SensitivePartAlteredBySensibles : Prop) : Prop :=
+  MoralHabitsAriseWithSensitivePartAltered ∧ SensitivePartAlteredBySensibles
+
+/-- Ethical virtue concerns bodily pleasures and pains, whether they occur in
+action, memory, or expectation, in Aristotle, *Physics* VII.3, 247a7-10.
+
+Source: Aristotle, *Physics* VII.3, 247a7-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def EthicalVirtueConcernsBodilyPleasurePainReading
+    (EthicalVirtueConcernsBodilyPleasureAndPain : Prop) : Prop :=
+  EthicalVirtueConcernsBodilyPleasureAndPain
+
+/-- Pleasures in action occur through sensation, while pleasures in memory and
+expectation derive from prior sensation—remembering what one underwent or
+expecting what one will undergo—in Aristotle, *Physics* VII.3, 247a9-13.
+
+Source: Aristotle, *Physics* VII.3, 247a9-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ActionMemoryExpectationPleasuresDependOnSensationReading
+    (ActionMemoryExpectationPleasuresDependOnSensation : Prop) : Prop :=
+  ActionMemoryExpectationPleasuresDependOnSensation
+
+/-- All bodily pleasure of the kinds under discussion arises from sensible
+things, in Aristotle, *Physics* VII.3, 247a12-13.
+
+Source: Aristotle, *Physics* VII.3, 247a12-13 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BodilyPleasuresUnderDiscussionAriseFromSensiblesReading
+    (BodilyPleasuresUnderDiscussionAriseFromSensibles : Prop) : Prop :=
+  BodilyPleasuresUnderDiscussionAriseFromSensibles
+
+/-- Virtue and vice arise with pleasure and pain, and those pleasures and pains
+are alterations of the sensitive part, in Aristotle, *Physics* VII.3,
+247a13-17.
+
+Source: Aristotle, *Physics* VII.3, 247a13-17 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PleasurePainAlterSensitivePartAndHabitsAriseReading
+    (PleasureAndPainAlterSensitivePart
+      VirtueAndViceAriseWithPleasureAndPain : Prop) : Prop :=
+  PleasureAndPainAlterSensitivePart ∧
+    VirtueAndViceAriseWithPleasureAndPain
+
+/-- From ethical virtue's concern with bodily pleasure and pain, the sensory
+origin of those affections, and their alteration of the sensitive part, Aristotle
+infers that moral habits arise with alteration but are not themselves alterations
+in *Physics* VII.3, 247a7-19.
+
+Source: Aristotle, *Physics* VII.3, 247a7-19 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SensoryAccountEntailsMoralHabitsWithAlterationReading
+    (EthicalVirtueConcernsBodilyPleasureAndPain
+      ActionMemoryExpectationPleasuresDependOnSensation
+      BodilyPleasuresUnderDiscussionAriseFromSensibles
+      PleasureAndPainAlterSensitivePart
+      VirtueAndViceAriseWithPleasureAndPain
+      MoralHabitsAriseWithSensitiveAlteration MoralHabitsAreAlterations : Prop) : Prop :=
+  (EthicalVirtueConcernsBodilyPleasureAndPain ∧
+      ActionMemoryExpectationPleasuresDependOnSensation ∧
+      BodilyPleasuresUnderDiscussionAriseFromSensibles ∧
+      PleasureAndPainAlterSensitivePart ∧
+      VirtueAndViceAriseWithPleasureAndPain) →
+    (MoralHabitsAriseWithSensitiveAlteration ∧ ¬ MoralHabitsAreAlterations)
+
+/-- Moral habits arise with alteration of the sensitive part but are not
+themselves alterations, in Aristotle, *Physics* VII.3, 247a13-19.
+
+Source: Aristotle, *Physics* VII.3, 247a13-19 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MoralHabitsAriseWithAlterationButAreNotAlterationsReading
+    (MoralHabitsAriseWithSensitiveAlteration MoralHabitsAreAlterations : Prop) : Prop :=
+  MoralHabitsAriseWithSensitiveAlteration ∧ ¬ MoralHabitsAreAlterations
+
 end TruthCore.Greek.Aristotle.Physics
