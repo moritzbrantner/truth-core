@@ -70,4 +70,112 @@ def EveryContinuumDivisibleIntoAlwaysDivisiblesReading
     (EveryContinuumDivisibleIntoAlwaysDivisibles : Prop) : Prop :=
   EveryContinuumDivisibleIntoAlwaysDivisibles
 
+/-- Magnitude, motion, and time stand or fall together with respect to composition
+from, and division into, indivisibles in Aristotle, *Physics* VI.1, 231b18-20.
+
+Source: Aristotle, *Physics* VI.1, 231b18-20 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MagnitudeMotionTimeIndivisibilityInterdependenceReading
+    (MagnitudeComposedOfIndivisibles MotionComposedOfIndivisibles
+      TimeComposedOfIndivisibles : Prop) : Prop :=
+  (MagnitudeComposedOfIndivisibles ↔ MotionComposedOfIndivisibles) ∧
+    (MotionComposedOfIndivisibles ↔ TimeComposedOfIndivisibles)
+
+/-- If a magnitude is composed of indivisible parts, the motion over it has
+corresponding equal indivisible motion-parts in Aristotle, *Physics* VI.1,
+231b20-28.
+
+Source: Aristotle, *Physics* VI.1, 231b20-28 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MotionPartsCorrespondToMagnitudePartsReading
+    (MagnitudeComposedOfIndivisibleParts
+      MotionComposedOfCorrespondingIndivisibleParts : Prop) : Prop :=
+  MagnitudeComposedOfIndivisibleParts →
+    MotionComposedOfCorrespondingIndivisibleParts
+
+/-- While traversing a route, a thing cannot at once be traversing it and already
+have traversed the very route it is then traversing in Aristotle, *Physics* VI.1,
+231b28-232a5.
+
+Source: Aristotle, *Physics* VI.1, 231b28-232a5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def TraversalNotSimultaneouslyUnderwayAndCompleteReading
+    (TraversalUnderway TraversalAlreadyComplete : Prop) : Prop :=
+  TraversalUnderway → ¬ TraversalAlreadyComplete
+
+/-- On the hypothesis of an indivisible segment, traversal of it would be complete
+without ever being underway over that segment in Aristotle, *Physics* VI.1,
+232a1-10; something would have walked a distance without walking it.
+
+Source: Aristotle, *Physics* VI.1, 232a1-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibleTraversalCompletedWithoutTraversingReading
+    (IndivisibleSegmentTraversalComplete
+      IndivisibleSegmentTraversalEverUnderway : Prop) : Prop :=
+  IndivisibleSegmentTraversalComplete ∧
+    ¬ IndivisibleSegmentTraversalEverUnderway
+
+/-- If every indivisible segment is crossed without motion being underway on it,
+the mover rests at every segment while moving over the whole and so continuously
+rests while moving in Aristotle, *Physics* VI.1, 232a10-14.
+
+Source: Aristotle, *Physics* VI.1, 232a10-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibleSegmentsCauseRestWhileMovingReading
+    (RestsAtEveryIndivisibleSegment MovesOverWhole
+      ContinuouslyRestsWhileMoving : Prop) : Prop :=
+  (RestsAtEveryIndivisibleSegment ∧ MovesOverWhole) →
+    ContinuouslyRestsWhileMoving
+
+/-- Aristotle's dilemma in *Physics* VI.1, 232a14-16: if the proposed indivisible
+parts are motions, motion may be present while the subject rests; if they are not
+motions, motion is not composed of motions.
+
+Source: Aristotle, *Physics* VI.1, 232a14-16 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibleMotionPartsDilemmaReading
+    (IndivisiblePartsAreMotions RestPossibleWhileMotionPresent
+      MotionNotComposedOfMotions : Prop) : Prop :=
+  (IndivisiblePartsAreMotions → RestPossibleWhileMotionPresent) ∧
+    (¬ IndivisiblePartsAreMotions → MotionNotComposedOfMotions)
+
+/-- Indivisible length and motion would require indivisible time composed of
+indivisible nows in Aristotle, *Physics* VI.1, 232a16-18.
+
+Source: Aristotle, *Physics* VI.1, 232a16-18 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IndivisibleLengthMotionRequireIndivisibleTimeReading
+    (LengthAndMotionComposedOfIndivisibles TimeComposedOfIndivisibleNows : Prop) : Prop :=
+  LengthAndMotionComposedOfIndivisibles → TimeComposedOfIndivisibleNows
+
+/-- Dividing the time in which an equal-speed mover traverses a supposedly
+indivisible segment divides the corresponding traversal, contradicting its
+indivisibility, in Aristotle, *Physics* VI.1, 232a18-22.
+
+Source: Aristotle, *Physics* VI.1, 232a18-22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DivisibleTimeDividesMotionOverSegmentReading
+    (TraversalTimeDivisible MotionOverSegmentDivisible : Prop) : Prop :=
+  TraversalTimeDivisible → MotionOverSegmentDivisible
+
+/-- Magnitude, motion, and time are not composed of indivisibles in Aristotle,
+*Physics* VI.1, 231b18-232a22.
+
+Source: Aristotle, *Physics* VI.1, 231b18-232a22 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def MagnitudeMotionTimeNotComposedOfIndivisiblesReading
+    (MagnitudeComposedOfIndivisibles MotionComposedOfIndivisibles
+      TimeComposedOfIndivisibles : Prop) : Prop :=
+  ¬ MagnitudeComposedOfIndivisibles ∧ ¬ MotionComposedOfIndivisibles ∧
+    ¬ TimeComposedOfIndivisibles
+
 end TruthCore.Greek.Aristotle.Physics
