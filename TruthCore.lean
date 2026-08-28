@@ -87,3 +87,5 @@ import TruthCore.Results.Aristotle.Physics.ContinuityImpliesSuccession.Solution
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookV.Chapter5
 import TruthCore.Results.Aristotle.Physics.ReverseMotionsContrary.Solution
+import TruthCore.Greek.Aristotle.Physics.BookV.Chapter6
+import TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest.Solution
