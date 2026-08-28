@@ -314,4 +314,149 @@ def MoralHabitsAriseWithAlterationButAreNotAlterationsReading
     (MoralHabitsAriseWithSensitiveAlteration MoralHabitsAreAlterations : Prop) : Prop :=
   MoralHabitsAriseWithSensitiveAlteration ∧ ¬ MoralHabitsAreAlterations
 
+/-- Intellectual habits are especially relational, since being knowledgeable is
+said through how the knower stands toward what is known, in Aristotle, *Physics*
+VII.3, 247b1-4.
+
+Source: Aristotle, *Physics* VII.3, 247b1-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IntellectualKnowledgeIsRelationalReading
+    (IntellectualKnowledgeIsRelational : Prop) : Prop :=
+  IntellectualKnowledgeIsRelational
+
+/-- A potential knower becomes knowing without itself being moved, when the
+relevant other or particular exists; through the particular it knows the
+universal in a way, in Aristotle, *Physics* VII.3, 247b3-7.
+
+Source: Aristotle, *Physics* VII.3, 247b3-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PotentialKnowerActualizedWithoutSelfMotionReading
+    (PotentialKnowerActualizedWithoutSelfMotion
+      UniversalKnownThroughParticular : Prop) : Prop :=
+  PotentialKnowerActualizedWithoutSelfMotion ∧
+    UniversalKnownThroughParticular
+
+/-- The use or activity of knowledge has no generation, any more than looking or
+touching does; using knowledge is analogous to those activities, in Aristotle,
+*Physics* VII.3, 247b7-10.
+
+Source: Aristotle, *Physics* VII.3, 247b7-10 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def KnowledgeUseHasNoGenerationReading
+    (KnowledgeUseHasNoGeneration
+      KnowledgeUseAnalogousToLookingOrTouching : Prop) : Prop :=
+  KnowledgeUseHasNoGeneration ∧
+    KnowledgeUseAnalogousToLookingOrTouching
+
+/-- Knowing and understanding are said to occur when the intellect rests and
+stands still, and there is no generation into rest because rest is not a change,
+in Aristotle, *Physics* VII.3, 247b10-14.
+
+Source: Aristotle, *Physics* VII.3, 247b10-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IntellectualKnowingThroughRestReading
+    (IntellectComesToKnowByResting NoGenerationIntoRest : Prop) : Prop :=
+  IntellectComesToKnowByResting ∧ NoGenerationIntoRest
+
+/-- From knowledge's relational character, the potential knower's actualization
+without self-motion, and knowing through intellectual rest, Aristotle infers that
+intellectual habits are neither alterations nor generated changes in *Physics*
+VII.3, 247b1-14.
+
+Source: Aristotle, *Physics* VII.3, 247b1-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IntellectualAccountEntailsNoAlterationOrGenerationReading
+    (IntellectualKnowledgeIsRelational
+      PotentialKnowerActualizedWithoutSelfMotion
+      IntellectComesToKnowByResting NoGenerationIntoRest
+      IntellectualHabitsAreAlterations IntellectualHabitsHaveGeneration : Prop) : Prop :=
+  (IntellectualKnowledgeIsRelational ∧
+      PotentialKnowerActualizedWithoutSelfMotion ∧
+      IntellectComesToKnowByResting ∧ NoGenerationIntoRest) →
+    (¬ IntellectualHabitsAreAlterations ∧ ¬ IntellectualHabitsHaveGeneration)
+
+/-- Intellectual habits are not alterations and do not have generation, in
+Aristotle, *Physics* VII.3, 247b1-14.
+
+Source: Aristotle, *Physics* VII.3, 247b1-14 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def IntellectualHabitsAreNotAlterationsOrGeneratedReading
+    (IntellectualHabitsAreAlterations IntellectualHabitsHaveGeneration : Prop) : Prop :=
+  ¬ IntellectualHabitsAreAlterations ∧ ¬ IntellectualHabitsHaveGeneration
+
+/-- Recovering the use of knowledge after drunkenness, sleep, or illness is not
+becoming knowledgeable anew; likewise initial learning occurs as the soul settles
+from natural disturbance, which also explains why children's turbulence impedes
+learning and mature sensory judgment, in Aristotle, *Physics* VII.3,
+247b14-248a3.
+
+Source: Aristotle, *Physics* VII.3, 247b14-248a3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def KnowledgeUseAndLearningThroughSettlingReading
+    (RecoveredKnowledgeUseIsNotNewKnowledge
+      InitialLearningOccursAsSoulSettles
+      ChildhoodTurbulenceImpedesLearningAndJudgment : Prop) : Prop :=
+  RecoveredKnowledgeUseIsNotNewKnowledge ∧
+    InitialLearningOccursAsSoulSettles ∧
+    ChildhoodTurbulenceImpedesLearningAndJudgment
+
+/-- Whether the soul settles through nature or through others, alterations occur
+in something bodily, as when a person becomes sober or wakes and can again use
+knowledge, in Aristotle, *Physics* VII.3, 248a1-5.
+
+Source: Aristotle, *Physics* VII.3, 248a1-5 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BodilyAlterationsAccompanyIntellectualSettlingReading
+    (BodilyAlterationsAccompanyIntellectualSettling : Prop) : Prop :=
+  BodilyAlterationsAccompanyIntellectualSettling
+
+/-- Aristotle's sensible scope thesis, the sensitive alterations accompanying
+moral habits, the exclusion of intellectual habits from alteration and
+generation, and the bodily changes accompanying intellectual settling support
+the chapter's conclusion that alteration occurs per se only in sensibles and the
+sensitive part of soul, in *Physics* VII.3, 245b3-248a9.
+
+Source: Aristotle, *Physics* VII.3, 245b3-248a9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def ChapterThreeAccountEntailsAlterationScopeReading
+    (EveryAlteredThingAlteredBySensibles
+      AlterationOnlyInPerSeSensiblyAffectedSubjects
+      MoralHabitsAriseWithSensitiveAlteration
+      IntellectualHabitsAreAlterations IntellectualHabitsHaveGeneration
+      BodilyAlterationsAccompanyIntellectualSettling
+      AlterationOccursInSensibles AlterationOccursInSensitivePartOfSoul
+      AlterationOccursPerSeElsewhere : Prop) : Prop :=
+  (EveryAlteredThingAlteredBySensibles ∧
+      AlterationOnlyInPerSeSensiblyAffectedSubjects ∧
+      MoralHabitsAriseWithSensitiveAlteration ∧
+      ¬ IntellectualHabitsAreAlterations ∧
+      ¬ IntellectualHabitsHaveGeneration ∧
+      BodilyAlterationsAccompanyIntellectualSettling) →
+    (AlterationOccursInSensibles ∧ AlterationOccursInSensitivePartOfSoul ∧
+      ¬ AlterationOccursPerSeElsewhere)
+
+/-- Alteration occurs in sensible things and in the sensitive part of the soul,
+and nowhere else except accidentally, in Aristotle, *Physics* VII.3, 248a5-9.
+
+The conclusion preserves Aristotle's per-se/accidental qualification rather than
+denying every accompanying bodily change outside the sensitive part.
+
+Source: Aristotle, *Physics* VII.3, 248a5-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationPerSeOnlyInSensiblesAndSensitiveSoulReading
+    (AlterationOccursInSensibles AlterationOccursInSensitivePartOfSoul
+      AlterationOccursPerSeElsewhere : Prop) : Prop :=
+  AlterationOccursInSensibles ∧ AlterationOccursInSensitivePartOfSoul ∧
+    ¬ AlterationOccursPerSeElsewhere
+
 end TruthCore.Greek.Aristotle.Physics

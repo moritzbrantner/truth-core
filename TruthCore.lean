@@ -139,3 +139,5 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Results.Aristotle.Physics.GenerationNotAlteration.Solution
 import TruthCore.Results.Aristotle.Physics.HabitsNotAlterations.Solution
 import TruthCore.Results.Aristotle.Physics.MoralHabitsSensitiveAlteration.Solution
+import TruthCore.Results.Aristotle.Physics.IntellectualHabitsNotAlterations.Solution
+import TruthCore.Results.Aristotle.Physics.AlterationScopeVII3.Solution
