@@ -1,0 +1,1 @@
+{"id":"STMT-NONMOVING-SUBINTERVAL-EXCLUDES-PRIMARY-TIME","paraphrase":"If motion is absent from an arbitrary part of a proposed primary change-time, the whole is not primary.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.NonmovingSubintervalExcludesPrimaryTimeReading"}

@@ -109,3 +109,5 @@ import TruthCore.Results.Aristotle.Physics.FirstCompletionTimeIndivisible.Soluti
 import TruthCore.Results.Aristotle.Physics.NoFirstChangingTime.Solution
 import TruthCore.Results.Aristotle.Physics.NoFirstChangedPart.Solution
 import TruthCore.Results.Aristotle.Physics.NoFirstContinuousTarget.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter6
+import TruthCore.Results.Aristotle.Physics.MotionInEverySubinterval.Solution
