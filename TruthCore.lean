@@ -118,3 +118,5 @@ import TruthCore.Results.Aristotle.Physics.NoInfiniteMotionInFiniteTime.Solution
 import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter8
 import TruthCore.Results.Aristotle.Physics.NoFirstCessationInterval.Solution
 import TruthCore.Results.Aristotle.Physics.NotWhollyDeterminateDuringPrimaryMotion.Solution
+import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter9
+import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
