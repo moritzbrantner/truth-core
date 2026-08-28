@@ -1,0 +1,1 @@
+{"id":"STMT-INFINITE-TRAVERSAL-TIME-IFF-INFINITE-MAGNITUDE","paraphrase":"Traversal time is infinite exactly when the traversed magnitude is infinite.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.InfiniteTraversalTimeIffInfiniteMagnitudeReading"}
