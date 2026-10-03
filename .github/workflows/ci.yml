@@ -63,7 +63,9 @@ jobs:
       - uses: leanprover/lean-action@v1
         with:
           auto-config: false
-          build: false
+          # Build here: NanoDa exports the compiled library, and relying on the
+          # lake cache written by the corpus-and-lean job races and misses.
+          build: true
           test: false
       - name: Build pinned Comparator toolchain
         run: scripts/bootstrap-verifier.sh
