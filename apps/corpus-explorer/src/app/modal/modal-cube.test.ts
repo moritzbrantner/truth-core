@@ -6,6 +6,9 @@ import {
   closeAxioms,
   detectFrameConditions,
   modalTruthAt,
+  parseExplorerState,
+  requiredConditions,
+  serializeExplorerState,
 } from "./modal-cube";
 
 describe("modal cube", () => {
@@ -15,6 +18,39 @@ describe("modal cube", () => {
 
   test("B plus 5 implies 4", () => {
     expect(closeAxioms(["B", "5"]).has("4")).toBe(true);
+  });
+
+  test("D plus B plus 4 (or 5) implies T", () => {
+    expect(closeAxioms(["D", "B", "4"]).has("T")).toBe(true);
+    expect([...closeAxioms(["D", "B", "5"])].sort()).toEqual(["4", "5", "B", "D", "T"]);
+    const kdb = MODAL_SYSTEMS.find((system) => system.id === "KDB");
+    if (!kdb) throw new Error("KDB must exist");
+    expect(requiredConditions(kdb).has("reflexive")).toBe(false);
+  });
+
+  test("explorer state round-trips through URL parameters", () => {
+    const defaults = parseExplorerState(new URLSearchParams());
+    expect(defaults).toEqual({
+      systemId: "S4",
+      worldId: "actual",
+      valuation: { actual: false, nearby: false, remote: true },
+    });
+    expect(serializeExplorerState(defaults).toString()).toBe("");
+
+    const state = {
+      systemId: "KB5" as const,
+      worldId: "nearby" as const,
+      valuation: { actual: true, nearby: false, remote: false },
+    };
+    const params = serializeExplorerState(state);
+    expect(params.toString()).toBe("system=KB5&world=nearby&p=actual");
+    expect(parseExplorerState(params)).toEqual(state);
+    expect(parseExplorerState(new URLSearchParams("p=")).valuation).toEqual({
+      actual: false,
+      nearby: false,
+      remote: false,
+    });
+    expect(parseExplorerState(new URLSearchParams("system=nope&world=mars")).systemId).toBe("S4");
   });
 
   test("the generated S4 witness is reflexive and transitive but not symmetric", () => {

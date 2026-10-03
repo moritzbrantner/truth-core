@@ -129,6 +129,17 @@ theorem reflexive_euclidean_implies_transitive
   intro world middle next hWorldMiddle hMiddleNext
   exact hEuclidean middle world next (hSymmetric world middle hWorldMiddle) hMiddleNext
 
+/-- Seriality, symmetry and transitivity force reflexivity, so D + B + 4 ⇒ T. -/
+theorem serial_symmetric_transitive_implies_reflexive
+    (frame : Frame World)
+    (hSerial : Serial frame)
+    (hSymmetric : Symmetric frame)
+    (hTransitive : Transitive frame) :
+    Reflexive frame := by
+  intro world
+  obtain ⟨next, hAccess⟩ := hSerial world
+  exact hTransitive world next world hAccess (hSymmetric world next hAccess)
+
 /-- Symmetry plus transitivity forces Euclideanness. -/
 theorem symmetric_transitive_implies_euclidean
     (frame : Frame World)

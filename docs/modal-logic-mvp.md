@@ -12,11 +12,11 @@ The MVP should make three different things visible without conflating them:
 
 The frontend is an explorable model of those semantics. Lean is the verification boundary for the generic correspondence direction implemented here and for the concrete S4 example.
 
-## Reference
+## Reference and evidence boundary
 
-The primary technical orientation for this MVP is the Stanford Encyclopedia of Philosophy entry “Modal Logic,” especially sections 7–8:
+This slice is mathematics, not a source-derived corpus claim. It creates no `corpus/` statement, claim, passage, or argument record, and nothing in it is attributed to a source. The correspondences below are established by the Lean proofs in `TruthCore/Modal/`, not by citation, so the AGENTS.md source-materialization invariants for source-derived claims do not apply.
 
-- https://plato.stanford.edu/entries/logic-modal/
+The Stanford Encyclopedia of Philosophy entry “Modal Logic” (sections 7–8, https://plato.stanford.edu/entries/logic-modal/) was used only for orientation on standard terminology and the shape of the modal cube, as AGENTS.md permits for catalogs and secondary literature. If a later slice attributes a modal thesis to a source (for example Aristotle's modal syllogistic), that slice must add a pinned `corpus/passages/` witness and follow the ordinary atomic loop.
 
 The SEP map uses **M** for the reflexivity axiom `□A → A`; the code uses the more common label **T**. The correspondence is otherwise the same:
 
@@ -34,6 +34,7 @@ The SEP map uses **M** for the reflexivity axiom `□A → A`; the code uses the
 
 - T ⇒ D at the frame level;
 - B + 5 ⇒ 4, hence KB5 = KB45 semantically;
+- D + B + 4 ⇒ T (seriality, symmetry and transitivity give reflexivity);
 - S5 ⇒ S4, KTB, KB5 and KD45.
 
 `TruthCore/Modal/Examples.lean` supplies the frontend's default three-world S4 frame. The accessibility relation is the order `actual ≤ nearby ≤ remote`; `p` is true only at `remote`. Lean proves:
@@ -45,12 +46,14 @@ The SEP map uses **M** for the reflexivity axiom `□A → A`; the code uses the
 
 ## Frontend
 
-`/modal` contains two linked views:
+The route-only code lives with the route in `apps/corpus-explorer/src/app/modal/`. `/modal` contains two linked views:
 
 - a bird's-eye modal-cube graph of the fifteen systems;
 - a possible-world graph whose current world can be changed interactively.
 
 Selecting a modal system closes its axiom set under the semantic implications represented by the MVP and constructs a small finite witness frame satisfying the required conditions. The UI also reports conditions that the concrete witness happens to satisfy beyond those required by the selected logic.
+
+Every graph has a keyboard-operable, structured equivalent: a list of system buttons (with each system's immediate extensions) for the cube, and viewpoint buttons plus an accessibility table for the world graph. The selected system, viewpoint world and valuation are encoded in the URL (`?system=KB5&world=nearby&p=actual`), so a view can be linked and survives reloads; defaults are omitted.
 
 The valuation of `p` can be changed independently. This is important: frame structure controls modal accessibility, while the valuation controls which atomic propositions are true in which worlds.
 

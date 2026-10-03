@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
-import { ModalExplorer } from "@/components/modal-explorer";
+import { ModalExplorer } from "./modal-explorer";
 
 export const metadata: Metadata = {
   title: "Modal logic — Truth Core",
@@ -23,7 +24,7 @@ export default function ModalPage() {
         <div className="border-l border-[var(--line)] pl-5 text-sm leading-6 text-[var(--muted)]">
           <p className="eyebrow">Reference model</p>
           <p className="mt-2">
-            The MVP follows the standard Kripke-frame correspondences summarized in the Stanford Encyclopedia of Philosophy&apos;s “Modal Logic” entry.
+            The frame correspondences shown here are proved in Lean, not cited as source evidence. The Stanford Encyclopedia of Philosophy&apos;s “Modal Logic” entry is background reading for the standard modal-cube terminology.
           </p>
           <a
             className="mt-3 inline-block text-[var(--ink)] underline decoration-[var(--line-strong)] underline-offset-4"
@@ -31,7 +32,7 @@ export default function ModalPage() {
             rel="noreferrer"
             target="_blank"
           >
-            Read the SEP reference
+            Background: SEP “Modal Logic”
           </a>
         </div>
       </section>
@@ -40,7 +41,9 @@ export default function ModalPage() {
         <strong className="font-semibold text-[var(--ink)]">Scope.</strong> This verifies standard relational/Kripke semantics and concrete example frames. It does not assert that possible worlds are metaphysically real, nor does it yet formalize Aristotle&apos;s modal syllogistic.
       </aside>
 
-      <ModalExplorer />
+      <Suspense fallback={<p className="mt-10 text-[var(--muted)]">Loading the modal explorer…</p>}>
+        <ModalExplorer />
+      </Suspense>
     </>
   );
 }

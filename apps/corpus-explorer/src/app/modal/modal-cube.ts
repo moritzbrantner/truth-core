@@ -159,6 +159,8 @@ export function closeAxioms(input: Iterable<AxiomId>): Set<AxiomId> {
       add("B");
       add("4");
     }
+    // Seriality gives a successor, symmetry the way back, transitivity the self-edge.
+    if (result.has("D") && result.has("B") && result.has("4")) add("T");
   }
 
   return result;
@@ -276,4 +278,47 @@ export function modalTruthAt(
     necessaryP: accessible.every((next) => valuation[next]),
     accessible,
   };
+}
+
+export const DEFAULT_SYSTEM_ID: ModalSystemId = "S4";
+export const DEFAULT_WORLD_ID: WorldId = "actual";
+export const DEFAULT_VALUATION: Record<WorldId, boolean> = {
+  actual: false,
+  nearby: false,
+  remote: true,
+};
+
+export type ExplorerState = {
+  systemId: ModalSystemId;
+  worldId: WorldId;
+  valuation: Record<WorldId, boolean>;
+};
+
+const SYSTEM_IDS = new Set<string>(MODAL_SYSTEMS.map((system) => system.id));
+const WORLD_IDS = WORLDS.map((world) => world.id);
+
+/** Read durable explorer state from URL parameters, falling back to the Lean S4 example. */
+export function parseExplorerState(params: { get(name: string): string | null }): ExplorerState {
+  const system = params.get("system");
+  const world = params.get("world");
+  const truths = params.get("p");
+  const trueWorlds = truths === null ? null : new Set(truths.split(",").filter(Boolean));
+
+  return {
+    systemId: system && SYSTEM_IDS.has(system) ? (system as ModalSystemId) : DEFAULT_SYSTEM_ID,
+    worldId: world && (WORLD_IDS as string[]).includes(world) ? (world as WorldId) : DEFAULT_WORLD_ID,
+    valuation: trueWorlds
+      ? (Object.fromEntries(WORLD_IDS.map((id) => [id, trueWorlds.has(id)])) as Record<WorldId, boolean>)
+      : { ...DEFAULT_VALUATION },
+  };
+}
+
+/** Serialize explorer state, omitting values that equal the defaults. */
+export function serializeExplorerState(state: ExplorerState): URLSearchParams {
+  const params = new URLSearchParams();
+  if (state.systemId !== DEFAULT_SYSTEM_ID) params.set("system", state.systemId);
+  if (state.worldId !== DEFAULT_WORLD_ID) params.set("world", state.worldId);
+  const isDefaultValuation = WORLD_IDS.every((id) => state.valuation[id] === DEFAULT_VALUATION[id]);
+  if (!isDefaultValuation) params.set("p", WORLD_IDS.filter((id) => state.valuation[id]).join(","));
+  return params;
 }

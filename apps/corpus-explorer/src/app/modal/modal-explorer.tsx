@@ -1,10 +1,12 @@
 "use client";
 
 import { Background, Controls, MarkerType, ReactFlow, type Edge, type Node } from "@xyflow/react";
-import { useMemo, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useMemo } from "react";
 
 import {
   AXIOMS,
+  DEFAULT_VALUATION,
   MODAL_CUBE_EDGES,
   MODAL_SYSTEMS,
   WORLDS,
@@ -12,17 +14,14 @@ import {
   detectFrameConditions,
   impliedAxioms,
   modalTruthAt,
+  parseExplorerState,
   requiredConditions,
+  serializeExplorerState,
+  type ExplorerState,
   type FrameCondition,
   type ModalSystemId,
   type WorldId,
-} from "@/lib/modal-cube";
-
-const defaultValuation: Record<WorldId, boolean> = {
-  actual: false,
-  nearby: false,
-  remote: true,
-};
+} from "./modal-cube";
 
 const conditionLabels = {
   serial: "serial",
@@ -45,9 +44,19 @@ function truthLabel(value: boolean) {
 }
 
 export function ModalExplorer() {
-  const [selectedSystemId, setSelectedSystemId] = useState<ModalSystemId>("S4");
-  const [currentWorld, setCurrentWorld] = useState<WorldId>("actual");
-  const [valuation, setValuation] = useState<Record<WorldId, boolean>>(defaultValuation);
+  const pathname = usePathname();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const state = useMemo(() => parseExplorerState(searchParams), [searchParams]);
+  const { systemId: selectedSystemId, worldId: currentWorld, valuation } = state;
+
+  const updateState = (patch: Partial<ExplorerState>) => {
+    const queryString = serializeExplorerState({ ...state, ...patch }).toString();
+    router.replace(queryString ? `${pathname}?${queryString}` : pathname, { scroll: false });
+  };
+  const setSelectedSystemId = (systemId: ModalSystemId) => updateState({ systemId });
+  const setCurrentWorld = (worldId: WorldId) => updateState({ worldId });
+  const setValuation = (next: Record<WorldId, boolean>) => updateState({ valuation: next });
 
   const system = MODAL_SYSTEMS.find((candidate) => candidate.id === selectedSystemId) ?? MODAL_SYSTEMS[0];
   const axioms = useMemo(() => impliedAxioms(system), [system]);
@@ -145,7 +154,7 @@ export function ModalExplorer() {
   );
 
   const toggleWorldTruth = (world: WorldId) => {
-    setValuation((current) => ({ ...current, [world]: !current[world] }));
+    setValuation({ ...valuation, [world]: !valuation[world] });
   };
 
   return (
@@ -156,10 +165,10 @@ export function ModalExplorer() {
             <p className="eyebrow">Bird&apos;s-eye view</p>
             <h2 className="mt-1 font-serif text-3xl tracking-[-0.04em]">The modal cube</h2>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-              Arrows point from a weaker normal modal logic to an immediate stronger extension. Select a node to inspect its frame conditions.
+              Arrows point from a weaker normal modal logic to an immediate stronger extension. Select a node, or use the system list below, to inspect its frame conditions.
             </p>
           </div>
-          <div className="h-[34rem] min-h-[28rem] w-full">
+          <div aria-label="Modal cube graph; the system list below contains the same nodes and extensions" className="h-[34rem] min-h-[28rem] w-full" role="group">
             <ReactFlow
               edges={cubeEdges}
               fitView
@@ -176,9 +185,33 @@ export function ModalExplorer() {
               <Controls showInteractive={false} />
             </ReactFlow>
           </div>
+          <fieldset className="border-t border-[var(--line)] px-5 py-4">
+            <legend className="sr-only">Modal systems</legend>
+            <ul className="grid gap-2 sm:grid-cols-3 lg:grid-cols-5">
+              {MODAL_SYSTEMS.map((candidate) => {
+                const extensions = MODAL_CUBE_EDGES.filter(([weak]) => weak === candidate.id).map(([, strong]) => strong);
+                return (
+                  <li key={candidate.id}>
+                    <button
+                      aria-describedby={`modal-system-${candidate.id}-extensions`}
+                      aria-pressed={candidate.id === selectedSystemId}
+                      className="min-h-11 w-full rounded-xl border border-[var(--line)] px-3 py-2 text-left text-sm transition hover:border-[var(--line-strong)] aria-pressed:border-[var(--accent)] aria-pressed:bg-[var(--callout)]"
+                      onClick={() => setSelectedSystemId(candidate.id)}
+                      type="button"
+                    >
+                      <strong className="font-serif">{candidate.name}</strong>
+                      <span className="block text-[11px] text-[var(--muted)]" id={`modal-system-${candidate.id}-extensions`}>
+                        {extensions.length ? `extended by ${extensions.join(", ")}` : "strongest system"}
+                      </span>
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </fieldset>
         </div>
 
-        <aside className="rounded-2xl border border-[var(--line)] p-5">
+        <aside aria-live="polite" className="rounded-2xl border border-[var(--line)] p-5">
           <p className="eyebrow">Selected system</p>
           <h2 className="mt-2 font-serif text-4xl tracking-[-0.05em]">{system.name}</h2>
           <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{system.description}</p>
@@ -224,10 +257,10 @@ export function ModalExplorer() {
             <p className="eyebrow">Inside one frame</p>
             <h2 className="mt-1 font-serif text-3xl tracking-[-0.04em]">Possible-world perspective</h2>
             <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-              Click a world to move the viewpoint. Toggle p below to change the valuation without changing accessibility.
+              Click a world, or use the viewpoint buttons below, to move the viewpoint. Toggle p to change the valuation without changing accessibility.
             </p>
           </div>
-          <div className="h-[24rem] min-h-[20rem] w-full">
+          <div aria-label="Possible-world graph; the accessibility table below lists the same edges" className="h-[24rem] min-h-[20rem] w-full" role="group">
             <ReactFlow
               edges={worldFlowEdges}
               fitView
@@ -244,7 +277,22 @@ export function ModalExplorer() {
               <Controls showInteractive={false} />
             </ReactFlow>
           </div>
-          <div className="flex flex-wrap gap-2 border-t border-[var(--line)] px-5 py-4">
+          <fieldset className="flex flex-wrap gap-2 border-t border-[var(--line)] px-5 py-4">
+            <legend className="sr-only">Viewpoint world</legend>
+            {WORLDS.map((world) => (
+              <button
+                aria-pressed={world.id === currentWorld}
+                className="min-h-11 rounded-full border border-[var(--line)] px-4 text-sm transition hover:border-[var(--line-strong)] aria-pressed:border-[var(--accent)] aria-pressed:bg-[var(--callout)]"
+                key={world.id}
+                onClick={() => setCurrentWorld(world.id)}
+                type="button"
+              >
+                View from {world.label}
+              </button>
+            ))}
+          </fieldset>
+          <fieldset className="flex flex-wrap gap-2 border-t border-[var(--line)] px-5 py-4">
+            <legend className="sr-only">Valuation of p</legend>
             {WORLDS.map((world) => (
               <button
                 aria-pressed={valuation[world.id]}
@@ -258,16 +306,43 @@ export function ModalExplorer() {
             ))}
             <button
               className="min-h-11 rounded-full border border-[var(--line)] px-4 text-sm text-[var(--muted)] transition hover:border-[var(--line-strong)]"
-              onClick={() => setValuation(defaultValuation)}
+              onClick={() => setValuation(DEFAULT_VALUATION)}
               type="button"
             >
               Reset Lean example
             </button>
+          </fieldset>
+          <div className="overflow-x-auto border-t border-[var(--line)] px-5 py-4">
+            <table className="w-full text-left text-sm">
+              <caption className="pb-2 text-left text-xs text-[var(--muted)]">Accessibility relation of the displayed witness frame</caption>
+              <thead>
+                <tr>
+                  <th className="py-1 pr-4 font-semibold" scope="col">World</th>
+                  <th className="py-1 pr-4 font-semibold" scope="col">p</th>
+                  <th className="py-1 font-semibold" scope="col">Accesses</th>
+                </tr>
+              </thead>
+              <tbody>
+                {WORLDS.map((world) => {
+                  const targets = witnessEdges.filter((edge) => edge.source === world.id).map((edge) => edge.target);
+                  return (
+                    <tr className="border-t border-[var(--line)]" key={world.id}>
+                      <th className="py-1 pr-4 font-normal" scope="row">
+                        {world.label}
+                        {world.id === currentWorld ? " (viewpoint)" : ""}
+                      </th>
+                      <td className="py-1 pr-4">{truthLabel(valuation[world.id])}</td>
+                      <td className="py-1">{targets.length ? targets.join(", ") : "none"}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </div>
 
         <div className="space-y-5">
-          <section className="rounded-2xl border border-[var(--line)] p-5">
+          <section aria-live="polite" className="rounded-2xl border border-[var(--line)] p-5">
             <p className="eyebrow">At {currentWorld}</p>
             <div className="mt-4 grid grid-cols-3 gap-3">
               <ModalTruthCard label="p" value={truth.p} />
