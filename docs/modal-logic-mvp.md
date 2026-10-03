@@ -14,7 +14,7 @@ The frontend is an explorable model of those semantics. Lean is the verification
 
 ## Reference and evidence boundary
 
-This slice is mathematics, not a source-derived corpus claim. It creates no `corpus/` statement, claim, passage, or argument record, and nothing in it is attributed to a source. The correspondences below are established by the Lean proofs in `TruthCore/Modal/`, not by citation, so the AGENTS.md source-materialization invariants for source-derived claims do not apply.
+This slice is mathematics, not a source-derived corpus claim. It creates no `corpus/` statement, claim, passage, or argument record, and nothing in it is attributed to a source. The frame-condition ⇒ axiom-validity direction of the correspondences below is established by the Lean proofs in `TruthCore/Modal/` (the converse is not yet formalized), not by citation, so the AGENTS.md source-materialization invariants for source-derived claims do not apply.
 
 The Stanford Encyclopedia of Philosophy entry “Modal Logic” (sections 7–8, https://plato.stanford.edu/entries/logic-modal/) was used only for orientation on standard terminology and the shape of the modal cube, as AGENTS.md permits for catalogs and secondary literature. If a later slice attributes a modal thesis to a source (for example Aristotle's modal syllogistic), that slice must add a pinned `corpus/passages/` witness and follow the ordinary atomic loop.
 

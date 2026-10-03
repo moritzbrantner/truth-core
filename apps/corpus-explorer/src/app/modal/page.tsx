@@ -24,7 +24,7 @@ export default function ModalPage() {
         <div className="border-l border-[var(--line)] pl-5 text-sm leading-6 text-[var(--muted)]">
           <p className="eyebrow">Reference model</p>
           <p className="mt-2">
-            The frame correspondences shown here are proved in Lean, not cited as source evidence. The Stanford Encyclopedia of Philosophy&apos;s “Modal Logic” entry is background reading for the standard modal-cube terminology.
+            Lean proves the frame-condition ⇒ axiom-validity direction shown here (not the converse correspondence); it is not cited as source evidence. The Stanford Encyclopedia of Philosophy&apos;s “Modal Logic” entry is background reading for the standard modal-cube terminology.
           </p>
           <a
             className="mt-3 inline-block text-[var(--ink)] underline decoration-[var(--line-strong)] underline-offset-4"

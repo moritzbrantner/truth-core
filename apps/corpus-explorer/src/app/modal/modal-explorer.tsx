@@ -2,7 +2,7 @@
 
 import { Background, Controls, MarkerType, ReactFlow, type Edge, type Node } from "@xyflow/react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 
 import {
   AXIOMS,
@@ -50,13 +50,23 @@ export function ModalExplorer() {
   const state = useMemo(() => parseExplorerState(searchParams), [searchParams]);
   const { systemId: selectedSystemId, worldId: currentWorld, valuation } = state;
 
-  const updateState = (patch: Partial<ExplorerState>) => {
-    const queryString = serializeExplorerState({ ...state, ...patch }).toString();
+  // Compose updates issued before the previous router.replace commits, so rapid
+  // interactions build on each other instead of on the last rendered URL.
+  const pendingState = useRef<ExplorerState | null>(null);
+  useEffect(() => {
+    pendingState.current = null;
+  }, [searchParams]);
+
+  const updateState = (patch: (current: ExplorerState) => Partial<ExplorerState>) => {
+    const base = pendingState.current ?? state;
+    const next = { ...base, ...patch(base) };
+    pendingState.current = next;
+    const queryString = serializeExplorerState(next).toString();
     router.replace(queryString ? `${pathname}?${queryString}` : pathname, { scroll: false });
   };
-  const setSelectedSystemId = (systemId: ModalSystemId) => updateState({ systemId });
-  const setCurrentWorld = (worldId: WorldId) => updateState({ worldId });
-  const setValuation = (next: Record<WorldId, boolean>) => updateState({ valuation: next });
+  const setSelectedSystemId = (systemId: ModalSystemId) => updateState(() => ({ systemId }));
+  const setCurrentWorld = (worldId: WorldId) => updateState(() => ({ worldId }));
+  const setValuation = (next: Record<WorldId, boolean>) => updateState(() => ({ valuation: next }));
 
   const system = MODAL_SYSTEMS.find((candidate) => candidate.id === selectedSystemId) ?? MODAL_SYSTEMS[0];
   const axioms = useMemo(() => impliedAxioms(system), [system]);
@@ -154,7 +164,7 @@ export function ModalExplorer() {
   );
 
   const toggleWorldTruth = (world: WorldId) => {
-    setValuation({ ...valuation, [world]: !valuation[world] });
+    updateState((current) => ({ valuation: { ...current.valuation, [world]: !current.valuation[world] } }));
   };
 
   return (
