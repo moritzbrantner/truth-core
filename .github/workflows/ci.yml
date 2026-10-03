@@ -14,7 +14,7 @@ jobs:
   corpus-and-lean:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: leanprover/lean-action@v1
         with:
           build: true
@@ -33,7 +33,7 @@ jobs:
   corpus-explorer:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.4.2
@@ -55,7 +55,7 @@ jobs:
   comparator:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: actions/setup-go@v5
         with:
           go-version: '1.27.x'
