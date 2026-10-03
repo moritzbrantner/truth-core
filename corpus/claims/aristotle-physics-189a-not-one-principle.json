@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-189A-NOT-ONE-PRINCIPLE-A",
+  "statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
+  "source_id": "ARIST-PHYS",
+  "locator": "I.6, 189a11-12",
+  "interpretation": "Aristotle excludes exactly one natural principle by relying on I.5's conclusion that the principles are contraries. This does not yet decide whether the total is two or three.",
+  "status": "formalized"
+}

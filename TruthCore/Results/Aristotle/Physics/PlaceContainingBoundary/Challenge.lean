@@ -1,0 +1,20 @@
+import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter4
+
+namespace TruthCore.Results.Aristotle.Physics.PlaceContainingBoundary
+
+open TruthCore.Greek.Aristotle.Physics
+
+/-- Eliminating form, matter, and independent interval leaves the containing boundary. -/
+theorem placeIsContainingBoundary
+    (PlaceIsForm PlaceIsMatter PlaceIsIndependentInterval
+      PlaceIsContainingBoundaryAtContact : Prop)
+    (hCandidates :
+      FourPlaceCandidatesReading PlaceIsForm PlaceIsMatter PlaceIsIndependentInterval
+        PlaceIsContainingBoundaryAtContact)
+    (hExcluded :
+      FormMatterIntervalExcludedReading PlaceIsForm PlaceIsMatter
+        PlaceIsIndependentInterval) :
+    PlaceIsContainingBoundaryAtContactReading PlaceIsContainingBoundaryAtContact := by
+  sorry
+
+end TruthCore.Results.Aristotle.Physics.PlaceContainingBoundary

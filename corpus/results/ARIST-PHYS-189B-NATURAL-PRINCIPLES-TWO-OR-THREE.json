@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
+  "argument_id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.naturalPrincipleCountTwoOrThree",
+  "comparator_config": "results/ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE/comparator.json",
+  "status": "solution-present"
+}
