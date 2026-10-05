@@ -21,9 +21,9 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "eslint": "^9.0.0",
+    "eslint": "9.39.5",
     "eslint-config-next": "latest",
     "tailwindcss": "latest",
-    "typescript": "^6.0.0"
+    "typescript": "6.0.3"
   }
 }
