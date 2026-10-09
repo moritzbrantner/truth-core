@@ -5,7 +5,7 @@ import { ModalExplorer } from "./modal-explorer";
 
 export const metadata: Metadata = {
   title: "Modal logic — Truth Core",
-  description: "Explore the modal cube, Kripke frames, possibility, necessity, and Lean-verified frame correspondences.",
+  description: "Explore the modal cube, Kripke frames, possibility, necessity, and a Lean proof that each frame condition validates its modal axiom (the converse is not formalized).",
 };
 
 export default function ModalPage() {
