@@ -5,8 +5,8 @@ metaethics (media-span witnesses pinned to youtube-corpus transcript segments).
 Shared vocabulary, all of it parameters rather than definitions:
 
 * `Sentence` — declarative sentences, moral ones included.
-* `Moral φ` — `φ` is a moral statement: it says that something is bad, wrong,
-  good, or the like.
+* `Moral φ` — `φ` is a moral statement.
+* `SaysSomethingBad φ` — `φ` says of something that it is bad.
 * `TruthApt φ` — `φ` has a truth value: it is the kind of sentence that can be
   true or false.
 * `Holds φ` — `φ` is true.
@@ -81,20 +81,20 @@ def EvilPremiseNotObjectiveReading {Sentence : Sort u}
     (ObjectiveTruth : Sentence → Prop) (evilPremise : Sentence) : Prop :=
   ¬ ObjectiveTruth evilPremise
 
-/-- The problem of evil's premise that there is evil is a moral statement.
+/-- Saying that something is bad is a moral statement: O'Connor's example of
+the sentences emotivism is about ("saying ... that something is bad or
+expressing a moral discontempt with it, it's a bit like saying murder, boo").
 
-O'Connor answers Turek's claim that evil presupposes *objective* goodness by
-placing "the evil that people refer to" when they criticize God among the
-matters of morality whose objectivity he denies. That treats the critic's evil
-premise as a moral statement rather than a report of non-evaluative fact such
-as pain. This is a bridge reading of the same span, kept separate from the
-denial of objectivity.
+`SaysSomethingBad φ` holds when `φ` says of something that it is bad. The
+reading classifies such sentences as moral; it does not say which sentences
+say that something is bad. Whether the problem of evil's premise is one of them
+is a separate bridge, not part of this reading.
 
-Source: Alex O'Connor, "Frank Turek thinks that Evil proves God's existence"
-(Alex O'Connor, 2016-08-23), 01:56–02:06.
+Source: Alex O'Connor, "Destiny's Ethics Tested by CosmicSkeptic"
+(Alex O'Connor, 2023-05-22), 17:35–18:25.
 -/
-def EvilPremiseIsMoralReading {Sentence : Sort u}
-    (Moral : Sentence → Prop) (evilPremise : Sentence) : Prop :=
-  Moral evilPremise
+def BadnessAscriptionsAreMoralReading {Sentence : Sort u}
+    (SaysSomethingBad Moral : Sentence → Prop) : Prop :=
+  ∀ φ, SaysSomethingBad φ → Moral φ
 
 end TruthCore.English.OConnor

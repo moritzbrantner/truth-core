@@ -114,6 +114,20 @@ class MediaSpanTest(unittest.TestCase):
         with self.assertRaisesRegex(se.SourceEvidenceError, "media span mismatch"):
             se.resolve_media_span(pinned(), self.write_export(export))
 
+    def test_rejects_second_matching_stream(self) -> None:
+        export = copy.deepcopy(EXPORT)
+        export["sources"].append(
+            {
+                "id": "stream-auto-reingest",
+                "kind": "youtube_transcript",
+                "language": "en",
+                "metadata": {"youtubeId": "abc123XYZ_0", "transcriptSource": "caption_auto"},
+            }
+        )
+        export["spans"].append(span("stream-auto-reingest", 1, 4.0, 9.5, "a changed re-ingest"))
+        with self.assertRaisesRegex(se.SourceEvidenceError, "exactly one"):
+            se.resolve_media_span(pinned(), self.write_export(export))
+
     def test_rejects_inconsistent_content_hash(self) -> None:
         export = copy.deepcopy(EXPORT)
         export["spans"][1]["text"] = "tampered"

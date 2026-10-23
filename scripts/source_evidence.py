@@ -521,16 +521,21 @@ def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tup
             f"{passage['id']}: export {candidates[0]} has no {passage['transcript_source']} "
             f"{passage['language']} segments of {passage['youtube_id']} in the span"
         )
-    hashes = []
-    for segments in streams:
-        actual = media_span_hash(segments)
-        if actual == passage["span_sha256"] and len(segments) == passage["segment_count"]:
-            return segments, str(export.get("producer", {}).get("revision", ""))
-        hashes.append(f"{actual} ({len(segments)} segments)")
-    raise SourceEvidenceError(
-        f"{passage['id']}: media span mismatch: expected {passage['span_sha256']} "
-        f"({passage['segment_count']} segments), got {', '.join(hashes)}"
-    )
+    if len(streams) > 1:
+        # Two matching streams (e.g. an old and a changed re-ingest) are ambiguous:
+        # accepting whichever still matches would hide the changed transcript.
+        raise SourceEvidenceError(
+            f"{passage['id']}: export {candidates[0]} has {len(streams)} {passage['transcript_source']} "
+            f"{passage['language']} streams of {passage['youtube_id']}; the span must come from exactly one"
+        )
+    segments = streams[0]
+    actual = media_span_hash(segments)
+    if actual != passage["span_sha256"] or len(segments) != passage["segment_count"]:
+        raise SourceEvidenceError(
+            f"{passage['id']}: media span mismatch: expected {passage['span_sha256']} "
+            f"({passage['segment_count']} segments), got {actual} ({len(segments)} segments)"
+        )
+    return segments, str(export.get("producer", {}).get("revision", ""))
 
 
 def format_timestamp(seconds: float) -> str:
