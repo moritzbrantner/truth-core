@@ -265,7 +265,16 @@ export function computeGraphView(
 
   let statementIds = selection.statements.filter((id) => index.statementById.has(id));
   if (state.hide && filtering) {
-    statementIds = statementIds.filter((id) => id === anchor || matches(id));
+    const shown = new Set(statementIds.filter((id) => id === anchor || matches(id)));
+    // A step whose conclusion and some premise survive brings back its other
+    // premises as (dimmed) context, so no step is drawn with a premise missing.
+    for (const id of selection.inferences) {
+      const inference = index.inferenceById.get(id);
+      if (!inference || !shown.has(inference.output)) continue;
+      const premises = [...inference.inputs, ...inference.assumptions];
+      if (premises.some((premise) => shown.has(premise))) premises.forEach((premise) => shown.add(premise));
+    }
+    statementIds = statementIds.filter((id) => shown.has(id));
   }
   let truncated = 0;
   if (state.view !== "all" && statementIds.length > MAX_VIEW_STATEMENTS) {
@@ -276,7 +285,8 @@ export function computeGraphView(
   const inferences = selection.inferences.flatMap((id) => {
     const inference = index.inferenceById.get(id);
     if (!inference || !kept.has(inference.output)) return [];
-    if (![...inference.inputs, ...inference.assumptions].some((input) => kept.has(input))) {
+    // Draw a step only with all of its premises (invariant 10: no partial arguments).
+    if (![...inference.inputs, ...inference.assumptions].every((input) => kept.has(input))) {
       return [];
     }
     return [inference];
@@ -340,11 +350,14 @@ export function computeGraphView(
       [inference.assumptions, "assumption"],
     ];
     if (output !== inference.output) {
-      // Conclusion inside a collapsed cluster: summarize the step as a cluster link.
+      // Conclusion inside a collapsed cluster: summarize the step as a cluster link,
+      // counted once per step and source cluster.
+      const counted = new Set<string>();
       for (const [ids] of roles) {
         for (const input of ids) {
           const source = representative(input);
-          if (!kept.has(input) || !visible.has(source) || source === output) continue;
+          if (!kept.has(input) || !visible.has(source) || source === output || counted.has(source)) continue;
+          counted.add(source);
           const id = `${source}=>${output}`;
           const existing = clusterEdges.get(id);
           if (existing) {

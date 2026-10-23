@@ -17,6 +17,7 @@ describe("transcription heuristic", () => {
     expect(singleApplicationOf(`${header}\n  exact hBridge a hP\n`, "bridged")).toBe("hBridge");
     expect(singleApplicationOf(`${header}\n  intro\n  exact hBridge a hP\n`, "bridged")).toBe("hBridge");
     expect(singleApplicationOf(`${header.replace(":= by", ":=")}\n  hBridge a hP\n`, "bridged")).toBe("hBridge");
+    expect(singleApplicationOf(`${header.replace(":= by", ":=")}\n  hBridge\n    a\n    hP\n`, "bridged")).toBe("hBridge");
   });
 
   test("does not flag multi-step proofs or applications of lemmas", () => {

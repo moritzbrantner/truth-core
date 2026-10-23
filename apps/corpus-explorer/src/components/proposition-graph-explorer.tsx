@@ -173,8 +173,10 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
   useEffect(() => {
     pendingState.current = null;
   }, [searchParams]);
-  const update = (patch: Partial<GraphState>) => {
-    const next = { ...(pendingState.current ?? state), ...patch };
+  // Array-valued fields take a function of the pending state so rapid clicks compose.
+  const update = (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => {
+    const current = pendingState.current ?? state;
+    const next = { ...current, ...(typeof patch === "function" ? patch(current) : patch) };
     pendingState.current = next;
     const query = serializeGraphState(next);
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
@@ -228,7 +230,9 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
   const onNodeClick = (_event: React.MouseEvent, node: FlowNode) => {
     const clicked = node.data.view;
     if (clicked.kind === "cluster") {
-      update({ open: state.open.includes(clicked.key) ? state.open : [...state.open, clicked.key] });
+      update((current) => ({
+        open: current.open.includes(clicked.key) ? current.open : [...current.open, clicked.key],
+      }));
     } else {
       update({ sel: clicked.id === state.sel ? "" : clicked.id });
     }
@@ -388,9 +392,8 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
           <select
             className="field-control"
             onChange={(event) => {
-              if (event.target.value && !state.tags.includes(event.target.value)) {
-                update({ tags: [...state.tags, event.target.value] });
-              }
+              const tag = event.target.value;
+              if (tag) update((current) => ({ tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag] }));
             }}
             value=""
           >
@@ -419,11 +422,11 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
               data-status={status.id}
               key={status.id}
               onClick={() =>
-                update({
-                  status: active
-                    ? state.status.filter((entry) => entry !== status.id)
-                    : [...state.status, status.id as GraphStatus],
-                })
+                update((current) => ({
+                  status: current.status.includes(status.id)
+                    ? current.status.filter((entry) => entry !== status.id)
+                    : [...current.status, status.id as GraphStatus],
+                }))
               }
               title={status.description}
               type="button"
@@ -442,7 +445,7 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
               className="graph-chip"
               aria-pressed
               key={tag}
-              onClick={() => update({ tags: state.tags.filter((entry) => entry !== tag) })}
+              onClick={() => update((current) => ({ tags: current.tags.filter((entry) => entry !== tag) }))}
               title="Remove tag"
               type="button"
             >
@@ -533,7 +536,7 @@ function DetailPanel({
   graph: PropositionGraph;
   index: ReturnType<typeof indexGraph>;
   state: GraphState;
-  update: (patch: Partial<GraphState>) => void;
+  update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;
 }) {
   const statement = index.statementById.get(state.sel);
   const inference = index.inferenceById.get(state.sel);
@@ -680,7 +683,7 @@ function DetailPanel({
               <button
                 className="graph-badge graph-badge-button"
                 key={tag}
-                onClick={() => !state.tags.includes(tag) && update({ tags: [...state.tags, tag] })}
+                onClick={() => update((current) => ({ tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag] }))}
                 title="Filter by this tag"
                 type="button"
               >

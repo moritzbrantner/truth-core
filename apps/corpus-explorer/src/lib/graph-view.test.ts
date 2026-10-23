@@ -51,12 +51,24 @@ describe("graph views", () => {
     expect(ids(hidden, "inference")).toEqual([]);
   });
 
+  test("hiding keeps every premise of a drawn step", () => {
+    const view = computeGraphView(graph, state({ view: "focus", node: "C", hops: 1, dir: "down", q: "P1", hide: true }));
+    expect(ids(view, "statement")).toEqual(["C", "P1", "P2"]);
+    expect(ids(view, "inference")).toEqual(["I1"]);
+    const p2 = view.nodes.find((node) => node.id === "P2");
+    expect(p2?.kind === "statement" && p2.matched).toBe(false);
+  });
+
   test("full view clusters statements and summarizes steps into collapsed clusters", () => {
     const collapsed = computeGraphView(graph, state({ view: "all" }));
     expect(collapsed.nodes.every((node) => node.kind === "cluster")).toBe(true);
     const expanded = computeGraphView(graph, state({ view: "all", open: ["derived · TruthCore.Test"] }));
     expect(ids(expanded, "inference")).toContain("I1");
     expect(expanded.edges.some((edge) => edge.source === "cluster:SRC-1" && edge.target === "I1")).toBe(true);
+    const summary = computeGraphView(graph, state({ view: "all", open: [] })).edges.find(
+      (edge) => edge.source === "cluster:SRC-1",
+    );
+    expect(summary?.label).toBe("1 step");
   });
 
   test("relations are drawn as their own edge kind between visible statements", () => {

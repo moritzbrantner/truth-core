@@ -81,9 +81,9 @@ export function singleApplicationOf(solutionSource: string, theoremName: string)
       .flatMap((group) => group.names),
   );
 
-  const steps = block
-    .slice(separator + 2)
-    .split("\n")
+  const proof = block.slice(separator + 2).trim();
+  // A term-mode proof is one expression even when its arguments span several lines.
+  const steps = (/^by\b/.test(proof) ? proof.split("\n") : [proof.split(/\s+/).join(" ")])
     .map((line) => line.trim())
     .filter((line) => line && line !== "by");
   if (steps.length && steps[0].startsWith("by ")) {
