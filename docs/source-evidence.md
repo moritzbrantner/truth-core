@@ -23,6 +23,29 @@ CTS edition URNs must extend the source's work URN. Works without CTS identifier
 
 The conventional locator remains the citation scholars should read, such as `Physics I.4, 187b7-13` or `Timaeus 28a`. The pinned digital witness answers the different question: exactly which edition bytes did the worker inspect?
 
+## Media spans (recorded speech)
+
+Recorded debates and lectures are admissible sources of arguments (owner decision on #152). They use the source kind `media_recording` and the passage kind `media_span`, cited through [youtube-corpus](https://github.com/moritzbrantner/youtube-corpus) transcripts.
+
+- The **source** record (`kind: "media_recording"`) names the recording: `youtube_id`, title (`work`), `channel`, `upload_date`, and the YouTube URL as `work_urn` and `catalog_url`.
+- The **passage** manifest's snapshot (`kind: "media_span"`) names the `youtube_id`, the `transcript_source` (`caption_manual`, `caption_auto` or `asr`), the `language`, the `producer` (`youtube-corpus`) with its `producer_revision` (`git:<sha>`), and the export schema `source_span_interchange@1`. Each passage gives `start_seconds`, `end_seconds`, the `segment_count`, a `span_sha256`, and optionally the `speaker` with a `speaker_attribution` note.
+- The conventional locator is `<speaker>, "<title>" (<channel>, <upload date>), mm:ss–mm:ss`.
+- **No transcript text is committed.** `check` rejects a media-span passage carrying `text` or `transcript`.
+
+The span hash covers the transcript segments of the pinned stream whose interval overlaps `[start_seconds, end_seconds)`, in time order: the SHA-256 of the canonical JSON list of each segment's `segmentIndex`, `startSeconds`, `endSeconds` and the SHA-256 of its text. Database ids are left out because they differ between ingests. A changed caption, a re-segmentation, or a timing shift changes the hash.
+
+`materialize` regenerates the span from a youtube-corpus `source-span` export and rejects a hash or segment-count mismatch. It reads, in order, an explicit `--export FILE`, the cached whole-corpus export at `.cache/truth-core/media/source-span.json`, or a fresh export made with the checkout named by `YOUTUBE_CORPUS_DIR` (its release binary, its `git rev-parse HEAD` as producer revision, and `DATABASE_URL`). The materialized text lists each segment with its timestamps.
+
+```bash
+youtube-corpus ingest --url "https://www.youtube.com/watch?v=<id>" --no-asr --migrate
+YOUTUBE_CORPUS_DIR=../youtube-corpus DATABASE_URL=postgres://... \
+  python3 scripts/source_evidence.py materialize <PASSAGE-ID>
+```
+
+The offline `check` validates media-span manifests and claim bindings without network access. `verify` never contacts YouTube: it re-verifies media spans only when a local export is present (cached, or given with `--export`) and otherwise lists them as not re-verified. CI therefore checks media-span structure and runs the synthetic-export tests in `scripts/test_source_evidence.py`, but cannot re-hash recordings.
+
+Fidelity for recorded speech adds two questions to the usual ones. Auto captions can mishear words, so a claim notes its transcript source and whether the wording was checked against the audio. Speaker attribution is a judgment unless youtube-corpus speaker data confirms it; diarization labels are not identities, so a claim records how its speaker was attributed.
+
 ## Claim binding
 
 Claims deliberately remain small. A formalized claim records its source ID and precise locator. `scripts/source_evidence.py` requires that pair to resolve to exactly one passage witness.

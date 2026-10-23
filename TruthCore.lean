@@ -31,6 +31,8 @@ import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter1
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+import TruthCore.English.OConnor.Metaethics
+import TruthCore.English.OConnor.ProblemOfEvil
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution

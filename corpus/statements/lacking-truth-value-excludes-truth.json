@@ -1,0 +1,1 @@
+{"id": "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH", "paraphrase": "A sentence that has no truth value is not true.", "lean_declaration": "TruthCore.English.OConnor.LackingTruthValueExcludesTruthReading"}

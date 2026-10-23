@@ -6,7 +6,9 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -19,7 +21,13 @@ ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
 PASSAGES = CORPUS / "passages"
 CACHE = ROOT / ".cache" / "truth-core" / "sources"
+MEDIA_CACHE = ROOT / ".cache" / "truth-core" / "media"
 SHA1_RE = re.compile(r"^[0-9a-f]{40}$")
+SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
+YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+MEDIA_SPAN = "media_span"
+MEDIA_EXPORT_SCHEMA = "source_span_interchange@1"
+TRANSCRIPT_SOURCES = {"caption_manual", "caption_auto", "asr"}
 
 
 class SourceEvidenceError(Exception):
@@ -47,7 +55,88 @@ def require(record: dict[str, Any], fields: list[str], path: Path) -> None:
         )
 
 
+def is_media_span(passage: dict[str, Any]) -> bool:
+    return passage.get("kind") == MEDIA_SPAN
+
+
+def validate_claim_locator_prefixes(path: Path, passage: dict[str, Any]) -> None:
+    prefixes = passage["claim_locator_prefixes"]
+    if (
+        not isinstance(prefixes, list)
+        or not prefixes
+        or any(not isinstance(prefix, str) or not prefix for prefix in prefixes)
+    ):
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: claim_locator_prefixes must be a non-empty list of strings"
+        )
+
+
+def validate_media_span_manifest(path: Path, passage: dict[str, Any]) -> None:
+    """A media span pins timed transcript segments by hash; no transcript text is stored."""
+    require(
+        passage,
+        [
+            "id",
+            "source_id",
+            "locator",
+            "claim_locator_prefixes",
+            "youtube_id",
+            "transcript_source",
+            "language",
+            "producer",
+            "producer_revision",
+            "export_schema",
+            "source_url",
+            "license",
+            "start_seconds",
+            "end_seconds",
+            "segment_count",
+            "span_sha256",
+        ],
+        path,
+    )
+    validate_claim_locator_prefixes(path, passage)
+    where = f"{path.relative_to(ROOT)}: {passage['id']}"
+    if not isinstance(passage["youtube_id"], str) or not YOUTUBE_ID_RE.fullmatch(passage["youtube_id"]):
+        raise SourceEvidenceError(f"{where}: youtube_id must be an 11-character YouTube video id")
+    if passage["transcript_source"] not in TRANSCRIPT_SOURCES:
+        raise SourceEvidenceError(
+            f"{where}: transcript_source must be one of {', '.join(sorted(TRANSCRIPT_SOURCES))}"
+        )
+    if passage["export_schema"] != MEDIA_EXPORT_SCHEMA:
+        raise SourceEvidenceError(f"{where}: export_schema must be {MEDIA_EXPORT_SCHEMA}")
+    if passage["producer"] != "youtube-corpus":
+        raise SourceEvidenceError(f"{where}: producer must be youtube-corpus")
+    if not isinstance(passage["producer_revision"], str) or not passage["producer_revision"].startswith("git:"):
+        raise SourceEvidenceError(f"{where}: producer_revision must be a git:<sha> revision")
+    if passage["youtube_id"] not in str(passage["source_url"]):
+        raise SourceEvidenceError(f"{where}: source_url must name the pinned youtube_id")
+    start, end = passage["start_seconds"], passage["end_seconds"]
+    if (
+        isinstance(start, bool)
+        or isinstance(end, bool)
+        or not isinstance(start, (int, float))
+        or not isinstance(end, (int, float))
+        or not 0 <= start < end
+    ):
+        raise SourceEvidenceError(f"{where}: need numeric 0 <= start_seconds < end_seconds")
+    count = passage["segment_count"]
+    if isinstance(count, bool) or not isinstance(count, int) or count < 1:
+        raise SourceEvidenceError(f"{where}: segment_count must be a positive integer")
+    if not isinstance(passage["span_sha256"], str) or not SHA256_RE.fullmatch(passage["span_sha256"]):
+        raise SourceEvidenceError(f"{where}: span_sha256 must be sha256:<64 hex digits>")
+    if "text" in passage or "transcript" in passage:
+        raise SourceEvidenceError(f"{where}: media spans must not commit transcript text")
+
+
 def validate_manifest(path: Path, passage: dict[str, Any]) -> None:
+    if is_media_span(passage):
+        validate_media_span_manifest(path, passage)
+        return
+    if passage.get("kind") not in (None, "text_witness"):
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: unknown passage kind {passage.get('kind')!r}"
+        )
     require(
         passage,
         [
@@ -67,15 +156,7 @@ def validate_manifest(path: Path, passage: dict[str, Any]) -> None:
         path,
     )
 
-    prefixes = passage["claim_locator_prefixes"]
-    if (
-        not isinstance(prefixes, list)
-        or not prefixes
-        or any(not isinstance(prefix, str) or not prefix for prefix in prefixes)
-    ):
-        raise SourceEvidenceError(
-            f"{path.relative_to(ROOT)}: claim_locator_prefixes must be a non-empty list of strings"
-        )
+    validate_claim_locator_prefixes(path, passage)
 
     revision = passage["revision"]
     blob_sha = passage["git_blob_sha"]
@@ -166,6 +247,44 @@ def passage_index() -> dict[str, tuple[Path, dict[str, Any]]]:
     return index_records(passages, "passage")
 
 
+def validate_media_span_source(
+    path: Path, passage: dict[str, Any], source: tuple[Path, dict[str, Any]]
+) -> None:
+    if source[1].get("kind") != "media_recording":
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: media span {passage['id']} needs a media_recording source"
+        )
+    if source[1].get("youtube_id") != passage["youtube_id"]:
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: media span {passage['id']} youtube_id disagrees "
+            f"with source {passage['source_id']}"
+        )
+
+
+def validate_text_witness_source(
+    path: Path, passage: dict[str, Any], source: tuple[Path, dict[str, Any]]
+) -> None:
+    if source[1].get("kind") == "media_recording":
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: text witness {passage['id']} cannot cite a media_recording source"
+        )
+    work_urn = source[1].get("work_urn")
+    # CTS edition URNs extend the work URN. Works outside CTS (e.g. SCTA)
+    # instead list their admitted edition identifiers explicitly.
+    listed_editions = source[1].get("edition_urns", [])
+    if not isinstance(listed_editions, list):
+        raise SourceEvidenceError(
+            f"{source[0].relative_to(ROOT)}: edition_urns must be a list when present"
+        )
+    if not isinstance(work_urn, str) or not (
+        passage["edition_urn"].startswith(work_urn + ".")
+        or passage["edition_urn"] in listed_editions
+    ):
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: edition_urn is not an edition of {work_urn}"
+        )
+
+
 def validate_bindings() -> tuple[int, int]:
     sources = index_records(load_json_dir("sources"), "source")
     passages = passage_index()
@@ -178,21 +297,10 @@ def validate_bindings() -> tuple[int, int]:
             raise SourceEvidenceError(
                 f"{path.relative_to(ROOT)}: unknown source_id {passage['source_id']}"
             )
-        work_urn = source[1].get("work_urn")
-        # CTS edition URNs extend the work URN. Works outside CTS (e.g. SCTA)
-        # instead list their admitted edition identifiers explicitly.
-        listed_editions = source[1].get("edition_urns", [])
-        if not isinstance(listed_editions, list):
-            raise SourceEvidenceError(
-                f"{source[0].relative_to(ROOT)}: edition_urns must be a list when present"
-            )
-        if not isinstance(work_urn, str) or not (
-            passage["edition_urn"].startswith(work_urn + ".")
-            or passage["edition_urn"] in listed_editions
-        ):
-            raise SourceEvidenceError(
-                f"{path.relative_to(ROOT)}: edition_urn is not an edition of {work_urn}"
-            )
+        if is_media_span(passage):
+            validate_media_span_source(path, passage, source)
+        else:
+            validate_text_witness_source(path, passage, source)
         for prefix in passage["claim_locator_prefixes"]:
             key = (passage["source_id"], prefix)
             if key in seen_prefixes:
@@ -251,11 +359,213 @@ def fetch_source(passage: dict[str, Any], *, attempts: int = 3) -> bytes:
     raise SourceEvidenceError(f"{passage['id']}: cannot verify source witness: {last_error}")
 
 
-def verify_all() -> int:
+# ---------------------------------------------------------------------------
+# Media spans: timed transcript segments from a youtube-corpus export
+# ---------------------------------------------------------------------------
+
+
+def sha256_text(text: str) -> str:
+    return "sha256:" + hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def media_export_cache_path() -> Path:
+    """The cached whole-corpus youtube-corpus source-span export."""
+    return MEDIA_CACHE / "source-span.json"
+
+
+def load_media_export(path: Path) -> dict[str, Any]:
+    try:
+        export = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SourceEvidenceError(f"{path}: cannot read source-span export: {exc}") from exc
+    schema = f"{export.get('schema')}@{export.get('schemaVersion')}"
+    if schema != MEDIA_EXPORT_SCHEMA:
+        raise SourceEvidenceError(f"{path}: expected {MEDIA_EXPORT_SCHEMA}, got {schema}")
+    if not isinstance(export.get("sources"), list) or not isinstance(export.get("spans"), list):
+        raise SourceEvidenceError(f"{path}: source-span export needs sources and spans lists")
+    return export
+
+
+def media_span_segments(export: dict[str, Any], passage: dict[str, Any]) -> list[list[dict[str, Any]]]:
+    """Return, per matching transcript stream, the timed segments overlapping the span.
+
+    A stream matches when its youtube id, transcript source and language equal the
+    pinned ones. A segment belongs to the span when its interval overlaps
+    [start_seconds, end_seconds).
+    """
+    start, end = passage["start_seconds"], passage["end_seconds"]
+    streams = [
+        source["id"]
+        for source in export["sources"]
+        if source.get("kind") == "youtube_transcript"
+        and source.get("metadata", {}).get("youtubeId") == passage["youtube_id"]
+        and source.get("metadata", {}).get("transcriptSource") == passage["transcript_source"]
+        and source.get("language") == passage["language"]
+    ]
+    result = []
+    for stream_id in streams:
+        segments = []
+        for span in export["spans"]:
+            locator = span.get("locator", {})
+            if span.get("sourceId") != stream_id or locator.get("kind") != "timed":
+                continue
+            seg_start, seg_end = locator.get("startSeconds"), locator.get("endSeconds")
+            if seg_start is None or seg_end is None or not (seg_start < end and seg_end > start):
+                continue
+            text = span.get("text")
+            if not isinstance(text, str):
+                raise SourceEvidenceError(f"{passage['id']}: export span {span.get('id')} has no text")
+            if span.get("contentHash") != sha256_text(text):
+                raise SourceEvidenceError(
+                    f"{passage['id']}: export span {span.get('id')} contentHash does not match its text"
+                )
+            segments.append(
+                {
+                    "segmentIndex": locator.get("segmentIndex"),
+                    "startSeconds": seg_start,
+                    "endSeconds": seg_end,
+                    "text": text,
+                }
+            )
+        segments.sort(key=lambda segment: (segment["startSeconds"], segment["segmentIndex"]))
+        if segments:
+            result.append(segments)
+    return result
+
+
+def media_span_hash(segments: list[dict[str, Any]]) -> str:
+    """Hash of the span: canonical JSON over each segment's index, timing and text hash.
+
+    Database ids are excluded because they differ between ingests of the same video.
+    """
+    material = [
+        {
+            "endSeconds": segment["endSeconds"],
+            "segmentIndex": segment["segmentIndex"],
+            "startSeconds": segment["startSeconds"],
+            "textHash": sha256_text(segment["text"]),
+        }
+        for segment in segments
+    ]
+    canonical = json.dumps(material, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    return sha256_text(canonical)
+
+
+def regenerate_media_export(passage: dict[str, Any]) -> Path | None:
+    """Regenerate the export with a local youtube-corpus checkout, if one is configured.
+
+    Needs YOUTUBE_CORPUS_DIR (a checkout with a built release binary) and the
+    DATABASE_URL of a corpus into which the video was ingested.
+    """
+    directory = os.environ.get("YOUTUBE_CORPUS_DIR")
+    if not directory:
+        return None
+    checkout = Path(directory)
+    binary = checkout / "target" / "release" / "youtube-corpus"
+    if not binary.is_file():
+        raise SourceEvidenceError(f"{binary}: build youtube-corpus first (cargo build --release)")
+    revision = subprocess.run(
+        ["git", "-C", str(checkout), "rev-parse", "HEAD"],
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+    output = media_export_cache_path()
+    output.parent.mkdir(parents=True, exist_ok=True)
+    completed = subprocess.run(
+        [
+            str(binary),
+            "export",
+            "--format",
+            "source-span",
+            "--producer-revision",
+            f"git:{revision}",
+            "--output",
+            str(output),
+        ],
+        cwd=checkout,
+        capture_output=True,
+        text=True,
+    )
+    if completed.returncode != 0:
+        raise SourceEvidenceError(
+            f"{passage['id']}: youtube-corpus export failed: {completed.stderr.strip()}"
+        )
+    return output
+
+
+def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tuple[list[dict[str, Any]], str]:
+    """Find the pinned span in an export and reject any hash mismatch.
+
+    Lookup order: an explicit --export file, the local cache, then a fresh export
+    from YOUTUBE_CORPUS_DIR. Returns the segments and the export's producer revision.
+    """
+    candidates = [export_path] if export_path else []
+    cached = media_export_cache_path()
+    if not export_path:
+        if cached.is_file():
+            candidates.append(cached)
+        else:
+            regenerated = regenerate_media_export(passage)
+            if regenerated:
+                candidates.append(regenerated)
+    if not candidates:
+        raise SourceEvidenceError(
+            f"{passage['id']}: no source-span export for {passage['youtube_id']}; pass --export, "
+            f"place one at {cached.relative_to(ROOT)}, or set YOUTUBE_CORPUS_DIR"
+        )
+    export = load_media_export(candidates[0])
+    streams = media_span_segments(export, passage)
+    if not streams:
+        raise SourceEvidenceError(
+            f"{passage['id']}: export {candidates[0]} has no {passage['transcript_source']} "
+            f"{passage['language']} segments of {passage['youtube_id']} in the span"
+        )
+    hashes = []
+    for segments in streams:
+        actual = media_span_hash(segments)
+        if actual == passage["span_sha256"] and len(segments) == passage["segment_count"]:
+            return segments, str(export.get("producer", {}).get("revision", ""))
+        hashes.append(f"{actual} ({len(segments)} segments)")
+    raise SourceEvidenceError(
+        f"{passage['id']}: media span mismatch: expected {passage['span_sha256']} "
+        f"({passage['segment_count']} segments), got {', '.join(hashes)}"
+    )
+
+
+def format_timestamp(seconds: float) -> str:
+    whole = int(seconds)
+    hours, rest = divmod(whole, 3600)
+    minutes, secs = divmod(rest, 60)
+    fraction = f"{seconds - whole:.2f}"[1:]
+    stamp = f"{minutes:02d}:{secs:02d}{fraction}"
+    return f"{hours}:{stamp}" if hours else stamp
+
+
+def media_span_text(segments: list[dict[str, Any]]) -> str:
+    return "\n".join(
+        f"[{format_timestamp(segment['startSeconds'])}–{format_timestamp(segment['endSeconds'])}] "
+        f"{' '.join(segment['text'].split())}"
+        for segment in segments
+    )
+
+
+def verify_all(export_path: Path | None = None) -> int:
     passages = passage_index()
     validate_bindings()
     snapshots: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+    media_verified = 0
+    media_skipped = []
     for _, passage in passages.values():
+        if is_media_span(passage):
+            cached = media_export_cache_path()
+            if export_path is None and not cached.is_file():
+                media_skipped.append(passage["id"])
+                continue
+            resolve_media_span(passage, export_path)
+            media_verified += 1
+            print(f"verified media span {passage['id']} ({passage['span_sha256'][7:19]})")
+            continue
         key = (
             passage["repository"],
             passage["revision"],
@@ -270,7 +580,16 @@ def verify_all() -> int:
             f"verified {passage['repository']}@{passage['revision'][:12]}:"
             f"{passage['path']} ({passage['git_blob_sha'][:12]})"
         )
-    print(f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots")
+    if media_skipped:
+        # YouTube is never fetched here: media spans are re-verified only from a
+        # local source-span export (see `materialize`).
+        print(
+            f"media spans not re-verified (no local source-span export): {', '.join(media_skipped)}"
+        )
+    print(
+        f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots, "
+        f"{media_verified} media spans verified"
+    )
     return 0
 
 
@@ -357,7 +676,7 @@ def extract_plain_text(data: bytes, passage: dict[str, Any]) -> str:
     return text
 
 
-def materialize(passage_id: str, output: str | None) -> int:
+def materialize(passage_id: str, output: str | None, export: str | None = None) -> int:
     passages = passage_index()
     validate_bindings()
     indexed = passages.get(passage_id)
@@ -365,8 +684,20 @@ def materialize(passage_id: str, output: str | None) -> int:
         raise SourceEvidenceError(f"unknown passage id {passage_id}")
     _, passage = indexed
 
-    data = fetch_source(passage)
-    text = extract_plain_text(data, passage)
+    if is_media_span(passage):
+        segments, producer_revision = resolve_media_span(passage, Path(export) if export else None)
+        if producer_revision != passage["producer_revision"]:
+            print(
+                f"note: export producer revision {producer_revision} differs from pinned "
+                f"{passage['producer_revision']}; the span hash still matches",
+                file=sys.stderr,
+            )
+        text = media_span_text(segments)
+    else:
+        if export:
+            raise SourceEvidenceError(f"{passage_id}: --export applies only to media spans")
+        data = fetch_source(passage)
+        text = extract_plain_text(data, passage)
 
     if output:
         output_path = Path(output)
@@ -397,12 +728,19 @@ def parser() -> argparse.ArgumentParser:
     )
     sub = result.add_subparsers(dest="command", required=True)
     sub.add_parser("check", help="validate passage manifests and claim bindings without network access")
-    sub.add_parser("verify", help="fetch and hash-check all immutable source snapshots")
+    verify_parser = sub.add_parser(
+        "verify",
+        help="fetch and hash-check all immutable source snapshots; media spans only from a local export",
+    )
+    verify_parser.add_argument("--export", help="youtube-corpus source-span export for media spans")
     materialize_parser = sub.add_parser(
         "materialize", help="verify and extract one source passage to a local UTF-8 text file"
     )
     materialize_parser.add_argument("passage_id")
     materialize_parser.add_argument("--output")
+    materialize_parser.add_argument(
+        "--export", help="youtube-corpus source-span export to read a media span from"
+    )
     return result
 
 
@@ -412,9 +750,9 @@ def main() -> int:
         if args.command == "check":
             return check()
         if args.command == "verify":
-            return verify_all()
+            return verify_all(Path(args.export) if args.export else None)
         if args.command == "materialize":
-            return materialize(args.passage_id, args.output)
+            return materialize(args.passage_id, args.output, args.export)
         raise AssertionError(f"unexpected command {args.command}")
     except SourceEvidenceError as exc:
         print(f"source evidence error: {exc}", file=sys.stderr)
