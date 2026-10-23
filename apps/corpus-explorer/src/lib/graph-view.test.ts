@@ -85,7 +85,7 @@ describe("graph views", () => {
 
   test("search ranks frontier statements first", () => {
     const result = searchStatements(graph, state({ q: "paraphrase" }), 3);
-    expect(result.total).toBe(11);
+    expect(result.total).toBe(12);
     expect(result.items.every((item) => item.frontier)).toBe(true);
   });
 });

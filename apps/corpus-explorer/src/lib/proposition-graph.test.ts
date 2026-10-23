@@ -24,7 +24,9 @@ describe("proposition graph status", () => {
   test("marks the frontier: unproved, not self-evident, alternatives not all refuted", () => {
     const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
     // ALT is refuted, but it is still a premise of the unverified A3; DEF is defended.
-    expect(frontier).toEqual(["ALT", "P1", "P2", "T"]);
+    // TC is proved only by a transcription (R4), so it stays open (invariant 16).
+    expect(frontier).toEqual(["ALT", "P1", "P2", "T", "TC"]);
+    expect(byId.get("TC")?.status).toBe("transcription");
     expect(byId.get("P1")?.transitiveDependentArguments).toBe(2);
   });
 

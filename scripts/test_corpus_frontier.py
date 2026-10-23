@@ -82,6 +82,23 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["dependent_arguments"], ["ARG-ROOT"])
         self.assertIsNone(items["SIDE"]["path_to_root"])
 
+    def test_transcription_only_conclusion_stays_open(self) -> None:
+        flag = {
+            "result_id": "ARG-MID",
+            "argument_id": "ARG-MID",
+            "proof_steps": 1,
+            "single_application_of": "hBridge",
+            "goal_consequent_premises": [],
+        }
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertTrue(items["MID"]["transcription_only"])
+        self.assertIn("open although proved", corpus.format_frontier(report))
+        # A short proof that is not a single application still closes the node.
+        flag["single_application_of"] = None
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        self.assertNotIn("MID", self.ids(report))
+
     def test_reports_missing_alternatives(self) -> None:
         report = self.report()
         self.assertFalse(report["alternatives_recorded"])

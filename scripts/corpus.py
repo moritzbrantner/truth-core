@@ -169,16 +169,28 @@ def frontier_report(
     transcription: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Open premises: used as an argument premise and not (a) the conclusion of
-    a verified result, (b) marked self_evident, or (c) refuted in every one of
-    its recorded alternatives (at least one alternative recorded)."""
+    a verified result that is not a transcription (invariant 16), (b) marked
+    self_evident, or (c) refuted in every one of its recorded alternatives (at
+    least one alternative recorded)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
-    verified_conclusions = {
-        argument_by_id[argument_id]["conclusion_statement_id"]
-        for argument_id in verified_arguments
-        if argument_id in argument_by_id
+    # Invariant 16: a transcription closes no frontier node. A conclusion is
+    # closed only by a verified result that is not a single application of one
+    # hypothesis (the rule /graph uses for its "transcription" status).
+    transcription_results = {
+        flag["result_id"] for flag in (transcription or []) if flag["single_application_of"]
     }
+    verified_conclusions = {
+        argument_by_id[result["argument_id"]]["conclusion_statement_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
+    }
+    transcription_only_conclusions = {
+        argument_by_id[result["argument_id"]]["conclusion_statement_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id
+    } - verified_conclusions
 
     dependents: dict[str, set[str]] = {}
     for argument in arguments:
@@ -249,6 +261,7 @@ def frontier_report(
             {
                 "statement_id": statement_id,
                 "paraphrase": statement_by_id.get(statement_id, {}).get("paraphrase", ""),
+                "transcription_only": statement_id in transcription_only_conclusions,
                 "dependent_arguments": sorted(dependents[statement_id]),
                 "transitive_dependent_arguments": all_arguments,
                 "transitive_dependent_statements": all_conclusions,
@@ -268,9 +281,8 @@ def frontier_report(
             item["statement_id"],
         )
     )
-    transcription = transcription or []
     goal_premise_arguments: dict[str, list[str]] = {}
-    for flag in transcription:
+    for flag in transcription or []:
         for premise in flag["goal_consequent_premises"]:
             for statement_id in premise["statement_ids"]:
                 goal_premise_arguments.setdefault(statement_id, []).append(flag["argument_id"])
@@ -279,7 +291,7 @@ def frontier_report(
     return {
         "root": root,
         "root_known": root is not None and root in statement_by_id,
-        "transcription_flags": transcription,
+        "transcription_flags": transcription or [],
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
         "items": items,
@@ -464,7 +476,11 @@ def transcription_flags(
                 statement_ids = sorted(sid for sid in premises if declaration_tail.get(sid) == head)
                 goal_premises.append({"hypothesis": hypothesis, "statement_ids": statement_ids})
         hypothesis_names = {hypothesis for hypothesis, _ in hypotheses}
-        steps = [line.strip() for line in proof.splitlines() if line.strip() and line.strip() != "by"]
+        proof = proof.strip()
+        # A term-mode proof is one expression even when it spans several lines
+        # (same rule as apps/corpus-explorer/src/lib/lean-transcription.ts).
+        raw_steps = proof.splitlines() if re.match(r"by\b", proof) else [" ".join(proof.split())]
+        steps = [line.strip() for line in raw_steps if line.strip() and line.strip() != "by"]
         if steps and steps[0].startswith("by "):
             steps[0] = steps[0][3:].strip()
         single = None
@@ -500,6 +516,8 @@ def format_frontier(report: dict[str, Any]) -> str:
         lines.append(item["statement_id"])
         if item["paraphrase"]:
             lines.append(f"  {item['paraphrase']}")
+        if item.get("transcription_only"):
+            lines.append("  open although proved: every verifying result is a transcription (invariant 16)")
         lines.append(
             f"  dependent arguments: {len(item['dependent_arguments'])} "
             f"({', '.join(item['dependent_arguments'])})"
