@@ -68,6 +68,7 @@ python3 scripts/corpus.py check
 lake build
 python3 scripts/corpus.py status
 python3 scripts/corpus.py next
+python3 scripts/corpus.py frontier --reaching-root
 ```
 
 `lake build` compiles the source formalizations and proved `Solution` modules. Deliberately incomplete `Challenge` modules are kept out of the normal default build.

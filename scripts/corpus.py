@@ -111,6 +111,207 @@ def validate_argument_derivation(
         )
 
 
+# Premise-program schema (#156). A statement may be marked self-evident, and
+# relations may record alternatives to a premise, refutations of an alternative,
+# and objections attacking a premise. All of it is optional metadata.
+ALTERNATIVE_PREDICATE = "alternative_to"
+REFUTES_PREDICATE = "refutes"
+ATTACKS_PREDICATE = "attacks"
+DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+
+
+def validate_self_evident(
+    path: Path,
+    statement: dict[str, Any],
+    claim_ids: set[str],
+    result_ids: set[str],
+) -> None:
+    marking = statement.get("self_evident")
+    if marking is None:
+        return
+    if not isinstance(marking, dict):
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: self_evident must be an object with justification_ids"
+        )
+    justification = require_string_list(marking, "justification_ids", path, allow_empty=False)
+    for justification_id in justification:
+        if justification_id not in claim_ids and justification_id not in result_ids:
+            raise CorpusError(
+                f"{path.relative_to(ROOT)}: self_evident justification {justification_id} "
+                "is neither a claim id nor a result id"
+            )
+
+
+def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> None:
+    predicate = relation["predicate"]
+    expected = {
+        ALTERNATIVE_PREDICATE: ({"statement"}, "statement"),
+        REFUTES_PREDICATE: ({"argument"}, "statement"),
+        ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
+    }.get(predicate)
+    if expected is None:
+        return
+    subject_kinds, object_kind = expected
+    if relation["subject_kind"] not in subject_kinds or relation["object_kind"] != object_kind:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: {predicate} relates "
+            f"{'/'.join(sorted(subject_kinds))} to {object_kind}"
+        )
+
+
+def frontier_report(
+    statements: list[dict[str, Any]],
+    arguments: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+    root: str | None = DEFAULT_FRONTIER_ROOT,
+) -> dict[str, Any]:
+    """Open premises: used as an argument premise and not (a) the conclusion of
+    a verified result, (b) marked self_evident, or (c) refuted in every one of
+    its recorded alternatives (at least one alternative recorded)."""
+    statement_by_id = {statement["id"]: statement for statement in statements}
+    argument_by_id = {argument["id"]: argument for argument in arguments}
+    verified_arguments = {result["argument_id"] for result in results}
+    verified_conclusions = {
+        argument_by_id[argument_id]["conclusion_statement_id"]
+        for argument_id in verified_arguments
+        if argument_id in argument_by_id
+    }
+
+    dependents: dict[str, set[str]] = {}
+    for argument in arguments:
+        for premise in argument["premise_statement_ids"]:
+            dependents.setdefault(premise, set()).add(argument["id"])
+
+    alternatives: dict[str, set[str]] = {}
+    refuted: set[str] = set()
+    objections: dict[str, set[str]] = {}
+    for relation in relations:
+        predicate = relation.get("predicate")
+        if predicate == ALTERNATIVE_PREDICATE:
+            alternatives.setdefault(relation["object_id"], set()).add(relation["subject_id"])
+        elif predicate == REFUTES_PREDICATE and relation["subject_id"] in verified_arguments:
+            refuted.add(relation["object_id"])
+        elif predicate == ATTACKS_PREDICATE:
+            objections.setdefault(relation["object_id"], set()).add(
+                f"{relation['subject_kind']}:{relation['subject_id']}"
+            )
+
+    def upward(statement_id: str) -> tuple[list[str], list[str], list[str] | None]:
+        """Breadth-first walk from a premise through the arguments that use it.
+        Returns dependent arguments and conclusions (by distance, then id) and
+        one shortest statement/argument path to the root, if reachable."""
+        seen_arguments: list[str] = []
+        seen_statements: list[str] = []
+        visited_arguments: set[str] = set()
+        visited_statements = {statement_id}
+        parent: dict[str, tuple[str, str]] = {}
+        frontier = [statement_id]
+        while frontier:
+            next_frontier: list[str] = []
+            layer: list[tuple[str, str, str]] = []
+            for current in frontier:
+                for argument_id in dependents.get(current, ()):
+                    conclusion = argument_by_id[argument_id]["conclusion_statement_id"]
+                    layer.append((argument_id, conclusion, current))
+            for argument_id, conclusion, current in sorted(layer):
+                if argument_id not in visited_arguments:
+                    visited_arguments.add(argument_id)
+                    seen_arguments.append(argument_id)
+                if conclusion not in visited_statements:
+                    visited_statements.add(conclusion)
+                    parent[conclusion] = (argument_id, current)
+                    seen_statements.append(conclusion)
+                    next_frontier.append(conclusion)
+            frontier = sorted(next_frontier)
+        path: list[str] | None = None
+        if root is not None and root in parent:
+            path = [root]
+            node = root
+            while node != statement_id:
+                argument_id, node = parent[node]
+                path[:0] = [node, argument_id]
+        return seen_arguments, seen_statements, path
+
+    items: list[dict[str, Any]] = []
+    for statement_id in sorted(dependents):
+        if statement_id in verified_conclusions:
+            continue
+        if statement_by_id.get(statement_id, {}).get("self_evident") is not None:
+            continue
+        recorded = sorted(alternatives.get(statement_id, ()))
+        if recorded and all(alternative in refuted for alternative in recorded):
+            continue
+        all_arguments, all_conclusions, path = upward(statement_id)
+        items.append(
+            {
+                "statement_id": statement_id,
+                "paraphrase": statement_by_id.get(statement_id, {}).get("paraphrase", ""),
+                "dependent_arguments": sorted(dependents[statement_id]),
+                "transitive_dependent_arguments": all_arguments,
+                "transitive_dependent_statements": all_conclusions,
+                "path_to_root": path,
+                "alternatives": [
+                    {"statement_id": alternative, "refuted": alternative in refuted}
+                    for alternative in recorded
+                ],
+                "objections": sorted(objections.get(statement_id, ())),
+            }
+        )
+    items.sort(
+        key=lambda item: (
+            item["path_to_root"] is None,
+            -len(item["transitive_dependent_arguments"]),
+            -len(item["dependent_arguments"]),
+            item["statement_id"],
+        )
+    )
+    return {
+        "root": root,
+        "root_known": root is not None and root in statement_by_id,
+        "alternatives_recorded": bool(alternatives),
+        "open_premise_count": len(items),
+        "items": items,
+    }
+
+
+def format_frontier(report: dict[str, Any]) -> str:
+    lines: list[str] = []
+    root = report["root"]
+    root_note = root if report["root_known"] else f"{root} (unknown statement)"
+    lines.append(f"frontier: {report['open_premise_count']} open premises; root {root_note}")
+    if not report["alternatives_recorded"]:
+        lines.append("alternatives: no alternatives recorded")
+    for item in report["items"]:
+        lines.append("")
+        lines.append(item["statement_id"])
+        if item["paraphrase"]:
+            lines.append(f"  {item['paraphrase']}")
+        lines.append(
+            f"  dependent arguments: {len(item['dependent_arguments'])} "
+            f"({', '.join(item['dependent_arguments'])})"
+        )
+        lines.append(
+            f"  transitive dependents: {len(item['transitive_dependent_arguments'])} arguments, "
+            f"{len(item['transitive_dependent_statements'])} statements"
+        )
+        if item["path_to_root"] is None:
+            lines.append("  path to root: not reached")
+        else:
+            lines.append(f"  path to root: {' -> '.join(item['path_to_root'])}")
+        if item["alternatives"]:
+            rendered = ", ".join(
+                f"{alt['statement_id']} ({'refuted' if alt['refuted'] else 'open'})"
+                for alt in item["alternatives"]
+            )
+            lines.append(f"  alternatives: {rendered}")
+        elif report["alternatives_recorded"]:
+            lines.append("  alternatives: none recorded")
+        objections = item["objections"]
+        lines.append(f"  objections: {', '.join(objections) if objections else 'none recorded'}")
+    return "\n".join(lines)
+
+
 def validate() -> dict[str, int]:
     sources = load_dir("sources")
     statements = load_dir("statements")
@@ -146,6 +347,9 @@ def validate() -> dict[str, int]:
             f"source evidence bound {bound_claim_count} claims but corpus contains {len(claim_index)}"
         )
 
+    claim_ids = set(claim_index)
+    result_ids = set(result_index)
+
     all_lean = "\n".join(
         path.read_text(encoding="utf-8")
         for path in sorted((ROOT / "TruthCore").rglob("*.lean"))
@@ -165,6 +369,7 @@ def validate() -> dict[str, int]:
                     f"{path.relative_to(ROOT)}: Lean declaration tail {tail!r} "
                     "was not found under TruthCore/"
                 )
+        validate_self_evident(path, statement, claim_ids, result_ids)
 
     for path, claim in claims:
         require(
@@ -257,6 +462,7 @@ def validate() -> dict[str, int]:
                 raise CorpusError(
                     f"{path.relative_to(ROOT)}: unknown {side} {kind} id {entity_id}"
                 )
+        validate_premise_program_relation(path, relation)
 
     for path, candidate in candidates:
         require(
@@ -389,6 +595,25 @@ def command_next(_: argparse.Namespace) -> int:
         return 1
     _, candidate = min(candidates, key=lambda item: (item[1]["priority"], item[1]["id"]))
     print(json.dumps(candidate, indent=2, ensure_ascii=False))
+    return 0
+
+
+def command_frontier(args: argparse.Namespace) -> int:
+    validate()
+    report = frontier_report(
+        [record for _, record in load_dir("statements")],
+        [record for _, record in load_dir("arguments")],
+        [record for _, record in load_dir("results")],
+        [record for _, record in load_dir("relations")],
+        root=args.root,
+    )
+    if args.reaching_root:
+        report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
+        report["open_premise_count"] = len(report["items"])
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+    else:
+        print(format_frontier(report))
     return 0
 
 
@@ -701,6 +926,22 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("next", help="print the highest-priority Codex work item").set_defaults(
         func=command_next
     )
+    frontier = sub.add_parser(
+        "frontier",
+        help="list open premises: not verified, not self-evident, alternatives not all refuted",
+    )
+    frontier.add_argument("--json", action="store_true", help="print the report as JSON")
+    frontier.add_argument(
+        "--root",
+        default=DEFAULT_FRONTIER_ROOT,
+        help=f"statement whose dependency path is shown (default {DEFAULT_FRONTIER_ROOT})",
+    )
+    frontier.add_argument(
+        "--reaching-root",
+        action="store_true",
+        help="list only open premises from which the root is reached",
+    )
+    frontier.set_defaults(func=command_frontier)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
@@ -718,7 +959,11 @@ def parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
-    args = parser().parse_args()
+    return main_with(None)
+
+
+def main_with(argv: list[str] | None) -> int:
+    args = parser().parse_args(argv)
     try:
         return args.func(args)
     except CorpusError as exc:

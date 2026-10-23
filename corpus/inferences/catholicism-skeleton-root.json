@@ -1,0 +1,1 @@
+{"id":"INF-CATHOLICISM-SKELETON-ROOT","input_statement_ids":["STMT-CATHOLIC-CHURCH-IS-GOD-FOUNDED-TEACHING-AUTHORITY","STMT-NICENE-CONSTANTINOPOLITAN-CREED-ARTICLES-HOLD"],"output_statement_id":"STMT-CATHOLICISM-TRUE","rule":"conjunction-introduction","meaning":"The phase-1 root is (A) and (B).","assumption_statement_ids":[],"discharged_statement_ids":[]}

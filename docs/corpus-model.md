@@ -54,3 +54,37 @@ No green status is allowed to collapse these boundaries. See `docs/source-eviden
 Large visual compositions should be derived from statements + inference applications + arguments. An argument can be collapsed to a single reusable block whose visible output is its conclusion, then expanded to reveal its internal premises and inference steps. React Flow or another graph renderer should consume such a derived projection; it should not become the canonical data model.
 
 Source views should instead derive their evidence presentation from Source + Passage + Claim records so a reader can inspect the exact witness separately from the project's interpretation and from any later machine-checked argument.
+
+## Premise program and frontier
+
+The case for Catholicism (epic #143) has a root statement, `STMT-CATHOLICISM-TRUE`, reached by the verified skeleton argument `CATHOLICISM-SKELETON` from open premises. Long term, every premise should be either self-evident or have all its alternatives shown false. Three optional pieces of metadata record that status:
+
+- **`self_evident`** on a statement: `{"justification_ids": ["..."]}`. Each ID must be a claim (for example a sourced *per se nota* reading, ST I q.2 a.1) or a result (for example a retorsion proof). Self-evidence is itself a sourced, challengeable claim, so a bare flag is rejected.
+- **Relations** with fixed endpoint kinds: `alternative_to` (statement → statement: the subject is a recorded alternative to the premise), `refutes` (argument → statement: the argument's conclusion shows the alternative false; it counts only when the argument has a result), and `attacks` (statement, claim or argument → statement: a recorded objection).
+
+`python3 scripts/corpus.py frontier` lists every statement used as a premise of some argument that is not (a) the conclusion of an argument with a verified result, (b) marked `self_evident`, or (c) refuted in every one of its recorded alternatives (at least one must be recorded). When the corpus has no `alternative_to` relations at all, the report says `no alternatives recorded`.
+
+For each open premise it shows the arguments that use it directly, the transitive dependents (arguments and conclusions reached by repeatedly following the arguments that use a statement as a premise), one shortest path to the root, and the attacking objections. Items that reach the root come first, then items with more transitive dependents, then by ID, so the output is deterministic. Options:
+
+- `--json` prints the same report as JSON;
+- `--root STMT-...` chooses the statement whose path is shown (default `STMT-CATHOLICISM-TRUE`);
+- `--reaching-root` keeps only the premises from which the root is reached.
+
+The frontier is the work queue for the premise program, not a truth score: a premise leaves it only by being proved from other premises, marked self-evident with a justification, or having every recorded alternative refuted. The candidates list (`corpus.py next`) remains the queue for source ranges.
+
+Example (abridged):
+
+```text
+$ python3 scripts/corpus.py frontier --reaching-root
+frontier: 19 open premises; root STMT-CATHOLICISM-TRUE
+alternatives: no alternatives recorded
+
+STMT-NO-INFINITE-PER-SE-MOVER-SERIES
+  A per se ordered series of moved movers cannot go on to infinity: ...
+  dependent arguments: 2 (AQUINAS-ST-I-Q2-A3-PRIMA-VIA, AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE)
+  transitive dependents: 4 arguments, 4 statements
+  path to root: STMT-NO-INFINITE-PER-SE-MOVER-SERIES -> AQUINAS-ST-I-Q2-A3-PRIMA-VIA -> STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING -> CATHOLICISM-STAGE1-FROM-PRIMA-VIA -> STMT-GOD-EXISTS -> CATHOLICISM-SKELETON -> STMT-CATHOLICISM-TRUE
+  objections: none recorded
+```
+
+Tests: `python3 -m unittest discover -s scripts -p 'test_*.py'`.
