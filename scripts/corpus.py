@@ -402,6 +402,295 @@ def command_ids(directory: str):
     return command
 
 
+# --- bind-check (#162): argument JSON must match the Lean theorem type -------
+
+BIND_TOOL = ROOT / "scripts" / "BindTypes.lean"
+
+
+def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
+    """The modules to import and the theorems to describe, in result-id order."""
+    ordered = sorted((record for _, record in results), key=lambda record: record["id"])
+    return {
+        "modules": sorted({record["solution_module"] for record in ordered}),
+        "theorems": [record["theorem"] for record in ordered],
+    }
+
+
+def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
+    """Run scripts/BindTypes.lean against the built library (needs `lake build`)."""
+    import subprocess
+    import tempfile
+
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
+        json.dump(tool_input, handle)
+        input_path = handle.name
+    try:
+        completed = subprocess.run(
+            ["lake", "env", "lean", "--run", str(BIND_TOOL), input_path],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    except FileNotFoundError as exc:
+        raise CorpusError("bind-check needs `lake` on PATH (run after `lake build`)") from exc
+    finally:
+        Path(input_path).unlink(missing_ok=True)
+    if completed.returncode != 0:
+        raise CorpusError(
+            f"{BIND_TOOL.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
+            f"{completed.stderr.strip() or completed.stdout.strip()}"
+        )
+    try:
+        described = json.loads(completed.stdout)
+    except json.JSONDecodeError as exc:
+        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
+    if not isinstance(described, list):
+        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} must print a JSON array")
+    return described
+
+
+def is_corpus_constant(name: str | None) -> bool:
+    return isinstance(name, str) and (name == "TruthCore" or name.startswith("TruthCore."))
+
+
+# Statements without `lean_declaration` cannot be bound by head constant. Each
+# such binding must be pinned here to the exact (whitespace-normalized) Lean
+# type it stands for; any other undeclared binding fails bind-check, and so
+# does a pin that no result uses any more.
+PINNED_UNDECLARED_BINDINGS: dict[tuple[str, str, str], str] = {
+    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-A", "conclusion", "STMT-COSMOS-HAS-CAUSE"):
+        "∃ cause, Causes cause cosmos",
+    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-B", "conclusion", "STMT-COSMOS-HAS-DISTINCT-CAUSE"):
+        "∃ cause, cause ≠ cosmos ∧ Causes cause cosmos",
+}
+
+
+def normalize_type(text: str) -> str:
+    return " ".join(text.split())
+
+
+def bind_result(
+    result: dict[str, Any],
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    described: dict[str, Any],
+    pins: dict[tuple[str, str, str], str] | None = None,
+) -> dict[str, Any]:
+    """Compare one result's argument record with the Lean description of its theorem.
+
+    A binder whose type lives in `Prop` is a premise hypothesis; every other
+    binder (`Type`/`Sort` parameters, predicates, individuals) is vocabulary.
+    A premise or conclusion statement binds to a hypothesis or result type by
+    equality of its `lean_declaration` with the type's head constant.
+
+    A statement without `lean_declaration` cannot be bound by head constant.
+    It is matched to a type whose head is not a `TruthCore` declaration (a
+    logical form such as `∃ x, …` over vocabulary). That binding passes only
+    when `pins` (default `PINNED_UNDECLARED_BINDINGS`) records exactly that
+    Lean type for this result, role and statement; the result is then
+    `pinned`. If the type's head is a `TruthCore` declaration, the statement
+    should name it, and that is a mismatch.
+    """
+    if pins is None:
+        pins = PINNED_UNDECLARED_BINDINGS
+
+    def declaration(statement_id: str) -> str | None:
+        return statement_index[statement_id][1].get("lean_declaration")
+
+    problems: list[dict[str, Any]] = []
+    undecidable: list[dict[str, Any]] = []
+    if "error" in described:
+        problems.append({"kind": "lean-error", "detail": described["error"]})
+        return {
+            "id": result["id"],
+            "theorem": result["theorem"],
+            "status": "mismatch",
+            "premises": [],
+            "conclusion": None,
+            "parameters": [],
+            "problems": problems,
+            "undecidable": [],
+        }
+
+    binders = described.get("binders", [])
+    parameters = [binder["name"] for binder in binders if not binder["prop"]]
+    hypotheses = [dict(binder, position=index) for index, binder in enumerate(binders) if binder["prop"]]
+
+    unused = list(argument["premise_statement_ids"])
+    premises: list[dict[str, Any]] = []
+    unmatched: list[dict[str, Any]] = []
+    # First pass: bind by head constant.
+    for hypothesis in hypotheses:
+        match = next(
+            (sid for sid in unused if declaration(sid) is not None and declaration(sid) == hypothesis["head"]),
+            None,
+        )
+        if match is None:
+            unmatched.append(hypothesis)
+            continue
+        unused.remove(match)
+        premises.append(
+            {
+                "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
+                "statement_id": match,
+                "lean_declaration": hypothesis["head"],
+            }
+        )
+    # Second pass: statements without a declaration take logical-form hypotheses.
+    for hypothesis in unmatched:
+        match = None
+        if not is_corpus_constant(hypothesis["head"]):
+            match = next((sid for sid in unused if declaration(sid) is None), None)
+        if match is None:
+            problems.append(
+                {
+                    "kind": "extra-hypothesis",
+                    "hypothesis": hypothesis["name"],
+                    "position": hypothesis["position"],
+                    "head": hypothesis["head"],
+                    "type": hypothesis["type"],
+                }
+            )
+            continue
+        unused.remove(match)
+        premises.append(
+            {
+                "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
+                "statement_id": match,
+                "lean_declaration": None,
+            }
+        )
+        undecidable.append(
+            {
+                "role": "premise",
+                "statement_id": match,
+                "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
+                "type": hypothesis["type"],
+            }
+        )
+    for statement_id in unused:
+        problems.append(
+            {"kind": "missing-premise", "statement_id": statement_id, "lean_declaration": declaration(statement_id)}
+        )
+
+    conclusion_id = argument["conclusion_statement_id"]
+    expected = declaration(conclusion_id)
+    outcome = described["result"]
+    conclusion = {"statement_id": conclusion_id, "lean_declaration": outcome["head"], "type": outcome["type"]}
+    if not outcome["prop"]:
+        problems.append({"kind": "conclusion-not-prop", "type": outcome["type"]})
+    elif expected is not None:
+        if expected != outcome["head"]:
+            problems.append(
+                {
+                    "kind": "conclusion-mismatch",
+                    "statement_id": conclusion_id,
+                    "lean_declaration": expected,
+                    "head": outcome["head"],
+                    "type": outcome["type"],
+                }
+            )
+    elif is_corpus_constant(outcome["head"]):
+        problems.append(
+            {
+                "kind": "conclusion-unbound-declaration",
+                "statement_id": conclusion_id,
+                "head": outcome["head"],
+                "type": outcome["type"],
+            }
+        )
+    else:
+        conclusion["lean_declaration"] = None
+        undecidable.append({"role": "conclusion", "statement_id": conclusion_id, "type": outcome["type"]})
+
+    for item in undecidable:
+        key = (result["id"], item["role"], item["statement_id"])
+        item["pin"] = list(key)
+        pinned = pins.get(key)
+        if pinned is None or normalize_type(pinned) != normalize_type(item["type"]):
+            problems.append(
+                {
+                    "kind": "undeclared-binding",
+                    "role": item["role"],
+                    "statement_id": item["statement_id"],
+                    "type": item["type"],
+                    "pinned_type": pinned,
+                }
+            )
+
+    if problems:
+        status = "mismatch"
+    elif undecidable:
+        status = "pinned"
+    else:
+        status = "bound"
+    premises.sort(key=lambda entry: entry["position"])
+    return {
+        "id": result["id"],
+        "theorem": result["theorem"],
+        "status": status,
+        "premises": [dict(sorted(entry.items())) for entry in premises],
+        "conclusion": dict(sorted(conclusion.items())),
+        "parameters": parameters,
+        "problems": problems,
+        "undecidable": undecidable,
+    }
+
+
+def bind_report(described_list: list[dict[str, Any]]) -> dict[str, Any]:
+    """Bind every result against the Lean descriptions (keyed by theorem name)."""
+    statement_index = index_by_id(load_dir("statements"), "statement")
+    argument_index = index_by_id(load_dir("arguments"), "argument")
+    results = load_dir("results")
+    by_theorem = {entry.get("theorem"): entry for entry in described_list}
+    entries = []
+    for _, result in sorted(results, key=lambda item: item[1]["id"]):
+        described = by_theorem.get(result["theorem"], {"error": "theorem not described by the Lean tool"})
+        argument = argument_index[result["argument_id"]][1]
+        entries.append(bind_result(result, argument, statement_index, described))
+    used = {tuple(item["pin"]) for entry in entries for item in entry["undecidable"]}
+    stale = sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
+    summary = Counter(entry["status"] for entry in entries)
+    return {
+        "summary": {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")},
+        "stale_pins": stale,
+        "results": entries,
+    }
+
+
+def command_bind_check(args: argparse.Namespace) -> int:
+    validate()
+    if args.lean_json:
+        described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
+    else:
+        described_list = run_bind_tool(bind_tool_input(load_dir("results")))
+    report = bind_report(described_list)
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        for entry in report["results"]:
+            if entry["status"] == "pinned":
+                for item in entry["undecidable"]:
+                    print(
+                        f"pinned: {entry['id']}: {item['role']} {item['statement_id']} "
+                        f"has no lean_declaration; Lean type is `{item['type']}`"
+                    )
+            for problem in entry["problems"]:
+                print(f"mismatch: {entry['id']}: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
+        summary = report["summary"]
+        print(
+            f"bind-check: {summary['bound']} bound, {summary['pinned']} pinned, "
+            f"{summary['mismatch']} mismatch"
+        )
+        for key in report["stale_pins"]:
+            print(f"stale pin: {key} is not used by any result; remove it from PINNED_UNDECLARED_BINDINGS")
+    return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
+
+
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description="Inspect and validate the truth-core corpus")
     sub = result.add_subparsers(dest="command", required=True)
@@ -418,6 +707,13 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("results", help="print verification result IDs, one per line").set_defaults(
         func=command_ids("results")
     )
+    bind = sub.add_parser(
+        "bind-check",
+        help="check that argument premises/conclusions match each result theorem's Lean type (after lake build)",
+    )
+    bind.add_argument("--json", action="store_true", help="print the full deterministic binding report")
+    bind.add_argument("--lean-json", help="use a saved scripts/BindTypes.lean output instead of running Lean")
+    bind.set_defaults(func=command_bind_check)
     return result
 
 
