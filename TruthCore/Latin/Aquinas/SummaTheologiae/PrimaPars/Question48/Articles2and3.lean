@@ -52,6 +52,16 @@ def SomethingFallsShortOfDueGoodReading {Being : Sort u} {Perfection : Sort v}
     (Due Has : Being → Perfection → Prop) : Prop :=
   ∃ x p, Due x p ∧ ¬ Has x p
 
+/-- Evil is found in things (*manifestum est quod in rebus malum invenitur*),
+the conclusion of the article.
+
+Only existence is formalized: there is evil in some being.
+
+Source: Thomas Aquinas, *Summa theologiae* I q.48 a.2 co.
+-/
+def EvilIsFoundInThingsReading {Being : Sort u} (Evil : Being → Prop) : Prop :=
+  ∃ x, Evil x
+
 /-- Evil "is" in the sense in which *being* signifies the truth of a proposition,
 the sense that answers the question *an est*: as we say blindness is in the eye
 (*alio modo dicitur ens, quod significat veritatem propositionis ... et hoc

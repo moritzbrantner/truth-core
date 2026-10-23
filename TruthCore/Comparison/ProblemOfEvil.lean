@@ -35,6 +35,8 @@ namespace TruthCore.Comparison.ProblemOfEvil
 open TruthCore.English.OConnor
 open TruthCore.Latin.Aquinas.SummaTheologiae
 
+universe u
+
 /-- The shared signature of the problem-of-evil question set. -/
 structure Sig where
   /-- Beings, respects, and the motion vocabulary of the *prima via* (#151). -/
@@ -78,9 +80,9 @@ def Background (s : Sig) : Prop :=
 def ExternalEvilPremise (s : Sig) : Prop :=
   EvilPremiseAssertedReading s.Holds s.evilPremise
 
-/-- There is evil in some being. -/
+/-- There is evil in some being (ST I q.48 a.2). -/
 def EvilExists (s : Sig) : Prop :=
-  ∃ x, s.Evil x
+  EvilIsFoundInThingsReading s.Evil
 
 /-- O'Connor's answer to `Q-MORAL-GROUNDING` (2023): moral statements have no
 truth value, and what has no truth value is not true. -/
@@ -95,25 +97,46 @@ def CatholicGrounding (s : Sig) : Prop :=
     EvilIsPrivationReading s.Evil s.Due s.Has ∧
     EvilIsAsPropositionalTruthReading s.Evil s.Holds s.evilPremise
 
-/-- The Catholic theory's commitments in this question set:
+/-- The Catholic theory's commitments in this question set, as one flat
+conjunction so that `bind-check` binds each to its statement:
 
-1. its grounding answer (`CatholicGrounding`);
+1. its grounding answer (the three conjuncts of `CatholicGrounding`);
 2. some things fall short of their due good (ST I q.48 a.2);
-3. the premises of the strong-reading *prima via* (ST I q.2 a.3, #151);
+3. the seven premises of the strong-reading *prima via* (ST I q.2 a.3, #151);
 4. what all understand as God is the first mover moved by none (#151);
 5. God is supremely good and omnipotent (q.2 a.3 ad 1);
 6. God brings good out of every evil (q.2 a.3 ad 1), the reason for permission.
 -/
 def Catholic (s : Sig) : Prop :=
-  CatholicGrounding s ∧
+  GoodnessIsActualityReading s.GoodIn s.Has ∧
+    EvilIsPrivationReading s.Evil s.Due s.Has ∧
+    EvilIsAsPropositionalTruthReading s.Evil s.Holds s.evilPremise ∧
     SomethingFallsShortOfDueGoodReading s.Due s.Has ∧
-    StrongPremises s.motion ∧
+    SomethingIsMovedReading s.motion.MovedIn ∧
+    MovedOnlyAsInPotencyReading s.motion.MovedIn s.motion.InPotency ∧
+    MovesOnlyAsInActReading s.motion.MovesIn s.motion.InAct ∧
+    ReducedOnlyByAMoverReading s.motion.MovedIn s.motion.MovesIn ∧
+    NotActAndPotencyInSameRespectReading s.motion.InAct s.motion.InPotency ∧
+    SecondMoversMoveOnlyAsMovedReading s.motion.MovedIn s.motion.MovesIn s.motion.MovesAsMoved ∧
+    NoInfinitePerSeMoverSeriesReading s.motion.MovesAsMoved ∧
     FirstUnmovedMoverIsWhatAllUnderstandAsGodReading s.motion.MovedIn s.motion.MovesIn s.God ∧
     GodSupremelyGoodAndOmnipotentReading s.God s.SupremelyGood s.Omnipotent ∧
     GodDrawsGoodFromEveryEvilReading s.God s.Evil s.GoodIn s.DrawsGoodFrom
 
-/-- The first objection's conditional at `s`: if God exists, there is no evil. -/
-def ObjectionOneConditional (s : Sig) : Prop :=
-  GodWouldExcludeAllEvilObjectionReading s.God s.Evil
+/-- The evil premise is not true. With the external premise that it is
+(ST I q.2 a.3 obj. 1), this yields `False`. -/
+def EvilPremiseNotTrue {Sentence : Sort u} (Holds : Sentence → Prop) (evilPremise : Sentence) :
+    Prop :=
+  ¬ Holds evilPremise
+
+/-- The internal form fails: the background, the Catholic theory and the
+existence of evil are jointly satisfiable. -/
+def CatholicTheoryConsistentWithEvil : Prop :=
+  ∃ s : Sig, Background s ∧ Catholic s ∧ EvilExists s
+
+/-- The first objection's conditional (if God exists, there is no evil) fails
+at `s`. -/
+def ObjectionOneFails (s : Sig) : Prop :=
+  ¬ GodWouldExcludeAllEvilObjectionReading s.God s.Evil
 
 end TruthCore.Comparison.ProblemOfEvil

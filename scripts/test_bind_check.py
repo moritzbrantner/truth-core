@@ -134,6 +134,83 @@ class BindResultTest(unittest.TestCase):
         self.assertEqual(report["status"], "mismatch")
 
 
+def bundle(name: str, head: str, conjuncts: list[dict]) -> dict:
+    return dict(hyp(name, head), bundle=conjuncts)
+
+
+class TheoryBundleTest(unittest.TestCase):
+    """A theory hypothesis is unfolded one step and its conjuncts bind exactly."""
+
+    INDEX = statements(P="PReading", Q="QReading", R="RReading", C="CReading", K="KConsistent", E=None)
+
+    def bind(self, binders, result, premises=("P", "Q", "R"), commitments=None):
+        argument = {"premise_statement_ids": list(premises), "conclusion_statement_id": "C"}
+        if commitments is not None:
+            argument["commitment_statement_ids"] = list(commitments)
+            argument["conclusion_statement_id"] = "K"
+        return corpus.bind_result(RESULT, argument, self.INDEX, describe(binders, result), {})
+
+    def test_bundle_conjuncts_cover_premises(self):
+        report = self.bind(
+            [param("s", "Sig"), bundle("hT", "Theory", [hyp("", "PReading"), hyp("", "QReading")]), hyp("hR", "RReading")],
+            hyp("", "CReading"),
+        )
+        self.assertEqual(report["status"], "bound")
+        self.assertEqual(
+            [(entry["hypothesis"], entry["statement_id"]) for entry in report["premises"]],
+            [("hT.1", "P"), ("hT.2", "Q"), ("hR", "R")],
+        )
+
+    def test_bundle_missing_a_listed_premise(self):
+        report = self.bind([bundle("hT", "Theory", [hyp("", "PReading"), hyp("", "QReading")])], hyp("", "CReading"))
+        self.assertEqual([p["kind"] for p in report["problems"]], ["missing-premise"])
+
+    def test_bundle_with_an_extra_conjunct(self):
+        report = self.bind(
+            [bundle("hT", "Theory", [hyp("", "PReading"), hyp("", "QReading"), hyp("", "RReading"), hyp("", "XReading")])],
+            hyp("", "CReading"),
+        )
+        self.assertEqual([p["kind"] for p in report["problems"]], ["unbound-bundle-conjunct"])
+
+    def test_nested_theory_conjunct_is_not_unfolded(self):
+        report = self.bind(
+            [bundle("hT", "Theory", [hyp("", "PReading"), hyp("", "Grounding")]), hyp("hR", "RReading")],
+            hyp("", "CReading"),
+            premises=("P", "R"),
+        )
+        self.assertEqual([p["kind"] for p in report["problems"]], ["unbound-bundle-conjunct"])
+
+    def test_logical_form_conjunct_cannot_be_pinned(self):
+        report = self.bind(
+            [bundle("hT", "Theory", [hyp("", "PReading"), hyp("", "Exists", type_="∃ x, F x")])],
+            hyp("", "CReading"),
+            premises=("P", "E"),
+        )
+        self.assertEqual(report["status"], "mismatch")
+        self.assertIn("unbound-bundle-conjunct", [p["kind"] for p in report["problems"]])
+
+    def test_unfold_failure_is_a_mismatch(self):
+        report = self.bind([dict(hyp("hT", "Theory"), bundle="cannot unfold")], hyp("", "CReading"), premises=())
+        self.assertEqual([p["kind"] for p in report["problems"]], ["bundle-unfold-failed"])
+
+    def test_consistency_commitments_bind_exactly(self):
+        result = dict(hyp("", "KConsistent"), bundle=[hyp("", "PReading"), hyp("", "QReading")])
+        report = self.bind([], result, premises=(), commitments=("P", "Q"))
+        self.assertEqual(report["status"], "bound")
+        self.assertEqual([c["statement_id"] for c in report["commitments"]], ["P", "Q"])
+
+    def test_consistency_commitment_missing_or_extra(self):
+        result = dict(hyp("", "KConsistent"), bundle=[hyp("", "PReading"), hyp("", "XReading")])
+        report = self.bind([], result, premises=(), commitments=("P", "Q"))
+        self.assertEqual(
+            sorted(p["kind"] for p in report["problems"]), ["missing-commitment", "unbound-commitment"]
+        )
+
+    def test_commitments_need_a_theory_conclusion(self):
+        report = self.bind([], hyp("", "KConsistent"), premises=(), commitments=("P",))
+        self.assertEqual([p["kind"] for p in report["problems"]], ["commitments-without-bundle"])
+
+
 class BindToolInputTest(unittest.TestCase):
     def test_input_is_sorted_and_deduplicated(self):
         results = [
@@ -142,7 +219,12 @@ class BindToolInputTest(unittest.TestCase):
             (Path("c.json"), {"id": "C", "solution_module": "M1", "theorem": "t3"}),
         ]
         self.assertEqual(
-            corpus.bind_tool_input(results), {"modules": ["M1", "M2"], "theorems": ["t1", "t2", "t3"]}
+            corpus.bind_tool_input(results),
+            {
+                "modules": ["M1", "M2"],
+                "theorems": ["t1", "t2", "t3"],
+                "bundle_prefixes": corpus.THEORY_BUNDLE_PREFIXES,
+            },
         )
 
 

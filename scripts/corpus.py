@@ -85,7 +85,7 @@ def validate_argument_derivation(
     argument: dict[str, Any],
     inference_index: dict[str, tuple[Path, dict[str, Any]]],
 ) -> None:
-    available = set(argument["premise_statement_ids"])
+    available = set(argument["premise_statement_ids"]) | set(argument.get("commitment_statement_ids", []))
     remaining = {
         inference_id: inference_index[inference_id][1]
         for inference_id in argument["inference_ids"]
@@ -672,12 +672,21 @@ def validate() -> dict[str, int]:
     for path, argument in arguments:
         require(
             argument,
-            ["id", "premise_statement_ids", "conclusion_statement_id", "inference_ids", "meaning"],
+            ["id", "conclusion_statement_id", "inference_ids", "meaning"],
             path,
         )
-        premises = require_string_list(argument, "premise_statement_ids", path, allow_empty=False)
+        # A consistency argument lists the commitments it shows jointly satisfiable
+        # and may then have no premises.
+        commitments = (
+            require_string_list(argument, "commitment_statement_ids", path)
+            if "commitment_statement_ids" in argument
+            else []
+        )
+        premises = require_string_list(
+            argument, "premise_statement_ids", path, allow_empty=bool(commitments)
+        )
         inference_ids = require_string_list(argument, "inference_ids", path, allow_empty=False)
-        for statement_id in [*premises, argument["conclusion_statement_id"]]:
+        for statement_id in [*premises, *commitments, argument["conclusion_statement_id"]]:
             if statement_id not in statement_index:
                 raise CorpusError(
                     f"{path.relative_to(ROOT)}: unknown statement id {statement_id}"
@@ -893,6 +902,13 @@ def command_ids(directory: str):
 
 BIND_TOOL = ROOT / "scripts" / "BindTypes.lean"
 
+# Theory definitions (#149, #160): a hypothesis whose head lies in one of these
+# namespaces is a theory bundle. bind-check unfolds it exactly one step, splits
+# it on `∧`, and binds every conjunct to a premise statement; the conjuncts must
+# cover the argument's premises exactly. A consistency conclusion that is such a
+# definition lists its commitments the same way (see scripts/BindTypes.lean).
+THEORY_BUNDLE_PREFIXES = ["TruthCore.Comparison."]
+
 
 def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
     """The modules to import and the theorems to describe, in result-id order."""
@@ -900,6 +916,7 @@ def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, lis
     return {
         "modules": sorted({record["solution_module"] for record in ordered}),
         "theorems": [record["theorem"] for record in ordered],
+        "bundle_prefixes": THEORY_BUNDLE_PREFIXES,
     }
 
 
@@ -1002,7 +1019,29 @@ def bind_result(
 
     binders = described.get("binders", [])
     parameters = [binder["name"] for binder in binders if not binder["prop"]]
-    hypotheses = [dict(binder, position=index) for index, binder in enumerate(binders) if binder["prop"]]
+    hypotheses: list[dict[str, Any]] = []
+    for index, binder in enumerate(binders):
+        if not binder["prop"]:
+            continue
+        bundle = binder.get("bundle")
+        if bundle is None:
+            hypotheses.append(dict(binder, position=index, conjunct=None))
+        elif not isinstance(bundle, list):
+            problems.append(
+                {"kind": "bundle-unfold-failed", "hypothesis": binder["name"], "head": binder["head"]}
+            )
+        else:
+            # A theory bundle stands for its conjuncts; the bundle itself binds to nothing.
+            for number, conjunct in enumerate(bundle):
+                hypotheses.append(
+                    dict(
+                        conjunct,
+                        name=f"{binder['name']}.{number + 1}",
+                        position=index,
+                        conjunct=number,
+                        bundle=binder["head"],
+                    )
+                )
 
     unused = list(argument["premise_statement_ids"])
     premises: list[dict[str, Any]] = []
@@ -1017,16 +1056,30 @@ def bind_result(
             unmatched.append(hypothesis)
             continue
         unused.remove(match)
-        premises.append(
-            {
-                "hypothesis": hypothesis["name"],
-                "position": hypothesis["position"],
-                "statement_id": match,
-                "lean_declaration": hypothesis["head"],
-            }
-        )
+        entry = {
+            "hypothesis": hypothesis["name"],
+            "position": hypothesis["position"],
+            "statement_id": match,
+            "lean_declaration": hypothesis["head"],
+        }
+        if hypothesis.get("bundle"):
+            entry["bundle"] = hypothesis["bundle"]
+            entry["conjunct"] = hypothesis["conjunct"]
+        premises.append(entry)
     # Second pass: statements without a declaration take logical-form hypotheses.
     for hypothesis in unmatched:
+        if hypothesis.get("bundle"):
+            # Bundle conjuncts never bind by logical form or pin.
+            problems.append(
+                {
+                    "kind": "unbound-bundle-conjunct",
+                    "hypothesis": hypothesis["name"],
+                    "bundle": hypothesis["bundle"],
+                    "head": hypothesis["head"],
+                    "type": hypothesis["type"],
+                }
+            )
+            continue
         match = None
         if not is_corpus_constant(hypothesis["head"]):
             match = next((sid for sid in unused if declaration(sid) is None), None)
@@ -1094,6 +1147,32 @@ def bind_result(
         conclusion["lean_declaration"] = None
         undecidable.append({"role": "conclusion", "statement_id": conclusion_id, "type": outcome["type"]})
 
+    commitments: list[dict[str, Any]] = []
+    commitment_ids = list(argument.get("commitment_statement_ids", []))
+    if commitment_ids:
+        bundle = outcome.get("bundle")
+        if not isinstance(bundle, list):
+            problems.append(
+                {"kind": "commitments-without-bundle", "head": outcome.get("head"), "type": outcome["type"]}
+            )
+        else:
+            for number, item in enumerate(bundle):
+                match = next(
+                    (sid for sid in commitment_ids if declaration(sid) is not None and declaration(sid) == item["head"]),
+                    None,
+                )
+                if match is None:
+                    problems.append(
+                        {"kind": "unbound-commitment", "position": number, "head": item["head"], "type": item["type"]}
+                    )
+                    continue
+                commitment_ids.remove(match)
+                commitments.append({"position": number, "statement_id": match, "lean_declaration": item["head"]})
+            for statement_id in commitment_ids:
+                problems.append(
+                    {"kind": "missing-commitment", "statement_id": statement_id, "lean_declaration": declaration(statement_id)}
+                )
+
     for item in undecidable:
         key = (result["id"], item["role"], item["statement_id"])
         item["pin"] = list(key)
@@ -1115,13 +1194,14 @@ def bind_result(
         status = "pinned"
     else:
         status = "bound"
-    premises.sort(key=lambda entry: entry["position"])
+    premises.sort(key=lambda entry: (entry["position"], entry.get("conjunct") or 0))
     return {
         "id": result["id"],
         "theorem": result["theorem"],
         "status": status,
         "premises": [dict(sorted(entry.items())) for entry in premises],
         "conclusion": dict(sorted(conclusion.items())),
+        "commitments": commitments,
         "parameters": parameters,
         "problems": problems,
         "undecidable": undecidable,

@@ -131,12 +131,13 @@ theorem witnessDrawsGood :
   | .f, _, h, _ => False.elim h
   | .x, _, h, _ => False.elim h
 
-theorem catholicConsistentWithEvil : ∃ s, Background s ∧ Catholic s ∧ EvilExists s :=
+theorem catholicConsistentWithEvil : CatholicTheoryConsistentWithEvil :=
+  let ⟨hSense, hPotency, hAct, hReduction, hNotBoth, hPerSe, hRegress⟩ := strongModel_premises
   ⟨witness,
     ⟨witnessBadIsMoral, trivial, fun _ b hOmni _ => hOmni b⟩,
-    ⟨⟨fun _ _ => Iff.rfl, witnessPrivation, fun hEvil => hEvil⟩,
+    ⟨fun _ _ => Iff.rfl, witnessPrivation, fun hEvil => hEvil,
       ⟨.x, .life, trivial, id⟩,
-      strongModel_premises,
+      hSense, hPotency, hAct, hReduction, hNotBoth, hPerSe, hRegress,
       witnessIdentification,
       witnessAttributes,
       witnessDrawsGood⟩,

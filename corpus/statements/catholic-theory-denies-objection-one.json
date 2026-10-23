@@ -1,1 +1,1 @@
-{"id": "STMT-CATHOLIC-THEORY-DENIES-OBJECTION-ONE", "paraphrase": "The Catholic theory is inconsistent with the objection's conditional that if God existed there would be no evil.", "lean_declaration": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.catholicDeniesObjectionOne"}
+{"id": "STMT-CATHOLIC-THEORY-DENIES-OBJECTION-ONE", "paraphrase": "On the Catholic theory, the objection's conditional (if God existed there would be no evil) is false.", "lean_declaration": "TruthCore.Comparison.ProblemOfEvil.ObjectionOneFails"}
