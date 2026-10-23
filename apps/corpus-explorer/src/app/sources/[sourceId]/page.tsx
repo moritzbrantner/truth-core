@@ -54,7 +54,7 @@ export default async function SourcePage({ params }: SourcePageProps) {
               View stable catalog record ↗
             </a>
           </dd>
-          <dt>CTS work URN</dt>
+          <dt>Work identifier</dt>
           <dd className="font-mono break-all">{source.work_urn}</dd>
           {source.reference_edition_urn ? (
             <>

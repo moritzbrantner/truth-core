@@ -17,7 +17,9 @@ A green result in one layer never implies that the later layers are green. In pa
 Each passage manifest has two parts:
 
 - a **snapshot**, shared by one or more passage ranges, containing the source ID, exact edition URN, language, public repository, immutable revision SHA, file path, Git blob SHA, immutable raw URL, and license;
-- one or more **passages**, containing a stable passage ID, conventional human locator, claim-locator prefixes, and an optional CTS extraction path.
+- one or more **passages**, containing a stable passage ID, conventional human locator, claim-locator prefixes, and an optional extraction selector: a CTS path (`cts_path`) or, for TEI witnesses without CTS structure, the unique `xml:id` of the range's element (`tei_xml_id`).
+
+CTS edition URNs must extend the source's work URN. Works without CTS identifiers (for example Aquinas via SCTA resource URIs) instead list each admitted edition identifier in the source record's `edition_urns`. Materialization joins words across TEI `<lb break="no"/>` line breaks.
 
 The conventional locator remains the citation scholars should read, such as `Physics I.4, 187b7-13` or `Timaeus 28a`. The pinned digital witness answers the different question: exactly which edition bytes did the worker inspect?
 

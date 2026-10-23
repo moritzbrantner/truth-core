@@ -1,0 +1,1 @@
+{"id":"STMT-ABSOLUTE-UNMOVED-MOVER-ENTAILS-RELATIVE","paraphrase":"Formal fact: the conclusion that a mover moved by none cannot be lacking entails that a relatively unmoved mover cannot be lacking, so an objection that falsifies the relative conclusion falsifies the absolute one too.","lean_declaration":"TruthCore.Latin.Aquinas.SummaTheologiae.AbsoluteConclusionEntailsRelative"}

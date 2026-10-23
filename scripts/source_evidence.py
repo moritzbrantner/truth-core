@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable, Iterator
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -93,6 +93,17 @@ def validate_manifest(path: Path, passage: dict[str, Any]) -> None:
             f"{path.relative_to(ROOT)}: source_url must pin repository, revision, and path"
         )
 
+    xml_id = passage.get("tei_xml_id")
+    if xml_id is not None:
+        if not isinstance(xml_id, str) or not xml_id:
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: tei_xml_id must be a non-empty string when present"
+            )
+        if passage.get("cts_path"):
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: use either cts_path or tei_xml_id, not both"
+            )
+
     cts_path = passage.get("cts_path", [])
     if not isinstance(cts_path, list):
         raise SourceEvidenceError(f"{path.relative_to(ROOT)}: cts_path must be a list when present")
@@ -168,7 +179,17 @@ def validate_bindings() -> tuple[int, int]:
                 f"{path.relative_to(ROOT)}: unknown source_id {passage['source_id']}"
             )
         work_urn = source[1].get("work_urn")
-        if not isinstance(work_urn, str) or not passage["edition_urn"].startswith(work_urn + "."):
+        # CTS edition URNs extend the work URN. Works outside CTS (e.g. SCTA)
+        # instead list their admitted edition identifiers explicitly.
+        listed_editions = source[1].get("edition_urns", [])
+        if not isinstance(listed_editions, list):
+            raise SourceEvidenceError(
+                f"{source[0].relative_to(ROOT)}: edition_urns must be a list when present"
+            )
+        if not isinstance(work_urn, str) or not (
+            passage["edition_urn"].startswith(work_urn + ".")
+            or passage["edition_urn"] in listed_editions
+        ):
             raise SourceEvidenceError(
                 f"{path.relative_to(ROOT)}: edition_urn is not an edition of {work_urn}"
             )
@@ -275,6 +296,47 @@ def find_cts_target(root: ET.Element, cts_path: list[dict[str, str]], passage_id
     return current
 
 
+XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
+# Marks a TEI `<lb break="no"/>`: the word continues across the line break.
+WORD_JOIN = object()
+
+
+def find_xml_id_target(root: ET.Element, xml_id: str, passage_id: str) -> ET.Element:
+    matches = [element for element in root.iter() if element.get(XML_ID) == xml_id]
+    if len(matches) != 1:
+        raise SourceEvidenceError(
+            f"{passage_id}: tei_xml_id {xml_id!r} matched {len(matches)} elements"
+        )
+    return matches[0]
+
+
+def iter_text(element: ET.Element) -> Iterator[str | object]:
+    """Like ElementTree.itertext, but yields WORD_JOIN at `<lb break="no"/>`."""
+    if element.text:
+        yield element.text
+    for child in element:
+        if local_name(child.tag) == "lb" and child.get("break") == "no":
+            yield WORD_JOIN
+        else:
+            yield from iter_text(child)
+        if child.tail:
+            yield child.tail
+
+
+def join_text(pieces: Iterable[str | object]) -> str:
+    chunks: list[list[str]] = [[]]
+    for piece in pieces:
+        if piece is WORD_JOIN:
+            chunks.append([])
+        else:
+            chunks[-1].append(str(piece))
+    text = ""
+    for index, chunk in enumerate(chunks):
+        joined = " ".join(chunk)
+        text = joined if index == 0 else text.rstrip() + joined.lstrip()
+    return " ".join(text.split())
+
+
 def extract_plain_text(data: bytes, passage: dict[str, Any]) -> str:
     try:
         root = ET.fromstring(data)
@@ -282,8 +344,14 @@ def extract_plain_text(data: bytes, passage: dict[str, Any]) -> str:
         raise SourceEvidenceError(f"{passage['id']}: source XML is invalid: {exc}") from exc
 
     cts_path = passage.get("cts_path", [])
-    target = find_cts_target(root, cts_path, passage["id"]) if cts_path else root
-    text = " ".join(" ".join(target.itertext()).split())
+    xml_id = passage.get("tei_xml_id")
+    if xml_id:
+        target = find_xml_id_target(root, xml_id, passage["id"])
+    elif cts_path:
+        target = find_cts_target(root, cts_path, passage["id"])
+    else:
+        target = root
+    text = join_text(iter_text(target))
     if not text:
         raise SourceEvidenceError(f"{passage['id']}: extracted passage text is empty")
     return text
