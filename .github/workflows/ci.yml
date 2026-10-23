@@ -37,6 +37,7 @@ jobs:
           python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q2-A3 --output /tmp/aquinas-st-i-q2-a3.txt
           python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt
+          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q48-A3 --output /tmp/aquinas-st-i-q48-a3.txt
 
   corpus-explorer:
     runs-on: ubuntu-latest

@@ -9,7 +9,9 @@
     "http://scta.info/resource/TAca84-d1e56/cod-cnLxE4",
     "http://scta.info/resource/TAca84-d1e283/cod-cnLxE4",
     "http://scta.info/resource/TAca84-d1e61/cod-cnLxE4",
-    "http://scta.info/resource/TAca84-d1e103/cod-cnLxE4"
+    "http://scta.info/resource/TAca84-d1e103/cod-cnLxE4",
+    "http://scta.info/resource/TAca84-d1e72/cod-cnLxE4",
+    "http://scta.info/resource/TAca84-d1e294/cod-cnLxE4"
   ],
   "catalog_url": "http://scta.info/resource/TAca84",
   "notes": "Use the conventional pars/quaestio/articulus locator as the human citation; `co.` marks the corpus (respondeo) of an article and `ad n` the reply to objection n. There is no CTS URN for the Summa, so the work and edition identifiers are SCTA (Scholastic Commentaries and Texts Archive) resource URIs: SCTA transcribes each quaestio as its own expression, and `edition_urns` lists the canonical manifestation of each pinned quaestio. The pinned witness is the SCTA LombardPress diplomatic TEI transcription of the Leonine edition (Opera omnia, vol. 4, Rome 1888), witness `cod-cnLxE4`, by Jeffrey C. Witt, CC BY-NC-SA 4.0. The owner accepted this witness, including its NonCommercial-ShareAlike license and draft status, as the theology base witness on 2026-10-23 (issue #143). The transcription keeps OCR residue of the Leonine apparatus markers (stray quotation marks, `?`, `^`, `$e` for `se`, and one stray full stop in `aliud. movens`); read those as noise, not as text. Corpus Thomisticum (Leonine text, unpinned web pages) is an orientation aid only."

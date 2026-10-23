@@ -33,6 +33,10 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
 import TruthCore.English.OConnor.Metaethics
 import TruthCore.English.OConnor.ProblemOfEvil
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution
@@ -177,3 +181,7 @@ import TruthCore.Case.Catholicism.StageOneBridges
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.MoralGroundingAnswerMap.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
