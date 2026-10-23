@@ -51,7 +51,7 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
   { id: "defended", label: "Alternatives refuted", description: "Every recorded alternative is refuted by a verified argument." },
   { id: "alternative", label: "Alternative", description: "Recorded as an alternative to another statement." },
   { id: "objection", label: "Objection", description: "Recorded as an objection attacking another statement." },
-  { id: "open", label: "Open premise", description: "Premise of an argument that is not proved, self-evident or defended: the frontier." },
+  { id: "open", label: "Open premise", description: "Premise of an argument that is not proved (other than by transcription), self-evident or defended: the frontier." },
   { id: "derived", label: "Intermediate step", description: "Output of an inference step that is not an argument conclusion with a result." },
   { id: "source-only", label: "Source reading only", description: "Stated by a source; no argument uses it yet." },
 ];
@@ -359,7 +359,11 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
     const recordedAlternatives = alternatives.get(id) ?? [];
     const defended = recordedAlternatives.length > 0 && recordedAlternatives.every((alt) => refuted.has(alt));
     const selfEvident = statement.self_evident !== undefined && statement.self_evident !== null;
-    const frontier = premiseOf.has(id) && verifying.length === 0 && !selfEvident && !defended;
+    // Invariant 16: a transcription closes no frontier node, so a premise proved
+    // only by transcription-flagged results stays on the frontier (same rule as
+    // `corpus.py frontier`); its status stays "transcription" so the flag shows.
+    const closedByProof = verifying.some((resultId) => !transcription.has(resultId));
+    const frontier = premiseOf.has(id) && !closedByProof && !selfEvident && !defended;
 
     let status: GraphStatus;
     if (verifying.length) {

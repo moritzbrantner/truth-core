@@ -16,6 +16,7 @@ export const fixture: PropositionGraphInput = {
     statement("LONE"),
     statement("T"),
     statement("TC"),
+    statement("TOP"),
   ],
   claims: [
     { id: "CL-P1-A", statement_id: "P1", source_id: "SRC", locator: "1a", interpretation: "Reading A.", interpretation_group: "G", passage_id: "SRC-1" },
@@ -32,12 +33,14 @@ export const fixture: PropositionGraphInput = {
     { id: "I2", input_statement_ids: ["C", "SE", "DEF"], output_statement_id: "ROOT", rule: "conjunction_introduction", meaning: "Root." },
     { id: "I3", input_statement_ids: ["ALT"], output_statement_id: "OBJ", rule: "modus_tollens", meaning: "Refutation." },
     { id: "I4", input_statement_ids: ["T"], output_statement_id: "TC", rule: "modus_ponens", meaning: "Transcribed." },
+    { id: "I5", input_statement_ids: ["TC"], output_statement_id: "TOP", rule: "modus_ponens", meaning: "Uses a transcription." },
   ],
   arguments: [
     { id: "A1", premise_statement_ids: ["P1", "P2"], conclusion_statement_id: "C", inference_ids: ["I1"], meaning: "C follows." },
     { id: "A2", premise_statement_ids: ["C", "SE", "DEF"], conclusion_statement_id: "ROOT", inference_ids: ["I2"], meaning: "Root follows." },
     { id: "A3", premise_statement_ids: ["ALT"], conclusion_statement_id: "OBJ", inference_ids: ["I3"], meaning: "Refutes ALT." },
     { id: "A4", premise_statement_ids: ["T"], conclusion_statement_id: "TC", inference_ids: ["I4"], meaning: "Transcribed." },
+    { id: "A5", premise_statement_ids: ["TC"], conclusion_statement_id: "TOP", inference_ids: ["I5"], meaning: "Rests on a transcription." },
   ],
   results: [
     { id: "R1", argument_id: "A1" },

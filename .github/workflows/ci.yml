@@ -23,8 +23,10 @@ jobs:
         run: python3 scripts/corpus.py check
       - name: Bind argument records to result theorem types
         run: python3 scripts/corpus.py bind-check
-      - name: Test media-span evidence offline
+      - name: Test corpus tooling and media-span evidence offline
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Report the premise frontier
+        run: python3 scripts/corpus.py frontier --reaching-root
       - name: Verify immutable primary-source witnesses
         run: python3 scripts/source_evidence.py verify
       - name: Exercise source materialization
@@ -34,6 +36,7 @@ jobs:
           python3 scripts/source_evidence.py materialize ARIST-MET-IV-1 --output /tmp/aristotle-metaphysics-iv-1.txt
           python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q2-A3 --output /tmp/aquinas-st-i-q2-a3.txt
+          python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt
 
   corpus-explorer:
     runs-on: ubuntu-latest

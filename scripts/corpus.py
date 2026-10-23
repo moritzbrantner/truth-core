@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -111,6 +112,455 @@ def validate_argument_derivation(
         )
 
 
+# Premise-program schema (#156). A statement may be marked self-evident, and
+# relations may record alternatives to a premise, refutations of an alternative,
+# and objections attacking a premise. All of it is optional metadata.
+ALTERNATIVE_PREDICATE = "alternative_to"
+REFUTES_PREDICATE = "refutes"
+ATTACKS_PREDICATE = "attacks"
+DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+
+
+def validate_self_evident(
+    path: Path,
+    statement: dict[str, Any],
+    claim_ids: set[str],
+    result_ids: set[str],
+) -> None:
+    marking = statement.get("self_evident")
+    if marking is None:
+        return
+    if not isinstance(marking, dict):
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: self_evident must be an object with justification_ids"
+        )
+    justification = require_string_list(marking, "justification_ids", path, allow_empty=False)
+    for justification_id in justification:
+        if justification_id not in claim_ids and justification_id not in result_ids:
+            raise CorpusError(
+                f"{path.relative_to(ROOT)}: self_evident justification {justification_id} "
+                "is neither a claim id nor a result id"
+            )
+
+
+def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> None:
+    predicate = relation["predicate"]
+    expected = {
+        ALTERNATIVE_PREDICATE: ({"statement"}, "statement"),
+        REFUTES_PREDICATE: ({"argument"}, "statement"),
+        ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
+    }.get(predicate)
+    if expected is None:
+        return
+    subject_kinds, object_kind = expected
+    if relation["subject_kind"] not in subject_kinds or relation["object_kind"] != object_kind:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: {predicate} relates "
+            f"{'/'.join(sorted(subject_kinds))} to {object_kind}"
+        )
+
+
+def frontier_report(
+    statements: list[dict[str, Any]],
+    arguments: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+    root: str | None = DEFAULT_FRONTIER_ROOT,
+    transcription: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    """Open premises: used as an argument premise and not (a) the conclusion of
+    a verified result that is not a transcription (invariant 16), (b) marked
+    self_evident, or (c) refuted in every one of its recorded alternatives (at
+    least one alternative recorded)."""
+    statement_by_id = {statement["id"]: statement for statement in statements}
+    argument_by_id = {argument["id"]: argument for argument in arguments}
+    verified_arguments = {result["argument_id"] for result in results}
+    # Invariant 16: a transcription closes no frontier node. A conclusion is
+    # closed only by a verified result that is not a single application of one
+    # hypothesis (the rule /graph uses for its "transcription" status).
+    transcription_results = {
+        flag["result_id"] for flag in (transcription or []) if flag["single_application_of"]
+    }
+    verified_conclusions = {
+        argument_by_id[result["argument_id"]]["conclusion_statement_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
+    }
+    transcription_only_conclusions = {
+        argument_by_id[result["argument_id"]]["conclusion_statement_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id
+    } - verified_conclusions
+
+    dependents: dict[str, set[str]] = {}
+    for argument in arguments:
+        for premise in argument["premise_statement_ids"]:
+            dependents.setdefault(premise, set()).add(argument["id"])
+
+    alternatives: dict[str, set[str]] = {}
+    refuted: set[str] = set()
+    objections: dict[str, set[str]] = {}
+    for relation in relations:
+        predicate = relation.get("predicate")
+        if predicate == ALTERNATIVE_PREDICATE:
+            alternatives.setdefault(relation["object_id"], set()).add(relation["subject_id"])
+        elif predicate == REFUTES_PREDICATE and relation["subject_id"] in verified_arguments:
+            refuted.add(relation["object_id"])
+        elif predicate == ATTACKS_PREDICATE:
+            objections.setdefault(relation["object_id"], set()).add(
+                f"{relation['subject_kind']}:{relation['subject_id']}"
+            )
+
+    def upward(statement_id: str) -> tuple[list[str], list[str], list[str] | None]:
+        """Breadth-first walk from a premise through the arguments that use it.
+        Returns dependent arguments and conclusions (by distance, then id) and
+        one shortest statement/argument path to the root, if reachable."""
+        seen_arguments: list[str] = []
+        seen_statements: list[str] = []
+        visited_arguments: set[str] = set()
+        visited_statements = {statement_id}
+        parent: dict[str, tuple[str, str]] = {}
+        frontier = [statement_id]
+        while frontier:
+            next_frontier: list[str] = []
+            layer: list[tuple[str, str, str]] = []
+            for current in frontier:
+                for argument_id in dependents.get(current, ()):
+                    conclusion = argument_by_id[argument_id]["conclusion_statement_id"]
+                    layer.append((argument_id, conclusion, current))
+            for argument_id, conclusion, current in sorted(layer):
+                if argument_id not in visited_arguments:
+                    visited_arguments.add(argument_id)
+                    seen_arguments.append(argument_id)
+                if conclusion not in visited_statements:
+                    visited_statements.add(conclusion)
+                    parent[conclusion] = (argument_id, current)
+                    seen_statements.append(conclusion)
+                    next_frontier.append(conclusion)
+            frontier = sorted(next_frontier)
+        path: list[str] | None = None
+        if root is not None and root in parent:
+            path = [root]
+            node = root
+            while node != statement_id:
+                argument_id, node = parent[node]
+                path[:0] = [node, argument_id]
+        return seen_arguments, seen_statements, path
+
+    items: list[dict[str, Any]] = []
+    for statement_id in sorted(dependents):
+        if statement_id in verified_conclusions:
+            continue
+        if statement_by_id.get(statement_id, {}).get("self_evident") is not None:
+            continue
+        recorded = sorted(alternatives.get(statement_id, ()))
+        if recorded and all(alternative in refuted for alternative in recorded):
+            continue
+        all_arguments, all_conclusions, path = upward(statement_id)
+        items.append(
+            {
+                "statement_id": statement_id,
+                "paraphrase": statement_by_id.get(statement_id, {}).get("paraphrase", ""),
+                "transcription_only": statement_id in transcription_only_conclusions,
+                "dependent_arguments": sorted(dependents[statement_id]),
+                "transitive_dependent_arguments": all_arguments,
+                "transitive_dependent_statements": all_conclusions,
+                "path_to_root": path,
+                "alternatives": [
+                    {"statement_id": alternative, "refuted": alternative in refuted}
+                    for alternative in recorded
+                ],
+                "objections": sorted(objections.get(statement_id, ())),
+            }
+        )
+    items.sort(
+        key=lambda item: (
+            item["path_to_root"] is None,
+            -len(item["transitive_dependent_arguments"]),
+            -len(item["dependent_arguments"]),
+            item["statement_id"],
+        )
+    )
+    goal_premise_arguments: dict[str, list[str]] = {}
+    for flag in transcription or []:
+        for premise in flag["goal_consequent_premises"]:
+            for statement_id in premise["statement_ids"]:
+                goal_premise_arguments.setdefault(statement_id, []).append(flag["argument_id"])
+    for item in items:
+        item["transcription_premise_of"] = sorted(goal_premise_arguments.get(item["statement_id"], []))
+    return {
+        "root": root,
+        "root_known": root is not None and root in statement_by_id,
+        "transcription_flags": transcription or [],
+        "alternatives_recorded": bool(alternatives),
+        "open_premise_count": len(items),
+        "items": items,
+    }
+
+
+# Transcription heuristics (#156 review). Many results only transcribe a bridge
+# premise "A ∧ B → C" whose consequent is the goal. These checks read the Lean
+# sources textually, so they are deterministic heuristics, not proofs: they can
+# miss a transcription hidden behind further definitions, and a flagged proof
+# can still be a faithful one-step argument.
+SHORT_PROOF_STEPS = 2
+OPEN_BRACKETS = "([{⟨"
+CLOSE_BRACKETS = ")]}⟩"
+LEAN_DEF_RE = re.compile(r"^(?:noncomputable\s+)?(?:def|abbrev)\s+([A-Za-z_][\w.']*)", re.MULTILINE)
+LEAN_THEOREM_RE = re.compile(r"^theorem\s+([A-Za-z_][\w.']*)", re.MULTILINE)
+LEAN_IDENT_RE = re.compile(r"[A-Za-z_][\w.']*")
+
+
+def strip_lean_comments(text: str) -> str:
+    text = re.sub(r"/-.*?-/", " ", text, flags=re.DOTALL)
+    return re.sub(r"--[^\n]*", "", text)
+
+
+def split_top_level(text: str, separator: str) -> list[str]:
+    parts: list[str] = []
+    depth = 0
+    start = 0
+    index = 0
+    while index < len(text):
+        char = text[index]
+        if char in OPEN_BRACKETS:
+            depth += 1
+        elif char in CLOSE_BRACKETS:
+            depth -= 1
+        elif depth == 0 and text.startswith(separator, index):
+            parts.append(text[start:index])
+            start = index + len(separator)
+            index = start
+            continue
+        index += 1
+    parts.append(text[start:])
+    return [" ".join(part.split()) for part in parts]
+
+
+def lean_declarations() -> tuple[dict[str, tuple[list[str], str]], dict[str, str]]:
+    """Definitions (explicit parameter names, body) and theorem source blocks,
+    keyed by the declaration's last name component."""
+    definitions: dict[str, tuple[list[str], str]] = {}
+    theorems: dict[str, str] = {}
+    for path in sorted((ROOT / "TruthCore").rglob("*.lean")):
+        text = strip_lean_comments(path.read_text(encoding="utf-8"))
+        for match in LEAN_DEF_RE.finditer(text):
+            block = declaration_block(text, match.end())
+            header, separator, body = block.partition(":=")
+            if not separator:
+                continue
+            params = explicit_parameters(header)
+            signature_type = header_type(header)
+            if signature_type is None:
+                continue
+            definitions.setdefault(match.group(1).rsplit(".", 1)[-1], (params, " ".join(body.split())))
+        for match in LEAN_THEOREM_RE.finditer(text):
+            theorems.setdefault(match.group(1).rsplit(".", 1)[-1], declaration_block(text, match.end()))
+    return definitions, theorems
+
+
+def declaration_block(text: str, start: int) -> str:
+    """Text up to the next line that starts at column 0."""
+    match = re.search(r"\n(?=\S)", text[start:])
+    return text[start : start + match.start()] if match else text[start:]
+
+
+def binder_groups(header: str) -> tuple[list[tuple[str, list[str], str]], str]:
+    groups: list[tuple[str, list[str], str]] = []
+    rest = header.strip()
+    while rest and rest[0] in "({[":
+        depth = 0
+        end = len(rest) - 1
+        for index, char in enumerate(rest):
+            if char in OPEN_BRACKETS:
+                depth += 1
+            elif char in CLOSE_BRACKETS:
+                depth -= 1
+                if depth == 0:
+                    end = index
+                    break
+        inner = rest[1:end]
+        names, _, binder_type = inner.partition(":")
+        groups.append((rest[0], names.split(), " ".join(binder_type.split())))
+        rest = rest[end + 1 :].strip()
+    return groups, rest
+
+
+def explicit_parameters(header: str) -> list[str]:
+    groups, _ = binder_groups(header)
+    return [name for bracket, names, _ in groups if bracket == "(" for name in names]
+
+
+def header_type(header: str) -> str | None:
+    _, rest = binder_groups(header)
+    if not rest.startswith(":"):
+        return None
+    return " ".join(rest[1:].split())
+
+
+def unfold_once(expression: str, definitions: dict[str, tuple[list[str], str]]) -> str:
+    """Unfold a head definition applied to identifier arguments, one level."""
+    tokens = expression.split()
+    if not tokens:
+        return expression
+    head = tokens[0].rsplit(".", 1)[-1]
+    if head not in definitions:
+        return expression
+    params, body = definitions[head]
+    args = tokens[1:]
+    if len(args) != len(params) or not all(LEAN_IDENT_RE.fullmatch(arg) for arg in args):
+        return expression
+    mapping = dict(zip(params, args))
+    return LEAN_IDENT_RE.sub(lambda m: mapping.get(m.group(0), m.group(0)), body)
+
+
+def strip_quantifier_prefix(expression: str) -> str:
+    expression = expression.strip()
+    while expression.startswith("∀"):
+        parts = split_top_level(expression, ",")
+        if len(parts) < 2:
+            break
+        expression = ",".join(parts[1:]).strip()
+    while expression.startswith("(") and expression.endswith(")"):
+        inner = expression[1:-1]
+        if split_top_level(inner, ")")[0] != " ".join(inner.split()):
+            break
+        expression = inner.strip()
+    return " ".join(expression.split())
+
+
+def consequent(expression: str) -> str | None:
+    parts = split_top_level(strip_quantifier_prefix(expression), "→")
+    return strip_quantifier_prefix(parts[-1]) if len(parts) > 1 else None
+
+
+def transcription_flags(
+    results: list[dict[str, Any]],
+    arguments: list[dict[str, Any]],
+    statements: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """For each result: hypotheses whose consequent is syntactically the goal
+    (after one level of unfolding), and whether the proof is a single
+    application of a hypothesis."""
+    definitions, theorems = lean_declarations()
+    argument_by_id = {argument["id"]: argument for argument in arguments}
+    declaration_tail = {
+        statement["id"]: statement["lean_declaration"].rsplit(".", 1)[-1]
+        for statement in statements
+        if statement.get("lean_declaration")
+    }
+    flags: list[dict[str, Any]] = []
+    for result in sorted(results, key=lambda record: record["id"]):
+        solution = module_path(result["solution_module"])
+        name = result["theorem"].rsplit(".", 1)[-1]
+        if not solution.is_file():
+            continue
+        text = strip_lean_comments(solution.read_text(encoding="utf-8"))
+        match = re.search(rf"^theorem\s+{re.escape(name)}\b", text, re.MULTILINE)
+        if not match:
+            continue
+        block = declaration_block(text, match.end())
+        header, _, proof = block.partition(":=")
+        groups, rest = binder_groups(header)
+        goal = " ".join(rest[1:].split()) if rest.startswith(":") else ""
+        goal_forms = {strip_quantifier_prefix(goal), strip_quantifier_prefix(unfold_once(goal, definitions))}
+        hypotheses = [(n, kind) for bracket, names, kind in groups if bracket == "(" for n in names]
+        premises = argument_by_id.get(result["argument_id"], {}).get("premise_statement_ids", [])
+        goal_premises: list[dict[str, Any]] = []
+        for hypothesis, kind in hypotheses:
+            if not kind or kind.endswith("Prop") or kind.endswith("Type"):
+                continue
+            ends = {consequent(kind), consequent(unfold_once(kind, definitions))} - {None}
+            if ends & goal_forms:
+                head = kind.split()[0].rsplit(".", 1)[-1]
+                statement_ids = sorted(sid for sid in premises if declaration_tail.get(sid) == head)
+                goal_premises.append({"hypothesis": hypothesis, "statement_ids": statement_ids})
+        hypothesis_names = {hypothesis for hypothesis, _ in hypotheses}
+        proof = proof.strip()
+        # A term-mode proof is one expression even when it spans several lines
+        # (same rule as apps/corpus-explorer/src/lib/lean-transcription.ts).
+        raw_steps = proof.splitlines() if re.match(r"by\b", proof) else [" ".join(proof.split())]
+        steps = [line.strip() for line in raw_steps if line.strip() and line.strip() != "by"]
+        if steps and steps[0].startswith("by "):
+            steps[0] = steps[0][3:].strip()
+        single = None
+        applied = [step for step in steps if not re.match(r"intros?\b", step)]
+        if len(applied) == 1:
+            step = applied[0].removeprefix("exact ").strip()
+            head = LEAN_IDENT_RE.match(step)
+            if head and head.group(0).split(".", 1)[0] in hypothesis_names:
+                single = head.group(0).split(".", 1)[0]
+        short = len(steps) <= SHORT_PROOF_STEPS
+        if goal_premises or single or short:
+            flags.append(
+                {
+                    "result_id": result["id"],
+                    "argument_id": result["argument_id"],
+                    "proof_steps": len(steps),
+                    "single_application_of": single,
+                    "goal_consequent_premises": goal_premises,
+                }
+            )
+    return flags
+
+
+def format_frontier(report: dict[str, Any]) -> str:
+    lines: list[str] = []
+    root = report["root"]
+    root_note = root if report["root_known"] else f"{root} (unknown statement)"
+    lines.append(f"frontier: {report['open_premise_count']} open premises; root {root_note}")
+    if not report["alternatives_recorded"]:
+        lines.append("alternatives: no alternatives recorded")
+    for item in report["items"]:
+        lines.append("")
+        lines.append(item["statement_id"])
+        if item["paraphrase"]:
+            lines.append(f"  {item['paraphrase']}")
+        if item.get("transcription_only"):
+            lines.append("  open although proved: every verifying result is a transcription (invariant 16)")
+        lines.append(
+            f"  dependent arguments: {len(item['dependent_arguments'])} "
+            f"({', '.join(item['dependent_arguments'])})"
+        )
+        lines.append(
+            f"  transitive dependents: {len(item['transitive_dependent_arguments'])} arguments, "
+            f"{len(item['transitive_dependent_statements'])} statements"
+        )
+        if item["path_to_root"] is None:
+            lines.append("  path to root: not reached")
+        else:
+            lines.append(f"  path to root: {' -> '.join(item['path_to_root'])}")
+        if item["alternatives"]:
+            rendered = ", ".join(
+                f"{alt['statement_id']} ({'refuted' if alt['refuted'] else 'open'})"
+                for alt in item["alternatives"]
+            )
+            lines.append(f"  alternatives: {rendered}")
+        elif report["alternatives_recorded"]:
+            lines.append("  alternatives: none recorded")
+        objections = item["objections"]
+        lines.append(f"  objections: {', '.join(objections) if objections else 'none recorded'}")
+        if item.get("transcription_premise_of"):
+            lines.append(
+                "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
+            )
+    flags = report.get("transcription_flags", [])
+    lines.append("")
+    lines.append(
+        f"transcription heuristics: {len(flags)} results flagged "
+        f"(single application, goal as premise consequent, or at most {SHORT_PROOF_STEPS} proof steps)"
+    )
+    for flag in flags:
+        notes = [f"{flag['proof_steps']} steps"]
+        if flag["single_application_of"]:
+            notes.append(f"single application of {flag['single_application_of']}")
+        for premise in flag["goal_consequent_premises"]:
+            ids = ", ".join(premise["statement_ids"]) or "no statement match"
+            notes.append(f"goal is consequent of {premise['hypothesis']} ({ids})")
+        lines.append(f"  {flag['result_id']}: {'; '.join(notes)}")
+    return "\n".join(lines)
+
+
 def validate() -> dict[str, int]:
     sources = load_dir("sources")
     statements = load_dir("statements")
@@ -146,6 +596,9 @@ def validate() -> dict[str, int]:
             f"source evidence bound {bound_claim_count} claims but corpus contains {len(claim_index)}"
         )
 
+    claim_ids = set(claim_index)
+    result_ids = set(result_index)
+
     all_lean = "\n".join(
         path.read_text(encoding="utf-8")
         for path in sorted((ROOT / "TruthCore").rglob("*.lean"))
@@ -165,6 +618,7 @@ def validate() -> dict[str, int]:
                     f"{path.relative_to(ROOT)}: Lean declaration tail {tail!r} "
                     "was not found under TruthCore/"
                 )
+        validate_self_evident(path, statement, claim_ids, result_ids)
 
     for path, claim in claims:
         require(
@@ -257,6 +711,7 @@ def validate() -> dict[str, int]:
                 raise CorpusError(
                     f"{path.relative_to(ROOT)}: unknown {side} {kind} id {entity_id}"
                 )
+        validate_premise_program_relation(path, relation)
 
     for path, candidate in candidates:
         require(
@@ -389,6 +844,38 @@ def command_next(_: argparse.Namespace) -> int:
         return 1
     _, candidate = min(candidates, key=lambda item: (item[1]["priority"], item[1]["id"]))
     print(json.dumps(candidate, indent=2, ensure_ascii=False))
+    return 0
+
+
+def command_frontier(args: argparse.Namespace) -> int:
+    validate()
+    statements = [record for _, record in load_dir("statements")]
+    arguments = [record for _, record in load_dir("arguments")]
+    results = [record for _, record in load_dir("results")]
+    relations = [record for _, record in load_dir("relations")]
+    report = frontier_report(
+        statements,
+        arguments,
+        results,
+        relations,
+        root=args.root,
+        transcription=transcription_flags(results, arguments, statements),
+    )
+    if args.reaching_root:
+        report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
+        report["open_premise_count"] = len(report["items"])
+        on_path = {
+            argument_id
+            for item in report["items"]
+            for argument_id in item["transitive_dependent_arguments"]
+        }
+        report["transcription_flags"] = [
+            flag for flag in report["transcription_flags"] if flag["argument_id"] in on_path
+        ]
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+    else:
+        print(format_frontier(report))
     return 0
 
 
@@ -701,6 +1188,22 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("next", help="print the highest-priority Codex work item").set_defaults(
         func=command_next
     )
+    frontier = sub.add_parser(
+        "frontier",
+        help="list open premises: not verified, not self-evident, alternatives not all refuted",
+    )
+    frontier.add_argument("--json", action="store_true", help="print the report as JSON")
+    frontier.add_argument(
+        "--root",
+        default=DEFAULT_FRONTIER_ROOT,
+        help=f"statement whose dependency path is shown (default {DEFAULT_FRONTIER_ROOT})",
+    )
+    frontier.add_argument(
+        "--reaching-root",
+        action="store_true",
+        help="list only open premises from which the root is reached",
+    )
+    frontier.set_defaults(func=command_frontier)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
@@ -718,7 +1221,11 @@ def parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
-    args = parser().parse_args()
+    return main_with(None)
+
+
+def main_with(argv: list[str] | None) -> int:
+    args = parser().parse_args(argv)
     try:
         return args.func(args)
     except CorpusError as exc:

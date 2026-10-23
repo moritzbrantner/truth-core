@@ -17,3 +17,5 @@ Relations are additive metadata between independently identified corpus entities
 ```
 
 The global relation graph may contain cycles. Identity, logical equivalence, translation equivalence, philosophical equivalence, contradiction, strength, and other future relations remain distinct predicates.
+
+Premise-program predicates have fixed endpoint kinds, which `corpus.py check` enforces: `alternative_to` (statement → statement), `refutes` (argument → statement; counted only when the argument has a result) and `attacks` (statement, claim or argument → statement). `corpus.py frontier` reads them; see `docs/corpus-model.md`.
