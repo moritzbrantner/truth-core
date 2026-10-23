@@ -1,47 +1,42 @@
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
+import TruthCore.Case.Catholicism.StageOneBridges
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple
 open TruthCore.Latin.Aquinas.SummaTheologiae
+open TruthCore.Case.Catholicism (FirstUnmovedMoverIsFirstBeing)
 
-/-- ST I q.3 a.1 (first proof), a.2, a.4 and a.7 for the *prima via*'s mover. The
-first conjunct uses only the *prima via* conclusion's "moved by none"; the other
-three use pure act, obtained from `FirstMoverPureAct.firstMoverPureAct`. -/
+/-- ST I q.3 a.1 (first proof) and q.3 a.7 (second and fifth proofs) for the
+*prima via*'s mover. It is not a body, because a body that moves is moved. It is
+not composite: a composite has a component other than itself, which is simply
+prior to it, but nothing other than the first being is prior to the first being.
+Matter-form composition (a.2) and an esse other than the essence (a.4) are kinds
+of composition, so they are excluded too. -/
 theorem firstMoverSimple {Being : Type} {Respect : Type} {Principle : Type}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)
-    (InPotency InAct : Being → Respect → Prop)
-    (PriorSimply : Being → Being → Prop)
+    (PriorSimply ComponentOf : Being → Being → Prop)
     (Body ComposedOfMatterAndForm Composite : Being → Prop)
     (essenceOf esseOf : Being → Principle)
     (hNoBody : NoBodyMovesUnlessMovedReading MovedIn MovesIn Body)
-    (hFirstBeing : FirstUnmovedMoverIsFirstBeingReading MovedIn MovesIn PriorSimply)
-    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
-    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency)
-    (hMatter : MatterIsInPotencyReading InPotency ComposedOfMatterAndForm)
-    (hEsse : EsseOtherThanEssenceIsPotencyReading InPotency essenceOf esseOf)
-    (hComposite : CompositeIsInPotencyReading InPotency Composite) :
+    (hFirstBeing : FirstUnmovedMoverIsFirstBeing MovedIn MovesIn PriorSimply)
+    (hPosterior : CompositePosteriorToComponentsReading ComponentOf PriorSimply)
+    (hOther : CompositeHasComponentOtherThanItselfReading Composite ComponentOf)
+    (hKinds : MatterFormAndEsseEssenceAreCompositionsReading
+      ComposedOfMatterAndForm Composite essenceOf esseOf) :
     FirstUnmovedMoverIsSimpleReading MovedIn MovesIn
       Body ComposedOfMatterAndForm Composite essenceOf esseOf := by
   intro f hF
-  -- Pure act (result AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT)
-  have hPure : PureAct InPotency f :=
-    FirstMoverPureAct.firstMoverPureAct MovedIn MovesIn InPotency InAct PriorSimply
-      hFirstBeing hPrior hNotBoth f hF
-  refine ⟨?_, ?_, ?_, ?_⟩
+  -- INF-AQUINAS-ST-I-Q3-A7-FIRST-BEING-NOT-COMPOSITE
+  have hNotComposite : ¬ Composite f := by
+    intro hComp
+    obtain ⟨p, hComponent, hDistinct⟩ := hOther f hComp
+    exact hDistinct (hFirstBeing f hF p (hPosterior p f hComponent))
+  refine ⟨?_, ?_, ?_, hNotComposite⟩
   · -- INF-AQUINAS-ST-I-Q3-A1-FIRST-MOVER-NOT-A-BODY: a body that moves is moved
     intro hBody
     obtain ⟨r, hMoved⟩ := hNoBody f hBody hF.1
     exact hF.2 r hMoved
-  · -- INF-AQUINAS-ST-I-Q3-SIMPLE-FROM-PURE-ACT (a.2): matter is potency
-    intro hMF
-    obtain ⟨r, hPot⟩ := hMatter f hMF
-    exact hPure r hPot
-  · -- (a.4): an esse other than the essence is its act, the essence its potency
-    intro hDistinct
-    obtain ⟨r, hPot⟩ := hEsse f hDistinct
-    exact hPure r hPot
-  · -- (a.7): every composite has potency and act
-    intro hComp
-    obtain ⟨r, hPot⟩ := hComposite f hComp
-    exact hPure r hPot
+  · -- INF-AQUINAS-ST-I-Q3-SIMPLE-KINDS: matter-form composition is composition
+    exact fun hMF => hNotComposite ((hKinds f).1 hMF)
+  · -- an esse other than the essence is composition
+    exact fun hDistinct => hNotComposite ((hKinds f).2 hDistinct)
 end TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple

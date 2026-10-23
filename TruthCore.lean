@@ -164,8 +164,6 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article2
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
@@ -175,6 +173,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
+import TruthCore.Case.Catholicism.StageOneBridges
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution

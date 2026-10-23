@@ -8,6 +8,12 @@ Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.11 a.3 co.
 eminently. That is the same abstract predicate as in the *prima via*, where the
 mover's being in act may be virtual.
 
+The other premise of the second proof, *Ostensum est enim supra quod Deus
+comprehendit in se totam perfectionem essendi*, is a back-reference to q.4 a.2
+about God. It is not read here as a claim about every first mover moved by none;
+that step is the unsourced open bridge
+`TruthCore.Case.Catholicism.FirstUnmovedMoverHasEveryPerfection`.
+
 The conclusion, *impossibile est ergo esse plures Deos*, is
 `TruthCore.Case.Catholicism.AtMostOneFirstUnmovedMover` (#159).
 
@@ -23,44 +29,29 @@ namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 universe u v
 
-/-- Things that are many must differ: something belongs to one that does not
-belong to the other (*Si ergo essent plures dii, oporteret eos differre.
-Aliquid ergo conveniret uni, quod non alteri*).
+/-- If there were several first movers moved by none, they would have to differ:
+something would belong to one that does not belong to the other (*Si ergo essent
+plures dii, oporteret eos differre. Aliquid ergo conveniret uni, quod non
+alteri*).
 
-Stated in the contrapositive, which is classically equivalent and lets the
-uniqueness conclusion be a plain equality without axioms: beings that agree in
-every act (what belongs to one in act belongs to the other, and conversely) are
-not many but one.
-
-Read as a general principle about any two beings, with "what belongs" read as
-being in act in a respect. That is stronger than the plural-gods case needs: it
-is an identity of indiscernibles over acts, open to the objection that two
-material individuals may differ only in matter. A version restricted to totally
-perfect beings would be equivalent to the conclusion and so would make the
-argument a transcription.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.11 a.3 co., second proof.
--/
-def ManyMustDifferReading {Being : Sort u} {Respect : Sort v}
-    (InAct : Being → Respect → Prop) : Prop :=
-  ∀ x y, (∀ r, (InAct x r → InAct y r) ∧ (InAct y r → InAct x r)) → x = y
-
-/-- The first mover comprehends in itself the whole perfection of being
-(*Ostensum est enim supra quod Deus comprehendit in se totam perfectionem
-essendi*): every first mover moved by none is in act in every respect.
-
-Aquinas cites this as shown (in q.4 a.2). Applied to the *prima via*'s mover it
-is an open premise: neither the *prima via* nor q.3 entails it, and q.4 a.2's
-argument (the perfections of effects pre-exist in the first efficient cause)
-rests on the second way. With `NotActAndPotencyInSameRespectReading` it would
-also yield pure act.
+Scoped to the plural hypothesis of the argument, the weakest reading that the
+argument uses: two distinct first movers moved by none differ in some act, one
+being in act in a respect in which the other is not. "What belongs" is read as
+being in act in a respect. Whether the differing item is a perfection or a
+privation (*si hoc esset privatio ... si autem hoc esset perfectio*) is the
+choice of which of the two is in act; both horns are the same disjunction here.
+The premise does not say that the first movers are perfect, so it does not
+entail the conclusion on its own: a model with two first movers that differ in
+some act satisfies it.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.11 a.3 co., second proof.
 -/
-def FirstUnmovedMoverHasEveryPerfectionReading {Being : Sort u} {Respect : Sort v}
+def PluralFirstMoversWouldDifferInActReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)
     (InAct : Being → Respect → Prop) : Prop :=
-  ∀ f, ((∃ x r, MovesIn f x r) ∧ ∀ r, ¬ MovedIn f r) → ∀ r, InAct f r
+  ∀ f g, ((∃ x r, MovesIn f x r) ∧ ∀ r, ¬ MovedIn f r) →
+    ((∃ x r, MovesIn g x r) ∧ ∀ r, ¬ MovedIn g r) → f ≠ g →
+    ∃ r, (InAct f r ∧ ¬ InAct g r) ∨ (InAct g r ∧ ¬ InAct f r)
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

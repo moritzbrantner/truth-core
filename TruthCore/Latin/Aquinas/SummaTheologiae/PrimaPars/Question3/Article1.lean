@@ -22,6 +22,12 @@ from the *prima via* alone; the second (*secundo*) argues from the priority of
 act over potency to "the first being is in no way in potency". The third
 (*tertio*, from nobility) is not formalized here.
 
+Aquinas applies both proofs to God through back-references (*Ostensum est autem
+supra quod Deus est primum movens immobile*; *... quod Deus est primum ens*).
+Those back-references are not read here as universal claims about every first
+mover moved by none. The step from the *prima via*'s mover to "first being" is
+the unsourced open bridge `TruthCore.Case.Catholicism.FirstUnmovedMoverIsFirstBeing`.
+
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q3-A1`.
 -/
@@ -82,8 +88,7 @@ def IsFirstBeing {Being : Sort u}
 /-- The first being must be in act and in no way in potency (*necesse est id quod
 est primum ens, esse in actu, et nullo modo in potentia*).
 
-Only the "in no way in potency" part is formalized; it is what q.3 a.2, a.4 and
-a.7 use.
+Only the "in no way in potency" part is formalized.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.3 a.1 co., second proof.
 -/
@@ -91,24 +96,5 @@ def FirstBeingIsInNoWayInPotencyReading {Being : Sort u} {Respect : Sort v}
     (InPotency : Being → Respect → Prop)
     (PriorSimply : Being → Being → Prop) : Prop :=
   ∀ f, IsFirstBeing PriorSimply f → PureAct InPotency f
-
-/-- The first mover moved by none is the first being (*Ostensum est autem supra
-quod Deus est primum ens*).
-
-Aquinas cites this as already shown (in q.2 a.3). The pinned q.2 a.3 text of the
-*prima via* does not state it: the *prima via* shows only that nothing moves the
-first mover, and `PriorSimply` is not moving. So the statement is an explicit
-open premise of the route from the *prima via* to pure act, not a consequence of
-#151's premises. Reading "Deus" here as the *prima via*'s first mover is an
-interpretive choice; the back-reference may instead be to the fourth way
-(*aliquid quod est maxime ens*).
-
-Source: Thomas Aquinas, *Summa theologiae* I q.3 a.1 co., second proof.
--/
-def FirstUnmovedMoverIsFirstBeingReading {Being : Sort u} {Respect : Sort v}
-    (MovedIn : Being → Respect → Prop)
-    (MovesIn : Being → Being → Respect → Prop)
-    (PriorSimply : Being → Being → Prop) : Prop :=
-  ∀ f, ((∃ x r, MovesIn f x r) ∧ ∀ r, ¬ MovedIn f r) → IsFirstBeing PriorSimply f
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

@@ -1,12 +1,12 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article2
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+
+
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 
 /-!
-The simplicity conclusions of ST I q.3 a.1, a.2, a.4 and a.7, gathered for the
-*prima via*'s first mover. Each conjunct is a conclusion Aquinas states in one
-of those articles about God, read as being about the first mover moved by none
-(q.3 a.1 co.: *Ostensum est autem supra quod Deus est primum movens immobile*).
+The simplicity conclusions of ST I q.3 a.1, a.2, a.4 and a.7, stated for the
+*prima via*'s first mover. Aquinas states each about God; here they are
+conclusions to be derived for the first mover moved by none, not readings of
+those sentences.
 -/
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
