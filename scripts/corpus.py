@@ -494,7 +494,7 @@ def bind_result(
 
     binders = described.get("binders", [])
     parameters = [binder["name"] for binder in binders if not binder["prop"]]
-    hypotheses = [binder for binder in binders if binder["prop"]]
+    hypotheses = [dict(binder, position=index) for index, binder in enumerate(binders) if binder["prop"]]
 
     unused = list(argument["premise_statement_ids"])
     premises: list[dict[str, Any]] = []
@@ -510,7 +510,12 @@ def bind_result(
             continue
         unused.remove(match)
         premises.append(
-            {"hypothesis": hypothesis["name"], "statement_id": match, "lean_declaration": hypothesis["head"]}
+            {
+                "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
+                "statement_id": match,
+                "lean_declaration": hypothesis["head"],
+            }
         )
     # Second pass: statements without a declaration take logical-form hypotheses.
     for hypothesis in unmatched:
@@ -522,18 +527,27 @@ def bind_result(
                 {
                     "kind": "extra-hypothesis",
                     "hypothesis": hypothesis["name"],
+                    "position": hypothesis["position"],
                     "head": hypothesis["head"],
                     "type": hypothesis["type"],
                 }
             )
             continue
         unused.remove(match)
-        premises.append({"hypothesis": hypothesis["name"], "statement_id": match, "lean_declaration": None})
+        premises.append(
+            {
+                "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
+                "statement_id": match,
+                "lean_declaration": None,
+            }
+        )
         undecidable.append(
             {
                 "role": "premise",
                 "statement_id": match,
                 "hypothesis": hypothesis["name"],
+                "position": hypothesis["position"],
                 "type": hypothesis["type"],
             }
         )
@@ -578,8 +592,7 @@ def bind_result(
         status = "undecidable"
     else:
         status = "bound"
-    position = {binder["name"]: index for index, binder in enumerate(binders)}
-    premises.sort(key=lambda entry: position[entry["hypothesis"]])
+    premises.sort(key=lambda entry: entry["position"])
     return {
         "id": result["id"],
         "theorem": result["theorem"],

@@ -68,7 +68,7 @@ def describeTheorem (thm : Name) : MetaM Json := do
     for x in xs do
       let decl ← x.fvarId!.getDecl
       let d ← describeType decl.type
-      binders := binders.push (d.mergeObj (Json.mkObj [("name", Json.str decl.userName.toString)]))
+      binders := binders.push (d.mergeObj (Json.mkObj [("name", Json.str decl.userName.eraseMacroScopes.toString)]))
     let result ← describeType body
     return Json.mkObj [
       ("theorem", Json.str thm.toString),
