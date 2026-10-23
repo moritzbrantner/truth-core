@@ -1,17 +1,13 @@
-import TruthCore.Comparison.ProblemOfEvil
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
+import TruthCore.Refutations.ProblemOfEvil
 namespace TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism
 open TruthCore.English.OConnor
-open TruthCore.Latin.Aquinas.SummaTheologiae
-open TruthCore.Comparison.ProblemOfEvil
+open TruthCore.Refutations.ProblemOfEvil
 theorem externalPremiseContradictsEmotivism {Sentence : Type}
-    (SaysSomethingBad Moral TruthApt Holds : Sentence → Prop) (evilPremise : Sentence)
+    (SaysSomethingBad Moral TruthApt Holds : Sentence → Prop) (moralEvilPremise : Sentence)
     (hEmotivism : MoralStatementsLackTruthValueReading Moral TruthApt)
     (hNoTruth : LackingTruthValueExcludesTruthReading TruthApt Holds)
     (hBadIsMoral : BadnessAscriptionsAreMoralReading SaysSomethingBad Moral)
-    (hSaysBad : EvilPremiseSaysSomethingBadReading SaysSomethingBad evilPremise) :
-    EvilPremiseNotTrue Holds evilPremise := by
-  sorry
-theorem emotivismConsistentWithBackground : ∃ s, Background s ∧ Emotivism s := by
+    (hSaysBad : ManMadeEvilPremiseSaysSomethingBadReading SaysSomethingBad moralEvilPremise) :
+    MoralEvilPremiseNotTrue Holds moralEvilPremise := by
   sorry
 end TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism

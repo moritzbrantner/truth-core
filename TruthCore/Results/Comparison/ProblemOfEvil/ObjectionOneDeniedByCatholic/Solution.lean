@@ -1,7 +1,8 @@
-import TruthCore.Comparison.ProblemOfEvil
+import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
 namespace TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic
 open TruthCore.Comparison.ProblemOfEvil
+open TruthCore.Refutations.ProblemOfEvil
 theorem catholicDeniesObjectionOne (s : Sig) (hCatholic : Catholic s) : ObjectionOneFails s := by
   intro hObjection
   obtain ⟨_, hPrivation, _, ⟨x, p, hDue, hLacks⟩, hSense, hPotency, hAct, hReduction,

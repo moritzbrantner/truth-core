@@ -16,7 +16,6 @@ Vocabulary, all of it parameters rather than definitions:
   ad 3).
 * `Sentence`, `Holds φ`, `evilPremise` — sentences, truth, and the sentence
   "there is evil in the world".
-* `SaysSomethingBad φ` — `φ` says of something that it is bad.
 
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q2-A3`.
@@ -34,25 +33,6 @@ Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 obj. 1.
 def EvilPremiseAssertedReading {Sentence : Sort w}
     (Holds : Sentence → Prop) (evilPremise : Sentence) : Prop :=
   Holds evilPremise
-
-/-- The objector's evil premise says that something is bad: it speaks of evil
-(*malum*) as the contrary of the good God's name signifies (*si unum
-contrariorum fuerit infinitum, totaliter destruetur aliud. Sed hoc intelligitur
-in hoc nomine Deus, scilicet quod sit quoddam bonum infinitum ... Invenitur
-autem malum in mundo*).
-
-Read as: the sentence "there is evil in the world" says of something that it
-is bad. The objection needs evil to be the contrary of good for its
-contrariety step, so the evil it asserts is badness, not a non-evaluative fact
-such as pain. A critic who restates the premise non-evaluatively ("there is
-suffering") makes a different argument, which then needs a further evaluative
-premise.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 obj. 1.
--/
-def EvilPremiseSaysSomethingBadReading {Sentence : Sort w}
-    (SaysSomethingBad : Sentence → Prop) (evilPremise : Sentence) : Prop :=
-  SaysSomethingBad evilPremise
 
 /-- The first objection's conditional: if God existed, no evil would be found
 (*si ergo Deus esset, nullum malum inveniretur*), because if one of two

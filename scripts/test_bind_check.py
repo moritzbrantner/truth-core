@@ -206,6 +206,18 @@ class TheoryBundleTest(unittest.TestCase):
             sorted(p["kind"] for p in report["problems"]), ["missing-commitment", "unbound-commitment"]
         )
 
+    def test_theory_conclusion_needs_recorded_commitments(self):
+        result = dict(hyp("", "KConsistent"), bundle=[hyp("", "PReading"), hyp("", "XReading")])
+        argument = {"premise_statement_ids": ["P", "Q", "R"], "conclusion_statement_id": "K"}
+        report = corpus.bind_result(
+            RESULT,
+            argument,
+            self.INDEX,
+            describe([hyp("hP", "PReading"), hyp("hQ", "QReading"), hyp("hR", "RReading")], result),
+            {},
+        )
+        self.assertEqual([p["kind"] for p in report["problems"]], ["theory-conclusion-without-commitments"])
+
     def test_commitments_need_a_theory_conclusion(self):
         report = self.bind([], hyp("", "KConsistent"), premises=(), commitments=("P",))
         self.assertEqual([p["kind"] for p in report["problems"]], ["commitments-without-bundle"])

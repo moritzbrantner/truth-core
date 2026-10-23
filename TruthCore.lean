@@ -37,6 +37,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
 import TruthCore.Comparison.ProblemOfEvil
+import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution

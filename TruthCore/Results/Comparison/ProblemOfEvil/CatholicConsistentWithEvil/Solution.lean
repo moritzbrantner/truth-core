@@ -15,9 +15,8 @@ moves `x`. On top of it:
 * `x` (the ass) lacks `life`, which is due to it: a privation, so there is evil
   in `x`, and only in `x`.
 * God draws good out of the evil in `x`: the lion's life (`f` has `life`).
-* Sentences: "there is evil" (says something is bad, and is moral) is true exactly when something is evil;
-  "the first mover is unmoved" (not moral) is true exactly when `g` is moved in
-  no respect. A sentence is truth-apt when it is true or not true.
+* Sentences: "there is evil" is true exactly when something is evil; "the
+  first mover is unmoved" is true exactly when `g` is moved in no respect.
 
 Every predicate is a concrete extension defined by case analysis; none is a
 constant placeholder. The definitions are non-overlapping matches, so no proof
@@ -72,14 +71,6 @@ def wDrawsGoodFrom : StrongBeing → StrongBeing → StrongBeing → WPerfection
   | .f, _, _, _ => False
   | .x, _, _, _ => False
 
-def wSaysBad : WSentence → Prop
-  | .thereIsEvil => True
-  | .firstMoverUnmoved => False
-
-def wMoral : WSentence → Prop
-  | .thereIsEvil => True
-  | .firstMoverUnmoved => False
-
 def wHolds : WSentence → Prop
   | .thereIsEvil => ∃ b, wEvil b
   | .firstMoverUnmoved => ∀ r, ¬ strongMovedIn .g r
@@ -97,15 +88,8 @@ def witness : Sig where
   Omnipotent := wOmnipotent
   CanEliminate := wCanEliminate
   DrawsGoodFrom := wDrawsGoodFrom
-  SaysSomethingBad := wSaysBad
-  Moral := wMoral
-  TruthApt := fun φ => wHolds φ ∨ ¬ wHolds φ
   Holds := wHolds
   evilPremise := .thereIsEvil
-
-theorem witnessBadIsMoral : ∀ φ, wSaysBad φ → wMoral φ
-  | .thereIsEvil, _ => trivial
-  | .firstMoverUnmoved, h => h
 
 theorem witnessPrivation : ∀ b, wEvil b ↔ ∃ p, wDue b p ∧ ¬ wHas b p
   | .g => ⟨False.elim, fun ⟨.life, hDue, _⟩ => hDue⟩
@@ -134,7 +118,7 @@ theorem witnessDrawsGood :
 theorem catholicConsistentWithEvil : CatholicTheoryConsistentWithEvil :=
   let ⟨hSense, hPotency, hAct, hReduction, hNotBoth, hPerSe, hRegress⟩ := strongModel_premises
   ⟨witness,
-    ⟨witnessBadIsMoral, trivial, fun _ b hOmni _ => hOmni b⟩,
+    (fun _ b hOmni _ => hOmni b),
     ⟨fun _ _ => Iff.rfl, witnessPrivation, fun hEvil => hEvil,
       ⟨.x, .life, trivial, id⟩,
       hSense, hPotency, hAct, hReduction, hNotBoth, hPerSe, hRegress,

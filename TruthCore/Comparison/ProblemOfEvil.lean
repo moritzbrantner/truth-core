@@ -10,6 +10,9 @@ The problem-of-evil comparison (#150): a shared signature, the shared
 background, and the theories as sets of source readings (owner decision on
 #149: for now a theory is a set of propositions and arguments).
 
+Only theories and consistency claims live in this namespace: `bind-check`
+treats every `TruthCore.Comparison.*` definition as a theory bundle.
+
 A theory is a predicate on interpretations `s : Sig` of the shared vocabulary.
 It enters results only as a hypothesis or, for consistency, through an explicit
 interpretation that satisfies it. Nothing here is an axiom.
@@ -22,7 +25,8 @@ none. Goods are perfections a being has in act (I q.5 a.1).
 Question `Q-MORAL-GROUNDING`: what makes something objectively good or evil?
 
 * O'Connor's emotivism: nothing does. Moral statements have no truth value
-  (`Emotivism`).
+  (`MoralStatementsLackTruthValueReading`; its cell is
+  `POE-EXTERNAL-PREMISE-VS-EMOTIVISM`, over the man-made-evil premise).
 * The Catholic theory: goodness is the same in reality as being in act; evil is
   the privation of a due good; "there is evil" is true when such a privation
   is in a subject (`CatholicGrounding`).
@@ -35,7 +39,6 @@ namespace TruthCore.Comparison.ProblemOfEvil
 open TruthCore.English.OConnor
 open TruthCore.Latin.Aquinas.SummaTheologiae
 
-universe u
 
 /-- The shared signature of the problem-of-evil question set. -/
 structure Sig where
@@ -59,36 +62,19 @@ structure Sig where
   CanEliminate : motion.Being → motion.Being → Prop
   /-- `g` brings the good of `p` in `y` out of the evil in `x`. -/
   DrawsGoodFrom : motion.Being → motion.Being → motion.Being → Perfection → Prop
-  /-- `φ` says of something that it is bad. -/
-  SaysSomethingBad : Sentence → Prop
-  Moral : Sentence → Prop
-  TruthApt : Sentence → Prop
   Holds : Sentence → Prop
   /-- The sentence "there is evil in the world". -/
   evilPremise : Sentence
 
-/-- Shared background: saying that something is bad is a moral statement
-(O'Connor, 2023); the evil premise says that something is bad (ST I q.2 a.3
-obj. 1); an all-powerful being can eliminate any evil (O'Connor, 2020). -/
+/-- Shared background for the internal form: an all-powerful being can
+eliminate any evil (O'Connor, 2020). It is a one-conjunct bundle so that it can
+grow without changing the results' shape. -/
 def Background (s : Sig) : Prop :=
-  BadnessAscriptionsAreMoralReading s.SaysSomethingBad s.Moral ∧
-    EvilPremiseSaysSomethingBadReading s.SaysSomethingBad s.evilPremise ∧
-    AllPowerfulCanEliminateEvilReading s.Omnipotent s.Evil s.CanEliminate
-
-/-- The external form's premise: "there is evil in the world" is true
-(ST I q.2 a.3 obj. 1). -/
-def ExternalEvilPremise (s : Sig) : Prop :=
-  EvilPremiseAssertedReading s.Holds s.evilPremise
+  AllPowerfulCanEliminateEvilReading s.Omnipotent s.Evil s.CanEliminate
 
 /-- There is evil in some being (ST I q.48 a.2). -/
 def EvilExists (s : Sig) : Prop :=
   EvilIsFoundInThingsReading s.Evil
-
-/-- O'Connor's answer to `Q-MORAL-GROUNDING` (2023): moral statements have no
-truth value, and what has no truth value is not true. -/
-def Emotivism (s : Sig) : Prop :=
-  MoralStatementsLackTruthValueReading s.Moral s.TruthApt ∧
-    LackingTruthValueExcludesTruthReading s.TruthApt s.Holds
 
 /-- The Catholic answer to `Q-MORAL-GROUNDING` (ST I q.5 a.1; q.48 a.2 ad 2,
 a.3). -/
@@ -123,20 +109,9 @@ def Catholic (s : Sig) : Prop :=
     GodSupremelyGoodAndOmnipotentReading s.God s.SupremelyGood s.Omnipotent ∧
     GodDrawsGoodFromEveryEvilReading s.God s.Evil s.GoodIn s.DrawsGoodFrom
 
-/-- The evil premise is not true. With the external premise that it is
-(ST I q.2 a.3 obj. 1), this yields `False`. -/
-def EvilPremiseNotTrue {Sentence : Sort u} (Holds : Sentence → Prop) (evilPremise : Sentence) :
-    Prop :=
-  ¬ Holds evilPremise
-
 /-- The internal form fails: the background, the Catholic theory and the
 existence of evil are jointly satisfiable. -/
 def CatholicTheoryConsistentWithEvil : Prop :=
   ∃ s : Sig, Background s ∧ Catholic s ∧ EvilExists s
-
-/-- The first objection's conditional (if God exists, there is no evil) fails
-at `s`. -/
-def ObjectionOneFails (s : Sig) : Prop :=
-  ¬ GodWouldExcludeAllEvilObjectionReading s.God s.Evil
 
 end TruthCore.Comparison.ProblemOfEvil

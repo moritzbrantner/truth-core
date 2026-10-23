@@ -1149,6 +1149,12 @@ def bind_result(
 
     commitments: list[dict[str, Any]] = []
     commitment_ids = list(argument.get("commitment_statement_ids", []))
+    if not commitment_ids and outcome.get("bundle") is not None:
+        # A theory-definition conclusion is a consistency claim; its commitments
+        # must be recorded so that every conjunct is checked.
+        problems.append(
+            {"kind": "theory-conclusion-without-commitments", "head": outcome.get("head"), "type": outcome["type"]}
+        )
     if commitment_ids:
         bundle = outcome.get("bundle")
         if not isinstance(bundle, list):
