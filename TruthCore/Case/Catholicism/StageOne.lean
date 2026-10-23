@@ -48,16 +48,18 @@ def ThereIsAFirstUnmovedMover {Being : Sort v} {Respect : Sort w}
     (MovesIn : Being → Being → Respect → Prop) : Prop :=
   ∃ f, IsFirstUnmovedMover MovedIn MovesIn f
 
-/-- Uniqueness gap: there is at most one first unmoved mover. Open premise
-(candidate `AQUINAS-ST-I-Q11-A3`). -/
+/-- Uniqueness gap: there is at most one first unmoved mover. Derived in result
+`AQUINAS-ST-I-Q11-A3-ONE-FIRST-MOVER` (ST I q.11 a.3) from open bridges in
+`StageOneBridges`. -/
 def AtMostOneFirstUnmovedMover {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop) : Prop :=
   ∀ f g, IsFirstUnmovedMover MovedIn MovesIn f →
     IsFirstUnmovedMover MovedIn MovesIn g → f = g
 
-/-- Pure-act gap: every first unmoved mover is pure act. Open premise
-(candidate `AQUINAS-ST-I-Q3`). -/
+/-- Pure-act gap: every first unmoved mover is pure act. Derived in result
+`AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT` (ST I q.3 a.1), with `PureAct InPotency`
+for `PureAct`, from the open first-being bridge in `StageOneBridges`. -/
 def FirstUnmovedMoverIsPureAct {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop) (PureAct : Being → Prop) : Prop :=
