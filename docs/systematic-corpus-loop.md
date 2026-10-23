@@ -34,7 +34,21 @@ Within a candidate:
 
 This makes the unit of scholarship atomic while keeping the unit of agent execution large enough to make continuous progress.
 
+## Progress is depth on the root path, not volume
+
+The repository's aim (#143) is a graph from the root statement "Catholicism is true" (#156) down to premises that are either self-evident or whose alternatives are all refuted. Progress is measured as **load-bearing frontier nodes closed on paths to that root**, as reported by `python3 scripts/corpus.py frontier`. Claim counts, result counts, and source coverage are not progress measures.
+
+In practice:
+
+- choose work from the frontier, preferring open premises that many arguments depend on or that objections attack, and agree on the direction with the owner at each milestone;
+- a transcription result (AGENTS.md invariant 16) closes no frontier node;
+- a source campaign (e.g. Aristotle's *Physics*) continues only where a premise on a root path depends on it.
+
+This rule exists because the earlier corpus optimized what it counted: about 100 mostly one-step results in three days, then the campaign stalled.
+
 ## PR boundary
+
+The thresholds below are an upper size bound for reviewability, not a quota. Fewer, deeper results are better than many shallow ones.
 
 Prefer a PR when one of these is true:
 
@@ -88,4 +102,6 @@ Prefer depth before breadth:
 3. continue through the same work while the vocabulary remains useful;
 4. only then open a new work or philosopher, unless a proof dependency gives a concrete reason to branch.
 
-For the current seed corpus, the immediate campaign is Aristotle's `Physics` III, continuing immediately after the existing 201a10–11 change definition. The initial queue covers the remainder of III.1 and then III.2–III.8 in chapter order. Existing campaign tickets then order the Physics I–II backfill before continuing through Physics IV–VIII.
+Since 2026-10-23 the frontier of the root graph (#143, #156) takes precedence over source campaigns. The ordering below applies only within a campaign that a root path currently needs.
+
+For the original seed corpus, the campaign was Aristotle's `Physics` III, continuing immediately after the existing 201a10–11 change definition. The initial queue covers the remainder of III.1 and then III.2–III.8 in chapter order. Existing campaign tickets then order the Physics I–II backfill before continuing through Physics IV–VIII.
