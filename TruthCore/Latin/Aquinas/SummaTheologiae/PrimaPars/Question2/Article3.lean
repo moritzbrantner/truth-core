@@ -130,6 +130,40 @@ def SecondMoversMoveOnlyAsMovedReading {Being : Sort u} {Respect : Sort v}
     (MovesAsMoved : Being → Being → Prop) : Prop :=
   ∀ y x r, y ≠ x → MovesIn y x r → (∃ r', MovedIn y r') → MovesAsMoved y x
 
+/-- Weaker sibling reading of *moventia secunda non movent nisi per hoc quod sunt
+mota*: a mover other than the moved thing is a per se link of the series only when
+it is being moved in a respect relevant to its moving of that thing.
+
+`RelevantTo y x r r'` says that `y`'s being moved in `r'` bears on `y`'s moving
+`x` in `r` (the hand's being moved bears on the stick's moving the stone). A mover
+moved only in irrelevant respects, such as a man digesting while he moves a
+stick, is not thereby a per se link.
+
+Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.
+-/
+def SecondMoversMoveAsMovedInRelevantRespectReading
+    {Being : Sort u} {Respect : Sort v}
+    (MovedIn : Being → Respect → Prop)
+    (MovesIn : Being → Being → Respect → Prop)
+    (MovesAsMoved : Being → Being → Prop)
+    (RelevantTo : Being → Being → Respect → Respect → Prop) : Prop :=
+  ∀ y x r r', y ≠ x → MovesIn y x r → MovedIn y r' → RelevantTo y x r r' →
+    MovesAsMoved y x
+
+/-- The conclusion the weaker sibling reading supports: it is impossible that there
+be no mover that moves something while being moved in no respect relevant to that
+moving, i.e. no mover unmoved *as mover of this series*. Such a mover may still be
+moved in irrelevant respects, so this is weaker than *a nullo movetur*.
+
+Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co. (weaker reading).
+-/
+def RelativelyUnmovedMoverCannotBeLackingReading
+    {Being : Sort u} {Respect : Sort v}
+    (MovedIn : Being → Respect → Prop)
+    (MovesIn : Being → Being → Respect → Prop)
+    (RelevantTo : Being → Being → Respect → Respect → Prop) : Prop :=
+  ¬ ¬ ∃ f x r, MovesIn f x r ∧ ∀ r', ¬ (MovedIn f r' ∧ RelevantTo f x r r')
+
 /-- The per se ordered series of movers cannot proceed to infinity (*hic autem non
 est procedere in infinitum*).
 
