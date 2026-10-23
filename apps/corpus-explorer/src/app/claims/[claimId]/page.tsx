@@ -2,7 +2,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { StatusMark } from "@/components/status-mark";
-import { alternativeClaims, findClaim, findSource, getCorpus, resultsForClaim } from "@/lib/corpus";
+import {
+  alternativeClaims,
+  findClaim,
+  findSource,
+  getCorpus,
+  isMediaPassage,
+  resultsForClaim,
+} from "@/lib/corpus";
 
 type ClaimPageProps = {
   params: Promise<{ claimId: string }>;
@@ -48,40 +55,93 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
         </p>
       ) : null}
 
-      <section className="record-section">
-        <div className="flex flex-wrap items-center gap-3">
-          <p className="eyebrow">Primary-source evidence</p>
-          <StatusMark tone="accent">Pinned witness</StatusMark>
-        </div>
-        <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
-          This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
-          in an immutable source snapshot. The snapshot is byte-verified separately from the
-          scholarly interpretation below.
-        </p>
-        <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
-          <dt>Passage</dt>
-          <dd>{passage.locator}</dd>
-          <dt>Edition</dt>
-          <dd className="font-mono break-all">{passage.edition_urn}</dd>
-          <dt>Witness</dt>
-          <dd>
-            <a
-              className="link-quiet break-all"
-              href={passage.source_url}
-              rel="noreferrer"
-              target="_blank"
-            >
-              Open immutable source snapshot ↗
-            </a>
-          </dd>
-          <dt>Revision</dt>
-          <dd className="font-mono break-all">{passage.revision}</dd>
-          <dt>Git blob</dt>
-          <dd className="font-mono break-all">{passage.git_blob_sha}</dd>
-          <dt>License</dt>
-          <dd>{passage.license}</dd>
-        </dl>
-      </section>
+      {isMediaPassage(passage) ? (
+        <section className="record-section">
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="eyebrow">Recorded-speech evidence</p>
+            <StatusMark tone="accent">Pinned transcript span</StatusMark>
+          </div>
+          <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
+            This claim is bound to media span{" "}
+            <span className="font-mono text-base">{passage.id}</span>. Only the span&apos;s
+            timestamps and hash are stored; the transcript text is regenerated locally from
+            youtube-corpus and rejected on a hash mismatch.
+          </p>
+          <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
+            <dt>Span</dt>
+            <dd>{passage.locator}</dd>
+            <dt>Video</dt>
+            <dd>
+              <a
+                className="link-quiet break-all"
+                href={`https://www.youtube.com/watch?v=${passage.youtube_id}&t=${Math.floor(passage.start_seconds)}`}
+                rel="noreferrer"
+                target="_blank"
+              >
+                Open the recording at the span ↗
+              </a>
+            </dd>
+            {passage.speaker ? (
+              <>
+                <dt>Speaker</dt>
+                <dd>
+                  {passage.speaker}
+                  {passage.speaker_attribution ? (
+                    <span className="block text-[var(--muted)]">{passage.speaker_attribution}</span>
+                  ) : null}
+                </dd>
+              </>
+            ) : null}
+            <dt>Transcript</dt>
+            <dd className="font-mono break-all">
+              {passage.transcript_source} ({passage.language}), {passage.segment_count} segments
+            </dd>
+            <dt>Producer</dt>
+            <dd className="font-mono break-all">
+              {passage.producer} {passage.producer_revision} · {passage.export_schema}
+            </dd>
+            <dt>Span hash</dt>
+            <dd className="font-mono break-all">{passage.span_sha256}</dd>
+            <dt>License</dt>
+            <dd>{passage.license}</dd>
+          </dl>
+        </section>
+      ) : (
+        <section className="record-section">
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="eyebrow">Primary-source evidence</p>
+            <StatusMark tone="accent">Pinned witness</StatusMark>
+          </div>
+          <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
+            This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
+            in an immutable source snapshot. The snapshot is byte-verified separately from the
+            scholarly interpretation below.
+          </p>
+          <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
+            <dt>Passage</dt>
+            <dd>{passage.locator}</dd>
+            <dt>Edition</dt>
+            <dd className="font-mono break-all">{passage.edition_urn}</dd>
+            <dt>Witness</dt>
+            <dd>
+              <a
+                className="link-quiet break-all"
+                href={passage.source_url}
+                rel="noreferrer"
+                target="_blank"
+              >
+                Open immutable source snapshot ↗
+              </a>
+            </dd>
+            <dt>Revision</dt>
+            <dd className="font-mono break-all">{passage.revision}</dd>
+            <dt>Git blob</dt>
+            <dd className="font-mono break-all">{passage.git_blob_sha}</dd>
+            <dt>License</dt>
+            <dd>{passage.license}</dd>
+          </dl>
+        </section>
+      )}
 
       <section className="record-section">
         <p className="eyebrow">Interpretation</p>

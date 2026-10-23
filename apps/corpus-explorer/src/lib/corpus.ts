@@ -3,7 +3,7 @@ import path from "node:path";
 
 export type CorpusSource = {
   id: string;
-  kind: "primary_text";
+  kind: "primary_text" | "media_recording";
   author: string;
   work: string;
   citation_system: string;
@@ -11,10 +11,14 @@ export type CorpusSource = {
   edition_urns?: string[];
   reference_edition_urn?: string;
   catalog_url: string;
+  youtube_id?: string;
+  channel?: string;
+  upload_date?: string;
   notes: string;
 };
 
 export type CorpusSourceSnapshot = {
+  kind?: "text_witness";
   source_id: string;
   edition_urn: string;
   language: string;
@@ -34,16 +38,48 @@ type CorpusPassageSlice = {
   tei_xml_id?: string;
 };
 
-type CorpusPassageManifest = {
-  snapshot: CorpusSourceSnapshot;
-  passages: CorpusPassageSlice[];
-  notes?: string;
+/** A timed transcript span pinned by hash to a youtube-corpus export; no text is stored. */
+export type CorpusMediaSnapshot = {
+  kind: "media_span";
+  source_id: string;
+  youtube_id: string;
+  transcript_source: "caption_manual" | "caption_auto" | "asr";
+  language: string;
+  producer: string;
+  producer_revision: string;
+  export_schema: string;
+  source_url: string;
+  license: string;
 };
 
-export type CorpusPassage = CorpusSourceSnapshot &
+type CorpusMediaSpanSlice = CorpusPassageSlice & {
+  start_seconds: number;
+  end_seconds: number;
+  segment_count: number;
+  span_sha256: string;
+  speaker?: string;
+  speaker_attribution?: string;
+};
+
+type CorpusPassageManifest =
+  | { snapshot: CorpusSourceSnapshot; passages: CorpusPassageSlice[]; notes?: string }
+  | { snapshot: CorpusMediaSnapshot; passages: CorpusMediaSpanSlice[]; notes?: string };
+
+export type CorpusTextPassage = CorpusSourceSnapshot &
   CorpusPassageSlice & {
     notes?: string;
   };
+
+export type CorpusMediaPassage = CorpusMediaSnapshot &
+  CorpusMediaSpanSlice & {
+    notes?: string;
+  };
+
+export type CorpusPassage = CorpusTextPassage | CorpusMediaPassage;
+
+export function isMediaPassage(passage: CorpusPassage): passage is CorpusMediaPassage {
+  return passage.kind === "media_span";
+}
 
 export type CorpusStatement = {
   id: string;
@@ -164,12 +200,16 @@ function readRecords<Record>(directory: string): Record[] {
 }
 
 function readPassages(): CorpusPassage[] {
-  return readRecords<CorpusPassageManifest>(path.join(corpusDirectory, "passages")).flatMap((manifest) =>
-    manifest.passages.map((passage) => ({
-      ...manifest.snapshot,
-      ...passage,
-      notes: manifest.notes,
-    })),
+  return readRecords<CorpusPassageManifest>(path.join(corpusDirectory, "passages")).flatMap(
+    (manifest) =>
+      manifest.passages.map(
+        (passage) =>
+          ({
+            ...manifest.snapshot,
+            ...passage,
+            notes: manifest.notes,
+          }) as CorpusPassage,
+      ),
   );
 }
 
