@@ -85,6 +85,8 @@ export type CorpusStatement = {
   id: string;
   paraphrase: string;
   lean_declaration?: string;
+  /** Optional premise-program marking (#156): sourced justification for self-evidence. */
+  self_evident?: { justification_ids: string[] };
 };
 
 type RawCorpusClaim = {
