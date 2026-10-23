@@ -413,6 +413,17 @@ button:focus-visible {
   border-color: var(--accent);
 }
 
+.graph-filters > *,
+.graph-focus-controls > *,
+.graph-toolbar > * {
+  min-width: 0;
+}
+
+.graph-filters .field-control,
+.graph-focus-controls .field-control {
+  width: 100%;
+}
+
 .graph-filters {
   display: grid;
   gap: 0.75rem;
@@ -571,13 +582,12 @@ button:focus-visible {
   border-width: 2px;
 }
 
-.graph-node-button {
-  background: transparent;
-  border: 0;
-  color: inherit;
+.graph-shell .react-flow__node {
   cursor: pointer;
+}
+
+.graph-node-button {
   display: grid;
-  font: inherit;
   gap: 0.35rem;
   padding: 0.6rem 0.7rem;
   text-align: left;

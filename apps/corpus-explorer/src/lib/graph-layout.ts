@@ -8,13 +8,14 @@
 
 export type LayoutNode = { id: string; width: number; height: number };
 export type LayoutEdge = { source: string; target: string };
-export type LayoutOptions = { layerGap?: number; nodeGap?: number };
+/** `maxRowWidth` wraps a wide layer into several rows inside its band. */
+export type LayoutOptions = { layerGap?: number; nodeGap?: number; rowGap?: number; maxRowWidth?: number };
 export type Point = { x: number; y: number };
 
 export function layeredLayout(
   nodes: LayoutNode[],
   edges: LayoutEdge[],
-  { layerGap = 90, nodeGap = 36 }: LayoutOptions = {},
+  { layerGap = 90, nodeGap = 36, rowGap = 28, maxRowWidth = 1800 }: LayoutOptions = {},
 ): Map<string, Point> {
   const ids = new Set(nodes.map((node) => node.id));
   const outgoing = new Map<string, string[]>(nodes.map((node) => [node.id, []]));
@@ -111,20 +112,33 @@ export function layeredLayout(
   }
 
   const size = new Map(nodes.map((node) => [node.id, node]));
-  const layerHeights = layers.map((layer) => Math.max(0, ...layer.map((id) => size.get(id)?.height ?? 0)));
   const positions = new Map<string, Point>();
   let y = 0;
   for (let layerIndex = maxRank; layerIndex >= 0; layerIndex -= 1) {
-    const layer = layers[layerIndex];
-    const width =
-      layer.reduce((sum, id) => sum + (size.get(id)?.width ?? 0), 0) + nodeGap * Math.max(0, layer.length - 1);
-    let x = -width / 2;
-    for (const id of layer) {
-      const node = size.get(id) as LayoutNode;
-      positions.set(id, { x, y: y + (layerHeights[layerIndex] - node.height) / 2 });
-      x += node.width + nodeGap;
+    const rows: string[][] = [];
+    let rowWidth = 0;
+    for (const id of layers[layerIndex]) {
+      const width = size.get(id)?.width ?? 0;
+      const current = rows[rows.length - 1];
+      if (!current || (current.length && rowWidth + nodeGap + width > maxRowWidth)) {
+        rows.push([id]);
+        rowWidth = width;
+      } else {
+        current.push(id);
+        rowWidth += nodeGap + width;
+      }
     }
-    y += layerHeights[layerIndex] + layerGap;
+    rows.forEach((row, rowIndex) => {
+      const height = Math.max(0, ...row.map((id) => size.get(id)?.height ?? 0));
+      const width = row.reduce((sum, id) => sum + (size.get(id)?.width ?? 0), 0) + nodeGap * (row.length - 1);
+      let x = -width / 2;
+      for (const id of row) {
+        const node = size.get(id) as LayoutNode;
+        positions.set(id, { x, y: y + (height - node.height) / 2 });
+        x += node.width + nodeGap;
+      }
+      y += height + (rowIndex === rows.length - 1 ? layerGap : rowGap);
+    });
   }
   return positions;
 }

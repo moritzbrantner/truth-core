@@ -49,10 +49,7 @@ const NODE_SIZE = {
   cluster: { width: 250, height: 104 },
 } as const;
 
-type FlowData = { view: ViewNode; selected: boolean; onSelect: (id: string) => void; onOpenCluster: (key: string) => void } & Record<
-  string,
-  unknown
->;
+type FlowData = { view: ViewNode; selected: boolean } & Record<string, unknown>;
 type FlowNode = Node<FlowData>;
 
 function StatementNodeView({ data }: NodeProps<FlowNode>) {
@@ -70,7 +67,7 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
       data-status={statement.status}
     >
       <Handle position={Position.Bottom} type="target" />
-      <button className="graph-node-button nodrag" onClick={() => data.onSelect(statement.id)} type="button">
+      <div className="graph-node-button">
         <span className="graph-node-status">
           {statusLabel.get(statement.status)}
           {statement.refuted ? " · refuted" : ""}
@@ -93,7 +90,7 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
             </span>
           ))}
         </span>
-      </button>
+      </div>
       <Handle position={Position.Top} type="source" />
     </div>
   );
@@ -110,10 +107,10 @@ function InferenceNodeView({ data }: NodeProps<FlowNode>) {
       data-selected={data.selected}
     >
       <Handle position={Position.Bottom} type="target" />
-      <button className="graph-node-button nodrag" onClick={() => data.onSelect(node.id)} title={node.inference.meaning} type="button">
+      <div className="graph-node-button" title={node.inference.meaning}>
         <span aria-hidden="true">⊢ </span>
         {node.inference.rule.replaceAll("_", " ")}
-      </button>
+      </div>
       <Handle position={Position.Top} type="source" />
     </div>
   );
@@ -124,15 +121,15 @@ function ClusterNodeView({ data }: NodeProps<FlowNode>) {
   return (
     <div className="graph-node graph-node-cluster" data-dimmed={node.matchCount === 0}>
       <Handle position={Position.Bottom} type="target" />
-      <button className="graph-node-button nodrag" onClick={() => data.onOpenCluster(node.key)} type="button">
-        <span className="graph-node-status">Cluster · expand</span>
+      <div className="graph-node-button">
+        <span className="graph-node-status">Cluster · click to expand</span>
         <span className="graph-node-text">{node.label}</span>
         <span className="graph-node-badges">
           <span className="graph-badge">{node.size} statements</span>
           {node.matchCount !== node.size ? <span className="graph-badge">{node.matchCount} match</span> : null}
           {node.frontierCount ? <span className="graph-badge">{node.frontierCount} frontier</span> : null}
         </span>
-      </button>
+      </div>
       <Handle position={Position.Top} type="source" />
     </div>
   );
@@ -208,8 +205,6 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
       data: {
         view: node,
         selected: node.id === state.sel,
-        onSelect: () => undefined,
-        onOpenCluster: () => undefined,
       },
       draggable: false,
       selectable: false,
@@ -230,11 +225,14 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
     return { nodes: flowNodes, edges: flowEdges };
   }, [view, state.sel]);
 
-  // Callbacks are attached after layout so URL changes do not recompute positions.
-  const select = (id: string) => update({ sel: id === state.sel ? "" : id });
-  const openCluster = (key: string) =>
-    update({ open: state.open.includes(key) ? state.open : [...state.open, key] });
-  const boundNodes = nodes.map((node) => ({ ...node, data: { ...node.data, onSelect: select, onOpenCluster: openCluster } }));
+  const onNodeClick = (_event: React.MouseEvent, node: FlowNode) => {
+    const clicked = node.data.view;
+    if (clicked.kind === "cluster") {
+      update({ open: state.open.includes(clicked.key) ? state.open : [...state.open, clicked.key] });
+    } else {
+      update({ sel: clicked.id === state.sel ? "" : clicked.id });
+    }
+  };
 
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
@@ -503,14 +501,15 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
           <ReactFlow
             edges={edges}
             fitView
-            fitViewOptions={{ padding: 0.12 }}
+            fitViewOptions={{ padding: 0.12, minZoom: 0.4 }}
             key={flowKey}
             maxZoom={1.6}
             minZoom={0.05}
-            nodes={boundNodes}
+            nodes={nodes}
             nodesConnectable={false}
             nodesDraggable={false}
             nodeTypes={nodeTypes}
+            onNodeClick={onNodeClick}
             onlyRenderVisibleElements
           >
             <Background gap={24} size={1} />

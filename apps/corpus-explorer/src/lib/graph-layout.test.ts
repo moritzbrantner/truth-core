@@ -46,4 +46,11 @@ describe("layered layout", () => {
     expect(positions.size).toBe(2);
     expect(positions.get("A")?.y).not.toBe(positions.get("B")?.y);
   });
+
+  test("wraps a wide layer into rows", () => {
+    const many = Array.from({ length: 10 }, (_, index) => node(`N${index}`));
+    const positions = layeredLayout(many, [], { maxRowWidth: 450, nodeGap: 10 });
+    const rows = new Set([...positions.values()].map((point) => point.y));
+    expect(rows.size).toBe(3);
+  });
 });
