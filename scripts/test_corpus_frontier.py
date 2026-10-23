@@ -137,6 +137,30 @@ class FrontierSchemaTest(unittest.TestCase):
             corpus.validate_premise_program_relation(path, relation("statement", "A", "refutes", "S"))
 
 
+class TranscriptionHeuristicTest(unittest.TestCase):
+    def test_consequent_after_unfolding_and_quantifiers(self) -> None:
+        definitions = {"Bridge": (["a", "b", "c"], "a ∧ b → c"), "Goal": (["c"], "c")}
+        self.assertEqual(corpus.consequent(corpus.unfold_once("Bridge P Q R", definitions)), "R")
+        self.assertEqual(corpus.consequent("∀ x, A x → (B x → C x)"), "B x → C x")
+        self.assertEqual(corpus.strip_quantifier_prefix(corpus.unfold_once("Goal R", definitions)), "R")
+        self.assertIsNone(corpus.consequent("A ∧ (B → C)"))
+
+    def test_flags_known_transcription_and_spares_the_skeleton(self) -> None:
+        records = {name: [record for _, record in corpus.load_dir(name)] for name in ("results", "arguments", "statements")}
+        flags = {
+            flag["result_id"]: flag
+            for flag in corpus.transcription_flags(records["results"], records["arguments"], records["statements"])
+        }
+        teleology = flags["ARIST-PHYS-198B-199A-NATURAL-TELEOLOGY"]
+        self.assertEqual(teleology["single_application_of"], "hBridge")
+        self.assertEqual(
+            teleology["goal_consequent_premises"],
+            [{"hypothesis": "hBridge", "statement_ids": ["STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY"]}],
+        )
+        for result_id in ("CATHOLICISM-SKELETON", "CATHOLICISM-STAGE1-FROM-PRIMA-VIA", "AQUINAS-ST-I-Q2-A3-PRIMA-VIA"):
+            self.assertNotIn(result_id, flags)
+
+
 class FrontierCorpusTest(unittest.TestCase):
     """Runs the command against the real corpus."""
 

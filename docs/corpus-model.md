@@ -70,6 +70,8 @@ For each open premise it shows the arguments that use it directly, the transitiv
 - `--root STMT-...` chooses the statement whose path is shown (default `STMT-CATHOLICISM-TRUE`);
 - `--reaching-root` keeps only the premises from which the root is reached.
 
+The report ends with a **transcription heuristics** section, and an open premise is marked `transcription premise of: ARG` when it is load-bearing in that sense. A result is flagged when its Solution proof (comments removed, leading `intro` steps ignored) is a single application of one hypothesis; when a hypothesis type, after unfolding its head definition one level and stripping leading `∀` binders, has the theorem's goal as the consequent of its last top-level `→`; or when the proof has at most two steps. Such a result certifies little more than the transcription of a bridge premise that already contains the conclusion. The checks are textual and deterministic: they can miss a transcription hidden behind further definitions, and a flagged one-step argument can still be faithful. With `--reaching-root` only results on a path to the root are listed.
+
 The frontier is the work queue for the premise program, not a truth score: a premise leaves it only by being proved from other premises, marked self-evident with a justification, or having every recorded alternative refuted. The candidates list (`corpus.py next`) remains the queue for source ranges.
 
 Example (abridged):
@@ -81,10 +83,12 @@ alternatives: no alternatives recorded
 
 STMT-NO-INFINITE-PER-SE-MOVER-SERIES
   A per se ordered series of moved movers cannot go on to infinity: ...
-  dependent arguments: 2 (AQUINAS-ST-I-Q2-A3-PRIMA-VIA, AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE)
-  transitive dependents: 4 arguments, 4 statements
-  path to root: STMT-NO-INFINITE-PER-SE-MOVER-SERIES -> AQUINAS-ST-I-Q2-A3-PRIMA-VIA -> STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING -> CATHOLICISM-STAGE1-FROM-PRIMA-VIA -> STMT-GOD-EXISTS -> CATHOLICISM-SKELETON -> STMT-CATHOLICISM-TRUE
+  dependent arguments: 3 (AQUINAS-ST-I-Q2-A3-PRIMA-VIA, AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE, CATHOLICISM-FROM-PRIMA-VIA)
+  transitive dependents: 5 arguments, 4 statements
+  path to root: STMT-NO-INFINITE-PER-SE-MOVER-SERIES -> CATHOLICISM-FROM-PRIMA-VIA -> STMT-CATHOLICISM-TRUE
   objections: none recorded
+...
+transcription heuristics: 0 results flagged (single application, goal as premise consequent, or at most 2 proof steps)
 ```
 
 Tests: `python3 -m unittest discover -s scripts -p 'test_*.py'`.

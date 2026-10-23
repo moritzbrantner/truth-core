@@ -7,10 +7,10 @@ is an independent corpus statement. The stage conclusions and the bridge
 premises are *open premises*: they enter results only as hypotheses, never as
 axioms, and they are defended (or not) by separate sourced arguments.
 
-The formalization is deliberately weak. Apart from a little first-order
-structure for the ecclesial step (a type of societies, the Catholic Church as
-one of them, and identity between societies), every stage conclusion and every
-Creed article is an uninterpreted proposition supplied by the `Signature`.
+The formalization is deliberately weak but typed: one shared `Signature` of
+beings, societies and predicates is used by every stage, and the prima via is
+instantiated over the same `Being` type. Only the twelve Creed articles are
+uninterpreted propositions.
 Nothing here defines the root in terms of the stages: the root is phase 1 of
 issue #156, (A) the Catholic Church is the teaching authority founded by God,
 and (B) the articles of the Nicene-Constantinopolitan Creed. The stages reach
@@ -26,34 +26,44 @@ namespace TruthCore.Case.Catholicism
 
 universe u
 
-/-- The shared signature of the skeleton. All fields are parameters; none is
-given a definition or an axiom.
+/-- The shared signature of the case. All fields are parameters; none is given
+a definition or an axiom. One `Being` type is shared by every stage and by the
+prima via (`stageOneFromPrimaVia` instantiates Aquinas' `Being` with it).
 
-* `Being`, `IsGod` — beings and the predicate "is God" (the God of classical
-  theism, not merely what is called God).
+* `IsGod g` — `g` is God, in the sense of the God of classical theism, not
+  merely what is called God.
+* `HasClassicalAttributes g` — `g` is simple, perfect, good, infinite,
+  immutable, eternal and one, and has intellect and will.
+* `RevealsRecognizably g` — `g` can reveal and can make a revelation
+  recognizable as his by external signs (miracles, prophecies).
+* `jesus` — Jesus of Nazareth, a being; `ClaimedDivineAuthority x`,
+  `RoseFromTheDead x` — historical predicates of a being.
 * `Society`, `catholicChurch` — societies of people, and the Catholic Church
-  as one of them (identified historically as the society in communion with the
-  bishop of Rome).
-* `ChristFoundedAsVisibleChurch c` — Christ founded `c` as a visible, enduring
-  society with an authority structure.
-* `GodFoundedTeachingAuthority c` — `c` is a teaching authority founded by God.
+  as one of them (the society in communion with the bishop of Rome).
+* `Founded x c` — `x` founded the society `c`; `VisibleWithAuthority c` —
+  `c` is a visible, enduring society with an authority structure.
+* `FoundedAsTeachingAuthority g c` — `g` founded `c` as a teaching authority.
 * `DefinitivelyProposesAsRevealed c p` — `c` definitively proposes `p` to be
   believed as divinely revealed (by solemn judgment or ordinary and universal
   magisterium).
-* the stage atoms 2-4 and the twelve Creed articles, as uninterpreted
-  propositions.
+* the twelve Creed articles, as uninterpreted propositions. They are not
+  identified with the stage predicates (e.g. art. 5 with `RoseFromTheDead`):
+  that would merge statements by similarity.
 -/
 structure Signature where
-  Being : Type u
+  Being : Type
   IsGod : Being → Prop
-  Society : Type u
+  HasClassicalAttributes : Being → Prop
+  RevealsRecognizably : Being → Prop
+  jesus : Being
+  ClaimedDivineAuthority : Being → Prop
+  RoseFromTheDead : Being → Prop
+  Society : Type
   catholicChurch : Society
-  ChristFoundedAsVisibleChurch : Society → Prop
-  GodFoundedTeachingAuthority : Society → Prop
+  Founded : Being → Society → Prop
+  VisibleWithAuthority : Society → Prop
+  FoundedAsTeachingAuthority : Being → Society → Prop
   DefinitivelyProposesAsRevealed : Society → Prop → Prop
-  godHasClassicalAttributes : Prop
-  revelationPossibleAndRecognizable : Prop
-  jesusClaimedDivineAuthorityAndRose : Prop
   creedOneGodFatherAlmightyCreator : Prop
   creedOneLordJesusChristOnlyBegottenConsubstantial : Prop
   creedIncarnateOfSpiritAndVirginMary : Prop
@@ -168,13 +178,14 @@ def CreedArticlesHold (σ : Signature) : Prop :=
 
 /-! ## Root -/
 
-/-- (A) The Catholic Church is the teaching authority founded by God.
+/-- (A) The Catholic Church is the teaching authority founded by God: there is
+a God who founded the Catholic Church as a teaching authority.
 
 Phase-1 component (A) of issue #156, after Vatican I, *Dei Filius* ch. 3 (the
 Church as a motive of credibility and witness of its divine mission). No
 pinned witness: candidate `VATICAN-I-DEI-FILIUS-CH3`. -/
 def CatholicChurchIsGodFoundedTeachingAuthority (σ : Signature) : Prop :=
-  σ.GodFoundedTeachingAuthority σ.catholicChurch
+  ∃ g, σ.IsGod g ∧ σ.FoundedAsTeachingAuthority g σ.catholicChurch
 
 /-- Root `STMT-CATHOLICISM-TRUE`, phase 1: (A) and (B).
 
@@ -191,59 +202,62 @@ from the prima via plus the open gap premises. -/
 def GodExists {Being : Sort u} (IsGod : Being → Prop) : Prop :=
   ∃ g, IsGod g
 
-/-- Stage 2: God has the classical divine attributes: simplicity, perfection,
-goodness, infinity, immutability, eternity, unity, intellect and will (ST I
-qq.3-26). An uninterpreted proposition. -/
+/-- Stage 2: God has the classical divine attributes (ST I qq.3-26). -/
 def GodHasClassicalAttributes (σ : Signature) : Prop :=
-  σ.godHasClassicalAttributes
+  ∀ g, σ.IsGod g → σ.HasClassicalAttributes g
 
-/-- Stage 3: divine revelation is possible and can be recognized as such by
-external signs (motives of credibility). An uninterpreted proposition. -/
+/-- Stage 3: God can reveal, and can make a revelation recognizable as his by
+external signs, the motives of credibility. -/
 def RevelationPossibleAndRecognizable (σ : Signature) : Prop :=
-  σ.revelationPossibleAndRecognizable
+  ∀ g, σ.IsGod g → σ.RevealsRecognizably g
 
 /-- Stage 4: Jesus claimed to speak and act with divine authority, and he rose
-from the dead. An uninterpreted proposition; per the owner decision on #143,
-historical findings enter later as their own sourced premises. -/
+from the dead. Per the owner decision on #143, the historical findings behind
+it enter later as their own sourced premises. -/
 def JesusClaimedDivineAuthorityAndRose (σ : Signature) : Prop :=
-  σ.jesusClaimedDivineAuthorityAndRose
+  σ.ClaimedDivineAuthority σ.jesus ∧ σ.RoseFromTheDead σ.jesus
 
 /-- Stage 5: Christ founded a visible, enduring Church with an authority
 structure. -/
 def ChristFoundedVisibleChurch (σ : Signature) : Prop :=
-  ∃ c, σ.ChristFoundedAsVisibleChurch c
+  ∃ c, σ.Founded σ.jesus c ∧ σ.VisibleWithAuthority c
 
-/-- Stage 6: that Church is the Catholic Church: every society Christ founded
-as a visible Church is the Catholic Church. Identity of societies is
-historical identity through time, modeled as equality in `Society`. -/
+/-- Stage 6: that Church is the Catholic Church: every visible society with an
+authority structure that Christ founded is the Catholic Church. Identity of
+societies is historical identity through time, modeled as equality in
+`Society`. -/
 def ChristsChurchIsCatholicChurch (σ : Signature) : Prop :=
-  ∀ c, σ.ChristFoundedAsVisibleChurch c → c = σ.catholicChurch
+  ∀ c, σ.Founded σ.jesus c → σ.VisibleWithAuthority c → c = σ.catholicChurch
 
-/-! ## Bridge premises (open premises) -/
+/-! ## Bridge premises (open premises)
 
-/-- Bridge: if God exists and has the classical attributes, revelation is
-possible and recognizable, and Jesus claimed divine authority and rose, then
-any visible Church that Christ founded is a teaching authority founded by God.
+Neither bridge has the root, or (A), or (B) as its consequent. The skeleton
+result is still a structural map: it shows where the content must be
+supplied, and the bridges carry much of it. -/
 
-All four stages are antecedents, which keeps the bridge as weak as possible.
-Its content is that Christ's founding act, so vindicated, is God's own act
-of founding, and that the authority structure he gave includes teaching. -/
+/-- Bridge: for any God with the classical attributes who can reveal
+recognizably, if Jesus claimed divine authority and rose, then every visible
+society with authority that Jesus founded was founded by that God as a teaching
+authority. Its content: Jesus' founding act, so vindicated, is God's own act of
+founding, and the authority Jesus gave includes teaching. -/
 def BridgeChristsChurchFoundedByGod (σ : Signature) : Prop :=
-  GodExists σ.IsGod → GodHasClassicalAttributes σ →
-    RevelationPossibleAndRecognizable σ → JesusClaimedDivineAuthorityAndRose σ →
-    ∀ c, σ.ChristFoundedAsVisibleChurch c → σ.GodFoundedTeachingAuthority c
+  ∀ g, σ.IsGod g → σ.HasClassicalAttributes g → σ.RevealsRecognizably g →
+    σ.ClaimedDivineAuthority σ.jesus → σ.RoseFromTheDead σ.jesus →
+    ∀ c, σ.Founded σ.jesus c → σ.VisibleWithAuthority c →
+      σ.FoundedAsTeachingAuthority g c
 
-/-- Every visible Church that Christ founded is a teaching authority founded by
-God. An intermediate conclusion of the skeleton. -/
+/-- There is a God who founded, as a teaching authority, every visible society
+with authority that Christ founded. An intermediate conclusion. -/
 def ChristsChurchIsGodFoundedTeachingAuthority (σ : Signature) : Prop :=
-  ∀ c, σ.ChristFoundedAsVisibleChurch c → σ.GodFoundedTeachingAuthority c
+  ∃ g, σ.IsGod g ∧ ∀ c, σ.Founded σ.jesus c → σ.VisibleWithAuthority c →
+    σ.FoundedAsTeachingAuthority g c
 
-/-- Bridge: if God has the classical attributes (among them that he can neither
-deceive nor be deceived), then whatever a teaching authority founded by God
-definitively proposes as divinely revealed is true. -/
+/-- Bridge: whatever a society founded as a teaching authority by a God with
+the classical attributes (among them that he can neither deceive nor be
+deceived) definitively proposes as divinely revealed is true. -/
 def BridgeGodFoundedAuthorityProposesOnlyTruth (σ : Signature) : Prop :=
-  GodHasClassicalAttributes σ →
-    ∀ c, σ.GodFoundedTeachingAuthority c →
+  ∀ g c, σ.IsGod g → σ.HasClassicalAttributes g →
+    σ.FoundedAsTeachingAuthority g c →
       ∀ p, σ.DefinitivelyProposesAsRevealed c p → p
 
 /-- The Catholic Church definitively proposes each article of the

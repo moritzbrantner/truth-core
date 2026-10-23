@@ -167,3 +167,4 @@ import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
