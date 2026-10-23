@@ -90,15 +90,36 @@ class BindResultTest(unittest.TestCase):
             sorted(p["kind"] for p in report["problems"]), ["extra-hypothesis", "missing-premise"]
         )
 
-    def test_logical_form_conclusion_without_declaration_is_undecidable(self):
-        argument = {"premise_statement_ids": ["P", "Q"], "conclusion_statement_id": "E"}
-        report = self.bind(
-            [hyp("hP", "PReading"), hyp("hQ", "QReading")],
-            hyp("", "Exists", type_="∃ x, Causes x cosmos"),
-            argument=argument,
+    def bind_undeclared(self, pins, type_="∃ x, Causes x cosmos", premises=("P", "Q")):
+        argument = {"premise_statement_ids": list(premises), "conclusion_statement_id": "E"}
+        return corpus.bind_result(
+            RESULT,
+            argument,
+            STATEMENTS,
+            describe([hyp("hP", "PReading"), hyp("hQ", "QReading")], hyp("", "Exists", type_=type_)),
+            pins,
         )
-        self.assertEqual(report["status"], "undecidable")
+
+    def test_pinned_logical_form_conclusion_passes(self):
+        report = self.bind_undeclared({("R", "conclusion", "E"): "∃ x,\n  Causes x cosmos"})
+        self.assertEqual(report["status"], "pinned")
         self.assertEqual(report["undecidable"][0]["role"], "conclusion")
+
+    def test_unpinned_logical_form_conclusion_fails(self):
+        report = self.bind_undeclared({})
+        self.assertEqual(report["status"], "mismatch")
+        self.assertEqual([p["kind"] for p in report["problems"]], ["undeclared-binding"])
+
+    def test_pin_with_a_different_type_fails(self):
+        report = self.bind_undeclared({("R", "conclusion", "E"): "∃ x, x ≠ cosmos"})
+        self.assertEqual(report["status"], "mismatch")
+
+    def test_undeclared_premise_needs_a_pin(self):
+        argument = {"premise_statement_ids": ["P", "E"], "conclusion_statement_id": "C"}
+        report = self.bind(
+            [hyp("hP", "PReading"), hyp("hX", "Exists", type_="∃ x, F x")], hyp("", "CReading"), argument
+        )
+        self.assertEqual([p["kind"] for p in report["problems"]], ["undeclared-binding"])
 
     def test_undeclared_statement_cannot_hide_a_corpus_declaration(self):
         argument = {"premise_statement_ids": ["P", "E"], "conclusion_statement_id": "E"}

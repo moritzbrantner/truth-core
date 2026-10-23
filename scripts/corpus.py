@@ -454,11 +454,28 @@ def is_corpus_constant(name: str | None) -> bool:
     return isinstance(name, str) and (name == "TruthCore" or name.startswith("TruthCore."))
 
 
+# Statements without `lean_declaration` cannot be bound by head constant. Each
+# such binding must be pinned here to the exact (whitespace-normalized) Lean
+# type it stands for; any other undeclared binding fails bind-check, and so
+# does a pin that no result uses any more.
+PINNED_UNDECLARED_BINDINGS: dict[tuple[str, str, str], str] = {
+    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-A", "conclusion", "STMT-COSMOS-HAS-CAUSE"):
+        "∃ cause, Causes cause cosmos",
+    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-B", "conclusion", "STMT-COSMOS-HAS-DISTINCT-CAUSE"):
+        "∃ cause, cause ≠ cosmos ∧ Causes cause cosmos",
+}
+
+
+def normalize_type(text: str) -> str:
+    return " ".join(text.split())
+
+
 def bind_result(
     result: dict[str, Any],
     argument: dict[str, Any],
     statement_index: dict[str, tuple[Path, dict[str, Any]]],
     described: dict[str, Any],
+    pins: dict[tuple[str, str, str], str] | None = None,
 ) -> dict[str, Any]:
     """Compare one result's argument record with the Lean description of its theorem.
 
@@ -469,10 +486,14 @@ def bind_result(
 
     A statement without `lean_declaration` cannot be bound by head constant.
     It is matched to a type whose head is not a `TruthCore` declaration (a
-    logical form such as `∃ x, …` over vocabulary) and reported as
-    `undecidable`; if the type's head is a `TruthCore` declaration, the
-    statement should name it, and that is a mismatch.
+    logical form such as `∃ x, …` over vocabulary). That binding passes only
+    when `pins` (default `PINNED_UNDECLARED_BINDINGS`) records exactly that
+    Lean type for this result, role and statement; the result is then
+    `pinned`. If the type's head is a `TruthCore` declaration, the statement
+    should name it, and that is a mismatch.
     """
+    if pins is None:
+        pins = PINNED_UNDECLARED_BINDINGS
 
     def declaration(statement_id: str) -> str | None:
         return statement_index[statement_id][1].get("lean_declaration")
@@ -586,10 +607,25 @@ def bind_result(
         conclusion["lean_declaration"] = None
         undecidable.append({"role": "conclusion", "statement_id": conclusion_id, "type": outcome["type"]})
 
+    for item in undecidable:
+        key = (result["id"], item["role"], item["statement_id"])
+        item["pin"] = list(key)
+        pinned = pins.get(key)
+        if pinned is None or normalize_type(pinned) != normalize_type(item["type"]):
+            problems.append(
+                {
+                    "kind": "undeclared-binding",
+                    "role": item["role"],
+                    "statement_id": item["statement_id"],
+                    "type": item["type"],
+                    "pinned_type": pinned,
+                }
+            )
+
     if problems:
         status = "mismatch"
     elif undecidable:
-        status = "undecidable"
+        status = "pinned"
     else:
         status = "bound"
     premises.sort(key=lambda entry: entry["position"])
@@ -616,9 +652,12 @@ def bind_report(described_list: list[dict[str, Any]]) -> dict[str, Any]:
         described = by_theorem.get(result["theorem"], {"error": "theorem not described by the Lean tool"})
         argument = argument_index[result["argument_id"]][1]
         entries.append(bind_result(result, argument, statement_index, described))
+    used = {tuple(item["pin"]) for entry in entries for item in entry["undecidable"]}
+    stale = sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
     summary = Counter(entry["status"] for entry in entries)
     return {
-        "summary": {status: summary.get(status, 0) for status in ("bound", "undecidable", "mismatch")},
+        "summary": {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")},
+        "stale_pins": stale,
         "results": entries,
     }
 
@@ -634,19 +673,22 @@ def command_bind_check(args: argparse.Namespace) -> int:
         print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
     else:
         for entry in report["results"]:
-            for item in entry["undecidable"]:
-                print(
-                    f"undecidable: {entry['id']}: {item['role']} {item['statement_id']} "
-                    f"has no lean_declaration; Lean type is `{item['type']}`"
-                )
+            if entry["status"] == "pinned":
+                for item in entry["undecidable"]:
+                    print(
+                        f"pinned: {entry['id']}: {item['role']} {item['statement_id']} "
+                        f"has no lean_declaration; Lean type is `{item['type']}`"
+                    )
             for problem in entry["problems"]:
                 print(f"mismatch: {entry['id']}: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
         summary = report["summary"]
         print(
-            f"bind-check: {summary['bound']} bound, {summary['undecidable']} undecidable, "
+            f"bind-check: {summary['bound']} bound, {summary['pinned']} pinned, "
             f"{summary['mismatch']} mismatch"
         )
-    return 1 if report["summary"]["mismatch"] else 0
+        for key in report["stale_pins"]:
+            print(f"stale pin: {key} is not used by any result; remove it from PINNED_UNDECLARED_BINDINGS")
+    return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
 
 
 def parser() -> argparse.ArgumentParser:
