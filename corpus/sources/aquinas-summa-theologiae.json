@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST",
+  "kind": "primary_text",
+  "author": "Thomas Aquinas",
+  "work": "Summa theologiae",
+  "citation_system": "pars, quaestio, articulus (e.g. I q.2 a.3 co.)",
+  "work_urn": "http://scta.info/resource/TAca84",
+  "edition_urns": [
+    "http://scta.info/resource/TAca84-d1e56/cod-cnLxE4"
+  ],
+  "reference_edition_urn": "http://scta.info/resource/TAca84-d1e56/cod-cnLxE4",
+  "catalog_url": "http://scta.info/resource/TAca84",
+  "notes": "Use the conventional pars/quaestio/articulus locator as the human citation; `co.` marks the corpus (respondeo) of an article. There is no CTS URN for the Summa, so the work and edition identifiers are SCTA (Scholastic Commentaries and Texts Archive) resource URIs. The pinned witness is the SCTA LombardPress diplomatic TEI transcription of the Leonine edition (Opera omnia, vol. 4, Rome 1888), witness `cod-cnLxE4`, by Jeffrey C. Witt, CC BY-NC-SA 4.0. The transcription is marked draft and keeps OCR residue of the Leonine apparatus markers (stray quotation marks, `?`, `^`, and one stray full stop in `aliud. movens`); read those as noise, not as text. Corpus Thomisticum (Leonine text, unpinned web pages) is an orientation aid only."
+}

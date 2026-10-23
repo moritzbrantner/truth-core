@@ -8,6 +8,7 @@ export type CorpusSource = {
   work: string;
   citation_system: string;
   work_urn: string;
+  edition_urns?: string[];
   reference_edition_urn?: string;
   catalog_url: string;
   notes: string;
@@ -30,6 +31,7 @@ type CorpusPassageSlice = {
   locator: string;
   claim_locator_prefixes: string[];
   cts_path?: Array<{ subtype: string; n: string }>;
+  tei_xml_id?: string;
 };
 
 type CorpusPassageManifest = {

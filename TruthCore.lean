@@ -29,6 +29,7 @@ import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter7
 import TruthCore.Greek.Aristotle.Physics.BookIII.Chapter8
 import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter1
 import TruthCore.Greek.Aristotle.Metaphysics
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution
@@ -154,3 +155,4 @@ import TruthCore.Results.Aristotle.Physics.SameAffectionEqualSubjectAlterations.
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
 import TruthCore.Results.Aristotle.Physics.HalfForceHalfLoadSameMotion.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
