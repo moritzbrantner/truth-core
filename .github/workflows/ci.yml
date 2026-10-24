@@ -40,6 +40,8 @@ jobs:
           python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q48-A3 --output /tmp/aquinas-st-i-q48-a3.txt
           python3 scripts/source_evidence.py materialize VATICAN-I-DEI-FILIUS-CH3 --output /tmp/vatican-i-dei-filius-ch3.txt
+          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q4-A2 --output /tmp/aquinas-st-i-q4-a2.txt
+          python3 scripts/source_evidence.py materialize ARIST-MET-II-1 --output /tmp/aristotle-metaphysics-ii-1.txt
 
   corpus-explorer:
     runs-on: ubuntu-latest
