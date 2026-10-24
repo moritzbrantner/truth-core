@@ -1,0 +1,1 @@
+{"id": "STMT-EACH-SOMETIME-NOT-DOES-NOT-ENTAIL-SOMETIME-NOTHING", "paraphrase": "The naive temporal quantifier shift is invalid: that each being is at some time not does not entail that at some time no being is.", "lean_declaration": "TruthCore.Logic.EachSometimeNotDoesNotEntailSometimeNothing"}

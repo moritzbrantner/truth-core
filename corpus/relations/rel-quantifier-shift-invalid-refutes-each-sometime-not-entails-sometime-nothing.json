@@ -1,0 +1,1 @@
+{"id": "REL-QUANTIFIER-SHIFT-INVALID-REFUTES-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING", "subject_kind": "argument", "subject_id": "LOGIC-QUANTIFIER-SHIFT-EACH-SOMETIME-NOT-INVALID", "predicate": "refutes", "object_kind": "statement", "object_id": "STMT-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING"}
