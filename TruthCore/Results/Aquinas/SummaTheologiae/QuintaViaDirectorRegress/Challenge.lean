@@ -19,8 +19,8 @@ theorem directorRegress {Being : Type} {Respect : Type} {End : Type}
     (hPerSe : SecondMoversMoveOnlyAsMovedReading MovedIn MovesIn MovesAsMoved)
     (hRegress : NoInfinitePerSeMoverSeriesReading MovesAsMoved)
     (hEM : ExcludedMiddle)
-    (hThrough : DirectionThroughIntermediariesReading MovesIn Directs)
-    (hDesign : UnmovedDirectorHasTheDesignReading MovedIn HasCognition Intelligent Directs) :
+    (hThrough : DirectionPassesToMoversOfDirectors MovesIn Directs)
+    (hDesign : UnmovedDirectorKnowsAndUnderstands MovedIn HasCognition Intelligent Directs) :
     NaturalDirectionReducedToIntelligentImmobileDirector MovedIn NaturalBody HasCognition
       Intelligent Directs := by
   sorry

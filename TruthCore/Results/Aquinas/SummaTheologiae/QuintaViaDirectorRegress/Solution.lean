@@ -9,11 +9,11 @@ open TruthCore.Case.Catholicism (NaturalDirectionReducedToIntelligentImmobileDir
 /-- The regress of directors. Let `f` direct `x` to `e`. If `f` is moved in no
 respect, it is the first director. Otherwise some `g` moves it (a moved thing is
 moved by a mover), `g` is not `f` (nothing is in act and in potency in the same
-respect), and `g` directs `x` to `e` through `f` (q.103 a.6). If `g` is moved
+respect), and `g` directs `x` to `e` through `f` (open bridge, supported by q.103 a.6). If `g` is moved
 too, it moves `f` only as moved, a per se link of the series; and that series
 has no infinite descent (*prima via*). So, by well-founded induction, some
 director of `x` to `e` is moved in no respect, and it has the design of
-government, so it knows and understands (q.103 a.6). -/
+government, so it knows and understands (open bridge, supported by q.103 a.6). -/
 theorem directorRegress {Being : Type} {Respect : Type} {End : Type}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)
@@ -28,8 +28,8 @@ theorem directorRegress {Being : Type} {Respect : Type} {End : Type}
     (hPerSe : SecondMoversMoveOnlyAsMovedReading MovedIn MovesIn MovesAsMoved)
     (hRegress : NoInfinitePerSeMoverSeriesReading MovesAsMoved)
     (hEM : ExcludedMiddle)
-    (hThrough : DirectionThroughIntermediariesReading MovesIn Directs)
-    (hDesign : UnmovedDirectorHasTheDesignReading MovedIn HasCognition Intelligent Directs) :
+    (hThrough : DirectionPassesToMoversOfDirectors MovesIn Directs)
+    (hDesign : UnmovedDirectorKnowsAndUnderstands MovedIn HasCognition Intelligent Directs) :
     NaturalDirectionReducedToIntelligentImmobileDirector MovedIn NaturalBody HasCognition
       Intelligent Directs := by
   intro d x e _ hd
@@ -57,7 +57,7 @@ theorem directorRegress {Being : Type} {Respect : Type} {End : Type}
   obtain ⟨hCognition, hIntelligent⟩ := hDesign h x e hh hUnmoved
   exact ⟨h, hCognition, hIntelligent, hUnmoved, hh⟩
 
-/-- The design reading (q.103 a.6) is needed: one natural body that directs
+/-- The bridge from unmoved director to intellect is needed: one natural body that directs
 itself, moved by nothing and lacking intellect. Every other premise holds, but
 no intelligent director exists. -/
 theorem withoutDesignNoIntelligentDirector :
@@ -71,8 +71,8 @@ theorem withoutDesignNoIntelligentDirector :
       ReducedOnlyByAMoverReading MovedIn MovesIn ∧
       SecondMoversMoveOnlyAsMovedReading MovedIn MovesIn MovesAsMoved ∧
       NoInfinitePerSeMoverSeriesReading MovesAsMoved ∧
-      DirectionThroughIntermediariesReading MovesIn Directs ∧
-      ¬ UnmovedDirectorHasTheDesignReading MovedIn HasCognition Intelligent Directs ∧
+      DirectionPassesToMoversOfDirectors MovesIn Directs ∧
+      ¬ UnmovedDirectorKnowsAndUnderstands MovedIn HasCognition Intelligent Directs ∧
       ¬ NaturalDirectionReducedToIntelligentImmobileDirector MovedIn NaturalBody HasCognition
         Intelligent Directs :=
   ⟨fun _ _ => False, fun _ _ _ => False, fun _ _ => False, fun _ _ => False,

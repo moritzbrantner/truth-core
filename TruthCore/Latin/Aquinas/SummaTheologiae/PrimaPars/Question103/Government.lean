@@ -1,5 +1,5 @@
 /-!
-Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.103 (*de
+Source-derived readings and two open bridges from Thomas Aquinas, *Summa theologiae* I q.103 (*de
 gubernatione rerum*), a.3, a.5 ad 2 and a.6, used to close the *quinta via*'s
 scope bridges (owner decision on #143, 2026-10-24: ST I q.103 plus a regress of
 directors).
@@ -42,36 +42,27 @@ def GovernmentEffectsChangeReading {Being : Sort u} {Respect : Sort v}
     (MovesIn : Being → Being → Respect → Prop) (Governs : Being → Being → Prop) : Prop :=
   ∀ d x, Governs d x → ∃ r, MovesIn d x r
 
-/-- In the execution of government God "governs some things by means of others":
-he makes some things "causes of others in government". Read as the transitivity
-the regress of directors needs: whoever moves a director (other than itself)
-directs, through it, what that director directs, to the same end.
-
-This is an interpretive step. a.6 speaks of the first governor using
-intermediaries; the reading extends it to every mover of a director, as the
-*prima via* does for every mover of a mover.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.103 a.6 co. (English Dominican
-translation).
--/
-def DirectionThroughIntermediariesReading {Being : Sort u} {Respect : Sort v}
+/-- Direction passes to the movers of a director: whoever moves a director
+(other than itself) directs, through it, what that director directs, to the same
+end. Open bridge, not a reading (Codex P1 on #196): q.103 a.6 says that God
+"governs some things by means of others", making some things "causes of others
+in government" (claim `AQUINAS-ST-I-Q103-A6-THROUGH-INTERMEDIARIES`, which
+supports it). It does not say that every mover of a director, in any respect,
+directs the director's effect; that generalization, and the instrumental
+dependence it presupposes, are the open obligation. -/
+def DirectionPassesToMoversOfDirectors {Being : Sort u} {Respect : Sort v}
     {End : Sort w}
     (MovesIn : Being → Being → Respect → Prop) (Directs : Being → Being → End → Prop) :
     Prop :=
   ∀ g f x e r, Directs f x e → MovesIn g f r → g ≠ f → Directs g x e
 
-/-- The first director has the design of government, which is providence: "In
-government there are two things to be considered; the design of government,
-which is providence itself; and the execution of the design. As to the design of
-government, God governs all things immediately; whereas in its execution, He
-governs some things by means of others." Read as: a director moved by none
-directs by its own design, not as executing another's, so it knows and
-understands (providence belongs to knowledge and intellect).
-
-Source: Thomas Aquinas, *Summa theologiae* I q.103 a.6 co. (English Dominican
-translation).
--/
-def UnmovedDirectorHasTheDesignReading {Being : Sort u} {Respect : Sort v}
+/-- A director moved by none knows and understands. Open bridge, not a reading
+(Codex P1 on #196): q.103 a.6 attributes the design of government, which is
+providence, to God (claim `AQUINAS-ST-I-Q103-A6-DESIGN-OF-GOVERNMENT`, which
+supports it); it does not infer the design from being an unmoved director.
+The step from first in the series of directors to knowing and intelligent is
+the open obligation. -/
+def UnmovedDirectorKnowsAndUnderstands {Being : Sort u} {Respect : Sort v}
     {End : Sort w}
     (MovedIn : Being → Respect → Prop)
     (HasCognition Intelligent : Being → Prop)
