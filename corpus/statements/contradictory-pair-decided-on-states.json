@@ -1,0 +1,1 @@
+{"id": "STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES", "paraphrase": "Every state either has F or lacks it: no state lies between the two sides of the contradictory pair.", "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.ContradictoryPairDecidedOnStates"}

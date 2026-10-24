@@ -5,15 +5,18 @@ import TruthCore.Case.Catholicism.StageOneConvergence
 import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
+import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.ProblemOfEvil
+import TruthCore.English.Iemhoff.Intuitionism
 import TruthCore.English.OConnor.Metaethics
 import TruthCore.English.OConnor.ProblemOfEvil
 import TruthCore.English.VanRoojen.MoralCognitivism
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Metaphysics
+import TruthCore.Greek.Aristotle.MetaphysicsIV7
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
@@ -142,6 +145,9 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solutio
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSe.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
+import TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair.Solution
+import TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle.Solution
+import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
 import TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest.Solution
 import TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution
 import TruthCore.Results.Aristotle.Physics.AlterationScopeVII3.Solution
@@ -265,6 +271,8 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
+import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
+import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.OConnorEmotivismConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution

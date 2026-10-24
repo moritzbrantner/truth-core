@@ -1,0 +1,1 @@
+{"id": "STMT-INTUITIONIST-THEORY-CONSISTENT", "paraphrase": "The intuitionist theory's commitments (excluded middle proved only when decided, some proposition undecided, assertion requires proof, no instance of excluded middle refutable, truth is provability) are jointly satisfiable.", "lean_declaration": "TruthCore.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent"}
