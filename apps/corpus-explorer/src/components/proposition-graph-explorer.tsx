@@ -651,6 +651,9 @@ function DetailPanel({
       </p>
       <h3 className="mt-2 font-serif text-2xl leading-tight">{current.paraphrase}</h3>
       <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{current.id}</p>
+      <Link className="link-quiet mt-2 inline-block text-sm" href={`/statements/${current.id}`}>
+        Statement page →
+      </Link>
       <div className="mt-4 flex flex-wrap gap-2">
         <button className="graph-button" onClick={() => update({ view: "focus", node: current.id })} type="button">
           Focus here

@@ -3,7 +3,8 @@ import Link from "next/link";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 
 const links = [
-  { href: "/", label: "Claims" },
+  { href: "/", label: "State" },
+  { href: "/claims", label: "Claims" },
   { href: "/sources", label: "Sources" },
   { href: "/results", label: "Arguments" },
   { href: "/graph", label: "Graph" },

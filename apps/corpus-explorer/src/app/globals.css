@@ -712,3 +712,95 @@ button:focus-visible {
     flex-direction: column;
   }
 }
+
+/* State of the case (#200) */
+.state-mark {
+  align-items: center;
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  display: inline-flex;
+  font-size: 0.66rem;
+  font-weight: 700;
+  gap: 0.45rem;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 0.35rem 0.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.state-mark-dot {
+  background: var(--tone, var(--status-source-only));
+  border-radius: 999px;
+  display: inline-block;
+  height: 0.55rem;
+  width: 0.55rem;
+}
+
+.state-mark[data-tone="proved"] { --tone: var(--status-proved); }
+.state-mark[data-tone="conditional"] { --tone: transparent; }
+.state-mark[data-tone="conditional"] .state-mark-dot { box-shadow: inset 0 0 0 2px var(--status-proved); }
+.state-mark[data-tone="conditional"] { border-style: dashed; }
+.state-mark[data-tone="self-evident"] { --tone: var(--status-self-evident); }
+.state-mark[data-tone="defended"] { --tone: var(--status-defended); }
+.state-mark[data-tone="transcription"] { --tone: var(--status-transcription); }
+.state-mark[data-tone="open"] { --tone: var(--status-open); }
+.state-mark[data-tone="objection"] { --tone: var(--status-objection); }
+.state-mark[data-tone="source-only"] { --tone: var(--status-source-only); }
+
+.stage-row {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 0.75rem 1.5rem;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  padding: 1.25rem 0;
+}
+
+@media (min-width: 900px) {
+  .stage-row {
+    grid-template-columns: 2.5rem minmax(0, 1fr) 15rem 11rem;
+    align-items: start;
+  }
+}
+
+.stage-row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.stage-number {
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.meter {
+  background: var(--line);
+  display: flex;
+  height: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+}
+
+.premise-list > li {
+  border-top: 1px solid var(--line);
+  padding: 1rem 0;
+}
+
+.lean-snippet {
+  background: var(--callout);
+  border-left: 2px solid var(--line-strong);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  margin-top: 1rem;
+  max-height: 28rem;
+  overflow: auto;
+  padding: 1rem 1.25rem;
+  white-space: pre;
+}
