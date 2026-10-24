@@ -24,7 +24,7 @@ theorem catholicismFromPrimaViaViaFullDescription (σ : Signature) {Respect : Ty
     (MoreIn : Respect → σ.Being → σ.Being → Prop)
     (CausesIn : σ.Being → σ.Being → Respect → Prop)
     (bonum verum nobile esse : Respect)
-    (ComponentOf : σ.Being → σ.Being → Prop)
+    (ComponentOf PriorSimply : σ.Being → σ.Being → Prop)
     (hSense : SomethingIsMovedReading MovedIn)
     (hPotency : MovedOnlyAsInPotencyReading MovedIn InPotency)
     (hAct : MovesOnlyAsInActReading MovesIn InAct)
@@ -41,7 +41,8 @@ theorem catholicismFromPrimaViaViaFullDescription (σ : Signature) {Respect : Ty
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
-    (hNoComponent : NoComponentIsMaximalInBeingReading InAct MoreIn esse ComponentOf)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
     (hFull : GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn esse ComponentOf σ.IsGod)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse σ.IsGod)
     (hAttributes : GodHasClassicalAttributes σ)
@@ -60,8 +61,8 @@ theorem catholicismFromPrimaViaViaFullDescription (σ : Signature) {Respect : Ty
   -- CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION: the verified stage-1 result
   have hGod : GodExists σ.IsGod :=
     stageOneViaFullDescription MovedIn MovesIn InAct MoreIn CausesIn bonum verum nobile esse
-      ComponentOf σ.IsGod hFirstWay hExcludedMiddle hGrades hApproach hTrue hGenus hAct hBeing
-      hCauseMore hEM hPerfections hNoComponent hFull hApplied
+      ComponentOf PriorSimply σ.IsGod hFirstWay hExcludedMiddle hGrades hApproach hTrue hGenus hAct hBeing
+      hCauseMore hEM hPerfections hNoComponent hFirstBeing hFull hApplied
   -- CATHOLICISM-SKELETON: the verified skeleton result
   exact catholicismSkeleton σ hGod hAttributes hRevelation hJesus hFounded hCatholic
     hDivineFounding hOnlyTruth hProposes

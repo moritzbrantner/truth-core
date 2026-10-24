@@ -28,7 +28,7 @@ theorem stageOneViaFullDescription {Being : Type} {Respect : Type}
     (MoreIn : Respect → Being → Being → Prop)
     (CausesIn : Being → Being → Respect → Prop)
     (bonum verum nobile esse : Respect)
-    (ComponentOf : Being → Being → Prop) (IsGod : Being → Prop)
+    (ComponentOf PriorSimply : Being → Being → Prop) (IsGod : Being → Prop)
     (hFirstWay : FirstUnmovedMoverCannotBeLackingReading MovedIn MovesIn)
     (hExcludedMiddle : FirstUnmovedMoverExistsOrNot MovedIn MovesIn)
     (hGrades : GradesFoundInThingsReading MoreIn bonum verum nobile)
@@ -40,7 +40,8 @@ theorem stageOneViaFullDescription {Being : Type} {Respect : Type}
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
-    (hNoComponent : NoComponentIsMaximalInBeingReading InAct MoreIn esse ComponentOf)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
     (hFull : GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn esse ComponentOf IsGod)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse IsGod) :
     GodExists IsGod := by
@@ -56,7 +57,8 @@ theorem stageOneViaFullDescription {Being : Type} {Respect : Type}
   -- INF-AQUINAS-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION (result, version (a))
   have hGod : MaximeEnsIsGod InAct MoreIn esse IsGod :=
     TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.maximeEnsIsGodViaFullDescription InAct MoreIn CausesIn
-      esse ComponentOf IsGod hGenus hCauseMore hEM hBeing hPerfections hNoComponent hFull
+      esse ComponentOf PriorSimply IsGod hGenus hCauseMore hEM hBeing hPerfections hNoComponent
+      hFirstBeing hFull
   -- INF-AQUINAS-FIRST-MOVER-IS-MAXIME-ENS (result AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS)
   have hSame : f = m :=
     TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.firstMoverIsMaximeEns MovedIn MovesIn InAct MoreIn CausesIn esse IsGod

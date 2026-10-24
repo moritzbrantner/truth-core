@@ -136,6 +136,19 @@ excluded by this one. -/
 def RemoteFromAll {Being : Sort v} (ComponentOf : Being → Being → Prop) (m : Being) : Prop :=
   ∀ x, ¬ ComponentOf m x
 
+/-- Whatever is maximal in being is the first being: nothing other than it is
+simply prior to it (q.3 a.1's `IsFirstBeing`). Open bridge between the *quarta
+via*'s maximality and q.3's simple priority (Codex P1 on #194: q.3 a.8 itself
+speaks of simple priority, not maximality). It is supported, not stated, by q.3
+a.8's *Deus est primum ens simpliciter* and by SCG I.16 [3] (God is the first
+being). -/
+def MaximumInBeingIsFirstBeing {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect)
+    (PriorSimply : Being → Being → Prop) : Prop :=
+  ∀ m, IsMaximumIn InAct MoreIn esse m →
+    TruthCore.Latin.Aquinas.SummaTheologiae.IsFirstBeing PriorSimply m
+
 /-- The cause of a thing's being causes each of its perfections: if `c` causes
 `x`'s being and `x` is in act in `r`, then `c` causes `x`'s being in act in `r`.
 Open premise. It is supported, not stated, by q.4 a.2 (every perfection of a

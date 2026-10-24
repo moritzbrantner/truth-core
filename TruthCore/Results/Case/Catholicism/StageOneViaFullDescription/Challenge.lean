@@ -13,7 +13,7 @@ theorem stageOneViaFullDescription {Being : Type} {Respect : Type}
     (MoreIn : Respect → Being → Being → Prop)
     (CausesIn : Being → Being → Respect → Prop)
     (bonum verum nobile esse : Respect)
-    (ComponentOf : Being → Being → Prop) (IsGod : Being → Prop)
+    (ComponentOf PriorSimply : Being → Being → Prop) (IsGod : Being → Prop)
     (hFirstWay : FirstUnmovedMoverCannotBeLackingReading MovedIn MovesIn)
     (hExcludedMiddle : FirstUnmovedMoverExistsOrNot MovedIn MovesIn)
     (hGrades : GradesFoundInThingsReading MoreIn bonum verum nobile)
@@ -25,7 +25,8 @@ theorem stageOneViaFullDescription {Being : Type} {Respect : Type}
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
-    (hNoComponent : NoComponentIsMaximalInBeingReading InAct MoreIn esse ComponentOf)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
     (hFull : GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn esse ComponentOf IsGod)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse IsGod) :
     GodExists IsGod := by

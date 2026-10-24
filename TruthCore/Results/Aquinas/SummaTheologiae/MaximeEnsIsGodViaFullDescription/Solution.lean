@@ -4,7 +4,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 namespace TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)
-open TruthCore.Case.Catholicism (MaximeEnsIsGod AtMostOneMaximeEns GodNamesTheFullyDescribedPrinciple
+open TruthCore.Case.Catholicism (MaximumInBeingIsFirstBeing MaximeEnsIsGod AtMostOneMaximeEns GodNamesTheFullyDescribedPrinciple
   CauseOfBeingCausesEveryPerfection CausesEveryPerfectionOfOthers RemoteFromAll)
 
 /-- Version (a) of the discharge (owner decision on #143, 2026-10-24): the
@@ -19,13 +19,14 @@ theorem maximeEnsIsGodViaFullDescription {Being : Type} {Respect : Type}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
-    (ComponentOf : Being → Being → Prop) (God : Being → Prop)
+    (ComponentOf PriorSimply : Being → Being → Prop) (God : Being → Prop)
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hBeing : ActualityOnlyInsofarAsBeingReading InAct esse)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
-    (hNoComponent : NoComponentIsMaximalInBeingReading InAct MoreIn esse ComponentOf)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
     (hFull : GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn esse ComponentOf God) :
     MaximeEnsIsGod InAct MoreIn esse God := by
   intro m hMax
@@ -39,7 +40,7 @@ theorem maximeEnsIsGodViaFullDescription {Being : Type} {Respect : Type}
     fun x r hOther hAct => hPerfections m x r (hCauses x hOther (hBeing x r hAct)) hAct
   -- INF-AQUINAS-MAXIME-ENS-REMOTE-FROM-ALL
   have hRemote : RemoteFromAll ComponentOf m :=
-    fun x hComponent => hNoComponent m x hComponent hMax
+    fun x hComponent => hNoComponent m x hComponent (hFirstBeing m hMax)
   -- INF-AQUINAS-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION
   exact hFull m hMax hCauses hEvery hRemote (fun m' hMax' => hUnique m' m hMax' hMax)
 
@@ -84,25 +85,27 @@ end Models
 
 /-- The bridge from causing being to causing perfections is needed. In the model
 `a` is the only maximum in being and causes `b`'s being, but not `b`'s second
-perfection. Nothing is a component of anything. `God` is true of what causes
-every perfection of the others, so the fuller definition holds, yet `a` is not
-God. -/
+perfection. Nothing is a component of anything, and nothing is simply prior to
+anything. `God` is true of what causes every perfection of the others, so the
+fuller definition holds, yet `a` is not God. -/
 theorem withoutPerfectionsBridgeNotGod :
     ∃ (InAct : Bool → Bool → Prop) (MoreIn : Bool → Bool → Bool → Prop)
-      (CausesIn : Bool → Bool → Bool → Prop) (ComponentOf : Bool → Bool → Prop)
+      (CausesIn : Bool → Bool → Bool → Prop) (ComponentOf PriorSimply : Bool → Bool → Prop)
       (God : Bool → Prop),
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn ∧
       CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn ∧
       (∀ a b : Bool, a = b ∨ a ≠ b) ∧
       ActualityOnlyInsofarAsBeingReading InAct true ∧
-      NoComponentIsMaximalInBeingReading InAct MoreIn true ComponentOf ∧
+      NoComponentIsFirstBeingReading ComponentOf PriorSimply ∧
+      MaximumInBeingIsFirstBeing InAct MoreIn true PriorSimply ∧
       GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn true ComponentOf God ∧
       ¬ CauseOfBeingCausesEveryPerfection InAct CausesIn true ∧
       ¬ MaximeEnsIsGod InAct MoreIn true God := by
-  refine ⟨fun _ _ => True, Models.more, Models.causes, fun _ _ => False,
+  refine ⟨fun _ _ => True, Models.more, Models.causes, fun _ _ => False, fun _ _ => False,
     CausesEveryPerfectionOfOthers (fun _ _ => True) Models.causes,
     Models.genus, Models.causeMore, fun a b => by cases a <;> cases b <;> simp,
-    fun _ _ _ => trivial, fun _ _ h => h.elim, fun _ _ _ hEvery _ _ => hEvery, ?_, ?_⟩
+    fun _ _ _ => trivial, fun _ _ h => h.elim, fun _ _ _ h => h.elim,
+    fun _ _ _ hEvery _ _ => hEvery, ?_, ?_⟩
   · intro h
     rcases h true false false (Or.inl ⟨rfl, rfl, rfl⟩) trivial with ⟨_, _, h⟩ | ⟨h, _, _⟩
     · exact Bool.noConfusion h
@@ -119,25 +122,28 @@ theorem withoutPerfectionsBridgeNotGod :
     · exact Bool.noConfusion h
 
 /-- The *remotum ab omnibus* premise (q.3 a.8) is needed. One being, maximal in
-being and a component of itself; `God` is true of what is remote from all, so
-the fuller definition holds, yet the maximum is not God. -/
+being, the first being (nothing is prior to it) and a component of itself; `God`
+is true of what is remote from all, so the fuller definition holds, yet the
+maximum is not God. -/
 theorem withoutNoComponentNotGod :
     ∃ (InAct : Unit → Unit → Prop) (MoreIn : Unit → Unit → Unit → Prop)
-      (CausesIn : Unit → Unit → Unit → Prop) (ComponentOf : Unit → Unit → Prop)
+      (CausesIn : Unit → Unit → Unit → Prop) (ComponentOf PriorSimply : Unit → Unit → Prop)
       (God : Unit → Prop),
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn ∧
       CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn ∧
       (∀ a b : Unit, a = b ∨ a ≠ b) ∧
       ActualityOnlyInsofarAsBeingReading InAct () ∧
       CauseOfBeingCausesEveryPerfection InAct CausesIn () ∧
+      MaximumInBeingIsFirstBeing InAct MoreIn () PriorSimply ∧
       GodNamesTheFullyDescribedPrinciple InAct MoreIn CausesIn () ComponentOf God ∧
-      ¬ NoComponentIsMaximalInBeingReading InAct MoreIn () ComponentOf ∧
+      ¬ NoComponentIsFirstBeingReading ComponentOf PriorSimply ∧
       ¬ MaximeEnsIsGod InAct MoreIn () God :=
-  ⟨fun _ _ => True, fun _ _ _ => False, fun _ _ _ => False, fun _ _ => True,
+  ⟨fun _ _ => True, fun _ _ _ => False, fun _ _ _ => False, fun _ _ => True, fun _ _ => False,
     RemoteFromAll (fun _ _ => True),
     fun _ _ _ _ hx _ => absurd rfl hx, fun _ _ _ _ h => h.elim, fun _ _ => Or.inl rfl,
-    fun _ _ _ => trivial, fun _ _ _ h _ => h.elim, fun _ _ _ _ hRemote _ => hRemote,
-    fun h => h () () trivial ⟨trivial, fun _ h => h⟩,
+    fun _ _ _ => trivial, fun _ _ _ h _ => h.elim, fun _ _ _ h => h.elim,
+    fun _ _ _ _ hRemote _ => hRemote,
+    fun h => h () () trivial (fun _ h => h.elim),
     fun h => h () ⟨trivial, fun _ h => h⟩ () trivial⟩
 
 end TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription
