@@ -1,0 +1,1 @@
+{"id": "STMT-VALIDITY-REQUIRES-CONSTANT-MEANING", "paraphrase": "The Frege point as a constraint on validity: a modus ponens is valid only if its minor premise means the same free-standing as in the antecedent of the conditional premise.", "lean_declaration": "TruthCore.English.VanRoojen.ValidityRequiresConstantMeaningReading"}
