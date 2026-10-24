@@ -12,7 +12,8 @@ not premises of any theory: each theory's answer is a separate, sourced reading.
   disagreement in belief, not merely one of attitude ("I like it" vs.
   "I don't").
 * `Q-MORAL-PROGRESS` (correction of an earlier moral error) is answered in
-  prose in `TruthCore.Comparison.MoralError`; it presupposes moral error.
+  prose in `TruthCore.Comparison.MoralError`; on the cognitive reading it
+  presupposes moral error.
 -/
 
 namespace TruthCore.Metaethics

@@ -38,9 +38,14 @@ treats every `TruthCore.Comparison.*` definition as a theory bundle.
 * **Q-MORAL-PROGRESS** (is a change of moral view sometimes a correction?).
   Catholic: **yes**. The natural law was so corrupted in some hearts "that they
   thought good what is naturally evil, and such corruption needed correction"
-  (q.94 a.5 ad 1), a claim without Lean. Correction presupposes a prior error,
-  so emotivism leaves it **unexplained**: progress becomes change we now approve
-  of. Quasi-realism, minimally, can call it correction.
+  (q.94 a.5 ad 1), a claim without Lean. Emotivism: **unexplained, on the
+  cognitive reading only**. If a genuine correction must replace acceptance of an
+  untrue, truth-apt sentence, emotivism cannot have one, since it admits no moral
+  error. That bridge is not a premise of any result here; it is the open
+  statement `STMT-GENUINE-MORAL-CORRECTION-REPLACES-AN-UNTRUE-BELIEF`, without
+  Lean (Codex P1 on #188). An emotivist account of improvement as change of
+  attitude by better standards is not recorded, so it is not refuted either.
+  Quasi-realism, minimally, can call it correction.
 -/
 
 namespace TruthCore.Comparison.MoralError
