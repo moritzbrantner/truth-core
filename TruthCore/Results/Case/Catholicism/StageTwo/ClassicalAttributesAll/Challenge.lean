@@ -1,3 +1,4 @@
+import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsEternal.Solution
@@ -8,15 +9,15 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)
 open TruthCore.Case.Catholicism
 theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle : Type}
-    (MovedIn InPotency InAct GoodIn : σ.Being → Respect → Prop)
-    (MovesIn : σ.Being → σ.Being → Respect → Prop)
+    (InPotency InAct GoodIn : σ.Being → Respect → Prop)
     (MoreIn : Respect → σ.Being → σ.Being → Prop)
     (CausesIn : σ.Being → σ.Being → Respect → Prop) (esse : Respect)
+    (ComponentOf PriorSimply : σ.Being → σ.Being → Prop)
     (Composite ComposedOfMatterAndForm Infinite Eternal HasIntellect HasWill : σ.Being → Prop)
     (essenceOf esseOf : σ.Being → Principle)
     (hSuffice : ClassicalAttributesSuffice σ (IsSimple Composite) (IsPerfect InAct)
       (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
-      Infinite (IsImmutable MovedIn) Eternal HasIntellect HasWill)
+      Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill)
     (hMaximal : GodIsMaximalInBeing σ.IsGod InAct MoreIn esse)
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
@@ -26,15 +27,15 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle :
     (hPreexist : PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse)
     (hGoodness : GoodnessIsActualityReading GoodIn InAct)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
-    (hReduction : ReducedOnlyByAMoverReading MovedIn MovesIn)
-    (hAct : MovesOnlyAsInActReading MovesIn InAct)
-    (hPotency : MovedOnlyAsInPotencyReading MovedIn InPotency)
-    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
+    (hPureAct : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply)
     (hKinds : MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
       essenceOf esseOf)
     (hInfinity : SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite)
-    (hEternity : ImmutableIsEternalReading MovedIn Eternal)
-    (hImmaterial : ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect)
+    (hEternity : ImmutableIsEternalReading InPotency Eternal)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hImmaterial : ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect
+      ComponentOf)
     (hWillFollows : WillFollowsIntellectReading HasIntellect HasWill) :
     GodHasClassicalAttributes σ := by
   sorry

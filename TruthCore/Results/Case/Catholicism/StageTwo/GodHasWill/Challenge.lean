@@ -5,6 +5,7 @@ open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchRea
 open TruthCore.Case.Catholicism
 theorem godHasWill {Being : Type} {Respect : Type} {Principle : Type}
     (IsGod Composite ComposedOfMatterAndForm HasIntellect HasWill : Being → Prop)
+    (ComponentOf PriorSimply : Being → Being → Prop)
     (essenceOf esseOf : Being → Principle)
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)
@@ -14,7 +15,10 @@ theorem godHasWill {Being : Type} {Respect : Type} {Principle : Type}
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hKinds : MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
       essenceOf esseOf)
-    (hImmaterial : ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
+    (hImmaterial : ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect
+      ComponentOf)
     (hWillFollows : WillFollowsIntellectReading HasIntellect HasWill) :
     GodHasWill IsGod HasWill := by
   sorry
