@@ -53,15 +53,15 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 - **One coordinator plus one worker for this repository**, working on a task branch from `origin/main` in the normal checkout. No git worktrees (owner rule since 2026-10-22). Each issue gets a fresh worker.
   - Each worker gets a self-contained brief: issue, invariants, checks, process.
   - The coordinator relays owner decisions and records them on #143.
-- **CI.** GitHub Actions do not start on this private repo (billing). Run every job in `.github/workflows/ci.yml` locally and post "local CI run for <sha>: …" on the PR. A green local run counts as the check.
+- **CI.** GitHub Actions run on every PR (`.github/workflows/ci.yml`). Toolchains track the latest stable release: Lean (`leanprover/lean4:stable`), Bun, Go and Rust are not pinned.
 - **Review and merge.**
   - Request one targeted `@codex review` per PR, plus at most one re-request when a review hangs or after real P1 fixes. Fix real P1s only.
   - Merge with plain `gh pr merge --squash` only after a **completed** review with no open P1 whose reviewed commit is the head (or only trivially rebased).
   - Never use `--admin`. Never merge without a completed review; #158 was the one exception, kept by owner decision.
 - **Memory-constrained machines.** Wrap heavy commands (`lake build`, `verify-*`, `bun install`, `next build`, `source_evidence.py verify`) in `flock /tmp/<user>/truth-core-heavy.lock` and keep build parallelism low.
 - **Fresh machine setup.**
-  - Install `elan` (toolchain from `lean-toolchain`), Go, Bun and Python 3.
-  - Run `scripts/bootstrap-verifier.sh`, which builds the Comparator, lean4export, landrun and NanoDa into `~/.cache/truth-core-verifier`.
+  - Install `elan` (it resolves `lean-toolchain` to the latest stable Lean) and the latest stable Go, Rust, Bun and Python 3.
+  - Run `scripts/bootstrap-verifier.sh`, which builds the Comparator, lean4export (the tag matching the resolved Lean version), landrun and NanoDa into `~/.cache/truth-core-verifier`.
   - Media spans also need a youtube-corpus export (see `docs/source-evidence.md`).
   - Bun's `globalStore = true` (in `~/.bunfig.toml`) breaks the explorer's lint and `next build` with missing-module errors. For local CI, install with a `HOME` that has no such bunfig.
 

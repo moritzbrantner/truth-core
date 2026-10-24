@@ -30,14 +30,19 @@ clone_at() {
 
   if [[ "$(git -C "$dir" rev-parse HEAD 2>/dev/null || true)" != "$rev" ]]; then
     git -C "$dir" fetch --depth=1 origin "$rev"
+    git -C "$dir" checkout --detach FETCH_HEAD
   fi
-  git -C "$dir" checkout --detach "$rev"
 }
+
+# lean4export tags one release per Lean version; follow the toolchain that
+# lean-toolchain (leanprover/lean4:stable) resolves to.
+LEAN_VERSION="$(cd "$ROOT" && lean --version | sed -E 's/^Lean \(version ([^,]+),.*/\1/')"
+LEAN4EXPORT_REV="v$LEAN_VERSION"
 
 echo "==> truth-core Rust comparator"
 cargo build --locked --release --manifest-path "$ROOT/verifier/Cargo.toml" --target-dir "$WORK/rust-target"
 
-echo "==> lean4export $LEAN4EXPORT_REV (matches truth-core Lean 4.32.0)"
+echo "==> lean4export $LEAN4EXPORT_REV (matches truth-core Lean $LEAN_VERSION)"
 clone_at https://github.com/leanprover/lean4export.git "$LEAN4EXPORT_REV" "$WORK/lean4export"
 (
   cd "$WORK/lean4export"
