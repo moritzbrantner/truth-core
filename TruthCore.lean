@@ -176,6 +176,16 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
+import TruthCore.Case.Catholicism.StageOneQuartaVia
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsFirstBeing.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Case.Catholicism.StageOneBridges

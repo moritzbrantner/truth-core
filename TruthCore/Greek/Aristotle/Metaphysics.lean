@@ -65,4 +65,32 @@ def BeingQuaBeingInquiryDistributiveReading
           BelongsInOwnRightTo entity property →
             StudiesAttribute inquiry property
 
+/--
+Cause-is-more reading of Aristotle, *Metaphysics* II.1, 993b24-31: each thing is
+most such, compared with the others, when the synonymous quality belongs to the
+others in virtue of it (fire is hottest, being the cause of heat to the others), so
+that what is the cause of the posterior things' being true is most true; the
+principles of the eternal beings are cause of being to the others, and as each
+thing stands to being, so it stands to truth.
+
+Read for being: what is prior as a cause of being to a posterior thing is more in
+being than it. `PriorAsCause y x` is that priority (`x` depends for its being on
+`y`); `MoreIn being y x` says that `y` is more a being than `x`. The vocabulary is
+supplied, so the reading does not fix whether the comparative is a measure.
+
+Aquinas applies the same chapter in the fourth way (ST I q.2 a.3 co.); the
+statement is used with Aquinas' simple priority of ST I q.3 a.1 for
+`PriorAsCause`, an identification argued in the claim, not by this declaration.
+
+Source: Aristotle, *Metaphysics* II.1, 993b24-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
+-/
+def PriorAsCauseIsMoreInBeingReading
+    {Entity : Sort u}
+    {Respect : Sort v}
+    (PriorAsCause : Entity → Entity → Prop)
+    (MoreIn : Respect → Entity → Entity → Prop)
+    (being : Respect) : Prop :=
+  ∀ y x, PriorAsCause y x → MoreIn being y x
+
 end TruthCore.Greek.Aristotle.Metaphysics
