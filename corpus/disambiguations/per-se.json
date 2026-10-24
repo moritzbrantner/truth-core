@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-PER-SE",
+  "term": "per se",
+  "sense_definition_ids": [
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering."
+}

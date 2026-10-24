@@ -1,1 +1,1 @@
-{"id": "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH", "paraphrase": "If there is evil in something, the sentence 'there is evil' is true.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsAsPropositionalTruthReading"}
+{"id": "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH", "paraphrase": "If there is evil in something, the sentence 'there is evil' is true.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsAsPropositionalTruthReading", "definition_ids": ["DEF-BEING-AS-TRUTH-OF-A-PROPOSITION", "DEF-EVIL-AS-PRIVATION"], "disambiguation_ids": ["DISAMB-BEING"]}

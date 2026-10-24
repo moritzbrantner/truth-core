@@ -118,9 +118,34 @@ export type CorpusStatement = {
   lean_declaration?: string;
   /** Optional premise-program marking (#156): sourced justification for self-evidence. */
   self_evident?: { justification_ids: string[] };
+} & TermLinks;
+
+/** Links from a statement, claim or argument to the senses of the terms it uses (#204). */
+export type TermLinks = {
+  definition_ids?: string[];
+  disambiguation_ids?: string[];
 };
 
-type RawCorpusClaim = {
+/** One sense of a term: sourced from claims, or explicitly stipulative with a note. */
+export type CorpusDefinition = {
+  id: string;
+  term: string;
+  definition: string;
+  basis: "sourced" | "stipulative";
+  claim_ids?: string[];
+  lean_declaration?: string;
+  note?: string;
+};
+
+/** Two or more senses of one term, and which sense each use takes. */
+export type CorpusDisambiguation = {
+  id: string;
+  term: string;
+  sense_definition_ids: string[];
+  resolution: string;
+};
+
+type RawCorpusClaim = TermLinks & {
   id: string;
   statement_id: string;
   source_id: string;
@@ -150,7 +175,7 @@ export type CorpusInference = {
   discharged_statement_ids: string[];
 };
 
-export type CorpusArgument = {
+export type CorpusArgument = TermLinks & {
   id: string;
   premise_statement_ids: string[];
   /** Statements a consistency argument shows jointly satisfiable (it may then have no premises). */
@@ -222,6 +247,8 @@ export type Corpus = {
   relations: CorpusRelation[];
   results: CorpusResult[];
   candidates: CorpusCandidate[];
+  definitions: CorpusDefinition[];
+  disambiguations: CorpusDisambiguation[];
 };
 
 const corpusDirectory = path.resolve(process.cwd(), "../..", "corpus");
@@ -277,6 +304,8 @@ export function getCorpus(): Corpus {
   const relations = readRecords<CorpusRelation>(path.join(corpusDirectory, "relations"));
   const rawResults = readRecords<RawCorpusResult>(path.join(corpusDirectory, "results"));
   const candidates = readRecords<CorpusCandidate>(path.join(corpusDirectory, "candidates"));
+  const definitions = readRecords<CorpusDefinition>(path.join(corpusDirectory, "definitions"));
+  const disambiguations = readRecords<CorpusDisambiguation>(path.join(corpusDirectory, "disambiguations"));
 
   const statementById = new Map(statements.map((statement) => [statement.id, statement]));
   const argumentById = new Map(arguments_.map((argument) => [argument.id, argument]));
@@ -314,6 +343,48 @@ export function getCorpus(): Corpus {
     relations,
     results,
     candidates,
+    definitions,
+    disambiguations,
+  };
+}
+
+export function findDefinition(corpus: Corpus, definitionId: string) {
+  return corpus.definitions.find((definition) => definition.id === definitionId);
+}
+
+/** The disambiguations that list this definition as one of their senses. */
+export function disambiguationsForDefinition(corpus: Corpus, definitionId: string) {
+  return corpus.disambiguations.filter((disambiguation) => disambiguation.sense_definition_ids.includes(definitionId));
+}
+
+export type Terms = { definitions: CorpusDefinition[]; disambiguations: CorpusDisambiguation[] };
+
+/**
+ * The senses the records use and the ambiguities they must be read against:
+ * the linked definitions, the linked disambiguations, and every disambiguation
+ * that has a linked definition as one of its senses. Deduplicated, in order.
+ */
+export function termsFor(corpus: Corpus, records: TermLinks[]): Terms {
+  const definitionIds = [...new Set(records.flatMap((record) => record.definition_ids ?? []))];
+  const disambiguationIds = new Set(records.flatMap((record) => record.disambiguation_ids ?? []));
+  for (const definitionId of definitionIds) {
+    for (const disambiguation of disambiguationsForDefinition(corpus, definitionId)) {
+      disambiguationIds.add(disambiguation.id);
+    }
+  }
+  return {
+    definitions: definitionIds.flatMap((id) => findDefinition(corpus, id) ?? []),
+    disambiguations: corpus.disambiguations.filter((disambiguation) => disambiguationIds.has(disambiguation.id)),
+  };
+}
+
+/** Statements, claims and arguments that link a definition or disambiguation. */
+export function usesOfTerm(corpus: Corpus, field: keyof TermLinks, id: string) {
+  const links = (record: TermLinks) => record[field]?.includes(id) ?? false;
+  return {
+    statements: corpus.statements.filter(links),
+    claims: corpus.claims.filter(links),
+    arguments: corpus.arguments.filter(links),
   };
 }
 

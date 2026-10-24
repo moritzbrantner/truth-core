@@ -1,0 +1,10 @@
+{
+  "id": "DEF-FIRST-BEING",
+  "term": "first being (primum ens)",
+  "definition": "`IsFirstBeing f`: no being other than f is simply prior to f.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsFirstBeing"
+}

@@ -1,1 +1,1 @@
-{"id":"STMT-GOD-EXISTS","paraphrase":"God exists: there is something that is God, in the sense of the God of classical theism.","lean_declaration":"TruthCore.Case.Catholicism.GodExists"}
+{"id":"STMT-GOD-EXISTS","paraphrase":"God exists: there is something that is God, in the sense of the God of classical theism.","lean_declaration":"TruthCore.Case.Catholicism.GodExists","definition_ids":["DEF-GOD-OF-CLASSICAL-THEISM"],"disambiguation_ids":["DISAMB-GOD"]}

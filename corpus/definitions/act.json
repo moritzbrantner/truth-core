@@ -1,0 +1,11 @@
+{
+  "id": "DEF-ACT",
+  "term": "act (in act, actu)",
+  "definition": "`InAct x r`: x actually has the perfection r, as fire is actually hot. In Lean `InAct` is a parameter, not a definition: its content is fixed only by the premises that use it, above all that nothing is in act and in potency in the same respect at once. Whether a mover must have the perfection formally or may have it virtually is left open (DISAMB-IN-ACT).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A",
+    "AQUINAS-ST-I-Q2-A3-NOT-ACT-AND-POTENCY-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+}

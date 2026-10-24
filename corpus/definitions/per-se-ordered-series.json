@@ -1,0 +1,11 @@
+{
+  "id": "DEF-PER-SE-ORDERED-SERIES",
+  "term": "per se (essentially) ordered series of causes",
+  "definition": "A series in which each cause after the first causes only insofar as it is, here and now, moved by the one before it: the stone is moved by the stick, the stick by the hand. In Lean the link is `MovesAsMoved y x` (y moves x only insofar as y is itself moved) and 'no infinite regress' is well-foundedness of that relation (`NoInfinitePerSeMoverSeriesReading`).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q46-A2-AD7-PER-SE-REGRESS-A",
+    "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
+}

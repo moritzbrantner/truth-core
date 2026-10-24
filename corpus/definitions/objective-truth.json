@@ -1,0 +1,11 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH",
+  "term": "objectively true",
+  "definition": "`ObjectiveTruth φ`: φ is true independently of anyone's attitudes or conventions.",
+  "basis": "sourced",
+  "claim_ids": [
+    "OCONNOR-TUREK-EVIL-NO-OBJECTIVE-MORAL-TRUTHS",
+    "OCONNOR-TUREK-EVIL-PREMISE-NOT-OBJECTIVE"
+  ],
+  "lean_declaration": "TruthCore.English.OConnor.NoObjectiveMoralTruthsReading"
+}

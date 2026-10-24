@@ -1,1 +1,1 @@
-{"id": "STMT-EVIL-PREMISE-NOT-OBJECTIVE", "paraphrase": "The evil that critics of an all-good God point to is not an objective truth.", "lean_declaration": "TruthCore.English.OConnor.EvilPremiseNotObjectiveReading"}
+{"id": "STMT-EVIL-PREMISE-NOT-OBJECTIVE", "paraphrase": "The evil that critics of an all-good God point to is not an objective truth.", "lean_declaration": "TruthCore.English.OConnor.EvilPremiseNotObjectiveReading", "definition_ids": ["DEF-OBJECTIVE-TRUTH"], "disambiguation_ids": ["DISAMB-MORAL-ANTIREALISM"]}

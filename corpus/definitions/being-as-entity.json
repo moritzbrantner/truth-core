@@ -1,0 +1,10 @@
+{
+  "id": "DEF-BEING-AS-ENTITY",
+  "term": "being (ens), as the entity of a thing",
+  "definition": "Being in the sense in which a thing is a being: the entity of a thing, as divided by the ten categories, convertible with 'thing'. In this sense no privation is a being, so evil is not a being. The Lean domain `Being` ranges over beings in this sense; nothing restricts it to bodies.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q48-A2-AD2-EVIL-AS-PROPOSITIONAL-TRUTH"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+}

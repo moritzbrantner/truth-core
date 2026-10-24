@@ -1,0 +1,11 @@
+{
+  "id": "DEF-ONTOLOGICAL-TRUTH",
+  "term": "true (verum), said of things",
+  "definition": "The respect `verum` of the quarta via: a thing's being true, which admits of more and less and follows its being (quae sunt maxime vera, sunt maxime entia; Metaphysics II.1, 993b30-31). It is not the truth of a sentence.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A",
+    "AQUINAS-ST-I-Q2-A3-MOST-TRUE-MOST-BEING-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
+}

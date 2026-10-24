@@ -1,5 +1,8 @@
 {
   "id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
   "paraphrase": "There is an intelligent first mover moved by none that directs every natural body to an end.",
-  "lean_declaration": "TruthCore.Case.Catholicism.OneIntelligentFirstMoverGovernsNature"
+  "lean_declaration": "TruthCore.Case.Catholicism.OneIntelligentFirstMoverGovernsNature",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER"
+  ]
 }

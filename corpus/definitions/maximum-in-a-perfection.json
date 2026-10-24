@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MAXIMUM-IN-A-PERFECTION",
+  "term": "maximum in a perfection (maxime tale)",
+  "definition": "`IsMaximumIn InAct MoreIn r m`: m has the perfection r and nothing is more r than m. Maximal, not greatest: it does not say that m is more r than everything else, so it does not by itself give uniqueness.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-GRADES-HAVE-MAXIMUM-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+}

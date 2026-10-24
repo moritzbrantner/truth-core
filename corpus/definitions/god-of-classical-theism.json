@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOD-OF-CLASSICAL-THEISM",
+  "term": "God (the God of classical theism; Lean `IsGod`)",
+  "definition": "The case signature's `IsGod g`: g is God in the sense of the God of classical theism, not merely what is called God. The stages after stage 1 and the root use this predicate. Its content is fixed only by the open premises that use it: STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES (simple, perfect, good, infinite, immutable, eternal, one, with intellect and will) and the identification premise STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.Signature",
+  "note": "Case vocabulary (TruthCore/Case/Catholicism/Root.lean). The attributes are those argued in ST I qq.3-26 (candidate AQUINAS-ST-I-Q3-Q26-IDENTIFICATION); no claim states them as a definition."
+}

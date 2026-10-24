@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NECESSARY-PER-SE",
+  "term": "necessary per se (per se necessarium)",
+  "definition": "`IsNecessaryPerSe`: x is necessary and has no cause of its necessity from elsewhere (non habens causam necessitatis aliunde).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-NECESSARY-PER-SE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
+}

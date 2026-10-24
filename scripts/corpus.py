@@ -698,6 +698,142 @@ def format_frontier(report: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+# Definitions and disambiguations (#204). A reviewer who says "that depends on
+# what the word means" must find the meaning in the repository. A definition
+# fixes one sense of a term and is either sourced (claims whose passages give
+# it) or explicitly stipulative (with a note saying why and what would source
+# it). A disambiguation lists two or more senses of one term and says which
+# sense each use takes and why no argument passes from one sense to another.
+# Statements, claims and arguments link the senses they use through
+# `definition_ids`, and an ambiguity they must be read against through
+# `disambiguation_ids`.
+DEFINITION_PREFIX = "DEF-"
+DISAMBIGUATION_PREFIX = "DISAMB-"
+DEFINITION_BASES = {"sourced", "stipulative"}
+
+
+def lean_tail_exists(path: Path, declaration: Any, all_lean: str) -> None:
+    if not isinstance(declaration, str) or not declaration:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: lean_declaration must be a non-empty string when present"
+        )
+    tail = declaration.rsplit(".", 1)[-1]
+    if tail not in all_lean:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: Lean declaration tail {tail!r} was not found under TruthCore/"
+        )
+
+
+def validate_definition(
+    path: Path,
+    definition: dict[str, Any],
+    claim_ids: set[str],
+    all_lean: str,
+) -> None:
+    require(definition, ["id", "term", "definition", "basis"], path)
+    if not definition["id"].startswith(DEFINITION_PREFIX):
+        raise CorpusError(f"{path.relative_to(ROOT)}: definition id must start with {DEFINITION_PREFIX}")
+    basis = definition["basis"]
+    if basis not in DEFINITION_BASES:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: basis must be one of {', '.join(sorted(DEFINITION_BASES))}"
+        )
+    sources = (
+        require_string_list(definition, "claim_ids", path, allow_empty=basis != "sourced")
+        if "claim_ids" in definition or basis == "sourced"
+        else []
+    )
+    for claim_id in sources:
+        if claim_id not in claim_ids:
+            raise CorpusError(f"{path.relative_to(ROOT)}: unknown claim id {claim_id}")
+    if basis == "stipulative" and not definition.get("note"):
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: a stipulative definition needs a note saying why it is "
+            "stipulated and what would source it"
+        )
+    if "lean_declaration" in definition:
+        lean_tail_exists(path, definition["lean_declaration"], all_lean)
+
+
+def validate_disambiguation(
+    path: Path,
+    disambiguation: dict[str, Any],
+    definition_ids: set[str],
+) -> None:
+    require(disambiguation, ["id", "term", "resolution"], path)
+    if not disambiguation["id"].startswith(DISAMBIGUATION_PREFIX):
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: disambiguation id must start with {DISAMBIGUATION_PREFIX}"
+        )
+    senses = require_string_list(disambiguation, "sense_definition_ids", path, allow_empty=False)
+    if len(set(senses)) < 2:
+        raise CorpusError(f"{path.relative_to(ROOT)}: a disambiguation needs at least two distinct senses")
+    for sense in senses:
+        if sense not in definition_ids:
+            raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
+
+
+PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
+
+
+def validate_prose_ids(path: Path, record: dict[str, Any], fields: Iterable[str], known: set[str]) -> None:
+    """Statement, definition and disambiguation ids cited in prose must exist, so they can be found."""
+    for field in fields:
+        for cited in PROSE_ID_RE.findall(str(record.get(field, ""))):
+            if cited not in known:
+                raise CorpusError(f"{path.relative_to(ROOT)}: {field} cites unknown id {cited}")
+
+
+def validate_term_links(
+    path: Path,
+    record: dict[str, Any],
+    definition_ids: set[str],
+    disambiguation_ids: set[str],
+) -> list[str]:
+    """Check a record's definition and disambiguation links; return its definition ids."""
+    linked: list[str] = []
+    for field, known in (("definition_ids", definition_ids), ("disambiguation_ids", disambiguation_ids)):
+        if field not in record:
+            continue
+        ids = require_string_list(record, field, path, allow_empty=False)
+        for linked_id in ids:
+            if linked_id not in known:
+                raise CorpusError(f"{path.relative_to(ROOT)}: unknown {field[:-4]} id {linked_id}")
+        if field == "definition_ids":
+            linked = ids
+    return linked
+
+
+def validate_argument_senses(
+    path: Path,
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> None:
+    """An argument whose records use two senses of one ambiguous term must link its disambiguation.
+
+    Mixing senses is not wrong in itself (a premise may connect them), but the
+    argument must point the reviewer at the resolution that says why it does
+    not equivocate.
+    """
+    ids = [
+        argument["conclusion_statement_id"],
+        *argument.get("premise_statement_ids", []),
+        *argument.get("commitment_statement_ids", []),
+    ]
+    senses = set(argument.get("definition_ids", []))
+    for statement_id in ids:
+        senses.update(statement_index[statement_id][1].get("definition_ids", []))
+    linked = set(argument.get("disambiguation_ids", []))
+    for _, disambiguation in disambiguations:
+        used = senses & set(disambiguation["sense_definition_ids"])
+        if len(used) > 1 and disambiguation["id"] not in linked:
+            raise CorpusError(
+                f"{path.relative_to(ROOT)}: uses senses {', '.join(sorted(used))} of "
+                f"'{disambiguation['term']}' but does not link {disambiguation['id']}"
+            )
+
+
 def validate() -> dict[str, int]:
     sources = load_dir("sources")
     statements = load_dir("statements")
@@ -707,6 +843,8 @@ def validate() -> dict[str, int]:
     relations = load_dir("relations")
     candidates = load_dir("candidates")
     results = load_dir("results")
+    definitions = load_dir("definitions")
+    disambiguations = load_dir("disambiguations")
 
     source_index = index_by_id(sources, "source")
     statement_index = index_by_id(statements, "statement")
@@ -716,6 +854,11 @@ def validate() -> dict[str, int]:
     relation_index = index_by_id(relations, "relation")
     candidate_index = index_by_id(candidates, "candidate")
     result_index = index_by_id(results, "result")
+    definition_index = index_by_id(definitions, "definition")
+    disambiguation_index = index_by_id(disambiguations, "disambiguation")
+    definition_ids = set(definition_index)
+    disambiguation_ids = set(disambiguation_index)
+    used_definitions: set[str] = set()
 
     for path, source in sources:
         require(
@@ -743,19 +886,19 @@ def validate() -> dict[str, int]:
 
     for path, statement in statements:
         require(statement, ["id", "paraphrase"], path)
-        declaration = statement.get("lean_declaration")
-        if declaration is not None:
-            if not isinstance(declaration, str) or not declaration:
-                raise CorpusError(
-                    f"{path.relative_to(ROOT)}: lean_declaration must be a non-empty string when present"
-                )
-            tail = declaration.rsplit(".", 1)[-1]
-            if tail not in all_lean:
-                raise CorpusError(
-                    f"{path.relative_to(ROOT)}: Lean declaration tail {tail!r} "
-                    "was not found under TruthCore/"
-                )
+        if "lean_declaration" in statement:
+            lean_tail_exists(path, statement["lean_declaration"], all_lean)
         validate_self_evident(path, statement, claim_ids, result_ids)
+        used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
+
+    citable = set(statement_index) | definition_ids | disambiguation_ids
+    for path, definition in definitions:
+        validate_definition(path, definition, claim_ids, all_lean)
+        validate_prose_ids(path, definition, ("definition", "note"), citable)
+    for path, disambiguation in disambiguations:
+        validate_disambiguation(path, disambiguation, definition_ids)
+        validate_prose_ids(path, disambiguation, ("resolution",), citable)
+        used_definitions.update(disambiguation["sense_definition_ids"])
 
     for path, claim in claims:
         require(
@@ -780,6 +923,7 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{path.relative_to(ROOT)}: unknown interpretation_of claim {parent}"
             )
+        used_definitions.update(validate_term_links(path, claim, definition_ids, disambiguation_ids))
 
     for path, inference in inferences:
         require(
@@ -835,6 +979,8 @@ def validate() -> dict[str, int]:
                     f"{path.relative_to(ROOT)}: unknown inference id {inference_id}"
                 )
         validate_argument_derivation(path, argument, inference_index)
+        used_definitions.update(validate_term_links(path, argument, definition_ids, disambiguation_ids))
+        validate_argument_senses(path, argument, statement_index, disambiguations)
 
     entity_indexes = {
         "source": source_index,
@@ -933,6 +1079,13 @@ def validate() -> dict[str, int]:
                 f"{config_path.relative_to(ROOT)}: NanoDa must be enabled"
             )
 
+    unused = sorted(definition_ids - used_definitions)
+    if unused:
+        raise CorpusError(
+            "definition(s) linked from no statement, claim or argument and not a sense of "
+            f"any disambiguation: {', '.join(unused)}"
+        )
+
     cross_ids = list(candidate_index) + list(result_index)
     duplicates = [value for value, count in Counter(cross_ids).items() if count > 1]
     if duplicates:
@@ -950,6 +1103,8 @@ def validate() -> dict[str, int]:
         "relations": len(relation_index),
         "candidates": len(candidate_index),
         "results": len(result_index),
+        "definitions": len(definition_index),
+        "disambiguations": len(disambiguation_index),
     }
 
 
@@ -961,7 +1116,8 @@ def command_check(_: argparse.Namespace) -> int:
         f"{counts['statements']} statements, {counts['claims']} claims, "
         f"{counts['inferences']} inferences, {counts['arguments']} arguments, "
         f"{counts['relations']} relations, {counts['results']} results, "
-        f"{counts['candidates']} candidates"
+        f"{counts['candidates']} candidates, {counts['definitions']} definitions, "
+        f"{counts['disambiguations']} disambiguations"
     )
     return 0
 
@@ -978,8 +1134,10 @@ def command_status(_: argparse.Namespace) -> int:
         "relations",
         "results",
         "candidates",
+        "definitions",
+        "disambiguations",
     ):
-        print(f"{key + ':':12} {counts[key]}")
+        print(f"{key + ':':16} {counts[key]}")
     return 0
 
 

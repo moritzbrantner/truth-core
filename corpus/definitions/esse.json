@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ESSE",
+  "term": "esse (being, to be)",
+  "definition": "The distinguished respect `esse`: `InAct x esse` says that x has being. Esse is the actuality of all things, even of forms: nothing has actuality except insofar as it is. Being 'maximal in being' and 'cause of being' are said with respect to this respect.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
+}

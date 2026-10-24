@@ -1,0 +1,10 @@
+{
+  "id": "DEF-INTENTIO-AS-TENDING",
+  "term": "intention (intentio), as a thing's tending to its end",
+  "definition": "In the quinta via's 'non a casu, sed ex intentione', intentio is read broadly as a thing's tending to its end, which need not be conscious. That such tending in things without cognition needs a knowing director is the next, separate premise.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EX-INTENTIONE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularBestByChanceOrByIntentionReading"
+}

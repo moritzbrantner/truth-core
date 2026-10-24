@@ -1,0 +1,12 @@
+{
+  "id": "DEF-CATHOLICISM-TRUE-PHASE-1",
+  "term": "Catholicism is true (phase 1)",
+  "definition": "The root STMT-CATHOLICISM-TRUE means exactly: (A) the Catholic Church is the teaching authority founded by God (`IsGod`), and (B) the twelve articles of the Nicene-Constantinopolitan Creed hold. It does not yet include the full list of defined dogmas.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER",
+    "CREED-C381-ART-01"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.CatholicismTrue",
+  "note": "Owner decision (#156, #159): phase 1 of the root. (A) is read from Dei Filius ch. 3 and (B) from the pinned Greek Creed CREED-C381. Phase 2, the defined dogmas, is candidate CATHOLICISM-ROOT-PHASE-2-DOGMAS."
+}

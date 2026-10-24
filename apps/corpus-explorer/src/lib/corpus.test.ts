@@ -8,7 +8,32 @@ import {
   findStatement,
   getCorpus,
   resultsForClaim,
+  termsFor,
+  usesOfTerm,
 } from "./corpus";
+
+describe("definitions and disambiguations (#204)", () => {
+  test("a statement's terms include the disambiguations of the senses it uses", () => {
+    const corpus = getCorpus();
+    const statement = findStatement(corpus, "STMT-MAXIME-ENS-IS-GOD");
+    const terms = termsFor(corpus, statement ? [statement] : []);
+
+    expect(terms.definitions.map((definition) => definition.id)).toContain("DEF-MAXIME-ENS");
+    expect(terms.disambiguations.map((disambiguation) => disambiguation.id)).toEqual(
+      expect.arrayContaining(["DISAMB-GOD", "DISAMB-MAXIME-ENS"]),
+    );
+  });
+
+  test("every linked definition and every sense resolves", () => {
+    const corpus = getCorpus();
+    const ids = new Set(corpus.definitions.map((definition) => definition.id));
+    const linked = [...corpus.statements, ...corpus.claims, ...corpus.arguments].flatMap((record) => record.definition_ids ?? []);
+
+    expect(linked.every((id) => ids.has(id))).toBe(true);
+    expect(corpus.disambiguations.flatMap((entry) => entry.sense_definition_ids).every((id) => ids.has(id))).toBe(true);
+    expect(usesOfTerm(corpus, "definition_ids", "DEF-MAXIME-ENS").statements.length).toBeGreaterThan(0);
+  });
+});
 
 describe("corpus reader", () => {
   test("reads the independent statement and argument model", () => {

@@ -1,0 +1,7 @@
+{
+  "id": "DEF-LOGICAL-NECESSITY",
+  "term": "logically necessary",
+  "definition": "A proposition is logically necessary when its denial is contradictory. A being whose non-existence would be contradictory would be 'necessary' in this sense.",
+  "basis": "stipulative",
+  "note": "Recorded for contrast only, so that the tertia via's necessary being is not read as a being whose non-existence is contradictory. No statement on a root path uses this sense, and the propositional Kripke layer (TruthCore.Modal) is not used by the tertia via; a sense the case does not use needs no source."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PURE-ACT",
+  "term": "pure act (actus purus)",
+  "definition": "`PureAct f`: f is in potency in no respect (nullo modo in potentia; q.3 a.2: purus actus, non habens aliquid de potentialitate).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
+}

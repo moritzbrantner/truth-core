@@ -1,0 +1,10 @@
+{
+  "id": "DEF-TRUTH-ROBUST",
+  "term": "true, in the robust sense",
+  "definition": "Truth as a substantive property: a sentence is true when it represents things as they are, and only sentences that state how things are (truth-apt sentences) can be true. O'Connor's 'no truth value: not the kind of sentence that can be true or false' denies moral statements truth in this sense; `Holds` in the emotivism results is truth in this sense.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "OCONNOR-DESTINY-ETHICS-NOT-TRUE-OR-FALSE"
+  ],
+  "note": "The robust/minimal contrast is the project's label from the debate on truth minimalism (Horwich, Wright, Blackburn); no witness of that debate is pinned. The sourced content it labels is O'Connor's gloss (claim OCONNOR-DESTINY-ETHICS-NOT-TRUE-OR-FALSE)."
+}

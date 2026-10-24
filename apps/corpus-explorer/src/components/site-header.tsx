@@ -7,6 +7,7 @@ const links = [
   { href: "/claims", label: "Claims" },
   { href: "/sources", label: "Sources" },
   { href: "/results", label: "Arguments" },
+  { href: "/definitions", label: "Terms" },
   { href: "/graph", label: "Graph" },
   { href: "/modal", label: "Modal logic" },
   { href: "/candidates", label: "Research queue" },

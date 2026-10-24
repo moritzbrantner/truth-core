@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-CAUSAL-SERIES",
+  "term": "series of causes",
+  "sense_definition_ids": [
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-PER-ACCIDENS-ORDERED-SERIES"
+  ],
+  "resolution": "The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul)."
+}

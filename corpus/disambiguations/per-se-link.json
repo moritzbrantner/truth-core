@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PER-SE-LINK",
+  "term": "moves only as moved (the per se link)",
+  "sense_definition_ids": [
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-LINK-RELEVANT-RESPECT"
+  ],
+  "resolution": "The case uses the strong reading. Result AQUINAS-ST-I-Q2-A3-STRONG-READING-INTENDED argues that it is Thomas' meaning (from the unrestricted conclusion, the wording, and the failure of the weak reading to yield an unmoved mover, under a stated charity principle); result AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE records that the weak reading yields only a mover unmoved as mover of its series; the irrelevant-respect objection is scoped by AQUINAS-ST-I-Q2-A3-IRRELEVANT-RESPECT-OBJECTION-SCOPE. No result mixes the two readings: they are different Lean premises."
+}
