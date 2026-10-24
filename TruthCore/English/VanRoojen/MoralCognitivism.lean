@@ -156,4 +156,21 @@ def ExpressivistMoralMeaningInvariantReading {Sentence : Sort u} {Ctx : Sort v}
     (Moral : Sentence → Prop) (meaning : Sentence → Ctx → Meaning) : Prop :=
   ∀ φ, Moral φ → ∀ c c', meaning φ c = meaning φ c'
 
+/-- Quasi-realism's minimal truth: moral sentences can be true or false in a
+deflationary sense, but not in a robust one. Most current non-cognitivists
+"deny that their contents are true or false in any robust sense but not that
+they can be true or false in a deflationary sense according to which there is
+no substantial property separating true and false sentences".
+
+`TruthApt φ` is having a truth value in the thin sense the shared questions
+use; `RobustlyTruthApt φ` is having a robust (substantial) truth value. The
+reading says nothing about how the two are related beyond this.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §1.1.
+-/
+def QuasiRealistMinimalTruthAptReading {Sentence : Sort u}
+    (Moral TruthApt RobustlyTruthApt : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → TruthApt φ ∧ ¬ RobustlyTruthApt φ
+
 end TruthCore.English.VanRoojen

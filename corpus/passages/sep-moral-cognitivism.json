@@ -11,6 +11,38 @@
   },
   "passages": [
     {
+      "id": "SEP-MORAL-COGNITIVISM-1-1",
+      "locator": "§1.1 (Two Negative Constitutive Non-cognitivist Claims)",
+      "claim_locator_prefixes": ["§1.1,"],
+      "html_selector": {"from": {"anchor": "TwoNegaConsNonCognClai"}, "to": {"anchor": "Cogn"}},
+      "text_sha256": "sha256:74c42ef9d08aed97b0bb86766b39314e43bdbbe21b780a5a34426313ace4825f",
+      "incipit": "1.1 Two Negative Constitutive Non-cognitivist Claims\nTwo negative theses"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-2-2",
+      "locator": "§2.2 (Prescriptivism and Universal Prescriptivism)",
+      "claim_locator_prefixes": ["§2.2,"],
+      "html_selector": {"from": {"anchor": "PresUnivPres"}, "to": {"anchor": "QuasReal"}},
+      "text_sha256": "sha256:7976490805f04d27990cc1e3fe2e2804783765ffd76b40deabda2b015ba06b40",
+      "incipit": "2.2 Prescriptivism and Universal Prescriptivism\nPrescriptivists suggest that"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-3-5",
+      "locator": "§3.5 (The Distinctiveness of Moral Disagreement?)",
+      "claim_locator_prefixes": ["§3.5,"],
+      "html_selector": {"from": {"anchor": "DistMoraDisa"}, "to": {"anchor": "ProbObjeRespStra"}},
+      "text_sha256": "sha256:5b0f7e37681e0238c17beb7c0a7497bb71dec976aa901b1d65ee726538b844da",
+      "incipit": "3.5 The Distinctiveness of Moral Disagreement?\nTheorists sometimes present the"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-4-3",
+      "locator": "§4.3 (Non-cognitivism and Relativism)",
+      "claim_locator_prefixes": ["§4.3,"],
+      "html_selector": {"from": {"anchor": "NonCognRela"}, "to": {"anchor": "CaptVariNormThouWithNonCognMeta"}},
+      "text_sha256": "sha256:d21ed2dd0ce5a38a87d2d431635d74a24899cfc6c35db0d56732f9710518b3c6",
+      "incipit": "4.3 Non-cognitivism and Relativism\nIt has seemed obvious to many that"
+    },
+    {
       "id": "SEP-MORAL-COGNITIVISM-2-1",
       "locator": "§2.1 (Emotivism)",
       "claim_locator_prefixes": ["§2.1,"],
