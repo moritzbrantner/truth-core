@@ -157,8 +157,12 @@ class FrontierReportTest(unittest.TestCase):
                 fixture["relations"][::order],
                 root="TOP",
                 transcription=flags[::order],
+                claims=fixture["claims"][::order],
             )
             self.assertEqual(sorted(self.ids(report)), fixture["expected_frontier"])
+            self.assertEqual(
+                {item["statement_id"]: item["depth"] for item in report["items"]}, fixture["expected_depth"]
+            )
             self.assertEqual(
                 {item["statement_id"]: item["result_id"] for item in report["closed_via_transcription"]},
                 fixture["expected_closed_via_transcription"],
@@ -199,6 +203,29 @@ class FrontierReportTest(unittest.TestCase):
         items = {item["statement_id"]: item for item in report["items"]}
         self.assertEqual(items["OPEN-B"]["supporting_claims"], ["CLAIM-EVIDENCE"])
         self.assertIn("supporting source claims: CLAIM-EVIDENCE", corpus.format_frontier(report))
+
+    def test_classifies_open_premises_by_depth(self) -> None:
+        # #143 (2026-10-24): bare = no stating claim and no supports relation.
+        claims = [{"id": "CLAIM-A", "statement_id": "OPEN-A"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=claims)
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["OPEN-A"]["depth"], "sourced")
+        self.assertEqual(items["OPEN-A"]["stating_claims"], ["CLAIM-A"])
+        self.assertEqual(items["OPEN-B"]["depth"], "bare")
+        self.assertEqual(report["depth_counts"], {"bare": 2, "sourced": 1})
+        self.assertIn("3 open premises: 2 bare, 1 sourced-undefended", corpus.format_frontier(report))
+        supported = corpus.frontier_report(
+            STATEMENTS,
+            ARGUMENTS,
+            RESULTS,
+            [relation("claim", "CLAIM-EVIDENCE", "supports", "OPEN-B")],
+            root="ROOT",
+            claims=claims,
+        )
+        self.assertEqual(
+            {item["statement_id"]: item["depth"] for item in supported["items"]},
+            {"OPEN-A": "sourced", "OPEN-B": "sourced", "SIDE": "bare"},
+        )
 
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
@@ -273,6 +300,12 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertNotIn("STMT-GOD-EXISTS", ids)
         self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)
         self.assertTrue(all(item["path_to_root"][-1] == "STMT-CATHOLICISM-TRUE" for item in report["items"]))
+        # Depth counts cover exactly the premises that reach the root.
+        counts = report["depth_counts"]
+        self.assertEqual(counts["bare"] + counts["sourced"], report["open_premise_count"])
+        depths = {item["statement_id"]: item["depth"] for item in report["items"]}
+        self.assertEqual(depths["STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"], "bare")
+        self.assertEqual(depths["STMT-NO-INFINITE-PER-SE-MOVER-SERIES"], "sourced")
 
     def test_excluded_middle_instances_close_via_transcription(self) -> None:
         # #167: the instances are derived only by instantiating the

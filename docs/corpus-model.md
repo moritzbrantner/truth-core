@@ -74,6 +74,8 @@ For each open premise it shows the arguments that use it directly, the transitiv
 - `--root STMT-...` chooses the statement whose path is shown (default `STMT-CATHOLICISM-TRUE`);
 - `--reaching-root` keeps only the premises from which the root is reached.
 
+Each open premise has a **depth**: `bare` when no claim states it and no `supports` relation points to it, otherwise `sourced` (sourced but undefended). The summary line gives both counts and `--json` adds `depth_counts`, plus `depth` and `stating_claims` per item; with `--reaching-root` the counts cover only the premises that reach the root. `/graph` tags open premises `frontier:bare` or `frontier:sourced` (#143, 2026-10-24; see `docs/systematic-corpus-loop.md`).
+
 The report ends with a **transcription heuristics** section, and an open premise is marked `transcription premise of: ARG` when it is load-bearing in that sense. A result is flagged when its Solution proof (comments removed, leading `intro` steps ignored) is a single application of one hypothesis; when a hypothesis type, after unfolding its head definition one level and stripping leading `∀` binders, has the theorem's goal as the consequent of its last top-level `→`; or when the proof has at most two steps. Such a result certifies little more than the transcription of a bridge premise that already contains the conclusion. The checks are textual and deterministic: they can miss a transcription hidden behind further definitions, and a flagged one-step argument can still be faithful. With `--reaching-root` only results on a path to the root are listed.
 
 The corpus explorer's `/graph` page applies the same rules in `apps/corpus-explorer/src/lib/proposition-graph.ts` and `lean-transcription.ts`; change both together. `scripts/testdata/frontier-transcription-closure.json` is a parity fixture read by both test suites, and the explorer tests also compare the real corpus with `corpus.py frontier --json`. Its `STAGE_CONCLUSIONS` list hardcodes the six stage statement IDs of `CATHOLICISM-SKELETON`, so keep those IDs stable or update the list.
@@ -84,15 +86,15 @@ Example (abridged):
 
 ```text
 $ python3 scripts/corpus.py frontier --reaching-root
-frontier: 20 open premises; root STMT-CATHOLICISM-TRUE
-alternatives: no alternatives recorded
+frontier: 28 open premises: 8 bare, 20 sourced-undefended; root STMT-CATHOLICISM-TRUE
 
-STMT-NO-INFINITE-PER-SE-MOVER-SERIES
+STMT-NO-INFINITE-PER-SE-MOVER-SERIES [sourced]
   A per se ordered series of moved movers cannot go on to infinity: ...
   dependent arguments: 3 (AQUINAS-ST-I-Q2-A3-PRIMA-VIA, AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE, CATHOLICISM-FROM-PRIMA-VIA)
   transitive dependents: 5 arguments, 4 statements
   path to root: STMT-NO-INFINITE-PER-SE-MOVER-SERIES -> CATHOLICISM-FROM-PRIMA-VIA -> STMT-CATHOLICISM-TRUE
   objections: none recorded
+  stating source claims: AQUINAS-ST-I-Q2-A3-NO-INFINITE-REGRESS-A
 ...
 closed via transcription from closed premises: 2 statements (a transcription result whose premises are all closed)
   STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT: closed via transcription CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM from closed premises (STMT-EXCLUDED-MIDDLE)

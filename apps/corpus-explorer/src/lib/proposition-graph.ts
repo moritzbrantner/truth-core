@@ -61,6 +61,8 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
   { id: "source-only", label: "Source reading only", description: "Stated by a source; no argument uses it yet." },
 ];
 
+export type FrontierDepth = "bare" | "sourced";
+
 export type CorpusStatementInput = {
   id: string;
   paraphrase: string;
@@ -141,6 +143,12 @@ export type GraphStatement = {
   status: GraphStatus;
   /** Open premise by the corpus.py frontier rule. */
   frontier: boolean;
+  /**
+   * Depth of an open premise, as in `corpus.py frontier` (#143, 2026-10-24):
+   * "bare" when no claim states it and no `supports` relation points to it,
+   * otherwise "sourced" (sourced but undefended). Absent off the frontier.
+   */
+  frontierDepth?: FrontierDepth;
   /**
    * Closed by rule (d): the conclusion of a transcription result all of whose
    * premises are closed ("closed via transcription from closed premises").
@@ -292,6 +300,7 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
   const alternativeSubjects = new Set<string>();
   const objectionSubjects = new Set<string>();
   const refuted = new Set<string>();
+  const supported = new Set<string>();
   const relations: GraphRelation[] = [];
   for (const relation of input.relations) {
     if (relation.predicate === "alternative_to") {
@@ -301,6 +310,8 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
       refuted.add(relation.object_id);
     } else if (relation.predicate === "attacks" && relation.subject_kind === "statement") {
       objectionSubjects.add(relation.subject_id);
+    } else if (relation.predicate === "supports") {
+      supported.add(relation.object_id);
     }
     if (
       relation.subject_kind === "statement" &&
@@ -442,8 +453,15 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
     const namespace = leanNamespace(statement.lean_declaration);
     const stages = [...new Set(stagesByStatement.get(id) ?? [])].sort((a, b) => a - b);
 
+    const frontierDepth: FrontierDepth | undefined = frontier
+      ? claims.length > 0 || supported.has(id)
+        ? "sourced"
+        : "bare"
+      : undefined;
+
     const tags = new Set<string>([`status:${status}`]);
     if (frontier) tags.add("frontier");
+    if (frontierDepth) tags.add(`frontier:${frontierDepth}`);
     if (closedViaTranscription.has(id)) tags.add("closed:transcription-from-closed-premises");
     for (const sourceId of sourceIds) {
       tags.add(`source:${sourceId}`);
@@ -468,6 +486,7 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
       namespace,
       status,
       frontier,
+      frontierDepth,
       closedViaTranscription: closedViaTranscription.get(id),
       refuted: refuted.has(id),
       selfEvidentJustification: statement.self_evident?.justification_ids ?? [],
