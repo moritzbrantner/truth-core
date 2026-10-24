@@ -226,3 +226,6 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinit
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aristotle.Physics.NoGuaranteedHalfAgentChange.Solution
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectorRegress.Solution
