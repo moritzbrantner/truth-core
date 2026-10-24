@@ -85,6 +85,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
@@ -117,6 +118,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
@@ -131,6 +133,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaGovernorIsMaximeEns.So
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SecundaVia.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution

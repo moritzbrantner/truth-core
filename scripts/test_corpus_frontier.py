@@ -343,7 +343,9 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual(counts["bare"] + counts["sourced"], report["open_premise_count"])
         depths = {item["statement_id"]: item["depth"] for item in report["items"]}
         self.assertEqual(depths["STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"], "bare")
-        self.assertEqual(depths["STMT-NO-INFINITE-PER-SE-MOVER-SERIES"], "sourced")
+        # #145: the prima via's regress premise is derived from the secunda via's.
+        self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
+        self.assertEqual(depths["STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"], "sourced")
 
     def test_excluded_middle_instances_close_via_transcription(self) -> None:
         # #167: the instances are derived only by instantiating the
