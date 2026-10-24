@@ -1,6 +1,9 @@
 import { describe, expect, test } from "bun:test";
+import { execFileSync } from "node:child_process";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
-import { buildPropositionGraph } from "./proposition-graph";
+import { buildPropositionGraph, type PropositionGraphInput } from "./proposition-graph";
 import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
 
@@ -55,6 +58,58 @@ describe("proposition graph status", () => {
   });
 });
 
+describe("rule (d): transcription from closed premises", () => {
+  // Shared with scripts/test_corpus_frontier.py so both implementations agree.
+  const shared = JSON.parse(
+    readFileSync(
+      fileURLToPath(new URL("../../../../scripts/testdata/frontier-transcription-closure.json", import.meta.url)),
+      "utf8",
+    ),
+  ) as Omit<PropositionGraphInput, "claims" | "sources" | "inferences" | "transcriptionResultIds"> & {
+    transcription_result_ids: string[];
+    expected_frontier: string[];
+    expected_closed_via_transcription: Record<string, string>;
+  };
+  const input: PropositionGraphInput = {
+    statements: shared.statements,
+    arguments: shared.arguments,
+    results: shared.results,
+    relations: shared.relations,
+    claims: [],
+    sources: [],
+    inferences: [],
+    transcriptionResultIds: shared.transcription_result_ids,
+  };
+
+  test("matches the corpus.py frontier on the shared parity fixture", () => {
+    for (const reversed of [false, true]) {
+      const order = <T,>(items: T[]) => (reversed ? [...items].reverse() : items);
+      const graph = buildPropositionGraph({
+        ...input,
+        statements: order(input.statements),
+        arguments: order(input.arguments),
+        results: order(input.results),
+        relations: order(input.relations),
+      });
+      const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
+      expect(frontier).toEqual(shared.expected_frontier);
+      const closures = Object.fromEntries(
+        graph.statements.flatMap((entry) =>
+          entry.closedViaTranscription ? [[entry.id, entry.closedViaTranscription.resultId]] : [],
+        ),
+      );
+      expect(closures).toEqual(shared.expected_closed_via_transcription);
+    }
+  });
+
+  test("keeps the transcription status and tags the closure", () => {
+    const t2 = buildPropositionGraph(input).statements.find((entry) => entry.id === "T2");
+    expect(t2?.status).toBe("transcription");
+    expect(t2?.tags).toContain("closed:transcription-from-closed-premises");
+    expect(t2?.closedViaTranscription).toEqual({ resultId: "R-A-T2", argumentId: "ARG-T2", premises: ["T1"] });
+  });
+});
+
 describe("corpus proposition graph", () => {
   const graph = getPropositionGraph();
 
@@ -63,6 +118,32 @@ describe("corpus proposition graph", () => {
     expect(graph.defaultTarget).not.toBeNull();
     expect(graph.statements.some((entry) => entry.status === "proved")).toBe(true);
     expect(graph.statements.some((entry) => entry.frontier)).toBe(true);
+  });
+
+  test("closes the excluded-middle instances via transcription from closed premises", () => {
+    const byId = new Map(graph.statements.map((entry) => [entry.id, entry]));
+    for (const id of ["STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT", "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT"]) {
+      expect(byId.get(id)?.frontier).toBe(false);
+      expect(byId.get(id)?.closedViaTranscription?.premises).toEqual(["STMT-EXCLUDED-MIDDLE"]);
+    }
+    // A bridge transcription whose bridge premise is open stays open.
+    expect(byId.get("STMT-TIME-IS-NOT-MOTION")?.frontier).toBe(true);
+  });
+
+  test("has the same frontier and closures as corpus.py frontier", () => {
+    const repositoryRoot = fileURLToPath(new URL("../../../../", import.meta.url));
+    const report = JSON.parse(
+      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], { cwd: repositoryRoot, encoding: "utf8" }),
+    ) as {
+      items: Array<{ statement_id: string }>;
+      closed_via_transcription: Array<{ statement_id: string; result_id: string }>;
+    };
+    const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
+    expect(frontier).toEqual(report.items.map((item) => item.statement_id).sort());
+    const closures = graph.statements
+      .flatMap((entry) => (entry.closedViaTranscription ? [`${entry.id}:${entry.closedViaTranscription.resultId}`] : []))
+      .sort();
+    expect(closures).toEqual(report.closed_via_transcription.map((item) => `${item.statement_id}:${item.result_id}`).sort());
   });
 
   test("uses STMT-CATHOLICISM-TRUE as the default target once it exists", () => {

@@ -676,6 +676,14 @@ function DetailPanel({
             <dd className="mt-1 font-mono text-xs break-all">{current.selfEvidentJustification.join(", ")}</dd>
           </div>
         ) : null}
+        {current.closedViaTranscription ? (
+          <div>
+            <dt className="eyebrow">Closed via transcription from closed premises</dt>
+            <dd className="mt-1 font-mono text-xs break-all">
+              {current.closedViaTranscription.resultId} ({current.closedViaTranscription.premises.join(", ") || "no premises"})
+            </dd>
+          </div>
+        ) : null}
         <div>
           <dt className="eyebrow">Tags</dt>
           <dd className="mt-1 flex flex-wrap gap-1">
