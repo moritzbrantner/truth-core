@@ -21,10 +21,9 @@ Vocabulary, all of it parameters rather than definitions:
   is exactly what the arrow-and-archer premise adds.
 * `Directs d x e` — `d` directs `x` to `e` (*directa ab aliquo*, as the archer
   directs the arrow).
-* `MovedIn`, `MovesIn` — the *prima via* predicates (`Question2.Article3`).
-
-The *prima via* vocabulary is reused only in the two readings that connect the
-director to the first mover. Aristotle's *Physics* II.8 statements on natural
+The two premises that connect the director to the *prima via*'s first mover are
+not readings of this article: they are open bridges in
+`TruthCore.Case.Catholicism.StageOneQuintaVia`. Aristotle's *Physics* II.8 statements on natural
 teleology are not used: that result (`NaturalTeleology`) is a transcription over
 opaque propositions; the coinciding claims are related by `supports` relations.
 
@@ -144,39 +143,5 @@ def OneIntelligentDirectsAllNaturalThingsReading {Being : Sort u} {End : Sort w}
     (NaturalBody Intelligent : Being → Prop)
     (Directs : Being → Being → End → Prop) : Prop :=
   ∃ d, Intelligent d ∧ ∀ x, NaturalBody x → ∃ e, Directs d x e
-
-/-- What nature does for an end under the direction of a higher agent is reduced to
-a first, immovable principle (ad 2: *cum natura propter determinatum finem
-operetur ex directione alicuius superioris agentis, necesse est ea quae a natura
-fiunt, etiam in Deum reducere, sicut in primam causam ... oportet autem omnia
-mobilia et deficere possibilia reduci in aliquod primum principium immobile*).
-
-Read as: whatever directs a natural body to an end, that body is also directed to
-the same end by a knowing, intelligent director that is moved in no respect. The
-reading compresses the reduction (*sicut ostensum est*: the *prima via*'s regress)
-into one step, and takes the intelligence of the first principle from its being a
-higher cause of what is done for an end (*altiorem causam, quae non sit ratio et
-voluntas humana*). It does not say that the first director is unique.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 ad 2.
--/
-def NaturalDirectionReducedToImmobileFirstReading {Being : Sort u}
-    {Respect : Sort v} {End : Sort w}
-    (MovedIn : Being → Respect → Prop)
-    (NaturalBody HasCognition Intelligent : Being → Prop)
-    (Directs : Being → Being → End → Prop) : Prop :=
-  ∀ d x e, NaturalBody x → Directs d x e →
-    ∃ f, HasCognition f ∧ Intelligent f ∧ (∀ r, ¬ MovedIn f r) ∧ Directs f x e
-
-/-- To direct a thing to an end is to move it in some respect, as the archer moves
-the arrow (*sicut sagitta a sagittante*). Links governance to the *prima via*'s
-moving.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co., fifth way.
--/
-def DirectingIsMovingReading {Being : Sort u} {Respect : Sort v} {End : Sort w}
-    (MovesIn : Being → Being → Respect → Prop)
-    (Directs : Being → Being → End → Prop) : Prop :=
-  ∀ d x e, Directs d x e → ∃ r, MovesIn d x r
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

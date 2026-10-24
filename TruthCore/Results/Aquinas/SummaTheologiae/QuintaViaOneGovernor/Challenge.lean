@@ -4,12 +4,14 @@ namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
 open TruthCore.Case.Catholicism (AtMostOneFirstUnmovedMover IsFirstUnmovedMover
-  OneIntelligentFirstMoverGovernsNature)
+  OneIntelligentFirstMoverGovernsNature NaturalDirectionReducedToIntelligentImmobileDirector
+  DirectingIsMoving)
 
 /-- ST I q.2 a.3, fifth way with ad 2: the scope step. Each natural body is
-directed by some knower (`QuintaViaEachDirected.eachDirected`). By ad 2 its
-direction is reduced to an intelligent director moved by none; directing is
-moving, so that director is a first mover moved by none. There is at most one
+directed by some knower (`QuintaViaEachDirected.eachDirected`). By the open
+bridge on which ad 2 bears, its direction is reduced to an intelligent director
+moved by none; by the open bridge that directing is moving, that director is a
+first mover moved by none. There is at most one
 such (stage 1, `AtMostOneFirstUnmovedMover`). So one intelligent first mover
 directs every natural body. -/
 theorem oneGovernor {Being : Type} {Respect : Type} {End : Type}
@@ -24,9 +26,9 @@ theorem oneGovernor {Being : Type} {Respect : Type} {End : Type}
     (hDich : RegularBestByChanceOrByIntentionReading RegularlyAttains Best ByChance TendsTo)
     (hArrow : NonCognitiveTendingNeedsKnowingDirectorReading HasCognition Intelligent
       TendsTo Directs)
-    (hReduce : NaturalDirectionReducedToImmobileFirstReading MovedIn NaturalBody
+    (hReduce : NaturalDirectionReducedToIntelligentImmobileDirector MovedIn NaturalBody
       HasCognition Intelligent Directs)
-    (hMoving : DirectingIsMovingReading MovesIn Directs)
+    (hMoving : DirectingIsMoving MovesIn Directs)
     (hOne : AtMostOneFirstUnmovedMover MovedIn MovesIn) :
     OneIntelligentFirstMoverGovernsNature MovedIn MovesIn NaturalBody Intelligent
       Directs := by
@@ -43,7 +45,7 @@ theorem entailsQuintaViaConclusion {Being : Type} {Respect : Type} {End : Type}
     OneIntelligentDirectsAllNaturalThingsReading NaturalBody Intelligent Directs := by
   sorry
 
-/-- The reduction premise (ad 2) is needed: two archers each direct one body, and
+/-- The reduction bridge is needed: two archers each direct one body, and
 the archers are themselves moved. Every other premise holds (uniqueness
 vacuously); there is no first director and no one governor. -/
 theorem withoutReduction :
@@ -53,9 +55,9 @@ theorem withoutReduction :
     RegularBestByChanceOrByIntentionReading bodyEnd allEnd noEnd bodyEnd ∧
     NonCognitiveTendingNeedsKnowingDirectorReading isDirector isDirector bodyEnd
       twoDirects ∧
-    DirectingIsMovingReading twoDirects twoDirects ∧
+    DirectingIsMoving twoDirects twoDirects ∧
     AtMostOneFirstUnmovedMover directorsMoved twoDirects ∧
-    ¬ NaturalDirectionReducedToImmobileFirstReading directorsMoved isBody isDirector
+    ¬ NaturalDirectionReducedToIntelligentImmobileDirector directorsMoved isBody isDirector
       isDirector twoDirects ∧
     ¬ OneIntelligentFirstMoverGovernsNature directorsMoved twoDirects isBody isDirector
       twoDirects := by
@@ -70,10 +72,10 @@ theorem withoutDirectingIsMoving :
     RegularBestByChanceOrByIntentionReading bodyEnd allEnd noEnd bodyEnd ∧
     NonCognitiveTendingNeedsKnowingDirectorReading isDirector isDirector bodyEnd
       twoDirects ∧
-    NaturalDirectionReducedToImmobileFirstReading nothingMoved isBody isDirector
+    NaturalDirectionReducedToIntelligentImmobileDirector nothingMoved isBody isDirector
       isDirector twoDirects ∧
     AtMostOneFirstUnmovedMover nothingMoved noMoves ∧
-    ¬ DirectingIsMovingReading noMoves twoDirects ∧
+    ¬ DirectingIsMoving noMoves twoDirects ∧
     ¬ OneIntelligentFirstMoverGovernsNature nothingMoved noMoves isBody isDirector
       twoDirects := by
   sorry
@@ -87,9 +89,9 @@ theorem withoutUniqueness :
     RegularBestByChanceOrByIntentionReading bodyEnd allEnd noEnd bodyEnd ∧
     NonCognitiveTendingNeedsKnowingDirectorReading isDirector isDirector bodyEnd
       twoDirects ∧
-    NaturalDirectionReducedToImmobileFirstReading nothingMoved isBody isDirector
+    NaturalDirectionReducedToIntelligentImmobileDirector nothingMoved isBody isDirector
       isDirector twoDirects ∧
-    DirectingIsMovingReading twoDirects twoDirects ∧
+    DirectingIsMoving twoDirects twoDirects ∧
     ¬ AtMostOneFirstUnmovedMover nothingMoved twoDirects ∧
     ¬ OneIntelligentFirstMoverGovernsNature nothingMoved twoDirects isBody isDirector
       twoDirects := by
@@ -104,9 +106,9 @@ theorem premisesJointlySatisfiable :
     RegularBestByChanceOrByIntentionReading bodyEnd allEnd noEnd bodyEnd ∧
     NonCognitiveTendingNeedsKnowingDirectorReading isDirector isDirector bodyEnd
       oneDirects ∧
-    NaturalDirectionReducedToImmobileFirstReading nothingMoved isBody isDirector
+    NaturalDirectionReducedToIntelligentImmobileDirector nothingMoved isBody isDirector
       isDirector oneDirects ∧
-    DirectingIsMovingReading oneDirects oneDirects ∧
+    DirectingIsMoving oneDirects oneDirects ∧
     AtMostOneFirstUnmovedMover nothingMoved oneDirects := by
   sorry
 

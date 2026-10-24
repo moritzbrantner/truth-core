@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q2-A3-ARROW-ARCHER-SUPPORTS-DIRECTING-IS-MOVING",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ARROW-ARCHER-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-DIRECTING-IS-MOVING",
+  "note": "The simile sicut sagitta a sagittante shows one director (the archer) directing by moving. It does not state that all direction, including higher or mediated direction, is moving; governance as moving (ST I q.103) is not pinned."
+}

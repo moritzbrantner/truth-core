@@ -1,8 +1,8 @@
 {
   "id": "AQUINAS-ST-I-Q2-A3-AD2-REDUCTION-TO-IMMOBILE-FIRST-A",
-  "statement_id": "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+  "statement_id": "STMT-NATURE-REDUCED-TO-IMMOBILE-FIRST-CAUSE",
   "source_id": "AQUINAS-ST",
   "locator": "I q.2 a.3 ad 2: cum natura propter determinatum finem operetur ex directione alicuius superioris agentis, necesse est ea quae a natura fiunt, etiam in Deum reducere, sicut in primam causam ... oportet autem omnia mobilia et deficere possibilia reduci in aliquod primum principium immobile",
-  "interpretation": "What nature does for an end under a higher agent's direction is reduced to a first, immovable principle. Read as: a natural body directed to an end by anything is also directed to that end by a knowing, intelligent director moved in no respect. Two compressions to review: the reduction (sicut ostensum est, the prima via regress) is taken in one step, and the intelligence of the first principle is read from its being the higher cause of what is done for an end (altiorem causam, quae non sit ratio et voluntas humana). The sentence does not say the first principle is unique; uniqueness comes from stage 1.",
+  "interpretation": "Literal reading of ad 2: what nature does for a determinate end, under a higher agent's direction, is reduced to God as first cause, and whatever is movable and defectible to a first immovable principle (sicut ostensum est: the earlier ways). It does not state that this first cause itself directs each natural body to the same end, nor that it is knowing and intelligent; it only bears on the open bridge STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST (supports relation). Not used by any result.",
   "status": "formalized"
 }
