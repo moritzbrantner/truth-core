@@ -1,0 +1,46 @@
+{
+  "description": "Shared parity fixture for frontier rule (d): a transcription result closes its conclusion only when all of its premises are closed. Read by scripts/test_corpus_frontier.py and apps/corpus-explorer/src/lib/proposition-graph.test.ts; both must produce the expected frontier and closures.",
+  "statements": [
+    {"id": "SE", "paraphrase": "self-evident", "self_evident": {"justification_ids": ["CL-SE"]}},
+    {"id": "OPEN", "paraphrase": "open premise"},
+    {"id": "DEF", "paraphrase": "defended premise"},
+    {"id": "ALT", "paraphrase": "refuted alternative to DEF"},
+    {"id": "PROVED", "paraphrase": "proved by a non-transcription result"},
+    {"id": "T1", "paraphrase": "transcribed from SE"},
+    {"id": "T2", "paraphrase": "transcribed from T1 (recursive closure)"},
+    {"id": "T3", "paraphrase": "transcribed from SE and OPEN (bridge stays open)"},
+    {"id": "T4", "paraphrase": "transcribed from DEF"},
+    {"id": "T5", "paraphrase": "transcribed from PROVED"},
+    {"id": "T6", "paraphrase": "transcribed from T3 (open premise upstream)"},
+    {"id": "REF", "paraphrase": "refutation of ALT"},
+    {"id": "TOP", "paraphrase": "unverified conclusion using every transcribed statement"}
+  ],
+  "arguments": [
+    {"id": "ARG-PROVED", "premise_statement_ids": ["OPEN"], "conclusion_statement_id": "PROVED", "inference_ids": ["I-PROVED"], "meaning": "Derived."},
+    {"id": "ARG-REF", "premise_statement_ids": ["SE"], "conclusion_statement_id": "REF", "inference_ids": ["I-REF"], "meaning": "Refutes ALT."},
+    {"id": "ARG-T1", "premise_statement_ids": ["SE"], "conclusion_statement_id": "T1", "inference_ids": ["I-T1"], "meaning": "Transcribed."},
+    {"id": "ARG-T2", "premise_statement_ids": ["T1"], "conclusion_statement_id": "T2", "inference_ids": ["I-T2"], "meaning": "Transcribed."},
+    {"id": "ARG-T3", "premise_statement_ids": ["SE", "OPEN"], "conclusion_statement_id": "T3", "inference_ids": ["I-T3"], "meaning": "Transcribed bridge."},
+    {"id": "ARG-T4", "premise_statement_ids": ["DEF"], "conclusion_statement_id": "T4", "inference_ids": ["I-T4"], "meaning": "Transcribed."},
+    {"id": "ARG-T5", "premise_statement_ids": ["PROVED"], "conclusion_statement_id": "T5", "inference_ids": ["I-T5"], "meaning": "Transcribed."},
+    {"id": "ARG-T6", "premise_statement_ids": ["T3"], "conclusion_statement_id": "T6", "inference_ids": ["I-T6"], "meaning": "Transcribed."},
+    {"id": "ARG-TOP", "premise_statement_ids": ["T2", "T4", "T5", "T6"], "conclusion_statement_id": "TOP", "inference_ids": ["I-TOP"], "meaning": "Unverified."}
+  ],
+  "results": [
+    {"id": "R-PROVED", "argument_id": "ARG-PROVED"},
+    {"id": "R-REF", "argument_id": "ARG-REF"},
+    {"id": "R-A-T2", "argument_id": "ARG-T2"},
+    {"id": "R-B-T1", "argument_id": "ARG-T1"},
+    {"id": "R-T3", "argument_id": "ARG-T3"},
+    {"id": "R-T4", "argument_id": "ARG-T4"},
+    {"id": "R-T5", "argument_id": "ARG-T5"},
+    {"id": "R-T6", "argument_id": "ARG-T6"}
+  ],
+  "relations": [
+    {"id": "REL-ALT", "subject_kind": "statement", "subject_id": "ALT", "predicate": "alternative_to", "object_kind": "statement", "object_id": "DEF"},
+    {"id": "REL-REF", "subject_kind": "argument", "subject_id": "ARG-REF", "predicate": "refutes", "object_kind": "statement", "object_id": "ALT"}
+  ],
+  "transcription_result_ids": ["R-A-T2", "R-B-T1", "R-T3", "R-T4", "R-T5", "R-T6"],
+  "expected_frontier": ["OPEN", "T3", "T6"],
+  "expected_closed_via_transcription": {"T1": "R-B-T1", "T2": "R-A-T2", "T4": "R-T4", "T5": "R-T5"}
+}

@@ -45,13 +45,18 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
     id: "transcription",
     label: "Transcription only",
     description:
-      "Conclusion only of results whose proof applies one premise (invariant 16 heuristic); verified, but not progress.",
+      "Conclusion only of results whose proof applies one premise (invariant 16 heuristic); verified, but not progress by itself. It is closed (off the frontier) only when every premise of such a result is closed.",
   },
   { id: "self-evident", label: "Self-evident", description: "Marked self_evident with a sourced justification." },
   { id: "defended", label: "Alternatives refuted", description: "Every recorded alternative is refuted by a verified argument." },
   { id: "alternative", label: "Alternative", description: "Recorded as an alternative to another statement." },
   { id: "objection", label: "Objection", description: "Recorded as an objection attacking another statement." },
-  { id: "open", label: "Open premise", description: "Premise of an argument that is not proved (other than by transcription), self-evident or defended: the frontier." },
+  {
+    id: "open",
+    label: "Open premise",
+    description:
+      "Premise of an argument that is not closed: not proved (other than by a transcription from closed premises), self-evident or defended. The frontier.",
+  },
   { id: "derived", label: "Intermediate step", description: "Output of an inference step that is not an argument conclusion with a result." },
   { id: "source-only", label: "Source reading only", description: "Stated by a source; no argument uses it yet." },
 ];
@@ -136,6 +141,11 @@ export type GraphStatement = {
   status: GraphStatus;
   /** Open premise by the corpus.py frontier rule. */
   frontier: boolean;
+  /**
+   * Closed by rule (d): the conclusion of a transcription result all of whose
+   * premises are closed ("closed via transcription from closed premises").
+   */
+  closedViaTranscription?: { resultId: string; argumentId: string; premises: string[] };
   /** Refuted by an argument with a verified result (`refutes`). */
   refuted: boolean;
   selfEvidentJustification: string[];
@@ -308,6 +318,49 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
     }
   }
 
+  // Closure, as in `corpus.py frontier`: (a) conclusion of a verified result
+  // that is not a transcription, (b) self-evident, (c) every recorded
+  // alternative refuted, or (d) conclusion of a transcription result whose
+  // premises are all closed, applied to a fixpoint over results in ID order.
+  const closed = new Set<string>();
+  for (const result of input.results) {
+    const conclusion = argumentById.get(result.argument_id)?.conclusion_statement_id;
+    if (conclusion && !transcription.has(result.id)) {
+      closed.add(conclusion);
+    }
+  }
+  for (const statement of input.statements) {
+    if (statement.self_evident !== undefined && statement.self_evident !== null) {
+      closed.add(statement.id);
+    }
+  }
+  for (const [statementId, recordedAlternatives] of alternatives) {
+    if (recordedAlternatives.every((alt) => refuted.has(alt))) {
+      closed.add(statementId);
+    }
+  }
+  const transcriptionSteps = input.results
+    .filter((result) => transcription.has(result.id) && argumentById.has(result.argument_id))
+    .map((result) => ({ resultId: result.id, argument: argumentById.get(result.argument_id) as CorpusArgumentInput }))
+    .sort((left, right) => (left.resultId < right.resultId ? -1 : left.resultId > right.resultId ? 1 : 0));
+  const closedViaTranscription = new Map<string, { resultId: string; argumentId: string; premises: string[] }>();
+  for (let changed = true; changed; ) {
+    changed = false;
+    for (const { resultId, argument } of transcriptionSteps) {
+      const conclusion = argument.conclusion_statement_id;
+      if (closed.has(conclusion) || !argument.premise_statement_ids.every((premise) => closed.has(premise))) {
+        continue;
+      }
+      closed.add(conclusion);
+      closedViaTranscription.set(conclusion, {
+        resultId,
+        argumentId: argument.id,
+        premises: [...new Set(argument.premise_statement_ids)].sort(),
+      });
+      changed = true;
+    }
+  }
+
   // Transitive argument dependents, as in corpus.py frontier's upward walk.
   function transitiveDependents(statementId: string) {
     const seenArguments = new Set<string>();
@@ -359,11 +412,11 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
     const recordedAlternatives = alternatives.get(id) ?? [];
     const defended = recordedAlternatives.length > 0 && recordedAlternatives.every((alt) => refuted.has(alt));
     const selfEvident = statement.self_evident !== undefined && statement.self_evident !== null;
-    // Invariant 16: a transcription closes no frontier node, so a premise proved
-    // only by transcription-flagged results stays on the frontier (same rule as
-    // `corpus.py frontier`); its status stays "transcription" so the flag shows.
-    const closedByProof = verifying.some((resultId) => !transcription.has(resultId));
-    const frontier = premiseOf.has(id) && !closedByProof && !selfEvident && !defended;
+    // Invariant 16: a transcription closes no frontier node by itself; a premise
+    // proved only by transcription-flagged results stays on the frontier unless
+    // rule (d) closes it (same rules as `corpus.py frontier`). Its status stays
+    // "transcription" so the flag shows.
+    const frontier = premiseOf.has(id) && !closed.has(id);
 
     let status: GraphStatus;
     if (verifying.length) {
@@ -391,6 +444,7 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
 
     const tags = new Set<string>([`status:${status}`]);
     if (frontier) tags.add("frontier");
+    if (closedViaTranscription.has(id)) tags.add("closed:transcription-from-closed-premises");
     for (const sourceId of sourceIds) {
       tags.add(`source:${sourceId}`);
       const author = sourceById.get(sourceId)?.author;
@@ -414,6 +468,7 @@ export function buildPropositionGraph(input: PropositionGraphInput): Proposition
       namespace,
       status,
       frontier,
+      closedViaTranscription: closedViaTranscription.get(id),
       refuted: refuted.has(id),
       selfEvidentJustification: statement.self_evident?.justification_ids ?? [],
       tags: [...tags].sort(),

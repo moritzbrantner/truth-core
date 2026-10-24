@@ -41,7 +41,7 @@ The repository's aim (#143) is a graph from the root statement "Catholicism is t
 In practice:
 
 - choose work from the frontier, preferring open premises that many arguments depend on or that objections attack, and agree on the direction with the owner at each milestone;
-- a transcription result (AGENTS.md invariant 16) closes no frontier node;
+- a transcription result (AGENTS.md invariant 16) closes no frontier node by itself. It closes its conclusion only when every premise of its argument is closed: marked self-evident, defended by refuting every recorded alternative, the conclusion of a verified non-transcription result, or closed by this same rule. `corpus.py frontier` computes this as a fixpoint and lists such nodes as `closed via transcription from closed premises` (owner decision on #143, 2026-10-24). A transcription that has an open premise, typically its bridge premise `A ∧ B → C`, still closes nothing;
 - a source campaign (e.g. Aristotle's *Physics*) continues only where a premise on a root path depends on it.
 
 This rule exists because the earlier corpus optimized what it counted: about 100 mostly one-step results in three days, then the campaign stalled.

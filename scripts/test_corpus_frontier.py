@@ -60,6 +60,7 @@ ARGUMENTS = [
     argument("ARG-SIDE", ["SIDE"], "SIDE-CONCLUSION"),
 ]
 RESULTS = [{"id": "ARG-MID", "argument_id": "ARG-MID"}, {"id": "ARG-ROOT", "argument_id": "ARG-ROOT"}]
+PARITY_FIXTURE = Path(__file__).resolve().parent / "testdata" / "frontier-transcription-closure.json"
 
 
 class FrontierReportTest(unittest.TestCase):
@@ -98,6 +99,70 @@ class FrontierReportTest(unittest.TestCase):
         flag["single_application_of"] = None
         report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
         self.assertNotIn("MID", self.ids(report))
+
+    def test_transcription_closes_conclusion_when_all_premises_are_closed(self) -> None:
+        # Rule (d), #143 2026-10-24: MID is transcribed from OPEN-A and SELF;
+        # it stays open while OPEN-A is open and closes once OPEN-A is closed.
+        flag = {
+            "result_id": "ARG-MID",
+            "argument_id": "ARG-MID",
+            "proof_steps": 1,
+            "single_application_of": "hBridge",
+            "goal_consequent_premises": [],
+        }
+        statements = [dict(record) for record in STATEMENTS]
+        report = corpus.frontier_report(statements, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        self.assertIn("MID", self.ids(report))
+        self.assertEqual(report["closed_via_transcription"], [])
+        for record in statements:
+            if record["id"] == "OPEN-A":
+                record["self_evident"] = {"justification_ids": ["CLAIM-A"]}
+        report = corpus.frontier_report(statements, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        self.assertNotIn("MID", self.ids(report))
+        self.assertEqual(
+            report["closed_via_transcription"],
+            [
+                {
+                    "statement_id": "MID",
+                    "result_id": "ARG-MID",
+                    "argument_id": "ARG-MID",
+                    "premise_statement_ids": ["OPEN-A", "SELF"],
+                    "path_to_root": ["MID", "ARG-ROOT", "ROOT"],
+                }
+            ],
+        )
+        self.assertIn(
+            "MID: closed via transcription ARG-MID from closed premises (OPEN-A, SELF)",
+            corpus.format_frontier(report),
+        )
+
+    def test_shared_parity_fixture(self) -> None:
+        # Same fixture as apps/corpus-explorer/src/lib/proposition-graph.test.ts.
+        fixture = json.loads(PARITY_FIXTURE.read_text(encoding="utf-8"))
+        flags = [
+            {
+                "result_id": result_id,
+                "argument_id": next(r["argument_id"] for r in fixture["results"] if r["id"] == result_id),
+                "proof_steps": 1,
+                "single_application_of": "hBridge",
+                "goal_consequent_premises": [],
+            }
+            for result_id in fixture["transcription_result_ids"]
+        ]
+        for order in (1, -1):
+            report = corpus.frontier_report(
+                fixture["statements"][::order],
+                fixture["arguments"][::order],
+                fixture["results"][::order],
+                fixture["relations"][::order],
+                root="TOP",
+                transcription=flags[::order],
+            )
+            self.assertEqual(sorted(self.ids(report)), fixture["expected_frontier"])
+            self.assertEqual(
+                {item["statement_id"]: item["result_id"] for item in report["closed_via_transcription"]},
+                fixture["expected_closed_via_transcription"],
+            )
 
     def test_reports_missing_alternatives(self) -> None:
         report = self.report()
@@ -209,23 +274,56 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)
         self.assertTrue(all(item["path_to_root"][-1] == "STMT-CATHOLICISM-TRUE" for item in report["items"]))
 
-    def test_excluded_middle_instances_stay_open_as_transcriptions(self) -> None:
-        # #167: the general principle is self-evident, but the instances are
-        # derived only by instantiation, so invariant 16 keeps them open.
+    def test_excluded_middle_instances_close_via_transcription(self) -> None:
+        # #167: the instances are derived only by instantiating the
+        # self-evident STMT-EXCLUDED-MIDDLE. Invariant 16 keeps the results
+        # transcriptions, but rule (d) (#143, 2026-10-24) closes the instances
+        # because their only premise is closed.
         report = json.loads(self.run_frontier("--json"))
         items = {item["statement_id"]: item for item in report["items"]}
         self.assertNotIn("STMT-EXCLUDED-MIDDLE", items)
+        closures = {closure["statement_id"]: closure for closure in report["closed_via_transcription"]}
         for statement_id in (
             "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
             "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT",
         ):
-            self.assertTrue(items[statement_id]["transcription_only"])
+            self.assertNotIn(statement_id, items)
+            self.assertEqual(closures[statement_id]["premise_statement_ids"], ["STMT-EXCLUDED-MIDDLE"])
         self.assertTrue(report["alternatives_recorded"])
         single = {
             flag["result_id"] for flag in report["transcription_flags"] if flag["single_application_of"]
         }
         self.assertIn("CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM", single)
         self.assertNotIn("LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE", single)
+
+    def test_bridge_transcriptions_with_open_bridge_premises_stay_open(self) -> None:
+        # An Aristotle "A ∧ B → C" bridge transcription must not close its
+        # conclusion: its bridge premise is open, so rule (d) does not apply.
+        report = json.loads(self.run_frontier("--json"))
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertIn("STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY", items)
+        for statement_id in ("STMT-TIME-IS-NOT-MOTION", "STMT-NOTHING-MOVES-IN-NOW"):
+            self.assertTrue(items[statement_id]["transcription_only"])
+        closed = {closure["statement_id"] for closure in report["closed_via_transcription"]}
+        flagged = {
+            flag["argument_id"]
+            for flag in report["transcription_flags"]
+            if flag["single_application_of"] and flag["goal_consequent_premises"]
+        }
+        arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        checked = 0
+        for argument_id in flagged:
+            bridges = {
+                statement_id
+                for flag in report["transcription_flags"]
+                if flag["argument_id"] == argument_id
+                for premise in flag["goal_consequent_premises"]
+                for statement_id in premise["statement_ids"]
+            }
+            if bridges & items.keys():
+                checked += 1
+                self.assertNotIn(arguments[argument_id]["conclusion_statement_id"], closed)
+        self.assertGreater(checked, 10)
 
     def test_text_output_is_stable(self) -> None:
         self.assertEqual(self.run_frontier(), self.run_frontier())

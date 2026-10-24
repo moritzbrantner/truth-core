@@ -172,10 +172,12 @@ def frontier_report(
     root: str | None = DEFAULT_FRONTIER_ROOT,
     transcription: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    """Open premises: used as an argument premise and not (a) the conclusion of
-    a verified result that is not a transcription (invariant 16), (b) marked
-    self_evident, or (c) refuted in every one of its recorded alternatives (at
-    least one alternative recorded)."""
+    """Open premises: used as an argument premise and not closed. A statement
+    is closed when it is (a) the conclusion of a verified result that is not a
+    transcription (invariant 16), (b) marked self_evident, (c) refuted in every
+    one of its recorded alternatives (at least one alternative recorded), or
+    (d) the conclusion of a transcription result all of whose argument premises
+    are closed (#143, 2026-10-24). Rule (d) is applied to a fixpoint."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
@@ -254,15 +256,50 @@ def frontier_report(
                 path[:0] = [node, argument_id]
         return seen_arguments, seen_statements, path
 
+    def defended(statement_id: str) -> bool:
+        recorded = alternatives.get(statement_id, ())
+        return bool(recorded) and all(alternative in refuted for alternative in recorded)
+
+    closed = {
+        statement_id
+        for statement_id in statement_by_id.keys() | dependents.keys() | verified_conclusions
+        if statement_id in verified_conclusions
+        or statement_by_id.get(statement_id, {}).get("self_evident") is not None
+        or defended(statement_id)
+    }
+    # Rule (d): a transcription still closes nothing by itself, but it carries
+    # closure from its premises to its conclusion. Iterate to a fixpoint; each
+    # pass visits the transcription results in ID order, so the recorded result
+    # for a conclusion is deterministic.
+    transcription_steps = sorted(
+        (result["id"], argument_by_id[result["argument_id"]])
+        for result in results
+        if result["id"] in transcription_results and result["argument_id"] in argument_by_id
+    )
+    closed_via_transcription: dict[str, dict[str, Any]] = {}
+    changed = True
+    while changed:
+        changed = False
+        for result_id, argument in transcription_steps:
+            conclusion = argument["conclusion_statement_id"]
+            if conclusion in closed:
+                continue
+            premises = argument["premise_statement_ids"]
+            if all(premise in closed for premise in premises):
+                closed.add(conclusion)
+                closed_via_transcription[conclusion] = {
+                    "statement_id": conclusion,
+                    "result_id": result_id,
+                    "argument_id": argument["id"],
+                    "premise_statement_ids": sorted(set(premises)),
+                }
+                changed = True
+
     items: list[dict[str, Any]] = []
     for statement_id in sorted(dependents):
-        if statement_id in verified_conclusions:
-            continue
-        if statement_by_id.get(statement_id, {}).get("self_evident") is not None:
+        if statement_id in closed:
             continue
         recorded = sorted(alternatives.get(statement_id, ()))
-        if recorded and all(alternative in refuted for alternative in recorded):
-            continue
         all_arguments, all_conclusions, path = upward(statement_id)
         items.append(
             {
@@ -296,10 +333,15 @@ def frontier_report(
                 goal_premise_arguments.setdefault(statement_id, []).append(flag["argument_id"])
     for item in items:
         item["transcription_premise_of"] = sorted(goal_premise_arguments.get(item["statement_id"], []))
+    closures: list[dict[str, Any]] = []
+    for statement_id in sorted(closed_via_transcription):
+        _, _, path = upward(statement_id)
+        closures.append({**closed_via_transcription[statement_id], "path_to_root": path})
     return {
         "root": root,
         "root_known": root is not None and root in statement_by_id,
         "transcription_flags": transcription or [],
+        "closed_via_transcription": closures,
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
         "items": items,
@@ -554,6 +596,17 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
             )
+    closures = report.get("closed_via_transcription", [])
+    lines.append("")
+    lines.append(
+        f"closed via transcription from closed premises: {len(closures)} statements "
+        "(a transcription result whose premises are all closed)"
+    )
+    for closure in closures:
+        lines.append(
+            f"  {closure['statement_id']}: closed via transcription {closure['result_id']} "
+            f"from closed premises ({', '.join(closure['premise_statement_ids']) or 'none'})"
+        )
     flags = report.get("transcription_flags", [])
     lines.append("")
     lines.append(
@@ -891,6 +944,9 @@ def command_frontier(args: argparse.Namespace) -> int:
         }
         report["transcription_flags"] = [
             flag for flag in report["transcription_flags"] if flag["argument_id"] in on_path
+        ]
+        report["closed_via_transcription"] = [
+            closure for closure in report["closed_via_transcription"] if closure["path_to_root"] is not None
         ]
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False))
