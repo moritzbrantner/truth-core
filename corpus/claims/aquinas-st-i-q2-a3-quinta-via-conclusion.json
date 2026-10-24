@@ -1,0 +1,8 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-CONCLUSION-A",
+  "statement_id": "STMT-ONE-INTELLIGENT-DIRECTS-ALL-NATURAL-THINGS",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., quinta via: Ergo est aliquid intelligens, a quo omnes res naturales ordinantur ad finem",
+  "interpretation": "One director for all: aliquid ... a quo omnes puts the existential outside the universal. Restricted to the natural bodies the premises speak of. The derivation needs a scope step (result AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR); without it only the each-directed statement follows (naiveScopeShiftFails).",
+  "status": "formalized"
+}

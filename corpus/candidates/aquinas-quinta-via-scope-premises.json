@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-QUINTA-VIA-SCOPE-PREMISES",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.103",
+  "priority": 330,
+  "goal": "Defend the two open bridges of AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR (Codex P1s on PR #179: neither is stated by q.2 a.3). (1) STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST: ad 2 reduces nature's directed working to a first immovable cause (claim AQUINAS-ST-I-Q2-A3-AD2-REDUCTION-TO-IMMOBILE-FIRST-A, supports only); still to be argued are that this first cause directs each body to the same end and that it is knowing and intelligent. Formalize the regress of directors explicitly (higher directors direct lower ones; no infinite per se series, as in the prima via) once ST I q.103 a.1-a.6 (governance by one, through intermediaries) is pinned. (2) STMT-DIRECTING-IS-MOVING: the arrow simile only illustrates it (supports relation); source governance as moving things to their end from ST I q.103 a.5-a.8. Also: the first mover being intelligent bears on stage 2 (intellect, ST I q.14; SCG I.44), a link left open here.",
+  "reason": "Both bridges are open premises, each shown necessary by a countermodel (withoutReduction, withoutDirectingIsMoving).",
+  "status": "candidate"
+}

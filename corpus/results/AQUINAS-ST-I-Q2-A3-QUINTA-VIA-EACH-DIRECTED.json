@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.eachDirected",
+  "comparator_config": "results/AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED/comparator.json",
+  "status": "solution-present"
+}

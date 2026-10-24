@@ -1,0 +1,9 @@
+{
+  "id": "NATURALISTIC-TELEONOMY-RIVAL",
+  "source_id": "DARWIN-AUTOBIOGRAPHY",
+  "locator": "Recollections, ch. on religious belief (1876 MS; Barlow ed. 1958): the argument of design as given by Paley fails now that the law of natural selection has been discovered; exact paragraph to fix against a witness",
+  "priority": 320,
+  "goal": "Waiting for a witness. Source STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY, the recorded alternative to the quinta via premise STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR (#148), with a claim; pin a web_snapshot of a text containing the design passage (the Project Gutenberg ebook 2010 is the 1887 Francis Darwin abridgement and does not contain it; the 1958 Barlow restoration is in copyright, so look for a public-domain page such as Darwin Online with a stable capture), or Mayr/Pittendrigh on teleonomy. Then model naturalistic teleonomy as a complete rival worldview (owner principle on #143): its own accounts of the regularity of inanimate natural bodies (falling, celestial motion, chemistry: no selection applies there), of organic adaptation (selection, which also rejects STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION: verified necessityModel), of the order of laws themselves, and of mind; record what it leaves unexplained.",
+  "reason": "The quinta via results verify consequence only. teleonomyModel and necessityModel show the formal shape of the rival is consistent with the other premises, so nothing yet refutes it; only a whole-theory comparison can.",
+  "status": "candidate"
+}

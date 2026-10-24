@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-REGULAR-FOR-BEST-B",
+  "statement_id": "STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., quinta via: semper aut frequentius eodem modo operantur, ut consequantur id quod est optimum",
+  "interpretation": "Reading B: aliqua taken literally, so only some natural body is said to operate regularly for the best. With it the argument reaches only those bodies, not omnes res naturales. Not used by any result.",
+  "status": "formalized",
+  "interpretation_of": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-REGULAR-FOR-BEST-A"
+}

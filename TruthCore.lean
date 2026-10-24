@@ -186,6 +186,12 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+import TruthCore.Case.Catholicism.StageOneQuintaVia
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Case.Catholicism.StageOneBridges

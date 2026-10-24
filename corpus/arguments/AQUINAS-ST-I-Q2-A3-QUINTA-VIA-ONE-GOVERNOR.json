@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "premise_statement_ids": [
+    "STMT-NATURAL-BODIES-LACK-COGNITION",
+    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
+    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
+    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
+    "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+    "STMT-DIRECTING-IS-MOVING",
+    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER"
+  ],
+  "conclusion_statement_id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR"
+  ],
+  "meaning": "The scope step of the quinta via, through ad 2 and stage 1: one intelligent first mover moved by none directs every natural body. Composes AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED and uses the stage-1 uniqueness statement STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER. Also verified: entailsQuintaViaConclusion (it entails the literal conclusion), one countermodel for each scope premise (the two open bridges, on which ad 2 and the arrow simile only bear, and stage-1 uniqueness), and premisesJointlySatisfiable."
+}
