@@ -128,6 +128,13 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["objections"], ["argument:ARG-OBJECTION"])
         self.assertIn("objections: argument:ARG-OBJECTION", corpus.format_frontier(report))
 
+    def test_lists_supporting_claims_without_closing(self) -> None:
+        relations = [relation("claim", "CLAIM-EVIDENCE", "supports", "OPEN-B")]
+        report = self.report(relations)
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["OPEN-B"]["supporting_claims"], ["CLAIM-EVIDENCE"])
+        self.assertIn("supporting source claims: CLAIM-EVIDENCE", corpus.format_frontier(report))
+
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
             list(reversed(STATEMENTS)), list(reversed(ARGUMENTS)), list(reversed(RESULTS)), [], root="ROOT"
@@ -152,6 +159,9 @@ class FrontierSchemaTest(unittest.TestCase):
         corpus.validate_premise_program_relation(path, relation("source", "A", "related_to", "S"))
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_premise_program_relation(path, relation("statement", "A", "refutes", "S"))
+        corpus.validate_premise_program_relation(path, relation("claim", "C", "supports", "S"))
+        with self.assertRaises(corpus.CorpusError):
+            corpus.validate_premise_program_relation(path, relation("statement", "A", "supports", "S"))
 
 
 class TranscriptionHeuristicTest(unittest.TestCase):

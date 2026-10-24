@@ -18,8 +18,11 @@ the root only through the separate bridge premises.
 
 Source status: the Creed articles are read from the pinned Greek witness
 `CREED-C381` (claims `CREED-C381-ART-01` to `-12`). Dei Filius ch. 3, the
-source of (A) and of the bridge premises, has no pinned witness yet (candidate
-`VATICAN-I-DEI-FILIUS-CH3`), so those statements carry no claims.
+source of (A) and of the bridge premises, is read from the pinned web snapshot
+`VATICAN-I-DEI-FILIUS-CH3` (Latin, #154): claim
+`VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER` states (A), and the other
+ch. 3 claims bear on stage 3, stage 6 and the truth bridge through `supports`
+relations without stating them.
 -/
 
 namespace TruthCore.Case.Catholicism
@@ -182,8 +185,10 @@ def CreedArticlesHold (σ : Signature) : Prop :=
 a God who founded the Catholic Church as a teaching authority.
 
 Phase-1 component (A) of issue #156, after Vatican I, *Dei Filius* ch. 3 (the
-Church as a motive of credibility and witness of its divine mission). No
-pinned witness: candidate `VATICAN-I-DEI-FILIUS-CH3`. -/
+Church as a motive of credibility and witness of its divine mission). Source:
+*Dei Filius* ch. 3, para. 5 (*Deus per Filium suum unigenitum Ecclesiam
+instituit ... tamquam custos et magistra verbi revelati*), claim
+`VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER`. -/
 def CatholicChurchIsGodFoundedTeachingAuthority (σ : Signature) : Prop :=
   ∃ g, σ.IsGod g ∧ σ.FoundedAsTeachingAuthority g σ.catholicChurch
 

@@ -1,0 +1,33 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "VATICAN-I-DEI-FILIUS",
+    "source_url": "https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
+    "retrieved_at": "2026-10-24T01:22:12Z",
+    "sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Conciliar text of 1870 (public domain); the page carries no copyright or reuse notice (checked 2026-10-24). Publisher per page metadata: Segreteria per la Comunicazione (Holy See). Only hashes, locators and a short incipit are committed.",
+    "wayback_url": "https://web.archive.org/web/20260221050058id_/https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
+    "wayback_sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016"
+  },
+  "passages": [
+    {
+      "id": "VATICAN-I-DEI-FILIUS-CH3",
+      "locator": "ch. 3 (DS 3008-3014)",
+      "claim_locator_prefixes": [
+        "ch. 3, "
+      ],
+      "html_selector": {
+        "from": {
+          "text": "CAPUT III"
+        },
+        "to": {
+          "text": "CAPUT IV"
+        }
+      },
+      "text_sha256": "sha256:8ab9e71bc8d0a25d6b5f2eeb05b3b2d7bff7f5694cdb8c701605389bcaa9e30b",
+      "incipit": "CAPUT III\nDE FIDE\nQuum homo a Deo tamquam Creatore et Domino suo"
+    }
+  ]
+}
