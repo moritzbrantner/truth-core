@@ -202,3 +202,7 @@ import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
