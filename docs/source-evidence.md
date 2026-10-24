@@ -46,6 +46,35 @@ The offline `check` validates media-span manifests and claim bindings without ne
 
 Fidelity for recorded speech adds two questions to the usual ones. Auto captions can mishear words, so a claim notes its transcript source and whether the wording was checked against the audio. Speaker attribution is a judgment unless youtube-corpus speaker data confirms it; diarization labels are not identities, so a claim records how its speaker was attributed.
 
+## Web snapshots (translations and web-only texts)
+
+Where no git-hosted witness exists, a web page can be pinned as a passage of kind `web_snapshot` (owner decision on #154). It is the last admissible source kind (invariant 18). Its main use is a translation until a pinned Latin witness exists, such as New Advent's Summa or the isidore.co translations of Aquinas, and a web-only original such as the Latin of *Dei Filius* on vatican.va.
+
+- The manifest's **snapshot** (`kind: "web_snapshot"`) names the `source_url`, the `retrieved_at` UTC timestamp, the `sha256` of the response bytes (after removing any gzip content coding), the page `encoding`, the `language`, and in `license` the terms or copyright notice found on the site. A translation adds `translation` with `translator`, `year` and `edition`. An optional `wayback_url` of the form `https://web.archive.org/web/<14-digit timestamp>id_/<source_url>` gives a fixed-timestamp capture, with its own `wayback_sha256`.
+- Each **passage** gives an `html_selector`, the `text_sha256` of the extracted text, and optionally an `incipit` of at most 80 characters. The selector is one of `{"element_id": ...}` (that element), `{"heading": ...}` (an `h1`–`h6` with exactly that text, up to the next heading of the same or a higher level), or `{"from": marker, "to": marker}` with `to` optional and excluded, where a marker is `{"anchor": ...}` (a tag with that `name` or `id`) or `{"text": ...}` (a block whose whole text is exactly that). Every selector must match exactly once.
+- **No page text is committed**, only hashes, locators and a short incipit, so copyrighted translations can be cited. `check` rejects a web-snapshot passage carrying `text`.
+
+`materialize` fetches the page with a fixed User-Agent and rejects byte drift. If the live page drifted or is unreachable, it fetches the Wayback capture and checks it against `wayback_sha256`. It then extracts the selected range, normalizes it to one line per HTML block, and rejects a `text_sha256` mismatch, which also catches a changed extractor or selector. Verified bytes are cached under `.cache/truth-core/web/` by hash, so a later `materialize` works offline. The Wayback capture is only a fallback: its bytes may differ from the live page (for example by injected scripts) as long as the extracted text matches. `verify` refetches every web snapshot without the cache. The offline `check` validates the manifests and claim bindings only.
+
+To pin a new page, fetch it twice to make sure it is byte-stable, then print the fields with:
+
+```bash
+python3 scripts/source_evidence.py web-hashes <URL> --encoding utf-8 \
+  --selector '{"from": {"anchor": "13"}, "to": {"anchor": "14"}}' \
+  --wayback 'https://web.archive.org/web/<timestamp>id_/<URL>'
+```
+
+Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Record a Wayback capture whose extracted text matches whenever one is reachable. A page that drifts without a matching capture can no longer be materialized; re-pin it, and re-read the claims against the new text.
+
+### Translation basis
+
+A translation is not the primary text. Every claim on a passage with `translation` must carry `"basis": "translation"`, and `basis` is rejected on any other claim. A translation-based claim stays a candidate for upgrade to a pinned Latin witness, and it may not override a reading of one. `check` enforces two rules for this:
+
+- a web snapshot may not cover a range that a pinned git text witness of the same source covers (no claim-locator prefix of one may be a prefix of the other's); once the Latin is pinned, its claims move to the Latin witness;
+- a translation-based claim may not be an `interpretation_of` (an alternative reading of) a claim read from an original-language witness.
+
+Whether a translation-based claim conflicts in meaning with a Latin-based claim on another statement remains a review question.
+
 ## Claim binding
 
 Claims deliberately remain small. A formalized claim records its source ID and precise locator. `scripts/source_evidence.py` requires that pair to resolve to exactly one passage witness.
@@ -69,6 +98,8 @@ The command:
 5. extracts the configured CTS range when one is available; and
 6. writes normalized UTF-8 text under `.cache/truth-core/sources/`.
 
+Media spans and web snapshots follow their own steps (see above) and write their text to the same place.
+
 Workers must read that materialized text and relevant context before creating claims. Model memory, search-result snippets, or an unpinned web page are orientation aids only.
 
 ## Validation
@@ -86,7 +117,7 @@ Network-backed source verification:
 python3 scripts/source_evidence.py verify
 ```
 
-CI runs the corpus binding check and verifies the immutable source snapshots. New claims therefore cannot enter the formalized corpus without reproducible source evidence.
+`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. CI runs the corpus binding check and verifies the immutable source snapshots. New claims therefore cannot enter the formalized corpus without reproducible source evidence.
 
 ## What this does not prove
 

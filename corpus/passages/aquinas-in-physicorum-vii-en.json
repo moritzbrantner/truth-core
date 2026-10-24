@@ -1,0 +1,55 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-PHYS",
+    "source_url": "https://isidore.co/aquinas/english/Physics7.htm",
+    "retrieved_at": "2026-10-24T01:22:29Z",
+    "sha256": "sha256:59ff52bdd6c70ee90beed85693faa0bdb9ecce3bda08920e38f5723032f4531b",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Pierre H. Conway, O.P.",
+      "year": "1958-1962",
+      "edition": "Commentary on Aristotle's Physics, Books III-VIII (Columbus, Ohio: College of St. Mary of the Springs, 1958-1962); HTML edition by Joseph Kenny, O.P., on isidore.co"
+    },
+    "license": "No license or terms of use on isidore.co (checked 2026-10-24); the site's GitHub source (Geremia/AquinasOperaOmnia) has no license either. The copyright status of the Conway translation is unknown. Only hashes, locators and a short incipit are committed.",
+    "wayback_url": "https://web.archive.org/web/20261024011745id_/https://isidore.co/aquinas/english/Physics7.htm",
+    "wayback_sha256": "sha256:59ff52bdd6c70ee90beed85693faa0bdb9ecce3bda08920e38f5723032f4531b"
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-PHYS-VII-L1-EN",
+      "locator": "VII, lect. 1",
+      "claim_locator_prefixes": [
+        "VII, lect. 1 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "1"
+        },
+        "to": {
+          "anchor": "2"
+        }
+      },
+      "text_sha256": "sha256:00b72836e111ee905723454de7e302aa110b9ebddc7c5a28b34780fe9631ab2d",
+      "incipit": "BOOK VII\nLecture 1\nIt is necessary that whatever is moved, be moved by another."
+    },
+    {
+      "id": "AQUINAS-IN-PHYS-VII-L2-EN",
+      "locator": "VII, lect. 2",
+      "claim_locator_prefixes": [
+        "VII, lect. 2 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "2"
+        },
+        "to": {
+          "anchor": "3"
+        }
+      },
+      "text_sha256": "sha256:5034f062b1dbdeb6471107844f4350c7525c765902e7dee17718cea29dff8beb",
+      "incipit": "Lecture 2\nNo process to infinity in movers and moved."
+    }
+  ]
+}

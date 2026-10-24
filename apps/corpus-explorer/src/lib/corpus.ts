@@ -61,9 +61,31 @@ type CorpusMediaSpanSlice = CorpusPassageSlice & {
   speaker_attribution?: string;
 };
 
+/** A web page pinned by the SHA-256 of its response bytes; no page text is stored. */
+export type CorpusWebSnapshot = {
+  kind: "web_snapshot";
+  source_id: string;
+  source_url: string;
+  retrieved_at: string;
+  sha256: string;
+  encoding: string;
+  language: string;
+  license: string;
+  translation?: { translator: string; year: number | string; edition: string };
+  wayback_url?: string;
+  wayback_sha256?: string;
+};
+
+type CorpusWebSnapshotSlice = CorpusPassageSlice & {
+  html_selector: Record<string, unknown>;
+  text_sha256: string;
+  incipit?: string;
+};
+
 type CorpusPassageManifest =
   | { snapshot: CorpusSourceSnapshot; passages: CorpusPassageSlice[]; notes?: string }
-  | { snapshot: CorpusMediaSnapshot; passages: CorpusMediaSpanSlice[]; notes?: string };
+  | { snapshot: CorpusMediaSnapshot; passages: CorpusMediaSpanSlice[]; notes?: string }
+  | { snapshot: CorpusWebSnapshot; passages: CorpusWebSnapshotSlice[]; notes?: string };
 
 export type CorpusTextPassage = CorpusSourceSnapshot &
   CorpusPassageSlice & {
@@ -75,10 +97,19 @@ export type CorpusMediaPassage = CorpusMediaSnapshot &
     notes?: string;
   };
 
-export type CorpusPassage = CorpusTextPassage | CorpusMediaPassage;
+export type CorpusWebPassage = CorpusWebSnapshot &
+  CorpusWebSnapshotSlice & {
+    notes?: string;
+  };
+
+export type CorpusPassage = CorpusTextPassage | CorpusMediaPassage | CorpusWebPassage;
 
 export function isMediaPassage(passage: CorpusPassage): passage is CorpusMediaPassage {
   return passage.kind === "media_span";
+}
+
+export function isWebPassage(passage: CorpusPassage): passage is CorpusWebPassage {
+  return passage.kind === "web_snapshot";
 }
 
 export type CorpusStatement = {
@@ -97,6 +128,8 @@ type RawCorpusClaim = {
   interpretation_group?: string;
   interpretation_of?: string;
   interpretation: string;
+  /** Present on claims read from a translated web snapshot. */
+  basis?: "translation";
   status: "formalized";
 };
 

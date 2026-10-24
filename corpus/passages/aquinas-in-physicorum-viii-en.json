@@ -1,0 +1,55 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-PHYS",
+    "source_url": "https://isidore.co/aquinas/english/Physics8.htm",
+    "retrieved_at": "2026-10-24T01:22:33Z",
+    "sha256": "sha256:0223ae06aa0fe0764f41baa4f50374590995185463aff1f04e794d6cdbbbd784",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Pierre H. Conway, O.P.",
+      "year": "1958-1962",
+      "edition": "Commentary on Aristotle's Physics, Books III-VIII (Columbus, Ohio: College of St. Mary of the Springs, 1958-1962); HTML edition by Joseph Kenny, O.P., on isidore.co"
+    },
+    "license": "No license or terms of use on isidore.co (checked 2026-10-24); the site's GitHub source (Geremia/AquinasOperaOmnia) has no license either. The copyright status of the Conway translation is unknown. Only hashes, locators and a short incipit are committed.",
+    "wayback_url": "https://web.archive.org/web/20240224200816id_/https://isidore.co/aquinas/english/Physics8.htm",
+    "wayback_sha256": "sha256:0223ae06aa0fe0764f41baa4f50374590995185463aff1f04e794d6cdbbbd784"
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-PHYS-VIII-L7-EN",
+      "locator": "VIII, lect. 7",
+      "claim_locator_prefixes": [
+        "VIII, lect. 7 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "7"
+        },
+        "to": {
+          "anchor": "8"
+        }
+      },
+      "text_sha256": "sha256:5d86d42acd59082e3ebb543581c8e658cd4bf946e4b4606414d28a69e30bf772",
+      "incipit": "Lecture 7\nUniversally, whatever is moved is moved by another"
+    },
+    {
+      "id": "AQUINAS-IN-PHYS-VIII-L9-EN",
+      "locator": "VIII, lect. 9",
+      "claim_locator_prefixes": [
+        "VIII, lect. 9 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "9"
+        },
+        "to": {
+          "anchor": "10"
+        }
+      },
+      "text_sha256": "sha256:22f1f7cc8890bf8e125aadac0b232a1ff6d4b77adb57137aca1de3dcea070ad9",
+      "incipit": "Lecture 9\nNo process to infinity in movers."
+    }
+  ]
+}

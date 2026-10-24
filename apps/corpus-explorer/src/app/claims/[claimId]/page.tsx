@@ -8,6 +8,7 @@ import {
   findSource,
   getCorpus,
   isMediaPassage,
+  isWebPassage,
   resultsForClaim,
 } from "@/lib/corpus";
 
@@ -103,6 +104,66 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
             <dt>Span hash</dt>
             <dd className="font-mono break-all">{passage.span_sha256}</dd>
             <dt>License</dt>
+            <dd>{passage.license}</dd>
+          </dl>
+        </section>
+      ) : isWebPassage(passage) ? (
+        <section className="record-section">
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="eyebrow">{passage.translation ? "Translation evidence" : "Web evidence"}</p>
+            <StatusMark tone="accent">Pinned web snapshot</StatusMark>
+          </div>
+          <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
+            This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
+            of a web page pinned by the hash of its bytes. No page text is stored; the selected
+            range is re-extracted locally and rejected on any byte or text drift.
+            {passage.translation
+              ? " The page is a translation: the claim is read from it until a pinned original-language witness exists."
+              : null}
+          </p>
+          <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
+            <dt>Passage</dt>
+            <dd>{passage.locator}</dd>
+            <dt>Page</dt>
+            <dd>
+              <a
+                className="link-quiet break-all"
+                href={passage.source_url}
+                rel="noreferrer"
+                target="_blank"
+              >
+                {passage.source_url} ↗
+              </a>
+            </dd>
+            {passage.translation ? (
+              <>
+                <dt>Translation</dt>
+                <dd>
+                  {passage.translation.translator} ({passage.translation.year}),{" "}
+                  {passage.translation.edition}
+                </dd>
+              </>
+            ) : null}
+            <dt>Retrieved</dt>
+            <dd className="font-mono break-all">{passage.retrieved_at}</dd>
+            <dt>Page hash</dt>
+            <dd className="font-mono break-all">{passage.sha256}</dd>
+            {passage.wayback_url ? (
+              <>
+                <dt>Archived copy</dt>
+                <dd>
+                  <a
+                    className="link-quiet break-all"
+                    href={passage.wayback_url}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Wayback Machine capture ↗
+                  </a>
+                </dd>
+              </>
+            ) : null}
+            <dt>Terms</dt>
             <dd>{passage.license}</dd>
           </dl>
         </section>

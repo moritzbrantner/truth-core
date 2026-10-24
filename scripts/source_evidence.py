@@ -4,7 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import codecs
+import gzip
 import hashlib
+import html.parser
 import json
 import os
 import re
@@ -22,12 +25,19 @@ CORPUS = ROOT / "corpus"
 PASSAGES = CORPUS / "passages"
 CACHE = ROOT / ".cache" / "truth-core" / "sources"
 MEDIA_CACHE = ROOT / ".cache" / "truth-core" / "media"
+WEB_CACHE = ROOT / ".cache" / "truth-core" / "web"
 SHA1_RE = re.compile(r"^[0-9a-f]{40}$")
 SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
 YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 MEDIA_SPAN = "media_span"
 MEDIA_EXPORT_SCHEMA = "source_span_interchange@1"
 TRANSCRIPT_SOURCES = {"caption_manual", "caption_auto", "asr"}
+WEB_SNAPSHOT = "web_snapshot"
+RETRIEVED_AT_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
+WAYBACK_RE = re.compile(r"^https://web\.archive\.org/web/(\d{14})id_/(.+)$")
+# A web snapshot commits hashes, locators and at most a short incipit, no text.
+MAX_INCIPIT_CHARS = 80
+TRANSLATION_BASIS = "translation"
 
 
 class SourceEvidenceError(Exception):
@@ -57,6 +67,14 @@ def require(record: dict[str, Any], fields: list[str], path: Path) -> None:
 
 def is_media_span(passage: dict[str, Any]) -> bool:
     return passage.get("kind") == MEDIA_SPAN
+
+
+def is_web_snapshot(passage: dict[str, Any]) -> bool:
+    return passage.get("kind") == WEB_SNAPSHOT
+
+
+def is_translation(passage: dict[str, Any]) -> bool:
+    return is_web_snapshot(passage) and passage.get("translation") is not None
 
 
 def validate_claim_locator_prefixes(path: Path, passage: dict[str, Any]) -> None:
@@ -129,9 +147,101 @@ def validate_media_span_manifest(path: Path, passage: dict[str, Any]) -> None:
         raise SourceEvidenceError(f"{where}: media spans must not commit transcript text")
 
 
+def validate_html_selector(where: str, selector: Any) -> None:
+    """One of: element_id, heading, or a from/to range of anchor or text markers."""
+    if not isinstance(selector, dict) or not selector:
+        raise SourceEvidenceError(f"{where}: html_selector must be an object")
+    keys = set(selector)
+    if keys == {"element_id"} or keys == {"heading"}:
+        value = next(iter(selector.values()))
+        if not isinstance(value, str) or not value:
+            raise SourceEvidenceError(f"{where}: html_selector value must be a non-empty string")
+        return
+    if "from" in keys and keys <= {"from", "to"}:
+        for side in sorted(keys):
+            marker = selector[side]
+            if (
+                not isinstance(marker, dict)
+                or len(marker) != 1
+                or next(iter(marker)) not in ("anchor", "text")
+                or not isinstance(next(iter(marker.values())), str)
+                or not next(iter(marker.values()))
+            ):
+                raise SourceEvidenceError(
+                    f"{where}: html_selector {side} must be {{\"anchor\": ...}} or {{\"text\": ...}}"
+                )
+        return
+    raise SourceEvidenceError(
+        f"{where}: html_selector must be {{element_id}}, {{heading}}, or {{from, to?}}"
+    )
+
+
+def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
+    """A web snapshot pins a page's response bytes and a selected range by hash; no text."""
+    require(
+        passage,
+        [
+            "id",
+            "source_id",
+            "locator",
+            "claim_locator_prefixes",
+            "source_url",
+            "retrieved_at",
+            "sha256",
+            "encoding",
+            "language",
+            "license",
+            "html_selector",
+            "text_sha256",
+        ],
+        path,
+    )
+    validate_claim_locator_prefixes(path, passage)
+    where = f"{path.relative_to(ROOT)}: {passage['id']}"
+    url = passage["source_url"]
+    if not isinstance(url, str) or not re.match(r"^https?://", url):
+        raise SourceEvidenceError(f"{where}: source_url must be an http(s) URL")
+    if not isinstance(passage["retrieved_at"], str) or not RETRIEVED_AT_RE.fullmatch(passage["retrieved_at"]):
+        raise SourceEvidenceError(f"{where}: retrieved_at must be a UTC timestamp YYYY-MM-DDTHH:MM:SSZ")
+    for field in ("sha256", "text_sha256"):
+        if not isinstance(passage[field], str) or not SHA256_RE.fullmatch(passage[field]):
+            raise SourceEvidenceError(f"{where}: {field} must be sha256:<64 hex digits>")
+    try:
+        codecs.lookup(passage["encoding"])
+    except (LookupError, TypeError) as exc:
+        raise SourceEvidenceError(f"{where}: unknown encoding {passage['encoding']!r}") from exc
+    validate_html_selector(where, passage["html_selector"])
+    translation = passage.get("translation")
+    if translation is not None:
+        if not isinstance(translation, dict):
+            raise SourceEvidenceError(f"{where}: translation must be an object")
+        missing = [field for field in ("translator", "year", "edition") if translation.get(field) in (None, "")]
+        if missing:
+            raise SourceEvidenceError(f"{where}: translation needs {', '.join(missing)}")
+    wayback = passage.get("wayback_url")
+    if wayback is not None:
+        match = WAYBACK_RE.fullmatch(wayback) if isinstance(wayback, str) else None
+        if not match or match.group(2) != url:
+            raise SourceEvidenceError(
+                f"{where}: wayback_url must be https://web.archive.org/web/<14-digit timestamp>id_/<source_url>"
+            )
+        if not isinstance(passage.get("wayback_sha256"), str) or not SHA256_RE.fullmatch(passage["wayback_sha256"]):
+            raise SourceEvidenceError(f"{where}: wayback_url needs wayback_sha256 of the archived bytes")
+    elif "wayback_sha256" in passage:
+        raise SourceEvidenceError(f"{where}: wayback_sha256 without wayback_url")
+    incipit = passage.get("incipit")
+    if incipit is not None and (not isinstance(incipit, str) or len(incipit) > MAX_INCIPIT_CHARS):
+        raise SourceEvidenceError(f"{where}: incipit must be a string of at most {MAX_INCIPIT_CHARS} characters")
+    if "text" in passage:
+        raise SourceEvidenceError(f"{where}: web snapshots must not commit page text")
+
+
 def validate_manifest(path: Path, passage: dict[str, Any]) -> None:
     if is_media_span(passage):
         validate_media_span_manifest(path, passage)
+        return
+    if is_web_snapshot(passage):
+        validate_web_snapshot_manifest(path, passage)
         return
     if passage.get("kind") not in (None, "text_witness"):
         raise SourceEvidenceError(
@@ -285,6 +395,71 @@ def validate_text_witness_source(
         )
 
 
+def validate_web_snapshot_source(
+    path: Path, passage: dict[str, Any], source: tuple[Path, dict[str, Any]]
+) -> None:
+    if source[1].get("kind") == "media_recording":
+        raise SourceEvidenceError(
+            f"{path.relative_to(ROOT)}: web snapshot {passage['id']} cannot cite a media_recording source"
+        )
+
+
+def prefixes_overlap(left: list[str], right: list[str]) -> bool:
+    return any(a.startswith(b) or b.startswith(a) for a in left for b in right)
+
+
+def validate_web_snapshot_ranges(passages: dict[str, tuple[Path, dict[str, Any]]]) -> None:
+    """A web snapshot may not cover a range that a pinned git text witness covers.
+
+    The immutable witness (for Aquinas, the Leonine Latin) is the evidence there;
+    a translation must not compete with or override its reading.
+    """
+    witnesses = [
+        passage
+        for _, passage in passages.values()
+        if not is_web_snapshot(passage) and not is_media_span(passage)
+    ]
+    for path, passage in passages.values():
+        if not is_web_snapshot(passage):
+            continue
+        for witness in witnesses:
+            if witness["source_id"] == passage["source_id"] and prefixes_overlap(
+                passage["claim_locator_prefixes"], witness["claim_locator_prefixes"]
+            ):
+                raise SourceEvidenceError(
+                    f"{path.relative_to(ROOT)}: web snapshot {passage['id']} overlaps pinned witness "
+                    f"{witness['id']}; cite the pinned witness (upgrade its claims) instead"
+                )
+
+
+def validate_claim_basis(
+    claims: list[tuple[Path, dict[str, Any]]], bound: dict[str, dict[str, Any]]
+) -> None:
+    """Claims on a translated web snapshot say so (basis: translation), and a
+    translation-based reading never stands as an alternative reading of a claim
+    read from an original-language witness."""
+    by_id = {claim["id"]: claim for _, claim in claims}
+    for path, claim in claims:
+        passage = bound[claim["id"]]
+        basis = claim.get("basis")
+        if is_translation(passage):
+            if basis != TRANSLATION_BASIS:
+                raise SourceEvidenceError(
+                    f"{path.relative_to(ROOT)}: claim on translated web snapshot {passage['id']} "
+                    f"needs basis: {TRANSLATION_BASIS!r}"
+                )
+        elif basis is not None:
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: basis {basis!r} is only for claims on a translated web snapshot"
+            )
+        parent = claim.get("interpretation_of")
+        if basis == TRANSLATION_BASIS and parent in by_id and not is_translation(bound[parent]):
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: a translation-based claim cannot be an alternative "
+                f"reading of {parent}, which is read from an original-language witness"
+            )
+
+
 def validate_bindings() -> tuple[int, int]:
     sources = index_records(load_json_dir("sources"), "source")
     passages = passage_index()
@@ -299,6 +474,8 @@ def validate_bindings() -> tuple[int, int]:
             )
         if is_media_span(passage):
             validate_media_span_source(path, passage, source)
+        elif is_web_snapshot(passage):
+            validate_web_snapshot_source(path, passage, source)
         else:
             validate_text_witness_source(path, passage, source)
         for prefix in passage["claim_locator_prefixes"]:
@@ -309,7 +486,9 @@ def validate_bindings() -> tuple[int, int]:
                     f"with passage {seen_prefixes[key]}"
                 )
             seen_prefixes[key] = passage["id"]
+    validate_web_snapshot_ranges(passages)
 
+    bound: dict[str, dict[str, Any]] = {}
     for path, claim in claims:
         require(claim, ["id", "source_id", "locator"], path)
         matches = [
@@ -324,6 +503,8 @@ def validate_bindings() -> tuple[int, int]:
                 f"{path.relative_to(ROOT)}: claim must resolve to exactly one source passage; "
                 f"matched {len(matches)} ({ids})"
             )
+        bound[claim["id"]] = matches[0]
+    validate_claim_basis(claims, bound)
 
     return len(passages), len(claims)
 
@@ -555,13 +736,283 @@ def media_span_text(segments: list[dict[str, Any]]) -> str:
     )
 
 
+# ---------------------------------------------------------------------------
+# Web snapshots: hash-pinned HTML pages (translations until a witness exists)
+# ---------------------------------------------------------------------------
+
+USER_AGENT = "truth-core-source-evidence/1"
+BLOCK_TAGS = frozenset(
+    "address article aside blockquote br center dd div dl dt figcaption figure footer form "
+    "h1 h2 h3 h4 h5 h6 header hr li main nav ol p pre section table tbody td tfoot th thead tr ul".split()
+)
+SKIPPED_TAGS = frozenset({"script", "style", "noscript", "template", "title"})
+VOID_TAGS = frozenset("area base br col embed hr img input link meta param source track wbr".split())
+HEADING_LEVELS = {f"h{level}": level for level in range(1, 7)}
+
+Token = tuple  # ("start", tag, attrs) | ("end", tag) | ("text", data)
+
+
+class HtmlTokens(html.parser.HTMLParser):
+    """Flat token stream of an HTML page, without script/style/title content."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.tokens: list[Token] = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in SKIPPED_TAGS:
+            self.skip_depth += 1
+        elif not self.skip_depth:
+            self.tokens.append(("start", tag, {key: value or "" for key, value in attrs}))
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in SKIPPED_TAGS:
+            self.skip_depth = max(0, self.skip_depth - 1)
+        elif not self.skip_depth:
+            self.tokens.append(("end", tag))
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip_depth:
+            self.tokens.append(("text", data))
+
+
+def html_tokens(text: str) -> list[Token]:
+    parser = HtmlTokens()
+    parser.feed(text)
+    parser.close()
+    return parser.tokens
+
+
+def normalize_space(text: str) -> str:
+    return " ".join(text.split())
+
+
+def html_lines(tokens: list[Token]) -> list[tuple[int, str]]:
+    """Text lines between block boundaries, each with the index of its first text token."""
+    lines: list[tuple[int, str]] = []
+    pieces: list[str] = []
+    first: int | None = None
+
+    def flush() -> None:
+        nonlocal first
+        line = normalize_space("".join(pieces))
+        if line and first is not None:
+            lines.append((first, line))
+        pieces.clear()
+        first = None
+
+    for index, token in enumerate(tokens):
+        if token[0] == "text":
+            if first is None and token[1].strip():
+                first = index
+            pieces.append(token[1])
+        elif token[1] in BLOCK_TAGS:
+            flush()
+    flush()
+    return lines
+
+
+def render_html_text(tokens: list[Token]) -> str:
+    return "\n".join(line for _, line in html_lines(tokens))
+
+
+def unique(matches: list[int], what: str, passage_id: str) -> int:
+    if len(matches) != 1:
+        raise SourceEvidenceError(f"{passage_id}: html_selector {what} matched {len(matches)} positions")
+    return matches[0]
+
+
+def marker_position(tokens: list[Token], marker: dict[str, str], passage_id: str) -> int:
+    kind, value = next(iter(marker.items()))
+    if kind == "anchor":
+        matches = [
+            index
+            for index, token in enumerate(tokens)
+            if token[0] == "start" and value in (token[2].get("id"), token[2].get("name"))
+        ]
+    else:
+        wanted = normalize_space(value)
+        matches = [index for index, line in html_lines(tokens) if line == wanted]
+    return unique(matches, f"{kind} {value!r}", passage_id)
+
+
+def element_end(tokens: list[Token], start: int) -> int:
+    """Index just past the end tag matching the start tag at `start`."""
+    tag = tokens[start][1]
+    if tag in VOID_TAGS:
+        return start + 1
+    depth = 0
+    for index in range(start, len(tokens)):
+        token = tokens[index]
+        if token[0] == "start" and token[1] == tag:
+            depth += 1
+        elif token[0] == "end" and token[1] == tag:
+            depth -= 1
+            if depth == 0:
+                return index + 1
+    return len(tokens)
+
+
+def select_html_range(tokens: list[Token], selector: dict[str, Any], passage_id: str) -> list[Token]:
+    if "element_id" in selector:
+        start = unique(
+            [
+                index
+                for index, token in enumerate(tokens)
+                if token[0] == "start" and token[2].get("id") == selector["element_id"]
+            ],
+            f"element_id {selector['element_id']!r}",
+            passage_id,
+        )
+        return tokens[start : element_end(tokens, start)]
+    if "heading" in selector:
+        wanted = normalize_space(selector["heading"])
+        headings = [
+            index
+            for index, token in enumerate(tokens)
+            if token[0] == "start" and token[1] in HEADING_LEVELS
+            and normalize_space(render_html_text(tokens[index : element_end(tokens, index)])) == wanted
+        ]
+        start = unique(headings, f"heading {selector['heading']!r}", passage_id)
+        level = HEADING_LEVELS[tokens[start][1]]
+        end = next(
+            (
+                index
+                for index in range(start + 1, len(tokens))
+                if tokens[index][0] == "start"
+                and tokens[index][1] in HEADING_LEVELS
+                and HEADING_LEVELS[tokens[index][1]] <= level
+            ),
+            len(tokens),
+        )
+        return tokens[start:end]
+    start = marker_position(tokens, selector["from"], passage_id)
+    end = len(tokens)
+    if "to" in selector:
+        end = marker_position(tokens, selector["to"], passage_id)
+        if end <= start:
+            raise SourceEvidenceError(f"{passage_id}: html_selector 'to' precedes 'from'")
+    return tokens[start:end]
+
+
+def extract_web_text(data: bytes, passage: dict[str, Any]) -> str:
+    """Decode the pinned bytes, select the range and normalize it to lines of text."""
+    try:
+        page = data.decode(passage["encoding"])
+    except UnicodeDecodeError as exc:
+        raise SourceEvidenceError(f"{passage['id']}: page is not valid {passage['encoding']}: {exc}") from exc
+    text = render_html_text(select_html_range(html_tokens(page), passage["html_selector"], passage["id"]))
+    if not text:
+        raise SourceEvidenceError(f"{passage['id']}: extracted passage text is empty")
+    return text
+
+
+def check_web_text(text: str, passage: dict[str, Any]) -> None:
+    actual = sha256_text(text)
+    if actual != passage["text_sha256"]:
+        raise SourceEvidenceError(
+            f"{passage['id']}: extracted text mismatch: expected {passage['text_sha256']}, got {actual} "
+            "(selector or extractor changed)"
+        )
+    incipit = passage.get("incipit")
+    if incipit and not text.startswith(incipit):
+        raise SourceEvidenceError(f"{passage['id']}: extracted text does not begin with the pinned incipit")
+
+
+def sha256_bytes(data: bytes) -> str:
+    return "sha256:" + hashlib.sha256(data).hexdigest()
+
+
+def download(url: str, label: str, *, attempts: int = 3) -> bytes:
+    """The response body with any gzip content coding removed; network errors are retried.
+
+    The pinned hash covers these bytes. A fixed User-Agent is sent because some
+    servers vary the page by client.
+    """
+    request = urllib.request.Request(
+        url, headers={"User-Agent": USER_AGENT, "Accept-Encoding": "identity"}
+    )
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                data = response.read()
+                if response.headers.get("Content-Encoding", "").lower() == "gzip":
+                    data = gzip.decompress(data)
+            return data
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_error = exc
+            if attempt + 1 < attempts:
+                time.sleep(1 + attempt)
+    raise SourceEvidenceError(f"{label}: cannot fetch {url}: {last_error}")
+
+
+def fetch_web_bytes(url: str, expected: str, label: str) -> bytes:
+    """Fetch a page body and reject byte drift."""
+    data = download(url, label)
+    actual = sha256_bytes(data)
+    if actual != expected:
+        raise SourceEvidenceError(f"{label}: byte drift at {url}: expected {expected}, got {actual}")
+    return data
+
+
+def web_cache_path(sha256: str) -> Path:
+    return WEB_CACHE / f"{sha256[7:]}.html"
+
+
+def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fetch=fetch_web_bytes) -> bytes:
+    """Return the pinned page bytes: a hash-checked local cache, the live URL, or
+    the fixed-timestamp Wayback capture when the live page drifted or is unreachable."""
+    for expected in filter(None, (passage["sha256"], passage.get("wayback_sha256"))):
+        cached = web_cache_path(expected)
+        if use_cache and cached.is_file() and sha256_bytes(cached.read_bytes()) == expected:
+            return cached.read_bytes()
+    try:
+        data = fetch(passage["source_url"], passage["sha256"], passage["id"])
+    except SourceEvidenceError as live_error:
+        if not passage.get("wayback_url"):
+            raise
+        try:
+            data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
+        except SourceEvidenceError as archive_error:
+            raise SourceEvidenceError(f"{live_error}; Wayback fallback failed: {archive_error}") from archive_error
+        print(f"note: {live_error}; using the pinned Wayback capture", file=sys.stderr)
+        expected = passage["wayback_sha256"]
+    else:
+        expected = passage["sha256"]
+    WEB_CACHE.mkdir(parents=True, exist_ok=True)
+    web_cache_path(expected).write_bytes(data)
+    return data
+
+
+def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fetch=fetch_web_bytes) -> str:
+    text = extract_web_text(resolve_web_snapshot(passage, use_cache=use_cache, fetch=fetch), passage)
+    check_web_text(text, passage)
+    return text
+
+
 def verify_all(export_path: Path | None = None) -> int:
     passages = passage_index()
     validate_bindings()
     snapshots: dict[tuple[str, str, str, str], dict[str, Any]] = {}
     media_verified = 0
     media_skipped = []
+    web_verified = 0
+    fetched: dict[tuple[str, str], bytes] = {}
+
+    def fetch_once(url: str, expected: str, label: str) -> bytes:
+        if (url, expected) not in fetched:
+            fetched[(url, expected)] = fetch_web_bytes(url, expected, label)
+        return fetched[(url, expected)]
+
     for _, passage in passages.values():
+        if is_web_snapshot(passage):
+            # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
+            materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
+            web_verified += 1
+            print(f"verified web snapshot {passage['id']} ({passage['sha256'][7:19]})")
+            continue
         if is_media_span(passage):
             cached = media_export_cache_path()
             if export_path is None and not cached.is_file():
@@ -593,7 +1044,7 @@ def verify_all(export_path: Path | None = None) -> int:
         )
     print(
         f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots, "
-        f"{media_verified} media spans verified"
+        f"{media_verified} media spans verified, {web_verified} web snapshot passages verified"
     )
     return 0
 
@@ -698,6 +1149,10 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
                 file=sys.stderr,
             )
         text = media_span_text(segments)
+    elif is_web_snapshot(passage):
+        if export:
+            raise SourceEvidenceError(f"{passage_id}: --export applies only to media spans")
+        text = materialize_web_snapshot(passage)
     else:
         if export:
             raise SourceEvidenceError(f"{passage_id}: --export applies only to media spans")
@@ -718,6 +1173,33 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
     return 0
 
 
+def web_hashes(url: str, encoding: str, selector: str, wayback: str | None) -> int:
+    """Print the pinning fields for a new web snapshot passage (authoring aid).
+
+    Fetches the page once, so the printed sha256 is whatever the server sends now:
+    fetch twice before pinning to make sure the page is byte-stable.
+    """
+    probe = {"id": "web-hashes", "encoding": encoding, "html_selector": json.loads(selector)}
+    validate_html_selector("web-hashes", probe["html_selector"])
+    data = download(url, "web-hashes")
+    text = extract_web_text(data, probe)
+    result: dict[str, Any] = {
+        "source_url": url,
+        "retrieved_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "sha256": sha256_bytes(data),
+        "text_sha256": sha256_text(text),
+        "incipit": text[:MAX_INCIPIT_CHARS].rsplit(" ", 1)[0],
+        "characters": len(text),
+    }
+    if wayback:
+        archived = download(wayback, "web-hashes")
+        result["wayback_url"] = wayback
+        result["wayback_sha256"] = sha256_bytes(archived)
+        result["wayback_text_matches"] = sha256_text(extract_web_text(archived, probe)) == result["text_sha256"]
+    print(json.dumps(result, indent=2, ensure_ascii=False))
+    return 0
+
+
 def check() -> int:
     passage_count, claim_count = validate_bindings()
     print(
@@ -735,7 +1217,10 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("check", help="validate passage manifests and claim bindings without network access")
     verify_parser = sub.add_parser(
         "verify",
-        help="fetch and hash-check all immutable source snapshots; media spans only from a local export",
+        help=(
+            "fetch and hash-check all immutable source snapshots and web snapshots; "
+            "media spans only from a local export"
+        ),
     )
     verify_parser.add_argument("--export", help="youtube-corpus source-span export for media spans")
     materialize_parser = sub.add_parser(
@@ -746,6 +1231,15 @@ def parser() -> argparse.ArgumentParser:
     materialize_parser.add_argument(
         "--export", help="youtube-corpus source-span export to read a media span from"
     )
+    hashes_parser = sub.add_parser(
+        "web-hashes", help="fetch a page and print the pinning fields of a web snapshot passage"
+    )
+    hashes_parser.add_argument("url")
+    hashes_parser.add_argument("--encoding", required=True, help="the page's character encoding")
+    hashes_parser.add_argument(
+        "--selector", required=True, help='html_selector as JSON, e.g. \'{"heading": "Article 5"}\''
+    )
+    hashes_parser.add_argument("--wayback", help="a https://web.archive.org/web/<timestamp>id_/<url> capture")
     return result
 
 
@@ -758,6 +1252,8 @@ def main() -> int:
             return verify_all(Path(args.export) if args.export else None)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
+        if args.command == "web-hashes":
+            return web_hashes(args.url, args.encoding, args.selector, args.wayback)
         raise AssertionError(f"unexpected command {args.command}")
     except SourceEvidenceError as exc:
         print(f"source evidence error: {exc}", file=sys.stderr)

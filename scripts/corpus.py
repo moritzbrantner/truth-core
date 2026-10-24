@@ -118,6 +118,9 @@ def validate_argument_derivation(
 ALTERNATIVE_PREDICATE = "alternative_to"
 REFUTES_PREDICATE = "refutes"
 ATTACKS_PREDICATE = "attacks"
+# Source evidence bearing on a premise (claim → statement). It records where the
+# premise is defended from a text; it is not an inference and closes nothing.
+SUPPORTS_PREDICATE = "supports"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
 
 
@@ -149,6 +152,7 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
         ALTERNATIVE_PREDICATE: ({"statement"}, "statement"),
         REFUTES_PREDICATE: ({"argument"}, "statement"),
         ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
+        SUPPORTS_PREDICATE: ({"claim"}, "statement"),
     }.get(predicate)
     if expected is None:
         return
@@ -200,6 +204,7 @@ def frontier_report(
     alternatives: dict[str, set[str]] = {}
     refuted: set[str] = set()
     objections: dict[str, set[str]] = {}
+    support: dict[str, set[str]] = {}
     for relation in relations:
         predicate = relation.get("predicate")
         if predicate == ALTERNATIVE_PREDICATE:
@@ -210,6 +215,8 @@ def frontier_report(
             objections.setdefault(relation["object_id"], set()).add(
                 f"{relation['subject_kind']}:{relation['subject_id']}"
             )
+        elif predicate == SUPPORTS_PREDICATE:
+            support.setdefault(relation["object_id"], set()).add(relation["subject_id"])
 
     def upward(statement_id: str) -> tuple[list[str], list[str], list[str] | None]:
         """Breadth-first walk from a premise through the arguments that use it.
@@ -271,6 +278,7 @@ def frontier_report(
                     for alternative in recorded
                 ],
                 "objections": sorted(objections.get(statement_id, ())),
+                "supporting_claims": sorted(support.get(statement_id, ())),
             }
         )
     items.sort(
@@ -540,6 +548,8 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append("  alternatives: none recorded")
         objections = item["objections"]
         lines.append(f"  objections: {', '.join(objections) if objections else 'none recorded'}")
+        if item.get("supporting_claims"):
+            lines.append("  supporting source claims: " + ", ".join(item["supporting_claims"]))
         if item.get("transcription_premise_of"):
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
