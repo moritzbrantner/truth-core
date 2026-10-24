@@ -84,6 +84,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Quint
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
@@ -105,6 +106,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
@@ -118,6 +120,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaGovernorIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
@@ -230,9 +233,11 @@ import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
+import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
 import TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity.Solution
 import TruthCore.Results.Comparison.MoralLanguage.FregeGeachRefutesNaiveEmotivism.Solution

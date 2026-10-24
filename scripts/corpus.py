@@ -121,6 +121,11 @@ ATTACKS_PREDICATE = "attacks"
 # Source evidence bearing on a premise (claim → statement). It records where the
 # premise is defended from a text; it is not an inference and closes nothing.
 SUPPORTS_PREDICATE = "supports"
+# Designated route (argument → statement; owner decision on #143, 2026-10-24):
+# when a statement has root_route relations, `frontier` walks up into it only
+# through the designated arguments, so premises of other arguments for the same
+# conclusion do not reach the root through it.
+ROOT_ROUTE_PREDICATE = "root_route"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
 # Depth of an open premise (#143, 2026-10-24): "bare" when no claim states it
 # and no `supports` relation points to it; otherwise "sourced" (sourced but not
@@ -158,6 +163,7 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
         REFUTES_PREDICATE: ({"argument"}, "statement"),
         ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
         SUPPORTS_PREDICATE: ({"claim"}, "statement"),
+        ROOT_ROUTE_PREDICATE: ({"argument"}, "statement"),
     }.get(predicate)
     if expected is None:
         return
@@ -217,6 +223,7 @@ def frontier_report(
     refuted: set[str] = set()
     objections: dict[str, set[str]] = {}
     support: dict[str, set[str]] = {}
+    routes: dict[str, set[str]] = {}
     for relation in relations:
         predicate = relation.get("predicate")
         if predicate == ALTERNATIVE_PREDICATE:
@@ -229,6 +236,8 @@ def frontier_report(
             )
         elif predicate == SUPPORTS_PREDICATE:
             support.setdefault(relation["object_id"], set()).add(relation["subject_id"])
+        elif predicate == ROOT_ROUTE_PREDICATE:
+            routes.setdefault(relation["object_id"], set()).add(relation["subject_id"])
 
     def upward(statement_id: str) -> tuple[list[str], list[str], list[str] | None]:
         """Breadth-first walk from a premise through the arguments that use it.
@@ -251,6 +260,10 @@ def frontier_report(
                 if argument_id not in visited_arguments:
                     visited_arguments.add(argument_id)
                     seen_arguments.append(argument_id)
+                # root_route: a routed conclusion is entered only through its
+                # designated arguments.
+                if conclusion in routes and argument_id not in routes[conclusion]:
+                    continue
                 if conclusion not in visited_statements:
                     visited_statements.add(conclusion)
                     parent[conclusion] = (argument_id, current)
@@ -884,10 +897,21 @@ def validate() -> dict[str, int]:
         for path in sorted((ROOT / "TruthCore").rglob("*.lean"))
     )
 
+    declared_by: dict[str, str] = {}
     for path, statement in statements:
         require(statement, ["id", "paraphrase"], path)
-        if "lean_declaration" in statement:
-            lean_tail_exists(path, statement["lean_declaration"], all_lean)
+        declaration = statement.get("lean_declaration")
+        if declaration is not None:
+            lean_tail_exists(path, declaration, all_lean)
+            # Unique statement identity (owner decision on #143, 2026-10-24):
+            # bind-check matches statements by head constant, so one Lean
+            # declaration must name exactly one statement ID.
+            other = declared_by.setdefault(declaration, statement["id"])
+            if other != statement["id"]:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: lean_declaration {declaration} is already "
+                    f"the declaration of statement {other}; each statement needs its own"
+                )
         validate_self_evident(path, statement, claim_ids, result_ids)
         used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
 
@@ -1005,6 +1029,13 @@ def validate() -> dict[str, int]:
                     f"{path.relative_to(ROOT)}: unknown {side} {kind} id {entity_id}"
                 )
         validate_premise_program_relation(path, relation)
+        if relation["predicate"] == ROOT_ROUTE_PREDICATE:
+            routed = argument_index[relation["subject_id"]][1]["conclusion_statement_id"]
+            if routed != relation["object_id"]:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: root_route argument {relation['subject_id']} "
+                    f"concludes {routed}, not {relation['object_id']}"
+                )
 
     for path, candidate in candidates:
         require(
