@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.actsForAnEnd",
+  "comparator_config": "results/AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-QUINTA-VIA-SCOPE-PREMISES",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.103",
+  "priority": 330,
+  "goal": "Defend the two scope premises of AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR. (1) STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST (ad 2) compresses a regress of directors into one step and reads the first principle as intelligent; formalize the regress explicitly (directors directed by higher directors, no infinite per se series, as in the prima via) once ST I q.103 a.1-a.6 (governance by one, through intermediaries) is pinned. (2) STMT-DIRECTING-IS-MOVING rests only on the arrow simile; q.103 a.5-a.8 should source governance as moving things to their end. Also: the first mover being intelligent bears on stage 2 (intellect, ST I q.14; SCG I.44), a link left open here.",
+  "reason": "Both premises are sourced to q.2 a.3 but load-bearing for the scope step; each is shown necessary by a countermodel (withoutReduction, withoutDirectingIsMoving).",
+  "status": "candidate"
+}

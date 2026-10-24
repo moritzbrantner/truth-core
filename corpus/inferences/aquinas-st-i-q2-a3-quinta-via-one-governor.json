@@ -1,0 +1,18 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "input_statement_ids": [
+    "STMT-NATURAL-BODIES-LACK-COGNITION",
+    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
+    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
+    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
+    "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+    "STMT-DIRECTING-IS-MOVING",
+    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER"
+  ],
+  "output_statement_id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
+  "rule": "existential-uniqueness",
+  "meaning": "Each body's director reduces (ad 2) to an intelligent director moved by none, which moves what it directs and so is a first unmoved mover; there is a natural body, so such a mover exists; by stage-1 uniqueness every body's first director is that one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.oneGovernor",
+  "comparator_config": "results/AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR/comparator.json",
+  "status": "solution-present"
+}

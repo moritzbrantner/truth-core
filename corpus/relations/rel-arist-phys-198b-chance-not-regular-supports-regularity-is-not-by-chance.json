@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-PHYS-198B-CHANCE-NOT-REGULAR-SUPPORTS-REGULARITY-IS-NOT-BY-CHANCE",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-198B-CHANCE-NOT-REGULAR-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-REGULARITY-IS-NOT-BY-CHANCE",
+  "note": "Aristotle: chance and spontaneity explain exceptions, not the regular natural pattern. The same thesis, stated for the natural pattern rather than for every regular attainment."
+}

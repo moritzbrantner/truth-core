@@ -1,0 +1,10 @@
+{
+  "id": "DARWIN-AUTOBIOGRAPHY",
+  "kind": "primary_text",
+  "author": "Charles Darwin",
+  "work": "Recollections of the Development of my Mind and Character (the Autobiography), written 1876-1881; complete text ed. Nora Barlow, London: Collins, 1958",
+  "citation_system": "section heading and page of the Barlow edition (1958)",
+  "work_urn": "urn:isbn:9780393003871",
+  "catalog_url": "https://darwin-online.org.uk/",
+  "notes": "Bibliographic identity only: no passage witness is pinned yet. The Project Gutenberg ebook 2010 is the 1887 abridgement by Francis Darwin, which omits the passage on the argument of design; the Barlow restoration is in copyright. Do not cite claims from it until a witness is pinned (candidate NATURALISTIC-TELEONOMY-RIVAL). It stands for the naturalistic-teleonomy alternative to the quinta via, recorded as STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY without a claim, per AGENTS.md invariant 18."
+}
