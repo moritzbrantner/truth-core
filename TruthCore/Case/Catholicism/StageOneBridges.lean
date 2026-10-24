@@ -40,8 +40,10 @@ def FirstUnmovedMoverHasEveryPerfection {Being : Sort v} {Respect : Sort w}
 
 /-- Any two first movers moved by none are either the same or distinct. An
 instance of excluded middle, like `FirstUnmovedMoverExistsOrNot`, stated as an
-explicit premise rather than taken as an axiom (candidate
-`ARIST-MET-IV-7-EXCLUDED-MIDDLE`). It lets the reductio of ST I q.11 a.3 conclude
+explicit premise rather than taken as an axiom. An instance of
+`TruthCore.Logic.ExcludedMiddle` (result
+`CATHOLICISM-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT-FROM-EM`), marked
+`self_evident` as such in #167. It lets the reductio of ST I q.11 a.3 conclude
 a plain identity. -/
 def FirstUnmovedMoversIdenticalOrDistinct {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)

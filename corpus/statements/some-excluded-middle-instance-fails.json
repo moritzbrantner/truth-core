@@ -1,0 +1,1 @@
+{"id":"STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS","paraphrase":"Denial of excluded middle: for some proposition p, neither p nor ¬p holds (something lies between the two sides of a contradiction).","lean_declaration":"TruthCore.Logic.SomeExcludedMiddleInstanceFails"}

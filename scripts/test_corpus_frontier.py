@@ -199,6 +199,24 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)
         self.assertTrue(all(item["path_to_root"][-1] == "STMT-CATHOLICISM-TRUE" for item in report["items"]))
 
+    def test_excluded_middle_instances_are_closed(self) -> None:
+        # #167: both root-path instances are closed through the self-evident
+        # general principle; their instantiation results stay transcriptions.
+        report = json.loads(self.run_frontier("--json"))
+        ids = {item["statement_id"] for item in report["items"]}
+        for statement_id in (
+            "STMT-EXCLUDED-MIDDLE",
+            "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
+            "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT",
+        ):
+            self.assertNotIn(statement_id, ids)
+        self.assertTrue(report["alternatives_recorded"])
+        single = {
+            flag["result_id"] for flag in report["transcription_flags"] if flag["single_application_of"]
+        }
+        self.assertIn("CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM", single)
+        self.assertNotIn("LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE", single)
+
     def test_text_output_is_stable(self) -> None:
         self.assertEqual(self.run_frontier(), self.run_frontier())
 
