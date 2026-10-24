@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Logic.QuantifierShiftInvalid.Challenge", "solution_module": "TruthCore.Results.Logic.QuantifierShiftInvalid.Solution", "theorem_names": ["TruthCore.Results.Logic.QuantifierShiftInvalid.quantifierShiftInvalid"], "permitted_axioms": [], "enable_nanoda": true}

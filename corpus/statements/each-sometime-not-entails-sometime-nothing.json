@@ -1,0 +1,1 @@
+{"id": "STMT-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING", "paraphrase": "The naive temporal quantifier shift as a logical principle: whenever each being is at some time not, there is a time at which no being is.", "lean_declaration": "TruthCore.Logic.EachSometimeNotEntailsSometimeNothing"}
