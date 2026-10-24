@@ -217,3 +217,6 @@ import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSe.Solution
+import TruthCore.Case.Catholicism.StageOneConvergence
+import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaGovernorIsMaximeEns.Solution

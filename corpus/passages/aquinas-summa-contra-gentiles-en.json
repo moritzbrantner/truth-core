@@ -35,6 +35,23 @@
       "incipit": "Chapter 13\nARGUMENTS IN PROOF OF THE EXISTENCE OF GOD"
     },
     {
+      "id": "AQUINAS-SCG-I-15-EN",
+      "locator": "I.15",
+      "claim_locator_prefixes": [
+        "I.15 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "15"
+        },
+        "to": {
+          "anchor": "16"
+        }
+      },
+      "text_sha256": "sha256:19f47f7fe2daa6833087a812cc9b76cea69bf5490537e86144a38df5ca124253",
+      "incipit": "Chapter 15\nTHAT GOD IS ETERNAL"
+    },
+    {
       "id": "AQUINAS-SCG-I-16-EN",
       "locator": "I.16",
       "claim_locator_prefixes": [
