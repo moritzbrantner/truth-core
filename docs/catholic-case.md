@@ -50,7 +50,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 
 ## Working method
 
-- **One coordinator plus background workers**, one git worktree per worker, created from `origin/main`.
+- **One coordinator plus one worker for this repository**, working on a task branch from `origin/main` in the normal checkout. No git worktrees (owner rule since 2026-10-22). Each issue gets a fresh worker.
   - Each worker gets a self-contained brief: issue, invariants, checks, process.
   - The coordinator relays owner decisions and records them on #143.
 - **CI.** GitHub Actions do not start on this private repo (billing). Run every job in `.github/workflows/ci.yml` locally and post "local CI run for <sha>: …" on the PR. A green local run counts as the check.
@@ -63,6 +63,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
   - Install `elan` (toolchain from `lean-toolchain`), Go, Bun and Python 3.
   - Run `scripts/bootstrap-verifier.sh`, which builds the Comparator, lean4export, landrun and NanoDa into `~/.cache/truth-core-verifier`.
   - Media spans also need a youtube-corpus export (see `docs/source-evidence.md`).
+  - Bun's `globalStore = true` (in `~/.bunfig.toml`) breaks the explorer's lint and `next build` with missing-module errors. For local CI, install with a `HOME` that has no such bunfig.
 
 ## Owner to-dos
 
