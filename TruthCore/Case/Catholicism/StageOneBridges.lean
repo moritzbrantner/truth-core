@@ -11,7 +11,8 @@ essendi*); turning them into statements about the *prima via*'s mover is exactly
 the identification still to be argued.
 #147 argues that identification through the *quarta via*
 (`TruthCore.Case.Catholicism.FirstUnmovedMoverIsMaximeEns`), which derives the
-first-being bridge and a weaker form of the every-perfection bridge.
+first-being bridge and a weaker form of the every-perfection bridge from sourced
+premises and two narrower open ones.
 
 `PriorSimply` is the simple priority of ST I q.3 a.1
 (`TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading`).
@@ -27,8 +28,9 @@ universe v w
 simply prior to it. Not entailed by the *prima via*: see
 `TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.firstWayDoesNotYieldPureAct`.
 Derived through the *quarta via* (#147) in result
-`AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING`, from sourced premises that
-include ST I q.105 a.5 (translation basis) and *Metaphysics* II.1. -/
+`AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING`, which relocates the gap into two
+narrower open premises in `StageOneQuartaVia`: `MaximeEnsIsGod` and
+`SimplyPriorIsCauseOfBeing`. -/
 def FirstUnmovedMoverIsFirstBeing {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)

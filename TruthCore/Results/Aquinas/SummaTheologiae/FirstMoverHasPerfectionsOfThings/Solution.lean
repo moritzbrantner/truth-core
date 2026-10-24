@@ -4,7 +4,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverHasEveryPerfectionOfThings
-  FirstUnmovedMoverHasEveryPerfection IsFirstUnmovedMover)
+  FirstUnmovedMoverHasEveryPerfection IsFirstUnmovedMover MaximeEnsIsGod)
 
 /-- ST I q.4 a.2 co., first proof, for the *prima via*'s mover. Every first mover
 moved by none is the maximal being `m` of the *quarta via*. Whatever perfection
@@ -17,14 +17,15 @@ theorem firstMoverHasPerfectionsOfThings {Being : Type} {Respect : Type}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)
     (CausesIn : Being → Being → Respect → Prop)
-    (bonum verum nobile esse : Respect)
+    (bonum verum nobile esse : Respect) (God : Being → Prop)
     (hGrades : GradesFoundInThingsReading MoreIn bonum verum nobile)
     (hApproach : GradesByApproachToAMaximumReading InAct MoreIn)
     (hTrue : MostTrueIsMostBeingReading InAct MoreIn verum esse)
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hInAct : MovesOnlyAsInActReading MovesIn InAct)
     (hBeing : ActualityOnlyInsofarAsBeingReading InAct esse)
-    (hApplied : CausedAgentIsMovedToActReading MovedIn MovesIn InAct CausesIn esse)
+    (hGod : MaximeEnsIsGod InAct MoreIn esse God)
+    (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God)
     (hPreexist : PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse)
     (hEM : TruthCore.Logic.ExcludedMiddle) :
     FirstUnmovedMoverHasEveryPerfectionOfThings MovedIn MovesIn InAct := by
@@ -33,7 +34,7 @@ theorem firstMoverHasPerfectionsOfThings {Being : Type} {Respect : Type}
     nobile esse hGrades hApproach hTrue hGenus
   -- INF-AQUINAS-FIRST-MOVER-IS-MAXIME-ENS (result AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS)
   have hIdent := FirstMoverIsMaximeEns.firstMoverIsMaximeEns MovedIn MovesIn InAct
-    MoreIn CausesIn esse hGenus hInAct hBeing hApplied hEM
+    MoreIn CausesIn esse God hGenus hInAct hBeing hGod hApplied hEM
   -- INF-AQUINAS-ST-I-Q4-A2-FIRST-MOVER-HAS-PERFECTIONS-OF-THINGS: m has every
   -- perfection found in things
   have hMaxPerfect : ∀ x r, InAct x r → InAct m r := by
@@ -103,6 +104,10 @@ def priorSimply : B → B → Prop
   | .x, .m => False
   | .x, .x => False
 
+def isM : B → Prop
+  | .m => True
+  | .x => False
+
 def causesIn : B → B → R → Prop
   | .m, .m, .esse => True
   | .m, .m, .heat => True
@@ -133,7 +138,7 @@ theorem everyRespectNotDerived :
       (MovesAsMoved PriorSimply : Being → Being → Prop)
       (MoreIn : Respect → Being → Being → Prop)
       (CausesIn : Being → Being → Respect → Prop)
-      (bonum verum nobile esse : Respect),
+      (bonum verum nobile esse : Respect) (God : Being → Prop),
       SomethingIsMovedReading MovedIn →
       MovedOnlyAsInPotencyReading MovedIn InPotency →
       MovesOnlyAsInActReading MovesIn InAct →
@@ -147,14 +152,15 @@ theorem everyRespectNotDerived :
       MostTrueIsMostBeingReading InAct MoreIn verum esse →
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn →
       ActualityOnlyInsofarAsBeingReading InAct esse →
-      CausedAgentIsMovedToActReading MovedIn MovesIn InAct CausesIn esse →
+      MaximeEnsIsGod InAct MoreIn esse God →
+      CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God →
       PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse →
       (∀ a b : Being, a = b ∨ a ≠ b) →
       FirstUnmovedMoverHasEveryPerfection MovedIn MovesIn InAct := by
   open Unhad in
   intro h
   have hB := h B R inPotency movesIn inPotency inAct (fun _ _ => False) priorSimply
-    moreIn causesIn .esse .esse .esse .esse
+    moreIn causesIn .esse .esse .esse .esse isM
     ⟨.x, .heat, trivial⟩
     (fun _ _ hm => hm)
     (by intro a b r hm; cases a <;> cases b <;> cases r <;> first | exact True.intro | exact False.elim hm)
@@ -190,12 +196,17 @@ theorem everyRespectNotDerived :
         · exact False.elim hb)
     (by intro b r hb; cases b <;> cases r <;> first | exact True.intro | exact False.elim hb)
     (by
-      intro c a _ hne hc ⟨t, r, hm⟩
-      cases a
-      · cases c
+      intro b ⟨hb, hNo⟩
+      cases b
+      · exact True.intro
+      · exact hNo .m True.intro)
+    (by
+      intro g a hg hne _ ⟨t, r, hm⟩
+      cases g
+      · cases a
         · exact (hne rfl).elim
-        · exact False.elim hc
-      · cases t <;> cases r <;> exact False.elim hm)
+        · cases t <;> cases r <;> exact False.elim hm
+      · exact False.elim hg)
     (by
       intro c a r hc ha
       cases c

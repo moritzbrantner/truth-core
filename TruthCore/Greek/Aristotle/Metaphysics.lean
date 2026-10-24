@@ -66,31 +66,29 @@ def BeingQuaBeingInquiryDistributiveReading
             StudiesAttribute inquiry property
 
 /--
-Cause-is-more reading of Aristotle, *Metaphysics* II.1, 993b24-31: each thing is
-most such, compared with the others, when the synonymous quality belongs to the
-others in virtue of it (fire is hottest, being the cause of heat to the others), so
-that what is the cause of the posterior things' being true is most true; the
-principles of the eternal beings are cause of being to the others, and as each
-thing stands to being, so it stands to truth.
+Cause-is-most-such reading of Aristotle, *Metaphysics* II.1, 993b24-27: each
+thing is most such, compared with the others, when the synonymous quality belongs
+to the others in virtue of it (fire is hottest, being the cause of heat to the
+others), so that what is the cause of the posterior things' being true is most
+true.
 
-Read for being: what is prior as a cause of being to a posterior thing is more in
-being than it. `PriorAsCause y x` is that priority (`x` depends for its being on
-`y`); `MoreIn being y x` says that `y` is more a being than `x`. The vocabulary is
-supplied, so the reading does not fix whether the comparative is a measure.
-
-Aquinas applies the same chapter in the fourth way (ST I q.2 a.3 co.); the
-statement is used with Aquinas' simple priority of ST I q.3 a.1 for
-`PriorAsCause`, an identification argued in the claim, not by this declaration.
+Read per quality: whatever causes the quality `r` in another thing is more `r`
+than that thing. `CausesIn y x r` says that `y` is the cause of `x`'s being `r`;
+`MoreIn r y x` says that `y` is more `r` than `x`. The quality is the same on both
+sides (*synonymous*); the reading supplies no step from causing one quality to
+being more in another. Read for `r = being` it says that a cause of another's
+being is more a being than it (993b28-31: the principles of the eternal beings
+are cause of being to the others, and as each thing stands to being, so to
+truth).
 
 Source: Aristotle, *Metaphysics* II.1, 993b24-31 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
 -/
-def PriorAsCauseIsMoreInBeingReading
+def CauseOfQualityInAnotherIsMoreSuchReading
     {Entity : Sort u}
     {Respect : Sort v}
-    (PriorAsCause : Entity → Entity → Prop)
-    (MoreIn : Respect → Entity → Entity → Prop)
-    (being : Respect) : Prop :=
-  ∀ y x, PriorAsCause y x → MoreIn being y x
+    (CausesIn : Entity → Entity → Respect → Prop)
+    (MoreIn : Respect → Entity → Entity → Prop) : Prop :=
+  ∀ y x r, y ≠ x → CausesIn y x r → MoreIn r y x
 
 end TruthCore.Greek.Aristotle.Metaphysics

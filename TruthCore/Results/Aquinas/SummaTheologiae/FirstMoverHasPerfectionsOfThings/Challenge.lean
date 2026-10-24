@@ -4,7 +4,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverHasEveryPerfectionOfThings
-  FirstUnmovedMoverHasEveryPerfection IsFirstUnmovedMover)
+  FirstUnmovedMoverHasEveryPerfection IsFirstUnmovedMover MaximeEnsIsGod)
 
 /-- ST I q.4 a.2 co., first proof, for the *prima via*'s mover. Every first mover
 moved by none is the maximal being `m` of the *quarta via*. Whatever perfection
@@ -17,14 +17,15 @@ theorem firstMoverHasPerfectionsOfThings {Being : Type} {Respect : Type}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)
     (CausesIn : Being → Being → Respect → Prop)
-    (bonum verum nobile esse : Respect)
+    (bonum verum nobile esse : Respect) (God : Being → Prop)
     (hGrades : GradesFoundInThingsReading MoreIn bonum verum nobile)
     (hApproach : GradesByApproachToAMaximumReading InAct MoreIn)
     (hTrue : MostTrueIsMostBeingReading InAct MoreIn verum esse)
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hInAct : MovesOnlyAsInActReading MovesIn InAct)
     (hBeing : ActualityOnlyInsofarAsBeingReading InAct esse)
-    (hApplied : CausedAgentIsMovedToActReading MovedIn MovesIn InAct CausesIn esse)
+    (hGod : MaximeEnsIsGod InAct MoreIn esse God)
+    (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God)
     (hPreexist : PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse)
     (hEM : TruthCore.Logic.ExcludedMiddle) :
     FirstUnmovedMoverHasEveryPerfectionOfThings MovedIn MovesIn InAct := by
@@ -44,7 +45,7 @@ theorem everyRespectNotDerived :
       (MovesAsMoved PriorSimply : Being → Being → Prop)
       (MoreIn : Respect → Being → Being → Prop)
       (CausesIn : Being → Being → Respect → Prop)
-      (bonum verum nobile esse : Respect),
+      (bonum verum nobile esse : Respect) (God : Being → Prop),
       SomethingIsMovedReading MovedIn →
       MovedOnlyAsInPotencyReading MovedIn InPotency →
       MovesOnlyAsInActReading MovesIn InAct →
@@ -58,7 +59,8 @@ theorem everyRespectNotDerived :
       MostTrueIsMostBeingReading InAct MoreIn verum esse →
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn →
       ActualityOnlyInsofarAsBeingReading InAct esse →
-      CausedAgentIsMovedToActReading MovedIn MovesIn InAct CausesIn esse →
+      MaximeEnsIsGod InAct MoreIn esse God →
+      CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God →
       PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse →
       (∀ a b : Being, a = b ∨ a ≠ b) →
       FirstUnmovedMoverHasEveryPerfection MovedIn MovesIn InAct := by
