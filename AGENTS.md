@@ -32,7 +32,7 @@ This repository grows one small source reading or argument at a time. Keep the c
 18. **Source kinds are frozen.** After `media_span` (#152) and `web_snapshot` (#154), add no new source kind without an owner decision. When a witness cannot be pinned, keep the claim as a candidate marked as waiting for a witness, and continue the reasoning with its statement as an explicit open premise. Sourcing must not block reasoning, and reasoning must not fake sourcing.
 19. **truth-core is self-sufficient.** Do not add runtime or CI dependencies on other repositories (historical-source-atlas, worldview-lab, solver services, …). Use one only for a concrete node that is blocked without it, and pin it like a source.
 
-See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and verification boundaries.
+See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and verification boundaries. For the campaign to formalize the case for Catholicism (epic #143), including the owner's binding principles and the working method, read `docs/catholic-case.md` first.
 
 ## Outer systematic loop
 
