@@ -220,3 +220,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSe.Solutio
 import TruthCore.Case.Catholicism.StageOneConvergence
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaGovernorIsMaximeEns.Solution
+import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+import TruthCore.Refutations.TertiaVia
+import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
