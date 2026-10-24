@@ -49,12 +49,12 @@ structure Sig where
 
 /-- The shared data of the question, as one flat conjunction so that
 `bind-check` binds each conjunct to its statement: a free-standing moral
-assertion expresses an attitude; the antecedent occurrence of `p` expresses
-none; validity requires constant meaning (the Frege point); Geach's modus
+assertion expresses an attitude; the antecedent occurrence of `p` does not
+express the attitude it expresses free-standing; validity requires constant meaning (the Frege point); Geach's modus
 ponens is valid; its minor premise is moral. -/
 def SharedData (s : Sig) : Prop :=
   FreeMoralAssertionExpressesAttitudeReading s.Moral s.Expresses s.free ∧
-    AntecedentExpressesNoAttitudeReading s.Expresses s.antecedent s.p ∧
+    AntecedentLacksFreeStandingAttitudeReading s.Expresses s.free s.antecedent s.p ∧
     ValidityRequiresConstantMeaningReading s.ValidMP s.meaning s.free s.antecedent ∧
     GeachModusPonensValidReading s.ValidMP s.p s.q ∧
     GeachMinorPremiseIsMoralReading s.Moral s.p

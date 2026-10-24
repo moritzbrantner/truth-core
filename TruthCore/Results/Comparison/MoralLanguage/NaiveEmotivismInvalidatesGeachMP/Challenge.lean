@@ -8,7 +8,7 @@ theorem naiveEmotivismInvalidatesGeachMP {Sentence Ctx Meaning Attitude : Type}
     (ValidMP : Sentence → Sentence → Prop) (free antecedent : Ctx) (p q : Sentence)
     (hEmotivism : EmotivistMeaningIsExpressedAttitudeReading Moral meaning Expresses)
     (hFree : FreeMoralAssertionExpressesAttitudeReading Moral Expresses free)
-    (hAntecedent : AntecedentExpressesNoAttitudeReading Expresses antecedent p)
+    (hAntecedent : AntecedentLacksFreeStandingAttitudeReading Expresses free antecedent p)
     (hFrege : ValidityRequiresConstantMeaningReading ValidMP meaning free antecedent)
     (hMoral : GeachMinorPremiseIsMoralReading Moral p) :
     GeachModusPonensInvalid ValidMP p q := by

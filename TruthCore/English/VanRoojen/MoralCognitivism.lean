@@ -68,23 +68,25 @@ def FreeMoralAssertionExpressesAttitudeReading {Sentence : Sort u} {Ctx : Sort v
     (free : Ctx) : Prop :=
   ∀ φ, Moral φ → ∃ a, Expresses φ free a
 
-/-- In the antecedent of a conditional, the sentence `φ` expresses no
-attitude: when the words of a moral sentence "occur in the antecedent of a
+/-- In the antecedent of a conditional, the sentence `φ` does not express the
+attitude it expresses free-standing: when the words of a moral sentence "occur in the antecedent of a
 conditional ... they are typically not being used to express such disapproval";
 Geach's major premise is one "one might accept even if one approves of
 tormenting cats".
 
 The entry says "typically", so the reading is stated for one sentence, the
-minor premise of Geach's argument, not for every moral sentence.
+minor premise of Geach's argument, not for every moral sentence. Only the
+attitude the free-standing occurrence expresses ("such disapproval") is denied of
+the antecedent, not every attitude (Codex P1 on #187).
 
 Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
 Encyclopedia of Philosophy* (Spring 2026), §4.1.
 -/
-def AntecedentExpressesNoAttitudeReading {Sentence : Sort u} {Ctx : Sort v}
+def AntecedentLacksFreeStandingAttitudeReading {Sentence : Sort u} {Ctx : Sort v}
     {Attitude : Sort x}
-    (Expresses : Sentence → Ctx → Attitude → Prop) (antecedent : Ctx)
+    (Expresses : Sentence → Ctx → Attitude → Prop) (free antecedent : Ctx)
     (φ : Sentence) : Prop :=
-  ∀ a, ¬ Expresses φ antecedent a
+  ∀ a, Expresses φ free a → ¬ Expresses φ antecedent a
 
 /-- The Frege point as a constraint on validity: a modus ponens is valid only if
 its minor premise means the same free-standing as it means in the antecedent

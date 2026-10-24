@@ -22,6 +22,6 @@ def expressivistModel : Sig where
 /-- Constant-meaning expressivism and the shared data are jointly satisfiable. -/
 theorem expressivismConsistentWithGeachValidity : ExpressivismConsistentWithGeachValidity :=
   ⟨expressivistModel, fun _ _ _ _ => rfl,
-    fun _ _ => ⟨(), rfl⟩, fun _ h => Bool.noConfusion h, fun _ _ _ => rfl, trivial, trivial⟩
+    fun _ _ => ⟨(), rfl⟩, fun _ _ h => Bool.noConfusion h, fun _ _ _ => rfl, trivial, trivial⟩
 
 end TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity

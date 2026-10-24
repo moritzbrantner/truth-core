@@ -11,7 +11,7 @@ theorem fregeGeachRefutesNaiveEmotivism {Sentence Ctx Meaning Attitude : Type}
     (Expresses : Sentence → Ctx → Attitude → Prop)
     (ValidMP : Sentence → Sentence → Prop) (free antecedent : Ctx) (p q : Sentence)
     (hFree : FreeMoralAssertionExpressesAttitudeReading Moral Expresses free)
-    (hAntecedent : AntecedentExpressesNoAttitudeReading Expresses antecedent p)
+    (hAntecedent : AntecedentLacksFreeStandingAttitudeReading Expresses free antecedent p)
     (hFrege : ValidityRequiresConstantMeaningReading ValidMP meaning free antecedent)
     (hValid : GeachModusPonensValidReading ValidMP p q)
     (hMoral : GeachMinorPremiseIsMoralReading Moral p) :
