@@ -186,3 +186,9 @@ import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
+import TruthCore.Logic.ExcludedMiddle
+import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
+import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
+import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
+import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
+import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution

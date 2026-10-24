@@ -647,10 +647,12 @@ def validate() -> dict[str, int]:
     for path, inference in inferences:
         require(
             inference,
-            ["id", "input_statement_ids", "output_statement_id", "rule", "meaning"],
+            ["id", "output_statement_id", "rule", "meaning"],
             path,
         )
-        inputs = require_string_list(inference, "input_statement_ids", path, allow_empty=False)
+        # An inference with no inputs proves its output outright (a theorem of
+        # logic, e.g. LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE, #167).
+        inputs = require_string_list(inference, "input_statement_ids", path)
         assumptions = require_string_list(inference, "assumption_statement_ids", path)
         discharges = require_string_list(inference, "discharged_statement_ids", path)
         for statement_id in [
@@ -675,16 +677,15 @@ def validate() -> dict[str, int]:
             ["id", "conclusion_statement_id", "inference_ids", "meaning"],
             path,
         )
-        # A consistency argument lists the commitments it shows jointly satisfiable
-        # and may then have no premises.
+        # A consistency argument lists the commitments it shows jointly
+        # satisfiable (#160); an argument without premises advertises either
+        # such a consistency claim or a theorem of logic (#167).
         commitments = (
             require_string_list(argument, "commitment_statement_ids", path)
             if "commitment_statement_ids" in argument
             else []
         )
-        premises = require_string_list(
-            argument, "premise_statement_ids", path, allow_empty=bool(commitments)
-        )
+        premises = require_string_list(argument, "premise_statement_ids", path)
         inference_ids = require_string_list(argument, "inference_ids", path, allow_empty=False)
         for statement_id in [*premises, *commitments, argument["conclusion_statement_id"]]:
             if statement_id not in statement_index:

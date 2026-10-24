@@ -1,0 +1,1 @@
+{"id":"STMT-EXCLUDED-MIDDLE-NOT-DENIABLE","paraphrase":"No instance of excluded middle can be consistently denied: there is no proposition p such that neither p nor ¬p. Excludes denying an instance, not withholding assent from it.","lean_declaration":"TruthCore.Logic.NoExcludedMiddleInstanceDeniable"}

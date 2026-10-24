@@ -1,6 +1,6 @@
 # Semantic relations
 
-This directory is intentionally empty of JSON records in the seed corpus.
+The first records are the premise-program relations of #167 (`alternative_to`, `refutes`; see `docs/corpus-model.md`).
 
 Relations are additive metadata between independently identified corpus entities. They must never silently merge statement identities. The intended JSON shape is:
 

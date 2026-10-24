@@ -1,0 +1,1 @@
+{"id":"STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION","paraphrase":"Excluded middle holds if and only if double-negation elimination holds.","lean_declaration":"TruthCore.Logic.ExcludedMiddleIffDoubleNegationElimination"}

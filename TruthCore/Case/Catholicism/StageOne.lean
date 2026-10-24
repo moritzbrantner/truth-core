@@ -34,8 +34,10 @@ def IsFirstUnmovedMover {Being : Sort v} {Respect : Sort w}
   (∃ x r, MovesIn f x r) ∧ ∀ r, ¬ MovedIn f r
 
 /-- Excluded middle for one proposition: either there is a first unmoved mover
-or there is none. Open premise; a candidate for a `self_evident` marking from
-Aristotle, *Metaphysics* IV.7 (candidate `ARIST-MET-IV-7-EXCLUDED-MIDDLE`). -/
+or there is none. An instance of `TruthCore.Logic.ExcludedMiddle` (result
+`CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM`, a transcription), whose
+general principle is marked `self_evident` in #167 after Aristotle,
+*Metaphysics* IV.7. Still an open premise under invariant 16. -/
 def FirstUnmovedMoverExistsOrNot {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop) : Prop :=

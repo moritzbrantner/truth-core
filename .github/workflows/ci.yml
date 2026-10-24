@@ -34,6 +34,7 @@ jobs:
           python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt
           python3 scripts/source_evidence.py materialize ARIST-CAT-V --output /tmp/aristotle-categories-v.txt
           python3 scripts/source_evidence.py materialize ARIST-MET-IV-1 --output /tmp/aristotle-metaphysics-iv-1.txt
+          python3 scripts/source_evidence.py materialize ARIST-MET-IV-7 --output /tmp/aristotle-metaphysics-iv-7.txt
           python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q2-A3 --output /tmp/aquinas-st-i-q2-a3.txt
           python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt

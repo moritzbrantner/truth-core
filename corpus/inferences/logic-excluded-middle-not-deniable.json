@@ -1,0 +1,1 @@
+{"id":"INF-LOGIC-EXCLUDED-MIDDLE-NOT-DENIABLE","input_statement_ids":[],"output_statement_id":"STMT-EXCLUDED-MIDDLE-NOT-DENIABLE","rule":"constructive-proof","meaning":"Whoever denies p ∨ ¬p is committed by that denial to ¬p and to ¬¬p; so no proposition is a counterexample to excluded middle.","assumption_statement_ids":[],"discharged_statement_ids":[]}

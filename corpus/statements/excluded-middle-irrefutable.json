@@ -1,0 +1,1 @@
+{"id":"STMT-EXCLUDED-MIDDLE-IRREFUTABLE","paraphrase":"Every instance of excluded middle is irrefutable: ∀ p, ¬¬(p ∨ ¬p). Constructively provable and strictly weaker than excluded middle.","lean_declaration":"TruthCore.Logic.ExcludedMiddleIrrefutable"}

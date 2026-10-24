@@ -1,0 +1,1 @@
+{"id":"INF-CATHOLICISM-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT-FROM-EM","input_statement_ids":["STMT-EXCLUDED-MIDDLE"],"output_statement_id":"STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT","rule":"universal-instantiation","meaning":"Instantiate excluded middle at the identity of any two first movers moved by none.","assumption_statement_ids":[],"discharged_statement_ids":[]}
