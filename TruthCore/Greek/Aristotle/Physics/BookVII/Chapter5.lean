@@ -237,30 +237,27 @@ def AlterationObjectTimeScalingReading
 just as a sub-threshold force may fail to move a weight, in Aristotle,
 *Physics* VII.5, 250b4-7.
 
-Source: Aristotle, *Physics* VII.5, 250b4-7 (Bekker pagination).
-CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
--/
-def HalfAltererGrowerMayProduceNoChangeReading
-    (HalfAltererProducesAnyAlteration HalfGrowerProducesAnyGrowth : Prop) : Prop :=
-  ¬ HalfAltererProducesAnyAlteration ∧
-    ¬ HalfGrowerProducesAnyGrowth
-
-/-- If a guaranteed proportional effect from half an altering or growing agent
-would require some alteration or growth, Aristotle's threshold possibility
-excludes both guarantees, in *Physics* VII.5, 250b4-7.
+"May" is kept as possibility over cases: `HalfAltererAltersIn c` says that in
+case `c` the halved alterer produces some alteration, and likewise for growth.
+The reading says that in some case each fails; it does not say that every
+halved agent fails (Codex P1 on #186).
 
 Source: Aristotle, *Physics* VII.5, 250b4-7 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/
-def NoGuaranteedHalfAgentProportionalChangeReading
-    (HalfAltererProducesAnyAlteration HalfGrowerProducesAnyGrowth
-      GuaranteedHalfAltererProportionalEffect
-      GuaranteedHalfGrowerProportionalEffect : Prop) : Prop :=
-  (GuaranteedHalfAltererProportionalEffect →
-      HalfAltererProducesAnyAlteration) →
-    (GuaranteedHalfGrowerProportionalEffect →
-      HalfGrowerProducesAnyGrowth) →
-    ¬ GuaranteedHalfAltererProportionalEffect ∧
-      ¬ GuaranteedHalfGrowerProportionalEffect
+def HalfAltererGrowerMayProduceNoChangeReading {Case : Sort u}
+    (HalfAltererAltersIn HalfGrowerGrowsIn : Case → Prop) : Prop :=
+  (∃ c, ¬ HalfAltererAltersIn c) ∧ (∃ c, ¬ HalfGrowerGrowsIn c)
+
+/-- No proportional effect from half an altering or growing agent is guaranteed:
+it is not the case that the halved alterer alters, or the halved grower makes
+grow, in every case, in Aristotle, *Physics* VII.5, 250b4-7.
+
+Source: Aristotle, *Physics* VII.5, 250b4-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoGuaranteedHalfAgentProportionalChangeReading {Case : Sort u}
+    (HalfAltererAltersIn HalfGrowerGrowsIn : Case → Prop) : Prop :=
+  ¬ (∀ c, HalfAltererAltersIn c) ∧ ¬ (∀ c, HalfGrowerGrowsIn c)
 
 end TruthCore.Greek.Aristotle.Physics
