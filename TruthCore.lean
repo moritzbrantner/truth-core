@@ -225,3 +225,4 @@ import TruthCore.Refutations.TertiaVia
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
+import TruthCore.Results.Aristotle.Physics.NoGuaranteedHalfAgentChange.Solution

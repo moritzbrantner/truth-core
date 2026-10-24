@@ -173,4 +173,94 @@ def CombinedMoversMoveCombinedLoadsSameDistanceTimeReading
   SeparateMoversMoveRespectiveLoadsSameDistanceTime →
     CombinedMoversMoveCombinedLoadsSameDistanceTime
 
+/-- Alteration and growth admit the same kind of agent, patient, amount, and
+time analysis Aristotle has just applied to locomotion, in *Physics* VII.5,
+250a28-250b2.
+
+Source: Aristotle, *Physics* VII.5, 250a28-250b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationGrowthAdmitAgentPatientAmountTimeAnalysisReading
+    (AlterationAdmitsAnalysis GrowthAdmitsAnalysis : Prop) : Prop :=
+  AlterationAdmitsAnalysis ∧ GrowthAdmitsAnalysis
+
+/-- Growth has a determinate increaser, a determinate thing increased, a
+quantity of increase, and an elapsed time, in Aristotle, *Physics* VII.5,
+250a28-30.
+
+Source: Aristotle, *Physics* VII.5, 250a28-30 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def GrowthHasAgentPatientAmountTimeReading
+    (Increaser ThingIncreased AmountOfIncrease TimeOfIncrease : Prop) : Prop :=
+  Increaser ∧ ThingIncreased ∧ AmountOfIncrease ∧ TimeOfIncrease
+
+/-- Alteration has a determinate alterer, a determinate thing altered, a degree
+of alteration, and an elapsed time, in Aristotle, *Physics* VII.5,
+250a30-250b2.
+
+Source: Aristotle, *Physics* VII.5, 250a30-250b2 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationHasAgentPatientDegreeTimeReading
+    (Alterer ThingAltered DegreeOfAlteration TimeOfAlteration : Prop) : Prop :=
+  Alterer ∧ ThingAltered ∧ DegreeOfAlteration ∧ TimeOfAlteration
+
+/-- Within Aristotle's stated proportional description, double alteration
+corresponds to double time in both directions, in *Physics* VII.5, 250b1-3.
+
+This does not assert that every fractional altering force crosses the threshold
+needed to cause any alteration.
+
+Source: Aristotle, *Physics* VII.5, 250b1-3 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def DoubleAlterationDoubleTimeReciprocityReading
+    (DoubleTime DoubleAlteration : Prop) : Prop :=
+  (DoubleTime → DoubleAlteration) ∧
+    (DoubleAlteration → DoubleTime)
+
+/-- Aristotle's proportional description pairs half the affected object with
+half the time and twice the affected object with the same time, in *Physics*
+VII.5, 250b2-4.
+
+Source: Aristotle, *Physics* VII.5, 250b2-4 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def AlterationObjectTimeScalingReading
+    (HalfObjectInHalfTime HalfTimeForHalfObject
+      DoubleObjectInSameTime : Prop) : Prop :=
+  HalfObjectInHalfTime ∧ HalfTimeForHalfObject ∧
+    DoubleObjectInSameTime
+
+/-- Half an altering or growing agent may cause no alteration or growth at all,
+just as a sub-threshold force may fail to move a weight, in Aristotle,
+*Physics* VII.5, 250b4-7.
+
+Source: Aristotle, *Physics* VII.5, 250b4-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def HalfAltererGrowerMayProduceNoChangeReading
+    (HalfAltererProducesAnyAlteration HalfGrowerProducesAnyGrowth : Prop) : Prop :=
+  ¬ HalfAltererProducesAnyAlteration ∧
+    ¬ HalfGrowerProducesAnyGrowth
+
+/-- If a guaranteed proportional effect from half an altering or growing agent
+would require some alteration or growth, Aristotle's threshold possibility
+excludes both guarantees, in *Physics* VII.5, 250b4-7.
+
+Source: Aristotle, *Physics* VII.5, 250b4-7 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def NoGuaranteedHalfAgentProportionalChangeReading
+    (HalfAltererProducesAnyAlteration HalfGrowerProducesAnyGrowth
+      GuaranteedHalfAltererProportionalEffect
+      GuaranteedHalfGrowerProportionalEffect : Prop) : Prop :=
+  (GuaranteedHalfAltererProportionalEffect →
+      HalfAltererProducesAnyAlteration) →
+    (GuaranteedHalfGrowerProportionalEffect →
+      HalfGrowerProducesAnyGrowth) →
+    ¬ GuaranteedHalfAltererProportionalEffect ∧
+      ¬ GuaranteedHalfGrowerProportionalEffect
+
 end TruthCore.Greek.Aristotle.Physics
