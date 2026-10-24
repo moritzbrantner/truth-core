@@ -120,6 +120,8 @@ export type CorpusInference = {
 export type CorpusArgument = {
   id: string;
   premise_statement_ids: string[];
+  /** Statements a consistency argument shows jointly satisfiable (it may then have no premises). */
+  commitment_statement_ids?: string[];
   conclusion_statement_id: string;
   inference_ids: string[];
   meaning: string;
@@ -322,7 +324,11 @@ export function claimsForStatement(corpus: Corpus, statementId: string) {
 }
 
 export function argumentsUsingStatement(corpus: Corpus, statementId: string) {
-  return corpus.arguments.filter((argument) => argument.premise_statement_ids.includes(statementId));
+  return corpus.arguments.filter(
+    (argument) =>
+      argument.premise_statement_ids.includes(statementId) ||
+      (argument.commitment_statement_ids ?? []).includes(statementId),
+  );
 }
 
 export function argumentsConcludingStatement(corpus: Corpus, statementId: string) {
@@ -353,7 +359,10 @@ export function claimsForResult(corpus: Corpus, resultId: string) {
   if (!result) {
     return [];
   }
-  const premiseIds = new Set(result.argument.premise_statement_ids);
+  const premiseIds = new Set([
+    ...result.argument.premise_statement_ids,
+    ...(result.argument.commitment_statement_ids ?? []),
+  ]);
   return corpus.claims.filter((claim) => premiseIds.has(claim.statement_id));
 }
 
@@ -362,7 +371,11 @@ export function statementsForArgument(corpus: Corpus, argumentId: string) {
   if (!argument) {
     return [];
   }
-  const ids = [...argument.premise_statement_ids, argument.conclusion_statement_id];
+  const ids = [
+    ...argument.premise_statement_ids,
+    ...(argument.commitment_statement_ids ?? []),
+    argument.conclusion_statement_id,
+  ];
   return ids.flatMap((id) => {
     const statement = findStatement(corpus, id);
     return statement ? [statement] : [];

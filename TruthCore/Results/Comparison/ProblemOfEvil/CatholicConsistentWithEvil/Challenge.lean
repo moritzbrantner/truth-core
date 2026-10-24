@@ -1,0 +1,7 @@
+import TruthCore.Comparison.ProblemOfEvil
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
+namespace TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil
+open TruthCore.Comparison.ProblemOfEvil
+theorem catholicConsistentWithEvil : CatholicTheoryConsistentWithEvil := by
+  sorry
+end TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil

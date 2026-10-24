@@ -11,6 +11,10 @@ Vocabulary, all of it parameters rather than definitions:
   able to remove, all the evil in the world.
 * `PermitsSuchSuffering g` — `g` permits the actual extent of suffering, human
   and animal.
+* `Sentence`, `SaysSomethingBad φ`, `moralEvilPremise` — sentences, `φ` saying
+  of something that it is bad, and the premise that there is man-made evil.
+* `Evil x`, `CanEliminate g x` — there is evil in `x`; `g` is able to eliminate
+  the evil in `x`.
 -/
 
 namespace TruthCore.English.OConnor
@@ -36,6 +40,41 @@ Source: Alex O'Connor, "Could God Be Evil?" (Alex O'Connor, 2020-12-04),
 def GoodGodWouldRemoveAllEvilReading {Being : Sort u}
     (God Good WantsToRemoveAllEvil CanRemoveAllEvil : Being → Prop) : Prop :=
   ∀ g, God g → Good g → WantsToRemoveAllEvil g ∧ CanRemoveAllEvil g
+
+/-- The problem of evil's man-made-evil premise ascribes moral wrongness. When
+"we talk about evil concerning the criticism of the supposedly all loving God",
+O'Connor sorts it into natural evil (earthquakes) and "man-made evil which are
+things like murder and rape"; of the second he asks "why things like stealing,
+rape and murder are moral wrong[s]", and answers that "the morals of human
+activity are entirely subjective".
+
+`moralEvilPremise` is the critic's premise that there is man-made evil (that
+there are murders and rapes, which are evil). The reading says that this
+sentence says something is bad. It says nothing about natural evil, which
+O'Connor treats separately ("the only reason that we perceive these things as
+evil is because they're harmful to us").
+
+Source: Alex O'Connor, "Frank Turek thinks that Evil proves God's existence"
+(Alex O'Connor, 2016-08-23), 02:06–03:36.
+-/
+def ManMadeEvilPremiseSaysSomethingBadReading {Sentence : Sort u}
+    (SaysSomethingBad : Sentence → Prop) (moralEvilPremise : Sentence) : Prop :=
+  SaysSomethingBad moralEvilPremise
+
+/-- An all-powerful god is capable of eliminating all the evil in the world
+("if an all-powerful god exists who is capable of eliminating all the evil in
+the world then why doesn't he").
+
+Read as what all-powerfulness includes: for every evil, an all-powerful being
+can eliminate it. It says nothing about wanting to. Both sides of the debate
+grant it, so it serves as shared background for the internal form.
+
+Source: Alex O'Connor, "Could God Be Evil?" (Alex O'Connor, 2020-12-04),
+00:18–00:47.
+-/
+def AllPowerfulCanEliminateEvilReading {Being : Sort u}
+    (AllPowerful Evil : Being → Prop) (CanEliminate : Being → Being → Prop) : Prop :=
+  ∀ g x, AllPowerful g → Evil x → CanEliminate g x
 
 /-- The suffering problem's key premise: an all-powerful god who truly loves us
 would not permit suffering on the actual scale ("why would an all-powerful god
