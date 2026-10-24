@@ -1,16 +1,16 @@
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question13.Article8
 namespace TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)
-open TruthCore.Case.Catholicism (AtMostOneMaximeEns MaximeEnsIsGod)
+open TruthCore.Case.Catholicism (AtMostOneMaximeEns MaximeEnsIsGod GodNamesTheUniqueMaximeEns)
 
 /-- Whatever is maximal in being is God. Let `m` be maximal in being. By the genus
 principle at *esse*, `m` causes the being of every other being. By the uniqueness
 result (`AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS`), every being maximal in being
 is `m`. So `m` is the only being that is above all and the principle of all, and
-by the nominal definition of the name (q.13 a.8 ad 2, *et hoc dicimus Deum*),
-`m` is God. -/
+by the open premise `GodNamesTheUniqueMaximeEns` (the reduced nominal
+description suffices; supported by q.13 a.8 ad 2 and *et hoc dicimus Deum*), `m`
+is God. -/
 theorem maximeEnsIsGod {Being : Type} {Respect : Type}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)
@@ -19,7 +19,7 @@ theorem maximeEnsIsGod {Being : Type} {Respect : Type}
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
     (hEM : TruthCore.Logic.ExcludedMiddle)
-    (hName : GodNamesTheUniqueMaximeEnsReading InAct MoreIn CausesIn esse God) :
+    (hName : GodNamesTheUniqueMaximeEns InAct MoreIn CausesIn esse God) :
     MaximeEnsIsGod InAct MoreIn esse God := by
   intro m hMax
   -- INF-AQUINAS-AT-MOST-ONE-MAXIME-ENS (result AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS)
@@ -70,7 +70,7 @@ theorem withoutUniquenessNotGod :
       (God : Being → Prop),
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn →
       (∀ a b : Being, a = b ∨ a ≠ b) →
-      GodNamesTheUniqueMaximeEnsReading InAct MoreIn CausesIn esse God →
+      GodNamesTheUniqueMaximeEns InAct MoreIn CausesIn esse God →
       MaximeEnsIsGod InAct MoreIn esse God := by
   open AtMostOneMaximeEns.TiedMaxima in
   intro h
@@ -92,7 +92,7 @@ theorem premisesJointlySatisfiable :
       MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn ∧
       CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn ∧
       (∀ a b : Unit, a = b ∨ a ≠ b) ∧
-      GodNamesTheUniqueMaximeEnsReading InAct MoreIn CausesIn () God ∧
+      GodNamesTheUniqueMaximeEns InAct MoreIn CausesIn () God ∧
       (∃ m, IsMaximumIn InAct MoreIn () m ∧ God m) :=
   ⟨fun _ _ => True, fun _ _ _ => False, fun _ _ _ => False, fun _ => True,
     fun _ _ _ _ hx _ => absurd rfl hx,

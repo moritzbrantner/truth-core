@@ -6,13 +6,14 @@ Stage-1 statements that connect the *prima via*'s first mover moved by none
 (#151) with the *quarta via*'s maximal being (ST I q.2 a.3, fourth way; #147).
 `FirstUnmovedMoverIsMaximeEns`, `FirstUnmovedMoverHasEveryPerfectionOfThings`,
 `MaximeEnsIsGod` and `AtMostOneMaximeEns` are conclusions of verified results.
-`SimplyPriorIsCauseOfBeing` is an open premise: no source sentence asserts it in
-this form, and it states exactly one link that the derivation needs.
+`SimplyPriorIsCauseOfBeing` and `GodNamesTheUniqueMaximeEns` are open premises:
+no source sentence asserts them in this form, and each states exactly one link
+that the derivation needs.
 -/
 
 namespace TruthCore.Case.Catholicism
 
-open TruthCore.Latin.Aquinas.SummaTheologiae (IsMaximumIn)
+open TruthCore.Latin.Aquinas.SummaTheologiae (IsMaximumIn CausesAllInGenus)
 
 universe v w
 
@@ -20,7 +21,8 @@ universe v w
 of God (`God`). Introduced as an open premise (#173); derived in result
 `AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD` (#143, 2026-10-24) from the uniqueness of
 the maximum in being (`AtMostOneMaximeEns`) and the explicit nominal definition
-`GodNamesTheUniqueMaximeEnsReading` (q.13 a.8 ad 2; *et hoc dicimus Deum*). The
+`GodNamesTheUniqueMaximeEns` (open premise, supported by q.13 a.8 ad 2 and
+*et hoc dicimus Deum*). The
 identification stays nominal: it rests on the name "God" having one use in
 q.2 a.3 and q.105 a.5, which is the content of that definition. -/
 def MaximeEnsIsGod {Being : Sort v} {Respect : Sort w}
@@ -71,5 +73,34 @@ def AtMostOneMaximeEns {Being : Sort v} {Respect : Sort w}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
   ∀ m m', IsMaximumIn InAct MoreIn esse m → IsMaximumIn InAct MoreIn esse m' → m = m'
+
+/-- The name "God" applies to the only being that is maximal in being and causes the
+being of every other being: such a being is the one the *Summa* calls God
+(q.105 a.5). Open premise (candidate `AQUINAS-NOMINAL-DESCRIPTION-OF-GOD-SUFFICES`).
+
+It is **not** a reading of the sources, and the source descriptions do not state
+it. q.13 a.8 ad 2 gives the name's nominal definition as *aliquid … supra omnia
+existens, quod est principium omnium, et remotum ab omnibus*, and the *quarta
+via*'s *et hoc dicimus Deum* names the cause of being, goodness *and every
+perfection*. This premise keeps only "maximal in being" (above all) and "cause of
+being of all others" (principle of all). It drops *remotum ab omnibus* and the
+causation of goodness and every perfection. Dropping conjuncts from the antecedent
+of a sufficient description strengthens it, so this premise asserts that the
+reduced description already suffices for the name to apply. The two passages
+support it (`supports` relations) without stating it. To discharge it, show that
+the unique maximum in being also has the omitted properties.
+
+The uniqueness clause reads the singular *hoc* / *aliquid … quod est principium
+omnium* as a definite description that applies only when exactly one being fits.
+By q.13 a.9 the name is communicable by its *ratio*, so uniqueness is a condition
+of application here, not an assertion. The definition stays nominal, as in
+q.2 a.2 ad 2: it fixes what the name signifies, not what God is. -/
+def GodNamesTheUniqueMaximeEns {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
+    (God : Being → Prop) : Prop :=
+  ∀ m, IsMaximumIn InAct MoreIn esse m → CausesAllInGenus InAct CausesIn esse m →
+    (∀ m', IsMaximumIn InAct MoreIn esse m' → m' = m) → God m
 
 end TruthCore.Case.Catholicism

@@ -37,7 +37,7 @@ theorem catholicismFromPrimaViaViaMaximeEns (σ : Signature) {Respect : Type}
     (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
     (hBeing : ActualityOnlyInsofarAsBeingReading InAct esse)
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
-    (hName : GodNamesTheUniqueMaximeEnsReading InAct MoreIn CausesIn esse God)
+    (hName : GodNamesTheUniqueMaximeEns InAct MoreIn CausesIn esse God)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hPureAct : FirstUnmovedMoverIsPureAct MovedIn MovesIn PureAct)

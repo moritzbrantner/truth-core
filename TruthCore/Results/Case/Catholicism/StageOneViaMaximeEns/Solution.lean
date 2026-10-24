@@ -37,7 +37,7 @@ theorem stageOneViaMaximeEns {Being : Type} {Respect : Type}
     (hInAct : MovesOnlyAsInActReading MovesIn InAct)
     (hBeing : ActualityOnlyInsofarAsBeingReading InAct esse)
     (hCauseMore : CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn)
-    (hName : GodNamesTheUniqueMaximeEnsReading InAct MoreIn CausesIn esse God)
+    (hName : GodNamesTheUniqueMaximeEns InAct MoreIn CausesIn esse God)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse God)
     (hEM : TruthCore.Logic.ExcludedMiddle)
     (hPureAct : FirstUnmovedMoverIsPureAct MovedIn MovesIn PureAct)
