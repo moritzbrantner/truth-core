@@ -7,10 +7,12 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Latin.Aquinas.SummaContraGentiles
 theorem finitePastHorn {Being Time : Type}
     (IsAt : Being → Time → Prop) (Before : Time → Time → Prop) (now : Time)
-    (CausesOrigin : Being → Being → Prop)
+    (BeganWithTime : Being → Prop) (CausesOrigin : Being → Being → Prop)
     (hEM : ExcludedMiddle)
     (hFinite : PastIsFinite Before now)
-    (hInnovating : WhatComesToBeAnewHasInnovatingCauseReading IsAt Before CausesOrigin)
+    (hBegan : TemporalBeingsAtTheFirstTimeBeganWithTime IsAt Before BeganWithTime)
+    (hInnovating : WhatComesToBeAnewHasInnovatingCauseReading IsAt Before BeganWithTime
+      CausesOrigin)
     (hNow : SomethingNowIsReading IsAt now) :
     SomethingHasInnovatingCause CausesOrigin := by
   sorry
