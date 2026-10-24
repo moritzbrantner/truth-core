@@ -77,6 +77,7 @@ import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3
@@ -250,7 +251,10 @@ import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesThroughGroupTwo.Solution
+import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
+import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsEternal.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsInfinite.Solution
