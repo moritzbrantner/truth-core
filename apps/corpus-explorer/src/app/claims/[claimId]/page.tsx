@@ -36,12 +36,15 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
 
   return (
     <article className="max-w-4xl">
-      <Link className="link-quiet text-sm" href="/">
+      <Link className="link-quiet text-sm" href="/claims">
         ← All claims
       </Link>
       <div className="mt-10 flex flex-wrap items-center gap-3">
-        <StatusMark>Source-derived claim</StatusMark>
+        <StatusMark>Source reading</StatusMark>
         <p className="font-mono text-xs text-[var(--muted)]">{claim.id}</p>
+        <Link className="link-quiet text-xs" href={`/statements/${claim.statement_id}`}>
+          Statement {claim.statement_id} →
+        </Link>
       </div>
       <h1 className="mt-5 font-serif text-5xl leading-[0.98] tracking-[-0.05em] sm:text-6xl">
         {claim.paraphrase}

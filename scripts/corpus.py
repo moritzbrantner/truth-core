@@ -305,6 +305,43 @@ def frontier_report(
                 }
                 changed = True
 
+    # Why each closed statement is closed, for views such as the explorer's
+    # state page (#200). The first matching rule wins, in the order (a)-(d).
+    closed_statements: dict[str, str] = {}
+    for statement_id in sorted(closed):
+        if statement_id in verified_conclusions:
+            closed_statements[statement_id] = "proved"
+        elif statement_by_id.get(statement_id, {}).get("self_evident") is not None:
+            closed_statements[statement_id] = "self_evident"
+        elif defended(statement_id):
+            closed_statements[statement_id] = "alternatives_refuted"
+        else:
+            closed_statements[statement_id] = "via_transcription"
+
+    # Closed is a per-node property: a proved statement may still rest on open
+    # premises (the skeleton proves the root from nine of them). A statement is
+    # *established* when it is self-evident or defended, or is the conclusion of
+    # a verified result (transcriptions included) whose premises are all
+    # established. Computed as a least fixpoint; it adds no closure rule.
+    established = {
+        statement_id
+        for statement_id in statement_by_id
+        if statement_by_id[statement_id].get("self_evident") is not None or defended(statement_id)
+    }
+    verified_steps = [
+        argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
+    ]
+    changed = True
+    while changed:
+        changed = False
+        for argument in verified_steps:
+            conclusion = argument["conclusion_statement_id"]
+            if conclusion not in established and all(
+                premise in established for premise in argument["premise_statement_ids"]
+            ):
+                established.add(conclusion)
+                changed = True
+
     stating_claims: dict[str, set[str]] = {}
     for claim in claims or []:
         stating_claims.setdefault(claim["statement_id"], set()).add(claim["id"])
@@ -362,6 +399,8 @@ def frontier_report(
         "root_known": root is not None and root in statement_by_id,
         "transcription_flags": transcription or [],
         "closed_via_transcription": closures,
+        "closed_statements": closed_statements,
+        "established_statements": sorted(established),
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
         "depth_counts": depth_counts(items),

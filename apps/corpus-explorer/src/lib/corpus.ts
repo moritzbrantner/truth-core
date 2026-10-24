@@ -196,6 +196,7 @@ export type CorpusCandidate = {
 };
 
 export type ComparatorConfig = {
+  theorem_names?: string[];
   permitted_axioms: string[];
   enable_nanoda: boolean;
 };

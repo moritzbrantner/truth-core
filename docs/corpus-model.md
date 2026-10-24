@@ -70,7 +70,7 @@ The case for Catholicism (epic #143) has a root statement, `STMT-CATHOLICISM-TRU
 
 For each open premise it shows the arguments that use it directly, the transitive dependents (arguments and conclusions reached by repeatedly following the arguments that use a statement as a premise), one shortest path to the root, the attacking objections, and the supporting source claims. Items that reach the root come first, then items with more transitive dependents, then by ID, so the output is deterministic. Options:
 
-- `--json` prints the same report as JSON;
+- `--json` prints the same report as JSON, plus `closed_statements` (each closed statement with the rule that closes it: `proved`, `self_evident`, `alternatives_refuted` or `via_transcription`) and `established_statements` (statements reached from self-evident or defended statements through verified results only; a closed statement proved from open premises is not established). The GitHub Pages state view reads these (`docs/github-pages.md`);
 - `--root STMT-...` chooses the statement whose path is shown (default `STMT-CATHOLICISM-TRUE`);
 - `--reaching-root` keeps only the premises from which the root is reached.
 

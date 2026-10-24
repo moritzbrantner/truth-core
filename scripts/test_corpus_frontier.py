@@ -76,6 +76,23 @@ class FrontierReportTest(unittest.TestCase):
         self.assertNotIn("SELF", self.ids(report))
         self.assertEqual(self.ids(report), ["OPEN-A", "OPEN-B", "SIDE"])
 
+    def test_reports_why_each_closed_statement_is_closed(self) -> None:
+        report = self.report()
+        self.assertEqual(
+            report["closed_statements"],
+            {"MID": "proved", "ROOT": "proved", "SELF": "self_evident"},
+        )
+        # MID and ROOT are proved but rest on open premises, so only SELF is established.
+        self.assertEqual(report["established_statements"], ["SELF"])
+
+    def test_established_follows_verified_results_from_established_premises(self) -> None:
+        statements = [
+            {**record, "self_evident": {"justification_ids": ["CLAIM"]}} if record["id"] in {"OPEN-A", "OPEN-B"} else record
+            for record in STATEMENTS
+        ]
+        report = corpus.frontier_report(statements, ARGUMENTS, RESULTS, [], root="ROOT")
+        self.assertEqual(report["established_statements"], ["MID", "OPEN-A", "OPEN-B", "ROOT", "SELF"])
+
     def test_orders_by_root_reach_then_dependents(self) -> None:
         items = {item["statement_id"]: item for item in self.report()["items"]}
         self.assertEqual(items["OPEN-A"]["transitive_dependent_arguments"], ["ARG-MID", "ARG-ROOT"])
