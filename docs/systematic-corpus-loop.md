@@ -44,6 +44,20 @@ In practice:
 - a transcription result (AGENTS.md invariant 16) closes no frontier node by itself. It closes its conclusion only when every premise of its argument is closed: marked self-evident, defended by refuting every recorded alternative, the conclusion of a verified non-transcription result, or closed by this same rule. `corpus.py frontier` computes this as a fixpoint and lists such nodes as `closed via transcription from closed premises` (owner decision on #143, 2026-10-24). A transcription that has an open premise, typically its bridge premise `A ∧ B → C`, still closes nothing;
 - a source campaign (e.g. Aristotle's *Physics*) continues only where a premise on a root path depends on it.
 
+### Relocation and the depth of open premises
+
+Replacing one open premise by several narrower ones (a *relocation*) can grow the frontier and still be progress (owner decision on #143, 2026-10-24). It counts as progress when **every** new open premise is:
+
+1. **sourced**: a claim states it, or a `supports` relation points to it from a source claim; and
+2. **shown necessary** by a countermodel: a Lean model that satisfies every other premise of the argument but falsifies the conclusion once that premise is dropped.
+
+`corpus.py frontier` therefore classifies each open premise by depth:
+
+- **bare**: no claim states it and no `supports` relation points to it;
+- **sourced** (sourced but undefended): a claim states it or supports it, but it is not yet closed (proved, self-evident, or defended by refuting every recorded alternative).
+
+The summary line reports both counts, e.g. `frontier: 28 open premises: 8 bare, 20 sourced-undefended`; `--json` gives `depth_counts` and a `depth` per item, and `/graph` tags open premises `frontier:bare` or `frontier:sourced`. The aim is to drive bare premises to zero first, then defend the sourced ones.
+
 This rule exists because the earlier corpus optimized what it counted: about 100 mostly one-step results in three days, then the campaign stalled.
 
 ## PR boundary

@@ -33,6 +33,17 @@ describe("proposition graph status", () => {
     expect(byId.get("P1")?.transitiveDependentArguments).toBe(2);
   });
 
+  test("classifies open premises as bare or sourced, as corpus.py frontier does", () => {
+    const depths = Object.fromEntries(
+      graph.statements.filter((entry) => entry.frontier).map((entry) => [entry.id, entry.frontierDepth]),
+    );
+    // P1/P2 are stated by claims; T has a supports relation; ALT and TC have neither.
+    expect(depths).toEqual({ ALT: "bare", P1: "sourced", P2: "sourced", T: "sourced", TC: "bare" });
+    expect(byId.get("T")?.tags).toContain("frontier:sourced");
+    expect(byId.get("TC")?.tags).toContain("frontier:bare");
+    expect(byId.get("C")?.frontierDepth).toBeUndefined();
+  });
+
   test("derives tags from claims, namespaces, statuses and readings", () => {
     const p1 = byId.get("P1");
     expect(p1?.tags).toEqual(
@@ -65,9 +76,10 @@ describe("rule (d): transcription from closed premises", () => {
       fileURLToPath(new URL("../../../../scripts/testdata/frontier-transcription-closure.json", import.meta.url)),
       "utf8",
     ),
-  ) as Omit<PropositionGraphInput, "claims" | "sources" | "inferences" | "transcriptionResultIds"> & {
+  ) as Omit<PropositionGraphInput, "sources" | "inferences" | "transcriptionResultIds"> & {
     transcription_result_ids: string[];
     expected_frontier: string[];
+    expected_depth: Record<string, string>;
     expected_closed_via_transcription: Record<string, string>;
   };
   const input: PropositionGraphInput = {
@@ -75,7 +87,7 @@ describe("rule (d): transcription from closed premises", () => {
     arguments: shared.arguments,
     results: shared.results,
     relations: shared.relations,
-    claims: [],
+    claims: shared.claims,
     sources: [],
     inferences: [],
     transcriptionResultIds: shared.transcription_result_ids,
@@ -90,9 +102,13 @@ describe("rule (d): transcription from closed premises", () => {
         arguments: order(input.arguments),
         results: order(input.results),
         relations: order(input.relations),
+        claims: order(input.claims),
       });
       const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
       expect(frontier).toEqual(shared.expected_frontier);
+      expect(
+        Object.fromEntries(graph.statements.filter((entry) => entry.frontier).map((entry) => [entry.id, entry.frontierDepth])),
+      ).toEqual(shared.expected_depth);
       const closures = Object.fromEntries(
         graph.statements.flatMap((entry) =>
           entry.closedViaTranscription ? [[entry.id, entry.closedViaTranscription.resultId]] : [],
@@ -135,11 +151,15 @@ describe("corpus proposition graph", () => {
     const report = JSON.parse(
       execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], { cwd: repositoryRoot, encoding: "utf8" }),
     ) as {
-      items: Array<{ statement_id: string }>;
+      items: Array<{ statement_id: string; depth: string }>;
       closed_via_transcription: Array<{ statement_id: string; result_id: string }>;
     };
     const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
     expect(frontier).toEqual(report.items.map((item) => item.statement_id).sort());
+    const depths = Object.fromEntries(
+      graph.statements.filter((entry) => entry.frontier).map((entry) => [entry.id, entry.frontierDepth]),
+    );
+    expect(depths).toEqual(Object.fromEntries(report.items.map((item) => [item.statement_id, item.depth])));
     const closures = graph.statements
       .flatMap((entry) => (entry.closedViaTranscription ? [`${entry.id}:${entry.closedViaTranscription.resultId}`] : []))
       .sort();

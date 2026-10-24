@@ -71,7 +71,9 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
         <span className="graph-node-status">
           {statusLabel.get(statement.status)}
           {statement.refuted ? " · refuted" : ""}
-          {statement.frontier ? ` · frontier · ${statement.transitiveDependentArguments} dependent` : ""}
+          {statement.frontier
+            ? ` · frontier (${statement.frontierDepth}) · ${statement.transitiveDependentArguments} dependent`
+            : ""}
         </span>
         <span className="graph-node-text">{statement.paraphrase}</span>
         <span className="graph-node-badges">
@@ -645,7 +647,7 @@ function DetailPanel({
       <p className="eyebrow">
         {statusLabel.get(current.status)}
         {current.refuted ? " · refuted" : ""}
-        {current.frontier ? " · frontier" : ""}
+        {current.frontier ? ` · frontier (${current.frontierDepth})` : ""}
       </p>
       <h3 className="mt-2 font-serif text-2xl leading-tight">{current.paraphrase}</h3>
       <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{current.id}</p>

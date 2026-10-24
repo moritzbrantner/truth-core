@@ -122,6 +122,11 @@ ATTACKS_PREDICATE = "attacks"
 # premise is defended from a text; it is not an inference and closes nothing.
 SUPPORTS_PREDICATE = "supports"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+# Depth of an open premise (#143, 2026-10-24): "bare" when no claim states it
+# and no `supports` relation points to it; otherwise "sourced" (sourced but not
+# yet defended). The aim is to drive bare premises to zero, then defend the rest.
+FRONTIER_BARE = "bare"
+FRONTIER_SOURCED = "sourced"
 
 
 def validate_self_evident(
@@ -171,13 +176,18 @@ def frontier_report(
     relations: list[dict[str, Any]],
     root: str | None = DEFAULT_FRONTIER_ROOT,
     transcription: list[dict[str, Any]] | None = None,
+    claims: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Open premises: used as an argument premise and not closed. A statement
     is closed when it is (a) the conclusion of a verified result that is not a
     transcription (invariant 16), (b) marked self_evident, (c) refuted in every
     one of its recorded alternatives (at least one alternative recorded), or
     (d) the conclusion of a transcription result all of whose argument premises
-    are closed (#143, 2026-10-24). Rule (d) is applied to a fixpoint."""
+    are closed (#143, 2026-10-24). Rule (d) is applied to a fixpoint.
+
+    Each open premise also gets a depth (#143, 2026-10-24): "bare" when no
+    claim states it and no `supports` relation points to it, otherwise
+    "sourced" (sourced but undefended)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
@@ -295,6 +305,10 @@ def frontier_report(
                 }
                 changed = True
 
+    stating_claims: dict[str, set[str]] = {}
+    for claim in claims or []:
+        stating_claims.setdefault(claim["statement_id"], set()).add(claim["id"])
+
     items: list[dict[str, Any]] = []
     for statement_id in sorted(dependents):
         if statement_id in closed:
@@ -316,6 +330,12 @@ def frontier_report(
                 ],
                 "objections": sorted(objections.get(statement_id, ())),
                 "supporting_claims": sorted(support.get(statement_id, ())),
+                "stating_claims": sorted(stating_claims.get(statement_id, ())),
+                "depth": (
+                    FRONTIER_SOURCED
+                    if stating_claims.get(statement_id) or support.get(statement_id)
+                    else FRONTIER_BARE
+                ),
             }
         )
     items.sort(
@@ -344,7 +364,16 @@ def frontier_report(
         "closed_via_transcription": closures,
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
+        "depth_counts": depth_counts(items),
         "items": items,
+    }
+
+
+def depth_counts(items: list[dict[str, Any]]) -> dict[str, int]:
+    """Open premises by depth: bare vs. sourced but undefended."""
+    return {
+        depth: sum(1 for item in items if item["depth"] == depth)
+        for depth in (FRONTIER_BARE, FRONTIER_SOURCED)
     }
 
 
@@ -558,12 +587,16 @@ def format_frontier(report: dict[str, Any]) -> str:
     lines: list[str] = []
     root = report["root"]
     root_note = root if report["root_known"] else f"{root} (unknown statement)"
-    lines.append(f"frontier: {report['open_premise_count']} open premises; root {root_note}")
+    counts = report["depth_counts"]
+    lines.append(
+        f"frontier: {report['open_premise_count']} open premises: "
+        f"{counts[FRONTIER_BARE]} bare, {counts[FRONTIER_SOURCED]} sourced-undefended; root {root_note}"
+    )
     if not report["alternatives_recorded"]:
         lines.append("alternatives: no alternatives recorded")
     for item in report["items"]:
         lines.append("")
-        lines.append(item["statement_id"])
+        lines.append(f"{item['statement_id']} [{item['depth']}]")
         if item["paraphrase"]:
             lines.append(f"  {item['paraphrase']}")
         if item.get("transcription_only"):
@@ -590,6 +623,8 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append("  alternatives: none recorded")
         objections = item["objections"]
         lines.append(f"  objections: {', '.join(objections) if objections else 'none recorded'}")
+        if item.get("stating_claims"):
+            lines.append("  stating source claims: " + ", ".join(item["stating_claims"]))
         if item.get("supporting_claims"):
             lines.append("  supporting source claims: " + ", ".join(item["supporting_claims"]))
         if item.get("transcription_premise_of"):
@@ -926,6 +961,7 @@ def command_frontier(args: argparse.Namespace) -> int:
     arguments = [record for _, record in load_dir("arguments")]
     results = [record for _, record in load_dir("results")]
     relations = [record for _, record in load_dir("relations")]
+    claims = [record for _, record in load_dir("claims")]
     report = frontier_report(
         statements,
         arguments,
@@ -933,10 +969,12 @@ def command_frontier(args: argparse.Namespace) -> int:
         relations,
         root=args.root,
         transcription=transcription_flags(results, arguments, statements),
+        claims=claims,
     )
     if args.reaching_root:
         report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
         report["open_premise_count"] = len(report["items"])
+        report["depth_counts"] = depth_counts(report["items"])
         on_path = {
             argument_id
             for item in report["items"]
