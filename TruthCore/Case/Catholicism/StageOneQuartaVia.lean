@@ -4,10 +4,10 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Quart
 /-!
 Stage-1 statements that connect the *prima via*'s first mover moved by none
 (#151) with the *quarta via*'s maximal being (ST I q.2 a.3, fourth way; #147).
-`FirstUnmovedMoverIsMaximeEns` and `FirstUnmovedMoverHasEveryPerfectionOfThings`
-are conclusions of verified results. `MaximeEnsIsGod` and
-`SimplyPriorIsCauseOfBeing` are open premises: no source sentence asserts them in
-this form, and each states exactly one link that the derivation needs.
+`FirstUnmovedMoverIsMaximeEns`, `FirstUnmovedMoverHasEveryPerfectionOfThings`,
+`MaximeEnsIsGod` and `AtMostOneMaximeEns` are conclusions of verified results.
+`SimplyPriorIsCauseOfBeing` is an open premise: no source sentence asserts it in
+this form, and it states exactly one link that the derivation needs.
 -/
 
 namespace TruthCore.Case.Catholicism
@@ -17,11 +17,12 @@ open TruthCore.Latin.Aquinas.SummaTheologiae (IsMaximumIn)
 universe v w
 
 /-- Whatever is maximal in being is God, in the sense in which ST I q.105 a.5 speaks
-of God (`God`). Open premise (candidate `AQUINAS-MAXIME-ENS-IS-GOD`). The
-*quarta via* ends *et hoc dicimus Deum*, which supports it but is a nominal
-remark about the cause of being and every perfection; reading it as identifying
-that cause with the one q.105 a.5 says applies every created agent to act is the
-step still to be argued. -/
+of God (`God`). Introduced as an open premise (#173); derived in result
+`AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD` (#143, 2026-10-24) from the uniqueness of
+the maximum in being (`AtMostOneMaximeEns`) and the explicit nominal definition
+`GodNamesTheUniqueMaximeEnsReading` (q.13 a.8 ad 2; *et hoc dicimus Deum*). The
+identification stays nominal: it rests on the name "God" having one use in
+q.2 a.3 and q.105 a.5, which is the content of that definition. -/
 def MaximeEnsIsGod {Being : Sort v} {Respect : Sort w}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop) (esse : Respect)
@@ -60,5 +61,15 @@ def FirstUnmovedMoverHasEveryPerfectionOfThings {Being : Sort v} {Respect : Sort
     (MovesIn : Being → Being → Respect → Prop)
     (InAct : Being → Respect → Prop) : Prop :=
   ∀ f, IsFirstUnmovedMover MovedIn MovesIn f → ∀ x r, InAct x r → InAct f r
+
+/-- There is at most one maximum in being: any two beings that are each maximal in
+being (`IsMaximumIn InAct MoreIn esse`: each has being, and nothing is more a
+being than either) are the same. Derived in result
+`AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS` from the *quarta via*'s genus
+principle and *Metaphysics* II.1; it is not a source reading. -/
+def AtMostOneMaximeEns {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
+  ∀ m m', IsMaximumIn InAct MoreIn esse m → IsMaximumIn InAct MoreIn esse m' → m = m'
 
 end TruthCore.Case.Catholicism
