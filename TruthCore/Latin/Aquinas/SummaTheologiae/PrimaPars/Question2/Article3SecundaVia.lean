@@ -85,7 +85,8 @@ omnibus causis efficientibus ordinatis, primum est causa medii, et medium est
 causa ultimi ... remota autem causa, removetur effectus*).
 
 Read as the per se ordering premise, parallel to the *prima via*'s
-`SecondMoversMoveOnlyAsMovedReading` (strong reading): an efficient cause other
+`SecondMoversMoveOnlyAsMovedReading` (strong reading A; the weaker sibling is
+`SecondEfficientCausesCauseAsCausedInRelevantRespectReading`): an efficient cause other
 than its effect that is itself efficiently caused is a middle cause, causing only
 as caused (`CausesAsCaused`). Per accidens series (a father who begets, himself
 begotten) are not present series and are not covered.
@@ -98,6 +99,31 @@ def SecondEfficientCausesCauseOnlyAsCausedReading
     (CausesAsCaused : Being → Being → Prop) : Prop :=
   ∀ c x r, c ≠ x → EfficientlyCausesIn c x r →
     (∃ d r', EfficientlyCausesIn d c r') → CausesAsCaused c x
+
+/-- Weaker sibling reading of *primum est causa medii, et medium est causa ultimi
+... remota autem causa, removetur effectus*: an efficient cause other than its
+effect is a middle cause of the series only when it is itself caused in a respect
+relevant to its causing that effect.
+
+`RelevantTo c x r r'` says that `c`'s being caused in `r'` bears on `c`'s causing
+`x` in `r`. A cause caused only in irrelevant respects (a man nourished while he
+moves a stick; *generat enim inquantum homo*, ST I q.46 a.2 ad 7, reading B) is
+not thereby a per se link. This parallels the *prima via*'s
+`SecondMoversMoveAsMovedInRelevantRespectReading`. The result
+`AQUINAS-ST-I-Q2-A3-SECUNDA-VIA` uses the strong reading
+`SecondEfficientCausesCauseOnlyAsCausedReading`, not this one; on this reading
+the argument yields at most a cause uncaused *in the relevant respects*.
+
+Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co., second way (weaker
+reading).
+-/
+def SecondEfficientCausesCauseAsCausedInRelevantRespectReading
+    {Being : Sort u} {Respect : Sort v}
+    (EfficientlyCausesIn : Being → Being → Respect → Prop)
+    (CausesAsCaused : Being → Being → Prop)
+    (RelevantTo : Being → Being → Respect → Respect → Prop) : Prop :=
+  ∀ c x r r', c ≠ x → EfficientlyCausesIn c x r →
+    (∃ d, EfficientlyCausesIn d c r') → RelevantTo c x r r' → CausesAsCaused c x
 
 /-- Among efficient causes one cannot proceed to infinity (*Non autem est possibile
 quod in causis efficientibus procedatur in infinitum*), restricted, as ST I q.46
