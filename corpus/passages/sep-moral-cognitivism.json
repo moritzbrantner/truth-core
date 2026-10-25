@@ -1,0 +1,62 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SEP-MORAL-COGNITIVISM",
+    "source_url": "https://plato.stanford.edu/archives/spr2026/entries/moral-cognitivism/",
+    "retrieved_at": "2026-10-24T11:16:11Z",
+    "sha256": "sha256:b72cffcee763504d462d6026c7fe57fc9c28c2c0c407323da8262eb0815a3739",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright © 2023 by Mark van Roojen; the Stanford Encyclopedia of Philosophy is copyright © 2024 by The Metaphysics Research Lab, Department of Philosophy, Stanford University (notices on the page, checked 2026-10-24). Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "SEP-MORAL-COGNITIVISM-2-1",
+      "locator": "§2.1 (Emotivism)",
+      "claim_locator_prefixes": ["§2.1,"],
+      "html_selector": {"from": {"anchor": "Emot"}, "to": {"anchor": "PresUnivPres"}},
+      "text_sha256": "sha256:f77af3472aef5a4d36caeca1f6b0f1a2ae19708de82e4520d612287d3693c620",
+      "incipit": "2.1 Emotivism\nEmotivists think moral terms in grammatically assertive"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-2-3",
+      "locator": "§2.3 (Quasi-realism)",
+      "claim_locator_prefixes": ["§2.3,"],
+      "html_selector": {"from": {"anchor": "QuasReal"}, "to": {"anchor": "Expr"}},
+      "text_sha256": "sha256:081ee25ff0ee3118b4e83d8b5144dc5af9ecff9960998ef341a053bb4c1a26d2",
+      "incipit": "2.3 Quasi-realism\nSince non-cognitivism is a species of irrealism about ethics,"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-2-4",
+      "locator": "§2.4 (Expressivism)",
+      "claim_locator_prefixes": ["§2.4,"],
+      "html_selector": {"from": {"anchor": "Expr"}, "to": {"anchor": "NormExprPlanExpr"}},
+      "text_sha256": "sha256:680b32a87a43b6edfe3f5aede810ac12059aa775f4a5c11366833749a76deb8e",
+      "incipit": "2.4 Expressivism\nExpressivists of all sorts think that moral sentences are"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-2-5",
+      "locator": "§2.5 (Norm-expressivism and Plan-expressivism)",
+      "claim_locator_prefixes": ["§2.5,"],
+      "html_selector": {"from": {"anchor": "NormExprPlanExpr"}, "to": {"anchor": "BordCaseHybrTheo"}},
+      "text_sha256": "sha256:2ba2e076ab7038797753e9f33c20a461de275d1752b54f007979458f05693e86",
+      "incipit": "2.5 Norm-expressivism and Plan-expressivism\nGibbard’s Wise Choices, Apt"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-4-1",
+      "locator": "§4.1 (The Embedding Problem)",
+      "claim_locator_prefixes": ["§4.1,"],
+      "html_selector": {"from": {"anchor": "EmbeProb"}, "to": {"anchor": "WishThinObjeMoraReasMoraUnce"}},
+      "text_sha256": "sha256:9483bd0ccdcb40f76fbfcc74abafe001483596961c86aab8cba71bfa9be9f391",
+      "incipit": "4.1 The Embedding Problem\nNon-cognitivism as it is often presented is"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-5-3",
+      "locator": "§5.3 (Non-cognitivist Overreaching and Possible Collapse)",
+      "claim_locator_prefixes": ["§5.3,"],
+      "html_selector": {"from": {"anchor": "NonCognOverPossColl"}, "to": {"anchor": "Conc"}},
+      "text_sha256": "sha256:c31e32ce98f908abbfcdb21b1e3ef90743feea445407026f574da847b5823f8b",
+      "incipit": "5.3 Non-cognitivist Overreaching and Possible Collapse\nOne final sort of worry"
+    }
+  ]
+}

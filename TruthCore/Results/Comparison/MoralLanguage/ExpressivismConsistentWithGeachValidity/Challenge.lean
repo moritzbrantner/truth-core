@@ -1,0 +1,6 @@
+import TruthCore.Comparison.MoralLanguage
+namespace TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity
+open TruthCore.Comparison.MoralLanguage
+theorem expressivismConsistentWithGeachValidity : ExpressivismConsistentWithGeachValidity := by
+  sorry
+end TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity

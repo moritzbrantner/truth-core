@@ -229,3 +229,9 @@ import TruthCore.Results.Aristotle.Physics.NoGuaranteedHalfAgentChange.Solution
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectorRegress.Solution
+import TruthCore.English.VanRoojen.MoralCognitivism
+import TruthCore.Comparison.MoralLanguage
+import TruthCore.Refutations.Emotivism
+import TruthCore.Results.Comparison.MoralLanguage.NaiveEmotivismInvalidatesGeachMP.Solution
+import TruthCore.Results.Comparison.MoralLanguage.FregeGeachRefutesNaiveEmotivism.Solution
+import TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity.Solution
