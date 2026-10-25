@@ -1,0 +1,9 @@
+{
+  "id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "argument_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.withholdingCompatibleWithBeingUniversal",
+  "comparator_config": "results/KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL/comparator.json",
+  "status": "solution-present"
+}

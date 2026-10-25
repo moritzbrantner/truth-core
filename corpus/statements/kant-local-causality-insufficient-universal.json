@@ -1,0 +1,11 @@
+{
+  "id": "STMT-KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "paraphrase": "There is a universal-accessibility modal interpretation with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-LOCAL-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal"
+}

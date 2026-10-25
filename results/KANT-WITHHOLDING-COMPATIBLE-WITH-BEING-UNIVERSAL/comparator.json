@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.withholdingCompatibleWithBeingUniversal"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

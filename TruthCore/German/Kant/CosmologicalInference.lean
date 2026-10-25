@@ -106,4 +106,22 @@ def ChangeDoesNotGiveModalContingency : Prop :=
     (∀ w v, frame.access w v) ∧ state false false ∧ ¬state false true ∧
     ¬∃ w, frame.access false w ∧ ¬state w false
 
+/-- Revised model claim: unlike the preserved earlier arbitrary-frame claim,
+this type itself certifies the advertised universal accessibility. The extra
+conjunct is part of the constructed conclusion, not a metaphysical premise. -/
+def LocalCausalityInsufficientUniversal : Prop :=
+  ∃ m : Ontic Bool (Bool × Nat),
+    (∀ w v, m.frame.access w v) ∧ LocalCausalPrinciple m ∧
+    (∃ x, ContingentAt m false x) ∧ ¬NecessaryBeing m false
+
+/-- Revised epistemic model claim: every metaphysical frame, including every
+epistemic alternative, must have universal accessibility. Epistemic availability
+and metaphysical accessibility remain distinct typed quantifications. -/
+def WithholdingCompatibleWithBeingUniversal : Prop :=
+  ∃ family : Bool → Ontic Bool Bool,
+    (∀ s w v, (family s).frame.access w v) ∧
+    NecessaryBeing (family true) false ∧
+    ¬KnowsNecessary family (fun _ => True) false ∧
+    ¬KnowsNoNecessary family (fun _ => True) false
+
 end TruthCore.German.Kant.CosmologicalInference

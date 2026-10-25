@@ -1,0 +1,9 @@
+{
+  "id": "INF-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "rule": "model-construction",
+  "meaning": "An explicit family of interpretations has a necessary being in its designated actual member while neither its existence nor its nonexistence is known across all epistemically available interpretations. Every metaphysical frame has universal accessibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

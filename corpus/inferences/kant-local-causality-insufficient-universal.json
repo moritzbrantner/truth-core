@@ -1,0 +1,9 @@
+{
+  "id": "INF-KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "rule": "model-construction",
+  "meaning": "There is a universal-accessibility modal interpretation with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

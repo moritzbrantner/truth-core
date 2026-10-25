@@ -316,7 +316,9 @@ import TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContin
 import TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Solution
 import TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution
 import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution
+import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Solution
 import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution
+import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

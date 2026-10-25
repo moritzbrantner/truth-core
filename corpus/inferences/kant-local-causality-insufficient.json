@@ -3,7 +3,7 @@
   "input_statement_ids": [],
   "output_statement_id": "STMT-KANT-LOCAL-CAUSALITY-INSUFFICIENT",
   "rule": "model-construction",
-  "meaning": "There is a universal-accessibility modal interpretation with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world.",
+  "meaning": "There is a modal interpretation with unrestricted accessibility with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world. Earlier underconstrained conclusion, retained with its frozen theorem.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
