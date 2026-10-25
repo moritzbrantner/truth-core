@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MIND-INDEPENDENCE",
+  "term": "mind-independent ('if we all approved of cruelty, it would still be wrong')",
+  "sense_definition_ids": [
+    "DEF-MIND-INDEPENDENCE-INTERNAL",
+    "DEF-MORAL-OBJECTIVITY"
+  ],
+  "resolution": "Two senses. Internal (DEF-MIND-INDEPENDENCE-INTERNAL): the counterfactual asserted as a moral claim, its legitimacy judged by one's attitudes. Objectivity (DEF-MORAL-OBJECTIVITY): the metaphysical thesis that moral facts exist and are mind-independent. STMT-QUASI-REALISM-SEEKS-MIND-INDEPENDENCE-TALK uses the internal sense: quasi-realism aims to assert the sentence. STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT uses the objectivity sense. So the deviation map records two answers, not one: on the sentence, quasi-realism matches realism only if its program succeeds, which no witness asserts; on objectivity it does not affirm realism's answer, provided quasi-realism is read, as the entry presents it, as a noncognitivist program (Blackburn's own label is projectivism), since a noncognitivist is neither objectivist nor non-objectivist (STMT-NONCOGNITIVISM-NEITHER-OBJECTIVIST-NOR-NON-OBJECTIVIST). No step passes from asserting the sentence to objectivism, or from denying objectivism to rejecting the sentence. That realism's objectivism yields the counterfactual is not formalized: it depends on which mind-independence relation is meant (Moral Anti-Realism §3.3)."
+}
