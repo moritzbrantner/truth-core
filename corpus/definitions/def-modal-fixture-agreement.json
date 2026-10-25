@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-AGREEMENT",
+  "term": "agreement on a proposition domain",
+  "definition": "Agree D w v means every admissible predicate has equivalent truth values at w and v. This is domain-relative semantic agreement, not automatically metaphysical identity.",
+  "basis": "stipulative",
+  "note": "Repository-native mathematical fixture requested in #261. No historical attribution or metaphysical endorsement; source-based adoption requires a separate witnessed reading.",
+  "lean_declaration": "TruthCore.Modal.ResearchFixture.Agree"
+}

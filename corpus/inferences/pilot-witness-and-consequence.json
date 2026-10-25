@@ -1,0 +1,12 @@
+{
+  "id": "INF-PILOT-WITNESS-AND-CONSEQUENCE",
+  "input_statement_ids": [
+    "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+  ],
+  "output_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "rule": "conjunction_introduction",
+  "meaning": "Pair the independently constructed existential witness with the consequence obtained by the imported someImpliesNotAll theorem.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

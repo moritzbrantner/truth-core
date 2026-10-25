@@ -1,0 +1,21 @@
+{
+  "id": "MODAL-FIXTURE-CHECKS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-FIXTURE-CHECKS",
+  "inference_ids": [
+    "INF-MODAL-FIXTURE-CHECKS"
+  ],
+  "meaning": "Reusable mathematical semantics prerequisite for #248/#261, not a philosophical closure or refutation. Every frame, domain and identity premise is explicit inside the contract.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY"
+  ]
+}
