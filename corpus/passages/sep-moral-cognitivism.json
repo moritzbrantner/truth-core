@@ -11,12 +11,44 @@
   },
   "passages": [
     {
+      "id": "SEP-MORAL-COGNITIVISM-PREAMBLE",
+      "locator": "preamble (the entry's opening paragraphs, before §1)",
+      "claim_locator_prefixes": ["preamble,"],
+      "html_selector": {"element_id": "preamble"},
+      "text_sha256": "sha256:bf559802b13454978395744a74e4f648892a61fa0f599aacbbff7fdcf835d216",
+      "incipit": "Non-cognitivism is a variety of irrealism about ethics with a number of"
+    },
+    {
       "id": "SEP-MORAL-COGNITIVISM-1-1",
       "locator": "§1.1 (Two Negative Constitutive Non-cognitivist Claims)",
       "claim_locator_prefixes": ["§1.1,"],
       "html_selector": {"from": {"anchor": "TwoNegaConsNonCognClai"}, "to": {"anchor": "Cogn"}},
       "text_sha256": "sha256:74c42ef9d08aed97b0bb86766b39314e43bdbbe21b780a5a34426313ace4825f",
       "incipit": "1.1 Two Negative Constitutive Non-cognitivist Claims\nTwo negative theses"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-1-2",
+      "locator": "§1.2 (Cognitivism)",
+      "claim_locator_prefixes": ["§1.2,"],
+      "html_selector": {"from": {"anchor": "Cogn"}, "to": {"anchor": "ContCognSubj"}},
+      "text_sha256": "sha256:c4558d55662a073c39eb3bf12f713673d42796a9201a5ed96722aed5756a6842",
+      "incipit": "1.2 Cognitivism\nCognitivism is perhaps best defined as the denial of"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-3-4",
+      "locator": "§3.4 (Supervenience)",
+      "claim_locator_prefixes": ["§3.4,"],
+      "html_selector": {"from": {"anchor": "Supe"}, "to": {"anchor": "DistMoraDisa"}},
+      "text_sha256": "sha256:3e2946aa6454dae0174ec93dbdfd68f073110ad4e5f47bbdc9ab136087e01eb1",
+      "incipit": "3.4 Supervenience\nIt is relatively common ground among moral theorists that"
+    },
+    {
+      "id": "SEP-MORAL-COGNITIVISM-5-2",
+      "locator": "§5.2 (Minimalism as Undermining Non-cognitivism)",
+      "claim_locator_prefixes": ["§5.2,"],
+      "html_selector": {"from": {"anchor": "MiniUndeNonCogn"}, "to": {"anchor": "NonCognOverPossColl"}},
+      "text_sha256": "sha256:6a46048758bde4c98fb1d58314a30764edd11a093efe8bb7a959437e4a9e3c04",
+      "incipit": "5.2 Minimalism as Undermining Non-cognitivism\nAnother line of argument with a"
     },
     {
       "id": "SEP-MORAL-COGNITIVISM-2-2",

@@ -1,0 +1,1 @@
+{"id": "STMT-MIMIC-THEORY-COLLAPSES", "paraphrase": "The collapse lemma: a theory whose answer map matches another's on every shared question is not a distinct rival to it, and is committed at every question to whatever the other is committed to there, the grounding question included.", "lean_declaration": "TruthCore.Metaethics.MimicCollapses"}

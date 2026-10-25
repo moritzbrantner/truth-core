@@ -173,4 +173,18 @@ def QuasiRealistMinimalTruthAptReading {Sentence : Sort u}
     (Moral TruthApt RobustlyTruthApt : Sentence → Prop) : Prop :=
   ∀ φ, Moral φ → TruthApt φ ∧ ¬ RobustlyTruthApt φ
 
+/-- Realism's robust truth: "moral realists are cognitivists insofar as they
+think moral statements are apt for robust truth and falsity and that many of
+them are in fact true".
+
+Only robust truth-aptness is formalized, not that many moral statements are
+true. `RobustlyTruthApt` is the predicate of `QuasiRealistMinimalTruthAptReading`.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), preamble.
+-/
+def RealistRobustTruthAptReading {Sentence : Sort u}
+    (Moral RobustlyTruthApt : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → RobustlyTruthApt φ
+
 end TruthCore.English.VanRoojen

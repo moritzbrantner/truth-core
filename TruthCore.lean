@@ -93,12 +93,14 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
 import TruthCore.Modal.Kripke
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
+import TruthCore.Refutations.QuasiRealism
 import TruthCore.Refutations.TertiaVia
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
@@ -253,6 +255,8 @@ import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
+import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
+import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
