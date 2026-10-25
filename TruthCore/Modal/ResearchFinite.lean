@@ -67,7 +67,7 @@ private theorem anyTrue {W : Type} (xs : List W) (f : W → Bool) :
       | head => exact .inl hf
       | tail _ hw => exact .inr (ih.mpr ⟨w, hw, hf⟩)
 
- theorem eval_correct {W A : Type} (m : Model W A) (p : Formula A) (w : W) :
+theorem eval_correct {W A : Type} (m : Model W A) (p : Formula A) (w : W) :
     eval m w p = true ↔ Holds m.frame m.valuation w p := by
   induction p generalizing w with
   | atom a => rfl
@@ -153,7 +153,7 @@ def duplicates : Model Bool Unit where
   edge := fun _ _ => true
   atom := fun _ _ => true
 
- theorem duplicates_constant (p : Formula Unit) :
+theorem duplicates_constant (p : Formula Unit) :
     Holds duplicates.frame duplicates.valuation false p ↔
     Holds duplicates.frame duplicates.valuation true p := by
   induction p with
@@ -166,14 +166,14 @@ def duplicates : Model Bool Unit where
   | box p _ => rfl
   | diamond p _ => rfl
 
- theorem duplicate_language_collapse :
+theorem duplicate_language_collapse :
     MC duplicates.frame (expressible duplicates.frame duplicates.valuation) false := by
   rintro P ⟨p, rfl⟩ hp v _
   cases v with
   | false => exact hp
   | true => exact duplicates_constant p |>.mp hp
 
- theorem duplicate_identity_inadmissible :
+theorem duplicate_identity_inadmissible :
     ¬ IdentityAdmissible (expressible duplicates.frame duplicates.valuation) false := by
   rintro ⟨p, he⟩
   have h := duplicates_constant p
@@ -182,27 +182,27 @@ def duplicates : Model Bool Unit where
   have ht : (true : Bool) = false := (congrFun he true).mpr (h.mp hf)
   exact Bool.noConfusion ht
 
- theorem duplicate_not_extensional :
+theorem duplicate_not_extensional :
     ¬ PropositionalExtensionality (expressible duplicates.frame duplicates.valuation) := by
   intro h
   have he := h false true (by rintro P ⟨p, rfl⟩; exact duplicates_constant p)
   exact Bool.noConfusion he
 
- theorem branching_root_failure :
+theorem branching_root_failure :
     eval branching false (.imp (.atom ()) (.box (.atom ()))) = false := rfl
- theorem branching_terminal_success :
+theorem branching_terminal_success :
     eval branching true (.imp (.atom ()) (.box (.atom ()))) = true := rfl
- theorem branching_witness : counterexamples branching false (.atom ()) = [true] := rfl
- theorem branching_possibility : witnesses branching false (.atom ()) = [false] := rfl
+theorem branching_witness : counterexamples branching false (.atom ()) = [true] := rfl
+theorem branching_possibility : witnesses branching false (.atom ()) = [false] := rfl
 
 /-- Scope (c) can omit a distinguishing sentence present in scope (b). -/
 def inventory : Unit → Bool → Prop := fun _ _ => True
 
- theorem inventory_collapse : MC branching.frame (corpusDomain inventory) false := by
+theorem inventory_collapse : MC branching.frame (corpusDomain inventory) false := by
   rintro P ⟨i, rfl⟩ _ v _
   trivial
 
- theorem branching_language_not_collapse :
+theorem branching_language_not_collapse :
     ¬ MC branching.frame (expressible branching.frame branching.valuation) false := by
   intro h
   have ht := h (fun w => Holds branching.frame branching.valuation w (.atom ()))
@@ -210,7 +210,7 @@ def inventory : Unit → Bool → Prop := fun _ _ => True
   change false = true at ht
   exact Bool.noConfusion ht
 
- theorem branching_full_not_collapse : ¬ MC branching.frame allPredicates false := by
+theorem branching_full_not_collapse : ¬ MC branching.frame allPredicates false := by
   intro h
   have he := identity_separates branching.frame allPredicates false trivial h true rfl
   exact Bool.noConfusion he
