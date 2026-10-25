@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-THIRD-MAN-DOMAIN",
+  "term": "one over many",
+  "sense_definition_ids": [
+    "DEF-THIRD-MAN-FORMATION",
+    "DEF-THIRD-MAN-INITIAL-SCOPE",
+    "DEF-THIRD-MAN-ITERATION",
+    "DEF-THIRD-MAN-SCOPED-FORMATION"
+  ],
+  "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic."
+}

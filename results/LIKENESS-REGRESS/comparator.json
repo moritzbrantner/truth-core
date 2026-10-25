@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.likenessRegress"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

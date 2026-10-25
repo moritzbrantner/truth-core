@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+  "term": "separation",
+  "definition": "ParticipantNonidentity quantifies over every admitted quality q, every Form f of q and every entity x: participation of x in f implies f ≠ x, including when x is another Form. It neither defines ontological independence nor follows from particulars-only nonidentity.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.ParticipantNonidentity"
+}

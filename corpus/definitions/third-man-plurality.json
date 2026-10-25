@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-PLURALITY",
+  "term": "plurality",
+  "definition": "Plural xs means there are two numerically distinct members of xs. Repeated list entries alone never constitute a plurality.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Plural"
+}

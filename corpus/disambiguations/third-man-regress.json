@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-THIRD-MAN-REGRESS",
+  "term": "regress-generating rule",
+  "sense_definition_ids": [
+    "DEF-THIRD-MAN-FORMATION",
+    "DEF-THIRD-MAN-LIKENESS-FORMATION",
+    "DEF-THIRD-MAN-MUTUAL-LIKENESS"
+  ],
+  "resolution": "The 132a–b proof uses ordinary homogeneous exemplification and ordinary self-predication. The 132d–133a proof instead uses mutual resemblance, a common likeness Form, symmetry and a participation-to-resemblance bridge. Its induction never uses ordinary self-predication. Both conclude numerical unboundedness, not a verdict on every form of Platonism."
+}

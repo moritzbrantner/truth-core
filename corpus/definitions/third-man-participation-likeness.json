@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-PARTICIPATION-LIKENESS",
+  "term": "participation as likeness",
+  "definition": "ParticipationLikeness converts participation x f into resemblance Like x f. This is the contested bridge, not a consequence of directed imitation, explanatory participation or a relation field name.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.ParticipationLikeness"
+}
