@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "statement_id": "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.44 a.1 co.; ad 1",
+  "interpretation": "The corpus argues from participated being to the first being whose esse belongs essentially; reply 1 says that being by participation entails being caused by another, while being caused is not part of being simply. This is a one-way source reading, not the converse that essence–esse identity alone implies uncausedness, nor an identification of participated esse with Platonic participation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-ESSE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
+    "DISAMB-BEING"
+  ]
+}

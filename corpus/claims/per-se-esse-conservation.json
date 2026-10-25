@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE",
+  "statement_id": "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.104 a.1 co.; ad 4",
+  "interpretation": "The article distinguishes direct per-se preservation, in which the preserved creature depends on the preserver for its being, from accidental removal of corruption. Reply 4 describes divine preservation as continuation of the giving of esse, without motion or time. This attributes the conservation account to Aquinas; it does not equate arbitrary counterfactual dependence or modal power with the corpus CausesIn relation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PER-SE-ESSE-CONSERVATION",
+    "DEF-PER-ACCIDENS-PRESERVATION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRESERVATION-MODE"
+  ],
+  "basis": "translation"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+  "paraphrase": "An agent can cause an effect's coming-to-be without being a direct cause on which the effect's continued being depends.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-BECOMING",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-PER-SE-ESSE-CONSERVATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BECOMING-BEING-CAUSE",
+    "DISAMB-PRESERVATION-MODE"
+  ]
+}

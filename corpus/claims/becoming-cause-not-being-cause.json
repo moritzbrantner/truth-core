@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE",
+  "statement_id": "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.104 a.1 co.: cause of becoming and cause of being",
+  "interpretation": "The builder example illustrates a cause of the house's becoming whose ceased building does not end the house's being. The article contrasts this with a cause of being as such, on whose action the effect's being depends. The distinction does not deny every causal contribution of the builder and does not say that all preservation is direct conservation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAUSE-OF-BECOMING",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-PER-SE-ESSE-CONSERVATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BECOMING-BEING-CAUSE",
+    "DISAMB-PRESERVATION-MODE"
+  ],
+  "basis": "translation"
+}

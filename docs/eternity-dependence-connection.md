@@ -34,6 +34,57 @@ Diplomatic transcription noise does not erase the relevant complete clauses.
   withdrawal. Proper eternity excludes that compatibility with before and
   after. See `AQUINAS-ST-I-Q10-A5-AEVUM-ADJUNCT-CHANGE`.
 
+## Conservation reading and its limits
+
+The additional evidence is the pinned Latin `AQUINAS-ST-I-Q44-A1` and the
+translated `AQUINAS-ST-I-Q104-A1-EN`. The latter uses the existing New Advent
+English Dominican translation mechanism: the admitted SCTA transcription does
+not cover q.104. Its response bytes and selected article text matched on two
+fetches. Translation-based claims say `basis: translation`; they are not treated
+as readings of the Latin q.44 witness.
+
+Q.104 a.1 distinguishes indirect preservation by preventing corruption from
+**direct, per-se conservation of esse**. A guardian can preserve a child from
+fire without thereby being a direct giver of the child's esse. A builder can
+cause a house to come-to-be without remaining the direct cause on which its
+continued being depends. The article's divine application describes
+conservation as the continuation of the action giving esse, not a new temporal
+production at every instant; reply 4 expressly says the action is without
+motion or time. These are the bounded readings
+`STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE` and
+`STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING`.
+
+Q.44 a.1, including reply 1, connects participated esse to being caused by
+another (`STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE`). Its reply 2 also warns
+that an effect's necessity does not by itself exclude an efficient cause.
+Neither that text nor q.3 a.4 licenses the inverse inference from
+**essence–esse identity** to absence of an external cause.
+
+For obligation B the narrow proposed reading is:
+
+> If c directly conserves x's esse as its continuing giver, then c is a cause
+> of x's being in the relevant esse sense; to use the maximum exclusion, c must
+> also be distinct from x.
+
+`DirectConservesEsse(c,x)` here is a name for a proposed interpretation, not an
+introduced Lean predicate or a definition that includes `CausesIn c x esse`.
+The exact interpretation into the existing `CausesIn` relation remains open.
+Q.104 supports this scope through its giving-esse account; it does not justify
+quantifying over every guardian, builder, arbitrary nonexistence counterfactual,
+or power described only modally. The universal source reading and its
+application to the same maximal root witness would both have to be explicit
+before advertising a further derived result.
+
+If that interpretation is defended, the already checked
+`maximumHasNoDistinctEsseCause` theorem could rule out a distinct direct
+conserver of that same maximum. Its companion `quartaViaWitness` imports the
+existing Fourth Way theorem to supply the witness. This identifies a concrete
+connection to consume; it does not perform a new inference merely by drawing a
+support edge. In particular, it would still not exclude every arbitrary action
+or withdrawal power of another being, and it would not supply obligations A or C
+below. This source-only change adds no result, changes no primitive predicate,
+and closes no frontier node.
+
 ## A structural consequence already available
 
 `MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE` proves that a maximum in being has no

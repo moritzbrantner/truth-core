@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.newadvent.org/summa/1104.htm",
+    "retrieved_at": "2026-10-25T20:03:36Z",
+    "sha256": "sha256:3580c77dbd3216d5cb3d6ff99c24c424db3e015c61f35714cc0415cd259f55b2",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Fathers of the English Dominican Province",
+      "year": 1920,
+      "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"
+    },
+    "license": "The 1920 English Dominican translation is in the public domain in the US. New Advent identifies Kevin Knight as online editor and carries an online edition copyright notice. Only hashes, locators and a short incipit are committed. Two independent fetches matched both response-byte and selected-text hashes. No archival fallback is pinned. The SCTA TAca84 transcription at the admitted revision does not supply I q.104; the New Advent translation is used on that basis, without identifying it with the pinned Latin q.44 edition."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-I-Q104-A1-EN",
+      "locator": "I q.104 a.1",
+      "claim_locator_prefixes": [
+        "I q.104 a.1 "
+      ],
+      "html_selector": {
+        "heading": "Article 1. Whether creatures need to be kept in being by God?"
+      },
+      "text_sha256": "sha256:fa09f205616e310f903e8f73d6885a71fae60f148fbed467cbb1cbc0f6010e0f",
+      "incipit": "Article 1. Whether creatures need to be kept in being by God?\nObjection 1. It"
+    }
+  ]
+}

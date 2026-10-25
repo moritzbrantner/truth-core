@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
+  "term": "participation",
+  "sense_definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-PLATONIC-PARTICIPATION"
+  ],
+  "resolution": "The q.44 reading concerns derivative esse as contrasted with essential/subsistent esse. It does not identify this source meaning with Plato's participation relation; no statement IDs or Lean declarations are merged by the shared word."
+}
