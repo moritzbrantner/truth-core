@@ -1,0 +1,16 @@
+{
+  "id": "STMT-PLATONIC-PROPERTY-INSTANCES",
+  "paraphrase": "There are two distinct particulars sharing an admitted quality, the bounded phenomenon to be explained.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.PropertyInstances",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

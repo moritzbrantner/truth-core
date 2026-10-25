@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-IMITATION",
+  "term": "likeness",
+  "definition": "Imitates x f is directed image-to-model dependence, distinct from a generic resemblance Like. The painter’s imitation of an artifact’s appearance is not automatically a direct imitation of a Form.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "argument_id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.selfPredicatingConsistent",
+  "comparator_config": "results/PLATONIC-SELF-PREDICATING-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

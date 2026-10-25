@@ -1,0 +1,50 @@
+{
+  "id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "commitment_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-ONE-OVER-MANY",
+    "STMT-PLATONIC-UNIQUE-FORMS",
+    "STMT-PLATONIC-PARTICIPATION-PREDICATION",
+    "STMT-PLATONIC-NONIDENTITY",
+    "STMT-PLATONIC-ONTOLOGICAL-SEPARATION",
+    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+    "STMT-PLATONIC-EXEMPLAR-PARTICIPATION",
+    "STMT-PLATONIC-INTELLIGIBLE-FORMS",
+    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION"
+  ],
+  "inference_ids": [
+    "INF-PLATONIC-SELF-PREDICATING-CONSISTENT"
+  ],
+  "meaning": "The explicit finite model satisfies exactly the ten listed conjuncts of SelfPredicating. No premises assert its philosophical truth. Generic likeness, essential characterization, human-range inclusion, an unrestricted one-over-many rule and any Catholicism verdict are absent. The result is a model construction, not an opaque-Prop transcription or a refutation.",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+    "DEF-PLATONIC-HUMAN-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-SEPARATION",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-HUMAN"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PLATONIC-PREDICATION",
+  "term": "is F",
+  "sense_definition_ids": [
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-PLATONIC-ESSENTIAL"
+  ],
+  "resolution": "SelfPredicating uses ordinary Exemplifies, Essential uses Essentially. The two Phaedo beauty readings are siblings. No conversion between them is assumed; neither makes Form identity the same as predication."
+}

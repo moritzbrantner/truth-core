@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-PHAEDO-101D-HYPOTHESIS",
+  "statement_id": "STMT-PLATONIC-PHAEDO-101D-HYPOTHESIS",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "101d–102a",
+  "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Consequences of a hypothesis are examined for agreement before giving an account of the hypothesis by a higher one; Forms and denomination through participation are agreed as hypotheses, not proved by that agreement.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}

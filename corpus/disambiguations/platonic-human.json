@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PLATONIC-HUMAN",
+  "term": "man/human",
+  "sense_definition_ids": [
+    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+    "DEF-PLATONIC-HUMAN-NATURE"
+  ],
+  "resolution": "The human quality and its bearers are distinct semantic roles. Parmenides 130c expresses uncertainty about a separate human Form; the optional HumanFormAdmitted proposition remains unattributed and open. No self-predication rule turns the Form into a biological individual by definition."
+}

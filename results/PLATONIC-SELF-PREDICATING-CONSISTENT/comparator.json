@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.selfPredicatingConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

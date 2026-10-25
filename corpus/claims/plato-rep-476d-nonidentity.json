@@ -1,0 +1,23 @@
+{
+  "id": "PLATO-REP-476D-NONIDENTITY",
+  "statement_id": "STMT-PLATONIC-NONIDENTITY",
+  "source_id": "PLATO-REP",
+  "locator": "476c–d",
+  "interpretation": "The wakeful knower does not take the Form for the participants or the participants for the Form. Numerical nonidentity alone is projected; no independence follows.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

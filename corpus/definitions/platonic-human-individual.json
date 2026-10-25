@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+  "term": "man/human",
+  "definition": "A human individual such as Socrates is a possible entity in the bearer domain, not itself the quality human. The vocabulary does not require every entity or particular to be human.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}
