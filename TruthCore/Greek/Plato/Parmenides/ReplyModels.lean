@@ -24,7 +24,8 @@ def GroundReplyPossible : Prop :=
     (∀ f x, ¬g.ProducesChange f x)
 
 /-- Two directions of mediated cognition can cross the encoded realm boundary:
-no object is identified with its presentation; no agent becomes a Form.
+no object is identified with its presentation. Entity and agent argument roles
+both use Bool here; no claim about their philosophical identity is made.
 A divine mode is merely an interpreted label, not a proof of a god's existence. -/
 def MediationPossible : Prop :=
   ∃ (s : Vocabulary Bool Unit) (k : Cognition Bool Bool),

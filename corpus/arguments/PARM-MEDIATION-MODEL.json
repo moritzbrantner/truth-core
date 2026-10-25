@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-PARM-MEDIATION-MODEL"
   ],
-  "meaning": "Construct distinct entity and agent types, each Bool, with a human and a divine mode. Each has immediate access to its own presentation; the presentation targets the other side. Object-directed knowledge is interpreted as the opposite-side relation and the transfer rule is proved from direct-access identity and presentation nonidentity. Compose MediationReply to reject closure. This compatibility test establishes neither real cognition nor recollection’s truth.",
+  "meaning": "Construct separate entity and agent argument roles, both represented by Bool, with a human and a divine mode. Each has immediate access to its own presentation; the presentation targets the other side. Object-directed knowledge is interpreted as the opposite-side relation and the transfer rule is proved from direct-access identity and presentation nonidentity. Compose MediationReply to reject closure. This compatibility test establishes neither real cognition nor recollection’s truth.",
   "definition_ids": [
     "DEF-PARM-AGENT-MODES",
     "DEF-PARM-DIRECT-COGNITION",

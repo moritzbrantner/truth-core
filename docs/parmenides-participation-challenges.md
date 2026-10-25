@@ -67,9 +67,12 @@ result. The theorem is in
 | `PARM-GROUND-REPLY` | `GroundReply.groundReply` | Premise-free finite construction with an actual Form/particular explanatory pair, independence, nonidentity, non-inherence and ranked asymmetric Ground. It imports the asymmetry theorem. Efficient change-production is empty. |
 | `PARM-EPISTEMIC-OBJECTION` | `EpistemicObjection.epistemicObjection` | Knowledge realm closure, human modes outside and divine modes inside. Humans cannot know intelligible objects; divine modes cannot know non-intelligible objects. Both horns follow from the explicit closure premise. |
 | `PARM-MEDIATION-REPLY` | `MediationReply.mediationReply` | Human modes outside, sound mediated transfer, and a successful human route to an intelligible object. The resulting knowledge contradicts realm closure. It does not contradict independent existence. |
-| `PARM-MEDIATION-MODEL` | `MediationModel.mediationModel` | Premise-free construction with separate entity and agent types, human and divine modes, and opposite-side presentations. Prove transfer by substituting the directly accessed presentation, then compose MediationReply. A divine mode also knows a non-intelligible object. |
+| `PARM-MEDIATION-MODEL` | `MediationModel.mediationModel` | Premise-free construction with separate entity and agent argument roles, both represented by Bool, and human and divine modes, and opposite-side presentations. Prove transfer by substituting the directly accessed presentation, then compose MediationReply. A divine mode also knows a non-intelligible object. |
 
-The finite witnesses interpret relations with explicit extensions. They establish
+The generic cognition interface has separate entity and agent type parameters;
+the finite witness uses Bool for both representation domains. Equal Boolean
+labels across those roles are not an asserted philosophical identification of
+an agent with a Form. The finite witnesses interpret relations with explicit extensions. They establish
 compatibility of the encoded conditions, not that any such extension describes
 real explanation or warranted knowledge. In particular the knowledge model does
 not infer truth from resemblance: presentation nonidentity and direct-access
