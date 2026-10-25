@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S4-FRAME",
+  "term": "S4 frame condition",
+  "definition": "FrameSatisfies .S4 F means exactly Reflexive F ∧ Transitive F. Reflexive means every world accesses itself; transitive means each two-step path gives a direct edge. No symmetry or Euclideanness is included.",
+  "basis": "stipulative",
+  "note": "Mathematical S4 experiment requested in #265, using the shared #261 semantics. Historical adoption or metaphysical possibility would need a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.FrameSatisfies"
+}

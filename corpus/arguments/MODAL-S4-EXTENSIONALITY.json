@@ -1,0 +1,30 @@
+{
+  "id": "MODAL-S4-EXTENSIONALITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-S4-EXTENSIONALITY",
+  "inference_ids": [
+    "INF-MODAL-S4-EXTENSIONALITY"
+  ],
+  "meaning": "Issue #265 conditional mathematical S4 experiment; no historical Hume attribution, real-world contingency, cosmological existence or Catholic-case frontier closure is claimed. Use the first atom to identify left, the second to identify twin, and diamond of the first atom to distinguish root from right. At full scope instantiate agreement at an identity predicate. Enumerate unpaired singleton successors and supply a full-collapse witness for each root successor.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-S4-FRAME",
+    "DEF-MODAL-S4-CLUSTER",
+    "DEF-MODAL-S4-POCKETS",
+    "DEF-MODAL-S4-LANGUAGE",
+    "DEF-MODAL-S4-PREDICATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S4-CLUSTER-SCOPE"
+  ]
+}

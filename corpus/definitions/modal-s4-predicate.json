@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S4-PREDICATE",
+  "term": "independent contingency predicate of the S4 experiment",
+  "definition": "p is the first atom predicate, true only at left and false at root, right and twin. The same predicate is expressible in both paired configurations, independently of any collapse assertion. Its accessible true and false witnesses give model-relative contingency at root.",
+  "basis": "stipulative",
+  "note": "Mathematical S4 experiment requested in #265, using the shared #261 semantics. Historical adoption or metaphysical possibility would need a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.S4Research.p"
+}

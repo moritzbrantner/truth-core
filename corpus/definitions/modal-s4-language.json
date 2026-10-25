@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S4-LANGUAGE",
+  "term": "S4 fixed-language proposition domain",
+  "definition": "language paired consists of denotations of all formulas over exactly two Bool atoms under pockets paired. It is not a finite list of currently recorded corpus statements. When paired=true the right/twin labels agree at every such formula, while all predicates still include identity predicates separating them.",
+  "basis": "stipulative",
+  "note": "Mathematical S4 experiment requested in #265, using the shared #261 semantics. Historical adoption or metaphysical possibility would need a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.S4Research.language"
+}

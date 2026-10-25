@@ -1,0 +1,26 @@
+{
+  "id": "STMT-MODAL-S4-SCOPE-BOUNDARY",
+  "paraphrase": "In the paired S4 configuration, right and twin form a distinct terminal pair that is collapsed in the fixed language but not at full predicate scope. Possible full collapse at root does not give necessary possible full collapse, whereas necessary possible language collapse holds in this model. The paired language fails world extensionality. Exact evaluator and witness-list equalities reproduce the independent contingency case.",
+  "lean_declaration": "TruthCore.Modal.S4Research.ScopeBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-S4-FRAME",
+    "DEF-MODAL-S4-CLUSTER",
+    "DEF-MODAL-S4-POCKETS",
+    "DEF-MODAL-S4-LANGUAGE",
+    "DEF-MODAL-S4-PREDICATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S4-CLUSTER-SCOPE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-B-NECESSARY-SYMMETRY",
+  "argument_id": "MODAL-B-NECESSARY-SYMMETRY",
+  "challenge_module": "TruthCore.Results.Modal.B.NecessarySymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Modal.B.NecessarySymmetry.Solution",
+  "theorem": "TruthCore.Results.Modal.B.NecessarySymmetry.checks",
+  "comparator_config": "results/MODAL-B-NECESSARY-SYMMETRY/comparator.json",
+  "status": "solution-present"
+}
