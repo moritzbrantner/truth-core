@@ -102,8 +102,9 @@ def SecondEfficientCausesCauseOnlyAsCausedReading
 
 /-- Weaker sibling reading of *primum est causa medii, et medium est causa ultimi
 ... remota autem causa, removetur effectus*: an efficient cause other than its
-effect is a middle cause of the series only when it is itself caused in a respect
-relevant to its causing that effect.
+effect that is itself caused in a respect relevant to its causing that effect is
+thereby a middle cause of the series. The premise is one-directional: it does not
+say that only such causes are middle causes.
 
 `RelevantTo c x r r'` says that `c`'s being caused in `r'` bears on `c`'s causing
 `x` in `r`. A cause caused only in irrelevant respects (a man nourished while he
