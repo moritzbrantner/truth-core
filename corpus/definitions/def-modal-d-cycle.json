@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-D-CYCLE",
+  "term": "fixed-language serial two-cycle",
+  "definition": "The complete Bool carrier has exactly false→true and true→false, with the Unit atom true at both labels. Formula denotations are the fixed language, including box, diamond, implication and falsity; they agree at both worlds by structural induction. Language-relative MC holds at each non-reflexive world, while full-predicate MC fails. Identity-predicate admissibility and language-relative world extensionality fail, even though the language is negation-closed.",
+  "basis": "stipulative",
+  "note": "Stipulated mathematical semantics for issue #263, not a historical source attribution or an assertion of metaphysical possibility. A philosophical adoption would require its own pinned source reading.",
+  "lean_declaration": "TruthCore.Modal.DResearch.cycle"
+}

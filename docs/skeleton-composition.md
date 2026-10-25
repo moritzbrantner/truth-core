@@ -1,7 +1,7 @@
 # Connecting stages 1 and 2 to the Catholic skeleton
 
 The designated root proof is now
-`CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES`. Its Lean theorem derives
+`CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`. Its Lean theorem derives
 `STMT-CATHOLICISM-TRUE` from the existing philosophical and historical premises;
 it does not establish their truth. The previous root results and their frozen
 Challenges remain available.
@@ -13,7 +13,11 @@ makes that connection inside Lean, retaining the same being through both stages.
 
 ```mermaid
 flowchart TD
-  P[Prima via and quarta via results] --> W[Same first mover and maximal being]
+  E[Efficient-cause no-regress and mover/cause link] --> M[Imported mover-regress transfer]
+  EM[General excluded middle] --> I[Imported first-mover excluded-middle instance]
+  M --> P[Prima via and quarta via results]
+  I --> P
+  P --> W[Same first mover and maximal being]
   N[Full-description naming result] --> W
   W --> A[Eight pointwise attribute proofs]
   U[Original God-to-maximal premise] --> O[Existing GodIsOne proof]
@@ -24,13 +28,35 @@ flowchart TD
   S --> R[CatholicismTrue, conditional on those premises]
 ```
 
-The diagram summarizes two verified-result records; it adds no inference by
+The diagram summarizes imported verified results; it adds no inference by
 itself:
 
 | Result | Consumed results | Conclusion |
 | --- | --- | --- |
 | `CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS` | `PrimaVia.primaVia`, `QuartaVia.quartaVia`, `MaximeEnsIsGodViaFullDescription.maximeEnsIsGodViaFullDescription`, `FirstMoverIsMaximeEns.firstMoverIsMaximeEns`, the nine `StageTwo.God…` proofs | `UniqueClassicalGodExists`: one being is God, is the only `IsGod` instance, and has classical attributes |
 | `CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` | The same-witness result and `Skeleton.catholicismSkeleton` | The existing phase-1 Catholic root |
+
+## Deriving the remaining proved inputs
+
+The designated route now also imports
+`MoverRegressFromCauseRegress.moverRegressFromCauseRegress` and
+`FirstUnmovedMoverExistsOrNotFromEm.firstUnmovedMoverExistsOrNotFromExcludedMiddle`.
+The first transfers accessibility from per se efficient-cause links to mover
+links under their explicitly assumed inclusion. The second instantiates the
+already-present general excluded-middle premise at first-mover existence.
+
+`CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES` then imports
+`FromPrimaViaWithClassicalAttributes.catholicismFromPrimaViaWithClassicalAttributes`.
+It does not duplicate the preceding same-witness or skeleton proofs. The four
+existing inference-application records remain explicit in the composed argument.
+
+The theorem no longer takes `STMT-NO-INFINITE-PER-SE-MOVER-SERIES` or
+`STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT` as independent inputs. Its efficient-cause
+no-regress and mover/cause-link premises were already in the philosophical
+frontier, so this discharges proved theorem inputs rather than philosophical
+assumptions. The frontier still has the same 37 open statement IDs (four bare,
+33 sourced). Neither causal well-foundedness nor the link is established merely
+by composing these results.
 
 ## Why the witness must remain the same
 
@@ -79,3 +105,49 @@ revelation, the historical stages 4–6, and the teaching-authority bridges. The
 historical end is still the skeleton's structural transcription; composing it
 does not verify source fidelity, premise truth or the Catholic conclusion
 unconditionally.
+
+
+## A distinct Fourth-Way alternative
+
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES` is an alternative,
+not the selected `root_route`. It imports `QuartaVia.quartaVia` to obtain the
+maximal being directly from its four existing premises: actual grades,
+approach to a maximum, maximal truth implying maximal being, and the
+maximum-in-a-genus causal principle. No maximum-existence assumption is hidden
+in a definition. `CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS` applies the existing
+full-description naming theorem and the same nine pointwise attribute results
+to that maximum. The root imports `Skeleton.catholicismSkeleton`, using the
+witness's uniqueness to transport its attributes to all `IsGod` instances.
+
+The exact listed hypothesis set is a subset of the selected efficient-regress First-Way composition's:
+30 rather than 38, with no added premise. The omitted inputs are:
+
+- `STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD`
+- `STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY`
+- `STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT`
+- `STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER`
+- `STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED`
+- `STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES`
+- `STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK`
+- `STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD`
+
+This compares sufficient premise sets; it does not establish logical
+independence of every omitted premise. In particular, the general excluded
+middle principle remains, as do noncontradiction of act/potency, act's simple
+priority to potency, and the other Stage2 metaphysical premises. The
+Fourth-Way maximum and causality principles remain substantive open commitments.
+The original `GodIsMaximalInBeing` premise still supplies uniqueness of every
+`IsGod` instance; a unique maximum alone is insufficient. Revelation, historical
+stages and authority bridges remain open, and the historical end remains a
+structural transcription.
+
+The checked default frontier remains **37 open: 4 bare, 33 sourced**. Applying
+the existing frontier algorithm to an in-memory alternative-route selection
+(no repository route mutation) gives **29 open: 4 bare, 25 sourced**. It adds
+no open premise and omits exactly the eight open IDs listed above. The
+selected First-Way proof already derives mover no-regress and the particular
+exists-or-not statement, rather than accepting them as hypotheses. The earlier
+same-witness First-Way theorem instead listed those two proved intermediates;
+its 38-input list has the same expanded philosophical frontier. This is an
+alternative argument with fewer listed commitments, not closure of the omitted
+premises or replacement of the owner-designated First-Way route.

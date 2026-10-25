@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-D-FORK",
+  "term": "serial fork with collapsed endpoints",
+  "definition": "The complete ForkWorld carrier is root=0, left=1, right=2. Edges are exactly 0→1, 0→2, 1→1, 2→2. The Unit atom is true exactly at 1. Both endpoints have full MC; the root has possible and necessary MC but not actual MC, and the predicate w=1 is contingent at the root.",
+  "basis": "stipulative",
+  "note": "Stipulated mathematical semantics for issue #263, not a historical source attribution or an assertion of metaphysical possibility. A philosophical adoption would require its own pinned source reading.",
+  "lean_declaration": "TruthCore.Modal.DResearch.fork"
+}

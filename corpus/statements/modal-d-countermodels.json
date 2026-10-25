@@ -1,0 +1,22 @@
+{
+  "id": "STMT-MODAL-D-COUNTERMODELS",
+  "paraphrase": "Explicit serial finite pocket and fork frames witness possible full collapse without actual root collapse and contingent w=1 at the same root. Pocket has a closed two-cycle and a disconnected collapsed world; its root does not have necessary full collapse. Fork has necessary full collapse at the root without actual collapse. Both refute unrestricted possibility-implies-actuality with P(root) false but P true at accessible world 1. Edge flags, complete carriers and exact deterministic witness/counterexample lists are proved. These are semantic countermodels, not real-world possibilities.",
+  "lean_declaration": "TruthCore.Modal.DResearch.WitnessChecks",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-POCKET",
+    "DEF-MODAL-D-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

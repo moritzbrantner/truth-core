@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-D-SCOPES",
+  "argument_id": "MODAL-D-SCOPES",
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Scopes.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Scopes.Solution",
+  "theorem": "TruthCore.Results.Modal.DResearch.Scopes.checks",
+  "comparator_config": "results/MODAL-D-SCOPES/comparator.json",
+  "status": "solution-present"
+}

@@ -48,6 +48,33 @@ axioms, or proofs of findings. E2 is already a tradition finding and requires
 no event-truth bridge. The report/finding distinction is recorded in
 `DISAMB-RESURRECTION-PILOT-EVIDENCE` and in the linked definitions.
 
+## Connection to the skeleton's open Stage 4
+
+The existing Matthew authority report (28.18) and the narrative resurrection
+reference (27.52–53) now support
+`STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE`. The latter is the narrator's
+reference to Jesus' resurrection as a time marker, read in the complete
+materialized passion/resurrection context of Matthew 26–28. It is distinct
+from the already-recorded angel/empty-tomb report. The pinned digital edition
+is exact; its header leaves the underlying Westcott–Hort print edition
+between 1882 and 1892 unresolved. No apostolic authorship or composition date
+is inferred from the traditional book title or the pin.
+
+These are **source supports, not inference applications**. The report
+constructors and historical predicates remain distinct. None of the five
+existing E-item reading bridges establishes that Jesus historically uttered
+the authority claim or actually rose. Those historical questions, and divine
+vindication of the authority, remain open in the whole-system comparison.
+All authority being *given* in heaven and earth is relevant to divine
+commission; it is not silently equated with an assertion of divine nature.
+No separate Creed atom is identified with the historical resurrection
+predicate, no rival is refuted, and no minimal-facts argument is supplied.
+
+This changes the root premise's evidence classification from bare to sourced,
+not its open status. The default First-Way route and every proof contract are
+unchanged. The added report constructor does not add a commitment to any of
+the six theory bundles or alter their existing historical reading bridges.
+
 ## Alternative readings of the findings
 
 The competing accounts concern the reports as well as the events. Matthew's

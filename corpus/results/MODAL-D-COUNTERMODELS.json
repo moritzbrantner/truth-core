@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-D-COUNTERMODELS",
+  "argument_id": "MODAL-D-COUNTERMODELS",
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Witnesses.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Witnesses.Solution",
+  "theorem": "TruthCore.Results.Modal.DResearch.Witnesses.checks",
+  "comparator_config": "results/MODAL-D-COUNTERMODELS/comparator.json",
+  "status": "solution-present"
+}

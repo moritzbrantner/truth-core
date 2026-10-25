@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Laws.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Laws.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.DResearch.Laws.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "VATICAN-II-LG-8-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "source_id": "VATICAN-II-LUMEN-GENTIUM",
+  "locator": "§8, first two paragraphs; compare §5, first paragraph",
+  "interpretation": "A conciliar commitment about the Church founded by Jesus: §8 attributes its establishment and continual sustenance to Christ, describes a visible community with hierarchical organs entrusted to Peter and the other apostles for pastoral government, and says it was established in perpetuity. The founder is identified as Lord Jesus in §5. This reads the existing existential stage-5 proposition; it does not assert that every later office was personally specified at a single founding event. The visible and spiritual aspects belong to the one complex reality described by the source. The later subsistit clause is not translated into the separate stage-6 historical-identity proposition. This is the council’s doctrinal/historical assertion, not independent historical corroboration, proof of divine authority, or a machine-verified occurrence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

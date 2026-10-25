@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-D-OPERATORS",
+  "term": "world-relative modal operators and actual truth",
+  "definition": "Dia F P w means there exists v with F.access w v and P v; Box F P w means every F-accessible v satisfies P. Actual truth is P w. In particular possible collapse is Dia F (MC F D) w and necessary collapse is Box F (MC F D) w, distinct from actual MC F D w. No conceivability predicate or conceivability-to-possibility bridge is assumed.",
+  "basis": "stipulative",
+  "note": "Stipulated mathematical semantics for issue #263, not a historical source attribution or an assertion of metaphysical possibility. A philosophical adoption would require its own pinned source reading.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Dia"
+}

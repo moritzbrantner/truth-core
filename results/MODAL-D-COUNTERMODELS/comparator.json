@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Witnesses.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Witnesses.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.DResearch.Witnesses.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

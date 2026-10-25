@@ -147,6 +147,10 @@ import TruthCore.Metaethics.NaturalisticRealism
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.BResearch
 import TruthCore.Modal.Cube
+import TruthCore.Modal.DResearch.Language
+import TruthCore.Modal.DResearch.Laws
+import TruthCore.Modal.DResearch.Scopes
+import TruthCore.Modal.DResearch.Witnesses
 import TruthCore.Modal.Examples
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
@@ -311,10 +315,13 @@ import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
+import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
@@ -441,6 +448,10 @@ import TruthCore.Results.Modal.B.LanguagePropagation.Solution
 import TruthCore.Results.Modal.B.Laws.Solution
 import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
 import TruthCore.Results.Modal.B.ScopeBoundary.Solution
+import TruthCore.Results.Modal.DResearch.Language.Solution
+import TruthCore.Results.Modal.DResearch.Laws.Solution
+import TruthCore.Results.Modal.DResearch.Scopes.Solution
+import TruthCore.Results.Modal.DResearch.Witnesses.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution

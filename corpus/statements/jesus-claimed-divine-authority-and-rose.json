@@ -1,1 +1,11 @@
-{"id":"STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE","paraphrase":"Jesus claimed to speak and act with divine authority, and he rose from the dead.","lean_declaration":"TruthCore.Case.Catholicism.JesusClaimedDivineAuthorityAndRose"}
+{
+  "id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "paraphrase": "Jesus claimed to speak and act with divine authority, and he rose from the dead.",
+  "lean_declaration": "TruthCore.Case.Catholicism.JesusClaimedDivineAuthorityAndRose",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

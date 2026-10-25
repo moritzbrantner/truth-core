@@ -1,0 +1,24 @@
+{
+  "id": "MODAL-D-SCOPES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-D-SCOPES",
+  "inference_ids": [
+    "INF-MODAL-D-SCOPES"
+  ],
+  "meaning": "A direct constructive mathematical test for D serial frames and explicit proposition domains, not a source claim, transcription, frontier closure or refutation of Hume. Compose the finite full-MC endpoint proofs using the shared domain-restriction theorem. Structural induction proves formula agreement inside the pocket two-cycle, giving MC at its second root successor. The negated atom refutes root language MC. The explicitly empty K successor set witnesses the seriality boundary.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-POCKET",
+    "DEF-MODAL-D-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE"
+  ]
+}
