@@ -1,0 +1,9 @@
+{
+  "id": "REL-CDF-CREED-CATEGORY-SUPPORTS-CATHOLIC-CREED-PROPOSAL",
+  "subject_kind": "claim",
+  "subject_id": "CDF-1998-CREED-PROPOSED-AS-REVEALED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+  "note": "The CDF classification supplies proposal-status evidence for the Creed in the Catholic profession. The Greek scope is identified by the separate reception quotation. The two readings jointly support the root’s institutional-status reading; this relation is evidence, not a kernel-verified inference or an assertion of textual/translation identity."
+}

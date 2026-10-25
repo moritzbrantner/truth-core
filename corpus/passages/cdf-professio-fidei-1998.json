@@ -1,0 +1,37 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CDF-PROFESSIO-FIDEI-1998",
+    "source_url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_1998_professio-fidei_en.html",
+    "retrieved_at": "2026-10-25T17:28:45Z",
+    "sha256": "sha256:26c49650d5e9f02b2742c961760cb28477f2dd489c38c9a3fbcee2ffbddcc02d",
+    "encoding": "iso-8859-1",
+    "language": "eng",
+    "license": "Official text publicly hosted by the Holy See; the consulted page gives no explicit reuse licence. Copyright status is not asserted. Only hashes, locators and a short incipit are committed, not the page text.",
+    "translation": {
+      "translator": "Not identified on the official page",
+      "year": "Not stated; the commentary is dated 29 June 1998",
+      "edition": "Official English collection on vatican.va, as retrieved 25 October 2026"
+    },
+    "wayback_url": "https://web.archive.org/web/20261011040013id_/https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_1998_professio-fidei_en.html",
+    "wayback_sha256": "sha256:26c49650d5e9f02b2742c961760cb28477f2dd489c38c9a3fbcee2ffbddcc02d"
+  },
+  "passages": [
+    {
+      "id": "CDF-PROFESSIO-FIDEI-1998",
+      "locator": "Profession of Faith and Oath of Fidelity; Ad tuendam fidem; Doctrinal Commentary, nn. 1–12 and notes",
+      "claim_locator_prefixes": [
+        "Profession of Faith, ",
+        "Doctrinal Commentary, "
+      ],
+      "html_selector": {
+        "from": {
+          "text": "PROFESSION OF FAITH"
+        }
+      },
+      "text_sha256": "sha256:885323b1df7a0d5cd5c002383abfd652f2a9c276fe497d1d13a48d11af5cf732",
+      "incipit": "PROFESSION OF FAITH\nI, N., with firm faith believe and profess each and"
+    }
+  ],
+  "notes": "The whole official collection is materialized so the formula, doctrinal categories, examples and conclusion can be read in context. The Greek Creed clauses are a separate pinned witness; no textual/translation identity is asserted."
+}

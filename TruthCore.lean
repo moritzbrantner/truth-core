@@ -1,3 +1,4 @@
+import TruthCore.Case.Catholicism.FoundingIndependence
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Case.Catholicism.StageOneBridges
@@ -315,6 +316,7 @@ import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
+import TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution
 import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution

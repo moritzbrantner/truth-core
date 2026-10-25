@@ -1,0 +1,9 @@
+{
+  "id": "INF-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "rule": "constructive-model",
+  "meaning": "Import the existing evidence model, populate its existing society predicates, check each local input, and instantiate the universal bridge at the God witness and society to derive False. The counterassignment shows that the declared local inputs do not force teaching-founding. It supplies no refutes or alternative-to relation to the historical root premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

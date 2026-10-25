@@ -107,6 +107,10 @@ jobs:
           restore-keys: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-
       - name: Build Comparator toolchain
         run: scripts/bootstrap-verifier.sh
+      - name: Test Comparator lambda annotation boundary
+        run: |
+          cargo test --locked --manifest-path verifier/Cargo.toml
+          python3 verifier/tests/test_lambda_binders.py ~/.cache/truth-core-verifier/rust-target/release/truth-core-comparator
       - name: Verify the built library with NanoDa
         run: scripts/verify-library.sh
       - name: Verify all advertised results
