@@ -15,5 +15,10 @@ def MattHostileTheftStory (s : State) : Prop := Reported s .mattHostileTheftStor
 def MattUniversalAuthority (s : State) : Prop := Reported s .mattUniversalAuthority
 
 
+/-- Matt 27.52-53 uses Jesus' resurrection as a time marker in the narrator's
+account of the saints leaving their tombs. Read with the death/burial account
+and chapter 28, this is narrative attestation, not an independently established
+historical occurrence or an inference from a character's speech. -/
+def MattNarrativeResurrection (s : State) : Prop := Reported s .mattNarrativeResurrection
 
 end TruthCore.Greek.NewTestament.Matthew

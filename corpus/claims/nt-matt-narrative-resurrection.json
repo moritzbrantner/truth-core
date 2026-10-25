@@ -1,0 +1,15 @@
+{
+  "id": "NT-MATT-27-NARRATIVE-RESURRECTION",
+  "statement_id": "STMT-PILOT-REPORT-MATT-NARRATIVE-RESURRECTION",
+  "source_id": "NT-MATT",
+  "locator": "27.52-53",
+  "interpretation": "The narrator's temporal clause refers to Jesus' resurrection, rather than only quoting a character's belief. Chapters 26–28 were materialized and read together: death and burial at 27.50,57–61 precede the angel's announcement and Jesus meeting the women at 28.5–10. This records what the canonical narrative presents; it does not establish historical occurrence, authorship, eyewitness access, or the truth of its narrated phenomena.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}
