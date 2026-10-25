@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-SYMMETRY",
+  "term": "likeness symmetry",
+  "definition": "LikenessSymmetry universally reverses Like; it is an explicit additional premise. Copy-to-model relations need not satisfy it.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.LikenessSymmetry"
+}

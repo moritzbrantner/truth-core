@@ -1,0 +1,9 @@
+{
+  "id": "REL-PLATO-PARM-133A-ATTACKS-LIKENESS-BRIDGE",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PARM-133A-OTHER-PARTICIPATION",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-THIRD-MAN-PARTICIPATION-LIKENESS",
+  "note": "The source objection concludes that another account of participation must be sought. The finite non-resemblance countermodel coexists with the conditional likeness-regress result; no unconditional refutes relation is asserted."
+}

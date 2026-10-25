@@ -92,6 +92,8 @@ import TruthCore.Greek.NewTestament.John
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Forms
+import TruthCore.Greek.Plato.ThirdMan
+import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
@@ -353,6 +355,10 @@ import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
 import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
 import TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

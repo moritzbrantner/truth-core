@@ -1,0 +1,10 @@
+{
+  "id": "THIRD-MAN-SENSITIVITY",
+  "argument_id": "THIRD-MAN-SENSITIVITY",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.sensitivityModels",
+  "comparator_config": "results/THIRD-MAN-SENSITIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "Construct six three-entity interpretations with exactly one Form. Each explicitly satisfies the retained premises, negates the omitted premise and refutes unbounded numerical multiplication. The non-self-predicative model retains essential characterization; the scoped model retains uniqueness, ontological independence, explanatory and exemplar participation. Directed likeness drops symmetry; non-resemblance participation drops the likeness bridge. These are compatibility tests, not complete historical theories or proofs of explanatory adequacy."
+}

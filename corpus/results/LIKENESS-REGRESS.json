@@ -1,0 +1,10 @@
+{
+  "id": "LIKENESS-REGRESS",
+  "argument_id": "LIKENESS-REGRESS",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.likenessRegress",
+  "comparator_config": "results/LIKENESS-REGRESS/comparator.json",
+  "status": "solution-present",
+  "description": "Starting from a mutual resemblance pair, obtain a common Form. Participation-to-likeness and symmetry make the new Form mutually resemble all old members; numerical nonidentity gives freshness. Iteration keeps the list eligible. Repeating this construction yields arbitrary finite lists of distinct likeness Forms, without ordinary self-predication or ordinary F-homogeneity."
+}
