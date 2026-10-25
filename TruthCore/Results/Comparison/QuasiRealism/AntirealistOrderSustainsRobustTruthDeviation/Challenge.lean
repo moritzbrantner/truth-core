@@ -10,7 +10,7 @@ theorem antirealistOrderSustainsRobustTruthDeviation {Sentence : Type}
     (hMoralMeets :
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse)
     (hRobustExplains :
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk)
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk)
     (hAntirealistOrder : AntirealistOrderOfExplanationReading Moral TalkExplainsTruth)
     (hAsymmetric : ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk) :
     QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt := by

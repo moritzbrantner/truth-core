@@ -278,31 +278,24 @@ def NoRobustTruthAptnessBeyondMinimalReading {Sentence : Sort u}
     (TruthApt RobustlyTruthApt : Sentence → Prop) : Prop :=
   ∀ φ, TruthApt φ → RobustlyTruthApt φ
 
-/-- Dreier's proposal for keeping the minimal/robust contrast: the robust
-(non-minimal) reading of moral truth is the realist, explanatory one. The
-difference between realism and anti-realism "has to do with the order of
-explanation"; "If this can be defended, we can distinguish minimalist and
-nonminimalist uses of the terms and ideas in question. The distinction between
-cognitivists and noncognitivists can then be made using the non-minimalist
-reading."
+/-- Dreier's proposal, in its weaker sourced form: robust moral truth is suited
+to explanatory work. "For minimal propositions, properties, and so on will
+likely not be suited to do much explanatory work of the sort that robust
+propositions, properties, and so on are suited for."
 
-`TruthExplainsTalk φ` says that the truth conditions of `φ` (the truth or
-property it is about) explain our thought and talk with `φ`. The reading: a
-moral sentence that is robustly truth-apt has truth conditions that explain
-our thought and talk with it. Only this direction is formalized, not that
-explanatory truth conditions are robust. This is a reading choice: the entry
-says robust, unlike minimal, propositions and properties are "suited" to
-explanatory work, and the reading takes the non-minimal use to be the realist,
-explanatory one. The entry reports the proposal
-conditionally ("if this can be defended"): the reading records the proposal,
-not its defense.
+`SuitedToExplainTalk φ` says that the truth conditions of `φ` are suited to
+explain our thought and talk with `φ`. That they actually explain it is not
+part of this reading; that stronger bridge is the separate, unattributed open
+premise `TruthCore.Refutations.QuasiRealism.RobustMoralTruthIsExplanatory`
+(Codex P1 on #230). The entry reports the proposal conditionally ("If this can
+be defended"): the reading records the proposal, not its defense.
 
 Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
 Encyclopedia of Philosophy* (Spring 2026), §5.2 (reporting Dreier 2018).
 -/
-def RobustMoralTruthIsExplanatoryReading {Sentence : Sort u}
-    (Moral RobustlyTruthApt TruthExplainsTalk : Sentence → Prop) : Prop :=
-  ∀ φ, Moral φ → RobustlyTruthApt φ → TruthExplainsTalk φ
+def RobustMoralTruthSuitedToExplainReading {Sentence : Sort u}
+    (Moral RobustlyTruthApt SuitedToExplainTalk : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → RobustlyTruthApt φ → SuitedToExplainTalk φ
 
 /-- The anti-realist order of explanation, for moral sentences: "According to
 anti-realist theories, entities or properties such as proposition, property,

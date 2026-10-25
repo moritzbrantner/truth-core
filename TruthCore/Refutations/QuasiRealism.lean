@@ -42,9 +42,11 @@ sides share the minimalist sufficiency conditions (surface syntax and
 disciplined use, §5.2) and Divers and Miller's finding that moral sentences
 meet them. Add the collapse premise (no truth-aptness more robust than the
 minimal), and realism's robust answer follows, so quasi-realism's answer is
-inconsistent. Add instead Dreier's criterion (robust moral truth is
-explanatory), the anti-realist order of explanation and the asymmetry of the
-two orders, and quasi-realism's answer follows, so the collapse premise fails.
+inconsistent. Add instead the explanatory bridge (robust moral truth actually
+explains our thought and talk; an unattributed open premise, since Dreier as
+reported says only that robust truth is suited to explanatory work), the
+anti-realist order of explanation and the asymmetry of the two orders, and
+quasi-realism's answer follows, so the collapse premise fails.
 Which side holds turns on the order of explanation, which is open. The data
 the quasi-realist accepts do not by themselves require the robust answer
 (countermodel `quasiRealistDataDoNotRequireRobustTruth`).
@@ -63,6 +65,19 @@ def QuasiRealistRobustTruthAnswerDeviates {Sentence : Sort u}
     (Moral TruthApt RobustlyTruthApt : Sentence → Prop) : Prop :=
   ¬ (QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt ↔
       RealistRobustTruthAptReading Moral RobustlyTruthApt)
+
+/-- The explanatory bridge: if a moral sentence is robustly truth-apt, its truth
+conditions actually explain our thought and talk with it (`TruthExplainsTalk`).
+
+Not attributed to the SEP entry. The entry reports only that robust, unlike
+minimal, propositions and properties are *suited* to explanatory work
+(`RobustMoralTruthSuitedToExplainReading`, Dreier). Something can be suited to
+explaining without explaining, and the anti-realist argument needs actual
+explanation, so this stronger premise is an open premise of the project
+(Codex P1 on #230), not a source reading. -/
+def RobustMoralTruthIsExplanatory {Sentence : Sort u}
+    (Moral RobustlyTruthApt TruthExplainsTalk : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → RobustlyTruthApt φ → TruthExplainsTalk φ
 
 /-- The two orders of explanation exclude each other for a moral sentence:
 where our thought and talk with it explain its truth conditions

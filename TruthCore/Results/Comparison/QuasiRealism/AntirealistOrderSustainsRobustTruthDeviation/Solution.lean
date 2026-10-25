@@ -5,10 +5,11 @@ open TruthCore.Refutations.QuasiRealism
 open TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth
 
 /-- The quasi-realist regroup on the robust-truth deviation (#190), with
-Dreier's criterion. Every moral sentence is minimally truth-apt (the same
+the explanatory bridge. Every moral sentence is minimally truth-apt (the same
 minimalist premises as the collapse argument). It is not robustly truth-apt:
 robust moral truth would explain our thought and talk with the sentence
-(Dreier's criterion), but on the anti-realist order our thought and talk
+(the explanatory bridge, an unattributed open premise that strengthens Dreier's
+"suited to explanatory work"), but on the anti-realist order our thought and talk
 explain its truth instead, and the two orders exclude each other. So
 quasi-realism's answer to `Q-ROBUST-TRUTH` follows. -/
 theorem antirealistOrderSustainsRobustTruthDeviation {Sentence : Type}
@@ -19,7 +20,7 @@ theorem antirealistOrderSustainsRobustTruthDeviation {Sentence : Type}
     (hMoralMeets :
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse)
     (hRobustExplains :
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk)
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk)
     (hAntirealistOrder : AntirealistOrderOfExplanationReading Moral TalkExplainsTruth)
     (hAsymmetric : ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk) :
     QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt := by
@@ -49,7 +50,7 @@ theorem antirealistOrderExcludesCollapse {Sentence : Type}
     (hMoralMeets :
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse)
     (hRobustExplains :
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk)
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk)
     (hAntirealistOrder : AntirealistOrderOfExplanationReading Moral TalkExplainsTruth)
     (hAsymmetric : ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk)
     (hMoral : GeachMinorPremiseIsMoralReading Moral p) :
@@ -87,7 +88,7 @@ theorem withoutSufficiencyNotSustained :
         TalkExplainsTruth TruthExplainsTalk : Unit → Prop),
       ¬ MinimalConstraintsSufficeForTruthAptnessReading SurfaceAssertoric DisciplinedUse TruthApt ∧
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse ∧
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk ∧
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk ∧
       AntirealistOrderOfExplanationReading Moral TalkExplainsTruth ∧
       ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk ∧
       ¬ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt :=
@@ -103,7 +104,7 @@ theorem withoutMoralSentencesMeetingConstraintsNotSustained :
         TalkExplainsTruth TruthExplainsTalk : Unit → Prop),
       MinimalConstraintsSufficeForTruthAptnessReading SurfaceAssertoric DisciplinedUse TruthApt ∧
       ¬ MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse ∧
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk ∧
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk ∧
       AntirealistOrderOfExplanationReading Moral TalkExplainsTruth ∧
       ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk ∧
       ¬ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt :=
@@ -112,14 +113,24 @@ theorem withoutMoralSentencesMeetingConstraintsNotSustained :
     fun _ h _ => h, fun h => (h () trivial).1, fun _ _ h => h.elim,
     fun _ _ => trivial, fun _ _ _ h => h, fun h => (h () trivial).1⟩
 
-/-- Without Dreier's criterion: the sentence is robustly truth-apt although its
+/-- Dreier's sourced reading does not supply the explanatory bridge: a robustly
+truth-apt moral sentence can be suited to explain our thought and talk without
+explaining it. -/
+theorem suitedToExplainDoesNotGiveBridge :
+    ∃ (Moral RobustlyTruthApt SuitedToExplainTalk TruthExplainsTalk : Unit → Prop),
+      RobustMoralTruthSuitedToExplainReading Moral RobustlyTruthApt SuitedToExplainTalk ∧
+      ¬ RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk :=
+  ⟨fun _ => True, fun _ => True, fun _ => True, fun _ => False,
+    fun _ _ _ => trivial, fun h => h () trivial trivial⟩
+
+/-- Without the explanatory bridge: the sentence is robustly truth-apt although its
 truth does not explain the talk. -/
-theorem withoutDreierCriterionNotSustained :
+theorem withoutExplanatoryBridgeNotSustained :
     ∃ (Moral SurfaceAssertoric DisciplinedUse TruthApt RobustlyTruthApt
         TalkExplainsTruth TruthExplainsTalk : Unit → Prop),
       MinimalConstraintsSufficeForTruthAptnessReading SurfaceAssertoric DisciplinedUse TruthApt ∧
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse ∧
-      ¬ RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk ∧
+      ¬ RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk ∧
       AntirealistOrderOfExplanationReading Moral TalkExplainsTruth ∧
       ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk ∧
       ¬ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt :=
@@ -135,7 +146,7 @@ theorem withoutAntirealistOrderNotSustained :
         TalkExplainsTruth TruthExplainsTalk : Unit → Prop),
       MinimalConstraintsSufficeForTruthAptnessReading SurfaceAssertoric DisciplinedUse TruthApt ∧
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse ∧
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk ∧
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk ∧
       ¬ AntirealistOrderOfExplanationReading Moral TalkExplainsTruth ∧
       ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk ∧
       ¬ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt :=
@@ -151,7 +162,7 @@ theorem withoutAsymmetryNotSustained :
         TalkExplainsTruth TruthExplainsTalk : Unit → Prop),
       MinimalConstraintsSufficeForTruthAptnessReading SurfaceAssertoric DisciplinedUse TruthApt ∧
       MoralSentencesMeetMinimalConstraintsReading Moral SurfaceAssertoric DisciplinedUse ∧
-      RobustMoralTruthIsExplanatoryReading Moral RobustlyTruthApt TruthExplainsTalk ∧
+      RobustMoralTruthIsExplanatory Moral RobustlyTruthApt TruthExplainsTalk ∧
       AntirealistOrderOfExplanationReading Moral TalkExplainsTruth ∧
       ¬ ExplanatoryOrderAsymmetric Moral TalkExplainsTruth TruthExplainsTalk ∧
       ¬ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt :=
