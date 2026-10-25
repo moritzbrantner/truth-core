@@ -12,6 +12,7 @@ import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.NaturalisticRealism
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.Resurrection
+import TruthCore.Comparison.Teleonomy
 import TruthCore.English.Boyd.MoralRealism
 import TruthCore.English.Iemhoff.Intuitionism
 import TruthCore.English.OConnor.Metaethics
@@ -337,6 +338,13 @@ import TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Solutio
 import TruthCore.Results.Comparison.Resurrection.LegendConsistent.Solution
 import TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Solution
 import TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Solution
+import TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution
+import TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution
+import TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution
+import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
+import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
+import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
+import TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution
@@ -368,3 +376,4 @@ import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
+import TruthCore.Teleonomy.Mechanisms
