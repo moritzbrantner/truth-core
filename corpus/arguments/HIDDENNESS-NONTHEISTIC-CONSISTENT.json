@@ -1,0 +1,33 @@
+{
+  "id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "inference_ids": [
+    "INF-HIDDENNESS-NONTHEISTIC-CONSISTENT"
+  ],
+  "meaning": "Construct the same two-time human history without God. Universal divine norms hold vacuously; this is a limited consistency check, not the rival explanatory account, which is separately recorded in docs/hiddenness.md.",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ],
+  "commitment_statement_ids": [
+    "STMT-HIDDENNESS-NO-GOD",
+    "STMT-HIDDENNESS-GOD-LOVES",
+    "STMT-HIDDENNESS-ALWAYS-OPEN",
+    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+  ]
+}

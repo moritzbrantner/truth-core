@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "source_url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_lt.html",
+    "retrieved_at": "2026-10-25T13:54:16Z",
+    "sha256": "sha256:0a828abb4be1de13b600bbc9bbae32832ed5ce4dad940629f57aae54c679fe23",
+    "kind": "web_snapshot",
+    "source_id": "VATICAN-II-LUMEN-GENTIUM",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Copyright Dicastero per la Comunicazione - Libreria Editrice Vaticana; Vatican archive. No source text is committed."
+  },
+  "passages": [
+    {
+      "id": "VATICAN-II-LUMEN-GENTIUM-II",
+      "locator": "ch. II, §§9–17",
+      "claim_locator_prefixes": [
+        "§16,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Caput II"
+        },
+        "to": {
+          "text": "Caput III"
+        }
+      },
+      "text_sha256": "sha256:a7ef85d99d7a83c28e249417743a858545462eb6caa6e0bc429f4c6cd3fb9173",
+      "incipit": "Caput II\nDE POPULO DEI\n9. In omni quidem tempore et in omni gente Deo acceptus"
+    }
+  ]
+}

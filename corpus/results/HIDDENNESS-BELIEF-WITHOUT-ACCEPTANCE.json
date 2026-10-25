@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "argument_id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "challenge_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.beliefWithoutAcceptance",
+  "comparator_config": "results/HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE/comparator.json",
+  "status": "solution-present"
+}

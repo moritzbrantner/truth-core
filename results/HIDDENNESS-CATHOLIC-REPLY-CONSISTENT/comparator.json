@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.CatholicReplyConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.CatholicReplyConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.CatholicReplyConsistent.catholicReplyConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

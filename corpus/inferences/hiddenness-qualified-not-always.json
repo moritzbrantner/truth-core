@@ -1,0 +1,9 @@
+{
+  "id": "INF-HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "rule": "finite model construction",
+  "meaning": "Use the delayed interpretation to falsify unconditional openness while all listed qualified commitments hold. A sufficient reason is interpreted at the early time, not established about reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
