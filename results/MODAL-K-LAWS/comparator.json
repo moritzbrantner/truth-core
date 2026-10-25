@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.K.Laws.Challenge",
+  "solution_module": "TruthCore.Results.Modal.K.Laws.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.K.Laws.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

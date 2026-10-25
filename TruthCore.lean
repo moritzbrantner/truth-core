@@ -139,6 +139,7 @@ import TruthCore.Metaethics.NaturalisticRealism
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
+import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
@@ -402,6 +403,10 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Modal.K.Countermodels.Solution
+import TruthCore.Results.Modal.K.Extensionality.Solution
+import TruthCore.Results.Modal.K.Laws.Solution
+import TruthCore.Results.Modal.K.ScopeBoundary.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Modern.Hume.Induction.Solution

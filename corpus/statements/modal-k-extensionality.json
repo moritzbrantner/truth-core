@@ -1,0 +1,21 @@
+{
+  "id": "STMT-MODAL-K-EXTENSIONALITY",
+  "paraphrase": "Both four-state K fork languages satisfy world propositional extensionality: the atom, possibility of truth and necessity of the atom distinguish all four states for either link value. Thus the preceding fork countermodels survive the optional world-extensionality assumption. All-predicate world extensionality holds for every supplied type by equality-predicate separation; no philosophical completeness premise is inferred.",
+  "lean_declaration": "TruthCore.Modal.KResearch.ExtensionalCountermodels",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

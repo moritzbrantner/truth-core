@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-K-ACTUALITY",
+  "term": "domain-relative possibility entails actuality",
+  "definition": "PossibilityActuality F D w means every admissible predicate P with a witness v satisfying F.access w v and P v is true at w. This is world-relative existential Dia semantics, not a conceivability bridge, global validity, or a declaration that an accessible label is a metaphysical possibility. Unlike MC its direction runs from accessible truth to root truth.",
+  "basis": "stipulative",
+  "note": "Mathematical experiment requested in #262. No source attribution or metaphysical endorsement; historical adoption requires a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.KResearch.PossibilityActuality"
+}

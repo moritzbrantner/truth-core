@@ -1,0 +1,21 @@
+{
+  "id": "STMT-MODAL-K-SCOPE-BOUNDARY",
+  "paraphrase": "The shared duplicate-label model has actual, possible and necessary fixed-language collapse and language-relative possibility entails actuality, while full-predicate collapse and full-predicate possibility entails actuality fail and language world extensionality fails. For an arbitrary domain, explicitly supplied excluded middle, negation closure and world extensionality suffice to upgrade actual domain-relative MC to full-predicate MC. These are mathematical domain comparisons, not distinct metaphysical worlds established by renaming.",
+  "lean_declaration": "TruthCore.Modal.KResearch.ScopeBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

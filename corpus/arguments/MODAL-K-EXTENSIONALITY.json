@@ -1,0 +1,25 @@
+{
+  "id": "MODAL-K-EXTENSIONALITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-K-EXTENSIONALITY",
+  "inference_ids": [
+    "INF-MODAL-K-EXTENSIONALITY"
+  ],
+  "meaning": "Issue #262 mathematical K experiment, not a source-derived premise, a refutation of Hume, or Catholic-case frontier closure. Transport agreement on three formulas through the shared evaluator-correctness theorem and check their Boolean signatures for every pair of explicitly enumerated worlds. For the full domain apply agreement to equality with the first world.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

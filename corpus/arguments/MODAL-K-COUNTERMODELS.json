@@ -1,0 +1,25 @@
+{
+  "id": "MODAL-K-COUNTERMODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-K-COUNTERMODELS",
+  "inference_ids": [
+    "INF-MODAL-K-COUNTERMODELS"
+  ],
+  "meaning": "Issue #262 mathematical K experiment, not a source-derived premise, a refutation of Hume, or Catholic-case frontier closure. Exhibit the sink as a possible-collapse witness, the root negated-atom sentence as the collapse counterexample, and sink/branch as independent contingency witnesses. Case analysis on explicitly listed worlds proves or refutes necessary MC. Compute formula values and ordered witness lists with the shared evaluator.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

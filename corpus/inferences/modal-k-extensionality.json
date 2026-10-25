@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-K-EXTENSIONALITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-K-EXTENSIONALITY",
+  "rule": "direct-proof",
+  "meaning": "Transport agreement on three formulas through the shared evaluator-correctness theorem and check their Boolean signatures for every pair of explicitly enumerated worlds. For the full domain apply agreement to equality with the first world.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

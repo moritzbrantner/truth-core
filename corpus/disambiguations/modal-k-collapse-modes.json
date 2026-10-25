@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-MODAL-K-COLLAPSE-MODES",
+  "term": "actual, possible and necessary collapse versus possibility entails actuality",
+  "sense_definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "resolution": "Actual collapse is MC F D w; possible collapse is Dia F (MC F D) w; necessary collapse is Box F (MC F D) w. Their root and domain remain explicit. PossibilityActuality quantifies over admissible P and is not the definition of MC; their full-domain equivalence is proved. The fork witnesses compare all-predicate and fixed-language domains separately; ExtensionalCountermodels proves that both fork languages satisfy world extensionality, while duplicate-label language collapse does not. Contingency is independently witnessed by sink and branch at the common root, not inferred from collapse. No mathematical truth is transferred to metaphysical possibility, real-world contingency, Hume attribution or a cosmological conclusion."
+}
