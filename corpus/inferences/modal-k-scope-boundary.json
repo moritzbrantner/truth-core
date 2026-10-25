@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-K-SCOPE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-K-SCOPE-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Compose the existing fixed-language duplicate-label theorem and formula-agreement proof; separate the two labels using the full-domain equality predicate. Compose the shared extensional-separation theorem with the K full-predicate successor characterization. The extensionality route retains its excluded-middle and negation-closure hypotheses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

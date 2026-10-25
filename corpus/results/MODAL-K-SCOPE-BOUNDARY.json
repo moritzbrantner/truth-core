@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-K-SCOPE-BOUNDARY",
+  "argument_id": "MODAL-K-SCOPE-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Modal.K.ScopeBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.K.ScopeBoundary.Solution",
+  "theorem": "TruthCore.Results.Modal.K.ScopeBoundary.checks",
+  "comparator_config": "results/MODAL-K-SCOPE-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

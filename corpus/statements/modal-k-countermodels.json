@@ -1,0 +1,21 @@
+{
+  "id": "STMT-MODAL-K-COUNTERMODELS",
+  "paraphrase": "Explicit four-state K fork and chain-fork models have possible full-predicate and language-relative MC, root non-collapse in both domains, independently witnessed root contingency and failure of possibility entails actuality. Necessary MC is true at the fork root and false at the chain-fork root in both domains. A collapsed remote component is inaccessible from the root and differs from it. A separate one-state dead end collapses in every domain. Exact Boolean root evaluations and accessible witness lists reproduce the examples; no real-world contingency is claimed.",
+  "lean_declaration": "TruthCore.Modal.KResearch.Countermodels",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

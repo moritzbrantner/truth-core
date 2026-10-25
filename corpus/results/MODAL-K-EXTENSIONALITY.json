@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-K-EXTENSIONALITY",
+  "argument_id": "MODAL-K-EXTENSIONALITY",
+  "challenge_module": "TruthCore.Results.Modal.K.Extensionality.Challenge",
+  "solution_module": "TruthCore.Results.Modal.K.Extensionality.Solution",
+  "theorem": "TruthCore.Results.Modal.K.Extensionality.checks",
+  "comparator_config": "results/MODAL-K-EXTENSIONALITY/comparator.json",
+  "status": "solution-present"
+}
