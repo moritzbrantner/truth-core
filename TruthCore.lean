@@ -128,6 +128,12 @@ import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.So
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.AbsoluteEntailsRelative.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.ObjectionExposesWeakGap.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongPremisesCompatibleWithObjection.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongPremisesEntailWeak.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongReadingYields.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.WeakReadingDoesNotYield.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
@@ -289,8 +295,10 @@ import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
+import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation.Solution
 import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution
+import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

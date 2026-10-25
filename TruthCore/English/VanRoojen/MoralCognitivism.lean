@@ -219,4 +219,101 @@ def MoralDisagreementInvolvesAttitudeClashReading {Agent : Sort u} {Sentence : S
     (ClashInAttitude : Agent → Agent → Sentence → Prop) : Prop :=
   ∀ x y φ, Moral φ → Accepts x φ → Rejects y φ → ClashInAttitude x y φ
 
+/-- Minimal truth-aptness, sufficiency: a sentence with the syntactic surface
+of a paradigmatic assertion that embeds grammatically, and whose use is
+disciplined, is (minimally) truth-apt. "All that is needed to have minimal
+truth conditions is for a set of judgments to satisfy two constraints": (1)
+"the syntactic surface features of paradigmatic truth-apt sentences" and
+grammatical embedding "in more complex sentences such as conditionals,
+propositional attitude ascriptions, and so on"; (2) "a certain amount of
+discipline so that there are clearly appropriate and inappropriate conditions
+for using them".
+
+`SurfaceAssertoric φ` is constraint (1), `DisciplinedUse φ` is constraint (2),
+and `TruthApt φ` is the thin truth-aptness of
+`QuasiRealistMinimalTruthAptReading`. Only sufficiency is formalized ("all
+that is needed"), not that the constraints are necessary.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §5.2 (reporting Boghossian 1990,
+Wright 1993, Divers and Miller 1994).
+-/
+def MinimalConstraintsSufficeForTruthAptnessReading {Sentence : Sort u}
+    (SurfaceAssertoric DisciplinedUse TruthApt : Sentence → Prop) : Prop :=
+  ∀ φ, SurfaceAssertoric φ → DisciplinedUse φ → TruthApt φ
+
+/-- Moral sentences meet both minimal constraints: "Normative discourse seems to
+meet both of these constraints relatively straightforwardly, and this may mean
+that moral sentences are truth-apt and that some of them are true (Divers and
+Miller 1994)".
+
+The entry hedges ("seems"); the reading records the position it reports from
+Divers and Miller, stated for every moral sentence. That some moral sentences
+are true is not formalized.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §5.2.
+-/
+def MoralSentencesMeetMinimalConstraintsReading {Sentence : Sort u}
+    (Moral SurfaceAssertoric DisciplinedUse : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → SurfaceAssertoric φ ∧ DisciplinedUse φ
+
+/-- The collapse argument's minimalist premise: there is no more robust
+truth-aptness than minimalism secures, so whatever is minimally truth-apt is
+also robustly truth-apt. The entry states it as the antecedent of the collapse
+argument: "If there is no more robust understanding of truth conditions than
+can be secured by minimalism about truth conditions, it will be difficult for
+the quasi-realist non-cognitivist to make the distinctive negative semantic
+claim".
+
+Read as the premise of the minimalist defenders of the collapse argument
+("Deflationism about truth or truth-aptness can be used to argue that there is
+no room for non-cognitivism"), not as a thesis of the entry, which reports it
+conditionally. Only the direction from minimal to robust is formalized.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §5.2.
+-/
+def NoRobustTruthAptnessBeyondMinimalReading {Sentence : Sort u}
+    (TruthApt RobustlyTruthApt : Sentence → Prop) : Prop :=
+  ∀ φ, TruthApt φ → RobustlyTruthApt φ
+
+/-- Dreier's proposal, in its weaker sourced form: robust moral truth is suited
+to explanatory work. "For minimal propositions, properties, and so on will
+likely not be suited to do much explanatory work of the sort that robust
+propositions, properties, and so on are suited for."
+
+`SuitedToExplainTalk φ` says that the truth conditions of `φ` are suited to
+explain our thought and talk with `φ`. Only the positive direction for robust
+truth conditions is formalized; the hedged remark that minimal ones will
+"likely" not do "much" such work is not. That robust truth conditions actually
+explain it is not part of this reading either; that stronger bridge is the separate, unattributed open
+premise `TruthCore.Refutations.QuasiRealism.RobustMoralTruthIsExplanatory`
+(Codex P1 on #230). The entry reports the proposal conditionally ("If this can
+be defended"): the reading records the proposal, not its defense.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §5.2 (reporting Dreier 2018).
+-/
+def RobustMoralTruthSuitedToExplainReading {Sentence : Sort u}
+    (Moral RobustlyTruthApt SuitedToExplainTalk : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → RobustlyTruthApt φ → SuitedToExplainTalk φ
+
+/-- The anti-realist order of explanation, for moral sentences: "According to
+anti-realist theories, entities or properties such as proposition, property,
+truth, truth conditions, and representation are explained by our use of terms
+for them in our thought and talk."
+
+`TalkExplainsTruth φ` says that the truth conditions of `φ` are explained by
+our use of `φ` in thought and talk. Stated for every moral sentence, since the
+anti-realist in question (the quasi-realist) is anti-realist about morals; not
+for every sentence.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §5.2 (reporting Dreier 2018).
+-/
+def AntirealistOrderOfExplanationReading {Sentence : Sort u}
+    (Moral TalkExplainsTruth : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → TalkExplainsTruth φ
+
 end TruthCore.English.VanRoojen
