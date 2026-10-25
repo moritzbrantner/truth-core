@@ -1,0 +1,9 @@
+{
+  "id": "HUME-SELF-APPLICATION-DROPPED",
+  "argument_id": "HUME-SELF-APPLICATION-DROPPED",
+  "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.checks",
+  "comparator_config": "results/HUME-SELF-APPLICATION-DROPPED/comparator.json",
+  "status": "solution-present"
+}

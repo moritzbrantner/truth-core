@@ -1,0 +1,19 @@
+{
+  "id": "STMT-HUME-SELF-APPLICATION-HIGHER",
+  "paraphrase": "The existing ordinary self-application and necessary-bridge conflict laws remain valid. H and C(□¬H) imply ◇□¬H. Adding □H makes this impossible if the frame is reflexive, or if it is transitive and every root-accessible world has a successor. These are conditional mathematical laws; no frame or conception commitment is attributed to Hume.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.HigherOrderLaws",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

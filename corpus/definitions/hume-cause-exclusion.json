@@ -1,0 +1,9 @@
+{
+  "id": "DEF-HUME-CAUSE-EXCLUSION",
+  "term": "excluding every cause in Treatise I.3.3 §§5–7",
+  "definition": "The hypothetical exclusion of all productive principles also excludes the object itself; it does not introduce an entity called nothing as a cause. This specifies what the denied causal claim says, without establishing that any actual object begins uncaused.",
+  "basis": "sourced",
+  "claim_ids": [
+    "HUME-TREATISE-I-3-3-EXCLUSION-A"
+  ]
+}

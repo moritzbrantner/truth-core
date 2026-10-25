@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-SERIAL-CHAIN-MODEL",
+  "term": "serial nontransitive necessary-denial countermodel",
+  "definition": "Three distinct constructors root, middle and last; edges root→middle, middle→last and last→last. Root conception tests truth at middle, middle conceives nothing and last conceives everything. The separate unsoundRoot conception conceives everything at root as well. No metaphysical or epistemic adequacy is inferred from this table.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite dropped-assumption witness.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.chain"
+}

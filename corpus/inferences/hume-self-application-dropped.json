@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-SELF-APPLICATION-DROPPED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-SELF-APPLICATION-DROPPED",
+  "rule": "direct-proof",
+  "meaning": "Use explicit constructor edge tables: the middle world satisfies H by empty conception, while the last world violates H on the false predicate. Change root conception to indiscriminate conception for the missing-bridge counterexample.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

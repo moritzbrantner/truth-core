@@ -1,0 +1,9 @@
+{
+  "id": "HUME-SELF-APPLICATION-SCOPES",
+  "argument_id": "HUME-SELF-APPLICATION-SCOPES",
+  "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.checks",
+  "comparator_config": "results/HUME-SELF-APPLICATION-SCOPES/comparator.json",
+  "status": "solution-present"
+}

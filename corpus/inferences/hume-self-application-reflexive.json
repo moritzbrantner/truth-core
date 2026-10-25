@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-SELF-APPLICATION-REFLEXIVE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-SELF-APPLICATION-REFLEXIVE",
+  "rule": "direct-proof",
+  "meaning": "Instantiate □H at the reflexive root, then compose the ordinary and higher-order conflict laws rather than restating an actual bridge as an independent premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

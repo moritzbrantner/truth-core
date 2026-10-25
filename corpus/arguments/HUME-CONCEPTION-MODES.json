@@ -1,0 +1,28 @@
+{
+  "id": "HUME-CONCEPTION-MODES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-CONCEPTION-MODES",
+  "inference_ids": [
+    "INF-HUME-CONCEPTION-MODES"
+  ],
+  "meaning": "Issue #268 analytical consequence and finite countermodels, not a refutation of the sourced narrow claim. Use direct denotation of a conjunction and its negation, an inaccessible satisfying Bool world, identity of possibility-defined conception with Dia, and project the previously checked narrow-withholding and indiscriminate witnesses.",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-VERBAL-DESCRIPTION",
+    "DEF-HUME-MODEL-SATISFIABILITY",
+    "DEF-HUME-MODAL-CONCEPTION",
+    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-COLLAPSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE",
+    "DISAMB-HUME-DESCRIPTION-CONSISTENCY"
+  ]
+}

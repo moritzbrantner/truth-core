@@ -1,0 +1,19 @@
+{
+  "id": "STMT-HUME-SELF-APPLICATION-REFLEXIVE",
+  "paraphrase": "On a reflexive frame, □H conflicts with either C(¬H) or C(□¬H). A separate actual-H premise is redundant in this scope because □H can be instantiated at the actual root. This conditional theorem attributes none of these commitments to Hume.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ReflexiveConflictLaws",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

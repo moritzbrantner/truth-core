@@ -1,0 +1,16 @@
+{
+  "id": "HUME-TREATISE-I-3-3-TIME-PLACE-A",
+  "statement_id": "STMT-HUME-I-3-3-TIME-PLACE",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.3, §4 (SBN 80)",
+  "interpretation": "This is the rebuttal Hume offers to that argument, not an established metaphysical symmetry of every time and place or a theorem that an uncaused beginning actually occurs.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-TEST-DEMONSTRABILITY",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

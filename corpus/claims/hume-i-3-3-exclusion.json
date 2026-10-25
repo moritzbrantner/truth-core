@@ -1,0 +1,16 @@
+{
+  "id": "HUME-TREATISE-I-3-3-EXCLUSION-A",
+  "statement_id": "STMT-HUME-I-3-3-EXCLUSION",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.3, §§5–7 (SBN 80–82)",
+  "interpretation": "A semantic and argumentative distinction inside the hypothetical denial. It neither establishes the truth of uncaused existence nor licenses arbitrary world predicates as conceivable. No cause entity called nothing is introduced.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-CAUSE-EXCLUSION",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

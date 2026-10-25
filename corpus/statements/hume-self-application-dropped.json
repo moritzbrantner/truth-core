@@ -1,0 +1,19 @@
+{
+  "id": "STMT-HUME-SELF-APPLICATION-DROPPED",
+  "paraphrase": "A serial three-world nontransitive chain satisfies H, □H and C(□¬H) at its root; seriality alone cannot replace transitivity in the alternative conflict route. A second conception on that same frame satisfies C(¬H) but not ◇¬H and violates H, showing that conception of denial by itself does not provide possible denial.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.DroppedPremiseModels",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-SERIAL-CHAIN-MODEL",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-VERBAL-DESCRIPTION",
+  "term": "verbal description in the finite analytical language",
+  "definition": "A grammatical Description built from an atom, a collapse label, negation and conjunction. Verbal F P w means that some description denotes P pointwise. Grammar supplies neither consistency nor imaginative or metaphysical adequacy.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite analytical comparison, not a source attribution or a claim about metaphysical accessibility.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.Verbal"
+}

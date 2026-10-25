@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
