@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-REPORT-MATT-NARRATIVE-RESURRECTION",
+  "paraphrase": "Matthew's narrator uses Jesus' resurrection as the time marker for the raised saints' departure from their tombs. Textual narrative attestation only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Matthew.MattNarrativeResurrection",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

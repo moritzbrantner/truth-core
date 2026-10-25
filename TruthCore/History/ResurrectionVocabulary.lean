@@ -24,6 +24,7 @@ inductive Report
   | johnBrothersUnbelieving | actsBrothersPraying | paulMetJames
   | josephusJamesStoned | tacitusExecution | clementEndurance
   | clementApostolicConviction | markAuthority | mattUniversalAuthority
+  | mattNarrativeResurrection
   deriving DecidableEq
 
 /-- Proposed accounts, not attributions to modern proponents. Legend here is
