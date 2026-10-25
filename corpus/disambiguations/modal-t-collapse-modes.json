@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-MODAL-T-COLLAPSE-MODES",
+  "term": "T-frame collapse configurations",
+  "sense_definition_ids": [
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-MODAL-T-BRANCHING",
+    "DEF-MODAL-T-CHAIN",
+    "DEF-MODAL-T-DUPLICATES"
+  ],
+  "resolution": "Actual collapse is MC F D w, possible collapse is Dia F (MC F D) w, and necessary collapse is Box F (MC F D) w at the same explicit root and domain. T reflexivity gives necessary implies actual and actual implies possible, not possible implies actual. PossibilityActuality is a separate quantified property; the K theorem proves its full-predicate equivalence with MC. Branching contingency is independently witnessed by the fixed atom at the root and endpoint, not assumed because collapse fails. The nontransitive chain distinguishes one-step possibility from iterated possibility. The duplicate-label experiment changes only proposition scope; it does not infer world identity from the current corpus inventory or confuse the optional world-extensionality condition with Lean propext. None of these mathematical claims establishes metaphysical possibility, real-world contingency, Hume attribution or a cosmological result."
+}

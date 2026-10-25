@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-T-BRANCHING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-T-BRANCHING",
+  "rule": "direct-proof",
+  "meaning": "Reuse the exact branching model and its existing root failures. Prove endpoint persistence by enumerating its only successor. Use self-access to refute necessary collapse, the independent atom and its negation to witness contingency and failure of possibility entails actuality, and the atom to prove language world extensionality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
