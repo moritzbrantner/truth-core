@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q19-A1-POSSESSED-GOOD-WILL",
+  "statement_id": "STMT-WILL-INCLUDES-LOVE-OF-POSSESSED-GOOD",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.19 a.1 ad 2",
+  "interpretation": "Aquinas answers the objection that appetite implies an unfulfilled lack. Both love of possessed good and seeking absent good belong to willing; the divine application is the former. This does not posit a created passive faculty in God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-ACT-OF-WILL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+  ]
+}

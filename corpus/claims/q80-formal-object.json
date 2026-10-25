@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q80-A1-APPREHENDED-APPETIBLE-ASPECTS",
+  "statement_id": "STMT-APPREHENDED-AND-APPETIBLE-DIFFER-IN-ASPECT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.80 a.1 ad 2",
+  "interpretation": "Aquinas distinguishes the formal accounts under which a single object relates to cognitive and appetitive powers. No equivalence of cognition and appetite follows from their concern with the same thing.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-APPETITIVE-OBJECT-ASPECT",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}

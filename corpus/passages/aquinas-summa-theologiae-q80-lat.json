@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.corpusthomisticum.org/sth1077.html",
+    "sha256": "sha256:d94d71351d8ec6edb379f1e0cae8859364a78e2aca5b915806b1f4b54fba5bdd",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-25T20:05:46Z",
+    "license": "Latin text: Leonine edition, Rome 1889, electronically transcribed by Roberto Busa and reviewed by Enrique Alarc\u00f3n. The page claims \u00a92019 Fundaci\u00f3n Tom\u00e1s de Aquino, all rights reserved for this edition. Only hashes, locators, metadata and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "html_selector": {
+        "from": {
+          "anchor": "31828"
+        },
+        "to": {
+          "anchor": "31845"
+        }
+      },
+      "text_sha256": "sha256:19457f98dbc996b87674fbe0c1ec639b994163bf3b198c8131e78b414052ccb8",
+      "incipit": "[31828] I\u00aa q. 80 pr. Deinde considerandum est de potentiis appetitivis.",
+      "id": "AQUINAS-ST-I-Q80",
+      "locator": "I q.80 a.1\u20132",
+      "claim_locator_prefixes": [
+        "I q.80 a.1 ",
+        "I q.80 a.2 "
+      ]
+    }
+  ]
+}

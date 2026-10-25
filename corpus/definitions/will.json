@@ -6,6 +6,7 @@
   "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill",
   "note": "WillFollowsIntellectReading formalizes HasIntellect x → HasWill x, not the internal structure of intellectual appetite or divine choice. The source supplies the intended meaning; no equivalence definition of HasWill is added.",
   "claim_ids": [
-    "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT"
+    "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
+    "AQUINAS-ST-I-Q19-A1-POSSESSED-GOOD-WILL"
   ]
 }

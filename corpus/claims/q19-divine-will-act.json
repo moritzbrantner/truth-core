@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q19-A1-DIVINE-WILL-NOT-EXTERNALLY-MOVED",
+  "statement_id": "STMT-DIVINE-WILL-NOT-MOVED-BY-ANOTHER",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.19 a.1 co.; ad 3",
+  "interpretation": "Read the reply with the corpus: the language of motion for understanding and willing is qualified, and no passive creaturely appetite or transition from unrealized potency is asserted of God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-DIVINE-WILL-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"
+  ]
+}
