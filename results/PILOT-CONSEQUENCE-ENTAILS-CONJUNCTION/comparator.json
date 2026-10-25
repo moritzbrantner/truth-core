@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.ConsequencePair.pairFromConsequence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

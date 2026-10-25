@@ -58,6 +58,10 @@ test("proof exploration retains exact intermediate, overlays and shareable inspe
   expect(new URL(page.url()).searchParams.get("target")).toBe(target);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await panel.getByRole("link", { name: "PILOT-COMPOSED-WITNESS", exact: true }).first().click();
+  await page.waitForURL((url) => url.pathname === `${basePath}/results/PILOT-COMPOSED-WITNESS/`);
+  await page.getByRole("heading", { name: "The advertised theorem", exact: true }).waitFor();
+  await page.getByText("Formal consequence only.", { exact: true }).waitFor();
   expect(errors).toEqual([]);
   await page.close();
 }, 60000);

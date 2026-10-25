@@ -1,22 +1,22 @@
-.overlay :global(.graph-node)[data-proof-forward="true"] {
+.overlay [data-proof-forward="true"] {
   border-left: 5px solid var(--accent);
 }
 
-.overlay :global(.graph-node)[data-proof-backward="true"] {
+.overlay [data-proof-backward="true"] {
   border-right: 5px solid var(--muted);
 }
 
-.overlay :global(.graph-node)[data-proof-junction="true"] {
+.overlay [data-proof-junction="true"] {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
-.overlay :global(.graph-node)[data-proof-blocker="true"] {
+.overlay [data-proof-blocker="true"] {
   border-bottom-style: dashed;
   border-bottom-width: 3px;
 }
 
-.overlay :global(.graph-node)[data-proof-target="true"] {
+.overlay [data-proof-target="true"] {
   box-shadow: 0 0 0 6px var(--line-strong);
 }
 
@@ -44,4 +44,15 @@
 
 .blocker {
   border-bottom: 3px dashed var(--line-strong);
+}
+
+.controls input,
+.controls select {
+  min-width: 0;
+  width: 100%;
+}
+
+.panel {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }

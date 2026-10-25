@@ -109,3 +109,14 @@ test("discharged local assumptions are scoped subproof facts, never global forwa
   expect(result.branches[0].dischargedStatementIds).toEqual(["B"]);
   expect(result.joins).toEqual([]);
 });
+
+test("cancellation at the final yielded work item is still reported as cancelled", () => {
+  const graph = fixtureGraph(input([], ["A"]));
+  const controller = new AbortController();
+  const search = exploreProof(graph, { target: "A", budget: 100, signal: controller.signal });
+  expect(search.next().done).toBe(false);
+  controller.abort();
+  const next = search.next();
+  expect(next.done).toBe(true);
+  if (next.done) { expect(next.value.status).toBe("cancelled"); }
+});

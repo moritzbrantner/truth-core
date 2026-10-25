@@ -13,7 +13,7 @@ export function ProofExplorationControls({ graph, target, state, start, hide }: 
 }) {
   return <details open={state.explore}>
     <summary>Proof exploration</summary>
-    <form className="graph-toolbar" onSubmit={(event) => {
+    <form className={`graph-toolbar ${styles.controls}`} onSubmit={(event) => {
       event.preventDefault();
       const data = new FormData(event.currentTarget);
       const budget = Number(data.get("budget"));

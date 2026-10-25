@@ -98,6 +98,7 @@ export function* exploreProof(
         break;
       }
       yield;
+      if (options.signal?.aborted) { status = "cancelled"; break; }
       visited.add(key);
       if (argument.premises.every((id) => available.has(id))) {
         forwardArguments.add(argument.id);
@@ -129,6 +130,7 @@ export function* exploreProof(
       break;
     }
     yield;
+    if (options.signal?.aborted) { status = "cancelled"; break; }
     visited.add(key);
     backward.add(goal);
     // Retain decompositions even for established goals so the intermediate
@@ -138,6 +140,7 @@ export function* exploreProof(
         break;
       }
       yield;
+      if (options.signal?.aborted) { status = "cancelled"; break; }
       const required = sorted([...inference.inputs, ...inference.assumptions]);
       const localFacts = new Set([...local, ...inference.assumptions.filter((id) => inference.discharged.includes(id))]);
       const missing = required.filter((id) => !available.has(id) && !localFacts.has(id));

@@ -318,6 +318,7 @@ import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
 import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
 import TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution
 import TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution
 import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution

@@ -45,9 +45,7 @@ still uses the existing source-range candidate pipeline.
 `PILOT-COMPOSED-WITNESS` imports the #207 pilot's independent proof of
 `STMT-SOME-LEAN-PROPOSITION-HOLDS`, applies the existing
 `someImpliesNotAll` theorem to produce
-`STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS` as an actual intermediate proof, then pairs
-both into `STMT-PILOT-WITNESS-AND-CONSEQUENCE`. Its argument reuses both existing
-inference records and adds conjunction introduction. It has no premises or
+`STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS` as an actual intermediate proof, then applies the checked `pairFromConsequence` B → C helper to construct `STMT-PILOT-WITNESS-AND-CONSEQUENCE`. The helper imports the existing reciprocal B → A result to recover the witness, then introduces the conjunction. The composed argument reuses all three existing pilot inference records and adds conjunction introduction. It has no premises or
 permitted axioms. This is a bounded logical fixture, not philosophical progress
 on the Catholicism root or verification of external truth.
 

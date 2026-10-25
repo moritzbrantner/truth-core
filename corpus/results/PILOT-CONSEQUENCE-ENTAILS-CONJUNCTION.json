@@ -1,0 +1,9 @@
+{
+  "id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "argument_id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.pairFromConsequence",
+  "comparator_config": "results/PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION/comparator.json",
+  "status": "solution-present"
+}
