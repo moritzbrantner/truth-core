@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-SELECTION-COVERAGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-SELECTION-COVERAGE",
+  "rule": "finite_model_construction_or_composition",
+  "meaning": "The stipulated filter retains the present heritable advantageous variant and rejects the locally disadvantageous one. A finite explanatory coverage test, not an empirical proof of Darwin’s law.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

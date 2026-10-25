@@ -1,0 +1,18 @@
+{
+  "id": "DARWIN-ORIGIN-IV-NEUTRAL-VARIATION",
+  "statement_id": "STMT-TELEONOMY-NEUTRAL-VARIATION",
+  "source_id": "DARWIN-ORIGIN",
+  "locator": "IV, natural selection, opening paragraph: Variations neither useful nor injurious",
+  "interpretation": "Restricts the explanatory mechanism; does not deny neutral inheritance or claim all traits are adaptations.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

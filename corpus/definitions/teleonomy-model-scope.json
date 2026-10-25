@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TELEONOMY-MODEL-SCOPE",
+  "term": "natural body, recurrence, best, chance, intelligence and finite-model scope",
+  "definition": "The reused Fifth Way predicates retain their original senses: isBody selects b0 and b1, End is Unit, bodyEnd records recurrence or broad tending only for bodies, allEnd makes the end beneficial for each, noEnd asserts none, and Directs is an ordering by a director. isDirector selects d0 and d1 as cognizing intelligent beings, whereas noneP selects no knower. ByChance is rare accidental attainment, not random mutation or statistical sampling. Best is stipulated benefit in this finite model, not biological global optimality, and no body is identified with a whole organism. The b0/b1 labels in the biological/nonliving scope test designate the additional process whose tending is unconstrained by a distinct Boolean organism-variant filter.",
+  "basis": "stipulative",
+  "note": "Stipulative interpretation of #179’s finite structures solely for consequence tests. Source fidelity and empirical adequacy of a physical process need further sources; none is inferred from the model.",
+  "lean_declaration": "TruthCore.Teleonomy.UnguidedFinalityModel"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TELEONOMY-SELECTION-FILTER",
+  "term": "selected function and local biological advantage",
+  "definition": "A selected-function explanation appeals to a heritable trait’s differential survival or reproductive contribution in a specified environment, not its anticipation of a future end. In the stipulated Boolean filter a variant persists exactly when present, heritable and advantageous. The filter is a deterministic special case; Darwin’s tendency to preservation does not assert this rule for every actual organism. Neutral variants, drift, changing environments and historical contingency prevent inference of global optimality.",
+  "basis": "stipulative",
+  "note": "Stipulated finite test of mechanism and agency independence, informed by the separate Darwin and Blount occurrence claims. A population-genetic model would require further sourced equations.",
+  "lean_declaration": "TruthCore.Teleonomy.retained"
+}

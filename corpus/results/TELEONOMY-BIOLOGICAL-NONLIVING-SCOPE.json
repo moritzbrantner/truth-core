@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "argument_id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.biologicalNonlivingScope",
+  "comparator_config": "results/TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE/comparator.json",
+  "status": "solution-present"
+}

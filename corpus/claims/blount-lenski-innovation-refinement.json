@@ -1,0 +1,18 @@
+{
+  "id": "BLOUNT-LENSKI-INNOVATION-REFINEMENT",
+  "statement_id": "STMT-TELEONOMY-EXPERIMENTAL-REFINEMENT",
+  "source_id": "BLOUNT-LENSKI-INNOVATION",
+  "locator": "Abstract, adaptation and mismatch",
+  "interpretation": "A primary experimental case, including the authors’ negative findings. It supports local adaptation without universal progress, perfection or the denial of intelligent governance. Abstract states reported outcomes, not the complete experimental argument.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TELEONOMY-NEUTRAL-VARIATION",
+  "paraphrase": "Darwin says variations that are neither useful nor injurious are not affected by natural selection and remain fluctuating.",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

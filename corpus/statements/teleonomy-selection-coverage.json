@@ -1,0 +1,15 @@
+{
+  "id": "STMT-TELEONOMY-SELECTION-COVERAGE",
+  "paraphrase": "The stipulated filter retains the present heritable advantageous variant and rejects the locally disadvantageous one. A finite explanatory coverage test, not an empirical proof of Darwin’s law.",
+  "lean_declaration": "TruthCore.Teleonomy.SelectionCoverage",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

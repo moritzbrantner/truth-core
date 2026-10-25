@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TELEONOMY-EXPERIMENTAL-FEEDBACK",
+  "paraphrase": "Dye and colleagues propose that mechanical feedback coupling cell polarity to active cell rearrangements can produce wing-disc patterns of morphology and stress; MyoVI knockdown supports model predictions.",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

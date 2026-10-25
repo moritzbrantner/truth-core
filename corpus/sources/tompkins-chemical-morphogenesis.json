@@ -1,0 +1,10 @@
+{
+  "id": "TOMPKINS-CHEMICAL-MORPHOGENESIS",
+  "kind": "primary_text",
+  "author": "Nathan Tompkins and colleagues",
+  "work": "Testing Turing\u2019s theory of morphogenesis in chemical cells (2014)",
+  "citation_system": "PNAS 111, 4397\u20134402, abstract and numbered sections",
+  "work_urn": "https://doi.org/10.1073/pnas.1322005111",
+  "catalog_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3970514/",
+  "notes": "Bibliographic identity for a remaining witness. PMC and APS HTML had drifting response hashes, despite stable extracted abstract text; no source claim is based on either page. A stable author/publisher PDF witness may be pinned through the existing web_snapshot adapter when available."
+}
