@@ -12,7 +12,10 @@ the grounding question. Quasi-realism (Blackburn, Gibbard) tries to earn
 realism's answers. So the map records, question by question, whether its
 answer **matches** realism or **deviates**. Sources are the SEP entry "Moral
 Cognitivism vs. Non-Cognitivism" (`SEP-MORAL-COGNITIVISM`) and the earlier
-results named.
+results named; the mind-independence and epistemology rows (#192) cite the SEP
+entries "Moral Anti-Realism" (`SEP-MORAL-ANTI-REALISM`), "Metaethics"
+(`SEP-METAETHICS`) and "Moral Epistemology" (`SEP-MORAL-EPISTEMOLOGY`).
+Blackburn's own texts (1984, 1993, 1998) stay candidates (invariant 18).
 
 | Question | Realism | Quasi-realism | Status |
 |---|---|---|---|
@@ -24,8 +27,9 @@ results named.
 | Q-EXPLANATORY-ORDER (do moral truths explain moral thought and talk, or the reverse?) | the truths explain the talk (§5.2) | the talk explains the truths (§5.2, Dreier) | **deviates**; recorded as alternatives, open |
 | Q-SUPERVENIENCE (why must moral judgments supervene on natural ones?) | — | respecting supervenience is a requirement of competence, from the purposes of moral talk, with "no further inference to a metaphysical conclusion" (§3.4, Blackburn) | recorded; not an answer to what makes a moral judgment true |
 | Q-MORAL-GROUNDING (what makes a moral judgment true?) | — | no answer in the pinned witness: the explanatory-order and supervenience entries do not supply one (Codex P1 on #189) | not yet sourced |
-| Q-MIND-INDEPENDENCE ("if we all approved of cruelty, it would still be wrong") | yes | no answer in the pinned witness | not yet sourced |
-| Q-MORAL-EPISTEMOLOGY (how we know it) | — | no answer in the pinned witness | not yet sourced |
+| Q-MIND-INDEPENDENCE ("if we all approved of cruelty, it would still be wrong"), as a sentence (`DISAMB-MIND-INDEPENDENCE`) | yes; that objectivism yields the sentence is not formalized | yes: the program aims to earn this talk (Anti-Realism §3.1), its legitimacy judged from within one's attitudes (Metaethics §4) | **matches**, if the program succeeds; this is the mimicry the collapse lemma bears on (§3.1 raises the collapse challenge here) |
+| Q-MIND-INDEPENDENCE, as objectivity (do moral facts exist and are they mind-independent?) | yes: robust realism is objectivist (Anti-Realism §3.3) | no: an anti-realist metaphysical stance (§3.1); a noncognitivist is neither objectivist nor non-objectivist (§3.3) | **deviates**; recorded from sourced claims, no result |
+| Q-MORAL-EPISTEMOLOGY (how we know it; `DISAMB-MORAL-KNOWLEDGE`) | justified true belief that represents moral reality (Epistemology preamble, the entry's working sense) | justified attitudes, called true only deflationarily, without representing moral reality (Epistemology preamble) | **deviates**, on the same robust/minimal contrast as Q-ROBUST-TRUTH; recorded, no result |
 
 The deviations cluster at the explanatory level, as the owner expected. §5.2
 reports the collapse argument (creeping minimalism) in the same terms: if
@@ -35,7 +39,10 @@ regroups by contrasting minimal with robust truth and belief. That is exactly
 the robust-truth deviation, and Dreier's order of explanation is the
 explanatory-order deviation, which the grounding question (#191) still has to
 connect to. Neither is refuted here; each is a deviation target with no
-`refutes` relation.
+`refutes` relation. The mind-independence question splits (#192): quasi-realism
+aims to match realism on the counterfactual sentence and deviates on
+objectivity, so the match on the sentence does not by itself make it a mimic
+theory in the sense of the collapse lemma.
 -/
 
 namespace TruthCore.Refutations.QuasiRealism

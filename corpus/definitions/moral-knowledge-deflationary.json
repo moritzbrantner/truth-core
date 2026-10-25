@@ -1,0 +1,9 @@
+{
+  "id": "DEF-MORAL-KNOWLEDGE-DEFLATIONARY",
+  "term": "moral knowledge, in the expressivist (deflationary) sense",
+  "definition": "Justified moral attitudes, whose justification a non-cognitivist theory explains, called 'true' only in the deflationary sense (DEF-TRUTH-MINIMAL), so that one can speak of justified true moral beliefs without implying that they accurately represent moral reality.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-MORAL-EPISTEMOLOGY-PREAMBLE-EXPRESSIVIST-JUSTIFICATION"
+  ]
+}

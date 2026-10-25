@@ -1,0 +1,22 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SEP-METAETHICS",
+    "source_url": "https://plato.stanford.edu/archives/spr2026/entries/metaethics/",
+    "retrieved_at": "2026-10-25T09:02:55Z",
+    "sha256": "sha256:d7336f5e3deecb6ccba5c5676a8c7713abc5214939b239492bab0885f2ead401",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright © 2023 by Geoff Sayre-McCord; the Stanford Encyclopedia of Philosophy is copyright © 2023 by The Metaphysics Research Lab, Department of Philosophy, Stanford University (notices on the page, checked 2026-10-25). Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "SEP-METAETHICS-4",
+      "locator": "§4 (Is/Ought and the Open Question Argument)",
+      "claim_locator_prefixes": ["§4,"],
+      "html_selector": {"from": {"anchor": "IsOOpeQueArg"}, "to": {"anchor": "MorEpi"}},
+      "text_sha256": "sha256:bb2df503990f87f5ae556fd1523df92872bb5ef268ce3843747eb150e321a890",
+      "incipit": "4. Is/Ought and the Open Question Argument\nDavid Hume seemed to have these"
+    }
+  ]
+}

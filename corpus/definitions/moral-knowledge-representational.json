@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL",
+  "term": "moral knowledge, in the representational sense",
+  "definition": "Moral knowledge entails (roughly) justified true moral belief, where the belief is a putatively reliable representation of moral reality and 'true' is truth in the robust sense (DEF-TRUTH-ROBUST). So understood, moral knowledge is incompatible with non-cognitivism.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-MORAL-EPISTEMOLOGY-PREAMBLE-KNOWLEDGE-JTB"
+  ],
+  "note": "The source is the epistemology entry's working assumption, not a reported realist thesis. That 'true' here is robust truth is the project's gloss, from the entry's phrase 'reliable representations of moral reality'."
+}

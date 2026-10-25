@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MORAL-KNOWLEDGE",
+  "term": "moral knowledge ('we know that cruelty is wrong')",
+  "sense_definition_ids": [
+    "DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL",
+    "DEF-MORAL-KNOWLEDGE-DEFLATIONARY"
+  ],
+  "resolution": "Two senses, differing in the 'true' of 'justified true moral belief'. Representational (DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL): robustly true belief representing moral reality; STMT-MORAL-KNOWLEDGE-ENTAILS-JUSTIFIED-TRUE-BELIEF, and the realist side of the deviation map, use this sense. Deflationary (DEF-MORAL-KNOWLEDGE-DEFLATIONARY): justified attitudes called true minimally; STMT-EXPRESSIVIST-MORAL-JUSTIFICATION-WITHOUT-REPRESENTATION, and quasi-realism's answer, use this sense. A quasi-realist who says 'we know cruelty is wrong' does not thereby claim knowledge in the representational sense, and the incompatibility of representational knowledge with non-cognitivism does not show that the quasi-realist cannot claim deflationary knowledge. The deviation on this question rests on the same robust/minimal contrast as the verified robust-truth deviation (QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH), but it is recorded from sourced claims, not verified by a result of its own, and it is not a refutation."
+}
