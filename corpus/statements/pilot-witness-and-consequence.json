@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "paraphrase": "Inside Lean logic, (∃ P : Prop, P) ∧ ¬ (∀ P : Prop, ¬ P). A bounded conjunction of the pilot witness and its logical consequence; no empirical or mind-independence thesis.",
+  "lean_declaration": "TruthCore.Logic.TruthComposition.WitnessAndConsequence",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

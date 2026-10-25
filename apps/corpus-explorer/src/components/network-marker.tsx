@@ -1,9 +1,11 @@
 import { Handle, Position, useStore, type Node, type NodeProps } from "@xyflow/react";
+import type { ProofOverlay } from "@/lib/proof-overlay";
 import type { ViewNode } from "@/lib/graph-view";
 
 export type NetworkMarkerData = {
   view: ViewNode;
   selected: boolean;
+  proof?: ProofOverlay;
   community: number;
   degree: number;
 } & Record<string, unknown>;
@@ -28,6 +30,11 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
   return (
     <div
       className="network-marker"
+      data-proof-target={data.proof?.target ?? false}
+      data-proof-forward={data.proof?.forward ?? false}
+      data-proof-backward={data.proof?.backward ?? false}
+      data-proof-junction={data.proof?.junction ?? false}
+      data-proof-blocker={data.proof?.blocker ?? false}
       data-kind={node.kind}
       data-selected={data.selected}
       data-highlighted={node.highlighted}

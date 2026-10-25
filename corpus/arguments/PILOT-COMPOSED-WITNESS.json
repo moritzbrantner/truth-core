@@ -1,0 +1,18 @@
+{
+  "id": "PILOT-COMPOSED-WITNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "inference_ids": [
+    "INF-LOGIC-SOME-PROPOSITION-HOLDS",
+    "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
+    "INF-PILOT-WITNESS-AND-CONSEQUENCE"
+  ],
+  "meaning": "Reuse the pilot theorem constructing a proposition with a proof (A), apply its existing existential-elimination theorem to derive non-universal failure (B), then pass that actual intermediate to the checked B → C helper, which recovers a witness and pairs it with B. No new premise, axiom, source claim, or truth interpretation.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

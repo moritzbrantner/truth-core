@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-FINITE",
+  "term": "deterministic finite model",
+  "definition": "Model supplies an ordered list containing every world, Boolean edges and atomic truth. eval implements the existing Formula/Holds semantics; eval_correct proves agreement. Witness and counterexample lists retain enumeration order and are relative to the supplied root. collapseEval only checks its explicit finite Boolean predicate inventory, not arbitrary Prop functions.",
+  "basis": "stipulative",
+  "note": "Repository-native mathematical fixture requested in #261. No historical attribution or metaphysical endorsement; source-based adoption requires a separate witnessed reading.",
+  "lean_declaration": "TruthCore.Modal.ResearchFinite.Model"
+}
