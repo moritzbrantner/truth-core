@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q10-A4-ENDLESS-TIME-SUCCESSIVE",
+  "statement_id": "STMT-ENDLESS-TIME-STILL-DIFFERS-FROM-ETERNITY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.10 a.4 co.: dato quod tempus semper fuerit et semper futurum sit",
+  "interpretation": "The conditional grants endless time for the comparison; it does not endorse an eternal world. Absence of beginning and end alone is not the primary discriminator, and eternity is not identified with a distinguished temporal now.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ETERNAL",
+    "DEF-TEMPORAL-SUCCESSION-Q10"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

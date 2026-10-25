@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "paraphrase": "Import quartaVia to obtain the same maximum that causes the being of every other being, then apply causal-comparison exclusion to that witness. No new maximum-existence premise or root wrapper is added. The result advances the external-cause subproblem; sustaining-dependence and eternity recognition remain open.",
+  "lean_declaration": "TruthCore.Case.Catholicism.MaximalCauseWithNoDistinctEsseCause",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ONTOLOGICAL-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING",
+    "DISAMB-TRUE"
+  ]
+}

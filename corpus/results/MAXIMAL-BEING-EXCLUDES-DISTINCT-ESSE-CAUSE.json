@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "argument_id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.maximumHasNoDistinctEsseCause",
+  "comparator_config": "results/MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Every maximum in being excludes a distinct cause of its being in the existing CausesIn relation: causal comparison would make that cause more in being, contrary to maximality. This does not exclude self-causation or arbitrary sustaining/withdrawal/modal power. The finite omission model verifies that maximality alone does not give this exclusion."
+}

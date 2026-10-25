@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MUTABILITY-CHANNEL",
+  "term": "potency and mutability",
+  "sense_definition_ids": [
+    "DEF-POTENCY",
+    "DEF-MUTABILITY-IN-ANOTHER"
+  ],
+  "resolution": "Existing InPotency/PureAct quantifies potency in a subject. Q.9 a.2 separately allows mutability through the creator's power in another. Neither absence of intrinsic potency nor present state constancy identifies or excludes that external dependence channel."
+}

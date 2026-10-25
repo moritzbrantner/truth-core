@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.quartaViaWitness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

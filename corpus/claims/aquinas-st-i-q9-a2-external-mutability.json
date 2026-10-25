@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY",
+  "statement_id": "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.9 a.2 co.: mutabile potest aliquid dici dupliciter",
+  "interpretation": "The external channel is the creator's power to originate or withdraw creaturely esse; it is not asserted to be an intrinsic InPotency of the creature. This is an attributed metaphysical claim, not a formal identification of sustaining dependence with CausesIn or an assertion that arbitrary modal powers are causes.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MUTABILITY-IN-ANOTHER",
+    "DEF-POTENCY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MUTABILITY-CHANNEL"
+  ]
+}

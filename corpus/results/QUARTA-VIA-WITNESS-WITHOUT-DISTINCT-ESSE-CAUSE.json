@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "argument_id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.quartaViaWitness",
+  "comparator_config": "results/QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Import quartaVia to obtain the same maximum that causes the being of every other being, then apply causal-comparison exclusion to that witness. No new maximum-existence premise or root wrapper is added. The result advances the external-cause subproblem; sustaining-dependence and eternity recognition remain open."
+}

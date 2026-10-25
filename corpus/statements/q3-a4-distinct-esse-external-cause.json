@@ -1,0 +1,13 @@
+{
+  "id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+  "paraphrase": "Aquinas argues that a thing whose esse differs from its essence has esse caused by another: essential principles cannot suffice to cause its own caused esse.",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-BEING"
+  ]
+}

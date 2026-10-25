@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MAXIMUM-HAS-NO-DISTINCT-ESSE-CAUSE",
+  "paraphrase": "Every maximum in being excludes a distinct cause of its being in the existing CausesIn relation: causal comparison would make that cause more in being, contrary to maximality. This does not exclude self-causation or arbitrary sustaining/withdrawal/modal power. The finite omission model verifies that maximality alone does not give this exclusion.",
+  "lean_declaration": "TruthCore.Case.Catholicism.MaximumHasNoDistinctEsseCause",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING"
+  ]
+}
