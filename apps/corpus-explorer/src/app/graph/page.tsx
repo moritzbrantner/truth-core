@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 
 import { PropositionGraphExplorer } from "@/components/proposition-graph-explorer";
+import { networkStructure } from "@/lib/graph-network";
 import { getCorpus } from "@/lib/corpus";
 import { getFrontierReport } from "@/lib/site-state";
 import { researchFrontier } from "@/lib/research-frontier";
@@ -21,7 +22,7 @@ export default function GraphPage() {
     <>
       <h1 className="sr-only">Epistemic Frontier</h1>
       <Suspense fallback={<p>Loading the proposition graph…</p>}>
-        <PropositionGraphExplorer graph={graph} obligations={obligations} />
+        <PropositionGraphExplorer graph={graph} obligations={obligations} network={networkStructure(graph)} />
       </Suspense>
     </>
   );

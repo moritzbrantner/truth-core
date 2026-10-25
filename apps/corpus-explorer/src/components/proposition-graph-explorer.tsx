@@ -19,6 +19,8 @@ import { orderObligations, type ResearchObligation } from "@/lib/research-fronti
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef } from "react";
 
+import type { NetworkStructure } from "@/lib/graph-network";
+import { NetworkMarker } from "./network-marker";
 import { layeredLayout } from "@/lib/graph-layout";
 import {
   MAX_HOPS,
@@ -147,6 +149,7 @@ function ClusterNodeView({ data }: NodeProps<FlowNode>) {
 }
 
 const nodeTypes = {
+  marker: NetworkMarker,
   statement: StatementNodeView,
   inference: InferenceNodeView,
   cluster: ClusterNodeView,
@@ -159,6 +162,14 @@ const edgeStyle: Record<ViewEdge["kind"], React.CSSProperties> = {
   relation: { stroke: "var(--status-alternative)", strokeDasharray: "7 5" },
   cluster: { stroke: "var(--line-strong)", strokeDasharray: "1 5" },
 };
+
+function nodeDescription(node: ViewNode) {
+  if (node.kind === "inference") { return `${node.id}: ${node.inference.meaning}`; }
+  if (node.kind === "cluster") { return `${node.label}: ${node.size} statements`; }
+  let status = String(node.statement.status);
+  if (node.statement.frontier) { status = `${node.statement.frontierDepth} open frontier`; }
+  return `${node.statement.paraphrase}; ${status}`;
+}
 
 function hashIds(nodes: ViewNode[]) {
   let hash = 0;
@@ -173,8 +184,10 @@ function hashIds(nodes: ViewNode[]) {
 export function PropositionGraphExplorer({
   graph,
   obligations,
+  network,
 }: {
   graph: PropositionGraph;
+  network: NetworkStructure;
   obligations: ResearchObligation[];
 }) {
   const pathname = usePathname();
@@ -182,6 +195,7 @@ export function PropositionGraphExplorer({
   const searchParams = useSearchParams();
   const state = useMemo(() => parseGraphState(searchParams), [searchParams]);
   const index = useMemo(() => indexGraph(graph), [graph]);
+  const compact = state.layout === "network" && state.view === "all";
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
   const queue = useMemo(
     () =>
@@ -194,7 +208,7 @@ export function PropositionGraphExplorer({
     [obligations, graph.defaultTarget, state.scope, state.target, state.sel, state.pins, state.kind],
   );
   const activeObligation = queue.find((item) => item.id === state.obligation);
-  const search = useMemo(() => searchStatements(graph, state, 12), [graph, state]);
+  const search = useMemo(() => searchStatements(graph, state, 12, index), [graph, state, index]);
 
   // Compose updates issued before the previous router.replace commits.
   const pendingState = useRef<GraphState | null>(null);
@@ -230,33 +244,44 @@ export function PropositionGraphExplorer({
 
   const { nodes, edges } = useMemo(() => {
     const relatedIds = new Set(activeObligation?.statementIds ?? []);
+    const selectedSteps = index.inferenceById.has(state.sel)
+      ? [index.inferenceById.get(state.sel)!]
+      : [...(index.producers.get(state.sel) ?? []), ...(index.consumers.get(state.sel) ?? [])];
+    for (const step of selectedSteps) {
+      relatedIds.add(step.id);
+      for (const id of [...step.inputs, ...step.assumptions, step.output]) { relatedIds.add(id); }
+    }
     for (const argument of graph.arguments) {
       if (activeObligation?.recordIds.includes(argument.id)) {
         argument.inferenceIds.forEach((id) => relatedIds.add(id));
       }
     }
-    const positions = layeredLayout(
+    const positions = compact ? network.positions : layeredLayout(
       view.nodes.map((node) => ({ id: node.id, ...NODE_SIZE[node.kind] })),
       view.edges.filter((edge) => edge.kind !== "relation"),
     );
     const flowNodes: FlowNode[] = view.nodes.map((node) => ({
       id: node.id,
-      type: node.kind,
+      type: compact ? "marker" : node.kind,
+      ariaLabel: nodeDescription(node),
+      focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
         selected: node.id === state.sel,
+        community: network.community.get(node.id) ?? 0,
+        degree: network.degree.get(node.id) ?? 0,
       },
       draggable: false,
       selectable: false,
-      style: { width: NODE_SIZE[node.kind].width },
+      style: { width: compact ? 28 : NODE_SIZE[node.kind].width, height: compact ? 28 : undefined },
     }));
     const flowEdges: Edge[] = view.edges.map((edge) => ({
       id: edge.id,
       source: edge.source,
       target: edge.target,
-      type: edge.kind === "relation" ? "default" : "smoothstep",
-      label: edge.label,
+      type: compact || edge.kind === "relation" ? "straight" : "smoothstep",
+      label: compact ? undefined : edge.label,
       style: {
         ...edgeStyle[edge.kind],
         strokeWidth: edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target) ? 2.5 : 1.25,
@@ -270,9 +295,9 @@ export function PropositionGraphExplorer({
             },
     }));
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, activeObligation, graph.arguments]);
+  }, [view, state.sel, activeObligation, graph.arguments, compact, network, index]);
 
-  const onNodeClick = (_event: React.MouseEvent, node: FlowNode) => {
+  const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
     if (clicked.kind === "cluster") {
       update((current) => ({
@@ -301,7 +326,7 @@ export function PropositionGraphExplorer({
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
   const stageTargets = STAGE_CONCLUSIONS.filter(({ statementId }) => index.statementById.has(statementId));
-  const flowKey = `${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
+  const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
 
   return (
     <section aria-labelledby="graph-heading" className="mt-2">
@@ -315,6 +340,18 @@ export function PropositionGraphExplorer({
       </datalist>
 
       <div className="graph-toolbar">
+        <div className="graph-segmented" role="group" aria-label="Layout">
+          {(["network", "layered"] as const).map((layout) => <button key={layout} type="button" aria-pressed={state.layout === layout} onClick={() => update({ layout, viewport: "" })}>{layout === "network" ? "Network" : "Layered"}</button>)}
+        </div>
+        <label className="field-label">Structural / epistemic filter
+          <select className="field-control" value={state.leaf} onChange={(event) => update({ leaf: event.target.value as GraphState["leaf"] })}>
+            <option value="">All statements</option>
+            <option value="unsupported">No supporting inference ({network.unsupported.size})</option>
+            <option value="unconsumed">No dependent inference ({network.unconsumed.size})</option>
+            <option value="frontier">Open frontier ({graph.statements.filter((node) => node.frontier).length})</option>
+          </select>
+        </label>
+        <label className="graph-toggle"><input type="checkbox" checked={state.relations} onChange={(event) => update({ relations: event.target.checked })} />Relation overlays (not proof)</label>
         <div className="graph-segmented" role="group" aria-label="Frontier scope">
           <button
             aria-pressed={state.scope === "global"}
@@ -437,7 +474,7 @@ export function PropositionGraphExplorer({
             </label>
           </div>
         ) : null}
-        {state.view === "all" ? (
+        {state.view === "all" && state.layout === "layered" ? (
           <div className="graph-focus-controls">
             <label className="field-label">
               Cluster by
@@ -543,6 +580,7 @@ export function PropositionGraphExplorer({
         </label>
       </div>
 
+      <details className="graph-status-filters"><summary>Status filters and legend</summary>
       <fieldset className="graph-chip-row">
         <legend className="sr-only">Status</legend>
         {GRAPH_STATUSES.map((status) => {
@@ -569,6 +607,8 @@ export function PropositionGraphExplorer({
           );
         })}
       </fieldset>
+      <GraphLegend />
+      </details>
 
       {state.tags.length || hasFilters(state) ? (
         <div className="graph-chip-row">
@@ -594,7 +634,7 @@ export function PropositionGraphExplorer({
           </label>
           <button
             className="graph-button"
-            onClick={() => update({ q: "", status: [], tags: [], source: "", hide: false })}
+            onClick={() => update({ q: "", status: [], tags: [], source: "", leaf: "", hide: false })}
             type="button"
           >
             Clear filters
@@ -652,8 +692,9 @@ export function PropositionGraphExplorer({
       ) : null}
 
       <p aria-live="polite" className="mt-4 text-sm text-[var(--muted)]">
+        {compact ? `${network.components.length} inference-connected components. ` : ""}
         {view.message ? `${view.message} ` : ""}
-        {view.statementCount} statements, {view.frontierCount} open premises (frontier) in view
+        {view.statementCount} of {graph.statements.length} statements ({graph.statements.length - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
       </p>
 
@@ -666,7 +707,12 @@ export function PropositionGraphExplorer({
           update={update}
         />
         <div className="graph-layout">
-          <div className="graph-shell">
+          <div className="graph-shell" onKeyDownCapture={(event) => {
+            if (event.key !== "Enter" && event.key !== " ") { return; }
+            const element = (event.target as HTMLElement).closest<HTMLElement>(".react-flow__node");
+            const node = nodes.find((entry) => entry.id === element?.dataset.id);
+            if (node) { event.preventDefault(); event.stopPropagation(); onNodeClick(event, node); }
+          }}>
             <ReactFlow
               edges={edges}
               defaultViewport={parseViewport(state.viewport)}
@@ -678,7 +724,7 @@ export function PropositionGraphExplorer({
                   });
                 }
               }}
-              fitViewOptions={{ padding: 0.12, minZoom: 0.4 }}
+              fitViewOptions={{ padding: 0.12, minZoom: compact ? 0.05 : 0.4 }}
               key={flowKey}
               maxZoom={1.6}
               minZoom={0.05}
@@ -689,41 +735,42 @@ export function PropositionGraphExplorer({
               onNodeClick={onNodeClick}
               onlyRenderVisibleElements
             >
-              <SelectionLocator state={state} />
+              <SelectionLocator state={state} compact={compact} />
               <Background gap={24} size={1} />
               <Controls showInteractive={false} />
             </ReactFlow>
           </div>
-          <DetailPanel graph={graph} index={index} state={state} update={update} />
+          <DetailPanel graph={graph} index={index} state={state} update={update} network={network} />
         </div>
       </div>
-      <GraphLegend />
     </section>
   );
 }
 
 /** Locate by the retained layout position before measurement, so a culled node can mount. */
-function SelectionLocator({ state }: { state: GraphState }) {
+function SelectionLocator({ state, compact }: { state: GraphState; compact: boolean }) {
   const position = useStore((store) => store.nodeLookup.get(state.sel)?.position);
   const ready = useStore((store) => store.width > 0 && store.height > 0);
   const { setCenter } = useReactFlow();
   useEffect(() => {
     if (ready && position && !state.viewport && state.sel && state.obligation) {
-      void setCenter(position.x + NODE_SIZE.statement.width / 2, position.y + NODE_SIZE.statement.height / 2, {
+      void setCenter(position.x + (compact ? 14 : NODE_SIZE.statement.width / 2), position.y + (compact ? 14 : NODE_SIZE.statement.height / 2), {
         zoom: 0.8,
       });
     }
-  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter]);
+  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter, compact]);
   return null;
 }
 
 function DetailPanel({
+  network,
   graph,
   index,
   state,
   update,
 }: {
   graph: PropositionGraph;
+  network: NetworkStructure;
   index: ReturnType<typeof indexGraph>;
   state: GraphState;
   update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;
@@ -808,7 +855,7 @@ function DetailPanel({
         <h3 className="mt-2 font-serif text-2xl leading-tight">{inference.rule.replaceAll("_", " ")}</h3>
         <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{inference.id}</p>
         <p className="mt-4 text-sm leading-6">{inference.meaning}</p>
-        <p className="eyebrow mt-6">Premises → conclusion</p>
+        <p className="eyebrow mt-6">All premises (AND) → conclusion</p>
         <ul className="mt-2 grid gap-1 text-sm">
           {[...inference.inputs, ...inference.assumptions].map((id) => (
             <li key={id}>
@@ -854,6 +901,9 @@ function DetailPanel({
   }
 
   const current = statement as GraphStatement;
+  const community = network.community.get(current.id);
+  const members = graph.statements.filter((entry) => network.community.get(entry.id) === community);
+  const memberInferences = graph.inferences.filter((entry) => network.community.get(entry.id) === community).length;
   return (
     <aside className="graph-detail">
       <p className="eyebrow">
@@ -909,6 +959,18 @@ function DetailPanel({
                   : "No establishment recorded"}
             . Source integrity and interpretation fidelity are separate; inspect the linked claims and witnesses.
           </dd>
+        </div>
+        <div>
+          <dt className="eyebrow">Connectivity community {community}</dt>
+          <dd>{members.length} statements, {memberInferences} inference applications; {members.filter((entry) => entry.established).length} established, {members.filter((entry) => !entry.established && entry.closureReason).length} conditionally closed, {members.filter((entry) => !entry.established && !entry.closureReason).length} without recorded closure, {members.filter((entry) => entry.frontier).length} frontier. Counts describe recorded structure, not confidence.</dd>
+        </div>
+        <div>
+          <dt className="eyebrow">Structural leaves</dt>
+          <dd>{network.unsupported.has(current.id) ? "No known supporting inference. " : "Has supporting inferences. "}{network.unconsumed.has(current.id) ? "No known dependent inference." : "Has dependent inferences."} These are independent of frontier status.</dd>
+        </div>
+        <div>
+          <dt className="eyebrow">Inference connectivity</dt>
+          <dd>{new Set([...(index.producers.get(current.id) ?? []), ...(index.consumers.get(current.id) ?? [])].map((step) => step.id)).size} incident applications; {index.producers.get(current.id)?.length ?? 0} supporting alternatives (OR); {index.consumers.get(current.id)?.length ?? 0} consumers. Each application requires all its premises (AND).</dd>
         </div>
         <div>
           <dt className="eyebrow">Lean declaration</dt>
@@ -995,7 +1057,7 @@ function GraphLegend() {
     <div className="graph-legend">
       <p className="eyebrow">Reading the graph</p>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--muted)]">
-        Premises sit below the inference steps (⊢) that use them, and conclusions above. Every logical step goes through
+        In network mode, size shows incident inference degree and subdued colors show connectivity communities, never truth or confidence. ✓ established; ◐ closed conditionally; ! bare frontier; ? sourced but undefended frontier; ○ other statement; T transcription; ◇ alternative or objection; × refuted; ⊢ inference junction. Frontier has an outer ring. Labels appear on hover, focus, selection or close zoom. Structural leaves and epistemic obligations are separate filters. Selection highlights incident upstream support and downstream consumers with all premises; Focus follows further paths. In layered mode, premises sit below the inference steps (⊢) that use them, and conclusions above. Every logical step goes through
         an explicit inference node; dashed coloured edges are relations, never support. Dotted edges summarize steps
         into a collapsed cluster. Status says only how a statement stands inside the corpus: a verified result checks
         formal consequence, not premise truth or source fidelity, and the transcription flag is a textual heuristic.
