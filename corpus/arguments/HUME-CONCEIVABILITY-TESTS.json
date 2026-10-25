@@ -1,0 +1,24 @@
+{
+  "id": "HUME-CONCEIVABILITY-TESTS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-CONCEIVABILITY-TESTS",
+  "inference_ids": [
+    "INF-HUME-CONCEIVABILITY-TESTS"
+  ],
+  "meaning": "Conditional impossibility and countermodels only, in the exact full-comprehension semantics declared in Checks. Open historical/epistemic commitments are not smuggled into a refutation. This is the bounded #248 contribution to Humeanism campaign #247 and objective-truth investigation #207, not completion of either campaign.",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
+    "DEF-HUME-TEST-DEMONSTRABILITY",
+    "DEF-HUME-TEST-COLLAPSE",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-CONTINGENCY",
+  "term": "contingency in the declared model",
+  "definition": "◇P ∧ ◇¬P at an origin. In universal Bool accessibility, P(w) := w = true has independently exhibited witnesses true and false; neither ◇MC nor any bridge is used to construct them. It is a finite semantic countermodel, not an empirical claim about our world.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Contingent"
+}

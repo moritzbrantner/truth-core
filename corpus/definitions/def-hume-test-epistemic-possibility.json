@@ -1,0 +1,7 @@
+{
+  "id": "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
+  "term": "epistemic possibility (contrast only)",
+  "definition": "Compatibility with an agent’s information. No information-state semantics is implemented here, and this sense is never inferred from Dia or confused with imagination.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading."
+}

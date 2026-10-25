@@ -1,0 +1,9 @@
+{
+  "id": "HUME-CONCEIVABILITY-TESTS",
+  "argument_id": "HUME-CONCEIVABILITY-TESTS",
+  "challenge_module": "TruthCore.Results.Modern.Hume.Conceivability.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Conceivability.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.Conceivability.checks",
+  "comparator_config": "results/HUME-CONCEIVABILITY-TESTS/comparator.json",
+  "status": "solution-present"
+}

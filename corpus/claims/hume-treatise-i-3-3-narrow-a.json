@@ -1,0 +1,18 @@
+{
+  "id": "HUME-TREATISE-I-3-3-NARROW-A",
+  "statement_id": "STMT-HUME-NARROW-IDEAS-WITHHOLDING",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.3, §3 (SBN 79–80)",
+  "interpretation": "The passage separates the ideas of cause and beginning and says this separation involves no contradiction refutable by reasoning from mere ideas. We record only that bounded nondemonstrability conclusion. The words about actual separation being so far possible also motivate stronger readings, but this claim does not endorse an unrestricted metaphysical bridge, its necessity, or C(¬H)/C(MC). §§1–7 and §§8–9 were read as context; §§5–7 reject converting no cause into self-cause or nothing-as-cause. Parameterization marks the unimplemented account of mere-ideas refutation, not a proof of historical fidelity.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+    "DEF-HUME-TEST-DEMONSTRABILITY",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

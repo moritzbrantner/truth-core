@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-FRAME",
+  "term": "accessibility and components in the Hume tests",
+  "definition": "Reuse Modal.Frame and the Scott embedding’s MProp, Box and Dia only. The conditional propagation laws assume symmetry and transitivity; therefore apply to S5 equivalence frames, although reflexivity is unnecessary. Their scope is the accessible component, not all worlds. Universal Bool is equivalence accessibility; branching Bool is reflexive/transitive but not symmetric. Identity-accessibility Bool has two isolated components. No theological axioms or classical host axioms are imported as premises.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.ComponentLaw"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-COLLAPSE",
+  "term": "modal collapse (local, full comprehension)",
+  "definition": "MC(w) := ∀P : World → Prop, P(w) → ∀v, R(w,v) → P(v). Quantification includes negations and singleton identity predicates P(v) := v = w. Thus accessible equality uses built-in point separation; restricted proposition domains could have indistinguishable distinct worlds. This local predicate is not global validity or global uniqueness of worlds.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Collapse"
+}

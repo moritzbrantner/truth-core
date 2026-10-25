@@ -1,0 +1,10 @@
+{
+  "id": "HUME-TREATISE",
+  "kind": "primary_work",
+  "author": "David Hume",
+  "work": "A Treatise of Human Nature (1739), Book I, Hume Texts Online",
+  "citation_system": "Book.part.section.paragraph; SBN pagination",
+  "work_urn": "https://davidhume.org/texts/t",
+  "catalog_url": "https://davidhume.org/texts/t",
+  "notes": "Original English witness. Web snapshot used because no immutable git edition has been identified. The entire I.3.3 section provides context for \u00a7\u00a71\u20137."
+}

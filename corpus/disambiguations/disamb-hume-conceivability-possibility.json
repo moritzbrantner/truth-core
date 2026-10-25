@@ -1,0 +1,13 @@
+{
+  "id": "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+  "term": "conceivability / possibility / demonstrability",
+  "sense_definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
+    "DEF-HUME-TEST-DEMONSTRABILITY"
+  ],
+  "resolution": "The source claim concerns imagination and the absence of a refutation from mere ideas. Formal C is an unconstrained analytical parameter, Dia is accessibility-based metaphysical possibility under a stipulated interpretation, and epistemic possibility is contrast vocabulary only. No theorem identifies these senses. The strong bridge is an explicit hypothesis inside conditional laws, not an inference from the source. Describing MC does not establish it is conceivable in the source-specific sense."
+}

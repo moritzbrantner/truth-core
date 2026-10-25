@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+  "term": "metaphysical possibility (test interpretation)",
+  "definition": "Existence of an accessible world satisfying P, using the reused Dia semantics. This is a stipulated interpretation of a modal model; no theorem establishes that its worlds are genuine metaphysical possibilities. Frame assumptions are explicit in each law.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.StrongBridge"
+}

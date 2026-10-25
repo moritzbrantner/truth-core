@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-CONCEPTION",
+  "term": "conceivability (formal C)",
+  "definition": "A parameter C : (World → Prop) → World → Prop. C(P,w) says P is conceivable at w in the stipulated test. No closure, factivity, bridge, or introspection is built in. In particular describing MC or ¬H does not supply C(MC) or C(¬H).",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Conception"
+}
