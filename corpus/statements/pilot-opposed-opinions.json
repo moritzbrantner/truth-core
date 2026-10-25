@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-OPPOSED-OPINIONS",
+  "paraphrase": "People hold opposed opinions, with the opposition relation preserved without treating it as logical negation. A weaker sibling reading of the same source range; no contradiction follows from opposition alone.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.OpposedOpinions",
+  "definition_ids": [
+    "DEF-PILOT-OPINION-OPPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-PILOT-GLOBAL-VARIATION-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PILOT-GLOBAL-VARIATION-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "A globally variable interpretation exists when no logical-sentence stability bridge is imposed. A countermodel to any unconditional self-refutation inference from that bare definition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

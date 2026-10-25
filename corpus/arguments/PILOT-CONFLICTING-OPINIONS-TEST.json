@@ -1,0 +1,21 @@
+{
+  "id": "PILOT-CONFLICTING-OPINIONS-TEST",
+  "premise_statement_ids": [
+    "STMT-PILOT-CONFLICTING-OPINIONS",
+    "STMT-PILOT-NEGATION-RESPECTED"
+  ],
+  "conclusion_statement_id": "STMT-PILOT-NOT-ALL-OPINIONS-TRUE",
+  "inference_ids": [
+    "INF-PILOT-CONFLICTING-OPINIONS-TEST"
+  ],
+  "meaning": "Test Aristotle’s reported all-opinions-true target only under an explicit interpretation of expressed negation. No refutes relation against every relativism or against withholding. Two explicit Boolean-content countermodels in the Solution show why neither conflicting opinions nor the logical-negation bridge may be silently omitted.",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-PILOT-OPINION-NEGATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}

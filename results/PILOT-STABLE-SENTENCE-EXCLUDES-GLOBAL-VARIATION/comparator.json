@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.stableExcludesGlobal"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

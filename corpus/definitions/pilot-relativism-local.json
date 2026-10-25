@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PILOT-RELATIVISM-LOCAL",
+  "term": "local profile-variation reading",
+  "definition": "Some sentence has a true and a false interpretation under different endorsement profiles; no claim that all sentences vary.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.LocalProfileVariation",
+  "note": "A minimal stipulated test semantics for #207, not a translation of every historical or modern use. A sourced defense and a translation from ordinary truth claims remain research obligations."
+}

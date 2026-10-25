@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-PILOT-RELATIVITY",
+  "term": "relative or disputed truth",
+  "sense_definition_ids": [
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION",
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED"
+  ],
+  "resolution": "The global and local profile theses have different quantifier scope. An epistemic limitation or an endorsement disagreement is not truth variation. Aristotle’s reported all-opinions-true target uses a shared unindexed truth predicate and is not silently translated into modern indexed relativism. The conditional contradiction test additionally requires expressed negation to entail logical negation. Models show local variation survives a stable logical sentence, global variation is consistent without that stability bridge, and epistemic differences do not require either variation thesis. None of these tests refutes intuitionist withholding of excluded middle."
+}

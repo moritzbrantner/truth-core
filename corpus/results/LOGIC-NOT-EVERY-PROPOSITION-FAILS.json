@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-NOT-EVERY-PROPOSITION-FAILS",
+  "argument_id": "LOGIC-NOT-EVERY-PROPOSITION-FAILS",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.notEveryPropositionFails",
+  "comparator_config": "results/LOGIC-NOT-EVERY-PROPOSITION-FAILS/comparator.json",
+  "status": "solution-present"
+}

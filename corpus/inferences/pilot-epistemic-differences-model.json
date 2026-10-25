@@ -1,0 +1,9 @@
+{
+  "id": "INF-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "Explicit model separating endorsement disagreement and limited knowledge from variation in truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.someImpliesNotAll"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

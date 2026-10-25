@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PILOT-OPPOSITION",
+  "term": "opposed or contradictory opinions",
+  "sense_definition_ids": [
+    "DEF-PILOT-OPINION-OPPOSITION",
+    "DEF-PILOT-OPINION-NEGATION"
+  ],
+  "resolution": "The weaker source reading B preserves opposition as a relation between contents. Reading A selects contradictory contents from the following being/not-being conclusion, represented by an expressed-negation operation. Neither recording alone identifies expressed opposition with logical negation. Only the separately open NegationRespected bridge licenses the contradiction test, so the test is not passed off as a proof from unspecified opposition."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PILOT-OPINION-OPPOSITION",
+  "term": "opposed opinions, before a logical-negation interpretation",
+  "definition": "OpposedOpinions records two opinions p and q and a relation Opposes p q. The relation preserves the source’s opposition vocabulary, without requiring q = neg p or making truth of one imply nontruth of the other.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-1009A-CONFLICTING-OPINIONS-B"
+  ],
+  "lean_declaration": "TruthCore.Logic.TruthPilot.OpposedOpinions"
+}

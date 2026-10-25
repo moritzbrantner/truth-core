@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.somePropositionHolds"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

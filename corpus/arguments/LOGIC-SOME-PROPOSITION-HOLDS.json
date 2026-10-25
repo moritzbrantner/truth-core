@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-SOME-PROPOSITION-HOLDS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "inference_ids": [
+    "INF-LOGIC-SOME-PROPOSITION-HOLDS"
+  ],
+  "meaning": "A direct witness True and its constructor prove the exact existential inside Lean logic. No source or philosophical independence premise.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

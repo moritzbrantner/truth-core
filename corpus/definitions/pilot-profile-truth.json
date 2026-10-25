@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PILOT-PROFILE-TRUTH",
+  "term": "truth under endorsement profiles (pilot)",
+  "definition": "A Profile maps two agents and two test sentences to endorsement propositions. An Interpretation maps each profile and sentence to a proposition. Endorsement is independent input, not identified with truth; the profile tests change endorsement while holding an interpretation fixed. LogicalSentenceStable says the designated logical sentence holds at every profile. Profile invariance is a stipulated counterfactual test, not a sourced sufficient analysis of philosophical objectivity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.Interpretation",
+  "note": "A minimal stipulated test semantics for #207, not a translation of every historical or modern use. A sourced defense and a translation from ordinary truth claims remain research obligations. The earlier explanation-order fixture (DEF-ATTITUDE-INDEPENDENCE-TEST) holds particular moral facts fixed over selected practices. This pilot instead quantifies over the full space of endorsement profiles and has no moral/privation fields. Reusing that Data bundle would add irrelevant moral commitments; the profile vocabulary is separate for that reason."
+}

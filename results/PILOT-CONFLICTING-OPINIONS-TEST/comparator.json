@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.conflictingOpinionsTest"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

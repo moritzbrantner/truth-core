@@ -1,0 +1,9 @@
+{
+  "id": "PILOT-GLOBAL-VARIATION-MODEL",
+  "argument_id": "PILOT-GLOBAL-VARIATION-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.GlobalVariation.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.GlobalVariation.globalVariation",
+  "comparator_config": "results/PILOT-GLOBAL-VARIATION-MODEL/comparator.json",
+  "status": "solution-present"
+}

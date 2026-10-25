@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION",
+  "paraphrase": "The strong global profile-variation thesis fails for the supplied interpretation. The conditional result requires the logical-sentence stability bridge.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.NotGlobalProfileVariation",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

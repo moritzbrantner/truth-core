@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PILOT-OPINION-NEGATION",
+  "term": "expressed negation versus logical negation",
+  "definition": "The Content → Content map neg is a syntactic/expression operation. ConflictingOpinions requires opinions of p and neg p. NegationRespected is a separate interpretive premise: truth of neg p entails nontruth of p under one predicate. The contradiction test needs that bridge; spelling an expression as negation does not prove it.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.NegationRespected",
+  "note": "A minimal stipulated test semantics for #207, not a translation of every historical or modern use. A sourced defense and a translation from ordinary truth claims remain research obligations."
+}

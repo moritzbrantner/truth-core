@@ -1,0 +1,9 @@
+{
+  "id": "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "argument_id": "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.epistemicDifferences",
+  "comparator_config": "results/PILOT-EPISTEMIC-DIFFERENCES-MODEL/comparator.json",
+  "status": "solution-present"
+}

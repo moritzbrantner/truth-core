@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+  "term": "all opinions true, with one truth predicate",
+  "definition": "AllOpinionsTrue says any content opined by any person satisfies the same unindexed truth predicate. It records the all-opinions-true target Aristotle reports, rather than substituting agent-indexed truth.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.AllOpinionsTrue",
+  "claim_ids": [
+    "ARIST-MET-1009A-ALL-OPINIONS-TRUE-A"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PILOT-LOGICAL-SENTENCE-STABLE",
+  "paraphrase": "The interpretation of the designated logical sentence holds under every endorsement profile. This bridge from an object language to interpretations is an explicit open premise, not established by a Lean logical theorem alone.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.LogicalSentenceStable",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

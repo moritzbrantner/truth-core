@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.epistemicDifferences"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

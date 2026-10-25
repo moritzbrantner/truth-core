@@ -1,0 +1,9 @@
+{
+  "id": "REL-PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION-ATTACK",
+  "subject_kind": "argument",
+  "subject_id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-GLOBAL-PROFILE-VARIATION",
+  "basis": "Conditional on the open logical-sentence stability bridge. The pilot also supplies a global-variation model without that bridge; no unconditional refutes relation is claimed."
+}

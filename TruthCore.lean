@@ -106,6 +106,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.TruthPilot
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
 import TruthCore.Metaethics.Questions
@@ -314,5 +315,14 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+import TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution
+import TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution
+import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
+import TruthCore.Results.Logic.TruthPilot.NotAllImpliesSome.Solution
+import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
+import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
+import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
+import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution

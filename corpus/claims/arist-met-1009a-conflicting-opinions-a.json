@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-A",
+  "statement_id": "STMT-PILOT-CONFLICTING-OPINIONS",
+  "source_id": "ARIST-MET",
+  "locator": "IV.5, 1009a9-12",
+  "interpretation": "The parenthesis says many people opine opposites to one another; its conclusion speaks of the same thing being and not being. The pilot selects the contradictory-content reading, represented by an expressed-negation operation. This is not yet a logical contradiction: the stronger interpretation that truth of the expressed negation negates truth of the content is a separate unattributed open premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PILOT-OPINION-NEGATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}

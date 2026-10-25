@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-NOT-EVERY-PROPOSITION-FAILS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Compose the separately verified existential proof: universal failure would negate its witnessed proposition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

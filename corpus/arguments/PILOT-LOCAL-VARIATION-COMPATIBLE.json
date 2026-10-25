@@ -1,0 +1,16 @@
+{
+  "id": "PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "inference_ids": [
+    "INF-PILOT-LOCAL-VARIATION-COMPATIBLE"
+  ],
+  "meaning": "Construct a stable logical sentence and endorsement-sensitive taste sentence. A model of this encoding, not a sourced full rival worldview.",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-1009B-NO-TRUTH-OR-UNKNOWN-A",
+  "statement_id": "STMT-ARIST-DEMOCRITUS-NO-TRUTH-OR-UNKNOWN",
+  "source_id": "ARIST-MET",
+  "locator": "IV.5, 1009b9-12",
+  "interpretation": "Aristotle reports Democritus’s disjunction: either nothing is true or it is at least unclear to us (ἡμῖν γʼ ἄδηλον). The two horns are preserved rather than identifying lack of clarity with absence of truth. No universal knowledge-negation schema is formalized: the sentence does not specify who knows which propositions. The pilot’s LimitedKnowledge model is a separate stipulated illustration, not an equivalent translation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

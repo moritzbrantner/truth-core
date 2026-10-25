@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-B",
+  "statement_id": "STMT-PILOT-OPPOSED-OPINIONS",
+  "source_id": "ARIST-MET",
+  "locator": "IV.5, 1009a9-12",
+  "interpretation": "The parenthesis says people opine opposites (τἀναντία) to one another. This weaker reading records opposition without interpreting it as an expressed negation or assigning it the truth conditions of logical negation. It preserves a defensible reading alongside the contradictory-content reading suggested by the following being/not-being conclusion. No statement equivalence is implied.",
+  "interpretation_of": "ARIST-MET-1009A-CONFLICTING-OPINIONS-A",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PILOT-OPINION-OPPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}
