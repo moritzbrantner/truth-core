@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-COVERAGE",
+  "term": "bounded induction answer profile",
+  "definition": "humeReply uses the shared AnswerMap to mark psychological origin and practical means-end adjustment answered by supplied open propositions. Noncircular entitlement, necessary connection and parity across domains remain unexplained by this bounded IV–V reading. Unexplained is not denied; no whole historical worldview or numerical score is represented.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.humeReply",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

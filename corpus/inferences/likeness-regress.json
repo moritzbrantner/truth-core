@@ -1,0 +1,16 @@
+{
+  "id": "INF-LIKENESS-REGRESS",
+  "input_statement_ids": [
+    "STMT-THIRD-MAN-ITERATION",
+    "STMT-THIRD-MAN-LIKENESS-FORMATION",
+    "STMT-THIRD-MAN-LIKENESS-SEED",
+    "STMT-THIRD-MAN-LIKENESS-SYMMETRY",
+    "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+    "STMT-THIRD-MAN-PARTICIPATION-LIKENESS"
+  ],
+  "output_statement_id": "STMT-THIRD-MAN-UNBOUNDED",
+  "rule": "finite-list-induction",
+  "meaning": "Starting from a mutual resemblance pair, obtain a common Form. Participation-to-likeness and symmetry make the new Form mutually resemble all old members; numerical nonidentity gives freshness. Iteration keeps the list eligible. Repeating this construction yields arbitrary finite lists of distinct likeness Forms, without ordinary self-predication or ordinary F-homogeneity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-UNIFORM-STANDARD",
+  "paraphrase": "Open norm: the assessment assigns the same verdict where the relevant evidential basis is the same.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.UniformStandard",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-ENTITLEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

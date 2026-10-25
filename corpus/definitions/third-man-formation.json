@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-FORMATION",
+  "term": "one over many",
+  "definition": "Formation supplies a common Form for every eligible genuine finite plurality whose members all ordinarily exemplify the admitted quality. This is stronger in potential domain than the foundation rule restricted to particulars; it asserts no uniqueness.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Formation"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-SEED",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PARM-132E-MUTUAL-COMMON-FORM",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-THIRD-MAN-LIKENESS-SEED",
+  "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-FOUNDATION",
+  "term": "demonstrative foundation and noncircular empirical argument",
+  "definition": "NoDemonstration denies the explicitly supplied demonstration proposition. It does not deny every epistemic entitlement, causal reality, or successful prediction. UnprovedExtension denies the supplied reason-based proof of extending the record. The parameters stand for the historical account of reasoning and are not Lean theorem provability.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.NoDemonstration",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

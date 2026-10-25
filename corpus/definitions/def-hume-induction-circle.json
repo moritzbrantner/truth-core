@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-CIRCLE",
+  "term": "circular proposed experimental justification",
+  "definition": "CircularProposal says every proposed experimental argument depends on uniformity; it represents dependency, not proof entailment or a formal theory of justification. It cannot itself establish uniformity without an independent warrant.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.CircularProposal",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

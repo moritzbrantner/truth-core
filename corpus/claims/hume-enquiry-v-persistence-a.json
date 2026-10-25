@@ -1,0 +1,15 @@
+{
+  "id": "HUME-ENQUIRY-V-PERSISTENCE-A",
+  "statement_id": "STMT-HUME-INDUCTION-PERSISTENCE",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "V, §2 (SBN 41–42)",
+  "interpretation": "The same-nature condition is indispensable. An unconditional guarantee of future habit would strengthen the sentence and is not attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-CUSTOM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

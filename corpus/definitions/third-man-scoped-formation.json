@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-SCOPED-FORMATION",
+  "term": "one over many",
+  "definition": "The foundational OneOverMany concerns ordinary particulars only; ordinary Form-self-predication does not make a Form an ordinary particular.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.OneOverMany"
+}

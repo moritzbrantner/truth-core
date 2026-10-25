@@ -1,0 +1,24 @@
+{
+  "id": "STMT-HUME-INDUCTION-TESTS",
+  "paraphrase": "Bounded induction tests: finite records of habit, prediction or successful intervention do not force their next outcomes; blanket withholding conflicts with positive certification or an entitlement bridge plus reliance; equal evidence plus equal standards forbids selective withholding. Explicit countermodels preserve practical reliance without reasoning foundation, stronger withholding without the normative bridge, differentiated evidence, and conditional habit without invariant nature. Nondemonstrability does not force every next outcome admissible. The shared answer map distinguishes two supplied explanatory answers from three unexplained questions. No historical refutation or empirical reliability theorem is asserted.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.Checks",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-MEANS-ENDS",
+    "DEF-HUME-INDUCTION-ANCHOR",
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-TRIAL",
+    "DEF-HUME-INDUCTION-ADMISSIBILITY",
+    "DEF-HUME-INDUCTION-COVERAGE",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

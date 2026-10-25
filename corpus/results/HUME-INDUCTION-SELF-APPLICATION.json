@@ -1,0 +1,10 @@
+{
+  "id": "HUME-INDUCTION-SELF-APPLICATION",
+  "argument_id": "HUME-INDUCTION-SELF-APPLICATION",
+  "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.Induction.selfApplication",
+  "comparator_config": "results/HUME-INDUCTION-SELF-APPLICATION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional self-application critique: positive certification of habit excludes blanket withholding. This is a transcription of the incompatible-verdict test; the certification is an open premise, not attributed to Hume."
+}

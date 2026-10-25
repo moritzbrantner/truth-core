@@ -94,6 +94,8 @@ import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Forms
 import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
 import TruthCore.Greek.Plato.Parmenides.ReplyModels
+import TruthCore.Greek.Plato.ThirdMan
+import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
@@ -140,6 +142,7 @@ import TruthCore.Modal.Kripke
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modern.Hume.Conceivability
+import TruthCore.Modern.Hume.Induction
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
@@ -362,6 +365,10 @@ import TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution
@@ -394,6 +401,7 @@ import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
+import TruthCore.Results.Modern.Hume.Induction.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Teleonomy.Mechanisms

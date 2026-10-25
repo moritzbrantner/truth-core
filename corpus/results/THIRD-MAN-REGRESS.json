@@ -1,0 +1,10 @@
+{
+  "id": "THIRD-MAN-REGRESS",
+  "argument_id": "THIRD-MAN-REGRESS",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.regress",
+  "comparator_config": "results/THIRD-MAN-REGRESS/comparator.json",
+  "status": "solution-present",
+  "description": "Starting from two ordinary F-particulars, form the next common Form over the old Forms plus that pair. Participant-wide nonidentity makes the new Form different from every earlier one; ordinary self-predication preserves homogeneity and explicit domain iteration preserves eligibility. Induction yields arbitrary finite lengths for one quality. No infinity premise and no opaque bridge to the conclusion is used."
+}
