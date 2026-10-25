@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-T-CHAIN",
+  "term": "reflexive nontransitive chain and one-step reachability",
+  "definition": "chain explicitly lists root, middle and endpoint. Each accesses itself; root also accesses middle; middle also accesses endpoint; there is no root-to-endpoint edge or reverse cross-edge. The independent atom is true exactly at endpoint. chainLanguage is the denotation domain of Formula Unit under this same valuation. One diamond quantifies over one edge, not the transitive closure: root has possible possible full MC but no possible full MC.",
+  "basis": "stipulative",
+  "note": "Issue #264 mathematical experiment. No source attribution, metaphysical endorsement or philosophical premise is asserted. Historical adoption would require its own pinned passage and interpretation.",
+  "lean_declaration": "TruthCore.Modal.TResearch.chain"
+}

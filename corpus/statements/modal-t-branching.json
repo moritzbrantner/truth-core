@@ -1,0 +1,23 @@
+{
+  "id": "STMT-MODAL-T-BRANCHING",
+  "paraphrase": "The shared two-world reflexive branching model has a full- and fixed-language collapsed endpoint accessible from the root, while actual and necessary MC and possibility entails actuality fail at that root in both domains. The independently fixed atom has both positive and negative accessible witnesses. The fixed language is world-extensional, so possible collapse still need not imply actual collapse with that optional identity condition. All witnesses are mathematical and root-relative.",
+  "lean_declaration": "TruthCore.Modal.TResearch.Branching",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-T-BRANCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

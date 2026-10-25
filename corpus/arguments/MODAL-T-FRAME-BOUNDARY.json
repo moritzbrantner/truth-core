@@ -1,0 +1,23 @@
+{
+  "id": "MODAL-T-FRAME-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-T-FRAME-BOUNDARY",
+  "inference_ids": [
+    "INF-MODAL-T-FRAME-BOUNDARY"
+  ],
+  "meaning": "Issue #264 stipulated T-frame mathematics, not a source reading, refutation of Hume or Catholic-case frontier closure. Enumerate the reflexive chain. The missing root-to-endpoint and middle-to-root edges refute transitivity and symmetry. Atom negation distinguishes middle from endpoint, and negated possibility distinguishes root from middle. Compose these failures with domain restriction and enumerate accessible MC witnesses.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-T-CHAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

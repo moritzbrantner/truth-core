@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-T-DUPLICATES",
+  "term": "reflexive duplicate-label language witness",
+  "definition": "Reuse ResearchFinite.duplicates exactly: two Bool labels, universal accessibility, and an atom true at both labels. Formula induction proves that every formula in this fixed language has the same truth at both worlds. All labels have language-relative MC, but none has full-predicate MC because equality predicates separate the labels. Language world extensionality is false here; equal truth in a limited language does not establish identity. The labels are stipulated states, not a proof that metaphysical worlds can differ indiscernibly.",
+  "basis": "stipulative",
+  "note": "Issue #264 mathematical experiment. No source attribution, metaphysical endorsement or philosophical premise is asserted. Historical adoption would require its own pinned passage and interpretation.",
+  "lean_declaration": "TruthCore.Modal.ResearchFinite.duplicates"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-T-BRANCHING",
+  "argument_id": "MODAL-T-BRANCHING",
+  "challenge_module": "TruthCore.Results.Modal.T.Branching.Challenge",
+  "solution_module": "TruthCore.Results.Modal.T.Branching.Solution",
+  "theorem": "TruthCore.Results.Modal.T.Branching.checks",
+  "comparator_config": "results/MODAL-T-BRANCHING/comparator.json",
+  "status": "solution-present"
+}

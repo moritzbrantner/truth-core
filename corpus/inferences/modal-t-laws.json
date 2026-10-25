@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-T-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-T-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Compose the existing K successor-identity theorem with self-access; transport MC along successor equality, and instantiate necessity or possibility at the reflexive root.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
