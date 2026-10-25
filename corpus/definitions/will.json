@@ -1,8 +1,11 @@
 {
   "id": "DEF-HAS-WILL",
   "term": "has will (ST I q.19; Lean parameter `HasWill` of `GodHasWill`)",
-  "definition": "`HasWill g`: g has will in the sense of ST I q.19 a.1, the inclination that follows understanding. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
-  "basis": "stipulative",
+  "definition": "Will is the inclination of an intellectual nature toward the good apprehended through an intelligible form: seeking it when absent and resting in it when possessed (ST I q.19 a.1). Divine will is not a lack seeking satisfaction: Aquinas says it always possesses its good. HasWill is a primitive predicate in GodHasWill and ClassicalAttributesSuffice.",
+  "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill",
-  "note": "Stage 2 group 3 (#201) gives it content for God through ST I q.19 a.1: whatever has intellect has will."
+  "note": "WillFollowsIntellectReading formalizes HasIntellect x → HasWill x, not the internal structure of intellectual appetite or divine choice. The source supplies the intended meaning; no equivalence definition of HasWill is added.",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT"
+  ]
 }

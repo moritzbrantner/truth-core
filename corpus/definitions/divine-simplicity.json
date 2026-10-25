@@ -1,11 +1,12 @@
 {
   "id": "DEF-SIMPLE",
   "term": "simple (Lean `IsSimple`)",
-  "definition": "`IsSimple Composite g`: g is not composite in any way (ST I q.3 a.7). `Composite` is the case's primitive for being composed of parts, of matter and form, or of essence and being.",
-  "basis": "stipulative",
+  "definition": "Simple means without composition of any kind (ST I q.3 a.7), including quantitative parts, matter/form, nature/suppositum, essence/being, genus/difference and subject/accident. The case encodes this as IsSimple Composite g := ¬ Composite g. Composite is a primitive covering every relevant composition; the predicate is not merely the denial of matter-form composition.",
+  "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q3-A7-COMPOSITE-HAS-CAUSE"
+    "AQUINAS-ST-I-Q3-A7-GOD-ALTOGETHER-SIMPLE",
+    "AQUINAS-ST-I-Q3-A7-COMPOSITIONS-A"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.IsSimple",
-  "note": "The case's reading of q.3 a.7: the article argues God is not composite; it does not define 'simple' apart from that denial."
+  "note": "The source supplies the meaning and asserts it of God. Which structures the primitive Composite represents remains an interpretation of the signature; this metadata does not add a Lean equivalence or discharge a premise."
 }

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-INTELLECT-AND-SENSE-COGNITION",
+  "term": "cognition / intellect",
+  "sense_definition_ids": [
+    "DEF-HAS-INTELLECT",
+    "DEF-SENSE-COGNITION"
+  ],
+  "resolution": "HasIntellect means intellectual cognition, not any cognition whatever. The source distinguishes sense from intellect; the case’s sufficiency premise for intellect uses the stated interpretation of highest immateriality. Neither the primitive predicate nor this terminology proves an intellectual faculty from sensory awareness alone."
+}

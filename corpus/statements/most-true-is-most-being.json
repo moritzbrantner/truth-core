@@ -1,1 +1,16 @@
-{"id": "STMT-MOST-TRUE-IS-MOST-BEING", "paraphrase": "Whatever is maximally true is maximally a being.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading", "definition_ids": ["DEF-ONTOLOGICAL-TRUTH", "DEF-MAXIMUM-IN-A-PERFECTION", "DEF-MAXIME-ENS"], "disambiguation_ids": ["DISAMB-TRUE", "DISAMB-MAXIME-ENS", "DISAMB-BEING"]}
+{
+  "id": "STMT-MOST-TRUE-IS-MOST-BEING",
+  "paraphrase": "Whatever is maximally true is maximally a being.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading",
+  "definition_ids": [
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MAXIME-ENS",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING"
+  ]
+}

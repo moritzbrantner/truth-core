@@ -1,11 +1,11 @@
 {
   "id": "DEF-ONE-GOD",
   "term": "one (the one God; Lean `IsTheOneGod`)",
-  "definition": "`IsTheOneGod IsGod g`: whatever is God is g, so any two beings that are God are the same (Dei Filius ch. 1, 'one true and living God').",
-  "basis": "stipulative",
+  "definition": "One God is numerical uniqueness of the God confessed by Dei Filius ch. 1. The case uses IsTheOneGod IsGod g := ∀ g′, IsGod g′ → g′ = g. This predicate alone does not assert IsGod g or the existence of any God; those are separate premises or conclusions.",
+  "basis": "sourced",
   "claim_ids": [
     "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.IsTheOneGod",
-  "note": "Numerical uniqueness of whatever is God. Dei Filius confesses one God without defining oneness; the uniqueness reading is the case's."
+  "note": "The council confesses one existing God. The case predicate isolates its uniqueness content and does not conflate numerical uniqueness with every philosophical sense of unity."
 }

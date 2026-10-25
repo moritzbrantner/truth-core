@@ -1,1 +1,26 @@
-{"id":"STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES","paraphrase":"Whatever is God is simple, perfect, good, infinite, immutable, eternal and one, and has intellect and will.","lean_declaration":"TruthCore.Case.Catholicism.GodHasClassicalAttributes","definition_ids":["DEF-GOD-OF-CLASSICAL-THEISM"]}
+{
+  "id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+  "paraphrase": "Whatever is God satisfies the skeleton's HasClassicalAttributes field. Its intended classical reading is simple, perfect, good, one, infinite, immutable, eternal, with intellect and will. The explicit open premise STMT-CLASSICAL-ATTRIBUTES-SUFFICE maps those nine predicates to the primitive field; this statement's Lean definition does not unpack the field into their conjunction.",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodHasClassicalAttributes",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+    "DEF-SIMPLE",
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-SUPREMELY-GOOD",
+    "DEF-ONE-GOD",
+    "DEF-INFINITE",
+    "DEF-IMMUTABLE",
+    "DEF-ETERNAL",
+    "DEF-HAS-INTELLECT",
+    "DEF-HAS-WILL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-GOD",
+    "DISAMB-INFINITY",
+    "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+    "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+  ]
+}
