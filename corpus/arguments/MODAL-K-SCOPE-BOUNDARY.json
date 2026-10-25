@@ -1,0 +1,25 @@
+{
+  "id": "MODAL-K-SCOPE-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-K-SCOPE-BOUNDARY",
+  "inference_ids": [
+    "INF-MODAL-K-SCOPE-BOUNDARY"
+  ],
+  "meaning": "Issue #262 mathematical K experiment, not a source-derived premise, a refutation of Hume, or Catholic-case frontier closure. Compose the existing fixed-language duplicate-label theorem and formula-agreement proof; separate the two labels using the full-domain equality predicate. Compose the shared extensional-separation theorem with the K full-predicate successor characterization. The extensionality route retains its excluded-middle and negation-closure hypotheses.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-K-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-K-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Instantiate full MC at equality, transport predicates along the resulting world equality, and use the converse equality predicate under possibility entails actuality. Eliminate impossible edges at a dead end. Transport both independent contingency witnesses back to the root to derive a contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

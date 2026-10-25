@@ -1,0 +1,21 @@
+{
+  "id": "STMT-MODAL-K-LAWS",
+  "paraphrase": "On every arbitrary K frame, full-predicate MC is equivalent both to every accessible successor being the root and to full-domain possibility entails actuality. A dead end has MC and necessary MC but no possible MC in any domain. Actual full MC excludes model-relative contingency. All frame/domain/root assumptions are explicit; there is no successor-existence or global-world-identity claim.",
+  "lean_declaration": "TruthCore.Modal.KResearch.Laws",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

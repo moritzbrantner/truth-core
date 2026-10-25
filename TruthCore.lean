@@ -143,6 +143,7 @@ import TruthCore.Modal.DResearch.Laws
 import TruthCore.Modal.DResearch.Scopes
 import TruthCore.Modal.DResearch.Witnesses
 import TruthCore.Modal.Examples
+import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
@@ -410,6 +411,10 @@ import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution
 import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+import TruthCore.Results.Modal.K.Countermodels.Solution
+import TruthCore.Results.Modal.K.Extensionality.Solution
+import TruthCore.Results.Modal.K.Laws.Solution
+import TruthCore.Results.Modal.K.ScopeBoundary.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Modern.Hume.Induction.Solution

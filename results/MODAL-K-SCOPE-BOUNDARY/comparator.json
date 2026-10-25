@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.K.ScopeBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.K.ScopeBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.K.ScopeBoundary.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

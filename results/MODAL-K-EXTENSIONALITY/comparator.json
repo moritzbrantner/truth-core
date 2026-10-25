@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.K.Extensionality.Challenge",
+  "solution_module": "TruthCore.Results.Modal.K.Extensionality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.K.Extensionality.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

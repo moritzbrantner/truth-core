@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-K-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-K-COUNTERMODELS",
+  "rule": "direct-proof",
+  "meaning": "Exhibit the sink as a possible-collapse witness, the root negated-atom sentence as the collapse counterexample, and sink/branch as independent contingency witnesses. Case analysis on explicitly listed worlds proves or refutes necessary MC. Compute formula values and ordered witness lists with the shared evaluator.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
