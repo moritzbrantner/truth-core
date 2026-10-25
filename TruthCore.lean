@@ -295,8 +295,10 @@ import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
+import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation.Solution
 import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution
+import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

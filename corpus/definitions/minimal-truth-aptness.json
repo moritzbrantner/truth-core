@@ -1,0 +1,11 @@
+{
+  "id": "DEF-MINIMAL-TRUTH-APTNESS",
+  "term": "truth-apt, in the minimal (deflationary) sense (Lean `TruthApt` in the van Roojen readings)",
+  "definition": "`TruthApt φ`: φ can be true or false in a deflationary sense, 'according to which there is no substantial property separating true and false sentences' (SEP §1.1). On the minimalists the entry reports (Boghossian, Wright, Divers and Miller, §5.2), having such minimal truth conditions needs only two things: the surface syntax of a paradigmatic assertion with grammatical embedding (`SurfaceAssertoric`), and disciplined use (`DisciplinedUse`). The results formalize only that these suffice (STMT-MINIMAL-CONSTRAINTS-SUFFICE-FOR-TRUTH-APTNESS), not that they are necessary. Minimal truth-aptness is not robust truth-aptness (DEF-TRUTH-ROBUST); whether anything is robustly truth-apt beyond it is the open collapse premise STMT-NO-ROBUST-TRUTH-APTNESS-BEYOND-MINIMAL.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-MORAL-COGNITIVISM-1-1-MINIMAL-TRUTH",
+    "SEP-MORAL-COGNITIVISM-5-2-MINIMAL-TRUTH-CONDITIONS"
+  ],
+  "lean_declaration": "TruthCore.English.VanRoojen.MinimalConstraintsSufficeForTruthAptnessReading"
+}
