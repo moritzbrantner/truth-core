@@ -1,0 +1,23 @@
+{
+  "id": "STMT-PLATONIC-COSMOS-EXEMPLAR",
+  "paraphrase": "The cosmos imitates a stable intelligible exemplar; the exemplar is not identified with its cause or maker.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.CosmosExemplar",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

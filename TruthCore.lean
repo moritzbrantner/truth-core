@@ -10,6 +10,7 @@ import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.NaturalisticRealism
+import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.Resurrection
 import TruthCore.Comparison.Teleonomy
@@ -90,6 +91,7 @@ import TruthCore.Greek.NewTestament.Galatians
 import TruthCore.Greek.NewTestament.John
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Matthew
+import TruthCore.Greek.Plato.Forms
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
@@ -324,6 +326,7 @@ import TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPon
 import TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.Solution
 import TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.Solution
 import TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Solution
+import TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution

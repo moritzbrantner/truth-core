@@ -119,6 +119,10 @@ The initial vertical slice contains:
 
 None of these records claims that Lean establishes the historical or philosophical truth of a premise. Source-evidence verification establishes which primary-text witness was consulted; source fidelity remains a distinct research/review question; Lean/Comparator establishes only the formal consequence encoded by a verified argument.
 
+The [Platonic Forms foundation](docs/platonic-forms.md) adds bounded readings from
+Phaedo, Parmenides, Republic and Timaeus, with separate classificatory, causal,
+exemplar and self-predication commitments and a finite compatibility model.
+
 ## Corpus Explorer
 
 The first web application is a static Next.js explorer of the canonical `corpus/` records. It is managed as a Bun workspace with Turborepo so later applications can be added under `apps/` without giving this read-only explorer its own database.

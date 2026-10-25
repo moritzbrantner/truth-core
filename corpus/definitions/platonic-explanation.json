@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-EXPLANATION",
+  "term": "cause",
+  "definition": "Explains f x q is the putative explanatory dependence of x being q on f, the Phaedo explanatory sense of cause. No efficient action, temporal order, generation or adequacy follows from this primitive relation. ExplanatoryParticipation is a substantive open commitment.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

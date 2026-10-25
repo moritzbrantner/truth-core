@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-PREDICATION",
+  "term": "is F",
+  "definition": "Exemplifies x q is ordinary predication of q of x in the selected respect. Quality may encode the relevant respect; the interface does not collapse contextual large/small into an unrestricted contradictory property. It is not identity.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

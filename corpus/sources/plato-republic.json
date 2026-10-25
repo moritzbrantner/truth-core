@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-REP",
+  "kind": "primary_text",
+  "author": "Plato",
+  "work": "Republic",
+  "citation_system": "Stephanus",
+  "work_urn": "urn:cts:greekLit:tlg0059.tlg030",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0059.tlg030",
+  "notes": "Greek Burnet edition used as the pinned primary witness. The work identity is distinct from any particular interpretation."
+}

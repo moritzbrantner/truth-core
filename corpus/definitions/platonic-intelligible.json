@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-INTELLIGIBLE",
+  "term": "intelligible Form",
+  "definition": "Intelligible f marks accessibility to understanding and Unchanging f marks stability of the relevant Form. These predicates project the Timaeus distinction; they do not encode a complete theory of knowledge or the receptacle.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

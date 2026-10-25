@@ -1,0 +1,17 @@
+{
+  "id": "STMT-PLATONIC-ESSENTIAL-CHARACTERIZATION",
+  "paraphrase": "Optional unattributed open premise: each admitted Form F is essentially characterized as F. No implication to ordinary exemplification is assumed.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.EssentialCharacterization",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

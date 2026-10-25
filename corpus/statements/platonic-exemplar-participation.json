@@ -1,0 +1,20 @@
+{
+  "id": "STMT-PLATONIC-EXEMPLAR-PARTICIPATION",
+  "paraphrase": "In the admitted exemplar domain, each F particular imitates a Form serving as its model. This is a restricted reading, not a generalization to every predicate.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.ExemplarParticipation",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

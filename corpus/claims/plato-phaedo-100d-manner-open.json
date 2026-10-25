@@ -1,0 +1,18 @@
+{
+  "id": "PLATO-PHAEDO-100D-MANNER-OPEN",
+  "statement_id": "STMT-PLATONIC-PHAEDO-100D-MANNER-OPEN",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "100d",
+  "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Socrates does not insist whether beauty makes something beautiful by presence, communion, or some other manner. The safe answer leaves how participation occurs unsettled.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}
