@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT",
+  "term": "evil",
+  "sense_definition_ids": [
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-NATURAL-LAW-MORAL-EVIL"
+  ],
+  "resolution": "q.48 evil is the privation of a due good and includes non-moral evil. q.94 naturally evil is a practical evaluation contrary to natural law. Data keeps NaturallyEvil and Evil as different predicates on different carriers; no theorem identifies them, and evilPremise need not satisfy Moral."
+}

@@ -316,4 +316,19 @@ def AntirealistOrderOfExplanationReading {Sentence : Sort u}
     (Moral TalkExplainsTruth : Sentence → Prop) : Prop :=
   ∀ φ, Moral φ → TalkExplainsTruth φ
 
+/-- Dreier's realist order: the entities/properties explain thought and talk.
+Only the moral application of the criterion SEP §5.2 reports is encoded;
+its defense, and any exclusion of the reverse direction, remain open. -/
+def RealistOrderOfExplanationReading {Sentence : Sort u}
+    (Moral TruthExplainsTalk : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → TruthExplainsTalk φ
+
+/-- Blackburn's proposed explanation of the conceptual supervenience constraint
+from the purposes of moral talk (SEP §3.4). This records one explanatory edge,
+not a metaphysical truthmaker, and does not deny other explanations. The source
+explicitly says there is no further inference to a metaphysical conclusion. -/
+def SupervenienceExplainedByPurposesReading {Topic : Sort u}
+    (Explains : Topic → Topic → Prop) (purposes constraint : Topic) : Prop :=
+  Explains purposes constraint
+
 end TruthCore.English.VanRoojen

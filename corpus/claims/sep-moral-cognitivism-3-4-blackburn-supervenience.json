@@ -1,1 +1,14 @@
-{"id": "SEP-MORAL-COGNITIVISM-3-4-BLACKBURN-SUPERVENIENCE", "statement_id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK", "source_id": "SEP-MORAL-COGNITIVISM", "locator": "§3.4, 'Since this sort of explanation makes reference to our purposes in using moral terms rather than to an independent realm of moral fact, Blackburn thinks it supports a quasi-realist account rather than a straightforward realist theory.'", "interpretation": "Blackburn (1993, 137, 143): moral judgments must supervene on natural ones because their point is 'to guide desires and choices among the natural features of the world'; since the explanation relies on what beliefs can coexist with linguistic competence, there is 'no further inference to a metaphysical conclusion'. Read as an explanation of why respecting supervenience is a requirement of competence, not as an answer to what makes a moral judgment true (Codex P1 on #189). Attribution reading on a secondary witness: the claim records the position the entry reports, not a thesis of the entry's author. No primary text is pinnable (in copyright, no immutable open text).", "status": "formalized"}
+{
+  "id": "SEP-MORAL-COGNITIVISM-3-4-BLACKBURN-SUPERVENIENCE",
+  "statement_id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK",
+  "source_id": "SEP-MORAL-COGNITIVISM",
+  "locator": "§3.4, 'Since this sort of explanation makes reference to our purposes in using moral terms rather than to an independent realm of moral fact, Blackburn thinks it supports a quasi-realist account rather than a straightforward realist theory.'",
+  "interpretation": "Blackburn (1993, 137, 143): moral judgments must supervene on natural ones because their point is 'to guide desires and choices among the natural features of the world'; since the explanation relies on what beliefs can coexist with linguistic competence, there is 'no further inference to a metaphysical conclusion'. Read as an explanation of why respecting supervenience is a requirement of competence, not as an answer to what makes a moral judgment true (Codex P1 on #189). Attribution reading on a secondary witness: the claim records the position the entry reports, not a thesis of the entry's author. No primary text is pinnable (in copyright, no immutable open text). The typed Lean reading formalizes only the positive purposes-to-competence explanation, not a prohibition of other explanations, a full semantics of supervenience or a metaphysical conclusion.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SUPERVENIENCE-COMPETENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATION-AND-TRUTHMAKING"
+  ]
+}
