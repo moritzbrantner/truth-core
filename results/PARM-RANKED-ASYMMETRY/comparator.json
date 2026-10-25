@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.rankedAsymmetry"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

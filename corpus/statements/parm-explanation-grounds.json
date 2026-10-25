@@ -1,0 +1,31 @@
+{
+  "id": "STMT-PARM-EXPLANATION-GROUNDS",
+  "paraphrase": "Every quality-indexed putative explanation supplies a directed Ground edge. This is an explicit open modern reconstruction, not attributed to Aristotle or inferred from participation.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.ExplanationGrounds",
+  "definition_ids": [
+    "DEF-PARM-CHANGE-PRODUCTION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-GROUND-RANK",
+    "DEF-PARM-INHERENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-EXPLANATION",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

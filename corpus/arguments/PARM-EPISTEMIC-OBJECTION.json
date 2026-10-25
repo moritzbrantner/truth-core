@@ -1,0 +1,37 @@
+{
+  "id": "PARM-EPISTEMIC-OBJECTION",
+  "premise_statement_ids": [
+    "STMT-PARM-KNOWLEDGE-REALM-CLOSURE",
+    "STMT-PARM-HUMAN-OUTSIDE",
+    "STMT-PARM-DIVINE-INSIDE"
+  ],
+  "conclusion_statement_id": "STMT-PARM-CROSS-REALM-IGNORANCE",
+  "inference_ids": [
+    "INF-PARM-EPISTEMIC-OBJECTION"
+  ],
+  "meaning": "Knowledge closure places every known object on the knowing mode’s side. Human modes outside the intelligible side cannot know intelligible objects; divine modes inside it cannot know non-intelligible objects. This proves both conditional horns without asserting divine existence or omniscience.",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

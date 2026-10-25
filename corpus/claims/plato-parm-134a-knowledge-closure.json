@@ -1,0 +1,32 @@
+{
+  "id": "PLATO-PARM-134A-KNOWLEDGE-CLOSURE",
+  "statement_id": "STMT-PARM-KNOWLEDGE-REALM-CLOSURE",
+  "source_id": "PLATO-PARM",
+  "locator": "134a–b",
+  "interpretation": "Projection of knowledge-itself concerning truth-itself and knowledge-among-us concerning things-among-us onto agent-indexed cognitive modes. Closure of the knowledge-to-object relation is the disputed premise. It is not attributed as an unconditional conclusion of separation and omits an ontology of knowledge-Forms.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARM-GROUND",
+  "term": "explanation",
+  "definition": "Ground f x is a directed proposed dependence of x on f for its feature, not efficient production, spatial inclusion or identity. ExplanationGrounds connects the existing quality-indexed Explains relation to it. RankedGround is an optional strict-order constraint and does not establish philosophical sufficiency.",
+  "basis": "stipulative",
+  "note": "Additive interface for issue #259. Parmenides 130e–131e and 133b–134e, Phaedo 74b–d / 100d–e and Aristotle Metaphysics I.9 motivate these contrasts; none defines the modern typed interface. Sourcing a replacement would require a passage fixing this exact scope.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Explanation"
+}

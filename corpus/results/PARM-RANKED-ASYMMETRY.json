@@ -1,0 +1,9 @@
+{
+  "id": "PARM-RANKED-ASYMMETRY",
+  "argument_id": "PARM-RANKED-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.rankedAsymmetry",
+  "comparator_config": "results/PARM-RANKED-ASYMMETRY/comparator.json",
+  "status": "solution-present"
+}

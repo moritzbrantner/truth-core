@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.wholePartObjection"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "PARM-MEDIATION-REPLY",
+  "premise_statement_ids": [
+    "STMT-PARM-HUMAN-OUTSIDE",
+    "STMT-PARM-MEDIATED-TRANSFER",
+    "STMT-PARM-HUMAN-ROUTE"
+  ],
+  "conclusion_statement_id": "STMT-PARM-NO-KNOWLEDGE-REALM-CLOSURE",
+  "inference_ids": [
+    "INF-PARM-MEDIATION-REPLY"
+  ],
+  "meaning": "A successful human access route to a sound presentation transfers knowledge to an intelligible object. Knowledge closure would then place the human mode inside the intelligible side, contradicting HumanOutside. The warrant and existence of a sound route remain explicit open premises.",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

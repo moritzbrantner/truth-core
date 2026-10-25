@@ -1,0 +1,8 @@
+{
+  "id": "REL-PARM-DISTANCE",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-991A-EXPLANATORY-DISTANCE",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-PARM-EXPLANATION-GROUNDS"
+}

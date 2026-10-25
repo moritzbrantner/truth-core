@@ -1,0 +1,8 @@
+{
+  "id": "REL-PARM-MODEL-MAKER",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-TIM-28A-MODEL-AND-MAKER",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARM-MODEL-MAKER-BRIDGE"
+}
