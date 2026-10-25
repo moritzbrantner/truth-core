@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "argument_id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.someImpliesNotAll",
+  "comparator_config": "results/LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL/comparator.json",
+  "status": "solution-present"
+}

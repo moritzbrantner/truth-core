@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ALL-OPINIONS-TRUE-UNINDEXED",
+  "paraphrase": "Every opinion held by any person is true, using one unindexed truth predicate. Aristotle reports this target in Metaphysics IV.5; it is not silently identified with agent-indexed truth or with every modern relativism.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.AllOpinionsTrue",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LEAN-PROPOSITION-HOLDING",
+  "term": "a proposition holds in Lean",
+  "definition": "A proposition P : Prop holds when a proof term inhabits P in the encoded logic. ∃ P : Prop, P asks for a proposition together with a proof; ¬∀ P : Prop, ¬P denies universal failure. Neither formula introduces an external truth predicate or says truth is independent of endorsement.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionHolds",
+  "note": "This is the pilot’s explicit logical reading, using Lean’s propositions-as-types convention. It is not identified with ontological, robust, minimal, or attitude-independent truth; those transitions need separate interpretation bridges."
+}

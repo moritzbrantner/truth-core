@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-SOME-PROPOSITION-HOLDS",
+  "argument_id": "LOGIC-SOME-PROPOSITION-HOLDS",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.somePropositionHolds",
+  "comparator_config": "results/LOGIC-SOME-PROPOSITION-HOLDS/comparator.json",
+  "status": "solution-present"
+}

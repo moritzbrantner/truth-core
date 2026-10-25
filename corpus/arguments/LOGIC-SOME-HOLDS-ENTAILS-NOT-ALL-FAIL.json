@@ -1,0 +1,17 @@
+{
+  "id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "premise_statement_ids": [
+    "STMT-SOME-LEAN-PROPOSITION-HOLDS"
+  ],
+  "conclusion_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "inference_ids": [
+    "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL"
+  ],
+  "meaning": "Eliminate the existential witness and contradict universal failure. One direction of explicit reciprocal entailment.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.GlobalVariation.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.GlobalVariation.globalVariation"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

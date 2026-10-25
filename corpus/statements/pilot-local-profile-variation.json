@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PILOT-LOCAL-PROFILE-VARIATION",
+  "paraphrase": "Some test sentence has a true and a false interpretation under different endorsement profiles. This leaves other sentences invariant.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.LocalProfileVariation",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
+  "input_statement_ids": [
+    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+  ],
+  "output_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "rule": "constructive-proof",
+  "meaning": "Use the proved proposition not-every-proposition-fails itself as the existential witness. Reverse implication preserves statement identity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

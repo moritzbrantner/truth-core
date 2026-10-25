@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PILOT-NOT-ALL-OPINIONS-TRUE",
+  "paraphrase": "Not every opinion can be true under one truth predicate, conditional on conflicting opinions and expressed negation implying logical negation. This does not refute local or indexed readings, epistemic limitation, or withholding assent.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.NotAllOpinionsTrue",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-PILOT-OPINION-NEGATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}

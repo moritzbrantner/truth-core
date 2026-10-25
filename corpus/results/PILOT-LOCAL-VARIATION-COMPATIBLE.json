@@ -1,0 +1,9 @@
+{
+  "id": "PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "argument_id": "PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.LocalVariation.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.LocalVariation.localVariation",
+  "comparator_config": "results/PILOT-LOCAL-VARIATION-COMPATIBLE/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "argument_id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.stableExcludesGlobal",
+  "comparator_config": "results/PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION/comparator.json",
+  "status": "solution-present"
+}

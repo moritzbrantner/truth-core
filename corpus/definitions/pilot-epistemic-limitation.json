@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PILOT-EPISTEMIC-LIMITATION",
+  "term": "epistemic limitation and endorsement disagreement",
+  "definition": "LimitedKnowledge says some agent does not know some sentence. Disagreement says the first agent endorses a sentence and the second does not endorse it; non-endorsement is withholding, not endorsement of negation. Neither condition identifies truth with knowledge or with endorsement. Aristotle’s separately recorded no-truth/unclear-to-us fork has no Lean knowledge-quantifier translation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.LimitedKnowledge",
+  "note": "A minimal stipulated test semantics for #207, not a translation of every historical or modern use. A sourced defense and a translation from ordinary truth claims remain research obligations."
+}

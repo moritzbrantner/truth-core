@@ -1,0 +1,18 @@
+{
+  "id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "premise_statement_ids": [
+    "STMT-PILOT-LOGICAL-SENTENCE-STABLE"
+  ],
+  "conclusion_statement_id": "STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION",
+  "inference_ids": [
+    "INF-PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION"
+  ],
+  "meaning": "A global variation witness for the logical sentence conflicts with its explicit all-profile stability premise. This is a conditional test, not a premise-free refutation of philosophical relativism.",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

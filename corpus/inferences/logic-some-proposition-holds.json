@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-SOME-PROPOSITION-HOLDS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "rule": "constructive-proof",
+  "meaning": "A direct witness True and its constructor prove the exact existential inside Lean logic. No source or philosophical independence premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

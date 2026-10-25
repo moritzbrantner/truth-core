@@ -1,0 +1,10 @@
+{
+  "description": "Issue #207: real canonical statement/argument IDs, tested with different available verifier records. Reciprocal arrows do not establish themselves; adding a real premise-free result grounds the cluster. The unverified case is merely a cyclic graph.",
+  "statement_ids": ["STMT-SOME-LEAN-PROPOSITION-HOLDS", "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"],
+  "argument_ids": ["LOGIC-SOME-PROPOSITION-HOLDS", "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"],
+  "cases": [
+    {"id": "unverified-cycle", "result_ids": [], "expected_established": []},
+    {"id": "verified-reciprocal-only", "result_ids": ["LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"], "expected_established": []},
+    {"id": "grounded-reciprocal", "result_ids": ["LOGIC-SOME-PROPOSITION-HOLDS", "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"], "expected_established": ["STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS", "STMT-SOME-LEAN-PROPOSITION-HOLDS"]}
+  ]
+}

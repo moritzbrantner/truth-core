@@ -10,6 +10,7 @@ const links = [
   { href: "/definitions", label: "Terms" },
   { href: "/graph", label: "Graph" },
   { href: "/modal", label: "Modal logic" },
+  { href: "/objective-truth", label: "Truth pilot" },
   { href: "/candidates", label: "Research queue" },
 ];
 

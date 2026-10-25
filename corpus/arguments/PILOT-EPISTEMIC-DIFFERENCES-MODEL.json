@@ -1,0 +1,16 @@
+{
+  "id": "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "inference_ids": [
+    "INF-PILOT-EPISTEMIC-DIFFERENCES-MODEL"
+  ],
+  "meaning": "Explicit model separating endorsement disagreement and limited knowledge from variation in truth.",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

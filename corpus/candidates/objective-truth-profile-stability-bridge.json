@@ -1,0 +1,9 @@
+{
+  "id": "OBJECTIVE-TRUTH-PROFILE-STABILITY-BRIDGE",
+  "source_id": "ARIST-MET",
+  "locator": "IV.7, 1011b25-29; IV.5, 1010b30-1011a2",
+  "priority": 350,
+  "goal": "Investigate a source-grounded translation from logical theorem/proposition to an interpreted sentence whose truth is invariant under every endorsement profile. The pilot stability premise remains open; logical inhabitation alone does not establish philosophical mind-independence. In particular source or defend STMT-PILOT-LOGICAL-SENTENCE-STABLE and the interpretation of expressed negation STMT-PILOT-NEGATION-RESPECTED, instead of deriving either from mere syntax.",
+  "reason": "The strong global profile test is conditional on this missing interpretation bridge. Do not strengthen the source to close it.",
+  "status": "candidate"
+}

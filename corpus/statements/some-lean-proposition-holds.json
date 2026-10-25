@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "paraphrase": "Inside Lean logic, ∃ P : Prop, P. This asserts only a proof inhabiting some proposition; it does not identify logical proof with external or attitude-independent truth.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionHolds",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

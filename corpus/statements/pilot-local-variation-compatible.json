@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "paraphrase": "A small interpretation model has both an invariant logical sentence and a taste sentence varying with endorsement profiles. This model rebuts an automatic inference from one logical truth to the denial of every local reading; it does not establish a complete worldview.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.LogicalTruthsCompatibleWithVariation",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

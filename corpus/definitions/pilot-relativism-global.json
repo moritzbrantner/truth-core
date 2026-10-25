@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PILOT-RELATIVISM-GLOBAL",
+  "term": "global profile-variation reading",
+  "definition": "Every test sentence has some endorsement profile where it holds and another where it fails. This is a strong, explicitly stipulated global thesis over the pilot language, not the claim that people merely disagree, and not attributed to Protagoras.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.GlobalProfileVariation",
+  "note": "A minimal stipulated test semantics for #207, not a translation of every historical or modern use. A sourced defense and a translation from ordinary truth claims remain research obligations."
+}

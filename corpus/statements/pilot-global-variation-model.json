@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PILOT-GLOBAL-VARIATION-MODEL",
+  "paraphrase": "There is a model of global profile variation in the stipulated language when no logical-sentence interpretation bridge is imposed. Thus the bare encoding is not unconditionally self-refuting.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.GlobalVariationModelExists",
+  "definition_ids": [
+    "DEF-PILOT-PROFILE-TRUTH",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-PILOT-EPISTEMIC-LIMITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

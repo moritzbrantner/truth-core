@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-CONFLICTING-OPINIONS",
+  "paraphrase": "There are opinions of a content and its expressed negation, held by possibly different persons. The expressed-negation operation is not yet assumed to obey logical negation.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.ConflictingOpinions",
+  "definition_ids": [
+    "DEF-PILOT-OPINION-NEGATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PILOT-OPPOSITION"
+  ]
+}

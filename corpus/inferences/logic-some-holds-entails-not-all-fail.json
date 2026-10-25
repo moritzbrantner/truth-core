@@ -1,0 +1,11 @@
+{
+  "id": "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "input_statement_ids": [
+    "STMT-SOME-LEAN-PROPOSITION-HOLDS"
+  ],
+  "output_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Eliminate the existential witness and contradict universal failure. One direction of explicit reciprocal entailment.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

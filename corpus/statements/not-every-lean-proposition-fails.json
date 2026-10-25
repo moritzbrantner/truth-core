@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "paraphrase": "Inside Lean logic, ¬ (∀ P : Prop, ¬ P). A logical theorem, not a philosophical independence thesis.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.NotEveryPropositionFails",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

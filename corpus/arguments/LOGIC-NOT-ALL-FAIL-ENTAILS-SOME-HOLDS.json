@@ -1,0 +1,17 @@
+{
+  "id": "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
+  "premise_statement_ids": [
+    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "inference_ids": [
+    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"
+  ],
+  "meaning": "Use the proved proposition not-every-proposition-fails itself as the existential witness. Reverse implication preserves statement identity.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
