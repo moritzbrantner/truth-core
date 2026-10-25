@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-SELECTION-COVERAGE",
+  "argument_id": "TELEONOMY-SELECTION-COVERAGE",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.selectionCoverage",
+  "comparator_config": "results/TELEONOMY-SELECTION-COVERAGE/comparator.json",
+  "status": "solution-present"
+}

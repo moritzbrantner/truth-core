@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-FRAGMENT-CONSISTENT",
+  "argument_id": "TELEONOMY-FRAGMENT-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.fragmentConsistent",
+  "comparator_config": "results/TELEONOMY-FRAGMENT-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

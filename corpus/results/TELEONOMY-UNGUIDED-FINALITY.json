@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-UNGUIDED-FINALITY",
+  "argument_id": "TELEONOMY-UNGUIDED-FINALITY",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.unguidedFinality",
+  "comparator_config": "results/TELEONOMY-UNGUIDED-FINALITY/comparator.json",
+  "status": "solution-present"
+}

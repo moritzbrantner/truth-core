@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.biologicalNonlivingScope"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

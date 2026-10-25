@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "rule": "finite_model_construction_or_composition",
+  "meaning": "Reuses #179’s necessityModel: regular beneficial recurrence and nonchance do not entail the chance-or-broad-intention dichotomy. Darwinian selection is not pure random sampling; neither this model nor Darwin proves that broad immanent finality is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

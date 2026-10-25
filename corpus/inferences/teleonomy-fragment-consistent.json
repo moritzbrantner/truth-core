@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-FRAGMENT-CONSISTENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-FRAGMENT-CONSISTENT",
+  "rule": "conjunction_of_verified_model_constructions",
+  "meaning": "The finite differential-retention filter, stable local-coupling dynamics and the existing unguided-finality countermodel are jointly satisfiable. Composes their independently verified results. It tests consistency only of the encoded fragment, not empirical truth, global naturalism, consciousness or universal explanatory coverage; the whole worldview and unexplained cells are in docs/teleonomy-comparison.md.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

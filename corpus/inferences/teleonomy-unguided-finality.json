@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-UNGUIDED-FINALITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-UNGUIDED-FINALITY",
+  "rule": "finite_model_construction_or_composition",
+  "meaning": "Composes #179’s teleonomyModel: beneficial regular tending without a knower is consistent with the observational, noncognition and nonchance premises, while the arrow premise fails. Broad finality is not identical with cognition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
+  "argument_id": "TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.localUniversalScope",
+  "comparator_config": "results/TELEONOMY-LOCAL-UNIVERSAL-SCOPE/comparator.json",
+  "status": "solution-present"
+}

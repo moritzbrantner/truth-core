@@ -1,0 +1,19 @@
+{
+  "id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "inference_ids": [
+    "INF-TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE"
+  ],
+  "meaning": "Biological differential retention is compatible with regular beneficial nonliving outcomes without any broad tending predicate. Selection over organism variants supplies no premise about nonliving processes. This defeats that unqualified scope inference, not physical-law or Thomistic accounts supplied by further premises.",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}
