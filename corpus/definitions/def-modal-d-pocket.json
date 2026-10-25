@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-D-POCKET",
+  "term": "serial collapse pocket and disconnected alternative",
+  "definition": "The complete PocketWorld carrier is root=0, collapse=1, left=2, right=3, away=4. Edges are exactly 0→1, 0→2, 1→1, 2→3, 3→2, 4→4. The Unit atom is true exactly at 1. Worlds 2 and3 form a nontrivial closed cycle; world4 is disconnected from the root. This is a finite mathematical witness, not an ontology.",
+  "basis": "stipulative",
+  "note": "Stipulated mathematical semantics for issue #263, not a historical source attribution or an assertion of metaphysical possibility. A philosophical adoption would require its own pinned source reading.",
+  "lean_declaration": "TruthCore.Modal.DResearch.pocket"
+}

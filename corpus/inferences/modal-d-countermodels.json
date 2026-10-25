@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-D-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-D-COUNTERMODELS",
+  "rule": "direct-proof",
+  "meaning": "Exhaust the explicitly enumerated carriers, exhibit successors and contrary atom witnesses, and use the root equality predicate to refute full MC at non-self-accessing worlds. Singleton endpoint successor sets establish full MC there. The Boolean report reuses the fixture evaluator and ordered witness lists.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

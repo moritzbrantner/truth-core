@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Language.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Language.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.DResearch.Language.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

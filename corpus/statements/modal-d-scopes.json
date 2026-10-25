@@ -1,0 +1,20 @@
+{
+  "id": "STMT-MODAL-D-SCOPES",
+  "paraphrase": "The shared K dead-end has full MC without self-access and is nonserial, showing why seriality matters to the D self-access conclusion. Holding the pocket frame and valuation fixed, root fixed-language MC fails but every root successor has language MC, so Box MC is true although Box full MC is false. In the fork, actual language MC still fails at the root while possible and necessary language MC hold. No domain change is hidden.",
+  "lean_declaration": "TruthCore.Modal.DResearch.ScopeChecks",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-POCKET",
+    "DEF-MODAL-D-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE"
+  ]
+}

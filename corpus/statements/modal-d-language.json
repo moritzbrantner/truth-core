@@ -1,0 +1,22 @@
+{
+  "id": "STMT-MODAL-D-LANGUAGE",
+  "paraphrase": "An explicit serial Bool two-cycle with constant atomic valuation has fixed-language MC at both non-reflexive worlds, possible and necessary language MC, but no full-predicate MC at either world. Every fixed-language formula has identical truth at both labels; the language is negation-closed, but root identity is not expressible and world extensionality fails. No formula is contingent at the root because it has one successor. The extended predicate w=true still witnesses possible truth without actual truth.",
+  "lean_declaration": "TruthCore.Modal.DResearch.LanguageChecks",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-CYCLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE"
+  ]
+}

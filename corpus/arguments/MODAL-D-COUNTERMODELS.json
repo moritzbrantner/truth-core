@@ -1,0 +1,25 @@
+{
+  "id": "MODAL-D-COUNTERMODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-D-COUNTERMODELS",
+  "inference_ids": [
+    "INF-MODAL-D-COUNTERMODELS"
+  ],
+  "meaning": "A direct constructive mathematical test for D serial frames and explicit proposition domains, not a source claim, transcription, frontier closure or refutation of Hume. Exhaust the explicitly enumerated carriers, exhibit successors and contrary atom witnesses, and use the root equality predicate to refute full MC at non-self-accessing worlds. Singleton endpoint successor sets establish full MC there. The Boolean report reuses the fixture evaluator and ordered witness lists.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-POCKET",
+    "DEF-MODAL-D-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE"
+  ]
+}
