@@ -298,10 +298,23 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
     }
     for tag in ["lam", "forallE"] {
         if let Some(data) = item.get(tag) {
+            let binder_info = data.get("binderInfo").context("binder lacks binderInfo")?;
+            let binder_info = if tag == "lam" {
+                // Lambda annotations guide elaboration, not kernel identity. Validate
+                // the export before erasing only this annotation; forallE stays exact.
+                match binder_info.as_str() {
+                    Some("default" | "implicit" | "strictImplicit" | "instImplicit") => {
+                        json!("default")
+                    }
+                    _ => bail!("invalid lambda binderInfo"),
+                }
+            } else {
+                binder_info.clone()
+            };
             return Ok(json!({ tag: {
                 "type": canonical_expression(export, data.get("type").and_then(Value::as_u64).context("binder lacks type")?)?,
                 "body": canonical_expression(export, data.get("body").and_then(Value::as_u64).context("binder lacks body")?)?,
-                "binderInfo": data.get("binderInfo").cloned().context("binder lacks binderInfo")?
+                "binderInfo": binder_info
             }}));
         }
     }
@@ -891,6 +904,36 @@ mod tests {
             canonical_expression(&base, 1).unwrap(),
             canonical_expression(&renamed, 1).unwrap()
         );
+    }
+
+    #[test]
+    fn lambda_annotations_are_validated_then_normalized() {
+        let mut export = Export {
+            names: HashMap::new(),
+            levels: HashMap::new(),
+            expressions: HashMap::from([
+                (0, json!({ "bvar": 0 })),
+                (
+                    1,
+                    json!({ "lam": { "type": 0, "body": 0, "binderInfo": "default" } }),
+                ),
+            ]),
+            declarations: HashMap::new(),
+        };
+        let expected = canonical_expression(&export, 1).unwrap();
+        for annotation in ["default", "implicit", "strictImplicit", "instImplicit"] {
+            export.expressions.get_mut(&1).unwrap()["lam"]["binderInfo"] = json!(annotation);
+            assert_eq!(canonical_expression(&export, 1).unwrap(), expected);
+        }
+        for invalid in [json!("unknown"), Value::Null, json!(42)] {
+            export.expressions.get_mut(&1).unwrap()["lam"]["binderInfo"] = invalid;
+            assert!(canonical_expression(&export, 1).is_err());
+        }
+        export.expressions.get_mut(&1).unwrap()["lam"]
+            .as_object_mut()
+            .unwrap()
+            .remove("binderInfo");
+        assert!(canonical_expression(&export, 1).is_err());
     }
 
     #[test]
