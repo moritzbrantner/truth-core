@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StagesOneTwo.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StagesOneTwo.uniqueClassicalGodExists"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

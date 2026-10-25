@@ -51,6 +51,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 - **Stage-1 gap (#166, #173):** pure act, simplicity and uniqueness are derived. The identification with God is relocated to narrower open premises such as `STMT-MAXIME-ENS-IS-GOD` and `STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING`. Countermodels show each premise is needed.
 - **Graph integrity:** `corpus.py bind-check` (#164) verifies in CI that each argument's JSON premises and conclusion are exactly the Lean theorem's hypotheses and result type. Theory bundles are unfolded one step (#160).
 - **Visualization:** `apps/corpus-explorer` `/graph` (#163). Run `cd apps/corpus-explorer && bun run dev`, then open http://localhost:3000/graph/.
+- **Connected stages 1–2 (2026-10-25):** `CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` carries one named maximal mover through the nine attribute proofs into the existing skeleton. The root theorem no longer takes the complete attribute bundle as an independent input. `STMT-GOD-IS-MAXIMAL-IN-BEING` remains open for the uniqueness attribute; no naming converse or frontier closure is claimed. See [the connected proof](skeleton-composition.md).
 
 ## Working method
 

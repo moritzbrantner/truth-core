@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.catholicismFromPrimaViaWithClassicalAttributes"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

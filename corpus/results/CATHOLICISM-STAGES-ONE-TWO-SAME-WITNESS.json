@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+  "argument_id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StagesOneTwo.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StagesOneTwo.uniqueClassicalGodExists",
+  "comparator_config": "results/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Composes existing structured Stage1 and nine-attribute results at the same witness. No naming converse is inferred; the original converse premise is used explicitly for God-uniqueness."
+}
