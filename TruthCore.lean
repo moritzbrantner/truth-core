@@ -126,6 +126,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Latin.Tacitus.Annals
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
@@ -368,7 +369,9 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
 import TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution
 import TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution
 import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
