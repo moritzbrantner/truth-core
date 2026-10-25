@@ -1,0 +1,9 @@
+{
+  "id": "PARTICIPATION-NO-CIRCLE",
+  "argument_id": "PARTICIPATION-NO-CIRCLE",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.noCircularExplanation",
+  "comparator_config": "results/PARTICIPATION-NO-CIRCLE/comparator.json",
+  "status": "solution-present"
+}

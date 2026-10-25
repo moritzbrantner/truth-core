@@ -1,0 +1,23 @@
+{
+  "id": "SCHELLENBERG-PRECIS-2025-NONRESISTANT-NONBELIEF",
+  "statement_id": "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF",
+  "source_id": "SCHELLENBERG-PRECIS-2025",
+  "locator": "Précis (2025), p. 3 premise 5; p. 7 contemporary doubt and hunter-gatherer examples; p. 10 premise 5 and note 5",
+  "interpretation": "Attribution of the existential empirical premise, with capacity, time, nonbelief and absence of resistance causing the nonbelief kept separate. Doubt is included. Schellenberg argues from present doubt and earlier concept unavailability; pinning this argument does not independently establish those historical or psychological facts. No self-evident status or universal prehistoric capacity is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

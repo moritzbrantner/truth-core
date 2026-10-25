@@ -1,0 +1,20 @@
+{
+  "id": "STMT-HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
+  "paraphrase": "The non-theistic core together with its positive developmental replacement account has a finite interpretation. Religious concept possession varies with time and constrains belief, while nonbelief receives a developmental explanation. This is neither an empirical validation of universal coverage nor a completed cosmology or moral theory.",
+  "lean_declaration": "TruthCore.Comparison.Hiddenness.NontheisticDevelopmentConsistent",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS"
+  ]
+}

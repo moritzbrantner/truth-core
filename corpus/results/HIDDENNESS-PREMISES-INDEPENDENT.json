@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-PREMISES-INDEPENDENT",
+  "argument_id": "HIDDENNESS-PREMISES-INDEPENDENT",
+  "challenge_module": "TruthCore.Results.Hiddenness.PremisesIndependent.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.PremisesIndependent.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.PremisesIndependent.premisesIndependent",
+  "comparator_config": "results/HIDDENNESS-PREMISES-INDEPENDENT/comparator.json",
+  "status": "solution-present"
+}

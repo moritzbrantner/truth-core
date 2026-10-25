@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-MODEL-SCOPE",
+  "term": "world domain and finite interpretation in the hiddenness checks",
+  "definition": "The chosen domain of worlds indexes the claimed necessary conceptual norms; actual selects where the existential is asserted. The contradiction holds for every supplied signature. The finite interpretations show first-order satisfiability and logical non-entailment only. No proof identifies those interpretations with metaphysically possible worlds, actual people, complete historical worldviews, or the Catholic root God.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig"
+}

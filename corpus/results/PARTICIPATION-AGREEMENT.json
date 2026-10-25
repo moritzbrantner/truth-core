@@ -1,0 +1,9 @@
+{
+  "id": "PARTICIPATION-AGREEMENT",
+  "argument_id": "PARTICIPATION-AGREEMENT",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.selectorAgreement",
+  "comparator_config": "results/PARTICIPATION-AGREEMENT/comparator.json",
+  "status": "solution-present"
+}

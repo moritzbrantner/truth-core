@@ -1,0 +1,9 @@
+{
+  "id": "INF-HIDDENNESS-PREMISES-INDEPENDENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HIDDENNESS-PREMISES-INDEPENDENT",
+  "rule": "finite model construction",
+  "meaning": "Four finite counterexamples delete respectively the God-to-love norm, immediate openness, the belief requirement and the empirical existential. No smaller advertised premise set entails the original negative conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

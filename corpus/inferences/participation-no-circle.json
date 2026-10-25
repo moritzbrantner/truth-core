@@ -1,0 +1,11 @@
+{
+  "id": "INF-PARTICIPATION-NO-CIRCLE",
+  "input_statement_ids": [
+    "STMT-PARTICIPATION-ASYMMETRY"
+  ],
+  "output_statement_id": "STMT-PARTICIPATION-NO-CIRCLE",
+  "rule": "asymmetry-elimination",
+  "meaning": "For the specified fact tokens, project both asserted edges of CircularExplanation and apply grounding asymmetry to exclude their conjunction. The iff of coextension supplies neither edge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

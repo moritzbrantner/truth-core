@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-ACCEPTANCE",
+  "term": "voluntary acceptance of relationship",
+  "definition": "Accepts records a person’s accepting the proposed relationship. It is not identified with believing God exists, nor is its negation identified with causal resistance responsible for nonbelief. The finite believer-with-refusal witness defeats a logical implication from belief alone, not every motivation-based objection.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.Accepts"
+}
