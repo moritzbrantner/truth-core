@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ESSENCE-SCOTT",
+  "term": "essence (Scott's ess; Lean `Essence`)",
+  "definition": "`Essence F Φ x w`: at w, x has Φ, and every property x has at w is had, at every world accessible from w, by everything that has Φ there (AFP definition ess). This is the theory's modal notion. It is not the Thomist essence (what a thing is) and is not used by any Aquinas statement.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-GOEDELGOD-T2-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Essence"
+}

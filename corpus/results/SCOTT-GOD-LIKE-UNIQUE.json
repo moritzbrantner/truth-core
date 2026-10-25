@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-GOD-LIKE-UNIQUE",
+  "argument_id": "SCOTT-GOD-LIKE-UNIQUE",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.godLikeUnique",
+  "comparator_config": "results/SCOTT-GOD-LIKE-UNIQUE/comparator.json",
+  "status": "solution-present"
+}

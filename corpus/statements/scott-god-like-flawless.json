@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SCOTT-GOD-LIKE-FLAWLESS",
+  "paraphrase": "AFP GoedelGod.thy, theorem Flawlessness: at every world, a God-like being has no property that is not positive there.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikeFlawless",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

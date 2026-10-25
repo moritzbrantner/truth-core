@@ -1,0 +1,11 @@
+{
+  "id": "AFP-GOEDELGOD-A1B-A",
+  "statement_id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, A1b: \"[∀(λΦ. m¬ (P Φ) m→ P (λx. m¬ (Φ x)))]\"",
+  "interpretation": "Axiom A1b as stated in the theory, read through its abbreviations (validity is truth at every world; m¬, m→ are pointwise). It is the 'either' half of the theory's gloss 'Either a property or its negation is positive, but not both'. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ]
+}

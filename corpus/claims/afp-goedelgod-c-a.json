@@ -1,0 +1,15 @@
+{
+  "id": "AFP-GOEDELGOD-C-A",
+  "statement_id": "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, C: \"[◇ (∃ G)]\"",
+  "interpretation": "Corollary C as stated in the theory ('Possibly, God exists'), proved there by (metis A3 T1). The theory's gloss says 'God'; the formula is about its G, being God-like, and the claim records the formula. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

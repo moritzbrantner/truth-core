@@ -1,0 +1,16 @@
+{
+  "id": "AFP-GOEDELGOD-A5-A",
+  "statement_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, A5: \"[P NE]\"",
+  "interpretation": "Axiom A5 as stated in the theory ('Necessary existence is a positive property'), with NE the theory's definition NE = (λx. ∀(λΦ. Φ ess x m→ □ (∃ Φ))) and ess its definition Φ ess x = Φ x m∧ ∀(λΨ. Ψ x m→ □ (∀(λy. Φ y m→ Ψ y))), both stated before A5. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

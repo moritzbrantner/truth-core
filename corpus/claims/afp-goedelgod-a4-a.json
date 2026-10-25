@@ -1,0 +1,12 @@
+{
+  "id": "AFP-GOEDELGOD-A4-A",
+  "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, A4: \"[∀(λΦ. P Φ m→ □ (P Φ))]\"",
+  "interpretation": "Axiom A4 as stated in the theory ('Positive properties are necessarily positive'). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

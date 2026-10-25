@@ -1,0 +1,13 @@
+{
+  "id": "INF-SCOTT-T2",
+  "input_statement_ids": [
+    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+  "rule": "case-analysis",
+  "meaning": "AFP T2 (metis A1b A4 G_def ess_def). Let x be God-like and have Ψ. By excluded middle Ψ is positive or not. If not, its negation is positive (A1b) and x, having every positive property, lacks Ψ: contradiction. If so, Ψ is necessarily positive (A4), so at every accessible world every God-like being has Ψ.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

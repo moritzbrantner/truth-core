@@ -1,0 +1,12 @@
+{
+  "id": "INF-SCOTT-C",
+  "input_statement_ids": [
+    "STMT-SCOTT-GOD-LIKE-POSITIVE",
+    "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED"
+  ],
+  "output_statement_id": "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+  "rule": "universal-instantiation",
+  "meaning": "AFP C (metis A3 T1). T1 instantiated at the property of being God-like, which is positive (A3).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

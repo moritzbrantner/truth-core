@@ -1,0 +1,12 @@
+{
+  "id": "AFP-GOEDELGOD-A2-A",
+  "statement_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, A2: \"[∀(λΦ. ∀(λΨ. (P Φ m∧ □ (∀(λx. Φ x m→ Ψ x))) m→ P Ψ))]\"",
+  "interpretation": "Axiom A2 as stated in the theory ('A property necessarily implied by a positive property is positive'), with □ the theory's box over its accessibility relation r. The Lean statement curries the conjunction P Φ m∧ □(...) into two hypotheses, which is equivalent. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

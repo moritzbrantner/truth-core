@@ -1,0 +1,31 @@
+{
+  "id": "SCOTT-MODAL-COLLAPSE",
+  "premise_statement_ids": [
+    "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+    "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+    "STMT-SCOTT-GOD-LIKE-POSITIVE",
+    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+    "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-ACCESSIBILITY-SYMMETRIC",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "inference_ids": [
+    "INF-SCOTT-T1",
+    "INF-SCOTT-C",
+    "INF-SCOTT-T2",
+    "INF-SCOTT-T3",
+    "INF-SCOTT-C2",
+    "INF-SCOTT-MC"
+  ],
+  "meaning": "Discriminator consequence: the premises of SCOTT-GOD-LIKE-NECESSARILY-EXISTS entail modal collapse, so in this embedding every truth is necessary. The AFP theory states MC and leaves it unproved in Isabelle (oops); the Lean proof is this repository's. It composes SCOTT-GOD-LIKE-NECESSARILY-EXISTS (T1, C, T2, T3) with C2. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY"
+  ]
+}

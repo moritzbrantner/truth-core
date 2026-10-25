@@ -1,0 +1,10 @@
+{
+  "id": "DEF-LEIBNIZ-EQUALITY-SCOTT",
+  "term": "equal (the AFP mL=, Leibniz equality at a world)",
+  "definition": "x mL= y ≡ ∀(λφ. (φ x m→ φ y)): at a world, every property x has there, y has there. Indiscernibility at one world, not identity of individuals (Lean `=`); the Monotheism result does not conclude that there is exactly one God-like individual.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-GOEDELGOD-MONOTHEISM-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.LeibnizEqual"
+}

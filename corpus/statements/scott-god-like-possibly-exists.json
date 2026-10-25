@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+  "paraphrase": "Scott's corollary C (AFP GoedelGod.thy): at every world, possibly a God-like being exists.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikePossiblyExists",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-SCOTT-C2",
+  "input_statement_ids": [
+    "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+    "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+    "STMT-ACCESSIBILITY-SYMMETRIC"
+  ],
+  "output_statement_id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
+  "rule": "universal-instantiation",
+  "meaning": "AFP C2 (metis T1 T3 G_def sym). By C some v is accessible from w; by T3 at v every world accessible from v has a God-like being, and by symmetry w is one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

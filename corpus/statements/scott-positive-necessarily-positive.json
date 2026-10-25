@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+  "paraphrase": "Scott's axiom A4 (AFP GoedelGod.thy): at every world, a positive property is necessarily positive.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.PositiveNecessarilyPositive",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

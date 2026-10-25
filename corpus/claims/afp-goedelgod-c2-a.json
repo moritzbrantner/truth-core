@@ -1,0 +1,15 @@
+{
+  "id": "AFP-GOEDELGOD-C2-A",
+  "statement_id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, C2: \"[∃ G]\"",
+  "interpretation": "Corollary C2 as stated in the theory, which notes that it 'can be derived even without the T axiom (reflexivity)'; proved there by (metis T1 T3 G_def sym). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

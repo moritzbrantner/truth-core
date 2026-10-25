@@ -1,0 +1,10 @@
+{
+  "id": "DEF-QML-KB-NECESSITY",
+  "term": "necessarily / possibly (□, ◇ of the QML KB embedding; Lean `Box`, `Dia`)",
+  "definition": "Kripke necessity over a frame (`TruthCore.Modal.Frame`): □φ holds at w when φ holds at every world accessible from w, ◇φ when at some. The embedding's frame and domain assumptions, as in the AFP theory: accessibility is constrained only by symmetry (axiom sym, logic KB; no reflexivity); quantifiers over individuals range over the whole type at every world (possibilist, constant domain, no existence predicate), so 'exists' in T3 and C2 is that quantifier; properties are intensional (`Ind → World → Prop`) and quantification over them ranges over every such function (full comprehension); validity [_] is truth at every world; the host logic is classical, which the Lean results take as the explicit premise STMT-EXCLUDED-MIDDLE.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-GOEDELGOD-SYM-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+}

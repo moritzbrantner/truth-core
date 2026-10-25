@@ -1,0 +1,12 @@
+{
+  "id": "AFP-GOEDELGOD-T1-A",
+  "statement_id": "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, T1: \"[∀(λΦ. P Φ m→ ◇ (∃ Φ))]\"",
+  "interpretation": "Theorem T1 as stated in the theory ('Positive properties are possibly exemplified'), proved there by (metis A1a A2). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ]
+}
