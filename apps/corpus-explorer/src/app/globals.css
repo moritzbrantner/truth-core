@@ -804,3 +804,15 @@ button:focus-visible {
   padding: 1rem 1.25rem;
   white-space: pre;
 }
+
+.frontier-workspace { display: grid; grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr); gap: 1rem; margin-top: 1rem; }
+.frontier-workspace .graph-layout { margin-top: 0; grid-template-columns: minmax(0, 1fr); }
+.frontier-workspace .graph-shell { height: 70vh; min-height: 28rem; }
+.research-queue { border-right: 1px solid var(--line); padding-right: 1rem; min-width: 0; }
+.research-items { max-height: 50vh; overflow-y: auto; list-style: none; padding: 0; }
+.research-items li { border-bottom: 1px solid var(--line); padding: .6rem; }
+.research-items li[data-related="true"] { border-left: 3px solid var(--accent); }
+.research-items li[data-selected="true"] { background: var(--callout); }
+.research-select { text-align: left; width: 100%; cursor: pointer; }
+.research-blocker { border-top: 2px solid var(--accent); padding-top: .75rem; }
+@media (max-width: 850px) { .frontier-workspace { grid-template-columns: minmax(0, 1fr); } .research-queue { border-right: 0; } .research-items { max-height: 15rem; } }

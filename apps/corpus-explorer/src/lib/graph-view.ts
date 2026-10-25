@@ -152,12 +152,7 @@ export function rootPathSelection(index: GraphIndex, target: string): Selection 
  * (what it rests on). Every included inference brings all its premises and its
  * conclusion, so no step is shown with a premise missing.
  */
-export function focusSelection(
-  index: GraphIndex,
-  node: string,
-  hops: number,
-  dir: GraphState["dir"],
-): Selection {
+export function focusSelection(index: GraphIndex, node: string, hops: number, dir: GraphState["dir"]): Selection {
   const statementOrder: string[] = [];
   const seenStatements = new Set<string>();
   const inferenceOrder: string[] = [];
@@ -263,6 +258,18 @@ export function computeGraphView(
     selection = rootPathSelection(index, anchor);
   }
 
+  // Explicit expansions are in-place, bounded one-hop additions. Sets retain shared identity and cycles.
+  if (state.view !== "all") {
+    const selectedStatements = new Set(selection.statements);
+    const selectedInferences = new Set(selection.inferences);
+    for (const id of state.expanded) {
+      const extra = focusSelection(index, id, 1, "both");
+      extra.statements.forEach((entry) => selectedStatements.add(entry));
+      extra.inferences.forEach((entry) => selectedInferences.add(entry));
+    }
+    selection = { statements: [...selectedStatements], inferences: [...selectedInferences] };
+  }
+
   let statementIds = selection.statements.filter((id) => index.statementById.has(id));
   if (state.hide && filtering) {
     const shown = new Set(statementIds.filter((id) => id === anchor || matches(id)));
@@ -294,6 +301,16 @@ export function computeGraphView(
 
   // In the full view, collapsed clusters stand in for their statements.
   const openClusters = new Set(state.open);
+  if (state.view === "all") {
+    for (const id of state.expanded) {
+      for (const related of focusSelection(index, id, 1, "both").statements) {
+        const statement = index.statementById.get(related);
+        if (statement) {
+          openClusters.add(statement.clusters[state.cluster]);
+        }
+      }
+    }
+  }
   const representative = (id: string) => {
     if (state.view !== "all") return id;
     const statement = index.statementById.get(id) as GraphStatement;
