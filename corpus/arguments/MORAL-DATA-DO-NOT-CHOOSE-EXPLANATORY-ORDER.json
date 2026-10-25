@@ -1,0 +1,28 @@
+{
+  "id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "inference_ids": [
+    "INF-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+  ],
+  "meaning": "Construct one Data value with a false, truth-apt robbery judgment accepted by the Germans; a distinct primitive correction-needed instance; a missing due good; and another agent whose acceptance varies between two practices. Compose AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED to derive error in each practice. Use the q.48 privation and truth conditionals to derive the evil premise in each practice. Keep those data literally identical, changing only the primitive typed explanation relation: use explains truth conditions versus the reverse, with the same purposes-to-competence edge in each. Each interpretation satisfies the explicit asymmetry condition and falsifies the opposite order. This proves independence in the encoded signature only. Unconstrained explanation relations are not evidence of philosophical compatibility or an endorsed quasi-realist truthmaker. No refutes relation and no root-frontier closure are advertised.",
+  "definition_ids": [
+    "DEF-EXPLANATION-ORDER-TEST",
+    "DEF-ORDER-OF-EXPLANATION",
+    "DEF-SUPERVENIENCE-COMPETENCE",
+    "DEF-MORAL-ERROR",
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE",
+    "DEF-CORRECTION-NEEDED",
+    "DEF-NATURAL-LAW-MORAL-EVIL",
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION",
+    "DEF-ATTITUDE-INDEPENDENCE-TEST",
+    "DEF-EXPLANATION-TEST-TRUTHMAKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATION-AND-TRUTHMAKING",
+    "DISAMB-CORRECTION-NEED-AND-CHANGE",
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}

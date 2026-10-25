@@ -47,6 +47,19 @@ explains our thought and talk; an unattributed open premise, since Dreier as
 reported says only that robust truth is suited to explanatory work), the
 anti-realist order of explanation and the asymmetry of the two orders, and
 quasi-realism's answer follows, so the collapse premise fails.
+#191 now supplies the typed test `MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER`:
+use and semantic truth conditions are distinct explanation relata, and the
+purposes-to-supervenience-competence explanation is a separate edge. Two
+interpretations share literally the same q.94 error/needed-correction data and
+an adopted q.48 privation-based evil/truth test, yet reverse the explanatory
+order. Error and the evil premise follow in both. This proves independence
+within that encoding only: the primitive explanation relation is not constrained
+by an unencoded philosophical bridge. It does not show that quasi-realism
+endorses Catholic truthmaking, that complete rival theories are compatible,
+or that a grounding answer has been supplied. The missing bridge is queued as
+`MORAL-DATA-TO-EXPLANATORY-ORDER-BRIDGE`. Need for correction is not an
+accomplished improvement, and q.48 evil need not be moral evil.
+
 Which side holds turns on the order of explanation, which is open. The data
 the quasi-realist accepts do not by themselves require the robust answer
 (countermodel `quasiRealistDataDoNotRequireRobustTruth`).

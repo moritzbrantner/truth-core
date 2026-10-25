@@ -1,0 +1,9 @@
+{
+  "id": "INF-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "rule": "model-construction",
+  "meaning": "Construct one Data value with a false, truth-apt robbery judgment accepted by the Germans; a distinct primitive correction-needed instance; a missing due good; and another agent whose acceptance varies between two practices. Compose AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED to derive error in each practice. Use the q.48 privation and truth conditionals to derive the evil premise in each practice. Keep those data literally identical, changing only the primitive typed explanation relation: use explains truth conditions versus the reverse, with the same purposes-to-competence edge in each. Each interpretation satisfies the explicit asymmetry condition and falsifies the opposite order. This proves independence in the encoded signature only. Unconstrained explanation relations are not evidence of philosophical compatibility or an endorsed quasi-realist truthmaker. No refutes relation and no root-frontier closure are advertised.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

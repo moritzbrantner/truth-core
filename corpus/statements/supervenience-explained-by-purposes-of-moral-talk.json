@@ -1,1 +1,8 @@
-{"id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK", "paraphrase": "Respecting the supervenience of the moral on the natural is a requirement of competence with moral terms, explained by the purposes of moral talk (to guide desires and choices among natural features) rather than by an independent realm of moral fact; Blackburn draws no metaphysical conclusion from it."}
+{
+  "id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK",
+  "paraphrase": "Blackburn proposes to explain the conceptual requirement of respecting moral supervenience from the purposes of moral talk. The Lean reading records this positive explanatory edge only: it neither excludes every other explanation nor supplies a metaphysical truthmaker.",
+  "lean_declaration": "TruthCore.English.VanRoojen.SupervenienceExplainedByPurposesReading",
+  "definition_ids": [
+    "DEF-SUPERVENIENCE-COMPETENCE"
+  ]
+}

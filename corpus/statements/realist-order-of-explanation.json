@@ -1,1 +1,8 @@
-{"id": "STMT-REALIST-ORDER-OF-EXPLANATION", "paraphrase": "Realism: our moral thought and talk is explained by moral properties and truths."}
+{
+  "id": "STMT-REALIST-ORDER-OF-EXPLANATION",
+  "paraphrase": "Realism: our moral thought and talk is explained by moral properties and truths.",
+  "lean_declaration": "TruthCore.English.VanRoojen.RealistOrderOfExplanationReading",
+  "definition_ids": [
+    "DEF-ORDER-OF-EXPLANATION"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "paraphrase": "Encoding independence: the q.94 moral-error and correction-needed readings plus a fixed-privation evil/truth test admit two interpretations on literally identical non-explanatory data, one with each semantic explanatory order and not the reverse. Both satisfy the explicit asymmetry condition and the purposes-to-competence explanation. Moral error and the evil premise are derived in every practice. This does not establish philosophical compatibility of full worldviews, defend quasi-realist grounding, or refute either order.",
+  "lean_declaration": "TruthCore.Metaethics.ExplanationOrder.SharedDataDoNotChooseOrder",
+  "definition_ids": [
+    "DEF-EXPLANATION-ORDER-TEST",
+    "DEF-ORDER-OF-EXPLANATION",
+    "DEF-SUPERVENIENCE-COMPETENCE",
+    "DEF-MORAL-ERROR",
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE",
+    "DEF-CORRECTION-NEEDED",
+    "DEF-NATURAL-LAW-MORAL-EVIL",
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION",
+    "DEF-ATTITUDE-INDEPENDENCE-TEST",
+    "DEF-EXPLANATION-TEST-TRUTHMAKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATION-AND-TRUTHMAKING",
+    "DISAMB-CORRECTION-NEED-AND-CHANGE",
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}

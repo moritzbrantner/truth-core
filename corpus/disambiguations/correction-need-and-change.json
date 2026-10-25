@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-CORRECTION-NEED-AND-CHANGE",
+  "term": "correction",
+  "sense_definition_ids": [
+    "DEF-CORRECTION-NEEDED",
+    "DEF-COMPLETED-COGNITIVE-CORRECTION"
+  ],
+  "resolution": "The q.94 a.5 reading and shared-data test assert only the need for correction. They do not assert an accomplished change or the stronger open bridge that every genuine correction replaces an untrue belief."
+}
