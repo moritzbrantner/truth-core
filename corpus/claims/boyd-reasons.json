@@ -1,0 +1,15 @@
+{
+  "id": "BOYD-47-CONTINGENT-REASONS",
+  "statement_id": "STMT-BOYD-CONTINGENT-REASONS",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §4.7, pp. 340–342: sympathy and rational choice",
+  "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-NATURALIST-CATEGORICAL-REASONS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

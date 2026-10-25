@@ -1,0 +1,17 @@
+{
+  "id": "BOYD-DESCRIPTIVE-TRUTH",
+  "statement_id": "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §1.1, pp. 307–308: moral statements and truth",
+  "interpretation": "Formalized only for an atomic ascription of a property the theory treats as real. It describes a fact rather than expressing approval alone. This minimal descriptive reading does not establish the proponent’s naturalistic identification or a full theory of linguistic meaning.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

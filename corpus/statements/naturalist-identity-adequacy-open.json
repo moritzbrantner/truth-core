@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NATURALIST-IDENTITY-ADEQUACY-OPEN",
+  "paraphrase": "The proposed natural criterion may fail to preserve the evaluative role of goodness or rightness. Assessing semantic and normative adequacy requires more than stipulating an iff.",
+  "definition_ids": [
+    "DEF-NATURALIST-REDUCTION-BASIS",
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

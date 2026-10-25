@@ -1,0 +1,14 @@
+{
+  "id": "STMT-DESCRIPTIVE-MORAL-ASCRIPTIONS-HAVE-COMPOSITIONAL-TRUTH-CONDITIONS",
+  "paraphrase": "The descriptive moral ascriptions used by each compared theory extend to a context-invariant compositional interpretation of conditionals sufficient for the shared Frege\u2013Geach argument. This full semantic bridge is an explicit open modeling assumption, not inferred from truth-aptness alone.",
+  "definition_ids": [
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-NATURALIST-SHARED-SEMANTICS",
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

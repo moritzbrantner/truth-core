@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+  "term": "descriptive evaluative ascription",
+  "definition": "Ascribes φ a means that φ attributes the theory’s relevant evaluative property to act a. DescriptiveTruth requires Holds φ iff that property holds of a. For Railton it is Right; for Boyd positive GoodAct. Ascribes need not cover every sentence; neither belief nor truth-aptness entails truth. The finite model has both true and false ascriptions.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.DescriptiveTruth",
+  "claim_ids": [
+    "RAILTON-DESCRIPTIVE-TRUTH",
+    "BOYD-DESCRIPTIVE-TRUTH"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+  "term": "positive moral goodness in Boyd’s homeostatic account",
+  "definition": "Human goods satisfy important physical, psychological and social needs. They and mechanisms sustaining their mutually supporting homeostasis define moral goodness. In the Lean sufficient fragment GoodAct means positive moral goodness in a determinate respect, not total rightness or an imposed verdict on vague cases; FostersGoods and SustainsMechanisms name the two sufficient contributions.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.English.Boyd.ClusterGoodnessReading",
+  "claim_ids": [
+    "BOYD-43-POSITIVE-CLUSTER"
+  ]
+}

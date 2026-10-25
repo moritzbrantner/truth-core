@@ -1,0 +1,12 @@
+{
+  "id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "inference_ids": [
+    "INF-UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE"
+  ],
+  "meaning": "A nonconstant predicate can be denoted by two distinct names without recognition of their identity. This is a semantic countermodel to an inference from nonrecognition to nonidentity, not a refutation of Moore’s full open-question argument.",
+  "definition_ids": [
+    "DEF-UNRECOGNIZED-PROPERTY-IDENTITY"
+  ]
+}

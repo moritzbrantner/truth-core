@@ -1,0 +1,15 @@
+{
+  "id": "RAILTON-175-WELFARE",
+  "statement_id": "STMT-RAILTON-WELFARE",
+  "source_id": "RAILTON-MORAL-REALISM",
+  "locator": "pp. 175–176, §III: objective interests and non-moral good",
+  "interpretation": "Read the displayed iff as a proposed reforming analysis. Satisfaction of an objective interest is relational to the actual person and time. It is not whatever the actual person wants and not whatever an idealized person wants for their own idealized life.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RAILTON-NONMORAL-WELFARE",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

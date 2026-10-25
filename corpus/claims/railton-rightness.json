@@ -1,0 +1,15 @@
+{
+  "id": "RAILTON-190-IMPARTIAL-RIGHTNESS",
+  "statement_id": "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
+  "source_id": "RAILTON-MORAL-REALISM",
+  "locator": "pp. 190–191, §IV: social rationality and equal consideration",
+  "interpretation": "The criterion counts all potentially affected individuals equally under full and vivid information. Footnote 31 requires interpersonal comparison without a single substance such as pleasure. The Lean predicate names this substantive criterion without proving it realizable or normatively sufficient.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

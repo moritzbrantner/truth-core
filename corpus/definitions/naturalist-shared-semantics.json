@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALIST-SHARED-SEMANTICS",
+  "term": "shared truth-functional embedding test",
+  "definition": "Reuses Modal.Formula and Modal.Holds on a one-world frame with any act predicate as valuation. Implication recursively means implication between the same interpreted propositions, free-standing and embedded. The logical theorem proves preservation of truth in that adopted interpretation, not that source truth-aptness alone entails this semantics.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.NaturalPredicateModusPonens",
+  "note": "Shared compositional logical test, applied equally to naturalism and Catholic natural law. No modal axiom or excluded middle is required; fidelity of a full moral-language semantics remains separate."
+}

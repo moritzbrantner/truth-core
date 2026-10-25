@@ -1,0 +1,12 @@
+{
+  "id": "NATURAL-PREDICATE-MODUS-PONENS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NATURAL-PREDICATE-MODUS-PONENS",
+  "inference_ids": [
+    "INF-NATURAL-PREDICATE-MODUS-PONENS"
+  ],
+  "meaning": "The shared compositional interpretation preserves moral modus ponens for any act predicate. This is a logical transcription of implication elimination, not a source-derived proof of any ethical thesis; applicability of this full semantics remains an adopted modeling assumption.",
+  "definition_ids": [
+    "DEF-NATURALIST-SHARED-SEMANTICS"
+  ]
+}

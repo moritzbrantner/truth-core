@@ -1,0 +1,9 @@
+{
+  "id": "REL-NATURALIST-NORMATIVITY-ATTACK",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
+  "note": "An open philosophical objection, not a verified contradiction. The strongest primary replies and the exact limits of the finite tests are recorded in docs/naturalistic-moral-realism.md."
+}

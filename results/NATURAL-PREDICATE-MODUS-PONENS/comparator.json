@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.naturalPredicateModusPonens"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

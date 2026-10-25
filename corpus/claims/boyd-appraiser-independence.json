@@ -1,0 +1,12 @@
+{
+  "id": "BOYD-11-APPRAISER-INDEPENDENCE",
+  "statement_id": "STMT-NATURALIST-APPRAISER-INDEPENDENCE",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §1.1, pp. 307–308: independence from moral opinions",
+  "interpretation": "Boyd says largely independent of our moral opinions and theories. This paraphrase concerns the proposed objective referent, without replacing largely by absolute independence of all psychological facts.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ]
+}

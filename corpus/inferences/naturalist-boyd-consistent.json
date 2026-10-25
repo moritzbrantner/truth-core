@@ -1,0 +1,16 @@
+{
+  "id": "INF-NATURALIST-BOYD-CONSISTENT",
+  "input_statement_ids": [
+    "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
+    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
+    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
+    "STMT-NATURALIST-FIXTURE-ERROR",
+    "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS",
+    "STMT-NATURALIST-TRUE-ASCRIPTION"
+  ],
+  "output_statement_id": "STMT-NATURALIST-BOYD-CONSISTENT",
+  "rule": "model-construction",
+  "meaning": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-BOYD-ASCRIPTION-CONSISTENT does.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

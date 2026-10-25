@@ -1,0 +1,9 @@
+import TruthCore.Results.Comparison.NaturalisticRealism.Model
+namespace TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens
+open TruthCore.Metaethics.NaturalisticRealism
+open TruthCore.Comparison.NaturalisticRealism
+
+theorem naturalPredicateModusPonens : NaturalPredicateModusPonens := by
+  sorry
+
+end TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens

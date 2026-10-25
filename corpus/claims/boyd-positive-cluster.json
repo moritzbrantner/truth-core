@@ -1,0 +1,14 @@
+{
+  "id": "BOYD-43-POSITIVE-CLUSTER",
+  "statement_id": "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §4.3(1)–(4), pp. 329–330",
+  "interpretation": "The source says morally good to the extent an act fosters goods or develops and sustains unifying mechanisms. Good in the Lean fragment means positive goodness in that respect, not all-things-considered permission, rightness, a strict scalar threshold or a total verdict on borderline cases.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

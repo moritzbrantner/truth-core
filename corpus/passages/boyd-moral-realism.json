@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+    "source_url": "https://r.jordan.im/download/philosophy/Boyd%20-%20How%20to%20be%20a%20Moral%20Realist.pdf",
+    "retrieved_at": "2026-10-25T13:06:33Z",
+    "sha256": "sha256:8ac81cf7d072eddd9d21982373c9607d62f116aba496f9f1aa5527b121b90963",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright retained by the author/publisher. Author-uploaded ResearchGate copy (cover: Richard Boyd, 3 June 2015), mirrored reading copy of Contemporary Materialism, ed. Moser and Trout, Routledge. Only hashes, bibliographic locators and a short incipit are committed; no PDF or extracted text is redistributed."
+  },
+  "passages": [
+    {
+      "id": "BOYD-HOW-TO-BE-A-MORAL-REALIST-FULL",
+      "locator": "Contemporary Materialism reprint, pp. 307\u2013352 (\u00a7\u00a71\u20135 and the beginning of notes)",
+      "claim_locator_prefixes": [
+        "reprint "
+      ],
+      "pdf_pages": {
+        "first": 2,
+        "last": 47
+      },
+      "text_sha256": "sha256:20a5e4ec278f292cd9d5f83a3616c4690a7ee9411acf8e4146dc6a1283a75121",
+      "incipit": "15 How to be a Moral Realist Richard N.Boyd 1 INTRODUCTION 1.1 Moral"
+    }
+  ]
+}

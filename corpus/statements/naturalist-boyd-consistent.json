@@ -1,0 +1,20 @@
+{
+  "id": "STMT-NATURALIST-BOYD-CONSISTENT",
+  "paraphrase": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-BOYD-ASCRIPTION-CONSISTENT does.",
+  "lean_declaration": "TruthCore.Comparison.NaturalisticRealism.BoydConsistent",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-MORAL-ERROR",
+    "DEF-NATURALIST-CATEGORICAL-REASONS",
+    "DEF-RAILTON-NONMORAL-WELFARE",
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-TRUTH-VALUE",
+    "DEF-MORAL-STATEMENT",
+    "DEF-ENCODED-THEORY-CONSISTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

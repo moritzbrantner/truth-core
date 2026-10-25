@@ -1,0 +1,8 @@
+import TruthCore.Results.Comparison.NaturalisticRealism.ModelFacts
+namespace TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent
+open TruthCore.Comparison.NaturalisticRealism
+
+theorem railtonAscriptionConsistent : RailtonAscriptionConsistent := by
+  sorry
+
+end TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent

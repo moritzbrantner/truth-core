@@ -1,0 +1,10 @@
+{
+  "id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "argument_id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Solution",
+  "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.unrecognizedIdentityPossible",
+  "comparator_config": "results/UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE/comparator.json",
+  "status": "solution-present",
+  "description": "A nonconstant predicate can be denoted by two distinct names without recognition of their identity. This is a semantic countermodel to an inference from nonrecognition to nonidentity, not a refutation of Moore’s full open-question argument."
+}

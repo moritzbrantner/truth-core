@@ -1,0 +1,12 @@
+{
+  "id": "RAILTON-165-APPRAISER-INDEPENDENCE",
+  "statement_id": "STMT-NATURALIST-APPRAISER-INDEPENDENCE",
+  "source_id": "RAILTON-MORAL-REALISM",
+  "locator": "pp. 165, 182–183, §§I and III: objective but relational properties",
+  "interpretation": "Independence concerns mere conceptions of facts, not independence of human existence, historical choices or objective causal effects of desires.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ]
+}

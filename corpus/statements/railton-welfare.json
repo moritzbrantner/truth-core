@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RAILTON-WELFARE",
+  "paraphrase": "Non-moral goodness for a person consists in satisfying an objective interest of that person.",
+  "lean_declaration": "TruthCore.English.Railton.WelfareReading",
+  "definition_ids": [
+    "DEF-RAILTON-NONMORAL-WELFARE",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

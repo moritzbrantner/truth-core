@@ -191,7 +191,6 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
             "encoding",
             "language",
             "license",
-            "html_selector",
             "text_sha256",
         ],
         path,
@@ -210,7 +209,12 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
         codecs.lookup(passage["encoding"])
     except (LookupError, TypeError) as exc:
         raise SourceEvidenceError(f"{where}: unknown encoding {passage['encoding']!r}") from exc
-    validate_html_selector(where, passage["html_selector"])
+    if ("html_selector" in passage) == ("pdf_pages" in passage):
+        raise SourceEvidenceError(f"{where}: exactly one of html_selector and pdf_pages is required")
+    if "pdf_pages" in passage:
+        validate_pdf_pages(where, passage["pdf_pages"])
+    else:
+        validate_html_selector(where, passage["html_selector"])
     translation = passage.get("translation")
     if translation is not None:
         if not isinstance(translation, dict):
@@ -929,8 +933,47 @@ def select_html_range(tokens: list[Token], selector: dict[str, Any], passage_id:
     return tokens[start:end]
 
 
+def validate_pdf_pages(where: str, pages: Any) -> None:
+    if (not isinstance(pages, dict) or set(pages) != {"first", "last"}
+            or any(type(pages[k]) is not int for k in ("first", "last"))
+            or not 1 <= pages["first"] <= pages["last"]):
+        raise SourceEvidenceError(f"{where}: pdf_pages requires positive integer first <= last")
+
+
+def extract_pdf_text(data: bytes, passage: dict[str, Any]) -> str:
+    """Extract physical PDF pages; the pinned text hash detects extractor drift."""
+    pages = passage["pdf_pages"]
+    validate_pdf_pages(passage["id"], pages)
+    if not data.startswith(b"%PDF-"):
+        raise SourceEvidenceError(f"{passage['id']}: expected PDF bytes")
+    try:
+        result = subprocess.run(
+            ["pdftotext", "-f", str(pages["first"]), "-l", str(pages["last"]),
+             "-enc", "UTF-8", "-", "-"],
+            input=data, capture_output=True, timeout=30, check=False,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise SourceEvidenceError(f"{passage['id']}: PDF extraction needs Poppler pdftotext: {exc}") from exc
+    if result.returncode:
+        raise SourceEvidenceError(f"{passage['id']}: PDF extraction failed: {result.stderr.decode('utf-8', errors='replace')}")
+    try:
+        decoded = result.stdout.decode("utf-8")
+        text = " ".join(decoded.split())
+    except UnicodeDecodeError as exc:
+        raise SourceEvidenceError(f"{passage['id']}: PDF extractor returned invalid UTF-8") from exc
+    if not text:
+        raise SourceEvidenceError(f"{passage['id']}: extracted PDF text is empty (image-only pages need a different witness)")
+    if result.stdout.count(b"\f") != pages["last"] - pages["first"] + 1:
+        raise SourceEvidenceError(f"{passage['id']}: PDF page range exceeds available pages")
+    if any(not page.strip() for page in decoded.split("\f")[:-1]):
+        raise SourceEvidenceError(f"{passage['id']}: textless PDF page in selected range (no OCR is performed)")
+    return text
+
+
 def extract_web_text(data: bytes, passage: dict[str, Any]) -> str:
     """Decode the pinned bytes, select the range and normalize it to lines of text."""
+    if "pdf_pages" in passage:
+        return extract_pdf_text(data, passage)
     try:
         page = data.decode(passage["encoding"])
     except UnicodeDecodeError as exc:
@@ -1215,14 +1258,23 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
     return 0
 
 
-def web_hashes(url: str, encoding: str, selector: str, wayback: str | None) -> int:
+def web_hashes(url: str, encoding: str, selector: str | None, wayback: str | None, pdf_pages: str | None = None) -> int:
     """Print the pinning fields for a new web snapshot passage (authoring aid).
 
     Fetches the page once, so the printed sha256 is whatever the server sends now:
     fetch twice before pinning to make sure the page is byte-stable.
     """
-    probe = {"id": "web-hashes", "encoding": encoding, "html_selector": json.loads(selector)}
-    validate_html_selector("web-hashes", probe["html_selector"])
+    probe: dict[str, Any] = {"id": "web-hashes", "encoding": encoding}
+    if pdf_pages is not None:
+        try:
+            first, last = map(int, pdf_pages.split(":"))
+        except ValueError as exc:
+            raise SourceEvidenceError("--pdf-pages requires FIRST:LAST") from exc
+        probe["pdf_pages"] = {"first": first, "last": last}
+        validate_pdf_pages("web-hashes", probe["pdf_pages"])
+    else:
+        probe["html_selector"] = json.loads(selector or "null")
+        validate_html_selector("web-hashes", probe["html_selector"])
     data = download(url, "web-hashes")
     text = extract_web_text(data, probe)
     result: dict[str, Any] = {
@@ -1278,8 +1330,10 @@ def parser() -> argparse.ArgumentParser:
     )
     hashes_parser.add_argument("url")
     hashes_parser.add_argument("--encoding", required=True, help="the page's character encoding")
-    hashes_parser.add_argument(
-        "--selector", required=True, help='html_selector as JSON, e.g. \'{"heading": "Article 5"}\''
+    selectors = hashes_parser.add_mutually_exclusive_group(required=True)
+    selectors.add_argument("--pdf-pages", help="physical PDF page range FIRST:LAST (inclusive, 1-based)")
+    selectors.add_argument(
+        "--selector", help='html_selector as JSON, e.g. \'{"heading": "Article 5"}\''
     )
     hashes_parser.add_argument("--wayback", help="a https://web.archive.org/web/<timestamp>id_/<url> capture")
     return result
@@ -1295,7 +1349,7 @@ def main() -> int:
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
         if args.command == "web-hashes":
-            return web_hashes(args.url, args.encoding, args.selector, args.wayback)
+            return web_hashes(args.url, args.encoding, args.selector, args.wayback, args.pdf_pages)
         raise AssertionError(f"unexpected command {args.command}")
     except SourceEvidenceError as exc:
         print(f"source evidence error: {exc}", file=sys.stderr)
