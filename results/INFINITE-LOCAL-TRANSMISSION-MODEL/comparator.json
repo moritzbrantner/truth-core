@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.InfiniteLocalTransmission.infiniteLocalTransmission"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

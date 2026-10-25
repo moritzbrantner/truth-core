@@ -1,0 +1,7 @@
+{
+  "id": "STMT-LOCAL-OBSERVATION-SELECTS-SOLUTION",
+  "paraphrase": "For an infinite chain with each node's current activity equivalent to its immediate upstream neighbor's activity, observing whether node zero acts completely determines every node's activity. The equations are locally underdetermined without a datum but mathematically determinate once this boundary fact is supplied.",
+  "lean_declaration": "TruthCore.Causality.LocalObservationSelectsSolution",
+  "definition_ids": ["DEF-LOCAL-TRANSMISSION"],
+  "disambiguation_ids": ["DISAMB-CAUSAL-POWER-GROUNDING"]
+}

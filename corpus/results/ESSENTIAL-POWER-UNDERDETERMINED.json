@@ -1,0 +1,9 @@
+{
+  "id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "argument_id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "challenge_module": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution",
+  "theorem": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.essentialPowerUnderdetermined",
+  "comparator_config": "results/ESSENTIAL-POWER-UNDERDETERMINED/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE",
+  "term": "locally essential transmission of causal activity",
+  "definition": "A node is active if and only if there exists an active node that immediately causes it in the selected dependency relation. The rule itself does not fix a unique global solution or prescribe a response to cutting a link; the ESSENTIAL-POWER-UNDERDETERMINED result separately constructs one admissible downstream-extinguishing response for every cut. This is a local constraint, not automatically an account of the ultimate ground of a power.",
+  "basis": "stipulative",
+  "note": "A deliberately strong local model of instrumental dependence, motivated by the Second Way's removal-of-cause reasoning. The claim that this exhausts real per se causation is not attributed to Aquinas or asserted by the mathematical result.",
+  "lean_declaration": "TruthCore.Causality.PowerTransmissionRule"
+}

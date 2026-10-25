@@ -1,0 +1,9 @@
+{
+  "id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "inference_ids": ["INF-INFINITE-LOCAL-TRANSMISSION-MODEL"],
+  "meaning": "A constructive countermodel to a purely formal argument that all infinite predecessor chains with locally transmitted activity are impossible. It does not claim that an infinite chain is a real per se series in Aquinas' stronger sense.",
+  "definition_ids": ["DEF-LOCAL-TRANSMISSION", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"],
+  "disambiguation_ids": ["DISAMB-CAUSAL-SERIES"]
+}

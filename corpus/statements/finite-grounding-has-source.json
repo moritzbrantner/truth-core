@@ -1,0 +1,7 @@
+{
+  "id": "STMT-FINITE-GROUNDING-HAS-SOURCE",
+  "paraphrase": "For power generated inductively from intrinsic source power and finite successive transmissions, every grounded node has a finite path to some genuine source. Without any intrinsic source, this grounding scheme cannot generate present power.",
+  "lean_declaration": "TruthCore.Causality.FiniteGroundingHasSource",
+  "definition_ids": ["DEF-FINITELY-GROUNDED-CAUSAL-POWER", "DEF-FINITE-CAUSAL-PATH"],
+  "disambiguation_ids": ["DISAMB-CAUSAL-POWER-GROUNDING"]
+}

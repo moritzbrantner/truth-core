@@ -1,0 +1,9 @@
+{
+  "id": "FINITE-GROUNDING-HAS-SOURCE",
+  "argument_id": "FINITE-GROUNDING-HAS-SOURCE",
+  "challenge_module": "TruthCore.Results.Causality.FiniteGroundingHasSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteGroundingHasSource.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteGroundingHasSource.finiteGroundingHasSource",
+  "comparator_config": "results/FINITE-GROUNDING-HAS-SOURCE/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.FiniteReapersConsistent.finiteReapersConsistent"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

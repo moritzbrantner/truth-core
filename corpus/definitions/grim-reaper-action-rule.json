@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GRIM-REAPER-ACTION-RULE",
+  "term": "Grim Reaper firing rule",
+  "definition": "Index n+1 denotes an earlier deadline than index n. At its deadline Reaper n acts if and only if no Reaper with an earlier deadline acts. This is a static logical test of the stipulated condition, without claims about actual time, prior deaths, or causal powers.",
+  "basis": "stipulative",
+  "note": "Defines a clean unsatisfiable-pair thought experiment, not an interpretation of every Benardete, Koons or Pruss variant. Historical sourcing and modal transfer require independent witnesses and arguments.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperLaw"
+}

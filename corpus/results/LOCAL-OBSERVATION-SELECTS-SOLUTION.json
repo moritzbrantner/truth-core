@@ -1,0 +1,9 @@
+{
+  "id": "LOCAL-OBSERVATION-SELECTS-SOLUTION",
+  "argument_id": "LOCAL-OBSERVATION-SELECTS-SOLUTION",
+  "challenge_module": "TruthCore.Results.Causality.LocalObservationSelectsSolution.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution",
+  "theorem": "TruthCore.Results.Causality.LocalObservationSelectsSolution.localObservationSelectsSolution",
+  "comparator_config": "results/LOCAL-OBSERVATION-SELECTS-SOLUTION/comparator.json",
+  "status": "solution-present"
+}
