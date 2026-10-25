@@ -12,16 +12,16 @@
   "passages": [
     {
       "id": "LEWIS-HUMEAN-SUPERVENIENCE",
-      "locator": "pp. 473\u2013489 (article text; PDF cover included, references excluded)",
+      "locator": "pp. 478\u2013482, complete \u00a7\u00a73\u20134 with immediate page context",
       "claim_locator_prefixes": [
         "pp."
       ],
       "pdf_pages": {
-        "first": 1,
-        "last": 18
+        "first": 7,
+        "last": 11
       },
-      "text_sha256": "sha256:4225bbc7e071210a1f4db131d0b92a4953c1bafe39a1a3ff123e3a1634db4927",
-      "incipit": "Mind Association Humean Supervenience Debugged Author(s): David Lewis Source:"
+      "text_sha256": "sha256:ad46583e98a5fcd3f79cabcc1b981d9ebd5fe0a9df019d1d216c096bc7ca90b2",
+      "incipit": "478 David Lewis ones we know about do; and I think it's a"
     }
   ]
 }

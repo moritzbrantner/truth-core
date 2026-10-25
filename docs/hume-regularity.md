@@ -18,7 +18,8 @@ before claims. Only hashes, locators and short incipits are committed.
   context about repeated experience and the idea of connection. These are not
   automatically contemporary regularity-only ontologies.
 - `LEWIS-HUMEAN-SUPERVENIENCE`: [Lewis, Humean Supervenience Debugged](https://joelvelasco.net/teaching/3865/lewis%2094%20-%20humean%20supervenience%20debugged.pdf),
-  pp.473–489 (article text; references excluded); especially §§3–4, pp.478–482. Lawhood selects theorems of a best
+  physical PDF pp.7–11, printed pp.478–482, containing complete §§3–4 and
+  immediate page context. Lawhood selects theorems of a best
   true system, with simplicity/strength and, in the probabilistic version, fit.
   Lewis expressly distinguishes his metaphysical analysis from epistemology.
 - `WOODWARD-HUMAN-FACE`: [Woodward, Causation with a Human Face](https://inferenceproject.yale.edu/sites/default/files/woodward_causation_with_a_humanface.pdf),
@@ -221,3 +222,12 @@ Reproduce with source-evidence check/verify, `lake build`, corpus check and
 bind-check, root-import check, and Comparator/NanoDa for both result IDs.
 Shared conventions resolved at source revision
 `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa` (reproducibility evidence, not a pin).
+
+The Lewis witness selects the complete consulted §§3–4 rather than the whole
+article. CI exposed that Poppler 24.02.0 and 26.01.0 serialize a later displayed
+probability formula in different token orders, despite identical pinned PDF
+bytes. The selected pp.478–482 were re-materialized and read; both versions
+produce exactly the same 15,017-character normalized text and manifest hash.
+The raw PDF hash, source claim locator, formal results and extraction adapter
+are unchanged. This preserves the complete cited argument while excluding an
+unconsulted, version-sensitive formula; no alternate expected hash is accepted.
