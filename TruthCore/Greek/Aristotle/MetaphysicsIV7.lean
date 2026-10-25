@@ -73,12 +73,12 @@ def ContradictoryPairDecidedOnStates {State : Type u} (F : State → Prop) : Pro
 
 /-! ## The thought argument, 1012a2-5 -/
 
-/-- Truth-apt thought affirms or denies, *Metaphysics* IV.7, 1012a2-4, reading
+/-- Thought that is true or false affirms or denies, *Metaphysics* IV.7, 1012a2-4, reading
 A (conditional): "every object of discursive and intuitive thought, thought
 either affirms or denies (this is clear from the definition) whenever it is
 true or false" (ὅταν ἀληθεύῃ ἢ ψεύδηται). The clause "whenever it is true or
 false" is read as a condition: every thought that is true or false is an
-affirmation or a denial. There is no third truth-apt act of thought.
+affirmation or a denial. There is no third act of thought that is true or false.
 
 `Thought` is acts of thought; `Affirms t` and `Denies t` say that `t` affirms or
 denies its object; `TrueT` and `FalseT` that `t` is true or false. -/
@@ -118,7 +118,7 @@ def EveryObjectOfThoughtJudgedTrulyOrFalselyReading {Thought : Type u}
 
 /-- Conclusion of the thought argument on reading A: a thought that is true or
 false settles its object, `object t ∨ ¬ object t`. No intermediate is left for a
-truth-apt thought; nothing is said about objects no thought has settled. -/
+thought that is true or false; nothing is said about objects no thought has settled. -/
 def TruthAptThoughtDecidesItsObject {Thought : Type u}
     (object : Thought → Prop) (TrueT FalseT : Thought → Prop) : Prop :=
   ∀ t, TrueT t ∨ FalseT t → object t ∨ ¬ object t

@@ -3,7 +3,7 @@ import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.S
 namespace TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle
 open TruthCore.Logic
 open TruthCore.Greek.Aristotle.Metaphysics
-/-- *Metaphysics* IV.7, 1012a2-5, reading B: given that truth-apt thought
+/-- *Metaphysics* IV.7, 1012a2-5, reading B: given that thought that is true or false
 affirms or denies, that thought is true or false by composition, and that every
 proposition can be affirmed or denied in thought, the universal premise "every
 object of thought is judged truly or falsely" holds exactly when excluded
