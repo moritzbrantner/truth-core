@@ -1,0 +1,15 @@
+{
+  "id": "HUME-ENQUIRY-IV-AGENT-A",
+  "statement_id": "STMT-HUME-INDUCTION-AGENT-PHILOSOPHER",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "IV, §21 (SBN 36–38)",
+  "interpretation": "Hume directly answers the appeal to his practice by distinguishing the question he is asking. The conjunction is scoped to that request, not universal nihilism about reason.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-FOUNDATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

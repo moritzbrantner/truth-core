@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HUME-INDUCTION-CORRESPONDENCE",
+  "paraphrase": "Hume reports that the succession of ideas has so far corresponded with the course of nature. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.ObservedCorrespondence",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-TRIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

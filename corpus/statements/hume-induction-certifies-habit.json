@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HUME-INDUCTION-CERTIFIES-HABIT",
+  "paraphrase": "Open self-application commitment: the account offers its habit forecast as epistemically entitled. An empirical, customary or conditional account alone does not assert this.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.CertifiesHabit",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-PERSISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

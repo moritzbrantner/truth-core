@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HUME-INDUCTION-RELIANCE-BRIDGE",
+  "paraphrase": "Open normative bridge: each instance of practical reliance requires epistemic entitlement. This must be defended independently; observed success does not prove it.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.RelianceRequiresEntitlement",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-TRIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

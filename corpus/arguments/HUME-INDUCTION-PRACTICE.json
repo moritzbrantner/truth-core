@@ -1,0 +1,31 @@
+{
+  "id": "HUME-INDUCTION-PRACTICE",
+  "premise_statement_ids": [
+    "STMT-HUME-INDUCTION-RELIANCE-BRIDGE",
+    "STMT-HUME-INDUCTION-SOME-RELIANCE"
+  ],
+  "conclusion_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "inference_ids": [
+    "INF-HUME-INDUCTION-PRACTICE"
+  ],
+  "meaning": "Conditional practical critique: a normative entitlement bridge plus practical reliance excludes blanket withholding. Logical transcription; the normative bridge is open, so this is not a historical refutation.",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-MEANS-ENDS",
+    "DEF-HUME-INDUCTION-ANCHOR",
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-TRIAL",
+    "DEF-HUME-INDUCTION-ADMISSIBILITY",
+    "DEF-HUME-INDUCTION-COVERAGE",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

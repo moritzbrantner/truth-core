@@ -1,0 +1,15 @@
+{
+  "id": "HUME-TREATISE-I-3-6-ASSOCIATION-A",
+  "statement_id": "STMT-HUME-INDUCTION-ASSOCIATION",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.6, §13 (SBN 92–93)",
+  "interpretation": "The explicit possibility of attending to one object without proceeding rejects exceptionless associative triggering. It is not a denial of customary influence under the qualified Enquiry circumstances, nor a claim about arbitrary physical events.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PERSISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

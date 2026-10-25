@@ -1,0 +1,11 @@
+{
+  "id": "STMT-HUME-INDUCTION-SOME-RELIANCE",
+  "paraphrase": "The assessment contains at least one topic of practical reliance. This analytical premise is not a sourced universal claim that everyone always acts rationally.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.SomeReliance",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

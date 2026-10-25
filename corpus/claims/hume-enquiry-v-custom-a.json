@@ -1,0 +1,16 @@
+{
+  "id": "HUME-ENQUIRY-V-CUSTOM-A",
+  "statement_id": "STMT-HUME-INDUCTION-CUSTOM",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "V, §§5, 8 (SBN 43–47)",
+  "interpretation": "This operational reading extracts the expectation consequence, leaving the causal mechanism and its exclusion of other origins unimplemented. It omits no entitlement premise because Hume is explaining the origin here, not certifying an inductive proof.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-ENTITLEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

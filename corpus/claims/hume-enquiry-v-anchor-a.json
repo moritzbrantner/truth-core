@@ -1,0 +1,15 @@
+{
+  "id": "HUME-ENQUIRY-V-ANCHOR-A",
+  "statement_id": "STMT-HUME-INDUCTION-ANCHOR",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "V, §7 (SBN 45–46)",
+  "interpretation": "Hume explicitly distinguishes a merely hypothetical chain. This boundary permits a relevance/evidence distinction across ordinary and theological examples without establishing any particular cross-domain refusal.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ANCHOR",
+    "DEF-HUME-INDUCTION-STANDARD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HUME-INDUCTION-TESTS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-INDUCTION-TESTS",
+  "inference_ids": [
+    "INF-HUME-INDUCTION-TESTS"
+  ],
+  "meaning": "Direct construction of finite counterhistories, no-confusion for typed epistemic verdicts and shared answer-map coverage. The conditional bridge-conflict subtests are logical transcriptions, while the countermodels establish substantive non-entailments; no source assertion or real-world reliability is proved.",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-MEANS-ENDS",
+    "DEF-HUME-INDUCTION-ANCHOR",
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-TRIAL",
+    "DEF-HUME-INDUCTION-ADMISSIBILITY",
+    "DEF-HUME-INDUCTION-COVERAGE",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

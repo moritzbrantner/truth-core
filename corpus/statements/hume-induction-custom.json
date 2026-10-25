@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HUME-INDUCTION-CUSTOM",
+  "paraphrase": "Repeated conjunction with a present trigger yields customary expectation. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.CustomAccount",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-ENTITLEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

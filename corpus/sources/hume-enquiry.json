@@ -1,0 +1,10 @@
+{
+  "id": "HUME-ENQUIRY",
+  "kind": "primary_work",
+  "author": "David Hume",
+  "work": "An Enquiry concerning Human Understanding (1748), Hume Texts Online",
+  "citation_system": "Section.paragraph; SBN pagination",
+  "work_urn": "https://davidhume.org/texts/e",
+  "catalog_url": "https://davidhume.org/texts/e",
+  "notes": "Original English witness. Web snapshots pin individually cited sections; interpretation remains separate from integrity."
+}

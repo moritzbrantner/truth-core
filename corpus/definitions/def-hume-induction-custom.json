@@ -1,0 +1,10 @@
+{
+  "id": "DEF-HUME-INDUCTION-CUSTOM",
+  "term": "customary expectation",
+  "definition": "CustomAccount represents the expectation consequent on repeated conjunction and a present trigger, the operational consequence of the psychological custom account in E 5.5 and 5.8. It does not encode the causal mechanism, exclude reasoning as an additional cause, or turn propensity into entitlement.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.CustomAccount",
+  "claim_ids": [
+    "HUME-ENQUIRY-V-CUSTOM-A"
+  ]
+}

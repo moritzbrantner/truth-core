@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-RECORD",
+  "term": "finite observed record and continuation",
+  "definition": "A Trace assigns a Boolean match to each natural-number episode. Recorded f n says every episode strictly before n matched. n is outside the record. delayedFailure matches every prior episode and fails at n. These mathematical alternatives establish deductive underdetermination, not metaphysical possibility or equiprobability.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.Recorded",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}
