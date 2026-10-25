@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS",
+  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.catholicismFromPrimaViaWithQ11Uniqueness",
+  "comparator_config": "results/CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Distinct alternative composition preserving the original First-Way same witness and eight pointwise attribute proofs. The ninth attribute is derived by the imported Q11 nature/individuation theorem instead of assuming GodIsMaximalInBeing. No default root_route or frozen old Challenge changes. This relocates a uniqueness obligation into three sourced commitments and does not reduce assumption count. Revelation, historical and authority commitments remain open."
+}

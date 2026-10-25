@@ -1,0 +1,22 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A3-GOD-SUPPOSITUM-NATURE-A",
+  "statement_id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.3 co.: in eis non differt suppositum et natura; oportet quod Deus sit sua deitas",
+  "interpretation": "The conclusion identifies God with his nature, following the distinction between material composites and self-individuating subsistent forms. Read universally over proper divine-being instances of IsGod and represent the identity within the existing Principle sort. This records the attributed conclusion as an open premise; it does not derive it from the existing generic Composite predicate or confuse Principle equality with cross-type Being equality.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}

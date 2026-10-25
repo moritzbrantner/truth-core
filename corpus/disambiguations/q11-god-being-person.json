@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-Q11-GOD-BEING-PERSON",
+  "term": "God as divine being versus divine person",
+  "sense_definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-Q11-DIVINE-PERSON-OUTSIDE-DOMAIN"
+  ],
+  "resolution": "Every quantified God in the Q11 proof is an original IsGod instance in Being: a hypothetical divine being, not Father, Son or Spirit as distinct persons. suppositumOf is used here for the individuating basis in the anti-plurality argument and not as a divine-person index. The common deity parameter does not identify persons. Existing IsGod is not redefined and no Trinitarian conclusion follows."
+}

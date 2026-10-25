@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q11-INDIVIDUATING-BASIS",
+  "term": "individuating suppositum basis (Q11; suppositumOf)",
+  "definition": "The Principle-valued representation suppositumOf x records that by which a singular being is this individual, in q.11 a.3 first proof. It is distinguished from the nature essenceOf x. Equality of represented bases entails identity of beings only under STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE; no injectivity, existence or God-uniqueness is built into the map.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q11-A3-INDIVIDUATING-BASIS-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
+}

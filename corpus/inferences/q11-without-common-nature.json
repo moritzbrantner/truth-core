@@ -1,0 +1,9 @@
+{
+  "id": "INF-Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-Q11-UNIQUENESS-FAILS-WITHOUT-COMMON-NATURE",
+  "rule": "verified-result",
+  "meaning": "Concrete Bool countermodel to local entailment with one Q11 principle omitted. Every other advertised Q11 premise holds for two distinct IsGod instances, while GodIsOne fails. This tests necessity only for this local argument; it is not a source-faithful theology, a model of the full root premises, or a refutation of the omitted claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

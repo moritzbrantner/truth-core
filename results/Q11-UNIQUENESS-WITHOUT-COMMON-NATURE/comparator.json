@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.withoutCommonNature"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
