@@ -1,0 +1,9 @@
+{
+  "id": "INF-RUSSELL-EXISTENCE-GROUNDING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RUSSELL-EXISTENCE-GROUNDING",
+  "rule": "direct-proof",
+  "meaning": "Construct two explicit expansions, verify truth at edge endpoints and asymmetry, then instantiate the extra sufficiency target on the disagreeing edge. No metaphysical grounding law follows from the logical data alone.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

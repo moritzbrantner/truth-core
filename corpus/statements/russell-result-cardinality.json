@@ -1,0 +1,22 @@
+{
+  "id": "STMT-RUSSELL-EXISTENCE-CARDINALITY",
+  "paraphrase": "The finite zero/one/two extensions have the advertised multiplicities; nonempty one- and two-member extensions disagree in number, while two different singleton extensions agree in existential truth but not their named witness. Only the singleton satisfies a definite description.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.CardinalityBoundary",
+  "definition_ids": [
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+    "DEF-RUSSELL-DESCRIPTION",
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-INSTANTIATION",
+    "DEF-RUSSELL-FINITE-EXTENSION",
+    "DEF-RUSSELL-GROUNDING",
+    "DEF-RUSSELL-EXHAUSTIVENESS",
+    "DEF-RUSSELL-ACTUAL-DOMAIN",
+    "DEF-RUSSELL-CONTEXTUAL-NAME",
+    "DEF-RUSSELL-LOGICAL-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

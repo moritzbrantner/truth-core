@@ -1,0 +1,9 @@
+{
+  "id": "INF-RUSSELL-EXISTENCE-CARDINALITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RUSSELL-EXISTENCE-CARDINALITY",
+  "rule": "direct-proof",
+  "meaning": "Evaluate the complete two-label carrier and compose the earlier Description theorem for the unique/nonunique cases. This proves underdetermination of exact number and witness by mere existential truth, not a refutation of Russell.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

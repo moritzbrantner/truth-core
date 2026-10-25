@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-FINITE-EXTENSION",
+  "term": "finite extension and number",
+  "definition": "Entity.a and Entity.b exhaust the stipulated finite carrier. none, singleA, singleB and both specify zero, one, a different one, and two satisfying values. count is their exact finite multiplicity; no actual population is asserted.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.count"
+}

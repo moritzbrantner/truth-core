@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Russell.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Projection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Russell.Projection.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

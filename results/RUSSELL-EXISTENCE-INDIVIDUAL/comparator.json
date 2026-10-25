@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Russell.Individual.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Individual.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Russell.Individual.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

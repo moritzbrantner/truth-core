@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-ACTUAL-DOMAIN",
+  "term": "world-relative individual existence",
+  "definition": "ActualAt w x means x belongs to the actual domain at w in a modern varying-domain semantics. The outer Entity carrier contains candidates and is not presumed actual at every world. This is an alternative to Russell’s restriction, not a new interpretation of his quantifier.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.ActualAt"
+}

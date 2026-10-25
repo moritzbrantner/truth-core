@@ -154,6 +154,7 @@ import TruthCore.Modern.Hume.Conceivability
 import TruthCore.Modern.Hume.Induction
 import TruthCore.Modern.Hume.Regularity
 import TruthCore.Modern.Hume.RegularityModels
+import TruthCore.Modern.Russell.Existence
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
@@ -442,6 +443,11 @@ import TruthCore.Results.Modal.T.ScopeBoundary.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Modern.Hume.Induction.Solution
 import TruthCore.Results.Modern.Hume.Regularity.Solution
+import TruthCore.Results.Modern.Russell.Cardinality.Solution
+import TruthCore.Results.Modern.Russell.Description.Solution
+import TruthCore.Results.Modern.Russell.Grounding.Solution
+import TruthCore.Results.Modern.Russell.Individual.Solution
+import TruthCore.Results.Modern.Russell.Projection.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Teleonomy.Mechanisms

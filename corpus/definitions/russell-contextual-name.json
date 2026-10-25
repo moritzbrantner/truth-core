@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-CONTEXTUAL-NAME",
+  "term": "contextual denotation",
+  "definition": "StrictNameAt A w pairs a referent with proof it is actual at that selected context. DenotesAt instead evaluates an optional name token relative to ActualAt; the same token may fail there. Neither typing stipulates necessary existence across worlds.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.StrictNameAt"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "RUSSELL-EXISTENCE-PROJECTION",
+  "argument_id": "RUSSELL-EXISTENCE-PROJECTION",
+  "challenge_module": "TruthCore.Results.Modern.Russell.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Projection.Solution",
+  "theorem": "TruthCore.Results.Modern.Russell.Projection.checks",
+  "comparator_config": "results/RUSSELL-EXISTENCE-PROJECTION/comparator.json",
+  "status": "solution-present"
+}

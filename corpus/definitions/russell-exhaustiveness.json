@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-EXHAUSTIVENESS",
+  "term": "explanatory sufficiency bridge",
+  "definition": "GroundingDetermined F says all sound asymmetric grounding expansions of the fixed F extension agree on every grounding edge. This is a precise additional sufficiency target in the test, not the whole meaning of A2, not Russell’s attributed assertion, and not a claim that every why-question has an answer.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.GroundingDetermined"
+}

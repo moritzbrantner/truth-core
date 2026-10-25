@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "source_url": "https://sites.ualberta.ca/~francisp/NewPhil448/RussellPhilLogicalAtomismPears.pdf",
+    "retrieved_at": "2026-10-25T16:11:22Z",
+    "sha256": "sha256:53e7eea6bab7c4daa4bcce1c3a1d9628eec7e1bbddad30f62712c5c3096fe490",
+    "kind": "web_snapshot",
+    "source_id": "RUSSELL-LOGICAL-ATOMISM",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "©2010 The Bertrand Russell Peace Foundation Ltd; introduction ©1985 David F. Pears. All rights reserved. Public university-hosted scholarly witness; no redistribution license asserted. Only hashes, locators and short incipits committed."
+  },
+  "passages": [
+    {
+      "id": "RUSSELL-ATOMISM-V",
+      "locator": "Lecture V, printed pp.61–77, with preceding discussion and concluding questions",
+      "claim_locator_prefixes": [
+        "V."
+      ],
+      "pdf_pages": {
+        "first": 104,
+        "last": 120
+      },
+      "text_sha256": "sha256:95c18a2f814f9411cf4874cdbe845f753953ff259c4c9115d061e4481cd67767",
+      "incipit": "general propositions and existence proposition is nothing. But a belief is true"
+    },
+    {
+      "id": "RUSSELL-ATOMISM-VI",
+      "locator": "Lecture VI, printed pp.77–92, including immediate lecture-boundary context",
+      "claim_locator_prefixes": [
+        "VI."
+      ],
+      "pdf_pages": {
+        "first": 120,
+        "last": 135
+      },
+      "text_sha256": "sha256:505d864aafc7b85154913de543422906f728b8bd560723df4a5c76efc4a866ce",
+      "incipit": "descriptions and incomplete symbols apology, but the world really is rather"
+    }
+  ]
+}
