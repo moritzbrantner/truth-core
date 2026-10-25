@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-MATT-UNIVERSAL-AUTHORITY",
+  "paraphrase": "Matthew attributes to Jesus the statement that all authority in heaven and earth has been given to him. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Matthew.MattUniversalAuthority",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

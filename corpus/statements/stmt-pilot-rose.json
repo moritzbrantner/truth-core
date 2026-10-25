@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-ROSE",
+  "paraphrase": "Jesus rose from the dead, using the existing skeleton’s historical predicate; no identification with the separate uninterpreted Creed article is made.",
+  "lean_declaration": "TruthCore.History.Resurrection.Rose",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

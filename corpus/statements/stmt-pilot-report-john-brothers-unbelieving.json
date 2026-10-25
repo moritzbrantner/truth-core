@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-JOHN-BROTHERS-UNBELIEVING",
+  "paraphrase": "John says Jesus’s brothers did not believe in him. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.John.JohnBrothersUnbelieving",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-JESUS-CLAIMS",
+  "paraphrase": "Jesus claimed divine authority in the existing case signature; the Gospel report supports an open historical/interpretive attribution.",
+  "lean_declaration": "TruthCore.History.Resurrection.JesusClaims",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

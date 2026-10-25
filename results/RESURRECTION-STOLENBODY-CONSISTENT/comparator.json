@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.consistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

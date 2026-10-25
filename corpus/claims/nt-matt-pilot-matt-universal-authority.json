@@ -1,0 +1,14 @@
+{
+  "id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
+  "statement_id": "STMT-PILOT-REPORT-MATT-UNIVERSAL-AUTHORITY",
+  "source_id": "NT-MATT",
+  "locator": "28.18",
+  "interpretation": "The source reports an authority claim. Historical attribution and divine vindication are independent open questions.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

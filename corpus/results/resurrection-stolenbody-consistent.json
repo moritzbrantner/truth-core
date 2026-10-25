@@ -1,0 +1,9 @@
+{
+  "id": "RESURRECTION-STOLENBODY-CONSISTENT",
+  "argument_id": "RESURRECTION-STOLENBODY-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.consistent",
+  "comparator_config": "results/RESURRECTION-STOLENBODY-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

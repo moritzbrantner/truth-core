@@ -1,0 +1,29 @@
+{
+  "id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "inference_ids": [
+    "INF-RESURRECTION-GROUPHALLUCINATION-CONSISTENT"
+  ],
+  "commitment_statement_ids": [
+    "STMT-PILOT-E0",
+    "STMT-PILOT-E1",
+    "STMT-PILOT-E2",
+    "STMT-PILOT-E3",
+    "STMT-PILOT-E4",
+    "STMT-PILOT-E5",
+    "STMT-PILOT-GROUP-ACCOUNT"
+  ],
+  "meaning": "Construct an explicit finite model for the GroupHallucination pilot bundle, preserving all common findings. Model consistency is not historical confirmation or proof of a complete metaphysical system.",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY",
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-RESURRECTION-PILOT-COVERAGE",
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

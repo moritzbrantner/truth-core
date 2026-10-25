@@ -1,0 +1,16 @@
+{
+  "id": "STMT-RESURRECTION-STOLENBODY-CONSISTENT",
+  "paraphrase": "The limited StolenBody pilot bundle is jointly satisfiable with E0–E5. This does not establish its truth, causal adequacy, complete-worldview consistency or the historical findings; shared findings and account commitments remain open.",
+  "lean_declaration": "TruthCore.Comparison.Resurrection.StolenBodyConsistent",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY",
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-RESURRECTION-PILOT-COVERAGE",
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

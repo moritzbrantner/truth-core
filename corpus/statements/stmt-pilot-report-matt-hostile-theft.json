@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-MATT-HOSTILE-THEFT",
+  "paraphrase": "Matthew narrates chief priests paying guards to circulate a story that disciples stole Jesus while they slept, and says the story persisted. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Matthew.MattHostileTheftStory",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

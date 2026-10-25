@@ -1,0 +1,14 @@
+{
+  "id": "NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING",
+  "statement_id": "STMT-PILOT-REPORT-ACTS-BROTHERS-PRAYING",
+  "source_id": "NT-ACTS",
+  "locator": "1.13-14",
+  "interpretation": "The passage does not name the brothers, explicitly state James’s conversion or narrate its cause. Reading participation as belief is an additional historical bridge.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

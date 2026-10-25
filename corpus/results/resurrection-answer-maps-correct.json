@@ -1,0 +1,10 @@
+{
+  "id": "RESURRECTION-ANSWER-MAPS-CORRECT",
+  "argument_id": "RESURRECTION-ANSWER-MAPS-CORRECT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.answerMapsCorrect",
+  "comparator_config": "results/RESURRECTION-ANSWER-MAPS-CORRECT/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription/bookkeeping only; no historical finding or stage-4 conclusion is established."
+}

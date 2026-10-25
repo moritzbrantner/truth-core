@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-E1",
+  "paraphrase": "An appearance proclamation preceded the Corinthian letter; no absolute date or elapsed years is encoded.",
+  "lean_declaration": "TruthCore.History.Resurrection.EarlyProclamation",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

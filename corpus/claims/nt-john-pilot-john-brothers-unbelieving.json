@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING",
+  "statement_id": "STMT-PILOT-REPORT-JOHN-BROTHERS-UNBELIEVING",
+  "source_id": "NT-JOHN",
+  "locator": "7.3-5",
+  "interpretation": "The plural group statement does not name James or individually settle his belief; distributing it to this James requires an identity and scope reading.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-BRIDGE-PAUL-CONVERSION",
+  "paraphrase": "Read Paul’s former persecution and present preaching as a transition from nonbelief to belief; activities alone do not logically entail inner belief.",
+  "lean_declaration": "TruthCore.History.Resurrection.PaulConversionBridge",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

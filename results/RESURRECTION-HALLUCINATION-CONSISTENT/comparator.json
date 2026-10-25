@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.consistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

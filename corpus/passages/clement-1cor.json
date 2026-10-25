@@ -1,0 +1,42 @@
+{
+  "snapshot": {
+    "source_id": "CLEMENT-1COR",
+    "edition_urn": "urn:cts:greekLit:tlg1271.tlg001.1st1K-grc1",
+    "language": "grc",
+    "repository": "OpenGreekAndLatin/First1KGreek",
+    "revision": "03776b39f4047c5cff06f5296fae4b2bae4b08fb",
+    "path": "data/tlg1271/tlg001/tlg1271.tlg001.1st1K-grc1.xml",
+    "git_blob_sha": "b60e3f7cbb129601c02f983cd7552790b123571c",
+    "source_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/03776b39f4047c5cff06f5296fae4b2bae4b08fb/data/tlg1271/tlg001/tlg1271.tlg001.1st1K-grc1.xml",
+    "license": "CC BY-SA 4.0 (repository default; see pinned edition header and repository README)"
+  },
+  "passages": [
+    {
+      "id": "CLEMENT-1COR-5",
+      "locator": "5",
+      "claim_locator_prefixes": [
+        "5."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "5"
+        }
+      ]
+    },
+    {
+      "id": "CLEMENT-1COR-42",
+      "locator": "42",
+      "claim_locator_prefixes": [
+        "42."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "42"
+        }
+      ]
+    }
+  ],
+  "notes": "Whole chapter retained for context; claim locators identify exact verses."
+}

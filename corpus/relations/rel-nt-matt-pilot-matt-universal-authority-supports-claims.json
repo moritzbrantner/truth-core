@@ -1,0 +1,9 @@
+{
+  "id": "REL-NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY-SUPPORTS-CLAIMS",
+  "note": "Historical attribution and the divine-authority interpretation remain open; no formal inference is asserted by this support edge.",
+  "subject_kind": "claim",
+  "subject_id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-JESUS-CLAIMS"
+}

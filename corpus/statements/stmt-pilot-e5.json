@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-E5",
+  "paraphrase": "The James proposed as Jesus’s brother changed from not believing to believing. Identification across the group reports and reading prayer as belief are explicit open premises.",
+  "lean_declaration": "TruthCore.History.Resurrection.JamesConversion",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-MARK-AUTHORITY",
+  "paraphrase": "Mark attributes to Jesus an affirmative answer to the high priest’s messianic question and a saying about the Son of Man at the right hand of Power and coming with heaven’s clouds. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.MarkAuthority",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

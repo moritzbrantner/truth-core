@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "source_id": "TACITUS-ANN",
+    "edition_urn": "urn:cts:latinLit:phi1351.phi005.perseus-lat1",
+    "language": "lat",
+    "repository": "PerseusDL/canonical-latinLit",
+    "revision": "0700a6b7e010707367502a83e08e99ebbbb3666c",
+    "path": "data/phi1351/phi005/phi1351.phi005.perseus-lat1.xml",
+    "git_blob_sha": "93eaa9427313be7fe02288de1284da8d8028ebdc",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/0700a6b7e010707367502a83e08e99ebbbb3666c/data/phi1351/phi005/phi1351.phi005.perseus-lat1.xml",
+    "license": "CC BY-SA 4.0 (repository default; see pinned edition header and repository README)"
+  },
+  "passages": [
+    {
+      "id": "TACITUS-ANN-15-44",
+      "locator": "15.44",
+      "claim_locator_prefixes": [
+        "15.44"
+      ],
+      "cts_path": []
+    }
+  ],
+  "notes": "The TEI P4 edition uses milestone chapter markers. Materialization retains the full witness; consult book XV chapter 44 in that verified text. The edition metadata calls this lat2 while the actual filename names lat1; the snapshot records the actual file identity."
+}

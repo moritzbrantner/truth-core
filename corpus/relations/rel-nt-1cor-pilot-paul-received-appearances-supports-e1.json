@@ -1,0 +1,9 @@
+{
+  "id": "REL-NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES-SUPPORTS-E1",
+  "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
+  "subject_kind": "claim",
+  "subject_id": "NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-E1"
+}

@@ -1146,6 +1146,15 @@ def join_text(pieces: Iterable[str | object]) -> str:
 
 
 def extract_plain_text(data: bytes, passage: dict[str, Any]) -> str:
+    # Perseus' TEI P4 Tacitus witness uses these punctuation entities from
+    # an external DTD. Resolve only these known Unicode characters locally;
+    # never fetch a DTD or accept arbitrary undeclared entities. Blob hashing
+    # still checks the original bytes before extraction.
+    parts = re.split(rb"(<!\[CDATA\[.*?\]\]>)", data, flags=re.DOTALL)
+    data = b"".join(
+        part if index % 2 else part.replace(b"&dagger;", b"&#8224;").replace(b"&mdash;", b"&#8212;")
+        for index, part in enumerate(parts)
+    )
     try:
         root = ET.fromstring(data)
     except ET.ParseError as exc:

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-E4",
+  "paraphrase": "Paul changed from not believing to believing; the supernatural cause is not included in this finding.",
+  "lean_declaration": "TruthCore.History.Resurrection.PaulConversion",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

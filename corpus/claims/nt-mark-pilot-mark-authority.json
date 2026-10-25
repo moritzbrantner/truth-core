@@ -1,0 +1,14 @@
+{
+  "id": "NT-MARK-PILOT-MARK-AUTHORITY",
+  "statement_id": "STMT-PILOT-REPORT-MARK-AUTHORITY",
+  "source_id": "NT-MARK",
+  "locator": "14.61-64",
+  "interpretation": "Reading these words as the skeleton’s claim to speak and act with divine authority is an explicit interpretive step; this report does not establish the claim’s truth.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

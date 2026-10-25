@@ -1,0 +1,9 @@
+{
+  "id": "REL-PILOT-STMT-PILOT-DIVINE-CAUSE-CREED-SUPPORT",
+  "subject_kind": "claim",
+  "subject_id": "CREED-C381-ART-01",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-DIVINE-CAUSE",
+  "note": "The materialized Greek Creed professes one God, Father almighty, maker of heaven and earth. This bears on the Catholic pilot commitments; it does not identify the uninterpreted Creed atom with the pilot predicates or prove their truth."
+}

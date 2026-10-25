@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-BRIDGE-CRUCIFIXION",
+  "paraphrase": "Accept Mark’s narrated crucifixion as historical; this does not derive death from the broader execution report of Tacitus.",
+  "lean_declaration": "TruthCore.History.Resurrection.CrucifixionBridge",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

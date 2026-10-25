@@ -1,0 +1,9 @@
+{
+  "id": "INF-RESURRECTION-ANSWER-MAPS-CORRECT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RESURRECTION-ANSWER-MAPS-CORRECT",
+  "rule": "constructive-bookkeeping",
+  "meaning": "Case analysis on all six theories and fifteen questions followed by definitional computation of the counts. Conditional coverage is a transcription of the open bundles, not historical progress.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

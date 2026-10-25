@@ -1,0 +1,14 @@
+{
+  "id": "NT-MARK-PILOT-MARK-CRUCIFIXION-DEATH",
+  "statement_id": "STMT-PILOT-REPORT-MARK-CRUCIFIXION-DEATH",
+  "source_id": "NT-MARK",
+  "locator": "15.24-25,37,44-45",
+  "interpretation": "This records the narrated events, not an independently established death finding. Crucifixion and death are kept separate for the swoon account.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

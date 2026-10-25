@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE",
+  "statement_id": "STMT-PILOT-REPORT-JOHN-DISCIPLES-REJOICE",
+  "source_id": "NT-JOHN",
+  "locator": "20.19-25",
+  "interpretation": "An experience narrative can support but does not by itself establish sincere historical experiences or their external cause.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

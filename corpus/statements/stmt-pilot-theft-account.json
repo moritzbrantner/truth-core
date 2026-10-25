@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-THEFT-ACCOUNT",
+  "paraphrase": "Deny bodily resurrection and propose both removal of the body from an actually empty tomb and a separate visionary experience account. This is not an attribution to Matthew’s guards or to a modern proponent.",
+  "lean_declaration": "TruthCore.History.Resurrection.TheftAccount",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

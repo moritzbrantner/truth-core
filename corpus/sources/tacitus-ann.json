@@ -1,0 +1,11 @@
+{
+  "id": "TACITUS-ANN",
+  "kind": "primary_text",
+  "author": "Tacitus",
+  "work": "Annals",
+  "citation_system": "book.chapter.section",
+  "work_urn": "urn:cts:latinLit:phi1351.phi005",
+  "reference_edition_urn": "urn:cts:latinLit:phi1351.phi005.perseus-lat1",
+  "catalog_url": "https://github.com/PerseusDL/canonical-latinLit/blob/0700a6b7e010707367502a83e08e99ebbbb3666c/data/phi1351/phi005/phi1351.phi005.perseus-lat1.xml",
+  "notes": "Original-language witness for the stage-4 pilot. Textual reports are distinct from historical event findings. No composition date or author identification beyond the edition attribution is inferred from a hash."
+}

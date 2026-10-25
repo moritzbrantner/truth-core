@@ -1,0 +1,9 @@
+{
+  "id": "REL-NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES-SUPPORTS-E3",
+  "subject_kind": "claim",
+  "subject_id": "NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-E3",
+  "note": "The report explicitly names Cephas among appearance recipients. Actual experiences, participant identification across reports and sincerity still require the open sincerity reading bridge; no Cephas/Peter identity is silently inferred from Clement\u2019s endurance account."
+}

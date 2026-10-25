@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.consistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

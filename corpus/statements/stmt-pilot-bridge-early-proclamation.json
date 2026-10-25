@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-BRIDGE-EARLY-PROCLAMATION",
+  "paraphrase": "Read Paul’s received/transmitted report as a proclamation historically preceding this letter; no absolute chronology follows.",
+  "lean_declaration": "TruthCore.History.Resurrection.EarlyProclamationBridge",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "NT-GAL-PILOT-PAUL-MET-JAMES",
+  "statement_id": "STMT-PILOT-REPORT-PAUL-MET-JAMES",
+  "source_id": "NT-GAL",
+  "locator": "1.18-19",
+  "interpretation": "This identifies a James in this letter, not every James in other sources; the appearance recipient in 1 Cor 15 and Josephus’s James need identification separately.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}
