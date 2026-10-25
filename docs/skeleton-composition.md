@@ -34,8 +34,8 @@ itself:
 
 ## Why the witness must remain the same
 
-The First Way supplies a first unmoved mover. The Fourth Way supplies a maximal
-being. The existing identity theorem identifies them, and the full-description
+With the existing excluded-middle instance, the First Way supplies a first
+unmoved mover. The Fourth Way supplies a maximal being. The existing identity theorem identifies them, and the full-description
 naming theorem applies `IsGod` to that maximum. The new result retains this
 maximality information, which the older Stage1 existential conclusion forgets.
 
