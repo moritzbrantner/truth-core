@@ -1,0 +1,1 @@
+{"id": "INF-AQUINAS-Q103-DIRECTING-IS-GOVERNING", "input_statement_ids": ["STMT-DIRECTING-TO-AN-END-IS-GOVERNING"], "output_statement_id": "STMT-DIRECTOR-GOVERNS-WHAT-IT-DIRECTS", "rule": "universal-instantiation", "meaning": "A director of x to an end governs x (q.103 a.3).", "assumption_statement_ids": [], "discharged_statement_ids": []}

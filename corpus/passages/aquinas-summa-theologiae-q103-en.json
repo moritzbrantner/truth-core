@@ -1,0 +1,23 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.newadvent.org/summa/1103.htm",
+    "retrieved_at": "2026-10-24T14:04:02Z",
+    "sha256": "sha256:82d9d28c122ce2b55a8be60125a066b8384e3a31315ab8d3563a5121bbf840d6",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Fathers of the English Dominican Province",
+      "year": 1920,
+      "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"
+    },
+    "license": "The 1920 translation is in the public domain in the US. The page states 'Online Edition Copyright (c) 2017 by Kevin Knight' and a New Advent LLC copyright notice; New Advent publishes no further terms of use (checked 2026-10-24). Only hashes, locators and a short incipit are committed. No Wayback capture is recorded: the only capture (2026-10-14) is served zstd-encoded, which the materializer does not decode, so a drift of the live bytes (footer year, beacon script) will require re-pinning. The SCTA TAca84 directory for I q.103 holds no transcription at f9065dc8."
+  },
+  "passages": [
+    {"id": "AQUINAS-ST-I-Q103-A1-EN", "locator": "I q.103 a.1", "claim_locator_prefixes": ["I q.103 a.1 "], "html_selector": {"heading": "Article 1. Whether the world is governed by anyone?"}, "text_sha256": "sha256:b0e7e9c48bb4a72a6752f151b31e5db5a268fb636ea959bfb517d28bf8757438", "incipit": "Article 1. Whether the world is governed by anyone?"},
+    {"id": "AQUINAS-ST-I-Q103-A3-EN", "locator": "I q.103 a.3", "claim_locator_prefixes": ["I q.103 a.3 "], "html_selector": {"heading": "Article 3. Whether the world is governed by one?"}, "text_sha256": "sha256:eeb4cb68e225c07be49b6acac9c3bbde7a097baf7c4d85aa45097b840aa081fe", "incipit": "Article 3. Whether the world is governed by one?"},
+    {"id": "AQUINAS-ST-I-Q103-A5-EN", "locator": "I q.103 a.5", "claim_locator_prefixes": ["I q.103 a.5 "], "html_selector": {"heading": "Article 5. Whether all things are subject to the Divine government?"}, "text_sha256": "sha256:6041cf7e6faea40d50041f9d53946ee87dbaa1fdba23ca402b3ac8f6f8cf59d8", "incipit": "Article 5. Whether all things are subject to the Divine government?"},
+    {"id": "AQUINAS-ST-I-Q103-A6-EN", "locator": "I q.103 a.6", "claim_locator_prefixes": ["I q.103 a.6 "], "html_selector": {"heading": "Article 6. Whether all things are immediately governed by God?"}, "text_sha256": "sha256:ee1308a61be397f6759b967ddd3b52c104df2288620f70fcf83e2c26139cf3e2", "incipit": "Article 6. Whether all things are immediately governed by God?"}
+  ]
+}
