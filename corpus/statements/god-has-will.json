@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-HAS-WILL", "paraphrase": "Open premise: God is has will (ST I q.19); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"}
+{"id": "STMT-GOD-HAS-WILL", "paraphrase": "Open premise: God has will (ST I q.19); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill", "definition_ids": ["DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM"]}

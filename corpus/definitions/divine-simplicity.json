@@ -1,0 +1,11 @@
+{
+  "id": "DEF-SIMPLE",
+  "term": "simple (Lean `IsSimple`)",
+  "definition": "`IsSimple Composite g`: g is not composite in any way (ST I q.3 a.7). `Composite` is the case's primitive for being composed of parts, of matter and form, or of essence and being.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A7-COMPOSITE-HAS-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.IsSimple",
+  "note": "The case's reading of q.3 a.7: the article argues God is not composite; it does not define 'simple' apart from that denial."
+}

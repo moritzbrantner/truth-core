@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-ETERNAL", "paraphrase": "Open premise: God is eternal (ST I q.10); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"}
+{"id": "STMT-GOD-IS-ETERNAL", "paraphrase": "Open premise: God is eternal (ST I q.10); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal", "definition_ids": ["DEF-ETERNAL", "DEF-GOD-OF-CLASSICAL-THEISM"]}

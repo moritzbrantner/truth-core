@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-PERFECT", "paraphrase": "God is perfect: whatever any being is in act in, God is in act in, formally or eminently.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsPerfect"}
+{"id": "STMT-GOD-IS-PERFECT", "paraphrase": "God is perfect: whatever any being is in act in, God is in act in, formally or eminently.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsPerfect", "definition_ids": ["DEF-UNIVERSALLY-PERFECT", "DEF-ACT", "DEF-GOD-OF-CLASSICAL-THEISM"]}

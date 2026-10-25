@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HAS-INTELLECT",
+  "term": "has intellect (ST I q.14; Lean parameter `HasIntellect` of `GodHasIntellect`)",
+  "definition": "`HasIntellect g`: g knows, in the sense of ST I q.14 a.1, where immateriality is the reason why a thing knows. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect",
+  "note": "Stage 2 group 3 (#201) gives it content for God through ST I q.14 a.1: what is altogether immaterial has intellect."
+}

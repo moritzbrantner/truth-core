@@ -1,0 +1,12 @@
+{
+  "id": "DEF-SUPREMELY-GOOD",
+  "term": "supremely good (summum bonum; Lean `IsSupremelyGood`)",
+  "definition": "`IsSupremelyGood`: g is good in respect of being (ST I q.5 a.1, goodness is actuality) and causes every perfection of every other being (ST I q.6 a.2, all desired perfections flow from it as from their first cause).",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q5-A1-GOOD-SAME-AS-BEING",
+    "AQUINAS-ST-I-Q6-A2-PERFECTIONS-FLOW-FROM-FIRST-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.IsSupremelyGood",
+  "note": "Combines q.5 a.1 and q.6 a.2 into one predicate; neither article states the conjunction as a definition. Goodness in respect of being is DEF-GOOD-AS-BEING-IN-ACT; causing every perfection is DEF-CAUSE-OF-PERFECTION."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-IMMUTABLE",
+  "term": "immutable (ST I q.9; Lean parameter `Immutable` of `GodIsImmutable`)",
+  "definition": "`Immutable g`: g is altogether immutable in the sense of ST I q.9 a.1: in potency in no respect, so without any capacity for change, not merely not changing now. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable",
+  "note": "Stage 2 group 2 (#199) fixes the reading in Lean as `IsImmutable` (in potency in no respect, ST I q.9 a.1)."
+}

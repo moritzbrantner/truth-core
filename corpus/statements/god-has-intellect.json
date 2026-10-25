@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-HAS-INTELLECT", "paraphrase": "Open premise: God is has intellect (ST I q.14); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"}
+{"id": "STMT-GOD-HAS-INTELLECT", "paraphrase": "Open premise: God has intellect (ST I q.14); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect", "definition_ids": ["DEF-HAS-INTELLECT", "DEF-GOD-OF-CLASSICAL-THEISM"]}

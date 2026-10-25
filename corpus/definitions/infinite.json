@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INFINITE",
+  "term": "infinite (ST I q.7; Lean parameter `Infinite` of `GodIsInfinite`)",
+  "definition": "`Infinite g`: g is infinite in the sense of ST I q.7 a.1: its act of being is not limited by being received in anything. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite",
+  "note": "Stage 2 group 2 (#199) gives it content for God through ST I q.7 a.1: what is its own subsistent being, not received in anything, is infinite."
+}

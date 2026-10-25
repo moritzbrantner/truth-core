@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-IMMUTABLE", "paraphrase": "Open premise: God is immutable (ST I q.9); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable"}
+{"id": "STMT-GOD-IS-IMMUTABLE", "paraphrase": "Open premise: God is immutable (ST I q.9); the attribute's content is fixed when its group is derived.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable", "definition_ids": ["DEF-IMMUTABLE", "DEF-GOD-OF-CLASSICAL-THEISM"]}

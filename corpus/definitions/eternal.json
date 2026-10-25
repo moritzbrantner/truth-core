@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ETERNAL",
+  "term": "eternal (ST I q.10; Lean parameter `Eternal` of `GodIsEternal`)",
+  "definition": "`Eternal g`: g is eternal in the sense of ST I q.10: without beginning, end or succession, as eternity follows immutability the way time follows motion. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal",
+  "note": "Stage 2 group 2 (#199) gives it content for God through ST I q.10 a.2: what is altogether immutable is eternal."
+}

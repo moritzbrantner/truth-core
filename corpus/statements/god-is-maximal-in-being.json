@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-MAXIMAL-IN-BEING", "paraphrase": "Open premise: whatever is God is maximal in being (the converse of the nominal definition, read as a definite description).", "lean_declaration": "TruthCore.Case.Catholicism.GodIsMaximalInBeing"}
+{"id": "STMT-GOD-IS-MAXIMAL-IN-BEING", "paraphrase": "Open premise: whatever is God is maximal in being (the converse of the nominal definition, read as a definite description).", "lean_declaration": "TruthCore.Case.Catholicism.GodIsMaximalInBeing", "definition_ids": ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-ESSE"]}
