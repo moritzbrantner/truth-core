@@ -34,10 +34,15 @@ function leanFiles(directory: string): string[] {
     .sort();
 }
 
-/** Lines of the declaration starting at `start`, up to the next column-0 line. */
+/** Lines of the declaration, up to the next line at its indentation or less. */
 function blockFrom(lines: string[], start: number) {
+  const indentation = lines[start].length - lines[start].trimStart().length;
   let end = start + 1;
-  while (end < lines.length && !/^\S/.test(lines[end])) end += 1;
+  while (end < lines.length) {
+    const line = lines[end];
+    if (line.trim() && line.length - line.trimStart().length <= indentation) break;
+    end += 1;
+  }
   while (end > start + 1 && !lines[end - 1].trim()) end -= 1;
   return lines.slice(start, end);
 }
@@ -45,14 +50,14 @@ function blockFrom(lines: string[], start: number) {
 /** The `/-- … -/` doc comment that ends directly above line `start`, if any. */
 function docCommentAbove(lines: string[], start: number) {
   let end = start - 1;
-  while (end >= 0 && lines[end].startsWith("@[")) end -= 1;
+  while (end >= 0 && lines[end].trimStart().startsWith("@[")) end -= 1;
   if (end < 0 || !lines[end].trimEnd().endsWith("-/")) return [];
   let begin = end;
   while (begin >= 0 && !lines[begin].trimStart().startsWith("/--")) {
     if (begin < end && lines[begin].includes("-/")) return [];
     begin -= 1;
   }
-  return begin >= 0 ? lines.slice(begin, end + 1) : [];
+  return begin >= 0 ? lines.slice(begin, start) : [];
 }
 
 export function indexLeanSource(relativeFile: string, text: string): LeanLocation[] {
@@ -68,17 +73,18 @@ export function indexLeanSource(relativeFile: string, text: string): LeanLocatio
     inBlockComment = Math.max(0, inBlockComment + opens - closes);
     if (wasInComment) return;
 
-    const namespace = /^namespace\s+(\S+)/.exec(line);
+    const header = line.trimStart();
+    const namespace = /^namespace\s+(\S+)/.exec(header);
     if (namespace) {
       namespaces.push(namespace[1]);
       return;
     }
-    const end = /^end\s+(\S+)/.exec(line);
+    const end = /^end\s+(\S+)/.exec(header);
     if (end && namespaces.at(-1) === end[1]) {
       namespaces.pop();
       return;
     }
-    const declaration = DECLARATION.exec(line);
+    const declaration = DECLARATION.exec(header);
     if (!declaration) return;
     const local = declaration[1];
     const name = local.startsWith("_root_.")
