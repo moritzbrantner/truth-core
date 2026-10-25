@@ -1,0 +1,30 @@
+{
+  "id": "HUME-INDUCTION-SELF-APPLICATION",
+  "premise_statement_ids": [
+    "STMT-HUME-INDUCTION-CERTIFIES-HABIT"
+  ],
+  "conclusion_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "inference_ids": [
+    "INF-HUME-INDUCTION-SELF-APPLICATION"
+  ],
+  "meaning": "Conditional self-application critique: positive certification of habit excludes blanket withholding. This is a transcription of the incompatible-verdict test; the certification is an open premise, not attributed to Hume.",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-MEANS-ENDS",
+    "DEF-HUME-INDUCTION-ANCHOR",
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-TRIAL",
+    "DEF-HUME-INDUCTION-ADMISSIBILITY",
+    "DEF-HUME-INDUCTION-COVERAGE",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

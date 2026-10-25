@@ -1,0 +1,12 @@
+{
+  "id": "INF-HUME-INDUCTION-PRACTICE",
+  "input_statement_ids": [
+    "STMT-HUME-INDUCTION-RELIANCE-BRIDGE",
+    "STMT-HUME-INDUCTION-SOME-RELIANCE"
+  ],
+  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "rule": "direct-proof",
+  "meaning": "Conditional practical critique: a normative entitlement bridge plus practical reliance excludes blanket withholding. Logical transcription; the normative bridge is open, so this is not a historical refutation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

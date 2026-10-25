@@ -1,0 +1,11 @@
+{
+  "id": "INF-HUME-INDUCTION-SELF-APPLICATION",
+  "input_statement_ids": [
+    "STMT-HUME-INDUCTION-CERTIFIES-HABIT"
+  ],
+  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "rule": "direct-proof",
+  "meaning": "Conditional self-application critique: positive certification of habit excludes blanket withholding. This is a transcription of the incompatible-verdict test; the certification is an open premise, not attributed to Hume.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

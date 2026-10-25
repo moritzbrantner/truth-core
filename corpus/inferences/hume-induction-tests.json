@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-INDUCTION-TESTS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-INDUCTION-TESTS",
+  "rule": "direct-proof",
+  "meaning": "Direct construction of finite counterhistories, no-confusion for typed epistemic verdicts and shared answer-map coverage. The conditional bridge-conflict subtests are logical transcriptions, while the countermodels establish substantive non-entailments; no source assertion or real-world reliability is proved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

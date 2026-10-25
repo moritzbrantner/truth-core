@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-STRONG-SKEPTIC",
+  "paraphrase": "Open stronger reconstruction: every topic, including the persistence of habit, is denied epistemic entitlement. This is not attributed to Hume.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.StrongSkeptic",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

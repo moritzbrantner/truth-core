@@ -1,0 +1,16 @@
+{
+  "id": "HUME-TREATISE-I-3-6-EXTENSION-A",
+  "statement_id": "STMT-HUME-INDUCTION-UNPROVED-EXTENSION",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.6, §11 (SBN 91–92)",
+  "interpretation": "This records the epistemic limitation without identifying it with either nonexistent powers or the falsity of the uniformity presumption. §§8–10 concede a power for the argument and still challenge its persistence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-PERSISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

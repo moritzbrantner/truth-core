@@ -1,0 +1,10 @@
+{
+  "id": "DEF-HUME-INDUCTION-ASSOCIATION",
+  "term": "general associative relations and infallibility",
+  "definition": "AssociationNotInfallible denies that every occasion marked by a general associative relation produces a transition. The source relations are resemblance, contiguity and causation; the associated and transitions predicates make their occasions and psychological effects explicit interpretation parameters. This broad claim does not deny the qualified repeated-conjunction-plus-present-trigger consequence in CustomAccount.",
+  "basis": "sourced",
+  "claim_ids": [
+    "HUME-TREATISE-I-3-6-ASSOCIATION-A"
+  ],
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.AssociationNotInfallible"
+}

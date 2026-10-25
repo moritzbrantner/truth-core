@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-THEOLOGY-WITHHELD",
+  "paraphrase": "Open critic reconstruction: the selected theological inference is explicitly denied entitlement. No attribution that Hume accepts an uncaused cosmos is made.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.TheologyWithheld",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-STANDARD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

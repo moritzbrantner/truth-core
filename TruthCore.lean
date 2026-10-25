@@ -139,6 +139,7 @@ import TruthCore.Modal.Kripke
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modern.Hume.Conceivability
+import TruthCore.Modern.Hume.Induction
 import TruthCore.Modern.Hume.Regularity
 import TruthCore.Modern.Hume.RegularityModels
 import TruthCore.Refutations.Emotivism
@@ -387,6 +388,7 @@ import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
+import TruthCore.Results.Modern.Hume.Induction.Solution
 import TruthCore.Results.Modern.Hume.Regularity.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
