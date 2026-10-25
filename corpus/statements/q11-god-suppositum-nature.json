@@ -1,0 +1,19 @@
+{
+  "id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+  "paraphrase": "For every proper instance of IsGod, its represented suppositum equals its nature (essenceOf).",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading",
+  "definition_ids": [
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q11-COMMON-DIVINE-NATURE",
+  "term": "the shared divine nature in the God/this God contrast",
+  "definition": "The existing essenceOf map is used in the Thomistic nature/quiddity sense. The Principle parameter deity represents the divine nature considered in q.11 a.3’s first proof. ProperGodInstancesHaveCommonNatureReading explicitly says that every original IsGod instance has essenceOf g = deity. This is a qualified shared-nature reading of the hypothetical plurality, not a definitional membership test for IsGod, a genus, or the conclusion of numerical uniqueness. Equality here is equality of represented nature values, not merely two beings falling under the same word or predicate. Mere univocal use of God does not establish this premise; accepting the shared-nature reading remains a substantive interpretive commitment.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q11-A3-GOD-THIS-GOD-NATURE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
+  "argument_id": "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.withoutIndividuation",
+  "comparator_config": "results/Q11-UNIQUENESS-WITHOUT-INDIVIDUATION/comparator.json",
+  "status": "solution-present",
+  "description": "Concrete Bool countermodel to local entailment with one Q11 principle omitted. Every other advertised Q11 premise holds for two distinct IsGod instances, while GodIsOne fails. This tests necessity only for this local argument; it is not a source-faithful theology, a model of the full root premises, or a refutation of the omitted claim."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "STMT-Q11-UNIQUENESS-FAILS-WITHOUT-INDIVIDUATION",
+  "paraphrase": "A finite local model satisfies suppositum/nature identity and common divine nature for two distinct God instances while GodIsOne fails, when the individuating-basis premise is omitted.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UniquenessFailsWithoutIndividuation",
+  "definition_ids": [
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A3-INDIVIDUATING-BASIS-A",
+  "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.3 co., first proof: illud unde aliquod singulare est hoc aliquid, nullo modo est multis communicabile",
+  "interpretation": "The passage distinguishes being a human from being this human. The latter individuating basis cannot belong to more than one individual. Represent that basis by suppositumOf and isolate its injectivity as an open premise. This does not define the map as injective or assert that a shared species nature individuates.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}
