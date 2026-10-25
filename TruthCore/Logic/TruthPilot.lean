@@ -62,7 +62,8 @@ or endorsement-relative truth follows just from this epistemic condition. -/
 def LimitedKnowledge (Knows : Agent → Sentence → Prop) : Prop :=
   ∃ a s, ¬ Knows a s
 
-/-- A reproducible witness: no profiles, agents or truth predicate occur. -/
+/-- A profile interpretation can keep the logical sentence true under every
+endorsement profile while the taste sentence changes truth between profiles. -/
 def LogicalTruthsCompatibleWithVariation : Prop :=
   ∃ Holds : Interpretation, LogicalSentenceStable Holds ∧ LocalProfileVariation Holds
 
