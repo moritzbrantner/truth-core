@@ -284,8 +284,10 @@ likely not be suited to do much explanatory work of the sort that robust
 propositions, properties, and so on are suited for."
 
 `SuitedToExplainTalk φ` says that the truth conditions of `φ` are suited to
-explain our thought and talk with `φ`. That they actually explain it is not
-part of this reading; that stronger bridge is the separate, unattributed open
+explain our thought and talk with `φ`. Only the positive direction for robust
+truth conditions is formalized; the hedged remark that minimal ones will
+"likely" not do "much" such work is not. That robust truth conditions actually
+explain it is not part of this reading either; that stronger bridge is the separate, unattributed open
 premise `TruthCore.Refutations.QuasiRealism.RobustMoralTruthIsExplanatory`
 (Codex P1 on #230). The entry reports the proposal conditionally ("If this can
 be defended"): the reading records the proposal, not its defense.

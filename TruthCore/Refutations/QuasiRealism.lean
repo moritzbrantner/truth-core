@@ -69,9 +69,11 @@ def QuasiRealistRobustTruthAnswerDeviates {Sentence : Sort u}
 /-- The explanatory bridge: if a moral sentence is robustly truth-apt, its truth
 conditions actually explain our thought and talk with it (`TruthExplainsTalk`).
 
-Not attributed to the SEP entry. The entry reports only that robust, unlike
-minimal, propositions and properties are *suited* to explanatory work
-(`RobustMoralTruthSuitedToExplainReading`, Dreier). Something can be suited to
+Not attributed to the SEP entry. The entry reports only that robust
+propositions and properties are *suited* to explanatory work, and that minimal
+ones "will likely not be suited to do much" of it
+(`RobustMoralTruthSuitedToExplainReading`, Dreier; the hedged remark about
+minimal ones is not formalized). Something can be suited to
 explaining without explaining, and the anti-realist argument needs actual
 explanation, so this stronger premise is an open premise of the project
 (Codex P1 on #230), not a source reading. -/
