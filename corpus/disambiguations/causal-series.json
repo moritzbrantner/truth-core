@@ -3,7 +3,8 @@
   "term": "series of causes",
   "sense_definition_ids": [
     "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-PER-ACCIDENS-ORDERED-SERIES"
+    "DEF-PER-ACCIDENS-ORDERED-SERIES",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
   ],
-  "resolution": "The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul)."
+  "resolution": "The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise."
 }
