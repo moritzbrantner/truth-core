@@ -1,0 +1,20 @@
+{
+  "id": "SCOTT-GOD-LIKE-UNIQUE",
+  "premise_statement_ids": [
+    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SCOTT-GOD-LIKE-UNIQUE",
+  "inference_ids": [
+    "INF-SCOTT-FLAWLESSNESS",
+    "INF-SCOTT-MONOTHEISM"
+  ],
+  "meaning": "AFP GoedelGod.thy, Monotheism, as a secondary consequence: from A1b and excluded middle alone, any two God-like beings at a world are Leibniz-equal there (DEF-LEIBNIZ-EQUALITY-SCOTT), through Flawlessness. Indiscernibility at a world, not identity of individuals, and not that a God-like being exists. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

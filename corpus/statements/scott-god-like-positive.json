@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SCOTT-GOD-LIKE-POSITIVE",
+  "paraphrase": "Scott's axiom A3 (AFP GoedelGod.thy): at every world, the property of being God-like (having every positive property) is positive.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikePositive",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

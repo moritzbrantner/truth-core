@@ -1,0 +1,8 @@
+{
+  "id": "STMT-ACCESSIBILITY-SYMMETRIC",
+  "paraphrase": "Frame condition B: the accessibility relation of the Kripke frame is symmetric (if w accesses v, v accesses w). Reflexivity is not part of it.",
+  "lean_declaration": "TruthCore.Modal.Symmetric",
+  "definition_ids": [
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

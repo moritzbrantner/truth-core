@@ -1,0 +1,15 @@
+{
+  "id": "AFP-GOEDELGOD-FLAWLESSNESS-A",
+  "statement_id": "STMT-SCOTT-GOD-LIKE-FLAWLESS",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, Flawlessness: \"[∀(λΦ. ∀(λx. (G x m→ (m¬ (P Φ) m→ m¬ (Φ x)))))]\"",
+  "interpretation": "Theorem Flawlessness, in the theory's section 'Additional Results on Gödel's God' ('(s)he does not have non-positive properties'), proved there by (metis A1b G_def). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

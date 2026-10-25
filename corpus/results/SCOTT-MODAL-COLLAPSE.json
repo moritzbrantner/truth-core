@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-MODAL-COLLAPSE",
+  "argument_id": "SCOTT-MODAL-COLLAPSE",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.modalCollapse",
+  "comparator_config": "results/SCOTT-MODAL-COLLAPSE/comparator.json",
+  "status": "solution-present"
+}

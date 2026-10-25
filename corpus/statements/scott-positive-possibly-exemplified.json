@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED",
+  "paraphrase": "Scott's theorem T1 (AFP GoedelGod.thy): at every world, a positive property is possibly exemplified (some accessible world has an individual with it).",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.PositivePossiblyExemplified",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

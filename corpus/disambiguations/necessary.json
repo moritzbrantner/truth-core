@@ -4,7 +4,9 @@
   "sense_definition_ids": [
     "DEF-NECESSARY-BEING",
     "DEF-NECESSARY-PER-SE",
-    "DEF-LOGICAL-NECESSITY"
+    "DEF-LOGICAL-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
   ],
-  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily."
+  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily. Scott's variant (#134) uses two further senses. 'Necessarily' there is the Kripke box of the QML KB embedding (DEF-QML-KB-NECESSITY), said of propositions relative to an accessibility relation. 'Necessary existence' (DEF-NECESSARY-EXISTENCE-SCOTT) is a property of individuals defined from essences and that box. Neither is the tertia via's necessary being, and no statement relates them to it."
 }

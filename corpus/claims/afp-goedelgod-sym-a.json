@@ -1,0 +1,11 @@
+{
+  "id": "AFP-GOEDELGOD-SYM-A",
+  "statement_id": "STMT-ACCESSIBILITY-SYMMETRIC",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, sym: \"x r y ⟶ y r x\"",
+  "interpretation": "The theory's axiom sym, 'The B axiom (symmetry) for relation r', which it says is needed only for T3 and C2. The free variables are read as universally closed, as Isabelle does. The theory adds no reflexivity (T) axiom, and remarks that C2 follows without it. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-QML-KB-NECESSITY"
+  ]
+}

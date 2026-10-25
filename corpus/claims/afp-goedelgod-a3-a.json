@@ -1,0 +1,15 @@
+{
+  "id": "AFP-GOEDELGOD-A3-A",
+  "statement_id": "STMT-SCOTT-GOD-LIKE-POSITIVE",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, A3: \"[P G]\"",
+  "interpretation": "Axiom A3 as stated in the theory ('The property of being God-like is positive'), with G the theory's definition G = (λx. ∀(λΦ. P Φ m→ Φ x)), stated just before A3. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

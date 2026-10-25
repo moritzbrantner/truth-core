@@ -1,0 +1,29 @@
+{
+  "id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "premise_statement_ids": [
+    "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+    "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+    "STMT-SCOTT-GOD-LIKE-POSITIVE",
+    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+    "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-ACCESSIBILITY-SYMMETRIC",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "inference_ids": [
+    "INF-SCOTT-T1",
+    "INF-SCOTT-C",
+    "INF-SCOTT-T2",
+    "INF-SCOTT-T3"
+  ],
+  "meaning": "Scott's variant of Gödel's ontological argument as formalized in the AFP theory GoedelGod.thy: from A1a, A1b, A2, A3, A4, A5, the symmetric frame (KB) and excluded middle for the classical host logic, necessarily a God-like being exists (T3), through T1, C and T2. Each Isabelle axiom used by the AFP proofs is a separate premise. The Comparator config also verifies premisesJointlySatisfiable: the modal premises hold together in a one-world, one-individual model. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-SCOTT-MC",
+  "input_statement_ids": [
+    "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
+    "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+    "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS"
+  ],
+  "output_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "rule": "universal-instantiation",
+  "meaning": "Let φ hold at w and v be accessible from w. A God-like x exists at w (C2). Being God-like is an essence of x at w (T2), and x has at w the property λ_. φ, so at v every God-like being has it, that is, φ holds at v if a God-like being exists at v; one does (T3). Uses the embedding's full comprehension: λ_. φ is a property.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

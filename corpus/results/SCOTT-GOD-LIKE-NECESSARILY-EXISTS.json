@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "argument_id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.godLikeNecessarilyExists",
+  "comparator_config": "results/SCOTT-GOD-LIKE-NECESSARILY-EXISTS/comparator.json",
+  "status": "solution-present"
+}

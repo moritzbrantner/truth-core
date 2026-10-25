@@ -1,0 +1,12 @@
+{
+  "id": "DEF-POSITIVE-PROPERTY-SCOTT",
+  "term": "positive (Gödel's 'Positive', the AFP constant P)",
+  "definition": "`Positivity`: an undeclared constant P that says, at each world, which properties (functions from individuals to modal propositions) are positive there. The theory gives it no definition: 'The meaning of P is restricted by axioms' A1a, A1b and A2, and further by A3, A4 and A5. Not Aquinas's perfection; no statement identifies the two.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-GOEDELGOD-A1A-A",
+    "AFP-GOEDELGOD-A1B-A",
+    "AFP-GOEDELGOD-A2-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "INF-SCOTT-T3",
+  "input_statement_ids": [
+    "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+    "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+    "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-ACCESSIBILITY-SYMMETRIC"
+  ],
+  "output_statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "rule": "universal-instantiation",
+  "meaning": "AFP T3 (metis A5 C T2 sym G_def NE_def). For any world v accessible from w: by C, some u accessible from v has a God-like x. x has necessary existence, being positive (A5), and being God-like is an essence of x (T2), so a God-like being exists at every world accessible from u. By symmetry v is accessible from u.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

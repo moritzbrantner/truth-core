@@ -1,0 +1,15 @@
+{
+  "id": "AFP-GOEDELGOD-T2-A",
+  "statement_id": "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+  "source_id": "AFP-GOEDELGOD",
+  "locator": "GoedelGod.thy, T2: \"[∀(λx. G x m→ G ess x)]\"",
+  "interpretation": "Theorem T2 as stated in the theory ('Being God-like is an essence of any God-like being'), proved there by (metis A1b A4 G_def ess_def). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-GOD-LIKE-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

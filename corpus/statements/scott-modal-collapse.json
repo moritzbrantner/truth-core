@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "paraphrase": "Modal collapse (AFP GoedelGod.thy, lemma MC): at every world, whatever proposition is true there is necessary there (true at every accessible world).",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.ModalCollapse",
+  "definition_ids": [
+    "DEF-QML-KB-NECESSITY"
+  ]
+}
