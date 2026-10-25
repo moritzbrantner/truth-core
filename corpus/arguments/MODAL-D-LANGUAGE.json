@@ -1,0 +1,27 @@
+{
+  "id": "MODAL-D-LANGUAGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-D-LANGUAGE",
+  "inference_ids": [
+    "INF-MODAL-D-LANGUAGE"
+  ],
+  "meaning": "A direct constructive mathematical test for D serial frames and explicit proposition domains, not a source claim, transcription, frontier closure or refutation of Hume. Structural induction proves formula agreement across the serial two-cycle, including box and diamond through the single opposite successor. Transport formula truth to prove restricted MC; the equality predicate refutes full MC and would contradict language agreement if expressible. Direct constructor distinctness refutes world extensionality.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-D-SERIAL",
+    "DEF-MODAL-D-OPERATORS",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-D-CYCLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

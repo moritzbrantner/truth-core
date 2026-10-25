@@ -144,6 +144,10 @@ import TruthCore.Metaethics.NaturalisticRealism
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.BResearch
 import TruthCore.Modal.Cube
+import TruthCore.Modal.DResearch.Language
+import TruthCore.Modal.DResearch.Laws
+import TruthCore.Modal.DResearch.Scopes
+import TruthCore.Modal.DResearch.Witnesses
 import TruthCore.Modal.Examples
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
@@ -433,6 +437,10 @@ import TruthCore.Results.Modal.B.LanguagePropagation.Solution
 import TruthCore.Results.Modal.B.Laws.Solution
 import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
 import TruthCore.Results.Modal.B.ScopeBoundary.Solution
+import TruthCore.Results.Modal.DResearch.Language.Solution
+import TruthCore.Results.Modal.DResearch.Laws.Solution
+import TruthCore.Results.Modal.DResearch.Scopes.Solution
+import TruthCore.Results.Modal.DResearch.Witnesses.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution

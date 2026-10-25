@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-D-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-D-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Apply the shared identity-separation or extensional-separation theorem to a successor supplied by seriality. Substitute equality to obtain self-access; conversely singleton successors preserve every true predicate. Explicit existential witnesses establish nonvacuity, and two contrary possibilities contradict successor identity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

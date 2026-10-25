@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-D-LANGUAGE",
+  "argument_id": "MODAL-D-LANGUAGE",
+  "challenge_module": "TruthCore.Results.Modal.DResearch.Language.Challenge",
+  "solution_module": "TruthCore.Results.Modal.DResearch.Language.Solution",
+  "theorem": "TruthCore.Results.Modal.DResearch.Language.checks",
+  "comparator_config": "results/MODAL-D-LANGUAGE/comparator.json",
+  "status": "solution-present"
+}
