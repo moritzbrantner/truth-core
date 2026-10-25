@@ -1,0 +1,9 @@
+{
+  "id": "HUME-CONCEPTION-MODES",
+  "argument_id": "HUME-CONCEPTION-MODES",
+  "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.checks",
+  "comparator_config": "results/HUME-CONCEPTION-MODES/comparator.json",
+  "status": "solution-present"
+}

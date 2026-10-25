@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-HUME-DESCRIPTION-CONSISTENCY",
+  "term": "described / imaginable / consistent / possible",
+  "sense_definition_ids": [
+    "DEF-HUME-VERBAL-DESCRIPTION",
+    "DEF-HUME-MODEL-SATISFIABILITY",
+    "DEF-HUME-MODAL-CONCEPTION"
+  ],
+  "resolution": "A grammatical description may denote a contradiction, model satisfiability may use an inaccessible world, and Hume’s mere-ideas refutation criterion is not either of these constructions. The possibility-defined conception makes the bridge true by stipulation. None is silently identified with the free formal C or Hume’s passage-specific imagination. In particular the collapse label does not establish imaginative adequacy or C(MC)."
+}

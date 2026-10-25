@@ -1,0 +1,16 @@
+{
+  "id": "HUME-TREATISE-I-3-3-INTUITIVE-A",
+  "statement_id": "STMT-HUME-I-3-3-INTUITIVE",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.3, §§1–2 (SBN 78–79)",
+  "interpretation": "Bounded denial of intuitive certainty under the listed account, not denial of all justification, practical reliance or causal truth. The conditional invitation to identify another infallible relation prevents treating his list as an independently proved complete logic.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-IDEA-CERTAINTY",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

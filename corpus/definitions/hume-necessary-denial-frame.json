@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-NECESSARY-DENIAL-FRAME",
+  "term": "frame conditions for conceived necessary denial",
+  "definition": "The reflexive route requires self-access at every world; the alternative route requires transitivity (wRv and vRz imply wRz) and a successor for every world accessible from the selected root. The latter is root-relative successor-seriality, not a globally assumed S5 or D frame. These are sufficient routes for the stated conflict, not a complete characterization of every frame validating it.",
+  "basis": "stipulative",
+  "note": "Issue #268 accessibility-scope comparison, not Hume attribution.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.HigherOrderLaws"
+}

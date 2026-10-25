@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-HUME-DENIAL-SCOPE",
+  "term": "conceiving denial of the bridge / conceiving necessary denial",
+  "sense_definition_ids": [
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-NECESSARY-DENIAL"
+  ],
+  "resolution": "H is world-relative StrongBridge; C(¬H), C(□¬H), H, and □H have distinct scopes. The old selfC model makes H and C(¬H) true but C(□¬H) false; the one-step model makes H, □H and C(□¬H) true but C(¬H) false. Converting the necessary-denial conception into a contradiction with □H requires stated accessibility conditions, not a scope substitution."
+}

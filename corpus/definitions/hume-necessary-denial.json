@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-NECESSARY-DENIAL",
+  "term": "necessary denial of the unrestricted bridge",
+  "definition": "NecessaryDenial F C is □¬H, where H(w) is the existing StrongBridge F C w. It is not ¬□H, ¬H, C(¬H), or a statement that Hume endorses any of these.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite analytical comparison, not a source attribution or a claim about metaphysical accessibility.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.NecessaryDenial"
+}

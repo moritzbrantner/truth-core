@@ -1,0 +1,16 @@
+{
+  "id": "HUME-TREATISE-I-3-3-IMAGINATION-A",
+  "statement_id": "STMT-HUME-I-3-3-IMAGINATION",
+  "source_id": "HUME-TREATISE",
+  "locator": "I.3.3, §3 (SBN 79–80)",
+  "interpretation": "The represented beginning-without-cause is specific to the passage. This records its imaginative separation premise, independently of the reused STMT-HUME-NARROW-IDEAS-WITHHOLDING conclusion. Neither an unrestricted bridge over world predicates nor its necessity, C(¬H), C(□¬H) or C(MC) is thereby attributed. The qualified possibility wording is assessed separately in the documentation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}

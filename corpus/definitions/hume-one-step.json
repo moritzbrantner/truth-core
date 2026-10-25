@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-ONE-STEP-MODEL",
+  "term": "one-step conception countermodel",
+  "definition": "False accesses only true; true has no successors. At false, C(P) exactly when P is true at true; nothing is conceived at true. H and □H hold at false, where C(□¬H) also holds because the witness is a dead end.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite analytical comparison, not a source attribution or a claim about metaphysical accessibility.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.oneStepConception"
+}

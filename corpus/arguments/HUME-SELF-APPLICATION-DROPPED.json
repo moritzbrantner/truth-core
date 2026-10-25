@@ -1,0 +1,23 @@
+{
+  "id": "HUME-SELF-APPLICATION-DROPPED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-SELF-APPLICATION-DROPPED",
+  "inference_ids": [
+    "INF-HUME-SELF-APPLICATION-DROPPED"
+  ],
+  "meaning": "Issue #268 analytical consequence and finite countermodels, not a refutation of the sourced narrow claim. Use explicit constructor edge tables: the middle world satisfies H by empty conception, while the last world violates H on the false predicate. Change root conception to indiscriminate conception for the missing-bridge counterexample.",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-SERIAL-CHAIN-MODEL",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

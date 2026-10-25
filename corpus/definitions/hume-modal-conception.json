@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-MODAL-CONCEPTION",
+  "term": "possibility-defined conception",
+  "definition": "ModalConception F P w is Dia F P w. The unrestricted bridge is therefore valid by definition for this conception relation; that definitional validity supplies no argument identifying imagination or grammatical description with it.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite analytical comparison, not a source attribution or a claim about metaphysical accessibility.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ModalConception"
+}

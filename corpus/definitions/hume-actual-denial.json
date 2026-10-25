@@ -1,0 +1,7 @@
+{
+  "id": "DEF-HUME-ACTUAL-DENIAL",
+  "term": "world-relative denial of the unrestricted bridge",
+  "definition": "At world v, ¬StrongBridge F C v. Denying this actual-world claim differs from Box F of that denial and from denying Box F H. No source endorsement is built in.",
+  "basis": "stipulative",
+  "note": "Issue #268 scope vocabulary for the same existing StrongBridge, without changing its meaning."
+}

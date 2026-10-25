@@ -1,0 +1,24 @@
+{
+  "id": "HUME-SELF-APPLICATION-SCOPES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-SELF-APPLICATION-SCOPES",
+  "inference_ids": [
+    "INF-HUME-SELF-APPLICATION-SCOPES"
+  ],
+  "meaning": "Issue #268 analytical consequence and finite countermodels, not a refutation of the sourced narrow claim. Project the existing selfC consistency witness and self-application law; inspect necessary denial at the actual world. Construct the one-step model, where the accessible dead end has H by empty conception and □¬H vacuously.",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-ONE-STEP-MODEL",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

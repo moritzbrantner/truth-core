@@ -1,0 +1,24 @@
+{
+  "id": "STMT-HUME-CONCEPTION-MODES",
+  "paraphrase": "Possibility-defined conception satisfies H by definition. Satisfiability somewhere does not imply root-accessible possibility on identity Bool accessibility. The grammatical language can describe a contradiction and can label collapse without licensing imaginative conception. The old bounded mere-ideas-withholding interface is compatible with both an empty conception satisfying H and indiscriminate conception violating H; this is an interface compatibility test, not a model of Hume’s complete epistemology.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ConceptionModeChecks",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-VERBAL-DESCRIPTION",
+    "DEF-HUME-MODEL-SATISFIABILITY",
+    "DEF-HUME-MODAL-CONCEPTION",
+    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+    "DEF-HUME-TEST-IMAGINATION",
+    "DEF-HUME-TEST-COLLAPSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE",
+    "DISAMB-HUME-DESCRIPTION-CONSISTENCY"
+  ]
+}

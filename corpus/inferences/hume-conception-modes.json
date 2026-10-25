@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-CONCEPTION-MODES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-CONCEPTION-MODES",
+  "rule": "direct-proof",
+  "meaning": "Use direct denotation of a conjunction and its negation, an inaccessible satisfying Bool world, identity of possibility-defined conception with Dia, and project the previously checked narrow-withholding and indiscriminate witnesses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
