@@ -102,9 +102,47 @@ describe("corpus graph views", () => {
     expect(view.nodes.some((node) => node.kind === "inference")).toBe(true);
   });
 
-  test("the collapsed full graph stays small", () => {
-    const view = computeGraphView(corpusGraph, state({ view: "all" }), index);
-    expect(view.nodes.length).toBeLessThan(200);
-    expect(view.statementCount).toBe(corpusGraph.statements.length);
+  test("growing two collapsed groups keeps two nodes and summarizes their inference", () => {
+    const statement = graph.statements[0];
+    const inference = graph.inferences[0];
+    if (!statement || !inference) throw new Error("The graph fixture needs a statement and inference");
+    const grown = {
+      ...graph,
+      statements: Array.from({ length: 2000 }, (_, i) => ({
+        ...statement,
+        id: `GROW-${i}`,
+        clusters: { ...statement.clusters, passage: i < 1000 ? "GROW-A" : "GROW-B" },
+      })),
+      inferences: [{ ...inference, id: "GROW-I", inputs: ["GROW-0"], assumptions: [], output: "GROW-1999" }],
+      relations: [],
+    };
+    const view = computeGraphView(grown, state({ view: "all" }));
+    expect(view.nodes.map((node) => node.kind)).toEqual(["cluster", "cluster"]);
+    expect(view.nodes.filter((node) => node.kind === "cluster").map((node) => [node.key, node.size]))
+      .toEqual([["GROW-A", 1000], ["GROW-B", 1000]]);
+    expect(view.statementCount).toBe(2000);
+    expect(view.edges.map((edge) => [edge.source, edge.target, edge.kind, edge.label]))
+      .toEqual([["cluster:GROW-A", "cluster:GROW-B", "cluster", "1 step"]]);
+  });
+
+  test("the collapsed full graph scales with groups and retains every statement", () => {
+    for (const cluster of ["passage", "source", "namespace"] as const) {
+      const view = computeGraphView(corpusGraph, state({ view: "all", cluster }), index);
+      const groupSizes = new Map<string, number>();
+      for (const statement of corpusGraph.statements) {
+        const key = statement.clusters[cluster];
+        groupSizes.set(key, (groupSizes.get(key) ?? 0) + 1);
+      }
+      const clusters = view.nodes.filter((node) => node.kind === "cluster");
+      expect(clusters.length).toBe(view.nodes.length);
+      expect(clusters.map((node) => node.key).sort()).toEqual([...groupSizes.keys()].sort());
+      for (const node of clusters) {
+        expect(node.size).toBe(groupSizes.get(node.key));
+      }
+      expect(clusters.reduce((sum, node) => sum + node.size, 0)).toBe(corpusGraph.statements.length);
+      expect(view.statementCount).toBe(corpusGraph.statements.length);
+      // Retain at least a fivefold reduction without freezing the number of source ranges.
+      expect(view.nodes.length * 5).toBeLessThanOrEqual(corpusGraph.statements.length);
+    }
   });
 });
