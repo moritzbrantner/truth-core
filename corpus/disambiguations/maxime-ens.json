@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-MAXIME-ENS",
+  "term": "maxime ens (the most being)",
+  "sense_definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-GREATEST-CONCEIVABLE-BEING"
+  ],
+  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts."
+}

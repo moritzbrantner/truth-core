@@ -1,1 +1,1 @@
-{"id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING", "paraphrase": "What is simply prior to a thing (in the sense of ST I q.3 a.1) is a cause of its being.", "lean_declaration": "TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing"}
+{"id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING", "paraphrase": "What is simply prior to a thing (in the sense of ST I q.3 a.1) is a cause of its being.", "lean_declaration": "TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing", "definition_ids": ["DEF-SIMPLE-PRIORITY", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"], "disambiguation_ids": ["DISAMB-CAUSE"]}

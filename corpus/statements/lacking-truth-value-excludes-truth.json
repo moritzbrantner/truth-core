@@ -1,1 +1,1 @@
-{"id": "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH", "paraphrase": "A sentence that has no truth value is not true.", "lean_declaration": "TruthCore.English.OConnor.LackingTruthValueExcludesTruthReading"}
+{"id": "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH", "paraphrase": "A sentence that has no truth value is not true.", "lean_declaration": "TruthCore.English.OConnor.LackingTruthValueExcludesTruthReading", "definition_ids": ["DEF-TRUTH-VALUE", "DEF-TRUTH-ROBUST"], "disambiguation_ids": ["DISAMB-TRUE"]}

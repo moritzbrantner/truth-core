@@ -1,1 +1,1 @@
-{"id": "STMT-CAUSE-OF-NECESSITY-IS-NECESSARY", "paraphrase": "Whatever causes the necessity of a necessary being is itself necessary.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CauseOfNecessityIsNecessaryReading"}
+{"id": "STMT-CAUSE-OF-NECESSITY-IS-NECESSARY", "paraphrase": "Whatever causes the necessity of a necessary being is itself necessary.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CauseOfNecessityIsNecessaryReading", "definition_ids": ["DEF-NECESSARY-BEING"], "disambiguation_ids": ["DISAMB-NECESSARY"]}

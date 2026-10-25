@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NECESSARY-BEING",
+  "term": "necessary (necessarium), said of a being in the tertia via",
+  "definition": "`IsNecessary`: x cannot not-be (it is not possible that x is not). Possibility is a primitive over conditions on times, not defined as realization at some time. The tertia via allows necessary beings that have a cause of their necessity from elsewhere, so 'necessary' here does not mean 'uncaused'.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-NECESSARY-PER-SE-A",
+    "AQUINAS-ST-I-Q2-A3-NECESSITY-DICHOTOMY-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
+}

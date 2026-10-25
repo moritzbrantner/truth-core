@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RESPECT",
+  "term": "respect (that in which something is moved, in act or in potency)",
+  "definition": "`Respect`: that with respect to which a thing is moved, in act or in potency, such as being hot. The quarta via reads a respect as a perfection (ST I q.4 a.1: a thing is called perfect insofar as it is in act). 'Moved in no respect' quantifies over all respects.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel",
+  "note": "A modeling parameter of the prima via reconstruction (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3.lean), kept abstract so that the formal results do not depend on what motus covers. The reading as perfection follows ST I q.4 a.1 (passage AQUINAS-ST-I-Q4-A1); no claim states it in this form yet."
+}

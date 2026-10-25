@@ -14,5 +14,11 @@
   "inference_ids": [
     "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR"
   ],
-  "meaning": "The scope step of the quinta via, through ad 2 and stage 1: one intelligent first mover moved by none directs every natural body. Composes AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED and uses the stage-1 uniqueness statement STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER. Also verified: entailsQuintaViaConclusion (it entails the literal conclusion), one countermodel for each scope premise (the two open bridges, on which ad 2 and the arrow simile only bear, and stage-1 uniqueness), and premisesJointlySatisfiable."
+  "meaning": "The scope step of the quinta via, through ad 2 and stage 1: one intelligent first mover moved by none directs every natural body. Composes AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED and uses the stage-1 uniqueness statement STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER. Also verified: entailsQuintaViaConclusion (it entails the literal conclusion), one countermodel for each scope premise (the two open bridges, on which ad 2 and the arrow simile only bear, and stage-1 uniqueness), and premisesJointlySatisfiable.",
+  "definition_ids": [
+    "DEF-INTENTIO-AS-TENDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIO"
+  ]
 }

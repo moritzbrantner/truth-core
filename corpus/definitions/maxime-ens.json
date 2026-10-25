@@ -1,0 +1,11 @@
+{
+  "id": "DEF-MAXIME-ENS",
+  "term": "maxime ens (maximal in being)",
+  "definition": "The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-GRADES-HAVE-MAXIMUM-A",
+    "AQUINAS-ST-I-Q2-A3-MOST-TRUE-MOST-BEING-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+}

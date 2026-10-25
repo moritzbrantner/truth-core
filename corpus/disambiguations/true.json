@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-TRUE",
+  "term": "true",
+  "sense_definition_ids": [
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-TRUTH-ROBUST",
+    "DEF-TRUTH-MINIMAL"
+  ],
+  "resolution": "The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; because the result's conclusion denies truth simply, it also denies objective truth. 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate."
+}

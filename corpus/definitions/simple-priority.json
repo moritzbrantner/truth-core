@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SIMPLE-PRIORITY",
+  "term": "simply prior (prior simpliciter)",
+  "definition": "`PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A1-ACT-SIMPLY-PRIOR-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
+}

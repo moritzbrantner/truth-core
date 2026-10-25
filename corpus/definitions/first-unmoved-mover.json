@@ -1,0 +1,10 @@
+{
+  "id": "DEF-FIRST-UNMOVED-MOVER",
+  "term": "first mover moved by none (primum movens quod a nullo movetur)",
+  "definition": "`IsFirstUnmovedMover f`: f moves something and is itself moved in no respect. 'A nullo movetur' is read as 'moved in no respect', not 'not moved by anything else'. The definition does not make f God, unique, or pure act; those are separate statements.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-A"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.IsFirstUnmovedMover"
+}

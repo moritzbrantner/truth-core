@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArgumentFlow } from "@/components/argument-flow";
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { StatementLink } from "@/components/statement-link";
+import { TermsSection } from "@/components/terms-section";
 import { claimsForResult, comparatorForResult, findResult, findStatement, getCorpus } from "@/lib/corpus";
 import { theoremInModule } from "@/lib/lean-source";
 import { getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
@@ -128,6 +129,19 @@ export default async function ResultPage({ params }: ResultPageProps) {
           </>
         ) : null}
       </section>
+
+      <div className="max-w-4xl">
+        <TermsSection
+          corpus={corpus}
+          records={[
+            argument,
+            ...[argument.conclusion_statement_id, ...argument.premise_statement_ids, ...(argument.commitment_statement_ids ?? [])].flatMap(
+              (id) => findStatement(corpus, id) ?? [],
+            ),
+          ]}
+          title="Terms and senses the derivation depends on"
+        />
+      </div>
 
       <section className="record-section max-w-4xl">
         <p className="eyebrow">Lean</p>

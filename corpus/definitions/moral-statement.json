@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MORAL-STATEMENT",
+  "term": "moral statement",
+  "definition": "`Moral φ`: φ is a moral statement. Every sentence that says of something that it is bad is one ('murder, boo'). Nothing else about which sentences are moral is assumed; in particular a moral sentence's content is not identified with a non-moral fact.",
+  "basis": "sourced",
+  "claim_ids": [
+    "OCONNOR-DESTINY-ETHICS-BADNESS-IS-MORAL"
+  ],
+  "lean_declaration": "TruthCore.English.OConnor.BadnessAscriptionsAreMoralReading"
+}

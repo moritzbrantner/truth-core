@@ -1,1 +1,1 @@
-{"id": "STMT-NO-OBJECTIVE-MORAL-TRUTHS", "paraphrase": "There are no objective moral truths.", "lean_declaration": "TruthCore.English.OConnor.NoObjectiveMoralTruthsReading"}
+{"id": "STMT-NO-OBJECTIVE-MORAL-TRUTHS", "paraphrase": "There are no objective moral truths.", "lean_declaration": "TruthCore.English.OConnor.NoObjectiveMoralTruthsReading", "definition_ids": ["DEF-OBJECTIVE-TRUTH", "DEF-MORAL-STATEMENT", "DEF-MORAL-SUBJECTIVISM"], "disambiguation_ids": ["DISAMB-MORAL-ANTIREALISM"]}

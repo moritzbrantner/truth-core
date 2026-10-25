@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { StatementLink } from "@/components/statement-link";
+import { TermsSection } from "@/components/terms-section";
 import {
   argumentsConcludingStatement,
   argumentsUsingStatement,
@@ -124,6 +125,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
           </p>
         ) : null}
       </section>
+
+      <TermsSection corpus={corpus} records={[statement]} />
 
       <section className="record-section">
         <p className="eyebrow">Established by</p>

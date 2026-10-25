@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MOTION-AS-REDUCTION",
+  "term": "motion (motus), moving and being moved",
+  "definition": "To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+}

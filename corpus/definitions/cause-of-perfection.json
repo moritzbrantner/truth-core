@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CAUSE-OF-PERFECTION",
+  "term": "cause of a perfection (causa)",
+  "definition": "`CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+}

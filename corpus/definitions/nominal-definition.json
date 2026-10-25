@@ -1,0 +1,9 @@
+{
+  "id": "DEF-NOMINAL-DEFINITION",
+  "term": "nominal definition (quid significet nomen)",
+  "definition": "What a name signifies, as opposed to what the thing is (quod quid est). In demonstrating from an effect that a cause exists, the middle term is what the name signifies, because the question what it is follows the question whether it is; the names of God are imposed from his effects.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A2-AD2-NAME-AS-MIDDLE-TERM-A"
+  ]
+}

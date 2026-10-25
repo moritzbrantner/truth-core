@@ -1,0 +1,12 @@
+{
+  "id": "DEF-GOD-WHAT-ALL-UNDERSTAND",
+  "term": "God (what all understand by the name, ST I q.2 a.3)",
+  "definition": "The usage reported at the end of each way: 'et hoc omnes intelligunt Deum', 'quod omnes dicunt Deum', 'hoc dicimus Deum'. It reports how the name is used of the first mover, the per se necessary being, the maximal being; it is not a demonstration of divine attributes, and no result on a root path uses it as a premise. The problem-of-evil comparison uses the prima via instance (STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD) to fix its own `God` predicate (`TruthCore.Comparison.ProblemOfEvil.Sig`).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-UNDERSTOOD-AS-GOD-A",
+    "AQUINAS-ST-I-Q2-A3-TERTIA-VIA-OMNES-DICUNT-DEUM-A",
+    "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsWhatAllUnderstandAsGodReading"
+}

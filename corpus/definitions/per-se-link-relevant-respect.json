@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PER-SE-LINK-RELEVANT-RESPECT",
+  "term": "moves only as moved in the relevant respect (weak reading of the per se link)",
+  "definition": "A moved mover moves only insofar as it is moved in a respect that bears on its moving (the hand's being moved bears on the stick's moving the stone; a man's digesting does not). Reading B of the same sentence; it yields only a mover unmoved as mover of its series.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-B"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveAsMovedInRelevantRespectReading"
+}

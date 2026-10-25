@@ -1,0 +1,10 @@
+{
+  "id": "DEF-GOOD-AS-BEING-IN-ACT",
+  "term": "good (bonum)",
+  "definition": "Good and being are the same in reality and differ only in notion: a thing is good in a respect exactly insofar as it is in act in that perfection; good adds the notion of the desirable.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q5-A1-GOOD-SAME-AS-BEING"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
+}

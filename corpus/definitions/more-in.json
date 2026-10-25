@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MORE-IN",
+  "term": "more and less (magis et minus), the grades of a perfection",
+  "definition": "`MoreIn r x y`: x is more r than y (more good, more true, more noble, more hot). Only the comparative is primitive: nothing makes it a total order, a measure, or comparable across all things.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
+}

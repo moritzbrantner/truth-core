@@ -1,1 +1,1 @@
-{"id":"STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER","paraphrase":"There is at most one first mover moved by none.","lean_declaration":"TruthCore.Case.Catholicism.AtMostOneFirstUnmovedMover"}
+{"id":"STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER","paraphrase":"There is at most one first mover moved by none.","lean_declaration":"TruthCore.Case.Catholicism.AtMostOneFirstUnmovedMover","definition_ids":["DEF-FIRST-UNMOVED-MOVER"]}

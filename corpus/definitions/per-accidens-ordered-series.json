@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PER-ACCIDENS-ORDERED-SERIES",
+  "term": "per accidens (accidentally) ordered series of causes",
+  "definition": "A multiplication of causes in which each causes in its own right and its having been caused by the one before is accidental to its causing: a craftsman uses many hammers one after another as each breaks; a man generates as man, not as son of his father. An infinite series of this kind is not impossible (ST I q.46 a.2 ad 7). Not formalized: no premise on a root path is about such series.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q46-A2-AD7-PER-SE-REGRESS-A",
+    "AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-A"
+  ]
+}

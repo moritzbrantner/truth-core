@@ -1,0 +1,10 @@
+{
+  "id": "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION",
+  "term": "being (ens), as the truth of a proposition",
+  "definition": "Being in the sense that answers the question 'is it?' (an est): the truth of a proposition, which consists in composition and is signified by the verb 'is'. In this sense blindness 'is' in the eye and evil 'is', although neither is a being as the entity of a thing. In Lean this is the truth (`Holds`) of a `Sentence`, a type distinct from `Being`.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q48-A2-AD2-EVIL-AS-PROPOSITIONAL-TRUTH"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsAsPropositionalTruthReading"
+}

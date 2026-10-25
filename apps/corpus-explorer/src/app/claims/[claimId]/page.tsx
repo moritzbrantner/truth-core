@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { StatusMark } from "@/components/status-mark";
+import { TermsSection } from "@/components/terms-section";
 import {
   alternativeClaims,
   findClaim,
@@ -33,6 +34,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
   const passage = claim.passage;
   const results = resultsForClaim(corpus, claim.id);
   const alternatives = alternativeClaims(corpus, claim);
+  const sourcedDefinitions = corpus.definitions.filter((definition) => definition.claim_ids?.includes(claim.id));
 
   return (
     <article className="max-w-4xl">
@@ -215,6 +217,23 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
           consulted; it does not make this interpretation mechanically true.
         </p>
       </section>
+
+      <TermsSection corpus={corpus} records={[claim, claim.statement]} />
+
+      {sourcedDefinitions.length ? (
+        <section className="record-section">
+          <p className="eyebrow">Definitions this reading sources</p>
+          <ul className="mt-3 grid gap-2">
+            {sourcedDefinitions.map((definition) => (
+              <li key={definition.id}>
+                <Link className="link-quiet font-serif text-lg" href={`/definitions/${definition.id}`}>
+                  {definition.term}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {alternatives.length ? (
         <section className="record-section">

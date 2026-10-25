@@ -1,0 +1,10 @@
+{
+  "id": "DEF-IN-ACT-FORMALLY",
+  "term": "in act formally (univocally)",
+  "definition": "A cause is in act formally in a perfection when it has that perfection in the same form in which it produces it, as fire that is hot makes the wood hot.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A",
+    "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A"
+  ]
+}

@@ -1,1 +1,1 @@
-{"id":"STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT","paraphrase":"Either there is a first mover moved by none or there is none (excluded middle for this proposition).","lean_declaration":"TruthCore.Case.Catholicism.FirstUnmovedMoverExistsOrNot"}
+{"id":"STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT","paraphrase":"Either there is a first mover moved by none or there is none (excluded middle for this proposition).","lean_declaration":"TruthCore.Case.Catholicism.FirstUnmovedMoverExistsOrNot","definition_ids":["DEF-FIRST-UNMOVED-MOVER"]}

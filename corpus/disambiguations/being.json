@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BEING",
+  "term": "being (ens)",
+  "sense_definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION"
+  ],
+  "resolution": "Aquinas draws this distinction himself (ST I q.48 a.2 ad 2). Stage 1 uses only being as the entity of a thing: the domain `Being`, the respect `esse` (DEF-ESSE) and 'maximal in being'. Being as the truth of a proposition appears only in STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH, where 'there is evil' is the truth (`Holds`) of a sentence. Sentences and beings are different Lean types, so no result can pass from 'evil is' to 'evil is a being' or count a privation as in act with respect to esse. What the definitions do not settle is whether being admits of more and less (`MoreIn esse`) across categories; that is carried by the premises that use the primitive comparative (STMT-GRADES-HAVE-A-MAXIMUM, STMT-MOST-TRUE-IS-MOST-BEING), not by the word. Aristotle's many senses of being (STMT-BEING-HAS-SEVERAL-SENSES) are senses of being as entity."
+}

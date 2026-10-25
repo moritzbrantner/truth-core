@@ -1,0 +1,10 @@
+{
+  "id": "DEF-EMOTIVISM",
+  "term": "emotivism (O'Connor's ethical emotivism)",
+  "definition": "O'Connor's own metaethics (2023): moral statements are expressions of emotion ('murder, boo'), with a prescriptive element ('don't murder'), and have no truth value at all; he calls it a form of ethical non-cognitivism. Only the denial of truth value is formalized (`MoralStatementsLackTruthValueReading`).",
+  "basis": "sourced",
+  "claim_ids": [
+    "OCONNOR-DESTINY-ETHICS-EMOTIVISM"
+  ],
+  "lean_declaration": "TruthCore.English.OConnor.MoralStatementsLackTruthValueReading"
+}
