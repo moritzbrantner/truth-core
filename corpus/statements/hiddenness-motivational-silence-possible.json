@@ -1,0 +1,14 @@
+{
+  "id": "STMT-HIDDENNESS-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "paraphrase": "Rea proposes that hiddenness may foster a freely given and non-self-interested response to God; his motivational concern is not exhausted by literal coercion.",
+  "definition_ids": [
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-ACCEPTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "REA-SILENCE-PERSONALITY-SILENCE-POSSIBLE",
+  "statement_id": "STMT-HIDDENNESS-PERSONALITY-SILENCE-POSSIBLE",
+  "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+  "locator": "Divine Hiddenness, Divine Silence, pp. 271–272, The Personality of God?; p. 274 concluding conditions",
+  "interpretation": "The source’s conditional proposal is preserved. Transcendence cautions against interpreting silence as human indifference; it is not a license to infer a sufficient reason for every actual gap. Rea explicitly says absence of any way of finding God would indicate lack of concern.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-RELATIONSHIP"
+  ]
+}

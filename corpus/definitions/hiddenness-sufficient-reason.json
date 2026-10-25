@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-SUFFICIENT-REASON",
+  "term": "sufficient love-compatible reason for delaying access",
+  "definition": "GoodReason w p t is interpreted as a genuinely sufficient reason compatible with perfect love for delaying immediate conscious access here. A suggested benefit, unknown reason or conceivable excuse does not establish this predicate. ReasonForEachGap is an explicit open application premise, not a definition of love and not inferred from the finite model.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.GoodReason"
+}

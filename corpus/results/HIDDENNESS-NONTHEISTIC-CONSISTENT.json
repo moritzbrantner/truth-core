@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "argument_id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Hiddenness.NontheisticConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.NontheisticConsistent.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.NontheisticConsistent.nontheisticConsistent",
+  "comparator_config": "results/HIDDENNESS-NONTHEISTIC-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

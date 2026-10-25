@@ -6,6 +6,7 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Comparison.ExcludedMiddle
+import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
@@ -90,6 +91,8 @@ import TruthCore.Greek.NewTestament.John
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Timaeus
+import TruthCore.Hiddenness.Models
+import TruthCore.Hiddenness.Vocabulary
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
 import TruthCore.History.ResurrectionVocabulary
@@ -337,6 +340,15 @@ import TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Solutio
 import TruthCore.Results.Comparison.Resurrection.LegendConsistent.Solution
 import TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Solution
 import TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Solution
+import TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution
+import TruthCore.Results.Hiddenness.CatholicReplyConsistent.Solution
+import TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution
+import TruthCore.Results.Hiddenness.GapHasReason.Solution
+import TruthCore.Results.Hiddenness.NoGod.Solution
+import TruthCore.Results.Hiddenness.NontheisticConsistent.Solution
+import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
+import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
+import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

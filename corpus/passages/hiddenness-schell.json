@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "source_url": "https://www.jlschellenberg.com/uploads/8/5/6/1/8561683/ajp_symposium_pr%C3%A9cis.pdf",
+    "retrieved_at": "2026-10-25T14:03:15Z",
+    "sha256": "sha256:2494deba3bd95ff25409a857152ed10400b783cc85eac5303d5da5c1b7806105",
+    "kind": "web_snapshot",
+    "source_id": "SCHELLENBERG-PRECIS-2025",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Author-hosted prepublication manuscript. Published by Springer Nature under publishing agreement; no open license stated. Only hashes, locators and short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "SCHELLENBERG-PRECIS-2025-COMPLETE",
+      "locator": "Précis (2025), manuscript pp. 1–10",
+      "claim_locator_prefixes": [
+        "Précis (2025),"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 10
+      },
+      "text_sha256": "sha256:30944fbe0e60479768e465d17baed164d364c327dfe613ab80f83977ffa32c5e",
+      "incipit": "Précis J. L. Schellenberg I am most grateful to Dr. Lok-Chi Chan for"
+    }
+  ]
+}

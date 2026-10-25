@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.gapHasDevelopmentalAccount"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

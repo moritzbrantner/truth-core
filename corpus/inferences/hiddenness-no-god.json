@@ -1,0 +1,14 @@
+{
+  "id": "INF-HIDDENNESS-NO-GOD",
+  "input_statement_ids": [
+    "STMT-HIDDENNESS-GOD-LOVES",
+    "STMT-HIDDENNESS-ALWAYS-OPEN",
+    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+  ],
+  "output_statement_id": "STMT-HIDDENNESS-NO-GOD",
+  "rule": "constructive contradiction",
+  "meaning": "Instantiate the universal love and access norms at the actual world and the empirical person/time witness. Assuming God exists supplies love and hence access; the witness lacks belief, so the belief constraint excludes that same access. Discharge the God-existence assumption. No truth of the four premises is proved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

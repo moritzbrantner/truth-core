@@ -1,0 +1,26 @@
+{
+  "id": "HIDDENNESS-PREMISES-INDEPENDENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HIDDENNESS-PREMISES-INDEPENDENT",
+  "inference_ids": [
+    "INF-HIDDENNESS-PREMISES-INDEPENDENT"
+  ],
+  "meaning": "Four finite counterexamples delete respectively the God-to-love norm, immediate openness, the belief requirement and the empirical existential. No smaller advertised premise set entails the original negative conclusion.",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

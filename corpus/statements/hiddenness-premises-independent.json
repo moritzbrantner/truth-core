@@ -1,0 +1,26 @@
+{
+  "id": "STMT-HIDDENNESS-PREMISES-INDEPENDENT",
+  "paraphrase": "For each of the four hiddenness premises there is a finite interpretation with God existing that satisfies the other three. These are logical counterexamples, not actual possible-world verdicts.",
+  "lean_declaration": "TruthCore.Hiddenness.PremisesIndependent",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE",
+    "DEF-HIDDENNESS-ACCEPTANCE",
+    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
+    "DEF-ENCODED-THEORY-CONSISTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}
