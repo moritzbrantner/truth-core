@@ -36,6 +36,28 @@ def load_dir(name: str) -> list[tuple[Path, dict[str, Any]]]:
     return records
 
 
+# Order-free lists that many PRs append to. Keeping them sorted makes
+# concurrent additions land at different lines instead of all at the end.
+# `corpus.py sort-lists` sorts them in place.
+SORTED_LIST_FIELDS: dict[str, tuple[str, ...]] = {
+    "sources": ("edition_urns",),
+}
+
+
+def unsorted_lists() -> list[tuple[Path, str, str]]:
+    """(path, field, raw text) for every record whose order-free list is not sorted."""
+    found = []
+    for directory, fields in SORTED_LIST_FIELDS.items():
+        for path in sorted((CORPUS / directory).glob("*.json")):
+            raw = path.read_text(encoding="utf-8")
+            record = json.loads(raw)
+            for field in fields:
+                value = record.get(field)
+                if isinstance(value, list) and value != sorted(value):
+                    found.append((path, field, raw))
+    return found
+
+
 def require(record: dict[str, Any], fields: Iterable[str], path: Path) -> None:
     missing = [field for field in fields if record.get(field) in (None, "", [])]
     if missing:
@@ -873,6 +895,11 @@ def validate() -> dict[str, int]:
     disambiguation_ids = set(disambiguation_index)
     used_definitions: set[str] = set()
 
+    for path, field, _ in unsorted_lists():
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: {field} must be sorted; run python3 scripts/corpus.py sort-lists"
+        )
+
     for path, source in sources:
         require(
             source,
@@ -1150,6 +1177,16 @@ def command_check(_: argparse.Namespace) -> int:
         f"{counts['candidates']} candidates, {counts['definitions']} definitions, "
         f"{counts['disambiguations']} disambiguations"
     )
+    return 0
+
+
+def command_sort_lists(_: argparse.Namespace) -> int:
+    for path, field, raw in unsorted_lists():
+        record = json.loads(raw)
+        record[field] = sorted(record[field])
+        indent = 2 if '\n  "' in raw else None
+        path.write_text(json.dumps(record, ensure_ascii=False, indent=indent) + "\n", encoding="utf-8")
+        print(f"sorted {field} in {path.relative_to(ROOT)}")
     return 0
 
 
@@ -1604,6 +1641,9 @@ def parser() -> argparse.ArgumentParser:
         func=command_check
     )
     sub.add_parser("status", help="show corpus counts").set_defaults(func=command_status)
+    sub.add_parser(
+        "sort-lists", help="sort order-free lists (SORTED_LIST_FIELDS) in place, as check requires"
+    ).set_defaults(func=command_sort_lists)
     sub.add_parser("next", help="print the highest-priority Codex work item").set_defaults(
         func=command_next
     )
