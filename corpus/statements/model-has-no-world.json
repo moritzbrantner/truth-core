@@ -1,0 +1,8 @@
+{
+  "id": "STMT-MODEL-HAS-NO-WORLD",
+  "paraphrase": "The Kripke model has no world. For axioms stated as validities (truth at every world), being satisfiable only in such a model is what their inconsistency amounts to.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NoWorld",
+  "definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ]
+}

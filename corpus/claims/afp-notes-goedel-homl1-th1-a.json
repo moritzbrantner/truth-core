@@ -1,0 +1,16 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-TH1-A",
+  "statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Th1: \"⌊G x ❙⊃ G Ess. x⌋\"",
+  "interpretation": "Theorem Th1 as stated in the theory, proved there by smt from Ax2a, Ax2b, Essence_def and God_def, with G the definition God, G x ≡ ❙∀φ. P φ ❙⊃ φ x, and the free x read as universally closed. The theory's names 'God' and 'G' are recorded as the formula about G. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-GOD-LIKE-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}

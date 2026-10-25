@@ -1,0 +1,13 @@
+{
+  "id": "INF-GOEDEL-1970-NO-DEAD-END-WORLD",
+  "input_statement_ids": [
+    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
+    "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE"
+  ],
+  "output_statement_id": "STMT-ACCESSIBILITY-NO-DEAD-END",
+  "rule": "case-analysis",
+  "meaning": "Suppose a world w accesses no world. By Ax2a the empty property or its negation is positive at w; not the empty property (step 1). At w every necessity holds vacuously, so the negation of the empty property is necessarily included in the empty property, and by Ax4 the empty property is positive at w: contradiction. Not a step of the AFP proof; it replaces the frame reasoning hidden in its smt step 5.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

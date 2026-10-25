@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "paraphrase": "In Scott's variant (AFP GoedelGod.thy, definition ess), the empty property is an essence of no individual at any world. Not a statement of the theory: it follows from the definition's conjunct that an essence is had by its bearer.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.EmptyPropertyNotEssence",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}

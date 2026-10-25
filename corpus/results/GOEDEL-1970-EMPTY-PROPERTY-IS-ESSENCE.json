@@ -1,0 +1,9 @@
+{
+  "id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "argument_id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution",
+  "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.emptyPropertyIsEssence",
+  "comparator_config": "results/GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE/comparator.json",
+  "status": "solution-present"
+}

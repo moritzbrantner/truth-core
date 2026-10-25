@@ -1,0 +1,16 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-AX4-A",
+  "statement_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Ax4: \"⌊P φ ❙∧ (φ ❙⊃⇩N ψ) ❙⊃ P ψ⌋\"",
+  "interpretation": "Axiom Ax4 as stated in the theory, with ❙⊃⇩N its abbreviation PropertyInclusion, φ ❙⊃⇩N ψ ≡ ❙□(❙∀⇧Ey. φ y ❙⊃ ψ y), whose quantifier is actualist, and the free φ, ψ read as universally closed. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTS",
+    "DISAMB-POSITIVE"
+  ]
+}

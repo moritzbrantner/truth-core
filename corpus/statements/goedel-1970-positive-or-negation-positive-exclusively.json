@@ -1,0 +1,11 @@
+{
+  "id": "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+  "paraphrase": "Gödel's 1970 axiom Ax2a (AFP GoedelVariantHOML1.thy): at every world, exactly one of a property and its negation is positive.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.PositiveOrNegationPositiveExclusively",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POSITIVE"
+  ]
+}

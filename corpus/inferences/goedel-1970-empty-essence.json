@@ -1,0 +1,9 @@
+{
+  "id": "INF-GOEDEL-1970-EMPTY-ESSENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "rule": "definition-unfolding",
+  "meaning": "AFP EmptyEssL (using Essence_def by auto). Unfolding Ess. and ❙⊃⇩N: whatever property x has, every existing individual that has the empty property has it at every accessible world, vacuously.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

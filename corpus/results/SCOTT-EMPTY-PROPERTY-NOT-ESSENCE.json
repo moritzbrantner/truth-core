@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "argument_id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.emptyPropertyNotEssence",
+  "comparator_config": "results/SCOTT-EMPTY-PROPERTY-NOT-ESSENCE/comparator.json",
+  "status": "solution-present"
+}

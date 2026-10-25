@@ -1,0 +1,15 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-AX2B-A",
+  "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Ax2b: \"⌊P φ ❙⊃ ❙□ P φ⌋\"",
+  "interpretation": "Axiom Ax2b as stated in the theory, the free φ read as universally closed. Its formula is that of Scott's A4 (GoedelGod.thy), so it binds to the same statement; the constant P it constrains is the 1970 theory's. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POSITIVE"
+  ]
+}

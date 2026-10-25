@@ -1,0 +1,10 @@
+{
+  "id": "DEF-HOML-ACTUALIST-NECESSITY",
+  "term": "necessarily / possibly / exists (□, ◇ and the actualist quantifiers of the HOML embedding HOMLinHOL.thy; Lean `Box`, `Dia`, `ExistsAt`)",
+  "definition": "Kripke necessity over a frame (`TruthCore.Modal.Frame`), with the same □ and ◇ as the QML KB embedding (DEF-QML-KB-NECESSITY, shared Lean `Box`, `Dia`). The embedding's assumptions, as in HOMLinHOL.thy: it axiomatizes S5 (Rrefl, Rsymm, Rtrans), but no frame condition is built into the Lean model, and a result that uses one states it as a premise (only Rsymm, STMT-ACCESSIBILITY-SYMMETRIC, is used); individuals are quantified actualistically, ❙∀⇧E and ❙∃⇧E ranging at each world over the individuals that exist there by the constant existsAt (the parameter `ex : ExistsAt World Ind`), so 'exists' in Ax4, Th2, Th3 and NecExist is that quantifier; properties are quantified possibilistically over every function `Ind → World → Prop` (full comprehension); validity ⌊_⌋ is truth at every world; HOL's types are non-empty, so a model has a world.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-NOTES-GOEDEL-HOMLINHOL-RSYMM-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.ExistsAt"
+}

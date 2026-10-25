@@ -1,0 +1,17 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-TH2-A",
+  "statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IMPLIES-NECESSARILY-EXISTS",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Th2: \"⌊G x ❙⊃ ❙□(❙∃⇧Ey. G y)⌋\"",
+  "interpretation": "Theorem Th2 as stated in the theory, proved there by smt from Ax3, Th1, God_def and NecExist_def; the free x is read as universally closed with the possibilist quantifier (Isabelle's free variables range over the whole type), and the existential is actualist. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTS",
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY"
+  ]
+}

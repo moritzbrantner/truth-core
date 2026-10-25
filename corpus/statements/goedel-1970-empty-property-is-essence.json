@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "paraphrase": "Lemma EmptyEssL of Gödel's 1970 variant (AFP GoedelVariantHOML1.thy): at every world, the empty property (had by nothing anywhere) is an essence, in the 1970 sense, of every individual.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.EmptyPropertyIsEssence",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-GOEDEL-1970-MC-BY-EXPLOSION",
+  "input_statement_ids": [
+    "STMT-MODEL-HAS-NO-WORLD"
+  ],
+  "output_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "rule": "ex-falso",
+  "meaning": "A model without worlds satisfies modal collapse vacuously: there is no world at which a proposition could be true and not necessary.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

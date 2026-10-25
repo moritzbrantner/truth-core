@@ -183,4 +183,12 @@ it. -/
 def ModalCollapse (F : Frame World) : Prop :=
   ∀ w (φ : MProp World), φ w → Box F φ w
 
+/-- The empty property is an essence of nothing: at no world is `λ_ _. False`
+an essence of any individual. Not a statement of the AFP theory. It follows
+from the conjunct `Φ x` of the definition `ess`, and it is the point where
+Scott's essence differs from Gödel's 1970 essence
+(`TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.EmptyPropertyIsEssence`). -/
+def EmptyPropertyNotEssence (F : Frame World) (Ind : Type v) : Prop :=
+  ∀ w (x : Ind), ¬ Essence F (fun _ _ => False) x w
+
 end TruthCore.Isabelle.AFP.GoedelGod

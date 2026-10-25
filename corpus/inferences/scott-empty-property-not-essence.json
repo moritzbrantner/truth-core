@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "rule": "definition-unfolding",
+  "meaning": "Unfolding Scott's ess: an essence of x is had by x (its first conjunct), and nothing has the empty property.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

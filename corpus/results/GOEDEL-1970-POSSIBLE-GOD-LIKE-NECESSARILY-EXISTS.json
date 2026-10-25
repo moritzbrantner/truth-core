@@ -1,0 +1,9 @@
+{
+  "id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "argument_id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Solution",
+  "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.possibleGodLikeNecessarilyExists",
+  "comparator_config": "results/GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS/comparator.json",
+  "status": "solution-present"
+}

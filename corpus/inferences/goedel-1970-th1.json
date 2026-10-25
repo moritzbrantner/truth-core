@@ -1,0 +1,12 @@
+{
+  "id": "INF-GOEDEL-1970-TH1",
+  "input_statement_ids": [
+    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE"
+  ],
+  "output_statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE",
+  "rule": "case-analysis",
+  "meaning": "AFP Th1 (Ax2a Ax2b Essence_def God_def). Let x be God-like and have ψ. By Ax2a ψ or its negation is positive. Not its negation, since x would then lack ψ. So ψ is positive, hence necessarily positive (Ax2b), and at every accessible world every God-like individual has ψ. Ax2a supplies the disjunction, so no excluded middle is needed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

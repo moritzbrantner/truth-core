@@ -1,0 +1,12 @@
+{
+  "id": "INF-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+  "input_statement_ids": [
+    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION"
+  ],
+  "output_statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+  "rule": "reductio",
+  "meaning": "Step 1 of AFP Inconsistency (using Ax2a Ax4 by blast). If the empty property were positive, its negation would be positive too by Ax4, since the empty property is vacuously included in every property; Ax2a forbids both.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
