@@ -5,6 +5,7 @@ import TruthCore.Case.Catholicism.StageOneConvergence
 import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
+import TruthCore.Case.Catholicism.StagesOneTwo
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
@@ -310,6 +311,7 @@ import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctF
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
@@ -326,6 +328,7 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
+import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution

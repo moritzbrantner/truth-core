@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIQUE-CLASSICAL-GOD-WITNESS",
+  "term": "a single God witness with uniqueness and classical attributes",
+  "definition": "UniqueClassicalGodExists \u03c3 means \u2203g, \u03c3.IsGod g \u2227 IsTheOneGod \u03c3.IsGod g \u2227 \u03c3.HasClassicalAttributes g. Every conjunct concerns the same g. IsTheOneGod quantifies over all beings satisfying the original \u03c3.IsGod, not only maximal beings.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.UniqueClassicalGodExists",
+  "note": "Logical packaging for composition of the existing Stage1, Stage2 and skeleton results. No source claim or naming converse is added; all component meanings remain the existing definitions. The explicit uniqueness conjunct lets the existing skeleton consume the witness without conflating separate existential witnesses."
+}

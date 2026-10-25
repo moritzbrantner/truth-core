@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.catholicismFromPrimaViaWithClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES/comparator.json",
+  "status": "solution-present",
+  "description": "Composition of the Stage1/Stage2 same-witness proof with the existing skeleton. The historical end remains a structural transcription with open premises; this result does not establish those premises or close the case."
+}

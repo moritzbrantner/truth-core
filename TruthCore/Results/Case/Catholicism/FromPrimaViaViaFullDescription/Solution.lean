@@ -13,7 +13,8 @@ open TruthCore.Results.Case.Catholicism.Skeleton
 definition (`CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION`): the skeleton's `IsGod` is
 the predicate that definition applies. Composition of three verified results:
 the *prima via*, stage 1 via the full description, and the skeleton. This is the
-designated root route (`root_route`, owner decision on #143, 2026-10-24). Stages
+former designated root route (owner decision on #143, 2026-10-24), retained
+unchanged when the same-witness Stage1/Stage2 composition became the route. Stages
 2–6 and the bridges stay open, so like the other root compositions this is a
 structural map. -/
 theorem catholicismFromPrimaViaViaFullDescription (σ : Signature) {Respect : Type}
