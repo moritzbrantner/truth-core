@@ -1,0 +1,17 @@
+{
+  "id": "RUSSELL-ATOMISM-V-NONEMPTY",
+  "statement_id": "STMT-RUSSELL-NONEMPTY-ANALYSIS",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "V.66–68",
+  "interpretation": "Existence applied to a propositional function means that it is true for at least one value. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+    "DEF-RUSSELL-INSTANTIATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

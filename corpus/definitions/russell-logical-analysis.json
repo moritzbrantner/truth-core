@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-LOGICAL-ANALYSIS",
+  "term": "logical analysis",
+  "definition": "DescriptionLaw equates two precisely specified truth conditions for definite descriptions. Such logical analysis does not, by that fact alone, select a grounding interpretation or prove metaphysical adequacy.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.DescriptionLaw"
+}

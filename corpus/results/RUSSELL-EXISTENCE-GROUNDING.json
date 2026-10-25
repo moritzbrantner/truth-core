@@ -1,0 +1,9 @@
+{
+  "id": "RUSSELL-EXISTENCE-GROUNDING",
+  "argument_id": "RUSSELL-EXISTENCE-GROUNDING",
+  "challenge_module": "TruthCore.Results.Modern.Russell.Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Grounding.Solution",
+  "theorem": "TruthCore.Results.Modern.Russell.Grounding.checks",
+  "comparator_config": "results/RUSSELL-EXISTENCE-GROUNDING/comparator.json",
+  "status": "solution-present"
+}

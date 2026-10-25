@@ -1,0 +1,9 @@
+{
+  "id": "RUSSELL-EXISTENCE-CARDINALITY",
+  "argument_id": "RUSSELL-EXISTENCE-CARDINALITY",
+  "challenge_module": "TruthCore.Results.Modern.Russell.Cardinality.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Cardinality.Solution",
+  "theorem": "TruthCore.Results.Modern.Russell.Cardinality.checks",
+  "comparator_config": "results/RUSSELL-EXISTENCE-CARDINALITY/comparator.json",
+  "status": "solution-present"
+}

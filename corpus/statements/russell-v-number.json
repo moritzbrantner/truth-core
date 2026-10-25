@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RUSSELL-EXACT-NUMBER-CONTINGENT",
+  "paraphrase": "Existence of a universe and its exact number of things are empirical, not logical, matters on Russell’s account.",
+  "definition_ids": [
+    "DEF-RUSSELL-FINITE-EXTENSION",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

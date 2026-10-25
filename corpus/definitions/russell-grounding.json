@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-GROUNDING",
+  "term": "grounding of instantiation",
+  "definition": "Grounding is an independently supplied directed relation on distinct basis, instance and inhabited fact tags. Soundness requires truth at both ends; asymmetry excludes reverse edges. It is not implication, quantification, or temporal production. Candidate-basis truth is fixed in the test, without an actual essence claim.",
+  "basis": "stipulative",
+  "note": "Minimal typed test for issue #273. Historical adoption or actual explanatory adequacy would require a further sourced argument; this encoding does not supply one.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.Grounding"
+}

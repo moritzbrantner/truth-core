@@ -1,0 +1,9 @@
+{
+  "id": "RUSSELL-EXISTENCE-DESCRIPTION",
+  "argument_id": "RUSSELL-EXISTENCE-DESCRIPTION",
+  "challenge_module": "TruthCore.Results.Modern.Russell.Description.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Description.Solution",
+  "theorem": "TruthCore.Results.Modern.Russell.Description.checks",
+  "comparator_config": "results/RUSSELL-EXISTENCE-DESCRIPTION/comparator.json",
+  "status": "solution-present"
+}

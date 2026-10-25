@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RUSSELL-NONEMPTY-ANALYSIS",
+  "paraphrase": "Existence applied to a propositional function means that it is true for at least one value.",
+  "definition_ids": [
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+    "DEF-RUSSELL-INSTANTIATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

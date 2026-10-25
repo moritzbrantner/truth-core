@@ -1,0 +1,18 @@
+{
+  "id": "RUSSELL-ATOMISM-VI-INDIVIDUAL",
+  "statement_id": "STMT-RUSSELL-INDIVIDUAL-EXISTENCE-NONSENSE",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "VI.90–91",
+  "interpretation": "For Russell, existence assertions about described individuals do not license the corresponding predicate of a directly named individual. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+    "DEF-RUSSELL-DESCRIPTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

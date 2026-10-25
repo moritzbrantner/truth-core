@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RUSSELL-INDIVIDUAL-RESTRICTION",
+  "paraphrase": "Russell rejects applying the same existence notion as a meaningful predicate of an actually named individual.",
+  "definition_ids": [
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

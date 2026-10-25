@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Russell.Cardinality.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Russell.Cardinality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Russell.Cardinality.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

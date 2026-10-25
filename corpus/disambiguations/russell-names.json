@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-RUSSELL-NAMES",
+  "term": "names",
+  "sense_definition_ids": [
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-CONTEXTUAL-NAME"
+  ],
+  "resolution": "Russell’s genuine-name restriction concerns significant naming at a context. The modern model instead separates outer candidate, optional token and world-relative actual domain. Failure of a token to denote in that alternative is not a contradiction in Russell’s definition."
+}
