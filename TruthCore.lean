@@ -423,6 +423,7 @@ import TruthCore.Results.Modal.B.Countermodels.Solution
 import TruthCore.Results.Modal.B.DisconnectedScope.Solution
 import TruthCore.Results.Modal.B.LanguagePropagation.Solution
 import TruthCore.Results.Modal.B.Laws.Solution
+import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
 import TruthCore.Results.Modal.B.ScopeBoundary.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
