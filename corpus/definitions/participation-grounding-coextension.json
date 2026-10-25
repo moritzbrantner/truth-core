@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-COEXTENSION",
+  "term": "classification",
+  "definition": "For admitted q, its Form f and particular x, Exemplifies x q iff Participates x f. This is coextension of classifications, with neither explanatory direction encoded.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Coextension"
+}

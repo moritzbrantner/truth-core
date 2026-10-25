@@ -1,0 +1,9 @@
+{
+  "id": "REL-PARTICIPATION-RESIDUAL-ATTACK",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PARTICIPATION-RESIDUAL",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+  "note": "Participant-selection explanatory burden, not a refutation or entailment edge. Optional replies are separated in docs/participation-grounding.md."
+}

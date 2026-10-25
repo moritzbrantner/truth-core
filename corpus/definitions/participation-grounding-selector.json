@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-SELECTOR",
+  "term": "selection law",
+  "definition": "For a designated Form and feature, a candidate particular participates iff it has that independently specified base feature. This is an additional open law, not explanatory dependence and not a definition of the base from the classification.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.SelectionLaw"
+}

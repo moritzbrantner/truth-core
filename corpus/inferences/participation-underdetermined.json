@@ -1,0 +1,9 @@
+{
+  "id": "INF-PARTICIPATION-UNDERDETERMINED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PARTICIPATION-UNDERDETERMINED",
+  "rule": "finite-countermodel",
+  "meaning": "Construct two interpretations with the same stipulated background and the same separately supplied base. Both satisfy Generic, including putative explanation, essence and exemplar predicates, but differ on participation and exemplification. The fixed base does not yet carry a selection law.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
