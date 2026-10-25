@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q80-A2-INTELLECTUAL-SENSITIVE-APPETITE",
+  "statement_id": "STMT-SOUL-INTELLECTUAL-AND-SENSITIVE-APPETITES-DISTINCT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.80 a.2 co.; ad 1; ad 2",
+  "interpretation": "The passage concerns appetitive powers of the soul and their proportion to apprehended objects. Its description as passive must not be transferred without qualification to divine willing in I q.19 a.1. Intellectual appetite is not restricted to universal things as external objects, nor is sense appetite silently identified with will.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SOUL-PASSIVE-APPETITIVE-POWER",
+    "DEF-APPETITIVE-OBJECT-ASPECT",
+    "DEF-HAS-WILL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+  ]
+}

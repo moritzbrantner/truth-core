@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q80-A1-COGNITIVE-APPETITE",
+  "statement_id": "STMT-COGNITIVE-APPETITE-EXCEEDS-NATURAL-INCLINATION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.80 a.1 co.; ad 1; ad 3",
+  "interpretation": "The conclusion concerns a power by which an animal can appetitively relate to apprehended things, not an assertion that every intellectual capacity is currently exercised. Natural inclination itself is not identified with this cognition-relative appetite.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE",
+    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+  ]
+}

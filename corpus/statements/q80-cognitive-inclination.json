@@ -1,0 +1,12 @@
+{
+  "id": "STMT-COGNITIVE-APPETITE-EXCEEDS-NATURAL-INCLINATION",
+  "paraphrase": "The soul has an appetitive power related to what is apprehended, beyond the natural inclination following a thing or power's own natural form.",
+  "definition_ids": [
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE",
+    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+  ]
+}
