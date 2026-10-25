@@ -37,7 +37,7 @@ def PropertyInstances (s : Vocabulary Entity Quality) : Prop :=
     s.Exemplifies x q ∧ s.Exemplifies y q
 
 /-- Republic 596a–b, restricted to admitted qualities: one common Form for the
-F particulars. Participation here is classificatory; no explanation follows. -/
+F particulars. Participation here is classificatory; no explanatory commitment is included. -/
 def OneOverMany (s : Vocabulary Entity Quality) : Prop :=
   ∀ q, s.Admitted q → ∃ f, s.FormOf f q ∧
     ∀ x, s.Particular x → s.Exemplifies x q → s.Participates x f

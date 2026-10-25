@@ -6,32 +6,16 @@
   "interpretation": "The usual method posits one Form over the many bearing a common name. Participates is read here only as common attribution, not a mechanism. Admitted is restricted to the relevant quality domain; no commitment for arbitrary predicates follows.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-IMMANENT-FORM",
     "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-PREDICATION",
-    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
     "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-EXPLANATION",
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PLATONIC-NONIDENTITY",
-    "DEF-PLATONIC-INTELLIGIBLE",
-    "DEF-PLATONIC-EXEMPLAR",
-    "DEF-PLATONIC-LIKENESS",
-    "DEF-PLATONIC-IMITATION",
-    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
-    "DEF-PLATONIC-HUMAN-NATURE"
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
   ],
   "disambiguation_ids": [
     "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PREDICATION",
     "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-CAUSE",
-    "DISAMB-PLATONIC-SEPARATION",
-    "DISAMB-PLATONIC-LIKENESS",
-    "DISAMB-PLATONIC-HUMAN"
+    "DISAMB-PLATONIC-PREDICATION"
   ]
 }
