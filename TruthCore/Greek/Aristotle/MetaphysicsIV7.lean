@@ -46,12 +46,21 @@ def ChangeOnlyBetweenContradictoriesReading {State : Type u}
     (F : State → Prop) (Changes : State → State → Prop) : Prop :=
   ∀ a b, Changes a b → (¬ F a ∧ F b) ∨ (F a ∧ ¬ F b)
 
-/-- What is always changes, *Metaphysics* IV.7, 1011b29-1012a1: the posited
+/-- Change is seen, *Metaphysics* IV.7, 1011b29-1012a1: the posited
 intermediate "would not change ... but now it is always seen to" (νῦν δʼ ἀεὶ
-φαίνεται). Read as: every state in the domain of the contradictory pair is the
-start of some change in respect of it. This generalizes an observation to every
-state of the domain, which is what the argument needs; the claim records it as
-the reading's strongest point. -/
+φαίνεται). Read as what the observation states: change in respect of the
+contradictory pair is seen, i.e. some state is the start of such a change. This
+is the sourced reading (claim `ARIST-MET-1011B-WHAT-IS-ALWAYS-CHANGES-A`). -/
+def ChangeIsSeenReading {State : Type u}
+    (Changes : State → State → Prop) : Prop :=
+  ∃ a b, Changes a b
+
+/-- What is always changes, universally: every state in the domain of the
+contradictory pair is the start of some change in respect of it. This is **not**
+attributed to Aristotle: it generalizes the observation `ChangeIsSeenReading` to
+every state of the domain, which is what the formal argument needs. It is the
+formalization's own open premise (`STMT-WHAT-IS-ALWAYS-CHANGES`, no claim; Codex
+P1 on #174). -/
 def WhatIsAlwaysChangesReading {State : Type u}
     (Changes : State → State → Prop) : Prop :=
   ∀ a, ∃ b, Changes a b
