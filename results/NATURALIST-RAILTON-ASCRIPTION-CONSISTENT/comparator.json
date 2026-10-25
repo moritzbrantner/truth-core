@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.railtonAscriptionConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

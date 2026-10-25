@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NATURALIST-ASCRIBED-ERROR",
+  "paraphrase": "There is a false, truth-apt moral belief whose sentence actually ascribes the theory’s relevant evaluative property to an act.",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.AscribedErrorOccurs",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-MORAL-ERROR",
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "STMT-NATURALIST-TRUE-ASCRIPTION",
-  "paraphrase": "The interpretation has a true moral ascription as well as a false one.",
+  "paraphrase": "The interpretation contains a true moral sentence. The historical statement ID and declaration name do not assert an Ascribes witness or the existence of a false sentence; the separate stronger ascription commitments make those boundaries explicit.",
   "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.TrueMoralAscriptionOccurs",
   "definition_ids": [
     "DEF-NATURALIST-FINITE-INTERPRETATION",

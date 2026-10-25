@@ -47,7 +47,8 @@ def RightWithoutUniversalReasons (s : Sig) : Prop :=
 def GoodWithoutUniversalReasons (s : Sig) : Prop :=
   ∃ x a, s.base.GoodAct a ∧ ¬ s.Reason x a
 
-/-- A true moral ascription, preventing an all-false interpretation. -/
+/-- A true moral sentence, preventing an all-false interpretation. The legacy
+name does not assert an `Ascribes` witness; see `TrueEvaluativeAscriptionOccurs`. -/
 def TrueMoralAscriptionOccurs (s : Sig) : Prop :=
   ∃ φ, s.base.Moral φ ∧ s.base.Holds φ
 
@@ -70,5 +71,21 @@ def UnrecognizedIdentityPossible : Prop :=
     moral ≠ natural ∧ denotes moral = denotes natural ∧
       ¬ RecognizesIdentity moral natural ∧
       (∃ a, denotes moral a) ∧ (∃ a, ¬ denotes moral a)
+
+end TruthCore.Metaethics.NaturalisticRealism
+
+namespace TruthCore.Metaethics.NaturalisticRealism
+
+/-- A false, truth-apt moral belief whose sentence actually ascribes the
+relevant evaluative property to an act. This excludes empty `Ascribes`. -/
+def AscribedErrorOccurs (s : Sig) : Prop :=
+  ∃ x φ a, s.Ascribes φ a ∧ s.base.Moral φ ∧
+    Errs s.base.Accepts s.base.TruthApt s.base.Holds x φ
+
+/-- A true moral sentence actually ascribes the relevant property to an act.
+Together with AscribedErrorOccurs this makes DescriptiveTruth nonvacuous on
+both true and false ascriptions, without treating truth-aptness as truth. -/
+def TrueEvaluativeAscriptionOccurs (s : Sig) : Prop :=
+  ∃ φ a, s.Ascribes φ a ∧ s.base.Moral φ ∧ s.base.Holds φ
 
 end TruthCore.Metaethics.NaturalisticRealism

@@ -23,15 +23,31 @@ def Boyd (s : Sig) : Prop :=
   MoralJudgmentsAreTruthAptReading s.base.Moral s.base.TruthApt ∧
   DescriptiveTruth s.Ascribes s.base.Holds s.base.GoodAct
 
-/-- Nonvacuous model with true and false moral ascriptions, actual cognitive
+/-- Legacy model statement with true and false moral sentences, cognitive
 error, and a right act for which an agent has no instrumental reason. -/
 def RailtonConsistent : Prop :=
   ∃ s : Sig, Railton s ∧ ErrorOccurs s ∧ RightWithoutUniversalReasons s ∧
     TrueMoralAscriptionOccurs s
 
-/-- The same test for Boyd's distinct positive-goodness fragment. -/
+/-- The legacy sentence/error test for Boyd's positive-goodness fragment. -/
 def BoydConsistent : Prop :=
   ∃ s : Sig, Boyd s ∧ ErrorOccurs s ∧ GoodWithoutUniversalReasons s ∧
     TrueMoralAscriptionOccurs s
+
+end TruthCore.Comparison.NaturalisticRealism
+
+namespace TruthCore.Comparison.NaturalisticRealism
+open TruthCore.Metaethics.NaturalisticRealism
+
+/-- Stronger than the frozen legacy sentence test: both the erroneous belief
+and the true sentence have actual ascription witnesses. -/
+def RailtonAscriptionConsistent : Prop :=
+  ∃ s : Sig, Railton s ∧ AscribedErrorOccurs s ∧
+    TrueEvaluativeAscriptionOccurs s ∧ RightWithoutUniversalReasons s
+
+/-- The same explicit ascription nonvacuity test for Boyd's distinct fragment. -/
+def BoydAscriptionConsistent : Prop :=
+  ∃ s : Sig, Boyd s ∧ AscribedErrorOccurs s ∧
+    TrueEvaluativeAscriptionOccurs s ∧ GoodWithoutUniversalReasons s
 
 end TruthCore.Comparison.NaturalisticRealism

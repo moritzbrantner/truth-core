@@ -11,7 +11,7 @@
   ],
   "output_statement_id": "STMT-NATURALIST-RAILTON-CONSISTENT",
   "rule": "model-construction",
-  "meaning": "The recorded Railton fragment is satisfiable with a true moral ascription, cognitive moral error and a right act without a universal instrumental-reason link. A nonconstant equal-benefit finite model witnesses this; it does not establish actual objective grounding.",
+  "meaning": "The recorded Railton fragment is satisfiable with a true moral sentence, cognitive moral error and a right act without a universal instrumental-reason link. A nonconstant equal-benefit finite model witnesses this; it does not establish actual objective grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-RAILTON-ASCRIPTION-CONSISTENT does.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

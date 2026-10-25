@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent.boydConsistent",
   "comparator_config": "results/NATURALIST-BOYD-CONSISTENT/comparator.json",
   "status": "solution-present",
-  "description": "The recorded Boyd positive-case fragment is satisfiable with a true moral ascription, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding."
+  "description": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-BOYD-ASCRIPTION-CONSISTENT does."
 }

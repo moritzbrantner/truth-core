@@ -66,7 +66,7 @@ availability.
 |---|---|---|---|
 | Q-MORAL-GROUNDING: what makes the evaluative judgment true; what is the explanatory order? | **S:** natural relational/dispositional facts ground objective interests; impartial rationality over those interests assesses rightness (pp.175–176,190–191). Ideal response tracks the basis. | **S:** human goods and their causal homeostasis, not approval alone, define goodness and regulate its recognition (§§4.3,4.5). | **S:** actuality for ontological good and privation of a *due* good for evil (ST I q.5 a.1, q.48 a.3). The bridge to each practical judgment remains substantive. |
 | Q-MORAL-LANGUAGE-VALIDITY: why does moral modus ponens preserve truth? | **S:** descriptive propositions are the proposed account. `NATURAL-PREDICATE-MODUS-PONENS` verifies its logical part under an adopted shared semantics; the full semantic bridge is open. | **S:** descriptive positive-goodness propositions; the same logical result applies conditionally, with the same open semantic bridge. | **S:** truth-apt practical propositions; the same logical result applies conditionally, with the same open semantic bridge. |
-| Q-MORAL-ERROR: can an appraiser be mistaken? | **V, possibility:** the fragment admits a false, truth-apt moral belief alongside a true ascription (`NATURALIST-RAILTON-CONSISTENT`). Fallible learning and mistaken moralities are explicit, pp.165,193–195. | **V, possibility:** the positive-case fragment admits cognitive error (`NATURALIST-BOYD-CONSISTENT`); §§1.1,4.4,4.6. | **V:** the existing Germans result supplies an attributed instance (`AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED`). |
+| Q-MORAL-ERROR: can an appraiser be mistaken? | **V, possibility:** the fragment admits a false, truth-apt moral belief alongside a true ascription (`NATURALIST-RAILTON-ASCRIPTION-CONSISTENT`). Fallible learning and mistaken moralities are explicit, pp.165,193–195. | **V, possibility:** the positive-case fragment admits cognitive error (`NATURALIST-BOYD-ASCRIPTION-CONSISTENT`); §§1.1,4.4,4.6. | **V:** the existing Germans result supplies an attributed instance (`AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED`). |
 | Q-MORAL-DISAGREEMENT: can contrary judgments conflict in belief? | **S:** yes, appraisers can disagree about an objective criterion (pp.165,195); a clash of feelings is not the account. | **S:** yes, divergent conceptions may concern a shared referent (§§4.5–4.6); hard cases can also be genuinely indeterminate. | **S:** yes, practical judgments can be true or false (q.94 a.4); disagreement need not be a different natural law. |
 | Q-MORAL-PROGRESS: can revision correct a view? | **S:** feedback from excluded interests can correct norms; reversals and persistent domination remain possible (pp.193–195). | **S:** improved understanding of human goods and social experiments can correct judgments (§§4.3–4.4). No guarantee of convergence. | **S:** corruption of natural-law judgment needs correction (q.94 a.5 ad 1); this is not a theorem of inevitable historical progress. |
 | Q-ROBUST-TRUTH: is truth more than minimal acceptance? | **S:** non-epistemic truth and objective relational properties (p.165); the proposed truthmaking account is not proved adequate. | **S:** real properties and truth substantially independent of moral opinions (§1.1); no universal bivalence over vague cases is asserted. | **S:** practical truth/rectitude (q.94 a.4). This source answer has no new proof of a complete truth theory here. |
@@ -128,9 +128,9 @@ cognition with actual desire. This is an answered but contested question, not a
 contradiction inferred from naturalism. The stronger bridge is recorded as an
 open attack, never smuggled into either bundle or into “objective morality.”
 
-The two consistency theorems construct a shared, nonconstant finite
-interpretation satisfying each **distinct** bundle, with a true and a false
-ascription, cognitive error, and a positive evaluative act without a reason for
+The two strengthened ascription-consistency theorems construct a shared, nonconstant finite
+interpretation satisfying each **distinct** bundle, with explicit `Ascribes` witnesses
+for a true sentence and a false sentence accepted in cognitive error, and a positive evaluative act without a reason for
 an agent. Their frozen Challenges bind the exact types. This establishes
 non-entailment of a universal instrumental-reason link **in the encoded
 fragments**: the reason predicate is separate and lacks that bridge. It does not
@@ -171,3 +171,17 @@ into a full compositional semantics. No universal bivalence, automatic moral
 progress, normative necessity, actual empirical grounding or God-dependent
 premise was added. Challenges were frozen before Solutions, and every new
 formal result has its own argument, inference and Comparator configuration.
+
+The original frozen `NATURALIST-RAILTON-CONSISTENT` and
+`NATURALIST-BOYD-CONSISTENT` Challenges are preserved as the weaker
+sentence/error claims. Their `TrueMoralAscriptionOccurs` declaration has a
+historical name: its type requires only a true moral sentence. It does not
+supply an `Ascribes` witness; neither does `ErrorOccurs`. Their corrected prose
+therefore promises only true/false moral sentences. The separate
+`NATURALIST-RAILTON-ASCRIPTION-CONSISTENT` and
+`NATURALIST-BOYD-ASCRIPTION-CONSISTENT` identities freeze the stronger types.
+`AscribedErrorOccurs` ties the erroneous belief to an act through `Ascribes`,
+and `TrueEvaluativeAscriptionOccurs` does the same for the true sentence.
+Thus replacing `Ascribes` by an empty relation cannot satisfy these stronger
+conclusions. The source-reading commitments are unchanged; shared model-fact
+lemmas are reused by both generations of results.
