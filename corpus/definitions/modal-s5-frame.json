@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-FRAME",
+  "term": "S5 equivalence accessibility",
+  "definition": "S5Frame F is the existing FrameSatisfies .S5 F: (∀w, Rww) and (∀w v z, Rwv → Rwz → Rvz), reflexivity and Euclidean accessibility. Existing cube theorems derive symmetry (Rwv → Rvw) and transitivity (Rwv → Rvz → Rwz). Multiple equivalence components are permitted.",
+  "basis": "stipulative",
+  "note": "Issue #267 mathematical semantics. The stipulation fixes an experiment and asserts no source attribution; applying it to metaphysics would require independent source and philosophical defense.",
+  "lean_declaration": "TruthCore.Modal.S5Research.S5Frame"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "STMT-MODAL-S5-SCENARIO-BRIDGE",
+  "paraphrase": "At the supplied root, every predicate conceived by C has an accessible witness. This unrestricted actual bridge is an open premise, not attributed to Hume and not necessary validity of the bridge.",
+  "lean_declaration": "TruthCore.Modal.S5Research.ScenarioBridge",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-S5-SCENARIO",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

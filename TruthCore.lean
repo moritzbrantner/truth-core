@@ -149,6 +149,7 @@ import TruthCore.Modal.Kripke
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
+import TruthCore.Modal.S5Research
 import TruthCore.Modal.TResearch
 import TruthCore.Modern.Hume.Conceivability
 import TruthCore.Modern.Hume.Induction
@@ -435,6 +436,12 @@ import TruthCore.Results.Modal.S4.Countermodels.Solution
 import TruthCore.Results.Modal.S4.Extensionality.Solution
 import TruthCore.Results.Modal.S4.Laws.Solution
 import TruthCore.Results.Modal.S4.ScopeBoundary.Solution
+import TruthCore.Results.Modal.S5.Countermodels.Solution
+import TruthCore.Results.Modal.S5.DomainBoundary.Solution
+import TruthCore.Results.Modal.S5.Language.Solution
+import TruthCore.Results.Modal.S5.Laws.Solution
+import TruthCore.Results.Modal.S5.Projection.Solution
+import TruthCore.Results.Modal.S5.SymmetryBoundary.Solution
 import TruthCore.Results.Modal.T.Branching.Solution
 import TruthCore.Results.Modal.T.FrameBoundary.Solution
 import TruthCore.Results.Modal.T.Laws.Solution

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-MODELS",
+  "term": "S5 finite assumption witnesses",
+  "definition": "The disconnected three-constructor model has a singleton root component and an isolated two-world universal component with a separating atom. The universal pair, universal singleton and reused duplicate-label model test independent contingency, conceivability bridge, domain completeness and identity. These are mathematical models, not metaphysical possibilities.",
+  "basis": "stipulative",
+  "note": "Issue #267 mathematical semantics. The stipulation fixes an experiment and asserts no source attribution; applying it to metaphysics would require independent source and philosophical defense.",
+  "lean_declaration": "TruthCore.Modal.S5Research.disconnected"
+}

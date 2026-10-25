@@ -1,0 +1,31 @@
+{
+  "id": "MODAL-S5-COUNTERMODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-S5-COUNTERMODELS",
+  "inference_ids": [
+    "INF-MODAL-S5-COUNTERMODELS"
+  ],
+  "meaning": "Stipulated mathematical consequence for issue #267; no historical or metaphysical premise is established. Construct every edge and truth witness explicitly; use singleton predicate separation for full-domain failure and reuse the shared duplicate-language invariance theorem. The universal pair independently supplies positive and negative witnesses; an empty conception drops C(MC), indiscriminate conception drops bridge soundness, and the singleton drops contingency.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-S5-MODELS",
+    "DEF-MODAL-S5-ATOM-ONLY",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

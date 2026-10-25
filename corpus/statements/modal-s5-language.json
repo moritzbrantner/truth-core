@@ -1,0 +1,23 @@
+{
+  "id": "STMT-MODAL-S5-LANGUAGE",
+  "paraphrase": "For S5 and a negation-closed domain, explicit excluded middle and possible domain-relative MC imply component agreement, actual and necessary domain MC, possibility equivalent to actuality for admissible predicates, and no admissible contingency. Restricted-domain world extensionality then yields component identity; Universal extends identity to every supplied label.",
+  "lean_declaration": "TruthCore.Modal.S5Research.LanguageLaws",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-S5-CLASSICAL-REASONING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

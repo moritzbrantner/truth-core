@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-ATOM-ONLY",
+  "term": "atom-only inventory versus fixed language",
+  "definition": "atomOnly contains exactly pairP, unlike expressible, which contains every formula denotation and hence negations. The inventory separates the two labels but lacks negation closure; it can satisfy possible inventory collapse at a root that fails actual inventory collapse even in S5.",
+  "basis": "stipulative",
+  "note": "Issue #267 mathematical semantics. The stipulation fixes an experiment and asserts no source attribution; applying it to metaphysics would require independent source and philosophical defense.",
+  "lean_declaration": "TruthCore.Modal.S5Research.atomOnly"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S5-DOMAIN-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S5-DOMAIN-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Enumerate the two labels, use the atom to separate them, exploit its falsity for inventory collapse at false, and use the opposite accessible label to refute collapse at true. Show the negated predicate cannot equal the sole inventory entry.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "STMT-MODAL-S5-DOMAIN-BOUNDARY",
+  "paraphrase": "In the universal two-world S5 frame, the atom-only inventory is world-extensional yet possible inventory MC at true coexists with actual inventory MC failing and with independently witnessed contingency of its sole atom. Negation of that atom is not in the inventory. Thus extensionality alone does not replace closure of a complete formula language.",
+  "lean_declaration": "TruthCore.Modal.S5Research.DomainBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-S5-MODELS",
+    "DEF-MODAL-S5-ATOM-ONLY",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

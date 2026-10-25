@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "argument_id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "challenge_module": "TruthCore.Results.Modal.S5.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S5.Projection.Solution",
+  "theorem": "TruthCore.Results.Modal.S5.Projection.excluded",
+  "comparator_config": "results/MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED/comparator.json",
+  "status": "solution-present"
+}
