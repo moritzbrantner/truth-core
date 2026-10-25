@@ -9,10 +9,11 @@
     "INF-SCOTT-FLAWLESSNESS",
     "INF-SCOTT-MONOTHEISM"
   ],
-  "meaning": "AFP GoedelGod.thy, Monotheism, as a secondary consequence: from A1b and excluded middle alone, any two God-like beings at a world are Leibniz-equal there (DEF-LEIBNIZ-EQUALITY-SCOTT), through Flawlessness. Indiscernibility at a world, not identity of individuals, and not that a God-like being exists. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
+  "meaning": "AFP GoedelGod.thy, Monotheism, as a secondary consequence: from A1b and excluded middle alone, any two God-like beings at a world are Leibniz-equal there (DEF-LEIBNIZ-EQUALITY-SCOTT), through Flawlessness. Full property quantification makes this identity of individuals: at most one God-like individual per world. This argument does not establish existence; combined with the separate C2 result it establishes exactly one per world, without asserting the same individual across worlds. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
   "definition_ids": [
     "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "DEF-QML-KB-NECESSITY",
+    "DEF-LEIBNIZ-EQUALITY-SCOTT"
   ],
   "disambiguation_ids": [
     "DISAMB-GOD"
