@@ -1,0 +1,20 @@
+{
+  "id": "CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "inference_ids": [
+    "INF-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE"
+  ],
+  "meaning": "A finite formal-schema model satisfies every existing pilot report and reading bridge, the limited Catholic historical bundle, classical-attribute and recognizable-revelation predicates, and a nonvacuous visible founding, while the universal divine-teaching-founding bridge fails. This is non-entailment from the declared local predicates and constraints only: not a historically or theologically faithful possible world, not a refutation of the bridge or the full root theory. In particular the pilot authorityVindicated field is an independent opaque commitment, not an encoded actual divine authorization. No root obligation is closed.",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY",
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-FOUNDING-LOCAL-INDEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}
