@@ -1,0 +1,23 @@
+{
+  "id": "LEWIS-1994-BEST-SYSTEM",
+  "statement_id": "STMT-LAWS-AS-BEST-SYSTEM-THEOREMS",
+  "source_id": "LEWIS-HUMEAN-SUPERVENIENCE",
+  "locator": "pp. 478–482, §§3–4",
+  "interpretation": "Lewis identifies laws with regularities that are theorems of the best true system, balancing simplicity and strength, adding fit for probabilistic law/chance. BestSystemReading formalizes only the identification once a selected system has been supplied. His full analysis is stronger than mere observed repetition; its selection and chance theory are not verified here. Full materialized passage and surrounding context consulted before recording. This source reading is not a premise of the analytical Checks theorem.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

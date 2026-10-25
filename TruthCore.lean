@@ -6,6 +6,7 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Comparison.ExcludedMiddle
+import TruthCore.Comparison.HumeRegularity
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
@@ -142,6 +143,8 @@ import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modern.Hume.Conceivability
 import TruthCore.Modern.Hume.Induction
+import TruthCore.Modern.Hume.Regularity
+import TruthCore.Modern.Hume.RegularityModels
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
@@ -397,6 +400,7 @@ import TruthCore.Results.Modal.K.ScopeBoundary.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Modern.Hume.Induction.Solution
+import TruthCore.Results.Modern.Hume.Regularity.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Teleonomy.Mechanisms

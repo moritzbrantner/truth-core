@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-OBSERVATION",
+  "term": "observational constant conjunction",
+  "definition": "Conjunction means equality of X and Y values in both indexed background contexts. Nontrivial requires X to take both values. This binary co-occurrence abstraction deliberately omits Hume’s temporal succession; the temporal test supplies distinct ordered times separately.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.Conjunction"
+}

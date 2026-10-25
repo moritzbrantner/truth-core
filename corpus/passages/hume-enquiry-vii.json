@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "source_url": "https://davidhume.org/texts/e/7",
+    "retrieved_at": "2026-10-25T14:14:44Z",
+    "sha256": "sha256:932de4e57a35d4d63758281ee80551ec76cbbbd304e9b19aea0a21427f30f4f5",
+    "kind": "web_snapshot",
+    "source_id": "HUME-ENQUIRY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Original English text (1748), public domain; Hume Texts Online presentation. No presentation license asserted; only hashes and locators committed."
+  },
+  "passages": [
+    {
+      "id": "HUME-ENQUIRY-VII",
+      "locator": "VII \u00a7\u00a71\u201330 and notes",
+      "claim_locator_prefixes": [
+        "VII,"
+      ],
+      "html_selector": {
+        "element_id": "text-pane"
+      },
+      "text_sha256": "sha256:1bff0e15acc2d08e6609c0fb70dce1e52470949253e1a2ea2333fa8f6476cb5e",
+      "incipit": "SECTION VII.\nOf the Idea of Necessary Connexion.\nPART I.\nE 7.1, SBN 60\nTHE"
+    }
+  ]
+}

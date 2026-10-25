@@ -1,0 +1,24 @@
+{
+  "id": "HUME-REGULARITY-MODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HUME-REGULARITY-MODELS",
+  "inference_ids": [
+    "INF-HUME-REGULARITY-MODELS"
+  ],
+  "meaning": "Existential consistency of selected analytical fragments only. The source accounts and defense of their actual application remain separate.",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

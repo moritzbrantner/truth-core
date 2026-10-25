@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-INTERVENTION",
+  "term": "intervention response and causal efficacy",
+  "definition": "Experiment.setX(u,x) is Y after surgically setting X to x with background u fixed; setY reverses the roles. Changes requires an actual contrast between the two settings in at least one context. Ideal intervention tables are stipulated model inputs, not inferred from correlation, and correspond only to the deterministic binary specialization of Woodward’s total-cause criterion.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.Changes"
+}

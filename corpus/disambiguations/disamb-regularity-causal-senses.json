@@ -1,0 +1,16 @@
+{
+  "id": "DISAMB-REGULARITY-CAUSAL-SENSES",
+  "term": "cause, regularity, counterfactual and explanation",
+  "sense_definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND"
+  ],
+  "resolution": "Hume’s first similarity/succession definition, second customary-transition definition and his counterfactual wording in VII.29 are distinct readings, not proved equivalents. Binary co-occurrence omits succession. Intervention efficacy adds independently supplied response tables; observational countermodels do not refute full-mosaic supervenience. Best-system lawhood adds selection criteria and does not by itself supply Woodward’s causal criterion. Temporal causation within spacetime is distinct from explanatory grounding of spacetime; absence of an earlier event does not entail absence of a ground. Prediction from a granted global law differs from justification for extending a finite sample."
+}
