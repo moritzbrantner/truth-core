@@ -66,6 +66,23 @@ python3 scripts/source_evidence.py web-hashes <URL> --encoding utf-8 \
 
 Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Record a Wayback capture whose extracted text matches whenever one is reachable. A page that drifts without a matching capture can no longer be materialized; re-pin it, and re-read the claims against the new text.
 
+### PDF pages within a web snapshot
+
+A primary PDF uses the same `web_snapshot` kind and byte/text hashes. In place
+of `html_selector`, set `pdf_pages: {"first": 2, "last": 10}` with inclusive,
+one-based physical PDF pages; the conventional locator separately records the
+printed pagination. Exactly one selector is required. Materialization invokes
+Poppler's `pdftotext` with UTF-8 output and a 30-second limit, normalizes all
+whitespace to single spaces, and checks `text_sha256`. Changes in extraction
+therefore fail rather than silently changing the consulted text. Empty or
+image-only extraction is rejected; this adapter does not perform OCR.
+
+Install Poppler (`sudo apt-get install poppler-utils` on Debian/Ubuntu).
+`web-hashes URL --encoding utf-8 --pdf-pages FIRST:LAST` prints pinning fields.
+Fetch twice and inspect the verified materialization before source claims,
+just as for HTML. Copyrighted PDFs and their extracted text stay in ignored
+local caches; only hashes, locators, terms and short incipits are committed.
+
 ### Translation basis
 
 A translation is not the primary text. Every claim on a passage with `translation` must carry `"basis": "translation"`, and `basis` is rejected on any other claim. A translation-based claim stays a candidate for upgrade to a pinned Latin witness, and it may not override a reading of one. `check` enforces two rules for this:
