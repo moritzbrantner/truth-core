@@ -28,16 +28,14 @@ def testData : Data where
   evilPremise := true
 
 /-- Semantic use explains truth conditions; purposes explain competence. -/
-def antiExplanation : Topic Bool → Topic Bool → Prop
-  | .use φ, .truthConditions ψ => φ = ψ
-  | .purposesOfMoralTalk, .supervenienceRequirement => True
-  | _, _ => False
+def antiExplanation (x y : Topic Bool) : Prop :=
+  (∃ φ, x = .use φ ∧ y = .truthConditions φ) ∨
+    (x = .purposesOfMoralTalk ∧ y = .supervenienceRequirement)
 
 /-- Truth conditions explain use; the competence explanation is unchanged. -/
-def realistExplanation : Topic Bool → Topic Bool → Prop
-  | .truthConditions φ, .use ψ => φ = ψ
-  | .purposesOfMoralTalk, .supervenienceRequirement => True
-  | _, _ => False
+def realistExplanation (x y : Topic Bool) : Prop :=
+  (∃ φ, x = .truthConditions φ ∧ y = .use φ) ∨
+    (x = .purposesOfMoralTalk ∧ y = .supervenienceRequirement)
 
 /-- Both models literally share all non-explanatory data. -/
 theorem testDataSatisfiesSharedData : SharedData testData := by
@@ -67,12 +65,24 @@ theorem sharedDataDoNotChooseOrder : SharedDataDoNotChooseOrder := by
   · obtain ⟨_, _, _, hPrivation, ⟨x, g, hDue, hLacks⟩, hTruth, _⟩ := hData
     intro p
     exact hTruth p ⟨x, (hPrivation x).mpr ⟨g, hDue, hLacks⟩⟩
-  · refine ⟨?_, ?_, ?_, trivial, ?_, ?_, ?_, trivial⟩
-    · intro φ _; exact rfl
-    · intro h; exact h false rfl
-    · intro φ _ _; exact id
-    · intro φ _; exact rfl
-    · intro h; exact h false rfl
-    · intro φ _ h; exact h.elim
+  · refine ⟨?_, ?_, ?_, Or.inr ⟨rfl, rfl⟩, ?_, ?_, ?_, Or.inr ⟨rfl, rfl⟩⟩
+    · intro φ _; exact Or.inl ⟨φ, rfl, rfl⟩
+    · intro h
+      rcases h false rfl with ⟨φ, hEq, _⟩ | ⟨hEq, _⟩
+      · cases hEq
+      · cases hEq
+    · intro φ _ _ h
+      rcases h with ⟨ψ, hEq, _⟩ | ⟨hEq, _⟩
+      · cases hEq
+      · cases hEq
+    · intro φ _; exact Or.inl ⟨φ, rfl, rfl⟩
+    · intro h
+      rcases h false rfl with ⟨φ, hEq, _⟩ | ⟨hEq, _⟩
+      · cases hEq
+      · cases hEq
+    · intro φ _ h
+      rcases h with ⟨ψ, hEq, _⟩ | ⟨hEq, _⟩
+      · cases hEq
+      · cases hEq
 
 end TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder
