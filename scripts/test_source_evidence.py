@@ -253,6 +253,25 @@ class WebSnapshotTest(unittest.TestCase):
         self.assertEqual(self.extract({"element_id": "answer"}), "I answer that, it does.")
         self.assertNotIn("hidden", se.render_html_text(se.html_tokens(HTML.decode("utf-8"))))
 
+    def test_element_id_closes_implied_end_tags(self) -> None:
+        def select(page: str, element_id: str) -> str:
+            passage = {"id": "X", "encoding": "utf-8", "html_selector": {"element_id": element_id}}
+            return se.extract_web_text(page.encode("utf-8"), passage)
+
+        cases = [
+            ("<div><p id=x>First <b>bold</b><br/>line<p>Second</div><p>Third", "First bold\nline"),
+            ("<p id=x>Para<div>Block</div>", "Para"),
+            ("<ul><li id=x>One<ul><li>Inner</ul><li>Two</ul>After", "One\nInner"),
+            ("<ul><li>Zero<li id=x>One</ul><p>After", "One"),
+            ("<ul><li id=x>One</p>more<li>Two</ul>", "One\nmore"),
+            ("<dl><dt id=x>Term<dd>Def</dl>", "Term"),
+            ("<table><tr><td id=x>A<td>B</table>", "A"),
+            ("<div id=x><p>A<p>B<div>C</div></div><p>After", "A\nB\nC"),
+        ]
+        for page, expected in cases:
+            with self.subTest(page=page):
+                self.assertEqual(select(page, "x"), expected)
+
     def test_selector_must_match_exactly_once(self) -> None:
         passage = {"id": "X", "encoding": "utf-8", "html_selector": {"heading": "Missing"}}
         with self.assertRaisesRegex(se.SourceEvidenceError, "matched 0"):
