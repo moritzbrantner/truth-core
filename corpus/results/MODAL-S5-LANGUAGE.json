@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-S5-LANGUAGE",
+  "argument_id": "MODAL-S5-LANGUAGE",
+  "challenge_module": "TruthCore.Results.Modal.S5.Language.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S5.Language.Solution",
+  "theorem": "TruthCore.Results.Modal.S5.Language.checks",
+  "comparator_config": "results/MODAL-S5-LANGUAGE/comparator.json",
+  "status": "solution-present"
+}

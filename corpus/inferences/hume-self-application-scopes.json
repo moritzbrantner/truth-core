@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-SELF-APPLICATION-SCOPES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-SELF-APPLICATION-SCOPES",
+  "rule": "direct-proof",
+  "meaning": "Project the existing selfC consistency witness and self-application law; inspect necessary denial at the actual world. Construct the one-step model, where the accessible dead end has H by empty conception and □¬H vacuously.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

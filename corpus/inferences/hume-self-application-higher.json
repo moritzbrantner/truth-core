@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-SELF-APPLICATION-HIGHER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-SELF-APPLICATION-HIGHER",
+  "rule": "direct-proof",
+  "meaning": "Reuse the two proved laws from HUME-CONCEIVABILITY-TESTS, instantiate H at necessary denial, then use self-access at the witness or a successor plus transitivity to expose H and ¬H at the same world.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

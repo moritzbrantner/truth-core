@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-COMPONENT",
+  "term": "one universal accessibility component",
+  "definition": "Universal F means every supplied world accesses every other supplied world. It is stronger than being S5 and is the explicit premise for conclusions about all labels, rather than only the root component.",
+  "basis": "stipulative",
+  "note": "Issue #267 mathematical semantics. The stipulation fixes an experiment and asserts no source attribution; applying it to metaphysics would require independent source and philosophical defense.",
+  "lean_declaration": "TruthCore.Modal.S5Research.Universal"
+}

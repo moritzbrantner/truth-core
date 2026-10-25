@@ -1,0 +1,31 @@
+{
+  "id": "MODAL-S5-DOMAIN-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-S5-DOMAIN-BOUNDARY",
+  "inference_ids": [
+    "INF-MODAL-S5-DOMAIN-BOUNDARY"
+  ],
+  "meaning": "Stipulated mathematical consequence for issue #267; no historical or metaphysical premise is established. Enumerate the two labels, use the atom to separate them, exploit its falsity for inventory collapse at false, and use the opposite accessible label to refute collapse at true. Show the negated predicate cannot equal the sole inventory entry.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-S5-MODELS",
+    "DEF-MODAL-S5-ATOM-ONLY",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

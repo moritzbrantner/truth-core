@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S5-SYMMETRY-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S5-SYMMETRY-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Compose the existing Hume semantic test model with the shared full-MC equivalence, preserve its reflexive/transitive proofs, and explicitly exhibit the failed reverse edge and opposite truth witnesses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

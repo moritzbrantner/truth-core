@@ -1,0 +1,27 @@
+{
+  "id": "MODAL-S5-LANGUAGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-S5-LANGUAGE",
+  "inference_ids": [
+    "INF-MODAL-S5-LANGUAGE"
+  ],
+  "meaning": "Stipulated mathematical consequence for issue #267; no historical or metaphysical premise is established. Move the collapse witness back to the root and onward using symmetry/transitivity. Decide only admissible truths at that witness, use negation closure to obtain agreement, then transport truth between component worlds. Apply extensionality only after agreement has been proved.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-S5-CLASSICAL-REASONING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

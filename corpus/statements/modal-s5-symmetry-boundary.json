@@ -1,0 +1,27 @@
+{
+  "id": "STMT-MODAL-S5-SYMMETRY-BOUNDARY",
+  "paraphrase": "The reused reflexive transitive branching frame has possible full MC and independently witnessed contingency at its root, but no actual full MC and no symmetry. Thus removing symmetry from the S5 propagation argument genuinely loses its conclusion even with reflexivity/transitivity retained.",
+  "lean_declaration": "TruthCore.Modal.S5Research.SymmetryBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-S5-MODELS",
+    "DEF-MODAL-S5-ATOM-ONLY",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

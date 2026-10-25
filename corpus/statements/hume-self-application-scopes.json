@@ -1,0 +1,20 @@
+{
+  "id": "STMT-HUME-SELF-APPLICATION-SCOPES",
+  "paraphrase": "In the existing universal selfC model, H, C(¬H) and ◇¬H hold at false but C(□¬H) does not: possible failure is not actual failure. In the one-step dead-end model H, □H and C(□¬H) hold at false but C(¬H) does not. Its lack of reflexivity and successor-seriality shows that no unconditional conflict follows on arbitrary frames.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ScopeCountermodels",
+  "definition_ids": [
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE",
+    "DEF-HUME-TEST-FRAME",
+    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+    "DEF-HUME-NECESSARY-DENIAL",
+    "DEF-HUME-ACTUAL-DENIAL",
+    "DEF-HUME-ONE-STEP-MODEL",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
+    "DISAMB-HUME-DENIAL-SCOPE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "HUME-SELF-APPLICATION-HIGHER",
+  "argument_id": "HUME-SELF-APPLICATION-HIGHER",
+  "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.checks",
+  "comparator_config": "results/HUME-SELF-APPLICATION-HIGHER/comparator.json",
+  "status": "solution-present"
+}

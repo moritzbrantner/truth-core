@@ -1,0 +1,22 @@
+{
+  "id": "STMT-MODAL-S5-LAWS",
+  "paraphrase": "In every S5 frame, full-predicate actual, possible and necessary MC coincide at the root. Possible full MC implies component-wide predicate agreement, possibility equivalent to actuality, actuality equivalent to necessity, and no independently supplied contingent predicate. If all supplied worlds form one universal component, every label equals the root. Identity predicates suffice; no separate extensionality axiom or excluded middle is used.",
+  "lean_declaration": "TruthCore.Modal.S5Research.Laws",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

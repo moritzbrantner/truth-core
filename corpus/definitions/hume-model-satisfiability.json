@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-MODEL-SATISFIABILITY",
+  "term": "satisfiability somewhere in the stipulated model",
+  "definition": "SatisfiableConception P w means ∃v, P v over the supplied Bool carrier, independently of access from w. This model-relative consistency test is not the historical absence of refutation from mere ideas and not general logical consistency.",
+  "basis": "stipulative",
+  "note": "Issue #268 finite analytical comparison, not a source attribution or a claim about metaphysical accessibility.",
+  "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.SatisfiableConception"
+}

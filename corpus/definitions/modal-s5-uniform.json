@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-UNIFORM",
+  "term": "uniform truth on a component",
+  "definition": "ComponentUniform F D w means every pair of worlds accessible from root w agrees at each admissible predicate in D. Agreement is not label identity; restricted-domain identity needs a separate extensionality premise.",
+  "basis": "stipulative",
+  "note": "Issue #267 mathematical semantics. The stipulation fixes an experiment and asserts no source attribution; applying it to metaphysics would require independent source and philosophical defense.",
+  "lean_declaration": "TruthCore.Modal.S5Research.ComponentUniform"
+}

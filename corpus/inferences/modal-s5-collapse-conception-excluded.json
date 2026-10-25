@@ -1,0 +1,17 @@
+{
+  "id": "INF-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "input_statement_ids": [
+    "STMT-MODAL-S5-SCENARIO-FRAME",
+    "STMT-MODAL-S5-SCENARIO-BRIDGE",
+    "STMT-MODAL-S5-SCENARIO-CONTINGENCY"
+  ],
+  "output_statement_id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "rule": "negation-introduction",
+  "meaning": "Assume C(MC). Apply the unrestricted bridge at the root to obtain possible full MC. Compose B symmetry propagation with K no-contingency, then contradict the independent positive and negative witnesses. Discharge C(MC); the three interpreted premises stay open.",
+  "assumption_statement_ids": [
+    "STMT-MODAL-S5-CONCEIVED-COLLAPSE"
+  ],
+  "discharged_statement_ids": [
+    "STMT-MODAL-S5-CONCEIVED-COLLAPSE"
+  ]
+}

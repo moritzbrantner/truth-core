@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-I-3-3-TIME-PLACE",
+  "paraphrase": "Hume challenges the time-and-place argument by putting an object’s uncaused existence and its uncaused determinate beginning on the same argumentative footing: a claimed absurdity in either still needs proof and cannot merely establish the other.",
+  "definition_ids": [
+    "DEF-HUME-TEST-DEMONSTRABILITY",
+    "DEF-HUME-TEST-BEGINNING",
+    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+  ]
+}
