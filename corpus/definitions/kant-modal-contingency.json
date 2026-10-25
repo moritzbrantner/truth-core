@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-MODAL-CONTINGENCY",
+  "term": "modal contingency",
+  "definition": "ContingentAt requires actual existence and an accessible world in which the same individual does not exist; it does not infer contingency from noncontradictory conceivability or from change.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
+}

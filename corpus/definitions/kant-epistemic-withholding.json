@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-EPISTEMIC-WITHHOLDING",
+  "term": "epistemic withholding of necessary-being verdicts",
+  "definition": "KnowsNecessary means that all available interpretations have an actual necessarily existing being. KnowsNoNecessary means that all lack one. The model makes both false while a designated actual interpretation has such a being; available interpretations are not metaphysical successors.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.KnowsNecessary"
+}

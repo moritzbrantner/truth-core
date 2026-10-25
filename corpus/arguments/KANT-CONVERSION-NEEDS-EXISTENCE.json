@@ -1,0 +1,22 @@
+{
+  "id": "KANT-CONVERSION-NEEDS-EXISTENCE",
+  "premise_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
+    "STMT-KANT-CONVERSION-IDENTITY-PREMISE"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-RESTRICTED-CONCLUSION",
+  "inference_ids": [
+    "INF-KANT-CONVERSION-NEEDS-EXISTENCE"
+  ],
+  "meaning": "Given a necessary witness, necessary-to-most-real inclusion and numerical identity of most-real candidates, conversion yields that every most-real candidate is necessary. This restricted consequence does not establish the premises or an a priori route. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-REALITY-PROFILE",
+    "DEF-KANT-REALITY-IDENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-REALITY-IDENTITY"
+  ]
+}

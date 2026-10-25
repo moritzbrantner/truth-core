@@ -1,0 +1,16 @@
+{
+  "id": "KANT-CHANGE-NOT-MODAL-CONTINGENCY-A",
+  "statement_id": "STMT-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "source_id": "KANT-CPR",
+  "locator": "Fourth Antinomy, thesis/antithesis and observations, A458–460/B486–488; paragraph “In the pure sense of the categories”",
+  "interpretation": "Kant’s criticism of the inference from empirical to intelligible contingency, not an assertion that every changing thing is metaphysically necessary. The separate model tests only this inferential insufficiency.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-EMPIRICAL-CONTINGENCY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY"
+  ]
+}

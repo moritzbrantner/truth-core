@@ -1,0 +1,19 @@
+{
+  "id": "KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE-A",
+  "statement_id": "STMT-KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE",
+  "source_id": "KANT-CPR",
+  "locator": "Fourth Antinomy resolution, A562–564/B590–592; paragraph “But it has been far from my intention”",
+  "interpretation": "The resolution limits the empirical understanding as well as speculative reason. Preserve compatibility without upgrading a problematic thought to a real-possibility proof. The antinomy’s antithesis is not Kant’s final atheistic conclusion.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-LIMIT-CONCEPT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-EPISTEMIC-WITHHOLDING",
+    "DEF-KANT-REAL-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-NECESSITY-AND-KNOWLEDGE",
+    "DISAMB-KANT-POSSIBILITY"
+  ]
+}

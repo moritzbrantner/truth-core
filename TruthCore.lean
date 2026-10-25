@@ -14,6 +14,7 @@ import TruthCore.English.Iemhoff.Intuitionism
 import TruthCore.English.OConnor.Metaethics
 import TruthCore.English.OConnor.ProblemOfEvil
 import TruthCore.English.VanRoojen.MoralCognitivism
+import TruthCore.German.Kant.CosmologicalInference
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Greek.Aristotle.MetaphysicsIV7
@@ -311,6 +312,11 @@ import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Solution
+import TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.Solution
+import TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Solution
+import TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution
+import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution
+import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

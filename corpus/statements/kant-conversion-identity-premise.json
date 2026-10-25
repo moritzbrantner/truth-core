@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KANT-CONVERSION-IDENTITY-PREMISE",
+  "paraphrase": "Any two most-real candidates are numerically identical, an analyst’s stronger sufficient identity premise left open.",
+  "definition_ids": [
+    "DEF-KANT-REALITY-PROFILE",
+    "DEF-KANT-REALITY-IDENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-REALITY-IDENTITY"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostRealUnique"
+}

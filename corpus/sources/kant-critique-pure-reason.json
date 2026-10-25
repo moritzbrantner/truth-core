@@ -1,0 +1,10 @@
+{
+  "id": "KANT-CPR",
+  "kind": "primary_text",
+  "author": "Immanuel Kant",
+  "work": "Critique of Pure Reason",
+  "citation_system": "A/B pagination of the 1781/1787 editions, plus named chapter/section and paragraph incipit in Meiklejohn",
+  "work_urn": "https://www.gutenberg.org/ebooks/4280",
+  "catalog_url": "https://www.gutenberg.org/ebooks/4280",
+  "notes": "J. M. D. Meiklejohn translation (1855), consulted in Gutenberg ebook 4280. This HTML does not print A/B page breaks: precise A/B concordances are recorded separately in the research note and never represented as native page markers."
+}

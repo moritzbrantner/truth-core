@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE",
+  "paraphrase": "One can, according to Aquinas, demonstrate that God exists from sensible effects without assuming prior knowledge of the divine quiddity.",
+  "definition_ids": [
+    "DEF-KANT-QUIA-DEMONSTRATION",
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-DIVINE-NAME-EFFECTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE",
+    "DISAMB-KANT-GOD-IDENTIFICATION"
+  ]
+}

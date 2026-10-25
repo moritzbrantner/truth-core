@@ -1,0 +1,9 @@
+{
+  "id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "argument_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.withholdingCompatibleWithBeing",
+  "comparator_config": "results/KANT-WITHHOLDING-COMPATIBLE-WITH-BEING/comparator.json",
+  "status": "solution-present"
+}

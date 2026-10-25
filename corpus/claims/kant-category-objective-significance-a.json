@@ -1,0 +1,18 @@
+{
+  "id": "KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE-A",
+  "statement_id": "STMT-KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE",
+  "source_id": "KANT-CPR",
+  "locator": "Analytic, Phenomena and Noumena, A248/B305; paragraph “It may be advisable, therefore, to express ourselves thus.”",
+  "interpretation": "Preserves the stronger objective-significance reading separately from the cognition-only scope reading. “No use” is qualified by the explicit retention of transcendental meaning and negative/limiting thought; this is no global thesis that thought creates things.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-LIMIT-CONCEPT",
+    "DEF-KANT-REAL-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE",
+    "DISAMB-KANT-POSSIBILITY"
+  ]
+}

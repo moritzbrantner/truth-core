@@ -1,0 +1,16 @@
+{
+  "id": "KANT-LOGICAL-NOT-REAL-POSSIBILITY-A",
+  "statement_id": "STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY",
+  "source_id": "KANT-CPR",
+  "locator": "Analytic, Phenomena and Noumena, A244/B302; paragraph “The conception of quantity”, discussion of contingency",
+  "interpretation": "The text calls the noncontradictoriness argument a merely logical condition insufficient for objective nonexistence. No general equation of possibility with observed actuality is asserted; the modal models remain analyst’s interpretations, not evidence of real possibility.",
+  "basis": "translation",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-KANT-LOGICAL-POSSIBILITY",
+    "DEF-KANT-REAL-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-POSSIBILITY"
+  ]
+}

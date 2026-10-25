@@ -1,0 +1,9 @@
+{
+  "id": "KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "argument_id": "KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.changeDoesNotGiveModalContingency",
+  "comparator_config": "results/KANT-CHANGE-NOT-MODAL-CONTINGENCY/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-A",
+  "statement_id": "STMT-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE",
+  "source_id": "KANT-CPR",
+  "locator": "Ideal, section V, A606–609/B634–637; paragraphs “In this cosmological argument” and “If the proposition”",
+  "interpretation": "Attribution of Kant’s objection to a particular necessary-being-to-most-real completion. It is not a theorem that every argument from effects imports an ontological proof. The conversion test below makes existence and identity assumptions explicit.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-REALITY-PROFILE",
+    "DEF-KANT-REALITY-INDISCERNIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-REALITY-IDENTITY"
+  ]
+}

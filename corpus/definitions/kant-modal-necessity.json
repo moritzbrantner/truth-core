@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-MODAL-NECESSITY",
+  "term": "necessary being in the countermodels",
+  "definition": "NecessaryAt m w x quantifies existence of one fixed individual over accessible worlds. NecessaryBeing additionally requires an actual witness. This is a de re possible-world surrogate, not an account of Kantian real possibility, duration, uncausedness, or Scott’s essence-based NE.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
+}

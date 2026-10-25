@@ -1,0 +1,9 @@
+{
+  "id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "argument_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.localCausalityInsufficient",
+  "comparator_config": "results/KANT-LOCAL-CAUSALITY-INSUFFICIENT/comparator.json",
+  "status": "solution-present"
+}

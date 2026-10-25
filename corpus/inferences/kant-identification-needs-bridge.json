@@ -1,0 +1,9 @@
+{
+  "id": "INF-KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "rule": "model-construction",
+  "meaning": "There is a modal interpretation with a necessarily existing individual but no existing bearer of all positive features. Necessary existence alone does not identify an ens realissimum.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

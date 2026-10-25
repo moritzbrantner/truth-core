@@ -1,0 +1,9 @@
+{
+  "id": "DEF-KANT-REAL-POSSIBILITY",
+  "term": "objective or real possibility in the Kantian criticism",
+  "definition": "Possibility of an object or its nonexistence, as distinct from consistency of a thought. In the cited criticism, mere noncontradiction does not establish it; objective application requires the conditions of cognition. The definition is deliberately a distinction, not a complete reduction of possibility to observed actuality.",
+  "basis": "sourced",
+  "claim_ids": [
+    "KANT-LOGICAL-NOT-REAL-POSSIBILITY-A"
+  ]
+}

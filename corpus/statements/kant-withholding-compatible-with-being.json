@@ -1,0 +1,14 @@
+{
+  "id": "STMT-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "paraphrase": "An explicit family of interpretations has a necessary being in its designated actual member while neither its existence nor its nonexistence is known across all epistemically available interpretations.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-EPISTEMIC-WITHHOLDING",
+    "DEF-KANT-ONTIC-DENIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-NECESSITY-AND-KNOWLEDGE"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.WithholdingCompatibleWithBeing"
+}

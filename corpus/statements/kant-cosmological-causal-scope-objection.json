@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION",
+  "paraphrase": "The cosmological proof’s use of contingent-to-cause inference to go beyond the sensible world exceeds the legitimate use of the causal principle.",
+  "definition_ids": [
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE"
+  ]
+}

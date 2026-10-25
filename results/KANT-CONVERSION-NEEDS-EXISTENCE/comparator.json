@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.conversionNeedsExistence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

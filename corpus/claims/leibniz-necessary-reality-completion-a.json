@@ -1,0 +1,13 @@
+{
+  "id": "LEIBNIZ-NECESSARY-REALITY-COMPLETION-A",
+  "statement_id": "STMT-LEIBNIZ-NECESSARY-REALITY-COMPLETION",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§§39–45",
+  "interpretation": "His own sequence adds uniqueness, universality and unrestricted dependence before unlimited reality (§40), distinguishing it from bare necessary existence. §45 expressly claims both a priori and a posteriori routes; independence of the latter remains contested by Kant, not settled by this reading.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-SUFFICIENT-REASON",
+    "DEF-KANT-REALITY-PROFILE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-REALITY-IDENTITY",
+  "term": "numerical uniqueness of most-real candidates",
+  "definition": "MostRealUnique requires any two candidates possessing every positive feature to be equal. This is an explicit stronger sufficient reconstruction of Kant’s “does not differ” claim; identity is not inferred from qualitative sameness without this premise.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostRealUnique"
+}
