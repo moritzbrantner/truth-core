@@ -1,0 +1,16 @@
+{
+  "id": "DPCU-WCC-2025-GREEK-C381-RECEPTION",
+  "statement_id": "STMT-CATHOLIC-RECEPTION-OF-GREEK-C381-SYMBOL",
+  "source_id": "DPCU-WCC-WPCU-2025",
+  "locator": "p. 11, final introductory paragraph before Order of Worship and note 4",
+  "interpretation": "The joint official resource quotes and attributes this recognition to the Pontifical Council’s 1995 clarification. The consulted witness is the later published quotation, not the complete original document. This bears on the reception of the Greek Symbol and prevents treating the hosted Catholic formula as textually identical with it. It does not itself classify the Symbol as divinely revealed, establish its truth, settle the procession terminology or establish the Church’s divine authority.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CREED-GREEK-C381-CONTENT",
+    "DEF-CREED-CATHOLIC-PROFESSION-FORMULA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREED-CONTENT-AND-FORMULA"
+  ]
+}

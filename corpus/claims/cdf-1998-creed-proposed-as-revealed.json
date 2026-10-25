@@ -1,0 +1,18 @@
+{
+  "id": "CDF-1998-CREED-PROPOSED-AS-REVEALED",
+  "statement_id": "STMT-CATHOLIC-PROFESSION-CREED-REVEALED-PROPOSAL",
+  "source_id": "CDF-PROFESSIO-FIDEI-1998",
+  "locator": "Doctrinal Commentary, nn. 4–5, 9, 11–12; Profession of Faith, opening formula and Creed",
+  "interpretation": "The commentary identifies the Nicene-Constantinopolitan Creed in the profession (n. 4), places Creed articles in the first doctrinal category (n. 11), and describes that category as formally revealed, irreformable Church teaching through solemn judgment or ordinary and universal magisterium (nn. 5, 9). This is a reading of institutional proposal status, not proof of article truth or divine authority. It does not by itself state the exact scope of the repository’s Greek twelve-clause list or equate different formulas. The separate Greek-reception witness supplies context for a supports relation, not an extra assertion attributed to this passage.",
+  "basis": "translation",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CREED-GREEK-C381-CONTENT",
+    "DEF-CREED-CATHOLIC-PROFESSION-FORMULA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREED-CONTENT-AND-FORMULA"
+  ]
+}

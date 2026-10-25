@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DPCU-WCC-WPCU-2025",
+    "source_url": "https://www.christianunity.va/content/dam/unitacristiani/Settimana%20di%20preghiera%20per%20unit%C3%A0/2025/2025%20EN%20%20WPCU.pdf",
+    "retrieved_at": "2026-10-25T17:40:55Z",
+    "sha256": "sha256:bc6d6aa72680599056caea9b0499192214ada848765b4136ac71f3070d3fe7f6",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Official joint publication publicly hosted by the Dicastery. The PDF gives a separate copyright notice for Scripture quotations; no general reuse licence is stated for the whole publication. The hosting site states Copyright 2018–2022 Vatican City State, all rights reserved. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "DPCU-WCC-WPCU-2025-CREED",
+      "locator": "pp.9–11, preparation and introductory instructions for the ecumenical worship service",
+      "claim_locator_prefixes": [
+        "p. 11, "
+      ],
+      "pdf_pages": {
+        "first": 9,
+        "last": 11
+      },
+      "text_sha256": "sha256:25f550b592bdcf6617efcf0db7b8bb69c75710a427674fcad5654d8d2f82d8b3",
+      "incipit": "THE PREPARATION OF THE MATERIAL FOR THE WEEK OF PRAYER FOR CHRISTIAN UNITY 2025"
+    }
+  ],
+  "notes": "Physical and printed pages 9–11 form a coherent preparation/instructions range. The quoted 1995 recognition of the Greek 381 Symbol is on p. 11 with attribution in note 4. This source does not itself classify the Creed as divinely revealed; that separate classification is read from CDF 1998."
+}
