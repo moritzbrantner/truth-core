@@ -1,10 +1,11 @@
+import { appendProofSearchState, DEFAULT_PROOF_BUDGET, parseProofSearchState, type ProofSearchState } from "./proof-exploration-state";
 import type { ClusterMode, GraphStatus } from "./proposition-graph";
 
 /** All /graph view state; it round-trips through the URL so views can be shared. */
 export type GraphView = "root" | "focus" | "all";
 export type FocusDirection = "up" | "down" | "both";
 
-export type GraphState = {
+export type GraphState = ProofSearchState & {
   view: GraphView;
   layout: "network" | "layered";
   leaf: "" | "unsupported" | "unconsumed" | "frontier";
@@ -61,6 +62,9 @@ const statuses: GraphStatus[] = [
 export const MAX_HOPS = 6;
 
 export const DEFAULT_STATE: GraphState = {
+  explore: false,
+  proofBudget: DEFAULT_PROOF_BUDGET,
+  proofScope: [],
   view: "all",
   layout: "network",
   leaf: "",
@@ -101,6 +105,7 @@ export function parseGraphState(params: ReadableParams): GraphState {
     layout: params.get("layout") === "layered" ? "layered" : "network",
     leaf: oneOf(params.get("leaf"), ["", "unsupported", "unconsumed", "frontier"] as const, ""),
     relations: params.get("relations") === "1",
+    ...parseProofSearchState(params),
     view: oneOf(params.get("view"), views, DEFAULT_STATE.view),
     scope: params.get("scope") === "goal" ? "goal" : "global",
     obligation: params.get("obligation") ?? "",
@@ -152,6 +157,7 @@ export function serializeGraphState(state: GraphState): string {
   for (const id of state.expanded) params.append("expand", id);
   if (state.returnView) params.set("return", state.returnView);
   if (state.viewport) params.set("viewport", state.viewport);
+  appendProofSearchState(params, state);
   return params.toString();
 }
 

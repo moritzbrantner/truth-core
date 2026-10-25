@@ -48,6 +48,13 @@ import {
   type PropositionGraph,
 } from "@/lib/proposition-graph";
 
+import { ProofExplorationControls } from "./proof-exploration-controls";
+import { ProofExplorationPanel } from "./proof-exploration-panel";
+import { useProofExploration } from "./use-proof-exploration";
+import { lemmaResearchObligation } from "@/lib/proof-exploration";
+import { proofOverlay, type ProofOverlay } from "@/lib/proof-overlay";
+import proofStyles from "./proof-overlay.module.css";
+
 const statusLabel = new Map(GRAPH_STATUSES.map((status) => [status.id, status.label]));
 
 const NODE_SIZE = {
@@ -56,7 +63,7 @@ const NODE_SIZE = {
   cluster: { width: 250, height: 104 },
 } as const;
 
-type FlowData = { view: ViewNode; selected: boolean } & Record<string, unknown>;
+type FlowData = { view: ViewNode; selected: boolean; proof?: ProofOverlay } & Record<string, unknown>;
 type FlowNode = Node<FlowData>;
 
 function StatementNodeView({ data }: NodeProps<FlowNode>) {
@@ -66,6 +73,11 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
   return (
     <div
       className="graph-node graph-node-statement"
+      data-proof-target={data.proof?.target ?? false}
+      data-proof-forward={data.proof?.forward ?? false}
+      data-proof-backward={data.proof?.backward ?? false}
+      data-proof-junction={data.proof?.junction ?? false}
+      data-proof-blocker={data.proof?.blocker ?? false}
       data-anchor={node.anchor}
       data-dimmed={!node.matched}
       data-frontier={statement.frontier}
@@ -86,6 +98,7 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
             ? ` · frontier (${statement.frontierDepth}) · ${statement.transitiveDependentArguments} dependent`
             : ""}
         </span>
+        {data.proof?.forward || data.proof?.backward ? <span className="graph-node-status">{data.proof?.established ? "Forward established" : data.proof?.forward ? "Forward proposed" : "Backward required"}{data.proof?.junction ? " · proposed junction" : ""}{data.proof?.blocker ? " · branch blocker" : ""}</span> : null}
         <span className="graph-node-text">{statement.paraphrase}</span>
         <span className="graph-node-badges">
           {provenance.map((claim) => (
@@ -114,6 +127,11 @@ function InferenceNodeView({ data }: NodeProps<FlowNode>) {
   return (
     <div
       className="graph-node graph-node-inference"
+      data-proof-target={data.proof?.target ?? false}
+      data-proof-forward={data.proof?.forward ?? false}
+      data-proof-backward={data.proof?.backward ?? false}
+      data-proof-junction={data.proof?.junction ?? false}
+      data-proof-blocker={data.proof?.blocker ?? false}
       data-anchor={node.anchor}
       data-dimmed={!node.matched}
       data-highlighted={node.highlighted}
@@ -197,15 +215,20 @@ export function PropositionGraphExplorer({
   const index = useMemo(() => indexGraph(graph), [graph]);
   const compact = state.layout === "network" && state.view === "all";
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
+  const proofTarget = index.statementById.has(state.target) ? state.target : graph.defaultTarget ?? "";
+  const proof = useProofExploration(graph, state.explore, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
+  const visibleProof = state.explore && proof.result?.target === proofTarget ? proof.result : null;
+  const overlay = useMemo(() => proofOverlay(graph, visibleProof), [graph, visibleProof]);
+  const lemmaObligation = useMemo(() => visibleProof ? lemmaResearchObligation(visibleProof, graph.defaultTarget ?? "") : null, [visibleProof, graph.defaultTarget]);
   const queue = useMemo(
     () =>
-      orderObligations(obligations, {
+      orderObligations(lemmaObligation ? [...obligations, lemmaObligation] : obligations, {
         target: state.scope === "goal" ? state.target || graph.defaultTarget || "" : "",
         selected: state.sel,
         pins: state.pins,
         kind: state.kind,
       }),
-    [obligations, graph.defaultTarget, state.scope, state.target, state.sel, state.pins, state.kind],
+    [obligations, lemmaObligation, graph.defaultTarget, state.scope, state.target, state.sel, state.pins, state.kind],
   );
   const activeObligation = queue.find((item) => item.id === state.obligation);
   const search = useMemo(() => searchStatements(graph, state, 12, index), [graph, state, index]);
@@ -269,6 +292,7 @@ export function PropositionGraphExplorer({
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
         selected: node.id === state.sel,
+        proof: overlay.get(node.id),
         community: network.community.get(node.id) ?? 0,
         degree: network.degree.get(node.id) ?? 0,
       },
@@ -295,7 +319,7 @@ export function PropositionGraphExplorer({
             },
     }));
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, activeObligation, graph.arguments, compact, network, index]);
+  }, [view, state.sel, activeObligation, graph.arguments, compact, network, index, overlay]);
 
   const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
@@ -329,7 +353,7 @@ export function PropositionGraphExplorer({
   const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
 
   return (
-    <section aria-labelledby="graph-heading" className="mt-2">
+    <section aria-labelledby="graph-heading" className={`mt-2 ${proofStyles.overlay}`}>
       <h2 className="sr-only" id="graph-heading">
         Proposition graph
       </h2>
@@ -698,6 +722,7 @@ export function PropositionGraphExplorer({
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
       </p>
 
+      <ProofExplorationControls graph={graph} target={proofTarget} state={state} start={(next) => update(next)} hide={() => update({ explore: false })} />
       <div className="frontier-workspace">
         <ResearchQueue
           items={queue}
@@ -743,6 +768,7 @@ export function PropositionGraphExplorer({
           <DetailPanel graph={graph} index={index} state={state} update={update} network={network} />
         </div>
       </div>
+      {state.explore ? <ProofExplorationPanel graph={graph} result={visibleProof} running={proof.running} onCancel={proof.cancel} onFocus={(id) => update({ view: "focus", node: id, sel: id, viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} /> : null}
     </section>
   );
 }

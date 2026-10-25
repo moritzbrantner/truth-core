@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.ComposedWitness.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthPilot.ComposedWitness.composedWitness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

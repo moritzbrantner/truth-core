@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-FIXTURE-CHECKS",
+  "argument_id": "MODAL-FIXTURE-CHECKS",
+  "challenge_module": "TruthCore.Results.Modal.ResearchFixture.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ResearchFixture.Solution",
+  "theorem": "TruthCore.Results.Modal.ResearchFixture.checks",
+  "comparator_config": "results/MODAL-FIXTURE-CHECKS/comparator.json",
+  "status": "solution-present"
+}

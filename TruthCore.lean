@@ -127,6 +127,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Latin.Tacitus.Annals
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
@@ -135,6 +136,8 @@ import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
 import TruthCore.Modal.Kripke
+import TruthCore.Modal.ResearchFinite
+import TruthCore.Modal.ResearchFixture
 import TruthCore.Modern.Hume.Conceivability
 import TruthCore.Modern.Hume.Regularity
 import TruthCore.Modern.Hume.RegularityModels
@@ -371,7 +374,9 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
 import TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution
 import TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution
 import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
@@ -380,6 +385,7 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
 import TruthCore.Results.Modern.Hume.Regularity.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution

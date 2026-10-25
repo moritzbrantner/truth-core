@@ -1,0 +1,18 @@
+{
+  "id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "premise_statement_ids": [
+    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "inference_ids": [
+    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
+    "INF-PILOT-WITNESS-AND-CONSEQUENCE"
+  ],
+  "meaning": "The B → C bridge: recover a holding proposition from the supplied denial of universal failure using the imported pilot theorem, then pair that witness with the supplied premise. This is a logical conditional, not an independent ground for its premise.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
