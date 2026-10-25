@@ -4,6 +4,7 @@ import { ThemeSwitcher } from "@/components/theme-switcher";
 
 const links = [
   { href: "/", label: "State" },
+  { href: "/skeleton", label: "Skeleton" },
   { href: "/claims", label: "Claims" },
   { href: "/sources", label: "Sources" },
   { href: "/results", label: "Arguments" },
