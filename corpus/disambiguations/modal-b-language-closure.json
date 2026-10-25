@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-MODAL-B-LANGUAGE-CLOSURE",
+  "term": "restricted language versus a restricted inventory",
+  "sense_definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "resolution": "The expressible domain contains all denotations of formulas in a fixed modal language. The atomsOnly inventory contains just p and omits even Box p. A countermodel to propagation for that inventory is not a countermodel for a domain closed under negation and box. LanguagePropagation keeps both closure assumptions and excluded middle explicit. Duplicate labels can agree throughout the modal language while allPredicates distinguishes them; neither collapse nor modal-language agreement silently identifies metaphysical possibilities."
+}

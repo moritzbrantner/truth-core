@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-B-DISCONNECTED-SCOPE",
+  "argument_id": "MODAL-B-DISCONNECTED-SCOPE",
+  "challenge_module": "TruthCore.Results.Modal.B.DisconnectedScope.Challenge",
+  "solution_module": "TruthCore.Results.Modal.B.DisconnectedScope.Solution",
+  "theorem": "TruthCore.Results.Modal.B.DisconnectedScope.checks",
+  "comparator_config": "results/MODAL-B-DISCONNECTED-SCOPE/comparator.json",
+  "status": "solution-present"
+}

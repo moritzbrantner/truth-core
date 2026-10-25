@@ -1,0 +1,24 @@
+{
+  "id": "STMT-MODAL-B-SCOPE-BOUNDARY",
+  "paraphrase": "The shared duplicate-label B frame has modal-language MC at every label but fails full MC and language world extensionality. With excluded middle, negation closure and domain world extensionality explicitly supplied, symmetry instead carries possible domain MC to actual full MC. The shared reflexive branching frame shows that dropping symmetry allows possible full MC without actual full MC.",
+  "lean_declaration": "TruthCore.Modal.BResearch.ScopeBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}

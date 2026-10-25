@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-B-INVENTORY",
+  "term": "one-atom inventory domain",
+  "definition": "atomsOnly admits precisely the predicate p via corpusDomain with a Unit inventory. It is neither allPredicates nor expressible, the full denotation set of modal formulas. Collapse holds at left but fails at middle; the inventory does not contain Box p, although Box p is expressible in the modal language.",
+  "basis": "stipulative",
+  "note": "Stipulated mathematical experiment requested in #266, not an attribution to Hume or a metaphysical account. Historical adoption would require a separate pinned source and interpretation.",
+  "lean_declaration": "TruthCore.Modal.BResearch.atomsOnly"
+}

@@ -140,6 +140,7 @@ import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
 import TruthCore.Metaethics.NaturalisticRealism
 import TruthCore.Metaethics.Questions
+import TruthCore.Modal.BResearch
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
 import TruthCore.Modal.KResearch
@@ -415,6 +416,11 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Modal.B.Countermodels.Solution
+import TruthCore.Results.Modal.B.DisconnectedScope.Solution
+import TruthCore.Results.Modal.B.LanguagePropagation.Solution
+import TruthCore.Results.Modal.B.Laws.Solution
+import TruthCore.Results.Modal.B.ScopeBoundary.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution

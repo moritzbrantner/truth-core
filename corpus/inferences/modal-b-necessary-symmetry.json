@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-NECESSARY-SYMMETRY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-NECESSARY-SYMMETRY",
+  "rule": "direct-proof",
+  "meaning": "Compose K successor identity for actual-to-necessary MC. Conversely each accessible successor has MC; its symmetric back-edge to the root and admissible equality identify it with the root. K successor identity then yields actual MC. At a dead end the universal reasoning remains valid without positing a successor.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

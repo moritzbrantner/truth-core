@@ -1,0 +1,24 @@
+{
+  "id": "STMT-MODAL-B-LANGUAGE-PROPAGATION",
+  "paraphrase": "On a symmetric frame, possible domain-relative MC entails actual MC if the domain is closed under negation and box and excluded middle is supplied explicitly. This conditional theorem requires neither world extensionality, identity predicates, reflexivity nor transitivity.",
+  "lean_declaration": "TruthCore.Modal.BResearch.LanguagePropagation",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}
