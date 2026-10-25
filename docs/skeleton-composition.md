@@ -1,7 +1,7 @@
 # Connecting stages 1 and 2 to the Catholic skeleton
 
 The designated root proof is now
-`CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES`. Its Lean theorem derives
+`CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`. Its Lean theorem derives
 `STMT-CATHOLICISM-TRUE` from the existing philosophical and historical premises;
 it does not establish their truth. The previous root results and their frozen
 Challenges remain available.
@@ -13,7 +13,11 @@ makes that connection inside Lean, retaining the same being through both stages.
 
 ```mermaid
 flowchart TD
-  P[Prima via and quarta via results] --> W[Same first mover and maximal being]
+  E[Efficient-cause no-regress and mover/cause link] --> M[Imported mover-regress transfer]
+  EM[General excluded middle] --> I[Imported first-mover excluded-middle instance]
+  M --> P[Prima via and quarta via results]
+  I --> P
+  P --> W[Same first mover and maximal being]
   N[Full-description naming result] --> W
   W --> A[Eight pointwise attribute proofs]
   U[Original God-to-maximal premise] --> O[Existing GodIsOne proof]
@@ -24,13 +28,35 @@ flowchart TD
   S --> R[CatholicismTrue, conditional on those premises]
 ```
 
-The diagram summarizes two verified-result records; it adds no inference by
+The diagram summarizes imported verified results; it adds no inference by
 itself:
 
 | Result | Consumed results | Conclusion |
 | --- | --- | --- |
 | `CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS` | `PrimaVia.primaVia`, `QuartaVia.quartaVia`, `MaximeEnsIsGodViaFullDescription.maximeEnsIsGodViaFullDescription`, `FirstMoverIsMaximeEns.firstMoverIsMaximeEns`, the nine `StageTwo.God…` proofs | `UniqueClassicalGodExists`: one being is God, is the only `IsGod` instance, and has classical attributes |
 | `CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` | The same-witness result and `Skeleton.catholicismSkeleton` | The existing phase-1 Catholic root |
+
+## Deriving the remaining proved inputs
+
+The designated route now also imports
+`MoverRegressFromCauseRegress.moverRegressFromCauseRegress` and
+`FirstUnmovedMoverExistsOrNotFromEm.firstUnmovedMoverExistsOrNotFromExcludedMiddle`.
+The first transfers accessibility from per se efficient-cause links to mover
+links under their explicitly assumed inclusion. The second instantiates the
+already-present general excluded-middle premise at first-mover existence.
+
+`CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES` then imports
+`FromPrimaViaWithClassicalAttributes.catholicismFromPrimaViaWithClassicalAttributes`.
+It does not duplicate the preceding same-witness or skeleton proofs. The four
+existing inference-application records remain explicit in the composed argument.
+
+The theorem no longer takes `STMT-NO-INFINITE-PER-SE-MOVER-SERIES` or
+`STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT` as independent inputs. Its efficient-cause
+no-regress and mover/cause-link premises were already in the philosophical
+frontier, so this discharges proved theorem inputs rather than philosophical
+assumptions. The frontier still has the same 37 open statement IDs (four bare,
+33 sourced). Neither causal well-foundedness nor the link is established merely
+by composing these results.
 
 ## Why the witness must remain the same
 
