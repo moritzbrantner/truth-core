@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-BECOMING-BEING-CAUSE",
+  "term": "causing an effect",
+  "sense_definition_ids": [
+    "DEF-CAUSE-OF-BECOMING",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed."
+}

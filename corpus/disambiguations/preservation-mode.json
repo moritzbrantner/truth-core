@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PRESERVATION-MODE",
+  "term": "preservation",
+  "sense_definition_ids": [
+    "DEF-PER-SE-ESSE-CONSERVATION",
+    "DEF-PER-ACCIDENS-PRESERVATION"
+  ],
+  "resolution": "Q.104 a.1 distinguishes direct dependence for esse from preventing corruption. Only the former is the proposed subject of a cause-of-esse interpretation; guardian-like protection is not identified with CausesIn at esse. Neither sense is arbitrary modal power."
+}
