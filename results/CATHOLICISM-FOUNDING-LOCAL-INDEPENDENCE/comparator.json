@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FoundingIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.FoundingIndependence.independent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

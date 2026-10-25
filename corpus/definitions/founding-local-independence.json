@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FOUNDING-LOCAL-INDEPENDENCE",
+  "term": "Local founding schema independence",
+  "lean_declaration": "TruthCore.Case.Catholicism.FoundingIndependence.LocalInputsDoNotForceFounding",
+  "note": "A mathematical model-existence test using the existing skeleton Signature and Resurrection.State. The witness reuses the existing Resurrection.model with only Founded and VisibleWithAuthority set to True. All primitive fields retain their existing advertised meanings but assignments establish schema satisfiability only, without establishing source fidelity or metaphysical possibility. AuthorityVindicated does not encode an agency law. No identification of Jesus with God, institutional commission, or truth protection is defined here.",
+  "basis": "stipulative",
+  "definition": "Existence of a Resurrection.State satisfying all declared local test constraints while BridgeChristsChurchFoundedByGod fails. This is a schema non-entailment statement, with no claim about historical truth or theological possibility."
+}
