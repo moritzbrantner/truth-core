@@ -13,6 +13,23 @@
   },
   "passages": [
     {
+      "id": "VATICAN-I-DEI-FILIUS-CH1",
+      "locator": "ch. 1 (DS 3001-3003)",
+      "claim_locator_prefixes": [
+        "ch. 1, "
+      ],
+      "html_selector": {
+        "from": {
+          "text": "CAPUT I"
+        },
+        "to": {
+          "text": "CAPUT II"
+        }
+      },
+      "text_sha256": "sha256:5c3885c77bd3d1492cb3f9d977d9b7be55f8e635fd10ffd06ac6f2d7c99ffdc2",
+      "incipit": "CAPUT I\nDE DEO RERUM OMNIUM CREATORE"
+    },
+    {
       "id": "VATICAN-I-DEI-FILIUS-CH3",
       "locator": "ch. 3 (DS 3008-3014)",
       "claim_locator_prefixes": [

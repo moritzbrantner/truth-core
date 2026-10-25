@@ -1,0 +1,12 @@
+{
+  "id": "DEF-UNIVERSALLY-PERFECT",
+  "term": "perfect (universaliter perfectus; Lean `IsPerfect`)",
+  "definition": "`IsPerfect InAct g`: whatever any being is in act in, g is in act in, formally or eminently (ST I q.4 a.2).",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A",
+    "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect",
+  "note": "The case's reading of q.4 a.2's 'universaliter perfectus'. `InAct` covers being in act formally or virtually (DEF-IN-ACT-FORMALLY, DEF-IN-ACT-VIRTUALLY), which is how 'eminently' is kept."
+}

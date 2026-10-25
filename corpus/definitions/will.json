@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HAS-WILL",
+  "term": "has will (ST I q.19; Lean parameter `HasWill` of `GodHasWill`)",
+  "definition": "`HasWill g`: g has will in the sense of ST I q.19 a.1, the inclination that follows understanding. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill",
+  "note": "Stage 2 group 3 (#201) gives it content for God through ST I q.19 a.1: whatever has intellect has will."
+}
