@@ -9,7 +9,8 @@ theorem godIsImmutable {Being : Type} {Respect : Type}
     (PriorSimply : Being → Being → Prop)
     (hMaximal : GodIsMaximalInBeing IsGod InAct MoreIn esse)
     (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
-    (hPureAct : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply) :
+    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
+    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency) :
     GodIsImmutable IsGod (IsImmutable InPotency) := by
   sorry
 end TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable

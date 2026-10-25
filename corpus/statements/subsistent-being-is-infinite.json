@@ -1,1 +1,1 @@
-{"id": "STMT-SUBSISTENT-BEING-IS-INFINITE", "paraphrase": "What is its own subsistent being (its act of being is its essence, not received in anything) is infinite.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SubsistentBeingIsInfiniteReading"}
+{"id": "STMT-SUBSISTENT-BEING-IS-INFINITE", "paraphrase": "What is its own subsistent being (its act of being is its essence, not received in anything) is infinite.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SubsistentBeingIsInfiniteReading", "definition_ids": ["DEF-INFINITE", "DEF-ESSE"]}

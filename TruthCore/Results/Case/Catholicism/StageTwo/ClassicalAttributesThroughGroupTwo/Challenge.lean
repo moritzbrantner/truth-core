@@ -27,7 +27,8 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle :
     (hGoodness : GoodnessIsActualityReading GoodIn InAct)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
     (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
-    (hPureAct : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply)
+    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
+    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency)
     (hKinds : MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
       essenceOf esseOf)
     (hInfinity : SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite)

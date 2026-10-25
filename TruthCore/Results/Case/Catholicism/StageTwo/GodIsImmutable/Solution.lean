@@ -1,3 +1,4 @@
+import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable
@@ -15,10 +16,15 @@ theorem godIsImmutable {Being : Type} {Respect : Type}
     (PriorSimply : Being → Being → Prop)
     (hMaximal : GodIsMaximalInBeing IsGod InAct MoreIn esse)
     (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
-    (hPureAct : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply) :
+    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
+    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency) :
     GodIsImmutable IsGod (IsImmutable InPotency) := by
   -- INF-STAGE2-GOD-IS-IMMUTABLE
   intro g hg
+  -- AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY (imported): the first being is in
+  -- potency in no respect, from act's simple priority and q.2 a.3's act/potency rule.
+  have hPureAct := TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.firstBeingNoPotency
+    InPotency InAct PriorSimply hPrior hNotBoth
   exact hPureAct g (hFirstBeing g (hMaximal g hg))
 
 end TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable
