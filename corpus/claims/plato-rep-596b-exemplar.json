@@ -1,0 +1,37 @@
+{
+  "id": "PLATO-REP-596B-EXEMPLAR",
+  "statement_id": "STMT-PLATONIC-EXEMPLAR-PARTICIPATION",
+  "source_id": "PLATO-REP",
+  "locator": "596b",
+  "interpretation": "The artisan looks to the bed/table Form when making the artifact. The directed model/copy reading is restricted to corresponding artifacts; the painter’s imitation of appearances in 598 is distinguished. This is a schematic reading, not an assertion that every property is copied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+    "DEF-PLATONIC-HUMAN-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-SEPARATION",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-HUMAN"
+  ]
+}

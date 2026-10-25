@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-ESSENTIAL",
+  "term": "is F",
+  "definition": "Essentially f q expresses the essential-characterization reading of F-itself. It is distinct from ordinary exemplification and does not imply it without an additional premise.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

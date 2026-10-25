@@ -1,0 +1,133 @@
+{
+  "snapshot": {
+    "source_id": "PLATO-REP",
+    "edition_urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "a065c359aab33c33bd17ddc2cac7d27fdc9cd870",
+    "path": "data/tlg0059/tlg030/tlg0059.tlg030.perseus-grc2.xml",
+    "git_blob_sha": "4f3300b5e43b34342f00bf0e53c0de62a5c71fc7",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/a065c359aab33c33bd17ddc2cac7d27fdc9cd870/data/tlg0059/tlg030/tlg0059.tlg030.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0"
+  },
+  "passages": [
+    {
+      "id": "PLATO-REP-475",
+      "locator": "475",
+      "claim_locator_prefixes": [
+        "475"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "475"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-476",
+      "locator": "476",
+      "claim_locator_prefixes": [
+        "476"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "476"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-477",
+      "locator": "477",
+      "claim_locator_prefixes": [
+        "477"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "477"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-478",
+      "locator": "478",
+      "claim_locator_prefixes": [
+        "478"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "478"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-479",
+      "locator": "479",
+      "claim_locator_prefixes": [
+        "479"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "479"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-480",
+      "locator": "480",
+      "claim_locator_prefixes": [
+        "480"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "480"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-596",
+      "locator": "596",
+      "claim_locator_prefixes": [
+        "596"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "596"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-597",
+      "locator": "597",
+      "claim_locator_prefixes": [
+        "597"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "597"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-REP-598",
+      "locator": "598",
+      "claim_locator_prefixes": [
+        "598"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "598"
+        }
+      ]
+    }
+  ],
+  "notes": "Full Stephanus pages provide context beyond the precise claim locators. Issue #257 reading ranges; no objection-track claims are added."
+}

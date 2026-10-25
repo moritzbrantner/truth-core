@@ -1,0 +1,38 @@
+{
+  "id": "PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY",
+  "statement_id": "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "100d–e",
+  "interpretation": "Explanatory reading of the safe answer: beautiful things are beautiful through beauty; the schematic extension is only over admitted qualities. The relation’s mechanism is expressly left open. This sibling adds an explanatory commitment rather than proving it from classification.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+    "DEF-PLATONIC-HUMAN-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-SEPARATION",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-HUMAN"
+  ],
+  "interpretation_of": "PLATO-PHAEDO-100D-PARTICIPATION-THIN"
+}
