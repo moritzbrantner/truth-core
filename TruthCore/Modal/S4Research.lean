@@ -16,7 +16,8 @@ def SameCluster {W : Type} (F : Frame W) (w v : W) : Prop :=
   F.access w v ∧ F.access v w
 
 /-- All hypotheses are inside the quantified mathematical result. Full collapse
-forces a singleton cluster; terminality alone does not. Symmetry supplies the
+forces at most one mutually accessible world; reflexivity supplies self-membership
+and hence a singleton cluster. Terminality alone does not. Symmetry supplies the
 backward edge absent from general S4 frames. -/
 def Laws : Prop :=
   (∀ (W : Type) (F : Frame W) w,

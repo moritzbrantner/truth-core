@@ -1,6 +1,6 @@
 {
   "id": "STMT-MODAL-S4-LAWS",
-  "paraphrase": "On any reflexive frame, actual full-predicate collapse is equivalent to necessary full-predicate collapse. Any full-collapsed world has a singleton mutual-accessibility cluster. On a symmetric frame, possible full-predicate collapse entails actual collapse. These conditional laws do not add symmetry to S4.",
+  "paraphrase": "On any reflexive frame, actual full-predicate collapse is equivalent to necessary full-predicate collapse. Without a frame condition, a full-collapsed world has at most one mutually accessible world, necessarily itself if any exists. Reflexivity, hence S4, supplies self-access and makes this set a genuine singleton. On a symmetric frame, possible full-predicate collapse entails actual collapse. These conditional laws do not add symmetry to S4.",
   "lean_declaration": "TruthCore.Modal.S4Research.Laws",
   "definition_ids": [
     "DEF-MODAL-FIXTURE-DOMAIN",

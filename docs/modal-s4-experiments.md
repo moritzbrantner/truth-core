@@ -12,8 +12,11 @@ hypotheses occur inside the quantified mathematical laws.
 replacing it with a premise. Full-predicate collapse at a world makes every
 successor that same world. Transport therefore gives necessary full collapse;
 reflexivity supplies the converse. Consequently, in S4 actual full collapse is
-equivalent to necessary full collapse. A mutual-accessibility cluster containing
-a full-collapsed world must be singleton. Terminality alone does **not** make a
+equivalent to necessary full collapse. The unrestricted cluster clause says only that
+any world mutually accessible from a full-collapsed world equals that world: the
+set has at most one member. Reflexivity, hence S4, supplies self-membership and
+makes it a genuine singleton. Without reflexivity a dead end has vacuous full MC
+and an empty mutual-accessibility set. Terminality alone does **not** make a
 cluster singleton: the paired model below has a terminal two-world cluster.
 
 Symmetry would also transport possible full collapse back to the root: an
