@@ -4,7 +4,8 @@
   "sense_definition_ids": [
     "DEF-MOTION-AS-REDUCTION",
     "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ARISTOTELIAN-CAUSE-MODES"
+    "DEF-ARISTOTELIAN-CAUSE-MODES",
+    "DEF-CAUSE-OF-ORIGIN"
   ],
-  "resolution": "The case keeps moving (`MovesIn`, a present reduction from potency to act), causing a perfection (`CausesIn`, with 'cause of being' at esse) and simple priority (`PriorSimply`, DEF-SIMPLE-PRIORITY) as separate predicates, and every passage between them is an explicit premise: STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (open, bare) from simple priority to cause of being; STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD (sourced, q.105 a.5: an agent whose being God causes is itself moved when it moves) linking causing being and moving; STMT-DIRECTING-IS-MOVING for the quinta via. Aristotle's four modes classify causes in general and are not premises of the root path."
+  "resolution": "The case keeps moving (`MovesIn`, a present reduction from potency to act), causing a perfection (`CausesIn`, with 'cause of being' at esse) and simple priority (`PriorSimply`, DEF-SIMPLE-PRIORITY) as separate predicates, and every passage between them is an explicit premise: STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (open, bare) from simple priority to cause of being; STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD (sourced, q.105 a.5: an agent whose being God causes is itself moved when it moves) linking causing being and moving; STMT-DIRECTING-IS-MOVING for the quinta via. Aristotle's four modes classify causes in general and are not premises of the root path. SCG I.13’s cause of coming to be (CausesOrigin) is recorded separately from moving in a respect or causing a perfection; the finite-past result does not identify its cause as God."
 }

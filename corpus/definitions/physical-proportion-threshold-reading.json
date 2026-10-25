@@ -1,0 +1,13 @@
+{
+  "id": "DEF-PHYSICAL-PROPORTION-THRESHOLD-READING",
+  "term": "proportional description and threshold possibility in Physics VII.5",
+  "definition": "The chapter compares specified whole, half and double agents, affected objects and elapsed times within a stated proportional setup. Its later qualification permits a halved alterer or grower to produce no change in some case. In the current encoding, doubling/halving descriptions are primitive propositions, and HalfAltererAltersIn/HalfGrowerGrowsIn are predicates on cases. Existential failure cases do not mean every halved agent fails or encode physical possibility by a modal logic.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "ARIST-PHYS-250B1-DOUBLE-ALTERATION-TIME-A",
+    "ARIST-PHYS-250B2-ALTERATION-OBJECT-TIME-SCALING-A",
+    "ARIST-PHYS-250B4-HALF-AGENT-NO-CHANGE-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.HalfAltererGrowerMayProduceNoChangeReading",
+  "note": "An explicit account of the existing reading interface, not a new mechanics model. A model of measured degrees, sizes, durations and causal thresholds would be needed before attributing numerical dynamics to these proposition parameters."
+}

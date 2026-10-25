@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-II-Q94-A2-PER-SE-NOTUM-DEFINITION",
+  "statement_id": "STMT-PER-SE-NOTUM-PREDICATE-IN-SUBJECT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I-II q.94 a.2 co.: Secundum se quidem quaelibet propositio dicitur per se nota, cuius praedicatum est de ratione subiecti; contingit tamen quod ignoranti definitionem subiecti, talis propositio non erit per se nota",
+  "interpretation": "Aquinas distinguishes self-evidence in itself from self-evidence to us. Predicate-in-the-account-of-the-subject gives the first; someone ignorant of the subject’s definition need not recognize it. This is the definition used in the natural-law context, not a claim that a corpus premise has already earned a self_evident marking.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NATURAL-LAW-PER-SE-NOTA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PER-SE"
+  ]
+}

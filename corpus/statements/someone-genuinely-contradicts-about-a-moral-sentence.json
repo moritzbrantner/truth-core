@@ -1,1 +1,1 @@
-{"id": "STMT-SOMEONE-GENUINELY-CONTRADICTS-ABOUT-A-MORAL-SENTENCE", "paraphrase": "Two people genuinely contradict each other about a given moral sentence (assumption for reductio)."}
+{"id": "STMT-SOMEONE-GENUINELY-CONTRADICTS-ABOUT-A-MORAL-SENTENCE", "paraphrase": "Two people genuinely contradict each other about a given moral sentence (assumption for reductio).", "definition_ids": ["DEF-GENUINE-MORAL-CONTRADICTION", "DEF-TRUTH-VALUE", "DEF-MORAL-STATEMENT"], "disambiguation_ids": ["DISAMB-MORAL-DISAGREEMENT"]}

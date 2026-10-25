@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DIRECTOR-REGRESS-INTERFACE",
+  "term": "director regress, cognition and understanding (formal interface)",
+  "definition": "A director is a being related by Directs to a thing and an end. The regress reuses the first-way MovesIn/MovedIn relations and its strong per-se link: a mover distinct from its effect which is itself moved in some respect is linked by MovesAsMoved, with the advertised no-infinite-series premise. A director moved by none is moved in no respect. HasCognition and Intelligent are distinct primitive predicates for knowing and understanding; they are not inferred just by calling something a director. DirectionPassesToMoversOfDirectors and UnmovedDirectorKnowsAndUnderstands are separate open bridges, not definitions of motion or conclusions already supplied by q.103.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UnmovedDirectorKnowsAndUnderstands",
+  "note": "Exposes the typed vocabulary used by the existing director-regress proof. A sourced account of instrumental dependence and the inference from an unmoved director to knowing/understanding would be needed to discharge the two open bridges. No identification with the skeleton HasIntellect predicate is imposed here."
+}

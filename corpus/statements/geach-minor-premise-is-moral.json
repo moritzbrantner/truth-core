@@ -1,1 +1,1 @@
-{"id": "STMT-GEACH-MINOR-PREMISE-IS-MORAL", "paraphrase": "The minor premise of Geach's argument, 'tormenting the cat is bad', is a moral sentence.", "lean_declaration": "TruthCore.English.VanRoojen.GeachMinorPremiseIsMoralReading"}
+{"id": "STMT-GEACH-MINOR-PREMISE-IS-MORAL", "paraphrase": "The minor premise of Geach's argument, 'tormenting the cat is bad', is a moral sentence.", "lean_declaration": "TruthCore.English.VanRoojen.GeachMinorPremiseIsMoralReading", "definition_ids": ["DEF-MORAL-STATEMENT"]}

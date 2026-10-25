@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CAUSE-OF-ORIGIN",
+  "term": "innovating cause, cause of coming to be",
+  "definition": "A cause other than the thing itself from which that thing’s coming to be takes its origin. CausesOrigin c x is the primitive relation for this source reading; the reading of SCG I.13 requires such a c for what comes to be anew. It does not identify the cause as God, identify it with moving in an arbitrary respect, or equate beginning with being present at a first instant.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-SCG-I-13-INNOVATING-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
+}

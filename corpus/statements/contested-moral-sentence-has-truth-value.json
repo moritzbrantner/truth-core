@@ -1,1 +1,1 @@
-{"id": "STMT-CONTESTED-MORAL-SENTENCE-HAS-TRUTH-VALUE", "paraphrase": "The moral sentence two people genuinely contradict each other about has a truth value."}
+{"id": "STMT-CONTESTED-MORAL-SENTENCE-HAS-TRUTH-VALUE", "paraphrase": "The moral sentence two people genuinely contradict each other about has a truth value.", "definition_ids": ["DEF-GENUINE-MORAL-CONTRADICTION", "DEF-TRUTH-VALUE", "DEF-MORAL-STATEMENT"], "disambiguation_ids": ["DISAMB-MORAL-DISAGREEMENT"]}

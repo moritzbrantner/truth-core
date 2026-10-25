@@ -1,0 +1,10 @@
+{
+  "id": "DEF-EMOTIVISM-OCCASION",
+  "term": "emotivism, occasion-based meaning hypothesis",
+  "definition": "The particular reading tested by the Frege–Geach argument: an occurrence’s moral meaning is accounted for by the attitude it expresses there, represented by the constraint that equal meanings express the same attitudes. This is the naive occasion-based hypothesis, not every form of expressivism and not an identification with O’Connor’s separately recorded denial of moral truth value.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-MORAL-COGNITIVISM-4-1-EMOTIVIST-MEANING-OCCASION-A"
+  ],
+  "lean_declaration": "TruthCore.English.VanRoojen.EmotivistMeaningIsExpressedAttitudeReading"
+}

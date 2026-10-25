@@ -1,0 +1,10 @@
+{
+  "id": "DEF-DESCRIPTIVE-MORAL-MEANING",
+  "term": "descriptive meaning of moral sentences (Stevenson reading)",
+  "definition": "A descriptive semantic component in addition to the emotive component: predicating a property of an action or object while expressing approval or disapproval. The existing reading records only HasDescriptiveMeaning of moral sentences; it does not claim to give that component’s semantics or prove that it alone explains validity.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-MORAL-COGNITIVISM-2-1-STEVENSON-DESCRIPTIVE-MEANING"
+  ],
+  "lean_declaration": "TruthCore.English.VanRoojen.MoralSentencesHaveDescriptiveMeaningReading"
+}
