@@ -173,12 +173,7 @@ def bareAnswer : Question → Prop
       (∀ n, n < cutoff → f n = g n) → f cutoff = g cutoff
   | .grounding => False
 
-/-- The selected complete answers over this six-question signature. Enriched
-answers the five ordinary diagnostics through response tables, sample limits
-and the need for a granted law. ScopedBrute adds a hypothetical brute totality;
-its existential consistency is verified, not its truth of the actual cosmos.
-Bare offers five sufficiency claims, each defeated by the tests. The unfilled
-cosmic slots are unexplained, not negative existential answers. -/
+/-- Availability of ordinary diagnostic answers; ultimate grounding is open. -/
 def ordinaryAvailability : Question → Prop
   | .confounding => True
   | .direction => True
@@ -195,6 +190,12 @@ def bruteAnswer : Question → Prop
   | .prediction => PredictionTest
   | .grounding => LocalCausality brute ∧ ¬ GroundedTotality brute
 
+/-- The selected complete answers over this six-question signature. Enriched
+answers the five ordinary diagnostics through response tables, sample limits
+and the need for a granted law. ScopedBrute adds a hypothetical brute totality;
+its existential consistency is verified, not its truth of the actual cosmos.
+Bare offers five sufficiency claims, each defeated by the tests. The unfilled
+cosmic slots are unexplained, not negative existential answers. -/
 def formalAnswers : Account → TruthCore.Metaethics.AnswerMap Question
   | .bare => ⟨ordinaryAvailability, bareAnswer⟩
   | .enriched => ⟨ordinaryAvailability, testAnswer⟩
