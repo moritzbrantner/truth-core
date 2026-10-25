@@ -837,20 +837,53 @@ def marker_position(tokens: list[Token], marker: dict[str, str], passage_id: str
     return unique(matches, f"{kind} {value!r}", passage_id)
 
 
+# Elements whose end tag may be omitted, with the start tags that imply their end
+# (HTML Living Standard, "Optional tags"). An end tag of an enclosing element also
+# implies it.
+P_CLOSERS = frozenset(
+    "address article aside blockquote details dialog div dl fieldset figcaption figure footer "
+    "form h1 h2 h3 h4 h5 h6 header hgroup hr main menu nav ol p pre search section table ul".split()
+)
+TABLE_SECTIONS = frozenset({"thead", "tbody", "tfoot"})
+IMPLIED_END_BY: dict[str, frozenset[str]] = {
+    "p": P_CLOSERS,
+    "li": frozenset({"li"}),
+    "dt": frozenset({"dt", "dd"}),
+    "dd": frozenset({"dt", "dd"}),
+    "tr": frozenset({"tr"}) | TABLE_SECTIONS,
+    "td": frozenset({"td", "th", "tr"}) | TABLE_SECTIONS,
+    "th": frozenset({"td", "th", "tr"}) | TABLE_SECTIONS,
+    "thead": frozenset({"tbody", "tfoot"}),
+    "tbody": frozenset({"tbody", "tfoot"}),
+    "option": frozenset({"option", "optgroup"}),
+    "optgroup": frozenset({"optgroup"}),
+}
+
+
 def element_end(tokens: list[Token], start: int) -> int:
-    """Index just past the end tag matching the start tag at `start`."""
+    """Index just past the element that starts at `start`, including implied end tags."""
     tag = tokens[start][1]
     if tag in VOID_TAGS:
         return start + 1
-    depth = 0
-    for index in range(start, len(tokens)):
+    open_tags = [tag]
+    for index in range(start + 1, len(tokens)):
         token = tokens[index]
-        if token[0] == "start" and token[1] == tag:
-            depth += 1
-        elif token[0] == "end" and token[1] == tag:
-            depth -= 1
-            if depth == 0:
-                return index + 1
+        if token[0] == "start":
+            while open_tags and token[1] in IMPLIED_END_BY.get(open_tags[-1], ()):
+                open_tags.pop()
+            if not open_tags:
+                return index
+            if token[1] not in VOID_TAGS:
+                open_tags.append(token[1])
+        elif token[0] == "end" and token[1] not in VOID_TAGS:
+            if token[1] in open_tags:
+                del open_tags[len(open_tags) - 1 - open_tags[::-1].index(token[1]) :]
+                if not open_tags:
+                    return index + 1
+            elif tag in IMPLIED_END_BY and token[1] != "p":
+                # An enclosing element's end tag also ends this one. (A stray </p>
+                # only makes an empty paragraph.)
+                return index
     return len(tokens)
 
 
