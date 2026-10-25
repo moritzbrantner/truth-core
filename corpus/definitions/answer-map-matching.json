@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSWER-MAP-MATCHING",
+  "term": "answer map, matching, mimicry and distinct rival",
+  "definition": "An AnswerMap gives answers q (answer availability) and says q (its proposition) for each shared question. Matches requires equal availability and, where answered, equivalent contents; unused contents of two unanswered maps do not distinguish them. Mimics matches on every question. DistinctRival deviates on at least one. CommittedAt requires both answering and the answer holding. Equivalence is propositional iff rather than identity, and matching the chosen question signature is not an identity claim about whole historical worldviews.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.Matches",
+  "note": "Owner-approved comparison vocabulary (#181/#185), encoded in AnswerMap.lean and corrected by #208. It supplies the exact scope of the collapse lemma, not a source claim that two philosophers hold identical views. The robust-answer deviation statement compares two reading propositions; its answer-map distinct-rival corollary separately requires the selected question to be answered."
+}

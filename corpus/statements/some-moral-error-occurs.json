@@ -1,1 +1,1 @@
-{"id": "STMT-SOME-MORAL-ERROR-OCCURS", "paraphrase": "Someone has been in error about a moral matter: accepted a moral sentence that has a truth value and is not true.", "lean_declaration": "TruthCore.Metaethics.SomeMoralError"}
+{"id": "STMT-SOME-MORAL-ERROR-OCCURS", "paraphrase": "Someone has been in error about a moral matter: accepted a moral sentence that has a truth value and is not true.", "lean_declaration": "TruthCore.Metaethics.SomeMoralError", "definition_ids": ["DEF-MORAL-ERROR", "DEF-TRUTH-VALUE", "DEF-MORAL-STATEMENT"]}

@@ -1,0 +1,7 @@
+{
+  "id": "DEF-ESSENCE-THOMISTIC-NATURE",
+  "term": "essence as nature or quiddity (Thomistic attribute readings)",
+  "definition": "Essence is what a thing is, its nature or quiddity, contrasted with its act of being (esse). The statement that God is his own esse identifies these in its theological context; the words essence and esse alone do not make that identity hold. This sense is not Scott’s modal essence of an individual or the 1970 Gödel variant’s different essence definition.",
+  "basis": "stipulative",
+  "note": "A terminological stipulation for the existing attribute records, checked against the materialized q.3 a.4 contrast of what a thing is with its esse. No new Lean essence predicate or identity proof is introduced; sourcing a general essence theory remains separate from this vocabulary link."
+}

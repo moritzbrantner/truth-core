@@ -1,1 +1,1 @@
-{"id": "STMT-ERRED-MORAL-SENTENCE-HAS-TRUTH-VALUE", "paraphrase": "The moral sentence someone errs about has a truth value."}
+{"id": "STMT-ERRED-MORAL-SENTENCE-HAS-TRUTH-VALUE", "paraphrase": "The moral sentence someone errs about has a truth value.", "definition_ids": ["DEF-MORAL-ERROR", "DEF-TRUTH-VALUE", "DEF-MORAL-STATEMENT"]}

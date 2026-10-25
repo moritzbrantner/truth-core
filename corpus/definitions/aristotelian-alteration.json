@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ARISTOTELIAN-ALTERATION",
+  "term": "alteration (alloiōsis), VII.5",
+  "definition": "The agent alters a patient in a degree of change, described as more or less, over elapsed time. This is the alteration side of VII.5’s comparison with growth, rather than locomotion or any change whatsoever. The existing Lean reading records the agent, patient, degree and time as proposition parameters; it does not supply a numerical scale or modern law of dynamics.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-250A30-ALTERATION-AGENT-PATIENT-DEGREE-TIME-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.AlterationHasAgentPatientDegreeTimeReading"
+}

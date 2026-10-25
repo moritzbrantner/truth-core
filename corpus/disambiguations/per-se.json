@@ -4,7 +4,8 @@
   "sense_definition_ids": [
     "DEF-PER-SE-ORDERED-SERIES",
     "DEF-NECESSARY-PER-SE",
-    "DEF-SELF-EVIDENT-MARKING"
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-NATURAL-LAW-PER-SE-NOTA"
   ],
-  "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering."
+  "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking."
 }

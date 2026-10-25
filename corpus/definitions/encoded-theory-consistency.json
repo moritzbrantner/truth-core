@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ENCODED-THEORY-CONSISTENCY",
+  "term": "theory bundle and consistency in the comparison models",
+  "definition": "A comparison theory is the conjunction of its listed commitment statements in a shared signature. Its consistency result constructs an interpretation satisfying that conjunction, together with any explicitly advertised shared-data or moral-sentence witness. Existential satisfiability concerns the encoded commitments only, not every claim of a complete historical worldview, truth of the commitments in reality, their entailment of each answer, or their mutual compatibility with another bundle.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Comparison.Metaethics.CatholicNaturalLawConsistent",
+  "note": "The model-theoretic convention already used by Comparison modules. Source attribution belongs to each commitment’s claim; further commitments would require their own records and a new or revised model. No consistency witness is reclassified as an entailment."
+}
