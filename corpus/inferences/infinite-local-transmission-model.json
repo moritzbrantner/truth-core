@@ -1,0 +1,9 @@
+{
+  "id": "INF-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "rule": "infinite-countermodel",
+  "meaning": "Take natural numbers with successor as immediate predecessor. Make every node active. Their local transmission conditions hold, while accessibility along the predecessor relation fails by induction on Acc. This defeats the inference from mere successor order plus local agreement to well-foundedness, not a stronger metaphysical notion of borrowed power.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

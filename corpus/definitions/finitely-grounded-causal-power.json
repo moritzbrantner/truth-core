@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+  "term": "inductively grounded causal power",
+  "definition": "Power is either intrinsic to its bearer or borrowed from an immediately prior powered bearer for which an inductively finite derivation of power already exists. A source is a constructive witness rather than a stipulated first temporal event.",
+  "basis": "stipulative",
+  "note": "One rigorous reading of derived or essential power; it is not definitionally identified with DEF-PER-SE-EFFICIENT-CAUSE-LINK. That identification would be an independently needed metaphysical/source-reading premise, not a free Lean definition.",
+  "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
+}

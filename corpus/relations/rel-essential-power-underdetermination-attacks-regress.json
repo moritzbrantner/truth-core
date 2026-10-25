@@ -1,0 +1,9 @@
+{
+  "id": "REL-ESSENTIAL-POWER-UNDERDETERMINATION-ATTACKS-REGRESS",
+  "subject_kind": "argument",
+  "subject_id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "note": "A stronger challenge to proving causal well-foundedness from local transmission: even cutting one necessary causal link can extinguish all downstream power in a coherent infinite model, while the uncut global activity remains underdetermined. It does not establish the metaphysical possibility of genuinely per se infinite efficient causes; the inductive-grounding bridge is still open."
+}

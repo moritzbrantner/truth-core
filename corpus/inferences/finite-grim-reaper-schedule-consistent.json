@@ -1,0 +1,9 @@
+{
+  "id": "INF-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "rule": "finite-model",
+  "meaning": "Enumerate three possible Reaper indices and verify that exactly the maximum index acts under the same rule. Finiteness removes the unbounded-earlier-deadline feature.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

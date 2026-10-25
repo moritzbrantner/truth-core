@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LOCAL-TRANSMISSION",
+  "term": "local transmission of activity",
+  "definition": "Every member of a chain is active if and only if its immediate predecessor is active, without stipulating an initiating source. This captures only a weak local equivalence; it does not establish a full metaphysics of derivative efficient causal power.",
+  "basis": "stipulative",
+  "note": "The model tests whether an infinite predecessor ordering plus agreement in activity alone entails well-foundedness. Whether this adequately represents causes causing only as caused remains unresolved.",
+  "lean_declaration": "TruthCore.Causality.LocalTransmission"
+}

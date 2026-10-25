@@ -1,0 +1,9 @@
+{
+  "id": "INF-FINITE-GROUNDING-HAS-SOURCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FINITE-GROUNDING-HAS-SOURCE",
+  "rule": "induction-on-grounding-derivation",
+  "meaning": "Induct on the certificate of grounded power. Intrinsic power gives a zero-length path. Borrowed power prepends the current dependency edge to the inductively obtained path, preserving its intrinsic source. Hence an all-derivative, source-free network has no inductively grounded act.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

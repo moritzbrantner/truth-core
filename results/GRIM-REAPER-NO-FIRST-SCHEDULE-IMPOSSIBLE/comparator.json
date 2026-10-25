@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperImpossible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperImpossible.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.GrimReaperImpossible.grimReaperImpossible"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

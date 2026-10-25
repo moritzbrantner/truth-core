@@ -1,0 +1,9 @@
+{
+  "id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "argument_id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperImpossible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperImpossible.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperImpossible.grimReaperImpossible",
+  "comparator_config": "results/GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE/comparator.json",
+  "status": "solution-present"
+}

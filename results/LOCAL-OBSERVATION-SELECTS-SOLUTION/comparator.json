@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.LocalObservationSelectsSolution.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.LocalObservationSelectsSolution.localObservationSelectsSolution"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

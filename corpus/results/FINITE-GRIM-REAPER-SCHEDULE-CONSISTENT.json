@@ -1,0 +1,9 @@
+{
+  "id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "argument_id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteReapersConsistent.finiteReapersConsistent",
+  "comparator_config": "results/FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}
