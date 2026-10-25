@@ -1,0 +1,22 @@
+{
+  "id": "DEF-CREED-GREEK-C381-CONTENT",
+  "term": "Nicene-Constantinopolitan Creed (Greek 381 contents)",
+  "definition": "The twelve positive article contents selected from the pinned Greek transcription, in the existing CreedArticleList order. The twelvefold division is a repository modeling choice following the clauses, not conciliar numbering. The Spirit article retains the Greek Father-procession clause; neither a Latin addition nor an extra exclusivity condition is inserted.",
+  "basis": "sourced",
+  "claim_ids": [
+    "CREED-C381-ART-01",
+    "CREED-C381-ART-02",
+    "CREED-C381-ART-03",
+    "CREED-C381-ART-04",
+    "CREED-C381-ART-05",
+    "CREED-C381-ART-06",
+    "CREED-C381-ART-07",
+    "CREED-C381-ART-08",
+    "CREED-C381-ART-09",
+    "CREED-C381-ART-10",
+    "CREED-C381-ART-11",
+    "CREED-C381-ART-12"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.CreedArticleList",
+  "note": "This fixes content scope, not article truth or a claim of textual identity with later recitations."
+}
