@@ -1,9 +1,10 @@
 import { getCorpus, type Corpus } from "./corpus";
-import { transcriptionFlags } from "./lean-transcription";
+import { getFrontierReport } from "./site-state";
 import { buildPropositionGraph, type PropositionGraph } from "./proposition-graph";
 
 /** Build-time assembly of the /graph data from the corpus JSON and Lean sources. */
 export function getPropositionGraph(corpus: Corpus = getCorpus()): PropositionGraph {
+  const report = getFrontierReport();
   return buildPropositionGraph({
     statements: corpus.statements,
     claims: corpus.claims.map((claim) => ({
@@ -21,6 +22,6 @@ export function getPropositionGraph(corpus: Corpus = getCorpus()): PropositionGr
     arguments: corpus.arguments,
     results: corpus.results,
     relations: corpus.relations,
-    transcriptionResultIds: transcriptionFlags(corpus.results).map((flag) => flag.resultId),
-  });
+    transcriptionResultIds: report.transcription_flags.filter((flag) => flag.single_application_of).map((flag) => flag.result_id),
+  }, report);
 }

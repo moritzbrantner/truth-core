@@ -1,9 +1,9 @@
 import { describe, expect, test } from "bun:test";
 
-import { DEFAULT_STATE, parseGraphState, serializeGraphState } from "./graph-state";
+import { DEFAULT_STATE, parseGraphState, serializeGraphState, parseViewport } from "./graph-state";
 
 describe("graph URL state", () => {
-  test("defaults to the root-path view with an empty query string", () => {
+  test("defaults to the global clustered view with an empty query string", () => {
     expect(parseGraphState(new URLSearchParams())).toEqual(DEFAULT_STATE);
     expect(serializeGraphState(DEFAULT_STATE)).toBe("");
   });
@@ -20,10 +20,17 @@ describe("graph URL state", () => {
 
   test("rejects unknown values and clamps hops", () => {
     const state = parseGraphState(new URLSearchParams("view=nope&hops=99&dir=sideways&status=bogus&cluster=x"));
-    expect(state.view).toBe("root");
+    expect(state.view).toBe("all");
     expect(state.hops).toBe(6);
     expect(state.dir).toBe("both");
     expect(state.status).toEqual([]);
     expect(state.cluster).toBe("passage");
   });
+});
+
+test("viewport restoration rejects malformed and unbounded URL values", () => {
+  expect(parseViewport("120,-30,0.7")).toEqual({ x: 120, y: -30, zoom: 0.7 });
+  for (const value of ["", "1,2", "1,2,NaN", "1,2,999", "Infinity,2,1"]) {
+    expect(parseViewport(value)).toBeUndefined();
+  }
 });

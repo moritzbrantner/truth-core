@@ -7,11 +7,15 @@ import {
   MarkerType,
   Position,
   ReactFlow,
+  useStore,
+  useReactFlow,
   type Edge,
   type Node,
   type NodeProps,
 } from "@xyflow/react";
 import Link from "next/link";
+import { ResearchQueue } from "./research-queue";
+import { orderObligations, type ResearchObligation } from "@/lib/research-frontier";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef } from "react";
 
@@ -20,6 +24,7 @@ import {
   MAX_HOPS,
   hasFilters,
   parseGraphState,
+  parseViewport,
   serializeGraphState,
   type GraphState,
 } from "@/lib/graph-state";
@@ -69,7 +74,11 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
       <Handle position={Position.Bottom} type="target" />
       <div className="graph-node-button">
         <span className="graph-node-status">
-          {statusLabel.get(statement.status)}
+          {statement.established
+            ? "Established"
+            : statement.closureReason
+              ? "Closed · conditional"
+              : statusLabel.get(statement.status)}
           {statement.refuted ? " · refuted" : ""}
           {statement.frontier
             ? ` · frontier (${statement.frontierDepth}) · ${statement.transitiveDependentArguments} dependent`
@@ -161,13 +170,30 @@ function hashIds(nodes: ViewNode[]) {
   return `${nodes.length}:${hash}`;
 }
 
-export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph }) {
+export function PropositionGraphExplorer({
+  graph,
+  obligations,
+}: {
+  graph: PropositionGraph;
+  obligations: ResearchObligation[];
+}) {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
   const state = useMemo(() => parseGraphState(searchParams), [searchParams]);
   const index = useMemo(() => indexGraph(graph), [graph]);
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
+  const queue = useMemo(
+    () =>
+      orderObligations(obligations, {
+        target: state.scope === "goal" ? state.target || graph.defaultTarget || "" : "",
+        selected: state.sel,
+        pins: state.pins,
+        kind: state.kind,
+      }),
+    [obligations, graph.defaultTarget, state.scope, state.target, state.sel, state.pins, state.kind],
+  );
+  const activeObligation = queue.find((item) => item.id === state.obligation);
   const search = useMemo(() => searchStatements(graph, state, 12), [graph, state]);
 
   // Compose updates issued before the previous router.replace commits.
@@ -178,10 +204,15 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
   // Array-valued fields take a function of the pending state so rapid clicks compose.
   const update = (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => {
     const current = pendingState.current ?? state;
-    const next = { ...current, ...(typeof patch === "function" ? patch(current) : patch) };
+    const next = {
+      ...current,
+      ...(typeof patch === "function" ? patch(current) : patch),
+    };
     pendingState.current = next;
     const query = serializeGraphState(next);
-    router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
+    router.replace(query ? `${pathname}?${query}` : pathname, {
+      scroll: false,
+    });
   };
 
   const tagOptions = useMemo(() => {
@@ -198,6 +229,12 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
   }, [graph]);
 
   const { nodes, edges } = useMemo(() => {
+    const relatedIds = new Set(activeObligation?.statementIds ?? []);
+    for (const argument of graph.arguments) {
+      if (activeObligation?.recordIds.includes(argument.id)) {
+        argument.inferenceIds.forEach((id) => relatedIds.add(id));
+      }
+    }
     const positions = layeredLayout(
       view.nodes.map((node) => ({ id: node.id, ...NODE_SIZE[node.kind] })),
       view.edges.filter((edge) => edge.kind !== "relation"),
@@ -207,7 +244,7 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
       type: node.kind,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
       data: {
-        view: node,
+        view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
         selected: node.id === state.sel,
       },
       draggable: false,
@@ -220,14 +257,20 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
       target: edge.target,
       type: edge.kind === "relation" ? "default" : "smoothstep",
       label: edge.label,
-      style: { ...edgeStyle[edge.kind], strokeWidth: edge.highlighted ? 2.5 : 1.25 },
+      style: {
+        ...edgeStyle[edge.kind],
+        strokeWidth: edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target) ? 2.5 : 1.25,
+      },
       markerEnd:
         edge.kind === "premise" || edge.kind === "assumption"
           ? undefined
-          : { type: MarkerType.ArrowClosed, color: String(edgeStyle[edge.kind].stroke) },
+          : {
+              type: MarkerType.ArrowClosed,
+              color: String(edgeStyle[edge.kind].stroke),
+            },
     }));
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel]);
+  }, [view, state.sel, activeObligation, graph.arguments]);
 
   const onNodeClick = (_event: React.MouseEvent, node: FlowNode) => {
     const clicked = node.data.view;
@@ -236,17 +279,32 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
         open: current.open.includes(clicked.key) ? current.open : [...current.open, clicked.key],
       }));
     } else {
-      update({ sel: clicked.id === state.sel ? "" : clicked.id });
+      const obligation = queue.find((item) => item.statementIds.includes(clicked.id));
+      update({ sel: clicked.id, obligation: obligation?.id ?? "" });
     }
   };
 
+  const selectObligation = (item: ResearchObligation) => {
+    const statement = index.statementById.get(item.statementIds[0]);
+    update((current) => ({
+      obligation: item.id,
+      viewport: "",
+      ...(statement
+        ? {
+            sel: statement.id,
+            open: [...new Set([...current.open, statement.clusters[current.cluster]])],
+            expanded: [...new Set([...current.expanded, statement.id])],
+          }
+        : {}),
+    }));
+  };
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
   const stageTargets = STAGE_CONCLUSIONS.filter(({ statementId }) => index.statementById.has(statementId));
   const flowKey = `${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
 
   return (
-    <section aria-labelledby="graph-heading" className="mt-10">
+    <section aria-labelledby="graph-heading" className="mt-2">
       <h2 className="sr-only" id="graph-heading">
         Proposition graph
       </h2>
@@ -257,6 +315,43 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
       </datalist>
 
       <div className="graph-toolbar">
+        <div className="graph-segmented" role="group" aria-label="Frontier scope">
+          <button
+            aria-pressed={state.scope === "global"}
+            onClick={() => update({ scope: "global", view: "all", viewport: "" })}
+            type="button"
+          >
+            Global frontier
+          </button>
+          <button
+            aria-pressed={state.scope === "goal"}
+            onClick={() =>
+              update({
+                scope: "goal",
+                view: "root",
+                viewport: "",
+                target: state.sel && index.statementById.has(state.sel) ? state.sel : target,
+              })
+            }
+            type="button"
+          >
+            Selected goal frontier
+          </button>
+        </div>
+        {state.returnView ? (
+          <button
+            className="graph-button"
+            type="button"
+            onClick={() =>
+              update({
+                ...parseGraphState(new URLSearchParams(state.returnView)),
+                returnView: "",
+              })
+            }
+          >
+            Return to overview
+          </button>
+        ) : null}
         <div aria-label="View" className="graph-segmented" role="group">
           {(
             [
@@ -265,19 +360,41 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
               ["all", "Full graph"],
             ] as const
           ).map(([id, label]) => (
-            <button aria-pressed={state.view === id} key={id} onClick={() => update({ view: id })} type="button">
+            <button
+              aria-pressed={state.view === id}
+              key={id}
+              onClick={() =>
+                update({
+                  view: id,
+                  ...(id === "focus" && state.view !== "focus"
+                    ? {
+                        returnView: serializeGraphState({
+                          ...state,
+                          returnView: "",
+                        }),
+                        viewport: "",
+                      }
+                    : {}),
+                })
+              }
+              type="button"
+            >
               {label}
             </button>
           ))}
         </div>
 
-        {state.view === "root" ? (
+        {state.view === "root" || state.scope === "goal" ? (
           <label className="field-label">
             Target statement
             <input
               className="field-control font-mono"
               list="graph-statement-ids"
-              onChange={(event) => update({ target: event.target.value === defaultTarget ? "" : event.target.value })}
+              onChange={(event) =>
+                update({
+                  target: event.target.value === defaultTarget ? "" : event.target.value,
+                })
+              }
               placeholder={defaultTarget}
               value={state.target}
             />
@@ -326,7 +443,12 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
               Cluster by
               <select
                 className="field-control"
-                onChange={(event) => update({ cluster: event.target.value as GraphState["cluster"], open: [] })}
+                onChange={(event) =>
+                  update({
+                    cluster: event.target.value as GraphState["cluster"],
+                    open: [],
+                  })
+                }
                 value={state.cluster}
               >
                 <option value="passage">Source passage</option>
@@ -336,7 +458,8 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
             </label>
             {state.open.length ? (
               <button className="graph-button" onClick={() => update({ open: [] })} type="button">
-                Collapse {state.open.length} cluster{state.open.length === 1 ? "" : "s"}
+                Collapse {state.open.length} cluster
+                {state.open.length === 1 ? "" : "s"}
               </button>
             ) : null}
           </div>
@@ -380,7 +503,11 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
         </label>
         <label className="field-label">
           Source
-          <select className="field-control" onChange={(event) => update({ source: event.target.value })} value={state.source}>
+          <select
+            className="field-control"
+            onChange={(event) => update({ source: event.target.value })}
+            value={state.source}
+          >
             <option value="">All sources</option>
             {graph.sources.map((source) => (
               <option key={source.id} value={source.id}>
@@ -395,7 +522,10 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
             className="field-control"
             onChange={(event) => {
               const tag = event.target.value;
-              if (tag) update((current) => ({ tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag] }));
+              if (tag)
+                update((current) => ({
+                  tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag],
+                }));
             }}
             value=""
           >
@@ -447,7 +577,11 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
               className="graph-chip"
               aria-pressed
               key={tag}
-              onClick={() => update((current) => ({ tags: current.tags.filter((entry) => entry !== tag) }))}
+              onClick={() =>
+                update((current) => ({
+                  tags: current.tags.filter((entry) => entry !== tag),
+                }))
+              }
               title="Remove tag"
               type="button"
             >
@@ -482,10 +616,32 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
                   <span className="block">{statement.paraphrase}</span>
                 </span>
                 <span className="graph-search-actions">
-                  <button className="graph-button" onClick={() => update({ view: "focus", node: statement.id, sel: statement.id })} type="button">
+                  <button
+                    className="graph-button"
+                    onClick={() =>
+                      update({
+                        view: "focus",
+                        node: statement.id,
+                        sel: statement.id,
+                        returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+                        viewport: "",
+                      })
+                    }
+                    type="button"
+                  >
                     Focus
                   </button>
-                  <button className="graph-button" onClick={() => update({ view: "root", target: statement.id, sel: statement.id })} type="button">
+                  <button
+                    className="graph-button"
+                    onClick={() =>
+                      update({
+                        view: "root",
+                        target: statement.id,
+                        sel: statement.id,
+                      })
+                    }
+                    type="button"
+                  >
                     Root paths
                   </button>
                 </span>
@@ -501,32 +657,64 @@ export function PropositionGraphExplorer({ graph }: { graph: PropositionGraph })
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
       </p>
 
-      <div className="graph-layout">
-        <div className="graph-shell">
-          <ReactFlow
-            edges={edges}
-            fitView
-            fitViewOptions={{ padding: 0.12, minZoom: 0.4 }}
-            key={flowKey}
-            maxZoom={1.6}
-            minZoom={0.05}
-            nodes={nodes}
-            nodesConnectable={false}
-            nodesDraggable={false}
-            nodeTypes={nodeTypes}
-            onNodeClick={onNodeClick}
-            onlyRenderVisibleElements
-          >
-            <Background gap={24} size={1} />
-            <Controls showInteractive={false} />
-          </ReactFlow>
+      <div className="frontier-workspace">
+        <ResearchQueue
+          items={queue}
+          selected={activeObligation}
+          state={state}
+          select={selectObligation}
+          update={update}
+        />
+        <div className="graph-layout">
+          <div className="graph-shell">
+            <ReactFlow
+              edges={edges}
+              defaultViewport={parseViewport(state.viewport)}
+              fitView={!parseViewport(state.viewport) && !(state.sel && state.obligation)}
+              onMoveEnd={(event, viewport) => {
+                if (event) {
+                  update({
+                    viewport: `${Math.round(viewport.x)},${Math.round(viewport.y)},${viewport.zoom.toFixed(4)}`,
+                  });
+                }
+              }}
+              fitViewOptions={{ padding: 0.12, minZoom: 0.4 }}
+              key={flowKey}
+              maxZoom={1.6}
+              minZoom={0.05}
+              nodes={nodes}
+              nodesConnectable={false}
+              nodesDraggable={false}
+              nodeTypes={nodeTypes}
+              onNodeClick={onNodeClick}
+              onlyRenderVisibleElements
+            >
+              <SelectionLocator state={state} />
+              <Background gap={24} size={1} />
+              <Controls showInteractive={false} />
+            </ReactFlow>
+          </div>
+          <DetailPanel graph={graph} index={index} state={state} update={update} />
         </div>
-        <DetailPanel graph={graph} index={index} state={state} update={update} />
       </div>
-
       <GraphLegend />
     </section>
   );
+}
+
+/** Locate by the retained layout position before measurement, so a culled node can mount. */
+function SelectionLocator({ state }: { state: GraphState }) {
+  const position = useStore((store) => store.nodeLookup.get(state.sel)?.position);
+  const ready = useStore((store) => store.width > 0 && store.height > 0);
+  const { setCenter } = useReactFlow();
+  useEffect(() => {
+    if (ready && position && !state.viewport && state.sel && state.obligation) {
+      void setCenter(position.x + NODE_SIZE.statement.width / 2, position.y + NODE_SIZE.statement.height / 2, {
+        zoom: 0.8,
+      });
+    }
+  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter]);
+  return null;
 }
 
 function DetailPanel({
@@ -550,7 +738,8 @@ function DetailPanel({
       <aside className="graph-detail">
         <p className="eyebrow">Details</p>
         <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-          Select a statement or inference step to see its paraphrase, Lean declaration, source claims, and the arguments and results that use it.
+          Select a statement or inference step to see its paraphrase, Lean declaration, source claims, and the arguments
+          and results that use it.
         </p>
       </aside>
     );
@@ -592,7 +781,11 @@ function DetailPanel({
                   ))}
                   <button
                     className="graph-link-button"
-                    onClick={() => update({ arg: state.arg === argumentId ? "" : argumentId })}
+                    onClick={() =>
+                      update({
+                        arg: state.arg === argumentId ? "" : argumentId,
+                      })
+                    }
                     type="button"
                   >
                     {state.arg === argumentId ? "Clear highlight" : "Highlight"}
@@ -619,20 +812,39 @@ function DetailPanel({
         <ul className="mt-2 grid gap-1 text-sm">
           {[...inference.inputs, ...inference.assumptions].map((id) => (
             <li key={id}>
-              <button className="graph-link-button font-mono text-xs break-all" onClick={() => update({ sel: id })} type="button">
+              <button
+                className="graph-link-button font-mono text-xs break-all"
+                onClick={() => update({ sel: id })}
+                type="button"
+              >
                 {id}
                 {inference.assumptions.includes(id) ? " (assumption)" : ""}
               </button>
             </li>
           ))}
           <li>
-            <button className="graph-link-button font-mono text-xs break-all" onClick={() => update({ sel: inference.output })} type="button">
+            <button
+              className="graph-link-button font-mono text-xs break-all"
+              onClick={() => update({ sel: inference.output })}
+              type="button"
+            >
               ⊢ {inference.output}
             </button>
           </li>
         </ul>
         <div className="mt-4 flex flex-wrap gap-2">
-          <button className="graph-button" onClick={() => update({ view: "focus", node: inference.id })} type="button">
+          <button
+            className="graph-button"
+            onClick={() =>
+              update({
+                view: "focus",
+                node: inference.id,
+                returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+                viewport: "",
+              })
+            }
+            type="button"
+          >
             Focus here
           </button>
         </div>
@@ -655,14 +867,49 @@ function DetailPanel({
         Statement page →
       </Link>
       <div className="mt-4 flex flex-wrap gap-2">
-        <button className="graph-button" onClick={() => update({ view: "focus", node: current.id })} type="button">
+        <button
+          className="graph-button"
+          onClick={() =>
+            update({
+              view: "focus",
+              node: current.id,
+              returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+              viewport: "",
+            })
+          }
+          type="button"
+        >
           Focus here
         </button>
         <button className="graph-button" onClick={() => update({ view: "root", target: current.id })} type="button">
           Paths into this
         </button>
       </div>
+      <button
+        className="graph-button mt-3"
+        onClick={() =>
+          update((state) => ({
+            expanded: [...new Set([...state.expanded, current.id])],
+          }))
+        }
+        type="button"
+      >
+        Expand dependencies and consequences
+      </button>
       <dl className="mt-6 grid gap-3 text-sm">
+        <div>
+          <dt className="eyebrow">Epistemic scope</dt>
+          <dd>
+            {current.established
+              ? "Established in the encoded premise program"
+              : current.closureReason
+                ? "Closed by formal consequence; premises not established"
+                : current.frontier
+                  ? "Open premise"
+                  : "No establishment recorded"}
+            . Source integrity and interpretation fidelity are separate; inspect the linked claims and witnesses.
+          </dd>
+        </div>
         <div>
           <dt className="eyebrow">Lean declaration</dt>
           <dd className="mt-1 font-mono text-xs break-all">{current.leanDeclaration ?? "None"}</dd>
@@ -685,7 +932,8 @@ function DetailPanel({
           <div>
             <dt className="eyebrow">Closed via transcription from closed premises</dt>
             <dd className="mt-1 font-mono text-xs break-all">
-              {current.closedViaTranscription.resultId} ({current.closedViaTranscription.premises.join(", ") || "no premises"})
+              {current.closedViaTranscription.resultId} (
+              {current.closedViaTranscription.premises.join(", ") || "no premises"})
             </dd>
           </div>
         ) : null}
@@ -696,7 +944,11 @@ function DetailPanel({
               <button
                 className="graph-badge graph-badge-button"
                 key={tag}
-                onClick={() => update((current) => ({ tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag] }))}
+                onClick={() =>
+                  update((current) => ({
+                    tags: current.tags.includes(tag) ? current.tags : [...current.tags, tag],
+                  }))
+                }
                 title="Filter by this tag"
                 type="button"
               >
@@ -730,7 +982,7 @@ function DetailPanel({
             })}
           </ul>
         ) : (
-          <p className="mt-2 text-sm text-[var(--muted)]">No source claim: a derived statement.</p>
+          <p className="mt-2 text-sm text-[var(--muted)]">No source claim recorded.</p>
         )}
       </div>
       {argumentList}
@@ -743,7 +995,10 @@ function GraphLegend() {
     <div className="graph-legend">
       <p className="eyebrow">Reading the graph</p>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--muted)]">
-        Premises sit below the inference steps (⊢) that use them, and conclusions above. Every logical step goes through an explicit inference node; dashed coloured edges are relations, never support. Dotted edges summarize steps into a collapsed cluster. Status says only how a statement stands inside the corpus: a verified result checks formal consequence, not premise truth or source fidelity, and the transcription flag is a textual heuristic.
+        Premises sit below the inference steps (⊢) that use them, and conclusions above. Every logical step goes through
+        an explicit inference node; dashed coloured edges are relations, never support. Dotted edges summarize steps
+        into a collapsed cluster. Status says only how a statement stands inside the corpus: a verified result checks
+        formal consequence, not premise truth or source fidelity, and the transcription flag is a textual heuristic.
       </p>
       <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
         {GRAPH_STATUSES.map((status) => (

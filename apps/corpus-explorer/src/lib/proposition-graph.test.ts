@@ -1,14 +1,15 @@
+import { fixtureGraph } from "./frontier-fixture";
 import { describe, expect, test } from "bun:test";
 import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-import { buildPropositionGraph, type PropositionGraphInput } from "./proposition-graph";
+import { type PropositionGraphInput } from "./proposition-graph";
 import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
 
 describe("proposition graph status", () => {
-  const graph = buildPropositionGraph(fixture);
+  const graph = fixtureGraph(fixture);
   const byId = new Map(graph.statements.map((entry) => [entry.id, entry]));
 
   test("derives each status by the corpus.py frontier rules", () => {
@@ -96,7 +97,7 @@ describe("rule (d): transcription from closed premises", () => {
   test("matches the corpus.py frontier on the shared parity fixture", () => {
     for (const reversed of [false, true]) {
       const order = <T,>(items: T[]) => (reversed ? [...items].reverse() : items);
-      const graph = buildPropositionGraph({
+      const graph = fixtureGraph({
         ...input,
         statements: order(input.statements),
         arguments: order(input.arguments),
@@ -119,7 +120,7 @@ describe("rule (d): transcription from closed premises", () => {
   });
 
   test("keeps the transcription status and tags the closure", () => {
-    const t2 = buildPropositionGraph(input).statements.find((entry) => entry.id === "T2");
+    const t2 = fixtureGraph(input).statements.find((entry) => entry.id === "T2");
     expect(t2?.status).toBe("transcription");
     expect(t2?.tags).toContain("closed:transcription-from-closed-premises");
     expect(t2?.closedViaTranscription).toEqual({ resultId: "R-A-T2", argumentId: "ARG-T2", premises: ["T1"] });

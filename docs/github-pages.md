@@ -19,3 +19,30 @@ The Pages build sets `GITHUB_PAGES=true`, which configures the app's `basePath` 
 GitHub requires the repository's Pages publishing source to be set to **GitHub Actions** once in **Settings → Pages**. The normal `GITHUB_TOKEN` cannot enable Pages for a repository that has never had Pages enabled.
 
 The deployment workflow uploads `apps/corpus-explorer/out` with `actions/upload-pages-artifact` and deploys it with `actions/deploy-pages`. When GitHub Actions cannot start (for example because of an Actions budget), nothing deploys and the site stays at its last build; the commit shown on the site makes that visible.
+
+## Epistemic Frontier graph
+
+`/graph` defaults to a clustered global canvas with a synchronized research frontier.
+Select a statement to bring its obligations to the top, or select an obligation to
+locate its statement and inspect the exact blocker. Switch to **Selected goal
+frontier** to restrict obligations to route-aware dependencies of that proposition;
+**Global frontier** restores the full queue. Focus views retain a return link with
+the previous viewport, filters, expansions and selection in the URL.
+
+The graph uses the same Python report as the state pages, including the distinction
+between closed conditional consequences and established statements. Its research
+obligations are a derived projection, keyed by kind and existing corpus IDs. They
+are not a new canonical queue: `/candidates` remains the source-range workflow.
+Knowledge obligations cover open derivations, bare evidence, alternatives and
+objections. Exploration obligations come from recorded competing readings and
+source-range candidates; absence of such records never means an area is complete.
+Ranking uses manual URL pins, root reachability and argument counts, with selected-node
+relevance breaking ties. No expected effort, research value or certainty is invented.
+
+Run `bun run --cwd apps/corpus-explorer test:browser` after a normal explorer build
+for the deterministic Chromium journey over the real static export. CI installs
+the browser and runs this path before the Pages build. The browser test allocates
+its own local port and checks graph/queue synchronization, goal/global switching,
+URL reload, expansion, viewport restoration and mobile overflow. The unit fixtures
+call Python's actual frontier computation for grounded and ungrounded reciprocal
+cycles, shared dependencies and transcription closure.
