@@ -11,7 +11,8 @@ theorem mimicCollapses : MimicCollapses := by
   refine ⟨?_, ?_⟩
   · -- INF-MIMIC-INHERITS-COMMITMENTS
     intro q hCommitted
-    exact ⟨(hMimics q).1.mpr hCommitted.1, (hMimics q).2.mpr hCommitted.2⟩
+    have hAnswered : T.answers q := (hMimics q).1.mpr hCommitted.1
+    exact ⟨hAnswered, ((hMimics q).2 hAnswered).mpr hCommitted.2⟩
   · -- INF-MIMIC-IS-NO-DISTINCT-RIVAL
     intro ⟨q, hDeviates⟩
     exact hDeviates (hMimics q)
