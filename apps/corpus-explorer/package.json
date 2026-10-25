@@ -13,12 +13,14 @@
   },
   "dependencies": {
     "@xyflow/react": "latest",
+    "d3-force": "^3.0.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
+    "@types/d3-force": "^3.0.10",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

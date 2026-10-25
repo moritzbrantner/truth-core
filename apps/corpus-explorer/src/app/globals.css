@@ -816,3 +816,27 @@ button:focus-visible {
 .research-select { text-align: left; width: 100%; cursor: pointer; }
 .research-blocker { border-top: 2px solid var(--accent); padding-top: .75rem; }
 @media (max-width: 850px) { .frontier-workspace { grid-template-columns: minmax(0, 1fr); } .research-queue { border-right: 0; } .research-items { max-height: 15rem; } }
+
+/* Structure color is independent of epistemic status. */
+.network-marker { width: 28px; height: 28px; display: grid; place-items: center; position: relative; color: var(--ink); }
+.network-symbol { width: var(--marker-size); height: var(--marker-size); border-radius: 50%; background: var(--community); border: 2px solid var(--ink); color: white; display: grid; place-items: center; font: bold 12px/1 system-ui; }
+.network-marker[data-kind="inference"] .network-symbol { border-radius: 2px; width: 10px; height: 10px; font-size: 8px; background: var(--muted); }
+.network-marker[data-frontier="true"] .network-symbol { outline: 2px solid var(--accent); outline-offset: 3px; }
+.network-marker[data-established="true"] .network-symbol { border-style: double; border-width: 3px; }
+.network-marker[data-dimmed="true"] { opacity: .16; }
+.network-marker[data-selected="true"], .network-marker[data-highlighted="true"] { filter: drop-shadow(0 0 4px var(--accent)); opacity: 1; }
+.network-marker .react-flow__handle { opacity: 0; width: 2px; height: 2px; min-width: 2px; min-height: 2px; }
+.network-label { display: none; position: absolute; top: 30px; left: 12px; width: 200px; padding: 5px 8px; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); font-size: 12px; line-height: 1.3; pointer-events: none; z-index: 5; }
+.network-marker:hover .network-label, .react-flow__node:focus .network-label, .network-label[data-visible="true"] { display: block; }
+.react-flow__node:focus-visible .network-symbol { outline: 3px solid var(--accent); outline-offset: 5px; }
+.graph-status-filters { margin-top: .5rem; font-size: .875rem; }
+.graph-status-filters summary { cursor: pointer; color: var(--muted); }
+.graph-toolbar { gap: .5rem 1rem; padding-top: .5rem; }
+.network-marker .network-label { box-shadow: 0 1px 4px var(--line); }
+@media (max-width: 640px) {
+  .network-marker { width: 32px; height: 32px; }
+  .graph-toolbar > .field-label { flex-basis: 100%; }
+}
+@media (max-width: 850px) {
+  .frontier-workspace .graph-layout { order: -1; }
+}
