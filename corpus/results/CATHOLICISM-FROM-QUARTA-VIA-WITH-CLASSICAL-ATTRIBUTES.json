@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.catholicismFromQuartaViaWithClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES/comparator.json",
+  "status": "solution-present",
+  "description": "Distinct alternative Fourth-Way root composition: derive the same unique named God with attributes directly from the existing QuartaVia result, then import the original Skeleton theorem. The historical end remains a structural transcription conditional on revelation, history and authority bridges. The selected First-Way root route and its identity are preserved. This argument omits eight theorem inputs of the First-Way composition; it does not refute or prove those omitted premises. The maximum-existence principle, full-description naming, GodIsMaximalInBeing and all retained attribute and historical premises remain explicit."
+}

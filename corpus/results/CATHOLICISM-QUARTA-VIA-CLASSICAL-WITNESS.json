@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "argument_id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.uniqueClassicalGodFromQuartaViaExists",
+  "comparator_config": "results/CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Alternative witness composition: the imported QuartaVia theorem supplies the maximum from its four explicit source premises. Full-description naming and the eight pointwise attribute proofs apply to this same maximum; GodIsOne still uses the explicit GodIsMaximalInBeing premise. No First-Way motion, regress, particular excluded-middle or created-agent-identification hypothesis is used. All remaining philosophical premises are open; no source premise is proved by omitting it from this alternative."
+}
