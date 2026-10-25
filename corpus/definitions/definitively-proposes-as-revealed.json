@@ -1,0 +1,11 @@
+{
+  "id": "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+  "term": "definitively proposes as divinely revealed (the skeleton proposal predicate)",
+  "definition": "A Church proposal that a proposition is to be believed as divinely revealed, made by solemn judgment or by the ordinary and universal magisterium. This is the proposal condition in Dei Filius ch. 3, paragraph 4, not an arbitrary assertion by Church members or authorities. The source's rule for divine and catholic faith separately requires that the content be contained in the word of God written or handed down; the act of proposing it does not by definition establish that separate condition or its truth.",
+  "basis": "sourced",
+  "claim_ids": [
+    "VATICAN-I-DEI-FILIUS-CH3-DIVINE-AND-CATHOLIC-FAITH"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.Signature.DefinitivelyProposesAsRevealed",
+  "note": "The skeleton uses 'definitively' as its technical label for these specified modes of proposing something as revealed; the cited sentence does not supply a general theory of irreformability. The field DefinitivelyProposesAsRevealed c p is primitive: it has no constructor or axiom mechanically imposing either mode or actual containment in revelation. A model using the sourced sense must interpret the field accordingly. The only-truth bridge remains an open premise and cannot be obtained merely from this definition. For arbitrary societies c, using the Church's proposal mode is the skeleton's interpretive extension, not a claim that Dei Filius describes every society."
+}
