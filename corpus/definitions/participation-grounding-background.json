@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-BACKGROUND",
+  "term": "same background",
+  "definition": "The two vocabularies agree extensionally on particulars, admitted qualities, Form assignment, independence, intelligibility, stability, exemplars, imitation, likeness and essential characterization. Exemplifies, Participates and Explains are excluded; the finite models additionally fix Explains to True, a putative extension with no mechanism.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.SameBackground"
+}

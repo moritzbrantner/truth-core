@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S4-POCKETS",
+  "term": "paired and unpaired S4 collapse pockets",
+  "definition": "pockets paired enumerates root, left, right, twin. Root accesses all four; left accesses only itself. Right and twin access themselves and, exactly when paired=true, each other. Thus there are no cross-edges between the left singleton and the right-side terminal component(s). Atom false holds only at left. Atom true holds only at twin when paired=false. These mathematical labels, edges and valuations are stipulated, with no metaphysical or historical interpretation.",
+  "basis": "stipulative",
+  "note": "Mathematical S4 experiment requested in #265, using the shared #261 semantics. Historical adoption or metaphysical possibility would need a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.S4Research.pockets"
+}

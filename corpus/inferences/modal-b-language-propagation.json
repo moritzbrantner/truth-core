@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-LANGUAGE-PROPAGATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-LANGUAGE-PROPAGATION",
+  "rule": "direct-proof",
+  "meaning": "Use the shared collapse-agreement theorem along the back-edge to carry root P to witness P. Collapse at the witness gives Box P there; box closure permits a second MC application, giving Box P at the root.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

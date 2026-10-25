@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-BASE",
+  "term": "independent base feature",
+  "definition": "Base x g is a separately stipulated bearer feature. Its interpretation is fixed independently of Exemplifies and Participates. It need not determine either relation; explanatory sufficiency requires an additional selection law. Independence here is separation of model inputs, not proof of metaphysical independence.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+}

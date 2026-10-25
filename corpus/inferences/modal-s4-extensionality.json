@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S4-EXTENSIONALITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S4-EXTENSIONALITY",
+  "rule": "direct-proof",
+  "meaning": "Use the first atom to identify left, the second to identify twin, and diamond of the first atom to distinguish root from right. At full scope instantiate agreement at an identity predicate. Enumerate unpaired singleton successors and supply a full-collapse witness for each root successor.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

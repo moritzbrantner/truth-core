@@ -1,0 +1,28 @@
+{
+  "id": "MODAL-B-SCOPE-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-B-SCOPE-BOUNDARY",
+  "inference_ids": [
+    "INF-MODAL-B-SCOPE-BOUNDARY"
+  ],
+  "meaning": "Issue #266 stipulated mathematical result, not Hume attribution, a metaphysical possibility claim, or Catholic-case frontier closure. Reuse the established duplicate-language proofs and branch countermodel. Apply shared extensional separation at a collapsed witness along the symmetric back-edge, then compose the K full-successor theorem and transport by equality.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}

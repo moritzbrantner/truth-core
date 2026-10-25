@@ -1,0 +1,9 @@
+{
+  "id": "REL-REA-SILENCE-MEDIATED-COMMUNION-POSSIBLE-SUPPORTS-REASON-FOR-EACH-GAP",
+  "subject_kind": "claim",
+  "subject_id": "REA-SILENCE-MEDIATED-COMMUNION-POSSIBLE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-HIDDENNESS-REASON-FOR-EACH-GAP",
+  "note": "A possible reply resource, not a logical derivation or evidence that every actual case has a sufficient reason. The target remains a stronger, unattributed open comparison premise."
+}

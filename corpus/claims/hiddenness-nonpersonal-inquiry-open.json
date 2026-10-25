@@ -1,0 +1,15 @@
+{
+  "id": "SCHELLENBERG-PRECIS-2025-NONPERSONAL-INQUIRY-OPEN",
+  "statement_id": "STMT-HIDDENNESS-NONPERSONAL-INQUIRY-OPEN",
+  "source_id": "SCHELLENBERG-PRECIS-2025",
+  "locator": "Précis (2025), pp. 7–8, paragraph beginning A final point for this summary",
+  "interpretation": "This records the explicitly stated limit of the negative conclusion and an open inquiry stance, not belief in a particular nonpersonal entity, a completed non-theistic cosmology, or a derivation that nature is all there is.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

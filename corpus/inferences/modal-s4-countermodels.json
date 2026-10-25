@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S4-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S4-COUNTERMODELS",
+  "rule": "direct-proof",
+  "meaning": "Exhaustively verify each Boolean edge table satisfies reflexivity and transitivity and refute symmetry/Euclideanness with the root-left edges. The left self-loop preserves every predicate. Use a negated atom to refute root language collapse, restrict full collapse to that domain for its refutation, and use reflexivity to refute necessary collapse. Give left/root witnesses for independent contingency and refute possibility entails actuality with the first atom.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

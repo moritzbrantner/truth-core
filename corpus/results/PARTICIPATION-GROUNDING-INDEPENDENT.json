@@ -1,0 +1,9 @@
+{
+  "id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "argument_id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.groundingIndependent",
+  "comparator_config": "results/PARTICIPATION-GROUNDING-INDEPENDENT/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "HIDDENNESS-GAP-HAS-REASON",
+  "premise_statement_ids": [
+    "STMT-HIDDENNESS-GOD-EXISTS",
+    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+    "STMT-HIDDENNESS-REASON-FOR-EACH-GAP",
+    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+  ],
+  "conclusion_statement_id": "STMT-HIDDENNESS-GAP-HAS-REASON",
+  "inference_ids": [
+    "INF-HIDDENNESS-GAP-HAS-REASON"
+  ],
+  "meaning": "Given God existing, the conscious belief constraint, a sufficient reason for every gap and an actual nonresistant nonbelief witness, that witness carries a sufficient-reason obligation. The proof excludes immediate access using lack of belief, then applies the reply’s explicit universal application premise. It does not discover or defend the reason.",
+  "definition_ids": [
+    "DEF-HIDDENNESS-MODEL-SCOPE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+    "DEF-HIDDENNESS-REFLECTIVE-DOUBT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

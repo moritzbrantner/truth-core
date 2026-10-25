@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-CAPACITY",
+  "term": "capacity for conscious relationship at a time",
+  "definition": "Cognitive and affective capacity at the indicated world, person and time for reciprocal conscious interaction recognizing the other party. This is a capacity, not possession of belief or actual relationship. Not all humans at all times are assumed capable; the existential premise supplies its own witness.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.Capable"
+}

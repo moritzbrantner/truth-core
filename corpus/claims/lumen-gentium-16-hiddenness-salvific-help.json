@@ -1,0 +1,16 @@
+{
+  "id": "VATICAN-II-LG-16-SALVIFIC-HELP",
+  "statement_id": "STMT-HIDDENNESS-SALVIFIC-HELP",
+  "source_id": "VATICAN-II-LUMEN-GENTIUM",
+  "locator": "§16, sentence beginning Nec divina Providentia auxilia",
+  "interpretation": "The Latin explicitly distinguishes not yet reaching explicit acknowledgement from the help of grace. All stated conditions are retained; salvific aid is not identified with conscious epistemic availability.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-SALVIFIC-HELP",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE"
+  ]
+}

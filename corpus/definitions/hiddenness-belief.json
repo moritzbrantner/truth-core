@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-BELIEF",
+  "term": "belief that God exists",
+  "definition": "Assenting to the existence of the relevant personal God. Nonbelief includes doubt and suspension, as well as outright denial. Belief is distinct from knowledge, certainty, felt presence, accepting a relationship, and voluntary control over belief. Belief may be false in a non-theistic interpretation.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.Believes"
+}

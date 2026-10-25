@@ -1,0 +1,24 @@
+{
+  "id": "STMT-MODAL-B-DISCONNECTED-SCOPE",
+  "paraphrase": "A finite reflexive symmetric frame has actual, possible and necessary full MC at an isolated root, while a distinct inaccessible two-world component has an independently contingent atom. Root collapse does not identify all labels or exclude contingency at another root.",
+  "lean_declaration": "TruthCore.Modal.BResearch.DisconnectedScope",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}

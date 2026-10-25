@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.nontheisticDevelopmentConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-T-FRAME-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-T-FRAME-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Enumerate the reflexive chain. The missing root-to-endpoint and middle-to-root edges refute transitivity and symmetry. Atom negation distinguishes middle from endpoint, and negated possibility distinguishes root from middle. Compose these failures with domain restriction and enumerate accessible MC witnesses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

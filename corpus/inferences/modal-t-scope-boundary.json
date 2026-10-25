@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-T-SCOPE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-T-SCOPE-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Compose the existing K duplicate-language proofs, enumerate the two labels under the full-predicate successor-identity theorem, and use reflexivity to rule out necessary full collapse. Reuse the independently proved failure of language world extensionality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

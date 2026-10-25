@@ -1,0 +1,9 @@
+{
+  "id": "INF-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "rule": "finite model construction",
+  "meaning": "Construct a late-time believer who does not accept a relationship. Belief and voluntary response remain distinct; no theorem that every manner of revelation preserves freedom is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

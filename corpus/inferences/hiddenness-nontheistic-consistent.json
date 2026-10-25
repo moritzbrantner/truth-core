@@ -1,0 +1,15 @@
+{
+  "id": "INF-HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "input_statement_ids": [
+    "STMT-HIDDENNESS-NO-GOD",
+    "STMT-HIDDENNESS-GOD-LOVES",
+    "STMT-HIDDENNESS-ALWAYS-OPEN",
+    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+  ],
+  "output_statement_id": "STMT-HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "rule": "finite model construction",
+  "meaning": "Construct the same two-time human history without God. Universal divine norms hold vacuously; this is a limited consistency check, not the rival explanatory account, which is separately recorded in docs/hiddenness.md.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

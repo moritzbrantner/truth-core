@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-T-FRAME-BOUNDARY",
+  "argument_id": "MODAL-T-FRAME-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Modal.T.FrameBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.T.FrameBoundary.Solution",
+  "theorem": "TruthCore.Results.Modal.T.FrameBoundary.checks",
+  "comparator_config": "results/MODAL-T-FRAME-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

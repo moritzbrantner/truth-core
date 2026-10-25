@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.B.LanguagePropagation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.B.LanguagePropagation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.B.LanguagePropagation.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

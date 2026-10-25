@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+  "term": "availability of the concept of a personal God",
+  "definition": "HasConcept records having access to the concept of a personal religious ultimate at that time. The open ConceptNeeded constraint prevents belief without the concept, while allowing concept possession without belief. This is separate from raw cognitive capacity for relationship. The model does not settle prehistoric concept availability.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.HasConcept"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Apply shared identity separation at the witness, use symmetry for the reverse edge, transport MC along the resulting equality, and compose the K successor characterization. Reflexivity supplies exactly the two converse directions.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

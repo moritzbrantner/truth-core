@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-T-BRANCHING",
+  "term": "T branching witness and independent contingent atom",
+  "definition": "Reuse ResearchFinite.branching exactly: worlds are the two Bool labels false (root) and true (endpoint), edge w v is !w || v, and the sole atom is !w. Thus root accesses itself and endpoint, endpoint only itself; the atom is true at root and false at endpoint, independently of the definition of MC. branchingLanguage admits exactly the denotations of the full fixed Formula Unit language. Its atom distinguishes both labels, so language world extensionality is proved, not assumed. This witness is also transitive, but T laws assume only reflexivity.",
+  "basis": "stipulative",
+  "note": "Issue #264 mathematical experiment. No source attribution, metaphysical endorsement or philosophical premise is asserted. Historical adoption would require its own pinned passage and interpretation.",
+  "lean_declaration": "TruthCore.Modal.TResearch.branchingLanguage"
+}

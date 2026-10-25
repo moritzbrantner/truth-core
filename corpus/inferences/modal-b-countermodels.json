@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-COUNTERMODELS",
+  "rule": "direct-proof",
+  "meaning": "Check each finite edge and atom by constructor cases. Compose the K full-collapse characterization, use p or Box p or not-p to reject modal-language MC, and exhibit the inventory counterexample using left and right witnesses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
