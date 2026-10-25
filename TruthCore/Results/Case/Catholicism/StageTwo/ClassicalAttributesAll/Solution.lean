@@ -32,7 +32,8 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle :
     (hGoodness : GoodnessIsActualityReading GoodIn InAct)
     (hPerfections : CauseOfBeingCausesEveryPerfection InAct CausesIn esse)
     (hFirstBeing : MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply)
-    (hPureAct : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply)
+    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
+    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency)
     (hKinds : MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
       essenceOf esseOf)
     (hInfinity : SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite)
@@ -51,9 +52,9 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle :
   have hGood := TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.godIsSupremelyGood
     σ.IsGod InAct GoodIn MoreIn CausesIn esse hMaximal hGenus hBeing hGoodness hPerfections
   have hImmutable := TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable.godIsImmutable
-    σ.IsGod InPotency InAct MoreIn esse PriorSimply hMaximal hFirstBeing hPureAct
+    σ.IsGod InPotency InAct MoreIn esse PriorSimply hMaximal hFirstBeing hPrior hNotBoth
   have hEternal := TruthCore.Results.Case.Catholicism.StageTwo.GodIsEternal.godIsEternal σ.IsGod
-    Eternal InPotency InAct MoreIn esse PriorSimply hMaximal hFirstBeing hPureAct hEternity
+    Eternal InPotency InAct MoreIn esse PriorSimply hMaximal hFirstBeing hPrior hNotBoth hEternity
   have hInfinite := TruthCore.Results.Case.Catholicism.StageTwo.GodIsInfinite.godIsInfinite
     σ.IsGod Composite ComposedOfMatterAndForm Infinite essenceOf esseOf InAct MoreIn CausesIn esse
     hMaximal hUniting hCauseMore hKinds hEM hInfinity
