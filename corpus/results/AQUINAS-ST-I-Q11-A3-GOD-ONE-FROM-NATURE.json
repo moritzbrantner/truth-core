@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "argument_id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.godIsOneFromNature",
+  "comparator_config": "results/AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE/comparator.json",
+  "status": "solution-present",
+  "description": "Q.11 a.3 first-proof reading: transport each God\u2019s individuating basis through suppositum/nature identity to the common divine nature, then apply the explicit incommunicability principle. Equality of beings is derived, not assumed; no maximality, perfection, naming converse, or excluded middle is used. The three principles remain sourced but undefended. Its Comparator config also checks the frozen auxiliary conditional maximalityFromNamedMaximumAndUniqueness from a named maximal witness and GodIsOne; this is not a registered global bridge or an unconditional naming converse."
+}

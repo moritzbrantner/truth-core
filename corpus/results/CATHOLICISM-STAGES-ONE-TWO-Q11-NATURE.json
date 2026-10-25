@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+  "argument_id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.uniqueClassicalGodExists",
+  "comparator_config": "results/CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE/comparator.json",
+  "status": "solution-present",
+  "description": "Distinct alternative composition preserving the original First-Way same witness and eight pointwise attribute proofs. The ninth attribute is derived by the imported Q11 nature/individuation theorem instead of assuming GodIsMaximalInBeing. No default root_route or frozen old Challenge changes. This relocates a uniqueness obligation into three sourced commitments and does not reduce assumption count. Revelation, historical and authority commitments remain open."
+}

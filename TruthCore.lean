@@ -119,6 +119,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3Nature
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
@@ -322,7 +323,9 @@ import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution
 import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
@@ -341,6 +344,7 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
+import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution

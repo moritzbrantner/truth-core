@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+  "term": "God’s suppositum is his nature (Q3a3/Q11a3)",
+  "definition": "For a being g satisfying the original IsGod predicate, suppositumOf g = essenceOf g in the existing Principle sort. This represents q.3 a.3’s absence of a real suppositum/nature distinction for God. It is an explicit universal open commitment, not a definition of IsGod or a theorem inferred from generic simplicity. It does not equate Lean objects in Being with objects in Principle.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A3-GOD-SUPPOSITUM-NATURE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading"
+}

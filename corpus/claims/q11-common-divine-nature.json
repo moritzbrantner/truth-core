@@ -1,0 +1,22 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A3-GOD-THIS-GOD-NATURE-A",
+  "statement_id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.3 co., first proof: Secundum igitur idem est Deus, et hic Deus",
+  "interpretation": "Explicit shared-nature reading of the first proof: being God and being this God are contrasted as human nature and this human were, so hypothetical proper God instances are considered under the same divine nature. The formal universal equality to one deity parameter makes this scope choice visible. It is not the article’s uniqueness conclusion used as a premise, not a genus containing God, and not the claim that divine persons are numerically identical. The identity of suppositum with nature is recorded separately in the q.3 a.3 claim. Equality of the nature values is stronger than mere common predication of the word God: that distinction is not discharged by the formalization. It remains part of this explicit, defeasible shared-nature reading rather than being inferred from vocabulary alone.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-ESSENCE",
+    "DISAMB-GOD"
+  ]
+}
