@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+  "term": "eternal",
+  "sense_definition_ids": [
+    "DEF-ETERNAL",
+    "DEF-ENDLESS-TEMPORAL-DURATION"
+  ],
+  "resolution": "The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model."
+}

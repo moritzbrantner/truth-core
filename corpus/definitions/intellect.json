@@ -1,8 +1,11 @@
 {
   "id": "DEF-HAS-INTELLECT",
   "term": "has intellect (ST I q.14; Lean parameter `HasIntellect` of `GodHasIntellect`)",
-  "definition": "`HasIntellect g`: g knows, in the sense of ST I q.14 a.1, where immateriality is the reason why a thing knows. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
-  "basis": "stipulative",
+  "definition": "Having intellect means intellectual cognition, distinguished from sense in ST I q.14 a.1 by its greater separation from matter. Cognition involves the form of what is known in the knower; divine cognition is not a created habit or quality. HasIntellect remains a primitive predicate of beings in GodHasIntellect and ClassicalAttributesSuffice.",
+  "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect",
-  "note": "Stage 2 group 3 (#201) gives it content for God through ST I q.14 a.1: what is altogether immaterial has intellect."
+  "note": "ImmaterialIsIntellectualReading asserts that what is neither matter-form composite nor a component of anything has intellect. That strong antecedent is the case interpretation of the source's highest immateriality, not a definition of all intellect or a claim that sense cognition is intellectual. No species-of-knowledge semantics is enforced by the primitive predicate.",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE"
+  ]
 }

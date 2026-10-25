@@ -1,0 +1,11 @@
+{
+  "id": "AQUINAS-ST-I-Q10-A1-ETERNITY-WITHOUT-SUCCESSION",
+  "statement_id": "STMT-ETERNITY-WITHOUT-BEGINNING-END-SUCCESSION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.10 a.1 co.: Sic ergo ex duobus notificatur aeternitas",
+  "interpretation": "Aquinas distinguishes eternity by two marks: what is in eternity has neither beginning nor end, and eternity has no succession, existing all at once. This is not merely an indefinitely long temporal life. The passage gives the intended sense of the primitive Eternal predicate; the Lean source reading for a.2 formalizes only a sufficient condition for that predicate.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ETERNAL"
+  ]
+}

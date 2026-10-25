@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+  "term": "classical divine attributes (the skeleton's HasClassicalAttributes)",
+  "definition": "The case groups simple, perfect, good, one, infinite, immutable, eternal, intellect and will in the order of ClassicalAttributesSuffice. In the complete stage-2 composition its arguments are IsSimple Composite (DEF-SIMPLE), IsPerfect InAct (DEF-UNIVERSALLY-PERFECT), IsSupremelyGood InAct GoodIn CausesIn esse (DEF-SUPREMELY-GOOD), IsTheOneGod σ.IsGod (DEF-ONE-GOD), Infinite (DEF-INFINITE), IsImmutable InPotency (DEF-IMMUTABLE), Eternal (DEF-ETERNAL), HasIntellect (DEF-HAS-INTELLECT), and HasWill (DEF-HAS-WILL).",
+  "basis": "stipulative",
+  "claim_ids": [
+    "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
+  "note": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means ∀ g, σ.IsGod g → σ.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
+}

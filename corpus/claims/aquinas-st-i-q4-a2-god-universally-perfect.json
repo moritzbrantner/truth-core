@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
+  "statement_id": "STMT-GOD-IS-PERFECT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.4 a.2 co.: in Deo sunt perfectiones omnium rerum. Unde et dicitur universaliter perfectus",
+  "interpretation": "God is called universally perfect because no nobility found in any genus is absent from him. The first proof distinguishes possession in the same account from preexistence in a cause in a more eminent way; it concludes that all perfections preexist in God eminently. The existing IsPerfect reading quantifies over perfection-respects of InAct, whose formal-or-virtual interpretation is required; it does not attribute mutually opposed creaturely forms to God in their creaturely manner.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-IN-ACT-VIRTUALLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-GOD"
+  ]
+}

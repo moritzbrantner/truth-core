@@ -1,8 +1,11 @@
 {
   "id": "DEF-INFINITE",
   "term": "infinite (ST I q.7; Lean parameter `Infinite` of `GodIsInfinite`)",
-  "definition": "`Infinite g`: g is infinite in the sense of ST I q.7 a.1: its act of being is not limited by being received in anything. In stage 2 group 1 (#198) the predicate is opaque: CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES accepts any predicate under this name, so nothing proved there depends on its content.",
-  "basis": "stipulative",
+  "definition": "Divine infinity is unboundedness of subsistent being not received in, and limited by, anything (ST I q.7 a.1). It is the infinity of perfection, not an infinite quantity or indeterminate matter. Infinite is a primitive predicate supplied to GodIsInfinite and to ClassicalAttributesSuffice.",
+  "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite",
-  "note": "Stage 2 group 2 (#199) gives it content for God through ST I q.7 a.1: what is its own subsistent being, not received in anything, is infinite."
+  "note": "SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x → Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise.",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE"
+  ]
 }
