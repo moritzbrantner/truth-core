@@ -137,6 +137,7 @@ import TruthCore.Modal.Examples
 import TruthCore.Modal.Kripke
 import TruthCore.Modern.Hume.Conceivability
 import TruthCore.Modern.Hume.Regularity
+import TruthCore.Modern.Hume.RegularityModels
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
