@@ -1,0 +1,1 @@
+{"id": "STMT-EXCLUDED-MIDDLE-PROVED-ONLY-WHEN-DECIDED-INTUITIONISM", "paraphrase": "Intuitionism (BHK): a proof of p ∨ ¬p at a stage is a proof of p or a proof of ¬p at that stage.", "lean_declaration": "TruthCore.English.Iemhoff.ExcludedMiddleProvedOnlyWhenDecidedReading"}

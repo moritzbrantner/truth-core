@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-TRUTH-APT",
+  "term": "truth-apt",
+  "sense_definition_ids": [
+    "DEF-TRUTH-VALUE",
+    "DEF-THOUGHT-TRUE-OR-FALSE"
+  ],
+  "resolution": "Two senses. Aptitude (DEF-TRUTH-VALUE, O'Connor's `TruthApt`): being the kind of sentence that can be true or false. Having a truth value in fact (DEF-THOUGHT-TRUE-OR-FALSE, `TrueT t ∨ FalseT t`): the sense of Metaphysics IV.7, reading A. STMT-TRUTH-APT-THOUGHT-AFFIRMS-OR-DENIES and STMT-TRUTH-APT-THOUGHT-DECIDES-ITS-OBJECT are about thoughts true or false in fact, so their conclusion excludes no third thought that is merely apt. No step passes from aptitude to having a truth value: bivalence, that every object of thought is judged truly or falsely, is the separate explicit premise STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY (reading B), and ARIST-MET-1012A-THOUGHT-BIVALENCE-IFF-EXCLUDED-MIDDLE shows it is equivalent to excluded middle rather than assuming it."
+}

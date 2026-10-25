@@ -1,0 +1,11 @@
+{
+  "id": "DEF-THOUGHT-TRUE-OR-FALSE",
+  "term": "thought that is true or false (Lean `TrueT t ∨ FalseT t`)",
+  "definition": "An act of thought t that actually is true or actually is false (`TrueT t ∨ FalseT t`), as in Metaphysics IV.7, 1012a2-4, 'whenever it is true or false' (ὅταν ἀληθεύῃ ἢ ψεύδηται). Not mere aptitude, being the kind of thing that can be true or false (DEF-TRUTH-VALUE): reading A's statements quantify only over thoughts that have a truth value in fact.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-1012A-THOUGHT-AFFIRMS-OR-DENIES-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.TruthAptThoughtAffirmsOrDeniesReading",
+  "note": "The Lean names `TruthAptThoughtAffirmsOrDeniesReading` and `TruthAptThoughtDecidesItsObject` (and the matching statement and result IDs) are kept from the first version; they mean this sense, not aptitude (DISAMB-TRUTH-APT)."
+}

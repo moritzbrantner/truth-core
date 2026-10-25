@@ -1,0 +1,1 @@
+{"id": "STMT-ASSERTION-REQUIRES-PROOF-INTUITIONISM", "paraphrase": "Open premise of the comparison, not attributed to the witness: what is asserted at a stage is proved at that stage. It applies STMT-KNOWING-TRUE-IS-HAVING-PROOF-INTUITIONISM to assertion, taking asserting as claiming to know.", "lean_declaration": "TruthCore.English.Iemhoff.AssertionRequiresProofReading"}

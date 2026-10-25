@@ -1,0 +1,1 @@
+{"id": "STMT-THOUGHT-BIVALENCE-IFF-EXCLUDED-MIDDLE", "paraphrase": "Given that truth-apt thought affirms or denies, truth by composition, and that every proposition can be affirmed or denied in thought, bivalence of thought holds exactly when excluded middle does.", "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle"}

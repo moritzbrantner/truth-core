@@ -92,4 +92,25 @@ theorem excludedMiddle_iff_predicative :
   · intro hPred p
     exact hPred PUnit (fun _ => p) PUnit.unit
 
+/-- Intuitionist withholding of excluded middle (`STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM`),
+over stages `Stage` of knowledge with `Proved s p` (a proof of `p` is known at
+`s`) and `Asserts s p` (`p` is asserted at `s`):
+
+1. `p ∨ ¬p` is asserted at a stage only when `p` or `¬p` is proved there;
+2. at some stage some instance `p ∨ ¬p` is not asserted (assent withheld);
+3. withholding is not denial: every denial `¬(p ∨ ¬p)` is refuted, i.e.
+   `¬¬(p ∨ ¬p)` holds for every `p`.
+
+Clauses 1 and 2 are about assertion; clause 3 is object-level irrefutability,
+not a restriction on what is asserted. Nothing here says that no denial is
+asserted (Codex P1 on #174): the source says that the refutation of excluded
+middle "is not true in intuitionism", which is clause 3. It is a position, not
+a proposition `¬ ExcludedMiddle`. Derived
+from the intuitionist theory's commitments in
+`INTUITIONISM-ENTAILS-EXCLUDED-MIDDLE-WITHHELD`. -/
+def ExcludedMiddleWithheld {Stage : Type u} (Proved Asserts : Stage → Prop → Prop) : Prop :=
+  (∀ s p, Asserts s (p ∨ ¬ p) → Proved s p ∨ Proved s (¬ p)) ∧
+    (∃ s p, ¬ Asserts s (p ∨ ¬ p)) ∧
+    ExcludedMiddleIrrefutable
+
 end TruthCore.Logic
