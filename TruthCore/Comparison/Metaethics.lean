@@ -17,7 +17,10 @@ treats every `TruthCore.Comparison.*` definition as a theory bundle.
 ## Theories
 
 * **O'Connor's emotivism** (`OConnorEmotivism`): his four recorded metaethical
-  readings (#157/#160). The prescriptive element he adds is not formalized yet,
+  readings (#157/#160). One of them, "there are no objective moral truths", is
+  recorded from his 2016 subjectivism, not his 2023 emotivism
+  (`DISAMB-MORAL-ANTIREALISM`), so the bundle is his recorded metaethics, not
+  emotivism alone. The prescriptive element he adds is not formalized yet,
   because his spans cannot be re-read without the youtube-corpus export (#184).
 * **Stevenson's emotivism** (`StevensonEmotivism`): emotive meaning
   (free-standing moral assertions express attitudes), descriptive meaning, and
@@ -145,7 +148,8 @@ keeps the consistency claims from holding only vacuously. -/
 def ThereIsAMoralSentence (s : Sig) : Prop :=
   GeachMinorPremiseIsMoralReading s.Moral s.p
 
-/-- O'Connor's emotivism: his four recorded metaethical readings. -/
+/-- O'Connor's emotivism: his four recorded metaethical readings. The third,
+no objective moral truths, is recorded from his 2016 subjectivism. -/
 def OConnorEmotivism (s : Sig) : Prop :=
   MoralStatementsLackTruthValueReading s.Moral s.TruthApt ∧
     LackingTruthValueExcludesTruthReading s.TruthApt s.Holds ∧
