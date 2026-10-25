@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "source_url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_lt.html",
+    "retrieved_at": "2026-10-25T13:54:16Z",
+    "sha256": "sha256:0a828abb4be1de13b600bbc9bbae32832ed5ce4dad940629f57aae54c679fe23",
+    "kind": "web_snapshot",
+    "source_id": "VATICAN-II-LUMEN-GENTIUM",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Copyright Dicastero per la Comunicazione - Libreria Editrice Vaticana; Vatican archive. No source text is committed."
+  },
+  "passages": [
+    {
+      "id": "VATICAN-II-LUMEN-GENTIUM-I",
+      "locator": "ch. I, §§1–8",
+      "claim_locator_prefixes": [
+        "§5,",
+        "§8,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Caput I"
+        },
+        "to": {
+          "text": "Caput II"
+        }
+      },
+      "text_sha256": "sha256:f94183cc216953073223e63ff4d1b02557dae3aa695ee35810080eee5befbbf3",
+      "incipit": "Caput I\nDE ECCLESIAE MYSTERIO\n1. Lumen gentium cum sit Christus, haec"
+    }
+  ]
+}

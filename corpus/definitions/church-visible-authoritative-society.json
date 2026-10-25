@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+  "term": "Church as a visible, enduring society with authority",
+  "definition": "The community described in Lumen gentium §8 as visibly constituted, continually sustained, equipped with hierarchical organs, entrusted to Peter and the apostles for pastoral government, and established in perpetuity. This is the visible/social aspect of the one complex Church of which the source also speaks spiritually; it is not a claim that the Church is exhausted by an external organization or that every later institutional detail was fixed at its inception.",
+  "basis": "sourced",
+  "claim_ids": [
+    "VATICAN-II-LG-8-CHRIST-FOUNDED-VISIBLE-CHURCH"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.Signature.VisibleWithAuthority",
+  "note": "This sense interprets VisibleWithAuthority in the stage-5 source reading, not every possible society in Signature. Source evidence for the reading does not establish its historical truth or supply stage-6 identity."
+}
