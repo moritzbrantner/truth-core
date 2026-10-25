@@ -24,7 +24,9 @@ Each line names the proposition that answers the question, or *unexplained*.
   Aristotelian: a thought is true when it combines as things are,
   `STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION` (*Met.* IV.7, 1012a4-5 with
   1011b26-27). Intuitionist: being proved at some stage,
-  `STMT-TRUTH-IS-PROVABILITY-INTUITIONISM` (recorded as an alternative to the
+  `STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`, an open premise of this comparison,
+  not a sourced commitment: the witness states only the primacy of proof
+  (`STMT-PROOF-NOT-TRUTH-CENTRAL-INTUITIONISM`) (recorded as an alternative to the
   Aristotelian premise).
 * **Q-FIRST-MOVER** (the regress: is there a first unmoved mover?).
   Catholic: yes, via the prima via and the excluded-middle instance
@@ -70,19 +72,21 @@ pinned SEP witness, `SEP-INTUITIONISM`):
 1. `p ∨ ¬p` is proved only when `p` or `¬p` is (§3.1);
 2. some proposition is undecided at some stage (§3.1, open problems);
 3. assertion requires proof (§3.1);
-4. no instance of excluded middle can be refuted, `∀ p, ¬¬(p ∨ ¬p)` (§3.4);
-5. truth is provability, the account put in place of excluded middle (§6.3).
+4. no instance of excluded middle can be refuted, `∀ p, ¬¬(p ∨ ¬p)` (§3.4).
+
+Truth as provability is not among them: it is the comparison's own open
+premise (`TruthIsProvabilityReading`, `STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`).
 -/
 def Intuitionist (s : Sig) : Prop :=
   ExcludedMiddleProvedOnlyWhenDecidedReading s.Proved ∧
     SomePropositionUndecidedReading s.Proved ∧
     AssertionRequiresProofReading s.Proved s.Asserts ∧
-    ExcludedMiddleIrrefutable ∧
-    TruthIsProvabilityReading s.Proved
+    ExcludedMiddleIrrefutable
 
-/-- The intuitionist theory is consistent: some interpretation of the shared
-signature satisfies all its commitments. -/
+/-- The intuitionist theory is consistent, together with the comparison's own
+answer to Q-TRUTH: some interpretation of the shared signature satisfies the
+four sourced commitments and the open premise that truth is provability. -/
 def IntuitionistTheoryConsistent : Prop :=
-  ∃ s : Sig, Intuitionist s
+  ∃ s : Sig, Intuitionist s ∧ TruthIsProvabilityReading s.Proved
 
 end TruthCore.Comparison.ExcludedMiddle

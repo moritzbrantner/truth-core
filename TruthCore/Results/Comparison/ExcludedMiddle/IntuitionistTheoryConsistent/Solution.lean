@@ -11,7 +11,7 @@ commitment holds constructively, so the rival does not lose on consistency; the
 comparison turns on what it leaves unexplained. -/
 theorem intuitionistTheoryConsistent : IntuitionistTheoryConsistent := by
   unfold IntuitionistTheoryConsistent Intuitionist
-  refine ⟨⟨Bool, fun st p => st = true ∧ p, fun st p => st = true ∧ p⟩, ?_, ?_, ?_, ?_, ?_⟩
+  refine ⟨⟨Bool, fun st p => st = true ∧ p, fun st p => st = true ∧ p⟩, ⟨?_, ?_, ?_, ?_⟩, ?_⟩
   · -- A proof of p ∨ ¬p at the later stage is a proof of p or of ¬p there.
     intro st p hProved
     cases hProved.2 with

@@ -5,11 +5,11 @@ open TruthCore.Comparison.ExcludedMiddle
 /-- The intuitionist theory entails withholding excluded middle, and not
 denying it: asserting `p ∨ ¬p` needs a proof of `p` or of `¬p`; an undecided
 proposition's instance is therefore not asserted; and every denial of an
-instance stays refuted. The withholding is derived from the theory's account of
-truth and assertion, not stipulated. -/
+instance stays refuted. The withholding is derived from the theory's sourced
+commitments on proof and assertion, not stipulated. -/
 theorem intuitionismEntailsExcludedMiddleWithheld (s : Sig) (hTheory : Intuitionist s) :
     ExcludedMiddleWithheld s.Proved s.Asserts := by
-  obtain ⟨hDecided, hUndecided, hAssertion, hIrrefutable, _hTruth⟩ := hTheory
+  obtain ⟨hDecided, hUndecided, hAssertion, hIrrefutable⟩ := hTheory
   -- Asserting p ∨ ¬p requires proving it, and a proof of it is a proof of p
   -- or of ¬p.
   have hRule : ∀ st p, s.Asserts st (p ∨ ¬ p) → s.Proved st p ∨ s.Proved st (¬ p) :=

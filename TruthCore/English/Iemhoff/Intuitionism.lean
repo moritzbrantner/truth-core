@@ -47,8 +47,12 @@ def AssertionRequiresProofReading {Stage : Type u}
 mathematics is not, as in Platonism, truth, but proof". The intuitionist's
 answer to "what makes a proposition true?", put in the place of a
 proof-transcendent truth: a proposition holds exactly when it is proved at some
-stage. This anti-realist biconditional is the strongest of the readings; the
-claim records that §6.3 states the primacy of proof, not this formula. -/
+stage. This anti-realist biconditional is **not** attributed to the witness:
+§6.3 states only the primacy of proof in the theory of meaning for mathematics
+(`STMT-PROOF-NOT-TRUTH-CENTRAL-INTUITIONISM`, the claim's statement). Strengthening
+it to a biconditional for every proposition is the comparison's own open premise
+(`STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`), outside the sourced `Intuitionist`
+bundle (Codex P1 on #174). -/
 def TruthIsProvabilityReading {Stage : Type u}
     (Proved : Stage → Prop → Prop) : Prop :=
   ∀ p : Prop, p ↔ ∃ s, Proved s p
