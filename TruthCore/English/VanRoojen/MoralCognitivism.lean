@@ -290,7 +290,10 @@ reading."
 property it is about) explain our thought and talk with `φ`. The reading: a
 moral sentence that is robustly truth-apt has truth conditions that explain
 our thought and talk with it. Only this direction is formalized, not that
-explanatory truth conditions are robust. The entry reports the proposal
+explanatory truth conditions are robust. This is a reading choice: the entry
+says robust, unlike minimal, propositions and properties are "suited" to
+explanatory work, and the reading takes the non-minimal use to be the realist,
+explanatory one. The entry reports the proposal
 conditionally ("if this can be defended"): the reading records the proposal,
 not its defense.
 

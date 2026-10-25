@@ -37,7 +37,7 @@ theorem antirealistOrderSustainsRobustTruthDeviation {Sentence : Type}
 
 /-! ## The crux: the collapse premise against the order of explanation -/
 
-/-- With a moral sentence, the same premises refute the collapse premise: by
+/-- With a moral sentence, the same premises exclude the collapse premise: by
 `minimalismCollapsesRobustTruth` it would make the sentence robustly truth-apt,
 which the anti-realist order excludes. -/
 theorem antirealistOrderExcludesCollapse {Sentence : Type}
