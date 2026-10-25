@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-NO-DEMONSTRATION",
+  "paraphrase": "No demonstrative argument establishes the uniformity of unobserved instances. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.NoDemonstration",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-RECORD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

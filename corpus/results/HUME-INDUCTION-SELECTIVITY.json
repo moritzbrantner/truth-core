@@ -1,0 +1,10 @@
+{
+  "id": "HUME-INDUCTION-SELECTIVITY",
+  "argument_id": "HUME-INDUCTION-SELECTIVITY",
+  "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.Induction.selective",
+  "comparator_config": "results/HUME-INDUCTION-SELECTIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional selective-skepticism critique: identical relevant evidence and an invariant verdict standard transfer science entitlement to the selected theology case. Logical transcription; same-evidence and normative premises remain open."
+}

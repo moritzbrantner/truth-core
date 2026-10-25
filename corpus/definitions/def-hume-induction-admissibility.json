@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-ADMISSIBILITY",
+  "term": "all outcomes allowed versus nondemonstrability",
+  "definition": "EveryNextAllowed requires a witness trace for each Boolean next outcome in a supplied admissibility class. A class containing only everywhere-true traces fails it despite NoDemonstration False. Admissibility is a stipulated interpretation parameter, not metaphysical accessibility; it refutes the bare logical inference to unrestricted outcomes, not a modal theory.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.EveryNextAllowed",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

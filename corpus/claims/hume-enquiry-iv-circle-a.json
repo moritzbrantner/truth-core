@@ -1,0 +1,15 @@
+{
+  "id": "HUME-ENQUIRY-IV-CIRCLE-A",
+  "statement_id": "STMT-HUME-INDUCTION-CIRCULAR-PROPOSAL",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "IV, §19 (SBN 35–36)",
+  "interpretation": "The conditional representation preserves the argument-dependency claim. It is not a fully implemented proof calculus or a proof that no noncircular entitlement can exist.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-FOUNDATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

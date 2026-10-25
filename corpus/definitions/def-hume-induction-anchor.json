@@ -1,0 +1,10 @@
+{
+  "id": "DEF-HUME-INDUCTION-ANCHOR",
+  "term": "experiential inference anchored in present memory or sense",
+  "definition": "PresentAnchor requires an anchoring fact for categorical experiential inference. It does not impose this requirement on relations of ideas or on explicitly hypothetical reasoning.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.PresentAnchor",
+  "claim_ids": [
+    "HUME-ENQUIRY-V-ANCHOR-A"
+  ]
+}

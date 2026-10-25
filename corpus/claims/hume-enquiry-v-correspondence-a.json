@@ -1,0 +1,16 @@
+{
+  "id": "HUME-ENQUIRY-V-CORRESPONDENCE-A",
+  "statement_id": "STMT-HUME-INDUCTION-CORRESPONDENCE",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "V, §21 (SBN 54–55)",
+  "interpretation": "Recorded f n is a finite operational illustration of the retrospective content, not a claim Hume supplies a numerical sample, every idea is true, or the future must match. The correspondence is a concession to practical success; its ultimate ground is not demonstrated.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-TRIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

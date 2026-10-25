@@ -1,0 +1,15 @@
+{
+  "id": "HUME-ENQUIRY-IV-NO-DEMONSTRATION-A",
+  "statement_id": "STMT-HUME-INDUCTION-NO-DEMONSTRATION",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "IV, §18 (SBN 35)",
+  "interpretation": "The changed-course examples support denial of demonstration; this does not assert random outcomes, metaphysical absence of causes, or denial of every entitlement.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-FOUNDATION",
+    "DEF-HUME-INDUCTION-RECORD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

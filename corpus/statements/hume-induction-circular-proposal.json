@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-CIRCULAR-PROPOSAL",
+  "paraphrase": "Proposed probable experiential arguments for uniformity depend on that uniformity. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.CircularProposal",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-CIRCLE",
+    "DEF-HUME-INDUCTION-FOUNDATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-AGENT-PHILOSOPHER",
+  "paraphrase": "Satisfaction as an agent coexists with the philosopher not finding the foundation of experiential inference. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.AgentPhilosopher",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-HUME-INDUCTION-FOUNDATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

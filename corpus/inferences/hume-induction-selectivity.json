@@ -1,0 +1,13 @@
+{
+  "id": "INF-HUME-INDUCTION-SELECTIVITY",
+  "input_statement_ids": [
+    "STMT-HUME-INDUCTION-UNIFORM-STANDARD",
+    "STMT-HUME-INDUCTION-SAME-BASIS",
+    "STMT-HUME-INDUCTION-SCIENCE-ENTITLED"
+  ],
+  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-SELECTIVE",
+  "rule": "direct-proof",
+  "meaning": "Conditional selective-skepticism critique: identical relevant evidence and an invariant verdict standard transfer science entitlement to the selected theology case. Logical transcription; same-evidence and normative premises remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
