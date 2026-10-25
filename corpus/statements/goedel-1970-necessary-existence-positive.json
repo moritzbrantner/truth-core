@@ -1,0 +1,16 @@
+{
+  "id": "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+  "paraphrase": "Gödel's 1970 axiom Ax3 (AFP GoedelVariantHOML1.thy): at every world, necessary existence in the 1970 sense (each essence of the individual, in the 1970 sense, is necessarily exemplified by an existing individual) is positive.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NecessaryExistencePositive",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

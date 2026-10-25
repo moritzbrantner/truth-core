@@ -1,0 +1,12 @@
+{
+  "id": "INF-GOEDEL-1970-TH2",
+  "input_statement_ids": [
+    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE"
+  ],
+  "output_statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IMPLIES-NECESSARILY-EXISTS",
+  "rule": "universal-instantiation",
+  "meaning": "AFP Th2 (Ax3 Th1 God_def NecExist_def). A God-like x has necessary existence, which is positive (Ax3), and being God-like is an essence of x (Th1), so being God-like is exemplified by an existing individual at every accessible world.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOMLINHOL-RSYMM-A",
+  "statement_id": "STMT-ACCESSIBILITY-SYMMETRIC",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "HOMLinHOL.thy, Rsymm: \"∀x y. x❙ry ⟶ y❙rx\"",
+  "interpretation": "The embedding's axiom Rsymm, symmetry of the accessibility relation, one of the three S5 axioms (with Rrefl and Rtrans) the theory introduces with 'Here logic S5 is introduced'. Only Rsymm is used by a Lean result here, as a stated premise (Th3); Rrefl and Rtrans are not recorded as premises because no result uses them. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ]
+}

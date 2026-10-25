@@ -1,0 +1,30 @@
+{
+  "id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "premise_statement_ids": [
+    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-ACCESSIBILITY-SYMMETRIC"
+  ],
+  "conclusion_statement_id": "STMT-GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "inference_ids": [
+    "INF-GOEDEL-1970-TH1",
+    "INF-GOEDEL-1970-TH2",
+    "INF-GOEDEL-1970-TH3"
+  ],
+  "meaning": "Main existence theorem of Gödel's 1970 variant as formalized in GoedelVariantHOML1.thy: from Ax2a, Ax2b (Scott's A4), Ax3 and the symmetric frame, if possibly an existing God-like individual exists, necessarily one exists (Th3), through Th1 and Th2. It is conditional: the theory does not derive the possibility, as Scott's theory derives C from A1a, A2 and A3. Ax4 is not used, and the premises are satisfiable (the Comparator config also verifies premisesJointlySatisfiable: with excluded middle as a hypothesis about Lean propositions, Ax1, Ax2a, Ax2b, Ax3 and symmetry hold in a one-world model), so this result does not rest on the inconsistency of GOEDEL-1970-INCONSISTENT. Compared with Scott's T3 (SCOTT-GOD-LIKE-NECESSARILY-EXISTS): the existential is actualist (DISAMB-EXISTS), the essence is the 1970 one (DISAMB-ESSENCE), and no excluded middle is needed, since Ax2a is itself a disjunction. With Ax4 the full 1970 axiom set entails the unconditional existence claim too, but only by explosion. Formal consequence inside the Lean embedding of the AFP theory (DEF-HOML-ACTUALIST-NECESSITY) only: it shows nothing about what Gödel intended, how his manuscript developed, nor whether the axioms are true.",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-GOD-LIKE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-EXISTS",
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

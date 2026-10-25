@@ -1,0 +1,12 @@
+{
+  "id": "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
+  "term": "positive (the constant P of Gödel's 1970 variant, AFP GoedelVariantHOML1.thy)",
+  "definition": "`Positivity`: an undeclared constant P (PositiveProperty :: (e⇒σ)⇒σ) that says, at each world, which properties are positive there. It has the type of Scott's P (the same Lean type `TruthCore.Isabelle.AFP.GoedelGod.Positivity`), but the theory constrains it only by its own axioms Ax1, Ax2a, Ax2b, Ax3 and Ax4, not by Scott's A1a-A5, so a result about one constant says nothing about the other. Not Aquinas's perfection; no statement identifies the two.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-NOTES-GOEDEL-HOML1-AX1-A",
+    "AFP-NOTES-GOEDEL-HOML1-AX2A-A",
+    "AFP-NOTES-GOEDEL-HOML1-AX4-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+}

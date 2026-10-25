@@ -1,0 +1,17 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-TH3-A",
+  "statement_id": "STMT-GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Th3: \"⌊❙◇(❙∃⇧Ex. G x) ❙⊃ ❙□(❙∃⇧Ey. G y)⌋\"",
+  "interpretation": "Theorem Th3 as stated in the theory, proved there from Th2 and Rsymm. The theory does not state that a God-like being possibly exists, so Th3 is its last existence theorem; the claim does not say the theory derives that a God-like being exists. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-LIKE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTS",
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY"
+  ]
+}

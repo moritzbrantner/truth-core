@@ -1,0 +1,19 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-AX3-A",
+  "statement_id": "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Ax3: \"⌊P E⌋\"",
+  "interpretation": "Axiom Ax3 as stated in the theory, with E the theory's definition NecExist, E x ≡ ❙∀φ. φ Ess. x ❙⊃ ❙□(❙∃⇧Ex. φ x), and Ess. its definition Essence, φ Ess. x ≡ ❙∀ψ. ψ x ❙⊃ (φ ❙⊃⇩N ψ), both stated before Ax3. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

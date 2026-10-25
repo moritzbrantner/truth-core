@@ -1,0 +1,10 @@
+{
+  "id": "DEF-GOD-LIKE-GOEDEL-1970",
+  "term": "God-like (Gödel's 1970 G, the definition God; Lean `GodLike`, shared with Scott's)",
+  "definition": "`GodLike P x w`: at world w, x has every property that is positive at w (AFP definition God, G x ≡ ❙∀φ. P φ ❙⊃ φ x). The formula is Scott's G, so the Lean declaration is shared; what it picks out depends on the positivity constant, which here is the 1970 theory's (DEF-POSITIVE-PROPERTY-GOEDEL-1970). The theory names the definition 'God'; the formalized notion is only this.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-NOTES-GOEDEL-HOML1-TH1-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLike"
+}

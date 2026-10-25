@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+  "term": "necessary existence (Gödel's 1970 E, NecExist; Lean `GoedelVariantHOML1.NecessaryExistence`)",
+  "definition": "`NecessaryExistence F ex x w`: at w, every essence of x in the 1970 sense (DEF-ESSENCE-GOEDEL-1970) is exemplified by an existing individual at every world accessible from w (AFP definition NecExist, E x ≡ ❙∀φ. φ Ess. x ❙⊃ ❙□(❙∃⇧Ex. φ x)). Since the empty property is an essence of everything, an individual has it at w only if no world is accessible from w. Not Scott's NE (DEF-NECESSARY-EXISTENCE-SCOTT), not the tertia via's necessary being and not logical necessity.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AFP-NOTES-GOEDEL-HOML1-AX3-A"
+  ],
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NecessaryExistence"
+}

@@ -78,6 +78,7 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Isabelle.AFP.GoedelGod
+import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
@@ -290,9 +291,14 @@ import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
 import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution
+import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution
 import TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution
+import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
+import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
+import TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution
+import TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

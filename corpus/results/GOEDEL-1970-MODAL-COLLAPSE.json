@@ -1,0 +1,9 @@
+{
+  "id": "GOEDEL-1970-MODAL-COLLAPSE",
+  "argument_id": "GOEDEL-1970-MODAL-COLLAPSE",
+  "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution",
+  "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.modalCollapse",
+  "comparator_config": "results/GOEDEL-1970-MODAL-COLLAPSE/comparator.json",
+  "status": "solution-present"
+}

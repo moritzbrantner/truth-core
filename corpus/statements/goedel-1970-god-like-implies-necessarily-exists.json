@@ -1,0 +1,14 @@
+{
+  "id": "STMT-GOEDEL-1970-GOD-LIKE-IMPLIES-NECESSARILY-EXISTS",
+  "paraphrase": "Gödel's 1970 theorem Th2 (AFP GoedelVariantHOML1.thy): at every world where some individual is God-like, necessarily some existing individual is God-like.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.GodLikeImpliesNecessarilyExists",
+  "definition_ids": [
+    "DEF-GOD-LIKE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTS",
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "GOEDEL-1970-INCONSISTENT",
+  "argument_id": "GOEDEL-1970-INCONSISTENT",
+  "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution",
+  "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.inconsistency",
+  "comparator_config": "results/GOEDEL-1970-INCONSISTENT/comparator.json",
+  "status": "solution-present"
+}

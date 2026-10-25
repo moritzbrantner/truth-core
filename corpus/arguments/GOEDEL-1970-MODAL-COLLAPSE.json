@@ -1,0 +1,30 @@
+{
+  "id": "GOEDEL-1970-MODAL-COLLAPSE",
+  "premise_statement_ids": [
+    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
+    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION"
+  ],
+  "conclusion_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "inference_ids": [
+    "INF-GOEDEL-1970-EMPTY-ESSENCE",
+    "INF-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+    "INF-GOEDEL-1970-NO-DEAD-END-WORLD",
+    "INF-GOEDEL-1970-INCONSISTENCY",
+    "INF-GOEDEL-1970-MC-BY-EXPLOSION"
+  ],
+  "meaning": "Modal collapse (the statement of Scott's MC) follows from Gödel's 1970 axioms Ax2a, Ax3 and Ax4, but only by explosion: they have no model with a world (GOEDEL-1970-INCONSISTENT), so modal collapse holds vacuously, and so would any statement about the model. The AFP theory GoedelVariantHOML1.thy does not state MC. Compared with Scott's modal collapse (SCOTT-MODAL-COLLAPSE), which is derived from satisfiable axioms through T3 and the essence of God-likeness, this result carries no information about the 1970 notions: it records that the consequence query has the same answer for a different reason. Formal consequence inside the Lean embedding of the AFP theory (DEF-HOML-ACTUALIST-NECESSITY) only: it shows nothing about what Gödel intended, how his manuscript developed, nor whether the axioms are true.",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-EXISTS",
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

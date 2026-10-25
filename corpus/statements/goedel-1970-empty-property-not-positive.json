@@ -1,0 +1,11 @@
+{
+  "id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+  "paraphrase": "Step 1 of the proof of Inconsistency in Gödel's 1970 variant (AFP GoedelVariantHOML1.thy): at every world, the empty property is not positive.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.EmptyPropertyNotPositive",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POSITIVE"
+  ]
+}

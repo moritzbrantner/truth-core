@@ -1,0 +1,15 @@
+{
+  "id": "INF-GOEDEL-1970-INCONSISTENCY",
+  "input_statement_ids": [
+    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
+    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
+    "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+    "STMT-ACCESSIBILITY-NO-DEAD-END",
+    "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE"
+  ],
+  "output_statement_id": "STMT-MODEL-HAS-NO-WORLD",
+  "rule": "reductio",
+  "meaning": "AFP Inconsistency (steps 2-6). At any world w necessary existence is positive (Ax3). It is necessarily included in the empty property: an individual that exists necessarily at a world v accessible from w has the empty property as an essence (EmptyEssL), so the empty property is exemplified at every world accessible from v, so no world is accessible from v, which no world allows (no dead end). By Ax4 the empty property is positive at w, against step 1. So there is no world. No frame condition is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

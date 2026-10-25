@@ -1,0 +1,11 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-INCONSISTENCY-A",
+  "statement_id": "STMT-MODEL-HAS-NO-WORLD",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Inconsistency: \"False\"",
+  "interpretation": "Theorem Inconsistency, False, proved in the theory from Ax2a, Ax3, Ax4, EmptyEssL and NecExist_def, which its text introduces with 'Gödel's axioms and definitions, as presented in the 1970 manuscript, are inconsistent'. In Isabelle the theorem says that the axioms of the theory, including the S5 axioms of HOMLinHOL.thy and the non-emptiness of HOL types, have no model. The claim reads it as the statement that a Kripke model of the axioms has no world, since a world is what HOL's non-empty type i supplies; the Lean result derives that from Ax2a, Ax3 and Ax4 alone, on any frame. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY"
+  ]
+}

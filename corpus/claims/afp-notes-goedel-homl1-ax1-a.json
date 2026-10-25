@@ -1,0 +1,14 @@
+{
+  "id": "AFP-NOTES-GOEDEL-HOML1-AX1-A",
+  "statement_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-CONJUNCTION",
+  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "locator": "GoedelVariantHOML1.thy, Ax1: \"⌊P φ ❙∧ P ψ ❙⊃ P (φ ❙. ψ)⌋\"",
+  "interpretation": "Axiom Ax1 as stated in the theory, with ❙. the conjunction of properties (HOMLinHOL.thy, Mconpred) and the free φ, ψ read as universally closed, as Isabelle does. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POSITIVE"
+  ]
+}

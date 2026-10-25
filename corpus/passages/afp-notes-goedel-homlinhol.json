@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+    "source_url": "https://www.isa-afp.org/browser_info/current/AFP/Notes_On_Goedels_Ontological_Argument/HOMLinHOL.html",
+    "retrieved_at": "2026-10-25T08:09:44Z",
+    "sha256": "sha256:7ff461fb6b1070a6c203dbe16ff3df98c0ddd15a2eb898a0e8f70630d6b522c8",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "BSD License (AFP entry page, checked 2026-10-25). Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "AFP-NOTES-GOEDEL-HOMLINHOL-THY",
+      "locator": "HOMLinHOL.thy (whole theory)",
+      "claim_locator_prefixes": [
+        "HOMLinHOL.thy,"
+      ],
+      "html_selector": {
+        "heading": "Theory HOMLinHOL"
+      },
+      "text_sha256": "sha256:3a25e6f6d5d588a3f3f188e4991282dfd943a40bb72d77cd96044304fdcf93c6",
+      "incipit": "Theory HOMLinHOL\nsection‹Mechanization of higher-order modal logic (HOML)›"
+    }
+  ]
+}

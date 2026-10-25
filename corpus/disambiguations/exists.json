@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EXISTS",
+  "term": "exists (quantifier over individuals in the modal embeddings)",
+  "sense_definition_ids": [
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "resolution": "Scott's variant (AFP GoedelGod.thy) quantifies over individuals possibilistically: ∃ ranges over the whole type at every world, so 'a God-like being exists' (T3, C2) means only that some individual is God-like there (DEF-QML-KB-NECESSITY). Gödel's 1970 variant (AFP GoedelVariantHOML1.thy) uses the actualist ❙∃⇧E, relative to the existence predicate existsAt (DEF-HOML-ACTUALIST-NECESSITY), in Ax4, NecExist, Th2 and Th3. The Lean statements write the actualist quantifier as ∃ y, ex y v ∧ …, so the two senses are different formulas, and no result passes from one to the other. Property quantifiers are possibilist in both."
+}

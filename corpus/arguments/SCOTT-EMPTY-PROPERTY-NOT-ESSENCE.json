@@ -1,0 +1,16 @@
+{
+  "id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "inference_ids": [
+    "INF-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE"
+  ],
+  "meaning": "Discriminating consequence, from the definition alone: in Scott's variant (AFP GoedelGod.thy, definition ess) the empty property is an essence of nothing, because an essence is had by its bearer. The AFP theory does not state it. It is the counterpart of GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE, and it is why the step that makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) is not available to Scott's axioms. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended.",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}
