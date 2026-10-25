@@ -1,1 +1,13 @@
-{"id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE", "paraphrase": "Grades are found in things: some things are more and others less good, true and noble.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading", "definition_ids": ["DEF-MORE-IN", "DEF-ONTOLOGICAL-TRUTH"], "disambiguation_ids": ["DISAMB-TRUE"]}
+{
+  "id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+  "paraphrase": "Grades are found in things: some things are more and others less good, true and noble.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

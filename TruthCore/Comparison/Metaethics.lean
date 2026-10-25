@@ -63,7 +63,7 @@ The questions:
 7. **Q-NORMATIVE-REASONS**: why is the good to be pursued?
 8. **Q-EVIL-PREMISE**: is "there is evil" true, as the problem of evil asserts? (#160)
 
-| Question | O'Connor | Stevenson | Quasi-realism | Catholic |
+| Question | O'Connor | Stevenson | Quasi-realism | Catholic natural law |
 |---|---|---|---|---|
 | 1. Grounding | S: no objective moral truths | U | U: explanatory order (§5.2) and supervenience (§3.4) are recorded, but neither answers what makes a moral judgment true | S: actuality and privation (q.5, q.48) |
 | 2. Validity | U | U | U: consistency with validity is verified, but no explanation of validity is derived | U (not formalized) |
@@ -72,7 +72,7 @@ The questions:
 | 5. Progress | U (on the cognitive reading of correction) | U | S: minimal correction (§4.3) | S: correction of corruption (q.94 a.5 ad 1) |
 | 6. Robust truth | S: no truth value at all | U | V: not robust, a deviation (`QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH`); sustained on the anti-realist order of explanation (`ANTIREALIST-ORDER-SUSTAINS-ROBUST-TRUTH-DEVIATION`), collapsed by the collapse premise (`MINIMALISM-COLLAPSES-ROBUST-TRUTH-DEVIATION`), open | S: practical truth, the same for all (a.4) |
 | 7. Normative reasons | U | U | U | S: the first precept (a.2) |
-| 8. Evil premise | C: not true (`POE-EXTERNAL-PREMISE-VS-EMOTIVISM`) | U | U | V: entailed (`POE-CATHOLIC-ENTAILS-EVIL-PREMISE`) |
+| 8. Evil premise | C: not true (`POE-EXTERNAL-PREMISE-VS-EMOTIVISM`) | U | U | U: not derived from `CatholicNaturalLaw`; the separate problem-of-evil theory entails it (see below) |
 
 **Counts**, in the order V / S / U / C:
 
@@ -81,7 +81,7 @@ The questions:
 | O'Connor | 2 | 2 | 3 | 1 |
 | Stevenson | 0 | 1 | 7 | 0 |
 | Quasi-realism | 2 | 2 | 4 | 0 |
-| Catholic | 2 | 5 | 1 | 0 |
+| Catholic natural law | 1 | 5 | 2 | 0 |
 
 Prose:
 
@@ -98,9 +98,19 @@ Prose:
   unexplained: `EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY` supplies validity
   as shared data in a joint model, rather than deriving it from constant
   meaning. That consistency result remains a separate achievement.
-* **The Catholic theory** answers every question but validity, whose
-  realist explanation (constant propositional content) is not yet formalized.
-  Most of its answers are sourced, not yet verified.
+* **The Catholic natural-law theory** leaves validity and the evil premise
+  unexplained in this bundle. Most of its answers are sourced, not yet verified.
+
+The evil premise has a separate verified answer:
+`POE-CATHOLIC-ENTAILS-EVIL-PREMISE` follows from
+`TruthCore.Comparison.ProblemOfEvil.Background` and
+`TruthCore.Comparison.ProblemOfEvil.Catholic`. Its proof uses both that
+something lacks a due good (`SomethingFallsShortOfDueGoodReading`) and that
+existence of evil makes the evil-premise sentence true
+(`EvilIsAsPropositionalTruthReading`). Neither commitment is included in
+`CatholicNaturalLaw`. The result remains verified for the separate
+problem-of-evil theory; it is not counted as an answer derived from this
+natural-law bundle.
 
 A count is not a score (#149).
 -/
