@@ -5,6 +5,7 @@ import TruthCore.Case.Catholicism.StageOneConvergence
 import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
+import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.ProblemOfEvil
@@ -92,6 +93,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
@@ -251,6 +253,9 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
+import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution
+import TruthCore.Results.Comparison.Metaethics.OConnorEmotivismConsistent.Solution
+import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution
 import TruthCore.Results.Comparison.MoralError.AquinasGermansErred.Solution
 import TruthCore.Results.Comparison.MoralError.EmotivismExcludesGenuineMoralContradiction.Solution
 import TruthCore.Results.Comparison.MoralError.EmotivismExcludesMoralError.Solution

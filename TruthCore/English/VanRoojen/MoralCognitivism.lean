@@ -187,4 +187,36 @@ def RealistRobustTruthAptReading {Sentence : Sort u}
     (Moral RobustlyTruthApt : Sentence → Prop) : Prop :=
   ∀ φ, Moral φ → RobustlyTruthApt φ
 
+/-- Stevenson's descriptive meaning: even the most general moral terms have,
+besides their emotive meaning, a descriptive meaning. "Some theorists who view
+themselves as emotivists suggest that even the most general terms of moral
+evaluation have a descriptive meaning rather than just an emotive or
+non-cognitive meaning (Stevenson 1944, 22 ...)".
+
+`HasDescriptiveMeaning φ` says that `φ` has some descriptive meaning; what
+that meaning is is not formalized.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §2.1.
+-/
+def MoralSentencesHaveDescriptiveMeaningReading {Sentence : Sort u}
+    (Moral HasDescriptiveMeaning : Sentence → Prop) : Prop :=
+  ∀ φ, Moral φ → HasDescriptiveMeaning φ
+
+/-- Stevenson's disagreement in attitude: when one person accepts a moral
+sentence and another rejects it, their attitudes clash. Stevenson distinguishes
+disagreement in belief from "disagreements in attitude", which involve
+conative clash, and holds that moral disagreements involve both.
+
+Only the attitude half is formalized; that moral disagreements also involve
+disagreement in belief is not.
+
+Source: Mark van Roojen, "Moral Cognitivism vs. Non-Cognitivism", *Stanford
+Encyclopedia of Philosophy* (Spring 2026), §3.5.
+-/
+def MoralDisagreementInvolvesAttitudeClashReading {Agent : Sort u} {Sentence : Sort v}
+    (Moral : Sentence → Prop) (Accepts Rejects : Agent → Sentence → Prop)
+    (ClashInAttitude : Agent → Agent → Sentence → Prop) : Prop :=
+  ∀ x y φ, Moral φ → Accepts x φ → Rejects y φ → ClashInAttitude x y φ
+
 end TruthCore.English.VanRoojen
