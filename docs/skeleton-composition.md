@@ -119,7 +119,7 @@ full-description naming theorem and the same nine pointwise attribute results
 to that maximum. The root imports `Skeleton.catholicismSkeleton`, using the
 witness's uniqueness to transport its attributes to all `IsGod` instances.
 
-The exact listed hypothesis set is a subset of the First-Way composition's:
+The exact listed hypothesis set is a subset of the selected efficient-regress First-Way composition's:
 30 rather than 38, with no added premise. The omitted inputs are:
 
 - `STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD`
@@ -127,8 +127,8 @@ The exact listed hypothesis set is a subset of the First-Way composition's:
 - `STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT`
 - `STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER`
 - `STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED`
-- `STMT-NO-INFINITE-PER-SE-MOVER-SERIES`
-- `STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT`
+- `STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES`
+- `STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK`
 - `STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD`
 
 This compares sufficient premise sets; it does not establish logical
@@ -144,10 +144,10 @@ structural transcription.
 The checked default frontier remains **37 open: 4 bare, 33 sourced**. Applying
 the existing frontier algorithm to an in-memory alternative-route selection
 (no repository route mutation) gives **29 open: 4 bare, 25 sourced**. It adds
-no open premise and omits the six motion/identification inputs listed above
-other than the two proved intermediates, plus
-`STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` and
-`STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK`. Those two were the open inputs
-behind the mover no-regress theorem. This is an alternative argument with fewer
-listed commitments, not closure of those eight premises or replacement of the
-owner-designated First-Way route.
+no open premise and omits exactly the eight open IDs listed above. The
+selected First-Way proof already derives mover no-regress and the particular
+exists-or-not statement, rather than accepting them as hypotheses. The earlier
+same-witness First-Way theorem instead listed those two proved intermediates;
+its 38-input list has the same expanded philosophical frontier. This is an
+alternative argument with fewer listed commitments, not closure of the omitted
+premises or replacement of the owner-designated First-Way route.
