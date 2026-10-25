@@ -1,0 +1,1 @@
+{"id": "INF-STAGE2-GOD-IS-ETERNAL", "input_statement_ids": ["STMT-GOD-IS-IMMUTABLE", "STMT-IMMUTABLE-IS-ETERNAL"], "output_statement_id": "STMT-GOD-IS-ETERNAL", "rule": "universal-instantiation", "meaning": "God is altogether immutable, so eternal (q.10 a.2).", "assumption_statement_ids": [], "discharged_statement_ids": []}

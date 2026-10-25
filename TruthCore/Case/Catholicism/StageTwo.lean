@@ -105,4 +105,13 @@ def GodHasIntellect {Being : Sort u} (IsGod HasIntellect : Being → Prop) : Pro
 def GodHasWill {Being : Sort u} (IsGod HasWill : Being → Prop) : Prop :=
   ∀ g, IsGod g → HasWill g
 
+/-! ## Group 2: infinite, immutable, eternal (ST I qq.7, 9, 10) -/
+
+/-- `g` is altogether immutable: it is in potency in no respect, so it has no
+capacity for any change (ST I q.9 a.1: whatever is changed in any way is in some
+way in potency). Not merely "not changing now" (Codex P1 on #199). -/
+def IsImmutable {Being : Sort u} {Respect : Sort v} (InPotency : Being → Respect → Prop)
+    (g : Being) : Prop :=
+  ∀ r, ¬ InPotency g r
+
 end TruthCore.Case.Catholicism
