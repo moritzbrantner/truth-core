@@ -1,0 +1,58 @@
+{
+  "id": "THIRD-MAN-REGRESS",
+  "premise_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION",
+    "STMT-THIRD-MAN-FORMATION",
+    "STMT-THIRD-MAN-INITIAL-SCOPE",
+    "STMT-THIRD-MAN-ITERATION",
+    "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY"
+  ],
+  "conclusion_statement_id": "STMT-THIRD-MAN-UNBOUNDED",
+  "inference_ids": [
+    "INF-THIRD-MAN-REGRESS"
+  ],
+  "meaning": "Starting from two ordinary F-particulars, form the next common Form over the old Forms plus that pair. Participant-wide nonidentity makes the new Form different from every earlier one; ordinary self-predication preserves homogeneity and explicit domain iteration preserves eligibility. Induction yields arbitrary finite lengths for one quality. No infinity premise and no opaque bridge to the conclusion is used.",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-THIRD-MAN-FORMATION",
+    "DEF-THIRD-MAN-INITIAL-SCOPE",
+    "DEF-THIRD-MAN-ITERATION",
+    "DEF-THIRD-MAN-LIKENESS-FORMATION",
+    "DEF-THIRD-MAN-LIKENESS-SEED",
+    "DEF-THIRD-MAN-MUTUAL-LIKENESS",
+    "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+    "DEF-THIRD-MAN-PARTICIPATION-LIKENESS",
+    "DEF-THIRD-MAN-PLURALITY",
+    "DEF-THIRD-MAN-SCOPED-FORMATION",
+    "DEF-THIRD-MAN-SENSITIVITY",
+    "DEF-THIRD-MAN-SYMMETRY",
+    "DEF-THIRD-MAN-UNBOUNDED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION",
+    "DISAMB-THIRD-MAN-DOMAIN",
+    "DISAMB-THIRD-MAN-NONIDENTITY",
+    "DISAMB-THIRD-MAN-REGRESS"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-ITERATION",
+  "term": "formation scope",
+  "definition": "Iteration closes eligible lists under adjoining any Form of the admitted quality. Combined with ordinary self-predication, the enlarged list is again homogeneous. This is a universal research reconstruction of the repeated step in Parmenides132b, not an axiom about every Platonic reading.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Iteration"
+}

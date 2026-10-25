@@ -1,0 +1,58 @@
+{
+  "id": "LIKENESS-REGRESS",
+  "premise_statement_ids": [
+    "STMT-THIRD-MAN-ITERATION",
+    "STMT-THIRD-MAN-LIKENESS-FORMATION",
+    "STMT-THIRD-MAN-LIKENESS-SEED",
+    "STMT-THIRD-MAN-LIKENESS-SYMMETRY",
+    "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+    "STMT-THIRD-MAN-PARTICIPATION-LIKENESS"
+  ],
+  "conclusion_statement_id": "STMT-THIRD-MAN-UNBOUNDED",
+  "inference_ids": [
+    "INF-LIKENESS-REGRESS"
+  ],
+  "meaning": "Starting from a mutual resemblance pair, obtain a common Form. Participation-to-likeness and symmetry make the new Form mutually resemble all old members; numerical nonidentity gives freshness. Iteration keeps the list eligible. Repeating this construction yields arbitrary finite lists of distinct likeness Forms, without ordinary self-predication or ordinary F-homogeneity.",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION",
+    "DEF-THIRD-MAN-FORMATION",
+    "DEF-THIRD-MAN-INITIAL-SCOPE",
+    "DEF-THIRD-MAN-ITERATION",
+    "DEF-THIRD-MAN-LIKENESS-FORMATION",
+    "DEF-THIRD-MAN-LIKENESS-SEED",
+    "DEF-THIRD-MAN-MUTUAL-LIKENESS",
+    "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+    "DEF-THIRD-MAN-PARTICIPATION-LIKENESS",
+    "DEF-THIRD-MAN-PLURALITY",
+    "DEF-THIRD-MAN-SCOPED-FORMATION",
+    "DEF-THIRD-MAN-SENSITIVITY",
+    "DEF-THIRD-MAN-SYMMETRY",
+    "DEF-THIRD-MAN-UNBOUNDED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION",
+    "DISAMB-THIRD-MAN-DOMAIN",
+    "DISAMB-THIRD-MAN-NONIDENTITY",
+    "DISAMB-THIRD-MAN-REGRESS"
+  ]
+}
