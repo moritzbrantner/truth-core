@@ -1,0 +1,19 @@
+{
+  "id": "STMT-MODAL-T-FRAME-BOUNDARY",
+  "paraphrase": "An explicit three-world T chain is neither transitive nor symmetric. Its endpoint has full and fixed-language MC, but its root and middle lack MC in both domains. The root has no one-step possible MC in either domain, but has possible possible full MC, and lacks necessary MC. The independent atom is not possible in one step from the root and is possible in two. T does not silently close accessibility transitively.",
+  "lean_declaration": "TruthCore.Modal.TResearch.FrameBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-T-CHAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

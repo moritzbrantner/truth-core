@@ -1,0 +1,22 @@
+{
+  "id": "STMT-MODAL-T-SCOPE-BOUNDARY",
+  "paraphrase": "On the shared reflexive duplicate-label model, every world has fixed-language MC but no world has full-predicate MC. At the root, language-relative actual, possible and necessary collapse and possibility entails actuality hold; full-predicate possible and necessary collapse and possibility entails actuality fail. Language world extensionality fails and the two labels remain unequal. This does not infer world identity from agreement on corpus statements.",
+  "lean_declaration": "TruthCore.Modal.TResearch.ScopeBoundary",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-T-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-T-DUPLICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-T-LAWS",
+  "argument_id": "MODAL-T-LAWS",
+  "challenge_module": "TruthCore.Results.Modal.T.Laws.Challenge",
+  "solution_module": "TruthCore.Results.Modal.T.Laws.Solution",
+  "theorem": "TruthCore.Results.Modal.T.Laws.checks",
+  "comparator_config": "results/MODAL-T-LAWS/comparator.json",
+  "status": "solution-present"
+}

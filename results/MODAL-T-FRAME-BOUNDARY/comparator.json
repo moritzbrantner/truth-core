@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.T.FrameBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.T.FrameBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.T.FrameBoundary.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
