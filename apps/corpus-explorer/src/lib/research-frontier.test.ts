@@ -178,3 +178,22 @@ test("in-place expansion opens adjacent clusters while retaining shared identity
   expect(expanded.nodes.some((node) => node.id === "I1")).toBe(true);
   expect(new Set(expanded.nodes.map((node) => node.id)).size).toBe(expanded.nodes.length);
 });
+
+
+test("candidate gaps reference complete statement IDs rather than name prefixes", () => {
+  const referenceGraph = {
+    ...graph,
+    statements: [
+      { ...graph.statements[0], id: "STMT-PREFIX" },
+      { ...graph.statements[0], id: "STMT-PREFIX-LONG" },
+    ],
+  };
+  const entries = researchFrontier({
+    ...corpus,
+    candidates: [{
+      id: "EXACT-REFERENCE", source_id: "SRC", locator: "1", priority: 1,
+      goal: "Investigate STMT-PREFIX-LONG.", reason: "A queued reading, not a naming equivalence.", status: "candidate",
+    }],
+  }, referenceGraph, report);
+  expect(entries.find((item) => item.id === "exploration:EXACT-REFERENCE")?.statementIds).toEqual(["STMT-PREFIX-LONG"]);
+});

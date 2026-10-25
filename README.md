@@ -134,6 +134,8 @@ bun run dev
 
 Run `bun run typecheck`, `bun run test`, `bun run lint`, and `bun run build` to validate the web application. The production build writes the static site to `apps/corpus-explorer/out/`.
 
+The `/skeleton/` view follows the designated root route: checked connections and supporting results, open premises, and explicitly recorded next gaps. A conditional connection is distinct from a discharge from established premises; source support alone discharges nothing.
+
 Claim pages expose the exact pinned primary-source witness and its edition/revision/blob identity separately from the project's interpretation and from any mechanically verified arguments. The explorer preserves the existing claim/result URLs while resolving proposition and argument content through the statement/inference model. A future React Flow composition view should be derived from these records, not stored as canonical graph layout state.
 
 ## Worker loop

@@ -149,8 +149,9 @@ export function researchFrontier(
     });
   }
   for (const candidate of corpus.candidates) {
+    const references = new Set(`${candidate.goal} ${candidate.reason}`.match(/\bSTMT-[A-Z0-9]+(?:-[A-Z0-9]+)*\b/g) ?? []);
     const statementIds = graph.statements
-      .filter((statement) => `${candidate.goal} ${candidate.reason}`.includes(statement.id))
+      .filter((statement) => references.has(statement.id))
       .map((statement) => statement.id);
     add({
       id: `exploration:${candidate.id}`,
