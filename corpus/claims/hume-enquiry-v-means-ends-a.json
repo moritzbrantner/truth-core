@@ -1,0 +1,16 @@
+{
+  "id": "HUME-ENQUIRY-V-MEANS-ENDS-A",
+  "statement_id": "STMT-HUME-INDUCTION-MEANS-ENDS",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "V, §6 (SBN 44–45)",
+  "interpretation": "The without-custom counterfactual is represented as a necessary-condition implication; it neither guarantees every intervention nor supplies normative entitlement.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-MEANS-ENDS",
+    "DEF-HUME-INDUCTION-CUSTOM",
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

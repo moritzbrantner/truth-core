@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-IDENTITY",
+  "term": "identity-predicate admissibility",
+  "definition": "IdentityAdmissible D w means D admits the predicate v = w. Only this admission and local MC are needed to identify accessible successors with the root. Full world-predicate comprehension admits it; fixed languages and corpus inventories need not.",
+  "basis": "stipulative",
+  "note": "Repository-native mathematical fixture requested in #261. No historical attribution or metaphysical endorsement; source-based adoption requires a separate witnessed reading.",
+  "lean_declaration": "TruthCore.Modal.ResearchFixture.IdentityAdmissible"
+}

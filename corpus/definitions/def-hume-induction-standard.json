@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-STANDARD",
+  "term": "equal standard for equally relevant evidence",
+  "definition": "UniformStandard preserves epistemic verdicts only for pairs the supplied sameBasis relation identifies. SameScienceTheology supplies a particular such pair; interchange of theology and cosmology does not supply it. Differentiated experience can justify differentiated verdicts.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.UniformStandard",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

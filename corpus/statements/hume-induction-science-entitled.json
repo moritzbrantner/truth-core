@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-SCIENCE-ENTITLED",
+  "paraphrase": "Open critic reconstruction: the selected science claim receives an entitlement verdict.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.ScienceEntitled",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-STANDARD",
+    "DEF-HUME-INDUCTION-ENTITLEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

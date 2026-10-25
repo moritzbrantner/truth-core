@@ -1,0 +1,9 @@
+{
+  "id": "REL-THIRD-MAN-SENSITIVITY-SCOPE-REPLY",
+  "subject_kind": "argument",
+  "subject_id": "THIRD-MAN-SENSITIVITY",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-THIRD-MAN-ITERATION",
+  "note": "A scope challenge, not an unconditional refutation: a concrete scoped-one-over-many model retains self-predication, a unique separated explanatory/exemplar Form and no regress while rejecting domain iteration. The other countermodels independently expose the remaining challenged assumptions."
+}

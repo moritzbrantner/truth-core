@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-INDUCTION-TRIAL",
+  "term": "observed successful prediction or intervention",
+  "definition": "Trials records a selected Boolean action and its outcome at each episode. SuccessfulRecord reports success for selected actions before n. It says nothing about unselected actions, cross-time invariance, causal direction or identification. successful and failingAfter have the same successful record and different next selected outcomes.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.Trials",
+  "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."
+}

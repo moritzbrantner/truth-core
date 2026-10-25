@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THIRD-MAN-LIKENESS-SEED",
+  "term": "likeness seed",
+  "definition": "LikenessSeed fixes an admitted likeness quality and an eligible pair of distinct mutually resembling entities. The entities need not be ordinary particulars.",
+  "basis": "stipulative",
+  "note": "Explicit semantic boundary for issue #258. The cited primary readings motivate research premises without defining this modern finite-list encoding. A sourced replacement would need to settle precisely these quantifiers, domains and predication senses.",
+  "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.LikenessSeed"
+}

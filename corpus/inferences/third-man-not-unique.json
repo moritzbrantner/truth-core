@@ -1,0 +1,11 @@
+{
+  "id": "INF-THIRD-MAN-NOT-UNIQUE",
+  "input_statement_ids": [
+    "STMT-THIRD-MAN-UNBOUNDED"
+  ],
+  "output_statement_id": "STMT-THIRD-MAN-NOT-UNIQUE",
+  "rule": "list-elimination",
+  "meaning": "Take the length-two list from the earlier unboundedness result. Its first two distinct Forms have the same admitted quality, contradicting UniqueForms. Composed with either regress argument, adding numerical uniqueness is inconsistent; no contradiction follows without that additional commitment.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

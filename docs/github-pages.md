@@ -14,7 +14,7 @@ The state, statement and result pages take every status from `python3 scripts/co
 
 ## Setup
 
-The Pages build sets `GITHUB_PAGES=true`, which configures the app's `basePath` as `/truth-core` for the project-site URL. Local and ordinary CI builds keep the root base path.
+The Pages build sets `GITHUB_PAGES=true`, which configures the app's `basePath` as `/truth-core` for the project-site URL. The root Turborepo build declares this variable as a hashed task input, so normal and Pages builds cannot restore each other's output. Local and ordinary CI builds keep the root base path.
 
 GitHub requires the repository's Pages publishing source to be set to **GitHub Actions** once in **Settings → Pages**. The normal `GITHUB_TOKEN` cannot enable Pages for a repository that has never had Pages enabled.
 

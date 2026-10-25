@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.notUnique"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

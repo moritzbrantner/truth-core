@@ -1,0 +1,10 @@
+{
+  "id": "HUME-INDUCTION-TESTS",
+  "argument_id": "HUME-INDUCTION-TESTS",
+  "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.Induction.checks",
+  "comparator_config": "results/HUME-INDUCTION-TESTS/comparator.json",
+  "status": "solution-present",
+  "description": "Direct construction of finite counterhistories, no-confusion for typed epistemic verdicts and shared answer-map coverage. The conditional bridge-conflict subtests are logical transcriptions, while the countermodels establish substantive non-entailments; no source assertion or real-world reliability is proved."
+}

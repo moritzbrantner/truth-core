@@ -1,0 +1,16 @@
+{
+  "id": "INF-THIRD-MAN-REGRESS",
+  "input_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION",
+    "STMT-THIRD-MAN-FORMATION",
+    "STMT-THIRD-MAN-INITIAL-SCOPE",
+    "STMT-THIRD-MAN-ITERATION",
+    "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY"
+  ],
+  "output_statement_id": "STMT-THIRD-MAN-UNBOUNDED",
+  "rule": "finite-list-induction",
+  "meaning": "Starting from two ordinary F-particulars, form the next common Form over the old Forms plus that pair. Participant-wide nonidentity makes the new Form different from every earlier one; ordinary self-predication preserves homogeneity and explicit domain iteration preserves eligibility. Induction yields arbitrary finite lengths for one quality. No infinity premise and no opaque bridge to the conclusion is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "THIRD-MAN-NOT-UNIQUE",
+  "argument_id": "THIRD-MAN-NOT-UNIQUE",
+  "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.notUnique",
+  "comparator_config": "results/THIRD-MAN-NOT-UNIQUE/comparator.json",
+  "status": "solution-present",
+  "description": "Take the length-two list from the earlier unboundedness result. Its first two distinct Forms have the same admitted quality, contradicting UniqueForms. Composed with either regress argument, adding numerical uniqueness is inconsistent; no contradiction follows without that additional commitment."
+}

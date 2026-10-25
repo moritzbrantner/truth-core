@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "paraphrase": "The blanket entitlement-denying reconstruction fails under the explicit premises of the recorded conditional argument. This rejects neither limited skepticism nor Hume as a historical whole.",
+  "lean_declaration": "TruthCore.Modern.Hume.Induction.RejectStrong",
+  "definition_ids": [
+    "DEF-HUME-INDUCTION-ENTITLEMENT",
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+  ]
+}

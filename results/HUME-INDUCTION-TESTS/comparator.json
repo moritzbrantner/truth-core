@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Hume.Induction.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

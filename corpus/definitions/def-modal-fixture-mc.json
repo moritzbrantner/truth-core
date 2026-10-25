@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-MC",
+  "term": "root-relative domain modal collapse",
+  "definition": "MC F D w means every admissible P true at root w is true at every F-accessible successor. Box and MProp are reused from the Scott embedding; full_iff_hume proves exact agreement with the existing Hume Collapse. There is no implicit global validity, reflexivity, symmetry, seriality, or transitivity.",
+  "basis": "stipulative",
+  "note": "Repository-native mathematical fixture requested in #261. No historical attribution or metaphysical endorsement; source-based adoption requires a separate witnessed reading.",
+  "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
+}

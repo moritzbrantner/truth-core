@@ -93,6 +93,8 @@ import TruthCore.Greek.NewTestament.John
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Forms
+import TruthCore.Greek.Plato.ThirdMan
+import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.Hiddenness.Models
 import TruthCore.Hiddenness.Vocabulary
@@ -129,6 +131,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Latin.Tacitus.Annals
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
@@ -137,7 +140,10 @@ import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
 import TruthCore.Modal.Kripke
+import TruthCore.Modal.ResearchFinite
+import TruthCore.Modal.ResearchFixture
 import TruthCore.Modern.Hume.Conceivability
+import TruthCore.Modern.Hume.Induction
 import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
@@ -352,6 +358,10 @@ import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
 import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
 import TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution
+import TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution
 import TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution
 import TruthCore.Results.Hiddenness.CatholicReplyConsistent.Solution
 import TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution
@@ -380,7 +390,9 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
 import TruthCore.Results.Logic.TruthPilot.EpistemicDifferences.Solution
 import TruthCore.Results.Logic.TruthPilot.GlobalVariation.Solution
 import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
@@ -389,7 +401,9 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modern.Hume.Conceivability.Solution
+import TruthCore.Results.Modern.Hume.Induction.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Teleonomy.Mechanisms
