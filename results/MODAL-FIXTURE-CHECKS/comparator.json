@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ResearchFixture.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ResearchFixture.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ResearchFixture.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

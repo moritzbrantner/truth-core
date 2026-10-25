@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+  "term": "proposition scope and world identity",
+  "sense_definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY"
+  ],
+  "resolution": "All predicates, fixed-language denotations, and supplied corpus propositions are distinguished by explicit Domain arguments. Full comprehension includes identity predicates and needs no extensionality assumption for separation. Restricted-domain separation either supplies identity admissibility, or supplies negation closure, excluded middle, and world propositional extensionality explicitly. Duplicate labels demonstrate that language agreement and local MC alone do not identify worlds. Such labels are not asserted to be distinct metaphysical possibilities; whether the chosen domain is complete is a separate premise."
+}
