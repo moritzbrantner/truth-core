@@ -18,7 +18,7 @@ before claims. Only hashes, locators and short incipits are committed.
   context about repeated experience and the idea of connection. These are not
   automatically contemporary regularity-only ontologies.
 - `LEWIS-HUMEAN-SUPERVENIENCE`: [Lewis, Humean Supervenience Debugged](https://joelvelasco.net/teaching/3865/lewis%2094%20-%20humean%20supervenience%20debugged.pdf),
-  pp.473–490; especially §§3–4, pp.478–482. Lawhood selects theorems of a best
+  pp.473–489 (article text; references excluded); especially §§3–4, pp.478–482. Lawhood selects theorems of a best
   true system, with simplicity/strength and, in the probabilistic version, fit.
   Lewis expressly distinguishes his metaphysical analysis from epistemology.
 - `WOODWARD-HUMAN-FACE`: [Woodward, Causation with a Human Face](https://inferenceproject.yale.edu/sites/default/files/woodward_causation_with_a_humanface.pdf),

@@ -179,15 +179,26 @@ and the need for a granted law. ScopedBrute adds a hypothetical brute totality;
 its existential consistency is verified, not its truth of the actual cosmos.
 Bare offers five sufficiency claims, each defeated by the tests. The unfilled
 cosmic slots are unexplained, not negative existential answers. -/
-def formalAnswers (a : Account) : TruthCore.Metaethics.AnswerMap Question :=
-  { answers := fun q => match a, q with
-      | .scopedBrute, _ => True
-      | _, .grounding => False
-      | _, _ => True
-    says := fun q => match a, q with
-      | .bare, _ => bareAnswer q
-      | .scopedBrute, .grounding => LocalCausality brute ∧ ¬ GroundedTotality brute
-      | _, _ => testAnswer q }
+def ordinaryAvailability : Question → Prop
+  | .confounding => True
+  | .direction => True
+  | .coincidence => True
+  | .intervention => True
+  | .prediction => True
+  | .grounding => False
+
+def bruteAnswer : Question → Prop
+  | .confounding => ConfoundingTest
+  | .direction => DirectionTest
+  | .coincidence => CoincidenceTest
+  | .intervention => InterventionTest
+  | .prediction => PredictionTest
+  | .grounding => LocalCausality brute ∧ ¬ GroundedTotality brute
+
+def formalAnswers : Account → TruthCore.Metaethics.AnswerMap Question
+  | .bare => ⟨ordinaryAvailability, bareAnswer⟩
+  | .enriched => ⟨ordinaryAvailability, testAnswer⟩
+  | .scopedBrute => ⟨fun _ => True, bruteAnswer⟩
 
 def AnswerMapTest : Prop :=
   (∀ q, q ≠ Question.grounding →

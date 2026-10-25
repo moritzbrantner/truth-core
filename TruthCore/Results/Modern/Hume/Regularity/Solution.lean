@@ -49,8 +49,9 @@ private theorem prediction : PredictionTest := by
     refine ⟨fun _ => false, fun n => if n = cutoff then true else false, ?_, ?_⟩
     · intro n hn
       have hne : n ≠ cutoff := Nat.ne_of_lt hn
-      simp only [hne, ↓reduceIte]
-    · simp only [↓reduceIte]
+      exact (ite_eq_right hne).symm
+    · change false ≠ (if cutoff = cutoff then true else false)
+      rw [ite_eq_left rfl]
       exact Bool.noConfusion
   · intro f b h n
     exact h n
@@ -86,24 +87,25 @@ private theorem boundary : BoundaryTest := by
 
 private theorem answerMaps : AnswerMapTest := by
   refine ⟨?_, ?_, (fun h => h), ⟨trivial, bruteLocal, bruteUngrounded⟩⟩
-  · intro q hq h
-    cases q with
-    | confounding => exact confounding.2.2.2 h.2
-    | direction => exact noEffect ((h.2 chain reverseChain direction.1).mp effect)
-    | coincidence => exact Bool.noConfusion (h.2 (false, true))
-    | intervention => exact confounding.2.2.2 h.2
-    | prediction =>
-        obtain ⟨f, g, initialAgreement, different⟩ := prediction.1 2
-        exact different (h.2 2 f g initialAgreement)
-    | grounding => exact hq rfl
-  · intro q hq
-    cases q with
-    | confounding => exact ⟨trivial, confounding⟩
-    | direction => exact ⟨trivial, direction⟩
-    | coincidence => exact ⟨trivial, coincidence⟩
-    | intervention => exact ⟨trivial, intervention⟩
-    | prediction => exact ⟨trivial, prediction⟩
-    | grounding => exact (hq rfl).elim
+  · intro q
+    exact match q with
+      | .confounding => fun _ h => confounding.2.2.2 h.2
+      | .direction => fun _ h =>
+          noEffect ((h.2 chain reverseChain direction.1).mp effect)
+      | .coincidence => fun _ h => Bool.noConfusion (h.2 (false, true))
+      | .intervention => fun _ h => confounding.2.2.2 h.2
+      | .prediction => fun _ h => by
+          obtain ⟨f, g, initialAgreement, different⟩ := prediction.1 2
+          exact different (h.2 2 f g initialAgreement)
+      | .grounding => fun h _ => h rfl
+  · intro q
+    exact match q with
+      | .confounding => fun _ => ⟨trivial, confounding⟩
+      | .direction => fun _ => ⟨trivial, direction⟩
+      | .coincidence => fun _ => ⟨trivial, coincidence⟩
+      | .intervention => fun _ => ⟨trivial, intervention⟩
+      | .prediction => fun _ => ⟨trivial, prediction⟩
+      | .grounding => fun h => (h rfl).elim
 
 theorem checks : Checks := by
   exact ⟨confounding, direction, temporal, coincidence, intervention, prediction,
