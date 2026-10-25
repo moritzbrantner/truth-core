@@ -28,7 +28,10 @@ def delayedModel : Sig := finiteModel true true false false
 
 /-- Non-theistic model with the same human history of nonbelief and later
 belief. False religious beliefs can occur; absence of God does not remove the
-psychological and cultural phenomena to be explained. -/
-def nontheisticModel : Sig := finiteModel false false false false
+psychological and cultural phenomena to be explained. Genuine reciprocal
+access, however, is unavailable throughout: a false belief does not supply
+a nonexistent other party. -/
+def nontheisticModel : Sig :=
+  { finiteModel false false false false with Available := fun _ _ _ => False }
 
 end TruthCore.Hiddenness

@@ -12,8 +12,8 @@ theorem nontheisticDevelopmentConsistent : NontheisticDevelopmentConsistent := b
     exact h
   · intro _ h
     exact (Bool.false_ne_true h).elim
-  · intro _ _ t hNoBelief hAccess
-    exact hNoBelief hAccess
+  · intro _ _ _ _ hAccess
+    exact hAccess
   · exact ⟨(), false, trivial, (fun h => h), fun h => h.elim Bool.false_ne_true Bool.false_ne_true⟩
 
   · intro _ _ _ hNoConcept hBelief
