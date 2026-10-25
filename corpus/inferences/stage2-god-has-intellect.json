@@ -1,0 +1,1 @@
+{"id": "INF-STAGE2-GOD-HAS-INTELLECT", "input_statement_ids": ["STMT-GOD-IS-IMMATERIAL", "STMT-IMMATERIAL-IS-INTELLECTUAL"], "output_statement_id": "STMT-GOD-HAS-INTELLECT", "rule": "universal-instantiation", "meaning": "The immaterial is intellectual (q.14 a.1).", "assumption_statement_ids": [], "discharged_statement_ids": []}
