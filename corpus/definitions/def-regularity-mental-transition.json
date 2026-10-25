@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-MENTAL-TRANSITION",
+  "term": "Hume second causal definition: customary mental transition",
+  "definition": "MentalCause(a,b) requires succession and an appearance-to-thought transition. The transition parameter represents the customary psychological relation of VII.29, not a counterfactual, metaphysical necessity, or a proof of rational warrant.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.MentalCause"
+}

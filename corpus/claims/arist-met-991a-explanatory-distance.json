@@ -1,0 +1,34 @@
+{
+  "id": "ARIST-MET-991A-EXPLANATORY-DISTANCE",
+  "statement_id": "STMT-PARM-CAUSAL-DISTANCE-CRITIQUE",
+  "source_id": "ARIST-MET",
+  "locator": "I.9, 991a8–19",
+  "interpretation": "Aristotle asks what Forms contribute to sensibles, denying that they cause movement/change or help knowledge and being on the separate non-inherent account. The challenge concerns explanatory contribution, not simply numerical nonidentity, and remains open for a grounding reply that supplies no efficient account of change.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARM-CHANGE-PRODUCTION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-GROUND-RANK",
+    "DEF-PARM-INHERENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-EXPLANATION",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

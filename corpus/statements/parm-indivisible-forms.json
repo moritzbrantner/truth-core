@@ -1,0 +1,27 @@
+{
+  "id": "STMT-PARM-INDIVISIBLE-FORMS",
+  "paraphrase": "Admitted Forms have no proper constituents in the spatial-distribution reading. This is the explicit no-division commitment of the 131b exchange.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.IndivisibleForms",
+  "definition_ids": [
+    "DEF-PARM-PART-ALLOCATION",
+    "DEF-PARM-PROPER-PART",
+    "DEF-PARM-WHOLE-PRESENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-PRESENCE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

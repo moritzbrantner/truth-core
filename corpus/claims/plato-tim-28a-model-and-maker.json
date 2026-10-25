@@ -1,0 +1,35 @@
+{
+  "id": "PLATO-TIM-28A-MODEL-AND-MAKER",
+  "statement_id": "STMT-PARM-INTELLIGIBLE-MODEL-CAUSE",
+  "source_id": "PLATO-TIM",
+  "locator": "28a–b",
+  "interpretation": "The craftsman looking to a stable model makes a beautiful work. Model and maker play distinct roles: intelligible determination can be proposed without identifying a Form with the efficient producer. This is a cross-dialogue charitable reply, not a solution spoken in Parmenides.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARM-CHANGE-PRODUCTION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-GROUND-RANK",
+    "DEF-PARM-INHERENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-EXPLANATION",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

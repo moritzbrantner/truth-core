@@ -1,0 +1,27 @@
+{
+  "id": "STMT-PARM-NO-SPATIAL-DILEMMA",
+  "paraphrase": "The spatial whole-or-proper-part allocation principle fails for this participation structure. This follows only under the advertised common-Form, distinct-bearer, exclusion and indivisibility premises.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.NoSpatialDilemma",
+  "definition_ids": [
+    "DEF-PARM-PART-ALLOCATION",
+    "DEF-PARM-PROPER-PART",
+    "DEF-PARM-WHOLE-PRESENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-PRESENCE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

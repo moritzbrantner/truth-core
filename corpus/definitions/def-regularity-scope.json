@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-SCOPE",
+  "term": "within-spacetime causal scope",
+  "definition": "Target distinguishes a process within spacetime from spacetime as a whole without treating the latter as a temporal event. LocalCausality asks for temporal causes only for the process target. The target distinction is stipulated for a scope test; it does not prove that the actual cosmos began, is uncaused, or falls outside explanatory demands.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.LocalCausality"
+}

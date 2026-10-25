@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARM-CHANGE-PRODUCTION",
+  "term": "cause",
+  "definition": "ProducesChange f x is efficient origination of a change in x by f. It is separate from Ground and the existing static Explains relation. No bridge from static explanation to change production is present.",
+  "basis": "stipulative",
+  "note": "Additive interface for issue #259. Parmenides 130e–131e and 133b–134e, Phaedo 74b–d / 100d–e and Aristotle Metaphysics I.9 motivate these contrasts; none defines the modern typed interface. Sourcing a replacement would require a passage fixing this exact scope.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Explanation"
+}

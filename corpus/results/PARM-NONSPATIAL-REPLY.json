@@ -1,0 +1,9 @@
+{
+  "id": "PARM-NONSPATIAL-REPLY",
+  "argument_id": "PARM-NONSPATIAL-REPLY",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.nonspatialReply",
+  "comparator_config": "results/PARM-NONSPATIAL-REPLY/comparator.json",
+  "status": "solution-present"
+}

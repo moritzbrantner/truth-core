@@ -1,0 +1,8 @@
+{
+  "id": "REL-PARM-DAY",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PARM-131B-DAY-REPLY",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARM-NONSPATIAL-POSSIBLE"
+}

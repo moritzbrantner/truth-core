@@ -1,0 +1,19 @@
+{
+  "id": "STMT-NO-BOUNDARY-IS-PHYSICAL-PROPOSAL",
+  "paraphrase": "Hartle and Hawking propose a ground-state wave function for spatially closed universes using a sum over compact Euclidean four-geometries, describing an interpretation from zero three-geometry. The proposal uses an action, quantum formalism and specified class of geometries. No-boundary in the Euclidean regime is not a proved absence of explanatory grounding; the paper is not attributed a metaphysical brute-fact thesis.",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

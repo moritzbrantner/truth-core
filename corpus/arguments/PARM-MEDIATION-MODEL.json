@@ -1,0 +1,33 @@
+{
+  "id": "PARM-MEDIATION-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PARM-MEDIATION-POSSIBLE",
+  "inference_ids": [
+    "INF-PARM-MEDIATION-MODEL"
+  ],
+  "meaning": "Construct separate entity and agent argument roles, both represented by Bool, with a human and a divine mode. Each has immediate access to its own presentation; the presentation targets the other side. Object-directed knowledge is interpreted as the opposite-side relation and the transfer rule is proved from direct-access identity and presentation nonidentity. Compose MediationReply to reject closure. This compatibility test establishes neither real cognition nor recollection’s truth.",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

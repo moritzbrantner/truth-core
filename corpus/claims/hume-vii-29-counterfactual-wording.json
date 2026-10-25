@@ -1,0 +1,23 @@
+{
+  "id": "HUME-VII-29-COUNTERFACTUAL-WORDING",
+  "statement_id": "STMT-CAUSAL-DEFINITION-CONTAINS-ABSENCE-GLOSS",
+  "source_id": "HUME-ENQUIRY",
+  "locator": "VII, §29 (SBN 76–77)",
+  "interpretation": "Between his definitions Hume glosses the first using the nonexistence of the second if the first had not existed. This records the presence of counterfactual language only. Neither its equivalence to constant conjunction nor its identity with a modern surgical-intervention semantics is formalized or assumed. Full materialized passage and surrounding context consulted before recording. This source reading is not a premise of the analytical Checks theorem.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

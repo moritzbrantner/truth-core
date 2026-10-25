@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-PARM-PRESENCE",
+  "term": "presence",
+  "sense_definition_ids": [
+    "DEF-PARM-WHOLE-PRESENCE",
+    "DEF-PARM-PART-ALLOCATION",
+    "DEF-PLATONIC-PARTICIPATION"
+  ],
+  "resolution": "The spatial dilemma uses WholeAt or a constituent Allocated to a bearer. The nonspatial reply keeps Participates and denies both spatial allocation relations. The day analogy of 131b motivates keeping that option; the sail analogy does not prove that participation must distribute spatial parts."
+}

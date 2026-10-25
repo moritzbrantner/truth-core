@@ -1,0 +1,40 @@
+{
+  "id": "PARM-DISTANCE-OBJECTION",
+  "premise_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+    "STMT-PARM-NONINHERENT-FORMS",
+    "STMT-PARM-EXPLANATION-GROUNDS"
+  ],
+  "conclusion_statement_id": "STMT-PARM-NO-IMMANENCE-REQUIREMENT",
+  "inference_ids": [
+    "INF-PARM-DISTANCE-OBJECTION"
+  ],
+  "meaning": "Choose an F particular and its explanatory Form. Project explanation onto Ground. If every ground inhered, that pair would both inhere and not inhere. Therefore the universal immanence requirement cannot hold jointly with these explanatory commitments. This exposes the premise choice; it is not an unconditional refutation of Aristotle.",
+  "definition_ids": [
+    "DEF-PARM-CHANGE-PRODUCTION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-GROUND-RANK",
+    "DEF-PARM-INHERENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-EXPLANATION",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

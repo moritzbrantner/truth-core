@@ -1,0 +1,9 @@
+{
+  "id": "PARM-EPISTEMIC-OBJECTION",
+  "argument_id": "PARM-EPISTEMIC-OBJECTION",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.EpistemicObjection.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.EpistemicObjection.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.EpistemicObjection.epistemicObjection",
+  "comparator_config": "results/PARM-EPISTEMIC-OBJECTION/comparator.json",
+  "status": "solution-present"
+}

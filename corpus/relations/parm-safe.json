@@ -1,0 +1,8 @@
+{
+  "id": "REL-PARM-SAFE",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PHAEDO-100D-MANNER-OPEN",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARM-EXPLANATION-GROUNDS"
+}

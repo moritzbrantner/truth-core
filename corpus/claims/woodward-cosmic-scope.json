@@ -1,0 +1,23 @@
+{
+  "id": "WOODWARD-COSMIC-SCOPE",
+  "statement_id": "STMT-GLOBAL-INTERVENTION-EXTENSION-NEEDS-ACCOUNT",
+  "source_id": "WOODWARD-HUMAN-FACE",
+  "locator": "pp. 90–93, §4.6",
+  "interpretation": "Woodward argues that small-world exogenous interventions do not extend straightforwardly to a whole-universe model: there is no external environment to supply one. He leaves open whether meaningful global intervention counterfactuals can be supplied. This neither denies every possible cosmic cause nor establishes brute existence. Full materialized passage and surrounding context consulted before recording. This source reading is not a premise of the analytical Checks theorem.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

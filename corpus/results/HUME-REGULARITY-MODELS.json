@@ -1,0 +1,9 @@
+{
+  "id": "HUME-REGULARITY-MODELS",
+  "argument_id": "HUME-REGULARITY-MODELS",
+  "challenge_module": "TruthCore.Results.Modern.Hume.Regularity.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Regularity.Solution",
+  "theorem": "TruthCore.Results.Modern.Hume.Regularity.models",
+  "comparator_config": "results/HUME-REGULARITY-MODELS/comparator.json",
+  "status": "solution-present"
+}

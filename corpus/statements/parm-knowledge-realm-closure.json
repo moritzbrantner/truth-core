@@ -1,0 +1,29 @@
+{
+  "id": "STMT-PARM-KNOWLEDGE-REALM-CLOSURE",
+  "paraphrase": "Knowledge in a given mode relates only to objects on that mode’s side of the intelligible/non-intelligible distinction. This is the strong relation-closure reading of the greatest difficulty, not ontological independence alone.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.KnowledgeRealmClosure",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

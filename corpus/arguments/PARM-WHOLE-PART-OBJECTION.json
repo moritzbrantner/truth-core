@@ -1,0 +1,36 @@
+{
+  "id": "PARM-WHOLE-PART-OBJECTION",
+  "premise_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-ONE-OVER-MANY",
+    "STMT-PARM-WHOLE-EXCLUSIVE",
+    "STMT-PARM-INDIVISIBLE-FORMS"
+  ],
+  "conclusion_statement_id": "STMT-PARM-NO-SPATIAL-DILEMMA",
+  "inference_ids": [
+    "INF-PARM-WHOLE-PART-OBJECTION"
+  ],
+  "meaning": "Using two distinct F particulars, choose their common Form. Each part allocation violates its indivisibility; thus both must have the whole, violating exclusive spatial allocation. The conclusion denies the spatial dilemma, not participation or Forms as such.",
+  "definition_ids": [
+    "DEF-PARM-PART-ALLOCATION",
+    "DEF-PARM-PROPER-PART",
+    "DEF-PARM-WHOLE-PRESENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-PRESENCE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

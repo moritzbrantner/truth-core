@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-PARM-EXPLANATION",
+  "term": "explanation",
+  "sense_definition_ids": [
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-CHANGE-PRODUCTION"
+  ],
+  "resolution": "Explains is quality-indexed being-F explanation. ExplanationGrounds openly projects it onto directed Ground. ProducesChange is efficient origination, never inferred from Ground or explanatory predication. The grounding model tests only asymmetry and non-inherence; Aristotle’s further demand for an efficient source of change remains unanswered."
+}
