@@ -12,11 +12,6 @@ theorem infiniteLocalTransmission : InfiniteLocalTransmissionModel := by
     rfl
   · intro n
     rfl
-  · intro hWellFounded
-    have notAcc : ∀ n, ¬ Acc (fun (y x : Nat) => y = x + 1) n := by
-      intro n hAcc
-      induction hAcc with
-      | intro x _ ih => exact ih (x + 1) rfl
-    exact notAcc 0 (hWellFounded 0)
+  · exact successorChainNotWellFounded
 
 end TruthCore.Results.Causality.InfiniteLocalTransmission

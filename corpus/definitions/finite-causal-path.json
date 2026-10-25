@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-CAUSAL-PATH",
+  "term": "finite dependency path",
+  "definition": "A zero-length path or a path obtained by prepending one immediately upstream causal link to an already finite path. A member's source is connected by such a path only when a finite chain of links witnesses the connection.",
+  "basis": "stipulative",
+  "note": "Defines an ordinary finite proof object without a claim that every real causal chain must admit one.",
+  "lean_declaration": "TruthCore.Causality.FiniteCausalPath"
+}

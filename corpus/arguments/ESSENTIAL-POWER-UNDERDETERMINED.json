@@ -1,0 +1,9 @@
+{
+  "id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+  "inference_ids": ["INF-ESSENTIAL-POWER-UNDERDETERMINED"],
+  "meaning": "Mathematical countermodel: even functional/counterfactual dependence on the current upstream causes is compatible with an infinite all-active chain and an infinite all-inactive chain. It rejects the inference from local essential transmission alone to a unique, source-grounded model, not Aquinas' broader metaphysical premise outright.",
+  "definition_ids": ["DEF-ESSENTIAL-POWER-TRANSMISSION-RULE", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"],
+  "disambiguation_ids": ["DISAMB-CAUSAL-SERIES", "DISAMB-CAUSAL-POWER-GROUNDING"]
+}

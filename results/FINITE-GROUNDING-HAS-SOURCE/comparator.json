@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.FiniteGroundingHasSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteGroundingHasSource.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.FiniteGroundingHasSource.finiteGroundingHasSource"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

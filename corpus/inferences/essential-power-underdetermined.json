@@ -1,0 +1,9 @@
+{
+  "id": "INF-ESSENTIAL-POWER-UNDERDETERMINED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+  "rule": "infinite-fixed-points-and-intervention-model",
+  "meaning": "The successor relation is not well-founded. All-true and all-false activity assignments both solve the local upstream-transmission equation. For each index cut, activity strictly above that index (and only there) solves the cut equation, proving an explicit locally indispensable link while leaving global power underdetermined.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
