@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S5-LANGUAGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S5-LANGUAGE",
+  "rule": "direct-proof",
+  "meaning": "Move the collapse witness back to the root and onward using symmetry/transitivity. Decide only admissible truths at that witness, use negation closure to obtain agreement, then transport truth between component worlds. Apply extensionality only after agreement has been proved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

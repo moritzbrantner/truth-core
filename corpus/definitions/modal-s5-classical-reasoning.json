@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S5-CLASSICAL-REASONING",
+  "term": "excluded middle and scoped truth decisions",
+  "definition": "TruthCore.Logic.ExcludedMiddle is \u2200p : Prop, p \u2228 \u00acp. LanguageLaws takes this as an explicit conditional premise, not a kernel axiom or a proved truth. The helper local_agreement only needs P v \u2228 \u00acP v for admissible P at the collapsed witness v; global excluded middle supplies these decisions. Negation closure remains a separate domain premise.",
+  "basis": "stipulative",
+  "note": "This records the existing formal logical meaning for the S5 experiment, without newly attributing or defending its truth. The independent corpus statement STMT-EXCLUDED-MIDDLE records its separate philosophical defense.",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
+}

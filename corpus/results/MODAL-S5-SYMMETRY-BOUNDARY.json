@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-S5-SYMMETRY-BOUNDARY",
+  "argument_id": "MODAL-S5-SYMMETRY-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Modal.S5.SymmetryBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S5.SymmetryBoundary.Solution",
+  "theorem": "TruthCore.Results.Modal.S5.SymmetryBoundary.checks",
+  "comparator_config": "results/MODAL-S5-SYMMETRY-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

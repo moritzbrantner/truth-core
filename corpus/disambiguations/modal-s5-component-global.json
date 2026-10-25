@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-MODAL-S5-COMPONENT-GLOBAL",
+  "term": "component collapse versus global identity and interpreted possibility",
+  "sense_definition_ids": [
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-S5-SCENARIO",
+    "DEF-MODAL-S5-ATOM-ONLY"
+  ],
+  "resolution": "All modal operators remain relative to the supplied root and accessibility. S5 may have disconnected components. Component agreement yields component label identity only with full identity predicates or explicit restricted-domain extensionality; Universal extends that result to all supplied labels. A finite corpus inventory is not the whole fixed modal formula language. A predicate outside the collapse domain cannot be substituted into its no-contingency consequence. StrongBridge and real-world contingency remain open interpreted commitments, never historical Hume or Scott/Gödel axioms."
+}

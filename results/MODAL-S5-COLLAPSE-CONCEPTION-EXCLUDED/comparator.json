@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.S5.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S5.Projection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.S5.Projection.excluded"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-S5-COUNTERMODELS",
+  "argument_id": "MODAL-S5-COUNTERMODELS",
+  "challenge_module": "TruthCore.Results.Modal.S5.Countermodels.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S5.Countermodels.Solution",
+  "theorem": "TruthCore.Results.Modal.S5.Countermodels.checks",
+  "comparator_config": "results/MODAL-S5-COUNTERMODELS/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "premise_statement_ids": [
+    "STMT-MODAL-S5-SCENARIO-FRAME",
+    "STMT-MODAL-S5-SCENARIO-BRIDGE",
+    "STMT-MODAL-S5-SCENARIO-CONTINGENCY"
+  ],
+  "conclusion_statement_id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "inference_ids": [
+    "INF-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED"
+  ],
+  "meaning": "Assume C(MC). Apply the unrestricted bridge at the root to obtain possible full MC. Compose B symmetry propagation with K no-contingency, then contradict the independent positive and negative witnesses. Discharge C(MC); the three interpreted premises stay open.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-S5-SCENARIO",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}

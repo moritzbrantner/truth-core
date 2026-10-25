@@ -1,0 +1,27 @@
+{
+  "id": "STMT-MODAL-S5-COUNTERMODELS",
+  "paraphrase": "Explicit finite S5 models distinguish singleton root collapse from global identity, duplicate-language collapse from full collapse, a conceivable collapse description from a sound bridge, and genuine model-relative contingency from merely assuming it. A nonreflexive sink has actual and necessary full MC but no possible MC.",
+  "lean_declaration": "TruthCore.Modal.S5Research.Countermodels",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-S5-MODELS",
+    "DEF-MODAL-S5-ATOM-ONLY",
+    "DEF-HUME-TEST-CONCEPTION",
+    "DEF-HUME-TEST-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+  ]
+}
