@@ -1,5 +1,4 @@
 import TruthCore.Causality.EssentialPower
-import Lean.Elab.Tactic.Omega
 
 namespace TruthCore.Results.Causality.EssentialPowerUnderdetermined
 open TruthCore.Causality
@@ -32,13 +31,15 @@ theorem essentialPowerUnderdetermined : EssentialPowerUnderdetermined := by
       constructor
       · intro hAbove
         refine ⟨n + 1, ⟨rfl, ?_⟩, ?_⟩
-        · omega
-        · omega
+        · intro hEqual
+          exact Nat.lt_irrefl cut (hEqual ▸ hAbove)
+        · exact Nat.lt_trans hAbove (Nat.lt_succ_self n)
       · rintro ⟨y, ⟨hLink, hNotCut⟩, hAbove⟩
         subst y
-        omega
+        exact Nat.lt_of_le_of_ne (Nat.le_of_succ_le_succ hAbove)
+          (fun hEqual => hNotCut hEqual.symm)
     · intro n hDownstream hActive
-      omega
+      exact Nat.not_lt_of_ge hDownstream hActive
     · intro n hUpstream
       exact hUpstream
   · exact successorChainNotWellFounded
