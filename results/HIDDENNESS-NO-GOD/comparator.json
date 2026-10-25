@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.NoGod.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.NoGod.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.NoGod.noGod"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

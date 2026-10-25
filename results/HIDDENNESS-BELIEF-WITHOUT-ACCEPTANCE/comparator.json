@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.beliefWithoutAcceptance"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

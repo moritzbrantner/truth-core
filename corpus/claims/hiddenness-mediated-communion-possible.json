@@ -1,0 +1,17 @@
+{
+  "id": "REA-SILENCE-MEDIATED-COMMUNION-POSSIBLE",
+  "statement_id": "STMT-HIDDENNESS-MEDIATED-COMMUNION-POSSIBLE",
+  "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+  "locator": "Divine Hiddenness, Divine Silence, pp. 272–273, presence, communication and communion; narrative and liturgy proposal",
+  "interpretation": "This account is not identified with unconscious relation or a proof that all nonbelievers have conscious access. Rea’s examples involve believing that the person is present or that narrated events concern real persons. The narrative’s historical truth and access for those lacking belief remain separate obligations.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-MEDIATED-PRESENCE",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-UNCONSCIOUS-RELATIONSHIP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP"
+  ]
+}

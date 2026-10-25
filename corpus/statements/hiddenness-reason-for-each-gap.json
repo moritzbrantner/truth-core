@@ -1,0 +1,26 @@
+{
+  "id": "STMT-HIDDENNESS-REASON-FOR-EACH-GAP",
+  "paraphrase": "If God exists, every failure of immediate conscious access for a capable nonresister has a sufficient love-compatible reason. This stronger application premise is explicit and unattributed; a merely possible reason does not establish it.",
+  "lean_declaration": "TruthCore.Hiddenness.ReasonForEachGap",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE",
+    "DEF-HIDDENNESS-ACCEPTANCE",
+    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
+    "DEF-ENCODED-THEORY-CONSISTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

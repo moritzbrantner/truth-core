@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "argument_id": "HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "challenge_module": "TruthCore.Results.Hiddenness.QualifiedNotAlways.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.QualifiedNotAlways.qualifiedNotAlways",
+  "comparator_config": "results/HIDDENNESS-QUALIFIED-NOT-ALWAYS/comparator.json",
+  "status": "solution-present"
+}

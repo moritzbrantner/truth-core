@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HIDDENNESS-PERFECT-LOVE",
+  "term": "perfect love in the hiddenness challenge",
+  "definition": "Sig.PerfectLove w means a perfectly loving God exists at w. Love seeks the good and personal relationship of capable creatures; whether that entails immediate conscious access at every capable time is not part of the predicate definition. GodLoves, AlwaysOpen and QualifiedOpen are distinct open normative readings.",
+  "basis": "stipulative",
+  "note": "Explicit interpretation vocabulary for #252. Source claims retain their own pinned locators; these records do not add axioms or establish the truth of the interpreted predicates.",
+  "lean_declaration": "TruthCore.Hiddenness.Sig.PerfectLove"
+}

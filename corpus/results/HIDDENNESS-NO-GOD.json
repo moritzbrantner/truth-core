@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-NO-GOD",
+  "argument_id": "HIDDENNESS-NO-GOD",
+  "challenge_module": "TruthCore.Results.Hiddenness.NoGod.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.NoGod.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.NoGod.noGod",
+  "comparator_config": "results/HIDDENNESS-NO-GOD/comparator.json",
+  "status": "solution-present"
+}

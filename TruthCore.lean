@@ -6,6 +6,7 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Comparison.ExcludedMiddle
+import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
@@ -98,6 +99,8 @@ import TruthCore.Greek.Plato.Parmenides.ReplyModels
 import TruthCore.Greek.Plato.ThirdMan
 import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
+import TruthCore.Hiddenness.Models
+import TruthCore.Hiddenness.Vocabulary
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
 import TruthCore.History.ResurrectionVocabulary
@@ -374,6 +377,15 @@ import TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution
+import TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution
+import TruthCore.Results.Hiddenness.CatholicReplyConsistent.Solution
+import TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution
+import TruthCore.Results.Hiddenness.GapHasReason.Solution
+import TruthCore.Results.Hiddenness.NoGod.Solution
+import TruthCore.Results.Hiddenness.NontheisticConsistent.Solution
+import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
+import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
+import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

@@ -1,0 +1,10 @@
+{
+  "id": "HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "argument_id": "HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "challenge_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.gapHasDevelopmentalAccount",
+  "comparator_config": "results/HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription: instantiate the proposed exhaustive developmental account at the actual nonresistant nonbelief witness. This conditional projection supplies no evidence of completeness or causal adequacy and closes no empirical premise by itself."
+}

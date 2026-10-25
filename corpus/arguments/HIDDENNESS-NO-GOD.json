@@ -1,0 +1,31 @@
+{
+  "id": "HIDDENNESS-NO-GOD",
+  "premise_statement_ids": [
+    "STMT-HIDDENNESS-GOD-LOVES",
+    "STMT-HIDDENNESS-ALWAYS-OPEN",
+    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+  ],
+  "conclusion_statement_id": "STMT-HIDDENNESS-NO-GOD",
+  "inference_ids": [
+    "INF-HIDDENNESS-NO-GOD"
+  ],
+  "meaning": "Instantiate the universal love and access norms at the actual world and the empirical person/time witness. Assuming God exists supplies love and hence access; the witness lacks belief, so the belief constraint excludes that same access. Discharge the God-existence assumption. No truth of the four premises is proved.",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

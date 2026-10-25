@@ -1,0 +1,22 @@
+{
+  "id": "STMT-HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "paraphrase": "Transcription of the proposed developmental coverage to the empirical witness: if every nonbelief has one of the proposed mechanisms, an actual nonresistant witness has one. This is a conditional projection, not evidence of causal adequacy or completeness. The coverage premise stays open and this result closes no empirical frontier node by itself.",
+  "lean_declaration": "TruthCore.Hiddenness.GapHasDevelopmentalAccount",
+  "definition_ids": [
+    "DEF-HIDDENNESS-MODEL-SCOPE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+    "DEF-HIDDENNESS-REFLECTIVE-DOUBT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}

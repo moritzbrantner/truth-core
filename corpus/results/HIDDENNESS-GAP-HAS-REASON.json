@@ -1,0 +1,9 @@
+{
+  "id": "HIDDENNESS-GAP-HAS-REASON",
+  "argument_id": "HIDDENNESS-GAP-HAS-REASON",
+  "challenge_module": "TruthCore.Results.Hiddenness.GapHasReason.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.GapHasReason.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.GapHasReason.gapHasReason",
+  "comparator_config": "results/HIDDENNESS-GAP-HAS-REASON/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "VATICAN-II-LG-16-SALVATION-SINCERE-SEEKERS",
+  "statement_id": "STMT-HIDDENNESS-SALVATION-SINCERE-SEEKERS",
+  "source_id": "VATICAN-II-LUMEN-GENTIUM",
+  "locator": "§16, sentence beginning Qui enim Evangelium Christi",
+  "interpretation": "Possibility of salvation is retained, not guaranteed salvation. Seeking, grace and striving by conscience are jointly qualified; the passage is not an empirical demonstration of a nonresistant nonbeliever.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-SALVIFIC-HELP",
+    "DEF-HIDDENNESS-SEEKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE"
+  ]
+}

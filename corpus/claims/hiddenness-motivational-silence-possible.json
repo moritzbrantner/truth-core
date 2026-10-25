@@ -1,0 +1,18 @@
+{
+  "id": "REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "statement_id": "STMT-HIDDENNESS-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+  "locator": "Divine Hiddenness, Divine Silence, p. 271, Good Reason? freedom and Bill Gates analogies",
+  "interpretation": "Proposal reading only. The analogy distinguishes coercion from compromised genuineness. It does not demonstrate a sufficient reason for every capable nonresister’s lack of modest belief, nor prove that no less withholding means could serve the same good.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-ACCEPTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS"
+  ]
+}

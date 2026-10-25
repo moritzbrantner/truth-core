@@ -1,0 +1,26 @@
+{
+  "id": "STMT-HIDDENNESS-GOD-EXISTS",
+  "paraphrase": "The Catholic comparison commitment: God exists at the actual world. An open premise, not established by the finite model.",
+  "lean_declaration": "TruthCore.Hiddenness.GodExists",
+  "definition_ids": [
+    "DEF-HIDDENNESS-GOD",
+    "DEF-HIDDENNESS-PERFECT-LOVE",
+    "DEF-HIDDENNESS-CAPACITY",
+    "DEF-HIDDENNESS-RESISTANCE",
+    "DEF-HIDDENNESS-BELIEF",
+    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+    "DEF-HIDDENNESS-SUFFICIENT-REASON",
+    "DEF-HIDDENNESS-MODEL-SCOPE",
+    "DEF-HIDDENNESS-ACCEPTANCE",
+    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
+    "DEF-ENCODED-THEORY-CONSISTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HIDDENNESS-RELATIONSHIP",
+    "DISAMB-HIDDENNESS-NONRESISTANCE",
+    "DISAMB-HIDDENNESS-LOVE-ACCESS",
+    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+  ]
+}
