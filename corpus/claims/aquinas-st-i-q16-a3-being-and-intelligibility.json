@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q16-A3-BEING-AND-INTELLIGIBILITY-A",
+  "statement_id": "STMT-BEING-PROPORTIONED-TO-INTELLIGIBILITY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.16 a.3 co., Unumquodque autem inquantum habet de esse through verum comparationem ad intellectum",
+  "interpretation": "Aquinas relates knowability to the being a thing has and says that truth, like being, extends to beings, while adding relation to intellect in its account. This supplies context for reading the quarta via’s verum as intelligibility grounded in being. It does not specify a numerical scale, a total comparison between all beings, or a Lean definition equating the verum and esse parameters.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ONTOLOGICAL-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-BEING"
+  ]
+}
