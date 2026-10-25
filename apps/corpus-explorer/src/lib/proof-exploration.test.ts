@@ -96,3 +96,16 @@ test("lemma fallback is unformalized and unverified, with needs and exact proven
   expect(suggestIntermediateLemma(runProofExploration(graph, { target: "C", budget: 0 }))).toBeNull();
   expect(suggestIntermediateLemma(runProofExploration(graph, { target: "A", budget: 100 }))).toBeNull();
 });
+
+test("discharged local assumptions are scoped subproof facts, never global forward seeds", () => {
+  const data = input([["INTRO", ["B"], "C"]], []);
+  data.results = [];
+  data.inferences[0].assumption_statement_ids = ["B"];
+  data.inferences[0].discharged_statement_ids = ["B"];
+  const result = runProofExploration(fixtureGraph(data), { target: "C", budget: 100 });
+  expect(result.forwardStatementIds).toEqual([]);
+  expect(result.branches[0].remainingStatementIds).toEqual([]);
+  expect(result.branches[0].scopedAssumptionIds).toEqual(["B"]);
+  expect(result.branches[0].dischargedStatementIds).toEqual(["B"]);
+  expect(result.joins).toEqual([]);
+});

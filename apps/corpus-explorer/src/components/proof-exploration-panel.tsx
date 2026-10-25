@@ -37,8 +37,9 @@ export function ProofExplorationPanel({ graph, result, running, onCancel, onFocu
       </details>
       <details>
         <summary>AND obligations and OR branches ({result.branches.length})</summary>
-        <ul>{result.branches.map((branch) => <li key={branch.inferenceId}>
+        <ul>{result.branches.map((branch) => <li key={JSON.stringify([branch.inferenceId, branch.contextAssumptionIds])}>
           {statementLink(branch.inferenceId)} → {statementLink(branch.output)}
+          {branch.contextAssumptionIds.length ? <p>Within local context: {branch.contextAssumptionIds.join(", ")}.</p> : null}
           <p>All required: {branch.requiredStatementIds.length ? branch.requiredStatementIds.join(", ") : "none"}.</p>
           <p>Remaining on this branch: {branch.remainingStatementIds.length ? branch.remainingStatementIds.join(", ") : "none; composition still proposed"}.</p>
           {branch.scopedAssumptionIds.length ? <p>Local assumptions: {branch.scopedAssumptionIds.join(", ")}; discharged: {branch.dischargedStatementIds.join(", ") || "none"}. Local assumptions are never forward facts.</p> : null}

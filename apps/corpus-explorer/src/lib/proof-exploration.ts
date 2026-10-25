@@ -17,6 +17,7 @@ export type ProofJoin = {
 
 export type ProofBranch = {
   inferenceId: string;
+  contextAssumptionIds: string[];
   output: string;
   requiredStatementIds: string[];
   remainingStatementIds: string[];
@@ -117,10 +118,10 @@ export function* exploreProof(
     entries.push(inference);
     producers.set(inference.output, entries);
   }
-  const queue = [options.target];
+  const queue = [{ goal: options.target, local: [] as string[] }];
   for (let cursor = 0; cursor < queue.length && status === "complete"; cursor += 1) {
-    const goal = queue[cursor];
-    const key = JSON.stringify(["backward", goal, seeds, sorted(available)]);
+    const { goal, local } = queue[cursor];
+    const key = JSON.stringify(["backward", goal, seeds, sorted(available), local]);
     if (visited.has(key)) {
       continue;
     }
@@ -138,16 +139,19 @@ export function* exploreProof(
       }
       yield;
       const required = sorted([...inference.inputs, ...inference.assumptions]);
+      const localFacts = new Set([...local, ...inference.assumptions.filter((id) => inference.discharged.includes(id))]);
+      const missing = required.filter((id) => !available.has(id) && !localFacts.has(id));
       branches.push({
         inferenceId: inference.id,
+        contextAssumptionIds: local,
         output: goal,
         requiredStatementIds: required,
-        remainingStatementIds: required.filter((id) => !available.has(id) || inference.assumptions.includes(id)),
+        remainingStatementIds: missing,
         scopedAssumptionIds: inference.assumptions,
         dischargedStatementIds: inference.discharged,
         resultIds: sorted(graph.arguments.filter((a) => inference.argumentIds.includes(a.id)).flatMap((a) => a.resultIds)),
       });
-      queue.push(...required.filter((id) => !inference.assumptions.includes(id)));
+      queue.push(...required.filter((id) => !localFacts.has(id)).map((id) => ({ goal: id, local: sorted(localFacts) })));
     }
   }
   const joins = sorted([...backward].filter((id) => available.has(id))).map((statementId): ProofJoin => ({
