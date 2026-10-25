@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "source_url": "https://davidhume.org/texts/t/1/3/3",
+    "retrieved_at": "2026-10-25T13:01:23Z",
+    "sha256": "sha256:88a0241b46a39f5221ea8506978e3c1d67621674d11c363d93f7748675c6c83b",
+    "kind": "web_snapshot",
+    "source_id": "HUME-TREATISE",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Hume original English text (1739), public domain; Hume Texts Online digital presentation. Only hashes, locators and a short incipit committed; no license to the presentation asserted."
+  },
+  "passages": [
+    {
+      "id": "HUME-TREATISE-I-3-3",
+      "locator": "I.3.3 \u00a7\u00a71\u20139",
+      "claim_locator_prefixes": [
+        "I.3.3,"
+      ],
+      "html_selector": {
+        "element_id": "text-pane"
+      },
+      "text_sha256": "sha256:a08a6692c7b5fbcd6ce85cf1dcc84c0eac008b86e478f9cfb9b53141c9c3b705",
+      "incipit": "SECT. III.\nWhy a cause is always necessary.\nT 1.3.3.1, SBN 78-9\nTO begin with"
+    }
+  ]
+}

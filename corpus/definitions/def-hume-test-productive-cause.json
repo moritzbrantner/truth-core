@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-PRODUCTIVE-CAUSE",
+  "term": "cause (productive principle in the narrow Hume reading)",
+  "definition": "The productive principle whose idea is separated from the idea of a beginning in I.3.3 §3. No-cause excludes self-cause and nothing-as-cause in §§5–7. This is a description-level usage and does not identify the corpus’s distinct mover, act/potency, or per-se-order senses.",
+  "basis": "stipulative",
+  "note": "Local reading interface for issue #248; no account of causal production or temporal ontology is supplied. A more substantive formalization needs its own source-backed account.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+}

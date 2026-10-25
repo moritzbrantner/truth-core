@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-BEGINNING",
+  "term": "beginning (description in the narrow Hume reading)",
+  "definition": "A description of an object absent at one moment and existent at the next, the temporal contrast in I.3.3 §3. No formal time ontology is inferred: the Lean parameter uncausedBeginning names that description and remains an interpretation parameter.",
+  "basis": "stipulative",
+  "note": "Local reading interface for issue #248; no account of causal production or temporal ontology is supplied. A more substantive formalization needs its own source-backed account.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+}

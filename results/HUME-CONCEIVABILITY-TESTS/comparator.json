@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Hume.Conceivability.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Conceivability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Hume.Conceivability.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

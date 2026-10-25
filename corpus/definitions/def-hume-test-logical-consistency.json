@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+  "term": "logical consistency relative to mere ideas",
+  "definition": "For the bounded source reading, absence of a refutation by reasoning from the ideas alone, expressed as ¬refutes(description). This is an interpretive interface, not a specified complete calculus and not a Lean consistency theorem about Hume’s reasoning.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+}

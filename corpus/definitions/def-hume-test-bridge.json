@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HUME-TEST-BRIDGE",
+  "term": "strong conceivability bridge",
+  "definition": "H(w) := ∀P, C(P,w) → ◇P(w), over all functions World → Prop. □H is the separate Box F (StrongBridge F C) condition. ¬H and □¬(C(P)→◇P) for a fixed P have different quantifier and modal scopes. Neither is asserted of Hume by the source claim.",
+  "basis": "stipulative",
+  "note": "Issue #248 analytical vocabulary, scoped to this test. A source endorsement would require a separate passage-specific claim; the existing I.3.3 claim supplies only the narrow reading.",
+  "lean_declaration": "TruthCore.Modern.Hume.Conceivability.StrongBridge"
+}

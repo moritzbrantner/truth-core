@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-CONCEIVABILITY-TESTS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-CONCEIVABILITY-TESTS",
+  "rule": "direct-proof",
+  "meaning": "Instantiate H at ¬H; use □H at the obtained witness for the conditional conflict. Apply MC to the singleton identity predicate; compose accessibility via symmetry and transitivity, and transport the two contingency witnesses to the origin. Construct independent Bool valuations for all countermodels. No source statement is a premise of this formal semantic test.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
