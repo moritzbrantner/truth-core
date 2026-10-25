@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-VISION-ACCOUNT",
+  "paraphrase": "Deny bodily resurrection and propose individual visionary experiences as the appearance account; group reports and conversions still require explanation.",
+  "lean_declaration": "TruthCore.History.Resurrection.VisionAccount",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

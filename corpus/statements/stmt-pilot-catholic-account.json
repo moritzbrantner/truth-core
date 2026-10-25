@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-CATHOLIC-ACCOUNT",
+  "paraphrase": "Actual death and an empty tomb accompany a risen encounter, with encounters accounting for Paul’s and James’s changed belief. This composite causal account is an open Catholic pilot commitment.",
+  "lean_declaration": "TruthCore.History.Resurrection.CatholicAccount",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

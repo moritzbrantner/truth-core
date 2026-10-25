@@ -1,0 +1,9 @@
+{
+  "id": "RESURRECTION-CATHOLIC-CONSISTENT",
+  "argument_id": "RESURRECTION-CATHOLIC-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.consistent",
+  "comparator_config": "results/RESURRECTION-CATHOLIC-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

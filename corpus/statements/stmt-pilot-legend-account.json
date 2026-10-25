@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-LEGEND-ACCOUNT",
+  "paraphrase": "Deny bodily resurrection and propose elaboration of sincere experiences into resurrection narratives. Early proclamation remains accepted, so this is not a thesis that all appearance proclamation began late.",
+  "lean_declaration": "TruthCore.History.Resurrection.LegendAccount",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

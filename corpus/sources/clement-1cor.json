@@ -1,0 +1,11 @@
+{
+  "id": "CLEMENT-1COR",
+  "kind": "primary_text",
+  "author": "Clement of Rome",
+  "work": "First Corinthians",
+  "citation_system": "chapter.verse",
+  "work_urn": "urn:cts:greekLit:tlg1271.tlg001",
+  "reference_edition_urn": "urn:cts:greekLit:tlg1271.tlg001.1st1K-grc1",
+  "catalog_url": "https://github.com/OpenGreekAndLatin/First1KGreek/blob/03776b39f4047c5cff06f5296fae4b2bae4b08fb/data/tlg1271/tlg001/tlg1271.tlg001.1st1K-grc1.xml",
+  "notes": "Original-language witness for the stage-4 pilot. Textual reports are distinct from historical event findings. No composition date or author identification beyond the edition attribution is inferred from a hash."
+}

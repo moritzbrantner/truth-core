@@ -1,0 +1,9 @@
+{
+  "id": "RESURRECTION-SWOON-CONSISTENT",
+  "argument_id": "RESURRECTION-SWOON-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.consistent",
+  "comparator_config": "results/RESURRECTION-SWOON-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

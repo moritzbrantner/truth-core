@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "source_id": "JOSEPHUS-ANT",
+    "edition_urn": "urn:cts:greekLit:tlg0526.tlg001.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+    "path": "data/tlg0526/tlg001/tlg0526.tlg001.perseus-grc2.xml",
+    "git_blob_sha": "b7311f2559afeb84a9f95484d8d02d04a0bad86c",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0526/tlg001/tlg0526.tlg001.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0 (repository default; see pinned edition header and repository README)"
+  },
+  "passages": [
+    {
+      "id": "JOSEPHUS-ANT-20",
+      "locator": "20",
+      "claim_locator_prefixes": [
+        "20."
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "20"
+        }
+      ]
+    }
+  ],
+  "notes": "Whole chapter retained for context; claim locators identify exact verses."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-PAUL-PERSECUTOR-PREACHER",
+  "paraphrase": "The speaker reports formerly persecuting the church and now preaching the faith he once attacked, attributing his vocation to revelation of the Son. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Galatians.PaulPersecutorPreacher",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

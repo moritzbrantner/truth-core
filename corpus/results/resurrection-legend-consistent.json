@@ -1,0 +1,9 @@
+{
+  "id": "RESURRECTION-LEGEND-CONSISTENT",
+  "argument_id": "RESURRECTION-LEGEND-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.consistent",
+  "comparator_config": "results/RESURRECTION-LEGEND-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "TACITUS-ANN-PILOT-TACITUS-EXECUTION",
+  "statement_id": "STMT-PILOT-REPORT-TACITUS-EXECUTION",
+  "source_id": "TACITUS-ANN",
+  "locator": "15.44 (Christus sentence)",
+  "interpretation": "Read supplicio adfectus as execution. The sentence does not specify crucifixion; crosses later concern Nero’s victims. Tacitus’s information source and independence are not established by this record.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

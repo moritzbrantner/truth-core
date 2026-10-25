@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-CLEMENT-ENDURANCE",
+  "paraphrase": "First Clement praises Peter and Paul as apostles who endured suffering, and speaks of their departure from the world or place of glory. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.Clement.FirstCorinthians.ClementEndurance",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

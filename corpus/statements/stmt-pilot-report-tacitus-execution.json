@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-TACITUS-EXECUTION",
+  "paraphrase": "Tacitus reports Christus suffering execution under Pontius Pilate during Tiberius’s rule. Textual report only.",
+  "lean_declaration": "TruthCore.Latin.Tacitus.Annals.TacitusExecution",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

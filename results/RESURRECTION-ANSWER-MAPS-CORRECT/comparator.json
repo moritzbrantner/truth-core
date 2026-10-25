@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.answerMapsCorrect"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

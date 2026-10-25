@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-ACTS-BROTHERS-PRAYING",
+  "paraphrase": "Acts places Jesus’s brothers with the apostles, women and Mary, persevering together in prayer. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Acts.ActsBrothersPraying",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

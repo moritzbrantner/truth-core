@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-AUTHORITY-VINDICATED",
+  "paraphrase": "The Catholic pilot takes Jesus’s claimed divine authority to be vindicated; this is an open theological commitment, not inferred solely from an appearance report.",
+  "lean_declaration": "TruthCore.History.Resurrection.AuthorityVindicated",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-ACCOUNT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

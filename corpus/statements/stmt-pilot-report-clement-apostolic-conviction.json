@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-CLEMENT-APOSTOLIC-CONVICTION",
+  "paraphrase": "First Clement describes the apostles as assured through the resurrection and going out to proclaim the kingdom. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.Clement.FirstCorinthians.ClementApostolicConviction",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

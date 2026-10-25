@@ -1,0 +1,9 @@
+{
+  "id": "INF-RESURRECTION-LEGEND-CONSISTENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RESURRECTION-LEGEND-CONSISTENT",
+  "rule": "constructive-model",
+  "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

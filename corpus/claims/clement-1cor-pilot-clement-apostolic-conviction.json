@@ -1,0 +1,14 @@
+{
+  "id": "CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION",
+  "statement_id": "STMT-PILOT-REPORT-CLEMENT-APOSTOLIC-CONVICTION",
+  "source_id": "CLEMENT-1COR",
+  "locator": "42.3",
+  "interpretation": "This is the author’s portrayal of apostolic assurance, not independent proof of external appearances, every disciple’s sincerity or a mechanism for group experiences.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

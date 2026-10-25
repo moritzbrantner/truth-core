@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-MARK-CRUCIFIXION-DEATH",
+  "paraphrase": "Mark narrates Jesus being crucified and dying, and Pilate obtaining the centurion’s confirmation of death. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.MarkCrucifixionDeath",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

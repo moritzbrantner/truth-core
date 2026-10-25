@@ -1,0 +1,14 @@
+{
+  "id": "NT-MATT-PILOT-MATT-HOSTILE-THEFT",
+  "statement_id": "STMT-PILOT-REPORT-MATT-HOSTILE-THEFT",
+  "source_id": "NT-MATT",
+  "locator": "28.11-15",
+  "interpretation": "Hostile acknowledgement here means an opposing story attributed by Matthew, a Christian text. It is not an independently surviving hostile deposition, and neither the theft nor the bribe is established by identifying this report.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-NT-MARK-PILOT-MARK-CRUCIFIXION-DEATH-SUPPORTS-E0",
+  "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
+  "subject_kind": "claim",
+  "subject_id": "NT-MARK-PILOT-MARK-CRUCIFIXION-DEATH",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-E0"
+}

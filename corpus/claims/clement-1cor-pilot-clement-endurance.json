@@ -1,0 +1,14 @@
+{
+  "id": "CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE",
+  "statement_id": "STMT-PILOT-REPORT-CLEMENT-ENDURANCE",
+  "source_id": "CLEMENT-1COR",
+  "locator": "5.2-7",
+  "interpretation": "The passage does not independently establish the sincerity of all disciples, exact execution details or the opportunity to recant a particular resurrection assertion. Editorial apparatus in the witness is not part of the claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

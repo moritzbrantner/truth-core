@@ -1,0 +1,9 @@
+{
+  "id": "REL-NT-MATT-PILOT-MATT-EMPTY-TOMB-SUPPORTS-E2",
+  "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
+  "subject_kind": "claim",
+  "subject_id": "NT-MATT-PILOT-MATT-EMPTY-TOMB",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-E2"
+}

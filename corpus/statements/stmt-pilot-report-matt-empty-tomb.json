@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-MATT-EMPTY-TOMB",
+  "paraphrase": "Matthew narrates the angel telling the women Jesus is absent from the place where he lay and has been raised. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Matthew.MattEmptyTomb",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

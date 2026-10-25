@@ -14,6 +14,25 @@ from pathlib import Path
 import source_evidence as se
 
 
+class PerseusPunctuationTest(unittest.TestCase):
+    def test_p4_punctuation_preserves_milestone_context(self) -> None:
+        data = b'<TEI.2><div1 n="15"><p><milestone n="44" unit="chapter"/>Christus &dagger; Pilatum &mdash; supplicio</p></div1></TEI.2>'
+        self.assertEqual(
+            se.extract_plain_text(data, {"id": "TACITUS-FIXTURE"}),
+            "Christus † Pilatum — supplicio",
+        )
+
+    def test_unknown_entity_is_rejected(self) -> None:
+        with self.assertRaisesRegex(se.SourceEvidenceError, "source XML is invalid"):
+            se.extract_plain_text(b"<p>&unknown;</p>", {"id": "FIXTURE"})
+
+    def test_cdata_keeps_literal_entity_spelling(self) -> None:
+        self.assertEqual(
+            se.extract_plain_text(b"<p><![CDATA[&dagger; &mdash;]]></p>", {"id": "FIXTURE"}),
+            "&dagger; &mdash;",
+        )
+
+
 def span(stream: str, index: int, start: float, end: float, text: str) -> dict:
     return {
         "id": f"span-{stream}-{index}",

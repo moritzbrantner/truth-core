@@ -1,0 +1,14 @@
+{
+  "id": "NT-MATT-PILOT-MATT-EMPTY-TOMB",
+  "statement_id": "STMT-PILOT-REPORT-MATT-EMPTY-TOMB",
+  "source_id": "NT-MATT",
+  "locator": "28.5-8",
+  "interpretation": "This is the empty-tomb tradition, not an inference that an empty tomb independently establishes resurrection.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

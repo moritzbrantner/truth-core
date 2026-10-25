@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-E0",
+  "paraphrase": "Jesus was crucified. Death on the cross is a distinct historical question.",
+  "lean_declaration": "TruthCore.History.Resurrection.Crucifixion",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

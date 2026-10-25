@@ -1,0 +1,14 @@
+{
+  "id": "JOSEPHUS-ANT-PILOT-JOSEPHUS-JAMES-STONED",
+  "statement_id": "STMT-PILOT-REPORT-JOSEPHUS-JAMES-STONED",
+  "source_id": "JOSEPHUS-ANT",
+  "locator": "20.200 (20.9.1)",
+  "interpretation": "No conversion, refusal to recant, appearance experience or explicit Christian martyr motive is supplied. The materialized book’s 20.197-203 context concerns Ananus’s irregular exercise of authority.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PILOT-E2",
+  "paraphrase": "The empty-tomb tradition includes Matthew’s narration of the opposing theft story; this is a tradition finding, not independently verified hostile acknowledgement.",
+  "lean_declaration": "TruthCore.History.Resurrection.TombTradition",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT",
+    "DEF-RESURRECTION-PILOT-HISTORY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

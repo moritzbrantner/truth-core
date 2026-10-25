@@ -1,0 +1,9 @@
+{
+  "id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "argument_id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Solution",
+  "theorem": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.consistent",
+  "comparator_config": "results/RESURRECTION-GROUPHALLUCINATION-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

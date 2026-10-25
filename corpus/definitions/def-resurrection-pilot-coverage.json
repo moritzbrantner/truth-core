@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RESURRECTION-PILOT-COVERAGE",
+  "term": "entailed coverage and auxiliaries (stage-4 pilot)",
+  "definition": "AnswerMap records a proposition or unexplained for each of fifteen questions. Available cells are proved from the encoded bundle. Coverage of E0–E5 is by accepting those findings as common premises, not by independently deriving them. An auxiliary count counts the named supplementary account commitments described in auxiliaryCount, grouping conjunctions explicitly; it is not logical atom count, explanatory merit, probability or a ranking. Consistency means a model of the limited pilot bundle, not consistency of every dogma of Catholicism or a complete naturalist worldview. Existence and causation are unanswered for rival labels without a specified metaphysics.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.History.Resurrection.answerMap",
+  "note": "Comparison vocabulary needed to expose the limited pilot encoding and prevent report/event or consistency/truth conflation. Historical research and sourced causal theories would be needed to defend these interpretations; no modern proponent or metaphysical supplement is attributed without a witness."
+}

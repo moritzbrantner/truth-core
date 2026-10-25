@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "source_id": "NT-1COR",
+    "edition_urn": "urn:cts:greekLit:tlg0031.tlg007.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+    "path": "data/tlg0031/tlg007/tlg0031.tlg007.perseus-grc2.xml",
+    "git_blob_sha": "804253b68e8653b420e94e1c20aa7e8860999a61",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0031/tlg007/tlg0031.tlg007.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0 (repository default; see pinned edition header and repository README)"
+  },
+  "passages": [
+    {
+      "id": "NT-1COR-15",
+      "locator": "15",
+      "claim_locator_prefixes": [
+        "15."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "15"
+        }
+      ]
+    }
+  ],
+  "notes": "Whole chapter retained for context; claim locators identify exact verses."
+}

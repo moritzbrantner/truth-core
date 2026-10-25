@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PILOT-REPORT-JOSEPHUS-JAMES-STONED",
+  "paraphrase": "Josephus narrates Ananus handing James, brother of Jesus called Christ, and others over for stoning, after an accusation of lawbreaking. Textual report only.",
+  "lean_declaration": "TruthCore.Greek.Josephus.Antiquities.JosephusJamesStoned",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

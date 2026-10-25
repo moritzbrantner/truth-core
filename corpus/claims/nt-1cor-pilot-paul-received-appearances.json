@@ -1,0 +1,14 @@
+{
+  "id": "NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES",
+  "statement_id": "STMT-PILOT-REPORT-PAUL-RECEIVED-APPEARANCES",
+  "source_id": "NT-1COR",
+  "locator": "15.3-8",
+  "interpretation": "The relative received/transmitted sequence is explicit; neither an absolute early date, a formula boundary nor James’s conversion is asserted. The meaning of ὤφθη is not decided as an external bodily encounter by this report.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

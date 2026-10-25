@@ -1,0 +1,11 @@
+{
+  "id": "JOSEPHUS-ANT",
+  "kind": "primary_text",
+  "author": "Josephus",
+  "work": "Jewish Antiquities",
+  "citation_system": "book.chapter.section",
+  "work_urn": "urn:cts:greekLit:tlg0526.tlg001",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0526.tlg001.perseus-grc2",
+  "catalog_url": "https://github.com/PerseusDL/canonical-greekLit/blob/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0526/tlg001/tlg0526.tlg001.perseus-grc2.xml",
+  "notes": "Original-language witness for the stage-4 pilot. Textual reports are distinct from historical event findings. No composition date or author identification beyond the edition attribution is inferred from a hash."
+}

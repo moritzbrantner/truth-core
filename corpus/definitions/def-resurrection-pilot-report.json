@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RESURRECTION-PILOT-REPORT",
+  "term": "textual report (stage-4 pilot)",
+  "definition": "Reported s r means the text is read as presenting content r. Report constructors identify exact contents explained by their declaration comments and source claims; a report never entails its content as an actual event.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.History.Resurrection.Reported",
+  "note": "Comparison vocabulary needed to expose the limited pilot encoding and prevent report/event or consistency/truth conflation. Historical research and sourced causal theories would be needed to defend these interpretations; no modern proponent or metaphysical supplement is attributed without a witness."
+}

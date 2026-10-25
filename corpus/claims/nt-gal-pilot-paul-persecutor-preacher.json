@@ -1,0 +1,14 @@
+{
+  "id": "NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER",
+  "statement_id": "STMT-PILOT-REPORT-PAUL-PERSECUTOR-PREACHER",
+  "source_id": "NT-GAL",
+  "locator": "1.13-24",
+  "interpretation": "A transition in activity is explicit. The conversion finding further reads these activities as earlier nonbelief and later belief; the supernatural explanation remains separately contested.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RESURRECTION-PILOT-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}
