@@ -1,0 +1,20 @@
+{
+  "id": "STMT-HUME-REGULARITY-TESTS",
+  "paraphrase": "Explicit deterministic countermodels and conditional laws: a nontrivial common-cause fork lacks X-intervention efficacy despite constant conjunction; observationally identical reversed chains disagree on causal direction; time order breaks symmetry but not confounding; independent-variable sample selection mimics a law; full intervention tables determine efficacy; finite prefixes leave the next value open whereas a granted universal law entails its instances; a selected theorem can distinguish law from incidental truth; local temporal causal requirements are compatible with either brute or grounded spacetime, and universal grounding conditionally excludes the brute model. These refute only specified sufficiency/extension inferences, not Hume, Lewis or cosmological physics. No root node is closed. The shared formal answer map also verifies the failure of all five naive answers and the five diagnostic answers of the enriched account; its cosmic slot stays unanswered while the scoped brute model supplies an explicitly hypothetical answer.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.Checks",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

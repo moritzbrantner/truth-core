@@ -1,0 +1,20 @@
+{
+  "id": "STMT-HUME-REGULARITY-MODELS",
+  "paraphrase": "The selected thin bundles each have an explicit finite model: nontrivial observed conjunction in a fork; an intervention-enriched forward chain with X-to-Y efficacy and no reverse efficacy; and a hypothetical scoped brute totality with ordinary temporal causes but no explanatory ground for spacetime. This is joint satisfiability of each fragment separately, not one shared world satisfying rival causal claims, not historical attribution, and not the truth of a brute actual cosmos.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.ModelChecks",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

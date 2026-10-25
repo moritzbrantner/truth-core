@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CAUSE-AS-SIMILAR-SUCCESSION",
+  "paraphrase": "Hume’s first definition describes an object followed by another, with similar objects followed by similar objects. The formal RegularCause interface represents precisely that similarity/succession clause; it does not erase temporal order or add intervention success.",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ],
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.RegularCause"
+}

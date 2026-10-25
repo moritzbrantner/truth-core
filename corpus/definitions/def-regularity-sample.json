@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-SAMPLE",
+  "term": "sample restriction and coincidence",
+  "definition": "sample selects only equal-valued pairs from independent binary variables. The apparent equality in that sample does not hold off the diagonal. CoincidenceTest is a possibility of sampling-based accidental association, not a probability claim or a theory of all coincidence.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.sample"
+}
