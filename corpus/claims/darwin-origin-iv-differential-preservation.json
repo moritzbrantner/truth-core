@@ -1,0 +1,18 @@
+{
+  "id": "DARWIN-ORIGIN-IV-DIFFERENTIAL-PRESERVATION",
+  "statement_id": "STMT-TELEONOMY-DIFFERENTIAL-PRESERVATION",
+  "source_id": "DARWIN-ORIGIN",
+  "locator": "IV, natural selection, opening paragraph and Summary of the Chapter",
+  "interpretation": "Tendency and relative advantage, not guaranteed survival, perfect adaptation, moral goodness or directed anticipation. The complete chapter was materialized; the conclusion leaves actual historical adequacy to the balance of evidence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "DYE-FEEDBACK-PATTERNING",
+  "statement_id": "STMT-TELEONOMY-EXPERIMENTAL-FEEDBACK",
+  "source_id": "DYE-MECHANICAL-FEEDBACK",
+  "locator": "Abstract, continuum theory and MyoVI knockdown",
+  "interpretation": "A modal mechanism claim in Drosophila larval tissue, with experimental support. Does not show all biological patterns, inanimate order or consciousness are explained, and does not deny final causality or a divine director.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

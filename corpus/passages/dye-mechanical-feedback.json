@@ -1,0 +1,25 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DYE-MECHANICAL-FEEDBACK",
+    "source_url": "https://elifesciences.org/articles/57964",
+    "retrieved_at": "2026-10-25T13:51:13Z",
+    "sha256": "sha256:5e79ce9ff55c50e2e098e0a2a902628e8887c777c1eafddb676d7fc193ec6a23",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Creative Commons Attribution license, as stated on eLife article."
+  },
+  "passages": [
+    {
+      "id": "DYE-MECHANICAL-FEEDBACK-ABSTRACT",
+      "locator": "Abstract",
+      "claim_locator_prefixes": [
+        "Abstract,"
+      ],
+      "html_selector": {
+        "heading": "Abstract"
+      },
+      "text_sha256": "sha256:fda5df5fbb0af8d00baad8fa90f75e0474921739360d3b9dff7c422be0ae01fb"
+    }
+  ]
+}

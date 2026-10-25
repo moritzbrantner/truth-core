@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "argument_id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.chanceIntentionDichotomy",
+  "comparator_config": "results/TELEONOMY-CHANCE-INTENTION-DICHOTOMY/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TELEONOMY-LOCAL-COUPLING",
+  "term": "feedback and self-organized pattern",
+  "definition": "Self-organization here means emergence of pattern through component interactions. The toy couple operation copies one cell’s Boolean state to its neighbor, leaving the first unchanged; it is a local alignment rule with a stable output. It contains neither a reproduction operation nor a goal representation nor an intelligent agent. Dye’s mechanical feedback couples polarity to cell rearrangements; the toy is not a formalization of that continuum theory or of all positive/negative feedback.",
+  "basis": "stipulative",
+  "note": "Stipulated smallest finite demonstration of alignment and stability; the primary experiment is preserved as its own source claim, without claiming the toy reproduces it.",
+  "lean_declaration": "TruthCore.Teleonomy.couple"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.feedbackCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

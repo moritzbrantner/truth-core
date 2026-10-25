@@ -1,0 +1,23 @@
+{
+  "id": "PLATO-PARM-130B-SEPARATION-NUMERICAL",
+  "statement_id": "STMT-PLATONIC-NONIDENTITY",
+  "source_id": "PLATO-PARM",
+  "locator": "130b",
+  "interpretation": "Thin reading of Forms separately and participants separately: numerical nonidentity. This preserves less content than the ontological sibling and does not claim to exhaust the sentence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

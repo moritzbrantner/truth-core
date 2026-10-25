@@ -1,0 +1,21 @@
+{
+  "id": "PLATO-PHAEDO-100D-PARTICIPATION-THIN",
+  "statement_id": "STMT-PLATONIC-PARTICIPATION-PREDICATION",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "100d–e",
+  "interpretation": "Thin predicative projection: things sharing beauty are beautiful. Participation is an attribution relation here; no explanatory adequacy is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

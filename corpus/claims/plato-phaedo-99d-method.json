@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-PHAEDO-99D-METHOD",
+  "statement_id": "STMT-PLATONIC-PHAEDO-99D-METHOD",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "99d–100a",
+  "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Socrates turns to accounts to examine truth and hypothesizes the account he judges strongest. This is a method of inquiry, not a theorem establishing those hypotheses.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY"
+  ]
+}

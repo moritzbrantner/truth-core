@@ -1,0 +1,19 @@
+{
+  "id": "TELEONOMY-UNGUIDED-FINALITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TELEONOMY-UNGUIDED-FINALITY",
+  "inference_ids": [
+    "INF-TELEONOMY-UNGUIDED-FINALITY"
+  ],
+  "meaning": "Composes #179’s teleonomyModel: beneficial regular tending without a knower is consistent with the observational, noncognition and nonchance premises, while the arrow premise fails. Broad finality is not identical with cognition.",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

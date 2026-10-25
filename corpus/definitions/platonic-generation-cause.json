@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-GENERATION-CAUSE",
+  "term": "cause",
+  "definition": "Contrast and reuse: Timaeus.CausePrinciple asks for a cause of coming-to-be, with no built-in distinctness, temporal priority, agency or uniqueness. This is not the ternary Explains relation for being F.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CausePrinciple"
+}

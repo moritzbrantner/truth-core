@@ -1,0 +1,17 @@
+{
+  "id": "PLATO-TIM-51D-INTELLECT",
+  "statement_id": "STMT-PLATONIC-TIM-51D-INTELLECT",
+  "source_id": "PLATO-TIM",
+  "locator": "51d–e",
+  "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Timaeus argues conditionally from understanding and true opinion being different kinds to imperceptible Forms existing in themselves, and then distinguishes the two by origin, reason-giving and persuasion. No unrestricted epistemic bridge is silently installed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

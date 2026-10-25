@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-NONIDENTITY",
+  "term": "separation",
+  "definition": "Numerical separation means f and the participating particular x are unequal in the common entity domain. Numerical inequality alone establishes no ontological independence.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Nonidentity"
+}

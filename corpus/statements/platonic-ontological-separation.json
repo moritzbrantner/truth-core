@@ -1,0 +1,18 @@
+{
+  "id": "STMT-PLATONIC-ONTOLOGICAL-SEPARATION",
+  "paraphrase": "For each admitted quality, its Form is ontologically independent in the primitive specified sense; no modal account is proved.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.OntologicalSeparation",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

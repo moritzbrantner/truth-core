@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-HUMAN-NATURE",
+  "term": "man/human",
+  "definition": "Human as a quality is a Quality parameter; HumanFormAdmitted marks its inclusion in the range of Forms as an explicit optional open commitment. It asserts neither a human Form’s existence by itself nor that the Form is an ordinary human.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.HumanFormAdmitted"
+}

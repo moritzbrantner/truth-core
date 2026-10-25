@@ -1,0 +1,26 @@
+{
+  "id": "PLATO-TIM-29A-COSMOS-EXEMPLAR",
+  "statement_id": "STMT-PLATONIC-COSMOS-EXEMPLAR",
+  "source_id": "PLATO-TIM",
+  "locator": "29a–b",
+  "interpretation": "The generated cosmos is an image made after an intelligible stable model. This minimal projection omits the good maker’s further role; existing Timaeus cause and generated-cosmos records remain independent and unchanged.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

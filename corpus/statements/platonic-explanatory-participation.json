@@ -1,0 +1,20 @@
+{
+  "id": "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+  "paraphrase": "Every particular exemplifying an admitted quality participates in a Form that putatively explains its being so. This is an open explanatory commitment, not a verified explanation.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.ExplanatoryParticipation",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-FEEDBACK-COVERAGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-FEEDBACK-COVERAGE",
+  "rule": "finite_model_construction_or_composition",
+  "meaning": "Local coupling creates alignment from a nonaligned initial condition and is idempotent for every state. No agent or selection predicate is used. This toy establishes possibility, not Dye’s quantitative model.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

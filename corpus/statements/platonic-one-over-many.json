@@ -1,0 +1,18 @@
+{
+  "id": "STMT-PLATONIC-ONE-OVER-MANY",
+  "paraphrase": "For each admitted quality, a common Form is attributed to all particulars exemplifying it. This is a thin classificatory schema, not an explanatory conclusion.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.OneOverMany",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}
