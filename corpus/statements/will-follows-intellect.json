@@ -1,1 +1,13 @@
-{"id": "STMT-WILL-FOLLOWS-INTELLECT", "paraphrase": "Whatever has intellect has will.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.WillFollowsIntellectReading", "definition_ids": ["DEF-HAS-WILL", "DEF-HAS-INTELLECT"]}
+{
+  "id": "STMT-WILL-FOLLOWS-INTELLECT",
+  "paraphrase": "Whatever has intellect has will.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.WillFollowsIntellectReading",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-HAS-INTELLECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-INTELLECTUAL-APPETITE-TO-WILL",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.19 a.1–2; I q.80 a.1–2",
+  "priority": 435,
+  "goal": "Resolve the structural content of STMT-WILL-FOLLOWS-INTELLECT using the verified q.19 and q.80 readings: represent cognition-relative inclination without importing the soul's passive appetite into divine act; distinguish power from exercise and possessed-good love/rest from deficient seeking. A: intellectual nature/form-relative orientation; B: appetitive capacity and possession-sensitive seeking/resting; C: explicit recognition by the existing primitive HasWill. None is discharged by introducing opaque flags. Existing HasIntellect and HasWill semantics must remain unchanged unless a cross-cutting interpretation is expressly approved. See docs/intellectual-appetite-source.md for the exact model gap and omission controls.",
+  "reason": "GodHasWill already imports GodHasIntellect, so another root wrapper supplies no missing consequence. Source readings constrain a future local model but do not yet derive the universal old bridge or close its frontier input.",
+  "status": "candidate"
+}

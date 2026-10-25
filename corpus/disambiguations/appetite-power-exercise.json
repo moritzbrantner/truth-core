@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-APPETITE-POWER-AND-EXERCISE",
+  "term": "having will or appetite versus exercising it",
+  "sense_definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-COGNITION-RELATIVE-APPETITE",
+    "DEF-ACT-OF-WILL"
+  ],
+  "resolution": "The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast."
+}

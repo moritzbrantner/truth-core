@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q19-A2-WILL-COMMUNICATES-POSSESSED-GOOD",
+  "statement_id": "STMT-WILL-CAN-COMMUNICATE-POSSESSED-GOOD",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.19 a.2 co.",
+  "interpretation": "The article analogizes communicating natural perfection with will and applies this to divine goodness. This reading asserts neither deficient desire nor that every possible good must be produced.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-ACT-OF-WILL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+  ]
+}

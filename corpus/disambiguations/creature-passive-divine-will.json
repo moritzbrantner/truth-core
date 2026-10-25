@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+  "term": "passive soul appetite versus divine willing",
+  "sense_definition_ids": [
+    "DEF-SOUL-PASSIVE-APPETITIVE-POWER",
+    "DEF-DIVINE-WILL-ACT",
+    "DEF-HAS-WILL"
+  ],
+  "resolution": "Read q.80 passive appetite in its soul-power context; read q.19 divine willing with its identity with divine being and denial of external motion. The source analogy of inclination does not transfer creaturely passivity, appetite as a distinct accidental faculty, or transition to act into God. HasWill remains the existing primitive predicate, with no new equivalence definition."
+}
