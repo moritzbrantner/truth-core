@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GENUINE-MORAL-CONTRADICTION",
+  "term": "genuine moral contradiction (shared-question definition)",
+  "definition": "GenuinelyContradict x y φ means x accepts φ, y rejects φ, and φ is truth-apt; a moral instance additionally satisfies Moral φ. Accepts and Rejects remain primitive and are not defined as Holds and its negation. NoGenuineMoralContradiction universally excludes these instances. This operational notion is distinct from a clash of non-cognitive attitudes or a proof of False.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.GenuinelyContradict",
+  "note": "The shared question’s existing stipulation in Questions.lean. A fuller account of acceptance, rejection and being right would be needed to identify it with a complete philosophical theory of contradiction. The emotivism result uses only its truth-aptness conjunct."
+}

@@ -3,7 +3,8 @@
   "term": "essence",
   "sense_definition_ids": [
     "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-ESSENCE-SCOTT"
+    "DEF-ESSENCE-SCOTT",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
   ],
-  "resolution": "Scott's variant and Gödel's 1970 variant define 'essence' differently, and their statements and results keep the two apart. Scott's ess (DEF-ESSENCE-SCOTT) requires the bearer to have the essence, and its inclusion quantifies over all individuals; Gödel's 1970 Ess. (DEF-ESSENCE-GOEDEL-1970) drops that conjunct and quantifies over existing individuals. They are separate Lean declarations, `TruthCore.Isabelle.AFP.GoedelGod.Essence` and `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence`, and no statement treats one as the other. The difference is what the paired results SCOTT-EMPTY-PROPERTY-NOT-ESSENCE and GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE show, and it is what makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) while Scott's are satisfiable. Neither is the Thomist essence."
+  "resolution": "Scott's variant and Gödel's 1970 variant define 'essence' differently, and their statements and results keep the two apart. Scott's ess (DEF-ESSENCE-SCOTT) requires the bearer to have the essence, and its inclusion quantifies over all individuals; Gödel's 1970 Ess. (DEF-ESSENCE-GOEDEL-1970) drops that conjunct and quantifies over existing individuals. They are separate Lean declarations, `TruthCore.Isabelle.AFP.GoedelGod.Essence` and `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence`, and no statement treats one as the other. The difference is what the paired results SCOTT-EMPTY-PROPERTY-NOT-ESSENCE and GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE show, and it is what makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) while Scott's are satisfiable. Neither is the Thomist essence. Thomistic essence as nature/quiddity in the attribute readings is distinct from either modal essence definition; the claim of identity with esse is separate from this term’s definition."
 }

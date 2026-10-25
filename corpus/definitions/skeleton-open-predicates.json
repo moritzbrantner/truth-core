@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SKELETON-OPEN-PREDICATES",
+  "term": "open revelation and historical predicates of the Catholicism skeleton",
+  "definition": "The skeleton separately assumes that God can reveal recognizably through external signs (motives of credibility), that Jesus claimed to speak and act with divine authority and rose, that Christ founded a visible, enduring Church with an authority structure, and that each society he so founded is the Catholic Church. Society equality represents the latter historical-identity claim. These are the advertised meanings of distinct primitive fields/relations in Signature, not definitions that make any of them hold. Founding a society is distinct from founding it as a teaching authority, and Jesus’s stage predicate RoseFromTheDead is not identified with the separate uninterpreted Creed article. The phase-1 root fixes the teaching-authority role and twelve Creed articles. No event criteria, complete ecclesiology or evidence for those assumptions is supplied by the signature.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.Signature",
+  "note": "An explicit scope record for the existing root-route argument’s unexpanded theological/historical parameters. Source-based criteria for revelation, resurrection, founding and historical Church identity must be defended in their own claims and arguments; this vocabulary link adds no premise and settles none of them."
+}

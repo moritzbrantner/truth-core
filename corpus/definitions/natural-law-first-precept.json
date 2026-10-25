@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NATURAL-LAW-FIRST-PRECEPT",
+  "term": "practical good and evil in the first precept of natural law",
+  "definition": "Practical good concerns what practical reason apprehends as human goods to be pursued, in the order of natural inclinations; practical evil is contrary and to be avoided. The first precept is represented by GoodAct a → ToBePursued a and EvilAct a → ToBeAvoided a. These primitive predicates on acts are not defined by the ontological GoodIn relation on a being and a perfection, and no reduction of one to the other follows from juxtaposing them in a theory bundle.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-II-Q94-A2-FIRST-PRECEPT"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstPreceptOfNaturalLawReading"
+}

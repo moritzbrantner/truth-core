@@ -1,1 +1,1 @@
-{"id": "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT", "paraphrase": "Moral (practical) judgments have a truth value: in practical matters there is truth or rectitude.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MoralJudgmentsAreTruthAptReading"}
+{"id": "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT", "paraphrase": "Moral (practical) judgments have a truth value: in practical matters there is truth or rectitude.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MoralJudgmentsAreTruthAptReading", "definition_ids": ["DEF-TRUTH-VALUE", "DEF-MORAL-STATEMENT"]}
