@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-S4-CLUSTER",
+  "term": "mutual-accessibility cluster",
+  "definition": "SameCluster F w v is F.access w v ∧ F.access v w. On S4 frames this is the standard mutual-accessibility equivalence relation. A terminal cluster in this experiment has no outgoing edge to a world outside the cluster; terminality alone does not imply modal collapse or singleton cardinality.",
+  "basis": "stipulative",
+  "note": "Mathematical S4 experiment requested in #265, using the shared #261 semantics. Historical adoption or metaphysical possibility would need a separate pinned and interpreted source claim.",
+  "lean_declaration": "TruthCore.Modal.S4Research.SameCluster"
+}

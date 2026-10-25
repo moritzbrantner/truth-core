@@ -1,0 +1,26 @@
+{
+  "id": "STMT-MODAL-S4-COUNTERMODELS",
+  "paraphrase": "Both finite pockets configurations are reflexive and transitive but neither symmetric nor Euclidean. At their common root, both full-predicate and fixed-language possible collapse hold, while actual and necessary collapse and possibility entails actuality fail. The independently specified first atom has accessible true and false witnesses. A terminal singleton provides the collapse witness without vacuity.",
+  "lean_declaration": "TruthCore.Modal.S4Research.Countermodels",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-S4-FRAME",
+    "DEF-MODAL-S4-CLUSTER",
+    "DEF-MODAL-S4-POCKETS",
+    "DEF-MODAL-S4-LANGUAGE",
+    "DEF-MODAL-S4-PREDICATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S4-CLUSTER-SCOPE"
+  ]
+}

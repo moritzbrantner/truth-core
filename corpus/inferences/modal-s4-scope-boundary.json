@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S4-SCOPE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S4-SCOPE-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Induct over the fixed language to prove right/twin formula agreement and preserve formulas across their common successor rows. Use the full K successor-identity theorem to refute full collapse of each distinct label. No right-side successor has full collapse, refuting necessary possible full collapse. Enumerate language-collapse witnesses at every root successor. Agreement between distinct labels refutes language extensionality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
