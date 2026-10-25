@@ -1,0 +1,29 @@
+{
+  "id": "STMT-PARM-MEDIATION-POSSIBLE",
+  "paraphrase": "A finite cognition interpretation has human and divine modes on distinct sides, successful mediated access across the boundary, and a divine mode knowing a non-intelligible object. It tests compatibility of mediated cognition, not recollection’s truth, omniscience or theology.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.MediationPossible",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

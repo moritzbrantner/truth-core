@@ -1,0 +1,9 @@
+{
+  "id": "PARM-DISTANCE-OBJECTION",
+  "argument_id": "PARM-DISTANCE-OBJECTION",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.distanceObjection",
+  "comparator_config": "results/PARM-DISTANCE-OBJECTION/comparator.json",
+  "status": "solution-present"
+}

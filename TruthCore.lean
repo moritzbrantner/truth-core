@@ -92,6 +92,8 @@ import TruthCore.Greek.NewTestament.John
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Forms
+import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
+import TruthCore.Greek.Plato.Parmenides.ReplyModels
 import TruthCore.Greek.Plato.Timaeus
 import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
@@ -352,6 +354,14 @@ import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
 import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
 import TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.EpistemicObjection.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.MediationModel.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution
+import TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

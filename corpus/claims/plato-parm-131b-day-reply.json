@@ -1,0 +1,30 @@
+{
+  "id": "PLATO-PARM-131B-DAY-REPLY",
+  "statement_id": "STMT-PARM-DAY-ANALOGY",
+  "source_id": "PLATO-PARM",
+  "locator": "131b",
+  "interpretation": "Socrates proposes that one and the same day can be in many places without being separate from itself. This offers a non-distributive analogy against spatial exclusivity; the sail response reintroduces distributed parts rather than demonstrating that every participation must have them.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARM-PART-ALLOCATION",
+    "DEF-PARM-PROPER-PART",
+    "DEF-PARM-WHOLE-PRESENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-PRESENCE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "PARM-RANKED-ASYMMETRY",
+  "premise_statement_ids": [
+    "STMT-PARM-RANKED-GROUND"
+  ],
+  "conclusion_statement_id": "STMT-PARM-ASYMMETRIC-GROUND",
+  "inference_ids": [
+    "INF-PARM-RANKED-ASYMMETRY"
+  ],
+  "meaning": "A reverse Ground edge would give rank f < rank x < rank f, violating irreflexivity of natural-number strict order. An explicit open order witness yields asymmetric dependence, without a cause of temporal change.",
+  "definition_ids": [
+    "DEF-PARM-CHANGE-PRODUCTION",
+    "DEF-PARM-GROUND",
+    "DEF-PARM-GROUND-RANK",
+    "DEF-PARM-INHERENCE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-EXPLANATION",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

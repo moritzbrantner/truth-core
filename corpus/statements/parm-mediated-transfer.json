@@ -1,0 +1,29 @@
+{
+  "id": "STMT-PARM-MEDIATED-TRANSFER",
+  "paraphrase": "Successful direct cognition of a sound presentation transfers knowledge to the presented object. This universal rule is an open epistemic warrant, not a claim that perception, resemblance or a sign alone suffices.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.MediatedTransfer",
+  "definition_ids": [
+    "DEF-PARM-AGENT-MODES",
+    "DEF-PARM-DIRECT-COGNITION",
+    "DEF-PARM-KNOWLEDGE",
+    "DEF-PARM-PRESENTATION",
+    "DEF-PARM-REALM-CLOSURE",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARM-KNOWLEDGE",
+    "DISAMB-PARM-SEPARATION",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARM-KNOWLEDGE",
+  "term": "knowledge",
+  "definition": "Knows a x is successful object-directed knowledge in the mode tested, not the Form of Knowledge itself, not omniscience and not a definition of propositional justified belief. The agent-indexed reconstruction projects the relation of knowledge to its object in Parmenides 134a–e; its closure principle remains disputed.",
+  "basis": "stipulative",
+  "note": "Additive interface for issue #259. Parmenides 130e–131e and 133b–134e, Phaedo 74b–d / 100d–e and Aristotle Metaphysics I.9 motivate these contrasts; none defines the modern typed interface. Sourcing a replacement would require a passage fixing this exact scope.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Cognition"
+}

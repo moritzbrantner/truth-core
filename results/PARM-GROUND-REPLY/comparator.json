@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.groundReply"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

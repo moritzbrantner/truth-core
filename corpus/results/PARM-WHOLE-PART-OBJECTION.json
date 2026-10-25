@@ -1,0 +1,9 @@
+{
+  "id": "PARM-WHOLE-PART-OBJECTION",
+  "argument_id": "PARM-WHOLE-PART-OBJECTION",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.wholePartObjection",
+  "comparator_config": "results/PARM-WHOLE-PART-OBJECTION/comparator.json",
+  "status": "solution-present"
+}

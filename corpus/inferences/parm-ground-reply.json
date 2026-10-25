@@ -1,0 +1,9 @@
+{
+  "id": "INF-PARM-GROUND-REPLY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PARM-GROUND-REPLY-POSSIBLE",
+  "rule": "model-construction",
+  "meaning": "Construct a two-entity one-quality witness with a non-inherent independent Form, a particular it explains and grounds, and rank 0 before 1. Import the ranked-asymmetry theorem. Change-production is empty. This distinguishes static explanatory compatibility from providing the efficient explanation Aristotle demands.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

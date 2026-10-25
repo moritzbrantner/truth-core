@@ -1,0 +1,9 @@
+{
+  "id": "PARM-MEDIATION-REPLY",
+  "argument_id": "PARM-MEDIATION-REPLY",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.mediationReply",
+  "comparator_config": "results/PARM-MEDIATION-REPLY/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.mediationReply"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

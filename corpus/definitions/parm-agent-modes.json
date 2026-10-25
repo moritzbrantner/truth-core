@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARM-AGENT-MODES",
+  "term": "agent",
+  "definition": "Human and Divine classify the cognitive modes under examination, not entities or Forms: Human names the knowledge-among-us mode used by humans in the greatest-difficulty argument; Divine names the hypothetical most-exact knowledge-itself mode proposed for a god. HumanOutside excludes knowledge-itself for the human mode; DivineInside is conditional on the divine mode. These predicates do not classify every possible cognitive power of a person or god. No divine existence, omniscience, personal theology or substance theory is asserted. The Bool witness gives each tested mode an inhabitant only inside its interpretation.",
+  "basis": "stipulative",
+  "note": "Additive interface for issue #259. Parmenides 130e–131e and 133b–134e, Phaedo 74b–d / 100d–e and Aristotle Metaphysics I.9 motivate these contrasts; none defines the modern typed interface. Sourcing a replacement would require a passage fixing this exact scope.",
+  "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Cognition"
+}

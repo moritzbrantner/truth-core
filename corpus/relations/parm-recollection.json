@@ -1,0 +1,8 @@
+{
+  "id": "REL-PARM-RECOLLECTION",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PHAEDO-74B-MEDIATED-ACCESS",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARM-HUMAN-ROUTE"
+}

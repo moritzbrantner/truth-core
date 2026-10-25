@@ -1,0 +1,9 @@
+{
+  "id": "PARM-GROUND-REPLY",
+  "argument_id": "PARM-GROUND-REPLY",
+  "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Solution",
+  "theorem": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.groundReply",
+  "comparator_config": "results/PARM-GROUND-REPLY/comparator.json",
+  "status": "solution-present"
+}
