@@ -1,1 +1,26 @@
-{"id": "STMT-CLASSICAL-ATTRIBUTES-SUFFICE", "paraphrase": "Open definitional bridge: a being that is simple, perfect, good, one, infinite, immutable, eternal, and has intellect and will has the classical divine attributes (the skeleton's HasClassicalAttributes), after Dei Filius ch. 1.", "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice", "definition_ids": ["DEF-SIMPLE", "DEF-UNIVERSALLY-PERFECT", "DEF-SUPREMELY-GOOD", "DEF-ONE-GOD", "DEF-INFINITE", "DEF-IMMUTABLE", "DEF-ETERNAL", "DEF-HAS-INTELLECT", "DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM"]}
+{
+  "id": "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+  "paraphrase": "Open definitional bridge: a being that is simple, perfect, good, one, infinite, immutable, eternal, and has intellect and will has the classical divine attributes (the skeleton's HasClassicalAttributes), after Dei Filius ch. 1.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
+  "definition_ids": [
+    "DEF-SIMPLE",
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-SUPREMELY-GOOD",
+    "DEF-ONE-GOD",
+    "DEF-INFINITE",
+    "DEF-IMMUTABLE",
+    "DEF-ETERNAL",
+    "DEF-HAS-INTELLECT",
+    "DEF-HAS-WILL",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-IN-ACT",
+    "DISAMB-INFINITY",
+    "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+    "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+  ]
+}

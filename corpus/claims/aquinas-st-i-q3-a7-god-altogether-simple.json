@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A7-GOD-ALTOGETHER-SIMPLE",
+  "statement_id": "STMT-GOD-IS-SIMPLE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.7 co., first proof: Deus nullo modo compositus est, sed est omnino simplex",
+  "interpretation": "Aquinas concludes that God has no composition of any kind and is altogether simple, after excluding quantitative parts, matter and form, nature and suppositum, essence and being, genus and difference, and subject and accident. The existing case statement reads this as whatever is God is not Composite; Composite must range over every relevant kind, not only matter-form composition. This is the conclusion attributed to Aquinas, not a new proof of it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

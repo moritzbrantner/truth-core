@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SENSE-COGNITION",
+  "term": "sense cognition, contrast to intellect",
+  "definition": "In ST I q.14 a.1, sense is cognitive because it receives species without matter; intellect is more cognitive because more separate and unmixed with matter. Sense cognition is not by itself intellectual cognition.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE"
+  ],
+  "note": "This contrast uses the source article’s hierarchy of cognition, not a new formal psychology. HasIntellect remains primitive and is not identified with every kind of cognition."
+}
