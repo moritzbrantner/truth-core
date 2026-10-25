@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-S4-COUNTERMODELS",
+  "argument_id": "MODAL-S4-COUNTERMODELS",
+  "challenge_module": "TruthCore.Results.Modal.S4.Countermodels.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S4.Countermodels.Solution",
+  "theorem": "TruthCore.Results.Modal.S4.Countermodels.checks",
+  "comparator_config": "results/MODAL-S4-COUNTERMODELS/comparator.json",
+  "status": "solution-present"
+}

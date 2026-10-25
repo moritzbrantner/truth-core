@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-S4-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-S4-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Compose the K successor-identity theorem with predicate transport for MC persistence; reflexivity supplies the converse. Apply the successor identity theorem to a cluster edge for the unrestricted at-most-one conclusion; reflexivity supplies self-membership for the S4 singleton reading. For symmetric transfer, use the reverse edge from an accessible collapsed world, then transport collapse back along the resulting equality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

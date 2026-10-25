@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.S4.Countermodels.Challenge",
+  "solution_module": "TruthCore.Results.Modal.S4.Countermodels.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.S4.Countermodels.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
