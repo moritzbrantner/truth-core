@@ -66,7 +66,7 @@ The questions:
 | Question | O'Connor | Stevenson | Quasi-realism | Catholic natural law |
 |---|---|---|---|---|
 | 1. Grounding | S: no objective moral truths | U | U: explanatory order (§5.2) and supervenience (§3.4) are recorded, but neither answers what makes a moral judgment true | S: actuality and privation (q.5, q.48) |
-| 2. Validity | U | U | V: constant meaning is consistent with validity; the explanation is open | U (not formalized) |
+| 2. Validity | U | U | U: consistency with validity is verified, but no explanation of validity is derived | U (not formalized) |
 | 3. Error | V: none (`EMOTIVISM-EXCLUDES-MORAL-ERROR`) | U | V: minimal error (model) | V: the Germans erred (`AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED`) |
 | 4. Disagreement | V: no contradiction (`EMOTIVISM-EXCLUDES-GENUINE-MORAL-CONTRADICTION`) | S: clash in attitude (§3.5) | S: minimal contradiction | S: contradiction, since moral judgments are truth-apt (a.4) |
 | 5. Progress | U (on the cognitive reading of correction) | U | S: minimal correction (§4.3) | S: correction of corruption (q.94 a.5 ad 1) |
@@ -80,7 +80,7 @@ The questions:
 |---|---|---|---|---|
 | O'Connor | 2 | 2 | 3 | 1 |
 | Stevenson | 0 | 1 | 7 | 0 |
-| Quasi-realism | 3 | 2 | 3 | 0 |
+| Quasi-realism | 2 | 2 | 4 | 0 |
 | Catholic natural law | 1 | 5 | 2 | 0 |
 
 Prose:
@@ -94,7 +94,10 @@ Prose:
   a gap in the witness, not a refutation.
 * **Quasi-realism** matches realism wherever minimal truth suffices. It
   deviates on robust truth and on explanatory order (#190, #191); its answer
-  to the grounding question is not in the pinned witness.
+  to the grounding question is not in the pinned witness. Validity remains
+  unexplained: `EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY` supplies validity
+  as shared data in a joint model, rather than deriving it from constant
+  meaning. That consistency result remains a separate achievement.
 * **The Catholic natural-law theory** leaves validity and the evil premise
   unexplained in this bundle. Most of its answers are sourced, not yet verified.
 

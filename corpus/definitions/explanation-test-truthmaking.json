@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATION-TEST-TRUTHMAKING",
+  "term": "privation-based truthmaking test",
+  "definition": "The test uses the existing q.48 conditionals: a due good is missing, this is evil under EvilIsPrivationReading, and evil in a subject makes the evil-exists sentence true in every practice under EvilIsAsPropositionalTruthReading. This is the adopted Catholic test condition, not an attribution of this account to quasi-realists or a claim that every evil is morally wrong.",
+  "basis": "stipulative",
+  "note": "The source readings themselves are independently recorded. Combining them with varying practices is an explicit test requirement to test explanatory-order independence, not a new source interpretation.",
+  "lean_declaration": "TruthCore.Metaethics.ExplanationOrder.SharedData"
+}

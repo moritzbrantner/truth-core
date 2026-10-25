@@ -1,1 +1,12 @@
-{"id": "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION", "paraphrase": "In some hearts the natural law was so corrupted that they thought good what is naturally evil, and that corruption needed correction."}
+{
+  "id": "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION",
+  "paraphrase": "In some hearts the natural law was so corrupted that they thought good what is naturally evil, and that corruption needed correction.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CorruptedNaturalLawNeedsCorrectionReading",
+  "definition_ids": [
+    "DEF-CORRECTION-NEEDED",
+    "DEF-NATURAL-LAW-MORAL-EVIL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-NEED-AND-CHANGE"
+  ]
+}

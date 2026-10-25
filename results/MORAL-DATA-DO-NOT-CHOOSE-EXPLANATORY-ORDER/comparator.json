@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.sharedDataDoNotChooseOrder"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

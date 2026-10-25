@@ -103,9 +103,11 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
 import TruthCore.Metaethics.AnswerMap
+import TruthCore.Metaethics.ExplanationOrder
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
@@ -299,6 +301,7 @@ import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustT
 import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth.Solution
+import TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution

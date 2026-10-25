@@ -1,1 +1,15 @@
-{"id": "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION", "statement_id": "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION", "source_id": "AQUINAS-ST", "locator": "I-II q.94 a.5 ad 1: lex naturae in aliquorum cordibus, quantum ad aliqua, corrupta erat intantum ut existimarent esse bona quae naturaliter sunt mala; et talis corruptio correctione indigebat", "interpretation": "The written law was given to correct the law of nature in this sense: in some hearts, in some respects, the natural law was so corrupted that they thought good what is naturally evil, and that corruption needed correction. Read as the Catholic answer to Q-MORAL-PROGRESS: a change of moral view can be the correction of an error.", "status": "formalized"}
+{
+  "id": "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION",
+  "statement_id": "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I-II q.94 a.5 ad 1: lex naturae in aliquorum cordibus, quantum ad aliqua, corrupta erat intantum ut existimarent esse bona quae naturaliter sunt mala; et talis corruptio correctione indigebat",
+  "interpretation": "The second of the source's alternative explanations of the written law's corrective role: in some hearts, in some respects, people thought good what is naturally evil and this corruption needed correction. The formalization asserts the existence of a person and matter so evaluated, naturally evil, and needing correction. It does not assert an accomplished correction or a chronology of improved belief. The predicates for believing good, being naturally evil and needing correction remain primitive; no theory of improvement is built into their names.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CORRECTION-NEEDED",
+    "DEF-NATURAL-LAW-MORAL-EVIL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-NEED-AND-CHANGE"
+  ]
+}

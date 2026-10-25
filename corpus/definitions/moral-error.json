@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MORAL-ERROR",
+  "term": "moral error, cognitive reading",
+  "definition": "A person accepts a moral sentence that is truth-apt and not true. This reuses Errs and SomeMoralError; need for correction is a separate predicate and no accomplished improvement is inferred.",
+  "basis": "stipulative",
+  "note": "The shared-question definition already used by the moral-error comparison. A source defining error could ground the stipulation; Aquinas q.94 a.4 supplies an instance rather than this general definition.",
+  "lean_declaration": "TruthCore.Metaethics.SomeMoralError"
+}

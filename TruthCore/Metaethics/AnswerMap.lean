@@ -12,7 +12,8 @@ not a distinct rival, and it inherits every commitment of realism, including
 realism's answer to the grounding question. So a mimic is a distinct rival only
 through some question where it deviates, and each deviation is a target.
 
-Matching is equivalence of the answers (`↔`), not identity: identity of
+Matching requires the same answer availability and, only where an answer is
+given, equivalence of the answers (`↔`), not identity: identity of
 propositions would need propositional extensionality, an axiom the results here
 do not use.
 -/
@@ -23,13 +24,15 @@ namespace TruthCore.Metaethics
 structure AnswerMap (Q : Type) where
   /-- The theory answers `q` (rather than leaving it unexplained). -/
   answers : Q → Prop
-  /-- The proposition the theory gives as its answer to `q`. -/
+  /-- The proposition the theory gives as its answer to `q`; ignored when
+  `answers q` does not hold. -/
   says : Q → Prop
 
 /-- `T` matches `R` on `q`: it answers `q` exactly when `R` does, and its
-answer is equivalent to `R`'s. -/
+answer is equivalent to `R`'s when it answers. Unused contents do not
+distinguish maps that both leave the question unexplained. -/
 def Matches {Q : Type} (T R : AnswerMap Q) (q : Q) : Prop :=
-  (T.answers q ↔ R.answers q) ∧ (T.says q ↔ R.says q)
+  (T.answers q ↔ R.answers q) ∧ (T.answers q → (T.says q ↔ R.says q))
 
 /-- `T` mimics `R`: it matches `R` on every shared question. -/
 def Mimics {Q : Type} (T R : AnswerMap Q) : Prop :=
@@ -50,5 +53,27 @@ other is committed to there, the grounding question included. -/
 def MimicCollapses : Prop :=
   ∀ (Q : Type) (T R : AnswerMap Q), Mimics T R →
     (∀ q, CommittedAt R q → CommittedAt T q) ∧ ¬ DistinctRival T R
+
+end TruthCore.Metaethics
+
+namespace TruthCore.Metaethics
+
+/-- Regression: differing unused contents do not distinguish two unanswered maps. -/
+example : Matches
+    (⟨fun _ : Unit => False, fun _ => True⟩ : AnswerMap Unit)
+    (⟨fun _ : Unit => False, fun _ => False⟩ : AnswerMap Unit) () :=
+  ⟨Iff.rfl, fun hAnswered => hAnswered.elim⟩
+
+/-- Regression: differing contents still distinguish answered questions. -/
+example : ¬ Matches
+    (⟨fun _ : Unit => True, fun _ => True⟩ : AnswerMap Unit)
+    (⟨fun _ : Unit => True, fun _ => False⟩ : AnswerMap Unit) () :=
+  fun h => (h.2 trivial).mp trivial
+
+/-- Regression: answering a question differs from leaving it unexplained. -/
+example : ¬ Matches
+    (⟨fun _ : Unit => True, fun _ => True⟩ : AnswerMap Unit)
+    (⟨fun _ : Unit => False, fun _ => True⟩ : AnswerMap Unit) () :=
+  fun h => h.1.mp trivial
 
 end TruthCore.Metaethics
