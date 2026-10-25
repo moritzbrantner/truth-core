@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-DOMAIN",
+  "term": "admissible proposition domain",
+  "definition": "An explicit subset of World \u2192 Prop. allPredicates admits every predicate including equality with the root; expressible admits exactly denotations of Formula under a fixed frame and valuation; corpusDomain admits only the supplied indexed inventory. The inventory is a caller parameter, not an automatic claim that the corpus is complete. Negation closure, when explicitly required, means D P implies D (fun w => \u00ac P w); it is not built into Domain.",
+  "basis": "stipulative",
+  "note": "Repository-native mathematical fixture requested in #261. No historical attribution or metaphysical endorsement; source-based adoption requires a separate witnessed reading.",
+  "lean_declaration": "TruthCore.Modal.ResearchFixture.Domain"
+}

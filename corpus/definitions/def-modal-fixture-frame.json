@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-FIXTURE-FRAME",
+  "term": "worlds, accessibility and truth at a world",
+  "definition": "A world is an element of the supplied type W; the mathematical fixture assigns no metaphysical interpretation to it. Frame W supplies only a relation access : W \u2192 W \u2192 Prop. MProp W is W \u2192 Prop, so truth of P at w is P w. Box F P w means \u2200 v, F.access w v \u2192 P v; Formula/Holds interpret the fixed syntax with a separately supplied atomic valuation. No frame property, inhabitedness or complete-proposition interpretation is implicit.",
+  "basis": "stipulative",
+  "note": "Reuses the existing Modal.Frame and Scott modal embedding for #261; no new source claim or ontology.",
+  "lean_declaration": "TruthCore.Modal.Frame"
+}
