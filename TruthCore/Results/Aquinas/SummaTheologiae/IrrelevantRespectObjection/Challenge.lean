@@ -6,14 +6,4 @@ theorem irrelevantRespectObjectionLeavesStrongStanding
     (hStrong : StrongReadingYieldsUnmovedMover) :
     IrrelevantRespectObjectionLeavesStrongStanding := by
   sorry
-theorem strongPremisesCompatibleWithIrrelevantRespectObjection :
-    StrongPremisesCompatibleWithIrrelevantRespectObjection := by
-  sorry
-theorem irrelevantRespectObjectionExposesWeakGap :
-    IrrelevantRespectObjectionExposesWeakGap := by
-  sorry
-theorem strongPremisesEntailWeakPremises : StrongPremisesEntailWeakPremises := by
-  sorry
-theorem absoluteConclusionEntailsRelative : AbsoluteConclusionEntailsRelative := by
-  sorry
 end TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection
