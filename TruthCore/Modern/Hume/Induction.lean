@@ -71,6 +71,8 @@ inductive Verdict where
 /-- Separate practical reliance, reasoning-based foundation, and entitlement.
 `entitled` is the critic's normative predicate, not Hume's mere confidence. -/
 structure Assessment where
+  /-- Practical reliance offered as rational by the assessed position, rather
+  than every involuntary expectation or arbitrary action. -/
   relies : Topic → Bool
   reasonFounded : Topic → Bool
   verdict : Topic → Verdict
@@ -79,7 +81,7 @@ structure Assessment where
 def StrongSkeptic (a : Assessment) : Prop :=
   ∀ q, a.verdict q = .withheld
 
-/-- Open bridge: practical reliance requires epistemic entitlement. -/
+/-- Open bridge: practical reliance offered as rational requires epistemic entitlement. -/
 def RelianceRequiresEntitlement (a : Assessment) : Prop :=
   ∀ q, a.relies q = true → a.verdict q = .entitled
 

@@ -7,7 +7,8 @@
   "status": "formalized",
   "definition_ids": [
     "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-PERSISTENCE"
+    "DEF-HUME-INDUCTION-PERSISTENCE",
+    "DEF-HUME-INDUCTION-ASSOCIATION"
   ],
   "disambiguation_ids": [
     "DISAMB-HUME-INDUCTION-REASON-PRACTICE"

@@ -1,7 +1,7 @@
 {
   "id": "DEF-HUME-INDUCTION-PRACTICE",
   "term": "practical reliance versus rational certification",
-  "definition": "Assessment independently records practical reliance, a reasoning-based foundation, and epistemic verdict. RelianceRequiresEntitlement is the open normative bridge from reliance to entitlement, including the habit, prediction and intervention topics. CertifiesHabit positively certifies the habit forecast. These do not follow merely from observed habitual action.",
+  "definition": "Assessment independently records practical reliance offered as rational, a reasoning-based foundation, and epistemic verdict. RelianceRequiresEntitlement is the open normative bridge from reliance to entitlement, including the habit, prediction and intervention topics. CertifiesHabit positively certifies the habit forecast. These do not follow merely from observed habitual action.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.Assessment",
   "note": "Bounded analytical vocabulary for #269. This definition fixes test semantics; source endorsement or normative adequacy is not established by naming it."

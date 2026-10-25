@@ -1,7 +1,7 @@
 # Hume: induction, habit and practical action
 
 This is the bounded #269 contribution to #247. Its verdict is **consistent but
-challenged** for Hume's limited skeptical account; the normative dispute remains
+challenged** for the bounded practical/epistemic reconstruction; the normative dispute remains
 **unresolved**. The strong entitlement-denying reconstruction is conditionally
 incompatible with added certification/entitlement premises. That is not a
 verified refutation of historical Hume. Nothing here assumes Thomism, sufficient
@@ -84,8 +84,10 @@ contradiction from E V.2 alone.
 
 ### Rational success of prediction and intervention
 
-The strongest candidate combines actual reliance, successful means-end practice,
-and the norm that rational reliance requires entitlement. It presses the
+The strongest candidate combines reliance offered as rational, successful means-end practice,
+and the norm that rational reliance requires entitlement. `Assessment.relies`
+is scoped to reliance offered as rational, rather than every involuntary
+expectation or arbitrary action; that endorsement is an open premise. It presses the
 adequacy of habit as an account of rational success, rather than pointing out
 that Hume eats bread. E IV.21 already concedes the practical point, while
 E V.6 and V.21 explicitly connect custom to means-end adjustment and observed
