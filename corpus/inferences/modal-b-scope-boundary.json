@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-SCOPE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-SCOPE-BOUNDARY",
+  "rule": "direct-proof",
+  "meaning": "Reuse the established duplicate-language proofs and branch countermodel. Apply shared extensional separation at a collapsed witness along the symmetric back-edge, then compose the K full-successor theorem and transport by equality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

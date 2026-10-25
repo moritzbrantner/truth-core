@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.B.DisconnectedScope.Challenge",
+  "solution_module": "TruthCore.Results.Modal.B.DisconnectedScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.B.DisconnectedScope.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

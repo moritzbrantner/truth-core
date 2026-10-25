@@ -1,0 +1,24 @@
+{
+  "id": "STMT-MODAL-B-LAWS",
+  "paraphrase": "Symmetry propagates possible full-predicate modal collapse to the root, with neither reflexivity nor transitivity needed for that direction. More locally, a back-edge from a collapsed witness v to w and admissibility of identity at v imply w=v. On reflexive symmetric frames actual, possible and necessary full collapse are equivalent.",
+  "lean_declaration": "TruthCore.Modal.BResearch.Laws",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}

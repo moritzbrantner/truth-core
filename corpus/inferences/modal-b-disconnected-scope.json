@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-B-DISCONNECTED-SCOPE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-B-DISCONNECTED-SCOPE",
+  "rule": "direct-proof",
+  "meaning": "Check the separated edge table by constructor cases, compose K full-collapse successor identity at left, and give middle/right positive/negative witnesses at middle. Keep the roots distinct throughout.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

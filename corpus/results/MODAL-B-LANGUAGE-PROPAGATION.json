@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-B-LANGUAGE-PROPAGATION",
+  "argument_id": "MODAL-B-LANGUAGE-PROPAGATION",
+  "challenge_module": "TruthCore.Results.Modal.B.LanguagePropagation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.B.LanguagePropagation.Solution",
+  "theorem": "TruthCore.Results.Modal.B.LanguagePropagation.checks",
+  "comparator_config": "results/MODAL-B-LANGUAGE-PROPAGATION/comparator.json",
+  "status": "solution-present"
+}

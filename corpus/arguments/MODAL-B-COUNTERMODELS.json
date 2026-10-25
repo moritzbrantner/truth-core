@@ -1,0 +1,28 @@
+{
+  "id": "MODAL-B-COUNTERMODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-B-COUNTERMODELS",
+  "inference_ids": [
+    "INF-MODAL-B-COUNTERMODELS"
+  ],
+  "meaning": "Issue #266 stipulated mathematical result, not Hume attribution, a metaphysical possibility claim, or Catholic-case frontier closure. Check each finite edge and atom by constructor cases. Compose the K full-collapse characterization, use p or Box p or not-p to reject modal-language MC, and exhibit the inventory counterexample using left and right witnesses.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-MODAL-B-FRAME",
+    "DEF-MODAL-B-CHAIN",
+    "DEF-MODAL-B-INVENTORY",
+    "DEF-MODAL-B-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+  ]
+}
