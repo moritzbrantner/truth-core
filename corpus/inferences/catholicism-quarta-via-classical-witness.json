@@ -1,0 +1,31 @@
+{
+  "id": "INF-CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "input_statement_ids": [
+    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+    "STMT-GOD-IS-ONE",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+  ],
+  "output_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+  "rule": "verified-result",
+  "meaning": "Choose the maximal witness supplied by the existing Fourth-Way inference. Full-description naming and the imported pointwise attribute proofs apply to this same maximum. The existing GodIsOne inference supplies uniqueness of all IsGod instances from its explicit converse premise, rather than confusing unique maximum with unique God. Then apply the unchanged ClassicalAttributesSuffice bridge. Philosophical premises remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

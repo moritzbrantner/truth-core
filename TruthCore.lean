@@ -312,6 +312,8 @@ import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution

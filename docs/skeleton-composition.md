@@ -79,3 +79,49 @@ revelation, the historical stages 4–6, and the teaching-authority bridges. The
 historical end is still the skeleton's structural transcription; composing it
 does not verify source fidelity, premise truth or the Catholic conclusion
 unconditionally.
+
+
+## A distinct Fourth-Way alternative
+
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES` is an alternative,
+not the selected `root_route`. It imports `QuartaVia.quartaVia` to obtain the
+maximal being directly from its four existing premises: actual grades,
+approach to a maximum, maximal truth implying maximal being, and the
+maximum-in-a-genus causal principle. No maximum-existence assumption is hidden
+in a definition. `CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS` applies the existing
+full-description naming theorem and the same nine pointwise attribute results
+to that maximum. The root imports `Skeleton.catholicismSkeleton`, using the
+witness's uniqueness to transport its attributes to all `IsGod` instances.
+
+The exact listed hypothesis set is a subset of the First-Way composition's:
+30 rather than 38, with no added premise. The omitted inputs are:
+
+- `STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD`
+- `STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY`
+- `STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT`
+- `STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER`
+- `STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED`
+- `STMT-NO-INFINITE-PER-SE-MOVER-SERIES`
+- `STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT`
+- `STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD`
+
+This compares sufficient premise sets; it does not establish logical
+independence of every omitted premise. In particular, the general excluded
+middle principle remains, as do noncontradiction of act/potency, act's simple
+priority to potency, and the other Stage2 metaphysical premises. The
+Fourth-Way maximum and causality principles remain substantive open commitments.
+The original `GodIsMaximalInBeing` premise still supplies uniqueness of every
+`IsGod` instance; a unique maximum alone is insufficient. Revelation, historical
+stages and authority bridges remain open, and the historical end remains a
+structural transcription.
+
+The checked default frontier remains **37 open: 4 bare, 33 sourced**. Applying
+the existing frontier algorithm to an in-memory alternative-route selection
+(no repository route mutation) gives **29 open: 4 bare, 25 sourced**. It adds
+no open premise and omits the six motion/identification inputs listed above
+other than the two proved intermediates, plus
+`STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` and
+`STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK`. Those two were the open inputs
+behind the mover no-regress theorem. This is an alternative argument with fewer
+listed commitments, not closure of those eight premises or replacement of the
+owner-designated First-Way route.
