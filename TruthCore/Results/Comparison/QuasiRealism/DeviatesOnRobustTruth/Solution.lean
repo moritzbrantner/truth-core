@@ -24,21 +24,21 @@ theorem quasiRealismDeviatesOnRobustTruth {Sentence : Type}
 
 /-! ## In answer-map terms -/
 
-/-- Any answer maps that give these answers to some question `q` do not match
-there, so the quasi-realist map is a distinct rival to the realist one, and by
+/-- If the quasi-realist map answers `q`, maps giving these contents do not match
+there (a matching realist map would also have to answer), so the quasi-realist map is a distinct rival to the realist one, and by
 the collapse lemma (`MIMIC-THEORY-COLLAPSES`) it escapes collapse through this
 deviation. -/
 theorem quasiRealistMapIsDistinctRival {Sentence Q : Type}
     (Moral TruthApt RobustlyTruthApt : Sentence → Prop) (p : Sentence)
     (hQuasiRealism : QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt)
     (hMoral : GeachMinorPremiseIsMoralReading Moral p)
-    (T R : AnswerMap Q) (q : Q)
+    (T R : AnswerMap Q) (q : Q) (hAnswered : T.answers q)
     (hT : T.says q ↔ QuasiRealistMinimalTruthAptReading Moral TruthApt RobustlyTruthApt)
     (hR : R.says q ↔ RealistRobustTruthAptReading Moral RobustlyTruthApt) :
     DistinctRival T R :=
   ⟨q, fun hMatches =>
     quasiRealismDeviatesOnRobustTruth Moral TruthApt RobustlyTruthApt p hQuasiRealism hMoral
-      ⟨fun h => hR.mp (hMatches.2.mp (hT.mpr h)), fun h => hT.mp (hMatches.2.mpr (hR.mpr h))⟩⟩
+      ⟨fun h => hR.mp ((hMatches.2 hAnswered).mp (hT.mpr h)), fun h => hT.mp ((hMatches.2 hAnswered).mpr (hR.mpr h))⟩⟩
 
 /-! ## Countermodels -/
 
