@@ -1,0 +1,12 @@
+{
+  "id": "DEF-REMOTE-FROM-ALL",
+  "term": "remote from all (remotum ab omnibus; Lean `RemoteFromAll`)",
+  "definition": "`RemoteFromAll ComponentOf m`: m enters into the composition of nothing, as neither part, matter nor form of anything (`∀ x, ¬ ComponentOf m x`). This is the case's reading of the third condition in q.13 a.8 ad 2's description of what the name 'God' signifies, taken through q.3 a.8, the article that denies God any composition with other things.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q13-A8-AD2-GOD-NAMES-PRINCIPLE-ABOVE-ALL-A",
+    "AQUINAS-ST-I-Q3-A8-NO-COMPONENT-FIRST-IN-BEING"
+  ],
+  "lean_declaration": "TruthCore.Case.Catholicism.RemoteFromAll",
+  "note": "A reading choice, not a source definition: q.13 a.8 ad 2 says 'remotum ab omnibus' without defining it, and reading it as exclusion from composition is the case's. Other readings are possible and are not excluded by this one, in particular transcendence of every genus (q.3 a.5), which this corpus does not formalize. The designated route needs only this one: remoteness is derived from q.3 a.8's exclusion of components from being simply first (STMT-NO-COMPONENT-IS-FIRST-BEING) and the open bridge STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING."
+}
