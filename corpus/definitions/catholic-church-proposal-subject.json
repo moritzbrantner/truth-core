@@ -1,11 +1,11 @@
 {
   "id": "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
   "term": "Catholic Church (subject of doctrinal proposal)",
-  "definition": "The institutional Church whose binding teaching office is exercised by the Roman Pontiff and the bishops collectively in communion with him, through council or ordinary-universal teaching, rather than any assertion by a member or office-holder. This is the subject of the CDF classification, used for the skeleton’s named Catholic society.",
+  "definition": "The institutional Church whose binding teaching office is exercised by the Roman Pontiff and the College of Bishops in communion with him, rather than any assertion by a member or office-holder. For definitive doctrinal proposal, the specified modes include the Roman Pontiff speaking ex cathedra, the College of Bishops gathered in council, and the ordinary and universal magisterium of bishops dispersed throughout the world in communion with the Pope. This is the subject of the CDF classification, used for the skeleton’s named Catholic society.",
   "basis": "sourced",
   "claim_ids": [
     "CDF-1998-CREED-PROPOSED-AS-REVEALED"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.Signature.catholicChurch",
-  "note": "The source distinction is Doctrinal Commentary nn. 4 and 9. The classification is consulted as evidence of the Church’s proposal status; publication by the CDF is not thereby called a new solemn definition. This does not identify the modern society with the Church founded by Christ or establish divine authority; those remain separate skeleton premises."
+  "note": "The source distinction is Doctrinal Commentary nn. 4–5 and 9. The classification is consulted as evidence of the Church’s proposal status; publication by the CDF is not thereby called a new solemn definition. This does not identify the modern society with the Church founded by Christ or establish divine authority; those remain separate skeleton premises."
 }
