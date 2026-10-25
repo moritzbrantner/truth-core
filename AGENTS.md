@@ -115,6 +115,7 @@ When statements are meant to support a conclusion:
 - add a `corpus/arguments/*.json` record composing those steps;
 - add `Challenge.lean` containing the exact advertised theorem with `sorry`;
 - add a separate `Solution.lean` containing the same theorem and a real proof;
+- run `scripts/root-imports.sh --write` so `TruthCore.lean` imports every new module (except `Challenge.lean`) in sorted order;
 - add a `corpus/results/*.json` verification record that points to the argument;
 - add a Comparator JSON config naming the theorem and permitted axioms.
 
