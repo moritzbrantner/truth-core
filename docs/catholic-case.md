@@ -39,6 +39,9 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 | 2026-10-24 | **Relocation counts as progress** when every new premise is sourced and shown necessary by a countermodel. The frontier distinguishes *bare* from *sourced but undefended* premises. Drive bare premises to zero first. | #143, #175 |
 | 2026-10-24 | `STMT-MAXIME-ENS-IS-GOD` is to be closed via the **uniqueness of the maximum in being** plus an explicit, sourced nominal definition. | #143 |
 | 2026-10-24 | Intuitionist withholding of excluded middle: first Aristotle's remaining *Metaphysics* IV.7 arguments, then intuitionism as a complete rival worldview. | #143, #174 |
+| 2026-10-24 | Root path: a `root_route` relation (argument → statement) designates the one argument through which `frontier --reaching-root` enters the root. | #143 |
+| 2026-10-24 | Discharge of `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`: support **both** versions side by side, (a) proving the fuller description and (b) defending the reduced one. **Each statement has its own unique ID**; `corpus.py check` enforces one statement per Lean declaration. | #143 |
+| 2026-10-24 | Third Way: the eternal-world hypothesis plus the finite-past horn (SCG I.13), and a `supports` relation for `STMT-PAST-IS-INFINITE`. Fifth Way: ST I q.103 plus a regress of directors. | #143 |
 
 ## Modeling decisions worth knowing
 

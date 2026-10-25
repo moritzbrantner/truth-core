@@ -153,6 +153,20 @@ class FrontierReportTest(unittest.TestCase):
             corpus.format_frontier(report),
         )
 
+    def test_root_route_admits_only_the_designated_argument(self) -> None:
+        # #143, 2026-10-24: a second argument for ROOT from SIDE gives SIDE a
+        # path to the root, until a root_route designates ARG-ROOT alone.
+        arguments = [*ARGUMENTS, argument("ARG-ROOT-2", ["SIDE"], "ROOT")]
+        report = corpus.frontier_report(STATEMENTS, arguments, RESULTS, [], root="ROOT")
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["SIDE"]["path_to_root"], ["SIDE", "ARG-ROOT-2", "ROOT"])
+        routed = [relation("argument", "ARG-ROOT", "root_route", "ROOT")]
+        report = corpus.frontier_report(STATEMENTS, arguments, RESULTS, routed, root="ROOT")
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertIsNone(items["SIDE"]["path_to_root"])
+        self.assertEqual(items["SIDE"]["transitive_dependent_arguments"], ["ARG-ROOT-2", "ARG-SIDE"])
+        self.assertEqual(items["OPEN-B"]["path_to_root"], ["OPEN-B", "ARG-ROOT", "ROOT"])
+
     def test_shared_parity_fixture(self) -> None:
         # Same fixture as apps/corpus-explorer/src/lib/proposition-graph.test.ts.
         fixture = json.loads(PARITY_FIXTURE.read_text(encoding="utf-8"))
@@ -271,6 +285,9 @@ class FrontierSchemaTest(unittest.TestCase):
         corpus.validate_premise_program_relation(path, relation("claim", "C", "supports", "S"))
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_premise_program_relation(path, relation("statement", "A", "supports", "S"))
+        corpus.validate_premise_program_relation(path, relation("argument", "A", "root_route", "S"))
+        with self.assertRaises(corpus.CorpusError):
+            corpus.validate_premise_program_relation(path, relation("claim", "C", "root_route", "S"))
 
 
 class TranscriptionHeuristicTest(unittest.TestCase):
@@ -312,7 +329,11 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertTrue(report["root_known"])
         ids = {item["statement_id"] for item in report["items"]}
         self.assertIn("STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", ids)
-        self.assertIn("STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD", ids)
+        # The designated root route (root_route, #143 2026-10-24) takes stage 1
+        # through the fuller nominal definition, so the bare identification
+        # premise of the other routes no longer reaches the root.
+        self.assertIn("STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", ids)
+        self.assertNotIn("STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD", ids)
         # Stage 1 and the prima via conclusion are conclusions of verified results.
         self.assertNotIn("STMT-GOD-EXISTS", ids)
         self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)

@@ -87,8 +87,10 @@ being of all others" (principle of all). It drops *remotum ab omnibus* and the
 causation of goodness and every perfection. Dropping conjuncts from the antecedent
 of a sufficient description strengthens it, so this premise asserts that the
 reduced description already suffices for the name to apply. The two passages
-support it (`supports` relations) without stating it. To discharge it, show that
-the unique maximum in being also has the omitted properties.
+support it (`supports` relations) without stating it. Version (b) of its
+discharge (`AQUINAS-REDUCED-DESCRIPTION-OF-GOD-SUFFICES`) shows that the unique
+maximum in being also has the omitted properties, and so derives it from the
+fuller `GodNamesTheFullyDescribedPrinciple` below.
 
 The uniqueness clause reads the singular *hoc* / *aliquid … quod est principium
 omnium* as a definite description that applies only when exactly one being fits.
@@ -101,6 +103,84 @@ def GodNamesTheUniqueMaximeEns {Being : Sort v} {Respect : Sort w}
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
     (God : Being → Prop) : Prop :=
   ∀ m, IsMaximumIn InAct MoreIn esse m → CausesAllInGenus InAct CausesIn esse m →
+    (∀ m', IsMaximumIn InAct MoreIn esse m' → m' = m) → God m
+
+/-! ## The fuller description (owner decision on #143, 2026-10-24)
+
+Two versions of the nominal definition are kept side by side, each its own
+statement: the reduced `GodNamesTheUniqueMaximeEns` above
+(`STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`) and the fuller
+`GodNamesTheFullyDescribedPrinciple` below
+(`STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`), which keeps every condition
+the sources give. Version (a) proves that the unique maximum in being meets the
+fuller description (`AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION`).
+Version (b) defends the reduced one: given the fuller definition, the reduced
+description already suffices (`AQUINAS-REDUCED-DESCRIPTION-OF-GOD-SUFFICES`). -/
+
+/-- `c` causes every perfection of every other being: whatever another being
+is in act in, `c` causes it to be so (*causa ... bonitatis, et cuiuslibet
+perfectionis*, quarta via; *omnes perfectiones desideratae effluunt ab eo,
+sicut a prima causa*, q.6 a.2). Like `CausesAllInGenus`, it leaves `c` itself
+out. -/
+def CausesEveryPerfectionOfOthers {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (c : Being) : Prop :=
+  ∀ x r, x ≠ c → InAct x r → CausesIn c x r
+
+/-- `m` is remote from all (*remotum ab omnibus*, q.13 a.8 ad 2): it enters into
+the composition of nothing, as neither part, matter nor form of anything (q.3
+a.8). This reads the way of remotion through q.3 a.8, the article that denies
+God any composition with other things. Other readings of *remotum* (for
+example, transcendence of every genus, q.3 a.5) are possible and are not
+excluded by this one. -/
+def RemoteFromAll {Being : Sort v} (ComponentOf : Being → Being → Prop) (m : Being) : Prop :=
+  ∀ x, ¬ ComponentOf m x
+
+/-- Whatever is maximal in being is the first being: nothing other than it is
+simply prior to it (q.3 a.1's `IsFirstBeing`). Open bridge between the *quarta
+via*'s maximality and q.3's simple priority (Codex P1 on #194: q.3 a.8 itself
+speaks of simple priority, not maximality). It is supported, not stated, by q.3
+a.8's *Deus est primum ens simpliciter* and by SCG I.16 [3] (God is the first
+being). -/
+def MaximumInBeingIsFirstBeing {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect)
+    (PriorSimply : Being → Being → Prop) : Prop :=
+  ∀ m, IsMaximumIn InAct MoreIn esse m →
+    TruthCore.Latin.Aquinas.SummaTheologiae.IsFirstBeing PriorSimply m
+
+/-- The cause of a thing's being causes each of its perfections: if `c` causes
+`x`'s being and `x` is in act in `r`, then `c` causes `x`'s being in act in `r`.
+Open premise. It is supported, not stated, by q.4 a.2 (every perfection of a
+thing pertains to its perfection of being: *secundum hoc enim aliqua perfecta
+sunt, quod aliquo modo esse habent*) and q.6 a.2 (all perfections flow from God
+as from their first cause). -/
+def CauseOfBeingCausesEveryPerfection {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect) : Prop :=
+  ∀ c x r, CausesIn c x esse → InAct x r → CausesIn c x r
+
+/-- The fuller nominal definition: the name "God" applies to the only being
+that is maximal in being (*supra omnia existens*), causes the being of every
+other being (*principium omnium*), causes every perfection of every other being
+(*causa ... cuiuslibet perfectionis*, quarta via) and enters into the
+composition of nothing (*remotum ab omnibus*). Open premise, but closer to the
+sources than `GodNamesTheUniqueMaximeEns`: it drops none of the conditions of
+q.13 a.8 ad 2 and *et hoc dicimus Deum*, so it is weaker.
+
+As in the reduced version, the uniqueness clause reads the singular as a
+definite description. The definition fixes what the name signifies (q.2 a.2
+ad 2), so a being that meets it is God in the proper sense of the name, not
+merely called God: it is through this premise that the *Summa*'s God and the
+skeleton's `IsGod` are the same predicate in the stage-1 route
+`CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION`. -/
+def GodNamesTheFullyDescribedPrinciple {Being : Sort v} {Respect : Sort w}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
+    (ComponentOf : Being → Being → Prop) (God : Being → Prop) : Prop :=
+  ∀ m, IsMaximumIn InAct MoreIn esse m → CausesAllInGenus InAct CausesIn esse m →
+    CausesEveryPerfectionOfOthers InAct CausesIn m → RemoteFromAll ComponentOf m →
     (∀ m', IsMaximumIn InAct MoreIn esse m' → m' = m) → God m
 
 end TruthCore.Case.Catholicism
