@@ -1,0 +1,19 @@
+{
+  "id": "STMT-SINGLE-INSTANCE-SHOWS-SUCCESSION-NOT-TIE",
+  "paraphrase": "In a single observed operation Hume says outward senses present succession, not the binding power making the effect infallible. This is a claim about what is presented, not a claim that no productive power exists or that any event can occur arbitrarily.",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

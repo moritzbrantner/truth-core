@@ -1,0 +1,9 @@
+{
+  "id": "INF-HUME-REGULARITY-MODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HUME-REGULARITY-MODELS",
+  "rule": "direct-proof",
+  "meaning": "Supply the fork, forward chain and scoped brute models and directly check every conjunct of their respective bundles. No observational-sufficiency claim is part of BareObservational; its stronger proposed sufficiency inference is separately refuted by Checks.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

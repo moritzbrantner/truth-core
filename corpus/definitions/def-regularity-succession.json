@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-SUCCESSION",
+  "term": "Hume first causal definition: similarity and succession",
+  "definition": "RegularCause(a,b) requires a to be followed by b and every object similar to a to be followed by an object similar to b. Similarity and succession remain explicit interpretation parameters; this is the first VII.29 definition, not an identity with intervention efficacy or a complete ontology of production.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.RegularCause"
+}

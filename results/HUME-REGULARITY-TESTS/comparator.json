@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Hume.Regularity.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Hume.Regularity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Hume.Regularity.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "source_url": "https://joelvelasco.net/teaching/3865/lewis%2094%20-%20humean%20supervenience%20debugged.pdf",
+    "retrieved_at": "2026-10-25T14:15:31Z",
+    "sha256": "sha256:9e16bdd43c79e7e1e249c1639d34c9a38b019bf09e349bd1a98c130f341f5d04",
+    "kind": "web_snapshot",
+    "source_id": "LEWIS-HUMEAN-SUPERVENIENCE",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright held by author/publisher; publicly accessible primary paper. No redistribution license asserted. Only hashes, locators and short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "LEWIS-HUMEAN-SUPERVENIENCE",
+      "locator": "pp. 473\u2013490",
+      "claim_locator_prefixes": [
+        "pp."
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 18
+      },
+      "text_sha256": "sha256:4225bbc7e071210a1f4db131d0b92a4953c1bafe39a1a3ff123e3a1634db4927",
+      "incipit": "Mind Association Humean Supervenience Debugged Author(s): David Lewis Source:"
+    }
+  ]
+}
