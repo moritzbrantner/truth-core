@@ -1,4 +1,5 @@
 import TruthCore.Case.Catholicism.FoundingIndependence
+import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Case.Catholicism.StageOneBridges
@@ -325,6 +326,7 @@ import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution
 import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
 import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution

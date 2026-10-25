@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q10-A3-PROPER-PARTICIPATED-ETERNITY",
+  "statement_id": "STMT-PROPER-AND-PARTICIPATED-ETERNITY-DIFFER",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.10 a.3 co. and ad 2: aeternitas vere et proprie in solo Deo est",
+  "interpretation": "This records the article's distinctions, not a new proof that only God is eternal. Scriptural extended uses and participated stability do not by themselves instantiate the primitive proper Eternal predicate.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ETERNAL",
+    "DEF-PARTICIPATED-ETERNITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

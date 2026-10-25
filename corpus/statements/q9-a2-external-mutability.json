@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER",
+  "paraphrase": "Aquinas distinguishes mutability through potency in a subject from mutability through potency in another. All creatures depend on the creator continually giving esse and could cease if that action were withdrawn.",
+  "definition_ids": [
+    "DEF-MUTABILITY-IN-ANOTHER",
+    "DEF-POTENCY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MUTABILITY-CHANNEL"
+  ]
+}

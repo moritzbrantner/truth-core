@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "statement_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.4 co., first proof: illud cuius esse est aliud ab essentia sua",
+  "interpretation": "The direction is distinct esse/essence implies an external cause. Its converse and the inverse claim that essence=esse excludes every external cause are not asserted. The application invokes God as first efficient cause; it does not define first cause by essence=esse.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-BEING"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q10-A5-AEVUM-ADJUNCT-CHANGE",
+  "statement_id": "STMT-AEVUM-INTERNAL-STABILITY-COMPATIBLE-WITH-ADJUNCT-CHANGE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.10 a.5 co., ad 2 and ad 3: aevum est totum simul",
+  "interpretation": "Internal substantial stability is distinguished from adjunct changes of operation or location and from annihilation by the creator. This does not identify eternity with aevum or treat an already existing subject's intrinsic transition as the mechanism of creation or annihilation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ETERNAL",
+    "DEF-AEVUM",
+    "DEF-MUTABILITY-IN-ANOTHER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE",
+    "DISAMB-MUTABILITY-CHANNEL"
+  ]
+}

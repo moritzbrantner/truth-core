@@ -1,0 +1,28 @@
+{
+  "id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "premise_statement_ids": [
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-MOST-TRUE-IS-MOST-BEING",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-QUARTA-VIA",
+    "INF-MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+    "INF-QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE"
+  ],
+  "meaning": "Import quartaVia to obtain the same maximum that causes the being of every other being, then apply causal-comparison exclusion to that witness. No new maximum-existence premise or root wrapper is added. The result advances the external-cause subproblem; sustaining-dependence and eternity recognition remain open.",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ONTOLOGICAL-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING",
+    "DISAMB-TRUE"
+  ]
+}
