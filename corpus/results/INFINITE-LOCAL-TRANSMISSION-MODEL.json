@@ -1,0 +1,9 @@
+{
+  "id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "argument_id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "challenge_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Solution",
+  "theorem": "TruthCore.Results.Causality.InfiniteLocalTransmission.infiniteLocalTransmission",
+  "comparator_config": "results/INFINITE-LOCAL-TRANSMISSION-MODEL/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "inference_ids": ["INF-GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE"],
+  "meaning": "Constructively proves a contradiction for one precisely stipulated infinite Grim Reaper action schedule. A causal-finitism conclusion requires an independent transfer principle relating actual infinite per se causal chains to this action schedule.",
+  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE"]
+}

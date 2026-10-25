@@ -1,0 +1,9 @@
+{
+  "id": "INF-GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "rule": "constructive-contradiction",
+  "meaning": "If any Reaper acts, the stipulated rule forces its successor to act and forbids that successor; so none acts. But if none acts, the lowest-index Reaper must act. Both arguments use the same no-first sequence and its if-and-only-if rule.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

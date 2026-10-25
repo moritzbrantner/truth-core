@@ -1,0 +1,6 @@
+{
+  "id": "STMT-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "paraphrase": "Three Reapers ordered by their deadlines can satisfy the same firing rule: the earliest one acts, and the other two do not.",
+  "lean_declaration": "TruthCore.Causality.ConsistentFiniteThreeReapers",
+  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE"]
+}

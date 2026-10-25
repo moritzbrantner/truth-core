@@ -1,0 +1,6 @@
+{
+  "id": "STMT-GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "paraphrase": "No infinite no-first-deadline sequence of binary Reaper actions can obey the stipulated rule that each acts exactly when no earlier-deadline Reaper acts.",
+  "lean_declaration": "TruthCore.Causality.NoFirstGrimReaperSchedule",
+  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE"]
+}

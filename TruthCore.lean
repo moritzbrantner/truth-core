@@ -6,6 +6,8 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Case.Catholicism.StagesOneTwo
+import TruthCore.Causality.GrimReaper
+import TruthCore.Causality.LocalTransmission
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
@@ -329,6 +331,9 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
+import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
+import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution
