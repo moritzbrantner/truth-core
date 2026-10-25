@@ -1,0 +1,9 @@
+{
+  "id": "REL-PILOT-CONFLICTING-OPINIONS-TEST-ATTACK",
+  "subject_kind": "argument",
+  "subject_id": "PILOT-CONFLICTING-OPINIONS-TEST",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-ALL-OPINIONS-TRUE-UNINDEXED",
+  "basis": "Conditional on conflicting opinions and the separately open expressed-negation bridge. An attack, not an unconditional refutation of the target or of indexed relativity."
+}

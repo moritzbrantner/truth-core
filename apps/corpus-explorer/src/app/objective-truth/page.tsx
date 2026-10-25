@@ -18,6 +18,12 @@ export default function ObjectiveTruthPage() {
   const corpus = getCorpus();
   const report = getFrontierReport();
   const scenarios = getPilotScenarios();
+  const logicalIds = PILOT_GROUPS[0].statementIds;
+  const logicalNames = new Map([[logicalIds[0], "A"], [logicalIds[1], "B"]]);
+  const establishedNames = (ids: readonly string[]) => logicalIds
+    .filter((id) => ids.includes(id))
+    .map((id) => logicalNames.get(id) ?? id)
+    .join(" and ") || "Neither";
   const bridgeIds = new Set(["STMT-PILOT-LOGICAL-SENTENCE-STABLE", "STMT-PILOT-NEGATION-RESPECTED"]);
   const obligations = report.items.filter((item) => bridgeIds.has(item.statement_id));
   const candidates = corpus.candidates.filter((item) => item.id === "OBJECTIVE-TRUTH-PROFILE-STABILITY-BRIDGE" || item.id === "RELATIVISM-GLOBAL-LOCAL-EPISTEMIC-WITNESSES");
@@ -60,6 +66,7 @@ export default function ObjectiveTruthPage() {
           A is ∃ P : Prop, P; B is ¬ (∀ P : Prop, ¬ P). The two verified implications preserve their distinct IDs.
           The comparison reuses the same statements and arrows with different available result records.
           A cycle of conditional results alone establishes neither proposition; a premise-free proof grounds the cluster.
+          These rows compare evidence projections, not alternative truth values or claims that an existing proof has ceased to exist.
         </p>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full text-left text-sm">
@@ -69,7 +76,7 @@ export default function ObjectiveTruthPage() {
               <tr className="border-t border-[var(--line)]" key={scenario.id}>
                 <td className="py-3 pr-4">{scenarioLabels[scenario.id] ?? scenario.id}</td>
                 <td>{scenario.verifiedResults}</td>
-                <td>{scenario.established.length ? "A and B" : "Neither"}</td>
+                <td>{establishedNames(scenario.established)}</td>
               </tr>
             ))}</tbody>
           </table>

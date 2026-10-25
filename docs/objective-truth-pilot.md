@@ -57,7 +57,10 @@ intuitionist withholding.
 The profile models have two agents and two test sentences. A profile assigns
 endorsement propositions; an interpretation separately assigns a proposition
 to each sentence at each profile. These are stipulated semantics, not a sourced
-complete worldview. `DISAMB-PILOT-RELATIVITY` separates global variation, local
+complete worldview. The earlier explanation-order `Data` fixture fixes moral
+facts over selected practices; importing that bundle here would add irrelevant
+moral/privation commitments. This pilot quantifies over all endorsement
+profiles instead, so it uses its own narrow profile vocabulary. `DISAMB-PILOT-RELATIVITY` separates global variation, local
 variation, epistemic limitation/disagreement, and the all-opinions-true schema.
 
 - A stable logical sentence excludes the **global** claim that every sentence
@@ -71,7 +74,9 @@ variation, epistemic limitation/disagreement, and the all-opinions-true schema.
 - The all-opinions-true contradiction test requires both conflicting opinions
   and the open interpretation bridge from expressed negation to logical
   negation. Its conclusion is conditional, not a `refutes` relation against
-  every relativism or a complete rival worldview.
+  every relativism or a complete rival worldview. Two Boolean-content
+  countermodels in that Solution keep all opinions true while dropping each
+  advertised premise in turn, showing why neither may be omitted.
 
 The two research candidates name the missing stability/negation translation
 bridges and direct witnesses for the global/local/epistemic theses. The page

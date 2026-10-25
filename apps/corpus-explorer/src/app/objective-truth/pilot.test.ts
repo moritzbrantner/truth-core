@@ -1,5 +1,7 @@
 import { expect, test } from "bun:test";
 
+import fixture from "../../../../../scripts/testdata/objective-truth-pilot.json";
+import { fixtureGraph } from "@/lib/frontier-fixture";
 import { getCorpus } from "@/lib/corpus";
 import { getFrontierReport, statementState } from "@/lib/site-state";
 import { getPilotScenarios, PILOT_GROUPS, pilotGraphHref } from "./pilot";
@@ -43,4 +45,20 @@ test("pilot links select the exact goal and statement in the frontier graph", ()
   expect(url.searchParams.get("target")).toBe(id);
   expect(url.searchParams.get("node")).toBe(id);
   expect(url.searchParams.get("sel")).toBe(id);
+});
+
+test("frontend preserves the canonical reciprocal fixture's grounding distinction", () => {
+  const arguments_ = corpus.arguments.filter((argument) => fixture.argument_ids.includes(argument.id));
+  const inferenceIds = new Set(arguments_.flatMap((argument) => argument.inference_ids));
+  for (const scenario of fixture.cases) {
+    const graph = fixtureGraph({
+      statements: corpus.statements.filter((statement) => fixture.statement_ids.includes(statement.id)),
+      arguments: arguments_,
+      inferences: corpus.inferences.filter((inference) => inferenceIds.has(inference.id)),
+      results: corpus.results.filter((result) => scenario.result_ids.includes(result.id)),
+      claims: [], sources: [], relations: [], transcriptionResultIds: [],
+    });
+    expect(graph.statements.filter((statement) => statement.established).map((statement) => statement.id).sort()).toEqual(scenario.expected_established);
+    expect(graph.statements).toHaveLength(2);
+  }
 });
