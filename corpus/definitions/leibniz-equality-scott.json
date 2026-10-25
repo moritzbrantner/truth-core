@@ -1,7 +1,7 @@
 {
   "id": "DEF-LEIBNIZ-EQUALITY-SCOTT",
   "term": "equal (the AFP mL=, Leibniz equality at a world)",
-  "definition": "x mL= y ≡ ∀(λφ. (φ x m→ φ y)): at a world, every property x has there, y has there. Indiscernibility at one world, not identity of individuals (Lean `=`); the Monotheism result does not conclude that there is exactly one God-like individual.",
+  "definition": "x mL= y ≡ ∀(λφ. (φ x m→ φ y)): at a world, every property x has there, y has there. Since properties range over all functions Ind → World → Prop, this is equivalent to identity of individuals (Lean `=`): instantiate the property with fun z _ => x = z. Monotheism therefore establishes at most one God-like individual per world; it does not establish existence by itself, but together with C2 it establishes exactly one per world.",
   "basis": "sourced",
   "claim_ids": [
     "AFP-GOEDELGOD-MONOTHEISM-A"

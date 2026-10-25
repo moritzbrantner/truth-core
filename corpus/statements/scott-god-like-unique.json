@@ -1,6 +1,6 @@
 {
   "id": "STMT-SCOTT-GOD-LIKE-UNIQUE",
-  "paraphrase": "AFP GoedelGod.thy, theorem Monotheism: at every world, any two God-like beings are Leibniz-equal there, that is, each property the one has there the other has there. This is indiscernibility at a world, not identity of individuals.",
+  "paraphrase": "AFP GoedelGod.thy, theorem Monotheism: at every world, any two God-like beings are Leibniz-equal there. With full property quantification this is equivalent to their identity, so there is at most one God-like individual per world. Monotheism alone does not establish existence; together with C2 it establishes exactly one per world, without asserting the same individual across worlds.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikeUnique",
   "definition_ids": [
     "DEF-GOD-LIKE-SCOTT",

@@ -166,13 +166,27 @@ def GodLikeFlawless (P : Positivity World Ind) : Prop :=
   ∀ w (Φ : Property World Ind) (x : Ind), GodLike P x w → ¬ P Φ w → ¬ Φ x w
 
 /-- AFP abbreviation `mL=`: `x mL= y ≡ ∀(λφ. (φ x m→ φ y))`, Leibniz equality
-at a world. At `w`, every property `x` has there, `y` has there. This is
-indiscernibility at one world, not Lean equality of individuals. -/
+at a world. At `w`, every property `x` has there, `y` has there. With the full
+property domain of this embedding, this is equivalent to Lean equality of
+individuals: instantiate the property with `fun z _ => x = z`. -/
 def LeibnizEqual (x y : Ind) : MProp World :=
   fun w => ∀ Φ : Property World Ind, Φ x w → Φ y w
 
+/-- Full property quantification makes AFP Leibniz equality at any world
+equivalent to identity. No modal or positivity premise is needed. -/
+theorem leibnizEqualIffEq (x y : Ind) (w : World) :
+    LeibnizEqual x y w ↔ x = y := by
+  constructor
+  · intro h
+    exact h (fun z _ => x = z) rfl
+  · intro h
+    cases h
+    exact fun _ hΦ => hΦ
+
 /-- AFP theorem `Monotheism`: `[∀(λx.∀(λy. (G x m→ (G y m→ (x mL= y)))))]`.
-Any two God-like beings at a world are Leibniz-equal there. -/
+Any two God-like beings at a world are Leibniz-equal there, hence identical
+in this embedding: at most one God-like individual per world. This does not
+establish existence; together with `C2`, it gives exactly one per world. -/
 def GodLikeUnique (P : Positivity World Ind) : Prop :=
   ∀ w (x y : Ind), GodLike P x w → GodLike P y w → LeibnizEqual x y w
 
