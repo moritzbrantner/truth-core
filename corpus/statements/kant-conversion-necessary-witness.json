@@ -1,0 +1,9 @@
+{
+  "id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "paraphrase": "An actually existing necessary individual is given at the selected world; an explicit open premise, not obtained from universal predicate inclusion.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing"
+}

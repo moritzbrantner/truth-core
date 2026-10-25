@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency.changeDoesNotGiveModalContingency"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

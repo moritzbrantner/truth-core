@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-KANT-CONTINGENCY",
+  "term": "contingency",
+  "sense_definition_ids": [
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-EMPIRICAL-CONTINGENCY"
+  ],
+  "resolution": "The causal countermodel uses accessible nonexistence. The change model uses succession at distinct times and denies that this alone provides a contrary at the same time. Neither relation silently substitutes for the other (CPR A458–460/B486–488)."
+}

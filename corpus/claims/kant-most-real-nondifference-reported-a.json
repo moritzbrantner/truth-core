@@ -1,0 +1,16 @@
+{
+  "id": "KANT-MOST-REAL-NONDIFFERENCE-REPORTED-A",
+  "statement_id": "STMT-KANT-MOST-REAL-NONDIFFERENCE-REPORTED",
+  "source_id": "KANT-CPR",
+  "locator": "Ideal, section V, A608–609/B636–637; paragraph “If the proposition”",
+  "interpretation": "Qualitative nondifference is not silently promoted to numerical identity. MostRealUnique is the analyst’s separately recorded stronger sufficient condition, not what this source claim asserts.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-REALITY-PROFILE",
+    "DEF-KANT-REALITY-INDISCERNIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-REALITY-IDENTITY"
+  ]
+}

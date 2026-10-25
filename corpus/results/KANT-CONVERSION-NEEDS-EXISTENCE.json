@@ -1,0 +1,9 @@
+{
+  "id": "KANT-CONVERSION-NEEDS-EXISTENCE",
+  "argument_id": "KANT-CONVERSION-NEEDS-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.conversionNeedsExistence",
+  "comparator_config": "results/KANT-CONVERSION-NEEDS-EXISTENCE/comparator.json",
+  "status": "solution-present"
+}

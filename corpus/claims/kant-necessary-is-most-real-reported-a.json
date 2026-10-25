@@ -1,0 +1,13 @@
+{
+  "id": "KANT-NECESSARY-IS-MOST-REAL-REPORTED-A",
+  "statement_id": "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
+  "source_id": "KANT-CPR",
+  "locator": "Ideal, section V, A608/B636; paragraph “If the proposition”",
+  "interpretation": "Reported opponent premise, expressly criticized by Kant. Lean uses a de re modal surrogate and interpreted positive features; the source does not endorse that semantics or establish the premise.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-REALITY-PROFILE"
+  ]
+}

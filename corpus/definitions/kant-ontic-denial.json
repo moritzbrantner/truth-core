@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-ONTIC-DENIAL",
+  "term": "ontic denial of a necessary being",
+  "definition": "No actually existing individual necessarily exists at the selected world (negation of NecessaryBeing), distinguished from lack of knowledge.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing"
+}

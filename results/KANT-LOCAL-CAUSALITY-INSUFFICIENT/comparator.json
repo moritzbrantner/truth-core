@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.localCausalityInsufficient"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

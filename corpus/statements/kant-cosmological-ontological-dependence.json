@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE",
+  "paraphrase": "In the cosmological proof Kant examines, identifying the necessary being as ens realissimum imports a purely conceptual step whose reversal yields the ontological proof.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-REALITY-PROFILE",
+    "DEF-KANT-REALITY-INDISCERNIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-REALITY-IDENTITY"
+  ]
+}

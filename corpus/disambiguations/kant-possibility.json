@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-KANT-POSSIBILITY",
+  "term": "possibility",
+  "sense_definition_ids": [
+    "DEF-KANT-LOGICAL-POSSIBILITY",
+    "DEF-KANT-REAL-POSSIBILITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "resolution": "Kant’s logical consistency condition is distinguished from objective possibility of the object. The formal countermodels stipulate accessibility and test consequence inside that interpretation; exhibiting a world in them does not by itself settle Kant’s real-possibility demand. The cited modal-contingency definition supplies the exact accessible-nonexistence surrogate."
+}

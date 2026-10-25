@@ -1,0 +1,13 @@
+{
+  "id": "LEIBNIZ-SERIES-SUFFICIENT-REASON-A",
+  "statement_id": "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§§32,36–38",
+  "interpretation": "Independent non-Thomist counterreading: the demand concerns sufficient explanation of the entire contingent order, not merely inability to finish a temporal chain. This is an explicit stronger premise, not something refuted by the local-causal-only countermodel.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-SUFFICIENT-REASON",
+    "DEF-KANT-MODAL-NECESSITY"
+  ]
+}

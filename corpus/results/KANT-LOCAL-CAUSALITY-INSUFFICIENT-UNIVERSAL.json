@@ -1,0 +1,9 @@
+{
+  "id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "argument_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.localCausalityInsufficientUniversal",
+  "comparator_config": "results/KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL/comparator.json",
+  "status": "solution-present"
+}

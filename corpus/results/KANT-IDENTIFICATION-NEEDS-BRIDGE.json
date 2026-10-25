@@ -1,0 +1,9 @@
+{
+  "id": "KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "argument_id": "KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.identificationNeedsBridge",
+  "comparator_config": "results/KANT-IDENTIFICATION-NEEDS-BRIDGE/comparator.json",
+  "status": "solution-present"
+}

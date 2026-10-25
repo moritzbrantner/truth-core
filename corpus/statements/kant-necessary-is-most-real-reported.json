@@ -1,0 +1,9 @@
+{
+  "id": "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
+  "paraphrase": "Every absolutely necessary being is most real: the disputed premise of the cosmological proof reported by Kant.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-REALITY-PROFILE"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryIsMostReal"
+}

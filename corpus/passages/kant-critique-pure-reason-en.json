@@ -1,0 +1,83 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KANT-CPR",
+    "source_url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+    "retrieved_at": "2026-10-25T13:02:51Z",
+    "sha256": "sha256:9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
+    "encoding": "utf-8",
+    "language": "eng",
+    "translation": {
+      "translator": "J. M. D. Meiklejohn",
+      "year": 1855,
+      "edition": "Critique of Pure Reason, Project Gutenberg ebook 4280"
+    },
+    "license": "Public domain in the United States, Project Gutenberg license and territorial notice in ebook. Only hashes and short incipits committed."
+  },
+  "passages": [
+    {
+      "id": "KANT-CPR-ANALYTIC",
+      "locator": "Analytic, Phenomena and Noumena (A235/B294–A260/B315)",
+      "claim_locator_prefixes": [
+        "Analytic, Phenomena and Noumena,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "chap61"
+        },
+        "to": {
+          "anchor": "chap62"
+        }
+      },
+      "text_sha256": "sha256:52f4fb11d13ccdbb291eb596f131dda94dfc58d91de48e74ae6a67d110e36c58"
+    },
+    {
+      "id": "KANT-CPR-FOURTH-ANTINOMY",
+      "locator": "Fourth Antinomy, thesis/antithesis and observations (A452/B480–A461/B489)",
+      "claim_locator_prefixes": [
+        "Fourth Antinomy, thesis/antithesis and observations,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "FOURTH CONFLICT OF THE TRANSCENDENTAL IDEAS. THESIS."
+        },
+        "to": {
+          "anchor": "chap76"
+        }
+      },
+      "text_sha256": "sha256:dc2c07b39d13df65b428645e3cadcca5999e40502153618bda5ee34b9934ca11"
+    },
+    {
+      "id": "KANT-CPR-RESOLUTION",
+      "locator": "Fourth Antinomy resolution (A560/B588–A567/B595)",
+      "claim_locator_prefixes": [
+        "Fourth Antinomy resolution,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "chap86"
+        },
+        "to": {
+          "anchor": "chap87"
+        }
+      },
+      "text_sha256": "sha256:a24b6764f55f311fbe16b7f386243f0af019dc6fdd8fcfeae02d0d079d01cd67"
+    },
+    {
+      "id": "KANT-CPR-IDEAL",
+      "locator": "Ideal, section V (A603/B631–A620/B648)",
+      "claim_locator_prefixes": [
+        "Ideal, section V,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "chap92"
+        },
+        "to": {
+          "anchor": "chap93"
+        }
+      },
+      "text_sha256": "sha256:07e8b210c6db8b561be4c5b98d2669ebddae33d2daf223498d92f160037791fb"
+    }
+  ]
+}

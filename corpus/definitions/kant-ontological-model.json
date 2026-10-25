@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-ONTOLOGICAL-MODEL",
+  "term": "world-relative existence and causal dependence",
+  "definition": "Ontic has a constant candidate domain, a Kripke frame, world-relative ExistsAt, and a separate Causes relation. An inhabitant of the domain is not thereby actual. Causes is left uninterpreted until a concrete model supplies it; no cognitive warrant, per se ordering, act/potency, or total-series explanation follows from its name. Universal accessibility means ∀ w v, m.frame.access w v; for a family it means ∀ s w v, (family s).frame.access w v. The universal revisions include these as explicit conjuncts of their constructed conclusions.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.Ontic"
+}

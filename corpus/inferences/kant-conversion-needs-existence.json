@@ -1,0 +1,13 @@
+{
+  "id": "INF-KANT-CONVERSION-NEEDS-EXISTENCE",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
+    "STMT-KANT-CONVERSION-IDENTITY-PREMISE"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-RESTRICTED-CONCLUSION",
+  "rule": "identity-substitution",
+  "meaning": "Given a necessary witness, necessary-to-most-real inclusion and numerical identity of most-real candidates, conversion yields that every most-real candidate is necessary. This restricted consequence does not establish the premises or an a priori route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

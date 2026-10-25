@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.identificationNeedsBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-KANT-CHANGE-COUNTERMODEL",
+  "inference_ids": [
+    "INF-KANT-CHANGE-NOT-MODAL-CONTINGENCY"
+  ],
+  "meaning": "There is a universal modal frame and a time-indexed state that holds initially and fails later, yet holds initially in every accessible world. Change alone supplies no contrary possibility at the same time. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md.",
+  "definition_ids": [
+    "DEF-KANT-EMPIRICAL-CONTINGENCY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-REALITY-PROFILE",
+  "term": "ens realissimum in the reconstruction",
+  "definition": "RealityProfile supplies positive features, and MostReal means possessing every such feature. Adequacy of the interpretation of positive reality remains open. This is not identity with the Catholic God, Scott God-likeness, or the Fourth Way’s maximum in being.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostReal"
+}

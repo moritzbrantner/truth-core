@@ -1,0 +1,15 @@
+{
+  "id": "KANT-CATEGORY-COGNITIVE-SCOPE-A",
+  "statement_id": "STMT-KANT-CATEGORY-COGNITIVE-SCOPE",
+  "source_id": "KANT-CPR",
+  "locator": "Analytic, Phenomena and Noumena, A238–241/B297–300; paragraph “That the understanding, therefore, cannot make”",
+  "interpretation": "Read as a condition on legitimate objective cognition, not a restriction on what can exist. A priori knowledge of the conditions of experience remains included.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-SCOPE-WARRANT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE",
+  "paraphrase": "Categories apart from conditions of sensibility have a transcendental meaning but no determining transcendental use or determined object.",
+  "definition_ids": [
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-LIMIT-CONCEPT",
+    "DEF-KANT-REAL-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE",
+    "DISAMB-KANT-POSSIBILITY"
+  ]
+}

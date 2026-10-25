@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KANT-EMPIRICAL-CONTINGENCY",
+  "term": "empirical contingency and change in Kant’s Fourth Antinomy",
+  "definition": "A state follows an opposed state in time and has an empirical condition; the time-indexed state in the change countermodel has this succession alone. It does not assert that the earlier state could have been absent at that same time. CPR A458–460/B486–488 is the source context.",
+  "basis": "stipulative",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency"
+}

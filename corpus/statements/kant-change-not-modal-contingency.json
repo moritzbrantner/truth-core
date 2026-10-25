@@ -1,0 +1,11 @@
+{
+  "id": "STMT-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "paraphrase": "Temporal succession of opposite states does not by itself establish that the opposed state could have obtained at the very same time.",
+  "definition_ids": [
+    "DEF-KANT-EMPIRICAL-CONTINGENCY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY"
+  ]
+}

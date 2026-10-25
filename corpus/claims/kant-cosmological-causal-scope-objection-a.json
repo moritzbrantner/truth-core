@@ -1,0 +1,17 @@
+{
+  "id": "KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-A",
+  "statement_id": "STMT-KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION",
+  "source_id": "KANT-CPR",
+  "locator": "Ideal, section V, A609–610/B637–638; paragraph “The following fallacies” items 1–2",
+  "interpretation": "Kant contests transcendental application and inference to a terminating first cause. This is an epistemic/semantic objection with Kantian grounds, not a proof that no extra-empirical cause exists. The local causal countermodel separately tests the need for added premises.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE"
+  ]
+}

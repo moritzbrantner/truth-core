@@ -1,0 +1,9 @@
+{
+  "id": "DEF-KANT-REALITY-INDISCERNIBILITY",
+  "term": "qualitative nondifference of most-real candidates",
+  "definition": "The source’s assertion that one ens realissimum does not differ from another in any respect; preserved as a reading without a Lean equality declaration. A principle connecting qualitative nondifference to the tested necessity predicate or numerical identity is still required.",
+  "basis": "sourced",
+  "claim_ids": [
+    "KANT-MOST-REAL-NONDIFFERENCE-REPORTED-A"
+  ]
+}

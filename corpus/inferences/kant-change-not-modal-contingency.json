@@ -1,0 +1,9 @@
+{
+  "id": "INF-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-KANT-CHANGE-COUNTERMODEL",
+  "rule": "model-construction",
+  "meaning": "There is a universal modal frame and a time-indexed state that holds initially and fails later, yet holds initially in every accessible world. Change alone supplies no contrary possibility at the same time.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

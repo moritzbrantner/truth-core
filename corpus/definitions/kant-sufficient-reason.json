@@ -1,0 +1,9 @@
+{
+  "id": "DEF-KANT-SUFFICIENT-REASON",
+  "term": "Leibnizian sufficient reason of the contingent series",
+  "definition": "Monadology §§32,36–38 requires a reason why the contingent order is thus rather than otherwise, outside the series however infinite. This is stronger than supplying each individual with an existing predecessor; its transcendental legitimacy and the necessary ground’s divine attributes remain open.",
+  "basis": "sourced",
+  "claim_ids": [
+    "LEIBNIZ-SERIES-SUFFICIENT-REASON-A"
+  ]
+}

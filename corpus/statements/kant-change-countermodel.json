@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KANT-CHANGE-COUNTERMODEL",
+  "paraphrase": "There is a universal modal frame and a time-indexed state that holds initially and fails later, yet holds initially in every accessible world. Change alone supplies no contrary possibility at the same time.",
+  "definition_ids": [
+    "DEF-KANT-EMPIRICAL-CONTINGENCY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY"
+  ],
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency"
+}

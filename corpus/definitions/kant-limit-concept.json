@@ -1,0 +1,10 @@
+{
+  "id": "DEF-KANT-LIMIT-CONCEPT",
+  "term": "thinking an intelligible condition",
+  "definition": "A negative/limiting or problematic thought of what is not an object of sensible intuition; neither determinate theoretical cognition nor proof of real possibility. The qualified semantic reading retains this logical/limiting role and restricts objective determination, rather than banning every meaningful utterance.",
+  "basis": "sourced",
+  "claim_ids": [
+    "KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE-A",
+    "KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE-A"
+  ]
+}

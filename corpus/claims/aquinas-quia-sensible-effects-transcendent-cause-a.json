@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE-A",
+  "statement_id": "STMT-AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE",
+  "source_id": "AQUINAS-SCG",
+  "locator": "I.12 [6]–[9]",
+  "interpretation": "Independent primary counterreading: origin of knowledge in sense need not confine the conclusion to a sensible cause. It predates Kant, so its use as a reply is this inquiry’s reconstruction; the validity and extra-empirical application are still open.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-KANT-QUIA-DEMONSTRATION",
+    "DEF-KANT-SCOPE-WARRANT",
+    "DEF-KANT-DIVINE-NAME-EFFECTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-SCOPE",
+    "DISAMB-KANT-GOD-IDENTIFICATION"
+  ]
+}
