@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-AGREEMENT",
+  "term": "classification agreement",
+  "definition": "For qualities admitted in both interpretations, their common Form and a common particular, the two F-predications agree. SharedSelector explicitly supplies both coextensions, extensionally matching base features and selection laws for every such common Form.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.ClassificationAgreement"
+}

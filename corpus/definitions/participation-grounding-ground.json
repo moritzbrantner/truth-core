@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-GROUND",
+  "term": "metaphysical grounding",
+  "definition": "Grounds a b is the separately interpreted directed relation of a grounding b, using Fact tokens. It is distinct from material implication, Forms.Explains, efficient causation and epistemic identification. Neither asymmetry nor actuality follows from the interface alone.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-PARTICIPATION-GROUNDING-INDEPENDENT-ATTACK",
+  "subject_kind": "argument",
+  "subject_id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATION-GROUNDED-SELECTION",
+  "note": "Sensitivity objection: the proposed commitment needs additional justification; the finite model does not disprove that commitment in reality."
+}

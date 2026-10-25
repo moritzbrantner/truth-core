@@ -1,0 +1,11 @@
+{
+  "id": "INF-PARTICIPATION-AGREEMENT",
+  "input_statement_ids": [
+    "STMT-PARTICIPATION-SHARED-SELECTOR"
+  ],
+  "output_statement_id": "STMT-PARTICIPATION-AGREEMENT",
+  "rule": "equivalence-composition",
+  "meaning": "For a common admitted quality, Form and particular, compose coextension, the first selection law, base agreement, the reverse second selection law and reverse coextension. No explanatory edge is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

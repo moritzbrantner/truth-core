@@ -96,6 +96,7 @@ import TruthCore.Greek.NewTestament.Matthew
 import TruthCore.Greek.Plato.Forms
 import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
 import TruthCore.Greek.Plato.Parmenides.ReplyModels
+import TruthCore.Greek.Plato.ParticipationGrounding
 import TruthCore.Greek.Plato.ThirdMan
 import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
@@ -372,6 +373,7 @@ import TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution
+import TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution
 import TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution

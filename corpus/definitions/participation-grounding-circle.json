@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-CIRCLE",
+  "term": "explanatory circularity",
+  "definition": "For one bearer, Form and quality, its F-exemplification grounds participation and its participation grounds F-exemplification. These are two actual asserted edges, not the two implications of an iff or an epistemic way of discovering either fact.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.CircularExplanation"
+}

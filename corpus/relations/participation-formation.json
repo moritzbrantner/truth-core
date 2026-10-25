@@ -1,0 +1,9 @@
+{
+  "id": "REL-PARTICIPATION-FORMATION",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-193B-SAME-KIND-GENERATION-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATION-FORMATIVE-REPLY",
+  "note": "Same-kind generation is a concrete alternative explanatory resource, not a universal law of all natural generation."
+}

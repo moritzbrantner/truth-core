@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-GROUNDED-SELECTOR",
+  "term": "grounded selection",
+  "definition": "For every particular with the base feature, that base fact grounds its participation fact. The directed edge is additional to the selection law. Its philosophical warrant and whether it leaves a substantive role for the separate Form remain open.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.GroundedSelection"
+}
