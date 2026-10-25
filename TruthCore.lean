@@ -9,11 +9,14 @@ import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
+import TruthCore.Comparison.NaturalisticRealism
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.Resurrection
+import TruthCore.English.Boyd.MoralRealism
 import TruthCore.English.Iemhoff.Intuitionism
 import TruthCore.English.OConnor.Metaethics
 import TruthCore.English.OConnor.ProblemOfEvil
+import TruthCore.English.Railton.MoralRealism
 import TruthCore.English.VanRoojen.MoralCognitivism
 import TruthCore.German.Kant.CosmologicalInference
 import TruthCore.Greek.Aristotle.Categories
@@ -123,6 +126,7 @@ import TruthCore.Logic.QuantifierShift
 import TruthCore.Logic.TruthPilot
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
+import TruthCore.Metaethics.NaturalisticRealism
 import TruthCore.Metaethics.Questions
 import TruthCore.Modal.Cube
 import TruthCore.Modal.Examples
@@ -309,6 +313,11 @@ import TruthCore.Results.Comparison.MoralError.QuasiRealismAdmitsMoralError.Solu
 import TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity.Solution
 import TruthCore.Results.Comparison.MoralLanguage.FregeGeachRefutesNaiveEmotivism.Solution
 import TruthCore.Results.Comparison.MoralLanguage.NaiveEmotivismInvalidatesGeachMP.Solution
+import TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent.Solution
+import TruthCore.Results.Comparison.NaturalisticRealism.Model
+import TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Solution
+import TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.Solution
+import TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-NATURALIST-TRUE-ASCRIPTION",
+  "paraphrase": "The interpretation has a true moral ascription as well as a false one.",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.TrueMoralAscriptionOccurs",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH"
+  ]
+}

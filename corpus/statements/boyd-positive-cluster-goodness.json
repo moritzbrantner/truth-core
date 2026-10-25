@@ -1,0 +1,11 @@
+{
+  "id": "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
+  "paraphrase": "In a determinate positive respect, an act tending to foster human goods or sustain their unifying homeostatic mechanisms has moral goodness to that extent; this sufficient fragment settles no vague case.",
+  "lean_declaration": "TruthCore.English.Boyd.ClusterGoodnessReading",
+  "definition_ids": [
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

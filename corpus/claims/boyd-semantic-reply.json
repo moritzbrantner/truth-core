@@ -1,0 +1,15 @@
+{
+  "id": "BOYD-45-SEMANTIC-REPLY",
+  "statement_id": "STMT-BOYD-NATURAL-SEMANTIC-REPLY",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §§3.6–3.8 and 4.5, pp. 320–325 and 335–338",
+  "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

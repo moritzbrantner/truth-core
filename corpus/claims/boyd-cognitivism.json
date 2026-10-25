@@ -1,0 +1,12 @@
+{
+  "id": "BOYD-MORAL-COGNITIVISM",
+  "statement_id": "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §1.1, pp. 307–308: moral statements and truth",
+  "interpretation": "Reuse the proposition that moral judgments are capable of truth and falsity. This does not add universal bivalence, infallibility or a necessary link to motivation. Both authors expressly distinguish realism from those stronger claims.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE"
+  ]
+}

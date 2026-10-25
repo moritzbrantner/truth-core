@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
+  "paraphrase": "An ascription of the evaluative property to an act is true just when the act has that property; this is descriptive truth, not acceptance. Railton instantiates the property with rightness and Boyd with positive moral goodness. The encoding covers these atomic ascriptions, not a complete natural-language semantics.",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.DescriptiveTruth",
+  "definition_ids": [
+    "DEF-MORAL-STATEMENT",
+    "DEF-TRUTH-VALUE",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

@@ -77,10 +77,12 @@ export type CorpusWebSnapshot = {
 };
 
 type CorpusWebSnapshotSlice = CorpusPassageSlice & {
-  html_selector: Record<string, unknown>;
   text_sha256: string;
   incipit?: string;
-};
+} & (
+  | { html_selector: Record<string, unknown>; pdf_pages?: never }
+  | { pdf_pages: { first: number; last: number }; html_selector?: never }
+);
 
 type CorpusPassageManifest =
   | { snapshot: CorpusSourceSnapshot; passages: CorpusPassageSlice[]; notes?: string }

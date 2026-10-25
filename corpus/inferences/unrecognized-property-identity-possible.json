@@ -1,0 +1,9 @@
+{
+  "id": "INF-UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "rule": "model-construction",
+  "meaning": "A nonconstant predicate can be denoted by two distinct names without recognition of their identity. This is a semantic countermodel to an inference from nonrecognition to nonidentity, not a refutation of Moore’s full open-question argument.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-NATURALIST-RAILTON-CONSISTENT",
+  "paraphrase": "The recorded Railton fragment is satisfiable with a true moral ascription, cognitive moral error and a right act without a universal instrumental-reason link. A nonconstant equal-benefit finite model witnesses this; it does not establish actual objective grounding.",
+  "lean_declaration": "TruthCore.Comparison.NaturalisticRealism.RailtonConsistent",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+    "DEF-MORAL-ERROR",
+    "DEF-NATURALIST-CATEGORICAL-REASONS",
+    "DEF-RAILTON-NONMORAL-WELFARE",
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-TRUTH-VALUE",
+    "DEF-MORAL-STATEMENT",
+    "DEF-ENCODED-THEORY-CONSISTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

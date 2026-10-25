@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS",
+  "paraphrase": "In an interpretation, an act has positive moral goodness although an agent has no instrumental reason to do it.",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.GoodWithoutUniversalReasons",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-NATURALIST-CATEGORICAL-REASONS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

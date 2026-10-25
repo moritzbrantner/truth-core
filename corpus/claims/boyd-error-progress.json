@@ -1,0 +1,16 @@
+{
+  "id": "BOYD-46-ERROR-PROGRESS",
+  "statement_id": "STMT-BOYD-MORAL-ERROR-PROGRESS",
+  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "locator": "reprint §§4.3–4.4 and 4.6, pp. 329–335 and 338–340",
+  "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
+    "DEF-MORAL-ERROR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

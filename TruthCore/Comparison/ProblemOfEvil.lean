@@ -30,8 +30,10 @@ Question `Q-MORAL-GROUNDING`: what makes something objectively good or evil?
 * The Catholic theory: goodness is the same in reality as being in act; evil is
   the privation of a due good; "there is evil" is true when such a privation
   is in a subject (`CatholicGrounding`).
-* Naturalist moral realism: no pinned proponent yet; recorded as a candidate,
-  so it has no definition here.
+* Naturalist moral realism: primary Railton and Boyd witnesses and scoped
+  comparison bundles are now recorded in `Comparison.NaturalisticRealism`
+  (#249; see `docs/naturalistic-moral-realism.md`). This problem-of-evil
+  signature has not been expanded with their distinct normative vocabulary.
 -/
 
 namespace TruthCore.Comparison.ProblemOfEvil

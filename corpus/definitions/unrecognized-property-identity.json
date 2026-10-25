@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNRECOGNIZED-PROPERTY-IDENTITY",
+  "term": "unrecognized property identity",
+  "definition": "Two distinct names denote literally the same nonconstant property; recognition of that identity is a separate relation and may fail. Distinct names are not automatically nonsynonymous concepts, and lack of recognition is not a proof of philosophically meaningful openness. The countermodel refutes only an inference from nonrecognition to property nonidentity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.UnrecognizedIdentityPossible",
+  "note": "Stipulated semantic test prompted by the proponents’ natural-definition replies. A full open-question or normative adequacy argument needs substantive semantics and epistemology beyond these names and denotations."
+}

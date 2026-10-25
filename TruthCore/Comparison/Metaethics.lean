@@ -113,6 +113,12 @@ problem-of-evil theory; it is not counted as an answer derived from this
 natural-law bundle.
 
 A count is not a score (#149).
+
+Issue #249 adds objective naturalistic realism (Railton and Boyd), the shared
+mind-independence/epistemology questions, and an equally scoped compositional
+validity test for all three realist accounts. See
+`docs/naturalistic-moral-realism.md`; the older counts above retain their
+original eight-question scope.
 -/
 
 namespace TruthCore.Comparison.Metaethics

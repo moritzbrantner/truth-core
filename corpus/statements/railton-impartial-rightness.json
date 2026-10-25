@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
+  "paraphrase": "Moral rightness is assessed by fully informed instrumental rationality from an impartial standpoint counting affected interests equally. The criterion’s adequacy and interpersonal comparison are open.",
+  "lean_declaration": "TruthCore.English.Railton.RightnessReading",
+  "definition_ids": [
+    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+    "DEF-NATURALIST-REDUCTION-BASIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+  ]
+}

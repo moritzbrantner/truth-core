@@ -1,0 +1,10 @@
+{
+  "id": "NATURAL-PREDICATE-MODUS-PONENS",
+  "argument_id": "NATURAL-PREDICATE-MODUS-PONENS",
+  "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Solution",
+  "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.naturalPredicateModusPonens",
+  "comparator_config": "results/NATURAL-PREDICATE-MODUS-PONENS/comparator.json",
+  "status": "solution-present",
+  "description": "The shared compositional interpretation preserves moral modus ponens for any act predicate. This is a logical transcription of implication elimination, not a source-derived proof of any ethical thesis; applicability of this full semantics remains an adopted modeling assumption."
+}

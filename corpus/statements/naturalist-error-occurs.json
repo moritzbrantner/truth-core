@@ -1,0 +1,9 @@
+{
+  "id": "STMT-NATURALIST-FIXTURE-ERROR",
+  "paraphrase": "The finite interpretation contains a cognitive moral error.",
+  "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.ErrorOccurs",
+  "definition_ids": [
+    "DEF-NATURALIST-FINITE-INTERPRETATION",
+    "DEF-MORAL-ERROR"
+  ]
+}
