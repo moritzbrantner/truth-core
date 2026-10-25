@@ -1,0 +1,12 @@
+{
+  "id": "DEF-ALTOGETHER-IMMATERIAL",
+  "term": "altogether immaterial (in summo immaterialitatis; the antecedent of `ImmaterialIsIntellectualReading`)",
+  "definition": "x is altogether immaterial when it is neither composed of matter and form (`¬ ComposedOfMatterAndForm x`) nor a component of anything, as matter or as a form in matter (`∀ y, ¬ ComponentOf x y`, which is DEF-REMOTE-FROM-ALL). This is the grade of immateriality that ST I q.14 a.1 makes the reason of intellectual knowledge: the mode of knowledge follows the mode of immateriality, and what is in the highest degree immaterial is in the highest degree of knowledge.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE",
+    "AQUINAS-ST-I-Q3-A8-NO-COMPONENT-FIRST-IN-BEING"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading",
+  "note": "q.14 a.1 grades immateriality without listing these two conditions; taking its highest grade as both conditions together is the case's reading. Not being a matter-form composite is not enough on its own: a brute animal's soul is no such composite but is a component of the animal, and it does not understand (I q.75 a.3, a.5, not pinned). The component condition is the one q.3 a.8 denies of God."
+}
