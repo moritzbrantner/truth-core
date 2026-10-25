@@ -1,11 +1,14 @@
 {
   "id": "DEF-ONTOLOGICAL-TRUTH",
   "term": "true (verum), said of things",
-  "definition": "The respect `verum` of the quarta via: a thing's being true, which admits of more and less and follows its being (quae sunt maxime vera, sunt maxime entia; Metaphysics II.1, 993b30-31). It is not the truth of a sentence.",
+  "definition": "Truth said of a thing is its conformity to the intellect on which it depends in being, rather than its being believed or observed. In ST I q.16 a.1, a true artifact realizes the form conceived by its maker, and a true natural thing realizes its proper nature according to the divine intellect’s exemplar (a true stone has the nature proper to a stone). This truth is secondary to truth in intellect. ST I q.16 a.3 relates a thing’s intelligibility to the being it has: truth adds a relation to intellect to the account of being. This is the ontological sense used to interpret the quarta via’s verum, not sentence truth, confidence, or frequency of endorsement.",
   "basis": "sourced",
   "claim_ids": [
+    "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A",
+    "AQUINAS-ST-I-Q16-A3-BEING-AND-INTELLIGIBILITY-A",
     "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A",
     "AQUINAS-ST-I-Q2-A3-MOST-TRUE-MOST-BEING-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading",
+  "note": "The declaration’s verum is still an abstract respect: this definition records its intended source reading, not a mechanically enforced conformity predicate. Aquinas’s divine-exemplar account is recorded in its theological context; it is not used as an extra premise proving God’s existence. The comparative interpretation is separately stated in DEF-ONTOLOGICAL-TRUTH-COMPARISON."
 }

@@ -1,0 +1,13 @@
+{
+  "id": "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
+  "term": "more and less ontologically true (quarta-via comparative reading)",
+  "definition": "For this reading, x is more true than y in the relevant respect when x more fully realizes the intelligible nature or form under consideration: the comparison is of realization of that form, hence of intelligibility grounded in actuality. It is not a comparison of two sentences’ accuracy, how many observers agree, or an observer’s certainty. The relevant form and comparative must be supplied by an interpretation of the things compared; no numerical measure or total comparability of all kinds is stipulated.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A",
+    "AQUINAS-ST-I-Q16-A3-BEING-AND-INTELLIGIBILITY-A",
+    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading",
+  "note": "An explicit comparative gloss adopted for #211, motivated by q.16’s conformity/intelligibility account and q.2’s approach-to-a-maximum language. These passages do not themselves define this comparative relation, so it is not attributed to them as a separate sourced theorem. In Lean, MoreIn verum remains primitive: neither this gloss, existence of an exemplary intellect, nor an equality of the verum and esse comparisons is an added axiom or definition. Instantiating those parameters with a fully sourced conformity/comparison model and proving that it satisfies the root-path premises remains a further formalization obligation."
+}
