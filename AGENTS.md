@@ -2,6 +2,19 @@
 
 This repository grows one small source reading or argument at a time. Keep the complexity in the philosophy, not in repository machinery.
 
+## Worker brief and handoff
+
+The master gives each worker a four-line brief:
+
+1. **Target:** the skeleton node, argument or root obligation advanced.
+2. **Reuse:** the existing statement IDs and exact Lean theorems to consume.
+3. **Missing step:** the inference or source reading still needed.
+4. **Premise comparison:** the expected premises retained, added or removed, and whether the work connects results or discharges an obligation.
+
+The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
+
+Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
+
 ## Proof-seeking stance
 
 - Seek machine-checkable consequence, not prose approval. An LLM may propose readings, propositions, formalizations, or proof steps, but its agreement is never evidence that a conclusion follows.
