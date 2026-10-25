@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "argument_id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.catholicismFromEfficientRegressWithClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES/comparator.json",
+  "status": "solution-present",
+  "description": "Composition of the verified efficient-cause regress transfer and excluded-middle instance with the connected Stage1/Stage2 root proof. Two proved intermediate inputs are discharged by imports, not assumed again. The historical end remains a structural transcription with open premises; no philosophical frontier closure is claimed."
+}

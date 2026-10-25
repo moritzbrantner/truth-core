@@ -52,6 +52,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 - **Graph integrity:** `corpus.py bind-check` (#164) verifies in CI that each argument's JSON premises and conclusion are exactly the Lean theorem's hypotheses and result type. Theory bundles are unfolded one step (#160).
 - **Visualization:** `apps/corpus-explorer` `/graph` (#163). Run `cd apps/corpus-explorer && bun run dev`, then open http://localhost:3000/graph/.
 - **Connected stages 1–2 (2026-10-25):** `CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` carries one named maximal mover through the nine attribute proofs into the existing skeleton. The root theorem no longer takes the complete attribute bundle as an independent input. `STMT-GOD-IS-MAXIMAL-IN-BEING` remains open for the uniqueness attribute; no naming converse or frontier closure is claimed. See [the connected proof](skeleton-composition.md).
+- **Connected regress and logic inputs (2026-10-25):** `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES` additionally imports the existing efficient-cause regress transfer and excluded-middle instance before applying that connected root proof. Those proved intermediates are no longer independent root-theorem inputs; the same 37 philosophical premises remain open.
 
 ## Working method
 
