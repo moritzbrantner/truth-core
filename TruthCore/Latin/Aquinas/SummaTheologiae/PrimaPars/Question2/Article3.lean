@@ -119,8 +119,11 @@ by the hand.
 
 This is the explicit per se ordering premise: when a mover other than the moved
 thing is itself being moved, its moving is a per se link `MovesAsMoved` of the
-series. Per accidens series (a father who begets, himself begotten) are excluded
-from `MovesAsMoved` by this reading, not by the definition of motion.
+series. The premise is one-directional: it gives a sufficient condition for a
+`MovesAsMoved` link, not a characterization of such links. That a per accidens
+series (a father who begets, himself begotten) is not a per se series belongs to
+the intended reading (ST I q.46 a.2 ad 7); this premise does not state it, and
+nothing here says when a link fails to be `MovesAsMoved`.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.
 -/
@@ -131,8 +134,10 @@ def SecondMoversMoveOnlyAsMovedReading {Being : Sort u} {Respect : Sort v}
   ∀ y x r, y ≠ x → MovesIn y x r → (∃ r', MovedIn y r') → MovesAsMoved y x
 
 /-- Weaker sibling reading of *moventia secunda non movent nisi per hoc quod sunt
-mota*: a mover other than the moved thing is a per se link of the series only when
-it is being moved in a respect relevant to its moving of that thing.
+mota*: a mover other than the moved thing that is being moved in a respect
+relevant to its moving of that thing is thereby a per se link of the series. The
+premise is one-directional: it does not say that only such movers are per se
+links. A converse would be its own sourced premise.
 
 `RelevantTo y x r r'` says that `y`'s being moved in `r'` bears on `y`'s moving
 `x` in `r` (the hand's being moved bears on the stick's moving the stone). A mover
