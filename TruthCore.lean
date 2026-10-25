@@ -341,6 +341,7 @@ import TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Solution
 import TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution
 import TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution
+import TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Solution
 import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
 import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
