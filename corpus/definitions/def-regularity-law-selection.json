@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-LAW-SELECTION",
+  "term": "law versus true accidental regularity",
+  "definition": "BestSystemReading identifies laws with theorems of a selected system. Selection must independently earn truth, simplicity, strength and, for probabilistic systems, fit. The toy Regularity language distinguishes a pattern theorem from an incidental truth; it does not implement those standards, chances, or a full account of causation.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.BestSystemReading"
+}

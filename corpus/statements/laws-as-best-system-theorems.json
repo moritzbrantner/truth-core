@@ -1,0 +1,20 @@
+{
+  "id": "STMT-LAWS-AS-BEST-SYSTEM-THEOREMS",
+  "paraphrase": "Lewis identifies laws with regularities that are theorems of the best true system, balancing simplicity and strength, adding fit for probabilistic law/chance. BestSystemReading formalizes only the identification once a selected system has been supplied. His full analysis is stronger than mere observed repetition; its selection and chance theory are not verified here.",
+  "definition_ids": [
+    "DEF-REGULARITY-OBSERVATION",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-REGULARITY-SUCCESSION",
+    "DEF-REGULARITY-MENTAL-TRANSITION",
+    "DEF-REGULARITY-LAW-SELECTION",
+    "DEF-REGULARITY-SAMPLE",
+    "DEF-REGULARITY-PREDICTION",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-REGULARITY-GROUND",
+    "DEF-ANSWER-MAP-MATCHING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ],
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.BestSystemReading"
+}

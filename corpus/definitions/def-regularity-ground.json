@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULARITY-GROUND",
+  "term": "explanatory grounding of a totality",
+  "definition": "Scope.ground is an explanatory relation separate from temporalCause; GroundedTotality requires some ground for spacetime. UniversalGrounding requires one for each target. Brute in this test means absence of any such ground, not merely absence of an earlier event. No sufficient-reason principle is assumed true.",
+  "basis": "stipulative",
+  "note": "Explicit analytical interface for issue #270. Source support and its limits are separately recorded in the linked source claims and docs/hume-regularity.md. Stronger metaphysical identifications require further argument.",
+  "lean_declaration": "TruthCore.Modern.Hume.Regularity.GroundedTotality"
+}
