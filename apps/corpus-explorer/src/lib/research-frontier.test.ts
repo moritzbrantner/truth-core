@@ -162,7 +162,7 @@ test("status update removes resolved obligations and interpretation split adds e
 });
 
 test("global projection clusters large corpus instead of mounting every statement", () => {
-  const view = computeGraphView(graph, DEFAULT_STATE);
+  const view = computeGraphView(graph, { ...DEFAULT_STATE, layout: "layered" });
   expect(graph.statements.length).toBeGreaterThan(900);
   expect(view.nodes.length).toBeLessThan(graph.statements.length);
   expect(new Set(view.nodes.map((node) => node.id)).size).toBe(view.nodes.length);
@@ -170,8 +170,8 @@ test("global projection clusters large corpus instead of mounting every statemen
 
 test("in-place expansion opens adjacent clusters while retaining shared identity", () => {
   const g = fixtureGraph(fixture);
-  const initial = computeGraphView(g, DEFAULT_STATE);
-  const expanded = computeGraphView(g, { ...DEFAULT_STATE, expanded: ["P1"] });
+  const initial = computeGraphView(g, { ...DEFAULT_STATE, layout: "layered" });
+  const expanded = computeGraphView(g, { ...DEFAULT_STATE, layout: "layered", expanded: ["P1"] });
   expect(expanded.nodes.filter((node) => node.kind === "statement").length).toBeGreaterThan(
     initial.nodes.filter((node) => node.kind === "statement").length,
   );

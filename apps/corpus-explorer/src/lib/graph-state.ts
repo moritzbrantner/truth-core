@@ -6,6 +6,9 @@ export type FocusDirection = "up" | "down" | "both";
 
 export type GraphState = {
   view: GraphView;
+  layout: "network" | "layered";
+  leaf: "" | "unsupported" | "unconsumed" | "frontier";
+  relations: boolean;
   scope: "global" | "goal";
   obligation: string;
   pins: string[];
@@ -59,6 +62,9 @@ export const MAX_HOPS = 6;
 
 export const DEFAULT_STATE: GraphState = {
   view: "all",
+  layout: "network",
+  leaf: "",
+  relations: false,
   scope: "global",
   obligation: "",
   pins: [],
@@ -92,6 +98,9 @@ function list(params: ReadableParams, name: string) {
 export function parseGraphState(params: ReadableParams): GraphState {
   const hops = Number.parseInt(params.get("hops") ?? "", 10);
   return {
+    layout: params.get("layout") === "layered" ? "layered" : "network",
+    leaf: oneOf(params.get("leaf"), ["", "unsupported", "unconsumed", "frontier"] as const, ""),
+    relations: params.get("relations") === "1",
     view: oneOf(params.get("view"), views, DEFAULT_STATE.view),
     scope: params.get("scope") === "goal" ? "goal" : "global",
     obligation: params.get("obligation") ?? "",
@@ -119,6 +128,9 @@ export function parseGraphState(params: ReadableParams): GraphState {
 /** Serializes only non-default values, in a stable order. */
 export function serializeGraphState(state: GraphState): string {
   const params = new URLSearchParams();
+  if (state.layout !== "network") params.set("layout", state.layout);
+  if (state.leaf) params.set("leaf", state.leaf);
+  if (state.relations) params.set("relations", "1");
   if (state.view !== DEFAULT_STATE.view) params.set("view", state.view);
   if (state.target) params.set("target", state.target);
   if (state.node) params.set("node", state.node);
@@ -144,7 +156,7 @@ export function serializeGraphState(state: GraphState): string {
 }
 
 export function hasFilters(state: GraphState) {
-  return Boolean(state.q.trim() || state.status.length || state.tags.length || state.source);
+  return Boolean(state.leaf || state.q.trim() || state.status.length || state.tags.length || state.source);
 }
 
 /** Finite viewport values only; malformed links fall back to fit-to-view. */

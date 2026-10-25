@@ -88,7 +88,10 @@ function inferenceStatements(inference: GraphInference) {
   return [...inference.inputs, ...inference.assumptions, inference.output];
 }
 
-export function statementMatches(statement: GraphStatement, state: GraphState) {
+export function statementMatches(statement: GraphStatement, state: GraphState, index: GraphIndex) {
+  if (state.leaf === "unsupported" && index.producers.has(statement.id)) { return false; }
+  if (state.leaf === "unconsumed" && index.consumers.has(statement.id)) { return false; }
+  if (state.leaf === "frontier" && !statement.frontier) { return false; }
   const query = state.q.trim().toLowerCase();
   if (
     query &&
@@ -108,12 +111,12 @@ export function statementMatches(statement: GraphStatement, state: GraphState) {
 }
 
 /** Matches across the whole corpus, for the search list next to the graph. */
-export function searchStatements(graph: PropositionGraph, state: GraphState, limit = 25) {
+export function searchStatements(graph: PropositionGraph, state: GraphState, limit = 25, index: GraphIndex = indexGraph(graph)) {
   if (!hasFilters(state)) {
     return { total: 0, items: [] as GraphStatement[] };
   }
   const matches = graph.statements
-    .filter((statement) => statementMatches(statement, state))
+    .filter((statement) => statementMatches(statement, state, index))
     .sort(
       (left, right) =>
         Number(right.frontier) - Number(left.frontier) ||
@@ -234,7 +237,7 @@ export function computeGraphView(
   const highlightedInferences = new Set(highlightArgument?.inferenceIds ?? []);
   const matches = (id: string) => {
     const statement = index.statementById.get(id);
-    return !filtering || (statement ? statementMatches(statement, state) : false);
+    return !filtering || (statement ? statementMatches(statement, state, index) : false);
   };
 
   let anchor: string | null = null;
@@ -312,7 +315,7 @@ export function computeGraphView(
     }
   }
   const representative = (id: string) => {
-    if (state.view !== "all") return id;
+    if (state.view !== "all" || state.layout === "network") return id;
     const statement = index.statementById.get(id) as GraphStatement;
     const key = statement.clusters[state.cluster];
     return openClusters.has(key) ? id : clusterNodeId(key);
@@ -422,7 +425,7 @@ export function computeGraphView(
     edge.label = `${edge.count} step${edge.count === 1 ? "" : "s"}`;
     edges.push(edge);
   }
-  for (const relation of graph.relations) {
+  for (const relation of state.relations ? graph.relations : []) {
     if (visible.has(relation.subject) && visible.has(relation.object)) {
       edges.push({
         id: `relation:${relation.id}`,
@@ -443,7 +446,7 @@ export function computeGraphView(
     frontierCount,
     truncated,
     message:
-      state.view === "all" && !state.open.length
+      state.view === "all" && state.layout === "layered" && !state.open.length
         ? "Expand a cluster to see its statements and inference steps."
         : undefined,
   };

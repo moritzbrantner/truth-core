@@ -22,7 +22,16 @@ The deployment workflow uploads `apps/corpus-explorer/out` with `actions/upload-
 
 ## Epistemic Frontier graph
 
-`/graph` defaults to a clustered global canvas with a synchronized research frontier.
+`/graph` defaults to a compact force-connected global network with a synchronized
+research frontier. Positions and community colors describe inference connectivity,
+not confidence. Symbols/rings distinguish establishment, conditional closure and
+bare or sourced frontier; the legend is available under status filters. Structural
+leaf filters (no supporting inference / no consumer inference) are independent of
+frontier obligations. Semantic relations are a separate optional dashed overlay.
+The **Layered** option retains source clustering and expanded proof cards; selecting
+**Focus here** expands complete AND-premises and alternative (OR) applications.
+Network positions are deterministic and computed at static-build time, with no
+browser force animation. See [acceptance evidence and screenshots](evidence/network-221/README.md).
 Select a statement to bring its obligations to the top, or select an obligation to
 locate its statement and inspect the exact blocker. Switch to **Selected goal
 frontier** to restrict obligations to route-aware dependencies of that proposition;
@@ -42,7 +51,8 @@ relevance breaking ties. No expected effort, research value or certainty is inve
 Run `bun run --cwd apps/corpus-explorer test:browser` after a normal explorer build
 for the deterministic Chromium journey over the real static export. CI installs
 the browser and runs this path before the Pages build. The browser test allocates
-its own local port and checks graph/queue synchronization, goal/global switching,
+its own local port and checks desktop keyboard and mobile touch selection, settled
+positions, network/layered comparisons, graph/queue synchronization, goal/global switching,
 URL reload, expansion, viewport restoration and mobile overflow. The unit fixtures
 call Python's actual frontier computation for grounded and ungrounded reciprocal
 cycles, shared dependencies and transcription closure.

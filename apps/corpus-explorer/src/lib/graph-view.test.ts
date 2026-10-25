@@ -8,7 +8,7 @@ import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
 
 const graph = fixtureGraph(fixture);
-const state = (patch: Partial<GraphState>): GraphState => ({ ...DEFAULT_STATE, view: "root", ...patch });
+const state = (patch: Partial<GraphState>): GraphState => ({ ...DEFAULT_STATE, view: "root", layout: "layered", ...patch });
 const ids = (view: ReturnType<typeof computeGraphView>, kind?: string) =>
   view.nodes.filter((node) => !kind || node.kind === kind).map((node) => node.id).sort();
 
@@ -77,7 +77,7 @@ describe("graph views", () => {
     expect(view.nodes).toHaveLength(0);
     const focus = computeGraphView(graph, state({ view: "focus", node: "OBJ", hops: 1, dir: "down" }));
     expect(focus.edges.filter((edge) => edge.kind === "relation")).toHaveLength(0);
-    const all = computeGraphView(graph, state({ view: "all", open: ["derived · TruthCore.Test"] }));
+    const all = computeGraphView(graph, state({ view: "all", relations: true, open: ["derived · TruthCore.Test"] }));
     expect(all.edges.filter((edge) => edge.kind === "relation").map((edge) => edge.label)).toEqual([
       "alternative to",
       "attacks",

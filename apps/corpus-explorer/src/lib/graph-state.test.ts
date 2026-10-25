@@ -3,7 +3,7 @@ import { describe, expect, test } from "bun:test";
 import { DEFAULT_STATE, parseGraphState, serializeGraphState, parseViewport } from "./graph-state";
 
 describe("graph URL state", () => {
-  test("defaults to the global clustered view with an empty query string", () => {
+  test("defaults to the global network view with an empty query string", () => {
     expect(parseGraphState(new URLSearchParams())).toEqual(DEFAULT_STATE);
     expect(serializeGraphState(DEFAULT_STATE)).toBe("");
   });
