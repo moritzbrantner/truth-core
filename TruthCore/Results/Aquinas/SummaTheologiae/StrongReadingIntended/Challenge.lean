@@ -14,8 +14,4 @@ theorem strongReadingIntended
       WordingAdmitsStrong NoTextForcesWeak StrongIntended) :
     StrongPerSeReadingIntendedReading StrongIntended := by
   sorry
-theorem strongReadingYieldsUnmovedMover : StrongReadingYieldsUnmovedMover := by
-  sorry
-theorem weakReadingDoesNotYieldUnmovedMover : WeakReadingDoesNotYieldUnmovedMover := by
-  sorry
 end TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended

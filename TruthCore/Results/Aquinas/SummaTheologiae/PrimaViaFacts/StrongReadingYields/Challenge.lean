@@ -1,0 +1,6 @@
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongReadingYields
+open TruthCore.Latin.Aquinas.SummaTheologiae
+theorem strongReadingYieldsUnmovedMover : StrongReadingYieldsUnmovedMover := by
+  sorry
+end TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongReadingYields
