@@ -97,19 +97,39 @@ def ThoughtTrueOrFalseByCompositionReading {Thought : Type u}
     (Affirms t → (TrueT t ↔ object t) ∧ (FalseT t ↔ ¬ object t)) ∧
       (Denies t → (TrueT t ↔ ¬ object t) ∧ (FalseT t ↔ object t))
 
-/-- Thought affirms or denies every proposition, *Metaphysics* IV.7, 1012a2-3,
-reading B (universal), first half: "every object of thought, thought either
-affirms or denies", read as a claim about every object, and every proposition
-taken as a possible object of thought. It says that each proposition can be the
-object of an affirmation or denial, not yet that this is true or false. -/
+/-- Every object of thought is affirmed or denied, *Metaphysics* IV.7, 1012a2-3,
+reading B (universal), first half, as the sentence states it: "every object of
+thought (πᾶν τὸ διανοητὸν καὶ νοητὸν), thought either affirms or denies". Whatever
+is the object of some thought is the object of a thought that affirms or denies
+it. This is the sourced reading (claim `ARIST-MET-1012A-THOUGHT-AFFIRMS-OR-DENIES-B`). -/
+def ObjectOfThoughtAffirmedOrDeniedReading {Thought : Type u}
+    (object : Thought → Prop) (Affirms Denies : Thought → Prop) : Prop :=
+  ∀ t, ∃ t', (object t' ↔ object t) ∧ (Affirms t' ∨ Denies t')
+
+/-- Thought affirms or denies every proposition: reading B's first half extended
+from "every object of thought" to every proposition, each taken as a possible
+object of thought. That extension is **not** attributed to Aristotle: it is the
+formalization's own open premise (`STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION`,
+no claim), which the bivalence analysis needs. It says that each proposition is
+the object of an affirmation or denial, not yet that this is true or false. -/
 def ThoughtAffirmsOrDeniesEveryPropositionReading {Thought : Type u}
     (object : Thought → Prop) (Affirms Denies : Thought → Prop) : Prop :=
   ∀ p : Prop, ∃ t, (object t ↔ p) ∧ (Affirms t ∨ Denies t)
 
-/-- Every object of thought is judged truly or falsely, *Metaphysics* IV.7,
-1012a2-4, reading B (universal), second half: "whenever it is true or false"
-read not as a condition but as saying that thought, affirming or denying any
-object, is thereby true or false. This is bivalence for thought, and the result
+/-- Affirming or denying thought is true or false, *Metaphysics* IV.7, 1012a2-4,
+reading B (universal), second half, as the sentence states it: "whenever it is
+true or false" read not as a condition but as saying that thought, in affirming
+or denying, is thereby true or false. This is the sourced reading (claim
+`ARIST-MET-1012A-EVERY-OBJECT-JUDGED-B`). -/
+def AffirmingOrDenyingThoughtIsTrueOrFalseReading {Thought : Type u}
+    (Affirms Denies TrueT FalseT : Thought → Prop) : Prop :=
+  ∀ t, Affirms t ∨ Denies t → TrueT t ∨ FalseT t
+
+/-- Every object of thought is judged truly or falsely, for every proposition:
+bivalence for thought. It combines reading B's second half with the extension of
+"every object of thought" to every proposition, and that extension is **not**
+attributed to Aristotle: this is the formalization's own open premise
+(`STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY`, no claim). The result
 `ARIST-MET-1012A-THOUGHT-BIVALENCE-IFF-EXCLUDED-MIDDLE` shows it is equivalent
 to excluded middle given the other readings. -/
 def EveryObjectOfThoughtJudgedTrulyOrFalselyReading {Thought : Type u}

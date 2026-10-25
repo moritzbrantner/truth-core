@@ -71,22 +71,26 @@ conjunction so that `bind-check` binds each to its statement (all from the
 pinned SEP witness, `SEP-INTUITIONISM`):
 1. `p ∨ ¬p` is proved only when `p` or `¬p` is (§3.1);
 2. some proposition is undecided at some stage (§3.1, open problems);
-3. assertion requires proof (§3.1);
-4. no instance of excluded middle can be refuted, `∀ p, ¬¬(p ∨ ¬p)` (§3.4).
+3. no instance of excluded middle can be refuted, `∀ p, ¬¬(p ∨ ¬p)` (§3.4).
 
-Truth as provability is not among them: it is the comparison's own open
-premise (`TruthIsProvabilityReading`, `STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`).
+Two of the comparison's own open premises are not among them, since the entry
+does not state them: assertion requires proof (`AssertionRequiresProofReading`,
+`STMT-ASSERTION-REQUIRES-PROOF-INTUITIONISM`; §3.1 says only that knowing a
+statement true is having a proof of it, and the step from knowing to asserting
+is the comparison's), and truth as provability (`TruthIsProvabilityReading`,
+`STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`).
 -/
 def Intuitionist (s : Sig) : Prop :=
   ExcludedMiddleProvedOnlyWhenDecidedReading s.Proved ∧
     SomePropositionUndecidedReading s.Proved ∧
-    AssertionRequiresProofReading s.Proved s.Asserts ∧
     ExcludedMiddleIrrefutable
 
 /-- The intuitionist theory is consistent, together with the comparison's own
-answer to Q-TRUTH: some interpretation of the shared signature satisfies the
-four sourced commitments and the open premise that truth is provability. -/
+open premises: some interpretation of the shared signature satisfies the three
+sourced commitments, the norm that assertion requires proof, and truth as
+provability. -/
 def IntuitionistTheoryConsistent : Prop :=
-  ∃ s : Sig, Intuitionist s ∧ TruthIsProvabilityReading s.Proved
+  ∃ s : Sig, Intuitionist s ∧ AssertionRequiresProofReading s.Proved s.Asserts ∧
+    TruthIsProvabilityReading s.Proved
 
 end TruthCore.Comparison.ExcludedMiddle

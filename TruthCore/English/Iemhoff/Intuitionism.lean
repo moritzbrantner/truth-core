@@ -37,8 +37,11 @@ def SomePropositionUndecidedReading {Stage : Type u}
   ∃ s p, ¬ Proved s p ∧ ¬ Proved s (¬ p)
 
 /-- §3.1, first sentence: "In intuitionism, knowing that a statement A is true
-means having a proof of it." Read as the intuitionist norm of assertion: what is
-asserted at a stage is proved at that stage. -/
+means having a proof of it." The norm of assertion, that what is asserted at a
+stage is proved at that stage, is **not** attributed to the entry: the step from
+knowing to asserting (asserting is claiming to know) is the comparison's own
+open premise (`STMT-ASSERTION-REQUIRES-PROOF-INTUITIONISM`, no claim). The
+sentence itself is the claim's statement `STMT-KNOWING-TRUE-IS-HAVING-PROOF-INTUITIONISM`. -/
 def AssertionRequiresProofReading {Stage : Type u}
     (Proved Asserts : Stage → Prop → Prop) : Prop :=
   ∀ s p, Asserts s p → Proved s p
