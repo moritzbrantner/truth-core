@@ -91,8 +91,8 @@ def PropertyInclusion (F : Frame World) (ex : ExistsAt World Ind)
   Box F (fun v => ∀ y, ex y v → φ y v → ψ y v)
 
 /-- `GoedelVariantHOML1` definition `Essence`:
-`φ Ess. x ≡ ❙∀ψ. ψ x ❙⊃ (φ ❙⊃⇩N ψ)`. Every property `x` has at a world is
-necessarily included in `φ` there. Unlike Scott's `ess`, `x` need not have
+`φ Ess. x ≡ ❙∀ψ. ψ x ❙⊃ (φ ❙⊃⇩N ψ)`. `φ` is necessarily included in every
+property `x` has at that world. Unlike Scott's `ess`, `x` need not have
 `φ`. -/
 def Essence (F : Frame World) (ex : ExistsAt World Ind)
     (φ : Property World Ind) (x : Ind) : MProp World :=
@@ -127,7 +127,7 @@ def NecessaryExistencePositive (F : Frame World) (ex : ExistsAt World Ind)
   MValid (P (NecessaryExistence F ex))
 
 /-- `GoedelVariantHOML1` axiom `Ax4`: `⌊P φ ❙∧ (φ ❙⊃⇩N ψ) ❙⊃ P ψ⌋`. A property
-necessarily included in a positive property, among existing individuals, is
+necessarily implied by a positive property, among existing individuals, is
 positive. -/
 def PositiveClosedUnderNecessaryInclusion (F : Frame World)
     (ex : ExistsAt World Ind) (P : Positivity World Ind) : Prop :=
