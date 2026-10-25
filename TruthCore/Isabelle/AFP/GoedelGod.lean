@@ -205,4 +205,24 @@ Scott's essence differs from Gödel's 1970 essence
 def EmptyPropertyNotEssence (F : Frame World) (Ind : Type v) : Prop :=
   ∀ w (x : Ind), ¬ Essence F (fun _ _ => False) x w
 
+/-- A finite independence test for Scott's axiom `A5`. There can be two
+universally accessible worlds and one individual satisfying `A1a`, `A1b`,
+`A2`, `A3`, and `A4`, while necessary existence is not positive and `T3`
+fails. The possibility corollary `C` is nevertheless true. This is a new
+logical countermodel concerning the AFP formalization, not a historical
+claim about Scott's philosophical justification for `A5`. -/
+def NecessaryExistencePositivityIndependent : Prop :=
+  ∃ (F : Frame Bool) (P : Positivity Bool Unit),
+    Reflexive F ∧
+    Symmetric F ∧
+    Transitive F ∧
+    NegationPositiveExcludesPositive P ∧
+    NonPositiveHasPositiveNegation P ∧
+    PositiveClosedUnderNecessaryImplication F P ∧
+    GodLikePositive P ∧
+    PositiveNecessarilyPositive F P ∧
+    GodLikePossiblyExists F P ∧
+    ¬ NecessaryExistencePositive F P ∧
+    ¬ GodLikeNecessarilyExists F P
+
 end TruthCore.Isabelle.AFP.GoedelGod

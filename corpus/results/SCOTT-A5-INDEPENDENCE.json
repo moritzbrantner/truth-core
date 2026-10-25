@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-A5-INDEPENDENCE",
+  "argument_id": "SCOTT-A5-INDEPENDENCE",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.checks",
+  "comparator_config": "results/SCOTT-A5-INDEPENDENCE/comparator.json",
+  "status": "solution-present"
+}

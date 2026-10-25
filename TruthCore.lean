@@ -424,6 +424,7 @@ import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution
 import TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution
+import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution
