@@ -45,14 +45,23 @@ read before adding its claims. Only hashes, selectors and paraphrases are stored
   selection. Nor is a living tissue example evidence that all nonliving order
   has this same mechanism.
 
-The eLife author/publisher pages identify these as original English work, under
-Creative Commons Attribution. The independently extracted source readings retain
-the authors' experimental restrictions. Neither abstract establishes the entire
-worldview. Nonliving pattern experiments were located (Tompkins and colleagues,
-PNAS 2014, chemical droplets), but PMC and APS live response bytes drifted between
-requests. No claim from those pages is represented as pinned evidence; this
-remaining witness is recorded as a candidate. The argument proceeds with its
-physical-law account open.
+* `TOMPKINS-CHEMICAL-MORPHOGENESIS-P4397`: Tompkins and colleagues, PNAS
+  111 (2014), printed p.4397. The publisher-formatted primary article is pinned
+  from a stable third-party PDF mirror, identified by authors, title, DOI and
+  pagination. No mirror endorsement or redistribution permission is inferred.
+  The selected physical PDF page contains the abstract, introductory explanation,
+  significance statement and beginning of the chemistry description. It reports
+  chemical differentiation and size changes in diffusively coupled abiotic
+  emulsion droplets. The experimenters prepare the system: absence of agency in
+  the reaction-diffusion equations does not imply absence of intelligent causal
+  involvement. The abstract and body differ on a pattern count; that number is
+  not used. The copying toy is not a formalization of these chemical equations.
+
+The eLife author/publisher pages identify their original English work as under
+Creative Commons Attribution. No reuse terms are stated on the selected PNAS PDF
+page, and no PDF or extracted article text is committed. The independently
+extracted source readings retain experimental restrictions. These sources do
+not establish the entire worldview or explain why the laws exist.
 
 ## Shared answer map
 
@@ -69,7 +78,7 @@ Fifth Way premise and calling the remainder a rival worldview.
 | Q-ADAPTATION: why do traits serve biological functions? | Sourced answer: differential survival/reproduction and inheritance, relative to an environment; Darwin preservation claim and Blount refinement claim. | Broader immanent finality plus natural agents under government; selection can be a secondary mechanism. The Fifth Way is not itself a biological adaptation theory. |
 | Q-IMPERFECTION: why maladaptation and neutral traits? | Sourced answer: neutral variation unaffected by selection; contingent and constrained adaptation, including the Blount mismatch findings. No claim that all imperfections have now been explained. | Privation of due good (`STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD`), not the assertion that every organism is optimally adapted. Specific biological histories remain to be investigated. |
 | Q-PATTERN: how can organized morphology arise? | Sourced answer: Dye mechanical feedback, with a specific continuum model and perturbation evidence. | Secondary causes under governance are compatible with that mechanism; broader final causality does not replace its equations. |
-| Q-NONLIVING: why recurring motion, chemistry and celestial order? | Open answer: `STMT-TELEONOMY-NONLIVING-PHYSICAL-LAWS`, lawful physical interactions; selection does not apply to nonreproducing bodies. The biological evidence alone leaves their explanation unexplained. | Natural bodies regularly act for what is best; the nonchance, broad-tending and arrow premises are distinct claims, not observations of reproductive selection. |
+| Q-NONLIVING: why recurring motion, chemistry and celestial order? | Partly sourced answer: `STMT-TELEONOMY-ABIOTIC-CHEMICAL-PATTERN` supplies a reaction-diffusion mechanism for abiotic droplets. `STMT-TELEONOMY-NONLIVING-PHYSICAL-LAWS` extends lawful physical explanation to other domains as an open commitment; no falling-body or celestial dynamics theory is proved here. Selection does not apply to nonreproducing bodies. | Natural bodies regularly act for what is best; the nonchance, broad-tending and arrow premises are distinct claims, not observations of reproductive selection. |
 | Q-LAWS: why these laws and their regularity as such? | Unexplained (`STMT-TELEONOMY-LAWS-EXPLANATORY-STOP`). Taking laws as brute does not derive their existence or uniqueness. Self-organization presupposes laws and boundary conditions. | Order under an intelligent governor is argued by the Fifth Way with q.103 and regress premises; their truth remains subject to the premise program. |
 | Q-FINALITY: is useful recurrence already conscious intention? | Open answer: selected function concerns past effects; it need not represent a future goal. Broad immanent tending is compatible with mechanisms; denying that broader sense is an additional philosophical reading. | `DEF-INTENTIO-AS-TENDING`: broad tending, not necessarily conscious intention. `TendsTo` and `HasCognition` remain separate predicates. |
 | Q-DIRECTOR: must a noncognitive thing tending to an end have a knower? | Open answer: the existing global teleonomy thesis denies a director and supplies mechanisms in the explained domains. Neither source experiment proves this global denial. | `STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR`, the separate arrow/archer premise. |
@@ -81,10 +90,10 @@ Fifth Way premise and calling the remainder a rival worldview.
 | Q-REVELATION: can divine revelation be recognized? | Unexplained by these sources. | Skeleton stage 3, with its open bridges. |
 | Q-JESUS-AND-CHURCH: Resurrection and ecclesial authority? | Unexplained by these sources. | Skeleton stages 4–6 and the root's creed/authority commitments. No historical comparison is manufactured from selection. |
 
-Counts for the **15 cells on this map**: 4 have scoped primary-source mechanism
-answers (variation, adaptation, imperfection, pattern); 3 have explicit open
-philosophical answers (nonliving regularity, finality, director); 8 remain
-unexplained. A partially answered cell is counted among the 4 only with its
+Counts for the **15 cells on this map**: 5 have scoped primary-source mechanism
+answers (variation, adaptation, imperfection, pattern, nonliving regularity);
+2 have explicit open philosophical answers (finality, director); 8 remain
+unexplained. A partially answered cell is counted among the 5 only with its
 restriction retained above. These are coverage counts, not scores, certainty
 numbers or a ranking. The finite consistency theorem tests three encoded model
 commitments, not all 15 answers or the truth of the global naturalistic thesis.

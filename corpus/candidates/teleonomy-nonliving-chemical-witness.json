@@ -1,9 +1,0 @@
-{
-  "id": "TELEONOMY-NONLIVING-CHEMICAL-WITNESS",
-  "source_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS",
-  "locator": "Abstract; chemical droplets, reaction-diffusion and pattern predictions",
-  "priority": 321,
-  "goal": "Waiting for a witness. Pin a stable primary author or publisher witness for Tompkins et al. PNAS 2014, then materialize/read it before recording its chemical-pattern mechanism and limits. PMC3970514 and APS2015 J48.6 had identical extracted abstracts but different response-byte hashes on consecutive requests. Investigate a static PDF via the existing web_snapshot adapter; do not add a source kind or pretend that partial text stability verifies a drifting snapshot. The nonliving explanation cell in docs/teleonomy-comparison.md remains an explicit open physical-law answer meanwhile.",
-  "reason": "The #251 mechanism comparison continues without fake sourcing. Selection of biological variants does not itself explain nonliving order; a chemical pattern experiment can supply scoped evidence but would not explain why laws exist.",
-  "status": "candidate"
-}
