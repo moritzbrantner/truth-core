@@ -1,13 +1,14 @@
+import { fixtureGraph } from "./frontier-fixture";
 import { describe, expect, test } from "bun:test";
 
 import { DEFAULT_STATE, type GraphState } from "./graph-state";
 import { computeGraphView, indexGraph, searchStatements } from "./graph-view";
-import { buildPropositionGraph } from "./proposition-graph";
+
 import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
 
-const graph = buildPropositionGraph(fixture);
-const state = (patch: Partial<GraphState>): GraphState => ({ ...DEFAULT_STATE, ...patch });
+const graph = fixtureGraph(fixture);
+const state = (patch: Partial<GraphState>): GraphState => ({ ...DEFAULT_STATE, view: "root", ...patch });
 const ids = (view: ReturnType<typeof computeGraphView>, kind?: string) =>
   view.nodes.filter((node) => !kind || node.kind === kind).map((node) => node.id).sort();
 
@@ -95,7 +96,7 @@ describe("corpus graph views", () => {
   const index = indexGraph(corpusGraph);
 
   test("the default root-path view is a bounded subgraph", () => {
-    const view = computeGraphView(corpusGraph, DEFAULT_STATE, index);
+    const view = computeGraphView(corpusGraph, { ...DEFAULT_STATE, view: "root" }, index);
     expect(view.statementCount).toBeGreaterThan(1);
     expect(view.statementCount).toBeLessThan(corpusGraph.statements.length);
     expect(view.nodes.some((node) => node.kind === "inference")).toBe(true);

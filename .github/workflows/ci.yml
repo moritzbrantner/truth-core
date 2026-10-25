@@ -63,10 +63,18 @@ jobs:
         run: bun run lint
       - name: Build explorer
         run: bun run build
+      - name: Install browser for frontier regression
+        run: bun run --cwd apps/corpus-explorer playwright install --with-deps chromium
+      - name: Test frontier in the browser
+        run: bun run --cwd apps/corpus-explorer test:browser
       - name: Build explorer for GitHub Pages
         env:
           GITHUB_PAGES: "true"
         run: bun run build
+      - name: Test frontier under the Pages base path
+        env:
+          TEST_BASE_PATH: /truth-core
+        run: bun run --cwd apps/corpus-explorer test:browser
 
   comparator:
     runs-on: ubuntu-latest

@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NATURAL-LAW-MORAL-EVIL",
+  "term": "naturally evil, practical evaluation in q.94",
+  "definition": "What is contrary to natural law in practical judgment, exemplified by the robbery judgment q.94 a.4 calls expressly contrary to natural law. The correction reading leaves NaturallyEvil primitive; it does not identify every privation of a due good with a morally wrong act.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED",
+    "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CorruptedNaturalLawNeedsCorrectionReading"
+}

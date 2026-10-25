@@ -6,6 +6,13 @@ export type FocusDirection = "up" | "down" | "both";
 
 export type GraphState = {
   view: GraphView;
+  scope: "global" | "goal";
+  obligation: string;
+  pins: string[];
+  kind: string;
+  expanded: string[];
+  returnView: string;
+  viewport: string;
   /** Root-path view: the statement whose supporting paths are shown. */
   target: string;
   /** Focus view: the centre node (statement or inference ID). */
@@ -51,7 +58,14 @@ const statuses: GraphStatus[] = [
 export const MAX_HOPS = 6;
 
 export const DEFAULT_STATE: GraphState = {
-  view: "root",
+  view: "all",
+  scope: "global",
+  obligation: "",
+  pins: [],
+  kind: "",
+  expanded: [],
+  returnView: "",
+  viewport: "",
   target: "",
   node: "",
   hops: 2,
@@ -79,6 +93,13 @@ export function parseGraphState(params: ReadableParams): GraphState {
   const hops = Number.parseInt(params.get("hops") ?? "", 10);
   return {
     view: oneOf(params.get("view"), views, DEFAULT_STATE.view),
+    scope: params.get("scope") === "goal" ? "goal" : "global",
+    obligation: params.get("obligation") ?? "",
+    pins: list(params, "pin"),
+    kind: params.get("kind") ?? "",
+    expanded: list(params, "expand"),
+    returnView: params.get("return") ?? "",
+    viewport: params.get("viewport") ?? "",
     target: params.get("target") ?? "",
     node: params.get("node") ?? "",
     hops: Number.isFinite(hops) ? Math.min(MAX_HOPS, Math.max(0, hops)) : DEFAULT_STATE.hops,
@@ -86,9 +107,7 @@ export function parseGraphState(params: ReadableParams): GraphState {
     cluster: oneOf(params.get("cluster"), clusterModes, DEFAULT_STATE.cluster),
     open: list(params, "open"),
     q: params.get("q") ?? "",
-    status: list(params, "status").filter((value): value is GraphStatus =>
-      (statuses as string[]).includes(value),
-    ),
+    status: list(params, "status").filter((value): value is GraphStatus => (statuses as string[]).includes(value)),
     tags: list(params, "tag"),
     source: params.get("source") ?? "",
     hide: params.get("hide") === "1",
@@ -114,9 +133,31 @@ export function serializeGraphState(state: GraphState): string {
   if (state.hide) params.set("hide", "1");
   if (state.sel) params.set("sel", state.sel);
   if (state.arg) params.set("arg", state.arg);
+  if (state.scope !== "global") params.set("scope", state.scope);
+  if (state.obligation) params.set("obligation", state.obligation);
+  for (const pin of state.pins) params.append("pin", pin);
+  if (state.kind) params.set("kind", state.kind);
+  for (const id of state.expanded) params.append("expand", id);
+  if (state.returnView) params.set("return", state.returnView);
+  if (state.viewport) params.set("viewport", state.viewport);
   return params.toString();
 }
 
 export function hasFilters(state: GraphState) {
   return Boolean(state.q.trim() || state.status.length || state.tags.length || state.source);
+}
+
+/** Finite viewport values only; malformed links fall back to fit-to-view. */
+export function parseViewport(value: string) {
+  const parts = value.split(",").map(Number);
+  if (
+    !value ||
+    parts.length !== 3 ||
+    parts.some((part) => !Number.isFinite(part)) ||
+    parts[2] < 0.05 ||
+    parts[2] > 1.6
+  ) {
+    return undefined;
+  }
+  return { x: parts[0], y: parts[1], zoom: parts[2] };
 }

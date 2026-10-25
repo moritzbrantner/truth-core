@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CORRECTION-NEEDED",
+  "term": "correction needed (not an accomplished correction)",
+  "definition": "In the second explanation of ST I-II q.94 a.5 ad 1, someone judges good what is naturally evil and that corruption needs correction. NeedsCorrection is a primitive predicate on a person and the matter judged. The reading asserts one instance, not that correction occurred or every change is improvement.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CorruptedNaturalLawNeedsCorrectionReading"
+}

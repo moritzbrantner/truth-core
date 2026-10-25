@@ -1,0 +1,9 @@
+{
+  "id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "argument_id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "challenge_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Solution",
+  "theorem": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.sharedDataDoNotChooseOrder",
+  "comparator_config": "results/MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER/comparator.json",
+  "status": "solution-present"
+}
