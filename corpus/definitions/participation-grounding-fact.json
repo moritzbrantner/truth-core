@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-FACT",
+  "term": "fact",
+  "definition": "A typed fact token: base x g, participation x f, or exemplification x q. Tokens distinguish the relata of explanatory dependence; they do not assert that the fact obtains.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Fact"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-IDENTIFICATION",
+  "term": "epistemic identification",
+  "definition": "Identifies agent bearer quality represents the agent identifying the bearer as F. This is separate from being F, participating, grounding and production. No infallibility, evidence or knowledge axiom is included.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+}

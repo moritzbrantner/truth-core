@@ -1,0 +1,9 @@
+{
+  "id": "REL-PARTICIPATION-MANNER-OPEN",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-PHAEDO-100D-MANNER-OPEN",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATION-PRIMITIVE-REPLY",
+  "note": "Leaving the manner unspecified leaves space for this reply; it does not assert primitiveness or its adequacy."
+}

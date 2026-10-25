@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-GENERIC",
+  "term": "generic Form principles",
+  "definition": "A limited eleven-component synthesis: two property instances, one over many, unique Forms, participation predication, nonidentity, ontological separation, explanatory participation, exemplar participation, intelligible Forms, essential characterization and coextension. This is a test bundle, not all Platonisms or a historically attributed universal theory.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Generic"
+}

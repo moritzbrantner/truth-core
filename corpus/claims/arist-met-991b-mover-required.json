@@ -1,0 +1,36 @@
+{
+  "id": "ARIST-MET-991B-MOVER-REQUIRED",
+  "statement_id": "STMT-PARTICIPATION-MOVER-REQUIRED",
+  "source_id": "ARIST-MET",
+  "locator": "I.9, 991b3–9",
+  "interpretation": "Bounded reading of the complete materialized Greek chapter, retaining Aristotle’s contrast between causes of being and generation. His criticism requires an initiating mover for coming-to-be even if Forms exist; this is not a denial of every constitutive explanation by Forms. Kept as prose because the finite Produces relation does not encode a full theory of natural generation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARTICIPATION-FORMATION",
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-ESSENTIAL",
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-IMMANENT-FORM",
+    "DEF-PLATONIC-INDEPENDENCE",
+    "DEF-PLATONIC-INTELLIGIBLE",
+    "DEF-PLATONIC-LIKENESS",
+    "DEF-PLATONIC-NONIDENTITY",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PARTICIPATION-EXPLANATION",
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION",
+    "DISAMB-PLATONIC-SEPARATION"
+  ]
+}

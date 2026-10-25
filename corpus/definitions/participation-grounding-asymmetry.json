@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-ASYMMETRY",
+  "term": "grounding asymmetry",
+  "definition": "Every asserted ground-to-grounded edge excludes the reverse edge. This optional strict explanatory norm is an explicit premise of the circularity test, not assumed for every causal or semantic relation.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.AsymmetricGround"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTICIPATION-FORMATION",
+  "term": "formative causation",
+  "definition": "Produces agent bearer quality represents a productive/formative role concerning the bearer being made F. This relation has no built-in temporal or mechanistic axioms; its finite extension tests only independence and compatibility, not the adequacy of an account of generation.",
+  "basis": "stipulative",
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+}

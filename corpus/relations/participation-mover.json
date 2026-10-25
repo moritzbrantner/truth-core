@@ -1,0 +1,9 @@
+{
+  "id": "REL-PARTICIPATION-MOVER",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-991B-MOVER-REQUIRED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATION-RESIDUAL",
+  "note": "The generation criticism bears on the need for an actual formative account without settling metaphysical participant grounding."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MODAL-T-SCOPE-BOUNDARY",
+  "argument_id": "MODAL-T-SCOPE-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Modal.T.ScopeBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Modal.T.ScopeBoundary.Solution",
+  "theorem": "TruthCore.Results.Modal.T.ScopeBoundary.checks",
+  "comparator_config": "results/MODAL-T-SCOPE-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
+  "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Greek.Plato.ParticipationGrounding.selectorAgreement"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

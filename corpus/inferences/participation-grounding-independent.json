@@ -1,0 +1,9 @@
+{
+  "id": "INF-PARTICIPATION-GROUNDING-INDEPENDENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PARTICIPATION-GROUNDING-INDEPENDENT",
+  "rule": "finite-model-construction",
+  "meaning": "Construct the same classification and base with an empty explanatory account and a separate directed base-to-participation account. Different Fact constructors prevent reverse grounding. Formative and identification extensions also differ. This verifies compatibility and non-entailment, not mechanism adequacy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

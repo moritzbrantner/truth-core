@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-T-REFLEXIVITY",
+  "term": "T reflexivity",
+  "definition": "Reflexive F means every world w accesses itself. It supplies the same world as a possibility witness and licenses Box P w implies P w. It asserts neither symmetry nor transitivity, and imposes no proposition-domain completeness or world-extensionality premise.",
+  "basis": "stipulative",
+  "note": "Issue #264 mathematical experiment. No source attribution, metaphysical endorsement or philosophical premise is asserted. Historical adoption would require its own pinned passage and interpretation.",
+  "lean_declaration": "TruthCore.Modal.Reflexive"
+}
