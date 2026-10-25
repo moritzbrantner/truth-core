@@ -1,0 +1,25 @@
+{
+  "id": "STMT-RUSSELL-INSTANCE-BASIS-LAW",
+  "paraphrase": "Every satisfying candidate in the selected extension is grounded by its separately tagged basis fact in the supplied grounding interpretation. This is an optional unattributed sufficient norm, not inferred from the quantifier analysis or assumed philosophically true.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.InstanceBasisLaw",
+  "definition_ids": [
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+    "DEF-RUSSELL-DESCRIPTION",
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-INSTANTIATION",
+    "DEF-RUSSELL-FINITE-EXTENSION",
+    "DEF-RUSSELL-GROUNDING",
+    "DEF-RUSSELL-EXHAUSTIVENESS",
+    "DEF-RUSSELL-ACTUAL-DOMAIN",
+    "DEF-RUSSELL-CONTEXTUAL-NAME",
+    "DEF-RUSSELL-LOGICAL-ANALYSIS",
+    "DEF-RUSSELL-REALIZED",
+    "DEF-RUSSELL-BASIS-LAW",
+    "DEF-RUSSELL-GROUNDED-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

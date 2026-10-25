@@ -1,0 +1,12 @@
+{
+  "id": "INF-RUSSELL-EXISTENCE-PROJECTION",
+  "input_statement_ids": [
+    "STMT-RUSSELL-REALIZED",
+    "STMT-RUSSELL-INSTANCE-BASIS-LAW"
+  ],
+  "output_statement_id": "STMT-RUSSELL-GROUNDING-PROJECTION",
+  "rule": "direct-proof",
+  "meaning": "Eliminate the realized existential witness, apply the typed basis law to that very witness and retain its instantiation fact. Separately verify empty-grounding and empty-extension countermodels for the omitted premises. The sufficient norm is an explicit open philosophical input, not a sourced assertion or opaque conclusion bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

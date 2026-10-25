@@ -1,0 +1,10 @@
+{
+  "id": "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+  "term": "quantificational existence",
+  "definition": "ExistsPred F means that F has at least one witness in its typed domain. It says neither which witness nor exact multiplicity, nor any ground of instantiation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUSSELL-ATOMISM-V-NONEMPTY"
+  ],
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.ExistsPred"
+}

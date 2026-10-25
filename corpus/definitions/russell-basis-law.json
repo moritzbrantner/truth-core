@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-BASIS-LAW",
+  "term": "optional instance-to-basis law",
+  "definition": "For every satisfying candidate x, the supplied grounding interpretation relates its distinct basis fact to its instance fact. This is one optional sufficient explanatory norm, not attributed to Russell, not implied by A1, not assumed true, and not claimed to be the only way a grounding account could work.",
+  "basis": "stipulative",
+  "note": "Explicit hypothetical conditions for the A3 frontier in #273. Philosophical defense of actual realization and the norm is a separate research task, not established by the finite proof.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.InstanceBasisLaw"
+}

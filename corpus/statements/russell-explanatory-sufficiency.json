@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RUSSELL-EXPLANATORY-SUFFICIENCY",
+  "paraphrase": "Additional modern sufficiency bridge: the specified extension fixes all sound asymmetric grounding expansions. GroundingDetermined F states this precise target. It is not attributed to Russell and is not established merely by the quantifier analysis; the finite result rejects it for singleA without extra restrictions on expansions.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.GroundingDetermined",
+  "definition_ids": [
+    "DEF-RUSSELL-EXHAUSTIVENESS",
+    "DEF-RUSSELL-GROUNDING",
+    "DEF-RUSSELL-INSTANTIATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

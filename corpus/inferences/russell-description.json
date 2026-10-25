@@ -1,0 +1,9 @@
+{
+  "id": "INF-RUSSELL-EXISTENCE-DESCRIPTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RUSSELL-EXISTENCE-DESCRIPTION",
+  "rule": "direct-proof",
+  "meaning": "Construct the unique witness from nonemptiness and uniqueness; conversely use its identity-characterization to derive both properties. No excluded middle, choice or inhabitance premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "RUSSELL-ATOMISM-V-INDIVIDUAL-RESTRICTION",
+  "statement_id": "STMT-RUSSELL-INDIVIDUAL-RESTRICTION",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "V.77",
+  "interpretation": "Russell rejects applying the same existence notion as a meaningful predicate of an actually named individual. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-GENUINE-NAME",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

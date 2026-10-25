@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RUSSELL-GROUNDED-EXISTENCE",
+  "term": "grounded witness in the conditional projection",
+  "definition": "There is a satisfying candidate whose instance has the particular basis ground specified by the optional law. GroundingProjection additionally carries fixed countermodels showing why realization and that law cannot simply be omitted from this chosen derivation.",
+  "basis": "stipulative",
+  "note": "Explicit hypothetical conditions for the A3 frontier in #273. Philosophical defense of actual realization and the norm is a separate research task, not established by the finite proof.",
+  "lean_declaration": "TruthCore.Modern.Russell.Existence.GroundedExistence"
+}

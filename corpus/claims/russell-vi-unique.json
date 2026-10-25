@@ -1,0 +1,17 @@
+{
+  "id": "RUSSELL-ATOMISM-VI-UNIQUE",
+  "statement_id": "STMT-RUSSELL-DESCRIPTION-UNIQUE",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "VI.86–87",
+  "interpretation": "Existence of a singular definite description requires at least one satisfying value and at most one. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-DESCRIPTION",
+    "DEF-RUSSELL-INSTANTIATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

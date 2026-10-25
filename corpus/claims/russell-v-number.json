@@ -1,0 +1,17 @@
+{
+  "id": "RUSSELL-ATOMISM-V-CONTINGENT-NUMBER",
+  "statement_id": "STMT-RUSSELL-EXACT-NUMBER-CONTINGENT",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "V.75–76",
+  "interpretation": "Existence of a universe and its exact number of things are empirical, not logical, matters on Russell’s account. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-FINITE-EXTENSION",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

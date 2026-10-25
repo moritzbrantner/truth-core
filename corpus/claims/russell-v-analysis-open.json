@@ -1,0 +1,17 @@
+{
+  "id": "RUSSELL-ATOMISM-V-ANALYSIS-INCOMPLETE",
+  "statement_id": "STMT-RUSSELL-GENERAL-FACT-ANALYSIS-OPEN",
+  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "locator": "V.71–72",
+  "interpretation": "Russell admits general and existence facts and says the propositional-function treatment is not their complete analysis. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-RUSSELL-LOGICAL-ANALYSIS",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

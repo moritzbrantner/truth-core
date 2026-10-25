@@ -1,0 +1,9 @@
+{
+  "id": "REL-RUSSELL-GROUNDING-SUFFICIENCY-SCOPE",
+  "subject_kind": "argument",
+  "subject_id": "RUSSELL-EXISTENCE-GROUNDING",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-RUSSELL-EXPLANATORY-SUFFICIENCY",
+  "note": "The explicit sound asymmetric expansions disagree for singleA. This refutes extension-only sufficiency within the stipulated expansion class; it does not establish that Russell endorses that target or that a primitive fact cannot be adequate."
+}

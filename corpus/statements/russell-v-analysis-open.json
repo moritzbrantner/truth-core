@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RUSSELL-GENERAL-FACT-ANALYSIS-OPEN",
+  "paraphrase": "Russell admits general and existence facts and says the propositional-function treatment is not their complete analysis.",
+  "definition_ids": [
+    "DEF-RUSSELL-LOGICAL-ANALYSIS",
+    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}

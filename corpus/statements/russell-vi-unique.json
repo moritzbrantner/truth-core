@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RUSSELL-DESCRIPTION-UNIQUE",
+  "paraphrase": "Existence of a singular definite description requires at least one satisfying value and at most one.",
+  "definition_ids": [
+    "DEF-RUSSELL-DESCRIPTION",
+    "DEF-RUSSELL-INSTANTIATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RUSSELL-EXISTENCE",
+    "DISAMB-RUSSELL-EXPLANATION",
+    "DISAMB-RUSSELL-NAMES"
+  ]
+}
