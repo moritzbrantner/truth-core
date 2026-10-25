@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-INDEPENDENCE",
+  "term": "separation",
+  "definition": "Independent f marks the ontological-separation reading: f has being in its own right rather than merely being a feature of a bearer. It remains a primitive open predicate, not a possible-worlds theorem about existence without particulars.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-FEEDBACK-COVERAGE",
+  "argument_id": "TELEONOMY-FEEDBACK-COVERAGE",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.feedbackCoverage",
+  "comparator_config": "results/TELEONOMY-FEEDBACK-COVERAGE/comparator.json",
+  "status": "solution-present"
+}

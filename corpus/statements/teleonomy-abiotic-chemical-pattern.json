@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TELEONOMY-ABIOTIC-CHEMICAL-PATTERN",
+  "paraphrase": "Tompkins and colleagues report that diffusively coupled emulsion droplets of Belousov\u2013Zhabotinsky reactants develop chemical differentiation and changes in physical size. Abiotic materials thereby exhibit reaction-diffusion morphogenesis in their artificial system; unexpected patterns require an extension of the model with heterogeneity.",
+  "definition_ids": [
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-PHYSICAL-LAW",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

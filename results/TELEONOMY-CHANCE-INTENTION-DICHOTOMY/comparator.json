@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.chanceIntentionDichotomy"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-TELEONOMY-FRAGMENT-CONSISTENT",
+  "paraphrase": "The finite differential-retention filter, stable local-coupling dynamics and the existing unguided-finality countermodel are jointly satisfiable. Composes their independently verified results. It tests consistency only of the encoded fragment, not empirical truth, global naturalism, consciousness or universal explanatory coverage; the whole worldview and unexplained cells are in docs/teleonomy-comparison.md.",
+  "lean_declaration": "TruthCore.Comparison.Teleonomy.NaturalisticFragment",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

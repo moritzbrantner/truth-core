@@ -1,0 +1,15 @@
+{
+  "id": "STMT-TELEONOMY-FEEDBACK-COVERAGE",
+  "paraphrase": "Local coupling creates alignment from a nonaligned initial condition and is idempotent for every state. No agent or selection predicate is used. This toy establishes possibility, not Dye’s quantitative model.",
+  "lean_declaration": "TruthCore.Teleonomy.FeedbackCoverage",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

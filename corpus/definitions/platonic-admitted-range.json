@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-ADMITTED-RANGE",
+  "term": "range of Forms",
+  "definition": "Admitted q selects the quality domain of a reading. It is not all predicates or all common names by definition. A Republic artifact reading and a Phaedo beautiful/good/large reading need distinct instantiations, not one silently universal domain.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

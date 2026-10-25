@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-FORM",
+  "term": "form",
+  "definition": "FormOf f q identifies f as the putative intelligible Form of quality q. It is a relation, not an existence axiom, not a predicate name, and not Aristotelian form in matter. Existence and uniqueness are separate commitments.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

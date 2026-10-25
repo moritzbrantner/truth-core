@@ -1,0 +1,20 @@
+{
+  "id": "INF-PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "input_statement_ids": [
+    "STMT-PLATONIC-PROPERTY-INSTANCES",
+    "STMT-PLATONIC-ONE-OVER-MANY",
+    "STMT-PLATONIC-UNIQUE-FORMS",
+    "STMT-PLATONIC-PARTICIPATION-PREDICATION",
+    "STMT-PLATONIC-NONIDENTITY",
+    "STMT-PLATONIC-ONTOLOGICAL-SEPARATION",
+    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+    "STMT-PLATONIC-EXEMPLAR-PARTICIPATION",
+    "STMT-PLATONIC-INTELLIGIBLE-FORMS",
+    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION"
+  ],
+  "output_statement_id": "STMT-PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "rule": "model-construction",
+  "meaning": "Construct a finite relational interpretation with two particulars and one distinct common Form. All particulars and the Form exemplify the sole quality; only particulars participate in the Form. Independence, explanation, intelligibility and exemplar predicates receive explicit extensions. This is a compatibility model, not an account of why those explanatory relations hold in reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TELEONOMY-EXPERIMENTAL-REFINEMENT",
+  "paraphrase": "Cit+ E. coli populations evolved for 2500 generations in citrate-only or glucose-citrate media; parallel mutations and some maeA-region amplifications accompanied refinement. Some populations or clones showed apparent fitness declines and substantial cell death, suggesting persistent physiological mismatch.",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

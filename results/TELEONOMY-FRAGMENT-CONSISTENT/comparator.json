@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.fragmentConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

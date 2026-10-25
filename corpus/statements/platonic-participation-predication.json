@@ -1,0 +1,18 @@
+{
+  "id": "STMT-PLATONIC-PARTICIPATION-PREDICATION",
+  "paraphrase": "For an admitted quality, particulars participating in its Form exemplify that quality; this leaves the manner of participation unspecified.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.ParticipationPredication",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "PLATO-REP-479A-PROPERTY-INSTANCES",
+  "statement_id": "STMT-PLATONIC-PROPERTY-INSTANCES",
+  "source_id": "PLATO-REP",
+  "locator": "479a",
+  "interpretation": "Bounded projection of the many beautiful things; quality and respect are supplied parameters. The passage’s further claim that each can also appear ugly is preserved in a separate source reading.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

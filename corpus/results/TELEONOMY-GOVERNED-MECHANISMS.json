@@ -1,0 +1,9 @@
+{
+  "id": "TELEONOMY-GOVERNED-MECHANISMS",
+  "argument_id": "TELEONOMY-GOVERNED-MECHANISMS",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.governedMechanisms",
+  "comparator_config": "results/TELEONOMY-GOVERNED-MECHANISMS/comparator.json",
+  "status": "solution-present"
+}

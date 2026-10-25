@@ -1,0 +1,21 @@
+{
+  "id": "PLATO-REP-596A-ONE-OVER-MANY",
+  "statement_id": "STMT-PLATONIC-ONE-OVER-MANY",
+  "source_id": "PLATO-REP",
+  "locator": "596a–b",
+  "interpretation": "The usual method posits one Form over the many bearing a common name. Participates is read here only as common attribution, not a mechanism. Admitted is restricted to the relevant quality domain; no commitment for arbitrary predicates follows.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ADMITTED-RANGE",
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-PARTICULAR",
+    "DEF-PLATONIC-PREDICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-PARTICIPATION",
+    "DISAMB-PLATONIC-PREDICATION"
+  ]
+}

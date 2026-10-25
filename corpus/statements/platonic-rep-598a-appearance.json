@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PLATONIC-REP-598A-APPEARANCE",
+  "paraphrase": "The painter imitates the artisan’s work as it appears rather than the Form itself or the artifact as it is. Generic resemblance is not thereby identical with directed exemplar dependence.",
+  "definition_ids": [
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-LIKENESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}

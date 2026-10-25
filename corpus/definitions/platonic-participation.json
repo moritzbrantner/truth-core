@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLATONIC-PARTICIPATION",
+  "term": "participation",
+  "definition": "Participates x f is the minimal bearer-to-Form attribution relation. In the thin reading its extensions track F-predication. It stipulates no spatial sharing, part/whole distribution, causal power or identity.",
+  "basis": "stipulative",
+  "note": "Semantic interface for the bounded issue #257 readings. Primary passages motivate this sense but do not define this modern relational encoding. A sourced replacement would need a passage fixing precisely these semantic boundaries.",
+  "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+}

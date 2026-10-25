@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.localUniversalScope"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

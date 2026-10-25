@@ -1,0 +1,19 @@
+{
+  "id": "PLATO-TIM-52A-THREE-KINDS",
+  "statement_id": "STMT-PLATONIC-TIM-52A-THREE-KINDS",
+  "source_id": "PLATO-TIM",
+  "locator": "52a–d",
+  "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Timaeus distinguishes stable intelligible being, its generated sensible namesake/image, and the receptacle or space. The Forms vocabulary models only the first-to-second relation; it does not erase the third kind or purport to exhaust the passage.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-EXEMPLAR",
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-IMITATION",
+    "DEF-PLATONIC-INTELLIGIBLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PLATONIC-LIKENESS",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}

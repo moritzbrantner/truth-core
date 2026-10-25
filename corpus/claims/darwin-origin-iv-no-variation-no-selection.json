@@ -1,0 +1,18 @@
+{
+  "id": "DARWIN-ORIGIN-IV-NO-VARIATION-NO-SELECTION",
+  "statement_id": "STMT-TELEONOMY-NO-VARIATION-NO-SELECTION",
+  "source_id": "DARWIN-ORIGIN",
+  "locator": "IV, natural selection, paragraph: We have reason to believe",
+  "interpretation": "Variation is a prerequisite rather than a product supplied by the selection operation. Does not purport to explain the first organism or the laws of nature.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TELEONOMY-SELECTION-FILTER",
+    "DEF-TELEONOMY-LOCAL-COUPLING",
+    "DEF-TELEONOMY-MODEL-SCOPE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-GOVERNMENT-DIRECTION-TO-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}
