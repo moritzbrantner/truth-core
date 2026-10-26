@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MOVED-BY-ANOTHER",
+  "term": "moved by another (ὑπʼ ἄλλου κινεῖσθαι)",
+  "definition": "A thing is moved by another when some thing other than it moves it, in some respect (Physics VIII.5, 256a13-21). Lean: `MovedByAnother MovesIn y := ∃ z r, z ≠ y ∧ MovesIn z y r`. 'Moved by something' (ὑπό τινος) is weaker: the something may be the thing itself (DISAMB-MOVED-BY-SOMETHING).",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-256A13-FIRST-MOVER-NOT-BY-ANOTHER-A",
+    "ARIST-PHYS-256A17-NO-INFINITE-MOVED-BY-ANOTHER-A"
+  ]
+}

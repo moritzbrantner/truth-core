@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
+  "paraphrase": "Whatever is moved in a respect by nature and by itself is moved in that respect by something per se: the moving part (the Lean leaves open which being; with STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT it must be other than the whole).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NaturalSelfMotionByAMoverReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-NATURAL-AND-FORCED-MOTION",
+    "DEF-RESPECT",
+    "DEF-SELF-MOTION-ARISTOTLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING",
+    "DISAMB-SELF-MOTION"
+  ]
+}

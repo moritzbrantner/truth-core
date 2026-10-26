@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A",
+  "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.13 a.5 co.: quidquid dicitur de Deo et creaturis, dicitur secundum quod est aliquis ordo creaturae ad Deum, ut ad principium et causam, in qua praeexistunt excellenter omnes rerum perfectiones",
+  "interpretation": "Read for one perfection said of God and of creatures: every creature that has it has it by its order to the primary as to its principle and cause, that is, the primary is a cause of that perfection in it (CausesIn p x r). The causal relation is stated by the sentence ('ut ad principium et causam, in qua praeexistunt ... omnes rerum perfectiones'), and the article's own example of this mode is the medicine that is 'causa sanitatis quae est in animali'; the reading choice is only the sense of cause (DISAMB-CAUSE: cause of a perfection, not mover). It is the second of the two modes of analogy the article distinguishes (one to another, as medicine to the animal's health), not the first (many to one). The reading is restricted to creatures (DEF-CREATURE): the sentence does not say that everything other than God is a creature, which is the separate open premise STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES, with no attributing claim. Only the instance r = esse is used by the results. Aristotle's pros hen (ARIST-MET-1003A-BEING-SAID-PROS-HEN-A) does not give it: there the relation to the primary may be being an affection, a way, a privation of substance, not only being caused by it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-CREATURE",
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

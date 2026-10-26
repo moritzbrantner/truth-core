@@ -141,6 +141,10 @@ def InfiniteMotionFiniteTimeConfigurationCasesReading
 magnitude were infinite, the other would have to be infinite as well, and the
 earlier cases exclude the traversal, in Aristotle, *Physics* VI.7, 238b15-22.
 
+Typed sibling reading for the VII.1 regress:
+`TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteTraversalInFiniteTimeReading`
+(docs/typed-physics.md).
+
 Source: Aristotle, *Physics* VI.7, 238b15-22 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/

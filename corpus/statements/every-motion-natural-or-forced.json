@@ -1,0 +1,14 @@
+{
+  "id": "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
+  "paraphrase": "Every physical motion (in place, quality or quantity) of a thing in a respect is either by nature or by force and contrary to nature.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryMotionNaturalOrForcedReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-NATURAL-AND-FORCED-MOTION",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

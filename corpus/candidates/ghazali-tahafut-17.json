@@ -1,0 +1,9 @@
+{
+  "id": "GHAZALI-TAHAFUT-17",
+  "source_id": "GHAZALI-TAHAFUT",
+  "locator": "discussion 17",
+  "priority": 904,
+  "goal": "Pin a witness (the Arabic is public domain; the Marmura translation waits for #378). Attribute STMT-MOVED-WITHOUT-POTENCY (capacity only with the act; re-creation) and, if supported, STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE.",
+  "reason": "Alternatives campaign #387, act/potency and regress batch: the rival statement and its alternative_to relation are recorded; the witness is missing, so no claim attributes it yet (invariant 18).",
+  "status": "candidate"
+}

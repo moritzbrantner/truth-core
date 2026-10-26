@@ -1,0 +1,16 @@
+{
+  "id": "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY",
+  "statement_id": "STMT-Q75-COGNITIVE-PLASTICITY-REPLY",
+  "source_id": "PASNAU-MIND-HUMAN-NATURE",
+  "locator": "pp.353–357 §The Soul’s Independence from Body, especially p.355",
+  "interpretation": "Pasnau accepts the logical form of the first argument but disputes the certainty of its premises. In particular, the sensory comparisons do not establish an analogous cognitive limit for a brain-based intellect. His p.356–357 content/constitution objection addresses the subsequent universal-concept argument, which is not silently identified with this cognitive-range argument.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE"
+  ]
+}

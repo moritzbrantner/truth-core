@@ -1,0 +1,51 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.corpusthomisticum.org/sth1075.html",
+    "sha256": "sha256:a32d975659d756b0e7df3adf3e587ecbfa9f080cc2e4a7f15f6aeb173390381c",
+    "wayback_url": "https://web.archive.org/web/20260214190252id_/https://www.corpusthomisticum.org/sth1075.html",
+    "wayback_sha256": "sha256:a32d975659d756b0e7df3adf3e587ecbfa9f080cc2e4a7f15f6aeb173390381c",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-26T14:38:12Z",
+    "license": "Latin text: Leonine edition, Rome 1889; electronic transcription by Roberto Busa, reviewed by Enrique Alarcón. The page claims ©2019 Fundación Tomás de Aquino, all rights reserved for this electronic edition. Only metadata, hashes, locators and short incipits are committed. Two live fetches were byte-identical; the fixed 2026-02-14 Wayback capture has identical bytes and extraction hashes."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-I-Q75-A1-A2",
+      "locator": "I q.75 a.1–2, with question prologue",
+      "claim_locator_prefixes": [
+        "I q.75 a.1 ",
+        "I q.75 a.2 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "31447"
+        },
+        "to": {
+          "anchor": "31464"
+        }
+      },
+      "text_sha256": "sha256:58542274afcebae5eecc9d8c3b169049dc3b63621d9a502756b4f322c654c122",
+      "incipit": "[31447] Iª q. 75 pr. Post considerationem creaturae spiritualis et corporalis,"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q76-A1",
+      "locator": "I q.76 a.1",
+      "claim_locator_prefixes": [
+        "I q.76 a.1 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "31505"
+        },
+        "to": {
+          "anchor": "31518"
+        }
+      },
+      "text_sha256": "sha256:8c3c911c8ff47ed81d85e4e4fe4d8819c3aa591ea72f4628fcc438abce69424a",
+      "incipit": "[31505] Iª q. 76 a. 1 arg. 1 Ad primum sic proceditur. Videtur quod"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
+  "paraphrase": "What primarily moves something in local, bodily motion touches it or is continuous with it.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.PrimaryLocalMoverTouchesReading",
+  "definition_ids": [
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER",
+    "DEF-RESPECT"
+  ]
+}

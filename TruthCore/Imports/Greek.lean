@@ -63,6 +63,7 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 import TruthCore.Greek.Clement.FirstCorinthians
 import TruthCore.Greek.Josephus.Antiquities
 import TruthCore.Greek.Plato.Forms

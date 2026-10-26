@@ -1,0 +1,13 @@
+{
+  "id": "INF-ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "input_statement_ids": [
+    "STMT-MOVING-IS-IN-THE-MOVED",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+  ],
+  "output_statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+  "rule": "well-founded-induction",
+  "meaning": "A link of VIII.5's series is a mover other than the moved thing that some other thing moves; by Physics III.3 it is then being moved, so by the second-movers premise it is a per se link. Accessibility under the per se links transfers to VIII.5's links. This transfers accessibility as an additional commitment; it does not identify accessibility with the weaker source-level prohibition of infinitely many distinct movers.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

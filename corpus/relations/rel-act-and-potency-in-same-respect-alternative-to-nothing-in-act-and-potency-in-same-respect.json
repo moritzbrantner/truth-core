@@ -1,0 +1,9 @@
+{
+  "id": "REL-ACT-AND-POTENCY-IN-SAME-RESPECT-ALTERNATIVE-TO-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "note": "Class: not yet attackable. Scotus' self-motion (virtual act and formal potency to the same perfection) is a witness only if one InAct predicate covers both formal and virtual act, which STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT needs against emergent causes (DISAMB-IN-ACT). Missing: a pinned witness of Scotus, Quaestiones super libros Metaphysicorum IX q.14 (candidate SCOTUS-QQ-METAPH-IX-Q14), and a choice of one sense of act defended for both premises."
+}

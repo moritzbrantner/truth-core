@@ -1,0 +1,9 @@
+{
+  "id": "REL-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH-ATTACKS-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "note": "Objection from the analogy of being: Metaphysics II.1 is stated for the synonymous quality, and on Aquinas' attribution order of being, with the open premise of strict primacy, it holds only with the primary as cause (QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH). Not a refutation: the unrestricted premise is consistent with the homogeneous scale (QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING), whose two-being model is by inspection also an order by approach to its top element; that second fact is not separately verified. It shows that its use at being with the primary as effect needs its own source. See DISAMB-ORDER-OF-BEING."
+}

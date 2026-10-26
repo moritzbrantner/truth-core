@@ -13,6 +13,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaGenus
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
@@ -26,6 +27,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5

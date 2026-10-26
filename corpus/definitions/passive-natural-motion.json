@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PASSIVE-NATURAL-MOTION",
+  "term": "natural motion not by itself (the light and the heavy)",
+  "definition": "A thing is moved by nature but not by itself when it has in itself a principle of motion, not of moving or acting, but of being acted on, as the light and the heavy do (Physics VIII.4, 255b29-31). Lean: the primitive `PassiveNaturalIn`.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-255B-NATURAL-SELF-OR-PASSIVE-A"
+  ]
+}

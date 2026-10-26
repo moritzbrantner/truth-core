@@ -1,0 +1,10 @@
+{
+  "id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "argument_id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.megarianThesisFalse",
+  "comparator_config": "results/MEGARIAN-THESIS-ABOLISHES-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: the conclusion is not the consequent of any premise, and the countermodels in the Comparator config show that each premise is needed. A refutation given its open premises; no refutes relation is recorded until they are closed (#391), and it closes no premise."
+}

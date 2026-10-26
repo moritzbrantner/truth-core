@@ -1,0 +1,14 @@
+{
+  "id": "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+  "paraphrase": "The designated human intellectual principle can understand each bodily nature; this is distributive capacity, not current or simultaneous exhaustive knowledge.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.UniversalBodilyCognition",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

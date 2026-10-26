@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CONTACT-OR-CONTINUITY",
+  "term": "touches or is continuous with (ἅπτεσθαι ἢ συνεχὲς εἶναι)",
+  "definition": "Contact or continuity between a mover and what it moves, which Physics VII.1, 242b24-26 requires between a primary local mover and what it moves, and which links all members of VII.1's chain into one thing (242b26). Lean: the primitive `Touches y x`, covering both; the typed readings use only that it holds between adjacent members of a chain.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-242B23-CHAIN-UNITY-B",
+    "ARIST-PHYS-242B23-PRIMARY-CONTACT-B"
+  ]
+}

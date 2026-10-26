@@ -1,0 +1,10 @@
+{
+  "id": "DEF-LOCAL-BODILY-MOTION",
+  "term": "local, bodily motion (κατὰ τόπον καὶ σωματικὴ κίνησις)",
+  "definition": "Motion with respect to place of a body (Physics VII.1, 242a15-16, 242b24-25). Lean: `IsLocal r` marks the respects of such motion; the typed VII.1 regress speaks only of links in such respects. 'Bodily' (σωματική) is folded into the respect: `IsLocal` marks respects of local motion of bodies, and no separate predicate says that the movers are bodies.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-242B23-PRIMARY-CONTACT-B",
+    "ARIST-PHYS-242B23-SERIES-HAS-FIRST-B"
+  ]
+}

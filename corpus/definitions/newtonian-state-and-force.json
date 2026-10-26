@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NEWTONIAN-STATE-AND-FORCE",
+  "term": "change of state; impressed force (Newton, Lex I)",
+  "definition": "`ChangesState x`: body x changes its state of rest or of uniform motion in a straight line. `ImpressesForceOn y x`: y impresses a force on x (vis impressa). Newton's vocabulary, not identified with `MovedIn` or `MovesIn`; whether a state of uniform motion is a being moved is the reading question of DISAMB-MOTION.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NEWTON-PRINCIPIA-LEX-I-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ChangeOfStateOnlyByImpressedForceReading"
+}

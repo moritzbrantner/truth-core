@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MOVING-IS-IN-THE-MOVED",
+  "paraphrase": "Motion is in the moved: whenever something moves a thing in a respect, that thing is being moved in that respect.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.MovingIsInTheMovedReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

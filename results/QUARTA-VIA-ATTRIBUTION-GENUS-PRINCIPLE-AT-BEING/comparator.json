@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.attributionOrderGenusPrincipleAtBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

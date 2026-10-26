@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PHYSICAL-RESPECT",
+  "term": "respect of physical motion (place, quality, quantity)",
+  "definition": "A respect in which there is motion in the strict sense of the Physics: a place, a quality or a quantity (Physics V.1-2: motion is in these three categories only). Lean: the primitive `IsPhysicalRespect r` of TruthCore.Greek.Aristotle.Physics.Typed. The VIII.4 readings are restricted to such respects; STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION is the separate, unattributed premise that every reduction from potency to act is in such a respect.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-226A-226B-THREE-MOTION-CATEGORIES-A"
+  ]
+}

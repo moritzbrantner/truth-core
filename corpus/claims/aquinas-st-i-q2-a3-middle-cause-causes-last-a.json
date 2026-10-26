@@ -1,0 +1,8 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-MIDDLE-CAUSE-CAUSES-LAST-A",
+  "statement_id": "STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., secunda via: et medium est causa ultimi, sive media sint plura sive unum tantum",
+  "interpretation": "In ordered efficient causes the middle is the cause of the last. Read as: whatever causes x as caused (a middle cause of x, CausesAsCaused) efficiently causes x in some respect. This is part of the meaning of the per se link (DEF-PER-SE-EFFICIENT-CAUSE-LINK: c efficiently causes x only insofar as c is caused), stated as its own premise because CausesAsCaused is a Lean parameter.",
+  "status": "formalized"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
+  "premise_statement_ids": [
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "inference_ids": [
+    "INF-QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING"
+  ],
+  "meaning": "On the reading by attribution, the genus principle holds at being: from the order of being by approach to a primary (q.3 a.5 ad 2), strict primacy (open, unattributed), the causal order of creatures to the primary (q.13 a.5) and that everything other than the primary is a creature (open, unattributed), by excluded middle. Only the instance at being is derived. Omission countermodels (in the Solution) show that the causal order, strict primacy and the creature premise are each needed.",
+  "definition_ids": [
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY",
+    "DEF-CREATURE",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

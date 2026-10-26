@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B-SUPPORTS-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "note": "Reading B of q.46 a.2 ad 7 makes 'inquantum' (relevance to the causing), not time, the criterion of an accidental cause; on that criterion a mover now moved in an irrelevant respect is no per se link, as the rival says. Evidence for the rival's possibility, not a statement of it."
+}

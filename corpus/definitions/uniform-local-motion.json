@@ -1,0 +1,10 @@
+{
+  "id": "DEF-UNIFORM-LOCAL-MOTION",
+  "term": "uniform rectilinear motion (status movendi uniformiter in directum)",
+  "definition": "`UniformLocalMotion r`: r is a respect of a body's moving uniformly in a straight line, Newton's state of uniform motion. Whether a body in that state is being moved in the sense of DEF-MOTION-AS-REDUCTION is not part of this definition (DISAMB-MOTION).",
+  "basis": "sourced",
+  "claim_ids": [
+    "NEWTON-PRINCIPIA-LEX-I-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.UniformMotionWithoutMoverReading"
+}

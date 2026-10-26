@@ -1,0 +1,9 @@
+{
+  "id": "REL-ACTUALITY-WITHOUT-BEING-ALTERNATIVE-TO-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACTUALITY-WITHOUT-BEING",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "note": "Class: countermodel/inconsistency for the naive form, not yet attackable for the strongest form. Russell's objection (the existent golden mountain) refutes only unrestricted characterization; nuclear Meinongianism restricts it and is consistent. Missing: a pinned witness of Meinong 1904 §3 (candidate MEINONG-GEGENSTANDSTHEORIE-3) and an account of why being in act in a respect requires esse that does not presuppose the premise (DISAMB-BEING)."
+}

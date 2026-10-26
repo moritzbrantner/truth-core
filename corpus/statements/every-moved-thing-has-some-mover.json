@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
+  "paraphrase": "Whatever is being moved is moved by something: some mover moves it in some respect (not necessarily in the respect in which it is moved, and not necessarily another).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryMovedThingHasSomeMoverReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

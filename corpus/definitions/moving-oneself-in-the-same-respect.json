@@ -1,0 +1,9 @@
+{
+  "id": "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
+  "term": "moves itself in the same respect (movens et motum secundum idem)",
+  "definition": "A thing moves itself in the same respect when it is the mover of itself in the very respect in which it is moved: `MovesIn x x r`. The prima via denies this of whatever is moved (ST I q.2 a.3 co.: impossibile est … quod, secundum idem et eodem modo, aliquid sit movens et motum, vel quod moveat seipsum).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT-A"
+  ]
+}

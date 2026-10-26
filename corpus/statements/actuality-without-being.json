@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACTUALITY-WITHOUT-BEING",
+  "paraphrase": "Rival: something is in act in some respect without having being, motivated by Meinong's independence of Sosein from Sein (attribution waits for a witness): the golden mountain would be golden but not be.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ActualityWithoutBeingReading",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT"
+  ]
+}

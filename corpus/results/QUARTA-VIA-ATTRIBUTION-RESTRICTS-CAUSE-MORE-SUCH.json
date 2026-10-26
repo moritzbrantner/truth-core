@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "argument_id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.attributionOrderRestrictsCauseMoreSuch",
+  "comparator_config": "results/QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH/comparator.json",
+  "status": "solution-present",
+  "description": "A proof (part 1) and a finite countermodel (part 2). Mathlib-based; permits propext, Classical.choice and Quot.sound (docs/axiom-policy.md)."
+}

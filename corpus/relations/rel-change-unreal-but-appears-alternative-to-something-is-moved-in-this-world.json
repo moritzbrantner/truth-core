@@ -1,0 +1,9 @@
+{
+  "id": "REL-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "note": "Class: self-application, not yet attackable. This McTaggart-style rival is unattributed: McTaggart denies A-series change (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS, sourced), and his thesis reaches the observation premise only given the open bridge STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE (DISAMB-CHANGE-A-SERIES). It grants appearances and denies that an appearance of change is itself a change, i.e. it denies STMT-OPINION-IS-A-MOTION, so the retorsion would beg the question. Missing: McTaggart's own answer (The Nature of Existence II, ch. 44, to source), a defence or refutation of the bridge, and an argument that judging or perceiving is a reduction from potency to act (DISAMB-MOTION)."
+}
