@@ -1,9 +1,11 @@
 {
   "id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
-  "paraphrase": "Formal fact: on an order of being by approach to a primary, the primary is more such than whatever else it causes the perfection in; but the order, the causal order of others to the primary and the broad genus principle do not yield Aristotle's principle that every cause of a quality in another is more such than it.",
+  "paraphrase": "Formal fact: on an order of being by approach to a primary with strict primacy, the primary is more such than whatever else it causes the perfection in; but the order, strict primacy, the causal order of creatures to the primary, everything else being a creature and the broad genus principle do not yield Aristotle's principle that every cause of a quality in another is more such than it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AttributionOrderRestrictsCauseMoreSuch",
   "definition_ids": [
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY",
+    "DEF-CREATURE",
     "DEF-CAUSE-OF-PERFECTION",
     "DEF-MORE-IN"
   ],

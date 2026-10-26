@@ -2,15 +2,17 @@
   "id": "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
   "premise_statement_ids": [
     "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
     "STMT-EXCLUDED-MIDDLE"
   ],
   "conclusion_statement_id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
   "inference_ids": [
     "INF-QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM"
   ],
-  "meaning": "On the reading by attribution there is at most one maximum in being, from the order of being by approach to a primary alone, by excluded middle; neither the genus principle nor Metaphysics II.1 is used (contrast AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS). A countermodel with tied degrees shows that strict primacy is needed.",
+  "meaning": "On the reading by attribution there is at most one maximum in being, from the order of being by approach to a primary (q.3 a.5 ad 2) and strict primacy (open, unattributed), by excluded middle; neither the genus principle nor Metaphysics II.1 is used (contrast AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS). A countermodel with tied degrees shows that strict primacy is needed: the order by approach with 'nothing exceeds the primary' does not give uniqueness.",
   "definition_ids": [
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY",
     "DEF-MAXIME-ENS"
   ],
   "disambiguation_ids": [

@@ -5,5 +5,5 @@
   "predicate": "supports",
   "object_kind": "statement",
   "object_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-  "note": "Only at being: with the attribution order of q.3 a.5 ad 2 (strict primacy) it yields the instance r = esse (QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING). It says nothing about the principle for other perfections, such as heat, and closes nothing."
+  "note": "Only at being, and only with two open premises: with the order by approach of q.3 a.5 ad 2, strict primacy (STMT-NOTHING-ELSE-REACHES-THE-PRIMARY) and that everything other than the primary is a creature (STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES) it yields the instance r = esse (QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING). It says nothing about the principle for other perfections, such as heat, and closes nothing."
 }

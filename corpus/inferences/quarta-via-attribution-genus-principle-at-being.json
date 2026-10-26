@@ -2,12 +2,14 @@
   "id": "INF-QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
   "input_statement_ids": [
     "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-OTHERS-ORDERED-TO-PRIMARY-AS-CAUSE",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
     "STMT-EXCLUDED-MIDDLE"
   ],
   "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
   "rule": "direct-proof",
-  "meaning": "On the attribution order, whatever is maximal in being is the primary (by excluded middle: anything else falls short of the primary, so the primary would be more a being than it); the primary causes the being of every other being; so the maximum does.",
+  "meaning": "On the attribution order with strict primacy, whatever is maximal in being is the primary (by excluded middle: anything else falls short of the primary, so the primary would be more a being than it); the primary causes the being of every creature, and everything other than it is a creature; so the maximum causes the being of every other being.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

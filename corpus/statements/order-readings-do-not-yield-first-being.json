@@ -1,10 +1,12 @@
 {
   "id": "STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
-  "paraphrase": "Formal fact: a homogeneous scale of being, an order of being by approach to a primary, the causal order of others to the primary, the broad genus principle and the premise that what is simply prior to a thing causes its being hold together while something other than the maximum in being is simply prior to it.",
+  "paraphrase": "Formal fact: a homogeneous scale of being, an order of being by approach to a primary with strict primacy, the causal order of creatures to the primary, everything other than the primary being a creature, the broad genus principle and the premise that what is simply prior to a thing causes its being hold together while something other than the maximum in being is simply prior to it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OrderReadingsDoNotYieldFirstBeing",
   "definition_ids": [
     "DEF-HOMOGENEOUS-SCALE",
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY",
+    "DEF-CREATURE",
     "DEF-FIRST-BEING",
     "DEF-SIMPLE-PRIORITY",
     "DEF-CAUSE-OF-PERFECTION",

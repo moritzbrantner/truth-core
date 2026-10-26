@@ -1,6 +1,6 @@
 {
   "id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-  "paraphrase": "Being is graded by approach to a primary: the primary has being, one thing is more a being than another exactly when it approaches the primary more nearly, and everything other than the primary falls short of it.",
+  "paraphrase": "Being is graded by approach to a primary: the primary has being, and one thing is more a being than another exactly when it approaches the primary more nearly.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ApproachToPrimaryReading",
   "definition_ids": [
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",

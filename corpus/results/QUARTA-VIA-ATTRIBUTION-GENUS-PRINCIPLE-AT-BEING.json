@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.attributionOrderGenusPrincipleAtBeing",
   "comparator_config": "results/QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING/comparator.json",
   "status": "solution-present",
-  "description": "Derived, not a transcription: the order step (every maximum is the primary) is proved from strict primacy; the causal clause speaks only of the primary. Omission countermodels for the causal order and for strict primacy. The genus principle for other perfections is not touched."
+  "description": "Derived, not a transcription: the order step (every maximum is the primary) is proved from the order by approach and strict primacy; the causal clause speaks only of creatures and reaches every other being through the creature premise. Strict primacy (STMT-NOTHING-ELSE-REACHES-THE-PRIMARY) and that everything other than the primary is a creature (STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES) are open premises with no attributing claim, so the conclusion stays open. Omission countermodels for the causal order, the creature premise and strict primacy. The genus principle for other perfections is not touched."
 }

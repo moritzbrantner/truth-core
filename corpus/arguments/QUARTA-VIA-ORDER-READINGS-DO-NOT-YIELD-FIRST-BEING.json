@@ -5,10 +5,12 @@
   "inference_ids": [
     "INF-QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING"
   ],
-  "meaning": "Countermodel, from no premises: neither order reading of more and less in being makes the maximum in being the first being, even with the causal order to the primary, the broad genus principle and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. What the model breaks is Metaphysics II.1 with the primary as effect, the instance that AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING uses.",
+  "meaning": "Countermodel, from no premises: neither order reading of more and less in being makes the maximum in being the first being, even with strict primacy, the causal order of creatures to the primary, everything else being a creature, the broad genus principle and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. What the model breaks is Metaphysics II.1 with the primary as effect, the instance that AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING uses.",
   "definition_ids": [
     "DEF-HOMOGENEOUS-SCALE",
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY",
+    "DEF-CREATURE",
     "DEF-FIRST-BEING"
   ],
   "disambiguation_ids": [
