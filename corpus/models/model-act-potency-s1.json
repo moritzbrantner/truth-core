@@ -1,0 +1,66 @@
+{
+  "id": "MODEL-ACT-POTENCY-S1",
+  "description": "Original #374 being-in-act reading sensitivity witness S1. Only the listed closed certificates are registered.",
+  "vocabulary": "ACT-POTENCY",
+  "lean_declaration": "TruthCore.Models.ActPotencyRemaining.S1.model",
+  "bindings": {
+    "Being": "TruthCore.Models.ActPotencyRemaining.S1.model.Being",
+    "Respect": "TruthCore.Models.ActPotencyRemaining.S1.model.Respect",
+    "esse": "TruthCore.Models.ActPotencyRemaining.S1.model.esse",
+    "InAct": "TruthCore.Models.ActPotencyRemaining.S1.model.InAct",
+    "InPotency": "TruthCore.Models.ActPotencyRemaining.S1.model.InPotency",
+    "MovedIn": "TruthCore.Models.ActPotencyRemaining.S1.model.MovedIn",
+    "MovesIn": "TruthCore.Models.ActPotencyRemaining.S1.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.ActPotencyRemaining.S1.model.PriorSimply",
+    "GoodIn": "TruthCore.Models.ActPotencyRemaining.S1.model.GoodIn",
+    "MovesAsMoved": "TruthCore.Models.ActPotencyRemaining.S1.model.MovesAsMoved"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.a",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.b",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.c"
+      ],
+      "theorem": "TruthCore.Models.ActPotencyRemaining.S1.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.h",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.k",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.e"
+      ],
+      "theorem": "TruthCore.Models.ActPotencyRemaining.S1.enumerateRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ActPotencyRemaining.S1.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ActPotencyRemaining.S1.evaluation1"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.ActPotencyRemaining"
+  ]
+}

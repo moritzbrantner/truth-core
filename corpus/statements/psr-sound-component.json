@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PSR-SOUND-COMPONENT",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.Sound",
+  "paraphrase": "Explanation tokens imply that their existence facts hold at the selected world.",
+  "definition_ids": [
+    "DEF-PSR-SOUNDNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

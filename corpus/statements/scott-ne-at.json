@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SCOTT-NE-AT",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistence",
+  "paraphrase": "The selected individual at the selected world has Scott necessary existence relative to the selected frame.",
+  "definition_ids": [
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY",
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY"
+  ]
+}

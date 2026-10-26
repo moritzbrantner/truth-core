@@ -1,0 +1,122 @@
+{
+  "id": "MODEL-SCOTT-FIXED-POSITIVITY",
+  "description": "Original Scott two-world A5 independence witness. Positivity is a stipulated interpretation, not the Catholic God predicate.",
+  "vocabulary": "SCOTT-POSITIVITY",
+  "lean_declaration": "TruthCore.Models.Scott.FixedPositivity.model",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Unit",
+    "Frame": "TruthCore.Models.Scott.FixedPositivity.model",
+    "Positivity": "TruthCore.Models.Scott.FixedPositivity.positivity",
+    "individual": "Unit.unit",
+    "world": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation1"
+    },
+    {
+      "statement_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation2"
+    },
+    {
+      "statement_id": "STMT-SCOTT-GOD-LIKE-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation3"
+    },
+    {
+      "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation4"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NE-AT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation5"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation6"
+    },
+    {
+      "statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation7"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Scott"
+  ]
+}

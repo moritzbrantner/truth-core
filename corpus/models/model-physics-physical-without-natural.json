@@ -1,0 +1,139 @@
+{
+  "id": "MODEL-PHYSICS-PHYSICAL-WITHOUT-NATURAL",
+  "description": "#404 finite omission assignment PhysicalWithoutNatural. All listed evaluations are closed applications to this same Unit vocabulary. Infinite Nat successor models are outside the finite library.",
+  "vocabulary": "TYPED-PHYSICS-UNIT",
+  "lean_declaration": "TruthCore.Models.Physics.PhysicalWithoutNatural.model",
+  "bindings": {
+    "Being": "Unit",
+    "Respect": "Unit",
+    "IsPhysicalRespect": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.IsPhysicalRespect",
+    "MovedIn": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.MovedIn",
+    "ByNature": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.ByNature",
+    "ByForce": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.ByForce",
+    "SelfMovedIn": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.SelfMovedIn",
+    "PassiveNaturalIn": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.PassiveNaturalIn",
+    "InAct": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.InAct",
+    "InPotency": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.InPotency",
+    "ActualizedQuaPotential": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.ActualizedQuaPotential",
+    "MovesIn": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.MovesIn",
+    "MovesPerAccidensIn": "TruthCore.Models.Physics.PhysicalWithoutNatural.model.MovesPerAccidensIn"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "IsPhysicalRespect",
+        "MovedIn",
+        "ByNature",
+        "ByForce"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "ByNature",
+        "SelfMovedIn",
+        "PassiveNaturalIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation1"
+    },
+    {
+      "statement_id": "STMT-FORCED-MOTION-BY-ANOTHER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "ByForce",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation2"
+    },
+    {
+      "statement_id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "ByNature",
+        "SelfMovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation3"
+    },
+    {
+      "statement_id": "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "PassiveNaturalIn",
+        "MovesIn",
+        "MovesPerAccidensIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation4"
+    },
+    {
+      "statement_id": "STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "PassiveNaturalIn",
+        "MovesIn",
+        "MovesPerAccidensIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation5"
+    },
+    {
+      "statement_id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "IsPhysicalRespect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation6"
+    },
+    {
+      "statement_id": "STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "IsPhysicalRespect",
+        "MovedIn",
+        "MovesIn",
+        "MovesPerAccidensIn"
+      ],
+      "theorem": "TruthCore.Models.Physics.PhysicalWithoutNatural.evaluation7"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Physics"
+  ]
+}

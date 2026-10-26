@@ -8,6 +8,7 @@ function example(): PremiseDossier {
     claim_ids: [], supporting_claim_ids: [], definition_ids: [], disambiguation_ids: [], argument_ids: ["ARG"], result_ids: [],
     transcription_result_ids: [], instantiation_result_ids: [], alternative_relation_ids: [], objection_relation_ids: [], countermodel_attempt_ids: [],
     attempts: [{ id: "ATTEMPT-P", statement_ids: ["P"], date: "2026-10-26", kind: "source-search", outcome: "blocked", summary: "Missing witness", evidence: ["PR-413"], blocker: "Witness required" }],
+    model_evaluations: [],
     route_contributions: [{ argument_id: "ARG", cost: 1, open_leaf: true, direct_premise: true }],
   };
 }
@@ -29,6 +30,7 @@ describe("dossier transport", () => {
     const dossiers = getDossiers();
     const p = dossiers["STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"];
     expect(p?.attempts.some((entry) => entry.id === "ATTEMPT-ACT-POTENCY-INDEPENDENCE")).toBe(true);
+    expect(p?.model_evaluations.some((model) => model.model_id === "MODEL-ACT-POTENCY-M3" && model.value === "violates")).toBe(true);
     expect(p?.established).toBe(false);
     expect(p?.route_contributions.some((entry) => entry.open_leaf)).toBe(true);
     expect(dossiers["STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]?.attempts[0]?.outcome).toBe("failed");

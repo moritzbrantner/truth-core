@@ -34,6 +34,8 @@ export type PremiseDossier = {
   objection_relation_ids: string[];
   countermodel_attempt_ids: string[];
   attempts: CorpusAttempt[];
+  model_evaluations: Array<{ model_id: string; vocabulary: string; lean_declaration: string;
+    value: "satisfies" | "violates"; theorem: string; arguments: string[] }>;
   route_contributions: Array<{ argument_id: string; cost: number; open_leaf: boolean; direct_premise: boolean }>;
 };
 
@@ -68,6 +70,9 @@ function dossier(value: unknown): value is PremiseDossier {
   const idLists = ["claim_ids", "supporting_claim_ids", "definition_ids", "disambiguation_ids", "argument_ids", "result_ids",
     "transcription_result_ids", "instantiation_result_ids", "alternative_relation_ids", "objection_relation_ids", "countermodel_attempt_ids"];
   return idLists.every((key) => strings(value[key])) && Array.isArray(value.attempts) && value.attempts.every(attempt)
+    && Array.isArray(value.model_evaluations) && value.model_evaluations.every((model: unknown) => record(model)
+      && typeof model.model_id === "string" && typeof model.vocabulary === "string" && typeof model.lean_declaration === "string"
+      && oneOf(["satisfies", "violates"], model.value) && typeof model.theorem === "string" && strings(model.arguments))
     && Array.isArray(value.route_contributions) && value.route_contributions.every((route: unknown) => record(route)
       && typeof route.argument_id === "string" && typeof route.cost === "number" && Number.isInteger(route.cost) && route.cost >= 0
       && typeof route.open_leaf === "boolean" && typeof route.direct_premise === "boolean");
