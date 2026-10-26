@@ -4,27 +4,32 @@ import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 namespace TruthCore.Results.Causality.FiniteGroundingLimitNotClosed
 open TruthCore.Causality
 
-/-- Build an actual inductive power certificate by transferring it across
-`steps` links from the intrinsically powered last node. -/
-private theorem groundedAfterSteps (steps : Nat) :
-    ∀ start : Nat,
-      FinitelyGroundedPower SuccessorBorrowingLink
-        (IntrinsicSourceAt (start + steps)) start := by
-  induction steps with
-  | zero =>
-    intro start
-    exact FinitelyGroundedPower.intrinsic start rfl
-  | succ steps ih =>
-    intro start
-    refine FinitelyGroundedPower.borrowed (y := start + 1) ?_ ?_
+/-- Extending a finite chain by one upstream intrinsic source preserves
+each previous finite grounding certificate, but changes its source. -/
+private theorem extendIntrinsicSource (depth : Nat) {node : Nat}
+    (grounded : FinitelyGroundedPower SuccessorBorrowingLink
+      (IntrinsicSourceAt depth) node) :
+    FinitelyGroundedPower SuccessorBorrowingLink
+      (IntrinsicSourceAt (depth + 1)) node := by
+  induction grounded with
+  | intrinsic x hIntrinsic =>
+    refine FinitelyGroundedPower.borrowed (y := x + 1) ?_ ?_
     · rfl
-    · have hGround := ih (start + 1)
-      have hEndpoint : (start + 1) + steps = start + (steps + 1) := by
-        calc
-          (start + 1) + steps = start + (1 + steps) := Nat.add_assoc start 1 steps
-          _ = start + (steps + 1) :=
-            congrArg (fun k : Nat => start + k) (Nat.add_comm 1 steps)
-      exact hEndpoint ▸ hGround
+    · exact FinitelyGroundedPower.intrinsic (x + 1)
+        (congrArg (fun k : Nat => k + 1) hIntrinsic)
+  | borrowed hLink _ ih =>
+    exact FinitelyGroundedPower.borrowed hLink ih
+
+/-- Induct directly on the finite-depth inclusion witness, avoiding
+any appeal to limit preservation or arithmetic normalization. -/
+private theorem groundedUpToDepth (node depth : Nat) (within : node ≤ depth) :
+    FinitelyGroundedPower SuccessorBorrowingLink
+      (IntrinsicSourceAt depth) node := by
+  induction within with
+  | refl =>
+    exact FinitelyGroundedPower.intrinsic node rfl
+  | step _ ih =>
+    exact extendIntrinsicSource _ ih
 
 /-- Pointwise stabilization of *activity* from successively remote sources
 does not imply stabilization of any intrinsic source. The final all-on
@@ -36,12 +41,7 @@ theorem finiteGroundingLimitNotClosed :
   · intro node
     refine ⟨node, ?_⟩
     intro depth hNode
-    have hEndpoint : node + (depth - node) = depth := by
-      calc
-        node + (depth - node) = (depth - node) + node := Nat.add_comm _ _
-        _ = depth := Nat.sub_add_cancel hNode
-    have hGround := groundedAfterSteps (depth - node) node
-    exact hEndpoint ▸ hGround
+    exact groundedUpToDepth node depth hNode
   · intro node
     refine ⟨node + 1, ?_⟩
     intro depth hDepth hSource
