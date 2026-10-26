@@ -33,6 +33,6 @@ describe("dossier transport", () => {
     expect(p?.model_evaluations.some((model) => model.model_id === "MODEL-ACT-POTENCY-M3" && model.value === "violates")).toBe(true);
     expect(p?.established).toBe(false);
     expect(p?.route_contributions.some((entry) => entry.open_leaf)).toBe(true);
-    expect(dossiers["STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]?.attempts[0]?.outcome).toBe("failed");
+    expect(dossiers["STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]?.attempts.find((entry) => entry.id === "ATTEMPT-STRICT-PRIMACY-READING")?.outcome).toBe("failed");
   });
 });

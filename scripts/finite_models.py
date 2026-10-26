@@ -37,7 +37,7 @@ def validate_model(model, statements, root):
         if not isinstance(carrier, dict) or not isinstance(carrier.get('binding'), str) or carrier.get('binding') not in bindings or not name(carrier.get('theorem')):
             raise ValueError('carrier needs a binding and enumeration theorem')
         elements = carrier.get('elements')
-        if not isinstance(elements, list) or not elements or len(set(elements)) != len(elements) or any(not name(x) for x in elements):
+        if not isinstance(elements, list) or not elements or any(not name(x) for x in elements) or len(set(elements)) != len(elements):
             raise ValueError('carrier elements must be nonempty unique Lean terms')
     seen = set()
     evaluations = model.get('evaluations')

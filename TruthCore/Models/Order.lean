@@ -53,11 +53,11 @@ theorem evaluation1 : @TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyRead
   · exact absurd rfl hx
 
 theorem evaluation2 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading (Bool) (Unit) (TruthCore.Models.Order.NoCausalOrder.model.InAct) (TruthCore.Models.Order.NoCausalOrder.model.CausesIn) (TruthCore.Models.Order.NoCausalOrder.model.Creature) (TruthCore.Models.Order.NoCausalOrder.model.esse) (TruthCore.Models.Order.NoCausalOrder.model.primary)) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading
   decide
 
 theorem evaluation3 : @TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading (Bool) (TruthCore.Models.Order.NoCausalOrder.model.Creature) (TruthCore.Models.Order.NoCausalOrder.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading
   decide
 
 theorem evaluation4 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading (Bool) (Unit) (TruthCore.Models.Order.NoCausalOrder.model.InAct) (TruthCore.Models.Order.NoCausalOrder.model.MoreIn) (TruthCore.Models.Order.NoCausalOrder.model.CausesIn) (TruthCore.Models.Order.NoCausalOrder.model.esse)) := by
@@ -73,11 +73,11 @@ theorem evaluation6 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenu
   decide
 
 theorem evaluation7 : @TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading (Bool) (Unit) (TruthCore.Models.Order.NoCausalOrder.model.CausesIn) (TruthCore.Models.Order.NoCausalOrder.model.MoreIn) := by
-  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading 
+  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
   decide
 
 theorem evaluation8 : @TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing (Bool) (Unit) (TruthCore.Models.Order.NoCausalOrder.model.PriorSimply) (TruthCore.Models.Order.NoCausalOrder.model.CausesIn) (TruthCore.Models.Order.NoCausalOrder.model.esse) := by
-  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing 
+  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing
   decide
 
 theorem evaluation9 : @TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing (Bool) (Unit) (TruthCore.Models.Order.NoCausalOrder.model.InAct) (TruthCore.Models.Order.NoCausalOrder.model.MoreIn) (TruthCore.Models.Order.NoCausalOrder.model.esse) (TruthCore.Models.Order.NoCausalOrder.model.PriorSimply) := by
@@ -110,11 +110,11 @@ theorem evaluation1 : @TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyRead
   · exact absurd rfl hx
 
 theorem evaluation2 : @TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading (Bool) (Unit) (TruthCore.Models.Order.NoCreatures.model.InAct) (TruthCore.Models.Order.NoCreatures.model.CausesIn) (TruthCore.Models.Order.NoCreatures.model.Creature) (TruthCore.Models.Order.NoCreatures.model.esse) (TruthCore.Models.Order.NoCreatures.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading
   decide
 
 theorem evaluation3 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading (Bool) (TruthCore.Models.Order.NoCreatures.model.Creature) (TruthCore.Models.Order.NoCreatures.model.primary)) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading
   decide
 
 theorem evaluation4 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading (Bool) (Unit) (TruthCore.Models.Order.NoCreatures.model.InAct) (TruthCore.Models.Order.NoCreatures.model.MoreIn) (TruthCore.Models.Order.NoCreatures.model.CausesIn) (TruthCore.Models.Order.NoCreatures.model.esse)) := by
@@ -130,11 +130,11 @@ theorem evaluation6 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenu
   decide
 
 theorem evaluation7 : @TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading (Bool) (Unit) (TruthCore.Models.Order.NoCreatures.model.CausesIn) (TruthCore.Models.Order.NoCreatures.model.MoreIn) := by
-  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading 
+  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
   decide
 
 theorem evaluation8 : @TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing (Bool) (Unit) (TruthCore.Models.Order.NoCreatures.model.PriorSimply) (TruthCore.Models.Order.NoCreatures.model.CausesIn) (TruthCore.Models.Order.NoCreatures.model.esse) := by
-  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing 
+  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing
   decide
 
 theorem evaluation9 : @TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing (Bool) (Unit) (TruthCore.Models.Order.NoCreatures.model.InAct) (TruthCore.Models.Order.NoCreatures.model.MoreIn) (TruthCore.Models.Order.NoCreatures.model.esse) (TruthCore.Models.Order.NoCreatures.model.PriorSimply) := by
@@ -165,11 +165,11 @@ theorem evaluation1 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacy
   exact h false (by decide)
 
 theorem evaluation2 : @TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading (Bool) (Unit) (TruthCore.Models.Order.TiedPrimary.model.InAct) (TruthCore.Models.Order.TiedPrimary.model.CausesIn) (TruthCore.Models.Order.TiedPrimary.model.Creature) (TruthCore.Models.Order.TiedPrimary.model.esse) (TruthCore.Models.Order.TiedPrimary.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading
   decide
 
 theorem evaluation3 : @TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading (Bool) (TruthCore.Models.Order.TiedPrimary.model.Creature) (TruthCore.Models.Order.TiedPrimary.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading
   decide
 
 theorem evaluation4 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading (Bool) (Unit) (TruthCore.Models.Order.TiedPrimary.model.InAct) (TruthCore.Models.Order.TiedPrimary.model.MoreIn) (TruthCore.Models.Order.TiedPrimary.model.CausesIn) (TruthCore.Models.Order.TiedPrimary.model.esse)) := by
@@ -185,11 +185,11 @@ theorem evaluation6 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenu
   decide
 
 theorem evaluation7 : ¬ (@TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading (Bool) (Unit) (TruthCore.Models.Order.TiedPrimary.model.CausesIn) (TruthCore.Models.Order.TiedPrimary.model.MoreIn)) := by
-  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading 
+  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
   decide
 
 theorem evaluation8 : @TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing (Bool) (Unit) (TruthCore.Models.Order.TiedPrimary.model.PriorSimply) (TruthCore.Models.Order.TiedPrimary.model.CausesIn) (TruthCore.Models.Order.TiedPrimary.model.esse) := by
-  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing 
+  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing
   decide
 
 theorem evaluation9 : @TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing (Bool) (Unit) (TruthCore.Models.Order.TiedPrimary.model.InAct) (TruthCore.Models.Order.TiedPrimary.model.MoreIn) (TruthCore.Models.Order.TiedPrimary.model.esse) (TruthCore.Models.Order.TiedPrimary.model.PriorSimply) := by
@@ -218,11 +218,11 @@ theorem evaluation1 : @TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyRead
   · exact absurd rfl hx
 
 theorem evaluation2 : @TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading (Bool) (Unit) (TruthCore.Models.Order.MutualCauseAndPriority.model.InAct) (TruthCore.Models.Order.MutualCauseAndPriority.model.CausesIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.Creature) (TruthCore.Models.Order.MutualCauseAndPriority.model.esse) (TruthCore.Models.Order.MutualCauseAndPriority.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading
   decide
 
 theorem evaluation3 : @TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading (Bool) (TruthCore.Models.Order.MutualCauseAndPriority.model.Creature) (TruthCore.Models.Order.MutualCauseAndPriority.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading
   decide
 
 theorem evaluation4 : @TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading (Bool) (Unit) (TruthCore.Models.Order.MutualCauseAndPriority.model.InAct) (TruthCore.Models.Order.MutualCauseAndPriority.model.MoreIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.CausesIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.esse) := by
@@ -238,11 +238,11 @@ theorem evaluation6 : @TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCau
   decide
 
 theorem evaluation7 : ¬ (@TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading (Bool) (Unit) (TruthCore.Models.Order.MutualCauseAndPriority.model.CausesIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.MoreIn)) := by
-  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading 
+  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
   decide
 
 theorem evaluation8 : @TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing (Bool) (Unit) (TruthCore.Models.Order.MutualCauseAndPriority.model.PriorSimply) (TruthCore.Models.Order.MutualCauseAndPriority.model.CausesIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.esse) := by
-  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing 
+  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing
   decide
 
 theorem evaluation9 : ¬ (@TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing (Bool) (Unit) (TruthCore.Models.Order.MutualCauseAndPriority.model.InAct) (TruthCore.Models.Order.MutualCauseAndPriority.model.MoreIn) (TruthCore.Models.Order.MutualCauseAndPriority.model.esse) (TruthCore.Models.Order.MutualCauseAndPriority.model.PriorSimply)) := by
@@ -275,11 +275,11 @@ theorem evaluation1 : @TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyRead
   · exact absurd rfl hx
 
 theorem evaluation2 : @TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading (Bool) (Unit) (TruthCore.Models.Order.HomogeneousCausalControl.model.InAct) (TruthCore.Models.Order.HomogeneousCausalControl.model.CausesIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.Creature) (TruthCore.Models.Order.HomogeneousCausalControl.model.esse) (TruthCore.Models.Order.HomogeneousCausalControl.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading
   decide
 
 theorem evaluation3 : @TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading (Bool) (TruthCore.Models.Order.HomogeneousCausalControl.model.Creature) (TruthCore.Models.Order.HomogeneousCausalControl.model.primary) := by
-  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading 
+  unfold model TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading
   decide
 
 theorem evaluation4 : @TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading (Bool) (Unit) (TruthCore.Models.Order.HomogeneousCausalControl.model.InAct) (TruthCore.Models.Order.HomogeneousCausalControl.model.MoreIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.CausesIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.esse) := by
@@ -295,11 +295,11 @@ theorem evaluation6 : @TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCau
   decide
 
 theorem evaluation7 : @TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading (Bool) (Unit) (TruthCore.Models.Order.HomogeneousCausalControl.model.CausesIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.MoreIn) := by
-  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading 
+  unfold model TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
   decide
 
 theorem evaluation8 : @TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing (Bool) (Unit) (TruthCore.Models.Order.HomogeneousCausalControl.model.PriorSimply) (TruthCore.Models.Order.HomogeneousCausalControl.model.CausesIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.esse) := by
-  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing 
+  unfold model TruthCore.Case.Catholicism.SimplyPriorIsCauseOfBeing
   decide
 
 theorem evaluation9 : @TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing (Bool) (Unit) (TruthCore.Models.Order.HomogeneousCausalControl.model.InAct) (TruthCore.Models.Order.HomogeneousCausalControl.model.MoreIn) (TruthCore.Models.Order.HomogeneousCausalControl.model.esse) (TruthCore.Models.Order.HomogeneousCausalControl.model.PriorSimply) := by

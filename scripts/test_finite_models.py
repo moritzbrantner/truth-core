@@ -48,7 +48,7 @@ class FiniteModelsTests(unittest.TestCase):
 
     def test_validation_rejects_unbound_references_conflicts_and_lean_injection(self):
         changes = [dict(id='BAD'), dict(modules=['Missing.Module']), dict(modules=[{}]), dict(bindings={'X': 'False) := by trivial\n--'}),
-                   dict(carriers=[]), dict(evaluations=[]), dict(evaluations=[3]),
+                   dict(carriers=[]), dict(carriers=[{**self.model['carriers'][0], 'elements': [{}]}]), dict(evaluations=[]), dict(evaluations=[3]),
                    dict(evaluations=[{**self.model['evaluations'][0], 'statement_id': 'UNKNOWN'}]),
                    dict(evaluations=[{**self.model['evaluations'][0], 'arguments': ['unknown']}]),
                    dict(evaluations=[{**self.model['evaluations'][0], 'theorem': 'by trivial'}]),
