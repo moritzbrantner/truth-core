@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-NECESSARYBEING-SURVEY-FIRST-PASS",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+    "STMT-NECESSARY-INDIVIDUAL-LAWS"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Followed the public NecessaryBeing.com interactive survey into numbered A1–A10 conclusion pages and the alternate A1c2 external-cause proof. Recorded 41 provisional proposition readings, distinct argument skeletons, exact page locators, and countermodel/proof targets in docs/necessarybeing-survey-inventory.md. Rejected identifying the survey's causally capable 'concrete' with a neutral physical/concrete sense, identifying its separate N→□N stipulation with mere definitional truth, converting A10's prima-facie propensity into a deductive conclusion, or treating A9 nontrivial entailment as classical vacuous implication. Existing modal and ontic declarations were consulted but not changed; no source claim, Lean result or root premise was discharged. Live-page orientation is not a verified source passage.",
+  "blocker": "The exact HTML pages need stable web_snapshot hashes, selectors, materialization, a Wayback fallback if available, and source fidelity review before claims. The local checkout failed due to a full filesystem, preventing source_evidence.py and Lean checks in this turn; use GitHub CI or a workspace with free disk for the queued campaign #492.",
+  "evidence": [
+    "ISSUE-492"
+  ]
+}
