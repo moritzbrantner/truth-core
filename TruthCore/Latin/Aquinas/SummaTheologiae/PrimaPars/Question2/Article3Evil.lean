@@ -59,14 +59,16 @@ def GodSupremelyGoodAndOmnipotentReading {Being : Sort u}
     (God SupremelyGood Omnipotent : Being → Prop) : Prop :=
   ∀ g, God g → SupremelyGood g ∧ Omnipotent g
 
-/-- God permits evil only so as to bring good out of it: God, being supremely
+/-- For every evil there is, God brings some good out of it. Read from: God
+permits evil only so as to bring good out of it: God, being supremely
 good, "would in no way allow any evil in his works unless he were so
 omnipotent and good as to bring good even out of evil"; "it belongs to the
 infinite goodness of God that he permit evils to be, and draw goods from them"
 (*ut esse permittat mala, et ex eis eliciat bona*).
 
 Read per evil: for every evil there is, God brings out of it some good,
-namely some being's having a perfection (goodness is being in act, I q.5 a.1).
+namely some being's being good in some perfection (`GoodIn` is a parameter
+here; this reading does not tie it to being in act).
 A weaker reading (God draws good from the evils taken together) is possible;
 the per-evil reading is the stronger commitment, so a consistency result proved
 with it also holds for the weaker one. The reading does not say that the good

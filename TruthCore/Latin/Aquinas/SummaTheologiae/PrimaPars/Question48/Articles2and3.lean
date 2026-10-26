@@ -68,9 +68,10 @@ the sense that answers the question *an est*: as we say blindness is in the eye
 modo etiam malum dicitur ens*).
 
 Read as: if there is evil in something, the sentence "there is evil" is true.
-Only this direction is formalized. It makes explicit that, on this account,
-the evil premise is a truth-apt proposition whose truth is fixed by a
-privation in a subject, not by anyone's attitude.
+Only this direction is formalized. The reading does not itself state that
+the sentence is truth-apt or what fixes its truth; together with
+`EvilIsPrivationReading`, the sentence holds whenever some subject lacks a due
+good.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.48 a.2 ad 2.
 -/

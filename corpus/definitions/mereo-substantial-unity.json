@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+  "term": "substantial unity (mereological vitalism)",
+  "definition": "The disputed status of a material individual as one substance in its own right, rather than merely a collection or operationally integrated plurality. In the independence test this is a primitive metaphysical predicate, not defined by composition, survival, organismic activity or the presence of a soul.",
+  "basis": "stipulative",
+  "note": "Open research vocabulary for #325/#329, not a proof that substantial unity exists. Source traditions, criteria and their adequacy require independent justification. Keeping this predicate independent prevents a circular argument from life to soul.",
+  "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
+}

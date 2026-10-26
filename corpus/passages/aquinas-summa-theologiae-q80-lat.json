@@ -4,10 +4,12 @@
     "source_id": "AQUINAS-ST",
     "source_url": "https://www.corpusthomisticum.org/sth1077.html",
     "sha256": "sha256:d94d71351d8ec6edb379f1e0cae8859364a78e2aca5b915806b1f4b54fba5bdd",
+    "wayback_url": "https://web.archive.org/web/20260417180138id_/https://www.corpusthomisticum.org/sth1077.html",
+    "wayback_sha256": "sha256:d94d71351d8ec6edb379f1e0cae8859364a78e2aca5b915806b1f4b54fba5bdd",
     "encoding": "iso-8859-1",
     "language": "lat",
     "retrieved_at": "2026-10-25T20:05:46Z",
-    "license": "Latin text: Leonine edition, Rome 1889, electronically transcribed by Roberto Busa and reviewed by Enrique Alarc\u00f3n. The page claims \u00a92019 Fundaci\u00f3n Tom\u00e1s de Aquino, all rights reserved for this edition. Only hashes, locators, metadata and a short incipit are committed."
+    "license": "Latin text: Leonine edition, Rome 1889, electronically transcribed by Roberto Busa and reviewed by Enrique Alarc\u00f3n. The page claims \u00a92019 Fundaci\u00f3n Tom\u00e1s de Aquino, all rights reserved for this edition. Only hashes, locators, metadata and a short incipit are committed. A fixed 2026-04-17 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {

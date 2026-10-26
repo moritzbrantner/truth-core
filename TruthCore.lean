@@ -159,6 +159,7 @@ import TruthCore.Logic.Scientism
 import TruthCore.Logic.SelfApplication
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
+import TruthCore.Mereology.Vitalism
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
 import TruthCore.Metaethics.NaturalisticRealism
@@ -504,6 +505,7 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Mereology.SoulUnityIndependence.Solution
 import TruthCore.Results.Modal.B.Countermodels.Solution
 import TruthCore.Results.Modal.B.DisconnectedScope.Solution
 import TruthCore.Results.Modal.B.LanguagePropagation.Solution

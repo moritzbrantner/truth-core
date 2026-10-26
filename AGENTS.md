@@ -168,6 +168,17 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - every load-bearing term on a root path links a definition through `definition_ids`;
 - every ambiguous term links a disambiguation through `disambiguation_ids`.
 
+**Claim vs type.** Most review P1s are prose saying more than the bound Lean type certifies. For every statement, argument or result the diff adds or changes, write in the PR body the prose next to the Lean type (statement paraphrase, claim interpretation, inference/argument `meaning`, result `description`, Lean doc comments, docs) and check:
+
+- quantifiers and scope: "no", "not every", "some", "for all", "exists" (`¬ ∀` is not `∀ ¬`);
+- modality and time;
+- existence of a witness versus properties of the particular witness (a theorem about some model does not give the model's incidental properties);
+- every hypothesis of the theorem is listed as a premise (including nonemptiness or satisfiability side conditions, so that no result is vacuous);
+- conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
+- any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
+
+Each PR also reports its intended and actual change in root-path open premises (use `corpus.py frontier --routes` once available, else `--reaching-root`), including "no change".
+
 ## Review guidelines
 
 Every code review (including `@codex review`) has one more job besides finding bugs: the reviewer must try to **understand and accept** each proof the change presents. The repository, not the reviewer's background knowledge, has to make the proof convincing. Apply this to every result, argument or statement that the change adds or modifies and that lies on a path to a root (`python3 scripts/corpus.py frontier --reaching-root` lists the root paths; `STMT-CATHOLICISM-TRUE` is the default root). For each one:

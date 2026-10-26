@@ -15,7 +15,8 @@ namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 universe u v
 
-/-- Every created agent acts as moved to act by God: "God not only moves things to
+/-- Every created agent that moves something is itself moved in some respect.
+Read from: every created agent acts as moved to act by God: "God not only moves things to
 operate, as it were applying their forms and powers to operation ...; but He also
 gives created agents their forms and preserves them in being" (co., third way);
 "God not only gives things their form, but He also preserves them in existence,

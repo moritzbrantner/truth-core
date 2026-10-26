@@ -1,1 +1,1 @@
-{"id": "STMT-SOMETHING-IS-NECESSARY", "paraphrase": "Something is necessary: some being cannot not-be.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SomethingIsNecessaryReading"}
+{"id": "STMT-SOMETHING-IS-NECESSARY", "paraphrase": "Something is necessary: some being cannot not-be.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SomethingIsNecessaryReading", "definition_ids": ["DEF-NECESSARY-BEING"], "disambiguation_ids": ["DISAMB-NECESSARY"]}

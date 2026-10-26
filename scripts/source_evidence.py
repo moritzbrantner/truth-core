@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import codecs
+import fnmatch
 import gzip
 import hashlib
 import html.parser
@@ -1076,9 +1077,54 @@ def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True,
     return text
 
 
-def verify_all(export_path: Path | None = None) -> int:
+# A change to how evidence is fetched, extracted or hashed can change every passage's
+# result, so it re-verifies every passage live even on a pull request.
+FULL_VERIFY_PATTERNS = ("scripts/source_evidence.py",)
+
+
+def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
+    output = subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", base, head],
+        cwd=root,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout
+    return [line for line in output.splitlines() if line]
+
+
+def changed_passage_ids(
+    changed_files: Iterable[str], passages: dict[str, tuple[Path, dict[str, Any]]], root: Path = ROOT
+) -> set[str] | None:
+    """The passages a change adds or edits, or None when every passage must be verified.
+
+    A passage is selected when its manifest file under corpus/passages/ changed. A
+    deleted manifest selects nothing; a change to the verifier itself selects all.
+    """
+    changed = set(changed_files)
+    if any(fnmatch.fnmatch(path, pattern) for path in changed for pattern in FULL_VERIFY_PATTERNS):
+        return None
+    return {
+        passage_id
+        for passage_id, (path, _) in passages.items()
+        if path.resolve().relative_to(root.resolve()).as_posix() in changed
+    }
+
+
+def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = None) -> int:
+    """Refetch and hash-check source evidence: every passage, or only `passage_ids`.
+
+    The offline manifest and claim-binding check always covers every passage.
+    """
     passages = passage_index()
     validate_bindings()
+    if passage_ids is not None:
+        print(
+            f"live verify limited to {len(passage_ids)} changed passage(s)"
+            + (f": {', '.join(sorted(passage_ids))}" if passage_ids else "")
+            + f"; the other {len(passages) - len(passage_ids)} passed the offline check only"
+        )
+        passages = {key: value for key, value in passages.items() if key in passage_ids}
     snapshots: dict[tuple[str, str, str, str], dict[str, Any]] = {}
     media_verified = 0
     media_skipped = []
@@ -1334,6 +1380,14 @@ def parser() -> argparse.ArgumentParser:
         ),
     )
     verify_parser.add_argument("--export", help="youtube-corpus source-span export for media spans")
+    verify_parser.add_argument(
+        "--base",
+        help=(
+            "verify live only the passages whose manifests changed between BASE and --head "
+            "(all of them when this script changed); every manifest is still checked offline"
+        ),
+    )
+    verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
     materialize_parser = sub.add_parser(
         "materialize", help="verify and extract one source passage to a local UTF-8 text file"
     )
@@ -1363,7 +1417,13 @@ def main() -> int:
         if args.command == "check":
             return check()
         if args.command == "verify":
-            return verify_all(Path(args.export) if args.export else None)
+            export = Path(args.export) if args.export else None
+            if args.base is None:
+                return verify_all(export)
+            selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
+            if selected is None:
+                print(f"{', '.join(FULL_VERIFY_PATTERNS)} changed: verifying every passage live")
+            return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
         if args.command == "web-hashes":

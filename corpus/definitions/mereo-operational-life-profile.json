@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
+  "term": "operational life profile (mereology stress test)",
+  "definition": "In the finite toy history, a profile whose earlier and later phases are marked alive, integrated and self-maintaining, whose functional process continues, and whose material cohorts do not overlap. These flags do not define biological life, a persisting substance or a soul.",
+  "basis": "stipulative",
+  "note": "Analyst's deliberately restricted observational signature for #329. A genuine theory of life, metabolism and organism identity needs independent scientific and philosophical support; the toy does not supply it.",
+  "lean_declaration": "TruthCore.Mereology.Vitalism.TurnoverProfile"
+}

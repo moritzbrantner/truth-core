@@ -5,9 +5,11 @@
     "source_url": "https://elifesciences.org/articles/57964",
     "retrieved_at": "2026-10-25T13:51:13Z",
     "sha256": "sha256:5e79ce9ff55c50e2e098e0a2a902628e8887c777c1eafddb676d7fc193ec6a23",
+    "wayback_url": "https://web.archive.org/web/20251207011350id_/https://elifesciences.org/articles/57964",
+    "wayback_sha256": "sha256:01b430a20b35a1714424471ba0d3dfad18e02ea19ab38970642408e410dd1b11",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "Creative Commons Attribution license, as stated on eLife article."
+    "license": "Creative Commons Attribution license, as stated on eLife article. A fixed 2025-12-07 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {

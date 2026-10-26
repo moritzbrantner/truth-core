@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MEREO-UNITY",
+  "term": "unity",
+  "sense_definition_ids": [
+    "DEF-MEREO-STRUCTURAL-UNITY",
+    "DEF-MEREO-SUBSTANTIAL-UNITY"
+  ],
+  "resolution": "TurnoverProfile and SameProfile observe integration, maintenance and process continuity (structural unity). SubstantialUnity is an independent predicate for being an individual substance. No inference silently passes from integration to that substantial status; countermodels differ on precisely this point."
+}

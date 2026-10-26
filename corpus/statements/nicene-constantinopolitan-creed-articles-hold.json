@@ -1,1 +1,1 @@
-{"id":"STMT-NICENE-CONSTANTINOPOLITAN-CREED-ARTICLES-HOLD","paraphrase":"Every one of the twelve articles of the Nicene-Constantinopolitan Creed holds.","lean_declaration":"TruthCore.Case.Catholicism.CreedArticlesHold"}
+{"id": "STMT-NICENE-CONSTANTINOPOLITAN-CREED-ARTICLES-HOLD", "paraphrase": "Every one of the twelve articles of the Nicene-Constantinopolitan Creed holds.", "lean_declaration": "TruthCore.Case.Catholicism.CreedArticlesHold", "definition_ids": ["DEF-CREED-GREEK-C381-CONTENT"], "disambiguation_ids": ["DISAMB-CREED-CONTENT-AND-FORMULA"]}

@@ -174,7 +174,9 @@ def Q46SupportsWeakReadingReading (SupportsWeak : Prop) : Prop :=
 /-- Interpretive charity principle (project methodology, not a source claim): if
 an author states an unrestricted conclusion, presents it as following necessarily,
 words a premise so that it admits a reading on which the conclusion follows, the
-rival reading does not yield it, and no pinned text forces the rival reading, then
+rival reading does not yield it, and the passage examined for counter-evidence
+(ST I q.46 a.2 ad 7, the only one weighed so far) does not force the rival
+reading, then
 the reading that yields the conclusion is the author's intended one. -/
 def ValidityCharityPrinciple
     (StatesUnrestricted PresentsAsNecessary WordingAdmitsStrong NoTextForcesWeak
