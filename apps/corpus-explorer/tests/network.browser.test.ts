@@ -130,6 +130,8 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   expect(await page.locator(".network-marker[data-frontier='true']").count()).toBeGreaterThan(0);
   expect(await page.locator(".network-marker[data-frontier-depth='bare']").count()).toBeGreaterThan(0);
   expect(await page.locator(".network-marker[data-established='true']").count()).toBeGreaterThan(0);
+  const established = page.locator('.network-marker[data-established="true"][data-dimmed="false"]:not([data-selected="true"])').first();
+  expect(await established.evaluate((element) => getComputedStyle(element).opacity)).toBe("0.85");
   expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
   expect(await page.locator(".frontier-map-key").isVisible()).toBe(true);
   expect(await page.getByRole("link", { name: "Case", exact: true }).getAttribute("href")).toContain("/state");

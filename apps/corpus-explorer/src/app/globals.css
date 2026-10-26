@@ -934,7 +934,7 @@ button:focus-visible {
 .network-marker[data-conditional="true"] .network-symbol { background: var(--paper); border: 2px solid var(--status-proved); box-shadow: 0 0 0 1px var(--community); }
 .network-marker[data-refuted="true"] .network-symbol { box-shadow: 0 0 0 2px var(--status-objection); }
 .network-marker[data-emphasis="frontier"][data-kind="inference"]:not([data-dimmed="true"]) { opacity: .4; }
-.network-marker[data-emphasis="frontier"][data-kind="statement"]:not([data-frontier="true"]):not([data-dimmed="true"]) { opacity: .45; }
+.network-marker[data-emphasis="frontier"][data-kind="statement"]:not([data-frontier="true"]):not([data-established="true"]):not([data-dimmed="true"]) { opacity: .45; }
 .network-marker[data-emphasis="frontier"][data-established="true"]:not([data-dimmed="true"]) { opacity: .85; }
 .network-marker[data-dimmed="true"] { opacity: .16; }
 .network-marker[data-selected="true"], .network-marker[data-highlighted="true"] { filter: drop-shadow(0 0 4px var(--accent)); opacity: 1 !important; }
