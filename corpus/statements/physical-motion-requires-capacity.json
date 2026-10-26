@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
+  "paraphrase": "Whatever undergoes motion in a physical respect is in potency for the terminus of that motion in that same respect.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.PhysicalMotionRequiresCapacityReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

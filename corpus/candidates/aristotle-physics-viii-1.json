@@ -1,1 +1,9 @@
-{"id":"ARIST-PHYS-VIII-1","source_id":"ARIST-PHYS","locator":"VIII.1, 250b11-252b6","priority":120,"goal":"Complete Physics VIII.1 by formalizing Aristotle's inquiry into whether motion ever began or will cease, his engagement with predecessor cosmologies, and his opening arguments for everlasting motion.","reason":"Physics VII is exhausted; continue in source order with Book VIII, the final book in the active Physics IV-VIII campaign.","status":"candidate"}
+{
+  "id": "ARIST-PHYS-VIII-1",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.1, 250b11-252b6",
+  "priority": 120,
+  "goal": "Continue VIII.1 in source order, retaining the predecessor cosmologies at 250b11-251a7 as unprocessed substantive readings. The capacity requirement at 251a8-16 is completed by ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A: reuse it rather than duplicate it. Then distinguish temporal priority of movable and mover from capacity, investigate the first/last-motion and time arguments, and the criticism of unexplained cosmic alternation.",
+  "reason": "Full pinned VIII.1 witness read. Only the physical capacity requirement has been recorded. The opening question is context; the Anaxagoras/Empedocles cosmologies remain unprocessed obligations, so the locator stays at the first unprocessed range. Temporal priority, beginning/end arguments and objections also remain; existing VIII.4-5 dependency readings do not exhaust this chapter.",
+  "status": "candidate"
+}
