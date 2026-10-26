@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT",
+  "term": "culpa (fault), voluntary operational defect",
+  "definition": "Fault is the character of evil in a due operation under voluntary control when that operation is absent or lacks its due mode and order. The agent is imputable insofar as master of the action through will. This is operational evil; poena contrasts as evil in form or integrity, contrary to the will. The formal reading records the sufficient direction only, not an exclusive partition or the converse.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q48-A5-VOLUNTARY-OPERATION-DEFECT-CULPA"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.VoluntaryOperationDefectIsCulpaReading"
+}

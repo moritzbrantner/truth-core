@@ -3,7 +3,8 @@
   "term": "evil",
   "sense_definition_ids": [
     "DEF-EVIL-AS-PRIVATION",
-    "DEF-NATURAL-LAW-MORAL-EVIL"
+    "DEF-NATURAL-LAW-MORAL-EVIL",
+    "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
   ],
-  "resolution": "q.48 evil is the privation of a due good and includes non-moral evil. q.94 naturally evil is a practical evaluation contrary to natural law. Data keeps NaturallyEvil and Evil as different predicates on different carriers; no theorem identifies them, and evilPremise need not satisfy Moral."
+  "resolution": "q.48 evil is the privation of a due good and includes non-moral evil. q.94 naturally evil is a practical evaluation contrary to natural law. Data keeps NaturallyEvil and Evil as different predicates on different carriers; no theorem identifies them, and evilPremise need not satisfy Moral. In q.48 a.5 culpa is the voluntary-operation species, classified only with voluntary control and a due operation absent or disordered. This does not identify all privative evil with culpa, the q.94 predicate with culpa, or a culpa occurrence with a truth-apt sentence in the O'Connor signature."
 }

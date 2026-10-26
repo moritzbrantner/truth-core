@@ -8,5 +8,6 @@ import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.NaturalisticRealism
 import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
+import TruthCore.Comparison.ProblemOfEvilCulpa
 import TruthCore.Comparison.Resurrection
 import TruthCore.Comparison.Teleonomy

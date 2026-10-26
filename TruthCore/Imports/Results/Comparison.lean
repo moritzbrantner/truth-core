@@ -20,6 +20,7 @@ import TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsist
 import TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.Solution
 import TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Solution
 import TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.CatholicAbsentOperationCulpaAndEvil.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
