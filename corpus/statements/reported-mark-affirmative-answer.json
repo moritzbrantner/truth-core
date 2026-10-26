@@ -1,0 +1,11 @@
+{
+  "id": "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
+  "paraphrase": "The narrative attributes to Jesus an affirmative self-ascription of Messiah and Son of the Blessed in response to the high priest’s question.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedAffirmativeAnswer",
+  "definition_ids": [
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

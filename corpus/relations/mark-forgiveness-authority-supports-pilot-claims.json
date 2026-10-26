@@ -1,0 +1,9 @@
+{
+  "id": "REL-MARK-FORGIVENESS-AUTHORITY-SUPPORTS-PILOT-CLAIMS",
+  "subject_kind": "claim",
+  "subject_id": "NT-MARK-2-FORGIVENESS-AUTHORITY",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-JESUS-CLAIMS",
+  "note": "Evidence concerning the authority question only. Transport to the actual-claim predicate requires explicit historical attribution and interpretive classification premises, including the Son of Man referent and the sense of divine authority. No inference application, historical conclusion, actual possession of authority, divine identity or resurrection follows here."
+}

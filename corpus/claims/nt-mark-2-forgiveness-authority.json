@@ -1,0 +1,15 @@
+{
+  "id": "NT-MARK-2-FORGIVENESS-AUTHORITY",
+  "statement_id": "STMT-REPORTED-FORGIVENESS-AUTHORITY",
+  "source_id": "NT-MARK",
+  "locator": "2.10",
+  "interpretation": "Read with 2.1–12 and the complete chapter: the speech introduced as Jesus’s in 2.8–9 continues with the Son of Man’s authority to forgive sins on earth in 2.10, followed by the command to the paralytic. This records attributed assertion, not actual utterance, actual pardon, divine identity or historical vindication. The scribes’ restriction in 2.7 is their objection, not an unqualified narrator assertion. See docs/mark-forgiveness-authority.md for the context, alternative accounts and remaining gaps.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-FORGIVENESS-AUTHORITY",
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}
