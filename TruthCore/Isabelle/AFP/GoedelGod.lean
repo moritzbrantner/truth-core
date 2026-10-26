@@ -279,10 +279,13 @@ def InvariantFilterMakesNecessaryExistenceUniversal (World : Type u) (Ind : Type
   ∀ (F : Frame World) (x : Ind) (w : World),
     FilteredNecessaryExistence F WorldInvariantProperty x w
 
-/-- A two-world frame witnesses a separation between world-invariant-filtered
-necessary existence and the unfiltered Scott predicate. -/
+/-- A two-world frame with universal accessibility witnesses a separation
+between world-invariant-filtered necessary existence and the unfiltered Scott
+predicate. Universal accessibility is part of the proposition, not merely a
+feature of the witness chosen by its proof. -/
 def InvariantFilterDiffersFromScott : Prop :=
   ∃ (F : Frame Bool),
+    (∀ w next, F.access w next) ∧
     FilteredNecessaryExistence F WorldInvariantProperty () false ∧
     ¬ NecessaryExistence F () false
 

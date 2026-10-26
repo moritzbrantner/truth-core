@@ -11,7 +11,8 @@ filtered NE. The already verified Scott characterization rules out full NE:
 `true` is accessible from `false` but they are not identical worlds. -/
 theorem checks : InvariantFilterDiffersFromScott := by
   let F : Frame Bool := ⟨fun _ _ => True⟩
-  refine ⟨F, InvariantFilterMakesNecessaryExistenceUniversal.checks F () false, ?_⟩
+  refine ⟨F, (fun _ _ => trivial),
+    InvariantFilterMakesNecessaryExistenceUniversal.checks F () false, ?_⟩
   intro hNE
   have hIsolated :=
     (NecessaryExistenceWorldIsolation.checks F () false).mp hNE
