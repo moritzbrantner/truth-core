@@ -133,14 +133,12 @@ available certified artifacts** in that profile. This is an inventory boundary,
 not a claim of logical undecidability, impossibility or metaphysical uncertainty.
 No temporal Third Way reading is equated with Kripke accessibility.
 
-First-slice acceptance covers live CLI status, persistent input settings,
-certified cores with removal witnesses, registered controls, conservative
-unresolved reporting, dossier links and regression fixtures. The static
-workspace exposes registered provenance only. It does **not** complete #477's
-certified interactive explorer, checked-schema composition and route-impact
-acceptance. A later slice must generate a current-head disposable verified
-report in the existing proof build and exercise that transport in a browser;
-no previous report may become an independent proof-status authority.
+The first slice supplies live CLI status, persistent settings, certified cores
+with removal witnesses, registered controls, conservative unresolved reporting,
+dossier links and regression fixtures. The transport slice below adds certified
+bounded selection in the explorer. Broader checked-schema composition and
+route-impact exploration remain open in #477; neither slice establishes a root
+premise or completes the issue.
 
 Conditional consequence and establishment are separate. The existing corpus may
 classify a conditional conclusion as `proved` while its `established` value stays
@@ -149,3 +147,69 @@ label as a premise-free fact: only the explicitly selected assumptions and the
 exact verified theorem hypotheses enter its support chains. Report conditional
 classification changes separately from changes in established statements or
 root-route premises; these configuration inputs discharge none.
+
+## Verified explorer producer and bounded selections
+
+Generate a disposable output after checking the exact current proofs:
+
+```bash
+flock /tmp/moenarch/truth-core-heavy.lock \
+  python3 scripts/corpus.py configuration-report --output .cache/configuration-explorer.json
+TRUTH_CORE_CONFIGURATION_REPORT=.cache/configuration-explorer.json \
+TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT=true bun run build
+```
+
+`configuration-report --check .cache/configuration-explorer.json` checks a
+**trusted producer's output** against the current checkout head, input manifest,
+canonical report, theorem/model provenance and decision tree. It does not rerun
+Lean or independently prove that a producer executed. A matching digest provides
+freshness, not proof execution. The output is never an input to a proof gate or
+frontier closure. Do not treat an arbitrary uploaded report as a trusted producer.
+
+CI produces one all-case report in the existing Comparator job; both browser
+builds download that same-run artifact. The independent Pages workflow executes
+its own live producer. It does not infer verification from a different CI run or
+cached pass marker. Certified builds require the report and reject missing,
+stale, registered-only or malformed data. Local development without an explicit
+report path remains visibly registered-only. An explicitly supplied bad report
+never falls back to registered data.
+
+The bundle records current source/input identities, original theorem bindings,
+model certificates, kernel-replayed family cores and a canonical Python decision
+tree. Its manifest includes actual configuration/proof inputs and the global
+Lean scan used by the existing transcription classifier; unrelated docs and
+styles are excluded. An edit during generation aborts without replacing the
+previous output. The output is atomically replaced inside ignored `.cache`.
+
+The explorer supports at most four assumption dimensions and the existing five
+non-proof Kripke roles. It follows serialized decision edges instead of running
+a second classifier in JavaScript. An incompatible prefix prunes all its
+extensions; a model satisfying the prefix and every remaining optional premise
+covers the whole family. An inventory-unresolved family is pruned only when no
+registered model covers the prefix and complete bounded closure finds no core
+at its largest extension. Incomplete closure remains explicit. Counts in the
+limits detail describe syntactic premise selections, not distinct philosophical
+theories. The regression oracle checks every bounded selection independently.
+
+Checkboxes and presets use URL parameters: `set=custom` with repeated exact
+`premise=STMT-…` values, or a named `set`. An unchecked statement is unassumed.
+The view shows certified cores, exact theorem chains and single-removal
+witnesses, or registered model evaluation certificates. Applicable existing
+conditional theorems are shown from their explicit premises; incompatible
+selections show no explosive consequences. The Nat-world profile remains
+inventory-unresolved where no applicable witness exists.
+
+Turbo hashes the explicit report file and certified-mode environment. An
+uncached `configuration-inputs` dependency validates freshness **before any
+cached build can be restored**; hashing the artifact alone would miss a stale
+report after another root proof input changed. Direct Next builds also validate
+at their server-data boundary. Certified build transport uses the fixed
+`.cache/configuration-explorer.json` path so its bytes always participate in
+cache identity.
+
+Remaining acceptance: consume broader checked `instance_of_schema` packages
+without loosening the original-theorem/profile binding, and implement meaningful
+route-impact exploration through the existing authoritative frontier engine.
+Current assumption selection does not discharge root premises; its dossier link
+shows the authoritative route contribution. No counterfactual route savings are
+invented here.

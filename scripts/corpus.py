@@ -2227,12 +2227,18 @@ def registered_configurations(statements=None, results=None, arguments=None, mod
     return [case for _, case in records]
 
 
-def command_configurations(args: argparse.Namespace) -> int:
+def configuration_context():
     statements = {r["id"]: r for _, r in load_dir("statements")}
     results = {r["id"]: r for _, r in load_dir("results")}
     arguments = {r["id"]: r for _, r in load_dir("arguments")}
     models = {model["id"]: model for model in registered_models()}
     cases = registered_configurations(statements, results, arguments, models)
+    return dict(statements=statements, results=results, arguments=arguments, models=models, cases=cases)
+
+
+def collect_configuration_reports(args: argparse.Namespace, context=None):
+    context = configuration_context() if context is None else context
+    statements, results, arguments, models, cases = (context[key] for key in ("statements", "results", "arguments", "models", "cases"))
     if args.case:
         cases = [case for case in cases if case["id"] == args.case]
         if not cases:
@@ -2274,6 +2280,11 @@ def command_configurations(args: argparse.Namespace) -> int:
             raise CorpusError(str(exc)) from exc
         report["verification"] = verification
         reports.append(report)
+    return reports
+
+
+def command_configurations(args: argparse.Namespace) -> int:
+    reports = collect_configuration_reports(args)
     if args.json:
         print(json.dumps(reports, indent=2, ensure_ascii=False, sort_keys=True))
     else:
@@ -2296,6 +2307,44 @@ def command_configurations(args: argparse.Namespace) -> int:
                 if entry['consequences']:
                     for consequence in entry['consequences']['items']:
                         print(f"    consequence {consequence['statement_id']}: {consequence['sufficient_subsets']}")
+    return 0
+
+
+def command_configuration_report(args: argparse.Namespace) -> int:
+    from configuration_explorer import input_manifest, read_bundle, write_bundle
+    try:
+        if args.build_input:
+            import os
+            artifact = os.environ.get("TRUTH_CORE_CONFIGURATION_REPORT")
+            if not artifact:
+                if os.environ.get("TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT") == "true":
+                    raise CorpusError("certified build requires TRUTH_CORE_CONFIGURATION_REPORT")
+                print(json.dumps({"mode": "registered-only"}) if args.json else "configuration build input: registered-only development")
+                return 0
+            path = Path(artifact)
+            path = path if path.is_absolute() else ROOT / path
+            if path.resolve() != (ROOT / ".cache/configuration-explorer.json").resolve():
+                raise CorpusError("certified build report must use .cache/configuration-explorer.json for cache invalidation")
+            bundle = read_bundle(ROOT, path, configuration_context())
+        elif args.check:
+            path = Path(args.check)
+            bundle = read_bundle(ROOT, path if path.is_absolute() else ROOT / path, configuration_context())
+        else:
+            initial = input_manifest(ROOT)
+            context = configuration_context()
+            selection = argparse.Namespace(case=None, seed=None, premise=[], registered=False)
+            reports = collect_configuration_reports(selection, context)
+            output = Path(args.output)
+            bundle = write_bundle(ROOT, output if output.is_absolute() else ROOT / output, context, reports, initial)
+    except ValueError as exc:
+        raise CorpusError(str(exc)) from exc
+    if args.json:
+        # Input hashes stay server-side; the UI needs source identity and data.
+        projection = {**bundle, "producer": {key: value for key, value in bundle["producer"].items() if key != "inputs"}}
+        print(json.dumps(projection, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        print(f"configuration report: {len(bundle['cases'])} cases; source {bundle['producer']['source_head']}; input digest {bundle['producer']['input_digest']}")
+        print("Validated producer output freshness; this check is not fresh proof execution." if args.check or args.build_input else "Live verification completed; disposable producer output written.")
     return 0
 
 
@@ -2404,6 +2453,13 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("check", help="validate corpus references, source evidence, and Comparator configs").set_defaults(
         func=command_check
     )
+    configuration_report_parser = sub.add_parser("configuration-report", help="produce or freshness-check disposable verified explorer output")
+    report_mode = configuration_report_parser.add_mutually_exclusive_group(required=True)
+    report_mode.add_argument("--build-input", action="store_true", help="uncached build preflight: validate explicit certified mode or registered-only development")
+    report_mode.add_argument("--output", metavar="PATH", help="live-verify and atomically write an ignored .cache bundle")
+    report_mode.add_argument("--check", metavar="PATH", help="check trusted producer output freshness/projection; does not rerun proofs")
+    configuration_report_parser.add_argument("--json", action="store_true")
+    configuration_report_parser.set_defaults(func=command_configuration_report)
     configurations = sub.add_parser("configurations", help="compose explicit configurations with live certified cores/models")
     configurations.add_argument("--case", metavar="CONFIG-ID")
     configurations.add_argument("--seed", metavar="STMT-ID")
