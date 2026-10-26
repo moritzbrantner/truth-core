@@ -712,6 +712,9 @@ class FloorBasisTest(unittest.TestCase):
         report = self.report([statement("P", self_evident={"justification_ids": ["C"]})])
         self.assertEqual(report["floor"][0]["basis"], "legacy")
         self.assertIn("floor: 1 of 1 self_evident markings meet their basis", corpus.format_frontier(report))
+        # A floor-marked root is listed in its own basis report.
+        report = self.report([statement("P", self_evident={"justification_ids": ["C"]})], root="P")
+        self.assertEqual(report["routes"]["floor_bases"], [{"statement_id": "P", "basis": "legacy"}])
 
 
 class TranscriptionHeuristicTest(unittest.TestCase):

@@ -902,7 +902,7 @@ def frontier_report(
     # The root is closed only relative to the floor (#500): list each met
     # floor premise that reaches it with its basis.
     for entry in floor_report:
-        entry["reaches_root"] = upward(entry["statement_id"])[2] is not None
+        entry["reaches_root"] = entry["statement_id"] == root or upward(entry["statement_id"])[2] is not None
     route_report["floor_bases"] = [
         {"statement_id": entry["statement_id"], "basis": entry["basis"]}
         for entry in floor_report
