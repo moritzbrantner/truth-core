@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NB-COUNT-DESCENT",
+  "term": "A7 at-least-n to at-least-(n−1) possible-causation transfer",
+  "definition": "`CountDescent C` is the universal conditional `∀ n : Nat, 1 < n → C n → C (n - 1)`. This is about possible causation of separate situations, not about arithmetic inclusion of the sets of individuals those situations describe.",
+  "basis": "stipulative",
+  "note": "Faithful conditional extraction of the specialized A7c step 2, not an independently warranted metaphysical principle. An explicit source claim records why it appears in the argument.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.CountDescent"
+}

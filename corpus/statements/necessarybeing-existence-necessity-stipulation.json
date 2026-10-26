@@ -1,0 +1,6 @@
+{
+  "id": "STMT-NB-SURVEY-EXISTENCE-NECESSITATION",
+  "paraphrase": "The author explicitly stipulates: if at least one necessary being exists, then necessarily at least one necessary being exists. This is a proposition about existential N, not by itself a claim that the same individual must witness N in every world.",
+  "definition_ids": ["DEF-NB-SURVEY-NECESSARY-BEING"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-NECESSARY"]
+}

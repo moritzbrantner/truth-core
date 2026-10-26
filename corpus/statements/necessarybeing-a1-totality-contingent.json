@@ -1,0 +1,6 @@
+{
+  "id": "STMT-NB-A1-CONTINGENT-TOTALITY",
+  "paraphrase": "If C is defined as the sum of all contingent things, C itself is contingent. The site attributes the second clause to the respondent's report. Treating such a sum as a thing to which contingent and cause predicates apply remains a substantial open premise.",
+  "definition_ids": ["DEF-NB-SURVEY-TOTALITY", "DEF-NB-SURVEY-CAUSE-RELATUM"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+}

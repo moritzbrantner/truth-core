@@ -1,0 +1,11 @@
+{
+  "id": "NB-SURVEY-FIVE-TO-ONE",
+  "argument_id": "NB-SURVEY-FIVE-TO-ONE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryBeingCountDescent.fiveToOne",
+  "comparator_config": "results/NB-SURVEY-FIVE-TO-ONE/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by instantiation (AGENTS.md invariant 16): the proof only applies the assumed n-to-(n−1) decrement premise four times (5→4→3→2→1) over an uninterpreted `Nat → Prop` count predicate, with both the five-causable premise and the decrement premise as explicit open hypotheses. It certifies only that the A7c count step was transcribed; it closes no frontier node by itself and leaves STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE open while its premises are open. Not a proof of noncontingent or necessary existence.",
+  "transcription": "instantiation"
+}

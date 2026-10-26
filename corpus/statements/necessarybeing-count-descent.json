@@ -1,0 +1,7 @@
+{
+  "id": "STMT-NB-COUNT-CAUSABILITY-DESCENT",
+  "paraphrase": "For every natural n greater than one, if the situation of there being at least n contingent things can be caused, then the situation of there being at least n minus one contingent things can be caused. This is an explicit conditional premise supplied by a possible survey answer, not a theorem about arbitrary causal relations.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.CountDescent",
+  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY", "DEF-NB-COUNT-DESCENT"],
+  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+}

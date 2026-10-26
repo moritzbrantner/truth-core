@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-DEFINITION-N-NECESSITATION",
+  "statement_id": "STMT-NB-SURVEY-EXISTENCE-NECESSITATION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "Definition page, stipulation following two conditions",
+  "interpretation": "The explicitly named axiom is a de dicto existential implication N → □N. It is logically separable from the preceding temporal and causal conditions on an individual. No modal proof of the axiom is given there.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-NECESSARY-BEING"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-NECESSARY"]
+}
