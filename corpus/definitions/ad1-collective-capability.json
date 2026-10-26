@@ -1,0 +1,11 @@
+{
+  "id": "DEF-AD1-COLLECTIVE-CAPABILITY",
+  "term": "ability to bring good from evils collectively",
+  "definition": "CanDrawGoodFromEvils g evils means g is capable of bringing some good from the evils picked out by evils considered together. This is a primitive capability predicate, not an actual GoodIn witness or a modal possibility of an already existing perfection; no accessibility relation or general modal logic is stipulated.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-CAPABILITY"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodCanDrawGoodFromPermittedEvilsCollectivelyReading",
+  "note": "Parameter semantics for explicit scope comparison, motivated by the pinned ad 1 wording. A source argument fixing the relation extension or connecting the collective and distributive relations would be needed to go beyond this interpretation; no such bridge is supplied here."
+}

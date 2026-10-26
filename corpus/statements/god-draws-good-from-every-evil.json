@@ -1,1 +1,15 @@
-{"id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL", "paraphrase": "God brings good out of every evil there is.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading", "disambiguation_ids": ["DISAMB-GOD"]}
+{
+  "id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
+  "paraphrase": "For any God g and any subject x with evil in it, g actually brings some good in some bearer and perfection from the evil in x.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading",
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-AD1-GOOD-FROM-EVIL",
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ],
+  "definition_ids": [
+    "DEF-GOD-WHAT-ALL-UNDERSTAND",
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD"
+  ]
+}

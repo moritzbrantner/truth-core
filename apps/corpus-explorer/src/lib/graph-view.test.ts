@@ -42,6 +42,40 @@ describe("graph views", () => {
     expect(ids(inference, "statement")).toEqual(["C", "P1", "P2"]);
   });
 
+  test("local graph traverses typed inference steps and recorded research neighbors", () => {
+    const neighborhood = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 1 }));
+    expect(neighborhood.anchor).toBe("ALT");
+    expect(ids(neighborhood, "statement")).toContain("DEF");
+    expect(ids(neighborhood, "statement")).toContain("OBJ");
+    expect(ids(neighborhood, "inference")).toContain("I3");
+    expect(neighborhood.edges.some((edge) => edge.kind === "relation" && edge.source === "ALT" && edge.target === "DEF")).toBe(true);
+    expect(neighborhood.edges.some((edge) => edge.kind === "premise" && edge.source === "ALT" && edge.target === "I3")).toBe(true);
+
+    const formalOnly = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 1, relations: false }));
+    expect(ids(formalOnly, "statement")).not.toContain("DEF");
+    expect(ids(formalOnly, "statement")).toContain("OBJ");
+    expect(formalOnly.edges.every((edge) => edge.kind !== "relation")).toBe(true);
+    const center = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 0 }));
+    expect(ids(center, "statement")).toEqual(["ALT"]);
+    expect(center.edges).toEqual([]);
+    const previouslyExpanded = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 0, expanded: ["P1"] }));
+    expect(ids(previouslyExpanded, "statement")).toEqual(["ALT"]);
+    expect(ids(previouslyExpanded, "inference")).toEqual([]);
+  });
+
+  test("local graph allows cycles without merging propositions or changing closure", () => {
+    const actual = computeGraphView(graph, state({ view: "local", node: "DEF", hops: 3 }));
+    expect(new Set(actual.nodes.map((node) => node.id)).size).toBe(actual.nodes.length);
+    for (const edge of actual.edges.filter((entry) => entry.kind !== "relation")) {
+      const sourceKind = actual.nodes.find((node) => node.id === edge.source)?.kind;
+      const targetKind = actual.nodes.find((node) => node.id === edge.target)?.kind;
+      expect([sourceKind, targetKind]).toContain("inference");
+    }
+    const open = graph.statements.find((statement) => statement.id === "ALT")!;
+    const shown = actual.nodes.find((node) => node.id === "ALT");
+    expect(shown?.kind === "statement" && shown.statement.established).toBe(open.established);
+  });
+
   test("filters dim by default and hide on request", () => {
     const dimmed = computeGraphView(graph, state({ status: ["open"] }));
     const matched = dimmed.nodes.filter((node) => node.kind === "statement" && node.matched).map((node) => node.id);

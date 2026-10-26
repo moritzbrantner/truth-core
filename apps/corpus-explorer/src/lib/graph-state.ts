@@ -2,7 +2,7 @@ import { appendProofSearchState, DEFAULT_PROOF_BUDGET, parseProofSearchState, ty
 import type { ClusterMode, GraphStatus } from "./proposition-graph";
 
 /** All /graph view state; it round-trips through the URL so views can be shared. */
-export type GraphView = "root" | "focus" | "all";
+export type GraphView = "root" | "focus" | "local" | "all";
 export type FocusDirection = "up" | "down" | "both";
 
 export type GraphState = ProofSearchState & {
@@ -48,7 +48,7 @@ type ReadableParams = {
   getAll(name: string): string[];
 };
 
-const views: GraphView[] = ["root", "focus", "all"];
+const views: GraphView[] = ["root", "focus", "local", "all"];
 const directions: FocusDirection[] = ["up", "down", "both"];
 const clusterModes: ClusterMode[] = ["passage", "source", "namespace"];
 const statuses: GraphStatus[] = [
