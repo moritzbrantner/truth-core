@@ -1,0 +1,19 @@
+{
+  "id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "inference_ids": ["INF-PSR-EXISTENCE-SCOPE-COUNTERMODELS"],
+  "meaning": "An axiom-free model-theoretic independence result for #312. It does not prove unrestricted PSR, necessary existence in reality, intrinsic explanatory adequacy, or that an explanatory regress must end. It isolates two alternative missing bridges and documents them in docs/psr-scope-countermodels.md.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-SOUNDNESS",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-PSR-CONTINGENT-SCOPE",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+}
