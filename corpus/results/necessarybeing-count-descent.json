@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Causality.NecessaryBeingCountDescent.fiveToOne",
   "comparator_config": "results/NB-SURVEY-FIVE-TO-ONE/comparator.json",
   "status": "solution-present",
-  "description": "Conditional A7c 5→4→3→2→1 instantiation, where both the five-causable premise and the n-to-(n−1) premise are explicit open hypotheses. This is a count schematic only, not a proof of noncontingent or necessary existence."
+  "description": "Transcription by instantiation (AGENTS.md invariant 16): the proof only applies the assumed n-to-(n−1) decrement premise four times (5→4→3→2→1) over an uninterpreted `Nat → Prop` count predicate, with both the five-causable premise and the decrement premise as explicit open hypotheses. It certifies only that the A7c count step was transcribed; it closes no frontier node by itself and leaves STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE open while its premises are open. Not a proof of noncontingent or necessary existence.",
+  "transcription": "instantiation"
 }
