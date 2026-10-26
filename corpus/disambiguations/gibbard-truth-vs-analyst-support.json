@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT",
+  "term": "conditional truth and support",
+  "sense_definition_ids": [
+    "DEF-GIBBARD-EXPANDED-TRUTH",
+    "DEF-PLAN-STATE-SUPPORT"
+  ],
+  "resolution": "The primary claim uses Gibbard\u2019s expressly qualified expanded full-truth sense. PLAN-STATE-EMBEDDING-CONTROL uses stipulated compositional support, whose conditional holds at a point whenever the antecedent is unsupported or consequent supported. These are not identified: Gibbard denies full truth values to false-antecedent indicative conditionals. No result here proves his indicative semantics validates MP or that the analyst clause captures his psychology or ordinary moral language."
+}

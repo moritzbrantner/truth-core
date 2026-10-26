@@ -35,6 +35,7 @@ import TruthCore.Imports.Results.Isabelle
 import TruthCore.Imports.Results.Kant
 import TruthCore.Imports.Results.Logic
 import TruthCore.Imports.Results.Mereology
+import TruthCore.Imports.Results.Metaethics
 import TruthCore.Imports.Results.Modal
 import TruthCore.Imports.Results.Modern
 import TruthCore.Imports.Results.Plato
