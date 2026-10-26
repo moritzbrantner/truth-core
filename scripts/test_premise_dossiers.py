@@ -61,6 +61,21 @@ class DossierTests(unittest.TestCase):
         self.assertEqual(dossiers["P"]["definition_ids"], ["D1", "D2"])
         self.assertEqual(dossiers["P"]["disambiguation_ids"], ["DISAMB"])
 
+    def test_floor_basis_is_shown(self):
+        from premise_dossiers import format_dossier
+        self.data["statements"][0]["self_evident"] = {
+            "basis": "observation", "justification_ids": ["CLAIM"], "sceptical_rival_ids": []}
+        report = corpus.frontier_report(self.data["statements"], self.data["arguments"], self.data["results"], [],
+                                        root="R", claims=self.data["claims"])
+        dossier = dossier_index(self.data, report)["P"]
+        self.assertEqual((dossier["closure"], dossier["floor"]["basis"], dossier["floor"]["met"]),
+                         ("self_evident", "observation", True))
+        self.data["definitions"] = [{"id": "D1", "definition": "d1"}, {"id": "D2", "definition": "d2"}]
+        self.data["disambiguations"][0]["resolution"] = "r"
+        self.data["claims"][0].update(source_id="S", locator="L", interpretation="i")
+        self.data["arguments"][0]["meaning"] = "m"
+        self.assertIn("Floor basis: observation (met); justification: CLAIM", format_dossier(dossier, self.data))
+
     def test_all_backfilled_attempts_bind_to_existing_records(self):
         data = {name: [record for _, record in corpus.load_dir(name)] for name in ("statements", "results", "claims", "attempts")}
         evidence = {entry["id"] for entry in data["results"] + data["claims"]}

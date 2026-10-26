@@ -88,6 +88,7 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "statement": statement,
             "root": report["root"],
             "closure": report["closed_statements"].get(sid),
+            "floor": next((entry for entry in report.get("floor", []) if entry["statement_id"] == sid), None),
             "established": sid in report["established_statements"],
             "frontier": items.get(sid),
             "claim_ids": sorted(entry["id"] for entry in claims),
@@ -132,7 +133,11 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     status = dossier["closure"] or (f"open ({frontier['depth']})" if frontier else "not on the frontier")
     lines = [statement["id"], statement["paraphrase"], f"Lean: {statement.get('lean_declaration', 'none')}",
              f"Status: {status}; established: {str(dossier['established']).lower()}"]
-    sections = (("claims", "claim_ids", "Source readings"), ("claims", "supporting_claim_ids", "Supporting source readings"),
+    floor = dossier.get("floor")
+    if floor:
+        met = "met" if floor["met"] else "not met, closes nothing: " + "; ".join(floor["reasons"])
+        lines.append(f"Floor basis: {floor['basis']} ({met}); justification: {', '.join(floor['justification_ids'])}")
+    sections =(("claims", "claim_ids", "Source readings"), ("claims", "supporting_claim_ids", "Supporting source readings"),
                 ("definitions", "definition_ids", "Definitions"), ("disambiguations", "disambiguation_ids", "Disambiguations"),
                 ("relations", "alternative_relation_ids", "Alternatives"), ("relations", "objection_relation_ids", "Objections"),
                 ("arguments", "argument_ids", "Arguments (premise, conclusion, commitment or inference)"),

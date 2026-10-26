@@ -481,11 +481,43 @@ class FrontierSchemaTest(unittest.TestCase):
         path = corpus.ROOT / "corpus" / "statements" / "example.json"
         corpus.validate_self_evident(path, statement("X"), set(), set())
         corpus.validate_self_evident(
-            path, statement("X", self_evident={"justification_ids": ["R"]}), set(), {"R"}
+            path, statement("STMT-EXCLUDED-MIDDLE", self_evident={"justification_ids": ["R"]}), set(), {"R"}
         )
         for marking in (True, {"justification_ids": []}, {"justification_ids": ["UNKNOWN"]}):
             with self.assertRaises(corpus.CorpusError):
                 corpus.validate_self_evident(path, statement("X", self_evident=marking), {"C"}, {"R"})
+
+    def test_self_evident_basis_shapes(self) -> None:
+        path = corpus.ROOT / "corpus" / "statements" / "example.json"
+        known = {"P", "Q", "RIVAL", "NOT-P"}
+
+        def check(marking: dict[str, object]) -> None:
+            corpus.validate_self_evident(path, statement("P", self_evident=marking), {"C", "D"}, {"R"}, known)
+
+        check({"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P"})
+        check({
+            "basis": "common_ground",
+            "justification_ids": ["C", "D"],
+            "question_statement_id": "Q",
+            "positions": [{"statement_id": "Q", "claim_ids": ["C"]}, {"statement_id": "RIVAL", "claim_ids": ["D"]}],
+        })
+        check({"basis": "observation", "justification_ids": ["C"], "sceptical_rival_ids": ["NOT-P"]})
+        for marking in (
+            {"justification_ids": ["R"]},  # basis-less outside the legacy list
+            {"basis": "logical", "justification_ids": ["R"]},
+            {"basis": "retorsion", "justification_ids": ["C"], "denial_statement_id": "NOT-P"},
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "UNKNOWN"},
+            {"basis": "common_ground", "justification_ids": ["C"], "question_statement_id": "Q", "positions": []},
+            {
+                "basis": "common_ground",
+                "justification_ids": ["C", "D"],
+                "question_statement_id": "Q",
+                "positions": [{"statement_id": "Q", "claim_ids": ["C"]}],
+            },
+            {"basis": "observation", "justification_ids": ["R"]},
+        ):
+            with self.subTest(marking=marking), self.assertRaises(corpus.CorpusError):
+                check(marking)
 
     def test_premise_program_relations_have_fixed_kinds(self) -> None:
         path = corpus.ROOT / "corpus" / "relations" / "example.json"
@@ -499,6 +531,144 @@ class FrontierSchemaTest(unittest.TestCase):
         corpus.validate_premise_program_relation(path, relation("argument", "A", "root_route", "S"))
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_premise_program_relation(path, relation("claim", "C", "root_route", "S"))
+
+
+class FloorBasisTest(unittest.TestCase):
+    """#500: a self_evident marking closes only while its basis criterion holds."""
+
+    def report(self, statements, arguments=(), results=(), relations=(), claims=(), root="ROOT"):
+        return corpus.frontier_report(
+            [statement("ROOT"), *statements],
+            [argument("ARG-ROOT", ["P"], "ROOT"), *arguments],
+            [{"id": "ARG-ROOT", "argument_id": "ARG-ROOT"}, *results],
+            list(relations),
+            root=root,
+            claims=[{"id": claim_id, "statement_id": sid} for claim_id, sid in claims],
+        )
+
+    def floor(self, report):
+        return {entry["statement_id"]: entry for entry in report["floor"]}
+
+    COMMON_GROUND = {
+        "basis": "common_ground",
+        "justification_ids": ["C-THEIST", "C-NATURALIST"],
+        "question_statement_id": "THEISM",
+        "positions": [
+            {"statement_id": "THEISM", "claim_ids": ["C-THEIST"]},
+            {"statement_id": "NATURALISM", "claim_ids": ["C-NATURALIST"]},
+        ],
+    }
+    COMMON_CLAIMS = [("C-THEIST", "P"), ("C-NATURALIST", "P")]
+    QUESTION = [relation("statement", "NATURALISM", "alternative_to", "THEISM")]
+
+    def test_common_ground_closes_relative_to_recorded_rivals(self) -> None:
+        statements = [statement("P", self_evident=self.COMMON_GROUND), statement("THEISM"), statement("NATURALISM")]
+        report = self.report(statements, relations=self.QUESTION, claims=self.COMMON_CLAIMS)
+        self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        self.assertTrue(self.floor(report)["P"]["met"])
+        self.assertEqual(report["routes"]["floor_bases"], [{"statement_id": "P", "basis": "common_ground"}])
+        self.assertIn("closed relative to floor bases: P (common_ground)", corpus.format_routes(report["routes"]))
+
+    def test_new_rival_reopens_common_ground(self) -> None:
+        statements = [
+            statement("P", self_evident=self.COMMON_GROUND),
+            statement("THEISM"),
+            statement("NATURALISM"),
+            statement("NIHILISM"),
+            statement("NOT-P"),
+        ]
+        # A new rival position on the question without a proponent claim.
+        report = self.report(
+            statements,
+            relations=[*self.QUESTION, relation("statement", "NIHILISM", "alternative_to", "THEISM")],
+            claims=self.COMMON_CLAIMS,
+        )
+        self.assertIn("P", [item["statement_id"] for item in report["items"]])
+        self.assertIn("NIHILISM", self.floor(report)["P"]["reasons"][0])
+        # A rival denying the premise itself.
+        report = self.report(
+            statements,
+            relations=[*self.QUESTION, relation("statement", "NOT-P", "alternative_to", "P")],
+            claims=self.COMMON_CLAIMS,
+        )
+        self.assertNotIn("P", report["closed_statements"])
+        item = next(item for item in report["items"] if item["statement_id"] == "P")
+        self.assertEqual(item["floor_unmet"]["basis"], "common_ground")
+        self.assertIn("self_evident basis common_ground not met", corpus.format_frontier(report))
+        self.assertEqual(report["routes"]["floor_bases"], [])
+        # No rival recorded on the question at all.
+        report = self.report(statements, claims=self.COMMON_CLAIMS)
+        self.assertFalse(self.floor(report)["P"]["met"])
+        # A claim that does not state the premise is no commitment.
+        report = self.report(statements, relations=self.QUESTION, claims=[("C-THEIST", "P"), ("C-NATURALIST", "Q")])
+        self.assertIn("NATURALISM", self.floor(report)["P"]["reasons"][0])
+
+    def test_retorsion_needs_a_counted_non_transcription_refutation_of_the_denial(self) -> None:
+        marking = {"basis": "retorsion", "justification_ids": ["RET"], "denial_statement_id": "NOT-P"}
+        statements = [statement("P", self_evident=marking), statement("NOT-P"), statement("PRESUP")]
+        relations = [
+            relation("statement", "NOT-P", "alternative_to", "P"),
+            relation("argument", "ARG-RET", "refutes", "NOT-P"),
+        ]
+        ret = [argument("ARG-RET", ["PRESUP"], "NOT-NOT-P")]
+        results = [{"id": "RET", "argument_id": "ARG-RET"}]
+        report = self.report(statements, ret, results, relations)
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on open premises PRESUP"])
+        self.assertNotIn("P", report["closed_statements"])
+        # Once the presupposition is closed, the retorsion closes the premise.
+        closed_presup = [statement("P", self_evident=marking), statement("NOT-P"), statement("PRESUP")]
+        report = self.report(
+            closed_presup,
+            [*ret, argument("ARG-PRESUP", [], "PRESUP")],
+            [*results, {"id": "PRESUP-R", "argument_id": "ARG-PRESUP"}],
+            relations,
+        )
+        self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        # A circular retorsion (resting on P itself) closes nothing.
+        report = self.report(statements, [argument("ARG-RET", ["P"], "NOT-NOT-P")], results, relations)
+        self.assertFalse(self.floor(report)["P"]["met"])
+        # A declared transcription does not count.
+        report = self.report(
+            closed_presup,
+            [argument("ARG-RET", [], "NOT-NOT-P")],
+            [{"id": "RET", "argument_id": "ARG-RET", "transcription": "assembly"}],
+            relations,
+        )
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET is a transcription"])
+
+    def test_observation_needs_a_stating_claim_and_handled_sceptical_rivals(self) -> None:
+        marking = {"basis": "observation", "justification_ids": ["C-OBS"], "sceptical_rival_ids": ["ELEATIC"]}
+        statements = [statement("P", self_evident=marking), statement("ELEATIC")]
+        rival = [relation("statement", "ELEATIC", "alternative_to", "P")]
+        report = self.report(statements, relations=rival, claims=[("C-OBS", "P")])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["sceptical rivals not refuted: ELEATIC"])
+        refutation = [*rival, relation("argument", "ARG-ELEA", "refutes", "ELEATIC")]
+        report = self.report(
+            statements,
+            [argument("ARG-ELEA", [], "NOT-ELEATIC")],
+            [{"id": "ELEA", "argument_id": "ARG-ELEA"}],
+            refutation,
+            claims=[("C-OBS", "P")],
+        )
+        self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        # A rival not recorded as global scepticism reopens it.
+        statements.append(statement("PHYSICALIST"))
+        report = self.report(
+            statements,
+            [argument("ARG-ELEA", [], "NOT-ELEATIC")],
+            [{"id": "ELEA", "argument_id": "ARG-ELEA"}],
+            [*refutation, relation("statement", "PHYSICALIST", "alternative_to", "P")],
+            claims=[("C-OBS", "P")],
+        )
+        self.assertEqual(
+            self.floor(report)["P"]["reasons"],
+            ["rivals not recorded as global sceptical positions: PHYSICALIST"],
+        )
+
+    def test_legacy_marking_closes_and_is_listed(self) -> None:
+        report = self.report([statement("P", self_evident={"justification_ids": ["C"]})])
+        self.assertEqual(report["floor"][0]["basis"], "legacy")
+        self.assertIn("floor: 1 of 1 self_evident markings meet their basis", corpus.format_frontier(report))
 
 
 class TranscriptionHeuristicTest(unittest.TestCase):
