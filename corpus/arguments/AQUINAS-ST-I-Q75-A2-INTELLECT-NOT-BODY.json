@@ -1,0 +1,23 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "premise_statement_ids": [
+    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION"
+  ],
+  "conclusion_statement_id": "STMT-HUMAN-INTELLECT-IS-NOT-A-BODY",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY"
+  ],
+  "meaning": "Conditional first inference of q.75 a.2: universal bodily-nature cognition, bodily determinacy and the open interference principle entail that the designated intellectual principle is not a body. Three finite omission controls test the premises independently within the stipulated vocabulary. This does not prove the premises true or refute a whole physicalist theory.",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE",
+    "DEF-Q75-INTELLECT-NOT-BODY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+  "term": "body and constitutive bodily nature (q.75 a.2)",
+  "definition": "Model.IsBody classifies corporeal individuals in the source argument, not every entity or property a modern physicalism may admit. HasNaturally b n means that n belongs to b constitutively, as its determinate bodily nature; it does not mean b represents n as a cognitive object. BodilyDeterminacy requires a selected such nature for each body. The source interference conditional is a separate premise, never built into IsBody or HasNaturally.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q75-A2-BODILY-DETERMINACY",
+    "AQUINAS-ST-I-Q75-A2-NATURAL-BODILY-INTERFERENCE"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.Model"
+}

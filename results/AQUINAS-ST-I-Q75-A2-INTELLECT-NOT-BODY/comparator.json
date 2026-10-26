@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.intellectIsNotBody",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.scopeOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.determinacyOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.interferenceOmission"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

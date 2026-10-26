@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q75-INTELLECT-NOT-BODY",
+  "term": "incorporeal in the first q.75 a.2 subconclusion",
+  "definition": "IntellectIsNotBody m intellect is exactly the negation of Model.IsBody for the designated principle. It does not negate being a form or part of a human body, identify a complete human person with the soul, or entail the highest immateriality condition that denies componenthood in anything. Non-organic operation, per-se subsistence and immortality are not included.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody"
+}

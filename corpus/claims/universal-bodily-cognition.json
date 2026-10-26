@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-UNIVERSAL-BODILY-COGNITION",
+  "statement_id": "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co.: homo per intellectum cognoscere potest naturas omnium corporum",
+  "interpretation": "The text attributes to human intellect capacity to know the natures of all bodies. The formal reading ranges over bodily natures, not all facts, all beings, or a single jointly exercised act.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

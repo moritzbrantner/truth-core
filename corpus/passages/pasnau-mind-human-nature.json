@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PASNAU-MIND-HUMAN-NATURE",
+    "source_url": "https://spot.colorado.edu/~pasnau/inprint/pasnau.mindandnature.pdf",
+    "sha256": "sha256:b317cca7d8aad1d691c686f6b4e848924a4fdfae76ec3cfc4e89524e4a6de61e",
+    "wayback_url": "https://web.archive.org/web/20250806031630id_/https://spot.colorado.edu/~pasnau/inprint/pasnau.mindandnature.pdf",
+    "wayback_sha256": "sha256:b317cca7d8aad1d691c686f6b4e848924a4fdfae76ec3cfc4e89524e4a6de61e",
+    "encoding": "utf-8",
+    "language": "eng",
+    "retrieved_at": "2026-10-26T14:42:42Z",
+    "license": "Copyright Oxford University Press/author; author-hosted typeset chapter for scholarly reading. No redistribution license is asserted. Only hashes, locators, metadata and a short incipit are committed. Two live fetches and two fixed 2025-08-06 Wayback fetches have identical bytes; extracted text matches."
+  },
+  "passages": [
+    {
+      "id": "PASNAU-MIND-HUMAN-NATURE-353-357",
+      "locator": "pp.353–357 (physical PDF pages 6–10)",
+      "claim_locator_prefixes": [
+        "pp.353–357 "
+      ],
+      "pdf_pages": {
+        "first": 6,
+        "last": 10
+      },
+      "text_sha256": "sha256:99e10894fb54a99b2616b786a61fd00ffd9bd962ca80b24e673b6b74e54d72fa",
+      "incipit": "philosophy of mind and human nature 353 characterless and inert, if it could"
+    }
+  ]
+}

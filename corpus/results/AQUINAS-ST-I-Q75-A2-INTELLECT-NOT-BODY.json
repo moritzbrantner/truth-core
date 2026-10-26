@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "argument_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.intellectIsNotBody",
+  "comparator_config": "results/AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY/comparator.json",
+  "status": "solution-present",
+  "description": "A typed reductio derives only non-bodyhood from three open sourced premises, using the determinate-nature witness. Comparator also checks explicit one-point omission models for each premise. This is not a derivation of organ independence, subsistence or immortality and not a refutation of physicalism, naturalism or monism. No root premise is discharged."
+}
