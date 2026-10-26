@@ -28,8 +28,14 @@ clone_at() {
     git clone --filter=blob:none --no-checkout "$url" "$dir"
   fi
 
-  if [[ "$(git -C "$dir" rev-parse HEAD 2>/dev/null || true)" != "$rev" ]]; then
-    git -C "$dir" fetch --depth=1 origin "$rev"
+  local resolved
+  resolved="$(git -C "$dir" rev-parse --verify "$rev^{commit}" 2>/dev/null || true)"
+  if [[ -z "$resolved" || "$(git -C "$dir" rev-parse HEAD 2>/dev/null || true)" != "$resolved" ]]; then
+    if [[ "$rev" == v* ]]; then
+      git -C "$dir" fetch --depth=1 origin tag "$rev"
+    else
+      git -C "$dir" fetch --depth=1 origin "$rev"
+    fi
     git -C "$dir" checkout --detach FETCH_HEAD
   fi
 }
