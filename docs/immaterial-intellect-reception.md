@@ -111,14 +111,3 @@ statements lie outside all root routes. The branch baseline's frontier reports
 46 open premises (4 bare, 42 sourced-undefended), with route costs
 28/29/33/35/36/36/37/38. The issue's historical 37-premise count is not used as
 the current baseline. The new records and generated import add no root path.
-
-## Efficiency-trial evidence
-
-UTC start recorded at 2026-10-26 15:56:22 (after the local clone command);
-setup before that first timestamp is unmeasured. The research/proof boundary
-is approximate: research and reuse inspection ran until 15:58:13; local
-interface and omission-control construction ran from then through 16:00:34.
-Research remained interleaved with documentation afterward. Setup includes
-reading local instructions and the resolved convention files, policy revision
-`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`. No token counts are available.
-Gate and publication evidence will be recorded separately at handoff.
