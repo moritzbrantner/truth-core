@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-SUPPORTS-ACT-SIMPLY-PRIOR",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "note": "Aquinas' stated reason for simple priority. It does not entail the premise by itself (BEING-IN-ACT-READING-FACTS): the missing step is that every potency is related to some being in act that is prior to its bearer."
+}

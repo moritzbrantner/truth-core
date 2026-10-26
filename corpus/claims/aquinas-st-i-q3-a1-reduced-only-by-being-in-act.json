@@ -1,0 +1,8 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A",
+  "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.1 co., second proof: quia quod est in potentia, non reducitur in actum nisi per ens actu",
+  "interpretation": "The reason Aquinas gives for act's simple priority over potency: what is in potency is reduced to act only by a being in act. Read as the same principle as the prima via's 'nisi per aliquod ens in actu': whatever is being reduced to act in a respect is reduced by something in act in that respect. The inference from this reason to simple priority is not part of the claim; BEING-IN-ACT-READING-FACTS shows that the reason alone does not yield it, because a being can be in potency in a respect in which nothing is being reduced.",
+  "status": "formalized"
+}

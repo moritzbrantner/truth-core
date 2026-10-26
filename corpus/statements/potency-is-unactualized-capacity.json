@@ -1,0 +1,11 @@
+{
+  "id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+  "paraphrase": "A being is in potency in a respect exactly when it is able to be so and is not actually so, as the knower who is not contemplating but is able to is potentially contemplating.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.PotencyIsUnactualizedCapacityReading",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-RESPECT"
+  ]
+}

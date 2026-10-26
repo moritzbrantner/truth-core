@@ -1,0 +1,13 @@
+{
+  "id": "STMT-BEING-IN-ACT-READING-FACTS",
+  "paraphrase": "Formal fact: 'whatever is moved has a mover' together with 'every mover is in act in the respect' entails 'whatever is moved has a mover in act in the respect', which entails 'whatever is moved has a mover' but not 'every mover is in act'; and even with every prima via premise it does not entail that act is simply prior to potency.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.BeingInActReadingFacts",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
