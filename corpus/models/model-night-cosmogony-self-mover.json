@@ -1,0 +1,68 @@
+{
+  "id": "MODEL-NIGHT-COSMOGONY-SELF-MOVER",
+  "description": "#497 removal model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency and in act in the one respect, posterior to nothing, and moves itself. The Night bundle, reduction by a being in act and the actual-mover bridge hold; no self-motion fails.",
+  "vocabulary": "NIGHT-COSMOGONY",
+  "lean_declaration": "TruthCore.Models.NightCosmogony.SelfMover.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Unit",
+    "InAct": "TruthCore.Models.NightCosmogony.SelfMover.model.InAct",
+    "InPotency": "TruthCore.Models.NightCosmogony.SelfMover.model.InPotency",
+    "MovedIn": "TruthCore.Models.NightCosmogony.SelfMover.model.MovedIn",
+    "MovesIn": "TruthCore.Models.NightCosmogony.SelfMover.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.NightCosmogony.SelfMover.model.PriorSimply"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": ["Bool.false", "Bool.true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": ["Unit.unit"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation2"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation3"
+    },
+    {
+      "statement_id": "STMT-POTENCY-PRIOR-TO-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation4"
+    },
+    {
+      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightCosmogony.SelfMover.evaluation5"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NightCosmogony"
+  ]
+}

@@ -1,9 +1,11 @@
 ---
 phase: batch-1
 premise: `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY`
-rival: `STMT-POTENCY-PRIOR-TO-ACT` (*Met.* XII.6, 1071b22-28: the reputable view; theologians from Night)
+rival: `STMT-POTENCY-PRIOR-TO-ACT` (*Met.* XII.6, 1071b22-28: the reputable view; theologians from Night); its sourced bundle `STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED` (the unpreceded potency is actualized)
 class: inconsistency, partial: Aristotle's reply covers only potencies being actualized (#352, finding 4)
-status: open; sourced
+status: open; sourced; Night bundle eliminated given open {`STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT`, `STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT`, `STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR`} (`GENERATION-FROM-NIGHT-REFUTED`, #497); the bare rival survives as an unpreceded potency never actualized
 ---
 
-Triage (#497, `ATTEMPT-RIVAL-TRIAGE-497`): the recorded rival is the bare contradictory of the premise. Strongest sourced rival theory: the position reported in *Met.* XII.6, 1071b22-28 (pinned, `ARIST-MET-1071B-POTENCY-PRIOR-A`): whatever acts is able, but not everything able acts, so potency is prior (the theologians' generation from Night). Its own commitments make it a bundle; it is the next candidate for a bundle elimination with a pinned witness.
+Triage (#497, `ATTEMPT-RIVAL-TRIAGE-497`): the recorded rival is the bare contradictory of the premise. Strongest sourced rival theory: the position reported in *Met.* XII.6, 1071b22-28 (pinned, `ARIST-MET-1071B-POTENCY-PRIOR-A`): whatever acts is able, but not everything able acts, so potency is prior (the theologians' generation from Night).
+
+Bundle elimination (#497, `ATTEMPT-NIGHT-COSMOGONY-BUNDLE-ELIMINATION`): the Night cosmogony as Aristotle presents it (`ARIST-MET-1071B-NIGHT-GENERATION-A`) commits to more than the bare rival: an unpreceded potency is actualized, since Aristotle asks "how will it be moved?". That bundle is inconsistent with an inclusion-minimal core of three open premises, and the core does not use this premise. Two members are Aristotle's reply ("how will it be moved, if there is not some cause in actuality? matter will not move itself", 1071b28-31), with two new supporting claims. The third is the unattributed bridge `STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR`. The root-path premises reduction-by-a-mover, moves-only-as-in-act and non-simultaneity give the same elimination with the bridge. The bare rival survives the core (`MODEL-NIGHT-COSMOGONY-RESIDUAL`): a potency that nothing in act precedes and that is never actualized, the gap of #352, finding 4. Floor: no core member meets a criterion. The bridge is the cheapest to source (*Met.* IX.8, 1049b24-29 and 1050a4-b6). On the temporal reading of "prior" the position is no rival (`DISAMB-PRIORITY-SIMPLE-OR-IN-TIME`).

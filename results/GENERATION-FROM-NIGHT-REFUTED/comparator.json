@@ -1,0 +1,15 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.generationFromNightFalse",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.needsReducedByBeingInAct",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.needsNoSelfMotion",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.needsActualMoverPrior",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.bundleEntailsRival",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.rivalSurvivesCore",
+    "TruthCore.Results.Alternatives.GenerationFromNightRefuted.coreFromRootPremises"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -7,6 +7,7 @@ import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.NaturalisticRealism
+import TruthCore.Comparison.NightCosmogony
 import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.ProblemOfEvilCulpa

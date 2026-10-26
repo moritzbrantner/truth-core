@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-MET-1071B-MATTER-NOT-SELF-MOVER-A",
+  "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "source_id": "ARIST-MET",
+  "locator": "XII.6, 1071b29-31: οὐ γὰρ ἥ γε ὕλη κινήσει αὐτὴ ἑαυτήν, ἀλλὰ τεκτονική, οὐδὲ τὰ ἐπιμήνια οὐδʼ ἡ γῆ, ἀλλὰ τὰ σπέρματα καὶ ἡ γονή",
+  "interpretation": "'Matter will not move itself, but the carpenter's art will; nor will the menses or the earth, but the seeds and the semen.' Aristotle's reason why the Night cosmogony cannot have its origin moved without a cause in actuality. Read as: nothing that is being moved in a respect moves itself in that same respect. Reading step: 'matter' is taken as what is being moved toward the form at issue (timber toward the house, menses and earth toward the living thing), so the sentence denies that what is being reduced to act in a respect is its own mover in that respect. The examples are of matter being moved by something else that has the form; the claim does not say that the other mover is in act (that is ARIST-MET-1071B-MOTION-NEEDS-ACTUAL-CAUSE-A), and it says nothing against a whole moving itself by one part moving another (Physics VIII.5).",
+  "status": "formalized"
+}
