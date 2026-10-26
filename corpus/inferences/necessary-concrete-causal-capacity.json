@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+  "rule": "direct-proof",
+  "meaning": "Check the explicit Bool response table, presence extension, activation discipline and capacity witnesses by kernel-reducible decision, then reuse deRe_to_deDicto for necessary concrete exemplification. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

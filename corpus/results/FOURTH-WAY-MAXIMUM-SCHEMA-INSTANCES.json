@@ -1,0 +1,10 @@
+{
+  "id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "argument_id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.fourthWayMaximumSchemaInstances",
+  "comparator_config": "results/FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional schema instances for being, goodness and truth: for each named respect, if all beings have it and its comparative is the strict part of one preorder, and every distinct cause of a perfection is more such, a maximum has no distinct cause of that same perfection. Derivation through Mathlib maximality and the existing #386 representation lemmas; no root premise is discharged."
+}
