@@ -296,6 +296,9 @@ export function PropositionGraphExplorer({
       ariaLabel: nodeDescription(node),
       focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
+      // Dense research clusters can overlap. Keep the selected belief tappable
+      // above its neighbours, especially in the mobile frontier inspector.
+      zIndex: node.id === state.sel ? 20 : 0,
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
         selected: node.id === state.sel,

@@ -157,7 +157,7 @@ test("recorded claim evidence links related propositions without changing proof 
   url.searchParams.set("sel", projected.subject);
   await page.goto(url.toString());
   await page.locator(".network-marker[data-kind='statement']").first().waitFor();
-  await page.locator(".graph-detail").getByRole("link", { name: `${projected.originId} →` }).waitFor();
+  await page.locator(".graph-detail").getByRole("link", { name: `${projected.originId} →`, exact: true }).first().waitFor();
   expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
   await page.getByText("More views and filters").click();
   await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).uncheck();
