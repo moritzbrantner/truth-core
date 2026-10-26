@@ -21,6 +21,13 @@ with the premise it rivals directly. New vocabulary, all of it parameters:
   `DEF-CAPACITY-TO-BE`).
 * `UniformLocalMotion r` — `r` is a respect of uniform rectilinear local motion
   (Newton's *status movendi uniformiter in directum*).
+* `ChangesState x`, `ImpressesForceOn y x` — Newton's vocabulary: body `x`
+  changes its state of rest or uniform motion; `y` impresses a force on `x`.
+  Neither is identified with `MovedIn` or `MovesIn`.
+* `ASeriesChanges x` — McTaggart's change: `x` (an event) changes in its
+  A-series determinations (future, present, past). Not identified with
+  `MovedIn`; the passage between them is the open premise
+  `BeingMovedInvolvesASeriesChangeReading`.
 
 A rival is recorded as a statement in its own right (invariant 6), never as the
 bare negation of the premise it rivals, and each definition says how it clashes
@@ -49,25 +56,49 @@ def NothingIsMovedReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop) : Prop :=
   ∀ x r, ¬ MovedIn x r
 
-/-- McTaggart's rival to `SomethingIsMovedReading`: nothing really changes,
-though there are appearances of change. "Whenever we judge anything to exist in
-time, we are in error. And whenever we perceive anything as existing in time ...
-we are perceiving it more or less as it really is not."
+/-- McTaggart's thesis, in his own sense of change: no event changes in its
+A-series determinations, and yet there are judgings and perceivings of things
+as in time. "Whenever we judge anything to exist in time, we are in error. And
+whenever we perceive anything as existing in time ... we are perceiving it more
+or less as it really is not."
+
+It says nothing about `MovedIn`: whether a reduction from potency to act
+involves A-series change is the separate open premise
+`BeingMovedInvolvesASeriesChangeReading` (`DISAMB-CHANGE-A-SERIES`).
+
+Source: J. M. E. McTaggart, "The Unreality of Time", *Mind* 17 (1908).
+-/
+def NoASeriesChangeButAppearsReading {Being : Sort u}
+    (ASeriesChanges : Being → Prop) (Opines : Being → Prop → Prop) : Prop :=
+  (∀ x, ¬ ASeriesChanges x) ∧ ∃ x p, Opines x p
+
+/-- Open bridge, unattributed: whatever is being moved in a respect changes in
+its A-series determinations (a reduction from potency to act is a passage
+through present to past). With it, McTaggart's thesis yields the McTaggart-style
+rival `ChangeUnrealButAppearsReading`; without it, his thesis does not touch the
+prima via's observation premise. -/
+def BeingMovedInvolvesASeriesChangeReading {Being : Sort u} {Respect : Sort v}
+    (MovedIn : Being → Respect → Prop) (ASeriesChanges : Being → Prop) : Prop :=
+  ∀ x r, MovedIn x r → ASeriesChanges x
+
+/-- McTaggart-style rival to `SomethingIsMovedReading`, unattributed: nothing is
+being moved in any respect, though there are judgings and perceivings. It is
+what McTaggart's thesis `NoASeriesChangeButAppearsReading` yields together
+with the open bridge `BeingMovedInvolvesASeriesChangeReading`; McTaggart does
+not state it in the prima via's sense of motion.
 
 It differs from the bare Eleatic thesis by granting that judgings and
 perceivings occur: the second conjunct. With `OpiningIsBeingMovedReading` it is
-inconsistent; McTaggart denies that premise for appearances (he raises the
-question whether an appearance of change must itself change and promises an
-answer, last paragraph of the paper).
-
-Source: J. M. E. McTaggart, "The Unreality of Time", *Mind* 17 (1908).
+inconsistent; McTaggart denies the corresponding premise for appearances (he
+raises the question whether an appearance of change must itself change and
+promises an answer, last paragraph of the paper).
 -/
 def ChangeUnrealButAppearsReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop) (Opines : Being → Prop → Prop) : Prop :=
   NothingIsMovedReading MovedIn ∧ ∃ x p, Opines x p
 
-/-- Rival to `NotActAndPotencyInSameRespectReading`: something is in act and in
-potency in the same respect. Duns Scotus' defence of self-motion (a thing can
+/-- Rival to `NotActAndPotencyInSameRespectReading`, unattributed until a witness
+is pinned: something is in act and in potency in the same respect. Duns Scotus' defence of self-motion (a thing can
 be *virtually* in act and *formally* in potency with respect to the same
 perfection, so that it moves itself) is its motivating instance; on the shared
 `InAct` predicate, which `MovesOnlyAsInActReading` needs to cover virtual act
@@ -120,19 +151,30 @@ def MovesWithoutBeingInActReading {Being : Sort u} {Respect : Sort v}
     (InAct : Being → Respect → Prop) : Prop :=
   ∃ y x r, MovesIn y x r ∧ ¬ InAct y r
 
-/-- Newtonian rival to `ReducedOnlyByAMoverReading`: some body is being moved
-in a respect of uniform rectilinear motion and nothing moves it in that
-respect. Newton's first law: every body perseveres in its state of rest or of
+/-- Newton's first law: every body perseveres in its state of rest or of
 uniform motion in a straight line except insofar as impressed forces compel it
-to change that state.
-
-Reading choice: Newton does not say that uniform motion is a *being moved*
-(`MovedIn`, a reduction from potency to act). The statement reads it so and
-reads "impressed force" as the only candidate mover; the Thomist reply denies
-the first reading (`DISAMB-MOTION`).
+to change that state. Formalized as its conditional content: a body changes its
+state only if some force is impressed on it. It asserts no existence of a body
+free of forces.
 
 Source: Newton, *Philosophiae naturalis principia mathematica* (1687),
 Axiomata sive leges motus, Lex I.
+-/
+def ChangeOfStateOnlyByImpressedForceReading {Being : Sort u}
+    (ChangesState : Being → Prop) (ImpressesForceOn : Being → Being → Prop) : Prop :=
+  ∀ x, ChangesState x → ∃ y, ImpressesForceOn y x
+
+/-- Inertial rival to `ReducedOnlyByAMoverReading`, unattributed: some body is
+being moved in a respect of uniform rectilinear motion and nothing moves it in
+that respect.
+
+Newton's first law (`ChangeOfStateOnlyByImpressedForceReading`) motivates it
+but does not state it. The rival adds two steps no pinned source states: that
+some moving body is actually free of impressed force, and that a state of
+uniform motion is a *being moved* (`MovedIn`, a reduction from potency to act)
+whose only candidate mover is an impressed force. The Thomist reply denies the
+second (`DISAMB-MOTION`), so the rival bears first on the reading of the mover
+premise.
 -/
 def UniformMotionWithoutMoverReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop)

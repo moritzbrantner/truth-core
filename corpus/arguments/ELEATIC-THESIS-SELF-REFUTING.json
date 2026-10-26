@@ -8,7 +8,7 @@
   "inference_ids": [
     "INF-ELEATIC-THESIS-SELF-REFUTING"
   ],
-  "meaning": "Aristotle's retorsion (Physics VIII.3, 254a27-30): the Eleatic thesis that nothing is moved is refuted by its being held, since opining is a motion. Refutes STMT-ELEATIC-NOTHING-IS-MOVED given its open premises, above all STMT-OPINION-IS-A-MOTION. No refutes relation is recorded until its premises are closed (#391). It does not refute McTaggart's rival STMT-MCTAGGART-CHANGE-UNREAL-BUT-APPEARS, which denies exactly that premise for appearances, and its conclusion is the double negation that it is not the case that nothing is moved (¬∀¬), reached through a motion in the respect of an opinion; it does not show that anything is moved in the world of sense. The Comparator config also verifies needsOpinionIsMotion and needsThesisHeld: each premise is needed.",
+  "meaning": "Aristotle's retorsion (Physics VIII.3, 254a27-30): the Eleatic thesis that nothing is moved is refuted by its being held, since opining is a motion. Refutes STMT-ELEATIC-NOTHING-IS-MOVED given its open premises, above all STMT-OPINION-IS-A-MOTION. No refutes relation is recorded until its premises are closed (#391). It does not refute McTaggart's rival STMT-CHANGE-UNREAL-BUT-APPEARS, which denies exactly that premise for appearances, and its conclusion is the double negation that it is not the case that nothing is moved (¬∀¬), reached through a motion in the respect of an opinion; it does not show that anything is moved in the world of sense. The Comparator config also verifies needsOpinionIsMotion and needsThesisHeld: each premise is needed.",
   "definition_ids": [
     "DEF-OPINING",
     "DEF-MOTION-AS-REDUCTION"

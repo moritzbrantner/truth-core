@@ -1,0 +1,8 @@
+{
+  "id": "STMT-NEWTON-LEX-I-CHANGE-OF-STATE-ONLY-BY-IMPRESSED-FORCE",
+  "paraphrase": "Newton's first law, conditional content: a body changes its state of rest or of uniform rectilinear motion only if some force is impressed on it. It asserts no existence of a body free of forces.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ChangeOfStateOnlyByImpressedForceReading",
+  "definition_ids": [
+    "DEF-NEWTONIAN-STATE-AND-FORCE"
+  ]
+}

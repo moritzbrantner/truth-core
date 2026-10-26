@@ -1,6 +1,6 @@
 {
   "id": "STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
-  "paraphrase": "Occasionalist rival: some per se link of a mover series is no per se link of efficient causes, because the moved mover is only the occasion on which God causes the motion.",
+  "paraphrase": "Occasionalist rival (attribution waits for a witness): some per se link of a mover series is no per se link of efficient causes, because the moved mover is only the occasion on which God causes the motion.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MoverLinkWithoutCauseLinkReading",
   "definition_ids": [
     "DEF-PER-SE-ORDERED-SERIES",

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE",
+  "paraphrase": "Open bridge, unattributed: whatever is being moved in a respect (reduced from potency to act) changes in its A-series determinations.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.BeingMovedInvolvesASeriesChangeReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-A-SERIES-CHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

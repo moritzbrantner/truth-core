@@ -3,6 +3,6 @@
   "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
   "source_id": "ARIST-MET",
   "locator": "IX.3, 1047a11-14",
-  "interpretation": "If what is deprived of an ability is unable, what is not coming to be will be unable to come to be; and whoever says that what is unable to come to be is or will be speaks falsely, 'for this is what unable meant'. Read as: what is being moved toward r is able to be r. Aristotle presents it as following from the meaning of 'unable' (ἀδύνατον); the reading applies it to the outcome r of a present motion.",
+  "interpretation": "If what is deprived of an ability is unable, what is not coming to be will be unable to come to be; and whoever says that what is unable to come to be is or will be speaks falsely, 'for this is what unable meant'. The sentence gives: what comes to be was able to come to be. Read as: what is being moved toward r is able to be r. The step from 'able to come to be r' to 'able to be r' (CanBe, DEF-CAPACITY-TO-BE) is the reading's, not Aristotle's words; it is part of the open premise STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R.",
   "status": "formalized"
 }
