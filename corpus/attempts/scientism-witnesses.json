@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-SCIENTISM-WITNESSES",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-STRONG-SCIENTISM",
+    "STMT-SCIENTISM-IN-OWN-SCOPE",
+    "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "The self-application analysis is formalized but the modern defender/critic readings remain unattributed. The existing candidate SCIENTISM-SELF-APPLICATION-WITNESSES records the witness gap; the conditional dilemma does not refute scientism held as true but unestablished. See docs/retorsion-dilemmas.md, Scientism.",
+  "blocker": "Obtain an admissible pinned or owner-approved bibliographic witness for the defender’s scope and the critic’s non-empirical-establishment premise; do not infer these from the proof.",
+  "evidence": [
+    "SCIENTISM-STRONG-DILEMMA",
+    "SCIENTISM-WEAK-CONSISTENT",
+    "PR-403"
+  ]
+}

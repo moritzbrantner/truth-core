@@ -54,6 +54,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
       </div>
       <h1 className="mt-5 font-serif text-4xl leading-[1.02] tracking-[-0.04em] sm:text-5xl">{statement.paraphrase}</h1>
 
+      <Link className="link-quiet mt-4 inline-block text-sm" href={`/dossiers/${statement.id}`}>Premise dossier and attempt log →</Link>
+
       <section className="record-section">
         <p className="eyebrow">Where it stands</p>
         {state.kind === "closed" ? (

@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-MEINONG-WITNESS",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-ACTUALITY-WITHOUT-BEING"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "The alternatives campaign records the Meinongian rival but has not attributed its strongest reading to a pinned witness. The naive characterization objection does not refute nuclear Meinongianism. Candidate MEINONG-GEGENSTANDSTHEORIE-3 and docs/alternatives/premises/actuality-only-insofar-as-being.md preserve the gap; no new source claim or refutation is asserted here.",
+  "blocker": "Pin and read Meinong 1904 §3 before attributing the rival, and justify how the Sosein/Sein distinction relates to the corpus’s act/esse predicates.",
+  "evidence": [
+    "PR-406"
+  ]
+}

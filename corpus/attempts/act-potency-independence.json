@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-ACT-POTENCY-INDEPENDENCE",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Finite omission models show that none of the eight tested act/potency premises follows from the other seven, even with sensible motion and a well-founded per-se series. This is independence from those inputs only, not metaphysical possibility or a proof that no further premises over the vocabulary could suffice. No target is discharged. See docs/act-potency-theory.md, Findings 1–2.",
+  "evidence": [
+    "ACT-POTENCY-PREMISES-INDEPENDENT",
+    "ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE",
+    "PR-374"
+  ]
+}
