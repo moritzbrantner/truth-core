@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-MET-999A-NO-GENUS-OVER-PRIOR-AND-POSTERIOR-A",
+  "statement_id": "STMT-NO-GENUS-OVER-PRIOR-AND-POSTERIOR",
+  "source_id": "ARIST-MET",
+  "locator": "III.3, 999a6-14",
+  "interpretation": "Read as stated within the same aporia: in things where there is prior and posterior, what is predicated of them is not something beside them (no number beside the species of number, no figure beside the species of figure); and where one is better and the other worse, the better is always prior, so there is no genus of these either. Not formalized. Recorded because the quarta via's grades (more and less good, true, noble) are a better-and-worse ordering: by this passage, what is common to them is not a strict genus. Its scope (whether it holds of every ordered series, and how it fits Aristotle's settled view) is not settled here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

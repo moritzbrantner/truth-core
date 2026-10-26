@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "argument_id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.broadGenusReadingCompatibleWithBeingNotAGenus",
+  "comparator_config": "results/QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS/comparator.json",
+  "status": "solution-present",
+  "description": "A finite model (a consistency witness), not a proof of the genus principle: it shows only that Aristotle's premises and the broad reading do not conflict."
+}

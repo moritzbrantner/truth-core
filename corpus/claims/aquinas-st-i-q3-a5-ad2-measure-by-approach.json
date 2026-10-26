@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A",
+  "statement_id": "STMT-BEING-MEASURED-BY-APPROACH-TO-GOD",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 ad 2: Deus autem non est mensura proportionata alicui. Dicitur tamen mensura omnium, ex eo quod unumquodque tantum habet de esse, quantum ei appropinquat",
+  "interpretation": "Read as stated: a proportioned measure must be homogeneous with what it measures (of one genus), God is not such a measure, yet he is called the measure of all because each thing has as much of being as it approaches him. Not formalized. It is Aquinas' own account of grades of being without a common genus, by approach to a first, which is the broad sense of 'genus' (DEF-GENUS-BROAD) and the attribution sense of analogy (DEF-BEING-ANALOGICAL); it matches the quarta via's 'secundum quod appropinquant diversimode ad aliquid quod maxime est'. It does not by itself say that the maximum causes the others.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-BROAD",
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

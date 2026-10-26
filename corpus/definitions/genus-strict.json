@@ -1,0 +1,12 @@
+{
+  "id": "DEF-GENUS-STRICT",
+  "term": "genus (strict, Aristotelian)",
+  "definition": "`IsGenus g` (parameter of the Metaphysics III.3 readings): g is a predicable said of its species in what they are (in quid) and divided into them by differentiae of which it is not itself said. Being is not a genus in this sense (STMT-BEING-NOT-A-GENUS).",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
+    "AQUINAS-ST-I-Q3-A5-EVERY-GENUS-HAS-DIFFERENTIAE-A",
+    "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading"
+}

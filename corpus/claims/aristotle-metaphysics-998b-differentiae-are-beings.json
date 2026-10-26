@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-998B-DIFFERENTIAE-ARE-BEINGS-A",
+  "statement_id": "STMT-DIFFERENTIAE-ARE-BEINGS",
+  "source_id": "ARIST-MET",
+  "locator": "III.3, 998b23-24",
+  "interpretation": "Read 'the differentiae of each genus must both be and each be one' (καὶ εἶναι καὶ μίαν εἶναι ἑκάστην) predicatively: each differentia is a being (and is one). The reading is fixed by the conclusion it serves, 'no differentia will be either a being or one' (998b26-27). An existential reading ('the differentiae must exist') is also possible for καὶ εἶναι; it is not formalized here, and the existence of differentiae is taken from Aquinas' 'omne genus habet differentias' instead. Only the clause for being is formalized. Being is said of the differentia in the same sense in which the genus is denied of it (DISAMB-PREDICATION-OF-DIFFERENTIA).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DIFFERENTIA",
+    "DEF-SAID-OF-ESSENTIALLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+  ]
+}

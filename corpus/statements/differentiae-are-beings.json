@@ -1,0 +1,14 @@
+{
+  "id": "STMT-DIFFERENTIAE-ARE-BEINGS",
+  "paraphrase": "Every differentia of every genus is a being: being is said of it as belonging to what it is.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.DifferentiaeAreBeingsReading",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA",
+    "DEF-SAID-OF-ESSENTIALLY",
+    "DEF-BEING-AS-ENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+  ]
+}

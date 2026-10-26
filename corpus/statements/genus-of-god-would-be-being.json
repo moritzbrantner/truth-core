@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GENUS-OF-GOD-WOULD-BE-BEING",
+  "paraphrase": "If God were properly in some genus, that genus would be being.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GenusOfGodWouldBeBeingReading",
+  "definition_ids": [
+    "DEF-IN-GENUS-PROPERLY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "argument_id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.strictGenusReadingDoesNotYieldQuartaVia",
+  "comparator_config": "results/QUARTA-VIA-STRICT-GENUS-READING-FAILS/comparator.json",
+  "status": "solution-present",
+  "description": "A finite countermodel with a non-empty strict genus: the strict reading of the genus principle holds non-vacuously (at animal), yet the conclusion fails at being."
+}

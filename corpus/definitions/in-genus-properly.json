@@ -1,0 +1,10 @@
+{
+  "id": "DEF-IN-GENUS-PROPERLY",
+  "term": "in a genus (simpliciter et proprie)",
+  "definition": "`InGenus x g`: x is in the genus g as a species, or a member of a species, contained under it. Being in a genus by reduction (as principles and privations are) is not included.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.InGenusOnlyUnderAGenusReading"
+}

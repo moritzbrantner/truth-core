@@ -1,0 +1,12 @@
+{
+  "id": "STMT-BROAD-GENUS-READING-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "paraphrase": "Formal fact: the quarta via's premises with 'genus' read broadly (any perfection admitting more and less), its conclusion, and Aristotle's three premises for being-not-a-genus hold together in one model that has a strict genus with a differentia.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.BroadGenusReadingCompatibleWithBeingNotAGenus",
+  "definition_ids": [
+    "DEF-GENUS-BROAD",
+    "DEF-GENUS-STRICT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BEING-UNIVOCITY",
+  "term": "being (univocal or analogical)",
+  "sense_definition_ids": [
+    "DEF-BEING-UNIVOCAL",
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "resolution": "The sources read here take being analogically: Aristotle's pros hen (STMT-BEING-SAID-PROS-HEN), Aquinas' analogy of divine names (STMT-DIVINE-NAMES-ANALOGICAL), being as the first analogical predicate (STMT-BEING-FIRST-ANALOGICAL-PREDICATE), and grades of being by approach to God (STMT-BEING-MEASURED-BY-APPROACH-TO-GOD). The quarta via premises that speak of more and less in being (STMT-GRADES-HAVE-A-MAXIMUM, STMT-MOST-TRUE-IS-MOST-BEING, STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS) are to be read in this analogical sense. Their Lean form does not yet encode it: `MoreIn esse` is a primitive comparative that is compatible with both senses, so no current result depends on the choice and none passes from one sense to the other. Whether the genus principle and Aristotle's cause-of-quality principle (STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH) hold on a homogeneous scale versus an order by approach to a primary is an open obligation (docs/being-not-a-genus.md)."
+}

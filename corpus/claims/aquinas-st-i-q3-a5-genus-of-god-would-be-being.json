@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-GENUS-OF-GOD-WOULD-BE-BEING-A",
+  "statement_id": "STMT-GENUS-OF-GOD-WOULD-BE-BEING",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., second proof: si Deus esset in aliquo genere, oporteret quod genus eius esset ens",
+  "interpretation": "Read as stated, for God: if God were in a genus, that genus would be being. Aquinas' reasons (God's esse is his essence, q.3 a.4; a genus signifies the essence, being said in quid) are not formalized and the statement is not generalized to every being whose esse is its essence; that generalization would need its own claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-IN-GENUS-PROPERLY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

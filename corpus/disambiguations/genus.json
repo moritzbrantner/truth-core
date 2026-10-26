@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-GENUS",
+  "term": "genus",
+  "sense_definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-GENUS-BROAD"
+  ],
+  "resolution": "Aristotle's being-not-a-genus argument (ARIST-MET-998B-BEING-NOT-A-GENUS) and Aquinas' ST I q.3 a.5 (STMT-GOD-IN-NO-GENUS) use the strict sense only. The quarta via's genus principle (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS, claim AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A) is read in the broad sense: its example is heat, which is a quality and not a strict genus of hot things; it is applied to being, which Aquinas himself says is no genus; and Aquinas' own account of grades of being (q.3 a.5 ad 2: each thing has as much of being as it approaches God) needs no common genus. Aristotle's 999a6-14 (STMT-NO-GENUS-OVER-PRIOR-AND-POSTERIOR) points the same way: an order of better and worse is not a strict genus. The strict reading of the quarta via sentence is rejected as Aquinas' meaning for these reasons, but kept as a formal contrast (`MaximumInStrictGenusCausesAllInGenusReading`): on it the via fails at being (STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA). On the broad reading, being-not-a-genus does not refute the premise (STMT-BROAD-GENUS-READING-COMPATIBLE-WITH-BEING-NOT-A-GENUS). No argument passes between the senses: the strict results speak of `IsGenus`, the broad premise quantifies over every respect and never mentions `IsGenus`. What the broad reading does not settle is whether the genus principle is true for being; that is the open premise itself, now without the equivocation objection."
+}
