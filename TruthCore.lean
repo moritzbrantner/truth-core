@@ -10,6 +10,7 @@ import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Case.Catholicism.StagesOneTwo
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
+import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.Supertasks
 import TruthCore.Comparison.ExcludedMiddle
@@ -350,6 +351,7 @@ import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution

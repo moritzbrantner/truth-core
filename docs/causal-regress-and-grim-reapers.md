@@ -129,6 +129,53 @@ successor chain. So *non-uniqueness without a boundary condition* is not an
 argument that the chain is mathematically impossible; one observed effect can
 select a solution. **What explains that effect** is a different question.
 
+### A new limit test: the intrinsic source escapes to infinity
+
+The verified finite-grounding theorem alone does not authorize us to take
+an infinite limit of finite grounded causal histories and infer that the
+limit is grounded. `CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE` formalizes an
+explicit countermodel to that additional *closure under limits* inference:
+
+1. At truncation `N`, the only intrinsically powered node is `N`. Along
+   successor links `N → N-1 → ... → 0`, each lower node has an **actual
+   finite inductive grounding certificate** in that truncation.
+2. For every fixed node `k`, all sufficiently long truncations power `k`.
+   So the pointwise limit of the activity predicates is **all-on**.
+3. For every fixed `k`, all sufficiently long truncations locate the
+   source **somewhere else**. Indeed the source escapes beyond every fixed
+   finite set of candidate nodes. The pointwise intrinsic-source limit is
+   **empty**.
+4. The limiting all-on state satisfies the unchanged local transmission
+   equations. But it is not *inductively finitely grounded* with the
+   source-free predicate: the new proof **imports**
+   `FINITE-GROUNDING-HAS-SOURCE`, which extracts an intrinsic source from
+   any such grounding certificate.
+
+The mathematical lesson is the same one exposed by the infinite urn in
+[the supertask study](supertasks.md): **the limit of grounded stages need
+not be grounded under the same semantics**. It is a quantifier/witness
+issue, not a contradiction in the stage-by-stage certificates:
+
+> Each finite truncation has *some* source; therefore the infinite limit
+> has a source.
+
+That inference requires an additional uniformity, compactness or closure
+assumption. Its failure is not evidence that the source-free all-on
+**mathematical fixed point** is inconsistent. Conversely, the coherent
+fixed point is not evidence that it is **actual derivative causal power**.
+The repository explicitly keeps those semantics separate.
+
+This exposes a sharper **ACT-LIMIT** obligation for #310: why should
+metaphysically real exercise of borrowed power be representable by a
+source-grounded derivation that is preserved under the proposed passage to
+the infinite causal limit? A finite *uniform grounding-depth bound* would
+block this particular escape construction; whether such a bound is true of
+real essentially ordered causes needs an independent defense and cannot be
+silently inserted as a theorem hypothesis. The countermodel also bears on
+#311: distribution of already-actual goods or power along every finite
+path does not by itself produce or explain the existence of the distributed
+good at the source-free limit.
+
 This suggests a sharper proof task than "all infinities are impossible":
 
 1. Define a *per se* instrumental cause by its **essentially borrowed** power,
@@ -170,11 +217,13 @@ This suggests a sharper proof task than "all infinities are impossible":
 **Frontier verdict:** the impossible Reaper schedule, finite schedule, infinite
 local-transmission countermodel, cut-edge dependence countermodel, observation
 selection lemma and finite inductive-source theorem are constructively proved
-in their respective models.
+in their respective models. The escaping-source limit countermodel is a new
+separate Lean/Comparator candidate until its independent verification passes.
 `STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` remains **open**. The next
 research slice is an independent defense of why *per se* efficient power has
-the inductive source-grounding semantics, not a Lean `sorry` removed by
-restating the target as an axiom.
+the inductive source-grounding semantics and why that semantics survives the
+physically relevant limit, not a Lean `sorry` removed by restating the target
+as an axiom.
 
 For the separate question whether an **endless temporal task can finish**, see
 [supertasks and divergent series](supertasks.md). Its limit-endpoint model,

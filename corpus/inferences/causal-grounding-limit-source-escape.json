@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "rule": "finite-grounding-certificates-with-escaping-source-and-local-fixed-point",
+  "meaning": "Construct an inductive certificate for every node below a movable finite boundary, prove that the unique intrinsic boundary node eventually exits every fixed finite prefix, exhibit a source-free all-on local transmission solution, and reuse FINITE-GROUNDING-HAS-SOURCE to rule out an inductive certificate for node zero in the source-free limit.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

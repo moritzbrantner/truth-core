@@ -232,3 +232,11 @@ abstract limit model, the urn, the finite-observation example, physical
 resource constraints, and beginningless/reverse-order cases. We are closing
 invalid lines of reasoning and mapping dependencies; we have **not** yet
 proved that completed supertasks or infinite causal chains are impossible.
+
+For an additional step from temporal limits toward **essentially borrowed
+power**, see the escaping-source finite-grounding model in
+[causal regress and Grim Reapers](causal-regress-and-grim-reapers.md). Every
+finite truncation of that model has a genuine source, while the pointwise
+all-active limit retains no intrinsic source. It supplies a counterexample
+to *grounding automatically commuting with a limit*, not an identification
+of mathematical activity with real metaphysical causal power.

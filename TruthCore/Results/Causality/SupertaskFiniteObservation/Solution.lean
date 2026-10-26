@@ -11,13 +11,13 @@ theorem supertaskFiniteObservation : FiniteObservationCannotFixAllStableOutputs 
   refine ⟨(fun _ => false), (fun n => decide (cutoff < n)), ?_, ?_, ?_⟩
   · intro n hN
     have hNot : ¬ cutoff < n := Nat.not_lt_of_ge hN
-    simp [hNot]
+    exact decide_eq_false_iff_not.mpr hNot
   · refine ⟨0, ?_⟩
     intro n _
     rfl
   · refine ⟨cutoff + 1, ?_⟩
     intro n hN
     have hLt : cutoff < n := Nat.lt_of_lt_of_le (Nat.lt_succ_self cutoff) hN
-    simp [hLt]
+    exact decide_eq_true hLt
 
 end TruthCore.Results.Causality.SupertaskFiniteObservation
