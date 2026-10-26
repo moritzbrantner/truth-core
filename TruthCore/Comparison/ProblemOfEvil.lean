@@ -93,7 +93,15 @@ conjunction so that `bind-check` binds each to its statement:
 3. the seven premises of the strong-reading *prima via* (ST I q.2 a.3, #151);
 4. what all understand as God is the first mover moved by none (#151);
 5. God is supremely good and omnipotent (q.2 a.3 ad 1);
-6. God brings good out of every evil (q.2 a.3 ad 1), the reason for permission.
+6. the disputed stronger interpretation of q.2 a.3 ad 1: actual production of
+   good from every existing evil, with no explicit permission condition.
+
+This frozen comparison retains (6) as an open commitment, not a settled source
+attribution. The collective policy and capability siblings and the extra
+permission/production assumptions are distinguished in the corpus scope
+record `DISAMB-AD1-GOOD-FROM-EVIL`. Its consistency model establishes
+satisfiability of this encoded bundle; it does not settle the attribution or
+prove actual divine permission.
 -/
 def Catholic (s : Sig) : Prop :=
   GoodnessIsActualityReading s.GoodIn s.Has ∧
@@ -111,8 +119,9 @@ def Catholic (s : Sig) : Prop :=
     GodSupremelyGoodAndOmnipotentReading s.God s.SupremelyGood s.Omnipotent ∧
     GodDrawsGoodFromEveryEvilReading s.God s.Evil s.GoodIn s.DrawsGoodFrom
 
-/-- The internal form fails: the background, the Catholic theory and the
-existence of evil are jointly satisfiable. -/
+/-- The encoded background, frozen Catholic bundle (including its disputed
+stronger ad 1 commitment) and evil are jointly satisfiable. This is a scoped
+model claim, not source verification or a proof of actual permission. -/
 def CatholicTheoryConsistentWithEvil : Prop :=
   ∃ s : Sig, Background s ∧ Catholic s ∧ EvilExists s
 

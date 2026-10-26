@@ -69,9 +69,10 @@ infinite goodness of God that he permit evils to be, and draw goods from them"
 Read per evil: for every evil there is, God brings out of it some good,
 namely some being's being good in some perfection (`GoodIn` is a parameter
 here; this reading does not tie it to being in act).
-A weaker reading (God draws good from the evils taken together) is possible;
-the per-evil reading is the stronger commitment, so a consistency result proved
-with it also holds for the weaker one. The reading does not say that the good
+This is a disputed strengthening: the coordinated subjunctives in ad 1 do
+not themselves assert an actual good token for every evil. The conditional
+collective policy and capability siblings below preserve separate scopes.
+No implication between their different relation parameters is supplied. The reading does not say that the good
 outweighs the evil, nor that it goes to the one who suffers the evil.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 ad 1.
@@ -80,5 +81,59 @@ def GodDrawsGoodFromEveryEvilReading {Being : Sort u} {Perfection : Sort v}
     (God Evil : Being → Prop) (GoodIn : Being → Perfection → Prop)
     (DrawsGoodFrom : Being → Being → Being → Perfection → Prop) : Prop :=
   ∀ g x, God g → Evil x → ∃ y p, GoodIn y p ∧ DrawsGoodFrom g x y p
+
+/-- Collective policy reading of ad 1's final sentence (reading B).
+
+The fixed predicate `Evil` picks out the evils in the works under consideration;
+`PermitsEvils g Evil` says that `g` allows that collection to be. If it is
+nonempty and permitted, `g` actually draws some good from it taken together.
+`DrawsGoodFromEvils` takes the entire predicate, not an individual evil-bearing
+subject. No universal quantifier distributes the good over that collection,
+and no quantifier ranges over arbitrary subcollections.
+
+Source: ST I q.2 a.3 ad 1, pinned passage `AQUINAS-ST-I-Q2-A3`, final sentence:
+*ad infinitam Dei bonitatem pertinet, ut esse permittat mala, et ex eis eliciat
+bona*. `Permittat` and `eliciat` are coordinated subjunctives dependent on
+*pertinet ut*. The actual-production consequent is an interpretive policy
+construal of this clause, not an indicative assertion of any token good or
+permission. A capability-only extraction of the preceding quotation is kept
+separately below. This conditional does not assert God, evil or permission
+exists, a net benefit, a best world, or justification of every evil.
+
+All relations are parameters. In particular this definition neither identifies
+`GoodIn` with being in act (q.5 a.1), nor derives a productive relation from
+permission, nor equates this collective relation with the per-evil relation.
+-/
+def GodDrawsGoodFromPermittedEvilsCollectivelyReading
+    {Being : Type u} {Perfection : Type v}
+    (God Evil : Being → Prop) (GoodIn : Being → Perfection → Prop)
+    (PermitsEvils : Being → (Being → Prop) → Prop)
+    (DrawsGoodFromEvils : Being → (Being → Prop) → Being → Perfection → Prop) : Prop :=
+  ∀ g, God g → PermitsEvils g Evil → (∃ x, Evil x) →
+    ∃ y p, GoodIn y p ∧ DrawsGoodFromEvils g Evil y p
+
+/-- Collective capability condition on permission (reading C).
+
+Source: ST I q.2 a.3 ad 1, pinned passage `AQUINAS-ST-I-Q2-A3`, Augustine
+quotation: *nullo modo sineret aliquid mali esse in operibus suis, nisi esset
+adeo omnipotens et bonus, ut bene faceret etiam de malo*.
+
+Only a necessary capability condition is extracted: if God permits the
+nonempty fixed collection of evils, he can bring some good from it. The generic
+*de malo* is taken collectively; neither each evil nor each subset is
+quantified over. This is not the full counterfactual/modal structure of
+*sineret ... nisi esset ... faceret*, nor an assertion of the attributes.
+
+`CanDrawGoodFromEvils` is a primitive capability predicate. It does not require
+an actual `GoodIn` witness or productive event. No rule connecting it with the
+actual productive relations is assumed. Thus neither actual production of
+good, the occurrence of permission, existence of God/evil, net benefit, a best
+world nor justification of each evil is asserted by this reading.
+-/
+def GodCanDrawGoodFromPermittedEvilsCollectivelyReading {Being : Type u}
+    (God Evil : Being → Prop)
+    (PermitsEvils CanDrawGoodFromEvils : Being → (Being → Prop) → Prop) : Prop :=
+  ∀ g, God g → PermitsEvils g Evil → (∃ x, Evil x) →
+    CanDrawGoodFromEvils g Evil
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

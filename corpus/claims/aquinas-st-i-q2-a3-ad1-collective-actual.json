@@ -1,0 +1,20 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD",
+  "statement_id": "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 ad 1: ut esse permittat mala, et ex eis eliciat bona",
+  "interpretation": "Reading B of the plural final sentence: the evils (mala, ex eis) are taken together, not distributed over every individual evil. Restricted to a nonempty collection that God permits, the reading says that he actually draws some good from that collection. The conclusion is existential over a bearer and a perfection; it assigns no good to each evil. Evil is the privative sense clarified in q.48 a.3, not automatically a moral judgment. PermitsEvils and DrawsGoodFromEvils are distinct parameters: permission alone does not entail production without this open reading. The sentence is stronger than mere capability on this actual-production interpretation. Neither the existence of God, evil or permission nor a net benefit, best world, benefit to every sufferer or justification of each evil is asserted. The coordinated permittat and eliciat are subjunctives under pertinet ut, not indicative event assertions: the conditional actual-production consequent is the policy construal of that coordination, preserved as a defensible interpretation rather than forced by the grammar. The capability sibling records a weaker extraction from the preceding clause. Carrier boundary: Evil x means evil in subject x; the collection represents those subjects with their evils, not an enumeration of distinct evil events. No token-counting or time structure is formalized.",
+  "status": "formalized",
+  "interpretation_of": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
+  "definition_ids": [
+    "DEF-GOD-WHAT-ALL-UNDERSTAND",
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-AD1-PERMISSION-OF-EVILS",
+    "DEF-AD1-COLLECTIVE-ACTUAL-GOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-AD1-GOOD-FROM-EVIL",
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}
