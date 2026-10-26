@@ -12,7 +12,8 @@ beings, societies and predicates is used by every stage, and the prima via is
 instantiated over the same `Being` type. Only the twelve Creed articles are
 uninterpreted propositions.
 Nothing here defines the root in terms of the stages: the root is phase 1 of
-issue #156, (A) the Catholic Church is the teaching authority founded by God,
+issue #156, (A) the Catholic Church is a teaching authority founded by God
+(no uniqueness asserted),
 and (B) the articles of the Nicene-Constantinopolitan Creed. The stages reach
 the root only through the separate bridge premises.
 
@@ -181,7 +182,8 @@ def CreedArticlesHold (σ : Signature) : Prop :=
 
 /-! ## Root -/
 
-/-- (A) The Catholic Church is the teaching authority founded by God: there is
+/-- (A) The Catholic Church is a teaching authority founded by God (no
+uniqueness asserted): there is
 a God who founded the Catholic Church as a teaching authority.
 
 Phase-1 component (A) of issue #156, after Vatican I, *Dei Filius* ch. 3 (the

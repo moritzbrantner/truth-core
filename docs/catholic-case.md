@@ -10,7 +10,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 
 ## Root and structure
 
-- **Root (phase 1, #156/#159):** `STMT-CATHOLICISM-TRUE` := (A) the Catholic Church is the teaching authority founded by God (Vatican I, *Dei Filius* ch. 3, pinned on vatican.va in #170) ∧ (B) the twelve articles of the Nicene–Constantinopolitan Creed (Greek, `CREED-C381`).
+- **Root (phase 1, #156/#159):** `STMT-CATHOLICISM-TRUE` := (A) the Catholic Church is a teaching authority founded by God (no uniqueness asserted) (Vatican I, *Dei Filius* ch. 3, pinned on vatican.va in #170) ∧ (B) the twelve articles of the Nicene–Constantinopolitan Creed (Greek, `CREED-C381`).
 - **Phase 2 (later):** the full list of defined dogmas (Ott, Denzinger), candidate `CATHOLICISM-ROOT-PHASE-2-DOGMAS`.
 - **Skeleton:** the root ⇐ six stages plus explicit bridges (`TruthCore/Results/Case/Catholicism/Skeleton`):
   1. God exists
@@ -48,6 +48,7 @@ Each row is one file in [`decisions/`](decisions/) (`<date>-<NN>-<slug>.md`: fro
 | 2026-10-24 | Third Way: the eternal-world hypothesis plus the finite-past horn (SCG I.13), and a `supports` relation for `STMT-PAST-IS-INFINITE`. Fifth Way: ST I q.103 plus a regress of directors. | #143 |
 | 2026-10-26 | Claim-vs-type pre-push check added to the worker self-sweep (AGENTS.md step 8); PRs forecast and report their change in root-path open premises. | #143 |
 | 2026-10-26 | Fix the merge-conflict hotspots first (per-area import aggregators, one file per shared-table entry), then open parallel lanes: A (Fourth Way and attributes), B (stage 3), C (tooling, single writer). Lane ownership is in `AGENTS.md`, "Lanes and shared files". | #416 |
+| 2026-10-26 | Root wording: (A) reads "a teaching authority" founded by God, **no uniqueness asserted**. This matches the Lean declaration; the earlier "*the* teaching authority" (#156) is superseded. | "#156, #394" |
 <!-- END GENERATED -->
 
 ## Modeling decisions worth knowing
