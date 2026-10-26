@@ -1,0 +1,9 @@
+{
+  "id": "NECESSARYBEING-SURVEY-ARGUMENT-FAMILIES",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "Instructions, definition of necessary being, and interactive numbered routes A1–A10 including A1c/A1c2 variants (individual HTML page paths recorded in docs/necessarybeing-survey-inventory.md)",
+  "priority": 780,
+  "goal": "Source witness first: pin the definition page and the A1/A1c2/A7 conclusion pages as reproducible web_snapshot passages with selectors and matching Wayback captures when available; run source_evidence.py materialize and compare their full contexts. Then formalize A7 finite n→n−1 transfer and A1 external versus self/parts cause as source-attributed statements, claims, explicit inference records and Challenge/Solution/Comparator-checked results. Continue A2–A10 in numbered source order, reusing S5 and ontic/causal vocabulary; preserve A10 as defeasible evidence only. The provisional inventory and all question/conclusion locators are in docs/necessarybeing-survey-inventory.md. Issue #492 tracks the campaign. Do not create canonical claims from the unpinned live-site orientation.",
+  "reason": "2026-10-26 live browser playthrough reached ten numbered conclusion families and the revised external-cause variant; the site uses separable possibility-of-causation, necessity-of-existence, and modal S5 premises. Formal consequence, source fidelity and the truth of those premises are not established. The local checkout/test environment was out of disk space, so no source materialization or Lean verification was attempted; preserve this as a candidate rather than smuggle unverified claims.",
+  "status": "candidate"
+}
