@@ -1,4 +1,5 @@
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+import TruthCore.Alternatives.ActPotencyRegress
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
@@ -65,6 +66,10 @@ theorem evaluation8 : @TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveO
 theorem evaluation9 : ¬ (@TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading (TruthCore.Models.ActPotency.M2.model.Being) (TruthCore.Models.ActPotency.M2.model.Respect) (TruthCore.Models.ActPotency.M2.model.InAct) (TruthCore.Models.ActPotency.M2.model.esse)) := by
   intro hT
   exact hT B.a R.h trivial
+
+/-- #497: `a` is actually hot but not in act in `esse`, a witness of the rival. -/
+theorem evaluation10 : @TruthCore.Alternatives.ActPotencyRegress.ActualityWithoutBeingReading (TruthCore.Models.ActPotency.M2.model.Being) (TruthCore.Models.ActPotency.M2.model.Respect) (TruthCore.Models.ActPotency.M2.model.InAct) (TruthCore.Models.ActPotency.M2.model.esse) := by
+  exact ⟨B.a, R.h, trivial, fun h => h⟩
 
 end M2
 namespace M3

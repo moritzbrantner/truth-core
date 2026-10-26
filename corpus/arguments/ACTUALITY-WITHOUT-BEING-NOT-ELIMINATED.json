@@ -1,0 +1,24 @@
+{
+  "id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ACTUALITY-WITHOUT-BEING-ELIMINATION-REDUCES-TO-PREMISE",
+  "inference_ids": [
+    "INF-ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED"
+  ],
+  "meaning": "Failed elimination (#497), from no premises. The Meinongian rival STMT-ACTUALITY-WITHOUT-BEING is the contradictory of STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING in the shared vocabulary: the two are jointly inconsistent, and any refutation of the rival is the double-negated premise. So the only inclusion-minimal refuting core over this vocabulary is the premise itself (open), and the removal witness for that core is model M2, which also satisfies sensible motion, the regress premise and the other seven act/potency premises. No refutes relation is recorded: it would rest on the open target it defends (#391). This proves nothing about the rival's philosophical truth or about premise sets outside those tested.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-GOOD-AS-BEING-IN-ACT",
+    "DEF-PER-SE-LINK-STRONG"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

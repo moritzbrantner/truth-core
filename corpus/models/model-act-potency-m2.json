@@ -144,6 +144,17 @@
         "esse"
       ],
       "theorem": "TruthCore.Models.ActPotency.M2.evaluation9"
+    },
+    {
+      "statement_id": "STMT-ACTUALITY-WITHOUT-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation10"
     }
   ],
   "modules": [

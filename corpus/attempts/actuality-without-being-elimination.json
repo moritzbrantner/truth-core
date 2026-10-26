@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-ACTUALITY-WITHOUT-BEING-ELIMINATION",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-ACTUALITY-WITHOUT-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+  ],
+  "kind": "refutation",
+  "outcome": "failed",
+  "summary": "Tried rival ∧ Γ ⊢ False with Γ minimal (#497). The rival as formalized (∃ x r, InAct x r ∧ ¬ InAct x esse) is the contradictory of the premise (∀ x r, InAct x r → InAct x esse): their conjunction is inconsistent, and the rival fails exactly when InAct x r excludes ¬ InAct x esse. So every refuting core entails the double-negated premise, and the only inclusion-minimal core in this vocabulary is {STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING}, which is open and is the target itself. Removal witness: MODEL-ACT-POTENCY-M2 satisfies the rival (new evaluation10) with sensible motion, the regress premise and the other seven act/potency premises; no closed statement constrains esse. No Lean declaration other than the premise constrains InAct x esse for arbitrary x (searched TruthCore/; StageOneConvergence only gives it for necessary beings). No refutes relation recorded: it would rest on its own open target (#391). The rival was not weakened. Floor classification (#497 criteria): the premise is not provable from the current Lean definitions (esse is a parameter); adopting DEF-ESSE's prose ('nothing has actuality except insofar as it is') as the Lean definition InAct x esse ↔ ∃ r, InAct x r would be equivalent to adopting the premise itself, a cross-cutting modeling choice, not a proof. Retorsion: no self-refutation of the rival found. Common ground: the rival's proponents deny it by construction, unless Meinong's Sosein is not InAct (then the rival is misattributed); that needs the pinned Meinong §3 witness. Observation: none. Result: meets none of the four bases as recorded.",
+  "evidence": [
+    "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+    "ACT-POTENCY-PREMISES-INDEPENDENT"
+  ],
+  "blocker": "A non-circular elimination needs a new, separately sourced premise constraining esse (for example a reading of q.4 a.1 ad 3 or q.5 a.1 on which being in act in any respect is a way of being), or a pinned Meinong §3 witness showing that Sosein is not InAct, which would dissolve the alternative rather than refute it."
+}
