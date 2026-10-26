@@ -25,6 +25,11 @@ Source provenance follows a separate `Source → Passage → Claim → Statement
 
 See [`docs/corpus-model.md`](docs/corpus-model.md) for the entity boundaries and [`docs/source-evidence.md`](docs/source-evidence.md) for the provenance and verification model.
 
+The [modal-ontology 120-proposition research inventory](docs/modal-ontology-120.md)
+preserves the owner's 2026-10-26 exploratory question set with stable intake IDs,
+explicit unverified status, and routes into existing proof/countermodel issues.
+Its intake IDs are not duplicate canonical statements or verified results.
+
 ## Why the corpus starts with the Greeks
 
 The seed corpus starts with Plato and Aristotle so later writers can reuse rather than reinvent earlier concepts and source references. In particular, later Aquinas work can point back to Aristotle and Plato through stable classical locators.

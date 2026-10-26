@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-MODAL-PSR-STABLE-REASON-SHIFT",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-PSR-SOUND-COMPONENT",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-MODAL-EXPLANATION-STABLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Certified MODEL-PSR-WORLDWISE-ALTERNATING satisfies the existing existence-PSR and soundness conditions and has a necessary particular bearer, yet violates one invariant explanation token for that bearer; existing MODEL-PSR-INTRINSIC satisfies the stable-reason alternative. Verified both the stable-to-worldwise implication and a converse conditional on a real existence witness and cross-world reason invariance, plus an incompatibility rule for disjoint reasons. Relative to rigid token identities and a universal two-world frame only; metaphysical explanatory adequacy, reason identity and any classical-theist inference remain open. See docs/modal-quantifier-shift-models.md and #465.",
+  "evidence": [
+    "PR-481"
+  ]
+}
