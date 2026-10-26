@@ -1,0 +1,30 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a1c.html",
+    "retrieved_at": "2026-10-26T21:42:39Z",
+    "sha256": "sha256:0214f99b0e33f902aa5493528dfe6ab682c0e690a54ea4623104624a2b40d9a5",
+    "wayback_url": "https://web.archive.org/web/20171126111950id_/https://www.necessarybeing.com/a1c.html",
+    "wayback_sha256": "sha256:0214f99b0e33f902aa5493528dfe6ab682c0e690a54ea4623104624a2b40d9a5",
+    "license": "No license displayed on inspected site (2026-10-26). Live and dated Wayback bytes/text matched on two reads; only hashes/locator/short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A1-TOTALITY",
+      "locator": "A1c, numbered causal-totality argument 1–9",
+      "claim_locator_prefixes": [
+        "A1c,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Here's how:"
+        }
+      },
+      "text_sha256": "sha256:fbaa2201b12cb5cfbaf9ef097bd6e379ed5f312ed654679401482c94de815e6e",
+      "incipit": "Here's how:\n1. Define 'C' as the sum total of all contingent things.\n2. C is"
+    }
+  ]
+}

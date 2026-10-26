@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-PSR-WELL-FOUNDED-EXPLAINED-SOURCE",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+    "STMT-PSR-EXPLAINED-SOURCE-AT",
+    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "At a populated model world, well-founded causal predecessors yield an actual existent with no incoming cause from another actual existent; existence-PSR adds a stipulated reason for its existence fact. Removing causal well-foundedness permits a mutually-causing pair satisfying PSR and universal external causation; removing population makes universal predicates vacuous. Explicitly non-divine and non-modal conclusion; adequacy of explanatory reasons unestablished. See docs/causal-finite-branching-and-psr-syllogisms.md.",
+  "evidence": ["PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE", "PR-481"]
+}

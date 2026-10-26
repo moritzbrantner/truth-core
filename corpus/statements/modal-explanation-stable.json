@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MODAL-EXPLANATION-STABLE",
+  "lean_declaration": "TruthCore.Modal.WorldwiseExplanation.StableExplanation",
+  "paraphrase": "For a selected individual, one rigid reason token explains its existence at every world where that individual exists. This is stronger than a potentially different explanation in each world, and does not certify the token's metaphysical sufficiency.",
+  "definition_ids": [
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

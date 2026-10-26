@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-A1-CONTINGENTS-CAUSED",
+  "statement_id": "STMT-NB-A1-CONTINGENTS-CAUSED",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A1c, step 3",
+  "interpretation": "The respondent is said to have granted a universal causal principle about contingent things. The source has not established this by induction or a PSR and has not yet specified an external cause.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-CAUSE-RELATUM"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "term": "mathematical finite-local-source without global-source counterexample",
+  "definition": "There exists a directed relation on natural numbers such that each nonempty finite induced restriction has a local predecessor-free node, the full graph has no predecessor-free node, and no finite nonempty directed cycle occurs.",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.FiniteLocalWithoutGlobal",
+  "basis": "stipulative",
+  "note": "An existential over abstract Nat relations does not assert metaphysical possibility, actual infinity in time, or real grounding."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.FiniteLocalWithoutGlobal",
+  "paraphrase": "A mathematically defined acyclic infinite causal relation can have a source in every finite nonempty induced restriction but no source in the entire carrier.",
+  "definition_ids": [
+    "DEF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+    "DEF-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE",
+    "DEF-CAUSAL-GLOBAL-SOURCE",
+    "DEF-CAUSAL-HISTORY-NO-LOOPS"
+  ],
+  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+}

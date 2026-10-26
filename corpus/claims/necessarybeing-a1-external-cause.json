@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-A1-EXTERNAL-CAUSE",
+  "statement_id": "STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A1c2, step 3 and step 5",
+  "interpretation": "The alternative path asks for a stronger externally-caused contingent principle, then explicitly uses 'external' to exclude C and its parts as the cause of C. This is not identified with A1c's weaker universal-caused claim plus an untested exclusion axiom.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-CAUSE-RELATUM", "DEF-NB-SURVEY-EXTERNAL-CAUSE"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+}

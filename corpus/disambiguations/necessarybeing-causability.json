@@ -1,0 +1,6 @@
+{
+  "id": "DISAMB-NB-CAUSABILITY",
+  "term": "causability and cause",
+  "sense_definition_ids": ["DEF-CAUSE-OF-ORIGIN", "DEF-NB-COUNT-CAUSABILITY"],
+  "resolution": "A7's possibly causing a situation with a certain cardinal lower bound is represented only by the index predicate in DEF-NB-COUNT-CAUSABILITY; Aquinas's actual innovative origin-cause relation in DEF-CAUSE-OF-ORIGIN is different. The finite-count theorem does not infer an actual cause or identify the modality, timing, or bearer of a possible cause. A7c steps 4–7 require separate interpretation and additional premises."
+}

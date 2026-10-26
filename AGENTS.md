@@ -15,6 +15,59 @@ The PR reports the actual premise comparison, including remaining open premises;
 
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
+## Concise reporting and persistence
+
+1. **Report changes.** Progress updates state a new finding, decision, failure,
+   merge or blocker. Do not repeat unchanged plans, status summaries or check
+   inventories. During a long wait, use one short verified-wait update.
+2. **Report timings only when relevant.** Include durations and resource metrics
+   for requested performance work or an unexpectedly slow run. Omit routine
+   startup/build histories and unavailable-metric disclaimers; ordinary timing
+   evidence stays in the existing CI or command logs.
+3. **Keep PRs focused.** Explain the problem, change, premise effects, essential
+   validation and remaining gaps. Preserve the required claim/type self-sweep
+   and exact premise comparison. Link existing check evidence instead of
+   narrating the execution chronology or repeating successful-check inventories;
+   include a reproduction command when the linked evidence is insufficient.
+4. **Maintain one current handoff.** The coordinator updates the designated
+   handoff note or issue rather than creating parallel progress documents.
+   Include the exact head/branch, open work, verified and unverified scope, and
+   next concrete step. Workers return their task delta and references; the
+   handoff links those findings rather than copying them.
+5. **Preserve research substance.** Keep sources and precise locators,
+   interpretations, rejected approaches and reasons, counterexamples, proof
+   boundaries and remaining gaps in their existing corpus records or linked
+   notes. Shorter reporting must not remove this evidence. Do not replace it
+   with chat history, temporary logs or duplicated progress narratives.
+
+## Local server experiment for the next workloop
+
+At the start of the next workloop, the master should run a bounded experiment
+with workers interacting with a local service. Inspect the available tooling
+first: the explorer development server alone does not expose Lean verification.
+If an agent-facing service exists, start it and check its health. Otherwise,
+assign one bounded lane C task to implement the smallest usable adapter around
+the existing corpus/configuration commands and Lean language server; do not
+assume an endpoint or startup command already exists. Document the actual
+startup, health-check and client commands before asking workers to use it.
+
+The master owns service startup and shutdown and gives participating workers
+the endpoint, supported operations and workspace/session identity alongside
+their normal brief. Have workers try corpus queries and repeated Lean proof
+edits through the service, using persistent Lean sessions for diagnostics and
+proof goals. Keep agent workspaces and Lean sessions isolated; queue expensive
+verification jobs and bind every response to its exact revision and inputs.
+Reuse existing CLI and corpus semantics rather than introducing a second
+proof-status registry. Keep the service local to the machine.
+
+Compare a small representative task with the CLI workflow, recording useful
+latency/setup differences, correctness issues and a retain/revise/remove
+recommendation in the existing handoff. Continue via the CLI if the experiment
+fails; it must not block research. Interactive diagnostics do not replace the
+required build, binding, axiom, Comparator and NanoDa checks on the final inputs.
+Reuse the pinned Lean toolchain and existing dependencies; this experiment does
+not authorize adding an external Lean dependency.
+
 ## Premise dossiers and attempts
 
 For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`

@@ -610,13 +610,15 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual(depths["STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"], "bare")
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
-        # #367: a finite-ancestry route now expands efficient-cause regress
-        # into three explicitly bare premises. The source claim remains, but
-        # this conditional derivation does not establish those new premises or
-        # turn their relocation into sourced philosophical progress.
+        # #367: the finite-ancestry route expanded efficient-cause regress
+        # into three bare premises. The finite-branching bridge now further
+        # expands ancestry into two explicit, still-open hypotheses. This
+        # refines the argument without establishing its metaphysical premises.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES", depths)
+        self.assertNotIn("STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", depths)
         for premise in (
-            "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+            "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+            "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
             "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
             "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
         ):

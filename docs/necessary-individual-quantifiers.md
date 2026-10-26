@@ -65,6 +65,21 @@ accessible world has an empty concrete extension. This witnesses the need for
 the additional concreteness bridge within the supplied theory-relative model.
 It does not defend an ontology allowing such a criterion.
 
+### Contingent exercise of causation
+
+`TruthCore/Modal/NecessaryContingentActivity.lean` adds a small source-free
+model test using the already defined Kantian `Ontic` relation. The individual
+`false` exists in both universally accessible worlds. At the first world it
+causes the distinct, existing individual `true`; at the other world it causes
+nothing. Every stipulated causal arrow has an existing cause and effect.
+`necessaryWithContingentActivity` proves these conditions jointly satisfiable.
+
+This separates **necessary existence** from **necessary exercise of causation**.
+It does not identify causal activity with an enduring *power*, establish that
+the bearer is concrete under any theory of concreteness, or demonstrate the
+metaphysical possibility of the model. The powers, location and independence
+criteria in #435 remain open research questions.
+
 ## Relationship to the Third Way and remaining work
 
 `collective_iff` substitutes `fun P => Dia F P w` for the primitive `Possible`

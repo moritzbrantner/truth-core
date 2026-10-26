@@ -1,0 +1,7 @@
+{
+  "id": "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+  "term": "objective possibility relative to what is necessary (survey)",
+  "definition": "An assertion is possible if it contradicts none of what is objectively necessary; objective necessity is independent of someone's knowledge. The page offers examples of necessary truths but no algorithm for exhaustively determining which propositions are necessary.",
+  "basis": "sourced",
+  "claim_ids": ["NB-SURVEY-DEFINITION-OBJECTIVE-POSSIBILITY"]
+}
