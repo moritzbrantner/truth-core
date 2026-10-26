@@ -5,5 +5,5 @@
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-  "note": "Class: self-application. Refuted given open premises STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED by ELEATIC-THESIS-SELF-REFUTING (Aristotle's retorsion, Physics VIII.3, 254a27-30). No refutes relation is recorded while that premise is open (#391: rule (c) does not yet check the premises of a refuting argument). Zeno's arguments for the thesis are addressed separately (CONVERGENT-ZENO-SCHEDULE answers the dichotomy step only)."
+  "note": "Class: self-application. Refuted given open premises STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED by ELEATIC-THESIS-SELF-REFUTING (Aristotle's retorsion, Physics VIII.3, 254a27-30). No refutes relation is recorded while those premises are open (rule (c) counts a refuting argument only when all its premises are closed, #391/#411). Zeno's arguments for the thesis are addressed separately (CONVERGENT-ZENO-SCHEDULE answers the dichotomy step only)."
 }

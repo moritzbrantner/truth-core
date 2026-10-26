@@ -6,11 +6,11 @@ Classes, as in the issue: **self-application** (the rival undermines itself), **
 
 ## Policy for `refutes` relations
 
-`corpus.py frontier` counts a `refutes` relation whenever its argument has a verified result, whatever that argument's premises (#391). A refutation from open premises could therefore close a premise by rule (c), and those open premises would not appear in `frontier --reaching-root`, because the refuting argument does not lead to the root. Until #391 is fixed, a `refutes` relation is recorded only when the refuting argument is premise-free or all its premises are closed. A conditional refutation is recorded in the `alternative_to` note and here as "refuted given open premises …", without a `refutes` relation. All three refutations of this batch have open premises, so this batch records no `refutes` relation.
+`corpus.py frontier` counts a `refutes` relation only when its argument has a verified result and is premise-free or all its premises are closed (#391/#411). Conditional refutations resting on open premises do not close a defended premise. This campaign records them in the `alternative_to` note and here as "refuted given open premises …", without a `refutes` relation. All three refutations of this batch have open premises, so this batch records no `refutes` relation.
 
 Two further rules apply to conditional refutations here. The refuting argument must not use the premise it defends. And where the strongest form of a rival denies a premise of the refutation, that form is recorded as its own alternative and counted as unrefuted. Example: Aristotle's retorsion refutes the bare Eleatic thesis given "opinion is a motion"; the McTaggart-style rival grants appearances and denies that an appearance of change is a change, so it is a separate alternative, although it formally entails the Eleatic one.
 
-Self-application rivals in later batches should use the retorsion schema of `TruthCore/Logic/SelfApplication.lean` (PR #403) once it lands; the Eleatic retorsion here predates it and is a direct proof in the prima via vocabulary.
+Self-application rivals in later batches should use the retorsion schema of `TruthCore/Logic/SelfApplication.lean` (merged in PR #403); the Eleatic retorsion here predates it and is a direct proof in the prima via vocabulary.
 
 ## Counts
 
