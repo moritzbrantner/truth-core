@@ -1,0 +1,19 @@
+{
+  "id": "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST",
+  "statement_id": "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF",
+  "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
+  "locator": "prop. 2 (Taylor 1816, vol. II, p. 301)",
+  "interpretation": "Bounded identity/predication reading: the participant becomes one through participation yet is something besides, and is not, the One itself. The formal projection retains received unity and numerical nonidentity. It does not claim to exhaust being non-one of itself, treat the two occurrences of one as one predicate and its negation, or derive nonidentity from independently defended premises. The source argument begins by contrasting participation with being the One itself; its something-besides language does not supply a universal inventory of essential qualities. See docs/proclus-unity.md.",
+  "basis": "translation",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PROCLUS-ONE-ITSELF",
+    "DEF-PROCLUS-RECEIVED-UNITY",
+    "DEF-PROCLUS-UNITY-PARTICIPATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PROCLUS-ONE",
+    "DISAMB-PROCLUS-UNITY-PARTICIPATION"
+  ]
+}
