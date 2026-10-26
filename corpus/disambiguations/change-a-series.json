@@ -1,9 +1,10 @@
 {
   "id": "DISAMB-CHANGE-A-SERIES",
-  "term": "change (A-series change versus reduction from potency to act)",
+  "term": "change (A-series change, change in general, reduction from potency to act)",
   "sense_definition_ids": [
     "DEF-A-SERIES-CHANGE",
+    "DEF-CHANGE-GENERAL",
     "DEF-MOTION-AS-REDUCTION"
   ],
-  "resolution": "McTaggart's denial of change (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS) uses the A-series sense; the prima via's observation premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD uses reduction from potency to act. They are separate Lean predicates (`ASeriesChanges`, `MovedIn`). The only passage from McTaggart's thesis to a denial of the observation premise is the explicit, unattributed open premise STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE; the rival STMT-CHANGE-UNREAL-BUT-APPEARS states the result of that passage and is not attributed to McTaggart. A B-theorist who accepts McTaggart's argument against the A series but keeps change as variation along the B series denies the bridge and is not this rival."
+  "resolution": "McTaggart's denial of change (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS) uses the A-series sense; his thesis that all change is A-series change (STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE) takes change in the general sense (any variation, thoughts included) and asserts that it requires A-series change; the prima via's observation premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD uses reduction from potency to act. They are three separate Lean predicates (`ASeriesChanges`, `Changes`, `MovedIn`), and no argument passes from one to another without an explicit premise. The passages from McTaggart's thesis to a denial of the observation premise are explicit open premises: the unattributed STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE, or McTaggart's own STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE together with the unattributed STMT-MOTION-IS-A-CHANGE (whatever is moved changes in the general sense). The rival STMT-CHANGE-UNREAL-BUT-APPEARS states the result of that passage and is not attributed to McTaggart. A B-theorist who accepts McTaggart's argument against the A series but keeps change as variation along the B series denies STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE and McTaggart's all-change thesis, accepts STMT-MOTION-IS-A-CHANGE, and is not this rival."
 }

@@ -1,0 +1,10 @@
+{
+  "id": "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+  "argument_id": "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+  "challenge_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution",
+  "theorem": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.unrealityOfTimeFalse",
+  "comparator_config": "results/MCTAGGART-UNREALITY-OF-TIME-REFUTED/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: no premise has the conclusion as its consequent, and the countermodels needsOpinionIsMotion and needsMotionIsChange in the Comparator config show that each premise is needed. A conditional refutation of McTaggart's bundle on change resting on two open premises; no refutes relation is recorded (#391) and it closes no premise."
+}

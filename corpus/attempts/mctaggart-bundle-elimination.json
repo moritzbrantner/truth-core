@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-MCTAGGART-BUNDLE-ELIMINATION",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-CHANGE-UNREAL-BUT-APPEARS",
+    "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
+    "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE",
+    "STMT-OPINION-IS-A-MOTION",
+    "STMT-MOTION-IS-A-CHANGE"
+  ],
+  "kind": "refutation",
+  "outcome": "succeeded",
+  "summary": "Bundle elimination for STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD (#497, method after #498). Both recorded rivals were triaged: STMT-ELEATIC-NOTHING-IS-MOVED is the bare contradictory; STMT-CHANGE-UNREAL-BUT-APPEARS adds one commitment (there are judgings), but is unattributed. The strongest sourced rival is McTaggart 1908 (pinned MCTAGGART-1908-UNREALITY-OF-TIME). Formalized as the theory bundle TruthCore.Comparison.McTaggart.UnrealityOfTime with two sourced commitments: no A-series change but there are judgings and perceivings (MCTAGGART-1908-TIME-UNREAL-A) and all change is A-series change (new claim MCTAGGART-1908-ALL-CHANGE-A-SERIES-A, general sense of change, DEF-CHANGE-GENERAL). Certified (zero axioms): bundle ∪ {STMT-OPINION-IS-A-MOTION, STMT-MOTION-IS-A-CHANGE} ⊢ False, without the target premise; each member is needed (models needsOpinionIsMotion, needsMotionIsChange), so the core is inclusion-minimal among subsets of these two. No closed statement constrains Opines, MovedIn or Changes, so no core with closed members exists among current records. Also certified: bundle + STMT-MOTION-IS-A-CHANGE yields STMT-CHANGE-UNREAL-BUT-APPEARS, replacing the stronger unattributed bridge STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE for that link; and STMT-OPINION-IS-A-MOTION alone refutes STMT-CHANGE-UNREAL-BUT-APPEARS. Closed core members: none. Open: STMT-OPINION-IS-A-MOTION (sourced to Physics VIII.3 as a reputable opinion) and STMT-MOTION-IS-A-CHANGE (unattributed). Floor classification (#497 criteria). STMT-OPINION-IS-A-MOTION: logical no (Opines and MovedIn are parameters); retorsion no (its denial is consistent with being held, model needsOpinionIsMotion); common_ground no (McTaggart 1908 raises the question whether an appearance of change must change and promises a denial); observation candidate (judgings come and go; Aristotle's claim), blocked because its only recorded rival is the McTaggart position this core eliminates, so using it would be circular until McTaggart's answer (The Nature of Existence II, ch. 44) is pinned and handled. STMT-MOTION-IS-A-CHANGE: logical only by defining Changes from MovedIn, a modeling choice not made; common_ground candidate (McTaggart counts any variation, thoughts included, as change; Physics V.1 'every motion is a change'; a B-theorist keeps it), not marked because no sourced claim yet attributes it to each recorded rival. No refutes relation recorded (#391). Frontier delta: none.",
+  "evidence": [
+    "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+    "MCTAGGART-1908-TIME-UNREAL-A",
+    "MCTAGGART-1908-ALL-CHANGE-A-SERIES-A",
+    "ARIST-PHYS-254A-OPINION-IS-MOTION-A",
+    "ELEATIC-THESIS-SELF-REFUTING"
+  ],
+  "blocker": "Closing the core needs STMT-OPINION-IS-A-MOTION on the floor (observation, after pinning and handling McTaggart's answer in The Nature of Existence II, ch. 44) and STMT-MOTION-IS-A-CHANGE as common ground (sourced claims from each recorded rival), or proofs of either."
+}

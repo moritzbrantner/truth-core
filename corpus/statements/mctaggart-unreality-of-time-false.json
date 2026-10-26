@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MCTAGGART-UNREALITY-OF-TIME-FALSE",
+  "paraphrase": "McTaggart's bundle on change does not hold: it is not the case both that no event changes in its A-series determinations while there are judgings and perceivings (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS) and that all change is A-series change (STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE).",
+  "lean_declaration": "TruthCore.Alternatives.McTaggart.UnrealityOfTimeFalse",
+  "definition_ids": [
+    "DEF-A-SERIES-CHANGE",
+    "DEF-CHANGE-GENERAL",
+    "DEF-OPINING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}
