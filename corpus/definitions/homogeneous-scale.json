@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HOMOGENEOUS-SCALE",
+  "term": "homogeneous scale of being (univocal order model)",
+  "definition": "`HomogeneousScaleReading InAct MoreIn r` over a Mathlib `Preorder` on the beings: every being has r, and x is more r than y exactly when y < x. Ties are allowed; a maximum is just a maximal element (`IsMax`) of the one scale, a grade homogeneous with the others.",
+  "basis": "stipulative",
+  "note": "The order model of the univocal sense (DEF-BEING-UNIVOCAL), recorded for contrast: ST I q.3 a.5 ad 2 and q.13 a.5 ad 3 deny that God is a proportioned (homogeneous) measure, and q.13 a.5 co. denies univocity. A univocity source (for example Scotus, Ordinatio I d.3) would source it if it is ever argued for as a rival.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HomogeneousScaleReading"
+}

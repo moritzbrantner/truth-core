@@ -1,0 +1,13 @@
+{
+  "id": "STMT-OTHERS-ORDERED-TO-PRIMARY-AS-CAUSE",
+  "paraphrase": "Every other thing that has a perfection said of it and of the primary has it by its order to the primary as to its cause: the primary causes that perfection in it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

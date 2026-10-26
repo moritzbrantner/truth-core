@@ -132,6 +132,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaGenus
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
@@ -204,7 +205,12 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.WeakReadingDoesNo
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution

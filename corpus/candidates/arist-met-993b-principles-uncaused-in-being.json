@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-MET-993B-PRINCIPLES-UNCAUSED-IN-BEING",
+  "source_id": "ARIST-MET",
+  "locator": "II.1, 993b28-30 (οὐδʼ ἐκείναις αἴτιόν τί ἐστι τοῦ εἶναι, ἀλλʼ ἐκεῖναι τοῖς ἄλλοις)",
+  "priority": 415,
+  "goal": "Read the clause that nothing is a cause of being to the principles of the eternal beings, but they to the others, as a premise that nothing other than the primary causes its being. On the attribution order (QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM: every maximum in being is the primary), it would replace the use of STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH with the primary as effect in AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING, which is neither derivable on the attribution order (QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH) nor available in its synonymous sense at being (q.13 a.5 ad 1). Check that the clause is asserted (not only inferred from the synonymy principle), that 'the principles of the eternal beings' can be the primary analogate of being, and find Aquinas' reading (In Metaph. II lect. 2). With STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING it would bear on STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING; QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING shows the order readings alone do not.",
+  "reason": "Found while testing the order models of #340 (docs/being-not-a-genus.md). The passage ARIST-MET-II-1 is pinned and the clause was read in the materialized text; no claim is made yet because its scope (plural principles, eternal beings) needs its own reading.",
+  "status": "candidate"
+}

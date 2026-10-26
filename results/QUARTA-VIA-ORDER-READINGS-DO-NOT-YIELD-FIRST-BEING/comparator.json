@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.orderReadingsDoNotYieldFirstBeing"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

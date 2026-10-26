@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-SUPPORTS-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "note": "Only at being: with the attribution order of q.3 a.5 ad 2 (strict primacy) it yields the instance r = esse (QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING). It says nothing about the principle for other perfections, such as heat, and closes nothing."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.attributionOrderUniqueMaximum"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

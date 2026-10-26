@@ -1,0 +1,9 @@
+{
+  "id": "REL-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING-ATTACKS-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "note": "Not a refutation: neither order reading of the grades of being supports the bridge, even with the causal order to the primary and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING). On the attribution order the bridge reduces to: nothing other than the primary is simply prior to it. See DISAMB-ORDER-OF-BEING."
+}

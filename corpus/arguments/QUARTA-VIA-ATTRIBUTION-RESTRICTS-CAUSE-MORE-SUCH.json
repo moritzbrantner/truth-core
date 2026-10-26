@@ -1,0 +1,17 @@
+{
+  "id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
+  "inference_ids": [
+    "INF-QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH"
+  ],
+  "meaning": "Formal fact, from no premises: on the reading by attribution Aristotle's cause-is-more-such principle holds for the primary and fails in general. So at being the frontier premise STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH needs re-reading: restricted to the primary as cause it is derivable; unrestricted it is the synonymous (univocal) principle of Met. II.1.",
+  "definition_ids": [
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}
