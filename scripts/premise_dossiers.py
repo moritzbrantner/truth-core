@@ -162,7 +162,7 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
         lines.append(f"  {evaluation['model_id']} {evaluation['value']}; vocabulary {evaluation['vocabulary']}; {evaluation['theorem']}; arguments {evaluation['arguments']}")
     if not dossier["model_evaluations"]:
         lines.append("  none registered; no conclusion about consistency or derivability")
-    lines.append("No separate mode-5 schema registry exists yet; no links are inferred from prose.")
+    lines.append("Explicit instance_of_schema registrations are recorded in corpus/relations/ (see docs/schemas.md); this dossier does not project them. No links are inferred from prose.")
     lines.append(f"\nRoutes to {dossier['root']} (one counted leaf when open_leaf=true, not a counterfactual cost reduction):")
     for route in dossier["route_contributions"]:
         lines.append(f"  {route['argument_id']}: cost={route['cost']}, open_leaf={str(route['open_leaf']).lower()}, direct_premise={str(route['direct_premise']).lower()}")
