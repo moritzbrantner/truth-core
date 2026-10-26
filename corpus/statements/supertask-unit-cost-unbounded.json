@@ -1,0 +1,6 @@
+{
+  "id": "STMT-SUPERTASK-UNIT-COST-UNBOUNDED",
+  "paraphrase": "Partial sums of the unit-cost series 1 + 1 + ... exceed every finite integer budget, so a task with one unit of duration per stage cannot complete arbitrarily many stages within a finite unit budget. This does not exclude decreasing-duration schedules.",
+  "lean_declaration": "TruthCore.Causality.UnitCostSeriesUnbounded",
+  "definition_ids": ["DEF-SUPERTASK-UNIT-COST"]
+}

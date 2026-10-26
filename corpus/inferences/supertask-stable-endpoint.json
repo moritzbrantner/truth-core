@@ -1,0 +1,9 @@
+{
+  "id": "INF-SUPERTASK-STABLE-ENDPOINT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SUPERTASK-STABLE-ENDPOINT",
+  "rule": "omega-plus-one-model-with-constant-output",
+  "meaning": "Construct an order with every natural-number stage before its distinguished limit, construct a strictly later stage n+1 for each n, and use a constant-true output whose terminal value is stable from stage zero onward.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

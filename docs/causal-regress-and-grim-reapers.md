@@ -175,3 +175,8 @@ in their respective models.
 research slice is an independent defense of why *per se* efficient power has
 the inductive source-grounding semantics, not a Lean `sorry` removed by
 restating the target as an axiom.
+
+For the separate question whether an **endless temporal task can finish**, see
+[supertasks and divergent series](supertasks.md). Its limit-endpoint model,
+oscillating-output counterexample and fixed-cost divergence result do not
+transfer automatically to simultaneous *per se* causal dependence.

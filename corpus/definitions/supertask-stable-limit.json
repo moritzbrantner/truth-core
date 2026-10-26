@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-STABLE-LIMIT",
+  "term": "stable Boolean terminal state",
+  "definition": "There is a Boolean terminal value and a finite cutoff after which every operation leaves the output at that value. This gives a coherent limit-state criterion for a discrete output, but it is stronger than numerical convergence for real-valued series.",
+  "basis": "stipulative",
+  "note": "A stipulated test for terminal coherence; it cannot be used to conclude that all physically realizable outputs, including continuous measurements, must eventually become constant.",
+  "lean_declaration": "TruthCore.Causality.StableAtLimit"
+}
