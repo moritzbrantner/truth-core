@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.intellectSubsistsInWeakSense",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.attributionOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.existenceCorrespondenceOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.weakSubsistenceDoesNotRequireCompleteness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

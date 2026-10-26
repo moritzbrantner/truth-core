@@ -1,0 +1,31 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "premise_statement_ids": [
+    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-NONORGANIC-INTELLECT-OPERATION-ATTRIBUTION",
+    "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE"
+  ],
+  "conclusion_statement_id": "STMT-HUMAN-INTELLECT-WEAK-SUBSISTENCE",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE"
+  ],
+  "meaning": "Transcription (instantiation) composing the earlier typed non-bodyhood and no-organ results with two source-attributed open premises. Subsistence means non-inherence compatible with being an incomplete part. Six premises remain open; no root obligation is discharged. Two omission controls show the additional premises cannot simply be dropped. No relocation of a root premise is claimed.",
+  "definition_ids": [
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-Q75-WEAK-SUBSISTENCE",
+    "DEF-Q75-COMPLETE-SUBSISTENCE",
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-ORGAN-EXERCISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-WEAK-AND-COMPLETE-SUBSISTENCE",
+    "DISAMB-Q75-NONORGAN-AND-OWN-OPERATION",
+    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}
