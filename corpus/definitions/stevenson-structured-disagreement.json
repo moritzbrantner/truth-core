@@ -1,0 +1,10 @@
+{
+  "id": "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
+  "term": "Stevenson interest disagreement and factual agreement",
+  "definition": "InterestDisagreement x y p is Favors x p, Disfavors y p and both SeeksChange directions. These are practical orientations, not successful persuasion. FactualAgreement x y means equivalent Believes statuses on every designated Factual sentence; it does not mean either believes truly. DisagreementReading equates the shared ClashInAttitude with that structured relation and admits a moral clash with factual agreement and at least one factual sentence. The same Sentence carrier indexes practical objects via their moral sentences; it does not equate believing with favouring.",
+  "basis": "sourced",
+  "claim_ids": [
+    "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT"
+  ],
+  "lean_declaration": "TruthCore.English.Stevenson.DisagreementReading"
+}
