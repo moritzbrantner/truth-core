@@ -9,6 +9,7 @@ import {
   useStore,
   useReactFlow,
   type Edge,
+  type NodeChange,
   type Node,
   type NodeProps,
 } from "@xyflow/react";
@@ -191,6 +192,8 @@ function nodeDescription(node: ViewNode) {
   return `${node.statement.paraphrase}; ${status}`;
 }
 
+const NO_MEASUREMENTS: ReadonlyMap<string, { width: number; height: number }> = new Map();
+
 function hashIds(nodes: ViewNode[]) {
   let hash = 0;
   for (const node of nodes) {
@@ -221,7 +224,9 @@ export function PropositionGraphExplorer({
   const [hoveredId, setHoveredId] = useState("");
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
   const proofTarget = index.statementById.has(state.target) ? state.target : graph.defaultTarget ?? "";
-  const proof = useProofExploration(graph, state.explore, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
+  // Explore only once every bucket the view needs has loaded, so the search never
+  // reports a result over a partial graph (#491).
+  const proof = useProofExploration(graph, state.explore && !buckets.pending, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
   const visibleProof = state.explore && proof.result?.target === proofTarget ? proof.result : null;
   const overlay = useMemo(() => proofOverlay(graph, visibleProof), [graph, visibleProof]);
   const lemmaObligation = useMemo(() => visibleProof ? lemmaResearchObligation(visibleProof, graph.defaultTarget ?? "") : null, [visibleProof, graph.defaultTarget]);
@@ -292,6 +297,11 @@ export function PropositionGraphExplorer({
     return groups;
   }, [graph]);
 
+  const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
+  // React Flow sizes, kept only for the canvas instance that measured them: a
+  // remounted canvas measures its nodes and handles afresh.
+  const [measurements, setMeasurements] = useState<{ key: string; sizes: ReadonlyMap<string, { width: number; height: number }> }>({ key: "", sizes: new Map() });
+  const measured = measurements.key === flowKey ? measurements.sizes : NO_MEASUREMENTS;
   const { nodes, edges } = useMemo(() => {
     const hovered = compact && state.view === "local" && view.nodes.some((node) => node.id === hoveredId) ? hoveredId : "";
     const hoverNeighbors = new Set(hovered ? [hovered] : []);
@@ -332,6 +342,9 @@ export function PropositionGraphExplorer({
       ariaLabel: nodeDescription(node),
       focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
+      // Hand back React Flow's own measurement: a new node object without
+      // `measured` is hidden until re-measured, which can race with overlay updates.
+      measured: measured.get(`${compact ? "marker" : node.kind}:${node.id}`),
       // Dense research clusters can overlap. Keep the selected belief tappable
       // above its neighbours, especially in the mobile frontier inspector.
       zIndex: node.id === state.sel || node.id === hovered ? 20 : 0,
@@ -373,7 +386,17 @@ export function PropositionGraphExplorer({
       };
     });
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay]);
+  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay, measured]);
+  const onNodesChange = (changes: NodeChange<FlowNode>[]) => {
+    const sizes = changes.flatMap((change) => (change.type === "dimensions" && change.dimensions ? [{ id: change.id, size: change.dimensions }] : []));
+    if (!sizes.length) return;
+    const types = new Map(nodes.map((node) => [node.id, node.type]));
+    setMeasurements((current) => {
+      const next = new Map(current.key === flowKey ? current.sizes : []);
+      for (const { id, size } of sizes) next.set(`${types.get(id)}:${id}`, size);
+      return { key: flowKey, sizes: next };
+    });
+  };
 
   const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
@@ -404,7 +427,6 @@ export function PropositionGraphExplorer({
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
   const stageTargets = STAGE_CONCLUSIONS.filter(({ statementId }) => index.statementById.has(statementId));
-  const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
 
   return (
     <section aria-labelledby="graph-heading" className={proofStyles.overlay}>
@@ -830,6 +852,9 @@ export function PropositionGraphExplorer({
               <span><i className="frontier-key-dot frontier-key-other" /> Other proposition</span>
               {state.relations ? <span><i className="frontier-key-relation" /> Research link · not proof</span> : null}
             </div>
+            {/* Mount the canvas once the needed buckets are in: a canvas remounted
+                while data streams in can keep nodes unmeasured (hidden). */}
+            {buckets.pending ? <p className="graph-loading">Loading graph data…</p> : (
             <ReactFlow
               edges={edges}
               defaultViewport={parseViewport(state.viewport)}
@@ -850,6 +875,7 @@ export function PropositionGraphExplorer({
               nodesDraggable={false}
               nodeTypes={nodeTypes}
               onNodeClick={onNodeClick}
+              onNodesChange={onNodesChange}
               onNodeMouseEnter={state.view === "local" && compact ? (_event, node) => setHoveredId(node.id) : undefined}
               onNodeMouseLeave={state.view === "local" && compact ? () => setHoveredId("") : undefined}
               onlyRenderVisibleElements
@@ -857,6 +883,7 @@ export function PropositionGraphExplorer({
               <SelectionLocator state={state} compact={compact} />
               <Controls showInteractive={false} />
             </ReactFlow>
+            )}
           </div>
         </div>
         <div className="frontier-sidebar">

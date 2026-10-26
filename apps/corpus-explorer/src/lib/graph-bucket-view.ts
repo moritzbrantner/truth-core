@@ -89,7 +89,9 @@ export const bucketPath = (basePath: string, file: string, version: string) =>
 /** IDs the URL addresses directly; their buckets load whatever the filters say. */
 export function referencedIds(state: GraphState, defaultTarget: string | null) {
   const ids = [state.sel, state.node, state.target, state.arg, ...state.pins, ...state.expanded];
-  if (state.view === "root" && !state.target && defaultTarget) ids.push(defaultTarget);
+  if ((state.view === "root" || state.explore) && !state.target && defaultTarget) ids.push(defaultTarget);
+  // Proof exploration searches from its target and scope seeds; their buckets must be loaded.
+  if (state.explore) ids.push(...state.proofScope);
   return [...new Set(ids.filter(Boolean))];
 }
 
