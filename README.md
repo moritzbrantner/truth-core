@@ -106,6 +106,8 @@ The Rust Comparator builds the Challenge and Solution independently in Landrun, 
 
 Configs permit no axioms, except that a result whose Solution imports Mathlib may permit exactly `propext`, `Classical.choice` and `Quot.sound`; see [the axiom policy](docs/axiom-policy.md), which also explains how to rebuild the verifier after a toolchain bump (`lean4export` must match the pinned Lean version; the bootstrap needs `go` and `cargo`).
 
+For a standalone worker clone, see [worker startup and evidence handoff](docs/worker-startup.md) for the preparation command, cache boundaries and three-item trial evidence.
+
 The local bootstrap is intended for reproducible development. Palomar's hosted service has additional registry, policy, sandboxing, disclosure, and editorial machinery that this MVP does not reproduce.
 
 ## Seed corpus
