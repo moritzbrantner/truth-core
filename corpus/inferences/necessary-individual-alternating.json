@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-ALTERNATING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-ALTERNATING",
+  "rule": "direct-proof",
+  "meaning": "Unfold the stated predicates and check the complete finite Bool model by kernel-reducible decision. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

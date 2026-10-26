@@ -1,0 +1,18 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-ALTERNATING",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-ALTERNATING",
+  "inference_ids": [
+    "INF-NECESSARY-INDIVIDUAL-ALTERNATING"
+  ],
+  "meaning": "At actual world false in the explicit two-world, two-individual universal frame, a concrete individual actually exists and every individual can be absent, yet every accessible world has a concrete individual. No fixed individual exists necessarily and no jointly concrete-empty world is accessible. The instantiated Third Way collective-possibility premise fails. Reflexivity and a distinct accessible world are explicit conjuncts. This refutes the two quantifier-shift implications in these stipulated semantics, not the metaphysical possibility of the model.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

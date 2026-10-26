@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NECESSARY-INDIVIDUAL-QUANTIFIER-SHIFT",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+    "STMT-NECESSARY-INDIVIDUAL-LAWS",
+    "STMT-NECESSARY-INDIVIDUAL-ALTERNATING",
+    "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The existing collective-possibility dossier and Third Way declarations distinguish the contested shift from temporal plenitude. With shared Kripke Dia substituted for primitive Possible, the same collective premise fails in a two-world alternating-witness model, despite reflexivity, finite rigid roster and actual concrete existence. Necessary exemplification does not imply a fixed necessary individual. Separate existence/concrete predicates require a bridge, refuted without it by an explicit nonempty model. No source reading or necessity premise is established; stronger concreteness criteria, source defenses, and actualist/counterpart alternatives remain #435 work. See docs/necessary-individual-quantifiers.md.",
+  "evidence": [
+    "NECESSARY-INDIVIDUAL-LAWS",
+    "NECESSARY-INDIVIDUAL-ALTERNATING",
+    "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE"
+  ]
+}

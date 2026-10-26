@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+  "term": "de re necessity, de dicto necessity and individual versus joint absence",
+  "definition": "DeRe F present w means some fixed roster member has present at every accessible world; DeDicto F present w means every accessible world has some present member, allowed to vary. IndividualContingency means every member is absent at some accessible world; JointAbsence means some accessible world has no present member. Box and Dia are the existing shared Kripke operators, with no implicit frame assumptions. The actualist de-re variant additionally guards its outer witness by ex x w. Each use of present specifies whether it denotes existence or ConcreteAt; neither is Scott essence-based necessary existence.",
+  "basis": "stipulative",
+  "note": "Theory-relative diagnostic for #435; source-grounded adoption and concreteness defenses remain open. See docs/necessary-individual-quantifiers.md.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeDicto"
+}
