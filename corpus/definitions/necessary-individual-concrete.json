@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+  "term": "existing concrete individual",
+  "definition": "ConcreteAt ex concrete x w means ex x w and concrete x w. Existence and a theory-relative concreteness criterion are independent supplied predicates. No causal-powers, spatiotemporal or independence/actuality account is endorsed. Absence of concrete individuals is an empty extension at an existing world, not an empty world type. Abstract-object status is not inferred from failing this predicate.",
+  "basis": "stipulative",
+  "note": "Theory-relative diagnostic for #435; source-grounded adoption and concreteness defenses remain open. See docs/necessary-individual-quantifiers.md.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
+}

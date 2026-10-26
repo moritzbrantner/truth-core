@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-LAWS",
+  "argument_id": "NECESSARY-INDIVIDUAL-LAWS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-LAWS/comparator.json",
+  "status": "solution-present",
+  "description": "Exact conditional quantifier laws: a fixed necessary witness implies necessary exemplification, including an explicitly actuality-guarded variant; existence implies concrete exemplification only with an explicit successor-relative bridge. Joint absence implies individual contingency. The existing Third Way collective-possibility predicate, instantiated with shared Kripke Dia, is equivalent to the individual-to-joint implication. All parameters and hypotheses are quantified inside this mathematical law statement."
+}

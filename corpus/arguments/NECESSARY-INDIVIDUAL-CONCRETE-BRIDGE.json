@@ -1,0 +1,18 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "inference_ids": [
+    "INF-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE"
+  ],
+  "meaning": "In the same inhabited two-world universal frame, with all two roster members existing everywhere and the concreteness criterion false everywhere, a fixed individual exists necessarily, an accessible world has an empty concrete extension, and necessary concrete exemplification fails. Thus existence alone does not supply the concreteness bridge. This is a theory-relative countermodel, with no assertion that abstract objects exhaust an actual or metaphysically possible world.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

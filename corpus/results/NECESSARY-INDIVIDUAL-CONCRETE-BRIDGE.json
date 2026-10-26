@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "argument_id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "In the same inhabited two-world universal frame, with all two roster members existing everywhere and the concreteness criterion false everywhere, a fixed individual exists necessarily, an accessible world has an empty concrete extension, and necessary concrete exemplification fails. Thus existence alone does not supply the concreteness bridge. This is a theory-relative countermodel, with no assertion that abstract objects exhaust an actual or metaphysically possible world."
+}

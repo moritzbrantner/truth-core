@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Direct witness construction and elimination; all conditional hypotheses are inside the quantified law contract.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
