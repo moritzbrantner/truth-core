@@ -1,0 +1,12 @@
+{
+  "id": "DEF-Q75-ORGAN-EXERCISE",
+  "term": "intellectual exercise through a bodily organ",
+  "definition": "In OrganBodilyInterference, the extra typed relation through intellect organ means that intellectual operation can be exercised through that individual as its instrument; Model.IsBody separately selects bodily individuals. This relation is not HasNaturally intellect n, so it does not assert that the intellectual principle is itself that body. The organ has its own constitutive nature through the reused bodily-determinacy premise. Neither the relation nor its body filter incorporates the disputed interference constraint. Producing phantasms or being required on the side of the object is not the instrumental exercise relation; no general theory of modern physical realization is identified with it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q75-A2-ORGAN-BODILY-INTERFERENCE",
+    "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OrganBodilyInterference",
+  "note": "The organ and the intellectual principle share the existing individual domain, without an identity assumption. The non-bodyhood theorem uses no through relation and therefore cannot supply this extra premise."
+}

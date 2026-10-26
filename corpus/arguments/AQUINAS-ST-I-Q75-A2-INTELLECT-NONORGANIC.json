@@ -1,0 +1,25 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "premise_statement_ids": [
+    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION"
+  ],
+  "conclusion_statement_id": "STMT-HUMAN-INTELLECT-USES-NO-BODILY-ORGAN",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC"
+  ],
+  "meaning": "Conditional organ inference of q.75 a.2 from the two existing cognitive-scope and bodily-determinacy premises and the new source-attributed organ-interference premise. Three omission controls exhibit an organ when any premise is removed; the organ-interference control also retains non-bodyhood and the old interference premise. The controls test formal-schema entailment, not metaphysical possibility or a whole physicalist theory. No root premise is discharged.",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE",
+    "DEF-Q75-ORGAN-EXERCISE",
+    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

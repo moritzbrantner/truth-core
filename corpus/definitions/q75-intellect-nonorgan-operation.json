@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q75-INTELLECT-NONORGAN-OPERATION",
+  "term": "no bodily organ of intellectual exercise",
+  "definition": "IntellectUsesNoBodilyOrgan m through intellect is exactly the negation of an individual organ with m.IsBody organ and through intellect organ. It concerns capacity for instrumental exercise, not only the absence of a current episode. It does not negate the bodily role on the side of the object in supplying phantasms in q.75 a.2 ad 3. The definition supplies neither subsistence nor immortality, and is not a definition of all physical realizations of cognition.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectUsesNoBodilyOrgan"
+}

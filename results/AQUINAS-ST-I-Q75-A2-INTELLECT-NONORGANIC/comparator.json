@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.intellectUsesNoBodilyOrgan",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.scopeOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.determinacyOmission",
+    "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.organInterferenceOmission"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
