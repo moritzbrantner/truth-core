@@ -148,3 +148,24 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   expect(errors).toEqual([]);
   await page.close();
 }, 60000);
+
+test("recorded claim evidence links related propositions without changing proof controls", async () => {
+  const projected = getPropositionGraph().relations.find((relation) => relation.originKind === "claim" && relation.subject !== relation.object);
+  if (!projected) { throw new Error("The corpus needs an inspectable claim evidence relation"); }
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  const url = new URL(`${basePath}/`, server.url);
+  url.searchParams.set("sel", projected.subject);
+  await page.goto(url.toString());
+  await page.locator(".network-marker[data-kind='statement']").first().waitFor();
+  await page.locator(".graph-detail").getByRole("link", { name: `${projected.originId} →` }).waitFor();
+  expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
+  await page.getByText("More views and filters").click();
+  await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).uncheck();
+  await page.waitForURL((location) => location.searchParams.get("relations") === "0");
+  expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBe(0);
+  expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
+  await page.reload();
+  await page.getByText("More views and filters").click();
+  expect(await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).isChecked()).toBe(false);
+  await page.close();
+}, 60000);

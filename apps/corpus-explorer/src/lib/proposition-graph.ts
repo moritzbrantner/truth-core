@@ -123,6 +123,7 @@ export type CorpusRelationInput = {
   object_kind: string;
   object_id: string;
   basis?: string;
+  note?: string;
 };
 
 export type PropositionGraphInput = {
@@ -207,9 +208,14 @@ export type GraphArgument = {
 export type GraphRelation = {
   id: string;
   predicate: string;
+  /** Visual endpoint of a recorded relation, not an inferred implication. */
   subject: string;
   object: string;
+  /** The actual corpus record that makes this link inspectable. */
+  originKind: "statement" | "claim" | "argument";
+  originId: string;
   basis?: string;
+  note?: string;
 };
 
 export type ClusterMode = "passage" | "source" | "namespace";
@@ -224,6 +230,17 @@ export type PropositionGraph = {
   defaultTarget: string | null;
   rootPresent: boolean;
 };
+
+/** Research links influence navigation and layout, never premise closure. */
+export function researchLinkedStatements(graph: PropositionGraph) {
+  const linked = new Set<string>();
+  for (const relation of graph.relations) {
+    if (relation.subject === relation.object) continue;
+    linked.add(relation.subject);
+    linked.add(relation.object);
+  }
+  return linked;
+}
 
 function push<K, V>(map: Map<K, V[]>, key: K, value: V) {
   const entries = map.get(key);
@@ -315,6 +332,8 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
   const objectionSubjects = new Set<string>();
   const refuted = new Set<string>();
   const relations: GraphRelation[] = [];
+  const claimStatementById = new Map(input.claims.map((claim) => [claim.id, claim.statement_id]));
+  const argumentConclusionById = new Map(input.arguments.map((argument) => [argument.id, argument.conclusion_statement_id]));
   for (const relation of input.relations) {
     if (relation.predicate === "alternative_to") {
       push(alternatives, relation.object_id, relation.subject_id);
@@ -322,18 +341,32 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
     } else if (relation.predicate === "attacks" && relation.subject_kind === "statement") {
       objectionSubjects.add(relation.subject_id);
     }
+    // A claim's statement or an argument's conclusion locates a research link
+    // among belief dots. The original claim/argument remains the authority;
+    // this projection cannot create an inference or establish a premise.
+    const originKind = relation.subject_kind;
+    let subject: string | undefined;
+    if (originKind === "statement") {
+      subject = relation.subject_id;
+    } else if (originKind === "claim") {
+      subject = claimStatementById.get(relation.subject_id);
+    } else if (originKind === "argument") {
+      subject = argumentConclusionById.get(relation.subject_id);
+    }
     if (
-      relation.subject_kind === "statement" &&
+      (originKind === "statement" || originKind === "claim" || originKind === "argument") &&
       relation.object_kind === "statement" &&
-      statementIds.has(relation.subject_id) &&
-      statementIds.has(relation.object_id)
+      subject && statementIds.has(subject) && statementIds.has(relation.object_id)
     ) {
       relations.push({
         id: relation.id,
         predicate: relation.predicate,
-        subject: relation.subject_id,
+        subject,
         object: relation.object_id,
+        originKind,
+        originId: relation.subject_id,
         basis: relation.basis,
+        note: relation.note,
       });
     }
   }
