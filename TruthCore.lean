@@ -139,6 +139,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Quint
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
@@ -189,6 +190,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAna
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsFirstBeing.Solution

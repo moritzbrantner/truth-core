@@ -1,0 +1,19 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A4-ESSE-CAUSE-DICHOTOMY",
+  "statement_id": "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.4 co., first proof: si igitur ipsum esse rei sit aliud ab eius essentia ... vel a principiis essentialibus eiusdem rei",
+  "interpretation": "Aquinas restricts the cause options for esse distinct from essence to essential principles or an exterior agent. The Lean reading makes the source subject and exterior agent actual via InAct at esse and uses CausesIn at esse to represent efficient causation. It does not attribute an unrestricted PSR covering every fact or an exclusion of noncausal intrinsic reasons to the quotation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+  ]
+}
