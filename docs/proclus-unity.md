@@ -119,8 +119,8 @@ in the linked attempt and this note; the campaign is not exhausted.
 Intended and actual root-premise change: **none**. No root result is connected,
 no open premise is discharged, and no bare root premise is relocated to a new
 one. The new Proclus statement is an open attributed commitment outside the
-current root routes. In particular the composition, producer-superiority and
-causal-regress targets of #359 remain open; this batch is source clarification,
+current root routes. In particular this batch discharges none of the composition,
+producer-superiority or causal-regress obligations of #359; it is source clarification,
 not progress measured by frontier closure.
 
 At baseline `bf106c2f`, route costs were:
