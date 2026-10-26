@@ -36,9 +36,50 @@ middle (`Classical.em`). A result that permits the three is a theorem of
 classical logic. It must never count as evidence where excluded middle is
 itself in question: the frontier around `STMT-EXCLUDED-MIDDLE` and the
 intuitionist rival (`STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM`) stay on
-zero-axiom results. NanoDa's whole-library check (`scripts/verify-library.sh`)
+zero-axiom results. NanoDa's library check (`scripts/verify-library.sh`)
 already permitted these three because they reach the library through Lean's
 own core; per-result configs now permit them only for Mathlib results.
+
+## What CI checks, and where the trust boundary lies
+
+Three checks run in CI (`.github/workflows/ci.yml`):
+
+1. **Comparator per result** (`scripts/verify-result.sh`). Each result's
+   Challenge and Solution are built in a sandbox, exported, compared, and the
+   Solution is checked by Lean and by NanoDa. Comparator enforces the result's
+   `permitted_axioms`.
+2. **Scoped NanoDa over the library** (`scripts/verify-library.sh`, on every
+   run whose library changed). `scripts/TruthCoreConstants.lean` lists every
+   declaration whose module lies under `TruthCore` (internal names skipped,
+   as `lean4export` skips them by default); `lean4export` exports these
+   together with the full dependency closure of each, from Mathlib and Lean
+   core alike; NanoDa checks the whole export. Nothing a `TruthCore`
+   declaration depends on is trusted without being checked. The script
+   rejects any exporter diagnostic, because a Lean panic (for example on an
+   unparsable name) prints and continues.
+3. **Full NanoDa over everything the library imports**
+   (`scripts/verify-library.sh --full`). Beyond check 2, this checks only
+   imported declarations that no `TruthCore` declaration uses (about 285,000
+   against 19,000 at the Mathlib adoption). These are fixed by
+   `lean-toolchain`, `lakefile.toml`, `lake-manifest.json`, the NanoDa pin in
+   `scripts/verifier-pins.env` and the set of non-`TruthCore` modules the
+   library imports (`scripts/affected_results.py external-imports`). CI runs
+   it once for each value of that key and caches a marker; a cache hit skips
+   it. Its failure would mean NanoDa rejects a pinned Mathlib or Lean core
+   declaration that nothing in this repository uses.
+
+So no result relies on the cache: check 2 covers, on every library change,
+every declaration that any `TruthCore` theorem can reach. The cached marker
+records only that the unused remainder of the pinned dependencies passed once.
+
+Comparator (check 1) runs on a PR only for the results the diff can affect
+(`scripts/affected_results.py select`): those whose own records changed, or
+whose Challenge or Solution module, or any `TruthCore` module either imports
+transitively, changed. A change to the toolchain, the Lake files, the verifier
+scripts or pins, `verifier/`, `scripts/corpus.py` (which carries the axiom
+check) or a workflow selects every result. Every push to `main`, a nightly
+scheduled run and any manual run verify every result, split across parallel
+shards (`scripts/verify-all.sh --shard INDEX/COUNT`).
 
 ## Toolchain pin and rebuilding the verifier
 
