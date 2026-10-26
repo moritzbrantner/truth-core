@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT",
+  "paraphrase": "Rival: something moves another in a respect without itself being in act in that respect, as on emergentist accounts lower-level causes produce a quality none of them has.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovesWithoutBeingInActReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

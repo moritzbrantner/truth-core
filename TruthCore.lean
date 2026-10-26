@@ -1,3 +1,4 @@
+import TruthCore.Alternatives.ActPotencyRegress
 import TruthCore.Case.Catholicism.FoundingIndependence
 import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
@@ -187,6 +188,9 @@ import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
 import TruthCore.Refutations.TertiaVia
+import TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution
+import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
+import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.BeingInActReading.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAnalysesConservative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution

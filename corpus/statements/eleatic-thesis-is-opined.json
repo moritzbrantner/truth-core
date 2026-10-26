@@ -1,0 +1,9 @@
+{
+  "id": "STMT-ELEATIC-THESIS-IS-OPINED",
+  "paraphrase": "The Eleatic thesis is held: someone opines that nothing is moved.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.EleaticThesisIsOpinedReading",
+  "definition_ids": [
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION"
+  ]
+}

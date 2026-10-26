@@ -1,0 +1,9 @@
+{
+  "id": "REL-MCTAGGART-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MCTAGGART-CHANGE-UNREAL-BUT-APPEARS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "note": "Class: self-application, not yet attackable. The strongest form of the rival: it grants appearances and denies that an appearance of change is itself a change, i.e. it denies STMT-OPINION-IS-A-MOTION, so the retorsion would beg the question and no refutes relation is recorded. Missing: McTaggart's own answer (The Nature of Existence II, ch. 44, to source) and an argument that judging or perceiving is a reduction from potency to act (DISAMB-MOTION)."
+}

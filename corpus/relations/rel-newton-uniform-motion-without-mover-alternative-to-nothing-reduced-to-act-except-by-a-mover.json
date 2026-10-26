@@ -1,0 +1,9 @@
+{
+  "id": "REL-NEWTON-UNIFORM-MOTION-WITHOUT-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NEWTON-UNIFORM-MOTION-WITHOUT-MOVER",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "note": "Class: not yet attackable (reading question). Newton requires an impressed force only for a change of state; the rival needs uniform motion to be a being moved in the sense of DEF-MOTION-AS-REDUCTION. The Thomist reply is that a state of uniform motion is no reduction from potency to act. Missing: a disambiguation of local motion as state versus reduction under DISAMB-MOTION."
+}

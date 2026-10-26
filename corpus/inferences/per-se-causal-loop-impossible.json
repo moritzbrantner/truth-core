@@ -1,0 +1,14 @@
+{
+  "id": "INF-PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "input_statement_ids": [
+    "STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT",
+    "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
+    "STMT-NOTHING-PRIOR-TO-ITSELF",
+    "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE"
+  ],
+  "output_statement_id": "STMT-NO-PER-SE-CAUSAL-LOOP",
+  "rule": "induction-on-transitive-closure",
+  "meaning": "Each per se link is an efficient causing, hence a step of simple priority; by induction on the chain and transitivity, a being linked to itself by a finite chain of per se links is simply prior to itself, which nothing is.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

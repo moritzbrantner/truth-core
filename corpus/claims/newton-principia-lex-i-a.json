@@ -1,0 +1,8 @@
+{
+  "id": "NEWTON-PRINCIPIA-LEX-I-A",
+  "statement_id": "STMT-NEWTON-UNIFORM-MOTION-WITHOUT-MOVER",
+  "source_id": "NEWTON-PRINCIPIA",
+  "locator": "Axiomata, Lex I: Corpus omne perseverare in statu suo quiescendi vel movendi uniformiter in directum, nisi quatenus a viribus impressis cogitur statum illum mutare",
+  "interpretation": "Every body perseveres in its state of rest or of uniform motion in a straight line, except insofar as impressed forces compel it to change that state; projectiles persevere in their motions except as air resistance and gravity act on them. Read as the rival: some body is being moved (in a respect of uniform motion) while nothing moves it in that respect. Newton calls uniform motion a state (status) and requires impressed force only for a change of state; reading the state as a being moved, and impressed force as the only candidate mover, is the reading this claim takes and the point the Thomist reply contests (DISAMB-MOTION).",
+  "status": "formalized"
+}

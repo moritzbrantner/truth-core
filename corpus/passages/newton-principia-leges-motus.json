@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NEWTON-PRINCIPIA",
+    "source_url": "https://la.wikisource.org/w/index.php?title=Pagina:Principia_newton_la.djvu/16&action=raw&oldid=259108",
+    "retrieved_at": "2026-10-26T11:50:52Z",
+    "sha256": "sha256:43ee644661e79a480a17fb83172ec003dd1a681ad76d21541a3b215e5b3e6bc1",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Newton 1687, public domain; Wikisource transcription under CC BY-SA. Only hashes, a locator and a short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "NEWTON-PRINCIPIA-LEGES-MOTUS-I-III",
+      "locator": "Axiomata, sive leges motus, Lex I-III (Wikisource page 16)",
+      "claim_locator_prefixes": [
+        "Axiomata,"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:43ee644661e79a480a17fb83172ec003dd1a681ad76d21541a3b215e5b3e6bc1",
+      "incipit": "<noinclude><pagequality level=\"4\" user=\"JimKillock\" /></noinclude><div"
+    }
+  ]
+}

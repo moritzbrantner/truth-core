@@ -1,0 +1,10 @@
+{
+  "id": "DUNS-SCOTUS-QQ-METAPH",
+  "kind": "primary_text",
+  "author": "John Duns Scotus",
+  "work": "Quaestiones super libros Metaphysicorum Aristotelis (critical edition: Opera philosophica III-IV, St. Bonaventure, NY: Franciscan Institute, 1997)",
+  "citation_system": "book and question (e.g. IX q.14), with paragraph numbers of the critical edition",
+  "work_urn": "https://openlibrary.org/search?q=Quaestiones+super+libros+Metaphysicorum+Scotus",
+  "catalog_url": "https://openlibrary.org/search?q=Quaestiones+super+libros+Metaphysicorum+Scotus",
+  "notes": "Bibliographic identity only: no passage witness is pinned. The Latin text is public domain (the Wadding edition, Lyon 1639, vol. 4), but no immutable transcription has been found; the critical edition is in copyright. Do not cite claims from it until a witness is pinned. It stands for Scotus' defence of self-motion (IX q.14: a thing can be virtually in act and formally in potency with respect to the same perfection)."
+}

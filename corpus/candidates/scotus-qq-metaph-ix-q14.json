@@ -1,0 +1,9 @@
+{
+  "id": "SCOTUS-QQ-METAPH-IX-Q14",
+  "source_id": "DUNS-SCOTUS-QQ-METAPH",
+  "locator": "IX q.14",
+  "priority": 900,
+  "goal": "Pin a witness of Scotus' question on self-motion and attribute STMT-ACT-AND-POTENCY-IN-SAME-RESPECT (virtual act and formal potency to the same perfection) if the text supports it. Record whether Scotus' denial of 'whatever is moved is moved by another' is a rival to STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT or to STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT on each sense of DISAMB-IN-ACT.",
+  "reason": "Alternatives campaign #387, act/potency and regress batch: the rival statement and its alternative_to relation are recorded; the witness is missing, so no claim attributes it yet (invariant 18).",
+  "status": "candidate"
+}

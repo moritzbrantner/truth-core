@@ -1,0 +1,9 @@
+{
+  "id": "REL-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-ALTERNATIVE-TO-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+  "subject_kind": "statement",
+  "subject_id": "STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+  "note": "Class: self-application (candidate). Aquinas' reply (SCG III.69: if created things produced no effects, their natures could not be known from their effects) would turn the occasionalist's own knowledge of nature against him; not yet formalized or sourced in a pinned Latin witness. Missing: a witness of Malebranche, Recherche VI.ii.3 (candidate MALEBRANCHE-RECHERCHE-VI-II-3), and SCG III.69."
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.noPerSeCausalLoop",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsTransitivity",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsNothingPriorToItself",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsCausePriorToEffect",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsMiddleCause"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

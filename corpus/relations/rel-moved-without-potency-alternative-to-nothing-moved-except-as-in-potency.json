@@ -1,0 +1,9 @@
+{
+  "id": "REL-MOVED-WITHOUT-POTENCY-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MOVED-WITHOUT-POTENCY",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "note": "Class: not yet attackable. The Ash'arite view escapes the Megarian refutation: it grants change but reads it as God's re-creation of each state, so it denies that change is a being moved in the sense of DEF-MOTION-AS-REDUCTION (DISAMB-MOTION). Missing: a witness (al-Ghazali, Tahafut, discussion 17; candidate GHAZALI-TAHAFUT-17) and an argument that successive re-creation is not a coherent account of change."
+}
