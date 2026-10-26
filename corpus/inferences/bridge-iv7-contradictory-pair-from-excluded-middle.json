@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES",
+  "rule": "universal-instantiation",
+  "meaning": "For each state, instantiate excluded middle at 'the state has F'. A transcription: the premise is only instantiated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

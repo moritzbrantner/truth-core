@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "argument_id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "challenge_module": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.Solution",
+  "theorem": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.affirmingOrDenyingThoughtIsTrueOrFalseOfExcludedMiddle",
+  "comparator_config": "results/BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE/comparator.json",
+  "status": "solution-present"
+}

@@ -14,10 +14,16 @@ Self-application rivals in later batches should use the retorsion schema of `Tru
 
 ## Counts
 
-After this batch, `frontier --reaching-root` lists 37 open premises
-(1 bare, 36 sourced but undefended): 10 have recorded alternatives and
-27 have none. No premise closes by refuting all alternatives. The campaign
-changes no open-premise ID or route cost.
+After this batch, `frontier --reaching-root` lists 39 open premises
+(2 bare, 37 sourced but undefended): 8 have recorded alternatives and
+31 have none. No premise closes by refuting all alternatives. The campaign
+changes no open-premise ID or route cost relative to current main. The two
+classification tables below retain the original 37-premise baseline. Since
+bridge batch 1 (#405), four current leaves are outside that baseline and
+still need classification: `STMT-POTENCY-IS-UNACTUALIZED-CAPACITY`,
+`STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY`, `STMT-PILOT-JESUS-CLAIMS`
+and `STMT-PILOT-ROSE`. Two formerly classified premises are now reached
+through those bridges.
 
 Current `frontier --routes` costs count distinct open leaves reached through
 verified derivations, rather than only each route's direct hypotheses:

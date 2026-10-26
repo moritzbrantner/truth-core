@@ -1,0 +1,20 @@
+{
+  "id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "premise_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "inference_ids": [
+    "INF-BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY"
+  ],
+  "meaning": "Bridge (#401): Aristotle's definition of motion, *Physics* III.1, 201a10-11 (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY: a being is moved in a respect exactly when it is in potency to it and that potency, as potency, is being actualized), entails the prima via's premise (STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY): whatever is moved in a respect is in potency to it. Only the left-to-right half of the definition and its first conjunct are used. As for potency, ActPotencyDefinitionalAnalysesConservative shows the definition is no stronger than the premise; this bridge moves the premise's openness to the Aristotle reading and does not discharge it.",
+  "definition_ids": [
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
