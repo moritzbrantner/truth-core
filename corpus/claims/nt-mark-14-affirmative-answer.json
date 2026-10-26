@@ -1,0 +1,14 @@
+{
+  "id": "NT-MARK-14-AFFIRMATIVE-ANSWER",
+  "statement_id": "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
+  "source_id": "NT-MARK",
+  "locator": "14.61-62",
+  "interpretation": "The affirmative answer is read against both titles of the immediately preceding question; this is speech attribution, not an assertion of divine identity or historical utterance. See docs/mark-high-priest-answer.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

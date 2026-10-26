@@ -1,0 +1,14 @@
+{
+  "id": "NT-MARK-14-SON-OF-MAN-PREDICTION",
+  "statement_id": "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
+  "source_id": "NT-MARK",
+  "locator": "14.62",
+  "interpretation": "The two images and future seeing belong to Jesus’s reported speech. The title’s referent, judgment interpretation, fulfillment and divine identity are not supplied as actual facts. See docs/mark-high-priest-answer.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

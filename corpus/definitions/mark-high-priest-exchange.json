@@ -1,0 +1,13 @@
+{
+  "id": "DEF-MARK-HIGH-PRIEST-EXCHANGE",
+  "term": "Mark 14 reported titles, prediction and hostile judgment",
+  "definition": "HighPriestAnswer.Narrative.attributes records textual attribution to Jesus or the high priest. affirmsSelfAs accepts a title of the speaker: Messiah retains the question’s anointed title and sonOfBlessed retains its filial designation, without defining either as identity with God. predictsHearersWillSee retains the future seeing addressed to the hearers: seatedAtRightOfPower names the right-hand image of exalted standing, with Power retaining the saying’s designation, and comingWithHeavensClouds names its heavenly-cloud coming image. These are reported images, not actual spatial relations or an encoded judgment event. Holder.sonOfMan reuses the title token in the Mark 2 report without assuming identical referents across passages. chargesPrecedingSpeechAsBlasphemy attributes a charge of speech offensive to God to the high priest, without endorsing it. Narrative.prior retains the Mark 2 narrative and through it the pilot State.core; no truth transport is defined.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.Narrative",
+  "note": "These are encoding boundaries for the sourced exchange. The existing Mark 2 content has forgiveness action and earthly scope; this passage instead needs title affirmation and future seeing content. The linked note records the interpretive and historical gaps.",
+  "claim_ids": [
+    "NT-MARK-14-AFFIRMATIVE-ANSWER",
+    "NT-MARK-14-SON-OF-MAN-PREDICTION",
+    "NT-MARK-14-BLASPHEMY-REACTION"
+  ]
+}
