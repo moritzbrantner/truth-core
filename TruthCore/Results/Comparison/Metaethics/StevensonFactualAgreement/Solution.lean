@@ -23,7 +23,7 @@ theorem factualAgreementConsistent : FactualAgreementConsistent := by
   · exact fun _ _ => trivial
   · exact fun _ _ _ _ hx hy => ⟨hx, hy⟩
   · constructor
-    · intro x y p
+    · intro x y _p
       constructor
       · intro h
         exact ⟨h.1, h.2, Or.inl h, Or.inr ⟨h.2, h.1⟩⟩
