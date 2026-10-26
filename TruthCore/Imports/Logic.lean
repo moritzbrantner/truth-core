@@ -2,6 +2,8 @@
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.MaximumOrder
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.Regress
+import TruthCore.Logic.RegressDomains
 import TruthCore.Logic.Relativism
 import TruthCore.Logic.Scientism
 import TruthCore.Logic.SelfApplication

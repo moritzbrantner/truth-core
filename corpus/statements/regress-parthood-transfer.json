@@ -1,0 +1,12 @@
+{
+  "id": "STMT-REGRESS-PARTHOOD-TRANSFER",
+  "paraphrase": "For every supplied partial order interpreted as parthood, well-founded strict parthood implies all graph controls, including a finite path to an object with no proper part. No actual atomism, fusion or supplementation is established.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.ParthoodTransfer",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

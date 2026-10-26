@@ -1,0 +1,10 @@
+{
+  "id": "REGRESS-SCHEMA-PACKAGE",
+  "argument_id": "REGRESS-SCHEMA-PACKAGE",
+  "challenge_module": "TruthCore.Results.Logic.RegressSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RegressSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.RegressSchema.regressSchemaPackage",
+  "comparator_config": "results/REGRESS-SCHEMA-PACKAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Accessibility and inductive derivation proofs, Mathlib fixed-point proofs, six distinct conditional transfers, and explicit countermodels. Logical consistency of stipulated existence/activity with absent warrant does not establish actual causal possibility or epistemic justification. No frontier premise is closed."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-Q48-A5-CULPA-CONDITIONAL-GROUNDING",
+  "statement_ids": [
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-VOLUNTARY-OPERATION-DEFECT-IS-CULPA",
+    "STMT-ABSENT-VOLUNTARY-OPERATION-IS-CULPA-AND-EVIL"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized SCTA AQUINAS-ST-I-Q48-A5 in full. Operational absence and defective due mode/order are both included in the directional culpa classification; control by will and due operation survive as conditions. Rejected unrestricted division of all evil into poena/culpa because ad 2 expressly restricts it to voluntary things. The article gives no actual culprit witness; the derived answer cell is conditional only, with the absent-operation branch yielding privative evil through the existing q48a3 account. Exhaustive/converse readings and poena classification remain unformalized. No premise truth, root closure, rebuttal of naturalistic moral realism, or explanation of divine permission is claimed.",
+  "evidence": [
+    "AQUINAS-ST-I-Q48-A5-VOLUNTARY-OPERATION-DEFECT-CULPA",
+    "POE-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL"
+  ]
+}

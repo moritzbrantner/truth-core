@@ -1,0 +1,13 @@
+{
+  "id": "STMT-REGRESS-SCHEMA-PACKAGE",
+  "paraphrase": "The structural schema and all six distinct conditional transfers hold. An explicit causal-to-justificatory graph map plus epistemic well-foundedness transfers the controls conditionally. A single successor graph admits stipulated existence and locally transmitted all-on activity (greatest fixed point), while the all-premise foundationalist warrant interpretation and least fixed point admit nothing, with justification withheld. A self-loop defeats accessibility despite no injective infinite sequence and can have equal fixed points when all nodes are intrinsic; reversed natural-number parthood is atomless, irreflexive and transitive but not well-founded. Self-application tests a positive knowledge-of-causal-possibility claim only under its own explicitly scoped justification norm. None establishes actual causal possibility or a metaphysical bridge; no root premise is discharged. A separate finite two-premise control shows a path to a foundation does not suffice for all-premise warrant. A weaker conditional semantic bridge excludes globally source-free active systems only if active relata meet the mapped warrant standard and every noninferential foundation implies some causal source; these bridges remain undefended.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.DomainPackage",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}
