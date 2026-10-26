@@ -91,6 +91,8 @@ export type FrontierReport = {
   closed_statements: Record<string, ClosureReason>;
   /** Self-evident or defended, or reached from such statements through verified results only. */
   established_statements: string[];
+  /** Statements whose upward argument walk reaches the root (root_route aware). */
+  reaching_root_statements?: string[];
   alternatives_recorded: boolean;
   open_premise_count: number;
   depth_counts: Record<FrontierDepth, number>;

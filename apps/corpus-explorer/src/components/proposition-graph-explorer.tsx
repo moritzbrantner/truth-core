@@ -18,7 +18,10 @@ import { orderObligations, type ResearchObligation } from "@/lib/research-fronti
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import type { NetworkStructure } from "@/lib/graph-network";
+import { ALL_BUCKETS, type GraphManifest, type LoadedNetwork } from "@/lib/graph-bucket-view";
+import { CLOSURE_FACETS, RECORD_FACETS, REACH_FACETS } from "@/lib/graph-facets";
+import { LANES } from "@/lib/graph-areas";
+import { useGraphBuckets } from "./use-graph-buckets";
 import { NetworkMarker } from "./network-marker";
 import { layeredLayout } from "@/lib/graph-layout";
 import {
@@ -199,18 +202,18 @@ function hashIds(nodes: ViewNode[]) {
 }
 
 export function PropositionGraphExplorer({
-  graph,
+  manifest,
   obligations,
-  network,
 }: {
-  graph: PropositionGraph;
-  network: NetworkStructure;
+  manifest: GraphManifest;
   obligations: ResearchObligation[];
 }) {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
   const state = useMemo(() => parseGraphState(searchParams), [searchParams]);
+  const buckets = useGraphBuckets(manifest, state);
+  const { graph, network } = buckets;
   const index = useMemo(() => indexGraph(graph), [graph]);
   const compact = state.layout === "network" && (state.view === "all" || state.view === "local");
   // Hover emphasis is transient presentation state. It never changes the URL,
@@ -253,6 +256,28 @@ export function PropositionGraphExplorer({
       scroll: false,
     });
   };
+
+  // Facet counts over the whole corpus, summed from the bucket manifest.
+  const facetTotals = useMemo(() => {
+    const totals: Record<"area" | "lane" | "closure" | "rec" | "reach", Record<string, number>> = { area: {}, lane: {}, closure: {}, rec: {}, reach: {} };
+    for (const bucket of manifest.buckets) {
+      for (const key of Object.keys(totals) as Array<keyof typeof totals>) {
+        for (const [value, count] of Object.entries(bucket.facets[key])) totals[key][value] = (totals[key][value] ?? 0) + count;
+      }
+    }
+    return totals;
+  }, [manifest]);
+  const isolatedCount = manifest.buckets.filter((bucket) => bucket.kind === "isolated").reduce((sum, bucket) => sum + bucket.statements, 0);
+  const toggleFacet = (key: "area" | "lane" | "closure" | "rec", value: string) =>
+    update((current) => {
+      const values = current[key] as string[];
+      return { [key]: values.includes(value) ? values.filter((entry) => entry !== value) : [...values, value], viewport: "" };
+    });
+  const toggleBucket = (id: string) =>
+    update(() => {
+      const next = buckets.wanted.includes(id) ? buckets.wanted.filter((entry) => entry !== id) : [...buckets.wanted, id];
+      return { buckets: next, viewport: "" };
+    });
 
   const tagOptions = useMemo(() => {
     const counts = new Map<string, number>();
@@ -418,8 +443,8 @@ export function PropositionGraphExplorer({
         <summary>More views and filters</summary>
       <div className="graph-toolbar">
         <label className="graph-toggle">
-          <input type="checkbox" checked={state.showIsolated} onChange={(event) => update({ showIsolated: event.target.checked, viewport: "" })} />
-          Include unlinked readings ({graph.statements.filter((statement) => network.unsupported.has(statement.id) && network.unconsumed.has(statement.id) && !network.researchLinked.has(statement.id)).length})
+          <input type="checkbox" checked={!state.showIsolated} onChange={(event) => update({ showIsolated: !event.target.checked, viewport: "" })} />
+          Hide singletons: unlinked readings ({isolatedCount})
         </label>
         <label className="field-label">Structural / epistemic filter
           <select className="field-control" value={state.leaf} onChange={(event) => update({ leaf: event.target.value as GraphState["leaf"] })}>
@@ -610,6 +635,31 @@ export function PropositionGraphExplorer({
             ))}
           </select>
         </label>
+        <label className="field-label">
+          Root reachability
+          <select className="field-control" onChange={(event) => update({ reach: event.target.value as GraphState["reach"] })} value={state.reach}>
+            <option value="">Any</option>
+            {REACH_FACETS.map((facet) => <option key={facet.id} value={facet.id}>{facet.label} ({facetTotals.reach[facet.id] ?? 0})</option>)}
+          </select>
+        </label>
+        <label className="field-label">
+          Add area
+          <select
+            className="field-control"
+            onChange={(event) => { if (event.target.value) toggleFacet("area", event.target.value); }}
+            value=""
+          >
+            <option value="">Choose an area…</option>
+            {Object.entries(facetTotals.area).sort(([left], [right]) => left.localeCompare(right)).map(([area, count]) => (
+              <option disabled={state.area.includes(area)} key={area} value={area}>{area} ({count})</option>
+            ))}
+          </select>
+        </label>
+      </div>
+      <div className="graph-facets">
+        <FacetChips label="Lane" options={LANES} selected={state.lane} counts={facetTotals.lane} toggle={(value) => toggleFacet("lane", value)} />
+        <FacetChips label="Closure" options={CLOSURE_FACETS} selected={state.closure} counts={facetTotals.closure} toggle={(value) => toggleFacet("closure", value)} />
+        <FacetChips label="Linked records" options={RECORD_FACETS} selected={state.rec} counts={facetTotals.rec} toggle={(value) => toggleFacet("rec", value)} />
       </div>
 
       <details className="graph-status-filters"><summary>Status filters and legend</summary>
@@ -645,6 +695,11 @@ export function PropositionGraphExplorer({
 
       {state.tags.length || hasFilters(state) ? (
         <div className="graph-chip-row">
+          {state.area.map((area) => (
+            <button className="graph-chip" aria-pressed key={`area:${area}`} onClick={() => toggleFacet("area", area)} title="Remove area" type="button">
+              area {area} ×
+            </button>
+          ))}
           {state.tags.map((tag) => (
             <button
               className="graph-chip"
@@ -667,7 +722,7 @@ export function PropositionGraphExplorer({
           </label>
           <button
             className="graph-button"
-            onClick={() => update({ q: "", status: [], tags: [], source: "", leaf: "", hide: false })}
+            onClick={() => update({ q: "", status: [], tags: [], source: "", leaf: "", hide: false, area: [], lane: [], closure: [], rec: [], reach: "" })}
             type="button"
           >
             Clear filters
@@ -678,7 +733,7 @@ export function PropositionGraphExplorer({
       {search.total ? (
         <details className="graph-search" open={state.view === "all" && !state.open.length}>
           <summary>
-            {search.total} matching statement{search.total === 1 ? "" : "s"} in the corpus
+            {search.total} matching statement{search.total === 1 ? "" : "s"} in the loaded graph
             {search.total > search.items.length ? ` (top ${search.items.length})` : ""}
           </summary>
           <ul>
@@ -724,12 +779,39 @@ export function PropositionGraphExplorer({
         </details>
       ) : null}
 
+      {state.view === "all" ? (
+        <details className="graph-buckets">
+          <summary>
+            Graph data: {buckets.shown.length} of {manifest.buckets.length} buckets shown, {graph.statements.length} of {manifest.totals.statements} statements
+            {buckets.pending ? " · loading…" : ""}
+          </summary>
+          <p className="graph-buckets-note">Each bucket holds whole connected components, so no inference or research link is cut. The default view loads the components that reach {manifest.defaultTarget ?? "the root"}; filters skip buckets without a possible match.</p>
+          <div className="graph-chip-row">
+            <button className="graph-button" onClick={() => update({ buckets: [ALL_BUCKETS], showIsolated: true, viewport: "" })} type="button">Load every bucket</button>
+            <button className="graph-button" disabled={!state.buckets.length} onClick={() => update({ buckets: [], viewport: "" })} type="button">Default buckets</button>
+          </div>
+          <ul className="graph-bucket-list">
+            {manifest.buckets.map((bucket) => (
+              <li key={bucket.id}>
+                <label className="graph-toggle">
+                  <input checked={buckets.wanted.includes(bucket.id)} onChange={() => toggleBucket(bucket.id)} type="checkbox" />
+                  <span>{bucket.label}</span>
+                  <span className="graph-bucket-meta">{bucket.statements} statements · {bucket.inferences} steps · {bucket.frontier} frontier</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </details>
+      ) : null}
+
       <p aria-live="polite" className="frontier-view-status">
-        {compact && state.view === "all" ? `${network.components.length} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links. ` : ""}
-        {compact && state.view === "all" && !state.showIsolated ? "Readings without an inference or research link hidden; enable them under More views and filters. " : ""}
+        {buckets.pending ? "Loading graph data… " : ""}
+        {buckets.error ? `Graph data failed to load (${buckets.error}). ` : ""}
+        {compact && state.view === "all" ? `${network.componentCount} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links in the loaded buckets. ` : ""}
+        {compact && state.view === "all" && !state.showIsolated && !hasFilters(state) ? "Singletons (readings without an inference or research link) hidden; show them under More views and filters. " : ""}
         {state.view === "local" ? `Local neighborhood: ${state.hops} ${state.hops === 1 ? "hop" : "hops"} from ${view.anchor}. ` : ""}
         {view.message ? `${view.message} ` : ""}
-        {view.statementCount} of {graph.statements.length} statements ({graph.statements.length - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
+        {view.statementCount} of {manifest.totals.statements} statements ({manifest.totals.statements - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
       </p>
 
@@ -788,6 +870,38 @@ export function PropositionGraphExplorer({
   );
 }
 
+function FacetChips({
+  label,
+  options,
+  selected,
+  counts,
+  toggle,
+}: {
+  label: string;
+  options: ReadonlyArray<{ id: string; label: string; description?: string }>;
+  selected: readonly string[];
+  counts: Record<string, number>;
+  toggle: (value: string) => void;
+}) {
+  return (
+    <fieldset className="graph-chip-row graph-facet">
+      <legend>{label}</legend>
+      {options.map((option) => (
+        <button
+          aria-pressed={selected.includes(option.id)}
+          className="graph-chip"
+          key={option.id}
+          onClick={() => toggle(option.id)}
+          title={option.description}
+          type="button"
+        >
+          {option.label} ({counts[option.id] ?? 0})
+        </button>
+      ))}
+    </fieldset>
+  );
+}
+
 /** Locate by the retained layout position before measurement, so a culled node can mount. */
 function SelectionLocator({ state, compact }: { state: GraphState; compact: boolean }) {
   const position = useStore((store) => store.nodeLookup.get(state.sel)?.position);
@@ -811,7 +925,7 @@ function DetailPanel({
   update,
 }: {
   graph: PropositionGraph;
-  network: NetworkStructure;
+  network: LoadedNetwork;
   index: ReturnType<typeof indexGraph>;
   state: GraphState;
   update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;

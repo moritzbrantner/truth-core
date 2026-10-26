@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 
 import { PropositionGraphExplorer } from "@/components/proposition-graph-explorer";
-import { networkStructure } from "@/lib/graph-network";
 import { getCorpus } from "@/lib/corpus";
+import { getGraphBuckets } from "@/lib/graph-bucket-data";
 import { getFrontierReport } from "@/lib/site-state";
 import { researchFrontier } from "@/lib/research-frontier";
-import { getPropositionGraph } from "@/lib/proposition-graph-data";
 
 export const metadata: Metadata = {
   title: "Epistemic frontier — Truth Core",
@@ -16,7 +15,8 @@ export const metadata: Metadata = {
 
 export default function GraphPage() {
   const corpus = getCorpus();
-  const graph = getPropositionGraph(corpus);
+  // The page ships only the bucket manifest; the graph itself loads in buckets (#491).
+  const { graph, manifest } = getGraphBuckets();
   const obligations = researchFrontier(corpus, graph, getFrontierReport());
   const open = graph.statements.filter((statement) => statement.frontier);
   const established = graph.statements.filter((statement) => statement.established).length;
@@ -36,7 +36,7 @@ export default function GraphPage() {
         </dl>
       </header>
       <Suspense fallback={<p>Loading the proposition graph…</p>}>
-        <PropositionGraphExplorer graph={graph} obligations={obligations} network={networkStructure(graph)} />
+        <PropositionGraphExplorer manifest={manifest} obligations={obligations} />
       </Suspense>
     </div>
   );
