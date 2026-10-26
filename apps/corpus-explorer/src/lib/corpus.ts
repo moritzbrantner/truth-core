@@ -213,6 +213,7 @@ export type CorpusRelation = {
   object_kind: "source" | "statement" | "claim" | "inference" | "argument";
   object_id: string;
   basis?: string;
+  note?: string;
 };
 
 export type CorpusCandidate = {
