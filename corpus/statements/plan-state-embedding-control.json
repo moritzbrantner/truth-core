@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PLAN-STATE-EMBEDDING-CONTROL",
+  "paraphrase": "In the stipulated descriptive/permission-plan semantics, ideal acceptance preserves modus ponens for all formulas and states; a nonempty state with an eligible action accepts distinct forbidden-action atoms p and q and their conditional, and another nonempty state with an eligible action accepts q and if p then q but not p. This is an analyst semantic control, not an attribution to Blackburn/Gibbard or a resolution of historical expressivism.",
+  "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.PlanStateEmbeddingControl",
+  "definition_ids": [
+    "DEF-PLAN-STATE-POINT",
+    "DEF-PLAN-STATE-SENTENCE",
+    "DEF-PLAN-STATE-SUPPORT",
+    "DEF-PLAN-STATE-ACCEPTANCE",
+    "DEF-PLAN-STATE-EMBEDDING-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT"
+  ]
+}
