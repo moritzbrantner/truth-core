@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+  "term": "intellect not itself a body versus non-organic exercise",
+  "sense_definition_ids": [
+    "DEF-Q75-INTELLECT-NOT-BODY",
+    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+  ],
+  "resolution": "Q.75 a.2 makes two separate subconclusions. IntellectIsNotBody negates the body predicate of the designated intellectual principle. IntellectUsesNoBodilyOrgan denies a body related to that principle by instrumental exercise. The latter requires the separately stated organ-interference premise; it is not inferred from the former or from the old NaturalBodilyInterference constraint. The finite organInterferenceOmission theorem explicitly realizes non-bodyhood and the old interference constraint with a bodily instrument. Neither sense denies object-side bodily dependence or identifies human knowing with the highest divine immateriality."
+}
