@@ -1,0 +1,53 @@
+{
+  "id": "MODEL-PSR-WORLDWISE-ALTERNATING",
+  "description": "Two universal-accessibility worlds, one rigid necessary bearer and world-indexed circumstance reasons: existence-PSR holds but no rigid explanation token works in both worlds. The reasons' adequacy is stipulated, not independently defended.",
+  "vocabulary": "EXISTENCE-PSR",
+  "lean_declaration": "TruthCore.Modal.WorldwiseExplanation.alternating",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Bool",
+    "Model": "TruthCore.Modal.WorldwiseExplanation.alternating",
+    "Ontic": "TruthCore.Modal.WorldwiseExplanation.alternating.ontic",
+    "world": "false",
+    "individual": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": ["false", "true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": ["false", "true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Modal.WorldwiseExplanation.alternatingSound"
+    },
+    {
+      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Modal.WorldwiseExplanation.alternatingPSR"
+    },
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic", "world"],
+      "theorem": "TruthCore.Modal.WorldwiseExplanation.alternatingNecessary"
+    },
+    {
+      "statement_id": "STMT-MODAL-EXPLANATION-STABLE",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "individual"],
+      "theorem": "TruthCore.Modal.WorldwiseExplanation.alternatingNotStable"
+    }
+  ],
+  "modules": ["TruthCore.Modal.WorldwiseExplanation"]
+}

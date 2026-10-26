@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACTUALITY-WITHOUT-BEING-ELIMINATION-REDUCES-TO-PREMISE",
+  "rule": "countermodel",
+  "meaning": "Unfolding the two definitions: a witness of the rival (x in act in r, not in act in esse) contradicts the premise at x and r; the rival fails iff no such witness exists, i.e. iff InAct x r excludes not-InAct x esse. The registered omission model M2 (a actually hot, not in act in esse) satisfies the rival together with sensible motion, the regress premise and the other seven act/potency premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

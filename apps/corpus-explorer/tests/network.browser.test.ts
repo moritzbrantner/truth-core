@@ -32,7 +32,8 @@ for (const mobile of [false, true]) {
     await page.locator(".network-marker").first().waitFor();
     await shell.scrollIntoViewIfNeeded();
     const mounted = await page.locator(".network-marker").count();
-    expect(mounted).toBeGreaterThan(1000);
+    // The overview loads the root bucket only (#491); other buckets load on demand.
+    expect(mounted).toBeGreaterThan(100);
     const corpus = getPropositionGraph();
     expect(mounted).toBeLessThanOrEqual(corpus.statements.length + corpus.inferences.length);
     const initialMs = Math.round(performance.now() - start);
@@ -139,6 +140,8 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   await page.getByRole("button", { name: "Frontier highlighted" }).click();
   await page.waitForURL((url) => url.searchParams.get("emphasis") === "all");
   await page.reload();
+  // Graph data loads asynchronously in buckets (#491).
+  await page.locator(".network-marker[data-frontier='true']").first().waitFor();
   expect(await page.getByRole("button", { name: "Show all equally" }).getAttribute("aria-pressed")).toBe("false");
   expect(await page.locator(".network-marker[data-frontier='true']").count()).toBe(count);
   await page.goto(new URL(`${basePath}/?q=no-statement-has-this-query`, server.url).toString());

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-POPULATED-WORLD",
+  "term": "populated model world",
+  "definition": "The selected world contains at least one actually existing individual according to the model's ExistsAt predicate. An inhabited candidate type does not itself imply population at any world.",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.PopulatedAt",
+  "basis": "stipulative",
+  "note": "Necessary to avoid vacuous universal-PSR and external-causation claims on empty-world configurations."
+}

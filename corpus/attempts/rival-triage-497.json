@@ -1,0 +1,30 @@
+{
+  "id": "ATTEMPT-RIVAL-TRIAGE-497",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT",
+    "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+    "STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-POTENCY-PRIOR-TO-ACT",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-ELEATIC-NOTHING-IS-MOVED",
+    "STMT-CHANGE-UNREAL-BUT-APPEARS",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-CHANGE-WITHOUT-ANY-MOVER",
+    "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Triage of the six remaining #497 premises after the method change following #498: is each recorded rival the bare contradictory of its premise in the shared Lean vocabulary, or a theory with commitments of its own? Checked by unfolding the definitions (a local Lean check proved rival ↔ ¬premise classically for each bare case; not committed). Bare contradictories: STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT, STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE, STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED (the inner ∃ r' pulled out), STMT-POTENCY-PRIOR-TO-ACT, STMT-ELEATIC-NOTHING-IS-MOVED, STMT-CHANGE-WITHOUT-ANY-MOVER. Not bare: STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER is ¬premise restricted to uniform-local-motion respects (it entails STMT-CHANGE-WITHOUT-ANY-MOVER; its only extra content is the respect predicate); STMT-CHANGE-UNREAL-BUT-APPEARS is ¬premise plus 'there are judgings'. Strongest sourced rival theory per premise: (1) NOTHING-MOVES-EXCEPT-AS-IN-ACT: emergentism (Broad 1925, candidate BROAD-MIND-AND-ITS-PLACE-CH2, copyrighted, #378) and Scotus' virtual act (candidate SCOTUS-QQ-METAPH-IX-Q14); no pinned witness; on the virtual reading of DISAMB-IN-ACT both dissolve rather than rival. (2) PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK: occasionalism (Malebranche VI.ii.3, al-Ghazali discussion 17: candidates MALEBRANCHE-RECHERCHE-VI-II-3, GHAZALI-TAHAFUT-17, unpinned); Hume's report of it in the pinned HUME-ENQUIRY-VII (§§21-25) is a second-hand witness only; a bundle (God alone causes; creatures are occasions; general volitions) would face SCG III.69, also unpinned. (3) SECOND-MOVERS-MOVE-ONLY-AS-MOVED: no rival theory; the rival is a counterexample to the strong reading (a mover moved in an irrelevant respect), handled by the weaker sibling reading and candidate AQUINAS-ST-I-Q2-A3-REFUTE-IRRELEVANT-RESPECT-OBJECTION; not a common_ground candidate while the strong reading has a plausible counterexample. (4) ACT-SIMPLY-PRIOR-TO-POTENCY: the Met. XII.6 1071b22-28 position (pinned ARIST-MET-XII-6, claim ARIST-MET-1071B-POTENCY-PRIOR-A): 'everything that acts is able, but not everything able acts', with the theologians' generation from Night; it can be a bundle with its own commitments (acting implies ability; some ability does not act), the best next bundle with a pinned witness. (5) SOMETHING-IS-MOVED-IN-THIS-WORLD: McTaggart 1908 (pinned); eliminated as a bundle in ATTEMPT-MCTAGGART-BUNDLE-ELIMINATION. (6) NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER: Newton's Lex I (pinned, NEWTON-PRINCIPIA-LEX-I-A) is only a conditional about change of state and asserts no force-free body, so it is not by itself a rival; the inertial rival needs two unsourced steps (a force-free moving body; uniform motion is a being moved); quantum indeterminism (Born 1926) waits for #378.",
+  "evidence": [
+    "ARIST-MET-1071B-POTENCY-PRIOR-A",
+    "NEWTON-PRINCIPIA-LEX-I-A",
+    "MCTAGGART-1908-TIME-UNREAL-A",
+    "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+    "MCTAGGART-UNREALITY-OF-TIME-REFUTED"
+  ]
+}

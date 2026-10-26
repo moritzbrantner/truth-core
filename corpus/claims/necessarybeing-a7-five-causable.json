@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-A7-FIVE-CAUSEABLE",
+  "statement_id": "STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7c, step 1",
+  "interpretation": "The conclusion page treats possible causation of a situation with at least five contingent things as something the respondent reported. The source does not independently establish it, and the Lean predicate deliberately leaves cause and metaphysical possibility uninterpreted.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
+  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+}

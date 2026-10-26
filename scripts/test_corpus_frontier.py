@@ -166,6 +166,21 @@ class FrontierReportTest(unittest.TestCase):
         self.assertIsNone(items["SIDE"]["path_to_root"])
         self.assertEqual(items["SIDE"]["transitive_dependent_arguments"], ["ARG-ROOT-2", "ARG-SIDE"])
         self.assertEqual(items["OPEN-B"]["path_to_root"], ["OPEN-B", "ARG-ROOT", "ROOT"])
+        self.assertNotIn("SIDE", report["reaching_root_statements"])
+
+    def test_reaching_root_statements_match_item_paths(self) -> None:
+        # The explorer's root-reachability filter (#491) reads this list; it must
+        # agree with `path_to_root` for every open premise, routed or not.
+        arguments = [*ARGUMENTS, argument("ARG-ROOT-2", ["SIDE"], "ROOT")]
+        for relations in ([], [relation("argument", "ARG-ROOT", "root_route", "ROOT")]):
+            report = corpus.frontier_report(STATEMENTS, arguments, RESULTS, relations, root="ROOT")
+            reaching = set(report["reaching_root_statements"])
+            for item in report["items"]:
+                self.assertEqual(item["path_to_root"] is not None, item["statement_id"] in reaching)
+        self.assertEqual(
+            self.report()["reaching_root_statements"], ["MID", "OPEN-A", "OPEN-B", "ROOT", "SELF"]
+        )
+        self.assertEqual(self.report(root="ABSENT")["reaching_root_statements"], [])
 
     def test_shared_parity_fixture(self) -> None:
         # Same fixture as apps/corpus-explorer/src/lib/proposition-graph.test.ts.
@@ -595,13 +610,15 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual(depths["STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"], "bare")
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
-        # #367: a finite-ancestry route now expands efficient-cause regress
-        # into three explicitly bare premises. The source claim remains, but
-        # this conditional derivation does not establish those new premises or
-        # turn their relocation into sourced philosophical progress.
+        # #367: the finite-ancestry route expanded efficient-cause regress
+        # into three bare premises. The finite-branching bridge now further
+        # expands ancestry into two explicit, still-open hypotheses. This
+        # refines the argument without establishing its metaphysical premises.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES", depths)
+        self.assertNotIn("STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", depths)
         for premise in (
-            "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+            "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+            "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
             "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
             "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
         ):

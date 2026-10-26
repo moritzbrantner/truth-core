@@ -1,0 +1,9 @@
+{
+  "id": "NECESSARYBEING-SURVEY-ARGUMENT-FAMILIES",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "Instructions, definition of necessary being, and interactive numbered routes A1–A10 including A1c/A1c2 variants (individual HTML page paths recorded in docs/necessarybeing-survey-inventory.md)",
+  "priority": 780,
+  "goal": "Complete matching Wayback fallbacks for A1c2/A7c where possible; run the first A7 finite-count result through Lean, bind-check and Comparator. Then give A1 external versus self/parts causation a typed model, explicit inference records and independent Challenge/Solution/Comparator proof, without inventing a whole/part closure axiom. Continue A2–A10 in numbered source order, pinning each remaining page before claim extraction and reusing S5 and existing ontic/causal vocabulary; keep A10 defeasible. The inventory and first ten registered claims are in docs/necessarybeing-survey-inventory.md. Issue #492 tracks the campaign.",
+  "reason": "2026-10-26 site playthrough reached all ten conclusion families and the A1 external-cause variant. Four initial pages were byte-stable, hash-pinned, materialized and inspected locally; definition and A1c have matching Wayback captures, A1c2/A7c no archived fallback. Ten claims now record definition, A1 and A7 readings separately, and A7 steps 1–3 have conditional Lean source and result records pending independent verification. No root premise was discharged; later families need witnesses and source-fidelity review.",
+  "status": "candidate"
+}

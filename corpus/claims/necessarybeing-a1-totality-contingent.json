@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-A1-TOTALITY-CONTINGENT",
+  "statement_id": "STMT-NB-A1-CONTINGENT-TOTALITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A1c, steps 1–2",
+  "interpretation": "The sum total C is a defined object, whereas its contingency is explicitly credited to 'your report'. That closure claim is not deduced from the contingency of each member. The alternative A1c2 route repeats it, but this record is tied to A1c.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-TOTALITY", "DEF-NB-SURVEY-CAUSE-RELATUM"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+}

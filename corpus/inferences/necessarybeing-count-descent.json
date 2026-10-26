@@ -1,0 +1,9 @@
+{
+  "id": "INF-NB-SURVEY-FIVE-TO-ONE",
+  "input_statement_ids": ["STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE", "STMT-NB-COUNT-CAUSABILITY-DESCENT"],
+  "output_statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
+  "rule": "finite-instantiation-of-universal-transfer",
+  "meaning": "Apply the explicitly assumed universally quantified n-to-(n-1) transfer at n = 5, 4, 3 and 2. This proves A7c step 3 conditional on reported steps 1 and 2; it does not prove the transfer principle, the causal-priority claims in steps 4–6, or necessary existence in step 7.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

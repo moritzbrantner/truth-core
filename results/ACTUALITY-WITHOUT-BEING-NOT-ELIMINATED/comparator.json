@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Challenge", "solution_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Solution", "theorem_names": ["TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.eliminationReducesToPremise"], "permitted_axioms": [], "enable_nanoda": true}

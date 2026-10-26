@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+  "term": "finite immediate causal predecessors",
+  "definition": "For every node x, the set of direct predecessors y such that cause y x is finite. This does not constrain the overall graph, the number of transitive ancestors, or an actual temporal history.",
+  "lean_declaration": "TruthCore.Causality.FiniteBranching.FiniteImmediatePredecessors",
+  "basis": "stipulative",
+  "note": "Analyst premise for the finite-branching bridge. The cause relation points from a predecessor to its dependent; the hypothesis must be defended for any intended ontology."
+}

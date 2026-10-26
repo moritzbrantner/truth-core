@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE",
+  "paraphrase": "McTaggart: all change is change of A-series determinations; if anything changes (in the general sense, thoughts included), some event changes in its A-series determinations.",
+  "lean_declaration": "TruthCore.Alternatives.McTaggart.AllChangeIsASeriesChangeReading",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL",
+    "DEF-A-SERIES-CHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

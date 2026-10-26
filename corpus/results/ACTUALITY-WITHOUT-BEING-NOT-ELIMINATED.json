@@ -1,0 +1,10 @@
+{
+  "id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "argument_id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "challenge_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.eliminationReducesToPremise",
+  "comparator_config": "results/ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED/comparator.json",
+  "status": "solution-present",
+  "description": "Formal fact with no premises, not a transcription: the rival and the premise are contradictories (up to double negation), and a finite model satisfies the rival with the other seven act/potency premises, sensible motion and the regress premise. It records a failed elimination; it closes no premise and refutes no rival."
+}
