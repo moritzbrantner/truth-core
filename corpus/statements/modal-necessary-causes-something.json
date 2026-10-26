@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MODAL-NECESSARY-CAUSES-SOMETHING",
+  "lean_declaration": "TruthCore.Modal.NecessaryVariableEffects.NecessarilyCausesSomething",
+  "paraphrase": "At every world accessible from the selected standpoint, the selected source causes at least one effect, which may differ from world to world. The existential effect quantifier is inside the world quantifier.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

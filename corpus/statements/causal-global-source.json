@@ -1,0 +1,7 @@
+{
+  "id": "STMT-CAUSAL-GLOBAL-SOURCE",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.HasGlobalSource",
+  "paraphrase": "The entire causal carrier includes a node with no incoming causal predecessor anywhere in the full relation.",
+  "definition_ids": ["DEF-CAUSAL-GLOBAL-SOURCE"],
+  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+}

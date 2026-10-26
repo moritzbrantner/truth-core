@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MODAL-SAME-NECESSARY-EFFECT",
+  "lean_declaration": "TruthCore.Modal.NecessaryVariableEffects.SameNecessaryEffect",
+  "paraphrase": "One rigid particular effect is caused by the selected source at every accessible world. Unlike causing some effect in every world, this places the existential effect quantifier outside the world quantifier.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

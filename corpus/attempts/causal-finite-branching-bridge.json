@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-CAUSAL-FINITE-BRANCHING-BRIDGE",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+    "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Mathlib finite union plus accessibility induction proves finite distinct ancestry from well-foundedness and finite immediate causal fan-in; separate Lean witnesses refute either assumption's sufficiency in isolation. A prior #367 result supplies the converse with cycle-exclusion under finite fan-in. The result does not justify the premises in physical, per se, temporal, or modal applications. See docs/causal-finite-branching-and-psr-syllogisms.md.",
+  "evidence": ["CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY", "PR-481"]
+}

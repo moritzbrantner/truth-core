@@ -1,0 +1,7 @@
+{
+  "id": "STMT-PSR-POPULATED-AT",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.PopulatedAt",
+  "paraphrase": "At least one individual actually exists at the selected model world.",
+  "definition_ids": ["DEF-PSR-POPULATED-WORLD"],
+  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+}

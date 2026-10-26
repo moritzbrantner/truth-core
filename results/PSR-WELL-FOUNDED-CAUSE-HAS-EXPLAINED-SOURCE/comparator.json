@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.WellFoundedSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WellFoundedSource.Solution",
+  "theorem_names": ["TruthCore.Results.Explanation.WellFoundedSource.checks"],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}
