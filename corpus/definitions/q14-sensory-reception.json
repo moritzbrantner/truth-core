@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q14-SENSORY-RECEPTION",
+  "term": "without-matter sensory receptivity",
+  "definition": "WithoutMatterCapacity m x means x can have a form of another thing in the withoutMatter mode. Sensory is a primitive capacity predicate constrained by SenseReceptivityReading. The mode distinguishes the source's reception without matter, without identifying it with intellectual separation or the component-free immateriality used of God.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q14-A1-SENSE-WITHOUT-MATTER"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FormReception.WithoutMatterCapacity"
+}

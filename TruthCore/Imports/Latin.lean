@@ -8,6 +8,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3Nature
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question14.Article1
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation

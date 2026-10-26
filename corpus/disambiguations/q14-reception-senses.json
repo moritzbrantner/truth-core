@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-Q14-RECEPTION-SENSES",
+  "term": "cognitive reception and knowing",
+  "sense_definition_ids": [
+    "DEF-Q14-FORM-CAPACITY",
+    "DEF-Q14-SENSORY-RECEPTION",
+    "DEF-Q14-INFORMATION-ACQUISITION",
+    "DEF-HAS-INTELLECT"
+  ],
+  "resolution": "The q.14 local interface represents aptitude for another's form; it does not assert an actual input event. Sense has without-matter reception already, so this capacity is not the intellectual grade of DEF-HAS-INTELLECT. The old divine HasIntellect remains primitive; God is not represented as passively acquiring creaturely information. q.14 a.1 ad 1\u20133 removes created habit, potency and multiplicity from divine predication. The q.75 human cognitive-scope relation is not silently identified with either divine knowledge or this reception interface. No equivalence to operational, functional or computational knowing is asserted."
+}

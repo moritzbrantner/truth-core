@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q14-A1-SENSE-WITHOUT-MATTER",
+  "statement_id": "STMT-Q14-SENSE-WITHOUT-MATTER",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.14 a.1 co.: Sensus autem cognoscitivus est, quia receptivus est specierum sine materia",
+  "interpretation": "The source gives without-matter reception to sense before distinguishing intellect's greater separation from matter. The formal statement retains sensory receptivity and leaves intellectual aptitude separate; it supplies no identification of immateriality with intellectual power.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q14-FORM-CAPACITY",
+    "DEF-Q14-SENSORY-RECEPTION",
+    "DEF-HAS-INTELLECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q14-RECEPTION-SENSES"
+  ]
+}
