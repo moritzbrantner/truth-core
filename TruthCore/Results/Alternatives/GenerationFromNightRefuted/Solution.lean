@@ -9,8 +9,8 @@ open TruthCore.Comparison.NightCosmogony
 /-- Elimination of the Night cosmogony's bundle (#497), given three open
 premises. If whatever is moved in a respect is moved by something in act in it
 (*Met.* XII.6, 1071b28-29; IX.8, 1049b24-26; ST I q.3 a.1), nothing moved in a
-respect moves itself in it (*Met.* XII.6, 1071b29-31: "matter will not move
-itself"; ST I q.2 a.3), and an actual mover of another's potency is simply prior
+respect moves itself in it (ST I q.2 a.3; Aristotle's "matter will not move
+itself", *Met.* XII.6, 1071b29-31, says it only of matter), and an actual mover of another's potency is simply prior
 to it (open bridge), then no potency that no being in act simply precedes is
 actualized. The premise it rivals, `ActSimplyPriorToPotencyReading`, is not
 used. -/
