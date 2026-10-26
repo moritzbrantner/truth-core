@@ -9,8 +9,8 @@ open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchRea
 
 /-- Connect the existing First/Fourth Way and full-description naming results
 to all nine Stage2 attribute proofs at the same witness. The original
-GodIsMaximalInBeing premise remains necessary for the global uniqueness
-attribute; no converse of the nominal definition is inferred. Philosophical
+GodIsMaximalInBeing premise is still used here for the global uniqueness
+attribute (the alternative CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE does without it); no converse of the nominal definition is inferred. Philosophical
 source premises and ClassicalAttributesSuffice remain open. -/
 theorem uniqueClassicalGodExists (σ : Signature) {Respect : Type} {Principle : Type}
     (MovedIn : σ.Being → Respect → Prop)
@@ -106,7 +106,7 @@ theorem uniqueClassicalGodExists (σ : Signature) {Respect : Type} {Principle : 
     essenceOf esseOf InAct MoreIn CausesIn esse hIdentity hUniting hCauseMore hKinds hNoComponent
     hFirstBeing hImmaterial hWillFollows f hfMax
   -- Only the ninth attribute uses the original universal naming premise.
-  -- Uniqueness of maxima alone would not exclude another nonmaximal IsGod.
+  -- Uniqueness of maxima is not used to exclude another nonmaximal IsGod.
   have hOne := TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.godIsOne
     σ.IsGod InAct MoreIn CausesIn esse hMaximal hGenus hCauseMore hEM f hfGod
   exact ⟨f, hfGod, hOne, hSuffice f hSimple hPerfect hGood hOne hInfinite hImmutable hEternal

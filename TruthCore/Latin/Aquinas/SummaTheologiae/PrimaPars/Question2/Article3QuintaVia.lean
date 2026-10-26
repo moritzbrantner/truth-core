@@ -36,8 +36,8 @@ namespace TruthCore.Latin.Aquinas.SummaTheologiae
 universe u v w
 
 /-- Natural bodies lack cognition (*aliqua quae cognitione carent, scilicet corpora
-naturalia*). The *scilicet* identifies the things lacking cognition with natural
-bodies; animals, which have sense cognition, are not natural bodies in this sense.
+naturalia*). The *scilicet* names natural bodies as things lacking cognition; only "every
+natural body lacks cognition" is formalized, not the converse; animals, which have sense cognition, are not natural bodies in this sense.
 
 Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co., fifth way.
 -/

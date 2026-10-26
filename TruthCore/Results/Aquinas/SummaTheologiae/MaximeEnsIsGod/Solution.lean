@@ -36,8 +36,8 @@ theorem maximeEnsIsGod {Being : Type} {Respect : Type}
 /-- The nominal definition is needed. One being, maximal in being and causing
 nothing (there is nothing else); no being is called God. The genus principle,
 *Metaphysics* II.1 and excluded middle for identity hold, but the maximum in being
-is not God. Nothing but the definition ties the name to the *quarta via*'s
-conclusion. -/
+is not God. Without the definition, the tested premises do not tie the name to the
+*quarta via*'s conclusion. -/
 theorem withoutNominalDefinitionNotGod :
     ¬ ∀ (Being Respect : Type)
       (InAct : Being → Respect → Prop)

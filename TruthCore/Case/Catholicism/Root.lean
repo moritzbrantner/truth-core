@@ -258,8 +258,9 @@ def ChristsChurchIsGodFoundedTeachingAuthority (σ : Signature) : Prop :=
     σ.FoundedAsTeachingAuthority g c
 
 /-- Bridge: whatever a society founded as a teaching authority by a God with
-the classical attributes (among them that he can neither deceive nor be
-deceived) definitively proposes as divinely revealed is true. -/
+the classical attributes definitively proposes as divinely revealed is true. Divine veracity (*Dei Filius* ch. 3: he
+can neither deceive nor be deceived) is not among the nine attributes of
+`ClassicalAttributesSuffice` and is not encoded in `HasClassicalAttributes`. -/
 def BridgeGodFoundedAuthorityProposesOnlyTruth (σ : Signature) : Prop :=
   ∀ g c, σ.IsGod g → σ.HasClassicalAttributes g →
     σ.FoundedAsTeachingAuthority g c →
