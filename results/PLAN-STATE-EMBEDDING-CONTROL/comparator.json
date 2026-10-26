@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.planStateEmbeddingControl"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

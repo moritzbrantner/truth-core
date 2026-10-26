@@ -1,0 +1,11 @@
+{
+  "id": "DEF-PROCLUS-RECEIVED-UNITY",
+  "term": "one",
+  "definition": "Received unity in the proposition-2 projection is Exemplifies x unity for the designated unity quality. Participates x one remains a separate relation; neither the vocabulary nor this definition makes unity follow from it.",
+  "basis": "stipulative",
+  "note": "A minimal predicative projection of Taylor proposition 2, not a definition of every Proclean sense of unity. The source claim supplies the attribution; source evidence for a fuller account of the received determination or its production remains needed.",
+  "claim_ids": [
+    "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST"
+  ],
+  "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
+}

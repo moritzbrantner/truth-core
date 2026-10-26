@@ -1,0 +1,19 @@
+{
+  "id": "PLAN-STATE-EMBEDDING-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PLAN-STATE-EMBEDDING-CONTROL",
+  "inference_ids": [
+    "INF-PLAN-STATE-EMBEDDING-CONTROL"
+  ],
+  "meaning": "Structural evaluation of a conditional at each compatible point derives acceptance of q from acceptance of p and conditional p q. Explicit singleton states with distinct three-constructor actions witness nonvacuity and failure of affirming the consequent. The semantics is stipulated, no primitive ValidMP is assumed, and no psychological adequacy or historical attribution is established. No original rival or answer map is removed or upgraded; no root-path obligation is discharged.",
+  "definition_ids": [
+    "DEF-PLAN-STATE-POINT",
+    "DEF-PLAN-STATE-SENTENCE",
+    "DEF-PLAN-STATE-SUPPORT",
+    "DEF-PLAN-STATE-ACCEPTANCE",
+    "DEF-PLAN-STATE-EMBEDDING-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT"
+  ]
+}

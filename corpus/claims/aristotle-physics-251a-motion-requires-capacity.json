@@ -1,0 +1,17 @@
+{
+  "id": "ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.1, 251a8-16",
+  "statement_id": "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
+  "interpretation": "Respect-indexed capacity reading: whatever undergoes physical motion is capable of that particular motion, as what alters is alterable and what changes place is locally changeable. InPotency represents this capacity toward the terminus, not an assertion that capacity was present at an earlier time. The reading isolates the capacity requirement; the actuality definition and the subsequent temporal priority of combustible and burner are not encoded. No converse and no extension to every nonphysical reduction from potency to act is attributed to this passage.",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ],
+  "status": "formalized"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF",
+  "paraphrase": "Every participant in the designated One exemplifies the designated unity quality and is numerically different from that One. This bounded identity/predication reading does not express a contradiction in one sense or the full content of being non-one of itself.",
+  "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast",
+  "definition_ids": [
+    "DEF-PLATONIC-ENTITY",
+    "DEF-PROCLUS-ONE-ITSELF",
+    "DEF-PROCLUS-RECEIVED-UNITY",
+    "DEF-PROCLUS-UNITY-PARTICIPATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PROCLUS-ONE",
+    "DISAMB-PROCLUS-UNITY-PARTICIPATION"
+  ],
+  "note": "An attributed source commitment, not a proved result. See docs/proclus-unity.md for the complete source-range reading, rejected reconstructions and remaining proof obligations. No One/Form identity, essential-quality inventory, causal mechanism or frontier discharge follows."
+}

@@ -337,7 +337,9 @@ export function computeGraphView(
   }
 
   // Explicit expansions are in-place, bounded one-hop additions. Sets retain shared identity and cycles.
-  if (state.view !== "all") {
+  // Local neighborhoods must be bounded by their requested depth, even when
+  // the URL retains expansions from an earlier research-queue or focus view.
+  if (state.view !== "all" && state.view !== "local") {
     const selectedStatements = new Set(selection.statements);
     const selectedInferences = new Set(selection.inferences);
     for (const id of state.expanded) {

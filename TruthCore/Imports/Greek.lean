@@ -63,6 +63,7 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+import TruthCore.Greek.Aristotle.Physics.Typed.Capacity
 import TruthCore.Greek.Aristotle.Physics.Typed.CosmicChange
 import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 import TruthCore.Greek.Clement.FirstCorinthians
@@ -75,3 +76,4 @@ import TruthCore.Greek.Plato.Theaetetus
 import TruthCore.Greek.Plato.ThirdMan
 import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
+import TruthCore.Greek.Proclus.ElementsTheology

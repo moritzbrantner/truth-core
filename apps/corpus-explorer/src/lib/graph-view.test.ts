@@ -58,6 +58,9 @@ describe("graph views", () => {
     const center = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 0 }));
     expect(ids(center, "statement")).toEqual(["ALT"]);
     expect(center.edges).toEqual([]);
+    const previouslyExpanded = computeGraphView(graph, state({ view: "local", node: "ALT", hops: 0, expanded: ["P1"] }));
+    expect(ids(previouslyExpanded, "statement")).toEqual(["ALT"]);
+    expect(ids(previouslyExpanded, "inference")).toEqual([]);
   });
 
   test("local graph allows cycles without merging propositions or changing closure", () => {
