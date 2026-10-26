@@ -200,7 +200,8 @@ for (const mobile of [false, true]) {
       expect(await peer.locator('.network-marker[data-hover-neighbor="true"]').count()).toBe(1);
     }
     await depth.selectOption("2");
-    await page.waitForURL((location) => location.searchParams.get("hops") === "2");
+    // The serializer omits the default two-hop depth from shareable URLs.
+    await page.waitForURL((location) => !location.searchParams.has("hops"));
     if (screenshots) { await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-local.png` }); }
     await page.reload();
     expect(await page.getByLabel("Neighborhood depth").inputValue()).toBe("2");
