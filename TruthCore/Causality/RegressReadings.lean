@@ -13,7 +13,10 @@ each of which causes as caused by the next.
 
 This module states that literal reading separately, as the absence of an
 `ℕ`-indexed series whose every member is per se caused by its successor, and
-records how the two readings are related. It is an analyst's fidelity check on
+records how the two readings are related. Accessibility is a well-founded
+inductive certificate, not a bound on depth: a being with infinitely many
+immediate causes can be accessible although descending chains below it have
+every finite length (`AccessibilityAllowsUnboundedDepth`). It is an analyst's fidelity check on
 the existing formalization (AGENTS.md invariant 8), not a source claim and not
 a proof of the premise: neither reading is shown true of any actual
 `CausesAsCaused`.
@@ -56,5 +59,20 @@ def RegressReadingsCoincideClassically : Prop :=
   ∀ (Being : Type) (CausesAsCaused : Being → Being → Prop),
     NoInfinitePerSeEfficientCauseSeriesReading CausesAsCaused ↔
       NoInfiniteDescendingPerSeSeries CausesAsCaused
+
+/-- `series` descends per se from `top` for `length` steps: it starts at `top`
+and each of its first `length` members is caused as cause by the next. -/
+def DescendingPerSeChain {Being : Type} (CausesAsCaused : Being → Being → Prop)
+    (top : Being) (length : Nat) (series : Nat → Being) : Prop :=
+  series 0 = top ∧ ∀ i, i < length → CausesAsCaused (series (i + 1)) (series i)
+
+/-- Accessibility does not bound depth: some relation makes every being
+accessible, yet one being has descending per se chains of every finite length
+below it. So the accessibility reading forbids infinite descent, not
+arbitrarily long finite descent. -/
+def AccessibilityAllowsUnboundedDepth : Prop :=
+  ∃ CausesAsCaused : Option Nat → Option Nat → Prop,
+    NoInfinitePerSeEfficientCauseSeriesReading CausesAsCaused ∧
+      ∀ length, ∃ series, DescendingPerSeChain CausesAsCaused none length series
 
 end TruthCore.Causality

@@ -1,6 +1,6 @@
 {
   "id": "STMT-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
-  "paraphrase": "Three deadline-ordered Reapers admit an assignment obeying the same firing rule. (The proof's witness has index 2, the earliest deadline, act and the other two not; the type does not state which assignment.)",
+  "paraphrase": "Three deadline-ordered Reapers admit an assignment obeying the same firing rule. The rule forces which one: index 2 (the earliest deadline) has no earlier Reaper, so it acts, and then indices 1 and 0 do not. The proof's witness is that assignment.",
   "lean_declaration": "TruthCore.Causality.ConsistentFiniteThreeReapers",
   "definition_ids": [
     "DEF-GRIM-REAPER-ACTION-RULE"

@@ -6,8 +6,11 @@ import TruthCore.German.Kant.CosmologicalInference
 
 `FINITE-GROUNDING-HAS-SOURCE` shows that inductively grounded power
 (`FinitelyGroundedPower`) always reaches an intrinsic source by a finite path.
-That is not yet the Second Way premise, which says every being is accessible
-under the per se link (`NoInfinitePerSeEfficientCauseSeriesReading`). This
+That is a finite path to *some* source, not a bound on every chain. It is not
+yet the Second Way premise, which says every being is accessible under the per
+se link (`NoInfinitePerSeEfficientCauseSeriesReading`): a well-founded
+condition on *all* descending chains, which excludes infinite ones but does not
+bound the length of finite ones (`AccessibilityAllowsUnboundedDepth`). This
 module states, as analyst's conditionals, exactly which further structure
 closes the gap, and a countermodel showing that grounding alone does not.
 

@@ -208,6 +208,11 @@ relate them for every relation:
   converse holds too, so in classical logic the formalization is not stronger
   than the literal reading. The converse builds an infinite series from an
   inaccessible being by choice; it is not available constructively.
+- `REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH` (axiom-free): accessibility
+  is well-foundedness, not finite depth. On the naturals with a top that every
+  natural links to, every being is accessible, yet chains below the top have
+  every finite length. Neither reading bounds how long a finite per se series
+  may be.
 
 These are fidelity checks on the formalization, not progress on the premise:
 neither reading is shown true of any actual `CausesAsCaused`, and the

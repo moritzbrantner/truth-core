@@ -1,0 +1,9 @@
+{
+  "id": "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "argument_id": "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "challenge_module": "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution",
+  "theorem": "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.accessibilityAllowsUnboundedDepth",
+  "comparator_config": "results/REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH/comparator.json",
+  "status": "solution-present"
+}

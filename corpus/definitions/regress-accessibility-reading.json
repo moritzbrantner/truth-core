@@ -1,8 +1,8 @@
 {
   "id": "DEF-REGRESS-ACCESSIBILITY-READING",
   "term": "no infinite regress, accessibility (well-foundedness) reading",
-  "definition": "`NoInfinitePerSeEfficientCauseSeriesReading R`: every being is accessible under R (`∀ x, Acc R x`), i.e. R is well-founded in Lean core's sense. A being is accessible when every being that R-relates to it is accessible, so each being has an inductive (finite-depth) certificate built from its per se causes.",
+  "definition": "`NoInfinitePerSeEfficientCauseSeriesReading R`: every being is accessible under R (`∀ x, Acc R x`), i.e. R is well-founded in Lean core's sense. A being is accessible when every being that R-relates to it is accessible, so each being has a well-founded inductive certificate built from its per se causes. The certificate is well-founded, not of bounded finite depth: where a being has infinitely many immediate causes, every descending chain from it is finite yet the chains can be arbitrarily long (REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH).",
   "basis": "stipulative",
-  "note": "This is the formal reading the corpus already gives the Second Way premise (DEF-PER-SE-EFFICIENT-CAUSE-LINK); this record names that reading so it can be distinguished from the literal no-infinite-series reading. Sourcing it would mean a claim that 'procedere in infinitum' denies an inductive grounding certificate rather than only an infinite enumeration.",
+  "note": "This is the formal reading the corpus already gives the Second Way premise (DEF-PER-SE-EFFICIENT-CAUSE-LINK); this record names that reading so it can be distinguished from the literal no-infinite-series reading. Sourcing it would mean a claim that 'procedere in infinitum' denies a well-founded inductive grounding certificate rather than only an infinite enumeration.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeEfficientCauseSeriesReading"
 }
