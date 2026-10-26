@@ -70,6 +70,18 @@ test("global frontier suppresses disconnected readings without dropping premises
   expect(parseGraphState(new URLSearchParams(serializeGraphState(state)))).toEqual(state);
 });
 
+test("selected and expanded disconnected readings remain visible in the global frontier", () => {
+  const selection = { ...DEFAULT_STATE, sel: "LONE", expanded: ["LONE"] };
+  const restored = parseGraphState(new URLSearchParams(serializeGraphState(selection)));
+  expect(restored).toEqual(selection);
+  expect(computeGraphView(graph, DEFAULT_STATE).nodes.some((node) => node.id === "LONE")).toBe(false);
+  const view = computeGraphView(graph, restored);
+  expect(view.nodes.some((node) => node.id === "LONE")).toBe(true);
+  expect(view.edges).toEqual(computeGraphView(graph, DEFAULT_STATE).edges);
+  const filtered = computeGraphView(graph, { ...restored, q: "no-other-statement-matches", hide: true });
+  expect(filtered.nodes.some((node) => node.id === "LONE")).toBe(true);
+});
+
 test("real corpus: bounded settled layout for 1000+ statements", () => {
   const corpus = getPropositionGraph();
   expect(corpus.statements.length).toBeGreaterThan(1000);
