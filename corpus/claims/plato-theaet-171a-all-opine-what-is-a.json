@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-THEAET-171A-ALL-OPINE-WHAT-IS-A",
+  "statement_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE",
+  "source_id": "PLATO-THEAET",
+  "locator": "171a",
+  "interpretation": "Protagoras \"agrees that all opine what is\" (ὁμολογῶν τὰ ὄντα δοξάζειν ἅπαντας). Unqualified reading: every opinion is true under one unindexed truth predicate, as the following \"he would concede his own to be false\" requires. The sibling reading that keeps the dative of 170a is PLATO-THEAET-171A-171C-PERITROPE-QUALIFIED-B; this claim does not say Protagoras himself dropped the qualifier, only that the step to 171b-c uses the unqualified form.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

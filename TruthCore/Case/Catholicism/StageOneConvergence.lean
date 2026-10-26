@@ -51,7 +51,7 @@ def NecessaryPerSeIsMaximeEns {Being : Sort u} {Time : Sort v} {Respect : Sort w
   ∀ n, IsNecessaryPerSe Possible IsAt CausesNecessityOf n →
     ∀ m, IsMaximumIn InAct MoreIn esse m → n = m
 
-/-- The maximal being is the intelligent governor of nature: something maximal in
+/-- Some being maximal in being is the intelligent governor of nature: something maximal in
 being is intelligent and directs every natural body to an end. Derived in result
 `QUINTA-VIA-GOVERNOR-IS-MAXIME-ENS`. -/
 def MaximeEnsGovernsNature {Being : Sort u} {Respect : Sort v} {End : Sort x}

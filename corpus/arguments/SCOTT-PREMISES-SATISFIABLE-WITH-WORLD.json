@@ -1,0 +1,19 @@
+{
+  "id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "inference_ids": [
+    "INF-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD"
+  ],
+  "meaning": "Nonvacuous satisfiability of Scott's T3 premises: unlike premisesJointlySatisfiable in SCOTT-GOD-LIKE-NECESSARILY-EXISTS, whose frozen type an empty type of worlds satisfies vacuously, this type requires a world, so it is the consistency check that contrasts with GOEDEL-1970-INCONSISTENT. Formal satisfiability inside the Lean embedding of QML KB only.",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

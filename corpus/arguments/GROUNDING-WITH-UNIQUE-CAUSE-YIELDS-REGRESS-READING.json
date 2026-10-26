@@ -1,0 +1,19 @@
+{
+  "id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "inference_ids": [
+    "INF-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING"
+  ],
+  "meaning": "An axiom-free conditional connection: inductive (finite-source) grounding of every being's power, together with uncaused sources and linear per se series, yields STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES's formal reading. It locates what the grounding route to the regress premise still needs; it does not discharge that premise, since none of the three antecedents is sourced or proved of real per se causes (DISAMB-CAUSAL-POWER-GROUNDING keeps inductive grounding an open choice).",
+  "definition_ids": [
+    "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-REGRESS-ACCESSIBILITY-READING",
+    "DEF-SOURCES-RECEIVE-NO-LINK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

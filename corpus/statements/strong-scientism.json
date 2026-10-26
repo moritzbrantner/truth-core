@@ -1,0 +1,12 @@
+{
+  "id": "STMT-STRONG-SCIENTISM",
+  "paraphrase": "Scientism with explicit scope: every established claim in scope is established by empirical evidence. Strong scientism takes every claim to knowledge into scope. Stated without attribution until witnesses for its defenders are available.",
+  "lean_declaration": "TruthCore.Logic.Scientism.ScopedScientism",
+  "definition_ids": [
+    "DEF-STRONG-SCIENTISM",
+    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

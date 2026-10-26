@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GLOBAL-NO-ABSOLUTE-TRUTH",
+  "paraphrase": "No content at all is absolutely true (\"there is no absolute truth\"). Recorded as the rival to STMT-SOME-ABSOLUTE-TRUTH; unattributed.",
+  "lean_declaration": "TruthCore.Logic.Relativism.GlobalNoAbsoluteTruth",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCIENTISM-WEAK-CONSISTENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-WEAK-SCIENTISM-CONSISTENT",
+  "rule": "constructive-proof",
+  "meaning": "Model: weak scientism with its formulation outside its domain, established non-empirically, and an empirically established claim in its domain. Weak scientism is a surviving rival whose cost is the concession of non-empirical knowledge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

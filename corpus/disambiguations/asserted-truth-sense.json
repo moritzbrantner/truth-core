@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ASSERTED-TRUTH-SENSE",
+  "term": "true (asserted sense: absolute or relative)",
+  "sense_definition_ids": [
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "resolution": "Each retorsion result fixes one sense. Horn 1 results (STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE, STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS, STMT-EXEMPTION-REGRESS) use only absolute truth. Horn 2 results (STMT-PERITROPE-RELATIVE-HORN-OUTCOME, STMT-MEASURE-DOCTRINE-FAILS) use only truth-for-an-agent; their negation bridge is per agent (STMT-RELATIVE-NEGATION-RESPECTED). No result passes from one sense to the other: the models (STMT-NO-ABSOLUTE-TRUTH-MODELS, STMT-PERITROPE-MODELS) show the relative horn consistent even when nothing is absolutely true. The two readings of Theaetetus 171a-c are separate claims for exactly this reason. Absolute truth here is unindexed truth, not attitude-independence (DEF-OBJECTIVE-TRUTH) and not the truth of things; see DISAMB-TRUE."
+}

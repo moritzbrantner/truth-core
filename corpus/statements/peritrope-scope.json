@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PERITROPE-SCOPE",
+  "paraphrase": "Scope premise of the peritropē: the doctrine covers both the measure thesis and its denial, so the deniers' opinion about Protagoras's own opinion falls under \"all opine what is\".",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.PeritropeScope",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-PROTAGOREAN-MEASURE"
+  ]
+}

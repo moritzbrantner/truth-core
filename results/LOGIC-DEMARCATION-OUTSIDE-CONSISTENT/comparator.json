@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.demarcationOutsideConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

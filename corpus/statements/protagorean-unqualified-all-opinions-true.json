@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE",
+  "paraphrase": "Every opined content within the doctrine's scope is true, with one unindexed truth predicate: the unqualified reading of Protagoras's concession that all opine what is.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.UnqualifiedAllOpinionsTrue",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-PILOT-RELATIVITY",
+    "DISAMB-TRUE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "argument_id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.scottPremisesSatisfiableWithWorld",
+  "comparator_config": "results/SCOTT-PREMISES-SATISFIABLE-WITH-WORLD/comparator.json",
+  "status": "solution-present"
+}

@@ -3,8 +3,9 @@
   "paraphrase": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4 and makes a God-like being possible, yet falsifies A5 (positivity of necessary existence) and T3 (necessary God-like existence). Hence A5 and T3 are not consequences of those remaining axioms, even on an S5 frame. This proves independence inside the AFP embedding, not whether A5 is metaphysically true.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistencePositivityIndependent",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
     "DEF-ESSENCE-SCOTT",
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-MODAL-S5-FRAME",
     "DEF-NECESSARY-EXISTENCE-SCOTT",
     "DEF-POSITIVE-PROPERTY-SCOTT",
     "DEF-QML-KB-NECESSITY"

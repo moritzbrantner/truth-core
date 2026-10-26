@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-IV-8-1012B-ALL-TRUE-SELF-REFUTING-A",
+  "statement_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
+  "source_id": "ARIST-MET",
+  "locator": "IV.8, 1012b15-17",
+  "interpretation": "He who says that all things are true makes the contrary statement true as well, and so his own not true, since the contrary denies that it is true. The Aristotelian parallel to the Theaetetus peritropē, with statements (λόγοι) in place of opinions and one unindexed truth predicate.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-TRUE"
+  ]
+}

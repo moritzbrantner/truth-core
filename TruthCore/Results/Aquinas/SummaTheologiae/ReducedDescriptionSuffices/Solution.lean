@@ -8,9 +8,10 @@ open TruthCore.Case.Catholicism (MaximumInBeingIsFirstBeing GodNamesTheUniqueMax
 
 /-- Version (b) of the discharge (owner decision on #143, 2026-10-24): a defense
 of the reduced nominal definition. The conditions it drops follow from the ones
-it keeps. A being that is the only maximum in being and causes the being of all
+it keeps together with two open bridges. A being that is the only maximum in being and causes the being of all
 others also causes every perfection of the others (q.4 a.1 ad 3 and the bridge
-supported by q.4 a.2 and q.6 a.2), and it is part of nothing (q.3 a.8). So
+supported by q.4 a.2 and q.6 a.2), and it is part of nothing (the open bridge
+`MaximumInBeingIsFirstBeing` with q.3 a.8). So
 whatever meets the reduced description meets the fuller one, and the fuller
 definition makes it God. -/
 theorem reducedDescriptionSuffices {Being : Type} {Respect : Type}

@@ -1,0 +1,9 @@
+{
+  "id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
+  "argument_id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
+  "challenge_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Solution",
+  "theorem": "TruthCore.Results.Mereology.SoulUnityIndependence.soulUnityIndependence",
+  "comparator_config": "results/MEREO-005-SOUL-UNITY-INDEPENDENCE/comparator.json",
+  "status": "solution-present"
+}

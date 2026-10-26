@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WEAK-SCIENTISM-RESTRICTED",
+  "term": "weak (restricted) scientism",
+  "definition": "The scientistic norm restricted to a demarcated domain of questions (`WeakScientism E scope D`): within the domain, established claims are empirically established.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Scientism.WeakScientism",
+  "note": "One reading of weak scientism. The comparative reading (science is the most reliable source) is not a norm on acceptability and is not modeled; it is not threatened by self-application at all."
+}

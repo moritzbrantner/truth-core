@@ -1,0 +1,9 @@
+{
+  "id": "INF-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "rule": "explicit-countermodel",
+  "meaning": "Take the naturals under the predecessor link and a top that every natural links to. Each natural is accessible by induction; the top is accessible because all its immediate causes are naturals. Below the top, the chain through n-1, ..., 0 descends for n steps, for every n.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

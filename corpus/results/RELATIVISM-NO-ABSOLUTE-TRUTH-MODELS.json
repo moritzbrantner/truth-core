@@ -1,0 +1,9 @@
+{
+  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "argument_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "challenge_module": "TruthCore.Results.Logic.Relativism.Models.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.Models.Solution",
+  "theorem": "TruthCore.Results.Logic.Relativism.Models.noAbsoluteTruthModels",
+  "comparator_config": "results/RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS/comparator.json",
+  "status": "solution-present"
+}

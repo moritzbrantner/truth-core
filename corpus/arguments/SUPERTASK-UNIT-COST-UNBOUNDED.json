@@ -2,7 +2,11 @@
   "id": "SUPERTASK-UNIT-COST-UNBOUNDED",
   "premise_statement_ids": [],
   "conclusion_statement_id": "STMT-SUPERTASK-UNIT-COST-UNBOUNDED",
-  "inference_ids": ["INF-SUPERTASK-UNIT-COST-UNBOUNDED"],
-  "meaning": "A specified divergent-series impossibility result: infinitely many equal positive-cost stages exceed every finite duration budget. The positive lower bound on every stage is a material hypothesis.",
-  "definition_ids": ["DEF-SUPERTASK-UNIT-COST"]
+  "inference_ids": [
+    "INF-SUPERTASK-UNIT-COST-UNBOUNDED"
+  ],
+  "meaning": "A specified divergent-series result: partial sums of stages each costing exactly one unit exceed every natural-number budget. Only unit cost and natural-number budgets are formalized; a general positive real lower bound per stage is not proved here, and the fixed cost is a material hypothesis.",
+  "definition_ids": [
+    "DEF-SUPERTASK-UNIT-COST"
+  ]
 }

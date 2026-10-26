@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-SOUL-AS-FORM",
+  "term": "soul as irreducible principle of substantial unity",
+  "definition": "The owner's strong proposed interpretation: an intrinsic formal principle that accounts for an organism being one living substance, and whose explanatory status is not stipulated to be identical with a purely operational summary of coordinated functions. In the toy model this is an independent predicate; it is not treated as a third material part.",
+  "basis": "stipulative",
+  "note": "The need for a genuinely irreducible explanatory principle is precisely the open thesis at #329. This is neither an established interpretation of Aristotle's De Anima II.1 nor a proof that an immaterial separate substance exists.",
+  "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SoulAsForm"
+}

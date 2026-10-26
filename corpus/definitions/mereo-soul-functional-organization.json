@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION",
+  "term": "soul as functional organization",
+  "definition": "A weaker, potentially reductionist use of the word soul in which it designates the coordinated powers or organization of a living system, without adding an irreducible intrinsic formal principle. The toy model locates those features in its observable predicates instead of counting them as its distinct SoulAsForm predicate.",
+  "basis": "stipulative",
+  "note": "Comparative terminology only (#329), not attributed to a particular author. Whether a particular hylomorphist's form is functionally reducible is a separate source and metaphysical question.",
+  "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.Integrated"
+}

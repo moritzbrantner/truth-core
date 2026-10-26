@@ -3,11 +3,13 @@
     "source_url": "https://davidhume.org/texts/e/7",
     "retrieved_at": "2026-10-25T14:14:44Z",
     "sha256": "sha256:932de4e57a35d4d63758281ee80551ec76cbbbd304e9b19aea0a21427f30f4f5",
+    "wayback_url": "https://web.archive.org/web/20260527194211id_/https://davidhume.org/texts/e/7",
+    "wayback_sha256": "sha256:932de4e57a35d4d63758281ee80551ec76cbbbd304e9b19aea0a21427f30f4f5",
     "kind": "web_snapshot",
     "source_id": "HUME-ENQUIRY",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "Original English text (1748), public domain; Hume Texts Online presentation. No presentation license asserted; only hashes and locators committed."
+    "license": "Original English text (1748), public domain; Hume Texts Online presentation. No presentation license asserted; only hashes and locators committed. A fixed 2026-05-27 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {

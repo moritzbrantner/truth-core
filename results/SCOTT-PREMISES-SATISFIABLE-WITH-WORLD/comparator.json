@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.scottPremisesSatisfiableWithWorld"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

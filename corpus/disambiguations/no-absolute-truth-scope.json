@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+  "term": "scope of \"no absolute truth\" (global or local)",
+  "sense_definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-LOCAL-NO-ABSOLUTE-TRUTH"
+  ],
+  "resolution": "The global thesis has every content, its own formulation included, in scope; the local thesis restricts it to a demarcated domain. STMT-LOCAL-RELATIVISM-SECOND-ORDER asks where the local thesis itself falls: inside, it inherits the relative horn; outside and absolutely true, it is a concession that defeats only the global thesis. Exemption of the thesis from its own scope is a third option whose cost is STMT-EXEMPTION-REGRESS. These senses are distinct from the pilot's profile-variation senses (DISAMB-PILOT-RELATIVITY), which are not identified with them."
+}
