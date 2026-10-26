@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-Q14-IMMATERIAL-INTELLECT-RECEPTION",
+  "statement_ids": [
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-Q14-COGNITIVE-FORM-APTITUDE",
+    "STMT-Q14-SENSE-WITHOUT-MATTER"
+  ],
+  "date": "2026-10-26",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Materialized and read the complete pinned I q.14 a.1 including the positive immateriality/cognition proportionality, highest-degree inference, objections and replies. Two narrow aptitudinal readings are recorded, not substituted for the full target. The typed FormReception interface proves only that positive foreign-form aptitude plus exclusion of the material mode yields without-matter aptitude. Empty-recipient and sensory-recipient omission controls preserve those source readings but block respectively positive aptitude and intellectual grade; the old target also fails in the empty-recipient schema. These are formal omissions, not metaphysically possible beings or a refutation of the source. Rejected defining immateriality as intellectual power, replacing aptitude with actual reception, equating sensory and intellectual knowing, and reusing q.75 human scope as divine reception. Full findings and precise witness locator are in docs/immaterial-intellect-reception.md. No root premise is relocated or discharged.",
+  "evidence": [
+    "AQUINAS-ST-I-Q14-A1-COGNITIVE-FORM-APTITUDE",
+    "AQUINAS-ST-I-Q14-A1-SENSE-WITHOUT-MATTER",
+    "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE"
+  ],
+  "blocker": "A defended link is still needed from the existing component-free structural antecedent to positive cognitive aptitude and the intellectual grade, together with a faithful interpretation of the existing primitive HasIntellect that does not treat God as passively acquiring creaturely information. See candidate AQUINAS-Q14-IMMATERIAL-INTELLECT-BRIDGE; any change to the old semantics requires cross-cutting coordination."
+}
