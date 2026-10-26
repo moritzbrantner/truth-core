@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A",
+  "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+  "source_id": "ARIST-MET",
+  "locator": "IX.6, 1048a30-35",
+  "interpretation": "Actuality is the thing's existing 'not in the way we say it exists potentially': the Hermes in the wood, the half in the whole, because it could be separated out, and the knower who is not contemplating, 'if he is able to contemplate' (αν δυνατος η θεωρησαι). Read per respect as a biconditional: potentially r exactly when able to be r and not actually r. Both conjuncts come from the knower example; the analogy that follows (1048a35-b9) and its two kinds of act (as motion to power, as substance to matter) are not formalized. Aristotle says act is grasped by analogy and not by definition (ου δει παντος ορον ζητειν), so taking this as a definition of potency is a reading choice, recorded as such in ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE.",
+  "status": "formalized"
+}

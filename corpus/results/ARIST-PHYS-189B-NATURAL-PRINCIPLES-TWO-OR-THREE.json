@@ -5,5 +5,6 @@
   "solution_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.naturalPrincipleCountTwoOrThree",
   "comparator_config": "results/ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE/comparator.json",
-  "status": "solution-present"
+  "status": "solution-present",
+  "description": "Opaque-atom transcription (AGENTS.md invariant 16): every proposition the theorem relates is an uninterpreted `Prop` parameter, so it certifies only that the source's step to STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE was transcribed over the bound readings, not that the conclusion is derived from typed vocabulary. A faithful map of the source argument, not progress on the case; it closes no frontier node by itself."
 }

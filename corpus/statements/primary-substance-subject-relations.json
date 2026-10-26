@@ -1,5 +1,5 @@
 {
   "id": "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
-  "paraphrase": "A primary substance is neither said of a subject nor in a subject.",
+  "paraphrase": "Something is a primary substance exactly when it is neither said of any subject nor in any subject.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Categories.PrimarySubstanceBySubjectRelationsReading"
 }

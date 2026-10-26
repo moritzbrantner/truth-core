@@ -1,0 +1,7 @@
+{
+  "id": "STMT-AS-TO-BEING-SO-TO-TRUTH",
+  "paraphrase": "As each thing stands in respect of being, so it stands in respect of truth: a thing has truth exactly when it has being, and one thing is more true than another exactly when it is more a being than it (truth said of things).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.AsToBeingSoToTruthReading",
+  "definition_ids": ["DEF-ONTOLOGICAL-TRUTH", "DEF-ONTOLOGICAL-TRUTH-COMPARISON", "DEF-MORE-IN"],
+  "disambiguation_ids": ["DISAMB-TRUE", "DISAMB-BEING"]
+}

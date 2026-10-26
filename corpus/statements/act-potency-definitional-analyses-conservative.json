@@ -1,0 +1,11 @@
+{
+  "id": "STMT-ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE",
+  "paraphrase": "Formal fact: the Metaphysics IX.6 analysis of potency as unactualized ability entails that nothing is in act and in potency in the same respect, and the Physics III.1 analysis of being moved as actualization of a potency entails that nothing is moved except as in potency; and each premise in turn guarantees that some ability or actualization predicate satisfies the analysis, so neither analysis is stronger than the premise it makes analytic.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActPotencyDefinitionalAnalysesConservative",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-MOTION-AS-REDUCTION"
+  ]
+}

@@ -1,1 +1,1 @@
-{"id":"STMT-MOVED-MOVER-SERIES-CANNOT-LACK-FIRST","paraphrase":"The moved-mover series cannot lack a first mover and a first moved subject.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.MovedMoverSeriesCannotLackFirstReading"}
+{"id":"STMT-MOVED-MOVER-SERIES-CANNOT-LACK-FIRST","paraphrase":"A series of moved movers in local, bodily motion cannot lack a first mover. (The source also concludes a first moved subject; the premises formalized here concern the first mover only.)","lean_declaration":"TruthCore.Greek.Aristotle.Physics.MovedMoverSeriesCannotLackFirstReading"}

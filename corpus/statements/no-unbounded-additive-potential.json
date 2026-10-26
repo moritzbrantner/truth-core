@@ -1,5 +1,5 @@
 {
   "id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
-  "paraphrase": "There is no potential infinity by addition that exceeds every determinate magnitude; additive potential infinity survives only in the inverse manner tied to division.",
+  "paraphrase": "There is no potential infinity by addition that exceeds every determinate magnitude.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoUnboundedAdditivePotentialReading"
 }

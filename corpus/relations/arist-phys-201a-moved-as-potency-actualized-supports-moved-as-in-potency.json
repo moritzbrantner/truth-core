@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-SUPPORTS-MOVED-AS-IN-POTENCY",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "note": "The respect-indexed III.1 definition entails the premise, but is no stronger than it (ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE)."
+}
