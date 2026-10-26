@@ -76,3 +76,4 @@ import TruthCore.Greek.Plato.Theaetetus
 import TruthCore.Greek.Plato.ThirdMan
 import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
+import TruthCore.Greek.Proclus.ElementsTheology

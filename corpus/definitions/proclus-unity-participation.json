@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PROCLUS-UNITY-PARTICIPATION",
+  "term": "participation",
+  "definition": "In the proposition-2 projection, Participates x one marks x participating in the designated One. It is a bare directed attribution relation: the received-unity and nonidentity commitments are in the statement, not built into this definition. No spatial parts, efficient production, shared genus or Platonic Form classification follows.",
+  "basis": "stipulative",
+  "note": "The shared Vocabulary relation field is reused as an interface, but its argument one is interpreted by the separate Proclus definition. This local definition prevents a bearer-to-Form gloss from identifying the One with a Platonic Form. A fuller source account of how participation occurs remains open.",
+  "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
+}
