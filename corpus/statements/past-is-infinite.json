@@ -1,1 +1,1 @@
-{"id": "STMT-PAST-IS-INFINITE", "paraphrase": "The past is infinite: before every time up to now there is an earlier time.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PastIsInfinite"}
+{"id": "STMT-PAST-IS-INFINITE", "paraphrase": "The past is infinite: before every time up to now there is an earlier time.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PastIsInfinite", "definition_ids": ["DEF-TEMPORAL-EXISTENCE-BEGINNING"]}

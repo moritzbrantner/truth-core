@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ACTUALIZATION-QUA-POTENTIAL",
+  "term": "actuality of the potential as such (entelecheia tou dynamei ontos hei toiouton)",
+  "definition": "`ActualizedQuaPotential x r`: x's potency for r, precisely as a potency, is being actualized, as the buildable is being built while it is buildable. A primitive of the Physics III.1 analysis of being moved; it does not decide between actuality and actualization and adds no time, mover or completion.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BeingMovedIsActualizationOfPotencyReading"
+}

@@ -38,6 +38,7 @@ import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Greek.Aristotle.MetaphysicsIII3
 import TruthCore.Greek.Aristotle.MetaphysicsIV7
+import TruthCore.Greek.Aristotle.MetaphysicsIX
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
@@ -121,6 +122,7 @@ import TruthCore.Isabelle.AFP.GoedelGod
 import TruthCore.Isabelle.AFP.GoedelGod.GeneratedFragment
 import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
@@ -154,6 +156,7 @@ import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
+import TruthCore.Mereology.Vitalism
 import TruthCore.Metaethics.AnswerMap
 import TruthCore.Metaethics.ExplanationOrder
 import TruthCore.Metaethics.NaturalisticRealism
@@ -182,6 +185,10 @@ import TruthCore.Refutations.Emotivism
 import TruthCore.Refutations.ProblemOfEvil
 import TruthCore.Refutations.QuasiRealism
 import TruthCore.Refutations.TertiaVia
+import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.BeingInActReading.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAnalysesConservative.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
@@ -203,6 +210,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongPremisesCom
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongPremisesEntailWeak.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongReadingYields.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.WeakReadingDoesNotYield.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFromBeingInAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
@@ -231,6 +239,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaxime
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
 import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair.Solution
+import TruthCore.Results.Aristotle.Metaphysics.MostTrueIsMostBeing.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle.Solution
 import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
 import TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest.Solution
@@ -487,6 +496,7 @@ import TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails.Solution
 import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
 import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
+import TruthCore.Results.Mereology.SoulUnityIndependence.Solution
 import TruthCore.Results.Modal.B.Countermodels.Solution
 import TruthCore.Results.Modal.B.DisconnectedScope.Solution
 import TruthCore.Results.Modal.B.LanguagePropagation.Solution

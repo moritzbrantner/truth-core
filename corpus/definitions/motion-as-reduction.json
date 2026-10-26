@@ -1,10 +1,11 @@
 {
   "id": "DEF-MOTION-AS-REDUCTION",
   "term": "motion (motus), moving and being moved",
-  "definition": "To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies.",
+  "definition": "To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies. Aristotle's definition of motion as the actuality of the potential as such, read for beings and respects (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), would make STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic if adopted as the Lean definition of `MovedIn`; it is no stronger than that premise (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so `MovedIn` stays a parameter.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A"
+    "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A",
+    "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
 }

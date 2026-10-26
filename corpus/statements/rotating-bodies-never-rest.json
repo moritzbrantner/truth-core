@@ -1,1 +1,1 @@
-{"id":"STMT-ROTATING-BODIES-NEVER-REST","paraphrase":"A rotating circle never rests, and the same holds for a sphere and other bodies moving in themselves.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.RotatingBodiesNeverRestReading"}
+{"id":"STMT-ROTATING-BODIES-NEVER-REST","paraphrase":"A rotating circle never rests. (The extension to a sphere and other bodies moving in themselves is stated in the source but not derived here.)","lean_declaration":"TruthCore.Greek.Aristotle.Physics.RotatingBodiesNeverRestReading"}

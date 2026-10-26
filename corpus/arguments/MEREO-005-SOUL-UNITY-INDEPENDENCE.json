@@ -1,0 +1,20 @@
+{
+  "id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "inference_ids": [
+    "INF-MEREO-SOUL-UNITY-INDEPENDENCE"
+  ],
+  "meaning": "Finite countermodels to two attempted entailments: (1) integrated and self-maintaining material turnover entails substantial unity; (2) such unity entails an irreducible soul. The functionalist substitute is the positive, continuous causal organization stipulated in the common history, not a denial of life. The formal test does not settle whether this mechanism is a sufficient ultimate explanation or whether the displayed models are metaphysically possible. Source-derived claims, if later added, need independently pinned witnesses.",
+  "definition_ids": [
+    "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
+    "DEF-MEREO-STRUCTURAL-UNITY",
+    "DEF-MEREO-SUBSTANTIAL-UNITY",
+    "DEF-MEREO-SOUL-AS-FORM",
+    "DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MEREO-UNITY",
+    "DISAMB-MEREO-SOUL"
+  ]
+}

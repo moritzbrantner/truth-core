@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-MET-1049B-ACTUAL-BY-ACTUAL-SUPPORTS-REDUCED-BY-A-MOVER",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-1049B-ACTUAL-BY-ACTUAL-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "note": "Metaphysics IX.8 states the being-in-act principle, which entails that whatever is moved has a mover in the respect (BEING-IN-ACT-READING-FACTS)."
+}

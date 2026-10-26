@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-PHYS-202A-MOTION-IN-MOVABLE-SUPPORTS-REDUCED-BY-A-MOVER",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "note": "Physics III.3, 202a13-14: motion is the actuality of the movable 'by the mover' (υπο του κινητικου); it bears on the premise that whatever is moved has a mover without stating it as a universal claim."
+}

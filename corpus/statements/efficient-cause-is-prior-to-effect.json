@@ -1,1 +1,1 @@
-{"id": "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "paraphrase": "An efficient cause is prior (by nature, not in time) to what it causes.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EfficientCauseIsPriorToEffectReading"}
+{"id": "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "paraphrase": "An efficient cause is prior (by nature, not in time) to what it causes.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EfficientCauseIsPriorToEffectReading", "definition_ids": ["DEF-SIMPLE-PRIORITY"]}

@@ -1,5 +1,11 @@
 {
   "id": "STMT-COSMOS-GENERATED",
   "paraphrase": "The cosmos has come to be.",
-  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CosmosGenerated"
+  "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CosmosGenerated",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
 }
