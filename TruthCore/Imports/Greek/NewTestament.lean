@@ -7,3 +7,4 @@ import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority
 import TruthCore.Greek.NewTestament.Mark.HighPriestAnswer
 import TruthCore.Greek.NewTestament.Matthew
+import TruthCore.Greek.NewTestament.Philippians.Christology

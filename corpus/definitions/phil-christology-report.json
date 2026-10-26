@@ -1,0 +1,13 @@
+{
+  "id": "DEF-PHIL-CHRISTOLOGY-REPORT",
+  "term": "Philippians 2 lexical Christology report",
+  "definition": "Letter.presents records content asserted by the letter about Christ Jesus and God. Subject indexes are textual designations, not an equation with case-signature beings. Form names the form-of-God/slave contrast without specifying essence, appearance or Aristotelian form. Equality is the being-equal-with-God expression governed by the negative harpagmos judgment; harpagmos remains lexically unresolved between acquisition, retention and exploitation readings. Emptying is described with slave form and human likeness, not loss of deity; obedience reaches cross death. Exaltation has God as agent and Christ as recipient; the name is above every name without a formal equation identifying it. Universal knee-bowing across heaven, earth and under earth and tongue-confession of Jesus Christ as Lord are the stated purpose, directed to God the Father’s glory, not completed historical events. Lord retains the confession’s title without defining numerical divine identity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.Letter",
+  "note": "Local typed contents are needed because the existing pilot report enumeration has no Philippians entry. These encoding boundaries preserve the lexical claim while leaving semantic and historical transport open; see docs/philippians-christology.md.",
+  "claim_ids": [
+    "NT-PHIL-2-FORM-AND-EQUALITY",
+    "NT-PHIL-2-HUMILIATION",
+    "NT-PHIL-2-EXALTATION"
+  ]
+}
