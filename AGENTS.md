@@ -60,6 +60,10 @@ for the attempt format and reference boundaries.
 
 See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and verification boundaries. For the campaign to formalize the case for Catholicism (epic #143), including the owner's binding principles and the working method, read `docs/catholic-case.md` first.
 
+## Configuration elimination and composition
+
+For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
+
 ## Outer systematic loop
 
 The normal operating mode is **not one human prompt per proposition**. A queued candidate represents a contiguous source range, normally a chapter or similarly coherent section. Once an agent starts a candidate, it keeps moving through that range in source order and repeatedly applies the atomic loop below.
