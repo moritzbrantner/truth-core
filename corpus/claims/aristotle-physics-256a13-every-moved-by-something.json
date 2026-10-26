@@ -3,7 +3,7 @@
   "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
   "source_id": "ARIST-PHYS",
   "locator": "VIII.5, 256a13-14",
-  "interpretation": "VIII.5 restates as the premise of its argument that everything moved is necessarily moved by something (εἰ δὴ ἀνάγκη πᾶν τὸ κινούμενον ὑπό τινός τε κινεῖσθαι), the conclusion of VIII.4. Read respect-free, as the VII.1 sentence.",
+  "interpretation": "VIII.5 takes as the premise of its argument that everything moved is necessarily moved by something (εἰ δὴ ἀνάγκη πᾶν τὸ κινούμενον ὑπό τινός τε κινεῖσθαι), the thesis VIII.4 argued. Read respect-free, as the VII.1 sentence, and with ὑπό τινος taken as a per se mover (`MovesIn`). That is a stronger reading than VIII.4's literal conclusion STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS, which admits a per accidens mover, and it is not derived from it; it is also not restricted by a guard to physical motion, so it is accepted only under a physical instantiation of `MovedIn`.",
   "status": "formalized",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",

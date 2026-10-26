@@ -3,7 +3,7 @@
   "statement_id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
   "source_id": "ARIST-PHYS",
   "locator": "VIII.4, 254b27-33, 255b32-33",
-  "interpretation": "Of natural motions, those of things moved by themselves are moved by something (255b32-33). For animals, 'it is not unclear whether it is moved by something, but how one must distinguish in it the mover and the moved' (254b27-33). 'By something' may be the thing itself (part moving part), so the reading asserts only that the motion has a mover in that respect, not that the mover is another.",
+  "interpretation": "Of natural motions, those of things moved by themselves are moved by something (255b32-33). For animals, 'it is not unclear whether it is moved by something, but how one must distinguish in it the mover and the moved' (254b27-33): the mover is the moving part. The reading asserts only that the motion has a per se mover in that respect; it leaves open which being the mover is, and does not assert that the mover is another than the whole.",
   "status": "formalized",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",

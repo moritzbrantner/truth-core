@@ -30,7 +30,7 @@ theorem localRegressFromPerSeRegress {Being : Type} {Respect : Type}
     (hRegress : NoInfinitePerSeMoverSeriesReading MovesAsMoved) :
     NoInfiniteLocalMovedMoverChainReading IsLocal MovedIn MovesIn MovesPrimarily := by
   -- INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-PER-SE-REGRESS
-  rintro ⟨c, hChain⟩
+  rintro ⟨c, _, hChain⟩
   apply noDescendingChain MovesAsMoved hRegress
   refine ⟨c, fun n => ?_⟩
   obtain ⟨hNe, _, ⟨r, _, hMoves⟩, ⟨r', _, hMoved⟩⟩ := hChain n
@@ -56,11 +56,11 @@ theorem premisesNeeded :
   · intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1)
       (fun y x => y = x + 1) (fun _ _ => False)
-      (fun x => Acc.intro x (fun _ hf => hf.elim)) ⟨fun n => n, succChain⟩
+      (fun x => Acc.intro x (fun _ hf => hf.elim)) ⟨fun n => n, fun _ _ h => h, succChain⟩
   · intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1)
       (fun y x => y = x + 1) (fun y x => y = x + 1)
-      (fun _ _ _ _ hMoves _ => hMoves) ⟨fun n => n, succChain⟩
+      (fun _ _ _ _ hMoves _ => hMoves) ⟨fun n => n, fun _ _ h => h, succChain⟩
 
 /-- The restricted regress is strictly weaker than the per se regress, even
 granted the second-movers premise: when no respect is local, there is no local
@@ -76,7 +76,7 @@ theorem restrictedRegressIsWeaker :
   have hAcc := h Nat Unit (fun _ => False) (fun _ _ => True) (fun y x _ => y = x + 1)
     (fun y x => y = x + 1) (fun y x => y = x + 1)
     (fun _ _ _ _ hMoves _ => hMoves)
-    (fun ⟨c, hc⟩ => by obtain ⟨_, _, ⟨_, hl, _⟩, _⟩ := hc 0; exact hl)
+    (fun ⟨c, _, hc⟩ => by obtain ⟨_, _, ⟨_, hl, _⟩, _⟩ := hc 0; exact hl)
   exact noDescendingChain (fun y x : Nat => y = x + 1) hAcc ⟨fun n => n, fun _ => rfl⟩
 
 end TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress

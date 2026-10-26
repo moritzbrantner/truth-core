@@ -5,7 +5,8 @@
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",
     "DEF-PASSIVE-NATURAL-MOTION",
-    "DEF-PER-ACCIDENS-MOVER"
+    "DEF-PER-ACCIDENS-MOVER",
+    "DEF-RESPECT"
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION",

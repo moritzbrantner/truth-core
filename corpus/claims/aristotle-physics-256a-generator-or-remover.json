@@ -3,7 +3,7 @@
   "statement_id": "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER",
   "source_id": "ARIST-PHYS",
   "locator": "VIII.4, 255b24-27, 255b35-256a2",
-  "interpretation": "Literal reading: the light and the heavy are moved either by what generated them and made them light or heavy, or by what removed the hindrance (255b35-256a2). The remover moves only per accidens (255b24-27: κατὰ συμβεβηκὸς γὰρ κινεῖ, like the wall that a rebounding ball does not move), so the mover is either a per se mover or a per accidens one. The text does not say that the generator still moves a light body while it rises; that commitment is not attributed here and is the separate open premise STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER.",
+  "interpretation": "Literal reading: the light and the heavy are moved either by what generated them and made them light or heavy, or by what removed the hindrance (255b35-256a2). The remover moves only per accidens (255b24-27: κατὰ συμβεβηκὸς γὰρ κινεῖ, like the wall that a rebounding ball does not move). Reading steps: the generator is read as a per se mover of the motion in its respect (the place), and the statement is extended from the light and the heavy to every natural motion that is not a self-motion. The inclusive 'or' admits a motion whose only mover is the per accidens remover; excluding that case is not attributed here and is the separate open premise STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER.",
   "status": "formalized",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",

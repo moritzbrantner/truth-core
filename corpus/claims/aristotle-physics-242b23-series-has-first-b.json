@@ -3,7 +3,7 @@
   "statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
   "source_id": "ARIST-PHYS",
   "locator": "VII.1, 242b23-243a2",
-  "interpretation": "Typed reading with audit B's (#388) restriction: there is no infinite chain in which each member is moved in local motion by the next, a primary mover of it that is itself moved in local motion (242a15-20 states the thesis for local motion; 242b23-243a2 proves it under the contact condition). It says only that such a chain stops, not that its first member is unmoved, and it adds nothing about a first moved subject.",
+  "interpretation": "Typed reading with audit B's (#388) restriction: there is no infinite chain in which each member is moved in local motion by the next, a primary mover of it that is itself moved in local motion (242a15-20 states the thesis for local motion; 242b23-243a2 proves it under the contact condition). It says only that such a chain stops, not that its first member is unmoved, and it adds nothing about a first moved subject. Chains are injective (infinitely many distinct members: ἄπειρα τὰ κινοῦντα, 242b12; ἀπείρων ὄντων, 242b29), so a finite cycle of mutual movers is not such a chain and is not excluded.",
   "interpretation_of": "ARIST-PHYS-242B23-SERIES-HAS-FIRST-A",
   "status": "formalized",
   "definition_ids": [

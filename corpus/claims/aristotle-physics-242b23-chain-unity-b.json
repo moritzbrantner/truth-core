@@ -3,10 +3,11 @@
   "statement_id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
   "source_id": "ARIST-PHYS",
   "locator": "VII.1, 242b23-27",
-  "interpretation": "Typed reading over chains indexed by the natural numbers: if each member touches or is continuous with the next, some one thing is made of them all (242b26: ὥστʼ εἶναί τι ἐξ ἁπάντων ἕν). The -A reading states the same step for the hypothesised chain with atoms. The reading does not say whether the one thing is finite or infinite; 242b27-29 says this makes no difference.",
+  "interpretation": "Typed reading over chains indexed by the natural numbers: if each member touches or is continuous with the next, some one thing is made of them all (242b26: ὥστʼ εἶναί τι ἐξ ἁπάντων ἕν). The -A reading states the same step for the hypothesised chain with atoms. The reading does not say whether the one thing is finite or infinite; 242b27-29 says this makes no difference. Chains are injective (infinitely many distinct members: ἄπειρα τὰ κινοῦντα, 242b12; ἀπείρων ὄντων, 242b29), so a finite cycle of mutual movers is not such a chain and is not excluded. The sentence is said of the hypothesised chain; the reading generalizes it to every injective touching chain.",
   "interpretation_of": "ARIST-PHYS-242B23-CHAIN-UNITY-A",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONTACT-OR-CONTINUITY"
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-ONE-MADE-OF-ALL"
   ]
 }

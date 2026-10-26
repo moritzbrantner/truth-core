@@ -53,6 +53,18 @@ is primitive, never defined:
 * `TraversesInfiniteInFiniteTime u`: `u` goes through an infinite motion in a
   finite time (242b30-243a1).
 
+**Scope.** These are readings of Aristotle's physical motion. Only VIII.4's
+division and its two conclusions carry an explicit guard (`IsPhysicalRespect`);
+VIII.4's other readings are scoped by their antecedent primitives (`ByForce`,
+`ByNature`, `SelfMovedIn`, `PassiveNaturalIn` are kinds of physical motion by their
+definitions). The III.3 and VIII.5 readings carry no guard: they are accepted only
+under a physical instantiation of `MovedIn`/`MovesIn`. The results that use them
+with *prima via* premises derive only new statements, and a universal *prima via*
+premise restricts to physical motion; no result carries a physical premise to a
+statement about every reduction from potency to act except through the explicit,
+unattributed scope premise `EveryReductionIsPhysicalMotionReading`
+(`DISAMB-MOTION`).
+
 Source: Aristotle, *Physics* III.3, VII.1, VIII.4, VIII.5 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/
@@ -72,6 +84,7 @@ The moving is not a second motion in the mover but the moved thing's being moved
 (202a15-16: the mover's actuality "is not another"). The reading adds no claim
 about the mover's own motion, and it says nothing about motions as objects; the
 older reading `MotionLocatedInMovableReading` keeps that occurrence-level form.
+Scope: physical motion, by instantiation (no guard).
 
 Source: Aristotle, *Physics* III.3, 202a13-16 (Bekker pagination).
 -/
@@ -81,7 +94,9 @@ def MovingIsInTheMovedReading {Being : Sort u} {Respect : Sort v}
   ∀ y x r, MovesIn y x r → MovedIn x r
 
 /-- No mover moves itself in the respect in which it moves: whatever moves something
-in a respect is distinct from what it moves.
+in a respect is distinct from what it moves. Since every moving is in some respect,
+this says that nothing moves itself in any respect; an Aristotelian self-mover
+(`SelfMovedIn`) is a whole whose mover is a part (`DISAMB-SELF-MOTION`).
 
 A consequence, not a source reading: it is derived in result
 `ARIST-PHYS-III-1-3-NO-MOVER-MOVES-ITSELF` from *Physics* III.1's analysis of
@@ -117,7 +132,9 @@ of things not moved by themselves, as the light and the heavy (*Physics* VIII.4,
 τὰ κοῦφα καὶ τὰ βαρέα).
 
 The second kind is stated positively, as natural motion from a principle of being
-acted on (255b29-31), so that the division is the text's and not an instance of
+acted on. That is a reading step: 255b29-31 says this of the light and the heavy,
+the text's example (οἷον), and the reading extends it to every natural motion that
+is not a self-motion. It also keeps the division from being an instance of
 excluded middle.
 
 Source: Aristotle, *Physics* VIII.4, 255b29-33 (Bekker pagination).
@@ -141,9 +158,10 @@ def ForcedMotionByAnotherReading {Being : Sort u} {Respect : Sort v}
 (*Physics* VIII.4, 255b32-33; 254b27-33: "it is not unclear whether it is moved by
 something, but how one must distinguish in it the mover and the moved").
 
-"By something" may be the thing itself: Aristotle's self-mover is moved by itself,
-a part moving another part. The reading says only that the motion has a mover in
-that respect.
+Aristotle's self-mover is moved by itself, a part moving another part, so the
+mover is the moving part. The Lean leaves open which being the mover is; with
+`NoMoverMovesItselfInItsRespectReading` it must be other than the whole. The
+reading says only that the motion has a per se mover in that respect.
 
 Source: Aristotle, *Physics* VIII.4, 254b27-33, 255b32-33 (Bekker pagination).
 -/
@@ -160,7 +178,11 @@ what removed the hindrance (*Physics* VIII.4, 255b35-256a2: ἢ γὰρ ὑπὸ
 
 Literal reading: the remover of a hindrance moves only per accidens (255b24-27:
 κατὰ συμβεβηκὸς γὰρ κινεῖ), so the mover is either a per se mover (the generator)
-or a per accidens one.
+or a per accidens one. Reading the generator as a per se mover of the motion in
+its respect (the place) is itself a reading step; and the inclusive "or" admits a
+motion whose only mover is the per accidens remover. Extended from the light and
+the heavy to every `PassiveNaturalIn` motion, as in
+`NaturalMotionSelfOrPassiveReading`.
 
 Source: Aristotle, *Physics* VIII.4, 255b24-27, 255b35-256a2 (Bekker pagination).
 -/
@@ -173,16 +195,16 @@ def PassiveNaturalMotionByGeneratorOrRemoverReading {Being : Sort u} {Respect : 
 moved by itself, as of the light and the heavy, has a per accidens mover (the
 remover of a hindrance), it also has a per se mover in that respect.
 
-Aristotle names the generator as the other mover such things have (VIII.4,
-255b35-256a1), but he does not say that the generator still moves a light body
-while it rises, and he gives the disjunction "by the generator or by the remover"
-(`PassiveNaturalMotionByGeneratorOrRemoverReading`). This premise is what that
-disjunction lacks for a per se mover (result
+Aristotle gives the disjunction "by the generator or by the remover"
+(`PassiveNaturalMotionByGeneratorOrRemoverReading`). Its inclusive "or" admits a
+motion whose only mover is the per accidens remover; this premise excludes that
+case. It is what the disjunction lacks for a per se mover (result
 `ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS`,
-`literalReadingDoesNotGivePerSeMover`). It is open and has no source claim; a
-source would have to say that the per se mover of the light thing's natural
-motion is present while it moves (Aquinas' commentary on VIII.4 may be a place
-to look; it is not pinned). -/
+`literalReadingDoesNotGivePerSeMover`). It is open and has no source claim.
+Bearing on it: VIII.4, 254b33-255a1 places the natural motion of the light and the
+heavy among things moved by another, which suggests a per se mover in every case
+but does not say so; Aquinas' commentary on VIII.4 is another place to look (not
+pinned). -/
 def PerAccidensMovedPassiveMotionHasPerSeMoverReading {Being : Sort u} {Respect : Sort v}
     (PassiveNaturalIn : Being → Respect → Prop)
     (MovesIn MovesPerAccidensIn : Being → Being → Respect → Prop) : Prop :=
@@ -269,12 +291,18 @@ def PrimaryLocalMoverTouchesReading {Being : Sort u} {Respect : Sort v}
 is made of them all (*Physics* VII.1, 242b26: ἀνάγκη τὰ κινούμενα καὶ τὰ κινοῦντα
 συνεχῆ εἶναι ἢ ἅπτεσθαι ἀλλήλων, ὥστʼ εἶναί τι ἐξ ἁπάντων ἕν).
 
+Chains are injective (infinitely many distinct members: ἄπειρα τὰ κινοῦντα,
+242b12), so a finite cycle is not such a chain. The sentence is said of the
+hypothesised chain of movers; the reading generalizes it to every injective
+touching chain.
+
 Source: Aristotle, *Physics* VII.1, 242b25-26 (Bekker pagination).
 -/
 def TouchingChainFormsOneReading {Being : Sort u}
     (Touches : Being → Being → Prop)
     (ComposedOf : Being → (Nat → Being) → Prop) : Prop :=
-  ∀ c : Nat → Being, (∀ n, Touches (c (n + 1)) (c n)) → ∃ w, ComposedOf w c
+  ∀ c : Nat → Being, Function.Injective c →
+    (∀ n, Touches (c (n + 1)) (c n)) → ∃ w, ComposedOf w c
 
 /-- The one thing made of an infinite chain of local moved movers, whether it is
 finite or infinite, would go through an infinite motion in the finite time of the
@@ -283,8 +311,8 @@ first moved thing's motion (*Physics* VII.1, 242b27-243a1).
 This premise carries the chapter's aggregate argument: the members move together
 (242a20-30), each motion is one and finite (242a30-242b11), the aggregate of
 infinitely many equal or greater motions is infinite, and what is possible may be
-taken as actual (242b11-16, 242b29-30, 243a1-2). It is stated only for chains of
-`LocalMovedMoverLink`s.
+taken as actual (242b11-16, 242b29-30, 243a1-2). It is stated only for injective
+chains of `LocalMovedMoverLink`s (ἀπείρων ὄντων, 242b29).
 
 Source: Aristotle, *Physics* VII.1, 242a20-243a2 (Bekker pagination).
 -/
@@ -295,7 +323,7 @@ def OneOfInfiniteLocalChainTraversesInfiniteReading {Being : Sort u} {Respect : 
     (MovesPrimarily : Being → Being → Prop)
     (ComposedOf : Being → (Nat → Being) → Prop)
     (TraversesInfiniteInFiniteTime : Being → Prop) : Prop :=
-  ∀ (c : Nat → Being) (w : Being),
+  ∀ (c : Nat → Being) (w : Being), Function.Injective c →
     (∀ n, LocalMovedMoverLink IsLocal MovedIn MovesIn MovesPrimarily (c (n + 1)) (c n)) →
       ComposedOf w c → TraversesInfiniteInFiniteTime w
 
@@ -317,8 +345,9 @@ Restricted as audit B (#388) found the source restricts it: to local, bodily mot
 and to primary movers that are themselves moved. It is weaker than
 `TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading`
 (result `ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS`). It speaks of chains
-indexed by `Nat`, so it denies an infinite descending chain; it does not assert
-well-foundedness, which without choice is stronger.
+indexed by `Nat` and injective, so it denies an infinite descending chain of
+distinct members; it does not exclude a finite cycle of mutual movers, and it does
+not assert well-foundedness, which is stronger.
 
 Source: Aristotle, *Physics* VII.1, 242a15-20, 242b23-243a2 (Bekker pagination).
 -/
@@ -327,7 +356,7 @@ def NoInfiniteLocalMovedMoverChainReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)
     (MovesPrimarily : Being → Being → Prop) : Prop :=
-  ¬ ∃ c : Nat → Being,
+  ¬ ∃ c : Nat → Being, Function.Injective c ∧
     ∀ n, LocalMovedMoverLink IsLocal MovedIn MovesIn MovesPrimarily (c (n + 1)) (c n)
 
 /-! ## *Physics* VIII.5: a first mover not moved by another -/
@@ -352,7 +381,11 @@ and the opening thesis of VII.1, 241b24).
 Respect-free reading: some mover moves the moved thing in some respect. It does not
 say that the mover moves it in the respect in which it is moved, which
 `TruthCore.Latin.Aquinas.SummaTheologiae.ReducedOnlyByAMoverReading` says, and it
-does not say "by another".
+does not say "by another". It takes ὑπό τινος as a per se mover (`MovesIn`): a
+stronger reading than VIII.4's literal conclusion, which admits a per accidens
+mover, and not derived from it; and stronger than what VII.1's own proof secures
+in the internal-source case (rest-dependence, 242a1-4). Scope: physical motion, by
+instantiation (no guard).
 
 Source: Aristotle, *Physics* VII.1, 241b24; VIII.5, 256a13-14 (Bekker pagination).
 -/
@@ -366,8 +399,14 @@ many there is no first (*Physics* VIII.5, 256a17-19: ἀδύνατον γὰρ �
 τὸ κινοῦν καὶ κινούμενον ὑπʼ ἄλλου αὐτό· τῶν γὰρ ἀπείρων οὐκ ἔστιν οὐδὲν πρῶτον).
 
 Formalized as well-foundedness of `MoverMovedByAnotherLink`, as the *prima via*'s
-regress is formalized. Unlike that premise it is not restricted to per se links:
-it covers every mover moved by another.
+regress is formalized. `Acc` also excludes finite cycles and is stronger than
+denying an infinite descending chain; the sentence speaks only of going to
+infinity. The corpus uses the same well-foundedness form for the *prima via*'s
+"non est procedere in infinitum". Unlike that premise it is not restricted to per
+se links: it covers every mover moved by another. A narrower reading, restricted
+to the instrumental series of 256a4-13 (movers that move because they are moved),
+is also defensible and is not formalized. Scope: physical motion, by
+instantiation (no guard).
 
 Source: Aristotle, *Physics* VIII.5, 256a17-19 (Bekker pagination).
 -/
@@ -381,7 +420,8 @@ def NoInfiniteSeriesOfMoversMovedByAnotherReading {Being : Sort u} {Respect : So
 Stated as the reductio, like the *prima via*'s conclusion, so that it is axiom-free.
 It is weaker than that conclusion: the first mover may be moved by itself, as
 Aristotle goes on to say (256a19-21), where the *prima via*'s first mover is moved
-by none.
+by none. "First" (πρῶτον) is not formalized: the mover is not shown to head any
+particular series.
 
 Source: Aristotle, *Physics* VIII.5, 256a13-21 (Bekker pagination).
 -/

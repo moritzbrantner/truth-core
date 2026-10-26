@@ -5,9 +5,11 @@
   "definition_ids": [
     "DEF-NATURAL-AND-FORCED-MOTION",
     "DEF-PASSIVE-NATURAL-MOTION",
+    "DEF-RESPECT",
     "DEF-SELF-MOTION-ARISTOTLE"
   ],
   "disambiguation_ids": [
+    "DISAMB-MOTION",
     "DISAMB-SELF-MOTION"
   ]
 }

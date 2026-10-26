@@ -22,13 +22,13 @@ theorem localRegressFromContact {Being : Type} {Respect : Type}
     (hImpossible : NoInfiniteTraversalInFiniteTimeReading TraversesInfiniteInFiniteTime) :
     NoInfiniteLocalMovedMoverChainReading IsLocal MovedIn MovesIn MovesPrimarily := by
   -- INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT
-  rintro ⟨c, hChain⟩
+  rintro ⟨c, hInj, hChain⟩
   have hTouching : ∀ n, Touches (c (n + 1)) (c n) := by
     intro n
     obtain ⟨_, hPrimary, ⟨r, hLocal, hMoves⟩, _⟩ := hChain n
     exact hContact (c (n + 1)) (c n) r hLocal hPrimary hMoves
-  obtain ⟨w, hw⟩ := hOne c hTouching
-  exact hImpossible w (hTraverse c w hChain hw)
+  obtain ⟨w, hw⟩ := hOne c hInj hTouching
+  exact hImpossible w (hTraverse c w hInj hChain hw)
 
 /-- Each of the four premises is needed. Without contact, the infinite successor
 chain touches nowhere; without the one composite, nothing is made of it; without
@@ -75,25 +75,25 @@ theorem premisesNeeded :
     intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1) (fun y x => y = x + 1)
       (fun _ _ => False) (fun _ _ => False) (fun _ => False)
-      (fun _ hT => (hT 0).elim) (fun _ _ _ hw => hw.elim) (fun _ hw => hw)
-      ⟨fun n => n, succChain⟩
+      (fun _ _ hT => (hT 0).elim) (fun _ _ _ _ hw => hw.elim) (fun _ hw => hw)
+      ⟨fun n => n, fun _ _ h => h, succChain⟩
   · -- without the one composite: contact holds, but nothing is made of the chain
     intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1) (fun y x => y = x + 1)
       (fun _ _ => True) (fun _ _ => False) (fun _ => False)
-      (fun _ _ _ _ _ _ => trivial) (fun _ _ _ hw => hw.elim) (fun _ hw => hw)
-      ⟨fun n => n, succChain⟩
+      (fun _ _ _ _ _ _ => trivial) (fun _ _ _ _ hw => hw.elim) (fun _ hw => hw)
+      ⟨fun n => n, fun _ _ h => h, succChain⟩
   · -- without the traversal premise: a composite exists but traverses nothing
     intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1) (fun y x => y = x + 1)
       (fun _ _ => True) (fun _ _ => True) (fun _ => False)
-      (fun _ _ _ _ _ _ => trivial) (fun _ _ => ⟨0, trivial⟩) (fun _ hw => hw)
-      ⟨fun n => n, succChain⟩
+      (fun _ _ _ _ _ _ => trivial) (fun _ _ _ => ⟨0, trivial⟩) (fun _ hw => hw)
+      ⟨fun n => n, fun _ _ h => h, succChain⟩
   · -- without the impossibility premise: the composite does traverse
     intro h
     exact h Nat Unit (fun _ => True) (fun _ _ => True) (fun y x _ => y = x + 1) (fun y x => y = x + 1)
       (fun _ _ => True) (fun _ _ => True) (fun _ => True)
-      (fun _ _ _ _ _ _ => trivial) (fun _ _ => ⟨0, trivial⟩) (fun _ _ _ _ => trivial)
-      ⟨fun n => n, succChain⟩
+      (fun _ _ _ _ _ _ => trivial) (fun _ _ _ => ⟨0, trivial⟩) (fun _ _ _ _ _ => trivial)
+      ⟨fun n => n, fun _ _ h => h, succChain⟩
 
 end TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact

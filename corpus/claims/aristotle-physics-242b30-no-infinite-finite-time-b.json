@@ -5,5 +5,8 @@
   "locator": "VII.1, 242b30-243a1",
   "interpretation": "Typed reading: nothing, finite or infinite, goes through an infinite motion in a finite time (ἀμφοτέρως δὲ ἀδύνατον). Aristotle relies here on Physics VI.7; the reading records only the impossibility claim, as a universal over things.",
   "interpretation_of": "ARIST-PHYS-242B30-NO-INFINITE-FINITE-TIME-A",
-  "status": "formalized"
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+  ]
 }

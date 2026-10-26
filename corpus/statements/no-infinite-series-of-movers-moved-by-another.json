@@ -1,6 +1,6 @@
 {
   "id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
-  "paraphrase": "A mover that is moved by another cannot go on to infinity: the relation 'moves this thing, is another than it, and is itself moved by another' is well-founded.",
+  "paraphrase": "A mover that is moved by another cannot go on to infinity: the relation 'moves this thing, is another than it, and is itself moved by another' is well-founded. Well-foundedness also excludes finite cycles.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteSeriesOfMoversMovedByAnotherReading",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",
