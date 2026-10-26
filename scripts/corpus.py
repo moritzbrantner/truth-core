@@ -189,6 +189,8 @@ ATTACKS_PREDICATE = "attacks"
 # Source evidence bearing on a premise (claim → statement). It records where the
 # premise is defended from a text; it is not an inference and closes nothing.
 SUPPORTS_PREDICATE = "supports"
+# Metadata only: never source support or premise closure.
+SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
 # when a statement has root_route relations, `frontier` walks up into it only
 # through the designated arguments, so premises of other arguments for the same
@@ -231,6 +233,7 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
         REFUTES_PREDICATE: ({"argument"}, "statement"),
         ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
         SUPPORTS_PREDICATE: ({"claim"}, "statement"),
+        SCHEMA_INSTANCE_PREDICATE: ({"statement"}, "statement"),
         ROOT_ROUTE_PREDICATE: ({"argument"}, "statement"),
     }.get(predicate)
     if expected is None:
@@ -241,6 +244,58 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
             f"{path.relative_to(ROOT)}: {predicate} relates "
             f"{'/'.join(sorted(subject_kinds))} to {object_kind}"
         )
+
+
+def validate_schema_registration(
+    path: Path,
+    relation: dict[str, Any],
+    results: dict[str, dict[str, Any]],
+    configs: dict[str, dict[str, Any]],
+) -> None:
+    """Require named Comparator obligations; metadata is not verification."""
+    if relation["predicate"] != SCHEMA_INSTANCE_PREDICATE:
+        return
+    require(relation, ["verification_result_id", "instance_theorem", "schema_theorem", "note"], path)
+    if not isinstance(relation["note"], str) or not relation["note"].strip():
+        raise CorpusError(f"{path.relative_to(ROOT)}: schema registration note must be nonempty text")
+    result_id = relation["verification_result_id"]
+    if not isinstance(result_id, str) or result_id not in results:
+        raise CorpusError(f"{path.relative_to(ROOT)}: unknown verification_result_id {result_id}")
+    for field in ("instance_theorem", "schema_theorem"):
+        theorem = relation[field]
+        if not isinstance(theorem, str) or theorem not in configs[result_id].get("theorem_names", []):
+            raise CorpusError(
+                f"{path.relative_to(ROOT)}: {field} must name an obligation in "
+                f"{result_id}'s Comparator config"
+            )
+
+
+def schema_binding_records(
+    relations: list[dict[str, Any]], results: dict[str, dict[str, Any]],
+) -> list[tuple[dict[str, Any], dict[str, Any]]]:
+    """Reuse bind-check for each registered theorem's exact statement head.
+
+    These synthetic binding requests are not corpus arguments or frontier
+    proofs. Philosophical conditions belong inside the named conditional
+    statement; extra proof hypotheses must not pass as proved instances.
+    """
+    bindings = []
+    for relation in sorted(relations, key=lambda record: record["id"]):
+        if relation["predicate"] != SCHEMA_INSTANCE_PREDICATE:
+            continue
+        result = results[relation["verification_result_id"]]
+        for side, theorem_field, statement_field in (
+            ("instance", "instance_theorem", "subject_id"),
+            ("schema", "schema_theorem", "object_id"),
+        ):
+            binding = {
+                "id": f"{relation['id']}:{side}",
+                "solution_module": result["solution_module"],
+                "theorem": relation[theorem_field],
+            }
+            argument = {"premise_statement_ids": [], "conclusion_statement_id": relation[statement_field]}
+            bindings.append((binding, argument))
+    return bindings
 
 
 # Transcription kinds (#391). A result record may declare that it is a
@@ -1531,6 +1586,7 @@ def validate() -> dict[str, int]:
                 f"{path.relative_to(ROOT)}: priority must be an integer"
             )
 
+    result_configs = {}
     for path, result in results:
         require(
             result,
@@ -1577,6 +1633,7 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{config_path.relative_to(ROOT)}: theorem is not listed in theorem_names"
             )
+        result_configs[result["id"]] = config
         axiom_error = permitted_axioms_error(config)
         if axiom_error:
             raise CorpusError(f"{config_path.relative_to(ROOT)}: {axiom_error}")
@@ -1584,6 +1641,10 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{config_path.relative_to(ROOT)}: NanoDa must be enabled"
             )
+
+    result_records = {key: value[1] for key, value in result_index.items()}
+    for path, relation in relations:
+        validate_schema_registration(path, relation, result_records, result_configs)
 
     unused = sorted(definition_ids - used_definitions)
     if unused:
@@ -2094,7 +2155,10 @@ def bind_result(
     }
 
 
-def bind_report(described_list: list[dict[str, Any]]) -> dict[str, Any]:
+def bind_report(
+    described_list: list[dict[str, Any]],
+    schema_bindings: Iterable[tuple[dict[str, Any], dict[str, Any]]] = (),
+) -> dict[str, Any]:
     """Bind every result against the Lean descriptions (keyed by theorem name)."""
     statement_index = index_by_id(load_dir("statements"), "statement")
     argument_index = index_by_id(load_dir("arguments"), "argument")
@@ -2105,6 +2169,11 @@ def bind_report(described_list: list[dict[str, Any]]) -> dict[str, Any]:
         described = by_theorem.get(result["theorem"], {"error": "theorem not described by the Lean tool"})
         argument = argument_index[result["argument_id"]][1]
         entries.append(bind_result(result, argument, statement_index, described))
+    for binding, argument in schema_bindings:
+        described = by_theorem.get(binding["theorem"], {"error": "schema theorem not described by the Lean tool"})
+        entry = bind_result(binding, argument, statement_index, described)
+        entry["kind"] = "schema-registration"
+        entries.append(entry)
     used = {tuple(item["pin"]) for entry in entries for item in entry["undecidable"]}
     stale = sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
     summary = Counter(entry["status"] for entry in entries)
@@ -2117,11 +2186,18 @@ def bind_report(described_list: list[dict[str, Any]]) -> dict[str, Any]:
 
 def command_bind_check(args: argparse.Namespace) -> int:
     validate()
+    results = load_dir("results")
+    schema_bindings = schema_binding_records(
+        [relation for _, relation in load_dir("relations")],
+        {record["id"]: record for _, record in results},
+    )
     if args.lean_json:
         described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
     else:
-        described_list = run_bind_tool(bind_tool_input(load_dir("results")))
-    report = bind_report(described_list)
+        described_list = run_bind_tool(bind_tool_input(
+            results + [(ROOT, binding) for binding, _ in schema_bindings]
+        ))
+    report = bind_report(described_list, schema_bindings)
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
     else:
