@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "GIBBARD-REPLY-2022",
+    "source_url": "https://www.fulcrum.org/ebooks/zs25xb782/download?locale=en",
+    "retrieved_at": "2026-10-26T19:11:05Z",
+    "sha256": "sha256:4b738a2b5f8c8286aa148840cafc0235bd4f68624afe30d945383bc7170b0855",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright \u00a9 2022 by the authors; CC BY-NC-ND 4.0 International (physical PDF page 5). Publisher-hosted open-access download. Two independent fetches had identical byte hashes on 2026-10-26. Wayback CDX retrieval returned an Internet Archive Temporarily Offline page on 2026-10-26; no matching fallback could be pinned; this snapshot remains fragile to live-byte drift. No PDF or extracted text is committed."
+  },
+  "passages": [
+    {
+      "id": "GIBBARD-REPLY-2022-535-544",
+      "locator": "Reply to Commentators, pp. 535\u2013544, \u00a73, responses to McPherson/Perl and Yalcin",
+      "claim_locator_prefixes": [
+        "pp. 536\u2013538,",
+        "pp. 541\u2013542,"
+      ],
+      "pdf_pages": {
+        "first": 564,
+        "last": 573
+      },
+      "text_sha256": "sha256:88b99c35f08d0112bc76b83f06703dcf6f0c32efb72857ce4e4cdc321038b4e7",
+      "incipit": "Reply to Commentators 535 Nye says, \u201cJudgments about wrongness and moral"
+    }
+  ]
+}

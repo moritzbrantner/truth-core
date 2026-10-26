@@ -1,0 +1,10 @@
+{
+  "id": "PLAN-STATE-EMBEDDING-CONTROL",
+  "argument_id": "PLAN-STATE-EMBEDDING-CONTROL",
+  "challenge_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution",
+  "theorem": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.planStateEmbeddingControl",
+  "comparator_config": "results/PLAN-STATE-EMBEDDING-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst semantic control: compositional plan-state acceptance validates MP for all formulas, including nested/mixed formulas, with inhabited distinct-atom witnesses and a converse counterexample. This is not a source attribution or proof of the psychological/ordinary-language adequacy of the clauses and does not settle substantive moral realism."
+}

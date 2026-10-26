@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLAN-STATE-EMBEDDING-CONTROL",
+  "term": "modus ponens and converse controls in stipulated plan-state semantics",
+  "definition": "The conjunction of SemanticModusPonens (for every Fact/Action type, compatible state and formulas p/q, accepting p and conditional p q implies accepting q), InhabitedDistinctControl (a nonempty state, each of whose points permits an action, accepting two distinct forbidden-action atoms and their conditional), and ConverseCounterexample (a nonempty state, each of whose points permits an action, accepting q and conditional p q while not accepting p). This is a property of the explicitly stipulated semantics, not a completeness claim for historical expressivism or a verdict about moral realism.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction for #185, motivated by the already pinned secondary account SEP-MORAL-COGNITIVISM \u00a72.5. Exact conditional clauses and the psychological adequacy of compatible-state acceptance remain separate historical/fidelity obligations; see docs/expressivist-embedding-boundary.md. This models a possible planning language without asserting it is ordinary moral language.",
+  "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.PlanStateEmbeddingControl"
+}
