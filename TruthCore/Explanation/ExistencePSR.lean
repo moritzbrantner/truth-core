@@ -48,12 +48,22 @@ def EveryExistentExternallyCaused (m : Model W E) : Prop :=
   ∀ w x, m.ontic.ExistsAt w x →
     ∃ y, m.ontic.ExistsAt w y ∧ y ≠ x ∧ m.ontic.Causes w y x
 
-/-- First model: a necessary actual individual has a stipulated intrinsic
-reason at every world and no other being causes it. Second model: a genuinely
-contingent individual's existence is explained, while a necessary individual's
-existence is not. Hence contingent-only PSR does not suffice for the broader
-existence-PSR even on a universally accessible frame. These are model-theoretic
-separations, not claims that either explanation is metaphysically sufficient. -/
+/-- First conjunct: some universally accessible, sound model satisfies
+`ExistencePSR` and has a necessary individual at world `false`, yet
+`EveryExistentExternallyCaused` fails, i.e. at least one existent at some world
+lacks a distinct existing cause. Second conjunct: some such model satisfies
+`ContingentPSR`, has a contingent individual (`true`) and a necessary
+individual at world `false`, yet `ExistencePSR` fails, i.e. some existent at
+some world lacks any explanation. Hence existence-PSR does not entail external
+causation of every existent, and contingent-only PSR does not entail
+existence-PSR, even on a universally accessible frame.
+
+This type does *not* say that no existent is caused, that any explanation is
+intrinsic, or that the unexplained existent of the second model is the
+necessary one. The witnesses in `Results.Explanation.PSRScope.Solution` have
+those further properties, but this proposition does not expose them. These are
+model-theoretic separations, not claims that either explanation is
+metaphysically sufficient. -/
 def PsrScopeBoundary : Prop :=
   (∃ m : Model Bool Bool,
     (∀ w v, m.ontic.frame.access w v) ∧

@@ -22,31 +22,49 @@ predecessor for each individual.
 
 ## The models
 
-The advertised theorem `psrScopeBoundary` constructs both cases with two
-Boolean worlds, two candidate individuals and universal accessibility:
+The advertised theorem `psrScopeBoundary` proves `PsrScopeBoundary`, whose
+type certifies exactly this, for two universally accessible, sound models on
+two Boolean worlds and two candidate individuals:
 
-1. **Existence-PSR without external causation.** Only `false` exists, at both
-   worlds. Its existence has a stipulated `intrinsic` reason at each world.
-   There are no causal arrows at all. `NecessaryBeing` and `ExistencePSR`
-   hold; `EveryExistentExternallyCaused` does not.
-2. **Contingent-only PSR without explanation for necessary existence.** The
-   individual `false` exists in both worlds, but `true` exists only at world
+- **Case 1:** `ExistencePSR` holds and a necessary individual exists at world
+  `false`, yet `EveryExistentExternallyCaused` fails: *at least one* existent
+  at some world lacks a distinct existing cause.
+- **Case 2:** `ContingentPSR` holds, `true` is contingent at world `false` and
+  a necessary individual exists there, yet `ExistencePSR` fails: *some*
+  existent at some world lacks any explanation.
+
+The type does not certify that no existent is caused, that any explanation is
+intrinsic, or which existent in case 2 is unexplained. The concrete witnesses
+in `Solution.lean` have those stronger properties, described below for
+orientation only:
+
+1. **Existence-PSR without external causation of every existent.** Only
+   `false` exists, at both worlds. Its existence has a stipulated `intrinsic` reason at each world.
+   There are no causal arrows at all (a witness property, not certified).
+   `NecessaryBeing` and `ExistencePSR` hold; `EveryExistentExternallyCaused`
+   does not.
+2. **Contingent-only PSR without existence-PSR.** The individual `false`
+   exists in both worlds, but `true` exists only at world
    `false` and has a stipulated `circumstance` reason there. The necessary
-   individual has no assigned explanation anywhere. `ContingentPSR` holds
-   non-vacuously and a necessary individual exists, but `ExistencePSR` fails.
+   individual has no assigned explanation anywhere (a witness property, not
+   certified). `ContingentPSR` holds non-vacuously and a necessary individual
+   exists, but `ExistencePSR` fails.
 
-Consequences of the model definitions:
+Consequences of the certified type:
 
-- An unrestricted-over-existents PSR does *not by itself* say everything has
-  been caused by some **other** individual. A claim that every explanation
-  requires such a distinct cause needs an independent bridge.
-- A contingent-only PSR does *not by itself* explain necessary existence. An
-  opponent applying an explanatory demand to a necessary being must identify
-  why that demand applies if their accepted PSR was contingent-only.
-- Conversely, someone who grants brute contingent existence yet demands that
-  necessary existence have a further explanation has not asserted a formal
-  contradiction. They owe an **independent scope-sensitive reason** for this
-  asymmetry. The countermodels do not refute that possible reason.
+- An unrestricted-over-existents PSR does *not by itself* entail that every
+  existent has been caused by some **other** existing individual. A claim
+  that every explanation requires such a distinct cause needs an independent
+  bridge.
+- A contingent-only PSR does *not by itself* entail the existence-PSR, even in
+  a model that has a necessary individual. (The certified type does not
+  locate the unexplained existent; that the witness leaves the necessary
+  individual unexplained is not certified.) An opponent applying an explanatory demand to a necessary being must
+  identify why that demand applies if their accepted PSR was contingent-only.
+- Conversely (an uncertified remark, not part of the theorem), someone who
+  grants brute contingent existence yet demands that necessary existence have
+  a further explanation owes an **independent scope-sensitive reason** for
+  this asymmetry. The countermodels do not refute that possible reason.
 
 ## Premise comparison and frontier
 

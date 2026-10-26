@@ -5,5 +5,5 @@
     "DEF-PSR-REASON",
     "DEF-PSR-EXTERNAL-CAUSE"
   ],
-  "resolution": "A stipulated explanatory reason for a world-relative existence fact (DEF-PSR-REASON) is not interchangeable with a distinct efficient cause of the existing individual (DEF-PSR-EXTERNAL-CAUSE). The first countermodel expressly satisfies existence-PSR while lacking any external cause. Whether an intrinsic reason counts as a genuinely sufficient metaphysical explanation remains open, so this result establishes formal non-entailment rather than metaphysical success."
+  "resolution": "A stipulated explanatory reason for a world-relative existence fact (DEF-PSR-REASON) is not interchangeable with a distinct efficient cause of the existing individual (DEF-PSR-EXTERNAL-CAUSE). The first certified case satisfies existence-PSR while not every existent has a distinct existing cause (its concrete witness has no causes at all, but the certified type exposes only the failure of EveryExistentExternallyCaused). Whether an intrinsic reason counts as a genuinely sufficient metaphysical explanation remains open, so this result establishes formal non-entailment rather than metaphysical success."
 }
