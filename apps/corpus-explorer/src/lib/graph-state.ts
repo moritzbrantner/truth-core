@@ -74,7 +74,7 @@ export const DEFAULT_STATE: GraphState = {
   emphasis: "frontier",
   showIsolated: false,
   leaf: "",
-  relations: false,
+  relations: true,
   scope: "global",
   obligation: "",
   pins: [],
@@ -112,7 +112,7 @@ export function parseGraphState(params: ReadableParams): GraphState {
     emphasis: params.get("emphasis") === "all" ? "all" : "frontier",
     showIsolated: params.get("islands") === "1",
     leaf: oneOf(params.get("leaf"), ["", "unsupported", "unconsumed", "frontier"] as const, ""),
-    relations: params.get("relations") === "1",
+    relations: params.get("relations") !== "0",
     ...parseProofSearchState(params),
     view: oneOf(params.get("view"), views, DEFAULT_STATE.view),
     scope: params.get("scope") === "goal" ? "goal" : "global",
@@ -145,7 +145,7 @@ export function serializeGraphState(state: GraphState): string {
   if (state.emphasis !== "frontier") params.set("emphasis", state.emphasis);
   if (state.showIsolated) params.set("islands", "1");
   if (state.leaf) params.set("leaf", state.leaf);
-  if (state.relations) params.set("relations", "1");
+  if (!state.relations) params.set("relations", "0");
   if (state.view !== DEFAULT_STATE.view) params.set("view", state.view);
   if (state.target) params.set("target", state.target);
   if (state.node) params.set("node", state.node);

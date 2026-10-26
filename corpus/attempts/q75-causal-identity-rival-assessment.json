@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-Q75-CAUSAL-IDENTITY-RIVAL-ASSESSMENT",
+  "statement_ids": [
+    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-NONORGANIC-INTELLECT-OPERATION-ATTRIBUTION",
+    "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "blocked",
+  "summary": "Read full pinned q.75 a.1–2 and q.76 a.1, Pasnau pp.353–357 and new PAPINEAU-RISE-PHYSICALISM-3-12. docs/human-intellect-rival-assessment.md records the affirmative causal-identity account, its distinct local reconstructed reply, shared-question debts, rejected readings and exact interference inference. Existing conditional results do not establish their six premises or refute every physical realization. No new claim is created merely to log research; no premise or root change.",
+  "evidence": [
+    "PR-420",
+    "PR-422",
+    "PR-427",
+    "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY"
+  ],
+  "blocker": "Defend the universal intrinsic/organ interference constraint beyond sensory illustrations and compare q.75 instrumentality with the rival’s realization semantics; then defend positive operation attribution and operation/existence correspondence. Causal completeness, efficacy, non-overdetermination, semantic correctness and unrestricted capacity are not established by this reading."
+}

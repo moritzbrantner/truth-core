@@ -208,6 +208,7 @@ summary {
 .frontier-key-established { background: var(--status-self-evident); }
 .frontier-key-conditional { background: var(--paper); border: 2px solid var(--status-proved); }
 .frontier-key-other { background: var(--line-strong); }
+.frontier-key-relation { border-top: 2px dashed var(--status-alternative); display: inline-block; width: 1.2rem; }
 
 .field-label {
   color: var(--muted);
