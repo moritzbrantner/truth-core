@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from source_evidence import SourceEvidenceError, validate_bindings
+from premise_dossiers import dossier_index, format_dossier, validate_attempt
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -1319,6 +1320,7 @@ def validate() -> dict[str, int]:
     results = load_dir("results")
     definitions = load_dir("definitions")
     disambiguations = load_dir("disambiguations")
+    attempts = load_dir("attempts")
 
     source_index = index_by_id(sources, "source")
     statement_index = index_by_id(statements, "statement")
@@ -1330,6 +1332,13 @@ def validate() -> dict[str, int]:
     result_index = index_by_id(results, "result")
     definition_index = index_by_id(definitions, "definition")
     disambiguation_index = index_by_id(disambiguations, "disambiguation")
+    attempt_index = index_by_id(attempts, "attempt")
+    for path, attempt in attempts:
+        try:
+            validate_attempt(attempt, set(statement_index), set(result_index) | set(claim_index))
+        except ValueError as exc:
+            raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
+        validate_prose_ids(path, attempt, ("summary", "blocker"), set(statement_index) | set(definition_index) | set(disambiguation_index))
     definition_ids = set(definition_index)
     disambiguation_ids = set(disambiguation_index)
     used_definitions: set[str] = set()
@@ -1602,6 +1611,7 @@ def validate() -> dict[str, int]:
         "results": len(result_index),
         "definitions": len(definition_index),
         "disambiguations": len(disambiguation_index),
+        "attempts": len(attempt_index),
     }
 
 
@@ -1647,7 +1657,7 @@ def command_check(_: argparse.Namespace) -> int:
         f"{counts['inferences']} inferences, {counts['arguments']} arguments, "
         f"{counts['relations']} relations, {counts['results']} results, "
         f"{counts['candidates']} candidates, {counts['definitions']} definitions, "
-        f"{counts['disambiguations']} disambiguations"
+        f"{counts['disambiguations']} disambiguations, {counts['attempts']} attempts"
     )
     return 0
 
@@ -1676,6 +1686,7 @@ def command_status(_: argparse.Namespace) -> int:
         "candidates",
         "definitions",
         "disambiguations",
+        "attempts",
     ):
         print(f"{key + ':':16} {counts[key]}")
     return 0
@@ -1733,6 +1744,27 @@ def command_frontier(args: argparse.Namespace) -> int:
         print(json.dumps(report, indent=2, ensure_ascii=False))
     else:
         print(format_frontier(report))
+    return 0
+
+
+def command_dossier(args: argparse.Namespace) -> int:
+    validate()
+    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
+        raise CorpusError(f"unknown statement: {args.statement_id}")
+    report = frontier_report(data["statements"], data["arguments"], data["results"], data["relations"],
+                             root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]), claims=data["claims"])
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    dossiers = dossier_index(data, report)
+    if args.all:
+        print(json.dumps(dossiers, ensure_ascii=False))
+        return 0
+    if args.statement_id not in dossiers:
+        raise CorpusError(f"unknown statement: {args.statement_id}")
+    dossier = dossiers[args.statement_id]
+    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data))
     return 0
 
 
@@ -2146,6 +2178,13 @@ def parser() -> argparse.ArgumentParser:
         help="print the open-premise cost of each argument concluding the root, cheapest marked",
     )
     frontier.set_defaults(func=command_frontier)
+    dossier = sub.add_parser("dossier", help="inspect a premise's sources, arguments, attempts and route contribution")
+    target = dossier.add_mutually_exclusive_group(required=True)
+    target.add_argument("statement_id", nargs="?")
+    target.add_argument("--all", action="store_true", help="emit all dossiers as one JSON object (for the explorer)")
+    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON")
+    dossier.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    dossier.set_defaults(func=command_dossier)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
