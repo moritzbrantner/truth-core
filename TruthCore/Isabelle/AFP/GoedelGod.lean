@@ -225,4 +225,16 @@ def NecessaryExistencePositivityIndependent : Prop :=
     ¬ NecessaryExistencePositive F P ∧
     ¬ GodLikeNecessarilyExists F P
 
+/-- In the AFP embedding with quantification over **every** intensional
+property, Scott's `NE x` is equivalent to the *world-level* condition that
+every accessible world is identical to the current world. This uses the
+property `fun y v => y = x ∧ v = w`, which is an essence of `x` at `w` but
+cannot be exemplified at any distinct world. Conversely, if there are no
+distinct accessible worlds, any essence is exemplified by `x` at each
+accessible world. This characterizes the AFP definition, not metaphysical
+necessary existence under every possible restriction of property domains. -/
+def NecessaryExistenceWorldIsolation (World : Type u) (Ind : Type v) : Prop :=
+  ∀ (F : Frame World) (x : Ind) (w : World),
+    NecessaryExistence F x w ↔ ∀ next, F.access w next → next = w
+
 end TruthCore.Isabelle.AFP.GoedelGod
