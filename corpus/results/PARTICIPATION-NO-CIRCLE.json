@@ -5,5 +5,6 @@
   "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.noCircularExplanation",
   "comparator_config": "results/PARTICIPATION-NO-CIRCLE/comparator.json",
-  "status": "solution-present"
+  "status": "solution-present",
+  "description": "Near-transcription (AGENTS.md invariant 16): the conclusion is the asymmetry premise AsymmetricGround instantiated at the two directions of one circular explanation, over an uninterpreted Grounds relation. It shows that the asymmetry norm excludes that circle, not that any participation account is noncircular."
 }

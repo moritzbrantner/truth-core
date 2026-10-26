@@ -5,5 +5,6 @@
   "solution_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.infiniteHasNoPrinciple",
   "comparator_config": "results/ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE/comparator.json",
-  "status": "solution-present"
+  "status": "solution-present",
+  "description": "Opaque-atom transcription (AGENTS.md invariant 16): every proposition the theorem relates is an uninterpreted `Prop` parameter, so it certifies only that the source's step to STMT-INFINITE-HAS-NO-PRINCIPLE was transcribed over the bound readings, not that the conclusion is derived from typed vocabulary. Its proof applies a single premise whose consequent is the conclusion. A faithful map of the source argument, not progress on the case; it closes no frontier node by itself."
 }
