@@ -1,0 +1,14 @@
+{
+  "id": "NT-MARK-14-BLASPHEMY-REACTION",
+  "statement_id": "STMT-REPORTED-MARK-BLASPHEMY-REACTION",
+  "source_id": "NT-MARK",
+  "locator": "14.63-64",
+  "interpretation": "The charge is the high priest’s reaction; neither its truth nor narrator endorsement follows. The council’s ensuing condemnation is context, not an independently preserved hostile witness. See docs/mark-high-priest-answer.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}
