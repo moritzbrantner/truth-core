@@ -100,6 +100,13 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <h3 className="mt-4 font-medium">Countermodel attempts</h3>
         {dossier.countermodel_attempt_ids.length ? <ul className="mt-2">{dossier.countermodel_attempt_ids.map((id) => <li key={id}><a className="link-quiet font-mono text-xs" href={`#${id}`}>{id}</a></li>)}</ul> : <p className="mt-2 text-sm">None recorded.</p>}
       </section>
+      {dossier.configuration_cases?.length ? <section className="record-section" aria-labelledby="dossier-configurations">
+        <h2 id="dossier-configurations" className="eyebrow">Configuration assumptions</h2>
+        <ul className="mt-3 grid gap-3">{dossier.configuration_cases.map((entry) => <li key={entry.id}>
+          <Link className="link-quiet font-mono text-xs" href={entry.href}>{entry.id}</Link>
+          <p className="mt-1 text-sm">{entry.semantics_id} · {entry.verification}</p>
+        </li>)}</ul>
+      </section> : null}
       <section className="record-section" aria-labelledby="dossier-routes">
         <h2 id="dossier-routes" className="eyebrow">Route contribution</h2>
         <p className="mt-3 text-sm text-[var(--muted)]">A counted open leaf contributes one distinct member to that route’s current premise set. This is not the cost reduction that would follow from proving it.</p>

@@ -684,7 +684,7 @@ def regenerate_media_export(passage: dict[str, Any]) -> Path | None:
 
 
 def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tuple[list[dict[str, Any]], str]:
-    """Find the pinned span in an export and reject any hash mismatch.
+    """Find the pinned span and require its producer revision, hash and count.
 
     Lookup order: an explicit --export file, the local cache, then a fresh export
     from YOUTUBE_CORPUS_DIR. Returns the segments and the export's producer revision.
@@ -704,6 +704,13 @@ def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tup
             f"place one at {cached.relative_to(ROOT)}, or set YOUTUBE_CORPUS_DIR"
         )
     export = load_media_export(candidates[0])
+    producer = export.get("producer")
+    producer_revision = producer.get("revision") if isinstance(producer, dict) else None
+    if producer_revision != passage["producer_revision"]:
+        raise SourceEvidenceError(
+            f"{passage['id']}: export {candidates[0]} producer revision mismatch: "
+            f"expected {passage['producer_revision']!r}, got {producer_revision!r}"
+        )
     streams = media_span_segments(export, passage)
     if not streams:
         raise SourceEvidenceError(
@@ -724,7 +731,7 @@ def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tup
             f"{passage['id']}: media span mismatch: expected {passage['span_sha256']} "
             f"({passage['segment_count']} segments), got {actual} ({len(segments)} segments)"
         )
-    return segments, str(export.get("producer", {}).get("revision", ""))
+    return segments, producer_revision
 
 
 def format_timestamp(seconds: float) -> str:
@@ -1280,13 +1287,7 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
     _, passage = indexed
 
     if is_media_span(passage):
-        segments, producer_revision = resolve_media_span(passage, Path(export) if export else None)
-        if producer_revision != passage["producer_revision"]:
-            print(
-                f"note: export producer revision {producer_revision} differs from pinned "
-                f"{passage['producer_revision']}; the span hash still matches",
-                file=sys.stderr,
-            )
+        segments, _ = resolve_media_span(passage, Path(export) if export else None)
         text = media_span_text(segments)
     elif is_web_snapshot(passage):
         if export:

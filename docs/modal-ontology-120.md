@@ -94,6 +94,7 @@ This inventory gives the workloop an exhaustive **enumeration of the proposed qu
 - **CAU-06 (F)** — Acyclicity alone does not entail well-foundedness.
 - **CAU-07 (F)** — Having finitely many immediate causes does not entail having finitely many causal ancestors.
 - **CAU-08 (F)** — The absence of infinite backward causal chains does not entail that every event has finitely many distinct causal ancestors.
+  - Conditional repair and independent omission countermodels: [finite branching and existence-PSR syllogisms](causal-finite-branching-and-psr-syllogisms.md).
 - **CAU-09 (F)** — A causal network may have infinite ancestry even when every event lies within a bounded temporal interval.
 - **CAU-10 (H)** — No concrete event can possess an infinite causal ancestry.
 

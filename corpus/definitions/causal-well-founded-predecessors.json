@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+  "term": "well-founded causal predecessors",
+  "definition": "The directed causal relation is well-founded in the accessibility sense: every node has an inductively terminating inspection of predecessors. Finite cycles and endlessly descending predecessor chains are excluded, while arbitrarily deep finite paths remain possible.",
+  "lean_declaration": "TruthCore.Causality.FiniteBranching.WellFoundedPredecessors",
+  "basis": "stipulative",
+  "note": "Mathematical predicate, not an independently established premise about real causation or the past. The relation orientation is from cause to dependent."
+}

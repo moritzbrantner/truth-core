@@ -102,6 +102,12 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "objection_relation_ids": sorted(entry["id"] for entry in relations if entry["predicate"] == "attacks"),
             "attempts": attempts,
             "countermodel_attempt_ids": [entry["id"] for entry in attempts if entry["kind"] == "countermodel"],
+            "configuration_cases": [
+                {"id": case["id"], "semantics_id": case["semantics"]["id"], "href": f"/configurations/{case['id']}",
+                 "verification": "required (registration only)"}
+                for case in sorted(data.get("configurations", []), key=lambda entry: entry["id"])
+                if sid == case["seed_statement_id"] or sid in case["semantics"]["applications"]
+            ],
             "model_evaluations": [
                 {"model_id": model["id"], "vocabulary": model["vocabulary"],
                  "lean_declaration": model["lean_declaration"], "value": evaluation["value"],
@@ -148,6 +154,9 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
             lines.append("  none recorded")
     for key, label in (("transcription_result_ids", "Transcriptions"), ("instantiation_result_ids", "Declared/recognized instantiations (not a mode-5 schema registry)")):
         lines.append(f"\n{label}: " + (", ".join(dossier[key]) or "none recorded"))
+    lines.append("\nConfiguration cases (registration only; run configurations for live verification):")
+    for case in dossier.get("configuration_cases", []):
+        lines.append(f"  {case['id']}: semantics {case['semantics_id']}; {case['href']}")
     lines.append("\nAttempts (outcomes do not establish truth or close premises):")
     for attempt in dossier["attempts"]:
         lines.append(f"  {attempt['id']} [{attempt['date']}; {attempt['kind']}; {attempt['outcome']}]: {attempt['summary']}")

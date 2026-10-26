@@ -1,0 +1,18 @@
+{
+  "id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "premise_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+  ],
+  "conclusion_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "inference_ids": ["INF-PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE"],
+  "meaning": "In a populated causal world, well-founded efficient causes ensure a causally uncaused actual existent; existence-PSR assigns an explanation token to its existence fact. No interpretation of that token as intrinsically adequate, or as God, is earned.",
+  "definition_ids": [
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
+    "DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"
+  ],
+  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+}

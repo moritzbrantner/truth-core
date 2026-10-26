@@ -46,6 +46,29 @@ class FiniteModelsTests(unittest.TestCase):
         self.assertEqual(fixed['STMT-KANT-CONTINGENT-INDIVIDUAL'], 'violates')
         self.assertEqual(variable['STMT-KANT-CONTINGENT-INDIVIDUAL'], 'satisfies')
 
+    def test_explained_source_omission_controls_keep_population_separate_from_well_foundedness(self):
+        models = {m['id']: {e['statement_id']: e['value'] for e in m['evaluations']}
+                  for m in self.models}
+        source = models['MODEL-PSR-INTRINSIC']
+        mutual = models['MODEL-PSR-MUTUAL-CAUSES']
+        empty = models['MODEL-PSR-EMPTY-WORLD']
+        psr = 'STMT-PSR-EXISTENCE-COMPONENT'
+        populated = 'STMT-PSR-POPULATED-AT'
+        well_founded = 'STMT-PSR-WELL-FOUNDED-CAUSES-AT'
+        explained = 'STMT-PSR-EXPLAINED-SOURCE-AT'
+        external = 'STMT-PSR-EXTERNAL-CAUSE-COMPONENT'
+        self.assertTrue(all(m[psr] == 'satisfies' for m in (source, mutual, empty)))
+        self.assertEqual((source[populated], source[well_founded], source[explained], source[external]),
+                         ('satisfies', 'satisfies', 'satisfies', 'violates'))
+        self.assertEqual((mutual[populated], mutual[well_founded], mutual[explained], mutual[external]),
+                         ('satisfies', 'violates', 'violates', 'satisfies'))
+        self.assertEqual((empty[populated], empty[well_founded], empty[external]),
+                         ('violates', 'satisfies', 'satisfies'))
+        report = model_report([next(m for m in self.models if m['id'] == 'MODEL-PSR-MUTUAL-CAUSES')],
+                              explained, [populated, psr, well_founded])
+        self.assertEqual(report['models'][0]['classification'], 'incomplete_or_inapplicable')
+        self.assertEqual(report['models'][0]['violated_premises'], [well_founded])
+
     def test_unknown_premises_and_unrelated_models_cannot_be_counterexamples(self):
         target = 'STMT-ACT-SIMPLY-PRIOR-TO-POTENCY'
         # Choose a genuinely registered satisfied premise without relying on its name.

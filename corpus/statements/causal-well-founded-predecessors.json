@@ -1,0 +1,7 @@
+{
+  "id": "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+  "lean_declaration": "TruthCore.Causality.FiniteBranching.WellFoundedPredecessors",
+  "paraphrase": "The causal predecessor relation is well-founded (accessible), excluding cycles and endless backward causal regress without bounding finite causal depth.",
+  "definition_ids": ["DEF-CAUSAL-WELL-FOUNDED-PREDECESSORS"],
+  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+}
