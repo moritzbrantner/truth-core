@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-Q14-IMMATERIAL-INTELLECT-BRIDGE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.14 a.1 co. and ad 1\u20133; I q.14 a.2, a.4\u20135, a.8 for further context",
+  "priority": 434,
+  "goal": "Defend STMT-IMMATERIAL-IS-INTELLECTUAL while preserving its current signature. The verified capacity readings alone do not imply any positive reception capacity from absence of material reception, do not promote sense to intellect, and do not interpret the existing primitive HasIntellect. Investigate whether the graded immateriality argument can supply positive aptitudinal availability and intellectual grade without passive divine acquisition; keep every extra premise explicit and source it. A source review that requires changing the old component-free antecedent is a cross-cutting semantic decision, not a worker-local definition edit. See docs/immaterial-intellect-reception.md.",
+  "reason": "Q.14 a.1 has been materialized in full. FormReception.availabilityOmission, intellectualGradeOmission and oldTargetOmission exhibit the remaining formal gaps. The local availableFormWithoutMatter lemma consumes positive aptitude explicitly; it cannot manufacture it from a negative restriction. The old root premise and all root routes remain unchanged. This queue item covers only intellect; issue #355 remains open for will and remaining defenses.",
+  "status": "candidate"
+}
