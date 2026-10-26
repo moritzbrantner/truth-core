@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from configurations import composition_source, certificate_source, configuration_report, implication_closure, validate_case, verify_case
+from configurations import check_generated_axioms, generated_names, composition_source, certificate_source, configuration_report, implication_closure, validate_case, verify_case
 
 
 class ConfigurationTests(unittest.TestCase):
@@ -29,7 +29,7 @@ class ConfigurationTests(unittest.TestCase):
                             'evaluations': [{'statement_id': sid, 'arguments': ['X'], 'value': 'satisfies'} for sid in ids]}
                        for mid, ids in [('MP', ['P']), ('MQ', ['Q'])]}
         self.case = {'id': 'CONFIG-TEST', 'seed_statement_id': 'P',
-                     'semantics': {'id': 'test', 'logic': 'constructive', 'frame': 'arbitrary', 'domain': 'fixed', 'identity': 'literal', 'vocabulary': 'V',
+                     'semantics': {'id': 'test', 'logic': 'constructive', 'frame': 'arbitrary', 'domain': 'fixed', 'identity': 'literal', 'vocabulary': 'V', 'permitted_axioms': [],
                                    'modules': ['Fixture'], 'parameters': [{'name': 'X', 'type': 'Type'}], 'applications': {sid: ['X'] for sid in self.statements}},
                      'configurations': [{'id': 'core', 'statement_ids': ['P', 'Q']}, {'id': 'superset', 'statement_ids': ['P', 'Q', 'R']},
                                         {'id': 'control', 'statement_ids': ['P']}, {'id': 'unknown', 'statement_ids': ['S']}],
@@ -84,7 +84,11 @@ class ConfigurationTests(unittest.TestCase):
         calls = []
         def run(command, **kwargs):
             calls.append(command)
-            return subprocess.CompletedProcess(command, 0, '', '')
+            output = ''
+            if command[:3] == ['lake', 'env', 'lean']:
+                source = Path(command[-1]).read_text()
+                output = '\n'.join(f"'ConfigurationCertificates.{name}' does not depend on any axioms" for name in generated_names(source))
+            return subprocess.CompletedProcess(command, 0, output, '')
         with patch('configurations.subprocess.run', side_effect=run):
             verification = verify_case(self.case, self.statements, self.results, self.arguments, self.models, self.root)
         self.assertEqual(calls[0], ['lake', 'build', 'Fixture'])
@@ -112,6 +116,26 @@ class ConfigurationTests(unittest.TestCase):
     def test_same_vocabulary_models_cannot_be_hidden_to_manufacture_unknown(self):
         self.case['model_bindings'].pop()
         with self.assertRaisesRegex(ValueError, 'omits registered models'):
+            self.validate()
+
+    def test_false_conclusions_cannot_enter_implication_discovery(self):
+        self.statements['False'] = {'id': 'False', 'lean_declaration': 'TruthCore.Logic.ConfigurationFalse'}
+        self.case['semantics']['applications']['False'] = []
+        self.case['incompatibility_result_ids'] = []
+        self.case['implication_result_ids'] = ['CORE']
+        with self.assertRaisesRegex(ValueError, 'False-concluding'):
+            self.validate()
+
+    def test_specialized_constants_and_generated_proofs_obey_profile_axioms(self):
+        source = 'theorem example : True := by trivial'
+        for output in ['', "'ConfigurationCertificates.example' depends on axioms: [sorryAx]",
+                       "'ConfigurationCertificates.example' depends on axioms: [Classical.choice]"]:
+            with self.assertRaises(ValueError):
+                check_generated_axioms(output, source, 'ConfigurationCertificates', [])
+        check_generated_axioms("'ConfigurationCertificates.example' does not depend on any axioms", source, 'ConfigurationCertificates', [])
+        check_generated_axioms("'ConfigurationCertificates.example' depends on axioms: [Classical.choice]", source, 'ConfigurationCertificates', ['Classical.choice'])
+        self.case['semantics']['permitted_axioms'] = ['sorryAx']
+        with self.assertRaisesRegex(ValueError, 'permitted_axioms'):
             self.validate()
 
     def test_overlap_is_a_verification_defect(self):

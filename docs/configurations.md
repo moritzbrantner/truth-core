@@ -31,7 +31,9 @@ A case has these fields:
 - `id`: unique `CONFIG-…` identifier; optional `description` explains its purpose.
 - `seed_statement_id`: existing dossier statement.
 - `semantics`: named `id`, `logic`, `frame`, `domain`, `identity`, `vocabulary`,
-  existing Lean `modules`, ordered `parameters` and `applications`.
+  existing Lean `modules`, ordered `parameters`, `applications` and an explicit
+  `permitted_axioms` list. Starter profiles permit no axioms. Only the existing
+  approved Mathlib axiom names may be allowed by another profile.
 - Each parameter is `{ "name": "W", "type": "Type" }`. The intentionally small
   type grammar accepts names, application and arrows; it accepts no Lean commands
   or tactic bodies. Profiles currently quantify universe-zero types. A parameter
@@ -69,6 +71,11 @@ fresh temporary theorem for every exact shared-parameter implication or
 contradiction, and runs each existing Comparator/NanoDa result gate. It then
 uses the existing finite-model verifier for the selected registered models.
 Missing tools, stale proofs, parameter mismatches and failed certificates abort.
+The gate also checks `#print axioms` for every specialized theorem, model-role
+binding and composed proof against the profile policy. A fixed frame or other
+profile constant cannot smuggle `sorryAx` or a stronger logic through an otherwise
+zero-axiom generic theorem. False-concluding certificates belong to incompatible
+cores and cannot be registered as ordinary implication discoveries.
 No success marker or stored report bypasses those gates. `--registered` is an
 explicit metadata projection with `verification required` on every selection.
 Dossier and static explorer links are registrations, not fresh verification.

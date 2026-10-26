@@ -30,11 +30,14 @@ def validate_case(case, statements, results, arguments, models, root):
     profile = case.get('semantics')
     if not isinstance(profile, dict):
         raise ValueError('semantics must be an explicit object')
-    if set(profile) - {'id', 'logic', 'frame', 'domain', 'identity', 'vocabulary', 'parameters', 'parameter_order', 'constants', 'applications', 'modules'}:
+    if set(profile) - {'id', 'logic', 'frame', 'domain', 'identity', 'vocabulary', 'parameters', 'parameter_order', 'constants', 'applications', 'modules', 'permitted_axioms'}:
         raise ValueError('unknown semantics fields')
     for field in ('id', 'logic', 'frame', 'domain', 'identity', 'vocabulary'):
         if not isinstance(profile.get(field), str) or not profile[field].strip():
             raise ValueError(f'semantics requires {field}')
+    axioms = profile.get('permitted_axioms')
+    if not isinstance(axioms, list) or any(not isinstance(axiom, str) or axiom not in {'propext', 'Classical.choice', 'Quot.sound'} for axiom in axioms) or len(axioms) != len(set(axioms)):
+        raise ValueError('profile requires explicit permitted_axioms from the approved axiom policy')
     parameters = profile.get('parameters')
     if not isinstance(parameters, list) or not parameters:
         raise ValueError('semantics requires ordered Lean parameters')
@@ -88,8 +91,12 @@ def validate_case(case, statements, results, arguments, models, root):
             argument = arguments.get(result['argument_id'])
             if not argument or any(sid not in applications for sid in argument['premise_statement_ids']):
                 raise ValueError(f'{rid}: all premises require profile applications')
+            if field == 'implication_result_ids' and statements.get(argument['conclusion_statement_id'], {}).get('lean_declaration') == 'TruthCore.Logic.ConfigurationFalse':
+                raise ValueError(f'{rid}: False-concluding results belong in incompatibility_result_ids, not implication rules')
             if field == 'implication_result_ids' and argument['conclusion_statement_id'] not in applications:
                 raise ValueError(f'{rid}: conclusion requires profile application')
+    if set(case.get('incompatibility_result_ids', [])) & set(case.get('implication_result_ids', [])):
+        raise ValueError('a contradiction certificate cannot also be an implication rule')
     witnesses = case.get('model_bindings', [])
     if not isinstance(witnesses, list):
         raise ValueError('model_bindings must be a list')
@@ -129,6 +136,23 @@ def model_profile_mismatches(case, registration, models):
             if model['bindings'][registration['parameters'][role]] != term]
 
 
+def generated_names(source):
+    return re.findall(r'^(?:theorem|def) ([A-Za-z_][A-Za-z_0-9]*)', source, re.MULTILINE)
+
+
+def check_generated_axioms(output, source, namespace, permitted):
+    for name in generated_names(source):
+        qualified = namespace + '.' + name
+        if f"'{qualified}' does not depend on any axioms" in output:
+            continue
+        match = re.search(re.escape(f"'{qualified}' depends on axioms:") + r'\s*\[([^\]]*)\]', output)
+        if not match:
+            raise ValueError(f'missing axiom verification for {qualified}')
+        actual = {axiom.strip() for axiom in match[1].split(',') if axiom.strip()}
+        if not actual <= set(permitted):
+            raise ValueError(f'{qualified}: profile-forbidden axioms {sorted(actual - set(permitted))}')
+
+
 def certificate_source(case, statements, results, arguments, models=None):
     profile = case['semantics']
     models = models or {}
@@ -159,6 +183,7 @@ def certificate_source(case, statements, results, arguments, models=None):
             expected = parameter['type']
             expected = re.sub(r'\b[A-Za-z_][A-Za-z_0-9]*\b', lambda match: '(' + substitutions[match[0]] + ')' if match[0] in substitutions else match[0], expected)
             lines.append(f'def model_parameter_{index}_{j} : {expected} := {substitutions[parameter["name"]]}')
+    lines += [f'#print axioms {name}' for name in generated_names('\n'.join(lines))]
     lines.append('end ConfigurationCertificates')
     return '\n'.join(lines) + '\n'
 
@@ -175,13 +200,15 @@ def verify_case(case, statements, results, arguments, models, root, verified_res
             raise ValueError(f'configuration verification unavailable: {exc}') from exc
         if result.returncode:
             raise ValueError(f'configuration verification failed ({command}):\n{result.stdout}\n{result.stderr}')
+        return result
     run(['lake', 'build', *modules])
     source = certificate_source(case, statements, results, arguments, models)
     with tempfile.NamedTemporaryFile('w', suffix='.lean', encoding='utf-8', delete=False, dir=root) as file:
         file.write(source)
         filename = Path(file.name)
     try:
-        run(['lake', 'env', 'lean', str(filename)])
+        result = run(['lake', 'env', 'lean', str(filename)])
+        check_generated_axioms(result.stdout, source, 'ConfigurationCertificates', case['semantics']['permitted_axioms'])
     finally:
         filename.unlink(missing_ok=True)
     if verified_results is None:
@@ -342,6 +369,7 @@ def composition_source(case, report, statements, results, arguments):
                     lines.append(f'  have {name} : {application(profile, statements, sid)} := {term}')
                     hypothesis[sid] = name
             count += 1
+    lines += [f'#print axioms {name}' for name in generated_names('\n'.join(lines))]
     lines.append('end ConfigurationCompositions')
     return '\n'.join(lines) + '\n', count
 
@@ -357,6 +385,7 @@ def verify_compositions(case, report, statements, results, arguments, root):
         result = subprocess.run(['lake', 'env', 'lean', str(filename)], cwd=root, text=True, capture_output=True, timeout=600)
         if result.returncode:
             raise ValueError(f'configuration composition rejected:\n{result.stdout}\n{result.stderr}')
+        check_generated_axioms(result.stdout, source, 'ConfigurationCompositions', case['semantics']['permitted_axioms'])
     except (OSError, subprocess.SubprocessError) as exc:
         raise ValueError(f'configuration composition verification unavailable: {exc}') from exc
     finally:

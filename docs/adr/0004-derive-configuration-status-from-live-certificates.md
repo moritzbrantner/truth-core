@@ -12,7 +12,9 @@ list. Live execution rebuilds referenced modules, checks each theorem against
 those exact applications and runs its existing Comparator/NanoDa gate. Models
 are checked by the existing registry verifier and must share the same parameter
 assignment across all selected evaluations. This rejects stale certificates and
-same-name statements applied to different worlds, frames or predicates. A
+same-name statements applied to different worlds, frames or predicates. Generated
+specializations and composed proofs also expose their actual axioms, checked
+against the profile policy; fixed constants cannot import a stronger logic. A
 vocabulary's registered models cannot be silently omitted from its case.
 
 The default CLI certifies before reporting; an explicit `--registered` mode
