@@ -2,12 +2,12 @@
   "snapshot": {
     "kind": "web_snapshot",
     "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
-    "source_url": "https://archive.org/download/thomastaylor/elementsoftheology_proclus_text.pdf",
+    "source_url": "https://ia800108.us.archive.org/3/items/thomastaylor/elementsoftheology_proclus_text.pdf",
     "retrieved_at": "2026-10-26T18:49:00Z",
     "sha256": "sha256:3139040930ad1dac820b24d559e0e14a307ba9819391d53a610b7d6fcc75ca8e",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "Public domain: Thomas Taylor translation, London 1816; translator died 1835. Internet Archive item thomastaylor identifies the work as public domain.",
+    "license": "Public domain: Thomas Taylor translation, London 1816; translator died 1835. Internet Archive item thomastaylor identifies the work as public domain. Direct item server used because archive.org/download redirected to an unreachable EU mirror during verification; the byte and extracted-text hashes are unchanged.",
     "translation": {
       "translator": "Thomas Taylor",
       "year": 1816,
