@@ -34,7 +34,7 @@ Recorded debates and lectures are admissible sources of arguments (owner decisio
 
 The span hash covers the transcript segments of the pinned stream whose interval overlaps `[start_seconds, end_seconds)`, in time order: the SHA-256 of the canonical JSON list of each segment's `segmentIndex`, `startSeconds`, `endSeconds` and the SHA-256 of its text. Database ids are left out because they differ between ingests. A changed caption, a re-segmentation, or a timing shift changes the hash.
 
-`materialize` regenerates the span from a youtube-corpus `source-span` export and rejects a hash or segment-count mismatch. It reads, in order, an explicit `--export FILE`, the cached whole-corpus export at `.cache/truth-core/media/source-span.json`, or a fresh export made with the checkout named by `YOUTUBE_CORPUS_DIR` (its release binary, its `git rev-parse HEAD` as producer revision, and `DATABASE_URL`). The materialized text lists each segment with its timestamps.
+`materialize` regenerates the span from a youtube-corpus `source-span` export and rejects a missing or mismatched producer revision, hash mismatch, or segment-count mismatch. The export must record exactly the passage’s pinned `producer_revision`; matching transcript text alone does not verify exporter provenance. It reads, in order, an explicit `--export FILE`, the cached whole-corpus export at `.cache/truth-core/media/source-span.json`, or a fresh export made with the checkout named by `YOUTUBE_CORPUS_DIR` (its release binary, its `git rev-parse HEAD` as producer revision, and `DATABASE_URL`). The same revision check applies to explicit, cached and freshly generated exports; an invalid export fails without falling back to another export. The materialized text lists each segment with its timestamps.
 
 ```bash
 youtube-corpus ingest --url "https://www.youtube.com/watch?v=<id>" --no-asr --migrate
@@ -42,7 +42,7 @@ YOUTUBE_CORPUS_DIR=../youtube-corpus DATABASE_URL=postgres://... \
   python3 scripts/source_evidence.py materialize <PASSAGE-ID>
 ```
 
-The offline `check` validates media-span manifests and claim bindings without network access. `verify` never contacts YouTube: it re-verifies media spans only when a local export is present (cached, or given with `--export`) and otherwise lists them as not re-verified. CI therefore checks media-span structure and runs the synthetic-export tests in `scripts/test_source_evidence.py`, but cannot re-hash recordings.
+The offline `check` validates media-span manifests and claim bindings without network access. `verify` never contacts YouTube: it re-verifies media spans only when a local export is present (cached, or given with `--export`), enforcing the same revision and span checks, and otherwise lists them as not re-verified. CI therefore checks media-span structure and runs the synthetic-export tests in `scripts/test_source_evidence.py`, but cannot re-hash recordings.
 
 Fidelity for recorded speech adds two questions to the usual ones. Auto captions can mishear words, so a claim notes its transcript source and whether the wording was checked against the audio. Speaker attribution is a judgment unless youtube-corpus speaker data confirms it; diarization labels are not identities, so a claim records how its speaker was attributed.
 
