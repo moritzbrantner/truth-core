@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MARK-FORGIVENESS-AUTHORITY",
+  "term": "forgiveness authority as reported or historically claimed",
+  "sense_definition_ids": [
+    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "resolution": "The Mark 2 statement uses textual attribution of a typed assertion; the skeleton and pilot JesusClaims predicate concern Jesus actually claiming divine authority. Neither a historical utterance nor that theological classification follows from textual attribution. The reported title is not definitionally God or Jesus. Delegated authorization and divine identity are distinct accounts of the reported authority; the report decides neither. The God-alone restriction is attributed to scribes, while the healing is narrated as the response enabling recognition of authority. No actual pardon or healing is inferred. See docs/mark-forgiveness-authority.md."
+}
