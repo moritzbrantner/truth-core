@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-PHYSICS-VIII1-COSMIC-GENERATION-MOTION",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read the complete materialized ARIST-PHYS-VIII-1 witness. The opening alternative at 250b11-15 is an inquiry, not yet a commitment to everlasting motion. The survey at 250b15-23 introduces cosmologists who admit motion and the infinite-world account; extracted only the substantive parenthetical necessity that world generations/destructions occur with motion. Rejected identifying generation itself with motion in the strict sense, and rejected treating the attributed infinite-world cosmology as Aristotle's own endorsement. The one-world survey transition and the Anaxagoras and Empedocles accounts after 250b20 and their interpretation through 251a7 remain unprocessed, alongside the later temporal priority and everlasting-motion arguments. No derivation, root-premise discharge, or chapter completion is claimed.",
+  "evidence": [
+    "ARIST-PHYS-250B-COSMIC-GENERATION-MOTION-A"
+  ]
+}
