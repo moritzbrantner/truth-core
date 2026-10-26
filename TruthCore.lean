@@ -8,6 +8,7 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Case.Catholicism.StagesOneTwo
+import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
@@ -350,6 +351,7 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
+import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution

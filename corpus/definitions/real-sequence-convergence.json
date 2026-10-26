@@ -1,0 +1,7 @@
+{
+  "id": "DEF-REAL-SEQUENCE-CONVERGENCE",
+  "term": "convergence of a real sequence",
+  "definition": "A sequence of real numbers t 0, t 1, ... converges to L when for every neighbourhood of L all but finitely many terms lie in it; in Lean this is Mathlib's Filter.Tendsto t Filter.atTop (nhds L). Terms may approach L without ever equalling it.",
+  "basis": "stipulative",
+  "note": "The standard analytic notion, taken from Mathlib rather than hand-rolled (AGENTS.md invariant 14). It is weaker than and different from DEF-SUPERTASK-STABLE-LIMIT, which requires a discrete output to become constant; see DISAMB-SUPERTASK-LIMIT-NOTION. Mathematical convergence of stage times says nothing about whether a physical process reaches the limit."
+}

@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Challenge", "solution_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Solution", "theorem_names": ["TruthCore.Results.Causality.ConvergentZenoSchedule.convergentZenoSchedule"], "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"], "enable_nanoda": true}

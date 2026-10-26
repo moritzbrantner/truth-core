@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONVERGENT-ZENO-SCHEDULE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONVERGENT-ZENO-SCHEDULE",
+  "rule": "real-analysis-geometric-schedule-model",
+  "meaning": "Compute in Mathlib's real numbers: (1/2)^n is strictly decreasing and positive, so 1 - (1/2)^n is strictly increasing and below 1; (1/2)^n tends to 0, so the stage times tend to 1; the stage gaps are (1/2)^(n+1) by ring arithmetic; the geometric series sum of (1/2)^n is 2, so the durations sum to 1; and a case split on the omega-plus-one moments shows the clock reflects and preserves SupertaskPrecedes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
