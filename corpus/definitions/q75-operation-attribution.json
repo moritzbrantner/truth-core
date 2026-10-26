@@ -1,0 +1,11 @@
+{
+  "id": "DEF-Q75-OPERATION-ATTRIBUTION",
+  "term": "per-se intellectual operation and attribution",
+  "definition": "OperationAttribution supplies exercise attribution, bodily participation, accidental/material-form inherence and completeness separately. PerSeIntellectualOperation is an attributed intellectual exercise without bodily participation. It is not merely the absence of an organ or a current thinking episode. BodyShares concerns exercise, not object-side phantasms. NonorganicOperationAttribution asserts the missing bridge explicitly. Ad 2 more properly attributes understanding to the human being through the soul.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q75-A2-OPERATION-ATTRIBUTION",
+    "AQUINAS-ST-I-Q75-A2-PER-SE-OPERATION"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution"
+}

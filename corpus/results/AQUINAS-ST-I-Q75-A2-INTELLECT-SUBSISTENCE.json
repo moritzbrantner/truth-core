@@ -1,0 +1,11 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "argument_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.intellectSubsistsInWeakSense",
+  "comparator_config": "results/AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription of the conditional weak-subsistence inference: exact earlier theorems supply non-bodyhood and no bodily organ; explicit operation attribution and operation/existence correspondence then supply weak non-inherence. Both new premises remain open, as do the four reused premises. No complete human person, immortality, general brain independence or refutation of physicalism follows. Finite omission controls show the two added premises are needed in this schema. No root change."
+}
