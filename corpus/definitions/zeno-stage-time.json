@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ZENO-STAGE-TIME",
+  "term": "Zeno stage time",
+  "definition": "The real clock time at which stage n of the convergent schedule begins: 1 - (1/2)^n, measured in units of the whole schedule, so stage 0 begins at time 0 and each later stage begins halfway between the previous stage time and 1.",
+  "basis": "stipulative",
+  "note": "The standard dichotomy-style halving schedule, chosen as the strongest pro-supertask mathematical model that #318 asks to be stated. It is a mathematical clock assignment, not a reading of Zeno or Aristotle; a sourced reading would need a pinned passage (for example Physics VI.2 or VI.9) and a separate claim.",
+  "lean_declaration": "TruthCore.Causality.zenoStageTime"
+}

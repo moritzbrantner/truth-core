@@ -6,7 +6,7 @@ This document is the durable handoff for the campaign tracked in epic #143. It r
 
 Formalize the case that Catholicism is true as a graph of source-grounded Lean 4 propositions. From the root `STMT-CATHOLICISM-TRUE`, every path should end in premises that are either self-evident or whose alternatives are all shown false or contradictory. Rival worldviews and objections are refuted along the way.
 
-Lean verifies **consequence**, not premise truth. Premise truth is defended by further sourced arguments, never by axioms (`permitted_axioms: []` everywhere).
+Lean verifies **consequence**, not premise truth. Premise truth is defended by further sourced arguments, never by axioms: Comparator configs permit no axiom, except that a result whose proof uses Mathlib may permit exactly Lean's standard `propext`, `Classical.choice` and `Quot.sound`, which make such a proof classical: `Classical.choice` yields excluded middle, so such a result never counts as evidence where excluded middle is itself in question ([axiom policy](axiom-policy.md)).
 
 ## Root and structure
 

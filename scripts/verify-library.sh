@@ -14,6 +14,15 @@ for path in "$LEAN4EXPORT_BIN" "$NANODA_BIN"; do
   fi
 done
 
+# lean4export reads .olean files and must be built for the pinned Lean version.
+if [[ -f "$WORK/lean4export/lean-toolchain" ]] &&
+  [[ "$(tr -d '[:space:]' < "$WORK/lean4export/lean-toolchain")" != \
+    "$(tr -d '[:space:]' < "$ROOT/lean-toolchain")" ]]; then
+  echo "lean4export in $WORK was built for $(cat "$WORK/lean4export/lean-toolchain")," >&2
+  echo "but lean-toolchain pins $(cat "$ROOT/lean-toolchain"); re-run scripts/bootstrap-verifier.sh" >&2
+  exit 2
+fi
+
 TEMP="$(mktemp -d)"
 trap 'rm -rf "$TEMP"' EXIT
 EXPORT="$TEMP/truth-core.ndjson"

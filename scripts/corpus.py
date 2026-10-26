@@ -102,6 +102,51 @@ def module_path(module: str) -> Path:
     return ROOT / (module.replace(".", "/") + ".lean")
 
 
+# The only axioms a Comparator config may permit, and only when the Solution
+# transitively imports Mathlib (AGENTS.md invariant 14, docs/axiom-policy.md).
+# Results that do not use Mathlib stay zero-axiom.
+MATHLIB_PERMITTED_AXIOMS = ("propext", "Classical.choice", "Quot.sound")
+LEAN_IMPORT_RE = re.compile(r"^(?:public\s+)?import\s+(\S+)", re.MULTILINE)
+
+
+def imports_mathlib(module: str) -> bool:
+    """Whether a TruthCore module imports Mathlib, directly or through other
+    TruthCore modules."""
+    seen: set[str] = set()
+    pending = [module]
+    while pending:
+        current = pending.pop()
+        if current in seen:
+            continue
+        seen.add(current)
+        if current == "Mathlib" or current.startswith("Mathlib."):
+            return True
+        path = module_path(current)
+        if not current.startswith("TruthCore") or not path.is_file():
+            continue
+        pending.extend(LEAN_IMPORT_RE.findall(path.read_text(encoding="utf-8")))
+    return False
+
+
+def permitted_axioms_error(config: dict[str, Any]) -> str | None:
+    """Why a Comparator config's `permitted_axioms` violates the axiom policy,
+    or None when it complies."""
+    axioms = config.get("permitted_axioms")
+    if axioms == []:
+        return None
+    if not isinstance(axioms, list) or sorted(axioms) != sorted(MATHLIB_PERMITTED_AXIOMS):
+        return (
+            "permitted_axioms must be [] or exactly "
+            f"{list(MATHLIB_PERMITTED_AXIOMS)} (docs/axiom-policy.md)"
+        )
+    if not imports_mathlib(config.get("solution_module", "")):
+        return (
+            "only a Solution that imports Mathlib may permit "
+            f"{list(MATHLIB_PERMITTED_AXIOMS)}; results without Mathlib stay zero-axiom"
+        )
+    return None
+
+
 def validate_argument_derivation(
     path: Path,
     argument: dict[str, Any],
@@ -1128,10 +1173,9 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{config_path.relative_to(ROOT)}: theorem is not listed in theorem_names"
             )
-        if config.get("permitted_axioms") != []:
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: seed results must require no permitted axioms"
-            )
+        axiom_error = permitted_axioms_error(config)
+        if axiom_error:
+            raise CorpusError(f"{config_path.relative_to(ROOT)}: {axiom_error}")
         if config.get("enable_nanoda") is not True:
             raise CorpusError(
                 f"{config_path.relative_to(ROOT)}: NanoDa must be enabled"
