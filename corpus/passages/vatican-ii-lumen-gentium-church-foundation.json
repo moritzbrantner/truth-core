@@ -27,6 +27,34 @@
       },
       "text_sha256": "sha256:f94183cc216953073223e63ff4d1b02557dae3aa695ee35810080eee5befbbf3",
       "incipit": "Caput I\nDE ECCLESIAE MYSTERIO\n1. Lumen gentium cum sit Christus, haec"
+    },
+    {
+      "id": "VATICAN-II-LUMEN-GENTIUM-III",
+      "locator": "ch. III, §§18–29",
+      "claim_locator_prefixes": [
+        "§18,",
+        "§19,",
+        "§20,",
+        "§21,",
+        "§22,",
+        "§23,",
+        "§24,",
+        "§25,",
+        "§26,",
+        "§27,",
+        "§28,",
+        "§29,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Caput III"
+        },
+        "to": {
+          "text": "Caput IV"
+        }
+      },
+      "text_sha256": "sha256:9c6ecf42dc43a557fbf68a090913508c908d03bf0a924ca342ad904fc167917b",
+      "incipit": "Caput III\nDE CONSTITUTIONE HIERARCHICA ECCLESIAE\nET IN SPECIE DE EPISCOPATU\n18."
     }
   ]
 }
