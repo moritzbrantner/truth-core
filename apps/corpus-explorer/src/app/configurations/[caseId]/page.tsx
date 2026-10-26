@@ -1,16 +1,22 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { getRegisteredConfigurationCases } from "@/lib/configuration-cases";
 import { getCorpus } from "@/lib/corpus";
+import { getVerifiedConfigurations } from "@/lib/verified-configurations";
+
+import { CertifiedWorkspace } from "./certified-workspace";
 
 export function generateStaticParams() {
-  return getRegisteredConfigurationCases().map((entry) => ({ caseId: entry.id }));
+  return (getVerifiedConfigurations()?.cases ?? getRegisteredConfigurationCases()).map((entry) => ({ caseId: entry.id }));
 }
 
 export default async function ConfigurationPage({ params }: { params: Promise<{ caseId: string }> }) {
   const { caseId } = await params;
-  const configuration = getRegisteredConfigurationCases().find((entry) => entry.id === caseId);
+  const bundle = getVerifiedConfigurations();
+  const certified = bundle?.cases.find((entry) => entry.id === caseId);
+  const configuration = bundle ? certified : getRegisteredConfigurationCases().find((entry) => entry.id === caseId);
   if (!configuration) {
     notFound();
   }
@@ -19,10 +25,10 @@ export default async function ConfigurationPage({ params }: { params: Promise<{ 
     <Link className="link-quiet text-sm" href={`/dossiers/${configuration.seed_statement_id}`}>← Seed dossier</Link>
     <h1 className="mt-6 font-serif text-3xl">Configuration assumptions</h1>
     <p className="mt-3 font-mono text-xs">{configuration.id} · {configuration.semantics.id}</p>
-    <p className="mt-4 text-sm">Registered provenance · verification required</p>
-    <nav aria-label="Named assumption sets" className="mt-5 flex flex-wrap gap-4">
+    {!certified ? <p className="mt-4 text-sm">Registered provenance · verification required</p> : null}
+    {!certified ? <nav aria-label="Named assumption sets" className="mt-5 flex flex-wrap gap-4">
       {configuration.configurations.map((entry) => <a className="link-quiet text-sm" href={`#${entry.id}`} key={entry.id}>{entry.id}</a>)}
-    </nav>
+    </nav> : null}
     <details className="mt-6">
       <summary>Semantic settings</summary>
       <dl className="mt-3 grid gap-2 text-sm">{Object.entries(configuration.semantics).filter(([, value]) => typeof value === "string").map(([key, value]) => <div key={key}><dt className="font-medium">{key}</dt><dd>{value}</dd></div>)}</dl>
@@ -34,7 +40,9 @@ export default async function ConfigurationPage({ params }: { params: Promise<{ 
         {model.profile_mismatches.map((item) => <p key={item.parameter}>{item.parameter}: profile requires {item.expected}; registration uses {item.registered}</p>)}
       </li>)}</ul>
     </details> : null}
-    {configuration.configurations.map((entry) => <section className="record-section scroll-mt-6" id={entry.id} aria-labelledby={`${entry.id}-title`} key={entry.id}>
+    {certified && bundle ? <Suspense fallback={<p className="mt-5 text-sm">Loading selected assumptions…</p>}>
+      <CertifiedWorkspace configuration={certified} producer={bundle.producer} statements={Object.fromEntries(statements.filter((statement) => certified.assumption_space.statement_ids.includes(statement.id)).map((statement) => [statement.id, { id: statement.id, paraphrase: statement.paraphrase }]))} />
+    </Suspense> : configuration.configurations.map((entry) => <section className="record-section scroll-mt-6" id={entry.id} aria-labelledby={`${entry.id}-title`} key={entry.id}>
       <h2 className="font-serif text-2xl" id={`${entry.id}-title`}>{entry.id}</h2>
       <ul className="mt-3 grid gap-3">{entry.statement_ids.map((sid) => <li key={sid}>
         <Link className="link-quiet font-mono text-xs" href={`/statements/${sid}`}>{sid}</Link>
