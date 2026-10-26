@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "paraphrase": "There is a Kripke model with at least one world, a symmetric frame and a positivity assignment on which Scott's A1a, A1b, A2, A3, A4 and A5 all hold. So the premises of T3 are jointly satisfiable nonvacuously inside the AFP embedding; this says nothing about whether they are true.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.ScottPremisesSatisfiableWithWorld",
+  "definition_ids": [
+    "DEF-GOD-LIKE-SCOTT",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-POSITIVE-PROPERTY-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

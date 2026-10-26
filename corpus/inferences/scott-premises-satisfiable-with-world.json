@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "rule": "explicit-model",
+  "meaning": "Exhibit one world, one individual, universal accessibility and the positivity assignment 'positive exactly when the one individual has it'; every axiom reduces to a tautology about that individual.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
