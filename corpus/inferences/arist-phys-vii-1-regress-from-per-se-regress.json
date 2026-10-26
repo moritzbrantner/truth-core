@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "input_statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+  ],
+  "output_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "rule": "well-founded-induction",
+  "meaning": "Each link of a local chain is a mover other than the moved thing that moves it and is being moved, hence a per se link by the second-movers premise; an infinite descending chain of per se links contradicts the well-foundedness of the per se series.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

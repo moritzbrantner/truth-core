@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "argument_id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.localRegressFromPerSeRegress",
+  "comparator_config": "results/ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS/comparator.json",
+  "status": "solution-present",
+  "description": "The prima via's regress premises entail Physics VII.1's restricted regress. Not a transcription: induction on accessibility, and premisesNeeded shows both premises are needed. restrictedRegressIsWeaker shows the converse fails even with the second-movers premise: with no local respects there is no local chain, while the per se series is infinite. So VII.1's conclusion is a weaker reading that survives, and it cannot discharge STMT-NO-INFINITE-PER-SE-MOVER-SERIES. Connects results; closes nothing."
+}

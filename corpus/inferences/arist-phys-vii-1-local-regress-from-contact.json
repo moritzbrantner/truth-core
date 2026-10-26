@@ -1,0 +1,14 @@
+{
+  "id": "INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "input_statement_ids": [
+    "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
+    "STMT-TOUCHING-CHAIN-FORMS-ONE",
+    "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
+    "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+  ],
+  "output_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "rule": "reductio",
+  "meaning": "Suppose an infinite chain of local moved movers. Each link is a primary local mover, so by the contact premise adjacent members touch; some one thing is made of them all; it would go through an infinite motion in a finite time; nothing does.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

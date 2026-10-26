@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION",
+  "paraphrase": "Added scope premise, not attributed: every respect in which something is being moved, in the broad sense of the prima via (reduction from potency to act), is a respect of physical motion (place, quality or quantity). It is open and doubtful: on the case's broad reading of motus, reductions in understanding or willing are not physical motions, and then this premise is false.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryReductionIsPhysicalMotionReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PHYSICAL-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

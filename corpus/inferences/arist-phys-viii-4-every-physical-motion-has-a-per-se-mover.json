@@ -1,0 +1,16 @@
+{
+  "id": "INF-ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "input_statement_ids": [
+    "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
+    "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
+    "STMT-FORCED-MOTION-BY-ANOTHER",
+    "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
+    "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER",
+    "STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER"
+  ],
+  "output_statement_id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "rule": "proof-by-cases",
+  "meaning": "Case analysis on Physics VIII.4's division of physical motion: a forced motion has another as mover; a natural self-motion has a mover; the natural motion of the light and the heavy has its generator as per se mover, or a per accidens remover and then, by the added premise, a per se mover too.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

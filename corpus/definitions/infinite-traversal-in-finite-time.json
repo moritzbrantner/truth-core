@@ -1,0 +1,7 @@
+{
+  "id": "DEF-INFINITE-TRAVERSAL-IN-FINITE-TIME",
+  "term": "goes through an infinite motion in a finite time (ἐν πεπερασμένῳ χρόνῳ ἄπειρον διιέναι)",
+  "definition": "`TraversesInfiniteInFiniteTime w`: `w` completes a motion of infinite extent within a finite time (Physics VII.1, 242b30-243a1, relying on VI.7). Primitive; constrained only by STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE and STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME. 'Infinite' here is quantitative, not the divine DEF-INFINITE.",
+  "basis": "stipulative",
+  "note": "Stipulative because the Aristotelian senses of 'infinite' have no definition record yet (audit B #388 and #216 ask for an Aristotelian disambiguation of 'infinite'); a sourced account would come from Physics III.4-8 and VI.7."
+}

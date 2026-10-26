@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "argument_id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.primaViaPremiseFromPhysicalScope",
+  "comparator_config": "results/ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription of the scope step (AGENTS.md invariant 16): the proof applies the restricted conclusion STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER after the scope premise, so its whole content is the explicit, unattributed scope premise STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION, which is open and false on the case's broad reading of motus if some reduction from potency to act is not a physical motion. premisesNeeded shows both premises are needed. It records how Physics VIII.4 would reach the prima via premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER; it closes that premise only if both its premises are closed (invariant 16 fixpoint rule), and today the scope premise is open.",
+  "transcription": "single_application"
+}

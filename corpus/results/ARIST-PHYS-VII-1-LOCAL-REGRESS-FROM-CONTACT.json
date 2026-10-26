@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "argument_id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.localRegressFromContact",
+  "comparator_config": "results/ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT/comparator.json",
+  "status": "solution-present",
+  "description": "Physics VII.1's repaired regress (242b23-243a2), typed over chains of beings, with the contact condition as its own premise (audit B #388, open item). Not a transcription: the contact premise is instantiated at every link to build the touching chain, and premisesNeeded shows each of the four premises is needed. Restricted to local, bodily motion and primary moved movers, as the source is. Connects results; closes nothing."
+}

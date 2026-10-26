@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-256A17-NO-INFINITE-MOVED-BY-ANOTHER-A",
+  "statement_id": "STMT-NO-INFINITE-DISTINCT-MOVERS-MOVED-BY-ANOTHER",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.5, 256a17-19",
+  "interpretation": "Physics VIII.5, 256a17–19 prohibits proceeding to infinity through movers moved by another, because among infinitely many there is no first. Read weakly as no sequence of infinitely many distinct movers linked by “moves this thing, is another than it, and is itself moved by another”. The injectivity condition keeps infinitely many movers distinct: it does not exclude finite cycles and gives no accessibility induction principle. The stronger STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER remains a separate, unattributed commitment, not established by this claim. Scope: physical motion, by instantiation of MovesIn (DISAMB-MOTION). This uses the broader reading of movers moved by another; the instrumental series of 256a4–13 is a defensible narrower reading still to investigate. Materialized witness: ARIST-PHYS-VIII-5, including the stick–hand–man example and the discussion continuing after 256a19.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOVED-BY-ANOTHER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

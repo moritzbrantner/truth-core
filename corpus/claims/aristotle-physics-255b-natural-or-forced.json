@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-255B-NATURAL-OR-FORCED-A",
+  "statement_id": "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.4, 254b12-24, 255b31",
+  "interpretation": "Of things moved per se, some are moved by nature and some by force and contrary to nature (254b12-24); the closing summary takes this as exhaustive of everything moved (255b31: εἰ δὴ πάντα τὰ κινούμενα ἢ φύσει κινεῖται ἢ παρὰ φύσιν καὶ βίᾳ). Read as a division of each motion of a thing in a respect. The 'if' (εἰ δή) introduces the summary's premises, which Aristotle has argued in the chapter; it is not a hypothesis he leaves open. Per accidens motion (254b7-12) is set aside before the division; the reading quantifies over all motions, which is the summary's own scope. Scope: physical motion only (`IsPhysicalRespect`: place, quality, quantity), the motion the Physics treats; the reading says nothing about other reductions from potency to act. `MovedIn` here is being moved per se; per accidens being moved (the sailor carried by the ship, 254b7-12) is not a separate predicate and is set aside, as the division sets it aside.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-NATURAL-AND-FORCED-MOTION",
+    "DEF-PHYSICAL-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

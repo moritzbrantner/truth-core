@@ -1,0 +1,8 @@
+{
+  "id": "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME",
+  "paraphrase": "Nothing, finite or infinite, goes through an infinite motion in a finite time.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteTraversalInFiniteTimeReading",
+  "definition_ids": [
+    "DEF-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+  ]
+}

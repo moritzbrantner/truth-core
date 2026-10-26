@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-PHYS-TYPED-MOTION-REMAINDER",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.5, 256a4-257a27",
+  "priority": 335,
+  "goal": "Continue the typed Physics batch (#401 item 1, docs/typed-physics.md) in source order: VIII.5, 256a4-13 (stick, hand and man; the first mover moves more than the last) as a typed Aristotelian source for STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED; 256a19-21 (a first mover not moved by another, if moved, moves itself); 256b3-257a27 (per accidens moved movers; a mover moved in the same or another kind of motion). Then return to VII.1, 241b24-242a15 and type the chapter's own proof of STMT-EVERY-MOVED-THING-HAS-SOME-MOVER (case split on an internal source of motion; division of the per se mover; rest-dependence on a part). At 256a17–19 distinguish the prohibition of infinitely many distinct movers (STMT-NO-INFINITE-DISTINCT-MOVERS-MOVED-BY-ANOTHER) from the stronger additional accessibility commitment STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER. Determine what independently sourced premises would exclude finite cycles and justify the induction principle; do not attribute the stronger commitment to this sentence merely by convention.",
+  "reason": "ARIST-PHYS-VIII-4 and ARIST-PHYS-VIII-5 are pinned and materialized; VIII.4 and VIII.5, 256a13-21 are formalized over the typed vocabulary of TruthCore/Greek/Aristotle/Physics/Typed/Motion.lean. The rest of VIII.5 has no claims, and VII.1's own proof survives only as atom readings (audit B #388: the older result covers only the per se branch).",
+  "status": "candidate"
+}

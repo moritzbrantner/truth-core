@@ -1,0 +1,21 @@
+{
+  "id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "premise_statement_ids": [
+    "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+    "STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "inference_ids": [
+    "INF-ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA"
+  ],
+  "meaning": "Transcription of the scope step (AGENTS.md invariant 16): the proof applies the restricted conclusion STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER after the scope premise, so its whole content is the explicit, unattributed scope premise STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION, which is open and false on the case's broad reading of motus if some reduction from potency to act is not a physical motion. premisesNeeded shows both premises are needed. It records how Physics VIII.4 would reach the prima via premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER; it closes that premise only if both its premises are closed (invariant 16 fixpoint rule), and today the scope premise is open.",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PHYSICAL-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

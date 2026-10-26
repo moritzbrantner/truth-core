@@ -99,6 +99,14 @@ import TruthCore.Results.Aristotle.Physics.TimeMagnitudeContinuous.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionMutualMeasurement.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionSameRecurrence.Solution
 import TruthCore.Results.Aristotle.Physics.TimeNowMutualDependence.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.FirstMoverNotMovedByAnother.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.Solution
 import TruthCore.Results.Aristotle.Physics.VoidCannotMove.Solution
 import TruthCore.Results.Aristotle.Physics.VoidFromMotionArgument.Solution
 import TruthCore.Results.Aristotle.Physics.VoidNotNecessaryForMotion.Solution

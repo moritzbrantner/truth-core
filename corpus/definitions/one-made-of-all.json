@@ -1,0 +1,7 @@
+{
+  "id": "DEF-ONE-MADE-OF-ALL",
+  "term": "one thing made of all the members of a chain (τι ἐξ ἁπάντων ἕν)",
+  "definition": "`ComposedOf w c`: `w` is one thing made of all the members of the chain `c`, as Physics VII.1, 242b26 says the mutually touching or continuous movers and moved would make one thing. Primitive; the only constraints on it are STMT-TOUCHING-CHAIN-FORMS-ONE and STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE.",
+  "basis": "stipulative",
+  "note": "Stipulative because no record gives Aristotle's account of unity by contact or continuity (Physics V.3, VI.1 would source it). The typed readings use only that such a thing exists for an injective touching chain and what it would traverse."
+}

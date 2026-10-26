@@ -1,0 +1,14 @@
+{
+  "id": "INF-ARIST-PHYS-III-1-3-NO-MOVER-MOVES-ITSELF",
+  "input_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
+    "STMT-MOVING-IS-IN-THE-MOVED",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "output_statement_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
+  "rule": "reductio",
+  "meaning": "Suppose something moves itself in a respect. As a mover it is in act in that respect (prima via). By Physics III.3 the motion is in the moved, so it is being moved in that respect, and by Physics III.1's analysis of being moved it is in potency in that respect. Nothing is in act and in potency in the same respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
