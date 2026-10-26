@@ -1,0 +1,13 @@
+{
+  "id": "INF-FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS",
+  "input_statement_ids": [
+    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+    "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"
+  ],
+  "output_statement_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "rule": "finite-set-well-foundedness-and-subrelation",
+  "meaning": "Finite distinct ancestry plus exclusion of every finite causal cycle makes the transitive causal relation a strict order on each finite ancestral set. Mathlib finite-set well-foundedness and the downward-closure accessibility theorem give Acc for every relatum. Explicit inclusion transfers accessibility to the per se relation on the same carrier. This is a mathematical consequence of three unattributed open premises, not an establishment of causal finitism or a source reading, and no root premise is discharged. The omission models respectively retain finiteness with a loop, retain loop exclusion with infinite ascent, and retain both on a causal relation unrelated to a per se loop.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

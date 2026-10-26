@@ -1,0 +1,16 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.CausalFinitism.perSeNoRegressOfFiniteAncestry",
+    "TruthCore.Results.Case.Catholicism.CausalFinitism.needsNoLoops",
+    "TruthCore.Results.Case.Catholicism.CausalFinitism.needsFiniteAncestry",
+    "TruthCore.Results.Case.Catholicism.CausalFinitism.needsInclusion"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
