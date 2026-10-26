@@ -1,0 +1,9 @@
+{
+  "id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
+  "argument_id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.Solution",
+  "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.peritropeRelativeHorn",
+  "comparator_config": "results/PLATO-THEAET-PERITROPE-RELATIVE-HORN/comparator.json",
+  "status": "solution-present"
+}

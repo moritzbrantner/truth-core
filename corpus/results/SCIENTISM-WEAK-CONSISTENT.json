@@ -1,0 +1,9 @@
+{
+  "id": "SCIENTISM-WEAK-CONSISTENT",
+  "argument_id": "SCIENTISM-WEAK-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Solution",
+  "theorem": "TruthCore.Results.Logic.Scientism.WeakConsistent.weakScientismConsistent",
+  "comparator_config": "results/SCIENTISM-WEAK-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

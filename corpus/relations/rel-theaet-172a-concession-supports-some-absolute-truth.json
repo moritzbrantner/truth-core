@@ -1,0 +1,9 @@
+{
+  "id": "REL-THEAET-172A-CONCESSION-SUPPORTS-SOME-ABSOLUTE-TRUTH",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-THEAET-171E-172A-CONCESSION-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "note": "Conceded by the restricted Protagorean (Theaetetus 171e-172a), on the narrow reading only: outside the relative domain it is not the case that seeming makes true for the one to whom it seems, and opinions there differ toward truth. Evidence, not inference: neither a particular case nor the bridge to absolute truth is attributed or assumed."
+}

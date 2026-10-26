@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENTISM-EPISTEMIC-FRAME",
+  "term": "established vs empirically established",
+  "definition": "`EpistemicFrame` has two independent predicates on claims: established (known, rationally warranted) and established by empirical evidence. Neither implies the other by definition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Scientism.EpistemicFrame",
+  "note": "Witnesses for scientism's defenders and critics are pending (#378); see candidate SCIENTISM-SELF-APPLICATION-WITNESSES."
+}

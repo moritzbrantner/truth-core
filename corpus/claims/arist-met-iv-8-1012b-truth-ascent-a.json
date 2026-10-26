@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-MET-IV-8-1012B-TRUTH-ASCENT-A",
+  "statement_id": "STMT-TRUTH-ASCENT",
+  "source_id": "ARIST-MET",
+  "locator": "IV.8, 1012b21-22",
+  "interpretation": "\"He who says that the true statement is true is true\" (ὁ γὰρ λέγων τὸν ἀληθῆ λόγον ἀληθῆ ἀληθής). Read as truth ascent for absolute truth: the statement that a true content is true is itself true.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

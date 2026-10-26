@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DISQUOTATION",
+  "term": "disquotation for one content",
+  "definition": "`Disquotes truth p says`: if content p is true, the proposition it says holds. One direction of the truth schema, for one content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.Disquotes",
+  "note": "Aristotle's definition of truth (Metaphysics IV.7, 1011b26-27, to say of what is that it is) would source the schema for unindexed truth; no claim yet binds it to this declaration."
+}

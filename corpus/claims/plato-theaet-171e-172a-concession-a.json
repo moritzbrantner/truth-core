@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-THEAET-171E-172A-CONCESSION-A",
+  "statement_id": "STMT-RESTRICTED-MEASURE-CONCESSION",
+  "source_id": "PLATO-THEAET",
+  "locator": "171e-172a",
+  "interpretation": "What the restriction concedes: about health not every woman, child or beast is competent to heal itself (171e); about what is advantageous the Protagorean \"will agree\" (ὁμολογήσει) that one counsellor differs from another, and one city's opinion from another's, toward truth (πρὸς ἀλήθειαν), and would not dare say that whatever a city thinks advantageous will be so (172a). Read narrowly as the denial of the universal outside the domain: it is not the case that whatever seems so there is true for the one to whom it seems. Not read as a particular case of seeming without truth-for (constructively stronger, and not needed by PLATO-THEAET-CONCESSION-DEFEATS-MEASURE), nor as an endorsement of absolute truth.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

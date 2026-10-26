@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.peritropeAbsoluteHorn"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

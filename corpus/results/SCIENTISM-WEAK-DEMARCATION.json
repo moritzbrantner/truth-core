@@ -1,0 +1,9 @@
+{
+  "id": "SCIENTISM-WEAK-DEMARCATION",
+  "argument_id": "SCIENTISM-WEAK-DEMARCATION",
+  "challenge_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution",
+  "theorem": "TruthCore.Results.Logic.Scientism.WeakDemarcation.weakScientismDemarcation",
+  "comparator_config": "results/SCIENTISM-WEAK-DEMARCATION/comparator.json",
+  "status": "solution-present"
+}

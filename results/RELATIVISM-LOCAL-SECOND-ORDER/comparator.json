@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Relativism.LocalSecondOrder.localRelativismSecondOrder"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

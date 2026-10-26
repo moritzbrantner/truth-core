@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RESTRICTED-MEASURE-CONCESSION",
+  "paraphrase": "What the restricted doctrine concedes: outside its domain (health, advantage) it is not the case that whatever seems so to someone is true for them; there one judgement differs from another toward truth. The denial of the universal, not a particular case of seeming without truth-for.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RestrictedMeasureConcession",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

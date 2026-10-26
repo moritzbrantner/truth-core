@@ -114,6 +114,7 @@ import TruthCore.Greek.Plato.Forms
 import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
 import TruthCore.Greek.Plato.Parmenides.ReplyModels
 import TruthCore.Greek.Plato.ParticipationGrounding
+import TruthCore.Greek.Plato.Theaetetus
 import TruthCore.Greek.Plato.ThirdMan
 import TruthCore.Greek.Plato.ThirdMan.Sensitivity
 import TruthCore.Greek.Plato.Timaeus
@@ -157,6 +158,9 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
 import TruthCore.Latin.Tacitus.Annals
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.Relativism
+import TruthCore.Logic.Scientism
+import TruthCore.Logic.SelfApplication
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
 import TruthCore.Mereology.Vitalism
@@ -240,6 +244,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaxime
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
 import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair.Solution
+import TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Solution
 import TruthCore.Results.Aristotle.Metaphysics.MostTrueIsMostBeing.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle.Solution
 import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
@@ -493,6 +498,16 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution
+import TruthCore.Results.Logic.Relativism.Models.Solution
+import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
+import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
+import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
+import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution
+import TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solution
+import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
+import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
+import TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution
 import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
 import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
@@ -547,6 +562,10 @@ import TruthCore.Results.Modern.Russell.Description.Solution
 import TruthCore.Results.Modern.Russell.Grounding.Solution
 import TruthCore.Results.Modern.Russell.Individual.Solution
 import TruthCore.Results.Modern.Russell.Projection.Solution
+import TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Solution
+import TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Solution
+import TruthCore.Results.Plato.Theaetetus.PeritropeModels.Solution
+import TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution
 import TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution
 import TruthCore.Teleonomy.Mechanisms

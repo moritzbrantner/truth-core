@@ -1,0 +1,15 @@
+{
+  "id": "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+  "paraphrase": "Second-order test for local relativism: a local thesis inside its own domain is not absolutely true if it holds (it falls back to the relative horn); a local thesis outside its own domain, if absolutely true, is itself an absolute truth, so global relativism about absolute truth fails.",
+  "lean_declaration": "TruthCore.Logic.Relativism.LocalRelativismSecondOrder",
+  "definition_ids": [
+    "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

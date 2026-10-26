@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
+  "rule": "constructive-proof",
+  "meaning": "Model: a weak thesis outside its own domain, acceptable and failing the standard, with the restricted norm holding. Weak theses survive self-application.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

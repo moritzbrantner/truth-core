@@ -1,0 +1,11 @@
+{
+  "id": "DEF-PROTAGOREAN-MEASURE",
+  "term": "Protagorean measure doctrine",
+  "definition": "`MeasureDoctrine Seems T`: whatever seems so to someone is true for that one. `RestrictedMeasureDoctrine` restricts it to a demarcated domain.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLATO-THEAET-170A-MEASURE-A",
+    "PLATO-THEAET-171D-172B-RESTRICTED-MEASURE-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.MeasureDoctrine"
+}
