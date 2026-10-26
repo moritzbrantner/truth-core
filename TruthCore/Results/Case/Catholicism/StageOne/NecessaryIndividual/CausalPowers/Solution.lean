@@ -18,7 +18,12 @@ theorem checks : CausalPowers.Compatibility := by
   unfold CausalPowers.Compatibility
   refine ⟨?_, trivial, Bool.noConfusion, ?_, ?_, ?_, ?_, hd, ?_⟩
   all_goals
-    simp only [TruthCore.Modal.Reflexive, Box, CausalPowers.Capacity,
-      CausalPowers.Disciplined, alternatingFrame, CausalPowers.existsAt, CausalPowers.response]
+    try unfold TruthCore.Modal.Reflexive
+    try unfold Box
+    try unfold CausalPowers.Capacity
+    try unfold CausalPowers.Disciplined
+    try unfold alternatingFrame
+    try unfold CausalPowers.existsAt
+    try unfold CausalPowers.response
     decide
 end TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
