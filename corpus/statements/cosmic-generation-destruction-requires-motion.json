@@ -1,0 +1,14 @@
+{
+  "id": "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION",
+  "paraphrase": "Every occurrence of a world's coming to be or perishing is accompanied by some subject undergoing physical motion in some physical respect.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.CosmicGenerationDestructionRequiresMotionReading",
+  "definition_ids": [
+    "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
