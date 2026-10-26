@@ -193,6 +193,50 @@ This suggests a sharper proof task than "all infinities are impossible":
    causal networks; a paradox in the instructions by itself does not settle
    these modalities.
 
+### Which reading of "cannot go on to infinity"?
+
+The target premise is formalized as accessibility (`∀ x, Acc CausesAsCaused x`,
+DEF-REGRESS-ACCESSIBILITY-READING). The Latin denies more literally that the
+series *proceeds to infinity*: that there is an infinite series of causes each
+caused as cause by the next (DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES).
+DISAMB-NO-INFINITE-REGRESS-READING keeps the two senses apart, and two results
+relate them for every relation:
+
+- `REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES` (axiom-free): the
+  accessibility reading implies the literal reading.
+- `REGRESS-READINGS-COINCIDE-CLASSICALLY` (Mathlib, classical axioms): the
+  converse holds too, so in classical logic the formalization is not stronger
+  than the literal reading. The converse builds an infinite series from an
+  inaccessible being by choice; it is not available constructively.
+
+These are fidelity checks on the formalization, not progress on the premise:
+neither reading is shown true of any actual `CausesAsCaused`, and the
+countermodels above refute both readings equally on the successor chain.
+
+### What the grounding route still needs
+
+`FINITE-GROUNDING-HAS-SOURCE` gives every inductively grounded being a source,
+but not the accessibility reading. Two axiom-free results locate the gap:
+
+- `GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING`: if every being's power
+  is inductively grounded, sources receive no per se link
+  (DEF-SOURCES-RECEIVE-NO-LINK), and each being has at most one immediate per se
+  cause (DEF-AT-MOST-ONE-IMMEDIATE-CAUSE), then every being is accessible.
+- `GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS`: without the uniqueness
+  condition this fails. One source links directly to every node of an infinite
+  descending chain, so every node is grounded and the source is uncaused, yet no
+  chain node is accessible.
+
+Both are conditionals or countermodels; none of the three antecedents is
+sourced or proved of real per se causes, so the premise stays open.
+
+`KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT` places Kant's local-causality
+countermodel (`KANT-LOCAL-CAUSALITY-INSUFFICIENT`) in the same picture: in any
+Kantian ontic model, local causality plus a well-founded `Causes` relation at a
+world where something exists excludes every existent being contingent. The
+conclusion is the negation of a universal; reaching a necessary being from it
+needs excluded middle, and Kant's generic `Causes` is not `CausesAsCaused`.
+
 ## 4. Primary-source boundary and further objections
 
 - **Pinned:** Aquinas, *Summa theologiae* I q.2 a.3, via

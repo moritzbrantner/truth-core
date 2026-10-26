@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.GroundingAllowsRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundingAllowsRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.GroundingAllowsRegress.groundingWithoutUniqueCauseAllowsRegress"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

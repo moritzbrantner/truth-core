@@ -1,0 +1,9 @@
+{
+  "id": "GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "argument_id": "GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "challenge_module": "TruthCore.Results.Causality.GroundingAllowsRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundingAllowsRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundingAllowsRegress.groundingWithoutUniqueCauseAllowsRegress",
+  "comparator_config": "results/GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS/comparator.json",
+  "status": "solution-present"
+}

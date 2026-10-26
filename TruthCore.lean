@@ -12,6 +12,7 @@ import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
+import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.PowerExistenceBoundary
@@ -367,6 +368,8 @@ import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
+import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
@@ -466,6 +469,7 @@ import TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Sol
 import TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution
 import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution
 import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Solution
+import TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Solution
 import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution
 import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
