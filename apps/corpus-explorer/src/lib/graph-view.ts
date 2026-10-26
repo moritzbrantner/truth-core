@@ -235,6 +235,16 @@ export function computeGraphView(
     highlightArgument ? [...highlightArgument.premises, highlightArgument.conclusion] : [],
   );
   const highlightedInferences = new Set(highlightArgument?.inferenceIds ?? []);
+  // A queue, search result, proof pin, or restored URL may point to a reading
+  // without an inference yet. Keep that explicitly addressed dot on the map.
+  const explicitlyShown = new Set([
+    state.sel,
+    state.node,
+    state.target,
+    ...state.expanded,
+    ...state.pins,
+    ...highlightedStatements,
+  ]);
   const matches = (id: string) => {
     const statement = index.statementById.get(id);
     return !filtering || (statement ? statementMatches(statement, state, index) : false);
@@ -250,6 +260,7 @@ export function computeGraphView(
           state.showIsolated ||
           index.producers.has(statement.id) ||
           index.consumers.has(statement.id) ||
+          explicitlyShown.has(statement.id) ||
           (filtering && statementMatches(statement, state, index)),
         )
         .map((statement) => statement.id),
@@ -283,7 +294,7 @@ export function computeGraphView(
 
   let statementIds = selection.statements.filter((id) => index.statementById.has(id));
   if (state.hide && filtering) {
-    const shown = new Set(statementIds.filter((id) => id === anchor || matches(id)));
+    const shown = new Set(statementIds.filter((id) => id === anchor || explicitlyShown.has(id) || matches(id)));
     // A step whose conclusion and some premise survive brings back its other
     // premises as (dimmed) context, so no step is drawn with a premise missing.
     for (const id of selection.inferences) {
