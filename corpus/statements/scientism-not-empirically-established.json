@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+  "paraphrase": "The scientistic thesis is not itself established by empirical evidence. An open premise, stated by critics of scientism (witness pending).",
+  "lean_declaration": "TruthCore.Logic.Scientism.ScientismNotEmpiricallyEstablished",
+  "definition_ids": [
+    "DEF-SCIENTISM-EPISTEMIC-FRAME",
+    "DEF-STRONG-SCIENTISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

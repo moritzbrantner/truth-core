@@ -1,0 +1,9 @@
+{
+  "id": "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+  "argument_id": "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Solution",
+  "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.peritropeAbsoluteHorn",
+  "comparator_config": "results/PLATO-THEAET-PERITROPE-ABSOLUTE-HORN/comparator.json",
+  "status": "solution-present"
+}

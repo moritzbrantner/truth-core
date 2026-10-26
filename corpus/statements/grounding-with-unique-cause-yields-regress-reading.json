@@ -1,0 +1,15 @@
+{
+  "id": "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "paraphrase": "For every relation R and source predicate: if every being's power is inductively grounded in an intrinsic source (FinitelyGroundedPower), no source receives an R-link, and each being has at most one immediate R-cause, then every being is R-accessible (the corpus's reading of the per se regress premise). A conditional relating these conditions; it asserts none of them of any actual causal relation.",
+  "lean_declaration": "TruthCore.Causality.GroundingRegress.GroundingWithUniqueCauseYieldsRegressReading",
+  "definition_ids": [
+    "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-REGRESS-ACCESSIBILITY-READING",
+    "DEF-SOURCES-RECEIVE-NO-LINK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

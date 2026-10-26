@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-KANT-LOCAL-CAUSALITY-INSUFFICIENT"
   ],
-  "meaning": "There is a modal interpretation with unrestricted accessibility with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md. Archival underconstrained result; the universal revision supplies the advertised frame guarantee.",
+  "meaning": "There is a modal interpretation (accessibility unconstrained by the type) with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md. Archival underconstrained result; the universal revision supplies the advertised frame guarantee.",
   "definition_ids": [
     "DEF-KANT-ONTOLOGICAL-MODEL",
     "DEF-KANT-MODAL-NECESSITY",

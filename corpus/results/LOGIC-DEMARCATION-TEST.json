@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-DEMARCATION-TEST",
+  "argument_id": "LOGIC-DEMARCATION-TEST",
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution",
+  "theorem": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.demarcationTest",
+  "comparator_config": "results/LOGIC-DEMARCATION-TEST/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+  "argument_id": "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+  "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.exemptionRegress",
+  "comparator_config": "results/ARIST-MET-IV-8-EXEMPTION-REGRESS/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "paraphrase": "For every relation R on any type of beings: if every being is R-accessible (the corpus's well-foundedness reading of the per se regress premise), then there is no infinite series of beings each R-related to its predecessor. This relates two readings of the premise; it asserts neither.",
+  "lean_declaration": "TruthCore.Causality.AccessibilityReadingExcludesDescendingSeries",
+  "definition_ids": [
+    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+    "DEF-REGRESS-ACCESSIBILITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

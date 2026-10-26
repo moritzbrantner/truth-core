@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ASSERTION-COMMITMENT",
+  "term": "assertion in a truth sense",
+  "definition": "Asserting p in sense s (`TruthSense`: absolute, or relative to an agent) commits the speaker to `AssertionCommitment T s p`, i.e. to p being true in that sense. The commitment is not a claim that the assertion is correct.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.AssertionCommitment",
+  "note": "The issue #397 assertion layer. A sourced account of assertion (e.g. Aristotle's affirming and denying, Metaphysics IV.7) would replace this stipulation."
+}

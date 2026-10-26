@@ -1,0 +1,13 @@
+{
+  "id": "STMT-WEAK-SCIENTISM-RESTRICTED",
+  "paraphrase": "Weak (restricted) scientism: within a demarcated domain of questions, every established claim is established empirically. The restriction of STMT-STRONG-SCIENTISM by a demarcation criterion.",
+  "lean_declaration": "TruthCore.Logic.Scientism.WeakScientism",
+  "definition_ids": [
+    "DEF-WEAK-SCIENTISM-RESTRICTED",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

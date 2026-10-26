@@ -5,6 +5,8 @@
     "source_url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
     "retrieved_at": "2026-10-25T13:02:51Z",
     "sha256": "sha256:9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
+    "wayback_url": "https://web.archive.org/web/20261006211539id_/https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+    "wayback_sha256": "sha256:9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
     "encoding": "utf-8",
     "language": "eng",
     "translation": {
@@ -12,7 +14,7 @@
       "year": 1855,
       "edition": "Critique of Pure Reason, Project Gutenberg ebook 4280"
     },
-    "license": "Public domain in the United States, Project Gutenberg license and territorial notice in ebook. Only hashes and short incipits committed."
+    "license": "Public domain in the United States, Project Gutenberg license and territorial notice in ebook. Only hashes and short incipits committed. A fixed 2026-10-06 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and all 4 selected text hashes and incipits match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {

@@ -49,8 +49,10 @@ Everything else is new, because it differs:
 
 ## Comparison with Scott's variant (bounded queries)
 
-* **Consistency.** Scott: the premises of T3 hold in a one-world model
-  (`SCOTT-GOD-LIKE-NECESSARILY-EXISTS`, `premisesJointlySatisfiable`).
+* **Consistency.** Scott: the premises of T3 hold in a model with a world
+  (`SCOTT-PREMISES-SATISFIABLE-WITH-WORLD`; the older
+  `premisesJointlySatisfiable` of `SCOTT-GOD-LIKE-NECESSARILY-EXISTS` does not
+  require a world in its type).
   Gödel 1970: `Ax2a`, `Ax3`, `Ax4` have no model with a world, on any frame
   (`GOEDEL-1970-INCONSISTENT`); without `Ax4` the other axioms and symmetry are
   satisfiable (`GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS`,

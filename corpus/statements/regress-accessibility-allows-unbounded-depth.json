@@ -1,0 +1,11 @@
+{
+  "id": "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "paraphrase": "There is a relation R (on the naturals plus a top) under which every being is R-accessible (the corpus's well-foundedness reading of the per se regress premise), yet below one being (the top) there are descending R-chains of every finite length. So the accessibility reading excludes infinite descent but does not bound the length of finite descent. A fact about the formal reading; it says nothing about actual per se causes.",
+  "lean_declaration": "TruthCore.Causality.AccessibilityAllowsUnboundedDepth",
+  "definition_ids": [
+    "DEF-REGRESS-ACCESSIBILITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

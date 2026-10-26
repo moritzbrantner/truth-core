@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RESTRICTED-MEASURE",
+  "paraphrase": "Restricted measure doctrine (Socrates' retreat on Protagoras's behalf): within a demarcated domain (perceptual qualities such as hot, dry and sweet; the fine, just and holy as each city decrees them), what seems so to someone is true for them.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RestrictedMeasureDoctrine",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

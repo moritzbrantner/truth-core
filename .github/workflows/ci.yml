@@ -25,8 +25,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - name: Check TruthCore.lean imports every module, sorted
+        with:
+          # A PR checks out its merge commit; HEAD^1 is the base the source verify compares to.
+          fetch-depth: 2
+      - name: Check the per-area import aggregators import every module, sorted
         run: scripts/root-imports.sh
+      - name: Check generated docs tables and lists are up to date
+        run: python3 scripts/docs_index.py
       # lean-toolchain pins the exact Lean version that the Mathlib release in
       # lake-manifest.json requires. `use-mathlib-cache` runs `lake exe cache get`
       # before `lake build`, so Mathlib is downloaded prebuilt rather than compiled;
@@ -46,8 +51,18 @@ jobs:
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Report the premise frontier
         run: python3 scripts/corpus.py frontier --reaching-root
+      # On a PR, refetch only the passages whose manifests the PR adds or changes (every
+      # passage when the verifier changed) and still validates every manifest offline. A live
+      # page that drifts then turns main and the nightly run red without blocking unrelated PRs.
       - name: Verify immutable primary-source witnesses
-        run: python3 scripts/source_evidence.py verify
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT" == pull_request ]]; then
+            python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
+          else
+            python3 scripts/source_evidence.py verify
+          fi
       - name: Exercise source materialization
         run: |
           python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt

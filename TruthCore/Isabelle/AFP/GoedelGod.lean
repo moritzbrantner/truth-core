@@ -205,10 +205,11 @@ Scott's essence differs from Gödel's 1970 essence
 def EmptyPropertyNotEssence (F : Frame World) (Ind : Type v) : Prop :=
   ∀ w (x : Ind), ¬ Essence F (fun _ _ => False) x w
 
-/-- A finite independence test for Scott's axiom `A5`. There can be two
-universally accessible worlds and one individual satisfying `A1a`, `A1b`,
-`A2`, `A3`, and `A4`, while necessary existence is not positive and `T3`
-fails. The possibility corollary `C` is nevertheless true. This is a new
+/-- A finite independence test for Scott's axiom `A5`. There is an S5
+(reflexive, symmetric, transitive) frame on two worlds, with one individual,
+satisfying `A1a`, `A1b`, `A2`, `A3`, and `A4`, while necessary existence is not
+positive and `T3` fails. (The proof's witness happens to use universal
+accessibility; the proposition does not require it.) The possibility corollary `C` is nevertheless true. This is a new
 logical countermodel concerning the AFP formalization, not a historical
 claim about Scott's philosophical justification for `A5`. -/
 def NecessaryExistencePositivityIndependent : Prop :=
@@ -288,5 +289,22 @@ def InvariantFilterDiffersFromScott : Prop :=
     (∀ w next, F.access w next) ∧
     FilteredNecessaryExistence F WorldInvariantProperty () false ∧
     ¬ NecessaryExistence F () false
+
+/-- Scott's modal premises of `T3` (`A1a`, `A1b`, `A2`, `A3`, `A4`, `A5` and
+symmetry) hold together in a model **with at least one world**. Unlike the
+frozen `premisesJointlySatisfiable` of `SCOTT-GOD-LIKE-NECESSARILY-EXISTS`,
+whose type an empty type of worlds already satisfies vacuously, this
+proposition certifies a nonvacuous model, matching the 1970 sibling, which
+requires `Nonempty World`. -/
+def ScottPremisesSatisfiableWithWorld : Prop :=
+  ∃ (World Ind : Type) (F : Frame World) (P : Positivity World Ind),
+    Nonempty World ∧
+    NegationPositiveExcludesPositive P ∧
+    NonPositiveHasPositiveNegation P ∧
+    PositiveClosedUnderNecessaryImplication F P ∧
+    GodLikePositive P ∧
+    PositiveNecessarilyPositive F P ∧
+    NecessaryExistencePositive F P ∧
+    Symmetric F
 
 end TruthCore.Isabelle.AFP.GoedelGod

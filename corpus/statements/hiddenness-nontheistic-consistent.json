@@ -1,6 +1,6 @@
 {
   "id": "STMT-HIDDENNESS-NONTHEISTIC-CONSISTENT",
-  "paraphrase": "The encoded non-theistic hiddenness commitments have a finite joint interpretation, including the same human history of nonbelief and subsequent belief. This neither establishes naturalism nor explains historical evidence.",
+  "paraphrase": "The encoded non-theistic hiddenness commitments have a joint interpretation, which includes actual nonresistant nonbelief (one of the commitments). The proof's witness is also finite and has subsequent belief; the type requires neither. This neither establishes naturalism nor explains historical evidence.",
   "lean_declaration": "TruthCore.Comparison.Hiddenness.NontheisticConsistent",
   "definition_ids": [
     "DEF-HIDDENNESS-GOD",

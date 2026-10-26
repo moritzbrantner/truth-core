@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "paraphrase": "Some content is absolutely true (true in the unindexed sense, not merely true for some agent).",
+  "lean_declaration": "TruthCore.Logic.Relativism.SomeAbsoluteTruth",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-TRUE"
+  ]
+}

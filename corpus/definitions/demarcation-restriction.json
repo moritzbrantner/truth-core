@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DEMARCATION-RESTRICTION",
+  "term": "demarcation criterion, restricted (weak) thesis, concession",
+  "definition": "A `Demarcation` fixes a domain of claims. The weak thesis `N.restrict D` applies the strong norm only to claims in scope and in the domain. `N.Concedes D Acceptable c`: c is in the strong scope, outside the domain, acceptable and fails the standard; every concession is a counterexample to the strong norm.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.Norm.restrict",
+  "note": "Owner method (2026-10-26, #397): for each strong/weak pair, record the criterion that splits the domain and what the weak side concedes. Instances source the criterion where it is attributed (STMT-RESTRICTED-MEASURE-CRITERION)."
+}

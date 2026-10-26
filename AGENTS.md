@@ -76,6 +76,22 @@ Do not stop merely because one atomic claim, one PR, or one campaign is finished
 
 See `docs/systematic-corpus-loop.md` for batching, completion, and campaign guidance.
 
+## Lanes and shared files
+
+Work runs in parallel lanes (#416). Each lane owns directories and the corpus records about them:
+
+- **Lane A — Fourth Way and attributes:** `TruthCore/Latin/`, `TruthCore/Case/` (stages 1–2), `TruthCore/Results/Aquinas/`, `TruthCore/Results/Case/` (stages 1–2), and their corpus records.
+- **Lane B — stage 3:** `TruthCore/History/`, `TruthCore/Greek/NewTestament/`, `TruthCore/Case/Catholicism/StageThree/`, `TruthCore/Results/Case/Catholicism/StageThree/`, `TruthCore/Results/Comparison/Resurrection/`, the module `TruthCore/Comparison/Resurrection.lean` (in lane C's `Comparison` area, so a new sibling module there is a cross-lane edit), New Testament and Church sources, and their corpus records.
+- **Lane C — everything else, and the single writer of tooling:** CI, `AGENTS.md`, `scripts/`, the explorer, and all other `TruthCore/` areas.
+
+Rules:
+
+- Edit outside your lane only where the work needs it (for example a shared definition or disambiguation such as `DISAMB-MOTION`), keep that edit minimal, and list every cross-lane file in the PR description.
+- Merge `origin/main` into your branch right before every push, then rerun the generators below and the checks.
+- Shared tables and import lists are generated, never hand-edited. Lean imports: `scripts/root-imports.sh --write` (each area has its own aggregator under `TruthCore/Imports/`; `scripts/root_imports.py` lists the areas finer than one top-level directory). Docs tables and lists: add one entry file (for example `docs/decisions/<date>-<NN>-<slug>.md`) and run `python3 scripts/docs_index.py --write`. CI rejects stale output of both. After a merge conflict in a generated file, take either side and rerun the generator. A row or list item that a branch from before #416 added by hand must first move into an entry file: the generator keeps only entries.
+
+See `docs/systematic-corpus-loop.md`, "Parallel lanes".
+
 ## One atomic work item
 
 For each philosophically substantive reading or argument encountered inside the current candidate range, perform this loop:
@@ -128,7 +144,7 @@ When statements are meant to support a conclusion:
 - add a `corpus/arguments/*.json` record composing those steps;
 - add `Challenge.lean` containing the exact advertised theorem with `sorry`;
 - add a separate `Solution.lean` containing the same theorem and a real proof;
-- run `scripts/root-imports.sh --write` so `TruthCore.lean` imports every new module (except `Challenge.lean`) in sorted order;
+- run `scripts/root-imports.sh --write` so the generated aggregator of the module's area (`TruthCore/Imports/<Area>.lean`) imports every new module (except `Challenge.lean`) in sorted order; `TruthCore.lean` imports only the aggregators and changes only when an area appears;
 - add a `corpus/results/*.json` verification record that points to the argument;
 - add a Comparator JSON config naming the theorem and permitted axioms.
 
@@ -167,6 +183,17 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - every "read as" or attributed claim states no more than its cited sentence; any strengthening is stated as an explicit, unattributed open premise;
 - every load-bearing term on a root path links a definition through `definition_ids`;
 - every ambiguous term links a disambiguation through `disambiguation_ids`.
+
+**Claim vs type.** Most review P1s are prose saying more than the bound Lean type certifies. For every statement, argument or result the diff adds or changes, write in the PR body the prose next to the Lean type (statement paraphrase, claim interpretation, inference/argument `meaning`, result `description`, Lean doc comments, docs) and check:
+
+- quantifiers and scope: "no", "not every", "some", "for all", "exists" (`¬ ∀` is not `∀ ¬`);
+- modality and time;
+- existence of a witness versus properties of the particular witness (a theorem about some model does not give the model's incidental properties);
+- every hypothesis of the theorem is listed as a premise (including nonemptiness or satisfiability side conditions, so that no result is vacuous);
+- conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
+- any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
+
+Each PR also reports its intended and actual change in root-path open premises (`corpus.py frontier --routes` for the per-route cost, `--reaching-root` for the premises), including "no change".
 
 ## Review guidelines
 

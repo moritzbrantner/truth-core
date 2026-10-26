@@ -1,0 +1,9 @@
+{
+  "id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "argument_id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "challenge_module": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution",
+  "theorem": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.accessibilityReadingExcludesDescendingSeries",
+  "comparator_config": "results/REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES/comparator.json",
+  "status": "solution-present"
+}

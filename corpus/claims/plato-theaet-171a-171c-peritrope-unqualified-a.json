@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-THEAET-171A-171C-PERITROPE-UNQUALIFIED-A",
+  "statement_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
+  "source_id": "PLATO-THEAET",
+  "locator": "171a-c",
+  "interpretation": "Socrates' \"most exquisite\" point: granting the deniers' opinion to be true, Protagoras would concede his own to be false; the deniers do not concede they are wrong; so the doctrine is disputed by all, Protagoras included, and his Truth is true for no one (171c). Unqualified reading: with \"true\" and \"false\" unindexed, the doctrine refutes itself. Formalized as horn 1, conditional on the scope premise and on unindexed truth respecting negation (STMT-PILOT-NEGATION-RESPECTED, an open bridge). Whether Plato's dropped qualifiers are a fallacy or a deliberate argument is a scholarly question this claim does not decide.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

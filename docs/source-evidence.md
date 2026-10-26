@@ -65,7 +65,9 @@ python3 scripts/source_evidence.py web-hashes <URL> --encoding utf-8 \
   --wayback 'https://web.archive.org/web/<timestamp>id_/<URL>'
 ```
 
-Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Record a Wayback capture whose extracted text matches whenever one is reachable. A page that drifts without a matching capture can no longer be materialized; re-pin it, and re-read the claims against the new text.
+Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Every web snapshot should therefore carry a Wayback fallback. Use a fixed-timestamp `id_` capture whose extracted text matches the pinned `text_sha256` for **every** passage of the manifest (`web-hashes … --wayback` prints `wayback_text_matches`). Fetch it twice so that `wayback_sha256` is byte-stable. If no existing capture matches but the live page still gives the pinned bytes, ask the Wayback Machine to save the page now (`https://web.archive.org/save/<URL>`), then pin the new capture after the same checks. Adding a fallback leaves `sha256`, `text_sha256` and `retrieved_at` unchanged; the `license` note says which capture was pinned and why. When no matching capture can be pinned, the note says so, and the snapshot stays fragile.
+
+A page that drifts without a matching capture can no longer be materialized. Do not just swap in the new hashes. First compare the newly extracted text with the pinned `text_sha256`. If the text is unchanged, only the byte hash is re-pinned, and the note records the old hash and the date. If the text changed, re-read every claim on the passage against the new text before re-pinning (a fidelity review, not a hash update).
 
 ### PDF pages within a web snapshot
 
@@ -140,7 +142,9 @@ Network-backed source verification:
 python3 scripts/source_evidence.py verify
 ```
 
-`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. CI runs the corpus binding check and verifies the immutable source snapshots. New claims therefore cannot enter the formalized corpus without reproducible source evidence.
+`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits. It refetches all of them when `scripts/source_evidence.py` itself changed. Every manifest and claim binding is still validated offline.
+
+CI runs the corpus binding check on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked. Unrelated PRs are no longer blocked by a page that drifted outside the repository. On a push to `main`, and in the nightly scheduled run, CI runs the full `verify`. Drift therefore still turns `main` and the nightly run red, where the owner is notified. The repair is a fallback or re-pin as described above. New claims therefore cannot enter the formalized corpus without reproducible source evidence.
 
 ## What this does not prove
 

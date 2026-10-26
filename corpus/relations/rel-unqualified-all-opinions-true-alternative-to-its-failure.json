@@ -1,0 +1,9 @@
+{
+  "id": "REL-UNQUALIFIED-ALL-OPINIONS-TRUE-ALTERNATIVE-TO-ITS-FAILURE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
+  "note": "Self-application (Theaetetus 171a-c). Horn 1 proved with the scope premise sourced as the rival's own commitment (PLATO-THEAET-171A-SELF-APPLICATION-A), but conditional on the open unindexed negation bridge STMT-PILOT-NEGATION-RESPECTED; so no refutes relation."
+}

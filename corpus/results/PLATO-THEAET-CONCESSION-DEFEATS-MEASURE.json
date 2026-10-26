@@ -1,0 +1,9 @@
+{
+  "id": "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "argument_id": "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Solution",
+  "theorem": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.concessionDefeatsMeasure",
+  "comparator_config": "results/PLATO-THEAET-CONCESSION-DEFEATS-MEASURE/comparator.json",
+  "status": "solution-present"
+}

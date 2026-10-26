@@ -7,7 +7,7 @@ import { StatementLink } from "@/components/statement-link";
 import { TermsSection } from "@/components/terms-section";
 import { claimsForResult, comparatorForResult, findResult, findStatement, getCorpus } from "@/lib/corpus";
 import { theoremInModule } from "@/lib/lean-source";
-import { getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
+import { TRANSCRIPTION_KIND_DESCRIPTIONS, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
 
 type ResultPageProps = {
   params: Promise<{ resultId: string }>;
@@ -77,10 +77,14 @@ export default async function ResultPage({ params }: ResultPageProps) {
       <aside className="mt-10 max-w-4xl border-l-2 border-[var(--accent)] bg-[var(--callout)] px-5 py-5 text-sm leading-6 text-[var(--muted)]">
         {kind.kind === "transcription" ? (
           <>
-            <strong className="font-semibold text-[var(--ink)]">A transcription, not a proof.</strong> The Lean proof applies
-            the single hypothesis <code className="font-mono">{kind.flag?.single_application_of}</code>, which already contains
-            the conclusion. It maps the source&apos;s &ldquo;therefore&rdquo; faithfully, and it closes its conclusion only if
-            every premise is closed (AGENTS.md invariant 16).
+            <strong className="font-semibold text-[var(--ink)]">A transcription, not a proof.</strong>{" "}
+            {kind.transcription?.declared
+              ? `The result record declares it (${kind.transcription.kind}): ${TRANSCRIPTION_KIND_DESCRIPTIONS[kind.transcription.kind]}`
+              : kind.flag?.single_application_of
+                ? `The Lean proof applies the single hypothesis ${kind.flag.single_application_of}, which already contains the conclusion.`
+                : `The Lean proof only assembles the hypotheses ${(kind.flag?.assembly_of ?? []).join(", ")}.`}{" "}
+            It maps the source&apos;s &ldquo;therefore&rdquo; faithfully, and it closes its conclusion only if every premise is
+            closed (AGENTS.md invariant 16).
           </>
         ) : (
           <>

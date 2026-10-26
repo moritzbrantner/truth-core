@@ -1,0 +1,9 @@
+{
+  "id": "REL-GLOBAL-NO-ABSOLUTE-TRUTH-ALTERNATIVE-TO-SOME-ABSOLUTE-TRUTH",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GLOBAL-NO-ABSOLUTE-TRUTH",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "note": "Self-application. Horn 1 proved (RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING, conditional on scope and disquotation); horn 2 survives (RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS): held as true for its speaker it is consistent but gives no one else a reason. Not refuted."
+}
