@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+  "term": "no infinite regress, literal no-infinite-series reading",
+  "definition": "`NoInfiniteDescendingPerSeSeries R`: there is no function `series : ℕ → Being` with `R (series (n + 1)) (series n)` for every n (`DescendingPerSeSeries`), i.e. no infinite series of causes each caused as cause by the next. Repetitions are not excluded, so a causal loop counts as such a series.",
+  "basis": "stipulative",
+  "note": "An analyst's paraphrase of 'non est possibile quod in causis efficientibus procedatur in infinitum' (ST I q.2 a.3) as a statement about infinite enumerations; it is not attributed to the source as a separate claim. Its relation to DEF-REGRESS-ACCESSIBILITY-READING is the content of REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES and REGRESS-READINGS-COINCIDE-CLASSICALLY.",
+  "lean_declaration": "TruthCore.Causality.NoInfiniteDescendingPerSeSeries"
+}
