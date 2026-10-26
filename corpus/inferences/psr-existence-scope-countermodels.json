@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "rule": "model-construction",
+  "meaning": "Construct two explicit Bool-world/Bool-individual models with universal accessibility and truthful explanation attributions: one satisfies existence-PSR with no external causes, and the other satisfies contingent-only PSR while withholding any explanation from its necessarily existing individual. No metaphysical PSR premise is adopted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -28,6 +28,7 @@ import TruthCore.English.OConnor.Metaethics
 import TruthCore.English.OConnor.ProblemOfEvil
 import TruthCore.English.Railton.MoralRealism
 import TruthCore.English.VanRoojen.MoralCognitivism
+import TruthCore.Explanation.ExistencePSR
 import TruthCore.German.Kant.CosmologicalInference
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Metaphysics
@@ -398,6 +399,7 @@ import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution
 import TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution
 import TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution
 import TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution
+import TruthCore.Results.Explanation.PSRScope.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.EpistemicObjection.Solution
 import TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Solution
