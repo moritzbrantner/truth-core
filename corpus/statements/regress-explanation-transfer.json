@@ -1,0 +1,14 @@
+{
+  "id": "STMT-REGRESS-EXPLANATION-TRANSFER",
+  "paraphrase": "For every existence-PSR model with a separately supplied reason-requirement relation and rank into any well-founded relation, if every admitted reason\u2019s required fact lies below its explanandum, the projected explanatory-dependence graph satisfies all schema controls. PSR alone supplies neither the rank nor its strict-decrease condition.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.ExplanationTransfer",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

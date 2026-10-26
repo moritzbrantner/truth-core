@@ -12,7 +12,9 @@ permissions:
 
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  # A Pages export can outlast the interval between research merges. Let the
+  # running deployment publish; GitHub replaces superseded pending runs.
+  cancel-in-progress: false
 
 jobs:
   build:

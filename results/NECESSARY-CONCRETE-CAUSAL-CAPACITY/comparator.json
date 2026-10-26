@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

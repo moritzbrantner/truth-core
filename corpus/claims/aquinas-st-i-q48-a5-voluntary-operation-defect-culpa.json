@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q48-A5-VOLUNTARY-OPERATION-DEFECT-CULPA",
+  "statement_id": "STMT-VOLUNTARY-OPERATION-DEFECT-IS-CULPA",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.48 a.5 co.: malum autem quod consistit in subtractione debitae operationis in rebus voluntariis, habet rationem culpae",
+  "interpretation": "Directional sufficient condition. The earlier operational division specifies either total absence or lack of due mode and order; the later culpa sentence restricts it to voluntary matters and explains imputation by mastery of the action through will. Voluntary is control of the relevant operation, not rational nature alone. Due and ordered retain the source normative content as parameters. The reading neither makes every privation morally culpable nor asserts any actual culpa. Poena instead concerns loss of form/integrity, contrary to will, with providence and justice especially in view; ad 2 explicitly denies that poena/culpa divide evil without restriction. An exhaustive or biconditional classification is a broader defensible reading of the article, left unformalized rather than silently attributed to this sufficient condition.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}

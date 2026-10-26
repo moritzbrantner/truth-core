@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PAPINEAU-RISE-PHYSICALISM",
+    "source_url": "https://www.davidpapineau.co.uk/uploads/1/8/5/5/18551740/papineau_in_gillett_and_loewer.pdf",
+    "sha256": "sha256:d2de2b81467ad2731c28e86fb9b875c5fbd2d1454ab8438468039f8312f31901",
+    "encoding": "utf-8",
+    "language": "eng",
+    "retrieved_at": "2026-10-26T18:06:55Z",
+    "license": "Copyright author/publisher; author-hosted chapter for scholarly reading. No redistribution license asserted. Only metadata, hashes, locator and short incipit committed. Hash-pinned live witness; no immutable archive fallback obtained."
+  },
+  "passages": [
+    {
+      "id": "PAPINEAU-RISE-PHYSICALISM-3-12",
+      "locator": "pp.3–12 (physical PDF pages 1–10)",
+      "claim_locator_prefixes": [
+        "pp.3–12 "
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 10
+      },
+      "text_sha256": "sha256:193bfe06aac2e13a13831ba21b11a8f80d8a9b1aeda37bb2dd9c2fa13e65492d",
+      "incipit": "1 The Rise of Physicalism DAVID PAPINEAU No one could seriously, rationally"
+    }
+  ]
+}

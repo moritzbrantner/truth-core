@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMUM-ORDER-SCHEMA",
+  "argument_id": "MAXIMUM-ORDER-SCHEMA",
+  "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
+  "comparator_config": "results/MAXIMUM-ORDER-SCHEMA/comparator.json",
+  "status": "solution-present",
+  "description": "Derived from Mathlib maximality and strict causal ascent: every maximal member has no distinct cause of that same degree. The separate control theorems show that existence, uniqueness and causing all lower members do not follow, and that dropping ascent permits a distinct cause of a maximum. No philosophical premise is discharged."
+}

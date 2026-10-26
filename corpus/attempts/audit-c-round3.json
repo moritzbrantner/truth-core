@@ -1,0 +1,41 @@
+{
+  "id": "ATTEMPT-AUDIT-C-ROUND3",
+  "statement_ids": [
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-HUME-INDUCTION-AGENT-PHILOSOPHER",
+    "STMT-HUME-INDUCTION-ANCHOR",
+    "STMT-HUME-INDUCTION-CORRESPONDENCE",
+    "STMT-HUME-INDUCTION-CUSTOM",
+    "STMT-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+    "STMT-KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION",
+    "STMT-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE",
+    "STMT-KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE",
+    "STMT-MORAL-DISAGREEMENT-INCLUDES-ATTITUDE-CLASH",
+    "STMT-MORAL-SENTENCES-HAVE-DESCRIPTIVE-MEANING",
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+    "STMT-VOLUNTARY-OPERATION-DEFECT-IS-CULPA"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Independent periodic Audit C round 3 at frozen main 088d7706d2541e11c4d0d44f4a3b3205b6ba023b. Freshly materialized and reread 13 actual source claims (11 C, two Latin dependencies) and their stated contexts; exact witnesses/locators and fidelity judgments persist in docs/schemas.md. Inspected regress transfers and finite registry, Stevenson enriched consistency, culpa conditional, q75 rival assessment and blocked Ayer note. No P1 found in this bounded sample; correct two P2 stale registry/provenance notices without changing statements or proof inputs. Rejected reading conditional model consistency as actual possibility, finite warrant branch as sufficient justification, or primary1937 as replacing secondary1944 provenance. No source truth, frontier closure or philosophical discharge follows. Round2 covered A; round4 must cover B.",
+  "evidence": [
+    "AQUINAS-ST-I-Q48-A3-EVIL-IS-PRIVATION",
+    "AQUINAS-ST-I-Q48-A5-VOLUNTARY-OPERATION-DEFECT-CULPA",
+    "HUME-ENQUIRY-IV-AGENT-A",
+    "HUME-ENQUIRY-V-ANCHOR-A",
+    "HUME-ENQUIRY-V-CORRESPONDENCE-A",
+    "HUME-ENQUIRY-V-CUSTOM-A",
+    "KANT-CHANGE-NOT-MODAL-CONTINGENCY-A",
+    "KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-A",
+    "KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-A",
+    "KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE-A",
+    "POE-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL",
+    "REGRESS-SCHEMA-PACKAGE",
+    "SEP-MORAL-COGNITIVISM-2-1-STEVENSON-DESCRIPTIVE-MEANING",
+    "SEP-MORAL-COGNITIVISM-3-5-STEVENSON-DISAGREEMENT-IN-ATTITUDE",
+    "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT",
+    "STEVENSON-FACTUAL-AGREEMENT"
+  ]
+}

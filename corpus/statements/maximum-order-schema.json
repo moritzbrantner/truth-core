@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MAXIMUM-ORDER-SCHEMA",
+  "paraphrase": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater than its effect, every maximal member has no distinct cause of that degree.",
+  "lean_declaration": "TruthCore.Logic.MaximumOrder.MaximumOrderSchema",
+  "definition_ids": [
+    "DEF-MAXIMUM-ORDER-SCHEMA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

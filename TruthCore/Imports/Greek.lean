@@ -64,6 +64,7 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.Typed.Capacity
+import TruthCore.Greek.Aristotle.Physics.Typed.CosmicChange
 import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 import TruthCore.Greek.Clement.FirstCorinthians
 import TruthCore.Greek.Josephus.Antiquities

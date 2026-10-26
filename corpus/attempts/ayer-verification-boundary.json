@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-AYER-VERIFICATION-BOUNDARY",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-SELF-APPLICATION-DILEMMA",
+    "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+    "STMT-DEMARCATION-OUTSIDE-CONSISTENT"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Existing generic results cover the conditional inference and failure without scope. No sourced Ayer instance is established. A reachable faculty teaching-linked three-page primary excerpt is image-only and rejected by the current PDF materializer; an indexed Harris excerpt returns 404. The proposal reply must distinguish adoption of a rule from asserting a meaningful sentence outside its own domain; the existing scope countermodels do not independently establish that distinction historically. Precise locators, rejected readings and remaining bridges are preserved in docs/ayer-verification-boundary.md and AYER-LTL-EMOTIVISM. No root premise change.",
+  "blocker": "Obtain a legitimately hosted primary text with an admissible materializable witness, then settle the criterion formulation, self-scope, analytic/empirical status and proposal-versus-assertion reading without strengthening it.",
+  "evidence": [
+    "LOGIC-SELF-APPLICATION-DILEMMA",
+    "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+    "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT"
+  ]
+}

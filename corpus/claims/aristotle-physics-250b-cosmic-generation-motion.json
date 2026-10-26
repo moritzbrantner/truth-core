@@ -1,0 +1,17 @@
+{
+  "id": "ARIST-PHYS-250B-COSMIC-GENERATION-MOTION-A",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.1, 250b18-23",
+  "statement_id": "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION",
+  "interpretation": "The parenthetical necessity claim in the infinite-world cosmologists survey is isolated: generations and destructions of worlds occur with physical motion. Accompaniment does not identify substantial generation with motion in the strict sense, assert a prior motion, attribute the infinite-world cosmology to Aristotle, or establish perpetual motion. The reported cosmological conclusion and the subsequent Anaxagoras/Empedocles alternatives remain separate readings.",
+  "definition_ids": [
+    "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ],
+  "status": "formalized"
+}

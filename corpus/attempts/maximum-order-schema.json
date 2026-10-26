@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-MAXIMUM-ORDER-SCHEMA",
+  "statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+  ],
+  "date": "2026-10-26",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Factored the shared maximum-order inference: strict causal ascent excludes a distinct cause of a maximal member. Homogeneous Fourth Way instances for being/goodness/truth and attribution pullback compose the existing #386 Mathlib representation lemmas. The reverse inference that a maximum causes all others is rejected by an ordered Bool model with no causal edges; dropping ascent allows a lower cause of the maximum. Universal possession and unrestricted cause-more-such remain conditional hypotheses; secondary-cause failures in the existing attribution result remain intact. No source reading, maximum existence, uniqueness, identity with God or root closure follows.",
+  "evidence": [
+    "MAXIMUM-ORDER-SCHEMA",
+    "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+    "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+    "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH"
+  ]
+}

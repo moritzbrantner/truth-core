@@ -1,0 +1,19 @@
+{
+  "id": "INF-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL",
+  "input_statement_ids": [
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-VOLUNTARY-OPERATION-DEFECT-IS-CULPA"
+  ],
+  "output_statement_id": "STMT-ABSENT-VOLUNTARY-OPERATION-IS-CULPA-AND-EVIL",
+  "rule": "natural-deduction",
+  "meaning": "Conditional Catholic answer cell for Q-MORAL-GROUNDING: absence of a due voluntarily controlled operation is classified as culpa by q.48 a.5 and as evil in the agent by the existing q.48 a.3 privation account. This is a typed conditional, not an existence cell for man-made evil. It leaves actual culpable operations, objective due-order standards, and divine permission unproved; no compatibility with all Catholic commitments or refutation of a rival follows. The strongest rival may grant this conditional but deny objective dues or voluntary control; alternatively an internal critic can grant both and challenge divine permission. Neither challenge is answered here.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}

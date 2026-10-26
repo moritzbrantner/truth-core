@@ -60,8 +60,15 @@ describe("proposition graph status", () => {
     });
   });
 
-  test("keeps only statement-to-statement relations as relation edges", () => {
-    expect(graph.relations.map((relation) => relation.id)).toEqual(["REL1", "REL3"]);
+  test("projects recorded claim and argument links through their statement without treating them as inference", () => {
+    expect(graph.relations.map((relation) => [relation.id, relation.subject, relation.object, relation.originKind, relation.originId])).toEqual([
+      ["REL1", "ALT", "DEF", "statement", "ALT"],
+      ["REL2", "NALT", "ALT", "argument", "A6"],
+      ["REL3", "OBJ", "C", "statement", "OBJ"],
+      ["REL4", "LONE", "T", "claim", "CL-LONE"],
+    ]);
+    expect(graph.inferences).toHaveLength(fixture.inferences.length);
+    expect(graph.relations.find((relation) => relation.id === "REL4")?.note).toBe("Source evidence, not a proof step.");
   });
 
   test("falls back to the verified conclusion resting on the most statements", () => {

@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-STEVENSON-PRIMARY-DISAGREEMENT",
+  "statement_ids": [
+    "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+    "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT",
+    "STMT-MORAL-DISAGREEMENT-INCLUDES-ATTITUDE-CLASH"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Pinned and materialized complete primary 1937 article (University of Alberta PDF, pp.14–31). pp.27–29 supply a stronger affirmative account than bare ClashInAttitude: opposed interests plus mutual redirection, possibly persisting under factual agreement. Rejected identification with belief contradiction and rejected claim that empirical reasons never matter (p.28). pp.22–23 distinguish dispositional meaning from momentary dynamic usage, so occasion-emotivism refutation cannot simply be transferred to Stevenson. Compositional validity remains unexplained; this model is not a proof of historical theory truth.",
+  "evidence": [
+    "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT",
+    "STEVENSON-FACTUAL-AGREEMENT"
+  ]
+}

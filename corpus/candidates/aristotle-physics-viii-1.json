@@ -1,9 +1,9 @@
 {
   "id": "ARIST-PHYS-VIII-1",
   "source_id": "ARIST-PHYS",
-  "locator": "VIII.1, 250b11-252b6",
+  "locator": "VIII.1, 250b21-252b6",
   "priority": 120,
-  "goal": "Continue VIII.1 in source order, retaining the predecessor cosmologies at 250b11-251a7 as unprocessed substantive readings. The capacity requirement at 251a8-16 is completed by ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A: reuse it rather than duplicate it. Then distinguish temporal priority of movable and mover from capacity, investigate the first/last-motion and time arguments, and the criticism of unexplained cosmic alternation.",
-  "reason": "Full pinned VIII.1 witness read. Only the physical capacity requirement has been recorded. The opening question is context; the Anaxagoras/Empedocles cosmologies remain unprocessed obligations, so the locator stays at the first unprocessed range. Temporal priority, beginning/end arguments and objections also remain; existing VIII.4-5 dependency readings do not exhaust this chapter.",
+  "goal": "Resume with the one-world survey transition and the Anaxagoras and Empedocles alternatives at 250b21-251a7. The preceding survey necessity is recorded by ARIST-PHYS-250B-COSMIC-GENERATION-MOTION-A; its infinite-world cosmology is reported context, not adopted. The physical-capacity requirement at 251a8-16 is completed by ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A; reuse that reading rather than duplicate it. Temporal priority of movable and mover, the first/last-motion and time arguments, and criticism of unexplained cosmic alternation remain.",
+  "reason": "Complete pinned VIII.1 witness read; opening question consciously retained as inquiry context. The cosmic-generation accompaniment and physical-capacity requirements are recorded by their respective claims. Anaxagoras/Empedocles, temporal priority and the remaining chapter arguments remain substantive obligations. The locator begins with the first unprocessed predecessor account; this is not chapter completion.",
   "status": "candidate"
 }

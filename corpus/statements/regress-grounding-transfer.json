@@ -1,0 +1,16 @@
+{
+  "id": "STMT-REGRESS-GROUNDING-TRANSFER",
+  "paraphrase": "For every tagged-fact grounding interpretation, finite-source inductive grounding of every fact, no incoming link at intrinsic sources, and at most one immediate ground imply all schema controls. Neither actual metaphysical grounding nor those conditions are established.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.GroundingTransfer",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-PARTICIPATION-GROUND",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-SOURCES-RECEIVE-NO-LINK",
+    "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}
