@@ -31,7 +31,7 @@ For a subject `x` that is **in act at esse** and whose represented essence
 and esse differ, we keep two *source-derived but open* principles:
 
 1. **Causal exhaustiveness:** `x`'s esse is caused either by `x`'s
-   essential principles or by another existing agent efficiently causing
+   essential principles alone sufficiently or by another existing agent efficiently causing
    `x` in the `esse` respect.
 2. **No essential efficient self-cause:** the essential principles do not
    sufficiently efficiently cause `x`'s own esse.
@@ -54,7 +54,7 @@ recorded efficient cause of esse has existing relata.
 | Case | Causal exhaustiveness | No efficient self-cause | Actual external efficient cause | Interpretation |
 | --- | --- | --- | --- | --- |
 | Brute distinct esse | **False** | True | **Absent** | No cause-of-esse relation at all; an abstract brute-fact rival |
-| Essential efficient self-cause | True | **False** | **Absent** | The subject's essential principles are said to cause its own esse |
+| Essential efficient self-cause | True | **False** | **Absent** | The subject's essential principles are said to suffice alone as an efficient cause of its own esse |
 | External-cause control | True | True | **Present** | A distinct actual bearer efficiently causes the subject's esse |
 
 The omissions show that the two premises contribute independently to the
@@ -101,3 +101,23 @@ additional source-defended principle excludes it when esse and essence
 differ. In parallel, do not treat the existence-PSR in #312 as an
 efficient-causation axiom. Any eventual route to simplicity or uniqueness
 must still reuse the independently open #319/#320 bridges.
+
+## Review corrections (2026-10-26)
+
+The pinned Latin's `tantum` and `sufficit` restrict the internal alternative
+to sufficient efficient causation by essential principles **alone**. The
+earlier broad wording was rejected because negating it would also exclude
+contributory causation, which this sentence does not establish. The revised
+claim/definition and `essentialPrinciplesAloneSufficeForEsse` field preserve
+that restriction. The Challenge theorem signatures remain unchanged.
+
+The omission proposition now explicitly records absence of an external cause
+for the designated subject, its internal predicate, and an empty efficient
+cause relation in the brute control; the positive control explicitly has
+an external cause for that subject. The initial universal negations alone
+did not certify these properties. Explicit constructive proof terms replace
+`simp`, whose initial proof unexpectedly required `propext`.
+
+The conditional result declares `transcription: assembly`, so frontier
+accounting keeps its conclusion open while either causal premise is open.
+No philosophical premise is discharged by these corrections.

@@ -281,6 +281,17 @@ class FrontierReportTest(unittest.TestCase):
         report = corpus.frontier_report(statements, ARGUMENTS, results, [], root="ROOT")
         self.assertEqual(report["closed_statements"]["MID"], "via_transcription")
 
+    def test_q3a4_conditional_result_keeps_causal_premises_open(self) -> None:
+        root = "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+        result = json.loads((corpus.ROOT / "corpus/results/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE.json").read_text())
+        argument_record = json.loads((corpus.ROOT / "corpus/arguments/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE.json").read_text())
+        premises = argument_record["premise_statement_ids"]
+        statements = [statement(sid) for sid in [root, *premises]]
+        report = corpus.frontier_report(statements, [argument_record], [result], [], root=root)
+        self.assertNotIn(root, report["closed_statements"])
+        self.assertTrue(set(premises).issubset(self.ids(report)))
+        self.assertTrue(report["transcription_results"][result["id"]]["declared"])
+
     def test_assembly_flag_is_a_transcription(self) -> None:
         # #391: pure conjunction assembly counts like a single application.
         flag = {

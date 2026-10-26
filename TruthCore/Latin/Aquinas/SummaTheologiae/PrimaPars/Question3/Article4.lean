@@ -19,14 +19,14 @@ namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
 /-- Typed interface for the first proof of q.3 a.4. Comparing `essenceOf`
 and `esseOf` uses the common `Principle` sort also used in the existing
-simplicity results. `essentialPrinciplesCauseEsse` means *efficiently
-caused by those principles*, not merely intrinsically intelligible. -/
+simplicity results. `essentialPrinciplesAloneSufficeForEsse` means
+*sufficiently efficiently caused by those principles alone*, not merely intrinsically intelligible. -/
 structure Profile (Being Principle Respect : Type) where
   InAct : Being → Respect → Prop
   CausesIn : Being → Being → Respect → Prop
   essenceOf : Being → Principle
   esseOf : Being → Principle
-  essentialPrinciplesCauseEsse : Being → Prop
+  essentialPrinciplesAloneSufficeForEsse : Being → Prop
   esse : Respect
 
 /-- An actually existing subject whose esse and essence differ in the
@@ -46,15 +46,15 @@ The dichotomy is an open, source-attributed metaphysical commitment; brute
 being or a noncausal intrinsic/global reason would reject its exhaustiveness. -/
 def DistinctEsseCauseDichotomyReading (p : Profile B P R) : Prop :=
   ∀ x, DistinctEsseAt p x →
-    p.essentialPrinciplesCauseEsse x ∨ HasExternalEsseCause p x
+    p.essentialPrinciplesAloneSufficeForEsse x ∨ HasExternalEsseCause p x
 
 /-- ST I q.3 a.4 co., first proof, "nulla res sufficit quod sit sibi causa
 essendi, si habeat esse causatum", restricted to the distinct-esse case.
-This excludes efficient self-origination from essential principles; it does
-not exclude every noncausal intrinsic sufficient reason. -/
+This excludes sufficient efficient self-origination from essential principles
+alone; it does not exclude every noncausal intrinsic sufficient reason. -/
 def EssentialPrinciplesCannotCauseDistinctEsseReading
     (p : Profile B P R) : Prop :=
-  ∀ x, DistinctEsseAt p x → ¬p.essentialPrinciplesCauseEsse x
+  ∀ x, DistinctEsseAt p x → ¬p.essentialPrinciplesAloneSufficeForEsse x
 
 /-- ST I q.3 a.4 co., first proof, "illud cuius esse est aliud ab essentia
 sua, habeat esse causatum ab alio". Neither its converse nor a modal
@@ -72,7 +72,8 @@ def Coherent (p : Profile B P R) : Prop :=
 /-- Two countermodels and a nonvacuous successful control over two beings:
 (1) a brute existent with distinct esse and no cause, satisfying the
 no-self-cause principle but not causal exhaustiveness;
-(2) an existent with an internally-caused distinction and no external agent,
+(2) an existent whose essential principles alone suffice to cause its esse,
+with no external agent,
 satisfying the disjunction but not the exclusion;
 (3) a separate existing efficient cause of the subject's distinct esse,
 satisfying both premises and their conclusion.
@@ -82,16 +83,22 @@ each interpretation is metaphysically possible. -/
 def PremiseOmissionsAndControl : Prop :=
   (∃ p : Profile Bool Bool Unit,
     Coherent p ∧ DistinctEsseAt p false ∧
+    (∀ y x r, ¬p.CausesIn y x r) ∧
+    ¬p.essentialPrinciplesAloneSufficeForEsse false ∧
+    ¬HasExternalEsseCause p false ∧
     EssentialPrinciplesCannotCauseDistinctEsseReading p ∧
     ¬DistinctEsseCauseDichotomyReading p ∧
     ¬DistinctEsseRequiresExternalCauseReading p) ∧
   (∃ p : Profile Bool Bool Unit,
     Coherent p ∧ DistinctEsseAt p false ∧
+    p.essentialPrinciplesAloneSufficeForEsse false ∧
+    ¬HasExternalEsseCause p false ∧
     DistinctEsseCauseDichotomyReading p ∧
     ¬EssentialPrinciplesCannotCauseDistinctEsseReading p ∧
     ¬DistinctEsseRequiresExternalCauseReading p) ∧
   (∃ p : Profile Bool Bool Unit,
     Coherent p ∧ DistinctEsseAt p false ∧
+    HasExternalEsseCause p false ∧
     DistinctEsseCauseDichotomyReading p ∧
     EssentialPrinciplesCannotCauseDistinctEsseReading p ∧
     DistinctEsseRequiresExternalCauseReading p)

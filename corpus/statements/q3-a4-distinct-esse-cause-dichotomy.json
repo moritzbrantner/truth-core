@@ -1,6 +1,6 @@
 {
   "id": "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
-  "paraphrase": "Aquinas' first proof in ST I q.3 a.4 considers an actually existing thing with esse distinct from essence and requires either that the essential principles efficiently cause its esse or that an actually existing, numerically different agent efficiently cause that esse. Whether this causal dichotomy exhausts noncausal or brute theories is an open premise question.",
+  "paraphrase": "Aquinas' first proof in ST I q.3 a.4 considers an actually existing thing with esse distinct from essence and requires either that the essential principles alone sufficiently efficiently cause its esse or that an actually existing, numerically different agent efficiently cause that esse. Whether this causal dichotomy exhausts noncausal or brute theories is an open premise question.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.DistinctEsseCauseDichotomyReading",
   "definition_ids": [
     "DEF-ESSE",
