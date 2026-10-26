@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "paraphrase": "If the designated intellectual operation can be exercised through a bodily organ, each naturally constitutive bodily nature of that organ would prevent universal bodily-nature cognition. This source-attributed interference constraint remains open.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OrganBodilyInterference",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE",
+    "DEF-Q75-ORGAN-EXERCISE",
+    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

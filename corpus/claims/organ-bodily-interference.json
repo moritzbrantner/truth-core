@@ -1,0 +1,20 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-ORGAN-BODILY-INTERFERENCE",
+  "statement_id": "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co.: natura determinata illius organi corporei prohiberet cognitionem omnium corporum",
+  "interpretation": "The organ step asserts a constraint distinct from intrinsic bodily nature in the intellect itself: the determinate nature of an organ of intellectual exercise would impede universal bodily cognition. The colored-vessel illustration motivates this claim but is not encoded as a proof that every bodily organ would restrict cognitive scope. The relation concerns capacity for intellectual exercise through an organ, not the production of phantasms on the side of the object (ad 3).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE",
+    "DEF-Q75-ORGAN-EXERCISE",
+    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}
