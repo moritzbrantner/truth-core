@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+  "input_statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+  "rule": "direct-proof",
+  "meaning": "An accessible jointly empty extension witnesses absence for each roster member. Reuse joint_to_individual. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

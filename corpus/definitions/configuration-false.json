@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONFIGURATION-FALSE",
+  "term": "configuration contradiction",
+  "definition": "ConfigurationFalse is Lean False. A result with this conclusion refutes the simultaneous truth of its explicit premises at its shared parameters; it asserts no premise individually false.",
+  "basis": "stipulative",
+  "note": "Reusable logical target for configuration controls, not an attributed philosophical proposition.",
+  "lean_declaration": "TruthCore.Logic.ConfigurationFalse"
+}

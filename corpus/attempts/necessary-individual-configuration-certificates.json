@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-NECESSARY-INDIVIDUAL-CONFIGURATION-CERTIFICATES",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+    "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+    "STMT-CONFIGURATION-FALSE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused the exact existing individual-first quantifier predicates and alternating model after inspecting the bundled-law and countermodel dossiers. Exposed independent component bindings; certified both elementary incompatible pairs, the fixed-witness and joint-absence implications, and complete finite evaluations in alternating, everywhere-present and everywhere-absent Boolean interpretations. Every premise shares frame, rigid roster, presence and world parameters. The singleton deletions of each pair have independent finite witnesses, so pair minimality is relative to these exact stipulated semantics. All positive selections of these four components in the registered Boolean profile are settled by these cores and controls; no missing certificate is portrayed as philosophical uncertainty. Neither source fidelity, metaphysical possibility nor any root premise is established. Actualist/counterpart/concreteness defenses remain outside these controls.",
+  "evidence": [
+    "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+    "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+    "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+    "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL"
+  ]
+}
