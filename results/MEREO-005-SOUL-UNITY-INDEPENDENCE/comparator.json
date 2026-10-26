@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.SoulUnityIndependence.soulUnityIndependence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

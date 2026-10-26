@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-STRUCTURAL-UNITY",
+  "term": "structural unity (mereology stress test)",
+  "definition": "Within the toy history, coordinated self-maintaining activity joined by operational causal continuity across replacement of components. Such organization is represented by observable predicates and is not defined to be an individual substance.",
+  "basis": "stipulative",
+  "note": "An operational model component, not a sufficient metaphysical criterion for a substance. Needed to distinguish functional integration from substantial unity in #329 and #330.",
+  "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.Integrated"
+}
