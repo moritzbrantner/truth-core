@@ -209,12 +209,15 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
         codecs.lookup(passage["encoding"])
     except (LookupError, TypeError) as exc:
         raise SourceEvidenceError(f"{where}: unknown encoding {passage['encoding']!r}") from exc
-    if ("html_selector" in passage) == ("pdf_pages" in passage):
-        raise SourceEvidenceError(f"{where}: exactly one of html_selector and pdf_pages is required")
+    formats = ("html_selector", "pdf_pages", "raw_text")
+    if sum(field in passage for field in formats) != 1:
+        raise SourceEvidenceError(f"{where}: exactly one of html_selector, pdf_pages and raw_text is required")
     if "pdf_pages" in passage:
         validate_pdf_pages(where, passage["pdf_pages"])
-    else:
+    elif "html_selector" in passage:
         validate_html_selector(where, passage["html_selector"])
+    elif passage["raw_text"] is not True:
+        raise SourceEvidenceError(f"{where}: raw_text must be true")
     translation = passage.get("translation")
     if translation is not None:
         if not isinstance(translation, dict):
@@ -978,6 +981,11 @@ def extract_web_text(data: bytes, passage: dict[str, Any]) -> str:
         page = data.decode(passage["encoding"])
     except UnicodeDecodeError as exc:
         raise SourceEvidenceError(f"{passage['id']}: page is not valid {passage['encoding']}: {exc}") from exc
+    if passage.get("raw_text") is True:
+        text = page.strip()
+        if not text:
+            raise SourceEvidenceError(f"{passage['id']}: extracted passage text is empty")
+        return text
     text = render_html_text(select_html_range(html_tokens(page), passage["html_selector"], passage["id"]))
     if not text:
         raise SourceEvidenceError(f"{passage['id']}: extracted passage text is empty")
@@ -1258,14 +1266,23 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
     return 0
 
 
-def web_hashes(url: str, encoding: str, selector: str | None, wayback: str | None, pdf_pages: str | None = None) -> int:
+def web_hashes(
+    url: str,
+    encoding: str,
+    selector: str | None,
+    wayback: str | None,
+    pdf_pages: str | None = None,
+    raw_text: bool = False,
+) -> int:
     """Print the pinning fields for a new web snapshot passage (authoring aid).
 
     Fetches the page once, so the printed sha256 is whatever the server sends now:
     fetch twice before pinning to make sure the page is byte-stable.
     """
     probe: dict[str, Any] = {"id": "web-hashes", "encoding": encoding}
-    if pdf_pages is not None:
+    if raw_text:
+        probe["raw_text"] = True
+    elif pdf_pages is not None:
         try:
             first, last = map(int, pdf_pages.split(":"))
         except ValueError as exc:
@@ -1332,6 +1349,7 @@ def parser() -> argparse.ArgumentParser:
     hashes_parser.add_argument("--encoding", required=True, help="the page's character encoding")
     selectors = hashes_parser.add_mutually_exclusive_group(required=True)
     selectors.add_argument("--pdf-pages", help="physical PDF page range FIRST:LAST (inclusive, 1-based)")
+    selectors.add_argument("--raw-text", action="store_true", help="pin a plain-text source file without HTML parsing")
     selectors.add_argument(
         "--selector", help='html_selector as JSON, e.g. \'{"heading": "Article 5"}\''
     )
@@ -1349,7 +1367,7 @@ def main() -> int:
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
         if args.command == "web-hashes":
-            return web_hashes(args.url, args.encoding, args.selector, args.wayback, args.pdf_pages)
+            return web_hashes(args.url, args.encoding, args.selector, args.wayback, args.pdf_pages, args.raw_text)
         raise AssertionError(f"unexpected command {args.command}")
     except SourceEvidenceError as exc:
         print(f"source evidence error: {exc}", file=sys.stderr)

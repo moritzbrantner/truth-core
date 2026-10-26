@@ -1,0 +1,23 @@
+{
+  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "inference_ids": [
+    "INF-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL"
+  ],
+  "meaning": "A finite, nontrivial syntactic filter can exclude specified haecceities while making filtered necessary existence true for one bearer and false for another. Both its generator and metaphysical suitability remain stipulations.",
+  "definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY",
+    "DEF-WORLD-INVARIANT-PROPERTY",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY",
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}
