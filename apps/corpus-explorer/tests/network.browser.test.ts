@@ -130,6 +130,8 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   expect(await page.locator(".network-marker[data-frontier='true']").count()).toBeGreaterThan(0);
   expect(await page.locator(".network-marker[data-frontier-depth='bare']").count()).toBeGreaterThan(0);
   expect(await page.locator(".network-marker[data-established='true']").count()).toBeGreaterThan(0);
+  const established = page.locator('.network-marker[data-established="true"][data-dimmed="false"]:not([data-selected="true"])').first();
+  expect(await established.evaluate((element) => getComputedStyle(element).opacity)).toBe("0.85");
   expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
   expect(await page.locator(".frontier-map-key").isVisible()).toBe(true);
   expect(await page.getByRole("link", { name: "Case", exact: true }).getAttribute("href")).toContain("/state");
@@ -139,6 +141,10 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   await page.reload();
   expect(await page.getByRole("button", { name: "Show all equally" }).getAttribute("aria-pressed")).toBe("false");
   expect(await page.locator(".network-marker[data-frontier='true']").count()).toBe(count);
+  await page.goto(new URL(`${basePath}/?q=no-statement-has-this-query`, server.url).toString());
+  const dimmedEstablished = page.locator('.network-marker[data-established="true"][data-dimmed="true"]').first();
+  await dimmedEstablished.waitFor();
+  expect(await dimmedEstablished.evaluate((element) => getComputedStyle(element).opacity)).toBe("0.16");
   expect(errors).toEqual([]);
   await page.close();
 }, 60000);
