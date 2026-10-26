@@ -751,7 +751,7 @@ export function PropositionGraphExplorer({
             <ReactFlow
               edges={edges}
               defaultViewport={parseViewport(state.viewport)}
-              fitView={!parseViewport(state.viewport) && !(state.sel && state.obligation)}
+              fitView={!parseViewport(state.viewport) && (state.view === "local" || !(state.sel && state.obligation))}
               onMoveEnd={(event, viewport) => {
                 if (event) {
                   update({
@@ -794,12 +794,12 @@ function SelectionLocator({ state, compact }: { state: GraphState; compact: bool
   const ready = useStore((store) => store.width > 0 && store.height > 0);
   const { setCenter } = useReactFlow();
   useEffect(() => {
-    if (ready && position && !state.viewport && state.sel && state.obligation) {
+    if (ready && position && state.view !== "local" && !state.viewport && state.sel && state.obligation) {
       void setCenter(position.x + (compact ? 14 : NODE_SIZE.statement.width / 2), position.y + (compact ? 14 : NODE_SIZE.statement.height / 2), {
         zoom: 0.8,
       });
     }
-  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter, compact]);
+  }, [ready, position, state.view, state.sel, state.obligation, state.viewport, setCenter, compact]);
   return null;
 }
 

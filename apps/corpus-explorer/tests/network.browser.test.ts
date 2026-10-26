@@ -180,7 +180,9 @@ for (const mobile of [false, true]) {
     const page = await browser.newPage({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile, isMobile: mobile });
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
-    const url = new URL(`${basePath}/?sel=${encodeURIComponent(relation.subject)}`, server.url);
+    // A retained research-queue selection must not suppress fit-to-view when
+    // switching to a local constellation with multiple visible neighbors.
+    const url = new URL(`${basePath}/?sel=${encodeURIComponent(relation.subject)}&obligation=VIEW-TEST`, server.url);
     await page.goto(url.toString());
     await page.locator(".graph-detail").getByRole("button", { name: "Local graph", exact: true }).click();
     await page.waitForURL((location) => location.searchParams.get("view") === "local" && location.searchParams.get("node") === relation.subject);
