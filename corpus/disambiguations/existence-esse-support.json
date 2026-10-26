@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EXISTENCE-ESSE-SUPPORT",
+  "term": "world-relative existence, metaphysical esse, necessity and explanation",
+  "sense_definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-EXISTENTIAL-SUPPORT-MODEL"
+  ],
+  "resolution": "The two indexed model senses are world-relative existence of a candidate (DEF-KANT-ONTOLOGICAL-MODEL) and an external support relation between actually existing candidates (DEF-EXISTENTIAL-SUPPORT-MODEL); these are not interchangeable. Boundary's ExistsAt does not analyze the act of being (DEF-ESSE) or explain why the existence fact obtains. supportsEsse is a primitive model edge, not automatically Aquinas' efficient cause/conservation of esse (DEF-EXTERNAL-CAUSE-OF-ESSE), or an adequate PSR explanation. NecessaryAt requires existence in accessible worlds, but not an intrinsic reason, identity of essence and esse (DEF-ESSENCE-THOMISTIC-NATURE), or necessary-per-se status (DEF-NECESSARY-PER-SE). The wider source meanings are preserved as distinct definitions, not merged into this local disambiguation."
+}

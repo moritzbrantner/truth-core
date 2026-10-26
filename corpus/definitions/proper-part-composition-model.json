@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PROPER-PART-COMPOSITION-MODEL",
+  "term": "composition from a proper component in a finite model",
+  "definition": "An individual is composite in the finite model if a numerically different bearer is marked as its proper component. This supplies one explicit instance of composition; it does not claim to exhaust Thomistic kinds of composition.",
+  "basis": "stipulative",
+  "note": "The countermodel provides a determinate witness to non-simplicity without defining simplicity or necessity. Connect this limited part structure to the existing DEF-SIMPLE before drawing a metaphysical conclusion.",
+  "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.Composite"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTENTIAL-SUPPORT-MODEL",
+  "term": "external supporter of existence in an analytic model",
+  "definition": "At a world, an actually existing and numerically distinct individual stands in the primitive supportsEsse relation to the being considered. This relation concerns existence as such, not the transmission of a particular causal exercise.",
+  "basis": "stipulative",
+  "note": "SupportsEsse is a separate analyst-defined relation. It must not silently be equated with Aquinas' external efficient cause of esse, conservation, or the model's transmitsPower relation; all such identifications require further metaphysical defense.",
+  "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.ExternallySupportedAt"
+}

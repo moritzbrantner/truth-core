@@ -1,0 +1,22 @@
+{
+  "id": "STMT-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "paraphrase": "There is a finite universally accessible model with an actual source-to-effect power-transmission edge and a non-intrinsically-powered effect, while the intrinsically powered source exists contingently and another being directly supports its existence. There is another coherent model with the same actual transmission and non-intrinsic effect, in which the source exists in every accessible world without a recorded external supporter yet has a proper component. Thus original power in one selected respect by itself does not logically entail underived existence, necessity, or simplicity. The model does not equate actual transmission, bare capacity, and act as metaphysical actuality.",
+  "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.Boundary",
+  "definition_ids": [
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-POWER-CAPACITY-READING",
+    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
+    "DEF-EXISTENTIAL-SUPPORT-MODEL",
+    "DEF-PROPER-PART-COMPOSITION-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-POWER-CAPACITY-EXERCISE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

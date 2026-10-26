@@ -1,0 +1,9 @@
+{
+  "id": "INF-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "rule": "two-independent-typed-finite-countermodels",
+  "meaning": "Construct distinct actual power and existence support relations over three beings and two universally accessible worlds. In both models a powered effect is inductively grounded in an unborrowed source. In the first the source is contingent and externally supported; in the second it is necessary, unsupported in the model, and composite. All represented causal/part relations hold among actually existing bearers.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

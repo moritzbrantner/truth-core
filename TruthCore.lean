@@ -12,6 +12,7 @@ import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.LocalTransmission
+import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.Supertasks
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
@@ -364,6 +365,7 @@ import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution
