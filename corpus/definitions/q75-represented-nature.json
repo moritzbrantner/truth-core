@@ -1,0 +1,8 @@
+{
+  "id": "DEF-Q75-REPRESENTED-NATURE",
+  "term": "bodily nature as cognitive object rather than constitution",
+  "definition": "A nature n occurring in CanUnderstand intellect n is an object of the represented capacity, not thereby a constitutive bodily nature of the intellectual principle. This interface distinction does not assert a modern material theory of representation, nor does it supply an account of intentionality.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.Model.CanUnderstand",
+  "note": "Needed to prevent a content/constitution equivocation. The source q.75 a.1 ad 2 distinguishes a likeness received potentially from what is naturally actual in a knower; that context motivates keeping the relations separate without formalizing the complete reception account."
+}

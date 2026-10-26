@@ -11,6 +11,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.Solution

@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-BODILY-DETERMINACY",
+  "statement_id": "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co.: Omne autem corpus habet aliquam naturam determinatam",
+  "interpretation": "Every body has a determinate nature. A selected bodily-nature witness is naturally present in that body. This is constitutive possession, not a represented concept.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

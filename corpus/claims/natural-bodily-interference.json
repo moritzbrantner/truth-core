@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-NATURAL-BODILY-INTERFERENCE",
+  "statement_id": "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co.: Si igitur principium intellectuale haberet in se naturam alicuius corporis",
+  "interpretation": "The conditional preceding the first conclusion says that having any bodily nature in the intellectual principle would prevent cognition of all bodies. The formal negative universal does not choose a particular unknowable nature. Its application to intellect is an open source commitment; the taste example is not encoded as a proof of it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "paraphrase": "If the designated intellectual principle constitutively has a bodily nature, it cannot understand every bodily nature. This interference premise remains open.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.NaturalBodilyInterference",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+  "paraphrase": "Every body constitutively has some bodily nature. No unique nature or ability to know that nature is asserted.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.BodilyDeterminacy",
+  "definition_ids": [
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-REPRESENTED-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}
