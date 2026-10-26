@@ -55,7 +55,7 @@ export const fixture: PropositionGraphInput = {
     { id: "REL1", subject_kind: "statement", subject_id: "ALT", predicate: "alternative_to", object_kind: "statement", object_id: "DEF" },
     { id: "REL2", subject_kind: "argument", subject_id: "A6", predicate: "refutes", object_kind: "statement", object_id: "ALT" },
     { id: "REL3", subject_kind: "statement", subject_id: "OBJ", predicate: "attacks", object_kind: "statement", object_id: "C" },
-    { id: "REL4", subject_kind: "claim", subject_id: "CL-LONE", predicate: "supports", object_kind: "statement", object_id: "T" },
+    { id: "REL4", subject_kind: "claim", subject_id: "CL-LONE", predicate: "supports", object_kind: "statement", object_id: "T", note: "Source evidence, not a proof step." },
   ],
   transcriptionResultIds: ["R4"],
 };
