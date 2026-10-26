@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "input_statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-DE-RE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+  "rule": "direct-proof",
+  "meaning": "A fixed necessary bearer supplies a bearer at each successor. Reuse deRe_to_deDicto. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

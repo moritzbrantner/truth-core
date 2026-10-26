@@ -1,0 +1,12 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+    "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "direct-proof",
+  "meaning": "A fixed bearer is present at every successor, while that same bearer is absent at some successor. Instantiate the individual absence premise at the fixed witness. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

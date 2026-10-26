@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

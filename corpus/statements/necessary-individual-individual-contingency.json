@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+  "paraphrase": "Stipulated mathematical configuration component, not an attributed source reading: Every member of the supplied rigid roster is absent at some successor of the supplied world.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.IndividualContingency",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
