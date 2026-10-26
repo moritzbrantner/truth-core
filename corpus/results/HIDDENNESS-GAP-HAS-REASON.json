@@ -5,5 +5,7 @@
   "solution_module": "TruthCore.Results.Hiddenness.GapHasReason.Solution",
   "theorem": "TruthCore.Results.Hiddenness.GapHasReason.gapHasReason",
   "comparator_config": "results/HIDDENNESS-GAP-HAS-REASON/comparator.json",
-  "status": "solution-present"
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (invariant 16; audit C, #390): instantiate the access-needs-belief and reason-for-each-gap premises at the actual nonresistant nonbelief witness and repack it, the same shape as HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT. This conditional projection supplies no evidence that God has such a reason and closes no premise by itself."
 }

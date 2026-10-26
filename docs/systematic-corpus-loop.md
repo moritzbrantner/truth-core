@@ -41,7 +41,9 @@ The repository's aim (#143) is a graph from the root statement "Catholicism is t
 In practice:
 
 - choose work from the frontier, preferring open premises that many arguments depend on or that objections attack, and agree on the direction with the owner at each milestone;
-- a transcription result (AGENTS.md invariant 16) closes no frontier node by itself. It closes its conclusion only when every premise of its argument is closed: marked self-evident, defended by refuting every recorded alternative, the conclusion of a verified non-transcription result, or closed by this same rule. `corpus.py frontier` computes this as a fixpoint and lists such nodes as `closed via transcription from closed premises` (owner decision on #143, 2026-10-24). A transcription that has an open premise, typically its bridge premise `A ∧ B → C`, still closes nothing;
+- a transcription result (AGENTS.md invariant 16) closes no frontier node by itself. It closes its conclusion only when every premise of its argument is closed: marked self-evident, defended by refuting every recorded alternative, the conclusion of a verified non-transcription result, or closed by this same rule. `corpus.py frontier` computes this as a fixpoint and lists such nodes as `closed via transcription from closed premises` (owner decision on #143, 2026-10-24). A transcription that has an open premise, typically its bridge premise `A ∧ B → C`, still closes nothing. A result is a transcription when its record declares one in the structured `transcription` field (`opaque_atoms`, `single_application`, `assembly` or `instantiation`), or when its proof is a single application of one hypothesis or only assembles hypotheses (`⟨hClaims, hRose⟩`). Declare the field on every result whose atoms are unconstrained `Prop` parameters or whose description calls it a transcription; prose in `description` is commentary, not the flag, and `corpus.py check` warns about unflagged opaque-atom candidates (#391);
+- a `refutes` relation defends a premise only when its argument is verified and all of that argument's premises are closed (#391). A conditional refutation resting on open premises leaves the alternative standing, and `corpus.py check` warns about it;
+- report a PR's effect on the root with `corpus.py frontier --routes`: for each argument concluding the root, the number of distinct open leaves it rests on (sourced or bare premises stay leaves; intermediate conclusions without their own claim are expanded through their cheapest verified proof), with the cheapest verified route marked. A new derivation under a sourced premise never raises a route's cost; a derivation under a bare premise is a relocation and may;
 - a source campaign (e.g. Aristotle's *Physics*) continues only where a premise on a root path depends on it.
 
 ### Relocation and the depth of open premises
@@ -76,6 +78,17 @@ A PR boundary is not a reason to ask the human what sentence comes next.
 If the candidate still has unprocessed text, update the same candidate file so its locator begins at the first unprocessed passage. Keep its ID. After merge, the next worker resumes it with `corpus.py next`.
 
 If the candidate is complete, delete the candidate file. The next queued source range then becomes active automatically.
+
+## Parallel lanes
+
+Workers may run in parallel, one per lane (#416). `AGENTS.md`, "Lanes and shared files", lists the lanes and the directories and records each owns: lane A the Fourth Way and the attributes (Latin, stages 1–2), lane B stage 3 (history, New Testament and Church sources), lane C everything else and all tooling.
+
+The repository avoids files that every PR must edit:
+
+- **Lean imports.** Each area of `TruthCore/` has a generated aggregator `TruthCore/Imports/<Area>.lean`. An area is a top-level directory (`TruthCore/Latin/`), or `TruthCore/Results/<Area>/`, or a finer prefix listed in `AREAS` in `scripts/root_imports.py` where two lanes would otherwise share one aggregator. `TruthCore.lean` imports only the aggregators. After adding or removing a module, run `scripts/root-imports.sh --write`; CI runs it in check mode.
+- **Shared docs tables and lists.** An append-only table or list in a shared doc is rendered from one Markdown file per entry by `scripts/docs_index.py`, between `<!-- BEGIN GENERATED: … -->` and `<!-- END GENERATED -->` markers that name the entry directory and columns. Owner decisions live in `docs/decisions/`; campaign tables (for example the alternatives campaign's premise rows or the bridge candidates) follow the same pattern with their own entry directory. To add a row, add a file and run `python3 scripts/docs_index.py --write`. The prose around a generated section stays hand-written; the section itself is never hand-edited, and CI rejects a stale one.
+
+Before every push, merge `origin/main`, rerun both generators, and rerun the checks. A conflict in generated output is resolved by taking either side and regenerating. A row or list item that a branch from before #416 added by hand must first move into an entry file, because the generator keeps only entries. Edits outside the lane are minimal and listed in the PR description.
 
 ## Completion and coverage
 
