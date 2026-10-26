@@ -13,7 +13,7 @@ theorem maximumNeedNotCauseOthers : MaximumNeedNotCauseOthers := by
 
 theorem causalAscentNeeded : CausalAscentNeeded := by
   refine ⟨⟨fun c x => c = false ∧ x = true⟩, ?_, rfl, rfl⟩
-  exact isMax_iff_forall_not_lt.mpr (fun c h => by cases c <;> simp_all)
+  exact fun b _ => Bool.le_true b
 
 
 open TruthCore.Latin.Aquinas.SummaTheologiae
@@ -24,7 +24,7 @@ theorem fourthWayMaximumSchemaInstances : FourthWayMaximumSchemaInstances := by
 
 theorem attributionMaximumSchemaInstance : AttributionMaximumSchemaInstance := by
   intro Being Respect Degree _ InAct MoreIn CausesIn r near p hApproach hAll hCause m hm
-  letI : Preorder Being := Preorder.lift near
+  let : Preorder Being := Preorder.lift near
   have hScale : HomogeneousScaleReading InAct MoreIn r := hApproach.homogeneousLift hAll
   exact (perfectionOrderSystem CausesIn r).maximal_has_no_distinct_cause
     (hScale.causesRaiseDegree hCause) ((hScale.isMaximumIn_iff_isMax m).mp hm)

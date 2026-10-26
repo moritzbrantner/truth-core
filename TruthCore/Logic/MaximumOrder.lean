@@ -42,7 +42,8 @@ def CausalAscentNeeded : Prop :=
 
 /-- A preorder can have distinct maximal members tied at one degree. -/
 def MaximumNeedNotBeUnique : Prop :=
-  letI : Preorder Bool := Preorder.lift (fun _ : Bool => ())
-  ∃ a b : Bool, a ≠ b ∧ IsMax a ∧ IsMax b
+  ∃ a b : Bool, a ≠ b ∧
+    @IsMax Bool (Preorder.lift (fun _ : Bool => ())).toLE a ∧
+    @IsMax Bool (Preorder.lift (fun _ : Bool => ())).toLE b
 
 end TruthCore.Logic.MaximumOrder
