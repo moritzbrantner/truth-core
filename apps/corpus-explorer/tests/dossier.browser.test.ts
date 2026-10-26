@@ -44,7 +44,13 @@ test("premise dossier: statement navigation, durable attempt evidence and route 
   const attempts = page.getByRole("region", { name: "Attempt log", exact: true });
   expect(await attempts.innerText()).toContain("Finite omission models");
   expect(await attempts.getByRole("link", { name: "PR-374", exact: true }).getAttribute("href")).toBe("https://github.com/moritzbrantner/truth-core/pull/374");
-  expect(await attempts.getByRole("link", { name: "ACT-POTENCY-PREMISES-INDEPENDENT", exact: true }).getAttribute("href")).toBe(`${basePath}/results/ACT-POTENCY-PREMISES-INDEPENDENT/`);
+  const originalAttempt = attempts.locator("#ATTEMPT-ACT-POTENCY-INDEPENDENCE");
+  expect(await originalAttempt.getByRole("link", { name: "ACT-POTENCY-PREMISES-INDEPENDENT", exact: true }).getAttribute("href")).toBe(`${basePath}/results/ACT-POTENCY-PREMISES-INDEPENDENT/`);
+  const models = page.getByRole("region", { name: "Schema instances and countermodels", exact: true });
+  const registration = models.getByRole("listitem").filter({ hasText: "MODEL-ACT-POTENCY-M3" });
+  expect(await registration.innerText()).toContain("violates");
+  await registration.getByText("Statement application and certificate", { exact: true }).click();
+  expect(await registration.innerText()).toContain("TruthCore.Models.ActPotency.M3.evaluation9");
   const routes = page.getByRole("table", { name: "Open-leaf contribution to routes concluding STMT-CATHOLICISM-TRUE", exact: true });
   expect(await routes.locator("tbody tr").count()).toBe(8);
   await page.reload();
