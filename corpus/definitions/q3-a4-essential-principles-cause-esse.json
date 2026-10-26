@@ -1,0 +1,10 @@
+{
+  "id": "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+  "term": "causation of a subject's esse by its essential principles (q.3 a.4)",
+  "definition": "The model's essentialPrinciplesAloneSufficeForEsse x represents sufficient efficient causation of the subject's esse by its essential principles alone (tantum ex principiis essentialibus rei). Negating it excludes their sufficiency alone, not their contribution to another cause. It is not an intrinsic conceptual or noncausal reason for a necessary truth.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A4-ESSE-CAUSE-DICHOTOMY",
+    "AQUINAS-ST-I-Q3-A4-ESSE-NO-SELF-CAUSE"
+  ]
+}

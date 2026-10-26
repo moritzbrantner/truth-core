@@ -1,0 +1,9 @@
+{
+  "id": "INF-Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+  "rule": "three-typed-finite-interpretation-witnesses",
+  "meaning": "Construct two actual distinct-esse subjects without external efficient cause: one lacks the causal-dichotomy premise while retaining the no-self-cause premise; the other allows sufficient efficient causation by essential principles alone while retaining the dichotomy. A third actual subject has a distinct actual external cause and satisfies both source premises. Coherence requires all recorded causes of esse to have actual relata. None is asserted to be metaphysically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

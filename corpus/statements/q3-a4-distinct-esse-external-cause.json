@@ -1,13 +1,17 @@
 {
   "id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
-  "paraphrase": "Aquinas argues that a thing whose esse differs from its essence has esse caused by another: essential principles cannot suffice to cause its own caused esse.",
+  "paraphrase": "In Aquinas' ST I q.3 a.4 first proof, each actually existing thing whose esse differs from its essence has its esse efficiently caused by another actually existing and numerically different being. This is conditional on the two separately stated causal premises, not an independent proof of them, and does not assert that necessary existence excludes every explanation.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.DistinctEsseRequiresExternalCauseReading",
   "definition_ids": [
     "DEF-ESSE",
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
     "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
   ],
   "disambiguation_ids": [
     "DISAMB-ESSENCE",
-    "DISAMB-BEING"
+    "DISAMB-BEING",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
   ]
 }
