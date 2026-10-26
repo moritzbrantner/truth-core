@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
   "comparator_config": "results/MAXIMUM-ORDER-SCHEMA/comparator.json",
   "status": "solution-present",
-  "description": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater than its effect, every maximal member has no distinct cause of that degree. Derivation through Mathlib maximality and the existing #386 representation lemmas; no root premise is discharged."
+  "description": "Derived from Mathlib maximality and strict causal ascent: every maximal member has no distinct cause of that same degree. The separate control theorems show that existence, uniqueness and causing all lower members do not follow, and that dropping ascent permits a distinct cause of a maximum. No philosophical premise is discharged."
 }
