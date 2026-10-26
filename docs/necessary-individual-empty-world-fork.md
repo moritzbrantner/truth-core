@@ -63,6 +63,22 @@ individuals nor the two populated histories were changed. Only the presence
 of the accessible empty extension differs. These paired controls expose the
 choice of *which worlds are admitted*, not a proof in favor of either choice.
 
+The biconditional and earlier alternating-witness control give this small
+configuration calculation (`S` = some fixed root across *populated* worlds;
+`P` = all accessible worlds populated):
+
+| `S` | `P` | `DeRe` | Relevant interpretation |
+| --- | --- | --- | --- |
+| yes | yes | yes | New two-history restriction and generic bridge |
+| yes | no | no | New rooted/empty three-world control |
+| no | yes | no | Existing `NECESSARY-INDIVIDUAL-ALTERNATING` control |
+| no | no | no | Logical consequence of the bridge; no separate model registered in this slice |
+
+The two *independent* omission countermodels are important: excluding the
+empty world alone is insufficient if the root changes identity between
+histories; positing one shared root across populated histories alone is
+insufficient if an empty extension remains admissible.
+
 ## Inferences we may and may not draw
 
 1. **Proved conditional:** Shared root plus population in *every accessible*
@@ -86,16 +102,30 @@ victory. An alternative that accepts brute roots and an alternative that
 demands a necessary foundation should be compared as *complete theories*, not
 by arbitrarily deleting an inconvenient world label.
 
-### Connection to finite-to-infinite and compactness work
+### Connection to existing finite-to-infinite and PSR results
 
-These finite controls isolate the modal premise; they do not prove a ban on
-infinite regress or a compactness theorem. A separate research lane can
-formulate finite satisfiability of progressively longer acyclic causal
-prefixes, ask whether an infinite completion satisfies their local clauses,
-and compare that construction to well-foundedness and causal finitism. Any
-step from mathematical compactness or finite prefixes to real causal history
-must state a bridge premise. Finite causal depth here rules out explaining
-away the countermodel *by invoking an infinite regress*; it does not settle
+These controls connect to existing independent results and a worldwise-reason
+model theorem, without conflating their vocabularies or silently transferring
+their premises:
+
+| Existing result | Exact contribution | Remaining step |
+| --- | --- | --- |
+| `CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL` | Every finite nonempty induced restriction of the infinite reverse-successor graph has a source, but the whole loop-free infinite graph has none. | No theorem promotes local sources to a global source without an added hypothesis. |
+| `CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY` | Finite immediate predecessors **and** well-foundedness yield finite total distinct ancestry. | Neither hypothesis is entailed by an observed finite prefix. |
+| `PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE` | At one inhabited world, an existence-PSR token and well-founded causes yield an existent with an explanation and no incoming existent cause. | No de-re necessity or genuinely sufficient metaphysical explanation follows. |
+| `TruthCore.Modal.WorldwiseExplanation.worldwiseWithoutStable` | An explanation can exist in each world for a necessary individual without one rigid reason token across worlds. | Worldwise explanation does not entail cross-world explanatory identity. |
+
+The *first* independence concerns **finite observations versus infinite causal
+ancestry**. The new root fork concerns **a finite, well-ordered history versus
+what holds across worlds**. The existing PSR and worldwise-explanation
+controls concern **reason tokens versus sufficient grounds**, and **worldwise
+existential witnesses versus rigid tokens**. Combining these results safely
+requires explicit maps between the separate causal, modal and explanatory
+models. Nothing from mathematical compactness or finite prefixes establishes
+real causal history without an additional premise.
+
+In particular, finite causal depth here prevents an objection that the new
+countermodel secretly relies on an infinite regress. It still does not settle
 the separate metaphysics of supertasks or an infinite past.
 
 ### Proof and acceptance
