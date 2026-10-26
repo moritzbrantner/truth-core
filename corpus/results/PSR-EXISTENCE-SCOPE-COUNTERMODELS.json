@@ -1,0 +1,9 @@
+{
+  "id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "argument_id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "challenge_module": "TruthCore.Results.Explanation.PSRScope.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRScope.Solution",
+  "theorem": "TruthCore.Results.Explanation.PSRScope.psrScopeBoundary",
+  "comparator_config": "results/PSR-EXISTENCE-SCOPE-COUNTERMODELS/comparator.json",
+  "status": "solution-present"
+}

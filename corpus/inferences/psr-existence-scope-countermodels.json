@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "rule": "model-construction",
+  "meaning": "Construct two explicit Bool-world/Bool-individual models with universal accessibility and truthful explanation attributions: one satisfies existence-PSR and has a necessary individual, while not every existent has a distinct existing cause; the other satisfies contingent-only PSR, has a contingent and a necessary individual at world false, and fails existence-PSR. The theorem exposes only these properties; further features of the witnesses (no causes at all, intrinsic reasons, the necessary individual being the unexplained one) are not certified by its type. No metaphysical PSR premise is adopted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

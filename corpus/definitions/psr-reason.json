@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-REASON",
+  "term": "intrinsic or circumstantial candidate explanation",
+  "definition": "Reason distinguishes an intrinsic token from a circumstance token, and Model.explains stipulates which reason tokens explain which world-relative existence facts. Sound only requires that the explained fact be true. A token is neither an external efficient cause, nor a proof that an essence really explains instantiation, nor an independent justification of explanatory sufficiency.",
+  "basis": "stipulative",
+  "note": "Analyst-assigned explanation candidates for the finite countermodels in #312; philosophical admissibility of such reasons and the difference between explanatory relations and causes remain separate open questions.",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.Reason"
+}

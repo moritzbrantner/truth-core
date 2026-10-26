@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-EXTERNAL-CAUSE",
+  "term": "external causal producer of each existent",
+  "definition": "EveryExistentExternallyCaused requires each actually existing individual at each model world to have a distinct existing individual causing it via Ontic.Causes. A cause of an individual and a reason for its existence fact are separate model relations; neither converts into the other without an additional premise.",
+  "basis": "stipulative",
+  "note": "This is a test predicate for #312, not a reading of the Thomistic cause of esse or of all senses of causation. It makes clear that an existence-PSR need not be an everything-has-an-external-cause principle.",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.EveryExistentExternallyCaused"
+}
