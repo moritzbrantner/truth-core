@@ -1,0 +1,12 @@
+{
+  "id": "REL-REGRESS-SCHEMA-EFFICIENT",
+  "subject_kind": "statement",
+  "subject_id": "STMT-REGRESS-EFFICIENT-TRANSFER",
+  "predicate": "instance_of_schema",
+  "object_kind": "statement",
+  "object_id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
+  "note": "Proved conditional efficient instance of the structural schema, with separate exact theorem obligations in REGRESS-SCHEMA-PACKAGE. bind-check matches both named theorem types to these two statement declarations; Comparator checks their frozen Challenges and Solutions. This relation is registration metadata, never source support, an inference from one instance to the universal schema, or a premise-closure rule. Actual domain conditions remain open.",
+  "verification_result_id": "REGRESS-SCHEMA-PACKAGE",
+  "instance_theorem": "TruthCore.Results.Logic.RegressSchema.efficientTransfer",
+  "schema_theorem": "TruthCore.Results.Logic.RegressSchema.structural"
+}

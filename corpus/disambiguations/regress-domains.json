@@ -1,0 +1,13 @@
+{
+  "id": "DISAMB-REGRESS-DOMAINS",
+  "term": "dependence, source and warrant across regress domains",
+  "sense_definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-PARTICIPATION-GROUND",
+    "DEF-PSR-REASON"
+  ],
+  "resolution": "Graph dependence records only directed structure. Efficient per se dependence, respect-indexed mover dependence, metaphysical fact grounding, reason/existence-fact explanation, strict parthood, and all-premise inferential warrant remain different typed relations. A relative source means respectively absence of that chosen relation, not one universal absolute foundation. GeneratedWarrant requires every premise of an inference, while FinitelyGroundedPower is used only for structural path/fixed-point mathematics. The cross-domain model stipulates ontological existence and local activity, withholds justified, and derives failure of GeneratedWarrant; none supplies metaphysical possibility or an epistemic-to-causal bridge. Temporal succession is not equated with all-borrowed per se efficient power."
+}
