@@ -1,0 +1,189 @@
+{
+  "id": "MODEL-ORDER-MUTUAL-CAUSE-AND-PRIORITY",
+  "description": "#386 MutualCauseAndPriority assignment on the original Boolean beings and order. The tied assignment also witnesses failure of uniqueness; NoCausalOrder is the homogeneous no-cause witness.",
+  "vocabulary": "QUARTA-ORDER",
+  "lean_declaration": "TruthCore.Models.Order.MutualCauseAndPriority.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Unit",
+    "Degree": "Bool",
+    "DegreeOrder": "TruthCore.Models.Order.MutualCauseAndPriority.order",
+    "BeingOrder": "TruthCore.Models.Order.MutualCauseAndPriority.beingOrder",
+    "InAct": "TruthCore.Models.Order.MutualCauseAndPriority.model.InAct",
+    "MoreIn": "TruthCore.Models.Order.MutualCauseAndPriority.model.MoreIn",
+    "CausesIn": "TruthCore.Models.Order.MutualCauseAndPriority.model.CausesIn",
+    "Creature": "TruthCore.Models.Order.MutualCauseAndPriority.model.Creature",
+    "PriorSimply": "TruthCore.Models.Order.MutualCauseAndPriority.model.PriorSimply",
+    "near": "TruthCore.Models.Order.MutualCauseAndPriority.model.near",
+    "primary": "TruthCore.Models.Order.MutualCauseAndPriority.model.primary",
+    "esse": "TruthCore.Models.Order.MutualCauseAndPriority.model.esse"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Degree",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Degree",
+        "DegreeOrder",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation1"
+    },
+    {
+      "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "CausesIn",
+        "Creature",
+        "esse",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation2"
+    },
+    {
+      "statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Creature",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation3"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation4"
+    },
+    {
+      "statement_id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation5"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation6"
+    },
+    {
+      "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "CausesIn",
+        "MoreIn"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation7"
+    },
+    {
+      "statement_id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "PriorSimply",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation8"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation9"
+    },
+    {
+      "statement_id": "STMT-HOMOGENEOUS-BEING-SCALE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "BeingOrder",
+        "InAct",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.MutualCauseAndPriority.evaluation10"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Order"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "MODEL-PRIMA-VIA-STRONG",
+  "description": "Original strong reading model of the irrelevant-respect objection. Strong and weak premises are separate registered propositions.",
+  "vocabulary": "PRIMA-VIA-RESPECT",
+  "lean_declaration": "TruthCore.Models.PrimaVia.Strong.model",
+  "bindings": {
+    "Being": "TruthCore.Models.PrimaVia.Strong.model.Being",
+    "Respect": "TruthCore.Models.PrimaVia.Strong.model.Respect",
+    "InAct": "TruthCore.Models.PrimaVia.Strong.model.InAct",
+    "InPotency": "TruthCore.Models.PrimaVia.Strong.model.InPotency",
+    "MovedIn": "TruthCore.Models.PrimaVia.Strong.model.MovedIn",
+    "MovesIn": "TruthCore.Models.PrimaVia.Strong.model.MovesIn",
+    "MovesAsMoved": "TruthCore.Models.PrimaVia.Strong.model.MovesAsMoved",
+    "RelevantTo": "TruthCore.Models.PrimaVia.Strong.model.RelevantTo"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels.StrongBeing.g",
+        "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels.StrongBeing.f",
+        "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels.StrongBeing.x"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels.StrongRespect.heat",
+        "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels.StrongRespect.other"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.enumerateRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation2"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation3"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation4"
+    },
+    {
+      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "MovesAsMoved"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "MovesAsMoved"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation6"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.PrimaVia.Strong.evaluation7"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.PrimaVia"
+  ]
+}

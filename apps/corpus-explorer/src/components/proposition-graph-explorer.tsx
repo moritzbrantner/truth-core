@@ -275,6 +275,12 @@ export function PropositionGraphExplorer({
       relatedIds.add(step.id);
       for (const id of [...step.inputs, ...step.assumptions, step.output]) { relatedIds.add(id); }
     }
+    if (state.relations && state.sel) {
+      for (const relation of graph.relations) {
+        if (relation.subject === state.sel) relatedIds.add(relation.object);
+        if (relation.object === state.sel) relatedIds.add(relation.subject);
+      }
+    }
     for (const argument of graph.arguments) {
       if (activeObligation?.recordIds.includes(argument.id)) {
         argument.inferenceIds.forEach((id) => relatedIds.add(id));
@@ -290,6 +296,9 @@ export function PropositionGraphExplorer({
       ariaLabel: nodeDescription(node),
       focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
+      // Dense research clusters can overlap. Keep the selected belief tappable
+      // above its neighbours, especially in the mobile frontier inspector.
+      zIndex: node.id === state.sel ? 20 : 0,
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
         selected: node.id === state.sel,
@@ -303,7 +312,8 @@ export function PropositionGraphExplorer({
       style: { width: compact ? 28 : NODE_SIZE[node.kind].width, height: compact ? 28 : undefined },
     }));
     const flowEdges: Edge[] = view.edges.map((edge) => {
-      const boundary = frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target);
+      const research = edge.kind === "relation";
+      const boundary = !research && (frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target));
       const emphasized = compact && state.emphasis === "frontier";
       const highlighted = edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target);
       return {
@@ -315,7 +325,7 @@ export function PropositionGraphExplorer({
         style: {
           ...edgeStyle[edge.kind],
           stroke: emphasized && boundary ? "var(--status-open)" : edgeStyle[edge.kind].stroke,
-          opacity: compact ? (emphasized && !boundary ? 0.18 : 0.72) : 1,
+          opacity: compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
           strokeWidth: highlighted ? 2.5 : compact ? 1.1 : 1.25,
         },
         markerEnd: compact || edge.kind === "premise" || edge.kind === "assumption"
@@ -324,7 +334,7 @@ export function PropositionGraphExplorer({
       };
     });
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, state.emphasis, activeObligation, graph.arguments, graph.statements, graph.inferences, compact, network, index, overlay]);
+  }, [view, state.sel, state.emphasis, state.relations, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay]);
 
   const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
@@ -387,7 +397,7 @@ export function PropositionGraphExplorer({
       <div className="graph-toolbar">
         <label className="graph-toggle">
           <input type="checkbox" checked={state.showIsolated} onChange={(event) => update({ showIsolated: event.target.checked, viewport: "" })} />
-          Include disconnected readings ({graph.statements.filter((statement) => network.unsupported.has(statement.id) && network.unconsumed.has(statement.id)).length})
+          Include unlinked readings ({graph.statements.filter((statement) => network.unsupported.has(statement.id) && network.unconsumed.has(statement.id) && !network.researchLinked.has(statement.id)).length})
         </label>
         <label className="field-label">Structural / epistemic filter
           <select className="field-control" value={state.leaf} onChange={(event) => update({ leaf: event.target.value as GraphState["leaf"] })}>
@@ -397,7 +407,7 @@ export function PropositionGraphExplorer({
             <option value="frontier">Open frontier ({graph.statements.filter((node) => node.frontier).length})</option>
           </select>
         </label>
-        <label className="graph-toggle"><input type="checkbox" checked={state.relations} onChange={(event) => update({ relations: event.target.checked })} />Relation overlays (not proof)</label>
+        <label className="graph-toggle"><input type="checkbox" checked={state.relations} onChange={(event) => update({ relations: event.target.checked })} />Recorded research links (not proof)</label>
         <div aria-label="View" className="graph-segmented" role="group">
           {(
             [
@@ -692,8 +702,8 @@ export function PropositionGraphExplorer({
       ) : null}
 
       <p aria-live="polite" className="frontier-view-status">
-        {compact ? `${network.components.length} inference-connected components. ` : ""}
-        {compact && !state.showIsolated ? "Disconnected readings hidden; enable them under More views and filters. " : ""}
+        {compact ? `${network.components.length} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links. ` : ""}
+        {compact && !state.showIsolated ? "Readings without an inference or research link hidden; enable them under More views and filters. " : ""}
         {view.message ? `${view.message} ` : ""}
         {view.statementCount} of {graph.statements.length} statements ({graph.statements.length - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
@@ -712,6 +722,7 @@ export function PropositionGraphExplorer({
               <span><i className="frontier-key-dot frontier-key-established" /> Established</span>
               <span><i className="frontier-key-dot frontier-key-conditional" /> Conditional</span>
               <span><i className="frontier-key-dot frontier-key-other" /> Other proposition</span>
+              {state.relations ? <span><i className="frontier-key-relation" /> Research link · not proof</span> : null}
             </div>
             <ReactFlow
               edges={edges}
@@ -908,6 +919,9 @@ function DetailPanel({
   const community = network.community.get(current.id);
   const members = graph.statements.filter((entry) => network.community.get(entry.id) === community);
   const memberInferences = graph.inferences.filter((entry) => network.community.get(entry.id) === community).length;
+  const researchConnections = graph.relations
+    .filter((relation) => relation.subject !== relation.object && (relation.subject === current.id || relation.object === current.id))
+    .sort((left, right) => left.id.localeCompare(right.id));
   return (
     <aside className="graph-detail">
       <p className="eyebrow">
@@ -980,6 +994,46 @@ function DetailPanel({
         <div>
           <dt className="eyebrow">Inference connectivity</dt>
           <dd>{new Set([...(index.producers.get(current.id) ?? []), ...(index.consumers.get(current.id) ?? [])].map((step) => step.id)).size} incident applications; {index.producers.get(current.id)?.length ?? 0} supporting alternatives (OR); {index.consumers.get(current.id)?.length ?? 0} consumers. Each application requires all its premises (AND).</dd>
+        </div>
+        <div>
+          <dt className="eyebrow">Recorded research links ({researchConnections.length})</dt>
+          <dd className="mt-1 text-[var(--muted)]">These are objections, alternatives, or source/argument evidence, never additional inference steps.</dd>
+          {researchConnections.length ? (
+            <ul className="mt-2 grid max-h-64 gap-3 overflow-y-auto">
+              {researchConnections.map((relation) => {
+                const outbound = relation.subject === current.id;
+                const peer = outbound ? relation.object : relation.subject;
+                const peerStatement = index.statementById.get(peer);
+                let originHref = `/statements/${relation.originId}`;
+                if (relation.originKind === "claim") {
+                  originHref = `/claims/${relation.originId}`;
+                } else if (relation.originKind === "argument") {
+                  const argument = argumentById.get(relation.originId);
+                  originHref = argument?.resultIds[0]
+                    ? `/results/${argument.resultIds[0]}`
+                    : `/statements/${argument?.conclusion ?? relation.subject}`;
+                }
+                return (
+                  <li className="border-l-2 border-[var(--status-alternative)] pl-2" key={relation.id}>
+                    <span className="block text-xs text-[var(--muted)]">{outbound ? "→" : "←"} {relation.predicate.replaceAll("_", " ")} · {relation.originKind} record</span>
+                    <button className="graph-link-button mt-1 text-left text-sm" onClick={() => update((state) => ({
+                      sel: peer,
+                      viewport: "",
+                      expanded: [...new Set([...state.expanded, peer])],
+                    }))} type="button">
+                      {peerStatement?.paraphrase ?? peer}
+                    </button>
+                    <span className="mt-1 block text-xs">
+                      <Link className="link-quiet" href={originHref}>
+                        {relation.originId} →
+                      </Link>
+                    </span>
+                    {relation.note ? <span className="mt-1 block text-xs text-[var(--muted)]">{relation.note}</span> : null}
+                  </li>
+                );
+              })}
+            </ul>
+          ) : null}
         </div>
         <div>
           <dt className="eyebrow">Lean declaration</dt>
@@ -1067,7 +1121,7 @@ function GraphLegend() {
       <p className="eyebrow">Reading the graph</p>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--muted)]">
         Each round dot is a proposition. A small square is an inference junction: every input is required together, not an independent pairwise implication. Amber rings mark the recorded frontier: open premises, with red rings for bare premises lacking source support. Green rings distinguish established statements; hollow blue rings mark conditionally closed deductions whose premises might still be open. Center colors indicate connectivity communities, not philosophical agreement, truth, or confidence. Dot size shows incident inference degree. Selection highlights immediate dependencies and consequences; Focus follows further paths. Structural leaves and epistemic obligations are distinct. In layered mode, premises sit below the inference steps that use them, and conclusions above. Every logical step goes through
-        an explicit inference node; dashed coloured edges are relations, never support. Dotted edges summarize steps
+        an explicit inference node; dashed purple links record source, objection or alternative relationships (never logical entailment). A claim or argument link is projected through its statement, with the original record visible in the inspector. Research links affect map proximity but not inference connectivity or closure. Dotted edges summarize steps
         into a collapsed cluster. Status says only how a statement stands inside the corpus: a verified result checks
         formal consequence, not premise truth or source fidelity; the transcription flag is a textual heuristic. The frontier is the highlighted set of unresolved propositions, not a fabricated geometric boundary.
       </p>

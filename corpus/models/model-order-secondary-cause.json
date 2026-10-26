@@ -1,0 +1,126 @@
+{
+  "id": "MODEL-ORDER-SECONDARY-CAUSE",
+  "description": "#386 secondary-cause countermodel. Degree is the finite image of the original Nat map; sameDegreeOrder certifies that every comparison is preserved. Exhaustive cause clauses avoid importing axioms from overlapping pattern compilation.",
+  "vocabulary": "QUARTA-ORDER",
+  "lean_declaration": "TruthCore.Models.OrderSecondary.model",
+  "bindings": {
+    "Being": "TruthCore.Models.OrderSecondary.B",
+    "Respect": "Unit",
+    "Degree": "TruthCore.Models.OrderSecondary.Degree",
+    "DegreeOrder": "TruthCore.Models.OrderSecondary.order",
+    "InAct": "TruthCore.Models.OrderSecondary.inAct",
+    "MoreIn": "TruthCore.Models.OrderSecondary.moreIn",
+    "CausesIn": "TruthCore.Models.OrderSecondary.causes",
+    "Creature": "TruthCore.Models.OrderSecondary.creature",
+    "near": "TruthCore.Models.OrderSecondary.near",
+    "primary": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.B.p",
+    "esse": "Unit.unit"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.B.p",
+        "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.B.a",
+        "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.B.b"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Degree",
+      "elements": [
+        "TruthCore.Models.OrderSecondary.d0",
+        "TruthCore.Models.OrderSecondary.d1",
+        "TruthCore.Models.OrderSecondary.d2"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.enumerateDegree"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Degree",
+        "DegreeOrder",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation1"
+    },
+    {
+      "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "CausesIn",
+        "Creature",
+        "esse",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation2"
+    },
+    {
+      "statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Creature",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation3"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation4"
+    },
+    {
+      "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "CausesIn",
+        "MoreIn"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.evaluation5"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.OrderSecondary"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "MODEL-PHYSICS-FIRST-MOVED-WITHOUT-MOVER",
+  "description": "#404 finite first-mover omission assignment MovedWithoutMover. The third, successor-chain witness is infinite and excluded explicitly.",
+  "vocabulary": "TYPED-PHYSICS-UNIT",
+  "lean_declaration": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model",
+  "bindings": {
+    "Being": "Unit",
+    "Respect": "Unit",
+    "IsPhysicalRespect": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.IsPhysicalRespect",
+    "MovedIn": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.MovedIn",
+    "ByNature": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.ByNature",
+    "ByForce": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.ByForce",
+    "SelfMovedIn": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.SelfMovedIn",
+    "PassiveNaturalIn": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.PassiveNaturalIn",
+    "InAct": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.InAct",
+    "InPotency": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.InPotency",
+    "ActualizedQuaPotential": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.ActualizedQuaPotential",
+    "MovesIn": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.MovesIn",
+    "MovesPerAccidensIn": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model.MovesPerAccidensIn"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation0"
+    },
+    {
+      "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation2"
+    },
+    {
+      "statement_id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation3"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.PhysicsFirstMover"
+  ]
+}

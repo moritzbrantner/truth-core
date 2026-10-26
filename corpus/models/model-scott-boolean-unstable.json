@@ -1,0 +1,62 @@
+{
+  "id": "MODEL-SCOTT-BOOLEAN-UNSTABLE",
+  "description": "Original nontrivial Boolean-generated fragment witness, evaluated at individual true and world true. Both points remain distinct registrations; the primitive is stipulated.",
+  "vocabulary": "SCOTT-BOOLEAN-FRAGMENT",
+  "lean_declaration": "TruthCore.Models.Scott.BooleanUnstable.model",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Bool",
+    "Frame": "TruthCore.Models.Scott.BooleanUnstable.model",
+    "Admissible": "TruthCore.Models.Scott.BooleanUnstable.admissible",
+    "individual": "true",
+    "world": "true"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SCOTT-FILTERED-NE-AT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Admissible",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.BooleanUnstable.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NE-AT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.BooleanUnstable.evaluation1"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Scott"
+  ]
+}

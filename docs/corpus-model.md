@@ -88,8 +88,8 @@ certify a shared package and multiple separate obligations in one configuration.
 
 Registration never acts as source support, inference, refutation or frontier
 closure; it does not modify `supports` or its claim-only endpoint contract.
-It also does not infer the universal schema from an instance. See
-[the proved schema index](schemas.md) for the actual conditional registrations.
+It also does not infer the universal schema from an instance. Schema campaigns
+can use this contract once their separate proof obligations have been checked.
 
 A result is a **transcription** (invariant 16) when its record declares one in the optional `transcription` field, or when the Lean heuristics below find a single application of one hypothesis or a pure assembly of hypotheses. The field takes one kind: `opaque_atoms` (every proposition the theorem relates is an unconstrained `Prop` parameter, or a definition propositional over such parameters), `single_application` (the proof applies one premise whose consequent is the conclusion), `assembly` (the proof only pairs or destructures hypotheses, such as `⟨hClaims, hRose⟩`), or `instantiation` (the proof only instantiates a general premise or lemma at the case). `corpus.py check` rejects any other value and requires the field when the `description` opens with a transcription label (`Transcription`, `Opaque-atom transcription`, `Near-transcription`, `Logical transcription`); the prose explains, the field decides (#391). `--json` lists all of them in `transcription_results` (`kind`, and whether it was `declared`). A conclusion verified only by transcriptions with some open premise stays open and is marked `open although proved`. Closures by (d) are listed in a `closed via transcription from closed premises` section (JSON: `closed_via_transcription`, with the result, argument, premises and path to the root). When the corpus has no `alternative_to` relations at all, the report says `no alternatives recorded`.
 

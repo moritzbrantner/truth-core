@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
+import argparse
+import contextlib
 import copy
+import io
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import corpus
 
@@ -80,6 +84,46 @@ class SchemaRegistrationTest(unittest.TestCase):
         registered = corpus.frontier_report(statements, [], [], [self.relation], root="SCHEMA")
         self.assertEqual(registered, baseline)
         self.assertEqual(registered["established_statements"], [])
+
+
+    def test_bind_command_composes_schema_bindings_and_live_model_gate(self):
+        result = {"id": "PACKAGE", **self.results["PACKAGE"], "theorem": "packageProof"}
+        records = {
+            "results": [(self.path, result)],
+            "relations": [(self.path, self.relation)],
+            "statements": [(self.path, {"id": name}) for name in ("INSTANCE", "SCHEMA")],
+        }
+        for fixture_only in (False, True):
+            with self.subTest(fixture_only=fixture_only):
+                report = {"summary": {"bound": 0, "pinned": 0, "mismatch": 0}, "stale_pins": []}
+                args = argparse.Namespace(lean_json="fixture.json" if fixture_only else None, json=True)
+                with (
+                    patch.object(corpus, "validate"),
+                    patch.object(corpus, "load_dir", side_effect=lambda name: records[name]),
+                    patch.object(corpus, "run_bind_tool", return_value=[]) as describe,
+                    patch.object(corpus, "bind_report", return_value=report) as bind,
+                    patch.object(corpus, "registered_models", return_value=[{"id": "MODEL-TEST"}]),
+                    patch.object(corpus, "verify_models", return_value={"models": 1}) as models,
+                    patch.object(Path, "read_text", return_value="[]"),
+                    contextlib.redirect_stdout(io.StringIO()),
+                ):
+                    self.assertEqual(corpus.command_bind_check(args), 0)
+                    bindings = bind.call_args.args[1]
+                    self.assertEqual(len(bindings), 2)
+                    if fixture_only:
+                        describe.assert_not_called()
+                        models.assert_not_called()
+                    else:
+                        self.assertEqual(set(describe.call_args.args[0]["theorems"]), {
+                            "packageProof", self.relation["instance_theorem"], self.relation["schema_theorem"],
+                        })
+                        models.assert_called_once_with(
+                            [{"id": "MODEL-TEST"}],
+                            {name: {"id": name} for name in ("INSTANCE", "SCHEMA")}, corpus.ROOT,
+                        )
+                        models.side_effect = ValueError("model certificate rejected")
+                        with self.assertRaisesRegex(corpus.CorpusError, "model certificate rejected"):
+                            corpus.command_bind_check(args)
 
 
 if __name__ == "__main__":

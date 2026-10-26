@@ -27,16 +27,23 @@ The deployment workflow uploads `apps/corpus-explorer/out` with `actions/upload-
 The homepage and `/graph` default to a compact force-connected global network with a synchronized
 research frontier. The graph dominates the workspace, while secondary controls live
 under **More views and filters** and the research queue occupies a narrow inspector.
-Positions and community colors describe inference connectivity, not confidence.
+Community colors and structural leaves describe inference connectivity, not confidence.
 Round proposition dots and small square inference junctions preserve the AND-premise
 structure of arguments. Rings distinguish establishment, conditional closure and
 bare or sourced frontier; the visible legend and optional **Frontier highlighted**
-emphasis reveal the frontier dots without inventing a geometric boundary. Disconnected
-source-only readings with no inference connections are omitted from the initial
-network canvas, but stay searchable and can be included with **Include disconnected
-readings** under the advanced controls. This is a display-only choice. Structural
+emphasis reveal the frontier dots without inventing a geometric boundary. The
+default dashed research-link layer adds the corpus's recorded alternatives,
+attacks, refutations and claim/argument evidence. For claim and argument relations,
+the map projects the original record through its statement or conclusion; selecting
+a belief exposes the original record and any research note. Those links affect
+visual proximity, not proof, closure or inference-component counts. The overlay can
+be hidden with **Recorded research links**, and `relations=0` preserves that choice
+in the URL. Hiding the overlay does not move the stable map positions. Readings
+with neither an inference nor a recorded research link are
+omitted from the initial canvas, but stay searchable and can be included with
+**Include unlinked readings** under the advanced controls. Structural
 leaf filters (no supporting inference / no consumer inference) are independent of
-frontier obligations. Semantic relations are a separate optional dashed overlay.
+frontier obligations.
 The **Layered** option retains source clustering and expanded proof cards; selecting
 **Focus here** expands complete AND-premises and alternative (OR) applications.
 Network positions are deterministic and computed at static-build time, with no

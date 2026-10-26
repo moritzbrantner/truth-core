@@ -84,7 +84,17 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
       </section>
       <section className="record-section" aria-labelledby="dossier-instances">
         <h2 id="dossier-instances" className="eyebrow">Schema instances and countermodels</h2>
-        <p className="mt-3 text-sm">No separate mode-5 schema or mode-2 countermodel registry exists yet. Existing instantiations and explicitly recorded countermodel attempts are listed here.</p>
+        <p className="mt-3 text-sm">Finite evaluations concern the registered vocabulary and assignments. They do not establish metaphysical possibility or close this premise. Schema registrations are not yet available.</p>
+        <h3 className="mt-4 font-medium">Registered finite models</h3>
+        {dossier.model_evaluations.length ? <ul className="mt-3 grid gap-4">{dossier.model_evaluations.map((model) => <li key={model.model_id}>
+          <p className="font-mono text-xs">{model.model_id} · {model.value}</p>
+          <p className="mt-1 text-sm">Vocabulary: {model.vocabulary}</p>
+          <p className="mt-1 font-mono text-xs">{model.lean_declaration}</p>
+          <details className="mt-2 text-sm"><summary>Statement application and certificate</summary>
+            <p className="mt-2 font-mono text-xs">{statement.lean_declaration} {model.arguments.map((argument) => `(${argument})`).join(" ")}</p>
+            <p className="mt-2 font-mono text-xs">{model.value === "violates" ? "Negation certificate: " : "Certificate: "}{model.theorem}</p>
+          </details>
+        </li>)}</ul> : <p className="mt-2 text-sm">No evaluation is registered. This gives no conclusion about consistency or derivability.</p>}
         <h3 className="mt-4 font-medium">Existing instantiation results</h3>
         {dossier.instantiation_result_ids.length ? <ul className="mt-2">{dossier.instantiation_result_ids.map((id) => <li key={id}><Link className="link-quiet font-mono text-xs" href={`/results/${id}`}>{id}</Link></li>)}</ul> : <p className="mt-2 text-sm">None recorded.</p>}
         <h3 className="mt-4 font-medium">Countermodel attempts</h3>

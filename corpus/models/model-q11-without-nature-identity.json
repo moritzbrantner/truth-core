@@ -1,0 +1,72 @@
+{
+  "id": "MODEL-Q11-WITHOUT-NATURE-IDENTITY",
+  "description": "The Boolean omission assignment from Q11 nature uniqueness; every Boolean is a proper-God instance in this logical test only.",
+  "vocabulary": "Q11-NATURE",
+  "lean_declaration": "TruthCore.Models.Q11.WithoutNatureIdentity.model",
+  "bindings": {
+    "Being": "Bool",
+    "Principle": "Bool",
+    "IsGod": "TruthCore.Models.Q11.WithoutNatureIdentity.isGod",
+    "suppositumOf": "TruthCore.Models.Q11.WithoutNatureIdentity.model.1",
+    "essenceOf": "TruthCore.Models.Q11.WithoutNatureIdentity.model.2",
+    "deity": "TruthCore.Models.Q11.WithoutNatureIdentity.deity"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.Q11.WithoutNatureIdentity.enumerateBeing"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "suppositumOf"
+      ],
+      "theorem": "TruthCore.Models.Q11.WithoutNatureIdentity.evaluation0"
+    },
+    {
+      "statement_id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Principle",
+        "IsGod",
+        "suppositumOf",
+        "essenceOf"
+      ],
+      "theorem": "TruthCore.Models.Q11.WithoutNatureIdentity.evaluation1"
+    },
+    {
+      "statement_id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "IsGod",
+        "essenceOf",
+        "deity"
+      ],
+      "theorem": "TruthCore.Models.Q11.WithoutNatureIdentity.evaluation2"
+    },
+    {
+      "statement_id": "STMT-GOD-IS-ONE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "IsGod"
+      ],
+      "theorem": "TruthCore.Models.Q11.WithoutNatureIdentity.evaluation3"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Q11"
+  ]
+}

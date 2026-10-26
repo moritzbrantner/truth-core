@@ -102,6 +102,14 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "objection_relation_ids": sorted(entry["id"] for entry in relations if entry["predicate"] == "attacks"),
             "attempts": attempts,
             "countermodel_attempt_ids": [entry["id"] for entry in attempts if entry["kind"] == "countermodel"],
+            "model_evaluations": [
+                {"model_id": model["id"], "vocabulary": model["vocabulary"],
+                 "lean_declaration": model["lean_declaration"], "value": evaluation["value"],
+                 "theorem": evaluation["theorem"],
+                 "arguments": [model["bindings"][key] for key in evaluation["arguments"]]}
+                for model in sorted(data.get("models", []), key=lambda entry: entry["id"])
+                for evaluation in model["evaluations"] if evaluation["statement_id"] == sid
+            ],
             "route_contributions": [
                 {"argument_id": route["argument_id"], "cost": route["cost"],
                  "open_leaf": sid in route["open_premise_statement_ids"],
@@ -149,7 +157,12 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     if not dossier["attempts"]:
         lines.append("  none recorded")
     lines.append("\nCountermodel attempts: " + (", ".join(dossier["countermodel_attempt_ids"]) or "none recorded"))
-    lines.append("No separate mode-2 countermodel or mode-5 schema registry exists yet; no links are inferred from prose.")
+    lines.append("Registered finite evaluations (formal interpretations only; no premise closure):")
+    for evaluation in dossier["model_evaluations"]:
+        lines.append(f"  {evaluation['model_id']} {evaluation['value']}; vocabulary {evaluation['vocabulary']}; {evaluation['theorem']}; arguments {evaluation['arguments']}")
+    if not dossier["model_evaluations"]:
+        lines.append("  none registered; no conclusion about consistency or derivability")
+    lines.append("No separate mode-5 schema registry exists yet; no links are inferred from prose.")
     lines.append(f"\nRoutes to {dossier['root']} (one counted leaf when open_leaf=true, not a counterfactual cost reduction):")
     for route in dossier["route_contributions"]:
         lines.append(f"  {route['argument_id']}: cost={route['cost']}, open_leaf={str(route['open_leaf']).lower()}, direct_premise={str(route['direct_premise']).lower()}")

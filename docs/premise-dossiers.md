@@ -66,7 +66,10 @@ Their evidence links to the relevant existing result or PR. A result description
 containing the word "countermodel" is not itself a structured model registration.
 The dossier also lists existing results explicitly classified as instantiations
 by the frontier report; these are not automatically instances of a future generic
-schema. No separate mode-2 model registry (#414) or mode-5 schema registry (#412)
-exists at this point. The dossier states that boundary and does not infer missing
-links from similar words, theorem names or embeddings. Those registries can later
-supply their own explicit links without changing premise identity or closure.
+schema. The mode-2 finite-model registry (#414) supplies explicit `model_evaluations`
+with model ID, vocabulary, closed arguments and theorem certificate. CLI and
+explorer show the same links without changing closure. See
+[registered finite interpretations](finite-models.md) for the certificate gate,
+co-failure candidates and the limits of finite interpretation tests. A separate
+mode-5 schema registry (#412) remains unavailable; no links are guessed from
+similar words, theorem names or embeddings.
