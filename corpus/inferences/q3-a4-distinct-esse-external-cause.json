@@ -1,0 +1,12 @@
+{
+  "id": "INF-Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "input_statement_ids": [
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+  "rule": "typed-disjunction-elimination-with-excluded-internal-cause",
+  "meaning": "For every subject actually existing at the esse respect with a distinct essence and esse, the open dichotomy yields either sufficient efficient causation by essential principles alone or an actually existing distinct external cause at esse. The independently open no-self-cause premise eliminates the first branch. This is a conditional transcription of Aquinas' argumentative structure, not a proof of either metaphysical premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

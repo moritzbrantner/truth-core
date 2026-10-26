@@ -1,0 +1,11 @@
+{
+  "id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "argument_id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.distinctEsseExternalFromExhaustion",
+  "comparator_config": "results/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional typed transcription of Aquinas' first q.3 a.4 proof. The causal-exhaustiveness premise and no-essential-self-causation premise remain sourced but philosophically undefended; neither is discharged by this proof, and there is no inference to God or divine simplicity.",
+  "transcription": "assembly"
+}
