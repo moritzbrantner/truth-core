@@ -1,0 +1,16 @@
+{
+  "id": "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT",
+  "statement_id": "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+  "source_id": "STEVENSON-EMOTIVE-MEANING-1937",
+  "locator": "pp. 27–29, §V (interest versus belief disagreement; empirical reasons and the public-dole example)",
+  "interpretation": "p. 27 gives opposed interests and neither party content to leave the other unchanged. pp. 28–29 allow empirical reasons to resolve some disagreements but deny that agreement on all consequences must settle the practical issue. Formalized as representability of this possibility in a shared interpretation, with a nonempty factual domain; no claim of actual people or omniscience. The sentence carrier indexes the object under moral discussion. This refines the earlier primitive attitude-clash reading without identifying interests with beliefs.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
+    "DEF-DISAGREEMENT-IN-ATTITUDE",
+    "DEF-MORAL-STATEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-DISAGREEMENT"
+  ]
+}

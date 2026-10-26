@@ -68,7 +68,7 @@ The questions:
 | 1. Grounding | S: no objective moral truths | U | U: explanatory order (§5.2) and supervenience (§3.4) are recorded, but neither answers what makes a moral judgment true | S: actuality and privation (q.5, q.48) |
 | 2. Validity | U | U | U: consistency with validity is verified, but no explanation of validity is derived | U (not formalized) |
 | 3. Error | V: none (`EMOTIVISM-EXCLUDES-MORAL-ERROR`) | U | V: minimal error (model) | V: the Germans erred (`AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED`) |
-| 4. Disagreement | V: no contradiction (`EMOTIVISM-EXCLUDES-GENUINE-MORAL-CONTRADICTION`) | S: clash in attitude (§3.5) | S: minimal contradiction | S: contradiction, since moral judgments are truth-apt (a.4) |
+| 4. Disagreement | V: no contradiction (`EMOTIVISM-EXCLUDES-GENUINE-MORAL-CONTRADICTION`) | S: opposed interests and mutual redirection (Stevenson 1937, pp. 27–29) | S: minimal contradiction | S: contradiction, since moral judgments are truth-apt (a.4) |
 | 5. Progress | U (on the cognitive reading of correction) | U | S: minimal correction (§4.3) | S: correction of corruption (q.94 a.5 ad 1) |
 | 6. Robust truth | S: no truth value at all | U | V: not robust, a deviation (`QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH`); sustained on the anti-realist order of explanation (`ANTIREALIST-ORDER-SUSTAINS-ROBUST-TRUTH-DEVIATION`), collapsed by the collapse premise (`MINIMALISM-COLLAPSES-ROBUST-TRUTH-DEVIATION`), open | S: practical truth, the same for all (a.4) |
 | 7. Normative reasons | U | U | U | S: the first precept (a.2) |
@@ -90,8 +90,13 @@ Prose:
   what #160 needs against the external problem of evil, and it leaves
   validity, progress (on the cognitive reading) and normative reasons
   unexplained.
-* **Stevenson's form** is recorded too thinly to answer most questions; that is
-  a gap in the witness, not a refutation.
+* **Stevenson's form** now has a primary-source refinement: opposed interests
+  and mutual attempts to redirect them can persist under factual agreement.
+  `STEVENSON-FACTUAL-AGREEMENT` verifies an enriched model with an actual
+  clash and a nonempty factual domain. It is a consistency result, so this
+  does not promote the sourced answer to an entailed-coverage result. The
+  other seven questions remain unexplained in this bundle. See
+  `docs/stevenson-disagreement.md` for reasons, embedding and remaining gaps.
 * **Quasi-realism** matches realism wherever minimal truth suffices. It
   deviates on robust truth and on explanatory order (#190, #191); its answer
   to the grounding question is not in the pinned witness. Validity remains
