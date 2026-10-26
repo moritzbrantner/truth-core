@@ -1,0 +1,9 @@
+{
+  "id": "INF-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "rule": "induction-on-grounding-derivation",
+  "meaning": "Induct on each being's grounding certificate. An intrinsic source has no immediate cause, so it is accessible. A being that borrows from y has y as its only immediate cause, and y is accessible by the induction hypothesis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

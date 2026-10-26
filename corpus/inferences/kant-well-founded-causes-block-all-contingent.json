@@ -1,0 +1,9 @@
+{
+  "id": "INF-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "rule": "well-founded-induction",
+  "meaning": "Assume every existing being is contingent. By well-founded induction no being exists: an existing being would be contingent, hence have an existing cause, which by the induction hypothesis does not exist. This contradicts the given existent.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

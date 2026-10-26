@@ -42,8 +42,8 @@ def Mimics {Q : Type} (T R : AnswerMap Q) : Prop :=
 def DistinctRival {Q : Type} (T R : AnswerMap Q) : Prop :=
   ∃ q, ¬ Matches T R q
 
-/-- `T` is committed, at `q`, to its answer: it answers `q`, and its answer
-holds by its lights. -/
+/-- `T` is committed, at `q`, to its answer: it answers `q`, and the
+proposition it gives as its answer holds. -/
 def CommittedAt {Q : Type} (T : AnswerMap Q) (q : Q) : Prop :=
   T.answers q ∧ T.says q
 

@@ -1,0 +1,9 @@
+{
+  "id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "argument_id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "challenge_module": "TruthCore.Results.Causality.RegressReadingsCoincide.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RegressReadingsCoincide.Solution",
+  "theorem": "TruthCore.Results.Causality.RegressReadingsCoincide.regressReadingsCoincideClassically",
+  "comparator_config": "results/REGRESS-READINGS-COINCIDE-CLASSICALLY/comparator.json",
+  "status": "solution-present"
+}

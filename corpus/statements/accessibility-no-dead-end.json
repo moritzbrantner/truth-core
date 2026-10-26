@@ -1,8 +1,9 @@
 {
   "id": "STMT-ACCESSIBILITY-NO-DEAD-END",
-  "paraphrase": "No world of the Kripke frame is a dead end: no world fails to access every world (a double-negated form of seriality, frame condition D).",
+  "paraphrase": "No world of the Kripke frame is a dead end: for each world w it is not the case that w accesses no world (a double-negated form of seriality, frame condition D).",
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NoDeadEndWorld",
   "definition_ids": [
-    "DEF-HOML-ACTUALIST-NECESSITY"
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-MODAL-D-SERIAL"
   ]
 }

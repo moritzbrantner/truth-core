@@ -12,8 +12,11 @@ import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
+import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.LocalTransmission
+import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.PowerExistenceBoundary
+import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
@@ -375,9 +378,14 @@ import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
+import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
+import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
+import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
+import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution
@@ -464,6 +472,7 @@ import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExisten
 import TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution
 import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+import TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
 import TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution
@@ -473,6 +482,7 @@ import TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Sol
 import TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution
 import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution
 import TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Solution
+import TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Solution
 import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution
 import TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution

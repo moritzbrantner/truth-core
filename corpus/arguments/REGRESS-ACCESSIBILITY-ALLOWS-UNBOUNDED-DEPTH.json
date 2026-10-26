@@ -1,0 +1,15 @@
+{
+  "id": "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "inference_ids": [
+    "INF-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH"
+  ],
+  "meaning": "An axiom-free fidelity check on the Second Way premise's formalization: accessibility (well-foundedness) is not finite or bounded depth. A being with infinitely many immediate causes can be accessible although its descending chains have every finite length. Glossing DEF-REGRESS-ACCESSIBILITY-READING as a finite-depth certificate would strengthen it. Leaves STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES open.",
+  "definition_ids": [
+    "DEF-REGRESS-ACCESSIBILITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

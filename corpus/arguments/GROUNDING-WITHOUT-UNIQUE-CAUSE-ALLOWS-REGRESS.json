@@ -1,0 +1,18 @@
+{
+  "id": "GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "inference_ids": [
+    "INF-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS"
+  ],
+  "meaning": "An axiom-free countermodel to the bare entailment from 'every being is finitely grounded and sources are uncaused' to the regress premise's accessibility reading. It shows the uniqueness antecedent of GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING is not idle. It says nothing about whether real per se causes have such parallel chains.",
+  "definition_ids": [
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-REGRESS-ACCESSIBILITY-READING",
+    "DEF-SOURCES-RECEIVE-NO-LINK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

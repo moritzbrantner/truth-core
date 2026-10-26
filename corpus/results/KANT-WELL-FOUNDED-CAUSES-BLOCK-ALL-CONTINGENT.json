@@ -1,0 +1,9 @@
+{
+  "id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "argument_id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Challenge",
+  "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Solution",
+  "theorem": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.wellFoundedCausesBlockAllContingent",
+  "comparator_config": "results/KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT/comparator.json",
+  "status": "solution-present"
+}
