@@ -62,10 +62,11 @@ the source claim. The remaining source research is recorded in the existing
 typed-motion candidate: an independently supported cycle exclusion and
 induction justification, and the narrower instrumental-series reading.
 
-The intended and actual root-frontier effect of this correction is no change:
-no root obligation is discharged, and no existing theorem premise is added or
-removed. `frontier --routes` retains costs 28, 29, 33, 35, 36, 36, 37, 38;
-`frontier --reaching-root` retains 44 open premises (3 bare, 41 sourced but
-undefended). The split adds a source statement outside those root-frontier
-leaves. Shared conventions resolved to source revision
-`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+Against main `41fc3a02` (after #405 and #408), the intended and actual root-route
+costs remain 28, 29, 33, 35, 36, 36, 37, 38. Main reaches 39 open premises
+(2 bare, 37 sourced but undefended); this branch reaches 46 (4 bare,
+42 sourced but undefended), retaining the seven VIII.4-route premises noted
+above (two bare and five sourced). No root obligation is discharged. The
+source/accessibility split changes no existing theorem premise and adds its
+source statement outside those root-frontier leaves. Shared conventions
+resolved to source revision `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.

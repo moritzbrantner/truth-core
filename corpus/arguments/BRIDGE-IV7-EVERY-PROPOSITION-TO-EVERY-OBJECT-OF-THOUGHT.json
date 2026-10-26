@@ -1,0 +1,11 @@
+{
+  "id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "premise_statement_ids": [
+    "STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION"
+  ],
+  "conclusion_statement_id": "STMT-OBJECT-OF-THOUGHT-AFFIRMED-OR-DENIED",
+  "inference_ids": [
+    "INF-BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT"
+  ],
+  "meaning": "Bridge (#401): the formalization's unattributed extension of the thought argument's first half to every proposition (STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION) entails the sourced first half, *Metaphysics* IV.7, 1012a2-3 (STMT-OBJECT-OF-THOUGHT-AFFIRMED-OR-DENIED): whatever is the object of some thought is the object of a thought that affirms or denies it. Instantiate the extension at that object. The extension is strictly about more propositions; this shows it is no weaker than the sourced sentence."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "argument_id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "challenge_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution",
+  "theorem": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.everyBeingHasFinitePerSePathToUncausedOfNoRegress",
+  "comparator_config": "results/BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Challenge", "solution_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution", "theorem_names": ["TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.notActAndPotencyOfPotencyAnalysis"], "permitted_axioms": [], "enable_nanoda": true}

@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Challenge", "solution_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution", "theorem_names": ["TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.everyBeingHasFinitePerSePathToUncausedOfNoRegress"], "permitted_axioms": [], "enable_nanoda": true}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-FINITE-GROUNDING-HAS-SOURCE",
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+  ],
+  "output_statement_id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
+  "rule": "well-founded-induction",
+  "meaning": "By well-founded induction on the per se link, every being is finitely grounded with 'intrinsic' read as 'has no per se cause' (excluded middle splits on having an upstream per se cause); the finite-grounding theorem then gives a finite path to such a being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

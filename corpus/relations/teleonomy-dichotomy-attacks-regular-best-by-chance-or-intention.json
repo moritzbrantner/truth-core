@@ -1,0 +1,9 @@
+{
+  "id": "REL-TELEONOMY-DICHOTOMY-ATTACKS-REGULAR-BEST-BY-CHANCE-OR-INTENTION",
+  "subject_kind": "argument",
+  "subject_id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
+  "note": "Bridge batch 1 (#401). In the model of STMT-TELEONOMY-CHANCE-INTENTION-DICHOTOMY the quinta via's other premises hold (natural bodies lack cognition, act regularly for the best, not by chance) while the chance-or-intention dichotomy fails. That is an objection to treating the dichotomy as forced by the observation, not a proof that it is false: the model does not identify random variation with chance in Aquinas' sense, nor broad intentio with conscious design (docs/teleonomy-comparison.md)."
+}

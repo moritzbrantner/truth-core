@@ -1,0 +1,12 @@
+{
+  "id": "INF-BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "input_statement_ids": [
+    "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
+    "STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION"
+  ],
+  "output_statement_id": "STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY",
+  "rule": "instantiation-and-modus-ponens",
+  "meaning": "For a proposition p, some thought with object p affirms or denies it; affirming or denying, it is true or false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

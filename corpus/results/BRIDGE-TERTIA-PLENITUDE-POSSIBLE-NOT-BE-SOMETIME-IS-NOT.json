@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "argument_id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "challenge_module": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.Solution",
+  "theorem": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.whatCanNotBeSometimeIsNotOfPlenitude",
+  "comparator_config": "results/BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT/comparator.json",
+  "status": "solution-present"
+}

@@ -17,6 +17,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Quint
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause

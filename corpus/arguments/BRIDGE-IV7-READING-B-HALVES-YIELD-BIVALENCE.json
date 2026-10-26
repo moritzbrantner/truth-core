@@ -1,0 +1,18 @@
+{
+  "id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "premise_statement_ids": [
+    "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
+    "STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION"
+  ],
+  "conclusion_statement_id": "STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY",
+  "inference_ids": [
+    "INF-BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE"
+  ],
+  "meaning": "Bridge (#401): the two halves of the thought argument's universal reading, *Metaphysics* IV.7, 1012a2-4, yield bivalence of thought. The formalization's extension of the first half to every proposition (STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION, unattributed) and the sourced second half (STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE) give STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY: for every proposition some thought with that object is true or false. No excluded middle is used here; ARIST-MET-1012A-THOUGHT-BIVALENCE-IFF-EXCLUDED-MIDDLE shows the conclusion is equivalent to it given the other readings.",
+  "definition_ids": [
+    "DEF-THOUGHT-TRUE-OR-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-APT"
+  ]
+}
