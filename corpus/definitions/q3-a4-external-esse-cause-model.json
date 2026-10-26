@@ -1,0 +1,8 @@
+{
+  "id": "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+  "term": "source-cause of esse by another actual agent in the q.3 a.4 test",
+  "definition": "HasExternalEsseCause p x means that an actual being y distinct from x stands in CausesIn y x p.esse. It models an external efficient cause at the being-respect. It is not identical to q.104's continuing conservation of esse or to a noncausal explanation token of an existence fact.",
+  "basis": "stipulative",
+  "note": "A type-safe interpretation of the sourced 'causatum ab alio'. The translation from natural-language causation to CausesIn at esse is explicit and open to critique; no general PSR or conservation bridge is built into the definition.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.HasExternalEsseCause"
+}

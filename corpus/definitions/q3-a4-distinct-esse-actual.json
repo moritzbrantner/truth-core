@@ -1,0 +1,8 @@
+{
+  "id": "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+  "term": "actually existing with esse distinct from essence (q.3 a.4 model)",
+  "definition": "DistinctEsseAt p x is InAct x p.esse together with p.esseOf x ≠ p.essenceOf x, both functions taking values in the same Principle sort. This is a typed identity test, not a full theory of individuation or of the act of being.",
+  "basis": "stipulative",
+  "note": "Reuses the existing Aquinas-oriented InAct, esse, essenceOf and esseOf interface for a source-scope test, with actual existence included explicitly to avoid conditional claims about merely possible candidate beings.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.DistinctEsseAt"
+}
