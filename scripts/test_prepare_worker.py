@@ -70,9 +70,10 @@ class PreparationTests(unittest.TestCase):
             (path / "stale").touch()
         calls = []
 
-        def bun(root, *command, capture=False):
+        def bun(root, *command, capture=False, env=None):
             if command == ("bun", "--version"):
                 return "1.4.3\n"
+            self.assertEqual(env["NODE_ENV"], "development")
             calls.append(command)
             for path in installs:
                 self.assertFalse((path / "stale").exists())

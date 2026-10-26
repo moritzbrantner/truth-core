@@ -15,12 +15,12 @@ import time
 from datetime import datetime, timezone
 
 
-def run(root, *command, capture=False):
+def run(root, *command, capture=False, env=None):
     print(f"+ (cd {shlex.quote(str(root))} && {shlex.join(command)})", flush=True)
     started = time.monotonic()
     try:
         return subprocess.run(command, cwd=root, check=True, text=True,
-                              stdout=subprocess.PIPE if capture else None,
+                              stdout=subprocess.PIPE if capture else None, env=env,
                               timeout=3600).stdout
     finally:
         print(f"elapsed={time.monotonic() - started:.3f}s", flush=True)
@@ -88,6 +88,9 @@ def install_digest(paths):
 def reconcile(root, name, inputs, output, action):
     # Two dependency readiness entries only; this file records no gate/proof success.
     path = root / ".git/truth-core-preparation.json"
+    temporary = path.with_suffix(".tmp")
+    if path.is_symlink() or temporary.is_symlink():
+        raise ValueError("unsafe preparation receipt path")
     state = json.loads(path.read_text()) if path.exists() else {}
     before = {"inputs": inputs, "output": output()}
     if before["output"] is not None and state.get(name) == before:
@@ -98,7 +101,6 @@ def reconcile(root, name, inputs, output, action):
     if verified is None:
         raise ValueError(f"{name} preparation did not produce required artifacts")
     state[name] = {"inputs": inputs, "output": verified}
-    temporary = path.with_suffix(".tmp")
     temporary.write_text(json.dumps(state, sort_keys=True) + "\n")
     temporary.replace(path)
     print(f"changed: {name} reconciled", flush=True)
@@ -116,7 +118,8 @@ def prepare_bun(root):
     inputs += run(root, "bun", "--version", capture=True).strip()
     # Explicit config bypasses a user's isolated-linker setting without changing it.
     reconcile(root, "bun", inputs, lambda: install_digest(paths) if paths[0].is_dir() else None,
-              lambda: run(root, "bun", "--config=/dev/null", "install", "--linker=hoisted", "--frozen-lockfile"))
+              lambda: run(root, "bun", "--config=/dev/null", "install", "--linker=hoisted", "--frozen-lockfile",
+                          env={**os.environ, "NODE_ENV": "development"}))
 
 
 def check_packages(root, acquiring=False):
