@@ -8,6 +8,7 @@ import TruthCore.Modal.DResearch.Witnesses
 import TruthCore.Modal.Examples
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
+import TruthCore.Modal.NecessaryContingentActivity
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
