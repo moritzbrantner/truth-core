@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.beingNotAGenus",
+    "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.needsEveryGenusHasADifferentia",
+    "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.needsDifferentiaeAreBeings",
+    "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.needsGenusNotSaidOfOwnDifferentiae"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
+  "argument_id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.godInNoGenus",
+  "comparator_config": "results/AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS/comparator.json",
+  "status": "solution-present",
+  "description": "Composes ARIST-MET-998B-BEING-NOT-A-GENUS by calling its theorem, then a reductio on the genus God would be in. The conditional premise 'God's genus would be being' carries Aquinas' reasons (esse = essence, genus signifies the essence) unformalized; it is an open, sourced premise."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "input_statement_ids": [
+    "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
+    "STMT-DIFFERENTIAE-ARE-BEINGS",
+    "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE"
+  ],
+  "output_statement_id": "STMT-BEING-NOT-A-GENUS",
+  "rule": "reductio",
+  "meaning": "Suppose being is a genus. It has a differentia d; being is said of d, since every differentia is a being; but a genus is not said of its own differentia. Contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-998B-BEING-NOT-A-GENUS-A",
+  "statement_id": "STMT-BEING-NOT-A-GENUS",
+  "source_id": "ARIST-MET",
+  "locator": "III.3, 998b22-27",
+  "interpretation": "Read as the conclusion Aristotle draws in 998b22 and restates in 998b26-27: neither being nor one can be a single genus of beings, since otherwise no differentia would be either a being or one. 'Genus' is the strict sense (said of species, divided by differentiae). The passage is one side of an aporia in Book III (whether the highest genera are principles), so the claim attributes the argument as stated here, not as a settled doctrine of the treatise; Aquinas (ST I q.3 a.5) takes it as Aristotle's demonstration. Only being is formalized; the same argument for one is the same theorem at another term.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-BEING-AS-ENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

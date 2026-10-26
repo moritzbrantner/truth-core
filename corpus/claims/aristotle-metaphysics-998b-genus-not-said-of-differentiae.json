@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
+  "statement_id": "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE",
+  "source_id": "ARIST-MET",
+  "locator": "III.3, 998b24-26",
+  "interpretation": "Read 'it is impossible for ... the genus without its species to be predicated of its proper differentiae' as: a genus is not said of its own differentia taken by itself, as belonging to what the differentia is. The parallel clause about the species is not formalized. 'Predicated' is read as essential predication (DEF-SAID-OF-ESSENTIALLY), not as any true attribution.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA",
+    "DEF-SAID-OF-ESSENTIALLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+  ]
+}

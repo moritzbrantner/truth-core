@@ -1,0 +1,15 @@
+{
+  "id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA",
+  "inference_ids": [
+    "INF-QUARTA-VIA-STRICT-GENUS-READING-FAILS"
+  ],
+  "meaning": "Countermodel, from no premises: if 'in aliquo genere' in ST I q.2 a.3 meant a strict genus, the quarta via would not reach a cause of being, because Aristotle's premises make being no strict genus, so the strict principle never applies at being. So the via needs the broad sense.",
+  "definition_ids": [
+    "DEF-GENUS-STRICT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

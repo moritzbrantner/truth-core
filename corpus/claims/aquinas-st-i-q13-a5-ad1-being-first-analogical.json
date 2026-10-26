@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-Q13-A5-AD1-BEING-FIRST-ANALOGICAL-A",
+  "statement_id": "STMT-BEING-FIRST-ANALOGICAL-PREDICATE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.13 a.5 ad 1: sicut in praedicationibus omnia univoca reducuntur ad unum primum, non univocum, sed analogicum, quod est ens",
+  "interpretation": "Read as stated, in the simile of ad 1: all univocal predicates reduce to one first predicate that is analogical, not univocal, namely being. Not formalized. Together with q.3 a.5 it gives Aquinas' grounds for not treating being as a genus with one homogeneous scale.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.godInNoGenus",
+    "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.needsGenusOfGodWouldBeBeing",
+    "TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.needsInGenusOnlyUnderAGenus"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

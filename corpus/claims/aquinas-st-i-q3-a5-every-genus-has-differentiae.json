@@ -1,0 +1,12 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-EVERY-GENUS-HAS-DIFFERENTIAE-A",
+  "statement_id": "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., second proof: omne enim genus habet differentias quae sunt extra essentiam generis",
+  "interpretation": "Read only the first half: every genus has differentiae, weakened to at least one. The second half (they are outside the essence of the genus) is the claim AQUINAS-ST-I-Q3-A5-DIFFERENTIAE-OUTSIDE-GENUS-A.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA"
+  ]
+}

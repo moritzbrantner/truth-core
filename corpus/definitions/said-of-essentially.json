@@ -1,0 +1,12 @@
+{
+  "id": "DEF-SAID-OF-ESSENTIALLY",
+  "term": "said of (essential predication)",
+  "definition": "`SaidOf t s`: t is predicated of s as belonging to what s is (s falls within the ratio of t; s is not outside t). Used in both premises of the being-not-a-genus argument: the genus is not said of its differentia in this way, and being is said of every differentia in this way.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
+    "AQUINAS-ST-I-Q3-A5-DIFFERENTIAE-OUTSIDE-GENUS-A",
+    "AQUINAS-ST-I-Q3-A5-NO-DIFFERENTIA-OUTSIDE-BEING-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.GenusNotSaidOfOwnDifferentiaeReading"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-BEING-NOT-A-GENUS-ATTACKS-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-BEING-NOT-A-GENUS",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "note": "Classical objection: the quarta via applies a principle about what is maximal 'in a genus' to being, but being is not a genus. It succeeds only on the strict reading of 'genus' (QUARTA-VIA-STRICT-GENUS-READING-FAILS); on the broad reading used by the corpus it does not refute the premise (QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS). See DISAMB-GENUS."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GOD-IN-NO-GENUS",
+  "paraphrase": "God is not properly in any genus (not as a species contained under a genus).",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodIsInNoGenusReading",
+  "definition_ids": [
+    "DEF-IN-GENUS-PROPERLY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

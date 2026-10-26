@@ -1,0 +1,11 @@
+{
+  "id": "DEF-DIFFERENTIA",
+  "term": "differentia (διαφορά)",
+  "definition": "`DifferentiaOf d g`: d is one of the differentiae that divide the genus g into its species (as rational divides animal). Primitive; nothing makes it a function or the differentiae disjoint.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-998B-DIFFERENTIAE-ARE-BEINGS-A",
+    "AQUINAS-ST-I-Q3-A5-EVERY-GENUS-HAS-DIFFERENTIAE-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.EveryGenusHasADifferentiaReading"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-NO-DIFFERENTIA-OUTSIDE-BEING-A",
+  "statement_id": "STMT-DIFFERENTIAE-ARE-BEINGS",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., second proof: nulla autem differentia posset inveniri, quae esset extra ens; quia non ens non potest esse differentia",
+  "interpretation": "Read as: no differentia falls outside being, i.e. being is said of every differentia as belonging to what it is, because non-being cannot be a differentia. 'Outside' (extra) is taken in the same sense as in 'outside the essence of the genus' in the same sentence, which is what lets the two premises meet (DISAMB-PREDICATION-OF-DIFFERENTIA).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SAID-OF-ESSENTIALLY",
+    "DEF-DIFFERENTIA",
+    "DEF-BEING-AS-ENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+  ]
+}

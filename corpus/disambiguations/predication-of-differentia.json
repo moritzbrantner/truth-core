@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PREDICATION-OF-DIFFERENTIA",
+  "term": "said of / predicated of (a differentia)",
+  "sense_definition_ids": [
+    "DEF-SAID-OF-ESSENTIALLY",
+    "DEF-SAID-OF-TRULY"
+  ],
+  "resolution": "Both premises of the being-not-a-genus argument (STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE and STMT-DIFFERENTIAE-ARE-BEINGS) use the essential sense, as one Lean relation `SaidOf`. Aquinas' wording makes the match explicit: the differentiae are outside the essence of the genus, and no differentia is outside being. If the second premise held only in the weaker sense (being truly but not essentially said of a differentia), the argument would equivocate: from 'being is truly said of d' and 'the genus is not essentially said of d' no contradiction follows. The formal result therefore establishes being-not-a-genus only for the essential sense; that being belongs to what every differentia is remains a premise (Aquinas: non ens non potest esse differentia)."
+}
