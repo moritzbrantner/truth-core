@@ -66,8 +66,9 @@ def scenario (unity soul : Prop) : Scenario where
   MemberAt := fun p c =>
     match p, c with
     | .early, .original => True
+    | .early, .replacement => False
+    | .late, .original => False
     | .late, .replacement => True
-    | _, _ => False
   Alive := fun _ => True
   Integrated := fun _ => True
   SelfMaintaining := fun _ => True
@@ -76,12 +77,14 @@ def scenario (unity soul : Prop) : Scenario where
   SoulAsForm := fun _ => soul
 
 theorem scenario_has_turnover (unity soul : Prop) :
-    TurnoverProfile (scenario unity soul) := by
-  simp [TurnoverProfile, scenario]
+    TurnoverProfile (scenario unity soul) :=
+  ⟨trivial, id, trivial, id, trivial, trivial, trivial, trivial, trivial, trivial,
+    Or.inl ⟨rfl, rfl⟩⟩
 
 theorem scenario_same_profile (u₁ s₁ u₂ s₂ : Prop) :
-    SameProfile (scenario u₁ s₁) (scenario u₂ s₂) := by
-  simp [SameProfile, scenario]
+    SameProfile (scenario u₁ s₁) (scenario u₂ s₂) :=
+  ⟨fun _ _ => Iff.rfl, fun _ => Iff.rfl, fun _ => Iff.rfl, fun _ => Iff.rfl,
+    fun _ _ => Iff.rfl⟩
 
 /-- MEREO-005: the same rich but finite material/behavioral history has
 1. a soul-and-substance reading and a process-only reading; and
