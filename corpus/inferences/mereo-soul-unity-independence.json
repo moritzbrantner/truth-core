@@ -1,0 +1,9 @@
+{
+  "id": "INF-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "rule": "explicit finite model construction",
+  "meaning": "Instantiate the same complete material and process relations with three distinct assignments to two primitive metaphysical predicates, then exhibit both observational equivalences and the divergent unity/soul assignments.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
