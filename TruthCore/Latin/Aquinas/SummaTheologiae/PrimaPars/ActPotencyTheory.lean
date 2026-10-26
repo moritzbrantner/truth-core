@@ -101,9 +101,13 @@ the other seven, even together with the observation that something is moved
 and the well-foundedness of the per se series. For each premise there is a
 model of all the others in which it fails.
 
-So no target premise can be *derived* from the rest inside the case's present
-vocabulary: a derivation needs new vocabulary, and the axioms that constrain
-that vocabulary are new open premises. -/
+This is independence from the *tested* premises only: no target premise is
+derivable from the other seven (with sensible motion and the well-founded
+series). It does not show that a derivation needs new vocabulary. Further
+premises over the same predicates could suffice; for example
+`InPotency x r → MovedIn x r` and `MovesIn y x r → PriorSimply y x`, with
+`HasMover` and `MoverInAct`, entail `ActPrior`. Any such added premise is
+itself a new open premise. -/
 def ActPotencyPremisesIndependent : Prop :=
   (¬ ∀ M : ActPotencyModel, M.Sense → M.Regress → M.ActualityAsBeing → M.ActPrior →
       M.GoodnessAsAct → M.MoverInAct → M.HasMover → M.MovedInPotency →
