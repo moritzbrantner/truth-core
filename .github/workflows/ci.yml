@@ -28,8 +28,10 @@ jobs:
         with:
           # A PR checks out its merge commit; HEAD^1 is the base the source verify compares to.
           fetch-depth: 2
-      - name: Check TruthCore.lean imports every module, sorted
+      - name: Check the per-area import aggregators import every module, sorted
         run: scripts/root-imports.sh
+      - name: Check generated docs tables and lists are up to date
+        run: python3 scripts/docs_index.py
       # lean-toolchain pins the exact Lean version that the Mathlib release in
       # lake-manifest.json requires. `use-mathlib-cache` runs `lake exe cache get`
       # before `lake build`, so Mathlib is downloaded prebuilt rather than compiled;
