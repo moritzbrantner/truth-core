@@ -2,12 +2,12 @@
   "snapshot": {
     "kind": "web_snapshot",
     "source_id": "AFP-GOEDELGOD",
-    "source_url": "https://www.isa-afp.org/browser_info/current/AFP/GoedelGod/GoedelGod.html",
-    "retrieved_at": "2026-10-25T07:41:56Z",
-    "sha256": "sha256:b09c5f83145c457c09b277d91f90c50e8a45c722f552402b019a0612c6e32c56",
+    "source_url": "https://raw.githubusercontent.com/isabelle-prover/mirror-afp-2025-2/b26968905efa0067a72393ef50164ad63786a7a1/thys/GoedelGod/GoedelGod.thy",
+    "retrieved_at": "2026-10-26T07:03:46Z",
+    "sha256": "sha256:6a9e3d58c51754c9ccb86d94762a076c133df36aca4aa2d5b046d76b4f4d011a",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "BSD License (AFP entry page, checked 2026-10-25). Only hashes, locators and a short incipit are committed."
+    "license": "BSD License (AFP entry page, checked 2026-10-25). Immutable Git-mirror theory text matches the source SHA-256 independently recorded from the 2026-02-06 AFP release archive; no source text is committed."
   },
   "passages": [
     {
@@ -16,11 +16,9 @@
       "claim_locator_prefixes": [
         "GoedelGod.thy,"
       ],
-      "html_selector": {
-        "heading": "Theory GoedelGod"
-      },
-      "text_sha256": "sha256:281644baf6f75d94ebf263bc5abdb8a288b86731de5cba7ddc7b21633962f6e3",
-      "incipit": "Theory GoedelGod\n(*<*) theory GoedelGod imports Main begin (*>*) section"
+      "raw_text": true,
+      "text_sha256": "sha256:0d3053db014c1d7743a18a91c17c1ab1571409ff78efcd9c0dc16c9fc50a2238",
+      "incipit": "(*<*) \ntheory GoedelGod\nimports Main \n\nbegin\n(*>*)\n\nsection"
     }
   ]
 }

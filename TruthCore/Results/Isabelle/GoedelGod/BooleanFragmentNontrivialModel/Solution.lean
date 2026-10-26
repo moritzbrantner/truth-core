@@ -22,22 +22,23 @@ theorem checks : BooleanFragmentNontrivialModel := by
     intro hInvariant
     have hFalse : atom true true = true :=
       (hInvariant true false true).mp (by decide)
-    simp [atom] at hFalse
+    change false = true at hFalse
+    cases hFalse
   have hNoWorldName :
       ¬ BooleanGeneratedProperty atom (fun _ w => w = false) := by
     rintro ⟨readout, hReadout⟩
     have hAtFalse : readout true = true := by
-      simpa [atom] using (hReadout false false).mp rfl
+      exact (hReadout false false).mp rfl
     have hImpossible : true = false :=
-      (hReadout false true).mpr (by simpa [atom] using hAtFalse)
+      (hReadout false true).mpr hAtFalse
     cases hImpossible
   have hNoIndividualName :
       ¬ BooleanGeneratedProperty atom (fun x _ => x = false) := by
     rintro ⟨readout, hReadout⟩
     have hAtFalse : readout true = true := by
-      simpa [atom] using (hReadout false false).mp rfl
+      exact (hReadout false false).mp rfl
     have hImpossible : true = false :=
-      (hReadout true false).mpr (by simpa [atom] using hAtFalse)
+      (hReadout true false).mpr hAtFalse
     cases hImpossible
   have hStable : ∀ w next, atom false w = atom false next := by
     intro w next
@@ -55,16 +56,23 @@ theorem checks : BooleanFragmentNontrivialModel := by
     · decide
     · intro Ψ _ hΨ next _ y hAt
       cases next <;> cases y
-      · simp [Φ, atom] at hAt
-      · simp [Φ, atom] at hAt
-      · simp [Φ, atom] at hAt
+      · change true = false at hAt
+        cases hAt
+      · change true = false at hAt
+        cases hAt
+      · change true = false at hAt
+        cases hAt
       · exact hΨ
   have hNo : ¬ FilteredNecessaryExistence F (BooleanGeneratedProperty atom) true true := by
     intro hNecessary
     have hExample : ∃ y : Bool, Φ y false :=
       hNecessary Φ hΦAdmissible hEssence false trivial
     obtain ⟨y, hy⟩ := hExample
-    cases y <;> simp [Φ, atom] at hy
+    cases y
+    · change true = false at hy
+      cases hy
+    · change true = false at hy
+      cases hy
   have hNotScott : ¬ NecessaryExistence F false false := by
     intro hNecessary
     have hIsolated := (NecessaryExistenceWorldIsolation.checks F false false).mp hNecessary

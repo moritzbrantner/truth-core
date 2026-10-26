@@ -301,6 +301,17 @@ class WebSnapshotTest(unittest.TestCase):
         text = se.materialize_web_snapshot(passage, use_cache=False, fetch=FakeWeb({LIVE_URL: HTML}))
         self.assertTrue(text.startswith("Chapter 13"))
 
+    def test_materializes_pinned_raw_theory_without_html_interpretation(self) -> None:
+        theory = b'theory GoedelGod\n  imports Main\n  notation "x < y"\nend\n'
+        passage = web_passage({"heading": "Article 5. Whether the fixture works?"})
+        passage.pop("html_selector")
+        passage.update(raw_text=True, sha256=se.sha256_bytes(theory))
+        passage["text_sha256"] = se.sha256_text(theory.decode("utf-8").strip())
+        self.manifest(passage)
+        text = se.materialize_web_snapshot(passage, use_cache=False, fetch=FakeWeb({LIVE_URL: theory}))
+        self.assertEqual(text, theory.decode("utf-8").strip())
+        self.assertIn("< y", text)
+
     def test_rejects_byte_drift_without_fallback(self) -> None:
         passage = web_passage({"from": {"anchor": "13"}})
         drifted = HTML.replace(b"second", b"edited")
@@ -371,10 +382,18 @@ class WebSnapshotTest(unittest.TestCase):
             ({"retrieved_at": "2026-10-24"}, "retrieved_at"),
             ({"encoding": "no-such-codec"}, "unknown encoding"),
             ({"html_selector": {"heading": "A", "element_id": "b"}}, "html_selector"),
+            ({"raw_text": True}, "exactly one"),
         ]
         for extra, message in bad:
             with self.subTest(message=message), self.assertRaisesRegex(se.SourceEvidenceError, message):
                 self.manifest(dict(web_passage(selector), **extra))
+
+    def test_raw_text_format_must_be_true(self) -> None:
+        passage = web_passage({"heading": "Article 5. Whether the fixture works?"})
+        passage.pop("html_selector")
+        passage["raw_text"] = False
+        with self.assertRaisesRegex(se.SourceEvidenceError, "raw_text must be true"):
+            self.manifest(passage)
 
 
 class TranslationBasisTest(unittest.TestCase):
