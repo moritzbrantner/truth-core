@@ -24,7 +24,7 @@ private theorem groundedAfterSteps (steps : Nat) :
           (start + 1) + steps = start + (1 + steps) := Nat.add_assoc start 1 steps
           _ = start + (steps + 1) :=
             congrArg (fun k : Nat => start + k) (Nat.add_comm 1 steps)
-      simpa only [hEndpoint] using hGround
+      exact hEndpoint ▸ hGround
 
 /-- Pointwise stabilization of *activity* from successively remote sources
 does not imply stabilization of any intrinsic source. The final all-on
@@ -41,7 +41,7 @@ theorem finiteGroundingLimitNotClosed :
         node + (depth - node) = (depth - node) + node := Nat.add_comm _ _
         _ = depth := Nat.sub_add_cancel hNode
     have hGround := groundedAfterSteps (depth - node) node
-    simpa only [hEndpoint] using hGround
+    exact hEndpoint ▸ hGround
   · intro node
     refine ⟨node + 1, ?_⟩
     intro depth hDepth hSource

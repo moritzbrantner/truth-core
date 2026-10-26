@@ -8,8 +8,16 @@ Comparator must check the same library constants in challenge and solution. -/
 private theorem add_le_add_left_explicit {a b : Nat} (h : a ≤ b) (k : Nat) :
     k + a ≤ k + b := by
   induction k with
-  | zero => simpa only [Nat.zero_add] using h
-  | succ k ih => simpa only [Nat.succ_add] using Nat.succ_le_succ ih
+  | zero =>
+    calc
+      0 + a = a := Nat.zero_add a
+      _ ≤ b := h
+      _ = 0 + b := (Nat.zero_add b).symm
+  | succ k ih =>
+    calc
+      (k + 1) + a = (k + a) + 1 := Nat.succ_add k a
+      _ ≤ (k + b) + 1 := Nat.succ_le_succ ih
+      _ = (k + 1) + b := (Nat.succ_add k b).symm
 
 /-- All fixed ball IDs eventually leave, yet arbitrary finite stages
 contain as many distinct ball IDs as desired. No stage tail is empty. -/
@@ -26,7 +34,7 @@ theorem supertaskUrnPointwise : UrnPointwiseAbsenceNotUniformEmptiness := by
     · exact Nat.lt_of_le_of_lt
         (Nat.le_add_right count offset) (Nat.lt_succ_self (count + offset))
     · calc
-        count + offset + 1 = count + (offset + 1) := by simp [Nat.add_assoc]
+        count + offset + 1 = count + (offset + 1) := Nat.add_assoc count offset 1
         _ ≤ count + count := add_le_add_left_explicit (Nat.succ_le_of_lt hOffset) count
   · rintro ⟨cutoff, hEmpty⟩
     let stage := cutoff + 1
