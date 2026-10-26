@@ -137,6 +137,11 @@ class MediaSpanTest(unittest.TestCase):
         with self.assertRaisesRegex(se.SourceEvidenceError, "media span mismatch"):
             se.resolve_media_span(pinned(), self.write_export(export))
 
+    def test_rejects_changed_segment_count(self) -> None:
+        passage = dict(pinned(), segment_count=2)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "media span mismatch"):
+            se.resolve_media_span(passage, self.write_export(EXPORT))
+
     def test_rejects_second_matching_stream(self) -> None:
         export = copy.deepcopy(EXPORT)
         export["sources"].append(
@@ -169,6 +174,100 @@ class MediaSpanTest(unittest.TestCase):
 
     def test_manifest_accepts_pinned_span(self) -> None:
         se.validate_media_span_manifest(se.ROOT / "corpus" / "passages" / "fixture.json", pinned())
+
+
+class MediaProducerRevisionTest(unittest.TestCase):
+    """Exercise the public consumers with real export bytes and span hashes."""
+
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        root = Path(directory.name)
+        for name, value in (
+            ("ROOT", root),
+            ("CACHE", root / "materialized"),
+            ("MEDIA_CACHE", root / "media"),
+        ):
+            patcher = mock.patch.object(se, name, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+        for name, value in (
+            ("passage_index", {PASSAGE["id"]: (root / "fixture.json", pinned())}),
+            ("validate_bindings", None),
+        ):
+            patcher = mock.patch.object(se, name, return_value=value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    write_export = MediaSpanTest.write_export
+
+    def consume(self, operation: str, acquisition: str, export: dict) -> tuple[int, str]:
+        se.media_export_cache_path().unlink(missing_ok=True)
+        (se.ROOT / "witness.txt").unlink(missing_ok=True)
+        path = self.write_export(export)
+        explicit = path if acquisition == "explicit" else None
+        if acquisition == "cached":
+            cached = se.media_export_cache_path()
+            cached.parent.mkdir(parents=True, exist_ok=True)
+            cached.write_bytes(path.read_bytes())
+        with (
+            mock.patch.object(se, "regenerate_media_export", return_value=path) as regenerate,
+            contextlib.redirect_stdout(io.StringIO()) as stdout,
+        ):
+            try:
+                if operation == "materialize":
+                    result = se.materialize(PASSAGE["id"], "witness.txt", str(explicit) if explicit else None)
+                else:
+                    result = se.verify_all(export_path=explicit)
+            finally:
+                if acquisition == "regenerated":
+                    regenerate.assert_called_once()
+                else:
+                    regenerate.assert_not_called()
+        return result, stdout.getvalue()
+
+    def test_rejects_unpinned_producer_before_materializing_or_verifying(self) -> None:
+        producers = [None, {}, {"revision": ""}, {"revision": None}, {"revision": "git:other"}, "invalid"]
+        for operation in ("materialize", "verify"):
+            acquisitions = ("explicit", "cached", "regenerated") if operation == "materialize" else ("explicit", "cached")
+            for acquisition in acquisitions:
+                for producer in producers:
+                    with self.subTest(operation=operation, acquisition=acquisition, producer=producer):
+                        export = copy.deepcopy(EXPORT)
+                        if producer is None:
+                            del export["producer"]
+                        else:
+                            export["producer"] = producer
+                        with self.assertRaisesRegex(se.SourceEvidenceError, "producer revision mismatch"):
+                            self.consume(operation, acquisition, export)
+                        self.assertFalse((se.ROOT / "witness.txt").exists())
+
+    def test_accepts_exact_producer_in_each_acquisition_path(self) -> None:
+        for operation in ("materialize", "verify"):
+            acquisitions = ("explicit", "cached", "regenerated") if operation == "materialize" else ("explicit", "cached")
+            for acquisition in acquisitions:
+                with self.subTest(operation=operation, acquisition=acquisition):
+                    se.media_export_cache_path().unlink(missing_ok=True)
+                    result, output = self.consume(operation, acquisition, EXPORT)
+                    self.assertEqual(result, 0)
+                    if operation == "materialize":
+                        self.assertIn("the synthetic claim itself", (se.ROOT / "witness.txt").read_text())
+                    else:
+                        self.assertIn("verified media span FIXTURE-SPAN", output)
+
+    def test_no_export_still_skips_verification_and_cannot_materialize(self) -> None:
+        with (
+            mock.patch.object(se, "regenerate_media_export", return_value=None) as regenerate,
+            contextlib.redirect_stdout(io.StringIO()) as stdout,
+        ):
+            self.assertEqual(se.verify_all(), 0)
+            regenerate.assert_not_called()
+            self.assertIn("FIXTURE-SPAN", stdout.getvalue())
+            self.assertNotIn("verified media span FIXTURE-SPAN", stdout.getvalue())
+            with self.assertRaisesRegex(se.SourceEvidenceError, "no source-span export"):
+                se.materialize(PASSAGE["id"], "witness.txt")
+            regenerate.assert_called_once()
+        self.assertFalse((se.ROOT / "witness.txt").exists())
 
 
 
