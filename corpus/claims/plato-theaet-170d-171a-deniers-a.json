@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-THEAET-170D-171A-DENIERS-A",
+  "statement_id": "STMT-SOMEONE-DENIES-MEASURE",
+  "source_id": "PLATO-THEAET",
+  "locator": "170d-171a",
+  "interpretation": "Whenever someone declares a judgement, countless others oppose it, thinking that he judges falsely (170d); applied at 171a to Protagoras's own thesis, which the many do not share and whose opponents \"think that he is wrong\". Read as: someone opines the denial of the measure thesis. Not read as a census claim that most people deny it, though 171a also says that.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE"
+  ]
+}

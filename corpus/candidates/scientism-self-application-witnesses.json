@@ -1,0 +1,9 @@
+{
+  "id": "SCIENTISM-SELF-APPLICATION-WITNESSES",
+  "source_id": "AYER-LTL",
+  "locator": "to be fixed against bibliographic witnesses (#378)",
+  "priority": 340,
+  "goal": "Waiting for a witness. Source the unattributed scientism statements of #397: a defender of strong scientism for STMT-STRONG-SCIENTISM and its scope (candidates: Rosenberg, The Atheist's Guide to Reality, 2011; Ladyman and Ross, Every Thing Must Go, 2007, for a restricted form), a critic for STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED (Haack, Defending Science, 2003; Moreland), and a defender of weak scientism with its demarcation criterion for STMT-WEAK-SCIENTISM-RESTRICTED. Once sourced, decide whether STMT-SCIENTISM-IN-OWN-SCOPE is the defender's own commitment, which with a sourced second premise would license a refutes relation from SCIENTISM-STRONG-DILEMMA only against scientism held as established. Also record whether the weak demarcation criterion is independently motivated or ad hoc, as a claim or objection.",
+  "reason": "Modern defenders and critics are in copyright; bibliographic citation (#378) is pending. Reasoning proceeds with the statements as explicit open premises (invariant 18). source_id points to the nearest existing record (Ayer's verificationism, #363) only as a placeholder bibliography anchor.",
+  "status": "candidate"
+}

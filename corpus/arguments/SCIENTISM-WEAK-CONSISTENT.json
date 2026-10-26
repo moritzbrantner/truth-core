@@ -1,0 +1,17 @@
+{
+  "id": "SCIENTISM-WEAK-CONSISTENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-WEAK-SCIENTISM-CONSISTENT",
+  "inference_ids": [
+    "INF-SCIENTISM-WEAK-CONSISTENT"
+  ],
+  "meaning": "Model: weak scientism with its formulation outside its domain, established non-empirically, and an empirically established claim in its domain. Weak scientism is a surviving rival whose cost is the concession of non-empirical knowledge.",
+  "definition_ids": [
+    "DEF-WEAK-SCIENTISM-RESTRICTED",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

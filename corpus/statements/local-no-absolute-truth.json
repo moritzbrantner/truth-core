@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LOCAL-NO-ABSOLUTE-TRUTH",
+  "paraphrase": "Local relativism about absolute truth: within a demarcated domain no content is absolutely true. The weak counterpart of STMT-NO-ABSOLUTE-TRUTH-SCOPED with every content in its strong scope.",
+  "lean_declaration": "TruthCore.Logic.Relativism.LocalNoAbsoluteTruth",
+  "definition_ids": [
+    "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

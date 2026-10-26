@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELF-APPLICATION-NORM",
+  "term": "norm on claims (scope, standard, acceptable, counterexample)",
+  "definition": "`Norm` has a scope and a standard on claims. Relative to an acceptance predicate (established, absolutely true, opined, …) it holds when every acceptable claim in scope meets the standard; a counterexample is an acceptable claim in scope that fails it. Self-application means that the norm's own formulation is in its scope.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.Norm.Holds",
+  "note": "Analytical schema for retorsion arguments (#397), meant to be reused by Clifford (#376), verificationism (#363) and Hume's scopes. It fixes no particular norm, scope or acceptance predicate; each instance supplies and sources its own."
+}

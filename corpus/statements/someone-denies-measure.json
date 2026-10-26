@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SOMEONE-DENIES-MEASURE",
+  "paraphrase": "Someone opines the denial of the measure thesis: the many who think that Protagoras is wrong.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.SomeoneDeniesThesis",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE"
+  ]
+}

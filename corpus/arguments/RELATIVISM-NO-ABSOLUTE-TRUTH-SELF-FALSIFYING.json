@@ -1,0 +1,22 @@
+{
+  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "premise_statement_ids": [
+    "STMT-NO-ABSOLUTE-TRUTH-THESIS-IN-OWN-SCOPE",
+    "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES"
+  ],
+  "conclusion_statement_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
+  "inference_ids": [
+    "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+  ],
+  "meaning": "Horn 1 for \"there is no absolute truth\", by the self-application dilemma (imported from LOGIC-SELF-APPLICATION-DILEMMA): if the thesis is in its own scope and disquotes, it is not absolutely true, so asserting it absolutely is incoherent. Not a refutation of the thesis held as true for its speaker (STMT-NO-ABSOLUTE-TRUTH-MODELS).",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-DISQUOTATION",
+    "DEF-ASSERTION-COMMITMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

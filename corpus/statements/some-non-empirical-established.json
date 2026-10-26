@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
+  "paraphrase": "Some established claim is not established by empirical evidence.",
+  "lean_declaration": "TruthCore.Logic.Scientism.SomeNonEmpiricalEstablished",
+  "definition_ids": [
+    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+  ]
+}

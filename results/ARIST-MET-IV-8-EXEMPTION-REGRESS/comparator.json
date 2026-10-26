@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.exemptionRegress"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

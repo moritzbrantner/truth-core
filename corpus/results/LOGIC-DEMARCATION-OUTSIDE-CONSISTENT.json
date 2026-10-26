@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "argument_id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solution",
+  "theorem": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.demarcationOutsideConsistent",
+  "comparator_config": "results/LOGIC-DEMARCATION-OUTSIDE-CONSISTENT/comparator.json",
+  "status": "solution-present"
+}

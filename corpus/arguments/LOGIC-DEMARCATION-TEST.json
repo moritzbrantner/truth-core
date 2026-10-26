@@ -1,0 +1,13 @@
+{
+  "id": "LOGIC-DEMARCATION-TEST",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DEMARCATION-TEST",
+  "inference_ids": [
+    "INF-LOGIC-DEMARCATION-TEST"
+  ],
+  "meaning": "Second-order self-application test for a weak thesis that restricts a strong norm to a demarcated domain, premise-free: inside its own domain the strong dilemma returns; outside it, an acceptable weak thesis is a concession that defeats the strong norm.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-DEMARCATION-RESTRICTION"
+  ]
+}

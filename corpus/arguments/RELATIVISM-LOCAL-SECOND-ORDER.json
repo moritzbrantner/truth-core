@@ -1,0 +1,19 @@
+{
+  "id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+  "inference_ids": [
+    "INF-RELATIVISM-LOCAL-SECOND-ORDER"
+  ],
+  "meaning": "The demarcation test (imported from LOGIC-DEMARCATION-TEST) applied to local relativism: a local thesis inside its own domain falls back to the relative horn; outside, if absolutely true, it is an absolute truth and defeats global relativism.",
+  "definition_ids": [
+    "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

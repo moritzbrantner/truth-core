@@ -1,0 +1,12 @@
+{
+  "id": "LOGIC-SELF-APPLICATION-DILEMMA",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SELF-APPLICATION-DILEMMA",
+  "inference_ids": [
+    "INF-LOGIC-SELF-APPLICATION-DILEMMA"
+  ],
+  "meaning": "The reusable retorsion schema, premise-free: a claim in a norm's scope that fails its standard is unacceptable if the norm holds and a counterexample if it is acceptable.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM"
+  ]
+}

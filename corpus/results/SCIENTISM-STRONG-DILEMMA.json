@@ -1,0 +1,9 @@
+{
+  "id": "SCIENTISM-STRONG-DILEMMA",
+  "argument_id": "SCIENTISM-STRONG-DILEMMA",
+  "challenge_module": "TruthCore.Results.Logic.Scientism.StrongDilemma.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Scientism.StrongDilemma.Solution",
+  "theorem": "TruthCore.Results.Logic.Scientism.StrongDilemma.strongScientismDilemma",
+  "comparator_config": "results/SCIENTISM-STRONG-DILEMMA/comparator.json",
+  "status": "solution-present"
+}

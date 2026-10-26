@@ -1,0 +1,12 @@
+{
+  "id": "INF-SCIENTISM-WEAK-DEMARCATION",
+  "input_statement_ids": [
+    "STMT-WEAK-SCIENTISM-IN-STRONG-SCOPE",
+    "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED"
+  ],
+  "output_statement_id": "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
+  "rule": "constructive-proof",
+  "meaning": "Second-order test for weak (restricted) scientism, by the demarcation test: inside its own domain the weak thesis is not established if it holds; outside its domain, if established, it concedes a non-empirically established claim and strong scientism fails.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
