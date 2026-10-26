@@ -1,0 +1,11 @@
+{
+  "id": "INF-PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "input_statement_ids": [
+    "STMT-RESTRICTED-MEASURE-CONCESSION"
+  ],
+  "output_statement_id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "What the restricted measure doctrine concedes (Theaetetus 171e-172a) is a counterexample to the unrestricted doctrine, read as a norm on (agent, content) pairs with seeming as acceptance and truth-for-the-agent as standard. The retreat is a real retreat: the restricted and the unrestricted doctrine cannot both be held with the concession.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PLATO-THEAET",
+  "kind": "primary_text",
+  "author": "Plato",
+  "work": "Theaetetus",
+  "citation_system": "Stephanus",
+  "work_urn": "urn:cts:greekLit:tlg0059.tlg006",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0059.tlg006.perseus-grc2",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0059.tlg006",
+  "notes": "Greek Burnet edition (Platonis Opera I, 1905) used as the pinned primary witness. Stephanus locators are the human citation."
+}

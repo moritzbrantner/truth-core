@@ -1,0 +1,12 @@
+{
+  "id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+  "inference_ids": [
+    "INF-LOGIC-SELF-APPLICATION-SCOPE-NEEDED"
+  ],
+  "meaning": "Countermodel: with the claim outside the norm's scope, the norm holds and the claim is acceptable while failing the standard. The scope premise cannot be omitted.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM"
+  ]
+}

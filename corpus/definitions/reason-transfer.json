@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REASON-TRANSFER",
+  "term": "reason for another agent (in relativist terms)",
+  "definition": "A holder's relative truth gives another agent a reason, in the relativist's own currency, only if it settles truth for that agent. `RelativeHornOutcome` records the failure: the thesis is true for its holder and not true for some denier.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RelativeHornOutcome",
+  "note": "A narrow sense for horn 2 (#397). Other senses of reason (testimony, evidence about the speaker) are not modeled; a relativist may offer reasons that are not truth-for transfers."
+}

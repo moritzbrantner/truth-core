@@ -1,0 +1,9 @@
+{
+  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "argument_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "challenge_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution",
+  "theorem": "TruthCore.Results.Logic.Relativism.SelfFalsifying.thesisNotAbsolutelyTrue",
+  "comparator_config": "results/RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING/comparator.json",
+  "status": "solution-present"
+}

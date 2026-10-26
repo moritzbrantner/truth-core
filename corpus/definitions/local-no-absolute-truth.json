@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+  "term": "local relativism about absolute truth",
+  "definition": "`LocalNoAbsoluteTruth T D`: within the domain D no content is absolutely true; the restriction of the global thesis by a demarcation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Relativism.LocalNoAbsoluteTruth",
+  "note": "Counterpart, in the truth-sense vocabulary, of the pilot's profile-based local variation (DEF-PILOT-RELATIVISM-LOCAL); the two are not identified. The restricted measure doctrine (DEF-PROTAGOREAN-MEASURE) is the sourced instance."
+}

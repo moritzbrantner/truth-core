@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-THEAET-171E-172A-CONCESSION-A",
+  "statement_id": "STMT-RESTRICTED-MEASURE-CONCESSION",
+  "source_id": "PLATO-THEAET",
+  "locator": "171e-172a",
+  "interpretation": "What the restriction concedes: about health not every woman, child or beast is competent to heal itself (171e); about what is advantageous one counsellor differs from another, and one city's opinion from another's, toward truth (πρὸς ἀλήθειαν), and no one would dare say that what a city thinks advantageous will in every case be so (172a). Read weakly: outside the domain something seems so to someone without being true for them. One strengthening is stated: that one judgement differs from another toward truth is read as an actual case of seeming without truth-for (a worse judgement), not merely as its possibility. Not read as an explicit endorsement of absolute truth; the bridge from \"not made true by seeming\" to absolute truth is open.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

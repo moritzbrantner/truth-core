@@ -1,0 +1,9 @@
+{
+  "id": "REL-THEAET-172A-CONCESSION-SUPPORTS-SOME-ABSOLUTE-TRUTH",
+  "subject_kind": "claim",
+  "subject_id": "PLATO-THEAET-171E-172A-CONCESSION-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "note": "Conceded by the restricted Protagorean (Theaetetus 171e-172a): judgements of health and advantage differ toward truth and are not made true by seeming. Evidence only; the bridge from not-made-true-by-seeming to absolute truth is open."
+}

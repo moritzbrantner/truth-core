@@ -1,0 +1,12 @@
+{
+  "id": "STMT-WEAK-SCIENTISM-IN-STRONG-SCOPE",
+  "paraphrase": "The weak thesis's own formulation is a claim within the strong scope.",
+  "lean_declaration": "TruthCore.Logic.Scientism.WeakThesisInStrongScope",
+  "definition_ids": [
+    "DEF-WEAK-SCIENTISM-RESTRICTED",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

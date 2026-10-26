@@ -1,0 +1,9 @@
+{
+  "id": "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+  "rule": "constructive-proof",
+  "meaning": "Horn 2 and the exemption are consistent: the relative assertion of the self-applying thesis is met while the thesis is not true for the other agent; and an exempted thesis can be asserted absolutely.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

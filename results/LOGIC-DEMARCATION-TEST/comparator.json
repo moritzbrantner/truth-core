@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.SelfApplication.DemarcationTest.demarcationTest"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

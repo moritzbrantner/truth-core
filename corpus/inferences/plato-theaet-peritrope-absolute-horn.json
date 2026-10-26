@@ -1,0 +1,14 @@
+{
+  "id": "INF-PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+  "input_statement_ids": [
+    "STMT-PROTAGORAS-HOLDS-MEASURE",
+    "STMT-SOMEONE-DENIES-MEASURE",
+    "STMT-PILOT-NEGATION-RESPECTED",
+    "STMT-PERITROPE-SCOPE"
+  ],
+  "output_statement_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Horn 1 of the peritropē (Theaetetus 171a-c, unqualified reading). Composes the pilot's conflicting-opinions test (PILOT-CONFLICTING-OPINIONS-TEST) with the conflict located in the thesis itself: Protagoras holds it, someone denies it, the doctrine's scope covers both, and unindexed truth respects negation; so not every opinion in scope is true. The negation bridge is the pilot's open premise; no refutes relation is recorded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

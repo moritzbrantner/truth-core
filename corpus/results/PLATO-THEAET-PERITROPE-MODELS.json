@@ -1,0 +1,9 @@
+{
+  "id": "PLATO-THEAET-PERITROPE-MODELS",
+  "argument_id": "PLATO-THEAET-PERITROPE-MODELS",
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Solution",
+  "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.peritropeModels",
+  "comparator_config": "results/PLATO-THEAET-PERITROPE-MODELS/comparator.json",
+  "status": "solution-present"
+}

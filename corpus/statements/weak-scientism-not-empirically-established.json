@@ -1,0 +1,12 @@
+{
+  "id": "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+  "paraphrase": "The weak scientistic thesis is not itself established by empirical evidence. Open premise.",
+  "lean_declaration": "TruthCore.Logic.Scientism.WeakThesisNotEmpiricallyEstablished",
+  "definition_ids": [
+    "DEF-WEAK-SCIENTISM-RESTRICTED",
+    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

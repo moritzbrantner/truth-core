@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RESTRICTED-MEASURE-CONCESSION",
+  "paraphrase": "What the restricted doctrine concedes: outside its domain (health, advantage) something seems so to someone without being true for them; there one judgement differs from another toward truth.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RestrictedMeasureConcession",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

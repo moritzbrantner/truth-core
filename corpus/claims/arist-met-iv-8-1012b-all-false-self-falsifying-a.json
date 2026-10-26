@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-IV-8-1012B-ALL-FALSE-SELF-FALSIFYING-A",
+  "statement_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
+  "source_id": "ARIST-MET",
+  "locator": "IV.8, 1012b13-18",
+  "interpretation": "Such theses suffer the familiar fate of refuting themselves: … he who says that all things are false makes himself false too (ὁ δὲ πάντα ψευδῆ καὶ αὐτὸς αὑτόν). Read with Aristotle's single unindexed truth predicate as absolute truth, and \"false\" as not true: the thesis that nothing is true, in its own scope, is not true. Aristotle's target denies all truth, not only absolute truth, so the claim supports the absolute horn only; it attributes no view about relative truth to him or his opponents.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-TRUE"
+  ]
+}

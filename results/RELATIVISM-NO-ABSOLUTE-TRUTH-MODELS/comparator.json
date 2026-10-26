@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Relativism.Models.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.Models.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Relativism.Models.noAbsoluteTruthModels"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

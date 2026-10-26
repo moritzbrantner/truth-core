@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+  "paraphrase": "Two models: (horn 2) the scoped, disquoting no-absolute-truth thesis holds while its speaker's relative assertion is met and the thesis is not true for the other agent; (exemption) with the thesis outside its own scope, it holds and is asserted absolutely without contradiction. Consistency only.",
+  "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruthModels",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-REASON-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}
