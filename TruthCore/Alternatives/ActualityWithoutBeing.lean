@@ -8,9 +8,12 @@ The rival `ActualityWithoutBeingReading` ("something is in act in some respect
 without being in act in the respect `esse`") is, in the shared vocabulary, the
 contradictory of the premise `ActualityOnlyInsofarAsBeingReading`. So any
 premise set that refutes the rival yields the premise (up to a double negation
-that excluded middle removes), and the only inclusion-minimal refuting core in
-this vocabulary is the premise itself. The other seven act/potency premises,
-with sensible motion and the well-founded per se series, do not refute it.
+that excluded middle removes). Among subsets of the tested premise set (the
+premise, the other seven act/potency premises of #352, sensible motion and the
+well-founded per se series), the only inclusion-minimal refuting core is the
+premise itself, since the other nine together do not refute the rival. Other
+assumptions over the same predicates (for example `∀ x, InAct x esse`) can also
+refute it; each of them entails the premise and is a new open premise.
 -/
 
 namespace TruthCore.Alternatives.ActualityWithoutBeing
