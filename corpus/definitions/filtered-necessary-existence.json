@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FILTERED-NECESSARY-EXISTENCE",
+  "term": "filtered necessary existence (analytical Scott-style variant)",
+  "definition": "`FilteredNecessaryExistence F admissible x w` requires necessary exemplification of every admissible candidate essence Φ of x at w, where `FilteredEssence` admits only comparison properties Ψ satisfying that same fixed `admissible` predicate. `admissible = True` reconstructs Scott's NE; admitting only world-invariant properties makes this test universal under possibilist constant-domain quantification. This is not the historical AFP NE or a claim of metaphysical existence.",
+  "basis": "stipulative",
+  "note": "Controlled variation of both higher-order property quantifiers for #274. Theories identifying admissibility with metaphysically genuine properties need independent premises; no candidate property restriction is assumed true in the Catholic case.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredNecessaryExistence"
+}

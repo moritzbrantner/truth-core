@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "argument_id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.checks",
+  "comparator_config": "results/SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL/comparator.json",
+  "status": "solution-present"
+}

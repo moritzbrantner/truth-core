@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FILTERED-ESSENCE",
+  "term": "filtered essence (analytical Scott-style variant)",
+  "definition": "`FilteredEssence F admissible Φ x w` keeps Scott's requirement that Φ holds of x at w, but admits only comparison properties Ψ satisfying the fixed predicate `admissible` in the universal property quantifier. Unlike Scott's `Essence`, it is not an AFP definition or source attribution. The same predicate also restricts candidate essence properties Φ in `FilteredNecessaryExistence`.",
+  "basis": "stipulative",
+  "note": "Needed to test a coherent restricted property domain while retaining the original Scott essence in the same module for comparison. Its full-domain agreement is checked rather than assumed; see FULL-FILTER-RECOVERS-SCOTT.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredEssence"
+}

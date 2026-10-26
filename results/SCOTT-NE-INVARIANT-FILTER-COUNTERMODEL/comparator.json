@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

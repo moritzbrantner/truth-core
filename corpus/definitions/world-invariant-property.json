@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLD-INVARIANT-PROPERTY",
+  "term": "world-invariant property (analytical admissibility condition)",
+  "definition": "`WorldInvariantProperty Φ` holds when the intensional property Φ has the same truth value of each fixed individual at every pair of worlds. It excludes world-indexed properties such as `y = x ∧ v = w`, which may hold of an individual only at a selected world. It does not impose an actual-existence predicate or claim that only such properties are metaphysically real.",
+  "basis": "stipulative",
+  "note": "An explicit diagnostic alternative to Scott/AFP's unrestricted higher-order property domain, motivated by #274 and SCOTT-NE-WORLD-ISOLATION. No historical author is attributed this restriction; a philosophical admissibility principle still requires independent defense.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.WorldInvariantProperty"
+}
