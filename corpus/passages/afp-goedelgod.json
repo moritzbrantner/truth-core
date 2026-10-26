@@ -7,7 +7,7 @@
     "sha256": "sha256:6a9e3d58c51754c9ccb86d94762a076c133df36aca4aa2d5b046d76b4f4d011a",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "BSD License (AFP entry page, checked 2026-10-25). Immutable Git-mirror theory text matches the source SHA-256 independently recorded from the 2026-02-06 AFP release archive; no source text is committed."
+    "license": "BSD License (AFP entry page, checked 2026-10-25). Immutable Git-mirror theory text matches the source SHA-256 independently recorded from the 2026-02-06 AFP release archive; no source text is committed. No archival fallback is pinned (2026-10-26, issue #393): the Wayback Machine holds no status-200 capture of this URL; this snapshot stays fragile to live-page drift."
   },
   "passages": [
     {

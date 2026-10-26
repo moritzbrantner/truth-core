@@ -5,6 +5,8 @@
     "source_url": "https://texts.rbjones.com/rbjpub/philos/classics/leibniz/monad.htm",
     "retrieved_at": "2026-10-25T13:04:01Z",
     "sha256": "sha256:3704a5104e515357856c041b1d2dc1997d13846e7f25c5f29fcd2f30fa2a324b",
+    "wayback_url": "https://web.archive.org/web/20260310214259id_/https://texts.rbjones.com/rbjpub/philos/classics/leibniz/monad.htm",
+    "wayback_sha256": "sha256:3704a5104e515357856c041b1d2dc1997d13846e7f25c5f29fcd2f30fa2a324b",
     "encoding": "utf-8",
     "language": "eng",
     "translation": {
@@ -12,7 +14,7 @@
       "year": 1898,
       "edition": "The Monadology, English translation reproduced by R. B. Jones"
     },
-    "license": "Latta translation (1898), public domain in the US; no separate page-specific license found on host, checked 2026-10-25. Only hashes/locators committed."
+    "license": "Latta translation (1898), public domain in the US; no separate page-specific license found on host, checked 2026-10-25. Only hashes/locators committed. A fixed 2026-03-10 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
