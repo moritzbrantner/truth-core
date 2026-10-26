@@ -12,7 +12,11 @@ instantiates Has in the existing privation reading. -/
 structure Sig where
   Agent : Type
   Operation : Type
-  Voluntary Due Performs Ordered Culpa : Agent → Operation → Prop
+  Voluntary : Agent → Operation → Prop
+  Due : Agent → Operation → Prop
+  Performs : Agent → Operation → Prop
+  Ordered : Agent → Operation → Prop
+  Culpa : Agent → Operation → Prop
   Evil : Agent → Prop
 
 /-- Catholic Q-MORAL-GROUNDING cell for culpa, retaining the general privation
