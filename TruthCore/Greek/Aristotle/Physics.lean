@@ -183,7 +183,7 @@ def CompletedHouseNotBuildableActualityReading
 
 /--
 Conclusion of Aristotle's buildable example in *Physics* III.1, 201b9-15: the actuality of
-the buildable precisely qua buildable is building, and building is a kind of motion.
+the buildable precisely qua buildable is building.
 
 The wrapper preserves the source proposition as an independently identified statement while
 the corresponding verified argument records the disjunctive inference from Aristotle's two

@@ -225,6 +225,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaxime
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
 import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair.Solution
+import TruthCore.Results.Aristotle.Metaphysics.MostTrueIsMostBeing.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle.Solution
 import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
 import TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest.Solution

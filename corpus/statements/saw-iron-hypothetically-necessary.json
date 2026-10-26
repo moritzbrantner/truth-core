@@ -1,1 +1,1 @@
-{"id":"STMT-SAW-IRON-HYPOTHETICALLY-NECESSARY","paraphrase":"Given the saw and its stipulated cutting function, its being iron is necessary.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.SawIronHypotheticallyNecessaryReading"}
+{"id":"STMT-SAW-IRON-HYPOTHETICALLY-NECESSARY","paraphrase":"The saw is iron, as required by its stipulated cutting function. The hypothetical necessity is carried by the premises (function and requirement), not encoded in this conclusion atom.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.SawIronHypotheticallyNecessaryReading"}
