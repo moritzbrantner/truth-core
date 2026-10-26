@@ -1,0 +1,17 @@
+{
+  "id": "PLATO-THEAET-171A-171C-PERITROPE-QUALIFIED-B",
+  "statement_id": "STMT-PERITROPE-RELATIVE-HORN-OUTCOME",
+  "source_id": "PLATO-THEAET",
+  "locator": "171a-c",
+  "interpretation": "Qualified reading of the same argument: if every \"true\" keeps the \"for X\" of 170a, Protagoras concedes only that the deniers' opinion is true for them, hence that his thesis is false for them, not false simply. On this reading the passage yields that the thesis is true for him and not for its deniers; the conclusion of 171c, true \"for no one … nor himself\", does not follow without dropping a qualifier. Formalized as horn 2.",
+  "status": "formalized",
+  "interpretation_of": "PLATO-THEAET-171A-171C-PERITROPE-UNQUALIFIED-A",
+  "definition_ids": [
+    "DEF-RELATIVE-TRUTH",
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-REASON-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

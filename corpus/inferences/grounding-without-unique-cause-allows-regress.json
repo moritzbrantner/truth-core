@@ -1,0 +1,9 @@
+{
+  "id": "INF-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "rule": "explicit-countermodel",
+  "meaning": "Take none as the only source, linked to every some n, and link some (n + 1) to some n. Each some n borrows directly from none; induction on accessibility shows no some n is accessible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

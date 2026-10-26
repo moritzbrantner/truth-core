@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
+  "term": "linear per se series (at most one immediate per se cause)",
+  "definition": "`AtMostOneImmediateCause R`: whenever y and z both R-relate to x, y = z. Each being has at most one immediate per se cause, as in the stone–stick–hand series.",
+  "basis": "stipulative",
+  "note": "An analyst's condition used only as an antecedent of GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING; GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS shows it cannot simply be dropped. No source claim says that every per se series is linear; ST I q.2 a.3 only gives a linear example.",
+  "lean_declaration": "TruthCore.Causality.GroundingRegress.AtMostOneImmediateCause"
+}

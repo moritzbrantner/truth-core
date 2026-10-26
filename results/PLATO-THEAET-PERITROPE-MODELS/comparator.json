@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Plato.Theaetetus.PeritropeModels.peritropeModels"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,68 @@
+{
+  "snapshot": {
+    "source_id": "PLATO-THEAET",
+    "edition_urn": "urn:cts:greekLit:tlg0059.tlg006.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "a065c359aab33c33bd17ddc2cac7d27fdc9cd870",
+    "path": "data/tlg0059/tlg006/tlg0059.tlg006.perseus-grc2.xml",
+    "git_blob_sha": "30199258758aa579687dc93a4bf150569c411244",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/a065c359aab33c33bd17ddc2cac7d27fdc9cd870/data/tlg0059/tlg006/tlg0059.tlg006.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0"
+  },
+  "passages": [
+    {
+      "id": "PLATO-THEAET-169",
+      "locator": "169",
+      "claim_locator_prefixes": [
+        "169"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "169"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-THEAET-170",
+      "locator": "170",
+      "claim_locator_prefixes": [
+        "170"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "170"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-THEAET-171",
+      "locator": "171",
+      "claim_locator_prefixes": [
+        "171"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "171"
+        }
+      ]
+    },
+    {
+      "id": "PLATO-THEAET-172",
+      "locator": "172",
+      "claim_locator_prefixes": [
+        "172"
+      ],
+      "cts_path": [
+        {
+          "subtype": "section",
+          "n": "172"
+        }
+      ]
+    }
+  ],
+  "notes": "Full Stephanus pages 169-172 give the context (169d-172b) of the peritrope at 170e-171c. Issue #397."
+}

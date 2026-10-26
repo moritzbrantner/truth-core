@@ -1,0 +1,17 @@
+{
+  "id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "inference_ids": [
+    "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+    "INF-REGRESS-READINGS-COINCIDE-CLASSICALLY"
+  ],
+  "meaning": "A classical fidelity check: with excluded middle, the accessibility reading of the per se regress premise is equivalent to the literal no-infinite-series reading, so the formalization does not strengthen the literal reading in classical logic. The converse direction uses Classical.choice through Mathlib and must not be cited where excluded middle is in question. It proves neither reading of any actual causal relation and leaves STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES open.",
+  "definition_ids": [
+    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+    "DEF-REGRESS-ACCESSIBILITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

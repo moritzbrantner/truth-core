@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "argument_id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution",
+  "theorem": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.scopePremiseNeeded",
+  "comparator_config": "results/LOGIC-SELF-APPLICATION-SCOPE-NEEDED/comparator.json",
+  "status": "solution-present"
+}

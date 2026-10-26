@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES",
+  "paraphrase": "Content premise: if the content \"no content in scope is absolutely true\" is absolutely true, then no content in scope is absolutely true. Only this direction of the truth schema is assumed, for this one content.",
+  "lean_declaration": "TruthCore.Logic.Relativism.ThesisDisquotes",
+  "definition_ids": [
+    "DEF-DISQUOTATION",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

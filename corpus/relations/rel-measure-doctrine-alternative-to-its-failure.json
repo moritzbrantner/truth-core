@@ -1,0 +1,9 @@
+{
+  "id": "REL-MEASURE-DOCTRINE-ALTERNATIVE-TO-ITS-FAILURE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "note": "Self-application does not refute the qualified doctrine: horn 2 (PLATO-THEAET-PERITROPE-RELATIVE-HORN) is consistent (PLATO-THEAET-PERITROPE-MODELS). Its failure follows only from the restricted doctrine's own concession (PLATO-THEAET-CONCESSION-DEFEATS-MEASURE), i.e. against a relativist who makes the 172a retreat. Surviving rival; cost: privacy of truth."
+}

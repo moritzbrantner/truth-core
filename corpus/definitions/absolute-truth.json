@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ABSOLUTE-TRUTH",
+  "term": "absolutely true",
+  "definition": "`TruthSemantics.trueAbs p`: p is true in the unindexed sense, not relative to any agent. No link to relative truth is built in.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.TruthSemantics",
+  "note": "Test semantics for retorsion. It is the unindexed predicate of the all-opinions-true target (DEF-ALL-OPINIONS-TRUE-UNINDEXED), not DEF-OBJECTIVE-TRUTH (attitude-independence) and not the truth of things (DEF-ONTOLOGICAL-TRUTH)."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-RELATIVISM-LOCAL-SECOND-ORDER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+  "rule": "constructive-proof",
+  "meaning": "The demarcation test (imported from LOGIC-DEMARCATION-TEST) applied to local relativism: a local thesis inside its own domain falls back to the relative horn; outside, if absolutely true, it is an absolute truth and defeats global relativism.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

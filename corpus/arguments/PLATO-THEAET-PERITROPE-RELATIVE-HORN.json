@@ -1,0 +1,23 @@
+{
+  "id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
+  "premise_statement_ids": [
+    "STMT-PROTAGORAS-MEASURE-RELATIVE",
+    "STMT-RELATIVE-NEGATION-RESPECTED",
+    "STMT-PROTAGORAS-ASSERTS-MEASURE",
+    "STMT-PROTAGORAS-SINCERE",
+    "STMT-SOMEONE-DENIES-MEASURE"
+  ],
+  "conclusion_statement_id": "STMT-PERITROPE-RELATIVE-HORN-OUTCOME",
+  "inference_ids": [
+    "INF-PLATO-THEAET-PERITROPE-RELATIVE-HORN"
+  ],
+  "meaning": "Horn 2 of the peritropē (every qualifier kept): by the measure doctrine the thesis, sincerely asserted, is true for Protagoras and the denial true for the denier; by the per-agent negation bridge the thesis is not true for the denier. Consistent (STMT-PERITROPE-MODELS), and private: the holder's relative truth gives the denier no reason.",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-REASON-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

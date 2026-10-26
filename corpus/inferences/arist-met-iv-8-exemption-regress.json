@@ -1,0 +1,13 @@
+{
+  "id": "INF-ARIST-MET-IV-8-EXEMPTION-REGRESS",
+  "input_statement_ids": [
+    "STMT-NO-ABSOLUTE-TRUTH-SCOPED",
+    "STMT-EXEMPTED-THESIS-ABSOLUTELY-TRUE",
+    "STMT-TRUTH-ASCENT"
+  ],
+  "output_statement_id": "STMT-EXEMPTION-REGRESS",
+  "rule": "constructive-proof",
+  "meaning": "Aristotle's cost of the exemption move (Metaphysics IV.8, 1012b18-22), by induction: whoever holds that nothing in scope is absolutely true while exempting an absolutely true thesis must exempt every truth-ascent iterate of it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

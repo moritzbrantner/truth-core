@@ -1,0 +1,20 @@
+{
+  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+  "inference_ids": [
+    "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS"
+  ],
+  "meaning": "Horn 2 and the exemption are consistent: the relative assertion of the self-applying thesis is met while the thesis is not true for the other agent; and an exempted thesis can be asserted absolutely.",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-REASON-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

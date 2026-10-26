@@ -49,8 +49,9 @@ The robust-truth target (#190) is now reduced to one disputed premise. Both
 sides share the minimalist sufficiency conditions (surface syntax and
 disciplined use, §5.2) and Divers and Miller's finding that moral sentences
 meet them. Add the collapse premise (no truth-aptness more robust than the
-minimal), and realism's robust answer follows, so quasi-realism's answer is
-inconsistent. Add instead the explanatory bridge (robust moral truth actually
+minimal), and realism's robust answer follows (the bound result); that
+quasi-realism's answer is then inconsistent is the unbound lemma
+`collapseExcludesQuasiRealistMinimalTruth`, which also needs a moral sentence. Add instead the explanatory bridge (robust moral truth actually
 explains our thought and talk; an unattributed open premise, since Dreier as
 reported says only that robust truth is suited to explanatory work), the
 anti-realist order of explanation and the asymmetry of the two orders, and

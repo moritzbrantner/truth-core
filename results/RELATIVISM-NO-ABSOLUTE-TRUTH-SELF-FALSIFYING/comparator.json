@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Relativism.SelfFalsifying.thesisNotAbsolutelyTrue"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

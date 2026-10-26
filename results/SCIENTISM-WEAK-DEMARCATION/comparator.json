@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Scientism.WeakDemarcation.weakScientismDemarcation"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.concessionDefeatsMeasure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+  "term": "no absolute truth (scoped)",
+  "definition": "`NoAbsoluteTruth T scope`: no content in scope is absolutely true, i.e. the norm with that scope and an unmeetable standard holds for absolute truth. Global when every content is in scope.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruth",
+  "note": "Unattributed formulation of the owner's example \"there is no absolute truth\" (#397). Aristotle's \"all false\" target (ARIST-MET-IV-8-1012B-ALL-FALSE-SELF-FALSIFYING-A) is the special case read with unindexed truth."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-STRONG-SCIENTISM-DILEMMA",
+  "paraphrase": "The scientism dilemma: if scientism holds, its own formulation is not established; if its formulation is established, it is a counterexample and scientism fails. So scientism is not both true and established.",
+  "lean_declaration": "TruthCore.Logic.Scientism.ScientismDilemma",
+  "definition_ids": [
+    "DEF-STRONG-SCIENTISM",
+    "DEF-SCIENTISM-EPISTEMIC-FRAME",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

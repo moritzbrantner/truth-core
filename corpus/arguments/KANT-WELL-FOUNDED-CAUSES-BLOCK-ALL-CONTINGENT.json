@@ -1,0 +1,14 @@
+{
+  "id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "inference_ids": [
+    "INF-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT"
+  ],
+  "meaning": "An axiom-free conditional locating Kant's local-causality objection (KANT-LOCAL-CAUSALITY-INSUFFICIENT): its countermodel needs a non-well-founded causal relation, since local causality plus well-foundedness excludes its all-contingent pattern. It does not establish well-foundedness, and its conclusion is weaker than NecessaryBeing: passing from 'not every existent is contingent' to a necessary existent needs excluded middle. It does not identify Kant's Causes with the per se link of STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES.",
+  "definition_ids": [
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
+  "paraphrase": "The thesis that no content in its scope is absolutely true (for Aristotle's target: that nothing is true), if it is in its own scope and disquotes, is not absolutely true. So whoever asserts it in the absolute sense, granting those premises, is committed to a contradiction (horn 1). This does not refute the thesis held only as true for its speaker.",
+  "lean_declaration": "TruthCore.Logic.Relativism.ThesisNotAbsolutelyTrue",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

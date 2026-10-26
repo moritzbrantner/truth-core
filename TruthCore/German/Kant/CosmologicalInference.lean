@@ -74,8 +74,10 @@ necessary at the selected world. It is not an a priori proof of existence. -/
 def MostRealIsNecessary (m : Ontic W E) (p : RealityProfile E) (w : W) : Prop :=
   ∀ x, MostReal p x → NecessaryAt m w x
 
-/-- Necessary existence alone cannot identify a most-real being; the explicit
-positive-reality interpretation prevents this being an opaque Prop exercise. -/
+/-- Necessary existence alone cannot identify a most-real being: a countermodel
+for some reality profile. The signature does not constrain which features are
+positive realities, and the proof's witness profile has an empty extension, so
+nothing in it is most real. -/
 def IdentificationNeedsBridge : Prop :=
   ∃ (m : Ontic Bool Bool) (p : RealityProfile Bool),
     NecessaryBeing m false ∧ ¬∃ x, m.ExistsAt false x ∧ MostReal p x

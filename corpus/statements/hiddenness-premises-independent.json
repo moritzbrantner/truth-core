@@ -1,6 +1,6 @@
 {
   "id": "STMT-HIDDENNESS-PREMISES-INDEPENDENT",
-  "paraphrase": "For each of the four hiddenness premises there is a finite interpretation with God existing that satisfies the other three. These are logical counterexamples, not actual possible-world verdicts.",
+  "paraphrase": "For each of the four hiddenness premises there is an interpretation with God existing that satisfies the other three, so the conclusion does not follow from any three of them. The types do not write out that the omitted premise fails, but it follows: HIDDENNESS-NO-GOD derives ¬ GodExists from all four premises, so adding the omitted premise to a witness's other three would contradict its GodExists. Hence the four premises are mutually independent. These are logical counterexamples, not actual possible-world verdicts.",
   "lean_declaration": "TruthCore.Hiddenness.PremisesIndependent",
   "definition_ids": [
     "DEF-HIDDENNESS-GOD",

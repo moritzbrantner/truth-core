@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SCIENTISM-STRENGTH",
+  "term": "scientism (strong or weak)",
+  "sense_definition_ids": [
+    "DEF-STRONG-SCIENTISM",
+    "DEF-WEAK-SCIENTISM-RESTRICTED"
+  ],
+  "resolution": "Strong scientism has every claim to knowledge in scope, so its own formulation is in scope (STMT-SCIENTISM-IN-OWN-SCOPE) and the dilemma STMT-STRONG-SCIENTISM-DILEMMA applies. Weak scientism restricts the norm to a demarcated domain; whether its own formulation is inside that domain decides between the returning dilemma and the concession of non-empirical knowledge (STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME). No result infers anything about the weak thesis from the strong dilemma or conversely; STMT-WEAK-SCIENTISM-CONSISTENT shows the weak thesis survives. The comparative reading (most reliable source) is a third sense, not modeled."
+}

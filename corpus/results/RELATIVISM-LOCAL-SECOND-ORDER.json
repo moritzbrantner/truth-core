@@ -1,0 +1,9 @@
+{
+  "id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "argument_id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "challenge_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.localRelativismSecondOrder",
+  "comparator_config": "results/RELATIVISM-LOCAL-SECOND-ORDER/comparator.json",
+  "status": "solution-present"
+}

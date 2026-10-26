@@ -17,7 +17,7 @@ that principle, not conceal it in the definition of *completed*.
 | Example | Mathematical outcome | What follows, and what does not |
 | --- | --- | --- |
 | Geometrically shortening durations, $\sum_{k=1}^{\infty}2^{-k}$ | The ordinary partial sums $s_n=1-2^{-n}$ approach **1**. No stage is last; all stage times are before the endpoint (Lean-verified: `CONVERGENT-ZENO-SCHEDULE`). | A *finite-time schedule* and an abstract limit are mathematically coherent. Physical execution, causal completion and a particular endpoint state are not thereby established. |
-| Uniform positive duration, $1+1+1+\cdots$ | Partial sums are $n$ and are unbounded. | With a fixed positive minimum duration per operation, an omega sequence cannot fit into a finite duration budget. **The cost assumption matters.** |
+| Uniform positive duration, $1+1+1+\cdots$ | Partial sums are $n$ and are unbounded. | With exactly one unit of duration per operation, no natural-number budget covers every prefix (Lean proves the unit-cost case only; a general positive minimum is not formalized). **The cost assumption matters.** |
 | Alternating unit changes, $1-1+1-1+\cdots$ | Ordinary partial sums alternate between 1 and 0 and have **no ordinary limit**. | An endpoint state need not be defined by the preceding values. Generalized summation methods are separate conventions, not ordinary convergence. |
 | A constant or eventually constant Boolean output after each stage | The output has a stable terminal value. | No **last indexed operation** is necessary for a well-defined *abstract* limit value under the specified semantics. |
 
@@ -51,7 +51,7 @@ Solution, inference application, argument and Comparator record.
    no historical attribution is recorded without a pinned source witness.
 3. **`SUPERTASK-UNIT-COST-UNBOUNDED`:** The partial cost of $n$ unit-duration
    stages is exactly $n$, so every finite budget is exceeded by some prefix.
-   It establishes a *conditional impossibility* for a fixed-positive-cost
+   It establishes a *conditional impossibility* for the unit-cost
    schedule, not an impossibility result for all omega sequences.
 
 The oscillating numerical series above is a mathematical **illustration**,
