@@ -137,6 +137,12 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     if floor:
         met = "met" if floor["met"] else "not met, closes nothing: " + "; ".join(floor["reasons"])
         lines.append(f"Floor basis: {floor['basis']} ({met}); justification: {', '.join(floor['justification_ids'])}")
+        disagreement = floor.get("disagreement")
+        if isinstance(disagreement, dict):
+            disagreement = ", ".join(disagreement.get("rival_statement_ids", []) + disagreement.get("claim_ids", []))
+        if not disagreement:
+            disagreement = "recorded rivals agree (common_ground)" if floor["basis"] == "common_ground" else "not recorded"
+        lines.append(f"Floor disagreement (#378): {disagreement}")
     sections =(("claims", "claim_ids", "Source readings"), ("claims", "supporting_claim_ids", "Supporting source readings"),
                 ("definitions", "definition_ids", "Definitions"), ("disambiguations", "disambiguation_ids", "Disambiguations"),
                 ("relations", "alternative_relation_ids", "Alternatives"), ("relations", "objection_relation_ids", "Objections"),

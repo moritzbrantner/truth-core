@@ -220,13 +220,38 @@ FLOOR_BASES = {FLOOR_RETORSION, FLOOR_COMMON_GROUND, FLOOR_OBSERVATION}
 # Only the statements listed here may omit the basis; they close as recorded.
 FLOOR_LEGACY = "legacy"
 LEGACY_FLOOR_STATEMENTS = {"STMT-EXCLUDED-MIDDLE"}
+# The floor is a last resort (#378, point 3: people disagree about what is
+# self-evident). Every marking except common_ground (whose recorded rivals'
+# agreement is its disagreement record) records the known disagreement:
+# `disagreement` is either this literal or an object listing the recorded
+# rivals and/or claims that deny the statement is self-evident.
+DISAGREEMENT_NONE = "none recorded"
 
 
-def floor_basis(statement: dict[str, Any]) -> str | None:
-    marking = statement.get("self_evident")
-    if marking is None:
-        return None
-    return marking.get("basis") or FLOOR_LEGACY
+def validate_disagreement(where: Path, marking: dict[str, Any], basis: str, claim_ids: set[str],
+                          statement_ids: set[str] | None) -> None:
+    disagreement = marking.get("disagreement")
+    if disagreement is None:
+        if basis == FLOOR_COMMON_GROUND:
+            return
+        raise CorpusError(
+            f"{where}: self_evident needs a disagreement record (#378): "
+            f'"{DISAGREEMENT_NONE}" or {{"rival_statement_ids": [...], "claim_ids": [...]}}'
+        )
+    if disagreement == DISAGREEMENT_NONE:
+        return
+    if not isinstance(disagreement, dict) or set(disagreement) - {"rival_statement_ids", "claim_ids", "note"}:
+        raise CorpusError(f"{where}: self_evident disagreement must be \"{DISAGREEMENT_NONE}\" or an object")
+    rivals = disagreement.get("rival_statement_ids", [])
+    claims = disagreement.get("claim_ids", [])
+    for field, values, known in (("rival_statement_ids", rivals, statement_ids), ("claim_ids", claims, claim_ids)):
+        if not isinstance(values, list) or any(not isinstance(value, str) for value in values):
+            raise CorpusError(f"{where}: self_evident disagreement {field} must be a list of ids")
+        unknown = [value for value in values if known is not None and value not in known]
+        if unknown:
+            raise CorpusError(f"{where}: self_evident disagreement {field} unknown: {', '.join(unknown)}")
+    if not rivals and not claims:
+        raise CorpusError(f"{where}: an object disagreement lists rivals or claims; otherwise use \"{DISAGREEMENT_NONE}\"")
 
 
 def validate_self_evident(
@@ -258,9 +283,11 @@ def validate_self_evident(
                 f"{where}: self_evident needs a basis ({', '.join(sorted(FLOOR_BASES))}); "
                 "only the documented legacy markings may omit it"
             )
+        validate_disagreement(where, marking, FLOOR_LEGACY, claim_ids, statement_ids)
         return
     if basis not in FLOOR_BASES:
         raise CorpusError(f"{where}: self_evident basis must be one of {', '.join(sorted(FLOOR_BASES))}")
+    validate_disagreement(where, marking, basis, claim_ids, statement_ids)
 
     def known_statement(field: str, value: Any) -> None:
         if not isinstance(value, str) or not value:
@@ -671,6 +698,14 @@ def frontier_report(
         basis = marking.get("basis") or FLOOR_LEGACY
         rivals = sorted(alternatives.get(statement_id, ()))
         justification = marking.get("justification_ids", [])
+        # #378: the recorded disagreement must cover every current rival, so
+        # a newly recorded rival is not hidden behind a stale record.
+        disagreement = marking.get("disagreement")
+        if disagreement is not None and basis != FLOOR_COMMON_GROUND:
+            listed = set(disagreement.get("rival_statement_ids", [])) if isinstance(disagreement, dict) else set()
+            unlisted = [rival for rival in rivals if rival not in listed]
+            if unlisted:
+                return ["disagreement record omits recorded rivals: " + ", ".join(unlisted)]
         if basis == FLOOR_LEGACY:
             return []
         if basis == FLOOR_RETORSION:
@@ -809,6 +844,7 @@ def frontier_report(
                 "met": not reasons,
                 "reasons": reasons,
                 "justification_ids": sorted(marking.get("justification_ids", [])),
+                "disagreement": marking.get("disagreement"),
             }
         )
     floor_met = {entry["statement_id"] for entry in floor_report if entry["met"]}

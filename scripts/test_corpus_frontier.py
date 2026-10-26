@@ -496,7 +496,10 @@ class FrontierSchemaTest(unittest.TestCase):
         path = corpus.ROOT / "corpus" / "statements" / "example.json"
         corpus.validate_self_evident(path, statement("X"), set(), set())
         corpus.validate_self_evident(
-            path, statement("STMT-EXCLUDED-MIDDLE", self_evident={"justification_ids": ["R"]}), set(), {"R"}
+            path,
+            statement("STMT-EXCLUDED-MIDDLE", self_evident={"justification_ids": ["R"], "disagreement": "none recorded"}),
+            set(),
+            {"R"},
         )
         for marking in (True, {"justification_ids": []}, {"justification_ids": ["UNKNOWN"]}):
             with self.assertRaises(corpus.CorpusError):
@@ -509,19 +512,35 @@ class FrontierSchemaTest(unittest.TestCase):
         def check(marking: dict[str, object]) -> None:
             corpus.validate_self_evident(path, statement("P", self_evident=marking), {"C", "D"}, {"R"}, known)
 
-        check({"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P"})
+        none = {"disagreement": "none recorded"}
+        check({"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", **none})
         check({
             "basis": "common_ground",
             "justification_ids": ["C", "D"],
             "question_statement_id": "Q",
             "positions": [{"statement_id": "Q", "claim_ids": ["C"]}, {"statement_id": "RIVAL", "claim_ids": ["D"]}],
         })
-        check({"basis": "observation", "justification_ids": ["C"], "sceptical_rival_ids": ["NOT-P"]})
+        check({
+            "basis": "observation",
+            "justification_ids": ["C"],
+            "sceptical_rival_ids": ["NOT-P"],
+            "disagreement": {"rival_statement_ids": ["NOT-P"], "claim_ids": ["D"]},
+        })
         for marking in (
-            {"justification_ids": ["R"]},  # basis-less outside the legacy list
-            {"basis": "logical", "justification_ids": ["R"]},
-            {"basis": "retorsion", "justification_ids": ["C"], "denial_statement_id": "NOT-P"},
-            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "UNKNOWN"},
+            {"justification_ids": ["R"], **none},  # basis-less outside the legacy list
+            {"basis": "logical", "justification_ids": ["R"], **none},
+            {"basis": "retorsion", "justification_ids": ["C"], "denial_statement_id": "NOT-P", **none},
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "UNKNOWN", **none},
+            # #378: a disagreement record is required, and must name known rivals or claims.
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P"},
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", "disagreement": {}},
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", "disagreement": "none"},
+            {
+                "basis": "retorsion",
+                "justification_ids": ["R"],
+                "denial_statement_id": "NOT-P",
+                "disagreement": {"rival_statement_ids": ["UNKNOWN"]},
+            },
             {"basis": "common_ground", "justification_ids": ["C"], "question_statement_id": "Q", "positions": []},
             {
                 "basis": "common_ground",
@@ -529,7 +548,7 @@ class FrontierSchemaTest(unittest.TestCase):
                 "question_statement_id": "Q",
                 "positions": [{"statement_id": "Q", "claim_ids": ["C"]}],
             },
-            {"basis": "observation", "justification_ids": ["R"]},
+            {"basis": "observation", "justification_ids": ["R"], **none},
         ):
             with self.subTest(marking=marking), self.assertRaises(corpus.CorpusError):
                 check(marking)
@@ -679,6 +698,15 @@ class FloorBasisTest(unittest.TestCase):
             self.floor(report)["P"]["reasons"],
             ["rivals not recorded as global sceptical positions: PHYSICALIST"],
         )
+
+    def test_stale_disagreement_record_reopens_the_marking(self) -> None:
+        marking = {"justification_ids": ["C"], "disagreement": {"rival_statement_ids": ["OLD"]}}
+        statements = [statement("P", self_evident=marking), statement("OLD"), statement("NEW")]
+        rivals = [relation("statement", "OLD", "alternative_to", "P")]
+        self.assertTrue(self.floor(self.report(statements, relations=rivals))["P"]["met"])
+        report = self.report(statements, relations=[*rivals, relation("statement", "NEW", "alternative_to", "P")])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["disagreement record omits recorded rivals: NEW"])
+        self.assertNotIn("P", report["closed_statements"])
 
     def test_legacy_marking_closes_and_is_listed(self) -> None:
         report = self.report([statement("P", self_evident={"justification_ids": ["C"]})])
