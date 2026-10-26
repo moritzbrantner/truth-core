@@ -14,8 +14,11 @@ open TruthCore.Causality
 open TruthCore.German.Kant.CosmologicalInference
 
 /-- A small common ontology for power transmission, direct support of esse,
-and proper-part composition. The last three relations are not definitionally
-interchangeable. -/
+and proper-part composition. `intrinsicPower` marks a power source *in this
+model*, while `transmitsPower` records its actual modeled transmission.
+Neither predicate represents a merely unexercised capacity, a causal process
+through time, or the broader act/potency distinction. The support and
+transmission relations are not definitionally interchangeable. -/
 structure Profile (World Being : Type) where
   ontic : Ontic World Being
   transmitsPower : World → Being → Being → Prop
@@ -25,7 +28,9 @@ structure Profile (World Being : Type) where
 
 /-- Power is original at this individual *in the chosen respect*: it has an
 intrinsic power and receives no power through the designated transmission
-relation. This does not assert existential self-sufficiency in every respect. -/
+relation. The respect is fixed by the chosen relation, not quantified over
+in this signature. This does not assert existential self-sufficiency, the
+absence of enabling conditions, or origination in every respect. -/
 def UnborrowedPowerAt (m : Profile W B) (w : W) (x : B) : Prop :=
   m.ontic.ExistsAt w x ∧ m.intrinsicPower w x ∧
     ∀ y, ¬m.transmitsPower w y x
@@ -68,12 +73,16 @@ inductive Role where
 2. A modally necessary original power source has no recorded external
    conserver yet still has a proper component. Thus even adding necessary
    existence and the absence of an external conserver does not alone entail
-   divine simplicity. These models refute bare *logical entailments*, not
+   divine simplicity. The source actually transmits to the distinct effect,
+   which has no intrinsic power of its own in the selected model. These
+   models refute bare *logical entailments*, not
    metaphysical premises about the relation of essence, esse and act. -/
 def Boundary : Prop :=
   (∃ m : Profile Bool Role,
     (∀ w v, m.ontic.frame.access w v) ∧ Coherent m ∧
     UnborrowedPowerAt m false .source ∧
+    m.transmitsPower false .source .effect ∧
+    ¬m.intrinsicPower false .effect ∧
     FinitelyGroundedPower (m.transmitsPower false)
       (m.intrinsicPower false) .effect ∧
     ExternallySupportedAt m false .source ∧
@@ -81,6 +90,8 @@ def Boundary : Prop :=
   (∃ m : Profile Bool Role,
     (∀ w v, m.ontic.frame.access w v) ∧ Coherent m ∧
     UnborrowedPowerAt m false .source ∧
+    m.transmitsPower false .source .effect ∧
+    ¬m.intrinsicPower false .effect ∧
     FinitelyGroundedPower (m.transmitsPower false)
       (m.intrinsicPower false) .effect ∧
     (¬ExternallySupportedAt m false .source) ∧

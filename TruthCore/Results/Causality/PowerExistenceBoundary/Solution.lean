@@ -34,7 +34,7 @@ theorem powerExistenceBoundary : Boundary := by
       supportsEsse := fun w y x => w = false ∧ y = .conserver ∧ x = .source
       intrinsicPower := fun w x => w = false ∧ x = .source
       properPartOf := fun _ _ => False }
-    refine ⟨m, (fun _ _ => True.intro), ?_, ?_, ?_, ?_, ?_⟩
+    refine ⟨m, (fun _ _ => True.intro), ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
     · constructor
       · intro w y x h
         rcases h with ⟨hw, hy, hx⟩
@@ -60,6 +60,9 @@ theorem powerExistenceBoundary : Boundary := by
     · refine ⟨rfl, ⟨rfl, rfl⟩, ?_⟩
       intro y h
       exact Role.noConfusion h.2.2
+    · exact ⟨rfl, rfl, rfl⟩
+    · intro h
+      exact Role.noConfusion h.2
     · apply FinitelyGroundedPower.borrowed
       · exact ⟨rfl, rfl, rfl⟩
       · apply FinitelyGroundedPower.intrinsic
@@ -76,7 +79,7 @@ theorem powerExistenceBoundary : Boundary := by
       supportsEsse := fun _ _ _ => False
       intrinsicPower := fun _ x => x = .source
       properPartOf := fun y x => y = .conserver ∧ x = .source }
-    refine ⟨m, (fun _ _ => True.intro), ?_, ?_, ?_, ?_, ?_, ?_⟩
+    refine ⟨m, (fun _ _ => True.intro), ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
     · constructor
       · intro w y x _
         exact ⟨True.intro, True.intro⟩
@@ -94,6 +97,9 @@ theorem powerExistenceBoundary : Boundary := by
     · refine ⟨True.intro, rfl, ?_⟩
       intro y h
       exact Role.noConfusion h.2
+    · exact ⟨rfl, rfl⟩
+    · intro h
+      exact Role.noConfusion h
     · apply FinitelyGroundedPower.borrowed
       · exact ⟨rfl, rfl⟩
       · apply FinitelyGroundedPower.intrinsic

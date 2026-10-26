@@ -3,10 +3,13 @@
   "premise_statement_ids": [],
   "conclusion_statement_id": "STMT-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
   "inference_ids": ["INF-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY"],
-  "meaning": "Logical independence only. The existing inductive finite-power model yields an intrinsic source for a borrowed effect, but this does not settle whether that source receives esse or contains parts. Two coherent finite countermodels isolate BR-POWER-TO-BEING and BR-SIMPLICITY from #319; they do not refute Aquinas' richer source readings or establish which model is metaphysically possible.",
+  "meaning": "Logical independence only. Each finite witness contains an actual source-to-effect power transmission and an effect without intrinsic power, not merely a free-standing inductive derivation. Still, an intrinsic source in a designated power channel need not be an uncaused or incomposite being. Two coherent finite countermodels isolate BR-POWER-TO-BEING and BR-SIMPLICITY from #319; the models do not represent unexercised capacities, refute Aquinas' richer source readings, or establish which scenario is metaphysically possible.",
   "definition_ids": [
     "DEF-UNBORROWED-POWER-IN-A-RESPECT",
     "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-POWER-CAPACITY-READING",
+    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
     "DEF-EXISTENTIAL-SUPPORT-MODEL",
     "DEF-PROPER-PART-COMPOSITION-MODEL",
     "DEF-KANT-MODAL-NECESSITY",
@@ -14,6 +17,8 @@
   ],
   "disambiguation_ids": [
     "DISAMB-POWER-EXISTENCE-DEPENDENCE",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-POWER-CAPACITY-EXERCISE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
   ]
 }
