@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMUM-ORDER-SCHEMA",
+  "argument_id": "MAXIMUM-ORDER-SCHEMA",
+  "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
+  "comparator_config": "results/MAXIMUM-ORDER-SCHEMA/comparator.json",
+  "status": "solution-present",
+  "description": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater than its effect, every maximal member has no distinct cause of that degree. Derivation through Mathlib maximality and the existing #386 representation lemmas; no root premise is discharged."
+}

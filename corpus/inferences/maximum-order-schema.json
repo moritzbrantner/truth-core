@@ -1,0 +1,9 @@
+{
+  "id": "INF-MAXIMUM-ORDER-SCHEMA",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MAXIMUM-ORDER-SCHEMA",
+  "rule": "proof",
+  "meaning": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater than its effect, every maximal member has no distinct cause of that degree. All philosophical conditions remain inside the universally quantified conditional.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
