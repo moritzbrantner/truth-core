@@ -1,0 +1,9 @@
+{
+  "id": "STMT-MEGARIAN-THESIS-FALSE",
+  "paraphrase": "The Megarian thesis that a thing is able only when it is acting is false.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MegarianThesisFalse",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT"
+  ]
+}

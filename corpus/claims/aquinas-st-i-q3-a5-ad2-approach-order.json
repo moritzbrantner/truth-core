@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A",
+  "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 ad 2: Deus autem non est mensura proportionata alicui. Dicitur tamen mensura omnium, ex eo quod unumquodque tantum habet de esse, quantum ei appropinquat",
+  "interpretation": "Order reading of the sentence that AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A reads as stated. 'Tantum habet de esse, quantum ei appropinquat' is read as a biconditional: one thing is more a being than another exactly when it approaches the measure more nearly (degrees of approach in their own preorder), and the measure has being. Nothing more is attributed. In particular the reading does not attribute strict primacy (that nothing other than the measure reaches its degree): 'non est mensura proportionata' denies that God is homogeneous with the measured, and 'appropinquat' says that things approach him, but neither says that nothing ties with him. Strict primacy is the separate open premise STMT-NOTHING-ELSE-REACHES-THE-PRIMARY, with no attributing claim. The primary is a parameter; that it is God comes from the sentence's subject and is not formalized. Nothing in the sentence says that the measure causes what it measures.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-BEING-ANALOGICAL",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

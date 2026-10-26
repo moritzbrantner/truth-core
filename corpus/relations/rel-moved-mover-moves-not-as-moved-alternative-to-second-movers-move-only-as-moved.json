@@ -1,0 +1,9 @@
+{
+  "id": "REL-MOVED-MOVER-MOVES-NOT-AS-MOVED-ALTERNATIVE-TO-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+  "note": "Class: not yet attackable; the rival bears on the fidelity of the strong reading. Unlike the irrelevant-respect situation of STMT-STRONG-PREMISES-COMPATIBLE-WITH-IRRELEVANT-RESPECT-OBJECTION, which is consistent with the strong premise, this rival denies it: a man digesting while he moves a stick is such a mover if he is no per se link, and Aquinas' own accidental cause (ST I q.46 a.2 ad 7) supports the relevance criterion (DISAMB-PER-SE-LINK). The reply is the weaker sibling reading SecondMoversMoveAsMovedInRelevantRespectReading, not a refutation; candidate AQUINAS-ST-I-Q2-A3-REFUTE-IRRELEVANT-RESPECT-OBJECTION tracks it. Not refuted."
+}

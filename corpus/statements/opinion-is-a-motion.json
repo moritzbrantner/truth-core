@@ -1,0 +1,13 @@
+{
+  "id": "STMT-OPINION-IS-A-MOTION",
+  "paraphrase": "Opinion and imagination are motions: whoever opines that p is thereby being moved in the respect of that opinion.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.OpiningIsBeingMovedReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-OPINING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

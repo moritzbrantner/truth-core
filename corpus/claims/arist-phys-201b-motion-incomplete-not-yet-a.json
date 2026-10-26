@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201B-MOTION-INCOMPLETE-NOT-YET-A",
+  "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.2, 201b31-33: ἐνέργεια μὲν εἶναί τις δοκεῖ, ἀτελὴς δέ",
+  "interpretation": "Motion is thought to be an actuality, but incomplete, because the potential whose actuality it is is incomplete. Read as: what is being moved toward r is not yet actually r. Reading choice: 'incomplete' is taken as not yet having the perfection toward which the motion goes; Aristotle does not state it in those words. The occurrence-level reading of the same lines is STMT-MOTION-INCOMPLETE-ACTUALITY; this claim does not identify the two.",
+  "status": "formalized"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "BROAD-MIND-AND-ITS-PLACE-CH2",
+  "source_id": "BROAD-MIND-AND-ITS-PLACE",
+  "locator": "ch. 2",
+  "priority": 902,
+  "goal": "Waiting for a witness (copyrighted, #378). Attribute STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT once a bibliographic citation is admitted, and test it against both senses of DISAMB-IN-ACT.",
+  "reason": "Alternatives campaign #387, act/potency and regress batch: the rival statement and its alternative_to relation are recorded; the witness is missing, so no claim attributes it yet (invariant 18).",
+  "status": "candidate"
+}

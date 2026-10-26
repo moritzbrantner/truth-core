@@ -1,0 +1,10 @@
+{
+  "id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+  "paraphrase": "What is being moved toward r is able to be r: what is unable to come to be does not come to be.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedIsAbleToBeReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-CAPACITY-TO-BE"
+  ]
+}

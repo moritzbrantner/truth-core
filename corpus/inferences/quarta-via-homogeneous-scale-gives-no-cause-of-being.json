@@ -1,0 +1,9 @@
+{
+  "id": "INF-QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "rule": "model-construction",
+  "meaning": "On Mathlib's order of Bool, a homogeneous scale with greatest element true: with no causation the maximum causes nothing (countermodel); with true causing the being of false, the broad genus principle and Metaphysics II.1 hold (model).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

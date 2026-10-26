@@ -1,0 +1,9 @@
+{
+  "id": "REL-CHANGE-WITHOUT-ANY-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHANGE-WITHOUT-ANY-MOVER",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "note": "Class: not yet attackable. Indeterminism denies a determining (sufficient) cause; the premise asks only for something that moves, which an indeterministic cause may be. Missing: a witness (Born 1926, candidate BORN-1926-STOSSVORGAENGE, #378) and a definition separating moving from determining."
+}

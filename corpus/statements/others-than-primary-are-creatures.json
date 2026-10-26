@@ -1,0 +1,9 @@
+{
+  "id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+  "paraphrase": "Everything other than the primary is a creature.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading",
+  "note": "Open premise with no attributing claim. ST I q.13 a.5 co. (AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A) speaks of the order of creatures to God; it does not say that everything other than God is a creature. It is load-bearing in QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING (omission countermodel withoutOthersAreCreaturesFails). ST I q.44 a.1 co. ('necesse est dicere omne ens quod quocumque modo est, a Deo esse'; passage AQUINAS-ST-I-Q44-A1, claim AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE reads only the participation step) is where a source might be found; no claim on that sentence is made here.",
+  "definition_ids": [
+    "DEF-CREATURE"
+  ]
+}

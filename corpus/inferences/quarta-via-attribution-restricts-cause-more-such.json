@@ -1,0 +1,9 @@
+{
+  "id": "INF-QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
+  "rule": "model-construction",
+  "meaning": "Part 1: from the order by approach and strict primacy the primary is more such than anything else, a fortiori than what it causes. Part 2: a three-being model (p nearest, then b, then a; a and b are creatures; p causes being in both, a causes being in b) satisfies the order by approach, strict primacy, the causal order of creatures to p, everything else being a creature and the broad genus principle, but a is not more a being than b.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

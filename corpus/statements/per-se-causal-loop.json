@@ -1,0 +1,8 @@
+{
+  "id": "STMT-PER-SE-CAUSAL-LOOP",
+  "paraphrase": "Rival: some being is, through a finite chain of per se links, a middle cause of itself (a per se causal loop).",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.PerSeCausalLoopReading",
+  "definition_ids": [
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ]
+}

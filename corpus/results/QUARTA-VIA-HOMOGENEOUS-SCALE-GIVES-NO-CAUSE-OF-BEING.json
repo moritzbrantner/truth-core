@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "argument_id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.homogeneousScaleGivesNoCauseOfBeing",
+  "comparator_config": "results/QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "A countermodel and a model, using Mathlib's IsMax and IsGreatest. Mathlib-based; permits propext, Classical.choice and Quot.sound (docs/axiom-policy.md)."
+}

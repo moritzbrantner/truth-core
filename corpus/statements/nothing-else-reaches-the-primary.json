@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+  "paraphrase": "Strict primacy: everything other than the primary approaches it less nearly than the primary itself stands, so nothing ties with the primary in the order of approach.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyReading",
+  "note": "Open premise with no attributing claim. ST I q.3 a.5 ad 2 (AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A) gives only the order by approach (STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY) and denies that God is a proportioned measure; it does not say that nothing other than God reaches God's degree. It is load-bearing: the omission countermodels of QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING and QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM satisfy everything else. Places read for a source (orientation only; no passage or claim yet, see candidate AQUINAS-STRICT-PRIMACY-IN-BEING): ST I q.4 a.3 ad 1 and ad 3 (creatures are dissimilar to God 'secundum quod deficiunt a sua causa'; God is 'ens per essentiam, et alia per participationem'), read in the pinned SCTA file of q.4 (blob 405ca53f), which has no passage record for a.3; SCG I.28 [2]-[4] (God has being 'according to the whole power of being', other things participate in it 'through a certain particular and most imperfect mode') and SCG I.42 [2] ('that which is said by superabundance is found in only one being'), read in the pinned Pegis web snapshot (sha256 c46d9f71), which has no passage records for I.28 or I.42. Each speaks of creatures or of what is participated, so sourcing the identity-sensitive form over all things other than the primary would also need STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES or a participation premise.",
+  "definition_ids": [
+    "DEF-STRICT-PRIMACY",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

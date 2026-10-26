@@ -1,0 +1,8 @@
+{
+  "id": "STMT-NO-PER-SE-CAUSAL-LOOP",
+  "paraphrase": "There is no per se causal loop: no being is, through a finite chain of per se links, a middle cause of itself.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.NoPerSeCausalLoop",
+  "definition_ids": [
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ]
+}

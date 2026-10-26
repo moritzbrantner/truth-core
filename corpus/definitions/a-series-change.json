@@ -1,0 +1,10 @@
+{
+  "id": "DEF-A-SERIES-CHANGE",
+  "term": "change (McTaggart: A-series change)",
+  "definition": "`ASeriesChanges x`: x, an event, changes in its A-series determinations, from future to present to past. McTaggart argues that this is the only change there could be and that it is contradictory. It is not the case's motion (`MovedIn`, DEF-MOTION-AS-REDUCTION); DISAMB-CHANGE-A-SERIES says how the two are kept apart.",
+  "basis": "sourced",
+  "claim_ids": [
+    "MCTAGGART-1908-TIME-UNREAL-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.NoASeriesChangeButAppearsReading"
+}

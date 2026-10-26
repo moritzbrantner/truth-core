@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.eleaticThesisFalse",
+    "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.needsOpinionIsMotion",
+    "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.needsThesisHeld"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

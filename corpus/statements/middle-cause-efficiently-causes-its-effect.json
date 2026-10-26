@@ -1,0 +1,9 @@
+{
+  "id": "STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT",
+  "paraphrase": "A middle cause efficiently causes that of which it is the middle cause: whatever causes x as caused efficiently causes x in some respect.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MiddleCauseEfficientlyCausesReading",
+  "definition_ids": [
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-EFFICIENT-CAUSING"
+  ]
+}

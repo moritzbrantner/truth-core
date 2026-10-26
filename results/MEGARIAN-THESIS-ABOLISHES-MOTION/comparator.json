@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.MegarianAbolishesMotion.megarianThesisFalse",
+    "TruthCore.Results.Alternatives.MegarianAbolishesMotion.needsSense",
+    "TruthCore.Results.Alternatives.MegarianAbolishesMotion.needsNotYet",
+    "TruthCore.Results.Alternatives.MegarianAbolishesMotion.needsAble"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

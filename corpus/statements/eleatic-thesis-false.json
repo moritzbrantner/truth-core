@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ELEATIC-THESIS-FALSE",
+  "paraphrase": "The Eleatic thesis that nothing is moved is false.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.EleaticThesisFalse",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

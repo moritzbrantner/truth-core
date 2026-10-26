@@ -1,0 +1,12 @@
+{
+  "id": "INF-ELEATIC-THESIS-SELF-REFUTING",
+  "input_statement_ids": [
+    "STMT-OPINION-IS-A-MOTION",
+    "STMT-ELEATIC-THESIS-IS-OPINED"
+  ],
+  "output_statement_id": "STMT-ELEATIC-THESIS-FALSE",
+  "rule": "retorsion",
+  "meaning": "Suppose nothing is moved. Someone opines that nothing is moved; opining is a being moved in the respect of that opinion; so the opiner is moved, contradicting the supposition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

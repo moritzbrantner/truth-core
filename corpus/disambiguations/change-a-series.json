@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-CHANGE-A-SERIES",
+  "term": "change (A-series change versus reduction from potency to act)",
+  "sense_definition_ids": [
+    "DEF-A-SERIES-CHANGE",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "resolution": "McTaggart's denial of change (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS) uses the A-series sense; the prima via's observation premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD uses reduction from potency to act. They are separate Lean predicates (`ASeriesChanges`, `MovedIn`). The only passage from McTaggart's thesis to a denial of the observation premise is the explicit, unattributed open premise STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE; the rival STMT-CHANGE-UNREAL-BUT-APPEARS states the result of that passage and is not attributed to McTaggart. A B-theorist who accepts McTaggart's argument against the A series but keeps change as variation along the B series denies the bridge and is not this rival."
+}

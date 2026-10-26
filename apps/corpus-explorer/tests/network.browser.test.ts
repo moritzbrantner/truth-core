@@ -94,7 +94,17 @@ for (const mobile of [false, true]) {
     expect(await marker.getAttribute("style")).toBe(transform);
     await page.getByRole("button", { name: "Layered", exact: true }).click();
     await page.waitForURL((location) => location.searchParams.get("layout") === "layered");
-    await page.locator(".graph-node-cluster").first().waitFor();
+    // The selected cluster is expanded and centered; other clusters may be
+    // virtualized outside this viewport. Check the selected statement instead.
+    await shell.scrollIntoViewIfNeeded();
+    await marker.locator('.graph-node-statement[data-selected="true"]').waitFor();
+    const layeredBox = await shell.boundingBox();
+    const selectedBox = await marker.boundingBox();
+    if (!layeredBox || !selectedBox) { throw new Error("Missing layered selection geometry"); }
+    expect(selectedBox.x).toBeGreaterThanOrEqual(layeredBox.x);
+    expect(selectedBox.y).toBeGreaterThanOrEqual(layeredBox.y);
+    expect(selectedBox.x + selectedBox.width).toBeLessThanOrEqual(layeredBox.x + layeredBox.width);
+    expect(selectedBox.y + selectedBox.height).toBeLessThanOrEqual(layeredBox.y + layeredBox.height);
     const comparison = new URL(page.url());
     comparison.searchParams.delete("viewport");
     comparison.searchParams.delete("sel");

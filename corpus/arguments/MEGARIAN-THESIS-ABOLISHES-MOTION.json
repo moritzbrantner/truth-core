@@ -1,0 +1,21 @@
+{
+  "id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "premise_statement_ids": [
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+  ],
+  "conclusion_statement_id": "STMT-MEGARIAN-THESIS-FALSE",
+  "inference_ids": [
+    "INF-MEGARIAN-THESIS-ABOLISHES-MOTION"
+  ],
+  "meaning": "Aristotle's reply to the Megarians (Metaphysics IX.3, 1047a10-17): their thesis abolishes motion and becoming. Refutes STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING given the open premises it uses. No refutes relation is recorded until its premises are closed (#391). It does not use STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY, the premise the Megarian thesis rivals, nor STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT. A Megarian who also denies present motion (Diodorus Cronus) escapes it by denying STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD; that rival is not yet recorded. The Comparator config also verifies needsSense, needsNotYet and needsAble: each premise is needed.",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
