@@ -10,7 +10,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 
 ## Root and structure
 
-- **Root (phase 1, #156/#159):** `STMT-CATHOLICISM-TRUE` := (A) the Catholic Church is the teaching authority founded by God (Vatican I, *Dei Filius* ch. 3, pinned on vatican.va in #170) ∧ (B) the twelve articles of the Nicene–Constantinopolitan Creed (Greek, `CREED-C381`).
+- **Root (phase 1, #156/#159):** `STMT-CATHOLICISM-TRUE` := (A) the Catholic Church is a teaching authority founded by God (no uniqueness asserted) (Vatican I, *Dei Filius* ch. 3, pinned on vatican.va in #170) ∧ (B) the twelve articles of the Nicene–Constantinopolitan Creed (Greek, `CREED-C381`).
 - **Phase 2 (later):** the full list of defined dogmas (Ott, Denzinger), candidate `CATHOLICISM-ROOT-PHASE-2-DOGMAS`.
 - **Skeleton:** the root ⇐ six stages plus explicit bridges (`TruthCore/Results/Case/Catholicism/Skeleton`):
   1. God exists
@@ -43,6 +43,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 | 2026-10-24 | Discharge of `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`: support **both** versions side by side, (a) proving the fuller description and (b) defending the reduced one. **Each statement has its own unique ID**; `corpus.py check` enforces one statement per Lean declaration. | #143 |
 | 2026-10-24 | Stage 2: keep the skeleton field `HasClassicalAttributes`, add one open definitional bridge sourced from *Dei Filius* ch. 1, and derive each attribute from ST I qq.3–26, one PR per attribute group (first: one, simple, perfect, good). | #143 |
 | 2026-10-24 | Third Way: the eternal-world hypothesis plus the finite-past horn (SCG I.13), and a `supports` relation for `STMT-PAST-IS-INFINITE`. Fifth Way: ST I q.103 plus a regress of directors. | #143 |
+| 2026-10-26 | Root wording: (A) reads "a teaching authority" founded by God, **no uniqueness asserted**. This matches the Lean declaration; the earlier "*the* teaching authority" (#156) is superseded. | #156, #394 |
 
 ## Modeling decisions worth knowing
 
