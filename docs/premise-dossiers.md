@@ -71,5 +71,7 @@ with model ID, vocabulary, closed arguments and theorem certificate. CLI and
 explorer show the same links without changing closure. See
 [registered finite interpretations](finite-models.md) for the certificate gate,
 co-failure candidates and the limits of finite interpretation tests. A separate
-mode-5 schema registry (#412) remains unavailable; no links are guessed from
+mode-5 schema registry (#412) now records explicit `instance_of_schema` relations
+with checked theorem bindings; see [proved argument schemas](schemas.md). The
+dossier does not yet project those registrations. No links are guessed from
 similar words, theorem names or embeddings.

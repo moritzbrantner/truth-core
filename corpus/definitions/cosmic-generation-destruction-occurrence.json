@@ -1,0 +1,7 @@
+{
+  "id": "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
+  "term": "world generation or destruction occurrence and accompanying motion",
+  "definition": "In CosmicGenerationDestructionRequiresMotionReading, Event ranges over occurrences, CosmicGenerationOrDestruction e means that e is a world coming to be or perishing, and Accompanies e x r means that physical motion of subject x in respect r occurs with e. Coming to be and perishing concern the world, not merely a change of its place, quality or quantity; the motion accompanies that event without being identified with it. No date, duration, causal direction or temporal precedence is encoded.",
+  "basis": "stipulative",
+  "note": "Event-indexed bookkeeping for the parenthetical world-generation/destruction requirement at Physics VIII.1, 250b18-23. It separates substantial coming-to-be/perishing from accompanying physical motion; it supplies no independent account of what constitutes a world."
+}
