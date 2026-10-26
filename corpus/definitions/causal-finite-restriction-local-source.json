@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE",
+  "term": "local source in every nonempty finite induced causal subgraph",
+  "definition": "For each finite nonempty selection of nodes, some selected node has no incoming direct causal edge from another member of the same selection. Outside the selection, predecessors may still exist.",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.EveryFiniteRestrictionHasLocalSource",
+  "basis": "stipulative",
+  "note": "Local finitary check only; its quantifiers do not imply a single source for the full infinite carrier."
+}

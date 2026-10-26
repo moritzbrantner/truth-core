@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "rule": "direct-proof",
+  "meaning": "The reverse successor relation on natural numbers is a constructive mathematical countermodel to inferring global causally minimal nodes from their existence in every finite induced restriction, even while all finite directed cycles are excluded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

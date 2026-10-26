@@ -1,0 +1,69 @@
+{
+  "id": "MODEL-MODAL-FIXED-EFFECT",
+  "description": "Control for variable-effects interpretation on the same two-world, three-individual universal frame: the rigid source causes the same necessarily present effect in both worlds. All causal relata exist and are distinct; no philosophical account of why the cause acts is supplied.",
+  "vocabulary": "MODAL-CAUSATION",
+  "lean_declaration": "TruthCore.Modal.NecessaryVariableEffects.fixedEffects",
+  "bindings": {
+    "World": "Bool",
+    "Being": "TruthCore.Modal.NecessaryVariableEffects.EffectBeing",
+    "Ontic": "TruthCore.Modal.NecessaryVariableEffects.fixedEffects",
+    "world": "false",
+    "source": "TruthCore.Modal.NecessaryVariableEffects.source",
+    "effect": "TruthCore.Modal.NecessaryVariableEffects.firstEffect"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": ["false", "true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Modal.NecessaryVariableEffects.source",
+        "TruthCore.Modal.NecessaryVariableEffects.firstEffect",
+        "TruthCore.Modal.NecessaryVariableEffects.secondEffect"
+      ],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.enumerateEffectBeing"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedEffectsSound"
+    },
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic", "world"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedSourceNecessary"
+    },
+    {
+      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedSourceNecessaryAt"
+    },
+    {
+      "statement_id": "STMT-MODAL-NECESSARY-CAUSES-SOMETHING",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedAlwaysCausesSomething"
+    },
+    {
+      "statement_id": "STMT-MODAL-SAME-NECESSARY-EFFECT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedSameNecessaryEffect"
+    },
+    {
+      "statement_id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
+      "value": "violates",
+      "arguments": ["World", "Being", "Ontic", "world", "effect"],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.fixedEffectNotContingent"
+    }
+  ],
+  "modules": ["TruthCore.Modal.NecessaryVariableEffects"]
+}

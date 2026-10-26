@@ -1,0 +1,13 @@
+{
+  "id": "INF-PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+  ],
+  "output_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "rule": "direct-proof",
+  "meaning": "An existent in a well-founded causal world has no incoming existing efficient cause, and the model's universal existence-PSR supplies a stipulated explanation token for that existent; no adequacy, necessity, uniqueness or divine attribute follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
+  "term": "well-founded causes at a selected world",
+  "definition": "The specific world's modeled Causes relation is well-founded, even across nonexistent candidates in the constant domain. No global restriction on other worlds is inferred.",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.WellFoundedCausesAt",
+  "basis": "stipulative",
+  "note": "Stronger as formulated than requiring well-foundedness only among actual existents; kept explicit to prevent hidden domain shifts."
+}

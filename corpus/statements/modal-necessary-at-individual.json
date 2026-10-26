@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt",
+  "paraphrase": "The selected rigid individual exists at every world accessible from the chosen standpoint. Unlike NecessaryBeing, this statement names the particular individual and does not assert existence at the standpoint unless reflexivity is supplied.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

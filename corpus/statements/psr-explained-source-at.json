@@ -1,0 +1,7 @@
+{
+  "id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.ExplainedSourceAt",
+  "paraphrase": "Some actual existent has a stipulated explanation of its existence fact but lacks an incoming cause from any existing entity at the selected world.",
+  "definition_ids": ["DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"],
+  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+}

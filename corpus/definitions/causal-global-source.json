@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-GLOBAL-SOURCE",
+  "term": "global source for the full causal relation",
+  "definition": "There is one node in the full carrier without an incoming direct causal predecessor from any node. No claim about uniqueness, necessary existence, or explanatory sufficiency is included.",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.HasGlobalSource",
+  "basis": "stipulative",
+  "note": "Distinct from having a source relative to every finite induced subgraph."
+}
