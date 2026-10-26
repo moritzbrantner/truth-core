@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGRESS-SCHEMA-GRAPH",
+  "term": "structural dependency graph, source, terminal and fixed-point semantics",
+  "basis": "stipulative",
+  "definition": "Graph.edge y x points from upstream y to dependent x. A source has no incoming upstream edge; a terminal has no outgoing downstream edge. NoCycles forbids every nonempty finite return path. Controls combines no cycles, no infinite descending Nat-indexed series, and a finite path from each node to some relative source. Map preserves edges and pulls accessibility back. transmission sends S to intrinsic nodes together with nodes having an upstream member in S; its least fixed point is exactly FinitelyGroundedPower, whereas its greatest fixed point can admit source-free activity.",
+  "note": "Mathematical graph vocabulary only. Graph sources need not be temporally first, unique, globally independent, existent in an interpreted world, or divine. FinitelyGroundedPower is reused for its parameterized inductive structure; this is not an identification of actual power with finite paths. Knaster\u2013Tarski uses Mathlib.",
+  "lean_declaration": "TruthCore.Logic.Regress.Graph"
+}

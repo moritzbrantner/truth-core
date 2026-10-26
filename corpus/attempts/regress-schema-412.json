@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-REGRESS-SCHEMA-412",
+  "statement_ids": [
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+    "STMT-REGRESS-SCHEMA-PACKAGE"
+  ],
+  "date": "2026-10-26",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Constructed shared accessibility/source/fixed-point laws and separate efficient, typed-motion, fact-grounding, explanatory-antecedent, strict-parthood and all-premise warrant transfers. Rejected identifying heterogeneous PSR reasons/facts with one-level regress, unary warrant paths with sufficient justification, fixed-point equality with accessibility, or absent warrant with causal impossibility. The common infinite graph admits local all-on activity but no generated foundation warrant. No source interpretation was added and no root premise discharged; actual domain premises and the epistemic bridge remain open.",
+  "evidence": [
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}

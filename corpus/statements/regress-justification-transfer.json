@@ -1,0 +1,14 @@
+{
+  "id": "STMT-REGRESS-JUSTIFICATION-TRANSFER",
+  "paraphrase": "For every all-premise generated-warrant interpretation whose inferential rules each have at least one premise, each warranted claim has a finite projected inferential path to a stipulated noninferential foundation. The path is only necessary and does not assert epistemic justification, knowledge, or well-foundedness of every unused inferential edge.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.JustificationTransfer",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

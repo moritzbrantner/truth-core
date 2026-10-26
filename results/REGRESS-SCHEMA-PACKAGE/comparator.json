@@ -1,0 +1,20 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.RegressSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RegressSchema.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.RegressSchema.structural",
+    "TruthCore.Results.Logic.RegressSchema.efficientTransfer",
+    "TruthCore.Results.Logic.RegressSchema.motionTransfer",
+    "TruthCore.Results.Logic.RegressSchema.groundingTransfer",
+    "TruthCore.Results.Logic.RegressSchema.explanationTransfer",
+    "TruthCore.Results.Logic.RegressSchema.parthoodTransfer",
+    "TruthCore.Results.Logic.RegressSchema.justificationTransfer",
+    "TruthCore.Results.Logic.RegressSchema.regressSchemaPackage"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
