@@ -7,7 +7,8 @@ open TruthCore.Case.Catholicism (AtMostOneMaximeEns)
 one thing is more a being than another exactly as it approaches a primary more
 nearly (q.3 a.5 ad 2), and nothing else reaches the primary (strict primacy,
 an open premise), every maximum in being is the primary, so any two are the
-same. Neither the genus principle nor
+same. Excluded middle is an explicit premise for identifying each maximum
+with the primary. Neither the genus principle nor
 *Metaphysics* II.1 is used, unlike `AtMostOneMaximeEns.atMostOneMaximeEns`. -/
 theorem attributionOrderUniqueMaximum {Being Respect Degree : Type}
     [Preorder Degree]

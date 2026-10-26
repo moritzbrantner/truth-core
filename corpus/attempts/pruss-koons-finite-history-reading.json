@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-PRUSS-KOONS-FINITE-HISTORY-READING",
+  "statement_ids": [
+    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+    "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+  ],
+  "date": "2026-10-26",
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Materialized Koons author-hosted PDF pp.4\u20135 and 17\u201318 with fixed Wayback fallback; his event/causal-power no-regress and no-loop claims are separate, and finite universal past is explicitly not entailed under relativity. Rejected silently substituting that chain formulation for finitely many distinct ancestors. Pruss lecture host failed TLS; publisher abstract insufficient for exact relata, modality and scope. Full findings and witness IDs in docs/notes/causal-finitism-367.md.",
+  "evidence": [],
+  "blocker": "Obtain a legitimately hosted pinned Pruss range for the precise finite-distinct-ancestry reading and defend the relation/event-being map; no new attributed claim is made."
+}

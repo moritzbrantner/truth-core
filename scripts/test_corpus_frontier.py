@@ -595,7 +595,22 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual(depths["STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"], "bare")
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
-        self.assertEqual(depths["STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"], "sourced")
+        # #367: a finite-ancestry route now expands efficient-cause regress
+        # into three explicitly bare premises. The source claim remains, but
+        # this conditional derivation does not establish those new premises or
+        # turn their relocation into sourced philosophical progress.
+        self.assertNotIn("STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES", depths)
+        for premise in (
+            "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+            "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+            "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+        ):
+            self.assertEqual(depths[premise], "bare")
+        claims = {record["id"]: record for _, record in corpus.load_dir("claims")}
+        self.assertEqual(
+            claims["AQUINAS-ST-I-Q46-A2-AD7-NO-INFINITE-EFFICIENT-CAUSES-A"]["statement_id"],
+            "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+        )
 
     def test_excluded_middle_instances_close_via_transcription(self) -> None:
         # #167: the instances are derived only by instantiating the

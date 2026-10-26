@@ -1,0 +1,42 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KOONS-GRIM-REAPER-KALAM",
+    "source_url": "https://robkoons.net/uploads/1/3/5/2/135276253/grim_reaper_kalam_argument.pdf",
+    "retrieved_at": "2026-10-26T16:22:51Z",
+    "sha256": "sha256:15fe944feee4b7645b492f19ecaad6045eda3bf686e41a0ad46bad3879b40ee3",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Author-hosted manuscript; no explicit reuse license observed. Copyright remains with the author/publisher. Only hashes, locators and short incipits committed. Two live fetches and two fixed 2026-03-30 Wayback fetches were byte-identical; extracted ranges match. Primary text findings: docs/notes/causal-finitism-367.md.",
+    "wayback_url": "https://web.archive.org/web/20260330150135id_/https://robkoons.net/uploads/1/3/5/2/135276253/grim_reaper_kalam_argument.pdf",
+    "wayback_sha256": "sha256:15fe944feee4b7645b492f19ecaad6045eda3bf686e41a0ad46bad3879b40ee3"
+  },
+  "passages": [
+    {
+      "id": "KOONS-GRIM-REAPER-KALAM-4-5",
+      "locator": "printed pp. 4\u20135 (physical PDF pages 4\u20135)",
+      "claim_locator_prefixes": [
+        "pp. 4\u20135"
+      ],
+      "pdf_pages": {
+        "first": 4,
+        "last": 5
+      },
+      "text_sha256": "sha256:5460fa01bf271eb9d2f4ddc13907142be2371e41c83e427fc8dd77364ba1c74f",
+      "incipit": "Instead of looking for proof of the finitude of the past, we should look"
+    },
+    {
+      "id": "KOONS-GRIM-REAPER-KALAM-17-18",
+      "locator": "printed pp. 17\u201318 (physical PDF pages 17\u201318)",
+      "claim_locator_prefixes": [
+        "pp. 17\u201318"
+      ],
+      "pdf_pages": {
+        "first": 17,
+        "last": 18
+      },
+      "text_sha256": "sha256:5b36d0aa84a27799fcc2e44b3cb515e872f7860e93b338fa3ebd1dc3e6baf699",
+      "incipit": "Intrinsicality of Causal Power are obviously true, we can deduce the falsity of"
+    }
+  ]
+}

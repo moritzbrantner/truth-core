@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "argument_id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CausalFinitism.finitePathsOfFiniteAncestry",
+  "comparator_config": "results/FINITE-ANCESTRY-PER-SE-FINITE-PATH/comparator.json",
+  "status": "solution-present",
+  "description": "Compose FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS with the existing regress-to-finite-grounding path theorem and the proved FINITE-GROUNDING-HAS-SOURCE result. Excluded middle is supplied by the permitted Mathlib classical logic, not a new philosophical premise. Every being has a finite per se path, possibly of length zero, to a being with no upstream per se cause. No uniqueness, absolute uncausedness, existence of a caused being or necessity is inferred. The same three unattributed open hypotheses remain."
+}
