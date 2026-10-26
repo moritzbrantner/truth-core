@@ -1,0 +1,9 @@
+{
+  "id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt",
+  "paraphrase": "The selected individual exists at the selected world and fails to exist at some accessible world.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ]
+}

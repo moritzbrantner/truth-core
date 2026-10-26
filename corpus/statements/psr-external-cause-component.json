@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.EveryExistentExternallyCaused",
+  "paraphrase": "Every existent at every world has a distinct existing cause.",
+  "definition_ids": [
+    "DEF-PSR-EXTERNAL-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

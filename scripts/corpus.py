@@ -13,6 +13,7 @@ from typing import Any, Iterable
 
 from source_evidence import SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
+from finite_models import validate_model, model_report, verify_models
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -1388,6 +1389,7 @@ def validate() -> dict[str, int]:
     definition_index = index_by_id(definitions, "definition")
     disambiguation_index = index_by_id(disambiguations, "disambiguation")
     attempt_index = index_by_id(attempts, "attempt")
+    models = registered_models(statement_index)
     for path, attempt in attempts:
         try:
             validate_attempt(attempt, set(statement_index), set(result_index) | set(claim_index))
@@ -1673,6 +1675,7 @@ def validate() -> dict[str, int]:
         "definitions": len(definition_index),
         "disambiguations": len(disambiguation_index),
         "attempts": len(attempt_index),
+        "models": len(models),
     }
 
 
@@ -1718,7 +1721,7 @@ def command_check(_: argparse.Namespace) -> int:
         f"{counts['inferences']} inferences, {counts['arguments']} arguments, "
         f"{counts['relations']} relations, {counts['results']} results, "
         f"{counts['candidates']} candidates, {counts['definitions']} definitions, "
-        f"{counts['disambiguations']} disambiguations, {counts['attempts']} attempts"
+        f"{counts['disambiguations']} disambiguations, {counts['attempts']} attempts, {counts['models']} models"
     )
     return 0
 
@@ -1748,6 +1751,7 @@ def command_status(_: argparse.Namespace) -> int:
         "definitions",
         "disambiguations",
         "attempts",
+        "models",
     ):
         print(f"{key + ':':16} {counts[key]}")
     return 0
@@ -1810,7 +1814,7 @@ def command_frontier(args: argparse.Namespace) -> int:
 
 def command_dossier(args: argparse.Namespace) -> int:
     validate()
-    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts")
+    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models")
     data = {name: [record for _, record in load_dir(name)] for name in directories}
     if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
         raise CorpusError(f"unknown statement: {args.statement_id}")
@@ -2184,6 +2188,64 @@ def bind_report(
     }
 
 
+def registered_models(statement_index=None):
+    if statement_index is None:
+        statement_index = index_by_id(load_dir("statements"), "statement")
+    records = load_dir("models")
+    index_by_id(records, "model")
+    for path, model in records:
+        try:
+            validate_model(model, {sid: record for sid, (_, record) in statement_index.items()}, ROOT)
+        except ValueError as exc:
+            raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
+    return [model for _, model in records]
+
+
+def command_models(args: argparse.Namespace) -> int:
+    statements = {r["id"]: r for _, r in load_dir("statements")}
+    if args.argument:
+        arguments = {r["id"]: r for _, r in load_dir("arguments")}
+        if args.argument not in arguments:
+            raise CorpusError(f"unknown argument {args.argument}")
+        argument = arguments[args.argument]
+        if args.check and args.check != argument["conclusion_statement_id"]:
+            raise CorpusError("--argument conclusion must match --check")
+        args.check = argument["conclusion_statement_id"]
+        args.premise = sorted(set(args.premise) | set(argument["premise_statement_ids"]))
+    if args.premise and not args.check:
+        raise CorpusError("--premise requires --check or --argument")
+    for sid in ([args.check] if args.check else []) + args.premise:
+        if sid not in statements:
+            raise CorpusError(f"unknown statement {sid}")
+    models = registered_models()
+    report = model_report(models, args.check, args.premise)
+    report["argument_id"] = args.argument
+    if args.verify or args.check:
+        try:
+            report["verification"] = verify_models(models, statements, ROOT)
+        except ValueError as exc:
+            raise CorpusError(str(exc)) from exc
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        print(report["scope"])
+        print("Premises: " + (", ".join(report["premise_statement_ids"]) or "none (empty premise set)"))
+        for model in report["models"]:
+            print(f"{model['id']}: {model['target_value'] or 'registered'}; {model['classification']}; vocabulary {model['vocabulary']}")
+            print(f"  Lean model: {model['lean_declaration']}")
+            for evaluation in model['evaluations']:
+                print(f"  {evaluation['value']} {evaluation['statement_id']}: {evaluation['theorem']}")
+            if model['missing_premises'] or model['violated_premises']:
+                print(f"  unknown premises: {model['missing_premises']}; violated premises: {model['violated_premises']}")
+        if not report["models"]:
+            print("No registered evaluation; no conclusion about derivability or consistency.")
+        for pattern in report['cofailure_candidates']:
+            print(f"Candidate co-failure only: {pattern['statement_ids']} in {pattern['vocabulary']}; models {pattern['model_ids']}")
+        if args.verify or args.check:
+            print(f"model-check: {report['verification']}")
+    return 0
+
+
 def command_bind_check(args: argparse.Namespace) -> int:
     validate()
     results = load_dir("results")
@@ -2198,6 +2260,11 @@ def command_bind_check(args: argparse.Namespace) -> int:
             results + [(ROOT, binding) for binding, _ in schema_bindings]
         ))
     report = bind_report(described_list, schema_bindings)
+    if not args.lean_json:
+        try:
+            report["models"] = verify_models(registered_models(), {r["id"]: r for _, r in load_dir("statements")}, ROOT)
+        except ValueError as exc:
+            raise CorpusError(str(exc)) from exc
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
     else:
@@ -2226,6 +2293,13 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("check", help="validate corpus references, source evidence, and Comparator configs").set_defaults(
         func=command_check
     )
+    models = sub.add_parser("models", help="inspect registered finite interpretations (no premise closure)")
+    models.add_argument("--check", metavar="STMT-ID", help="target statement")
+    models.add_argument("--premise", action="append", default=[], metavar="STMT-ID", help="require this premise (repeatable; default empty set)")
+    models.add_argument("--argument", metavar="ARG-ID", help="use an existing argument conclusion and its complete premise set")
+    models.add_argument("--verify", action="store_true", help="Lean-check exact evaluations, finite carriers and zero axioms after lake build")
+    models.add_argument("--json", action="store_true")
+    models.set_defaults(func=command_models)
     sub.add_parser("status", help="show corpus counts").set_defaults(func=command_status)
     sub.add_parser(
         "sort-lists", help="sort order-free lists (SORTED_LIST_FIELDS) in place, as check requires"

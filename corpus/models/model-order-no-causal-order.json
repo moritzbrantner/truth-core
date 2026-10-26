@@ -1,0 +1,189 @@
+{
+  "id": "MODEL-ORDER-NO-CAUSAL-ORDER",
+  "description": "#386 NoCausalOrder assignment on the original Boolean beings and order. The tied assignment also witnesses failure of uniqueness; NoCausalOrder is the homogeneous no-cause witness.",
+  "vocabulary": "QUARTA-ORDER",
+  "lean_declaration": "TruthCore.Models.Order.NoCausalOrder.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Unit",
+    "Degree": "Bool",
+    "DegreeOrder": "TruthCore.Models.Order.NoCausalOrder.order",
+    "BeingOrder": "TruthCore.Models.Order.NoCausalOrder.beingOrder",
+    "InAct": "TruthCore.Models.Order.NoCausalOrder.model.InAct",
+    "MoreIn": "TruthCore.Models.Order.NoCausalOrder.model.MoreIn",
+    "CausesIn": "TruthCore.Models.Order.NoCausalOrder.model.CausesIn",
+    "Creature": "TruthCore.Models.Order.NoCausalOrder.model.Creature",
+    "PriorSimply": "TruthCore.Models.Order.NoCausalOrder.model.PriorSimply",
+    "near": "TruthCore.Models.Order.NoCausalOrder.model.near",
+    "primary": "TruthCore.Models.Order.NoCausalOrder.model.primary",
+    "esse": "TruthCore.Models.Order.NoCausalOrder.model.esse"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Degree",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Degree",
+        "DegreeOrder",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "near",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation1"
+    },
+    {
+      "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "CausesIn",
+        "Creature",
+        "esse",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation2"
+    },
+    {
+      "statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Creature",
+        "primary"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation3"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation4"
+    },
+    {
+      "statement_id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation5"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation6"
+    },
+    {
+      "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "CausesIn",
+        "MoreIn"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation7"
+    },
+    {
+      "statement_id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "PriorSimply",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation8"
+    },
+    {
+      "statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation9"
+    },
+    {
+      "statement_id": "STMT-HOMOGENEOUS-BEING-SCALE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "BeingOrder",
+        "InAct",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.Order.NoCausalOrder.evaluation10"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Order"
+  ]
+}

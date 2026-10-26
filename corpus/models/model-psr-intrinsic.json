@@ -1,0 +1,78 @@
+{
+  "id": "MODEL-PSR-INTRINSIC",
+  "description": "Original #316 Intrinsic witness. Explanations are stipulated tokens, not established metaphysical sufficiency.",
+  "vocabulary": "EXISTENCE-PSR",
+  "lean_declaration": "TruthCore.Models.PSR.Intrinsic.model",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Bool",
+    "Model": "TruthCore.Models.PSR.Intrinsic.model",
+    "Ontic": "TruthCore.Models.PSR.Intrinsic.model.ontic",
+    "world": "false",
+    "individual": "true"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
+      "theorem": "TruthCore.Models.PSR.Intrinsic.evaluation0"
+    },
+    {
+      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
+      "theorem": "TruthCore.Models.PSR.Intrinsic.evaluation1"
+    },
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.PSR.Intrinsic.evaluation2"
+    },
+    {
+      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
+      "theorem": "TruthCore.Models.PSR.Intrinsic.evaluation3"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.PSR"
+  ]
+}
