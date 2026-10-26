@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
-    "@types/d3-force": "^3.0.10",
+    "@types/d3-force": "3.0.10",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
