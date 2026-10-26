@@ -1,0 +1,15 @@
+{
+  "id": "PLATO-THEAET-170A-MEASURE-A",
+  "statement_id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
+  "source_id": "PLATO-THEAET",
+  "locator": "170a",
+  "interpretation": "Socrates proposes to take the agreement \"from his own account\" and Theodorus confirms that Protagoras says that what seems to each is so for the one to whom it seems (τὸ δοκοῦν ἑκάστῳ τοῦτο καὶ εἶναί … ᾧ δοκεῖ). Read as one direction only (seeming makes true-for), with the dative \"for whom it seems\" kept as truth relative to that agent. The converse (true-for only if seeming), used at 171a, is not read into this statement.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PLATO-THEAET-172B-DEMARCATION-CRITERION-A",
+  "statement_id": "STMT-RESTRICTED-MEASURE-CRITERION",
+  "source_id": "PLATO-THEAET",
+  "locator": "172b",
+  "interpretation": "Those who hold the restricted doctrine insist that in the just and holy nothing has by nature a being of its own (οὐκ ἔστι φύσει αὐτῶν οὐδὲν οὐσίαν ἑαυτοῦ ἔχον), so that what is commonly decided becomes true when and for as long as it is decided. Read as the motivation of the demarcation criterion for the political part of the domain; whether the criterion is independently motivated or ad hoc is recorded in docs/retorsion-dilemmas.md, not proved.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-PROTAGOREAN-MEASURE"
+  ]
+}

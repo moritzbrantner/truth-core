@@ -1,0 +1,10 @@
+{
+  "id": "DEF-RELATIVE-TRUTH",
+  "term": "true for an agent",
+  "definition": "`TruthSemantics.trueFor a p` (equivalently `trueIn (relativeTo a) p`): p is true for agent a. No cross-agent bridge is built in.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLATO-THEAET-170A-MEASURE-A"
+  ],
+  "lean_declaration": "TruthCore.Logic.SelfApplication.TruthSemantics.trueIn"
+}

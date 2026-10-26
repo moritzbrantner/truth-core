@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
+  "paraphrase": "Protagoras's measure doctrine as Socrates takes it \"from his own account\": whatever seems so to someone is true for that one.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.MeasureDoctrine",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

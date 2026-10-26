@@ -116,10 +116,12 @@ not artificial binary structural models of those philosophers.
   The complete mosaic contains other patterns and experimental histories.
   This reply survives: the theorem never supplies two identical whole mosaics.
 - **DirectionTest and TemporalTest.** U→X→Y and U→Y→X have identical observations
-  and opposed efficacy. Equality itself survives reversal; the ordered fact
-  1<2 does not survive swapping its arguments. Hume's actual succession clause
-  therefore avoids the crude symmetry objection. A common cause can still
-  precede X and Y, with X earlier than Y and no X efficacy. **Reply:** add
+  and opposed efficacy. Equality itself survives reversal. TemporalTest records only that the
+  natural-number order is asymmetric (1<2 but not 2<1) and that the fork has
+  conjunction without X-efficacy; no theorem attaches a time index to the chains
+  or applies `RegularCause` (Hume's succession clause), so whether that clause
+  avoids the crude symmetry objection is suggested, not verified. A common cause
+  can still precede X and Y, with X earlier than Y and no X efficacy. **Reply:** add
   temporal/boundary structure or global counterfactual structure. This is a
   coherent enrichment; which structure obtains and explains the arrow remains
   **underdetermined**, not inconsistent. No theorem here derives an arrow from

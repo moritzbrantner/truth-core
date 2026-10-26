@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.accessibilityAllowsUnboundedDepth"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

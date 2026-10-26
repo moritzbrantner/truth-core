@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.SelfApplication.Dilemma.selfApplicationDilemma"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.answerMapsCorrect",
   "comparator_config": "results/RESURRECTION-ANSWER-MAPS-CORRECT/comparator.json",
   "status": "solution-present",
+  "transcription": "assembly",
   "description": "Transcription/bookkeeping only; no historical finding or stage-4 conclusion is established."
 }

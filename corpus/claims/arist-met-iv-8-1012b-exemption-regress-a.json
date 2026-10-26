@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-IV-8-1012B-EXEMPTION-REGRESS-A",
+  "statement_id": "STMT-EXEMPTION-REGRESS",
+  "source_id": "ARIST-MET",
+  "locator": "IV.8, 1012b18-22",
+  "interpretation": "If they make exceptions, the one exempting the contrary as alone not true, the other his own statement as alone not false, they must nonetheless postulate infinitely many true and false statements; for he who says that the true statement is true is true, and this goes on to infinity. Read as the cost of dropping the scope premise: an exempted absolutely true thesis forces the exemption of every truth-ascent iterate. Formalized for the all-false exemption; the all-true exemption is symmetric and not separately encoded.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

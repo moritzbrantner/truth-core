@@ -1,0 +1,11 @@
+{
+  "id": "INF-PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "input_statement_ids": [
+    "STMT-RESTRICTED-MEASURE-CONCESSION"
+  ],
+  "output_statement_id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "What the restricted measure doctrine concedes (Theaetetus 171e-172a), read narrowly as the denial of the doctrine outside its domain, defeats the unrestricted doctrine, which would give it there (the restriction of a norm on (agent, content) pairs). No particular case of seeming without truth-for is assumed. The restricted and the unrestricted doctrine cannot both be held with the concession.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

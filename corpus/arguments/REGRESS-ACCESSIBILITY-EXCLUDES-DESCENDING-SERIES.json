@@ -1,0 +1,16 @@
+{
+  "id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "inference_ids": [
+    "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES"
+  ],
+  "meaning": "An axiom-free fidelity check on the Second Way premise's formalization: the accessibility (well-foundedness) reading of 'cannot go on to infinity' implies the literal reading that no infinite descending per se series exists. It proves neither reading of any actual causal relation and leaves STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES open.",
+  "definition_ids": [
+    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+    "DEF-REGRESS-ACCESSIBILITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

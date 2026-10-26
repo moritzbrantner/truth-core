@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-SELF-APPLICATION-DILEMMA",
+  "argument_id": "LOGIC-SELF-APPLICATION-DILEMMA",
+  "challenge_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Solution",
+  "theorem": "TruthCore.Results.Logic.SelfApplication.Dilemma.selfApplicationDilemma",
+  "comparator_config": "results/LOGIC-SELF-APPLICATION-DILEMMA/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "STMT-PROTAGORAS-SINCERE",
+  "paraphrase": "Sincerity: whatever Protagoras asserts seems so to him. An unattributed open premise; Theaetetus 171a considers his believing the doctrine only as one branch of a conditional.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.SincereAsserter",
+  "definition_ids": [
+    "DEF-ASSERTION-COMMITMENT"
+  ]
+}

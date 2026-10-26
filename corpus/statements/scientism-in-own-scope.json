@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SCIENTISM-IN-OWN-SCOPE",
+  "paraphrase": "Scope premise: the formulation of scientism is itself a claim within its scope.",
+  "lean_declaration": "TruthCore.Logic.Scientism.ScientismInOwnScope",
+  "definition_ids": [
+    "DEF-STRONG-SCIENTISM",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENTISM-STRENGTH"
+  ]
+}

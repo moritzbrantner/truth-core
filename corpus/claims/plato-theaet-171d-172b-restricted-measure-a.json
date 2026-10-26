@@ -1,0 +1,16 @@
+{
+  "id": "PLATO-THEAET-171D-172B-RESTRICTED-MEASURE-A",
+  "statement_id": "STMT-RESTRICTED-MEASURE",
+  "source_id": "PLATO-THEAET",
+  "locator": "171d-172b",
+  "interpretation": "After the peritropē Socrates suspects he has run past the right and states where the account \"would stand best\": in most things (hot, dry, sweet and the like) as it seems to each, so it is for each; and for the fine and shameful, just and unjust, holy and unholy, whatever each city thinks and lays down is true for it (172a). Read as the measure doctrine restricted to a demarcated domain. It is Socrates' sketch on Protagoras's behalf (\"we sketched in helping Protagoras\"), not a quotation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-DEMARCATION-RESTRICTION",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

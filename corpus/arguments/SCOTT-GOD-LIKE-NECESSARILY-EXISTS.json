@@ -17,7 +17,7 @@
     "INF-SCOTT-T2",
     "INF-SCOTT-T3"
   ],
-  "meaning": "Scott's variant of Gödel's ontological argument as formalized in the AFP theory GoedelGod.thy: from A1a, A1b, A2, A3, A4, A5, the symmetric frame (KB) and excluded middle for the classical host logic, necessarily a God-like being exists (T3), through T1, C and T2. Each Isabelle axiom used by the AFP proofs is a separate premise. The Comparator config also verifies premisesJointlySatisfiable: the modal premises hold together in a one-world, one-individual model. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
+  "meaning": "Scott's variant of Gödel's ontological argument as formalized in the AFP theory GoedelGod.thy: from A1a, A1b, A2, A3, A4, A5, the symmetric frame (KB) and excluded middle for the classical host logic, necessarily a God-like being exists (T3), through T1, C and T2. Each Isabelle axiom used by the AFP proofs is a separate premise. The Comparator config also verifies premisesJointlySatisfiable, whose frozen type does not require a world and so is satisfied vacuously by an empty type of worlds (its proof happens to use one world); the nonvacuous check is SCOTT-PREMISES-SATISFIABLE-WITH-WORLD. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
   "definition_ids": [
     "DEF-GOD-LIKE-SCOTT",
     "DEF-QML-KB-NECESSITY"

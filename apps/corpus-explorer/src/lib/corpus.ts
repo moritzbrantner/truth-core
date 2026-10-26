@@ -195,6 +195,9 @@ type RawCorpusResult = {
   theorem: string;
   comparator_config: string;
   status: "solution-present";
+  /** Declared transcription kind (invariant 16, #391); closes nothing by rule (a). */
+  transcription?: "opaque_atoms" | "single_application" | "assembly" | "instantiation";
+  description?: string;
 };
 
 export type CorpusResult = RawCorpusResult & {
