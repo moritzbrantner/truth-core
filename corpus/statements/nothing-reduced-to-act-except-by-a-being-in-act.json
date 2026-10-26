@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+  "paraphrase": "Whatever is being moved in a respect is moved in that respect by something that is itself in act in that respect: nothing is reduced from potency to act except by some being in act.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ReducedOnlyByABeingInActReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

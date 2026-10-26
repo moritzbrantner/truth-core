@@ -1,0 +1,19 @@
+{
+  "id": "STMT-ACT-POTENCY-PREMISES-INDEPENDENT",
+  "paraphrase": "Formal fact: none of the eight act/potency premises shared by the root routes (non-simultaneity, actuality only insofar as being, act simply prior to potency, goodness is actuality with having a perfection read as being in act in it, moves only as in act, reduced only by a mover, moved only as in potency, second movers move only as moved) follows from the other seven, even together with sensible motion and the well-foundedness of the per se series.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActPotencyPremisesIndependent",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ESSE",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-GOOD-AS-BEING-IN-ACT",
+    "DEF-PER-SE-LINK-STRONG"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

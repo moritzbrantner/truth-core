@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.PSRScope.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRScope.Solution",
+  "theorem_names": ["TruthCore.Results.Explanation.PSRScope.psrScopeBoundary"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-SOUNDNESS",
+  "term": "truthfulness of an existence explanation",
+  "definition": "Sound requires every purported explanation to target an individual that actually exists at the specified world. It does not require relevance, uniqueness, fundamentality, explanatory closure or metaphysical sufficiency: the proof establishes no such properties.",
+  "basis": "stipulative",
+  "note": "Minimal logical guard in the #312 countermodels; intentionally weaker than philosophical sufficient reason so no adequacy is smuggled in.",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.Sound"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-MET-993B-AS-TO-BEING-SO-TO-TRUTH-A",
+  "statement_id": "STMT-AS-TO-BEING-SO-TO-TRUTH",
+  "source_id": "ARIST-MET",
+  "locator": "II.1, 993b30-31",
+  "interpretation": "The chapter's closing inference (ὥσθʼ ἕκαστον ὡς ἔχει τοῦ εἶναι, οὕτω καὶ τῆς ἀληθείας), read as a correspondence of standing said of things: having truth goes with having being, and being more true with being more a being. 'True' is the truth of things, as the context requires: the principles are cause of the posterior things' being true and, being always, are always most true (993b26-30); this is the sense Aquinas gives verum in the quarta via (DEF-ONTOLOGICAL-TRUTH), which cites this sentence. The biconditionals follow the proportional 'as ... so'; no measure, total order or universal comparability is read in. Rejected strengthening: an identity of truth with being. Unformalized narrower reading: the correspondence holds only for the principles of the eternal beings and what they cause, the immediate subject of 993b26-30; under it this claim would overstate the sentence, and a sibling claim should be added if that reading is defended.",
+  "status": "formalized"
+}

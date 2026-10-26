@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-EXISTENCE-FACT",
+  "term": "world-relative existence fact",
+  "definition": "ExistenceFact.fact x is a tagged candidate proposition that individual x exists at the selected world. A token for x is not evidence of actual existence there; existence is still m.ontic.ExistsAt w x. This model intentionally covers existence facts only, not the unrestricted PSR over every truth or state of affairs.",
+  "basis": "stipulative",
+  "note": "A typed analyst model for the existence-PSR scope question in #312. The tag prevents sliding from an individual's causal predecessor to the explanation of an existential fact; it introduces no independently defended ontology of facts.",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.ExistenceFact"
+}

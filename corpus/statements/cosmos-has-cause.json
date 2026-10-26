@@ -1,4 +1,10 @@
 {
   "id": "STMT-COSMOS-HAS-CAUSE",
-  "paraphrase": "The cosmos has a cause."
+  "paraphrase": "The cosmos has a cause.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
 }

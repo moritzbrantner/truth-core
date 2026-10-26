@@ -1,4 +1,10 @@
 {
   "id": "STMT-COSMOS-HAS-DISTINCT-CAUSE",
-  "paraphrase": "The cosmos has a cause distinct from itself."
+  "paraphrase": "The cosmos has a cause distinct from itself.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
 }

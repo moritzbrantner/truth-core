@@ -183,7 +183,7 @@ def CompletedHouseNotBuildableActualityReading
 
 /--
 Conclusion of Aristotle's buildable example in *Physics* III.1, 201b9-15: the actuality of
-the buildable precisely qua buildable is building, and building is a kind of motion.
+the buildable precisely qua buildable is building.
 
 The wrapper preserves the source proposition as an independently identified statement while
 the corresponding verified argument records the disjunctive inference from Aristotle's two
@@ -453,5 +453,34 @@ def TeachingLearningSameMotionDifferentAccountReading
     (ShareUnderlyingMotion : Prop)
     (SameInAccount : Prop) : Prop :=
   ShareUnderlyingMotion ∧ ¬ SameInAccount
+
+/--
+Respect-indexed reading of Aristotle, *Physics* III.1, 201a10-11, in the act/potency
+vocabulary of the *prima via*: a being is being moved in a respect exactly when it is
+potentially that respect and that potency, precisely as a potency, is being actualized
+(ἡ τοῦ δυνάμει ὄντος ἐντελέχεια, ᾗ τοιοῦτον, κίνησίς ἐστιν).
+
+`MovedIn` and `InPotency` are the predicates of
+`TruthCore.Latin.Aquinas.SummaTheologiae.MovedOnlyAsInPotencyReading`. The respect `r`
+plays the part of the outcome in `ChangeAsActualityOfPotentialForOutcomeReading`, and
+`ActualizedQuaPotential x r` stays primitive: it does not decide between actuality and
+actualization, adds no time, mover or completion, and does not say that the potency
+survives the motion's end. Unlike the occurrence readings above, this one speaks of a
+being moved in a respect, not of an occurrence that is a change.
+
+This is a *definitional analysis* of being moved. It makes
+`MovedOnlyAsInPotencyReading` analytic; the formal fact
+`TruthCore.Latin.Aquinas.SummaTheologiae.ActPotencyDefinitionalAnalysesConservative`
+shows that it is also no stronger than that premise while `ActualizedQuaPotential` is
+constrained by nothing else.
+
+Source: Aristotle, *Physics* III.1, 201a10-11 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def BeingMovedIsActualizationOfPotencyReading
+    {Being : Sort u}
+    {Respect : Sort v}
+    (MovedIn InPotency ActualizedQuaPotential : Being → Respect → Prop) : Prop :=
+  ∀ x r, MovedIn x r ↔ InPotency x r ∧ ActualizedQuaPotential x r
 
 end TruthCore.Greek.Aristotle.Physics

@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-SUPPORTS-NOT-ACT-AND-POTENCY",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "note": "The IX.6 analysis entails non-simultaneity, but is no stronger than it (ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE); it explains the premise rather than discharging it."
+}

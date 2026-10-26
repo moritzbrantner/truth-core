@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-CONTINGENT-SCOPE",
+  "term": "contingent-only existence-PSR",
+  "definition": "ContingentPSR requires a stipulated explanation for the existence fact of every individual that actually exists and fails to exist at an accessible world. It does not impose the same demand on an individual existing at every accessible world; that omission is the precise contrast tested here.",
+  "basis": "stipulative",
+  "note": "Analyst-defined variant of PSR for the scope comparison in #312; modal contingency is the already defined ContingentAt from the Kant possible-world model.",
+  "lean_declaration": "TruthCore.Explanation.ExistencePSR.ContingentPSR"
+}

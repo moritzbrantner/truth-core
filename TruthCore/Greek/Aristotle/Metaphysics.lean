@@ -73,13 +73,15 @@ others), so that what is the cause of the posterior things' being true is most
 true.
 
 Read per quality: whatever causes the quality `r` in another thing is more `r`
-than that thing. `CausesIn y x r` says that `y` is the cause of `x`'s being `r`;
-`MoreIn r y x` says that `y` is more `r` than `x`. The quality is the same on both
-sides (*synonymous*); the reading supplies no step from causing one quality to
-being more in another. Read for `r = being` it says that a cause of another's
-being is more a being than it (993b28-31: the principles of the eternal beings
-are cause of being to the others, and as each thing stands to being, so to
-truth).
+than that thing. `CausesIn y x r` says that `y` is a cause of `x`'s being `r`;
+`MoreIn r y x` says that `y` is more `r` than `x`. This is a strengthening of the
+sentence: Aristotle says it of that in virtue of which the *synonymous* quality
+belongs to the others, so of a cause that has the quality in the same sense, while
+`CausesIn` carries no synonymy condition and also covers equivocal or analogical
+causes. The extension is an unattributed open strengthening, not Aristotle's claim.
+The reading supplies no step from causing one quality to being more in another. The
+text does not itself instantiate it at being: 993b26-31 concludes that the
+principles of the eternal beings are most true (see `AsToBeingSoToTruthReading`).
 
 Source: Aristotle, *Metaphysics* II.1, 993b24-31 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
@@ -90,5 +92,32 @@ def CauseOfQualityInAnotherIsMoreSuchReading
     (CausesIn : Entity → Entity → Respect → Prop)
     (MoreIn : Respect → Entity → Entity → Prop) : Prop :=
   ∀ y x r, y ≠ x → CausesIn y x r → MoreIn r y x
+
+/--
+As-to-being-so-to-truth reading of Aristotle, *Metaphysics* II.1, 993b30-31
+(ὥσθʼ ἕκαστον ὡς ἔχει τοῦ εἶναι, οὕτω καὶ τῆς ἀληθείας): as each thing stands
+in respect of being, so it stands in respect of truth.
+
+Read as a correspondence of standing, said of things: a thing has truth exactly
+when it has being (`Has x truth ↔ Has x being`), and one thing is more true than
+another exactly when it is more a being than it
+(`MoreIn truth x y ↔ MoreIn being x y`). `truth` is truth said of things, as the
+context requires (the principles are cause of the posterior things' *being true*
+and are always true, 993b26-30), not the truth of sentences. The reading adds no
+measure, no total order and no claim that every two things are comparable; it
+only says that the two comparisons, and the two predicates, coincide. A
+narrower reading that restricts the correspondence to the principles of the
+eternal beings and what they cause is not formalized here.
+
+Source: Aristotle, *Metaphysics* II.1, 993b30-31 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
+-/
+def AsToBeingSoToTruthReading
+    {Entity : Sort u}
+    {Respect : Sort v}
+    (Has : Entity → Respect → Prop)
+    (MoreIn : Respect → Entity → Entity → Prop)
+    (truth being : Respect) : Prop :=
+  (∀ x, Has x truth ↔ Has x being) ∧ ∀ x y, MoreIn truth x y ↔ MoreIn being x y
 
 end TruthCore.Greek.Aristotle.Metaphysics

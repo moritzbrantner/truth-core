@@ -1,11 +1,12 @@
 {
   "id": "DEF-POTENCY",
   "term": "potency (in potency, in potentia)",
-  "definition": "`InPotency x r`: x is in potency to r, able to be r without being r actually; what is actually hot is at the same time cold in potency. A parameter in Lean, constrained by the same premises as `InAct`; nothing defines it as the negation of act.",
+  "definition": "`InPotency x r`: x is in potency to r, able to be r without being r actually; what is actually hot is at the same time cold in potency. A parameter in Lean, constrained by the same premises as `InAct`; nothing defines it as the negation of act. That gloss, 'able to be r without being r actually', is the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY). If it were made the Lean definition of `InPotency`, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT would become analytic; the analysis is satisfiable exactly when that premise holds (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so this would move the premise's openness to the analysis's fidelity without discharging it. `InPotency` therefore stays a parameter.",
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q2-A3-MOVED-AS-IN-POTENCY-A",
-    "AQUINAS-ST-I-Q2-A3-NOT-ACT-AND-POTENCY-A"
+    "AQUINAS-ST-I-Q2-A3-NOT-ACT-AND-POTENCY-A",
+    "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
 }

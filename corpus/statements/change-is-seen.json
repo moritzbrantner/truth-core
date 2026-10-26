@@ -1,1 +1,1 @@
-{"id": "STMT-CHANGE-IS-SEEN", "paraphrase": "Change in respect of a contradictory pair is seen: some state is the start of a change from not having F to having it, or the reverse (Aristotle: 'now it is always seen to change').", "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.ChangeIsSeenReading"}
+{"id": "STMT-CHANGE-IS-SEEN", "paraphrase": "Change in respect of the contradictory pair is seen: some state is the start of such a change (Aristotle: 'now it is always seen to change').", "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.ChangeIsSeenReading"}

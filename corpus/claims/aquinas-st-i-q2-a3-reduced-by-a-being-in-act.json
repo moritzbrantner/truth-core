@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-BEING-IN-ACT-B",
+  "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., prima via: de potentia autem non potest aliquid reduci in actum, nisi per aliquod ens in actu",
+  "interpretation_of": "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A",
+  "interpretation": "Sibling reading that keeps the sentence's last words: whatever is being reduced from potency to act in a respect is reduced by some being that is in act in that respect, as fire, actually hot, heats the wood. The -A reading formalizes only the existence of a mover and lets 'movet autem aliquid secundum quod est actu' carry the act; this one reads 'per aliquod ens in actu' as an existential claim about some mover, not as the universal claim that every mover is in act. The sentence is the reason Aquinas gives (enim) for 'movet ... secundum quod est actu', so the text also supports deriving the universal claim from it; that stronger reading is the existing MOVES-AS-IN-ACT claim.",
+  "status": "formalized"
+}
