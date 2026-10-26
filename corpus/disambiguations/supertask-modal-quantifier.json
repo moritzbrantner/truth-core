@@ -1,0 +1,6 @@
+{
+  "id": "DISAMB-SUPERTASK-MODAL-QUANTIFIER",
+  "term": "possibility of every finite prefix versus completed infinite task",
+  "sense_definition_ids": ["DEF-SUPERTASK-FINITE-PREFIX-CAPACITY", "DEF-SUPERTASK-UNIFORM-CAPACITY"],
+  "resolution": "The first existential capacity witness may depend on the chosen finite prefix (for every prefix there exists a world). The second fixes one world before quantifying over all prefixes (there exists a world for every prefix). Their inequivalence invalidates that bare quantifier shift but does not refute a supertask supported by a genuinely infinite-capacity world or other independent completion principle."
+}

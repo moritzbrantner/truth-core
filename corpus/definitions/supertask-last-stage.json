@@ -1,0 +1,7 @@
+{
+  "id": "DEF-SUPERTASK-LAST-STAGE",
+  "term": "last constitutive substage",
+  "definition": "A greatest operation index n such that no operation indexed by a larger natural number belongs to the task. This is different from a limit endpoint at which an output may be evaluated.",
+  "basis": "stipulative",
+  "note": "Explicitly isolates the proposed last-step requirement instead of equivocating between a last member of the operation sequence and a separate endpoint. Whether actual completion necessarily requires such a member is an open philosophical premise."
+}

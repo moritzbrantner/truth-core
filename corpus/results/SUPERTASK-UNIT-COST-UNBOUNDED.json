@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-UNIT-COST-UNBOUNDED",
+  "argument_id": "SUPERTASK-UNIT-COST-UNBOUNDED",
+  "challenge_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution",
+  "theorem": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.supertaskUnitCostDiverges",
+  "comparator_config": "results/SUPERTASK-UNIT-COST-UNBOUNDED/comparator.json",
+  "status": "solution-present"
+}

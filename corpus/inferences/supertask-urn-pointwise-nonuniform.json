@@ -1,0 +1,9 @@
+{
+  "id": "INF-SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "rule": "explicit-urn-model-pointwise-versus-uniform-limit",
+  "meaning": "Stage n contains n+1 through 2n. Each fixed ball b disappears after stage b, but at stage n any offset below n names a distinct resident ball. After any purported global empty cutoff, its successor stage still contains a ball.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

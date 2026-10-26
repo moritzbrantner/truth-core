@@ -1,0 +1,8 @@
+{
+  "id": "SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "inference_ids": ["INF-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED"],
+  "meaning": "Two eventually stable Boolean streams are observationally indistinguishable through an arbitrarily chosen finite cutoff yet have different terminal values. The result concerns finite evidence, not the knowability of a fully specified stream.",
+  "definition_ids": ["DEF-SUPERTASK-FINITE-OBSERVATION", "DEF-SUPERTASK-STABLE-LIMIT"]
+}
