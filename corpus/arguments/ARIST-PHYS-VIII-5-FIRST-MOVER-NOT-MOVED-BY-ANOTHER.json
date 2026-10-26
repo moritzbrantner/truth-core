@@ -9,7 +9,7 @@
   "inference_ids": [
     "INF-ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER"
   ],
-  "meaning": "Physics VIII.5, 256a13-21: a mover not moved by another cannot be lacking. Not a transcription: induction on accessibility, and premisesNeeded shows each of the three premises is needed. The conclusion is weaker than the prima via's STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING (the first mover may move itself). Connects results; closes nothing. Scope: its `MovedIn` is shared with the prima via's observation premise; the result is accepted only under a physical instantiation, on which that premise reports sensible (physical) motion (DISAMB-MOTION).",
+  "meaning": "Physics VIII.5, 256a13-21: a mover not moved by another cannot be lacking. Not a transcription: induction on accessibility, and premisesNeeded shows each of the three premises is needed. The conclusion is weaker than the prima via's STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING (the first mover may move itself). Connects results; closes nothing. Scope: its `MovedIn` is shared with the prima via's observation premise; the result is accepted only under a physical instantiation, on which that premise reports sensible (physical) motion (DISAMB-MOTION). The induction consumes the additional accessibility commitment STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER, which has no source claim; the weaker source-level prohibition STMT-NO-INFINITE-DISTINCT-MOVERS-MOVED-BY-ANOTHER is not a substitute for it.",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",
     "DEF-MOTION-AS-REDUCTION",

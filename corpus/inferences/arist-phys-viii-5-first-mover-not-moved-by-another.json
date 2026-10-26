@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
   "rule": "well-founded-induction",
-  "meaning": "Suppose every mover is moved by another. Something is moved, so it has a mover. By induction along the series of movers moved by another, no mover exists: a mover's mover is another mover, also moved by another, hence a link of the series.",
+  "meaning": "Suppose every mover is moved by another. Something is moved, so it has a mover. By induction along the series of movers moved by another, no mover exists: a mover's mover is another mover, also moved by another, hence a link of the series. The induction uses an additional accessibility commitment, not the source claim prohibiting infinitely many distinct movers.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

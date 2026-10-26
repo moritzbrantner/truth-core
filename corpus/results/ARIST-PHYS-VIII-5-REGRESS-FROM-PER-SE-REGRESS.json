@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.movedByAnotherRegressFromPerSeRegress",
   "comparator_config": "results/ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS/comparator.json",
   "status": "solution-present",
-  "description": "The prima via's regress premise, with Physics III.3, entails Physics VIII.5's regress premise. Not a transcription: induction on accessibility through three premises, and premisesNeeded shows each is needed. It shows that VIII.5's premise is no further commitment for the root routes once III.3 is granted; it does not discharge any prima via premise. Connects results; closes nothing."
+  "description": "The prima via's regress premise, with Physics III.3, entails the additional accessibility commitment for the VIII.5 mover relation. Not a transcription: induction on accessibility through three premises, and premisesNeeded shows each is needed. It shows that this accessibility commitment is no further commitment for the root routes once III.3 is granted; it does not discharge any prima via premise. Connects results; closes nothing. Its conclusion is not attributed to Aristotle; the distinct source claim prohibits only infinitely many distinct movers."
 }

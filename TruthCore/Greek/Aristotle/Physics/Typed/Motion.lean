@@ -394,22 +394,37 @@ def EveryMovedThingHasSomeMoverReading {Being : Sort u} {Respect : Sort v}
     (MovesIn : Being → Being → Respect → Prop) : Prop :=
   ∀ x r, MovedIn x r → ∃ y r', MovesIn y x r'
 
-/-- A mover that is moved by another cannot go on to infinity, for among infinitely
-many there is no first (*Physics* VIII.5, 256a17-19: ἀδύνατον γὰρ εἰς ἄπειρον ἰέναι
-τὸ κινοῦν καὶ κινούμενον ὑπʼ ἄλλου αὐτό· τῶν γὰρ ἀπείρων οὐκ ἔστιν οὐδὲν πρῶτον).
+/-- *Physics* VIII.5, 256a17-19 prohibits proceeding to infinity through movers
+moved by another. This weak reading rules out a sequence of infinitely many
+distinct movers linked by `MoverMovedByAnotherLink`. It does not exclude finite
+cycles and does not assert accessibility or supply an induction principle.
 
-Formalized as well-foundedness of `MoverMovedByAnotherLink`, as the *prima via*'s
-regress is formalized. `Acc` also excludes finite cycles and is stronger than
-denying an infinite descending chain; the sentence speaks only of going to
-infinity. The corpus uses the same well-foundedness form for the *prima via*'s
-"non est procedere in infinitum". Unlike that premise it is not restricted to per
-se links: it covers every mover moved by another. A narrower reading, restricted
-to the instrumental series of 256a4-13 (movers that move because they are moved),
-is also defensible and is not formalized. Scope: physical motion, by
-instantiation (no guard).
+The source-level prohibition is kept separate from the stronger, unattributed
+`NoInfiniteSeriesOfMoversMovedByAnotherReading` consumed by the induction proof.
+The broader reading of the links (all movers moved by another) is used here; a
+restriction to the instrumental series of 256a4-13 remains a defensible alternative.
+Scope: physical motion, by instantiation (no guard).
 
 Source: Aristotle, *Physics* VIII.5, 256a17-19 (Bekker pagination).
 -/
+def NoInfiniteDistinctMoversMovedByAnotherReading {Being : Sort u} {Respect : Sort v}
+    (MovesIn : Being → Being → Respect → Prop) : Prop :=
+  ¬ ∃ c : Nat → Being, Function.Injective c ∧
+    ∀ n, MoverMovedByAnotherLink MovesIn (c (n + 1)) (c n)
+
+/-- **Additional commitment, not an attributed source reading.** The relation
+`MoverMovedByAnotherLink` is accessible at every being. The declaration's existing
+name is retained to preserve statement and theorem identities.
+
+This is stronger than the prohibition of infinitely many distinct movers read
+from *Physics* VIII.5, 256a17-19 in
+`NoInfiniteDistinctMoversMovedByAnotherReading`: it also excludes finite cycles
+and supplies the induction principle used by `firstMoverNotMovedByAnother`.
+No claim attributes this additional strength to Aristotle. The transfer result
+`movedByAnotherRegressFromPerSeRegress` derives it conditionally from the
+*prima via*'s accessibility premise, III.3 and the second-movers premise; that
+does not establish it from VIII.5's source-level prohibition. Scope: physical
+motion, by instantiation (no guard). -/
 def NoInfiniteSeriesOfMoversMovedByAnotherReading {Being : Sort u} {Respect : Sort v}
     (MovesIn : Being → Being → Respect → Prop) : Prop :=
   ∀ x, Acc (MoverMovedByAnotherLink MovesIn) x

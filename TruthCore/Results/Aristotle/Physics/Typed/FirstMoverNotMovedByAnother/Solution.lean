@@ -4,8 +4,9 @@ open TruthCore.Greek.Aristotle.Physics.Typed
 open TruthCore.Latin.Aquinas.SummaTheologiae
 
 /-- *Physics* VIII.5, 256a13-21: something is moved; whatever is moved is moved by
-something; and a mover moved by another cannot go on to infinity. So there cannot
-fail to be a mover that is not moved by another.
+something; and the mover relation is accessible at every being (an additional,
+unattributed commitment, stronger than the source prohibition of infinitely many
+distinct movers). So there cannot fail to be a mover not moved by another.
 
 Suppose every mover is moved by another. Something is moved, so something moves.
 By induction along the series of movers moved by another, no mover can exist:

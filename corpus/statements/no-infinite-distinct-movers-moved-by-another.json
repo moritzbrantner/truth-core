@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-INFINITE-DISTINCT-MOVERS-MOVED-BY-ANOTHER",
+  "paraphrase": "There is no sequence of infinitely many distinct movers in which each next member moves the preceding member and is itself moved by another. This prohibits an infinite regress of distinct movers, without excluding finite cycles or asserting accessibility.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteDistinctMoversMovedByAnotherReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOVED-BY-ANOTHER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}
