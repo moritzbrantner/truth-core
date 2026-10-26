@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "rule": "direct-proof",
+  "meaning": "Compose the verified SCOTT-NE-WORLD-ISOLATION and SCOTT-NE-INVARIANT-FILTER-TRIVIAL theorems on the explicit Bool universal frame with one Unit individual. The second theorem proves filtered NE, while the first contradicts full NE because `true` is accessible from `false` but not equal to it. Imported proven conclusions are not added as new open premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

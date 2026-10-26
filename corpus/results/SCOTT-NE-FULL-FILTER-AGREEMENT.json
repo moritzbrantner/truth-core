@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "argument_id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.checks",
+  "comparator_config": "results/SCOTT-NE-FULL-FILTER-AGREEMENT/comparator.json",
+  "status": "solution-present"
+}

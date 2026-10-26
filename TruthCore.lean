@@ -421,8 +421,11 @@ import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
 import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
 import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
+import TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution
+import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Solution
+import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution
 import TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution
 import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution

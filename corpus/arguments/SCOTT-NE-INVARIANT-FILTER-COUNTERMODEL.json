@@ -1,0 +1,21 @@
+{
+  "id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "inference_ids": [
+    "INF-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL"
+  ],
+  "meaning": "An independently checkable finite countermodel comparing the same model under original full property comprehension and a stipulated world-invariant property filter. The Lean proof imports the two previously verified results rather than restating their conclusions as new premises. The distinction concerns formal definitions; whether either property domain captures a genuine metaphysical essence remains open.",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY",
+    "DEF-WORLD-INVARIANT-PROPERTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}
