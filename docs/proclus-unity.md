@@ -8,6 +8,8 @@ PROCLUS-ET-1-13-TAYLOR` and read, including the opening of proposition 14.
 The witness is Thomas Taylor's 1816 English translation, vol. II, printed
 pp. 300–310, physical PDF pages 806–816. Its exact bytes and text extraction
 are pinned in `corpus/passages/proclus-elements-theology-taylor.json`.
+The proposition-2 wording was also checked against the image of printed
+p. 301 (physical PDF page 807), rather than relying on OCR alone.
 This is a translation reading, not a verified reading of the Greek original.
 The work identifier is local, not an invented CTS identity. Intake is #460;
 this investigation reuses its identical witness records.
