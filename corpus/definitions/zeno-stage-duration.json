@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ZENO-STAGE-DURATION",
+  "term": "Zeno stage duration",
+  "definition": "The length of stage n of the convergent schedule: (1/2)^(n+1), which equals the gap between the start time of stage n+1 and the start time of stage n.",
+  "basis": "stipulative",
+  "note": "Stipulated together with DEF-ZENO-STAGE-TIME; the equality with the gap between stage times is proved, not assumed. A shrinking duration is a mathematical schedule property and supplies no physical mechanism for performing ever-faster stages (SU-REAL).",
+  "lean_declaration": "TruthCore.Causality.zenoStageDuration"
+}

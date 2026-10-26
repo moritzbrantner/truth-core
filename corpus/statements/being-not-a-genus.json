@@ -1,0 +1,12 @@
+{
+  "id": "STMT-BEING-NOT-A-GENUS",
+  "paraphrase": "Being is not a genus in the strict sense (a predicable said of its species in what they are and divided into them by differentiae).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-BEING-AS-ENTITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

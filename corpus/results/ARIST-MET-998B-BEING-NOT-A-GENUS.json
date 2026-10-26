@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "argument_id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.beingNotAGenus",
+  "comparator_config": "results/ARIST-MET-998B-BEING-NOT-A-GENUS/comparator.json",
+  "status": "solution-present",
+  "description": "A three-step reductio over a typed predication structure (terms, genera, differentiae, essential predication); being-not-a-genus is derived, not assumed, and each premise is shown necessary by a countermodel. The conclusion concerns the strict sense of genus only (DISAMB-GENUS)."
+}

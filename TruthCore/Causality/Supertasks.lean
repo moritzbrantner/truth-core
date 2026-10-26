@@ -2,7 +2,12 @@ namespace TruthCore.Causality
 
 /-- An abstract order with stages indexed by the natural numbers and a separate
 limit endpoint. This is an order model, not yet a physical clock or a claim
-that infinitely many physical operations can occur in finite time. -/
+that infinitely many physical operations can occur in finite time.
+
+It is a hand-rolled ω+1 (Mathlib's `WithTop ℕ` has the same shape). It is
+kept because it predates the Mathlib dependency and frozen Challenges state
+their theorems over it (AGENTS.md invariant 12); its order is related to real
+time in `TruthCore.Causality.ConvergentSchedule`. -/
 inductive SupertaskMoment where
   | stage (index : Nat)
   | limit

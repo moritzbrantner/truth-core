@@ -16,7 +16,7 @@ that principle, not conceal it in the definition of *completed*.
 
 | Example | Mathematical outcome | What follows, and what does not |
 | --- | --- | --- |
-| Geometrically shortening durations, $\sum_{k=1}^{\infty}2^{-k}$ | The ordinary partial sums $s_n=1-2^{-n}$ approach **1**. No stage is last; all stage times are before the endpoint. | A *finite-time schedule* and an abstract limit are mathematically coherent. Physical execution, causal completion and a particular endpoint state are not thereby established. |
+| Geometrically shortening durations, $\sum_{k=1}^{\infty}2^{-k}$ | The ordinary partial sums $s_n=1-2^{-n}$ approach **1**. No stage is last; all stage times are before the endpoint (Lean-verified: `CONVERGENT-ZENO-SCHEDULE`). | A *finite-time schedule* and an abstract limit are mathematically coherent. Physical execution, causal completion and a particular endpoint state are not thereby established. |
 | Uniform positive duration, $1+1+1+\cdots$ | Partial sums are $n$ and are unbounded. | With a fixed positive minimum duration per operation, an omega sequence cannot fit into a finite duration budget. **The cost assumption matters.** |
 | Alternating unit changes, $1-1+1-1+\cdots$ | Ordinary partial sums alternate between 1 and 0 and have **no ordinary limit**. | An endpoint state need not be defined by the preceding values. Generalized summation methods are separate conventions, not ordinary convergence. |
 | A constant or eventually constant Boolean output after each stage | The output has a stable terminal value. | No **last indexed operation** is necessary for a well-defined *abstract* limit value under the specified semantics. |
@@ -54,11 +54,44 @@ Solution, inference application, argument and Comparator record.
    It establishes a *conditional impossibility* for a fixed-positive-cost
    schedule, not an impossibility result for all omega sequences.
 
-The convergent geometric sum and oscillating numerical series above are
-mathematical **illustrations**, not additional Lean-verified limit theorems.
-The first Lean model proves order-plus-stability coherence only; it does not
-encode metric convergence of the geometric series. Nor does an eventually
-stable Boolean terminal value supply a physical mechanism for attaining it.
+The oscillating numerical series above is a mathematical **illustration**,
+not a Lean-verified limit theorem. The first Lean model proves
+order-plus-stability coherence only; the convergent geometric schedule is
+verified separately below. Neither supplies a physical mechanism for
+attaining an eventually stable Boolean terminal value.
+
+## The convergent Zeno schedule in real time
+
+**`CONVERGENT-ZENO-SCHEDULE`** (`TruthCore.Causality.ConvergentSchedule`, the
+first result built on Mathlib) gives the omega-plus-one order of
+`SUPERTASK-STABLE-ENDPOINT` a real-valued clock:
+
+$$t_n = 1-\left(\tfrac12\right)^n,\qquad d_n=\left(\tfrac12\right)^{n+1},\qquad t_{\text{limit}}=1.$$
+
+The Lean theorem proves, with Mathlib's `StrictMono`, `Tendsto` and `HasSum`:
+
+1. the stage times are strictly increasing and all below 1;
+2. they converge to the endpoint's time 1 (`Tendsto t atTop (𝓝 1)`), although
+   no stage time equals 1;
+3. each duration is the gap to the next stage, $d_n = t_{n+1}-t_n$, and the
+   durations sum to 1;
+4. reading `SupertaskMoment.stage n` at $t_n$ and `SupertaskMoment.limit` at 1
+   is an order embedding: `SupertaskPrecedes a b` holds exactly when $a$ is
+   read before $b$.
+
+So infinitely many stages, none of them last, fit before a finite endpoint
+with finite total duration. This is the convergent counterpart of
+`SUPERTASK-UNIT-COST-UNBOUNDED`: what blocks a finite budget there is the
+fixed positive cost per stage, not the number of stages. Like the other
+controls, it is a **mathematical model**. It does not show that infinitely
+many distinct physical operations can be performed in finite time (SU-REAL,
+#318 stays open), that the endpoint has a coherent output (the alternating
+output can run on this same schedule), or that anything explains the
+completion (SU-GROUND). Convergence of clock times
+(`DEF-REAL-SEQUENCE-CONVERGENCE`) is a different notion of limit from the
+stable Boolean output (`DEF-SUPERTASK-STABLE-LIMIT`); see
+`DISAMB-SUPERTASK-LIMIT-NOTION`. Its Comparator config permits Mathlib's
+three standard axioms ([axiom policy](axiom-policy.md)).
 
 ## Strongest objection and strongest reply
 

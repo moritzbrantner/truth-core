@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ZENO-MOMENT-CLOCK",
+  "term": "clock reading of a supertask moment",
+  "definition": "The real time assigned to each moment of the omega-plus-one supertask order (SupertaskMoment): stage n is read at its Zeno stage time and the distinct limit endpoint at time 1. It is an order embedding when SupertaskPrecedes a b holds exactly when a is read strictly before b.",
+  "basis": "stipulative",
+  "note": "Connects the metric schedule to the existing order vocabulary of TruthCore.Causality.Supertasks instead of a parallel stage type. The endpoint's time is stipulated as 1; the proved convergence of the stage times to 1 is what makes that choice the limit of the schedule rather than an arbitrary later time.",
+  "lean_declaration": "TruthCore.Causality.zenoMomentTime"
+}

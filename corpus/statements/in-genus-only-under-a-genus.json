@@ -1,0 +1,9 @@
+{
+  "id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
+  "paraphrase": "Whatever a thing is in properly, as a species is contained under its genus, is a genus in the strict sense.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.InGenusOnlyUnderAGenusReading",
+  "definition_ids": [
+    "DEF-IN-GENUS-PROPERLY",
+    "DEF-GENUS-STRICT"
+  ]
+}

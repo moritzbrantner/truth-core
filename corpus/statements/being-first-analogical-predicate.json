@@ -1,0 +1,10 @@
+{
+  "id": "STMT-BEING-FIRST-ANALOGICAL-PREDICATE",
+  "paraphrase": "In predications all univocal predicates are reduced to one first predicate which is not univocal but analogical, namely being.",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

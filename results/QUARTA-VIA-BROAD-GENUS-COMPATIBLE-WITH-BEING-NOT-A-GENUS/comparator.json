@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.broadGenusReadingCompatibleWithBeingNotAGenus"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-MET-1003A-BEING-SAID-PROS-HEN-A",
+  "statement_id": "STMT-BEING-SAID-PROS-HEN",
+  "source_id": "ARIST-MET",
+  "locator": "IV.2, 1003a33-b10",
+  "interpretation": "Read as stated: being is said in many ways, but in relation to one nature and one principle and not homonymously, as 'healthy' is said of what preserves, produces, signifies or receives health; some things are called beings as substances, others as affections of substance, a way to substance, its destructions, privations, qualities, or what produces it. Not formalized. It supplies the 'pros hen' sense of DEF-BEING-ANALOGICAL; it does not say that being admits of more and less, nor that the primary sense is God (the primary here is substance).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

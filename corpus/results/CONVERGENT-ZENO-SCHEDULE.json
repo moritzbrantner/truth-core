@@ -1,0 +1,10 @@
+{
+  "id": "CONVERGENT-ZENO-SCHEDULE",
+  "argument_id": "CONVERGENT-ZENO-SCHEDULE",
+  "challenge_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Solution",
+  "theorem": "TruthCore.Results.Causality.ConvergentZenoSchedule.convergentZenoSchedule",
+  "comparator_config": "results/CONVERGENT-ZENO-SCHEDULE/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: the real-analysis facts are proved in Mathlib (strict monotonicity, convergence to 1, geometric HasSum) and the clock is shown to be an order embedding of the existing SupertaskMoment order. First Mathlib-based result; its Comparator config permits exactly propext, Classical.choice and Quot.sound (docs/axiom-policy.md). A mathematical model only; SU-REAL (#318) stays open."
+}

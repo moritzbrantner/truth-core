@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-BEING-NOT-A-GENUS-A",
+  "statement_id": "STMT-BEING-NOT-A-GENUS",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., second proof: Ostendit autem Philosophus in III Metaphys., quod ens non potest esse genus alicuius",
+  "interpretation": "Read as Aquinas' acceptance of Aristotle's conclusion: being is not a genus (strict sense). 'Genus alicuius' (a genus of anything) is not weakened; the Lean statement says only that being is not a genus, which is what the second proof uses.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

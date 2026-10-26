@@ -8,10 +8,12 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 import TruthCore.Case.Catholicism.StageOneQuintaVia
 import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Case.Catholicism.StagesOneTwo
+import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.LocalTransmission
+import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.Supertasks
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
@@ -34,6 +36,7 @@ import TruthCore.Explanation.ExistencePSR
 import TruthCore.German.Kant.CosmologicalInference
 import TruthCore.Greek.Aristotle.Categories
 import TruthCore.Greek.Aristotle.Metaphysics
+import TruthCore.Greek.Aristotle.MetaphysicsIII3
 import TruthCore.Greek.Aristotle.MetaphysicsIV7
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
@@ -129,10 +132,12 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaGenus
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
@@ -183,6 +188,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.Solution
@@ -199,6 +205,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.WeakReadingDoesNo
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectorRegress.Solution
@@ -215,6 +223,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solutio
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSe.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
+import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair.Solution
 import TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle.Solution
 import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
@@ -351,6 +360,7 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
+import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
@@ -358,6 +368,7 @@ import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution

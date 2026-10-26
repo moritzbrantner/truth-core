@@ -1,0 +1,16 @@
+{
+  "id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-BROAD-GENUS-READING-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "inference_ids": [
+    "INF-QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS"
+  ],
+  "meaning": "Model, from no premises: being-not-a-genus (with its three premises) is consistent with the broad genus principle and the whole quarta via. The objection that being is not a genus therefore does not refute STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS as read; it does not show the premise true either.",
+  "definition_ids": [
+    "DEF-GENUS-BROAD",
+    "DEF-GENUS-STRICT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS"
+  ]
+}

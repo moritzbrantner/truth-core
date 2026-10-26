@@ -1,0 +1,7 @@
+{
+  "id": "DEF-UNCONDITIONAL-SUM",
+  "term": "sum of infinitely many durations",
+  "definition": "A family of real numbers f n has sum S when the finite partial sums over finite sets of indices converge to S along the directed set of all finite sets; in Lean this is Mathlib's HasSum f S. For the nonnegative stage durations used here it coincides with the ordinary limit of the partial sums f 0 + ... + f (n-1).",
+  "basis": "stipulative",
+  "note": "The standard Mathlib notion of an infinite sum, which does not depend on the order of the terms. For a conditionally convergent series it is stronger than convergence of ordered partial sums (docs/supertasks.md, scheduling/order sensitivity); that difference does not arise for the nonnegative Zeno durations."
+}

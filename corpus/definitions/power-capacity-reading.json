@@ -1,0 +1,7 @@
+{
+  "id": "DEF-POWER-CAPACITY-READING",
+  "term": "causal power as capacity or disposition",
+  "definition": "A bearer can bring about an effect under suitable conditions, whether or not it is currently producing an effect. Possessing such a capacity alone does not assert any present exercise, causal transmission, or sufficient ground for the capacity's own existence.",
+  "basis": "stipulative",
+  "note": "An alternative sense retained for the #319 disambiguation, not an attributed source reading or a new Lean predicate. The current Profile models a designated actually transmitted power, not every ability or metaphysical potency. An adequate capacity semantics would need further conditions, activation and time/respect parameters."
+}

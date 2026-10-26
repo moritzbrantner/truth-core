@@ -1,0 +1,13 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
+  "input_statement_ids": [
+    "STMT-BEING-NOT-A-GENUS",
+    "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
+    "STMT-GENUS-OF-GOD-WOULD-BE-BEING"
+  ],
+  "output_statement_id": "STMT-GOD-IN-NO-GENUS",
+  "rule": "reductio",
+  "meaning": "Suppose God is in a genus g. Then g is a genus, and g is being; so being would be a genus, which it is not.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DEF-GENUS-BROAD",
+  "term": "genus (broad: a perfection admitting more and less)",
+  "definition": "The index `r : Respect` of the quarta via's genus principle (`MaximumInGenusCausesAllInGenusReading`): a perfection such as heat, goodness or being, whose bearers are more and less such by approach to what is maximally such. It need not be a strict genus: heat in the example is a quality, not a genus of hot things, and being is not a strict genus.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
+    "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+}

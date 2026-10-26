@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-Q13-A5-NAMES-ANALOGICAL-A",
+  "statement_id": "STMT-DIVINE-NAMES-ANALOGICAL",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.13 a.5 co.: huiusmodi nomina dicuntur de Deo et creaturis secundum analogiam, idest proportionem",
+  "interpretation": "Read as stated: names of perfections are said of God and creatures neither univocally (one ratio) nor purely equivocally (wholly diverse rationes) but by analogy, which Aquinas glosses as proportion and divides into many-to-one (urine and medicine to the health of the animal) and one-to-another (medicine to the animal's health); God and creatures are of the second kind, by the order of the creature to God as principle and cause. Not formalized. Whether this analogy is of attribution, of proportionality, or both (Cajetan vs. Suárez) is not decided by the claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}
