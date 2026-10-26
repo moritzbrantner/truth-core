@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+  "term": "FiniteDistinctAncestry",
+  "definition": "Every relatum has finitely many distinct upstream ancestors reachable by a nonempty finite path in the supplied causal relation; no modal or temporal bound is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.FiniteDistinctAncestry",
+  "basis": "stipulative",
+  "note": "Unattributed analyst vocabulary for #367, not a reading of Pruss or Koons. Uses Mathlib Set.Finite on {y | Relation.TransGen cause y x}; includes indirect ancestors and counts distinct relata, allowing repeated visits unless loops are separately excluded. Source scope and remaining gaps: docs/notes/causal-finitism-367.md."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-HISTORY-NO-LOOPS",
+  "term": "NoCausalLoops",
+  "definition": "No nonempty finite path in the supplied causal relation returns to its start.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.NoCausalLoops",
+  "basis": "stipulative",
+  "note": "Unattributed analyst vocabulary for #367, not a reading of Pruss or Koons. Relation.TransGen is Mathlib nonempty finite transitive closure. Source scope and remaining gaps: docs/notes/causal-finitism-367.md."
+}

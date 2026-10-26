@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PER-SE-FINITE-HISTORY-INCLUSION",
+  "term": "PerSeLinksIncluded",
+  "definition": "On the same carrier and with the same upstream orientation, every per se efficient-cause edge belongs to the relation whose causal history is being studied.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.PerSeLinksIncluded",
+  "basis": "stipulative",
+  "note": "Unattributed analyst vocabulary for #367, not a reading of Pruss or Koons. This is relation inclusion, not an event-to-being identification. A source reading on events needs a separately defended translation before applying to Aquinas on beings. Source scope and remaining gaps: docs/notes/causal-finitism-367.md."
+}
