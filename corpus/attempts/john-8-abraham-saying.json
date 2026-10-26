@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-JOHN-8-ABRAHAM-SAYING",
+  "statement_ids": [
+    "STMT-PILOT-JESUS-CLAIMS",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read complete pinned John 8 and 9. Retained Abraham/I-am speech form without deciding its ontological complement; distinguished sending assertion, narrated stones and ordinary identification control. docs/john-abraham-saying.md preserves personal-preexistence, divine-name, delegated/ideal and narrative-development accounts, rejected shortcuts and remaining historical/intertextual obligations. No Exodus witness or named modern scholar is claimed as consulted. Successful textual reading closes no root premise; issue #381 remains open.",
+  "evidence": [
+    "NT-JOHN-ABRAHAM-SAYING",
+    "NT-JOHN-SENDING-ASSERTION",
+    "NT-JOHN-STONE-REACTION",
+    "NT-JOHN-ORDINARY-IDENTIFICATION"
+  ]
+}

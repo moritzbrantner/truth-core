@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-ORDINARY-IDENTIFICATION",
+  "statement_id": "STMT-REPORTED-JOHN-ORDINARY-IDENTIFICATION",
+  "source_id": "NT-JOHN",
+  "locator": "9.8-9",
+  "interpretation": "The neighbors dispute identity and the man answers I am [he]. This ordinary self-identification control blocks a universal divine-name interpretation of the phrase alone; it does not refute a contextual divine reading of John 8.58. See docs/john-abraham-saying.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+  ]
+}
