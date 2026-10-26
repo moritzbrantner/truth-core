@@ -187,6 +187,16 @@ conclusion differs from #386's genus-principle derivation, not because those
 conditions were refuted. See [maximum-order-schema.md](maximum-order-schema.md)
 for the exact proof composition, controls, premise comparison and source limits.
 
+## Participation: source audit, schema still open
+
+The [participation source/reuse audit](participation-grounding.md#participation-schema-source-audit-412-359-360)
+pins Taylor's 1816 Proclus propositions 1–13 and Aquinas I q.4 a.3, preserves
+the existing Plato readings, and queues the Proclus range for extraction under
+#359. It identifies rejected causal, self-predicative and uniform-likeness
+shortcuts. **No participation schema or Plato/Proclus/Aquinas instance is
+registered or proved.** The full participation scope of #412 remains open;
+this audit changes no premises or root-route costs.
+
 ## Periodic Audit C, round 3 (2026-10-26)
 
 Frozen main: `088d7706d2541e11c4d0d44f4a3b3205b6ba023b`. The twelve-merge

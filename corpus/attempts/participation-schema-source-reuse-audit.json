@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-PARTICIPATION-SCHEMA-SOURCE-REUSE-AUDIT",
+  "statement_ids": [
+    "STMT-PLATONIC-PARTICIPATION-PREDICATION",
+    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+    "STMT-PLATONIC-BEAUTY-ESSENTIAL-CHARACTERIZATION",
+    "STMT-PLATONIC-ESSENTIAL-CHARACTERIZATION",
+    "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE"
+  ],
+  "date": "2026-10-26",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Issue #412 participation schema source/reuse audit. Materialized/read PLATO-PHAEDO-100, AQUINAS-ST-I-Q44-A1, AQUINAS-ST-I-Q4-A2, AQUINAS-ST-I-Q4-A3 and AQUINAS-ST-I-Q3-A8. Obtained and materialized PROCLUS-ET-1-13-TAYLOR: Taylor 1816 translation, Internet Archive thomastaylor, physical PDF pages 806–816 (printed pp. 300–310), complete propositions 1–13 and opening context of 14. The smaller PDF was image-only; the _text.pdf witness supplies extractable OCR. Rejected participation-implies-efficient-cause, essence-implies-ordinary-self-predication, symmetric likeness, and automatic essential-source extraction as common laws supplied by the present records. Plato leaves the manner open; the general essential-characterization commitment is explicitly unattributed; q44 explicitly adds its essential-source causal principle; q4a3 distinguishes analogical effect-to-source likeness; Proclus props. 2–5 use distinct senses/respects and further priority/no-regress conditions. The existing grounding-independence result and Third Man sensitivity models discriminate several proposed bridges, but do not refute all possible participation schemas. Full findings and exact reusable theorem names are preserved in docs/participation-grounding.md. No instance_of_schema registration, new philosophical claim, proof of an impossible schema, or frontier closure is asserted.",
+  "evidence": [
+    "PLATO-PHAEDO-100D-PARTICIPATION-THIN",
+    "PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY",
+    "PLATO-PHAEDO-100B-BEAUTY-ESSENTIAL",
+    "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+    "PARTICIPATION-GROUNDING-INDEPENDENT",
+    "THIRD-MAN-SENSITIVITY"
+  ],
+  "blocker": "A substantive common inference with separately justified domain conditions has not yet been identified. Model the Proclus unity/participant distinction and the Aquinas analogical/essential-esse conditions independently before selecting the common theorem; do not add bridges merely to make schema registration pass. Preserve the full Plato/Proclus/Aquinas scope of issue #412."
+}
