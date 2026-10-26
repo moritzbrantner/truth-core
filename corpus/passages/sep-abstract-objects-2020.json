@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SEP-ABSTRACT-OBJECTS-2020",
+    "source_url": "https://plato.stanford.edu/archives/fall2020/entries/abstract-objects/",
+    "retrieved_at": "2026-10-26T18:33:15Z",
+    "sha256": "sha256:7341f0608126c3cee9fa62f9191f9e9b8993fa2922e6e4d7321e1e1b37aae52b",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright Stanford Encyclopedia of Philosophy and author; no text reproduced in repository. Hash and selectors only."
+  },
+  "passages": [
+    {
+      "id": "SEP-ABSTRACT-OBJECTS-2020-CRITERIA",
+      "locator": "sections 1\u20137 (especially 3.1\u20133.2)",
+      "claim_locator_prefixes": [
+        "3.1",
+        "3.2"
+      ],
+      "html_selector": {
+        "element_id": "main-text"
+      },
+      "text_sha256": "sha256:a6497e264d11df7acd3d0f22e7d6526533b9f5ae084a96117b60f3d47f25b23f",
+      "incipit": "1. Introduction\nThe abstract/concrete distinction has a curious status in"
+    }
+  ]
+}

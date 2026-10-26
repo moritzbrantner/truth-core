@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTERVENTION-RESPONSE-CAPACITY",
+  "term": "intervention response capacity",
+  "definition": "Response W I is I → I → W → Bool → Bool. Capacity F ex r x w means an accessible v contains existing distinct x and y, and activating x changes y’s output relative to deactivating x at that same v. Disciplined ex r requires no output when deactivated, and true activated output only with distinct existing endpoints. This is a stipulated causal interpretation of intervention inputs, not an inference from mere correlation. Capacity does not require actual exercise at w, independence, an explanation of existence or necessary existence.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Capacity",
+  "basis": "stipulative",
+  "note": "Analyst commitment for #435. Strengthens the earlier unimplemented capacity sense with an explicit finite response signature and endpoint discipline. Not attributed to Rosen or a general analysis of metaphysical causation; see docs/necessary-concrete-causal-powers.md for source assessment and limitations."
+}

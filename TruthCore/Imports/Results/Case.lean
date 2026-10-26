@@ -15,6 +15,7 @@ import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
