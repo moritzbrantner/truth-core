@@ -49,13 +49,13 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
     id: "transcription",
     label: "Transcription only",
     description:
-      "Conclusion only of results whose proof applies one premise (invariant 16 heuristic); verified, but not progress by itself. It is closed (off the frontier) only when every premise of such a result is closed.",
+      "Conclusion only of transcription results (invariant 16): declared in the result record, or a proof that applies one premise or only assembles premises; verified, but not progress by itself. It is closed (off the frontier) only when every premise of such a result is closed.",
   },
   { id: "self-evident", label: "Self-evident", description: "Marked self_evident with a sourced justification." },
   {
     id: "defended",
     label: "Alternatives refuted",
-    description: "Every recorded alternative is refuted by a verified argument.",
+    description: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
   },
   { id: "alternative", label: "Alternative", description: "Recorded as an alternative to another statement." },
   { id: "objection", label: "Objection", description: "Recorded as an objection attacking another statement." },
@@ -133,7 +133,7 @@ export type PropositionGraphInput = {
   arguments: CorpusArgumentInput[];
   results: CorpusResultInput[];
   relations: CorpusRelationInput[];
-  /** Result IDs flagged by the transcription heuristic (see lean-transcription.ts). */
+  /** Transcription result IDs: `transcription_results` of `corpus.py frontier --json`. */
   transcriptionResultIds: string[];
 };
 
@@ -168,7 +168,7 @@ export type GraphStatement = {
    * premises are closed ("closed via transcription from closed premises").
    */
   closedViaTranscription?: { resultId: string; argumentId: string; premises: string[] };
-  /** Refuted by an argument with a verified result (`refutes`). */
+  /** Refuted by a counted `refutes`: a verified argument whose premises are all closed. */
   refuted: boolean;
   selfEvidentJustification: string[];
   tags: string[];
@@ -319,8 +319,6 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
     if (relation.predicate === "alternative_to") {
       push(alternatives, relation.object_id, relation.subject_id);
       alternativeSubjects.add(relation.subject_id);
-    } else if (relation.predicate === "refutes" && verifiedArguments.has(relation.subject_id)) {
-      refuted.add(relation.object_id);
     } else if (relation.predicate === "attacks" && relation.subject_kind === "statement") {
       objectionSubjects.add(relation.subject_id);
     }
@@ -340,6 +338,11 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
     }
   }
 
+  // A refutation counts only when its argument is verified and its premises
+  // are all closed (#391); the Python report decides which do.
+  for (const statementId of report.refuted_statements) {
+    refuted.add(statementId);
+  }
   const frontierById = new Map(report.items.map((item) => [item.statement_id, item]));
   const established = new Set(report.established_statements);
   const closedViaTranscription = new Map(

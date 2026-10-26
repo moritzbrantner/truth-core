@@ -19,9 +19,24 @@ describe("state of the case (#200)", () => {
     expect(statementState(report, "STMT-CATHOLICISM-TRUE")).toMatchObject({ kind: "closed", established: false });
   });
 
-  test("transcriptions are the single-application results", () => {
+  test("transcriptions are the results corpus.py lists as transcriptions", () => {
     const transcriptions = corpus.results.filter((result) => resultKind(report, result.id).kind === "transcription");
-    expect(transcriptions.length).toBe(report.transcription_flags.filter((flag) => flag.single_application_of).length);
+    expect(transcriptions.length).toBe(Object.keys(report.transcription_results).length);
+    // Declared in the record (#391), or found by the single-application and assembly heuristics.
+    for (const result of corpus.results) {
+      const declared = result.transcription;
+      if (declared) expect(resultKind(report, result.id).transcription).toEqual({ kind: declared, declared: true });
+    }
+    for (const flag of report.transcription_flags) {
+      if (flag.single_application_of || flag.assembly_of) expect(resultKind(report, flag.result_id).kind).toBe("transcription");
+    }
+  });
+
+  test("a refutation counts only from closed premises", () => {
+    for (const refutation of report.refutations) {
+      expect(report.refuted_statements.includes(refutation.statement_id) || !refutation.counted).toBe(true);
+      if (refutation.counted) expect(refutation.open_premise_statement_ids).toEqual([]);
+    }
   });
 
   test("resolves every statement's Lean declaration and every advertised theorem", () => {
