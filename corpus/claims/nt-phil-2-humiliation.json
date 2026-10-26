@@ -1,0 +1,14 @@
+{
+  "id": "NT-PHIL-2-HUMILIATION",
+  "statement_id": "STMT-REPORTED-PHIL-HUMILIATION",
+  "source_id": "NT-PHIL",
+  "locator": "2.7-8",
+  "interpretation": "Third-person epistolary assertion, not Jesus’s self-claim or an established event. The letter presents Christ Jesus as emptying himself by taking slave form in human likeness, and as found human, humbling himself in obedience through death on a cross. See docs/philippians-christology.md for semantic alternatives and historical gaps.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PHIL-CHRISTOLOGY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHIL-CHRISTOLOGY"
+  ]
+}

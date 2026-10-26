@@ -1,0 +1,14 @@
+{
+  "id": "NT-PHIL-2-FORM-AND-EQUALITY",
+  "statement_id": "STMT-REPORTED-PHIL-FORM-AND-EQUALITY",
+  "source_id": "NT-PHIL",
+  "locator": "2.6",
+  "interpretation": "Third-person epistolary assertion, not Jesus’s self-claim or an established event. The letter presents Christ Jesus as existing in God’s form and not regarding being equal with God as harpagmos; the disputed noun is retained without choosing acquisition, retention or exploitation. See docs/philippians-christology.md for semantic alternatives and historical gaps.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PHIL-CHRISTOLOGY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHIL-CHRISTOLOGY"
+  ]
+}

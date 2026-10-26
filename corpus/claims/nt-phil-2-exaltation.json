@@ -1,0 +1,14 @@
+{
+  "id": "NT-PHIL-2-EXALTATION",
+  "statement_id": "STMT-REPORTED-PHIL-EXALTATION",
+  "source_id": "NT-PHIL",
+  "locator": "2.9-11",
+  "interpretation": "Third-person epistolary assertion, not Jesus’s self-claim or an established event. The letter presents God as highly exalting Christ Jesus and granting the name above every name, with the purpose that every knee in heaven, earth and under earth bow at Jesus’s name and every tongue confess Jesus Christ as Lord, to God the Father’s glory. See docs/philippians-christology.md for semantic alternatives and historical gaps.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PHIL-CHRISTOLOGY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHIL-CHRISTOLOGY"
+  ]
+}
