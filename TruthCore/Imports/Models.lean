@@ -2,6 +2,7 @@
 import TruthCore.Models.ActPotency
 import TruthCore.Models.ActPotencyRemaining
 import TruthCore.Models.FiniteSupport
+import TruthCore.Models.NecessaryIndividual
 import TruthCore.Models.Order
 import TruthCore.Models.OrderSecondary
 import TruthCore.Models.PSR
