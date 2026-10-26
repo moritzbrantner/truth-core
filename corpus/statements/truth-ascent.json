@@ -1,0 +1,11 @@
+{
+  "id": "STMT-TRUTH-ASCENT",
+  "paraphrase": "Truth ascent: if a content is absolutely true, the content saying that it is true is absolutely true as well.",
+  "lean_declaration": "TruthCore.Logic.Relativism.TruthAscent",
+  "definition_ids": [
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

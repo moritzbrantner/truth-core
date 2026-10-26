@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-IN-OWN-SCOPE",
+  "paraphrase": "Scope premise: the formulation of the no-absolute-truth thesis is itself one of the contents its scope covers.",
+  "lean_declaration": "TruthCore.Logic.Relativism.ThesisInOwnScope",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

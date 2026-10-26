@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-ABSOLUTE-TRUTH-SCOPED",
+  "paraphrase": "No content within a given scope is absolutely true. With every content in scope this is the thesis that there is no absolute truth. It says nothing about truth relative to an agent.",
+  "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruth",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

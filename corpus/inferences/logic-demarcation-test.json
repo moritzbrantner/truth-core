@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-DEMARCATION-TEST",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DEMARCATION-TEST",
+  "rule": "constructive-proof",
+  "meaning": "Second-order self-application test for a weak thesis that restricts a strong norm to a demarcated domain, premise-free: inside its own domain the strong dilemma returns; outside it, an acceptable weak thesis is a concession that defeats the strong norm.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

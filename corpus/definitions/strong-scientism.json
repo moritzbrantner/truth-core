@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRONG-SCIENTISM",
+  "term": "strong scientism",
+  "definition": "Every established claim in scope is empirically established, with every claim to knowledge in scope (`ScopedScientism E scope`).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Scientism.ScopedScientism",
+  "note": "Unattributed until a pinned or bibliographic witness for a defender exists (#378)."
+}

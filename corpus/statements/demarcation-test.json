@@ -1,0 +1,9 @@
+{
+  "id": "STMT-DEMARCATION-TEST",
+  "paraphrase": "Second-order self-application test for any weak thesis that restricts a strong norm to a demarcated domain: for a claim in the strong scope that fails the standard, if the claim lies inside the domain the restricted norm inherits the strong dilemma; if it lies outside and is acceptable, it is a concession (an acceptable claim in the strong scope failing the standard) and the strong norm fails.",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.DemarcationTest",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-DEMARCATION-RESTRICTION"
+  ]
+}

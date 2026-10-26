@@ -43,6 +43,7 @@ Lean verifies **consequence**, not premise truth. Premise truth is defended by f
 | 2026-10-24 | Discharge of `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`: support **both** versions side by side, (a) proving the fuller description and (b) defending the reduced one. **Each statement has its own unique ID**; `corpus.py check` enforces one statement per Lean declaration. | #143 |
 | 2026-10-24 | Stage 2: keep the skeleton field `HasClassicalAttributes`, add one open definitional bridge sourced from *Dei Filius* ch. 1, and derive each attribute from ST I qq.3–26, one PR per attribute group (first: one, simple, perfect, good). | #143 |
 | 2026-10-24 | Third Way: the eternal-world hypothesis plus the finite-past horn (SCG I.13), and a `supports` relation for `STMT-PAST-IS-INFINITE`. Fifth Way: ST I q.103 plus a regress of directors. | #143 |
+| 2026-10-26 | Claim-vs-type pre-push check added to the worker self-sweep (AGENTS.md step 8); PRs forecast and report their change in root-path open premises. | #143 |
 
 ## Modeling decisions worth knowing
 

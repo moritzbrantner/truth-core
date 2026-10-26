@@ -22,6 +22,6 @@ export function getPropositionGraph(corpus: Corpus = getCorpus()): PropositionGr
     arguments: corpus.arguments,
     results: corpus.results,
     relations: corpus.relations,
-    transcriptionResultIds: report.transcription_flags.filter((flag) => flag.single_application_of).map((flag) => flag.result_id),
+    transcriptionResultIds: Object.keys(report.transcription_results),
   }, report);
 }

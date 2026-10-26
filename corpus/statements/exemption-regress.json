@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EXEMPTION-REGRESS",
+  "paraphrase": "Whoever holds that nothing in scope is absolutely true while exempting an absolutely true thesis must exempt every truth-ascent iterate of that thesis as well: the thesis, \"the thesis is true\", \"'the thesis is true' is true\", and so on.",
+  "lean_declaration": "TruthCore.Logic.Relativism.ExemptionRegress",
+  "definition_ids": [
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

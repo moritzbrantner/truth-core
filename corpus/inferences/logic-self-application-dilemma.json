@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-SELF-APPLICATION-DILEMMA",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SELF-APPLICATION-DILEMMA",
+  "rule": "constructive-proof",
+  "meaning": "The reusable retorsion schema, premise-free: a claim in a norm's scope that fails its standard is unacceptable if the norm holds and a counterexample if it is acceptable.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

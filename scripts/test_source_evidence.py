@@ -6,6 +6,7 @@ import contextlib
 import copy
 import io
 import json
+import subprocess
 import tempfile
 import unittest
 from unittest import mock
@@ -431,6 +432,62 @@ class TranslationBasisTest(unittest.TestCase):
         with self.assertRaisesRegex(se.SourceEvidenceError, "overlaps pinned witness LATIN"):
             se.validate_web_snapshot_ranges(passages)
         se.validate_web_snapshot_ranges({"LATIN": (path, self.LATIN), "ENGLISH": (path, self.ENGLISH)})
+
+
+class PullRequestScopeTest(unittest.TestCase):
+    """`verify --base` refetches only the passages whose manifests a change touches."""
+
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.root = Path(directory.name)
+        passages_dir = self.root / "corpus" / "passages"
+        passages_dir.mkdir(parents=True)
+        first = web_passage({"from": {"anchor": "13"}, "to": {"anchor": "14"}}, id="WEB-A")
+        second = web_passage({"from": {"anchor": "13"}}, id="WEB-B", source_url="https://example.org/other.htm")
+        self.passages = {
+            "WEB-A": (passages_dir / "a.json", first),
+            "WEB-A2": (passages_dir / "a.json", dict(first, id="WEB-A2")),
+            "WEB-B": (passages_dir / "b.json", second),
+        }
+
+    def select(self, changed: list[str]) -> set[str] | None:
+        return se.changed_passage_ids(changed, self.passages, self.root)
+
+    def test_selects_every_passage_of_a_changed_manifest(self) -> None:
+        self.assertEqual(self.select(["corpus/passages/a.json", "corpus/claims/x.json"]), {"WEB-A", "WEB-A2"})
+
+    def test_unrelated_or_deleted_files_select_nothing(self) -> None:
+        self.assertEqual(self.select(["TruthCore/X.lean", "corpus/passages/deleted.json"]), set())
+
+    def test_verifier_change_selects_everything(self) -> None:
+        self.assertIsNone(self.select(["scripts/source_evidence.py"]))
+
+    def test_verify_fetches_only_selected_pages(self) -> None:
+        b = self.passages["WEB-B"][1]
+        web = FakeWeb({LIVE_URL: HTML})
+        with mock.patch.object(se, "passage_index", return_value=self.passages), mock.patch.object(
+            se, "validate_bindings", return_value=(3, 0)
+        ) as bindings, mock.patch.object(se, "fetch_web_bytes", web), contextlib.redirect_stdout(io.StringIO()) as out:
+            se.verify_all(passage_ids={"WEB-A", "WEB-A2"})
+        bindings.assert_called_once()
+        # One fetch for the shared page; the unselected page is never requested.
+        self.assertEqual(web.requested, [LIVE_URL])
+        self.assertNotIn(b["source_url"], web.requested)
+        self.assertIn("limited to 2 changed passage(s): WEB-A, WEB-A2; the other 1", out.getvalue())
+
+    def test_git_changed_files(self) -> None:
+        def git(*args: str) -> None:
+            subprocess.run(["git", *args], cwd=self.root, check=True, capture_output=True)
+
+        git("init", "-q")
+        git("-c", "user.email=t@example.org", "-c", "user.name=t", "commit", "-q", "--allow-empty", "-m", "base")
+        (self.root / "corpus" / "passages" / "a.json").write_text("{}")
+        git("add", ".")
+        git("-c", "user.email=t@example.org", "-c", "user.name=t", "commit", "-q", "-m", "add")
+        changed = se.git_changed_files("HEAD^1", "HEAD", self.root)
+        self.assertEqual(changed, ["corpus/passages/a.json"])
+        self.assertEqual(self.select(changed), {"WEB-A", "WEB-A2"})
 
 
 if __name__ == "__main__":

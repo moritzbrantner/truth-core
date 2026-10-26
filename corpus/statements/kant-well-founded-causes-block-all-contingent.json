@@ -1,0 +1,10 @@
+{
+  "id": "STMT-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "paraphrase": "For every Kantian ontic model and world: if every existing contingent being has a distinct existing cause (the local causal principle) and the world's causal relation is well-founded, and something exists at that world, then not every existing being there is contingent. The conclusion negates a universal; it neither names a non-contingent being nor asserts a necessary being, and the generic Kantian Causes is not Aquinas's CausesAsCaused.",
+  "lean_declaration": "TruthCore.Causality.GroundingRegress.WellFoundedCausesBlockAllContingent",
+  "definition_ids": [
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Scientism.WeakConsistent.weakScientismConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

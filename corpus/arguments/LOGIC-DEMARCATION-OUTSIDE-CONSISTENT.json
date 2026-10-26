@@ -1,0 +1,13 @@
+{
+  "id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
+  "inference_ids": [
+    "INF-LOGIC-DEMARCATION-OUTSIDE-CONSISTENT"
+  ],
+  "meaning": "Model: a weak thesis outside its own domain, acceptable and failing the standard, with the restricted norm holding. Weak theses survive self-application.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-DEMARCATION-RESTRICTION"
+  ]
+}

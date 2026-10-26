@@ -1,0 +1,12 @@
+{
+  "id": "PLATO-THEAET-170A-171A-PROTAGORAS-ASSERTS-A",
+  "statement_id": "STMT-PROTAGORAS-ASSERTS-MEASURE",
+  "source_id": "PLATO-THEAET",
+  "locator": "170a-171a",
+  "interpretation": "Protagoras says (φησί, 170a) that what seems to each is so for the one to whom it seems, and wrote this as his Truth (ἣν ἐκεῖνος ἔγραψεν, 171a). Read as: he asserts the measure thesis. That it seems so to him is not attributed: 171a raises his believing it only as the branch \"if he himself believed it\" of a conditional, so sincerity is the separate unattributed open premise STMT-PROTAGORAS-SINCERE.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-ASSERTION-COMMITMENT"
+  ]
+}

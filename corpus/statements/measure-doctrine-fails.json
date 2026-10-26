@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "paraphrase": "The unrestricted measure doctrine fails: not everything that seems so to someone is true for them.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.NotMeasureDoctrine",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-RELATIVE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE"
+  ]
+}

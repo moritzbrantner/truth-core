@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SOURCES-RECEIVE-NO-LINK",
+  "term": "intrinsic sources receive no per se link",
+  "definition": "`SourcesReceiveNoLink R src`: no being R-relates to an intrinsic source, i.e. nothing causes a source as a caused cause.",
+  "basis": "stipulative",
+  "note": "An analyst's condition used only as an antecedent of GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING. Compare UnborrowedPowerAt (DEF-UNBORROWED-POWER-IN-A-RESPECT), which says the same of transmission at one world. Sourcing it would need a passage on the first cause as uncaused in the relevant respect.",
+  "lean_declaration": "TruthCore.Causality.GroundingRegress.SourcesReceiveNoLink"
+}

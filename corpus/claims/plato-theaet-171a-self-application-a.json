@@ -1,0 +1,12 @@
+{
+  "id": "PLATO-THEAET-171A-SELF-APPLICATION-A",
+  "statement_id": "STMT-PERITROPE-SCOPE",
+  "source_id": "PLATO-THEAET",
+  "locator": "171a",
+  "interpretation": "The doctrine is applied to the opinion of the deniers \"about his own opinion\" (περὶ τῆς αὑτοῦ οἰήσεως τὴν τῶν ἀντιδοξαζόντων οἴησιν): the scope of \"all opine what is\" covers the denial of the measure thesis, and the thesis itself. This is the scope premise sourced as the rival's own commitment, as Socrates reconstructs it from Protagoras's account (170a).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-PROTAGOREAN-MEASURE"
+  ]
+}

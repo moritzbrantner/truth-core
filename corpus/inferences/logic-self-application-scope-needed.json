@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+  "rule": "constructive-proof",
+  "meaning": "Countermodel: with the claim outside the norm's scope, the norm holds and the claim is acceptable while failing the standard. The scope premise cannot be omitted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

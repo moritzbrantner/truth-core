@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+  "paraphrase": "Without the scope premise the dilemma fails: there is a norm that holds while an acceptable claim outside its scope fails its standard. A countermodel, not a defense of exempting a norm from itself.",
+  "lean_declaration": "TruthCore.Logic.SelfApplication.ScopePremiseNeeded",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM"
+  ]
+}

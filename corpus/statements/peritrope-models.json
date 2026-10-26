@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PERITROPE-MODELS",
+  "paraphrase": "Two models of the peritropē premises: exempting the denial from the unqualified doctrine is consistent with everything horn 1 uses, and the fully qualified premises of horn 2 are consistent together with no absolute truth at all.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.PeritropeModels",
+  "definition_ids": [
+    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ABSOLUTE-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

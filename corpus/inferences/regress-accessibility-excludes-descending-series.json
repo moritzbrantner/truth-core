@@ -1,0 +1,9 @@
+{
+  "id": "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "rule": "induction-on-accessibility",
+  "meaning": "Induct on the accessibility certificate of the series' last member: a series descending from an accessible being yields, after dropping its first member, a series descending from an accessible cause of it, which the induction hypothesis excludes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

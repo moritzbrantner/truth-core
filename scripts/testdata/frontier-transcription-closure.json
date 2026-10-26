@@ -1,5 +1,5 @@
 {
-  "description": "Shared parity fixture for frontier rule (d): a transcription result closes its conclusion only when all of its premises are closed. Read by scripts/test_corpus_frontier.py and apps/corpus-explorer/src/lib/proposition-graph.test.ts; both must produce the expected frontier, closures and open-premise depths (bare: no stating claim and no supports relation; sourced otherwise).",
+  "description": "Shared parity fixture for frontier rules (c) and (d): a transcription result (heuristic or declared in the result's transcription field, #391) closes its conclusion only when all of its premises are closed, and a refutes relation counts only when its argument's premises are all closed (#391). Read by scripts/test_corpus_frontier.py and apps/corpus-explorer/src/lib/proposition-graph.test.ts; both must produce the expected frontier, closures and open-premise depths (bare: no stating claim and no supports relation; sourced otherwise).",
   "statements": [
     {"id": "SE", "paraphrase": "self-evident", "self_evident": {"justification_ids": ["CL-SE"]}},
     {"id": "OPEN", "paraphrase": "open premise"},
@@ -13,7 +13,12 @@
     {"id": "T5", "paraphrase": "transcribed from PROVED"},
     {"id": "T6", "paraphrase": "transcribed from T3 (open premise upstream)"},
     {"id": "REF", "paraphrase": "refutation of ALT"},
-    {"id": "TOP", "paraphrase": "unverified conclusion using every transcribed statement"}
+    {"id": "TOP", "paraphrase": "unverified conclusion using every transcribed statement"},
+    {"id": "DEF2", "paraphrase": "premise whose only alternative is refuted from an open premise"},
+    {"id": "ALT2", "paraphrase": "alternative to DEF2"},
+    {"id": "REF2", "paraphrase": "conditional refutation of ALT2 from OPEN"},
+    {"id": "D", "paraphrase": "declared opaque-atom transcription from OPEN"},
+    {"id": "D2", "paraphrase": "declared opaque-atom transcription from SE"}
   ],
   "arguments": [
     {"id": "ARG-PROVED", "premise_statement_ids": ["OPEN"], "conclusion_statement_id": "PROVED", "inference_ids": ["I-PROVED"], "meaning": "Derived."},
@@ -24,7 +29,10 @@
     {"id": "ARG-T4", "premise_statement_ids": ["DEF"], "conclusion_statement_id": "T4", "inference_ids": ["I-T4"], "meaning": "Transcribed."},
     {"id": "ARG-T5", "premise_statement_ids": ["PROVED"], "conclusion_statement_id": "T5", "inference_ids": ["I-T5"], "meaning": "Transcribed."},
     {"id": "ARG-T6", "premise_statement_ids": ["T3"], "conclusion_statement_id": "T6", "inference_ids": ["I-T6"], "meaning": "Transcribed."},
-    {"id": "ARG-TOP", "premise_statement_ids": ["T2", "T4", "T5", "T6"], "conclusion_statement_id": "TOP", "inference_ids": ["I-TOP"], "meaning": "Unverified."}
+    {"id": "ARG-REF2", "premise_statement_ids": ["OPEN"], "conclusion_statement_id": "REF2", "inference_ids": ["I-REF2"], "meaning": "Refutes ALT2 only if OPEN."},
+    {"id": "ARG-D", "premise_statement_ids": ["OPEN"], "conclusion_statement_id": "D", "inference_ids": ["I-D"], "meaning": "Opaque atoms."},
+    {"id": "ARG-D2", "premise_statement_ids": ["SE"], "conclusion_statement_id": "D2", "inference_ids": ["I-D2"], "meaning": "Opaque atoms."},
+    {"id": "ARG-TOP", "premise_statement_ids": ["D", "D2", "DEF2", "T2", "T4", "T5", "T6"], "conclusion_statement_id": "TOP", "inference_ids": ["I-TOP"], "meaning": "Unverified."}
   ],
   "claims": [
     {"id": "CL-OPEN", "statement_id": "OPEN", "source_id": "SRC", "locator": "1a", "interpretation": "States OPEN."}
@@ -37,15 +45,20 @@
     {"id": "R-T3", "argument_id": "ARG-T3"},
     {"id": "R-T4", "argument_id": "ARG-T4"},
     {"id": "R-T5", "argument_id": "ARG-T5"},
-    {"id": "R-T6", "argument_id": "ARG-T6"}
+    {"id": "R-T6", "argument_id": "ARG-T6"},
+    {"id": "R-REF2", "argument_id": "ARG-REF2"},
+    {"id": "R-D", "argument_id": "ARG-D", "transcription": "opaque_atoms"},
+    {"id": "R-D2", "argument_id": "ARG-D2", "transcription": "opaque_atoms"}
   ],
   "relations": [
     {"id": "REL-ALT", "subject_kind": "statement", "subject_id": "ALT", "predicate": "alternative_to", "object_kind": "statement", "object_id": "DEF"},
     {"id": "REL-REF", "subject_kind": "argument", "subject_id": "ARG-REF", "predicate": "refutes", "object_kind": "statement", "object_id": "ALT"},
-    {"id": "REL-EV", "subject_kind": "claim", "subject_id": "CL-EV", "predicate": "supports", "object_kind": "statement", "object_id": "T3"}
+    {"id": "REL-EV", "subject_kind": "claim", "subject_id": "CL-EV", "predicate": "supports", "object_kind": "statement", "object_id": "T3"},
+    {"id": "REL-ALT2", "subject_kind": "statement", "subject_id": "ALT2", "predicate": "alternative_to", "object_kind": "statement", "object_id": "DEF2"},
+    {"id": "REL-REF2", "subject_kind": "argument", "subject_id": "ARG-REF2", "predicate": "refutes", "object_kind": "statement", "object_id": "ALT2"}
   ],
   "transcription_result_ids": ["R-A-T2", "R-B-T1", "R-T3", "R-T4", "R-T5", "R-T6"],
-  "expected_frontier": ["OPEN", "T3", "T6"],
-  "expected_depth": {"OPEN": "sourced", "T3": "sourced", "T6": "bare"},
-  "expected_closed_via_transcription": {"T1": "R-B-T1", "T2": "R-A-T2", "T4": "R-T4", "T5": "R-T5"}
+  "expected_frontier": ["D", "DEF2", "OPEN", "T3", "T6"],
+  "expected_depth": {"D": "bare", "DEF2": "bare", "OPEN": "sourced", "T3": "sourced", "T6": "bare"},
+  "expected_closed_via_transcription": {"D2": "R-D2", "T1": "R-B-T1", "T2": "R-A-T2", "T4": "R-T4", "T5": "R-T5"}
 }

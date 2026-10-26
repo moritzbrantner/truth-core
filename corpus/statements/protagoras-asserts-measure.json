@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PROTAGORAS-ASSERTS-MEASURE",
+  "paraphrase": "Protagoras asserts the thesis that man is the measure: he says it and wrote it as his Truth.",
+  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.AssertsMeasureThesis",
+  "definition_ids": [
+    "DEF-PROTAGOREAN-MEASURE",
+    "DEF-ASSERTION-COMMITMENT"
+  ]
+}
