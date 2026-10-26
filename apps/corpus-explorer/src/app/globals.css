@@ -182,7 +182,7 @@ summary {
 .frontier-advanced { margin-top: 0.75rem; }
 .frontier-advanced > summary { color: var(--muted); cursor: pointer; font-size: 0.8rem; width: fit-content; }
 .frontier-advanced[open] { border-bottom: 1px solid var(--line); padding-bottom: 0.75rem; }
-.frontier-advanced .graph-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.frontier-advanced .graph-filters { grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
 .frontier-view-status { color: var(--muted); font-size: 0.75rem; line-height: 1.45; margin: 0.5rem 0 0; }
 
 .frontier-map-key {
@@ -960,3 +960,19 @@ button:focus-visible {
 @media (max-width: 850px) {
   .frontier-workspace .graph-layout { order: -1; }
 }
+
+/* Network edges meet the centre of each dot, not the top and bottom of its
+   larger hit box: the handles sit where the visible symbol is (#491). */
+.network-marker .react-flow__handle { top: 50%; bottom: auto; left: 50%; transform: translate(-50%, -50%); }
+
+/* Facet filters and bucketed graph data (#491). */
+.graph-facets { display: grid; gap: 0.25rem; margin-top: 0.75rem; }
+.graph-facet { margin: 0; padding: 0; }
+.graph-facet legend { color: var(--muted); font-size: 0.75rem; margin-right: 0.5rem; float: left; padding-top: 0.3rem; }
+.graph-buckets { border: 1px solid var(--line); margin-top: 1rem; padding: 0.6rem 1rem; font-size: 0.85rem; }
+.graph-buckets summary { cursor: pointer; }
+.graph-buckets-note { color: var(--muted); font-size: 0.75rem; line-height: 1.45; margin-top: 0.5rem; }
+.graph-bucket-list { display: grid; gap: 0.2rem 1rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); margin-top: 0.75rem; }
+.graph-bucket-list .graph-toggle { align-items: baseline; flex-wrap: wrap; margin: 0; color: var(--ink); }
+.graph-bucket-meta { color: var(--muted); font-size: 0.7rem; }
+.graph-loading { color: var(--muted); font-size: 0.85rem; padding: 1rem; }

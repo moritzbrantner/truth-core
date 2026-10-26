@@ -15,6 +15,7 @@ export type NetworkStructure = {
   /** Components of inference edges alone; research links never change this count. */
   components: string[][];
   /** Islands after adding non-inferential research links for layout only. */
+  layoutComponents: string[][];
   layoutComponentCount: number;
 };
 
@@ -123,7 +124,7 @@ export function networkStructure(graph: PropositionGraph): NetworkStructure {
     shelfX += width; shelfHeight = Math.max(shelfHeight, height);
   }
   return {
-    positions, community, components,
+    positions, community, components, layoutComponents,
     layoutComponentCount: layoutComponents.length,
     degree: new Map(ids.map((id) => [id, proofNeighbours.get(id)?.size ?? 0])),
     researchLinked: researchLinkedStatements(graph),
