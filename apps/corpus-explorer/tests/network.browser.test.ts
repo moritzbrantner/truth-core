@@ -206,8 +206,10 @@ for (const mobile of [false, true]) {
     await page.reload();
     expect(await page.getByLabel("Neighborhood depth").inputValue()).toBe("2");
     await page.locator(".frontier-advanced > summary").click();
-    await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).uncheck();
+    const researchLinks = page.getByRole("checkbox", { name: "Recorded research links (not proof)" });
+    await researchLinks.click();
     await page.waitForURL((location) => location.searchParams.get("relations") === "0");
+    expect(await researchLinks.isChecked()).toBe(false);
     expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBe(0);
     await page.getByRole("button", { name: "Return to overview", exact: true }).click();
     await page.waitForURL((location) => location.searchParams.get("view") !== "local");
