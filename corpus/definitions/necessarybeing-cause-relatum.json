@@ -1,0 +1,7 @@
+{
+  "id": "DEF-NB-SURVEY-CAUSE-RELATUM",
+  "term": "cause of a contingent thing or situation (A1)",
+  "definition": "A1 uses an unqualified cause of a contingent thing or the entire contingent sum, allowing a cause or partial cause in its derived conclusions. The source does not give a detailed typed causal or temporal semantics on A1c, so this is an explicitly uninterpreted sense rather than a definition that asserts actual causal priority or sufficient explanation.",
+  "basis": "stipulative",
+  "note": "The A1 conclusion text was materialized and consulted; a separate source-backed analysis of the survey's hover definitions and event/situation causation is tracked by #492."
+}

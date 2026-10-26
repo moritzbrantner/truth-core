@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-FIVE-TO-ONE",
+  "argument_id": "NB-SURVEY-FIVE-TO-ONE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryBeingCountDescent.fiveToOne",
+  "comparator_config": "results/NB-SURVEY-FIVE-TO-ONE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional A7c 5→4→3→2→1 instantiation, where both the five-causable premise and the n-to-(n−1) premise are explicit open hypotheses. This is a count schematic only, not a proof of noncontingent or necessary existence."
+}

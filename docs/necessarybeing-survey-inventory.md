@@ -2,7 +2,7 @@
 
 Reading date: 2026-10-26 · Campaign: [#492](https://github.com/moritzbrantner/truth-core/issues/492) · Source identity: NECESSARYBEING-SURVEY
 
-**Status: source orientation only.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The corpus's materialize command has **not** run in a local checkout, and none of these readings is yet a canonical source claim, accepted premise, or Lean-verified argument. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. First pin and read source witnesses, then compare existing statements and form claims.
+**Status: source inventory plus first formalized conditional slice.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests, verified in a local checkout with `source_evidence.py materialize` and inspected there. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The first ten source claims cover the definition (three), A1/A1c2 (four), and A7c (three). An A7c steps 1–3 conditional result has Challenge/Solution and Comparator metadata but **must not be called mechanically verified before CI's Lean, bind-check and Comparator pass**. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. Other readings await pinned passages and fidelity checks.
 
 The survey has ten numbered arguments, but most share a modal suffix. They should be imported as distinct source arguments sharing the *same* verified modal intermediate result, not ten copies of that proof.
 
@@ -83,6 +83,14 @@ Shared introduction: [home](https://necessarybeing.com/), [instructions](https:/
 
 ## Argument skeletons and proof obligations
 
+### Registered first slice
+
+- **Definition:** `STMT-NB-SURVEY-DEFINITION`, `STMT-NB-SURVEY-EXISTENCE-NECESSITATION`, and `STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY` preserve the two-part nominal meaning, the extra existential axiom and its account of possibility as distinct claims. None is established by a proof.
+- **A1 and external A1c2:** `STMT-NB-A1-CONTINGENT-TOTALITY`, `STMT-NB-A1-CONTINGENTS-CAUSED`, `STMT-NB-A1-SELF-PARTS-EXCLUSION`, and `STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED` record four separate, respondent-reported premises. The first A1 route and its stronger external-cause variant have not been validated as full arguments.
+- **A7 finite descent:** `STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE` and `STMT-NB-COUNT-CAUSABILITY-DESCENT` are **two open reported premises**; `STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE` is their conditional intermediate conclusion under `NB-SURVEY-FIVE-TO-ONE`. The Lean solution instantiates the second premise at 5, 4, 3 and 2. The `Nat → Prop` causability predicate is deliberately uninterpreted: this result does not reach any cause's metaphysical type, S5, or actual necessary existence. Comparator verification is pending.
+
+These records link definitions and disambiguations for necessary being, objective possibility, whole/parts, internal/external causation and the abstract possible-causability predicate. No source reading has become an accepted truth or a closed root premise.
+
 | Route | Intended inference | Highest-value unresolved step |
 | --- | --- | --- |
 | A1 | Contingent whole ⇒ caused; not self/parts ⇒ noncontingent external cause ⇒ actually some N | Is C a contingent causal relatum? Does the universal causal law apply to a sum? |
@@ -97,9 +105,9 @@ Shared introduction: [home](https://necessarybeing.com/), [instructions](https:/
 | A9 | No possible N ⇒ concreteness entails contingency; nontrivial-inheritance principle contradicts nonentailment ⇒ possible N; then S5 | Give the nontrivial entailment relation its own semantics and countermodels |
 | A10 | Possible finite entire chain ⇒ possible first contingent; usual causal propensity ⇒ prima facie necessary cause | Selection effects: a general propensity need not apply to a specially selected first member |
 
-## First Lean targets (after source materialization)
+## Lean targets (source materialization done for the first four passages)
 
-1. **A7 finite descent:** With a typed predicate CausableAtLeast(w,n) and a clearly stated transfer premise for n ≥ 2, prove CausableAtLeast(w,5) implies CausableAtLeast(w,1). Generalize by ordinary Nat induction only where justified; this is not an infinite compactness principle. Countermodel: causable at least five but not at least one when transfer is absent. Then separately formalize what makes a prior condition noncontingent.
+1. **A7 finite descent (first version written, awaiting verification):** A schematic predicate `causableAtLeast : Nat → Prop` with explicit transfer for n ≥ 2 yields causability at one from causability at five. Next use a typed possible-world/situation/cause model where warranted, and test the countermodel with the transfer premise absent. This is not an infinite compactness principle. Separately formalize what makes a prior condition noncontingent.
 2. **A1 causal totality:** Formalize the union/member relation and an external-cause predicate. Derive the narrow conditional consequence, and show models where each contingent member is caused but the whole is not contingent or not a cause-bearing entity. Do not strengthen a source claim to make its conclusion follow.
 3. **Shared S5 suffix:** Reuse existing TruthCore.Modal definitions and exact theorems. Test ◇□N ⇒ N on S5 and its failure in weaker frames, with a separate bridge N ⇒ □N. Do not create ten copied modal theorems.
 4. **A5/A6 quantifier discipline:** Provide a finite-world countermodel separating ◇∀x Causable(x) from ∀x◇Causable(x), and another for an empty exact-history situation.
@@ -108,10 +116,10 @@ Shared introduction: [home](https://necessarybeing.com/), [instructions](https:/
 
 ## Corpus next steps and verification boundary
 
-1. Re-verify and materialize the four initial hash-pinned passages: NECESSARYBEING-DEFINITION, NECESSARYBEING-A1-TOTALITY, NECESSARYBEING-A1-EXTERNAL and NECESSARYBEING-A7-DESCENT. Find durable archival fallbacks for A1c2 and A7c if possible. Pin subsequent A2–A10 source pages as the source-order campaign proceeds.
-2. Materialize and inspect the exact text and adjacent context. Check site authorship, timestamp and licensing rather than assigning a philosopher by speculation.
-3. Reuse exact existing definitions, statements, and Lean declarations; create sibling claims for genuinely distinct readings, especially necessary-being identity and the A1 causal variant.
-4. Process reviewable source batches (~5–10 claims or one coherent argument); construct inference, argument, Challenge/Solution and result records only after the source boundary is satisfied.
-5. Run source check/verify, full build, corpus check and bind-check, relevant Comparator checks and frontier comparison. No root premise closure has occurred from this first pass.
+1. Keep the four materialized page witnesses reproducible; find durable archival fallbacks for A1c2 and A7c if possible. Pin subsequent A2–A10 source pages before source claims.
+2. Check site authorship, update date and licensing rather than assigning a philosopher by speculation; inspect each later page's verified text with its context.
+3. Critique the first ten source claims against the pinned text. Preserve the A1 stronger external-cause variant, existential versus individual necessity, and the source's respondent-conditional framing.
+4. Verify the written A7 Lean result with `lake build`, `corpus.py bind-check` and Comparator. Then extend the typed causal semantics or register a countermodel without transfer; do not treat the count theorem as A7's entire ontic conclusion.
+5. Process remaining families in small source-order batches and compare intermediate open premises with the root frontier. No root premise closure has occurred from this first pass.
 
-**Premise comparison for this inventory PR:** none discharged, none introduced as accepted corpus premises; four source-evidence manifests but no source-derived claims or mechanically verified results added. The philosophical additions are research leads and a reproducible workflow target, not proof of theism.
+**Premise comparison for this PR:** A7 introduces two new **open, sourced, respondent-reported premises** and one new conditional intermediate conclusion in a separate argument; neither is on an established root route. The remaining seven statements are separate sourced readings, not accepted truths. No root premise has been discharged, and no route cost is claimed to have decreased. Source and corpus checks pass locally; the new Lean result's independent Comparator verification must be reported from CI before it is called proven.

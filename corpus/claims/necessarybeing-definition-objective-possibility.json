@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-DEFINITION-OBJECTIVE-POSSIBILITY",
+  "statement_id": "STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "Definition page, 'A comment about possible' and following paragraphs",
+  "interpretation": "The author defines objective possibility through noncontradiction with what must be the case and distinguishes it from what someone knows. The necessary truths are illustrated but the author does not provide a complete necessity system on this page.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-POSSIBILITY"]
+}

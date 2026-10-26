@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-DEFINITION-TWO-CONDITIONS",
+  "statement_id": "STMT-NB-SURVEY-DEFINITION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "Definition page, two numbered conditions",
+  "interpretation": "Both nominal conditions matter: possible causal capability plus the impossibility of nonexistence at any time. Neither the source nor this claim identifies the bearer with the cause of the universe or an absolutely simple deity.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-SURVEY-NECESSARY-BEING"],
+  "disambiguation_ids": ["DISAMB-NB-SURVEY-NECESSARY"]
+}

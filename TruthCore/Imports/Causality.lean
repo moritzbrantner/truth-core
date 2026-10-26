@@ -6,6 +6,7 @@ import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
+import TruthCore.Causality.NecessaryBeingSurvey
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks

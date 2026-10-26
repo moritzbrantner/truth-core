@@ -1,0 +1,9 @@
+{
+  "id": "NB-SURVEY-FIVE-TO-ONE",
+  "premise_statement_ids": ["STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE", "STMT-NB-COUNT-CAUSABILITY-DESCENT"],
+  "conclusion_statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
+  "inference_ids": ["INF-NB-SURVEY-FIVE-TO-ONE"],
+  "meaning": "Partial reconstruction of NecessaryBeing.com A7c steps 1–3. Under a primitive possible-causability predicate for situations with a cardinal lower bound, the two reader-reported premises yield the one-contingent possibility by four finite decrement instantiations. This neither proves the reader's transfer report nor reaches a noncontingent cause, S5 modal upgrade or God. It introduces no new premise on the root path.",
+  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY", "DEF-NB-COUNT-DESCENT"],
+  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+}
