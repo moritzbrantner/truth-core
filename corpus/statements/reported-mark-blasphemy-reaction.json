@@ -1,0 +1,11 @@
+{
+  "id": "STMT-REPORTED-MARK-BLASPHEMY-REACTION",
+  "paraphrase": "The narrative attributes to the high priest a charge that the preceding speech is blasphemy.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedBlasphemyReaction",
+  "definition_ids": [
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-MARK-14-PREDICTION-SUPPORTS-PILOT-CLAIMS",
+  "subject_kind": "claim",
+  "subject_id": "NT-MARK-14-SON-OF-MAN-PREDICTION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PILOT-JESUS-CLAIMS",
+  "note": "Typed refinement of the already recorded Mark 14 evidence, not independent attestation. Historical attribution, title reference and divine-authority classification remain open; see docs/mark-high-priest-answer.md."
+}
