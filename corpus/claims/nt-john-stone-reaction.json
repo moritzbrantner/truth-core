@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-STONE-REACTION",
+  "statement_id": "STMT-REPORTED-JOHN-STONE-REACTION",
+  "source_id": "NT-JOHN",
+  "locator": "8.59",
+  "interpretation": "The narrated action and intention are retained without inventing an explicit blasphemy charge or inferring the truth of a theological interpretation from hostility. See docs/john-abraham-saying.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+  ]
+}

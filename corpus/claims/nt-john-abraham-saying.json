@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-ABRAHAM-SAYING",
+  "statement_id": "STMT-REPORTED-JOHN-ABRAHAM-SAYING",
+  "source_id": "NT-JOHN",
+  "locator": "8.58",
+  "interpretation": "The speech form retains the before-clause and I-am wording without silently supplying God, timelessness, or an ideal-existence complement. Personal preexistence is a substantive reading of the temporal contrast; its status and stronger divine-identity readings are discussed in docs/john-abraham-saying.md.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+  ]
+}

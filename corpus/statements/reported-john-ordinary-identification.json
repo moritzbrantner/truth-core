@@ -1,0 +1,11 @@
+{
+  "id": "STMT-REPORTED-JOHN-ORDINARY-IDENTIFICATION",
+  "paraphrase": "The narrative attributes to the formerly blind man self-identification as the man who had sat begging.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.ReportedOrdinaryIdentification",
+  "definition_ids": [
+    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+  ]
+}
