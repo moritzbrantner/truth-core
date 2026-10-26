@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "paraphrase": "Rival: something is in act and in potency in the same respect, motivated by Scotus' defence of self-motion (attribution waits for a witness): a self-mover would be virtually in act and formally in potency to the same perfection.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.InActAndPotencyInSameRespectReading",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-POTENCY-PRIOR-TO-ACT-ALTERNATIVE-TO-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-POTENCY-PRIOR-TO-ACT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "note": "Class: countermodel/inconsistency, partial. Aristotle's reply (Metaphysics XII.6, 1071b23-31: nothing would be; matter does not move itself) needs STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT and covers only potencies that are being actualized; #352 (docs/act-potency-theory.md, finding 4) shows the reduction principle leaves a potency in a respect in which nothing is in act. Not refuted."
+}

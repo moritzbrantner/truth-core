@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "paraphrase": "McTaggart-style rival (unattributed): nothing is being moved in any respect, though there are judgings and perceivings. It follows from McTaggart's thesis STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS only given the open bridge STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ChangeUnrealButAppearsReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-OPINING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES",
+    "DISAMB-MOTION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-254A-OPINION-IS-MOTION-A",
+  "statement_id": "STMT-OPINION-IS-A-MOTION",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.3, 254a27-30: ἡ γὰρ φαντασία καὶ ἡ δόξα κινήσεις τινὲς εἶναι δοκοῦσιν",
+  "interpretation": "Even if being is unmoved, it does not appear so; if there is false opinion, or opinion at all, there is motion, even if it is imagination, even if things seem now one way, now another, 'for imagination and opinion are thought to be motions'. Read as: whoever opines that p is being moved in the respect of that opinion. Reading steps not in the words: the motion is located in the opiner, in a respect fixed by the opinion; and Aristotle's κίνησις of opinion is taken in the broad sense of DISAMB-MOTION (a reduction from potency to act). Aristotle states it as a reputable opinion (δοκοῦσιν), not as a demonstration, and uses it ad hominem; the formalization does not make it stronger than a premise.",
+  "status": "formalized"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-MET-1046B-MEGARIAN-A",
+  "statement_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+  "source_id": "ARIST-MET",
+  "locator": "IX.3, 1046b29-32",
+  "interpretation": "Aristotle reports that some, such as the Megarians, say a thing is able only when it is acting (ὅταν ἐνεργῇ μόνον δύνασθαι), as the one not building is not able to build. Read with the Θ.6 primitive CanBe: whatever is able to be r is actually r. Aristotle generalizes it to the inanimate and to perception (1047a4-10); the formalization keeps the general form. Aristotle says these views make potency and act the same (1047a19-20).",
+  "status": "formalized"
+}

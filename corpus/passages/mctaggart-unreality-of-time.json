@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+    "source_url": "https://en.wikisource.org/w/index.php?title=The_Unreality_of_Time&action=raw&oldid=10776076",
+    "retrieved_at": "2026-10-26T11:50:51Z",
+    "sha256": "sha256:d53474f0ba5911aa16035c68292dd28be57416525068b38248347b0b3465796b",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "McTaggart 1908, public domain (Wikisource marks it PD/US); Wikisource transcription under CC BY-SA. Only hashes, a locator and a short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "MCTAGGART-1908-UNREALITY-OF-TIME",
+      "locator": "The Unreality of Time (whole paper)",
+      "claim_locator_prefixes": [
+        "The Unreality of Time,"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:d53474f0ba5911aa16035c68292dd28be57416525068b38248347b0b3465796b",
+      "incipit": "{{header\n | title    = The Unreality of Time\n | author   = John McTaggart Ellis"
+    }
+  ]
+}

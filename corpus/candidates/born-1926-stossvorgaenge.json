@@ -1,0 +1,9 @@
+{
+  "id": "BORN-1926-STOSSVORGAENGE",
+  "source_id": "BORN-1926-STOSSVORGAENGE",
+  "locator": "pp. 863-867",
+  "priority": 903,
+  "goal": "Waiting for a witness (copyrighted, #378). Attribute STMT-CHANGE-WITHOUT-ANY-MOVER once a bibliographic citation is admitted; separate the denial of a determining cause from the denial of any mover.",
+  "reason": "Alternatives campaign #387, act/potency and regress batch: the rival statement and its alternative_to relation are recorded; the witness is missing, so no claim attributes it yet (invariant 18).",
+  "status": "candidate"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+  "paraphrase": "What is being moved toward r is not yet actually r: motion is an incomplete actuality.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedNotYetInActReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EFFICIENT-CAUSING",
+  "term": "efficient causing (causa efficiens; Lean `EfficientlyCausesIn`)",
+  "definition": "`EfficientlyCausesIn c x r`: c is, here and now, an efficient cause of x's being r, the cause from which x's being r proceeds as from an agent. A parameter of the secunda via vocabulary (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3SecundaVia.lean), read at one time like the prima via's moving. It is not identified with moving (`MovesIn`) or with causing a perfection (`CausesIn`, DISAMB-CAUSE).",
+  "basis": "stipulative",
+  "note": "Stipulated from the secunda via's use of the term, which presupposes rather than defines it. A source would be a text in which Aquinas defines the efficient cause, such as his commentary on Physics II (In Phys. II, lect. 5), which is not pinned.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OrderOfEfficientCausesFoundReading"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-OPINING",
+  "term": "opining (doxa, phantasia)",
+  "definition": "`Opines x p`: x is now opining, judging or having it appear that p (Aristotle names opinion, false opinion and imagination together). `asOpinion p` is the respect in which an opiner of p is affected by opining it. Neither is defined in Lean; whether opining is a being moved in that respect is the separate premise STMT-OPINION-IS-A-MOTION, not part of this definition.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-PHYS-254A-OPINION-IS-MOTION-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.OpiningIsBeingMovedReading"
+}

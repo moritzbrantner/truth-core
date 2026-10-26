@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-254A-ELEATIC-BEING-UNMOVED-A",
+  "statement_id": "STMT-ELEATIC-NOTHING-IS-MOVED",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.3, 254a24-25: εἶναι τὸ ὂν ἄπειρον καὶ ἀκίνητον",
+  "interpretation": "Aristotle reports, without naming them, those who say that being is infinite and unmoved (Melissus' formula), and at 253a32-b2 discusses the claim that all things are at rest (πάντʼ ἠρεμεῖν), calling it an infirmity of thought. Read as the thesis that nothing is being moved in any respect. Two reading steps: 'being is unmoved' is extended to every being because the Eleatics hold that being is one; and rest (ἠρεμεῖν) is read as the absence of every kind of motion, the broad sense of DISAMB-MOTION. The report is Aristotle's; no Eleatic text is pinned. The formalization drops 'infinite'.",
+  "status": "formalized"
+}

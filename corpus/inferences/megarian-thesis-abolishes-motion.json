@@ -1,0 +1,13 @@
+{
+  "id": "INF-MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "input_statement_ids": [
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+  ],
+  "output_statement_id": "STMT-MEGARIAN-THESIS-FALSE",
+  "rule": "reductio",
+  "meaning": "Suppose whatever is able to be r is actually r. Something is being moved toward some r; it is able to be r; so it is actually r; but what is being moved toward r is not yet actually r.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

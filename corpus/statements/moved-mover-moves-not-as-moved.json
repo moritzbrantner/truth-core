@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "paraphrase": "Rival: some mover other than the moved thing is itself being moved in some respect and yet does not move it as moved, as a man digesting moves a stick (its moving is no per se link).",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedMoverMovesNotAsMovedReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PER-SE-LINK"
+  ]
+}

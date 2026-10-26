@@ -1,0 +1,10 @@
+{
+  "id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+  "paraphrase": "The Megarian thesis: a thing is able only when it is acting; whatever is able to be r is actually r.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MegarianAbilityOnlyWhenActingReading",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ]
+}

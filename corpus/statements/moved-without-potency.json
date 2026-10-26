@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MOVED-WITHOUT-POTENCY",
+  "paraphrase": "Ash'arite occasionalist rival (attribution waits for a witness): things are moved to new states without being in potency to them, because each state is created anew by God and a creature's capacity exists only together with its act.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedWithoutPotencyReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

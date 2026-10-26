@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE",
+  "paraphrase": "Simple priority is transitive: what is simply prior to something simply prior to x is simply prior to x.",
+  "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.SimplePriorityTransitiveReading",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-CAUSE-MOVES-WITHOUT-BEING-IN-ACT-ALTERNATIVE-TO-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+  "note": "Class: not yet attackable. On the formal reading of act the rival is the strongest objection to the premise; on the virtual reading an emergent cause is in act virtually and the rival does not bite, but then the non-simultaneity premise must hold for virtual act (DISAMB-IN-ACT). Missing: a pinned or bibliographic witness (Broad 1925, candidate BROAD-MIND-AND-ITS-PLACE-CH2, #378) and a fixed sense of act."
+}

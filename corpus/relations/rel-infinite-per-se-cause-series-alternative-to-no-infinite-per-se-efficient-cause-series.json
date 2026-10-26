@@ -1,0 +1,9 @@
+{
+  "id": "REL-INFINITE-PER-SE-CAUSE-SERIES-ALTERNATIVE-TO-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "subject_kind": "statement",
+  "subject_id": "STMT-INFINITE-PER-SE-CAUSE-SERIES",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "note": "Class: not yet attackable. INFINITE-LOCAL-TRANSMISSION-MODEL and ESSENTIAL-POWER-UNDERDETERMINED show the rival consistent with local transmission and link-removal counterfactuals; the missing premise is ACT-GROUND of #310 (why real per se power must be inductively grounded). Causal finitism (#367) is a separate route. Missing: a witness (Bohn 2018, candidate BOHN-INFINITE-DESCENT, #378)."
+}
