@@ -9,21 +9,35 @@ import { researchFrontier } from "@/lib/research-frontier";
 import { getPropositionGraph } from "@/lib/proposition-graph-data";
 
 export const metadata: Metadata = {
-  title: "Proposition graph — Truth Core",
+  title: "Epistemic frontier — Truth Core",
   description:
-    "Statements and explicit inference steps of the corpus, with status, tags, filters, focus mode and the paths into the root statement.",
+    "A connected map of established propositions, conditional deductions and the open premises that form the epistemic frontier.",
 };
 
 export default function GraphPage() {
   const corpus = getCorpus();
   const graph = getPropositionGraph(corpus);
   const obligations = researchFrontier(corpus, graph, getFrontierReport());
+  const open = graph.statements.filter((statement) => statement.frontier);
+  const established = graph.statements.filter((statement) => statement.established).length;
   return (
-    <>
-      <h1 className="sr-only">Epistemic Frontier</h1>
+    <div className="frontier-page">
+      <header className="frontier-heading">
+        <div>
+          <p className="eyebrow">Truth Core / Knowledge map</p>
+          <h1 id="graph-heading">Epistemic frontier</h1>
+          <p className="frontier-intro">Follow connected propositions to the premises that still need defending. Each highlighted dot is a real open obligation in the corpus.</p>
+        </div>
+        <dl className="frontier-counts">
+          <div><dt>Propositions</dt><dd>{graph.statements.length}</dd></div>
+          <div><dt>Established</dt><dd>{established}</dd></div>
+          <div><dt>Open frontier</dt><dd>{open.length}</dd></div>
+          <div><dt>Bare premises</dt><dd>{open.filter((statement) => statement.frontierDepth === "bare").length}</dd></div>
+        </dl>
+      </header>
       <Suspense fallback={<p>Loading the proposition graph…</p>}>
         <PropositionGraphExplorer graph={graph} obligations={obligations} network={networkStructure(graph)} />
       </Suspense>
-    </>
+    </div>
   );
 }

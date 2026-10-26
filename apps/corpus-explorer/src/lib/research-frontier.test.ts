@@ -38,6 +38,9 @@ test("graph closed/established/open distinction and queue derive exactly from Py
     closureReason: "proved",
   });
   expect(new Set(obligations.map((item) => item.id)).size).toBe(obligations.length);
+  for (const item of obligations.filter((entry) => entry.kind === "derivation" || entry.kind === "evidence")) {
+    expect(item.href).toBe(`/dossiers/${item.statementIds[0]}`);
+  }
 });
 
 test("global vs goal scope follows route-aware authoritative dependents", () => {

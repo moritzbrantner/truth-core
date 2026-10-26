@@ -4,11 +4,13 @@
 
 ## What the site shows
 
-- `/` — the **state of the case** (#200): the root and the six stages with their status, the open premises that reach the root (bare first, then sourced), the closed statements on the root's paths, the verified derivations on those paths, and the recorded alternatives (refuted or not) and objections.
+- `/` and `/graph` — the **epistemic frontier**: a full-width network of proposition dots and explicit inference junctions, with the open premises highlighted and a synchronized research queue. `/graph` retains saved deep links and proof-exploration state.
+- `/state` — the **state of the case** (#200): the root and the six stages with their status, the open premises that reach the root (bare first, then sourced), the closed statements on the root's paths, the verified derivations on those paths, and the recorded alternatives (refuted or not) and objections.
 - `/statements/<ID>` — one statement: where it stands, what establishes it, its source witnesses (stating claims and `supports` relations), the arguments that use it, its relations, and its Lean declaration with a link to the source line.
+- `/dossiers/<ID>` — one premise dossier: source readings, definitions, competing interpretations, attempts and blockers, and root-route contribution, all derived from the canonical records.
 - `/results/<ID>` — one result: verified derivation or transcription, conclusion and premises with their status, the advertised theorem as frozen in the Challenge module, the Comparator configuration (permitted axioms, NanoDa), and the proof projection.
 - `/definitions` and `/definitions/<DEF-ID>` — the terms (#204): every disambiguation with its resolution, and each definition with its basis, source claims or stipulation note, Lean declaration and the records that use it. Statement, claim and result pages show the senses they depend on; a result page collects them from the argument, its conclusion and its premises.
-- `/claims`, `/sources`, `/graph`, `/modal`, `/candidates` — the source readings, witnesses, proposition graph, modal-logic MVP and research queue.
+- `/claims`, `/sources`, `/candidates` — the source readings, witnesses, and source-range research candidates. Earlier specialist pilots (`/modal`, `/objective-truth`, `/skeleton`) remain reachable under **Reference** rather than primary navigation.
 
 The state, statement and result pages take every status from `python3 scripts/corpus.py frontier --json`, run once at build time (`src/lib/site-state.ts`), so the build needs `python3`. The explorer does not re-implement the closure rules for these pages. The report's `closed_statements` gives the rule that closes each statement (`proved`, `self_evident`, `alternatives_refuted`, `via_transcription`). Its `established_statements` lists the statements reached from self-evident or defended statements through verified results only. A statement can be closed (off the frontier) without being established: the skeleton proves the root from open premises. Lean declarations are located by a textual scan of `TruthCore/` (`src/lib/lean-source.ts`), including indented declarations and namespace boundaries; snippets retain source indentation and line numbers. This index locates text and does not verify Lean syntax or proof meaning.
 
@@ -22,18 +24,27 @@ The deployment workflow uploads `apps/corpus-explorer/out` with `actions/upload-
 
 ## Epistemic Frontier graph
 
-`/graph` defaults to a compact force-connected global network with a synchronized
-research frontier. Positions and community colors describe inference connectivity,
-not confidence. Symbols/rings distinguish establishment, conditional closure and
-bare or sourced frontier; the legend is available under status filters. Structural
+The homepage and `/graph` default to a compact force-connected global network with a synchronized
+research frontier. The graph dominates the workspace, while secondary controls live
+under **More views and filters** and the research queue occupies a narrow inspector.
+Positions and community colors describe inference connectivity, not confidence.
+Round proposition dots and small square inference junctions preserve the AND-premise
+structure of arguments. Rings distinguish establishment, conditional closure and
+bare or sourced frontier; the visible legend and optional **Frontier highlighted**
+emphasis reveal the frontier dots without inventing a geometric boundary. Disconnected
+source-only readings with no inference connections are omitted from the initial
+network canvas, but stay searchable and can be included with **Include disconnected
+readings** under the advanced controls. This is a display-only choice. Structural
 leaf filters (no supporting inference / no consumer inference) are independent of
 frontier obligations. Semantic relations are a separate optional dashed overlay.
 The **Layered** option retains source clustering and expanded proof cards; selecting
 **Focus here** expands complete AND-premises and alternative (OR) applications.
 Network positions are deterministic and computed at static-build time, with no
-browser force animation. See [acceptance evidence and screenshots](evidence/network-221/README.md).
+browser force animation.
 Select a statement to bring its obligations to the top, or select an obligation to
-locate its statement and inspect the exact blocker. Switch to **Selected goal
+locate its statement and inspect the exact blocker. From a dot or queue item,
+the linked premise dossier exposes previous attempts, missing bridges, source
+interpretations and route contribution without changing closure status. Switch to **Selected goal
 frontier** to restrict obligations to route-aware dependencies of that proposition;
 **Global frontier** restores the full queue. Focus views retain a return link with
 the previous viewport, filters, expansions and selection in the URL.

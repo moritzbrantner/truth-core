@@ -3,32 +3,38 @@ import Link from "next/link";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 
 const links = [
-  { href: "/", label: "State" },
-  { href: "/skeleton", label: "Skeleton" },
-  { href: "/claims", label: "Claims" },
+  { href: "/", label: "Frontier" },
+  { href: "/state", label: "Case" },
+  { href: "/statements/STMT-CATHOLICISM-TRUE", label: "Root proposition" },
+  { href: "/candidates", label: "Research" },
+  { href: "/results", label: "Results" },
   { href: "/sources", label: "Sources" },
-  { href: "/results", label: "Arguments" },
-  { href: "/definitions", label: "Terms" },
-  { href: "/graph", label: "Graph" },
-  { href: "/modal", label: "Modal logic" },
-  { href: "/objective-truth", label: "Truth pilot" },
-  { href: "/candidates", label: "Research queue" },
 ];
 
 export function SiteHeader() {
   return (
     <header className="border-b border-[var(--line)]">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-5 sm:px-8">
+      <div className="mx-auto flex max-w-[96rem] items-center justify-between gap-4 px-5 py-4 sm:px-8">
         <Link className="font-serif text-2xl tracking-[-0.04em] text-[var(--ink)]" href="/">
           truth core
         </Link>
-        <nav aria-label="Primary" className="flex items-center gap-4 overflow-x-auto text-sm text-[var(--muted)] sm:gap-6">
+        <nav aria-label="Primary" className="flex min-w-0 flex-1 items-center gap-4 overflow-x-auto text-sm text-[var(--muted)] sm:gap-6">
           {links.map((link) => (
             <Link className="whitespace-nowrap transition hover:text-[var(--ink)]" href={link.href} key={link.href}>
               {link.label}
             </Link>
           ))}
         </nav>
+        <details className="site-reference-menu">
+          <summary>Reference</summary>
+          <div>
+            <Link href="/claims">Source readings</Link>
+            <Link href="/definitions">Definitions</Link>
+            <Link href="/skeleton">Skeleton details</Link>
+            <Link href="/modal">Modal logic lab</Link>
+            <Link href="/objective-truth">Truth pilot</Link>
+          </div>
+        </details>
         <ThemeSwitcher />
       </div>
     </header>

@@ -7,8 +7,8 @@ import "@xyflow/react/dist/style.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Truth Core — Scholarly corpus explorer",
-  description: "Source-derived philosophical claims and mechanically verified arguments.",
+  title: "Truth Core — Epistemic frontier",
+  description: "Explore established propositions, conditional proofs, and the open premises at the epistemic frontier.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen antialiased">
         <SiteHeader />
-        <main className="mx-auto max-w-6xl px-5 pb-16 pt-12 sm:px-8 sm:pt-16">{children}</main>
+        <main className="site-main mx-auto max-w-6xl px-5 pb-16 pt-10 sm:px-8">{children}</main>
         <footer className="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 border-t border-[var(--line)] px-5 py-8 text-sm text-[var(--muted)] sm:px-8">
           <span>Truth Core preserves the boundary between textual interpretation and formal verification.</span>
           <span>

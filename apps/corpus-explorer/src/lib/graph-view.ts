@@ -244,7 +244,15 @@ export function computeGraphView(
   let selection: Selection;
   if (state.view === "all") {
     selection = {
-      statements: graph.statements.map((statement) => statement.id),
+      statements: graph.statements
+        .filter((statement) =>
+          state.layout !== "network" ||
+          state.showIsolated ||
+          index.producers.has(statement.id) ||
+          index.consumers.has(statement.id) ||
+          (filtering && statementMatches(statement, state, index)),
+        )
+        .map((statement) => statement.id),
       inferences: graph.inferences.map((inference) => inference.id),
     };
   } else if (state.view === "focus") {
