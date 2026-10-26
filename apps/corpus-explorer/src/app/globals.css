@@ -104,6 +104,111 @@ summary {
   text-decoration-color: currentcolor;
 }
 
+.site-main:has(.frontier-page) {
+  max-width: 96rem;
+  padding-top: 1.5rem;
+}
+
+.site-reference-menu {
+  color: var(--muted);
+  flex: none;
+  font-size: 0.85rem;
+  position: relative;
+}
+
+.site-reference-menu summary { cursor: pointer; }
+.site-reference-menu > div {
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--ink) 10%, transparent);
+  display: grid;
+  gap: 0.15rem;
+  min-width: 12rem;
+  padding: 0.35rem;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  z-index: 50;
+}
+
+.site-reference-menu a { color: var(--ink); padding: 0.6rem 0.75rem; }
+.site-reference-menu a:hover { background: var(--callout); }
+
+.frontier-heading {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+  justify-content: space-between;
+}
+
+.frontier-heading h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.1rem, 3.2vw, 3rem);
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  margin: 0.35rem 0 0;
+}
+
+.frontier-intro {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin-top: 0.45rem;
+  max-width: 45rem;
+}
+
+.frontier-counts { display: flex; flex-wrap: wrap; gap: 0.8rem 1.6rem; }
+.frontier-counts div { display: grid; gap: 0.2rem; }
+.frontier-counts dt { color: var(--muted); font-size: 0.7rem; }
+.frontier-counts dd { font-size: 1.3rem; font-variant-numeric: tabular-nums; font-weight: 650; }
+
+.frontier-primary-controls {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin-top: 1.1rem;
+}
+
+.frontier-search { flex: 1 1 14rem; }
+.frontier-search .field-control { width: 100%; }
+.frontier-emphasis-button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--status-open) 11%, var(--paper));
+  border-color: var(--status-open);
+}
+
+.frontier-advanced { margin-top: 0.75rem; }
+.frontier-advanced > summary { color: var(--muted); cursor: pointer; font-size: 0.8rem; width: fit-content; }
+.frontier-advanced[open] { border-bottom: 1px solid var(--line); padding-bottom: 0.75rem; }
+.frontier-advanced .graph-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.frontier-view-status { color: var(--muted); font-size: 0.75rem; line-height: 1.45; margin: 0.5rem 0 0; }
+
+.frontier-map-key {
+  align-items: center;
+  background: color-mix(in srgb, var(--paper) 90%, transparent);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.74rem;
+  gap: 0.6rem 1.15rem;
+  left: 0;
+  padding: 0.6rem 0.85rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.frontier-map-key span { align-items: center; display: inline-flex; gap: 0.45rem; }
+.frontier-key-dot { background: var(--accent); border-radius: 50%; display: inline-block; height: 0.65rem; width: 0.65rem; }
+.frontier-key-open { background: var(--status-open); box-shadow: 0 0 0 2px color-mix(in srgb, var(--status-open) 20%, transparent); }
+.frontier-key-established { background: var(--status-self-evident); }
+.frontier-key-conditional { background: var(--paper); border: 2px solid var(--status-proved); }
+.frontier-key-other { background: var(--line-strong); }
+
 .field-label {
   color: var(--muted);
   display: grid;
@@ -520,7 +625,7 @@ button:focus-visible {
 }
 
 .graph-shell .react-flow {
-  background: color-mix(in srgb, var(--paper) 94%, var(--callout));
+  background: color-mix(in srgb, var(--paper) 96%, var(--callout));
 }
 
 .graph-shell .react-flow__node {
@@ -805,26 +910,35 @@ button:focus-visible {
   white-space: pre;
 }
 
-.frontier-workspace { display: grid; grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr); gap: 1rem; margin-top: 1rem; }
+.frontier-workspace { display: grid; grid-template-columns: minmax(0, 1fr) minmax(17rem, 20rem); gap: 0.8rem; margin-top: 0.65rem; }
 .frontier-workspace .graph-layout { margin-top: 0; grid-template-columns: minmax(0, 1fr); }
-.frontier-workspace .graph-shell { height: 70vh; min-height: 28rem; }
-.research-queue { border-right: 1px solid var(--line); padding-right: 1rem; min-width: 0; }
-.research-items { max-height: 50vh; overflow-y: auto; list-style: none; padding: 0; }
+.frontier-workspace .graph-shell { height: min(75vh, 55rem); min-height: 36rem; position: relative; }
+.frontier-sidebar { align-content: start; display: grid; gap: 0.85rem; min-width: 0; }
+.frontier-sidebar .graph-detail { max-height: 40vh; overflow-y: auto; }
+.research-queue { border: 1px solid var(--line); min-width: 0; padding: 0.85rem; }
+.research-items { max-height: 47vh; overflow-y: auto; list-style: none; padding: 0; }
 .research-items li { border-bottom: 1px solid var(--line); padding: .6rem; }
 .research-items li[data-related="true"] { border-left: 3px solid var(--accent); }
 .research-items li[data-selected="true"] { background: var(--callout); }
 .research-select { text-align: left; width: 100%; cursor: pointer; }
 .research-blocker { border-top: 2px solid var(--accent); padding-top: .75rem; }
-@media (max-width: 850px) { .frontier-workspace { grid-template-columns: minmax(0, 1fr); } .research-queue { border-right: 0; } .research-items { max-height: 15rem; } }
+@media (max-width: 850px) { .frontier-workspace { grid-template-columns: minmax(0, 1fr); } .research-items { max-height: 15rem; } .frontier-sidebar .graph-detail { max-height: none; } }
 
-/* Structure color is independent of epistemic status. */
+/* Network communities color the centers; rings convey epistemic status. The frontier is a set of real nodes, not an invented contour. */
 .network-marker { width: 28px; height: 28px; display: grid; place-items: center; position: relative; color: var(--ink); }
-.network-symbol { width: var(--marker-size); height: var(--marker-size); border-radius: 50%; background: var(--community); border: 2px solid var(--ink); color: white; display: grid; place-items: center; font: bold 12px/1 system-ui; }
-.network-marker[data-kind="inference"] .network-symbol { border-radius: 2px; width: 10px; height: 10px; font-size: 8px; background: var(--muted); }
-.network-marker[data-frontier="true"] .network-symbol { outline: 2px solid var(--accent); outline-offset: 3px; }
-.network-marker[data-established="true"] .network-symbol { border-style: double; border-width: 3px; }
+.network-symbol { width: var(--marker-size); height: var(--marker-size); border-radius: 50%; background: var(--community); border: 1px solid var(--paper); box-shadow: 0 0 0 1px var(--community); }
+.network-marker[data-kind="inference"] .network-symbol { border-radius: 2px; width: 5px; height: 5px; background: var(--line-strong); border: 0; box-shadow: none; }
+.network-marker[data-frontier="true"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-open), 0 0 0 8px color-mix(in srgb, var(--status-open) 16%, transparent); }
+.network-marker[data-frontier-depth="bare"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-objection), 0 0 0 8px color-mix(in srgb, var(--status-objection) 22%, transparent); }
+.network-marker[data-established="true"] .network-symbol { border: 2px solid var(--status-self-evident); box-shadow: 0 0 0 1px var(--status-self-evident); }
+.network-marker[data-conditional="true"] .network-symbol { background: var(--paper); border: 2px solid var(--status-proved); box-shadow: 0 0 0 1px var(--community); }
+.network-marker[data-refuted="true"] .network-symbol { box-shadow: 0 0 0 2px var(--status-objection); }
+.network-marker[data-emphasis="frontier"][data-kind="inference"] { opacity: .4; }
+.network-marker[data-emphasis="frontier"][data-kind="statement"]:not([data-frontier="true"]) { opacity: .45; }
+.network-marker[data-emphasis="frontier"][data-established="true"] { opacity: .85 !important; }
 .network-marker[data-dimmed="true"] { opacity: .16; }
-.network-marker[data-selected="true"], .network-marker[data-highlighted="true"] { filter: drop-shadow(0 0 4px var(--accent)); opacity: 1; }
+.network-marker[data-selected="true"], .network-marker[data-highlighted="true"] { filter: drop-shadow(0 0 4px var(--accent)); opacity: 1 !important; }
+.network-marker[data-selected="true"] .network-symbol { outline: 2px solid var(--ink); outline-offset: 6px; }
 .network-marker .react-flow__handle { opacity: 0; width: 2px; height: 2px; min-width: 2px; min-height: 2px; }
 .network-label { display: none; position: absolute; top: 30px; left: 12px; width: 200px; padding: 5px 8px; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); font-size: 12px; line-height: 1.3; pointer-events: none; z-index: 5; }
 .network-marker:hover .network-label, .react-flow__node:focus .network-label, .network-label[data-visible="true"] { display: block; }
@@ -836,6 +950,8 @@ button:focus-visible {
 @media (max-width: 640px) {
   .network-marker { width: 32px; height: 32px; }
   .graph-toolbar > .field-label { flex-basis: 100%; }
+  .frontier-workspace .graph-shell { height: 60vh; min-height: 26rem; }
+  .frontier-map-key { gap: 0.45rem 0.7rem; font-size: 0.65rem; }
 }
 @media (max-width: 850px) {
   .frontier-workspace .graph-layout { order: -1; }
