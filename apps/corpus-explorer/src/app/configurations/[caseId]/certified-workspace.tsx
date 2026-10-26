@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 import { selectedConfiguration } from "@/lib/configuration-selection";
 import type { VerifiedConfigurationBundle, VerifiedConfigurationCase } from "@/lib/verified-configurations";
@@ -14,8 +14,6 @@ type Props = {
 
 export function CertifiedWorkspace({ configuration, producer, statements }: Props) {
   const query = useSearchParams();
-  const pathname = usePathname();
-  const router = useRouter();
   const preset = query.get("set");
   const defaultSet = configuration.configurations.find((entry) => entry.status === "model witnessed" && entry.statement_ids.includes(configuration.seed_statement_id)) ?? configuration.configurations[0];
   const namedSet = configuration.configurations.find((entry) => entry.id === preset);
@@ -31,7 +29,7 @@ export function CertifiedWorkspace({ configuration, producer, statements }: Prop
     const params = new URLSearchParams();
     params.set("set", "custom");
     for (const id of [...next].sort()) { params.append("premise", id); }
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+    window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
   }
   return <>
     <nav aria-label="Named assumption sets" className="mt-5 flex flex-wrap gap-4">
