@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.SupertaskFinitePrefixShift.supertaskFinitePrefixShift"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

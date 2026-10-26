@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY",
+  "term": "admissible essence property (Scott diagnostic variants)",
+  "sense_definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY",
+    "DEF-WORLD-INVARIANT-PROPERTY"
+  ],
+  "resolution": "`WorldInvariantProperty` admits every property with a fixed extension for each individual across worlds. `BooleanGeneratedProperty atom` admits exactly the Boolean readouts of a selected primitive atom and may include properties that vary between worlds while excluding many invariant or naming properties. The latter is not a set-theoretic superset of the former, and an unconstrained atom can encode individual or world names. Both restrict the candidate essence and comparison-property quantifiers of the stipulated `FilteredNecessaryExistence`; neither is Scott's original unrestricted AFP property quantification or a metaphysically established property domain."
+}

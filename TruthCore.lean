@@ -10,7 +10,9 @@ import TruthCore.Case.Catholicism.StageTwo
 import TruthCore.Case.Catholicism.StagesOneTwo
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
+import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.LocalTransmission
+import TruthCore.Causality.Supertasks
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
@@ -112,6 +114,7 @@ import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
 import TruthCore.History.ResurrectionVocabulary
 import TruthCore.Isabelle.AFP.GoedelGod
+import TruthCore.Isabelle.AFP.GoedelGod.GeneratedFragment
 import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
@@ -350,10 +353,17 @@ import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
+import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
+import TruthCore.Results.Causality.SupertaskOscillation.Solution
+import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
+import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
+import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution
@@ -421,6 +431,9 @@ import TruthCore.Results.Hiddenness.NontheisticConsistent.Solution
 import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
 import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
 import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution

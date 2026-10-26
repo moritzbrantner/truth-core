@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-URN-POINTWISE-ABSENCE",
+  "term": "ball-by-ball eventual absence",
+  "definition": "For each individually fixed ball identifier b there is a possibly b-dependent cutoff stage after which b is absent. In the simplified urn, stage n contains balls n+1 through 2n.",
+  "basis": "stipulative",
+  "note": "The mathematical example isolates a pointwise limit-of-membership interpretation; no empirical infinite physical urn or historically sourced attribution is asserted. The ten-to-one historical illustration is separate from the deliberately two-to-one Lean model.",
+  "lean_declaration": "TruthCore.Causality.UrnResident"
+}

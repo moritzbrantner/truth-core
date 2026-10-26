@@ -1,0 +1,7 @@
+{
+  "id": "STMT-SUPERTASK-STABLE-ENDPOINT",
+  "paraphrase": "A natural-number-indexed sequence of stages with no last stage can consistently be ordered before a distinct endpoint and assigned an eventually stable Boolean output there. This is an abstract endpoint/order model, not a proof of finite physical completion or a universal convergence principle.",
+  "lean_declaration": "TruthCore.Causality.EndlessStagesWithStableEndpoint",
+  "definition_ids": ["DEF-SUPERTASK-LAST-STAGE", "DEF-SUPERTASK-LIMIT-ENDPOINT", "DEF-SUPERTASK-STABLE-LIMIT"],
+  "disambiguation_ids": ["DISAMB-SUPERTASK-ENDING"]
+}

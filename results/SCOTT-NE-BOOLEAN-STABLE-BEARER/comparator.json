@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

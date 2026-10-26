@@ -1,0 +1,9 @@
+{
+  "id": "INF-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "rule": "successor-contradicts-eventual-constancy",
+  "meaning": "Assume a terminal value is constant after a cutoff. At the cutoff and at its successor the outputs must be equal to that terminal value, but the recursive toggle rule makes them opposites.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

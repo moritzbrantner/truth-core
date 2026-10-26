@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "inference_ids": ["INF-SUPERTASK-URN-POINTWISE-NONUNIFORM"],
+  "meaning": "Constructively separate pointwise limit of membership from a uniform empty tail, while proving there are arbitrarily long distinct resident blocks at finite stages. This is a mathematical example and makes no assertion about physical infinite operation.",
+  "definition_ids": ["DEF-SUPERTASK-URN-POINTWISE-ABSENCE", "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS"],
+  "disambiguation_ids": ["DISAMB-SUPERTASK-URN-EMPTINESS"]
+}

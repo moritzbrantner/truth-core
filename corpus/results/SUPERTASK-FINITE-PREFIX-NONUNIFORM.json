@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "argument_id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "challenge_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution",
+  "theorem": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.supertaskFinitePrefixShift",
+  "comparator_config": "results/SUPERTASK-FINITE-PREFIX-NONUNIFORM/comparator.json",
+  "status": "solution-present"
+}

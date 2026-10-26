@@ -1,0 +1,15 @@
+{
+  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "inference_ids": [
+    "INF-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED"
+  ],
+  "meaning": "A generated single-atom Boolean property domain has explicit closure properties, independent of Scott's positivity axioms or any metaphysical claim about admissible essences.",
+  "definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY"
+  ]
+}
