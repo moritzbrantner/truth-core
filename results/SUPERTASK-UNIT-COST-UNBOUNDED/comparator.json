@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.SupertaskUnitCostDiverges.supertaskUnitCostDiverges"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

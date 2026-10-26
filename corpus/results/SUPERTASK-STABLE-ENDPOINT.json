@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-STABLE-ENDPOINT",
+  "argument_id": "SUPERTASK-STABLE-ENDPOINT",
+  "challenge_module": "TruthCore.Results.Causality.SupertaskStableEndpoint.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskStableEndpoint.Solution",
+  "theorem": "TruthCore.Results.Causality.SupertaskStableEndpoint.supertaskStableEndpoint",
+  "comparator_config": "results/SUPERTASK-STABLE-ENDPOINT/comparator.json",
+  "status": "solution-present"
+}

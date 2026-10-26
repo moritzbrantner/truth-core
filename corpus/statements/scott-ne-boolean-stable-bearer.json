@@ -1,0 +1,17 @@
+{
+  "id": "STMT-SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "paraphrase": "In any frame of the Scott-style constant-domain embedding, if the generating atom has the same Boolean value for a particular bearer in every world, that bearer satisfies the Boolean-fragment-filtered necessary-existence predicate at every world. This holds even if the primitive varies for other bearers, and does not establish metaphysical necessity or existence.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanFragmentStableBearerNE",
+  "definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY",
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

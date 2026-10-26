@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.finiteGroundingLimitNotClosed"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

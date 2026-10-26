@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "paraphrase": "In the stipulated variant of Scott's essence and NE that admits only properties invariant across worlds in both property quantifiers, every individual at every world of every Kripke frame satisfies filtered necessary existence. Given an admitted essence, its bearer has the property in the current world and, by invariance, in every accessible world. This follows in the constant-domain, possibilist embedding without any positivity axiom or accessibility-frame condition; it does not prove that individuals actually exist at all worlds in an actualist sense.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-QML-KB-NECESSITY",
+    "DEF-WORLD-INVARIANT-PROPERTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

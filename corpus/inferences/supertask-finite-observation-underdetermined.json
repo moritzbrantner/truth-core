@@ -1,0 +1,9 @@
+{
+  "id": "INF-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "rule": "two-eventually-stable-sequences-with-common-finite-prefix",
+  "meaning": "For arbitrary cutoff k, construct constant-false and false-through-k-then-true sequences. Both satisfy eventual stability and disagree only after the observed prefix.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

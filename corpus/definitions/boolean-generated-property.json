@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOOLEAN-GENERATED-PROPERTY",
+  "term": "Boolean-generated property (stipulated admissibility language)",
+  "definition": "`BooleanGeneratedProperty atom Φ` holds when some Boolean readout function of one bit reproduces Φ for every individual and world. The fragment therefore contains the atom, truth and falsity and their Boolean combinations. It has no independent world or individual names, but an unconstrained atom may itself encode names. The chosen atom is not a defended metaphysical inventory of properties.",
+  "basis": "stipulative",
+  "note": "A fixed, finite propositional-language diagnostic for existence phase B (#274). It contrasts with both all higher-order properties and world-invariant properties; those classes need not contain one another. No historical Scott, Gödel, or Thomistic attribution is made.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanGeneratedProperty"
+}

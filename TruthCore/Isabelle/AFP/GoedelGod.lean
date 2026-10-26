@@ -237,4 +237,56 @@ def NecessaryExistenceWorldIsolation (World : Type u) (Ind : Type v) : Prop :=
   ∀ (F : Frame World) (x : Ind) (w : World),
     NecessaryExistence F x w ↔ ∀ next, F.access w next → next = w
 
+/-! ## Stipulative controls for the property-quantifier domain
+
+The AFP embedding above quantifies over every intensional property. The
+following *analytic variants are not claims about Scott's or Gödel's own
+definitions*. They explicitly filter both property quantifiers so we can
+test which conclusions change if a defended metaphysics admits fewer
+properties. The filter is fixed across worlds; actualist existence is still
+not modeled here. -/
+
+/-- A property has the same extension at every world, for each individual.
+This is a stipulated diagnostic restriction, not a theory of genuine essences. -/
+def WorldInvariantProperty (Φ : Property World Ind) : Prop :=
+  ∀ (x : Ind) (w next : World), Φ x w ↔ Φ x next
+
+/-- Scott's essence condition with the universally quantified comparison
+property `Ψ` restricted to a fixed admissible property domain. -/
+def FilteredEssence (F : Frame World) (admissible : Property World Ind → Prop)
+    (Φ : Property World Ind) (x : Ind) : MProp World :=
+  fun w => Φ x w ∧
+    ∀ Ψ, admissible Ψ → Ψ x w → Box F (fun next => ∀ y, Φ y next → Ψ y next) w
+
+/-- Scott-style necessary existence with the candidate essence `Φ` and its
+comparison properties filtered through the same admissibility rule. This
+is not the AFP predicate `NecessaryExistence`. -/
+def FilteredNecessaryExistence (F : Frame World)
+    (admissible : Property World Ind → Prop) : Property World Ind :=
+  fun x w => ∀ Φ, admissible Φ → FilteredEssence F admissible Φ x w →
+    Box F (fun next => ∃ y, Φ y next) w
+
+/-- Allowing every property in both filtered quantifiers reproduces the
+original AFP definition at every individual and world. -/
+def FullFilterRecoversScott (World : Type u) (Ind : Type v) : Prop :=
+  ∀ (F : Frame World) (x : Ind) (w : World),
+    FilteredNecessaryExistence F (fun _ => True) x w ↔ NecessaryExistence F x w
+
+/-- In the constant-domain embedding, if only world-invariant properties are
+admitted, every individual satisfies the filtered necessary-existence test.
+This is a control result, not metaphysical necessity. -/
+def InvariantFilterMakesNecessaryExistenceUniversal (World : Type u) (Ind : Type v) : Prop :=
+  ∀ (F : Frame World) (x : Ind) (w : World),
+    FilteredNecessaryExistence F WorldInvariantProperty x w
+
+/-- A two-world frame with universal accessibility witnesses a separation
+between world-invariant-filtered necessary existence and the unfiltered Scott
+predicate. Universal accessibility is part of the proposition, not merely a
+feature of the witness chosen by its proof. -/
+def InvariantFilterDiffersFromScott : Prop :=
+  ∃ (F : Frame Bool),
+    (∀ w next, F.access w next) ∧
+    FilteredNecessaryExistence F WorldInvariantProperty () false ∧
+    ¬ NecessaryExistence F () false
+
 end TruthCore.Isabelle.AFP.GoedelGod

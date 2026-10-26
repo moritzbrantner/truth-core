@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "argument_id": "SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "challenge_module": "TruthCore.Results.Causality.SupertaskFiniteObservation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskFiniteObservation.Solution",
+  "theorem": "TruthCore.Results.Causality.SupertaskFiniteObservation.supertaskFiniteObservation",
+  "comparator_config": "results/SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED/comparator.json",
+  "status": "solution-present"
+}

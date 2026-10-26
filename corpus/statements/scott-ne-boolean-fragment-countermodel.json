@@ -1,0 +1,19 @@
+{
+  "id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "paraphrase": "One universally accessible two-world, two-individual model has a Boolean-generated fragment admitting a non-world-invariant property but excluding both the selected-world property and selected-individual property. Filtered necessary existence holds for one bearer at the first world and fails for the other at the second; original unrestricted Scott necessary existence fails even for the former. This is a finite formal countermodel, not a judgment that its primitive vocabulary represents real essences or metaphysical possibility.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanFragmentNontrivialModel",
+  "definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY",
+    "DEF-WORLD-INVARIANT-PROPERTY",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY",
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

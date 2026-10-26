@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "rule": "direct-proof",
+  "meaning": "Take any admitted property as a Boolean readout of the atom. A bearer with an invariant atom value has that property's truth preserved in every world, so it itself witnesses all required necessary exemplifications. Essence comparison clauses are not used, showing the remaining triviality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

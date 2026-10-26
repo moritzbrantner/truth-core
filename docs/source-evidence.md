@@ -52,6 +52,7 @@ Where no git-hosted witness exists, a web page can be pinned as a passage of kin
 
 - The manifest's **snapshot** (`kind: "web_snapshot"`) names the `source_url`, the `retrieved_at` UTC timestamp, the `sha256` of the response bytes (after removing any gzip content coding), the page `encoding`, the `language`, and in `license` the terms or copyright notice found on the site. A translation adds `translation` with `translator`, `year` and `edition`. An optional `wayback_url` of the form `https://web.archive.org/web/<14-digit timestamp>id_/<source_url>` gives a fixed-timestamp capture, with its own `wayback_sha256`.
 - Each **passage** gives an `html_selector`, the `text_sha256` of the extracted text, and optionally an `incipit` of at most 80 characters. The selector is one of `{"element_id": ...}` (that element; one whose end tag may be omitted, such as `p`, `li`, `dt`/`dd` or a table row or cell, ends where HTML implies its end: at the next start tag that closes it or at the end of its parent), `{"heading": ...}` (an `h1`–`h6` with exactly that text, up to the next heading of the same or a higher level), or `{"from": marker, "to": marker}` with `to` optional and excluded, where a marker is `{"anchor": ...}` (a tag with that `name` or `id`) or `{"text": ...}` (a block whose whole text is exactly that). Every selector must match exactly once.
+- Plain-text source files with an immutable URL may instead set `"raw_text": true` on the passage. This bypasses HTML parsing, retains line breaks and source syntax, and strips only leading/trailing whitespace; it is suitable for a hash-pinned `.thy` file. Exactly one of `html_selector`, `pdf_pages` and `raw_text` is permitted. This is a byte/text extraction variant of the existing `web_snapshot` kind, not a new source kind.
 - **No page text is committed**, only hashes, locators and a short incipit, so copyrighted translations can be cited. `check` rejects a web-snapshot passage carrying `text`.
 
 `materialize` fetches the page with a fixed User-Agent and rejects byte drift. If the live page drifted or is unreachable, it fetches the Wayback capture and checks it against `wayback_sha256`. It then extracts the selected range, normalizes it to one line per HTML block, and rejects a `text_sha256` mismatch, which also catches a changed extractor or selector. Verified bytes are cached under `.cache/truth-core/web/` by hash, so a later `materialize` works offline. The Wayback capture is only a fallback: its bytes may differ from the live page (for example by injected scripts) as long as the extracted text matches. `verify` refetches every web snapshot without the cache. The offline `check` validates the manifests and claim bindings only.
@@ -82,6 +83,11 @@ Install Poppler (`sudo apt-get install poppler-utils` on Debian/Ubuntu).
 Fetch twice and inspect the verified materialization before source claims,
 just as for HTML. Copyrighted PDFs and their extracted text stay in ignored
 local caches; only hashes, locators, terms and short incipits are committed.
+
+For an immutable plain-text file, use `web-hashes URL --encoding utf-8 --raw-text`.
+For example, the AFP `GoedelGod.thy` witness now uses an official Git mirror's
+commit-pinned raw URL instead of the AFP's release-dependent HTML presentation.
+Its file SHA-256 is cross-checked against the historical AFP release tarball.
 
 ### Translation basis
 

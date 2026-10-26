@@ -1,0 +1,7 @@
+{
+  "id": "STMT-SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "paraphrase": "In a model whose worlds have arbitrary finite natural-number capacities, every finite task prefix fits in some world, but no one model world fits every prefix. Thus per-prefix possibility alone does not entail the possibility of completing an infinite sequence; this is a countermodel to a quantifier shift, not a universal prohibition on supertasks.",
+  "lean_declaration": "TruthCore.Causality.FinitePrefixesFitSeparatelyNotUniformly",
+  "definition_ids": ["DEF-SUPERTASK-FINITE-PREFIX-CAPACITY", "DEF-SUPERTASK-UNIFORM-CAPACITY"],
+  "disambiguation_ids": ["DISAMB-SUPERTASK-MODAL-QUANTIFIER"]
+}

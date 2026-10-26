@@ -1,0 +1,17 @@
+{
+  "id": "STMT-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "paraphrase": "There exists a two-world universal-accessibility frame with one individual, evaluated at one of its worlds, in which the stipulated world-invariant-filtered necessary-existence predicate holds but Scott's original unrestricted NE does not. The filtered part follows from its universal theorem, while failure of unrestricted NE follows from the earlier world-isolation characterization. The construction is mathematical; it is neither a metaphysically possible-world claim nor a refutation of necessary existence or God.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.InvariantFilterDiffersFromScott",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY",
+    "DEF-WORLD-INVARIANT-PROPERTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

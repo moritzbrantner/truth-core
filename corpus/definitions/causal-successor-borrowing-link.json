@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-SUCCESSOR-BORROWING-LINK",
+  "term": "successor-chain borrowing link",
+  "definition": "An upstream natural-numbered node y is linked to downstream node x exactly when y = x + 1. This specifies abstract dependence order, not temporal duration, causal production, or an actual per se efficient cause.",
+  "basis": "stipulative",
+  "note": "Reuses the successor relation investigated by infinite local transmission, but gives the relation an explicit typed name for a limit-of-grounding construction. A real causal interpretation remains an independent bridge.",
+  "lean_declaration": "TruthCore.Causality.SuccessorBorrowingLink"
+}

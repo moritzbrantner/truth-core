@@ -1,0 +1,9 @@
+{
+  "id": "CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "inference_ids": ["INF-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE"],
+  "meaning": "A premise-free mathematical countermodel to the claim that a pointwise limit of individually finitely grounded activity is itself inductively grounded. It imports the established finite-grounding source theorem; it does not make causal grounding follow from mere transmission or require sourcehood in every mathematical local fixed point.",
+  "definition_ids": ["DEF-CAUSAL-SUCCESSOR-BORROWING-LINK", "DEF-CAUSAL-ESCAPING-INTRINSIC-SOURCE", "DEF-FINITELY-GROUNDED-CAUSAL-POWER", "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"],
+  "disambiguation_ids": ["DISAMB-CAUSAL-POWER-GROUNDING"]
+}

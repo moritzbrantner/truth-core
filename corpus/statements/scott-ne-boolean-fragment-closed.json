@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "paraphrase": "For any individual/world types and one Boolean primitive atom, the corresponding generated property fragment contains the primitive property, truth and falsity and is closed under negation and conjunction. This establishes an explicit finite propositional syntax, not that the chosen atom is metaphysically primitive or genuinely essential.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanFragmentClosed",
+  "definition_ids": [
+    "DEF-BOOLEAN-GENERATED-PROPERTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY"
+  ]
+}

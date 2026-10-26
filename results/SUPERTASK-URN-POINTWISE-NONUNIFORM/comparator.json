@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SupertaskUrnPointwise.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskUrnPointwise.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.SupertaskUrnPointwise.supertaskUrnPointwise"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

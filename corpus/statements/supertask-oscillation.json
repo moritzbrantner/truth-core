@@ -1,0 +1,6 @@
+{
+  "id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "paraphrase": "An output that toggles at every natural-number-indexed stage has no terminal Boolean value under eventual stability. An endless operation sequence thus need not determine a coherent terminal state, even if a limit endpoint is adjoined.",
+  "lean_declaration": "TruthCore.Causality.AlternatingOutputHasNoStableLimit",
+  "definition_ids": ["DEF-SUPERTASK-STABLE-LIMIT"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "inference_ids": [
+    "INF-SCOTT-NE-FULL-FILTER-AGREEMENT"
+  ],
+  "meaning": "A conservative-extension sanity check for a stipulative admissible-property filter. Only the currently defined Scott/AFP modal operators, essence and necessary existence are reused; no historical reading, positive-property principle or metaphysical admissibility rule is inferred from it.",
+  "definition_ids": [
+    "DEF-ESSENCE-SCOTT",
+    "DEF-FILTERED-ESSENCE",
+    "DEF-FILTERED-NECESSARY-EXISTENCE",
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

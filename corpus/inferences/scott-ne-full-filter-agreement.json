@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "rule": "direct-proof",
+  "meaning": "Unfold Scott's essence and NE alongside their filtered counterparts. Admitting all properties inserts only vacuous `True` antecedents in both higher-order quantifiers. Prove the equivalence constructively without any positivity or accessibility premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
