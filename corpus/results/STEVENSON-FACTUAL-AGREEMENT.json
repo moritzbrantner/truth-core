@@ -1,0 +1,10 @@
+{
+  "id": "STEVENSON-FACTUAL-AGREEMENT",
+  "argument_id": "STEVENSON-FACTUAL-AGREEMENT",
+  "challenge_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Solution",
+  "theorem": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.factualAgreementConsistent",
+  "comparator_config": "results/STEVENSON-FACTUAL-AGREEMENT/comparator.json",
+  "status": "solution-present",
+  "description": "An explicit refinement of the existing two-agent model has opposed interests and mutual redirection, while both agents agree on a nonempty factual domain. Retains the three earlier commitments and adds the primary structured reading. This is consistency within encoded commitments, not a refutation, actual-world truth or derivation of moral validity."
+}
