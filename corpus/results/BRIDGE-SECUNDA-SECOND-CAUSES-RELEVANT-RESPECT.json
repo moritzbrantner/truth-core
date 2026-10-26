@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "argument_id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "challenge_module": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.Solution",
+  "theorem": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.secondCausesCauseAsCausedInRelevantRespect",
+  "comparator_config": "results/BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT/comparator.json",
+  "status": "solution-present"
+}

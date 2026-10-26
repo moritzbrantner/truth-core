@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "input_statement_ids": [
+    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST"
+  ],
+  "output_statement_id": "STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "rule": "existential-instantiation",
+  "meaning": "There are natural bodies and each regularly attains a best end; take one of them: some natural body regularly attains a best end.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

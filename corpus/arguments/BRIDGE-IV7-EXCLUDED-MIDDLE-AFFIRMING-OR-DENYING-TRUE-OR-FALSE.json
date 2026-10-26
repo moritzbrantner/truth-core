@@ -1,0 +1,18 @@
+{
+  "id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION"
+  ],
+  "conclusion_statement_id": "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
+  "inference_ids": [
+    "INF-BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE"
+  ],
+  "meaning": "Bridge (#401): excluded middle (STMT-EXCLUDED-MIDDLE) and truth by composition, *Metaphysics* IV.7, 1011b26-27 with 1012a4-5 (STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION), entail the second half of the thought argument on its universal reading, 1012a2-4 (STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE): every thought that affirms or denies is true or false. Four cases: affirmation or denial, and its object holding or not. This makes exact why reading B begs the question against the intuitionist withholder (STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM): given composition, excluded middle for the objects of thought is what the sourced half needs.",
+  "definition_ids": [
+    "DEF-THOUGHT-TRUE-OR-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-APT"
+  ]
+}

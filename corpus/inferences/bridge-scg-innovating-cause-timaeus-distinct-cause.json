@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
+  "input_statement_ids": [
+    "STMT-WHAT-COMES-TO-BE-ANEW-HAS-INNOVATING-CAUSE"
+  ],
+  "output_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "rule": "schema-instantiation",
+  "meaning": "The SCG I.13 principle is the Timaeus distinct-cause schema with coming to be read as coming to be anew and causing as causing the origin. A transcription: the conclusion is the premise at that instance.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

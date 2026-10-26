@@ -1,0 +1,23 @@
+{
+  "id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "premise_statement_ids": [
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+  "inference_ids": ["INF-Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE"],
+  "meaning": "A source-attributed conditional transcription of ST I q.3 a.4's first proof, with both substantive causal premises left open. The two premises together exclude sufficient efficient self-causation by essential principles alone in the only proposed alternative to another actual efficient cause of esse. Nothing here proves that those are the only metaphysically possible explanation types; the omission models test that independently. No root-premise discharge.",
+  "definition_ids": [
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+  ]
+}

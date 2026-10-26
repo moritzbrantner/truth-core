@@ -1,0 +1,12 @@
+{
+  "id": "INF-BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "input_statement_ids": [
+    "STMT-PILOT-JESUS-CLAIMS",
+    "STMT-PILOT-ROSE"
+  ],
+  "output_statement_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "rule": "conjunction-introduction",
+  "meaning": "The pilot's claims and resurrection cells are the case signature's predicates for Jesus; conjoin them. A transcription: the conjuncts are the premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

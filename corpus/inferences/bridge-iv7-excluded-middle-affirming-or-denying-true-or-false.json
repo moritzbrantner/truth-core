@@ -1,0 +1,12 @@
+{
+  "id": "INF-BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION"
+  ],
+  "output_statement_id": "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
+  "rule": "case-analysis",
+  "meaning": "An affirming or denying thought: by excluded middle its object holds or not; in each of the four cases composition makes it true or false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "argument_id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "challenge_module": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.Solution",
+  "theorem": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.everyObjectOfThoughtJudgedOfReadingBHalves",
+  "comparator_config": "results/BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE/comparator.json",
+  "status": "solution-present"
+}

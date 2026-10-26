@@ -1,0 +1,11 @@
+{
+  "id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "argument_id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "challenge_module": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.Solution",
+  "theorem": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.pilotGodExistsOfGodExists",
+  "comparator_config": "results/BRIDGE-RESURRECTION-PILOT-GOD-EXISTS/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription (AGENTS.md invariant 16): the proof only instantiates or restates its premise, so it certifies that STMT-PILOT-GOD-EXISTS is the premise's content in the shared vocabulary, a bridge between two typed declarations, not a derivation. It connects the two statements in the inference graph and closes its conclusion only if every premise is already closed (rule (d)).",
+  "transcription": "instantiation"
+}

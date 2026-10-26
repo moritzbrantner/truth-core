@@ -1,0 +1,11 @@
+{
+  "id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "argument_id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "challenge_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Solution",
+  "theorem": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.necessaryHasCauseOfNecessityOrNot",
+  "comparator_config": "results/BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by instantiation of STMT-EXCLUDED-MIDDLE at each relevant proposition. It adds no independent defense of excluded middle or of the source argument. Closure propagates from its already closed premise; the structured transcription field records that this is an instance, not a new philosophical derivation.",
+  "transcription": "instantiation"
+}

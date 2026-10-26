@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "argument_id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "challenge_module": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.Solution",
+  "theorem": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.objectOfThoughtAffirmedOrDeniedOfEveryProposition",
+  "comparator_config": "results/BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT/comparator.json",
+  "status": "solution-present"
+}
