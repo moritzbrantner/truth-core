@@ -1,0 +1,61 @@
+{
+  "id": "MODEL-SCOTT-INVARIANT-FILTER",
+  "description": "Original two-world invariant-filter countermodel, at false and its sole individual. The fragment is an explicit open modeling choice.",
+  "vocabulary": "SCOTT-FILTERED-ESSENCE",
+  "lean_declaration": "TruthCore.Models.Scott.InvariantFilter.model",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Unit",
+    "Frame": "TruthCore.Models.Scott.InvariantFilter.model",
+    "Admissible": "TruthCore.Isabelle.AFP.GoedelGod.WorldInvariantProperty",
+    "individual": "Unit.unit",
+    "world": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SCOTT-FILTERED-NE-AT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Admissible",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.InvariantFilter.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NE-AT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.InvariantFilter.evaluation1"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Scott"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "MODEL-ACT-POTENCY-M2",
+  "description": "Existing #374 omission model M2: all seven other act/potency premises, sensible motion and accessible per-se links hold. No premise is closed.",
+  "vocabulary": "ACT-POTENCY",
+  "lean_declaration": "TruthCore.Models.ActPotency.M2.model",
+  "bindings": {
+    "Being": "TruthCore.Models.ActPotency.M2.model.Being",
+    "Respect": "TruthCore.Models.ActPotency.M2.model.Respect",
+    "esse": "TruthCore.Models.ActPotency.M2.model.esse",
+    "InAct": "TruthCore.Models.ActPotency.M2.model.InAct",
+    "InPotency": "TruthCore.Models.ActPotency.M2.model.InPotency",
+    "MovedIn": "TruthCore.Models.ActPotency.M2.model.MovedIn",
+    "MovesIn": "TruthCore.Models.ActPotency.M2.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.ActPotency.M2.model.PriorSimply",
+    "GoodIn": "TruthCore.Models.ActPotency.M2.model.GoodIn",
+    "MovesAsMoved": "TruthCore.Models.ActPotency.M2.model.MovesAsMoved"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.a",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.b",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.B.c"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.h",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.k",
+        "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels.R.e"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.enumerateRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "MovesAsMoved"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation2"
+    },
+    {
+      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation3"
+    },
+    {
+      "statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "GoodIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation4"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation6"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation7"
+    },
+    {
+      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "MovesAsMoved"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation8"
+    },
+    {
+      "statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.ActPotency.M2.evaluation9"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.ActPotency"
+  ]
+}

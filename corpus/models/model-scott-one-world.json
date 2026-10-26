@@ -1,0 +1,121 @@
+{
+  "id": "MODEL-SCOTT-ONE-WORLD",
+  "description": "Original Scott nonempty one-world satisfiability witness. Positivity is a stipulated interpretation, not the Catholic God predicate.",
+  "vocabulary": "SCOTT-POSITIVITY",
+  "lean_declaration": "TruthCore.Models.Scott.OneWorld.model",
+  "bindings": {
+    "World": "Unit",
+    "Being": "Unit",
+    "Frame": "TruthCore.Models.Scott.OneWorld.model",
+    "Positivity": "TruthCore.Models.Scott.OneWorld.positivity",
+    "individual": "Unit.unit",
+    "world": "Unit.unit"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation1"
+    },
+    {
+      "statement_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation2"
+    },
+    {
+      "statement_id": "STMT-SCOTT-GOD-LIKE-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation3"
+    },
+    {
+      "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation4"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NE-AT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "individual",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation5"
+    },
+    {
+      "statement_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation6"
+    },
+    {
+      "statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Frame",
+        "Positivity"
+      ],
+      "theorem": "TruthCore.Models.Scott.OneWorld.evaluation7"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Scott"
+  ]
+}
