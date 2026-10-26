@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "argument_id": "ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.everyPhysicalMotionHasAPerSeMover",
+  "comparator_config": "results/ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER/comparator.json",
+  "status": "solution-present",
+  "description": "Every physical motion has a per se mover in its respect, from the five VIII.4 readings (all attributed, read literally, scoped to physical motion) and one added, unattributed premise (STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER) that supplies what the literal disjunction lacks. Not a transcription: two-level case analysis, and premisesNeeded shows each of the six premises is needed (without the added premise, a light thing moved only by the remover of a hindrance has no per se mover). Its conclusion is restricted to physical motion; it reaches the prima via only through ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA."
+}

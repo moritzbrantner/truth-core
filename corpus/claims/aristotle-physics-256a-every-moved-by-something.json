@@ -3,11 +3,12 @@
   "statement_id": "STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS",
   "source_id": "ARIST-PHYS",
   "locator": "VIII.4, 256a2-3",
-  "interpretation": "The chapter's conclusion, 'all things that are moved would be moved by something' (ἅπαντα ἂν τὰ κινούμενα ὑπό τινος κινοῖτο), read per motion and with 'by something' covering the per accidens mover that the literal reading of 255b35-256a2 admits.",
+  "interpretation": "The chapter's conclusion, 'all things that are moved would be moved by something' (ἅπαντα ἂν τὰ κινούμενα ὑπό τινος κινοῖτο), read per motion and with 'by something' covering the per accidens mover that the literal reading of 255b35-256a2 admits. Scope: physical motion only (`IsPhysicalRespect`: place, quality, quantity), the motion the Physics treats; the reading says nothing about other reductions from potency to act.",
   "status": "formalized",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PER-ACCIDENS-MOVER"
+    "DEF-PER-ACCIDENS-MOVER",
+    "DEF-PHYSICAL-RESPECT"
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION",

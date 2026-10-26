@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "input_statement_ids": [
+    "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+    "STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION"
+  ],
+  "output_statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "rule": "composition",
+  "meaning": "A moved thing is moved in a respect of physical motion (scope premise), so the restricted conclusion gives it a per se mover in that respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -11,12 +11,13 @@
   "inference_ids": [
     "INF-ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS"
   ],
-  "meaning": "Physics VIII.4's closing argument (255b31-256a3) on the literal reading of its last step. Not a transcription: the conclusion is derived by a two-level case analysis, and premisesNeeded shows each of the five premises is needed. literalReadingDoesNotGivePerSeMover shows that this literal reading does not yield the prima via's STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER: a light thing moved only by the remover of a hindrance has no per se mover. Connects results; closes nothing.",
+  "meaning": "Physics VIII.4's closing argument (255b31-256a3) on the literal reading of its last step, for physical motion. Not a transcription: the conclusion is derived by a two-level case analysis, and premisesNeeded shows each of the five premises is needed. literalReadingDoesNotGivePerSeMover shows that this literal reading does not yield even STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER: a light thing moved only by the remover of a hindrance has no per se mover. Connects results; closes nothing.",
   "definition_ids": [
     "DEF-MOTION-AS-PHYSICAL-CHANGE",
     "DEF-NATURAL-AND-FORCED-MOTION",
     "DEF-PASSIVE-NATURAL-MOTION",
     "DEF-PER-ACCIDENS-MOVER",
+    "DEF-PHYSICAL-RESPECT",
     "DEF-SELF-MOTION-ARISTOTLE"
   ],
   "disambiguation_ids": [

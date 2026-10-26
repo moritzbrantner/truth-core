@@ -38,6 +38,11 @@ is primitive, never defined:
   heavy are (255b29-31).
 * `MovesPerAccidensIn y x r`: `y` moves `x` in `r` only per accidens
   (κατὰ συμβεβηκός), as the one who takes away a hindrance does (255b24-27).
+* `IsPhysicalRespect r`: `r` is a respect of physical motion in Aristotle's sense:
+  a place, a quality or a quantity (*Physics* V.1-2). It marks the scope of the
+  VIII.4 readings, so that they say nothing about other reductions from potency to
+  act that the *prima via*'s broad reading of `MovedIn` may include
+  (`DISAMB-MOTION`).
 * `IsLocal r`: `r` is a respect of local, bodily motion (κατὰ τόπον καὶ σωματικὴν
   κίνησιν; VII.1, 242a15-16, 242b24-25).
 * `MovesPrimarily y x`: `y` is a primary (proximate) mover of `x`, the
@@ -95,11 +100,16 @@ def NoMoverMovesItselfInItsRespectReading {Being : Sort u} {Respect : Sort v}
 (*Physics* VIII.4, 255b31: εἰ δὴ πάντα τὰ κινούμενα ἢ φύσει κινεῖται ἢ παρὰ φύσιν
 καὶ βίᾳ), the division set out at 254b12-24.
 
+Scope: only physical motion (`IsPhysicalRespect`), the motion the *Physics*
+treats. The reading says nothing about a reduction from potency to act in any
+other respect.
+
 Source: Aristotle, *Physics* VIII.4, 254b12-24, 255b31 (Bekker pagination).
 -/
 def EveryMotionNaturalOrForcedReading {Being : Sort u} {Respect : Sort v}
+    (IsPhysicalRespect : Respect → Prop)
     (MovedIn ByNature ByForce : Being → Respect → Prop) : Prop :=
-  ∀ x r, MovedIn x r → ByNature x r ∨ ByForce x r
+  ∀ x r, IsPhysicalRespect r → MovedIn x r → ByNature x r ∨ ByForce x r
 
 /-- Of natural motions, some are motions of things moved by themselves and the rest
 of things not moved by themselves, as the light and the heavy (*Physics* VIII.4,
@@ -159,35 +169,68 @@ def PassiveNaturalMotionByGeneratorOrRemoverReading {Being : Sort u} {Respect : 
     (MovesIn MovesPerAccidensIn : Being → Being → Respect → Prop) : Prop :=
   ∀ x r, PassiveNaturalIn x r → ∃ y, MovesIn y x r ∨ MovesPerAccidensIn y x r
 
-/-- Sibling reading of the same sentence: the natural motion of a thing not moved by
-itself, as of the light and the heavy, is moved per se by what generated it and
-made it light or heavy.
+/-- **Added premise, not a source reading.** If the natural motion of a thing not
+moved by itself, as of the light and the heavy, has a per accidens mover (the
+remover of a hindrance), it also has a per se mover in that respect.
 
-This is stronger than the literal disjunction. Its ground is that VIII.4 itself
-says fire and earth are moved by something also when they move by nature to their
-own actualities (255a28-30), and calls the remover of a hindrance a mover only per
-accidens (255b24-27); of the two movers 256a1-2 names, only the generator is left
-as a per se mover. Whether the generator still *moves* the light thing while it
-rises is the reading's open commitment.
-
-Source: Aristotle, *Physics* VIII.4, 255a28-30, 255b24-27, 255b35-256a2 (Bekker
-pagination).
--/
-def PassiveNaturalMotionByGeneratorReading {Being : Sort u} {Respect : Sort v}
+Aristotle names the generator as the other mover such things have (VIII.4,
+255b35-256a1), but he does not say that the generator still moves a light body
+while it rises, and he gives the disjunction "by the generator or by the remover"
+(`PassiveNaturalMotionByGeneratorOrRemoverReading`). This premise is what that
+disjunction lacks for a per se mover (result
+`ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS`,
+`literalReadingDoesNotGivePerSeMover`). It is open and has no source claim; a
+source would have to say that the per se mover of the light thing's natural
+motion is present while it moves (Aquinas' commentary on VIII.4 may be a place
+to look; it is not pinned). -/
+def PerAccidensMovedPassiveMotionHasPerSeMoverReading {Being : Sort u} {Respect : Sort v}
     (PassiveNaturalIn : Being → Respect → Prop)
-    (MovesIn : Being → Being → Respect → Prop) : Prop :=
-  ∀ x r, PassiveNaturalIn x r → ∃ y, MovesIn y x r
+    (MovesIn MovesPerAccidensIn : Being → Being → Respect → Prop) : Prop :=
+  ∀ x r y, PassiveNaturalIn x r → MovesPerAccidensIn y x r → ∃ z, MovesIn z x r
 
 /-- All things that are moved would be moved by something (*Physics* VIII.4,
 256a2-3: ἅπαντα ἂν τὰ κινούμενα ὑπό τινος κινοῖτο), with "by something" covering
 the per accidens mover that the literal reading of 255b35-256a2 admits.
 
+Scope: physical motion only (`IsPhysicalRespect`).
+
 Source: Aristotle, *Physics* VIII.4, 256a2-3 (Bekker pagination).
 -/
 def EveryMovedThingMovedPerSeOrPerAccidensReading {Being : Sort u} {Respect : Sort v}
+    (IsPhysicalRespect : Respect → Prop)
     (MovedIn : Being → Respect → Prop)
     (MovesIn MovesPerAccidensIn : Being → Being → Respect → Prop) : Prop :=
-  ∀ x r, MovedIn x r → ∃ y, MovesIn y x r ∨ MovesPerAccidensIn y x r
+  ∀ x r, IsPhysicalRespect r → MovedIn x r → ∃ y, MovesIn y x r ∨ MovesPerAccidensIn y x r
+
+/-- Whatever is moved in a respect of physical motion has a per se mover in that
+respect.
+
+A consequence, not a source reading: result
+`ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER` derives it from the
+VIII.4 readings and the added premise
+`PerAccidensMovedPassiveMotionHasPerSeMoverReading`. It is the *prima via*'s
+`ReducedOnlyByAMoverReading` restricted to physical motion. -/
+def EveryPhysicalMotionHasAPerSeMoverReading {Being : Sort u} {Respect : Sort v}
+    (IsPhysicalRespect : Respect → Prop)
+    (MovedIn : Being → Respect → Prop)
+    (MovesIn : Being → Being → Respect → Prop) : Prop :=
+  ∀ x r, IsPhysicalRespect r → MovedIn x r → ∃ y, MovesIn y x r
+
+/-- **Added premise, not a source reading.** Every respect in which something is
+being moved, in the sense of `MovedIn` that the root premise
+`TruthCore.Latin.Aquinas.SummaTheologiae.ReducedOnlyByAMoverReading` uses, is a
+respect of physical motion.
+
+This is the scope extension that carries VIII.4's physical premises to the
+*prima via*'s premise, which on the case's reading covers every reduction from
+potency to act (`DISAMB-MOTION`). It is open and doubtful: Aquinas counts
+reductions that are not physical motion (for example in understanding and
+willing) under *moveri*, so on that reading this premise is false and the
+VIII.4 route does not reach the root premise. -/
+def EveryReductionIsPhysicalMotionReading {Being : Sort u} {Respect : Sort v}
+    (IsPhysicalRespect : Respect → Prop)
+    (MovedIn : Being → Respect → Prop) : Prop :=
+  ∀ x r, MovedIn x r → IsPhysicalRespect r
 
 /-! ## *Physics* VII.1: the regress of local moved movers -/
 
