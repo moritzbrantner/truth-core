@@ -77,7 +77,7 @@ A result is a **transcription** (invariant 16) when its record declares one in t
 
 For each open premise it shows the arguments that use it directly, the transitive dependents (arguments and conclusions reached by repeatedly following the arguments that use a statement as a premise), one shortest path to the root, the attacking objections, and the supporting source claims. When a statement has `root_route` relations, the walk enters it only through the designated arguments (owner decision on #143, 2026-10-24). The root `STMT-CATHOLICISM-TRUE` is routed through `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`, so premises that only the older root compositions use do not count as reaching the root; they stay in the full frontier. Items that reach the root come first, then items with more transitive dependents, then by ID, so the output is deterministic. Options:
 
-- `--routes` prints the **per-route open-premise cost** instead (with `--json`, the `routes` object that the full JSON report also carries). For each argument concluding the root it gives a cost, the number of distinct premises, whether the argument is verified, a transcription or the `root_route` designation, and marks the cheapest verified route (ties by argument ID). Each statement costs 0 when it is self-evident or defended, and otherwise min(1 as an open leaf, its cost via any verified proof); a non-transcription proof costs the sum of its distinct premises' costs, and a transcription counts only at cost 0, that is from closed premises (rule (d)). Costs are computed downward from the leaf costs to a fixpoint, so a cycle of derivations lowers nothing. Every statement thus costs 0 exactly when it is established and 1 otherwise, and a route's cost is the number of its distinct premises that are not established, listed in `open_premise_statement_ids` (those proved from open premises also in `proved_unestablished_statement_ids`). Adding a derivation can only lower a cost, so a route never looks worse because a premise gained a proof from narrower open premises (owner decision on #391, 2026-10-26); that growth shows in `--reaching-root` instead. This is the official route count; do not compute it with ad-hoc scripts;
+- `--routes` prints the **per-route open-premise cost** instead (with `--json`, the `routes` object that the full JSON report also carries). For each argument concluding the root it gives a cost, the number of distinct premises, whether the argument is verified, a transcription or the `root_route` designation, and marks the cheapest verified route (ties by argument ID). Each statement gets a set of **open leaves**, and its cost is that set's size. An established statement has none. A statement may stand as a single open leaf only when it is a genuine premise: a claim states it or a `supports` relation points to it (sourced), or no argument concludes it (bare). Any other statement, an intermediate conclusion such as `STMT-GOD-EXISTS`, is **expanded**: its leaves are the union of its premises' leaves under the verified non-transcription proof whose union is smallest. A transcription never expands a statement; it only makes its conclusion established through rule (d). An intermediate conclusion with no usable proof (only unverified or transcription arguments, or an ungrounded cycle) falls back to a leaf. A route's cost is the size of the union of its premises' leaf sets, listed in `open_premise_statement_ids` (sourced leaves that are themselves proved from open premises also appear in `proved_unestablished_statement_ids`). The minimum is chosen per statement and the unions are formed upward, so shared leaves count once but the choice is greedy, not an exact minimum set cover over the whole graph; the fixpoint only ever replaces a set by a strictly smaller one, so it terminates and is deterministic. A sourced premise always stays one leaf or becomes established, so **adding a derivation under a sourced premise never raises a route's cost** (owner decision on #391, 2026-10-26). A derivation under a bare premise, or a new intermediate step, is a relocation and may raise it. This is the official route count; do not compute it with ad-hoc scripts;
 - `--json` prints the same report as JSON, plus `closed_statements` (each closed statement with the rule that closes it: `proved`, `self_evident`, `alternatives_refuted` or `via_transcription`) and `established_statements` (statements reached from self-evident or defended statements through verified results only; a closed statement proved from open premises is not established). The GitHub Pages state view reads these (`docs/github-pages.md`);
 - `--root STMT-...` chooses the statement whose path is shown (default `STMT-CATHOLICISM-TRUE`);
 - `--reaching-root` keeps only the premises from which the root is reached.
@@ -112,15 +112,15 @@ transcription heuristics: 0 results flagged (single application, assembly of hyp
 $ python3 scripts/corpus.py frontier --routes
 routes to STMT-CATHOLICISM-TRUE: 8 arguments; cheapest CATHOLICISM-SKELETON
 cost  premises  argument
-   9         9  CATHOLICISM-SKELETON  [cheapest]
-  18        19  CATHOLICISM-FROM-PRIMA-VIA
+  28         9  CATHOLICISM-SKELETON  [cheapest]
+  29        30  CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES
   ...
   37        38  CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES  [designated]
   ...
-open premises of the cheapest route CATHOLICISM-SKELETON (9):
-  STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD
+open premises of the cheapest route CATHOLICISM-SKELETON (28):
+  STMT-ACT-SIMPLY-PRIOR-TO-POTENCY
   ...
-  STMT-GOD-EXISTS (proved, rests on open premises)
+  STMT-GOD-IS-ETERNAL (proved, rests on open premises)
   ...
 ```
 

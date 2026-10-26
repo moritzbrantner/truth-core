@@ -348,9 +348,11 @@ class FrontierReportTest(unittest.TestCase):
 
 
 class RouteCostTest(unittest.TestCase):
-    """`frontier --routes` (#391, owner decision 2026-10-26): each statement
-    costs min(1 as an open leaf, cost via any verified non-transcription
-    proof); a route costs the sum over its distinct premises."""
+    """`frontier --routes` (#391, owner decision 2026-10-26, corrected): a
+    sourced or bare premise may stand as one open leaf; an intermediate
+    conclusion is expanded into the union of its premises' leaves under its
+    cheapest verified non-transcription proof; a route costs the size of the
+    union over its premises."""
 
     STATEMENTS = [
         statement("ROOT"),
@@ -362,9 +364,15 @@ class RouteCostTest(unittest.TestCase):
         statement("SE", self_evident={"justification_ids": ["CLAIM-SE"]}),
     ]
 
-    def routes(self, arguments, results, relations=(), transcription=None):
+    def routes(self, arguments, results, relations=(), transcription=None, claims=None):
         report = corpus.frontier_report(
-            self.STATEMENTS, arguments, results, list(relations), root="ROOT", transcription=transcription
+            self.STATEMENTS,
+            arguments,
+            results,
+            list(relations),
+            root="ROOT",
+            transcription=transcription,
+            claims=claims,
         )
         return report["routes"]
 
@@ -394,20 +402,44 @@ class RouteCostTest(unittest.TestCase):
         self.assertIn("   2         3  R1  [designated]", text)
         self.assertIn("   1         1  R2  [cheapest]", text)
 
-    def test_added_derivation_never_raises_a_route_cost(self) -> None:
+    def test_added_derivation_under_a_sourced_premise_never_raises_a_route_cost(self) -> None:
         arguments = [argument("R1", ["A", "B"], "ROOT")]
         results = [{"id": "R1", "argument_id": "R1"}]
-        base = self.by_id(self.routes(arguments, results))["R1"]["cost"]
+        claims = [{"id": "CLAIM-A", "statement_id": "A"}]
+        base = self.by_id(self.routes(arguments, results, claims=claims))["R1"]["cost"]
         self.assertEqual(base, 2)
-        # A verified derivation of A from two open premises: A still costs 1.
+        # A verified derivation of the sourced A from two open premises: A
+        # may still stand as one leaf.
         widened = [*arguments, argument("DA", ["P1", "P2"], "A")]
-        entry = self.by_id(self.routes(widened, [*results, {"id": "DA", "argument_id": "DA"}]))["R1"]
+        widened_results = [*results, {"id": "DA", "argument_id": "DA"}]
+        entry = self.by_id(self.routes(widened, widened_results, claims=claims))["R1"]
         self.assertEqual(entry["cost"], 2)
         self.assertEqual(entry["proved_unestablished_statement_ids"], ["A"])
+        # A supports relation makes a premise sourced too.
+        supported = [relation("claim", "CLAIM-A", "supports", "A")]
+        self.assertEqual(self.by_id(self.routes(widened, widened_results, supported))["R1"]["cost"], 2)
         # A derivation of B from the self-evident SE lowers the cost.
         grounded = [*arguments, argument("DB", ["SE"], "B")]
         entry = self.by_id(self.routes(grounded, [*results, {"id": "DB", "argument_id": "DB"}]))["R1"]
         self.assertEqual(entry["cost"], 1)
+
+    def test_intermediate_conclusions_are_expanded(self) -> None:
+        # A has no claim and is concluded by verified proofs: it is expanded
+        # under its cheapest proof (DA2: {P1}), and leaves shared between
+        # premises count once.
+        arguments = [
+            argument("R1", ["A", "B"], "ROOT"),
+            argument("DA", ["P1", "P2"], "A"),
+            argument("DA2", ["P1"], "A"),
+            argument("DB", ["P1", "SE"], "B"),
+        ]
+        results = [{"id": rid, "argument_id": rid} for rid in ("R1", "DA", "DA2", "DB")]
+        entry = self.by_id(self.routes(arguments, results))["R1"]
+        self.assertEqual(entry["open_premise_statement_ids"], ["P1"])
+        self.assertEqual(entry["cost"], 1)
+        # Only the more expensive proof: A expands to {P1, P2}.
+        arguments, results = arguments[:2] + arguments[3:], results[:2] + results[3:]
+        self.assertEqual(self.by_id(self.routes(arguments, results))["R1"]["open_premise_statement_ids"], ["P1", "P2"])
 
     def test_transcriptions_and_cycles_lower_no_cost(self) -> None:
         arguments = [
@@ -634,6 +666,17 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual([entry["argument_id"] for entry in cheapest], [routes["cheapest_argument_id"]])
         self.assertEqual(cheapest[0]["cost"], min(entry["cost"] for entry in routes["routes"] if entry["verified"]))
         self.assertIn("routes to STMT-CATHOLICISM-TRUE", self.run_frontier("--routes"))
+
+    def test_skeleton_route_is_expanded_through_god_exists(self) -> None:
+        # #391 correction: STMT-GOD-EXISTS is an intermediate conclusion with
+        # no stating claim, so the skeleton route counts the open leaves
+        # under its proof rather than one node.
+        routes = json.loads(self.run_frontier("--routes", "--json"))
+        skeleton = next(entry for entry in routes["routes"] if entry["argument_id"] == "CATHOLICISM-SKELETON")
+        self.assertNotIn("STMT-GOD-EXISTS", skeleton["open_premise_statement_ids"])
+        self.assertGreater(skeleton["cost"], skeleton["premise_count"])
+        self.assertIn("STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", skeleton["open_premise_statement_ids"])
+        self.assertEqual(skeleton["cost"], len(skeleton["open_premise_statement_ids"]))
 
     def test_text_output_is_stable(self) -> None:
         self.assertEqual(self.run_frontier(), self.run_frontier())

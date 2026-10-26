@@ -58,7 +58,7 @@ export type Refutation = {
 
 export type RootRoute = {
   argument_id: string;
-  /** Number of distinct premises not established (each costs min(1, cost via a proof)). */
+  /** Distinct open leaves: sourced or bare premises kept as leaves, intermediate conclusions expanded (#391). */
   cost: number;
   premise_count: number;
   verified: boolean;

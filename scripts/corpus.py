@@ -281,53 +281,78 @@ def root_routes(
     results: list[dict[str, Any]],
     transcription_results: set[str],
     closed: set[str],
-    base: Any,
+    established: set[str],
+    sourced: Any,
     designated: set[str],
 ) -> dict[str, Any]:
-    """Official per-route open-premise count (#391, owner decision 2026-10-26).
+    """Official per-route open-premise count (#391, owner decision 2026-10-26,
+    corrected the same day).
 
-    Each statement costs 0 when it is self-evident or defended, and otherwise
-    min(1 as an open leaf, its cost via any verified proof), where a proof
-    costs the sum of its distinct premises' costs. A non-transcription result
-    is a proof at that cost; a transcription result counts only at cost 0
-    (rule (d): it closes its conclusion only from closed premises). Costs are
-    a greatest-to-least fixpoint from the leaf costs, so a cycle of
-    derivations never lowers a cost by itself. Because every statement costs
-    0 or 1, a statement costs 0 exactly when it is established, and adding a
-    derivation can only lower a cost: a route never looks worse for it.
+    Each statement is assigned a set of open leaves; its cost is that set's
+    size. An established statement has none. A statement may stand as a
+    single open leaf (cost 1) only when it is a genuine premise: a claim
+    states it or supports it (sourced), or no argument concludes it (bare
+    leaf). Any other statement, an intermediate conclusion, is expanded: its
+    leaves are the union of its premises' leaves under the verified
+    non-transcription proof whose union is smallest. A transcription never
+    expands a statement (rule (d): it only carries closure from closed
+    premises, which makes its conclusion established). An intermediate
+    conclusion with no usable proof (only unverified or transcription
+    arguments, or a cycle with no grounded proof) falls back to a leaf.
 
-    A route is an argument concluding the root; its cost is the sum of its
-    distinct premises' costs. The cheapest verified route is marked."""
+    The minimum over proofs is taken per statement and the unions are then
+    formed upward, so overlaps between premises are counted once but the
+    choice is greedy: an exact minimum set cover over the whole graph is not
+    attempted. Iteration runs to a fixpoint in which a statement's set only
+    changes to a strictly smaller one, so it terminates and is deterministic
+    (proofs by argument ID). A sourced premise always stays a single leaf or
+    becomes established, so adding a derivation under a sourced premise never
+    raises a route's cost.
+
+    A route is an argument concluding the root; its cost is the size of the
+    union of its distinct premises' leaf sets. The cheapest verified route is
+    marked."""
     if root is None:
         return {"root": root, "cheapest_argument_id": None, "routes": []}
     results_by_argument: dict[str, list[str]] = {}
     for result in results:
         results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
     statement_ids = set(statement_by_id)
+    concluded: set[str] = set()
     for argument in argument_by_id.values():
         statement_ids.update(argument["premise_statement_ids"])
         statement_ids.add(argument["conclusion_statement_id"])
-    cost = {statement_id: 0 if base(statement_id) else 1 for statement_id in statement_ids}
-    steps = sorted(
-        (
-            argument_id,
-            argument_by_id[argument_id],
-            any(result_id not in transcription_results for result_id in result_ids),
-        )
+        concluded.add(argument["conclusion_statement_id"])
+    leaves: dict[str, frozenset[str] | None] = {}
+    for statement_id in statement_ids:
+        if statement_id in established:
+            leaves[statement_id] = frozenset()
+        elif sourced(statement_id) or statement_id not in concluded:
+            leaves[statement_id] = frozenset({statement_id})
+        else:
+            leaves[statement_id] = None
+    proofs = sorted(
+        (argument_id, argument_by_id[argument_id])
         for argument_id, result_ids in results_by_argument.items()
         if argument_id in argument_by_id
+        and any(result_id not in transcription_results for result_id in result_ids)
     )
     changed = True
     while changed:
         changed = False
-        for _, argument, derivation in steps:
-            total = sum(cost[premise] for premise in set(argument["premise_statement_ids"]))
-            if not derivation and total:
-                continue
+        for _, argument in proofs:
             conclusion = argument["conclusion_statement_id"]
-            if min(1, total) < cost[conclusion]:
-                cost[conclusion] = min(1, total)
+            premise_sets = [leaves[premise] for premise in set(argument["premise_statement_ids"])]
+            if any(premise_set is None for premise_set in premise_sets):
+                continue
+            candidate = frozenset().union(*premise_sets)
+            current = leaves[conclusion]
+            if current is None or len(candidate) < len(current):
+                leaves[conclusion] = candidate
                 changed = True
+    for statement_id, value in leaves.items():
+        if value is None:
+            leaves[statement_id] = frozenset({statement_id})
 
     entries: list[dict[str, Any]] = []
     for argument_id in sorted(argument_by_id):
@@ -335,7 +360,7 @@ def root_routes(
         if argument["conclusion_statement_id"] != root:
             continue
         premises = sorted(set(argument["premise_statement_ids"]))
-        open_premises = [premise for premise in premises if cost[premise]]
+        open_premises = sorted(frozenset().union(*(leaves[premise] for premise in premises)))
         result_ids = results_by_argument.get(argument_id, [])
         entries.append(
             {
@@ -607,6 +632,10 @@ def frontier_report(
                 established.add(conclusion)
                 changed = True
 
+    stating_claims: dict[str, set[str]] = {}
+    for claim in claims or []:
+        stating_claims.setdefault(claim["statement_id"], set()).add(claim["id"])
+
     route_report = root_routes(
         root,
         statement_by_id,
@@ -614,14 +643,10 @@ def frontier_report(
         results,
         transcription_results,
         closed,
-        lambda statement_id: statement_by_id.get(statement_id, {}).get("self_evident") is not None
-        or defended(statement_id),
+        established,
+        lambda statement_id: bool(stating_claims.get(statement_id) or support.get(statement_id)),
         routes.get(root or "", set()),
     )
-
-    stating_claims: dict[str, set[str]] = {}
-    for claim in claims or []:
-        stating_claims.setdefault(claim["statement_id"], set()).add(claim["id"])
 
     items: list[dict[str, Any]] = []
     for statement_id in sorted(dependents):
