@@ -18,7 +18,7 @@ The marker arguments are shell-quoted: the entry directory, the format
 (`table` or `list`), then for a table one `field=Header` per column, in order.
 `filter:field=value` keeps only entries whose field has that value. The field
 `body` is the entry's text after its front matter; every other field comes
-from the front matter.
+from the front matter. An entry may omit the body when no column uses it.
 
 An entry is `<dir>/<name>.md`: a front matter block of `key: value` lines
 between `---` lines, then the body. Entries render in file-name order, so
@@ -65,9 +65,8 @@ def parse_entry(path: Path) -> dict[str, str]:
             raise DocsIndexError(f"{path}: front matter line is not 'key: value': {line!r}")
         fields[key.strip()] = value.strip()
     body = "\n".join(lines[end + 1 :]).strip("\n")
-    if not body.strip():
-        raise DocsIndexError(f"{path}: entry has no body")
-    fields["body"] = body
+    if body.strip():
+        fields["body"] = body
     return fields
 
 
@@ -114,7 +113,9 @@ def render(root: Path, spec: str, where: str) -> list[str]:
     ]
     if fmt == "list":
         out: list[str] = []
-        for _, fields in entries:
+        for path, fields in entries:
+            if "body" not in fields:
+                raise DocsIndexError(f"{path.relative_to(root)}: a list entry needs a body ({where})")
             first, *more = fields["body"].splitlines()
             out.append(f"- {first}")
             out.extend(f"  {line}" if line else "" for line in more)

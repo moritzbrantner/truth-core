@@ -68,6 +68,17 @@ class DocsIndexTest(unittest.TestCase):
         with self.assertRaises(di.DocsIndexError):
             di.regenerate(self.root, self.doc)
 
+    def test_table_without_body_column_needs_no_body(self):
+        (self.root / "docs/rows").mkdir()
+        (self.root / "docs/rows/a.md").write_text("---\npremise: P\nrival: R\n---\n")
+        self.doc.write_text("<!-- BEGIN GENERATED: docs/rows table premise=Premise rival=Rival -->\n<!-- END GENERATED -->\n")
+        self.assertIn("| P | R |", di.regenerate(self.root, self.doc))
+
+    def test_list_entry_without_body_fails(self):
+        (self.root / "docs/cands/z.md").write_text("---\ngroup: next\n---\n")
+        with self.assertRaises(di.DocsIndexError):
+            di.regenerate(self.root, self.doc)
+
     def test_bad_entry_fails(self):
         (self.root / "docs/cands/z.md").write_text("no front matter\n")
         with self.assertRaises(di.DocsIndexError):
