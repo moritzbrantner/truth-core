@@ -1,5 +1,8 @@
 """Conservative configuration pruning, shared semantics and verification boundary."""
 import copy
+import argparse
+from contextlib import redirect_stdout
+import io
 import json
 from itertools import combinations
 from pathlib import Path
@@ -25,16 +28,16 @@ class ConfigurationTests(unittest.TestCase):
             'PQ': {'id': 'PQ', 'premise_statement_ids': ['P'], 'conclusion_statement_id': 'Q'},
             'QR': {'id': 'QR', 'premise_statement_ids': ['Q'], 'conclusion_statement_id': 'R'},
         }
-        self.models = {mid: {'id': mid, 'vocabulary': 'V', 'lean_declaration': 'Fixture.model', 'bindings': {'X': 'Bool'}, 'modules': ['Fixture'],
-                            'evaluations': [{'statement_id': sid, 'arguments': ['X'], 'value': 'satisfies'} for sid in ids]}
+        self.models = {mid: {'id': mid, 'vocabulary': 'V', 'lean_declaration': 'Fixture.model', 'bindings': {'W': 'Bool', 'I': 'Bool', 'F': 'Fixture.frame', 'present': 'Fixture.present', 'w': 'Bool.false'}, 'modules': ['Fixture'],
+                            'evaluations': [{'statement_id': sid, 'arguments': ['W'], 'value': 'satisfies'} for sid in ids]}
                        for mid, ids in [('MP', ['P']), ('MQ', ['Q'])]}
         self.case = {'id': 'CONFIG-TEST', 'seed_statement_id': 'P',
                      'semantics': {'id': 'test', 'logic': 'constructive', 'frame': 'arbitrary', 'domain': 'fixed', 'identity': 'literal', 'vocabulary': 'V', 'permitted_axioms': [],
-                                   'modules': ['Fixture'], 'parameters': [{'name': 'X', 'type': 'Type'}], 'applications': {sid: ['X'] for sid in self.statements}},
+                                   'modules': ['Fixture'], 'parameter_order': ['W', 'I', 'F', 'present', 'w'], 'parameters': [{'name': 'W', 'type': 'Type'}, {'name': 'I', 'type': 'Type'}, {'name': 'F', 'type': 'TruthCore.Modal.Frame W'}, {'name': 'present', 'type': 'I → W → Prop'}, {'name': 'w', 'type': 'W'}], 'applications': {sid: ['W'] for sid in self.statements}},
                      'configurations': [{'id': 'core', 'statement_ids': ['P', 'Q']}, {'id': 'superset', 'statement_ids': ['P', 'Q', 'R']},
                                         {'id': 'control', 'statement_ids': ['P']}, {'id': 'unknown', 'statement_ids': ['S']}],
                      'incompatibility_result_ids': ['LARGER', 'CORE'], 'implication_result_ids': [],
-                     'model_bindings': [{'model_id': mid, 'parameters': {'X': 'X'}} for mid in self.models]}
+                     'model_bindings': [{'model_id': mid, 'parameters': {role: role for role in ['W', 'I', 'F', 'present', 'w']}} for mid in self.models]}
 
     def validate(self):
         validate_case(self.case, self.statements, self.results, self.arguments, self.models, self.root)
@@ -75,8 +78,8 @@ class ConfigurationTests(unittest.TestCase):
 
     def test_certificate_type_uses_same_explicit_parameters_and_false(self):
         source = certificate_source(self.case, self.statements, self.results, self.arguments)
-        self.assertIn('∀ (X : Type), (@Fixture.P X) → (@Fixture.Q X) → False := by', source)
-        self.assertIn('exact @Fixture.CORE X', source)
+        self.assertIn('(@Fixture.P W) → (@Fixture.Q W) → False := by', source)
+        self.assertIn('exact @Fixture.CORE W I F present w', source)
         self.assertNotIn('sorry', source)
 
     def test_live_verifier_rebuilds_before_comparator_and_failure_emits_no_success(self):
@@ -99,16 +102,13 @@ class ConfigurationTests(unittest.TestCase):
         self.assertEqual(list(self.root.glob('tmp*.lean')), [])
 
     def test_fixed_carrier_profile_excludes_and_reports_bool_models(self):
-        self.case['semantics']['constants'] = {'X': 'Nat'}
-        self.case['semantics']['parameters'] = [{'name': 'w', 'type': 'Nat'}]
-        self.case['semantics']['parameter_order'] = ['X', 'w']
-        for registration in self.case['model_bindings']:
-            registration['parameters']['w'] = 'X'
+        self.case['semantics']['constants'] = {'W': 'Nat', 'I': 'Bool'}
+        self.case['semantics']['parameters'] = [{'name': 'F', 'type': 'TruthCore.Modal.Frame Nat'}, {'name': 'present', 'type': 'Bool → Nat → Prop'}, {'name': 'w', 'type': 'Nat'}]
         self.validate()
         report = self.report()
         self.assertEqual(len(report['inapplicable_models']), 2)
         self.assertEqual(report['inapplicable_models'][0]['profile_mismatches'][0],
-                         {'parameter': 'X', 'expected': 'Nat', 'registered': 'Bool'})
+                         {'parameter': 'W', 'expected': 'Nat', 'registered': 'Bool'})
         control = next(entry for entry in report['configurations'] if entry['id'] == 'control')
         self.assertEqual(control['status'], 'unresolved')
         self.assertEqual(control['model_ids'], [])
@@ -116,6 +116,25 @@ class ConfigurationTests(unittest.TestCase):
     def test_same_vocabulary_models_cannot_be_hidden_to_manufacture_unknown(self):
         self.case['model_bindings'].pop()
         with self.assertRaisesRegex(ValueError, 'omits registered models'):
+            self.validate()
+
+    def test_proof_parameters_cannot_hide_an_original_premise(self):
+        self.case['semantics']['parameters'].append({'name': 'hidden', 'type': 'Fixture.P W'})
+        self.case['semantics']['parameter_order'].append('hidden')
+        self.arguments['PQ']['premise_statement_ids'] = []
+        self.case['implication_result_ids'] = ['PQ']
+        with self.assertRaisesRegex(ValueError, 'semantic roles'):
+            self.validate()
+        self.case['semantics']['parameters'].pop()
+        self.case['semantics']['parameter_order'].pop()
+        self.case['semantics']['parameters'][-1]['type'] = 'Fixture.P W'
+        with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
+            self.validate()
+
+    def test_fixed_carriers_cannot_turn_world_or_roster_roles_into_proofs(self):
+        self.case['semantics']['constants'] = {'W': 'False'}
+        self.case['semantics']['parameters'] = [p for p in self.case['semantics']['parameters'] if p['name'] != 'W']
+        with self.assertRaisesRegex(ValueError, 'proposition-valued carriers'):
             self.validate()
 
     def test_false_conclusions_cannot_enter_implication_discovery(self):
@@ -139,7 +158,7 @@ class ConfigurationTests(unittest.TestCase):
             self.validate()
 
     def test_overlap_is_a_verification_defect(self):
-        self.models['MP']['evaluations'].append({'statement_id': 'Q', 'arguments': ['X'], 'value': 'satisfies'})
+        self.models['MP']['evaluations'].append({'statement_id': 'Q', 'arguments': ['W'], 'value': 'satisfies'})
         with self.assertRaisesRegex(ValueError, 'verification defect'):
             self.report()
 
@@ -195,6 +214,49 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         self.assertGreater(count, 0)
         self.assertIn('have derived_', source)
         self.assertIn('@' + self.results[core['result_id']]['theorem'], source)
+
+    def test_result_substitution_and_comparator_gate_disagreement_are_rejected(self):
+        rid = 'NECESSARY-INDIVIDUAL-RE-TO-DICTO'
+        result = self.results[rid]
+        for replacement in [dict(theorem='sorryAx'), dict(comparator_config='results/OTHER/comparator.json'),
+                            dict(solution_module='TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers'),
+                            dict(challenge_module='TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers')]:
+            with self.subTest(replacement=replacement), self.assertRaises(self.corpus.CorpusError):
+                replaced = {**self.results, rid: {**result, **replacement}}
+                self.corpus.registered_configurations(self.statements, replaced, self.arguments, self.models)
+
+    def test_original_theorem_binding_rejects_erased_de_re_hypothesis(self):
+        rid = 'NECESSARY-INDIVIDUAL-RE-TO-DICTO'
+        result = self.results[rid]
+        argument = {**self.arguments[result['argument_id']], 'premise_statement_ids': []}
+        ni = 'TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.'
+        described = {'theorem': result['theorem'],
+                     'binders': [{'name': 'h', 'prop': True, 'head': ni + 'DeRe', 'type': ni + 'DeRe F present w', 'wrappers': [], 'core_head': ni + 'DeRe'}],
+                     'result': {'prop': True, 'head': ni + 'DeDicto', 'type': ni + 'DeDicto F present w', 'wrappers': [], 'core_head': ni + 'DeDicto'}}
+        index = {sid: (self.corpus.ROOT, statement) for sid, statement in self.statements.items()}
+        binding = self.corpus.bind_result(result, argument, index, described)
+        self.assertEqual(binding['status'], 'mismatch')
+        self.assertTrue(any(problem['kind'] == 'extra-hypothesis' for problem in binding['problems']))
+        case = copy.deepcopy(self.cases['CONFIG-NECESSARY-INDIVIDUAL'])
+        case['incompatibility_result_ids'] = []
+        case['implication_result_ids'] = [rid]
+        original_loader = self.corpus.load_dir
+        def loader(kind):
+            records = original_loader(kind)
+            if kind == 'arguments':
+                return [(path, argument if record['id'] == argument['id'] else record) for path, record in records]
+            return records
+        output = io.StringIO()
+        args = argparse.Namespace(case=case['id'], seed=None, premise=[], registered=False, json=True)
+        with patch.object(self.corpus, 'load_dir', side_effect=loader), \
+             patch.object(self.corpus, 'registered_configurations', return_value=[case]), \
+             patch.object(self.corpus, 'verify_case', return_value={}), \
+             patch.object(self.corpus, 'run_bind_tool', return_value=[described]) as tool, \
+             redirect_stdout(output), self.assertRaisesRegex(self.corpus.CorpusError, 'original theorem binding rejected'):
+            self.corpus.command_configurations(args)
+        self.assertEqual(tool.call_args.args[0]['theorems'], [result['theorem']])
+        self.assertEqual(output.getvalue(), '')
+
 
     def test_all_sixteen_positive_starter_subsets_match_independent_reference(self):
         case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']

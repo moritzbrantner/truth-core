@@ -1366,6 +1366,66 @@ def validate_argument_senses(
             )
 
 
+def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Iterable[str]) -> dict[str, Any]:
+    """One result/provenance contract shared by corpus and configuration gates."""
+    require(
+        result,
+        [
+            "id",
+            "argument_id",
+            "challenge_module",
+            "solution_module",
+            "theorem",
+            "comparator_config",
+            "status",
+        ],
+        path,
+    )
+    if result["argument_id"] not in argument_ids:
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: unknown argument_id {result['argument_id']}"
+        )
+    validate_result_transcription(path.relative_to(ROOT), result)
+    challenge = module_path(result["challenge_module"])
+    solution = module_path(result["solution_module"])
+    canonical = f"results/{result['id']}/comparator.json"
+    if result["comparator_config"] != canonical:
+        raise CorpusError(f"{path.relative_to(ROOT)}: Comparator path must match executable gate: {canonical}")
+    config_path = ROOT / canonical
+    for expected in (challenge, solution, config_path):
+        if not expected.is_file():
+            raise CorpusError(
+                f"{path.relative_to(ROOT)}: referenced file does not exist: "
+                f"{expected.relative_to(ROOT)}"
+            )
+    try:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise CorpusError(
+            f"{config_path.relative_to(ROOT)}: invalid Comparator JSON: {exc}"
+        ) from exc
+    if config.get("challenge_module") != result["challenge_module"]:
+        raise CorpusError(
+            f"{config_path.relative_to(ROOT)}: challenge module disagrees with result record"
+        )
+    if config.get("solution_module") != result["solution_module"]:
+        raise CorpusError(
+            f"{config_path.relative_to(ROOT)}: solution module disagrees with result record"
+        )
+    if result["theorem"] not in config.get("theorem_names", []):
+        raise CorpusError(
+            f"{config_path.relative_to(ROOT)}: theorem is not listed in theorem_names"
+        )
+    axiom_error = permitted_axioms_error(config)
+    if axiom_error:
+        raise CorpusError(f"{config_path.relative_to(ROOT)}: {axiom_error}")
+    if config.get("enable_nanoda") is not True:
+        raise CorpusError(
+            f"{config_path.relative_to(ROOT)}: NanoDa must be enabled"
+        )
+    return config
+
+
 def validate() -> dict[str, int]:
     sources = load_dir("sources")
     statements = load_dir("statements")
@@ -1595,61 +1655,7 @@ def validate() -> dict[str, int]:
                 f"{path.relative_to(ROOT)}: priority must be an integer"
             )
 
-    result_configs = {}
-    for path, result in results:
-        require(
-            result,
-            [
-                "id",
-                "argument_id",
-                "challenge_module",
-                "solution_module",
-                "theorem",
-                "comparator_config",
-                "status",
-            ],
-            path,
-        )
-        if result["argument_id"] not in argument_index:
-            raise CorpusError(
-                f"{path.relative_to(ROOT)}: unknown argument_id {result['argument_id']}"
-            )
-        validate_result_transcription(path.relative_to(ROOT), result)
-        challenge = module_path(result["challenge_module"])
-        solution = module_path(result["solution_module"])
-        config_path = ROOT / result["comparator_config"]
-        for expected in (challenge, solution, config_path):
-            if not expected.is_file():
-                raise CorpusError(
-                    f"{path.relative_to(ROOT)}: referenced file does not exist: "
-                    f"{expected.relative_to(ROOT)}"
-                )
-        try:
-            config = json.loads(config_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as exc:
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: invalid Comparator JSON: {exc}"
-            ) from exc
-        if config.get("challenge_module") != result["challenge_module"]:
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: challenge module disagrees with result record"
-            )
-        if config.get("solution_module") != result["solution_module"]:
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: solution module disagrees with result record"
-            )
-        if result["theorem"] not in config.get("theorem_names", []):
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: theorem is not listed in theorem_names"
-            )
-        result_configs[result["id"]] = config
-        axiom_error = permitted_axioms_error(config)
-        if axiom_error:
-            raise CorpusError(f"{config_path.relative_to(ROOT)}: {axiom_error}")
-        if config.get("enable_nanoda") is not True:
-            raise CorpusError(
-                f"{config_path.relative_to(ROOT)}: NanoDa must be enabled"
-            )
+    result_configs = {result["id"]: validate_result_config(path, result, argument_index) for path, result in results}
 
     result_records = {key: value[1] for key, value in result_index.items()}
     for path, relation in relations:
@@ -2202,6 +2208,10 @@ def registered_configurations(statements=None, results=None, arguments=None, mod
     models = models if models is not None else {model["id"]: model for model in registered_models()}
     records = load_dir("configurations")
     index_by_id(records, "configuration")
+    selected = sorted({rid for _, case in records for field in ("incompatibility_result_ids", "implication_result_ids") for rid in case.get(field, []) if isinstance(rid, str)})
+    for rid in selected:
+        if rid in results:
+            validate_result_config(CORPUS / "results" / f"{rid}.json", results[rid], arguments)
     if any(case.get("implication_result_ids") for _, case in records):
         flags = transcription_flags(list(results.values()), list(arguments.values()), list(statements.values()))
         transcriptions = transcription_kinds(list(results.values()), flags)
@@ -2235,6 +2245,7 @@ def command_configurations(args: argparse.Namespace) -> int:
         raise CorpusError("--premise requires exactly one selected case")
     reports = []
     verified_results: set[str] = set()
+    bound_results: set[str] = set()
     for case in cases:
         selection = None
         if args.premise:
@@ -2243,6 +2254,19 @@ def command_configurations(args: argparse.Namespace) -> int:
             selection = {"id": "selection", "statement_ids": args.premise}
         try:
             verification = None if args.registered else verify_case(case, statements, results, arguments, models, ROOT, verified_results)
+            if verification is not None:
+                original_ids = sorted(set(case.get("incompatibility_result_ids", []) + case.get("implication_result_ids", [])) - bound_results)
+                if original_ids:
+                    originals = [results[rid] for rid in original_ids]
+                    descriptions = {entry["theorem"]: entry for entry in run_bind_tool(bind_tool_input([(ROOT, result) for result in originals]))}
+                    statement_index = {sid: (ROOT, statement) for sid, statement in statements.items()}
+                    for result in originals:
+                        binding = bind_result(result, arguments[result["argument_id"]], statement_index,
+                                              descriptions.get(result["theorem"], {"error": "missing original theorem description"}))
+                        if binding["status"] != "bound":
+                            raise CorpusError(f"{result['id']}: original theorem binding rejected: {binding['problems']}")
+                        bound_results.add(result["id"])
+                verification["original_bound_result_ids"] = sorted(set(case.get("incompatibility_result_ids", []) + case.get("implication_result_ids", [])))
             report = configuration_report(case, results, arguments, models, verified=verification is not None, selection=selection)
             if verification is not None:
                 verification["compositions"] = verify_compositions(case, report, statements, results, arguments, ROOT)

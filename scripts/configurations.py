@@ -57,6 +57,19 @@ def validate_case(case, statements, results, arguments, models, root):
     order = profile.get('parameter_order', names)
     if not isinstance(order, list) or any(not isinstance(name, str) for name in order) or len(order) != len(set(order)) or set(order) != set(names):
         raise ValueError('parameter_order must list every variable and fixed role exactly once')
+    # This first slice supports one explicit Kripke encoding, not arbitrary
+    # proof-carrying contexts. These role types are all non-propositional.
+    roles = ['W', 'I', 'F', 'present', 'w']
+    if order != roles or set(names) != set(roles) or set(constants) - {'W', 'I'}:
+        raise ValueError('supported semantic roles are exactly W,I,F,present,w; only carrier W/I may be fixed')
+    if any(term not in {'Bool', 'Nat'} for term in constants.values()):
+        raise ValueError('supported fixed carriers are Bool or Nat; proposition-valued carriers are forbidden')
+    world, individual = constants.get('W', 'W'), constants.get('I', 'I')
+    expected_types = {'W': 'Type', 'I': 'Type', 'F': f'TruthCore.Modal.Frame {world}',
+                      'present': f'{individual} → {world} → Prop', 'w': world}
+    for parameter in parameters:
+        if ' '.join(parameter['type'].split()) != expected_types[parameter['name']]:
+            raise ValueError(f"{parameter['name']}: unsupported semantic role type; proof-valued parameters are forbidden")
     applications = profile.get('applications')
     if not isinstance(applications, dict) or not applications:
         raise ValueError('profile requires explicit statement applications')

@@ -34,12 +34,16 @@ A case has these fields:
   existing Lean `modules`, ordered `parameters`, `applications` and an explicit
   `permitted_axioms` list. Starter profiles permit no axioms. Only the existing
   approved Mathlib axiom names may be allowed by another profile.
-- Each parameter is `{ "name": "W", "type": "Type" }`. The intentionally small
-  type grammar accepts names, application and arrows; it accepts no Lean commands
-  or tactic bodies. Profiles currently quantify universe-zero types. A parameter
-  list can include a frame, predicate assignment and evaluation world.
+- The first slice supports exactly the ordered non-proof semantic roles
+  `W : Type`, `I : Type`, `F : TruthCore.Modal.Frame W`,
+  `present : I → W → Prop`, and `w : W`. Extra roles, proof-valued parameters,
+  changed role types and arbitrary proof-carrying contexts are rejected.
+  Parameters use a small names/application/arrows grammar, with no Lean commands
+  or tactic bodies. The two carrier types currently have universe zero.
 - Optional `constants` fix role names to closed Lean terms (for example
-  `{"W": "Nat", "I": "Bool"}`); `parameter_order` lists every variable and fixed
+  `{"W": "Nat", "I": "Bool"}`); only literal `Bool`/`Nat` carrier constants are
+  supported in this slice, so a fixed proposition cannot turn `w` into a hidden
+  proof. `parameter_order` lists every variable and fixed
   role in the original theorem argument order. Fixed roles are explicitly applied
   to each generic theorem, never silently quantified over again.
 - `applications` maps existing bound statement IDs to ordered parameter names,
@@ -66,10 +70,19 @@ cross-profile certificate transfer or hidden coercion is performed.
 
 ## Verification and pruning
 
+The shared result validator checks the exact theorem and Challenge/Solution
+modules against the conventional `results/<RESULT-ID>/comparator.json` actually
+used by the executable gate. A substituted theorem or alternative config path
+cannot borrow another theorem’s successful check.
+
 Default execution rebuilds the profile and result solution modules, compiles a
 fresh temporary theorem for every exact shared-parameter implication or
 contradiction, and runs each existing Comparator/NanoDa result gate. It then
 uses the existing finite-model verifier for the selected registered models.
+The original theorem, before profile specialization or currying, independently
+passes the existing `BindTypes`/`bind_result` check: every original `Prop`
+hypothesis must be one of the argument’s explicit statement premises. Profile
+parameters cannot hide a hypothesis or turn a conditional theorem into a fact.
 Missing tools, stale proofs, parameter mismatches and failed certificates abort.
 The gate also checks `#print axioms` for every specialized theorem, model-role
 binding and composed proof against the profile policy. A fixed frame or other
