@@ -29,6 +29,8 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
       data-kind={node.kind}
       data-selected={data.selected}
       data-highlighted={node.highlighted}
+      data-hover-dimmed={data.hoverDimmed === true}
+      data-hover-neighbor={data.hoverNeighbor === true}
       data-dimmed={!node.matched}
       data-frontier={statement?.frontier}
       data-frontier-depth={statement?.frontierDepth ?? ""}
