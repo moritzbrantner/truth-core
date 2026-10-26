@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

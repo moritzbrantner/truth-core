@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-A5-INDEPENDENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-A5-INDEPENDENCE",
+  "rule": "direct-proof",
+  "meaning": "Construct a two-world S5 frame with a single individual and positivity evaluated at one designated world. Verify each of A1a–A4 and the possibility corollary, then exhibit a world-relative essence whose necessary exemplification fails. Thus A5 and T3 fail in an actual finite model; there is no premise that merely asserts the desired independence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
