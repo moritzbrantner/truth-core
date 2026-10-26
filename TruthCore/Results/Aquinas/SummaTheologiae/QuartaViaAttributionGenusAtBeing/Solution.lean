@@ -7,7 +7,8 @@ thing is more a being than another exactly as it approaches a primary more
 nearly (q.3 a.5 ad 2), and nothing else reaches the primary (strict primacy, an
 open premise), then whatever is maximal in being is the primary; if every
 creature is ordered to the primary as to its cause (q.13 a.5) and everything
-other than the primary is a creature (an open premise), the maximum causes the
+other than the primary is a creature (an open premise), then, using explicit
+excluded middle to identify a maximum with the primary, the maximum causes the
 being of every other being. Only the instance at being is derived: the genus
 principle for other perfections is not touched. -/
 theorem attributionOrderGenusPrincipleAtBeing {Being Respect Degree : Type}

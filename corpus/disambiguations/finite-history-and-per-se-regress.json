@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS",
+  "term": "finite causal history and per se regress",
+  "sense_definition_ids": [
+    "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+    "DEF-CAUSAL-HISTORY-NO-LOOPS",
+    "DEF-PER-SE-FINITE-HISTORY-INCLUSION",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-PER-ACCIDENS-ORDERED-SERIES"
+  ],
+  "resolution": "FiniteDistinctAncestry counts distinct upstream relata via nonempty finite paths in a supplied cause relation. NoCausalLoops excludes revisiting a relatum and is independent of that count: a finite self-loop is the omission model. Accessibility forbids infinite descending histories, including repetitions, but allows infinitely many independent immediate causes. PerSeLinksIncluded is the explicit same-carrier restriction to Aquinas\u2019s per se efficient-cause link. There is no automatic identity between causal-power events in Koons and efficient causes as beings in Aquinas. A broadly quantified finitism covering accidental series would exclude infinite accidental ancestry, whereas Aquinas I q.46 a.2 ad 7 does not regard such regress as impossible; neither reading is rewritten to identify the two. No possible-world quantifier or temporal length bound is formalized; the new premises are unattributed open hypotheses. See docs/notes/causal-finitism-367.md."
+}

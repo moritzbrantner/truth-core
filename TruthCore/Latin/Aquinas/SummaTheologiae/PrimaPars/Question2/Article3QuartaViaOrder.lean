@@ -31,11 +31,13 @@ can be tested on each (`DISAMB-ORDER-OF-BEING`):
 * `OthersAreCreaturesReading` — everything other than the primary is a
   creature (`DEF-CREATURE`). An open premise, not attributed to q.13 a.5.
 
-Order theory alone does not tell the two readings apart: an order by approach to
-a primary is, as an order, a homogeneous scale (the preorder pulled back along
-`near`; `ApproachToPrimaryReading.homogeneousLift`). What separates them is a
-distinguished primary that nothing else reaches (strict primacy, an open
-premise), and, for causation, the separate causal clause of q.13 a.5.
+Order shape alone does not tell the two readings apart. If every represented
+being has the perfection (`∀ x, InAct x r`), an order by approach to a primary
+is a homogeneous scale for the preorder pulled back along `near`
+(`ApproachToPrimaryReading.homogeneousLift`). The attribution reading itself
+requires only the primary to have the perfection, so the universal possession
+condition is additional. Strict primacy and the causal clause of q.13 a.5 are
+further separate conditions used by the results below.
 
 The degrees of approach live in their own preorder `Degree`, with `near x` the
 degree to which `x` approaches the primary. Nothing makes `Degree` total,

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.CausalFinitism.finitePathsOfFiniteAncestry"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

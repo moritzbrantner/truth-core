@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-FINITE-ANCESTRY-NO-LOOPS-REGRESS",
+  "statement_ids": [
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+    "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+    "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED"
+  ],
+  "date": "2026-10-26",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "A genuine finite-set and acyclic-transitive-closure route derives accessibility and transfers it by explicit per-se edge inclusion. Each hypothesis has an omission model. This does not identify finite distinct ancestors with no infinite histories, defend the premises, supply the event/being map, or close the root frontier. Proof verification status is recorded in the linked result, not inferred from this attempt.",
+  "evidence": [
+    "FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS",
+    "FINITE-ANCESTRY-PER-SE-FINITE-PATH"
+  ]
+}

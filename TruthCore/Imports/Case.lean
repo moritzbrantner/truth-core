@@ -3,6 +3,7 @@ import TruthCore.Case.Catholicism.FoundingIndependence
 import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
+import TruthCore.Case.Catholicism.StageOne.CausalFinitism
 import TruthCore.Case.Catholicism.StageOneBridges
 import TruthCore.Case.Catholicism.StageOneConvergence
 import TruthCore.Case.Catholicism.StageOneQuartaVia

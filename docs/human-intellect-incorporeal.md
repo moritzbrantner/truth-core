@@ -126,8 +126,10 @@ than the later anti-reductionist operation claim, and there is no argument
 from it to God or Catholicism. The conditional theorem is a typed reductio,
 not an opaque-atom transcription; its scope and premises are explicit.
 
-`HUMAN-INTELLECT-ORGAN-INDEPENDENCE` retains the next contiguous source range,
-starting at the organ argument in q.75 a.2. It also retains the requirement for
-an affirmative rival account and the missing justification of the alleged
+The organ argument has since been formalized separately; see
+[the bodily-organ inference](human-intellect-organ-operation.md).
+`HUMAN-INTELLECT-ORGAN-INDEPENDENCE` now retains the next contiguous source
+range, starting at per-se operation and subsistence in q.75 a.2. It also
+retains the requirement for an affirmative rival account and the missing justification of the alleged
 cognitive restriction. Subsequent subsistence and immortality claims require
 separate source readings and arguments.

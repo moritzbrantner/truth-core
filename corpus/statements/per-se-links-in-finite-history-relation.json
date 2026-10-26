@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+  "paraphrase": "On the same carrier and with the same upstream orientation, every per se efficient-cause edge belongs to the relation whose causal history is being studied.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.PerSeLinksIncluded",
+  "definition_ids": [
+    "DEF-PER-SE-FINITE-HISTORY-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"
+  ]
+}
