@@ -4,7 +4,7 @@
   "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
   "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
   "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.attributionMaximumSchemaInstance",
-  "comparator_config": "results/MAXIMUM-ORDER-SCHEMA/comparator.json",
+  "comparator_config": "results/ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE/comparator.json",
   "status": "solution-present",
   "description": "Conditional attribution-order schema instance: an order by approach to a primary, universal possession of the selected perfection, and the unrestricted cause-more-such condition imply that a maximum has no distinct cause of that same perfection. Strict primacy and primary-causes-creatures are not used. Derivation through Mathlib maximality and the existing #386 representation lemmas; no root premise is discharged."
 }
