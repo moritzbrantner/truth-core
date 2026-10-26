@@ -186,3 +186,125 @@ creature coverage and the primary's causal clause are omitted because this
 conclusion differs from #386's genus-principle derivation, not because those
 conditions were refuted. See [maximum-order-schema.md](maximum-order-schema.md)
 for the exact proof composition, controls, premise comparison and source limits.
+
+## Periodic Audit C, round 3 (2026-10-26)
+
+Frozen main: `088d7706d2541e11c4d0d44f4a3b3205b6ba023b`. The twelve-merge
+trigger after audit #425 was #434, #442, #444, #445, #443, #446, #448,
+#447, #450, #451, #452 and #453. The frozen snapshot also contains #454's
+Pages workflow correction. This is a bounded independent audit of recent C
+changes and the dependencies/sample below, not every statement in that snapshot.
+Round 2 covered A; round 4 must cover B to complete the three-round rotation.
+
+Findings: no P1 identified in this sample. Two P2 corrections: the dossier CLI
+and its documentation still said no schema registry existed after the explicit
+checked registrations landed; the secondary Stevenson descriptive-meaning
+claim still categorically said no primary text was pinnable. The latter is
+narrowed to distinguish its unchanged secondary 1944 witness from the separate
+1937 primary reading. No witness is substituted and no proposition changes.
+
+### Source fidelity sample
+
+The following **13 actual source claims** were independently reread against
+freshly materialized pinned text, including 11 in C and two Latin dependencies
+of the C culpa result. Each row names the precise consulted witness and claim
+locator. Materialization verifies bytes, not interpretation. The source texts
+remain in ignored cache; these findings are the durable record.
+
+| Claim | Materialized passage and locator | Reading judgment |
+| --- | --- | --- |
+| `STEVENSON-1937-27-29-INTEREST-DISAGREEMENT` | `STEVENSON-EMOTIVE-MEANING-1937-14-31`, pp.27–29, §V, “Disagreement in interest occurs” and public-dole example | Opposed interests and mutual redirection; empirical reasons sometimes settle disagreements but need not settle all. The model only represents that possibility on its designated factual domain. |
+| `SEP-MORAL-COGNITIVISM-3-5-STEVENSON-DISAGREEMENT-IN-ATTITUDE` | `SEP-MORAL-COGNITIVISM-3-5`, whole §3.5 | Secondary report of the 1944 account; its statement explicitly omits belief disagreement. It is not silently identified with the primary 1937 reading. |
+| `SEP-MORAL-COGNITIVISM-2-1-STEVENSON-DESCRIPTIVE-MEANING` | `SEP-MORAL-COGNITIVISM-2-1`, whole §2.1, general moral terms and hybrid component | Descriptive meaning is recorded without a compositional semantics or proof of validity. Correct the stale witness-availability sentence only. |
+| `HUME-ENQUIRY-IV-AGENT-A` | `HUME-ENQUIRY-IV`, E4.20–22, especially E4.21/SBN36–38 | Agent satisfaction and an unsatisfied philosophical request coexist; not universal denial of entitlement. |
+| `HUME-ENQUIRY-V-CUSTOM-A` | `HUME-ENQUIRY-V`, E5.4–8/SBN42–47 | Operational expectation consequence with repetition and trigger conditions; psychology and exclusion of every other origin remain outside the type, as recorded. |
+| `HUME-ENQUIRY-V-ANCHOR-A` | `HUME-ENQUIRY-V`, E5.7/SBN45–46 and immediate context | Actual experiential inference needs a present memory/sense anchor; a merely hypothetical chain is distinguished. No specific theological rejection follows. |
+| `HUME-ENQUIRY-V-CORRESPONDENCE-A` | `HUME-ENQUIRY-V`, E5.20–21/SBN53–55 | Retrospective correspondence is represented by a finite record, not a universal future guarantee or an ultimate ground. |
+| `KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-A` | `KANT-CPR-IDEAL`, A606–609/B634–637, “In this cosmological argument” and conversion paragraph | Objection to the specific necessary-being/most-real completion. The separate formal conversion retains existence and numerical-identity conditions. |
+| `KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-A` | `KANT-CPR-IDEAL`, A609–610/B637–638, fallacies 1–2 and context | Kant disputes transcendental application and termination inference; this is not a proof of no extra-empirical cause. |
+| `KANT-CHANGE-NOT-MODAL-CONTINGENCY-A` | `KANT-CPR-FOURTH-ANTINOMY`, A458–460/B486–488, “In the pure sense” and observations | Change at another time does not establish the contradictory alternative at the same time. It does not show all changing things necessary. |
+| `KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE-A` | `KANT-CPR-RESOLUTION`, A562–564/B590–592, “But it has been far” and surrounding resolution | Compatibility/withholding only, expressly without existence or real-possibility proof. The antithesis is not treated as Kant's final atheism. |
+| `AQUINAS-ST-I-Q48-A5-VOLUNTARY-OPERATION-DEFECT-CULPA` | `AQUINAS-ST-I-Q48-A5`, full article, co. and ad2; xml:id `TAca84-d1e294-Dd1e1209` | Due operation and voluntary mastery survive; absence/disorder are sufficient for culpa. The unrestricted partition and an actual culprit are not inferred. |
+| `AQUINAS-ST-I-Q48-A3-EVIL-IS-PRIVATION` | `AQUINAS-ST-I-Q48-A3`, full article, co.; xml:id `TAca84-d1e294-Dd1e716` | Privative rather than arbitrary negative absence. Operational perfections instantiate this reading in the C comparison only through its declared signature. |
+
+Kant's witnesses are the recorded English translation (`basis: translation`).
+The four Kant source-reading statements are unbound interpretive records;
+the separate modal tests do not certify Kant's philosophy. Hume's source types
+likewise leave their substantive commitments open.
+
+Also materialized and reread the causal-argument context of
+`PAPINEAU-RISE-PHYSICALISM-3-12`, especially printed pp.8–12. This is context
+for the q.75 rival note, not an additional claim in the 13-claim sample. The
+note correctly keeps completeness, mental efficacy and non-overdetermination
+as Papineau's commitments and distinguishes event identity, property identity,
+and permissive realization. It does not prove physicalism or infer a bridge
+from modern physical realization to q.75 bodily instrumentality.
+
+### Proof acceptance and remaining obligations
+
+Accepted as presented: `regressSchemaPackage : DomainPackage` proves
+universally quantified conditional structural laws and the separately typed
+transfers above. The proofs use accessibility/inductive warrant, existing
+finite-history/motion/grounding theorems, and Mathlib fixed points. The
+justification theorem extracts one finite branch under nonempty rules, not
+a finite whole derivation tree or sufficient epistemic justification.
+`EpistemicBridge` requires both an edge-preserving map and epistemic
+well-foundedness; failed warrant alone supplies neither. The singleton and
+successor controls discriminate these conditions without proving actual
+causal possibility. #433's same-carrier inclusion, finite transitive ancestry
+and no-loops conditions survive its import; no event/being identification is
+introduced. No fresh claim about #430's separate q.14 source reading is made.
+
+Accepted: `factualAgreementConsistent : ∃ s : Sig, Theory s` witnesses the
+encoded enriched Stevenson commitments, with a moral clash and nonempty factual
+domain. It proves no actual disputants, truth of beliefs, theory truth,
+compositional validity or normative authority. The original signature/model
+is reused; the added interests explain why the refinement needs new fields.
+
+Accepted: `catholicAbsentOperationCulpaAndEvil` derives
+`Voluntary a o → Due a o → ¬ Performs a o → Culpa a o ∧ Evil a` from the
+operational culpa and privation readings. It supplies no actual occurrence,
+objective standard of dues, complete Catholic consistency, divine-permission
+answer or translation into an emotivist sentence. Those omissions are already
+explicit. These structured proofs are not opaque-atom transcriptions.
+
+No additional definition/disambiguation gap identified in this bounded sample;
+#216 remains the wider coverage task. The finite registry's closed applications,
+carrier enumerations, explicit bindings and zero-axiom gate were inspected,
+including all 48 registration inventories and the finite-image order exception.
+Registration does not close premises. No replacement of Mathlib or restatement
+of an earlier proved conclusion requiring correction was identified. Ayer's
+note correctly remains a source-search blocker: no scan was passed off as a
+materialized primary reading or self-application refutation.
+
+Intended and actual root-path premise effect: **no change**. The exact
+`frontier --routes` and `frontier --reaching-root` reports are unchanged;
+route costs remain 28, 29, 33, 35, 36, 36, 37, 38, designated route 37.
+No premise is discharged. No Lean declaration, proof, frozen Challenge,
+Comparator configuration, argument premise list or closure rule is edited.
+Shared convention `sourceRevision`:
+`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+Proof verification is reused from the already accepted merged evidence:
+#451's `94e100c2` (eight Comparator obligations and library NanoDa), #452's
+`35ea9314` (Stevenson Comparator/NanoDa), #450's `6bc65baa` (culpa
+Comparator/NanoDa), and #443's `b2b4c4e` (48 models/481 zero-axiom certificates).
+The audited proof/model/configuration files were compared to those tested
+commits and are unchanged at the frozen SHA. This audit independently assesses
+types, proofs and source fidelity; it does not claim a fresh full Lean build,
+bind/model gate, Comparator or library NanoDa run. The six unrelated media
+exports remain unavailable and were not reverified.
+
+Affected validation: 18 Python tests passed (six dossier, seven finite-model,
+five schema-registration tests), plus the real dossier CLI smoke check, source
+manifest/binding check (258 passages, 1477 claims), corpus check, both generator
+checks and `git diff --check`. The existing open-premise warning for the
+Frege–Geach refutation remains unchanged. Both exact root reports were compared
+byte-for-byte before/after. No full live-source sweep was run; the fresh
+materializations listed above are the live source-verification scope.
+
+Publication refresh: later main `bf106c2f` (#456 and #455) was merged only
+to reconcile this note with the new maximum-schema section. Both sections
+are preserved. The audit remains frozen at `088d7706`; no acceptance or source
+coverage of those later changes is claimed by this audit. The merge resolution
+changes no proof or statement supplied by either change.
