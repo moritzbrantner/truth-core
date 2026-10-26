@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-CAUSAL-CONCRETENESS-CAPACITY",
+  "term": "causal power and concreteness",
+  "sense_definition_ids": [
+    "DEF-INTERVENTION-RESPONSE-CAPACITY",
+    "DEF-CAUSAL-CAPACITY-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+  ],
+  "resolution": "The new response test gives an explicit finite instance of the capacity sense: an accessible manifestation can exist while every actual response is dormant. It does not use actual transmitted power or identify capacity with actual exercise. The generic ConcreteAt predicate now receives this computed capacity criterion only in this model. No claim is made that spatial location or underived actuality is this same criterion, or that a recipient lacking outgoing capacity is abstract. Literal identity and necessity retain DISAMB-NECESSARY-INDIVIDUAL-SCOPE. The comparison senses DEF-POWER-CAPACITY-READING and DEF-ACTUAL-POWER-TRANSMISSION-READING are already disambiguated by the existing power-existence scope record; no existing argument is reclassified."
+}
