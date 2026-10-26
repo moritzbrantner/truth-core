@@ -112,6 +112,7 @@ import TruthCore.History.Resurrection
 import TruthCore.History.ResurrectionCoverage
 import TruthCore.History.ResurrectionVocabulary
 import TruthCore.Isabelle.AFP.GoedelGod
+import TruthCore.Isabelle.AFP.GoedelGod.GeneratedFragment
 import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
@@ -420,6 +421,9 @@ import TruthCore.Results.Hiddenness.NontheisticConsistent.Solution
 import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
 import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
 import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Solution
+import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
 import TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution
 import TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution
 import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution

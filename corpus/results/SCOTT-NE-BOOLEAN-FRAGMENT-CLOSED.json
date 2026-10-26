@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "argument_id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.checks",
+  "comparator_config": "results/SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED/comparator.json",
+  "status": "solution-present"
+}

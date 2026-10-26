@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "argument_id": "SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.checks",
+  "comparator_config": "results/SCOTT-NE-BOOLEAN-STABLE-BEARER/comparator.json",
+  "status": "solution-present"
+}

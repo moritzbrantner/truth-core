@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "argument_id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.checks",
+  "comparator_config": "results/SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL/comparator.json",
+  "status": "solution-present"
+}

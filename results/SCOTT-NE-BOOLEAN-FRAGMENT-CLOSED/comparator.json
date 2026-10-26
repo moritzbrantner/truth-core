@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

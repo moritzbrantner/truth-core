@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "rule": "direct-proof",
+  "meaning": "Compose the Boolean-closure and stable-bearer results with the prior Scott world-isolation theorem. In a two-world universal frame, the chosen atom varies at one individual/world pair. Direct finite cases exclude world and individual names from the fragment, verify a non-invariant member, and establish a concrete essence lacking necessary exemplification for the other bearer.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
