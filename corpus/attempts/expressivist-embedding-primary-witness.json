@@ -7,12 +7,13 @@
     "STMT-EXPRESSIVISM-NEEDS-B-TYPE-INCONSISTENCY"
   ],
   "kind": "source-search",
-  "outcome": "blocked",
-  "summary": "The existing constant-meaning model sets ValidMP to True and identifies p with q, so its certified consistency result supplies no compositional explanation of a nontrivial embedded moral modus ponens. Legitimate publisher/author/institutional searches did not produce a materializable primary witness of the selected Blackburn/Gibbard reply: Chicago and Michigan routes returned 403, the indexed Tanner PDF returned 404, and the obtainable OUP preview ends before the relevant semantics. Exact leads, rejected substitutes, and the semantic acceptance versus substantive moral realism boundary are recorded in docs/expressivist-embedding-boundary.md. No source claim, theorem, answer-map upgrade, refutation or root-premise discharge is added.",
-  "blocker": "Obtain and materialize an admissible primary passage stating the conditional/world-norm or world-plan semantics, read its context, and justify the mapping from planning acceptance to logical consequence without treating semantic points as metaphysical moral facts.",
+  "outcome": "succeeded",
+  "summary": "The original consistency control uses primitive ValidMP and p = q, leaving compositional embedding open. Chicago/Michigan retrieval failures and the insufficient OUP preview were preserved, then a legitimate publisher-hosted 2022 Gibbard response was pinned, materialized and read. It distinguishes permitting from picking and denies full truth values to false-antecedent indicative conditionals. It therefore motivates permission-plan vocabulary but does not license attribution of the separately checked analyst material-support semantics to Gibbard. Exact routes, rejected identifications and remaining gaps are in docs/expressivist-embedding-boundary.md. No original theory answer or root premise is discharged.",
   "evidence": [
     "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
     "SEP-MORAL-COGNITIVISM-2-5-GIBBARD-CONTENT-INVARIANT",
-    "SEP-MORAL-COGNITIVISM-4-1-BLACKBURN-HIGHER-ORDER-ATTITUDES"
+    "SEP-MORAL-COGNITIVISM-4-1-BLACKBURN-HIGHER-ORDER-ATTITUDES",
+    "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING",
+    "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH"
   ]
 }
