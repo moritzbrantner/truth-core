@@ -1,8 +1,0 @@
-{
-  "id": "STMT-PROTAGORAS-HOLDS-MEASURE",
-  "paraphrase": "Protagoras himself holds (it seems so to him) the thesis that man is the measure.",
-  "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.HoldsMeasureThesis",
-  "definition_ids": [
-    "DEF-PROTAGOREAN-MEASURE"
-  ]
-}

@@ -31,11 +31,23 @@ def MeasureDoctrine (Seems : Agent → Content → Prop) (T : TruthSemantics Age
     Prop :=
   ∀ a p, Seems a p → T.trueFor a p
 
-/-- Protagoras holds his own thesis (171a, "if he himself believed it")
-(`STMT-PROTAGORAS-HOLDS-MEASURE`). -/
+/-- Protagoras holds his own thesis: it seems so to him. Not attributed: 171a
+states this only as a branch of a conditional ("if he himself believed it").
+Derived in the horn results from `AssertsMeasureThesis` and `SincereAsserter`. -/
 def HoldsMeasureThesis (Seems : Agent → Content → Prop) (thesis : Content) (a : Agent) :
     Prop :=
   Seems a thesis
+
+/-- Protagoras asserts his thesis: he says it (170a, φησί) and wrote it as his
+Truth (171a, ἣν ἐκεῖνος ἔγραψεν) (`STMT-PROTAGORAS-ASSERTS-MEASURE`). -/
+def AssertsMeasureThesis (Asserts : Agent → Content → Prop) (thesis : Content) (a : Agent) :
+    Prop :=
+  Asserts a thesis
+
+/-- Sincerity, an unattributed open premise: whatever the agent asserts seems so
+to him (`STMT-PROTAGORAS-SINCERE`). -/
+def SincereAsserter (Asserts Seems : Agent → Content → Prop) (a : Agent) : Prop :=
+  ∀ p, Asserts a p → Seems a p
 
 /-- Someone opines the denial of the thesis (170d-171a: the many who think it
 false) (`STMT-SOMEONE-DENIES-MEASURE`). -/
@@ -103,11 +115,12 @@ def RestrictedMeasureDoctrine (Seems : Agent → Content → Prop)
   ∀ a p, D.inDomain p → Seems a p → T.trueFor a p
 
 /-- What the restriction concedes (171e-172a, health and advantage): outside the
-domain, something seems so to someone without being true for them
-(`STMT-RESTRICTED-MEASURE-CONCESSION`). -/
+domain it is not the case that whatever seems so to someone is true for them
+(`STMT-RESTRICTED-MEASURE-CONCESSION`). The denial of the universal, not a
+particular case of seeming without truth-for. -/
 def RestrictedMeasureConcession (Seems : Agent → Content → Prop)
     (T : TruthSemantics Agent Content) (D : Norm.Demarcation Content) : Prop :=
-  ∃ a p, ¬ D.inDomain p ∧ Seems a p ∧ ¬ T.trueFor a p
+  ¬ ∀ a p, ¬ D.inDomain p → Seems a p → T.trueFor a p
 
 /-- The unrestricted measure doctrine fails (`STMT-MEASURE-DOCTRINE-FAILS`). -/
 def NotMeasureDoctrine (Seems : Agent → Content → Prop) (T : TruthSemantics Agent Content) :

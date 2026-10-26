@@ -55,8 +55,10 @@ unmeetable standard and absolute truth as its acceptance predicate.
 169d–172b was read. Two sibling claims preserve the two readings of 171a-c:
 
 - Unqualified (`PLATO-THEAET-171A-171C-PERITROPE-UNQUALIFIED-A`, horn 1,
-  `PLATO-THEAET-PERITROPE-ABSOLUTE-HORN`): Protagoras holds the thesis, someone
-  denies it, and "all opine what is" covers both. The scope premise is sourced
+  `PLATO-THEAET-PERITROPE-ABSOLUTE-HORN`): Protagoras asserts the thesis
+  (sourced, 170a, 171a) and sincerely holds it (`STMT-PROTAGORAS-SINCERE`, an
+  unattributed open premise, because 171a puts his belief only in a
+  conditional), someone denies it, and "all opine what is" covers both. The scope premise is sourced
   as the rival's own commitment (`PLATO-THEAET-171A-SELF-APPLICATION-A`). Given
   also that unindexed truth respects negation, the unqualified doctrine fails.
   The proof composes the pilot's `conflictingOpinionsTest` and places the
@@ -79,8 +81,10 @@ other side, where judgements differ "toward truth". The parts are:
 - Criterion (`STMT-RESTRICTED-MEASURE-CRITERION`, 172b): in the just and holy
   nothing has by nature a being of its own. Advantage, by contrast, answers to
   how things turn out.
-- Concession (`STMT-RESTRICTED-MEASURE-CONCESSION`, 171e-172a): outside the
-  domain, seeming does not make true-for. `PLATO-THEAET-CONCESSION-DEFEATS-MEASURE`
+- Concession (`STMT-RESTRICTED-MEASURE-CONCESSION`, 171e-172a), read narrowly:
+  outside the domain it is not the case that whatever seems so is true for the
+  one to whom it seems. This is the denial of the universal, not a particular
+  case. `PLATO-THEAET-CONCESSION-DEFEATS-MEASURE`
   proves that this defeats the unrestricted doctrine. The claim also `supports`
   `STMT-SOME-ABSOLUTE-TRUTH`, with a note. The bridge from "not made true by
   seeming" to absolute truth is open.
@@ -148,5 +152,12 @@ case. That objection is recorded here and in the candidate, not proved.
   apart (`DISAMB-ASSERTED-TRUTH-SENSE`).
 - Reading 172a's "toward truth" as an explicit endorsement of absolute truth.
   This is recorded only as `supports`, with the bridge open.
+- Reading 171e-172a as an actual case of seeming without truth-for. This is
+  constructively stronger than the denial of the universal, and the text gives
+  no instance. The defeat of the unrestricted doctrine does not need it, so it
+  is neither attributed nor assumed (Codex P1 on #403).
+- Reading 171a as stating that Protagoras believes his doctrine. The text has
+  it only as the branch "if he himself believed it". What is sourced is that
+  he says and wrote it; sincerity is a separate open premise.
 - Aristotle's all-true exemption (the contrary alone not true) is symmetric to
   the encoded all-false exemption and is not separately formalized.
