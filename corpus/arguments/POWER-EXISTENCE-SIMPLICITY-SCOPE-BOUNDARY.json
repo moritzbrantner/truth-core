@@ -1,0 +1,19 @@
+{
+  "id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "inference_ids": ["INF-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY"],
+  "meaning": "Logical independence only. The existing inductive finite-power model yields an intrinsic source for a borrowed effect, but this does not settle whether that source receives esse or contains parts. Two coherent finite countermodels isolate BR-POWER-TO-BEING and BR-SIMPLICITY from #319; they do not refute Aquinas' richer source readings or establish which model is metaphysically possible.",
+  "definition_ids": [
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-EXISTENTIAL-SUPPORT-MODEL",
+    "DEF-PROPER-PART-COMPOSITION-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

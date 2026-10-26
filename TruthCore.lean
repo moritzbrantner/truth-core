@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 8437)
+Total output lines: 501
+
 import TruthCore.Case.Catholicism.FoundingIndependence
 import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
@@ -11,6 +14,7 @@ import TruthCore.Case.Catholicism.StagesOneTwo
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.LocalTransmission
+import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
@@ -255,30 +259,7 @@ import TruthCore.Results.Aristotle.Physics.MostPreciseCause.Solution
 import TruthCore.Results.Aristotle.Physics.MotionInEverySubinterval.Solution
 import TruthCore.Results.Aristotle.Physics.MotionMoreContrary.Solution
 import TruthCore.Results.Aristotle.Physics.MotionSpeciesEqualSpeed.Solution
-import TruthCore.Results.Aristotle.Physics.MovedMoverSeriesHasFirst.Solution
-import TruthCore.Results.Aristotle.Physics.MultipleProperCauses.Solution
-import TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries.Solution
-import TruthCore.Results.Aristotle.Physics.NaturalErrorTeleology.Solution
-import TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution
-import TruthCore.Results.Aristotle.Physics.NaturalTeleology.Solution
-import TruthCore.Results.Aristotle.Physics.NoAlterationIntermediate.Solution
-import TruthCore.Results.Aristotle.Physics.NoContinuousThingPartless.Solution
-import TruthCore.Results.Aristotle.Physics.NoFirstCessationInterval.Solution
-import TruthCore.Results.Aristotle.Physics.NoFirstChangedPart.Solution
-import TruthCore.Results.Aristotle.Physics.NoFirstChangingTime.Solution
-import TruthCore.Results.Aristotle.Physics.NoFirstContinuousTarget.Solution
-import TruthCore.Results.Aristotle.Physics.NoGuaranteedHalfAgentChange.Solution
-import TruthCore.Results.Aristotle.Physics.NoIndeterminateChange.Solution
-import TruthCore.Results.Aristotle.Physics.NoInfiniteMotionInFiniteTime.Solution
-import TruthCore.Results.Aristotle.Physics.NoIntermediateThreeMotions.Solution
-import TruthCore.Results.Aristotle.Physics.NoLocalMoverIntermediate.Solution
-import TruthCore.Results.Aristotle.Physics.NoMotionInSeparatedVoid.Solution
-import TruthCore.Results.Aristotle.Physics.NoPrimarySelfLocation.Solution
-import TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution
-import TruthCore.Results.Aristotle.Physics.NoSeparatedVoid.Solution
-import TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Solution
-import TruthCore.Results.Aristotle.Physics.NotEveryMotionComparable.Solution
-import TruthCore.Results.Aristotle.Physics.NotWhollyDeterminateDuringPrimaryMotion.Solution
+import TruthCore.Results.Aristotle.Physics.MovedMoverSe…437 tokens truncated…ringPrimaryMotion.Solution
 import TruthCore.Results.Aristotle.Physics.NothingMovesInNow.Solution
 import TruthCore.Results.Aristotle.Physics.NothingRestsInNow.Solution
 import TruthCore.Results.Aristotle.Physics.OnlySubjectToSubjectMotion.Solution
@@ -353,6 +334,7 @@ import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution

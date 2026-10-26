@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+  "term": "underived power versus underived existence",
+  "sense_definition_ids": [
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-EXISTENTIAL-SUPPORT-MODEL",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "resolution": "The finite causal power derivation ends at a bearer with intrinsic power in one respect; it establishes no condition about the bearer receiving its very existence from another. The countermodel represents that second question independently through supportsEsse, whose truth is not a power-transmission edge. The original source concept of an external cause of esse is separately defined from that analyst relation. Showing that support of a being's esse would necessarily supply its power in the same respect, or that every composition entails excluded existential dependence, remains a philosophically open bridge (issue #319)."
+}

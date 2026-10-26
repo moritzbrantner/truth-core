@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PowerExistenceBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PowerExistenceBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PowerExistenceBoundary.powerExistenceBoundary"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

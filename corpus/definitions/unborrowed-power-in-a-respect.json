@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+  "term": "original causal power in a designated respect",
+  "definition": "At the world considered, an existing bearer has intrinsic power and receives none through the modeled power-transmission relation. This does not imply that its existence is uncaused, modally necessary, or devoid of composition.",
+  "basis": "stipulative",
+  "note": "This is an analytic control for BR-POWER-TO-BEING (#319). It makes the respect restriction explicit and never equates unborrowed exercise with uncaused esse.",
+  "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.UnborrowedPowerAt"
+}
