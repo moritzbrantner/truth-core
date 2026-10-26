@@ -4,7 +4,7 @@
   "author": "Proclus",
   "work": "Elements of Theology",
   "citation_system": "proposition",
-  "notes": "Work identity distinct from any interpretation. The present witness is Thomas Taylor’s public-domain English translation (1816), not the Greek original. Props. 1–13 are pinned for source investigation; no schema instance or historical equivalence is registered. The work_urn is a local identifier, not a claimed CTS identity. The archive item contains multiple works; the passage manifest separately identifies the consulted translation and exact PDF pages.",
+  "notes": "Work identity distinct from any interpretation. The present witness is Thomas Taylor’s public-domain English translation (1816), not the Greek original. Props. 1–13 are pinned for source investigation; no schema instance or historical equivalence is registered. The work_urn is a local identifier, not a claimed CTS identity. The archive item contains multiple works; the passage manifest separately identifies the consulted translation and exact PDF pages. Direct item server used because archive.org/download redirected to an unreachable EU mirror during verification; the byte and extracted-text hashes are unchanged.",
   "work_urn": "urn:truth-core:proclus:elements-of-theology",
   "catalog_url": "https://archive.org/details/thomastaylor"
 }

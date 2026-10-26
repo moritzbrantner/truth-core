@@ -250,8 +250,8 @@ available. Supplying a bridge solely to produce a registered adapter would
 conceal the obligation. A next worker should formalize the independent Proclus
 conditions and the Aquinas analogical/essential-esse conditions, then identify
 an inference genuinely shared with the existing Plato vocabulary. A theorem
-about numerical inequality alone may be valid but would not establish the
-causal/explanatory participation schema requested in #412.
+about numerical inequality alone may be valid but would not by itself establish
+the substantive common participation inference still sought in #412.
 
 Premise comparison: retained statements and readings unchanged; **no premises
 added, removed or discharged**, no root-route cost change. The full three-domain
