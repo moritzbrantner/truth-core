@@ -1,0 +1,13 @@
+{
+  "CONFIG-NECESSARY-INDIVIDUAL": {
+    "composed-incompatible": "verified incompatible",
+    "fixed-bearer-control": "model witnessed",
+    "fixed-bearer-with-individual-contingency": "verified incompatible",
+    "incompatible-superset": "verified incompatible",
+    "necessary-nonemptiness-with-empty-successor": "verified incompatible",
+    "varying-bearers-control": "model witnessed"
+  },
+  "CONFIG-NECESSARY-INDIVIDUAL-NAT-WORLDS": {
+    "inventory-unresolved": "unresolved"
+  }
+}

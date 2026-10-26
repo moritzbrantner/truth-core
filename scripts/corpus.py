@@ -14,6 +14,7 @@ from typing import Any, Iterable
 from source_evidence import SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
 from finite_models import validate_model, model_report, verify_models
+from configurations import validate_case, configuration_report, verify_case, verify_compositions
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -1390,6 +1391,12 @@ def validate() -> dict[str, int]:
     disambiguation_index = index_by_id(disambiguations, "disambiguation")
     attempt_index = index_by_id(attempts, "attempt")
     models = registered_models(statement_index)
+    registered_configurations(
+        {sid: record for sid, (_, record) in statement_index.items()},
+        {rid: record for rid, (_, record) in result_index.items()},
+        {aid: record for aid, (_, record) in argument_index.items()},
+        {model["id"]: model for model in models},
+    )
     for path, attempt in attempts:
         try:
             validate_attempt(attempt, set(statement_index), set(result_index) | set(claim_index))
@@ -1814,7 +1821,7 @@ def command_frontier(args: argparse.Namespace) -> int:
 
 def command_dossier(args: argparse.Namespace) -> int:
     validate()
-    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models")
+    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
     data = {name: [record for _, record in load_dir(name)] for name in directories}
     if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
         raise CorpusError(f"unknown statement: {args.statement_id}")
@@ -2188,6 +2195,86 @@ def bind_report(
     }
 
 
+def registered_configurations(statements=None, results=None, arguments=None, models=None):
+    statements = statements if statements is not None else {r["id"]: r for _, r in load_dir("statements")}
+    results = results if results is not None else {r["id"]: r for _, r in load_dir("results")}
+    arguments = arguments if arguments is not None else {r["id"]: r for _, r in load_dir("arguments")}
+    models = models if models is not None else {model["id"]: model for model in registered_models()}
+    records = load_dir("configurations")
+    index_by_id(records, "configuration")
+    if any(case.get("implication_result_ids") for _, case in records):
+        flags = transcription_flags(list(results.values()), list(arguments.values()), list(statements.values()))
+        transcriptions = transcription_kinds(list(results.values()), flags)
+        for path, case in records:
+            rejected = set(case.get("implication_result_ids", [])) & transcriptions.keys()
+            if rejected:
+                raise CorpusError(f"{path.relative_to(ROOT)}: transcriptions cannot supply deductions: {sorted(rejected)}")
+    for path, case in records:
+        try:
+            validate_case(case, statements, results, arguments, models, ROOT)
+        except ValueError as exc:
+            raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
+    return [case for _, case in records]
+
+
+def command_configurations(args: argparse.Namespace) -> int:
+    statements = {r["id"]: r for _, r in load_dir("statements")}
+    results = {r["id"]: r for _, r in load_dir("results")}
+    arguments = {r["id"]: r for _, r in load_dir("arguments")}
+    models = {model["id"]: model for model in registered_models()}
+    cases = registered_configurations(statements, results, arguments, models)
+    if args.case:
+        cases = [case for case in cases if case["id"] == args.case]
+        if not cases:
+            raise CorpusError(f"unknown configuration case {args.case}")
+    if args.seed:
+        if args.seed not in statements:
+            raise CorpusError(f"unknown statement {args.seed}")
+        cases = [case for case in cases if case["seed_statement_id"] == args.seed]
+    if args.premise and len(cases) != 1:
+        raise CorpusError("--premise requires exactly one selected case")
+    reports = []
+    verified_results: set[str] = set()
+    for case in cases:
+        selection = None
+        if args.premise:
+            if len(args.premise) != len(set(args.premise)) or any(sid not in case["semantics"]["applications"] for sid in args.premise):
+                raise CorpusError("premises must be unique explicit statement IDs in this profile")
+            selection = {"id": "selection", "statement_ids": args.premise}
+        try:
+            verification = None if args.registered else verify_case(case, statements, results, arguments, models, ROOT, verified_results)
+            report = configuration_report(case, results, arguments, models, verified=verification is not None, selection=selection)
+            if verification is not None:
+                verification["compositions"] = verify_compositions(case, report, statements, results, arguments, ROOT)
+        except ValueError as exc:
+            raise CorpusError(str(exc)) from exc
+        report["verification"] = verification
+        reports.append(report)
+    if args.json:
+        print(json.dumps(reports, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        for report in reports:
+            print(f"{report['id']}: semantics {report['semantics']['id']}")
+            print(report['scope'])
+            for model in report['inapplicable_models']:
+                print(f"  inapplicable model {model['model_id']}: {model['profile_mismatches']}")
+            for entry in report['configurations']:
+                print(f"  {entry['id']}: {entry['status']}; premises {entry['statement_ids']}")
+                for core in entry['incompatible_cores']:
+                    print(f"    core {core['statement_ids']}: {core['result_id']} / {core['theorem']}; {core['minimality']}")
+                    print(f"    certificate chain: {core['result_ids']}")
+                for model in entry['model_witnesses']:
+                    print(f"    model: {model['model_id']} / {model['lean_declaration']}")
+                    for evaluation in model['evaluations']:
+                        print(f"      {evaluation['statement_id']}: {evaluation['theorem']}")
+                if entry['unresolved_reason']:
+                    print(f"    {entry['unresolved_reason']}")
+                if entry['consequences']:
+                    for consequence in entry['consequences']['items']:
+                        print(f"    consequence {consequence['statement_id']}: {consequence['sufficient_subsets']}")
+    return 0
+
+
 def registered_models(statement_index=None):
     if statement_index is None:
         statement_index = index_by_id(load_dir("statements"), "statement")
@@ -2293,6 +2380,13 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("check", help="validate corpus references, source evidence, and Comparator configs").set_defaults(
         func=command_check
     )
+    configurations = sub.add_parser("configurations", help="compose explicit configurations with live certified cores/models")
+    configurations.add_argument("--case", metavar="CONFIG-ID")
+    configurations.add_argument("--seed", metavar="STMT-ID")
+    configurations.add_argument("--premise", action="append", default=[], metavar="STMT-ID")
+    configurations.add_argument("--registered", action="store_true", help="display inputs only; no certified status without live verification")
+    configurations.add_argument("--json", action="store_true")
+    configurations.set_defaults(func=command_configurations)
     models = sub.add_parser("models", help="inspect registered finite interpretations (no premise closure)")
     models.add_argument("--check", metavar="STMT-ID", help="target statement")
     models.add_argument("--premise", action="append", default=[], metavar="STMT-ID", help="require this premise (repeatable; default empty set)")

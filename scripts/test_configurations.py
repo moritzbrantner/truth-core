@@ -1,0 +1,206 @@
+"""Conservative configuration pruning, shared semantics and verification boundary."""
+import copy
+import json
+from itertools import combinations
+from pathlib import Path
+import subprocess
+import tempfile
+import unittest
+from unittest.mock import patch
+
+from configurations import composition_source, certificate_source, configuration_report, implication_closure, validate_case, verify_case
+
+
+class ConfigurationTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / 'Fixture.lean').write_text('')
+        self.statements = {sid: {'id': sid, 'lean_declaration': 'Fixture.' + sid} for sid in ['P', 'Q', 'R', 'S']}
+        self.results = {rid: {'id': rid, 'argument_id': rid, 'solution_module': 'Fixture', 'theorem': 'Fixture.' + rid} for rid in ['CORE', 'LARGER', 'PQ', 'QR']}
+        self.arguments = {
+            'CORE': {'id': 'CORE', 'premise_statement_ids': ['P', 'Q'], 'conclusion_statement_id': 'False'},
+            'LARGER': {'id': 'LARGER', 'premise_statement_ids': ['P', 'Q', 'R'], 'conclusion_statement_id': 'False'},
+            'PQ': {'id': 'PQ', 'premise_statement_ids': ['P'], 'conclusion_statement_id': 'Q'},
+            'QR': {'id': 'QR', 'premise_statement_ids': ['Q'], 'conclusion_statement_id': 'R'},
+        }
+        self.models = {mid: {'id': mid, 'vocabulary': 'V', 'lean_declaration': 'Fixture.model', 'bindings': {'X': 'Bool'}, 'modules': ['Fixture'],
+                            'evaluations': [{'statement_id': sid, 'arguments': ['X'], 'value': 'satisfies'} for sid in ids]}
+                       for mid, ids in [('MP', ['P']), ('MQ', ['Q'])]}
+        self.case = {'id': 'CONFIG-TEST', 'seed_statement_id': 'P',
+                     'semantics': {'id': 'test', 'logic': 'constructive', 'frame': 'arbitrary', 'domain': 'fixed', 'identity': 'literal', 'vocabulary': 'V',
+                                   'modules': ['Fixture'], 'parameters': [{'name': 'X', 'type': 'Type'}], 'applications': {sid: ['X'] for sid in self.statements}},
+                     'configurations': [{'id': 'core', 'statement_ids': ['P', 'Q']}, {'id': 'superset', 'statement_ids': ['P', 'Q', 'R']},
+                                        {'id': 'control', 'statement_ids': ['P']}, {'id': 'unknown', 'statement_ids': ['S']}],
+                     'incompatibility_result_ids': ['LARGER', 'CORE'], 'implication_result_ids': [],
+                     'model_bindings': [{'model_id': mid, 'parameters': {'X': 'X'}} for mid in self.models]}
+
+    def validate(self):
+        validate_case(self.case, self.statements, self.results, self.arguments, self.models, self.root)
+
+    def report(self, verified=True):
+        return configuration_report(self.case, self.results, self.arguments, self.models, verified=verified)
+
+    def test_core_prunes_supersets_not_subsets_and_minimality_has_removal_evidence(self):
+        self.validate()
+        report = {entry['id']: entry for entry in self.report()['configurations']}
+        self.assertEqual(report['core']['status'], 'verified incompatible')
+        self.assertEqual(report['superset']['incompatible_cores'][0]['result_id'], 'CORE')
+        self.assertEqual(report['control']['status'], 'model witnessed')
+        self.assertEqual(report['unknown']['status'], 'unresolved')
+        core = report['core']['incompatible_cores'][0]
+        self.assertIn('inclusion-minimal (each single removal', core['minimality'])
+        self.assertEqual(core['removal_evidence'], [{'removed_statement_id': 'P', 'model_ids': ['MQ']}, {'removed_statement_id': 'Q', 'model_ids': ['MP']}])
+        del self.models['MQ']
+        self.case['model_bindings'] = [self.case['model_bindings'][0]]
+        self.assertIn('minimal among supplied incompatibility certificates', self.report()['configurations'][1]['incompatible_cores'][0]['minimality'])
+
+    def test_no_verification_no_certified_status_and_inconsistent_sets_have_no_discoveries(self):
+        self.assertEqual({entry['status'] for entry in self.report(False)['configurations']}, {'verification required'})
+        core = next(entry for entry in self.report()['configurations'] if entry['id'] == 'core')
+        self.assertIsNone(core['consequences'])
+
+    def test_profile_bindings_are_exact_and_do_not_coerce_vocabulary_or_assignment(self):
+        for mutate in [lambda: self.models['MP'].update(vocabulary='Other'),
+                       lambda: self.models['MP']['evaluations'][0].update(arguments=[]),
+                       lambda: self.case['semantics'].update(identity=''),
+                       lambda: self.case.update(status='verified incompatible'),
+                       lambda: self.case['semantics']['parameters'][0].update(type='Type) := by trivial')]:
+            saved_case, saved_models = copy.deepcopy(self.case), copy.deepcopy(self.models)
+            mutate()
+            with self.assertRaises(ValueError):
+                self.validate()
+            self.case, self.models = saved_case, saved_models
+
+    def test_certificate_type_uses_same_explicit_parameters_and_false(self):
+        source = certificate_source(self.case, self.statements, self.results, self.arguments)
+        self.assertIn('∀ (X : Type), (@Fixture.P X) → (@Fixture.Q X) → False := by', source)
+        self.assertIn('exact @Fixture.CORE X', source)
+        self.assertNotIn('sorry', source)
+
+    def test_live_verifier_rebuilds_before_comparator_and_failure_emits_no_success(self):
+        self.case['model_bindings'] = []
+        calls = []
+        def run(command, **kwargs):
+            calls.append(command)
+            return subprocess.CompletedProcess(command, 0, '', '')
+        with patch('configurations.subprocess.run', side_effect=run):
+            verification = verify_case(self.case, self.statements, self.results, self.arguments, self.models, self.root)
+        self.assertEqual(calls[0], ['lake', 'build', 'Fixture'])
+        self.assertEqual(calls[-1], ['scripts/verify-result.sh', 'LARGER'])
+        self.assertEqual(verification['result_ids'], ['CORE', 'LARGER'])
+        with patch('configurations.subprocess.run', return_value=subprocess.CompletedProcess([], 1, 'stale certificate', '')), self.assertRaisesRegex(ValueError, 'stale certificate'):
+            verify_case(self.case, self.statements, self.results, self.arguments, self.models, self.root)
+        self.assertEqual(list(self.root.glob('tmp*.lean')), [])
+
+    def test_fixed_carrier_profile_excludes_and_reports_bool_models(self):
+        self.case['semantics']['constants'] = {'X': 'Nat'}
+        self.case['semantics']['parameters'] = [{'name': 'w', 'type': 'Nat'}]
+        self.case['semantics']['parameter_order'] = ['X', 'w']
+        for registration in self.case['model_bindings']:
+            registration['parameters']['w'] = 'X'
+        self.validate()
+        report = self.report()
+        self.assertEqual(len(report['inapplicable_models']), 2)
+        self.assertEqual(report['inapplicable_models'][0]['profile_mismatches'][0],
+                         {'parameter': 'X', 'expected': 'Nat', 'registered': 'Bool'})
+        control = next(entry for entry in report['configurations'] if entry['id'] == 'control')
+        self.assertEqual(control['status'], 'unresolved')
+        self.assertEqual(control['model_ids'], [])
+
+    def test_same_vocabulary_models_cannot_be_hidden_to_manufacture_unknown(self):
+        self.case['model_bindings'].pop()
+        with self.assertRaisesRegex(ValueError, 'omits registered models'):
+            self.validate()
+
+    def test_overlap_is_a_verification_defect(self):
+        self.models['MP']['evaluations'].append({'statement_id': 'Q', 'arguments': ['X'], 'value': 'satisfies'})
+        with self.assertRaisesRegex(ValueError, 'verification defect'):
+            self.report()
+
+    def test_composition_tracks_exact_supports_and_cycles_cannot_introduce_atoms(self):
+        self.case['implication_result_ids'] = ['PQ', 'QR']
+        closure = implication_closure({'P', 'S'}, self.case, self.results, self.arguments)
+        self.assertEqual(closure['items'][1]['statement_id'], 'R')
+        self.assertEqual(closure['items'][1]['sufficient_subsets'][0]['statement_ids'], ['P'])
+        self.assertEqual(closure['items'][1]['sufficient_subsets'][0]['result_ids'], ['PQ', 'QR'])
+        self.assertEqual(implication_closure({'S'}, self.case, self.results, self.arguments)['items'], [])
+        self.assertTrue(implication_closure({'P'}, self.case, self.results, self.arguments, limit=1)['truncated'])
+        self.results['PQ']['transcription'] = 'single_application'
+        with self.assertRaisesRegex(ValueError, 'transcription'):
+            self.validate()
+
+    def test_adding_a_certificate_changes_only_justified_statuses_and_order_is_stable(self):
+        self.case['incompatibility_result_ids'] = []
+        before = {item['id']: item['status'] for item in self.report()['configurations']}
+        self.case['incompatibility_result_ids'] = ['CORE']
+        after = {item['id']: item['status'] for item in self.report()['configurations']}
+        self.assertEqual([key for key in before if before[key] != after[key]], ['core', 'superset'])
+        report = self.report()
+        self.case['configurations'].reverse()
+        self.assertEqual(report, self.report())
+
+
+class PersistentConfigurationRatchetTests(unittest.TestCase):
+    def setUp(self):
+        import corpus
+        self.corpus = corpus
+        self.statements = {r['id']: r for _, r in corpus.load_dir('statements')}
+        self.results = {r['id']: r for _, r in corpus.load_dir('results')}
+        self.arguments = {r['id']: r for _, r in corpus.load_dir('arguments')}
+        self.models = {model['id']: model for model in corpus.registered_models()}
+        self.cases = {case['id']: case for case in corpus.registered_configurations()}
+
+    def report(self, case, selection=None):
+        # Pure projection assumes the certificate gate; live CLI acceptance runs
+        # that gate separately. This test is not itself Lean verification.
+        return configuration_report(case, self.results, self.arguments, self.models, verified=True, selection=selection)
+
+    def test_committed_ratchet_status_fixture_and_composed_core_provenance(self):
+        fixture = json.loads((self.corpus.ROOT / 'scripts/testdata/configuration-ratchet.json').read_text())
+        actual = {cid: {entry['id']: entry['status'] for entry in self.report(self.cases[cid])['configurations']} for cid in fixture}
+        self.assertEqual(actual, fixture)
+        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']
+        report = self.report(case)
+        composed = next(entry for entry in report['configurations'] if entry['id'] == 'composed-incompatible')
+        core = composed['incompatible_cores'][0]
+        self.assertEqual(len(core['result_ids']), 2)
+        self.assertIn('inclusion-minimal', core['minimality'])
+        source, count = composition_source(case, report, self.statements, self.results, self.arguments)
+        self.assertGreater(count, 0)
+        self.assertIn('have derived_', source)
+        self.assertIn('@' + self.results[core['result_id']]['theorem'], source)
+
+    def test_all_sixteen_positive_starter_subsets_match_independent_reference(self):
+        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']
+        prefix = 'STMT-NECESSARY-INDIVIDUAL-'
+        re_, dicto, contingency, joint = [prefix + suffix for suffix in ['DE-RE', 'DE-DICTO', 'INDIVIDUAL-CONTINGENCY', 'JOINT-ABSENCE']]
+        atoms = [re_, dicto, contingency, joint]
+        # Exhaustion is only a small test oracle over syntactic input selections;
+        # the production classifier composes cores and never enumerates 2^n.
+        for size in range(5):
+            for subset in combinations(atoms, size):
+                incompatible = ((dicto in subset and joint in subset)
+                                or (re_ in subset and contingency in subset)
+                                or (re_ in subset and joint in subset))
+                entry = self.report(case, {'id': 'test', 'statement_ids': list(subset)})['configurations'][0]
+                self.assertEqual(entry['status'], 'verified incompatible' if incompatible else 'model witnessed', subset)
+                self.assertFalse(entry['core_composition']['truncated'])
+
+    def test_nat_profile_cannot_borrow_bool_satisfiability_or_minimality(self):
+        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL-NAT-WORLDS']
+        report = self.report(case)
+        self.assertEqual(len(report['inapplicable_models']), 3)
+        self.assertEqual(report['configurations'][0]['status'], 'unresolved')
+        selection = {'id': 'core', 'statement_ids': ['STMT-NECESSARY-INDIVIDUAL-DE-DICTO', 'STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE']}
+        core = self.report(case, selection)['configurations'][0]['incompatible_cores'][0]
+        self.assertIn('minimal among supplied incompatibility certificates', core['minimality'])
+        self.assertTrue(all(not item['model_ids'] for item in core['removal_evidence']))
+        source = certificate_source(case, self.statements, self.results, self.arguments, self.models)
+        self.assertIn(' Nat Bool F present w', source)
+        self.assertNotIn('model_parameter_', source)
+
+
+if __name__ == '__main__':
+    unittest.main()

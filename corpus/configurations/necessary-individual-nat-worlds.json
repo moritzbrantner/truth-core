@@ -1,0 +1,120 @@
+{
+  "id": "CONFIG-NECESSARY-INDIVIDUAL-NAT-WORLDS",
+  "description": "Inventory-unresolved Nat-world control. Generic conditional results specialize to Nat, but the registered Bool-world models cannot witness this profile. This is unresolved by available certified artifacts, not logical undecidability or a claim about metaphysical possibility.",
+  "seed_statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+  "semantics": {
+    "id": "necessary-individual-nat-worlds-bool-roster",
+    "logic": "Constructive Lean propositions; no excluded-middle assumption. Certificates are zero-axiom.",
+    "frame": "Arbitrary accessibility on Nat worlds. World type is fixed to Nat and is not silently replaced by the Bool carriers of the finite-model controls.",
+    "domain": "Fixed Bool individual roster and Nat worlds; present is a world-dependent actualist extension. The explicit world w is a Nat. No finite-world completeness claim.",
+    "identity": "Literal Lean equality of one fixed individual type across worlds; no counterpart or cross-domain coercion.",
+    "vocabulary": "necessary-individual-quantifiers",
+    "modules": [
+      "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers"
+    ],
+    "parameters": [
+      {
+        "name": "F",
+        "type": "TruthCore.Modal.Frame Nat"
+      },
+      {
+        "name": "present",
+        "type": "Bool \u2192 Nat \u2192 Prop"
+      },
+      {
+        "name": "w",
+        "type": "Nat"
+      }
+    ],
+    "applications": {
+      "STMT-NECESSARY-INDIVIDUAL-DE-RE": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "STMT-NECESSARY-INDIVIDUAL-DE-DICTO": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ]
+    },
+    "parameter_order": [
+      "W",
+      "I",
+      "F",
+      "present",
+      "w"
+    ],
+    "constants": {
+      "W": "Nat",
+      "I": "Bool"
+    }
+  },
+  "configurations": [
+    {
+      "id": "inventory-unresolved",
+      "statement_ids": [
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+    "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE"
+  ],
+  "implication_result_ids": [
+    "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+    "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL"
+  ],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALTERNATING",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALL-PRESENT",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALL-ABSENT",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    }
+  ]
+}

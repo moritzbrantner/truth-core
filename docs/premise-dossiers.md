@@ -75,3 +75,8 @@ mode-5 schema registry (#412) now records explicit `instance_of_schema` relation
 with checked theorem bindings; see [proved argument schemas](schemas.md). The
 dossier does not yet project those registrations. No links are guessed from
 similar words, theorem names or embeddings.
+
+Configuration cases are linked by exact seed/application statement IDs through
+`configuration_cases`. These links are registrations only; use the live
+[`configurations` command](configurations.md) to certify their cores and witnesses.
+No configuration input changes dossier closure or route contribution.
