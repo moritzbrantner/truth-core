@@ -921,6 +921,25 @@ def frontier_report(
         if item["statement_id"] in floor_by_id:
             entry = floor_by_id[item["statement_id"]]
             item["floor_unmet"] = {"basis": entry["basis"], "reasons": entry["reasons"]}
+    # Every statement whose `upward` walk reaches the root: the inverse walk from
+    # the root through argument conclusions to their premises, entering a routed
+    # conclusion only through its designated arguments (root_route).
+    reaching_root: set[str] = set()
+    if root is not None and root in statement_by_id:
+        concluding: dict[str, list[str]] = {}
+        for argument in arguments:
+            concluding.setdefault(argument["conclusion_statement_id"], []).append(argument["id"])
+        reaching_root.add(root)
+        pending = [root]
+        while pending:
+            conclusion = pending.pop()
+            for argument_id in concluding.get(conclusion, ()):
+                if conclusion in routes and argument_id not in routes[conclusion]:
+                    continue
+                for premise in argument_by_id[argument_id]["premise_statement_ids"]:
+                    if premise not in reaching_root:
+                        reaching_root.add(premise)
+                        pending.append(premise)
     closures: list[dict[str, Any]] = []
     for statement_id in sorted(closed_via_transcription):
         _, _, path = upward(statement_id)
@@ -937,6 +956,7 @@ def frontier_report(
         "closed_statements": closed_statements,
         "floor": floor_report,
         "established_statements": sorted(established),
+        "reaching_root_statements": sorted(reaching_root),
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
         "depth_counts": depth_counts(items),

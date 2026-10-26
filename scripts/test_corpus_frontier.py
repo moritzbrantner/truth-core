@@ -166,6 +166,21 @@ class FrontierReportTest(unittest.TestCase):
         self.assertIsNone(items["SIDE"]["path_to_root"])
         self.assertEqual(items["SIDE"]["transitive_dependent_arguments"], ["ARG-ROOT-2", "ARG-SIDE"])
         self.assertEqual(items["OPEN-B"]["path_to_root"], ["OPEN-B", "ARG-ROOT", "ROOT"])
+        self.assertNotIn("SIDE", report["reaching_root_statements"])
+
+    def test_reaching_root_statements_match_item_paths(self) -> None:
+        # The explorer's root-reachability filter (#491) reads this list; it must
+        # agree with `path_to_root` for every open premise, routed or not.
+        arguments = [*ARGUMENTS, argument("ARG-ROOT-2", ["SIDE"], "ROOT")]
+        for relations in ([], [relation("argument", "ARG-ROOT", "root_route", "ROOT")]):
+            report = corpus.frontier_report(STATEMENTS, arguments, RESULTS, relations, root="ROOT")
+            reaching = set(report["reaching_root_statements"])
+            for item in report["items"]:
+                self.assertEqual(item["path_to_root"] is not None, item["statement_id"] in reaching)
+        self.assertEqual(
+            self.report()["reaching_root_statements"], ["MID", "OPEN-A", "OPEN-B", "ROOT", "SELF"]
+        )
+        self.assertEqual(self.report(root="ABSENT")["reaching_root_statements"], [])
 
     def test_shared_parity_fixture(self) -> None:
         # Same fixture as apps/corpus-explorer/src/lib/proposition-graph.test.ts.
