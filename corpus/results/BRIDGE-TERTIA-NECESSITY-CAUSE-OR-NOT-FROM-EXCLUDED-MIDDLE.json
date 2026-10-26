@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.necessaryHasCauseOfNecessityOrNot",
   "comparator_config": "results/BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE/comparator.json",
   "status": "solution-present",
-  "description": "Instance of excluded middle: the proof only instantiates its one premise for each necessary being. The textual transcription heuristic does not flag a lambda instantiation; because STMT-EXCLUDED-MIDDLE is self-evident, rule (d) would close the conclusion anyway, so the closure is the same. It connects the case split to the principle and adds no content."
+  "description": "Transcription by instantiation of STMT-EXCLUDED-MIDDLE at each relevant proposition. It adds no independent defense of excluded middle or of the source argument. Closure propagates from its already closed premise; the structured transcription field records that this is an instance, not a new philosophical derivation.",
+  "transcription": "instantiation"
 }

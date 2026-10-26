@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.jesusClaimedDivineAuthorityAndRoseOfPilot",
   "comparator_config": "results/BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT/comparator.json",
   "status": "solution-present",
-  "description": "Definitional bridge, not a derivation: the conclusion is the conjunction of the two premises in the shared case signature (the pilot's State.core). It is not a single application of one hypothesis, so corpus.py counts it as a proof: stage 4 is closed by it, and its two pilot cells, both open, become the open items in its place. Progress on stage 4 now means defending STMT-PILOT-JESUS-CLAIMS and STMT-PILOT-ROSE."
+  "description": "Transcription by conjunction assembly: the conclusion is the conjunction of the two pilot premises in the shared case signature (State.core). It establishes neither historical cell. Because STMT-PILOT-JESUS-CLAIMS and STMT-PILOT-ROSE remain open, the conclusion remains open; this connection does not discharge stage 4.",
+  "transcription": "assembly"
 }

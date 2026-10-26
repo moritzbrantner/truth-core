@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.contradictoryPairDecidedOfExcludedMiddle",
   "comparator_config": "results/BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE/comparator.json",
   "status": "solution-present",
-  "description": "Instance of excluded middle: the proof only instantiates its one premise for each state. The textual transcription heuristic does not flag a lambda instantiation; because STMT-EXCLUDED-MIDDLE is self-evident, rule (d) would close the conclusion anyway, so the closure is the same. It says nothing about the change argument's own premises."
+  "description": "Transcription by instantiation of STMT-EXCLUDED-MIDDLE at each relevant proposition. It adds no independent defense of excluded middle or of the source argument. Closure propagates from its already closed premise; the structured transcription field records that this is an instance, not a new philosophical derivation.",
+  "transcription": "instantiation"
 }

@@ -6,5 +6,6 @@
   "theorem": "TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause.distinctCausePrincipleOfInnovatingCause",
   "comparator_config": "results/BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE/comparator.json",
   "status": "solution-present",
-  "description": "Transcription (AGENTS.md invariant 16): the proof only instantiates or restates its premise, so it certifies that STMT-CAUSE-PRINCIPLE-DISTINCT is the premise's content in the shared vocabulary, a bridge between two typed declarations, not a derivation. It connects the two statements in the inference graph and closes its conclusion only if every premise is already closed (rule (d))."
+  "description": "Transcription (AGENTS.md invariant 16): the proof only instantiates or restates its premise, so it certifies that STMT-CAUSE-PRINCIPLE-DISTINCT is the premise's content in the shared vocabulary, a bridge between two typed declarations, not a derivation. It connects the two statements in the inference graph and closes its conclusion only if every premise is already closed (rule (d)).",
+  "transcription": "instantiation"
 }

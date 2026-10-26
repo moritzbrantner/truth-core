@@ -9,15 +9,12 @@ Challenge, a Solution and a Comparator config under
 `TruthCore/Results/Bridges/`; new vocabulary, if any, lives in
 `TruthCore/Bridges/`.
 
-A bridge connects; it does not by itself defend anything. When a bridge
-concludes a root-path premise from a premise in another source, that premise is
-closed by proof and the bridge's own premise becomes the open item. The count of
-open premises does not drop; the open item moves to the other source. Bridges
-whose proof only instantiates or restates a premise do no derivation work and
-say so in their result records. `corpus.py` treats only a single application of
-one hypothesis as a transcription for closure (invariant 16), so a conjunction
-introduction or a lambda instantiation counts as a proof there; the record
-states what it amounts to.
+A bridge connects statements; it does not by itself defend its premises.
+Structured `transcription` fields distinguish instantiations and assembly from
+non-transcription derivations. A transcription closes its conclusion only when
+all its premises are already closed (invariant 16). A non-transcription bridge
+can relocate an open obligation to another source reading, without establishing
+that reading's fidelity or truth. The frontier reports these distinctions.
 
 ## Measuring
 
@@ -30,27 +27,31 @@ output. The giant component is the one that contains `STMT-CATHOLICISM-TRUE`.
 Fourteen bridge results and one new statement
 (`STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED`).
 
-| | before | after |
-| --- | --- | --- |
-| statements | 1727 | 1728 |
-| inference components | 1144 | 1128 |
-| singletons | 1033 | 1020 |
-| giant component | 243 | 270 |
-| open premises reaching the root (route `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`) | 37 (1 bare) | 38 (2 bare) |
-| open premises, whole corpus | 410 (31 bare) | 411 (32 bare) |
+The batch adds one statement and fourteen results. Against the merged-main
+baseline used for this repair (`993f4328`), the inference graph has 1172 → 1156
+components, 1055 → 1042 singletons, and a root-containing component of
+243 → 270 statements. These are connectivity measures, not frontier closure.
 
-The root route gains one open premise: `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`
-and `STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY` are now proved from Aristotle's
-analyses, which take their places; stage 4
-(`STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE`) now rests on the pilot's two
-cells `STMT-PILOT-JESUS-CLAIMS` and `STMT-PILOT-ROSE` (no claim states the
-latter, so it is bare).
+**Premise comparison: no philosophical premise is discharged.** The two
+Aristotle analyses give the existing Aquinas potency consequences under the
+stated analysis premises. The stage-4 connection is a transcription: neither
+pilot cell, nor their conjunction, is closed. In particular, no source reading
+is created for the bare historical commitment `STMT-PILOT-ROSE`.
+
+`frontier --routes` leaves all eight route costs unchanged: skeleton 28,
+quarta via 29, prima via 33, full description 35, maxime ens 36, classical
+attributes 36, designated efficient regress 37, and q11 uniqueness 38. The
+cheapest routes can continue to use the existing sourced commitments rather
+than the longer bridge alternatives. `frontier --reaching-root` exposes those
+alternatives too: 37 → 39 open items (1 → 2 bare; 36 → 37 sourced), including
+the two pilot cells and the still-open stage-4 conclusion. This increase is
+an exposed dependency, not a successful discharge.
 
 | Result | From | To | Kind |
 | --- | --- | --- | --- |
 | `BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY` | Aristotle, *Met.* IX.6 analysis of potency | Aquinas' non-simultaneity premise (root path) | cross-source implication; moves the open item to the Aristotle reading (`docs/act-potency-theory.md` point 2) |
 | `BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY` | Aristotle, *Phys.* III.1 definition of motion | Aquinas' "moved only as in potency" (root path) | cross-source implication; same caveat |
-| `BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT` | pilot cells "Jesus claims", "rose" | stage 4 (root path) | definitional: conjunction introduction over the shared case signature; stage 4 now rests on the two open cells |
+| `BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT` | pilot cells "Jesus claims", "rose" | stage 4 (root path) | transcription: conjunction assembly; both cells and stage 4 remain open |
 | `BRIDGE-RESURRECTION-PILOT-GOD-EXISTS` | stage 1 `GodExists` | pilot existence cell | transcription: definitional identity |
 | `BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT` | strong per se premise of the secunda via | its relevant-respect reading | implication between two readings |
 | `BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING` | secunda via no-regress, excluded middle, finite-grounding theorem | new `STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED` | shared vocabulary (Aquinas `CausesAsCaused` with `Causality.FiniteCausalPath`) |
@@ -70,6 +71,7 @@ One relation was added for a countermodel that is not an inference:
 
 Each entry says what blocks it. None of these was done in batch 1.
 
+<!-- BEGIN GENERATED: docs/bridges/candidates list -->
 - **Plato's Forms (27-statement component) to the quarta via and *Met.* II.1,
   993b24-26.** `ExplanatoryParticipation` and `UniformSelfPredication` look
   like the cause-of-quality premise, but the Forms vocabulary has no `MoreIn`
@@ -115,3 +117,13 @@ Each entry says what blocks it. None of these was done in batch 1.
   independence, and they imply nothing in the giant component.
 - **Russell on existence** (`STMT-RUSSELL-EXISTENCE-*`) against stage 1: needs a
   bridge from the quantifier reading of existence to the case's `∃ g, IsGod g`.
+<!-- END GENERATED -->
+
+## Repair of closure metadata (2026-10-26)
+
+The original description of conjunction assembly and lambda instantiation as
+new frontier-closing proofs was rejected: theorem consequence is distinct
+from philosophical defense. The four schema/identity instances now declare
+`transcription: instantiation`; the pilot conjunction declares
+`transcription: assembly`. No Lean theorem or frozen Challenge changed. The
+candidate entries above preserve the remaining vocabulary and source gaps.
