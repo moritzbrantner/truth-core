@@ -1,0 +1,55 @@
+{
+  "snapshot": {
+    "source_id": "NT-PHIL",
+    "edition_urn": "urn:cts:greekLit:tlg0031.tlg011.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+    "path": "data/tlg0031/tlg011/tlg0031.tlg011.perseus-grc2.xml",
+    "git_blob_sha": "a88ae00ba04d9ed4ae029442549a0841ab3b9cc0",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0031/tlg011/tlg0031.tlg011.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0 (repository default; see pinned edition header and repository README)"
+  },
+  "passages": [
+    {
+      "id": "NT-PHIL-1",
+      "locator": "1",
+      "claim_locator_prefixes": [
+        "1."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "1"
+        }
+      ]
+    },
+    {
+      "id": "NT-PHIL-2",
+      "locator": "2",
+      "claim_locator_prefixes": [
+        "2."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "2"
+        }
+      ]
+    },
+    {
+      "id": "NT-PHIL-3",
+      "locator": "3",
+      "claim_locator_prefixes": [
+        "3."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "3"
+        }
+      ]
+    }
+  ],
+  "notes": "Whole chapter retained for context; claim locators identify exact verses."
+}

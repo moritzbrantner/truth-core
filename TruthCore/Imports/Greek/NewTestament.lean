@@ -3,7 +3,9 @@ import TruthCore.Greek.NewTestament.Acts
 import TruthCore.Greek.NewTestament.FirstCorinthians
 import TruthCore.Greek.NewTestament.Galatians
 import TruthCore.Greek.NewTestament.John
+import TruthCore.Greek.NewTestament.John.AbrahamSaying
 import TruthCore.Greek.NewTestament.Mark
 import TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority
 import TruthCore.Greek.NewTestament.Mark.HighPriestAnswer
 import TruthCore.Greek.NewTestament.Matthew
+import TruthCore.Greek.NewTestament.Philippians.Christology

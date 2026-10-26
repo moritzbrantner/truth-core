@@ -1,0 +1,14 @@
+{
+  "id": "DEF-JOHN-ABRAHAM-SPEECH-REPORT",
+  "term": "John Abraham/I-am report, sending, reaction and ordinary identification",
+  "definition": "AbrahamSaying.Narrative attributes speech forms to the narrative Jesus or formerly blind man and separately narrates actions. saysIAmBefore abrahamCameToBe retains the before-clause (Abraham coming to be) and first-person I-am self-predication without fixing its debated ontological force. saysGodSentMeRatherThanCameFromMyself retains the commission assertion of 8.42, not actual authority. identifiesSelfAsFormerBeggar supplies the immediate identity-question complement at 9.8-9, not divinity. interlocutorsTakeStonesToThrowAtJesus records the narrated taking and purpose, not actual throwing or a motive such as blasphemy. Narrative.state reuses the pilot State and core signature; no report-to-history or report-to-truth rule is supplied.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.Narrative",
+  "note": "Encoding boundaries for the materialized chapters. Existing John/History predicates cover disciples and brothers rather than this speech content; Mark speech content has different actions and scope. This bounded vocabulary does not introduce a new historical or theological signature.",
+  "claim_ids": [
+    "NT-JOHN-ABRAHAM-SAYING",
+    "NT-JOHN-SENDING-ASSERTION",
+    "NT-JOHN-STONE-REACTION",
+    "NT-JOHN-ORDINARY-IDENTIFICATION"
+  ]
+}

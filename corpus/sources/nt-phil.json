@@ -1,0 +1,11 @@
+{
+  "id": "NT-PHIL",
+  "kind": "primary_text",
+  "author": "Paul",
+  "work": "Philippians",
+  "citation_system": "chapter.verse",
+  "work_urn": "urn:cts:greekLit:tlg0031.tlg011",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0031.tlg011.perseus-grc2",
+  "catalog_url": "https://github.com/PerseusDL/canonical-greekLit/blob/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0031/tlg011/tlg0031.tlg011.perseus-grc2.xml",
+  "notes": "Original-language witness for the stage-4 pilot. Textual reports are distinct from historical event findings. No composition date or author identification beyond the edition attribution is inferred from a hash."
+}

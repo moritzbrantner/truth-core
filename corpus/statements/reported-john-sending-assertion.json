@@ -1,0 +1,11 @@
+{
+  "id": "STMT-REPORTED-JOHN-SENDING-ASSERTION",
+  "paraphrase": "The narrative attributes to Jesus the assertion that God sent him rather than that he came from himself.",
+  "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.ReportedSendingAssertion",
+  "definition_ids": [
+    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+  ]
+}

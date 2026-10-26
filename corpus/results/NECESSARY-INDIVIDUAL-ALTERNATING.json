@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-ALTERNATING",
+  "argument_id": "NECESSARY-INDIVIDUAL-ALTERNATING",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-ALTERNATING/comparator.json",
+  "status": "solution-present",
+  "description": "At actual world false in the explicit two-world, two-individual universal frame, a concrete individual actually exists and every individual can be absent, yet every accessible world has a concrete individual. No fixed individual exists necessarily and no jointly concrete-empty world is accessible. The instantiated Third Way collective-possibility premise fails. Reflexivity and a distinct accessible world are explicit conjuncts. This refutes the two quantifier-shift implications in these stipulated semantics, not the metaphysical possibility of the model."
+}
