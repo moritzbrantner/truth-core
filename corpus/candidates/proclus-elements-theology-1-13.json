@@ -1,0 +1,9 @@
+{
+  "id": "PROCLUS-ELEMENTS-THEOLOGY-1-13",
+  "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
+  "locator": "props. 1–13 (Taylor 1816, vol. II, pp. 300–310)",
+  "priority": 100,
+  "goal": "Work propositions 1–13 in source order under issue #359, beginning with the argument that multitude participates in unity. The complete range has been materialized as PROCLUS-ET-1-13-TAYLOR; no source claims or domain adapter have yet been extracted. Distinguish participant unity from unity itself, additive composition from mereological gunk, productive superiority from degree in a common univocal genus, and epistemic regress premises from ontological well-foundedness. Investigate separately whether any independently justified participation inference supplies an instance for issue #412.",
+  "reason": "Issue #359 public-domain witness lead resolved by the pinned Taylor translation. OCR defects and Taylor bracketed supplements must be checked against page images before using a load-bearing reading. Source availability does not establish the arguments or complete the participation schema.",
+  "status": "candidate"
+}
