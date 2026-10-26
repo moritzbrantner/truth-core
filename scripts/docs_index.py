@@ -17,7 +17,7 @@ A generated section sits between two markers in any Markdown file under
 The marker arguments are shell-quoted: the entry directory, the format
 (`table` or `list`), then for a table one `field=Header` per column, in order.
 `filter:field=value` keeps only entries whose field has that value. The field
-`body` is the entry's text after its front matter; every other field comes
+`body` is the entry's text after its front matter (a `|` in a cell is escaped); every other field comes
 from the front matter. An entry may omit the body when no column uses it.
 
 An entry is `<dir>/<name>.md`: a front matter block of `key: value` lines
@@ -61,9 +61,12 @@ def parse_entry(path: Path) -> dict[str, str]:
     fields: dict[str, str] = {}
     for line in lines[1:end]:
         key, separator, value = line.partition(":")
-        if not separator or not key.strip():
+        key = key.strip()
+        if not separator or not key:
             raise DocsIndexError(f"{path}: front matter line is not 'key: value': {line!r}")
-        fields[key.strip()] = value.strip()
+        if key == "body" or key in fields:
+            raise DocsIndexError(f"{path}: front matter key {key!r} is reserved or repeated")
+        fields[key] = value.strip()
     body = "\n".join(lines[end + 1 :]).strip("\n")
     if body.strip():
         fields["body"] = body
@@ -94,8 +97,8 @@ def parse_spec(spec: str, where: str) -> tuple[str, str, list[tuple[str, str]], 
 
 
 def load_entries(root: Path, directory: str, where: str) -> list[tuple[Path, dict[str, str]]]:
-    base = root / directory
-    if not base.is_dir():
+    base = (root / directory).resolve()
+    if root.resolve() not in base.parents or not base.is_dir():
         raise DocsIndexError(f"{where}: entry directory {directory} does not exist")
     return [
         (path, parse_entry(path))
@@ -129,7 +132,7 @@ def render(root: Path, spec: str, where: str) -> list[str]:
         for key, _ in columns:
             if key not in fields:
                 raise DocsIndexError(f"{path.relative_to(root)}: missing field {key!r} for {where}")
-            cells.append(" ".join(fields[key].split()))
+            cells.append(" ".join(fields[key].split()).replace("|", r"\|"))
         out.append("| " + " | ".join(cells) + " |")
     return out
 
@@ -145,6 +148,10 @@ def regenerate(root: Path, path: Path) -> str:
         match = BEGIN_RE.match(line)
         index += 1
         if not match:
+            if (line.lstrip().startswith("<!--") and "BEGIN GENERATED" in line) or line.strip() == END:
+                raise DocsIndexError(
+                    f"{path.relative_to(root)}:{index}: malformed or stray generated-section marker: {line!r}"
+                )
             continue
         where = f"{path.relative_to(root)}:{index}"
         try:

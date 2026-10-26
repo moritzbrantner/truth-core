@@ -87,6 +87,13 @@ class GenerateTest(unittest.TestCase):
         self.assertFalse((self.root / "TruthCore/Imports/Greek").exists())
         self.assertEqual(ri.check(self.root, AREAS), [])
 
+    def test_hand_written_module_in_imports_is_rejected(self):
+        ri.write(self.root, AREAS)
+        touch(self.root, "TruthCore/Imports/Mine.lean")
+        with self.assertRaises(ri.RootImportsError):
+            ri.write(self.root, AREAS)
+        self.assertTrue((self.root / "TruthCore/Imports/Mine.lean").exists())
+
     def test_hand_edit_is_reported(self):
         ri.write(self.root, AREAS)
         path = self.root / "TruthCore/Imports/Latin.lean"

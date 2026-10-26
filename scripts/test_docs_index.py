@@ -79,6 +79,20 @@ class DocsIndexTest(unittest.TestCase):
         with self.assertRaises(di.DocsIndexError):
             di.regenerate(self.root, self.doc)
 
+    def test_pipe_in_cell_is_escaped(self):
+        entry(self.root, "docs/decisions/2026-10-25-01-c.md", {"date": "2026-10-25", "where": "#3"}, "a | b")
+        self.assertIn("| a \\| b |", di.regenerate(self.root, self.doc))
+
+    def test_malformed_marker_fails(self):
+        self.doc.write_text("<!--  BEGIN GENERATED: docs/cands list -->\n<!-- END GENERATED -->\n")
+        with self.assertRaises(di.DocsIndexError):
+            di.regenerate(self.root, self.doc)
+
+    def test_repeated_key_fails(self):
+        (self.root / "docs/cands/z.md").write_text("---\ngroup: a\ngroup: b\n---\nz\n")
+        with self.assertRaises(di.DocsIndexError):
+            di.regenerate(self.root, self.doc)
+
     def test_bad_entry_fails(self):
         (self.root / "docs/cands/z.md").write_text("no front matter\n")
         with self.assertRaises(di.DocsIndexError):

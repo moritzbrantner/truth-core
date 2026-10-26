@@ -107,10 +107,20 @@ def expected_files(root: Path, areas: tuple[str, ...] = AREAS) -> dict[str, str]
 
 
 def existing_aggregators(root: Path) -> set[str]:
+    """Generated files under `TruthCore/Imports/`; a hand-written module there is an error."""
     directory = root / "TruthCore" / AGGREGATOR_DIR
     if not directory.is_dir():
         return set()
-    return {path.relative_to(root).as_posix() for path in directory.rglob("*.lean")}
+    found = set()
+    for path in directory.rglob("*.lean"):
+        relative = path.relative_to(root).as_posix()
+        if not path.read_text(encoding="utf-8").startswith(HEADER):
+            raise RootImportsError(
+                f"{relative}: TruthCore/{AGGREGATOR_DIR}/ is reserved for generated aggregators; "
+                "move this module to its area's directory"
+            )
+        found.add(relative)
+    return found
 
 
 def stale(root: Path, areas: tuple[str, ...] = AREAS) -> tuple[dict[str, str], list[str]]:
