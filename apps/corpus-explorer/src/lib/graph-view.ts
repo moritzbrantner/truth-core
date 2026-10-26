@@ -63,6 +63,8 @@ export type GraphIndex = {
   inferenceById: Map<string, GraphInference>;
   consumers: Map<string, GraphInference[]>;
   producers: Map<string, GraphInference[]>;
+  /** Recorded research adjacency for local navigation, never proof closure. */
+  researchNeighbors: Map<string, string[]>;
 };
 
 export const clusterNodeId = (key: string) => `cluster:${key}`;
@@ -70,17 +72,25 @@ export const clusterNodeId = (key: string) => `cluster:${key}`;
 export function indexGraph(graph: PropositionGraph): GraphIndex {
   const consumers = new Map<string, GraphInference[]>();
   const producers = new Map<string, GraphInference[]>();
+  const neighbors = new Map<string, Set<string>>();
   for (const inference of graph.inferences) {
     for (const input of new Set([...inference.inputs, ...inference.assumptions])) {
       consumers.set(input, [...(consumers.get(input) ?? []), inference]);
     }
     producers.set(inference.output, [...(producers.get(inference.output) ?? []), inference]);
   }
+  for (const relation of graph.relations) {
+    if (relation.subject === relation.object) continue;
+    for (const [from, to] of [[relation.subject, relation.object], [relation.object, relation.subject]]) {
+      neighbors.set(from, (neighbors.get(from) ?? new Set()).add(to));
+    }
+  }
   return {
     statementById: new Map(graph.statements.map((statement) => [statement.id, statement])),
     inferenceById: new Map(graph.inferences.map((inference) => [inference.id, inference])),
     consumers,
     producers,
+    researchNeighbors: new Map([...neighbors].map(([id, peers]) => [id, [...peers].sort()])),
   };
 }
 
@@ -216,6 +226,48 @@ export function focusSelection(index: GraphIndex, node: string, hops: number, di
   return { statements: statementOrder, inferences: inferenceOrder };
 }
 
+/** Obsidian-style local neighborhood. A formal inference is one typed step:
+ * include all its premises and conclusion together. A research relation is a
+ * separate, undirected navigation hop and never turns into a proof edge.
+ */
+export function localGraphSelection(index: GraphIndex, anchor: string, hops: number, includeResearch: boolean): Selection {
+  const statements: string[] = [];
+  const inferences: string[] = [];
+  const visited = new Set<string>();
+  const seenInferences = new Set<string>();
+  const addStatement = (id: string, next?: string[]) => {
+    if (!index.statementById.has(id) || visited.has(id)) return;
+    visited.add(id);
+    statements.push(id);
+    next?.push(id);
+  };
+  const addInference = (inference: GraphInference, next?: string[]) => {
+    if (!seenInferences.has(inference.id)) {
+      seenInferences.add(inference.id);
+      inferences.push(inference.id);
+    }
+    for (const id of inferenceStatements(inference)) addStatement(id, next);
+  };
+
+  const centreInference = index.inferenceById.get(anchor);
+  if (centreInference) addInference(centreInference);
+  else addStatement(anchor);
+  let layer = [...statements];
+  for (let hop = 0; hop < hops && layer.length; hop += 1) {
+    const next: string[] = [];
+    for (const id of layer) {
+      const steps = [...(index.producers.get(id) ?? []), ...(index.consumers.get(id) ?? [])]
+        .sort((left, right) => left.id.localeCompare(right.id));
+      for (const inference of steps) addInference(inference, next);
+      if (includeResearch) {
+        for (const peer of index.researchNeighbors.get(id) ?? []) addStatement(peer, next);
+      }
+    }
+    layer = next;
+  }
+  return { statements, inferences };
+}
+
 function clusterLabel(graph: PropositionGraph, state: GraphState, key: string) {
   if (state.cluster === "source") {
     const source = graph.sources.find((entry) => entry.id === key);
@@ -268,12 +320,14 @@ export function computeGraphView(
         .map((statement) => statement.id),
       inferences: graph.inferences.map((inference) => inference.id),
     };
-  } else if (state.view === "focus") {
+  } else if (state.view === "focus" || state.view === "local") {
     anchor = state.node || state.sel || state.target || graph.defaultTarget;
     if (!anchor || (!index.statementById.has(anchor) && !index.inferenceById.has(anchor))) {
       return emptyView(anchor, "Choose a statement or inference to focus on.");
     }
-    selection = focusSelection(index, anchor, state.hops, state.dir);
+    selection = state.view === "local"
+      ? localGraphSelection(index, anchor, state.hops, state.relations)
+      : focusSelection(index, anchor, state.hops, state.dir);
   } else {
     anchor = state.target || graph.defaultTarget;
     if (!anchor || !index.statementById.has(anchor)) {
@@ -283,7 +337,9 @@ export function computeGraphView(
   }
 
   // Explicit expansions are in-place, bounded one-hop additions. Sets retain shared identity and cycles.
-  if (state.view !== "all") {
+  // Local neighborhoods must be bounded by their requested depth, even when
+  // the URL retains expansions from an earlier research-queue or focus view.
+  if (state.view !== "all" && state.view !== "local") {
     const selectedStatements = new Set(selection.statements);
     const selectedInferences = new Set(selection.inferences);
     for (const id of state.expanded) {

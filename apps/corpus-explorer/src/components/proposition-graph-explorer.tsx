@@ -16,7 +16,7 @@ import Link from "next/link";
 import { ResearchQueue } from "./research-queue";
 import { orderObligations, type ResearchObligation } from "@/lib/research-frontier";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { NetworkStructure } from "@/lib/graph-network";
 import { NetworkMarker } from "./network-marker";
@@ -212,7 +212,10 @@ export function PropositionGraphExplorer({
   const searchParams = useSearchParams();
   const state = useMemo(() => parseGraphState(searchParams), [searchParams]);
   const index = useMemo(() => indexGraph(graph), [graph]);
-  const compact = state.layout === "network" && state.view === "all";
+  const compact = state.layout === "network" && (state.view === "all" || state.view === "local");
+  // Hover emphasis is transient presentation state. It never changes the URL,
+  // corpus relationships, or proof frontier.
+  const [hoveredId, setHoveredId] = useState("");
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
   const proofTarget = index.statementById.has(state.target) ? state.target : graph.defaultTarget ?? "";
   const proof = useProofExploration(graph, state.explore, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
@@ -265,6 +268,14 @@ export function PropositionGraphExplorer({
   }, [graph]);
 
   const { nodes, edges } = useMemo(() => {
+    const hovered = compact && state.view === "local" && view.nodes.some((node) => node.id === hoveredId) ? hoveredId : "";
+    const hoverNeighbors = new Set(hovered ? [hovered] : []);
+    if (hovered) {
+      for (const edge of view.edges) {
+        if (edge.source === hovered) hoverNeighbors.add(edge.target);
+        if (edge.target === hovered) hoverNeighbors.add(edge.source);
+      }
+    }
     const relatedIds = new Set(activeObligation?.statementIds ?? []);
     const frontierIds = new Set(graph.statements.filter((statement) => statement.frontier).map((statement) => statement.id));
     const frontierJunctions = new Set(graph.inferences.filter((inference) => [...inference.inputs, ...inference.assumptions].some((id) => frontierIds.has(id))).map((inference) => inference.id));
@@ -298,10 +309,12 @@ export function PropositionGraphExplorer({
       position: positions.get(node.id) ?? { x: 0, y: 0 },
       // Dense research clusters can overlap. Keep the selected belief tappable
       // above its neighbours, especially in the mobile frontier inspector.
-      zIndex: node.id === state.sel ? 20 : 0,
+      zIndex: node.id === state.sel || node.id === hovered ? 20 : 0,
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
-        selected: node.id === state.sel,
+        selected: node.id === state.sel || (state.view === "local" && node.id === view.anchor),
+        hoverDimmed: Boolean(hovered) && !hoverNeighbors.has(node.id) && node.id !== state.sel,
+        hoverNeighbor: Boolean(hovered) && hoverNeighbors.has(node.id),
         proof: overlay.get(node.id),
         community: network.community.get(node.id) ?? 0,
         degree: network.degree.get(node.id) ?? 0,
@@ -316,6 +329,7 @@ export function PropositionGraphExplorer({
       const boundary = !research && (frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target));
       const emphasized = compact && state.emphasis === "frontier";
       const highlighted = edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target);
+      const incident = hovered && (edge.source === hovered || edge.target === hovered);
       return {
         id: edge.id,
         source: edge.source,
@@ -325,8 +339,8 @@ export function PropositionGraphExplorer({
         style: {
           ...edgeStyle[edge.kind],
           stroke: emphasized && boundary ? "var(--status-open)" : edgeStyle[edge.kind].stroke,
-          opacity: compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
-          strokeWidth: highlighted ? 2.5 : compact ? 1.1 : 1.25,
+          opacity: hovered ? (incident ? 1 : 0.08) : compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
+          strokeWidth: incident || highlighted ? 2.5 : compact ? 1.1 : 1.25,
         },
         markerEnd: compact || edge.kind === "premise" || edge.kind === "assumption"
           ? undefined
@@ -334,7 +348,7 @@ export function PropositionGraphExplorer({
       };
     });
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, state.emphasis, state.relations, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay]);
+  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay]);
 
   const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
@@ -376,9 +390,10 @@ export function PropositionGraphExplorer({
       </datalist>
 
       <div className="frontier-primary-controls">
-        <div className="graph-segmented" role="group" aria-label="Frontier scope">
-          <button aria-pressed={state.scope === "global"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
-          <button aria-pressed={state.scope === "goal"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
+        <div className="graph-segmented" role="group" aria-label="Graph scope">
+          <button aria-pressed={state.scope === "global" && state.view === "all"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
+          <button aria-pressed={state.scope === "goal" && state.view === "root"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
+          <button aria-pressed={state.view === "local"} disabled={!index.statementById.has(state.sel) && !index.inferenceById.has(state.sel)} onClick={() => update({ view: "local", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Select a proposition dot to explore its neighborhood" type="button">Local graph</button>
         </div>
         <div className="graph-segmented" role="group" aria-label="Layout">
           {(["network", "layered"] as const).map((layout) => <button key={layout} type="button" aria-pressed={state.layout === layout} onClick={() => update({ layout, viewport: "" })}>{layout === "network" ? "Network" : "Layered"}</button>)}
@@ -386,6 +401,13 @@ export function PropositionGraphExplorer({
         <label className="field-label frontier-search">Find a proposition
           <input className="field-control" onChange={(event) => update({ q: event.target.value })} placeholder="Search propositions or IDs" type="search" value={state.q} />
         </label>
+        {state.view === "local" ? (
+          <label className="field-label frontier-depth">Neighborhood depth
+            <select className="field-control" value={state.hops} onChange={(event) => update({ hops: Number(event.target.value), viewport: "" })}>
+              {Array.from({ length: MAX_HOPS + 1 }, (_, depth) => <option key={depth} value={depth}>{depth} {depth === 1 ? "hop" : "hops"}</option>)}
+            </select>
+          </label>
+        ) : null}
         <button className="graph-button frontier-emphasis-button" type="button" aria-pressed={state.emphasis === "frontier"} onClick={() => update({ emphasis: state.emphasis === "frontier" ? "all" : "frontier" })}>
           {state.emphasis === "frontier" ? "Frontier highlighted" : "Show all equally"}
         </button>
@@ -413,6 +435,7 @@ export function PropositionGraphExplorer({
             [
               ["root", "Root paths"],
               ["focus", "Focus"],
+              ["local", "Local graph"],
               ["all", "Full graph"],
             ] as const
           ).map(([id, label]) => (
@@ -422,7 +445,7 @@ export function PropositionGraphExplorer({
               onClick={() =>
                 update({
                   view: id,
-                  ...(id === "focus" && state.view !== "focus"
+                  ...((id === "focus" || id === "local") && state.view !== id
                     ? {
                         returnView: serializeGraphState({
                           ...state,
@@ -456,7 +479,7 @@ export function PropositionGraphExplorer({
             />
           </label>
         ) : null}
-        {state.view === "focus" ? (
+        {state.view === "focus" || state.view === "local" ? (
           <div className="graph-focus-controls">
             <label className="field-label">
               Focus node
@@ -468,7 +491,7 @@ export function PropositionGraphExplorer({
                 value={state.node}
               />
             </label>
-            <label className="field-label">
+            {state.view === "focus" ? <label className="field-label">
               Hops
               <input
                 className="field-control"
@@ -478,8 +501,8 @@ export function PropositionGraphExplorer({
                 type="number"
                 value={state.hops}
               />
-            </label>
-            <label className="field-label">
+            </label> : null}
+            {state.view === "focus" ? <label className="field-label">
               Direction
               <select
                 className="field-control"
@@ -490,7 +513,7 @@ export function PropositionGraphExplorer({
                 <option value="up">Up: what it supports</option>
                 <option value="down">Down: what it rests on</option>
               </select>
-            </label>
+            </label> : null}
           </div>
         ) : null}
         {state.view === "all" && state.layout === "layered" ? (
@@ -702,8 +725,9 @@ export function PropositionGraphExplorer({
       ) : null}
 
       <p aria-live="polite" className="frontier-view-status">
-        {compact ? `${network.components.length} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links. ` : ""}
-        {compact && !state.showIsolated ? "Readings without an inference or research link hidden; enable them under More views and filters. " : ""}
+        {compact && state.view === "all" ? `${network.components.length} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links. ` : ""}
+        {compact && state.view === "all" && !state.showIsolated ? "Readings without an inference or research link hidden; enable them under More views and filters. " : ""}
+        {state.view === "local" ? `Local neighborhood: ${state.hops} ${state.hops === 1 ? "hop" : "hops"} from ${view.anchor}. ` : ""}
         {view.message ? `${view.message} ` : ""}
         {view.statementCount} of {graph.statements.length} statements ({graph.statements.length - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
@@ -727,7 +751,7 @@ export function PropositionGraphExplorer({
             <ReactFlow
               edges={edges}
               defaultViewport={parseViewport(state.viewport)}
-              fitView={!parseViewport(state.viewport) && !(state.sel && state.obligation)}
+              fitView={!parseViewport(state.viewport) && (state.view === "local" || !(state.sel && state.obligation))}
               onMoveEnd={(event, viewport) => {
                 if (event) {
                   update({
@@ -744,6 +768,8 @@ export function PropositionGraphExplorer({
               nodesDraggable={false}
               nodeTypes={nodeTypes}
               onNodeClick={onNodeClick}
+              onNodeMouseEnter={state.view === "local" && compact ? (_event, node) => setHoveredId(node.id) : undefined}
+              onNodeMouseLeave={state.view === "local" && compact ? () => setHoveredId("") : undefined}
               onlyRenderVisibleElements
             >
               <SelectionLocator state={state} compact={compact} />
@@ -768,12 +794,12 @@ function SelectionLocator({ state, compact }: { state: GraphState; compact: bool
   const ready = useStore((store) => store.width > 0 && store.height > 0);
   const { setCenter } = useReactFlow();
   useEffect(() => {
-    if (ready && position && !state.viewport && state.sel && state.obligation) {
+    if (ready && position && state.view !== "local" && !state.viewport && state.sel && state.obligation) {
       void setCenter(position.x + (compact ? 14 : NODE_SIZE.statement.width / 2), position.y + (compact ? 14 : NODE_SIZE.statement.height / 2), {
         zoom: 0.8,
       });
     }
-  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter, compact]);
+  }, [ready, position, state.view, state.sel, state.obligation, state.viewport, setCenter, compact]);
   return null;
 }
 
@@ -940,6 +966,16 @@ function DetailPanel({
         </Link>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
+        <button
+          className="graph-button"
+          onClick={() => update({
+            view: "local", layout: "network", node: current.id, scope: "global", viewport: "",
+            returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+          })}
+          type="button"
+        >
+          Local graph
+        </button>
         <button
           className="graph-button"
           onClick={() =>

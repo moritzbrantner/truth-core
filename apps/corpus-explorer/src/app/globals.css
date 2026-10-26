@@ -172,6 +172,7 @@ summary {
 }
 
 .frontier-search { flex: 1 1 14rem; }
+.frontier-depth { min-width: 8.5rem; }
 .frontier-search .field-control { width: 100%; }
 .frontier-emphasis-button[aria-pressed="true"] {
   background: color-mix(in srgb, var(--status-open) 11%, var(--paper));
@@ -939,6 +940,8 @@ button:focus-visible {
 .network-marker[data-emphasis="frontier"][data-established="true"]:not([data-dimmed="true"]) { opacity: .85; }
 .network-marker[data-dimmed="true"] { opacity: .16; }
 .network-marker[data-selected="true"], .network-marker[data-highlighted="true"] { filter: drop-shadow(0 0 4px var(--accent)); opacity: 1 !important; }
+.network-marker[data-hover-dimmed="true"] { opacity: .1 !important; }
+.network-marker[data-hover-neighbor="true"] { opacity: 1 !important; filter: drop-shadow(0 0 4px var(--accent)); }
 .network-marker[data-selected="true"] .network-symbol { outline: 2px solid var(--ink); outline-offset: 6px; }
 .network-marker .react-flow__handle { opacity: 0; width: 2px; height: 2px; min-width: 2px; min-height: 2px; }
 .network-label { display: none; position: absolute; top: 30px; left: 12px; width: 200px; padding: 5px 8px; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); font-size: 12px; line-height: 1.3; pointer-events: none; z-index: 5; }
