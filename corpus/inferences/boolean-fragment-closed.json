@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "rule": "direct-proof",
+  "meaning": "Use the four Boolean unary readout functions. The atom and constants are admitted directly; composing readouts with Boolean `not` and `and` proves both closure properties pointwise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

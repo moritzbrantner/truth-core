@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-LIMIT-ENDPOINT",
+  "term": "supertask limit endpoint",
+  "definition": "A distinguished endpoint ordered strictly after every natural-number-indexed substage. It is not itself one of the indexed operations and need not have an immediately preceding substage.",
+  "basis": "stipulative",
+  "note": "The omega-plus-one order is a logical model of an endpoint after arbitrarily many indexed stages. A finite metric duration or metaphysically possible implementation requires additional justification; a convergent numerical schedule is discussed separately in docs/supertasks.md.",
+  "lean_declaration": "TruthCore.Causality.SupertaskPrecedes"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-WORLD-ISOLATION",
+  "argument_id": "SCOTT-NE-WORLD-ISOLATION",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.checks",
+  "comparator_config": "results/SCOTT-NE-WORLD-ISOLATION/comparator.json",
+  "status": "solution-present"
+}

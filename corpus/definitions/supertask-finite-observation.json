@@ -1,0 +1,7 @@
+{
+  "id": "DEF-SUPERTASK-FINITE-OBSERVATION",
+  "term": "finite-prefix observation of a stage output",
+  "definition": "An observer sees only the Boolean values at stages 0 through a specified finite cutoff and is not given the generating rule or an independently justified bound on when the output settles.",
+  "basis": "stipulative",
+  "note": "Under this restricted information model, distinct stable continuations cannot be discriminated from their common prefix. This epistemic limitation is not a metaphysical statement about the actual terminal output of a fully specified process."
+}

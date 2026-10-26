@@ -1,0 +1,8 @@
+{
+  "id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "inference_ids": ["INF-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT"],
+  "meaning": "Concrete counterexample to the converse generalization that every endless schedule admits an eventual-stability terminal state: alternating outputs do not stabilize.",
+  "definition_ids": ["DEF-SUPERTASK-STABLE-LIMIT"]
+}

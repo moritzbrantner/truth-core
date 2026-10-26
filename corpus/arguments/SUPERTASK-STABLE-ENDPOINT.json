@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-STABLE-ENDPOINT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUPERTASK-STABLE-ENDPOINT",
+  "inference_ids": ["INF-SUPERTASK-STABLE-ENDPOINT"],
+  "meaning": "An explicit mathematical countermodel to the bare inference from no last indexed stage to no distinct endpoint or coherent terminal Boolean value. It does not establish a realizable finite-time physical supertask.",
+  "definition_ids": ["DEF-SUPERTASK-LAST-STAGE", "DEF-SUPERTASK-LIMIT-ENDPOINT", "DEF-SUPERTASK-STABLE-LIMIT"],
+  "disambiguation_ids": ["DISAMB-SUPERTASK-ENDING"]
+}

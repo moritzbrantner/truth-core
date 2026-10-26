@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-UNIT-COST",
+  "term": "unit-duration partial sum",
+  "definition": "After n operations each costing exactly one discrete time unit, the accumulated duration is n. The unbounded series of these partial sums is not a model of decreasing-duration Zeno stages.",
+  "basis": "stipulative",
+  "note": "The lower-bound-on-cost case is deliberately separate from an arbitrary infinite series; actual duration bounds are empirical or metaphysical inputs, not consequences of the mere number of operations.",
+  "lean_declaration": "TruthCore.Causality.UnitCostPartialSum"
+}

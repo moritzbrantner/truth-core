@@ -1,0 +1,9 @@
+{
+  "id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "argument_id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "challenge_module": "TruthCore.Results.Causality.SupertaskOscillation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskOscillation.Solution",
+  "theorem": "TruthCore.Results.Causality.SupertaskOscillation.supertaskOscillation",
+  "comparator_config": "results/SUPERTASK-OSCILLATION-NO-STABLE-LIMIT/comparator.json",
+  "status": "solution-present"
+}

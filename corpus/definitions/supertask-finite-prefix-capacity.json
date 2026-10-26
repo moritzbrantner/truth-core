@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-FINITE-PREFIX-CAPACITY",
+  "term": "finite-prefix feasibility in a finite-capacity world",
+  "definition": "A natural-number-sized prefix n fits a model world of finite capacity k when n is at most k. The witness world may differ for each prefix.",
+  "basis": "stipulative",
+  "note": "This is a deliberately finite-capacity countermodel to a modal quantifier inference. Its worlds are mathematical labels, not an assumption that all physically possible worlds have finite capacities.",
+  "lean_declaration": "TruthCore.Causality.PrefixFitsFiniteWorld"
+}

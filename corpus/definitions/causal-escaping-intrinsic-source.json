@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ESCAPING-INTRINSIC-SOURCE",
+  "term": "intrinsic source escaping along finite truncations",
+  "definition": "At finite truncation n the only intrinsic source is the node indexed n; for each fixed node x there is a later truncation after which x is never an intrinsic source. At no fixed position is sourcehood eventually retained.",
+  "basis": "stipulative",
+  "note": "A mathematical pointwise-limit construction analogous to a moving urn token. It does not assert the existence of physical infinite resources, nor claim a real source can literally travel beyond an actual infinity.",
+  "lean_declaration": "TruthCore.Causality.IntrinsicSourceAt"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "argument_id": "SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Challenge",
+  "solution_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution",
+  "theorem": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.checks",
+  "comparator_config": "results/SCOTT-NE-INVARIANT-FILTER-TRIVIAL/comparator.json",
+  "status": "solution-present"
+}

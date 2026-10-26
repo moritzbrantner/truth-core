@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-UNIFORM-CAPACITY",
+  "term": "one world's capacity for every prefix",
+  "definition": "A single finite-capacity model world would have to accommodate every natural-number-sized prefix, rather than choosing a new capacity world for each prefix.",
+  "basis": "stipulative",
+  "note": "The single-world quantifier has different scope from per-prefix existence. Transferring this model to real metaphysical possibility requires an independently defended modal interpretation.",
+  "lean_declaration": "TruthCore.Causality.FinitePrefixesFitSeparatelyNotUniformly"
+}

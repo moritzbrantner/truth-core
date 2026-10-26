@@ -1,0 +1,6 @@
+{
+  "id": "DISAMB-SUPERTASK-ENDING",
+  "term": "an endless task ends",
+  "sense_definition_ids": ["DEF-SUPERTASK-LAST-STAGE", "DEF-SUPERTASK-LIMIT-ENDPOINT"],
+  "resolution": "The no-final-stage observation concerns the absence of a greatest indexed operation. The positive mathematical model instead adjoins a distinct limit endpoint and supplies an explicitly stipulated stable output. The first fact does not contradict the second. Conversely, adjoining an abstract endpoint does not prove that such an omega-stage task can be physically or metaphysically executed in finite time; that requires a separate premise."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-WORLD-ISOLATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-WORLD-ISOLATION",
+  "rule": "direct-proof",
+  "meaning": "For each world and bearer, construct the singleton-at-that-world property, prove it meets Scott's essence definition, and use NE to require its exemplification at accessible worlds. Conversely, if all accessible worlds are the original world, each essence is exemplified by its bearer. This theorem does not depend on Scott's positivity axioms or on a modal frame rule.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

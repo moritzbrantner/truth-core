@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "rule": "direct-proof",
+  "meaning": "For each admitted filtered essence, take the bearer that exemplifies its property at the current world. The world-invariance of that property makes the same bearer a witness at every accessible world. The inner filtered comparison-property quantifier does not need to be assumed inhabited.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SupertaskFiniteObservation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SupertaskFiniteObservation.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.SupertaskFiniteObservation.supertaskFiniteObservation"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

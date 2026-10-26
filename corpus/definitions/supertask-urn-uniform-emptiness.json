@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS",
+  "term": "uniform eventual emptiness of the urn",
+  "definition": "There is one finite cutoff after which every later stage is empty of every ball. This global cutoff must work simultaneously for all possible ball identifiers.",
+  "basis": "stipulative",
+  "note": "Uniform emptiness is strictly stronger than the pointwise disappearance of each ball; neither is a general definition of a physically attained limit state.",
+  "lean_declaration": "TruthCore.Causality.UrnPointwiseAbsenceNotUniformEmptiness"
+}
