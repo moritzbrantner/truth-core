@@ -15,6 +15,19 @@ The PR reports the actual premise comparison, including remaining open premises;
 
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
+## Premise dossiers and attempts
+
+For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
+(the explorer links the same generated dossier from the statement page). Before
+handoff, update `corpus/attempts/` for failed derivations, rejected readings,
+source searches, and other substantive attempts, including successful results.
+Reuse an existing attempt when correcting its record; do not create a philosophical
+claim merely to log activity. Record exact target statement IDs, outcome, concise
+findings, remaining blocker when blocked, and result/claim/PR evidence. A successful
+attempt does not establish its target or change frontier closure. The dossier is
+computed from corpus records, not edited separately. See `docs/premise-dossiers.md`
+for the attempt format and reference boundaries.
+
 ## Proof-seeking stance
 
 - Seek machine-checkable consequence, not prose approval. An LLM may propose readings, propositions, formalizations, or proof steps, but its agreement is never evidence that a conclusion follows.

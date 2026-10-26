@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-STRICT-PRIMACY-READING",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+  ],
+  "kind": "reading",
+  "outcome": "failed",
+  "summary": "Rejected attributing strict primacy to ST I q.3 a.5 ad 2: approach to God and denial of a proportioned measure do not say that nothing else reaches the primary. The omission controls show that this is an additional premise, so it remains open and unattributed. The source search orientation in docs/being-not-a-genus.md does not itself supply verified evidence.",
+  "evidence": [
+    "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
+    "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
+    "PR-386"
+  ]
+}

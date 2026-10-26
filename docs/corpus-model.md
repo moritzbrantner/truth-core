@@ -125,3 +125,16 @@ open premises of the cheapest route CATHOLICISM-SKELETON (28):
 ```
 
 Tests: `python3 -m unittest discover -s scripts -p 'test_*.py'`.
+
+## Research attempts and premise dossiers (#413)
+
+`corpus/attempts/` records attempted research against existing statement IDs. An
+attempt is not a philosophical entity, a claim or an inference, and its outcome
+does not affect closure. `corpus.py check` validates its targets, local result/claim
+evidence, outcome, kind and date. PR references use canonical `PR-<number>` syntax
+and are not fetched by the offline check.
+
+`corpus.py dossier <STMT-ID>` and the explorer's statement-linked dossier collect
+the existing meanings, sources, arguments, alternatives, attempts and exact
+route-leaf membership without adding another calculation of truth or closure.
+See [Premise dossiers and research attempts](premise-dossiers.md) for the contract.

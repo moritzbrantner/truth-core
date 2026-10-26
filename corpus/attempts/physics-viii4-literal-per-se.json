@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-PHYSICS-VIII4-LITERAL-PER-SE",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+    "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER"
+  ],
+  "kind": "derivation",
+  "outcome": "failed",
+  "summary": "The literal generator-or-remover reading yields a mover per se or per accidens, not a per-se mover for every physical motion. The finite literalReadingDoesNotGivePerSeMover control permits a light thing moved only by the remover of a hindrance. The stronger per-se result retains an explicit open premise; broad reduction-to-act scope also requires a separate open bridge. See docs/typed-physics.md, Findings 1–2.",
+  "evidence": [
+    "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+    "PR-404"
+  ]
+}
