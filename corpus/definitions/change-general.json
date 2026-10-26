@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CHANGE-GENERAL",
+  "term": "change (general sense: any variation)",
+  "definition": "`Changes x`: x changes in some characteristic, quality or relation, the thoughts of conscious beings included. This is McTaggart's general notion of change, of which he argues that it can only be A-series change (STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE). It is a Lean parameter. It is neither A-series change (DEF-A-SERIES-CHANGE) nor reduction from potency to act (DEF-MOTION-AS-REDUCTION); that every reduction from potency to act is a change in this sense is the separate open bridge STMT-MOTION-IS-A-CHANGE.",
+  "basis": "sourced",
+  "claim_ids": [
+    "MCTAGGART-1908-ALL-CHANGE-A-SERIES-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.McTaggart.AllChangeIsASeriesChangeReading"
+}

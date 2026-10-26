@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.unrealityOfTimeFalse",
+    "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.needsOpinionIsMotion",
+    "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.needsMotionIsChange",
+    "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.bundleYieldsChangeUnreal",
+    "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.changeUnrealButAppearsRefuted"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
