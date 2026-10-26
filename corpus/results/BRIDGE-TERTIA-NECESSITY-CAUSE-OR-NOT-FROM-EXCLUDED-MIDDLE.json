@@ -1,0 +1,10 @@
+{
+  "id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "argument_id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "challenge_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Solution",
+  "theorem": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.necessaryHasCauseOfNecessityOrNot",
+  "comparator_config": "results/BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE/comparator.json",
+  "status": "solution-present",
+  "description": "Instance of excluded middle: the proof only instantiates its one premise for each necessary being. The textual transcription heuristic does not flag a lambda instantiation; because STMT-EXCLUDED-MIDDLE is self-evident, rule (d) would close the conclusion anyway, so the closure is the same. It connects the case split to the principle and adds no content."
+}

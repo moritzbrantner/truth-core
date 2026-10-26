@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "argument_id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "challenge_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution",
+  "theorem": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.notActAndPotencyOfPotencyAnalysis",
+  "comparator_config": "results/BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY/comparator.json",
+  "status": "solution-present"
+}

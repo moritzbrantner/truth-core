@@ -1,0 +1,11 @@
+{
+  "id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES",
+  "inference_ids": [
+    "INF-BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE"
+  ],
+  "meaning": "Bridge (#401), an instance of excluded middle: the conclusion of the change argument, *Metaphysics* IV.7, 1011b29-1012a1 (STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES: every state has F or lacks it), is an instance of excluded middle (STMT-EXCLUDED-MIDDLE) per state. The proof only instantiates the premise. It connects the change argument's conclusion to the self-evident principle; it says nothing about the change argument's own premises, which the withholder also withholds."
+}

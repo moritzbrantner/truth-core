@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT",
+  "rule": "universal-instantiation",
+  "meaning": "For each necessary being, instantiate excluded middle at 'it has a cause of its necessity from another'. A transcription: the premise is only instantiated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

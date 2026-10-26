@@ -1,0 +1,18 @@
+{
+  "id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "premise_statement_ids": [
+    "STMT-PILOT-JESUS-CLAIMS",
+    "STMT-PILOT-ROSE"
+  ],
+  "conclusion_statement_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "inference_ids": [
+    "INF-BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT"
+  ],
+  "meaning": "Bridge (#401), a definitional decomposition, not a derivation: the resurrection pilot's two central answer cells, that Jesus claimed divine authority (STMT-PILOT-JESUS-CLAIMS) and that he rose (STMT-PILOT-ROSE), are stage 4 of the case (STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE) for the pilot state's core signature. The pilot reuses the case's Signature (State.core), so the proof is conjunction introduction on the same predicates. Stage 4 thereby rests on the two pilot cells, as Root.lean intends for its historical findings; it does not establish either cell, which remain open (docs/resurrection-pilot.md).",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+  ]
+}

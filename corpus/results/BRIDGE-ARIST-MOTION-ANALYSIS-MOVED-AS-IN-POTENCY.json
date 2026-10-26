@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "argument_id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "challenge_module": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.Solution",
+  "theorem": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.movedOnlyAsInPotencyOfMotionDefinition",
+  "comparator_config": "results/BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY/comparator.json",
+  "status": "solution-present"
+}

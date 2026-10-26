@@ -1,0 +1,10 @@
+{
+  "id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "argument_id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "challenge_module": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.Solution",
+  "theorem": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.contradictoryPairDecidedOfExcludedMiddle",
+  "comparator_config": "results/BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE/comparator.json",
+  "status": "solution-present",
+  "description": "Instance of excluded middle: the proof only instantiates its one premise for each state. The textual transcription heuristic does not flag a lambda instantiation; because STMT-EXCLUDED-MIDDLE is self-evident, rule (d) would close the conclusion anyway, so the closure is the same. It says nothing about the change argument's own premises."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "input_statement_ids": [
+    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+  ],
+  "output_statement_id": "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-AS-CAUSED-IN-RELEVANT-RESPECT",
+  "rule": "antecedent-strengthening",
+  "meaning": "A cause caused in a relevant respect is caused in some respect, so by the strong premise it causes only as caused; the relevant-respect reading adds only an antecedent.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

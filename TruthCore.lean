@@ -1,3 +1,4 @@
+import TruthCore.Bridges.PerSeRegressFiniteGrounding
 import TruthCore.Case.Catholicism.FoundingIndependence
 import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
@@ -338,6 +339,20 @@ import TruthCore.Results.Aristotle.Physics.WholeHeavenNotInPlace.Solution
 import TruthCore.Results.Aristotle.Physics.WithoutSoulNoTimeAsNumber.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
+import TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.Solution
+import TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution
+import TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.Solution
+import TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.Solution
+import TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.Solution
+import TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.Solution
+import TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution
+import TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.Solution
+import TruthCore.Results.Bridges.ResurrectionPilotGodExists.Solution
+import TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause.Solution
+import TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.Solution
+import TruthCore.Results.Bridges.StageFourFromResurrectionPilot.Solution
+import TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Solution
+import TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution

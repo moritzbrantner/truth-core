@@ -1,0 +1,20 @@
+{
+  "id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "premise_statement_ids": [
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "inference_ids": [
+    "INF-BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY"
+  ],
+  "meaning": "Bridge (#401): Aristotle's analysis of potency, *Metaphysics* IX.6 (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY: to be in potency to r is to be able to be r without being r actually), entails the prima via's non-simultaneity premise (STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT): nothing is in act and in potency in the same respect. Whatever is in potency to r is, by the analysis, not actually r. ActPotencyDefinitionalAnalysesConservative already shows that the analysis is no stronger than non-simultaneity (given non-simultaneity, some ability predicate satisfies it). This bridge therefore does not discharge the Aquinas premise: it moves its openness to the fidelity and truth of the Aristotle reading, as docs/act-potency-theory.md says a definitional analysis would.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
