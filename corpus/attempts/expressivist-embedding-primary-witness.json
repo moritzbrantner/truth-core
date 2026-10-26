@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-EXPRESSIVIST-EMBEDDING-PRIMARY-WITNESS",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+    "STMT-BLACKBURN-VALIDITY-AS-ATTITUDE-CLASH",
+    "STMT-EXPRESSIVISM-NEEDS-B-TYPE-INCONSISTENCY"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "The existing constant-meaning model sets ValidMP to True and identifies p with q, so its certified consistency result supplies no compositional explanation of a nontrivial embedded moral modus ponens. Legitimate publisher/author/institutional searches did not produce a materializable primary witness of the selected Blackburn/Gibbard reply: Chicago and Michigan routes returned 403, the indexed Tanner PDF returned 404, and the obtainable OUP preview ends before the relevant semantics. Exact leads, rejected substitutes, and the semantic acceptance versus substantive moral realism boundary are recorded in docs/expressivist-embedding-boundary.md. No source claim, theorem, answer-map upgrade, refutation or root-premise discharge is added.",
+  "blocker": "Obtain and materialize an admissible primary passage stating the conditional/world-norm or world-plan semantics, read its context, and justify the mapping from planning acceptance to logical consequence without treating semantic points as metaphysical moral facts.",
+  "evidence": [
+    "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+    "SEP-MORAL-COGNITIVISM-2-5-GIBBARD-CONTENT-INVARIANT",
+    "SEP-MORAL-COGNITIVISM-4-1-BLACKBURN-HIGHER-ORDER-ATTITUDES"
+  ]
+}
