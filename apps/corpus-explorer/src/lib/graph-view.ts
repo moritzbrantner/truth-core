@@ -1,3 +1,4 @@
+import { areaOf, closureOf, laneOf, reachOf, recordKindsOf } from "./graph-facets";
 import { hasFilters, type GraphState } from "./graph-state";
 import { researchLinkedStatements, type GraphInference, type GraphStatement, type PropositionGraph } from "./proposition-graph";
 
@@ -116,6 +117,14 @@ export function statementMatches(statement: GraphStatement, state: GraphState, i
   }
   if (state.source && !statement.sourceIds.includes(state.source)) {
     return false;
+  }
+  if (state.area.length && !state.area.includes(areaOf(statement))) return false;
+  if (state.lane.length && !state.lane.includes(laneOf(statement))) return false;
+  if (state.closure.length && !state.closure.includes(closureOf(statement))) return false;
+  if (state.reach && reachOf(statement) !== state.reach) return false;
+  if (state.rec.length) {
+    const kinds = recordKindsOf(statement, index);
+    if (!state.rec.some((kind) => kinds.includes(kind))) return false;
   }
   return state.tags.every((tag) => statement.tags.includes(tag));
 }

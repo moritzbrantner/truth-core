@@ -156,6 +156,12 @@ export type GraphStatement = {
   status: GraphStatus;
   established: boolean;
   closureReason?: ClosureReason;
+  /** Its upward argument walk reaches the root (`reaching_root_statements` of `corpus.py frontier`). */
+  reachesRoot: boolean;
+  /** Import area of its Lean namespace (scripts/root_imports.py); set by the /graph buckets. */
+  area?: string;
+  /** Lane owning that area (AGENTS.md, "Lanes"); set by the /graph buckets. */
+  lane?: string;
   /** Open premise by the corpus.py frontier rule. */
   frontier: boolean;
   /**
@@ -378,6 +384,7 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
   }
   const frontierById = new Map(report.items.map((item) => [item.statement_id, item]));
   const established = new Set(report.established_statements);
+  const reachingRoot = new Set(report.reaching_root_statements ?? []);
   const closedViaTranscription = new Map(
     report.closed_via_transcription.map((item) => [
       item.statement_id,
@@ -499,6 +506,7 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
       namespace,
       status,
       established: established.has(id),
+      reachesRoot: reachingRoot.has(id),
       closureReason: report.closed_statements[id],
       frontier,
       frontierDepth,

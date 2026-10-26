@@ -39,11 +39,33 @@ a belief exposes the original record and any research note. Those links affect
 visual proximity, not proof, closure or inference-component counts. The overlay can
 be hidden with **Recorded research links**, and `relations=0` preserves that choice
 in the URL. Hiding the overlay does not move the stable map positions. Readings
-with neither an inference nor a recorded research link are
-omitted from the initial canvas, but stay searchable and can be included with
-**Include unlinked readings** under the advanced controls. Structural
+with neither an inference nor a recorded research link (singletons) are
+omitted from the initial canvas, but stay searchable and can be shown by clearing
+**Hide singletons** under the advanced controls. Structural
 leaf filters (no supporting inference / no consumer inference) are independent of
-frontier obligations.
+frontier obligations. Edges end at the centre of each dot: the network markers
+place both React Flow handles on the visible symbol, not on the larger hit box.
+
+The graph data is not embedded in the page. The build writes static JSON buckets
+under `/graph-data/` (`src/lib/graph-buckets.ts`, emitted by the route handler
+`src/app/graph-data/[file]/route.ts`); the page ships only their manifest. A
+bucket is a union of whole layout components (inference steps plus recorded
+research links), so no step or link is cut and a root-path, focus or local view
+is complete once its node's bucket is loaded. The `root` bucket holds every
+component with a statement in `reaching_root_statements` of
+`corpus.py frontier --json` (the statements whose upward argument walk reaches
+the root, `root_route` aware) and is the default overview. Other linked
+components are grouped by their most frequent import area
+(`scripts/root_imports.py`), singletons separately, each with its own layout
+computed at build time. **Graph data** lists the buckets; any can be loaded, or
+every one (`b=all`). `lookup.json` (ID → bucket) loads when the URL addresses a
+node, and `search.json` when a text query is typed. Facet filters for lane, area
+(the import area of the Lean namespace), closure (established, conditional,
+bare or sourced frontier, neither), linked record kind (claim, argument, result,
+inference, research link) and root reachability live in the URL (`lane`,
+`area`, `closure`, `rec`, `reach`). Each bucket's manifest entry counts these
+facets, so with a filter active only the default buckets (kept as dimmed
+context) and the buckets with a possible match are fetched.
 The **Layered** option retains source clustering and expanded proof cards; selecting
 **Focus here** expands complete AND-premises and alternative (OR) applications.
 Network positions are deterministic and computed at static-build time, with no
