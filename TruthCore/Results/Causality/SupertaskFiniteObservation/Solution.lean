@@ -11,7 +11,7 @@ theorem supertaskFiniteObservation : FiniteObservationCannotFixAllStableOutputs 
   refine ⟨(fun _ => false), (fun n => decide (cutoff < n)), ?_, ?_, ?_⟩
   · intro n hN
     have hNot : ¬ cutoff < n := Nat.not_lt_of_ge hN
-    exact decide_eq_false_iff_not.mpr hNot
+    exact (decide_eq_false_iff_not.mpr hNot).symm
   · refine ⟨0, ?_⟩
     intro n _
     rfl
