@@ -48,4 +48,48 @@ on the fixed positive stage cost, not on infinity alone. -/
 def UnitCostSeriesUnbounded : Prop :=
   ∀ budget : Nat, ∃ n, budget < UnitCostPartialSum n
 
+/-- A finite-capacity world can accommodate a particular finite task prefix.
+The capacity is the world's natural-number upper bound, not a claim about
+physically or metaphysically possible worlds. -/
+def PrefixFitsFiniteWorld (capacity prefix : Nat) : Prop := prefix ≤ capacity
+
+/-- Every finite prefix fits *some* finite world, but no one such world fits
+all prefixes. This models the invalid shift from `∀ n, ◇ P n` to
+`◇ ∀ n, P n` without claiming anything about the actual modal accessibility
+relation of physical worlds. -/
+def FinitePrefixesFitSeparatelyNotUniformly : Prop :=
+  (∀ prefix : Nat, ∃ capacity : Nat, PrefixFitsFiniteWorld capacity prefix) ∧
+    ¬ (∃ capacity : Nat, ∀ prefix : Nat, PrefixFitsFiniteWorld capacity prefix)
+
+/-- A simplified Ross–Littlewood-style urn: at finite stage `n`, the balls
+present are precisely those numbered strictly above `n` and at most `2*n`.
+It models insertion of two new balls and removal of one at each positive
+stage, rather than Littlewood's historical ten-to-one version. -/
+def UrnResident (stage ball : Nat) : Prop :=
+  stage < ball ∧ ball ≤ stage + stage
+
+/-- Each fixed ball eventually disappears, arbitrarily long blocks of
+distinct balls occur at finite stages, and there is no uniform stage after
+which every urn is empty. Pointwise and uniform eventual absence differ.
+The result does *not* assert any physical urn can perform infinitely many
+operations, or that a finite-stage cardinality has a finite limit. -/
+def UrnPointwiseAbsenceNotUniformEmptiness : Prop :=
+  (∀ ball : Nat, ∃ cutoff : Nat,
+    ∀ stage : Nat, cutoff ≤ stage → ¬ UrnResident stage ball) ∧
+  (∀ count : Nat, ∃ stage : Nat,
+    ∀ offset : Nat, offset < count →
+      UrnResident stage (stage + offset + 1)) ∧
+  ¬ (∃ cutoff : Nat, ∀ stage : Nat,
+    cutoff ≤ stage → ∀ ball : Nat, ¬ UrnResident stage ball)
+
+/-- An observation restricted to stages at or before an arbitrary finite
+cutoff does not distinguish an eventually-false output from an eventually-
+true output. Knowing the full generating rule is stronger information than
+observing a finite prefix, so this is an epistemic countermodel only. -/
+def FiniteObservationCannotFixAllStableOutputs : Prop :=
+  ∀ cutoff : Nat,
+    ∃ first second : Nat → Bool,
+      (∀ n : Nat, n ≤ cutoff → first n = second n) ∧
+      StableAtLimit first false ∧ StableAtLimit second true
+
 end TruthCore.Causality

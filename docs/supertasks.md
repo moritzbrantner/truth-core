@@ -35,10 +35,9 @@ mathematical subinterval. Compare Aristotle's already sourced discussion in
 
 ## Three formal results
 
-The Lean module `TruthCore.Causality.Supertasks` defines a small, explicit
-model. It deliberately uses a distinct limit-order point, not a physical
-clock. Each result has a separate Challenge, Solution, inference application,
-argument and Comparator record.
+The Lean module `TruthCore.Causality.Supertasks` defines small, explicit
+models rather than a physical clock. Each result has a separate Challenge,
+Solution, inference application, argument and Comparator record.
 
 1. **`SUPERTASK-STABLE-ENDPOINT`:** All natural-number-indexed stages precede
    a designated endpoint, every stage has a later stage, and a constant
@@ -104,5 +103,132 @@ The open bridges are: **SU-END** (must a completed causal task have a last
 operation?), **SU-REAL** (can an omega sequence of distinct physical acts fit
 in finite actual time?), **SU-OUTPUT** (which terminal-state semantics are
 defensible?), and **SU-GROUND** (if such a sequence is coherent, what causes
-or explains its actual completion?). None is closed by the three formal
-controls above, and none presupposes Thomism.
+or explains its actual completion?). None is closed by these mathematical
+controls, and none presupposes Thomism.
+
+## Three further formal countermodels
+
+These strengthen the earlier controls without using hypothetical physics as
+a Lean axiom. Their exact truth concerns the defined models, not their
+physical or metaphysical interpretation.
+
+### Each finite prefix is possible; the whole need not be
+
+The inference
+
+$$\forall n\,\Diamond\mathrm{CompletePrefix}(n)
+\quad\Longrightarrow\quad
+\Diamond\forall n\,\mathrm{CompletePrefix}(n)$$
+
+is not valid merely as a quantifier manipulation. A countermodel has worlds
+indexed by arbitrary **finite** capacity `k`, with prefix `n` feasible at
+world `k` exactly when `n <= k`. For every `n`, choose world `n`; no one world
+has unlimited capacity, because prefix `k+1` exceeds its capacity.
+
+- **`SUPERTASK-FINITE-PREFIX-NONUNIFORM`:** the Lean theorem verifies this
+  model. It is related in logical form to
+  `LOGIC-QUANTIFIER-SHIFT-EACH-SOMETIME-NOT-INVALID` but uses **worlds and
+  task lengths**, not that other theorem's beings and times.
+- **Critical reply:** a world with genuinely unbounded capacity might be
+  possible, or a finite-duration completed task might not require a
+  finite-capacity world. The countermodel defeats the *inference from finite
+  prefixes alone*, not the possibility of all supertasks.
+
+### Each particular ball disappears; there is no uniformly empty tail
+
+Consider the simplified two-in-one-out infinite urn. After finite stage `n`
+the resident ball IDs are
+
+$$B_n=\{n+1,n+2,\ldots,2n\};\qquad |B_n|=n.$$
+
+Thus there are arbitrarily many balls at finite stages. Nevertheless, any
+fixed ball `b` is absent after stage `b`. Define the pointwise membership
+limit by the eventual membership of each fixed identifier: that limit is
+the empty set. This is **not** the same assertion as saying some finite
+stage is followed only by empty urns:
+
+$$\forall b\,\exists N\,\forall n\ge N:\ b\notin B_n,$$
+
+$$\neg\exists N\,\forall n\ge N\,\forall b:\ b\notin B_n.$$
+
+- **`SUPERTASK-URN-POINTWISE-NONUNIFORM`:** the Lean result verifies the
+  eventual absence of each ID, the existence of arbitrarily long blocks of
+  distinct residents at finite stages, and the absence of any uniformly
+  empty tail. The explicit cardinality formula `|B_n|=n` above follows by
+  elementary counting; that numerical identity is *not* the advertised Lean
+  theorem.
+- This is the same logical phenomenon as the well-known Ross–Littlewood urn
+  with ten insertions and one removal per stage, for which the finite count
+  would be `9n`. The Lean model deliberately uses two insertions to keep the
+  foundational argument small. It must not be misreported as a historical
+  source reading without a materialized witness.
+- **Critical reply:** one may define terminal membership pointwise, but that
+  does not prove a real urn could execute the operations or that a terminal
+  state has been physically caused. The finite counts and pointwise set
+  limit answer different questions; taking cardinality and limit in opposite
+  orders need not give matching outcomes.
+
+### No bounded observation prefix settles every stable limit
+
+For any finite cutoff `k`, consider two streams:
+
+1. `false` at every stage;
+2. `false` through stage `k`, then `true` at every later stage.
+
+Both have stable but *different* terminal values, while an observer with only
+the first `k+1` outputs cannot distinguish them.
+
+- **`SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED`:** the Lean theorem
+  constructs these streams for arbitrary `k`. It **does not** say the result
+  of a fully specified, computable stream is unknowable; the generating rule
+  is information the finite observer is expressly missing.
+- Infinite-time Turing machine models explicitly add a rule for their
+  ordinal **limit stages**. Ordinary finite successor transitions do not on
+  their own supply that rule. A stipulated limit rule can be coherent without
+  being physically executable.
+
+## Next investigations: conditional objections, not assumed impossibilities
+
+| Angle | Mathematical or physical observation | Unresolved bridge or counterexample |
+| --- | --- | --- |
+| **Accumulation and local finiteness** | Every infinite set of distinct event times in a compact interval has an accumulation point. If physical events must be locally finite (only finitely many occur in each sufficiently small neighborhood), an infinite set of such events in finite time is impossible. | **SU-REAL:** why should *genuinely distinct causal operations* be locally finite? Points of a continuous trajectory are not automatically separate performed acts. |
+| **Bounded distinguishable transitions** | Quantum bounds such as the Margolus–Levitin bound restrict the rate of orthogonal state transitions given suitable finite energy and isolation assumptions. | **SU-REAL:** is each task step a distinguishable orthogonal transition, and are the energy/system assumptions met? It is not a ban on continuous nonorthogonal changes or all imaginable physical models. |
+| **Scheduling/order sensitivity** | Conditionally convergent series can acquire different ordinary sums under reorderings; absolute convergence is stronger. | **SU-OUTPUT:** a physical proposal must specify operation order and which terminal observable is being summed, not assume convergence guarantees order independence. |
+| **Conservation through a limit** | Idealized Newtonian infinite-collision examples obey local collision rules but challenge global conservation or determinism at an accumulation point. | **SU-REAL / SU-GROUND:** which continuity and dynamical laws apply at the boundary? Rival accounts of what makes a legitimate Newtonian system must be compared. |
+| **Extra boundary laws** | A finite-step transition rule may be silent on a new limit-state transition; explicit ordinal-time computation supplies additional semantics. | **SU-END / SU-OUTPUT:** is the extra endpoint law constitutive, derived, arbitrary, or physically justified? A bare undefined endpoint is not a contradiction. |
+| **Time orientation versus essential causal dependence** | A future omega series accumulating at a terminal time, a beginningless past (reverse omega order), and a simultaneous essentially ordered dependence structure are distinct. | **SU-GROUND:** no impossibility for one order transfers automatically to another. In particular, #310 actuality and #311 explanation need separate grounding arguments. |
+
+### Reading leads, not yet pinned corpus evidence
+
+- J. F. Thomson, *Tasks and Super-Tasks* (1954), for terminal-state and
+  successive-operation questions:
+  [original paper](https://personal.lse.ac.uk/robert49/teaching/ph103/pdf/Thomson1954a.pdf).
+- J. D. Hamkins and A. Lewis, *Infinite Time Turing Machines*, for explicit
+  ordinal limit-stage semantics:
+  [original paper](https://arxiv.org/abs/math/9808093).
+- N. Margolus and L. B. Levitin, *The Maximum Speed of Dynamical Evolution*,
+  for finite-energy bounds on distinguishable transitions:
+  [original paper](https://arxiv.org/abs/quant-ph/9710043).
+
+These are orientation references, **not source-derived claims** in the
+canonical corpus. Historical/physical readings need pinned passages and
+separate source-fidelity review before being treated as evidence for a
+specific metaphysical premise.
+
+## Frontier effect and next obligation
+
+The three new results are premise-free **countermodel/control results**.
+They close their *own* stipulated mathematical propositions once Lean and
+Comparator have verified them, but none discharges `SU-END`, `SU-REAL`,
+`SU-OUTPUT` (as a universal metaphysical claim), or `SU-GROUND`. No new
+argument connects the model propositions to
+`STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` or the root
+`STMT-CATHOLICISM-TRUE` without a new bridge.
+
+The next philosophical target is a **completion principle** with independently
+defended meanings of *operation*, *actual performance*, *terminal result*,
+and *completed process*. Competing candidates should be tested against the
+abstract limit model, the urn, the finite-observation example, physical
+resource constraints, and beginningless/reverse-order cases. We are closing
+invalid lines of reasoning and mapping dependencies; we have **not** yet
+proved that completed supertasks or infinite causal chains are impossible.

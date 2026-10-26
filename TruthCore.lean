@@ -354,9 +354,12 @@ import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
+import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution
 import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
+import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding.Solution
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution

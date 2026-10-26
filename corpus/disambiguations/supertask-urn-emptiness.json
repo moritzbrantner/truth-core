@@ -1,0 +1,6 @@
+{
+  "id": "DISAMB-SUPERTASK-URN-EMPTINESS",
+  "term": "empty urn at an infinite limit",
+  "sense_definition_ids": ["DEF-SUPERTASK-URN-POINTWISE-ABSENCE", "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS"],
+  "resolution": "Under a pointwise-limit convention the urn has no surviving ball because each individual membership eventually becomes false. Under uniform eventual emptiness the urn would have to be completely empty at every stage after one common cutoff, which the countermodel refutes. The finite-stage count is a third observable and need not commute with the pointwise set limit. Neither convention by itself establishes physical terminal-state realization."
+}
