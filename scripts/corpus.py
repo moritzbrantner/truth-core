@@ -206,26 +206,120 @@ FRONTIER_BARE = "bare"
 FRONTIER_SOURCED = "sourced"
 
 
+# Floor bases (#500; #497, "The floor: criteria, not owner approval"). A
+# self_evident marking names the written criterion it meets. `frontier_report`
+# recomputes from the current relations, claims and results whether that
+# criterion holds; a marking whose criterion fails closes nothing, and
+# `corpus.py check` warns about it. `logical` is no basis: such a premise is
+# proved instead and closes as a result.
+FLOOR_RETORSION = "retorsion"
+FLOOR_COMMON_GROUND = "common_ground"
+FLOOR_OBSERVATION = "observation"
+FLOOR_BASES = {FLOOR_RETORSION, FLOOR_COMMON_GROUND, FLOOR_OBSERVATION}
+# The documented legacy default: a marking made before #500 without a basis.
+# Only the statements listed here may omit the basis; they close as recorded.
+FLOOR_LEGACY = "legacy"
+LEGACY_FLOOR_STATEMENTS = {"STMT-EXCLUDED-MIDDLE"}
+# The floor is a last resort (#378, point 3: people disagree about what is
+# self-evident). Every marking except common_ground (whose recorded rivals'
+# agreement is its disagreement record) records the known disagreement:
+# `disagreement` is either this literal or an object listing the recorded
+# rivals and/or claims that deny the statement is self-evident.
+DISAGREEMENT_NONE = "none recorded"
+
+
+def validate_disagreement(where: Path, marking: dict[str, Any], basis: str, claim_ids: set[str],
+                          statement_ids: set[str] | None) -> None:
+    disagreement = marking.get("disagreement")
+    if disagreement is None:
+        if basis == FLOOR_COMMON_GROUND:
+            return
+        raise CorpusError(
+            f"{where}: self_evident needs a disagreement record (#378): "
+            f'"{DISAGREEMENT_NONE}" or {{"rival_statement_ids": [...], "claim_ids": [...]}}'
+        )
+    if disagreement == DISAGREEMENT_NONE:
+        return
+    if not isinstance(disagreement, dict) or set(disagreement) - {"rival_statement_ids", "claim_ids", "note"}:
+        raise CorpusError(f"{where}: self_evident disagreement must be \"{DISAGREEMENT_NONE}\" or an object")
+    rivals = disagreement.get("rival_statement_ids", [])
+    claims = disagreement.get("claim_ids", [])
+    for field, values, known in (("rival_statement_ids", rivals, statement_ids), ("claim_ids", claims, claim_ids)):
+        if not isinstance(values, list) or any(not isinstance(value, str) for value in values):
+            raise CorpusError(f"{where}: self_evident disagreement {field} must be a list of ids")
+        unknown = [value for value in values if known is not None and value not in known]
+        if unknown:
+            raise CorpusError(f"{where}: self_evident disagreement {field} unknown: {', '.join(unknown)}")
+    if not rivals and not claims:
+        raise CorpusError(f"{where}: an object disagreement lists rivals or claims; otherwise use \"{DISAGREEMENT_NONE}\"")
+
+
 def validate_self_evident(
     path: Path,
     statement: dict[str, Any],
     claim_ids: set[str],
     result_ids: set[str],
+    statement_ids: set[str] | None = None,
 ) -> None:
+    """Shape of a self_evident marking and of its basis-specific evidence.
+    Whether the criterion currently holds is computed by `frontier_report`."""
     marking = statement.get("self_evident")
     if marking is None:
         return
+    where = path.relative_to(ROOT)
     if not isinstance(marking, dict):
-        raise CorpusError(
-            f"{path.relative_to(ROOT)}: self_evident must be an object with justification_ids"
-        )
+        raise CorpusError(f"{where}: self_evident must be an object with justification_ids")
     justification = require_string_list(marking, "justification_ids", path, allow_empty=False)
     for justification_id in justification:
         if justification_id not in claim_ids and justification_id not in result_ids:
             raise CorpusError(
-                f"{path.relative_to(ROOT)}: self_evident justification {justification_id} "
+                f"{where}: self_evident justification {justification_id} "
                 "is neither a claim id nor a result id"
             )
+    basis = marking.get("basis")
+    if basis is None:
+        if statement.get("id") not in LEGACY_FLOOR_STATEMENTS:
+            raise CorpusError(
+                f"{where}: self_evident needs a basis ({', '.join(sorted(FLOOR_BASES))}); "
+                "only the documented legacy markings may omit it"
+            )
+        validate_disagreement(where, marking, FLOOR_LEGACY, claim_ids, statement_ids)
+        return
+    if basis not in FLOOR_BASES:
+        raise CorpusError(f"{where}: self_evident basis must be one of {', '.join(sorted(FLOOR_BASES))}")
+    validate_disagreement(where, marking, basis, claim_ids, statement_ids)
+
+    def known_statement(field: str, value: Any) -> None:
+        if not isinstance(value, str) or not value:
+            raise CorpusError(f"{where}: self_evident {field} must be a statement id")
+        if statement_ids is not None and value not in statement_ids:
+            raise CorpusError(f"{where}: self_evident {field} {value} is not a known statement")
+
+    if basis == FLOOR_RETORSION:
+        if any(justification_id not in result_ids for justification_id in justification):
+            raise CorpusError(f"{where}: a retorsion basis is justified by results only")
+        known_statement("denial_statement_id", marking.get("denial_statement_id"))
+    elif basis == FLOOR_COMMON_GROUND:
+        known_statement("question_statement_id", marking.get("question_statement_id"))
+        positions = marking.get("positions")
+        if not isinstance(positions, list) or not positions:
+            raise CorpusError(f"{where}: a common_ground basis needs a non-empty positions list")
+        cited: set[str] = set()
+        for position in positions:
+            if not isinstance(position, dict):
+                raise CorpusError(f"{where}: each common_ground position is an object")
+            known_statement("position statement_id", position.get("statement_id"))
+            cited.update(require_string_list(position, "claim_ids", path, allow_empty=False))
+        if cited != set(justification):
+            raise CorpusError(
+                f"{where}: common_ground justification_ids must be exactly the claims its positions cite"
+            )
+    else:
+        if not any(justification_id in claim_ids for justification_id in justification):
+            raise CorpusError(f"{where}: an observation basis needs a sourced claim among its justifications")
+        if "sceptical_rival_ids" in marking:
+            for rival in require_string_list(marking, "sceptical_rival_ids", path, allow_empty=True):
+                known_statement("sceptical_rival_ids entry", rival)
 
 
 def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> None:
@@ -580,13 +674,93 @@ def frontier_report(
                 path[:0] = [node, argument_id]
         return seen_arguments, seen_statements, path
 
-    closed = {
-        statement_id
-        for statement_id in statement_by_id.keys() | dependents.keys() | verified_conclusions
-        if statement_id in verified_conclusions
-        or statement_by_id.get(statement_id, {}).get("self_evident") is not None
-    }
+    closed = set(verified_conclusions)
     refuted: set[str] = set()
+
+    # Floor markings (#500): rule (b) closes a self_evident statement only
+    # while its basis criterion holds, recomputed here from the current
+    # records. The criteria only grow with `closed` and `refuted`, so they are
+    # evaluated inside the fixpoint below.
+    claim_statement = {claim["id"]: claim["statement_id"] for claim in claims or []}
+    result_by_id = {result["id"]: result for result in results}
+    refuting_arguments: dict[str, set[str]] = {}
+    for relation in refutations:
+        refuting_arguments.setdefault(relation["object_id"], set()).add(relation["subject_id"])
+    floor_markings = {
+        statement_id: statement["self_evident"]
+        for statement_id, statement in statement_by_id.items()
+        if statement.get("self_evident") is not None
+    }
+
+    def floor_reasons(statement_id: str) -> list[str]:
+        """Why the marking's criterion does not hold now; empty when it does."""
+        marking = floor_markings[statement_id]
+        basis = marking.get("basis") or FLOOR_LEGACY
+        rivals = sorted(alternatives.get(statement_id, ()))
+        justification = marking.get("justification_ids", [])
+        # #378: the recorded disagreement must cover every current rival, so
+        # a newly recorded rival is not hidden behind a stale record.
+        disagreement = marking.get("disagreement")
+        if disagreement is not None and basis != FLOOR_COMMON_GROUND:
+            listed = set(disagreement.get("rival_statement_ids", [])) if isinstance(disagreement, dict) else set()
+            unlisted = [rival for rival in rivals if rival not in listed]
+            if unlisted:
+                return ["disagreement record omits recorded rivals: " + ", ".join(unlisted)]
+        if basis == FLOOR_LEGACY:
+            return []
+        if basis == FLOOR_RETORSION:
+            denial = marking.get("denial_statement_id")
+            if denial not in alternatives.get(statement_id, ()):
+                return [f"denial {denial} is not recorded as alternative_to {statement_id}"]
+            reasons: list[str] = []
+            for result_id in justification:
+                result = result_by_id.get(result_id)
+                argument = argument_by_id.get(result["argument_id"]) if result else None
+                if argument is None:
+                    reasons.append(f"{result_id} has no argument")
+                elif result_id in transcription_results:
+                    reasons.append(f"{result_id} is a transcription")
+                elif argument["id"] not in refuting_arguments.get(denial, ()):
+                    reasons.append(f"{argument['id']} has no refutes relation to {denial}")
+                else:
+                    open_premises = sorted(
+                        {premise for premise in argument["premise_statement_ids"] if premise not in closed}
+                    )
+                    if not open_premises:
+                        return []
+                    reasons.append(f"{result_id} rests on open premises {', '.join(open_premises)}")
+            return reasons
+        if basis == FLOOR_COMMON_GROUND:
+            if rivals:
+                return [f"recorded rivals deny it: {', '.join(rivals)}"]
+            question = marking.get("question_statement_id")
+            question_rivals = sorted(alternatives.get(question, ()))
+            if not question_rivals:
+                return [f"no rival position recorded on {question}"]
+            committed: dict[str, list[str]] = {}
+            for position in marking.get("positions", []):
+                stating = [
+                    claim_id
+                    for claim_id in position.get("claim_ids", [])
+                    if claim_statement.get(claim_id) == statement_id
+                ]
+                committed.setdefault(position.get("statement_id"), []).extend(stating)
+            missing = [position for position in [question, *question_rivals] if not committed.get(position)]
+            if missing:
+                return ["no proponent claim stating it for position " + ", ".join(missing)]
+            return []
+        # observation
+        reasons = []
+        if not any(claim_statement.get(claim_id) == statement_id for claim_id in justification):
+            reasons.append("no justification claim states it")
+        sceptical = set(marking.get("sceptical_rival_ids", []))
+        not_sceptical = [rival for rival in rivals if rival not in sceptical]
+        if not_sceptical:
+            reasons.append("rivals not recorded as global sceptical positions: " + ", ".join(not_sceptical))
+        unrefuted = [rival for rival in rivals if rival in sceptical and rival not in refuted]
+        if unrefuted:
+            reasons.append("sceptical rivals not refuted: " + ", ".join(unrefuted))
+        return reasons
 
     def refutation_counts(relation: dict[str, Any]) -> bool:
         argument = argument_by_id.get(relation["subject_id"])
@@ -615,6 +789,10 @@ def frontier_report(
     changed = True
     while changed:
         changed = False
+        for statement_id in sorted(floor_markings):
+            if statement_id not in closed and not floor_reasons(statement_id):
+                closed.add(statement_id)
+                changed = True
         for relation in refutations:
             if relation["object_id"] not in refuted and refutation_counts(relation):
                 refuted.add(relation["object_id"])
@@ -655,11 +833,27 @@ def frontier_report(
 
     # Why each closed statement is closed, for views such as the explorer's
     # state page (#200). The first matching rule wins, in the order (a)-(d).
+    floor_report = []
+    for statement_id in sorted(floor_markings):
+        marking = floor_markings[statement_id]
+        reasons = floor_reasons(statement_id)
+        floor_report.append(
+            {
+                "statement_id": statement_id,
+                "basis": marking.get("basis") or FLOOR_LEGACY,
+                "met": not reasons,
+                "reasons": reasons,
+                "justification_ids": sorted(marking.get("justification_ids", [])),
+                "disagreement": marking.get("disagreement"),
+            }
+        )
+    floor_met = {entry["statement_id"] for entry in floor_report if entry["met"]}
+
     closed_statements: dict[str, str] = {}
     for statement_id in sorted(closed):
         if statement_id in verified_conclusions:
             closed_statements[statement_id] = "proved"
-        elif statement_by_id.get(statement_id, {}).get("self_evident") is not None:
+        elif statement_id in floor_met:
             closed_statements[statement_id] = "self_evident"
         elif defended(statement_id):
             closed_statements[statement_id] = "alternatives_refuted"
@@ -674,7 +868,7 @@ def frontier_report(
     established = {
         statement_id
         for statement_id in statement_by_id
-        if statement_by_id[statement_id].get("self_evident") is not None or defended(statement_id)
+        if statement_id in floor_met or defended(statement_id)
     }
     verified_steps = [
         argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
@@ -705,6 +899,15 @@ def frontier_report(
         lambda statement_id: bool(stating_claims.get(statement_id) or support.get(statement_id)),
         routes.get(root or "", set()),
     )
+    # The root is closed only relative to the floor (#500): list each met
+    # floor premise that reaches it with its basis.
+    for entry in floor_report:
+        entry["reaches_root"] = entry["statement_id"] == root or upward(entry["statement_id"])[2] is not None
+    route_report["floor_bases"] = [
+        {"statement_id": entry["statement_id"], "basis": entry["basis"]}
+        for entry in floor_report
+        if entry["met"] and entry["reaches_root"]
+    ]
 
     items: list[dict[str, Any]] = []
     for statement_id in sorted(dependents):
@@ -748,8 +951,12 @@ def frontier_report(
         for premise in flag["goal_consequent_premises"]:
             for statement_id in premise["statement_ids"]:
                 goal_premise_arguments.setdefault(statement_id, []).append(flag["argument_id"])
+    floor_by_id = {entry["statement_id"]: entry for entry in floor_report}
     for item in items:
         item["transcription_premise_of"] = sorted(goal_premise_arguments.get(item["statement_id"], []))
+        if item["statement_id"] in floor_by_id:
+            entry = floor_by_id[item["statement_id"]]
+            item["floor_unmet"] = {"basis": entry["basis"], "reasons": entry["reasons"]}
     # Every statement whose `upward` walk reaches the root: the inverse walk from
     # the root through argument conclusions to their premises, entering a routed
     # conclusion only through its designated arguments (root_route).
@@ -783,6 +990,7 @@ def frontier_report(
         "refuted_statements": sorted(refuted),
         "routes": route_report,
         "closed_statements": closed_statements,
+        "floor": floor_report,
         "established_statements": sorted(established),
         "reaching_root_statements": sorted(reaching_root),
         "alternatives_recorded": bool(alternatives),
@@ -1169,7 +1377,20 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
             )
-    uncounted = [refutation for refutation in report.get("refutations", []) if not refutation["counted"]]
+        if item.get("floor_unmet"):
+            unmet = item["floor_unmet"]
+            lines.append(f"  self_evident basis {unmet['basis']} not met: {'; '.join(unmet['reasons'])}")
+    floor = report.get("floor", [])
+    lines.append("")
+    lines.append(
+        f"floor: {sum(entry['met'] for entry in floor)} of {len(floor)} self_evident markings meet their basis "
+        "(closure is relative to these bases)"
+    )
+    for entry in floor:
+        status = "met" if entry["met"] else "not met: " + "; ".join(entry["reasons"])
+        lines.append(f"  {entry['statement_id']} [{entry['basis']}]: {status}")
+    lines.extend(format_floor_bases(report.get("routes", {})))
+    uncounted =[refutation for refutation in report.get("refutations", []) if not refutation["counted"]]
     if uncounted:
         lines.append("")
         lines.append(f"refutations not counted for rule (c): {len(uncounted)}")
@@ -1247,7 +1468,15 @@ def format_routes(routes: dict[str, Any]) -> str:
         for statement_id in entry["open_premise_statement_ids"]:
             note = " (proved, rests on open premises)" if statement_id in entry["proved_unestablished_statement_ids"] else ""
             lines.append(f"  {statement_id}{note}")
+    lines.extend(format_floor_bases(routes))
     return "\n".join(lines)
+
+
+def format_floor_bases(routes: dict[str, Any]) -> list[str]:
+    """The root report's floor line (#500): closure is relative to these bases."""
+    bases = routes.get("floor_bases", [])
+    rendered = ", ".join(f"{entry['statement_id']} ({entry['basis']})" for entry in bases)
+    return ["", f"closed relative to floor bases: {rendered or 'none'}"]
 
 
 # Definitions and disambiguations (#204). A reviewer who says "that depends on
@@ -1531,7 +1760,7 @@ def validate() -> dict[str, int]:
                     f"{path.relative_to(ROOT)}: lean_declaration {declaration} is already "
                     f"the declaration of statement {other}; each statement needs its own"
                 )
-        validate_self_evident(path, statement, claim_ids, result_ids)
+        validate_self_evident(path, statement, claim_ids, result_ids, set(statement_index))
         used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
 
     citable = set(statement_index) | definition_ids | disambiguation_ids
@@ -1713,13 +1942,15 @@ def validate() -> dict[str, int]:
 
 
 def check_warnings() -> list[str]:
-    """Closure-integrity warnings (#391): unflagged opaque-atom candidates and
+    """Closure-integrity warnings (#391): unflagged opaque-atom candidates,
     `refutes` relations that do not count because their argument is
-    unverified or rests on open premises."""
+    unverified or rests on open premises, and self_evident markings whose
+    floor basis is not met by the current records (#500)."""
     statements = [record for _, record in load_dir("statements")]
     arguments = [record for _, record in load_dir("arguments")]
     results = [record for _, record in load_dir("results")]
     relations = [record for _, record in load_dir("relations")]
+    claims = [record for _, record in load_dir("claims")]
     flags = transcription_flags(results, arguments, statements)
     declared = {result["id"] for result in results if result.get("transcription")}
     warnings = [
@@ -1728,7 +1959,9 @@ def check_warnings() -> list[str]:
         for flag in flags
         if flag.get("opaque_atoms") and flag["result_id"] not in declared
     ]
-    report = frontier_report(statements, arguments, results, relations, root=None, transcription=flags)
+    report = frontier_report(
+        statements, arguments, results, relations, root=None, transcription=flags, claims=claims
+    )
     for refutation in report["refutations"]:
         if refutation["counted"]:
             continue
@@ -1740,6 +1973,12 @@ def check_warnings() -> list[str]:
             f"{refutation['relation_id']}: refutation of {refutation['statement_id']} does not count "
             f"for closure rule (c): {reason}"
         )
+    for entry in report["floor"]:
+        if not entry["met"]:
+            warnings.append(
+                f"{entry['statement_id']}: self_evident basis {entry['basis']} is not met, so the marking "
+                f"closes nothing: {'; '.join(entry['reasons'])}"
+            )
     return warnings
 
 

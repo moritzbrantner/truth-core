@@ -1,7 +1,7 @@
 {
   "id": "DEF-SELF-EVIDENT-MARKING",
   "term": "self-evident (as marked in this corpus)",
-  "definition": "A statement is self-evident in this corpus when its record carries a `self_evident` marking whose justification ids are sourced claims or results: the marking is itself a challengeable, argued claim, not a bare flag (docs/corpus-model.md).",
+  "definition": "A statement is self-evident in this corpus when its record carries a `self_evident` marking whose justification ids are sourced claims or results: the marking is itself a challengeable, argued claim, not a bare flag. It names a floor basis (retorsion, common_ground or observation) and closes the statement only while that criterion holds on the current records; closure is relative to the listed bases (docs/corpus-model.md, #500).",
   "basis": "stipulative",
   "note": "Project schema (#156, #167). It is not yet tied to the classical per se nota of ST I q.2 a.1, which has no pinned passage; STMT-EXCLUDED-MIDDLE is marked on Aristotle's elenctic defence, not on per se nota."
 }
