@@ -26,6 +26,9 @@ import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Sol
 import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
 import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution
+import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
 import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation.Solution
 import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution

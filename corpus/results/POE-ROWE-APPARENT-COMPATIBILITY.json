@@ -1,0 +1,10 @@
+{
+  "id": "POE-ROWE-APPARENT-COMPATIBILITY",
+  "argument_id": "POE-ROWE-APPARENT-COMPATIBILITY",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.roweApparentCompatibility",
+  "comparator_config": "results/POE-ROWE-APPARENT-COMPATIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretation with an occurring intense suffering and an unrecognized unavoidable greater-good cost. Narrow theism and the permission constraint hold; actual gratuitous suffering does not. This refutes only the deductive implication from the limited appearance projection, not Rowe’s inductive warrant, actual gratuitous evil or actual divine permission. The absence of gratuitous suffering reuses the verified deductive-core theorem."
+}

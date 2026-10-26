@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ROWE-INTENSE-SUFFERING",
+  "term": "intense human or animal suffering",
+  "definition": "Intense suffering of humans or animals, treated by Rowe as bad in itself even when justified as a means. The event predicate does not assert a culpable human act or identify suffering with moral fault. The reading presupposes its intended suffering interpretation; no finite interpretation establishes actual badness.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.English.Rowe.Sig.IntenseSuffering",
+  "claim_ids": [
+    "ROWE-1979-PREMISE-ONE"
+  ]
+}

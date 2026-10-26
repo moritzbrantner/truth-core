@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ROWE-NARROW-THEISM",
+  "term": "narrow theistic being",
+  "definition": "A being jointly all-knowing, all-powerful and wholly good. The predicates are the intended divine attributes, retained as open interpretations, not reduced to mere human capacities. Existence of one is narrow theism in Rowe’s stated usage, not the entire Catholic theory.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.English.Rowe.TheisticBeingExists",
+  "claim_ids": [
+    "ROWE-1979-NARROW-THEISM"
+  ]
+}

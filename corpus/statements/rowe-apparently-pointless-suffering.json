@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING",
+  "paraphrase": "Some occurring intense suffering is preventable by any omniscient omnipotent being and has no blocking cost recognized by the fixed investigator. This is a limited projection of appearance, not a representation of Rowe’s full inductive evidence or a warrant judgment.",
+  "lean_declaration": "TruthCore.English.Rowe.ApparentlyPointlessSuffering",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}
