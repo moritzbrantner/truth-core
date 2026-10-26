@@ -1,0 +1,11 @@
+{
+  "id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
+  "term": "bringing actual good from evils collectively",
+  "definition": "DrawsGoodFromEvils g evils y p means g actually brings the good of perfection p in bearer y from the evils picked out by evils considered together. GoodIn y p records that actual good. The relation supplies no attribution to each member of the collection and no comparison of quantities of good and evil.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading",
+  "note": "Parameter semantics for explicit scope comparison, motivated by the pinned ad 1 wording. A source argument fixing the relation extension or connecting the collective and distributive relations would be needed to go beyond this interpretation; no such bridge is supplied here."
+}

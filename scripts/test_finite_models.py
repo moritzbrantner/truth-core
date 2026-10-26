@@ -23,6 +23,29 @@ class FiniteModelsTests(unittest.TestCase):
         for model in self.models:
             validate_model(model, self.statements, corpus.ROOT)
 
+    def test_modal_quantifier_shift_controls_share_premises_but_diverge_on_target(self):
+        models = {m['id']: {e['statement_id']: e['value'] for e in m['evaluations']}
+                  for m in self.models}
+        psr_stable = models['MODEL-PSR-INTRINSIC']
+        psr_variable = models['MODEL-PSR-WORLDWISE-ALTERNATING']
+        for premise in ['STMT-PSR-SOUND-COMPONENT', 'STMT-PSR-EXISTENCE-COMPONENT',
+                        'STMT-KANT-CONVERSION-NECESSARY-WITNESS']:
+            self.assertEqual((psr_stable[premise], psr_variable[premise]), ('satisfies', 'satisfies'))
+        self.assertEqual(psr_stable['STMT-MODAL-EXPLANATION-STABLE'], 'satisfies')
+        self.assertEqual(psr_variable['STMT-MODAL-EXPLANATION-STABLE'], 'violates')
+
+        fixed = models['MODEL-MODAL-FIXED-EFFECT']
+        variable = models['MODEL-MODAL-VARIABLE-EFFECTS']
+        for premise in ['STMT-MODAL-SOUND-DISTINCT-CAUSES',
+                        'STMT-KANT-CONVERSION-NECESSARY-WITNESS',
+                        'STMT-MODAL-NECESSARY-AT-INDIVIDUAL',
+                        'STMT-MODAL-NECESSARY-CAUSES-SOMETHING']:
+            self.assertEqual((fixed[premise], variable[premise]), ('satisfies', 'satisfies'))
+        self.assertEqual(fixed['STMT-MODAL-SAME-NECESSARY-EFFECT'], 'satisfies')
+        self.assertEqual(variable['STMT-MODAL-SAME-NECESSARY-EFFECT'], 'violates')
+        self.assertEqual(fixed['STMT-KANT-CONTINGENT-INDIVIDUAL'], 'violates')
+        self.assertEqual(variable['STMT-KANT-CONTINGENT-INDIVIDUAL'], 'satisfies')
+
     def test_unknown_premises_and_unrelated_models_cannot_be_counterexamples(self):
         target = 'STMT-ACT-SIMPLY-PRIOR-TO-POTENCY'
         # Choose a genuinely registered satisfied premise without relying on its name.

@@ -1,1 +1,31 @@
-{"id": "POE-CATHOLIC-DENIES-OBJECTION-ONE", "premise_statement_ids": ["STMT-GOODNESS-IS-ACTUALITY", "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD", "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH", "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD", "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED", "STMT-NO-INFINITE-PER-SE-MOVER-SERIES", "STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD", "STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT", "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL"], "conclusion_statement_id": "STMT-CATHOLIC-THEORY-DENIES-OBJECTION-ONE", "inference_ids": ["INF-AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT", "INF-AQUINAS-ST-I-Q2-A3-MOVED-BY-ANOTHER", "INF-AQUINAS-ST-I-Q2-A3-FIRST-MOVER", "INF-CATHOLIC-EVIL-EXISTS", "INF-CATHOLIC-DENIES-OBJECTION-ONE"], "meaning": "On the Catholic theory, the first objection's conditional (if God existed there would be no evil, ST I q.2 a.3 obj. 1) is false. The derivation reuses the verified prima via (#151): God cannot be lacking, evil exists by privation, and the conditional then contradicts it. Taken with POE-CATHOLIC-CONSISTENT-WITH-EVIL, this places the inconsistency the logical problem alleges in the objection's conditional, an extra premise the theory denies (ad 1), and not in the Catholic commitments together with evil. The theory enters as one bundle hypothesis whose 14 conjuncts bind to the listed premises; several of them are unused."}
+{
+  "id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+  "premise_statement_ids": [
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH",
+    "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD",
+    "STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT",
+    "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL"
+  ],
+  "conclusion_statement_id": "STMT-CATHOLIC-THEORY-DENIES-OBJECTION-ONE",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT",
+    "INF-AQUINAS-ST-I-Q2-A3-MOVED-BY-ANOTHER",
+    "INF-AQUINAS-ST-I-Q2-A3-FIRST-MOVER",
+    "INF-CATHOLIC-EVIL-EXISTS",
+    "INF-CATHOLIC-DENIES-OBJECTION-ONE"
+  ],
+  "meaning": "On the Catholic theory, the first objection's conditional (if God existed there would be no evil, ST I q.2 a.3 obj. 1) is false. The derivation reuses the verified prima via (#151): God cannot be lacking, evil exists by privation, and the conditional then contradicts it. Taken with POE-CATHOLIC-CONSISTENT-WITH-EVIL, this places the inconsistency the logical problem alleges in the objection's conditional, an extra premise the theory denies (ad 1), and not in the Catholic commitments together with evil. The theory enters as one bundle hypothesis whose 14 conjuncts bind to the listed premises; several of them are unused. The frozen Catholic bundle retains STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL as an open, disputed strengthening of ad 1: actual production for every existing evil with no explicit permission condition. Collective scope, permission-conditioned policy and capability readings are recorded separately in DISAMB-AD1-GOOD-FROM-EVIL. Neither this result nor its model establishes that stronger source attribution, actual divine permission, or the philosophical truth of that commitment.",
+  "disambiguation_ids": [
+    "DISAMB-AD1-GOOD-FROM-EVIL"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "MODEL-NECESSARY-INDIVIDUAL-ALL-PRESENT",
+  "description": "Universal two-world Boolean frame, two rigid Boolean individuals, actual world false, presence everywhere. All four component evaluations are certified. This witnesses only this mathematical interpretation, not metaphysical possibility.",
+  "vocabulary": "necessary-individual-quantifiers",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.alternatingFrame",
+  "bindings": {
+    "W": "Bool",
+    "I": "Bool",
+    "F": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.alternatingFrame",
+    "present": "TruthCore.Models.NecessaryIndividual.allPresent",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "I",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation2"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation3"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessaryIndividual"
+  ]
+}

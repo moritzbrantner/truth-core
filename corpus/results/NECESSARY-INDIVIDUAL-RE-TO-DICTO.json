@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "argument_id": "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-RE-TO-DICTO/comparator.json",
+  "status": "solution-present",
+  "description": "A fixed necessary bearer supplies a bearer at each successor. Reuse deRe_to_deDicto. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim."
+}

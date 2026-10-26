@@ -1,1 +1,10 @@
-{"id": "POE-CATHOLIC-DENIES-OBJECTION-ONE", "argument_id": "POE-CATHOLIC-DENIES-OBJECTION-ONE", "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Challenge", "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution", "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.catholicDeniesObjectionOne", "comparator_config": "results/POE-CATHOLIC-DENIES-OBJECTION-ONE/comparator.json", "status": "solution-present"}
+{
+  "id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+  "argument_id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.catholicDeniesObjectionOne",
+  "comparator_config": "results/POE-CATHOLIC-DENIES-OBJECTION-ONE/comparator.json",
+  "status": "solution-present",
+  "description": "The frozen Catholic bundle retains STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL as an open, disputed strengthening of ad 1: actual production for every existing evil with no explicit permission condition. Collective scope, permission-conditioned policy and capability readings are recorded separately in DISAMB-AD1-GOOD-FROM-EVIL. Neither this result nor its model establishes that stronger source attribution, actual divine permission, or the philosophical truth of that commitment. The proof does not use the disputed per-evil production conjunct, but its unchanged bundle hypothesis still binds it as a listed open premise."
+}

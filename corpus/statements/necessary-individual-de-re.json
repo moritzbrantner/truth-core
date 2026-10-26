@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+  "paraphrase": "Stipulated mathematical configuration component, not an attributed source reading: Some fixed member of the supplied rigid roster is present at every successor of the supplied world. No presence at that world or frame condition is implicit.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeRe",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

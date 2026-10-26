@@ -177,6 +177,12 @@ Keep the intake text intact while assigning any corrected reading its own meanin
 
 ## Research routes and next intake step
 
+The first registered cross-world quantifier tests for **NEC-05**, **ACT-09**,
+and the explanatory question near **EXP-03** are in
+[Modal quantifier-shift models](modal-quantifier-shift-models.md). These are
+certified *formal* configurations; the original intake statements and their
+truth statuses are unchanged.
+
 | Inventory groups | Existing work to reuse | Focused follow-ups |
 | --- | --- | --- |
 | IMP, MOD, ONT | #261–#267, #274, #437–#439 | #464, #471 |

@@ -2,7 +2,13 @@ import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 
 /-!
-A concrete model of the background, the Catholic theory, and evil.
+A concrete model of the background, the frozen Catholic bundle, and evil.
+
+The bundle retains a disputed stronger ad 1 commitment: actual production of
+some good for every existing evil, without an explicit permission condition.
+The collective policy and capability siblings are separate source readings.
+This witness checks satisfiability of the encoded commitment, not its source
+attribution or truth, and has no predicate asserting actual permission.
 
 The motion part is the strong model of #151 (`strongModel`), in which all seven
 strong *prima via* premises hold: `g` moves `f` and is moved in no respect, `f`

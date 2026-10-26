@@ -9,8 +9,10 @@ import TruthCore.Modal.Examples
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
 import TruthCore.Modal.NecessaryContingentActivity
+import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
 import TruthCore.Modal.S5Research
 import TruthCore.Modal.TResearch
+import TruthCore.Modal.WorldwiseExplanation
