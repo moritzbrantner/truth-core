@@ -1,1 +1,18 @@
-{"id": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL", "statement_id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL", "source_id": "AQUINAS-ST", "locator": "I q.2 a.3 ad 1: ad infinitam Dei bonitatem pertinet, ut esse permittat mala, et ex eis eliciat bona", "interpretation": "God would in no way allow evil in his works unless he could bring good even out of evil; it belongs to his infinite goodness to permit evils and draw goods from them. Read per evil (every evil there is is one God draws good from). A weaker reading, on which God draws good from the evils taken together, is also defensible; the per-evil reading is the stronger commitment, so the consistency result proved with it holds for the weaker one too. The reading does not say what the good is or that it outweighs the evil.", "status": "formalized"}
+{
+  "id": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
+  "statement_id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 ad 1: ad infinitam Dei bonitatem pertinet, ut esse permittat mala, et ex eis eliciat bona",
+  "interpretation": "Reading A: the final plural sentence is distributed over every evil there is, with actual production of some good for each evil-bearing subject. This is the stronger, disputed reading retained by the existing Catholic consistency comparison, not a theorem that every evil is individually justified. Sibling reading B preserves collective actual production; reading C extracts the preceding quotation's capability condition on permission. Neither mere ability nor collective scope establishes this per-evil actual-production claim. Good need not outweigh evil, benefit its sufferer, be unique to it or make the world best possible. No formal strength implication between the different relation parameters is supplied. Fidelity gap: the final permittat / eliciat are coordinated subjunctives dependent on pertinet ut; they do not by themselves assert an indicative actual good token for each existing evil. The older formula also omits an explicit permission condition. It remains a disputed stronger interpretation for the frozen comparison, not a discharged claim or an attribution established merely by consistency.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOD-WHAT-ALL-UNDERSTAND",
+    "DEF-EVIL-AS-PRIVATION",
+    "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-AD1-GOOD-FROM-EVIL",
+    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+  ]
+}
