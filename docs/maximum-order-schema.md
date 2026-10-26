@@ -95,3 +95,10 @@ registration. Strict primacy, creatures and the causal clause about the primary
 are omitted from this transfer because it proves a different, weaker conclusion
 than #386's genus-principle derivation. This omission does not refute those
 premises or replace that derivation.
+
+Verification at the completed local proof package: all seven Comparator
+obligations and solution NanoDa passed; full library NanoDa checked 21,384
+declarations with no typechecker errors. Registration was then checked against
+the merged #447 contract by live bind-check (424 bound, two historical pins,
+zero mismatches, including the finite-model gate). These counts describe that
+repository head, not the truth of the conditional philosophical inputs.
