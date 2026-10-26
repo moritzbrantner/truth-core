@@ -87,7 +87,7 @@ theorem needsInclusion :
     exact impossible () (h ())
 
 /-- Compose the new accessibility result with the existing finite-grounding
-and regress-to-finite-path results. The source can depend on the target and is
+and regress-to-finite-path results. The endpoint may vary with the starting being and is
 uncaused only with respect to the supplied per se relation. -/
 theorem finitePathsOfFiniteAncestry {Being : Type}
     (cause perSe : Being → Being → Prop)
