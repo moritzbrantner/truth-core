@@ -1,0 +1,7 @@
+{
+  "id": "DEF-CREATURE",
+  "term": "creature (creatura)",
+  "definition": "`Creature x`: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to God as to their principle and cause. In Lean it is an uninterpreted predicate on beings; only the open premise `OthersAreCreaturesReading Creature p` links it to the primary, by saying that everything other than p falls under it.",
+  "basis": "stipulative",
+  "note": "Stipulated so that STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE states no more than q.13 a.5 co., which speaks of creatures and not of everything other than God. Aquinas' account of creation (ST I q.44-45, e.g. q.45 a.1, creatio as emanatio totius entis) would source a fuller definition; none is needed by the current results."
+}

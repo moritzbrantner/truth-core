@@ -30,7 +30,12 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFromBeingInAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution

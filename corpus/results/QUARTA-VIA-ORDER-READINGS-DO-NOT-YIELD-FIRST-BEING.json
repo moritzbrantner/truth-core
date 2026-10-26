@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "argument_id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.orderReadingsDoNotYieldFirstBeing",
+  "comparator_config": "results/QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "A finite countermodel. Mathlib-based; permits propext, Classical.choice and Quot.sound (docs/axiom-policy.md). STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING stays open."
+}

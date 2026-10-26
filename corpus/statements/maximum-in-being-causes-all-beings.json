@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "paraphrase": "The genus principle at being only: whatever is maximal in being causes the being of every other being.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRICT-PRIMACY",
+  "term": "strict primacy (nothing else reaches the primary)",
+  "definition": "`StrictPrimacyReading near p`: every x other than p approaches p less nearly than p stands (near x < near p). Identity-sensitive: it rules out any other thing tied with p, not only any thing exceeding it.",
+  "basis": "stipulative",
+  "note": "Stipulated as the content of the open premise STMT-NOTHING-ELSE-REACHES-THE-PRIMARY, not as a reading of ST I q.3 a.5 ad 2. A claim on a pinned passage saying that nothing other than God has being in God's degree (candidate AQUINAS-STRICT-PRIMACY-IN-BEING: ST I q.4 a.3, SCG I.28, I.42) would source it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.StrictPrimacyReading"
+}

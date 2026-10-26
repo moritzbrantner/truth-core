@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+  "term": "order of being by approach to a primary (attribution order model)",
+  "definition": "`ApproachToPrimaryReading InAct MoreIn r near p`: the primary p has r, and x is more r than y exactly when x approaches p more nearly (near y < near x, degrees in their own Mathlib `Preorder`). It does not say that nothing else reaches p (that is DEF-STRICT-PRIMACY, an open premise) and says nothing about causation; the causal order of creatures to the primary is the separate STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ApproachToPrimaryReading"
+}

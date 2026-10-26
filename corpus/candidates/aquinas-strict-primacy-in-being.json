@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-STRICT-PRIMACY-IN-BEING",
+  "source_id": "AQUINAS-SCG",
+  "locator": "I.28 [2]-[4]; I.42 [2] (with ST I q.4 a.3 ad 1, ad 3)",
+  "priority": 416,
+  "goal": "Source the open premise STMT-NOTHING-ELSE-REACHES-THE-PRIMARY (strict primacy: nothing other than the primary reaches its degree of being), which QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING and QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM take as an explicit hypothesis. Add passage records for SCG I.28 and I.42 to the pinned Pegis snapshot and for ST I q.4 a.3 to the pinned SCTA q.4 file, materialize them, and decide whether any sentence states that nothing other than God has being in God's degree, rather than only that creatures fall short of their cause or participate being. If a sentence speaks only of creatures, the identity-sensitive form also needs STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES (ST I q.44 a.1).",
+  "reason": "Codex review of PR #386: strict primacy was attributed to ST I q.3 a.5 ad 2, which does not state it. It is now an unattributed open premise. Orientation reading (pinned bytes checked by hash, no passage records yet): SCG I.28 [2]-[4] (God has being according to its whole power; other things participate in it in a particular, imperfect mode), SCG I.42 [2] (what is said by superabundance is found in only one being), ST I q.4 a.3 ad 1 and ad 3 (creatures fall short of their cause; God is ens per essentiam, others by participation).",
+  "status": "candidate"
+}
