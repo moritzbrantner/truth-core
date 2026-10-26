@@ -159,13 +159,13 @@ test("recorded claim evidence links related propositions without changing proof 
   await page.locator(".network-marker[data-kind='statement']").first().waitFor();
   await page.locator(".graph-detail").getByRole("link", { name: `${projected.originId} →`, exact: true }).first().waitFor();
   expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
-  await page.getByText("More views and filters").click();
+  await page.locator(".frontier-advanced > summary").click();
   await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).uncheck();
   await page.waitForURL((location) => location.searchParams.get("relations") === "0");
   expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBe(0);
   expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
   await page.reload();
-  await page.getByText("More views and filters").click();
+  await page.locator(".frontier-advanced > summary").click();
   expect(await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).isChecked()).toBe(false);
   await page.close();
 }, 60000);
