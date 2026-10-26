@@ -12,7 +12,8 @@ two first movers moved by none, they would differ in some act: one in act in a
 respect in which the other is not. Then the other would lack a perfection, but
 each has every perfection (open bridge). So two first movers are not distinct,
 and, given that they are either the same or distinct, they are the same.
-Discharges the #159 gap statement `AtMostOneFirstUnmovedMover`. -/
+Derives the #159 gap statement `AtMostOneFirstUnmovedMover` from the open
+every-perfection bridge. -/
 theorem oneFirstMover {Being : Type} {Respect : Type}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)

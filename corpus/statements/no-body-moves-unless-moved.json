@@ -1,1 +1,1 @@
-{"id":"STMT-NO-BODY-MOVES-UNLESS-MOVED","paraphrase":"No body moves anything without itself being moved in some respect.","lean_declaration":"TruthCore.Latin.Aquinas.SummaTheologiae.NoBodyMovesUnlessMovedReading"}
+{"id": "STMT-NO-BODY-MOVES-UNLESS-MOVED", "paraphrase": "No body moves anything without itself being moved in some respect.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoBodyMovesUnlessMovedReading", "definition_ids": ["DEF-MOTION-AS-REDUCTION"], "disambiguation_ids": ["DISAMB-MOTION"]}

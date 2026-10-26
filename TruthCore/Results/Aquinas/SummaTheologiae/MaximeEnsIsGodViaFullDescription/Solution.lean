@@ -12,9 +12,10 @@ unique maximum in being meets the fuller nominal definition, so it is God. Let
 `m` be maximal in being. By the genus principle at *esse* it causes the being of
 every other being; by the uniqueness result it is the only maximum. It causes
 every perfection of every other being: whatever another being is in act in, that
-being has being (q.4 a.1 ad 3), so `m` causes its being and therefore that
-perfection. And it is part of nothing, since no component is maximal in being
-(q.3 a.8). So the fuller description applies. -/
+being has being (q.4 a.1 ad 3), so `m` causes its being and, by the open bridge
+`CauseOfBeingCausesEveryPerfection`, that perfection. And it is part of nothing:
+it is the first being (open bridge `MaximumInBeingIsFirstBeing`), and no
+component is the first being (q.3 a.8). So the fuller description applies. -/
 theorem maximeEnsIsGodViaFullDescription {Being : Type} {Respect : Type}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop)

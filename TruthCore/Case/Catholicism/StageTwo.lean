@@ -13,8 +13,9 @@ open, supported by q.13 a.8 ad 2 *supra omnia existens* and *Dei Filius* ch. 1
 *super omnia … excelsus*).
 
 Group 1 (this module's derived attributes): one, simple, perfect, supremely good.
-The other five (infinite, immutable, eternal, intellect, will) are open
-premises of the stage-2 composition, each supported by *Dei Filius* ch. 1.
+The other five (infinite, immutable, eternal, intellect, will) are derived in
+groups 2 and 3 (results CATHOLICISM-STAGE2-GOD-IS-INFINITE … -HAS-WILL), each
+also supported by *Dei Filius* ch. 1.
 -/
 
 namespace TruthCore.Case.Catholicism
@@ -84,24 +85,24 @@ def GodIsSupremelyGood {Being : Sort u} {Respect : Sort v} (IsGod : Being → Pr
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect) : Prop :=
   ∀ g, IsGod g → IsSupremelyGood InAct GoodIn CausesIn esse g
 
-/-- God is infinite (ST I q.7). Open premise of the stage-2 composition until its
-attribute group is derived; `Infinite` is fixed by that group. -/
+/-- God is infinite (ST I q.7). Derived in result CATHOLICISM-STAGE2-GOD-IS-INFINITE;
+`Infinite` is fixed by its attribute group. -/
 def GodIsInfinite {Being : Sort u} (IsGod Infinite : Being → Prop) : Prop :=
   ∀ g, IsGod g → Infinite g
 
-/-- God is immutable (ST I q.9). Open premise, as `GodIsInfinite`. -/
+/-- God is immutable (ST I q.9). Derived in result CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE. -/
 def GodIsImmutable {Being : Sort u} (IsGod Immutable : Being → Prop) : Prop :=
   ∀ g, IsGod g → Immutable g
 
-/-- God is eternal (ST I q.10). Open premise, as `GodIsInfinite`. -/
+/-- God is eternal (ST I q.10). Derived in result CATHOLICISM-STAGE2-GOD-IS-ETERNAL. -/
 def GodIsEternal {Being : Sort u} (IsGod Eternal : Being → Prop) : Prop :=
   ∀ g, IsGod g → Eternal g
 
-/-- God has intellect (ST I q.14). Open premise, as `GodIsInfinite`. -/
+/-- God has intellect (ST I q.14). Derived in result CATHOLICISM-STAGE2-GOD-HAS-INTELLECT. -/
 def GodHasIntellect {Being : Sort u} (IsGod HasIntellect : Being → Prop) : Prop :=
   ∀ g, IsGod g → HasIntellect g
 
-/-- God has will (ST I q.19). Open premise, as `GodIsInfinite`. -/
+/-- God has will (ST I q.19). Derived in result CATHOLICISM-STAGE2-GOD-HAS-WILL. -/
 def GodHasWill {Being : Sort u} (IsGod HasWill : Being → Prop) : Prop :=
   ∀ g, IsGod g → HasWill g
 

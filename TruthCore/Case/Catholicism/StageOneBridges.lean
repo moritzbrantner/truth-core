@@ -28,9 +28,9 @@ universe v w
 simply prior to it. Not entailed by the *prima via*: see
 `TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.firstWayDoesNotYieldPureAct`.
 Derived through the *quarta via* (#147) in result
-`AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING`, which relocates the gap into two
-narrower open premises in `StageOneQuartaVia`: `MaximeEnsIsGod` and
-`SimplyPriorIsCauseOfBeing`. -/
+`AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING`, which relocated the gap into two
+narrower premises in `StageOneQuartaVia`: `MaximeEnsIsGod` (since derived, result
+`AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD`) and the open `SimplyPriorIsCauseOfBeing`. -/
 def FirstUnmovedMoverIsFirstBeing {Being : Sort v} {Respect : Sort w}
     (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop)

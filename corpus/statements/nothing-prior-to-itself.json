@@ -1,1 +1,1 @@
-{"id": "STMT-NOTHING-PRIOR-TO-ITSELF", "paraphrase": "Nothing is prior to itself.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NothingPriorToItselfReading"}
+{"id": "STMT-NOTHING-PRIOR-TO-ITSELF", "paraphrase": "Nothing is prior to itself.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NothingPriorToItselfReading", "definition_ids": ["DEF-SIMPLE-PRIORITY"]}
