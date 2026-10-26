@@ -1,0 +1,17 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "inference_ids": ["INF-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION"],
+  "meaning": "Keeping both populated presence extensions fixed while dropping the empty world from the domain of modal accessibility makes the root a de-re necessary individual. This demonstrates a distinction between restricting possibility and explaining actual histories, not a reason why possibility must be restricted.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+  ]
+}

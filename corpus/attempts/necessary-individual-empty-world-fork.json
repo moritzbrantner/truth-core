@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+    "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+    "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION"
+  ],
+  "kind": "countermodel",
+  "outcome": "blocked",
+  "summary": "Formalized a root-presence bridge as an exact biconditional: a de-re fixed witness equals a shared witness at every populated successor together with the separately required population of every successor. Constructed a universal-accessibility three-world finite interpretation with an accessible empty presence extension, root shared across both populated histories, causal coverage for every present nonroot and no two-edge causal chain. This refutes any bare inference from finite rooted histories to de-re necessity under the stipulated frame. Constructed a second two-world interpretation preserving both populated histories exactly while excluding the empty extension, where the same root is necessary. Metadata check passes; Lean and Comparator verification are pending. Not an attributed source claim, an unrestricted PSR countermodel, or a metaphysical possibility assertion.",
+  "evidence": [
+    "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+    "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+    "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION"
+  ],
+  "blocker": "Lean kernel and Comparator runs still required; independent philosophical argument against the accessibility of the empty-extension scenario, and any bridge from finite local causation to an unrestricted explanation or necessary being, remain open."
+}

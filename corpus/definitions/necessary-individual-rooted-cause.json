@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
+  "term": "one-step causal coverage for nonroot individuals",
+  "definition": "In the explicitly finite rootedEmpty model, rootedEmptyCauses world cause effect holds precisely when both individuals are present in that world, cause is the designated root zero, and effect is a distinct nonroot. RootedEmptyDependentCoverage requires such a cause for every present nonroot. RootedEmptyNoTwoStepCause prohibits any composable pair of these same-world causal edges. None of these clauses requires an explanation for the root, establishes a total PSR, compares worlds as temporal instants, or asserts well-foundedness of all imaginable causal relations.",
+  "basis": "stipulative",
+  "note": "Finite mathematical interpretation to test whether even strictly bounded causal chains force necessity. Its exception for the root is explicit and philosophically disputable; see docs/necessary-individual-empty-world-fork.md.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.rootedEmptyCauses"
+}
