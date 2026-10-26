@@ -1,0 +1,11 @@
+{
+  "id": "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
+  "term": "attributed forgiveness authority (Mark 2)",
+  "definition": "Narrative.attributes records textual attribution of an AuthorityContent to a Speaker. The bound assertion attributes to Jesus content whose holder is the title Son of Man, action is forgiving sins, and scope is on earth. Forgiving sins means granting remission of sins, not merely healing bodily paralysis or reporting another person’s pardon. Authority here is the claimed competence or authorization to grant that remission; its possession, origin and mode are not asserted as actual. Holder.sonOfMan retains the spoken title without an identity equation with Jesus or God. Narrative.pilot reuses the historical comparison state without transferring speech content to its historical predicates.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority.Narrative",
+  "note": "Typed report vocabulary is needed because the existing pilot Report enum carries named whole reports without typed authority content. These are encoding boundaries for the sourced reading, not a new theological definition of divine authority. Historical and theological interpretations require separate defense.",
+  "claim_ids": [
+    "NT-MARK-2-FORGIVENESS-AUTHORITY"
+  ]
+}

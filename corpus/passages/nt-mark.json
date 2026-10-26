@@ -12,6 +12,19 @@
   },
   "passages": [
     {
+      "id": "NT-MARK-2",
+      "locator": "2",
+      "claim_locator_prefixes": [
+        "2."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "2"
+        }
+      ]
+    },
+    {
       "id": "NT-MARK-14",
       "locator": "14",
       "claim_locator_prefixes": [
