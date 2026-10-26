@@ -1,0 +1,11 @@
+{
+  "id": "INF-BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "input_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+  ],
+  "output_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "rule": "biconditional-elimination",
+  "meaning": "By the III.1 definition, what is moved in respect r is in potency to r and that potency is being actualized; in particular it is in potency to r.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

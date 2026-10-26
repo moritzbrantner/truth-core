@@ -1,0 +1,14 @@
+{
+  "id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "premise_statement_ids": [
+    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+  ],
+  "conclusion_statement_id": "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-AS-CAUSED-IN-RELEVANT-RESPECT",
+  "inference_ids": [
+    "INF-BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT"
+  ],
+  "meaning": "Bridge (#401): the secunda via's strong per se premise (STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED: a cause that is itself caused in some respect causes only as caused) entails its relevant-respect reading (STMT-SECOND-EFFICIENT-CAUSES-CAUSE-AS-CAUSED-IN-RELEVANT-RESPECT: a cause that is caused in a respect relevant to its causing causes as caused). The relevant-respect reading only adds an antecedent. This is the secunda-via counterpart of the prima via's StrongPremisesEntailWeakPremises.",
+  "definition_ids": [
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ]
+}

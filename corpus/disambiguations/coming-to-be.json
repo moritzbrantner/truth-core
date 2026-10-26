@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-COMING-TO-BE",
+  "term": "coming to be, and its cause (Timaeus 28a and SCG I.13)",
+  "sense_definition_ids": [
+    "DEF-CAUSE-OF-ORIGIN",
+    "DEF-PLATONIC-GENERATION-CAUSE"
+  ],
+  "resolution": "The Timaeus readings (STMT-CAUSE-PRINCIPLE-BROAD, STMT-CAUSE-PRINCIPLE-DISTINCT) take `ComesToBe` and `Causes` as schematic parameters with no built-in temporal beginning (DEF-PLATONIC-GENERATION-CAUSE). The SCG I.13 reading STMT-WHAT-COMES-TO-BE-ANEW-HAS-INNOVATING-CAUSE fixes coming to be as coming to be anew (`ComesToBeAnew`: after not being, or beginning with time) and its cause as the innovating cause of origin (DEF-CAUSE-OF-ORIGIN). BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE uses STMT-CAUSE-PRINCIPLE-DISTINCT only at that one instance. It does not say that Plato's coming to be is temporal beginning, and no argument passes from the SCG instance back to the cosmos of Timaeus 28b-c: whether the cosmos comes to be anew is a separate question (STMT-COSMOS-GENERATED is stated with the schematic `ComesToBe`)."
+}

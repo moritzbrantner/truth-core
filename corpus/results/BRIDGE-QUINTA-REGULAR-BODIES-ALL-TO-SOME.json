@@ -1,0 +1,9 @@
+{
+  "id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "argument_id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "challenge_module": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.Solution",
+  "theorem": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.someNaturalBodiesActRegularlyForTheBestOfAll",
+  "comparator_config": "results/BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME/comparator.json",
+  "status": "solution-present"
+}
