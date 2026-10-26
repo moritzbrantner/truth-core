@@ -79,6 +79,17 @@ If the candidate still has unprocessed text, update the same candidate file so i
 
 If the candidate is complete, delete the candidate file. The next queued source range then becomes active automatically.
 
+## Parallel lanes
+
+Workers may run in parallel, one per lane (#416). `AGENTS.md`, "Lanes and shared files", lists the lanes and the directories and records each owns: lane A the Fourth Way and the attributes (Latin, stages 1–2), lane B stage 3 (history, New Testament and Church sources), lane C everything else and all tooling.
+
+The repository avoids files that every PR must edit:
+
+- **Lean imports.** Each area of `TruthCore/` has a generated aggregator `TruthCore/Imports/<Area>.lean`. An area is a top-level directory (`TruthCore/Latin/`), or `TruthCore/Results/<Area>/`, or a finer prefix listed in `AREAS` in `scripts/root_imports.py` where two lanes would otherwise share one aggregator. `TruthCore.lean` imports only the aggregators. After adding or removing a module, run `scripts/root-imports.sh --write`; CI runs it in check mode.
+- **Shared docs tables and lists.** An append-only table or list in a shared doc is rendered from one Markdown file per entry by `scripts/docs_index.py`, between `<!-- BEGIN GENERATED: … -->` and `<!-- END GENERATED -->` markers that name the entry directory and columns. Owner decisions live in `docs/decisions/`; campaign tables (for example the alternatives campaign's premise rows or the bridge candidates) follow the same pattern with their own entry directory. To add a row, add a file and run `python3 scripts/docs_index.py --write`. The prose around a generated section stays hand-written; the section itself is never hand-edited, and CI rejects a stale one.
+
+Before every push, merge `origin/main`, rerun both generators, and rerun the checks. A conflict in generated output is resolved by taking either side and regenerating. A row or list item that a branch from before #416 added by hand must first move into an entry file, because the generator keeps only entries. Edits outside the lane are minimal and listed in the PR description.
+
 ## Completion and coverage
 
 A source range is complete when the worker has read it in full and either:
