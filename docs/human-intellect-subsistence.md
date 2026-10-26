@@ -106,3 +106,7 @@ range: defend the attribution and operation/existence principles, and supply
 a pinned affirmative rival with comparable semantics. Q.75 a.6 is a separate
 future argument, not an automatic consequence of these records. Issue #419
 remains open.
+
+The affirmative-source search and the next interference obligation are updated
+in [the rival assessment](human-intellect-rival-assessment.md). The new witness
+partly fills the source gap; it does not discharge any of these six premises.
