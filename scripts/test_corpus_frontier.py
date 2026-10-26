@@ -205,21 +205,103 @@ class FrontierReportTest(unittest.TestCase):
         self.assertIn("alternatives: no alternatives recorded", corpus.format_frontier(report))
 
     def test_alternatives_must_all_be_refuted_by_verified_arguments(self) -> None:
+        arguments = [*ARGUMENTS, argument("ARG-FREE-1", [], "NOT-ALT-1"), argument("ARG-FREE-2", [], "NOT-ALT-2")]
+        results = [*RESULTS, {"id": "ARG-FREE-1", "argument_id": "ARG-FREE-1"}]
         relations = [
             relation("statement", "ALT-1", "alternative_to", "OPEN-A"),
             relation("statement", "ALT-2", "alternative_to", "OPEN-A"),
-            relation("argument", "ARG-MID", "refutes", "ALT-1"),
+            relation("argument", "ARG-FREE-1", "refutes", "ALT-1"),
         ]
-        items = {item["statement_id"]: item for item in self.report(relations)["items"]}
+
+        def report(relations, results=results):
+            return corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+
+        items = {item["statement_id"]: item for item in report(relations)["items"]}
         self.assertEqual(
             items["OPEN-A"]["alternatives"],
             [{"statement_id": "ALT-1", "refuted": True}, {"statement_id": "ALT-2", "refuted": False}],
         )
         # An unverified argument does not refute.
-        relations.append(relation("argument", "ARG-SIDE", "refutes", "ALT-2"))
-        self.assertIn("OPEN-A", self.ids(self.report(relations)))
-        relations.append(relation("argument", "ARG-ROOT", "refutes", "ALT-2"))
-        self.assertNotIn("OPEN-A", self.ids(self.report(relations)))
+        relations.append(relation("argument", "ARG-FREE-2", "refutes", "ALT-2"))
+        self.assertIn("OPEN-A", self.ids(report(relations)))
+        results = [*results, {"id": "ARG-FREE-2", "argument_id": "ARG-FREE-2"}]
+        self.assertNotIn("OPEN-A", self.ids(report(relations, results)))
+        self.assertEqual(report(relations, results)["closed_statements"]["OPEN-A"], "alternatives_refuted")
+
+    def test_refutation_counts_only_from_closed_premises(self) -> None:
+        # #391: ARG-MID is verified but rests on the open OPEN-A, so its
+        # refutation of OPEN-B's only alternative does not defend OPEN-B.
+        relations = [
+            relation("statement", "ALT", "alternative_to", "OPEN-B"),
+            relation("argument", "ARG-MID", "refutes", "ALT"),
+        ]
+        report = self.report(relations)
+        self.assertIn("OPEN-B", self.ids(report))
+        self.assertEqual(
+            report["refutations"],
+            [
+                {
+                    "relation_id": "REL-ARG-MID-refutes-ALT",
+                    "argument_id": "ARG-MID",
+                    "statement_id": "ALT",
+                    "verified": True,
+                    "open_premise_statement_ids": ["OPEN-A"],
+                    "counted": False,
+                }
+            ],
+        )
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("refutations not counted for rule (c): 1", corpus.format_frontier(report))
+        # Fixpoint: once OPEN-A is defended, ARG-MID's refutation counts too.
+        relations += [
+            relation("statement", "ALT-A", "alternative_to", "OPEN-A"),
+            relation("argument", "ARG-FREE", "refutes", "ALT-A"),
+        ]
+        arguments = [*ARGUMENTS, argument("ARG-FREE", [], "NOT-ALT-A")]
+        results = [*RESULTS, {"id": "ARG-FREE", "argument_id": "ARG-FREE"}]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertEqual(report["refuted_statements"], ["ALT", "ALT-A"])
+        self.assertNotIn("OPEN-A", self.ids(report))
+        self.assertNotIn("OPEN-B", self.ids(report))
+        self.assertTrue(all(refutation["counted"] for refutation in report["refutations"]))
+
+    def test_declared_transcription_is_not_proved(self) -> None:
+        # #391: an opaque-atom result declared in its record closes nothing by
+        # itself, like a single application; rule (d) still applies.
+        results = [{"id": "ARG-MID", "argument_id": "ARG-MID", "transcription": "opaque_atoms"}, RESULTS[1]]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, results, [], root="ROOT")
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertTrue(items["MID"]["transcription_only"])
+        self.assertNotIn("MID", report["closed_statements"])
+        self.assertEqual(report["transcription_results"], {"ARG-MID": {"kind": "opaque_atoms", "declared": True}})
+        statements = [
+            {**record, "self_evident": {"justification_ids": ["CLAIM-A"]}} if record["id"] == "OPEN-A" else record
+            for record in STATEMENTS
+        ]
+        report = corpus.frontier_report(statements, ARGUMENTS, results, [], root="ROOT")
+        self.assertEqual(report["closed_statements"]["MID"], "via_transcription")
+
+    def test_assembly_flag_is_a_transcription(self) -> None:
+        # #391: pure conjunction assembly counts like a single application.
+        flag = {
+            "result_id": "ARG-MID",
+            "argument_id": "ARG-MID",
+            "proof_steps": 1,
+            "single_application_of": None,
+            "assembly_of": ["hA", "hSelf"],
+            "opaque_atoms": False,
+            "goal_consequent_premises": [],
+        }
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        self.assertIn("MID", self.ids(report))
+        self.assertEqual(report["transcription_results"], {"ARG-MID": {"kind": "assembly", "declared": False}})
+        self.assertIn("assembly of hA, hSelf", corpus.format_frontier(report))
+        # The opaque-atom heuristic alone only warns.
+        flag["assembly_of"] = None
+        flag["opaque_atoms"] = True
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", transcription=[flag])
+        self.assertNotIn("MID", self.ids(report))
+        self.assertEqual(report["transcription_results"], {})
 
     def test_lists_attacking_objections(self) -> None:
         relations = [relation("argument", "ARG-OBJECTION", "attacks", "OPEN-B")]
@@ -265,7 +347,93 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(shuffled, self.report())
 
 
+class RouteCostTest(unittest.TestCase):
+    """`frontier --routes` (#391, owner decision 2026-10-26): each statement
+    costs min(1 as an open leaf, cost via any verified non-transcription
+    proof); a route costs the sum over its distinct premises."""
+
+    STATEMENTS = [
+        statement("ROOT"),
+        statement("A"),
+        statement("B"),
+        statement("C"),
+        statement("P1"),
+        statement("P2"),
+        statement("SE", self_evident={"justification_ids": ["CLAIM-SE"]}),
+    ]
+
+    def routes(self, arguments, results, relations=(), transcription=None):
+        report = corpus.frontier_report(
+            self.STATEMENTS, arguments, results, list(relations), root="ROOT", transcription=transcription
+        )
+        return report["routes"]
+
+    def by_id(self, routes):
+        return {entry["argument_id"]: entry for entry in routes["routes"]}
+
+    def test_costs_and_cheapest_route(self) -> None:
+        arguments = [
+            argument("R1", ["A", "B", "SE"], "ROOT"),
+            argument("R2", ["C"], "ROOT"),
+            argument("R3", ["P1"], "ROOT"),
+        ]
+        results = [{"id": "R1", "argument_id": "R1"}, {"id": "R2", "argument_id": "R2"}]
+        routes = self.routes(arguments, results, [relation("argument", "R1", "root_route", "ROOT")])
+        entries = self.by_id(routes)
+        self.assertEqual(entries["R1"]["cost"], 2)
+        self.assertEqual(entries["R1"]["open_premise_statement_ids"], ["A", "B"])
+        self.assertTrue(entries["R1"]["designated"])
+        self.assertEqual(entries["R2"]["cost"], 1)
+        self.assertTrue(entries["R2"]["cheapest"])
+        self.assertFalse(entries["R3"]["verified"])
+        self.assertFalse(entries["R3"]["cheapest"])
+        self.assertEqual(routes["cheapest_argument_id"], "R2")
+        self.assertEqual([entry["argument_id"] for entry in routes["routes"]], ["R2", "R1", "R3"])
+        text = corpus.format_routes(routes)
+        self.assertIn("cheapest R2", text)
+        self.assertIn("   2         3  R1  [designated]", text)
+        self.assertIn("   1         1  R2  [cheapest]", text)
+
+    def test_added_derivation_never_raises_a_route_cost(self) -> None:
+        arguments = [argument("R1", ["A", "B"], "ROOT")]
+        results = [{"id": "R1", "argument_id": "R1"}]
+        base = self.by_id(self.routes(arguments, results))["R1"]["cost"]
+        self.assertEqual(base, 2)
+        # A verified derivation of A from two open premises: A still costs 1.
+        widened = [*arguments, argument("DA", ["P1", "P2"], "A")]
+        entry = self.by_id(self.routes(widened, [*results, {"id": "DA", "argument_id": "DA"}]))["R1"]
+        self.assertEqual(entry["cost"], 2)
+        self.assertEqual(entry["proved_unestablished_statement_ids"], ["A"])
+        # A derivation of B from the self-evident SE lowers the cost.
+        grounded = [*arguments, argument("DB", ["SE"], "B")]
+        entry = self.by_id(self.routes(grounded, [*results, {"id": "DB", "argument_id": "DB"}]))["R1"]
+        self.assertEqual(entry["cost"], 1)
+
+    def test_transcriptions_and_cycles_lower_no_cost(self) -> None:
+        arguments = [
+            argument("R1", ["A"], "ROOT"),
+            argument("TA", ["P1"], "A"),
+            argument("CA", ["B"], "A"),
+            argument("CB", ["A"], "B"),
+        ]
+        results = [{"id": rid, "argument_id": rid} for rid in ("R1", "CA", "CB")]
+        results.append({"id": "TA", "argument_id": "TA", "transcription": "opaque_atoms"})
+        self.assertEqual(self.by_id(self.routes(arguments, results))["R1"]["cost"], 1)
+        # A transcription from closed premises carries cost 0 (rule (d)).
+        arguments[1] = argument("TA", ["SE"], "A")
+        self.assertEqual(self.by_id(self.routes(arguments, results))["R1"]["cost"], 0)
+
+
 class FrontierSchemaTest(unittest.TestCase):
+    def test_transcription_field_is_validated(self) -> None:
+        corpus.validate_result_transcription("r.json", {"transcription": "opaque_atoms"})
+        corpus.validate_result_transcription("r.json", {"description": "Derived, not a transcription."})
+        with self.assertRaises(corpus.CorpusError):
+            corpus.validate_result_transcription("r.json", {"transcription": "maybe"})
+        for description in ("Opaque-atom transcription (invariant 16): …", "Transcription: …", "Near-transcription"):
+            with self.assertRaises(corpus.CorpusError):
+                corpus.validate_result_transcription("r.json", {"description": description})
+
     def test_self_evident_requires_a_known_justification(self) -> None:
         path = corpus.ROOT / "corpus" / "statements" / "example.json"
         corpus.validate_self_evident(path, statement("X"), set(), set())
@@ -312,6 +480,45 @@ class TranscriptionHeuristicTest(unittest.TestCase):
         )
         for result_id in ("CATHOLICISM-SKELETON", "CATHOLICISM-STAGE1-FROM-PRIMA-VIA", "AQUINAS-ST-I-Q2-A3-PRIMA-VIA"):
             self.assertNotIn(result_id, flags)
+
+
+class AssemblyAndOpaqueHeuristicTest(unittest.TestCase):
+    def test_assembly_of_hypotheses(self) -> None:
+        names = {"s", "hClaims", "hRose", "hA"}
+        self.assertEqual(corpus.assembly_of(["⟨hClaims, hRose⟩"], names), ["hClaims", "hRose"])
+        self.assertEqual(corpus.assembly_of(["exact ⟨hClaims, ⟨hRose, hA.1⟩⟩"], names), ["hClaims", "hRose", "hA"])
+        self.assertEqual(corpus.assembly_of(["And.intro hClaims hRose"], names), ["hClaims", "hRose"])
+        self.assertEqual(
+            corpus.assembly_of(["constructor", "· exact hClaims", "· exact hRose"], names), ["hClaims", "hRose"]
+        )
+        self.assertEqual(
+            corpus.assembly_of(["obtain ⟨hX, hY⟩ := hA", "exact ⟨hY, hX⟩"], names), ["hY", "hX"]
+        )
+        for steps in (
+            ["⟨hClaims, f hRose⟩"],
+            ["⟨hClaims, other⟩"],
+            ["exact hClaims"],
+            ["⟨hClaims⟩"],
+            ["constructor", "· exact hClaims", "· simp"],
+            ["obtain ⟨hX, hY⟩ := lemma hA", "exact ⟨hY, hX⟩"],
+        ):
+            self.assertIsNone(corpus.assembly_of(steps, names), steps)
+
+    def test_opaque_atoms(self) -> None:
+        definitions = {
+            "Bridge": (["a", "b", "c"], "a ∧ b → ¬ c"),
+            "Goal": (["c"], "¬ c"),
+            "Typed": (["x"], "Moves x ∧ Being x"),
+        }
+        groups, rest = corpus.binder_groups("(A B C : Prop) (hScope : A ∧ B) (hBridge : Bridge A B C) : Goal C")
+        self.assertTrue(corpus.opaque_atoms(groups, rest[1:].strip(), definitions))
+        groups, rest = corpus.binder_groups("(A : Prop) (x : Thing) (h : Typed x) : A")
+        self.assertFalse(corpus.opaque_atoms(groups, rest[1:].strip(), definitions))
+        groups, rest = corpus.binder_groups("(A : Prop) (h : A) : Typed y")
+        self.assertFalse(corpus.opaque_atoms(groups, rest[1:].strip(), definitions))
+        # No hypotheses: a theorem of logic over a Prop parameter is not flagged.
+        groups, rest = corpus.binder_groups("(p : Prop) : ¬¬(p ∨ ¬p)")
+        self.assertFalse(corpus.opaque_atoms(groups, rest[1:].strip(), definitions))
 
 
 class FrontierCorpusTest(unittest.TestCase):
@@ -397,6 +604,36 @@ class FrontierCorpusTest(unittest.TestCase):
                 checked += 1
                 self.assertNotIn(arguments[argument_id]["conclusion_statement_id"], closed)
         self.assertGreater(checked, 10)
+
+    def test_opaque_atom_results_are_declared_and_not_proved(self) -> None:
+        # #391: audit B (#388) found opaque-atom transcriptions counted as
+        # proved; each now declares its kind and none closes by rule (a).
+        report = json.loads(self.run_frontier("--json"))
+        results = {record["id"]: record for _, record in corpus.load_dir("results")}
+        arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        opaque = [flag["result_id"] for flag in report["transcription_flags"] if flag.get("opaque_atoms")]
+        self.assertGreater(len(opaque), 50)
+        for result_id in opaque:
+            self.assertEqual(results[result_id].get("transcription"), "opaque_atoms", result_id)
+        conclusion = arguments[results["ARIST-PHYS-245A-245B-NO-INTERMEDIATE-THREE-MOTIONS"]["argument_id"]][
+            "conclusion_statement_id"
+        ]
+        self.assertNotEqual(report["closed_statements"].get(conclusion), "proved")
+        self.assertEqual(
+            report["transcription_results"]["HIDDENNESS-GAP-HAS-REASON"], {"kind": "instantiation", "declared": True}
+        )
+
+    def test_routes_cover_every_root_argument(self) -> None:
+        routes = json.loads(self.run_frontier("--routes", "--json"))
+        arguments = [record for _, record in corpus.load_dir("arguments")]
+        self.assertEqual(
+            sorted(entry["argument_id"] for entry in routes["routes"]),
+            sorted(record["id"] for record in arguments if record["conclusion_statement_id"] == corpus.DEFAULT_FRONTIER_ROOT),
+        )
+        cheapest = [entry for entry in routes["routes"] if entry["cheapest"]]
+        self.assertEqual([entry["argument_id"] for entry in cheapest], [routes["cheapest_argument_id"]])
+        self.assertEqual(cheapest[0]["cost"], min(entry["cost"] for entry in routes["routes"] if entry["verified"]))
+        self.assertIn("routes to STMT-CATHOLICISM-TRUE", self.run_frontier("--routes"))
 
     def test_text_output_is_stable(self) -> None:
         self.assertEqual(self.run_frontier(), self.run_frontier())

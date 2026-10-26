@@ -177,7 +177,7 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises (use `corpus.py frontier --routes` once available, else `--reaching-root`), including "no change".
+Each PR also reports its intended and actual change in root-path open premises (`corpus.py frontier --routes` for the per-route cost, `--reaching-root` for the premises), including "no change".
 
 ## Review guidelines
 

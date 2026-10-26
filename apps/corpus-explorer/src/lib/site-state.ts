@@ -34,7 +34,39 @@ export type TranscriptionFlag = {
   argument_id: string;
   proof_steps: number;
   single_application_of: string | null;
+  /** Hypotheses the proof only assembles into a tuple or conjunction (#391). */
+  assembly_of?: string[] | null;
+  /** Opaque-atom heuristic (#391): a warning only, never a closure rule. */
+  opaque_atoms?: boolean;
   goal_consequent_premises: Array<{ hypothesis: string; statement_ids: string[] }>;
+};
+
+export type TranscriptionKind = "opaque_atoms" | "single_application" | "assembly" | "instantiation";
+
+/** A transcription result (invariant 16): declared in its record, or found by the heuristics. */
+export type TranscriptionResult = { kind: TranscriptionKind; declared: boolean };
+
+export type Refutation = {
+  relation_id: string;
+  argument_id: string;
+  statement_id: string;
+  verified: boolean;
+  open_premise_statement_ids: string[];
+  /** Counts for rule (c) only when verified and every premise is closed (#391). */
+  counted: boolean;
+};
+
+export type RootRoute = {
+  argument_id: string;
+  /** Number of distinct premises not established (each costs min(1, cost via a proof)). */
+  cost: number;
+  premise_count: number;
+  verified: boolean;
+  transcription: boolean;
+  designated: boolean;
+  cheapest: boolean;
+  open_premise_statement_ids: string[];
+  proved_unestablished_statement_ids: string[];
 };
 
 export type ClosureReason = "proved" | "self_evident" | "alternatives_refuted" | "via_transcription";
@@ -43,6 +75,12 @@ export type FrontierReport = {
   root: string;
   root_known: boolean;
   transcription_flags: TranscriptionFlag[];
+  /** Every result that closes nothing by itself (rule (a) skips it), by ID. */
+  transcription_results: Record<string, TranscriptionResult>;
+  refutations: Refutation[];
+  /** Alternatives refuted by a counted refutation. */
+  refuted_statements: string[];
+  routes: { root: string | null; cheapest_argument_id: string | null; routes: RootRoute[] };
   closed_via_transcription: Array<{
     statement_id: string;
     result_id: string;
@@ -131,17 +169,31 @@ export function statementState(report: FrontierReport, statementId: string): Sta
 }
 
 /**
- * A result is a transcription when its proof is a single application of one
- * hypothesis (invariant 16); that is the flag `corpus.py frontier` uses for
- * closure. The other flags (goal as a premise consequent, a short proof) are
+ * A result is a transcription (invariant 16) when `corpus.py frontier` lists it
+ * in `transcription_results`: its record declares a `transcription` kind, or
+ * its proof is a single application of one hypothesis or only assembles
+ * hypotheses (#391). That set is what closure uses. The other flags (goal as a
+ * premise consequent, a short proof, opaque atoms without a declaration) are
  * heuristic warnings only.
  */
-export type ResultKind = { kind: "derivation" | "transcription"; flag?: TranscriptionFlag };
+export type ResultKind = {
+  kind: "derivation" | "transcription";
+  flag?: TranscriptionFlag;
+  transcription?: TranscriptionResult;
+};
 
 export function resultKind(report: FrontierReport, resultId: string): ResultKind {
   const flag = report.transcription_flags.find((entry) => entry.result_id === resultId);
-  return { kind: flag?.single_application_of ? "transcription" : "derivation", flag };
+  const transcription = report.transcription_results[resultId];
+  return { kind: transcription ? "transcription" : "derivation", flag, transcription };
 }
+
+export const TRANSCRIPTION_KIND_DESCRIPTIONS: Record<TranscriptionKind, string> = {
+  opaque_atoms: "Every proposition the theorem relates is an unconstrained Prop parameter.",
+  single_application: "The proof applies one premise whose consequent is the conclusion.",
+  assembly: "The proof only pairs or destructures its hypotheses.",
+  instantiation: "The proof only instantiates a general premise or lemma at the case.",
+};
 
 export const CLOSURE_LABELS: Record<ClosureReason, string> = {
   proved: "Proved",
@@ -153,7 +205,7 @@ export const CLOSURE_LABELS: Record<ClosureReason, string> = {
 export const CLOSURE_DESCRIPTIONS: Record<ClosureReason, string> = {
   proved: "Conclusion of a verified result that is not a transcription.",
   self_evident: "Marked self-evident, with a sourced justification.",
-  alternatives_refuted: "Every recorded alternative is refuted by a verified argument.",
+  alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
   via_transcription: "Conclusion of a transcription result whose premises are all closed.",
 };
 
@@ -165,13 +217,15 @@ export type Rival = {
   refutedBy: string[];
 };
 
-/** Recorded alternatives (with refuting arguments that have a result) and objections. */
-export function rivals(corpus: Corpus) {
-  const verified = new Set(corpus.results.map((result) => result.argument_id));
+/**
+ * Recorded alternatives (with the refutations that count: a verified argument
+ * whose premises are all closed, #391) and objections.
+ */
+export function rivals(corpus: Corpus, report: FrontierReport) {
   const refuters = new Map<string, string[]>();
-  for (const relation of corpus.relations) {
-    if (relation.predicate === "refutes" && verified.has(relation.subject_id)) {
-      refuters.set(relation.object_id, [...(refuters.get(relation.object_id) ?? []), relation.subject_id]);
+  for (const refutation of report.refutations) {
+    if (refutation.counted) {
+      refuters.set(refutation.statement_id, [...(refuters.get(refutation.statement_id) ?? []), refutation.argument_id]);
     }
   }
   const of = (predicate: string): Rival[] =>

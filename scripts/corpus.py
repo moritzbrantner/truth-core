@@ -242,6 +242,154 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
         )
 
 
+# Transcription kinds (#391). A result record may declare that it is a
+# transcription (AGENTS.md invariant 16) in the structured `transcription`
+# field; prose in `description` is commentary, not the flag.
+TRANSCRIPTION_OPAQUE_ATOMS = "opaque_atoms"
+TRANSCRIPTION_SINGLE_APPLICATION = "single_application"
+TRANSCRIPTION_ASSEMBLY = "assembly"
+TRANSCRIPTION_INSTANTIATION = "instantiation"
+TRANSCRIPTION_KINDS = {
+    TRANSCRIPTION_OPAQUE_ATOMS: "every proposition the theorem relates is an unconstrained `Prop` parameter",
+    TRANSCRIPTION_SINGLE_APPLICATION: "the proof applies one premise whose consequent is the conclusion",
+    TRANSCRIPTION_ASSEMBLY: "the proof only pairs or destructures hypotheses (conjunction or tuple assembly)",
+    TRANSCRIPTION_INSTANTIATION: "the proof only instantiates a general premise or lemma at the case",
+}
+# A description that opens with one of these labels must carry the field.
+TRANSCRIPTION_LABEL_RE = re.compile(r"^(?:Opaque-atom |Near-|Logical )?[Tt]ranscription\b")
+
+
+def validate_result_transcription(label: Any, result: dict[str, Any]) -> None:
+    """The structured `transcription` field (#391): one of TRANSCRIPTION_KINDS,
+    and required when the description opens with a transcription label."""
+    declared = result.get("transcription")
+    if declared is not None and declared not in TRANSCRIPTION_KINDS:
+        raise CorpusError(
+            f"{label}: transcription must be one of {', '.join(sorted(TRANSCRIPTION_KINDS))}"
+        )
+    if declared is None and TRANSCRIPTION_LABEL_RE.match(result.get("description", "")):
+        raise CorpusError(
+            f"{label}: description labels the result a transcription; "
+            "declare it in the structured transcription field (#391)"
+        )
+
+
+def root_routes(
+    root: str | None,
+    statement_by_id: dict[str, dict[str, Any]],
+    argument_by_id: dict[str, dict[str, Any]],
+    results: list[dict[str, Any]],
+    transcription_results: set[str],
+    closed: set[str],
+    base: Any,
+    designated: set[str],
+) -> dict[str, Any]:
+    """Official per-route open-premise count (#391, owner decision 2026-10-26).
+
+    Each statement costs 0 when it is self-evident or defended, and otherwise
+    min(1 as an open leaf, its cost via any verified proof), where a proof
+    costs the sum of its distinct premises' costs. A non-transcription result
+    is a proof at that cost; a transcription result counts only at cost 0
+    (rule (d): it closes its conclusion only from closed premises). Costs are
+    a greatest-to-least fixpoint from the leaf costs, so a cycle of
+    derivations never lowers a cost by itself. Because every statement costs
+    0 or 1, a statement costs 0 exactly when it is established, and adding a
+    derivation can only lower a cost: a route never looks worse for it.
+
+    A route is an argument concluding the root; its cost is the sum of its
+    distinct premises' costs. The cheapest verified route is marked."""
+    if root is None:
+        return {"root": root, "cheapest_argument_id": None, "routes": []}
+    results_by_argument: dict[str, list[str]] = {}
+    for result in results:
+        results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
+    statement_ids = set(statement_by_id)
+    for argument in argument_by_id.values():
+        statement_ids.update(argument["premise_statement_ids"])
+        statement_ids.add(argument["conclusion_statement_id"])
+    cost = {statement_id: 0 if base(statement_id) else 1 for statement_id in statement_ids}
+    steps = sorted(
+        (
+            argument_id,
+            argument_by_id[argument_id],
+            any(result_id not in transcription_results for result_id in result_ids),
+        )
+        for argument_id, result_ids in results_by_argument.items()
+        if argument_id in argument_by_id
+    )
+    changed = True
+    while changed:
+        changed = False
+        for _, argument, derivation in steps:
+            total = sum(cost[premise] for premise in set(argument["premise_statement_ids"]))
+            if not derivation and total:
+                continue
+            conclusion = argument["conclusion_statement_id"]
+            if min(1, total) < cost[conclusion]:
+                cost[conclusion] = min(1, total)
+                changed = True
+
+    entries: list[dict[str, Any]] = []
+    for argument_id in sorted(argument_by_id):
+        argument = argument_by_id[argument_id]
+        if argument["conclusion_statement_id"] != root:
+            continue
+        premises = sorted(set(argument["premise_statement_ids"]))
+        open_premises = [premise for premise in premises if cost[premise]]
+        result_ids = results_by_argument.get(argument_id, [])
+        entries.append(
+            {
+                "argument_id": argument_id,
+                "cost": len(open_premises),
+                "premise_count": len(premises),
+                "verified": bool(result_ids),
+                "transcription": bool(result_ids)
+                and all(result_id in transcription_results for result_id in result_ids),
+                "designated": argument_id in designated,
+                "cheapest": False,
+                "open_premise_statement_ids": open_premises,
+                "proved_unestablished_statement_ids": [
+                    premise for premise in open_premises if premise in closed
+                ],
+            }
+        )
+    verified = [entry for entry in entries if entry["verified"]]
+    cheapest = min(verified, key=lambda entry: (entry["cost"], entry["argument_id"])) if verified else None
+    if cheapest is not None:
+        cheapest["cheapest"] = True
+    entries.sort(key=lambda entry: (not entry["verified"], entry["cost"], entry["argument_id"]))
+    return {
+        "root": root,
+        "cheapest_argument_id": cheapest["argument_id"] if cheapest else None,
+        "routes": entries,
+    }
+
+
+def transcription_kinds(
+    results: list[dict[str, Any]],
+    transcription: list[dict[str, Any]] | None,
+) -> dict[str, dict[str, Any]]:
+    """Results that are transcriptions (invariant 16), with their kind.
+
+    A result is a transcription when its record declares one in the structured
+    `transcription` field (#391), or when the Lean text heuristics find that
+    its proof is a single application of one hypothesis or only assembles
+    hypotheses into a tuple (`⟨hClaims, hRose⟩`, #391). A declared kind wins
+    over a heuristic one. The opaque-atom heuristic only warns: it never makes
+    a result a transcription by itself."""
+    kinds: dict[str, dict[str, Any]] = {}
+    for flag in transcription or []:
+        if flag.get("single_application_of"):
+            kinds[flag["result_id"]] = {"kind": TRANSCRIPTION_SINGLE_APPLICATION, "declared": False}
+        elif flag.get("assembly_of"):
+            kinds[flag["result_id"]] = {"kind": TRANSCRIPTION_ASSEMBLY, "declared": False}
+    for result in results:
+        declared = result.get("transcription")
+        if declared:
+            kinds[result["id"]] = {"kind": declared, "declared": True}
+    return dict(sorted(kinds.items()))
+
+
 def frontier_report(
     statements: list[dict[str, Any]],
     arguments: list[dict[str, Any]],
@@ -256,7 +404,10 @@ def frontier_report(
     transcription (invariant 16), (b) marked self_evident, (c) refuted in every
     one of its recorded alternatives (at least one alternative recorded), or
     (d) the conclusion of a transcription result all of whose argument premises
-    are closed (#143, 2026-10-24). Rule (d) is applied to a fixpoint.
+    are closed (#143, 2026-10-24). A `refutes` relation counts for (c) only
+    when its argument has a verified result and all of that argument's
+    premises are closed (#391). Rules (c) and (d) are applied jointly to a
+    fixpoint.
 
     Each open premise also gets a depth (#143, 2026-10-24): "bare" when no
     claim states it and no `supports` relation points to it, otherwise
@@ -265,11 +416,10 @@ def frontier_report(
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
     # Invariant 16: a transcription closes no frontier node. A conclusion is
-    # closed only by a verified result that is not a single application of one
-    # hypothesis (the rule /graph uses for its "transcription" status).
-    transcription_results = {
-        flag["result_id"] for flag in (transcription or []) if flag["single_application_of"]
-    }
+    # closed by rule (a) only by a verified result that is not a transcription:
+    # neither declared one in its record nor found by the Lean heuristics.
+    kinds = transcription_kinds(results, transcription)
+    transcription_results = set(kinds)
     verified_conclusions = {
         argument_by_id[result["argument_id"]]["conclusion_statement_id"]
         for result in results
@@ -287,7 +437,7 @@ def frontier_report(
             dependents.setdefault(premise, set()).add(argument["id"])
 
     alternatives: dict[str, set[str]] = {}
-    refuted: set[str] = set()
+    refutations: list[dict[str, Any]] = []
     objections: dict[str, set[str]] = {}
     support: dict[str, set[str]] = {}
     routes: dict[str, set[str]] = {}
@@ -295,8 +445,8 @@ def frontier_report(
         predicate = relation.get("predicate")
         if predicate == ALTERNATIVE_PREDICATE:
             alternatives.setdefault(relation["object_id"], set()).add(relation["subject_id"])
-        elif predicate == REFUTES_PREDICATE and relation["subject_id"] in verified_arguments:
-            refuted.add(relation["object_id"])
+        elif predicate == REFUTES_PREDICATE:
+            refutations.append(relation)
         elif predicate == ATTACKS_PREDICATE:
             objections.setdefault(relation["object_id"], set()).add(
                 f"{relation['subject_kind']}:{relation['subject_id']}"
@@ -305,6 +455,7 @@ def frontier_report(
             support.setdefault(relation["object_id"], set()).add(relation["subject_id"])
         elif predicate == ROOT_ROUTE_PREDICATE:
             routes.setdefault(relation["object_id"], set()).add(relation["subject_id"])
+    refutations.sort(key=lambda relation: relation["id"])
 
     def upward(statement_id: str) -> tuple[list[str], list[str], list[str] | None]:
         """Breadth-first walk from a premise through the arguments that use it.
@@ -346,21 +497,32 @@ def frontier_report(
                 path[:0] = [node, argument_id]
         return seen_arguments, seen_statements, path
 
-    def defended(statement_id: str) -> bool:
-        recorded = alternatives.get(statement_id, ())
-        return bool(recorded) and all(alternative in refuted for alternative in recorded)
-
     closed = {
         statement_id
         for statement_id in statement_by_id.keys() | dependents.keys() | verified_conclusions
         if statement_id in verified_conclusions
         or statement_by_id.get(statement_id, {}).get("self_evident") is not None
-        or defended(statement_id)
     }
-    # Rule (d): a transcription still closes nothing by itself, but it carries
-    # closure from its premises to its conclusion. Iterate to a fixpoint; each
-    # pass visits the transcription results in ID order, so the recorded result
-    # for a conclusion is deterministic.
+    refuted: set[str] = set()
+
+    def refutation_counts(relation: dict[str, Any]) -> bool:
+        argument = argument_by_id.get(relation["subject_id"])
+        return (
+            argument is not None
+            and relation["subject_id"] in verified_arguments
+            and all(premise in closed for premise in argument["premise_statement_ids"])
+        )
+
+    def defended(statement_id: str) -> bool:
+        recorded = alternatives.get(statement_id, ())
+        return bool(recorded) and all(alternative in refuted for alternative in recorded)
+
+    # Rules (c) and (d), jointly to a fixpoint. A refutation counts only from a
+    # premise-free argument or one whose premises are all closed (#391), and a
+    # transcription carries closure from its premises to its conclusion
+    # (#143, 2026-10-24). Each pass visits refutations by relation ID and
+    # transcription results by result ID, so the recorded result for a
+    # conclusion is deterministic.
     transcription_steps = sorted(
         (result["id"], argument_by_id[result["argument_id"]])
         for result in results
@@ -370,6 +532,14 @@ def frontier_report(
     changed = True
     while changed:
         changed = False
+        for relation in refutations:
+            if relation["object_id"] not in refuted and refutation_counts(relation):
+                refuted.add(relation["object_id"])
+                changed = True
+        for statement_id in alternatives:
+            if statement_id not in closed and defended(statement_id):
+                closed.add(statement_id)
+                changed = True
         for result_id, argument in transcription_steps:
             conclusion = argument["conclusion_statement_id"]
             if conclusion in closed:
@@ -384,6 +554,21 @@ def frontier_report(
                     "premise_statement_ids": sorted(set(premises)),
                 }
                 changed = True
+
+    refutation_report = []
+    for relation in refutations:
+        argument = argument_by_id.get(relation["subject_id"])
+        premises = sorted(set(argument["premise_statement_ids"])) if argument else []
+        refutation_report.append(
+            {
+                "relation_id": relation["id"],
+                "argument_id": relation["subject_id"],
+                "statement_id": relation["object_id"],
+                "verified": relation["subject_id"] in verified_arguments,
+                "open_premise_statement_ids": [premise for premise in premises if premise not in closed],
+                "counted": refutation_counts(relation),
+            }
+        )
 
     # Why each closed statement is closed, for views such as the explorer's
     # state page (#200). The first matching rule wins, in the order (a)-(d).
@@ -421,6 +606,18 @@ def frontier_report(
             ):
                 established.add(conclusion)
                 changed = True
+
+    route_report = root_routes(
+        root,
+        statement_by_id,
+        argument_by_id,
+        results,
+        transcription_results,
+        closed,
+        lambda statement_id: statement_by_id.get(statement_id, {}).get("self_evident") is not None
+        or defended(statement_id),
+        routes.get(root or "", set()),
+    )
 
     stating_claims: dict[str, set[str]] = {}
     for claim in claims or []:
@@ -478,7 +675,11 @@ def frontier_report(
         "root": root,
         "root_known": root is not None and root in statement_by_id,
         "transcription_flags": transcription or [],
+        "transcription_results": kinds,
         "closed_via_transcription": closures,
+        "refutations": refutation_report,
+        "refuted_statements": sorted(refuted),
+        "routes": route_report,
         "closed_statements": closed_statements,
         "established_statements": sorted(established),
         "alternatives_recorded": bool(alternatives),
@@ -688,18 +889,133 @@ def transcription_flags(
             head = LEAN_IDENT_RE.match(step)
             if head and head.group(0).split(".", 1)[0] in hypothesis_names:
                 single = head.group(0).split(".", 1)[0]
+        assembly = None if single else assembly_of(applied, hypothesis_names)
+        opaque = opaque_atoms(groups, goal, definitions)
         short = len(steps) <= SHORT_PROOF_STEPS
-        if goal_premises or single or short:
+        if goal_premises or single or assembly or opaque or short:
             flags.append(
                 {
                     "result_id": result["id"],
                     "argument_id": result["argument_id"],
                     "proof_steps": len(steps),
                     "single_application_of": single,
+                    "assembly_of": assembly,
+                    "opaque_atoms": opaque,
                     "goal_consequent_premises": goal_premises,
                 }
             )
     return flags
+
+
+PROJECTION_RE = re.compile(r"^([A-Za-z_][\w']*)(?:\.(?:\d+|left|right|1|2|mp|mpr))*$")
+
+
+def assembled_hypotheses(term: str, names: set[str]) -> list[str] | None:
+    """Hypotheses a term only pairs together: an anonymous constructor or
+    `And.intro` whose components are hypotheses (or their projections), or
+    such terms nested. None when the term does anything else."""
+    term = " ".join(term.split())
+    while term.startswith("(") and term.endswith(")") and split_top_level(term[1:-1], ")")[0] == term[1:-1].strip():
+        term = term[1:-1].strip()
+    match = PROJECTION_RE.match(term)
+    if match:
+        return [match.group(1)] if match.group(1) in names else None
+    if term.startswith("⟨") and term.endswith("⟩") and split_top_level(term[1:-1], "⟩")[0] == " ".join(term[1:-1].split()):
+        parts = split_top_level(term[1:-1], ",")
+    elif term.startswith("And.intro "):
+        parts = split_top_level(term[len("And.intro ") :], " ")
+    else:
+        return None
+    found: list[str] = []
+    for part in parts:
+        inner = assembled_hypotheses(part, names)
+        if inner is None:
+            return None
+        found.extend(inner)
+    return found
+
+
+def assembly_of(applied: list[str], hypothesis_names: set[str]) -> list[str] | None:
+    """Hypotheses a proof only assembles into a conjunction or tuple (#391):
+    after leading `intro`s, optional destructuring of hypotheses (`obtain ⟨…⟩
+    := h`, `rcases h with ⟨…⟩`), the proof is one anonymous constructor or
+    `And.intro` of hypotheses (`⟨hClaims, hRose⟩`), or `constructor` followed
+    only by `exact h` steps. Like a single application, such a proof only
+    transcribes its premises (invariant 16)."""
+    names = set(hypothesis_names)
+    steps = list(applied)
+    while steps:
+        match = re.match(r"^(?:obtain\s+(⟨.*⟩)\s*:=\s*([A-Za-z_][\w']*)|rcases\s+([A-Za-z_][\w']*)\s+with\s+(⟨.*⟩))$", steps[0])
+        if not match:
+            break
+        pattern = match.group(1) or match.group(4)
+        source = match.group(2) or match.group(3)
+        if source not in names:
+            return None
+        names.update(LEAN_IDENT_RE.findall(pattern))
+        steps.pop(0)
+    if not steps:
+        return None
+    if steps[0] == "constructor" and len(steps) >= 3:
+        found: list[str] = []
+        for step in steps[1:]:
+            match = re.match(r"^(?:·\s*)?exact\s+(.+)$", step)
+            inner = assembled_hypotheses(match.group(1), names) if match else None
+            if inner is None:
+                return None
+            found.extend(inner)
+        return found
+    if len(steps) != 1:
+        return None
+    term = re.sub(r"^(?:exact|refine|apply)\s+", "", steps[0])
+    found = assembled_hypotheses(term, names)
+    return found if found is not None and len(found) >= 2 else None
+
+
+LOGIC_IDENTIFIERS = {"True", "False", "Not", "And", "Or", "Iff"}
+
+
+def propositional_over(expression: str, atoms: set[str], definitions: dict[str, tuple[list[str], str]], depth: int = 3) -> bool:
+    """Whether an expression mentions only the given `Prop` atoms, logical
+    constants and definitions whose bodies are themselves propositional over
+    their parameters (unfolded up to `depth` levels)."""
+    for name in LEAN_IDENT_RE.findall(expression):
+        if name in atoms or name in LOGIC_IDENTIFIERS:
+            continue
+        tail = name.rsplit(".", 1)[-1]
+        if depth and tail in definitions:
+            params, body = definitions[tail]
+            if params and propositional_over(body, set(params), definitions, depth - 1):
+                continue
+        return False
+    return True
+
+
+def opaque_atoms(
+    groups: list[tuple[str, list[str], str]],
+    goal: str,
+    definitions: dict[str, tuple[list[str], str]],
+) -> bool:
+    """Opaque-atom heuristic (#391, invariant 16): every explicit parameter is
+    a `Prop` atom or a hypothesis, there is at least one of each, and every
+    hypothesis and the goal relate only those atoms through logical
+    connectives and definitions that are propositional over their
+    parameters (`def X (P Q : Prop) : Prop := P ∧ Q`). Nothing constrains
+    such atoms, so the theorem certifies only that the step was transcribed.
+    It is a warning, never a closure rule: declare the result's
+    `transcription` field to make it count."""
+    atoms: set[str] = set()
+    hypotheses: list[str] = []
+    for bracket, names, kind in groups:
+        if kind == "Prop":
+            atoms.update(names)
+        elif bracket == "(":
+            hypotheses.append(kind)
+        elif kind.endswith("Type") or kind.startswith("Type") or kind.startswith("Sort"):
+            return False
+    if not atoms or not hypotheses or not goal:
+        return False
+    return all(propositional_over(kind, atoms, definitions) for kind in hypotheses + [goal])
 
 
 def format_frontier(report: dict[str, Any]) -> str:
@@ -750,6 +1066,17 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
             )
+    uncounted = [refutation for refutation in report.get("refutations", []) if not refutation["counted"]]
+    if uncounted:
+        lines.append("")
+        lines.append(f"refutations not counted for rule (c): {len(uncounted)}")
+        for refutation in uncounted:
+            reason = (
+                "no verified result"
+                if not refutation["verified"]
+                else "open premises " + ", ".join(refutation["open_premise_statement_ids"])
+            )
+            lines.append(f"  {refutation['relation_id']} ({refutation['argument_id']} refutes {refutation['statement_id']}): {reason}")
     closures = report.get("closed_via_transcription", [])
     lines.append("")
     lines.append(
@@ -765,16 +1092,58 @@ def format_frontier(report: dict[str, Any]) -> str:
     lines.append("")
     lines.append(
         f"transcription heuristics: {len(flags)} results flagged "
-        f"(single application, goal as premise consequent, or at most {SHORT_PROOF_STEPS} proof steps)"
+        f"(single application, assembly of hypotheses, opaque Prop atoms, goal as premise consequent, "
+        f"or at most {SHORT_PROOF_STEPS} proof steps)"
     )
+    kinds = report.get("transcription_results", {})
     for flag in flags:
         notes = [f"{flag['proof_steps']} steps"]
+        kind = kinds.get(flag["result_id"])
+        if kind and kind["declared"]:
+            notes.append(f"declared transcription: {kind['kind']}")
         if flag["single_application_of"]:
             notes.append(f"single application of {flag['single_application_of']}")
+        if flag.get("assembly_of"):
+            notes.append(f"assembly of {', '.join(flag['assembly_of'])}")
+        if flag.get("opaque_atoms"):
+            notes.append("opaque Prop atoms")
         for premise in flag["goal_consequent_premises"]:
             ids = ", ".join(premise["statement_ids"]) or "no statement match"
             notes.append(f"goal is consequent of {premise['hypothesis']} ({ids})")
         lines.append(f"  {flag['result_id']}: {'; '.join(notes)}")
+    return "\n".join(lines)
+
+
+def format_routes(routes: dict[str, Any]) -> str:
+    entries = routes["routes"]
+    lines = [
+        f"routes to {routes['root']}: {len(entries)} arguments; cheapest "
+        f"{routes['cheapest_argument_id'] or 'none (no verified route)'}"
+    ]
+    if not entries:
+        return "\n".join(lines)
+    lines.append("cost  premises  argument")
+    for entry in entries:
+        marks = [
+            mark
+            for mark, present in (
+                ("cheapest", entry["cheapest"]),
+                ("designated", entry["designated"]),
+                ("unverified", not entry["verified"]),
+                ("transcription", entry["transcription"]),
+            )
+            if present
+        ]
+        suffix = f"  [{', '.join(marks)}]" if marks else ""
+        lines.append(f"{entry['cost']:>4}  {entry['premise_count']:>8}  {entry['argument_id']}{suffix}")
+    for entry in entries:
+        if not entry["cheapest"]:
+            continue
+        lines.append("")
+        lines.append(f"open premises of the cheapest route {entry['argument_id']} ({entry['cost']}):")
+        for statement_id in entry["open_premise_statement_ids"]:
+            note = " (proved, rests on open premises)" if statement_id in entry["proved_unestablished_statement_ids"] else ""
+            lines.append(f"  {statement_id}{note}")
     return "\n".join(lines)
 
 
@@ -1146,6 +1515,7 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{path.relative_to(ROOT)}: unknown argument_id {result['argument_id']}"
             )
+        validate_result_transcription(path.relative_to(ROOT), result)
         challenge = module_path(result["challenge_module"])
         solution = module_path(result["solution_module"])
         config_path = ROOT / result["comparator_config"]
@@ -1210,8 +1580,41 @@ def validate() -> dict[str, int]:
     }
 
 
+def check_warnings() -> list[str]:
+    """Closure-integrity warnings (#391): unflagged opaque-atom candidates and
+    `refutes` relations that do not count because their argument is
+    unverified or rests on open premises."""
+    statements = [record for _, record in load_dir("statements")]
+    arguments = [record for _, record in load_dir("arguments")]
+    results = [record for _, record in load_dir("results")]
+    relations = [record for _, record in load_dir("relations")]
+    flags = transcription_flags(results, arguments, statements)
+    declared = {result["id"] for result in results if result.get("transcription")}
+    warnings = [
+        f"{flag['result_id']}: every proposition the theorem relates looks like an unconstrained "
+        "`Prop` atom (invariant 16); declare \"transcription\": \"opaque_atoms\" or type the vocabulary"
+        for flag in flags
+        if flag.get("opaque_atoms") and flag["result_id"] not in declared
+    ]
+    report = frontier_report(statements, arguments, results, relations, root=None, transcription=flags)
+    for refutation in report["refutations"]:
+        if refutation["counted"]:
+            continue
+        if not refutation["verified"]:
+            reason = "its argument has no verified result"
+        else:
+            reason = "it rests on open premises " + ", ".join(refutation["open_premise_statement_ids"])
+        warnings.append(
+            f"{refutation['relation_id']}: refutation of {refutation['statement_id']} does not count "
+            f"for closure rule (c): {reason}"
+        )
+    return warnings
+
+
 def command_check(_: argparse.Namespace) -> int:
     counts = validate()
+    for warning in check_warnings():
+        print(f"warning: {warning}", file=sys.stderr)
     print(
         "corpus ok: "
         f"{counts['sources']} sources, {counts['passages']} passages, "
@@ -1295,6 +1698,12 @@ def command_frontier(args: argparse.Namespace) -> int:
         report["closed_via_transcription"] = [
             closure for closure in report["closed_via_transcription"] if closure["path_to_root"] is not None
         ]
+    if args.routes:
+        if args.json:
+            print(json.dumps(report["routes"], indent=2, ensure_ascii=False))
+        else:
+            print(format_routes(report["routes"]))
+        return 0
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False))
     else:
@@ -1705,6 +2114,11 @@ def parser() -> argparse.ArgumentParser:
         "--reaching-root",
         action="store_true",
         help="list only open premises from which the root is reached",
+    )
+    frontier.add_argument(
+        "--routes",
+        action="store_true",
+        help="print the open-premise cost of each argument concluding the root, cheapest marked",
     )
     frontier.set_defaults(func=command_frontier)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(

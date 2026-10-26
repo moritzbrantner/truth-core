@@ -111,7 +111,7 @@ export default function StatePage() {
     .filter((result) => onRootPath.has(result.argument.conclusion_statement_id))
     .sort((a, b) => (stagesOf(a.argument.conclusion_statement_id)[0] ?? 9) - (stagesOf(b.argument.conclusion_statement_id)[0] ?? 9) || a.id.localeCompare(b.id));
 
-  const { alternatives, objections } = rivals(corpus);
+  const { alternatives, objections } = rivals(corpus, report);
   const paraphrase = (id: string) => findStatement(corpus, id)?.paraphrase ?? id;
   const sortedReaching = [...reaching].sort((a, b) => (a.depth === b.depth ? 0 : a.depth === "bare" ? -1 : 1));
 
