@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MAXIMUM-ORDER-SCHEMA",
+  "term": "maximum in an order with a cause-of-degree relation",
+  "definition": "System stores a cause-of-degree relation on a Mathlib preorder. IsMax means that no member is strictly greater (maximal, not necessarily greatest). CausesRaiseDegree separately requires each distinct cause to be strictly greater than its effect. A maximum need not exist, be unique, cause anything, or be God. Only distinct causes of the same chosen degree are excluded by the schema theorem.",
+  "basis": "stipulative",
+  "note": "A mathematical interface for conditional instances, not a reading of Aquinas or a definition of causation. The domain-specific interpretation is retained by perfectionOrderSystem; the homogeneous representation and causal ascent are additional conditional hypotheses.",
+  "lean_declaration": "TruthCore.Logic.MaximumOrder.System"
+}

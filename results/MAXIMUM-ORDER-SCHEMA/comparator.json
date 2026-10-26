@@ -1,0 +1,19 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
+    "TruthCore.Results.Logic.MaximumOrderSchema.maximumNeedNotCauseOthers",
+    "TruthCore.Results.Logic.MaximumOrderSchema.causalAscentNeeded",
+    "TruthCore.Results.Logic.MaximumOrderSchema.fourthWayMaximumSchemaInstances",
+    "TruthCore.Results.Logic.MaximumOrderSchema.attributionMaximumSchemaInstance",
+    "TruthCore.Results.Logic.MaximumOrderSchema.maximumNeedNotExist",
+    "TruthCore.Results.Logic.MaximumOrderSchema.maximumNeedNotBeUnique"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
