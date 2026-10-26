@@ -9,7 +9,7 @@
   "date": "2026-10-26",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Constructed shared accessibility/source/fixed-point laws and separate efficient, typed-motion, fact-grounding, explanatory-antecedent, strict-parthood and all-premise warrant transfers. Rejected identifying heterogeneous PSR reasons/facts with one-level regress, unary warrant paths with sufficient justification, fixed-point equality with accessibility, or absent warrant with causal impossibility. The common infinite graph admits local all-on activity but no generated foundation warrant. No source interpretation was added and no root premise discharged; actual domain premises and the epistemic bridge remain open.",
+  "summary": "Constructed shared accessibility/source/fixed-point laws and separate efficient, typed-motion, fact-grounding, explanatory-antecedent, strict-parthood and all-premise warrant transfers. Rejected identifying heterogeneous PSR reasons/facts with one-level regress, unary warrant paths with sufficient justification, fixed-point equality with accessibility, or absent warrant with causal impossibility. The common infinite graph admits local all-on activity but no generated foundation warrant. No source interpretation was added and no root premise discharged; actual domain premises and the epistemic bridge remain open. Queried the landed finite-model library for FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS using its complete three-premise set, reusing the same-head live verification of 48 models and 481 certificates. No registered model evaluates the requested target and full premise set together; this absence supplies no derivability, consistency or closure conclusion.",
   "evidence": [
     "REGRESS-SCHEMA-PACKAGE"
   ]
