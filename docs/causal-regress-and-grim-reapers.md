@@ -261,8 +261,8 @@ needs excluded middle, and Kant's generic `Causes` is not `CausesAsCaused`.
 **Frontier verdict:** the impossible Reaper schedule, finite schedule, infinite
 local-transmission countermodel, cut-edge dependence countermodel, observation
 selection lemma and finite inductive-source theorem are constructively proved
-in their respective models. The escaping-source limit countermodel is a new
-separate Lean/Comparator candidate until its independent verification passes.
+in their respective models. The escaping-source limit countermodel
+(`CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE`) is likewise verified.
 `STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` remains **open**. The next
 research slice is an independent defense of why *per se* efficient power has
 the inductive source-grounding semantics and why that semantics survives the
