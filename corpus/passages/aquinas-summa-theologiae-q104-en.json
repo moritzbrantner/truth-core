@@ -5,6 +5,8 @@
     "source_url": "https://www.newadvent.org/summa/1104.htm",
     "retrieved_at": "2026-10-25T20:03:36Z",
     "sha256": "sha256:3580c77dbd3216d5cb3d6ff99c24c424db3e015c61f35714cc0415cd259f55b2",
+    "wayback_url": "https://web.archive.org/web/20260708204542id_/https://www.newadvent.org/summa/1104.htm",
+    "wayback_sha256": "sha256:02979dafc078c2f993e699767953e519c756cc03b9786b7bbcc0ddda73e12a59",
     "encoding": "utf-8",
     "language": "en",
     "translation": {
@@ -12,7 +14,7 @@
       "year": 1920,
       "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"
     },
-    "license": "The 1920 English Dominican translation is in the public domain in the US. New Advent identifies Kevin Knight as online editor and carries an online edition copyright notice. Only hashes, locators and a short incipit are committed. Two independent fetches matched both response-byte and selected-text hashes. No archival fallback is pinned. The SCTA TAca84 transcription at the admitted revision does not supply I q.104; the New Advent translation is used on that basis, without identifying it with the pinned Latin q.44 edition."
+    "license": "The 1920 English Dominican translation is in the public domain in the US. New Advent identifies Kevin Knight as online editor and carries an online edition copyright notice. Only hashes, locators and a short incipit are committed. Two independent fetches matched both response-byte and selected-text hashes. A fixed 2026-07-08 Wayback capture is independently byte-pinned as a fallback (two fetches gave the same bytes); its selected article text hash and incipit match the originally consulted witness, so no claim is re-read. Added after CI run 40316140684 (2026-10-26) saw live byte drift (got sha256:eb2986c4...); a fetch on 2026-10-26 again returned the pinned live bytes, so the original live hash and retrieval date stay unchanged (issue #393). The SCTA TAca84 transcription at the admitted revision does not supply I q.104; the New Advent translation is used on that basis, without identifying it with the pinned Latin q.44 edition."
   },
   "passages": [
     {
