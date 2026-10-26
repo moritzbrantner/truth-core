@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SCOTT-NE-WORLD-ISOLATION",
+  "paraphrase": "In the unrestricted higher-order Scott/AFP embedding, an individual satisfies the formal predicate NE at a world if and only if that world has no distinct accessible successor. The forward direction uses the admissible property identifying that individual at exactly that world as an essence; the reverse direction uses the essence's actual exemplification. No positivity axiom, excluded middle or frame condition is required. This exposes the strength of full intensional-property quantification; it is not a theory-independent statement about metaphysical necessary existence.",
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistenceWorldIsolation",
+  "definition_ids": [
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE"
+  ]
+}

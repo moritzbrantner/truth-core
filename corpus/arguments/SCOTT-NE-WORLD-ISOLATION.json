@@ -1,0 +1,18 @@
+{
+  "id": "SCOTT-NE-WORLD-ISOLATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCOTT-NE-WORLD-ISOLATION",
+  "inference_ids": [
+    "INF-SCOTT-NE-WORLD-ISOLATION"
+  ],
+  "meaning": "A new structural characterization of Scott/AFP's defined necessary-existence predicate, not an assumed bridge: full higher-order property comprehension admits a bearer-and-world identifying essence. The result separates logical expressibility from metaphysical justification of A5 and identifies a precise dependency on the property domain. Restricted/admissible-property interpretations require separately sourced and formalized variants; do not silently transfer the equivalence to them.",
+  "definition_ids": [
+    "DEF-NECESSARY-EXISTENCE-SCOTT",
+    "DEF-ESSENCE-SCOTT",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE"
+  ]
+}
