@@ -34,8 +34,10 @@ clone_at() {
   fi
 }
 
-# lean4export tags one release per Lean version; follow the toolchain that
-# lean-toolchain (leanprover/lean4:stable) resolves to.
+# lean4export tags one release per Lean version; follow the exact toolchain
+# pinned in lean-toolchain (the version the Mathlib release in
+# lake-manifest.json requires). Re-run this script after every toolchain bump:
+# an export built for another Lean version fails with "incompatible header".
 LEAN_VERSION="$(cd "$ROOT" && lean --version | sed -E 's/^Lean \(version ([^,]+),.*/\1/')"
 LEAN4EXPORT_REV="v$LEAN_VERSION"
 

@@ -17,10 +17,15 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: Check TruthCore.lean imports every module, sorted
         run: scripts/root-imports.sh
+      # lean-toolchain pins the exact Lean version that the Mathlib release in
+      # lake-manifest.json requires. `use-mathlib-cache` runs `lake exe cache get`
+      # before `lake build`, so Mathlib is downloaded prebuilt rather than compiled;
+      # lean-action also caches .lake between runs.
       - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
         with:
           build: true
           test: false
+          use-mathlib-cache: true
       - name: Install PDF source extraction
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
@@ -93,9 +98,12 @@ jobs:
           # lake cache written by the corpus-and-lean job races and misses.
           build: true
           test: false
+          # Fetch prebuilt Mathlib oleans (`lake exe cache get`) before building.
+          use-mathlib-cache: true
       # The pinned lean4export/landrun/nanoda builds and the comparator's Cargo target only change
       # with their pins, so later runs restore them and the bootstrap's builds become no-ops.
-      # lean-toolchain tracks `stable`, so the cache key carries the resolved Lean version.
+      # lean4export must be built for the exact Lean version pinned in lean-toolchain
+      # (a mismatch fails with "incompatible header"), so the key carries that version.
       - name: Resolve Lean version
         id: lean
         run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"

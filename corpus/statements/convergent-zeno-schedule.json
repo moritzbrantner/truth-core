@@ -1,0 +1,7 @@
+{
+  "id": "STMT-CONVERGENT-ZENO-SCHEDULE",
+  "paraphrase": "The real-valued schedule whose stage n begins at time 1 - (1/2)^n is strictly increasing, every stage begins before time 1, the stage times converge to the endpoint time 1, each stage lasts (1/2)^(n+1) (the gap to the next stage time), these durations sum to 1, and reading each moment of the omega-plus-one supertask order at its clock time is an order embedding of that order into the real line. This is a mathematical model of infinitely many stages in a finite duration, not a claim that such a schedule is physically executable or that any output is attained at the endpoint.",
+  "lean_declaration": "TruthCore.Causality.ConvergentZenoSchedule",
+  "definition_ids": ["DEF-REAL-SEQUENCE-CONVERGENCE", "DEF-SUPERTASK-LIMIT-ENDPOINT", "DEF-UNCONDITIONAL-SUM", "DEF-ZENO-MOMENT-CLOCK", "DEF-ZENO-STAGE-DURATION", "DEF-ZENO-STAGE-TIME"],
+  "disambiguation_ids": ["DISAMB-SUPERTASK-ENDING", "DISAMB-SUPERTASK-LIMIT-NOTION"]
+}

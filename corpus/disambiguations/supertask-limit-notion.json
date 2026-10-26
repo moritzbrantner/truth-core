@@ -1,0 +1,6 @@
+{
+  "id": "DISAMB-SUPERTASK-LIMIT-NOTION",
+  "term": "limit of a supertask sequence",
+  "sense_definition_ids": ["DEF-REAL-SEQUENCE-CONVERGENCE", "DEF-SUPERTASK-STABLE-LIMIT"],
+  "resolution": "A real-valued sequence such as the stage times 1 - (1/2)^n has a limit in the analytic sense (DEF-REAL-SEQUENCE-CONVERGENCE) although no term equals it and the sequence never becomes constant. A discrete output has a terminal value in the stipulated stable sense (DEF-SUPERTASK-STABLE-LIMIT) only if it eventually becomes constant. STMT-CONVERGENT-ZENO-SCHEDULE uses only the analytic sense, for clock times; STMT-SUPERTASK-STABLE-ENDPOINT and the oscillation result use only the stable sense, for outputs. Neither sense implies the other's conclusion: convergent stage times do not give a stable output (the alternating lamp output can run on the convergent schedule), and a stable output does not give a finite duration (it can run on unit-cost stages). Neither sense establishes that a physical process attains the limit."
+}

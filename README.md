@@ -65,13 +65,14 @@ Requires Lean via `elan`/`lake`.
 ```bash
 python3 scripts/source_evidence.py check
 python3 scripts/corpus.py check
+lake exe cache get   # prebuilt Mathlib, once per Mathlib/toolchain bump
 lake build
 python3 scripts/corpus.py status
 python3 scripts/corpus.py next
 python3 scripts/corpus.py frontier --reaching-root
 ```
 
-`lake build` compiles the source formalizations and proved `Solution` modules. Deliberately incomplete `Challenge` modules are kept out of the normal default build.
+`lake build` compiles the source formalizations and proved `Solution` modules. Deliberately incomplete `Challenge` modules are kept out of the normal default build. Mathlib is the one external Lean dependency (AGENTS.md invariant 14); `lean-toolchain` pins the exact Lean version its pinned release requires.
 
 ### Source evidence
 
@@ -102,6 +103,8 @@ scripts/verify-result.sh PLATO-TIM-28A-28C-COSMOS-CAUSE-B
 ```
 
 The Rust Comparator builds the Challenge and Solution independently in Landrun, exports their Lean environments, checks that the advertised theorem and its transitive statement environment match, and rejects non-permitted axioms. Lean checks the freshly built solution; the configs also enable NanoDa as an independent kernel check.
+
+Configs permit no axioms, except that a result whose Solution imports Mathlib may permit exactly `propext`, `Classical.choice` and `Quot.sound`; see [the axiom policy](docs/axiom-policy.md), which also explains how to rebuild the verifier after a toolchain bump (`lean4export` must match the pinned Lean version; the bootstrap needs `go` and `cargo`).
 
 The local bootstrap is intended for reproducible development. Palomar's hosted service has additional registry, policy, sandboxing, disclosure, and editorial machinery that this MVP does not reproduce.
 

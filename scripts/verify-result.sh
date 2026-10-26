@@ -16,6 +16,16 @@ if [[ ! -f "$CONFIG" ]]; then
   exit 2
 fi
 
+# Reject any permitted axiom outside docs/axiom-policy.md before running Comparator.
+python3 - "$ROOT" "$CONFIG" <<'PY'
+import json, sys
+sys.path.insert(0, f"{sys.argv[1]}/scripts")
+import corpus
+error = corpus.permitted_axioms_error(json.load(open(sys.argv[2], encoding="utf-8")))
+if error:
+    sys.exit(f"{sys.argv[2]}: {error}")
+PY
+
 COMPARATOR_BIN="$WORK/rust-target/release/truth-core-comparator"
 LEAN4EXPORT_BIN="$WORK/lean4export/.lake/build/bin/lean4export"
 LANDRUN_BIN="$WORK/bin/landrun"
@@ -28,6 +38,15 @@ for path in "$COMPARATOR_BIN" "$LEAN4EXPORT_BIN" "$LANDRUN_BIN" "$NANODA_BIN"; d
     exit 2
   fi
 done
+
+# lean4export reads .olean files and must be built for the pinned Lean version.
+if [[ -f "$WORK/lean4export/lean-toolchain" ]] &&
+  [[ "$(tr -d '[:space:]' < "$WORK/lean4export/lean-toolchain")" != \
+    "$(tr -d '[:space:]' < "$ROOT/lean-toolchain")" ]]; then
+  echo "lean4export in $WORK was built for $(cat "$WORK/lean4export/lean-toolchain")," >&2
+  echo "but lean-toolchain pins $(cat "$ROOT/lean-toolchain"); re-run scripts/bootstrap-verifier.sh" >&2
+  exit 2
+fi
 
 export COMPARATOR_LEAN4EXPORT="$LEAN4EXPORT_BIN"
 export COMPARATOR_LANDRUN="$LANDRUN_BIN"
