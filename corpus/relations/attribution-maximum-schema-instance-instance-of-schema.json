@@ -1,0 +1,12 @@
+{
+  "id": "REL-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE-INSTANCE-OF-SCHEMA",
+  "predicate": "instance_of_schema",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIMUM-ORDER-SCHEMA",
+  "verification_result_id": "MAXIMUM-ORDER-SCHEMA",
+  "instance_theorem": "TruthCore.Results.Logic.MaximumOrderSchema.attributionMaximumSchemaInstance",
+  "schema_theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
+  "note": "Verified conditional transfer through the #386 order representation and the generic strict-causal-ascent theorem. The source-shaped representation and causal comparative remain inside the instance statement; registration neither sources those hypotheses nor closes a philosophical frontier premise."
+}

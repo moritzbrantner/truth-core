@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+    "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+    "STMT-NECESSARY-INDIVIDUAL-LAWS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inspected both earlier dossiers and the exact #445 model. Materialized SEP-ABSTRACT-OBJECTS-2020-CRITERIA, especially sections 3.1–3.2; source findings, rejected stronger attribution, and rival objection are in docs/necessary-concrete-causal-powers.md. Replaced the opaque concreteness input in one explicit test with activation-sensitive recipient responses, a dormant world, distinct existing endpoints, a contingent recipient and zero-response control. Necessary bearer plus this capacity criterion is satisfiable; no impossibility of competing causal ontologies, actual or metaphysical possibility, or root discharge follows. Intrinsic causal directedness, spatiotemporal and independence/actuality criteria, abstract-object distinctions and counterpart alternatives remain open #435 work.",
+  "evidence": [
+    "NECESSARY-CONCRETE-CAUSAL-CAPACITY"
+  ]
+}

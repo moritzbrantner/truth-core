@@ -141,11 +141,51 @@ added. Mathlib results permit the existing standard classical axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no constructive reading of the
 classical source-extraction or fixed-point package is advertised.
 
-Issue #412 stays open for maximum-in-an-order, participation and
-composition/uniting-cause schemas. The self-application schema remains in
+Issue #412 stays open for participation and composition/uniting-cause schemas. The self-application schema remains in
 `Logic/SelfApplication.lean`. Issues #336, #339 and #348 retain their remaining
 source, semantic, and campaign obligations; this package does not declare
 those campaigns complete.
+
+## Maximum in an order
+
+Schema 2 is `STMT-MAXIMUM-ORDER-SCHEMA`, certified by
+`TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema` in
+[MAXIMUM-ORDER-SCHEMA](../corpus/results/MAXIMUM-ORDER-SCHEMA.json).
+A `System` keeps its cause-of-degree relation separate from the Mathlib
+preorder. Under the explicit condition that each distinct cause is strictly
+higher than its effect, a maximal member has no distinct cause of that same
+degree. `IsMax` means maximal, not greatest. Existence, uniqueness, causing all
+other members and identity with God are not part of the conclusion.
+
+| Proved instance statement | Retained conditional inputs | Transferred conclusion |
+| --- | --- | --- |
+| `STMT-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES` | For each named respect being (`esse`), goodness (`bonum`) and ontological truth (`verum`): homogeneous-scale representation and unrestricted cause-more-such | A maximum has no distinct cause of the same perfection; the three respects and their maxima are not identified |
+| `STMT-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE` | Approach-to-primary representation, additional universal possession of the perfection, unrestricted cause-more-such | The same exclusion, via #386's exact `homogeneousLift` and `isMaximumIn_iff_isMax` theorems on the preorder pulled back from degrees of approach |
+
+Both statement-to-statement `instance_of_schema` registrations name separate
+instance and schema theorems checked by the same seven-theorem Comparator
+configuration and solution NanoDa. All philosophical conditions remain inside
+the conditional statements. Registration does not defend them. In particular,
+the unrestricted cause-more-such condition retains its existing open extension
+beyond Aristotle's synonymous-quality formulation; the attribution reading
+does not establish it for secondary causes.
+
+The package checks four discriminating controls: Nat has no maximal member;
+two distinct beings tied at one Unit degree are both maximal; ordered Bool
+with empty causation has a greatest member and strict causal ascent but no
+causing of its lower member; without ascent a lower member can cause the
+maximum. Thus the maximum-causes-all converse cannot be inferred from this
+schema. The strongest skeptical reply accepts the conditional mathematics but
+withholds the homogeneous representation or causal ascent, especially for
+virtual/analogical causality. Those philosophical questions remain open.
+
+Intended and actual root-path premise delta: **none**. No root route changes,
+no new source attribution, and no premise discharge. The attribution transfer
+needs universal possession beyond the approach reading; strict primacy,
+creature coverage and the primary's causal clause are omitted because this
+conclusion differs from #386's genus-principle derivation, not because those
+conditions were refuted. See [maximum-order-schema.md](maximum-order-schema.md)
+for the exact proof composition, controls, premise comparison and source limits.
 
 ## Periodic Audit C, round 3 (2026-10-26)
 
@@ -262,3 +302,9 @@ checks and `git diff --check`. The existing open-premise warning for the
 Frege–Geach refutation remains unchanged. Both exact root reports were compared
 byte-for-byte before/after. No full live-source sweep was run; the fresh
 materializations listed above are the live source-verification scope.
+
+Publication refresh: later main `bf106c2f` (#456 and #455) was merged only
+to reconcile this note with the new maximum-schema section. Both sections
+are preserved. The audit remains frozen at `088d7706`; no acceptance or source
+coverage of those later changes is claimed by this audit. The merge resolution
+changes no proof or statement supplied by either change.
