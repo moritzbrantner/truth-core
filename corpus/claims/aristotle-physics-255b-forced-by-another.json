@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-255B-FORCED-BY-ANOTHER-A",
+  "statement_id": "STMT-FORCED-MOTION-BY-ANOTHER",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.4, 254b24-27, 255b31-32",
+  "interpretation": "Everything moved by force and contrary to nature is moved by something and by another (255b31-32: τά τε βίᾳ καὶ παρὰ φύσιν πάντα ὑπό τινος καὶ ὑπʼ ἄλλου); this is most evident for things moved contrary to nature (254b24-27). Read per motion: the other moves the thing in the respect in which it is forced.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-NATURAL-AND-FORCED-MOTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

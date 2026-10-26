@@ -348,6 +348,9 @@ Location reading of Aristotle, *Physics* III.3, 202a13-15: the motion is in the 
 converted into spatial containment. The source explains the location through motion's being
 the actuality of the movable under the action of what can move it.
 
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.MovingIsInTheMovedReading` (docs/typed-physics.md).
+
 Source: Aristotle, *Physics* III.3, 202a13-15 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/

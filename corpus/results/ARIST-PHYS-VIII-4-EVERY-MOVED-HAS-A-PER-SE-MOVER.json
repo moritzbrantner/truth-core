@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-VIII-4-EVERY-MOVED-HAS-A-PER-SE-MOVER",
+  "argument_id": "ARIST-PHYS-VIII-4-EVERY-MOVED-HAS-A-PER-SE-MOVER",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedHasAPerSeMover.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedHasAPerSeMover.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedHasAPerSeMover.everyMovedHasAPerSeMover",
+  "comparator_config": "results/ARIST-PHYS-VIII-4-EVERY-MOVED-HAS-A-PER-SE-MOVER/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the prima via's premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER from Physics VIII.4's division of motions, on the generator reading (ARIST-PHYS-256A-GENERATOR-OR-REMOVER-B, a stated strengthening of the literal -A). Not a transcription: two-level case analysis, and premisesNeeded shows each of the five premises is needed. This relocates the premise rather than discharging it: the frontier now enters it through five Aristotelian premises (four sourced readings and the generator reading's open commitment), all open. Its sibling result ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS shows the literal reading alone does not suffice. Scope: on the case's broad reading of motus (DISAMB-MOTION), the relocated premises must hold of every reduction from potency to act wherever the root route uses this premise, while Aristotle states them of physical motions; that is an objection to those premises, not an equivocation, and it is recorded in docs/typed-physics.md."
+}

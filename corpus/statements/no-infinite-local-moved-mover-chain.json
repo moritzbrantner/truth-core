@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "paraphrase": "There is no infinite chain in which each member is moved in local motion by the next, a primary mover of it that is itself being moved in local motion: the series of local moved movers stops.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteLocalMovedMoverChainReading",
+  "definition_ids": [
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

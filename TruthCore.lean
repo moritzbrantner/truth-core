@@ -98,6 +98,7 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 import TruthCore.Greek.Clement.FirstCorinthians
 import TruthCore.Greek.Josephus.Antiquities
 import TruthCore.Greek.NewTestament.Acts
@@ -330,6 +331,13 @@ import TruthCore.Results.Aristotle.Physics.TimeMagnitudeContinuous.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionMutualMeasurement.Solution
 import TruthCore.Results.Aristotle.Physics.TimeMotionSameRecurrence.Solution
 import TruthCore.Results.Aristotle.Physics.TimeNowMutualDependence.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.EveryMovedHasAPerSeMover.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.FirstMoverNotMovedByAnother.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Solution
+import TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself.Solution
 import TruthCore.Results.Aristotle.Physics.VoidCannotMove.Solution
 import TruthCore.Results.Aristotle.Physics.VoidFromMotionArgument.Solution
 import TruthCore.Results.Aristotle.Physics.VoidNotNecessaryForMotion.Solution

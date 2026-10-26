@@ -1,0 +1,13 @@
+{
+  "id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
+  "paraphrase": "It is impossible that there be no mover that is not moved by another (such a mover may still be moved by itself).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.FirstMoverNotMovedByAnotherCannotBeLackingReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOVED-BY-ANOTHER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

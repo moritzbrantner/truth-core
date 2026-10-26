@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-PHYS-242B23-PRIMARY-CONTACT-B",
+  "statement_id": "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
+  "source_id": "ARIST-PHYS",
+  "locator": "VII.1, 242b23-27",
+  "interpretation": "Typed reading: whatever primarily moves something in local, bodily motion touches it or is continuous with it (242b24-26: εἰ τὸ κινοῦν πρώτως κατὰ τόπον καὶ σωματικὴν κίνησιν ἀνάγκη ἢ ἅπτεσθαι ἢ συνεχὲς εἶναι τῷ κινουμένῳ, καθάπερ ὁρῶμεν ἐπὶ πάντων). Restricted to primary movers and local motion, as the sentence is; the -A reading has only two atoms and no mover or moved. The sentence is a conditional ('if …'); Aristotle asserts its antecedent by appeal to what we see in all cases, and the reading records that assertion.",
+  "interpretation_of": "ARIST-PHYS-242B23-PRIMARY-CONTACT-A",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ]
+}

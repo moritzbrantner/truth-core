@@ -61,6 +61,9 @@ def DivisiblePrimaryMoverHasRestDeterminingPartReading
 241b24-242a15. “Something” does not yet identify the first mover reached by the
 chapter's following regress argument.
 
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.EveryMovedThingHasSomeMoverReading` (docs/typed-physics.md).
+
 Source: Aristotle, *Physics* VII.1, 241b24-242a15 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/
@@ -188,6 +191,9 @@ def InitialSimultaneousMotionReductioFailsReading
 /-- A primary bodily mover in locomotion must touch or be continuous with what it
 moves, in Aristotle, *Physics* VII.1, 242b23-27.
 
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.PrimaryLocalMoverTouchesReading` (docs/typed-physics.md).
+
 Source: Aristotle, *Physics* VII.1, 242b23-27 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/
@@ -198,6 +204,9 @@ def PrimaryBodilyMoverTouchesOrIsContinuousReading
 /-- Applying contact or continuity throughout the hypothesized moved-mover chain
 makes all its members one bodily unity, in Aristotle, *Physics* VII.1,
 242b23-27.
+
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.TouchingChainFormsOneReading` (docs/typed-physics.md).
 
 Source: Aristotle, *Physics* VII.1, 242b23-27 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
@@ -220,6 +229,9 @@ def ChainUnityFiniteOrInfiniteSameForReductioReading
 /-- If the infinite moved-mover chain forms one bodily unity, that single unity
 would undergo the chain's infinite motion in the finite time K, in Aristotle,
 *Physics* VII.1, 242b27-243a1.
+
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.OneOfInfiniteLocalChainTraversesInfiniteReading` (docs/typed-physics.md).
 
 Source: Aristotle, *Physics* VII.1, 242b27-243a1 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
@@ -244,6 +256,9 @@ def PossibleHypothesisMustNotYieldImpossibleReading
 /-- The moved-mover series cannot lack a first mover and a first moved subject, in
 Aristotle, *Physics* VII.1, 242b23-243a2. This does not yet identify the first
 mover as unmoved or give it a theological description.
+
+Typed sibling reading over the act/potency vocabulary:
+`TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteLocalMovedMoverChainReading` (docs/typed-physics.md).
 
 Source: Aristotle, *Physics* VII.1, 242b23-243a2 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
+  "paraphrase": "The one thing made of an infinite chain of local moved movers would go through an infinite motion in a finite time.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.OneOfInfiniteLocalChainTraversesInfiniteReading",
+  "definition_ids": [
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ]
+}

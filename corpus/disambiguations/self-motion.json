@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SELF-MOTION",
+  "term": "self-motion (moved by itself, moves itself)",
+  "sense_definition_ids": [
+    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
+    "DEF-SELF-MOTION-ARISTOTLE"
+  ],
+  "resolution": "Two predicates, never identified. Aristotle's self-mover (`SelfMovedIn`, Physics VIII.4) is a whole moved by itself, one part moving another; the prima via and STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT deny something else, that a thing is the mover of itself in the very respect in which it is moved (`MovesIn x x r`). VIII.5, 257b2-13 itself says a self-mover cannot move itself as a whole in the same respect, so the two are compatible. No inference passes from `SelfMovedIn x r` to `MovesIn x x r` or back: STMT-NATURAL-SELF-MOTION-HAS-A-MOVER says only that a self-motion has some mover in that respect."
+}

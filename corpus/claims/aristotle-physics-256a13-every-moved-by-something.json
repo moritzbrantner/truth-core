@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-256A13-EVERY-MOVED-BY-SOMETHING-A",
+  "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.5, 256a13-14",
+  "interpretation": "VIII.5 restates as the premise of its argument that everything moved is necessarily moved by something (εἰ δὴ ἀνάγκη πᾶν τὸ κινούμενον ὑπό τινός τε κινεῖσθαι), the conclusion of VIII.4. Read respect-free, as the VII.1 sentence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

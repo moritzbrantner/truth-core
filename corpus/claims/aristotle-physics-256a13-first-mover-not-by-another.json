@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-256A13-FIRST-MOVER-NOT-BY-ANOTHER-A",
+  "statement_id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.5, 256a13-21",
+  "interpretation": "If everything moved is moved by something, either by a thing moved by another or not, there must be a mover not moved by another (ἀνάγκη τι εἶναι κινοῦν ὃ οὐχ ὑπʼ ἄλλου πρῶτον). Stated as a reductio, as the prima via's conclusion is. It is weaker than the prima via's 'moved by none': Aristotle goes on (256a19-21) to say that such a first mover, if moved, moves itself; that further step is not formalized here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOVED-BY-ANOTHER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

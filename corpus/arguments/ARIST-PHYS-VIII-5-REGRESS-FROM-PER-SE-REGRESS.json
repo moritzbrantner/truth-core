@@ -1,0 +1,27 @@
+{
+  "id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "premise_statement_ids": [
+    "STMT-MOVING-IS-IN-THE-MOVED",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+  ],
+  "conclusion_statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+  "inference_ids": [
+    "INF-ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS"
+  ],
+  "meaning": "The prima via's regress premise, with Physics III.3, entails Physics VIII.5's regress premise. Not a transcription: induction on accessibility through three premises, and premisesNeeded shows each is needed. It shows that VIII.5's premise is no further commitment for the root routes once III.3 is granted; it does not discharge any prima via premise. Connects results; closes nothing.",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOVED-BY-ANOTHER",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING",
+    "DISAMB-PER-SE",
+    "DISAMB-PER-SE-LINK"
+  ]
+}

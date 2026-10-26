@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER",
+  "paraphrase": "The natural motion of a thing not moved by itself, as of the light and the heavy, has a mover in that respect: either a per se mover (what generated it light or heavy) or a per accidens mover (what removed the hindrance).",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.PassiveNaturalMotionByGeneratorOrRemoverReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PASSIVE-NATURAL-MOTION",
+    "DEF-PER-ACCIDENS-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

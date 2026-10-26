@@ -1,0 +1,12 @@
+{
+  "id": "ARIST-PHYS-242B23-CHAIN-UNITY-B",
+  "statement_id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
+  "source_id": "ARIST-PHYS",
+  "locator": "VII.1, 242b23-27",
+  "interpretation": "Typed reading over chains indexed by the natural numbers: if each member touches or is continuous with the next, some one thing is made of them all (242b26: ὥστʼ εἶναί τι ἐξ ἁπάντων ἕν). The -A reading states the same step for the hypothesised chain with atoms. The reading does not say whether the one thing is finite or infinite; 242b27-29 says this makes no difference.",
+  "interpretation_of": "ARIST-PHYS-242B23-CHAIN-UNITY-A",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CONTACT-OR-CONTINUITY"
+  ]
+}

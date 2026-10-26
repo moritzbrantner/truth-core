@@ -1,0 +1,13 @@
+{
+  "id": "ARIST-PHYS-242B27-UNITY-INFINITE-FINITE-TIME-B",
+  "statement_id": "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
+  "source_id": "ARIST-PHYS",
+  "locator": "VII.1, 242b27-243a1",
+  "interpretation": "Typed reading: the one thing made of an infinite chain of local moved movers would go through the chain's infinite motion in the finite time K. The premise packs the chapter's aggregate argument (members move together, 242a20-30; each motion is one and finite, 242a30-242b11; infinitely many equal or greater motions add up to an infinite one, and the possible may be taken as actual, 242b11-16, 242b29-30, 243a1-2). It is stated only for chains of local moved movers.",
+  "interpretation_of": "ARIST-PHYS-242B27-UNITY-INFINITE-FINITE-TIME-A",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ]
+}

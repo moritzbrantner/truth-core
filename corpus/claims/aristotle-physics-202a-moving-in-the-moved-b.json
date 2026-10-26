@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-B",
+  "statement_id": "STMT-MOVING-IS-IN-THE-MOVED",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.3, 202a13-15",
+  "interpretation": "Typed reading in the act/potency vocabulary of beings and respects: whenever something moves a thing in a respect, that thing is being moved in that respect. Motion is in the movable because it is the movable's actuality, brought about by what can move it (202a13-14), and the mover's actuality is not another (202a15-16). The -A reading keeps the occurrence-level form (a motion is in its movable); this one speaks of beings and respects and says nothing about motions as objects. It adds no claim about the mover's own motion.",
+  "interpretation_of": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

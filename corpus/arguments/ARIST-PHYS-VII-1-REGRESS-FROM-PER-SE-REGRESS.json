@@ -1,0 +1,26 @@
+{
+  "id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "premise_statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+  ],
+  "conclusion_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "inference_ids": [
+    "INF-ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS"
+  ],
+  "meaning": "The prima via's regress premises entail Physics VII.1's restricted regress. Not a transcription: induction on accessibility, and premisesNeeded shows both premises are needed. restrictedRegressIsWeaker shows the converse fails even with the second-movers premise: with no local respects there is no local chain, while the per se series is infinite. So VII.1's conclusion is a weaker reading that survives, and it cannot discharge STMT-NO-INFINITE-PER-SE-MOVER-SERIES. Connects results; closes nothing.",
+  "definition_ids": [
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-PER-SE",
+    "DISAMB-PER-SE-LINK"
+  ]
+}

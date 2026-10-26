@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "argument_id": "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.everyMovedPerSeOrPerAccidens",
+  "comparator_config": "results/ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS/comparator.json",
+  "status": "solution-present",
+  "description": "Physics VIII.4's closing argument (255b31-256a3) on the literal reading of its last step. Not a transcription: the conclusion is derived by a two-level case analysis, and premisesNeeded shows each of the five premises is needed. literalReadingDoesNotGivePerSeMover shows that this literal reading does not yield the prima via's STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER: a light thing moved only by the remover of a hindrance has no per se mover. Connects results; closes nothing."
+}

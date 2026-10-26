@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-PHYS-255B-NATURAL-SELF-OR-PASSIVE-A",
+  "statement_id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
+  "source_id": "ARIST-PHYS",
+  "locator": "VIII.4, 255b29-33",
+  "interpretation": "Natural motions divide into those of things moved by themselves and those of things not moved by themselves, as the light and the heavy (255b32-33). The second kind is stated positively from 255b29-31: such things have a principle of motion, not of moving or acting, but of being acted on. So the division is the text's own, not an instance of excluded middle.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NATURAL-AND-FORCED-MOTION",
+    "DEF-PASSIVE-NATURAL-MOTION",
+    "DEF-SELF-MOTION-ARISTOTLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELF-MOTION"
+  ]
+}

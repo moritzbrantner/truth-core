@@ -1,0 +1,10 @@
+{
+  "id": "ARIST-PHYS-III-1-3-NO-MOVER-MOVES-ITSELF",
+  "argument_id": "ARIST-PHYS-III-1-3-NO-MOVER-MOVES-ITSELF",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself.noMoverMovesItself",
+  "comparator_config": "results/ARIST-PHYS-III-1-3-NO-MOVER-MOVES-ITSELF/comparator.json",
+  "status": "solution-present",
+  "description": "Physics III.1's analysis of being moved and III.3's location of motion in the moved, with two prima via premises, give that no mover moves itself in the respect in which it moves. This is not a transcription: the conclusion is derived by a reductio through four premises, and the Comparator config also verifies premisesNeeded (dropping any one premise leaves a one-element model in which something moves itself). It connects the Physics III.1 analysis (previously a singleton) and the new typed III.3 reading to the act/potency premises; it closes no frontier node, and its conclusion is used by no root route."
+}

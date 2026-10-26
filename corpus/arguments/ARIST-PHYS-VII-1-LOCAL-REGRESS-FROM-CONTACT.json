@@ -1,0 +1,23 @@
+{
+  "id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "premise_statement_ids": [
+    "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
+    "STMT-TOUCHING-CHAIN-FORMS-ONE",
+    "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
+    "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+  ],
+  "conclusion_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "inference_ids": [
+    "INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT"
+  ],
+  "meaning": "Physics VII.1's repaired regress (242b23-243a2), typed over chains of beings, with the contact condition as its own premise (audit B #388, open item). Not a transcription: the contact premise is instantiated at every link to build the touching chain, and premisesNeeded shows each of the four premises is needed. Restricted to local, bodily motion and primary moved movers, as the source is. Connects results; closes nothing.",
+  "definition_ids": [
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

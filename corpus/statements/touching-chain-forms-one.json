@@ -1,0 +1,8 @@
+{
+  "id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
+  "paraphrase": "If each member of an infinite chain touches or is continuous with the next, some one thing is made of them all.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.TouchingChainFormsOneReading",
+  "definition_ids": [
+    "DEF-CONTACT-OR-CONTINUITY"
+  ]
+}
