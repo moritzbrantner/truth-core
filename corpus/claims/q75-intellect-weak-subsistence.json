@@ -1,0 +1,23 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-WEAK-SUBSISTENCE",
+  "statement_id": "STMT-HUMAN-INTELLECT-WEAK-SUBSISTENCE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co., Relinquitur igitur, with ad 1–2",
+  "interpretation": "The designated intellectual principle does not inhere as an accident or material form. It may still be a part of human nature; no complete person or immortality is concluded. Read within q.76 a.1: the human being understands through the soul as its form; operation attribution does not identify the soul with the complete human being.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-Q75-WEAK-SUBSISTENCE",
+    "DEF-Q75-COMPLETE-SUBSISTENCE",
+    "DEF-Q75-COGNITIVE-SCOPE",
+    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
+    "DEF-Q75-ORGAN-EXERCISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q75-WEAK-AND-COMPLETE-SUBSISTENCE",
+    "DISAMB-Q75-NONORGAN-AND-OWN-OPERATION",
+    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
+    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+  ]
+}

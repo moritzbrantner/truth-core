@@ -1,0 +1,16 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "input_statement_ids": [
+    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
+    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
+    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+    "STMT-NONORGANIC-INTELLECT-OPERATION-ATTRIBUTION",
+    "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE"
+  ],
+  "output_statement_id": "STMT-HUMAN-INTELLECT-WEAK-SUBSISTENCE",
+  "rule": "composition",
+  "meaning": "Reuse both earlier reductios with their original premises; apply the explicit attribution conditional to non-bodyhood and non-organic exercise; instantiate the open operation/existence principle. The last steps are transcription, not a discharge of their premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
