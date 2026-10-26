@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.attributionOrderUniqueMaximum",
   "comparator_config": "results/QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM/comparator.json",
   "status": "solution-present",
-  "description": "Derived, not a transcription: uniqueness follows from the order by approach and strict primacy. Strict primacy (STMT-NOTHING-ELSE-REACHES-THE-PRIMARY) is an open premise with no attributing claim, so the conclusion stays open on this route. A second route to STMT-AT-MOST-ONE-MAXIMUM-IN-BEING that does not use STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS or STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH; it is not the designated root route."
+  "description": "Derived, not a transcription: uniqueness follows from the order by approach, strict primacy and the explicit excluded-middle premise. Strict primacy (STMT-NOTHING-ELSE-REACHES-THE-PRIMARY) is an open premise with no attributing claim, so the conclusion stays open on this route. A second route to STMT-AT-MOST-ONE-MAXIMUM-IN-BEING that does not use STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS or STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH; it is not the designated root route."
 }

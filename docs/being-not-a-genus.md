@@ -43,17 +43,17 @@ The objection that being is not a genus is recorded as an `attacks` relation on 
 - **Strict primacy** (`StrictPrimacyReading`, `DEF-STRICT-PRIMACY`, open premise `STMT-NOTHING-ELSE-REACHES-THE-PRIMARY`). Everything other than `p` falls short of it: nothing ties with the primary. No claim attributes it; q.3 a.5 ad 2 does not say it (see below). Results that need it take it as a separate hypothesis.
 - **Causal order to the primary** (`OrderedToPrimaryAsCauseReading`). The source is q.13 a.5 co., *ordo creaturae ad Deum, ut ad principium et causam*, claim `AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A`. The primary causes being in every creature (`DEF-CREATURE`). That everything other than the primary is a creature is a further open premise with no claim (`OthersAreCreaturesReading`, `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`). Aristotle's *pros hen* (IV.2) does not give this: there the relation to substance may also be affection, way, privation, and so on.
 
-As orders, the two models do not differ. An attribution order is a homogeneous scale for the preorder pulled back along `near` (`ApproachToPrimaryReading.homogeneousLift`). They differ only through further premises: one distinguished being that nothing else reaches (strict primacy, open), and the separate causal clause. For #341, this means that order shape alone (Preorder, IsMax, IsGreatest) cannot encode analogy.
+The two models can have the same order shape. When every represented being has the perfection (`∀ x, InAct x r`), an attribution order is a homogeneous scale for the preorder pulled back along `near` (`ApproachToPrimaryReading.homogeneousLift`). This universal possession condition is additional: `ApproachToPrimaryReading` itself requires only the primary to have the perfection. Strict primacy and the causal clause are further separate premises. For #341, this means that order shape alone (Preorder, IsMax, IsGreatest) cannot encode analogy.
 
 ### Verdicts
 
 | Frontier premise | Homogeneous scale (univocal) | Attribution order |
 |---|---|---|
-| `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS` | No support from the order, but consistent with it (`QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING`). It stays open. | **Survives at being, re-read.** Its instance at being is *derived* from the order by approach, strict primacy, the causal order of creatures and the creature premise (`QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING`). Omission countermodels show that strict primacy, the causal order and the creature premise are each needed. Strict primacy and the creature premise are open and unattributed, so the instance stays open. The principle for other perfections stays open. |
+| `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS` | No support from the order, but consistent with it (`QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING`). It stays open. | **Survives at being, re-read.** Its instance at being is *derived* from the order by approach, strict primacy, the causal order of creatures, the creature premise and excluded middle (`QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING`). Omission countermodels show that strict primacy, the causal order and the creature premise are each needed. Strict primacy and the creature premise are open and unattributed, so the instance stays open. The principle for other perfections stays open. |
 | `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH` | This is its source sense: Met. II.1 speaks of the *synonymous* quality (τὸ συνώνυμον, 993b25). Consistent with the scale; it stays open. | **Needs re-reading.** It holds with the primary as cause and fails in general (`QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH`). |
 | `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING` | Not yielded. | Not yielded, even with strict primacy, the causal order, the creature premise and `STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING` (`QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING`). With strict primacy the maximum is the primary, so the bridge reduces to: nothing other than the primary is simply prior to it. |
 
-A byproduct for uniqueness (#320): on the attribution order, there is at most one maximum in being. This follows from the order by approach and strict primacy (`QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM`), without the genus principle or Met. II.1. A countermodel with tied degrees shows that strict primacy is needed. Since strict primacy is an open premise, uniqueness stays open on this route.
+A byproduct for uniqueness (#320): on the attribution order, there is at most one maximum in being. This follows from the order by approach, strict primacy and explicit excluded middle (`QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM`), without the genus principle or Met. II.1. A countermodel with tied degrees shows that strict primacy is needed. Since strict primacy is an open premise, uniqueness stays open on this route.
 
 ### Where an equivocation sits
 
@@ -78,3 +78,91 @@ Candidate `ARIST-MET-993B-PRINCIPLES-UNCAUSED-IN-BEING` records a possible sourc
 2. **The rest of ST I q.3 a.5.** Still to formalize: the first proof (a differentia stands to its genus as act to potency), the third proof (things in one genus differ in esse), and not being in a genus *per reductionem* as a principle (God is principle of all esse). The third proof would connect to `STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE`.
 3. **Composition onto the root path.** A first-mover version of `STMT-GOD-IN-NO-GENUS` would need the simplicity result plus a generalized and separately sourced esse-essence premise.
 4. **Unformalized sourced commitments.** `STMT-NO-GENUS-OVER-PRIOR-AND-POSTERIOR`, `STMT-BEING-SAID-PROS-HEN`, `STMT-DIVINE-NAMES-ANALOGICAL` and `STMT-BEING-FIRST-ANALOGICAL-PREDICATE` are claims without Lean declarations. Whether ST I q.13 a.5 is analogy of attribution or of proportionality (Cajetan or Suárez) is not decided. Those authors are orientation only until pinned.
+
+## Periodic Audit A, round 2 (2026-10-26, #410)
+
+The audit compared main after #392 (`759082ee`) with #422
+(`fb944bec39ee1f54adc8051a6fd8c27ae69cd365`). It covered the changed Latin
+modules, the root wording, their statements, claims, arguments, results,
+definitions and disambiguations, and the root dependencies discussed above.
+The shared convention stack resolved at source revision
+`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+Two premise omissions in prose were corrected without changing any Lean type
+or proof. First, `homogeneousLift` requires universal possession
+`hAll : ∀ x, InAct x r`, while the earlier summaries said an attribution
+reading was unconditionally a homogeneous scale. For example, take two
+individuals, let only the primary have `r`, and compare them by their degrees:
+`ApproachToPrimaryReading` holds but `HomogeneousScaleReading` fails its first
+conjunct. The order-shape observation survives with the additional condition.
+Second, the uniqueness and genus-at-being summaries now name the explicit
+excluded-middle premise used by `eq_of_isMaximumIn`. Their argument and
+inference records already listed that premise correctly. The old q.75
+non-bodyhood note's next-step paragraph was also advanced to the remaining
+per-se-operation and subsistence passage.
+
+### Materialized source-fidelity sample
+
+The following claims were reread in freshly materialized pinned witnesses,
+including the surrounding argument. These are source-reading judgments,
+not conclusions from Lean or source hashes.
+
+| Claim | Passage and precise locator | Audit reading |
+| --- | --- | --- |
+| `AQUINAS-ST-I-Q3-A4-ESSE-CAUSE-DICHOTOMY` | `AQUINAS-ST-I-Q3-A4`, co., first proof, *si igitur ipsum esse rei* | Two causal options for distinct esse; not an unrestricted explanatory PSR. |
+| `AQUINAS-ST-I-Q3-A4-ESSE-NO-SELF-CAUSE` | Same, *impossibile est autem quod esse sit causatum tantum* | Essential principles alone cannot sufficiently cause their subject's caused esse; contributory or noncausal reasons are not excluded. |
+| `AQUINAS-ST-I-Q3-A4-DISTINCT-ESSE-EXTERNAL-CAUSE` | Same, *oportet ergo quod illud cuius esse* | Conditional external-cause conclusion; no converse or conservation thesis. |
+| `AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A` | `AQUINAS-ST-I-Q3-A5`, ad 2, *tantum habet de esse, quantum ei appropinquat* | Order comparison is an explicit selected reading; strict primacy is kept separate. |
+| `AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A` | `AQUINAS-ST-I-Q13-A5`, co., *ordo creaturae ad Deum, ut ad principium et causam* | Causal order concerns creatures; all non-primary individuals being creatures remains an additional open premise. |
+| `AQUINAS-ST-I-Q75-A2-UNIVERSAL-BODILY-COGNITION` | `AQUINAS-ST-I-Q75-A1-A2`, co., anchor 31460, *cognoscere potest naturas omnium corporum* | Distributive capacity for bodily natures, not simultaneous omniscience. |
+| `AQUINAS-ST-I-Q75-A2-BODILY-DETERMINACY` | Same, *omne autem corpus habet aliquam naturam determinatam* | Some constitutive nature for each body; no uniqueness. |
+| `AQUINAS-ST-I-Q75-A2-NATURAL-BODILY-INTERFERENCE` | Same, *si igitur principium intellectuale haberet in se naturam* | Open interference conditional; the sensory illustration is not a proof of its universal application. |
+| `AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY` | Same, *impossibile est igitur quod principium intellectuale sit corpus* | First subconclusion only, without organ independence or subsistence. |
+| `AQUINAS-ST-I-Q75-A2-ORGAN-BODILY-INTERFERENCE` | Same, *natura determinata illius organi corporei prohiberet* | A separately stated organ-level interference commitment. |
+| `AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC` | Same, *impossibile est quod intelligat per organum corporeum* | No bodily instrument of exercise; ad 3, anchor 31463, retains object-side bodily dependence. |
+| `PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY` | `PASNAU-MIND-HUMAN-NATURE-353-357`, p.355 | The taste/sight examples do not establish either interference premise; pp.356–357 address a distinct universal-concept argument. |
+| `VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER` | `VATICAN-I-DEI-FILIUS-CH3`, paragraph beginning *Quoniam vero sine fide*, *Deus per Filium suum unigenitum Ecclesiam instituit* | The weak phase-1 existential wording does not add uniqueness. |
+
+The q.75 context also included the full materialized `AQUINAS-ST-I-Q76-A1`,
+especially ad 1, anchor 31513, which retains soul-as-form while distinguishing
+non-organic intellectual exercise. `AQUINAS-ST-I-Q2-A3` and
+`ARIST-MET-II-1` were also materialized and reread: q.2 a.3 retains the broad
+perfection reading of genus, while 993b24–26's synonymous-quality condition
+keeps the primary-as-effect use an explicitly recorded outstanding gap.
+
+### Proof acceptance, reuse and remaining gaps
+
+- `distinctEsseExternalFromExhaustion` eliminates the essential-cause fork
+  using its explicit negation and retains the external fork. This is accepted
+  only as the conditional transcription already flagged `assembly`; both
+  causal premises remain open. Its finite controls certify schema witnesses,
+  not metaphysical possibilities.
+- `attributionOrderGenusPrincipleAtBeing` identifies a maximum with the primary
+  using approach, strict primacy and excluded middle, then applies the causal
+  clause through the creature premise. `attributionOrderUniqueMaximum` uses
+  that same identification twice. These consequences are accepted with all
+  listed premises; neither strict primacy nor the creature premise is sourced
+  by the order lemma. The countermodels and restricted cause-more-such result
+  retain the limitations recorded above.
+- `intellectIsNotBody` and `intellectUsesNoBodilyOrgan` use the bodily-nature
+  witness and the appropriate interference conditional to contradict the
+  explicit universal capacity. These are typed reductios rather than opaque
+  transcriptions. No inference from non-bodyhood to organ independence is
+  advertised. The reused Model and cognitive/determinacy vocabulary coincide;
+  the distinct organ relation is necessary. Subsistence, the defense of both
+  interference premises and an affirmative rival account remain open.
+- The changed root wording matches its existential type and the linked
+  phase-1 definition. The skeleton's opaque bridge content remains open and
+  is not established by the wording correction.
+
+The reviewed definition/disambiguation links resolve and explain these uses.
+No additional missing-link finding was identified in this bounded scope;
+#216 remains the broader coverage task. The order models use Mathlib
+`Preorder`, `IsMax`, `IsGreatest` and `Preorder.lift`, rather than substitutes.
+No duplicate theorem or vocabulary requiring replacement was identified.
+
+Intended and actual premise comparison: **no change**. No theorem, Challenge,
+statement identity, argument premise list, transcription flag or root route
+is changed. The eight root-route costs remain 28, 29, 33, 35, 36, 36, 37 and
+38; the designated route retains 37 open leaves. This audit corrects what the
+prose claims, and discharges no philosophical obligation.
