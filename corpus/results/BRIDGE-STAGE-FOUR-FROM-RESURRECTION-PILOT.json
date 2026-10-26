@@ -1,0 +1,11 @@
+{
+  "id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "argument_id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "challenge_module": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.Challenge",
+  "solution_module": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.Solution",
+  "theorem": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.jesusClaimedDivineAuthorityAndRoseOfPilot",
+  "comparator_config": "results/BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by conjunction assembly: the conclusion is the conjunction of the two pilot premises in the shared case signature (State.core). It establishes neither historical cell. Because STMT-PILOT-JESUS-CLAIMS and STMT-PILOT-ROSE remain open, the conclusion remains open; this connection does not discharge stage 4.",
+  "transcription": "assembly"
+}
