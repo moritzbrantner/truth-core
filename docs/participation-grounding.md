@@ -163,3 +163,98 @@ essential/ordinary predication and the four explanatory questions.
 Shared conventions resolved at source revision
 `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`. Source integrity, interpretive fidelity
 and formal consequence remain independent review boundaries.
+
+## Participation schema source audit (#412, #359, #360)
+
+The participation schema and its three separately proved Plato, Proclus and
+Aquinas adapters remain **unimplemented**. This audit supplies source evidence
+and identifies rejected shortcuts; it registers no `instance_of_schema`
+relation. It does not prove that a substantive common theorem is impossible.
+`ATTEMPT-PARTICIPATION-SCHEMA-SOURCE-REUSE-AUDIT` records this bounded outcome.
+
+The complete materialized ranges read for this audit were `PLATO-PHAEDO-100`,
+`AQUINAS-ST-I-Q3-A8`, `AQUINAS-ST-I-Q4-A2`, `AQUINAS-ST-I-Q4-A3`,
+`AQUINAS-ST-I-Q44-A1`, and the newly pinned `PROCLUS-ET-1-13-TAYLOR`.
+The q.4 a.3 witness extends the existing SCTA q.4 manifest at the same revision,
+path and blob hash; no new edition or strengthened source claim is introduced.
+
+The Proclus witness is Thomas Taylor's **English translation**, appended to
+*The Six Books of Proclus on the Theology of Plato*, vol. II (London 1816).
+Internet Archive item `thomastaylor`, file `elementsoftheology_proclus_text.pdf`,
+physical PDF pages **806–816**, covers printed pages **300–310**: propositions
+1–13, with the opening of proposition 14 as immediate context. Physical page
+807 displays printed page 301; its page image was checked against the extracted
+participation/one-itself contrast of proposition 2. The PDF's byte SHA-256 is
+`3139040930ad1dac820b24d559e0e14a307ba9819391d53a610b7d6fcc75ca8e`.
+The smaller file `elementsoftheology_proclus.pdf` was rejected for this range
+because it lacks extractable text. No reconstructed website text or search
+snippet substitutes for the materialized archive PDF. The source record uses
+an explicitly local work identifier; it asserts no unverified CTS identity.
+
+The extracted text contains OCR noise, running heads and footnotes, and Taylor
+marks supplements in brackets, including in propositions 1, 3 and 4. Future
+claims require `basis: translation` and must distinguish his editorial additions
+from Proclus's transmitted text. The full range is available, but only page
+301 was checked visually in this audit; no blanket OCR-fidelity claim is made.
+The queued `PROCLUS-ELEMENTS-THEOLOGY-1-13` candidate preserves the entire range
+for substantive extraction in source order under #359. No proposition has been
+marked processed merely because its text was obtained and read.
+
+The reuse audit found distinct resources and obligations:
+
+- `Forms.ParticipationPredication` yields ordinary quality predication under
+  admitted-quality, Form and particular restrictions. `ExplanatoryParticipation`
+  additionally supplies a putative `Explains` witness. Phaedo 100c–e leaves its
+  manner unsettled. `BeautyEssentialCharacterization` is a sibling reading of
+  beauty itself; `EssentialCharacterization` for every admitted Form is an
+  explicitly **unattributed open premise**. Neither implies ordinary
+  self-predication. Thus neither replacing `Essentially` by `Exemplifies` nor
+  attributing the universal essence law to this passage is justified.
+- In the materialized q.44 a.1 corpus, Aquinas explicitly supplies the principle
+  that what belongs by participation is caused by what has it essentially,
+  together with subsistent esse and its uniqueness. These are philosophical
+  conditions, not the definition of an arbitrary participation relation.
+  The existing participated-esse statement has no Lean declaration. A proof
+  obtained solely by assuming its causal conclusion would be a transcription.
+- Q.4 a.3 corpus/ad 3 distinguishes analogical likeness from sharing one
+  specific or generic account. Ad 4 denies the reverse source-to-creature
+  likeness while allowing creature-to-source likeness. A common symmetric
+  resemblance predicate would erase this distinction. Q.3 a.8 further
+  distinguishes a participated form from its participant; neither may be
+  silently identified with the by-essence term. Q.4 a.2's causal preexistence
+  also distinguishes the same account from an eminent mode.
+- Proclus propositions 2–4 distinguish being one through participation from
+  being the one itself; the one/not-one language must retain its different
+  respects. Propositions 5–6 add priority and constraints on multiplicity;
+  proposition 7 separately argues for productive superiority. Proposition 11
+  also invokes science and knowledge of causes in its rejection of regress.
+  Bare participation therefore cannot replace these further arguments. They
+  need independent formalization before testing a shared inference.
+
+Two exact existing proofs are useful discriminators, without being new schema
+instances. `TruthCore.Results.Greek.Plato.ParticipationGrounding.groundingIndependent`
+(result `PARTICIPATION-GROUNDING-INDEPENDENT`) holds the classificatory/
+participation facts fixed while varying directed grounding, production and
+identification. It shows why a classificatory selector cannot itself provide
+these relations. `TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.sensitivityModels`
+(result `THIRD-MAN-SENSITIVITY`) includes a model retaining essential
+characterization while dropping ordinary self-predication, and other models
+separating directed imitation, symmetric likeness and unrestricted iteration.
+These are restricted formal compatibility tests, not metaphysical possibility
+proofs or refutations of all three historical theories.
+
+The strongest skeptical reply is to grant the participation vocabulary while
+withholding any proposed causal, essence-to-predication, source-extraction or
+uniform-likeness bridge. The present records and controls leave that position
+available. Supplying a bridge solely to produce a registered adapter would
+conceal the obligation. A next worker should formalize the independent Proclus
+conditions and the Aquinas analogical/essential-esse conditions, then identify
+an inference genuinely shared with the existing Plato vocabulary. A theorem
+about numerical inequality alone may be valid but would not establish the
+causal/explanatory participation schema requested in #412.
+
+Premise comparison: retained statements and readings unchanged; **no premises
+added, removed or discharged**, no root-route cost change. The full three-domain
+participation scope of #412 remains open. No new argument, result, Lean theorem,
+axiom or dependency is added by this audit. Shared conventions were resolved at
+`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.

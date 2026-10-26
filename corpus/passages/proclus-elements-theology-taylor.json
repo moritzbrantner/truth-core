@@ -1,0 +1,45 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
+    "source_url": "https://archive.org/download/thomastaylor/elementsoftheology_proclus_text.pdf",
+    "retrieved_at": "2026-10-26T18:49:00Z",
+    "sha256": "sha256:3139040930ad1dac820b24d559e0e14a307ba9819391d53a610b7d6fcc75ca8e",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Public domain: Thomas Taylor translation, London 1816; translator died 1835. Internet Archive item thomastaylor identifies the work as public domain.",
+    "translation": {
+      "translator": "Thomas Taylor",
+      "year": 1816,
+      "edition": "The Six Books of Proclus on the Theology of Plato, vol. II, London: printed for the author, 1816; Elements of Theology, pp. 300–310"
+    }
+  },
+  "passages": [
+    {
+      "id": "PROCLUS-ET-1-13-TAYLOR",
+      "locator": "props. 1–13 (Taylor 1816, vol. II, pp. 300–310)",
+      "claim_locator_prefixes": [
+        "props. 1–13",
+        "prop. 1 ",
+        "prop. 2 ",
+        "prop. 3 ",
+        "prop. 4 ",
+        "prop. 5 ",
+        "prop. 6 ",
+        "prop. 7 ",
+        "prop. 8 ",
+        "prop. 9 ",
+        "prop. 10 ",
+        "prop. 11 ",
+        "prop. 12 ",
+        "prop. 13 "
+      ],
+      "pdf_pages": {
+        "first": 806,
+        "last": 816
+      },
+      "text_sha256": "sha256:332203526076262a54e80391a80acf476a16e4e0ee3cd039cbd3313c924b9d35",
+      "incipit": "THE ELEMENTS OF THEOLOGY. PROPOSITION I."
+    }
+  ]
+}
