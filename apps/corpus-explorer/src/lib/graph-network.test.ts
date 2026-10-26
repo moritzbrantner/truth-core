@@ -49,6 +49,27 @@ test("network/leaf/overlay filters round-trip and never show partial premises", 
   expect(view.nodes.some((node) => node.id === "I1")).toBe(false);
 });
 
+test("frontier emphasis is shareable presentation state, not a different proof graph", () => {
+  const allState = { ...DEFAULT_STATE, emphasis: "all" as const };
+  expect(parseGraphState(new URLSearchParams(serializeGraphState(allState)))).toEqual(allState);
+  const normal = computeGraphView(graph, DEFAULT_STATE);
+  const emphasized = computeGraphView(graph, allState);
+  expect(emphasized.nodes).toEqual(normal.nodes);
+  expect(emphasized.edges).toEqual(normal.edges);
+});
+
+test("global frontier suppresses disconnected readings without dropping premises or changing closure", () => {
+  const connected = computeGraphView(graph, DEFAULT_STATE);
+  const all = computeGraphView(graph, { ...DEFAULT_STATE, showIsolated: true });
+  expect(connected.nodes.length).toBeLessThan(all.nodes.length);
+  expect(connected.edges).toEqual(all.edges);
+  expect(connected.nodes.filter((node) => node.kind === "statement" && node.statement.frontier)).toEqual(
+    all.nodes.filter((node) => node.kind === "statement" && node.statement.frontier),
+  );
+  const state = { ...DEFAULT_STATE, showIsolated: true };
+  expect(parseGraphState(new URLSearchParams(serializeGraphState(state)))).toEqual(state);
+});
+
 test("real corpus: bounded settled layout for 1000+ statements", () => {
   const corpus = getPropositionGraph();
   expect(corpus.statements.length).toBeGreaterThan(1000);

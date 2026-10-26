@@ -119,3 +119,26 @@ for (const mobile of [false, true]) {
     await page.close();
   }, 60000);
 }
+
+test("frontier is the homepage: dot statuses, direct workspace, and durable emphasis", async () => {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  await page.goto(new URL(`${basePath}/`, server.url).toString());
+  await page.getByRole("heading", { name: "Epistemic frontier" }).waitFor();
+  await page.locator(".network-marker[data-kind='statement']").first().waitFor();
+  expect(await page.locator(".network-marker[data-frontier='true']").count()).toBeGreaterThan(0);
+  expect(await page.locator(".network-marker[data-frontier-depth='bare']").count()).toBeGreaterThan(0);
+  expect(await page.locator(".network-marker[data-established='true']").count()).toBeGreaterThan(0);
+  expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
+  expect(await page.locator(".frontier-map-key").isVisible()).toBe(true);
+  expect(await page.getByRole("link", { name: "Case", exact: true }).getAttribute("href")).toContain("/state");
+  const count = await page.locator(".network-marker[data-frontier='true']").count();
+  await page.getByRole("button", { name: "Frontier highlighted" }).click();
+  await page.waitForURL((url) => url.searchParams.get("emphasis") === "all");
+  await page.reload();
+  expect(await page.getByRole("button", { name: "Show all equally" }).getAttribute("aria-pressed")).toBe("false");
+  expect(await page.locator(".network-marker[data-frontier='true']").count()).toBe(count);
+  expect(errors).toEqual([]);
+  await page.close();
+}, 60000);

@@ -88,7 +88,7 @@ export function researchFrontier(
         ? "Only a transcription supports this open premise; its own premises remain open."
         : "No closure rule establishes this argument premise.",
       nextAction: "Find a faithful derivation or investigate a countermodel and its missing premises.",
-      href: `/statements/${item.statement_id}`,
+      href: `/dossiers/${item.statement_id}`,
     });
     if (item.depth === "bare") {
       add({
@@ -100,7 +100,7 @@ export function researchFrontier(
         title: item.paraphrase,
         blocker: "No stating claim or supporting claim supplies source evidence.",
         nextAction: "Pin and materialize a source witness, or keep the statement as an explicit open premise.",
-        href: `/statements/${item.statement_id}`,
+        href: `/dossiers/${item.statement_id}`,
       });
     }
     for (const alternative of item.alternatives.filter((entry) => !entry.refuted)) {
@@ -113,7 +113,7 @@ export function researchFrontier(
         title: `Alternative to ${item.statement_id}`,
         blocker: `${alternative.statement_id} has no verified refutation.`,
         nextAction: "Investigate the rival's replacement account and test it against the shared questions.",
-        href: `/statements/${alternative.statement_id}`,
+        href: `/dossiers/${alternative.statement_id}`,
       });
     }
     for (const objection of item.objections) {
@@ -126,7 +126,7 @@ export function researchFrontier(
         title: `Objection to ${item.statement_id}`,
         blocker: `${objection} is recorded as an attack; an attack is not a refutation.`,
         nextAction: "Inspect the objection and record a sourced reply or the remaining inferential bridge.",
-        href: `/statements/${item.statement_id}`,
+        href: `/dossiers/${item.statement_id}`,
       });
     }
   }

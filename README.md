@@ -141,7 +141,7 @@ Run `bun run typecheck`, `bun run test`, `bun run lint`, and `bun run build` to 
 
 The `/skeleton/` view follows the designated root route: checked connections and supporting results, open premises, and explicitly recorded next gaps. A conditional connection is distinct from a discharge from established premises; source support alone discharges nothing.
 
-Claim pages expose the exact pinned primary-source witness and its edition/revision/blob identity separately from the project's interpretation and from any mechanically verified arguments. The explorer preserves the existing claim/result URLs while resolving proposition and argument content through the statement/inference model. A future React Flow composition view should be derived from these records, not stored as canonical graph layout state.
+The homepage is the epistemic-frontier graph: connected proposition dots, explicit inference junctions, and research obligations derived from the typed corpus and its authoritative closure report. Disconnected source-only statements remain searchable without cluttering the initial canvas. The graph's deterministic layout is a presentation projection, never a canonical relation or proof record. Claim pages separately expose pinned primary-source witnesses and interpretations, and premise dossiers collect source readings, previous attempts, and remaining blockers without promoting them to verified consequences.
 
 ## Worker loop
 

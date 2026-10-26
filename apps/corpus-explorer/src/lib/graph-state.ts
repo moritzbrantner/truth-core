@@ -8,6 +8,10 @@ export type FocusDirection = "up" | "down" | "both";
 export type GraphState = ProofSearchState & {
   view: GraphView;
   layout: "network" | "layered";
+  /** Presentation emphasis only; never changes closure or inference connectivity. */
+  emphasis: "frontier" | "all";
+  /** Keep disconnected source readings searchable without cluttering the default map. */
+  showIsolated: boolean;
   leaf: "" | "unsupported" | "unconsumed" | "frontier";
   relations: boolean;
   scope: "global" | "goal";
@@ -67,6 +71,8 @@ export const DEFAULT_STATE: GraphState = {
   proofScope: [],
   view: "all",
   layout: "network",
+  emphasis: "frontier",
+  showIsolated: false,
   leaf: "",
   relations: false,
   scope: "global",
@@ -103,6 +109,8 @@ export function parseGraphState(params: ReadableParams): GraphState {
   const hops = Number.parseInt(params.get("hops") ?? "", 10);
   return {
     layout: params.get("layout") === "layered" ? "layered" : "network",
+    emphasis: params.get("emphasis") === "all" ? "all" : "frontier",
+    showIsolated: params.get("islands") === "1",
     leaf: oneOf(params.get("leaf"), ["", "unsupported", "unconsumed", "frontier"] as const, ""),
     relations: params.get("relations") === "1",
     ...parseProofSearchState(params),
@@ -134,6 +142,8 @@ export function parseGraphState(params: ReadableParams): GraphState {
 export function serializeGraphState(state: GraphState): string {
   const params = new URLSearchParams();
   if (state.layout !== "network") params.set("layout", state.layout);
+  if (state.emphasis !== "frontier") params.set("emphasis", state.emphasis);
+  if (state.showIsolated) params.set("islands", "1");
   if (state.leaf) params.set("leaf", state.leaf);
   if (state.relations) params.set("relations", "1");
   if (state.view !== DEFAULT_STATE.view) params.set("view", state.view);
