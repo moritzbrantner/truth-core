@@ -1,6 +1,6 @@
 {
   "id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
-  "paraphrase": "God brings good out of every evil there is.",
+  "paraphrase": "For any God g and any subject x with evil in it, g actually brings some good in some bearer and perfection from the evil in x.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading",
   "disambiguation_ids": [
     "DISAMB-GOD",
