@@ -160,8 +160,11 @@ test("recorded claim evidence links related propositions without changing proof 
   await page.locator(".graph-detail").getByRole("link", { name: `${projected.originId} →`, exact: true }).first().waitFor();
   expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
   await page.locator(".frontier-advanced > summary").click();
-  await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).uncheck();
+  const relationsToggle = page.getByRole("checkbox", { name: "Recorded research links (not proof)" });
+  await relationsToggle.click();
   await page.waitForURL((location) => location.searchParams.get("relations") === "0");
+  await page.locator('.react-flow__edge[data-id^="relation:"]').first().waitFor({ state: "detached" });
+  expect(await relationsToggle.isChecked()).toBe(false);
   expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBe(0);
   expect(await page.locator(".network-marker[data-kind='inference']").count()).toBeGreaterThan(0);
   await page.reload();
