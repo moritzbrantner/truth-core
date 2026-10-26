@@ -1,5 +1,5 @@
 import { hasFilters, type GraphState } from "./graph-state";
-import type { GraphInference, GraphStatement, PropositionGraph } from "./proposition-graph";
+import { researchLinkedStatements, type GraphInference, type GraphStatement, type PropositionGraph } from "./proposition-graph";
 
 /** Root-path and focus views keep at most this many statements, nearest first. */
 export const MAX_VIEW_STATEMENTS = 300;
@@ -235,6 +235,7 @@ export function computeGraphView(
     highlightArgument ? [...highlightArgument.premises, highlightArgument.conclusion] : [],
   );
   const highlightedInferences = new Set(highlightArgument?.inferenceIds ?? []);
+  const researchLinked = state.relations ? researchLinkedStatements(graph) : new Set<string>();
   // A queue, search result, proof pin, or restored URL may point to a reading
   // without an inference yet. Keep that explicitly addressed dot on the map.
   const explicitlyShown = new Set([
@@ -260,6 +261,7 @@ export function computeGraphView(
           state.showIsolated ||
           index.producers.has(statement.id) ||
           index.consumers.has(statement.id) ||
+          researchLinked.has(statement.id) ||
           explicitlyShown.has(statement.id) ||
           (filtering && statementMatches(statement, state, index)),
         )
@@ -444,10 +446,16 @@ export function computeGraphView(
     edge.label = `${edge.count} step${edge.count === 1 ? "" : "s"}`;
     edges.push(edge);
   }
+  const relationEdges = new Map<string, ViewEdge>();
   for (const relation of state.relations ? graph.relations : []) {
-    if (visible.has(relation.subject) && visible.has(relation.object)) {
-      edges.push({
-        id: `relation:${relation.id}`,
+    if (relation.subject === relation.object || !visible.has(relation.subject) || !visible.has(relation.object)) continue;
+    const id = `relation:${relation.subject}:${relation.predicate}:${relation.object}`;
+    const existing = relationEdges.get(id);
+    if (existing) {
+      existing.count = (existing.count ?? 1) + 1;
+    } else {
+      relationEdges.set(id, {
+        id,
         source: relation.subject,
         target: relation.object,
         kind: "relation",
@@ -455,6 +463,10 @@ export function computeGraphView(
         highlighted: false,
       });
     }
+  }
+  for (const edge of relationEdges.values()) {
+    if (edge.count) edge.label = `${edge.label} · ${edge.count} records`;
+    edges.push(edge);
   }
 
   return {

@@ -80,8 +80,22 @@ describe("graph views", () => {
     const all = computeGraphView(graph, state({ view: "all", relations: true, open: ["derived · TruthCore.Test"] }));
     expect(all.edges.filter((edge) => edge.kind === "relation").map((edge) => edge.label)).toEqual([
       "alternative to",
+      "refutes",
       "attacks",
     ]);
+  });
+
+  test("repeated research records share one visual link and never become proof edges", () => {
+    const first = graph.relations[0];
+    if (!first) { throw new Error("The fixture needs a research relation"); }
+    const duplicate = { ...graph, relations: [...graph.relations, { ...first, id: "REL1-SECOND-WITNESS" }] };
+    const view = computeGraphView(duplicate, state({ view: "all", layout: "network" }));
+    const related = view.edges.filter((edge) => edge.kind === "relation" && edge.source === "ALT" && edge.target === "DEF");
+    expect(related).toHaveLength(1);
+    expect(related[0].label).toBe("alternative to · 2 records");
+    expect(view.edges.filter((edge) => edge.kind !== "relation")).toEqual(
+      computeGraphView(graph, state({ view: "all", layout: "network" })).edges.filter((edge) => edge.kind !== "relation"),
+    );
   });
 
   test("search ranks frontier statements first", () => {
