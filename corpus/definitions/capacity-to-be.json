@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CAPACITY-TO-BE",
+  "term": "ability to be (dynaton)",
+  "definition": "`CanBe x r`: x is able to be r, as the knower who is not contemplating is able to contemplate and the wood is able to have the Hermes cut out of it. A primitive of the Metaphysics IX.6 analysis of potency; it says nothing about whether x is actually r, and nothing in the case constrains it beyond that analysis.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
+  ],
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.PotencyIsUnactualizedCapacityReading"
+}

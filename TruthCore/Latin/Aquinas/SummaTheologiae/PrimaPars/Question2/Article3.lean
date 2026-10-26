@@ -80,6 +80,31 @@ def ReducedOnlyByAMoverReading {Being : Sort u} {Respect : Sort v}
     (MovesIn : Being → Being → Respect → Prop) : Prop :=
   ∀ x r, MovedIn x r → ∃ y, MovesIn y x r
 
+/-- Nothing is reduced from potency to act except by some being in act
+(*de potentia autem non potest aliquid reduci in actum, nisi per aliquod ens in
+actu*), read with its last words: whatever is being moved in a respect is moved
+in that respect by something that is itself in act in that respect, as fire,
+actually hot, makes the wood actually hot.
+
+A sibling reading of the sentence that `ReducedOnlyByAMoverReading` formalizes
+without *in actu*. It states only that *some* mover of each moved thing is in
+act in the respect, not that *every* mover is (`MovesOnlyAsInActReading`). It
+therefore lies between `ReducedOnlyByAMoverReading`, which it entails, and the
+conjunction of that premise with `MovesOnlyAsInActReading`, which entails it
+(formal fact `BeingInActReadingFacts`).
+
+The same principle is Aquinas' reason for act's simple priority in I q.3 a.1
+co. (*quia quod est in potentia, non reducitur in actum nisi per ens actu*), and
+Aristotle states it in *Metaphysics* IX.8, 1049b24-26.
+
+Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.
+-/
+def ReducedOnlyByABeingInActReading {Being : Sort u} {Respect : Sort v}
+    (MovedIn : Being → Respect → Prop)
+    (MovesIn : Being → Being → Respect → Prop)
+    (InAct : Being → Respect → Prop) : Prop :=
+  ∀ x r, MovedIn x r → ∃ y, MovesIn y x r ∧ InAct y r
+
 /-- Nothing is simultaneously in act and in potency in the same respect, only in
 different respects (*non autem est possibile ut idem sit simul in actu et potentia
 secundum idem, sed solum secundum diversa*).

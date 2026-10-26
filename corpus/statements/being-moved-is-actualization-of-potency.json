@@ -1,0 +1,14 @@
+{
+  "id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
+  "paraphrase": "A being is being moved in a respect exactly when it is potentially so and that potency, precisely as a potency, is being actualized.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BeingMovedIsActualizationOfPotencyReading",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

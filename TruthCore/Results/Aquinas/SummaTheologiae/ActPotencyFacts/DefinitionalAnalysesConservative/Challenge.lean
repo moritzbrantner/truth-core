@@ -1,0 +1,6 @@
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
+namespace TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAnalysesConservative
+open TruthCore.Latin.Aquinas.SummaTheologiae
+theorem definitionalAnalysesConservative : ActPotencyDefinitionalAnalysesConservative := by
+  sorry
+end TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAnalysesConservative

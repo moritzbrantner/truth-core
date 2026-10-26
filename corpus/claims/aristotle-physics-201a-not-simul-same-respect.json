@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-PHYS-201A-ACT-POTENCY-NOT-SIMUL-A",
+  "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201a19-21",
+  "interpretation": "Aristotle notes that some things are the same both potentially and actually, 'not at the same time, or not in the same respect' (ουχ αμα δε η ου κατα το αυτο), e.g. actually hot and potentially cold. Read as the principle that whatever is both is never so at once in one respect, which is Aquinas' non-simultaneity premise; the hot/cold example is the one Aquinas uses. The clause qualifies 'some things are both', so the universal reading is the step this claim takes; Aristotle uses it at once to explain why physical movers are acted on, not to argue for a first mover. No time index is formalized: the Lean premise is read at one time, as in the prima via.",
+  "status": "formalized"
+}
