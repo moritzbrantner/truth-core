@@ -2,7 +2,7 @@
 
 Reading date: 2026-10-26 · Campaign: [#492](https://github.com/moritzbrantner/truth-core/issues/492) · Source identity: NECESSARYBEING-SURVEY
 
-**Status: source orientation only.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. The site's HTML has **not** yet been pinned as a reproducible passage, source_evidence.py materialization has not run, and none of these readings is a canonical corpus claim, accepted premise, or Lean-verified argument. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. First pin and read source witnesses, then compare existing statements and form claims.
+**Status: source orientation only.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The corpus's materialize command has **not** run in a local checkout, and none of these readings is yet a canonical source claim, accepted premise, or Lean-verified argument. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. First pin and read source witnesses, then compare existing statements and form claims.
 
 The survey has ten numbered arguments, but most share a modal suffix. They should be imported as distinct source arguments sharing the *same* verified modal intermediate result, not ten copies of that proof.
 
@@ -108,10 +108,10 @@ Shared introduction: [home](https://necessarybeing.com/), [instructions](https:/
 
 ## Corpus next steps and verification boundary
 
-1. Pin HTML bytes and text slices via web_snapshot, preferably with matching Wayback fallback. Since the source is live and may drift, do not cite the current DOM snapshot as reproducible evidence.
+1. Re-verify and materialize the four initial hash-pinned passages: NECESSARYBEING-DEFINITION, NECESSARYBEING-A1-TOTALITY, NECESSARYBEING-A1-EXTERNAL and NECESSARYBEING-A7-DESCENT. Find durable archival fallbacks for A1c2 and A7c if possible. Pin subsequent A2–A10 source pages as the source-order campaign proceeds.
 2. Materialize and inspect the exact text and adjacent context. Check site authorship, timestamp and licensing rather than assigning a philosopher by speculation.
 3. Reuse exact existing definitions, statements, and Lean declarations; create sibling claims for genuinely distinct readings, especially necessary-being identity and the A1 causal variant.
 4. Process reviewable source batches (~5–10 claims or one coherent argument); construct inference, argument, Challenge/Solution and result records only after the source boundary is satisfied.
 5. Run source check/verify, full build, corpus check and bind-check, relevant Comparator checks and frontier comparison. No root premise closure has occurred from this first pass.
 
-**Premise comparison for this inventory PR:** none discharged, none introduced as accepted corpus premises; no source-derived claims or mechanically verified results added. The philosophical additions are research leads and a reproducible workflow target, not proof of theism.
+**Premise comparison for this inventory PR:** none discharged, none introduced as accepted corpus premises; four source-evidence manifests but no source-derived claims or mechanically verified results added. The philosophical additions are research leads and a reproducible workflow target, not proof of theism.
