@@ -1,0 +1,9 @@
+{
+  "id": "INF-REGRESS-SCHEMA-PACKAGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-REGRESS-SCHEMA-PACKAGE",
+  "rule": "accessibility-and-all-premise-induction-with-knaster-tarski-and-explicit-domain-transfers",
+  "meaning": "Accessibility induction proves graph controls and map transfer; Mathlib fixed points identify inductive closure and coinductive closure under well-foundedness. Imported finite-history, typed-motion and finite-grounding results prove the first three adapters; rank mapping, strict parthood and all-premise warrant induction prove the other three. Explicit successor, singleton-cycle and reversed-order controls discriminate the semantics. The scoped self-application theorem is reused. All philosophical conditions are quantified inside the advertised conditional laws; no actual domain is assumed well-founded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

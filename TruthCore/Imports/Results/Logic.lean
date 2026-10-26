@@ -3,6 +3,7 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.RegressSchema.Solution
 import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution
 import TruthCore.Results.Logic.Relativism.Models.Solution
 import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution

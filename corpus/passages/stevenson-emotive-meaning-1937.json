@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "STEVENSON-EMOTIVE-MEANING-1937",
+    "source_url": "https://sites.ualberta.ca/~francisp/NewPhil448/StevensonEmotiveEthics1937.pdf",
+    "retrieved_at": "2026-10-26T18:23:41Z",
+    "sha256": "sha256:a8bb3c77dedf3e6b142043890cda5fc63d9ae59ce5d57794cca1db029bb6fd69",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Mind journal article (1937), Oxford University Press; no open license stated in PDF. University of Alberta teaching copy. Only hashes, locators and a short incipit committed; PDF and extraction remain in ignored cache."
+  },
+  "passages": [
+    {
+      "id": "STEVENSON-EMOTIVE-MEANING-1937-14-31",
+      "locator": "pp. 14–31 (complete article)",
+      "claim_locator_prefixes": [
+        "p. 27,",
+        "pp. 27–29,",
+        "pp. 21–23,"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 18
+      },
+      "text_sha256": "sha256:b3577a356efb456878b217facd4d8da333fdff78dd9458328cd25a19ef92e3f0",
+      "incipit": "II—THE EMpTIVE MEANING OF ETHICAL TERMS. I. ETHICAL questions first arise in"
+    }
+  ]
+}

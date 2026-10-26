@@ -1,0 +1,16 @@
+{
+  "id": "STMT-REGRESS-EFFICIENT-TRANSFER",
+  "paraphrase": "For every same-carrier causal and per se relation, finite distinct transitive ancestry, no causal loops and inclusion of every per se edge in the causal relation imply all schema controls for per se efficient causes. These antecedents remain open, unattributed conditions.",
+  "lean_declaration": "TruthCore.Logic.RegressDomains.EfficientTransfer",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+    "DEF-CAUSAL-HISTORY-NO-LOOPS",
+    "DEF-PER-SE-FINITE-HISTORY-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

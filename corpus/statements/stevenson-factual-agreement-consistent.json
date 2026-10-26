@@ -1,0 +1,16 @@
+{
+  "id": "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT",
+  "paraphrase": "The three existing Stevenson commitments and the structured primary disagreement account are jointly satisfiable, including a moral interest clash under agreement on all designated factual matters. Encoded consistency only, not theory truth.",
+  "lean_declaration": "TruthCore.Comparison.Stevenson.FactualAgreementConsistent",
+  "definition_ids": [
+    "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
+    "DEF-DISAGREEMENT-IN-ATTITUDE",
+    "DEF-MORAL-STATEMENT",
+    "DEF-ENCODED-THEORY-CONSISTENCY",
+    "DEF-DESCRIPTIVE-MORAL-MEANING",
+    "DEF-MORAL-SENTENCE-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-DISAGREEMENT"
+  ]
+}

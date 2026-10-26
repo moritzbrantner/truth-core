@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.factualAgreementConsistent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,7 @@
+{
+  "id": "DEF-REGRESS-DOMAIN-ADAPTERS",
+  "term": "separate efficient, mover, grounding, explanatory and mereological graph adapters",
+  "basis": "stipulative",
+  "definition": "efficient preserves CausesAsCaused. motion uses MoverMovedByAnotherLink, retaining nonidentity and respect witnesses. grounding uses ParticipationGrounding.Explanation.Grounds between tagged facts, not implication. ExplanatoryDependence augments the PSR Model with a separate requires relation from reasons to existence facts; explanation p q holds when an admitted reason for q requires p. The rank premise must hold for every such reason and requirement. parthood uses strict order of an explicitly supplied PartialOrder; a graph source is an atom only relative to that chosen proper-parthood interpretation.",
+  "note": "Analyst adapters, not new historical claims or completion of the strict-ground calculus in issue 348. PSR explains is heterogeneous; its projection does not by itself establish any regress prohibition. Strict parthood assumes no fusion or supplementation. Existing source and typed vocabulary retain their own meanings."
+}

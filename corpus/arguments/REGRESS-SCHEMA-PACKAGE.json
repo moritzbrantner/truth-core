@@ -1,0 +1,17 @@
+{
+  "id": "REGRESS-SCHEMA-PACKAGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REGRESS-SCHEMA-PACKAGE",
+  "inference_ids": [
+    "INF-REGRESS-SCHEMA-PACKAGE"
+  ],
+  "meaning": "A proved mathematical package with six conditional instances and discrimination controls, not an analogy, a transcription of opaque premises, or a defense of actual metaphysical/epistemic well-foundedness. No root-path premise changes. Actual per se power\u2019s fixed-point semantics and any epistemic-to-causal bridge remain open.",
+  "definition_ids": [
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-REGRESS-DOMAIN-ADAPTERS",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}
