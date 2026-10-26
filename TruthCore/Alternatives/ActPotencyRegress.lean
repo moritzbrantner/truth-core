@@ -198,8 +198,9 @@ def MovedMoverMovesNotAsMovedReading {Being : Sort u} {Respect : Sort v}
   ∃ y x r r', y ≠ x ∧ MovesIn y x r ∧ MovedIn y r' ∧ ¬ MovesAsMoved y x
 
 /-- Rival to `NoInfinitePerSeEfficientCauseSeriesReading`: there is an
-infinite descending per se series of efficient causes, each a middle cause of
-the one before, with no first. The countermodels `INFINITE-LOCAL-TRANSMISSION-MODEL`
+endless descending chain of per se links of efficient causes, each a middle
+cause of the one before, with no first. The chain `f` need not be injective, so
+a per se loop also yields one. The countermodels `INFINITE-LOCAL-TRANSMISSION-MODEL`
 and `ESSENTIAL-POWER-UNDERDETERMINED` show that such a series is consistent
 with local transmission rules (#310).
 

@@ -1,6 +1,6 @@
 {
   "id": "STMT-INFINITE-PER-SE-CAUSE-SERIES",
-  "paraphrase": "Rival: there is an infinite descending series of per se efficient causes, each a middle cause of the one before, with no first.",
+  "paraphrase": "Rival: there is an endless descending chain of per se links of efficient causes, each a middle cause of the one before, with no first. The chain need not run through distinct beings, so a per se loop also yields one.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.InfinitePerSeCauseSeriesReading",
   "definition_ids": [
     "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
