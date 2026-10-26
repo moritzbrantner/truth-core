@@ -21,7 +21,7 @@ theorem factualAgreementConsistent : FactualAgreementConsistent := by
   refine ⟨model, ?_, ?_, ?_, ?_⟩
   · exact fun _ _ => ⟨(), trivial⟩
   · exact fun _ _ => trivial
-  · exact fun _ _ _ hx hy => ⟨hx, hy⟩
+  · exact fun _ _ _ _ hx hy => ⟨hx, hy⟩
   · constructor
     · intro x y p
       constructor
