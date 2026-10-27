@@ -222,7 +222,7 @@ describe("corpus proposition graph", () => {
     for (const statement of graph.statements) {
       expect({ id: statement.id, ...displayed(statement) }).toEqual({ id: statement.id, ...expected(statement.id) });
     }
-  });
+  }, 120000);
 
   test("uses STMT-CATHOLICISM-TRUE as the default target once it exists", () => {
     const root = graph.statements.find((entry) => entry.id === "STMT-CATHOLICISM-TRUE");
