@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "argument_id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.ThoughtChangeSubject.omissionControls",
+  "comparator_config": "results/COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Three independent finite omission controls: no thought, nonchanging thought, and thought called change without the Physics reading. Logical models only."
+}

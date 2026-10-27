@@ -1,8 +1,8 @@
 {
   "id": "DEF-PRESUPPOSITION-LINK",
   "term": "presupposition link (retorsion)",
-  "definition": "`U.Link trace`: every performance of any content by any agent yields, through `trace`, a witness of the feature: for all a and p, Performs a p implies Feature (trace a p). It is the philosophical premise of each retorsion instance (for the Eleatic instance exactly STMT-OPINION-IS-A-MOTION), never supplied by the schema. Rejecting it is how an underminer escapes the schema (STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA).",
+  "definition": "`PresuppositionLink Performs Occurs token`: every performance (asserting, opining or appearing, fixed per instance) of any content p by any agent a is an occurring episode `token a p` of the sort the underminer's thesis denies. It is what a global underminer adds to the performed-denial schema of TruthCore.Logic.PerformedDenial (DEF-EPISODE-OCCURRENCE, DEF-ACCURATE-PERFORMED-DENIAL): it makes the performance of the thesis an accurate performed denial if the thesis is true. It is the open premise of each instance (for the Eleatic instance exactly STMT-OPINION-IS-A-MOTION) and never supplied by the schema; rejecting it is how an underminer escapes (STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA).",
   "basis": "stipulative",
-  "note": "Schema vocabulary. 'Presupposes' is read as this universally quantified link from performance to a witness, not as a semantic or pragmatic presupposition of a sentence; an instance that needs a weaker link (only some performances, or the held one only) would need a separate schema record.",
-  "lean_declaration": "TruthCore.Logic.Retorsion.Underminer.Link"
+  "note": "Schema vocabulary for #515. 'Presupposes' is read as this universally quantified link from performance to an occurring episode, not as a semantic or pragmatic presupposition of a sentence; an underminer whose link holds only for some performances would need a stated reason and its own record.",
+  "lean_declaration": "TruthCore.Alternatives.Retorsion.PresuppositionLink"
 }

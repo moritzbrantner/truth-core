@@ -1,0 +1,120 @@
+{
+  "id": "MODEL-NECESSARILY-UNDERIVED-SWITCHING",
+  "description": "Cross-world alternating contingent mediators: necessary a,b and contingent c,d form locally well-founded b→c→a and a→d→b chains. Union of direct necessary-to-necessary edges is empty, yet no necessary individual is underived; the no-contingent-ground bridge is essential.",
+  "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
+  "lean_declaration": "TruthCore.Models.NecessarilyUnderived.switching",
+  "bindings": {
+    "World": "Bool",
+    "Being": "TruthCore.Models.NecessarilyUnderived.Role",
+    "Ontic": "TruthCore.Models.NecessarilyUnderived.switching",
+    "Support": "TruthCore.Models.NecessarilyUnderived.switchingSupport",
+    "world": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Models.NecessarilyUnderived.Role.a",
+        "TruthCore.Models.NecessarilyUnderived.Role.b",
+        "TruthCore.Models.NecessarilyUnderived.Role.c",
+        "TruthCore.Models.NecessarilyUnderived.Role.d"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.enumerateRole"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingNecessary"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingActualWellFounded"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingReflexive"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingUnionWellFounded"
+    },
+    {
+      "statement_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingHasContingentGround"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingNoLifting"
+    },
+    {
+      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.switchingNoUnderived"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessarilyUnderived"
+  ]
+}

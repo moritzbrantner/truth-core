@@ -1,0 +1,6 @@
+{
+  "id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.ActualReflexive",
+  "paraphrase": "The chosen actual world accesses itself; no S5 accessibility or world-pair universality is asserted.",
+  "definition_ids": ["DEF-ACTUAL-MODAL-REFLEXIVITY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+}

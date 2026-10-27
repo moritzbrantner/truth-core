@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "paraphrase": "An explicitly two-history, universal-accessibility model preserves the three-world control's exact presence extensions in its two populated histories. Relative to this reduced carrier, every successor is populated and the shared root is necessarily present; no accessible presence extension is empty. This is a mathematical effect of restricting the admissible worlds, not a vindication of that metaphysical restriction.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.HistoryOnlyCountermodel",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+  ]
+}

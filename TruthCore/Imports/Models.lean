@@ -2,6 +2,8 @@
 import TruthCore.Models.ActPotency
 import TruthCore.Models.ActPotencyRemaining
 import TruthCore.Models.FiniteSupport
+import TruthCore.Models.Inertia
+import TruthCore.Models.NecessarilyUnderived
 import TruthCore.Models.NecessaryIndividual
 import TruthCore.Models.NightCosmogony
 import TruthCore.Models.Order

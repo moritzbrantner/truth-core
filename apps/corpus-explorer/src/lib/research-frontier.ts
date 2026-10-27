@@ -25,48 +25,14 @@ export function researchFrontier(
   report: FrontierReport,
 ): ResearchObligation[] {
   const obligations: ResearchObligation[] = [];
-  const reportedItems = new Map(report.items.map((item) => [item.statement_id, item]));
-  const consumers = new Map<string, Corpus["arguments"]>();
-  const routes = new Map<string, Set<string>>();
-  for (const relation of corpus.relations) {
-    if (relation.predicate === "root_route") {
-      const allowed = routes.get(relation.object_id) ?? new Set<string>();
-      allowed.add(relation.subject_id);
-      routes.set(relation.object_id, allowed);
-    }
-  }
-  for (const argument of corpus.arguments) {
-    for (const premise of argument.premise_statement_ids) {
-      consumers.set(premise, [...(consumers.get(premise) ?? []), argument]);
-    }
-  }
+  // Python's route-aware upward walk of every argument premise, open or closed;
+  // a statement no argument uses has no dependents.
   const upward = (ids: string[]) => {
-    if (ids.length && ids.every((id) => reportedItems.has(id))) {
-      const items = ids.map((id) => reportedItems.get(id)!);
-      return {
-        goals: [...new Set([...ids, ...items.flatMap((item) => item.transitive_dependent_statements)])],
-        dependents: new Set(items.flatMap((item) => item.transitive_dependent_arguments)).size,
-      };
-    }
-    // Closed/source-only readings are absent from the open-premise report.
-    // Follow their recorded argument topology for exploration scope, never for closure.
-    const goals = new Set(ids);
-    const argumentsSeen = new Set<string>();
-    const pending = [...ids];
-    for (let cursor = 0; cursor < pending.length; cursor += 1) {
-      for (const argument of consumers.get(pending[cursor]) ?? []) {
-        argumentsSeen.add(argument.id);
-        const conclusion = argument.conclusion_statement_id;
-        if (routes.has(conclusion) && !routes.get(conclusion)!.has(argument.id)) {
-          continue;
-        }
-        if (!goals.has(conclusion)) {
-          goals.add(conclusion);
-          pending.push(conclusion);
-        }
-      }
-    }
-    return { goals: [...goals], dependents: argumentsSeen.size };
+    const walks = ids.map((id) => report.premise_dependents[id]);
+    return {
+      goals: [...new Set([...ids, ...walks.flatMap((walk) => walk?.statements ?? [])])],
+      dependents: new Set(walks.flatMap((walk) => walk?.arguments ?? [])).size,
+    };
   };
   const add = (obligation: Omit<ResearchObligation, "rootRelevant" | "dependents" | "goals">) => {
     const reachability = upward(obligation.statementIds);

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PRESENT-ESSE-SUPPORT",
+  "term": "actual direct supporter of another individual's existence",
+  "definition": "PresentEsseSupport m R w₀ c b holds when c exists at the selected actual world and the separate primitive R records c as a direct existential supporter of b there. No c ≠ b condition is built into the raw relation; a well-founded support order rules out actual self-support. R is not identified with generic Ontic.Causes, the transmission of power, temporal production, or an adequate explanatory reason.",
+  "basis": "stipulative",
+  "note": "A source-free typed model for #495. DEF-EXISTENTIAL-SUPPORT-MODEL additionally requires distinct actual individuals and so cannot be reused as an exact synonym. Whether real existential grounding admits this abstraction remains open.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.PresentEsseSupport"
+}

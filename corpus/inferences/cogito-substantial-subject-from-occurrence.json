@@ -1,0 +1,12 @@
+{
+  "id": "INF-COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "input_statement_ids": [
+    "STMT-COGITO-SOME-THINKING-SUBJECT",
+    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE"
+  ],
+  "output_statement_id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+  "rule": "constructive-proof",
+  "meaning": "Obtain a thinking subject from COGITO-SUBJECT-FROM-OCCURRENCE, then apply the substance principle to that bearer and episode.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

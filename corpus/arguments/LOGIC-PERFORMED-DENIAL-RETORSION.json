@@ -1,0 +1,8 @@
+{
+  "id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
+  "inference_ids": ["INF-LOGIC-PERFORMED-DENIAL-RETORSION"],
+  "meaning": "No accurate performance of an assertion can deny the occurrence of all episodes of its own type. This is a universally quantified structural incompatibility, not an existential assertion about the actual world.",
+  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-ACCURATE-PERFORMED-DENIAL"]
+}

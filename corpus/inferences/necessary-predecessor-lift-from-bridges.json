@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
+  "input_statement_ids": [
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-NO-NOVEL-NECESSARY-SUPPORT"
+  ],
+  "output_statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+  "rule": "direct-proof",
+  "meaning": "Splits the lifting assumption into two disputable existential-support premises and selected-world reflexivity. World-to-actual necessary edge inclusion is strictly weaker than biconditional world invariance.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

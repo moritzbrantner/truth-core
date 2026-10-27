@@ -3,7 +3,7 @@
   "input_statement_ids": [],
   "output_statement_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
   "rule": "proof",
-  "meaning": "Instantiate the retorsion schema with witnesses being-respect pairs, feature being moved in that respect, thesis nothing is moved and trace the opiner in the respect of the opinion; its link is by definition OpiningIsBeingMovedReading. All philosophical conditions remain inside the universally quantified conditional.",
+  "meaning": "Suppose nothing is moved and someone opines it. The link makes that opining an occurring episode (the opiner moved in the respect of the opinion); it is a denial of every such episode, and the supposition makes the denial true. That is an accurate performed denial, which noAccurateDenial (#516) excludes. All philosophical conditions remain inside the universally quantified conditional.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

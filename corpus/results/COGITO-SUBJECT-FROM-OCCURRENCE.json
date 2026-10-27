@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-SUBJECT-FROM-OCCURRENCE",
+  "argument_id": "COGITO-SUBJECT-FROM-OCCURRENCE",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought",
+  "comparator_config": "results/COGITO-SUBJECT-FROM-OCCURRENCE/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (instantiation, AGENTS.md invariant 16): the proof only instantiates the open bearer principle at the witnessed occurring episode, so the bearer principle carries the whole load. Both premises (actual occurrence of a thought; every occurring thought has a bearer) remain open. No substance, enduring or unique self, immateriality or physical reality follows. Source-free; no Descartes attribution. No root change."
+}

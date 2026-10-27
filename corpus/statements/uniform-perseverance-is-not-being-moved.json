@@ -1,0 +1,15 @@
+{
+  "id": "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
+  "paraphrase": "State reading of the inertia bridge: a body persevering in uniform rectilinear motion is not thereby being moved in that respect; it acquires nothing and does not pass from potency to act.",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsNotBeingMovedReading",
+  "definition_ids": [
+    "DEF-UNIFORM-MOTION-AS-STATE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
+    "DISAMB-MOTION"
+  ]
+}

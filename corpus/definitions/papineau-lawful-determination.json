@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PAPINEAU-LAWFUL-DETERMINATION",
+  "term": "fully determined by law by prior occurrences (Papineau)",
+  "definition": "`FullyDeterminedByLaw S e`: the occurrences satisfying S fully determine e by law, so that, starting from e, one never has to leave S to find a fully sufficient cause for it (p.8); note 2 allows the chance version, on which the chances of e are so determined. In the completeness thesis S is the prior physical occurrences. The determiners are occurrences earlier than e (facts, p.10), not beings acting at the same time; DISAMB-PRIOR-DETERMINATION-AND-MOVER separates this from the case's mover.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PAPINEAU-RISE-COMPLETENESS-OF-PHYSICS-A"
+  ]
+}

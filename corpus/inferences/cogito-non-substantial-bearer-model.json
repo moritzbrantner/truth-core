@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "rule": "model-construction",
+  "meaning": "Interpret Occurs and Bears as always true and Substance as always false over Unit.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ROWE-APPARENT-POINTLESSNESS",
+  "term": "apparently pointless suffering",
+  "definition": "An occurring intense suffering preventable by a qualifying being with no blocking cost recognized by the fixed investigator. Recognition is a separate relation; no closure from unrecognized to nonexistent is imposed. This intentionally limited projection omits profusion, background evidence and epistemic warrant.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.English.Rowe.ApparentlyPointlessSuffering",
+  "note": "Modeling stipulation prompted by Rowe p.337’s explicit separation of appearance from actuality; it tests logical sufficiency only. A theory of rational warrant and total evidence would be needed to source a stronger epistemic or probability claim."
+}

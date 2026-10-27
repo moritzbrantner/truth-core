@@ -1,0 +1,10 @@
+{
+  "id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "argument_id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "challenge_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution",
+  "theorem": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.inertialObjectionYieldsRival",
+  "comparator_config": "results/INERTIAL-OBJECTION-YIELDS-RIVAL/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: no premise has the conclusion as its consequent, and the countermodels needsPerseveranceAlone, needsPersevering, needsMoverBridge, needsBecomingReading and needsNoSelfMotion in the Comparator config show that each premise is needed. A conditional derivation of the inertial rival from four open bundle commitments and one open Thomist premise; it closes nothing. The same config certifies that the rival survives the rest of the core (rivalSurvivesCore) and that on the state reading the Newtonian commitments and the mover premise are jointly satisfiable (stateReadingCompatible): a model witness of the encoding, not of physical possibility."
+}

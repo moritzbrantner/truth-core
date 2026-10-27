@@ -1,9 +1,9 @@
-import type { PropositionGraphInput } from "./proposition-graph";
+import type { GraphFixtureInput } from "./frontier-fixture";
 
 const statement = (id: string, extra = {}) => ({ id, paraphrase: `${id} paraphrase`, lean_declaration: `TruthCore.Test.${id}`, ...extra });
 
 /** Small corpus covering every status, used by the graph tests. */
-export const fixture: PropositionGraphInput = {
+export const fixture: GraphFixtureInput = {
   statements: [
     statement("P1"),
     statement("P2"),

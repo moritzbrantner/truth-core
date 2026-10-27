@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.roweDeductiveCore"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

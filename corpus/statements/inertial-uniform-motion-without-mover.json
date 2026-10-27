@@ -1,6 +1,6 @@
 {
   "id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
-  "paraphrase": "Inertial rival (unattributed): some body is being moved in a respect of uniform rectilinear motion while nothing moves it in that respect. Newton's first law (STMT-NEWTON-LEX-I-CHANGE-OF-STATE-ONLY-BY-IMPRESSED-FORCE) motivates it but does not state it: the rival adds that some moving body is free of impressed force and that a state of uniform motion is a being moved.",
+  "paraphrase": "Inertial rival (unattributed): some body is being moved in a respect of uniform rectilinear motion while nothing moves it in that respect. Newton's first law (STMT-NEWTON-LEX-I-CHANGE-OF-STATE-ONLY-BY-IMPRESSED-FORCE) motivates it but does not state it: the rival adds that some moving body is free of impressed force and that a state of uniform motion is a being moved. Result INERTIAL-OBJECTION-YIELDS-RIVAL derives it from the inertial objection's bundle with STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT, on the becoming reading of DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.UniformMotionWithoutMoverReading",
   "definition_ids": [
     "DEF-MOTION-AS-REDUCTION",
@@ -8,6 +8,7 @@
     "DEF-UNIFORM-LOCAL-MOTION"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "DISAMB-MOTION",
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING"
   ]
 }

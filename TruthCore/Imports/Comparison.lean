@@ -2,6 +2,7 @@
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
+import TruthCore.Comparison.Inertia
 import TruthCore.Comparison.McTaggart
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
@@ -12,5 +13,6 @@ import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.ProblemOfEvilCulpa
 import TruthCore.Comparison.Resurrection
+import TruthCore.Comparison.RoweEvil
 import TruthCore.Comparison.Stevenson
 import TruthCore.Comparison.Teleonomy

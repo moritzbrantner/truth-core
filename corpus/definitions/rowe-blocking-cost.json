@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ROWE-BLOCKING-COST",
+  "term": "blocking cost of preventing suffering",
+  "definition": "An outcome counterfactually unavoidable in preventing this suffering: loss of an unreplaceable greater good or permission of an evil at least as bad. The greater-good relation allows justice and no temporal restriction. An actually connected good, without necessity, is insufficient. This is Rowe’s simplified necessary-condition vocabulary; it does not make the cost morally sufficient, and it does not formalize the balance-neutral-good refinement in p.336 n.3.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.English.Rowe.BlockingCost",
+  "claim_ids": [
+    "ROWE-1979-PERMISSION-CONSTRAINT"
+  ]
+}

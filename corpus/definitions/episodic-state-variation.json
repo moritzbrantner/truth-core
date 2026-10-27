@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISODIC-STATE-VARIATION",
+  "term": "state variation across indexed episode times",
+  "definition": "In `StaticEpisodeControl`, state variation is the existence of two indices `t₁,t₂` with `StateAt t₁ ≠ StateAt t₂`. A singleton time carrier admits one occurring episode but no state variation. This is a deliberately weak test, not an account of all time or motion.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PerformedDenial.StaticEpisodeControl",
+  "note": "A countermodel to the invalid inference from one actual episode to temporal succession."
+}

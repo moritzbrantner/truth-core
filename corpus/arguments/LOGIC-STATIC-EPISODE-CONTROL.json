@@ -1,0 +1,8 @@
+{
+  "id": "LOGIC-STATIC-EPISODE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-STATIC-EPISODE-CONTROL",
+  "inference_ids": ["INF-LOGIC-STATIC-EPISODE-CONTROL"],
+  "meaning": "Construct an occurrence with no varying indexed state, separating occurrence from succession and motion.",
+  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-EPISODIC-STATE-VARIATION"]
+}

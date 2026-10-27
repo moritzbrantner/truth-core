@@ -1,0 +1,6 @@
+{
+  "id": "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
+  "paraphrase": "For any episode domain and occurrence/denial predicates, no actually occurring episode can both deny that any such episode occurs and have that denial be true. This does not establish that an episode occurs.",
+  "lean_declaration": "TruthCore.Logic.PerformedDenial.AccurateDenialImpossible",
+  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-ACCURATE-PERFORMED-DENIAL"]
+}

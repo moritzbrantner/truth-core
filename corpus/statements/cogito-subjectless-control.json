@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "paraphrase": "There is a one-episode interpretation in which a thought occurs and no subject bears any occurring thought (the bearer relation is empty). A finite interpretation, not a claim that subjectless thought is metaphysically possible.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.SubjectlessControl",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

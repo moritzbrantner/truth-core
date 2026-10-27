@@ -2,7 +2,7 @@
   "id": "ATTEMPT-RETORSION-SCHEMA-515",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-RETORSION-SCHEMA",
+    "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
     "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
     "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
     "STMT-OPINION-IS-A-MOTION",
@@ -12,9 +12,10 @@
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Research half of #515: one retorsion schema, proved once, and its first two global-underminer instances. Schema (TruthCore.Logic.Retorsion): a typed Underminer (performance relation, feature of witnesses, thesis denying every witness); given the presupposition link (every performance yields, through a trace, a witness), the held position is inconsistent. Zero axioms; controls show link and holding are each needed; Underminer.thesis_false_of_performance records that any performance, not only the thesis's, suffices once the link holds. Eleatic instance: witnesses are being-respect pairs, trace is the opiner in the respect of the opinion; the link is definitionally OpiningIsBeingMovedReading, and ELEATIC-THESIS-SELF-REFUTING is unchanged (its frozen Challenge imports only ActPotencyRegress, and Comparator rejects a Solution proof through a lemma outside the Challenge imports); this instance states the same conditional. McTaggart: one bounded attempt; he escapes at the link, not the logic: his § 511 answer (recorded in ATTEMPT-MCTAGGART-NOE-II-RETORSION-REPLY) denies the change link outright and, with the open bridge STMT-MOTION-IS-A-CHANGE, the Eleatic motion link; the opinionGate model satisfies his 1908 bundle, the 1927 answer, the bridge and both held positions while both links fail. Rejected: registering McTaggart as instance_of_schema (the instance fails; an escape record is not an instance) and a refutes relation for the Eleatic instance (its link is open, #391). Frontier delta: none.",
+  "summary": "Research half of #515: the first two global-underminer instances of one retorsion schema. Schema: #516's performed-denial retorsion (LOGIC-PERFORMED-DENIAL-RETORSION); #515 adds only the presupposition link (TruthCore.Alternatives.Retorsion.PresuppositionLink: every performance is, through a token, an occurring episode of the denied sort). Superseded approach: a separate typed Underminer schema module written before #516 merged; dropped to avoid a competing schema, since #516's theorem is its special case once the link is an instance hypothesis. Eleatic instance: episodes are being-respect pairs occurring when the being is moved in that respect; the token of an opining is the opiner in the respect of the opinion; the link is definitionally OpiningIsBeingMovedReading (eleatic_link_iff). Registered instance_of_schema; the instance's Comparator config lists both its theorem and noAccurateDenial, whose Solution its Challenge imports. ELEATIC-THESIS-SELF-REFUTING is unchanged: re-proving it through a schema lemma failed Comparator ('challenge and solution theorem statements do not match'), because its frozen Challenge imports only ActPotencyRegress; adding only the import passed. McTaggart: one bounded attempt; he escapes at the link, not the logic: his § 511 answer (ATTEMPT-MCTAGGART-NOE-II-RETORSION-REPLY) denies the change link outright and, with the open bridge STMT-MOTION-IS-A-CHANGE, the Eleatic link; the opinionGate model satisfies his 1908 bundle, the 1927 answer, the bridge and both held theses while both links fail; #516's StaticEpisodeControl is included. Rejected: registering McTaggart as instance_of_schema (the instance fails) and a refutes relation for the Eleatic instance (its link is open, #391). Frontier delta: none.",
   "evidence": [
-    "RETORSION-SCHEMA",
+    "LOGIC-PERFORMED-DENIAL-RETORSION",
+    "LOGIC-STATIC-EPISODE-CONTROL",
     "ELEATIC-RETORSION-SCHEMA-INSTANCE",
     "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
     "ELEATIC-THESIS-SELF-REFUTING",

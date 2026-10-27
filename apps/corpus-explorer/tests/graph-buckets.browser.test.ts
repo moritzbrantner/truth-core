@@ -42,6 +42,19 @@ async function open(query = "") {
   return { page, files, errors };
 }
 
+/**
+ * Wait until the explorer shows exactly `ids` and has nothing pending. Network silence is
+ * not a signal: a bucket fetch starts in an effect after the URL update, and
+ * `waitForLoadState("networkidle")` resolves at once when the page was already idle (#520).
+ */
+async function bucketsShown(page: Page, ids: string[]) {
+  await page.waitForFunction((wanted) => {
+    const panel = document.querySelector(".graph-buckets");
+    const shown = (panel?.getAttribute("data-shown-buckets") ?? "").split(" ").filter(Boolean).sort();
+    return panel?.getAttribute("aria-busy") === "false" && shown.join(" ") === wanted;
+  }, [...ids].sort().join(" "));
+}
+
 /** Largest distance, in flow units, between an edge end and the centre of its dot. */
 async function edgeOffset(page: Page) {
   return page.evaluate(() => {
@@ -75,9 +88,9 @@ async function edgeOffset(page: Page) {
 
 test("default view fetches only the root bucket, and edges meet their dots", async () => {
   const { page, files, errors } = await open();
-  await page.locator(".network-marker").first().waitFor();
-  await page.waitForLoadState("networkidle");
   const { manifest } = getGraphBuckets();
+  await bucketsShown(page, manifest.defaultBuckets);
+  await page.locator(".network-marker").first().waitFor();
   expect(files).toEqual(manifest.defaultBuckets.map((id) => `${id}.json`));
   const shell = page.locator(".graph-shell");
   await shell.scrollIntoViewIfNeeded();
@@ -102,10 +115,10 @@ test("facet filters in the URL fetch only buckets that can match", async () => {
   await page.locator(".frontier-advanced > summary").click();
   await page.getByRole("button", { name: /^Frontier · bare/ }).click();
   await page.waitForURL((url) => url.searchParams.get("closure") === "frontier-bare");
-  await page.waitForLoadState("networkidle");
   const { manifest } = getGraphBuckets();
   const expected = planBuckets(manifest, parseGraphState(new URLSearchParams("closure=frontier-bare")), null, null).wanted;
   expect(expected.length).toBeLessThan(manifest.buckets.length);
+  await bucketsShown(page, expected);
   expect([...new Set(files)].sort()).toEqual(expected.map((id) => `${id}.json`).sort());
   await page.getByRole("button", { name: /^Lane B/ }).click();
   await page.waitForURL((url) => url.searchParams.get("lane") === "B");

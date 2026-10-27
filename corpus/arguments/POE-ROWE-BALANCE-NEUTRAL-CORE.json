@@ -1,0 +1,24 @@
+{
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING",
+    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ],
+  "id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
+  "premise_statement_ids": [
+    "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+    "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT"
+  ],
+  "conclusion_statement_id": "STMT-ROWE-NO-THEISTIC-BEING",
+  "inference_ids": [
+    "INF-POE-ROWE-BALANCE-NEUTRAL-CORE"
+  ],
+  "meaning": "Instantiation of the structured Rowe deductive-core theorem with the suggested balance-neutral-good refinement from p.336 n.3. This weakens the necessary permission constraint but correspondingly strengthens the actual-gratuitous-suffering premise; both remain open. No equivalence to the simplified premises, numerical balance, epistemic warrant or actual permission is proved."
+}

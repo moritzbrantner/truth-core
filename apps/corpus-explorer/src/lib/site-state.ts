@@ -25,9 +25,46 @@ export type FrontierItem = {
   objections: string[];
   supporting_claims: string[];
   stating_claims: string[];
+  /** Stating or supporting claims that rest on a bibliographic span, not byte-verified (#378). */
+  bibliographic_claims?: string[];
   depth: FrontierDepth;
   transcription_premise_of: string[];
+  /** Present when the premise carries a self_evident marking whose criterion fails (#500). */
+  floor_unmet?: { basis: FloorBasis; reasons: string[] };
 };
+
+export type FloorBasis = "retorsion" | "common_ground" | "observation" | "legacy";
+
+/** Recorded disagreement about a floor marking (#378): `"none recorded"` or the rivals and claims. */
+export type FloorDisagreement =
+  | "none recorded"
+  | { rival_statement_ids?: string[]; claim_ids?: string[]; note?: string }
+  | null;
+
+/** A self_evident marking, with its criterion recomputed by `corpus.py frontier` (#500). */
+export type FloorEntry = {
+  statement_id: string;
+  basis: FloorBasis;
+  /** The basis criterion holds now; only then does the marking close the statement. */
+  met: boolean;
+  /** Why the criterion fails; empty when it holds. */
+  reasons: string[];
+  justification_ids: string[];
+  disagreement: FloorDisagreement;
+  reaches_root: boolean;
+};
+
+/** Display status of a statement (`statement_statuses` of `corpus.py frontier`); not a closure rule. */
+export type StatementStatus =
+  | "proved"
+  | "transcription"
+  | "self-evident"
+  | "defended"
+  | "alternative"
+  | "objection"
+  | "open"
+  | "derived"
+  | "source-only";
 
 export type TranscriptionFlag = {
   result_id: string;
@@ -80,7 +117,15 @@ export type FrontierReport = {
   refutations: Refutation[];
   /** Alternatives refuted by a counted refutation. */
   refuted_statements: string[];
-  routes: { root: string | null; cheapest_argument_id: string | null; routes: RootRoute[] };
+  routes: {
+    root: string | null;
+    cheapest_argument_id: string | null;
+    routes: RootRoute[];
+    /** Met floor premises that reach the root: closure is relative to these bases (#500). */
+    floor_bases?: Array<{ statement_id: string; basis: FloorBasis }>;
+  };
+  /** Every self_evident marking, in statement-ID order. */
+  floor: FloorEntry[];
   closed_via_transcription: Array<{
     statement_id: string;
     result_id: string;
@@ -92,11 +137,21 @@ export type FrontierReport = {
   /** Self-evident or defended, or reached from such statements through verified results only. */
   established_statements: string[];
   /** Statements whose upward argument walk reaches the root (root_route aware). */
-  reaching_root_statements?: string[];
+  reaching_root_statements: string[];
   alternatives_recorded: boolean;
   open_premise_count: number;
   depth_counts: Record<FrontierDepth, number>;
   items: FrontierItem[];
+  /** One display status per statement (#507). */
+  statement_statuses: Record<string, StatementStatus>;
+  /** Stage conclusions of the root skeleton that exist in the corpus. */
+  stages: Array<{ stage: number; statement_id: string }>;
+  /** Stages whose conclusion rests on the statement through inferences; absent when none. */
+  statement_stages: Record<string, number[]>;
+  /** The root when present, otherwise the verified conclusion resting on the most statements. */
+  default_target: string | null;
+  /** Route-aware upward walk of every argument premise, closed or open. */
+  premise_dependents: Record<string, { arguments: string[]; statements: string[] }>;
 };
 
 const repositoryRoot = path.resolve(process.cwd(), "../..");
@@ -206,10 +261,15 @@ export const CLOSURE_LABELS: Record<ClosureReason, string> = {
 
 export const CLOSURE_DESCRIPTIONS: Record<ClosureReason, string> = {
   proved: "Conclusion of a verified result that is not a transcription.",
-  self_evident: "Marked self-evident, with a sourced justification.",
+  self_evident: "Marked self-evident, and its floor basis criterion holds on the current records.",
   alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
   via_transcription: "Conclusion of a transcription result whose premises are all closed.",
 };
+
+/** The self_evident marking of a statement, as `corpus.py frontier` evaluates it. */
+export function floorEntry(report: FrontierReport, statementId: string): FloorEntry | undefined {
+  return report.floor.find((entry) => entry.statement_id === statementId);
+}
 
 export type Rival = {
   relationId: string;

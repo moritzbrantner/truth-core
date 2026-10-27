@@ -1,0 +1,9 @@
+{
+  "id": "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+  "paraphrase": "Newton, Def. III-IV, for uniform motion: whatever being a body perseveres in a state of uniform rectilinear motion by is the body itself (it perseveres by its inherent force, the force of inertia, alone; an impressed force does not remain in it after the action). It says nothing about whether the perseverance is a being moved, and asserts no persevering body.",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.PerseveranceByInherentForceAloneReading",
+  "definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ]
+}

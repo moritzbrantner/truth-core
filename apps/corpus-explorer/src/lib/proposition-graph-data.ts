@@ -34,7 +34,6 @@ export function getPropositionGraph(corpus: Corpus = getCorpus()): PropositionGr
     arguments: corpus.arguments,
     results: corpus.results,
     relations: corpus.relations,
-    transcriptionResultIds: Object.keys(report.transcription_results),
   }, report);
   const areas = getImportAreas();
   return {

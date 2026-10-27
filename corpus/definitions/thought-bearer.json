@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THOUGHT-BEARER",
+  "term": "subject (bearer) of a thought episode",
+  "definition": "`Bears s e` is a primitive, unconstrained relation: `s` is a subject that bears the thought episode `e`. `SomeThinkingSubject Occurs Bears` is `∃ s e, Occurs e ∧ Bears s e`. Subject here means bearer only. It is not a grammatical first person, not a substance or hypokeimenon, and not an enduring, unique or immaterial self; any such step is a separate open bridge.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.SomeThinkingSubject",
+  "note": "Stipulated for the source-free Cogito schema (#532). The relation order `Bears s e` (bearer first) matches the act/bearer draft #525 so that its substance step can reuse this vocabulary. Aquinas ST I q.75 a.2 (STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE) is a sourced but narrower bearer-type principle and is not identified with this one."
+}

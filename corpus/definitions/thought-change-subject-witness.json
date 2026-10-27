@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS",
+  "term": "subject of an actual thinking change",
+  "definition": "ThoughtChangeHasPotentialSubject Thought Change Potential QuaPotentialActuality means there are an episode e and subject s with Thought e, Change e, Potential s, and QuaPotentialActuality e s. This is the potential subject of the change, not necessarily an enduring substance or the Cartesian ego.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeHasPotentialSubject",
+  "note": "Retains the potentiality and actuality relation of the existing Physics III.1 reading; does not identify an episode with its bearer."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-HUME-MAXIM-RELATION",
+  "term": "cause in Hume's asymmetry maxim and in the causal-history premise",
+  "sense_definition_ids": [
+    "DEF-HUME-CAUSE-EFFECT-RELATION",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ],
+  "resolution": "Hume's maxim (STMT-HUME-NO-MUTUAL-CAUSE) is about his relation of cause and effect; STMT-CAUSAL-HISTORY-HAS-NO-LOOPS is about the supplied causal relation of the causal-finitism route, which by STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION must contain the per se efficient-cause links. Result HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS is relation-generic: for any one relation, no loops entails Hume's maxim for that relation. It therefore never transfers Hume's attestation from his relation to the case's, and never identifies the two relations."
+}

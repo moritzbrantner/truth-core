@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-COGITO-SUBJECT-CONSOLIDATION",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-SOME-THINKING-SUBJECT",
+    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE",
+    "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Consolidation of #523, #524 and #525 (issue #532). #525's act/bearer vocabulary (SomeAct, EveryActHasBearer, ActualBearer, BearerInference, BearerlessActModel) duplicated this schema and was replaced by it. Its substance step was kept: a bearer is not thereby a substance (non-substantial bearer model), and a substantial bearer needs a separate open substance principle. Event ontology, bundle theories and mereology remain uncontested-by-proof rivals to both principles. Occurrence plus the open bearer principle yields a thinking subject by instantiation only. Three finite controls show that neither premise suffices alone and that the principle gives no unique bearer. Rejected: #524's premise-free `SubjectInference` packing (it hides both open premises from bind-check), its duplicate `SubjectlessEpisodeModel`, and `FirstPersonWithoutBearerModel` (its `FirstPerson` predicate is unconstrained and set to True, so it adds nothing to the subjectless control; invariant 16). Treating a thought as already someone's act builds subjecthood into the premise. A non-circular route must justify the bearer principle independently and face impersonal-event / no-self readings.",
+  "evidence": [
+    "COGITO-SUBJECT-FROM-OCCURRENCE",
+    "COGITO-SUBJECTLESS-CONTROL",
+    "COGITO-NO-THOUGHT-CONTROL",
+    "COGITO-MULTIPLE-BEARERS-MODEL",
+    "PR-523",
+    "PR-524",
+    "PR-525"
+  ],
+  "blocker": "Witness actual thought occurrence (the #515 retorsion schema is the intended route; its presupposition link is open) and source the bearer principle from a pinned primary witness (for example Descartes, Meditationes II, or a relation to Aquinas ST I q.75 a.2), or record it as an open premise against impersonal-event rivals. A first-person test needs constrained indexical vocabulary."
+}

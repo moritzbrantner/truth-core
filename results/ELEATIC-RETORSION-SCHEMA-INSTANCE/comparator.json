@@ -1,8 +1,9 @@
 {
-  "challenge_module": "TruthCore.Results.Logic.RetorsionSchema.Challenge",
-  "solution_module": "TruthCore.Results.Logic.RetorsionSchema.Solution",
+  "challenge_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution",
   "theorem_names": [
-    "TruthCore.Results.Logic.RetorsionSchema.eleaticRetorsionInstance"
+    "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.eleaticRetorsionInstance",
+    "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

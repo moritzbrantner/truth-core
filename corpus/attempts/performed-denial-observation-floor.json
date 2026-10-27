@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-PERFORMED-DENIAL-OBSERVATION-FLOOR",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
+    "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+    "STMT-STATIC-EPISODE-CONTROL",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#509 first logical slice. An accurate performed denial of all episodes is impossible: the performed token is itself a witness against its content. An empty interpretation where no token occurs shows no unconditional existence claim follows; a static one-episode interpretation shows occurrence does not force temporal variation. Neither experiential succession nor Aristotelian reduction from potency to act is derived. The retorsion is a structural implication about accurate performances, not independent evidence that any performance occurs in the actual world, and it cannot yet satisfy the #500 retorsion or observation floor for STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD.",
+  "evidence": [
+    "LOGIC-PERFORMED-DENIAL-RETORSION",
+    "LOGIC-EMPTY-EPISODE-CONTROL",
+    "LOGIC-STATIC-EPISODE-CONTROL"
+  ],
+  "blocker": "Independently justify actual experiential succession and a non-question-begging bridge to the existing motion-in-some-respect predicate."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+  "paraphrase": "There is an interpretation in which a thought occurs, the bearer principle holds, and two distinct subjects bear the same occurring episode: the bearer principle does not make the bearer unique.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.MultipleBearersModel",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

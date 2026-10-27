@@ -1,0 +1,10 @@
+{
+  "id": "POE-ROWE-DEDUCTIVE-CORE",
+  "argument_id": "POE-ROWE-DEDUCTIVE-CORE",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.roweDeductiveCore",
+  "comparator_config": "results/POE-ROWE-DEDUCTIVE-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional deductive core of Rowe’s argument. Instantiate the actual suffering witness at a supposed omniscient omnipotent wholly good being; premise (1) excludes its blocking cost, while the necessary permission condition supplies one. Both philosophical premises remain open; no epistemic warrant or actual gratuitous suffering is proved."
+}

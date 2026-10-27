@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "rule": "direct-proof",
+  "meaning": "Exhaustively evaluate all three world labels and individual labels using the stipulated presence, modal-accessibility and directed in-world cause relations. Finite emptiness, root coverage and one-edge causal depth are checked independently of philosophical satisfiability.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

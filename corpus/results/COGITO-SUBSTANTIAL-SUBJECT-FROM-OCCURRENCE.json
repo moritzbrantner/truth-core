@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "argument_id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.substantialSubjectOfThought",
+  "comparator_config": "results/COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (instantiation, AGENTS.md invariant 16): composes thinkingSubjectOfThought with the open substance principle instantiated at the obtained bearer. All three premises (occurrence, bearer principle, substance principle) remain open; NonSubstantialBearerModel shows the substance principle is not implied by the other two. No enduring, unique or immaterial self follows. Source-free. No root change."
+}
