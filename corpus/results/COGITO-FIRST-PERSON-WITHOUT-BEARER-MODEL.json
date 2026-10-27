@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-FIRST-PERSON-WITHOUT-BEARER-MODEL",
+  "argument_id": "COGITO-FIRST-PERSON-WITHOUT-BEARER-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubjectIndependence.firstPersonWithoutBearerModel",
+  "comparator_config": "results/COGITO-FIRST-PERSON-WITHOUT-BEARER-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "A first-person-marked thought can be modeled without a bearer relation."
+}
