@@ -1,0 +1,24 @@
+{
+  "id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+  "premise_statement_ids": [
+    "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE"
+  ],
+  "meaning": "Incompatibility clean-up core (#576) in the shared capacity/actuality vocabulary (Being, Respect, MovedIn, InAct, CanBe): the Megarian thesis that whatever is able to be r is actually r, present motion, motion's incompleteness (what is being moved toward r is not yet actually r) and the ability of what is moved (it is able to be r) cannot all hold. Something is moved toward some r; it is able to be r, so by the thesis it is actually r; but it is not yet actually r. The certificate composes MEGARIAN-THESIS-ABOLISHES-MOTION. Each single removal has a registered model (MODEL-MEGARIAN-CAPACITY-UNACTUALIZED-ABILITY, -NOTHING-MOVED, -MOVED-ALREADY-ACTUAL, -MOVED-WITHOUT-ABILITY), so the core is inclusion-minimal. It certifies that the four positions are jointly inconsistent under this encoding, not which one is false: rejecting the Megarian thesis is one exit, denying present motion, the incompleteness of motion or the ability of what is moved are the others.",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+  "argument_id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianCapacityCore.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianCapacityCore.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianCapacityCore.incompatible",
+  "comparator_config": "results/MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE/comparator.json",
+  "status": "solution-present",
+  "description": "Certified inconsistent core, not a transcription: no premise has False or the Megarian thesis's negation as its consequent; the proof composes the derived MEGARIAN-THESIS-ABOLISHES-MOTION. Each single removal has a registered model, so the core is inclusion-minimal in the MEGARIAN-CAPACITY vocabulary. It eliminates only the conjunction of its four members; it closes no premise and refutes no member by itself."
+}

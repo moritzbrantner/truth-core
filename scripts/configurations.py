@@ -57,18 +57,29 @@ def validate_case(case, statements, results, arguments, models, root):
     order = profile.get('parameter_order', names)
     if not isinstance(order, list) or any(not isinstance(name, str) for name in order) or len(order) != len(set(order)) or set(order) != set(names):
         raise ValueError('parameter_order must list every variable and fixed role exactly once')
-    # This first slice supports one explicit Kripke encoding, not arbitrary
-    # proof-carrying contexts. These role types are all non-propositional.
-    roles = ['W', 'I', 'F', 'present', 'w']
-    if order != roles or set(names) != set(roles) or set(constants) - {'W', 'I'}:
-        raise ValueError('supported semantic roles are exactly W,I,F,present,w; only carrier W/I may be fixed')
+    # Supported role shapes (all non-propositional, so no proof can hide in a
+    # parameter): a carrier `Type`, a fixed carrier constant (Bool or Nat), a
+    # Kripke frame on a carrier, an element of a carrier, and a predicate or
+    # relation `X₁ → … → Xₙ → Prop` over carriers. Carriers must be declared
+    # before they are used. The necessary-individual profiles (W, I, F,
+    # present, w) are one instance; the Megarian capacity profile (#576) is
+    # another.
     if any(term not in {'Bool', 'Nat'} for term in constants.values()):
         raise ValueError('supported fixed carriers are Bool or Nat; proposition-valued carriers are forbidden')
-    world, individual = constants.get('W', 'W'), constants.get('I', 'I')
-    expected_types = {'W': 'Type', 'I': 'Type', 'F': f'TruthCore.Modal.Frame {world}',
-                      'present': f'{individual} → {world} → Prop', 'w': world}
+    # A fixed carrier is referred to by its term (`Bool`), never by its role name.
+    carriers = set(constants.values())
     for parameter in parameters:
-        if ' '.join(parameter['type'].split()) != expected_types[parameter['name']]:
+        kind = ' '.join(parameter['type'].split())
+        words = kind.split(' → ')
+        if kind == 'Type':
+            carriers.add(parameter['name'])
+        elif kind.startswith('TruthCore.Modal.Frame ') and kind.split(' ', 1)[1] in carriers:
+            pass
+        elif kind in carriers:
+            pass
+        elif len(words) >= 2 and words[-1] == 'Prop' and all(word in carriers for word in words[:-1]):
+            pass
+        else:
             raise ValueError(f"{parameter['name']}: unsupported semantic role type; proof-valued parameters are forbidden")
     applications = profile.get('applications')
     if not isinstance(applications, dict) or not applications:

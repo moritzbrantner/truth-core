@@ -1,0 +1,77 @@
+{
+  "id": "MODEL-MEGARIAN-CAPACITY-MOVED-WITHOUT-ABILITY",
+  "description": "#576 removal model for MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE (Being and Respect are Unit). The being is moved but neither actual nor able: the Megarian thesis holds vacuously, present motion and incompleteness hold; the ability of what is moved fails. Witnesses the core minus STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R. Formal satisfiability of the encoding only; no premise is closed.",
+  "vocabulary": "MEGARIAN-CAPACITY",
+  "lean_declaration": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.model",
+  "bindings": {
+    "Being": "Unit",
+    "Respect": "Unit",
+    "MovedIn": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.model.MovedIn",
+    "InAct": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.model.InAct",
+    "CanBe": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.model.CanBe"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "CanBe"
+      ],
+      "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation1"
+    },
+    {
+      "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation2"
+    },
+    {
+      "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "CanBe"
+      ],
+      "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation3"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.MegarianCapacity"
+  ]
+}

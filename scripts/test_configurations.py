@@ -123,11 +123,36 @@ class ConfigurationTests(unittest.TestCase):
         self.case['semantics']['parameter_order'].append('hidden')
         self.arguments['PQ']['premise_statement_ids'] = []
         self.case['implication_result_ids'] = ['PQ']
-        with self.assertRaisesRegex(ValueError, 'semantic roles'):
+        with self.assertRaisesRegex(ValueError, 'semantic role'):
             self.validate()
         self.case['semantics']['parameters'].pop()
         self.case['semantics']['parameter_order'].pop()
         self.case['semantics']['parameters'][-1]['type'] = 'Fixture.P W'
+        with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
+            self.validate()
+
+    def test_predicate_profiles_share_carriers_and_reject_unbound_or_proof_roles(self):
+        # A non-Kripke profile (#576): carriers, then predicates over them.
+        roles = ['Being', 'Respect', 'MovedIn', 'CanBe']
+        self.case['semantics']['parameters'] = [{'name': 'Being', 'type': 'Type'}, {'name': 'Respect', 'type': 'Type'},
+                                                {'name': 'MovedIn', 'type': 'Being → Respect → Prop'}, {'name': 'CanBe', 'type': 'Being → Respect → Prop'}]
+        self.case['semantics']['parameter_order'] = roles
+        self.case['semantics']['applications'] = {sid: ['Being', 'Respect', 'MovedIn'] for sid in self.statements}
+        for model in self.models.values():
+            model['bindings'] = {role: 'Fixture.' + role for role in roles}
+            for evaluation in model['evaluations']:
+                evaluation['arguments'] = ['Being', 'Respect', 'MovedIn']
+        self.case['model_bindings'] = [{'model_id': mid, 'parameters': {role: role for role in roles}} for mid in self.models]
+        self.validate()
+        self.assertIn('exact @Fixture.CORE Being Respect MovedIn CanBe', certificate_source(self.case, self.statements, self.results, self.arguments))
+        for bad in ['Respect → Being → Bool', 'Fixture.P Being', 'Prop', 'Later → Prop']:
+            saved = copy.deepcopy(self.case)
+            self.case['semantics']['parameters'][2]['type'] = bad
+            with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
+                self.validate()
+            self.case = saved
+        # A carrier is usable only after it is declared.
+        self.case['semantics']['parameters'][0], self.case['semantics']['parameters'][2] = self.case['semantics']['parameters'][2], self.case['semantics']['parameters'][0]
         with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
             self.validate()
 
