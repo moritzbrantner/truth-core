@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+  "term": "modal causal opportunity for a beginning of contingent concrete reality",
+  "definition": "In analyst-defined Scenario World Being, PossiblyBeginsAt s w asserts accessibility of some complete history with a stipulated first obtaining (beginsContingency) and at least one existent contingent concrete individual. CausalOpportunityAt s w asserts that if this beginning is possible, an accessible history contains an external, currently existing concrete causal bearer of that state. The totality-level causal relation is separate from efficient causation of each member. Unlike an unrestricted PSR, actual beginnings need not be caused. The possibility and adequacy of the premise remain independent metaphysical obligations.",
+  "basis": "stipulative",
+  "note": "Analyst's comparison for #505 and #492 (A3–A7). Not an attributed reconstruction of Pruss, Rasmussen, or necessarybeing.com until primary source has been pinned, materialized, read, and interpretively audited. Neither global S5 applicability nor the possibility of the first joint beginning is assumed within the definition.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.CausalOpportunityAt"
+}
