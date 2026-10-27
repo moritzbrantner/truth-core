@@ -191,4 +191,54 @@ theorem arbitraryWorldLocalGroundingDoesNotForceNecessary
   exact ⟨(fun _ _ => True.intro), doublesPopulation s hPop,
     doublesWellFounded s hWF, doubledHasNoNecessary s⟩
 
+
+/-- Non-vacuity control: reuse the certified two-world boundary model's
+actual-world inventory as a single populated local source. It has a real
+root-to-child link, and its independent noninitial predicate singles out
+the child. Absent alternate-world candidates are allowed in the fixed carrier. -/
+def exampleSource : LocalState (Bool × Bool) where
+  existsAt := boundaryRival.ontic.ExistsAt false
+  concrete := boundaryRival.concrete
+  grounds := boundaryRival.grounds false
+
+/-- This example contains an actual causal/grounding relation, not merely an
+empty relation satisfying every causal rule vacuously. -/
+theorem exampleSourceHasLink :
+    exampleSource.grounds (false, false) (false, true) := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+/-- Every source condition of the general lifting theorem is jointly
+satisfiable, witnessed by the preexisting finite root-child model. -/
+theorem exampleSourceConditions :
+    (∃ x, exampleSource.concrete x ∧ exampleSource.existsAt x) ∧
+    WellFounded exampleSource.grounds ∧
+    (∀ y x, exampleSource.grounds y x →
+      exampleSource.existsAt y ∧ exampleSource.existsAt x ∧ y ≠ x) ∧
+    NoninitialCovered exampleSource (fun x => x.2 = true) := by
+  refine ⟨?_, ?_, ?_, ?_⟩
+  · exact boundaryRivalInhabited false
+  · exact boundaryRivalWellFounded false
+  · intro y x hEdge
+    rcases boundaryRivalEdgesSound false y x hEdge with
+      ⟨_, _, hy, hx, hDifferent⟩
+    exact ⟨hy, hx, hDifferent⟩
+  · exact boundaryRivalNoninitialGrounded false
+
+/-- An explicit nonempty, causally nontrivial instance validates that
+the universal conditional is not true merely because its premises are
+unsatisfiable. Its doubled worlds still have no fixed necessary concretum. -/
+theorem nonvacuousWorldDoublingInstance :
+    ∃ s : LocalState (Bool × Bool),
+      (∃ x, s.concrete x ∧ s.existsAt x) ∧
+      WellFounded s.grounds ∧
+      (∀ y x, s.grounds y x →
+        s.existsAt y ∧ s.existsAt x ∧ y ≠ x) ∧
+      NoninitialCovered s (fun x => x.2 = true) ∧
+      (∃ y x, s.grounds y x) ∧
+      ¬ NecessaryConcreteAt (doubled s) false := by
+  rcases exampleSourceConditions with ⟨hPop, hWF, hSound, hLaw⟩
+  exact ⟨exampleSource, hPop, hWF, hSound, hLaw,
+    ⟨(false, false), (false, true), exampleSourceHasLink⟩,
+    doubledHasNoNecessary exampleSource⟩
+
 end TruthCore.Causality.BruteFoundationDoubling
