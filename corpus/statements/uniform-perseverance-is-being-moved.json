@@ -1,0 +1,15 @@
+{
+  "id": "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+  "paraphrase": "Becoming reading of the inertia bridge: a body persevering in uniform rectilinear motion is being moved in that respect, a passage from potency to act.",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsBeingMovedReading",
+  "definition_ids": [
+    "DEF-UNIFORM-MOTION-AS-BECOMING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
+    "DISAMB-MOTION"
+  ]
+}

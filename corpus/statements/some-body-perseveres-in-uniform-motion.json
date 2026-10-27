@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+  "paraphrase": "Unattributed open premise: some body perseveres in a state of uniform rectilinear motion. Newton's laws and definitions are conditionals and his examples are bodies acted on by resistance and gravity; Garrigou-Lagrange, citing Poincaré, holds that no experiment has been made on bodies withdrawn from every force (1914, pp. 254, 759-760).",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.SomeBodyPerseveresInUniformMotionReading",
+  "definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "INF-INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "input_statement_ids": [
+    "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+    "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+    "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+    "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+  ],
+  "output_statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "rule": "direct-proof",
+  "meaning": "Take a body persevering in uniform motion in some respect. On the becoming reading it is being moved in that respect. Suppose something moves it there: by the mover bridge the body perseveres by that mover, and by Newton's 'by inertia alone' the mover is the body itself; but nothing moved in a respect moves itself in it. So nothing moves it in that respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

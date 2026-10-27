@@ -1,0 +1,12 @@
+{
+  "id": "NEWTON-PRINCIPIA-PERSEVERANCE-BY-INERTIA-A",
+  "statement_id": "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+  "source_id": "NEWTON-PRINCIPIA",
+  "locator": "Definitiones, Def. III-IV, explicatio: Consistit hæc vis in actione sola, neq; post actionem permanet in corpore. Perseverat enim corpus in statu omni novo per solam vim inertiæ",
+  "interpretation": "Read with Def. III itself (Wikisource page 8, passage NEWTON-PRINCIPIA-DEFINITIONES-I-III): the inherent force of matter (vis insita) is a power of resisting by which each body, as far as in it lies (quantum in se est), perseveres in its state of rest or of uniform rectilinear motion. The explanation calls it the force of inertia and says the body exerts it only when its state is changed by another force impressed on it. Def. IV: an impressed force is an action exerted on a body to change its state; it consists in the action alone and does not remain in the body after the action, for the body perseveres in every new state by the force of inertia alone. Read, for states of uniform motion only, as: whatever being a body perseveres in such a state by is the body itself. The vis insita is the body's own power and not a further being, so 'by inertia alone' leaves the body as the only being by which it perseveres. Not attributed to Newton: that such perseverance is or is not a being moved in the sense of DEF-MOTION-AS-REDUCTION (DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING); that any body actually perseveres in uniform motion (STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION); and that a mover of a persevering body would be something it perseveres by (STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY, DISAMB-PERSEVERANCE-SOURCE-AND-MOVER).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ]
+}

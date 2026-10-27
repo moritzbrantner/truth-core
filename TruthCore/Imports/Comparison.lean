@@ -2,6 +2,7 @@
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
+import TruthCore.Comparison.Inertia
 import TruthCore.Comparison.McTaggart
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError

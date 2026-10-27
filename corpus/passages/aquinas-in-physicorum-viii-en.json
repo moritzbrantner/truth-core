@@ -50,6 +50,23 @@
       },
       "text_sha256": "sha256:22f1f7cc8890bf8e125aadac0b232a1ff6d4b77adb57137aca1de3dcea070ad9",
       "incipit": "Lecture 9\nNo process to infinity in movers."
+    },
+    {
+      "id": "AQUINAS-IN-PHYS-VIII-L22-EN",
+      "locator": "VIII, lect. 22",
+      "claim_locator_prefixes": [
+        "VIII, lect. 22 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "22"
+        },
+        "to": {
+          "anchor": "23"
+        }
+      },
+      "text_sha256": "sha256:344a55f12d1079035f734a10735621c9f1067e820f94c2cc2b730d41ad918333",
+      "incipit": "Lecture 22\nDiversity of movers annuls continuity of motion"
     }
   ]
 }

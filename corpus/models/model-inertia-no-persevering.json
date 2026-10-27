@@ -1,0 +1,120 @@
+{
+  "id": "MODEL-INERTIA-NO-PERSEVERING",
+  "description": "#497 removal model for INERTIAL-OBJECTION-YIELDS-RIVAL: nothing perseveres in uniform motion and nothing is moved. The persevering body fails; the other bundle commitments, no self-motion and the mover premise hold; the inertial rival fails.",
+  "vocabulary": "INERTIA",
+  "lean_declaration": "TruthCore.Models.Inertia.NoPersevering.model",
+  "bindings": {
+    "Being": "Unit",
+    "Respect": "Unit",
+    "MovedIn": "TruthCore.Models.Inertia.NoPersevering.model.MovedIn",
+    "MovesIn": "TruthCore.Models.Inertia.NoPersevering.model.MovesIn",
+    "UniformLocalMotion": "TruthCore.Models.Inertia.NoPersevering.model.UniformLocalMotion",
+    "Perseveres": "TruthCore.Models.Inertia.NoPersevering.model.Perseveres",
+    "PerseveresBy": "TruthCore.Models.Inertia.NoPersevering.model.PerseveresBy",
+    "ChangesState": "TruthCore.Models.Inertia.NoPersevering.model.ChangesState",
+    "ImpressesForceOn": "TruthCore.Models.Inertia.NoPersevering.model.ImpressesForceOn"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "UniformLocalMotion",
+        "Perseveres",
+        "PerseveresBy"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "UniformLocalMotion",
+        "Perseveres"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation1"
+    },
+    {
+      "statement_id": "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "UniformLocalMotion",
+        "Perseveres",
+        "PerseveresBy"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation2"
+    },
+    {
+      "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "UniformLocalMotion",
+        "Perseveres"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation3"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation4"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation5"
+    },
+    {
+      "statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "UniformLocalMotion"
+      ],
+      "theorem": "TruthCore.Models.Inertia.NoPersevering.evaluation6"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Inertia"
+  ]
+}

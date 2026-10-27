@@ -1,0 +1,13 @@
+{
+  "id": "AQUINAS-IN-PHYS-VIII-L22-PROJECTILE-MOVED-BY-ANOTHER-A",
+  "statement_id": "STMT-PROJECTILE-MOVED-BY-ANOTHER",
+  "source_id": "AQUINAS-IN-PHYS",
+  "basis": "translation",
+  "locator": "VIII, lect. 22 nn. 1160-1163: the first mover, namely, the thrower, gives to the second mover, namely, the air or water ... the ability both to cause motion and to be moved",
+  "interpretation": "Aquinas expounds Aristotle's doubt and solution on projectiles (Physics VIII.10). n. 1160: whatever is being moved is moved by another, unless it moves itself as animals do, 'of which a projected stone is not one'; a body moves by contact, so it is doubtful how projectiles remain in motion after contact with the mover ceases, for 'they seem to be moved without anything moving them'. nn. 1161-1162: the thrower gives the air or water the power both to move and to be moved; each part of the medium goes on moving the next for a while after it ceases to be moved, with diminishing power, until the motion ceases. n. 1163: projection is therefore not one continuous motion, since there are diverse movers. Read as: a thrown body continuing in local motion after contact with the thrower is being moved in that respect, and by some other being. Read only for projectiles in a medium: it says nothing about motion in a void or about Newton's uniform motion, and it does not identify a projectile's motion with perseverance in a Newtonian state. The impressed-power account (De potentia q.3, as Garrigou-Lagrange cites it, 1914, p. 253) is not pinned. Basis: the English translation named in the passage manifest; a candidate for upgrade once a pinned Latin witness exists.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PROJECTILE-MOTION",
+    "DEF-MOTION-AS-REDUCTION"
+  ]
+}

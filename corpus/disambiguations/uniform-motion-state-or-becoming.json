@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
+  "term": "uniform motion: state or becoming (the inertia bridge)",
+  "sense_definition_ids": [
+    "DEF-UNIFORM-MOTION-AS-BECOMING",
+    "DEF-UNIFORM-MOTION-AS-STATE"
+  ],
+  "resolution": "Is a body's perseverance in uniform rectilinear motion a being moved (`MovedIn`, DEF-MOTION-AS-REDUCTION)? The becoming sense (Garrigou-Lagrange's own, STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED) says yes; the state sense (the mechanist view he reports, STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED) says no. Newton's Def. III-IV (STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE) calls it a state but uses no act/potency vocabulary, so it decides neither. The two statements are kept apart and no argument uses both. Result INERTIAL-OBJECTION-YIELDS-RIVAL certifies that the inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER follows from Newton's reading, a persevering body and the mover bridge only on the becoming sense (with no self-motion), and that on the state sense the same Newtonian commitments, Lex I, no self-motion and the mover premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER hold together (stateReadingCompatible, MODEL-INERTIA-STATE-READING). The state sense narrows the premise's scope: inertial perseverance is then no reduction to which it applies, and the proof from motion must start from a change of state; Garrigou-Lagrange objects that this turns it into the proof from contingency (1914, pp. 250-251). The becoming sense keeps the scope and must deny one of the other commitments instead."
+}

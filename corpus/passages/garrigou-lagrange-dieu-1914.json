@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "GARRIGOU-LAGRANGE-DIEU-1914",
+    "source_url": "https://archive.org/download/dieu-son-existence-et-sa-nature-solution-thomiste-des-antinomies-agnostiques-gar/Dieu%2C%20son%20existence%20et%20sa%20nature%3B%20solution%20Thomiste%20des%20antinomies%20agnostiques%20__%20-%20Garrigou-Lagrange%2C%20Reginald%2C%20O.P__djvu.txt",
+    "retrieved_at": "2026-10-27T01:19:31Z",
+    "sha256": "sha256:1e7f80646ddb154f666243096ce99abb8f04dfb962f36ac8f59ae990a38f88c4",
+    "encoding": "utf-8",
+    "language": "fra",
+    "license": "Garrigou-Lagrange 1914 is in the public domain in the United States (published before 1931; the HathiTrust front matter of this scan reads 'Public Domain in the United States, Google-digitized'); it may be protected elsewhere. Only hashes, locators and a short incipit committed. Internet Archive OCR text of the Google scan; no Wayback capture pinned (the availability API was rate-limited on 2026-10-27), so the snapshot has no fallback. Raw-text extraction: each passage hashes the whole file, and the locator names the printed pages."
+  },
+  "passages": [
+    {
+      "id": "GARRIGOU-LAGRANGE-DIEU-1914-I-36-B",
+      "locator": "I, ch. III, n. 36 B (objections to quidquid movetur ab alio movetur, mechanists and inertia), pp. 248-254",
+      "claim_locator_prefixes": [
+        "I, ch. III, n. 36 B, "
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:9c120368853594a553263654395910c9ad5a49e96d59c3eef8172047f0d71a0e"
+    },
+    {
+      "id": "GARRIGOU-LAGRANGE-DIEU-1914-NOTE-INERTIA",
+      "locator": "Note sur la valeur des principes de l'inertie et de la conservation de l'énergie, pp. 759-763",
+      "claim_locator_prefixes": [
+        "Note sur l'inertie, "
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:9c120368853594a553263654395910c9ad5a49e96d59c3eef8172047f0d71a0e"
+    }
+  ]
+}
