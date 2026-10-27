@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "argument_id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubjectIndependence.multipleBearersModel",
+  "comparator_config": "results/COGITO-MULTIPLE-BEARERS-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "A single occurring thought can be modeled as borne by two distinct subjects."
+}
