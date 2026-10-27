@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-CARTESIAN-NON-CONTRADICTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CARTESIAN-NON-CONTRADICTION",
+  "rule": "constructive-proof",
+  "meaning": "For every Lean proposition p, p and its negation cannot both hold.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
