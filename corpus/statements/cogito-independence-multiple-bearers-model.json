@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-INDEPENDENCE-MULTIPLE-BEARERS-MODEL",
+  "paraphrase": "A single occurring thought can be modeled as borne by two distinct subjects.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubjectIndependence.MultipleBearersModel"
+}
