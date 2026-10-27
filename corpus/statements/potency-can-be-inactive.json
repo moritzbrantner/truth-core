@@ -1,0 +1,13 @@
+{
+  "id": "STMT-POTENCY-CAN-BE-INACTIVE",
+  "paraphrase": "A potential can be inactive: in some situation (a time, or a possible state of things) some being is in potency in a respect without being moved in it, as a buildable that is not being built. It does not say that any potency is inactive in the situation the case's premises describe.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PotencyCanBeInactiveReading",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

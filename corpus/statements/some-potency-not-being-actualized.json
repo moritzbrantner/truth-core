@@ -1,7 +1,7 @@
 {
   "id": "STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED",
-  "paraphrase": "Some being is in potency in a respect without being moved (reduced to act) in that respect, as a buildable that is not being built.",
-  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SomePotencyNotBeingActualizedReading",
+  "paraphrase": "Open premise, unattributed: some potency is not being actualized now. Some being is in potency in a respect without being moved (reduced to act) in it, in the situation the case's premises describe. It is the contradictory of STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED. Physics III.1, 201b8-9 says only that a potency can be inactive (STMT-POTENCY-CAN-BE-INACTIVE), which does not give an inactive potency in this situation, so no claim attributes it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SomePotencyNotBeingActualizedReading",
   "definition_ids": [
     "DEF-POTENCY",
     "DEF-MOTION-AS-REDUCTION",

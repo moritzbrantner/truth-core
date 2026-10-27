@@ -14,15 +14,17 @@ already have (`EveryPotencyIsBeingActualizedReading`), the weaker priority
 that the route yields without it (`ActPriorToActualizedPotencyReading`), and
 the formal facts that decide between them (`ActPriorFromMotionFacts`). The
 mover-priority bridge is the existing unattributed
-`NightCosmogony.ActualMoverIsSimplyPriorReading`; *Physics* III.1's buildable
-(`Physics.SomePotencyNotBeingActualizedReading`) is the sourced rival of the
-new premise. No predicate is defined: all are fields of `ActPotencyModel`.
+`NightCosmogony.ActualMoverIsSimplyPriorReading`. *Physics* III.1's buildable
+(`Physics.PotencyCanBeInactiveReading`) says that a potency can be inactive; it
+denies the new premise read as holding in every situation, not the premise read
+of the present situation alone (`SomePotencyNotBeingActualizedReading`, its
+unattributed contradictory). No predicate is defined: all are fields of `ActPotencyModel`.
 -/
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 open TruthCore.Alternatives.NightCosmogony (ActualMoverIsSimplyPriorReading)
-open TruthCore.Greek.Aristotle.Physics (SomePotencyNotBeingActualizedReading)
+open TruthCore.Greek.Aristotle.Physics (PotencyCanBeInactiveReading)
 
 universe u v
 
@@ -32,10 +34,11 @@ in potency in a respect is being moved (reduced to act) in that respect.
 No source states it. Aquinas' own premise says the converse (*nihil movetur,
 nisi secundum quod est in potentia*, `MovedOnlyAsInPotencyReading`), and his
 statement of act's priority explicitly does not make every potency a present
-being-moved (`ActSimplyPriorToPotencyReading`). Aristotle denies it: a
-buildable is in potency without being built (*Physics* III.1, 201b8-9,
-`SomePotencyNotBeingActualizedReading`). It is recorded only as the premise
-that the motion route to act's priority needs. -/
+being-moved (`ActSimplyPriorToPotencyReading`). Aristotle denies it as a law
+of every situation: a buildable can be in potency without being built
+(*Physics* III.1, 201b8-9, `PotencyCanBeInactiveReading`). Read of the present
+situation alone, no source decides it. It is recorded only as the premise that
+the motion route to act's priority needs. -/
 def EveryPotencyIsBeingActualizedReading {Being : Sort u} {Respect : Sort v}
     (InPotency MovedIn : Being → Respect → Prop) : Prop :=
   ∀ x r, InPotency x r → MovedIn x r
@@ -52,6 +55,18 @@ def ActPriorToActualizedPotencyReading {Being : Sort u} {Respect : Sort v}
     (InAct InPotency MovedIn : Being → Respect → Prop)
     (PriorSimply : Being → Being → Prop) : Prop :=
   ∀ x r, InPotency x r → MovedIn x r → ∃ y, InAct y r ∧ PriorSimply y x
+
+/-- Open premise, unattributed: some potency is not being actualized now. Some
+being is in potency in a respect without being moved in it, in the situation
+the case's premises describe.
+
+It is the contradictory of `EveryPotencyIsBeingActualizedReading`. *Physics*
+III.1, 201b8-9 says only that a potency *can* be inactive
+(`PotencyCanBeInactiveReading`), which does not give an inactive potency in
+this situation; so no claim attributes it. -/
+def SomePotencyNotBeingActualizedReading {Being : Sort u} {Respect : Sort v}
+    (InPotency MovedIn : Being → Respect → Prop) : Prop :=
+  ∃ x r, InPotency x r ∧ ¬ MovedIn x r
 
 namespace ActPotencyModel
 
@@ -70,7 +85,7 @@ def MoverPrior : Prop :=
 def ActPriorActualized : Prop :=
   ActPriorToActualizedPotencyReading M.InAct M.InPotency M.MovedIn M.PriorSimply
 
-/-- Some potency is not being actualized (*Physics* III.1, 201b8-9). -/
+/-- Some potency is not being actualized now (unattributed). -/
 def DormantPotency : Prop :=
   SomePotencyNotBeingActualizedReading M.InPotency M.MovedIn
 
@@ -93,13 +108,15 @@ open ActPotencyModel in
 5. **That weaker priority does not do the root's work.** There is a model of
    every *prima via* premise (sensible motion, moved only as in potency,
    has a mover, mover in act, non-simultaneity, second movers, well-founded per
-   se series), the mover-priority bridge, the weaker priority and *Physics*
-   III.1's dormant potency, in which a first mover moved by none is a first
+   se series), the mover-priority bridge, the weaker priority and a potency
+   not being actualized now, in which a first mover moved by none is a first
    being (nothing else is simply prior to it) and is in potency in some
    respect. ST I q.3 a.1's second proof applies act's priority to exactly such
    a being, which is not being moved, so the restricted priority is vacuous for
    it.
-6. **The new premise contradicts *Physics* III.1's dormant potency.** -/
+6. **The new premise contradicts a dormant potency now.**
+7. **Read as holding in every situation, the new premise contradicts *Physics*
+   III.1, 201b8-9**, that a potency can be inactive in some situation. -/
 def ActPriorFromMotionFacts : Prop :=
   (∀ M : ActPotencyModel, M.EveryPotencyActualized → M.HasMover → M.MoverInAct →
       M.NonSimultaneity → M.MoverPrior → M.ActPrior) ∧
@@ -122,6 +139,10 @@ def ActPriorFromMotionFacts : Prop :=
       M.ActPriorActualized ∧ M.DormantPotency ∧
       ∃ f, ((∃ x r, M.MovesIn f x r) ∧ ∀ r, ¬ M.MovedIn f r) ∧
         IsFirstBeing M.PriorSimply f ∧ ¬ PureAct M.InPotency f) ∧
-  (∀ M : ActPotencyModel, M.EveryPotencyActualized → ¬ M.DormantPotency)
+  (∀ M : ActPotencyModel, M.EveryPotencyActualized → ¬ M.DormantPotency) ∧
+  (∀ (Situation Being Respect : Type)
+      (InPotencyAt MovedInAt : Situation → Being → Respect → Prop),
+      (∀ s, EveryPotencyIsBeingActualizedReading (InPotencyAt s) (MovedInAt s)) →
+      ¬ PotencyCanBeInactiveReading InPotencyAt MovedInAt)
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

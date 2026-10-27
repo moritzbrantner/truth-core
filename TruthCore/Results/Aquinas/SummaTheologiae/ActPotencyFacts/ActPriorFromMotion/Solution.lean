@@ -295,7 +295,7 @@ priority without the new premise, and a model (`Dormant`) of every *prima via*
 premise, the mover-priority bridge and the restricted priority in which the
 first mover moved by none is a first being in potency. No premises. -/
 theorem actPriorFromMotionFacts : ActPriorFromMotionFacts := by
-  refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
+  refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
   · -- (1) the derivation
     intro M hA hM hI hN hP x r hp
     obtain ⟨y, hy⟩ := hM x r (hA x r hp)
@@ -385,5 +385,9 @@ theorem actPriorFromMotionFacts : ActPriorFromMotionFacts := by
     intro M hA hD
     obtain ⟨x, r, hp, hn⟩ := hD
     exact hn (hA x r hp)
+  · -- (11) as a law of every situation, it contradicts Physics III.1, 201b8-9
+    intro Situation Being Respect InPotencyAt MovedInAt hA hC
+    obtain ⟨s, x, r, hp, hn⟩ := hC
+    exact hn (hA s x r hp)
 
 end TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion

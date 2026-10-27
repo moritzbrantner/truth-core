@@ -3,7 +3,7 @@
   "input_statement_ids": [],
   "output_statement_id": "STMT-ACT-PRIOR-FROM-MOTION-FACTS",
   "rule": "entailment-and-countermodel",
-  "meaning": "Two entailments by chaining: potency to being moved, to a mover, to its act, to its priority, with non-simultaneity excluding a self-mover; five omission models (a dormant potency, motion without a mover, a mover not in act, a self-mover in act and potency, a mover without priority); a model of all five; a model of every prima via premise and the mover-priority bridge in which the first mover moved by none is a first being in potency to a respect in which nothing is moved; and the contradiction of 'every potency is being actualized' with a potency not being actualized.",
+  "meaning": "Two entailments by chaining: potency to being moved, to a mover, to its act, to its priority, with non-simultaneity excluding a self-mover; five omission models (a dormant potency, motion without a mover, a mover not in act, a self-mover in act and potency, a mover without priority); a model of all five; a model of every prima via premise and the mover-priority bridge in which the first mover moved by none is a first being in potency to a respect in which nothing is moved; and the contradiction of 'every potency is being actualized' with a potency not being actualized now, and, situation by situation, with a potency inactive in some situation.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
