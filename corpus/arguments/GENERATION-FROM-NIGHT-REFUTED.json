@@ -1,0 +1,26 @@
+{
+  "id": "GENERATION-FROM-NIGHT-REFUTED",
+  "premise_statement_ids": [
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "conclusion_statement_id": "STMT-GENERATION-FROM-NIGHT-FALSE",
+  "inference_ids": [
+    "INF-GENERATION-FROM-NIGHT-REFUTED"
+  ],
+  "meaning": "Bundle elimination (#497), conditional on three open premises. The Night cosmogony of Metaphysics XII.6, 1071b26-29 (theologians who generate from Night, physicists' 'all things together') has one sourced commitment: some potency that no being in act simply precedes is actualized (STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED). With Gamma = {STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT, STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT, STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR} it is inconsistent: the actualized potency has a mover in act, which is another being, which is then simply prior to it. The first member is Aristotle's reply ('how will it be moved, if there is not some cause in actuality?', 1071b28-29). The second is sourced to Aquinas (ST I q.2 a.3); Aristotle's 'matter will not move itself' (1071b29-31) says it only of matter, so its extension to every being and respect is not attributed to him. The third, the step from the actual mover to act's priority, is an explicit unattributed bridge. The core does not use the premise it rivals, STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Gamma is inclusion-minimal: registered models satisfy the bundle with any two members. Closed members: none. The same Comparator config certifies that the bundle entails the bare rival STMT-POTENCY-PRIOR-TO-ACT, that the bare rival survives Gamma (an unpreceded potency never actualized), and that the root-path premises STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER, STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT and STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT with the same bridge also eliminate the bundle. No refutes relation is recorded: its premises are open (#391). It says nothing about priority in time, the eternity of motion, or Aristotle's modal reply 'nothing that is will be' (1071b24-26), none of which is formalized.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

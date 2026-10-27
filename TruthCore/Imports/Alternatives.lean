@@ -2,3 +2,4 @@
 import TruthCore.Alternatives.ActPotencyRegress
 import TruthCore.Alternatives.ActualityWithoutBeing
 import TruthCore.Alternatives.McTaggart
+import TruthCore.Alternatives.NightCosmogony

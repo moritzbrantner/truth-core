@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+  "term": "prior (simply, or in time)",
+  "sense_definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-PRIORITY-IN-TIME"
+  ],
+  "resolution": "When the aporia of Metaphysics XII.6, 1071b22-24, and the Night cosmogony (1071b26-28) say that potency is prior, the case reads 'prior' as simple priority (`PriorSimply`), the sense of the premise STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Only on that reading are STMT-POTENCY-PRIOR-TO-ACT and STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED rivals of the premise. Aristotle's first answer ('nothing that is will be', 1071b24-26) and his later remark that chaos or night did not exist for an infinite time (1072a7-8) also touch priority in time, and he grants that to think potency prior is 'in a way right' (1072a3-4). On the temporal reading the position is compatible with the premise: Aquinas grants that potency precedes act in time within one changing thing (ST I q.3 a.1 co.), so it is not formalized as a rival. Every statement of the elimination GENERATION-FROM-NIGHT-REFUTED uses the one predicate `PriorSimply`, so no step passes from one sense to the other."
+}
