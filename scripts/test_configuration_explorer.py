@@ -88,7 +88,7 @@ class ConfigurationExplorerTests(unittest.TestCase):
         with patch('configuration_explorer.source_head', return_value='test-head'), \
              patch('configuration_explorer.verify_compositions', side_effect=replay) as gate:
             bundle = write_bundle(root, root / '.cache/report.json', self.context, self.reports, input_manifest(root))
-        self.assertEqual(gate.call_count, 2)
+        self.assertEqual(gate.call_count, len(self.reports))
         return bundle
 
     def test_atomic_output_roundtrip_and_missing_stale_or_unverified_reports_fail(self):
@@ -103,7 +103,7 @@ class ConfigurationExplorerTests(unittest.TestCase):
                            lambda item: item['producer'].update(trust='unsupported success claim'),
                            lambda item: item['cases'][0].update(verified=False),
                            lambda item: item['cases'][0]['verification'].update(original_bound_result_ids=[]),
-                           lambda item: item['cases'][1]['verification'].update(models={'models': 0, 'certificates': 0, 'axioms': []}),
+                           lambda item: next(case for case in item['cases'] if case['verification']['models']['models'])['verification'].update(models={'models': 0, 'certificates': 0, 'axioms': []}),
                            lambda item: item['cases'][0]['assumption_space']['nodes'][0].update(include='invented')]:
                 malformed = copy.deepcopy(bundle)
                 mutate(malformed)

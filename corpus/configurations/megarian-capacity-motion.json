@@ -1,0 +1,160 @@
+{
+  "id": "CONFIG-MEGARIAN-CAPACITY-MOTION",
+  "description": "Incompatibility clean-up pass (#576), first slice: the Megarian thesis against present motion and Aristotle's two premises on what is being moved, in one shared capacity/actuality vocabulary. Configurations are inputs; statuses and minimality are computed only from live certificates.",
+  "seed_statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "semantics": {
+    "id": "megarian-capacity-shared-predicates",
+    "logic": "Constructive Lean propositions; no excluded-middle assumption. Certificates are zero-axiom.",
+    "frame": "No accessibility relation: ability is the primitive two-place predicate CanBe of Metaphysics IX.6 (DEF-CAPACITY-TO-BE), not a Kripke possibility operator, and actuality is the primitive InAct (DEF-ACT). No time index: the thesis and both conditionals are read at one shared evaluation.",
+    "domain": "Arbitrary carriers Being and Respect (Type 0); no inhabitedness assumed. The registered controls use Unit for both.",
+    "identity": "Literal Lean equality within each carrier; the same MovedIn, InAct and CanBe are shared by every assumption, so no premise can read ability or actuality in another sense.",
+    "vocabulary": "MEGARIAN-CAPACITY",
+    "modules": [
+      "TruthCore.Alternatives.ActPotencyRegress"
+    ],
+    "parameters": [
+      {
+        "name": "Being",
+        "type": "Type"
+      },
+      {
+        "name": "Respect",
+        "type": "Type"
+      },
+      {
+        "name": "MovedIn",
+        "type": "Being → Respect → Prop"
+      },
+      {
+        "name": "InAct",
+        "type": "Being → Respect → Prop"
+      },
+      {
+        "name": "CanBe",
+        "type": "Being → Respect → Prop"
+      }
+    ],
+    "applications": {
+      "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING": [
+        "Being",
+        "Respect",
+        "InAct",
+        "CanBe"
+      ],
+      "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "InAct"
+      ],
+      "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "CanBe"
+      ]
+    },
+    "parameter_order": [
+      "Being",
+      "Respect",
+      "MovedIn",
+      "InAct",
+      "CanBe"
+    ],
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "full-core",
+      "statement_ids": [
+        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+      ]
+    },
+    {
+      "id": "without-megarian-thesis",
+      "statement_ids": [
+        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+      ]
+    },
+    {
+      "id": "without-present-motion",
+      "statement_ids": [
+        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+      ]
+    },
+    {
+      "id": "without-incompleteness",
+      "statement_ids": [
+        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+      ]
+    },
+    {
+      "id": "without-ability",
+      "statement_ids": [
+        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE"
+  ],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-MEGARIAN-CAPACITY-MOVED-ALREADY-ACTUAL",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "MovedIn": "MovedIn",
+        "InAct": "InAct",
+        "CanBe": "CanBe"
+      }
+    },
+    {
+      "model_id": "MODEL-MEGARIAN-CAPACITY-MOVED-WITHOUT-ABILITY",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "MovedIn": "MovedIn",
+        "InAct": "InAct",
+        "CanBe": "CanBe"
+      }
+    },
+    {
+      "model_id": "MODEL-MEGARIAN-CAPACITY-NOTHING-MOVED",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "MovedIn": "MovedIn",
+        "InAct": "InAct",
+        "CanBe": "CanBe"
+      }
+    },
+    {
+      "model_id": "MODEL-MEGARIAN-CAPACITY-UNACTUALIZED-ABILITY",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "MovedIn": "MovedIn",
+        "InAct": "InAct",
+        "CanBe": "CanBe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-MEGARIAN-CAPACITY-CORE-CLEANUP",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+  ],
+  "kind": "refutation",
+  "outcome": "succeeded",
+  "summary": "Incompatibility clean-up pass, first slice (#576). Inventory of certified cores on main before the slice: two ConfigurationFalse cores in the Kripke necessary-individual vocabulary (NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE, NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE), already registered in CONFIG-NECESSARY-INDIVIDUAL; three cores from refutes relations (premises plus refuted statement, outside this vocabulary); and refutation-shaped results whose conclusion is the negation of a rival (MEGARIAN-THESIS-ABOLISHES-MOTION, MCTAGGART-UNREALITY-OF-TIME-REFUTED, GENERATION-FROM-NIGHT-REFUTED, ELEATIC-THESIS-SELF-REFUTING, GOEDEL-1970-INCONSISTENT with conclusion STMT-MODEL-HAS-NO-WORLD), which the territory matrix does not read as cores (#548). Seed: no statement of the Kripke modal, necessary-being or Cogito vocabularies (TruthCore/Modal, the necessary-individual and necessarily-underived cases, #533-#555) is an open root-path premise, so a core there cannot reach the root-seeded territory matrix; the necessary-individual cores stay registered where they are. The one possibility/actuality vocabulary that touches a root-path premise is the Metaphysics IX.3 capacity vocabulary: the recorded rival STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING (alternative to STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY) is refuted by MEGARIAN-THESIS-ABOLISHES-MOTION from the root-path premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD and two sourced Aristotelian premises. Result: the four statements, under one profile sharing Being, Respect, MovedIn, InAct and CanBe, are jointly inconsistent (MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE, zero axioms, composing megarianThesisFalse). Every member is a held position with a sourced claim (ARIST-MET-1046B-MEGARIAN-A, AQUINAS-ST-I-Q2-A3-MOTION-EVIDENT-A, ARIST-PHYS-201B-MOTION-INCOMPLETE-NOT-YET-A, ARIST-MET-1047A-UNABLE-DOES-NOT-COME-TO-BE-A), so the core is not an 'anything plus a strong premise' core. Minimality: each of the four maximal proper subsets has a registered Unit model (MODEL-MEGARIAN-CAPACITY-UNACTUALIZED-ABILITY, -NOTHING-MOVED, -MOVED-ALREADY-ACTUAL, -MOVED-WITHOUT-ABILITY), recorded as CONFIG-MEGARIAN-CAPACITY-MOTION. Classification: the full set is verified incompatible; the four maximal subsets are model witnessed; nothing in the profile is unresolved. Rejected seeds, with reasons: (1) GOEDEL-1970-INCONSISTENT is modal, but its conclusion is 'the model has no world', a consequence for one encoding of Goedel's axioms and not a held position against a root-path premise. (2) The Megarian thesis against STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY with STMT-POTENCY-IS-UNACTUALIZED-CAPACITY (the rival relation's 'leaves nothing in potency') needs the InPotency predicate in the same profile; it is the natural second core in this vocabulary and was not attempted here. (3) Bridging the capacity predicate CanBe to a Kripke possibility operator was rejected: no reviewed interpretive record relates them, and the clean-up pass compares only within one vocabulary. Premise delta: none. The core closes no premise; it shows that holding the Megarian thesis forces denying present motion, motion's incompleteness or the ability of what is moved.",
+  "evidence": [
+    "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+    "MEGARIAN-THESIS-ABOLISHES-MOTION",
+    "ARIST-MET-1046B-MEGARIAN-A",
+    "AQUINAS-ST-I-Q2-A3-MOTION-EVIDENT-A",
+    "ARIST-PHYS-201B-MOTION-INCOMPLETE-NOT-YET-A",
+    "ARIST-MET-1047A-UNABLE-DOES-NOT-COME-TO-BE-A"
+  ]
+}
