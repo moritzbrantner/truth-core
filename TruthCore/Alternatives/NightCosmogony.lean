@@ -51,7 +51,10 @@ Aristotle's conclusion "that act is prior" (ὅτι δʼ ἐνέργεια πρ�
 (1071b28-29) motivates it, and Aquinas' "an efficient cause is prior to its
 effect" (`EfficientCauseIsPriorToEffectReading`) is a sourced cousin for
 efficient causes, but no source sentence says it of every actual mover of a
-potency, so no claim attributes it. It does not say that moving is simple
+potency, so no claim attributes it. *Metaphysics* IX.8 was searched and does
+not state it: 1049b24-27 gives priority in time, 1050a4-b2 the priority in
+substance of a thing's own act over its own potency
+(`ATTEMPT-MET-IX-8-ACTUAL-MOVER-PRIORITY`). It does not say that moving is simple
 priority (`DEF-SIMPLE-PRIORITY`), only that this kind of moving brings it;
 it says nothing of self-movers or of movers not in act. -/
 def ActualMoverIsSimplyPriorReading {Being : Sort u} {Respect : Sort v}
