@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "paraphrase": "It is not the case that all Lean propositions hold.",
+  "lean_declaration": "TruthCore.Logic.CartesianFloor.NotEveryPropositionHolds",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
