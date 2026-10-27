@@ -1,0 +1,34 @@
+{
+  "id": "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "inference_ids": [
+    "INF-COGITO-NECESSARY-CONCRETE-ANCESTOR"
+  ],
+  "meaning": "Necessary concrete ground-ancestor of the Cogito's bearer (#564). Apply COGITO-ANCESTRY-ROOT-FORK and close its second horn with the thinker-local anti-brute-root principle: a contingent root in the thinker's ancestry would have an actual concrete ground, contradicting rootness. The conclusion is a concrete ground-ancestor of some bearer of an occurring thought that exists at w and at every world accessible from w; it implies NecessaryConcreteAt (vocabulary lemma necessaryConcreteAt_of_ancestor, not a registered result). Compared with necessaryConcreteOfGroundedContingents and #487's closed PR #528, the two global premises (whole-carrier well-foundedness; every actual contingent concretum grounded) are replaced by thinker-local premises that are strictly weaker (COGITO-ANCESTRY-CONTROLS), at the cost of the four open Cogito premises. No premise says the thinker is contingent; in the strictness model the thinker is not contingent and exists at every accessible world. Each non-logical premise is needed (COGITO-ANCESTRY-CONTROLS). All six non-logical premises remain open; no root path is reached, since no root-path premise uses world-indexed de re necessity. Necessity is accessibility-relative (not all-world), and nothing about uniqueness, underivedness, simplicity, intellect, personality or God follows.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

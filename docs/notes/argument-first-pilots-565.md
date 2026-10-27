@@ -83,6 +83,27 @@ the thinker's contingency stay in this note until a theorem needs them.
 continue to an underived one under their own open structural premises. Nothing
 here reaches uniqueness, the divine attributes or the root.
 
+**First formal slice (#564, 2026-10-27).** Step 5 was refined as the child
+argument, and the thinker turned out to do work after all, though not through
+its modal status. Relative to a fixed grounding relation, the global
+anti-brute-root premise that excludes `BRUTE-ROOT-DISJUNCTION`'s root horn is
+classically equivalent to "every actual contingent concretum has an actual concrete
+ground" (an elementary equivalence, not formalized), so no weaker *global* principle closes that horn. Restricting both
+premises to the bearer's ground-ancestry does: `COGITO-ANCESTRY-ROOT-FORK`
+(occurring thought, bearer, concrete, existing at w₀, plus `Acc` at the bearer
+for actual concrete grounding: a necessary concrete ancestor of the bearer or a
+contingent root among its ancestors), then `COGITO-NECESSARY-CONCRETE-ANCESTOR`
+(add the thinker-local anti-brute-root premise
+`STMT-COGITO-THINKER-ANCESTRY-GROUNDED`). `COGITO-ANCESTRY-CONTROLS` shows both
+local premises strictly weaker than the global ones (one model has the local
+premises and a necessary, non-contingent thinker while both global premises
+fail) and each premise needed. Excluded middle is explicit. Premise delta at
+the root: none (`frontier --routes` and `--reaching-root` unchanged), since no
+root-path premise is stated in world-indexed de re necessity. Next child: the
+defence of the thinker-local anti-brute-root premise against the brute
+contingent-foundation rival (#505, #545), or a bridge to the tertia via's
+necessary being, which needs a modeling decision (`DISAMB-NECESSARY-INDIVIDUAL-SCOPE`).
+
 ## Pilot B: from objective goods to binding reasons (#563, #149, #185)
 
 **Thesis and purpose.** A theory that claims to be a complete account of

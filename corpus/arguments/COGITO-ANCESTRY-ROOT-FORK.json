@@ -1,0 +1,33 @@
+{
+  "id": "COGITO-ANCESTRY-ROOT-FORK",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "inference_ids": [
+    "INF-COGITO-ANCESTRY-ROOT-FORK"
+  ],
+  "meaning": "Thinker-local fork (#564, refining #553 and BRUTE-ROOT-DISJUNCTION). Take an occurring thought and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE (thinkingSubjectOfThought); the bearer is concrete and exists at w by the #536 bridges. Descend along actual concrete grounds by Acc induction from the bearer. At each ground-ancestor, excluded middle decides whether it has an actual concrete ground (descend), else whether it is contingent at w (second horn: a contingent root of the relation in the thinker's ancestry), else it exists at every accessible world (first horn). Neither the bearer's contingency nor any dependence principle is used; whole-carrier well-foundedness is replaced by Acc at the bearer. All five non-logical premises are open; STMT-EXCLUDED-MIDDLE (self-evident-marked) is an explicit hypothesis, not a Lean axiom. Neither horn is asserted; the second horn's root may have a non-concrete explanation. No substance, uniqueness, simplicity, intellect or God follows.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

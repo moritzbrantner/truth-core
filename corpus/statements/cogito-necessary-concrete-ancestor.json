@@ -1,0 +1,21 @@
+{
+  "id": "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "paraphrase": "Some bearer of an occurring thought has a concrete ground-ancestor (possibly itself) that exists at w and at every world accessible from w: de re, relative to the frame's accessibility and to rigid candidate identity. It implies the existing NecessaryConcreteAt (by the vocabulary lemma necessaryConcreteAt_of_ancestor, not a registered result). It does not say that this ancestor exists at every world (accessibility need not be universal), is unique, uncaused, simple, intelligent, personal or God, or that the bearer is contingent.",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.NecessaryConcreteAncestorOfThinker",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
