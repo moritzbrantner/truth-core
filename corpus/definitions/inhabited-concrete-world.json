@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INHABITED-CONCRETE-WORLD",
+  "term": "inhabited concrete world; concrete bearer",
+  "definition": "InhabitedConcreteAt m concrete w is ∃ b, concrete b ∧ m.ExistsAt w b over the Kant/#487 Ontic signature: some member of the constant candidate domain satisfies the supplied concreteness predicate and exists at w. concrete : E → Prop is unconstrained and not world-indexed (as on the #487 branch); no causal, spatiotemporal, material or independence criterion is built in, and failing it is not thereby being abstract. Concrete is not material: an idealist may count an actual experience as concrete. The world w is an element of the frame; reading it as a complete history rather than a time, and w₀ as the actual world, is the intended interpretation, not part of the Lean type. Inhabitation of the world type or membership in the candidate domain is not population.",
+  "basis": "stipulative",
+  "note": "Stipulated for #536 so that the Cogito result has the exact shape of #487's PopulatedConcreteAt (branch codex/487-necessary-concrete-root, not merged). When #487 lands, one of the two should be defined from the other. A source-grounded criterion of concreteness is open (#544).",
+  "lean_declaration": "TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt"
+}
