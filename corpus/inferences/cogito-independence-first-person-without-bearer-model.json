@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-FIRST-PERSON-WITHOUT-BEARER-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-INDEPENDENCE-FIRST-PERSON-WITHOUT-BEARER-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "A first-person-marked thought can be modeled without a bearer relation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
