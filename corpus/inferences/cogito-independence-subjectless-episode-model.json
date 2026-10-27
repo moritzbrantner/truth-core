@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-SUBJECTLESS-EPISODE-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-INDEPENDENCE-SUBJECTLESS-EPISODE-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "An occurring thought episode can be modeled without any bearer relation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
