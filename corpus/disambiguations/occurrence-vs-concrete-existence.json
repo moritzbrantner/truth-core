@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+  "term": "a thought occurs versus something concrete exists in the world",
+  "sense_definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-EVENT-ROUTE-EMBEDDING"
+  ],
+  "resolution": "Occurs e (DEF-THOUGHT-OCCURRENCE) is a primitive predicate of episodes, not world-indexed, over a carrier separate from the candidate domain E. Population (DEF-INHABITED-CONCRETE-WORLD) needs a member of E that is concrete and exists at w. No result passes from the first to the second without an explicit bridge: either the bearer route (STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT, then STMT-COGITO-BEARER-IS-CONCRETE and STMT-COGITO-BEARER-EXISTS-AT-WORLD, kept separate because each has its own omission model) or the event route (DEF-EVENT-ROUTE-EMBEDDING, a transcription). 'Exists' is world-relative existence in the Ontic signature (m.ExistsAt w b), not the truth of a sentence 'b exists' and not the possibilist quantifier over E; 'concrete' is the supplied predicate, not 'material' and not 'substance'."
+}

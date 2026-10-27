@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-CONCRETE-OMISSION-CONTROLS",
+  "argument_id": "COGITO-CONCRETE-OMISSION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoConcrete.omissionControls",
+  "comparator_config": "results/COGITO-CONCRETE-OMISSION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Eight independent finite omission controls for both forks and one event-route model populating the world without a bearer (nine interpretations). Logical models only; no premise is discharged."
+}

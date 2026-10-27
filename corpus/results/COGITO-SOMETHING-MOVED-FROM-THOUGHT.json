@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+  "argument_id": "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+  "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoConcrete.somethingMovedOfThought",
+  "comparator_config": "results/COGITO-SOMETHING-MOVED-FROM-THOUGHT/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (instantiation, AGENTS.md invariant 16): the proof instantiates STMT-COGITO-BORNE-THOUGHT-IS-OPINING and STMT-OPINION-IS-A-MOTION at the bearer that the reused Cogito subject theorem supplies. It connects the Cogito trunk to the root-path premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD but closes nothing: all four premises are open, and a transcription with an open premise leaves its conclusion open. Only the Lean content ∃ x r, MovedIn x r is derived, in the respect of an opinion; no sense-evident or physical motion follows. Source-free. No route-cost change; the reaching-root frontier grows by four open premises (O, B, OB, STMT-OPINION-IS-A-MOTION), now on a root path."
+}

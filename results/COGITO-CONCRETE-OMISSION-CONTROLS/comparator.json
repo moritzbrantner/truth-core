@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CogitoConcrete.omissionControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

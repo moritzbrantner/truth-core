@@ -1,156 +1,60 @@
 # Systematic corpus loop
 
-The corpus should advance through philosophical works without requiring a human to nominate each sentence. The repository therefore uses two nested scales of work.
-
-## 1. Campaign: a meaningful source objective
-
-A GitHub issue may represent a campaign such as **Aristotle, Physics III**. A campaign is deliberately coarse. It can take several PRs and it should describe the source boundary and completion criteria, not maintain its own workflow state machine.
-
-Campaigns are useful for choosing *where the project is going*. They are not the canonical store for claims, propositions, or proofs.
-
-## 2. Candidate: the next contiguous source range
-
-`corpus/candidates/*.json` is the lightweight execution queue. A candidate should usually cover a chapter or another coherent source range, not one sentence and not one already-decided proposition.
-
-Run:
-
-```bash
-python3 scripts/corpus.py next
-```
-
-The selected worker owns that range until it has either exhausted it or reached a reviewable PR boundary.
-
-### Range processing
-
-Within a candidate:
-
-1. Read the whole range and enough surrounding context to understand its argumentative shape.
-2. Process the text in source order.
-3. Extract only philosophically substantive propositions, distinctions, definitions, premises, conclusions, objections, replies, and explicit inferential moves.
-4. Skip purely connective, rhetorical, repetitive, editorial, or example-only sentences unless they materially constrain an interpretation.
-5. For each extracted reading, apply the atomic worker contract in `AGENTS.md`.
-6. Preserve competing defensible readings rather than forcing one.
-7. Reuse existing statements only after checking semantic identity.
-
-This makes the unit of source scholarship atomic while keeping the unit of agent execution large enough to make continuous progress. It governs source ingestion; self-directed frontier investigations follow the argument-first method below.
-
-## Progress is depth on the root path, not volume
-
-The repository's aim (#143) is a graph from the root statement "Catholicism is true" (#156) down to premises that are either self-evident or whose alternatives are all refuted. Progress is measured as **load-bearing frontier nodes closed on paths to that root**, as reported by `python3 scripts/corpus.py frontier`. Claim counts, result counts, and source coverage are not progress measures.
-
-In practice:
-
-- choose work from the frontier, preferring open premises that many arguments depend on or that objections attack, and agree on the direction with the owner at each milestone;
-- a transcription result (AGENTS.md invariant 16) closes no frontier node by itself. It closes its conclusion only when every premise of its argument is closed: marked self-evident, defended by refuting every recorded alternative, the conclusion of a verified non-transcription result, or closed by this same rule. `corpus.py frontier` computes this as a fixpoint and lists such nodes as `closed via transcription from closed premises` (owner decision on #143, 2026-10-24). A transcription that has an open premise, typically its bridge premise `A ∧ B → C`, still closes nothing. A result is a transcription when its record declares one in the structured `transcription` field (`opaque_atoms`, `single_application`, `assembly` or `instantiation`), or when its proof is a single application of one hypothesis or only assembles hypotheses (`⟨hClaims, hRose⟩`). Declare the field on every result whose atoms are unconstrained `Prop` parameters or whose description calls it a transcription; prose in `description` is commentary, not the flag, and `corpus.py check` warns about unflagged opaque-atom candidates (#391);
-- a `refutes` relation defends a premise only when its argument is verified and all of that argument's premises are closed (#391). A conditional refutation resting on open premises leaves the alternative standing, and `corpus.py check` warns about it;
-- report a PR's effect on the root with `corpus.py frontier --routes`: for each argument concluding the root, the number of distinct open leaves it rests on (sourced or bare premises stay leaves; intermediate conclusions without their own claim are expanded through their cheapest verified proof), with the cheapest verified route marked. A new derivation under a sourced premise never raises a route's cost; a derivation under a bare premise is a relocation and may;
-- a source campaign (e.g. Aristotle's *Physics*) continues only where a premise on a root path depends on it.
-
-### Relocation and the depth of open premises
-
-Replacing one open premise by several narrower ones (a *relocation*) can grow the frontier and still be progress (owner decision on #143, 2026-10-24). It counts as progress when **every** new open premise is:
-
-1. **sourced**: a claim states it, or a `supports` relation points to it from a source claim; and
-2. **shown necessary** by a countermodel: a Lean model that satisfies every other premise of the argument but falsifies the conclusion once that premise is dropped.
-
-`corpus.py frontier` therefore classifies each open premise by depth:
-
-- **bare**: no claim states it and no `supports` relation points to it;
-- **sourced** (sourced but undefended): a claim states it or supports it, but it is not yet closed (proved, self-evident, or defended by refuting every recorded alternative).
-
-The summary line reports both counts, e.g. `frontier: 28 open premises: 8 bare, 20 sourced-undefended`; `--json` gives `depth_counts` and a `depth` per item, and `/graph` tags open premises `frontier:bare` or `frontier:sourced`. The aim is to drive bare premises to zero first, then defend the sourced ones.
-
-This rule exists because the earlier corpus optimized what it counted: about 100 mostly one-step results in three days, then the campaign stalled.
+Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Frontier investigations lead; source campaigns serve their open premises. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
 
 ## Frontier investigations: argument-first, decomposition on demand
 
-Owner direction on #565. A self-directed frontier investigation (work selection, issue granularity and how results are presented, as opposed to processing a source range) researches at the largest scale where meaningful progress is possible and decomposes only as far as rigor, adversarial testing or reuse requires. The granularity of the research objective is not the granularity of the proof and source corpus.
+For one owner-scoped thesis or argument (#565):
 
-1. **Start with a substantial target.** State the thesis, the conclusion it would help establish and its root or frontier relevance.
-2. **Write the end-to-end case first.** In ordinary prose: where the strongest positive line begins, how the conclusion follows if it succeeds, its indispensable commitments, and the exact current bottleneck, reusing existing results by ID. A reader should understand the whole path without opening dozens of records.
-3. **Reconstruct the serious rivals in context.** Each answers the same questions, with its own interpretations and primitives (no win by subtraction). Incompleteness relative to a claimed scope is not contradiction, and a theory correct within a declared narrow scope is not incomplete for declining a wider one.
-4. **Seek the decisive fork:** one high-leverage dilemma, implication, independently defensible premise, countermodel, inconsistency core or missing bridge, rather than a taxonomy of marginal distinctions.
-5. **Decompose on demand.** Promote a distinction to its own statement, definition, disambiguation or focused task only when it passes the gate below. Other nuances stay in the investigation's existing issue or note until needed.
-6. **Formalize and test precisely** under the unchanged contract in `AGENTS.md`: Lean/Comparator, binding, omission countermodels, source evidence and fidelity review, frontier closure. An open bridge stays open.
-7. **Recompose in the report.** Return every finding to the end-to-end case: which route became stronger or weaker, which rivals were eliminated and under exactly which assumptions, what remains open, and why the result is useful.
+1. **Map the whole case.** State the conclusion and downstream purpose, strongest positive argument and serious rivals, existing statement/theorem IDs, explicit assumptions, and current bottleneck.
+2. **Verify the conditional structure.** Formalize load-bearing inferences and test omissions or rival models. A verified implication does not establish its premises.
+3. **Refine recursively.** Pick the highest-leverage open premise or decisive fork; investigate it as a smaller end-to-end argument, reusing existing results. Repeat at the child level only when necessary.
+4. **Decompose on demand.** Separate canonical statements/tasks only when inference, a real disagreement, independent justification, reuse, or a source/proof invariant requires it. Do not manufacture atomized taxonomies or duplicate issues.
+5. **Recompose immediately.** Connect the child's actual result to its parent, update unresolved assumptions and alternatives, and continue the same argument. A failed route yields a recorded countermodel or precise blocker, not a stronger invented premise.
 
-**Decomposition gate.** A separate canonical proposition or task is worth its cost when at least one holds:
+Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
 
-- valid inference depends on it (it exposes an equivocation, an omitted assumption, a scope, modal or causal difference, or a failed step);
-- it discriminates positions (treating it separately changes a theorem, countermodel, inconsistency core, alternative or explanatory verdict);
-- it admits independent progress (a nontrivial path to sourcing, proving or refuting it);
-- it is a load-bearing premise or result of several substantial arguments; or
-- an existing invariant requires it, such as materially different source readings (invariant 5) or distinct premises of an advertised argument.
+## Progress is depth on the root path, not volume
 
-The gate is a prioritization rule, not permission to conflate meanings that matter. Never merge existing IDs by similarity (`AGENTS.md` invariants 4–8). The narrative lives in the existing campaign issue or a linked note: no new entity kind, metadata schema, worldview registry or progress database, and no hand-authored complete worldview (positions are computed, #512). An end-to-end narrative is not a proof and closes nothing; "more statements, issues or conditional lemmas" is not success by itself. The pilots and the recent cases of low-leverage splitting are in [the #565 note](notes/argument-first-pilots-565.md).
+Use `python3 scripts/corpus.py frontier --routes` and `--reaching-root`. Report exactly what changed for root-facing open premises, including **no change** for unconnected outposts.
+
+- An open premise is **bare** (no source claim/support) or **sourced but undefended**. First remove bare gaps, then independently defend sourced premises.
+- A transcription (`opaque_atoms`, `single_application`, `assembly`, `instantiation`) does not close an open conclusion; it propagates closure only when **all** its premises are closed. An alleged refutation counts only when verified **and** all its premises are closed.
+- Replacing one open premise with narrower leaves ("relocation") counts as progress only when **every** new leaf is sourced **and** needed by an omission countermodel.
+- Neither source attribution, a conditional theorem, a narrative, nor an unverified model proves a premise. Preserve exact semantics, assumptions, and surviving rivals; see [configuration elimination](configuration-elimination-loop.md).
+
+## 1. Campaign: a meaningful source objective
+
+A coarse GitHub issue names a coherent source objective and completion criteria; it is not a second status tracker. Choose source reading when a live argument needs that evidence, not just to grow coverage.
+
+## 2. Candidate: the next contiguous source range
+
+`corpus/candidates/*.json` queues chapter-sized or similarly coherent ranges. Use `python3 scripts/corpus.py next` when doing source ingestion:
+
+1. Materialize the verified witness; read the whole range and context before splitting it.
+2. Proceed in source order. Record substantive readings and inferential steps, reuse existing identities, and preserve defensible alternatives. Skip filler; not one claim per sentence.
+3. Apply the atomic research/proof contract in `AGENTS.md`. Keep the same candidate and advance its locator after a partial batch; delete it only when its range is exhausted.
 
 ## PR boundary
 
-The thresholds below are an upper size bound for reviewability, not a quota. Fewer, deeper results are better than many shallow ones.
-
-Prefer a PR when one of these is true:
-
-- the candidate range is complete;
-- roughly 5–10 new source claims have been formalized;
-- one coherent argument cluster and its verification are complete; or
-- the next passage requires a materially different formal vocabulary or research question.
-
-A PR boundary is not a reason to ask the human what sentence comes next.
-
-If the candidate still has unprocessed text, update the same candidate file so its locator begins at the first unprocessed passage. Keep its ID. After merge, the next worker resumes it with `corpus.py next`.
-
-If the candidate is complete, delete the candidate file. The next queued source range then becomes active automatically.
+Ship one coherent verified argument cluster, a complete candidate range, or a reviewable part of it (about 5–10 claims at most, not a quota). Report premise effects and remaining gaps; persist substantive failed attempts before handoff. A PR boundary does not end the investigation.
 
 ## Parallel lanes
 
-Workers may run in parallel, one per lane (#416). `AGENTS.md`, "Lanes and shared files", lists the lanes and the directories and records each owns: lane A the Fourth Way and the attributes (Latin, stages 1–2), lane B stage 3 (history, New Testament and Church sources), lane C everything else and all tooling.
-
-The repository avoids files that every PR must edit:
-
-- **Lean imports.** Each area of `TruthCore/` has a generated aggregator `TruthCore/Imports/<Area>.lean`. An area is a top-level directory (`TruthCore/Latin/`), or `TruthCore/Results/<Area>/`, or a finer prefix listed in `AREAS` in `scripts/root_imports.py` where two lanes would otherwise share one aggregator. `TruthCore.lean` imports only the aggregators. After adding or removing a module, run `scripts/root-imports.sh --write`; CI runs it in check mode.
-- **Shared docs tables and lists.** An append-only table or list in a shared doc is rendered from one Markdown file per entry by `scripts/docs_index.py`, between `<!-- BEGIN GENERATED: … -->` and `<!-- END GENERATED -->` markers that name the entry directory and columns. Owner decisions live in `docs/decisions/`; campaign tables (for example the alternatives campaign's premise rows or the bridge candidates) follow the same pattern with their own entry directory. To add a row, add a file and run `python3 scripts/docs_index.py --write`. The prose around a generated section stays hand-written; the section itself is never hand-edited, and CI rejects a stale one.
-
-Before every push, merge `origin/main`, rerun both generators, and rerun the checks. A conflict in generated output is resolved by taking either side and regenerating. A row or list item that a branch from before #416 added by hand must first move into an entry file, because the generator keeps only entries. Edits outside the lane are minimal and listed in the PR description.
+Follow the A/B/C ownership in `AGENTS.md` (#416). Shared Lean imports and documentation tables are generated, never hand-edited; rerun `scripts/root-imports.sh --write` and `python3 scripts/docs_index.py --write` after merging `origin/main` before pushing.
 
 ## Completion and coverage
 
-A source range is complete when the worker has read it in full and either:
-
-- represented every philosophically substantive reading needed for the current corpus scope; or
-- explicitly determined that remaining text is expository, repetitive, or not yet useful enough to justify a new claim.
-
-Completeness does **not** mean one claim per sentence. It means no substantive passage was silently skipped.
-
-For an existing claim in the range, review and reuse it rather than duplicating it. This allows systematic passes over books that already contain seed claims.
+A source range is complete once read and its relevant substantive content represented or explicitly judged out of scope; it need not generate a claim for every sentence. A frontier slice ends only when its conclusion is established under the stated standards, the route is decisively defeated, or a precise obstacle requires owner judgment. A conditional result with open premises is not established.
 
 ## Failed proofs feed research
 
-A failed proof does not justify strengthening a source claim. If an advertised argument needs a substantive premise that has not been formalized, add a candidate for the best source location to investigate. Give it a higher priority than routine forward reading when it blocks an argument already in the corpus.
-
-This is the main feedback path from proof work back into source work.
+Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. Prefer a targeted child argument or source candidate over unrelated reading.
 
 ## Campaign handoff
 
-The queue should replenish itself across campaigns as well as inside them.
-
-Before closing a completed campaign:
-
-1. follow any explicit successor campaign already named in the issue or repository guidance;
-2. ensure that successor campaign exists as a coarse issue when useful;
-3. seed at least its first chapter/range candidate so `python3 scripts/corpus.py next` has work immediately;
-4. then close the completed campaign.
-
-Do not ask the human to restart the loop when the successor is already determined. Escalate only when choosing the next work or philosopher is a genuine scope decision that the documented ordering and existing proof dependencies do not resolve.
+When a campaign finishes, follow its known successor, seed its first source-range candidate, then close it. Keep one current handoff. Stop only for genuinely unavailable evidence, a scope/modeling choice requiring the owner, a repository defect, or an ambiguous successor.
 
 ## Campaign ordering
 
-Prefer depth before breadth:
-
-1. finish the current contiguous campaign;
-2. backfill nearby foundational material that the campaign repeatedly depends on;
-3. continue through the same work while the vocabulary remains useful;
-4. only then open a new work or philosopher, unless a proof dependency gives a concrete reason to branch.
-
-Since 2026-10-23 the frontier of the root graph (#143, #156) takes precedence over source campaigns. The ordering below applies only within a campaign that a root path currently needs.
-
-For the original seed corpus, the campaign was Aristotle's `Physics` III, continuing immediately after the existing 201a10–11 change definition. The initial queue covers the remainder of III.1 and then III.2–III.8 in chapter order. Existing campaign tickets then order the Physics I–II backfill before continuing through Physics IV–VIII.
+Prioritize the active frontier slice and its blockers; source campaigns follow those needs. Within a campaign, finish the current range, backfill necessary foundations, then continue the source while useful. The original Aristotle `Physics` III → I–II → IV–VIII order remains a fallback, not a competing global priority.
