@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "paraphrase": "Some subject bears an occurring thought.",
+  "lean_declaration": "TruthCore.Logic.CogitoBridge.SomeThinkingSubject"
+}
