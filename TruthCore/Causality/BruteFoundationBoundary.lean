@@ -91,6 +91,72 @@ theorem noAllContingentGroundedWellFounded
   rcases hAllContingent x hc he with ⟨_, v, hv, hAbsent⟩
   exact hAbsent (hNecessary v hv)
 
+/-- A stronger *disjunctive elimination*: in any inhabited world with a
+well-founded existential-grounding relation, failure of de re necessary
+concrete existence forces an **actual contingent concrete root**.
+
+The root has no incoming ground from another actual concrete individual.
+This does not rule out a non-concrete explanatory reason, and it does not
+supply metaphysical evidence that the no-necessary-being hypothesis is true.
+
+Proof uses classical case analysis on contingency and on the existence of
+a predecessor; this is a result in ordinary classical logic. -/
+theorem contingentBruteRootOfNoNecessary
+    (m : Profile W B) (w : W)
+    (hPop : InhabitedAt m w)
+    (hWF : WellFounded (m.grounds w))
+    (hNoNecessary : ¬ NecessaryConcreteAt m w) :
+    ∃ root, m.concrete root ∧ m.ontic.ExistsAt w root ∧
+      ContingentAt m.ontic w root ∧
+      (∀ y, m.concrete y → m.ontic.ExistsAt w y →
+        ¬ m.grounds w y root) := by
+  classical
+  have findRoot : ∀ x : B, m.concrete x → m.ontic.ExistsAt w x →
+      ∃ root, m.concrete root ∧ m.ontic.ExistsAt w root ∧
+        (∀ y, m.concrete y → m.ontic.ExistsAt w y →
+          ¬ m.grounds w y root) := by
+    intro x
+    induction x using hWF.induction with
+    | h x ih =>
+      intro hxConcrete hxExists
+      by_cases hp : ∃ y, m.concrete y ∧
+          m.ontic.ExistsAt w y ∧ m.grounds w y x
+      · rcases hp with ⟨y, hyConcrete, hyExists, hyGround⟩
+        exact ih y hyGround hyConcrete hyExists
+      · refine ⟨x, hxConcrete, hxExists, ?_⟩
+        intro y hyConcrete hyExists hyGround
+        exact hp ⟨y, hyConcrete, hyExists, hyGround⟩
+  rcases hPop with ⟨x, hxConcrete, hxExists⟩
+  rcases findRoot x hxConcrete hxExists with
+    ⟨root, hrConcrete, hrExists, hrMinimal⟩
+  have hrCont : ContingentAt m.ontic w root := by
+    by_contra hNotCont
+    apply hNoNecessary
+    refine ⟨root, hrConcrete, hrExists, ?_⟩
+    intro v hv
+    by_cases hev : m.ontic.ExistsAt v root
+    · exact hev
+    · exact False.elim (hNotCont ⟨hrExists, ⟨v, hv, hev⟩⟩)
+  exact ⟨root, hrConcrete, hrExists, hrCont, hrMinimal⟩
+
+/-- Either a genuine actual contingent concrete root exists, or existential
+grounding is not well-founded. This is a conditional partition, not a
+refutation of either alternative; and 'not well-founded' does not uniquely
+specify an infinite temporal history rather than a cycle. -/
+theorem bruteRootOrNonWellFounded
+    (m : Profile W B) (w : W)
+    (hPop : InhabitedAt m w)
+    (hNoNecessary : ¬ NecessaryConcreteAt m w) :
+    (∃ root, m.concrete root ∧ m.ontic.ExistsAt w root ∧
+       ContingentAt m.ontic w root ∧
+       (∀ y, m.concrete y → m.ontic.ExistsAt w y →
+         ¬ m.grounds w y root)) ∨
+      ¬ WellFounded (m.grounds w) := by
+  classical
+  by_cases hWF : WellFounded (m.grounds w)
+  · exact Or.inl (contingentBruteRootOfNoNecessary m w hPop hWF hNoNecessary)
+  · exact Or.inr hWF
+
 /-- Two complete worlds. In each, there is one root (second coordinate false)
 and one child (second coordinate true). All four rigid candidates are concrete,
 but each exists in exactly one of the two worlds. -/
