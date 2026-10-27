@@ -1,0 +1,17 @@
+{
+  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "inference_ids": [
+    "INF-COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS"
+  ],
+  "meaning": "Three explicit countermodels establish independence of the occurrence, thought-as-change, and source-reading premises within the stipulated typed semantics. They do not establish metaphysical possibility.",
+  "definition_ids": [
+    "DEF-THOUGHT-CHANGE-OCCURRENCE",
+    "DEF-THOUGHT-CHANGE-CLASSIFICATION",
+    "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+  ]
+}
