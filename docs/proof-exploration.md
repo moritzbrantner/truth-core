@@ -176,4 +176,15 @@ its added premises stay on the frontier until sourced or proved.
 - #569: joint-premise witness coverage for root-path results (consistency
   before proving from a premise set).
 - #570: anti-trivialization witnesses with no modal collapse or necessitism.
-- #571: flag result proofs that ignore a listed premise hypothesis.
+- #571: flag result proofs that ignore a listed premise hypothesis. After
+  `lake build`, `python3 scripts/corpus.py unused-premises` (report only;
+  `--strict` exits 1 on a finding, `--json` for the full report) runs
+  `scripts/UnusedPremises.lean` over every result theorem and joins its
+  proof-term usage with bind-check's premise binding. A finding names the
+  result, the premise statement and its hypothesis (or theory-bundle
+  conjunct), and whether the premise is open on a root path. Usage is
+  syntactic: `∧` projections and destructuring, `match` auxiliaries and
+  arguments passed to `TruthCore` theorems are followed, everything else
+  counts as use, so "used" does not mean logically needed. A finding is
+  resolved by a new, weaker result without that premise (never by editing the
+  frozen Challenge) or by a reason recorded in the result's `description`.
