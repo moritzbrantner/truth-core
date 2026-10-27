@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-SUBJECTLESS-EPISODE-MODEL",
+  "argument_id": "COGITO-SUBJECTLESS-EPISODE-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubjectIndependence.subjectlessEpisodeModel",
+  "comparator_config": "results/COGITO-SUBJECTLESS-EPISODE-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "An occurring thought episode can be modeled without any bearer relation."
+}
