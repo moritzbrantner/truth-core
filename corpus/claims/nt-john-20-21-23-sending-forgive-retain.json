@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-20-21-23-SENDING-FORGIVE-RETAIN",
+  "statement_id": "STMT-REPORTED-JOHN-20-SENDING-FORGIVE-RETAIN",
+  "source_id": "NT-JOHN",
+  "locator": "20.21-23",
+  "interpretation": "20.21: 'kathōs apestalken me ho patēr, kagō pempō hymas'; 20.22: 'labete pneuma hagion'; 20.23: 'an tinōn aphēte tas hamartias apheōntai autois; an tinōn kratēte kekratēntai'. Read as a report that Jesus, grounding the sending in his own sending by the Father, gives the disciples gathered the power to forgive and to retain sins; CommissionReport.powers jn20 = [forgiveAndRetain]. Context read: 20.19-29 (20.24: Thomas, one of the twelve, was not with them). Limits: textual report only; the recipients are 'the disciples' then present, not the twelve as such; the sending comparison is a report, not an established grant.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

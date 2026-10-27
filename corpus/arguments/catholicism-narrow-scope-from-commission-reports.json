@@ -1,0 +1,24 @@
+{
+  "id": "CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "premise_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+  ],
+  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "inference_ids": [
+    "INF-CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS"
+  ],
+  "meaning": "The narrow scope premise STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH (if Jesus holds a mandate from g and founded the Catholic Church as a visible society with authority, he founded it in that mandate and commissioned it to teach) is derived from two premises: the report-to-event premise STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS (Matthew 28.18-20 and at least one of the four governing commissions, Matthew 16.18-19, 18.17-18, John 20.21-23, 21.15-17, go back to Jesus; Dei Verbum §19), and STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES (if Jesus holds a mandate from g and founded the Catholic Church, his giving a governing power makes the founding one in the mandate and his giving the power to teach is a commission of that Church to teach; Lumen gentium §§19, 22). The step depends on the reported content: it goes through because the reports name a governing power and the power to teach, and in a preaching-only model (Commissions.preachingOnly_fails_reports) premise 2 holds and premise 1 fails. Premise 2 is strictly weaker than the conclusion (Commissions.narrow_implies_link with the first omission model), but it carries the institutional content: the conclusion's two parts are its consequents, so the proof is a single application of it (recorded as a transcription). The 'institution or message' fork is split between the two premises, not moved onto premise 1. Each premise is necessary (Commissions.omissionModels); both are jointly satisfiable with stage 6 and every stage antecedent of the founding bridge (Commissions.jointModel). The message rival STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE may deny premise 2 (the second omission model satisfies the rival); granting premise 2, Jesus' mandate and his founding of the Catholic Church as a visible society with authority, must deny each of the four governing commissions (Commissions.messageRival_denies_governing_reports) but may keep Matthew 28 (Commissions.messageRival_compatible_with_mt28). Both premises are open.",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

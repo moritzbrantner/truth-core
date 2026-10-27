@@ -1,0 +1,16 @@
+{
+  "id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "paraphrase": "For any being g: if Jesus holds a mandate from g and founded the Catholic Church as a visible society with an authority structure, then (a) if Jesus himself gave or promised to his disciples any governing power (the keys, binding and loosing, the church's judging, forgiving and retaining sins, shepherding his flock), he founded the Catholic Church in the exercise of that mandate, and (b) if he gave his disciples the power to teach, he commissioned the Catholic Church to teach. It does not assert that Jesus gave any power, holds a mandate or founded the Catholic Church. It is strictly weaker than STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH, which gives both consequents with no condition on what Jesus gave. The following are open content of this statement, not attributed to Lumen gentium, which asserts one conferral of all these powers on the twelve as a college under Peter by the Father's sending: that a single governing power suffices for (a), that a promise (Matthew 16.19) counts as giving, that the recipient may be any one or more disciples or their community, and that g ranges over every being from which Jesus holds a mandate.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.ChurchFoundedInCommissionedApostles",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

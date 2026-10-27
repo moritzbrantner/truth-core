@@ -1,0 +1,14 @@
+{
+  "id": "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING",
+  "statement_id": "STMT-REPORTED-MATT-16-CHURCH-ON-ROCK-KEYS-BINDING",
+  "source_id": "NT-MATT",
+  "locator": "16.18-19",
+  "interpretation": "16.18: 'kagō de soi legō hoti sy ei Petros, kai epi tautē tē petra oikodomēsō mou tēn ekklēsian'; 16.19: 'dōsō soi tas kleidas tēs basileias tōn ouranōn', with binding (dēsēs) and loosing (lysēs) on earth ratified in heaven. Read as a report of a promise addressed to Peter, in the future tense (oikodomēsō, dōsō), that Jesus will build his own ekklēsia 'on this rock' and will give Peter the keys with the power to bind and loose; CommissionReport.powers mt16 = [keys, bindAndLoose]. Context read: 16.13-17 (the confession, revealed by the Father) and 16.20-23 (the command of silence and the rebuke of Peter). Limits: textual report only; it is a promise, not a narrated conferral; the recipient is Peter alone; the referent of 'this rock' (Peter, his confession, or Christ) is left neutral: neither this claim nor the formalization chooses it, since only the powers promised to Peter (the keys, binding and loosing; 'dōsō soi') are encoded; and the verse's authenticity is disputed in critical scholarship, which is the content of the report-to-event premise, not of this claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

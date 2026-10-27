@@ -1,0 +1,14 @@
+{
+  "id": "NT-MATT-18-17-18-CHURCH-JUDGES-DISCIPLES-BIND",
+  "statement_id": "STMT-REPORTED-MATT-18-CHURCH-JUDGES-DISCIPLES-BIND",
+  "source_id": "NT-MATT",
+  "locator": "18.17-18",
+  "interpretation": "18.17: 'eipon tē ekklēsia; ean de kai tēs ekklēsias parakousē, estō soi hōsper ho ethnikos kai ho telōnēs'; 18.18: 'hosa ean dēsēte ... hosa ean lysēte' in the plural. The addressees are 'the disciples' of 18.1. Read as a report that Jesus, by instructing a disciple to bring the case to the ekklēsia, assigns the ekklēsia a hearing of a member's case beyond the one and the two or three witnesses, with exclusion of one who refuses it (reading the instruction as conferring that power on the community is this claim's reading choice), and gives the disciples addressed the power to bind and loose; CommissionReport.powers mt18 = [judgeAsChurch, bindAndLoose]. Context read: the whole of chapter 18 (the community discourse, 18.1-35). Limits: textual report only; the text says 'the disciples', not 'the twelve'; whether ekklēsia here means a local assembly or Jesus' whole ekklēsia of 16.18 is not decided, and only the named powers are encoded.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

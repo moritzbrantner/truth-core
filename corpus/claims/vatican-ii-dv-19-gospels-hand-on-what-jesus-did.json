@@ -1,0 +1,15 @@
+{
+  "id": "VATICAN-II-DV-19-GOSPELS-HAND-ON-WHAT-JESUS-DID-AND-TAUGHT",
+  "statement_id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "source_id": "VATICAN-II-DEI-VERBUM",
+  "locator": "§19, first sentence; compare §18 and the rest of §19",
+  "interpretation": "§19: the Church holds that the four Gospels, 'quorum historicitatem incunctanter affirmat', 'fideliter tradere quae Iesus Dei Filius, vitam inter homines degens, ad aeternam eorum salutem reapse fecit et docuit, usque in diem qua assumptus est' (Acts 1.1-2). §18: the Gospels have apostolic origin; what the apostles preached 'ex mandato Christi' they and apostolic men handed on in writing. The rest of §19 qualifies the manner: the apostles handed on what Jesus said and did with the fuller understanding they had after the glorious events, and the evangelists selected, synthesised and explained some things 'statui ecclesiarum attendendo', 'ita semper ut vera et sincera de Iesu nobiscum communicarent'. Read as a conciliar assertion that the substance of what the Gospels report Jesus doing and teaching goes back to Jesus. The council does not mention these sayings: applying the assertion to the five commissions of DEF-COMMISSION-REPORT-POWERS, and so to Jesus' giving or promising each power they name, is this claim's own application. The source states more than the statement: it covers all four Gospels, and so all five commissions, while the statement needs only Matthew 28.18-20 and one of the four governing commissions (CommissionReports.all_reports_imply_commission_reports). Limits: it is a doctrinal assertion, not historical corroboration, and it is the Church's own testimony about its founding texts; its redaction clause (explaining 'with attention to the state of the churches') is exactly where critical readings that date Matthew 16.18-19 and 18.17-18 to the later community locate those sayings, so the source does not settle the dispute; it asserts faithful transmission of substance, not verbatim wording, which is why the statement concerns the powers named and not the words.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

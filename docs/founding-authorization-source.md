@@ -142,6 +142,98 @@ open premises, 9 bare, 48 sourced-undefended, unchanged); stage 6 was already
 on every route. Per-route costs are unchanged (cheapest 31). Nothing is
 discharged.
 
+## Institution or message: the reported commissions (2026-10-27, third PR)
+
+The narrow premise `STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH` is
+now derived (result `CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS`,
+`narrow_scope_from_commissions`, module
+`TruthCore.Case.Catholicism.StageThree.Commissions`) from two premises:
+
+1. *Report-to-event* (`STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS`): the
+   commission of Matthew 28.18-20 goes back to Jesus, and so does at least one
+   of the four commissions with governing content, Matthew 16.18-19, 18.17-18,
+   John 20.21-23 and 21.15-17. Supported by *Dei Verbum* §19 (newly pinned,
+   `VATICAN-II-DEI-VERBUM-V`): the four Gospels faithfully hand on what Jesus
+   *reapse fecit et docuit*. The council asserts more (all four Gospels); the
+   premise needs only two of the five commissions.
+2. *Founding in the commissioned apostles*
+   (`STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES`): if Jesus holds a mandate
+   from `g` and founded the Catholic Church, his giving a governing power makes
+   that founding one in the mandate, and his giving the power to teach is a
+   commission of that Church to teach. Supported by *Lumen gentium* §19 (the
+   Church founded *in Apostolis*, sent *ut suae participes potestatis*; citing
+   Matthew 28, John 20, 21, Matthew 16.18) and §22 (Peter as rock and
+   key-bearer and pastor of the whole flock; binding and loosing given to the
+   college, Matthew 18.18). The council asserts one conferral of all these
+   powers on the twelve under Peter; that a single governing power or a
+   promise suffices, for any recipient disciple and any mandator, is open
+   content of the premise, not attributed to it.
+
+What each report says is the sourced definition `CommissionReport.powers`
+(`DEF-COMMISSION-REPORT-POWERS`, from five report claims); which powers are
+governing is the stipulation `Power.Governing`
+(`DEF-COMMISSION-EVENT-AND-GOVERNING-POWER`): keys, binding and loosing, the
+church's judging, forgiving and retaining, shepherding. Preaching, making
+disciples, baptizing and teaching are not governing, so the rival's concession
+of a teaching commission does not already count as an institution.
+
+**What the derivation shows.** It depends on content: it goes through because
+the reports name a governing power and the power to teach. In a preaching-only
+model (the commission Harnack names; that he denies every other power is not
+attributed to him), premise 2 holds and premise 1 fails
+(`preachingOnly_fails_reports`; this rests on the stipulated distinction of
+teaching from preaching); without premise 2, every commission may be
+historical and the narrow premise still fail (`omissionModels`). Premise 2 is
+strictly weaker than the narrow premise (`narrow_implies_link`, strict by the
+first omission model), but it carries the institutional content. The fork is
+therefore split between the two premises, not moved onto premise 1: a rival
+may deny premise 2 (the second omission model satisfies the message rival with
+every commission historical), or, granting premise 2, Jesus' mandate and his
+founding of the Catholic Church as a visible society with authority, must deny
+**each** of the four governing commissions
+(`messageRival_denies_governing_reports`); it may keep Matthew 28.18-20
+(`messageRival_compatible_with_mt28`). Premise 2 has the conclusion's two parts
+as consequents and the case analysis only supplies its antecedents, so the
+result is recorded as a transcription (invariant 16, `single_application`;
+Codex review on #581): it closes nothing and derives no institutional
+content.
+
+**Findings from the text** (Matthew 16, 18, 28 and John 20, 21 read in full):
+
+| Report | Powers | Recipient | Limit |
+| --- | --- | --- | --- |
+| Matthew 16.18-19 | keys; binding and loosing | Peter | a promise (*oikodomēsō*, *dōsō*), not a narrated conferral; authenticity is the classic dispute |
+| Matthew 18.17-18 | the *ekklēsia* judges and excludes; binding and loosing | "the disciples" (18.1), plural | *ekklēsia* may be the local assembly |
+| Matthew 28.18-20 | make disciples, baptize, teach | the eleven | the only report that names teaching |
+| John 20.21-23 | forgive and retain sins | the disciples present; Thomas absent (20.24) | sending grounded in the Father's sending |
+| John 21.15-17 | shepherd Jesus' lambs and sheep | Peter | the flock is not identified with a society; 21.24 is the Gospel's own claim to true testimony |
+
+Matthew 16.18 and 18.17 are the only Gospel uses of *ekklēsia*. Only Matthew
+28.18 and John 20.21 ground the commission in Jesus' own received authority or
+sending; that the others were also given in the mandate stays inside premise 2,
+since no recorded rival separates it (decomposition gate).
+
+**Rejected.** (i) A premise that all five commissions go back to Jesus: stronger
+than needed. (ii) Teaching or baptizing as governing: it would beg the question
+against the rival. (iii) A separate "given in the mandate" premise: no rival
+separates it. (iv) Report statements as premises: their content is the sourced
+definition, and only the report-to-event step is a premise.
+
+**Open.** Neither side's historical argument is pinned. The pinned Harnack
+section does not discuss the governing sayings, so no source yet states their
+historical denial; *Dei Verbum*'s own redaction clause (*statui ecclesiarum
+attendendo explanantes*) is where such readings place Matthew 16.18-19 and
+18.17-18. Next: pin a critical denial (for example on Matthew 16.18) and a
+historical argument for one governing commission (the double attestation of
+binding and loosing and forgiving, Matthew 16.19, 18.18 and John 20.23; Paul on
+Cephas, Galatians 1.18 and 2.9).
+
+**Premise effect.** Because the result is a transcription with open premises,
+the narrow premise stays on the open frontier ("open although proved"), and the
+two new premises are listed beside it (on main at merge: 61 → 63 open premises;
+12 bare unchanged, 49 → 51 sourced-undefended). Per-route costs are unchanged
+(cheapest 31). Nothing is discharged.
+
 ## Verified witnesses and findings
 
 The complete ranges below were materialized and read, not inferred from the
@@ -158,6 +250,8 @@ establishes an occurrence or the truth of a theological commitment.
 | `VATICAN-II-LUMEN-GENTIUM-I` | §3, opening three sentences; §5, both paragraphs | The Son is sent by the Father and inaugurates the kingdom to fulfil the Father's will. The post-resurrection Church receives a mission to announce and establish Christ's and God's kingdom among all nations. | Mission content is richer than a bare authority label, but these assertions do not derive the generic founding bridge from its existing antecedents. |
 | `VATICAN-II-LUMEN-GENTIUM-I` | §8, first two paragraphs | The source describes the one complex Church, its visible constitution and its entrustment to Peter and the other apostles. | Its singular/unique Church language is not a statement that every possible visible authoritative society is numerically that Church. |
 | `VATICAN-II-LUMEN-GENTIUM-III` | §18, second paragraph; §19; §20, first paragraph | The council explicitly connects Christ's building of the Church to sending the apostles as the Father sent him, their sharing in his authority, and a continuing divine mission. | This is a substantive conciliar account of mediated mission. It is not independent historical corroboration or an unrestricted agency-composition law. |
+| `NT-MATT-16`, `NT-MATT-18`, `NT-JOHN-21` | Matthew 16.18-19; 18.17-18; John 21.15-17 (chapters read in full) | The governing commissions: keys and binding to Peter (promised), the church's judging and binding to the disciples, shepherding to Peter. | Textual reports; recipients differ; Matthew 16 is a promise. |
+| `VATICAN-II-DEI-VERBUM-V` | §19, first sentence; §§18-19 | The Gospels faithfully hand on what Jesus really did and taught; the evangelists selected, synthesised and explained, always communicating what is true of Jesus. | A doctrinal assertion about the Church's own texts, not historical corroboration; its redaction clause leaves the critical dispute open. |
 | `VATICAN-II-LUMEN-GENTIUM-III` | §§23, 26–28; compare §§21, 24–25 | The text distinguishes particular Churches from the universal Church, describes apostolic/successor establishment and limited pastoral jurisdictions, and specifies teaching, sanctifying and governing ministries. | These are not interchangeable numerical society identities or unrestricted delegations. The conditions on communion, office and mission must survive any typed refinement. |
 
 The new chapter-III passage reuses the existing Latin snapshot, including its

@@ -1,0 +1,12 @@
+{
+  "id": "INF-CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "input_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+  ],
+  "output_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "rule": "case-analysis-on-disjunction-list-membership-universal-instantiation-and-modus-ponens",
+  "meaning": "Fix g with HoldsMandate jesus g, and suppose Jesus founded the Catholic Church as a visible society with authority. From the report-to-event premise: teach is among Matthew 28's powers, so Jesus gave it; and by cases on the four governing reports, Jesus gave keys (Matthew 16), judgeAsChurch (Matthew 18), forgiveAndRetain (John 20) or shepherd (John 21), each of which Power.Governing classifies as governing. The founding-in-the-apostles premise at g then gives FoundedInMandate jesus g catholicChurch from the governing power and CommissionedToTeach jesus catholicChurch from teach.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

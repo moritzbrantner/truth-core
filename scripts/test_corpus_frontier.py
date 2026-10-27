@@ -863,10 +863,14 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertTrue(report["root_known"])
         ids = {item["statement_id"] for item in report["items"]}
         # #357: the founding bridge is derived from four typed premises, and
-        # its scope premise from its Catholic-Church instance and stage 6.
+        # its scope premise from its Catholic-Church instance and stage 6. That
+        # instance's derivation from the commission reports is a transcription
+        # with open premises, so it stays open beside them.
         self.assertNotIn("STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", ids)
         self.assertNotIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING", ids)
         self.assertIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH", ids)
+        self.assertIn("STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", ids)
+        self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1
         # through the fuller nominal definition, so the bare identification
         # premise of the other routes no longer reaches the root.
@@ -880,7 +884,7 @@ class FrontierCorpusTest(unittest.TestCase):
         counts = report["depth_counts"]
         self.assertEqual(counts["bare"] + counts["sourced"], report["open_premise_count"])
         depths = {item["statement_id"]: item["depth"] for item in report["items"]}
-        self.assertEqual(depths["STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"], "sourced")
+        self.assertEqual(depths["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"], "sourced")
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
         # #367: the finite-ancestry route expanded efficient-cause regress

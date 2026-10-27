@@ -49,6 +49,32 @@
           "n": "26"
         }
       ]
+    },
+    {
+      "id": "NT-MATT-16",
+      "locator": "16",
+      "claim_locator_prefixes": [
+        "16."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "16"
+        }
+      ]
+    },
+    {
+      "id": "NT-MATT-18",
+      "locator": "18",
+      "claim_locator_prefixes": [
+        "18."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "18"
+        }
+      ]
     }
   ],
   "notes": "Whole chapter retained for context; claim locators identify exact verses."

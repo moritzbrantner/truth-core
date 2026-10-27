@@ -1,0 +1,10 @@
+{
+  "id": "VATICAN-II-DEI-VERBUM",
+  "kind": "primary_text",
+  "author": "Second Vatican Council (1965)",
+  "work": "Dei Verbum, Dogmatic Constitution on Divine Revelation",
+  "citation_system": "chapter and numbered paragraph; Latin Vatican archive text",
+  "work_urn": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_lt.html",
+  "catalog_url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_lt.html",
+  "notes": "Latin original Vatican archive witness, chapter V (§§17-20) pinned by web_snapshot. Only hashes, locators and short incipit committed."
+}
