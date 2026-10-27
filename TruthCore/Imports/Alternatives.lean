@@ -4,3 +4,4 @@ import TruthCore.Alternatives.ActualityWithoutBeing
 import TruthCore.Alternatives.FirstClosure
 import TruthCore.Alternatives.McTaggart
 import TruthCore.Alternatives.NightCosmogony
+import TruthCore.Alternatives.Retorsion

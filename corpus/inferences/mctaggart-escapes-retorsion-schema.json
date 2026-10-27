@@ -1,0 +1,9 @@
+{
+  "id": "INF-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "rule": "proof",
+  "meaning": "McTaggart's answer gives an appearer that does not change, contradicting the change link at it; with the bridge from being moved to changing it contradicts the Eleatic link (appearingsDoNotChange_denies_opinionIsMotion); the opinionGate model of FirstClosure, with an answer witness, satisfies the commitments and both held positions while both links fail.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

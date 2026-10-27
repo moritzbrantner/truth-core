@@ -1,0 +1,11 @@
+{
+  "id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "inference_ids": [
+    "INF-ELEATIC-RETORSION-SCHEMA-INSTANCE"
+  ],
+  "meaning": "The Eleatic retorsion (Physics VIII.3, 254a27-30) as the conditional retorsion-schema instance: if opining is being moved in the respect of that opinion and someone opines that nothing is moved, it is not the case that nothing is moved. This proves the conditional, not STMT-OPINION-IS-A-MOTION or STMT-ELEATIC-THESIS-IS-OPINED; ELEATIC-THESIS-SELF-REFUTING is unchanged (its frozen Challenge imports only ActPotencyRegress, and Comparator rejects a Solution proof through a lemma outside the Challenge imports); this instance states the same conditional.",
+  "definition_ids": ["DEF-GLOBAL-UNDERMINER", "DEF-PRESUPPOSITION-LINK", "DEF-OPINING", "DEF-MOTION-AS-REDUCTION"],
+  "disambiguation_ids": ["DISAMB-MOTION"]
+}

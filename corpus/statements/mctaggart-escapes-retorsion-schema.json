@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "paraphrase": "McTaggart's answer escapes the retorsion schema at the presupposition link: (1) for every interpretation, STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE denies the link of the change instance (every appearer changes); (2) with the open bridge STMT-MOTION-IS-A-CHANGE it denies the link of the Eleatic instance for every trace of the form opiner-in-the-respect-of-the-opinion; (3) in one model (the opinionGate model) the 1908 bundle, the 1927 answer and the bridge hold, both held positions (nothing changes, nothing is moved, each opined by someone) hold, and both links fail. The model is not claimed faithful to McTaggart; it shows only that these commitments do not entail either link.",
+  "lean_declaration": "TruthCore.Alternatives.Retorsion.McTaggartEscapesRetorsion",
+  "definition_ids": [
+    "DEF-GLOBAL-UNDERMINER",
+    "DEF-PRESUPPOSITION-LINK",
+    "DEF-OPINING",
+    "DEF-CHANGE-GENERAL",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES",
+    "DISAMB-MOTION"
+  ]
+}

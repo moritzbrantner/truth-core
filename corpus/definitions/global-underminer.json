@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GLOBAL-UNDERMINER",
+  "term": "global underminer (retorsion schema)",
+  "definition": "`Underminer Agent W`: a performance relation `Performs a p` (agent a asserts, opines or has it appear that p; which act is fixed per instance), a feature `Feature w` of witnesses, and a thesis that denies the feature of every witness (`denies`, the thesis asserts not-X with X: some witness has the feature). `Held`: some agent performs the thesis. `Position`: the thesis holds and is held. The record does not say which positions are global underminers; that is a recorded class judgment per rival (#515).",
+  "basis": "stipulative",
+  "note": "A logical interface for one-instance-per-underminer retorsion, not a reading of any source. An instance is sourced through its own vocabulary (for example Aristotle's opining and being moved); the definition of the act and the feature belongs to that instance.",
+  "lean_declaration": "TruthCore.Logic.Retorsion.Underminer"
+}

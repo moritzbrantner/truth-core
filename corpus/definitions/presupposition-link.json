@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PRESUPPOSITION-LINK",
+  "term": "presupposition link (retorsion)",
+  "definition": "`U.Link trace`: every performance of any content by any agent yields, through `trace`, a witness of the feature: for all a and p, Performs a p implies Feature (trace a p). It is the philosophical premise of each retorsion instance (for the Eleatic instance exactly STMT-OPINION-IS-A-MOTION), never supplied by the schema. Rejecting it is how an underminer escapes the schema (STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA).",
+  "basis": "stipulative",
+  "note": "Schema vocabulary. 'Presupposes' is read as this universally quantified link from performance to a witness, not as a semantic or pragmatic presupposition of a sentence; an instance that needs a weaker link (only some performances, or the held one only) would need a separate schema record.",
+  "lean_declaration": "TruthCore.Logic.Retorsion.Underminer.Link"
+}

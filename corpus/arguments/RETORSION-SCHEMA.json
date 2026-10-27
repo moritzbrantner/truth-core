@@ -1,0 +1,10 @@
+{
+  "id": "RETORSION-SCHEMA",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-RETORSION-SCHEMA",
+  "inference_ids": [
+    "INF-RETORSION-SCHEMA"
+  ],
+  "meaning": "For every typed global underminer and trace, the presupposition link makes the held position (thesis true and performed) inconsistent. This proves the conditional schema, not any instance's link. The controls linkNeeded and heldNeeded show that the held position is consistent without the link, and that the link and the thesis are consistent when nobody holds it.",
+  "definition_ids": ["DEF-GLOBAL-UNDERMINER", "DEF-PRESUPPOSITION-LINK"]
+}

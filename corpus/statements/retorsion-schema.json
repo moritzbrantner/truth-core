@@ -1,0 +1,9 @@
+{
+  "id": "STMT-RETORSION-SCHEMA",
+  "paraphrase": "For every typed global underminer and trace: if every performance yields, through the trace, a witness of the feature (the presupposition link), then it is not the case that the underminer's thesis (no witness has the feature) holds and some agent performs it.",
+  "lean_declaration": "TruthCore.Logic.Retorsion.RetorsionSchema",
+  "definition_ids": [
+    "DEF-GLOBAL-UNDERMINER",
+    "DEF-PRESUPPOSITION-LINK"
+  ]
+}

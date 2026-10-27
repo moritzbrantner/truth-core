@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.RetorsionSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RetorsionSchema.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.RetorsionSchema.retorsionSchema",
+    "TruthCore.Results.Logic.RetorsionSchema.linkNeeded",
+    "TruthCore.Results.Logic.RetorsionSchema.heldNeeded",
+    "TruthCore.Results.Logic.RetorsionSchema.eleaticRetorsionInstance",
+    "TruthCore.Results.Logic.RetorsionSchema.mcTaggartEscapesRetorsion"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

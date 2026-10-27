@@ -1,0 +1,9 @@
+{
+  "id": "INF-RETORSION-SCHEMA",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RETORSION-SCHEMA",
+  "rule": "proof",
+  "meaning": "For every typed underminer and trace, the presupposition link makes the held position inconsistent: apply the link to the performance of the thesis, then the thesis's denial. The link stays inside the universally quantified conditional.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

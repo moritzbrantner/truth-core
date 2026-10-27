@@ -1,0 +1,10 @@
+{
+  "id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "argument_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "challenge_module": "TruthCore.Results.Logic.RetorsionSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RetorsionSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.RetorsionSchema.eleaticRetorsionInstance",
+  "comparator_config": "results/ELEATIC-RETORSION-SCHEMA-INSTANCE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional Eleatic instance of the retorsion schema: an instantiation of the schema lemma, whose link is by definition STMT-OPINION-IS-A-MOTION. Registered by instance_of_schema; ELEATIC-THESIS-SELF-REFUTING is unchanged (its frozen Challenge imports only ActPotencyRegress, and Comparator rejects a Solution proof through a lemma outside the Challenge imports); this instance states the same conditional. The instance proves the conditional only; STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED stay open, and no refutes relation is recorded (#391)."
+}

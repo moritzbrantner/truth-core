@@ -1,0 +1,12 @@
+{
+  "id": "REL-ELEATIC-RETORSION-SCHEMA-INSTANCE-INSTANCE-OF-SCHEMA",
+  "predicate": "instance_of_schema",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "object_kind": "statement",
+  "object_id": "STMT-RETORSION-SCHEMA",
+  "verification_result_id": "RETORSION-SCHEMA",
+  "instance_theorem": "TruthCore.Results.Logic.RetorsionSchema.eleaticRetorsionInstance",
+  "schema_theorem": "TruthCore.Results.Logic.RetorsionSchema.retorsionSchema",
+  "note": "Verified conditional Eleatic instance of the retorsion schema; ELEATIC-THESIS-SELF-REFUTING is unchanged (its frozen Challenge imports only ActPotencyRegress, and Comparator rejects a Solution proof through a lemma outside the Challenge imports); this instance states the same conditional. Registration is not source support and closes no premise: the presupposition link STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED stay inside the conditional and open. McTaggart's escape is recorded separately as MCTAGGART-ESCAPES-RETORSION-SCHEMA, not as an instance."
+}

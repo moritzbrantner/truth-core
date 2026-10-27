@@ -1,0 +1,10 @@
+{
+  "id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "argument_id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "challenge_module": "TruthCore.Results.Logic.RetorsionSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RetorsionSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.RetorsionSchema.mcTaggartEscapesRetorsion",
+  "comparator_config": "results/MCTAGGART-ESCAPES-RETORSION-SCHEMA/comparator.json",
+  "status": "solution-present",
+  "description": "Certified escape record (#515): McTaggart's 1927 answer rejects the schema's presupposition link (outright for change; for motion only with the open bridge STMT-MOTION-IS-A-CHANGE), and the opinionGate model satisfies his commitments and both held positions while both links fail. It certifies non-entailment of the link from the encoded commitments, not the truth of his position. Surviving, parked: one bounded attempt spent; no refutes relation, floor marking or premise change."
+}

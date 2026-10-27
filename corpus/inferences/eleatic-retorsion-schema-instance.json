@@ -1,0 +1,9 @@
+{
+  "id": "INF-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "rule": "proof",
+  "meaning": "Instantiate the retorsion schema with witnesses being-respect pairs, feature being moved in that respect, thesis nothing is moved and trace the opiner in the respect of the opinion; its link is by definition OpiningIsBeingMovedReading. All philosophical conditions remain inside the universally quantified conditional.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

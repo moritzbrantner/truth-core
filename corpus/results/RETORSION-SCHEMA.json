@@ -1,0 +1,10 @@
+{
+  "id": "RETORSION-SCHEMA",
+  "argument_id": "RETORSION-SCHEMA",
+  "challenge_module": "TruthCore.Results.Logic.RetorsionSchema.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RetorsionSchema.Solution",
+  "theorem": "TruthCore.Results.Logic.RetorsionSchema.retorsionSchema",
+  "comparator_config": "results/RETORSION-SCHEMA/comparator.json",
+  "status": "solution-present",
+  "description": "One retorsion schema for global underminers (#515): for every typed underminer and trace, the presupposition link makes the held position inconsistent. A two-step derivation (the link applied to the performance of the thesis, then the thesis's denial); the link's consequent is a feature of a witness, not the conclusion, so it is not a single-application transcription, but its philosophical content lies wholly in each instance's link and its value is reuse. The controls linkNeeded and heldNeeded show both inputs are needed. Zero axioms. No premise is discharged."
+}

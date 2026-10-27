@@ -1,0 +1,11 @@
+{
+  "id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "inference_ids": [
+    "INF-MCTAGGART-ESCAPES-RETORSION-SCHEMA"
+  ],
+  "meaning": "Certified escape record: McTaggart's 1927 answer (STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE) rejects the presupposition link of the retorsion schema, outright for his change instance and with the open bridge STMT-MOTION-IS-A-CHANGE for the Eleatic instance, and one model satisfies his commitments and both held positions. It does not show that his position is true or coherent overall, only that the schema gives no retorsion against it from the encoded commitments. Surviving, parked (#515): no further attempt is budgeted.",
+  "definition_ids": ["DEF-GLOBAL-UNDERMINER", "DEF-PRESUPPOSITION-LINK", "DEF-OPINING", "DEF-CHANGE-GENERAL", "DEF-MOTION-AS-REDUCTION"],
+  "disambiguation_ids": ["DISAMB-CHANGE-A-SERIES", "DISAMB-MOTION"]
+}
