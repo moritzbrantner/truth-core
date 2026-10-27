@@ -74,7 +74,8 @@ Three checks run in CI (`.github/workflows/ci.yml`):
    `scripts/verifier-pins.env` and the set of non-`TruthCore` modules the
    library imports (`scripts/affected_results.py external-imports`). CI runs
    it once for each value of that key and caches a marker; a cache hit skips
-   it. Its failure would mean NanoDa rejects a pinned Mathlib or Lean core
+   it. A PR runs it only when it changes one of those pin files; a new
+   external import alone leaves it to the next `main` or nightly run. Its failure would mean NanoDa rejects a pinned Mathlib or Lean core
    declaration that nothing in this repository uses.
 
 So no result relies on the marker: check 2 covers, on every library change
