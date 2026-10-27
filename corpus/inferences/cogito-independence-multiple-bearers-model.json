@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-MULTIPLE-BEARERS-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-INDEPENDENCE-MULTIPLE-BEARERS-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "A single occurring thought can be modeled as borne by two distinct subjects.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
