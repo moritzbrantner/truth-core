@@ -20,19 +20,22 @@ including its independent one-step causal bound and accessible empty world. -/
 theorem checks : RootedEmptyCountermodel := by
   refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, dependentCoverage, noTwoStepCause⟩
   · intro world
-    trivial
-  · trivial
+    exact True.intro
+  · exact True.intro
   · refine ⟨0, ?_⟩
     exact ⟨firstHistory_ne_empty, Or.inl rfl⟩
   · intro next _ hPopulated
     obtain ⟨x, hx⟩ := hPopulated
     exact ⟨hx.1, Or.inl rfl⟩
-  · refine ⟨0, trivial, ?_⟩
+  · refine ⟨0, True.intro, ?_⟩
     rintro ⟨x, hx⟩
     exact hx.1 rfl
   · intro hDeDicto
-    obtain ⟨x, hx⟩ := hDeDicto 0 trivial
+    obtain ⟨x, hx⟩ := hDeDicto 0 True.intro
     exact hx.1 rfl
   · rintro ⟨x, hx⟩
-    exact (hx 0 trivial).1 rfl
+    exact (hx 0 True.intro).1 rfl
+#print axioms dependentCoverage
+#print axioms noTwoStepCause
+#print axioms checks
 end TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty

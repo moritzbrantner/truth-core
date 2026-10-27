@@ -18,7 +18,7 @@ the consequent switch from contingent to necessary presence of the root. -/
 theorem checks : HistoryOnlyCountermodel := by
   refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
   · intro world
-    trivial
+    exact True.intro
   · intro x
     rfl
   · intro x
@@ -30,4 +30,6 @@ theorem checks : HistoryOnlyCountermodel := by
   · exact ⟨0, fun next _ => rootPresent next⟩
   · rintro ⟨next, _, hEmpty⟩
     exact hEmpty ⟨0, rootPresent next⟩
+#print axioms rootPresent
+#print axioms checks
 end TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction

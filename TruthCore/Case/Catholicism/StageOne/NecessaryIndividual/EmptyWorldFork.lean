@@ -48,6 +48,9 @@ theorem secondHistory_ne_empty : (2 : Fin 3) ≠ 0 := by
   have hval : (2 : Nat) = 0 := congrArg Fin.val h
   cases hval
 
+#print axioms firstHistory_ne_empty
+#print axioms secondHistory_ne_empty
+
 /-- Only a present shared root can cause a present, distinct dependent.
 This deliberately does not define a cause of the root itself. -/
 def rootedEmptyCauses (world cause effect : Fin 3) : Prop :=
