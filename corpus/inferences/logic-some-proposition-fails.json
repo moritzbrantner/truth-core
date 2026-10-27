@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-SOME-PROPOSITION-FAILS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SOME-LEAN-PROPOSITION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "False is a proposition, and ¬ False holds by the identity function.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

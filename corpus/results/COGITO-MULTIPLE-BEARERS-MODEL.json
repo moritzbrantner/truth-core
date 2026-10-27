@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "argument_id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.multipleBearersModel",
+  "comparator_config": "results/COGITO-MULTIPLE-BEARERS-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "Both premises of COGITO-SUBJECT-FROM-OCCURRENCE hold and two distinct subjects bear one occurring episode, so the bearer principle does not give a unique bearer. A finite interpretation, not a claim that one thought can have two thinkers."
+}

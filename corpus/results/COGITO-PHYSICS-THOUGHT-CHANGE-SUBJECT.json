@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+  "argument_id": "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+  "challenge_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.ThoughtChangeSubject.thoughtChangeHasSubject",
+  "comparator_config": "results/COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Conditional transcription/assembly of the existing Physics III.1 reading. Given actual thought, thought-as-change classification, and the source reading, there is a subject potentially existing whose potential is actualized by the thinking change. No premise is discharged."
+}

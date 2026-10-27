@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-HOLDS",
+  "rule": "constructive-proof",
+  "meaning": "Compose the separately proved failing witness: if every proposition held, the witness False would hold.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

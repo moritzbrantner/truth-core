@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-SOME-PROPOSITION-FAILS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SOME-LEAN-PROPOSITION-FAILS",
+  "inference_ids": [
+    "INF-LOGIC-SOME-PROPOSITION-FAILS"
+  ],
+  "meaning": "False is a proposition, and ¬ False holds by the identity function.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

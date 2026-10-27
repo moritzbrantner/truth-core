@@ -1,0 +1,14 @@
+{
+  "id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "inference_ids": [
+    "INF-COGITO-NON-SUBSTANTIAL-BEARER-MODEL"
+  ],
+  "meaning": "Interpret Occurs and Bears as always true and Substance as always false over Unit.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-COGITO-SUBSTANCE-PREDICATE"
+  ]
+}

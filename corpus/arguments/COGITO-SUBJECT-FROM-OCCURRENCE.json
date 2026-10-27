@@ -1,0 +1,16 @@
+{
+  "id": "COGITO-SUBJECT-FROM-OCCURRENCE",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "inference_ids": [
+    "INF-COGITO-SUBJECT-FROM-OCCURRENCE"
+  ],
+  "meaning": "Take the occurring episode, instantiate the bearer principle at it, and pair the bearer with the episode.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

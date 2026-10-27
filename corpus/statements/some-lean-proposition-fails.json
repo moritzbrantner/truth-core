@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOME-LEAN-PROPOSITION-FAILS",
+  "paraphrase": "Inside Lean logic, ∃ P : Prop, ¬ P, witnessed by False. Dual of STMT-SOME-LEAN-PROPOSITION-HOLDS.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionFails",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

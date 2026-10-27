@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COGITO-SUBSTANCE-PREDICATE",
+  "term": "substance (as a predicate of a thought's bearer)",
+  "definition": "`Substance : Subject → Prop` is a primitive, unconstrained predicate on bearers. `EveryBearerIsSubstance Occurs Bears Substance` is `∀ s e, Occurs e → Bears s e → Substance s`; `SomeSubstantialThinkingSubject` is `∃ s e, Occurs e ∧ Bears s e ∧ Substance s`. No condition of independence, persistence, unity or subsistence is built in.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.EveryBearerIsSubstance",
+  "note": "Stipulated for the act/bearer/substance step of #525 (consolidated in #532). A sourced sense (Aristotle's ousia, Descartes's res cogitans, Aquinas's subsistence in ST I q.75 a.2) would constrain the predicate and needs its own pinned reading and relation record; none is identified with this placeholder."
+}

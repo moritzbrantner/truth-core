@@ -1,0 +1,13 @@
+{
+  "id": "COGITO-NO-THOUGHT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "inference_ids": [
+    "INF-COGITO-NO-THOUGHT-CONTROL"
+  ],
+  "meaning": "Interpret Occurs and Bears as always false over Unit; the bearer principle then holds vacuously.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "paraphrase": "There is an interpretation in which the bearer principle holds (vacuously), no thought occurs and no thinking subject exists.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.NoThoughtControl",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

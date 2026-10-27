@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-NON-CONTRADICTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LEAN-NON-CONTRADICTION",
+  "rule": "constructive-proof",
+  "meaning": "A proof of P ∧ ¬ P applies its second component to its first.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
