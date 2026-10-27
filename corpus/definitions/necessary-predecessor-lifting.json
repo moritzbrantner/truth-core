@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-PREDECESSOR-LIFTING",
+  "term": "necessary-predecessor transport into the actual grounding order",
+  "definition": "For any direct supporter c that exists at a world w and supports a de re necessary target b there, the very same c is itself necessary and already an existing direct supporter of b at w₀. The clause tracks identity and existing endpoints, and requires no frame reflexivity by itself.",
+  "basis": "stipulative",
+  "note": "Open metaphysical bridge found by premise minimization. It is stronger than support sufficiency or worldwise causal well-foundedness. Both rotating-source and contingent-intermediary controls violate it.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NecessaryPredecessorLifting"
+}

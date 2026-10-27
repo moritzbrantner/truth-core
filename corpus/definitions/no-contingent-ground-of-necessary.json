@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+  "term": "no direct contingent supporter of a necessary bearer",
+  "definition": "Whenever a source exists at world w and directly supports the existence of a bearer necessary from w₀, the source is also necessary from w₀. This does not restrict all efficient causes, events or explanatory tokens.",
+  "basis": "stipulative",
+  "note": "Independent open metaphysical commitment. The two-world contingent-intermediary model proves that it is not derivable from rigid population, actual/worldwise well-foundedness and a well-founded union among necessary individuals.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NoContingentGroundOfNecessary"
+}

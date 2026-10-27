@@ -1,0 +1,81 @@
+{
+  "id": "MODEL-NECESSARILY-UNDERIVED-EMPTY",
+  "description": "Empty actual and modal roster: local existential support is well founded and the lifting implication is vacuous, but no necessary bearer or underived bearer exists.",
+  "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
+  "lean_declaration": "TruthCore.Models.NecessarilyUnderived.empty",
+  "bindings": {
+    "World": "Unit",
+    "Being": "Unit",
+    "Ontic": "TruthCore.Models.NecessarilyUnderived.empty",
+    "Support": "TruthCore.Models.NecessarilyUnderived.emptySupport",
+    "world": "Unit.unit"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.emptyWellFounded"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.emptyLifting"
+    },
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.emptyNoNecessary"
+    },
+    {
+      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.emptyNoUnderived"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessarilyUnderived"
+  ]
+}

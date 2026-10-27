@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED",
+  "term": "constructively nonrefutable necessary underivedness",
+  "definition": "It is contradictory to deny that one actual de re necessary individual has no direct existent existential supporter anywhere, written ¬¬ NecessarilyUnderived. Constructively this does not construct a witness; the separate excluded-middle premise promotes it to positive existence.",
+  "basis": "stipulative",
+  "note": "Explicit marker for the constructive/classical proof boundary, not a metaphysical assertion beyond the positive definition.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NonRefutableNecessarilyUnderived"
+}

@@ -75,19 +75,25 @@ export default function StatePage() {
   };
   const stagesOf = (statementId: string) => report.statement_stages[statementId] ?? [];
 
+  // The root's paths: the route-aware upward walk of `corpus.py frontier` (#527), not every stage member.
+  const onRootPath = new Set(report.reaching_root_statements);
+
   const stages = report.stages.map(({ stage, statement_id: statementId }) => {
+    const members = Object.entries(report.statement_stages)
+      .filter(([, memberOf]) => memberOf.includes(stage))
+      .map(([id]) => id);
     const open = reaching.filter((item) => stagesOf(item.statement_id).includes(stage));
-    const closed = Object.entries(report.statement_stages).filter(
-      ([id, memberOf]) => memberOf.includes(stage) && report.closed_statements[id],
-    );
+    const closed = members.filter((id) => onRootPath.has(id) && report.closed_statements[id]);
     return {
       stage,
       statementId,
       statement: findStatement(corpus, statementId),
       state: statementState(report, statementId),
+      onRoute: onRootPath.has(statementId),
       open,
       bare: open.filter((item) => item.depth === "bare").length,
       closed: closed.length,
+      offRoute: members.filter((id) => !onRootPath.has(id)).length,
     };
   });
   const rootLevel = reaching.filter((item) => stagesOf(item.statement_id).length === 0);
@@ -97,14 +103,11 @@ export default function StatePage() {
   const derivations = kinds.filter((kind) => kind.kind === "derivation").length;
   const transcriptions = kinds.length - derivations;
 
-  // The root's paths, for this page: everything a stage rests on, plus the open premises reaching the root.
-  const onRootPath = new Set(Object.keys(report.statement_stages));
-  onRootPath.add(DEFAULT_ROOT_STATEMENT_ID);
-  for (const item of reaching) onRootPath.add(item.statement_id);
   const closedByReason: Partial<Record<ClosureReason, number>> = {};
   for (const [id, reason] of Object.entries(report.closed_statements)) {
     if (onRootPath.has(id)) closedByReason[reason] = (closedByReason[reason] ?? 0) + 1;
   }
+  const establishedOnPath = report.established_statements.filter((id) => onRootPath.has(id)).length;
   const provedOnPath = corpus.results
     .filter((result) => resultKind(report, result.id).kind === "derivation")
     .filter((result) => onRootPath.has(result.argument.conclusion_statement_id))
@@ -194,20 +197,35 @@ export default function StatePage() {
         <p className="eyebrow">The six stages</p>
         <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">Stage by stage</h2>
         <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]">
-          A stage is established only when its conclusion and everything beneath it are closed. The bar shows closed
-          statements against open premises among everything the stage rests on.
+          A stage is established only when its conclusion and everything beneath it are closed. The bar counts only what
+          the stage rests on that is also on the root&apos;s paths (the route-aware set of{" "}
+          <code className="font-mono">corpus.py frontier</code>): closed statements against open premises. What the stage
+          rests on off the root&apos;s route is counted separately and not as on the root&apos;s paths.
         </p>
         <div className="mt-6">
           {stages.map((stage) => {
             const total = stage.closed + stage.open.length;
             return (
-              <div className="stage-row" key={stage.stage}>
+              <div
+                className="stage-row"
+                data-stage={stage.stage}
+                data-stage-closed={stage.closed}
+                data-stage-off-route={stage.offRoute}
+                data-stage-on-route={stage.onRoute}
+                data-stage-open={stage.open.length}
+                key={stage.stage}
+              >
                 <span className="stage-number">{stage.stage}</span>
                 <div>
                   <Link className="font-serif text-2xl leading-tight hover:text-[var(--accent)]" href={`/statements/${stage.statementId}`}>
                     {STAGE_TITLES[stage.stage]}
                   </Link>
                   <p className="mt-1 text-sm leading-6 text-[var(--muted)]">{stage.statement?.paraphrase}</p>
+                  {stage.onRoute ? null : (
+                    <p className="mt-1 text-xs leading-5 text-[var(--muted)]">
+                      The root&apos;s route does not pass through this stage&apos;s conclusion.
+                    </p>
+                  )}
                 </div>
                 <div className="grid gap-2">
                   <StatementStateMark state={stage.state} />
@@ -221,6 +239,12 @@ export default function StatePage() {
                   <span className="text-[var(--ink)]">{stage.closed}</span> closed ·{" "}
                   <span className="text-[var(--ink)]">{stage.open.length}</span> open
                   {stage.bare ? ` (${stage.bare} bare)` : ""}
+                  {stage.offRoute ? (
+                    <>
+                      {" "}
+                      · <span className="text-[var(--ink)]">{stage.offRoute}</span> off the root&apos;s route
+                    </>
+                  ) : null}
                 </p>
               </div>
             );
@@ -274,12 +298,14 @@ export default function StatePage() {
         <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">Closed on the root&apos;s paths</h2>
         <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]">
           A closed statement is off the frontier. It is <em>established</em> only when everything beneath it is closed too;
-          most closed statements are still proved from open premises. Of the statements on the root&apos;s paths,{" "}
-          {report.established_statements.filter((id) => onRootPath.has(id)).length} are established.
+          most closed statements are still proved from open premises. The root&apos;s paths are the{" "}
+          <span data-root-path-count={onRootPath.size}>{onRootPath.size}</span> statements whose route-aware upward walk
+          reaches the root; of them, <span data-root-path-established={establishedOnPath}>{establishedOnPath}</span> are
+          established.
         </p>
         <dl className="mt-6 grid gap-x-8 gap-y-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
           {(Object.keys(CLOSURE_LABELS) as ClosureReason[]).map((reason) => (
-            <div key={reason}>
+            <div data-closed-count={closedByReason[reason] ?? 0} data-closed-reason={reason} key={reason}>
               <dt className="eyebrow">{CLOSURE_LABELS[reason]}</dt>
               <dd className="mt-1 font-serif text-3xl">{closedByReason[reason] ?? 0}</dd>
               <dd className="mt-1 text-xs leading-5 text-[var(--muted)]">{CLOSURE_DESCRIPTIONS[reason]}</dd>

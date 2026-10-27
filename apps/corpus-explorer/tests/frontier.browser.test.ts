@@ -132,3 +132,54 @@ test("floor markings show the basis and criterion that corpus.py frontier report
   }
   await page.close();
 }, 60000);
+
+test("state page counts the root's paths as corpus.py frontier's reaching_root_statements", async () => {
+  const report = JSON.parse(
+    execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
+      cwd: path.resolve(import.meta.dir, "../../.."),
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+    }),
+  ) as {
+    reaching_root_statements: string[];
+    established_statements: string[];
+    closed_statements: Record<string, string>;
+    stages: Array<{ stage: number; statement_id: string }>;
+    statement_stages: Record<string, number[]>;
+    items: Array<{ statement_id: string; path_to_root: string[] | null }>;
+  };
+  const onPath = new Set(report.reaching_root_statements);
+  const page = await browser.newPage();
+  await page.goto(`${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}state/`);
+  expect(await page.locator("[data-root-path-count]").getAttribute("data-root-path-count")).toBe(String(onPath.size));
+  expect(await page.locator("[data-root-path-established]").getAttribute("data-root-path-established")).toBe(
+    String(report.established_statements.filter((id) => onPath.has(id)).length),
+  );
+  const closedShown = await page
+    .locator("[data-closed-reason]")
+    .evaluateAll((items) => Object.fromEntries(items.map((item) => [item.getAttribute("data-closed-reason"), item.getAttribute("data-closed-count")])));
+  for (const [reason, count] of Object.entries(closedShown)) {
+    const expected = Object.entries(report.closed_statements).filter(([id, why]) => why === reason && onPath.has(id)).length;
+    expect([reason, count]).toEqual([reason, String(expected)]);
+  }
+  const stagesShown = await page
+    .locator("[data-stage]")
+    .evaluateAll((rows) =>
+      rows.map((row) => ["stage", "stage-on-route", "stage-closed", "stage-open", "stage-off-route"].map((key) => row.getAttribute(`data-${key}`))),
+    );
+  expect(stagesShown).toEqual(
+    report.stages.map(({ stage, statement_id: conclusion }) => {
+      const members = Object.entries(report.statement_stages)
+        .filter(([, memberOf]) => memberOf.includes(stage))
+        .map(([id]) => id);
+      return [
+        String(stage),
+        String(onPath.has(conclusion)),
+        String(members.filter((id) => onPath.has(id) && report.closed_statements[id]).length),
+        String(report.items.filter((item) => item.path_to_root && (report.statement_stages[item.statement_id] ?? []).includes(stage)).length),
+        String(members.filter((id) => !onPath.has(id)).length),
+      ];
+    }),
+  );
+  await page.close();
+}, 60000);
