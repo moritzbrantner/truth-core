@@ -128,6 +128,38 @@ In particular, finite causal depth here prevents an objection that the new
 countermodel secretly relies on an infinite regress. It still does not settle
 the separate metaphysics of supertasks or an infinite past.
 
+### Three explicit routes for the next composition
+
+1. **Root from dependence (#487):** In an inhabited actual world with a
+   well-founded same-world causal predecessor relation, impose the *additional*
+   rule that every actually present contingent concrete individual has an
+   actually present concrete predecessor. A predecessor-minimal actual
+   concrete individual cannot then be contingent, and classical logic can
+   turn the negation of its contingency into necessary presence. Unlike our
+   root-presence bridge, this route seeks to **derive** necessity from a
+   substantive dependence premise. It needs a separate proof with the exact
+   `Contingent`, `Concrete` and well-foundedness semantics of #487. Its
+   philosophical burden falls on that dependence rule, not on an unexplained
+   deletion of the empty world.
+2. **Empty profile from finite omissions (#484):** For closed admissible
+   Boolean profiles, joint omission of each finite roster subset can force
+   the empty profile into the admissible set. This points in the *opposite*
+   direction: deny finite omission, deny closure, or admit the empty world.
+   Neither finite-character closure nor metaphysical modal accessibility is
+   established here.
+3. **No necessary individual despite necessary population (#485):** The
+   existing alternating countermodel leaves the possibility of a necessary
+   existential disjunction with merely world-local witnesses. Its explanatory
+   status is different from a fixed bearer or one stable reason token, and
+   must be tested with explicit grounding/PSR bridges.
+
+This is the reusable pattern behind the intersections:
+`∀ finite subsystem, ∃ local source` does not imply a global source;
+`∀ world, ∃ existent` does not imply one fixed existent;
+`∀ world, ∃ reason` does not imply one rigid reason. The additional
+shared-root and population assumptions in our theorem eliminate one of these
+scope gaps without settling whether those assumptions are true of reality.
+
 ### Proof and acceptance
 
 - Lean modules: `EmptyWorldFork.lean` and the three corresponding `Solution`

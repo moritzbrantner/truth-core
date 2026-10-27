@@ -8,10 +8,10 @@ private theorem rootPresent (history : Bool) : historyOnlyExists 0 history := by
   cases history with
   | false =>
     change (1 : Fin 3) ≠ 0 ∧ ((0 : Fin 3) = 0 ∨ 0 = 1)
-    exact ⟨(by decide), Or.inl rfl⟩
+    exact ⟨firstHistory_ne_empty, Or.inl rfl⟩
   | true =>
     change (2 : Fin 3) ≠ 0 ∧ ((0 : Fin 3) = 0 ∨ 0 = 2)
-    exact ⟨(by decide), Or.inl rfl⟩
+    exact ⟨secondHistory_ne_empty, Or.inl rfl⟩
 
 /-- Exact preservation of both populated histories under restriction, and
 the consequent switch from contingent to necessary presence of the root. -/

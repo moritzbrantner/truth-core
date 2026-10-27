@@ -23,7 +23,7 @@ theorem checks : RootedEmptyCountermodel := by
     trivial
   · trivial
   · refine ⟨0, ?_⟩
-    exact ⟨(by decide), Or.inl rfl⟩
+    exact ⟨firstHistory_ne_empty, Or.inl rfl⟩
   · intro next _ hPopulated
     obtain ⟨x, hx⟩ := hPopulated
     exact ⟨hx.1, Or.inl rfl⟩

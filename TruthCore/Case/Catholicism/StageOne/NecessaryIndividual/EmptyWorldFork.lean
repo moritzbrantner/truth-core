@@ -36,6 +36,18 @@ def rootedEmptyFrame : Frame (Fin 3) := ⟨fun _ _ => True⟩
 def rootedEmptyExists : ExistsAt (Fin 3) (Fin 3) :=
   fun individual world => world ≠ 0 ∧ (individual = 0 ∨ individual = world)
 
+/-- Kernel-reducible numeral distinctions, without appealing to a global
+propositional decidability instance or extending the permitted axiom set. -/
+theorem firstHistory_ne_empty : (1 : Fin 3) ≠ 0 := by
+  intro h
+  have hval : (1 : Nat) = 0 := congrArg Fin.val h
+  cases hval
+
+theorem secondHistory_ne_empty : (2 : Fin 3) ≠ 0 := by
+  intro h
+  have hval : (2 : Nat) = 0 := congrArg Fin.val h
+  cases hval
+
 /-- Only a present shared root can cause a present, distinct dependent.
 This deliberately does not define a cause of the root itself. -/
 def rootedEmptyCauses (world cause effect : Fin 3) : Prop :=
