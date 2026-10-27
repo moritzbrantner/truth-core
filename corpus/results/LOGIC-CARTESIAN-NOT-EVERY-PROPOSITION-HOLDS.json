@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "argument_id": "LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "challenge_module": "TruthCore.Results.Logic.CartesianFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CartesianFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.CartesianFloor.notEveryPropositionHolds",
+  "comparator_config": "results/LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS/comparator.json",
+  "status": "solution-present",
+  "description": "It is not the case that all Lean propositions hold. This is a theorem of Lean's constructive logic, not an assertion about external reality."
+}
