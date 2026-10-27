@@ -1,0 +1,5 @@
+{
+  "id": "STMT-ACT-BEARER-BEARER-INFERENCE",
+  "paraphrase": "An occurring act and the universal bearer principle entail an actual bearer.",
+  "lean_declaration": "TruthCore.Logic.ActBearer.BearerInference"
+}
