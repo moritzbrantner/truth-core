@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Causality.ExternalCandidateNecessity.checks",
   "comparator_config": "results/EXTERNAL-CANDIDATE-NECESSITY/comparator.json",
   "status": "solution-present",
-  "description": "A Lean/Comparator-verified semantic equivalence (subject to CI) identifies an actual existing concrete individual outside all contingent concrete beings with an actual de re necessary concrete individual, under the specified classical world-relative existence and rigid identity. It neither supplies a causal relation nor proves an external candidate metaphysically possible."
+  "description": "A semantic equivalence, proved in Lean, identifies an actual existing concrete individual outside all contingent concrete beings with an actual de re necessary concrete individual, under the specified classical world-relative existence and rigid identity. It neither supplies a causal relation nor proves an external candidate metaphysically possible."
 }
