@@ -15,6 +15,7 @@ from source_evidence import BIBLIOGRAPHIC_WITNESS, SourceEvidenceError, validate
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
+from territory import format_territory, territory_report
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -2241,6 +2242,39 @@ def command_frontier(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_territory(args: argparse.Namespace) -> int:
+    """Emergent positions and the territory matrix (#512); writes no record."""
+    validate()
+    names = ("statements", "arguments", "results", "relations", "claims", "sources", "inferences")
+    data = {name: [record for _, record in load_dir(name)] for name in names}
+    report = frontier_report(
+        data["statements"], data["arguments"], data["results"], data["relations"], root=args.root,
+        transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+        claims=data["claims"], inferences=data["inferences"],
+    )
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    territory = territory_report(
+        statements={record["id"]: record for record in data["statements"]},
+        arguments={record["id"]: record for record in data["arguments"]},
+        results={record["id"]: record for record in data["results"]},
+        relations=data["relations"],
+        claims=data["claims"],
+        sources={record["id"]: record for record in data["sources"]},
+        models=registered_models(),
+        transcription_results=set(report["transcription_results"]),
+        seeds=[item for item in report["items"] if item["path_to_root"] is not None],
+        routes=report["routes"]["routes"],
+        max_atoms=args.max_atoms,
+    )
+    territory["root"] = args.root
+    if args.json:
+        print(json.dumps(territory, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        print(format_territory(territory))
+    return 0
+
+
 def command_dossier(args: argparse.Namespace) -> int:
     validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
@@ -2918,6 +2952,14 @@ def parser() -> argparse.ArgumentParser:
         help="print the open-premise cost of each argument concluding the root, cheapest marked",
     )
     frontier.set_defaults(func=command_frontier)
+    territory = sub.add_parser(
+        "territory",
+        help="emergent positions and territory matrix from certified cores, models and claims (no hand-authored worldviews)",
+    )
+    territory.add_argument("--json", action="store_true", help="print the deterministic report as JSON")
+    territory.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    territory.add_argument("--max-atoms", type=int, default=512, help="bound on the atom universe (default 512)")
+    territory.set_defaults(func=command_territory)
     dossier = sub.add_parser("dossier", help="inspect a premise's sources, arguments, attempts and route contribution")
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
