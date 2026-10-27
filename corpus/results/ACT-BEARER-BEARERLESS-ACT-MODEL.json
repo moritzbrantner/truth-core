@@ -1,0 +1,10 @@
+{
+  "id": "ACT-BEARER-BEARERLESS-ACT-MODEL",
+  "argument_id": "ACT-BEARER-BEARERLESS-ACT-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.ActBearer.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ActBearer.Solution",
+  "theorem": "TruthCore.Results.Logic.ActBearer.bearerlessActModel",
+  "comparator_config": "results/ACT-BEARER-BEARERLESS-ACT-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "An actual act can be interpreted without any bearer relation."
+}
