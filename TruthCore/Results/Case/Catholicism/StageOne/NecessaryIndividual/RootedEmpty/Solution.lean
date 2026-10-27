@@ -6,7 +6,7 @@ open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 /-- A local root causes every present nonroot in the finite interpretation. -/
 private theorem dependentCoverage : RootedEmptyDependentCoverage := by
   intro world effect hExists hNonroot
-  refine ⟨0, ?_⟩
+  refine ⟨rootedZero, ?_⟩
   exact ⟨⟨hExists.1, Or.inl rfl⟩, hExists, rfl, hNonroot⟩
 
 /-- An effect of a root edge is nonroot, so it cannot itself be the root
@@ -22,19 +22,19 @@ theorem checks : RootedEmptyCountermodel := by
   · intro world
     exact True.intro
   · exact True.intro
-  · refine ⟨0, ?_⟩
+  · refine ⟨rootedZero, ?_⟩
     exact ⟨firstHistory_ne_empty, Or.inl rfl⟩
   · intro next _ hPopulated
     obtain ⟨x, hx⟩ := hPopulated
     exact ⟨hx.1, Or.inl rfl⟩
-  · refine ⟨0, True.intro, ?_⟩
+  · refine ⟨rootedZero, True.intro, ?_⟩
     rintro ⟨x, hx⟩
     exact hx.1 rfl
   · intro hDeDicto
-    obtain ⟨x, hx⟩ := hDeDicto 0 True.intro
+    obtain ⟨x, hx⟩ := hDeDicto rootedZero True.intro
     exact hx.1 rfl
   · rintro ⟨x, hx⟩
-    exact (hx 0 True.intro).1 rfl
+    exact (hx rootedZero True.intro).1 rfl
 #print axioms dependentCoverage
 #print axioms noTwoStepCause
 #print axioms checks

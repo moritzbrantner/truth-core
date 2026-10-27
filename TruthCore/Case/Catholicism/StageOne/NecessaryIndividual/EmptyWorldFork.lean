@@ -33,21 +33,32 @@ def SharedRootBridgeLaw : Prop :=
 one and two have a shared root (individual zero) and distinct dependents. -/
 def rootedEmptyFrame : Frame (Fin 3) := ⟨fun _ _ => True⟩
 
+/-- Closed ordinal constructors with direct arithmetic bounds; using the
+computed `Fin` numeral instances in proposition statements can draw in
+unwanted proof axioms from their implementation. -/
+def rootedZero : Fin 3 := ⟨0, Nat.zero_lt_succ 2⟩
+def rootedOne : Fin 3 := ⟨1, Nat.succ_lt_succ (Nat.zero_lt_succ 1)⟩
+def rootedTwo : Fin 3 :=
+  ⟨2, Nat.succ_lt_succ (Nat.succ_lt_succ (Nat.zero_lt_succ 0))⟩
+
 def rootedEmptyExists : ExistsAt (Fin 3) (Fin 3) :=
-  fun individual world => world ≠ 0 ∧ (individual = 0 ∨ individual = world)
+  fun individual world => world ≠ rootedZero ∧ (individual = rootedZero ∨ individual = world)
 
 /-- Kernel-reducible numeral distinctions, without appealing to a global
 propositional decidability instance or extending the permitted axiom set. -/
-theorem firstHistory_ne_empty : (1 : Fin 3) ≠ 0 := by
+theorem firstHistory_ne_empty : rootedOne ≠ rootedZero := by
   intro h
   have hval : (1 : Nat) = 0 := congrArg Fin.val h
-  cases hval
+  exact Nat.noConfusion hval
 
-theorem secondHistory_ne_empty : (2 : Fin 3) ≠ 0 := by
+theorem secondHistory_ne_empty : rootedTwo ≠ rootedZero := by
   intro h
   have hval : (2 : Nat) = 0 := congrArg Fin.val h
-  cases hval
+  exact Nat.noConfusion hval
 
+#print axioms rootedZero
+#print axioms rootedOne
+#print axioms rootedTwo
 #print axioms firstHistory_ne_empty
 #print axioms secondHistory_ne_empty
 
@@ -55,12 +66,12 @@ theorem secondHistory_ne_empty : (2 : Fin 3) ≠ 0 := by
 This deliberately does not define a cause of the root itself. -/
 def rootedEmptyCauses (world cause effect : Fin 3) : Prop :=
   rootedEmptyExists cause world ∧ rootedEmptyExists effect world ∧
-    cause = 0 ∧ effect ≠ 0
+    cause = rootedZero ∧ effect ≠ rootedZero
 
 /-- Every present nonroot has a cause at its world. This is not unrestricted
 PSR, since it does not require an explanation of the root. -/
 def RootedEmptyDependentCoverage : Prop :=
-  ∀ world effect, rootedEmptyExists effect world → effect ≠ 0 →
+  ∀ world effect, rootedEmptyExists effect world → effect ≠ rootedZero →
     ∃ cause, rootedEmptyCauses world cause effect
 
 /-- Causal ancestry in this model has depth at most one edge; the modal
@@ -73,12 +84,12 @@ causal coverage for dependents and a one-edge causal bound coexist with an
 accessible empty extension and the failure of de-re necessity. -/
 def RootedEmptyCountermodel : Prop :=
   Reflexive rootedEmptyFrame ∧
-  rootedEmptyFrame.access 1 0 ∧
-  (∃ x, rootedEmptyExists x 1) ∧
-  SharedRootOnPopulated rootedEmptyFrame rootedEmptyExists 1 0 ∧
-  JointAbsence rootedEmptyFrame rootedEmptyExists 1 ∧
-  ¬ DeDicto rootedEmptyFrame rootedEmptyExists 1 ∧
-  ¬ DeRe rootedEmptyFrame rootedEmptyExists 1 ∧
+  rootedEmptyFrame.access rootedOne rootedZero ∧
+  (∃ x, rootedEmptyExists x rootedOne) ∧
+  SharedRootOnPopulated rootedEmptyFrame rootedEmptyExists rootedOne rootedZero ∧
+  JointAbsence rootedEmptyFrame rootedEmptyExists rootedOne ∧
+  ¬ DeDicto rootedEmptyFrame rootedEmptyExists rootedOne ∧
+  ¬ DeRe rootedEmptyFrame rootedEmptyExists rootedOne ∧
   RootedEmptyDependentCoverage ∧
   RootedEmptyNoTwoStepCause
 
@@ -86,16 +97,16 @@ def RootedEmptyCountermodel : Prop :=
 existence extensions. Universal accessibility remains the same in kind. -/
 def historyOnlyExists : ExistsAt Bool (Fin 3) :=
   fun individual history =>
-    rootedEmptyExists individual (if history then 2 else 1)
+    rootedEmptyExists individual (if history then rootedTwo else rootedOne)
 
 /-- On this smaller world carrier the *same* root becomes necessarily present.
 This is sensitivity to the admissible-world domain, not a metaphysical proof
 that the empty history is inadmissible. -/
 def HistoryOnlyCountermodel : Prop :=
   Reflexive alternatingFrame ∧
-  (∀ x, historyOnlyExists x false ↔ rootedEmptyExists x 1) ∧
-  (∀ x, historyOnlyExists x true ↔ rootedEmptyExists x 2) ∧
-  SharedRootOnPopulated alternatingFrame historyOnlyExists false 0 ∧
+  (∀ x, historyOnlyExists x false ↔ rootedEmptyExists x rootedOne) ∧
+  (∀ x, historyOnlyExists x true ↔ rootedEmptyExists x rootedTwo) ∧
+  SharedRootOnPopulated alternatingFrame historyOnlyExists false rootedZero ∧
   DeDicto alternatingFrame historyOnlyExists false ∧
   DeRe alternatingFrame historyOnlyExists false ∧
   ¬ JointAbsence alternatingFrame historyOnlyExists false
