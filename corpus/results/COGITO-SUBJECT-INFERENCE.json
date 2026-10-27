@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-SUBJECT-INFERENCE",
+  "argument_id": "COGITO-SUBJECT-INFERENCE",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubjectIndependence.subjectInference",
+  "comparator_config": "results/COGITO-SUBJECT-INFERENCE/comparator.json",
+  "status": "solution-present",
+  "description": "The existence of an occurring thought and a bearer principle entails some thinking subject."
+}
