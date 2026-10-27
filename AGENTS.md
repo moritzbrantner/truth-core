@@ -1,6 +1,6 @@
 # Codex worker contract
 
-This repository grows one small source reading or argument at a time. Keep the complexity in the philosophy, not in repository machinery.
+This repository advances substantial arguments through small verified research steps. Keep the complexity in the philosophy, not in repository machinery.
 
 ## Worker brief and handoff
 
@@ -121,36 +121,20 @@ For a group of related open propositions, follow [the configuration elimination 
 
 ## Argument-first investigation
 
-Self-directed frontier investigations are argument-first and decompose on demand (#565): research at the largest scale where progress is possible, write the end-to-end case and its rivals before splitting, seek the decisive fork, and promote a distinction to its own statement or task only when it passes the decomposition gate in [the systematic loop](docs/systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand). Report every finding back against the whole case. This changes work selection and presentation only: source ingestion below, the invariants above and frontier closure are unchanged, and a narrative is never a proof.
+Frontier-led work is **recursive argument refinement** (#565): keep one owner-scoped, end-to-end case and its strongest rivals visible. Reuse exact theorem IDs, verify its conditional structure, investigate its most consequential open premise as a child argument, then **recompose the result into the parent** before choosing another. Report the exact parent/root premise delta. Repeat until the route is established, decisively defeated, or precisely blocked. Split canonical propositions/tasks only for consequential inference, rival discrimination, independent defense, reuse, or the source/proof invariants. No duplicate tracker or claim of closure from an open bridge. See [the terse corpus loop](docs/systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand).
 
 ## Outer systematic loop
 
-The normal operating mode is **not one human prompt per proposition**. A queued candidate represents a contiguous source range, normally a chapter or similarly coherent section. Once an agent starts a candidate, it keeps moving through that range in source order and repeatedly applies the atomic loop below.
+Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a high-leverage open obligation on the current #143 root route. Finish or repair in-flight work and respect real dependencies.
 
-1. Run `python3 scripts/corpus.py next` and take the highest-priority candidate.
-2. Resolve the candidate range to a pinned source witness. Add the smallest coherent `corpus/passages/` slice if one does not exist, then materialize it and read the complete candidate range before deciding its internal work sequence.
-3. Move through the verified source text in order. Extract philosophically substantive propositions and arguments; do **not** create a claim merely because a sentence exists.
-4. For every substantive reading, run the atomic research/formalization/proof loop below.
-5. Prefer a reviewable batch of roughly 5–10 new source claims, one coherent argument cluster, or the remainder of a short candidate range—whichever boundary comes first.
-6. If a batch ends before the candidate range is exhausted, keep the same candidate ID and edit its locator/goal so it begins at the first unprocessed passage. Do not create a second candidate just to represent progress.
-7. When the candidate range is exhausted, delete its candidate file. The next run takes the next queued range automatically.
-8. When the last candidate of a campaign is exhausted, seed the explicitly ordered successor campaign and its first source-range candidate before stopping. Do not require a human restart when the successor is already determined by repository guidance or an existing campaign issue.
-9. Continue without human reprompting unless a stop condition below applies.
+For source ingestion when a frontier obligation needs it:
 
-A candidate is a queue item, not a philosophical entity and not a ticket-status system. Presence of the file means work remains; deletion means the queued range is complete. GitHub issues may group many candidates into a larger source campaign, and multiple PRs may close one campaign.
+1. Run `python3 scripts/corpus.py next` for the highest-priority source candidate; each candidate is a coherent chapter/range, not a sentence or proposition.
+2. Materialize its pinned witness, read the whole range and context, then process substantive readings in order under the atomic contract below. Reuse statements; preserve distinct defensible interpretations.
+3. Stop at one argument cluster or a reviewable batch of roughly 5–10 source claims. Advance the same candidate's locator if unfinished; delete it only after the range is exhausted.
+4. Seed the prescribed successor campaign/range before closing the current one. Continue without reprompting unless evidence is unavailable, a genuine owner scope/modeling decision is needed, a cross-cutting defect blocks verification, or the successor is ambiguous.
 
-### Stop and escalate only for real judgment calls
-
-Do not stop merely because one atomic claim, one PR, or one campaign is finished. Stop the systematic loop only when:
-
-- the primary text or required context cannot be obtained reliably or pinned to an immutable witness;
-- two materially different source readings require a human choice about project scope rather than simply preserving both;
-- a missing premise points outside the queued source range and choosing the next source is genuinely non-obvious;
-- the formal vocabulary would require a cross-cutting modeling decision that changes existing corpus semantics;
-- verification exposes a repository/tooling defect rather than a philosophical proof obligation; or
-- the enclosing source campaign is complete and choosing its successor remains genuinely ambiguous after applying the documented campaign ordering and existing campaign tickets.
-
-See `docs/systematic-corpus-loop.md` for batching, completion, and campaign guidance.
+Keep the issue/handoff focused on the end-to-end argument; persist source and failed-attempt evidence in existing corpus records. The [systematic loop](docs/systematic-corpus-loop.md) gives brief campaign, frontier and handoff rules.
 
 ## Lanes and shared files
 
