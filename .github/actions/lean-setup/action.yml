@@ -1,0 +1,71 @@
+name: Lean setup with incremental TruthCore build
+description: >-
+  Install the pinned Lean toolchain, restore the Lake packages and prebuilt Mathlib, restore
+  TruthCore's own build output from the latest main build, and optionally run `lake build`.
+# Lake decides what to rebuild from its trace hashes (module source, imports, options and
+# toolchain), so a restored build output is replayed only where it still matches the checkout
+# and every stale module and its dependents are rebuilt. Both caches are written only on main,
+# so a pull request never fills or poisons the shared cache scope; a pull request restores the
+# latest main entry for the same toolchain and manifest through `restore-keys`. lean-action's own
+# cache is off: it saved all of `.lake` per commit, usually from a job that had built nothing.
+inputs:
+  build:
+    description: '"true" runs `lake build` after the restore.'
+    required: false
+    default: "false"
+  save:
+    description: '"true" lets this job write the caches on main (one job per workflow should).'
+    required: false
+    default: "false"
+outputs:
+  build-cache-hit:
+    description: '"true" when the TruthCore build output was restored for exactly this source tree.'
+    value: ${{ steps.build-restore.outputs.cache-hit }}
+runs:
+  using: composite
+  steps:
+    - name: Restore Lake packages and prebuilt Mathlib
+      id: packages-restore
+      uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
+      with:
+        path: .lake/packages
+        key: lake-packages-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('lean-toolchain') }}-${{ hashFiles('lake-manifest.json') }}
+    # lean-toolchain pins the exact Lean version that the Mathlib release in lake-manifest.json
+    # requires. `use-mathlib-cache` runs `lake exe cache get`, so Mathlib is downloaded prebuilt
+    # rather than compiled.
+    - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
+      with:
+        auto-config: false
+        build: false
+        test: false
+        use-mathlib-cache: true
+        use-github-cache: false
+    - name: Save Lake packages and prebuilt Mathlib
+      if: inputs.save == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.packages-restore.outputs.cache-hit != 'true'
+      uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
+      with:
+        path: .lake/packages
+        key: ${{ steps.packages-restore.outputs.cache-primary-key }}
+    - name: Restore TruthCore build output from the latest main build
+      id: build-restore
+      uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
+      with:
+        path: .lake/build
+        key: lake-build-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('lean-toolchain') }}-${{ hashFiles('lake-manifest.json') }}-${{ hashFiles('lakefile.toml', 'TruthCore.lean', 'TruthCore/**/*.lean') }}
+        restore-keys: lake-build-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('lean-toolchain') }}-${{ hashFiles('lake-manifest.json') }}-
+    - name: Build TruthCore
+      if: inputs.build == 'true'
+      shell: bash
+      run: |
+        log="$RUNNER_TEMP/lake-build.log"
+        lake build 2>&1 | tee "$log"
+        built="$(grep -c ' Built TruthCore' "$log" || true)"
+        echo "Rebuilt $built TruthCore module(s); build cache restored from: ${CACHE_KEY:-nothing}" | tee -a "$GITHUB_STEP_SUMMARY"
+      env:
+        CACHE_KEY: ${{ steps.build-restore.outputs.cache-matched-key }}
+    - name: Save TruthCore build output
+      if: inputs.build == 'true' && inputs.save == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.build-restore.outputs.cache-hit != 'true'
+      uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
+      with:
+        path: .lake/build
+        key: ${{ steps.build-restore.outputs.cache-primary-key }}

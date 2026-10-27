@@ -32,15 +32,12 @@ jobs:
         run: scripts/root-imports.sh
       - name: Check generated docs tables and lists are up to date
         run: python3 scripts/docs_index.py
-      # lean-toolchain pins the exact Lean version that the Mathlib release in
-      # lake-manifest.json requires. `use-mathlib-cache` runs `lake exe cache get`
-      # before `lake build`, so Mathlib is downloaded prebuilt rather than compiled;
-      # lean-action also caches .lake between runs.
-      - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
+      # Prebuilt Mathlib, then an incremental TruthCore build from the latest main build
+      # (.github/actions/lean-setup). This job alone writes the Lean caches, and only on main.
+      - uses: ./.github/actions/lean-setup
         with:
-          build: true
-          test: false
-          use-mathlib-cache: true
+          build: "true"
+          save: "true"
       - name: Install PDF source extraction
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
@@ -177,19 +174,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
         with:
-          go-version: stable
-      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
-      - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
+          # A PR checks out its merge commit; HEAD^1 is the base the scoped NanoDa check compares to.
+          fetch-depth: 2
+      # Build here: NanoDa exports the compiled library. The build is incremental from the latest
+      # main build (the same cache corpus-and-lean restores), not from that job's output, so the
+      # two jobs do not race.
+      - uses: ./.github/actions/lean-setup
         with:
-          auto-config: false
-          # Build here: NanoDa exports the compiled library, and relying on the
-          # lake cache written by the corpus-and-lean job races and misses.
-          build: ${{ needs.comparator-plan.outputs.library_changed == 'true' }}
-          test: false
-          # Fetch prebuilt Mathlib oleans (`lake exe cache get`) before building.
-          use-mathlib-cache: true
+          build: ${{ needs.comparator-plan.outputs.library_changed }}
       # The pinned lean4export/landrun/nanoda builds and the comparator's Cargo target only change
       # with their pins, so later runs restore them and the bootstrap's builds become no-ops.
       # lean4export must be built for the exact Lean version pinned in lean-toolchain
@@ -198,12 +191,23 @@ jobs:
         id: lean
         run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"
       - name: Cache Comparator toolchain
+        id: verifier
         uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: ~/.cache/truth-core-verifier
           key: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'scripts/verifier-pins.env', 'scripts/bootstrap-verifier.sh', 'verifier/Cargo.lock', 'verifier/Cargo.toml', 'verifier/src/**') }}
           restore-keys: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-
+      # An exact hit restores binaries built from exactly these pins and sources, so the
+      # bootstrap (and the Go and Rust toolchains it needs) is skipped; `cargo test` below still
+      # needs Rust whenever the library changed.
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        if: steps.verifier.outputs.cache-hit != 'true'
+        with:
+          go-version: stable
+      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+        if: steps.verifier.outputs.cache-hit != 'true' || needs.comparator-plan.outputs.library_changed == 'true'
       - name: Build Comparator toolchain
+        if: steps.verifier.outputs.cache-hit != 'true'
         run: scripts/bootstrap-verifier.sh
       - name: Produce this workflow's verified configuration explorer report
         run: python3 scripts/corpus.py configuration-report --output .cache/configuration-explorer.json
@@ -220,9 +224,25 @@ jobs:
         run: |
           cargo test --locked --manifest-path verifier/Cargo.toml
           python3 verifier/tests/test_lambda_binders.py ~/.cache/truth-core-verifier/rust-target/release/truth-core-comparator
-      - name: Verify every TruthCore declaration and its dependencies with NanoDa
+      # On a PR, check the declarations of the modules whose build output the diff can affect
+      # (changed modules and their reverse dependents, scripts/affected_results.py
+      # nanoda-modules), each with its full dependency closure; every other module's output is
+      # the base commit's, which main's full check covered. Pushes to main, nightly and manual
+      # runs check every TruthCore declaration.
+      - name: Select the modules the PR's NanoDa check covers
+        if: needs.comparator-plan.outputs.library_changed == 'true' && github.event_name == 'pull_request'
+        id: nanoda
+        run: python3 scripts/affected_results.py nanoda-modules --base HEAD^1 --head HEAD --output "$RUNNER_TEMP/nanoda-modules.txt"
+      - name: Verify TruthCore declarations and their dependencies with NanoDa
         if: needs.comparator-plan.outputs.library_changed == 'true'
-        run: scripts/verify-library.sh
+        env:
+          SCOPE: ${{ steps.nanoda.outputs.scope }}
+        run: |
+          if [[ "$SCOPE" == scoped ]]; then
+            scripts/verify-library.sh --modules "$RUNNER_TEMP/nanoda-modules.txt"
+          else
+            scripts/verify-library.sh
+          fi
       # The full check adds only imported declarations that no TruthCore declaration uses. Those
       # are fixed by the toolchain, Mathlib and NanoDa pins and by the set of modules TruthCore
       # imports from outside, so a marker keyed by exactly these records that it passed once.
@@ -257,27 +277,28 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           fetch-depth: 2
-      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
-        with:
-          go-version: stable
-      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
-      - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
-        with:
-          auto-config: false
-          # verify-all.sh builds exactly the Challenge and Solution modules of its shard.
-          build: false
-          test: false
-          use-mathlib-cache: true
+      # verify-all.sh builds exactly the Challenge and Solution modules of its shard, incrementally
+      # from the restored main build.
+      - uses: ./.github/actions/lean-setup
       - name: Resolve Lean version
         id: lean
         run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"
       - name: Cache Comparator toolchain
+        id: verifier
         uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: ~/.cache/truth-core-verifier
           key: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'scripts/verifier-pins.env', 'scripts/bootstrap-verifier.sh', 'verifier/Cargo.lock', 'verifier/Cargo.toml', 'verifier/src/**') }}
           restore-keys: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-
+      # Skipped on an exact hit, as in comparator-library.
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        if: steps.verifier.outputs.cache-hit != 'true'
+        with:
+          go-version: stable
+      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+        if: steps.verifier.outputs.cache-hit != 'true'
       - name: Build Comparator toolchain
+        if: steps.verifier.outputs.cache-hit != 'true'
         run: scripts/bootstrap-verifier.sh
       - name: Select results to verify
         env:

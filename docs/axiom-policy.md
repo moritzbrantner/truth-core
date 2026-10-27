@@ -56,7 +56,16 @@ Three checks run in CI (`.github/workflows/ci.yml`):
    core alike; NanoDa checks the whole export. Nothing a `TruthCore`
    declaration depends on is trusted without being checked. The script
    rejects any exporter diagnostic, because a Lean panic (for example on an
-   unparsable name) prints and continues.
+   unparsable name) prints and continues. Every push to `main`, the nightly
+   run and any manual run check every `TruthCore` declaration. A pull request
+   checks only the declarations of the modules whose build output its diff can
+   affect: each changed module and every module that imports one transitively
+   (`scripts/affected_results.py nanoda-modules`, passed as
+   `verify-library.sh --modules`), each still with its full dependency
+   closure. Every other module is unchanged from the PR's base commit, whose
+   full check ran on `main`. A change that makes Comparator select every
+   result (toolchain, Lake files, verifier, workflows) also runs the full
+   check on the PR.
 3. **Full NanoDa over everything the library imports**
    (`scripts/verify-library.sh --full`). Beyond check 2, this checks only
    imported declarations that no `TruthCore` declaration uses (about 285,000
@@ -68,9 +77,12 @@ Three checks run in CI (`.github/workflows/ci.yml`):
    it. Its failure would mean NanoDa rejects a pinned Mathlib or Lean core
    declaration that nothing in this repository uses.
 
-So no result relies on the cache: check 2 covers, on every library change,
-every declaration that any `TruthCore` theorem can reach. The cached marker
+So no result relies on the marker: check 2 covers, on every library change
+on `main`, every declaration that any `TruthCore` theorem can reach, and on a
+PR every declaration whose build output the PR can change. The cached marker
 records only that the unused remainder of the pinned dependencies passed once.
+A NanoDa failure that a PR's scope missed still turns the next `main` or
+nightly run red.
 
 Comparator (check 1) runs on a PR only for the results the diff can affect
 (`scripts/affected_results.py select`): those whose own records changed, or
@@ -92,7 +104,11 @@ lake exe cache get   # download prebuilt Mathlib .olean files
 lake build
 ```
 
-CI runs the same through `leanprover/lean-action` (`use-mathlib-cache: true`).
+CI runs the same through `.github/actions/lean-setup` (`leanprover/lean-action`
+with `use-mathlib-cache: true`). It restores TruthCore's `.lake/build` from the
+latest `main` build for the same toolchain and manifest, so Lake's trace hashes
+rebuild only stale modules and their dependents. Only `main` runs write that
+cache.
 
 `lean4export`, which Comparator and NanoDa use to read the built library, is
 built for one Lean version. An export built for another version fails with
