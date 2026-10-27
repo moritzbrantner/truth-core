@@ -1,0 +1,9 @@
+{
+  "id": "COGITO-SUBJECTLESS-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "inference_ids": [
+    "INF-COGITO-SUBJECTLESS-CONTROL"
+  ],
+  "meaning": "Construct a one-episode interpretation with no subject relation."
+}
