@@ -1,0 +1,9 @@
+{
+  "id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "argument_id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.actPriorFromIncorruptibleFacts",
+  "comparator_config": "results/ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS/comparator.json",
+  "status": "solution-present"
+}

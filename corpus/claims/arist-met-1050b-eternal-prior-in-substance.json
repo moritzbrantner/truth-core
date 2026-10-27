@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-MET-1050B-ETERNAL-PRIOR-IN-SUBSTANCE-A",
+  "statement_id": "STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE",
+  "source_id": "ARIST-MET",
+  "locator": "IX.8, 1050b6-7",
+  "interpretation": "'Eternal things are prior in substance to perishable ones' (τὰ μὲν γὰρ ἀΐδια πρότερα τῇ οὐσίᾳ τῶν φθαρτῶν), given as the stricter (κυριωτέρως) sense in which act is prior in substance. Read as Aquinas reads it (AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-PRIOR-A): the eternal as the simply imperishable, the priority as priority in substance (DEF-PRIORITY-IN-SUBSTANCE), over every pair. The sentence does not assert that an eternal being exists, and it is not read as simple priority.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-PRIORITY-IN-SUBSTANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

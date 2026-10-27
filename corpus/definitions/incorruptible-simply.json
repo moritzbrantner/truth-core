@@ -1,0 +1,11 @@
+{
+  "id": "DEF-INCORRUPTIBLE-SIMPLY",
+  "term": "incorruptible simply (incorruptibile simpliciter); sempiternal in In Metaph. IX, lect. 9",
+  "definition": "`IncorruptibleSimply CanFailToBe esse x`: x cannot fail to be in substance, the respect `esse` (simpliciter est corruptibile, quod potest non esse secundum substantiam, In Metaph. IX, lect. 9 n. 4). Aquinas passes in the same lecture between 'sempiternal' (n. 1, n. 6) and 'incorruptible simply' (n. 5); both are read as this predicate. It is not the timeless eternity of DEF-ETERNAL, and it allows potency in a respect other than substance (n. 6).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-IN-ACT-A",
+    "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-PRIOR-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptibleSimply"
+}

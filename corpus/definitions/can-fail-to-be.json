@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CAN-FAIL-TO-BE",
+  "term": "can fail to be (contingit non esse); corruptible in a respect",
+  "definition": "`CanFailToBe x r`: x can fail to be r. Aquinas identifies what can fail to be with the corruptible, simply when r is substance and in a respect (secundum quid) when r is a place, quantity or quality: a body that can fail to be in a place is corruptible in place (In Metaph. IX, lect. 9 n. 4). A Lean primitive: it is not defined from act or potency, and no modal semantics (possible worlds or times) is encoded, so the readings constrain it only through their stated implications.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-IN-METAPH-IX-L9-POTENCY-OF-CONTRADICTION-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.PotencyIsOfContradictionReading"
+}
