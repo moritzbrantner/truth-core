@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.actPriorFromMotionFacts"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

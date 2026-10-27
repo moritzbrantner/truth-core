@@ -1,0 +1,15 @@
+{
+  "id": "ARIST-PHYS-201B-POTENCY-NOT-ALWAYS-ACTIVE-A",
+  "statement_id": "STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED",
+  "source_id": "ARIST-PHYS",
+  "locator": "III.1, 201b8-9",
+  "interpretation": "Aristotle's reason why a thing is moved just when the actuality of the potential is present, neither before nor after: 'for each thing can be active at one time and not at another, as the buildable' (ἐνδέχεται γὰρ ἕκαστον ὁτὲ μὲν ἐνεργεῖν ὁτὲ δὲ μή, οἷον τὸ οἰκοδομητόν). The buildable's activity qua buildable is building (201b9-15, ARIST-PHYS-201B-BUILDABLE-IS-BUILDING-A), so a buildable not being built is in potency to the house without being moved toward it. Read in the case's vocabulary (InPotency; MovedIn as reduction, DISAMB-MOTION) at one such time: some being is in potency in a respect and is not being moved in it. The source's 'can at one time ... not at another' is modal and temporal; the formal statement keeps only one time at which a potential is inactive, the time at which the case's premises, stated for any time, are read. It says nothing of every potential and gives no cause of the inactivity.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

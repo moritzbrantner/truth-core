@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-POTENCY-NOT-BEING-ACTUALIZED-ALTERNATIVE-TO-EVERY-POTENCY-IS-BEING-ACTUALIZED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED",
+  "note": "Contradictory: Physics III.1, 201b8-9 (claim ARIST-PHYS-201B-POTENCY-NOT-ALWAYS-ACTIVE-A) gives a potency not being actualized, which the unattributed premise denies (ACT-PRIOR-FROM-MOTION-FACTS, last conjunct). The unattributed premise is used by no argument, so this relation changes no frontier count."
+}

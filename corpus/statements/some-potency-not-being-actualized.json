@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED",
+  "paraphrase": "Some being is in potency in a respect without being moved (reduced to act) in that respect, as a buildable that is not being built.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SomePotencyNotBeingActualizedReading",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

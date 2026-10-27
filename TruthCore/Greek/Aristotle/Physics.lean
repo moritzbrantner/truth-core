@@ -486,4 +486,28 @@ def BeingMovedIsActualizationOfPotencyReading
     (MovedIn InPotency ActualizedQuaPotential : Being → Respect → Prop) : Prop :=
   ∀ x r, MovedIn x r ↔ InPotency x r ∧ ActualizedQuaPotential x r
 
+/--
+Some potential is not being actualized: a being is in potency in a respect without being
+moved in it. Aristotle, *Physics* III.1, 201b8-9: motion occurs just when the actuality of
+the potential is present, "for each thing can be active at one time and not at another, as
+the buildable" (ἐνδέχεται γὰρ ἕκαστον ὁτὲ μὲν ἐνεργεῖν ὁτὲ δὲ μή, οἷον τὸ οἰκοδομητόν).
+The buildable's activity as buildable is building (201b9-15), so a buildable that is not
+being built is in potency to the house and is not being moved toward it.
+
+Reading steps. "The buildable" is read with the case's `InPotency` (it is able to be a house
+and is not one) and "being active" as the buildable with the case's `MovedIn` (motion as
+reduction, `DEF-MOTION-AS-REDUCTION`). The source says that each thing *can* at some time
+not be active; the formal statement takes one such time, the time at which the case's
+premises are read, and asserts only that at it some potential is not being actualized. It
+says nothing of every potential, and nothing about why it is not being actualized.
+
+Source: Aristotle, *Physics* III.1, 201b8-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def SomePotencyNotBeingActualizedReading
+    {Being : Sort u}
+    {Respect : Sort v}
+    (InPotency MovedIn : Being → Respect → Prop) : Prop :=
+  ∃ x r, InPotency x r ∧ ¬ MovedIn x r
+
 end TruthCore.Greek.Aristotle.Physics
