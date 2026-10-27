@@ -1,0 +1,9 @@
+{
+  "id": "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "rule": "direct-proof",
+  "meaning": "Explicitly instantiate the 'mixed' three-individual two-world model and check each presence, modal accessibility, possible totality-causation and absence-of-local-cause conjunct. This is a finite structured countermodel to the inference from modal causal opportunity alone to elimination of all brute contingent roots.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
