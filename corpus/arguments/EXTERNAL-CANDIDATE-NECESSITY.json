@@ -1,0 +1,20 @@
+{
+  "id": "EXTERNAL-CANDIDATE-NECESSITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+  "inference_ids": [
+    "INF-EXTERNAL-CANDIDATE-NECESSITY"
+  ],
+  "meaning": "The quantified classical equivalence isolates the modal existential burden hidden in talk of a possibly available concrete 'outside' bearer. The theorem certifies an inference in the stated semantics, not actual existence, S5 justification, causability or a philosophical PSR.",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
