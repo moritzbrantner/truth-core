@@ -1,0 +1,10 @@
+{
+  "id": "DEF-FINE-PLG-STRICT-PARTIAL-GROUND",
+  "term": "derivable strict partial ground (Fine's ≺)",
+  "definition": "`StrictlyGrounds S A C`: the strict partial sequent `A ≺ C` is derivable from S in PLG. Fine (p. 4) glosses strict partial ground as weak partial ground that is not reversed: A ≼ C but not C ≼ A; strict grounds move down the explanatory order, so nothing is a strict ground of itself (p. 3). It is Fine's strict partial ground (≺), the operator of the PLG rules, not his partial strict ground (≺*, a member of a strict full ground) or part strict ground (≺'), which he distinguishes on p. 4 and which the rules do not encode. As a relation it runs from ground to grounded; 'well-founded' (Lean core `WellFounded`) means no infinite descent toward ever further grounds, and 'cycle' means a finite chain `A ≺ … ≺ A` (Mathlib `Relation.TransGen`). This is Fine's operator on uninterpreted atoms; it is not identified with the per se causal link (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with participation grounding, or with inductively grounded causal power (DEF-FINITELY-GROUNDED-CAUSAL-POWER).",
+  "basis": "sourced",
+  "claim_ids": [
+    "FINE-PLG-DERIVED-RULES"
+  ],
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.StrictlyGrounds"
+}

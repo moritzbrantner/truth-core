@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-PLG-STRICT-GROUND-CALCULUS",
+  "statement_ids": [
+    "STMT-PLG-DERIVED-RULES",
+    "STMT-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+    "STMT-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT"
+  ],
+  "date": "2026-10-27",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#348 part 1. Fine's PLG rules (The Pure Logic of Ground, p. 5) were read from the pinned NYU-hosted PDF (FINE-PLG-1-2, pp. 3-7) and encoded as an inductive derivability predicate. Fine's derived rules check out, with one precision: his Amalgamation derivation cuts against `C, C, … ≤ C`, so Cut must allow repeated antecedent atoms and Amalgamation needs a nonempty family. Non-Circularity plus derived transitivity excludes derivable cycles for consistent assumptions and gives well-foundedness on finitely many atoms; a rank countermodel shows it does not give well-foundedness on infinitely many atoms. Source search: deRosset's On Weak Ground (RSL 7, 2014) and Better Semantics for the Pure Logic of Ground (Analytic Philosophy 56, 2015) could not be obtained: PhilArchive DEROWG/DERBSF returned a Cloudflare challenge and web.archive.org was unreachable from the pinning environment; no claim is made from them. Fine's fact semantics, soundness/completeness and deRosset's semantics remain for #349.",
+  "evidence": [
+    "PLG-DERIVED-RULES",
+    "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+    "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+    "FINE-PLG-DERIVED-RULES"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "FINE-PLG-DERIVED-RULES",
+  "statement_id": "STMT-PLG-DERIVED-RULES",
+  "source_id": "FINE-PURE-LOGIC-OF-GROUND",
+  "locator": "pp. 5-7, §2: the rules of PLG (p. 5), the derived Transitivity(≺/≺) (p. 6) and Amalgamation(≤), Amalgamation(<) (p. 7)",
+  "interpretation": "Fine lays down PLG as a system for deriving sequents from sets of sequents by Subsumption (four rules), Cut(≤/≤), three Transitivity rules, Identity(≤), Non-Circularity(≺) and Reverse Subsumption, and states that Transitivity(≺/≺) and both Amalgamation rules are derivable, giving the derivations. Read as: for every set of atoms and every set of assumed sequents, these three rules are admissible in the derivability relation so defined. Fine displays each Amalgamation rule with at least one premise; the formal statement accordingly ranges over nonempty families. Encoding choices (indexed Cut, set-based Reverse Subsumption, Non-Circularity as deriving every sequent) are recorded in DEF-FINE-PLG-DERIVABILITY. Fine's fact semantics and soundness/completeness (§3 onward) are not part of this reading.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-FINE-PLG-DERIVABILITY",
+    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+  ]
+}

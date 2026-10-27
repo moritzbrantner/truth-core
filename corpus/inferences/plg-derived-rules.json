@@ -1,0 +1,9 @@
+{
+  "id": "INF-PLG-DERIVED-RULES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PLG-DERIVED-RULES",
+  "rule": "derivation-in-plg",
+  "meaning": "Fine's own derivations, replayed with the PLG rule constructors: Transitivity(≺/≺) by Subsumption(≺/≼) then Transitivity(≼/≺); Amalgamation(≤) by cutting the premises against Identity C ≤ C listed once per premise (its antecedent set is {C} because the family is nonempty); Amalgamation(<) by Subsumption(</≤), Amalgamation(≤), Subsumption(</≺) for each antecedent, and Reverse Subsumption.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

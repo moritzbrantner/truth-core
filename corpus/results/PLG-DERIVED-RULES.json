@@ -1,0 +1,9 @@
+{
+  "id": "PLG-DERIVED-RULES",
+  "argument_id": "PLG-DERIVED-RULES",
+  "challenge_module": "TruthCore.Results.Modern.Fine.PlgDerivedRules.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Fine.PlgDerivedRules.Solution",
+  "theorem": "TruthCore.Results.Modern.Fine.PlgDerivedRules.plgDerivedRules",
+  "comparator_config": "results/PLG-DERIVED-RULES/comparator.json",
+  "status": "solution-present"
+}

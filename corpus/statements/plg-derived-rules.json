@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PLG-DERIVED-RULES",
+  "paraphrase": "In Fine's pure logic of ground, for every type of atoms and every set of assumed sequents: derivable strict partial ground is transitive (A ≺ B and B ≺ C give A ≺ C), and the weak full grounds, and likewise the strict full grounds, of one consequent in any nonempty family amalgamate into a single ground (the union of the antecedent sets).",
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.PlgDerivedRules",
+  "definition_ids": [
+    "DEF-FINE-PLG-DERIVABILITY",
+    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+  ]
+}

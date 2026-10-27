@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "paraphrase": "In Fine's pure logic of ground, for every type of atoms and every PLG-consistent set S of assumed sequents: no atom reaches itself by a finite chain of strict partial grounds derivable from S; no derivable strict partial ground A ≺ B has a derivable reversal B ≼ A; and, if there are only finitely many atoms, derivable strict partial ground from S is well-founded. It does not say that any S is consistent or that actual ground is acyclic.",
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.ConsistentStrictGroundAcyclic",
+  "definition_ids": [
+    "DEF-FINE-PLG-DERIVABILITY",
+    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+  ]
+}

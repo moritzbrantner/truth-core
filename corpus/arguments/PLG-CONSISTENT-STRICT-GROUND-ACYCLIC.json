@@ -1,0 +1,14 @@
+{
+  "id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "inference_ids": [
+    "INF-PLG-DERIVED-RULES",
+    "INF-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC"
+  ],
+  "meaning": "From consistent assumptions, PLG never derives a cycle of strict partial ground of any finite length, nor a strict ground together with its weak reversal; on finitely many atoms derivable strict ground is well-founded. The proof composes the derived Transitivity(≺/≺) of PLG-DERIVED-RULES with Non-Circularity and Mathlib's finite well-foundedness of strict orders (classical). Consistency of the assumptions is a hypothesis, not established; nothing is said about actual ground.",
+  "definition_ids": [
+    "DEF-FINE-PLG-DERIVABILITY",
+    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+  ]
+}
