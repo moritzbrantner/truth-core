@@ -1,0 +1,18 @@
+{
+  "id": "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
+  "paraphrase": "Nine finite interpretations over Unit: for the concrete fork, omitting occurrence, the bearer principle, bearer concreteness or bearer existence at the world each leaves the other three true and the world without a concrete existent; an event-route model has an occurring episode that is itself (through an explicit embedding) a concrete entity existing at the world, with an empty bearer relation; for the motion fork, omitting occurrence, the bearer principle, the opining bridge or opinion-as-motion each leaves the other three true and nothing moved.",
+  "lean_declaration": "TruthCore.Logic.CogitoConcrete.OmissionControls",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-BORNE-THOUGHT-AS-OPINING",
+    "DEF-EVENT-ROUTE-EMBEDDING",
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-MOTION"
+  ]
+}

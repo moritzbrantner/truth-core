@@ -1,0 +1,13 @@
+{
+  "id": "STMT-COGITO-BEARER-IS-CONCRETE",
+  "paraphrase": "Every bearer of an occurring thought episode is concrete, under a supplied, world-independent concreteness predicate on the candidate domain. An open ontological bridge: neither occurrence nor bearing makes a bearer concrete, and no causal, spatiotemporal or material criterion of concreteness is assumed.",
+  "lean_declaration": "TruthCore.Logic.CogitoConcrete.EveryBearerIsConcrete",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

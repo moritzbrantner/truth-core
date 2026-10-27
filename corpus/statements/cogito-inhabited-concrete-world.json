@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "paraphrase": "Some candidate is concrete and exists at the selected world w₀: ∃ b, concrete b ∧ m.ExistsAt w₀ b. This has the shape of #487's population hypothesis PopulatedConcreteAt (branch codex/487-necessary-concrete-root, not on main). It says nothing about persistence, a self, substance, immateriality, necessity or causal efficacy of the witness.",
+  "lean_declaration": "TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt",
+  "definition_ids": [
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

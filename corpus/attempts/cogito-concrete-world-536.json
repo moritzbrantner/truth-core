@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-COGITO-CONCRETE-WORLD-536",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+    "STMT-OPINION-IS-A-MOTION",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#536, argument-first. Question: can an actual thought witness an inhabited concrete world, and can the Cogito floor reach a root-path premise? Decisive finding about the root: no root-path premise on main mentions concreteness or world-indexed existence. #487's population hypothesis (∃ b, concrete b ∧ ExistsAt w₀ b) lives only on the unmerged branch codex/487-necessary-concrete-root, so a Cogito-to-population result reaches no root path by itself. The only existential root-path premise a thought can witness is the prima via's STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD, whose Lean type is ∃ x r, MovedIn x r with no concreteness or world index. So the trunk was forked. Trunk (reused, #532): O = STMT-COGITO-THOUGHT-OCCURS, B = STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT, via thinkingSubjectOfThought; the issue's Realizes e b is #532's Bears b e. Concrete fork (COGITO-INHABITED-CONCRETE-WORLD): O+B+C+E ⊢ InhabitedConcreteAt, with C (bearer concrete) and E (bearer exists at w₀) as separate bridges because each has its own omission model (an existing abstract bearer; a concrete nonexistent bearer). Kant/#487 Ontic signature reused; InhabitedConcreteAt is stipulated with the exact shape of the branch's PopulatedConcreteAt (to be unified when #487 lands). Motion fork (COGITO-SOMETHING-MOVED-FROM-THOUGHT): O+B+OB+STMT-OPINION-IS-A-MOTION ⊢ SomethingIsMovedReading; the one new bridge OB (bearer of an occurring thought opines its content) links the #532 vocabulary to the existing opining premise instead of adding a fresh thought-is-motion premise. Both are instantiation transcriptions (invariant 16), so neither closes its conclusion while any premise is open. Controls (COGITO-CONCRETE-OMISSION-CONTROLS, zero axioms): every premise of each fork is needed (eight models), and an event-route model (an occurring episode embedded as a concrete existing entity, empty bearer relation) populates the world, so the bearer route is sufficient but not necessary. Rejected: the event-route bridge Occurs e → concrete (embed e) ∧ ExistsAt w₀ (embed e) as a proof premise, since its consequent is the conclusion at a witness (the issue's own proof-strength audit); kept only in the model. Rejected: defining Realizes or Bears as 'concrete actual realizer', which builds C and E into B. Rejected: a fresh 'thought is motion' premise, which would duplicate STMT-OPINION-IS-A-MOTION (invariant 17). Rejected: concluding STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD with the unused C and E as hypotheses to mimic 'in this world'; the Lean type does not encode it, and the argument meaning says so. Not addressed: whether any actual thought occurs (O needs an independent warrant: #552, #557, #564), sourcing B, C, E or OB (#544 on concreteness criteria; #543 on the conservative-extension no-go), the modal step of #467, and #487's dependence and well-foundedness premises. The motion fork inherits the McTaggart block on STMT-OPINION-IS-A-MOTION, a chain the owner parked for source hunts; this slice adds no source hunt there.",
+  "evidence": [
+    "COGITO-INHABITED-CONCRETE-WORLD",
+    "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+    "COGITO-CONCRETE-OMISSION-CONTROLS",
+    "COGITO-SUBJECT-FROM-OCCURRENCE",
+    "ELEATIC-THESIS-SELF-REFUTING",
+    "ARIST-PHYS-254A-OPINION-IS-MOTION-A"
+  ],
+  "blocker": "Independent warrant for O (an actually performed, witnessed thought), and defences of B, C, E (concrete fork) or B, OB and STMT-OPINION-IS-A-MOTION (motion fork) against impersonal-event, Platonist-content, idealist and McTaggart rivals. For #487, its branch must merge so that InhabitedConcreteAt and PopulatedConcreteAt can be identified."
+}

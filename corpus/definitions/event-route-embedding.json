@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EVENT-ROUTE-EMBEDDING",
+  "term": "event route: an occurring episode as a concrete entity",
+  "definition": "OccurringEpisodeIsActualConcrete m concrete Occurs embed w means ∀ e, Occurs e → concrete (embed e) ∧ m.ExistsAt w (embed e), for an explicit embed : Episode → E of episodes into the candidate domain. It needs no distinct bearer. Its consequent is the inhabited-world conclusion at the witness embed e, so a proof from it is a transcription (AGENTS.md invariant 16); an inhabited Episode type alone gives no concrete entity.",
+  "basis": "stipulative",
+  "note": "Stipulated for #536's event-route model only. Whether an actually performed episode is a concrete particular is the open question of #544.",
+  "lean_declaration": "TruthCore.Logic.CogitoConcrete.OccurringEpisodeIsActualConcrete"
+}
