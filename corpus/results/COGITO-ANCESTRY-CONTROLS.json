@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-ANCESTRY-CONTROLS",
+  "argument_id": "COGITO-ANCESTRY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution",
+  "theorem": "TruthCore.Results.Causality.CogitoNecessaryConcrete.ancestryControls",
+  "comparator_config": "results/COGITO-ANCESTRY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Two global-to-local implications, one strictness model (both local premises and the conclusion with a non-contingent thinker; both global premises false) and six omission models for the necessary-ancestor theorem. Logical models only; no premise is discharged."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-COGITO-NECESSARY-CONCRETE-ANCESTOR-564",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+    "STMT-COGITO-ANCESTRY-ROOT-FORK",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-BRUTE-ROOT-DISJUNCTION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#564, first recursive-refinement pilot (#579). Whole case: occurring thought (O) -> bearer (B) -> concrete (C) and existing at w (E) bearer (#536) -> fork: necessary concretum or contingent ground-root (#553, BRUTE-ROOT-DISJUNCTION) -> anti-brute-root premise closes the second horn. Decisive fork chosen: the anti-brute-root premise. Finding: relative to a fixed grounding relation and whole-carrier well-foundedness, the global anti-brute-root premise 'no actual contingent concrete root' is classically equivalent to EveryContingentGroundedAt (CP_all; an elementary equivalence, not separately formalized), so no weaker global principle closes the BRUTE-ROOT-DISJUNCTION horn. The Cogito's bearer is what allows a weaker premise: restrict both well-foundedness (Acc at the bearer for the actual-concrete grounding relation) and anti-brute-rootness (only contingent actual concrete ground-ancestors of the bearer) to the bearer's ground-ancestry. COGITO-ANCESTRY-ROOT-FORK (classical via explicit excluded middle, zero Lean axioms): O, B, C, E, local Acc give a necessary concrete ancestor or a contingent concrete root among the bearer's ancestors. COGITO-NECESSARY-CONCRETE-ANCESTOR: adding the local anti-brute-root principle gives a concrete ground-ancestor of the bearer existing at every accessible world; it implies NecessaryConcreteAt. COGITO-ANCESTRY-CONTROLS: both global premises imply the local ones; a four-candidate model (necessary thinker, a contingent left/right grounding cycle, an ungrounded contingent concretum) has both local premises and the conclusion while both global premises fail, and its thinker is not contingent; six omission models show each non-logical premise is needed (the contingent ungrounded thinker is the issue's 'underived contingent thinker': underived is not necessary). Route B (contingent thinker): unnecessary and not used; the necessary-thinker branch is the first horn, as the #565 pilot note predicted. Route C (three causal relations): not formalized; the proof uses only one relation (the Profile's world-local grounds) and no step depends on causing a thought or causing the thinker, so separating them changes no verdict here (decomposition gate not passed). #528 (closed by the owner because ChatGPT files issues, not PRs; its branch codex/487-necessary-concrete-root retained): not re-landed; main's necessaryConcreteOfGroundedContingents already gives the global conditional, and the new results reuse its Profile and NecessaryConcreteAt rather than restating #528. Rejected: concluding with a 'the thinker is contingent' premise (an extra, harder burden); restating #528's subtype well-foundedness (Acc at the bearer is weaker still); attributing any of this to Descartes or Aquinas (no source read; all records stipulative). Boundary: excluded middle is used (no constructive version attempted); necessity is accessibility-relative, not all-world; nothing about uniqueness, underivedness, simplicity, intellect or God. Frontier delta: --routes unchanged (cheapest CATHOLICISM-SKELETON 31); --reaching-root unchanged (61 open: 12 bare, 49 sourced); no root-path premise uses world-indexed de re necessity, so the result is an outpost.",
+  "evidence": [
+    "COGITO-ANCESTRY-ROOT-FORK",
+    "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+    "COGITO-ANCESTRY-CONTROLS",
+    "COGITO-INHABITED-CONCRETE-WORLD",
+    "COGITO-SUBJECT-FROM-OCCURRENCE",
+    "BRUTE-ROOT-DISJUNCTION"
+  ],
+  "blocker": "Root connection: no root-path premise is stated in world-indexed de re necessity; a bridge from NecessaryConcreteAncestorOfThinker to the tertia via's necessary being (DEF-NECESSARY-BEING, cannot-not-be) or to a stage-1 premise needs a modeling decision (DISAMB-NECESSARY-INDIVIDUAL-SCOPE). Premises: independent defence of the thinker-local anti-brute-root principle (#505, #545) and thinker-local accessibility of grounding, plus O, B, C and E."
+}

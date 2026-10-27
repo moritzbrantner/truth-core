@@ -1,0 +1,23 @@
+{
+  "id": "STMT-COGITO-ANCESTRY-CONTROLS",
+  "paraphrase": "Comparison and omission bundle. (1) For every profile, thought interpretation and world, whole-carrier well-foundedness of grounding implies thinker-local accessibility, and 'every actual contingent concretum has an actual concrete ground' implies the thinker-local anti-brute-root principle. (2) One finite model (two worlds, universal accessibility; a thinker existing at both worlds, and two mutually grounding concreta and one ungrounded concretum existing only at world true, the selected w) satisfies all six non-logical premises of the necessary-ancestor theorem and its conclusion, so they are jointly satisfiable; its thinker exists at every accessible world and is not contingent; and it falsifies both global premises. (3) Six omission models: dropping occurrence, the bearer principle, bearer concreteness, bearer existence at w, thinker-local accessibility (a two-cycle through a contingent thinker) or the thinker-local anti-brute-root principle (a contingent ungrounded thinker) each keeps the other five true and falsifies the necessary-ancestor conclusion. Logical models only; none is claimed metaphysically possible.",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.CogitoAncestryControls",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
