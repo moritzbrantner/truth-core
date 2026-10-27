@@ -1,0 +1,10 @@
+{
+  "id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "argument_id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "challenge_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Solution",
+  "theorem": "TruthCore.Results.Comparison.HumeCauseAsymmetry.noMutualCauseOfNoCausalLoops",
+  "comparator_config": "results/HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS/comparator.json",
+  "status": "solution-present",
+  "description": "The root-path premise STMT-CAUSAL-HISTORY-HAS-NO-LOOPS entails Hume's asymmetry maxim STMT-HUME-NO-MUTUAL-CAUSE (Treatise I.3.6 §7, claim HUME-TREATISE-I-3-6-NO-MUTUAL-CAUSE-A) for the same relation: two mutual causal edges would be a nonempty finite path returning to its start. notConverse shows the maxim is strictly weaker: it holds for a self-cause and for a three-step cycle on Fin 3, neither of which satisfies the premise. So Hume attests a consequence of the premise, not the premise: the premise stays open and is not supported by this result. The entailment is relation-generic and identifies Hume's relation with the case's supplied causal relation nowhere (DISAMB-HUME-MAXIM-RELATION)."
+}
