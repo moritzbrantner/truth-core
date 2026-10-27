@@ -11,7 +11,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Iterable
 
-from source_evidence import SourceEvidenceError, validate_bindings
+from source_evidence import BIBLIOGRAPHIC_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
@@ -887,6 +887,10 @@ def frontier_report(
     stating_claims: dict[str, set[str]] = {}
     for claim in claims or []:
         stating_claims.setdefault(claim["statement_id"], set()).add(claim["id"])
+    # Claims resting on a bibliographic span: cited by page, not byte-verified (#378).
+    bibliographic_claims = {
+        claim["id"] for claim in claims or [] if claim.get("witness") == BIBLIOGRAPHIC_WITNESS
+    }
 
     route_report = root_routes(
         root,
@@ -931,6 +935,11 @@ def frontier_report(
                 "objections": sorted(objections.get(statement_id, ())),
                 "supporting_claims": sorted(support.get(statement_id, ())),
                 "stating_claims": sorted(stating_claims.get(statement_id, ())),
+                "bibliographic_claims": sorted(
+                    bibliographic_claims.intersection(
+                        stating_claims.get(statement_id, set()) | support.get(statement_id, set())
+                    )
+                ),
                 "depth": (
                     FRONTIER_SOURCED
                     if stating_claims.get(statement_id) or support.get(statement_id)
@@ -1373,6 +1382,10 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append("  stating source claims: " + ", ".join(item["stating_claims"]))
         if item.get("supporting_claims"):
             lines.append("  supporting source claims: " + ", ".join(item["supporting_claims"]))
+        if item.get("bibliographic_claims"):
+            lines.append(
+                "  bibliographic witness, not byte-verified: " + ", ".join(item["bibliographic_claims"])
+            )
         if item.get("transcription_premise_of"):
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])

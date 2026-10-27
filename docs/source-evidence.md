@@ -48,7 +48,7 @@ Fidelity for recorded speech adds two questions to the usual ones. Auto captions
 
 ## Web snapshots (translations and web-only texts)
 
-Where no git-hosted witness exists, a web page can be pinned as a passage of kind `web_snapshot` (owner decision on #154). It is the last admissible source kind (invariant 18). Its main use is a translation until a pinned Latin witness exists, such as New Advent's Summa or the isidore.co translations of Aquinas, and a web-only original such as the Latin of *Dei Filius* on vatican.va.
+Where no git-hosted witness exists, a web page can be pinned as a passage of kind `web_snapshot` (owner decision on #154). It is the last admissible byte-pinned source kind (invariant 18); a copyrighted work with no pinnable witness falls back to a [bibliographic span](#bibliographic-spans-copyrighted-works-without-a-pinnable-witness). Its main use is a translation until a pinned Latin witness exists, such as New Advent's Summa or the isidore.co translations of Aquinas, and a web-only original such as the Latin of *Dei Filius* on vatican.va.
 
 - The manifest's **snapshot** (`kind: "web_snapshot"`) names the `source_url`, the `retrieved_at` UTC timestamp, the `sha256` of the response bytes (after removing any gzip content coding), the page `encoding`, the `language`, and in `license` the terms or copyright notice found on the site. A translation adds `translation` with `translator`, `year` and `edition`. An optional `wayback_url` of the form `https://web.archive.org/web/<14-digit timestamp>id_/<source_url>` gives a fixed-timestamp capture, with its own `wayback_sha256`.
 - Each **passage** gives an `html_selector`, the `text_sha256` of the extracted text, and optionally an `incipit` of at most 80 characters. The selector is one of `{"element_id": ...}` (that element; one whose end tag may be omitted, such as `p`, `li`, `dt`/`dd` or a table row or cell, ends where HTML implies its end: at the next start tag that closes it or at the end of its parent), `{"heading": ...}` (an `h1`–`h6` with exactly that text, up to the next heading of the same or a higher level), or `{"from": marker, "to": marker}` with `to` optional and excluded, where a marker is `{"anchor": ...}` (a tag with that `name` or `id`) or `{"text": ...}` (a block whose whole text is exactly that). Every selector must match exactly once.
@@ -100,6 +100,31 @@ A translation is not the primary text. Every claim on a passage with `translatio
 
 Whether a translation-based claim conflicts in meaning with a Latin-based claim on another statement remains a review question.
 
+## Bibliographic spans (copyrighted works without a pinnable witness)
+
+Copyrighted modern works (for example Plantinga, Flew, Ross, Pruss, van Inwagen, Ayer, or historical-Jesus scholarship) may be cited by edition and page **without pinned bytes**, but only when no pinnable witness exists: no git text, no public-domain edition, and no legitimately hosted copy that a `web_snapshot` could pin (owner decision 1c on #378). This is the passage kind `bibliographic_span`. The source record keeps its ordinary kind (`primary_text`); only the passage says how its evidence is held.
+
+- Each passage (or its shared snapshot) gives `author`, `title`, `year` (the cited edition's publication year, an integer), a `publisher` for a book or a `journal` for an article, an `isbn` (valid ISBN-10 or ISBN-13) or a `doi` (`10.<registrant>/<suffix>`), optionally `edition`, the `language`, and an exact `pages` or `section` locator. A translated edition adds `translation` as for web snapshots, and its claims carry `basis: translation`.
+- `why_bibliographic` (required) says why no pinnable witness exists: for example the copyright term, and that no legitimately hosted copy was found.
+- At most a short `quotation` (about two sentences, at most 300 characters) may be committed; otherwise claims paraphrase. No text and no byte hash (`text`, `sha256`, `text_sha256`, `git_blob_sha`) is allowed on the passage.
+- The conventional locator names the edition and pages, for example `Language, Truth and Logic (2nd ed. 1946), ch. 6, pp. 102-103`.
+
+**Precedence.** `check` rejects a bibliographic span whose claim-locator prefixes overlap those of a pinned text witness or web snapshot of the same source: where the bytes can be pinned, cite them.
+
+**Integrity marking.** Every claim on a bibliographic span carries `"witness": "bibliographic"`, and `check` rejects the field on any other claim. The marking is shown next to the claim by `corpus.py frontier` (`bibliographic witness, not byte-verified: …`), in the premise dossier, and on the explorer's claim and dossier pages, so a reader can tell verified bytes from a bibliographic reference.
+
+**Verification.** `check` validates the record and its claim bindings. `verify` fetches nothing for it and lists it as `bibliographic spans not byte-verified`. `materialize` refuses it: there are no bytes to extract. A worker therefore claims from a bibliographic span only after reading the cited pages in the edition itself (for example the owner's copy), never from memory or a search snippet (invariant 2). Source integrity for such a claim rests on the citation and the reader's checking, not on a hash; source fidelity remains a review question as everywhere.
+
+### Upgrade path
+
+A bibliographic span is a placeholder for pinned evidence. When a pinnable witness appears (a `web_snapshot` of a legitimately hosted copy, a public-domain edition in git, or an owner-held local copy pinned by hash under the future option 1b), replace the passage in place:
+
+1. Add the pinned passage with the **same source ID and claim-locator prefixes** (a manifest of the new kind; the old `bibliographic_span` entry is removed in the same change, since `check` rejects an overlap). Claims bind by source ID and locator, so their IDs and locators stay unchanged.
+2. Materialize the new witness and re-read every claim on the passage against the verified text. A reading that no longer holds is revised as a new claim, as for any fidelity review.
+3. Remove `"witness": "bibliographic"` from those claims (`check` rejects it on a pinned witness).
+
+Option 1b (owner-held copies pinned by hash) is not implemented yet; it would need a passage kind that pins a local file's hash without committing its bytes.
+
 ## Claim binding
 
 Claims deliberately remain small. A formalized claim records its source ID and precise locator. `scripts/source_evidence.py` requires that pair to resolve to exactly one passage witness.
@@ -144,7 +169,7 @@ python3 scripts/source_evidence.py verify
 
 `verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits. It refetches all of them when `scripts/source_evidence.py` itself changed. Every manifest and claim binding is still validated offline.
 
-CI runs the corpus binding check on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked. Unrelated PRs are no longer blocked by a page that drifted outside the repository. On a push to `main`, and in the nightly scheduled run, CI runs the full `verify`. Drift therefore still turns `main` and the nightly run red, where the owner is notified. The repair is a fallback or re-pin as described above. New claims therefore cannot enter the formalized corpus without reproducible source evidence.
+CI runs the corpus binding check on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked. Unrelated PRs are no longer blocked by a page that drifted outside the repository. On a push to `main`, and in the nightly scheduled run, CI runs the full `verify`. Drift therefore still turns `main` and the nightly run red, where the owner is notified. The repair is a fallback or re-pin as described above. New claims therefore cannot enter the formalized corpus without reproducible source evidence, except claims on a bibliographic span, which are marked `witness: "bibliographic"` and listed as not byte-verified.
 
 ## What this does not prove
 

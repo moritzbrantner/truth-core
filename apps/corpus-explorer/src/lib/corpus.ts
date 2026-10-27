@@ -87,7 +87,36 @@ type CorpusWebSnapshotSlice = CorpusPassageSlice & {
 type CorpusPassageManifest =
   | { snapshot: CorpusSourceSnapshot; passages: CorpusPassageSlice[]; notes?: string }
   | { snapshot: CorpusMediaSnapshot; passages: CorpusMediaSpanSlice[]; notes?: string }
-  | { snapshot: CorpusWebSnapshot; passages: CorpusWebSnapshotSlice[]; notes?: string };
+  | { snapshot: CorpusWebSnapshot; passages: CorpusWebSnapshotSlice[]; notes?: string }
+  | {
+      snapshot: Partial<CorpusBibliographicPassage> & { kind: "bibliographic_span" };
+      passages: Array<Partial<CorpusBibliographicPassage> & CorpusPassageSlice>;
+      notes?: string;
+    };
+
+/**
+ * A copyrighted edition cited by page or section, with no pinned bytes (#378).
+ * Bibliographic fields may sit on the snapshot or on each passage.
+ */
+export type CorpusBibliographicPassage = CorpusPassageSlice & {
+  kind: "bibliographic_span";
+  source_id: string;
+  author: string;
+  title: string;
+  year: number;
+  language: string;
+  why_bibliographic: string;
+  publisher?: string;
+  journal?: string;
+  edition?: string;
+  isbn?: string;
+  doi?: string;
+  pages?: string;
+  section?: string;
+  quotation?: string;
+  translation?: { translator: string; year: number | string; edition: string };
+  notes?: string;
+};
 
 export type CorpusTextPassage = CorpusSourceSnapshot &
   CorpusPassageSlice & {
@@ -104,7 +133,15 @@ export type CorpusWebPassage = CorpusWebSnapshot &
     notes?: string;
   };
 
-export type CorpusPassage = CorpusTextPassage | CorpusMediaPassage | CorpusWebPassage;
+export type CorpusPassage =
+  | CorpusTextPassage
+  | CorpusMediaPassage
+  | CorpusWebPassage
+  | CorpusBibliographicPassage;
+
+export function isBibliographicPassage(passage: CorpusPassage): passage is CorpusBibliographicPassage {
+  return passage.kind === "bibliographic_span";
+}
 
 export function isMediaPassage(passage: CorpusPassage): passage is CorpusMediaPassage {
   return passage.kind === "media_span";
@@ -157,6 +194,8 @@ type RawCorpusClaim = TermLinks & {
   interpretation: string;
   /** Present on claims read from a translated web snapshot. */
   basis?: "translation";
+  /** Present on claims cited from a bibliographic span: not byte-verified (#378). */
+  witness?: "bibliographic";
   status: "formalized";
 };
 
