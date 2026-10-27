@@ -46,6 +46,7 @@ export type GraphManifest = {
   sources: CorpusSourceInput[];
   defaultTarget: string | null;
   rootPresent: boolean;
+  stageConclusions: PropositionGraph["stageConclusions"];
   totals: { statements: number; inferences: number; components: number; layoutComponents: number; relations: number };
 };
 
@@ -261,6 +262,7 @@ export function mergeBuckets(manifest: GraphManifest, buckets: GraphBucket[]): {
     sources: manifest.sources,
     defaultTarget: manifest.defaultTarget,
     rootPresent: manifest.rootPresent,
+    stageConclusions: manifest.stageConclusions,
   };
   const produced = new Set(inferences.map((inference) => inference.output));
   const consumed = new Set(inferences.flatMap((inference) => [...inference.inputs, ...inference.assumptions]));

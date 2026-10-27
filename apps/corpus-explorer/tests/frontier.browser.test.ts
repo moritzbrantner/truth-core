@@ -1,5 +1,6 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import { chromium, type Browser } from "playwright";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 let browser: Browser;
@@ -103,5 +104,31 @@ test("static frontier: queue ↔ graph, goal/global, reload, expansion, focus re
   await page.getByRole("button", { name: "Global frontier", exact: true }).click();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   expect(errors).toEqual([]);
+  await page.close();
+}, 60000);
+
+test("floor markings show the basis and criterion that corpus.py frontier reports", async () => {
+  const report = JSON.parse(
+    execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
+      cwd: path.resolve(import.meta.dir, "../../.."),
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+    }),
+  ) as { floor: Array<{ statement_id: string; basis: string; met: boolean }> };
+  const page = await browser.newPage();
+  const prefix = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
+  await page.goto(`${prefix}state/`);
+  const shown = await page
+    .locator("#floor [data-floor-basis]")
+    .evaluateAll((items) => items.map((item) => [item.getAttribute("data-floor-basis"), item.getAttribute("data-floor-met")]));
+  expect(shown).toEqual(report.floor.map((entry) => [entry.basis, String(entry.met)]));
+  for (const entry of report.floor) {
+    await page.goto(`${prefix}statements/${entry.statement_id}/`);
+    const marking = page.locator("#floor");
+    expect([await marking.getAttribute("data-floor-basis"), await marking.getAttribute("data-floor-met")]).toEqual([
+      entry.basis,
+      String(entry.met),
+    ]);
+  }
   await page.close();
 }, 60000);

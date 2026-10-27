@@ -174,6 +174,7 @@ export function buildGraphBuckets(graph: PropositionGraph): GraphBuckets {
       sources: graph.sources,
       defaultTarget: graph.defaultTarget,
       rootPresent: graph.rootPresent,
+      stageConclusions: graph.stageConclusions,
       totals: {
         statements: graph.statements.length,
         inferences: graph.inferences.length,

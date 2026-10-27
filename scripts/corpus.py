@@ -9,7 +9,7 @@ import re
 import sys
 from collections import Counter
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any, Callable, Iterable
 
 from source_evidence import BIBLIOGRAPHIC_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
@@ -199,6 +199,16 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # conclusion do not reach the root through it.
 ROOT_ROUTE_PREDICATE = "root_route"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+# Stage conclusions of the root skeleton (#156; CATHOLICISM-SKELETON, docs/catholic-case.md).
+# Views group statements by the stage conclusions that rest on them.
+STAGE_CONCLUSIONS = (
+    (1, "STMT-GOD-EXISTS"),
+    (2, "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"),
+    (3, "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"),
+    (4, "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"),
+    (5, "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"),
+    (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
+)
 # Depth of an open premise (#143, 2026-10-24): "bare" when no claim states it
 # and no `supports` relation points to it; otherwise "sourced" (sourced but not
 # yet defended). The aim is to drive bare premises to zero, then defend the rest.
@@ -575,6 +585,7 @@ def frontier_report(
     root: str | None = DEFAULT_FRONTIER_ROOT,
     transcription: list[dict[str, Any]] | None = None,
     claims: list[dict[str, Any]] | None = None,
+    inferences: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Open premises: used as an argument premise and not closed. A statement
     is closed when it is (a) the conclusion of a verified result that is not a
@@ -989,6 +1000,19 @@ def frontier_report(
     for statement_id in sorted(closed_via_transcription):
         _, _, path = upward(statement_id)
         closures.append({**closed_via_transcription[statement_id], "path_to_root": path})
+    view = statement_view(
+        statement_by_id,
+        arguments,
+        results,
+        relations,
+        inferences or [],
+        root,
+        transcription_results,
+        floor_met,
+        {statement_id for statement_id in statement_by_id if defended(statement_id)},
+        {item["statement_id"] for item in items},
+        upward,
+    )
     return {
         "root": root,
         "root_known": root is not None and root in statement_by_id,
@@ -1006,6 +1030,125 @@ def frontier_report(
         "open_premise_count": len(items),
         "depth_counts": depth_counts(items),
         "items": items,
+        **view,
+    }
+
+
+def statement_view(
+    statement_by_id: dict[str, dict[str, Any]],
+    arguments: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+    inferences: list[dict[str, Any]],
+    root: str | None,
+    transcription_results: set[str],
+    floor_met: set[str],
+    defended: set[str],
+    open_premises: set[str],
+    upward: Callable[[str], tuple[list[str], list[str], list[str] | None]],
+) -> dict[str, Any]:
+    """Per-statement projections for views such as the explorer (#507), so no
+    view recomputes them. `statement_statuses` gives one display status per
+    statement, the first that applies: "proved" or "transcription" (conclusion
+    of a verified result; "transcription" when every such result is one),
+    "self-evident" (a floor marking whose basis criterion holds now, #500),
+    "defended" (every recorded alternative refuted), "alternative" or
+    "objection" (subject of an alternative_to or a statement attacks
+    relation), "open" (an open premise), "derived" (output of an inference
+    some argument uses), otherwise "source-only". A status adds no closure
+    rule: closure is `closed_statements`."""
+    argument_by_id = {argument["id"]: argument for argument in arguments}
+    verifying: dict[str, list[str]] = {}
+    for result in results:
+        argument = argument_by_id.get(result["argument_id"])
+        if argument is not None:
+            verifying.setdefault(argument["conclusion_statement_id"], []).append(result["id"])
+    alternative_subjects = {
+        relation["subject_id"] for relation in relations if relation.get("predicate") == ALTERNATIVE_PREDICATE
+    }
+    objection_subjects = {
+        relation["subject_id"]
+        for relation in relations
+        if relation.get("predicate") == ATTACKS_PREDICATE and relation.get("subject_kind") == "statement"
+    }
+    used_inferences = {inference_id for argument in arguments for inference_id in argument["inference_ids"]}
+    derived = {inference["output_statement_id"] for inference in inferences if inference["id"] in used_inferences}
+    statuses: dict[str, str] = {}
+    for statement_id in sorted(statement_by_id):
+        proving = verifying.get(statement_id, [])
+        if proving:
+            status = "transcription" if all(result_id in transcription_results for result_id in proving) else "proved"
+        elif statement_id in floor_met:
+            status = "self-evident"
+        elif statement_id in defended:
+            status = "defended"
+        elif statement_id in alternative_subjects:
+            status = "alternative"
+        elif statement_id in objection_subjects:
+            status = "objection"
+        elif statement_id in open_premises:
+            status = "open"
+        elif statement_id in derived:
+            status = "derived"
+        else:
+            status = "source-only"
+        statuses[statement_id] = status
+
+    # Stages (#156, CATHOLICISM-SKELETON): a statement carries stage N when
+    # stage N's conclusion rests on it through the inferences that output it,
+    # their assumptions included.
+    producers: dict[str, list[list[str]]] = {}
+    for inference in inferences:
+        producers.setdefault(inference["output_statement_id"], []).append(
+            [*inference["input_statement_ids"], *inference.get("assumption_statement_ids", [])]
+        )
+
+    def rests_on(start: str) -> set[str]:
+        seen = {start}
+        pending = [start]
+        while pending:
+            for inputs in producers.get(pending.pop(), ()):
+                for statement_id in inputs:
+                    if statement_id not in seen:
+                        seen.add(statement_id)
+                        pending.append(statement_id)
+        return seen
+
+    stages = [
+        {"stage": stage, "statement_id": statement_id}
+        for stage, statement_id in STAGE_CONCLUSIONS
+        if statement_id in statement_by_id
+    ]
+    statement_stages: dict[str, list[int]] = {}
+    for entry in stages:
+        for statement_id in sorted(rests_on(entry["statement_id"])):
+            statement_stages.setdefault(statement_id, []).append(entry["stage"])
+
+    # Default view target: the root when present, otherwise the verified
+    # conclusion that rests on the most statements (ties by ID).
+    default_target = root if root is not None and root in statement_by_id else None
+    if default_target is None:
+        best = 0
+        verified = {result["argument_id"] for result in results}
+        for conclusion in sorted(
+            {argument["conclusion_statement_id"] for argument in arguments if argument["id"] in verified}
+        ):
+            size = len(rests_on(conclusion))
+            if size > best:
+                best, default_target = size, conclusion
+
+    # The route-aware upward walk of every argument premise, closed or open:
+    # the walk that gives an open item its transitive dependents.
+    premise_dependents: dict[str, dict[str, list[str]]] = {}
+    for statement_id in sorted({premise for argument in arguments for premise in argument["premise_statement_ids"]}):
+        dependent_arguments, dependent_statements, _ = upward(statement_id)
+        premise_dependents[statement_id] = {"arguments": dependent_arguments, "statements": dependent_statements}
+    return {
+        "statement_statuses": statuses,
+        "stages": stages,
+        "statement_stages": statement_stages,
+        "default_target": default_target,
+        "premise_dependents": premise_dependents,
     }
 
 
@@ -2068,6 +2211,7 @@ def command_frontier(args: argparse.Namespace) -> int:
         root=args.root,
         transcription=transcription_flags(results, arguments, statements),
         claims=claims,
+        inferences=[record for _, record in load_dir("inferences")],
     )
     if args.reaching_root:
         report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
