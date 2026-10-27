@@ -1,9 +1,70 @@
 # Founding: mission, authorization and the scope of the Church
 
 Research for #357, targeting `STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD`.
-No premise is added, removed or discharged. No new claim or proof is registered
-merely to report this investigation. The exact universal bridge, its existing
-Challenge and the root's `Founded` semantics are unchanged.
+The first section below (2026-10-27) records the derivation that replaced the
+bare bridge by four typed premises. The later sections are the earlier source
+scan (PR #421), kept as the record of verified witnesses and rejected
+shortcuts. The exact universal bridge, its Challenge types on the root routes
+and the root's `Founded` semantics are unchanged.
+
+## The case, its rivals and the decisive fork (derivation, 2026-10-27)
+
+**End-to-end case.** Given a God with the classical attributes who can reveal
+recognizably, Jesus' claim to divine authority, his resurrection, and a
+visible authoritative society `c` Jesus founded:
+
+1. *Attestation* (`STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE`): by the
+   resurrection God confirms that Jesus holds a mandate from him. Read from
+   Acts 17.31, with added content noted in the claim (claim `NT-ACTS-17-31-RESURRECTION-AS-ASSURANCE`: God "gave
+   assurance to all" of the man he appointed "by raising him").
+2. *Veracity* (`STMT-GOD-CONFIRMS-ONLY-TRUTH`): what God confirms by a sign is
+   true, so Jesus holds the mandate. Supported by *Dei Filius* ch. 3 para. 1.
+3. *Scope* (`STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING`): Jesus founded
+   `c` in the exercise of that mandate and commissioned it to teach. Supported
+   by Matthew 28.18–20 ("all authority has been given to me; go therefore ...
+   teaching them").
+4. *Envoy founding* (`STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`): what Jesus
+   founds in a God's mandate with a teaching commission, that God founded as
+   a teaching authority. It is restricted to Jesus, so other envoys' societies
+   are not added to God's founding. Supported by John 13.20 (who receives the one I send
+   receives me and the one who sent me).
+
+Result `CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE`
+(`bridge_from_attested_mandate`) proves the bridge from these four over the
+typed vocabulary `TruthCore.Case.Catholicism.StageThree.DivineFounding.Agency`
+(`DEF-FOUNDED-BY-GOD-THROUGH-ENVOY`). `omissionModels` shows each premise is
+needed; `jointModel` shows the four premises and every stage antecedent are
+jointly satisfiable. These are schema models, not possible worlds of history.
+
+This is a decomposition, not a derivation of the bridge's universal reach over
+societies: that is carried by premise 3. `HoldsMandate` has no object; unlike
+the old `AuthorityVindicated` field, the vocabulary is constrained by the four
+premises, and premise 3 is what gives the mandate its founding content.
+
+**Rivals, each located at the premise it denies.**
+
+| Rival | Denies | Status |
+| --- | --- | --- |
+| Jesus preached the kingdom; a church came later (no founding by Christ) | stage 5 `STMT-CHRIST-FOUNDED-VISIBLE-CHURCH`, not the bridge (the bridge is conditional on `Founded`) | belongs to #383 |
+| The resurrection, if it occurred, vindicates the person or is an anomaly, not God's confirmation of Jesus' claim | 1 | open; Acts 17.31 is a source commitment, not a defence |
+| God may confirm by signs what is false (or signs are not testimony) | 2 | rejected by classical theism; open as a premise |
+| God ratified the message, not an institution: the mandate does not cover founding a society with teaching authority | 3 | **decisive fork**; open |
+| The eleven were commissioned, but the society in the antecedent is not that commissioned body (founding by disciples, local churches) | 3 (universal scope) | open; Lumen gentium §23 particular/universal distinction applies |
+| An authorized envoy's act is his own; only immediate divine institution is God's founding | 4 | `DISAMB-FOUNDED-BY-GOD`: a modelling choice (*per Filium* fits both senses; the Signature does not identify Jesus with God); the immediate-only sense makes 4 false |
+
+**Decisive fork.** Premise 3. Premises 1 and 2 concern only Jesus'
+mandate, and premise 4 only what follows once a founding is done in a
+mandate; none of them separates an institutional from a purely
+message-centred reading of Jesus' mission; the dividing question is
+whether the attested mandate covers founding a visible society with a
+teaching commission, and whether every society in the bridge's antecedent is
+the commissioned one. Matthew 28.18–20 grounds the commission in the given
+authority, but its universal reach over societies is not in the source.
+
+**Premise effect.** The bare bridge leaves the frontier (reaching-root: 10
+bare → 9 bare; 44 → 48 sourced-undefended). Route costs rise by 3 (cheapest
+28 → 31): one bare premise is replaced by four smaller sourced ones. Nothing
+is discharged.
 
 ## Verified witnesses and findings
 
@@ -47,7 +108,7 @@ particular/universal distinction is not that numerical equality. The source
 must not be made to assert equality merely because the same word *Church*
 is used. A future rule may instead preserve the intended universal-body
 scope, but that restriction and its source justification must be explicit.
-This note makes no change to either predicate or statement.
+(PR #421:) This section made no change to either predicate or statement; the 2026-10-27 section and `DISAMB-FOUNDED-BY-GOD` now fix the envoy reading of `FoundedAsTeachingAuthority`.
 
 ## Rejected shortcuts and the next obligation
 
@@ -80,7 +141,7 @@ not that attestation.
 `TruthCore.Results.Case.Catholicism.FoundingIndependence.independent` already
 verifies non-entailment from the declared local pilot inputs. No new finite
 model is supplied here to repeat it, and that theorem is not a refutation of
-Christian history or of the full root theory. The present advance is verified
+Christian history or of the full root theory. (PR #421:) The advance of that batch was verified
 source context and a more precise constraint on a proposed inference; there
 is no newly advertised mechanically verified consequence or frontier closure.
 

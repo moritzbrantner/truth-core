@@ -25,6 +25,19 @@
       ]
     },
     {
+      "id": "NT-JOHN-13",
+      "locator": "13",
+      "claim_locator_prefixes": [
+        "13."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "13"
+        }
+      ]
+    },
+    {
       "id": "NT-JOHN-20",
       "locator": "20",
       "claim_locator_prefixes": [

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+  "paraphrase": "Whatever a God with the classical attributes confirms by a sign is true: for every such God and every proposition p, if that God confirms p, then p. This applies divine veracity (God neither deceives nor is deceived) to confirmation by signs; veracity is not among the encoded classical attributes. It applies, and is distinct from, STMT-GOD-REVEALING-CAN-NEITHER-DECEIVE-NOR-BE-DECEIVED. 'By a sign' is the intended reading of the uninterpreted Confirms, not encoded.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.GodConfirmsOnlyTruth",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ]
+}

@@ -61,7 +61,7 @@ test("recorded topology alone never advertises an independently checked connecti
 });
 
 test("only explicit candidate statement links are presented as a next recorded gap", () => {
-  const bridge = progress.obligations.find(({ item }) => item.statement_id === "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD");
+  const bridge = progress.obligations.find(({ item }) => item.statement_id === "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING");
   expect(bridge?.candidates.some((candidate) => candidate.recordIds.includes("CHRISTS-CHURCH-DIVINE-FOUNDING-BRIDGE"))).toBe(true);
   for (const { item, candidates } of progress.obligations) {
     expect(candidates.every((candidate) => candidate.kind === "exploration" && candidate.statementIds.includes(item.statement_id))).toBe(true);
