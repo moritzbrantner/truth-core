@@ -2,6 +2,7 @@
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
+import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 import TruthCore.Results.Logic.MaximumOrderSchema.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
 import TruthCore.Results.Logic.RegressSchema.Solution

@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-KNOWLEDGE-RETORSION-515",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-NO-FACTIVE-KNOWER-OF-UNIVERSAL-NO-KNOWLEDGE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "One source-free conditional retorsion instance (#515). Factivity (knowing p entails p) excludes knowledge of UniversalNoKnowledge Knows, because the universal denial refutes its alleged knowledge token. The theorem quantifies over the factivity antecedent instead of treating it as an established philosophical premise. Two omission controls are certified in the same Comparator config: (1) Unit agent with Knows everywhere false and Asserts everywhere true satisfies factivity, universal ignorance and assertion of the denial; (2) Knows a p := ¬p admits an apparent knower of the denial but violates factivity (witness p=False). The inconsistent core {factivity, known universal ignorance} is inclusion-minimal in this profile. No source attribution, refutes relation, or self-evident marking is added. Root-path premise delta: zero.",
+  "evidence": [
+    "LOGIC-KNOWLEDGE-RETORSION",
+    "LOGIC-SELF-APPLICATION-DILEMMA"
+  ],
+  "blocker": "Applying this formal profile to real epistemic agents requires independently justified factivity/knowledge interpretation and an actual witness. Bare assertion does not entail knowledge; nonassertive scepticism remains a live rival."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "LOGIC-KNOWLEDGE-RETORSION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NO-FACTIVE-KNOWER-OF-UNIVERSAL-NO-KNOWLEDGE",
+  "inference_ids": [
+    "INF-LOGIC-KNOWLEDGE-RETORSION"
+  ],
+  "meaning": "A constructive conditional self-application result for factive knowledge. The universal denial of knowledge cannot itself be known in that profile. Two omission controls show that assertion need not be knowledge and that factivity is essential; universal ignorance alone remains satisfiable.",
+  "definition_ids": [
+    "DEF-FACTIVE-KNOWLEDGE",
+    "DEF-UNIVERSAL-NO-KNOWLEDGE",
+    "DEF-KNOWLEDGE-ASSERTION-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KNOWLEDGE-ASSERTION"
+  ]
+}
