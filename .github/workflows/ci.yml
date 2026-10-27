@@ -246,19 +246,31 @@ jobs:
       # The full check adds only imported declarations that no TruthCore declaration uses. Those
       # are fixed by the toolchain, Mathlib and NanoDa pins and by the set of modules TruthCore
       # imports from outside, so a marker keyed by exactly these records that it passed once.
+      # A PR runs it only when it changes a pin file of the marker key. A PR that only adds an
+      # external import leaves the newly imported declarations that TruthCore does not use to the
+      # next main or nightly run; the ones it uses are already in the scoped check above.
       - name: Key the full-library NanoDa check
         if: needs.comparator-plan.outputs.library_changed == 'true'
         id: full-key
-        run: echo "imports=$(python3 scripts/affected_results.py external-imports | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          echo "imports=$(python3 scripts/affected_results.py external-imports | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+          run=true
+          if [[ "$EVENT" == pull_request ]] && git diff --quiet HEAD^1 HEAD -- \
+            lean-toolchain lakefile.toml lake-manifest.json scripts/verifier-pins.env scripts/verify-library.sh; then
+            run=false
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
       - name: Restore the full-library NanoDa marker
-        if: needs.comparator-plan.outputs.library_changed == 'true'
+        if: needs.comparator-plan.outputs.library_changed == 'true' && steps.full-key.outputs.run == 'true'
         id: full-marker
         uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: ~/.cache/truth-core-nanoda-full
           key: nanoda-full-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'lakefile.toml', 'lake-manifest.json', 'scripts/verifier-pins.env', 'scripts/verify-library.sh') }}-${{ steps.full-key.outputs.imports }}
       - name: Verify everything TruthCore imports with NanoDa (once per pin)
-        if: needs.comparator-plan.outputs.library_changed == 'true' && steps.full-marker.outputs.cache-hit != 'true'
+        if: needs.comparator-plan.outputs.library_changed == 'true' && steps.full-key.outputs.run == 'true' && steps.full-marker.outputs.cache-hit != 'true'
         run: |
           scripts/verify-library.sh --full
           mkdir -p ~/.cache/truth-core-nanoda-full
