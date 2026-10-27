@@ -1,0 +1,9 @@
+{
+  "id": "DEF-HUME-CAUSE-EFFECT-RELATION",
+  "term": "the relation of cause and effect (Hume, Treatise I.3.6)",
+  "definition": "`cause a b`: a is a cause of b, in the relation of cause and effect that Treatise I.3.6 §7 calls the only relation of objects founding an inference beyond present impressions, whose idea is derived from experience of constant conjunction. Lean: the uninterpreted relation parameter of NoMutualCauseReading. No regularity analysis (VII.29, DISAMB-REGULARITY-CAUSAL-SENSES) is built into it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "HUME-TREATISE-I-3-6-NO-MUTUAL-CAUSE-A"
+  ]
+}

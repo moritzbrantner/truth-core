@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.PhysicalCompleteness.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.PhysicalCompleteness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.PhysicalCompleteness.everyPhysicalMotionHasAMoverFromCompleteness",
+    "TruthCore.Results.Comparison.PhysicalCompleteness.premisesNeeded"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

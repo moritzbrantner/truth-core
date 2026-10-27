@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.HumeCauseAsymmetry.noMutualCauseOfNoCausalLoops",
+    "TruthCore.Results.Comparison.HumeCauseAsymmetry.notConverse"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
