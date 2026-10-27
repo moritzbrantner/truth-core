@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "An actual act may have a bearer without any bearer being a substance in the interpretation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
