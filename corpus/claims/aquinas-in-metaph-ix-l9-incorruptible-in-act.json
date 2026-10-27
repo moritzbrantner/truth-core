@@ -7,7 +7,8 @@
   "status": "formalized",
   "definition_ids": [
     "DEF-INCORRUPTIBLE-SIMPLY",
-    "DEF-ACT"
+    "DEF-ACT",
+    "DEF-RESPECT"
   ],
   "disambiguation_ids": [
     "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"

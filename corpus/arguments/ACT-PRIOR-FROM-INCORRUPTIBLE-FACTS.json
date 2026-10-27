@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS"
   ],
-  "meaning": "From no premises: Metaphysics IX.8, 1050b6-18, as Aquinas reads it (In Metaph. IX, lect. 9 n. 1-6), gives act's simple priority over potency in substance without any premise about motion, from five premises each needed: STMT-EVERY-POTENCY-IS-OF-CONTRADICTION, STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE and STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE (sourced), and two unattributed hypotheses stated inside the facts, that some being is incorruptible simply and that priority in substance is simple priority. With non-simultaneity this excludes a first being's potency in substance. It does not reach STMT-ACT-SIMPLY-PRIOR-TO-POTENCY or the root's use of it in ST I q.3 a.1: a model of every prima via premise, the mover-priority bridge, the motion route's priority over potencies being actualized and all five premises has a first mover moved by none, first being and incorruptible simply, with a dormant potency in place, which In Metaph. IX, lect. 9 n. 6 expressly allows (nihil prohibet ... esse in potentia secundum quid). Not recorded as an argument for STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Discharges nothing.",
+  "meaning": "Formal facts (no premises). The three sourced readings STMT-EVERY-POTENCY-IS-OF-CONTRADICTION, STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE and STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE (Met. IX.8, 1050b6-18; In Metaph. IX, lect. 9 n. 1-6), together with two unattributed hypotheses stated inside the facts (some being is incorruptible simply; priority in substance is simple priority), entail act's simple priority over potency in substance, without any premise about motion; each of the five is needed. With non-simultaneity this excludes a first being's potency in substance. It does not reach STMT-ACT-SIMPLY-PRIOR-TO-POTENCY or the root's use of it in ST I q.3 a.1: a model of every prima via premise, the mover-priority bridge, the motion route's priority over potencies being actualized and all five premises has a first mover moved by none, first being and incorruptible simply, in potency in a respect other than substance (a place, in the witness) in which it is not moved. The five readings do not exclude that: lect. 9 n. 6 allows potency secundum quid in simply incorruptible beings (its examples are moved bodies, not a first mover). Not recorded as an argument for STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Discharges nothing.",
   "definition_ids": [
     "DEF-ACT",
     "DEF-POTENCY",
@@ -15,7 +15,8 @@
     "DEF-INCORRUPTIBLE-SIMPLY",
     "DEF-MOTION-AS-REDUCTION",
     "DEF-FIRST-BEING",
-    "DEF-PURE-ACT"
+    "DEF-PURE-ACT",
+    "DEF-RESPECT"
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION",

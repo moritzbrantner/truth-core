@@ -7,7 +7,8 @@
   "status": "formalized",
   "definition_ids": [
     "DEF-POTENCY",
-    "DEF-CAN-FAIL-TO-BE"
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-RESPECT"
   ],
   "disambiguation_ids": [
     "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"

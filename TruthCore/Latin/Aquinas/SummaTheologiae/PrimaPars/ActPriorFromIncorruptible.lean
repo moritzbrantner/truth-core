@@ -12,9 +12,12 @@ The argument read here: every potency is of the contradictory, so whatever is
 in potency in a respect can fail to be so (`PotencyIsOfContradictionReading`);
 incorruptible beings are prior in substance to corruptible ones
 (`IncorruptiblePriorInSubstanceReading`) and are, as such, in act
-(`IncorruptibleIsInActReading`). Two further hypotheses are needed and no
-source read here states them: an incorruptible being exists, and priority in
-substance is simple priority (`PriorInSubstanceIsSimpleReading`). The facts
+(`IncorruptibleIsInActReading`). Two further hypotheses are needed and are
+not formalized as readings: an incorruptible being exists (the passages
+presuppose incorruptible heavens, 1050b22-28 and lect. 9 n. 10-13, where n. 13
+makes their perpetuity depend on divine will), and priority in substance is
+simple priority (`PriorInSubstanceIsSimpleReading`), which no source read here
+states. The facts
 below show what the argument yields with them: act's simple priority over
 potency *in substance* (`ActPriorInSubstanceReading`), and not over potency in
 a respect other than substance, which Aquinas expressly allows an
@@ -72,9 +75,11 @@ beings of *Met.* Θ.8 and *In Metaph.* IX, lect. 9.
    priority over potencies being actualized (the motion route's yield) and of
    all five premises of item 2, in which act's simple priority fails: a first
    mover moved by none is a first being, is incorruptible simply, and is in
-   potency in a respect other than substance in which it is not moved.
-   Aquinas allows exactly this (*nihil prohibet, id quod est incorruptibile
-   simpliciter, esse in potentia secundum quid*). -/
+   potency in a respect other than substance in which it is not moved. The
+   five readings do not exclude this: lect. 9 n. 6 allows potency in a respect
+   (*secundum quid*) in simply incorruptible beings, with moved bodies (sun,
+   moon) as its examples. It does not speak of a first mover; lect. 8 n. 11
+   calls the first mover *in actu tantum*, which no reading here formalizes. -/
 def ActPriorFromIncorruptibleFacts : Prop :=
   (∀ (Being Respect : Type) (InPotency CanFailToBe : Being → Respect → Prop),
       PotencyIsOfContradictionReading InPotency CanFailToBe →
