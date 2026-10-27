@@ -1,0 +1,16 @@
+{
+  "id": "STMT-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "paraphrase": "Every nonempty one-world local structure with a well-founded grounding relation, distinct existent grounding endpoints, and an independently specified noninitial-causing principle admits a two-world, universally accessible rigid-tag duplication that preserves the stated constraints in each world but has no de re necessarily existing concrete individual. The quantified claim establishes a general family of formal countermodels to those world-local conditions alone; it does not establish that any particular duplicated configuration is metaphysically possible or that no independent modal principle can entail a necessary being.",
+  "lean_declaration": "TruthCore.Causality.BruteFoundationDoubling.WorldLocalGroundingDoublingSchema",
+  "definition_ids": [
+    "DEF-WORLD-LOCAL-GROUNDING-DOUBLING",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
