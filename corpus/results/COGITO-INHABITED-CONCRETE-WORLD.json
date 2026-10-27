@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-WORLD",
+  "argument_id": "COGITO-INHABITED-CONCRETE-WORLD",
+  "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoConcrete.inhabitedOfThought",
+  "comparator_config": "results/COGITO-INHABITED-CONCRETE-WORLD/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (instantiation, AGENTS.md invariant 16): the proof instantiates the open bridges at the bearer that the reused Cogito subject theorem supplies, so the bridges STMT-COGITO-BEARER-IS-CONCRETE and STMT-COGITO-BEARER-EXISTS-AT-WORLD carry the load. All four premises remain open. Gives #487's population hypothesis shape (not on main, so no root path is reached through it). No substance, self, necessity or causal claim follows. Source-free. No root change."
+}

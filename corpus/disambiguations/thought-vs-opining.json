@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-THOUGHT-VS-OPINING",
+  "term": "thought episode versus opining",
+  "sense_definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-OPINING"
+  ],
+  "resolution": "A thought episode (DEF-THOUGHT-OCCURRENCE) is any token satisfying the primitive Occurs, as broad as Descartes's cogitatio (doubting, willing, imagining included). Opining (DEF-OPINING) is Aristotle's δόξα and φαντασία: judging or having it appear that p, the predicate STMT-OPINION-IS-A-MOTION is about. They are separate Lean predicates over different carriers (Occurs on episodes, Opines on beings and propositions). The passage from bearing a thought to opining is the explicit open bridge STMT-COGITO-BORNE-THOUGHT-IS-OPINING (DEF-BORNE-THOUGHT-AS-OPINING), never an identification; a non-opining bearer is a model of the remaining premises (COGITO-CONCRETE-OMISSION-CONTROLS)."
+}

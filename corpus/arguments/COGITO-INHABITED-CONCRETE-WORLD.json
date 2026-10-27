@@ -1,0 +1,23 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-WORLD",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "inference_ids": [
+    "INF-COGITO-INHABITED-CONCRETE-WORLD"
+  ],
+  "meaning": "Concrete fork (#536). Take the occurring episode and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE (thinkingSubjectOfThought), then instantiate the two open bridges at that bearer: it is concrete, and it exists at w₀. Conclusion: some concrete candidate exists at w₀, the shape of #487's population hypothesis. All four premises are open; no premise is discharged. The witness is a bearer only: nothing follows about substance, persistence, immateriality, necessity, causal efficacy, or the de re necessary concretum of #487, whose dependence and well-foundedness premises remain open. Each premise is needed (COGITO-CONCRETE-OMISSION-CONTROLS).",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
