@@ -1,0 +1,19 @@
+{
+  "id": "BRUTE-ROOT-DISJUNCTION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-BRUTE-ROOT-DISJUNCTION",
+  "inference_ids": [
+    "INF-BRUTE-ROOT-DISJUNCTION"
+  ],
+  "meaning": "Closed formal conditional partition: in the selected rigid-world semantics, no necessary concrete individual plus nonempty concrete reality requires a contingent brute concrete root or a failure of well-founded grounding. Neither disjunct is independently ruled out; existential brute and existential absurdism are distinct.",
+  "definition_ids": [
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
