@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

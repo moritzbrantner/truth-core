@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
+  "argument_id": "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.checks",
+  "comparator_config": "results/NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES/comparator.json",
+  "status": "solution-present",
+  "description": "Splits the lifting assumption into two disputable existential-support premises and selected-world reflexivity. World-to-actual necessary edge inclusion is strictly weaker than biconditional world invariance."
+}

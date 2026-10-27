@@ -1,0 +1,130 @@
+{
+  "id": "MODEL-NECESSARILY-UNDERIVED-VARYING",
+  "description": "No actual direct support edge; the alternate world adds one edge false→true. Global necessary-support union stays well founded, and a necessary underived bearer exists, even though one-way edge inclusion and full predecessor lifting fail.",
+  "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
+  "lean_declaration": "TruthCore.Models.NecessarilyUnderived.varying",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Bool",
+    "Ontic": "TruthCore.Models.NecessarilyUnderived.varying",
+    "Support": "TruthCore.Models.NecessarilyUnderived.varyingSupport",
+    "world": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingNecessary"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingActualWellFounded"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingReflexive"
+    },
+    {
+      "statement_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingNoContingentGround"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingUnionWellFounded"
+    },
+    {
+      "statement_id": "STMT-NO-NOVEL-NECESSARY-SUPPORT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingNoNovelSupport"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingNoLifting"
+    },
+    {
+      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.varyingUnderived"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessarilyUnderived"
+  ]
+}

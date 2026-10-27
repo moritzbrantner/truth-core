@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "argument_id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.checks",
+  "comparator_config": "results/NECESSARY-UNDERIVED-POSITIVE-LIFT/comparator.json",
+  "status": "solution-present",
+  "description": "A positive existential witness follows from the constructive nonrefutation under explicit excluded middle. None of the structural support premises is established about reality; the conclusion asserts neither uniqueness nor divine attributes."
+}

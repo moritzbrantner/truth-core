@@ -1,0 +1,118 @@
+{
+  "id": "MODEL-NECESSARILY-UNDERIVED-ROTATING",
+  "description": "Two worlds each have a well-founded direct-support DAG, but edge directions reverse between worlds. All bearers are necessary, no contingent ground occurs; their global union cycles and no rigid underived being exists.",
+  "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
+  "lean_declaration": "TruthCore.Models.NecessarilyUnderived.rotating",
+  "bindings": {
+    "World": "Bool",
+    "Being": "Bool",
+    "Ontic": "TruthCore.Models.NecessarilyUnderived.rotating",
+    "Support": "TruthCore.Models.NecessarilyUnderived.rotatingSupport",
+    "world": "false"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNecessary"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingActualWellFounded"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingReflexive"
+    },
+    {
+      "statement_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNoContingentGround"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNoLifting"
+    },
+    {
+      "statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingUnionNotWellFounded"
+    },
+    {
+      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "Support",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNoUnderived"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessarilyUnderived"
+  ]
+}

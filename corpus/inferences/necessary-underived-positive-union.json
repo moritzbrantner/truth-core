@@ -1,0 +1,15 @@
+{
+  "id": "INF-NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "rule": "well-founded-induction-and-classical-case-analysis",
+  "meaning": "Globally well-founded union of direct supports among necessary bearers excludes rotating-world roots, without assuming any invariance of support edges. Needs both no contingent direct supporter of a necessary being and actual reflexivity, and explicit excluded middle for the existential witness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

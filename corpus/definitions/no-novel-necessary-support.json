@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-NOVEL-NECESSARY-SUPPORT",
+  "term": "one-way actual-world inclusion of possible necessary-ground edges",
+  "definition": "If two individuals are necessary from w₀ and an existing one directly supports the other at any admitted world, that very support edge holds in w₀. This is only world-to-actual inclusion; it does not require an actual edge to persist in other worlds.",
+  "basis": "stipulative",
+  "note": "Weakened successor to the stronger bidirectional invariance candidate from #495. A finite model with no actual edge and one possible-world edge witnesses that global union well-foundedness is compatible with the failure of this inclusion principle.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NoNovelNecessarySupport"
+}

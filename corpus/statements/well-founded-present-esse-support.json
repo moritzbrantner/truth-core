@@ -1,0 +1,7 @@
+{
+  "id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.WellFoundedPresentEsseSupport",
+  "paraphrase": "The direct existential-support relation restricted to actual-world existing supporters is well-founded, excluding support cycles and endless descending predecessors in that selected world.",
+  "definition_ids": ["DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT", "DEF-PRESENT-ESSE-SUPPORT"],
+  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT"]
+}
