@@ -37,6 +37,7 @@ export function StatementStateMark({ state }: { state: StatementState }) {
       <Mark tone="open" title={state.item.depth === "bare" ? "No claim states it and no source supports it" : "Stated or supported by a source, not yet defended"}>
         Open · {state.item.depth === "bare" ? "bare" : "sourced"}
         {state.item.transcription_only ? " · transcribed only" : ""}
+        {state.item.floor_unmet ? ` · ${state.item.floor_unmet.basis} criterion fails` : ""}
       </Mark>
     );
   }

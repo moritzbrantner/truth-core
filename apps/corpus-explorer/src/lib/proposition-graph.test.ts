@@ -1,4 +1,4 @@
-import { fixtureGraph } from "./frontier-fixture";
+import { fixtureGraph, type GraphFixtureInput } from "./frontier-fixture";
 import { describe, expect, test } from "bun:test";
 import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
@@ -7,6 +7,8 @@ import { fileURLToPath } from "node:url";
 import { type PropositionGraphInput } from "./proposition-graph";
 import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
+import { getDossiers } from "./premise-dossier";
+import { getFrontierReport, statementState, type FrontierReport } from "./site-state";
 
 describe("proposition graph status", () => {
   const graph = fixtureGraph(fixture);
@@ -71,9 +73,26 @@ describe("proposition graph status", () => {
     expect(graph.relations.find((relation) => relation.id === "REL4")?.note).toBe("Source evidence, not a proof step.");
   });
 
-  test("falls back to the verified conclusion resting on the most statements", () => {
-    expect(graph.rootPresent).toBe(false);
+  test("takes the default target and root presence from the report", () => {
+    expect(graph.rootPresent).toBe(true);
     expect(graph.defaultTarget).toBe("ROOT");
+  });
+
+  test("labels a floor marking self-evident only while its basis criterion holds", () => {
+    expect(byId.get("SE")?.floor).toMatchObject({ basis: "legacy", met: true });
+    const unmet = fixtureGraph({
+      ...fixture,
+      statements: fixture.statements.map((entry) =>
+        entry.id === "SE"
+          ? { ...entry, self_evident: { justification_ids: ["CL-LONE"], basis: "observation", disagreement: "none recorded" } }
+          : entry,
+      ),
+    });
+    const se = unmet.statements.find((entry) => entry.id === "SE");
+    expect(se?.status).toBe("open");
+    expect(se?.frontier).toBe(true);
+    expect(se?.closureReason).toBeUndefined();
+    expect(se?.floor).toMatchObject({ basis: "observation", met: false, reasons: ["no justification claim states it"] });
   });
 });
 
@@ -84,13 +103,13 @@ describe("rule (d): transcription from closed premises", () => {
       fileURLToPath(new URL("../../../../scripts/testdata/frontier-transcription-closure.json", import.meta.url)),
       "utf8",
     ),
-  ) as Omit<PropositionGraphInput, "sources" | "inferences" | "transcriptionResultIds"> & {
+  ) as Omit<PropositionGraphInput, "sources" | "inferences"> & {
     transcription_result_ids: string[];
     expected_frontier: string[];
     expected_depth: Record<string, string>;
     expected_closed_via_transcription: Record<string, string>;
   };
-  const input: PropositionGraphInput = {
+  const input: GraphFixtureInput = {
     statements: shared.statements,
     arguments: shared.arguments,
     results: shared.results,
@@ -154,24 +173,55 @@ describe("corpus proposition graph", () => {
     expect(byId.get("STMT-TIME-IS-NOT-MOTION")?.frontier).toBe(true);
   });
 
-  test("has the same frontier and closures as corpus.py frontier", () => {
+  // The single guard of #507: what the explorer displays for closure and floor
+  // status (graph, statement pages, dossiers) equals an independent run of
+  // `corpus.py frontier --json` on the real corpus, statement by statement.
+  test("displays the closure and floor status of corpus.py frontier --json", () => {
     const repositoryRoot = fileURLToPath(new URL("../../../../", import.meta.url));
     const report = JSON.parse(
-      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], { cwd: repositoryRoot, encoding: "utf8" }),
-    ) as {
-      items: Array<{ statement_id: string; depth: string }>;
-      closed_via_transcription: Array<{ statement_id: string; result_id: string }>;
+      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
+        cwd: repositoryRoot,
+        encoding: "utf8",
+        maxBuffer: 64 * 1024 * 1024,
+      }),
+    ) as FrontierReport;
+    const items = new Map(report.items.map((item) => [item.statement_id, item]));
+    const transcribed = new Map(report.closed_via_transcription.map((entry) => [entry.statement_id, entry.result_id]));
+    const floor = new Map(report.floor.map((entry) => [entry.statement_id, entry]));
+    const established = new Set(report.established_statements);
+    const expected = (id: string) => ({
+      status: report.statement_statuses[id],
+      closure: report.closed_statements[id] ?? null,
+      established: established.has(id),
+      depth: items.get(id)?.depth ?? null,
+      transcribedBy: transcribed.get(id) ?? null,
+      floor: floor.get(id) ?? null,
+    });
+    const shown = getFrontierReport();
+    const dossiers = getDossiers();
+    const displayed = (statement: (typeof graph.statements)[number]) => {
+      const state = statementState(shown, statement.id);
+      const dossier = dossiers[statement.id];
+      // Every view must agree before it counts as displayed.
+      expect([state.kind === "closed" ? state.reason : null, dossier?.closure ?? null, dossier?.established ?? false]).toEqual([
+        statement.closureReason ?? null,
+        statement.closureReason ?? null,
+        statement.established,
+      ]);
+      expect(state.kind === "open" ? state.item.depth : null).toBe(statement.frontierDepth ?? null);
+      return {
+        status: statement.status,
+        closure: statement.closureReason ?? null,
+        established: statement.established,
+        depth: statement.frontier ? (statement.frontierDepth ?? null) : null,
+        transcribedBy: statement.closedViaTranscription?.resultId ?? null,
+        floor: statement.floor ?? null,
+      };
     };
-    const frontier = graph.statements.filter((entry) => entry.frontier).map((entry) => entry.id).sort();
-    expect(frontier).toEqual(report.items.map((item) => item.statement_id).sort());
-    const depths = Object.fromEntries(
-      graph.statements.filter((entry) => entry.frontier).map((entry) => [entry.id, entry.frontierDepth]),
-    );
-    expect(depths).toEqual(Object.fromEntries(report.items.map((item) => [item.statement_id, item.depth])));
-    const closures = graph.statements
-      .flatMap((entry) => (entry.closedViaTranscription ? [`${entry.id}:${entry.closedViaTranscription.resultId}`] : []))
-      .sort();
-    expect(closures).toEqual(report.closed_via_transcription.map((item) => `${item.statement_id}:${item.result_id}`).sort());
+    expect(graph.statements.map((statement) => statement.id).sort()).toEqual(Object.keys(report.statement_statuses).sort());
+    for (const statement of graph.statements) {
+      expect({ id: statement.id, ...displayed(statement) }).toEqual({ id: statement.id, ...expected(statement.id) });
+    }
   });
 
   test("uses STMT-CATHOLICISM-TRUE as the default target once it exists", () => {

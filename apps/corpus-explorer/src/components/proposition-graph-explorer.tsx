@@ -45,7 +45,6 @@ import {
 } from "@/lib/graph-view";
 import {
   GRAPH_STATUSES,
-  STAGE_CONCLUSIONS,
   type GraphStatement,
   type GraphStatus,
   type PropositionGraph,
@@ -55,6 +54,7 @@ import { ProofExplorationControls } from "./proof-exploration-controls";
 import { ProofExplorationPanel } from "./proof-exploration-panel";
 import { useProofExploration } from "./use-proof-exploration";
 import { lemmaResearchObligation } from "@/lib/proof-exploration";
+import { describeDisagreement } from "@/lib/floor";
 import { proofOverlay, type ProofOverlay } from "@/lib/proof-overlay";
 import proofStyles from "./proof-overlay.module.css";
 
@@ -426,7 +426,7 @@ export function PropositionGraphExplorer({
   };
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
-  const stageTargets = STAGE_CONCLUSIONS.filter(({ statementId }) => index.statementById.has(statementId));
+  const stageTargets = graph.stageConclusions.filter(({ statementId }) => index.statementById.has(statementId));
 
   return (
     <section aria-labelledby="graph-heading" className={proofStyles.overlay}>
@@ -1224,10 +1224,16 @@ function DetailPanel({
             </dd>
           </div>
         ) : null}
-        {current.selfEvidentJustification.length ? (
-          <div>
-            <dt className="eyebrow">Self-evidence justified by</dt>
-            <dd className="mt-1 font-mono text-xs break-all">{current.selfEvidentJustification.join(", ")}</dd>
+        {current.floor ? (
+          <div data-floor-basis={current.floor.basis} data-floor-met={current.floor.met}>
+            <dt className="eyebrow">Floor marking · {current.floor.basis}</dt>
+            <dd className="mt-1">
+              {current.floor.met
+                ? "Criterion holds on the current records; the marking closes it."
+                : `Criterion fails, so the marking closes nothing: ${current.floor.reasons.join("; ")}.`}
+            </dd>
+            <dd className="mt-1 text-xs text-[var(--muted)]">Disagreement: {describeDisagreement(current.floor.disagreement)}</dd>
+            <dd className="mt-1 font-mono text-xs break-all">Justified by {current.floor.justification_ids.join(", ")}</dd>
           </div>
         ) : null}
         {current.closedViaTranscription ? (

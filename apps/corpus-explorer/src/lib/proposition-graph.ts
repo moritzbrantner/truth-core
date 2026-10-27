@@ -1,4 +1,4 @@
-import type { FrontierReport, ClosureReason } from "./site-state";
+import type { ClosureReason, FloorEntry, FrontierReport, StatementStatus } from "./site-state";
 
 /**
  * Derived proposition graph for the /graph page (#161).
@@ -9,35 +9,14 @@ import type { FrontierReport, ClosureReason } from "./site-state";
  * premises → inference → conclusion (invariant 10). Relations stay a distinct,
  * non-inferential edge kind.
  *
- * Status is projected from the authoritative build-time Python frontier report.
+ * Every status, closure, stage, dependent count and default target is read
+ * from the build-time `corpus.py frontier --json` report (#507); this module
+ * only joins it with the records for display and never recomputes it.
  */
 
 export const DEFAULT_ROOT_STATEMENT_ID = "STMT-CATHOLICISM-TRUE";
 
-/**
- * Stage conclusions of the root skeleton (#156, #159: CATHOLICISM-SKELETON).
- * A statement carries `stage:N` when stage N's conclusion rests on it. Entries
- * whose statement does not exist yet are ignored.
- */
-export const STAGE_CONCLUSIONS: ReadonlyArray<{ stage: number; statementId: string }> = [
-  { stage: 1, statementId: "STMT-GOD-EXISTS" },
-  { stage: 2, statementId: "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES" },
-  { stage: 3, statementId: "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE" },
-  { stage: 4, statementId: "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE" },
-  { stage: 5, statementId: "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH" },
-  { stage: 6, statementId: "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH" },
-];
-
-export type GraphStatus =
-  | "proved"
-  | "transcription"
-  | "self-evident"
-  | "defended"
-  | "alternative"
-  | "objection"
-  | "open"
-  | "derived"
-  | "source-only";
+export type GraphStatus = StatementStatus;
 
 export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; description: string }> = [
   {
@@ -51,7 +30,12 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
     description:
       "Conclusion only of transcription results (invariant 16): declared in the result record, or a proof that applies one premise or only assembles premises; verified, but not progress by itself. It is closed (off the frontier) only when every premise of such a result is closed.",
   },
-  { id: "self-evident", label: "Self-evident", description: "Marked self_evident with a sourced justification." },
+  {
+    id: "self-evident",
+    label: "Self-evident",
+    description:
+      "Marked self_evident, and its floor basis criterion holds on the current records (#500). A marking whose criterion fails closes nothing and takes the next status.",
+  },
   {
     id: "defended",
     label: "Alternatives refuted",
@@ -134,8 +118,6 @@ export type PropositionGraphInput = {
   arguments: CorpusArgumentInput[];
   results: CorpusResultInput[];
   relations: CorpusRelationInput[];
-  /** Transcription result IDs: `transcription_results` of `corpus.py frontier --json`. */
-  transcriptionResultIds: string[];
 };
 
 export type GraphClaim = {
@@ -178,6 +160,8 @@ export type GraphStatement = {
   /** Refuted by a counted `refutes`: a verified argument whose premises are all closed. */
   refuted: boolean;
   selfEvidentJustification: string[];
+  /** Its self_evident marking with basis, criterion and disagreement (`floor` of `corpus.py frontier`). */
+  floor?: FloorEntry;
   tags: string[];
   claims: GraphClaim[];
   sourceIds: string[];
@@ -232,9 +216,11 @@ export type PropositionGraph = {
   arguments: GraphArgument[];
   relations: GraphRelation[];
   sources: CorpusSourceInput[];
-  /** `STMT-CATHOLICISM-TRUE` when present, otherwise the verified conclusion resting on the most statements. */
+  /** `default_target` of `corpus.py frontier`: the root when present, otherwise the verified conclusion resting on the most statements. */
   defaultTarget: string | null;
   rootPresent: boolean;
+  /** Stage conclusions of the root skeleton present in the corpus (`stages` of `corpus.py frontier`). */
+  stageConclusions: Array<{ stage: number; statementId: string }>;
 };
 
 /** Research links influence navigation and layout, never premise closure. */
@@ -276,35 +262,15 @@ function readingLabel(claim: CorpusClaimInput, interpretationTargets: Set<string
   return claim.interpretation_of ? "alternative" : "base";
 }
 
-/** Statements a statement rests on, through the inferences that output it (inclusive). */
-export function restsOn(start: string, producers: Map<string, Array<{ inputs: string[] }>>): Set<string> {
-  const seen = new Set([start]);
-  const queue = [start];
-  while (queue.length) {
-    const current = queue.shift() as string;
-    for (const inference of producers.get(current) ?? []) {
-      for (const input of inference.inputs) {
-        if (!seen.has(input)) {
-          seen.add(input);
-          queue.push(input);
-        }
-      }
-    }
-  }
-  return seen;
-}
-
 export function buildPropositionGraph(input: PropositionGraphInput, report: FrontierReport): PropositionGraph {
   const statementIds = new Set(input.statements.map((statement) => statement.id));
   const sourceById = new Map(input.sources.map((source) => [source.id, source]));
-  const argumentById = new Map(input.arguments.map((argument) => [argument.id, argument]));
-  const transcription = new Set(input.transcriptionResultIds);
+  const transcription = new Set(Object.keys(report.transcription_results));
 
   const resultsByArgument = new Map<string, string[]>();
   for (const result of input.results) {
     push(resultsByArgument, result.argument_id, result.id);
   }
-  const verifiedArguments = new Set(resultsByArgument.keys());
 
   const premiseOf = new Map<string, string[]>();
   const conclusionOf = new Map<string, string[]>();
@@ -321,28 +287,15 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
       push(argumentsByInference, inferenceId, argument.id);
     }
   }
-  const producers = new Map<string, Array<{ inputs: string[] }>>();
-  const usedInferenceOutputs = new Set<string>();
-  for (const inference of input.inferences) {
-    push(producers, inference.output_statement_id, {
-      inputs: [...inference.input_statement_ids, ...(inference.assumption_statement_ids ?? [])],
-    });
-    if (argumentsByInference.has(inference.id)) {
-      usedInferenceOutputs.add(inference.output_statement_id);
-    }
-  }
-
   // Premise-program relations (#156); all optional.
-  const alternatives = new Map<string, string[]>();
   const alternativeSubjects = new Set<string>();
   const objectionSubjects = new Set<string>();
-  const refuted = new Set<string>();
   const relations: GraphRelation[] = [];
   const claimStatementById = new Map(input.claims.map((claim) => [claim.id, claim.statement_id]));
   const argumentConclusionById = new Map(input.arguments.map((argument) => [argument.id, argument.conclusion_statement_id]));
   for (const relation of input.relations) {
+    // Role tags only; statuses and refutations come from the report.
     if (relation.predicate === "alternative_to") {
-      push(alternatives, relation.object_id, relation.subject_id);
       alternativeSubjects.add(relation.subject_id);
     } else if (relation.predicate === "attacks" && relation.subject_kind === "statement") {
       objectionSubjects.add(relation.subject_id);
@@ -379,9 +332,8 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
 
   // A refutation counts only when its argument is verified and its premises
   // are all closed (#391); the Python report decides which do.
-  for (const statementId of report.refuted_statements) {
-    refuted.add(statementId);
-  }
+  const refuted = new Set(report.refuted_statements);
+  const floorById = new Map(report.floor.map((entry) => [entry.statement_id, entry]));
   const frontierById = new Map(report.items.map((item) => [item.statement_id, item]));
   const established = new Set(report.established_statements);
   const reachingRoot = new Set(report.reaching_root_statements ?? []);
@@ -395,35 +347,6 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
       },
     ]),
   );
-
-  // Transitive argument dependents, as in corpus.py frontier's upward walk.
-  function transitiveDependents(statementId: string) {
-    const seenArguments = new Set<string>();
-    const seenStatements = new Set([statementId]);
-    const queue = [statementId];
-    while (queue.length) {
-      const current = queue.shift() as string;
-      for (const argumentId of premiseOf.get(current) ?? []) {
-        seenArguments.add(argumentId);
-        const conclusion = argumentById.get(argumentId)?.conclusion_statement_id;
-        if (conclusion && !seenStatements.has(conclusion)) {
-          seenStatements.add(conclusion);
-          queue.push(conclusion);
-        }
-      }
-    }
-    return seenArguments.size;
-  }
-
-  const stagesByStatement = new Map<string, number[]>();
-  for (const { stage, statementId } of STAGE_CONCLUSIONS) {
-    if (!statementIds.has(statementId)) {
-      continue;
-    }
-    for (const id of restsOn(statementId, producers)) {
-      push(stagesByStatement, id, stage);
-    }
-  }
 
   const interpretationTargets = new Set(
     input.claims.flatMap((claim) => (claim.interpretation_of ? [claim.interpretation_of] : [])),
@@ -444,38 +367,16 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
   const statements = input.statements.map((statement): GraphStatement => {
     const id = statement.id;
     const verifying = (conclusionOf.get(id) ?? []).flatMap((argumentId) => resultsByArgument.get(argumentId) ?? []);
-    const recordedAlternatives = alternatives.get(id) ?? [];
-    const defended = recordedAlternatives.length > 0 && recordedAlternatives.every((alt) => refuted.has(alt));
-    const selfEvident = statement.self_evident !== undefined && statement.self_evident !== null;
-    // Invariant 16: a transcription closes no frontier node by itself; a premise
-    // proved only by transcription-flagged results stays on the frontier unless
-    // rule (d) closes it (same rules as `corpus.py frontier`). Its status stays
-    // "transcription" so the flag shows.
     const frontier = frontierById.has(id);
-
-    let status: GraphStatus;
-    if (verifying.length) {
-      status = verifying.every((resultId) => transcription.has(resultId)) ? "transcription" : "proved";
-    } else if (selfEvident) {
-      status = "self-evident";
-    } else if (defended) {
-      status = "defended";
-    } else if (alternativeSubjects.has(id)) {
-      status = "alternative";
-    } else if (objectionSubjects.has(id)) {
-      status = "objection";
-    } else if (frontier) {
-      status = "open";
-    } else if (usedInferenceOutputs.has(id)) {
-      status = "derived";
-    } else {
-      status = "source-only";
+    const status = report.statement_statuses[id];
+    if (!status) {
+      throw new Error(`corpus.py frontier reports no status for ${id}`);
     }
 
     const claims = claimsByStatement.get(id) ?? [];
     const sourceIds = [...new Set(claims.map((claim) => claim.sourceId))].sort();
     const namespace = leanNamespace(statement.lean_declaration);
-    const stages = [...new Set(stagesByStatement.get(id) ?? [])].sort((a, b) => a - b);
+    const stages = report.statement_stages[id] ?? [];
 
     const frontierDepth = frontierById.get(id)?.depth;
 
@@ -513,15 +414,14 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
       closedViaTranscription: closedViaTranscription.get(id),
       refuted: refuted.has(id),
       selfEvidentJustification: statement.self_evident?.justification_ids ?? [],
+      floor: floorById.get(id),
       tags: [...tags].sort(),
       claims,
       sourceIds,
       premiseOf: premiseOf.get(id) ?? [],
       conclusionOf: conclusionOf.get(id) ?? [],
       verifyingResultIds: verifying,
-      transitiveDependentArguments:
-        frontierById.get(id)?.transitive_dependent_arguments.length ??
-        (premiseOf.has(id) ? transitiveDependents(id) : 0),
+      transitiveDependentArguments: report.premise_dependents[id]?.arguments.length ?? 0,
       stages,
       clusters: {
         passage: firstClaim ? (firstClaim.passageId ?? firstClaim.sourceId) : `derived · ${namespaceCluster}`,
@@ -555,29 +455,14 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
     };
   });
 
-  const rootPresent = statementIds.has(DEFAULT_ROOT_STATEMENT_ID);
-  let defaultTarget: string | null = rootPresent ? DEFAULT_ROOT_STATEMENT_ID : null;
-  if (!defaultTarget) {
-    let best = 0;
-    const conclusions = [
-      ...new Set(input.arguments.filter((a) => verifiedArguments.has(a.id)).map((a) => a.conclusion_statement_id)),
-    ].sort();
-    for (const conclusion of conclusions) {
-      const size = restsOn(conclusion, producers).size;
-      if (size > best) {
-        best = size;
-        defaultTarget = conclusion;
-      }
-    }
-  }
-
   return {
     statements,
     inferences,
     arguments: graphArguments,
     relations,
     sources: input.sources.map((source) => ({ id: source.id, author: source.author, work: source.work })),
-    defaultTarget,
-    rootPresent,
+    defaultTarget: report.default_target,
+    rootPresent: report.root_known,
+    stageConclusions: report.stages.map((entry) => ({ stage: entry.stage, statementId: entry.statement_id })),
   };
 }

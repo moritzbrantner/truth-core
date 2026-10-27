@@ -731,6 +731,60 @@ class FloorBasisTest(unittest.TestCase):
         self.assertEqual(report["routes"]["floor_bases"], [{"statement_id": "P", "basis": "legacy"}])
 
 
+class StatementViewTest(unittest.TestCase):
+    """#507: per-statement projections the explorer reads instead of recomputing."""
+
+    def test_statuses_follow_closure_and_floor_criteria(self) -> None:
+        statuses = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT")["statement_statuses"]
+        self.assertEqual(
+            statuses,
+            {
+                "MID": "proved",
+                "OPEN-A": "open",
+                "OPEN-B": "open",
+                "ROOT": "proved",
+                "SELF": "self-evident",
+                "SIDE": "open",
+                "SIDE-CONCLUSION": "source-only",
+            },
+        )
+        # A marking whose basis criterion fails is not labelled self-evident.
+        unmet = {"basis": "observation", "justification_ids": ["C"], "disagreement": "none recorded"}
+        statements = [statement("SELF", self_evident=unmet) if entry["id"] == "SELF" else entry for entry in STATEMENTS]
+        report = corpus.frontier_report(statements, ARGUMENTS, RESULTS, [], claims=[])
+        self.assertEqual(report["statement_statuses"]["SELF"], "open")
+        self.assertNotIn("SELF", report["closed_statements"])
+
+    def test_stages_default_target_and_route_aware_dependents(self) -> None:
+        god = "STMT-GOD-EXISTS"
+        statements = [statement("ROOT"), statement(god), statement("A"), statement("B")]
+        arguments = [
+            argument("ARG-GOD", ["A"], god),
+            argument("ARG-ROOT", [god], "ROOT"),
+            argument("ARG-ROOT-2", ["B"], "ROOT"),
+        ]
+        inferences = [
+            {"id": "INF-ARG-GOD", "input_statement_ids": ["A"], "output_statement_id": god},
+            {"id": "INF-ARG-ROOT", "input_statement_ids": [god], "output_statement_id": "ROOT"},
+        ]
+        results = [{"id": "R-GOD", "argument_id": "ARG-GOD"}]
+        routed = [relation("argument", "ARG-ROOT", "root_route", "ROOT")]
+        report = corpus.frontier_report(statements, arguments, results, routed, root="ROOT", inferences=inferences)
+        self.assertEqual(report["stages"], [{"stage": 1, "statement_id": god}])
+        self.assertEqual(report["statement_stages"], {"A": [1], god: [1]})
+        self.assertEqual(report["statement_statuses"][god], "proved")
+        self.assertEqual(report["default_target"], "ROOT")
+        # B's argument is counted, but the routed root is not entered through it.
+        self.assertEqual(report["premise_dependents"]["B"], {"arguments": ["ARG-ROOT-2"], "statements": []})
+        self.assertEqual(
+            report["premise_dependents"]["A"],
+            {"arguments": ["ARG-GOD", "ARG-ROOT"], "statements": [god, "ROOT"]},
+        )
+        # Without the root, the default target is the verified conclusion resting on the most statements.
+        report = corpus.frontier_report(statements, arguments, results, routed, root="MISSING", inferences=inferences)
+        self.assertEqual(report["default_target"], god)
+
+
 class TranscriptionHeuristicTest(unittest.TestCase):
     def test_consequent_after_unfolding_and_quantifiers(self) -> None:
         definitions = {"Bridge": (["a", "b", "c"], "a ∧ b → c"), "Goal": (["c"], "c")}

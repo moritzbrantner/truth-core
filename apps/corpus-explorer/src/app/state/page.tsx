@@ -2,8 +2,7 @@ import Link from "next/link";
 
 import { DepthMark, ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { findStatement, getCorpus } from "@/lib/corpus";
-import { STAGE_CONCLUSIONS } from "@/lib/proposition-graph";
-import { getPropositionGraph } from "@/lib/proposition-graph-data";
+import { describeDisagreement, FLOOR_BASIS_DESCRIPTIONS } from "@/lib/floor";
 import {
   CLOSURE_DESCRIPTIONS,
   CLOSURE_LABELS,
@@ -66,8 +65,6 @@ export default function StatePage() {
   const corpus = getCorpus();
   const report = getFrontierReport();
   const build = getBuildInfo();
-  const graph = getPropositionGraph(corpus);
-  const graphById = new Map(graph.statements.map((statement) => [statement.id, statement]));
   const root = findStatement(corpus, DEFAULT_ROOT_STATEMENT_ID);
   const rootState = statementState(report, DEFAULT_ROOT_STATEMENT_ID);
 
@@ -76,12 +73,13 @@ export default function StatePage() {
     bare: reaching.filter((item) => item.depth === "bare").length,
     sourced: reaching.filter((item) => item.depth === "sourced").length,
   };
-  const stagesOf = (statementId: string) => graphById.get(statementId)?.stages ?? [];
+  const stagesOf = (statementId: string) => report.statement_stages[statementId] ?? [];
 
-  const stages = STAGE_CONCLUSIONS.map(({ stage, statementId }) => {
-    const beneath = graph.statements.filter((statement) => statement.id === statementId || statement.stages.includes(stage));
-    const open = reaching.filter((item) => item.statement_id === statementId || stagesOf(item.statement_id).includes(stage));
-    const closed = beneath.filter((statement) => report.closed_statements[statement.id]);
+  const stages = report.stages.map(({ stage, statement_id: statementId }) => {
+    const open = reaching.filter((item) => stagesOf(item.statement_id).includes(stage));
+    const closed = Object.entries(report.statement_stages).filter(
+      ([id, memberOf]) => memberOf.includes(stage) && report.closed_statements[id],
+    );
     return {
       stage,
       statementId,
@@ -99,7 +97,8 @@ export default function StatePage() {
   const derivations = kinds.filter((kind) => kind.kind === "derivation").length;
   const transcriptions = kinds.length - derivations;
 
-  const onRootPath = new Set(graph.statements.filter((statement) => statement.stages.length).map((statement) => statement.id));
+  // The root's paths, for this page: everything a stage rests on, plus the open premises reaching the root.
+  const onRootPath = new Set(Object.keys(report.statement_stages));
   onRootPath.add(DEFAULT_ROOT_STATEMENT_ID);
   for (const item of reaching) onRootPath.add(item.statement_id);
   const closedByReason: Partial<Record<ClosureReason, number>> = {};
@@ -303,6 +302,41 @@ export default function StatePage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="record-section" id="floor">
+        <p className="eyebrow">The floor</p>
+        <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">Self-evident markings and their bases</h2>
+        <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]">
+          A self_evident marking closes its statement only while its basis criterion holds on the current records, as{" "}
+          <code className="font-mono">corpus.py frontier</code> recomputes it. Closure of the root is relative to the met
+          bases that reach it.
+        </p>
+        {report.floor.length ? (
+          <ul className="premise-list mt-6">
+            {report.floor.map((entry) => (
+              <li data-floor-basis={entry.basis} data-floor-met={entry.met} key={entry.statement_id}>
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="state-mark" data-tone={entry.met ? "self-evident" : "open"}>
+                    <span className="state-mark-dot" /> {entry.met ? "Criterion holds" : "Criterion fails"}
+                  </span>
+                  <span className="eyebrow">{entry.basis}</span>
+                  {entry.reaches_root ? <span className="eyebrow">reaches the root</span> : null}
+                </div>
+                <Link className="mt-2 block font-serif text-lg leading-snug hover:text-[var(--accent)]" href={`/statements/${entry.statement_id}`}>
+                  {paraphrase(entry.statement_id)}
+                </Link>
+                <p className="mt-1 text-xs leading-5 text-[var(--muted)]">{FLOOR_BASIS_DESCRIPTIONS[entry.basis]}</p>
+                {entry.reasons.length ? (
+                  <p className="mt-1 text-xs leading-5 text-[var(--muted)]">Fails because: {entry.reasons.join("; ")}.</p>
+                ) : null}
+                <p className="mt-1 text-xs leading-5 text-[var(--muted)]">Disagreement: {describeDisagreement(entry.disagreement)}</p>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-6 text-sm text-[var(--muted)]">No statement carries a self_evident marking.</p>
+        )}
       </section>
 
       <section className="record-section">
