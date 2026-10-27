@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACT-BEARER-SUBSTANCE-INFERENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACT-BEARER-SUBSTANCE-INFERENCE",
+  "rule": "constructive-proof",
+  "meaning": "An occurring act, the bearer principle and the substance principle entail a substantial bearer.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
