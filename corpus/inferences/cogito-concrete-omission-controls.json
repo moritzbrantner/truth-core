@@ -3,7 +3,7 @@
   "input_statement_ids": [],
   "output_statement_id": "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
   "rule": "constructive-proof",
-  "meaning": "Construct nine Unit-carrier interpretations, each satisfying all but one premise of its fork and falsifying the fork's conclusion, and one event-route model with an empty bearer relation and an inhabited world.",
+  "meaning": "Construct eight Unit-carrier omission interpretations, each satisfying all but one premise of its fork and falsifying the fork's conclusion, and one event-route model with an empty bearer relation and an inhabited world.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

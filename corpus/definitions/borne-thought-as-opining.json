@@ -1,7 +1,7 @@
 {
   "id": "DEF-BORNE-THOUGHT-AS-OPINING",
   "term": "content of a thought episode; borne thought as opining",
-  "definition": "content : Episode → Prop assigns each thought episode the proposition it judges or presents as appearing. BorneThoughtIsOpining Occurs Bears Opines content means ∀ b e, Occurs e → Bears b e → Opines b (content e), with Opines as in DEF-OPINING. It is a bridge between two vocabularies, not a definition of either: bearing a thought is not defined as opining, and opining is not defined as being moved.",
+  "definition": "content : Episode → Prop assigns each thought episode the proposition it judges or presents as appearing. BorneThoughtIsOpining Occurs Bears Opines content means ∀ b e, Occurs e → Bears b e → Opines b (content e), with Opines as in DEF-OPINING. It is a bridge between two vocabularies, not a definition of either: bearing a thought is not defined as opining, and opining is not defined as being moved. It holds only if every bearer of an occurring episode opines the content assigned to it.",
   "basis": "stipulative",
   "note": "Stipulated for #536 to connect the #532 bearer vocabulary to STMT-OPINION-IS-A-MOTION without a fresh motion premise. A source for the restriction of thought to judgings and appearings (Aristotle's δόξα and φαντασία at Physics VIII.3, 254a27-30, or Descartes's cogitatio, which is broader) is open.",
   "lean_declaration": "TruthCore.Logic.CogitoConcrete.BorneThoughtIsOpining"

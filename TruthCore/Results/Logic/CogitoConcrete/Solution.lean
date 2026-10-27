@@ -24,8 +24,8 @@ theorem inhabitedOfThought {W E Episode : Type}
 
 /-- Motion fork: an occurring thought, the bearer principle, the opining
 bridge OB and the existing opinion-as-motion premise give the prima via's
-observation premise, witnessed by the thought's bearer in the respect of its
-content. -/
+observation premise, witnessed by the thought's bearer in the respect of
+opining its content (`asOpinion (content e)`). -/
 theorem somethingMovedOfThought {E Episode Respect : Type}
     (Occurs : Episode → Prop) (Bears : E → Episode → Prop)
     (Opines : E → Prop → Prop) (content : Episode → Prop)
@@ -39,8 +39,8 @@ theorem somethingMovedOfThought {E Episode Respect : Type}
     TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought Occurs Bears hOccurs hBearer
   exact ⟨b, asOpinion (content e), hMotion b (content e) (hOpining b e he hb)⟩
 
-/-- Nine finite interpretations: each premise of each fork is needed, and the
-event route populates the world without a bearer. -/
+/-- Eight omission controls (each premise of each fork is needed) and one
+event-route model populating the world without a bearer. -/
 theorem omissionControls : OmissionControls := by
   refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
   -- O omitted

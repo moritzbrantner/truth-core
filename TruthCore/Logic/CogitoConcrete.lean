@@ -22,9 +22,9 @@ Two forks leave the trunk.
   exists at the selected world `w₀` (E). Together with O and B they give
   `InhabitedConcreteAt m concrete w₀`, which has the shape of #487's
   `PopulatedConcreteAt` (branch `codex/487-necessary-concrete-root`, not on
-  `main`): `∃ b, concrete b ∧ m.ExistsAt w₀ b`. `w₀` is a complete world
-  (history) of the frame, not a time; that it is the actual one is an
-  interpretation of the argument, not a Lean fact. `concrete` is an
+  `main`): `∃ b, concrete b ∧ m.ExistsAt w₀ b`. `w₀` is an element of the
+  frame; reading it as a complete world (history) rather than a time, and as
+  the actual one, is the intended interpretation, not a Lean fact. `concrete` is an
   unconstrained, world-independent predicate on the candidate domain, as on
   the #487 branch; no causal, spatiotemporal or material criterion is built in.
 * **Motion fork** (root path). One open bridge: every bearer of an occurring
@@ -68,9 +68,9 @@ def EveryBearerExistsAt (m : Ontic W E) (Occurs : Episode → Prop)
   ∀ b e, Occurs e → Bears b e → m.ExistsAt w b
 
 /-- Bridge OB: whoever bears an occurring thought opines that thought's
-content. Restricts the selected episodes to judgings or appearings with a
-propositional content (`DEF-OPINING`); a willing or a non-propositional
-episode would falsify it. -/
+content (`DEF-OPINING`). It holds only if every bearer of an occurring episode
+opines the content assigned to it; a borne episode whose bearer opines nothing
+(for example a willing that is no opining) falsifies it. -/
 def BorneThoughtIsOpining (Occurs : Episode → Prop) (Bears : E → Episode → Prop)
     (Opines : E → Prop → Prop) (content : Episode → Prop) : Prop :=
   ∀ b e, Occurs e → Bears b e → Opines b (content e)
@@ -93,7 +93,7 @@ def unitOntic (ex : Prop) : Ontic Unit Unit where
 
 /-- O omitted: no thought occurs; B, C and E hold vacuously, and no concrete
 being exists at the world. -/
-def NoThoughtControl : Prop :=
+def NoThoughtConcreteControl : Prop :=
   ∃ (m : Ontic Unit Unit) (concrete : Unit → Prop) (Occurs : Unit → Prop)
     (Bears : Unit → Unit → Prop),
     ¬ ThoughtOccurs Occurs ∧ EveryThoughtHasSubject Occurs Bears ∧
@@ -110,7 +110,8 @@ def BearerlessControl : Prop :=
       EveryBearerExistsAt m Occurs Bears () ∧ ¬ InhabitedConcreteAt m concrete ()
 
 /-- C omitted: an occurring thought is borne by a being that exists at the
-world but is not concrete (an abstract or content-level realizer). -/
+world but is not concrete (a non-concrete bearer; failing `concrete` is not
+thereby being abstract). -/
 def AbstractBearerControl : Prop :=
   ∃ (m : Ontic Unit Unit) (concrete : Unit → Prop) (Occurs : Unit → Prop)
     (Bears : Unit → Unit → Prop),
@@ -186,7 +187,7 @@ def UnmovedOpinerControl : Prop :=
 not the only route to population. Formal interpretations only, not
 metaphysical possibility certificates. -/
 def OmissionControls : Prop :=
-  NoThoughtControl ∧ BearerlessControl ∧ AbstractBearerControl ∧
+  NoThoughtConcreteControl ∧ BearerlessControl ∧ AbstractBearerControl ∧
     NonexistentBearerControl ∧ EventWithoutBearerModel ∧
     NoThoughtMotionControl ∧ BearerlessMotionControl ∧
     NonOpiningThoughtControl ∧ UnmovedOpinerControl

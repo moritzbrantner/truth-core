@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.CogitoConcrete.omissionControls",
   "comparator_config": "results/COGITO-CONCRETE-OMISSION-CONTROLS/comparator.json",
   "status": "solution-present",
-  "description": "Nine independent finite omission controls for both forks, and an event-route model populating the world without a bearer. Logical models only; no premise is discharged."
+  "description": "Eight independent finite omission controls for both forks and one event-route model populating the world without a bearer (nine interpretations). Logical models only; no premise is discharged."
 }

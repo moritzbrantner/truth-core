@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-COGITO-CONCRETE-OMISSION-CONTROLS"
   ],
-  "meaning": "Nine explicit Unit-carrier interpretations. Concrete fork: each of occurrence, bearer principle, bearer concreteness (an existing abstract bearer) and bearer existence at the world (a concrete nonexistent bearer) is needed, since omitting it leaves the other three true and no concrete existent at the world. Event route: an occurring episode embedded as a concrete existing entity with an empty bearer relation populates the world, so the bearer route is sufficient with its bridges but not necessary. Motion fork: each of occurrence, bearer principle, the opining bridge (a non-opining bearer) and opinion-as-motion (an unmoved opiner) is needed. Formal interpretations within the stipulated semantics, not metaphysical possibility certificates.",
+  "meaning": "Nine explicit Unit-carrier interpretations: eight omission controls and one event-route model. Concrete fork: each of occurrence, bearer principle, bearer concreteness (an existing non-concrete bearer) and bearer existence at the world (a concrete nonexistent bearer) is needed, since omitting it leaves the other three true and no concrete existent at the world. Event route: an occurring episode embedded as a concrete existing entity with an empty bearer relation populates the world, so the bearer route is sufficient with its bridges but not necessary. Motion fork: each of occurrence, bearer principle, the opining bridge (a non-opining bearer) and opinion-as-motion (an unmoved opiner) is needed. Formal interpretations within the stipulated semantics, not metaphysical possibility certificates.",
   "definition_ids": [
     "DEF-THOUGHT-OCCURRENCE",
     "DEF-THOUGHT-BEARER",
@@ -17,6 +17,7 @@
   ],
   "disambiguation_ids": [
     "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
-    "DISAMB-MOTION"
+    "DISAMB-MOTION",
+    "DISAMB-THOUGHT-VS-OPINING"
   ]
 }
