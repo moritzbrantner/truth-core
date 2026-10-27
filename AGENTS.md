@@ -11,6 +11,8 @@ The master gives each worker a four-line brief:
 3. **Missing step:** the inference or source reading still needed.
 4. **Premise comparison:** the expected premises retained, added or removed, and whether the work connects results or discharges an obligation.
 
+For a substantial frontier investigation (not a single source reading), the brief or the existing investigation issue also carries a compact **investigation brief**: the thesis and its downstream purpose; the strongest case and the strongest rivals; the existing results reused; the decisive missing bridge or fork; and the expected premise or configuration delta. It lives in the one current handoff or issue, not in another tracker.
+
 The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
 
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
@@ -116,6 +118,10 @@ See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and veri
 ## Configuration elimination and composition
 
 For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
+
+## Argument-first investigation
+
+Self-directed frontier investigations are argument-first and decompose on demand (#565): research at the largest scale where progress is possible, write the end-to-end case and its rivals before splitting, seek the decisive fork, and promote a distinction to its own statement or task only when it passes the decomposition gate in [the systematic loop](docs/systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand). Report every finding back against the whole case. This changes work selection and presentation only: source ingestion below, the invariants above and frontier closure are unchanged, and a narrative is never a proof.
 
 ## Outer systematic loop
 

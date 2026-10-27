@@ -32,7 +32,7 @@ Within a candidate:
 6. Preserve competing defensible readings rather than forcing one.
 7. Reuse existing statements only after checking semantic identity.
 
-This makes the unit of scholarship atomic while keeping the unit of agent execution large enough to make continuous progress.
+This makes the unit of source scholarship atomic while keeping the unit of agent execution large enough to make continuous progress. It governs source ingestion; self-directed frontier investigations follow the argument-first method below.
 
 ## Progress is depth on the root path, not volume
 
@@ -61,6 +61,28 @@ Replacing one open premise by several narrower ones (a *relocation*) can grow th
 The summary line reports both counts, e.g. `frontier: 28 open premises: 8 bare, 20 sourced-undefended`; `--json` gives `depth_counts` and a `depth` per item, and `/graph` tags open premises `frontier:bare` or `frontier:sourced`. The aim is to drive bare premises to zero first, then defend the sourced ones.
 
 This rule exists because the earlier corpus optimized what it counted: about 100 mostly one-step results in three days, then the campaign stalled.
+
+## Frontier investigations: argument-first, decomposition on demand
+
+Owner direction on #565. A self-directed frontier investigation (work selection, issue granularity and how results are presented, as opposed to processing a source range) researches at the largest scale where meaningful progress is possible and decomposes only as far as rigor, adversarial testing or reuse requires. The granularity of the research objective is not the granularity of the proof and source corpus.
+
+1. **Start with a substantial target.** State the thesis, the conclusion it would help establish and its root or frontier relevance.
+2. **Write the end-to-end case first.** In ordinary prose: where the strongest positive line begins, how the conclusion follows if it succeeds, its indispensable commitments, and the exact current bottleneck, reusing existing results by ID. A reader should understand the whole path without opening dozens of records.
+3. **Reconstruct the serious rivals in context.** Each answers the same questions, with its own interpretations and primitives (no win by subtraction). Incompleteness relative to a claimed scope is not contradiction, and a theory correct within a declared narrow scope is not incomplete for declining a wider one.
+4. **Seek the decisive fork:** one high-leverage dilemma, implication, independently defensible premise, countermodel, inconsistency core or missing bridge, rather than a taxonomy of marginal distinctions.
+5. **Decompose on demand.** Promote a distinction to its own statement, definition, disambiguation or focused task only when it passes the gate below. Other nuances stay in the investigation's existing issue or note until needed.
+6. **Formalize and test precisely** under the unchanged contract in `AGENTS.md`: Lean/Comparator, binding, omission countermodels, source evidence and fidelity review, frontier closure. An open bridge stays open.
+7. **Recompose in the report.** Return every finding to the end-to-end case: which route became stronger or weaker, which rivals were eliminated and under exactly which assumptions, what remains open, and why the result is useful.
+
+**Decomposition gate.** A separate canonical proposition or task is worth its cost when at least one holds:
+
+- valid inference depends on it (it exposes an equivocation, an omitted assumption, a scope, modal or causal difference, or a failed step);
+- it discriminates positions (treating it separately changes a theorem, countermodel, inconsistency core, alternative or explanatory verdict);
+- it admits independent progress (a nontrivial path to sourcing, proving or refuting it);
+- it is a load-bearing premise or result of several substantial arguments; or
+- an existing invariant requires it, such as materially different source readings (invariant 5) or distinct premises of an advertised argument.
+
+The gate is a prioritization rule, not permission to conflate meanings that matter. Never merge existing IDs by similarity (`AGENTS.md` invariants 4–8). The narrative lives in the existing campaign issue or a linked note: no new entity kind, metadata schema, worldview registry or progress database, and no hand-authored complete worldview (positions are computed, #512). An end-to-end narrative is not a proof and closes nothing; "more statements, issues or conditional lemmas" is not success by itself. The pilots and the recent cases of low-leverage splitting are in [the #565 note](notes/argument-first-pilots-565.md).
 
 ## PR boundary
 
