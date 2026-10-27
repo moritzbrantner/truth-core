@@ -108,10 +108,10 @@ theorem needsNoSelfMotion :
         UniformMotionWithoutMoverReading MovedIn MovesIn UniformLocalMotion := by
   sorry
 
-/-- The mover premise is not refuted by the rest of the core: in
+/-- The rest of the core does not entail the mover premise: in
 `MODEL-INERTIA-RIVAL-SURVIVES` the bundle and no self-motion hold and the mover
-premise fails. So the clash cannot be resolved against the objection without
-the premise it rivals: no non-circular elimination from these commitments. -/
+premise fails. So the bundle with no self-motion is satisfiable: these
+commitments do not refute the objection without assuming the premise it rivals. -/
 theorem rivalSurvivesCore :
     ¬ ∀ (Being Respect : Type) (MovedIn : Being → Respect → Prop)
         (MovesIn : Being → Being → Respect → Prop) (UniformLocalMotion : Respect → Prop)
