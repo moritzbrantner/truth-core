@@ -8,8 +8,9 @@ open TruthCore.Case.Catholicism.StageThree.DivineFounding
 four typed premises: the resurrection is God's confirmation that Jesus holds
 God's mandate; what God confirms is true; Jesus founded each visible
 authoritative society he founded in the exercise of that mandate and
-commissioned it to teach; and what a God's envoy so founds, that God founded as
-a teaching authority. -/
+commissioned it to teach; and what Jesus so founds in a God's mandate, that God
+founded as a teaching authority. The universal over societies is carried by the
+scope premise. -/
 theorem bridge_from_attested_mandate (σ : Signature) (A : Agency σ)
     (hAttest : ResurrectionConfirmsMandate σ A)
     (hVeracity : GodConfirmsOnlyTruth σ A)
@@ -23,6 +24,6 @@ theorem bridge_from_attested_mandate (σ : Signature) (A : Agency σ)
   -- Scope: this founding was done in that mandate, with a teaching commission.
   obtain ⟨hInMandate, hTeach⟩ := hScope g hMandate c hFounded hVisible
   -- Envoy founding: so g founded c as a teaching authority.
-  exact hEnvoy g σ.jesus c hGod hInMandate hTeach
+  exact hEnvoy g c hGod hInMandate hTeach
 
 end TruthCore.Results.Case.Catholicism.StageThree.DivineFounding

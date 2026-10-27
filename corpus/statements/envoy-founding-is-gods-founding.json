@@ -1,6 +1,6 @@
 {
   "id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
-  "paraphrase": "For any God g, being x and society c: if x founded c in the exercise of a mandate x holds from g and commissioned c to teach, then g founded c as a teaching authority. 'Founded by God' is taken in the sense that admits founding through an envoy (DISAMB-FOUNDED-BY-GOD); on the immediate-only sense this premise would be false.",
+  "paraphrase": "For any God g and society c: if Jesus founded c in the exercise of a mandate he holds from g and commissioned c to teach, then g founded c as a teaching authority. Stated for Jesus only, so God's founding is not widened to societies founded by other envoys. 'Founded by God' is taken in the sense that admits founding through Jesus as envoy (DISAMB-FOUNDED-BY-GOD); on the immediate-only sense this premise would be false.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.EnvoyFoundingIsPrincipalsFounding",
   "definition_ids": [
     "DEF-SKELETON-OPEN-PREDICATES",

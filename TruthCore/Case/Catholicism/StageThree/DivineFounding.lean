@@ -4,8 +4,9 @@ import TruthCore.Case.Catholicism.Root
 # Divine founding through an attested envoy (#357)
 
 The skeleton's bridge `BridgeChristsChurchFoundedByGod` is decomposed here
-into four typed premises over one agency vocabulary, so that the bridge is
-*derived* rather than assumed (`TruthCore.Results.Case.Catholicism.StageThree.DivineFounding`).
+into four typed premises over one agency vocabulary. The bridge is proved from
+them; its universal reach over societies is carried by the scope premise, not
+derived (`TruthCore.Results.Case.Catholicism.StageThree.DivineFounding`).
 
 The line of the derivation:
 
@@ -22,9 +23,9 @@ The line of the derivation:
    28.18-20, where the commission to disciple, baptize and teach is grounded
    ("therefore") in the authority Jesus says was given to him. The universal
    scope over societies is *not* in the source; it is an explicit open part.
-4. **Envoy founding** (`EnvoyFoundingIsPrincipalsFounding`): if an envoy of a
-   God founds a society in the exercise of his mandate from that God and
-   commissions it to teach, that God founded it as a teaching authority.
+4. **Envoy founding** (`EnvoyFoundingIsPrincipalsFounding`): if Jesus founds a
+   society in the exercise of a mandate from a God and commissions it to
+   teach, that God founded it as a teaching authority.
    Supported by John 13.20 (who receives the one I send receives me, and who
    receives me receives the one who sent me); its extension from reception to
    founding is open.
@@ -32,8 +33,8 @@ The line of the derivation:
 The decisive fork is premise 3: whether an attested mandate covers the
 founding of an institution with teaching authority, or only a message.
 Each premise is necessary: `omissionModels` exhibits, for each one, a model
-of the other three together with every stage antecedent of the bridge in
-which the bridge fails. `jointModel` shows the four premises and the bridge's
+of the other three in which the bridge fails; every stage antecedent holds in
+those models (`modelSig_antecedents`). `jointModel` shows the four premises and the bridge's
 antecedents are jointly satisfiable, so the derivation is not vacuous. These
 are schema models, not possible worlds of Christian history.
 -/
@@ -41,7 +42,7 @@ are schema models, not possible worlds of Christian history.
 namespace TruthCore.Case.Catholicism.StageThree.DivineFounding
 open TruthCore.Case.Catholicism
 
-/-- Typed agency vocabulary over the skeleton signature (DEF-DIVINE-FOUNDING-AGENCY).
+/-- Typed agency vocabulary over the skeleton signature (DEF-FOUNDED-BY-GOD-THROUGH-ENVOY).
 
 * `Confirms g p` — `g` confirms the proposition `p` by a sign that is `g`'s own
   deed (a testimonial act, as *Dei Filius* ch. 3 calls miracles *argumenta* of
@@ -53,7 +54,10 @@ open TruthCore.Case.Catholicism
 * `CommissionedToTeach x c` — in founding `c`, `x` commissioned it to teach.
 
 All four are parameters; no axiom constrains them. Their content is fixed only
-by the premises below. -/
+by the premises below. In particular `Confirms` has no sign or resurrection
+argument: "by a sign" and "by the resurrection" are its intended reading, not
+encoded, and `HoldsMandate` has no object: the founding content of the mandate
+is supplied only by the scope premise. -/
 structure Agency (σ : Signature) where
   Confirms : σ.Being → Prop → Prop
   HoldsMandate : σ.Being → σ.Being → Prop
@@ -63,10 +67,11 @@ structure Agency (σ : Signature) where
 /-- Attestation premise `STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE`: for any God
 with the classical attributes who can reveal recognizably, if Jesus claimed
 divine authority and rose, then that God, by the resurrection, confirms that
-Jesus holds a mandate from him. Source: Acts 17.31 (claim
+Jesus holds a mandate from him. Read from Acts 17.31 (claim
 `NT-ACTS-17-31-RESURRECTION-AS-ASSURANCE`). The source speaks of the man God
-appointed to judge the world; that the appointment is the mandate Jesus
-claimed is the claim's reading. -/
+appointed to judge the world; that the appointment is a mandate from God
+(`HoldsMandate`) is the claim's reading. The type does not link
+`ClaimedDivineAuthority` to `HoldsMandate`. -/
 def ResurrectionConfirmsMandate (σ : Signature) (A : Agency σ) : Prop :=
   ∀ g, σ.IsGod g → σ.HasClassicalAttributes g → σ.RevealsRecognizably g →
     σ.ClaimedDivineAuthority σ.jesus → σ.RoseFromTheDead σ.jesus →
@@ -91,14 +96,15 @@ def MandatedFoundingWithTeaching (σ : Signature) (A : Agency σ) : Prop :=
     ∀ c, σ.Founded σ.jesus c → σ.VisibleWithAuthority c →
       A.FoundedInMandate σ.jesus g c ∧ A.CommissionedToTeach σ.jesus c
 
-/-- Envoy-founding premise `STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`: if a God's
-envoy founds a society in the exercise of his mandate from that God and
-commissions it to teach, that God founded it as a teaching authority (founding
-*through* an envoy, as *Dei Filius* ch. 3 para. 5 says God instituted the
-Church *per Filium*; DISAMB-FOUNDED-BY-GOD). Supported by John 13.20; the
+/-- Envoy-founding premise `STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`: if Jesus
+founds a society in the exercise of a mandate from a God and commissions it to
+teach, that God founded it as a teaching authority (founding *through* Jesus as
+envoy; DISAMB-FOUNDED-BY-GOD). It is stated for Jesus only, so it does not
+widen God's founding to societies founded by other envoys. Supported by John 13.20; the
 extension from receiving an envoy to founding through one is open. -/
 def EnvoyFoundingIsPrincipalsFounding (σ : Signature) (A : Agency σ) : Prop :=
-  ∀ g x c, σ.IsGod g → A.FoundedInMandate x g c → A.CommissionedToTeach x c →
+  ∀ g c, σ.IsGod g → A.FoundedInMandate σ.jesus g c →
+    A.CommissionedToTeach σ.jesus c →
     σ.FoundedAsTeachingAuthority g c
 
 /-! ## Schema models: necessity of each premise and joint satisfiability
@@ -157,8 +163,9 @@ theorem modelSig_antecedents (fta : Prop) :
 theorem modelSig_bridge_fails : ¬ BridgeChristsChurchFoundedByGod (modelSig False) :=
   fun h => h true rfl trivial trivial trivial trivial () trivial trivial
 
-/-- Each of the four premises is needed: dropping any one, the other three and
-every stage antecedent hold while the bridge fails. -/
+/-- Each of the four premises is needed: dropping any one, the other three hold
+while the bridge fails. Every stage antecedent holds in these models by
+`modelSig_antecedents False`. -/
 theorem omissionModels :
     (∃ σ : Signature, ∃ A : Agency σ, ¬ ResurrectionConfirmsMandate σ A ∧
       GodConfirmsOnlyTruth σ A ∧ MandatedFoundingWithTeaching σ A ∧
@@ -179,28 +186,28 @@ theorem omissionModels :
     · intro h; exact h true rfl trivial trivial trivial trivial
     · intro _ _ _ _ hp; exact hp
     · intro _ hm; exact hm.elim
-    · intro _ _ _ _ hm; exact hm.elim
+    · intro _ _ _ hm; exact hm.elim
   · -- Without veracity: God confirms everything, but no mandate holds.
     refine ⟨modelSig False, modelAgency False (fun _ => True) False False False,
       ?_, ?_, ?_, ?_, modelSig_bridge_fails⟩
     · intro _ _ _ _ _ _; trivial
     · intro h; exact h true rfl trivial False trivial
     · intro _ hm; exact hm.elim
-    · intro _ _ _ _ hm; exact hm.elim
+    · intro _ _ _ hm; exact hm.elim
   · -- Without scope: the mandate holds, but the founding is not done in it.
     refine ⟨modelSig False, modelAgency False (fun p => p) True False True,
       ?_, ?_, ?_, ?_, modelSig_bridge_fails⟩
     · intro _ _ _ _ _ _; trivial
     · intro _ _ _ _ hp; exact hp
     · intro h; exact (h true trivial () trivial trivial).1
-    · intro _ _ _ _ hm; exact hm.elim
+    · intro _ _ _ hm; exact hm.elim
   · -- Without envoy founding: everything holds except God's founding.
     refine ⟨modelSig False, modelAgency False (fun p => p) True True True,
       ?_, ?_, ?_, ?_, modelSig_bridge_fails⟩
     · intro _ _ _ _ _ _; trivial
     · intro _ _ _ _ hp; exact hp
     · intro _ _ _ _ _; exact ⟨trivial, trivial⟩
-    · intro h; exact h true false () rfl trivial trivial
+    · intro h; exact h true () rfl trivial trivial
 
 /-- The four premises and every stage antecedent of the bridge are jointly
 satisfiable, so the derivation of the bridge is not vacuous. -/
@@ -216,6 +223,6 @@ theorem jointModel :
   · intro _ _ _ _ _ _; trivial
   · intro _ _ _ _ hp; exact hp
   · intro _ _ _ _ _; exact ⟨trivial, trivial⟩
-  · intro _ _ _ _ _ _; trivial
+  · intro _ _ _ _ _; trivial
 
 end TruthCore.Case.Catholicism.StageThree.DivineFounding

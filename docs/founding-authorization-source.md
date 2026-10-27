@@ -14,8 +14,8 @@ recognizably, Jesus' claim to divine authority, his resurrection, and a
 visible authoritative society `c` Jesus founded:
 
 1. *Attestation* (`STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE`): by the
-   resurrection God confirms that Jesus holds a mandate from him. Stated by
-   Acts 17.31 (claim `NT-ACTS-17-31-RESURRECTION-AS-ASSURANCE`: God "gave
+   resurrection God confirms that Jesus holds a mandate from him. Read from
+   Acts 17.31, with added content noted in the claim (claim `NT-ACTS-17-31-RESURRECTION-AS-ASSURANCE`: God "gave
    assurance to all" of the man he appointed "by raising him").
 2. *Veracity* (`STMT-GOD-CONFIRMS-ONLY-TRUTH`): what God confirms by a sign is
    true, so Jesus holds the mandate. Supported by *Dei Filius* ch. 3 para. 1.
@@ -23,9 +23,10 @@ visible authoritative society `c` Jesus founded:
    `c` in the exercise of that mandate and commissioned it to teach. Supported
    by Matthew 28.18–20 ("all authority has been given to me; go therefore ...
    teaching them").
-4. *Envoy founding* (`STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`): what a God's
-   envoy founds in his mandate with a teaching commission, that God founded as
-   a teaching authority. Supported by John 13.20 (who receives the one I send
+4. *Envoy founding* (`STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`): what Jesus
+   founds in a God's mandate with a teaching commission, that God founded as
+   a teaching authority. It is restricted to Jesus, so other envoys' societies
+   are not added to God's founding. Supported by John 13.20 (who receives the one I send
    receives me and the one who sent me).
 
 Result `CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE`
@@ -34,6 +35,11 @@ typed vocabulary `TruthCore.Case.Catholicism.StageThree.DivineFounding.Agency`
 (`DEF-FOUNDED-BY-GOD-THROUGH-ENVOY`). `omissionModels` shows each premise is
 needed; `jointModel` shows the four premises and every stage antecedent are
 jointly satisfiable. These are schema models, not possible worlds of history.
+
+This is a decomposition, not a derivation of the bridge's universal reach over
+societies: that is carried by premise 3. `HoldsMandate` has no object; unlike
+the old `AuthorityVindicated` field, the vocabulary is constrained by the four
+premises, and premise 3 is what gives the mandate its founding content.
 
 **Rivals, each located at the premise it denies.**
 
@@ -44,7 +50,7 @@ jointly satisfiable. These are schema models, not possible worlds of history.
 | God may confirm by signs what is false (or signs are not testimony) | 2 | rejected by classical theism; open as a premise |
 | God ratified the message, not an institution: the mandate does not cover founding a society with teaching authority | 3 | **decisive fork**; open |
 | The eleven were commissioned, but the society in the antecedent is not that commissioned body (founding by disciples, local churches) | 3 (universal scope) | open; Lumen gentium §23 particular/universal distinction applies |
-| An authorized envoy's act is his own; only immediate divine institution is God's founding | 4 | `DISAMB-FOUNDED-BY-GOD`: the root's source reads founding *per Filium*; the immediate-only sense makes 4 false |
+| An authorized envoy's act is his own; only immediate divine institution is God's founding | 4 | `DISAMB-FOUNDED-BY-GOD`: a modelling choice (*per Filium* fits both senses; the Signature does not identify Jesus with God); the immediate-only sense makes 4 false |
 
 **Decisive fork.** Premise 3. Premises 1 and 2 concern only Jesus'
 mandate, and premise 4 only what follows once a founding is done in a
@@ -102,7 +108,7 @@ particular/universal distinction is not that numerical equality. The source
 must not be made to assert equality merely because the same word *Church*
 is used. A future rule may instead preserve the intended universal-body
 scope, but that restriction and its source justification must be explicit.
-This note makes no change to either predicate or statement.
+(PR #421:) This section made no change to either predicate or statement; the 2026-10-27 section and `DISAMB-FOUNDED-BY-GOD` now fix the envoy reading of `FoundedAsTeachingAuthority`.
 
 ## Rejected shortcuts and the next obligation
 
@@ -135,7 +141,7 @@ not that attestation.
 `TruthCore.Results.Case.Catholicism.FoundingIndependence.independent` already
 verifies non-entailment from the declared local pilot inputs. No new finite
 model is supplied here to repeat it, and that theorem is not a refutation of
-Christian history or of the full root theory. The present advance is verified
+Christian history or of the full root theory. (PR #421:) The advance of that batch was verified
 source context and a more precise constraint on a proposed inference; there
 is no newly advertised mechanically verified consequence or frontier closure.
 
