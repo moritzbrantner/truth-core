@@ -1,0 +1,5 @@
+{
+  "id": "STMT-ACT-BEARER-BEARERLESS-ACT-MODEL",
+  "paraphrase": "An actual act can be interpreted without any bearer relation.",
+  "lean_declaration": "TruthCore.Logic.ActBearer.BearerlessActModel"
+}
