@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+    "STMT-NECESSARY-PREDECESSOR-LIFTING",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "rule": "well-founded-induction-and-classical-case-analysis",
+  "meaning": "A positive existential witness follows from the constructive nonrefutation under explicit excluded middle. None of the structural support premises is established about reality; the conclusion asserts neither uniqueness nor divine attributes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

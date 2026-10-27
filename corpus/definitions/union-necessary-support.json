@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNION-NECESSARY-SUPPORT",
+  "term": "cross-world union graph of direct existential support among necessary bearers",
+  "definition": "A source c precedes a target b if both are de re necessary from w₀ and there is at least one admitted world at which c actually exists and directly supports b. This is a union of explicitly world-indexed direct edges on fixed bearer identities, not a graph of world accessibility, a temporal trace or a transitive closure through contingent beings.",
+  "basis": "stipulative",
+  "note": "Graph analysis of the #495 possible-world family. A union of individually acyclic world relations can contain a cycle; a necessary-to-necessary restriction can miss contingent intermediate supporters.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.UnionNecessarySupport"
+}

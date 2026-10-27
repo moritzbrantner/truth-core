@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+  "argument_id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.checks",
+  "comparator_config": "results/NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL/comparator.json",
+  "status": "solution-present",
+  "description": "If all possible necessary-to-necessary support edges are also actual and actual support is well founded, the restricted cross-world union is well founded. The converse fails in the certified varying-world countermodel."
+}

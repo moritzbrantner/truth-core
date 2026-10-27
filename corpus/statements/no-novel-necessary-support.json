@@ -1,0 +1,7 @@
+{
+  "id": "STMT-NO-NOVEL-NECESSARY-SUPPORT",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NoNovelNecessarySupport",
+  "paraphrase": "An incoming direct existential-support edge between necessary individuals from any world where the source exists is already present in the actual world; the reverse direction is not required.",
+  "definition_ids": ["DEF-NO-NOVEL-NECESSARY-SUPPORT", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"],
+  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+}
