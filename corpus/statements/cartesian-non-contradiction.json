@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CARTESIAN-NON-CONTRADICTION",
+  "paraphrase": "For every Lean proposition p, p and its negation cannot both hold.",
+  "lean_declaration": "TruthCore.Logic.CartesianFloor.NonContradiction",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
