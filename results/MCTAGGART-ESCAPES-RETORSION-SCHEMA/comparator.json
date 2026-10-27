@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.mcTaggartEscapesRetorsion"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

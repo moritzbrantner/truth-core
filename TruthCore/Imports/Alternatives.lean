@@ -6,3 +6,4 @@ import TruthCore.Alternatives.Inertia
 import TruthCore.Alternatives.McTaggart
 import TruthCore.Alternatives.NightCosmogony
 import TruthCore.Alternatives.PhysicalCompleteness
+import TruthCore.Alternatives.Retorsion

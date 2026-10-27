@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PRESUPPOSITION-LINK",
+  "term": "presupposition link (retorsion)",
+  "definition": "`PresuppositionLink Performs Occurs token`: every performance (asserting, opining or appearing, fixed per instance) of any content p by any agent a is an occurring episode `token a p` of the sort the underminer's thesis denies. It is what a global underminer adds to the performed-denial schema of TruthCore.Logic.PerformedDenial (DEF-EPISODE-OCCURRENCE, DEF-ACCURATE-PERFORMED-DENIAL): it makes the performance of the thesis an accurate performed denial if the thesis is true. It is the open premise of each instance (for the Eleatic instance exactly STMT-OPINION-IS-A-MOTION) and never supplied by the schema; rejecting it is how an underminer escapes (STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA).",
+  "basis": "stipulative",
+  "note": "Schema vocabulary for #515. 'Presupposes' is read as this universally quantified link from performance to an occurring episode, not as a semantic or pragmatic presupposition of a sentence; an underminer whose link holds only for some performances would need a stated reason and its own record.",
+  "lean_declaration": "TruthCore.Alternatives.Retorsion.PresuppositionLink"
+}

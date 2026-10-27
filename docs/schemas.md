@@ -187,6 +187,53 @@ conclusion differs from #386's genus-principle derivation, not because those
 conditions were refuted. See [maximum-order-schema.md](maximum-order-schema.md)
 for the exact proof composition, controls, premise comparison and source limits.
 
+## Retorsion for global underminers (#515)
+
+The schema is #516's performed-denial retorsion,
+`STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL`, certified by
+`TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial` in
+[LOGIC-PERFORMED-DENIAL-RETORSION](../corpus/results/LOGIC-PERFORMED-DENIAL-RETORSION.json):
+no occurring episode accurately denies that any episode of its own sort
+occurs. A global underminer adds the **presupposition link**
+(`TruthCore.Alternatives.Retorsion.PresuppositionLink`, `DEF-PRESUPPOSITION-LINK`):
+every performance (asserting, opining or appearing, fixed per instance) is,
+through a token, an occurring episode of the sort its thesis denies. The link
+is each instance's hypothesis and open premise; the schema never supplies it,
+and all philosophical content lies there. #516's empty-episode control shows
+that holding the thesis is needed.
+
+An instance's Comparator config lists its own theorem and `noAccurateDenial`;
+its Challenge and Solution import the `NoAccurateDenial` Solution, so the
+`instance_of_schema` registration names both obligations in one config.
+
+| Global underminer | Record | Outcome |
+| --- | --- | --- |
+| Eleatic: nothing is moved (*Physics* VIII.3) | `STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE`, registered `instance_of_schema` | Conditional instance; its link is `STMT-OPINION-IS-A-MOTION`, open. It states the conditional of `ELEATIC-THESIS-SELF-REFUTING`, whose records are unchanged: Comparator rejects re-proving its frozen Challenge through a lemma the Challenge does not import. No refutes relation (#391). |
+| McTaggart: nothing changes, yet things appear in time | `STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA` (not an instance) | Escapes at the link: his *Nature of Existence* § 511 answer denies the change link outright, and the motion link given the open bridge `STMT-MOTION-IS-A-CHANGE`; the `opinionGate` model satisfies his commitments and both held theses, and #516's static-episode control shows that an occurring episode need not vary. **Surviving, parked.** |
+
+**Handling a future global underminer.** Once a rival is classed
+`global_underminer` (#515 §1), it gets exactly one bounded attempt: name its
+performance, episode sort, thesis and token, and either (a) prove its conditional
+instance and register it with `instance_of_schema`, the link staying an open
+premise unless it is closed (a `retorsion` floor basis or a refutes relation
+needs the link closed: decision 2026-10-27-01, #391); or (b) record a
+certified escape: a theorem showing which schema hypothesis the sourced
+position rejects (normally the link) and a model of its held position. Record
+the attempt in `corpus/attempts/`. An escaping underminer is surviving and
+parked: it stays named on the frontier and gets no further reading project.
+An underminer whose link is weaker (only some performances, or only the held
+one) needs a stated reason before a new schema is added.
+
+Occurrence vocabulary: `DEF-THOUGHT-OCCURRENCE` (#538,
+`TruthCore.Logic.CogitoSubject.ThoughtOccurs`, `∃ e, Occurs e`) and
+`DEF-EPISODE-OCCURRENCE` (#516, `NoEpisodeOccurs`, `¬ ∃ e, Occurs e`) share the
+primitive `Occurs` but are not identified: the positive form implies the
+negation of the negative one, and the converse needs classical logic. A
+retorsion instance uses the negative form; a Cogito consequence uses the
+positive one.
+
+Intended and actual root-path premise delta: **none**.
+
 ## Participation: source audit, schema still open
 
 The [participation source/reuse audit](participation-grounding.md#participation-schema-source-audit-412-359-360)

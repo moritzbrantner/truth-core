@@ -1,0 +1,10 @@
+{
+  "id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "argument_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "challenge_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution",
+  "theorem": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.eleaticRetorsionInstance",
+  "comparator_config": "results/ELEATIC-RETORSION-SCHEMA-INSTANCE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional Eleatic instance of the performed-denial retorsion (LOGIC-PERFORMED-DENIAL-RETORSION, #516), registered by instance_of_schema. The proof uses the presupposition link (STMT-OPINION-IS-A-MOTION, a hypothesis) to make the opining an occurring episode and then applies noAccurateDenial; the link's consequent is not the conclusion. Its content lies in the link, which stays open with STMT-ELEATIC-THESIS-IS-OPINED; no refutes relation is recorded (#391). ELEATIC-THESIS-SELF-REFUTING is unchanged. Zero axioms."
+}

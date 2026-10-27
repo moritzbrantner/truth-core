@@ -4,5 +4,5 @@
   "definition": "`Occurs : Episode → Prop` is a primitive interpretation over a possibly empty episode carrier. A token `e` actually occurs only when `Occurs e` is independently supplied; neither mentioning a token nor interpreting its content asserts occurrence. `NoEpisodeOccurs Occurs` abbreviates `¬ ∃ e, Occurs e`.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.PerformedDenial.NoEpisodeOccurs",
-  "note": "Explicit logical profile for #509; it does not decide whether episodes are material events, enduring subjects, timeless thoughts, or metaphysically concrete bearers."
+  "note": "Explicit logical profile for #509; it does not decide whether episodes are material events, enduring subjects, timeless thoughts, or metaphysically concrete bearers. DEF-THOUGHT-OCCURRENCE (#538) uses the same Occurs primitive in the positive form ∃ e, Occurs e; it implies the negation of NoEpisodeOccurs Occurs but is not constructively equivalent to it, so the two records are related here and in docs/schemas.md, not identified."
 }
