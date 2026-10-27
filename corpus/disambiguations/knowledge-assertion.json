@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-KNOWLEDGE-ASSERTION",
+  "term": "knowledge, assertion, and universal scepticism",
+  "sense_definition_ids": [
+    "DEF-FACTIVE-KNOWLEDGE",
+    "DEF-KNOWLEDGE-ASSERTION-CONTROL",
+    "DEF-UNIVERSAL-NO-KNOWLEDGE"
+  ],
+  "resolution": "Knowing p is factive only in the explicitly selected profile. Merely asserting p is separate and does not entail knowledge or truth. The theorem excludes knowing that no proposition is known; it does not exclude the consistent theory that nobody knows anything, nor infer an actual knower or experiential change."
+}

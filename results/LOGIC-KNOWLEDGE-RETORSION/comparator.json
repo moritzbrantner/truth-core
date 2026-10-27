@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.KnowledgeRetorsion.noFactiveKnowerOfUniversalNoKnowledge",
+    "TruthCore.Results.Logic.KnowledgeRetorsion.assertedNoKnowledgeModel",
+    "TruthCore.Results.Logic.KnowledgeRetorsion.nonfactiveKnownNoKnowledgeModel"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
