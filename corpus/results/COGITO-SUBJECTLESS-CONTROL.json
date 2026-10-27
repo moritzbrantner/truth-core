@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-SUBJECTLESS-CONTROL",
+  "argument_id": "COGITO-SUBJECTLESS-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.subjectlessControl",
+  "comparator_config": "results/COGITO-SUBJECTLESS-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Omission control for the bearer principle: over Unit one episode occurs and the bearer relation is empty, so occurrence alone does not yield a thinking subject. A finite interpretation, not a metaphysical possibility claim."
+}

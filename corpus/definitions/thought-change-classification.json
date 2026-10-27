@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THOUGHT-CHANGE-CLASSIFICATION",
+  "term": "thought-to-change classification",
+  "definition": "ThoughtChangeBridge Thought Change means ∀ e, Thought e → Change e. It is a substantive bridge from the selected thought episodes to the existing Physics III.1 change predicate, not a definition of thought or change.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeBridge",
+  "note": "Left open because a static thought token need not involve physical change or temporal succession in the bare formal language."
+}

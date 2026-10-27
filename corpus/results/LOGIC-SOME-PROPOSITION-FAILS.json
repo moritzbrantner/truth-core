@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-SOME-PROPOSITION-FAILS",
+  "argument_id": "LOGIC-SOME-PROPOSITION-FAILS",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.somePropositionFails",
+  "comparator_config": "results/LOGIC-SOME-PROPOSITION-FAILS/comparator.json",
+  "status": "solution-present",
+  "description": "Some Lean proposition fails, witnessed by False. A logical theorem about Prop only."
+}

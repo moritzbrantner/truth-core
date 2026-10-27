@@ -1,0 +1,19 @@
+{
+  "id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+  "inference_ids": [
+    "INF-COGITO-SUBJECT-FROM-OCCURRENCE",
+    "INF-COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE"
+  ],
+  "meaning": "Obtain a thinking subject from COGITO-SUBJECT-FROM-OCCURRENCE, then apply the substance principle to that bearer and episode.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-COGITO-SUBSTANCE-PREDICATE"
+  ]
+}

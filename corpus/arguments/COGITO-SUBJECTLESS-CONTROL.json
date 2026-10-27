@@ -1,0 +1,13 @@
+{
+  "id": "COGITO-SUBJECTLESS-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "inference_ids": [
+    "INF-COGITO-SUBJECTLESS-CONTROL"
+  ],
+  "meaning": "Interpret Occurs as always true and Bears as always false over Unit.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

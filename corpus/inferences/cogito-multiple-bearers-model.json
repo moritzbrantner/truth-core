@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-MULTIPLE-BEARERS-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+  "rule": "model-construction",
+  "meaning": "Interpret Occurs and Bears as always true, with subjects Bool and one episode; true and false are distinct bearers of it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

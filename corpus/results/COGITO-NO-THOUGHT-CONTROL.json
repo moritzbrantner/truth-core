@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-NO-THOUGHT-CONTROL",
+  "argument_id": "COGITO-NO-THOUGHT-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.noThoughtControl",
+  "comparator_config": "results/COGITO-NO-THOUGHT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Omission control for occurrence: the bearer principle holds vacuously while no thought occurs and no thinking subject exists, so the bearer principle alone does not yield a thinker. A finite interpretation only."
+}

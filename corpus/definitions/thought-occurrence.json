@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THOUGHT-OCCURRENCE",
+  "term": "occurrence of a thought episode",
+  "definition": "`ThoughtOccurs Occurs` is `∃ e, Occurs e` for a primitive, unconstrained predicate `Occurs` over a possibly empty carrier of thought episodes. An episode actually occurs only when `Occurs e` is independently supplied; mentioning or interpreting a token does not assert its occurrence. It does not itself assert a thinker, time, change, or the reliability of introspection.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs",
+  "note": "Stipulated for the source-free Cogito schema (#523, #524; consolidated in #532). It uses the same occurrence primitive as the episode-occurrence definition of the performed-denial module `TruthCore.Logic.PerformedDenial` (#516), in the positive form; `ThoughtOccurs Occurs` implies, but is not constructively equivalent to, the negation of `NoEpisodeOccurs Occurs`. A sourced reading (for example Descartes, Meditationes II) would need a pinned witness."
+}

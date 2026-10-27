@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-THOUGHT-CHANGE-CLASSIFICATION",
+    "STMT-CHANGE-ACTUALITY-OF-POTENTIAL",
+    "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused Aristotle Physics III.1 source-derived change definition to derive a potential subject of a thinking change, conditionally on an actual thought and the independent thought-as-change classification. Three separate finite omission models witness the necessity of each premise for this schema. The composition is a transcription and closes no philosophical premise. No fresh source materialization or independent empirical occurrence witness is claimed.",
+  "evidence": [
+    "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+    "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+    "ARIST-PHYS-201A-CHANGE-A",
+    "PR-529"
+  ],
+  "blocker": "Independently justify the actual thought occurrence and especially that the relevant thought is change in Aristotle's Physics III.1 sense, or find a distinct bearer principle for nonchanging thought."
+}

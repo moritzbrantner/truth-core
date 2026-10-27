@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "argument_id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.notEveryPropositionHolds",
+  "comparator_config": "results/LOGIC-NOT-EVERY-PROPOSITION-HOLDS/comparator.json",
+  "status": "solution-present",
+  "description": "Not every Lean proposition holds, composed from the theorem that False fails. A logical theorem about Prop only."
+}

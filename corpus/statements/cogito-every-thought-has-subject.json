@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "paraphrase": "The bearer principle: every occurring thought episode is borne by some subject. An open metaphysical bridge; it says nothing about substance, persistence or uniqueness of the bearer.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.EveryThoughtHasSubject",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-COGITO-SUBJECT-FROM-OCCURRENCE",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+  ],
+  "output_statement_id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "rule": "constructive-proof",
+  "meaning": "Take the occurring episode, instantiate the bearer principle at it, and pair the bearer with the episode.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
