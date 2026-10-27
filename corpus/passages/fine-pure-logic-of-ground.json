@@ -1,13 +1,14 @@
 {
   "snapshot": {
-    "kind": "web_snapshot",
+    "kind": "bibliographic_span",
     "source_id": "FINE-PURE-LOGIC-OF-GROUND",
-    "source_url": "https://as.nyu.edu/content/dam/nyu-as/philosophy/documents/faculty-documents/fine/accessible_fine/Fine_Pure-Logic-Ground.pdf",
-    "retrieved_at": "2026-10-27T08:08:06Z",
-    "sha256": "sha256:33ec1719f306cd03115bf6d10cc5af2e8ae75b18efa7312d11e888f98d2a5970",
-    "encoding": "utf-8",
+    "author": "Kit Fine",
+    "title": "The Pure Logic of Ground",
+    "journal": "The Review of Symbolic Logic",
+    "year": 2012,
+    "doi": "10.1017/S1755020311000086",
     "language": "eng",
-    "license": "Copyright Association for Symbolic Logic, 2011 (notice on p. 1); reading copy hosted by the author's department on NYU's faculty pages. Only hashes, bibliographic locators and a short incipit are committed; no PDF or extracted text is redistributed. Two fetches on 2026-10-27 gave identical bytes. No Wayback fallback is pinned: web.archive.org was unreachable from the pinning environment (#348), so this snapshot is fragile until a capture is added."
+    "why_bibliographic": "In copyright (Association for Symbolic Logic). The only legitimately hosted copy found is the author-department PDF at https://as.nyu.edu/content/dam/nyu-as/philosophy/documents/faculty-documents/fine/accessible_fine/Fine_Pure-Logic-Ground.pdf. It was read in full for pp. 3-7 on 2026-10-27 (two fetches, identical bytes sha256:33ec1719f306cd03115bf6d10cc5af2e8ae75b18efa7312d11e888f98d2a5970; pdftotext text of physical pages 3-7 sha256:bcb1cbb740aa6aa3ce970efec8fda695276d2cfcaf2b3f8e11f5b4ce3d82b799; its 'Page N of 25' pagination equals the journal's). It cannot serve as a web_snapshot: the host answers GitHub's CI runners with HTTP 405, so `source_evidence.py verify` cannot refetch it, and no Wayback fallback could be pinned because web.archive.org was unreachable from the pinning environment (#348). Upgrade to a web_snapshot with those hashes once a matching Wayback capture is pinned."
   },
   "passages": [
     {
@@ -16,12 +17,7 @@
       "claim_locator_prefixes": [
         "pp. "
       ],
-      "pdf_pages": {
-        "first": 3,
-        "last": 7
-      },
-      "text_sha256": "sha256:bcb1cbb740aa6aa3ce970efec8fda695276d2cfcaf2b3f8e11f5b4ce3d82b799",
-      "incipit": "3 determining various fragments of our system, in which only some of the"
+      "pages": "3-7"
     }
   ]
 }

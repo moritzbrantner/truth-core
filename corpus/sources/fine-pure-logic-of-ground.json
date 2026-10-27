@@ -6,5 +6,5 @@
   "citation_system": "page of The Review of Symbolic Logic 5, no. 1 (2012), pp. 1-25 (the hosted copy's 'Page N of 25' pagination equals its physical PDF page)",
   "work_urn": "https://doi.org/10.1017/S1755020311000086",
   "catalog_url": "https://doi.org/10.1017/S1755020311000086",
-  "notes": "Fine's system PLG of structural rules for weak/strict, full/partial ground, pinned in the copy hosted on NYU's philosophy faculty pages (accessible_fine). Copyright is retained; only hashes and citations are committed."
+  "notes": "Fine's system PLG of structural rules for weak/strict, full/partial ground. Cited as a bibliographic span (pp. 3-7) read from the author-department copy hosted on NYU's faculty pages; that copy is not CI-refetchable (see the passage's why_bibliographic), so it is not yet byte-pinned. Copyright is retained; only citations are committed."
 }
