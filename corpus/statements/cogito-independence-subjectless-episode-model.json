@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-INDEPENDENCE-SUBJECTLESS-EPISODE-MODEL",
+  "paraphrase": "An occurring thought episode can be modeled without any bearer relation.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubjectIndependence.SubjectlessEpisodeModel"
+}
