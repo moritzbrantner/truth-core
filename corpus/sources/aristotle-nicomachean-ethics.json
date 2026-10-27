@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-EN",
+  "kind": "primary_text",
+  "author": "Aristotle",
+  "work": "Nicomachean Ethics",
+  "citation_system": "Bekker",
+  "work_urn": "urn:cts:greekLit:tlg0086.tlg010",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg010.perseus-grc2",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg010",
+  "notes": "Pinned for the definition of the good that Aquinas cites in ST I q.5 a.1 co. (in I Ethic.: bonum est quod omnia appetunt), I.1, 1094a2-3 (#352)."
+}

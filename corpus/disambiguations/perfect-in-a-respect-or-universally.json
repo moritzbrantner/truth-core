@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY",
+  "term": "perfect (in a respect, or universally)",
+  "sense_definition_ids": [
+    "DEF-PERFECT-IN-A-PERFECTION",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "resolution": "STMT-DESIRABLE-INSOFAR-AS-PERFECT and STMT-PERFECT-INSOFAR-AS-IN-ACT use perfect in one respect (`PerfectIn x p`, ST I q.4 a.1 co. and q.5 a.1 co.): a thing is perfect in a perfection when it lacks nothing of it, which q.5 a.1 ad 1 calls perfect secundum quid unless the perfection is the ultimate one. STMT-GOD-IS-PERFECT uses universal perfection (`IsPerfect`, q.4 a.2: lacking none of the perfections found in things). The derivation AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY uses only `PerfectIn`, and no record identifies `PerfectIn` with `IsPerfect`, so no step passes from one sense to the other."
+}

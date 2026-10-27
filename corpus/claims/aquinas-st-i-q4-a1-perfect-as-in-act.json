@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q4-A1-PERFECT-AS-IN-ACT-A",
+  "statement_id": "STMT-PERFECT-INSOFAR-AS-IN-ACT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.4 a.1 co.: Secundum hoc enim dicitur aliquid esse perfectum, secundum quod est actu: nam perfectum dicitur, cui nihil deest secundum modum suae perfectionis",
+  "interpretation": "The earlier text that q.5 a.1's third step relies on (ut ex superioribus patet): a thing is called perfect according as it is in act, because the perfect is that to which nothing is lacking according to the mode of its perfection. Read per perfection as the same biconditional as AQUINAS-ST-I-Q5-A1-PERFECT-AS-IN-ACT-A. In context the sentence grounds the claim that the first active principle, being most in act, is most perfect; that application to God is not part of this statement. Ad 1 extends the name 'perfect' from what is brought from potency to act to whatever does not lack being in act.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-PERFECT-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ],
+  "status": "formalized"
+}

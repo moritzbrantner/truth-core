@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DESIRABLE-IN-A-PERFECTION",
+  "term": "desirable (appetibile; Lean `DesirableIn`)",
+  "definition": "`DesirableIn x p`: x, as having the perfection p, is desirable, an object toward which appetite tends. In Lean `DesirableIn` is a parameter: its content is fixed only by STMT-GOOD-IS-DESIRABLE and STMT-DESIRABLE-INSOFAR-AS-PERFECT. Whose appetite is not specified.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.DesirableInsofarAsPerfectReading",
+  "note": "ST I q.5 a.1 co. uses appetibile without defining it apart from the good; the per-perfection, parameter reading is a modeling choice. A sourced definition would come from Aquinas on the object of appetite (ST I q.80 a.1, already pinned; see DEF-APPETITIVE-OBJECT-ASPECT), which relates the appetible to the good and so would not give an independent definition."
+}

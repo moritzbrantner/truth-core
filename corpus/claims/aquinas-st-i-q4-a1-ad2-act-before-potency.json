@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q4-A1-AD2-ACT-BEFORE-POTENCY-A",
+  "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.4 a.1 ad 2: Oportet enim ante id quod est in potentia, esse aliquid actu: cum ens in potentia non reducatur in actum, nisi per aliquod ens in actu",
+  "interpretation": "Reply to the objection that principles, like seeds, are imperfect: the material principle cannot be simply first (non potest esse simpliciter primum) but is preceded by another, perfect being, as the seed has before it the animal or plant from which it is detached; for before what is in potency there must be something in act, since a being in potency is reduced to act only by a being in act. Read as the simple priority of STMT-ACT-SIMPLY-PRIOR-TO-POTENCY, because the reply's thesis is that the potential principle is not simpliciter primum (DISAMB-PRIORITY-SIMPLE-OR-IN-TIME); the seed example is also a priority in time of a distinct generator, which the statement does not formalize. It is a further witness for the premise beside ST I q.3 a.1 and SCG I.16 and gives the same reason, so it inherits the same gap: from 'reduced only by a being in act' to 'every potency has a prior being in act' needs that each potency is related to some actualization (docs/act-potency-theory.md, finding 4). The prior being is in act in the respect in which the other is in potency only by the reason clause; the reply does not name the respect.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ],
+  "status": "formalized"
+}
