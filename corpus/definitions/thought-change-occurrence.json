@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THOUGHT-CHANGE-OCCURRENCE",
+  "term": "actual thought episode in a selected interpretation",
+  "definition": "ActualThought Thought is ∃ e, Thought e for an unconstrained predicate on episode tokens. It does not itself assert a thinker, time, change, or empirical reliability.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ActualThought",
+  "note": "A formal occurrence predicate for the conditional Cogito bridge; no actual token is supplied by pure logic."
+}
