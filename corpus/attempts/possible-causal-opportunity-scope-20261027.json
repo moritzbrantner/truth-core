@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-POSSIBLE-CAUSAL-OPPORTUNITY-SCOPE-20261027",
+  "statement_ids": [
+    "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+    "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES"
+  ],
+  "date": "2026-10-27",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Under rigid individual identity and classical accessibility, an existent concrete bearer outside all contingent concreta is logically equivalent to a necessarily existing concrete individual; the causal predicate itself is not needed for this step. A two-world structured countermodel has a possible external causal origin of contingent concrete reality and a necessary source, yet one actual contingent individual is uncaused in the other world. Thus the weak modal causal-opportunity candidate is not unrestricted PSR and can eliminate brute-only worlds under its open possibility premises, but it does NOT logically eliminate all actual contingent brute roots. A separate brute-only model with a possible totality beginning but no external possible cause witnesses why the causal-opportunity premise itself is substantive. In this relation-relative formal interpretation, none of the models verifies metaphysical possibility or a particular theory of divine causation.",
+  "evidence": [
+    "EXTERNAL-CANDIDATE-NECESSITY",
+    "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+    "PR-531"
+  ],
+  "blocker": "Defend, using independent modal/causal evidence rather than merely failure to find contradiction, the possibility that the first obtaining of the totality of contingent concreta could have an external concrete cause; additionally, any attempt to exclude contingent brute ROOTS in actual reality needs a stronger actuality/existential-grounding principle not supplied by modal causal opportunity. Pin and read sources before historical attribution."
+}
