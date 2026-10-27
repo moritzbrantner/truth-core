@@ -1,10 +1,11 @@
 {
   "id": "STMT-EVERY-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
-  "paraphrase": "Every mover that moves something, is moved in no respect and is in act in being cannot be otherwise in any respect.",
+  "paraphrase": "Every mover that moves something, is moved in no respect of change (substance, quantity, quality, place) and is in act in being cannot be otherwise in any respect of change.",
   "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.EveryUnmovedMoverCannotBeOtherwiseReading",
   "definition_ids": [
     "DEF-FIRST-UNMOVED-MOVER",
     "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT-OF-CHANGE",
     "DEF-ACT",
     "DEF-ESSE",
     "DEF-RESPECT"

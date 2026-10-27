@@ -2,13 +2,14 @@
   "id": "INF-ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT",
   "input_statement_ids": [
     "STMT-SOME-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
+    "STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY",
     "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
     "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE",
     "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION"
   ],
   "output_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
   "rule": "reductio",
-  "meaning": "Let f be a first mover moved by none. Lambda.7's mover m moves something and is moved in no respect, so it is a first mover moved by none, and by uniqueness f = m; so f cannot be otherwise in any respect. If f were in potency in a respect r, it could fail to be r (potency of the contradictory), hence could be otherwise in r (bridge), which is excluded. So f is in potency in no respect.",
+  "meaning": "Let f be a first mover moved by none. Lambda.7's mover m moves something, is moved in no respect of change and cannot be otherwise in any respect of change; by the scope bridge it is moved in no respect and cannot be otherwise in any respect. So m is a first mover moved by none (this step reads Lambda.7's moving as an end as the case's MovesIn, DISAMB-MOTION), and by uniqueness f = m. If f were in potency in a respect r, it could fail to be r (potency of the contradictory), hence could be otherwise in r (bridge), which is excluded. So f is in potency in no respect.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

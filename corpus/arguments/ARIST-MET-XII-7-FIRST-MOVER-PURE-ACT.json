@@ -2,6 +2,7 @@
   "id": "ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT",
   "premise_statement_ids": [
     "STMT-SOME-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
+    "STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY",
     "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
     "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE",
     "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION"
@@ -10,7 +11,7 @@
   "inference_ids": [
     "INF-ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT"
   ],
-  "meaning": "A second derivation of the stage-1 pure-act statement, beside AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT, that does not apply act's simple priority (STMT-ACT-SIMPLY-PRIOR-TO-POTENCY) to an unmoved being and uses neither non-simultaneity nor the bridge that the first unmoved mover is the first being. Premises: some mover moved in no respect and in act in being cannot be otherwise in any respect (Met. XII.7, 1072b4-10; In Metaph. XII, lect. 7 n. 12-13); there is at most one first mover moved by none (already a premise of the prima via stage-1 route); whatever can fail to be r can be otherwise in r (open bridge, unattributed); every potency is of the contradictory (Met. IX.8, 1050b8-15; In Metaph. IX, lect. 9 n. 2-4). It composes the pure-act corollary of ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS. Each premise is needed (omission models in lambda7RouteFacts). It excludes the countermodel of ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS item 6, a first mover with a dormant potency in place, which Lambda.7 denies of the unmoved mover by contrast with the first heaven. It concludes the same statement as the ST I q.3 a.1 route and closes nothing: three of its four premises are open.",
+  "meaning": "A second derivation of the stage-1 pure-act statement, beside AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT, that does not apply act's simple priority (STMT-ACT-SIMPLY-PRIOR-TO-POTENCY) to an unmoved being and uses neither non-simultaneity nor the bridge that the first unmoved mover is the first being. Premises: some mover moved in no respect of change and in act in being cannot be otherwise in any respect of change (Met. XII.7, 1072b4-10; In Metaph. XII, lect. 7 n. 12-13); such a mover is moved in no respect and cannot be otherwise in any respect (open scope bridge, unattributed); there is at most one first mover moved by none (already a premise of the prima via stage-1 route); whatever can fail to be r can be otherwise in r (open bridge, unattributed); every potency is of the contradictory (Met. IX.8, 1050b8-15; In Metaph. IX, lect. 9 n. 2-4). The uniqueness step reads Lambda.7's moving as an end as the case's MovesIn (DISAMB-MOTION). It composes the pure-act corollary of ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS. Each premise is needed (omission models in lambda7RouteFacts). It excludes the countermodel of ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS item 6, a first mover with a dormant potency in place. It concludes the same statement as the ST I q.3 a.1 route and closes nothing: none of its five premises is closed (four are open leaves, and uniqueness is proved from open premises).",
   "definition_ids": [
     "DEF-FIRST-UNMOVED-MOVER",
     "DEF-PURE-ACT",
@@ -19,7 +20,8 @@
     "DEF-ESSE",
     "DEF-RESPECT",
     "DEF-CAN-FAIL-TO-BE",
-    "DEF-CAN-BE-OTHERWISE"
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT-OF-CHANGE"
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION",

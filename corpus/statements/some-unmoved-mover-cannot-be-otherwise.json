@@ -1,10 +1,11 @@
 {
   "id": "STMT-SOME-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
-  "paraphrase": "There is a mover that moves something, is moved in no respect and is in act in being, and that cannot be otherwise in any respect. It does not say that every unmoved mover cannot be otherwise, nor that there is only one unmoved mover.",
+  "paraphrase": "There is a mover that moves something, is moved in no respect of change (substance, quantity, quality, place) and is in act in being, and that cannot be otherwise in any respect of change. It says nothing of respects that are not respects of change, does not say that every unmoved mover cannot be otherwise, and does not say that there is only one unmoved mover.",
   "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.SomeUnmovedMoverCannotBeOtherwiseReading",
   "definition_ids": [
     "DEF-FIRST-UNMOVED-MOVER",
     "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT-OF-CHANGE",
     "DEF-ACT",
     "DEF-ESSE",
     "DEF-RESPECT"
