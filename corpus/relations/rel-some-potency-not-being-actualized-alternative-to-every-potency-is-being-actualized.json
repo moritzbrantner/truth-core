@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-POTENCY-NOT-BEING-ACTUALIZED-ALTERNATIVE-TO-EVERY-POTENCY-IS-BEING-ACTUALIZED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED",
+  "note": "Contradictory (ACT-PRIOR-FROM-MOTION-FACTS, conjunct 10). Both are unattributed snapshot statements about the situation the case's premises describe. Physics III.1, 201b8-9 (claim ARIST-PHYS-201B-POTENCY-NOT-ALWAYS-ACTIVE-A, STMT-POTENCY-CAN-BE-INACTIVE) denies STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED only read as holding in every situation (conjunct 11), so it does not source this alternative. Neither statement is a premise of any argument, so this relation changes no frontier count."
+}

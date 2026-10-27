@@ -1,0 +1,9 @@
+{
+  "id": "ACT-PRIOR-FROM-MOTION-FACTS",
+  "argument_id": "ACT-PRIOR-FROM-MOTION-FACTS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.actPriorFromMotionFacts",
+  "comparator_config": "results/ACT-PRIOR-FROM-MOTION-FACTS/comparator.json",
+  "status": "solution-present"
+}

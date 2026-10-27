@@ -486,4 +486,31 @@ def BeingMovedIsActualizationOfPotencyReading
     (MovedIn InPotency ActualizedQuaPotential : Being → Respect → Prop) : Prop :=
   ∀ x r, MovedIn x r ↔ InPotency x r ∧ ActualizedQuaPotential x r
 
+/--
+A potential can be inactive: in some situation (a time, or a possible state of things) some
+being is in potency in a respect without being moved in it. Aristotle, *Physics* III.1,
+201b8-9: motion occurs just when the actuality of the potential is present, "for each thing
+can be active at one time and not at another, as the buildable" (ἐνδέχεται γὰρ ἕκαστον ὁτὲ
+μὲν ἐνεργεῖν ὁτὲ δὲ μή, οἷον τὸ οἰκοδομητόν). The buildable's activity as buildable is
+building (201b9-15), so a buildable that is not being built is in potency to the house and
+is not being moved toward it.
+
+Reading steps. "The buildable" is read with the case's `InPotency` and "being active" as
+the buildable with the case's `MovedIn` (motion as reduction, `DEF-MOTION-AS-REDUCTION`),
+each indexed by a `Situation`. The source's "can ... at one time ... at another not" is
+kept as quantification over situations: the statement asserts an inactive potency in *some*
+situation, not in any particular one. It does not say that some potency is inactive now
+(the unattributed `SomePotencyNotBeingActualizedReading` in the Latin act/potency theory),
+nor anything of every potential, nor why a potential is inactive.
+
+Source: Aristotle, *Physics* III.1, 201b8-9 (Bekker pagination).
+CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
+-/
+def PotencyCanBeInactiveReading
+    {Situation : Sort w}
+    {Being : Sort u}
+    {Respect : Sort v}
+    (InPotencyAt MovedInAt : Situation → Being → Respect → Prop) : Prop :=
+  ∃ s x r, InPotencyAt s x r ∧ ¬ MovedInAt s x r
+
 end TruthCore.Greek.Aristotle.Physics

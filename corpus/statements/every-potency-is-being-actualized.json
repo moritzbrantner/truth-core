@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED",
+  "paraphrase": "Open premise, unattributed: every potency is being actualized. Whatever is in potency in a respect is being moved (reduced to act) in that respect. It is the converse of STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY and the one premise the motion route to STMT-ACT-SIMPLY-PRIOR-TO-POTENCY needs beyond the case's own (result ACT-PRIOR-FROM-MOTION-FACTS). No source states it. Physics III.1, 201b8-9 (STMT-POTENCY-CAN-BE-INACTIVE) denies it only read as holding in every situation; read of the present situation alone, its contradictory STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED is unattributed and no source decides it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EveryPotencyIsBeingActualizedReading",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
