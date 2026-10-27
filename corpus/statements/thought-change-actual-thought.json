@@ -1,0 +1,11 @@
+{
+  "id": "STMT-THOUGHT-CHANGE-ACTUAL-THOUGHT",
+  "paraphrase": "At least one episode satisfies the selected thought-occurrence predicate; this is an open actual-occurrence premise.",
+  "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ActualThought",
+  "definition_ids": [
+    "DEF-THOUGHT-CHANGE-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+  ]
+}
