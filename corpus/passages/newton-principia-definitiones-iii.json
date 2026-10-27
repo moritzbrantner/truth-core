@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NEWTON-PRINCIPIA",
+    "source_url": "https://la.wikisource.org/w/index.php?title=Pagina:Principia_newton_la.djvu/8&action=raw&oldid=98404",
+    "retrieved_at": "2026-10-27T01:10:35Z",
+    "sha256": "sha256:3325a34436bfeeca40762c7a8cd9b0635d2d10e908108c0f24186fceaeaf237b",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Newton 1687, public domain; Wikisource transcription under CC BY-SA. Only hashes, a locator and a short incipit committed. The URL pins an immutable MediaWiki revision (oldid); no Wayback capture pinned (the availability API was rate-limited on 2026-10-27), so the snapshot has no fallback."
+  },
+  "passages": [
+    {
+      "id": "NEWTON-PRINCIPIA-DEFINITIONES-I-III",
+      "locator": "Definitiones, Def. I-III (Wikisource page 8)",
+      "claim_locator_prefixes": [
+        "Definitiones, Def. III:"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:3325a34436bfeeca40762c7a8cd9b0635d2d10e908108c0f24186fceaeaf237b",
+      "incipit": "<noinclude><pagequality level=\"3\" user=\"CES1596\" /></noinclude><div"
+    }
+  ]
+}

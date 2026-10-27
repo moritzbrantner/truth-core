@@ -1,0 +1,15 @@
+{
+  "id": "GARRIGOU-LAGRANGE-DIEU-1914-LOCAL-MOTION-IS-BECOMING-A",
+  "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+  "source_id": "GARRIGOU-LAGRANGE-DIEU-1914",
+  "locator": "I, ch. III, n. 36 B, pp. 252, 254: le mouvement local n'est pas plus un état que les autres mouvements, c'est un devenir",
+  "interpretation": "Garrigou-Lagrange's own thesis against the Cartesian notion of a 'state of motion'. P. 252: one cannot speak of a state of motion, since motion, being essentially a change, is the contrary of a state; there is no less change in the passage from one position to another during the motion than in the passage from rest to motion, so if the first change needs a cause the later ones need one by the same title. P. 254: the Aristotelian definition of becoming, the passage from potency to act, applies to local motion as to qualitative motion and growth; local motion is no more a state than the other motions, it is a becoming. Read as: a body persevering in uniform rectilinear motion is being moved in that respect, in the sense of DEF-MOTION-AS-REDUCTION. The statement is weaker than the source: it covers only uniform motion in which a body perseveres, not all local motion. Garrigou-Lagrange does not draw the inertial objection from it: he denies that a communicated motion continues without cause (pp. 253-254, footnote, citing Poincaré) and holds that the motion of Pure Act, which physics cannot exclude, moves a body perpetuating its motion in the void (Note, pp. 760-761). French original; OCR text of the 1914 first edition.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIFORM-MOTION-AS-BECOMING",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING"
+  ]
+}

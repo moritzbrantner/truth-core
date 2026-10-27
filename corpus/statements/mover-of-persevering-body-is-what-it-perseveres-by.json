@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+  "paraphrase": "Unattributed open bridge: whatever moves a body that perseveres in uniform rectilinear motion, in that respect, is a being by which the body perseveres in it. It identifies the case's present, per se mover with what Newton's definitions account for perseverance by; Garrigou-Lagrange denies it (the motion of Pure Act, on which physics cannot pronounce, 1914, pp. 760-761).",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.MoverOfPerseveringBodyAccountsForPerseveranceReading",
+  "definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-UNIFORM-LOCAL-MOTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
+    "DISAMB-MOTION"
+  ]
+}

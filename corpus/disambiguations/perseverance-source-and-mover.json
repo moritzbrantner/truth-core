@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
+  "term": "what a body perseveres by, or what moves it",
+  "sense_definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "resolution": "Newton's 'by which a body perseveres' (`PerseveresBy`) accounts in mechanics for a body's remaining in its state; the case's mover (`MovesIn`) is a being that now and per se reduces the moved from potency to act. Newton says a body perseveres by its inherent force alone (STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE); that excludes a mover only if every mover of a persevering body is something it perseveres by, the explicit unattributed bridge STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY. Garrigou-Lagrange denies the bridge: a local motion cannot go on as a passage from potency to act without the invisible motion of Pure Act, and physics, which only relates phenomena, can neither affirm nor deny it (1914, pp. 760-761, with Duhem's letter, pp. 761-763). Result INERTIAL-OBJECTION-YIELDS-RIVAL shows the bridge is needed (MODEL-INERTIA-DIVINE-MOVER). Compare DISAMB-PRIOR-DETERMINATION-AND-MOVER, the same gap for Papineau's prior lawful determination."
+}

@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NEWTON-PRINCIPIA",
+    "source_url": "https://la.wikisource.org/w/index.php?title=Pagina:Principia_newton_la.djvu/9&action=raw&oldid=98414",
+    "retrieved_at": "2026-10-27T01:10:35Z",
+    "sha256": "sha256:f0ac395d252804793120bdff1db5f28b75d63aa3ead3f4214c79dc10e1ec0559",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Newton 1687, public domain; Wikisource transcription under CC BY-SA. Only hashes, a locator and a short incipit committed. The URL pins an immutable MediaWiki revision (oldid); no Wayback capture pinned (the availability API was rate-limited on 2026-10-27), so the snapshot has no fallback."
+  },
+  "passages": [
+    {
+      "id": "NEWTON-PRINCIPIA-DEFINITIONES-III-VII",
+      "locator": "Definitiones, Def. III (explanation) to Def. VII (Wikisource page 9)",
+      "claim_locator_prefixes": [
+        "Definitiones, Def. III-IV, explicatio:"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:f0ac395d252804793120bdff1db5f28b75d63aa3ead3f4214c79dc10e1ec0559",
+      "incipit": "<noinclude><pagequality level=\"3\" user=\"CES1596\" /></noinclude>Hæc semper"
+    }
+  ]
+}

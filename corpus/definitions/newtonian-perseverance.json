@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NEWTONIAN-PERSEVERANCE",
+  "term": "perseverance in a state; being by which a body perseveres (Newton, Def. III-IV)",
+  "definition": "`Perseveres x r`: body x is in the state r (of rest or of uniform rectilinear motion) and does not change it (perseverare in statu suo). `PerseveresBy y x r`: y is a being by which x perseveres in r (qua corpus ... perseverat). Newton's vocabulary, not identified with `MovedIn` or `MovesIn`: whether perseverance in uniform motion is a being moved is DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING, and whether a mover is something a body perseveres by is DISAMB-PERSEVERANCE-SOURCE-AND-MOVER.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NEWTON-PRINCIPIA-PERSEVERANCE-BY-INERTIA-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.Inertia.PerseveranceByInherentForceAloneReading"
+}
