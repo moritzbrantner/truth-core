@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Report-to-event step for the 'institution or message' fork. Pinned Matthew 16 and 18, John 21 (same Perseus witnesses) and Dei Verbum ch. V (vatican.va web snapshot), and read Matthew 16, 18, 28 and John 20, 21 in full. Derived the narrow scope premise from a historical premise (Matthew 28.18-20 and at least one of the four governing commissions go back to Jesus; Dei Verbum §19) and a link premise (a governing power and the power to teach, if Jesus gave them, make his founding of the Catholic Church a founding in the mandate with a teaching commission; Lumen gentium §§19, 22). The link premise is strictly weaker than the narrow premise, so, relative to the recorded rivals, the fork moves onto the historical premise, where the message rival must deny each of the four governing commissions and may keep Matthew 28. Findings from the text: Matthew 16.18-19 is a promise in the future tense (oikodomēsō, dōsō); Matthew 16.18 and 18.17 are the only Gospel uses of ekklēsia; only Matthew 28.18 and John 20.21 ground the commission in Jesus' own received authority or sending; only Matthew 28.20 names teaching; recipients differ (Peter; the disciples of 18.1; the eleven; the disciples without Thomas; Peter). Rejected: (i) a premise that all five reports go back to Jesus (stronger than needed; Dei Verbum's reading is kept only as the implying statement); (ii) counting teaching or baptizing as governing, which would make the rival's Matthew 28 concession institutional and beg the question; (iii) a separate premise that the commissions were given in the mandate (Matthew 28.18, John 20.21): no recorded rival separates it, so it stays inside the link premise (decomposition gate); (iv) report statements as premises: their content is fixed by the sourced definition DEF-COMMISSION-REPORT-POWERS. Not found: a pinned source stating the historical denial of the governing sayings (Harnack's pinned section does not discuss them). Reaching the root, 57 → 58 open premises (one replaced by two); per-route costs unchanged (cheapest 31), since the route count keeps a sourced premise as one leaf; nothing discharged.",
+  "evidence": [
+    "CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+    "VATICAN-II-DV-19-GOSPELS-HAND-ON-WHAT-JESUS-DID-AND-TAUGHT",
+    "VATICAN-II-LG-19-22-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "NT-MATT-16-18-19-CHURCH-ON-PETER-KEYS-BINDING",
+    "NT-MATT-18-17-18-CHURCH-JUDGES-DISCIPLES-BIND",
+    "NT-JOHN-20-21-23-SENDING-FORGIVE-RETAIN",
+    "NT-JOHN-21-15-17-PETER-SHEPHERD"
+  ]
+}

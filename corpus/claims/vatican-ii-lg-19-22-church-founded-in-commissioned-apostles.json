@@ -1,0 +1,17 @@
+{
+  "id": "VATICAN-II-LG-19-22-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "statement_id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "source_id": "VATICAN-II-LUMEN-GENTIUM",
+  "locator": "§19, first paragraph, and §22, second paragraph; compare §18, second paragraph",
+  "interpretation": "§19: the Lord Jesus constituted the twelve 'ad modum collegii seu coetus stabilis', set Peter over it (citing John 21.15-17), and sent them 'ut suae participes potestatis' to make all peoples his disciples and to sanctify and govern them (citing Matthew 28.16-20, John 20.21-23), so propagating the Church; the universal Church is the one 'quam Dominus in Apostolis condidit et supra beatum Petrum ... aedificavit' (citing Matthew 16.18). §22: the Lord 'unum Simonem ut petram et clavigerum Ecclesiae posuit' (Matthew 16.18-19) and made him 'Pastorem totius sui gregis' (John 21.15ff); the office of binding and loosing given to Peter (Matthew 16.19) was also given to the college of apostles joined to its head (Matthew 18.18; 28.16-20). §18: Christ built the Church by sending the apostles as he was sent by the Father (John 20.21). Read as a conciliar assertion that the Church was founded in the apostles by Jesus' conferring on them, as sharers of the power he received in his mission from the Father, the governing powers of those texts and the commission to make disciples and teach; hence that his founding of the Church, done by that conferral, was done in the exercise of his mandate and included a commission to teach. The council asserts one complete conferral on the twelve as a college under Peter. It does not say that a single governing power, a promise alone, or a grant to any disciple suffices, nor speak of any mandator other than the Father: in the statement these are unattributed open content, not this claim's reading. Limits: a doctrinal assertion, not historical corroboration; it speaks of the Father, not of any mandator g; that the council's Church is catholicChurch is the content of stage 6 (STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH), not of this claim; the council asserts that the powers were given, which the statement does not (that is STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS); the governing/teaching classification of the powers is the stipulation DEF-COMMISSION-EVENT-AND-GOVERNING-POWER, the council's own triad being teaching, sanctifying and governing.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

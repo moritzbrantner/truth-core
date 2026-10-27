@@ -49,6 +49,19 @@
           "n": "20"
         }
       ]
+    },
+    {
+      "id": "NT-JOHN-21",
+      "locator": "21",
+      "claim_locator_prefixes": [
+        "21."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "21"
+        }
+      ]
     }
   ],
   "notes": "Whole chapter retained for context; claim locators identify exact verses."

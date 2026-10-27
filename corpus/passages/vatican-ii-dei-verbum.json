@@ -1,0 +1,34 @@
+{
+  "snapshot": {
+    "source_url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_lt.html",
+    "retrieved_at": "2026-10-27T11:25:13Z",
+    "sha256": "sha256:164f55e1a7512c7d8032199bf98a491b54e0467597b49faab4fee4e000ef06fc",
+    "kind": "web_snapshot",
+    "source_id": "VATICAN-II-DEI-VERBUM",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Copyright Dicastero per la Comunicazione - Libreria Editrice Vaticana; Vatican archive. No source text is committed. No archival fallback is pinned; this snapshot stays fragile to live-page drift."
+  },
+  "passages": [
+    {
+      "id": "VATICAN-II-DEI-VERBUM-V",
+      "locator": "ch. V, §§17–20",
+      "claim_locator_prefixes": [
+        "§17,",
+        "§18,",
+        "§19,",
+        "§20,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Caput V"
+        },
+        "to": {
+          "text": "Caput VI"
+        }
+      },
+      "text_sha256": "sha256:466712c93f8dda5de75676215a926527b9a505820c2d7150e2edb47ded2c7c17",
+      "incipit": "Caput V\nDE NOVO TESTAMENTO\n17. Verbum Dei, quod virtus Dei est in salutem omni"
+    }
+  ]
+}

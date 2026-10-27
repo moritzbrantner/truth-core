@@ -1,0 +1,14 @@
+{
+  "id": "NT-JOHN-21-15-17-PETER-SHEPHERD",
+  "statement_id": "STMT-REPORTED-JOHN-21-PETER-SHEPHERD",
+  "source_id": "NT-JOHN",
+  "locator": "21.15-17",
+  "interpretation": "21.15: 'boske ta arnia mou'; 21.16: 'poimaine ta probatia mou'; 21.17: 'boske ta probatia mou'. Read as a report that Jesus charges Peter with shepherding (feeding and tending) Jesus' own flock; CommissionReport.powers jn21 = [shepherd]. Context read: the whole of chapter 21, including 21.14 (the third appearance to the disciples after being raised), 21.18-19 (Peter's death foretold) and 21.24 (the disciple who testifies to these things and wrote them; 'we know that his testimony is true'). Limits: textual report only; the flock is not identified with a particular society; 21.24 is the Gospel's own claim to true testimony, not an independent confirmation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

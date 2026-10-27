@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Commissions.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.Commissions.narrow_scope_from_commissions"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "paraphrase": "Report-to-event premise: the commission reported in Matthew 28.18-20 goes back to Jesus (he himself gave or promised his disciples the powers it names: to make disciples, to baptize and to teach), and the commission reported in at least one of Matthew 16.18-19, Matthew 18.17-18, John 20.21-23 and John 21.15-17 goes back to Jesus (he himself gave or promised the powers it names: the keys, binding and loosing, the church's judging, forgiving and retaining sins, or shepherding his flock). The substance of each commission is meant, not its wording. Which powers each report names is fixed by DEF-COMMISSION-REPORT-POWERS. It does not say which of the four goes back to Jesus, nor that the recipients are the twelve.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.CommissionReportsGoBackToJesus",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}
