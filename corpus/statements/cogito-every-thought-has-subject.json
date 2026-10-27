@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "paraphrase": "Every occurring thought has some subject; an open bearer principle.",
+  "lean_declaration": "TruthCore.Logic.CogitoBridge.EveryThoughtHasSubject"
+}
