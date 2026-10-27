@@ -226,8 +226,8 @@ binding and loosing and forgiving, Matthew 16.19, 18.18 and John 20.23; Paul on
 Cephas, Galatians 1.18 and 2.9).
 
 **Premise effect.** Reaching the root, the narrow premise leaves the open
-frontier and the two new premises take its place (57 → 58 open premises: 9
-bare, 48 → 49 sourced-undefended). Per-route costs are unchanged (cheapest 31),
+frontier and the two new premises take its place (on main at merge: 61 → 62
+open premises; 12 bare unchanged, 49 → 50 sourced-undefended). Per-route costs are unchanged (cheapest 31),
 because the route count keeps a sourced premise as one leaf. Nothing is
 discharged.
 
