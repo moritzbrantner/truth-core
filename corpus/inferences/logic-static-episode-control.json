@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-STATIC-EPISODE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STATIC-EPISODE-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "A singleton-index model has an occurring episode and no unequal state values, demonstrating that an occurrence premise cannot entail variation without an additional time/observation bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-EMPTY-EPISODE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "An interpretation with an always-false occurrence predicate witnesses the truth of the global nonoccurrence claim without any performed denial.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
