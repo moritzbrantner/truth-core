@@ -1,0 +1,19 @@
+{
+  "id": "ROWE-1979-NARROW-THEISM",
+  "statement_id": "STMT-ROWE-THEISTIC-BEING-EXISTS",
+  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "locator": "p. 335 introductory distinction between narrow and broad theism",
+  "interpretation": "Records the narrow theistic thesis whose denial is the argument’s conclusion, not a claim that Rowe endorses it. The three attributes are joint; no equivalence with every broader deity conception or the full Catholic theory is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

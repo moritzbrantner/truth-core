@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT",
+  "paraphrase": "Every omniscient wholly good being permitting preventable occurring intense suffering faces an unavoidable greater-good loss, balance-neutral good loss, or equal/worse evil cost. This is Rowe’s suggested weaker necessary constraint.",
+  "lean_declaration": "TruthCore.English.Rowe.RefinedPermissionConstraintReading",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING",
+    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

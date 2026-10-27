@@ -1,0 +1,13 @@
+{
+  "id": "INF-PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER",
+  "input_statement_ids": [
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT",
+    "STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER"
+  ],
+  "output_statement_id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "rule": "composition",
+  "meaning": "A thing moved in a respect of physical motion undergoes a physical effect (first bridge); completeness makes that effect fully determined by law by prior physical occurrences; the second bridge turns that determination into a mover in the same respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

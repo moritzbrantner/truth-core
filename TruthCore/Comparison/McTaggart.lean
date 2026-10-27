@@ -9,7 +9,9 @@ observation premise `SomethingIsMovedReading`.
 Both commitments are sourced to the pinned 1908 paper (claims
 `MCTAGGART-1908-TIME-UNREAL-A`, `MCTAGGART-1908-ALL-CHANGE-A-SERIES-A`). The
 C series, the direction of time and McTaggart's later answer to the retorsion
-(*The Nature of Existence* II, ch. 44, not pinned) are not formalized.
+(*The Nature of Existence* II, ch. XLIV, § 511, read as
+`TruthCore.Alternatives.McTaggart.AppearingsDoNotChangeReading`) are not part
+of this bundle.
 -/
 
 namespace TruthCore.Comparison.McTaggart

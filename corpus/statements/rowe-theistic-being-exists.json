@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROWE-THEISTIC-BEING-EXISTS",
+  "paraphrase": "Some being is jointly omniscient, omnipotent and wholly good; this says nothing about a complete Catholic worldview.",
+  "lean_declaration": "TruthCore.English.Rowe.TheisticBeingExists",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

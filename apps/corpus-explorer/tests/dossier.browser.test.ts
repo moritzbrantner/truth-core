@@ -2,6 +2,8 @@ import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
 
+import { getDossiers } from "../src/lib/premise-dossier";
+
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
 const root = path.resolve(import.meta.dir, "../out");
@@ -52,7 +54,10 @@ test("premise dossier: statement navigation, durable attempt evidence and route 
   await registration.getByText("Statement application and certificate", { exact: true }).click();
   expect(await registration.innerText()).toContain("TruthCore.Models.ActPotency.M3.evaluation9");
   const routes = page.getByRole("table", { name: "Open-leaf contribution to routes concluding STMT-CATHOLICISM-TRUE", exact: true });
-  expect(await routes.locator("tbody tr").count()).toBe(8);
+  // A new route to the root adds a row; the expectation follows the emitted dossier (#520).
+  const routeCount = getDossiers()["STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"].route_contributions.length;
+  expect(routeCount).toBeGreaterThan(0);
+  expect(await routes.locator("tbody tr").count()).toBe(routeCount);
   await page.reload();
   await page.getByRole("heading", { name: "Attempt log", exact: true }).waitFor();
   await page.setViewportSize({ width: 390, height: 844 });

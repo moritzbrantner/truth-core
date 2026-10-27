@@ -1,0 +1,20 @@
+{
+  "id": "ROWE-1979-BALANCE-NEUTRAL-PERMISSION",
+  "statement_id": "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT",
+  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "locator": "p. 336 §I n.3, read with premises (1) and (2)",
+  "interpretation": "The suggested qualification in p.336 n.3: one perhaps should not fault the being when preventing the suffering while losing the relevant good would not alter the balance. Records that proposed refined constraint, not a settled theorem about morally permissible permission and not the stronger simplified wording. Counterfactual necessity and the other qualifications of premises (1)/(2) are retained.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING",
+    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

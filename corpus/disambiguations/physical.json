@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PHYSICAL",
+  "term": "physical",
+  "sense_definition_ids": [
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-PAPINEAU-PHYSICAL"
+  ],
+  "resolution": "Two senses. Aristotle's physical motion is motion in place, quality or quantity (`IsPhysicalRespect`, a property of respects); Papineau's physical is what can be specified without the special vocabulary at issue (`Physical`, a property of occurrences). Neither entails the other by definition: a change of quality that is a sensation is a physical motion in Aristotle's sense but may not be physical in Papineau's, and nothing in Papineau's sense restricts physical occurrences to bodies composed of matter and form. The two senses meet only through the explicit, unattributed bridge STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT, so no argument passes from one to the other silently."
+}

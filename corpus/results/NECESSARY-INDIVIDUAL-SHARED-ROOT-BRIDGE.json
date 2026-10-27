@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "argument_id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Unattributed constructive biconditional: a fixed present individual in every successor if and only if every successor is populated and one fixed root is present at each populated successor. This law does not establish either premise's metaphysical truth."
+}

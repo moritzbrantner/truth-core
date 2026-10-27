@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+  "term": "shared root on populated accessible worlds",
+  "definition": "SharedRootOnPopulated F present w root means that the fixed roster member root is present at every F-successor of w whose presence extension is inhabited. It makes no assertion that every successor is populated, that root explains or causes anything, or that the actual world w is accessible from itself. A root shared across histories is thus distinct from a necessarily present individual unless successor-relative population is established separately.",
+  "basis": "stipulative",
+  "note": "Independent mathematical diagnostic, not a reading attributed to Graham Oppy. Uses the already registered Kripke and rigid-roster semantics. See docs/necessary-individual-empty-world-fork.md.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootOnPopulated"
+}

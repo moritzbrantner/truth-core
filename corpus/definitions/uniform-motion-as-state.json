@@ -1,0 +1,10 @@
+{
+  "id": "DEF-UNIFORM-MOTION-AS-STATE",
+  "term": "uniform local motion as a state",
+  "definition": "Uniform motion is a state (status, état de mouvement) like rest: a body persevering in it acquires nothing and does not pass from potency to act; it only changes position, and needs an actual mover only to pass from rest to motion or to change its state (the Cartesian mechanist view as Garrigou-Lagrange reports it, 1914, p. 250). On this sense a body persevering in uniform motion is not `MovedIn` in that respect (DEF-MOTION-AS-REDUCTION). Newton's word status is compatible with this sense but does not decide it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "GARRIGOU-LAGRANGE-DIEU-1914-MECHANIST-STATE-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsNotBeingMovedReading"
+}

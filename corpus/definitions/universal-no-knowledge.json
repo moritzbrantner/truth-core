@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-NO-KNOWLEDGE",
+  "term": "universal denial of propositional knowledge",
+  "definition": "UniversalNoKnowledge Knows := ∀ a p, ¬ Knows a p, with p : Prop. The denial itself is among the quantified contents. This denies knowledge, not truth, belief, assertion, or justification.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.UniversalNoKnowledge",
+  "note": "A strong source-free sceptical thesis, not attributed to Descartes or any historical sceptic. Self-application is tested only under factive knowledge."
+}
