@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-SUBJECT-INFERENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-INDEPENDENCE-SUBJECT-INFERENCE",
+  "rule": "constructive-proof",
+  "meaning": "The existence of an occurring thought and a bearer principle entails some thinking subject.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
