@@ -1,0 +1,10 @@
+{
+  "id": "ACT-BEARER-SUBSTANCE-INFERENCE",
+  "argument_id": "ACT-BEARER-SUBSTANCE-INFERENCE",
+  "challenge_module": "TruthCore.Results.Logic.ActBearer.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ActBearer.Solution",
+  "theorem": "TruthCore.Results.Logic.ActBearer.substanceInference",
+  "comparator_config": "results/ACT-BEARER-SUBSTANCE-INFERENCE/comparator.json",
+  "status": "solution-present",
+  "description": "An occurring act, the bearer principle and the substance principle entail a substantial bearer."
+}
