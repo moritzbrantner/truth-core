@@ -145,6 +145,36 @@ theorem doublesNoninitialCoverage
   refine ⟨(w, y), hyConcrete, ⟨rfl, hyExists⟩, ?_⟩
   exact ⟨rfl, hx.1, hyLink⟩
 
+/-- A reusable *closed conditional schema*, not a philosophical claim about
+actual metaphysical possibility: every nonempty, well-founded source local
+structure whose grounds are sound and whose stipulated noninitial beings
+have actual predecessors has a two-world rigid-identity lift preserving all
+those constraints while having no necessary concrete individual.
+
+This theorem schema quantifies over a genuine source structure and its
+independent noninitial predicate, so it does not manufacture the result by
+defining 'necessary' to mean 'has a source'. -/
+def WorldLocalGroundingDoublingSchema : Prop :=
+  ∀ (Being : Type) (s : LocalState Being) (noninitial : Being → Prop),
+    (∃ x, s.concrete x ∧ s.existsAt x) →
+    WellFounded s.grounds →
+    (∀ y x, s.grounds y x →
+      s.existsAt y ∧ s.existsAt x ∧ y ≠ x) →
+    NoninitialCovered s noninitial →
+    (∀ w v, (doubled s).ontic.frame.access w v) ∧
+    (∀ w, InhabitedAt (doubled s) w) ∧
+    (∀ w, WellFounded ((doubled s).grounds w)) ∧
+    (∀ w y x, (doubled s).grounds w y x →
+      (doubled s).ontic.ExistsAt w y ∧
+      (doubled s).ontic.ExistsAt w x ∧ y ≠ x) ∧
+    (∀ w x, (doubled s).concrete x →
+      (doubled s).ontic.ExistsAt w x →
+      noninitial x.2 →
+      ∃ y, (doubled s).concrete y ∧
+        (doubled s).ontic.ExistsAt w y ∧
+        (doubled s).grounds w y x) ∧
+    ¬ NecessaryConcreteAt (doubled s) false
+
 /-- Schema-level countermodel: for every locally populated and well-founded
 grounding structure, there is a two-world, universally accessible theory
 with exactly the same local structure in both worlds, but without a single
