@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "paraphrase": "A universal bearer rule is compatible with no occurring thoughts.",
+  "lean_declaration": "TruthCore.Logic.CogitoBridge.NoThoughtControl"
+}
