@@ -119,6 +119,22 @@ class TerritoryFixtureTests(unittest.TestCase):
         self.assertEqual(report["global_positions"]["count"], expected)
         self.assertEqual(len(self.report(global_position_limit=1)["global_positions"]["positions"]), 1)
 
+    def test_truncated_enumeration_withholds_positions(self):
+        report = self.report(hitting_set_limit=1)
+        positions = [set(p["atom_ids"]) for p in report["positions"]]
+        conflicts = [set(c["statement_ids"]) for c in report["conflicts"]]
+        self.assertFalse(any(c <= p for c in conflicts for p in positions))
+        rows = {row["statement_id"]: row for row in report["matrix"]}
+        self.assertEqual(rows["P"]["classification"], "enumeration_truncated")
+        self.assertIsNone(report["global_positions"]["count"])
+        self.assertTrue(report["global_positions"]["truncated"])
+
+    def test_rival_eliminated_in_another_component(self):
+        self.arguments["R-ONLY"] = argument("R-ONLY", ["V"], "FALSE")
+        self.results["R-ONLY"] = {"id": "R-ONLY", "argument_id": "R-ONLY", "theorem": "Fixture.R-ONLY"}
+        rows = {row["statement_id"]: row for row in self.report()["matrix"]}
+        self.assertEqual(rows["U"]["classification"], "rivals_eliminated")
+
     def test_witness_of_a_conflict_is_a_defect(self):
         self.models[0]["evaluations"].append({"statement_id": "R", "value": "satisfies"})
         self.assertEqual([d["kind"] for d in self.report()["defects"]], ["witness_satisfies_conflict"])

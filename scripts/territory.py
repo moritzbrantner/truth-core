@@ -131,7 +131,10 @@ def minimal_sets(sets):
 
 
 def minimal_hitting_sets(conflicts, limit):
-    """Berge's algorithm, deterministic; returns (sets, truncated)."""
+    """Berge's algorithm, deterministic; returns (sets, truncated).
+
+    On truncation no sets are returned: a partial antichain need not hit every
+    conflict, so its complements could contain a certified conflict."""
     hitting = [frozenset()]
     for conflict in sorted(conflicts, key=lambda item: (len(item), sorted(item))):
         grown = []
@@ -142,7 +145,7 @@ def minimal_hitting_sets(conflicts, limit):
                 grown.extend(current | {atom} for atom in sorted(conflict))
         hitting = minimal_sets(grown)
         if len(hitting) > limit:
-            return hitting[:limit], True
+            return [], True
     return hitting, False
 
 
@@ -276,15 +279,16 @@ def territory_report(*, statements, arguments, results, relations, claims, sourc
         in_some = {atom for pid in ids for atom in local_positions[pid]["atom_ids"]}
         components.append({"index": index, "atom_ids": members, "position_ids": ids,
                            "conflicts": [conflict_evidence[conflict] for conflict in local_conflicts],
-                           "eliminated_atom_ids": sorted(member_set - in_some),
+                           "eliminated_atom_ids": [] if truncated else sorted(member_set - in_some),
                            "hitting_sets_truncated": truncated})
+    eliminated_atoms = {atom for component in components for atom in component["eliminated_atom_ids"]}
 
-    position_counts = [len(component["position_ids"]) for component in components]
-    global_count = 1
-    for count in position_counts:
-        global_count *= count
+    # A truncated component has withheld positions, so the global count is unknown.
+    global_count = None if hitting_truncated else 1
+    for component in components if not hitting_truncated else []:
+        global_count *= len(component["position_ids"])
     global_positions = []
-    for chosen in product(*(component["position_ids"] for component in components)):
+    for chosen in product(*(component["position_ids"] for component in components)) if not hitting_truncated else []:
         if len(global_positions) >= global_position_limit:
             break
         position_atoms = sorted(atom for pid in chosen for atom in local_positions[pid]["atom_ids"])
@@ -322,8 +326,10 @@ def territory_report(*, statements, arguments, results, relations, claims, sourc
         out_ids = [pid for pid, value in values.items() if value == "out"]
         witnessed_in = [pid for pid in in_ids if local_positions[pid]["status"] == "witnessed"]
         recorded = [{"statement_id": rival, "class": rival_class(seed, rival)} for rival in rivals[seed]]
-        eliminated = set(component["eliminated_atom_ids"])
-        if not in_ids:
+        eliminated = eliminated_atoms
+        if component["hitting_sets_truncated"]:
+            classification = "enumeration_truncated"
+        elif not in_ids:
             classification = "eliminated"
         elif out_ids:
             classification = "split"
@@ -372,7 +378,7 @@ def territory_report(*, statements, arguments, results, relations, claims, sourc
         "components": components,
         "positions": [local_positions[pid] for pid in sorted(local_positions)],
         "global_positions": {"count": global_count, "enumerated": len(global_positions),
-                             "truncated": global_count > len(global_positions), "positions": global_positions},
+                             "truncated": global_count is None or global_count > len(global_positions), "positions": global_positions},
         "matrix": rows,
         "common_ground_candidates": [row["statement_id"] for row in rows if row["classification"] == "common_ground_candidate"],
         "territories": [{"statement_id": row["statement_id"], "routes": row["routes"],
