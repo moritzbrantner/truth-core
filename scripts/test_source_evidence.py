@@ -533,6 +533,126 @@ class TranslationBasisTest(unittest.TestCase):
         se.validate_web_snapshot_ranges({"LATIN": (path, self.LATIN), "ENGLISH": (path, self.ENGLISH)})
 
 
+BIBLIOGRAPHIC = {
+    "kind": "bibliographic_span",
+    "id": "FIXTURE-BIB",
+    "source_id": "S",
+    "locator": "ch. 6, pp. 102-103",
+    "claim_locator_prefixes": ["ch. 6, pp. 102-103"],
+    "author": "A. Author",
+    "title": "A Copyrighted Book",
+    "publisher": "Some Press",
+    "year": 1946,
+    "edition": "2nd ed.",
+    "isbn": "978-0-486-20010-1",
+    "pages": "102-103",
+    "language": "en",
+    "why_bibliographic": "In copyright; no public-domain edition or legitimately hosted copy exists.",
+}
+
+
+class BibliographicSpanTest(unittest.TestCase):
+    """Copyrighted works cited by page without pinned bytes (#378)."""
+
+    PATH = se.ROOT / "corpus" / "passages" / "fixture.json"
+    CLAIM_PATH = se.ROOT / "corpus" / "claims" / "fixture.json"
+
+    def validate(self, **changes: object) -> None:
+        passage = dict(BIBLIOGRAPHIC)
+        for key, value in changes.items():
+            if value is None:
+                passage.pop(key, None)
+            else:
+                passage[key] = value
+        se.validate_manifest(self.PATH, passage)
+
+    def test_accepts_book_and_article_citations(self) -> None:
+        self.validate()
+        self.validate(isbn="0486200108", quotation="One short sentence. And a second one.")
+        self.validate(publisher=None, isbn=None, journal="Mind", doi="10.1093/mind/LIX.236.433", pages=None,
+                      section="§2")
+        self.validate(translation={"translator": "T", "year": 1990, "edition": "E"})
+
+    def test_requires_why_bibliographic(self) -> None:
+        with self.assertRaisesRegex(se.SourceEvidenceError, "why_bibliographic"):
+            self.validate(why_bibliographic=None)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "why_bibliographic must say why"):
+            self.validate(why_bibliographic="copyright")
+
+    def test_rejects_incomplete_or_invalid_citations(self) -> None:
+        cases = [
+            ({"publisher": None}, "publisher \\(book\\) or a journal"),
+            ({"isbn": None}, "isbn or a doi"),
+            ({"isbn": "978-0-486-20010-2"}, "valid ISBN"),
+            ({"doi": "doi:10.1/x"}, "doi must have the form"),
+            ({"pages": None}, "pages or section"),
+            ({"year": "1946"}, "year must be"),
+            ({"author": None}, "missing required field"),
+            ({"quotation": "x" * (se.MAX_QUOTATION_CHARS + 1)}, "short quotation"),
+            ({"translation": {"translator": "T"}}, "translation needs"),
+        ]
+        for changes, message in cases:
+            with self.subTest(changes=changes), self.assertRaisesRegex(se.SourceEvidenceError, message):
+                self.validate(**changes)
+
+    def test_rejects_committed_text_or_byte_hashes(self) -> None:
+        for field in ("text", "sha256", "text_sha256", "git_blob_sha"):
+            with self.subTest(field=field), self.assertRaisesRegex(se.SourceEvidenceError, "commits no text"):
+                self.validate(**{field: "x"})
+
+    def test_precedence_rejects_overlap_with_a_pinned_witness(self) -> None:
+        bib = dict(BIBLIOGRAPHIC)
+        for witness in (
+            {"id": "TEXT", "kind": None, "source_id": "S", "claim_locator_prefixes": ["ch. 6"]},
+            {"id": "WEB", "kind": "web_snapshot", "source_id": "S", "claim_locator_prefixes": ["ch. 6, pp. 102"]},
+        ):
+            passages = {"FIXTURE-BIB": (self.PATH, bib), witness["id"]: (self.PATH, witness)}
+            with self.subTest(witness=witness["id"]), self.assertRaisesRegex(
+                se.SourceEvidenceError, f"overlaps pinned witness {witness['id']}"
+            ):
+                se.validate_bibliographic_ranges(passages)
+        # Another source, or a disjoint range, is allowed; so is a web snapshot beside it.
+        other = {"id": "OTHER", "kind": None, "source_id": "T", "claim_locator_prefixes": ["ch. 6"]}
+        disjoint = {"id": "WEB", "kind": "web_snapshot", "source_id": "S", "claim_locator_prefixes": ["ch. 7"]}
+        passages = {"FIXTURE-BIB": (self.PATH, bib), "OTHER": (self.PATH, other), "WEB": (self.PATH, disjoint)}
+        se.validate_bibliographic_ranges(passages)
+        se.validate_web_snapshot_ranges(passages)
+
+    def test_claims_carry_the_bibliographic_witness_marking(self) -> None:
+        pinned = {"id": "TEXT", "kind": None}
+
+        def check(claim: dict, passage: dict) -> None:
+            se.validate_claim_witness([(self.CLAIM_PATH, claim)], {claim["id"]: passage})
+
+        check({"id": "C", "witness": "bibliographic"}, BIBLIOGRAPHIC)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs witness: 'bibliographic'"):
+            check({"id": "C"}, BIBLIOGRAPHIC)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "only for claims on a bibliographic span"):
+            check({"id": "C", "witness": "bibliographic"}, pinned)
+
+    def test_translated_bibliographic_claims_need_translation_basis(self) -> None:
+        translated = dict(BIBLIOGRAPHIC, translation={"translator": "T", "year": 1990, "edition": "E"})
+        se.validate_claim_basis([(self.CLAIM_PATH, {"id": "C", "basis": "translation"})], {"C": translated})
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs basis"):
+            se.validate_claim_basis([(self.CLAIM_PATH, {"id": "C"})], {"C": translated})
+
+    def test_cannot_be_materialized_and_verify_lists_it_unverified(self) -> None:
+        passages = {"FIXTURE-BIB": (self.PATH, BIBLIOGRAPHIC)}
+        with mock.patch.object(se, "passage_index", return_value=passages), mock.patch.object(
+            se, "validate_bindings", return_value=(1, 0)
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "not byte-verified: no bytes can be materialized"):
+                se.materialize("FIXTURE-BIB", None)
+            with mock.patch.object(se, "fetch_web_bytes") as fetch, mock.patch.object(
+                se, "fetch_source"
+            ) as source, contextlib.redirect_stdout(io.StringIO()) as out:
+                se.verify_all()
+            fetch.assert_not_called()
+            source.assert_not_called()
+        self.assertIn("bibliographic spans not byte-verified (citation only): FIXTURE-BIB", out.getvalue())
+        self.assertIn("1 bibliographic spans not byte-verified", out.getvalue())
+
+
 class PullRequestScopeTest(unittest.TestCase):
     """`verify --base` refetches only the passages whose manifests a change touches."""
 

@@ -93,6 +93,10 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "frontier": items.get(sid),
             "claim_ids": sorted(entry["id"] for entry in claims),
             "supporting_claim_ids": sorted(entry["id"] for entry in supporting_claims),
+            # #378: claims cited by page from a bibliographic span, not byte-verified.
+            "bibliographic_claim_ids": sorted(
+                entry["id"] for entry in [*claims, *supporting_claims] if entry.get("witness") == "bibliographic"
+            ),
             "definition_ids": sorted(did for did in definition_ids if did in definitions),
             "disambiguation_ids": sorted(disambiguation_ids),
             "argument_ids": sorted(touching_ids),
@@ -156,6 +160,8 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
             description = next((record[field] for field in ("interpretation", "definition", "resolution", "meaning", "description", "basis") if record.get(field)), "")
             if directory == "claims":
                 description = f"{record['source_id']} {record['locator']}: {description}"
+                if record.get("witness") == "bibliographic":
+                    description = f"[bibliographic witness, not byte-verified] {description}"
             if directory == "relations":
                 description = f"{record['subject_id']} {record['predicate']} {record['object_id']}: {record.get('note', record.get('basis', ''))}"
             if directory == "results":

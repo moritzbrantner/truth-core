@@ -46,7 +46,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <h2 id="dossier-sources" className="eyebrow">Source readings</h2>
         {claims.length ? <ul className="mt-4 grid gap-4">{claims.map((claim) => <li key={claim.id}>
           <Link className="link-quiet font-mono text-xs" href={`/claims/${claim.id}`}>{claim.id}</Link>
-          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {claim.source_id} · {claim.locator}</p>
+          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {claim.source_id} · {claim.locator}{claim.witness === "bibliographic" ? " · bibliographic citation, not byte-verified" : ""}</p>
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
