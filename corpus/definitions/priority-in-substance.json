@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PRIORITY-IN-SUBSTANCE",
+  "term": "prior in substance (prius substantia et perfectione)",
+  "definition": "`PriorInSubstance y x`: y is prior to x in substance, that is in perfection (prius substantia et perfectione, In Metaph. IX, lect. 9 n. 1, said of distinct beings). A Lean primitive, distinct from simple priority (DEF-SIMPLE-PRIORITY, characterized by the reduction of potency to act) and from priority in time (DEF-PRIORITY-IN-TIME). No source read for #352 identifies it with simple priority; ActPriorFromIncorruptibleFacts passes to simple priority only through the explicit unattributed hypothesis PriorInSubstanceIsSimpleReading.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-PRIOR-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptiblePriorInSubstanceReading"
+}

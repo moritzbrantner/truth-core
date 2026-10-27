@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-IN-METAPH-IX-L9-POTENCY-OF-CONTRADICTION-A",
+  "statement_id": "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "IX, lect. 9 n. 2–4",
+  "interpretation": "Aquinas' proof that no sempiternal being is in potency: every potency is at once of the contradictory (omnis potentia simul est contradictionis), said of passive potency, by which a thing is possible to be and not to be, simply or in a respect (n. 2); what is possible to be can also not be in act (n. 3); what can not be is corruptible, simply or in the respect in which it can not be, as a body that can fail to be in a place is corruptible in place (n. 4): 'Relinquitur ergo, quod omne quod est in potentia, inquantum huiusmodi, corruptibile est.' Read per respect in the case's vocabulary: whatever is in potency in r can fail to be r (CanFailToBe x r). The reading does not make potency in an accidental respect a capacity to fail to be in substance, and it encodes 'can' as a primitive, not as quantification over situations.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE",
+  "paraphrase": "Each simply incorruptible being (one that cannot fail to be in substance) is prior in substance and perfection to each simply corruptible being. It does not say that an incorruptible being exists, and the priority is priority in substance, not simple priority.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptiblePriorInSubstanceReading",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-PRIORITY-IN-SUBSTANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

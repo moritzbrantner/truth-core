@@ -1,0 +1,33 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-METAPH",
+    "source_url": "https://www.corpusthomisticum.org/cmp09.html",
+    "sha256": "sha256:2cd10ecea2d6db5d61c8a242a919f58dd8422d4b76c4b1e0ee7d7179fc786f32",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-27T15:03:10Z",
+    "license": "Latin text as transcribed by Roberto Busa and reviewed by Enrique Alarcón on the Corpus Thomisticum; the site claims copyright for this edition (Fundación Tomás de Aquino, all rights reserved). Only hashes, locators, metadata and a short incipit are committed. No Wayback capture is pinned: the archive was unreachable from the pinning host on 2026-10-27."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-METAPH-IX-L7-L9",
+      "locator": "IX, lect. 7–9",
+      "html_selector": {
+        "from": {
+          "text": "Lectio 7"
+        },
+        "to": {
+          "text": "Lectio 10"
+        }
+      },
+      "text_sha256": "sha256:f3b58c5554ff323a2c98db9b986ffe0af326fbc22624d3a67a288773724baba7",
+      "incipit": "Lectio 7",
+      "claim_locator_prefixes": [
+        "IX, lect. 7 ",
+        "IX, lect. 8 ",
+        "IX, lect. 9 "
+      ]
+    }
+  ]
+}

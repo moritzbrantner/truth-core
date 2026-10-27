@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "rule": "entailment-and-countermodel",
+  "meaning": "Two entailments: a being that cannot fail to be in any respect has no potency, by contraposing 'every potency is of the contradictory'; and a potency in substance makes its bearer corruptible simply, so some incorruptible being is prior to it in substance, hence simply prior, and is in act in substance. Five omission models (a being in potency in substance that cannot fail to be; no priority; nothing in act; nothing incorruptible; priority in substance without simple priority); a model of all five with non-simultaneity; the restricted priority applied to a first being, whose prior is itself; and a model of every prima via premise, the mover-priority bridge, the motion route's restricted priority and the five premises in which a first mover moved by none, first being and incorruptible simply, is in potency in a respect other than substance (a place, in the witness) and not moved in it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

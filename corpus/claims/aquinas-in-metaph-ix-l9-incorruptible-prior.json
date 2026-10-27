@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-PRIOR-A",
+  "statement_id": "STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "IX, lect. 9 n. 1",
+  "interpretation": "'Sempiterna sunt priora corruptibilibus substantia et perfectione: hoc enim manifestum est.' Aquinas uses it to conclude that act is prior to potency in substance and perfection, and calls this proof more proper because act and potency are taken in distinct beings, not in the same one. Read over every pair: each simply incorruptible being (sempiternal read as DEF-INCORRUPTIBLE-SIMPLY) is prior in substance to each simply corruptible being. The priority is priority in substance and perfection (DEF-PRIORITY-IN-SUBSTANCE), not simple priority; Aquinas does not in this sentence assert that any sempiternal being exists (the lecture presupposes the incorruptible heavens, n. 10-13). A weaker defensible reading, that each corruptible being is posterior in substance to some incorruptible one, is not formalized; it would add the existence of an incorruptible being, which the formal facts take as a separate hypothesis.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-PRIORITY-IN-SUBSTANCE",
+    "DEF-CAN-FAIL-TO-BE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}

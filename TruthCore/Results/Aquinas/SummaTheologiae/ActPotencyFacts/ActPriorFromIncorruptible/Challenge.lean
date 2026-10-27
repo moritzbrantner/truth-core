@@ -1,0 +1,6 @@
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
+namespace TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible
+open TruthCore.Latin.Aquinas.SummaTheologiae
+theorem actPriorFromIncorruptibleFacts : ActPriorFromIncorruptibleFacts := by
+  sorry
+end TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible

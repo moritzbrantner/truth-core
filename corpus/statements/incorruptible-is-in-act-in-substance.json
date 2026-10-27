@@ -1,0 +1,13 @@
+{
+  "id": "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE",
+  "paraphrase": "Every simply incorruptible being is in act in substance (in the respect of being). It does not say that such a being is in act in every respect: it may be in potency in a place or quality.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptibleIsInActReading",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}

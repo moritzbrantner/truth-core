@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1050B-POTENCY-OF-CONTRADICTION-A",
+  "statement_id": "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION",
+  "source_id": "ARIST-MET",
+  "locator": "IX.8, 1050b8-15",
+  "interpretation": "'Every potency is at the same time of the contradictory' (πᾶσα δύναμις ἅμα τῆς ἀντιφάσεώς ἐστιν): what is capable of being may not be actual, so the same thing is capable of being and of not being; what can not be may not be, and what may not be is perishable, either simply or in that very respect in which it is said that it may not be, in place, quantity or quality; simply means in substance. Read per respect, as Aquinas reads it (AQUINAS-IN-METAPH-IX-L9-POTENCY-OF-CONTRADICTION-A): whatever is in potency in r can fail to be r. The chapter's later remark that irrational powers are of the contradictory only by being present or absent concerns active powers and is not used.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.actPriorFromIncorruptibleFacts"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

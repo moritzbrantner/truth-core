@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-IN-ACT-A",
+  "statement_id": "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "IX, lect. 9 n. 5–6",
+  "interpretation": "From every potency being corruptible, Aquinas concludes that nothing simply incorruptible is a being in potency simply, in substance (n. 5); but 'nihil prohibet, id quod est incorruptibile simpliciter, esse in potentia secundum quid, aut secundum quale, aut ubi', as the moon is in potency to be lit and the sun in the east is in potency to be in the west; 'Patet ergo ex praedictis, quod omnia sempiterna, inquantum huiusmodi, sunt in actu' (n. 6). Read as act in substance: every simply incorruptible being is in act in the respect esse. 'Inquantum huiusmodi' and the preceding concession restrict the act to substance, so the reading does not say that an incorruptible being is in act, or not in potency, in every respect.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}
