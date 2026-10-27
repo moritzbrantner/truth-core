@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-STATIC-EPISODE-CONTROL",
+  "argument_id": "LOGIC-STATIC-EPISODE-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution",
+  "theorem": "TruthCore.Results.Logic.PerformedDenial.StaticControl.staticControl",
+  "comparator_config": "results/LOGIC-STATIC-EPISODE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "A single actual episode with no state variation across singleton indices. This is not a model of physical or Aristotelian motion."
+}

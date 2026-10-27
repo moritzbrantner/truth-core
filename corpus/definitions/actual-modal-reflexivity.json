@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-MODAL-REFLEXIVITY",
+  "term": "actual world accesses itself",
+  "definition": "The selected actual model world w₀ is accessible from itself. This is not universal accessibility, S5 symmetry or transitivity.",
+  "basis": "stipulative",
+  "note": "Source-free explicit T-like condition for selected-world modal existence in #495; the minimal lifting theorem does not require even this principle.",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.ActualReflexive"
+}

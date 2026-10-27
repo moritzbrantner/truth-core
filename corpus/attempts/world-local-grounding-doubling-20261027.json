@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-WORLD-LOCAL-GROUNDING-DOUBLING-20261027",
+  "statement_ids": [
+    "STMT-WORLD-LOCAL-GROUNDING-DOUBLING"
+  ],
+  "date": "2026-10-27",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "A quantified Lean construction takes any inhabited, well-founded one-world grounding structure whose edges have distinct existing relata and whose independently specified noninitial members have predecessors, and produces two mutually accessible, disjoint rigid-copy histories preserving those world-local constraints while no individual exists concretely and necessarily. An explicit root-child source satisfies every antecedent with an actual grounding edge. This refutes the attempted inference from these world-local premises alone to de re necessary concrete existence within the stipulated semantics; it does not prove the metaphysical possibility of disjoint worlds or rule out anti-brute/cross-world principles.",
+  "evidence": [
+    "WORLD-LOCAL-GROUNDING-DOUBLING",
+    "PR-510"
+  ],
+  "blocker": "No independent metaphysical justification has yet eliminated contingent grounding roots, established universal contingent existential dependence, or constrained cross-world identity/recombination. These remain separate frontier premises."
+}

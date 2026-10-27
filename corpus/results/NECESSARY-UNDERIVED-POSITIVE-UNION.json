@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "argument_id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks",
+  "comparator_config": "results/NECESSARY-UNDERIVED-POSITIVE-UNION/comparator.json",
+  "status": "solution-present",
+  "description": "Globally well-founded union of direct supports among necessary bearers excludes rotating-world roots, without assuming any invariance of support edges. Needs both no contingent direct supporter of a necessary being and actual reflexivity, and explicit excluded middle for the existential witness."
+}

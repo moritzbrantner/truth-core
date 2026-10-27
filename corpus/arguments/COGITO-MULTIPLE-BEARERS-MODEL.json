@@ -1,0 +1,13 @@
+{
+  "id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+  "inference_ids": [
+    "INF-COGITO-MULTIPLE-BEARERS-MODEL"
+  ],
+  "meaning": "Interpret Occurs and Bears as always true, with subjects Bool and one episode; true and false are distinct bearers of it.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-NON-CONTRADICTION",
+  "argument_id": "LOGIC-NON-CONTRADICTION",
+  "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.nonContradiction",
+  "comparator_config": "results/LOGIC-NON-CONTRADICTION/comparator.json",
+  "status": "solution-present",
+  "description": "For every Lean proposition P, P and ¬ P do not both hold. A zero-axiom theorem of Lean's constructive logic, not an assertion about external reality and not a floor marking."
+}

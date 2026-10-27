@@ -1,0 +1,7 @@
+{
+  "id": "STMT-NECESSARILY-UNDERIVED",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NecessarilyUnderived",
+  "paraphrase": "At least one identical actual individual exists necessarily from the selected world and has no direct incoming existential-support edge from an existent at any admitted world. It need not be unique, self-explaining or God.",
+  "definition_ids": ["DEF-NECESSARILY-UNDERIVED", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"],
+  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+}

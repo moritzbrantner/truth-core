@@ -1,0 +1,10 @@
+{
+  "id": "BRUTE-ROOT-DISJUNCTION",
+  "argument_id": "BRUTE-ROOT-DISJUNCTION",
+  "challenge_module": "TruthCore.Results.Causality.BruteRootDisjunction.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BruteRootDisjunction.Solution",
+  "theorem": "TruthCore.Results.Causality.BruteRootDisjunction.bruteRootDisjunction",
+  "comparator_config": "results/BRUTE-ROOT-DISJUNCTION/comparator.json",
+  "status": "solution-present",
+  "description": "A classical formal conditional proves that any nonempty actual concrete world with no de re necessary concrete individual must exhibit either an actual contingent root lacking an actually existent concrete predecessor under the selected existential-grounding relation, or non-well-founded grounding. This neither rules out those rival horns nor establishes any real possible world, PSR, divine attribute or philosophical absurdism."
+}

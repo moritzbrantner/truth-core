@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-NON-CONTRADICTION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LEAN-NON-CONTRADICTION",
+  "inference_ids": [
+    "INF-LOGIC-NON-CONTRADICTION"
+  ],
+  "meaning": "A proof of P ∧ ¬ P applies its second component to its first.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

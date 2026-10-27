@@ -1,0 +1,11 @@
+{
+  "id": "STMT-LEAN-NON-CONTRADICTION",
+  "paraphrase": "Inside Lean logic, ∀ P : Prop, ¬ (P ∧ ¬ P): no proposition holds together with its negation. A logical theorem about Prop, not a thesis about external reality or a self-evidence marking.",
+  "lean_declaration": "TruthCore.Logic.TruthPilot.NonContradiction",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

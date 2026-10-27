@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-SUBJECTLESS-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "rule": "model-construction",
+  "meaning": "Interpret Occurs as always true and Bears as always false over Unit.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -14,6 +14,17 @@ def SomePropositionHolds : Prop := ∃ P : Prop, P
 /-- It is not the case that every proposition fails, within the encoded logic. -/
 def NotEveryPropositionFails : Prop := ¬ (∀ P : Prop, ¬ P)
 
+/-- Non-contradiction inside the encoded logic: no proposition holds together
+with its negation. A theorem about Lean's `Prop` (consolidated from #522; #532),
+not a thesis about external reality and not a self-evidence marking. -/
+def NonContradiction : Prop := ∀ P : Prop, ¬ (P ∧ ¬ P)
+
+/-- Dual of `SomePropositionHolds`: some proposition fails (witness `False`). -/
+def SomePropositionFails : Prop := ∃ P : Prop, ¬ P
+
+/-- Dual of `NotEveryPropositionFails`: not every proposition holds. -/
+def NotEveryPropositionHolds : Prop := ¬ (∀ P : Prop, P)
+
 /-- Test sentences include a logical sentence and a taste sentence. This is a
 small stipulated language, not a classification of every natural-language claim. -/
 inductive Sentence where

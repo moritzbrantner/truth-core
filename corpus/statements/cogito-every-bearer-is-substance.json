@@ -1,0 +1,10 @@
+{
+  "id": "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE",
+  "paraphrase": "The substance principle: every bearer of an occurring thought is a substance (satisfies the supplied substance predicate). An open thesis, strictly beyond the bearer principle.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.EveryBearerIsSubstance",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-COGITO-SUBSTANCE-PREDICATE"
+  ]
+}

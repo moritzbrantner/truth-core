@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution",
+  "theorem_names": ["TruthCore.Results.Logic.PerformedDenial.EmptyControl.emptyControl"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

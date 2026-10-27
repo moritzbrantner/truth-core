@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+  "argument_id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.checks",
+  "comparator_config": "results/NECESSARY-UNDERIVED-NONREFUTATION-LIFT/comparator.json",
+  "status": "solution-present",
+  "description": "A de re necessary actual bearer plus a well-founded actual support graph and cross-world necessary-predecessor lifting constructively refutes the claim that no necessarily underived individual exists. The strong lifting principle remains independently unjustified; this does not establish a concrete God."
+}

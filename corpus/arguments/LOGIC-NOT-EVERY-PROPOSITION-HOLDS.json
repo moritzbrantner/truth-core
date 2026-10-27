@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-HOLDS",
+  "inference_ids": [
+    "INF-LOGIC-NOT-EVERY-PROPOSITION-HOLDS"
+  ],
+  "meaning": "Compose the separately proved failing witness: if every proposition held, the witness False would hold.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}

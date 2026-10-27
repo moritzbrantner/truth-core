@@ -1,0 +1,7 @@
+{
+  "id": "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED",
+  "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NonRefutableNecessarilyUnderived",
+  "paraphrase": "Denying the existence of one rigid de re necessary bearer without existent incoming existential support is contradictory; constructively this is double negation, not a positive existential witness.",
+  "definition_ids": ["DEF-NONREFUTABLE-NECESSARILY-UNDERIVED", "DEF-NECESSARILY-UNDERIVED", "DEF-KANT-MODAL-NECESSITY"],
+  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+}

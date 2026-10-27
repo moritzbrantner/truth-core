@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-NO-THOUGHT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "rule": "model-construction",
+  "meaning": "Interpret Occurs and Bears as always false over Unit; the bearer principle then holds vacuously.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

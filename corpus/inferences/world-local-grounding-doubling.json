@@ -1,0 +1,9 @@
+{
+  "id": "INF-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "rule": "direct-proof",
+  "meaning": "Construct disjoint tagged copies of any base local structure and prove population, sound existing distinct causal endpoints, well-foundedness, independently specified noninitial causal coverage and universal frame accessibility are preserved. Distinct world tags refute de re necessary concrete existence at the designated actual world. The proof is a universally quantified conditional construction, not an existential claim about metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

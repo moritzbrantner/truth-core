@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

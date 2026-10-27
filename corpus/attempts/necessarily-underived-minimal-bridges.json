@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-NECESSARILY-UNDERIVED-MINIMAL-BRIDGES",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+    "STMT-NECESSARY-PREDECESSOR-LIFTING",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-NO-NOVEL-NECESSARY-SUPPORT",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARILY-UNDERIVED"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Lean derives constructive nonrefutation of an underived de re necessary bearer from necessary population, well-founded actual existential support, and necessary-predecessor lifting without any S5 or actual-reflexivity premise. A separate route combines actual reflexivity, no contingent direct supporter of a necessary bearer, and global well-founded union of necessary-to-necessary support edges; no invariance of cross-world direct support is required. Explicit excluded middle converts each nonrefutation into a positive existential theorem. A decomposition shows lifting follows from the no-contingent-ground and one-way no-novel-edge bridges plus selected-world reflexivity, weaker than the prior proposed biconditional invariance. Five zero-axiom finite models distinguish missing necessary population, actual support cycles, rotating necessary-only support, contingent-mediated alternating roots with empty necessary-edge union, and benign world-varying support. Finite controls are interpretations of stipulated primitives, not verification that a metaphysical premise is true. Neither uniqueness, self-explanation, simplicity nor divine attributes follow.",
+  "evidence": [
+    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+    "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+    "NECESSARY-UNDERIVED-POSITIVE-UNION",
+    "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
+    "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL"
+  ],
+  "blocker": "The soundness of the existential-support primitive, necessary population, well-foundedness, and the no-contingent-ground / edge-inclusion / global-union alternatives is a metaphysical research question. Establishing one independent premise with meaningful configuration eliminations remains open in #495; no unconditional existence theorem is claimed."
+}

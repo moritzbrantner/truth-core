@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "argument_id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoSubject.nonSubstantialBearerModel",
+  "comparator_config": "results/COGITO-NON-SUBSTANTIAL-BEARER-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "Omission control for the substance principle: a thought occurs and has a bearer, but no bearer satisfies the substance predicate, so a bearer is not thereby a substance. A finite interpretation, not a metaphysical possibility claim."
+}

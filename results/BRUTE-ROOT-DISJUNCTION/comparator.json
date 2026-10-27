@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.BruteRootDisjunction.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BruteRootDisjunction.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.BruteRootDisjunction.bruteRootDisjunction"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "paraphrase": "Some subject bears some occurring thought episode. Not that the subject is a substance, endures, is unique or is immaterial.",
+  "lean_declaration": "TruthCore.Logic.CogitoSubject.SomeThinkingSubject",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

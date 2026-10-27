@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution",
+  "theorem_names": ["TruthCore.Results.Logic.PerformedDenial.StaticControl.staticControl"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

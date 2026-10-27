@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+  "term": "de re necessary existence, absent existential support and double-negation assertion",
+  "sense_definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED"
+  ],
+  "resolution": "NecessaryAt means the same bearer exists at accessible worlds, not that its essence explains existence. NecessarilyUnderived additionally excludes all existing direct supporters of one actual necessary bearer at every admitted world; it does not assert uniqueness or divine attributes. NonRefutableNecessarilyUnderived is the constructive double negation of that existential claim, not a positive witness. The positive result explicitly uses the separate STMT-EXCLUDED-MIDDLE."
+}
