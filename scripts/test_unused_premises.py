@@ -1,10 +1,18 @@
-"""Offline tests for `corpus.py unused-premises` (#571), on synthetic reports."""
+"""Tests for `corpus.py unused-premises` (#571): synthetic reports offline, and the Lean tool on a fixture."""
 
 from __future__ import annotations
 
+import json
+import shutil
+import subprocess
+import tempfile
 import unittest
+from pathlib import Path
 
 import corpus
+
+FIXTURE = Path(__file__).resolve().parent / "testdata" / "unused-premises" / "Fixture.lean"
+FIXTURE_NS = "TruthCore.UnusedPremisesFixture."
 
 
 def bound(result_id: str, premises: list[dict], status: str = "bound") -> dict:
@@ -75,6 +83,46 @@ class UnusedPremiseFindingsTest(unittest.TestCase):
         self.assertEqual(report["findings"], [])
         self.assertEqual(report["skipped"], ["R", "S"])
         self.assertEqual(report["summary"]["checked"], 0)
+
+
+@unittest.skipUnless(shutil.which("lake"), "needs the Lean toolchain (lake)")
+class UnusedPremisesToolTest(unittest.TestCase):
+    """Run scripts/UnusedPremises.lean on a small fixture that imports only Init."""
+
+    def test_fixture_usage(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            module_dir = Path(tmp) / "TruthCore"
+            module_dir.mkdir()
+            source = module_dir / "UnusedPremisesFixture.lean"
+            shutil.copy(FIXTURE, source)
+            names = ["plain", "viaHelper", "obt", "proj", "mtch", "haveUnused", "both"]
+            tool_input = Path(tmp) / "input.json"
+            tool_input.write_text(json.dumps({
+                "modules": ["TruthCore.UnusedPremisesFixture"],
+                "theorems": [FIXTURE_NS + name for name in names],
+                "bundle_prefixes": [FIXTURE_NS + "Th"],
+            }))
+            script = (
+                'lean --root="$1" -o "$1/TruthCore/UnusedPremisesFixture.olean" "$1/TruthCore/UnusedPremisesFixture.lean"'
+                ' && LEAN_PATH="$1:$LEAN_PATH" lean --run "$2" "$3"'
+            )
+            completed = subprocess.run(
+                ["lake", "env", "sh", "-c", script, "sh", tmp, str(corpus.UNUSED_TOOL), str(tool_input)],
+                cwd=corpus.ROOT, capture_output=True, text=True, check=False,
+            )
+        self.assertEqual(completed.returncode, 0, completed.stderr or completed.stdout)
+        described = {entry["theorem"].removeprefix(FIXTURE_NS): entry["hypotheses"] for entry in json.loads(completed.stdout)}
+
+        def flags(name: str) -> list:
+            return [item.get("conjuncts_used", item["used"]) for item in described[name]]
+
+        self.assertEqual(flags("plain"), [True, False])
+        self.assertEqual(flags("viaHelper"), [True, False])
+        self.assertEqual(flags("obt"), [[False, True, False]])
+        self.assertEqual(flags("proj"), [[False, False, True]])
+        self.assertEqual(flags("mtch"), [[True, False, False]])
+        self.assertEqual(flags("haveUnused"), [True, False])
+        self.assertEqual(flags("both"), [True, True])
 
 
 if __name__ == "__main__":

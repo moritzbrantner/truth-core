@@ -21,7 +21,8 @@ a hypothesis that is only passed along and then dropped is not counted:
 * `And.left`/`And.right`/`.1`/`.2` projections and `And.casesOn`/`And.rec`
   destructuring (which `obtain ⟨_, h, _⟩ := hBundle` elaborates to) are
   followed, so a bundle conjunct counts as used only if its component is;
-* `match` auxiliaries are unfolded and beta-reduced, for the same reason;
+* `match` auxiliaries (`…match_N`, `…match_N_M`) are unfolded and
+  beta-reduced, for the same reason;
 * an argument passed to a `TruthCore` theorem counts only when that theorem's
   own proof uses the corresponding parameter (computed recursively, memoized);
 * a `let`/`have` whose bound variable does not occur in the body is skipped.
@@ -30,6 +31,9 @@ Everything else is conservative: any other occurrence, including a whole
 bundle passed to a helper or occurrence in a type annotation, counts as use.
 So an "unused" report is a fact about the proof term; a "used" report does not
 show that the hypothesis is logically needed.
+
+Set `UNUSED_PREMISES_TRACE=1` to print each theorem name to stderr before it is
+analyzed.
 -/
 import Lean
 
@@ -73,6 +77,12 @@ def bundleLeaves (ty : Expr) : MetaM (Option (Array (List Bool))) := do
 
 def isTruthCore (n : Name) : Bool :=
   n.toString.startsWith "TruthCore."
+
+/-- A `match` auxiliary generated inside a `TruthCore` declaration. -/
+def isMatchAux (n : Name) : Bool :=
+  isTruthCore n && match n with
+    | .str _ s => s.startsWith "match_"
+    | _ => false
 
 mutual
 
@@ -190,14 +200,13 @@ partial def visitApp (tracked : Std.HashMap FVarId Use) (out : IO.Ref (Array Use
       return
     visit tracked out (fn.beta args)
     return
-  if let .const c _ := fn then
-    -- `match` auxiliaries: unfold and beta-reduce, then analyze the body.
-    if (← Meta.isMatcher c) then
-      if let some e' ← unfoldDefinition? e then
-        let e' := e'.headBeta
-        if e' != e then
-          visit tracked out e'
-          return
+  if let .const c us := fn then
+    -- `match` auxiliaries (`…match_1`, `…match_1_1`): unfold and beta-reduce,
+    -- then analyze the body.
+    if (← Meta.isMatcher c) || isMatchAux c then
+      if let some (.defnInfo info) := (← getEnv).find? c then
+        visit tracked out (mkAppN (info.value.instantiateLevelParams info.levelParams us) args).headBeta
+        return
     if let some mask ← paramMask c then
       for h : i in [:args.size] do
         if i < mask.size && !mask[i]! then continue
