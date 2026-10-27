@@ -2897,6 +2897,135 @@ def command_bind_check(args: argparse.Namespace) -> int:
     return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
 
 
+# --- unused-premises (#571): result proofs that ignore a listed premise ---------
+
+UNUSED_TOOL = ROOT / "scripts" / "UnusedPremises.lean"
+
+
+def run_unused_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
+    """Run scripts/UnusedPremises.lean (same input as BindTypes.lean; needs `lake build`)."""
+    import subprocess
+    import tempfile
+
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
+        json.dump(tool_input, handle)
+        input_path = handle.name
+    try:
+        completed = subprocess.run(
+            ["lake", "env", "lean", "--run", str(UNUSED_TOOL), input_path],
+            cwd=ROOT, capture_output=True, text=True, check=False,
+        )
+    except FileNotFoundError as exc:
+        raise CorpusError("unused-premises needs `lake` on PATH (run after `lake build`)") from exc
+    finally:
+        Path(input_path).unlink(missing_ok=True)
+    if completed.returncode != 0:
+        raise CorpusError(
+            f"{UNUSED_TOOL.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
+            f"{completed.stderr.strip() or completed.stdout.strip()}"
+        )
+    try:
+        described = json.loads(completed.stdout)
+    except json.JSONDecodeError as exc:
+        raise CorpusError(f"{UNUSED_TOOL.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
+    if not isinstance(described, list):
+        raise CorpusError(f"{UNUSED_TOOL.relative_to(ROOT)} must print a JSON array")
+    return described
+
+
+def unused_premise_findings(
+    bind_entries: list[dict[str, Any]],
+    usage_list: list[dict[str, Any]],
+    root_open: set[str] | frozenset[str] = frozenset(),
+) -> dict[str, Any]:
+    """Join bind-check's premise binding with the proof-term usage report.
+
+    A finding is a premise statement bound (by bind-check) to a hypothesis, or
+    to a conjunct of a theory-bundle hypothesis, that the proof never uses.
+    Results that bind-check does not bind (status `mismatch`) are skipped and
+    listed, since their premises have no reliable hypothesis positions.
+    `root_open` is the set of open premises from which the root is reached.
+    """
+    usage = {entry.get("theorem"): entry for entry in usage_list}
+    findings: list[dict[str, Any]] = []
+    skipped: list[str] = []
+    checked = 0
+    for entry in bind_entries:
+        if entry.get("kind") == "schema-registration":
+            continue
+        described = usage.get(entry["theorem"])
+        if entry["status"] == "mismatch" or described is None or "error" in described:
+            skipped.append(entry["id"])
+            continue
+        checked += 1
+        by_position = {item["position"]: item for item in described["hypotheses"]}
+        for premise in entry["premises"]:
+            item = by_position.get(premise["position"])
+            if item is None:
+                skipped.append(entry["id"])
+                break
+            if "conjunct" in premise:
+                flags = item.get("conjuncts_used")
+                used = flags[premise["conjunct"]] if isinstance(flags, list) else True
+            else:
+                used = item["used"]
+            if used:
+                continue
+            finding = {
+                "result_id": entry["id"],
+                "theorem": entry["theorem"],
+                "hypothesis": premise["hypothesis"],
+                "statement_id": premise["statement_id"],
+                "open_on_root_path": premise["statement_id"] in root_open,
+            }
+            if "conjunct" in premise:
+                finding["bundle"] = premise["bundle"]
+                finding["conjunct"] = premise["conjunct"]
+            findings.append(finding)
+    return {
+        "summary": {"checked": checked, "findings": len(findings), "skipped": len(skipped)},
+        "findings": findings,
+        "skipped": sorted(set(skipped)),
+    }
+
+
+def command_unused_premises(args: argparse.Namespace) -> int:
+    validate()
+    results = load_dir("results")
+    if args.bind_json:
+        bind_entries = json.loads(Path(args.bind_json).read_text(encoding="utf-8"))["results"]
+    else:
+        bind_entries = bind_report(run_bind_tool(bind_tool_input(results)))["results"]
+    if args.usage_json:
+        usage_list = json.loads(Path(args.usage_json).read_text(encoding="utf-8"))
+    else:
+        usage_list = run_unused_tool(bind_tool_input(results))
+    names = ("statements", "arguments", "results", "relations", "claims", "inferences")
+    data = {name: [record for _, record in load_dir(name)] for name in names}
+    frontier = frontier_report(
+        data["statements"], data["arguments"], data["results"], data["relations"], root=args.root,
+        transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+        claims=data["claims"], inferences=data["inferences"],
+    )
+    root_open = {item["statement_id"] for item in frontier["items"] if item["path_to_root"] is not None}
+    report = unused_premise_findings(bind_entries, usage_list, root_open)
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        for finding in report["findings"]:
+            where = f" (conjunct {finding['conjunct'] + 1} of {finding['bundle']})" if "bundle" in finding else ""
+            root = " [open, on root path]" if finding["open_on_root_path"] else ""
+            print(f"unused: {finding['result_id']}: {finding['statement_id']} via {finding['hypothesis']}{where}{root}")
+        for result_id in report["skipped"]:
+            print(f"skipped: {result_id} (not bound by bind-check)")
+        summary = report["summary"]
+        print(
+            f"unused-premises: {summary['checked']} results checked, {summary['findings']} unused premise(s), "
+            f"{summary['skipped']} skipped"
+        )
+    return 1 if args.strict and report["findings"] else 0
+
+
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description="Inspect and validate the truth-core corpus")
     sub = result.add_subparsers(dest="command", required=True)
@@ -2980,6 +3109,16 @@ def parser() -> argparse.ArgumentParser:
     bind.add_argument("--json", action="store_true", help="print the full deterministic binding report")
     bind.add_argument("--lean-json", help="use a saved scripts/BindTypes.lean output instead of running Lean")
     bind.set_defaults(func=command_bind_check)
+    unused = sub.add_parser(
+        "unused-premises",
+        help="report result premises whose bound hypothesis the proof term never uses (after lake build)",
+    )
+    unused.add_argument("--json", action="store_true", help="print the deterministic report as JSON")
+    unused.add_argument("--strict", action="store_true", help="exit 1 when any unused premise is found")
+    unused.add_argument("--root", default=DEFAULT_FRONTIER_ROOT, help="root for the on-root-path flag")
+    unused.add_argument("--bind-json", help="use a saved `bind-check --json` report instead of running Lean")
+    unused.add_argument("--usage-json", help="use a saved scripts/UnusedPremises.lean output instead of running Lean")
+    unused.set_defaults(func=command_unused_premises)
     return result
 
 
