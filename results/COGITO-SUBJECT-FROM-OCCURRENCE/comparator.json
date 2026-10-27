@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CogitoBridge.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CogitoBridge.thinkingSubjectOfThought"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
