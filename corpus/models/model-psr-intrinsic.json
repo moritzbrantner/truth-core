@@ -9,7 +9,8 @@
     "Model": "TruthCore.Models.PSR.Intrinsic.model",
     "Ontic": "TruthCore.Models.PSR.Intrinsic.model.ontic",
     "world": "false",
-    "individual": "true"
+    "individual": "true",
+    "bearer": "false"
   },
   "carriers": [
     {
@@ -70,9 +71,35 @@
         "Model"
       ],
       "theorem": "TruthCore.Models.PSR.Intrinsic.evaluation3"
+    },
+    {
+      "statement_id": "STMT-MODAL-EXPLANATION-STABLE",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "bearer"],
+      "theorem": "TruthCore.Modal.WorldwiseExplanation.intrinsicModelHasStableReason"
+    },
+    {
+      "statement_id": "STMT-PSR-POPULATED-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.intrinsicPopulated"
+    },
+    {
+      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.intrinsicWellFounded"
+    },
+    {
+      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.intrinsicExplainedSource"
     }
   ],
   "modules": [
-    "TruthCore.Models.PSR"
+    "TruthCore.Models.PSR",
+    "TruthCore.Modal.WorldwiseExplanation",
+    "TruthCore.Explanation.WellFoundedSource"
   ]
 }

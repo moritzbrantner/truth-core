@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+  "argument_id": "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL/comparator.json",
+  "status": "solution-present",
+  "description": "An accessible jointly empty extension witnesses absence for each roster member. Reuse joint_to_individual. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim."
+}

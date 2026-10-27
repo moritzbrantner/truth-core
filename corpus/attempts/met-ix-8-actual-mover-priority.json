@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-MET-IX-8-ACTUAL-MOVER-PRIORITY",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+  ],
+  "kind": "source-search",
+  "outcome": "failed",
+  "summary": "Source search for the unattributed bridge STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR (a being in act in r that moves another being in potency in r is simply prior to it) in Metaphysics IX.8, the text ATTEMPT-NIGHT-COSMOGONY-BUNDLE-ELIMINATION named as the cheapest source. Witness ARIST-MET-IX-8 (Perseus Ross Greek) materialized and read whole (1049b4-1051a3). Rejected readings, with reasons. (a) 1049b24-27 ('the actual always comes to be from the potential by something actual ... the mover already exists actually'): it is the proof that act is prior in time (τῷ δὲ χρόνῳ πρότερον ὧδε, 1049b17-18), and only in species, not in number. DEF-SIMPLE-PRIORITY is explicitly not priority in time (DEF-PRIORITY-IN-TIME, DISAMB-PRIORITY-SIMPLE-OR-IN-TIME), so attributing simple priority to it would pass between the two senses. The sentence already sources STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT (ARIST-MET-1049B-MOVER-ALREADY-ACTUAL-A), which is about the mover being in act, not about its priority. (b) 1050a4-b2 (prior in substance: what is later in generation is prior in form and substance, man to boy; the act is the end for which the potency is had; matter is potentially because it may come to the form): this is priority of a thing's own act over its own potency, not of a mover over the distinct being it moves; reading it as the mover's priority changes the relata. (c) 1050b3-6 ('one actuality always precedes another in time, back to that of the eternal first mover'): temporal again. (d) 1050b6-8 (eternal things are prior in substance to perishable ones, and nothing eternal is potential): a priority of eternal beings over perishable ones, not of every actual mover over what it moves. No sentence of IX.8 states the bridge; no claim was added. Remaining candidate sources: a sourced 'a mover is an efficient cause' bridge composed with STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT (Aquinas), or Aquinas' In Metaph. IX lect. 7-8 if it maps priority in substance to simple priority for movers (unpinned). Even if sourced, the bridge stays open (sourced, undefended) and the Night core leaves STMT-ACT-SIMPLY-PRIOR-TO-POTENCY open (MODEL-NIGHT-COSMOGONY-RESIDUAL).",
+  "evidence": [
+    "GENERATION-FROM-NIGHT-REFUTED",
+    "ARIST-MET-1049B-MOVER-ALREADY-ACTUAL-A",
+    "AQUINAS-ST-I-Q3-A1-ACT-SIMPLY-PRIOR-A"
+  ],
+  "blocker": "No pinned sentence states that an actual mover of another's potency is simply prior to it. Next texts: Aquinas, In Metaph. IX lect. 7-8 (to pin), or a sourced mover-is-efficient-cause bridge."
+}

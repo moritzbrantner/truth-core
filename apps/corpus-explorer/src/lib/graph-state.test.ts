@@ -26,6 +26,16 @@ describe("graph URL state", () => {
     expect(state.status).toEqual([]);
     expect(state.cluster).toBe("passage");
   });
+
+  test("local network state and depth survive a shared URL", () => {
+    const query = "view=local&node=STMT-A&hops=1&sel=STMT-A&relations=0";
+    const state = parseGraphState(new URLSearchParams(query));
+    expect(state.view).toBe("local");
+    expect(state.hops).toBe(1);
+    expect(state.relations).toBe(false);
+    // The serializer keeps its canonical parameter order.
+    expect(parseGraphState(new URLSearchParams(serializeGraphState(state)))).toEqual(state);
+  });
 });
 
 test("viewport restoration rejects malformed and unbounded URL values", () => {

@@ -1,0 +1,11 @@
+{
+  "id": "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD",
+  "term": "bringing actual good from every evil",
+  "definition": "DrawsGoodFrom g x y p means g actually brings the good of perfection p in bearer y from the evil in x. The older distributive reading requires such a bearer and perfection for every x satisfying Evil. It is an interpretive strengthening relative to the collective scope, and does not require a different good for every evil or any outweighing benefit.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading",
+  "note": "Parameter semantics for explicit scope comparison, motivated by the pinned ad 1 wording. A source argument fixing the relation extension or connecting the collective and distributive relations would be needed to go beyond this interpretation; no such bridge is supplied here."
+}

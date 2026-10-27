@@ -1,0 +1,63 @@
+{
+  "id": "MODEL-PSR-MUTUAL-CAUSES",
+  "description": "Two distinct actual existents cause one another at a single world and each has a stipulated intrinsic explanation token. PSR, soundness, population and universal external causation hold, but causal well-foundedness and an uncaused explained source fail.",
+  "vocabulary": "EXISTENCE-PSR",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.mutualCauses",
+  "bindings": {
+    "World": "Unit",
+    "Being": "Bool",
+    "Model": "TruthCore.Explanation.WellFoundedSource.mutualCauses",
+    "world": "Unit.unit"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": ["Unit.unit"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Being",
+      "elements": ["false", "true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesSound"
+    },
+    {
+      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesPSR"
+    },
+    {
+      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesExternal"
+    },
+    {
+      "statement_id": "STMT-PSR-POPULATED-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesPopulated"
+    },
+    {
+      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesNotWF"
+    },
+    {
+      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesNoExplainedSource"
+    }
+  ],
+  "modules": ["TruthCore.Explanation.WellFoundedSource"]
+}

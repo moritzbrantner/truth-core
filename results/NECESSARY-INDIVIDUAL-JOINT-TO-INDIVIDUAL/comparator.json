@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

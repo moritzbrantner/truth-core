@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-MODAL-VARIABLE-EFFECT-SHIFT",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+    "STMT-MODAL-NECESSARY-CAUSES-SOMETHING",
+    "STMT-MODAL-SAME-NECESSARY-EFFECT",
+    "STMT-KANT-CONTINGENT-INDIVIDUAL"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Certified MODEL-MODAL-VARIABLE-EFFECTS and MODEL-MODAL-FIXED-EFFECT both have a necessarily existing source, distinct existing causal relata, and some caused effect at every accessible world, but disagree on whether one rigid effect is present across all worlds; the selected effect is contingent only in the first model. Verified the fixed-effect-to-some-effect implication and a conditional impossibility core for disjoint effect sets. This refutes the quantifier shift, not the necessity of a real concrete cause, free choice, causal determinism or creation. See docs/modal-quantifier-shift-models.md and #462.",
+  "evidence": [
+    "PR-481"
+  ]
+}

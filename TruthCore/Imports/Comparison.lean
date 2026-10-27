@@ -2,10 +2,12 @@
 import TruthCore.Comparison.ExcludedMiddle
 import TruthCore.Comparison.Hiddenness
 import TruthCore.Comparison.HumeRegularity
+import TruthCore.Comparison.McTaggart
 import TruthCore.Comparison.Metaethics
 import TruthCore.Comparison.MoralError
 import TruthCore.Comparison.MoralLanguage
 import TruthCore.Comparison.NaturalisticRealism
+import TruthCore.Comparison.NightCosmogony
 import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.ProblemOfEvilCulpa

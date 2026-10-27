@@ -1,0 +1,10 @@
+{
+  "id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "argument_id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "challenge_module": "TruthCore.Results.Explanation.WellFoundedSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WellFoundedSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.WellFoundedSource.checks",
+  "comparator_config": "results/PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional explained-source result in existence-PSR models: a populated world with well-founded efficient causes has an explained existent without incoming existing efficient causes."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-AD1-GOOD-FROM-EVIL",
+  "term": "bringing good from evil (ad 1): distributive/collective and actual/capable",
+  "sense_definition_ids": [
+    "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
+    "DEF-AD1-COLLECTIVE-CAPABILITY",
+    "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD"
+  ],
+  "resolution": "The older STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL distributes an actual productive relation over every evil-bearing subject. STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY reads the plural final sentence collectively and asserts some actual good only conditionally on a nonempty permitted collection. STMT-GOD-CAN-DRAW-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY extracts only a capability condition from the preceding quotation. The collection parameter is the fixed Evil predicate in each interpretation, not every subset. GoodIn is a good in a bearer and perfection; the existing comparison additionally identifies it with actuality through q.5 a.1, but the new readings do not import that equation. No conversion between collective and per-evil productive predicates, no actual-to-capable bridge, and no counterfactual logic are defined or proved. The existing Catholic comparison and its results retain the stronger disputed per-evil commitment; the new claims are siblings, not an automatic replacement or a discharged premise. Evil is a predicate on subjects: these readings group evil-in-subjects and do not individuate multiple evil events in one subject. The older quantifier is per evil-bearing subject; its traditional shorthand every evil must not be read as a formal event-by-event quantifier."
+}

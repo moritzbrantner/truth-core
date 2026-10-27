@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-FINITE-LOCAL-CAUSAL-SOURCES-DO-NOT-GLOBALIZE",
+  "date": "2026-10-26",
+  "statement_ids": [
+    "STMT-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE",
+    "STMT-CAUSAL-GLOBAL-SOURCE",
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Formal infinite Nat reverse-successor interpretation satisfies a local source in every finite nonempty induced subgraph and has no causal loops, but the full relation has no source at all. This is a verified mathematical counterexample to the local-finite-to-global quantifier shift, not a physical infinity or a metaphysical coherence certificate. See TruthCore.Causality.FiniteRestriction.finiteLocalSourcesAndNoGlobalSource and docs/causal-finite-branching-and-psr-syllogisms.md.",
+  "evidence": ["CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL", "PR-481"]
+}

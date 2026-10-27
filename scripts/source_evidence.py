@@ -39,6 +39,15 @@ WAYBACK_RE = re.compile(r"^https://web\.archive\.org/web/(\d{14})id_/(.+)$")
 # A web snapshot commits hashes, locators and at most a short incipit, no text.
 MAX_INCIPIT_CHARS = 80
 TRANSLATION_BASIS = "translation"
+# A bibliographic span cites a copyrighted edition by page locator, with no
+# pinned bytes (owner decision 1c on #378). It is admissible only where no
+# pinnable witness exists, and every claim on it is marked as such.
+BIBLIOGRAPHIC_SPAN = "bibliographic_span"
+BIBLIOGRAPHIC_WITNESS = "bibliographic"
+# At most a short quotation (about two sentences, fair-use scale).
+MAX_QUOTATION_CHARS = 300
+MIN_WHY_BIBLIOGRAPHIC_CHARS = 20
+DOI_RE = re.compile(r"^10\.\d{4,9}/\S+$")
 
 
 class SourceEvidenceError(Exception):
@@ -74,8 +83,12 @@ def is_web_snapshot(passage: dict[str, Any]) -> bool:
     return passage.get("kind") == WEB_SNAPSHOT
 
 
+def is_bibliographic(passage: dict[str, Any]) -> bool:
+    return passage.get("kind") == BIBLIOGRAPHIC_SPAN
+
+
 def is_translation(passage: dict[str, Any]) -> bool:
-    return is_web_snapshot(passage) and passage.get("translation") is not None
+    return (is_web_snapshot(passage) or is_bibliographic(passage)) and passage.get("translation") is not None
 
 
 def validate_claim_locator_prefixes(path: Path, passage: dict[str, Any]) -> None:
@@ -221,11 +234,7 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
         raise SourceEvidenceError(f"{where}: raw_text must be true")
     translation = passage.get("translation")
     if translation is not None:
-        if not isinstance(translation, dict):
-            raise SourceEvidenceError(f"{where}: translation must be an object")
-        missing = [field for field in ("translator", "year", "edition") if translation.get(field) in (None, "")]
-        if missing:
-            raise SourceEvidenceError(f"{where}: translation needs {', '.join(missing)}")
+        validate_translation(where, translation)
     wayback = passage.get("wayback_url")
     if wayback is not None:
         match = WAYBACK_RE.fullmatch(wayback) if isinstance(wayback, str) else None
@@ -244,7 +253,79 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
         raise SourceEvidenceError(f"{where}: web snapshots must not commit page text")
 
 
+def validate_translation(where: str, translation: Any) -> None:
+    if not isinstance(translation, dict):
+        raise SourceEvidenceError(f"{where}: translation must be an object")
+    missing = [field for field in ("translator", "year", "edition") if translation.get(field) in (None, "")]
+    if missing:
+        raise SourceEvidenceError(f"{where}: translation needs {', '.join(missing)}")
+
+
+def valid_isbn(value: str) -> bool:
+    digits = value.replace("-", "").replace(" ", "").upper()
+    if re.fullmatch(r"\d{9}[\dX]", digits):
+        total = sum((10 - i) * (10 if c == "X" else int(c)) for i, c in enumerate(digits))
+        return total % 11 == 0
+    if re.fullmatch(r"\d{13}", digits):
+        total = sum((1 if i % 2 == 0 else 3) * int(c) for i, c in enumerate(digits))
+        return total % 10 == 0
+    return False
+
+
+def validate_bibliographic_manifest(path: Path, passage: dict[str, Any]) -> None:
+    """A bibliographic span cites an edition and an exact page or section; no bytes, no text."""
+    require(
+        passage,
+        ["id", "source_id", "locator", "claim_locator_prefixes", "author", "title", "year", "language",
+         "why_bibliographic"],
+        path,
+    )
+    validate_claim_locator_prefixes(path, passage)
+    where = f"{path.relative_to(ROOT)}: {passage['id']}"
+    for field in ("author", "title", "language"):
+        if not isinstance(passage[field], str):
+            raise SourceEvidenceError(f"{where}: {field} must be a string")
+    year = passage["year"]
+    if isinstance(year, bool) or not isinstance(year, int) or not 1000 <= year <= 2100:
+        raise SourceEvidenceError(f"{where}: year must be the four-digit publication year of the cited edition")
+    if not any(isinstance(passage.get(field), str) and passage[field] for field in ("publisher", "journal")):
+        raise SourceEvidenceError(f"{where}: a bibliographic span needs a publisher (book) or a journal (article)")
+    if not any(passage.get(field) for field in ("isbn", "doi")):
+        raise SourceEvidenceError(f"{where}: a bibliographic span needs an isbn or a doi")
+    if "isbn" in passage and not (isinstance(passage["isbn"], str) and valid_isbn(passage["isbn"])):
+        raise SourceEvidenceError(f"{where}: isbn must be a valid ISBN-10 or ISBN-13")
+    if "doi" in passage and not (isinstance(passage["doi"], str) and DOI_RE.fullmatch(passage["doi"])):
+        raise SourceEvidenceError(f"{where}: doi must have the form 10.<registrant>/<suffix>")
+    if not any(isinstance(passage.get(field), str) and passage[field] for field in ("pages", "section")):
+        raise SourceEvidenceError(f"{where}: a bibliographic span needs an exact pages or section locator")
+    why = passage["why_bibliographic"]
+    if not isinstance(why, str) or len(why.strip()) < MIN_WHY_BIBLIOGRAPHIC_CHARS:
+        raise SourceEvidenceError(
+            f"{where}: why_bibliographic must say why no pinnable witness (public-domain edition, "
+            "web_snapshot of a legitimately hosted copy) exists"
+        )
+    quotation = passage.get("quotation")
+    if quotation is not None and (
+        not isinstance(quotation, str) or not quotation or len(quotation) > MAX_QUOTATION_CHARS
+    ):
+        raise SourceEvidenceError(
+            f"{where}: quotation must be a short quotation of at most {MAX_QUOTATION_CHARS} characters; "
+            "paraphrase otherwise"
+        )
+    if passage.get("translation") is not None:
+        validate_translation(where, passage["translation"])
+    for field in ("text", "transcript", "sha256", "text_sha256", "git_blob_sha", "span_sha256"):
+        if field in passage:
+            raise SourceEvidenceError(
+                f"{where}: a bibliographic span commits no text and claims no byte hash ({field}); "
+                "upgrade it to a pinned witness instead"
+            )
+
+
 def validate_manifest(path: Path, passage: dict[str, Any]) -> None:
+    if is_bibliographic(passage):
+        validate_bibliographic_manifest(path, passage)
+        return
     if is_media_span(passage):
         validate_media_span_manifest(path, passage)
         return
@@ -408,7 +489,8 @@ def validate_web_snapshot_source(
 ) -> None:
     if source[1].get("kind") == "media_recording":
         raise SourceEvidenceError(
-            f"{path.relative_to(ROOT)}: web snapshot {passage['id']} cannot cite a media_recording source"
+            f"{path.relative_to(ROOT)}: {passage['kind'].replace('_', ' ')} {passage['id']} "
+            "cannot cite a media_recording source"
         )
 
 
@@ -425,7 +507,7 @@ def validate_web_snapshot_ranges(passages: dict[str, tuple[Path, dict[str, Any]]
     witnesses = [
         passage
         for _, passage in passages.values()
-        if not is_web_snapshot(passage) and not is_media_span(passage)
+        if not is_web_snapshot(passage) and not is_media_span(passage) and not is_bibliographic(passage)
     ]
     for path, passage in passages.values():
         if not is_web_snapshot(passage):
@@ -438,6 +520,49 @@ def validate_web_snapshot_ranges(passages: dict[str, tuple[Path, dict[str, Any]]
                     f"{path.relative_to(ROOT)}: web snapshot {passage['id']} overlaps pinned witness "
                     f"{witness['id']}; cite the pinned witness (upgrade its claims) instead"
                 )
+
+
+def validate_bibliographic_ranges(passages: dict[str, tuple[Path, dict[str, Any]]]) -> None:
+    """Precedence: a bibliographic span is admissible only where no pinned witness
+    (git text witness or web snapshot) of the same source covers the range."""
+    pinned = [
+        passage
+        for _, passage in passages.values()
+        if not is_bibliographic(passage) and not is_media_span(passage)
+    ]
+    for path, passage in passages.values():
+        if not is_bibliographic(passage):
+            continue
+        for witness in pinned:
+            if witness["source_id"] == passage["source_id"] and prefixes_overlap(
+                passage["claim_locator_prefixes"], witness["claim_locator_prefixes"]
+            ):
+                raise SourceEvidenceError(
+                    f"{path.relative_to(ROOT)}: bibliographic span {passage['id']} overlaps pinned witness "
+                    f"{witness['id']}; a bibliographic citation is allowed only where no pinnable witness "
+                    "exists, so cite the pinned witness instead"
+                )
+
+
+def validate_claim_witness(
+    claims: list[tuple[Path, dict[str, Any]]], bound: dict[str, dict[str, Any]]
+) -> None:
+    """Every claim on a bibliographic span carries witness: "bibliographic", and no
+    other claim does, so a reader can tell byte-verified evidence from a citation."""
+    for path, claim in claims:
+        passage = bound[claim["id"]]
+        witness = claim.get("witness")
+        if is_bibliographic(passage):
+            if witness != BIBLIOGRAPHIC_WITNESS:
+                raise SourceEvidenceError(
+                    f"{path.relative_to(ROOT)}: claim on bibliographic span {passage['id']} "
+                    f"needs witness: {BIBLIOGRAPHIC_WITNESS!r} (not byte-verified)"
+                )
+        elif witness is not None:
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: witness {witness!r} is only for claims on a bibliographic span; "
+                "remove it when the passage is upgraded to a pinned witness"
+            )
 
 
 def validate_claim_basis(
@@ -482,7 +607,7 @@ def validate_bindings() -> tuple[int, int]:
             )
         if is_media_span(passage):
             validate_media_span_source(path, passage, source)
-        elif is_web_snapshot(passage):
+        elif is_web_snapshot(passage) or is_bibliographic(passage):
             validate_web_snapshot_source(path, passage, source)
         else:
             validate_text_witness_source(path, passage, source)
@@ -495,6 +620,7 @@ def validate_bindings() -> tuple[int, int]:
                 )
             seen_prefixes[key] = passage["id"]
     validate_web_snapshot_ranges(passages)
+    validate_bibliographic_ranges(passages)
 
     bound: dict[str, dict[str, Any]] = {}
     for path, claim in claims:
@@ -513,6 +639,7 @@ def validate_bindings() -> tuple[int, int]:
             )
         bound[claim["id"]] = matches[0]
     validate_claim_basis(claims, bound)
+    validate_claim_witness(claims, bound)
 
     return len(passages), len(claims)
 
@@ -684,7 +811,7 @@ def regenerate_media_export(passage: dict[str, Any]) -> Path | None:
 
 
 def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tuple[list[dict[str, Any]], str]:
-    """Find the pinned span in an export and reject any hash mismatch.
+    """Find the pinned span and require its producer revision, hash and count.
 
     Lookup order: an explicit --export file, the local cache, then a fresh export
     from YOUTUBE_CORPUS_DIR. Returns the segments and the export's producer revision.
@@ -704,6 +831,13 @@ def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tup
             f"place one at {cached.relative_to(ROOT)}, or set YOUTUBE_CORPUS_DIR"
         )
     export = load_media_export(candidates[0])
+    producer = export.get("producer")
+    producer_revision = producer.get("revision") if isinstance(producer, dict) else None
+    if producer_revision != passage["producer_revision"]:
+        raise SourceEvidenceError(
+            f"{passage['id']}: export {candidates[0]} producer revision mismatch: "
+            f"expected {passage['producer_revision']!r}, got {producer_revision!r}"
+        )
     streams = media_span_segments(export, passage)
     if not streams:
         raise SourceEvidenceError(
@@ -724,7 +858,7 @@ def resolve_media_span(passage: dict[str, Any], export_path: Path | None) -> tup
             f"{passage['id']}: media span mismatch: expected {passage['span_sha256']} "
             f"({passage['segment_count']} segments), got {actual} ({len(segments)} segments)"
         )
-    return segments, str(export.get("producer", {}).get("revision", ""))
+    return segments, producer_revision
 
 
 def format_timestamp(seconds: float) -> str:
@@ -1129,6 +1263,7 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
     media_verified = 0
     media_skipped = []
     web_verified = 0
+    bibliographic = []
     fetched: dict[tuple[str, str], bytes] = {}
 
     def fetch_once(url: str, expected: str, label: str) -> bytes:
@@ -1137,6 +1272,10 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
         return fetched[(url, expected)]
 
     for _, passage in passages.values():
+        if is_bibliographic(passage):
+            # No bytes are pinned: there is nothing to fetch or re-hash.
+            bibliographic.append(passage["id"])
+            continue
         if is_web_snapshot(passage):
             # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
             materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
@@ -1172,9 +1311,12 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
         print(
             f"media spans not re-verified (no local source-span export): {', '.join(media_skipped)}"
         )
+    if bibliographic:
+        print(f"bibliographic spans not byte-verified (citation only): {', '.join(sorted(bibliographic))}")
     print(
         f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots, "
-        f"{media_verified} media spans verified, {web_verified} web snapshot passages verified"
+        f"{media_verified} media spans verified, {web_verified} web snapshot passages verified, "
+        f"{len(bibliographic)} bibliographic spans not byte-verified"
     )
     return 0
 
@@ -1279,14 +1421,13 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
         raise SourceEvidenceError(f"unknown passage id {passage_id}")
     _, passage = indexed
 
+    if is_bibliographic(passage):
+        raise SourceEvidenceError(
+            f"{passage_id}: bibliographic span, not byte-verified: no bytes can be materialized; "
+            f"read {bibliographic_citation(passage)} in the cited edition itself"
+        )
     if is_media_span(passage):
-        segments, producer_revision = resolve_media_span(passage, Path(export) if export else None)
-        if producer_revision != passage["producer_revision"]:
-            print(
-                f"note: export producer revision {producer_revision} differs from pinned "
-                f"{passage['producer_revision']}; the span hash still matches",
-                file=sys.stderr,
-            )
+        segments, _ = resolve_media_span(passage, Path(export) if export else None)
         text = media_span_text(segments)
     elif is_web_snapshot(passage):
         if export:
@@ -1357,11 +1498,21 @@ def web_hashes(
     return 0
 
 
+def bibliographic_citation(passage: dict[str, Any]) -> str:
+    venue = passage.get("journal") or passage.get("publisher")
+    edition = f", {passage['edition']}" if passage.get("edition") else ""
+    identifier = f"ISBN {passage['isbn']}" if passage.get("isbn") else f"doi:{passage['doi']}"
+    where = f"pp. {passage['pages']}" if passage.get("pages") else passage["section"]
+    return f"{passage['author']}, {passage['title']} ({venue}, {passage['year']}{edition}; {identifier}), {where}"
+
+
 def check() -> int:
     passage_count, claim_count = validate_bindings()
+    bibliographic = sum(is_bibliographic(passage) for _, passage in passage_index().values())
     print(
-        f"source evidence manifests ok: {passage_count} passages; "
-        f"{claim_count} formalized claims have unambiguous source evidence"
+        f"source evidence manifests ok: {passage_count} passages"
+        + (f" ({bibliographic} bibliographic, not byte-verified)" if bibliographic else "")
+        + f"; {claim_count} formalized claims have unambiguous source evidence"
     )
     return 0
 
@@ -1376,7 +1527,7 @@ def parser() -> argparse.ArgumentParser:
         "verify",
         help=(
             "fetch and hash-check all immutable source snapshots and web snapshots; "
-            "media spans only from a local export"
+            "media spans only from a local export; bibliographic spans are listed as not byte-verified"
         ),
     )
     verify_parser.add_argument("--export", help="youtube-corpus source-span export for media spans")

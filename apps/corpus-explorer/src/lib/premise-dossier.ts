@@ -34,6 +34,7 @@ export type PremiseDossier = {
   objection_relation_ids: string[];
   countermodel_attempt_ids: string[];
   attempts: CorpusAttempt[];
+  configuration_cases?: Array<{ id: string; semantics_id: string; href: string; verification: string }>;
   model_evaluations: Array<{ model_id: string; vocabulary: string; lean_declaration: string;
     value: "satisfies" | "violates"; theorem: string; arguments: string[] }>;
   route_contributions: Array<{ argument_id: string; cost: number; open_leaf: boolean; direct_premise: boolean }>;
@@ -70,6 +71,8 @@ function dossier(value: unknown): value is PremiseDossier {
   const idLists = ["claim_ids", "supporting_claim_ids", "definition_ids", "disambiguation_ids", "argument_ids", "result_ids",
     "transcription_result_ids", "instantiation_result_ids", "alternative_relation_ids", "objection_relation_ids", "countermodel_attempt_ids"];
   return idLists.every((key) => strings(value[key])) && Array.isArray(value.attempts) && value.attempts.every(attempt)
+    && (value.configuration_cases === undefined || (Array.isArray(value.configuration_cases) && value.configuration_cases.every((entry: unknown) => record(entry)
+      && typeof entry.id === "string" && typeof entry.semantics_id === "string" && typeof entry.href === "string" && typeof entry.verification === "string")))
     && Array.isArray(value.model_evaluations) && value.model_evaluations.every((model: unknown) => record(model)
       && typeof model.model_id === "string" && typeof model.vocabulary === "string" && typeof model.lean_declaration === "string"
       && oneOf(["satisfies", "violates"], model.value) && typeof model.theorem === "string" && strings(model.arguments))

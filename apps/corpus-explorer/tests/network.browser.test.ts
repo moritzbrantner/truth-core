@@ -32,7 +32,8 @@ for (const mobile of [false, true]) {
     await page.locator(".network-marker").first().waitFor();
     await shell.scrollIntoViewIfNeeded();
     const mounted = await page.locator(".network-marker").count();
-    expect(mounted).toBeGreaterThan(1000);
+    // The overview loads the root bucket only (#491); other buckets load on demand.
+    expect(mounted).toBeGreaterThan(100);
     const corpus = getPropositionGraph();
     expect(mounted).toBeLessThanOrEqual(corpus.statements.length + corpus.inferences.length);
     const initialMs = Math.round(performance.now() - start);
@@ -139,6 +140,8 @@ test("frontier is the homepage: dot statuses, direct workspace, and durable emph
   await page.getByRole("button", { name: "Frontier highlighted" }).click();
   await page.waitForURL((url) => url.searchParams.get("emphasis") === "all");
   await page.reload();
+  // Graph data loads asynchronously in buckets (#491).
+  await page.locator(".network-marker[data-frontier='true']").first().waitFor();
   expect(await page.getByRole("button", { name: "Show all equally" }).getAttribute("aria-pressed")).toBe("false");
   expect(await page.locator(".network-marker[data-frontier='true']").count()).toBe(count);
   await page.goto(new URL(`${basePath}/?q=no-statement-has-this-query`, server.url).toString());
@@ -172,3 +175,48 @@ test("recorded claim evidence links related propositions without changing proof 
   expect(await page.getByRole("checkbox", { name: "Recorded research links (not proof)" }).isChecked()).toBe(false);
   await page.close();
 }, 60000);
+
+for (const mobile of [false, true]) {
+  test(`local constellation: ${mobile ? "touch" : "pointer"}, depth, research toggle, and URL return`, async () => {
+    const relation = getPropositionGraph().relations.find((entry) => entry.originKind === "claim" && entry.subject !== entry.object);
+    if (!relation) { throw new Error("Expected a claim-backed research relation"); }
+    const page = await browser.newPage({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile, isMobile: mobile });
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    // A retained research-queue selection must not suppress fit-to-view when
+    // switching to a local constellation with multiple visible neighbors.
+    const url = new URL(`${basePath}/?sel=${encodeURIComponent(relation.subject)}&obligation=VIEW-TEST`, server.url);
+    await page.goto(url.toString());
+    await page.locator(".graph-detail").getByRole("button", { name: "Local graph", exact: true }).click();
+    await page.waitForURL((location) => location.searchParams.get("view") === "local" && location.searchParams.get("node") === relation.subject);
+    const depth = page.getByLabel("Neighborhood depth");
+    await depth.selectOption("0");
+    await page.waitForURL((location) => location.searchParams.get("hops") === "0");
+    expect(await page.locator(".network-marker").count()).toBe(1);
+    await depth.selectOption("1");
+    await page.waitForURL((location) => location.searchParams.get("hops") === "1");
+    const peer = page.locator(`.react-flow__node[data-id="${relation.object}"]`);
+    await peer.locator(".network-marker").waitFor();
+    expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
+    if (!mobile) {
+      await page.locator(`.react-flow__node[data-id="${relation.subject}"]`).hover();
+      expect(await peer.locator('.network-marker[data-hover-neighbor="true"]').count()).toBe(1);
+    }
+    await depth.selectOption("2");
+    // The serializer omits the default two-hop depth from shareable URLs.
+    await page.waitForURL((location) => !location.searchParams.has("hops"));
+    if (screenshots) { await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-local.png` }); }
+    await page.reload();
+    expect(await page.getByLabel("Neighborhood depth").inputValue()).toBe("2");
+    await page.locator(".frontier-advanced > summary").click();
+    const researchLinks = page.getByRole("checkbox", { name: "Recorded research links (not proof)" });
+    await researchLinks.click();
+    await page.waitForURL((location) => location.searchParams.get("relations") === "0");
+    expect(await researchLinks.isChecked()).toBe(false);
+    expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBe(0);
+    await page.getByRole("button", { name: "Return to overview", exact: true }).click();
+    await page.waitForURL((location) => location.searchParams.get("view") !== "local");
+    expect(errors).toEqual([]);
+    await page.close();
+  }, 60000);
+}

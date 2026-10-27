@@ -1,0 +1,10 @@
+{
+  "id": "GENERATION-FROM-NIGHT-REFUTED",
+  "argument_id": "GENERATION-FROM-NIGHT-REFUTED",
+  "challenge_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution",
+  "theorem": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.generationFromNightFalse",
+  "comparator_config": "results/GENERATION-FROM-NIGHT-REFUTED/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: no premise has the conclusion as its consequent, and the countermodels needsReducedByBeingInAct, needsNoSelfMotion and needsActualMoverPrior in the Comparator config show that each premise is needed. A conditional refutation of the Night cosmogony's bundle resting on three open premises, one of them an unattributed bridge; it leaves the bare rival STMT-POTENCY-PRIOR-TO-ACT standing (rivalSurvivesCore). No refutes relation is recorded (#391) and it closes no premise."
+}

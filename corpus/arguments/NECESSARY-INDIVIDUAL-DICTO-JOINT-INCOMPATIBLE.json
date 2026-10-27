@@ -1,0 +1,21 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+  "premise_statement_ids": [
+    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE"
+  ],
+  "meaning": "Every successor has a present bearer, while one successor has none. Apply necessary exemplification at that accessible witness and contradict its empty extension. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

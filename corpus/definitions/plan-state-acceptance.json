@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLAN-STATE-ACCEPTANCE",
+  "term": "ideal semantic acceptance of a planning sentence",
+  "definition": "Accepts state sentence means state \u2286 support sentence, with state a Set of descriptive/plan Points. It models elimination of incompatible options. It is ideal semantic acceptance, not an empirical claim that agents are explicitly aware of every consequence. Empty states accept all sentences; the controls exhibit nonempty states.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction for #185, motivated by the already pinned secondary account SEP-MORAL-COGNITIVISM \u00a72.5. Exact conditional clauses and the psychological adequacy of compatible-state acceptance remain separate historical/fidelity obligations; see docs/expressivist-embedding-boundary.md. This models a possible planning language without asserting it is ordinary moral language.",
+  "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.Accepts"
+}

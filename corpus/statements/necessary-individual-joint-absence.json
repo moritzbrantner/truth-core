@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+  "paraphrase": "Stipulated mathematical configuration component, not an attributed source reading: Some successor of the supplied world has no present member of the supplied rigid roster.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.JointAbsence",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

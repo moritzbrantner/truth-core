@@ -1,0 +1,7 @@
+{
+  "id": "STMT-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE",
+  "lean_declaration": "TruthCore.Causality.FiniteRestriction.EveryFiniteRestrictionHasLocalSource",
+  "paraphrase": "Each finite nonempty induced subgraph has at least one node uncaused within that finite selection.",
+  "definition_ids": ["DEF-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE"],
+  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+}

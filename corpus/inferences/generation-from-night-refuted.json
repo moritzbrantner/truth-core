@@ -1,0 +1,13 @@
+{
+  "id": "INF-GENERATION-FROM-NIGHT-REFUTED",
+  "input_statement_ids": [
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "output_statement_id": "STMT-GENERATION-FROM-NIGHT-FALSE",
+  "rule": "reductio",
+  "meaning": "Suppose the Night bundle: some being x is in potency in a respect r, no being in act in r is simply prior to x, and x is being moved in r. Then some y in act in r moves x in r; y is not x, since nothing moved in a respect moves itself in it; so y, in act in r and moving x, which is in potency in r, is simply prior to x; this contradicts the bundle's denial that any being in act in r is simply prior to x.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

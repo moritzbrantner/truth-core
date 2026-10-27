@@ -1,0 +1,30 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/definenecessarybeing.html",
+    "retrieved_at": "2026-10-26T21:42:38Z",
+    "sha256": "sha256:521d00b26d1b3859b3041278901d9c321a068de687283d3e7c9ae2ea2fb3c220",
+    "wayback_url": "https://web.archive.org/web/20180304232316id_/https://www.necessarybeing.com/definenecessarybeing.html",
+    "wayback_sha256": "sha256:521d00b26d1b3859b3041278901d9c321a068de687283d3e7c9ae2ea2fb3c220",
+    "license": "No license displayed on inspected site (2026-10-26). Live and dated Wayback bytes/text matched on two reads; only hashes/locator/short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-DEFINITION",
+      "locator": "Definition page, two necessary-being conditions and modal discussion",
+      "claim_locator_prefixes": [
+        "Definition page,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "A Necessary Being is anything that meets the following two conditions:"
+        }
+      },
+      "text_sha256": "sha256:192be1a12ec9fdda29630eee2bc0b1a6acbbf713e884d981f29088d1feefeaa6",
+      "incipit": "A Necessary Being is anything that meets the following two conditions:\n1. It is"
+    }
+  ]
+}

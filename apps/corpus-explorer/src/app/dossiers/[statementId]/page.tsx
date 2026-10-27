@@ -46,7 +46,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <h2 id="dossier-sources" className="eyebrow">Source readings</h2>
         {claims.length ? <ul className="mt-4 grid gap-4">{claims.map((claim) => <li key={claim.id}>
           <Link className="link-quiet font-mono text-xs" href={`/claims/${claim.id}`}>{claim.id}</Link>
-          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {claim.source_id} · {claim.locator}</p>
+          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {claim.source_id} · {claim.locator}{claim.witness === "bibliographic" ? " · bibliographic citation, not byte-verified" : ""}</p>
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
@@ -100,6 +100,13 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <h3 className="mt-4 font-medium">Countermodel attempts</h3>
         {dossier.countermodel_attempt_ids.length ? <ul className="mt-2">{dossier.countermodel_attempt_ids.map((id) => <li key={id}><a className="link-quiet font-mono text-xs" href={`#${id}`}>{id}</a></li>)}</ul> : <p className="mt-2 text-sm">None recorded.</p>}
       </section>
+      {dossier.configuration_cases?.length ? <section className="record-section" aria-labelledby="dossier-configurations">
+        <h2 id="dossier-configurations" className="eyebrow">Configuration assumptions</h2>
+        <ul className="mt-3 grid gap-3">{dossier.configuration_cases.map((entry) => <li key={entry.id}>
+          <Link className="link-quiet font-mono text-xs" href={entry.href}>{entry.id}</Link>
+          <p className="mt-1 text-sm">{entry.semantics_id} · {entry.verification}</p>
+        </li>)}</ul>
+      </section> : null}
       <section className="record-section" aria-labelledby="dossier-routes">
         <h2 id="dossier-routes" className="eyebrow">Route contribution</h2>
         <p className="mt-3 text-sm text-[var(--muted)]">A counted open leaf contributes one distinct member to that route’s current premise set. This is not the cost reduction that would follow from proving it.</p>

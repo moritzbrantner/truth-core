@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+  "paraphrase": "Stipulated mathematical configuration component, not an attributed source reading: Every successor of the supplied world has some present member of the supplied rigid roster; the member may vary with the successor.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeDicto",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

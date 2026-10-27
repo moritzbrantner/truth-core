@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+  "paraphrase": "Generation from Night: some being is in potency in a respect, no being in act in that respect is simply prior to it, and it is nonetheless being reduced to act in that respect. It entails the bare rival STMT-POTENCY-PRIOR-TO-ACT and adds that the unpreceded potency is actualized.",
+  "lean_declaration": "TruthCore.Alternatives.NightCosmogony.UnprecededPotencyActualizedReading",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-MOTION"
+  ]
+}

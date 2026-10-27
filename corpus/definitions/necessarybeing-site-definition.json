@@ -1,0 +1,7 @@
+{
+  "id": "DEF-NB-SURVEY-NECESSARY-BEING",
+  "term": "necessary being (NecessaryBeing.com stipulation)",
+  "definition": "In this survey, a necessary being is something for which causing something is possible and whose nonexistence at any time is impossible. The further N → □N rule is explicitly stipulated on the same page and is not silently equivalent to the two nominal conditions.",
+  "basis": "sourced",
+  "claim_ids": ["NB-SURVEY-DEFINITION-TWO-CONDITIONS", "NB-SURVEY-DEFINITION-N-NECESSITATION"]
+}

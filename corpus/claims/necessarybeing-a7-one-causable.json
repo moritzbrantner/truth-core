@@ -1,0 +1,10 @@
+{
+  "id": "NB-SURVEY-A7-ONE-CAUSEABLE",
+  "statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7c, step 3",
+  "interpretation": "This is the author's intermediate conclusion by repeated substitution from steps 1 and 2, not an unconditional fact. The source's later claim that such a cause must be noncontingent remains a distinct, unformalized inference.",
+  "status": "formalized",
+  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
+  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+}

@@ -22,6 +22,19 @@
       },
       "text_sha256": "sha256:193bfe06aac2e13a13831ba21b11a8f80d8a9b1aeda37bb2dd9c2fa13e65492d",
       "incipit": "1 The Rise of Physicalism DAVID PAPINEAU No one could seriously, rationally"
+    },
+    {
+      "id": "PAPINEAU-RISE-PHYSICALISM-13-33",
+      "locator": "pp.13–33 (physical PDF pages 11–31)",
+      "claim_locator_prefixes": [
+        "pp.13–33 "
+      ],
+      "pdf_pages": {
+        "first": 11,
+        "last": 31
+      },
+      "text_sha256": "sha256:2601a08598e8f4caa4b372023b0479914527a61ec7046ae0d0c238c32c60fe80",
+      "incipit": "The Rise of Physicalism 13 The same point applies if we want to apply the"
     }
   ]
 }

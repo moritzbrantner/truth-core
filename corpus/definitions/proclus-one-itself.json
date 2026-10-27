@@ -1,0 +1,11 @@
+{
+  "id": "DEF-PROCLUS-ONE-ITSELF",
+  "term": "one",
+  "definition": "The One itself is the designated entity one. Being that entity is identity x = one; not being it is x ≠ one. The entity is in the same domain as participants, so inequality is a substantive attributed commitment. This parameter alone supplies no existence theorem, uniqueness theorem, FormOf classification, purity inventory or causal role.",
+  "basis": "stipulative",
+  "note": "Identity-based projection of the contrast in Taylor proposition 2. The source claim attributes nonidentity of participants; it does not define the full Proclean account of the One. A fuller sourced definition requires further argument and source interpretation.",
+  "claim_ids": [
+    "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST"
+  ],
+  "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
+}

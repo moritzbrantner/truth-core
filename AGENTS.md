@@ -15,6 +15,59 @@ The PR reports the actual premise comparison, including remaining open premises;
 
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
+## Concise reporting and persistence
+
+1. **Report changes.** Progress updates state a new finding, decision, failure,
+   merge or blocker. Do not repeat unchanged plans, status summaries or check
+   inventories. During a long wait, use one short verified-wait update.
+2. **Report timings only when relevant.** Include durations and resource metrics
+   for requested performance work or an unexpectedly slow run. Omit routine
+   startup/build histories and unavailable-metric disclaimers; ordinary timing
+   evidence stays in the existing CI or command logs.
+3. **Keep PRs focused.** Explain the problem, change, premise effects, essential
+   validation and remaining gaps. Preserve the required claim/type self-sweep
+   and exact premise comparison. Link existing check evidence instead of
+   narrating the execution chronology or repeating successful-check inventories;
+   include a reproduction command when the linked evidence is insufficient.
+4. **Maintain one current handoff.** The coordinator updates the designated
+   handoff note or issue rather than creating parallel progress documents.
+   Include the exact head/branch, open work, verified and unverified scope, and
+   next concrete step. Workers return their task delta and references; the
+   handoff links those findings rather than copying them.
+5. **Preserve research substance.** Keep sources and precise locators,
+   interpretations, rejected approaches and reasons, counterexamples, proof
+   boundaries and remaining gaps in their existing corpus records or linked
+   notes. Shorter reporting must not remove this evidence. Do not replace it
+   with chat history, temporary logs or duplicated progress narratives.
+
+## Local server experiment for the next workloop
+
+At the start of the next workloop, the master should run a bounded experiment
+with workers interacting with a local service. Inspect the available tooling
+first: the explorer development server alone does not expose Lean verification.
+If an agent-facing service exists, start it and check its health. Otherwise,
+assign one bounded lane C task to implement the smallest usable adapter around
+the existing corpus/configuration commands and Lean language server; do not
+assume an endpoint or startup command already exists. Document the actual
+startup, health-check and client commands before asking workers to use it.
+
+The master owns service startup and shutdown and gives participating workers
+the endpoint, supported operations and workspace/session identity alongside
+their normal brief. Have workers try corpus queries and repeated Lean proof
+edits through the service, using persistent Lean sessions for diagnostics and
+proof goals. Keep agent workspaces and Lean sessions isolated; queue expensive
+verification jobs and bind every response to its exact revision and inputs.
+Reuse existing CLI and corpus semantics rather than introducing a second
+proof-status registry. Keep the service local to the machine.
+
+Compare a small representative task with the CLI workflow, recording useful
+latency/setup differences, correctness issues and a retain/revise/remove
+recommendation in the existing handoff. Continue via the CLI if the experiment
+fails; it must not block research. Interactive diagnostics do not replace the
+required build, binding, axiom, Comparator and NanoDa checks on the final inputs.
+Reuse the pinned Lean toolchain and existing dependencies; this experiment does
+not authorize adding an external Lean dependency.
+
 ## Premise dossiers and attempts
 
 For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
@@ -38,8 +91,8 @@ for the attempt format and reference boundaries.
 
 ## Permanent invariants
 
-1. **Research before formalization.** Every source-derived claim must point to a stable source record and a precise locator.
-2. **Materialize, do not remember.** Before formalizing a source-derived claim, resolve or create its `corpus/passages/` witness and run `python3 scripts/source_evidence.py materialize <PASSAGE-ID>`. Read that verified text and enough context to interpret it. Model memory, a search snippet, or a plausible citation is never source evidence.
+1. **Research before formalization.** Every source-derived claim must point to a stable source record and a precise locator. For a copyrighted work with no pinnable witness, that locator may be a `bibliographic_span`: edition, ISBN or DOI, and exact pages or section, without pinned bytes (owner decision 1c on #378; see `docs/source-evidence.md`).
+2. **Materialize, do not remember.** Before formalizing a source-derived claim, resolve or create its `corpus/passages/` witness and run `python3 scripts/source_evidence.py materialize <PASSAGE-ID>`. Read that verified text and enough context to interpret it. Model memory, a search snippet, or a plausible citation is never source evidence. A `bibliographic_span` has no bytes to materialize (`materialize` refuses it): claim from it only after reading the cited pages in the edition itself, never from memory, and its claims carry `witness: "bibliographic"`, so they are shown as not byte-verified.
 3. **Source integrity is not source fidelity.** A pinned revision, Git blob hash, CTS path, and successful materialization establish which source text was consulted. They do not establish that an interpretation is correct. Preserve that scholarly judgment separately.
 4. **Statements have independent identity.** A statement is a proposition used by logic. A claim says that a source supports a statement under an interpretation. Never make statement identity depend on source provenance.
 5. **One defensible reading per claim.** If two materially different interpretations are both reasonable, create two claims. They may point to distinct statements even when later work could relate those statements.
@@ -55,10 +108,14 @@ for the attempt format and reference boundaries.
 15. **Do not build identity infrastructure early.** No graph database, RDF ontology, embedding-based merger, or canonical-equivalence resolver until the corpus creates a concrete need. The typed JSON records are sufficient for now.
 16. **A transcription is not a proof.** A result whose proof only applies a premise whose consequent already is the advertised conclusion (`exact hBridge ⟨…⟩`), or whose atoms are opaque `Prop`s that nothing constrains, certifies only that "therefore" was transcribed. Such a result may still be recorded as a faithful map of a source argument, but the PR and the result record's description must call it a transcription. It does not count as progress on the case and closes no frontier node by itself (see `docs/systematic-corpus-loop.md`). The one exception is closure carried through it: a transcription closes its conclusion exactly when **every** premise of its argument is already closed—self-evident, alternatives all refuted, the conclusion of a non-transcription result, or itself closed by this same rule (computed as a fixpoint; owner decision on #143, 2026-10-24). A transcription with any open premise, such as an open `A ∧ B → C` bridge, leaves its conclusion open. Where the philosophy has internal structure, formalize that structure with typed vocabulary (beings, respects, causes, sentences, …) so the conclusion is *derived* and the result could have failed. Likewise, a hand-rolled substitute for a notion Mathlib already provides (for example "eventually constant" in place of convergence, or a bespoke ω+1 in place of an ordinal or order embedding) needs a stated reason in its doc comment.
 17. **Compose, do not restate.** Build on earlier results by importing their Lean modules and using their theorems. Do not restate a proved conclusion as a fresh premise. Reuse shared typed vocabulary where meanings coincide (invariant 7); a new per-file `…Reading` vocabulary for a concept the corpus already has needs a stated reason.
-18. **Source kinds are frozen.** After `media_span` (#152) and `web_snapshot` (#154), add no new source kind without an owner decision. When a witness cannot be pinned, keep the claim as a candidate marked as waiting for a witness, and continue the reasoning with its statement as an explicit open premise. Sourcing must not block reasoning, and reasoning must not fake sourcing.
+18. **Source kinds are frozen.** After `media_span` (#152), `web_snapshot` (#154) and `bibliographic_span` (#378), add no new source kind without an owner decision. A `bibliographic_span` is the last resort: allowed only for a copyrighted work when no pinnable witness (git text, public-domain edition, `web_snapshot` of a legitimately hosted copy) exists, with a `why_bibliographic` note; upgrade it to a pinned witness when one becomes available. When not even a bibliographic citation can be read and given, keep the claim as a candidate marked as waiting for a witness, and continue the reasoning with its statement as an explicit open premise. Sourcing must not block reasoning, and reasoning must not fake sourcing.
 19. **truth-core is self-sufficient.** Do not add runtime or CI dependencies on other repositories (historical-source-atlas, worldview-lab, solver services, …). Use one only for a concrete node that is blocked without it, and pin it like a source.
 
 See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and verification boundaries. For the campaign to formalize the case for Catholicism (epic #143), including the owner's binding principles and the working method, read `docs/catholic-case.md` first.
+
+## Configuration elimination and composition
+
+For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
 
 ## Outer systematic loop
 
@@ -111,7 +168,7 @@ For each philosophically substantive reading or argument encountered inside the 
 
 ### 1. Research from verified source evidence
 
-- Resolve the passage to a `corpus/passages/` record. Its source snapshot must name the exact edition URN, repository, immutable revision, file path, Git blob SHA, source URL, language, and license. Where no such witness exists, a `web_snapshot` pins a web page by hash instead; claims on a translation carry `basis: translation` (see `docs/source-evidence.md`).
+- Resolve the passage to a `corpus/passages/` record. Its source snapshot must name the exact edition URN, repository, immutable revision, file path, Git blob SHA, source URL, language, and license. Where no such witness exists, a `web_snapshot` pins a web page by hash instead; claims on a translation carry `basis: translation`. Only for a copyrighted work with neither, a `bibliographic_span` cites the edition by page, and its claims carry `witness: "bibliographic"` (see `docs/source-evidence.md`).
 - If no passage witness covers the range, add one from a stable primary-source edition before creating any claim.
 - Run `python3 scripts/source_evidence.py materialize <PASSAGE-ID>` and read the materialized text plus enough immediate context to avoid quotation-mining.
 - Preserve the conventional classical locator and CTS identity. The conventional locator remains the human citation; the pinned witness makes the consulted bytes reproducible.

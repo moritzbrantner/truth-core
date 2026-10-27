@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.NecessaryBeingCountDescent.fiveToOne"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

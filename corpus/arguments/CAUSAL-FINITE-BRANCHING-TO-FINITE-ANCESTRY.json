@@ -1,0 +1,16 @@
+{
+  "id": "CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY",
+  "premise_statement_ids": [
+    "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+    "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+  ],
+  "conclusion_statement_id": "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+  "inference_ids": ["INF-CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY"],
+  "meaning": "Formal finite-to-infinite bridge: locally finite immediate cause sets plus a well-founded relation bound each particular ancestral cone to a finite set of distinct ancestors. Its premises are conditional, not demonstrations of causal finitism in reality.",
+  "definition_ids": [
+    "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+    "DEF-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+    "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+  ],
+  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+  "paraphrase": "The completeness of physics: every physical effect is fully determined by law by prior physical occurrences. 'Physical' is Papineau's sense (specifiable without the special, e.g. mental, vocabulary at issue); the relata are occurrences, not beings. It says nothing about nonphysical things and is not itself physicalism.",
+  "lean_declaration": "TruthCore.Modern.Papineau.RiseOfPhysicalism.CompletenessOfPhysicsReading",
+  "definition_ids": [
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-PRIOR-DETERMINATION-AND-MOVER"
+  ]
+}

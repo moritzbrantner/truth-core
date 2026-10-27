@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-MET-1071B-MOTION-NEEDS-ACTUAL-CAUSE-A",
+  "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+  "source_id": "ARIST-MET",
+  "locator": "XII.6, 1071b12-14 and 1071b28-29: εἰ ἔστι κινητικὸν ἢ ποιητικόν, μὴ ἐνεργοῦν δέ τι, οὐκ ἔσται κίνησις; πῶς γὰρ κινηθήσεται, εἰ μὴ ἔσται ἐνεργείᾳ τι αἴτιον;",
+  "interpretation": "'If there is something able to move or to make but not acting, there will be no motion'; and against the Night cosmogony, 'how will it be moved, if there is not some cause in actuality?'. Read as: whatever is being moved in a respect is moved in that respect by something that is in act in that respect. Reading steps: (1) the contrapositive of the first sentence, that where there is motion some mover acts, is joined with the second, which names the cause 'in actuality' (ἐνεργείᾳ); (2) 'acting' and 'in actuality' are read as being in act in the respect moved to, as the carpenter's art is the form of the house in act (1071b30); whether formally or virtually is left open (DISAMB-IN-ACT). Aristotle's own conclusion in 1071b17-22, that the eternal principle's substance must be actuality, needs the eternity of motion (1071b6-11) and is not part of this claim; nor is the claim that every mover of the thing is in act.",
+  "status": "formalized"
+}

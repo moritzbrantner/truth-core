@@ -9,6 +9,7 @@ import {
   useStore,
   useReactFlow,
   type Edge,
+  type NodeChange,
   type Node,
   type NodeProps,
 } from "@xyflow/react";
@@ -16,9 +17,12 @@ import Link from "next/link";
 import { ResearchQueue } from "./research-queue";
 import { orderObligations, type ResearchObligation } from "@/lib/research-frontier";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
-import type { NetworkStructure } from "@/lib/graph-network";
+import { ALL_BUCKETS, type GraphManifest, type LoadedNetwork } from "@/lib/graph-bucket-view";
+import { CLOSURE_FACETS, RECORD_FACETS, REACH_FACETS } from "@/lib/graph-facets";
+import { LANES } from "@/lib/graph-areas";
+import { useGraphBuckets } from "./use-graph-buckets";
 import { NetworkMarker } from "./network-marker";
 import { layeredLayout } from "@/lib/graph-layout";
 import {
@@ -188,6 +192,8 @@ function nodeDescription(node: ViewNode) {
   return `${node.statement.paraphrase}; ${status}`;
 }
 
+const NO_MEASUREMENTS: ReadonlyMap<string, { width: number; height: number }> = new Map();
+
 function hashIds(nodes: ViewNode[]) {
   let hash = 0;
   for (const node of nodes) {
@@ -199,23 +205,28 @@ function hashIds(nodes: ViewNode[]) {
 }
 
 export function PropositionGraphExplorer({
-  graph,
+  manifest,
   obligations,
-  network,
 }: {
-  graph: PropositionGraph;
-  network: NetworkStructure;
+  manifest: GraphManifest;
   obligations: ResearchObligation[];
 }) {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
   const state = useMemo(() => parseGraphState(searchParams), [searchParams]);
+  const buckets = useGraphBuckets(manifest, state);
+  const { graph, network } = buckets;
   const index = useMemo(() => indexGraph(graph), [graph]);
-  const compact = state.layout === "network" && state.view === "all";
+  const compact = state.layout === "network" && (state.view === "all" || state.view === "local");
+  // Hover emphasis is transient presentation state. It never changes the URL,
+  // corpus relationships, or proof frontier.
+  const [hoveredId, setHoveredId] = useState("");
   const view = useMemo(() => computeGraphView(graph, state, index), [graph, state, index]);
   const proofTarget = index.statementById.has(state.target) ? state.target : graph.defaultTarget ?? "";
-  const proof = useProofExploration(graph, state.explore, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
+  // Explore only once every bucket the view needs has loaded, so the search never
+  // reports a result over a partial graph (#491).
+  const proof = useProofExploration(graph, state.explore && !buckets.pending, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
   const visibleProof = state.explore && proof.result?.target === proofTarget ? proof.result : null;
   const overlay = useMemo(() => proofOverlay(graph, visibleProof), [graph, visibleProof]);
   const lemmaObligation = useMemo(() => visibleProof ? lemmaResearchObligation(visibleProof, graph.defaultTarget ?? "") : null, [visibleProof, graph.defaultTarget]);
@@ -251,6 +262,28 @@ export function PropositionGraphExplorer({
     });
   };
 
+  // Facet counts over the whole corpus, summed from the bucket manifest.
+  const facetTotals = useMemo(() => {
+    const totals: Record<"area" | "lane" | "closure" | "rec" | "reach", Record<string, number>> = { area: {}, lane: {}, closure: {}, rec: {}, reach: {} };
+    for (const bucket of manifest.buckets) {
+      for (const key of Object.keys(totals) as Array<keyof typeof totals>) {
+        for (const [value, count] of Object.entries(bucket.facets[key])) totals[key][value] = (totals[key][value] ?? 0) + count;
+      }
+    }
+    return totals;
+  }, [manifest]);
+  const isolatedCount = manifest.buckets.filter((bucket) => bucket.kind === "isolated").reduce((sum, bucket) => sum + bucket.statements, 0);
+  const toggleFacet = (key: "area" | "lane" | "closure" | "rec", value: string) =>
+    update((current) => {
+      const values = current[key] as string[];
+      return { [key]: values.includes(value) ? values.filter((entry) => entry !== value) : [...values, value], viewport: "" };
+    });
+  const toggleBucket = (id: string) =>
+    update(() => {
+      const next = buckets.wanted.includes(id) ? buckets.wanted.filter((entry) => entry !== id) : [...buckets.wanted, id];
+      return { buckets: next, viewport: "" };
+    });
+
   const tagOptions = useMemo(() => {
     const counts = new Map<string, number>();
     for (const statement of graph.statements) {
@@ -264,7 +297,20 @@ export function PropositionGraphExplorer({
     return groups;
   }, [graph]);
 
+  const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
+  // React Flow sizes, kept only for the canvas instance that measured them: a
+  // remounted canvas measures its nodes and handles afresh.
+  const [measurements, setMeasurements] = useState<{ key: string; sizes: ReadonlyMap<string, { width: number; height: number }> }>({ key: "", sizes: new Map() });
+  const measured = measurements.key === flowKey ? measurements.sizes : NO_MEASUREMENTS;
   const { nodes, edges } = useMemo(() => {
+    const hovered = compact && state.view === "local" && view.nodes.some((node) => node.id === hoveredId) ? hoveredId : "";
+    const hoverNeighbors = new Set(hovered ? [hovered] : []);
+    if (hovered) {
+      for (const edge of view.edges) {
+        if (edge.source === hovered) hoverNeighbors.add(edge.target);
+        if (edge.target === hovered) hoverNeighbors.add(edge.source);
+      }
+    }
     const relatedIds = new Set(activeObligation?.statementIds ?? []);
     const frontierIds = new Set(graph.statements.filter((statement) => statement.frontier).map((statement) => statement.id));
     const frontierJunctions = new Set(graph.inferences.filter((inference) => [...inference.inputs, ...inference.assumptions].some((id) => frontierIds.has(id))).map((inference) => inference.id));
@@ -296,12 +342,17 @@ export function PropositionGraphExplorer({
       ariaLabel: nodeDescription(node),
       focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
+      // Hand back React Flow's own measurement: a new node object without
+      // `measured` is hidden until re-measured, which can race with overlay updates.
+      measured: measured.get(`${compact ? "marker" : node.kind}:${node.id}`),
       // Dense research clusters can overlap. Keep the selected belief tappable
       // above its neighbours, especially in the mobile frontier inspector.
-      zIndex: node.id === state.sel ? 20 : 0,
+      zIndex: node.id === state.sel || node.id === hovered ? 20 : 0,
       data: {
         view: node.kind === "cluster" ? node : { ...node, highlighted: node.highlighted || relatedIds.has(node.id) },
-        selected: node.id === state.sel,
+        selected: node.id === state.sel || (state.view === "local" && node.id === view.anchor),
+        hoverDimmed: Boolean(hovered) && !hoverNeighbors.has(node.id) && node.id !== state.sel,
+        hoverNeighbor: Boolean(hovered) && hoverNeighbors.has(node.id),
         proof: overlay.get(node.id),
         community: network.community.get(node.id) ?? 0,
         degree: network.degree.get(node.id) ?? 0,
@@ -316,6 +367,7 @@ export function PropositionGraphExplorer({
       const boundary = !research && (frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target));
       const emphasized = compact && state.emphasis === "frontier";
       const highlighted = edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target);
+      const incident = hovered && (edge.source === hovered || edge.target === hovered);
       return {
         id: edge.id,
         source: edge.source,
@@ -325,8 +377,8 @@ export function PropositionGraphExplorer({
         style: {
           ...edgeStyle[edge.kind],
           stroke: emphasized && boundary ? "var(--status-open)" : edgeStyle[edge.kind].stroke,
-          opacity: compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
-          strokeWidth: highlighted ? 2.5 : compact ? 1.1 : 1.25,
+          opacity: hovered ? (incident ? 1 : 0.08) : compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
+          strokeWidth: incident || highlighted ? 2.5 : compact ? 1.1 : 1.25,
         },
         markerEnd: compact || edge.kind === "premise" || edge.kind === "assumption"
           ? undefined
@@ -334,7 +386,17 @@ export function PropositionGraphExplorer({
       };
     });
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, state.emphasis, state.relations, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay]);
+  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay, measured]);
+  const onNodesChange = (changes: NodeChange<FlowNode>[]) => {
+    const sizes = changes.flatMap((change) => (change.type === "dimensions" && change.dimensions ? [{ id: change.id, size: change.dimensions }] : []));
+    if (!sizes.length) return;
+    const types = new Map(nodes.map((node) => [node.id, node.type]));
+    setMeasurements((current) => {
+      const next = new Map(current.key === flowKey ? current.sizes : []);
+      for (const { id, size } of sizes) next.set(`${types.get(id)}:${id}`, size);
+      return { key: flowKey, sizes: next };
+    });
+  };
 
   const onNodeClick = (_event: unknown, node: FlowNode) => {
     const clicked = node.data.view;
@@ -365,7 +427,6 @@ export function PropositionGraphExplorer({
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
   const stageTargets = STAGE_CONCLUSIONS.filter(({ statementId }) => index.statementById.has(statementId));
-  const flowKey = `${state.layout}:${state.view}:${view.anchor}:${state.cluster}:${hashIds(view.nodes)}`;
 
   return (
     <section aria-labelledby="graph-heading" className={proofStyles.overlay}>
@@ -376,9 +437,10 @@ export function PropositionGraphExplorer({
       </datalist>
 
       <div className="frontier-primary-controls">
-        <div className="graph-segmented" role="group" aria-label="Frontier scope">
-          <button aria-pressed={state.scope === "global"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
-          <button aria-pressed={state.scope === "goal"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
+        <div className="graph-segmented" role="group" aria-label="Graph scope">
+          <button aria-pressed={state.scope === "global" && state.view === "all"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
+          <button aria-pressed={state.scope === "goal" && state.view === "root"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
+          <button aria-pressed={state.view === "local"} disabled={!index.statementById.has(state.sel) && !index.inferenceById.has(state.sel)} onClick={() => update({ view: "local", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Select a proposition dot to explore its neighborhood" type="button">Local graph</button>
         </div>
         <div className="graph-segmented" role="group" aria-label="Layout">
           {(["network", "layered"] as const).map((layout) => <button key={layout} type="button" aria-pressed={state.layout === layout} onClick={() => update({ layout, viewport: "" })}>{layout === "network" ? "Network" : "Layered"}</button>)}
@@ -386,6 +448,13 @@ export function PropositionGraphExplorer({
         <label className="field-label frontier-search">Find a proposition
           <input className="field-control" onChange={(event) => update({ q: event.target.value })} placeholder="Search propositions or IDs" type="search" value={state.q} />
         </label>
+        {state.view === "local" ? (
+          <label className="field-label frontier-depth">Neighborhood depth
+            <select className="field-control" value={state.hops} onChange={(event) => update({ hops: Number(event.target.value), viewport: "" })}>
+              {Array.from({ length: MAX_HOPS + 1 }, (_, depth) => <option key={depth} value={depth}>{depth} {depth === 1 ? "hop" : "hops"}</option>)}
+            </select>
+          </label>
+        ) : null}
         <button className="graph-button frontier-emphasis-button" type="button" aria-pressed={state.emphasis === "frontier"} onClick={() => update({ emphasis: state.emphasis === "frontier" ? "all" : "frontier" })}>
           {state.emphasis === "frontier" ? "Frontier highlighted" : "Show all equally"}
         </button>
@@ -396,8 +465,8 @@ export function PropositionGraphExplorer({
         <summary>More views and filters</summary>
       <div className="graph-toolbar">
         <label className="graph-toggle">
-          <input type="checkbox" checked={state.showIsolated} onChange={(event) => update({ showIsolated: event.target.checked, viewport: "" })} />
-          Include unlinked readings ({graph.statements.filter((statement) => network.unsupported.has(statement.id) && network.unconsumed.has(statement.id) && !network.researchLinked.has(statement.id)).length})
+          <input type="checkbox" checked={!state.showIsolated} onChange={(event) => update({ showIsolated: !event.target.checked, viewport: "" })} />
+          Hide singletons: unlinked readings ({isolatedCount})
         </label>
         <label className="field-label">Structural / epistemic filter
           <select className="field-control" value={state.leaf} onChange={(event) => update({ leaf: event.target.value as GraphState["leaf"] })}>
@@ -413,6 +482,7 @@ export function PropositionGraphExplorer({
             [
               ["root", "Root paths"],
               ["focus", "Focus"],
+              ["local", "Local graph"],
               ["all", "Full graph"],
             ] as const
           ).map(([id, label]) => (
@@ -422,7 +492,7 @@ export function PropositionGraphExplorer({
               onClick={() =>
                 update({
                   view: id,
-                  ...(id === "focus" && state.view !== "focus"
+                  ...((id === "focus" || id === "local") && state.view !== id
                     ? {
                         returnView: serializeGraphState({
                           ...state,
@@ -456,7 +526,7 @@ export function PropositionGraphExplorer({
             />
           </label>
         ) : null}
-        {state.view === "focus" ? (
+        {state.view === "focus" || state.view === "local" ? (
           <div className="graph-focus-controls">
             <label className="field-label">
               Focus node
@@ -468,7 +538,7 @@ export function PropositionGraphExplorer({
                 value={state.node}
               />
             </label>
-            <label className="field-label">
+            {state.view === "focus" ? <label className="field-label">
               Hops
               <input
                 className="field-control"
@@ -478,8 +548,8 @@ export function PropositionGraphExplorer({
                 type="number"
                 value={state.hops}
               />
-            </label>
-            <label className="field-label">
+            </label> : null}
+            {state.view === "focus" ? <label className="field-label">
               Direction
               <select
                 className="field-control"
@@ -490,7 +560,7 @@ export function PropositionGraphExplorer({
                 <option value="up">Up: what it supports</option>
                 <option value="down">Down: what it rests on</option>
               </select>
-            </label>
+            </label> : null}
           </div>
         ) : null}
         {state.view === "all" && state.layout === "layered" ? (
@@ -587,6 +657,31 @@ export function PropositionGraphExplorer({
             ))}
           </select>
         </label>
+        <label className="field-label">
+          Root reachability
+          <select className="field-control" onChange={(event) => update({ reach: event.target.value as GraphState["reach"] })} value={state.reach}>
+            <option value="">Any</option>
+            {REACH_FACETS.map((facet) => <option key={facet.id} value={facet.id}>{facet.label} ({facetTotals.reach[facet.id] ?? 0})</option>)}
+          </select>
+        </label>
+        <label className="field-label">
+          Add area
+          <select
+            className="field-control"
+            onChange={(event) => { if (event.target.value) toggleFacet("area", event.target.value); }}
+            value=""
+          >
+            <option value="">Choose an area…</option>
+            {Object.entries(facetTotals.area).sort(([left], [right]) => left.localeCompare(right)).map(([area, count]) => (
+              <option disabled={state.area.includes(area)} key={area} value={area}>{area} ({count})</option>
+            ))}
+          </select>
+        </label>
+      </div>
+      <div className="graph-facets">
+        <FacetChips label="Lane" options={LANES} selected={state.lane} counts={facetTotals.lane} toggle={(value) => toggleFacet("lane", value)} />
+        <FacetChips label="Closure" options={CLOSURE_FACETS} selected={state.closure} counts={facetTotals.closure} toggle={(value) => toggleFacet("closure", value)} />
+        <FacetChips label="Linked records" options={RECORD_FACETS} selected={state.rec} counts={facetTotals.rec} toggle={(value) => toggleFacet("rec", value)} />
       </div>
 
       <details className="graph-status-filters"><summary>Status filters and legend</summary>
@@ -622,6 +717,11 @@ export function PropositionGraphExplorer({
 
       {state.tags.length || hasFilters(state) ? (
         <div className="graph-chip-row">
+          {state.area.map((area) => (
+            <button className="graph-chip" aria-pressed key={`area:${area}`} onClick={() => toggleFacet("area", area)} title="Remove area" type="button">
+              area {area} ×
+            </button>
+          ))}
           {state.tags.map((tag) => (
             <button
               className="graph-chip"
@@ -644,7 +744,7 @@ export function PropositionGraphExplorer({
           </label>
           <button
             className="graph-button"
-            onClick={() => update({ q: "", status: [], tags: [], source: "", leaf: "", hide: false })}
+            onClick={() => update({ q: "", status: [], tags: [], source: "", leaf: "", hide: false, area: [], lane: [], closure: [], rec: [], reach: "" })}
             type="button"
           >
             Clear filters
@@ -655,7 +755,7 @@ export function PropositionGraphExplorer({
       {search.total ? (
         <details className="graph-search" open={state.view === "all" && !state.open.length}>
           <summary>
-            {search.total} matching statement{search.total === 1 ? "" : "s"} in the corpus
+            {search.total} matching statement{search.total === 1 ? "" : "s"} in the loaded graph
             {search.total > search.items.length ? ` (top ${search.items.length})` : ""}
           </summary>
           <ul>
@@ -701,11 +801,39 @@ export function PropositionGraphExplorer({
         </details>
       ) : null}
 
+      {state.view === "all" ? (
+        <details className="graph-buckets">
+          <summary>
+            Graph data: {buckets.shown.length} of {manifest.buckets.length} buckets shown, {graph.statements.length} of {manifest.totals.statements} statements
+            {buckets.pending ? " · loading…" : ""}
+          </summary>
+          <p className="graph-buckets-note">Each bucket holds whole connected components, so no inference or research link is cut. The default view loads the components that reach {manifest.defaultTarget ?? "the root"}; filters skip buckets without a possible match.</p>
+          <div className="graph-chip-row">
+            <button className="graph-button" onClick={() => update({ buckets: [ALL_BUCKETS], showIsolated: true, viewport: "" })} type="button">Load every bucket</button>
+            <button className="graph-button" disabled={!state.buckets.length} onClick={() => update({ buckets: [], viewport: "" })} type="button">Default buckets</button>
+          </div>
+          <ul className="graph-bucket-list">
+            {manifest.buckets.map((bucket) => (
+              <li key={bucket.id}>
+                <label className="graph-toggle">
+                  <input checked={buckets.wanted.includes(bucket.id)} onChange={() => toggleBucket(bucket.id)} type="checkbox" />
+                  <span>{bucket.label}</span>
+                  <span className="graph-bucket-meta">{bucket.statements} statements · {bucket.inferences} steps · {bucket.frontier} frontier</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </details>
+      ) : null}
+
       <p aria-live="polite" className="frontier-view-status">
-        {compact ? `${network.components.length} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links. ` : ""}
-        {compact && !state.showIsolated ? "Readings without an inference or research link hidden; enable them under More views and filters. " : ""}
+        {buckets.pending ? "Loading graph data… " : ""}
+        {buckets.error ? `Graph data failed to load (${buckets.error}). ` : ""}
+        {compact && state.view === "all" ? `${network.componentCount} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links in the loaded buckets. ` : ""}
+        {compact && state.view === "all" && !state.showIsolated && !hasFilters(state) ? "Singletons (readings without an inference or research link) hidden; show them under More views and filters. " : ""}
+        {state.view === "local" ? `Local neighborhood: ${state.hops} ${state.hops === 1 ? "hop" : "hops"} from ${view.anchor}. ` : ""}
         {view.message ? `${view.message} ` : ""}
-        {view.statementCount} of {graph.statements.length} statements ({graph.statements.length - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
+        {view.statementCount} of {manifest.totals.statements} statements ({manifest.totals.statements - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
       </p>
 
@@ -724,10 +852,13 @@ export function PropositionGraphExplorer({
               <span><i className="frontier-key-dot frontier-key-other" /> Other proposition</span>
               {state.relations ? <span><i className="frontier-key-relation" /> Research link · not proof</span> : null}
             </div>
+            {/* Mount the canvas once the needed buckets are in: a canvas remounted
+                while data streams in can keep nodes unmeasured (hidden). */}
+            {buckets.pending ? <p className="graph-loading">Loading graph data…</p> : (
             <ReactFlow
               edges={edges}
               defaultViewport={parseViewport(state.viewport)}
-              fitView={!parseViewport(state.viewport) && !(state.sel && state.obligation)}
+              fitView={!parseViewport(state.viewport) && (state.view === "local" || !(state.sel && state.obligation))}
               onMoveEnd={(event, viewport) => {
                 if (event) {
                   update({
@@ -744,11 +875,15 @@ export function PropositionGraphExplorer({
               nodesDraggable={false}
               nodeTypes={nodeTypes}
               onNodeClick={onNodeClick}
+              onNodesChange={onNodesChange}
+              onNodeMouseEnter={state.view === "local" && compact ? (_event, node) => setHoveredId(node.id) : undefined}
+              onNodeMouseLeave={state.view === "local" && compact ? () => setHoveredId("") : undefined}
               onlyRenderVisibleElements
             >
               <SelectionLocator state={state} compact={compact} />
               <Controls showInteractive={false} />
             </ReactFlow>
+            )}
           </div>
         </div>
         <div className="frontier-sidebar">
@@ -762,18 +897,50 @@ export function PropositionGraphExplorer({
   );
 }
 
+function FacetChips({
+  label,
+  options,
+  selected,
+  counts,
+  toggle,
+}: {
+  label: string;
+  options: ReadonlyArray<{ id: string; label: string; description?: string }>;
+  selected: readonly string[];
+  counts: Record<string, number>;
+  toggle: (value: string) => void;
+}) {
+  return (
+    <fieldset className="graph-chip-row graph-facet">
+      <legend>{label}</legend>
+      {options.map((option) => (
+        <button
+          aria-pressed={selected.includes(option.id)}
+          className="graph-chip"
+          key={option.id}
+          onClick={() => toggle(option.id)}
+          title={option.description}
+          type="button"
+        >
+          {option.label} ({counts[option.id] ?? 0})
+        </button>
+      ))}
+    </fieldset>
+  );
+}
+
 /** Locate by the retained layout position before measurement, so a culled node can mount. */
 function SelectionLocator({ state, compact }: { state: GraphState; compact: boolean }) {
   const position = useStore((store) => store.nodeLookup.get(state.sel)?.position);
   const ready = useStore((store) => store.width > 0 && store.height > 0);
   const { setCenter } = useReactFlow();
   useEffect(() => {
-    if (ready && position && !state.viewport && state.sel && state.obligation) {
+    if (ready && position && state.view !== "local" && !state.viewport && state.sel && state.obligation) {
       void setCenter(position.x + (compact ? 14 : NODE_SIZE.statement.width / 2), position.y + (compact ? 14 : NODE_SIZE.statement.height / 2), {
         zoom: 0.8,
       });
     }
-  }, [ready, position, state.sel, state.obligation, state.viewport, setCenter, compact]);
+  }, [ready, position, state.view, state.sel, state.obligation, state.viewport, setCenter, compact]);
   return null;
 }
 
@@ -785,7 +952,7 @@ function DetailPanel({
   update,
 }: {
   graph: PropositionGraph;
-  network: NetworkStructure;
+  network: LoadedNetwork;
   index: ReturnType<typeof indexGraph>;
   state: GraphState;
   update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;
@@ -940,6 +1107,16 @@ function DetailPanel({
         </Link>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
+        <button
+          className="graph-button"
+          onClick={() => update({
+            view: "local", layout: "network", node: current.id, scope: "global", viewport: "",
+            returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+          })}
+          type="button"
+        >
+          Local graph
+        </button>
         <button
           className="graph-button"
           onClick={() =>

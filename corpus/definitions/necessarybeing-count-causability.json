@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NB-COUNT-CAUSABILITY",
+  "term": "possible cause of an at-least-n-contingents situation (A7 abstract representation)",
+  "definition": "The uninterpreted predicate `causableAtLeast : Nat → Prop` represents that it is possible for something to cause a situation with at least n contingent things. It is not a count of actually existing things and does not identify individual witnesses, possible worlds, temporal precedence, or the cause. Monotonicity and count-transfer are not built into it.",
+  "basis": "stipulative",
+  "note": "A deliberately weak analyst abstraction of A7c steps 1–3, where the site appeals to respondent reports. A fuller source-grounded causal-situation semantics and its philosophical justification remain open in #492.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.FiveCausable"
+}

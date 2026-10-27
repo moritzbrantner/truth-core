@@ -1,0 +1,8 @@
+{
+  "id": "MCTAGGART-1908-ALL-CHANGE-A-SERIES-A",
+  "statement_id": "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE",
+  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "locator": "The Unreality of Time, argument that the B series is not sufficient for time: 'all change is only a change of the characteristics imparted to events by their presence in the A series'; 'Without the A series then, there would be no change'",
+  "interpretation": "McTaggart argues that time involves change ('A universe in which nothing whatever changed (including the thoughts of the conscious beings in it) would be a timeless universe'), that events cannot begin or cease to be or become other events, and that the only characteristics of an event that can change are its A-series determinations; he concludes that all change is change of those determinations and that without the A series there would be no change. Read as: if anything changes, in his general sense of change (any variation, thoughts included), some event changes in its A-series determinations. Weakest reading: it does not say that the changing thing is itself that event, and it says nothing about reduction from potency to act (DISAMB-CHANGE-A-SERIES). McTaggart adds that, time being unreal, an event's change in A-position would not involve that anything really changed; with STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS this gives his conclusion that nothing really changes.",
+  "status": "formalized"
+}

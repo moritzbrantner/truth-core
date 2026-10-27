@@ -88,10 +88,15 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "statement": statement,
             "root": report["root"],
             "closure": report["closed_statements"].get(sid),
+            "floor": next((entry for entry in report.get("floor", []) if entry["statement_id"] == sid), None),
             "established": sid in report["established_statements"],
             "frontier": items.get(sid),
             "claim_ids": sorted(entry["id"] for entry in claims),
             "supporting_claim_ids": sorted(entry["id"] for entry in supporting_claims),
+            # #378: claims cited by page from a bibliographic span, not byte-verified.
+            "bibliographic_claim_ids": sorted(
+                entry["id"] for entry in [*claims, *supporting_claims] if entry.get("witness") == "bibliographic"
+            ),
             "definition_ids": sorted(did for did in definition_ids if did in definitions),
             "disambiguation_ids": sorted(disambiguation_ids),
             "argument_ids": sorted(touching_ids),
@@ -102,6 +107,12 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
             "objection_relation_ids": sorted(entry["id"] for entry in relations if entry["predicate"] == "attacks"),
             "attempts": attempts,
             "countermodel_attempt_ids": [entry["id"] for entry in attempts if entry["kind"] == "countermodel"],
+            "configuration_cases": [
+                {"id": case["id"], "semantics_id": case["semantics"]["id"], "href": f"/configurations/{case['id']}",
+                 "verification": "required (registration only)"}
+                for case in sorted(data.get("configurations", []), key=lambda entry: entry["id"])
+                if sid == case["seed_statement_id"] or sid in case["semantics"]["applications"]
+            ],
             "model_evaluations": [
                 {"model_id": model["id"], "vocabulary": model["vocabulary"],
                  "lean_declaration": model["lean_declaration"], "value": evaluation["value"],
@@ -126,7 +137,17 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     status = dossier["closure"] or (f"open ({frontier['depth']})" if frontier else "not on the frontier")
     lines = [statement["id"], statement["paraphrase"], f"Lean: {statement.get('lean_declaration', 'none')}",
              f"Status: {status}; established: {str(dossier['established']).lower()}"]
-    sections = (("claims", "claim_ids", "Source readings"), ("claims", "supporting_claim_ids", "Supporting source readings"),
+    floor = dossier.get("floor")
+    if floor:
+        met = "met" if floor["met"] else "not met, closes nothing: " + "; ".join(floor["reasons"])
+        lines.append(f"Floor basis: {floor['basis']} ({met}); justification: {', '.join(floor['justification_ids'])}")
+        disagreement = floor.get("disagreement")
+        if isinstance(disagreement, dict):
+            disagreement = ", ".join(disagreement.get("rival_statement_ids", []) + disagreement.get("claim_ids", []))
+        if not disagreement:
+            disagreement = "recorded rivals agree (common_ground)" if floor["basis"] == "common_ground" else "not recorded"
+        lines.append(f"Floor disagreement (#378): {disagreement}")
+    sections =(("claims", "claim_ids", "Source readings"), ("claims", "supporting_claim_ids", "Supporting source readings"),
                 ("definitions", "definition_ids", "Definitions"), ("disambiguations", "disambiguation_ids", "Disambiguations"),
                 ("relations", "alternative_relation_ids", "Alternatives"), ("relations", "objection_relation_ids", "Objections"),
                 ("arguments", "argument_ids", "Arguments (premise, conclusion, commitment or inference)"),
@@ -139,6 +160,8 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
             description = next((record[field] for field in ("interpretation", "definition", "resolution", "meaning", "description", "basis") if record.get(field)), "")
             if directory == "claims":
                 description = f"{record['source_id']} {record['locator']}: {description}"
+                if record.get("witness") == "bibliographic":
+                    description = f"[bibliographic witness, not byte-verified] {description}"
             if directory == "relations":
                 description = f"{record['subject_id']} {record['predicate']} {record['object_id']}: {record.get('note', record.get('basis', ''))}"
             if directory == "results":
@@ -148,6 +171,9 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
             lines.append("  none recorded")
     for key, label in (("transcription_result_ids", "Transcriptions"), ("instantiation_result_ids", "Declared/recognized instantiations (not a mode-5 schema registry)")):
         lines.append(f"\n{label}: " + (", ".join(dossier[key]) or "none recorded"))
+    lines.append("\nConfiguration cases (registration only; run configurations for live verification):")
+    for case in dossier.get("configuration_cases", []):
+        lines.append(f"  {case['id']}: semantics {case['semantics_id']}; {case['href']}")
     lines.append("\nAttempts (outcomes do not establish truth or close premises):")
     for attempt in dossier["attempts"]:
         lines.append(f"  {attempt['id']} [{attempt['date']}; {attempt['kind']}; {attempt['outcome']}]: {attempt['summary']}")

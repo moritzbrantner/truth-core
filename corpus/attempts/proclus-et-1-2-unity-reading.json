@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-PROCLUS-ET-1-2-UNITY-READING",
+  "statement_ids": [
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "blocked",
+  "summary": "Read the complete pinned Taylor propositions 1–13 plus the opening of 14. Proposition 1 rejects actual infinitely iterated multitude, but modern cardinality does not reproduce its whole/more-than-part reasoning. Proposition 2 supports the bounded received-unity/nonidentity reading recorded by the claim. Its something-besides language supplies neither an independent derivation of nonidentity nor a universal inventory of essential qualities. Rejected the proposed essential-determination/pure-One transport proof as an unsourced strengthening. No theorem, schema instance, causal identification or root-premise discharge is advertised. Detailed locators, source-context findings and remaining obligations are in docs/proclus-unity.md.",
+  "evidence": [
+    "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST"
+  ],
+  "blocker": "An independently warranted account of besides/received unity and the One is needed to defend proposition 2 rather than transcribe it. Proposition 1 still needs faithful whole/constituent and actual-infinity premises. Keep the existing propositions-1–13 candidate; neither range nor issue #359 is complete."
+}

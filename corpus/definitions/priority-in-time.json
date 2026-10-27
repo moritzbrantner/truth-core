@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PRIORITY-IN-TIME",
+  "term": "prior in time (prius tempore)",
+  "definition": "y is prior in time to x when y is or occurs before x. Within one and the same thing that passes from potency to act, the potency is prior in time to the act (ST I q.3 a.1 co.: licet ... prius sit potentia quam actus tempore). Priority in time is not simple priority (DEF-SIMPLE-PRIORITY): a thing can be first in potency and later in act while its potency still depends on some being in act. The case has no Lean predicate for it; no premise or result uses it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A1-ACT-SIMPLY-PRIOR-A"
+  ]
+}

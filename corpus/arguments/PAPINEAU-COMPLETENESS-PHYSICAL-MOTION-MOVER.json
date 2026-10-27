@@ -1,0 +1,26 @@
+{
+  "id": "PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER",
+  "premise_statement_ids": [
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT",
+    "STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER"
+  ],
+  "conclusion_statement_id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "inference_ids": [
+    "INF-PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER"
+  ],
+  "meaning": "Transcription (single application, AGENTS.md invariant 16): the proof applies the unattributed bridge STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER, whose consequent is the conclusion, after Papineau's completeness of physics (STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS) and the unattributed bridge STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT supply its antecedent. It concludes the restricted mover premise STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER (whatever is moved in a respect of physical motion has a mover in that respect), which reaches the root premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER only through the existing scope result ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA and its open scope premise. premisesNeeded shows each of the three premises is needed. It records where a physicalist premise would agree with the case's mover premise and that the agreement rests on the two open bridges, chiefly on reading a prior lawful determination as a present mover (DISAMB-PRIOR-DETERMINATION-AND-MOVER). It closes nothing: both bridges are open and unattributed, and Papineau's thesis is an empirical claim, not a closed premise.",
+  "definition_ids": [
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION",
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-PRIOR-DETERMINATION-AND-MOVER",
+    "DISAMB-MOTION",
+    "DISAMB-MOVED-BY-SOMETHING"
+  ]
+}

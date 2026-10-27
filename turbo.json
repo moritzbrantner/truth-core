@@ -2,22 +2,49 @@
   "$schema": "https://turborepo.com/schema.json",
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": [".next/**", "out/**"],
-      "env": ["GITHUB_PAGES"]
+      "dependsOn": [
+        "^build",
+        "configuration-inputs"
+      ],
+      "outputs": [
+        ".next/**",
+        "out/**"
+      ],
+      "env": [
+        "GITHUB_PAGES",
+        "TRUTH_CORE_CONFIGURATION_REPORT",
+        "TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/.cache/configuration-explorer.json"
+      ]
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "dependsOn": [
+        "^lint"
+      ]
     },
     "test": {
-      "dependsOn": ["^test"]
+      "dependsOn": [
+        "^test"
+      ]
     },
     "typecheck": {
-      "dependsOn": ["^typecheck"]
+      "dependsOn": [
+        "^typecheck"
+      ]
+    },
+    "configuration-inputs": {
+      "cache": false,
+      "env": [
+        "TRUTH_CORE_CONFIGURATION_REPORT",
+        "TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT"
+      ]
     }
   }
 }

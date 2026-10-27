@@ -1,8 +1,9 @@
 import { appendProofSearchState, DEFAULT_PROOF_BUDGET, parseProofSearchState, type ProofSearchState } from "./proof-exploration-state";
+import { CLOSURE_FACETS, RECORD_FACETS, type ClosureFacet, type ReachFacet, type RecordFacet } from "./graph-facets";
 import type { ClusterMode, GraphStatus } from "./proposition-graph";
 
 /** All /graph view state; it round-trips through the URL so views can be shared. */
-export type GraphView = "root" | "focus" | "all";
+export type GraphView = "root" | "focus" | "local" | "all";
 export type FocusDirection = "up" | "down" | "both";
 
 export type GraphState = ProofSearchState & {
@@ -41,6 +42,14 @@ export type GraphState = ProofSearchState & {
   sel: string;
   /** Argument whose statements and inference steps are highlighted. */
   arg: string;
+  /** Facet filters (#491); OR within a facet, AND across facets. */
+  area: string[];
+  lane: string[];
+  closure: ClosureFacet[];
+  rec: RecordFacet[];
+  reach: "" | ReachFacet;
+  /** Graph data buckets to show; empty means the default view, ["all"] every bucket. */
+  buckets: string[];
 };
 
 type ReadableParams = {
@@ -48,7 +57,7 @@ type ReadableParams = {
   getAll(name: string): string[];
 };
 
-const views: GraphView[] = ["root", "focus", "all"];
+const views: GraphView[] = ["root", "focus", "local", "all"];
 const directions: FocusDirection[] = ["up", "down", "both"];
 const clusterModes: ClusterMode[] = ["passage", "source", "namespace"];
 const statuses: GraphStatus[] = [
@@ -95,6 +104,12 @@ export const DEFAULT_STATE: GraphState = {
   hide: false,
   sel: "",
   arg: "",
+  area: [],
+  lane: [],
+  closure: [],
+  rec: [],
+  reach: "",
+  buckets: [],
 };
 
 function oneOf<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
@@ -135,6 +150,12 @@ export function parseGraphState(params: ReadableParams): GraphState {
     hide: params.get("hide") === "1",
     sel: params.get("sel") ?? "",
     arg: params.get("arg") ?? "",
+    area: list(params, "area"),
+    lane: list(params, "lane"),
+    closure: list(params, "closure").filter((value): value is ClosureFacet => CLOSURE_FACETS.some((facet) => facet.id === value)),
+    rec: list(params, "rec").filter((value): value is RecordFacet => RECORD_FACETS.some((facet) => facet.id === value)),
+    reach: oneOf(params.get("reach"), ["", "root", "other"] as const, ""),
+    buckets: list(params, "b"),
   };
 }
 
@@ -160,6 +181,12 @@ export function serializeGraphState(state: GraphState): string {
   if (state.hide) params.set("hide", "1");
   if (state.sel) params.set("sel", state.sel);
   if (state.arg) params.set("arg", state.arg);
+  for (const value of state.area) params.append("area", value);
+  for (const value of state.lane) params.append("lane", value);
+  for (const value of state.closure) params.append("closure", value);
+  for (const value of state.rec) params.append("rec", value);
+  if (state.reach) params.set("reach", state.reach);
+  for (const value of state.buckets) params.append("b", value);
   if (state.scope !== "global") params.set("scope", state.scope);
   if (state.obligation) params.set("obligation", state.obligation);
   for (const pin of state.pins) params.append("pin", pin);
@@ -172,7 +199,12 @@ export function serializeGraphState(state: GraphState): string {
 }
 
 export function hasFilters(state: GraphState) {
-  return Boolean(state.leaf || state.q.trim() || state.status.length || state.tags.length || state.source);
+  return Boolean(state.leaf || state.q.trim() || state.status.length || state.tags.length || state.source || hasFacetFilters(state));
+}
+
+/** Facet filters whose values each data bucket summarizes, so buckets can be skipped. */
+export function hasFacetFilters(state: GraphState) {
+  return Boolean(state.area.length || state.lane.length || state.closure.length || state.rec.length || state.reach);
 }
 
 /** Finite viewport values only; malformed links fall back to fit-to-view. */

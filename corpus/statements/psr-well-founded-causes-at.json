@@ -1,0 +1,7 @@
+{
+  "id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+  "lean_declaration": "TruthCore.Explanation.WellFoundedSource.WellFoundedCausesAt",
+  "paraphrase": "At the selected model world, the full Causes relation is well-founded, not merely the subset of causes among actual existents.",
+  "definition_ids": ["DEF-PSR-WELL-FOUNDED-CAUSES-AT"],
+  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+}

@@ -90,8 +90,10 @@ not state it in the prima via's sense of motion.
 It differs from the bare Eleatic thesis by granting that judgings and
 perceivings occur: the second conjunct. With `OpiningIsBeingMovedReading` it is
 inconsistent; McTaggart denies the corresponding premise for appearances (he
-raises the question whether an appearance of change must itself change and
-promises an answer, last paragraph of the paper).
+raises the question whether an appearance of change must itself change at the
+end of the 1908 paper, and answers it in *The Nature of Existence* II, § 511:
+the denial of time need not itself be in time,
+`TruthCore.Alternatives.McTaggart.AppearingsDoNotChangeReading`).
 -/
 def ChangeUnrealButAppearsReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop) (Opines : Being → Prop → Prop) : Prop :=

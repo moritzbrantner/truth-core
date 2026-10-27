@@ -1,0 +1,16 @@
+{
+  "id": "PAPINEAU-RISE-COMPLETENESS-OF-PHYSICS-A",
+  "statement_id": "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+  "source_id": "PAPINEAU-RISE-PHYSICALISM",
+  "locator": "pp.3–12 p.8 (The Completeness of Physics and the Argument for Physicalism)",
+  "interpretation": "Papineau's 'more precise version' of the completeness of physics: all physical effects are fully determined by law by prior physical occurrences (p.8; note 2 widens it to the chances of physical occurrences under quantum indeterminism). He asserts it, not only reports it: it is the crucial empirical premise of the causal argument (p.7), and the conclusion (pp.32-33, passage PAPINEAU-RISE-PHYSICALISM-13-33) says there is now good reason to believe that all physical effects are due to physical causes, a premise fully established by normal inductive standards though not certain. 'Physical' is his stipulated sense, specifiable without the special vocabulary at issue (pp.12-13), and causal relata are read as facts or property instantiations (p.10). The thesis is about physical effects only and does not assert physicalism (p.8). Not read here: physicalism itself (restricted at pp.11-12 to whatever interacts causally with the physical world), any claim about God, and any identification of his determining prior occurrences with the case's movers; that last step is the separate unattributed bridge STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER. Papineau does not respond to Aquinas; this is a research assessment of his own thesis.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-PRIOR-DETERMINATION-AND-MOVER"
+  ]
+}

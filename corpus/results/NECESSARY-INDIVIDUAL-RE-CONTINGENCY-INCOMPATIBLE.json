@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "argument_id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE/comparator.json",
+  "status": "solution-present",
+  "description": "A fixed bearer is present at every successor, while that same bearer is absent at some successor. Instantiate the individual absence premise at the fixed witness. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim."
+}
