@@ -1,0 +1,21 @@
+{
+  "id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "paraphrase": "Either some bearer of an occurring thought has a concrete ground-ancestor (possibly itself) that exists at w and at every world accessible from w, or some bearer of an occurring thought has a concrete ground-ancestor (possibly itself) that exists at w, is contingent at w and has no concrete ground existing at w. The second horn is a root of the selected grounding relation only; it may have a non-concrete or unmodelled explanation.",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.ThinkerAncestryRootFork",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

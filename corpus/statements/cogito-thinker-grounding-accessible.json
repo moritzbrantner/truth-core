@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+  "paraphrase": "Thinker-local well-foundedness: every bearer of an occurring thought is accessible (Lean Acc) for the relation 'is an actual concrete ground of' at w, so no infinite descending chain of actual concrete grounds starts below it. Cycles or regresses through non-concrete or absent grounds, and grounding elsewhere in the carrier, are unconstrained. Strictly weaker than whole-carrier well-foundedness of grounding (COGITO-ANCESTRY-CONTROLS). An open premise, not attributed to any source.",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.ThinkerGroundingAccessible",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

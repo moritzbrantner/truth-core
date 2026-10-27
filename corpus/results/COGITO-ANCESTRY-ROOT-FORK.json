@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-ANCESTRY-ROOT-FORK",
+  "argument_id": "COGITO-ANCESTRY-ROOT-FORK",
+  "challenge_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution",
+  "theorem": "TruthCore.Results.Causality.CogitoNecessaryConcrete.ancestryRootFork",
+  "comparator_config": "results/COGITO-ANCESTRY-ROOT-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional (excluded middle as explicit premise, zero Lean axioms), not a transcription: Acc induction down the actual concrete ground-ancestry of the Cogito's bearer yields either a concrete ancestor existing at every accessible world or a contingent root of the grounding relation among the bearer's ancestors. All five non-logical premises open. Neither horn is asserted. No root change."
+}
