@@ -1,0 +1,9 @@
+{
+  "id": "INF-BRUTE-ROOT-DISJUNCTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-BRUTE-ROOT-DISJUNCTION",
+  "rule": "direct-proof",
+  "meaning": "Structural proof via well-founded predecessor induction and classical case analysis: extract an actual minimal concrete individual; if it is not contingent, it witnesses necessary existence; otherwise it witnesses a brute concrete grounding root. If the relation is not well-founded, the other disjunct holds. All conditions are in the quantified theorem, with no asserted premise of actual-world well-foundedness or contingency.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

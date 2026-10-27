@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+  "term": "contingent brute concrete root under world-local existential grounding",
+  "definition": "For a typed Profile of possible complete histories, an actual concrete root is a candidate individual x for which concrete x and ExistsAt w x hold, but there is no actually existing concrete y with grounds w y x. This is a root of the stipulated world-local existential-grounding relation, not necessarily a temporally first event, an uncaused universe or a fully unexplained fact. WellFounded (grounds w) is an additional condition over the whole candidate carrier. The model does not assume all grounds are concrete or that every explanation is a cause.",
+  "basis": "stipulative",
+  "note": "An analyst's model for #505/#487, with deliberately narrow sense of 'brute'. Alternative abstract, intrinsic and global explanations remain open; do not identify absence of modeled concrete predecessors with absolute explanatory absurdism.",
+  "lean_declaration": "TruthCore.Causality.BruteFoundationBoundary.Profile"
+}
