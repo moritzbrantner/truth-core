@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "There is a Lean proposition that fails, witnessed by False.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
