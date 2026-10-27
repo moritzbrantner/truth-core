@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "argument_id": "LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "challenge_module": "TruthCore.Results.Logic.CartesianFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CartesianFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.CartesianFloor.somePropositionFails",
+  "comparator_config": "results/LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS/comparator.json",
+  "status": "solution-present",
+  "description": "There is a Lean proposition that fails, witnessed by False. This is a theorem of Lean's constructive logic, not an assertion about external reality."
+}
