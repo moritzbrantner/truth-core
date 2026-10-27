@@ -1,0 +1,13 @@
+{
+  "id": "STMT-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "paraphrase": "Three independent finite interpretations omit, respectively, actual thought, thought-as-change classification, or the Physics III.1 change reading while the other premises hold and the subject conclusion fails.",
+  "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.OmissionControls",
+  "definition_ids": [
+    "DEF-THOUGHT-CHANGE-OCCURRENCE",
+    "DEF-THOUGHT-CHANGE-CLASSIFICATION",
+    "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+  ]
+}
