@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROWE-PERMISSION-CONSTRAINT",
+  "paraphrase": "For every omniscient wholly good being, every occurring intense suffering it could prevent has an unavoidable greater-good loss or equal/worse evil cost of prevention. This is a necessary condition only, in Rowe’s published simplified form.",
+  "lean_declaration": "TruthCore.English.Rowe.PermissionConstraintReading",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

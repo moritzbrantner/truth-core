@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "paraphrase": "Unattributed conditional mathematical law: for any fixed roster, frame, presence extension and world, some single member is present in every successor if and only if every successor is populated and some fixed member is present in every populated successor. The conjunction's two witnesses are coupled by a single roster member; no metaphysical accessibility, causal explanation or actuality premise is proven.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridgeLaw",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+  ]
+}

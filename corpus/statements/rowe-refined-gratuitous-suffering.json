@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+  "paraphrase": "Some actual occurring intense suffering is preventable by any omniscient omnipotent being without unavoidable greater-good loss, balance-neutral good loss, or permission of equal/worse evil.",
+  "lean_declaration": "TruthCore.English.Rowe.RefinedGratuitousSufferingReading",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING",
+    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

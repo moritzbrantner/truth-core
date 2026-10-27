@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "rule": "direct-proof",
+  "meaning": "Forwards, project a single de-re witness into universal population and shared presence. Backwards, use the same fixed witness supplied by shared presence and population at each accessible successor. All conditional hypotheses are within the quantified theorem.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

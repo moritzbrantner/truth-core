@@ -13,5 +13,6 @@ import TruthCore.Comparison.PlatonicForms
 import TruthCore.Comparison.ProblemOfEvil
 import TruthCore.Comparison.ProblemOfEvilCulpa
 import TruthCore.Comparison.Resurrection
+import TruthCore.Comparison.RoweEvil
 import TruthCore.Comparison.Stevenson
 import TruthCore.Comparison.Teleonomy

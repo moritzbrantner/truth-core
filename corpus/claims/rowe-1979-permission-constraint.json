@@ -1,0 +1,19 @@
+{
+  "id": "ROWE-1979-PERMISSION-CONSTRAINT",
+  "statement_id": "STMT-ROWE-PERMISSION-CONSTRAINT",
+  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "locator": "pp. 336–337 §I premise (2), nn.2–4",
+  "interpretation": "The necessary-condition form explicitly stated in the discussion: if an omniscient wholly good being permits preventable occurring intense suffering, prevention must lose a greater good or permit equal/worse evil. This is not the sufficient claim that any outweighing good licenses permission, which Rowe rejects as an interpretation of (2). Goods may include justice and need not follow later in time. The original simplified wording omits the balance-neutral-good complication he considers in n.3; no equivalence with that refinement is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

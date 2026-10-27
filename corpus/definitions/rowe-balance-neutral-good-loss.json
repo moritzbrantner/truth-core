@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS",
+  "term": "balance-neutral good loss",
+  "definition": "A good whose loss, when suffering is prevented, leaves the balance of good and evil unchanged, rather than improving it. Rowe p.336 n.3 suggests that such a cost may also exempt the being from prevention. The refinement therefore weakens the necessary permission constraint and strengthens the factual gratuitous-suffering premise. It does not make an indifferent balance sufficient to justify permission.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ROWE-1979-BALANCE-NEUTRAL-PERMISSION"
+  ],
+  "lean_declaration": "TruthCore.English.Rowe.withBalanceNeutral"
+}

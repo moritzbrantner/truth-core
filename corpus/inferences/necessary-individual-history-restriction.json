@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "rule": "direct-proof",
+  "meaning": "Evaluate the two surviving populated histories and prove that their exact presence extensions agree with the corresponding worlds of the larger control. Evaluate the root as a fixed de-re witness only relative to this smaller world carrier.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

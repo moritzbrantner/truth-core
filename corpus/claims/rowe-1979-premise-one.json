@@ -1,0 +1,19 @@
+{
+  "id": "ROWE-1979-PREMISE-ONE",
+  "statement_id": "STMT-ROWE-GRATUITOUS-SUFFERING",
+  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "locator": "p. 336 §I premise (1), n.2; pp. 337–338 discussion",
+  "interpretation": "Rowe advances this as a rationally supported factual premise, not a demonstrated fact. The omniscient/omnipotent preventer is hypothetical; the formalization universally ranges over qualifying beings without assuming one exists. Blocking costs are counterfactually unavoidable, not merely goods that happen to follow suffering. The unreplaceability clarification in n.2 excludes trivial conjunctive goods. The p.336 n.3 balance-neutral-good qualification is preserved in the notes as a limitation of this published simplified form. The fawn’s apparent pointlessness alone does not establish this premise; Rowe explicitly distinguishes those claims on p.337.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}
