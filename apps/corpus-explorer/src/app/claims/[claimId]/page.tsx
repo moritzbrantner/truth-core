@@ -8,6 +8,7 @@ import {
   findClaim,
   findSource,
   getCorpus,
+  isBibliographicPassage,
   isMediaPassage,
   isWebPassage,
   resultsForClaim,
@@ -43,6 +44,9 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
       </Link>
       <div className="mt-10 flex flex-wrap items-center gap-3">
         <StatusMark>Source reading</StatusMark>
+        {claim.witness === "bibliographic" ? (
+          <StatusMark tone="muted">Bibliographic witness · not byte-verified</StatusMark>
+        ) : null}
         <p className="font-mono text-xs text-[var(--muted)]">{claim.id}</p>
         <Link className="link-quiet text-xs" href={`/statements/${claim.statement_id}`}>
           Statement {claim.statement_id} →
@@ -61,7 +65,52 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
         </p>
       ) : null}
 
-      {isMediaPassage(passage) ? (
+      {isBibliographicPassage(passage) ? (
+        <section className="record-section">
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="eyebrow">Bibliographic evidence</p>
+            <StatusMark tone="muted">Not byte-verified</StatusMark>
+          </div>
+          <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
+            This claim cites passage <span className="font-mono text-base">{passage.id}</span> of a
+            copyrighted edition by page or section. No bytes are pinned, so no tool can re-check
+            which text was read: a reader must consult the cited edition. It is allowed only where
+            no pinnable witness exists, and can later be upgraded to one without changing this
+            claim&apos;s ID.
+          </p>
+          <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-[11rem_minmax(0,1fr)]">
+            <dt>Passage</dt>
+            <dd>{passage.locator}</dd>
+            <dt>Edition</dt>
+            <dd>
+              {passage.author}, <em>{passage.title}</em>
+              {passage.edition ? `, ${passage.edition}` : null} ({passage.journal ?? passage.publisher},{" "}
+              {passage.year})
+            </dd>
+            <dt>{passage.isbn ? "ISBN" : "DOI"}</dt>
+            <dd className="font-mono break-all">{passage.isbn ?? passage.doi}</dd>
+            <dt>Pages</dt>
+            <dd>{passage.pages ?? passage.section}</dd>
+            {passage.translation ? (
+              <>
+                <dt>Translation</dt>
+                <dd>
+                  {passage.translation.translator} ({passage.translation.year}),{" "}
+                  {passage.translation.edition}
+                </dd>
+              </>
+            ) : null}
+            {passage.quotation ? (
+              <>
+                <dt>Short quotation</dt>
+                <dd>“{passage.quotation}”</dd>
+              </>
+            ) : null}
+            <dt>Why bibliographic</dt>
+            <dd>{passage.why_bibliographic}</dd>
+          </dl>
+        </section>
+      ) : isMediaPassage(passage) ? (
         <section className="record-section">
           <div className="flex flex-wrap items-center gap-3">
             <p className="eyebrow">Recorded-speech evidence</p>

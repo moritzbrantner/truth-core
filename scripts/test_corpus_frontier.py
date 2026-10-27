@@ -343,6 +343,20 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["supporting_claims"], ["CLAIM-EVIDENCE"])
         self.assertIn("supporting source claims: CLAIM-EVIDENCE", corpus.format_frontier(report))
 
+    def test_marks_bibliographic_claims_as_not_byte_verified(self) -> None:
+        # #378: claims resting on a bibliographic span are shown as such.
+        claims = [
+            {"id": "CLAIM-BIB", "statement_id": "OPEN-A", "witness": "bibliographic"},
+            {"id": "CLAIM-PINNED", "statement_id": "OPEN-A"},
+        ]
+        relations = [relation("claim", "CLAIM-BIB-2", "supports", "OPEN-B")]
+        claims.append({"id": "CLAIM-BIB-2", "statement_id": "SIDE", "witness": "bibliographic"})
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, relations, root="ROOT", claims=claims)
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["OPEN-A"]["bibliographic_claims"], ["CLAIM-BIB"])
+        self.assertEqual(items["OPEN-B"]["bibliographic_claims"], ["CLAIM-BIB-2"])
+        self.assertIn("bibliographic witness, not byte-verified: CLAIM-BIB\n", corpus.format_frontier(report) + "\n")
+
     def test_classifies_open_premises_by_depth(self) -> None:
         # #143 (2026-10-24): bare = no stating claim and no supports relation.
         claims = [{"id": "CLAIM-A", "statement_id": "OPEN-A"}]
