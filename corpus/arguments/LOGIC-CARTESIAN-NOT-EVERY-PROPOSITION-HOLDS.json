@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "inference_ids": [
+    "INF-LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS"
+  ],
+  "meaning": "It is not the case that all Lean propositions hold.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
