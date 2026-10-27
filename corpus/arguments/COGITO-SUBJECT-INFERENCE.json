@@ -1,0 +1,9 @@
+{
+  "id": "COGITO-SUBJECT-INFERENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-INDEPENDENCE-SUBJECT-INFERENCE",
+  "inference_ids": [
+    "INF-COGITO-SUBJECT-INFERENCE"
+  ],
+  "meaning": "The existence of an occurring thought and a bearer principle entails some thinking subject."
+}
