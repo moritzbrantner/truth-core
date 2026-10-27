@@ -1,0 +1,12 @@
+{
+  "id": "HARNACK-HOD-I-II-2-NO-NEW-COMMUNITY-PREACHING-COMMISSION",
+  "statement_id": "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+  "source_id": "HARNACK-HOD",
+  "basis": "translation",
+  "locator": "I, ch. II §2, II. Details, 7: Jesus himself did not found a new religious community",
+  "interpretation": "Harnack states that Jesus 'did not found a new religious community, but gathered round him a circle of disciples, and chose Apostles whom he commanded to preach the Gospel'. In the same section (I and II.2, II.4) he grants that Jesus knew himself to be 'the Messiah chosen and called by God' and claimed a unique and permanent importance as Redeemer and Judge; the 'founding' he speaks of in II.4 is the founding of the kingdom of God, not of a community. Read as: whatever mandate Jesus held, its exercise was a commission to preach the Gospel, and no society was founded in its exercise. This reading is weaker than the source: Harnack also denies that Jesus founded a community at all, which is a rival of stage 5 (STMT-CHRIST-FOUNDED-VISIBLE-CHURCH, docs/alternatives/premises/christ-founded-visible-church.md) and is not part of this statement. Harnack is a historian's reconstruction, not a witness; the claim records that a pinned source states the rival, not that the rival is true. Basis: Buchanan's English translation named in the passage manifest; a candidate for upgrade to the German Lehrbuch der Dogmengeschichte.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ]
+}

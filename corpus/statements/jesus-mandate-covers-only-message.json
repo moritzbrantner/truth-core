@@ -1,0 +1,8 @@
+{
+  "id": "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+  "paraphrase": "Rival to STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH: for any being g from which Jesus holds a mandate, and any society c, Jesus did not found c in the exercise of that mandate. Its intended gloss, not encoded in the Lean type, is that the mandate is a commission to proclaim a message (the Gospel). It does not deny that Jesus holds a mandate, and it does not by itself deny that Jesus founded a society (that is the stage-5 rival).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingScope.MandateCoversOnlyMessage",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ]
+}

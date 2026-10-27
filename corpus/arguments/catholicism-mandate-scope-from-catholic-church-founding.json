@@ -1,0 +1,21 @@
+{
+  "id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "premise_statement_ids": [
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+  ],
+  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+  "inference_ids": [
+    "INF-CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING"
+  ],
+  "meaning": "The scope premise STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING is derived from two premises: its instance at the Catholic Church, STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH (if Jesus holds a mandate from g and founded the Catholic Church as a visible society with authority, he founded it in that mandate and commissioned it to teach), and stage 6, STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH (every visible authoritative society Jesus founded is the Catholic Church). The scope premise's universal reach over societies, and so the question whether every society in the founding bridge's antecedent is the commissioned one, is carried by stage 6, already a premise of every root route; the narrow premise keeps only the 'institution, not only message' content, for one society. Each premise is necessary (FoundingScope.omissionModels) and both are jointly satisfiable with every stage antecedent of the bridge (FoundingScope.jointModel). Both premises are open.",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

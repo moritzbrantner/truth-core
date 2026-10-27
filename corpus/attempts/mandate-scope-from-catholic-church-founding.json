@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Split the scope premise's two forks. Derived STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING from its instance at the Catholic Church (new STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH, strictly weaker) and stage 6, which every root route already carries; omission models show both needed, a joint model shows them satisfiable with every stage antecedent. The 'which society' fork (Lumen gentium §23 particular churches, societies founded by disciples) is therefore exactly the stage-6 fork. The 'institution or message' fork remains in the narrow premise, now supported by Lumen gentium III §§18-20 (the universal Church founded in the apostles sent as sharers of Christ's power). Recorded the message rival from a pinned source (Harnack, History of Dogma I, ch. II §2, II.7, newly pinned) and proved where it parts from the case (messageRival_excludes_scope); it is not refuted, since the disagreement lies in report-to-event premises for Matthew 28.18-20 and John 20.21-23. Rejected: (i) proving the scope premise from Matthew 28 alone, since the commission names the eleven, not a society; (ii) adding a commissioned-body constant and a separate identity premise, which would duplicate stage 6 with a new open premise; (iii) Dei Filius ch. 3 para. 5 as a premise (it asserts the root component). Newly pinned Acts 2 and added a second attestation witness (2.22-36). Route costs unchanged; nothing discharged.",
+  "evidence": [
+    "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+    "VATICAN-II-LG-19-CHURCH-FOUNDED-IN-APOSTLES-SENT-WITH-CHRISTS-POWER",
+    "HARNACK-HOD-I-II-2-NO-NEW-COMMUNITY-PREACHING-COMMISSION",
+    "NT-ACTS-2-22-36-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST"
+  ]
+}
