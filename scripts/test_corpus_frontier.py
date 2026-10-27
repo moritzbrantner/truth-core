@@ -862,12 +862,13 @@ class FrontierCorpusTest(unittest.TestCase):
         report = json.loads(self.run_frontier("--json", "--reaching-root"))
         self.assertTrue(report["root_known"])
         ids = {item["statement_id"] for item in report["items"]}
-        # #357: the founding bridge is derived from four typed premises, its
-        # scope premise from its Catholic-Church instance and stage 6, and that
-        # instance from the commission reports' report-to-event premise.
+        # #357: the founding bridge is derived from four typed premises, and
+        # its scope premise from its Catholic-Church instance and stage 6. That
+        # instance's derivation from the commission reports is a transcription
+        # with open premises, so it stays open beside them.
         self.assertNotIn("STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", ids)
         self.assertNotIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING", ids)
-        self.assertNotIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH", ids)
+        self.assertIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH", ids)
         self.assertIn("STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", ids)
         self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1

@@ -185,15 +185,18 @@ attributed to him), premise 2 holds and premise 1 fails
 teaching from preaching); without premise 2, every commission may be
 historical and the narrow premise still fail (`omissionModels`). Premise 2 is
 strictly weaker than the narrow premise (`narrow_implies_link`, strict by the
-first omission model), so, relative to the recorded rivals (none denies premise
-2), the fork has moved onto premise 1, a historical premise. Given premise 2,
-Jesus' mandate and his founding of the Catholic Church as a visible society
-with authority, the message rival must deny **each** of the four governing
-commissions (`messageRival_denies_governing_reports`); it may keep Matthew
-28.18-20 (`messageRival_compatible_with_mt28`). This is a relocation, not a
-discharge: premise 2 has the conclusion's two parts as consequents. The result
-is not recorded as a transcription (premise 2's antecedents are discharged from
-typed report content, and a countermodel exists), but it closes nothing.
+first omission model), but it carries the institutional content. The fork is
+therefore split between the two premises, not moved onto premise 1: a rival
+may deny premise 2 (the second omission model satisfies the message rival with
+every commission historical), or, granting premise 2, Jesus' mandate and his
+founding of the Catholic Church as a visible society with authority, must deny
+**each** of the four governing commissions
+(`messageRival_denies_governing_reports`); it may keep Matthew 28.18-20
+(`messageRival_compatible_with_mt28`). Premise 2 has the conclusion's two parts
+as consequents and the case analysis only supplies its antecedents, so the
+result is recorded as a transcription (invariant 16, `single_application`;
+Codex review on #581): it closes nothing and derives no institutional
+content.
 
 **Findings from the text** (Matthew 16, 18, 28 and John 20, 21 read in full):
 
@@ -225,11 +228,11 @@ historical argument for one governing commission (the double attestation of
 binding and loosing and forgiving, Matthew 16.19, 18.18 and John 20.23; Paul on
 Cephas, Galatians 1.18 and 2.9).
 
-**Premise effect.** Reaching the root, the narrow premise leaves the open
-frontier and the two new premises take its place (on main at merge: 61 → 62
-open premises; 12 bare unchanged, 49 → 50 sourced-undefended). Per-route costs are unchanged (cheapest 31),
-because the route count keeps a sourced premise as one leaf. Nothing is
-discharged.
+**Premise effect.** Because the result is a transcription with open premises,
+the narrow premise stays on the open frontier ("open although proved"), and the
+two new premises are listed beside it (on main at merge: 61 → 63 open premises;
+12 bare unchanged, 49 → 51 sourced-undefended). Per-route costs are unchanged
+(cheapest 31). Nothing is discharged.
 
 ## Verified witnesses and findings
 

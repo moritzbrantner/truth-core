@@ -33,14 +33,17 @@ names; that Harnack denies every other power is not attributed to him), premise
 2 holds and premise 1 fails (`preachingOnly_fails_reports`); this depends on
 the stipulated distinction of `teach` from `preach`. Premise 2 is strictly
 weaker than the narrow premise (`narrow_implies_link` gives one direction, the
-first model of `omissionModels` the strictness), so, relative to the recorded
-rivals (none of which denies premise 2), the 'institution or message' fork
-moves onto the historical premise 1.
-`messageRival_denies_governing_reports` locates the rival exactly: with
-premise 2, Jesus' mandate and his founding of the Catholic Church as a visible
-society with authority, the rival
-must deny that **each** of the four governing commissions goes back to Jesus;
-it may keep Matthew 28.18-20 (`messageRival_compatible_with_mt28`).
+first model of `omissionModels` the strictness), but it carries the
+institutional content: the conclusion's two parts are its consequents, so the
+result applying it is recorded as a transcription (invariant 16). The
+'institution or message' fork is split between the two premises, not moved
+onto premise 1. A rival may deny premise 2 (the second model of
+`omissionModels` satisfies the message rival with every commission
+historical); granting premise 2, Jesus' mandate and his founding of the
+Catholic Church as a visible society with authority, the rival must deny that
+**each** of the four governing commissions goes back to Jesus
+(`messageRival_denies_governing_reports`); it may keep Matthew 28.18-20
+(`messageRival_compatible_with_mt28`).
 `omissionModels` shows both premises needed; `jointModel` shows them jointly
 satisfiable with every stage antecedent. These are schema models, not
 possible worlds of Christian history.
@@ -226,8 +229,8 @@ def fullCommissioning : Commissioning where
 /-- The message rival is compatible with premise 2, with Jesus' mandate, with
 his founding of the Catholic Church as a visible society with authority, with
 stage 6, and with Matthew 28.18-20 going back to
-Jesus: what it must deny is the four governing commissions, not the teaching
-commission. -/
+Jesus: granting premise 2, what it must deny is the four governing
+commissions, not the teaching commission. -/
 theorem messageRival_compatible_with_mt28 :
     ∃ σ : Signature, ∃ A : Agency σ, ∃ E : Commissioning,
       ChurchFoundedInCommissionedApostles σ A E ∧ MandateCoversOnlyMessage σ A ∧
