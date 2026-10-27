@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ThoughtChangeSubject.omissionControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
