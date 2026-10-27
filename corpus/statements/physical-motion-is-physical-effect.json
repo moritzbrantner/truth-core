@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT",
+  "paraphrase": "Unattributed bridge, open: whatever is being moved in a respect of physical motion (place, quality or quantity) undergoes an occurrence, its being moved in that respect, that is physical in Papineau's sense and is an effect.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalCompleteness.PhysicalMotionIsPhysicalEffect",
+  "definition_ids": [
+    "DEF-PHYSICAL-RESPECT",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-MOTION"
+  ]
+}

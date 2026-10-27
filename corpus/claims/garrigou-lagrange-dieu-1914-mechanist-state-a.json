@@ -1,0 +1,15 @@
+{
+  "id": "GARRIGOU-LAGRANGE-DIEU-1914-MECHANIST-STATE-A",
+  "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
+  "source_id": "GARRIGOU-LAGRANGE-DIEU-1914",
+  "locator": "I, ch. III, n. 36 B, p. 250: Par le mouvement local, un corps n'acquerrait rien, il ne passerait pas de la puissance à l'acte, il changerait seulement de position",
+  "interpretation": "A report, not Garrigou-Lagrange's view. He presents the mechanists who follow Descartes (Principes II, 37 and 39, quoted on pp. 249-250): on their view a mobile no longer needs an actual mover while it moves, only to pass from rest to what has been called since Descartes the state of motion; by local motion a body would acquire nothing, would not pass from potency to act, and would only change position. He adds that P. Bulliot (Brussels Catholic congress, 1894), taking this notion as established science, proposed to start the proof from motion with the passage from rest to motion instead of motion itself; and on p. 763 he calls 'fort juste' Meyerson's remark that the principle of inertia requires us to conceive motion as a state. Read as the position so reported: a body persevering in uniform rectilinear motion is not thereby being moved in that respect, in the sense of DEF-MOTION-AS-REDUCTION. Weaker than the report: only uniform motion in which a body perseveres. Second-hand: neither Descartes, Bulliot nor Meyerson is pinned. Garrigou-Lagrange rejects the reading (p. 252, claim GARRIGOU-LAGRANGE-DIEU-1914-LOCAL-MOTION-IS-BECOMING-A) and replies to Bulliot that the proof would then become the proof from contingency, needing only a conserving cause and no first mover (pp. 250-251).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIFORM-MOTION-AS-STATE",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING"
+  ]
+}

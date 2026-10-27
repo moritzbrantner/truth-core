@@ -171,12 +171,14 @@ being moved in a respect of uniform rectilinear motion and nothing moves it in
 that respect.
 
 Newton's first law (`ChangeOfStateOnlyByImpressedForceReading`) motivates it
-but does not state it. The rival adds two steps no pinned source states: that
-some moving body is actually free of impressed force, and that a state of
-uniform motion is a *being moved* (`MovedIn`, a reduction from potency to act)
-whose only candidate mover is an impressed force. The Thomist reply denies the
-second (`DISAMB-MOTION`), so the rival bears first on the reading of the mover
-premise.
+but does not state it. The rival adds two steps: that some moving body is
+actually free of impressed force (no pinned source states it), and that a state
+of uniform motion is a *being moved* (`MovedIn`, a reduction from potency to
+act; Garrigou-Lagrange holds this, though not the rival) whose only candidate
+mover is an impressed force. One Thomist reply denies the
+second (the state reading of `DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING`), so the
+rival bears first on the reading of the mover premise; another keeps it and
+denies that nothing moves the body (`TruthCore.Alternatives.Inertia`).
 -/
 def UniformMotionWithoutMoverReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop)

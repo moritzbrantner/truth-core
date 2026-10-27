@@ -7,8 +7,11 @@ import {
 } from "./proposition-graph";
 import type { FrontierReport } from "./site-state";
 
+/** A fixture corpus plus the results that the Lean heuristics would flag as transcriptions. */
+export type GraphFixtureInput = PropositionGraphInput & { transcriptionResultIds: string[] };
+
 /** Tests exercise Python's actual closure semantics, never a second JS solver. */
-export function fixtureReport(input: PropositionGraphInput): FrontierReport {
+export function fixtureReport(input: GraphFixtureInput): FrontierReport {
   return JSON.parse(
     execFileSync(
       "python3",
@@ -23,7 +26,7 @@ flags = [dict(result_id=r['id'], argument_id=r['argument_id'], proof_steps=1,
  single_application_of='fixture', goal_consequent_premises=[])
  for r in x['results'] if r['id'] in x['transcriptionResultIds']]
 print(json.dumps(frontier_report(x['statements'], x['arguments'], x['results'],
- x['relations'], root='ROOT', transcription=flags, claims=x['claims'])))
+ x['relations'], root='ROOT', transcription=flags, claims=x['claims'], inferences=x['inferences'])))
 `,
       ],
       {
@@ -35,6 +38,6 @@ print(json.dumps(frontier_report(x['statements'], x['arguments'], x['results'],
   ) as FrontierReport;
 }
 
-export function fixtureGraph(input: PropositionGraphInput) {
+export function fixtureGraph(input: GraphFixtureInput) {
   return buildPropositionGraph(input, fixtureReport(input));
 }

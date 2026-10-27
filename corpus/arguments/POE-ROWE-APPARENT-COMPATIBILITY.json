@@ -1,0 +1,26 @@
+{
+  "id": "POE-ROWE-APPARENT-COMPATIBILITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROWE-APPARENT-COMPATIBILITY",
+  "inference_ids": [
+    "INF-POE-ROWE-APPARENT-COMPATIBILITY"
+  ],
+  "meaning": "Finite interpretation with an occurring intense suffering and an unrecognized unavoidable greater-good cost. Narrow theism and the permission constraint hold; actual gratuitous suffering does not. This refutes only the deductive implication from the limited appearance projection, not Rowe’s inductive warrant, actual gratuitous evil or actual divine permission. The absence of gratuitous suffering reuses the verified deductive-core theorem.",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ],
+  "commitment_statement_ids": [
+    "STMT-ROWE-PERMISSION-CONSTRAINT",
+    "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING",
+    "STMT-ROWE-THEISTIC-BEING-EXISTS",
+    "STMT-ROWE-NO-GRATUITOUS-SUFFERING"
+  ]
+}

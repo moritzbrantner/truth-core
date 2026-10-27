@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-KNOWLEDGE-RETORSION",
+  "argument_id": "LOGIC-KNOWLEDGE-RETORSION",
+  "challenge_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.KnowledgeRetorsion.noFactiveKnowerOfUniversalNoKnowledge",
+  "comparator_config": "results/LOGIC-KNOWLEDGE-RETORSION/comparator.json",
+  "status": "solution-present",
+  "description": "A constructive theorem about factive knowledge: no agent can know the universal denial that nobody knows any proposition. The conditional factivity antecedent is not discharged as an independent philosophical premise; neither the theorem nor its controls establishes actual knowledge."
+}

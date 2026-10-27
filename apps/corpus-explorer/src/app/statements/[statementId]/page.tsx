@@ -15,7 +15,8 @@ import {
   resultsForArgument,
 } from "@/lib/corpus";
 import { leanIndex } from "@/lib/lean-source";
-import { CLOSURE_DESCRIPTIONS, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
+import { describeDisagreement, FLOOR_BASIS_DESCRIPTIONS } from "@/lib/floor";
+import { CLOSURE_DESCRIPTIONS, floorEntry, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
 
 type StatementPageProps = {
   params: Promise<{ statementId: string }>;
@@ -34,6 +35,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
   }
   const report = getFrontierReport();
   const state = statementState(report, statement.id);
+  const floor = floorEntry(report, statement.id);
   const lean = statement.lean_declaration ? leanIndex().get(statement.lean_declaration) : undefined;
   const claims = claimsForStatement(corpus, statement.id);
   const concluding = argumentsConcludingStatement(corpus, statement.id);
@@ -102,6 +104,18 @@ export default async function StatementPage({ params }: StatementPageProps) {
             No argument uses this statement as a premise, so it is not on the frontier.
           </p>
         )}
+        {floor ? (
+          <div className="mt-4 text-sm leading-6" data-floor-basis={floor.basis} data-floor-met={floor.met} id="floor">
+            <p className="eyebrow">Floor marking · {floor.basis}</p>
+            <p className="mt-2">
+              {floor.met
+                ? "Its basis criterion holds on the current records, so the marking closes it."
+                : `Its basis criterion fails, so the marking closes nothing: ${floor.reasons.join("; ")}.`}{" "}
+              <span className="text-[var(--muted)]">{FLOOR_BASIS_DESCRIPTIONS[floor.basis]}</span>
+            </p>
+            <p className="mt-1 text-[var(--muted)]">Disagreement: {describeDisagreement(floor.disagreement)}</p>
+          </div>
+        ) : null}
         {statement.self_evident ? (
           <div className="mt-4 text-sm leading-6">
             <p className="eyebrow">Self-evidence rests on</p>

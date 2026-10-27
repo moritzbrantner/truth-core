@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.roweBalanceNeutralCore"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

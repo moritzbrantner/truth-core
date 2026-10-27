@@ -1,0 +1,11 @@
+{
+  "id": "INF-HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "input_statement_ids": [
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+  ],
+  "output_statement_id": "STMT-HUME-NO-MUTUAL-CAUSE",
+  "rule": "composition",
+  "meaning": "If x caused y and y caused x, the two edges would form a nonempty finite causal path from x back to x, which the no-loops premise excludes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

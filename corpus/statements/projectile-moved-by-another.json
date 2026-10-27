@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PROJECTILE-MOVED-BY-ANOTHER",
+  "paraphrase": "A thrown body that continues in local motion after contact with the thrower has ceased is being moved in that respect, and by some other being (for Aquinas and Aristotle, the medium).",
+  "lean_declaration": "TruthCore.Alternatives.Inertia.ProjectileMovedByAnotherReading",
+  "definition_ids": [
+    "DEF-PROJECTILE-MOTION",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

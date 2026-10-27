@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "argument_id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION/comparator.json",
+  "status": "solution-present",
+  "description": "A finite restriction to the two unchanged populated histories yields DeDicto and a de-re necessary root with no jointly empty accessible extension; this models dependence on the domain of admissible worlds, not a metaphysical justification for it."
+}

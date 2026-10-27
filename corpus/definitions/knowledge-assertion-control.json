@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KNOWLEDGE-ASSERTION-CONTROL",
+  "term": "assertion without knowledge",
+  "definition": "AssertedNoKnowledgeModel has distinct Asserts and Knows predicates on Unit → Prop → Prop. It interprets all knowledge as false and every assertion as true, so the universal denial can be asserted although nobody knows it. Assertion does not entail truth or knowledge.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.AssertedNoKnowledgeModel",
+  "note": "Countermodel to an unstated assertion-to-knowledge bridge. No actual speech event or person is inferred from this finite interpretation."
+}

@@ -1,0 +1,154 @@
+{
+  "id": "MODEL-INERTIA-STATE-READING",
+  "description": "#497 removal model for INERTIAL-OBJECTION-YIELDS-RIVAL and the compatibility witness of the state reading: body false perseveres in uniform motion false by itself alone and is not moved in it; body true changes state and is moved in respect true by false, which impresses a force on it. Newton's Def. III-IV and Lex I, the persevering body, the mover bridge, no self-motion, the state reading, the mover premise and something moved hold; the becoming reading and the inertial rival fail.",
+  "vocabulary": "INERTIA",
+  "lean_declaration": "TruthCore.Models.Inertia.StateReading.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Bool",
+    "MovedIn": "TruthCore.Models.Inertia.StateReading.model.MovedIn",
+    "MovesIn": "TruthCore.Models.Inertia.StateReading.model.MovesIn",
+    "UniformLocalMotion": "TruthCore.Models.Inertia.StateReading.model.UniformLocalMotion",
+    "Perseveres": "TruthCore.Models.Inertia.StateReading.model.Perseveres",
+    "PerseveresBy": "TruthCore.Models.Inertia.StateReading.model.PerseveresBy",
+    "ChangesState": "TruthCore.Models.Inertia.StateReading.model.ChangesState",
+    "ImpressesForceOn": "TruthCore.Models.Inertia.StateReading.model.ImpressesForceOn"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "UniformLocalMotion",
+        "Perseveres",
+        "PerseveresBy"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation0"
+    },
+    {
+      "statement_id": "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "UniformLocalMotion",
+        "Perseveres"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation1"
+    },
+    {
+      "statement_id": "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "UniformLocalMotion",
+        "Perseveres",
+        "PerseveresBy"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation2"
+    },
+    {
+      "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "UniformLocalMotion",
+        "Perseveres"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation3"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation4"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation5"
+    },
+    {
+      "statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "UniformLocalMotion"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation6"
+    },
+    {
+      "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "UniformLocalMotion",
+        "Perseveres"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation7"
+    },
+    {
+      "statement_id": "STMT-NEWTON-LEX-I-CHANGE-OF-STATE-ONLY-BY-IMPRESSED-FORCE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "ChangesState",
+        "ImpressesForceOn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation8"
+    },
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.Inertia.StateReading.evaluation9"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.Inertia"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FACTIVE-KNOWLEDGE",
+  "term": "factive propositional knowledge",
+  "definition": "FactiveKnowledge Knows requires that for every agent a and proposition p, Knows a p entails p. The predicate Knows is otherwise unconstrained: no knowledge is asserted to exist. Factivity is explicit in the theorem rather than silently inferred from assertion.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.FactiveKnowledge",
+  "note": "A stipulative factive-knowledge profile, not a sourced empirical premise. A nonfactive relation named Knows is tested as an omission control."
+}

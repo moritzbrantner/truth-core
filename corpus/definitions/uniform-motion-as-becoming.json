@@ -1,0 +1,10 @@
+{
+  "id": "DEF-UNIFORM-MOTION-AS-BECOMING",
+  "term": "uniform local motion as a becoming",
+  "definition": "Local motion, uniform motion included, is a becoming (devenir), a passage from potency to act throughout, and not a state: each passage from one position to the next is a change as much as the passage from rest to motion (Garrigou-Lagrange 1914, pp. 252, 254). On this sense a body persevering in uniform motion is `MovedIn` in that respect (DEF-MOTION-AS-REDUCTION).",
+  "basis": "sourced",
+  "claim_ids": [
+    "GARRIGOU-LAGRANGE-DIEU-1914-LOCAL-MOTION-IS-BECOMING-A"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsBeingMovedReading"
+}

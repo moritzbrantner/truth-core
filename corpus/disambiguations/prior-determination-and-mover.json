@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PRIOR-DETERMINATION-AND-MOVER",
+  "term": "cause of a motion: prior lawful determination or present mover",
+  "sense_definition_ids": [
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "resolution": "Papineau's completeness says a physical effect is fully determined by law by prior physical occurrences; the case's mover premise says that whatever is being moved is moved, now and per se, by some being (`MovesIn`). The first has occurrences as relata and a temporal 'prior'; the second has beings and no time index (simul). They can come apart: in inertial motion the determining prior occurrence is the body's own earlier state, which is not a present mover (compare STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER and DISAMB-MOTION). The passage from the first to the second is the explicit, unattributed bridge STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER; result PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER uses it and shows it is needed."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ROWE-1979-BALANCE-NEUTRAL-FACTUAL",
+  "statement_id": "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "locator": "p. 336 §I n.3, read with premises (1) and (2)",
+  "interpretation": "Conditional adoption of the footnote refinement, not a proved fact. The blocking-good range in the factual premise is widened together with the permission constraint, so actual gratuitous suffering becomes a stronger factual claim. No equivalent reading of the simplified p.336 premise (1) is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING",
+    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

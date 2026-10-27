@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-ROWE-DEDUCTIVE-AND-APPEARANCE-BOUNDARY",
+  "statement_ids": [
+    "STMT-ROWE-GRATUITOUS-SUFFERING",
+    "STMT-ROWE-PERMISSION-CONSTRAINT",
+    "STMT-ROWE-APPARENT-COMPATIBILITY",
+    "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+    "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT"
+  ],
+  "date": "2026-10-26",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Pinned and materialized the full primary 1979 article with byte-identical Wayback fallback. Read pp.335–341; layout extraction of the same bytes resolves two-column ordering. Formalized the published simplified deductive core with typed beings, events, outcomes and counterfactual/comparative costs; a finite interpretation keeps apparent pointlessness, narrow theism and permission constraint together through an unrecognized actual cost. Preserved p.336 nn.2–3 unreplaceability, non-temporal/justice goods and balance-neutral refinement. Instantiated the same structured theorem with the suggested refined constraint and correspondingly stronger factual premise, without claiming equivalence. Rejected apparent-to-actual entailment, treating a good drawn from evil as an unavoidable sufficient justifier, identification of natural suffering with culpa, and automatically applying O’Connor’s emotivist sentence semantics to Rowe. Total-evidence warrant remains in ROWE-EVIL-TOTAL-EVIDENCE-WARRANT and docs/rowe-evidential-evil.md. No premise truth or root closure follows.",
+  "evidence": [
+    "ROWE-1979-PREMISE-ONE",
+    "ROWE-1979-PERMISSION-CONSTRAINT",
+    "ROWE-1979-NARROW-THEISM",
+    "POE-ROWE-DEDUCTIVE-CORE",
+    "POE-ROWE-APPARENT-COMPATIBILITY",
+    "ROWE-1979-BALANCE-NEUTRAL-FACTUAL",
+    "ROWE-1979-BALANCE-NEUTRAL-PERMISSION",
+    "POE-ROWE-BALANCE-NEUTRAL-CORE"
+  ]
+}
