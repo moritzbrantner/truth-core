@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACT-BEARER-BEARER-INFERENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACT-BEARER-BEARER-INFERENCE",
+  "rule": "constructive-proof",
+  "meaning": "An occurring act and the universal bearer principle entail an actual bearer.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
