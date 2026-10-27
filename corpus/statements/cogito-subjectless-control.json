@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "paraphrase": "An occurring episode is compatible with an empty subject relation.",
+  "lean_declaration": "TruthCore.Logic.CogitoBridge.SubjectlessControl"
+}
