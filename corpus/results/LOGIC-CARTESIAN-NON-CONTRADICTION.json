@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-CARTESIAN-NON-CONTRADICTION",
+  "argument_id": "LOGIC-CARTESIAN-NON-CONTRADICTION",
+  "challenge_module": "TruthCore.Results.Logic.CartesianFloor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CartesianFloor.Solution",
+  "theorem": "TruthCore.Results.Logic.CartesianFloor.nonContradiction",
+  "comparator_config": "results/LOGIC-CARTESIAN-NON-CONTRADICTION/comparator.json",
+  "status": "solution-present",
+  "description": "For every Lean proposition p, p and its negation cannot both hold. This is a theorem of Lean's constructive logic, not an assertion about external reality."
+}
