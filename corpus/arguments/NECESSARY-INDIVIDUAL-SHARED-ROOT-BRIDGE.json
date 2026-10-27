@@ -1,0 +1,17 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "inference_ids": ["INF-NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE"],
+  "meaning": "A universally quantified biconditional between fixed de-re presence and jointly universal population plus the existence of a fixed root on populated successors. It settles an exact mathematical implication but not the truth of the nonempty-world premise or the chosen accessibility relation.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+  ]
+}

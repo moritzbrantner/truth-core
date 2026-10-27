@@ -18,10 +18,13 @@ import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternati
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.DictoJointIncompatible.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.Solution
 import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution

@@ -1,0 +1,18 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "inference_ids": ["INF-NECESSARY-INDIVIDUAL-ROOTED-EMPTY"],
+  "meaning": "A finite interpretation with a shared root across populated successors and one-edge causal explanations for all present nonroots nonetheless has an accessible empty extension and no de-re necessary individual. Root firstness in this restricted causal relation does not entail de-re modal necessity, without the additional population premise.",
+  "definition_ids": [
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+    "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+  ]
+}

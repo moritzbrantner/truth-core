@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "argument_id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.checks",
+  "comparator_config": "results/NECESSARY-INDIVIDUAL-ROOTED-EMPTY/comparator.json",
+  "status": "solution-present",
+  "description": "Finite rooted three-world countermodel: populated histories share a root with a bounded one-step causal relation for dependents, but an accessible empty extension defeats DeDicto and DeRe. No unrestricted PSR or metaphysical possibility is established."
+}
