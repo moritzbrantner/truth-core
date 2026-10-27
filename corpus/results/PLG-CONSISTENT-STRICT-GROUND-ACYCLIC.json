@@ -1,0 +1,9 @@
+{
+  "id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "argument_id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "challenge_module": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.Solution",
+  "theorem": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.consistentStrictGroundAcyclic",
+  "comparator_config": "results/PLG-CONSISTENT-STRICT-GROUND-ACYCLIC/comparator.json",
+  "status": "solution-present"
+}

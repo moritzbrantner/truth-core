@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "paraphrase": "There is a PLG-consistent set of sequents over the natural numbers from which n + 1 ≺ n is derivable for every n, so derivable strict partial ground from it is not well-founded. Hence the rules of PLG, Non-Circularity included, exclude cycles of strict ground (for consistent assumptions) without excluding infinite descending chains of strict ground. It is a claim about PLG derivability, not that actual ground descends infinitely.",
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.NonCircularityAllowsInfiniteDescent",
+  "definition_ids": [
+    "DEF-FINE-PLG-DERIVABILITY",
+    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+  ]
+}

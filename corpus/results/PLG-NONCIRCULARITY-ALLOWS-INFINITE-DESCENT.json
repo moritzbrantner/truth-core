@@ -1,0 +1,9 @@
+{
+  "id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "argument_id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "challenge_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Solution",
+  "theorem": "TruthCore.Results.Modern.Fine.InfiniteDescent.nonCircularityAllowsInfiniteDescent",
+  "comparator_config": "results/PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "rule": "rank-interpretation-countermodel",
+  "meaning": "Every PLG rule preserves a level reading under any rank assignment into a preorder (weak ground does not raise rank, strict ground lowers it; Non-Circularity's premise never holds), proved by induction on derivations. Assuming n + 1 ≺ n for all n, the rank n ↦ −n verifies every assumption but not 0 ≼ 1, so 0 ≼ 1 is not derivable and the assumptions are consistent; the chain 0, 1, 2, … is an infinite descent, so no natural number is accessible. The rank reading is a stipulated interpretation following Fine's informal 'lower level' gloss, not his fact semantics.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

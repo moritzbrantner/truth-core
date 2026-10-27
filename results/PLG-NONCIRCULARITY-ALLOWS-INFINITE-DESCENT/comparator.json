@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Challenge",
+  "solution_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modern.Fine.InfiniteDescent.nonCircularityAllowsInfiniteDescent"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

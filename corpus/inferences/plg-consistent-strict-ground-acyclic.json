@@ -1,0 +1,11 @@
+{
+  "id": "INF-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "input_statement_ids": [
+    "STMT-PLG-DERIVED-RULES"
+  ],
+  "output_statement_id": "STMT-PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "rule": "non-circularity-explosion-and-finite-strict-order",
+  "meaning": "A finite chain of derivable strict partial grounds collapses to one by the derived Transitivity(≺/≺); a cycle therefore yields A ≺ A, and a reversal B ≼ A of A ≺ B yields A ≺ A by Transitivity(≺/≼). Non-Circularity then derives every sequent, contradicting consistency. Derivable strict partial ground is thus transitive and irreflexive, and on a finite type of atoms Mathlib's Finite.wellFounded_of_trans_of_irrefl (classical) makes it well-founded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-FINE-PLG-DERIVABILITY",
+  "term": "derivability in Fine's pure logic of ground (PLG); PLG-consistency",
+  "definition": "Sequents over a type of uninterpreted atoms: weak full `Δ ≤ C`, weak partial `A ≼ C`, strict full `Δ < C`, strict partial `A ≺ C`, with Δ any set of atoms (`Sequent`). `Derivable S s`: s lies in the least set containing S and closed under Fine's p. 5 rules: Subsumption (</≤), (≺/≼), (</≺), (≤/≼); Cut(≤/≤) over an indexed family (so an atom may recur with different grounds, as in Fine's own `C, C, … ≤ C`); Transitivity (≼/≼), (≼/≺), (≺/≼); Identity `{A} ≤ A`; Non-Circularity: from `A ≺ A` every sequent; Reverse Subsumption: `Δ ≤ C` with `A ≺ C` for every A in Δ gives `Δ < C`. `Consistent S`: some sequent is not derivable from S. A sequent is syntax; derivability says nothing about what actually grounds what.",
+  "basis": "sourced",
+  "claim_ids": [
+    "FINE-PLG-DERIVED-RULES"
+  ],
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.Derivable"
+}
