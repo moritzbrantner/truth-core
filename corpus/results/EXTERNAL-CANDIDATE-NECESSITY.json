@@ -1,0 +1,10 @@
+{
+  "id": "EXTERNAL-CANDIDATE-NECESSITY",
+  "argument_id": "EXTERNAL-CANDIDATE-NECESSITY",
+  "challenge_module": "TruthCore.Results.Causality.ExternalCandidateNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ExternalCandidateNecessity.Solution",
+  "theorem": "TruthCore.Results.Causality.ExternalCandidateNecessity.checks",
+  "comparator_config": "results/EXTERNAL-CANDIDATE-NECESSITY/comparator.json",
+  "status": "solution-present",
+  "description": "A semantic equivalence, proved in Lean, identifies an actual existing concrete individual outside all contingent concrete beings with an actual de re necessary concrete individual, under the specified classical world-relative existence and rigid identity. It neither supplies a causal relation nor proves an external candidate metaphysically possible."
+}

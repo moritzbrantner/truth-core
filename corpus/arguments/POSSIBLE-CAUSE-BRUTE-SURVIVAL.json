@@ -1,0 +1,20 @@
+{
+  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "inference_ids": [
+    "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL"
+  ],
+  "meaning": "Designate world true as actual. The necessary bearer exists there and the world has a possible external causal beginning at alternate world false, but its existent contingent individual some true is uncaused at world true itself. The countermodel refutes the attempt to eliminate all actual brute roots using only modal causal opportunity; it does not settle source adequacy or metaphysical possibility.",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

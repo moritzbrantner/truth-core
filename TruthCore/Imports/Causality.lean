@@ -14,6 +14,7 @@ import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
+import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks

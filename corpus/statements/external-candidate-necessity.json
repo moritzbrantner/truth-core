@@ -1,0 +1,16 @@
+{
+  "id": "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+  "paraphrase": "For every explicitly typed complete-history modal scenario, world and rigid candidate-individual domain, a concrete individual that exists actually and is distinct from every actually existing contingent concretum exists exactly when a concrete individual exists actually and necessarily throughout the accessible worlds. This is a classical semantic equivalence: externality relative to the totality of contingents already carries the necessary-being commitment. The equivalence says nothing about causal powers, totality-level causation, whether any such candidate actually exists, or objective metaphysical possibility.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ExternalCandidateNecessityEquivalence",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -2,6 +2,7 @@
 import TruthCore.Results.Causality.BruteRootDisjunction.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
@@ -18,6 +19,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution

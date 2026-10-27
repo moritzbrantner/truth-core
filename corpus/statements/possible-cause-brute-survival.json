@@ -1,0 +1,16 @@
+{
+  "id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "paraphrase": "In the explicit two-world universally accessible mixed modal model, select world true as actual. The same rigid concrete bearer exists necessarily in both histories, an externally caused first contingent totality is accessible at world false, and modal causal opportunity therefore holds at the designated actual world true. Yet the contingent concrete being some true has no incoming individual causal predecessor at that very actual world. Thus possible external causation does not exclude a brute contingent causal root in the world being assessed. The model does not demonstrate metaphysical possibility or establish God's existence.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.CausalOpportunityBruteRootCompatibility",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

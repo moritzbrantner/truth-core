@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-POSSIBLE-CAUSAL-OPPORTUNITY-SCOPE-20261027",
+  "statement_ids": [
+    "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+    "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES"
+  ],
+  "date": "2026-10-27",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Under rigid identity and classical accessibility, an actually existent concrete bearer outside all contingent concreta is equivalent to a necessarily existent concrete individual. The stronger same-world two-world countermodel selects world true as actual: it satisfies modal causal opportunity by access to world false where the first contingent totality has an external cause, and world true's contingent concrete being remains entirely uncaused there. Thus the weak modal possible-causation principle can support necessary existence but does NOT exclude a contingent brute root in the very world where it holds. A separate brute-only model witnesses failure of causal opportunity with a possible first beginning. Neither model establishes objective metaphysical possibility, actual PSR or a theological identity.",
+  "evidence": [
+    "EXTERNAL-CANDIDATE-NECESSITY",
+    "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+    "PR-531"
+  ],
+  "blocker": "Defend, using independent modal/causal evidence rather than merely failure to find contradiction, the possibility that the first obtaining of the totality of contingent concreta could have an external concrete cause; additionally, any attempt to exclude contingent brute ROOTS in actual reality needs a stronger actuality/existential-grounding principle not supplied by modal causal opportunity. Pin and read sources before historical attribution."
+}

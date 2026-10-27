@@ -1,0 +1,10 @@
+{
+  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "argument_id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "challenge_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution",
+  "theorem": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.checks",
+  "comparator_config": "results/POSSIBLE-CAUSE-BRUTE-SURVIVAL/comparator.json",
+  "status": "solution-present",
+  "description": "Two-world finite same-actual-world countermodel: the designated world true has a contingent concrete individual with no incoming concrete cause, despite its causal-opportunity premise being satisfied through an alternate possible externally caused first contingent totality and the existence of a necessary concrete bearer. This refutes general brute-root exclusion from modal opportunity in the model, not actual-world brute existence or any philosophical PSR."
+}

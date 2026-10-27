@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXTERNAL-CANDIDATE-NECESSITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+  "rule": "direct-proof",
+  "meaning": "Constructively identify necessity with the failure of concrete contingency in one direction; under classical case analysis, absence of an accessible nonexistence witness yields universal accessible existence in the other. Do not assume a source is a cause or merely that no contradiction was found.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
