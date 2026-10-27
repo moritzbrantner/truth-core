@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-CARTESIAN-NON-CONTRADICTION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CARTESIAN-NON-CONTRADICTION",
+  "inference_ids": [
+    "INF-LOGIC-CARTESIAN-NON-CONTRADICTION"
+  ],
+  "meaning": "For every Lean proposition p, p and its negation cannot both hold.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
