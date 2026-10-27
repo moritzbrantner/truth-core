@@ -1,0 +1,10 @@
+{
+  "id": "DEF-RESPECT-OF-CHANGE",
+  "term": "respect of change (substance, quantity, quality, place)",
+  "definition": "`OfChange r`: r is a respect in which a moved thing is otherwise and otherwise: substance (generation and corruption), quantity (growth and diminution), quality (alteration) or place (locomotion) (In Metaph. XII, lect. 7 n. 12). A Lean parameter of the Lambda.7 readings, which read 'in no way' over these respects only. It adds substance to DEF-PHYSICAL-RESPECT (motion in the strict sense of Physics V). Every respect of change is a respect (DEF-RESPECT), and nothing in the case says that every respect is a respect of change. The open bridge STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY is only conditional: a mover that moves something and is moved in no respect of change and cannot be otherwise in any respect of change is also moved in no respect and cannot be otherwise in any respect. It leaves respects that are not of change in place (it holds in a model with such a respect).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-IN-METAPH-XII-L7-FIRST-MOVER-CANNOT-BE-OTHERWISE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.SomeUnmovedMoverCannotBeOtherwiseReading"
+}

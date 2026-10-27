@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY",
+  "paraphrase": "Open bridge, unattributed: a mover that moves something, is moved in no respect of change (substance, quantity, quality, place) and cannot be otherwise in any respect of change is moved in no respect and cannot be otherwise in any respect. It denies such a mover any further respect (for example understanding or willing) in which it is moved or could be otherwise. Met. XII.7 and In Metaph. XII lect. 7 argue 'in no way' from the mover's not being moved, so they do not state it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.UnchangeableInRespectsOfChangeIsUnchangeableSimplyBridge",
+  "definition_ids": [
+    "DEF-RESPECT-OF-CHANGE",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT",
+    "DEF-FIRST-UNMOVED-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE",
+  "paraphrase": "Open bridge, unattributed: whatever can fail to be r (in the two-way sense of the potency of the contradictory, able to be r and able not to be r) can be otherwise in respect r. No source read for #352 states it.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.CanFailToBeIsCanBeOtherwiseBridge",
+  "definition_ids": [
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE"
+  ]
+}

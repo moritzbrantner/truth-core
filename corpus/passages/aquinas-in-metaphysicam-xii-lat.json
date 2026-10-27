@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-METAPH",
+    "source_url": "https://www.corpusthomisticum.org/cmp12.html",
+    "sha256": "sha256:58a349313eea934ec0f245f40754207a798b7b6f567d38690dc6dc7a4b0d19bc",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-27T18:50:02Z",
+    "license": "Latin text as transcribed by Roberto Busa and reviewed by Enrique Alarcón on the Corpus Thomisticum; the site claims copyright for this edition (Fundación Tomás de Aquino, all rights reserved). Only hashes, locators, metadata and a short incipit are committed. No Wayback capture is pinned: the archive was unreachable from the pinning host on 2026-10-27."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-METAPH-XII-L7",
+      "locator": "XII, lect. 7",
+      "html_selector": {
+        "from": {
+          "text": "Lectio 7"
+        },
+        "to": {
+          "text": "Lectio 8"
+        }
+      },
+      "text_sha256": "sha256:efbc5335a420b0c63dc0bc1a714ded73a978efe2d18044bdbeb4a8f5c9b61dfb",
+      "incipit": "Lectio 7",
+      "claim_locator_prefixes": [
+        "XII, lect. 7 "
+      ]
+    }
+  ]
+}
