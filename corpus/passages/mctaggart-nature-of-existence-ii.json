@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "MCTAGGART-NATURE-OF-EXISTENCE-II",
+    "source_url": "https://archive.org/download/natureofexistenc02mctauoft/natureofexistenc02mctauoft_djvu.txt",
+    "retrieved_at": "2026-10-27T00:41:17Z",
+    "sha256": "sha256:6a4936d4aeea22d31ddfc43f60e9a489edb28bfe6f0236ed01206fdf12be60c6",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "McTaggart 1927, public domain in the US (Internet Archive: NOT_IN_COPYRIGHT, no notice, no renewal found). OCR text of the Internet Archive scan. Fetched twice, byte-stable. No Wayback capture of this URL exists and none was requested, so the snapshot has no fallback (fragile); the item's own SHA-1 cross-checks the bytes. Only hashes, a locator and a short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "MCTAGGART-NOE-II",
+      "locator": "The Nature of Existence II (whole volume)",
+      "claim_locator_prefixes": [
+        "The Nature of Existence II,"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:f1ded2bf8d4111f44364ceab19fb745d39d0db4064cad1c4c3660f2148f29e17",
+      "incipit": "THE  NATUKE  OF  EXISTENCE"
+    }
+  ]
+}

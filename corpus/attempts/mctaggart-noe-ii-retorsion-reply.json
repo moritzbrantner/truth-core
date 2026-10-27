@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-MCTAGGART-NOE-II-RETORSION-REPLY",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-OPINION-IS-A-MOTION",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-CHANGE-UNREAL-BUT-APPEARS",
+    "STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE",
+    "STMT-MOTION-IS-A-CHANGE",
+    "STMT-ELEATIC-THESIS-IS-OPINED"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Fifth slice of #497: the rank-1 first closure of ATTEMPT-FIRST-CLOSURE-HUNT-497, which needs STMT-OPINION-IS-A-MOTION closed non-circularly. Source: McTaggart, The Nature of Existence II (1927), pinned as MCTAGGART-NOE-II (Internet Archive OCR of the Toronto scan, natureofexistenc02mctauoft) and materialized. Ch. XLIV is 'Error' (§§ 505-520) and ch. XLV 'Error and the C series' (§§ 521-529). Finding: McTaggart answers the retorsion and denies its premise. § 506: the appearance of a temporal universe is beyond doubt. § 511: the denial of time, unlike the denial of error (§ 510, a vicious regress, since an appearance of non-error is itself an error), starts no vicious regress: my denial that Z is in time appears in time, but it 'does not involve' that the denial is really in time. §§ 516-517: I perceive everything, myself included, as in time, while none of it is in time, and a misperception is as real as a correct perception. Ch. XXXIII, § 316: where there is time there is change, and a non-temporal series allows no change. Recorded as STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE (claim MCTAGGART-NOE-II-511-APPEARINGS-DO-NOT-CHANGE-A): there are appearings and no appearer changes, in his general sense of change. TruthCore.Alternatives.McTaggart.appearingsDoNotChange_denies_opinionIsMotion (zero axioms) shows that with the open bridge STMT-MOTION-IS-A-CHANGE it denies STMT-OPINION-IS-A-MOTION. Criterion check for STMT-OPINION-IS-A-MOTION under decision 2026-10-27-01: retorsion fails: McTaggart gives a sourced, explicit argument that the denial of change is not self-refuting (§ 511), and the opinionGate model of TruthCore.Alternatives.FirstClosure satisfies the denial together with its being held. common_ground fails: McTaggart, a recorded position on the question, denies it (given only the bridge), and STMT-CHANGE-UNREAL-BUT-APPEARS entails its negation outright; that rival is now recorded as alternative_to STMT-OPINION-IS-A-MOTION (REL-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-OPINION-IS-A-MOTION), so the gap is mechanical rather than review-only. observation fails: its rival would have to be refuted, and the only recorded refutation (MCTAGGART-UNREALITY-OF-TIME-REFUTED, and the opinion-alone refutation in its config) uses STMT-OPINION-IS-A-MOTION itself. No common ground that entails the premise was found: McTaggart's positive commitments (the C series is real, § 347, with a transitive asymmetric relation appearing as earlier-than, § 526; error and misperception are real, §§ 510, 517) give a real order of appearings but no change. Rejected route: reading a C-ordered series of differing perceptions as change; McTaggart rejects exactly that for the B series (Russell's poker, ch. XXXIII, § 315), so it presupposes what he denies. Rejected route: using § 510's anti-regress argument (error is real) as common ground; it entails error, not change. Not marked: STMT-ELEATIC-THESIS-IS-OPINED (observation) closes nothing alone, as before. Outcome: no #500 criterion is met for STMT-OPINION-IS-A-MOTION; McTaggart's 1927 position is a surviving rival relative to the encoded vocabulary. No floor marking, refutes relation, argument or result was added. Frontier delta: none (49 open, 8 bare, 41 sourced).",
+  "evidence": [
+    "MCTAGGART-NOE-II-511-APPEARINGS-DO-NOT-CHANGE-A",
+    "MCTAGGART-1908-TIME-UNREAL-A",
+    "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+    "ELEATIC-THESIS-SELF-REFUTING",
+    "ARIST-PHYS-254A-OPINION-IS-MOTION-A"
+  ],
+  "blocker": "Closing STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD through this chain now needs McTaggart's 1927 position eliminated from closed premises, not just pinned: an argument, from premises McTaggart accepts or from closed ones, that an appearing of things as in time must itself change (for example that a single percipient's perceiving several C-positions as successively present is a variation in that percipient), against § 511 and ch. XLV; or a sourced, non-circular argument that opining is a reduction from potency to act that McTaggart's account cannot reinterpret. Candidate sources: ch. XLV-XLVII (how the C series appears as time) and Broad, Examination of McTaggart's Philosophy II (1938; bibliographic span only)."
+}

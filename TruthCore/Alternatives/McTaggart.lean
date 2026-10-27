@@ -44,4 +44,42 @@ def MotionIsChangeReading {Being : Sort u} {Respect : Sort v}
     (MovedIn : Being → Respect → Prop) (Changes : Being → Prop) : Prop :=
   ∀ x r, MovedIn x r → Changes x
 
+/-- McTaggart's answer to the retorsion (*The Nature of Existence* II, 1927):
+there are appearings (perceptions, some of which appear as judgments, of
+things as in time), and no appearer, as such, changes.
+
+He grants that the appearance is "beyond doubt" (§ 506) and that "a
+misperception is ... as real as a correct perception" (§ 517); everything,
+myself included, is perceived as in time, "while in reality none of them are
+in time" (§ 516); and the denial of time is not self-refuting, because "my
+denial that Z is really in time does not involve that Y, that denial, is
+really in time" (§ 511, contrasted with the vicious regress in denying
+error, § 510). With "where there is time, there is change" and a non-temporal
+series "allows of no change" (ch. XXXIII, § 316), the appearer does not change.
+
+Weakest reading: it says only that opiners do not change in the general
+sense (`DEF-CHANGE-GENERAL`); it says nothing about `MovedIn` (reduction from
+potency to act), and nothing about the C series, the real non-temporal order
+that McTaggart says appears as time (§ 347, ch. XLV). `Opines` is read
+tenselessly here: for McTaggart an appearer opines at a C-series position, not
+"now". -/
+def AppearingsDoNotChangeReading {Being : Sort u}
+    (Opines : Being → Prop → Prop) (Changes : Being → Prop) : Prop :=
+  (∃ x p, Opines x p) ∧ ∀ x p, Opines x p → ¬ Changes x
+
+open TruthCore.Alternatives.ActPotencyRegress in
+/-- McTaggart's answer and the open bridge `MotionIsChangeReading` together
+deny `OpiningIsBeingMovedReading`. So he is a sourced proponent of the denial
+of `STMT-OPINION-IS-A-MOTION`, given only that bridge; the retorsion against
+him assumes what he denies. -/
+theorem appearingsDoNotChange_denies_opinionIsMotion {Being : Sort u} {Respect : Sort v}
+    {MovedIn : Being → Respect → Prop} {Opines : Being → Prop → Prop}
+    {Changes : Being → Prop} {asOpinion : Prop → Respect}
+    (hReply : AppearingsDoNotChangeReading Opines Changes)
+    (hBridge : MotionIsChangeReading MovedIn Changes) :
+    ¬ OpiningIsBeingMovedReading MovedIn Opines asOpinion :=
+  fun h =>
+    let ⟨⟨x, p, hx⟩, hNo⟩ := hReply
+    hNo x p hx (hBridge x _ (h x p hx))
+
 end TruthCore.Alternatives.McTaggart

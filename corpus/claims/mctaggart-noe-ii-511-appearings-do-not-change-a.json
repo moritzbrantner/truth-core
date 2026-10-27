@@ -1,0 +1,8 @@
+{
+  "id": "MCTAGGART-NOE-II-511-APPEARINGS-DO-NOT-CHANGE-A",
+  "statement_id": "STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE",
+  "source_id": "MCTAGGART-NATURE-OF-EXISTENCE-II",
+  "locator": "The Nature of Existence II, ch. XLIV (Error), §§ 506, 511, 516-517, with ch. XXXIII (Time), § 316",
+  "interpretation": "McTaggart's answer to the question his 1908 paper left open (must not an appearance of change itself change?). The appearance of a temporal universe is 'beyond doubt' (§ 506); misperception is 'as real as a correct perception' (§ 517); I perceive everything, myself and my parts included, as in time, 'while in reality none of them are in time' (§ 516). Against the retorsion he argues (§ 511) that denying time, unlike denying error (§ 510), starts no vicious regress: my denial that Z is in time appears in time, but the denial does not involve that the denial itself is really in time. Ch. XXXIII, § 316: where there is time there is change, and a series that is not temporal 'allows of no change'. Read as: there are appearings, and no appearer changes, in his general sense of change. Reading steps: 'perceiving A as X' and the perceptions that appear as judgments count as opining in the sense of DEF-OPINING ('having it appear that p'), read tenselessly, since for McTaggart they occupy C-series positions (§ 515), not present times; and 'not in time' is taken to exclude change through § 316. The claim does not attribute to him any thesis about reduction from potency to act (DISAMB-CHANGE-A-SERIES), and it does not record his positive account of the C series (§ 347, ch. XLV).",
+  "status": "formalized"
+}

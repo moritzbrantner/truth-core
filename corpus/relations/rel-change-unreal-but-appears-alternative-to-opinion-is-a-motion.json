@@ -1,0 +1,9 @@
+{
+  "id": "REL-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-OPINION-IS-A-MOTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-OPINION-IS-A-MOTION",
+  "note": "Class: bare denial for appearances. The McTaggart-style rival grants judgings and perceivings and denies that anything is moved, so it entails the negation of STMT-OPINION-IS-A-MOTION (certified in the MCTAGGART-UNREALITY-OF-TIME-REFUTED config: opinion alone refutes it). Recorded so that any floor marking of STMT-OPINION-IS-A-MOTION must list and refute it (#497). It remains unattributed in the prima via's sense of motion; McTaggart's own sourced answer, STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE (The Nature of Existence II, § 511), denies that appearers change and reaches this rival's denial of STMT-OPINION-IS-A-MOTION only with the open bridge STMT-MOTION-IS-A-CHANGE (TruthCore.Alternatives.McTaggart.appearingsDoNotChange_denies_opinionIsMotion). No refutes relation: no argument refutes this rival from closed premises."
+}
