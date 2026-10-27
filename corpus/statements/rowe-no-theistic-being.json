@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROWE-NO-THEISTIC-BEING",
+  "paraphrase": "No being is jointly omniscient, omnipotent and wholly good.",
+  "lean_declaration": "TruthCore.English.Rowe.NoTheisticBeing",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

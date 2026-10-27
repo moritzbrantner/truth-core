@@ -1,0 +1,10 @@
+{
+  "id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
+  "argument_id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.roweBalanceNeutralCore",
+  "comparator_config": "results/POE-ROWE-BALANCE-NEUTRAL-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiation of the structured Rowe deductive-core theorem with the suggested balance-neutral-good refinement from p.336 n.3. This weakens the necessary permission constraint but correspondingly strengthens the actual-gratuitous-suffering premise; both remain open. No equivalence to the simplified premises, numerical balance, epistemic warrant or actual permission is proved."
+}

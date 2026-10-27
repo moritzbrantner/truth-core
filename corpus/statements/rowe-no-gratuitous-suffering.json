@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROWE-NO-GRATUITOUS-SUFFERING",
+  "paraphrase": "There is no occurring intense suffering satisfying Rowe’s simplified gratuitous-suffering premise.",
+  "lean_declaration": "TruthCore.English.Rowe.NoGratuitousSuffering",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}

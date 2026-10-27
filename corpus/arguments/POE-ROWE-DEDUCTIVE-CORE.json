@@ -1,0 +1,23 @@
+{
+  "id": "POE-ROWE-DEDUCTIVE-CORE",
+  "premise_statement_ids": [
+    "STMT-ROWE-GRATUITOUS-SUFFERING",
+    "STMT-ROWE-PERMISSION-CONSTRAINT"
+  ],
+  "conclusion_statement_id": "STMT-ROWE-NO-THEISTIC-BEING",
+  "inference_ids": [
+    "INF-POE-ROWE-DEDUCTIVE-CORE"
+  ],
+  "meaning": "Conditional deductive core of Rowe’s argument. Instantiate the actual suffering witness at a supposed omniscient omnipotent wholly good being; premise (1) excludes its blocking cost, while the necessary permission condition supplies one. Both philosophical premises remain open; no epistemic warrant or actual gratuitous suffering is proved.",
+  "definition_ids": [
+    "DEF-ROWE-NARROW-THEISM",
+    "DEF-ROWE-BLOCKING-COST",
+    "DEF-ROWE-GRATUITOUS-SUFFERING",
+    "DEF-ROWE-APPARENT-POINTLESSNESS",
+    "DEF-ROWE-INTENSE-SUFFERING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+  ]
+}
