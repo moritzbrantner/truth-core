@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.mandate_scope_from_catholic_church_founding"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

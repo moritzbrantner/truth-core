@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "paraphrase": "For any being g: if Jesus holds a mandate from g, and Jesus founded the Catholic Church as a visible society with an authority structure, then he founded the Catholic Church in the exercise of that mandate and commissioned it to teach. It says nothing about any other society, and it does not assert that Jesus founded the Catholic Church (that is stages 5 and 6). As in STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING, g ranges over every being from which Jesus holds a mandate, not only a God. This is the 'institution, not only message' content of the scope premise, restricted to one society.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingScope.MandatedFoundingOfCatholicChurch",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

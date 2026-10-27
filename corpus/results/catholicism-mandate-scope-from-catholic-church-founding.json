@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "argument_id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.mandate_scope_from_catholic_church_founding",
+  "comparator_config": "results/CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING/comparator.json",
+  "status": "solution-present",
+  "description": "The founding bridge's scope premise (every visible authoritative society Jesus founded, he founded in the exercise of any mandate he holds and commissioned to teach) follows from its instance at the Catholic Church and stage 6 (every such society is the Catholic Church), by substitution of the identity. The proof uses both premises: without stage 6 a second founded society falsifies the conclusion, and without the narrow premise the Catholic Church itself does (omission models). It verifies consequence only: both premises remain open. It moves the scope premise's universal reach over societies onto stage 6, which every root route already needs; it does not decide the 'institution or message' question, which the narrow premise still carries."
+}

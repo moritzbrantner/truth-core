@@ -1,0 +1,9 @@
+{
+  "id": "REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-MANDATE-SCOPE-OF-CATHOLIC-CHURCH",
+  "subject_kind": "statement",
+  "subject_id": "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "note": "Class: not yet attackable. The message rival (Harnack, claim HARNACK-HOD-I-II-2-NO-NEW-COMMUNITY-PREACHING-COMMISSION) grants Jesus a mandate but makes its exercise a commission to preach. With Jesus' mandate and the founding of the Catholic Church it contradicts the narrow scope premise (FoundingScope.messageRival_excludes_scope), and it is the omission model of the scope premise in DivineFounding.omissionModels. The disagreement is not logical: it lies in the report-to-event premise for Matthew 28.18-20 and John 20.21-23 (whose commissions to teach and to forgive go beyond preaching) and in Lumen gentium §19's reading of them. Missing for an attack: a sourced, defended historical premise that the commissions with teaching and governing content go back to Jesus."
+}
