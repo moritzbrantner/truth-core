@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-NO-THOUGHT-CONTROL",
+  "argument_id": "COGITO-NO-THOUGHT-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.CogitoBridge.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoBridge.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoBridge.noThoughtControl",
+  "comparator_config": "results/COGITO-NO-THOUGHT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Construct a model with no thoughts and a vacuously true bearer rule."
+}
