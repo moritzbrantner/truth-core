@@ -4,7 +4,7 @@ import TruthCore.Greek.Aristotle.Physics
 The Cartesian-to-Aristotelian bridge, restricted to change rather than all acts.
 The existing Physics III.1 reading supplies a potential subject for a change,
 but classifying a thought as change remains a separate open proposition.
--/-
+-/
 namespace TruthCore.Logic.ThoughtChangeSubject
 
 /-- A thought episode occurs in the supplied interpretation. -/
