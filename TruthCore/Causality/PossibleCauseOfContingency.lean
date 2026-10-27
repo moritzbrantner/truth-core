@@ -270,31 +270,40 @@ theorem mixedHasContingentUncausedRoot :
     cases hf
 
 /-- Finite model certificate target: possible externally caused
-contingency, a necessary concrete individual, and an actually uncaused
-contingent concrete root are jointly satisfiable in the specified
-universally accessible two-world interpretation. This witnesses a strict
-limit of the modal opportunity argument. -/
+contingency, a necessary concrete individual, and an uncaused contingent
+concrete root are jointly satisfiable **at the same designated world true**
+in the specified universally accessible two-world interpretation.
+The external totality cause occurs at the different world false. -/
 def CausalOpportunityBruteRootCompatibility : Prop :=
   UniversalFrame mixed ∧
-  PossiblyBeginsAt mixed false ∧
-  CausalOpportunityAt mixed false ∧
-  NecessaryConcreteAt mixed false ∧
+  PossiblyBeginsAt mixed true ∧
+  CausalOpportunityAt mixed true ∧
+  NecessaryConcreteAt mixed true ∧
   ContingentAt mixed.ontic true (some true) ∧
   (∀ c, ¬ mixed.ontic.Causes true c (some true))
 
-/-- The principle permits brute *actual* roots, even when a necessary
-individual is present and an alternate externally caused beginning exists. -/
+/-- Under universal accessibility a beginning causable in an alternative
+history remains an opportunity when the designated actual history is true. -/
+theorem mixedPossibleBeginningFromTrue :
+    PossiblyBeginsAt mixed true := by
+  rcases mixedPossibleBeginning with ⟨v, _, hBegins⟩
+  exact ⟨v, True.intro, hBegins⟩
+
+theorem mixedPossibleExternalCauseFromTrue :
+    PossiblyExternallyCausedAt mixed true := by
+  rcases mixedPossibleExternalCause with ⟨v, _, hBegins, hCause⟩
+  exact ⟨v, True.intro, hBegins, hCause⟩
+
+/-- The weak possible-causation principle permits a genuinely uncaused
+contingent concrete root in the very world at which the causal-opportunity
+condition is assessed. It is not merely a distant-world exception. -/
 theorem causalOpportunityDoesNotExcludeBruteRoots :
-    UniversalFrame mixed ∧
-    PossiblyBeginsAt mixed false ∧
-    CausalOpportunityAt mixed false ∧
-    NecessaryConcreteAt mixed false ∧
-    ContingentAt mixed.ontic true (some true) ∧
-    (∀ c, ¬ mixed.ontic.Causes true c (some true)) := by
+    CausalOpportunityBruteRootCompatibility := by
   rcases mixedHasContingentUncausedRoot with ⟨hCont, hUncaused⟩
-  exact ⟨mixedUniversal, mixedPossibleBeginning,
-    (fun _ => mixedPossibleExternalCause), mixedNecessaryConcrete,
+  refine ⟨mixedUniversal, mixedPossibleBeginningFromTrue,
+    (fun _ => mixedPossibleExternalCauseFromTrue), ?_,
     hCont, hUncaused⟩
+  exact ⟨none, True.intro, True.intro, fun _ _ => True.intro⟩
 
 /-- Presence of a necessary concrete bearer by itself does not yield
 the possibility of externally causing the contingent totality:
