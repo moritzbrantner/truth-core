@@ -1,0 +1,20 @@
+{
+  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "inference_ids": [
+    "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL"
+  ],
+  "meaning": "The finite model witnesses a necessary bearer and possible external causal origin of the contingent totality, while a contingent entity remains locally uncaused in an accessible history. It rules out the universal deduction that modal opportunity alone eliminates every brute contingent root. It does not prove actual brute origins, source adequacy or metaphysical possibility.",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
