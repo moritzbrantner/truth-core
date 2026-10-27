@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import subprocess
 import sys
@@ -105,6 +106,72 @@ class AffectedResultsTest(unittest.TestCase):
 
     def test_scripts_outside_the_verifier_do_not_force_full_run(self):
         self.assertEqual(self.select("scripts/source_evidence.py", "scripts/test_corpus_frontier.py"), ("subset", []))
+
+    def test_nanoda_scope_is_changed_modules_and_reverse_dependents(self):
+        self.assertEqual(
+            ar.nanoda_scope(self.root, ["TruthCore/Base.lean", "docs/x.md"]),
+            (
+                "scoped",
+                [
+                    "TruthCore.Base",
+                    "TruthCore.Mid",
+                    "TruthCore.Results.A.Challenge",
+                    "TruthCore.Results.A.Solution",
+                ],
+            ),
+        )
+        self.assertEqual(
+            ar.nanoda_scope(self.root, ["TruthCore/Results/C/Solution.lean"]),
+            ("scoped", ["TruthCore.Results.C.Solution"]),
+        )
+
+    def test_nanoda_scope_covers_dependents_of_a_deleted_module(self):
+        (self.root / "TruthCore/Mid.lean").unlink()
+        self.assertEqual(
+            ar.nanoda_scope(self.root, ["TruthCore/Mid.lean"]),
+            ("scoped", ["TruthCore.Results.A.Solution"]),
+        )
+
+    def test_nanoda_scope_without_lean_changes_is_empty(self):
+        self.assertEqual(ar.nanoda_scope(self.root, ["corpus/statements/STMT-X.json", "docs/x.md"]), ("scoped", []))
+
+    def test_nanoda_scope_is_full_when_every_result_is_selected(self):
+        for path in ("lean-toolchain", "scripts/TruthCoreConstants.lean", ".github/actions/lean-setup/action.yml"):
+            with self.subTest(path=path):
+                self.assertEqual(ar.nanoda_scope(self.root, [path, "TruthCore/Base.lean"]), ("full", []))
+
+    def test_nanoda_modules_cli_reads_git_diff(self):
+        def git(*args):
+            subprocess.run(
+                ["git", "-c", "user.name=t", "-c", "user.email=t@t", *args],
+                cwd=self.root,
+                check=True,
+                capture_output=True,
+            )
+
+        git("init", "-q")
+        git("add", "-A")
+        git("commit", "-qm", "base")
+        self.fixture.module("TruthCore.Mid", ["TruthCore.Base", "TruthCore.Unused"])
+        git("commit", "-qam", "head")
+        output = self.root / "modules.txt"
+        subprocess.run(
+            [
+                sys.executable,
+                str(SCRIPT),
+                "--root",
+                str(self.root),
+                "nanoda-modules",
+                "--base",
+                "HEAD^",
+                "--output",
+                str(output),
+            ],
+            check=True,
+            capture_output=True,
+            env={key: value for key, value in os.environ.items() if key != "GITHUB_OUTPUT"},
+        )
+        self.assertEqual(output.read_text().split(), ["TruthCore.Mid", "TruthCore.Results.A.Solution"])
 
     def test_new_result_is_selected_through_its_records(self):
         self.fixture.module("TruthCore.Results.D.Challenge", [])

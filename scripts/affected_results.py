@@ -13,6 +13,13 @@ verification could be affected:
 Imports outside `TruthCore` (Mathlib, Lean core) only change with
 `lake-manifest.json` or `lean-toolchain`, which select everything.
 
+`nanoda-modules` prints the `TruthCore` modules whose declarations the scoped
+NanoDa check must cover on a PR: every changed module and every module that
+imports one transitively (its reverse dependents), since only their build
+output can differ from the base build. A change that selects every result also
+asks for the full scoped check. The set depends only on the two revisions, not
+on any cache state.
+
 `external-imports` prints the non-`TruthCore` modules the library imports; CI
 keys its once-per-pin full NanoDa check on them.
 
@@ -56,6 +63,8 @@ FULL_RUN_PATTERNS = (
     "scripts/corpus.py",
     "verifier/*",
     ".github/workflows/*",
+    # The Lean setup and incremental build cache every Lean job uses.
+    ".github/actions/lean-setup/*",
 )
 
 # What the explorer build and its browser tests run, apart from corpus data: the app, the
@@ -213,6 +222,31 @@ def external_imports(root: Path, module: str = "TruthCore") -> list[str]:
     return sorted(m for m in graph.closure(module) if m.split(".")[0] != "TruthCore")
 
 
+def library_modules(root: Path) -> list[str]:
+    """Every TruthCore module present in the tree."""
+    modules = [changed_module(path.relative_to(root).as_posix()) for path in (root / "TruthCore").rglob("*.lean")]
+    if (root / "TruthCore.lean").is_file():
+        modules.append("TruthCore")
+    return sorted(module for module in modules if module)
+
+
+def nanoda_scope(root: Path, changed: Iterable[str]) -> tuple[str, list[str]]:
+    """Return ("full" | "scoped", modules): the modules whose declarations NanoDa must check.
+
+    "full" means every TruthCore declaration (the module list is then empty). Otherwise the list
+    holds each changed module that still exists and each module that imports a changed module
+    (existing or deleted) transitively, sorted. An empty list means no build output changed.
+    """
+    changed = sorted(set(changed))
+    if needs_full_run(changed):
+        return "full", []
+    changed_modules = {module for module in map(changed_module, changed) if module}
+    if not changed_modules:
+        return "scoped", []
+    graph = ImportGraph(root)
+    return "scoped", [m for m in library_modules(root) if graph.closure(m) & changed_modules]
+
+
 def explorer_inputs_changed(changed: Iterable[str]) -> list[str]:
     return sorted(
         path for path in changed if any(fnmatch.fnmatchcase(path, pattern) for pattern in EXPLORER_INPUT_PATTERNS)
@@ -285,6 +319,20 @@ def command_explorer(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_nanoda_modules(args: argparse.Namespace) -> int:
+    root = Path(args.root)
+    scope, modules = nanoda_scope(root, git_changed_files(root, args.base, args.head))
+    detail = "every TruthCore declaration" if scope == "full" else f"{len(modules)} affected module(s)"
+    print(f"NanoDa scope: {scope}, {detail}", file=sys.stderr)
+    text = "".join(f"{module}\n" for module in modules)
+    if args.output:
+        Path(args.output).write_text(text, encoding="utf-8")
+    else:
+        sys.stdout.write(text)
+    write_github_output({"scope": scope, "count": str(len(modules))})
+    return 0
+
+
 def command_shard(args: argparse.Namespace) -> int:
     root = Path(args.root)
     if args.results_file:
@@ -320,6 +368,11 @@ def main(argv: list[str] | None = None) -> int:
     exp_source.add_argument("--all", action="store_true", help="treat every explorer input as changed")
     exp.add_argument("--head", default="HEAD")
     exp.set_defaults(func=command_explorer)
+    nd = sub.add_parser("nanoda-modules", help="print the TruthCore modules a PR's scoped NanoDa check covers")
+    nd.add_argument("--base", required=True, help="git revision to diff against")
+    nd.add_argument("--head", default="HEAD")
+    nd.add_argument("--output", help="write the module names here instead of stdout")
+    nd.set_defaults(func=command_nanoda_modules)
     sh = sub.add_parser("shard", help="print one balanced shard of a result list")
     sh.add_argument("--index", type=int, required=True)
     sh.add_argument("--count", type=int, required=True)

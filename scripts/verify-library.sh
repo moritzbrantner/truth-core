@@ -7,23 +7,33 @@ set -euo pipefail
 #                                      declaration it depends on (Mathlib, Lean core), and nothing else
 #   scripts/verify-library.sh --full   everything TruthCore imports, including Mathlib declarations
 #                                      that no TruthCore declaration uses
+#   scripts/verify-library.sh --modules FILE
+#                                      scoped, restricted to the declarations of the TruthCore modules
+#                                      listed in FILE, together with everything they depend on
 #
 # The scoped check trusts nothing it does not check: lean4export exports the full dependency
 # closure of the listed constants. The full check adds only unused library declarations; CI runs
 # it once per Mathlib/toolchain/NanoDa pin and set of external imports (docs/axiom-policy.md).
+# CI passes --modules only on a pull request, with the modules whose build output the change can
+# affect (scripts/affected_results.py nanoda-modules); main and nightly runs check every declaration.
 
 usage() {
-  echo "usage: $0 [--full]" >&2
+  echo "usage: $0 [--full | --modules FILE]" >&2
   exit 2
 }
 
 MODE=scoped
+MODULES_FILE=""
 case "${1:-}" in
-  "") ;;
-  --full) MODE=full ;;
+  "") [[ $# -eq 0 ]] || usage ;;
+  --full) [[ $# -eq 1 ]] || usage; MODE=full ;;
+  --modules) [[ $# -eq 2 ]] || usage; MODULES_FILE="$2" ;;
   *) usage ;;
 esac
-[[ $# -le 1 ]] || usage
+if [[ -n "$MODULES_FILE" ]]; then
+  [[ -f "$MODULES_FILE" ]] || { echo "missing modules file: $MODULES_FILE" >&2; exit 2; }
+  MODULES_FILE="$(cd "$(dirname "$MODULES_FILE")" && pwd)/$(basename "$MODULES_FILE")"
+fi
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK="${TRUTH_CORE_VERIFIER_HOME:-$HOME/.cache/truth-core-verifier}"
@@ -57,9 +67,21 @@ if [[ "$MODE" == full ]]; then
   echo "==> exporting TruthCore and everything it imports"
   lake env "$LEAN4EXPORT_BIN" TruthCore > "$EXPORT" 2> "$TEMP/export.err"
 else
-  echo "==> listing TruthCore declarations"
-  lake env lean --run scripts/TruthCoreConstants.lean TruthCore > "$TEMP/constants.txt"
+  if [[ -n "$MODULES_FILE" ]]; then
+    MODE="scoped to $(grep -c . "$MODULES_FILE" || true) listed modules"
+    echo "==> listing the declarations of the TruthCore modules in $MODULES_FILE"
+    lake env lean --run scripts/TruthCoreConstants.lean TruthCore "$MODULES_FILE" > "$TEMP/constants.txt"
+  else
+    echo "==> listing TruthCore declarations"
+    lake env lean --run scripts/TruthCoreConstants.lean TruthCore > "$TEMP/constants.txt"
+  fi
   mapfile -t constants < "$TEMP/constants.txt"
+  if [[ ${#constants[@]} -eq 0 ]]; then
+    # Only reachable with --modules: an empty constant list would make lean4export export
+    # everything, and there is nothing affected to check.
+    echo "==> the listed modules define no TruthCore declarations; nothing to check"
+    exit 0
+  fi
   echo "==> exporting ${#constants[@]} TruthCore declarations with their dependencies"
   lake env "$LEAN4EXPORT_BIN" TruthCore -- "${constants[@]}" > "$EXPORT" 2> "$TEMP/export.err"
 fi
