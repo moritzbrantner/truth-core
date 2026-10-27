@@ -130,13 +130,15 @@ theorem contingentBruteRootOfNoNecessary
   rcases findRoot x hxConcrete hxExists with
     ⟨root, hrConcrete, hrExists, hrMinimal⟩
   have hrCont : ContingentAt m.ontic w root := by
-    by_contra hNotCont
-    apply hNoNecessary
-    refine ⟨root, hrConcrete, hrExists, ?_⟩
-    intro v hv
-    by_cases hev : m.ontic.ExistsAt v root
-    · exact hev
-    · exact False.elim (hNotCont ⟨hrExists, ⟨v, hv, hev⟩⟩)
+    by_cases hCont : ContingentAt m.ontic w root
+    · exact hCont
+    · have hNec : NecessaryConcreteAt m w := by
+        refine ⟨root, hrConcrete, hrExists, ?_⟩
+        intro v hv
+        by_cases hev : m.ontic.ExistsAt v root
+        · exact hev
+        · exact False.elim (hCont ⟨hrExists, ⟨v, hv, hev⟩⟩)
+      exact False.elim (hNoNecessary hNec)
   exact ⟨root, hrConcrete, hrExists, hrCont, hrMinimal⟩
 
 /-- Either a genuine actual contingent concrete root exists, or existential
