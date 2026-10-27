@@ -1,0 +1,16 @@
+{
+  "id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "paraphrase": "In the explicit two-world universally accessible mixed modal model, one rigid necessary concrete bearer exists, the jointly obtaining contingent-concrete state can begin, and some accessible totality-level causal opportunity is available; nevertheless a distinct contingent concrete individual in the second world has no incoming individual causal predecessor. Thus possible external causation of first contingency can be compatible with an actual brute contingent causal root. The candidate model does not demonstrate a metaphysically possible history or that the concrete bearer is God.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.CausalOpportunityBruteRootCompatibility",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
