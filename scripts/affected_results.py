@@ -16,6 +16,11 @@ Imports outside `TruthCore` (Mathlib, Lean core) only change with
 `external-imports` prints the non-`TruthCore` modules the library imports; CI
 keys its once-per-pin full NanoDa check on them.
 
+`explorer` prints whether a change can affect the corpus explorer's code, so CI
+runs the explorer browser jobs only then (#520). Corpus records and Lean modules
+are the explorer's data, not its code: a change that only adds propositions and
+proofs does not run them.
+
 `shard` splits a result list into balanced shards. Results whose Solution
 imports Mathlib (directly or through `TruthCore` modules) dominate the run time
 (NanoDa re-checks their Mathlib closure), so they are dealt round-robin first.
@@ -51,6 +56,27 @@ FULL_RUN_PATTERNS = (
     "scripts/corpus.py",
     "verifier/*",
     ".github/workflows/*",
+)
+
+# What the explorer build and its browser tests run, apart from corpus data: the app, the
+# workspace manifests, the Python it imports or shells out to (scripts/corpus.py and its
+# imports, the AREAS text of root_imports.py, the pilot fixture) and the workflows.
+# test_affected_results.py checks this list against the explorer's sources.
+EXPLORER_INPUT_PATTERNS = (
+    "apps/corpus-explorer/*",
+    "package.json",
+    "bun.lock",
+    "turbo.json",
+    "scripts/corpus.py",
+    "scripts/source_evidence.py",
+    "scripts/premise_dossiers.py",
+    "scripts/finite_models.py",
+    "scripts/configurations.py",
+    "scripts/configuration_explorer.py",
+    "scripts/root_imports.py",
+    "scripts/testdata/objective-truth-pilot.json",
+    ".github/workflows/*",
+    ".github/actions/*",
 )
 
 IMPORT_RE = re.compile(r"^\s*(?:public\s+|private\s+)?(?:meta\s+)?import\s+(.+?)\s*(?:--.*)?$")
@@ -186,6 +212,12 @@ def external_imports(root: Path, module: str = "TruthCore") -> list[str]:
     return sorted(m for m in graph.closure(module) if m.split(".")[0] != "TruthCore")
 
 
+def explorer_inputs_changed(changed: Iterable[str]) -> list[str]:
+    return sorted(
+        path for path in changed if any(fnmatch.fnmatchcase(path, pattern) for pattern in EXPLORER_INPUT_PATTERNS)
+    )
+
+
 def git_changed_files(root: Path, base: str, head: str) -> list[str]:
     output = subprocess.run(
         ["git", "diff", "--name-only", "--no-renames", base, head],
@@ -240,6 +272,18 @@ def command_select(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_explorer(args: argparse.Namespace) -> int:
+    if args.all:
+        changed_inputs = ["full run requested"]
+    else:
+        changed_inputs = explorer_inputs_changed(git_changed_files(Path(args.root), args.base, args.head))
+    run = "true" if changed_inputs else "false"
+    print(f"explorer inputs changed: {', '.join(changed_inputs) or 'none'}", file=sys.stderr)
+    print(run)
+    write_github_output({"explorer": run})
+    return 0
+
+
 def command_shard(args: argparse.Namespace) -> int:
     root = Path(args.root)
     if args.results_file:
@@ -269,6 +313,12 @@ def main(argv: list[str] | None = None) -> int:
     sel.add_argument("--head", default="HEAD")
     sel.add_argument("--output", help="write the selected IDs here instead of stdout")
     sel.set_defaults(func=command_select)
+    exp = sub.add_parser("explorer", help="print whether a change can affect the explorer's code")
+    exp_source = exp.add_mutually_exclusive_group(required=True)
+    exp_source.add_argument("--base", help="git revision to diff against (with --head)")
+    exp_source.add_argument("--all", action="store_true", help="treat every explorer input as changed")
+    exp.add_argument("--head", default="HEAD")
+    exp.set_defaults(func=command_explorer)
     sh = sub.add_parser("shard", help="print one balanced shard of a result list")
     sh.add_argument("--index", type=int, required=True)
     sh.add_argument("--count", type=int, required=True)
