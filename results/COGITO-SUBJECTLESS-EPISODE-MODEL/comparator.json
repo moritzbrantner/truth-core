@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoSubjectIndependence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CogitoSubjectIndependence.subjectlessEpisodeModel"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
