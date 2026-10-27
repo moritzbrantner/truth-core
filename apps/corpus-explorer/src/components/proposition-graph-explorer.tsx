@@ -802,7 +802,8 @@ export function PropositionGraphExplorer({
       ) : null}
 
       {state.view === "all" ? (
-        <details className="graph-buckets">
+        // aria-busy and data-shown-buckets let a test wait for the loaded state, not for network silence.
+        <details aria-busy={buckets.pending} className="graph-buckets" data-shown-buckets={buckets.shown.join(" ")}>
           <summary>
             Graph data: {buckets.shown.length} of {manifest.buckets.length} buckets shown, {graph.statements.length} of {manifest.totals.statements} statements
             {buckets.pending ? " · loading…" : ""}
