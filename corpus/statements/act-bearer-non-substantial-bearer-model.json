@@ -1,0 +1,5 @@
+{
+  "id": "STMT-ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL",
+  "paraphrase": "An actual act may have a bearer without any bearer being a substance in the interpretation.",
+  "lean_declaration": "TruthCore.Logic.ActBearer.NonSubstantialBearerModel"
+}
