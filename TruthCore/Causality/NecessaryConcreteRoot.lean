@@ -68,7 +68,10 @@ including any worlds inaccessible from the selected world. -/
 def EveryWorldConcreteAt (m : Ontic W E) (concrete : E → Prop) (w : W) : Prop :=
   ∃ x, concrete x ∧ m.ExistsAt w x ∧ ∀ v, m.ExistsAt v x
 
-/-- Exact negation of the positive conclusion in the selected semantics. -/
+/-- Every actual concrete bearer has an accessible counterexample to its
+necessity. This *entails* `¬ NecessaryConcreteAt` constructively, but the
+reverse direction needs excluded middle; it is not an exact constructive
+negation of an existential necessary-bearer conclusion. -/
 def AllActualConcreteContingent (m : Ontic W E)
     (concrete : E → Prop) (w : W) : Prop :=
   ∀ x, concrete x → m.ExistsAt w x → ContingentAt m w x
@@ -193,8 +196,9 @@ theorem globalConcreteRootConditional : GlobalConcreteRootConditional := by
 
 /-- A four-commitment inconsistent core, proved *constructively*: inhabited
 actual concrete extension, well-founded concrete ancestry, universal actual
-contingent-dependence, and the negation of any necessary concrete bearer
-(expressed as every actual concretum being contingent).
+contingent-dependence, and universal actual-concrete contingency. This fourth
+premise is stronger constructively than merely denying the existence of a
+necessary bearer; their equivalence requires excluded middle.
 
 Its premises concern complete histories, not a finite past, nor a universal
 cause of the entire history. Minimality needs independent omission models. -/
