@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.checks",
   "comparator_config": "results/POSSIBLE-CAUSE-BRUTE-SURVIVAL/comparator.json",
   "status": "solution-present",
-  "description": "A two-world finite model supports modal causal opportunity and a necessary concrete individual, but still contains a contingent concrete individual uncaused in the other world. This refutes the unrestricted 'opportunity excludes all brute roots' inference within the specified model; no actual-world philosophical commitment is thereby verified."
+  "description": "Two-world finite same-actual-world countermodel: the designated world true has a contingent concrete individual with no incoming concrete cause, despite its causal-opportunity premise being satisfied through an alternate possible externally caused first contingent totality and the existence of a necessary concrete bearer. This refutes general brute-root exclusion from modal opportunity in the model, not actual-world brute existence or any philosophical PSR."
 }
