@@ -1,0 +1,15 @@
+{
+  "id": "LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "inference_ids": [
+    "INF-LOGIC-CARTESIAN-SOME-PROPOSITION-FAILS"
+  ],
+  "meaning": "There is a Lean proposition that fails, witnessed by False.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
