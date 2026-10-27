@@ -1,0 +1,5 @@
+{
+  "id": "STMT-COGITO-THOUGHT-OCCURS",
+  "paraphrase": "Some thought episode occurs in the selected interpretation.",
+  "lean_declaration": "TruthCore.Logic.CogitoBridge.ThoughtOccurs"
+}
