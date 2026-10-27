@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-KNOWLEDGE-RETORSION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-FACTIVE-KNOWER-OF-UNIVERSAL-NO-KNOWLEDGE",
+  "rule": "constructive-proof",
+  "meaning": "Universal instantiation of factivity: knowing the proposition that no proposition is known would make that denial true and thereby refute the alleged knowledge. Factivity is an explicit antecedent inside the quantified conclusion; no assertion-to-knowledge bridge is assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-FACTIVE-KNOWER-OF-UNIVERSAL-NO-KNOWLEDGE",
+  "paraphrase": "For any agent type and propositional knowledge predicate, if knowledge is factive, no agent knows the universal denial that nobody knows any proposition. This conditional logical theorem does not prove that anyone knows anything.",
+  "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.NoFactiveKnowerOfUniversalNoKnowledge",
+  "definition_ids": [
+    "DEF-FACTIVE-KNOWLEDGE",
+    "DEF-UNIVERSAL-NO-KNOWLEDGE",
+    "DEF-KNOWLEDGE-ASSERTION-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KNOWLEDGE-ASSERTION"
+  ]
+}
