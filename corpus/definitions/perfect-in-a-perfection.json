@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PERFECT-IN-A-PERFECTION",
+  "term": "perfect in a respect (perfectum; Lean `PerfectIn`)",
+  "definition": "`PerfectIn x p`: x is perfect in respect of the perfection p, that is, nothing is lacking to x according to the mode of that perfection (ST I q.4 a.1 co.). In Lean `PerfectIn` is a parameter, fixed only by STMT-DESIRABLE-INSOFAR-AS-PERFECT and STMT-PERFECT-INSOFAR-AS-IN-ACT; it is not universal perfection (DEF-UNIVERSALLY-PERFECT) and not the ultimate perfection that makes a thing perfect simpliciter (q.5 a.1 ad 1).",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q4-A1-PERFECT-AS-IN-ACT-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectInsofarAsInActReading"
+}

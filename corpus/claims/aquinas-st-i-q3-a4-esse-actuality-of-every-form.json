@@ -1,0 +1,12 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A",
+  "statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.4 co., second proof: esse est actualitas omnis formae vel naturae: non enim bonitas vel humanitas significatur in actu, nisi prout significamus eam esse",
+  "interpretation": "Being is the actuality of every form or nature: goodness or humanity is not signified as in act except insofar as we signify it to be. Read as the consequence formalized by STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING: whatever is in act in some respect has being. The sentence is put in terms of signification ('significatur', 'significamus'); the reading takes it, as the proof's next step does ('oportet igitur quod ipsum esse comparetur ad essentiam ... sicut actus ad potentiam'), as a claim about things, not only about speech. The proof's use of it, that in God essence is esse, is not part of this statement. A further witness beside q.4 a.1 ad 3 (AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A); it is not a more basic premise.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "status": "formalized"
+}

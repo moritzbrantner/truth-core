@@ -1,0 +1,23 @@
+{
+  "id": "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
+  "premise_statement_ids": [
+    "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
+    "STMT-GOOD-IS-DESIRABLE",
+    "STMT-PERFECT-INSOFAR-AS-IN-ACT"
+  ],
+  "conclusion_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY"
+  ],
+  "meaning": "ST I q.5 a.1 co. (#352): the respondeo's own argument for 'a thing is good insofar as it is in act'. The notion of good is the desirable (STMT-GOOD-IS-DESIRABLE), each thing is desirable insofar as it is perfect (STMT-DESIRABLE-INSOFAR-AS-PERFECT), and each thing is perfect insofar as it is in act (STMT-PERFECT-INSOFAR-AS-IN-ACT), each read per perfection as a biconditional; so a thing is good in a perfection exactly when it actually has it (STMT-GOODNESS-IS-ACTUALITY). Good, desirable, perfect and actually having are four independent parameters, so the conclusion is not analytic, and omission countermodels show that each premise is needed. The derived statement is exactly the existing reading. This relocates the premise onto three sourced premises; it closes nothing, because all three are open.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-DESIRABLE-IN-A-PERFECTION",
+    "DEF-GOOD-AS-BEING-IN-ACT",
+    "DEF-PERFECT-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ]
+}

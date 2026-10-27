@@ -1,0 +1,8 @@
+{
+  "id": "ARIST-EN-1094A-GOOD-WHAT-ALL-AIM-AT-A",
+  "statement_id": "STMT-GOOD-IS-WHAT-ALL-AIM-AT",
+  "source_id": "ARIST-EN",
+  "locator": "I.1, 1094a1-3",
+  "interpretation": "Every art and inquiry, and likewise action and choice, seems to aim at some good; hence 'they have rightly declared the good to be that at which all things aim' (καλῶς ἀπεφήναντο τἀγαθόν, οὗ πάντʼ ἐφίεται). Aristotle approves a received declaration (ἀπεφήναντο) and states it of the ends of arts and actions. Aquinas cites it as the authority for the ratio boni in ST I q.5 a.1 co. The per-perfection reading of beings in STMT-GOOD-IS-DESIRABLE is Aquinas' application, not Aristotle's statement, so this claim supports that statement (relation REL-ARIST-EN-1094A-SUPPORTS-GOOD-IS-DESIRABLE) and does not state it.",
+  "status": "formalized"
+}

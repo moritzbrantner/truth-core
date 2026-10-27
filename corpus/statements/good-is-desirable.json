@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GOOD-IS-DESIRABLE",
+  "paraphrase": "A thing is good in a given perfection exactly when, as having that perfection, it is desirable. This is the per-perfection reading of 'the notion of good consists in being desirable'; good and desirable are distinct parameters, so the statement is a premise, not a definition of good.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodIsDesirableReading",
+  "definition_ids": [
+    "DEF-DESIRABLE-IN-A-PERFECTION",
+    "DEF-GOOD-AS-BEING-IN-ACT"
+  ]
+}

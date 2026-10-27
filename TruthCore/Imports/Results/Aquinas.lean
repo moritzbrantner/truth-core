@@ -12,6 +12,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution

@@ -1,0 +1,9 @@
+{
+  "id": "REL-ARIST-EN-1094A-SUPPORTS-GOOD-IS-DESIRABLE",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-EN-1094A-GOOD-WHAT-ALL-AIM-AT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-GOOD-IS-DESIRABLE",
+  "note": "Nicomachean Ethics I.1 is the authority Aquinas cites for the ratio boni in ST I q.5 a.1 co. It says that the good is what all things aim at, of the ends of arts and actions; it does not state the per-perfection biconditional, so it supports the statement without stating it."
+}

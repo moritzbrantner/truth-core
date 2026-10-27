@@ -1,0 +1,13 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
+  "input_statement_ids": [
+    "STMT-GOOD-IS-DESIRABLE",
+    "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
+    "STMT-PERFECT-INSOFAR-AS-IN-ACT"
+  ],
+  "output_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "rule": "biconditional-transitivity",
+  "meaning": "For each being and perfection: good iff desirable, desirable iff perfect, perfect iff actually had; so good iff actually had.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
+  "argument_id": "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.goodnessIsActualityFromDesirability",
+  "comparator_config": "results/AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY/comparator.json",
+  "status": "solution-present"
+}

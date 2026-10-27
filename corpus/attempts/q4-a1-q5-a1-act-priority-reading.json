@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-Q4-A1-Q5-A1-ACT-PRIORITY-READING",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+  ],
+  "kind": "reading",
+  "outcome": "failed",
+  "summary": "Obligations (2) and (3) of #352: search ST I q.4 a.1, q.5 a.1 and q.3 a.4 (witnesses AQUINAS-ST-I-Q4-A1, AQUINAS-ST-I-Q5-A1 and AQUINAS-ST-I-Q3-A4, materialized and read) for a more basic premise from which act's simple priority or 'actuality only insofar as being' could be derived. Found: q.4 a.1 ad 2 ('oportet enim ante id quod est in potentia, esse aliquid actu: cum ens in potentia non reducatur in actum, nisi per aliquod ens in actu'), in a reply denying that the material principle is simpliciter primum (the seed is preceded by the animal from which it is detached). Recorded as a third stating claim of STMT-ACT-SIMPLY-PRIOR-TO-POTENCY (AQUINAS-ST-I-Q4-A1-AD2-ACT-BEFORE-POTENCY-A), read as simple priority because the reply's thesis is about simple primacy; the temporal precedence of the generator in the example is noted, not formalized. It gives the same reason as ST I q.3 a.1 and SCG I.16, so it does not supply the missing step of finding 4 (every potency related to some actualization). Its example makes the prior actual the generator of the potential being, not the reducer of that being's own potency, so it does not source STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR either: reading it so would change the relata, as with Met. IX.8 1050a4-b2 in ATTEMPT-MET-IX-8-ACTUAL-MOVER-PRIORITY. For actuality only insofar as being: q.5 a.1 co. ('esse enim est actualitas omnis rei, ut ex superioribus patet') and ad 1 ('ens dicat aliquid proprie esse in actu') restate the premise's ground and refer back to the earlier texts. Of these, ST I q.3 a.4 co., second proof (witness AQUINAS-ST-I-Q3-A4, read), states it of every form ('esse est actualitas omnis formae vel naturae: non enim bonitas vel humanitas significatur in actu, nisi prout significamus eam esse') and is recorded as a second stating claim (AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A), with the move from signification to things noted. It is a witness, not a more basic premise. No derivation; no frontier change.",
+  "evidence": [
+    "AQUINAS-ST-I-Q4-A1-AD2-ACT-BEFORE-POTENCY-A",
+    "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A",
+    "AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A",
+    "AQUINAS-ST-I-Q3-A1-ACT-SIMPLY-PRIOR-A"
+  ],
+  "blocker": "Act's simple priority still needs a sourced step from 'potency is reduced only by a being in act' to 'every potency has a prior being in act', or a sourced bridge that an actual mover of another's potency is simply prior to it. Next text: Aquinas, In Metaph. IX lect. 7-8 (unpinned; Rowan's translation on isidore.co could be pinned as a web snapshot like AQUINAS-IN-PHYS)."
+}
