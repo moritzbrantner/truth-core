@@ -1,0 +1,12 @@
+{
+  "id": "INF-CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "input_statement_ids": [
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+  ],
+  "output_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+  "rule": "universal-instantiation-substitution-of-identicals-and-modus-ponens",
+  "meaning": "Fix g with HoldsMandate jesus g and a visible authoritative society c that Jesus founded. Stage 6 gives c = catholicChurch; substituting, Jesus founded the Catholic Church and it is visible with authority; the narrow scope premise then gives FoundedInMandate jesus g c and CommissionedToTeach jesus c.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

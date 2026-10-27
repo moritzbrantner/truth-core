@@ -66,6 +66,82 @@ bare → 9 bare; 44 → 48 sourced-undefended). Route costs rise by 3 (cheapest
 28 → 31): one bare premise is replaced by four smaller sourced ones. Nothing
 is discharged.
 
+## The scope premise split: which society, and institution or message (2026-10-27, second PR)
+
+The scope premise `STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING` carried
+both forks of the table above. They are now separated.
+
+**Which society.** Result `CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING`
+(`mandate_scope_from_catholic_church_founding`, module
+`TruthCore.Case.Catholicism.StageThree.FoundingScope`) derives the scope
+premise from two premises: its instance at the Catholic Church,
+`STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH` (if Jesus holds a
+mandate from g and founded the Catholic Church as a visible society with
+authority, he founded it in that mandate and commissioned it to teach), and
+stage 6, `STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH`. The step is substitution
+of the stage-6 identity. The narrow premise is strictly weaker than the old one
+(`scope_implies_catholic_church_scope`); `omissionModels` shows both premises
+needed (a second founded society, or a Catholic Church not founded in the
+mandate) and `jointModel` shows them satisfiable with every stage antecedent.
+Stage 6 is already a premise of every root route, so the rival "the society in
+the antecedent is not the commissioned body" (local churches, bodies founded by
+disciples) is now exactly the stage-6 rival, with no extra commitment. The
+Lumen gentium §23 particular/universal distinction bears on stage 6, as the
+earlier section below already noted for any generic mediated-founding rule.
+
+**Institution or message.** The narrow premise still carries this fork.
+*Lumen gentium* III §§18-20, already pinned and now read in full, supports it
+(claim `VATICAN-II-LG-19-CHURCH-FOUNDED-IN-APOSTLES-SENT-WITH-CHRISTS-POWER`):
+the Lord founded the universal Church *in Apostolis*, sending them as he was
+sent by the Father and as sharers of his power (*suae participes potestatis*)
+to make disciples of all peoples, sanctify and govern them; their successors
+are *doctrinae magistri*. Its reading of the Church as `catholicChurch` is
+stage 6's content, and the council is a doctrinal witness, not historical
+corroboration.
+
+The rival is recorded from a pinned source: Harnack, *History of Dogma* I,
+ch. II §2, II.7 (Buchanan's translation, Gutenberg 19612, passage
+`HARNACK-HOD-I-II-2`): Jesus "did not found a new religious community, but
+gathered round him a circle of disciples, and chose Apostles whom he commanded
+to preach the Gospel". In the same section Harnack grants that Jesus knew
+himself to be the Messiah called by God, so the rival accepts a mandate and
+denies only its institutional content. Statement
+`STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE` (`MandateCoversOnlyMessage`: no
+society is founded in the exercise of the mandate) records that part; Harnack's
+further denial that Jesus founded any community is the stage-5 rival and is not
+attributed to this statement. `messageRival_excludes_scope` locates the
+disagreement: with Jesus' mandate and the founding of the Catholic Church, the
+rival and the narrow premise are incompatible. The rival is not refuted. It is
+consistent with the premises other than the narrow one (it is the scope
+omission model of `DivineFounding.omissionModels`), and the dispute is
+historical: whether the commissions whose content goes beyond preaching
+(Matthew 28.18-20 "teaching them to keep all I commanded", John 20.21-23
+forgiving and retaining, and the unpinned Matthew 16.18-19, 18.17-18, John
+21.15-17) go back to Jesus. Harnack's position requires treating those reports
+as later, so the next obligation is a sourced report-to-event premise for them.
+
+**Attestation.** Acts 2 is newly pinned (`NT-ACTS-2`). Claim
+`NT-ACTS-2-22-36-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST` supports
+`STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE` more closely than Acts 17.31: God
+attested Jesus by signs and raised him, so that all Israel may know assuredly
+(*asphalōs*) that God made him Lord and Christ. Its limit: the office is said
+to be conferred with the exaltation, so the verse does not date the mandate to
+Jesus' ministry.
+
+**Rejected alternatives.** (i) Deriving the scope premise from Matthew 28
+alone: the commission names the eleven, not a society. (ii) A new
+commissioned-body constant plus an identity premise "every society Jesus
+founded is the commissioned body": it would duplicate stage 6 as a new open
+premise. (iii) *Dei Filius* ch. 3 para. 5 as a premise: it asserts the root
+component itself.
+
+**Premise effect.** Reaching the root, `STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING`
+leaves the open frontier and the strictly weaker
+`STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH` takes its place (57
+open premises, 9 bare, 48 sourced-undefended, unchanged); stage 6 was already
+on every route. Per-route costs are unchanged (cheapest 31). Nothing is
+discharged.
+
 ## Verified witnesses and findings
 
 The complete ranges below were materialized and read, not inferred from the

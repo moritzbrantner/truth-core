@@ -25,6 +25,19 @@
       ]
     },
     {
+      "id": "NT-ACTS-2",
+      "locator": "2",
+      "claim_locator_prefixes": [
+        "2."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "2"
+        }
+      ]
+    },
+    {
       "id": "NT-ACTS-17",
       "locator": "17",
       "claim_locator_prefixes": [
