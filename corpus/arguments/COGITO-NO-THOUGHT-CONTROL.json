@@ -1,0 +1,9 @@
+{
+  "id": "COGITO-NO-THOUGHT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "inference_ids": [
+    "INF-COGITO-NO-THOUGHT-CONTROL"
+  ],
+  "meaning": "Construct a model with no thoughts and a vacuously true bearer rule."
+}
