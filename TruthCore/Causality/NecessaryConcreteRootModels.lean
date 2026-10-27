@@ -169,8 +169,10 @@ theorem omitPopulation : OmitPopulation := by
     decide
 
 /-- A constant bearer demonstrates the fourth deletion for minimality of
-the *inconsistent core*: all four positive assumptions survive when the
-negation of the necessary-bearer conclusion is omitted. -/
+the *inconsistent core*: population, well-foundedness and dependence survive
+when the fourth premise, `AllActualConcreteContingent`, is omitted. That
+premise constructively entails `¬ NecessaryConcreteAt` but is stronger than
+it without excluded middle; here it fails and a necessary concretum exists. -/
 def stable : Ontic Bool Bool where
   frame := ⟨fun _ _ => True⟩
   ExistsAt := fun _ _ => True
