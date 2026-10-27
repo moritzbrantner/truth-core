@@ -1,0 +1,18 @@
+{
+  "id": "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+  "paraphrase": "Thinker-local anti-brute-root principle: every concrete ground-ancestor of a bearer of an occurring thought (the bearer included) that exists at w and is contingent at w (absent at some world accessible from w) has a concrete ground existing at w. It says nothing about concreta outside that ancestry and does not say that the bearer is contingent. Strictly weaker than 'every actual contingent concretum has an actual concrete ground' (COGITO-ANCESTRY-CONTROLS). An open premise, not attributed to any source.",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.ThinkerAncestryGrounded",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

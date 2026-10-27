@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-ANCESTRY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-ANCESTRY-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Prove the two global-to-local implications (Subrelation.accessible for well-foundedness; instantiation for grounding), check the four-candidate strictness model, and construct six omission models over Unit or Bool carriers, each satisfying all but one non-logical premise of COGITO-NECESSARY-CONCRETE-ANCESTOR and falsifying its conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

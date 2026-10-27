@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "argument_id": "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "challenge_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution",
+  "theorem": "TruthCore.Results.Causality.CogitoNecessaryConcrete.necessaryConcreteAncestor",
+  "comparator_config": "results/COGITO-NECESSARY-CONCRETE-ANCESTOR/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional, not a transcription: from the four open Cogito premises, thinker-local accessibility, the thinker-local anti-brute-root principle and excluded middle, some bearer of an occurring thought has a concrete ground-ancestor existing at w and at every world accessible from w. The two thinker-local premises are strictly weaker than #487's global ones. Accessibility-relative necessity only; no uniqueness, underivedness, simplicity, intellect or God. All six non-logical premises open; no root change."
+}
