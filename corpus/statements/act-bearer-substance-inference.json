@@ -1,0 +1,5 @@
+{
+  "id": "STMT-ACT-BEARER-SUBSTANCE-INFERENCE",
+  "paraphrase": "An occurring act, the bearer principle and the substance principle entail a substantial bearer.",
+  "lean_declaration": "TruthCore.Logic.ActBearer.SubstanceInference"
+}
