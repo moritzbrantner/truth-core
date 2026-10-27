@@ -1,0 +1,10 @@
+{
+  "id": "ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL",
+  "argument_id": "ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL",
+  "challenge_module": "TruthCore.Results.Logic.ActBearer.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ActBearer.Solution",
+  "theorem": "TruthCore.Results.Logic.ActBearer.nonSubstantialBearerModel",
+  "comparator_config": "results/ACT-BEARER-NON-SUBSTANTIAL-BEARER-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "An actual act may have a bearer without any bearer being a substance in the interpretation."
+}
