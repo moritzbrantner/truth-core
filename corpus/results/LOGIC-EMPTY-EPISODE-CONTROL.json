@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-EMPTY-EPISODE-CONTROL",
+  "argument_id": "LOGIC-EMPTY-EPISODE-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution",
+  "theorem": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.emptyControl",
+  "comparator_config": "results/LOGIC-EMPTY-EPISODE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "A model in which the universal nonoccurrence claim is true and the alleged denial act is not performed; no logical theorem of actual existence follows."
+}

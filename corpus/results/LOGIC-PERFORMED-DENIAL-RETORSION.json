@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "argument_id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution",
+  "theorem": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial",
+  "comparator_config": "results/LOGIC-PERFORMED-DENIAL-RETORSION/comparator.json",
+  "status": "solution-present",
+  "description": "An accurate performed denial of the occurrence of every episode of its own sort is contradictory. No occurrence is established without an actual token witness."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-PERFORMED-DENIAL-RETORSION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
+  "rule": "constructive-proof",
+  "meaning": "An actually occurring denial token witnesses an episode and therefore contradicts the truth of the assertion that no such episode occurs. Denial content need not be true when expressed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

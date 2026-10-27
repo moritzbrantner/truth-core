@@ -4,6 +4,7 @@ import TruthCore.Logic.Configuration
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.MaximumOrder
+import TruthCore.Logic.PerformedDenial
 import TruthCore.Logic.QuantifierShift
 import TruthCore.Logic.Regress
 import TruthCore.Logic.RegressDomains

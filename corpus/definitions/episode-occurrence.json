@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISODE-OCCURRENCE",
+  "term": "occurrence of an assertion or experience episode",
+  "definition": "`Occurs : Episode → Prop` is a primitive interpretation over a possibly empty episode carrier. A token `e` actually occurs only when `Occurs e` is independently supplied; neither mentioning a token nor interpreting its content asserts occurrence. `NoEpisodeOccurs Occurs` abbreviates `¬ ∃ e, Occurs e`.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PerformedDenial.NoEpisodeOccurs",
+  "note": "Explicit logical profile for #509; it does not decide whether episodes are material events, enduring subjects, timeless thoughts, or metaphysically concrete bearers."
+}

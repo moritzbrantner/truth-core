@@ -5,6 +5,9 @@ import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
+import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
+import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
 import TruthCore.Results.Logic.RegressSchema.Solution
 import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution

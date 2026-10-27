@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution",
+  "theorem_names": ["TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
