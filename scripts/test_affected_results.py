@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import sys
 import tempfile
@@ -157,6 +158,88 @@ class AffectedResultsTest(unittest.TestCase):
             text=True,
         ).stdout
         self.assertEqual(output.split(), ["RESULT-A"])
+
+
+REPO = SCRIPT.parent.parent
+SCRIPT_REFERENCE = re.compile(r"scripts/[A-Za-z0-9_./-]*[A-Za-z0-9_]")
+PY_IMPORT = re.compile(r"^\s*(?:from\s+(\w+)\s+import|import\s+(\w+))", re.MULTILINE)
+
+
+class ExplorerInputsTest(unittest.TestCase):
+    def test_data_only_changes_do_not_run_the_explorer(self):
+        self.assertEqual(
+            ar.explorer_inputs_changed(
+                [
+                    "corpus/statements/STMT-X.json",
+                    "corpus/results/RESULT-X.json",
+                    "TruthCore/Results/X/Solution.lean",
+                    "TruthCore/Imports/Results.lean",
+                    "results/RESULT-X/comparator.json",
+                    "docs/decisions/x.md",
+                    "scripts/verify-result.sh",
+                    "scripts/test_corpus_frontier.py",
+                ]
+            ),
+            [],
+        )
+
+    def test_explorer_code_changes_run_the_explorer(self):
+        changed = [
+            "apps/corpus-explorer/src/lib/corpus.ts",
+            "apps/corpus-explorer/tests/graph-buckets.browser.test.ts",
+            "bun.lock",
+            "scripts/premise_dossiers.py",
+            ".github/workflows/ci.yml",
+        ]
+        self.assertEqual(ar.explorer_inputs_changed(changed), sorted(changed))
+
+    def test_patterns_cover_every_script_the_explorer_reads(self):
+        """Every scripts/ file the build or a browser test names, and the Python those import,
+        is an input. Unit tests (`src/**/*.test.ts`) run in the unconditional explorer job."""
+        app = REPO / "apps" / "corpus-explorer"
+        sources = [*app.glob("src/**/*.ts"), *app.glob("src/**/*.tsx")]
+        referenced = {
+            match
+            for path in [*(p for p in sources if not p.name.endswith(".test.ts")), *app.glob("tests/*.ts")]
+            for match in SCRIPT_REFERENCE.findall(path.read_text(encoding="utf-8"))
+            if (REPO / match).is_file()
+        }
+        self.assertIn("scripts/corpus.py", referenced)
+        pending = [path for path in referenced if path.endswith(".py")]
+        while pending:
+            text = (REPO / pending.pop()).read_text(encoding="utf-8")
+            for groups in PY_IMPORT.findall(text):
+                module = f"scripts/{groups[0] or groups[1]}.py"
+                if (REPO / module).is_file() and module not in referenced:
+                    referenced.add(module)
+                    pending.append(module)
+        self.assertEqual(sorted(referenced - set(ar.explorer_inputs_changed(referenced))), [])
+
+    def test_cli_explorer_against_git_diff(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            git = ["git", "-C", tmp, "-c", "user.name=t", "-c", "user.email=t@example.com"]
+            subprocess.run([*git, "init", "-q"], check=True)
+            (root / "corpus").mkdir()
+            (root / "corpus/a.json").write_text("{}\n")
+            subprocess.run([*git, "add", "-A"], check=True)
+            subprocess.run([*git, "commit", "-qm", "base"], check=True)
+
+            def explorer():
+                return subprocess.run(
+                    [sys.executable, str(SCRIPT), "--root", tmp, "explorer", "--base", "HEAD~1"],
+                    check=True,
+                    capture_output=True,
+                    text=True,
+                ).stdout.strip()
+
+            (root / "corpus/a.json").write_text('{"changed": true}\n')
+            subprocess.run([*git, "commit", "-qam", "data"], check=True)
+            self.assertEqual(explorer(), "false")
+            (root / "package.json").write_text("{}\n")
+            subprocess.run([*git, "add", "-A"], check=True)
+            subprocess.run([*git, "commit", "-qm", "code"], check=True)
+            self.assertEqual(explorer(), "true")
 
 
 if __name__ == "__main__":

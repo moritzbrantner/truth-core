@@ -46,7 +46,8 @@ describe("corpus reader", () => {
     expect(corpus.arguments.some((argument) => argument.id === "PLATO-TIM-28A-28C-COSMOS-CAUSE-A")).toBe(true);
     expect(corpus.results.some((result) => result.id === "PLATO-TIM-28A-28C-COSMOS-CAUSE-A")).toBe(true);
     expect(corpus.candidates.every((candidate) => candidate.status === "candidate")).toBe(true);
-    expect(resultsForClaim(corpus, "PLATO-TIM-28A-CAUSE-A")).toHaveLength(1);
+    // Membership, not a count: a later argument reusing the statement adds a result (#520).
+    expect(resultsForClaim(corpus, "PLATO-TIM-28A-CAUSE-A").map((result) => result.id)).toContain("PLATO-TIM-28A-28C-COSMOS-CAUSE-A");
   });
 
   test("keeps source claims separate from statement identity", () => {
@@ -58,7 +59,9 @@ describe("corpus reader", () => {
     expect(claim?.statement_id).toBe(statement?.id);
     expect(argument?.premise_statement_ids).toContain(statement?.id);
     expect(argument?.premise_statement_ids).not.toContain(claim?.id);
-    expect(claimsForResult(corpus, "PLATO-TIM-28A-28C-COSMOS-CAUSE-A")).toHaveLength(2);
+    const premiseClaims = claimsForResult(corpus, "PLATO-TIM-28A-28C-COSMOS-CAUSE-A");
+    expect(premiseClaims.map((entry) => entry.id)).toContain("PLATO-TIM-28A-CAUSE-A");
+    expect(premiseClaims.every((entry) => argument?.premise_statement_ids.includes(entry.statement_id))).toBe(true);
   });
 
   test("allows a derived conclusion statement with no source claim", () => {
