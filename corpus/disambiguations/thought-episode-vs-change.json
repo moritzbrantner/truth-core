@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-THOUGHT-EPISODE-VS-CHANGE",
+  "term": "thought episode versus change in the Physics III.1 sense",
+  "sense_definition_ids": [
+    "DEF-THOUGHT-CHANGE-OCCURRENCE",
+    "DEF-THOUGHT-CHANGE-CLASSIFICATION"
+  ],
+  "resolution": "An actual thought is a token satisfying Thought; change is separately represented by Change and constrained by the sourced Physics III.1 reading. The two are not equated by occurrence or first-person grammar. The conditional thought-to-change bridge is explicitly open; no physical motion or temporal succession is inferred."
+}
