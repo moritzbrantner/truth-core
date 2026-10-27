@@ -1,0 +1,17 @@
+{
+  "id": "CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "inference_ids": [
+    "INF-CAUSAL-ROOT-KANT-EXISTENTIAL"
+  ],
+  "meaning": "Apply the already verified Kantian well-founded-causal-regress theorem and explicitly supplied excluded middle to obtain one actual fixed bearer that exists at all accessible worlds. This does not add concrete typing or all-world accessibility.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-ROOT-OMISSION-MATRIX",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-ROOT-OMISSION-MATRIX",
+  "inference_ids": [
+    "INF-CAUSAL-ROOT-OMISSION-MATRIX"
+  ],
+  "meaning": "Evaluate finite two-world models with fixed rigid identity and explicit population, causal edges, typed contingency and necessity. Four models independently witness the deletion of one member of the inconsistent core; a fifth shows that an actual abstract predecessor cannot replace an actual concrete one.",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-CAUSAL-ROOT-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

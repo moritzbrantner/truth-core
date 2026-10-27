@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "paraphrase": "The same typed conditional gives an individual present in every world only after adding that the selected world's accessibility reaches every world. Global de re necessity remains relative to fixed roster identity and supplied concreteness.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.GlobalConcreteRootConditional",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-CAUSAL-ROOT-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "paraphrase": "For every original Kantian Ontic model and selected world, explicit excluded middle plus the existing global LocalCausalPrinciple, well-founded local Causes relation and an actual existent imply one fixed actually existing individual present in every accessible world. Nothing establishes concreteness or all-world coverage.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.KantRegressYieldsNecessary",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY"
+  ]
+}

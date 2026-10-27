@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "argument_id": "CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.KantExistential.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.KantExistential.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRoot.KantExistential.checks",
+  "comparator_config": "results/CAUSAL-ROOT-KANT-EXISTENTIAL/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the already verified Kantian well-founded-causal-regress theorem and explicitly supplied excluded middle to obtain one actual fixed bearer that exists at all accessible worlds. This does not add concrete typing or all-world accessibility. This verifies formal consequence only and establishes no metaphysical premises."
+}

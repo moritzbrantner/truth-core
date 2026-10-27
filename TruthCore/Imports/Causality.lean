@@ -9,6 +9,8 @@ import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NecessaryBeingSurvey
+import TruthCore.Causality.NecessaryConcreteRoot
+import TruthCore.Causality.NecessaryConcreteRootModels
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks

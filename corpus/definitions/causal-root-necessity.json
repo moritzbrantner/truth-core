@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-NECESSITY",
+  "term": "necessary concrete individual relative to accessibility",
+  "definition": "NecessaryConcreteAt requires one fixed concrete roster member to exist actually and in every accessible world. This is de re within a supplied Kripke frame. Global all-world necessity needs coverage of every world; no essence, divine attributes or metaphysical possibility is established.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.NecessaryConcreteAt",
+  "basis": "stipulative",
+  "note": "Analyst-defined #487 conditional semantics, not an established causal or metaphysical premise. Whole histories, rigid cross-world identity, supplied concreteness, and generic causation are independently contestable."
+}

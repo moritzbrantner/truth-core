@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "inference_ids": [
+    "INF-CAUSAL-ROOT-ACCESSIBLE-CONCRETE"
+  ],
+  "meaning": "Restrict the Kantian Ontic model to actual concrete members, instantiate the factored verified local regress lemma, and use explicit excluded middle to pick a noncontingent fixed witness. Only actual-world typed dependence and typed well-foundedness enter.",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-CAUSAL-ROOT-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

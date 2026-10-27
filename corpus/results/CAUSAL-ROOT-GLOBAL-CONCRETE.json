@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "argument_id": "CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.GlobalConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.GlobalConcrete.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRoot.GlobalConcrete.checks",
+  "comparator_config": "results/CAUSAL-ROOT-GLOBAL-CONCRETE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the accessible-world concrete theorem with an explicit assumption that the actual world accesses every possible world. This extra coverage is required; neither reflexivity nor isolated-world necessity suffices. This verifies formal consequence only and establishes no metaphysical premises."
+}

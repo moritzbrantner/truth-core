@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+  "term": "well-founded actual concrete ancestry",
+  "definition": "WellFoundedConcreteAt means Lean's WellFounded holds on the predecessor relation restricted to actually existing concrete individuals, ordered cause-to-dependent. It excludes predecessor cycles and non-well-founded descents, but does not imply a finite past, finite branching, a universal cause, or anything about the soundness of actual metaphysical causation.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.WellFoundedConcreteAt",
+  "basis": "stipulative",
+  "note": "Analyst-defined #487 conditional semantics, not an established causal or metaphysical premise. Whole histories, rigid cross-world identity, supplied concreteness, and generic causation are independently contestable."
+}

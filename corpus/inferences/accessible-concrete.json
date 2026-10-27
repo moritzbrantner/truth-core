@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "rule": "well-founded-induction-composition",
+  "meaning": "Restrict the Kantian Ontic model to actual concrete members, instantiate the factored verified local regress lemma, and use explicit excluded middle to pick a noncontingent fixed witness. Only actual-world typed dependence and typed well-foundedness enter.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

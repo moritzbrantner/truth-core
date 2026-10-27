@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "inference_ids": [
+    "INF-CAUSAL-ROOT-GLOBAL-CONCRETE"
+  ],
+  "meaning": "Compose the accessible-world concrete theorem with an explicit assumption that the actual world accesses every possible world. This extra coverage is required; neither reflexivity nor isolated-world necessity suffices.",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-CAUSAL-ROOT-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

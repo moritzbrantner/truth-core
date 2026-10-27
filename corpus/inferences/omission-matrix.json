@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-ROOT-OMISSION-MATRIX",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-ROOT-OMISSION-MATRIX",
+  "rule": "finite-countermodel",
+  "meaning": "Evaluate finite two-world models with fixed rigid identity and explicit population, causal edges, typed contingency and necessity. Four models independently witness the deletion of one member of the inconsistent core; a fifth shows that an actual abstract predecessor cannot replace an actual concrete one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

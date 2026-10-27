@@ -1,0 +1,85 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-OMIT-DEPENDENCE",
+  "description": "Two universal-accessible populated histories with one rigid concrete bearer each, absent from the other world; no causal edges, so WF and all-contingency hold, but root-inclusive dependence is false. Certified only in stipulated mathematical semantics, not a metaphysical world.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.alternating",
+  "bindings": {
+    "W": "Bool",
+    "E": "Bool",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.alternating",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.concreteAll",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.alternatingPopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.alternatingWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.alternatingNoDependence"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.alternatingAllContingent"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

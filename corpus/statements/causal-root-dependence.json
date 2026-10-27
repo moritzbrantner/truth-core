@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+  "paraphrase": "Every actual concrete individual that is absent at some accessible complete history has an actual concrete immediate predecessor under the supplied Causes relation, including any root candidate. Neither merely noninitial events nor abstract explanatory tokens satisfy this principle.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.ContingentConcreteDependenceAt",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

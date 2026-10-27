@@ -12,6 +12,11 @@ import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRoot.AccessibleConcrete.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRoot.CoreIncompatible.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRoot.GlobalConcrete.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRoot.KantExistential.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRoot.OmissionMatrix.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution

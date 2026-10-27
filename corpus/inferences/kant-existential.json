@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-ROOT-KANT-EXISTENTIAL",
+  "rule": "theorem-composition",
+  "meaning": "Apply the already verified Kantian well-founded-causal-regress theorem and explicitly supplied excluded middle to obtain one actual fixed bearer that exists at all accessible worlds. This does not add concrete typing or all-world accessibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

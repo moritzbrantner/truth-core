@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+  "term": "actually existing concrete causal candidates",
+  "definition": "The actual-concrete carrier is a subtype of the fixed rigid candidate roster whose members satisfy a supplied, theory-relative concreteness predicate and exist somewhere in the selected complete history. The predecessor relation includes only edges between these candidates. Abstract or absent causal sources cannot enter its well-foundedness proof.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.ActualConcreteCausesAt",
+  "basis": "stipulative",
+  "note": "Analyst-defined #487 conditional semantics, not an established causal or metaphysical premise. Whole histories, rigid cross-world identity, supplied concreteness, and generic causation are independently contestable."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "argument_id": "CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.AccessibleConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRoot.AccessibleConcrete.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRoot.AccessibleConcrete.checks",
+  "comparator_config": "results/CAUSAL-ROOT-ACCESSIBLE-CONCRETE/comparator.json",
+  "status": "solution-present",
+  "description": "Restrict the Kantian Ontic model to actual concrete members, instantiate the factored verified local regress lemma, and use explicit excluded middle to pick a noncontingent fixed witness. Only actual-world typed dependence and typed well-foundedness enter. This verifies formal consequence only and establishes no metaphysical premises."
+}

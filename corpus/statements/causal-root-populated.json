@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSAL-ROOT-POPULATED",
+  "paraphrase": "At the selected complete history, some fixed roster member is concrete under the supplied criterion and actually exists. This is an explicit nonvacuity premise, not a claim that all possible histories have concrete inhabitants.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.PopulatedConcreteAt",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

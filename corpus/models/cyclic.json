@@ -1,0 +1,87 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-OMIT-WELL-FOUNDED",
+  "description": "Two universal-accessible worlds, two rigid contingent concreta per world; each world has a two-node causal cycle. Population, full dependence and all-contingency hold, but well-foundedness fails. Certified only in stipulated mathematical semantics, not a metaphysical world.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.cyclic",
+  "bindings": {
+    "W": "Bool",
+    "E": "TruthCore.Causality.NecessaryConcreteRootModels.BoolPair",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.cyclic",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.concreteAll",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": [
+        "TruthCore.Causality.NecessaryConcreteRootModels.pair00",
+        "TruthCore.Causality.NecessaryConcreteRootModels.pair01",
+        "TruthCore.Causality.NecessaryConcreteRootModels.pair10",
+        "TruthCore.Causality.NecessaryConcreteRootModels.pair11"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.enumerateBoolPair"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.cyclicPopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.cyclicNotWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.cyclicDependence"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.cyclicAllContingent"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

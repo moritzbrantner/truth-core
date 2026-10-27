@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-CAUSAL-ROOT-487",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+    "STMT-CAUSAL-ROOT-KANT-EXISTENTIAL",
+    "STMT-CAUSAL-ROOT-POPULATED",
+    "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+    "STMT-CAUSAL-ROOT-DEPENDENCE",
+    "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+    "STMT-CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+    "STMT-CAUSAL-ROOT-GLOBAL-CONCRETE",
+    "STMT-CAUSAL-ROOT-OMISSION-MATRIX"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "For #487, factored the already-proved Kantian well-founded-induction theorem into its actual-world form without changing the older theorem's public type, then composed the original negative universal with explicit ExcludedMiddle to obtain an actual fixed necessary witness relative only to accessible worlds. Restricted the same old induction to a typed actual-concrete subtype to prove necessity under only selected-world root-inclusive concrete contingent-dependence and subtype-restricted WF; global all-world necessity adds explicit universal accessibility. Four separate scoped statement hypotheses imply ConfigurationFalse constructively. Five finite two-world controls separately delete each core member and allow an existing abstract predecessor only in a weaker untyped clause. After integrating current main, the corpus model verifier independently replayed 71 registered models and 682 certificates with zero axioms, including all new controls. The full Lean library compiles in pinned Lean 4.35.0, all five new result theorems print no axioms, and corpus bind-check has zero mismatches. See docs/causal-root-necessity-487.md for exact semantics and four-core deletion table. No source reading is claimed, and no divine existence, efficient-event-causation premise, explanatory PSR, physical beginning or metaphysical possibility is established. The #143 root-premise delta is zero: the local frontier still reports 52 open (10 bare, 42 sourced undefended).",
+  "evidence": [
+    "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+    "CAUSAL-ROOT-KANT-EXISTENTIAL",
+    "CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+    "CAUSAL-ROOT-GLOBAL-CONCRETE",
+    "CAUSAL-ROOT-CORE-INCOMPATIBLE",
+    "CAUSAL-ROOT-OMISSION-MATRIX"
+  ],
+  "blocker": "The independent philosophical ground for universal root-inclusive contingent concrete dependence and well-founded *existential* ancestry remains open; generic Causes does not establish efficient causation or grounding. The current configuration composer supports only W,I,F,present,w and cannot directly replay the typed cause/concrete profile. Its existing statement/result/model ledger is populated instead, without broadening the engine. Full Comparator/NanoDa acceptance and exact-head CI remain to be verified before merging."
+}

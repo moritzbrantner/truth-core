@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CAUSAL-ROOT-ACCESSIBLE-CONCRETE",
+  "paraphrase": "With explicit excluded middle, inhabited actual-concrete extension, well-founded actual-concrete causes, and root-inclusive actual contingent dependence at the selected world, there exists one fixed actual concrete individual present in every accessible world. Conditions are quantified as hypotheses; no premises are established as true.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.ConcreteRootConditional",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED",
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-CAUSAL-ROOT-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE"
+  ]
+}

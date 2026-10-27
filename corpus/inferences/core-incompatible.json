@@ -1,0 +1,14 @@
+{
+  "id": "INF-CAUSAL-ROOT-CORE-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-CAUSAL-ROOT-POPULATED",
+    "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+    "STMT-CAUSAL-ROOT-DEPENDENCE",
+    "STMT-CAUSAL-ROOT-ALL-CONTINGENT"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "well-founded-induction",
+  "meaning": "The four hypotheses use one shared Ontic model, concrete predicate and selected world. The existing well-founded-induction lemma rules out universal contingency on the actual concrete subtype. No excluded-middle assumption is required for this contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

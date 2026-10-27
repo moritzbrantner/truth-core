@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-CAUSAL-ROOT-EVENT-AND-EXISTENCE",
+  "term": "causing an event, causing existence, and explaining existence",
+  "sense_definition_ids": [
+    "DEF-CAUSAL-ROOT-DEPENDENCE",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-CAUSE-OF-BECOMING",
+    "DEF-PSR-EXTERNAL-CAUSE"
+  ],
+  "resolution": "The #487 theorem treats Kantian world-relative Causes as a stipulated predecessor relation among individuals present somewhere in one complete possible history. Its root-inclusive rule can be read as existential grounding only under an independently justified interpretation; it is not equivalent to the efficient cause of an event, a temporal beginning, or an explanation token. A beginningless contingent concrete being and an uncaused initial contingent reality are not excluded by weaker event-only or boundary-exception principles. An abstract reason does not meet the typed concrete-predecessor clause. The model supplies literal cross-world identity, not a counterpart policy."
+}

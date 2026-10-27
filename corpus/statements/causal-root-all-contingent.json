@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+  "paraphrase": "Every actually existing concrete bearer is absent at some accessible world; this is the negation of de re necessary concrete existence under explicit excluded middle, and is used only as a contradiction hypothesis.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.AllActualConcreteContingent",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-CAUSAL-ROOT-NECESSITY"
+  ]
+}

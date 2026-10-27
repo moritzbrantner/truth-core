@@ -1,0 +1,85 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-OMIT-POPULATION",
+  "description": "Two world labels with empty actual-concrete extensions. All universal dependencies and well-foundedness hold vacuously; actual concrete population fails. Certified only in stipulated mathematical semantics, not a metaphysical world.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.empty",
+  "bindings": {
+    "W": "Bool",
+    "E": "Bool",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.empty",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.concreteAll",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.emptyNotPopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.emptyWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.emptyDependence"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.emptyAllContingent"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

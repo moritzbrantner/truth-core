@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-ROOT-GLOBAL-CONCRETE",
+  "rule": "modal-accessibility-instantiation",
+  "meaning": "Compose the accessible-world concrete theorem with an explicit assumption that the actual world accesses every possible world. This extra coverage is required; neither reflexivity nor isolated-world necessity suffices.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

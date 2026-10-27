@@ -1,0 +1,85 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-OMIT-ALL-CONTINGENT",
+  "description": "Every rigid candidate exists at both universal-accessible worlds, with no causal edges. Population, well-foundedness and contingent dependence hold while all-contingency fails and necessary concreta exist. Certified only in stipulated mathematical semantics, not a metaphysical world.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.stable",
+  "bindings": {
+    "W": "Bool",
+    "E": "Bool",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.stable",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.concreteAll",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.stablePopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.stableWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.stableDependence"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-ALL-CONTINGENT",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.stableNotAllContingent"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

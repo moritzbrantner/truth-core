@@ -1,0 +1,73 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-ABSTRACT-PREDECESSOR",
+  "description": "One actual concrete contingent bearer is causally preceded only by an actual abstract bearer. Its untyped causal witness does not satisfy typed concrete-contingent dependence. Certified only in stipulated mathematical semantics, not a metaphysical world.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.abstractPredecessor",
+  "bindings": {
+    "W": "Bool",
+    "E": "Bool",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.abstractPredecessor",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.onlyFalseConcrete",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.abstractPopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.abstractWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "E",
+        "m",
+        "concrete",
+        "w"
+      ],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.abstractNoTypedDependence"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

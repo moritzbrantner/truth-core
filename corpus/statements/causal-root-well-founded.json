@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+  "paraphrase": "The predecessor relation on actually existing concrete individuals is well-founded, with no non-well-founded descending ancestry or causal cycles. It does not assert a finite past or bounded ancestry.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.WellFoundedConcreteAt",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",
+    "DEF-CAUSAL-ROOT-WELL-FOUNDED"
+  ]
+}

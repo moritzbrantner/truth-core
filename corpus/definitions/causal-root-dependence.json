@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-DEPENDENCE",
+  "term": "root-inclusive contingent concrete causal dependence",
+  "definition": "Every concrete individual existing in the selected complete history that is de re absent from an accessible history has an immediate predecessor that is itself concrete and present in the selected history. Roots receive no exception. This is stronger than noninitial event causation, explanation by an abstract reason, or merely a cause of beginning to exist.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.ContingentConcreteDependenceAt",
+  "basis": "stipulative",
+  "note": "Analyst-defined #487 conditional semantics, not an established causal or metaphysical premise. Whole histories, rigid cross-world identity, supplied concreteness, and generic causation are independently contestable."
+}
