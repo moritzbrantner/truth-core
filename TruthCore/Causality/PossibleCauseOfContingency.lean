@@ -90,6 +90,15 @@ def ExternalCandidateAt (s : Scenario W B) (w : W) : Prop :=
   ∃ c, s.concrete c ∧ s.ontic.ExistsAt w c ∧
     OutsideContingentTotalityAt s w c
 
+/-- Quantified modal scope audit: under classical, rigid actualist
+existence semantics, an actual external concrete candidate distinct from
+all contingent concrete existents is equivalent to an actual necessarily
+existing concrete individual. This does not make the candidate an
+efficient cause or a sufficient explanation. -/
+def ExternalCandidateNecessityEquivalence : Prop :=
+  ∀ (World Being : Type) (s : Scenario World Being) (w : World),
+    ExternalCandidateAt s w ↔ NecessaryConcreteAt s w
+
 /-- Crucial scope audit. Under classical logic the mere existence of an
 actual concrete individual external to *all contingent concreta* is
 equivalent to an actual necessary concrete individual at that world.
@@ -259,6 +268,19 @@ theorem mixedHasContingentUncausedRoot :
   · intro c h
     have hf : true = false := h.1
     cases hf
+
+/-- Finite model certificate target: possible externally caused
+contingency, a necessary concrete individual, and an actually uncaused
+contingent concrete root are jointly satisfiable in the specified
+universally accessible two-world interpretation. This witnesses a strict
+limit of the modal opportunity argument. -/
+def CausalOpportunityBruteRootCompatibility : Prop :=
+  UniversalFrame mixed ∧
+  PossiblyBeginsAt mixed false ∧
+  CausalOpportunityAt mixed false ∧
+  NecessaryConcreteAt mixed false ∧
+  ContingentAt mixed.ontic true (some true) ∧
+  (∀ c, ¬ mixed.ontic.Causes true c (some true))
 
 /-- The principle permits brute *actual* roots, even when a necessary
 individual is present and an alternate externally caused beginning exists. -/
