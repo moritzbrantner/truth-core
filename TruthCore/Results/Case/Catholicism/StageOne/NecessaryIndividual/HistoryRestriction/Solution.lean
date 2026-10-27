@@ -30,6 +30,4 @@ theorem checks : HistoryOnlyCountermodel := by
   · exact ⟨rootedZero, fun next _ => rootPresent next⟩
   · rintro ⟨next, _, hEmpty⟩
     exact hEmpty ⟨rootedZero, rootPresent next⟩
-#print axioms rootPresent
-#print axioms checks
 end TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction

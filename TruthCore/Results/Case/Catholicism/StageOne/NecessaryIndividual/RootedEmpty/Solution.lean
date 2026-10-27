@@ -35,7 +35,4 @@ theorem checks : RootedEmptyCountermodel := by
     exact hx.1 rfl
   · rintro ⟨x, hx⟩
     exact (hx rootedZero True.intro).1 rfl
-#print axioms dependentCoverage
-#print axioms noTwoStepCause
-#print axioms checks
 end TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty

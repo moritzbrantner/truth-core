@@ -166,9 +166,12 @@ scope gaps without settling whether those assumptions are true of reality.
   theorems under `Results/Case/Catholicism/StageOne/NecessaryIndividual`.
 - Corpora: one independent statement, inference, argument and result per
   theorem; exact definitions and disambiguation, plus comparator contracts.
-- The current stage is a mathematical result proposal until `lake build`,
-  `corpus.py bind-check`, and `verify-result` have run successfully. A green
-  metadata check alone is insufficient.
+- Lean build and the independent Rust Comparator verified all three results on
+  [CI run 902](https://github.com/moritzbrantner/truth-core/actions/runs/40426288988)
+  (commit `c99448e6`), including an audit with **zero permitted axioms**.
+  These are mathematical countermodels and conditionals, not evidence establishing
+  metaphysical premises. Corpus bind-check and the remaining integration checks
+  provide separate regression protection.
 
 Intended root-path open-premise change: **none**. This investigation makes an
 implicit modal-domain choice visible, not a new established theological root

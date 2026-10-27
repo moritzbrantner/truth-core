@@ -56,11 +56,6 @@ theorem secondHistory_ne_empty : rootedTwo ≠ rootedZero := by
   have hval : (2 : Nat) = 0 := congrArg Fin.val h
   exact Nat.noConfusion hval
 
-#print axioms rootedZero
-#print axioms rootedOne
-#print axioms rootedTwo
-#print axioms firstHistory_ne_empty
-#print axioms secondHistory_ne_empty
 
 /-- Only a present shared root can cause a present, distinct dependent.
 This deliberately does not define a cause of the root itself. -/
