@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CARTESIAN-SOME-PROPOSITION-FAILS",
+  "paraphrase": "There is a Lean proposition that fails, witnessed by False.",
+  "lean_declaration": "TruthCore.Logic.CartesianFloor.SomePropositionFails",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
