@@ -167,7 +167,7 @@ theorem bruteOnlyPossibleBeginning :
     PossiblyBeginsAt bruteOnly false := by
   refine ⟨false, True.intro, True.intro, false, True.intro, ?_⟩
   refine ⟨rfl, ⟨true, True.intro, ?_⟩⟩
-  decide
+  simp [bruteOnly]
 
 theorem bruteOnlyNoExternalCause :
     ¬ PossiblyExternallyCausedAt bruteOnly false := by
@@ -223,12 +223,12 @@ theorem mixedUniversal : UniversalFrame mixed := by
 theorem mixedContingentAtFalse :
     ContingentAt mixed.ontic false (some false) := by
   refine ⟨rfl, ⟨true, True.intro, ?_⟩⟩
-  decide
+  simp [mixed]
 
 theorem mixedContingentAtTrue :
     ContingentAt mixed.ontic true (some true) := by
   refine ⟨rfl, ⟨false, True.intro, ?_⟩⟩
-  decide
+  simp [mixed]
 
 theorem mixedPossibleBeginning :
     PossiblyBeginsAt mixed false := by
