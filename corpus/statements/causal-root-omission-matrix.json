@@ -1,6 +1,6 @@
 {
   "id": "STMT-CAUSAL-ROOT-OMISSION-MATRIX",
-  "paraphrase": "Five independent finite constructive certificates: delete any one of inhabitedness, well-foundedness, universal contingent dependence, or all-actual-contingency from the four-member inconsistent core and find a satisfying alternative; replacing a concrete predecessor by a present abstract one also defeats the necessary-concrete inference. All models use complete-history worlds and rigid identity.",
+  "paraphrase": "Six independent finite constructive certificates: delete any one of inhabitedness, well-foundedness, universal contingent dependence, or all-actual-contingency from the four-member inconsistent core and find a satisfying alternative; replacing a concrete predecessor by a present abstract one also defeats the necessary-concrete inference; and a necessary actual bearer need not exist in worlds inaccessible from the actual world. All models use complete-history worlds and rigid identity.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.OmissionMatrix",
   "definition_ids": [
     "DEF-CAUSAL-ROOT-ACTUAL-CONCRETE",

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-ACCESSIBILITY",
+  "term": "universal accessibility from the selected world",
+  "definition": "UniversalAccessibilityAt requires the chosen world to access every world in the model's supplied type. This is an explicit bridge from an accessibility-relative de re existent to an all-world bearer; it is not entailed by an arbitrary Kripke frame.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.UniversalAccessibilityAt",
+  "basis": "stipulative",
+  "note": "An additional conditional semantic requirement for #487; metaphysical interpretations of inaccessible complete histories remain open."
+}

@@ -31,7 +31,9 @@ tests are in `TruthCore/Causality/NecessaryConcreteRoot*.lean`.
   typed dependence and well-foundedness restricted to actual concrete beings.
 - `GlobalConcreteRootConditional` adds `∀ v, m.frame.access w v` before
   concluding `∀ v, m.ExistsAt v x`. The accessible-world and all-world
-  conclusions must not be interchanged on an arbitrary frame.
+  conclusions must not be interchanged on an arbitrary frame. The separate
+  `UniversalAccessibilityAt` and `EveryWorldConcreteAt` predicates let the
+  model verifier test the extra bridge independently.
 
 Excluded middle is **a premise in the theorem's Lean type**, not an imported
 classical axiom. The negative-universal contradiction and its four-member
@@ -64,6 +66,14 @@ single-deletion controls, not inferred merely from unsuccessful proof searches.
 | All-contingency | Populated, well-founded, dependence, a necessary bearer | `MODEL-CAUSAL-ROOT-OMIT-ALL-CONTINGENT`: fixed always-present roster |
 | Concrete predecessor typing | Populated, well-founded, weak *untyped* dependence, no necessary concrete bearer | `MODEL-CAUSAL-ROOT-ABSTRACT-PREDECESSOR`: a present abstract predecessor explains/causes the only actual concrete candidate |
 
+A sixth control, `MODEL-CAUSAL-ROOT-OMIT-UNIVERSAL-ACCESSIBILITY`,
+retains actual concrete population, typed WF and root-inclusive dependence,
+**and** gives an accessible-world necessary concrete witness. Its two
+inhabited histories only access themselves, so the selected witness is absent
+from the other, inaccessible history and the all-world conclusion is false.
+This proves the accessibility bridge is a substantive extra assumption, not
+mere theorem presentation.
+
 These are **satisfying interpretations of a stipulated encoding**. They do not
 independently establish that a world with brute contingent roots, a two-node
 causal cycle, or an abstract producer is metaphysically possible.
@@ -94,7 +104,7 @@ God, or Catholicism. There is no automatic #143 root-premise discharge.
 ## Persistence and configuration engine boundary
 
 The five results have individual statement/inference/argument/Challenge/
-Solution/Comparator records. The independent finite controls are registered
+Solution/Comparator records. The six independent finite controls are registered
 under `corpus/models/`, and the investigation attempt under
 `corpus/attempts/`. This uses the existing #477 model and argument ledger;
 no parallel prover, graph, ontology or proof-status database was introduced.

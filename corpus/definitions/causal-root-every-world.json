@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-ROOT-EVERY-WORLD",
+  "term": "fixed concrete individual existing in all worlds",
+  "definition": "EveryWorldConcreteAt holds if one individual of the fixed roster is concrete, actually present and present in every supplied world, including worlds inaccessible from the evaluation world. This is a stronger conclusion than NecessaryConcreteAt on arbitrary frames.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.EveryWorldConcreteAt",
+  "basis": "stipulative",
+  "note": "Stipulated stronger de re predicate, without an inferred thesis about real modality."
+}

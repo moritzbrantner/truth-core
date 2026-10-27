@@ -1,0 +1,61 @@
+{
+  "id": "MODEL-CAUSAL-ROOT-OMIT-UNIVERSAL-ACCESSIBILITY",
+  "description": "Two distinct inhabited complete histories with different rigid bearers and identity-only accessibility: a concrete bearer is actual, well-founded, vacuously root-dependence-compliant and necessary at the chosen world, but absent from another inaccessible history. Thus the all-world conclusion cannot be inferred without the explicit accessibility bridge.",
+  "vocabulary": "causal-root-actual-concrete",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedHistories",
+  "bindings": {
+    "W": "Bool",
+    "E": "Bool",
+    "m": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedHistories",
+    "concrete": "TruthCore.Causality.NecessaryConcreteRootModels.concreteAll",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": ["Bool.false", "Bool.true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "E",
+      "elements": ["Bool.false", "Bool.true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-POPULATED",
+      "value": "satisfies",
+      "arguments": ["W", "E", "m", "concrete", "w"],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedPopulated"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-WELL-FOUNDED",
+      "value": "satisfies",
+      "arguments": ["W", "E", "m", "concrete", "w"],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedWellFounded"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-DEPENDENCE",
+      "value": "satisfies",
+      "arguments": ["W", "E", "m", "concrete", "w"],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedDependence"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-UNIVERSAL-ACCESSIBILITY",
+      "value": "violates",
+      "arguments": ["W", "E", "m", "w"],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedNoUniversalAccessibility"
+    },
+    {
+      "statement_id": "STMT-CAUSAL-ROOT-EVERY-WORLD",
+      "value": "violates",
+      "arguments": ["W", "E", "m", "concrete", "w"],
+      "theorem": "TruthCore.Causality.NecessaryConcreteRootModels.isolatedNoGlobalConcrete"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.FiniteSupport",
+    "TruthCore.Causality.NecessaryConcreteRootModels"
+  ]
+}

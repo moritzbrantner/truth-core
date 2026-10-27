@@ -58,6 +58,16 @@ from the evaluation world. This is not yet existence at *every* world. -/
 def NecessaryConcreteAt (m : Ontic W E) (concrete : E → Prop) (w : W) : Prop :=
   ∃ x, concrete x ∧ m.ExistsAt w x ∧ NecessaryAt m w x
 
+/-- The additional modal bridge from the selected world's accessible
+histories to *all* worlds in the supplied universe. -/
+def UniversalAccessibilityAt (m : Ontic W E) (w : W) : Prop :=
+  ∀ v, m.frame.access w v
+
+/-- One fixed actual concrete individual is present in every world of `W`,
+including any worlds inaccessible from the selected world. -/
+def EveryWorldConcreteAt (m : Ontic W E) (concrete : E → Prop) (w : W) : Prop :=
+  ∃ x, concrete x ∧ m.ExistsAt w x ∧ ∀ v, m.ExistsAt v x
+
 /-- Exact negation of the positive conclusion in the selected semantics. -/
 def AllActualConcreteContingent (m : Ontic W E)
     (concrete : E → Prop) (w : W) : Prop :=
@@ -169,11 +179,11 @@ def GlobalConcreteRootConditional : Prop :=
   ∀ (World Entity : Type) (m : Ontic World Entity)
     (concrete : Entity → Prop) (w : World),
     ExcludedMiddle →
-      (∀ v, m.frame.access w v) →
+      UniversalAccessibilityAt m w →
         (∃ x, concrete x ∧ m.ExistsAt w x) →
           WellFounded (ActualConcreteCausesAt m concrete w) →
             ContingentConcreteDependenceAt m concrete w →
-              ∃ x, concrete x ∧ m.ExistsAt w x ∧ ∀ v, m.ExistsAt v x
+              EveryWorldConcreteAt m concrete w
 
 theorem globalConcreteRootConditional : GlobalConcreteRootConditional := by
   intro World Entity m concrete w hEM hAllAccessible hPop hWF hDep

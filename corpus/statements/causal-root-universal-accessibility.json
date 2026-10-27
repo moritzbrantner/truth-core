@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSAL-ROOT-UNIVERSAL-ACCESSIBILITY",
+  "paraphrase": "Every world in the selected model is accessible from the evaluation world. This is a separate additional bridge, not supplied by the old well-founded causal-regress assumptions.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.UniversalAccessibilityAt",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-ACCESSIBILITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

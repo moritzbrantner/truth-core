@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSAL-ROOT-EVERY-WORLD",
+  "paraphrase": "There is one actual concrete roster member whose existence holds in all worlds, even any inaccessible histories; this is not the same claim as accessibility-relative necessity.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRoot.EveryWorldConcreteAt",
+  "definition_ids": [
+    "DEF-CAUSAL-ROOT-EVERY-WORLD",
+    "DEF-CAUSAL-ROOT-NECESSITY"
+  ]
+}

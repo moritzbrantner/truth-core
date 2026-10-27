@@ -244,6 +244,43 @@ theorem omitConcretePredecessor : OmitConcretePredecessor := by
   · unfold NecessaryConcreteAt NecessaryAt abstractPredecessor onlyFalseConcrete
     decide
 
+/-- Restrict access to identity, although both histories remain inhabited
+and have different rigid bearers. The actual bearer at false is necessary
+relative to its accessible histories, but absent from the inaccessible true
+history. Thus the global conclusion is not implied without the bridge. -/
+def isolatedHistories : Ontic Bool Bool where
+  frame := ⟨fun w v => w = v⟩
+  ExistsAt := fun w x => x = w
+  Causes := fun _ _ _ => False
+
+private theorem isolatedWF :
+    WellFounded (ActualConcreteCausesAt isolatedHistories concreteAll false) := by
+  refine ⟨fun x => ?_⟩
+  apply Acc.intro
+  intro y h
+  exact False.elim h
+
+def OmitUniversalAccessibility : Prop :=
+  PopulatedConcreteAt isolatedHistories concreteAll false ∧
+  WellFoundedConcreteAt isolatedHistories concreteAll false ∧
+  ContingentConcreteDependenceAt isolatedHistories concreteAll false ∧
+  NecessaryConcreteAt isolatedHistories concreteAll false ∧
+  ¬ UniversalAccessibilityAt isolatedHistories false ∧
+  ¬ EveryWorldConcreteAt isolatedHistories concreteAll false
+
+theorem omitUniversalAccessibility : OmitUniversalAccessibility := by
+  unfold OmitUniversalAccessibility
+  refine ⟨?_, isolatedWF, ?_, ?_, ?_, ?_⟩
+  · exact ⟨false, True.intro, rfl⟩
+  · unfold ContingentConcreteDependenceAt ContingentAt isolatedHistories concreteAll
+    decide
+  · unfold NecessaryConcreteAt NecessaryAt isolatedHistories concreteAll
+    decide
+  · unfold UniversalAccessibilityAt isolatedHistories
+    decide
+  · unfold EveryWorldConcreteAt isolatedHistories concreteAll
+    decide
+
 /-! Direct component certificates for the existing finite-model registry. -/
 
 theorem alternatingPopulated : PopulatedConcreteAt alternating concreteAll false :=
@@ -307,15 +344,33 @@ theorem abstractNoTypedDependence :
     ¬ ContingentConcreteDependenceAt abstractPredecessor onlyFalseConcrete false :=
   omitConcretePredecessor.2.2.2.1
 
-/-- Five independent finite controls. The first four certify deletion
-minimality of the four-member contradictory core; the last prevents treating
-an abstract explanatory witness as a concrete causal predecessor. -/
+theorem isolatedPopulated : PopulatedConcreteAt isolatedHistories concreteAll false :=
+  omitUniversalAccessibility.1
+
+theorem isolatedWellFounded : WellFoundedConcreteAt isolatedHistories concreteAll false :=
+  omitUniversalAccessibility.2.1
+
+theorem isolatedDependence :
+    ContingentConcreteDependenceAt isolatedHistories concreteAll false :=
+  omitUniversalAccessibility.2.2.1
+
+theorem isolatedNoUniversalAccessibility :
+    ¬ UniversalAccessibilityAt isolatedHistories false :=
+  omitUniversalAccessibility.2.2.2.2.1
+
+theorem isolatedNoGlobalConcrete :
+    ¬ EveryWorldConcreteAt isolatedHistories concreteAll false :=
+  omitUniversalAccessibility.2.2.2.2.2
+
+/-- Six independent finite controls. The first four certify deletion
+minimality of the four-member contradictory core; the other two prevent
+confusing abstract predecessors and unrestricted global accessibility. -/
 def OmissionMatrix : Prop :=
   OmitDependence ∧ OmitWellFoundedness ∧ OmitPopulation ∧
-    OmitAllContingent ∧ OmitConcretePredecessor
+    OmitAllContingent ∧ OmitConcretePredecessor ∧ OmitUniversalAccessibility
 
 theorem omissionMatrix : OmissionMatrix := by
   exact ⟨omitDependence, omitWellFoundedness, omitPopulation,
-    omitAllContingent, omitConcretePredecessor⟩
+    omitAllContingent, omitConcretePredecessor, omitUniversalAccessibility⟩
 
 end TruthCore.Causality.NecessaryConcreteRootModels
