@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.firstMoverPureActFromLambda7",
+    "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.lambda7RouteFacts"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

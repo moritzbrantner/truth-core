@@ -1,0 +1,20 @@
+{
+  "id": "ARIST-MET-1072B-UNMOVED-MOVER-CANNOT-BE-OTHERWISE-B",
+  "statement_id": "STMT-EVERY-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
+  "source_id": "ARIST-MET",
+  "locator": "XII.7, 1072b4-10",
+  "interpretation": "Generic sibling of -A for the same sentence. The μέν/δέ contrast with the general conditional that precedes it ('if something is moved, it can be otherwise', εἰ μὲν οὖν τι κινεῖται, ἐνδέχεται καὶ ἄλλως ἔχειν) is read as stating what holds of whatever moves while itself unmoved and in act: no such mover can be otherwise in any respect. Same readings of ἀκίνητον, ἐνεργείᾳ ὄν, οὐδαμῶς and κινεῖ as -A. Less secure than -A: the reason Aristotle gives (circular locomotion is the first change, and this mover causes it, 1072b8-10) concerns the mover of the first heaven, so the universal scope is a reading of the contrast, not the sentence's plain assertion.",
+  "status": "formalized",
+  "interpretation_of": "ARIST-MET-1072B-UNMOVED-MOVER-CANNOT-BE-OTHERWISE-A",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE"
+  ]
+}

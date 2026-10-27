@@ -1,0 +1,9 @@
+{
+  "id": "ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT",
+  "argument_id": "ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.firstMoverPureActFromLambda7",
+  "comparator_config": "results/ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT/comparator.json",
+  "status": "solution-present"
+}

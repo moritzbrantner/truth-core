@@ -1,0 +1,16 @@
+{
+  "id": "STMT-EVERY-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
+  "paraphrase": "Every mover that moves something, is moved in no respect and is in act in being cannot be otherwise in any respect.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.EveryUnmovedMoverCannotBeOtherwiseReading",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE"
+  ]
+}
