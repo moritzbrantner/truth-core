@@ -159,6 +159,20 @@ theorem bruteRootOrNonWellFounded
   · exact Or.inl (contingentBruteRootOfNoNecessary m w hPop hWF hNoNecessary)
   · exact Or.inr hWF
 
+/-- Source-free, classical model-theoretic conditional: a populated
+actual world which contains no rigidly necessary concrete individual must
+have either a contingent concrete root without an incoming ground from an
+actually existent concrete predecessor, or a non-well-founded grounding
+relation. Neither horn is asserted metaphysically actual or impossible. -/
+def BruteRootDisjunctionClaim : Prop :=
+  ∀ (World Being : Type) (m : Profile World Being) (w : World),
+    InhabitedAt m w → ¬ NecessaryConcreteAt m w →
+      (∃ root, m.concrete root ∧ m.ontic.ExistsAt w root ∧
+        ContingentAt m.ontic w root ∧
+        (∀ y, m.concrete y → m.ontic.ExistsAt w y →
+          ¬ m.grounds w y root)) ∨
+        ¬ WellFounded (m.grounds w)
+
 /-- Two complete worlds. In each, there is one root (second coordinate false)
 and one child (second coordinate true). All four rigid candidates are concrete,
 but each exists in exactly one of the two worlds. -/
