@@ -1,0 +1,10 @@
+{
+  "id": "WORLD-LOCAL-GROUNDING-DOUBLING",
+  "argument_id": "WORLD-LOCAL-GROUNDING-DOUBLING",
+  "challenge_module": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution",
+  "theorem": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.checks",
+  "comparator_config": "results/WORLD-LOCAL-GROUNDING-DOUBLING/comparator.json",
+  "status": "solution-present",
+  "description": "A type-parametric, quantified closed theorem constructs a two-world disjoint inventory preserving nonempty concrete population, source well-foundedness, sound distinct existing grounding endpoints and independently specified noninitial grounding coverage, while excluding any rigid necessarily existing concrete individual. It refutes the inference from those world-local assumptions alone, and does not demonstrate metaphysical possibility or remove an open #143 foundation premise."
+}
