@@ -1,0 +1,17 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.inertialObjectionYieldsRival",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.objectionWithMoverPremiseInconsistent",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.needsPerseveranceAlone",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.needsPersevering",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.needsMoverBridge",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.needsBecomingReading",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.needsNoSelfMotion",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.rivalSurvivesCore",
+    "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.stateReadingCompatible"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

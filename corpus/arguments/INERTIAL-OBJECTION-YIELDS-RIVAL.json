@@ -1,0 +1,27 @@
+{
+  "id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "premise_statement_ids": [
+    "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+    "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+    "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+    "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+  ],
+  "conclusion_statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "inference_ids": [
+    "INF-INERTIAL-OBJECTION-YIELDS-RIVAL"
+  ],
+  "meaning": "The inertia bridge (#497). The inertial objection as a bundle (TruthCore.Comparison.Inertia.InertialObjection) has four commitments: Newton's Def. III-IV, read as 'a body perseveres in uniform motion by nothing but itself' (STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE, sourced); some body perseveres in uniform motion (STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION, unattributed); whatever moves such a body in that respect is something it perseveres by (STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY, unattributed bridge); and such perseverance is a being moved (STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED, sourced to Garrigou-Lagrange, who holds it and rejects the objection). With the Thomist premise STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT it yields the recorded inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER, hence, with STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER, a contradiction (objectionWithMoverPremiseInconsistent). That six-member core is inclusion-minimal: a registered model drops each of the five members and keeps the other four with the mover premise (MODEL-INERTIA-OTHER-SUSTAINER, -NO-PERSEVERING, -DIVINE-MOVER, -STATE-READING, -SELF-MOVER), and MODEL-INERTIA-RIVAL-SURVIVES keeps all five and drops the mover premise. So the bundle is not eliminated without the premise it rivals. The config also certifies compatibility on the state reading: Newton's Def. III-IV and Lex I with a body changing state, a persevering body, the mover bridge, no self-motion, STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED, the mover premise and STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD hold together (stateReadingCompatible). The disagreement between the Newtonian commitments and the premise is therefore located in the bridge reading (DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING) and, on the becoming reading, in the mover bridge, the persevering body or Newton's 'alone'. It says nothing about accelerated motion, about force or energy conservation, or about whether any reading is true.",
+  "definition_ids": [
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-LOCAL-MOTION",
+    "DEF-UNIFORM-MOTION-AS-BECOMING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
+    "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
+    "DISAMB-MOTION"
+  ]
+}
