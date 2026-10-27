@@ -1,0 +1,10 @@
+{
+  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "argument_id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "challenge_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution",
+  "theorem": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.checks",
+  "comparator_config": "results/POSSIBLE-CAUSE-BRUTE-SURVIVAL/comparator.json",
+  "status": "solution-present",
+  "description": "A two-world finite model supports modal causal opportunity and a necessary concrete individual, but still contains a contingent concrete individual uncaused in the other world. This refutes the unrestricted 'opportunity excludes all brute roots' inference within the specified model; no actual-world philosophical commitment is thereby verified."
+}
