@@ -1,0 +1,10 @@
+{
+  "id": "ACT-BEARER-BEARER-INFERENCE",
+  "argument_id": "ACT-BEARER-BEARER-INFERENCE",
+  "challenge_module": "TruthCore.Results.Logic.ActBearer.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ActBearer.Solution",
+  "theorem": "TruthCore.Results.Logic.ActBearer.bearerInference",
+  "comparator_config": "results/ACT-BEARER-BEARER-INFERENCE/comparator.json",
+  "status": "solution-present",
+  "description": "An occurring act and the universal bearer principle entail an actual bearer."
+}
