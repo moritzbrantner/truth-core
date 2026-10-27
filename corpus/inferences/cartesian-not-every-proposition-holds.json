@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CARTESIAN-NOT-EVERY-PROPOSITION-HOLDS",
+  "rule": "constructive-proof",
+  "meaning": "It is not the case that all Lean propositions hold.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
