@@ -1,0 +1,9 @@
+{
+  "id": "INF-COGITO-SUBJECTLESS-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "Construct a one-episode interpretation with no subject relation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
