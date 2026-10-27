@@ -1,0 +1,9 @@
+{
+  "id": "ACT-BEARER-BEARER-INFERENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ACT-BEARER-BEARER-INFERENCE",
+  "inference_ids": [
+    "INF-ACT-BEARER-BEARER-INFERENCE"
+  ],
+  "meaning": "An occurring act and the universal bearer principle entail an actual bearer."
+}
