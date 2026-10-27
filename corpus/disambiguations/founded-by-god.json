@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-FOUNDED-BY-GOD",
+  "term": "founded by God: through an envoy or immediately",
+  "sense_definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY"
+  ],
+  "resolution": "The root component STMT-CATHOLIC-CHURCH-IS-GOD-FOUNDED-TEACHING-AUTHORITY, the bridge STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD and STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING all read FoundedAsTeachingAuthority in the envoy sense, which includes immediate founding as a special case; this matches the root's source (Dei Filius ch. 3 para. 5, per Filium). The derivation of the bridge never passes to the immediate-only sense: on that sense the envoy-founding premise is false, and the bridge would need a different argument. Stage 5's Founded jesus c (Jesus' own founding) is a separate primitive and is not God's founding by definition; the envoy premise is what connects them."
+}

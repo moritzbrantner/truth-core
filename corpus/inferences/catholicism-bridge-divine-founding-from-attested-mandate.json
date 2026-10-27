@@ -1,0 +1,14 @@
+{
+  "id": "INF-CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
+  "input_statement_ids": [
+    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+    "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+  ],
+  "output_statement_id": "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+  "rule": "universal-instantiation-and-chained-modus-ponens",
+  "meaning": "Fix g and c satisfying the bridge's antecedents. Attestation gives Confirms g (HoldsMandate jesus g); veracity at that proposition gives HoldsMandate jesus g; scope gives FoundedInMandate jesus g c and CommissionedToTeach jesus c; envoy founding at x = jesus gives FoundedAsTeachingAuthority g c.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -2,6 +2,7 @@
 import TruthCore.Imports.Alternatives
 import TruthCore.Imports.Bridges
 import TruthCore.Imports.Case
+import TruthCore.Imports.Case.Catholicism.StageThree
 import TruthCore.Imports.Causality
 import TruthCore.Imports.Comparison
 import TruthCore.Imports.English
@@ -25,6 +26,7 @@ import TruthCore.Imports.Results.Aquinas
 import TruthCore.Imports.Results.Aristotle
 import TruthCore.Imports.Results.Bridges
 import TruthCore.Imports.Results.Case
+import TruthCore.Imports.Results.Case.Catholicism.StageThree
 import TruthCore.Imports.Results.Causality
 import TruthCore.Imports.Results.Comparison
 import TruthCore.Imports.Results.Comparison.Resurrection

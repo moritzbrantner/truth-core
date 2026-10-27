@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+  "paraphrase": "For any being g: if Jesus holds a mandate from g, then every visible society with an authority structure that Jesus founded, he founded in the exercise of that mandate and commissioned to teach. The universal scope over every such society, and the identification of the commissioned disciples with a founded society, are part of this open premise and are not attributed to any source.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.MandatedFoundingWithTeaching",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

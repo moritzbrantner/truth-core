@@ -1,0 +1,10 @@
+{
+  "id": "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+  "paraphrase": "For any God with the classical attributes who can reveal recognizably: if Jesus claimed to speak and act with divine authority and rose from the dead, then that God, by the resurrection, confirms the proposition that Jesus holds a mandate from him. Confirmation is a testimonial act by a sign that is God's own deed; it is not yet the truth of what is confirmed.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.ResurrectionConfirmsMandate",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ]
+}

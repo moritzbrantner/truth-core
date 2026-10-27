@@ -23,6 +23,19 @@
           "n": "1"
         }
       ]
+    },
+    {
+      "id": "NT-ACTS-17",
+      "locator": "17",
+      "claim_locator_prefixes": [
+        "17."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "17"
+        }
+      ]
     }
   ],
   "notes": "Whole chapter retained for context; claim locators identify exact verses."
