@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "term": "disjoint-world duplication of a local grounding structure",
+  "definition": "A typed LocalState supplies independent existence, concreteness and binary grounding relations on one rigid candidate carrier. The 'doubled' operation builds two mutually accessible possible-world histories. Individuals are rigid pairs (world-tag, source-individual); each exists only in its tagged world, while its concreteness status and world-local causal/grounding edges copy the source structure. The construction preserves the stated local properties under their exact antecedents, but does not establish metaphysical possibility, source authenticity or a counterpart identity theory.",
+  "basis": "stipulative",
+  "note": "Research schema for #505 / #487 / #495: diagnose attempts to derive a de re necessary concretum from intraworld population, local causality and well-foundedness alone. Additional modal identity, existential grounding or anti-brute principles require separate defense.",
+  "lean_declaration": "TruthCore.Causality.BruteFoundationDoubling.doubled"
+}
