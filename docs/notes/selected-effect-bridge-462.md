@@ -143,7 +143,7 @@ For the strongest rival, `SPINOZA-ETHICS-ELWES-FULL` pins the complete public-do
 Elwes translation at GITenberg revision
 `ebe6b9d77e22c5809de3514d005bc26a29eb5610`, file `3800.txt` (raw SHA256
 `335f3e06da25e7003731f0cf8fefb3afa999393109a669d69cd3c85c414d88a3`).
-The consulted ranges are Part I definitions/axioms, propositions16–17 and29–33,
+The consulted ranges are Part I definitions/axioms, propositions 16–17 and 29–33,
 including their proofs, corollaries and notes. Reading is translation-based;
 no Latin Spinoza witness was consulted. These are research readings in a linked
 note, not new attributed corpus claims or established propositions.
@@ -218,19 +218,19 @@ note, not new attributed corpus claims or established propositions.
 
 ### Spinoza: the strongest surviving reply
 
-Part I definition7 calls an agent free when it exists by its own nature and is
-self-determined; constraint comes from another. Proposition17 and corollary2
+Part I definition 7 calls an agent free when it exists by its own nature and is
+self-determined; constraint comes from another. Proposition 17 and corollary 2
 therefore call God free **while** asserting action by necessity of divine
 nature. It is incorrect to report this as denial of every sense of divine
 freedom, or as an external force compelling God. The disagreement concerns
 contingent willing of secondary objects, not absence of external compulsion.
 
-Axiom3 and proposition16 link determinate cause and effect, and infinite divine
-nature and its necessary expressions. Proposition29 applies necessity to modes
-and their determinate operation. Proposition32 treats will as a mode requiring
+Axiom 3 and proposition 16 link determinate cause and effect, and infinite divine
+nature and its necessary expressions. Proposition 29 applies necessity to modes
+and their determinate operation. Proposition 32 treats will as a mode requiring
 a cause and denies its free causality. That modal classification itself differs
 from Aquinas' identification of divine willing with being. The more forceful
-reply is therefore proposition33 noteII: **even granting** the opponent that
+reply is therefore proposition 33 note II: **even granting** the opponent that
 will belongs to divine essence, a different complete decree means a different
 actual intellect and will; identity of intellect/will/essence then makes it a
 different essence. Pure actuality is invoked explicitly. This is much closer
@@ -247,7 +247,7 @@ merely restates the output. Aquinas' strongest reply in this inspected cluster
 is a.3 ad5–6 plus a.5's one act/rational object-order distinction. Spinoza's
 strongest reply is that a complete actual decree cannot vary while the very
 actual intellect and will that constitute essence remain identical. Neither
-position is refuted here. Proposition33 noteI also says contingency reflects
+position is refuted here. Proposition 33 note I also says contingency reflects
 ignorance of essence or causal order; this is the rival's substantive account,
 not an admitted shared meaning of metaphysical contingency.
 
@@ -268,7 +268,7 @@ Rejected readings: divine goodness's self-sufficiency alone proves contingency;
 no external mover proves libertarian choice; a.5 denies all object-reasons;
 a.7 immutability alone proves cross-world fixed output; a.8 reduces contingency
 to uncontrolled secondary conditions; Spinoza accepts Aquinas' sense of will in
-his principal proof; Spinoza denies freedom in his own definition7 sense; and
+his principal proof; Spinoza denies freedom in his own definition 7 sense; and
 formal consistency of an act/output assignment proves metaphysical adequacy.
 No new Lean theorem is warranted by this source pass: necessity plus
 necessitation is already covered by
