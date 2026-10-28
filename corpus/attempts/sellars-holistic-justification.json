@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-SELLARS-HOLISTIC-JUSTIFICATION",
+  "statement_ids": [
+    "STMT-REGRESS-JUSTIFICATION-TRANSFER",
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
+    "STMT-SELLARS-RECOGNIZED-REPORT-RELIABILITY",
+    "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
+    "STMT-SELLARS-OBSERVATIONAL-RECIPROCAL-DIMENSIONS",
+    "STMT-SELLARS-PIECEMEAL-SELF-CORRECTION"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized/read the complete authorized Sellars EPM VIII §§32–38 twice-pinned live witness and checked a byte/text-identical fixed 2001 archive fallback twice. Read the cross-reference §19 for context without attributing a new claim from that unpinned chapter. Five bounded prose readings preserve observational asymmetry, recognized reliability, present-memory/past-knowing scope and piecemeal correction. BonJour 1976 CMU teaching PDF downloaded but pdftotext yielded only form feeds (image-only); no OCR, no claims or historical attributions taken from it. Exact existing RegressSchema and JustificationTransfer theorems already cover the structural controls; rejected a duplicate cycle or finite-path proof and rejected identifying coherent consistency with warrant. Positive reply, strongest objections and the still-open holistic-entitlement bridge persist in docs/notes/sellars-holistic-justification.md. No Lean/result/axiom/root edge, no premise discharge.",
+  "evidence": [
+    "SELLARS-EPM-32-36-NONINFERENTIAL",
+    "SELLARS-EPM-35-RECOGNITION",
+    "SELLARS-EPM-37-TEMPORAL-REGRESS",
+    "SELLARS-EPM-38-DIMENSIONS",
+    "SELLARS-EPM-38-SELF-CORRECTION",
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}

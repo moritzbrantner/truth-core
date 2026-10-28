@@ -1,0 +1,15 @@
+{
+  "id": "SELLARS-EPM-38-DIMENSIONS",
+  "statement_id": "STMT-SELLARS-OBSERVATIONAL-RECIPROCAL-DIMENSIONS",
+  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "locator": "VIII §38, concluding paragraphs",
+  "interpretation": "He explicitly refuses to treat empirical knowledge as rumor or hoax and retains an asymmetry between observation reports and other propositions. His reciprocal-dependence proposal concerns different logical dimensions; it is not an endorsement of deriving a proposition from itself along one inferential relation, nor a mere consistency theory.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
+    "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}
