@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SPATIAL-COVARIANT-SELECTION",
+  "term": "translation-covariant absolute selection from relative data",
+  "definition": "A deterministic function takes signed relative-displacement data to a labeled absolute configuration. Covariance demands that translating the input configuration by any real displacement translate that output by the same displacement. Because the input data are translation-invariant, this norm is incompatible with an inhabited absolute output.",
+  "basis": "stipulative",
+  "note": "Explicit analyst norm, not equivalent to sufficient reason as such, all explanation, divine choice or gauge equivalence. An enriched asymmetric input or rejection of covariance escapes the displayed obstruction; origin normalization is translation-invariant rather than covariant.",
+  "lean_declaration": "TruthCore.Space.TranslationBoundary.Covariant"
+}
