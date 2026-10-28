@@ -1,0 +1,41 @@
+{
+  "id": "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "inference_ids": [
+    "INF-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL"
+  ],
+  "meaning": "Construct one simultaneous finite interpretation rather than combine unrelated omission witnesses. Reuse FirstMoverSimple.firstMoverSimple and FirstMoverPureAct.firstMoverPureAct to derive simplicity/pure act from the concrete source-premise assignments; apply Q11NatureUniqueness.godIsOneFromNature and OneFirstMover.oneFirstMover to show exactly which added principles exclude it. These are model-relative consequences, not defense of those principles or a root-premise discharge.",
+  "definition_ids": [
+    "DEF-NECESSARY-SIMPLE-JOINT-CONTROL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-SIMPLE",
+    "DEF-PURE-ACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-SOUNDNESS",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-SIMPLE-PLURALITY",
+    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+    "DISAMB-IN-ACT",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-POWER-CAPACITY-EXERCISE"
+  ]
+}

@@ -9,6 +9,7 @@ import TruthCore.Models.MegarianCapacity
 import TruthCore.Models.ModalExistenceDegrees
 import TruthCore.Models.NecessarilyUnderived
 import TruthCore.Models.NecessaryIndividual
+import TruthCore.Models.NecessarySimplePlurality
 import TruthCore.Models.NightActualizationFork
 import TruthCore.Models.NightCapacityControls
 import TruthCore.Models.NightCosmogony
