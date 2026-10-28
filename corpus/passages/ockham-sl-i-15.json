@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "OCKHAM-SUMMA-LOGICAE",
+    "source_url": "https://www.logicmuseum.com/x/index.php?title=Authors/Ockham/Summa_Logicae/Book_I/Chapter_15&oldid=15409&action=raw",
+    "retrieved_at": "2026-10-28T20:12:19Z",
+    "sha256": "sha256:f53bbf59f1301bbf230fc470b331a84ff91d5b598595bb33cbed9417e6910062",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Ockham Latin is public domain. Logic Museum transcription with accompanying unchecked English translation; no source text redistributed. Only hashes, locator, short markup incipit and analytical paraphrases are committed. Immutable oldid raw-text endpoint avoids dynamic HTML-byte drift; no verified archive fallback yet. Bounded CDX lookup of the chapter14 raw URL returned no capture and SavePageNow returnedHTTP520 on2026-10-28; no verified fallback is claimed for these four immutable revisions."
+  },
+  "passages": [
+    {
+      "id": "OCKHAM-SL-I-15",
+      "locator": "Summa logicae I.15, whole chapter, Logic Museum revision 15409 (Latin with accompanying English)",
+      "claim_locator_prefixes": [
+        "I.15:"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:f53bbf59f1301bbf230fc470b331a84ff91d5b598595bb33cbed9417e6910062",
+      "incipit": "{{Nextpage|[[../Chapter 14|Chapter 14]]|[[../Chapter 16|Chapter 16]]}}\n\n\n{|"
+    }
+  ]
+}
