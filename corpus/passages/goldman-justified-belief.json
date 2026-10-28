@@ -1,0 +1,30 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "GOLDMAN-JUSTIFIED-BELIEF-1979",
+    "source_url": "https://home.csulb.edu/~cwallis/382/readings/382/whatisjustifiedbelief.html",
+    "retrieved_at": "2026-10-28T20:41:00Z",
+    "sha256": "sha256:d7dbe1075666d8f76dd2b52411cf943652b8c6caa339e51ed52b80600bcca554",
+    "encoding": "cp1252",
+    "language": "eng",
+    "license": "Copyright 1979 D. Reidel Publishing Company and Alvin I. Goldman. Public university teaching transcription; only hashes, locators, short incipit and analytical paraphrases committed, no full-text redistribution."
+  },
+  "passages": [
+    {
+      "id": "GOLDMAN-JUSTIFIED-BELIEF-FULL",
+      "html_selector": {
+        "from": {
+          "text": "ALVIN I. GOLDMAN"
+        }
+      },
+      "locator": "What Is Justified Belief? (1979), pp. 1–23, sections I–III and notes",
+      "claim_locator_prefixes": [
+        "p.",
+        "pp.",
+        "§"
+      ],
+      "text_sha256": "sha256:a6e4e9175512c44a28c68f7f04f227f89eb6f7f02c12d9f0c5460659dcaebd74",
+      "incipit": "ALVIN I. GOLDMAN\nWHAT IS JUSTIFIED BELIEF?"
+    }
+  ]
+}
