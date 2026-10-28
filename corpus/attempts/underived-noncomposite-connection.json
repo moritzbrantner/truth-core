@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-UNDERIVED-NONCOMPOSITE-CONNECTION",
+  "statement_ids": [
+    "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-UNITING-CAUSES-ARE-ACTUAL",
+    "STMT-COMMON-UNDERIVED-NONCOMPOSITE"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "See docs/power-existence-scope-boundary.md, Same-witness noncomposition. Existing PowerExistenceBoundary already covers the power/esse and composite-source omissions; duplicate proofs rejected. Materialized AQUINAS-ST-I-Q3-A7 and read complete article: third proof says composites require a uniting cause and God has no cause; it does not supply the modern world-indexed interfaces. No new attributed claim. Exact #636 causal_from_union is imported/applied, retaining all eight inputs and its same witness; three added inputs are existing q.3 uniting-cause reading plus independently open cause-presence/correspondence. Two controls show these interfaces cannot separately be omitted in the encoded profile. Necessary-support-union WF is retained, no maximum/first-being/simplicity by definition. Focused full-content shared Lean diagnostic at f2db33e8273b214f158d63e2e3a17094ba181735 accepted version2 SHA8085ef57c76f1e222ccb6cc1e1a142ab995cc3d23f2d283c26fbb0a6753c38cf with no diagnostics; canonical final CI still owns build/binding/Comparator/NanoDa. First diagnostic failed only from handling Graph.Source as forall-not rather than not-exists and one Bool substitution; corrected proof terms, theorem types unchanged. No root premise discharged.",
+  "evidence": [
+    "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+    "NECESSARY-UNION-COMMON-NONCOMPOSITE",
+    "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+    "AQUINAS-ST-I-Q3-A7-COMPOSITE-HAS-CAUSE"
+  ]
+}
