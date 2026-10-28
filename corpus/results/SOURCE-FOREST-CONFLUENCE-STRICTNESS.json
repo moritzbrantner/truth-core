@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "argument_id": "SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForest.confluence_strictness",
+  "comparator_config": "results/SOURCE-FOREST-CONFLUENCE-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "On the fixed diamond, every node has a concrete finite upstream path to root; therefore every pair of upstream endpoints can join there. Its rank proves WF and explicit zigzags prove connectivity. tip has distinct immediate predecessors left/right, while the general confluence theorem gives a unique source and paths from every node. This permits multiple immediate causes and strictly weakens the sufficient LeftUnique condition; it does not establish metaphysical confluence. Root-premise delta zero; no philosophical premise is established."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+  "lean_declaration": "TruthCore.Causality.SourceForest.RootedAtUniqueSource",
+  "paraphrase": "There exists a graph-relative source s, every source equals s, and every node has a finite upstream causal path to that same s. No outgoing effect or temporal beginning is asserted.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

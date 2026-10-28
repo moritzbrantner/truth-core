@@ -1,0 +1,20 @@
+{
+  "id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SOURCE-FOREST-OMISSION-CONTROLS",
+  "inference_ids": [
+    "INF-SOURCE-FOREST-OMISSION-CONTROLS"
+  ],
+  "meaning": "Verify the four fixed data tables: V-shaped connected WF/acyclic graph has distinct sources when unique immediate predecessor is dropped; isolated nodes drop connectivity; the connected left-unique integer chain has no source and is not WF; Empty retains universal structural conditions but has no node or source. Integer indices are nodes, not time. These are logical controls, not metaphysical possibility claims. The same Comparator config checks the frozen LeftUnique atMostOne/rooted corollaries.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-SOURCE-FOREST-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
