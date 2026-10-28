@@ -1,0 +1,16 @@
+{
+  "id": "DEONTIC-FUTURE-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DEONTIC-FUTURE-BOUNDARY",
+  "inference_ids": [
+    "INF-DEONTIC-FUTURE-BOUNDARY"
+  ],
+  "meaning": "Under stipulated ideal-successor obligation semantics, universal ought-implies-can at a state is equivalent to overlap of its ideal and available successor sets. A closed Bool control has serial ideal successors, an obligatory goal and broad possible fulfillment, but no fulfillment in the separately supplied blocked relation. A second control validates universal ought-implies-can with the broad available relation, while the designated false continuation fails the goal and the separately selected blocked continuation relation has no fulfillment. These are finite semantic controls, not established moral duties, empirical feasible histories, actual repayment, permission, or a historical Kant interpretation. Root-path open premises: no change; every moral interpretation and agency adequacy commitment remains open.",
+  "definition_ids": [
+    "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+    "DEF-DEONTIC-AVAILABLE-CONTINUATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DEONTIC-ABILITY-ACTUALITY-PERMISSION"
+  ]
+}
