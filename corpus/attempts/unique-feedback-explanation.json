@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-UNIQUE-FEEDBACK-EXPLANATION",
+  "statement_ids": [
+    "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+    "STMT-LOCAL-OBSERVATION-SELECTS-SOLUTION",
+    "STMT-UNIQUE-FEEDBACK-CONTROL"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Issue #311 bounded control after inventory of main and open PRs. Reused #299 as comparison, without repeating its all-on/off or observation-selection proofs. Existing RegressDomains.CycleAndConverseBoundary equates lfp/gfp with every node intrinsic; it does not give this sensitive two-gate unique state. Pending PR-619 owns memberwise/complete-history discriminator assignments and is not imported or duplicated. New truth-table-sensitive gates have exactly one satisfying state without supplied observed data. Initial interactive proof failed because decide did not unfold the two predicate definitions; explicit unfolding and Bool.noConfusion then yielded an axiom-free proof. Rejected interpreting logical feedback as cyclic world-local causation, pure borrowed transmission, inventor-free plans, or sufficient ontological explanation. The strongest rival treats the global equations and their unique solution as an intrinsic structural explanation; no normative adequacy criterion here refutes it. Source attribution is paused. Remaining obligations EXP-SCOPE, EXP-LOCAL-TO-GLOBAL, EXP-NONCIRCULAR and EXP-ULTIMATE remain open; root-premise delta zero. Frozen Challenge SHA256 80249ef71f3aa529bc97d4343b15e5af74788f8de1b0b631226a2b897a91325d. Shared service accepted repeated full-content edit at Scratch/issue311.lean, workspace head 75192b1c3efdf19f25601e52a06116e706420f11, session causal-harvest, HTTP 200; final content SHA256 d9a641f7007215a7884b0ec70d00651952546916e250d2df5e99cb870ae8c949, no errors and no axioms. Lease wait 0.000010s, first API 0.836s, corrected warm API 0.230s. Interactive diagnostics do not replace canonical final CI build, binding, Comparator or NanoDa. Details: docs/notes/unique-feedback-explanation-311.md.",
+  "evidence": [
+    "UNIQUE-FEEDBACK-CONTROL",
+    "ESSENTIAL-POWER-UNDERDETERMINED",
+    "LOCAL-OBSERVATION-SELECTS-SOLUTION",
+    "PR-619"
+  ]
+}

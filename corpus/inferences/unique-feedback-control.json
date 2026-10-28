@@ -1,0 +1,9 @@
+{
+  "id": "INF-UNIQUE-FEEDBACK-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-UNIQUE-FEEDBACK-CONTROL",
+  "rule": "finite-state-exhaustion",
+  "meaning": "Evaluate the gate-sensitivity witnesses and the proposed consistent pair; eliminate the other three Boolean pairs by a violated equation. No explanatory, causal or modal conclusion follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
