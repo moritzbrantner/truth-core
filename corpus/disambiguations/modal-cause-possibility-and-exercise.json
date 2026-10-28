@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+  "term": "possible universal causation, actual exercise and source/target/world-witness scope",
+  "sense_definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL"
+  ],
+  "resolution": "m.Causes u x y is the supplied causal edge at u; PossibleCauseAt at v existentially selects an accessible u and does not imply an edge or ExercisesCausation at v. WeakCauseDegreeBound compares currently existent relata at v, not their grades at u. The theorem uses only the explicit single-rigid-individual, other-directed, pointwise profile OtherDirectedPotentialCause. Source6 instead permits a being OR plurality and says all existing things; plural-to-singular selection, excluding the selected cause as a target, and replacing a joint possible causal role by individually witnessed possibilities are not presented as equivalent to that sentence. Collective possibility may imply pointwise consequences under an additional specified reading, but the converse and a common witness world are not inferred. Plural, collective and literal-all/self alternatives remain unformalized in the existing candidate. No contradiction manufactured from self-causation is attributed to the author, and no actual exercise, efficient-cause or CausesIn identification is silently imported."
+}

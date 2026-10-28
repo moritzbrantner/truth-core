@@ -3,7 +3,9 @@
 Primary witness: `KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM`, the
 author-linked RSS item for [A Further Reconstruction of the Fourth
 Way](https://robkoons.net/old-blog-2021-22/a-further-reconstruction-of-the-fourth-way),
-published 23 January 2022. No claim or Lean formalization is added here.
+published 23 January 2022. Initial witness acquisition added no claim.
+The subsequent reviewed profile records only the restricted step 7 and
+guarded step 11 readings described below.
 
 ## Reading returned for interpretation review
 
@@ -19,8 +21,10 @@ The causal bound in step 7 is non-strict; it is not the repository's
 unrestricted strict cause-more-such premise. A maximum relative to a world's
 inhabitants and maximum possible existence also require separate treatment.
 Plurality, transworld identity, domains and degree comparison are not silently
-resolved by the post. Its closing concern is redundancy of the initial block,
-not the uniqueness problem described in issue #345. No uniqueness conclusion
+resolved by the post. Its closing concern specifically identifies step 5, the possible-maximum
+conclusion, as potentially redundant; it does not simply remove step 4, which
+is still cited at step 13 for maximum value. This is not the uniqueness
+problem described in issue #345. No uniqueness conclusion
 or direct discharge of `STMT-GRADES-HAVE-A-MAXIMUM` is warranted here.
 
 ## Witness and extraction boundary
@@ -85,8 +89,8 @@ without a matching fixed archive fallback this witness remains fragile.
 The current degree fork fixes one nonmodal contrast profile and strict causal
 ascent. This reading instead motivates testing a modal weak-bound profile;
 substituting one for the other would change premises. Compare the two blocks
-under explicit world/domain/identity/degree semantics before adding attributed
-claims or a bridge. Reuse existing statement identities only if their types
+under explicit world/domain/identity/degree semantics. The two restricted
+source readings below do not source the remaining analyst background. Reuse existing statement identities only if their types
 and meanings coincide. The witnessed unbounded branch has not been refuted by
 this source reading, and no root premise closes.
 
@@ -98,3 +102,90 @@ and corpus checks passed. The normal
 verified the one newly added RSS passage with hash `61854f98b488`; the other
 288 passages received offline checks only in that run. This verifies the
 consulted feed bytes, not the argument or its interpretation.
+
+## Proposed modal weak-bound profile: interpretation before claims
+
+The proposed profile reuses the existing rigid-roster `Ontic` semantics and
+keeps world-relative presence separate from a new preorder-valued degree
+parameter. The degree parameter is an analyst's ordered intensity role, not a
+count of worlds, a Boolean presence value, a proof of necessary existence, or
+a supplied metaphysical analysis of esse. The post does not define a unique
+numerical or order representation of existence degree. Neither a total order
+nor antisymmetry is required by this proposal.
+
+Step 7 supports considering a **restricted conditional** with both relata
+present at the evaluation world, and with the effect's degree no greater than
+the possible cause's degree there. Possible causation is represented using
+existing accessibility and a supplied world-indexed cause relation. The
+possibility witness can be a different world; the proposed comparison is
+explicitly at the current evaluation world. Presence guards weaken the
+unrestricted sentence. This reading does not infer that a possible causal
+edge is actual, or that the supplied relation has adequate existence-causal
+semantics without an independent interpretation.
+
+Step 11 is recorded as a guarded selected-individual conditional: **if**
+that individual is actually present at the standpoint **and** necessary in
+the admitted-world semantics, its degree is equivalent to its reference-world
+degree at each accessible world. Same degree is represented by mutual
+non-strict comparison; distinct labels may be tied in a preorder.
+
+The frozen main proof's bare `NecessaryDegreeInvariant` condition has only
+necessary presence as antecedent. On a nonreflexive frame necessity need not
+include base-world presence, so that predicate can constrain an absent
+individual's base-world grade. Attribution of that stronger condition was
+rejected. Claim 11 instead binds `ActualNecessaryDegreeInvariant`. The
+separate adapter obtains actual presence from necessary presence plus actual
+reflexivity, then composes the unchanged frozen main proof. No claim that
+modal necessity alone fixes intensity, no necessary individual, and no
+uniqueness are established.
+
+Step 6 does not establish the proposed singular background. It permits a
+plurality, and its literal wording does not omit the selected cause from
+"all" existing things. Selecting one rigid individual, restricting targets
+to others, and weakening collective possible causation into pointwise
+possibility must remain explicit analyst choices. From the plural disjunct no
+single necessary individual is inferred. No claim that the author has been
+refuted by self-causation follows from analyzing an other-directed version.
+
+The intended conclusion compares every accessible world's existent grades
+with the selected individual's grade at **each** accessible world. That is
+cross-world dominance, not merely local dominance inside one world. Explicit
+actual reflexivity and necessary presence supply the actual-world witness;
+the theorem must not promote vacuous universal bounds on an empty world
+carrier into an actual maximum. The profile remains relative to its chosen
+accessibility domain and does not establish a maximum across unrepresented
+metaphysical possibilities or a unique maximal individual.
+
+The possible-maximum/value-convertibility block, plural necessary sources,
+and readings of literal universal versus other-directed causation remain
+unformalized obligations in the existing comparison candidate. They are not
+newly established premises, and no second research tracker is created.
+
+## Independent profile and witness audit
+
+The main proof derives a local weak bound and transports degrees through the
+base-world grade using mutual inequalities. Its explicit excluded-middle
+premise splits identity with the selected individual; it is not hidden in a
+finite-model certificate. Actual reflexivity is only required at the base;
+no S5, global reflexivity, transitivity or causal soundness is assumed. A
+possible-cause witness need not lie in the root-accessible family when the
+frame lacks transitivity; the bound nevertheless compares current-world
+grades, exactly as its type states.
+
+The five model profiles were inspected as joint interpretations, including
+their presence, accessibility, causation and degree assignments. Tied necessary
+maxima reject uniqueness, but do not establish a second universal causer.
+Varying degrees retain local bounds and an attained global degree maximum
+while refuting the named individual's maximum at every world. This does not
+verify the source's entire steps 1–5 or the value bridge. The below-effect and
+empty-cause controls separate the weak-bound and potential-cause commitments.
+The potential-only profile satisfies the nonlogical background without any
+base-world causal exercise. Generic excluded middle is an explicit logical
+premise, not an additional fact certified by those finite interpretations.
+
+The guarded adapter is an assembly/source-fidelity specialization, not a new
+philosophical defense. Source 6 remains unattributed. Step 5 may be redundant
+within the author's reconstruction; step 4's value/existence conversion is
+still invoked at step 13 and is not discharged by these degree certificates.
+Root-premise change: none. Final binding, Comparator and NanoDa checks belong
+to the coordinator; this audit does not replace them.
