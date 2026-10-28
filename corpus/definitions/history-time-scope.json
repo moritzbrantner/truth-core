@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HISTORY-TIME-SCOPE",
+  "term": "shared-timeline presence scopes and within-world propagation",
+  "definition": "For History W B T and bearer x, Worldwise means \u2200w \u2203t IsAt w x t; Common means \u2203t \u2200w IsAt w x t; AllTime means \u2200w \u2200t IsAt w x t. Uniform means \u2200w s t, IsAt w x s \u2192 IsAt w x t. W, B and T are separate types and T is shared by all worlds. History.now provides a time even with no world or bearer inhabitants. No order or accessibility restriction is used.",
+  "basis": "stipulative",
+  "note": "Analyst controls for #469. The finite interpretations use Bool/Unit/Bool. Uniform is an explicit temporal restriction, not a source claim or conservation axiom; no CoherentAtNow is assumed. A source-derived eternity bridge would require its own witness and faithful meaning.",
+  "lean_declaration": "TruthCore.Models.HistoryTimeScope.Worldwise"
+}
