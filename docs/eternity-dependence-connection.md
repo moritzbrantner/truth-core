@@ -181,7 +181,17 @@ establish the content of CI's differing response. Two independent Atom fetches
 agreed; raw-byte verification remains enforced on the replacement endpoint.
 Schmid's journal PDF and current-domain article returned
 HTTP 403 to the evidence fetcher; the original author-published WordPress article
-was accessible. No journal-paper reading is claimed.
+was accessible. Its rendered-page raw bytes then differed in CI run
+`40777294225`. The Schmid passage now pins the authoritative WordPress
+single-post API response for post `2136` on site `147942385`, restricted by
+the server's `fields` parameter to identity, dates, original URL, title and
+complete article HTML. Materialization returns JSON; its `content` field is
+the article. It was reread and matches exactly the old witness body; the old
+page's extra title/byline are separately represented in API metadata. Two
+independent selected-field responses matched. Failed expected/observed hashes
+remain in the manifest; raw-response verification is unchanged. No claim is
+made about the unretained differing CI response's article content. No
+journal-paper reading is claimed.
 
 **Rival replacement.** Schmid's paragraphs beginning “For S to fail to exist at
 m” and “Here, we seem to have” explain persistence through earlier existence,

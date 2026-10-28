@@ -6,5 +6,5 @@
   "citation_system": "article paragraphs identified by opening words; excludes comments",
   "work_urn": "https://majestyofreason.wordpress.com/2021/07/07/feser-on-schmid-on-existential-inertia-part-3/",
   "catalog_url": "https://josephschmid.com/feser-on-schmid-on-existential-inertia-part-3/",
-  "notes": "Author-published primary response. Original WordPress publication is independently accessible; current domain returned HTTP 403 to the evidence fetcher. Copyright retained; only hashes and locators committed, no article text."
+  "notes": "Author-published primary response. Original WordPress publication is independently accessible; current domain returned HTTP 403 to the evidence fetcher. Copyright retained; only hashes and locators committed, no article text. Passage now pins the authoritative WordPress single-post API response (post 2136, site 147942385) with selected identity/date/URL/title/content fields, because rendered-page bytes differed on CI. It contains the complete author-published article body; no content-only verifier exception."
 }
