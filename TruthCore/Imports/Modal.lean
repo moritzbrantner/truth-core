@@ -2,6 +2,7 @@
 import TruthCore.Modal.ActualistDomains
 import TruthCore.Modal.ActualistDomainsCertificate
 import TruthCore.Modal.BResearch
+import TruthCore.Modal.BoundedMetricPastControl
 import TruthCore.Modal.Convergence
 import TruthCore.Modal.ConvergenceCertificate
 import TruthCore.Modal.Cube
