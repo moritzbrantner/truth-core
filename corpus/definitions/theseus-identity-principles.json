@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THESEUS-IDENTITY-PRINCIPLES",
+  "term": "replacement persistence, material sufficiency and final distinction",
+  "definition": "Gradual requires bearer identity across both adjacent replacement steps. Material requires equal exact component inventories to suffice for equal bearers in this fixture (not the converse). Distinct requires the continued and reassembled final occurrences to have unequal bearers. Each bridge remains a disputed assumption when applied to real objects.",
+  "basis": "stipulative",
+  "note": "Analytical Theseus reassembly profile; not attributed to Plutarch. See docs/notes/theseus-identity-boundary.md.",
+  "lean_declaration": "TruthCore.Mereology.TheseusIdentity.Gradual"
+}
