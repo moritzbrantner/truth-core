@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TemporalEventControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalEventControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TemporalEventControls.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
