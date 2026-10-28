@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PAST-RESOURCE-STOCK",
+  "term": "neutral real stock over a beginningless integer past",
+  "definition": "The parameter S : Int \u2192 Real assigns a finite Archimedean real value to every integer time. The past is the entire half-line t\u2264now for a selected integer now. The same grid has arbitrarily earlier integer indices and one unit between t and t+1. No first time, finite elapsed duration, causal relation, event-count bound or physical interpretation of stock is built in. A world or history may later supply such a stock, but this result contains no modal-world index.",
+  "basis": "stipulative",
+  "note": "An analyst arithmetic profile, not empirical cosmology. Entropy or accumulated expenditure is at most an optional interpretation requiring an independent defense of the resource lower bound and uniform growth. Real finiteness/Archimedeanness and the integer grid are explicit mathematical background; extended/non-Archimedean quantities and other temporal orders are not silently covered.",
+  "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound"
+}
