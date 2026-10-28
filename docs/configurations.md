@@ -181,8 +181,8 @@ Lean scan used by the existing transcription classifier; unrelated docs and
 styles are excluded. An edit during generation aborts without replacing the
 previous output. The output is atomically replaced inside ignored `.cache`.
 
-The explorer supports at most four assumption dimensions and the existing five
-non-proof Kripke roles. It follows serialized decision edges instead of running
+The explorer supports at most ten assumption dimensions (1,024 syntactic
+selections) under the case's declared semantic profile. It follows serialized decision edges instead of running
 a second classifier in JavaScript. An incompatible prefix prunes all its
 extensions; a model satisfying the prefix and every remaining optional premise
 covers the whole family. An inventory-unresolved family is pruned only when no
