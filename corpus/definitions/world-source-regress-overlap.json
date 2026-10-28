@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLD-SOURCE-REGRESS-OVERLAP",
+  "term": "same-node source path and injective regress in an acyclic actual world",
+  "definition": "The literal overlap Ontic interpretation has one Unit world and all Option Nat candidates existing. Its Causes is exactly the old Results.Causality.GroundingAllowsRegress.link: none\u2192some n for every n, and some(n+1)\u2192some n, with no edge into none. overlapNode is the actual some0. OverlapControl conjoins actual acyclicity, a finite upstream path from this very node to the actual source none, an injective anchored chain f(n)=actual some n, non-accessibility of this same node, and membership of the Unit world in both StarterWorlds and RegressWorlds. Standard WithTop Nat strict inequalities witness acyclicity only, not well-foundedness or time. This infinite interpretation is not registered with a fake finite carrier enumeration.",
+  "basis": "stipulative",
+  "note": "Supplementary acyclicity, actual-subtype, anchor and injectivity proofs are explicit. They are not claimed as incidental consequences of the old existential grounding result. This refutes exclusivity and the identification of a source path with Acc, without asserting metaphysical possibility or real causal power.",
+  "lean_declaration": "TruthCore.Causality.WorldSourceRegress.OverlapControl"
+}

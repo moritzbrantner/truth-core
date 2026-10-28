@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC",
+    "STMT-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+    "STMT-WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+    "STMT-FINITE-GROUNDING-HAS-SOURCE",
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Lane2 world-local classification, separate from the earlier optional union-WF profile. Inspected the listed reuse dossiers and exact Graph/FiniteCausalPath/Mathlib APIs. Restrict nodes at w to Actual m w={x // ExistsAt w x}; every graph edge and chain stays in this ONE world, with direction y\u2192x for upstream cause y. A local Acc induction builds the parameterized FinitelyGroundedPower derivation and reuses finiteGroundingHasSource to extract an upstream finite path to Graph.Source. For non-Acc use pinned Mathlib not_acc_iff_exists_descending_chain, which is anchored at the selected node; Nat.rel_of_forall_rel_succ_of_lt on flipped TransGen shows repeats would contradict NoCycles, making the chain injective. This is genuine structured coverage, not identification of SourcePath with Acc. Projecting the fork yields equality of the populated-world set with StarterWorlds\u222aRegressWorlds; both labels are existential and may overlap. Actual population is explicit in the subtype/left set and finite-world corollary; finite actual carrier plus population yields a source by Mathlib's no-injection-from-infinite-to-finite fact. No finite branching, temporal first instant/past length, world-accessibility or union-WF background is used. Classical Mathlib choice/logic is the approved ambient scope. The literal old GroundingAllowsRegress.link is reused, not incidental facts extracted from its existential theorem: a Unit-world all-present Option Nat interpretation has no cycles, and the SAME actual some0 has a finite source path to none, an injective anchored chain some n, non-Acc, and a world in both world-label sets. Standard WithTop Nat strict inequalities witness only acyclicity, not WF or time. Infinite control is outside the finite registry. Source nodes may be isolated or nonunique; nil paths at a source are not self-causes. No metaphysical possibility, actual power doctrine, source identity across worlds, divine attribute or root closure is established. Initial vocabulary import omitted Finite and was corrected with Mathlib.Basic.Finite.Defs; the service cached the failed setup-file even after a successful focused rebuild, requiring one clean reset of the SAME causal-harvest session, not a second competing checker. Subsequent warm edit version2 accepted all eight frozen targets with diagnostics[] at head64462700cd6ee3cec7592c596047c1d0ea6eef61, exact Solution SHA25610c6a5f6564842450b6074e70cad90e46154f8b3bd335fba47b5fbea7abd25e7; frozen Challenge cf1ba2bbf980455f9e6f3d544d89a6dd995ba249c984e9ad1a988218ef716d6f unchanged. Metadata began only after coverage and overlap proof acceptance. No local Comparator/NanoDa/full binding or suite is repeated under owner trust policy; one final delivered CI remains authoritative. Root-premise comparison none.",
+  "evidence": [
+    "WORLD-ACTUAL-SOURCE-OR-REGRESS",
+    "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP"
+  ]
+}
