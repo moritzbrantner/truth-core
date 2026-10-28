@@ -143,7 +143,7 @@ at every world **where the selected individual exists**. It makes no claim
 about an explanation where that individual is absent. No increasing/decreasing
 domain policy is assumed.
 
-A sufficient condition, distinct from full invariance, is `AnchorOverlap`:
+A sufficient condition for actual stability is `AnchorOverlap`:
 there is a world where the explanandum holds with exactly one admitted reason,
 and every other world of its existence shares an admitted reason with that
 anchor. Local overlap witnesses initially vary; uniqueness at the anchor
@@ -162,7 +162,11 @@ existing explanandum in both worlds, one intrinsic-tagged token admitted at
 both, and an extra circumstance token only at world `true`. It is sound and
 satisfies `overlap_anchor`, but `overlap_not_invariant` shows full invariance
 fails: the extra token cannot transfer to world `false`. Thus the sufficient
-anchor criterion does not assume invariance of all reasons. The certificate
+anchor criterion does not assume invariance of all reasons. Conversely,
+`ReasonInvariant` preserves only `explains`, not token-domain membership.
+The older invariance theorem concludes token-only `StableExplanation` under
+its existence and worldwise-explanation hypotheses; it does not establish
+`ActualStable` for independently varying token domains. The certificate
 packages the general laws and both controls, with zero allowed axioms.
 
 The exact premise delta is conditional: add an existing anchor, its unique
