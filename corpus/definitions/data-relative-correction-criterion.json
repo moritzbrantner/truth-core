@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+  "term": "exact data-relative correctness criterion",
+  "definition": "Given a state type, evidence type, projection observe and independently supplied predicate Correct, AdmitsCriterion says there is an evidence predicate whose verdict on every projected state is equivalent to Correct. FiberInvariant says equal-data states agree on Correct. CriterionCharacterization universally quantifies over this profile; CriterionControls supplies nonconstant Boolean correctness and shared-report/identity-data controls.",
+  "basis": "stipulative",
+  "note": "An analytical extensional criterion, not an account of meaning, truth, public language or epistemic justification. A Prop-valued predicate need not be decidable, accessible or justified. No observer count is encoded. Source prompting and remaining philosophical gap: docs/notes/wittgenstein-criterion-and-correctness.md.",
+  "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
+}

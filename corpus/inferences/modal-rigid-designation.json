@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-RIGID-DESIGNATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-RIGID-DESIGNATION",
+  "rule": "constructive-proof",
+  "meaning": "Derive successor co-reference iff existence from both exact designation profiles; quantify along M edges and reuse the certified box-transfer theorem for E inclusion. Decide two finite omission controls. No actual naming fact, historical thesis or human epistemic state is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PLANTINGA-WCB-EAAN-EXCERPT",
+    "source_url": "https://wmit-pages-prod.s3.amazonaws.com/wp-content/uploads/sites/283/2022/06/16130225/plantingaeaan.pdf",
+    "retrieved_at": "2026-10-28T19:46:27Z",
+    "sha256": "sha256:f67b128a7c9ebe079c1b96aa76e9df86a748707bd39bf15ed2f1db0cee800935",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright Alvin Plantinga / Oxford University Press; university-hosted teaching excerpt. Only hashes, short incipit, bibliographic locator and analytical paraphrases committed; no PDF/text redistribution."
+  },
+  "passages": [
+    {
+      "id": "PLANTINGA-WCB-EAAN-BEHAVIOR-DESIRE",
+      "locator": "Warranted Christian Belief III.7.IV.B, teaching excerpt pp.9\u201310, especially p.10 belief\u2013desire paragraph",
+      "claim_locator_prefixes": [
+        "teaching excerpt p."
+      ],
+      "pdf_pages": {
+        "first": 9,
+        "last": 10
+      },
+      "text_sha256": "sha256:bf09d6cbd3de4476bbd9672f1be1541f75eea61cba7c36cb119e678c00d8546b",
+      "incipit": "just unaccountably appear. Occasionally, some of them yield an adaptive"
+    }
+  ]
+}

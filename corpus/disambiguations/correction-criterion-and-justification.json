@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
+  "term": "criterion of correctness",
+  "sense_definition_ids": [
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+    "DEF-WARRANTED-CORRECTION-STANDARD"
+  ],
+  "resolution": "This result uses only exact extensional classification relative to an explicit data projection. It distinguishes that stipulated property from Wittgenstein\u2019s grammatical discussion of an independent criterion (PI I.258/I.265), a computable checking procedure, epistemic warrant, normative authority and social consensus. Neither public agreement nor a private seeming is identified with correctness. An unavailable criterion may exist extensionally; a criterion\u2019s existence does not justify reliance on it.",
+  "note": "The equivalence does not formalize or decide the private-language argument."
+}

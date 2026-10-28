@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CHOICE-CONTEXT-TABLE",
+  "term": "stipulated complete input and response law",
+  "definition": "History separately stores a Boolean law selector, prior preference and imposed constraint. input includes both preference and imposed constraint. response forces true when constrained; otherwise law false follows preference and law true reverses it. action is that response applied to the recorded law and input. The input is complete only for this defined table; it is not claimed to encode the complete physical past.",
+  "basis": "stipulative",
+  "note": "Analyst-defined control motivated by the Carneades definition fork; no source attribution. Adequacy and applicability remain open. See docs/notes/carneades-choice-context.md.",
+  "lean_declaration": "TruthCore.Modal.ChoiceContext.History"
+}

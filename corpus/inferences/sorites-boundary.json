@@ -1,0 +1,9 @@
+{
+  "id": "INF-SORITES-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SORITES-BOUNDARY",
+  "rule": "model-construction",
+  "meaning": "For every decidable binary predicate on a natural-number chain, positive first and negative last imply an adjacent positive-to-not-positive boundary. Independently of decidability, positive first, negative last and truth-preserving tolerance are jointly inconsistent. At length one each member can be omitted while retaining the other two. A stipulated length-two positive/borderline/negative profile has opposed endpoints and no adjacent opposed determinate statuses, yet fails truth-preserving tolerance. These different tolerance principles are not identified. No particular heap threshold, perceptual detectability, linguistic adequacy, metaphysical winner or root premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

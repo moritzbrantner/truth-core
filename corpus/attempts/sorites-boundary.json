@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-SORITES-BOUNDARY",
+  "statement_ids": [
+    "STMT-SORITES-BOUNDARY"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inventoried existing statements, definitions and Lean modules: no Sorites/tolerance profile to reuse. Proved binary boundary extraction by finite induction, incompatible endpoint/tolerance core, length-one deletion controls and length-two partial non-opposition control. Rejected conflation with mereology, perceptual discriminability, truth preservation and a complete three-valued logic. Analyst formulation only; no historical author attribution or source-derived claim. Detailed scope and remaining adequacy bridges in docs/notes/sorites-boundary.md. Root premise change: none.",
+  "evidence": [
+    "SORITES-BOUNDARY"
+  ]
+}

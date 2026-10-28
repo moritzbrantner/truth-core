@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "paraphrase": "For all state and evidence types, data projections and supplied correctness predicates, an exact Prop-valued classifier using only those data exists iff correctness is invariant between equal-data states. Control: two Boolean states have identical unanimously positive report pairs and opposite correctness, so no classifier on those pairs is exact; identity data admit an exact classifier for that same nonconstant norm. No decidability, warrant or observer-number result follows.",
+  "lean_declaration": "TruthCore.Logic.CorrectionCriterion.CriterionCharacterizationAndControls",
+  "definition_ids": [
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+  ]
+}

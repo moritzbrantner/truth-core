@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENCE-PREDICATE-TRANSPORT",
+  "term": "extensional transport under feature recoding",
+  "definition": "transported p phase codedFeature evaluates p phase at recode phase codedFeature. Since the Boolean recoding is involutive, transported p phase (recode phase feature) equals p phase feature. This compares corresponding descriptions of one stipulated feature value, whereas phase independence compares equal coordinate labels across phases.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Science.PredicateRecoding.transported",
+  "note": "Exact bounded coordinate change; no assertion of physical color, equal utility or equal epistemic entitlement. The full caption provenance and philosophical limits are in docs/notes/carneades-induction.md."
+}
