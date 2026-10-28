@@ -1,0 +1,10 @@
+{
+  "id": "STMT-POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "paraphrase": "For every type of worlds and fixed roster, frame, presence assignment and base world, exact meet closure implies absence amalgamation. This universal conditional does not establish either closure policy.",
+  "lean_declaration": "TruthCore.Models.PopulationClosureSeparation.ExactImpliesAmalgamation",
+  "definition_ids": [
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ]
+}
