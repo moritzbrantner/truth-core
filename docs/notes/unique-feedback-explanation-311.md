@@ -358,6 +358,9 @@ parity as proof of actual infinitism; a binary partial edge as a full ground;
 fact explanation as efficient present-esse support. The next decisive
 comparison is an independently defended intrinsic existence explanation
 against this explicit uniformity/parity case, holding the explanandum fixed.
+The companion intrinsic-nature analysis in `docs/psr-scope-countermodels.md`
+now assesses that positive reply and its individual-actuality burden; it
+does not declare the intrinsic account or this rival discharged.
 
 ### Finite access, the reason for the order, and comparative economy
 
