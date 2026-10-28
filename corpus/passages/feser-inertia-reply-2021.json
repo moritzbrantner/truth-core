@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "FESER-INERTIA-REPLY-2021",
+    "source_url": "https://edwardfeser.blogspot.com/feeds/posts/default/7649212048899316232",
+    "retrieved_at": "2026-10-28T22:04:58Z",
+    "sha256": "sha256:65a4b0c1a0efc60a7fb346561c67d228a431fcb22a56fff23bcf02b5998e9555",
+    "encoding": "utf-8",
+    "language": "en",
+    "license": "Copyright Edward Feser; publicly author-published primary text. No redistribution license asserted. Only hashes, locators and a short incipit committed. Primary Blogger Atom entry for the same author post; raw XML includes the complete HTML article and identifying metadata, not reader comment bodies. Two independent fetches matched. Supersedes a dynamic rendered-page witness after CI run 40776675501 observed raw hash drift: expected 6484e22fb1333f0801922679ae7e59a8b4b828a90f4a762b91c53947dd93692c, got 5c7ada32e46f8c506797488b2be65d4f97584cf2b94fdfd4f74d2165abac9fca. A narrow local refetch still returned the original raw hash; this does not excuse the CI mismatch. The Atom content was reread and its rendered article exactly matches the originally materialized article (apart from the materializer file final newline). No verifier exception or content-only acceptance is introduced."
+  },
+  "passages": [
+    {
+      "id": "FESER-INERTIA-REPLY-2021-ARTICLE",
+      "locator": "Schmid on existential inertia: complete article in Blogger Atom entry content, excluding reader comments",
+      "claim_locator_prefixes": [
+        "Schmid on existential inertia: "
+      ],
+      "text_sha256": "sha256:65a4b0c1a0efc60a7fb346561c67d228a431fcb22a56fff23bcf02b5998e9555",
+      "incipit": "<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet",
+      "raw_text": true
+    }
+  ]
+}
