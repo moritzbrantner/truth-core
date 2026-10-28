@@ -1,0 +1,10 @@
+{
+  "id": "CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "argument_id": "CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "challenge_module": "TruthCore.Results.Causality.SourceWitness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceWitness.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceWitness.overlap_control",
+  "comparator_config": "results/CONFLUENT-SOURCE-REGRESS-OVERLAP/comparator.json",
+  "status": "solution-present",
+  "description": "Import WorldSourceRegress.overlapControl on the unchanged literal overlap actual graph for its acyclicity, source witness, SAME selected anchored injective regress and non-Acc. Each actual node has a direct upstream path to the existing none node or the zero path there; these concrete finite extensions give confluence and weak connectivity. Apply SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE to the imported source witness; its unique source and finite paths from every node coexist with the old infinite branch. Non-Acc at actual some0 directly refutes WF. No finite ancestry, universal branch termination, metaphysical possibility, or source identity with God is inferred. All causal applicability premises stay open; root-premise delta zero."
+}

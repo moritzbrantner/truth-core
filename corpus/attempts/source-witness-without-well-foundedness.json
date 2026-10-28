@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-SOURCE-WITNESS-WITHOUT-WELL-FOUNDEDNESS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-GRAPH-HAS-SOURCE-WITNESS",
+    "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+    "STMT-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded #320 follow-up to PR633 on a separate branch. Found and proved that weak causal connectivity plus upstream confluence plus ONE source witness gives the existing RootedAtUniqueSource conclusion without WF. Mathlib equivalence_join and EqvGen.eqvGen_le join each node with the source, whose extension collapses by normality; head induction converts the other ReflTransGen path to the exact existing FiniteCausalPath. SourceForest.atMostOne_of_confluent supplies uniqueness. Thus WF was sufficient for obtaining a source from population, not required for paths after a source is supplied. No source premise is defended by this change. Reused unchanged GroundingAllowsRegress.link through the existing WorldSourceRegress.overlap actual graph; direct finite paths to none make it weakly connected and upstream-confluent. Imported overlapControl supplies source existence, acyclicity, the same actual some0 anchored infinite injective regress and non-Acc, giving notWF. The rooted finite paths coexist with that infinite branch; rejected identifying a finite path to a source with finite ancestry, termination of every branch, or no regress. No new model, source attribution or explanatory adequacy is asserted. Frozen follow-up Challenge SHA25677c9b67d562165a7ac86a838ff55b0311f13cbf46f1d13716bc4a792a538dbbc; all PR633 files and frozen Challenges unchanged. Shared-service full-content Scratch/issue320-witness/Proof.lean under /tmp/truth-core-lean.lock, causal-harvest at a13fc469, HTTP200, wait0, v2 no diagnostics; content SHA256d61812a49b61842e1b414911a65942239518b30f4e5b0fba323dde5efea4d88f. Interactive elaboration is not final Comparator/NanoDa certification. Intended and actual root-premise delta zero: none added/removed/discharged. All actual causal applicability remains open. PR633 is now merged; the own staged commit was cherry-picked onto fresh main5da45a32 for a separate direct-main follow-up, with no parent diff duplicated. Accepted proof inputs are unchanged and final canonical certification remains CI-owned.",
+  "evidence": [
+    "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
+    "CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+    "PR-633"
+  ]
+}
