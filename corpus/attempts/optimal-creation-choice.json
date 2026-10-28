@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-OPTIMAL-CREATION-CHOICE",
+  "statement_ids": [
+    "STMT-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
+    "STMT-OPTIMAL-CREATION-CHOICE"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Materialized/read Monadology \u00a7\u00a753\u201355 and complete ST I q25a6. Derived stability from fixed candidate-quality optimization, at-most-one optimal candidate and explicit positive-output totality; reused selectedEffectNecessary. Proved equal greatest quality for any optima, strict-improvability obstruction and Nat witness; retained contingency under tied optimality on unchanged varying ontology. Rejected source uniqueness, source universal no-best, optimality-as-freedom, and at-most-one-as-totality readings. Full source interpretations, limits and preview evidence persist in docs/notes/optimal-creation-choice.md. No root premise added, removed or discharged.",
+  "evidence": [
+    "OPTIMAL-CREATION-CHOICE"
+  ]
+}
