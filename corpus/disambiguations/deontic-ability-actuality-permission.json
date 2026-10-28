@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-DEONTIC-ABILITY-ACTUALITY-PERMISSION",
+  "term": "ought, can, possible future, actual fulfillment, and permission",
+  "sense_definition_ids": [
+    "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+    "DEF-DEONTIC-AVAILABLE-CONTINUATION"
+  ],
+  "resolution": "Ought here is explicitly stipulated ideal-successor semantics, not actual moral authority. Can is existential fulfillment relative to its named relation; broad can be read as a merely logical possibility relation, or as an alternative available-future relation in a separate control, without identifying the interpretations. blocked supplies the feasible relation in the first control and the selected actual-continuation relation in the second. No empirical agency or temporal accessibility is certified. The false designated continuation fails goal. Possible future fulfillment never implies selected actual fulfillment or present ability. Can is not permission; permission is not defined. Borrowed-car return and replacement/reparation are not identified, and inability caused culpably is not equated with absence of blame."
+}

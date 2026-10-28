@@ -17,6 +17,7 @@ import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution
 import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+import TruthCore.Results.Modal.DeonticFutureBoundary.Solution
 import TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution
 import TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution
 import TruthCore.Results.Modal.ExistenceDegrees.Solution
