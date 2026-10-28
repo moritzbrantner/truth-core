@@ -1,0 +1,10 @@
+{
+  "id": "STMT-ABSENCE-AMALGAMATION",
+  "paraphrase": "Every ordered pair of worlds accessible from the supplied base world has an accessible world whose population is a subset of both populations. No nonempty extension or successor is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.AbsenceAmalgamation",
+  "definition_ids": [
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ]
+}

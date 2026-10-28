@@ -103,3 +103,47 @@ and finite-model properties only; they add no argument concluding that premise
 or a necessary concrete individual. Strong rival accounts of concreteness,
 pinned source defenses, genuinely varying-domain/counterpart alternatives, and
 separate treatment of abstract-object extensions remain work for #435.
+
+## Actualist universal transfer and domain policy
+
+[ActualistDomains](../TruthCore/Modal/ActualistDomains.lean) reuses `Ontic` and
+its world-relative `ExistsAt`. The candidate carrier and literal identity stay
+fixed; a varying domain is the extension of `ExistsAt`, not a new carrier or
+counterpart relation. Supplied predicates `P : World → Being → Prop` are total
+on that roster, including absent candidates. Only quantification is guarded.
+
+| Transfer, for every total P and world w | Exact matching policy |
+| --- | --- |
+| `□(∀x existing there, P x) → ∀x existing here, □P x` | Every accessible domain includes the current domain. |
+| `(∀x existing here, □P x) → □(∀x existing there, P x)` | Every accessible domain is included in the current domain. |
+
+The forward proofs transport membership; the converses choose characteristic
+predicates from the same existence extensions. They need no reflexivity,
+seriality, nonempty domains, causal principles or excluded-middle premise.
+Increasing domains also exclude `ContingentAt`: a candidate present here cannot
+be absent in an accessible world. This is a consequence of that additional
+domain policy, rather than a consequence of S5 accessibility.
+
+The [certificate](../TruthCore/Modal/ActualistDomainsCertificate.lean) keeps one
+unchanged `PSR.ContingentOnly.model.ontic` as a joint control. `false` exists in
+both universally accessible worlds; `true` exists at world `false` and is absent
+at world `true`. Increasing membership fails from `false` to `true`, and
+decreasing membership fails along the reverse edge. Both transfers fail in
+this same populated ontology. No new causal or explanation assignment is made.
+The fixed-roster, total-predicate profile is explicit; these equivalences are
+not claims about every version of quantified modality or a free-logic calculus.
+
+The distinct temporal interface remains inventoried: on a past-through-now
+subtype closed under predecessors, strict-past accessibility `t → s` iff `s < t`
+is serial exactly when the existing `PastIsInfinite (<) now` condition holds.
+Inclusive `s ≤ t` is reflexive and therefore serial even when a first moment
+exists. Assuming D for strict past therefore assumes a no-first-moment
+condition rather than proving it. Here modal worlds/complete histories and
+time points remain different interpretations of an abstract frame; no causal
+arrows across worlds or temporal beginning law is introduced. That temporal
+adapter is not part of this domain certificate.
+
+Intended and actual root-premise change: none. The mathematical equivalences do
+not establish either domain policy in reality. Interactive checker evidence and
+final delivered CI have separate roles; no local delivery verification is
+repeated solely to hand off this result.

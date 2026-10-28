@@ -1,0 +1,18 @@
+{
+  "id": "STMT-WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "lean_declaration": "TruthCore.Causality.WorldSourceRegress.OverlapControl",
+  "paraphrase": "In the fixed infinite Option Nat interpretation, the same actual some0 has a finite path to source none and an injective infinite backward chain, although the actual graph is acyclic and that node is inaccessible. Its sole world belongs to both starter and regress sets. Thus the two horns need not be exclusive, and a source path need not imply Acc.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-WORLD-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

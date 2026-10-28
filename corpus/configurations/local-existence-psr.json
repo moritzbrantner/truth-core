@@ -1,6 +1,6 @@
 {
   "id": "CONFIG-LOCAL-EXISTENCE-PSR",
-  "description": "Optional local explanation-coverage comparison on unchanged PSR controls. NoBrute and Brute are logical comparison labels relative to stipulated explains, not a substantive philosophical dilemma or adequate-explanation verdict. Causal structure is independent; the external-cause dimension quantifies over all model worlds. No root premise is assumed true.",
+  "description": "Optional local explanation-coverage comparison on unchanged PSR controls. NoBrute and Brute are logical comparison labels relative to stipulated explains, not a substantive philosophical dilemma or adequate-explanation verdict. Causal structure is independent; the external-cause dimension quantifies over all model worlds. No root premise is assumed true. The existing population/WF/universal-external-causation contradiction is exposed through an operational adapter; it uses no explanation premise.",
   "seed_statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
   "semantics": {
     "id": "local-existence-psr-stipulated-explanations",
@@ -119,10 +119,19 @@
         "STMT-NO-BRUTE-EXISTENCE-AT",
         "STMT-BRUTE-EXISTENCE-AT"
       ]
+    },
+    {
+      "id": "populated-wf-universal-external-causes",
+      "statement_ids": [
+        "STMT-PSR-POPULATED-AT",
+        "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+        "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+      ]
     }
   ],
   "incompatibility_result_ids": [
-    "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+    "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+    "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE"
   ],
   "implication_result_ids": [
     "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE"

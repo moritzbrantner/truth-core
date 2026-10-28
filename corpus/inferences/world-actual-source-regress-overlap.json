@@ -1,0 +1,9 @@
+{
+  "id": "INF-WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "rule": "direct-proof",
+  "meaning": "Reuse the literal GroundingAllowsRegress.link in a one-world all-present infinite interpretation, checking supplementary actual acyclicity and the same-node source path, injective anchored chain and non-Acc directly. The world lies in both starter and regress sets. This witnesses overlap and separates SourcePath from accessibility; it is not an extraction of incidental facts from the older existential result or a metaphysical possibility claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

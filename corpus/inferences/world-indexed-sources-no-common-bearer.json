@@ -1,0 +1,9 @@
+{
+  "id": "INF-WORLD-INDEXED-SOURCES-NO-COMMON-BEARER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-WORLD-INDEXED-SOURCE-CONTROL",
+  "rule": "direct-proof",
+  "meaning": "A fresh fixed Fin3 interpretation lies inside the acyclic-world setting: each raw cause relation is well-founded with existing distinct endpoints, and the actual-source value images are {true},{false},{false}. Reuse Graph.Map.wellFounded and controls_of_wellFounded plus the new actualSource_iff bridge; no ad hoc root criterion is introduced. Every world is a starter world and none has regress, yet no same existing source works in all worlds. Selected false is necessary and universally potentially causes each existing other, with a well-founded necessary-only union, but contingent true actually causes it at0. Thus the no-contingent-predecessor bridge cannot be omitted from the exact named-underived profile even after adding pointwise WF. Rank witnesses are not time; overlay edges never form an actual cross-world causal path. The prior frozen Bool control remains unchanged, and no metaphysical possibility or root closure is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

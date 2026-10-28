@@ -1,0 +1,10 @@
+{
+  "id": "POPULATION-CLOSURE-SEPARATION",
+  "argument_id": "POPULATION-CLOSURE-SEPARATION",
+  "challenge_module": "TruthCore.Results.Modal.PopulationClosureSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PopulationClosureSeparation.Solution",
+  "theorem": "TruthCore.Results.Modal.PopulationClosureSeparation.checks",
+  "comparator_config": "results/POPULATION-CLOSURE-SEPARATION/comparator.json",
+  "status": "solution-present",
+  "description": "In a universal three-world frame with four rigid individuals and populations {a,b,c}, {b,c,d}, {b}, absence amalgamation holds for every ordered accessible pair, while exact meet closure fails: the first two populations have intersection {b,c}, which none of the three populations realizes. This is a mathematical countermodel to the converse, not a metaphysical possibility claim."
+}
