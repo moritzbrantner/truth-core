@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-POPULATION-MEAN-TOTAL-NORMATIVE-RANKING",
+  "term": "average welfare, total welfare and morally better",
+  "sense_definition_ids": [
+    "DEF-FINITE-POPULATION-PROFILE",
+    "DEF-POPULATION-TOTAL-RANKING",
+    "DEF-POPULATION-AVERAGE-RANKING"
+  ],
+  "resolution": "Mean is a real-valued summary; total is the positive finite count times that mean. A lower positive mean does not imply every individual has positive or uniformly low welfare. The scalar is cardinal and interpersonal by stipulation, not derived from ordinal preference. TotalRanking and AverageRanking are distinct strict policies whose coexistence on the full domain is refuted, not a choice of the true moral policy. Equal counts restore agreement; zero mean removes the low-positive-mean construction. Mathematical existence of arbitrarily large finite profiles is not physical or moral feasibility and is not an infinite-population sum."
+}

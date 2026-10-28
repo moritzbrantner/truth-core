@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-JUSTIFICATION-INTROSPECTION",
+  "argument_id": "LOGIC-JUSTIFICATION-INTROSPECTION",
+  "challenge_module": "TruthCore.Results.Logic.JustificationIntrospection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.JustificationIntrospection.Solution",
+  "theorem": "TruthCore.Results.Logic.JustificationIntrospection.introspectionBoundary",
+  "comparator_config": "results/LOGIC-JUSTIFICATION-INTROSPECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional transfer of knowledge to knowledge of justification, by the existing modal axiom 4 and an explicit global norm, paired with a factive three-world omission model. Higher-order ignorance coexists with first-order knowledge and justification in the reflexive nontransitive model. This does not decide actual epistemic standards, regress adequacy, certainty, foundationalism, coherentism or infinitism."
+}
