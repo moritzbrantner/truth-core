@@ -70,3 +70,12 @@ def OverlapControl : Prop :=
   ¬ Acc (actualGraph overlap ()).edge overlapNode ∧
   () ∈ StarterWorlds overlap ∩ RegressWorlds overlap
 end TruthCore.Causality.WorldSourceRegress
+
+namespace TruthCore.Causality.WorldSourceRegress
+/-- Every actual node of every finite actual graph has its own finite path to
+an existing source. Empty actual carriers make the guarded conclusion vacuous;
+no common source for all nodes or worlds, outgoing effect, or time is claimed. -/
+def FiniteActualAllSourcePaths {World Being : Type}
+    (m : TruthCore.German.Kant.CosmologicalInference.Ontic World Being) : Prop :=
+  ∀ w, Finite (Actual m w) → ∀ x : Actual m w, SourcePath (actualGraph m w) x
+end TruthCore.Causality.WorldSourceRegress

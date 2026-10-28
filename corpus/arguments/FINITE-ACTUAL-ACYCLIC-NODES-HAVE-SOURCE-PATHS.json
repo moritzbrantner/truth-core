@@ -1,0 +1,24 @@
+{
+  "id": "FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
+  "premise_statement_ids": [
+    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC"
+  ],
+  "conclusion_statement_id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "inference_ids": [
+    "INF-FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS"
+  ],
+  "meaning": "Under the existing actual-acyclic profile, retain the source path for each chosen actual node in every finite actual graph. Apply the checked pointwise source-or-regress fork; its source horn already supplies the full path, while its injective anchored Nat-chain horn contradicts finiteness of the actual carrier. This strengthens the earlier merely-some-source corollary without changing that theorem or any frozen data/signature. Actual finiteness is an explicit conditional guard inside the conclusion, not an assertion that any world is finite. No additional philosophical premise, common source, temporal conclusion or root closure is introduced.",
+  "definition_ids": [
+    "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}
