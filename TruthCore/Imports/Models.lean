@@ -4,6 +4,7 @@ import TruthCore.Models.ActPotencyRemaining
 import TruthCore.Models.FiniteSupport
 import TruthCore.Models.Inertia
 import TruthCore.Models.MegarianCapacity
+import TruthCore.Models.ModalExistenceDegrees
 import TruthCore.Models.NecessarilyUnderived
 import TruthCore.Models.NecessaryIndividual
 import TruthCore.Models.NightCosmogony
