@@ -1,0 +1,17 @@
+{
+  "id": "STMT-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "lean_declaration": "TruthCore.Causality.WorldSourceRegress.WorldClassification",
+  "paraphrase": "Every actual individual in each world has a finite upstream path to an existing source or an injective infinite backward causal chain anchored there. Populated worlds are exactly starter worlds union regress worlds, with overlap allowed; every finite nonempty actual graph has a source. Empty worlds receive neither world label. These are graph sources and chains, not temporal beginnings or past-length claims.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

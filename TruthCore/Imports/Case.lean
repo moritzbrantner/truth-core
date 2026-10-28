@@ -4,8 +4,10 @@ import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 import TruthCore.Case.Catholicism.Root
 import TruthCore.Case.Catholicism.StageOne
 import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission
 import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
 import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.EmptyWorldFork
+import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
 import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
 import TruthCore.Case.Catholicism.StageOneBridges
 import TruthCore.Case.Catholicism.StageOneConvergence

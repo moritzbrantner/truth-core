@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-PARITY-UNION-REGRESS",
+  "statement_ids": [
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-PARITY-UNION-REGRESS"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The exact Bool/Nat parity model separates local depth-one termination and finite worlds from cross-world union WF. The union equals reverse successor, is finite-cycle-free, has an incoming predecessor at every Nat, and has no common underived individual. Rejected repair: finite prefixes cannot certify the infinite countermodel because their cutoff creates an artificial root. Reused #518 vocabulary and main theorem without reproving it. No source reading, metaphysical possibility or root-premise discharge is claimed. Interactive Lean preview elaborated the full model and solution inline against the coordinator supplied workspace at 75192b1c; final Comparator and NanoDa remain CI authorities. The final preview reuses Mathlib WellFounded.not_rightTotal; #print axioms reports exactly propext, Classical.choice and Quot.sound, matching the permitted Mathlib policy. The initial core-omega variant already required propext/Quot.sound and was replaced with the approved Mathlib relation theorem rather than advertising zero axioms.",
+  "evidence": [
+    "PARITY-UNION-REGRESS"
+  ]
+}

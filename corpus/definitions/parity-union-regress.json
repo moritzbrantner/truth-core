@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARITY-UNION-REGRESS",
+  "term": "two-world parity support countermodel",
+  "definition": "Worlds are Bool and rigid beings are Nat. Accessibility and existence are universally true. support w g n means g = n + 1 and n % 2 = (if w then 1 else 0); model.Causes uses this relation only for this control. Local depth at most one means no two composable support edges at one fixed world. Acyclicity means no Relation.TransGen union n n (a nonempty finite path). The union forgets world labels and uses the existing necessary-support restriction; all beings satisfy that restriction here.",
+  "basis": "stipulative",
+  "note": "Source-free #603/#542 formal control. Infinite beings are essential: finite prefixes have a cutoff root. No actuality, physical supertask or cross-world causal process is asserted.",
+  "lean_declaration": "TruthCore.Causality.ParityUnionRegress.Certificate"
+}

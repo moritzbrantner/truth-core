@@ -1,0 +1,11 @@
+{
+  "id": "INF-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "input_statement_ids": [
+    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC"
+  ],
+  "output_statement_id": "STMT-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "rule": "direct-proof",
+  "meaning": "On each world's actual-node causal graph, acyclicity implies the anchored source-path-or-injective-regress coverage. Local Acc induction builds a structural finite grounding derivation and reuses FINITE-GROUNDING-HAS-SOURCE for path extraction; non-Acc uses Mathlib's anchored descending-chain theorem, and nonempty transitive paths make repetitions contradict NoCycles. The exact populated-world set is StarterWorlds\u222aRegressWorlds, with no exclusivity. Finite actual carriers rule out injective Nat chains, so explicit population yields a source. Ambient Mathlib classical choice/logic is used. No finite branching, temporal premise, modal accessibility, cross-world union-WF, philosophical regress denial or root closure is assumed or established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

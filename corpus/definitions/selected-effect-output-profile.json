@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+  "term": "act token and world-relative output",
+  "definition": "OutputProfile overlays an existing Ontic ontology with one selected source, performs:World\u2192Act\u2192Prop and output:World\u2192Act\u2192Being\u2192Prop. A token is literally the same Lean value across worlds. Neither activity, output existence nor causal realization is a structure law. These are analyst-defined assignments, not an analysis of agency or willing.",
+  "basis": "stipulative",
+  "note": "Explicit diagnostic for issue #462; no source attribution. Source-grounded act individuation and metaphysical adoption remain open. See docs/notes/selected-effect-bridge-462.md.",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.OutputProfile"
+}
