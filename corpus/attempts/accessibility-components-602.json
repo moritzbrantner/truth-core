@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-ACCESSIBILITY-COMPONENTS-602",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-ACCESSIBILITY-COMPONENTS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #602: reused GraphBridge.reachable_iff_access and Mathlib component quotient equality criteria. Proved SCC equality iff accessibility under explicit reflexivity, symmetry and transitivity. Bool order has one weak component and distinct SCCs for false and true. Rejected identifying weak with strong connectivity, identifying an equivalence class with all worlds, or inferring causal roots/temporal travel. No source reading or premise addition/removal; no root discharge. Service diagnostics passed on the exact in-memory combined source; final verification recorded in the PR.",
+  "evidence": [
+    "ACCESSIBILITY-COMPONENTS"
+  ]
+}
