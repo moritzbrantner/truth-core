@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WorldIndexedSources.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldIndexedSources.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WorldIndexedSources.checks"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

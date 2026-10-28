@@ -25,3 +25,4 @@ import TruthCore.Models.QuartaViaDegreeFork
 import TruthCore.Models.RespectAlternatingMotionCycle
 import TruthCore.Models.Scott
 import TruthCore.Models.TemporalHistoryControls
+import TruthCore.Models.WorldIndexedSources
