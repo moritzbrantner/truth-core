@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-REASON-ADMISSION",
+  "term": "actual explanatory token membership",
+  "definition": "Admitted m domain x w r means domain w r and m.explains w r (.fact x). domain is an independently supplied total predicate on the existing rigid Reason roster; it records stipulated actual token membership, not existence of any external bearer, metaphysical sufficiency or absence of circularity.",
+  "basis": "stipulative",
+  "note": "Source attribution paused under owner scope for #465; semantic test only. Actualist guards follow the fixed-roster membership convention of #599, extended to existing Reason tokens without changing Ontic.",
+  "lean_declaration": "TruthCore.Modal.ActualReasonWitness.Admitted"
+}

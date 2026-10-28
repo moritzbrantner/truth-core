@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BEARER-CAPACITY-EXERCISE",
+  "term": "bearer, directed marker and actual causal exercise",
+  "definition": "responseOntic adapts the exact CausalPowers response table: ExistsAt w x is existsAt x w and Causes w x y means activated output is true. SoundDistinctCauses and ExercisesCausation retain their shared world-local meanings. NecessaryAt is shared de re existence. directed w x y means x=false and y=true, independent of world and of recipient existence. ManifestationRule m power means every local power possession has an outgoing actual edge; its adequacy is not asserted.",
+  "lean_declaration": "TruthCore.Modal.BearerExercise.responseOntic",
+  "basis": "stipulative",
+  "note": "Task-local diagnostic for #463; directed is a minimal independent marker, not a reduction of intrinsic causal power. An event here is only an outgoing actual edge, without process identity, temporal extent or an event domain. See docs/bearer-capacity-exercise.md."
+}

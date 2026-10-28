@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-STRICT-AND-INCLUSIVE-PAST",
+  "term": "strict past, inclusive past and modal seriality",
+  "sense_definition_ids": [
+    "DEF-STRICT-PAST-ACCESSIBILITY",
+    "DEF-INCLUSIVE-PAST-ACCESSIBILITY",
+    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+  ],
+  "resolution": "Strict accessibility s<t on times through now requires an earlier time for seriality; with the supplied Preorder this is exactly existing PastIsInfinite(<)now. Inclusive accessibility s\u2264t permits self-witnesses and is serial even at an earliest time. Therefore D validity on strict past encodes no first past moment instead of proving it, whereas inclusive T/D do not imply beginninglessness. PastIsFinite means an earlier-free time through now, not finite duration or finite event cardinality. These frames interpret abstract indices as times; Ontic worlds/complete histories and time points remain distinct, and no causal arrows cross alternative worlds."
+}

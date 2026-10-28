@@ -129,3 +129,60 @@ effect identity, causal laws and temporally indexed actions; (4) seek a
 stronger general incompatibility core or defended bridge that rules out one
 of the presently witnessed formal branches. Every such bridge remains an
 **explicit, open premise** until justified.
+
+## Actual-token domains and an overlap bridge (#465, 2026-10-28)
+
+The first slice already proved the alternating countermodel and the
+invariance converse; these targets are reused, not counted again. The extension
+`TruthCore.Modal.ActualReasonWitness` retains its exact `Model`, `Reason` and
+existence facts. In the fixed-roster actualist convention of #599, a supplied
+predicate `domain w r` now records actual token membership. This does not
+identify tokens with external causal bearers. `Admitted` conjoins membership
+with the old explanation relation. `ActualStable` requires one token admitted
+at every world **where the selected individual exists**. It makes no claim
+about an explanation where that individual is absent. No increasing/decreasing
+domain policy is assumed.
+
+A sufficient condition for actual stability is `AnchorOverlap`:
+there is a world where the explanandum holds with exactly one admitted reason,
+and every other world of its existence shares an admitted reason with that
+anchor. Local overlap witnesses initially vary; uniqueness at the anchor
+identifies all of them with its unique reason. The Lean theorem
+`anchorOverlap_implies_actualStable` implements precisely this inference.
+`actualStable_implies_stable` projects to the existing weaker token-only
+statement. Neither local PSR nor existence of a necessary bearer supplies
+anchor uniqueness or overlap. Indeed overlap already includes local witnesses;
+local PSR alone is not an additional hidden premise in this theorem.
+
+Two controls keep the bridge discriminating. `alternating_actual_local` and
+`alternating_not_actualStable` reuse the existing two-world alternating model
+with exactly its local reason present in each token domain. Even *actual*
+local reasons do not validate the shift. `overlapModel` has the same necessarily
+existing explanandum in both worlds, one intrinsic-tagged token admitted at
+both, and an extra circumstance token only at world `true`. It is sound and
+satisfies `overlap_anchor`, but `overlap_not_invariant` shows full invariance
+fails: the extra token cannot transfer to world `false`. Thus the sufficient
+anchor criterion does not assume invariance of all reasons. Conversely,
+`ReasonInvariant` preserves only `explains`, not token-domain membership.
+The older invariance theorem concludes token-only `StableExplanation` under
+its existence and worldwise-explanation hypotheses; it does not establish
+`ActualStable` for independently varying token domains. The certificate
+packages the general laws and both controls, with zero allowed axioms.
+
+The exact premise delta is conditional: add an existing anchor, its unique
+admitted reason, and anchor-to-world overlap; derive one admitted token on all
+worlds of this individual's existence. No new hypothesis is attributed to a
+source. If the individual additionally exists in every world, that same token
+belongs to every supplied token domain, but no such metaphysical existence is
+established here. No actual external bearer, sufficient intrinsic essence,
+circularity prohibition, or all-truths PSR is inferred. Existence-PSR remains
+restricted to existence facts; contingent-only PSR may leave a necessary
+individual unexplained, as the earlier #312 scope controls already show.
+
+The strongest varying-witness rival survives unless overlap is defended;
+brute-fact rivals reject the local-PSR starting point. The stable control
+exhibits a formal configuration rather than defending necessary-ground
+metaphysics. Source attribution is paused by the current owner scope; adequacy
+of the tags and the bridge remain open philosophical commitments. Complete
+history/external-inventory selection belongs to #467. Intended and actual
+Catholicism-root open-premise change: **none**, on every existing route.

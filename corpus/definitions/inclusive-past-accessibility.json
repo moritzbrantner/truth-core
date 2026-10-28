@@ -1,0 +1,7 @@
+{
+  "id": "DEF-INCLUSIVE-PAST-ACCESSIBILITY",
+  "term": "inclusive-past accessibility",
+  "definition": "For a supplied Preorder T, accessibility from t to s means s\u2264t, including the current time. This inline instance of the existing Frame is reflexive and serial regardless of whether an earliest time exists. Inclusive self-access does not supply a strictly earlier time.",
+  "basis": "stipulative",
+  "note": "Owner-approved bounded temporal interpretation of the existing Frame/order vocabulary; no new Lean semantic primitive. See inline frames in Modal.PastSerialityCertificate. Time points are not identified with modal alternative complete histories or causal graph vertices. No physical-past, duration or event-count claim."
+}

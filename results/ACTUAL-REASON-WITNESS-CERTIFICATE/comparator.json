@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ActualReasonWitness.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ActualReasonWitness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ActualReasonWitness.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
