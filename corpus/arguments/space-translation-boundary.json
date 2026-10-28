@@ -1,0 +1,17 @@
+{
+  "id": "SPACE-TRANSLATION-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SPACE-TRANSLATION-BOUNDARY",
+  "inference_ids": [
+    "INF-SPACE-TRANSLATION-BOUNDARY"
+  ],
+  "meaning": "In the labeled real-line profile, signed relative-displacement agreement is exactly a common translation when a body is supplied, and every common translation preserves all pair distances. Nonzero shifts change every inhabited absolute configuration, so no deterministic absolute-output selector using only those relative data can be covariant under all translations. Origin anchoring provides a translation-invariant relational representative. The two-body fixture has distinct locations 0 and 1, retains their distance under a unit shift, and differs absolutely; an empty-body selector control exposes the inhabitedness condition. No physical-equivalence, adequate-reason or preferred-ontology conclusion follows.",
+  "definition_ids": [
+    "DEF-SPATIAL-TRANSLATION-PROFILE",
+    "DEF-SPATIAL-COVARIANT-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-DATA-IDENTITY",
+    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+  ]
+}

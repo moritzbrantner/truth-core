@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION",
+  "term": "justificational status, reflective access, reliable process and theory revision",
+  "sense_definition_ids": [
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION",
+    "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+  ],
+  "resolution": "A belief’s justification, knowledge that it is justified, the ability to articulate reasons and knowledge of its content are distinct. Goldman permits fallible justified beliefs, so justification is not factive knowledge. Principles (6A)–(6B) form an initial historical account, not the unqualified final answer; section III adds objections and tentative qualifications. His available alternative cognitive processes differ from infinitist available reasons. GeneratedWarrant is a separately stipulated all-premise inductive standard; no source identity or causal/ontological transfer is asserted. Process causal ancestry concerns belief production and does not identify efficient per se power, temporal eternity or a metaphysical existence explanation."
+}

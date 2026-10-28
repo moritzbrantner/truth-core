@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SELLARS-RECOGNIZED-REPORT-RELIABILITY",
+  "paraphrase": "For Sellars, observational knowledge requires reliable indication in standard conditions and the reporter’s recognition of that authority.",
+  "definition_ids": [
+    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
+    "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-APOST-72B-CIRCULAR-SELF-RETURN",
+  "statement_id": "STMT-ARISTOTLE-ANPOST-CIRCULAR-SELF-RETURN",
+  "source_id": "ARIST-APOST",
+  "locator": "I.3, 72b32–73a20",
+  "interpretation": "The argument targets unconditional demonstrative knowledge from the circular procedure, not logical invalidity of A-implies-A or a proof against every coherentist theory. The closing qualification about reciprocally following terms is preserved; no general impossibility of all mutual entailment is attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
+    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
+    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+  ]
+}

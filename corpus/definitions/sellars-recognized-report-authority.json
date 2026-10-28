@@ -1,0 +1,9 @@
+{
+  "id": "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY",
+  "term": "recognized observational authority in Sellars",
+  "basis": "sourced",
+  "definition": "The reporting capacity reliably indicates the reported condition under standard perceptual circumstances, and the reporter knows the relevant reliability rather than merely exhibiting a causal regularity. These requirements are not stated here as jointly sufficient for all knowledge.",
+  "claim_ids": [
+    "SELLARS-EPM-35-RECOGNITION"
+  ]
+}
