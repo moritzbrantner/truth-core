@@ -231,6 +231,17 @@
         "esse"
       ],
       "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.grades"
+    },
+    {
+      "statement_id": "STMT-GRADES-HAVE-A-MAXIMUM",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn"
+      ],
+      "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.gradesHaveMaximum"
     }
   ],
   "modules": [

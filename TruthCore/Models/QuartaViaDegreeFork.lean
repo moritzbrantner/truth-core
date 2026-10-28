@@ -35,6 +35,12 @@ theorem grades :
     TruthCore.Models.Order.HomogeneousCausalControl.model]
   decide
 
+theorem gradesHaveMaximum :
+    GradesByApproachToAMaximumReading model.InAct model.MoreIn := by
+  dsimp only [GradesByApproachToAMaximumReading, IsMaximumIn, model,
+    TruthCore.Models.Order.HomogeneousCausalControl.model]
+  decide
+
 theorem strictTop :
     QuartaViaStrictCausalTop model.InAct model.MoreIn model.CausesIn model.esse := by
   dsimp only [QuartaViaStrictCausalTop, IsMaximumIn, model,
@@ -93,6 +99,10 @@ theorem grades : GradesFoundInThingsReading moreIn esse esse esse :=
   ⟨⟨1, 0, Nat.zero_lt_succ 0⟩, ⟨1, 0, Nat.zero_lt_succ 0⟩,
     ⟨1, 0, Nat.zero_lt_succ 0⟩⟩
 
+theorem violatesGradesHaveMaximum :
+    ¬ GradesByApproachToAMaximumReading inAct moreIn :=
+  fun h => noMaximum (h esse ⟨1, 0, Nat.zero_lt_succ 0⟩)
+
 theorem unboundedDegrees : QuartaViaUnboundedDegrees moreIn esse :=
   fun x => ⟨x + 1, Nat.lt_succ_self x⟩
 
@@ -120,5 +130,24 @@ def BranchWitnesses : Prop := FiniteTop.JointWitness ∧ Unbounded.JointWitness
 
 theorem branchWitnesses : BranchWitnesses :=
   ⟨FiniteTop.jointWitness, Unbounded.jointWitness⟩
+
+/-! The empty-domain control is deliberately separate from the nonempty branch
+witnesses above. It is not a member of the finite-model registry. -/
+namespace EmptyControl
+def inAct (_ : Empty) (_ : Unit) : Prop := False
+def moreIn (_ : Unit) (_ _ : Empty) : Prop := False
+def esse : Unit := ()
+
+theorem gradesHaveMaximum : GradesByApproachToAMaximumReading inAct moreIn := by
+  intro _ ⟨x, _, _⟩
+  exact Empty.elim x
+
+theorem unboundedDegrees : QuartaViaUnboundedDegrees moreIn esse :=
+  fun x => Empty.elim x
+
+theorem violatesGradesFound : ¬ GradesFoundInThingsReading moreIn esse esse esse := by
+  intro ⟨⟨x, _, _⟩, _, _⟩
+  exact Empty.elim x
+end EmptyControl
 
 end TruthCore.Models.QuartaViaDegreeFork
