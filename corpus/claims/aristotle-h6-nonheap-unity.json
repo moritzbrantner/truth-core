@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1045A-NONHEAP-UNITY",
+  "statement_id": "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
+  "source_id": "ARIST-MET",
+  "locator": "VIII.6, 1045a8–14",
+  "interpretation": "Prose source reading of the opening explanatory demand, preserving its nonheap condition. It does not identify the cause as a numerically distinct efficient agent, a nonpart of the whole, or a cause sustaining existence, and does not quantify over every mathematical fusion.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ARISTOTLE-NONHEAP-WHOLE",
+    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
+    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+  ]
+}
