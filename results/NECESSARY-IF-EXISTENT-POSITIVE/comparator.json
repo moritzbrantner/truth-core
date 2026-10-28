@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.NecessaryIfExistent.positive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
