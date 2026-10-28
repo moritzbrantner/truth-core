@@ -1,0 +1,30 @@
+{
+  "id": "ATTEMPT-SCIENTIFIC-TESTING-CALIBRATION",
+  "statement_ids": [
+    "STMT-PHYSICAL-EXPERIMENT-THEORETICAL-INTERPRETATION",
+    "STMT-EXPERIMENT-APPLICATION-VERSUS-TEST",
+    "STMT-TEST-FAILURE-THEORETICAL-BUNDLE",
+    "STMT-CRUCIAL-TEST-CERTAINTY-NEEDS-EXHAUSTIVENESS",
+    "STMT-SCIENTIFIC-REVISION-DEFEASIBLE-JUDGMENT",
+    "STMT-SCIENCE-MEASUREMENT-CALIBRATION",
+    "STMT-HUME-INDUCTION-TESTS",
+    "STMT-SCIENCE-PREDICATE-RECODING",
+    "STMT-HISTORY-CONTRASTIVE-CONTROLS"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Pinned twice and materialized Duhem1906 French chapterVI; read §§I–III and X with contextual passages. Five prose readings retain theoretical instrument interpretation, application/test difference, bundle-level failure and retained auxiliary trust, independent exhaustiveness gap, and positive defeasible good-sense judgment. Existing Hume finite-prefix, predicate-recoding and history-contrastive controls inspected/reused rather than repeated. New analyst additive-group certificate characterizes all-input response equivalence exactly as a compensating offset shift, proves shared-anchor identifiability under constant bias, and supplies inhabited constant/variable-bias omission controls. Source claims are not credited with the analyst theorem. Lean development diagnostics accepted after one closed-decision normalization fix; canonical build/binding/Comparator/NanoDa remain final-CI obligations. Rejected opaque modus-tollens transcription, predictive-fit-as-truth/explanation, arbitrary-choice reading of Duhem, and one-anchor identification under variable bias. Exact locators, witness limits, strongest realist/instrumentalist/holistic replies and remaining bridge are in docs/notes/scientific-testing-and-calibration.md. Root premise delta zero.",
+  "evidence": [
+    "DUHEM-VI-I-THEORETICAL-INTERPRETATION",
+    "DUHEM-VI-II-APPLICATION-VERSUS-TEST",
+    "DUHEM-VI-II-FAILURE-BUNDLE",
+    "DUHEM-VI-III-CRUCIAL-EXHAUSTIVENESS",
+    "DUHEM-VI-X-DEFEASIBLE-JUDGMENT",
+    "SCIENCE-MEASUREMENT-CALIBRATION",
+    "HUME-INDUCTION-TESTS",
+    "SCIENCE-PREDICATE-RECODING",
+    "HISTORY-CONTRASTIVE-CONTROLS"
+  ],
+  "blocker": "The actual reliability of a calibration reference, constant bias and additive profile, exhaustive scientific alternatives, normative scientific judgment and any transition from empirical adequacy to ontological explanation remain open. Final CI verification is pending."
+}

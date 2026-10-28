@@ -1,0 +1,30 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DUHEM-THEORIE-PHYSIQUE",
+    "source_url": "https://fr.wikisource.org/w/index.php?title=La_Th%C3%A9orie_physique/SECONDE_PARTIE/Chapitre_VI&oldid=11940991",
+    "retrieved_at": "2026-10-28T20:22:34Z",
+    "sha256": "sha256:5a50d085adb9d0a7d643c444e2b410fa716c62769265a60a983d56971e7ac827",
+    "encoding": "utf-8",
+    "language": "fra",
+    "license": "Duhem1906 original public-domain work; Wikisource transcription under site CC BY-SA terms. Two revision-URL fetches matched byte/text hashes. The revision still transcludes scanned-page transcriptions; future drift fails integrity checks. Archive fallback search is recorded in linked research note."
+  },
+  "passages": [
+    {
+      "id": "DUHEM-THEORIE-PHYSIQUE-VI",
+      "locator": "Seconde partie, chapitre VI, §§I–X, pp.295–359",
+      "claim_locator_prefixes": [
+        "Seconde partie, VI §I",
+        "Seconde partie, VI §II",
+        "Seconde partie, VI §III",
+        "Seconde partie, VI §X"
+      ],
+      "html_selector": {
+        "element_id": "mw-content-text"
+      },
+      "text_sha256": "sha256:47b975f671592ae856ebb7931abde33feb90b05cdeb0ec3fdcdd4af4190d6c19",
+      "incipit": "Pierre Duhem\nLa Théorie physique\nChevalier & Rivière, 1906"
+    }
+  ],
+  "notes": "Full chapter pinned for context; the bounded readings concern §§I–III and X. Read materialized French before claims. No actual scientific theory or epistemic adequacy is verified merely by this source pin."
+}

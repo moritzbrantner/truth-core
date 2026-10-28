@@ -1,0 +1,14 @@
+{
+  "id": "DUHEM-VI-II-FAILURE-BUNDLE",
+  "statement_id": "STMT-TEST-FAILURE-THEORETICAL-BUNDLE",
+  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "locator": "Seconde partie, VI §II, pp.303–307",
+  "interpretation": "Prose source reading only; no attributed Lean theorem. The source’s scope is the physical experimental procedure with theoretical auxiliaries, not a proof that no hypothesis can ever be rationally rejected. The retained confidence is an explicit condition of fault attribution, not established infallibility.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

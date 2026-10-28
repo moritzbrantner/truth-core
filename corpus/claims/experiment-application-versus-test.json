@@ -1,0 +1,14 @@
+{
+  "id": "DUHEM-VI-II-APPLICATION-VERSUS-TEST",
+  "statement_id": "STMT-EXPERIMENT-APPLICATION-VERSUS-TEST",
+  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "locator": "Seconde partie, VI §II, pp.301–302",
+  "interpretation": "Prose source reading only; no attributed Lean theorem. Preserves Duhem’s distinction between using a theory and testing it. Successful practical use is not here promoted to independent confirmation, deductive certainty, or an answer to every circularity objection.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}
