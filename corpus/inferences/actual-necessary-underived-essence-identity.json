@@ -1,0 +1,19 @@
+{
+  "id": "INF-ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-NECESSARY-WELL-FOUNDED",
+    "STMT-ACTUAL-NO-CONTINGENT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-ACTUAL-UNDERIVED-ESSENCE-IDENTITY",
+  "rule": "direct-proof",
+  "meaning": "Apply not_not_underived_of_lifting to a constant-world gated relation containing only actual R edges between necessary bearers. The actual necessary restriction is well-founded; its gated predecessors trivially lift. Local no-contingent support upgrades absence of gated incoming edges to absence of every actual existing R supporter. Explicit excluded middle selects this same actual necessary source. Apply actual_not_not_identity_direct and excluded middle to obtain represented essence–esse identity for it. This is a conditional composition consuming the existing q3 transcription; all philosophical premises remain open. No all-world underivedness, actual reflexivity, global no-contingent condition or union well-foundedness follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

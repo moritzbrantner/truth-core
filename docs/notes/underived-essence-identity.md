@@ -157,3 +157,118 @@ Against pristine origin/main at4e1f3dd4, all eight route records, the63 root
 items and reaching-root statement set are unchanged. Global closed/control
 bookkeeping and premise-dependent indexes may gain this outpost; this is not
 a reduction of root obligations.
+
+
+## No-contingent-support restriction: source interface boundary
+
+A follow-up to the same-witness route inspected `related` and the dossiers for
+`STMT-NO-CONTINGENT-GROUND-OF-NECESSARY` and
+`STMT-CAUSE-OF-NECESSITY-IS-NECESSARY`, including the existing minimal-bridges
+and finite-union attempts. The independent defense remains blocked; the
+switching rival and its existing certificates are retained unchanged.
+
+The existing q2a3 claim
+`AQUINAS-ST-I-Q2-A3-CAUSE-OF-NECESSITY-NECESSARY-A` was already explicit that
+necessity inheritance is presupposed rather than argued. Full materialization
+and reading of `AQUINAS-ST-I-Q2-A3` confirmed its precise locus, I q.2 a.3 co.,
+tertia via, the transition from the necessity dichotomy to the regress among
+necessary beings having a cause of their necessity. This adds no new source
+claim or independent defense. The existing candidate
+`AQUINAS-TERTIA-VIA-OPEN-PREMISES`, item (4), already owns that defense.
+
+The additional interface finding is that even accepting this historical
+premise does not supply the modern restriction. Its exact Lean type uses
+`IsNecessary Possible IsAt` and `CausesNecessityOf c x`; the restriction uses
+`NecessaryAt m w₀` and `supportsEsse w c x`, with existence of c at w.
+`DEF-NECESSARY-BEING` explicitly leaves possibility primitive over temporal
+conditions. Neither an identification with root-accessible de re existence
+nor a conversion from every direct esse supporter to a cause of the bearer's
+necessity is given. Both conversions would be additional open commitments;
+importing the historical premise alone would hide them. In particular, a
+cause of existence at one world need not thereby explain necessity across
+worlds. This mismatch is separate from the already recorded absence of a
+defense of the historical premise itself.
+
+The proposed replacements were rejected as defenses for these exact reasons:
+
+- De dicto necessary sufficiency of *some* supporter permits different
+  contingent supporters at different worlds. Universal existence of an
+  existential witness does not fix the witness. Conversely, necessary
+  sufficiency of a particular supporter's existence for the target's existence
+  has the implication in the wrong direction for necessity inheritance.
+- Essential dependence on a particular c could support the needed converse,
+  that target existence requires c's existence throughout the root-accessible
+  worlds. Applying it to **every** present direct supporter would add the
+  disputed universal essential-dependence commitment. It is not established
+  by the label “direct esse support”; no uniqueness or fixed supporter may be
+  inserted silently. A restriction to essential supporters leaves the
+  original underivedness conclusion, which excludes all direct supporters,
+  needing a further adequacy bridge.
+- Essential origin concerns the identity or origin of the bearer. The present
+  support primitive concerns direct support at each world and has no origin
+  parameter. Transferring a principle about a particular origin to all
+  concurrent supporters would be a further substantive premise.
+
+There is also a scope boundary: `NoContingentGroundOfNecessary` quantifies over
+**every** world w, while `NecessaryAt m w₀` quantifies only over worlds
+accessible from w₀. A principle asserted only at accessible evaluation worlds
+would not cover incoming support elsewhere unless a further scope condition
+were supplied. The existing conclusion itself excludes support at every
+admitted world, so simply weakening this premise's world quantifier would not
+preserve the advertised theorem. This is inspection of the existing types,
+not a newly certified model or impossibility theorem.
+
+No Lean declaration, source claim, candidate, argument, or closure flag changes.
+Intended and actual root-premise delta: none. Stop this line until independent
+evidence discriminates universal essential dependence from switching support,
+or justifies the two source interfaces and their world scope.
+
+## Selected-world necessary restriction
+
+`ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY` isolates the scope actually used
+by `actual_not_not_identity_direct`. Its conclusion is deliberately weaker than
+`UnderivedEssenceIdentity`: the same witness is actually present, necessary,
+without an incoming **actual** existing R-supporter, and has represented
+essence–esse identity. It makes no statement about its incoming support at
+other worlds.
+
+The actual-source construction reuses `not_not_underived_of_lifting` on the
+constant-world gated relation
+`G v c n := NecessaryAt m w c ∧ NecessaryAt m w n ∧
+PresentEsseSupport m R w c n`. Well-foundedness is required only for this actual
+necessary-bearer restriction. The existing `PresentEsseSupport` guards the source's actual presence;
+the necessary target is not separately required to be actual by the relation.
+The extracted witness supplies target presence explicitly. Lifting for G is
+immediate from its gates and places no cross-world constraint on R. G is a
+constant-index mathematical auxiliary, not an invariant original R relation. Actual no-contingent-support upgrades
+absence of G predecessors to absence of all actual existing R supporters.
+Explicit excluded middle selects a witness and removes the double negation
+from the q3 identity for that same witness. The q3 implication is imported,
+not reproved; the existing historical readings and three actual adapters are
+retained unchanged.
+
+Compared with the original union route, actual reflexivity is removed,
+all-world no-contingent support is replaced by its actual-world instance, and
+union WF is replaced by WF of the actual necessary restriction. Neither WF
+of all actual beings nor no-novel-support is assumed. These are conditional
+burden reductions accompanying a weaker conclusion, **not** a derivation of
+the original global conclusion or defense of metaphysical premises. The
+existing `rotating` interpretation satisfies the new source premises while
+`rotatingNoUnderived` refutes global underivedness; `rotating_strictness`
+imports its existing local-WF and necessity proofs. No second finite fixture
+was introduced. The control is a mathematical interpretation, not a claim of
+metaphysical possibility.
+
+No existing root consumer was replaced. Intended and actual root-frontier
+premise delta: zero. The historical support/necessity interface gaps above,
+q3 exhaustiveness, and all actual adapters remain open. No new attribution is
+made. New predicates are selected-world restrictions of the existing
+vocabulary; all original Challenge files remain frozen.
+
+Focused persistent-session evidence: preview HEAD
+`210ab594fb5a1b2af75a6f0af684299937065238`, session `causal-harvest`,
+`Scratch/actual-scope-essence/Preview.lean`, content SHA256
+`bf45070203daba644ea9bab90464e9a7fd8241bd175f10761d64a1068079c68c`,
+diagnostics empty. The preview concatenated the new definition and solution
+modules and imported the already checked direct q3 result. This is development
+evidence; final build, binding, Comparator and NanoDa remain CI authorities.
