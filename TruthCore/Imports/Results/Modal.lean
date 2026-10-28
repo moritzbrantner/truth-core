@@ -18,6 +18,7 @@ import TruthCore.Results.Modal.ExistenceDegrees.Solution
 import TruthCore.Results.Modal.ExistenceDegreesActual.Solution
 import TruthCore.Results.Modal.GraphBridge.Solution
 import TruthCore.Results.Modal.GraphBridgeCertificate.Solution
+import TruthCore.Results.Modal.HistoryContrastive.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution
