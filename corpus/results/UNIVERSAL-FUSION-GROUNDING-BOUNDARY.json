@@ -1,0 +1,10 @@
+{
+  "id": "UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
+  "argument_id": "UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Solution",
+  "theorem": "TruthCore.Results.Mereology.UniversalFusionBoundary.checks",
+  "comparator_config": "results/UNIVERSAL-FUSION-GROUNDING-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "In a fixed inhabited partial-order domain, unrestricted nonempty-family Sum2 fusion supplies a greatest entity. A whole covering the specified material domain cannot have a material nonpart candidate. Nonempty subsets of two constituents witness unrestricted fusion, a composite greatest whole and an irreflexive strict-part relation supplying every composite with a distinct candidate ground; the same fusion facts with an empty relation fail that requirement. Every same-domain outside-parts cause of the whole is excluded for every candidate cause relation, while a separately enlarged carrier admits a nonmaterial nonpart candidate. The latter is not asserted to be an actual cause. Numerical distinction, nonparthood, causal adequacy, substantial unity and composition-as-identity remain distinct. No root premise or actual metaphysical applicability is established."
+}

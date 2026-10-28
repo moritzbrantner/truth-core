@@ -2701,7 +2701,7 @@ def collect_configuration_reports(args: argparse.Namespace, context=None):
         raise CorpusError("--premise requires exactly one selected case")
     reports = []
     verified_results: set[str] = set()
-    bound_results: set[str] = set()
+    original_result_ids: set[str] = set()
     for case in cases:
         selection = None
         if args.premise:
@@ -2711,17 +2711,7 @@ def collect_configuration_reports(args: argparse.Namespace, context=None):
         try:
             verification = None if args.registered else verify_case(case, statements, results, arguments, models, ROOT, verified_results)
             if verification is not None:
-                original_ids = sorted(set(case.get("incompatibility_result_ids", []) + case.get("implication_result_ids", [])) - bound_results)
-                if original_ids:
-                    originals = [results[rid] for rid in original_ids]
-                    descriptions = {entry["theorem"]: entry for entry in run_bind_tool(bind_tool_input([(ROOT, result) for result in originals]))}
-                    statement_index = {sid: (ROOT, statement) for sid, statement in statements.items()}
-                    for result in originals:
-                        binding = bind_result(result, arguments[result["argument_id"]], statement_index,
-                                              descriptions.get(result["theorem"], {"error": "missing original theorem description"}))
-                        if binding["status"] != "bound":
-                            raise CorpusError(f"{result['id']}: original theorem binding rejected: {binding['problems']}")
-                        bound_results.add(result["id"])
+                original_result_ids.update(case.get("incompatibility_result_ids", []) + case.get("implication_result_ids", []))
                 verification["original_bound_result_ids"] = sorted(set(case.get("incompatibility_result_ids", []) + case.get("implication_result_ids", [])))
             report = configuration_report(case, results, arguments, models, verified=verification is not None, selection=selection)
             if verification is not None:
@@ -2730,6 +2720,18 @@ def collect_configuration_reports(args: argparse.Namespace, context=None):
             raise CorpusError(str(exc)) from exc
         report["verification"] = verification
         reports.append(report)
+    if original_result_ids:
+        # Every selected case has now built and verified its modules. Describe the
+        # unique original theorems together, avoiding repeated Lean startup/imports;
+        # no report escapes if any original binding fails.
+        originals = [results[rid] for rid in sorted(original_result_ids)]
+        descriptions = {entry["theorem"]: entry for entry in run_bind_tool(bind_tool_input([(ROOT, result) for result in originals]))}
+        statement_index = {sid: (ROOT, statement) for sid, statement in statements.items()}
+        for result in originals:
+            binding = bind_result(result, arguments[result["argument_id"]], statement_index,
+                                  descriptions.get(result["theorem"], {"error": "missing original theorem description"}))
+            if binding["status"] != "bound":
+                raise CorpusError(f"{result['id']}: original theorem binding rejected: {binding['problems']}")
     return reports
 
 

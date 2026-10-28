@@ -1,0 +1,14 @@
+{
+  "id": "PLATO-PHAEDO-99BC-EXPLANATORY-SEARCH",
+  "statement_id": "STMT-PLATONIC-PHAEDO-99BC-EXPLANATORY-SEARCH",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "99b–c",
+  "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. This is a bounded report of the explanatory aspiration and acknowledged failure before the second voyage, not an assertion that the subsequent safe answer has already supplied a complete purposive cosmology or a highest unique cause.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+  ]
+}

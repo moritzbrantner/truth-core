@@ -1,0 +1,16 @@
+{
+  "id": "STREET-RAILTON-WELFARE-TAXONOMY",
+  "statement_id": "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
+  "source_id": "STREET-DARWINIAN-DILEMMA",
+  "locator": "pp. 136–139, §7: value naturalism; especially p. 137 and note 42",
+  "interpretation": "Street’s classification of the individual-welfare account only; not a reclassification of every Railton commitment, a refutation, or an identification of welfare with impartial moral rightness. The project’s appraiser-independence vocabulary is weaker, and Railton’s own natural-basis explanatory order remains separately recorded.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-STREET-STANCE-INDEPENDENCE",
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
+    "DEF-RAILTON-NONMORAL-WELFARE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

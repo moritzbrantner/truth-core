@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INFINITE-WAGER-ACTION-WEIGHT",
+  "term": "independent rewarded-act probability",
+  "definition": "The second parameter q of InfiniteWager.value p q is the independent probability of selecting the rewarded act, interpreted in [0,1]. It is distinct from the prior p over the reward state. Selecting an act does not make the state true and is not represented as selecting a belief.",
+  "basis": "stipulative",
+  "note": "Analyst interpretation of the second ENNReal parameter. Independence is an explicit restricted profile, not an established fact about religious action or belief.",
+  "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
+}

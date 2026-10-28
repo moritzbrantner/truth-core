@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-FUSION-DOMAIN",
+  "term": "domain-relative universal whole",
+  "definition": "Covers material u means every candidate satisfying the specified material predicate is a part of u. It does not assert that every candidate is material, that all beings belong to this domain, or that u explains its parts.",
+  "basis": "stipulative",
+  "note": "Analyst scope profile for #328, motivated by the materialized Varzi exposition. All-subset quantification is an explicit second-order mathematical choice; neither causal sufficiency nor metaphysical adequacy is attributed to the source. See docs/notes/universal-fusion-grounding.md.",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Covers"
+}
