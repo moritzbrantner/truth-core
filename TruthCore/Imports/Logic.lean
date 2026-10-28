@@ -2,6 +2,7 @@
 import TruthCore.Logic.CogitoConcrete
 import TruthCore.Logic.CogitoSubject
 import TruthCore.Logic.Configuration
+import TruthCore.Logic.CorrectionCriterion
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.MaximumOrder

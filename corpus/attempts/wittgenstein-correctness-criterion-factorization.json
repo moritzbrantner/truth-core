@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-WITTGENSTEIN-CORRECTNESS-CRITERION-FACTORIZATION",
+  "statement_ids": [
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Read materialized Anscombe PI I.239–274; I.258/I.265 prompted, but do not themselves assert, the analytical criterion theorem. Constructed exact image-predicate factorization and shared-report/identity-data controls. Reject identification of correctness with seeming, public consensus, and attribution of Kripke’s skeptical solution to Wittgenstein. Extensional factorization does not supply an accessible or justified criterion and changes no root premise. Source/rejected readings/remaining fork in docs/notes/wittgenstein-criterion-and-correctness.md.",
+  "evidence": [
+    "CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ]
+}
