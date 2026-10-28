@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-PSR-SOUND-COMPONENT",
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-MODAL-EXPLANATION-STABLE",
+    "STMT-WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+    "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+    "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inventoried ExistencePSR, WorldwiseExplanation, BruteFoundationExplanations, HistoryContrastive, UnderivedCommonSource and PowerExistenceBoundary and read target dossiers. Existing finite scope/nonnecessitation controls and conservation-to-this-power conditional are reused, not repeated. New general construction expands ANY Ontic to weak sound token coverage plus stable tokens and guarded reason invariance with its exact original frame/existence/causes. A projection theorem certifies no added ontic constraint for this model class. Unchanged named fixedEffects supplies actual necessary cause and necessary caused effect; unchanged alternatingEffects supplies a contingent existent whose same weak token does not explain its absence elsewhere. Rejected treating intrinsic tags as adequate intrinsic reasons, stable tokens as unconditionally world-invariant explaining, ontic necessity as independence, or the old SupportsEsse field as independently defended real conservation. Materialized/read full existing translated q104a1; its direct-conservation/becoming distinction is already sourced and the CausesIn interpretation remains open. No new historical claim or cross-domain identity. Exact philosophical premise delta zero; no root leaf discharged. Development diagnostics pass with no axioms; final delivered CI owns build/binding/Comparator/NanoDa. Full reasoning and remaining bridges persist in docs/notes/weak-explanation-conservative-expansion.md.",
+  "evidence": [
+    "WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+    "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE",
+    "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE"
+  ]
+}
