@@ -1,5 +1,4 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
-import TruthCore.Logic.ExcludedMiddle
+import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FinitePopulationCover
 
 /-! Conditional finite-population bridge (#533). Stipulated semantics only.
 The ambient rigid roster can be infinite. Cover and amalgamation remain open
@@ -9,14 +8,6 @@ open TruthCore.Modal
 open TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1 (ExistsAt)
 universe u v
 variable {W : Type u} {I : Type v}
-
-/-- There is at least one successor, independently of population. -/
-def AccessibleSuccessor (F : Frame W) (w : W) : Prop := ∃ v, F.access w v
-
-/-- Every individual present anywhere accessible lies in one finite list.
-This is a population cover, not a finite hitting set. -/
-def FinitePopulationCover (F : Frame W) (present : ExistsAt W I) (w : W) : Prop :=
-  ∃ xs : List I, ∀ v, F.access w v → ∀ x, present x v → x ∈ xs
 
 /-- Constructive finite omission induction. The empty list requires a successor;
 the step combines its omission world with the next individual's absence world. -/
@@ -104,11 +95,6 @@ theorem successor_free_control :
     exact Empty.elim x
   · intro ⟨_, hv, _⟩
     exact hv
-/-- Infinite tails under universal accessibility. This local control uses the
-issue's explicit order semantics, not a new modal engine. -/
-def finiteCoverTailFrame : Frame Nat := ⟨fun _ _ => True⟩
-def finiteCoverTailPresent : ExistsAt Nat Nat := fun x n => n ≤ x
-
 /-- Tails are populated and amalgamate via max, but each fixed member is absent
 later. Hence there is no necessary individual and no finite population cover. -/
 theorem tail_control :

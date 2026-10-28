@@ -6,8 +6,11 @@
   ],
   "date": "2026-10-28",
   "kind": "derivation",
-  "outcome": "blocked",
-  "summary": "Finite-list omission, full-cover joint absence, necessary-population incompatibility and explicit-EM positive DeRe reconstructed in a zero-axiom Lean service preview. Alternating, infinite-tail and successor-free controls also elaborate with zero axioms. Findings and exact preview identity persist in docs/notes/finite-population-cover-533.md. These mathematical conditionals discharge no root premise; cover and amalgamation remain open. Comparator and final corpus packaging are pending.",
-  "evidence": ["PR-614"],
-  "blocker": "Approved shared PopulationClosure API in PR #614 is not yet on main. Final direct-main PR must not duplicate or stack its vocabulary."
+  "outcome": "succeeded",
+  "summary": "Finite-list omission, full-cover joint absence, necessary-population incompatibility and explicit-EM positive DeRe reconstructed and packaged in Challenge/Solution with zero-axiom Comparator configurations. Alternating, infinite-tail and successor-free controls also elaborate with zero axioms. Exact warm-service evidence and interpretive limits persist in docs/notes/finite-population-cover-533.md. This successful derivation attempt does not establish its metaphysical policies or change root closure; canonical final CI certification remains pending.",
+  "evidence": [
+    "FINITE-POPULATION-COVER-LAWS",
+    "FINITE-POPULATION-COVER-CONTROLS",
+    "PR-614"
+  ]
 }

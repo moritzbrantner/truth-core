@@ -14,6 +14,9 @@ import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
 import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution
