@@ -113,3 +113,58 @@ close #319 or the Catholicism frontier.
 **Premise comparison:** no old premises discharged; zero new philosophical
 premises admitted; one independently checked logical-independence statement
 added. The metaphysical bridges remain open for source investigation.
+
+
+## Integration reuse audit (2026-10-28)
+
+The #319 integration inventory reuses the existing results rather than
+recreating their omission models. This is an audit of encoded propositions,
+not a new source reading or a new proof of any metaphysical premise.
+
+| Existing result | Exact reusable consequence | Boundary for the integration |
+| --- | --- | --- |
+| `TruthCore.Results.Causality.PowerExistenceBoundary.originalPowerBlocksEsseSupportIfItTransmits` | Same-channel unborrowed power excludes external esse support if every support edge transmits that power | The support-to-transmission premise is still open; the existing `powerExistenceBoundary` already contains both requested omission models |
+| `TruthCore.Results.Alternatives.RespectSwitch.consecutiveRespects` (#591) | Consecutive motion edges have distinct respects under its four local act/potency premises | It supplies neither a map from power to esse support nor existential independence in every respect |
+| `TruthCore.Causality.NecessarilyUnderived.underived_of_lifting_and_excludedMiddle` (#495) | Given necessary existence, actual support well-foundedness, predecessor lifting and explicit excluded middle, some actual necessary individual has no incoming support from an existent at any admitted world | This conclusion says nothing about power origination, composition, explanation tokens, or identity with a different existential witness |
+| `TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.firstMoverSimple` | A first unmoved mover is simple under its first-being, component-priority, proper-component and composition-kind premises (and the no-body premise for its bodily conclusion) | It already derives simplicity; an integration must supply the first-being relation for this same mover rather than repeat the theorem |
+| `TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.godIsSimple` | Maximality in being, a distinct uniting cause of every composite, and causal comparison exclude composition for a God witness | Neither #495 nor existence-PSR supplies maximality or the God identification |
+| `TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.necessaryPerSeIsMaximeEns` | A necessary-per-se individual equals **each given** maximum in being under the genus-causality, has-being, cause-of-necessity and excluded-middle premises | Its conclusion is universal over a maximum; it does not produce one. `NecessaryAt` and the temporal `IsNecessaryPerSe` remain different predicates |
+
+A precise candidate interface for the remaining **simplicity** connection is
+visible without introducing a simplicity flag. Keep the existing
+`CompositeHasAUnitingCauseReading Composite CausesIn esse` and the same
+individual `x` furnished by `NecessarilyUnderived`. One would need to justify,
+for that individual, that a distinct cause `c` of its being corresponds to a
+`supportsEsse w c x` edge at some admitted world where `c` exists. The uniting
+cause then contradicts the no-incoming-support conjunct. This is a proposed
+relation between existing typed vocabularies, **not** a theorem or an admitted
+premise in this audit. In particular, the uniting-cause reading alone does not
+supply world-indexed presence of its witness. The generic `Ontic` type also
+does not impose endpoint soundness on causal edges.
+
+This interface differs from the existing maximum-based simplicity proof,
+but it cannot honestly be treated as a discharge until that correspondence is
+independently defended. Merely assigning `supportsEsse := CausesIn … esse`
+would select a semantic profile, not prove metaphysical applicability.
+`PowerExistenceBoundary.Composite` means a proper-part witness; the broader
+`Composite` parameter of the q.3 reading is not identified with it here.
+
+The **common-witness** gap also remains: the power theorem and the #495
+theorem supply separate existential witnesses. Their sharing a `Being` type
+would not establish equality. The PSR vocabulary relates `Reason` tokens to
+`ExistenceFact`s and supplies no denotation map making a reason token an esse
+supporter. A uniqueness theorem can transport properties only after both
+witnesses satisfy the same independently specified domain and relations.
+
+The strongest surviving rivals are the existing contingent conserved power
+source, the necessary composite power source, and accounts in which a reason
+for existence is not an external cause. They are not ruled out by a change of
+labels. No new model or source claim was needed to retain these boundaries.
+
+**Actual premise comparison:** zero statements, arguments, inferences or
+results added; zero metaphysical premises added or discharged. Every root
+open-premise set is unchanged. At the audited revision, the eight route costs
+are 31, 32, 36, 38, 39, 39, 40 and 41 (the designated efficient-regress route is
+40). #495 and the necessary-per-se convergence statement are not themselves
+open leaves on these routes. The audit therefore supplies a reusable
+interface and rejects duplicate work; it makes no root-closure claim.
