@@ -1,0 +1,16 @@
+{
+  "id": "SCIENCE-MEASUREMENT-CALIBRATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCIENCE-MEASUREMENT-CALIBRATION",
+  "inference_ids": [
+    "INF-SCIENCE-MEASUREMENT-CALIBRATION"
+  ],
+  "meaning": "In a stipulated constant-additive-bias model over any additive commutative group, exact agreement at every input is equivalent to a global compensating shift of signal and bias. If both signal functions take a supplied common value at a supplied input, the same-readings profiles have equal bias and equal signal values everywhere. An inhabited integer control witnesses different signal/bias profiles with all readings equal; a Boolean input-dependent-bias control preserves all readings and one shared signal value while differing at the other input. Constant bias, additivity and exact data are model restrictions. No actual device, warranted calibration, theory truth, probability or sufficient ontological explanation is established.",
+  "definition_ids": [
+    "DEF-CONSTANT-ADDITIVE-CALIBRATION",
+    "DEF-INPUT-DEPENDENT-CALIBRATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}
