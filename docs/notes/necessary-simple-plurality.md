@@ -81,6 +81,12 @@ each candidate causes the other. The independently verified reciprocal-causal
 and upstream-confluence routes require their own stronger scope conditions;
 they cannot be installed by calling the common target one explanatory domain.
 
+The same interpretation also satisfies the existing uniting-cause reading:
+each explicit composite component witness is a distinct cause in the selected
+`CausesIn` relation. This additional registered evaluation does not show that
+components suffice as actual metaphysical uniters; it exposes the precise weak
+interface assignment rather than omitting that premise.
+
 ## Source argument, source assertion and defended bridge
 
 The existing pinned q.3 a.3, q.3 a.7 and q.11 a.3 were materialized and read in
@@ -133,13 +139,13 @@ premise investigation.
 
 Intended and actual root-premise reduction: **none**. The new result establishes
 one simultaneous finite interpretation and the exact exclusions described
-above. Twenty-seven registered generic statement evaluations permit reuse of
+above. Twenty-eight registered generic statement evaluations permit reuse of
 its kept/violated commitments without changing any universally quantified
 premise's truth or frontier status. No root-route edge or existing Challenge is
 changed; all open root leaves remain open.
 
 Development evidence: combined-content SHA256
-`1449aea3e1096dbccd31cb6b698b52c2720cee8f61e555ddb6e8435faf88daa1`,
+`9df9b744bda1b32e42c9847c7bd0b8f0d3498cecdec9ae655dd8b3b5514fe7fb`,
 shared service at exact preview
 `f2544a0142304bf074112e7323cb5b8ab6e46840`; the combined canonical definitions,
 solution and model projection file elaborated without errors. The main result,

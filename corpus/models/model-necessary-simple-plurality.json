@@ -27,7 +27,9 @@
     "Ontic": "TruthCore.Causality.NecessarySimplePlurality.ontic",
     "actual": "Bool.false",
     "EsseProfile": "TruthCore.Causality.NecessarySimplePlurality.esseProfile",
-    "left": "TruthCore.Causality.NecessarySimplePlurality.Being.left"
+    "left": "TruthCore.Causality.NecessarySimplePlurality.Being.left",
+    "CausesIn": "TruthCore.Causality.NecessarySimplePlurality.esseProfile.CausesIn",
+    "esseRespect": "TruthCore.Causality.NecessarySimplePlurality.Respect.esse"
   },
   "carriers": [
     {
@@ -365,6 +367,18 @@
         "actual"
       ],
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation26"
+    },
+    {
+      "statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Composite",
+        "CausesIn",
+        "esseRespect"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation27"
     }
   ],
   "modules": [

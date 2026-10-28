@@ -1,3 +1,4 @@
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Explanation.ExistencePSR

@@ -140,4 +140,9 @@ theorem evaluation26 : @TruthCore.German.Kant.CosmologicalInference.NecessaryBei
   ⟨Being.left, TruthCore.Results.Causality.NecessarySimplePlurality.ontology.2.1 false Being.left,
     TruthCore.Results.Causality.NecessarySimplePlurality.ontology.2.2.1⟩
 
+theorem evaluation27 : @TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading
+    Being Respect composite esseProfile.CausesIn Respect.esse := by
+  intro x ⟨p, hp, hne⟩
+  exact ⟨p, hne, hp⟩
+
 end TruthCore.Models.NecessarySimplePlurality
