@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOX-ALL-TO-ALL-BOX",
+  "term": "box of guarded forall to guarded forall of box",
+  "definition": "For every arbitrary total P and evaluation world w, if every existing candidate at each accessible v satisfies P v, then every candidate existing at w satisfies P at all accessible v. The outer existence guard is evaluated at w, the boxed guard at v.",
+  "basis": "stipulative",
+  "note": "Approved source-free semantic interface for fixed-roster actualist domain transfer. No physical or metaphysical domain policy is asserted. No free-logic proof calculus, counterpart semantics, or general quantified syntax is introduced.",
+  "lean_declaration": "TruthCore.Modal.ActualistDomains.BoxAllToAllBox"
+}

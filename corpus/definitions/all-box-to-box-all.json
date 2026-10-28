@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ALL-BOX-TO-BOX-ALL",
+  "term": "guarded forall of box to box of guarded forall",
+  "definition": "For every arbitrary total P and evaluation world w, if each candidate existing at w satisfies P at every accessible v, then every candidate existing at each such v satisfies P v. Empty existence extensions are allowed.",
+  "basis": "stipulative",
+  "note": "Approved source-free semantic interface for fixed-roster actualist domain transfer. No physical or metaphysical domain policy is asserted. No free-logic proof calculus, counterpart semantics, or general quantified syntax is introduced.",
+  "lean_declaration": "TruthCore.Modal.ActualistDomains.AllBoxToBoxAll"
+}
