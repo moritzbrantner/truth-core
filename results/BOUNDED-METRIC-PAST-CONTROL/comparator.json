@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.BoundedMetricPast.Challenge",
+  "solution_module": "TruthCore.Results.Modal.BoundedMetricPast.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.BoundedMetricPast.checks"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.NoSingleWorldCycle",
+  "paraphrase": "No world witnesses every edge of any nonempty union loop on the necessary subtype. A witness here is a TransGen loop of edges simultaneously in the union and the selected world.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-UNION-CYCLE",
+    "DEF-NECESSARY-UNION-SINGLE-WORLD-WITNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

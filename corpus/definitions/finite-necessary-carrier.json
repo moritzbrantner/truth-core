@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-NECESSARY-CARRIER",
+  "term": "finite nonempty necessary carrier",
+  "definition": "The subtype of the fixed rigid Being carrier satisfying NecessaryAt m w\u2080 is finite and inhabited. Finiteness of all beings is not required. Necessity alone need not imply actual existence on nonreflexive frames.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.FinitePopulation"
+}

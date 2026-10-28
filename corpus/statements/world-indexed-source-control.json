@@ -1,0 +1,26 @@
+{
+  "id": "STMT-WORLD-INDEXED-SOURCE-CONTROL",
+  "lean_declaration": "TruthCore.Models.WorldIndexedSources.JointControl",
+  "paraphrase": "In the fixed three-world interpretation every causal graph is well-founded and endpoint-sound, yet existing sources vary as {true},{false},{false} with no common bearer. Selected false is necessary and a universal potential causer with a well-founded necessary-only union, but receives an actual contingent cause at world0; the no-contingent-predecessor bridge and named underivedness fail. StarterWorlds is all worlds and RegressWorlds empty.",
+  "definition_ids": [
+    "DEF-WORLD-INDEXED-SOURCE-CONTROL",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-NAMED-NECESSARILY-UNDERIVED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+    "DISAMB-CAUSE"
+  ]
+}

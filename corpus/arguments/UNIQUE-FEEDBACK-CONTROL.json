@@ -1,0 +1,15 @@
+{
+  "id": "UNIQUE-FEEDBACK-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNIQUE-FEEDBACK-CONTROL",
+  "inference_ids": [
+    "INF-UNIQUE-FEEDBACK-CONTROL"
+  ],
+  "meaning": "Nonvacuous unique logical feedback control for #311. Local gates are nonconstant and joint consistency alone selects their state, rather than an observation or a least/greatest fixed-point convention. Whether global structure sufficiently explains actuality remains open.",
+  "definition_ids": [
+    "DEF-UNIQUE-FEEDBACK-STATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIQUE-FEEDBACK-EXPLANATION"
+  ]
+}

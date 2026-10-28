@@ -1,0 +1,23 @@
+{
+  "id": "FINITE-NECESSARY-UNION-CLASSIFICATION",
+  "premise_statement_ids": [
+    "STMT-FINITE-NECESSARY-POPULATION"
+  ],
+  "conclusion_statement_id": "STMT-FINITE-NECESSARY-UNION-SOURCE-OR-CYCLE",
+  "inference_ids": [
+    "INF-FINITE-NECESSARY-UNION-CLASSIFICATION"
+  ],
+  "meaning": "Finite nonempty necessary carriers have a union source or nonempty TransGen loop, inclusively. If no source exists and no loop existed, Mathlib finite transitive irreflexive well-foundedness would yield a source by induction. Finiteness and population remain explicit open background; no root discharge.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-FINITE-NECESSARY-CARRIER",
+    "DEF-NECESSARY-UNION-SOURCE",
+    "DEF-NECESSARY-UNION-CYCLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

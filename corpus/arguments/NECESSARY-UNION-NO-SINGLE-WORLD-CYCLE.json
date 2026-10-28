@@ -1,0 +1,23 @@
+{
+  "id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "premise_statement_ids": [
+    "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "inference_ids": [
+    "INF-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE"
+  ],
+  "meaning": "Under worldwise acyclicity restricted to the same necessary subtype, no nonempty union loop has all its edges witnessed in a single world. Map any proposed common-world path to the local relation and contradict its acyclicity. No claim about all causation or contingent individuals.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
+    "DEF-NECESSARY-UNION-CYCLE",
+    "DEF-NECESSARY-UNION-SINGLE-WORLD-WITNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

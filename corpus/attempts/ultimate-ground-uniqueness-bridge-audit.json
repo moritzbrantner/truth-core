@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-ULTIMATE-GROUND-UNIQUENESS-BRIDGE-AUDIT",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING",
+    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Issue #320 audit at main 0f1059ba: inspected the eight target dossiers and existing exact theorem types, not new source evidence. Q11NatureUniqueness.godIsOneFromNature already derives identity from injective individuating basis, suppositum/nature equality for each proper God instance and one common nature; its three separate Bool omission results are reused, not recast as modal/no-parts countermodels. OneFirstMover.oneFirstMover instead requires every-perfection, distinct-first-mover differentiation in act and the identity/distinctness split. AtMostOneMaximeEns.atMostOneMaximeEns requires genus-wide causation, the unrestricted cause-more-such reading and explicit excluded middle; StageTwo.GodIsOne additionally requires the open God-to-maximum converse. Neither necessity, absence of parts nor essence/esse identity supplies these respective discriminating premises. #595 already adds NecessaryPotentialCausers.noDistinct: actual reflexivity, necessity and universal other-directed potential roles for both candidates, and union-WF with support explicitly selected as ordinary causation imply negative non-distinctness, not positive identity or existence. Its rotating control prevents substituting worldwise WF. A common dependent explanandum is weaker than reciprocal candidate coverage: two sources might share dependent targets while neither is included among the others targets. Their inclusion is precisely what the #595 proof uses to obtain opposite union edges; disjoint-domain grounds also evade that antecedent. No formal countermodel of these additional informal profiles is claimed. StagesOneTwoQ11.uniqueClassicalGodExists already imports the nature theorem and carries the actual First-Way named maximal witness through attributes; it is not a composition from a merely modal underived witness. Rejected adding a bridge whose consequent simply restates uniqueness, or treating stable intrinsic explanation tokens as essence/esse identity. Existing PSR Intrinsic has one existing Bool individual, so it is not the requested two-ground modal/simple joint control. That stronger control remains undelivered rather than simulated with opaque simplicity flags. No source claim, theorem, candidate semantics or frontier closure changes. Intended and actual root-premise delta zero: retained all open leaves, added none, removed none. At this head all eight route costs remain 31,32,36,38,39,39,40,41; designated efficient-regress route 40 and Q11 route 41. The existing Q11 route versus the prima-via classical-attributes maximality route replaces STMT-GOD-IS-MAXIMAL-IN-BEING by the three Q11 targets (39 to 41); this prior relocation is not a discharge by this audit. The full boundary and rival-answer map are persisted at https://github.com/moritzbrantner/truth-core/issues/320#issuecomment-6476507298. Shared-service type inspection used the supplied workspace/session at detached 75192b1c, full-content Scratch/issue320/Audit.lean versions1/2 under /tmp/truth-core-lean.lock, with HTTP200 and only informational #check diagnostics, not new proof or final certification. The service did not mutate the shared checkout or imports.",
+  "blocker": "Defend a noncircular domain/individuation bridge about the actual same ultimate witness: common-nature plus individuating identity, perfection plus differentiation, or reciprocal universal potential-causal coverage with the required union-WF profile. Common dependent targets alone do not supply reciprocal candidate coverage. The #319 underived-to-simplicity/same-witness investigation remains separate. Source attribution is paused; this audit does not resolve the metaphysical admissibility of two necessary simple intrinsically explained grounds.",
+  "evidence": [
+    "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+    "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
+    "Q11-UNIQUENESS-WITHOUT-NATURE-IDENTITY",
+    "Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
+    "AQUINAS-ST-I-Q11-A3-ONE-FIRST-MOVER",
+    "AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS",
+    "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+    "WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+    "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE"
+  ]
+}

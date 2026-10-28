@@ -1,0 +1,15 @@
+{
+  "id": "STMT-FINITE-NECESSARY-POPULATION",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.FinitePopulation",
+  "paraphrase": "The rigidly necessary subtype is finite and nonempty; no actuality of this background is asserted.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-FINITE-NECESSARY-CARRIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

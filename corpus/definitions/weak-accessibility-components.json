@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WEAK-ACCESSIBILITY-COMPONENTS",
+  "term": "weak accessibility component",
+  "definition": "Mathlib Quiver.WeaklyConnectedComponent is the quotient by finite paths in the symmetrified quiver, so edges may be used forward or backward. In oneWay, accessibility is Bool order false \u2264 true, including both loops; all worlds share a weak class, while false and true have distinct strong classes.",
+  "basis": "stipulative",
+  "note": "This is a two-world mathematical control. A reversed edge is permitted only in the weak connectivity query; it does not become an accessibility edge.",
+  "lean_declaration": "TruthCore.Modal.AccessibilityComponents.oneWay"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNION-CYCLE",
+  "term": "nonempty cycle in the necessary-support union",
+  "definition": "There exists a necessary individual b such that Relation.TransGen of the union relation restricted to the necessary subtype holds from b back to b. TransGen requires at least one edge, unlike reflexive-transitive reachability. This permits loops or longer closed walks and does not require a simple cycle. A separate component may contain a source.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.HasCycle"
+}

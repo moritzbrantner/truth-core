@@ -1,7 +1,7 @@
 {
   "id": "DEF-NECESSARILY-UNDERIVED",
   "term": "one rigidly necessary being without incoming existential support",
-  "definition": "At w₀ there is a concrete individual b that actually exists, exists at every world accessible from w₀, and has no direct existential-support edge from an existing candidate at any world in the admitted world carrier. b has the same identity across these modal alternatives. Uniqueness, intrinsic adequate explanation, simplicity, powers, and God are not included.",
+  "definition": "At w\u2080 there is a candidate individual b that actually exists, exists at every world accessible from w\u2080, and has no direct existential-support edge from an existing candidate at any world in the admitted world carrier. b has the same identity across these modal alternatives. Uniqueness, intrinsic adequate explanation, simplicity, powers, and God are not included.",
   "basis": "stipulative",
   "note": "Analyst's source-free target of #495, narrower than a full theory of aseity. It deliberately separates modality and support from generic causes.",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NecessarilyUnderived"
