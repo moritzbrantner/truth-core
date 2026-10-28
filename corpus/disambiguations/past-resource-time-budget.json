@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-PAST-RESOURCE-TIME-BUDGET",
+  "term": "bounded resource increase, finite duration and pointwise versus uniform positive growth",
+  "sense_definition_ids": [
+    "DEF-PAST-RESOURCE-STOCK",
+    "DEF-PAST-RESOURCE-LOWER-BOUND",
+    "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
+    "DEF-SUPERTASK-UNIT-COST"
+  ],
+  "resolution": "The new constraint bounds resource spread S(now)\u2212L, not elapsed time or the number of past events. Integer time is beginningless by the chosen profile; no traversal from a first event or finite-duration budget is assumed. PositiveStep and UniformPastGrowth use one fixed epsilon across ALL past steps, unlike a positive step-dependent increase. An exponential stock can be strictly increasing with no such uniform positive minimum while remaining lower-bounded on the past; linear stock has uniform unit growth but no past lower bound. The result compares these arithmetic assignments, not their physical realizability. Stock remains neutral; interpreting it as entropy requires additional dynamics and domain justification, not a relabeling of the theorem. Causal well-foundedness, modal necessity and timeless eternity are different questions."
+}

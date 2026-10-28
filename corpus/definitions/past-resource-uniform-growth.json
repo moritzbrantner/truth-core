@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
+  "term": "uniform real increment at each past unit step",
+  "definition": "UniformPastGrowth S now epsilon says S t+epsilon\u2264S(t+1) for every integer t<now. Its definition alone permits epsilon\u22640; PositiveStep epsilon separately means 0<epsilon. Together they require the SAME positive minimum increment at every past unit step. Merely strict growth or a different positive increment at each step does not give this uniform quantifier scope. No time-indexed cause, conservation law or entropy production law is defined.",
+  "basis": "stipulative",
+  "note": "The uniform lower rate over the entire past is a substantive open background restriction. It is stronger than extrapolating positive changes from any finite observed period. The old exact natural-number unit-cost duration result is orientation only, not a theorem consumed by this proof.",
+  "lean_declaration": "TruthCore.Causality.BoundedPastResource.UniformPastGrowth"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PAST-RESOURCE-LOWER-BOUND",
+  "term": "one resource lower bound throughout the past",
+  "definition": "PastLowerBound S now L says L\u2264S t for every integer t\u2264now, including now. L is one fixed real constant for the whole past, not a varying bound or a finite observed interval. Combined with the finite real value S now, it bounds the accumulated past-to-present stock increase by S now\u2212L. It asserts no finite duration since a first event.",
+  "basis": "stipulative",
+  "note": "Open resource restriction, not a proved fact about physical entropy or a closed universe. The theorem assumes this predicate and does not select it as the premise to retain when the joint profile is rejected.",
+  "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound"
+}

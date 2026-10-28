@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-BOUNDED-PAST-RESOURCE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-PAST-RESOURCE-POSITIVE-STEP",
+    "STMT-PAST-RESOURCE-LOWER-BOUND",
+    "STMT-PAST-RESOURCE-UNIFORM-GROWTH"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded owner-approved resource slice after read-only infinite-past audit; clean base a6648878. Selected the neutral resource constraint over the alternative causal-eventcoverage bridge, which would require distinct past events all enter one present causal cone. Reused standard Mathlib Int, Real, Archimedean exists_nat_gt, backward natural induction and arithmetic; did not restate infinitepast-impossible as a premise. Frozen Challenge SHA6592cbcdcf7e4d36bc955cbfdb411cb183a3c5f5c5d9f3e40bb146aaa4521a8d before Solution. PositiveStep plus PastLowerBound plus UniformPastGrowth imply ConfigurationFalse under fixed common S/now/epsilon/L parameters. All restrictions are explicit typed predicates; no finite elapsed-time or first-event premise is smuggled in. Rejected infinity-alone, mere strict growth, pointwise positive but nonuniform increments, and causal well-foundedness as substitutes for these hypotheses. Separate model worker owns exponential lower-bounded strict-growth/no-positive-uniform-minimum and linear uniform-growth/no-lower-bound controls, composing this result acyclically; no limit-of-increments theorem is claimed. Existing unit-cost and Zeno results guide the comparison but are not silently cited as proof premises. Stock is neutral: no entropy/closed-universe/second-law truth, physical realization, finite past cardinality or general first-time theorem follows. Focused Solution and Challenge builds pass, and theorem axioms are exactly the approved Mathlib three. Cheap corpus/source-manifest/diff checks and all three premise dossiers were inspected successfully. Owner instruction stops not-yet-started repeated expensive verification: no local binding/Comparator/NanoDa run was started, and final delivered CI covers those boundaries. Actual root-premise delta none. Findings and explicit interpretation boundaries are persisted in docs/supertasks.md.",
+  "evidence": [
+    "BOUNDED-PAST-RESOURCE-CONTRADICTION"
+  ],
+  "blocker": "No implementation blocker. Final delivered CI owns binding/Comparator/NanoDa; the resource hypotheses for any physical application remain open."
+}
