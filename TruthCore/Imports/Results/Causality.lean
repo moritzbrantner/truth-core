@@ -33,4 +33,5 @@ import TruthCore.Results.Causality.SupertaskOscillation.Solution
 import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
+import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
