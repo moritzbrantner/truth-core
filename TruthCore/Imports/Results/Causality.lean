@@ -28,6 +28,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
+import TruthCore.Results.Causality.PartFreePlurality.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution

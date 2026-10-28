@@ -21,6 +21,7 @@ import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
 import TruthCore.Causality.NecessarySimplePlurality
 import TruthCore.Causality.ParityUnionRegress
+import TruthCore.Causality.PartFreePlurality
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
