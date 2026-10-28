@@ -1,8 +1,8 @@
 {
   "id": "DEF-TEMPORAL-HISTORY-EVERLASTING",
   "term": "temporal everlasting presence in one supplied history",
-  "definition": "EverlastingAt h w x means IsAt w x t for every supplied time t, fixing one world and one individual. The control Time is Int with its full standard two-sided order, so the interpretation assigns presence throughout an unbounded past and future. This is not quantification over all accessible worlds, proof of modal necessity, or timeless Eternal. The generic predicate alone does not require an unbounded or inhabited Time type; the concrete Int control fixes that interpretation.",
+  "definition": "EverlastingAt h w x means IsAt w x t for every supplied time t, fixing one world and one individual. The control Time is Int with its full standard two-sided order, so the interpretation assigns presence throughout an unbounded past and future. This is not quantification over all accessible worlds, proof of modal necessity, or timeless Eternal. A History supplies now : Time and therefore witnesses inhabited time, but the generic predicate imposes no temporal order or unboundedness; the concrete Int control fixes that interpretation.",
   "basis": "stipulative",
-  "note": "A precise temporal-presence role, distinguished from the sourced timeless eternity predicate. It models presence at temporal indices, not physical change or a metaphysical account of time. On an arbitrary empty Time the generic universal would be vacuous; the closed control uses Int and a designated now.",
+  "note": "A precise temporal-presence role, distinguished from the sourced timeless eternity predicate. It models presence at temporal indices, not physical change or a metaphysical account of time. A designated time is required by History, while two-sided unboundedness is supplied by the concrete Int interpretation.",
   "lean_declaration": "TruthCore.Modal.TemporalHistory.EverlastingAt"
 }
