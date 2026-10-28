@@ -1,0 +1,10 @@
+{
+  "id": "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
+  "term": "principles from which genus and differentia are taken",
+  "definition": "In ST I q3a5 co first proof, what supplies the constitutive differentia stands to what supplies the genus as act to potency; the sensitive/intellectual natures are the illustration. This is a metaphysical account of the underlying principles, not a claim that written terms or merely classified objects are material parts. In the third proof, shared generic quiddity and differing esse motivate a real essence/esse distinction; generic commonality is not silently identified with equality of every subject’s complete essence. The act/potency relation between the supplying principles has not been identified with an instantiated InPotency predicate over the existing Being/Respect parameters.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
+    "AQUINAS-ST-I-Q3-A5-GENUS-ESSE-DISTINCTION"
+  ]
+}
