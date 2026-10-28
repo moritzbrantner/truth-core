@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT",
+  "term": "demonstration, immediate knowledge, inferential warrant and regress",
+  "sense_definition_ids": [
+    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
+    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
+    "DEF-ARISTOTLE-ANPOST-PRIORITY",
+    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+  ],
+  "resolution": "The An.Post. claims reconstruct a source-specific norm of demonstrative episteme and Aristotle's positive non-demonstrative reply. They do not identify every epistemic justification with the repository's stipulated GeneratedWarrant. Prior explanatory knowledge is not merely earlier temporal possession or infinitely many psychologically performed steps. Immediate knowledge is not bare concession, while Aristotle's assertion that it exists is not our proof of independent entitlement. Circular demonstration, reciprocal logical consequence and holistic epistemic support remain distinct. No epistemic argument is transferred to ontological causal dependence or an unbounded temporal past without an additional defended bridge."
+}

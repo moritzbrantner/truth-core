@@ -1,0 +1,10 @@
+{
+  "id": "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
+  "term": "immediate principle known without demonstration",
+  "basis": "sourced",
+  "definition": "A demonstrative starting proposition for which there is no prior proposition in the relevant explanatory order (I.2), whose knowledge Aristotle affirms as undemonstrated in I.3. Immediate does not mean an arbitrarily assumed proposition, a zero-premise rule automatically true, or a principle this repository has independently established.",
+  "claim_ids": [
+    "ARIST-APOST-71B-DEMONSTRATIVE-PREMISES",
+    "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ARISTOTELIAN-IMMEDIATE-ENTITLEMENT",
+  "source_id": "ARIST-APOST",
+  "locator": "I.3, 72b18–25; II.19",
+  "priority": 700,
+  "goal": "Investigate the independent entitlement and acquisition account for Aristotle's immediate principles, starting from the already read I.3 replacement and materializing II.19 before attributing its account. Compare the same knowing/adequacy demand against infinitist available reasons and holistic support without defining all knowledge as finitely generated demonstration.",
+  "reason": "I.3 identifies the shared demonstrativist assumption and proposes non-demonstrative knowledge, but does not establish every chosen basic proposition or refute the availability reply by finite processing alone. The existing finite-branch transfer is explicitly stipulated and necessary only. See docs/notes/aristotelian-first-principles-and-regress.md.",
+  "status": "candidate"
+}
