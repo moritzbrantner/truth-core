@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE",
+  "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.ActualCauseSupportsEsse",
+  "paraphrase": "Open interface: every ordinary causal edge with both endpoints actually existing at the selected world is an existential-support R edge there; no converse, global relation identity or source attribution is asserted.",
+  "definition_ids": [
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

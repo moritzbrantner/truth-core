@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+  "argument_id": "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedCommonSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedCommonSource.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedCommonSource.causal_from_union",
+  "comparator_config": "results/NECESSARY-UNION-COMMON-CAUSAL-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Import and apply NecessarilyUnderived.PositiveUnion.checks with its exact FIVE original premises: NecessaryBeing, actual reflexivity, no contingent supporter of a necessary bearer, necessary-support-union WF, and explicit EM. Preserve its witness through exists_common on the actual ordinary causal graph, using open causal connectivity and confluence PLUS the explicitly open actual Cause-to-R-support interface. Necessary-support-union WF is retained; no ordinary world-causal WF or reciprocal universal potential-cause role is assumed. This is a conditional connection, not a new defense or root closure."
+}

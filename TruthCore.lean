@@ -7,6 +7,7 @@ import TruthCore.Imports.Causality
 import TruthCore.Imports.Comparison
 import TruthCore.Imports.Decision
 import TruthCore.Imports.English
+import TruthCore.Imports.Ethics
 import TruthCore.Imports.Explanation
 import TruthCore.Imports.German
 import TruthCore.Imports.Greek
@@ -32,6 +33,7 @@ import TruthCore.Imports.Results.Causality
 import TruthCore.Imports.Results.Comparison
 import TruthCore.Imports.Results.Comparison.Resurrection
 import TruthCore.Imports.Results.Decision
+import TruthCore.Imports.Results.Ethics
 import TruthCore.Imports.Results.Explanation
 import TruthCore.Imports.Results.Greek
 import TruthCore.Imports.Results.Hiddenness

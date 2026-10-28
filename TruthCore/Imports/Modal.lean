@@ -14,6 +14,7 @@ import TruthCore.Modal.DResearch.Language
 import TruthCore.Modal.DResearch.Laws
 import TruthCore.Modal.DResearch.Scopes
 import TruthCore.Modal.DResearch.Witnesses
+import TruthCore.Modal.DeonticFutureBoundary
 import TruthCore.Modal.Examples
 import TruthCore.Modal.ExistenceDegreeAttainment
 import TruthCore.Modal.ExistenceDegrees
@@ -28,6 +29,7 @@ import TruthCore.Modal.NecessaryIfExistent
 import TruthCore.Modal.NecessaryPotentialCausers
 import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Modal.PastSerialityCertificate
+import TruthCore.Modal.PossibilityTransfer
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+  "term": "existential-support source versus actual causal source",
+  "sense_definition_ids": [
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+  ],
+  "resolution": "R remains the explicit support relation used by #495 and NamedNecessarilyUnderived. Graph.Source refers instead to no incoming ordinary m.Causes edge from another node of Actual m w, INCLUDING self-edges as incoming. ActualCauseSupportsEsse is the explicitly open one-way relation between actual-endpoint causal edges and R at this w; no automatic causal/esse/explanatory identification is made. Graph connectivity and confluence are inside one fixed world, not modal accessibility. Named actuality guards population directly. Necessity is only from the original base; no frame/reflexivity or accessibility assumption is silently inserted. Equality applies to actual causal sources at this selected world, not all beings or all possible-world sources. No same-witness identity is assumed. The primary support-graph results instead apply confluence and connectivity to actualSupportGraph m R w itself. Their unique source conclusion is for R only, and needs no causal mapping. The separate ordinary-causal corollaries add ActualCauseSupportsEsse and apply connectivity/confluence to actualGraph m w; those are distinct premise vectors."
+}

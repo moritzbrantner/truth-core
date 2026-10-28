@@ -1,0 +1,20 @@
+{
+  "id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
+  "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.CommonUnderivedActualSource",
+  "paraphrase": "Some single individual is both the named actual necessarily underived R-witness and the unique actual ordinary-causal source in the selected world. Necessity and absence of incoming R support are retained for that same individual; no simplicity, intrinsic explanation or God identification follows.",
+  "definition_ids": [
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}
