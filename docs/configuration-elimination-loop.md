@@ -71,6 +71,22 @@ An overlap can have both a valid model and an alleged inconsistency certificate 
 
 For every delivered slice, report: exact seed and semantic profile; certified minimal cores; witnessed controls; surviving unknowns; newly composed theorems; root-route premise delta; limitations and next blocker. Count syntactic configurations only with their dimensions/bounds; report independently whether provable equivalences allow a reduction in distinct theories.
 
+## Vacuity audit for a configuration verdict
+
+For each incompatible bundle and omission witness, report the following distinctions before interpreting the result philosophically (#471). State which are ruled out by explicit hypotheses, witnessed in the same interpretation, or unresolved. Do not silently add a nonvacuity premise to an already frozen Challenge.
+
+| Boundary | Required report |
+| --- | --- |
+| Unreachable worlds | Identify the selected root and the worlds quantified over. A root-component theorem does not constrain disconnected worlds. A witness outside the accessible component does not establish a possibility at that root. |
+| Empty concrete extension | Distinguish `∃ x, ExistsAt w x` from an inhabited candidate carrier. A populated carrier can have no concrete existent at the selected world; guarded universal causal/explanatory claims can then hold vacuously. |
+| Empty Lean carrier | State whether the world and individual types can be empty. A supplied `w : World` excludes an empty world type for that application, but not an empty individual type or empty concrete extension. Globally quantified validity can hold on an empty world type without supplying any actual world. |
+| Inconsistent background | A proof of `B → C` does not witness B. Supply a joint model of all of B, or mark satisfiability unresolved. Separate a contradiction already in B from one introduced by the tested commitments. |
+| Non-serial accessibility | At a root without successors, every `Box P` holds and every `Dia P` fails. Necessary population or necessary-if-existent conditionals need not provide an actual/possible bearer. State seriality or reflexivity where used; neither follows merely from having a root. |
+
+These are separate checks: seriality supplies an accessible world, not an existent there; candidate inhabitedness supplies a term, not `ExistsAt`; and a model of each background conjunct separately is not a joint background model. A deletion witnessed only by an empty extension remains a valid logical deletion control, but must not be advertised as a populated rival ontology.
+
+Existing controls illustrate the boundaries without adding new philosophical commitments. `WellFoundedSource.emptyWorld` has Unit worlds and Bool candidates but no existents; its well-foundedness and universal external-cause certificates coexist vacuously. `S5Research.disconnected` distinguishes a root component from the whole frame. `StandardCorrespondence.d_iff_serial` explicitly permits empty world types and identifies D validity with seriality, without asserting that a world exists. These examples are not substitutes for checking the exact background of a new configuration.
+
 ## First end-to-end slice
 
 Use necessary nonemptiness versus a necessary individual (#435, #445) as the seed, with fixed identity/domain semantics made explicit. Verify at least one nontrivial incompatibility core and one model-witnessed alternative, and leave a genuinely undecided variant unresolved. Then expose the report from the existing corpus CLI/dossier and frontier explorer, with deterministic ordering and a focused regression test. Implementation acceptance and follow-on tasks are tracked in #477.
