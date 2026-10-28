@@ -1,0 +1,33 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SCHAFFER-MONISM",
+    "source_url": "https://www.jonathanschaffer.org/monism.pdf",
+    "retrieved_at": "2026-10-28T20:01:50Z",
+    "sha256": "sha256:098951909af55f7f2fbd2f2a33c9e79d14410b061363a771e2076eba8025e944",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright 2010 Cornell University; published article offered on author website. No redistribution license asserted. Two live fetches matched. The 2013 Wayback capture was checked against the live PDF and has identical bytes and selected text; save-new request timed out, but no new capture is needed.",
+    "wayback_url": "https://web.archive.org/web/20130925021331id_/https://www.jonathanschaffer.org/monism.pdf",
+    "wayback_sha256": "sha256:098951909af55f7f2fbd2f2a33c9e79d14410b061363a771e2076eba8025e944"
+  },
+  "passages": [
+    {
+      "id": "SCHAFFER-MONISM-FRAMEWORK",
+      "locator": "§§1.1–1.4, printed pp.33–44 (physical PDF pages 3–14)",
+      "claim_locator_prefixes": [
+        "§1.1",
+        "§1.2",
+        "§1.3",
+        "§1.4"
+      ],
+      "pdf_pages": {
+        "first": 3,
+        "last": 14
+      },
+      "text_sha256": "sha256:819afc1b5216c7e05648b219b5d6a56c08212dffc3697fc58267725532f28982",
+      "incipit": "Monism: The Priority of the Whole The core tenet of historical monism is not"
+    }
+  ],
+  "notes": "Read complete materialized range before claims. The p.44 sentence reversing the Bu/negated-Bu labels is interpreted in light of the explicit definitions and derivations on pp.42–43, not as an inconsistent monist doctrine; see linked research note."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-PRIMITIVE-BEARER-PROFILE",
+  "term": "individual bearer in the finite nihilist profile",
+  "definition": "The individual material carrier is Bool (two candidates), with every candidate present and material parthood interpreted as equality. Thus there is no proper material part. Pairs of Boolean states, coarse outputs, commands and functions are mathematical descriptions, not further members of this material carrier.",
+  "basis": "stipulative",
+  "note": "An inhabited analyst model, not evidence that real physics has simples or that no immaterial beings exist. The carrier and part relation are not identified with the mathematical type of states.",
+  "lean_declaration": "TruthCore.Mereology.ArrangementDynamics.Part"
+}

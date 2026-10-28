@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-THESEUS-IDENTITY-BOUNDARY",
+  "statement_ids": [
+    "STMT-THESEUS-IDENTITY-BOUNDARY"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Pinned/materialized/read Perrin translation of Plutarch Theseus23 and adjacent22/24 context; rejected attribution of reassembly or an identity criterion to that text. Derived analytical incompatible triple, exhaustive decidable fork, arbitrary finite replacement-chain propagation, and three pairwise controls. Existing Vitalism turnover does not cover numerical identity/reassembly, so reused its distinction rather than its incompatible life-specific vocabulary. Initial wildcard matches pulled in propext; exhaustive constructor definitions removed it. Zero-axiom focused Lean diagnostics pass; final CI owns Comparator/NanoDa/binding integration. Remaining: defend one identity bridge and physical applicability; no root premise change. Details and exact diagnostic binding: docs/notes/theseus-identity-boundary.md.",
+  "evidence": [
+    "THESEUS-IDENTITY-BOUNDARY"
+  ]
+}

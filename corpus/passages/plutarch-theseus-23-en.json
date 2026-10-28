@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "source_id": "PLUTARCH-THESEUS",
+    "edition_urn": "urn:cts:greekLit:tlg0007.tlg001.perseus-eng3",
+    "language": "eng",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "a6eb0cc3e6f6e382934a2c8b33577d2fb4371e00",
+    "path": "data/tlg0007/tlg001/tlg0007.tlg001.perseus-eng3.xml",
+    "git_blob_sha": "43b0f22fd4fef3730439ae612451ce0e43b84a7b",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/a6eb0cc3e6f6e382934a2c8b33577d2fb4371e00/data/tlg0007/tlg001/tlg0007.tlg001.perseus-eng3.xml",
+    "license": "CC BY-SA 4.0, as stated in TEI availability. Bernadotte Perrin translation, Plutarch Lives vol. 1, Harvard/Heinemann 1914."
+  },
+  "passages": [
+    {
+      "id": "PLUTARCH-THESEUS-23-EN",
+      "locator": "23 (especially 23.1)",
+      "claim_locator_prefixes": [
+        "23.1"
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "23"
+        }
+      ]
+    }
+  ],
+  "notes": "Read full chapter 23 plus adjacent chapters 22 and 24 for context. No formal identity principle or reassembly claim attributed to Plutarch."
+}

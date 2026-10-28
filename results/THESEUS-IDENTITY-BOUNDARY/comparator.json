@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.TheseusIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.TheseusIdentity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.TheseusIdentity.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

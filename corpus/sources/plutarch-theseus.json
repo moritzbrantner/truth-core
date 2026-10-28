@@ -1,0 +1,11 @@
+{
+  "id": "PLUTARCH-THESEUS",
+  "kind": "primary_text",
+  "author": "Plutarch",
+  "work": "Life of Theseus",
+  "citation_system": "chapter.section",
+  "work_urn": "urn:cts:greekLit:tlg0007.tlg001",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0007.tlg001.perseus-eng3",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0007.tlg001",
+  "notes": "Perrin 1914 translation, read as translation. Chapter 23.1 reports replacement and opposed identity verdicts; reassembly is not in that passage."
+}
