@@ -267,8 +267,9 @@ an arbitrary mathematical interpretation with a metaphysically adequate account.
 | Essence and efficient esse-causation | q.3 a.4 `Profile` represents `essenceOf` and `esseOf` in a common `Principle` sort. `distinctEsseExternalFromExhaustion` reuses two separately open causal premises. | This result is explicitly a transcription of the exhaustive dichotomy and its exclusion. Its efficient self-cause exclusion does not refute all intrinsic or noncausal reasons. The profile is not modal. |
 | Individuation | `Q11NatureUniqueness.godIsOneFromNature` uses injectivity of `suppositumOf`, suppositum/nature identity, and one common nature; its three Bool omission controls remain the exact reusable controls. | Mere necessity, absence of represented components and equality of an individual's own essence and esse do not supply a common nature or injective individuation. The three separate controls do not already certify a joint two-necessary-simple-being model. |
 
-The sole new shared declaration is
-`TruthCore.Causality.ExistenceActuality.ExistingInActAt`. Its exact type is
+Two minimal shared declarations make the direct connection explicit.
+`TruthCore.Causality.ExistenceActuality.ExistingInActAt` retains its one-way
+actuality role. Its exact type is
 `∀ x, m.ExistsAt w x → InAct x esse`, with `m`, `InAct`, `esse` and `w`
 supplied. This is the open `STMT-EXISTING-IN-ACT-AT` interface, not an axiom or
 an asserted equivalence. It supplies target actuality for a q.3 a.4 application;
@@ -277,6 +278,24 @@ correspondence, all-perfection actuality, necessary existence, or essence–esse
 identity. `EXISTENCE-TO-ACT-IN-ESSE-INTERFACE` records the independent
 interpretive obligation. Shared authorship is integrated with the consuming
 necessity/actuality result rather than creating a second theory profile.
+
+
+`ExistenceActuality.ActualEsseCausesSupportAt m R CausesIn esse w` is the
+separate direct interface: from `m.ExistsAt w c`, `m.ExistsAt w x`, `c ≠ x`
+and `CausesIn c x esse`, it gives `R w c x`. This is the open
+`STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT`, not an identification of causes and support.
+It does not mention `m.Causes`. In particular, ordinary event-causal edges need
+not all be existence-support edges. Both endpoints' presence is an antecedent,
+not a conclusion, and the act-in-esse interface remains independent.
+
+The stronger pair of cause-in-esse-to-ordinary-cause correspondence and
+`ActualCauseSupportsEsse` can supply this direct map by composition. The
+ordinary route retains its original eleven-premise Challenge; a separately
+frozen direct Challenge replaces that pair by the qualified direct interface.
+No existing Challenge is weakened. The consuming investigation must demonstrate
+its claimed strictness with an actual model and preserve the independent
+cause-presence premise. A possible ordinary event cause that is not a cause of
+esse is not ruled out merely by calling the bearer underived with respect to R.
 
 The direct q.3 a.4 route can therefore be compared with the q.3 a.7 route
 without silently identifying their premises. A named underived actual bearer,
@@ -298,8 +317,8 @@ Q11 common-nature/individuation or differentiation-in-act premises must be
 stated and defended separately. This inventory approves no new metaphysical
 possibility claim and does not certify the worker's forthcoming joint model.
 
-**Premise comparison:** one analyst-defined interface is added as an explicitly
-unproved vocabulary item. No philosophical premise is endorsed, removed or
+**Premise comparison:** two analyst-defined interfaces are added as explicitly
+unproved vocabulary items. No philosophical premise is endorsed, removed or
 discharged; no new root route, source claim or consequence result is added by
 this inventory. The existing root-path commitments remain open. In particular,
 q.104 conservation's formal relation, genus–difference realization, the actual
