@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POPULATION-AVERAGE-RANKING",
+  "term": "strict average ranking",
+  "definition": "AverageRanking r means that r p q holds exactly when q has strictly greater mean than p. It uses the same scale and domain as TotalRanking, so differing counts can reverse the two comparisons.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationAggregation.AverageRanking",
+  "note": "Strong rival to pure total ranking, not established as morally adequate. No claim of a complete classification of consequentialism."
+}
