@@ -189,3 +189,35 @@ within the author's reconstruction; step 4's value/existence conversion is
 still invoked at step 13 and is not discharged by these degree certificates.
 Root-premise change: none. Final binding, Comparator and NanoDa checks belong
 to the coordinator; this audit does not replace them.
+
+## Mathematical refinement: attainment and an infinite residual
+
+The local causal profile does not itself solve the maximum problem. Under
+necessary presence, other-directed pointwise potential causation, weak
+current-world bounds and explicit identity excluded middle, each existing
+y at u satisfies grade(u,y) ≤ grade(u,N). Consequently an attained global
+maximum exists exactly when N's own accessible-world degree family attains
+a maximum. Forward, a globally greatest existing (v,y) is locally bounded
+by (v,N); backward, an own-family greatest (v,N) bounds every existing
+(u,y) by transitivity. Necessary presence supplies the witness's presence.
+Neither actual reflexivity nor invariance is required. With no accessible
+world, both existential attainment predicates are false. This is an exact
+conditional reduction, not a defense of any maximum premise.
+
+The frozen `UnboundedWorlds` control uses Nat worlds with universal
+accessibility, the same source and first effect existing at every world,
+and an actual source-to-effect edge at every world. Every individual's
+grade at world k is k. Thus local weak bounds hold by reflexivity, while
+any proposed attained global witness at k is exceeded by the existing source
+at k+1. Both bare and actual-guarded invariance fail between worlds 0 and 1.
+This is a single joint interpretation with actual causal exercise, stronger
+than a residual relying on merely possible exercise. The frozen
+`unboundedWorldControl` target was independently inspected before proof
+completion; its Comparator/NanoDa delivery remains the coordinator's gate.
+
+Invariance is sufficient but not necessary for attainment: the finite varying
+degree control already has attainment without invariance. The infinite
+control instead shows that the remaining local commitments cannot guarantee
+attainment. Neither result prefers rejecting a specific premise, proves a
+metaphysical possibility, or changes a root-path open premise. This refinement
+uses the profile's explicit semantics without making a source attribution.
