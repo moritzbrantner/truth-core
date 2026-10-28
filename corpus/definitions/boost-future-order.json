@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOOST-FUTURE-ORDER",
+  "term": "geometric future-cone order in the boost profile",
+  "definition": "FutureCone p means |p.2|≤p.1 and includes zero; GeometricBefore p q applies that condition to q−p. It is a geometric future-directed nonspacelike displacement condition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Spacetime.BoostSimultaneity.GeometricBefore",
+  "note": "No ordinary efficient cause, causal power, modal accessibility, branching history or actual production relation is inferred. Preservation by this boost constrains this exact geometric order, not every philosophical relation called causal order."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EINSTEIN-1905-2-RELATIVE-SIMULTANEITY",
+  "statement_id": "STMT-EINSTEIN-1905-RELATIVE-SIMULTANEITY",
+  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "locator": "§2, first two postulates and final paragraphs beginning “We imagine further that with each clock” and “So we see”",
+  "basis": "translation",
+  "interpretation": "Prose-only primary-translation reading. This is a source argument under named physical/synchronization assumptions. It is not read as saying every pair of simultaneous events becomes nonsimultaneous, or that an additional privileged-present ontology has been refuted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-EINSTEIN-CLOCK-TIME",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+  ]
+}

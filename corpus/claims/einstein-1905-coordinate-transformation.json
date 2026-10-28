@@ -1,0 +1,17 @@
+{
+  "id": "EINSTEIN-1905-3-COORDINATE-TRANSFORMATION",
+  "statement_id": "STMT-EINSTEIN-1905-COORDINATE-TRANSFORMATION",
+  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "locator": "§3, opening paragraphs through “linear on account of the properties of homogeneity”, and paragraph beginning “The wave under consideration”",
+  "basis": "translation",
+  "interpretation": "Prose-only primary-translation reading. The existing extractor omits equation images. This prose reading relies only on materialized prose, not on those image-only transformation equations. The rational quadratic-form certificate is independently specified by the analyst and is not attributed as the full source derivation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-EINSTEIN-CLOCK-TIME",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+  ]
+}
