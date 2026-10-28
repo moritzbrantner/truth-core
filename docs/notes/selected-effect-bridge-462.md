@@ -131,3 +131,148 @@ One temporary client edit had an indentation error before making its HTTP
 request and was corrected; no service failure or correctness discrepancy was
 observed. Retain persistent goal/diagnostic feedback for this bounded use;
 leave canonical build, binding, Comparator and NanoDa checks to final CI.
+
+## Source follow-up: self-determination and the complete decree (2026-10-28)
+
+This follow-up advances the source boundary, not the certificate above. It reads
+complete ST I q.19 a.3–5,7–8,10, including objections/replies, materialized from
+new selectors in the **unchanged** SCTA q.19 blob already used for a.1–2.
+The complete existing a.2 witness was also read for its identity/relation reply.
+`AQUINAS-ST-I-Q19-A3` through `A5`, `A7`, `A8`, and `A10` name those witnesses.
+For the strongest rival, `SPINOZA-ETHICS-ELWES-FULL` pins the complete public-domain
+Elwes translation at GITenberg revision
+`ebe6b9d77e22c5809de3514d005bc26a29eb5610`, file `3800.txt` (raw SHA256
+`335f3e06da25e7003731f0cf8fefb3afa999393109a669d69cd3c85c414d88a3`).
+The consulted ranges are Part I definitions/axioms, propositions16–17 and29–33,
+including their proofs, corollaries and notes. Reading is translation-based;
+no Latin Spinoza witness was consulted. These are research readings in a linked
+note, not new attributed corpus claims or established propositions.
+
+### Aquinas: what actually does the work
+
+1. **Absolute necessity versus supposition** (a.3 corpus; ad1–2; a.7 corpus/ad4).
+   Aquinas contrasts necessity grounded in the terms with necessity on a
+   supposition. He necessarily wills divine goodness as principal object;
+   creatures are willed as ordered toward that goodness. Because goodness is
+   complete without creatures, he concludes that willing them is not absolutely
+   necessary. Once willing is supposed, its immutability precludes ceasing to
+   will. His seated-Socrates example and a.7's distinction between changing a
+   will and willing changes do not authorize replacing immutability over time
+   by invariance across every modal alternative. Conversely, they do not prove
+   that alternative complete divine decrees are metaphysically possible.
+2. **The missing end/means bridge** (a.3 corpus/ad4). Aquinas says means not
+   required for an end are not necessarily willed in willing that end. Our
+   assessment: their dispensability establishes that necessity does not arise
+   *from indispensable means to that end*. It does not alone exclude every
+   other necessitating ground of the complete choice. A rival can agree that
+   no creature adds to divine goodness while asserting that complete divine
+   actuality uniquely fixes its expressions. Treating the source's inference
+   as an independently defended exclusion of that rival would overclaim.
+3. **Self-determination, not an external selector** (a.3 ad5–6).
+   The fifth objection already asks why an undetermined will needs no prior
+   determining cause. The reply distinguishes a cause contingent in itself
+   from the divine will, necessary in itself, which determines itself toward
+   an object to which it has a nonnecessary relation. Ad6 distinguishes
+   necessary divine willing in itself from its relation to the objects willed.
+   The existing a.2 ad1 is important context: willing and being are the same
+   in reality but differ in account/signification; willing imports a relation
+   that being does not. This is a substantive source proposal: a necessary
+   agent's intentional relation need not inherit the necessity of its intrinsic act. It is not a
+   worked explanation of how a particular contingent specification is grounded
+   by an intrinsically necessary simple act. Calling self-determination
+   *primitive* would describe an unresolved commitment in our present model,
+   not Aquinas' own characterization or a proof that he has no account.
+4. **Determination by intellect and will** (a.4 corpus, second/third arguments;
+   ad2/ad4). Aquinas argues that a natural agent acts as determinate, whereas
+   infinite divine being produces determinate effects through intellectual and
+   voluntary determination. Intellect directs, will commands, power executes;
+   these are one in God. This rules out attributing to him the proposal that
+   an unexplained external world label first determines God. It does not
+   independently establish that infinitely perfect nature cannot have a unique
+   determinate expression: that is precisely the rival disputed below.
+5. **A cause of willing is not a reason among intended objects** (a.5 corpus;
+   ad1/ad3). The single act wills end and means together; willing the end does
+   not cause that very act to will means, since it would be self-causation.
+   Aquinas nevertheless permits rational order: one thing is willed to be for
+   another. His example orders hands to intellectual work, intellect to being
+   human, and human existence to enjoying God or completion of the universe.
+   Thus no cause of the single willing act does **not** mean no reasons for
+   object specification. The source supplies partial purposive explanation,
+   without showing why this complete creature-order rather than another or
+   none is chosen. Demanding a separate efficient cause of the divine act would
+   beg the question against this account; demanding intelligible specification
+   of its objects leaves a live question.
+6. **Secondary contingencies cannot do all the work** (a.8 corpus/ad1–3).
+   Aquinas explicitly rejects explaining contingent effects solely by defects
+   in secondary causes: these cannot frustrate divine will, and the contingent
+   mode itself must fall within divine intention. His alternative is that
+   efficacious divine will wills both the effect and its mode and supplies
+   appropriate secondary causes. This should not be flattened into merely
+   failing to fix the secondary conditions. Nor does intended contingency at
+   the secondary-causal level by itself prove that the complete divine decree
+   is contingent in the selected-effect modal semantics above.
+7. **Freedom inherits the disputed result** (a.10 corpus/ad2). Divine free choice
+   concerns what is not necessarily willed, and alternatives concern willing a
+   thing to be or not to be, not choosing moral evil. The article appeals back
+   to a.3; it does not independently discharge a.3's contested bridge.
+
+### Spinoza: the strongest surviving reply
+
+Part I definition7 calls an agent free when it exists by its own nature and is
+self-determined; constraint comes from another. Proposition17 and corollary2
+therefore call God free **while** asserting action by necessity of divine
+nature. It is incorrect to report this as denial of every sense of divine
+freedom, or as an external force compelling God. The disagreement concerns
+contingent willing of secondary objects, not absence of external compulsion.
+
+Axiom3 and proposition16 link determinate cause and effect, and infinite divine
+nature and its necessary expressions. Proposition29 applies necessity to modes
+and their determinate operation. Proposition32 treats will as a mode requiring
+a cause and denies its free causality. That modal classification itself differs
+from Aquinas' identification of divine willing with being. The more forceful
+reply is therefore proposition33 noteII: **even granting** the opponent that
+will belongs to divine essence, a different complete decree means a different
+actual intellect and will; identity of intellect/will/essence then makes it a
+different essence. Pure actuality is invoked explicitly. This is much closer
+to the live simplicity/free-creation question than the bare assertion that a
+necessary being must have some effect.
+
+That argument still requires scrutiny at the transition from different
+intentional specifications to different intrinsic act/essence. Identity of the
+bearer or act does not by logic alone fix every relational predication of it;
+the existing `SelectedEffectBridge` control already demonstrates that limited
+logical point. But calling the specifications extrinsic does not yet explain
+how they are caused without a causally prior varying creature or a label that
+merely restates the output. Aquinas' strongest reply in this inspected cluster
+is a.3 ad5–6 plus a.5's one act/rational object-order distinction. Spinoza's
+strongest reply is that a complete actual decree cannot vary while the very
+actual intellect and will that constitute essence remain identical. Neither
+position is refuted here. Proposition33 noteI also says contingency reflects
+ignorance of essence or causal order; this is the rival's substantive account,
+not an admitted shared meaning of metaphysical contingency.
+
+### Exact remaining investigation and rejected shortcuts
+
+The decisive open bridge is whether a complete intentional determination of
+creature-effects can be rationally explanatory without being either (i) an
+additional contingent intrinsic item in God, (ii) an independent external
+condition, or (iii) a necessitated specification of the necessary act. The
+three descriptions are research alternatives, **not** a certified exhaustive
+fork. Establishing exhaustiveness would itself require a defended account of
+intentional relations, intrinsic identity and complete causal explanation.
+The inspected sources give a much more precise dispute, but no independent
+proof settling it. Do not encode one side's answer as a structural field whose
+name says freedom or completeness and then claim to have derived it.
+
+Rejected readings: divine goodness's self-sufficiency alone proves contingency;
+no external mover proves libertarian choice; a.5 denies all object-reasons;
+a.7 immutability alone proves cross-world fixed output; a.8 reduces contingency
+to uncontrolled secondary conditions; Spinoza accepts Aquinas' sense of will in
+his principal proof; Spinoza denies freedom in his own definition7 sense; and
+formal consistency of an act/output assignment proves metaphysical adequacy.
+No new Lean theorem is warranted by this source pass: necessity plus
+necessitation is already covered by
+`BruteFoundationExplanations.necessaryReasonAndNecessitation`, and fixed full
+conditions by `SelectedEffectBridge.fixedConditionsStable`. Re-proving either
+would leave the contested premise untouched. No Scott modal-collapse system is
+adopted. Intended/actual root premise delta: zero; no premise discharged.
