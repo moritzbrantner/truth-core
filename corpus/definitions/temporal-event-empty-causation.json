@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION",
+  "term": "empty causal relation on integer event times",
+  "definition": "independentCauses x y is False for all integers x,y. It is separate from the usual temporal precedence relation x < y; unbounded temporal precedence therefore does not imply a descending independentCauses series.",
+  "basis": "stipulative",
+  "note": "Analyst control only. Does not identify time points as physical events in reality or claim an actual absence of causes.",
+  "lean_declaration": "TruthCore.Causality.TemporalEventControls.independentCauses"
+}
