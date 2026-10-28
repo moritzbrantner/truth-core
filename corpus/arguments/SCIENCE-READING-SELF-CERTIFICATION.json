@@ -1,0 +1,18 @@
+{
+  "id": "SCIENCE-READING-SELF-CERTIFICATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCIENCE-READING-SELF-CERTIFICATION",
+  "inference_ids": [
+    "INF-SCIENCE-READING-SELF-CERTIFICATION"
+  ],
+  "meaning": "Compose the existing additive calibration shift theorem with the existing exact-criterion characterization. Every profile has the same complete readings as a profile with any selected nonzero bias, so sound positive certificates cannot affirm on reachable reading-derived data. A supplied true anchor restores criterion existence via the earlier calibration identification theorem. The explicit fixture has two unequal readings. No epistemic norm equating warrant with uniform self-certification is assumed or established.",
+  "definition_ids": [
+    "DEF-CONSTANT-ADDITIVE-CALIBRATION",
+    "DEF-INSTRUMENT-OFFSET-ACCURACY",
+    "DEF-READING-DERIVED-SOUND-CERTIFICATE",
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT"
+  ]
+}

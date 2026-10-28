@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INSTRUMENT-OFFSET-ACCURACY",
+  "term": "zero-offset accuracy in the additive measurement profile",
+  "definition": "A Profile packages an unrestricted signal function and one constant additive bias. Accurate means that bias equals zero. Complete readings are the function x ↦ signal(x)+bias. AnchoredReadings additionally supplies the true signal value at a chosen input.",
+  "basis": "stipulative",
+  "note": "This idealized zero-offset property does not cover every error or physical instrument. Its truth is distinct from justification for believing it. The supplied true anchor is extra information, not an assertion of availability, independent acquisition or warranted calibration. See docs/notes/reading-only-self-certification.md.",
+  "lean_declaration": "TruthCore.Science.ReadingSelfCertification.Accurate"
+}
