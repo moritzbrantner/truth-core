@@ -6,7 +6,7 @@
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Issue #602: reused GraphBridge.reachable_iff_access and Mathlib component quotient equality criteria. Proved SCC equality iff accessibility under explicit reflexivity, symmetry and transitivity. Bool order has one weak component and distinct SCCs for false and true. Rejected identifying weak with strong connectivity, identifying an equivalence class with all worlds, or inferring causal roots/temporal travel. No source reading or premise addition/removal; no root discharge. Service diagnostics passed on the exact in-memory combined source; final verification recorded in the PR.",
+  "summary": "Issue #602: reused GraphBridge.reachable_iff_access and Mathlib component quotient equality criteria. Proved SCC equality iff accessibility under explicit reflexivity, symmetry and transitivity. Bool order has one weak component and distinct SCCs for false and true. Rejected identifying weak with strong connectivity, identifying an equivalence class with all worlds, or inferring causal roots/temporal travel. No source reading or premise addition/removal; no root discharge. Service diagnostics passed on the exact in-memory combined source; final verification recorded in the PR. Frozen Challenge SHA256 c9a6dc423efd6e09c9a33c363326239b6c46ff0366db484440da01f3401fbf08. Preview service head 75192b1c3efdf19f25601e52a06116e706420f11; combined request content SHA256 c56475a2c0a27d8b8f5e433b1ab0fe55628f635a9ee3ca0e03a1201c8884d479; no diagnostics. Canonical build, binding, Comparator and NanoDa remain final-CI owned. Exact before/after frontier route and reaching-root outputs match (cheapest 31, designated 40).",
   "evidence": [
     "ACCESSIBILITY-COMPONENTS"
   ]
