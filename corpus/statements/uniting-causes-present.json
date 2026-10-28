@@ -1,0 +1,21 @@
+{
+  "id": "STMT-UNITING-CAUSES-PRESENT",
+  "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesPresent",
+  "paraphrase": "Open actuality interface: every distinct cause-in-esse of a target actually existing at the selected world also exists there.",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-SIMPLE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-CAUSE"
+  ]
+}

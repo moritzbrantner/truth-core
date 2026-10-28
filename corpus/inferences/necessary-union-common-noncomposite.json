@@ -1,0 +1,21 @@
+{
+  "id": "INF-NECESSARY-UNION-COMMON-NONCOMPOSITE",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE",
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-UNITING-CAUSES-ARE-ACTUAL"
+  ],
+  "output_statement_id": "STMT-COMMON-UNDERIVED-NONCOMPOSITE",
+  "rule": "direct-proof",
+  "meaning": "Import and apply the exact #636 causal_from_union theorem, retaining all eight premises including necessary-support-union WF. Keep its SAME named underived unique actual causal-source witness. A composite would have a distinct q.3 uniting cause; explicit open presence and correspondence interfaces turn it into an actual incoming causal edge, contradicting that witness sourcehood. This is a conditional same-witness connection, not independent defense of the interfaces or root closure. No maximality, first-being or cause-comparison premise is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-LEIBNIZ-RELATIONAL-SPACE",
+  "term": "space as relative order of coexistence",
+  "definition": "Leibniz’s relational account in Third Paper §4: space concerns the order of coexisting bodies, rather than an independently placed absolute container. His §5 identifies the internally undifferentiated relocation cases on that account. This is not defined as merely equality of one measured distance table.",
+  "basis": "sourced",
+  "claim_ids": [
+    "LEIBNIZ-III-4-RELATIONAL-SPACE",
+    "LEIBNIZ-III-5-7-SPATIAL-REASON"
+  ]
+}

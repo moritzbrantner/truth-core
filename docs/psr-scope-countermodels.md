@@ -83,3 +83,51 @@ This result discharges the *formal non-entailment* tests only. It connects
 conceptual alternatives around #312; it does not close an argument to the
 Truth Core root. The infinite borrowed-power actuality and whole-chain
 explanation investigations (#310, #311) remain open.
+
+## Necessitarianism boundary: reuse audit (#312, 2026-10-28)
+
+A fresh inventory found that the tempting necessity-transfer proof is already
+present. No additional theorem is needed to state that transfer. The precise
+reuse is:
+
+| Question | Existing Lean evidence | Additional commitment still needed |
+| --- | --- | --- |
+| Does a necessary reason yield a necessary selected existent? | `Causality.BruteFoundationExplanations.necessaryReasonAndNecessitation` | `NecessitatesExistenceAt` for that reason and that same existent, in addition to `NecessaryReasonAt` |
+| Is actual contingency compatible with both those conditions? | `Causality.BruteFoundationExplanations.contingentExcludesNecessaryNecessitatingReason` derives `False` | Applicability of both conditions, rather than their stipulation |
+| Do necessary abstract reasons plus sound local explanatory coverage supply a necessary concrete being? | `Causality.BruteFoundationExplanations.abstractReasonCoverageInsufficient` retains coverage, soundness and necessary reason truth but lacks a necessary concrete individual | A real reason-to-bearer or reason-to-effect bridge; a reason token is not an ontic individual |
+| Does worldwise existence-PSR supply one stable explanation token? | `Modal.WorldwiseExplanation.worldwiseWithoutStable` refutes that shift; `worldwise_and_invariance_implies_stable` states a sufficient repair with an existence witness | `ReasonInvariant` for the selected being; even a stable token is not modal sufficiency |
+| Does the same act force the same effect? | `Results.Modal.SelectedEffectBridge.selectedEffectNecessary` uses stable output; its varying-output control retains same act and local uniqueness | Cross-world output stability, or the separately explicit fixed-full-conditions response law |
+| Does a necessary reason discriminate histories? | `Modal.HistoryContrastive.constant_not_discriminating`, `internal_discriminates`, and `necessary_discriminating_excludes_rival` | An entailing discrimination requirement; the successful internal reason is contingent |
+
+The full namespace prefix is `TruthCore`. These are existing theorem and
+control names, not new results or a claim that every helper has a separate
+Comparator result record. The reason sorts in `ExistencePSR.Model` and
+`BruteFoundationExplanations.ExplanationProfile` differ. The table compares
+explicit questions; it supplies no definitional identification between their
+reason tokens, bearer beings or explanatory relations.
+
+The strongest necessitarian case adds two substantive commitments: every
+selected adequate reason is necessary, and adequate sufficiency entails the
+selected effect throughout the accessible worlds. The first row then already
+establishes necessity **of that effect**. Universalizing that conclusion over
+existence facts still does not establish necessity of every true proposition:
+`ExistencePSR` quantifies over existing individuals, not arbitrary facts. A
+full modal-collapse claim needs its own scope bridge. Factivity, which rules
+out an explanatory assignment to a false explanandum at the same world, is
+weaker than that cross-world entailment requirement.
+
+Two replies remain distinct. A nonnecessitating explanation can retain a
+necessary reason without the strong entailment condition; the abstract-reason
+control tests this formally but does not demonstrate metaphysical sufficiency.
+Alternatively, a full reason can include contingent conditions; necessitation
+then does not give necessity of the effect unless the full reason is itself
+necessary. The history and selected-act controls expose these different
+commitments without ranking either reply as true. Merely calling a reason
+"sufficient", "intrinsic" or "complete" settles none of those adequacy questions.
+
+This audit rejects a duplicate proof that only packages the already explicit
+bridges. It introduces no historical attribution, new theorem, new metaphysical
+premise or root connection. All 63 reaching-root open premises remain; the eight
+route costs remain 31/32/36/38/39/39/40/41. The unresolved task is independent
+defense or rejection of the necessity, entailment and scope commitments, not
+further transcription of their consequence.

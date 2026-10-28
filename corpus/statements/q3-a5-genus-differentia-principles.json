@@ -1,0 +1,18 @@
+{
+  "id": "STMT-Q3A5-GENUS-DIFFERENTIA-PRINCIPLES",
+  "paraphrase": "Aquinas’ first q3a5 proof says that what supplies a species-constituting differentia stands to what supplies the genus as act to potency, illustrated through intellectual and sensitive nature.",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA",
+    "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS-PREDICATION-REAL-COMPOSITION",
+    "DISAMB-GENUS",
+    "DISAMB-ESSENCE"
+  ]
+}

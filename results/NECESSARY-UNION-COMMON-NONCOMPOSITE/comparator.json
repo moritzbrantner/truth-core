@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UnderivedNonComposite.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedNonComposite.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UnderivedNonComposite.from_union"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

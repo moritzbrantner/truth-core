@@ -1,0 +1,9 @@
+{
+  "id": "GENUS-DIFFERENTIA-REAL-DEPENDENCE-BRIDGE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., first and third proofs; I q.3 a.7 co., Primo–Quarto",
+  "priority": 434,
+  "goal": "Defend the realization bridge from a subject’s strict-genus/differentia predication to the source’s real potency/act or essence/esse constitution; then identify which independently supported causal-exhaustiveness or component-priority premise makes that constitution imply actual dependence. Do not infer real components, shared complete nature, a numerically distinct efficient cause or same-world causal presence merely from classification. Compare a fundamental or noncausally explained classified subject on the same semantic profile.",
+  "reason": "GENUS-CAUSE-BOUNDARY preserves nonvacuous taxonomy while q3a4 cause-exhaustiveness varies; its identity copy satisfies the predicational clauses but omits the source’s further real-constitution claim. The original q3a4 conclusion already follows once both causal premises are admitted; that verified consequence does not defend those premises. See the four-kind comparison in docs/notes/composition-causal-scope.md.",
+  "status": "candidate"
+}

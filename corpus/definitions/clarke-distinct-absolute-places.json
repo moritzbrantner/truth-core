@@ -1,0 +1,9 @@
+{
+  "id": "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES",
+  "term": "perfectly alike but distinct absolute places in Clarke",
+  "definition": "Clarke allows spaces to be perfectly alike yet distinct and denies that unchanged internal order implies unchanged absolute place. Absolute-place distinction is a positive philosophical commitment, not established by the analyst’s distinct coordinate functions.",
+  "basis": "sourced",
+  "claim_ids": [
+    "CLARKE-III-2-5-DISTINCT-PLACES"
+  ]
+}

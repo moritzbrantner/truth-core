@@ -1,0 +1,21 @@
+{
+  "id": "STMT-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.InterfaceOmissionControls",
+  "paraphrase": "Two explicit interpretations have the same necessary underived unique actual source false, which is composite and has a distinct alleged uniting cause. One violates source presence while retaining actual-edge correspondence; the other retains presence while violating correspondence. They witness separate logical omission boundaries, not metaphysical possibility.",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-SIMPLE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-CAUSE"
+  ]
+}

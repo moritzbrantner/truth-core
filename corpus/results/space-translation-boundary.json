@@ -1,0 +1,10 @@
+{
+  "id": "SPACE-TRANSLATION-BOUNDARY",
+  "argument_id": "SPACE-TRANSLATION-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Space.TranslationBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Space.TranslationBoundary.Solution",
+  "theorem": "TruthCore.Results.Space.TranslationBoundary.controls",
+  "comparator_config": "results/SPACE-TRANSLATION-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "In the labeled real-line profile, signed relative-displacement agreement is exactly a common translation when a body is supplied, and every common translation preserves all pair distances. Nonzero shifts change every inhabited absolute configuration, so no deterministic absolute-output selector using only those relative data can be covariant under all translations. Origin anchoring provides a translation-invariant relational representative. The two-body fixture has distinct locations 0 and 1, retains their distance under a unit shift, and differs absolutely; an empty-body selector control exposes the inhabitedness condition. No physical-equivalence, adequate-reason or preferred-ontology conclusion follows."
+}

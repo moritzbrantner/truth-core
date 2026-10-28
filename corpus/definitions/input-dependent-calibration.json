@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INPUT-DEPENDENT-CALIBRATION",
+  "term": "input-dependent additive bias control",
+  "definition": "SameVariableReadings compares f(x)+b(x) and g(x)+c(x), permitting each bias to vary with the input. The Boolean integer control agrees on every output and on the signal at false, but not on the signal at true. It witnesses the failure of one-anchor identification in this more permissive profile.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Science.MeasurementCalibration.SameVariableReadings",
+  "note": "A separate omission profile. It does not state that physical instruments necessarily have variable bias or that no richer calibration scheme can identify such devices."
+}

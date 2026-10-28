@@ -28,5 +28,6 @@ import TruthCore.Causality.SourceWitness
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalEventControls
 import TruthCore.Causality.UnderivedCommonSource
+import TruthCore.Causality.UnderivedNonComposite
 import TruthCore.Causality.UniqueFeedback
 import TruthCore.Causality.WorldSourceRegress
