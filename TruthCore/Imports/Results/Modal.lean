@@ -7,6 +7,7 @@ import TruthCore.Results.Modal.B.LanguagePropagation.Solution
 import TruthCore.Results.Modal.B.Laws.Solution
 import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
 import TruthCore.Results.Modal.B.ScopeBoundary.Solution
+import TruthCore.Results.Modal.BearerExercise.Solution
 import TruthCore.Results.Modal.BoundedMetricPast.Solution
 import TruthCore.Results.Modal.Convergence.Solution
 import TruthCore.Results.Modal.ConvergenceCertificate.Solution

@@ -3,6 +3,7 @@ import TruthCore.Modal.AccessibilityComponents
 import TruthCore.Modal.ActualistDomains
 import TruthCore.Modal.ActualistDomainsCertificate
 import TruthCore.Modal.BResearch
+import TruthCore.Modal.BearerExercise
 import TruthCore.Modal.BoundedMetricPastControl
 import TruthCore.Modal.Convergence
 import TruthCore.Modal.ConvergenceCertificate

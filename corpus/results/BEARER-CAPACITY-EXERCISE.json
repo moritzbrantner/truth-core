@@ -1,0 +1,10 @@
+{
+  "id": "BEARER-CAPACITY-EXERCISE",
+  "argument_id": "BEARER-CAPACITY-EXERCISE",
+  "challenge_module": "TruthCore.Results.Modal.BearerExercise.Challenge",
+  "solution_module": "TruthCore.Results.Modal.BearerExercise.Solution",
+  "theorem": "TruthCore.Results.Modal.BearerExercise.checks",
+  "comparator_config": "results/BEARER-CAPACITY-EXERCISE/comparator.json",
+  "status": "solution-present",
+  "description": "The exact #456 response compatibility theorem is reused. Its activated-response causal adapter has distinct existing endpoints, a necessary bearer and a directed marker at both worlds. With the same existence extension, zero responses refute necessity-of-existence implying necessity-of-capacity. Positive responses refute necessity-of-capacity implying necessary exercise, and exercise at true implying necessary exercise. The existing alternating-effects interpretation has necessary source and exercise but no fixed necessary effect, a contingent recipient, and a true world proposition that is not necessary. For Type-valued carriers, a local manifestation rule together with boxed capacity entails necessary exercise. These are stipulated formal controls, not source attribution, metaphysical possibility or a complete intrinsic-power theory."
+}

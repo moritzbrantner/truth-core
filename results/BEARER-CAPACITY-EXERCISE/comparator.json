@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.BearerExercise.Challenge",
+  "solution_module": "TruthCore.Results.Modal.BearerExercise.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.BearerExercise.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
