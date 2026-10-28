@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-UNDERIVED-ESSENCE-IDENTITY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-UNDERIVED-ESSENCE-IDENTITY"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inventory found necessarySourceVariableEffects, PowerExistenceBoundary.boundary and the existing q3a4 transcription already cover the elementary separations. Read full materialized AQUINAS-ST-I-Q3-A4 before composing its existing two-premise theorem with exact #495 PositiveUnion.checks. The same witness gains represented essence–esse identity under three open selected-world adapters; modal necessity is retained, not used by the core contraposition. Rejected treating necessity as independence, assigning an opaque PureAct flag, equating intrinsic reason tokens with essence identity, and using a fresh underived existential premise instead of importing the original five-premise source theorem. Initial sufficient ordinary-cause route was refined to direct typed esse correspondence: its original eleven-premise Challenge remains byte-frozen and a new Direct Challenge freezes the ten-premise route. A populated acyclic three-being strictness model prevents assuming all ordinary event causes support esse. Existing varying Ontic model supplies a same-profile necessary-but-dependent q3 recipient. Exact boundary, rival replacements, source reading and focused diagnostic evidence are preserved in docs/notes/underived-essence-identity.md. Final canonical CI remains the formal result authority. No root premise is independently established or removed.",
+  "evidence": [
+    "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+    "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+    "NECESSARY-UNDERIVED-POSITIVE-UNION",
+    "AQUINAS-ST-I-Q3-A4-ESSE-CAUSE-DICHOTOMY",
+    "AQUINAS-ST-I-Q3-A4-ESSE-NO-SELF-CAUSE"
+  ],
+  "blocker": "Metaphysical adequacy of q3 causal exhaustiveness and efficient-self-cause exclusion, selected-world actuality and typed esse-support correspondence remain open. Essence–esse identity has no supplied modal, pure-act or individuation bridge; no root closure follows."
+}
