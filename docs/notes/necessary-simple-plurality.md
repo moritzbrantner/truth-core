@@ -71,6 +71,10 @@ are exactly the applicability obligations a stronger argument must defend.
 
 In this interface `IsFirstBeing` excludes distinct predecessors of a candidate;
 it does not make it a unique least element or cause of every other being.
+A theorem about one proper God would not, by itself, exclude a second necessary
+independent candidate outside that predicate. The Q11 inputs must be defended
+over the candidate predicate, or a separately defended global causal scope must
+connect the other candidate to it. Neither identification is supplied here.
 The roots share dependent targets, so their separation is not obtained merely
 by assigning them disjoint universes. Sharing a target still does not mean that
 each candidate causes the other. The independently verified reciprocal-causal
