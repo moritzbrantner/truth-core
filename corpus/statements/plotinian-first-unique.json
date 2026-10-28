@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PLOTINIAN-FIRST-UNIQUE",
+  "paraphrase": "There can be only one first principle of the genuinely one, self-standing kind proposed in V.4.1.",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-SIMPLICITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

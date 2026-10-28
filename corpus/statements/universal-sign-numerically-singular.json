@@ -1,0 +1,11 @@
+{
+  "id": "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
+  "paraphrase": "A mental universal can be numerically one while apt to signify and be predicated for many things. Its universality by signification does not make it numerically many or exclude its numerical singularity.",
+  "definition_ids": [
+    "DEF-NUMERICAL-SINGULARITY",
+    "DEF-UNIVERSAL-MENTAL-SIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}

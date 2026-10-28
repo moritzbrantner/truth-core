@@ -1,0 +1,15 @@
+{
+  "id": "PLOTINUS-V4-BODY-NOT-FIRST",
+  "statement_id": "STMT-PLOTINIAN-BODY-NOT-FIRST",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.1, οὐ γὰρ δὴ σώματα λέγομεν δύο ... ἡ δὲ ἀρχὴ ἀγέννητος",
+  "interpretation": "Source reading recorded in prose only. Source argument recorded in prose. Ungenerated is not read as existence at a first temporal instant, and no theorem about modern physical simples, fields or a material cosmos is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-SIMPLICITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

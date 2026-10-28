@@ -1,0 +1,15 @@
+{
+  "id": "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE",
+  "statement_id": "STMT-MENTAL-UNIVERSAL-NOT-EXTRAMENTAL-SUBSTANCE",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.15: opening arguments and final paragraphs beginning Et ideo simpliciter and Ex quibus aliisque",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Attributes the natural-sign thesis and retains the qualification on the act-of-understanding analysis. The text offers arguments; this prose record is not a Lean verification of those arguments or a denial of individual substances.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIVERSAL-MENTAL-SIGN",
+    "DEF-COMMON-NATURE-CONSTITUENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}
