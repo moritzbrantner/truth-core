@@ -1,0 +1,21 @@
+{
+  "id": "STMT-NAMED-NECESSARILY-UNDERIVED",
+  "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.NamedNecessarilyUnderived",
+  "paraphrase": "The given same n actually exists at the selected world, exists at every root-accessible world, and has no incoming R edge from any individual existing at the edge's world, across all admitted worlds. No merely existential change of witness or divine attribute is asserted.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NAMED-NECESSARILY-UNDERIVED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

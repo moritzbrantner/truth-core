@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-PREDECESSOR-CONTROL",
+  "term": "endpoint-sound contingent predecessor of a necessary potential causer",
+  "definition": "ContingentPredecessorControl fixes the existing ContingentOnly PSR ontology and replaces only ordinary Causes with w=false \u2227 source\u2260target. Both candidates exist at false and cause each other there; at true only candidate false exists and there are no causal edges. Candidate false is necessary and has the full OtherDirectedPotentialCause role. All edges have distinct existing endpoints. The necessary-only union is empty and well-founded because true is contingent; nevertheless true exists at false and actually causes false there. The conjunction explicitly negates the no-contingent-predecessor bridge and named underivedness while retaining the other four backgrounds of the named theorem. It does not satisfy or assert worldwise causal well-foundedness: false has a two-cycle. It is outside the owner's acyclic-world setting and tests only the weaker backgrounds without pointwise causal WF.",
+  "basis": "stipulative",
+  "note": "A single finite formal omission interpretation, not a possible temporal history or metaphysical counterexample. The cause-as-support choice is explicit; endpoint presence is not a loophole. This tests the exact theorem's bridge, not every stronger causal theory.",
+  "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.ContingentPredecessorControl"
+}
