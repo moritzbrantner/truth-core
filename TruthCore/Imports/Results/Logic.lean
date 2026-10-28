@@ -4,6 +4,7 @@ import TruthCore.Results.Logic.CogitoSubject.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
+import TruthCore.Results.Logic.JustificationIntrospection.Solution
 import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 import TruthCore.Results.Logic.MaximumOrderSchema.Solution
 import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
