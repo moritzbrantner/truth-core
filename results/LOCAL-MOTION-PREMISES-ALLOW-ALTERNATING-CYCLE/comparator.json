@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.RespectAlternatingCycle.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.RespectAlternatingCycle.localPremisesAllowAlternatingCycle"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -19,4 +19,5 @@ import TruthCore.Models.PhysicsFirstMover
 import TruthCore.Models.PrimaVia
 import TruthCore.Models.Q11
 import TruthCore.Models.QuartaViaDegreeFork
+import TruthCore.Models.RespectAlternatingMotionCycle
 import TruthCore.Models.Scott

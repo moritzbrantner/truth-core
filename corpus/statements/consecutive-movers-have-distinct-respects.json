@@ -1,0 +1,16 @@
+{
+  "id": "STMT-CONSECUTIVE-MOVERS-HAVE-DISTINCT-RESPECTS",
+  "paraphrase": "Whenever z moves y in respect r and y moves x in respect s, r and s are distinct. This only constrains adjacent edge labels; it does not forbid alternating chains or cycles, order the labels, or assert a temporal change of respect.",
+  "lean_declaration": "TruthCore.Alternatives.RespectSwitch.ConsecutiveMoversHaveDistinctRespects",
+  "definition_ids": [
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

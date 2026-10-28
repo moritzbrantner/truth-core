@@ -1,0 +1,10 @@
+{
+  "id": "CONSECUTIVE-MOVER-RESPECTS",
+  "argument_id": "CONSECUTIVE-MOVER-RESPECTS",
+  "challenge_module": "TruthCore.Results.Alternatives.RespectSwitch.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RespectSwitch.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RespectSwitch.consecutiveRespects",
+  "comparator_config": "results/CONSECUTIVE-MOVER-RESPECTS/comparator.json",
+  "status": "solution-present",
+  "description": "Whenever z moves y in respect r and y moves x in respect s, the incoming edge makes intermediate y moved and therefore potential in r. The outgoing edge makes y actual in s. If r=s, non-simultaneity gives a contradiction, so r and s are distinct. The same MovesIn, MovedIn, act, potency and respect parameters occur throughout all four premises. This constrains encoded consecutive edges; it is not a temporal switch, a strict order on respects, or a bound on chain length. No excluded middle, domain population, causal priority, regress exclusion or single-respect assumption is used. Alternating-respect chains and cycles remain possible; no unmoved mover or general regress refutation follows. The four existing philosophical premises remain open, and root-premise delta is none. The direct constructive proof uses the four premises and equality substitution. The Comparator profile permits no Lean axioms; final integrated binding, Comparator and NanoDa gates remain coordinator-owned."
+}
