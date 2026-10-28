@@ -1,0 +1,26 @@
+{
+  "id": "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
+  "premise_statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-GRAPH-HAS-SOURCE-WITNESS"
+  ],
+  "conclusion_statement_id": "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+  "inference_ids": [
+    "INF-SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE"
+  ],
+  "meaning": "Mathlib equivalence_join on reversed finite closure plus EqvGen.eqvGen_le joins every node x to any source s. The source has no upstream step, so its finite reflexive-transitive extension must be s; the other extension is converted by head induction to the existing FiniteCausalPath edge x s. Import SourceForest.atMostOne_of_confluent for source equality and package the exact existing RootedAtUniqueSource conclusion. No WF or population hypothesis is used: the source witness already supplies population. Source existence is assumed separately, not established by this derivation. This changes the earlier sufficient inputs connectivity+confluence+WF+population to connectivity+confluence+HasSource for the same conclusion; it neither proves the latter source premise nor removes any root obligation.",
+  "definition_ids": [
+    "DEF-SOURCE-EXISTENCE-WITNESS",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

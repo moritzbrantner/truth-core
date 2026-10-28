@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "term": "confluent rooted source graph with infinite regress",
+  "lean_declaration": "TruthCore.Causality.SourceWitness.ConfluentOverlapControl",
+  "basis": "stipulative",
+  "definition": "Uses unchanged WorldSourceRegress.overlap, itself the literal GroundingAllowsRegress.link on Option Nat with all candidates actual in its sole world: none\u2192some n for every n, and some(n+1)\u2192some n. Every node has a zero- or one-link upstream path to the existing none node; any upstream branches can therefore extend to none, giving upstream confluence, and the same links give weak causal connectivity. ConfluentOverlapControl conjoins these properties with RootedAtUniqueSource, the existing ActualAcyclic overlap, the existing injective anchored infinite regress from the SAME actual some0, its non-Acc, and failure of WF of this same actual graph.",
+  "note": "No model data are recreated or strengthened. The imported WorldSourceRegress.overlapControl supplies acyclicity, source witness, anchored infinite chain and non-Acc. Finite paths to one source do not certify that all causal branches terminate, finite ancestry, or no infinite regress; the source route and infinite branch coexist. Natural labels here index causal nodes/positions, not time or alternative worlds. This mathematical interpretation is not asserted metaphysically possible."
+}

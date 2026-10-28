@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
+  "argument_id": "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
+  "challenge_module": "TruthCore.Results.Causality.SourceWitness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceWitness.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceWitness.rooted_from_source",
+  "comparator_config": "results/SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Mathlib equivalence_join on reversed finite closure plus EqvGen.eqvGen_le joins every node x to any source s. The source has no upstream step, so its finite reflexive-transitive extension must be s; the other extension is converted by head induction to the existing FiniteCausalPath edge x s. Import SourceForest.atMostOne_of_confluent for source equality and package the exact existing RootedAtUniqueSource conclusion. No WF or population hypothesis is used: the source witness already supplies population. Source existence is assumed separately, not established by this derivation. This changes the earlier sufficient inputs connectivity+confluence+WF+population to connectivity+confluence+HasSource for the same conclusion; it neither proves the latter source premise nor removes any root obligation. All causal applicability premises stay open; root-premise delta zero."
+}
