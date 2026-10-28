@@ -14,17 +14,21 @@ For one owner-scoped thesis or argument (#565):
 
 Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
 
-## Interpreting causal and dependency relations
+## Semantic grounding of metaphysical relations
 
-Before a causal or dependency relation supports a metaphysical conclusion, answer
-these questions in its existing definition/disambiguation records or linked
-research notes, with evidence and explicit **OPEN** burdens where answers remain
+For newly introduced or substantially reinterpreted relations involving causation,
+dependence, grounding, contingency, necessity or explanation, follow the semantic
+grounding requirement in `AGENTS.md`. Before philosophically significant relations
+support a metaphysical conclusion, answer these questions in their existing
+definition/disambiguation records or linked research notes, with evidence and
+explicit **OPEN** burdens where answers remain
 undefended:
 
 1. **Meaning.** What does the relation mean in ordinary language, without relying
    on its symbol or formal properties to explain it?
-2. **Phenomena.** What are its clearest actual instances or phenomena, and why do
-   they instantiate this meaning?
+2. **Phenomena.** What are its clearest concrete examples and counterexamples,
+   and why do they instantiate or fail to instantiate this meaning? Explicitly
+   record why examples remain unavailable when that is the case.
 3. **Exclusions.** Which nearby cases fail to instantiate it, and what excludes
    them? Distinguish efficient causation, grounding and conservation rather than
    treating their names as interchangeable.
@@ -39,6 +43,9 @@ undefended:
    electricity, motion or support license the proposed claim about existence or
    general metaphysical dependence? Identify and defend the bridge, its domain
    and limits; shared vocabulary or relational form does not supply it.
+6. **Rivals.** How does the interpretation fare against serious competing accounts
+   of the same phenomena and explanatory task? Preserve their strongest objections
+   and any unresolved disagreement.
 
 Prioritize the independent property justifications and the abstraction bridge
 (questions 4–5). A pure relational theorem establishes a conditional mathematical
@@ -47,6 +54,10 @@ useful and may be developed with open interpretive burdens, but must not be
 advertised as metaphysical support until those burdens are defended. Preserve
 the exact assumptions and unmet burdens in the existing records; this requirement
 adds no registry or verification gate and changes no source-fidelity standard.
+Independent justification may be a defensible philosophical argument, with its
+assumptions and defeaters explicit; it need not be empirical evidence or a kernel
+proof of every premise. Source attribution and formal consequence remain distinct
+from that independent defense.
 
 ## Progress is depth on the root path, not volume
 
