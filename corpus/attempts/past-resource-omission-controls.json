@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-PAST-RESOURCE-OMISSION-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-PAST-RESOURCE-OMISSION-CONTROLS",
+    "STMT-PAST-RESOURCE-POSITIVE-STEP",
+    "STMT-PAST-RESOURCE-LOWER-BOUND",
+    "STMT-PAST-RESOURCE-UNIFORM-GROWTH",
+    "STMT-SUPERTASK-UNIT-COST-UNBOUNDED",
+    "STMT-PAST-IS-INFINITE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Bounded two-result resource investigation at baseline879105ef. Fixed expStock(t)=Real.exp(t:Real), linearStock(t)=(t:Real), now0, full standard Int order (every past t has earlier t-1). Controls Challenge frozen eb3853ba9b02783e5152eee9452cf97e59309eddda488ce84348a924914e1bd8 before Solution. The only later data-module edit marked expStock noncomputable as required by Real.exp; its value, type, JointControls and frozen Challenge remained unchanged. Intended joint controls retain lower bound0 and strictly positive past increments for exp, while excluding any uniform positive increment; retain increment1 and its positivity for linear, while excluding any past lower bound. Both negative conclusions compose the independently proved main resource contradiction; its Solution never imports these controls. No entropy, physical realization, first-stage traversal, finite time budget, or objective becoming assumption is encoded. No finite registry or inclusion-minimality claim. Earlier readonly audit found no existing checked Int finite-gap/global-infinite-past bundle: TemporalHistoryControls.everlasting at 04e49de7 (TruthCore/Models/TemporalHistoryControls.lean) already uses Int now0, but its theorem does not expose interval finiteness or nofirst. A future focused mathematical control can use Set.finite_Icc, Set.Iic_infinite, n=(-t).toNat via Int.toNat_of_nonneg, and predecessor t-1; it is intentionally omitted from this batch. Existing UnitCostSeriesUnbounded concerns finite budgets and does not establish a first past stage. Main bound/uniform growth remain open substantive commitments; root-premise delta none. Focused control Solution/Challenge compile passed; controls and inspected helpers use exactly propext, Classical.choice and Quot.sound. No extra axioms or explicit increment-limit theorem are claimed. Focused PAST-RESOURCE-OMISSION-CONTROLS Comparator and NanoDa passed with the pinned Lean4.35 verifier. Shared-premise dossiers and static corpus check passed; independent one-pass proof/type review accepted. Prose was corrected to say realization is not established, without asserting nonrealizability. No not-yet-started extra binding/repeated checks were run after the owner trust-by-default direction; binding and final integrated coverage remain for final CI.",
+  "evidence": [
+    "PAST-RESOURCE-OMISSION-CONTROLS",
+    "BOUNDED-PAST-RESOURCE-CONTRADICTION"
+  ]
+}
