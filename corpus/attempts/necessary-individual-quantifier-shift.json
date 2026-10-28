@@ -5,14 +5,16 @@
     "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
     "STMT-NECESSARY-INDIVIDUAL-LAWS",
     "STMT-NECESSARY-INDIVIDUAL-ALTERNATING",
-    "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE"
+    "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+    "STMT-ACTUALIST-DOMAIN-CORRESPONDENCE"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
-  "summary": "The existing collective-possibility dossier and Third Way declarations distinguish the contested shift from temporal plenitude. With shared Kripke Dia substituted for primitive Possible, the same collective premise fails in a two-world alternating-witness model, despite reflexivity, finite rigid roster and actual concrete existence. Necessary exemplification does not imply a fixed necessary individual. Separate existence/concrete predicates require a bridge, refuted without it by an explicit nonempty model. No source reading or necessity premise is established; stronger concreteness criteria, source defenses, and actualist/counterpart alternatives remain #435 work. See docs/necessary-individual-quantifiers.md.",
+  "summary": "The existing collective-possibility dossier and Third Way declarations distinguish the contested shift from temporal plenitude. With shared Kripke Dia substituted for primitive Possible, the same collective premise fails in a two-world alternating-witness model, despite reflexivity, finite rigid roster and actual concrete existence. Necessary exemplification does not imply a fixed necessary individual. Separate existence/concrete predicates require a bridge, refuted without it by an explicit nonempty model. No source reading or necessity premise is established; stronger concreteness criteria, source defenses, and actualist/counterpart alternatives remain #435 work. See docs/necessary-individual-quantifiers.md. The follow-on actualist domain correspondence isolates a different, universal-quantifier transfer issue: with arbitrary total predicates and existence-guarded quantifiers, the two directions exactly match increasing/decreasing domains. The unchanged PSR.ContingentOnly profile has a necessary inhabitant in every universally accessible world yet falsifies both transfers. Thus S5 and rigid identity do not supply domain persistence. No counterpart or partial-predicate interpretation is silently adopted; those remain outside this profile. Temporal strict-past seriality would encode existing PastIsInfinite on a predecessor-closed past subtype; inclusive past is reflexive/serial even with a first moment. That separately scoped interface is inventoried, not implemented in the domain result. The serialized warm checker accepted the four canonical domain targets with no errors/warnings and reported no axioms for each (causal-harvest Scratch/Lane3ActualistDomains.lean v1; effective input SHA256 c9468fea915c59f018eb88f9667cf28787eca145aa941741c3cdb60d8bfb6a71, checker worktree head344a6489). Frozen canonical Challenge SHA256663a09ca731e77675bab6b0bc42821002c71aa12bcd3357242c409d7c6190acd was not changed. This is interactive proof-development evidence; final delivered CI owns binding, Comparator and NanoDa, without duplicated local delivery gates.",
   "evidence": [
     "NECESSARY-INDIVIDUAL-LAWS",
     "NECESSARY-INDIVIDUAL-ALTERNATING",
-    "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE"
+    "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+    "ACTUALIST-DOMAIN-CORRESPONDENCE"
   ]
 }

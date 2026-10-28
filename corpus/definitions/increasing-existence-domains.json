@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INCREASING-EXISTENCE-DOMAINS",
+  "term": "increasing existence domains",
+  "definition": "Along every accessibility edge w\u2192v, each candidate existing at w also exists at v. Domains are extensions of the same Ontic.ExistsAt predicate on a fixed rigid candidate carrier, not changing carriers or counterpart identities.",
+  "basis": "stipulative",
+  "note": "Approved source-free semantic interface for fixed-roster actualist domain transfer. No physical or metaphysical domain policy is asserted. No free-logic proof calculus, counterpart semantics, or general quantified syntax is introduced.",
+  "lean_declaration": "TruthCore.Modal.ActualistDomains.IncreasingDomains"
+}
