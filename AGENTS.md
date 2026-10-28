@@ -121,11 +121,13 @@ For a group of related open propositions, follow [the configuration elimination 
 
 ## Argument-first investigation
 
-Frontier-led work is **recursive argument refinement** (#565): keep one owner-scoped, end-to-end case and its strongest rivals visible. Reuse exact theorem IDs, verify its conditional structure, investigate its most consequential open premise as a child argument, then **recompose the result into the parent** before choosing another. Report the exact parent/root premise delta. Repeat until the route is established, decisively defeated, or precisely blocked. Split canonical propositions/tasks only for consequential inference, rival discrimination, independent defense, reuse, or the source/proof invariants. No duplicate tracker or claim of closure from an open bridge. See [the terse corpus loop](docs/systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand).
+Frontier-led work is **constraint discovery and elimination within an end-to-end case**. Start from related existing commitments under one explicit semantic profile. Compose checked implications, seek incompatible bundles and substantive exhaustive forks, and witness surviving branches before opening another premise investigation. Recursive premise defense is a targeted fallback when it can discriminate surviving branches, not the default engine. Keep the strongest rivals and the original question visible; recompose every finding into that case.
+
+Follow the [certified fork workflow](docs/configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow). A dilemma/trilemma needs a checked coverage theorem under explicit background assumptions; exclusivity is a separate obligation. A contradictory bundle forces rejection of at least one member, not a preferred member. Prefer small general constraints that prune families over issue/proposition counts. Preserve the existing proof, source, dossier and frontier authorities; conditional elimination does not establish its background or close a root premise. Split records only for consequential inference, rival discrimination, independent defense, reuse, or existing source/proof invariants.
 
 ## Outer systematic loop
 
-Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a high-leverage open obligation on the current #143 root route. Finish or repair in-flight work and respect real dependencies.
+Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a related cluster on the current #143 root route where existing commitments can yield a substantive fork, implication or incompatible core. Finish or repair in-flight work and respect real dependencies.
 
 For source ingestion when a frontier obligation needs it:
 

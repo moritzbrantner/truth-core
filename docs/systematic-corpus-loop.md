@@ -1,6 +1,6 @@
 # Systematic corpus loop
 
-Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Frontier investigations lead; source campaigns serve their open premises. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
+Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Constraint discovery within frontier investigations leads; source campaigns serve decisive gaps. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
 
 ## Frontier investigations: argument-first, decomposition on demand
 
@@ -8,7 +8,7 @@ For one owner-scoped thesis or argument (#565):
 
 1. **Map the whole case.** State the conclusion and downstream purpose, strongest positive argument and serious rivals, existing statement/theorem IDs, explicit assumptions, and current bottleneck.
 2. **Verify the conditional structure.** Formalize load-bearing inferences and test omissions or rival models. A verified implication does not establish its premises.
-3. **Refine recursively.** Pick the highest-leverage open premise or decisive fork; investigate it as a smaller end-to-end argument, reusing existing results. Repeat at the child level only when necessary.
+3. **Force choices before expanding premises.** Follow the [certified fork workflow](configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow): compose implications, certify incompatible bundles, prove coverage of substantive branches, and seek models of survivors under a fixed background. Investigate a child premise only when its resolution would discriminate those branches; do not default to another layer of assumptions.
 4. **Decompose on demand.** Separate canonical statements/tasks only when inference, a real disagreement, independent justification, reuse, or a source/proof invariant requires it. Do not manufacture atomized taxonomies or duplicate issues.
 5. **Recompose immediately.** Connect the child's actual result to its parent, update unresolved assumptions and alternatives, and continue the same argument. A failed route yields a recorded countermodel or precise blocker, not a stronger invented premise.
 
@@ -49,7 +49,7 @@ A source range is complete once read and its relevant substantive content repres
 
 ## Failed proofs feed research
 
-Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. Prefer a targeted child argument or source candidate over unrelated reading.
+Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. First test whether the failure exposes a countermodel, incompatible bundle or useful fork. Pursue a targeted child argument or source candidate when it can resolve that fork; do not automatically expand the premise queue.
 
 ## Campaign handoff
 

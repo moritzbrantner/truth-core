@@ -1,12 +1,52 @@
 # Configuration elimination and theorem composition
 
-Research strategy for #477. This is an additional *use* of Truth Core's existing corpus loop, not a new ontology or status authority. The source-reading loop in [systematic-corpus-loop.md](systematic-corpus-loop.md) and the proof boundaries in [AGENTS.md](../AGENTS.md) remain binding.
+Research strategy for #477. This is the default frontier research strategy within Truth Core's existing corpus loop, not a new ontology or status authority. The source-reading loop in [systematic-corpus-loop.md](systematic-corpus-loop.md) and the proof boundaries in [AGENTS.md](../AGENTS.md) remain binding.
 
 ## Purpose
 
 Prefer a small number of general, verified constraints that eliminate whole families of incompatible configurations to independently evaluating every combination of propositions. Persist each attempt and theorem so that later work composes earlier results. Progress means a justified change in known implications, incompatible theories or root-premise closure, **not** larger proposition counts or a smaller graph.
 
 A configuration is a finite set of **existing statement IDs** interpreted under an explicitly named semantic profile. Its profile fixes the pertinent logic, accessibility relation, quantifier domains, cross-world identity and any other choices that affect the meanings of those statements. Different profiles cannot silently share a contradiction or a model. Statements that only *sound* equivalent remain distinct until a checked equivalence is available.
+
+## Certified forks as the default frontier workflow
+
+The unit of research is a constrained space of serious alternatives around one substantive question. Existing issues supply evidence and ownership; completing issues or generating propositions is not the objective. First harvest consequences of the existing corpus, then add only the records required to certify a consequential finding.
+
+### Fix the arena and the proposed finding
+
+State the question, typed vocabulary, semantic profile, background `B`, and existing theorem/statement IDs. Expose domain nonemptiness, modal frame, identity, and dependence assumptions. Test the background for satisfiability; a contradiction in `B` makes every branch theorem vacuous. If no background witness is available, report that limitation and keep conclusions conditional.
+
+Choose one bounded certificate target:
+
+| Finding | Proof obligation | Meaning |
+| --- | --- | --- |
+| Exhaustive fork | `B → (A ∨ C ∨ D)` | At least one branch holds under B |
+| Exclusive fork | Coverage plus pairwise incompatibility under B | Exactly one branch holds |
+| Incompatible core | `B → ¬(P ∧ Q ∧ R)` | At least one commitment must be rejected |
+| Forced consequence | `B → (P → Q)` | Accepting P also commits to Q |
+| Equivalence | `B → (P ↔ Q)` | The alternatives coincide under B |
+| Branch witness | An explicit model satisfying B and all branch commitments | The encoded branch is satisfiable in that model class |
+
+The letters are schematic obligations, not new opaque philosophical atoms. Use typed existing content. `P ∨ ¬P` alone is not a substantive finding: show differing consequences for serious alternatives. Coverage and exclusivity are distinct; branches may overlap. An inconsistent bundle gives a dilemma about which commitment to abandon, not a refutation of a preferred member. A bounded list of explored configurations is not an exhaustive metaphysical partition.
+
+### Search, certify, minimize, propagate
+
+1. **Harvest first.** Inspect exact bound theorem types and dossiers; compose implications before introducing premises. Use `python3 scripts/corpus.py territory --json` and existing configuration/model tools for orientation. Territory positions are derived bounded projections, not automatically model-witnessed or collectively exhaustive philosophical alternatives.
+2. **Explore a bounded family.** Declare the commitments, model sizes or other search bounds, and the next candidate certificate. Try proof search and explicit model construction together. Lean tactics, evaluation, enumeration and already available solvers propose evidence; failed search and timeouts leave a target unresolved. No new solver dependency or service is authorized by this method.
+3. **Certify the exact claim.** Freeze Challenge before Solution. Use existing statement, inference, argument, result, model and attempt records and the required Lean/binding/Comparator/NanoDa checks. A proposed coverage theorem must be checked just like an implication. A formal model is not a proof of metaphysical possibility.
+4. **Minimize honestly.** Reduce an inconsistent bundle by testing removals under the same B. A checked model for every single-member deletion certifies inclusion-minimality, not minimum cardinality. Failure to prove a smaller core does not certify minimality. If a deletion is unresolved, publish the certified incompatible bundle with minimality explicitly unproved. Likewise, do not call an implication's assumptions weakest merely because proof search needed them.
+5. **Propagate without enumerating everything.** A certified core excludes every superset in the same semantic arena. Apply certified implications transitively, compose forks, and reuse checked equivalences to avoid redundant search. Keep exact dependencies; background assumptions do not disappear during composition. Do not mix witnesses from different models to claim joint satisfiability. Preserve distinct canonical IDs even when equivalent.
+6. **Recompose and persist.** Explain which choices are now forced, which bundles are excluded, which branches have joint witnesses, and which remain unresolved. Persist each substantive attempt and its blockers before changing direction. Recompute the existing frontier and territory views; neither a conditional elimination nor a position lacking known conflicts closes a premise.
+
+### Bounded cycles and sustained work
+
+Use one current investigation/handoff. Record the baseline revision, question/profile, next certificate, search bound or effort budget, and completion criterion before each cycle. A cycle ends with a verified constraint, a checked witness, or a precise persisted blocker. After two consecutive cycles without new certified evidence, change tactic or candidate within the same arena; do not repeat failed searches or grow a speculative premise tree. If no useful bounded target remains, checkpoint and report the obstruction.
+
+A long run repeats these cycles until its user-specified deadline, cancellation, resource limit, or a genuine blocking decision. Checkpoint at every reviewable slice and before context handoff. Continue from that checkpoint rather than assuming one agent invocation will run all day. Keep expensive verification queued and ownership isolated according to AGENTS.md; interactive Lean diagnostics do not replace final verification. The existing local-service experiment is bounded and must fall back to the CLI rather than delaying research.
+
+For every slice, report one compact result: question and B; exact certificates and witnesses; eliminated families with counting bounds if counted; surviving branches; unresolved coverage/minimality; root-premise delta; next decisive test. A conditional fork may be a completed research finding while its root conclusion remains open. No quota of lemmas, issues, PRs or eliminated configurations substitutes for this evidence.
+
+For an initial existence/dependence arena, test whether the existing vocabulary supports coverage by a necessary existent, a contingent dependence-root, or non-well-founded dependence. This is a candidate, not an established theorem or required ontology. Keep contingent distinct from merely nonnecessary unless the background justifies identification; do not equate non-well-foundedness with an infinite descending sequence without proving the connection under explicit assumptions. Use a different fork if the existing semantics do not support this one faithfully.
 
 ## Research cycle
 
@@ -16,7 +56,7 @@ A configuration is a finite set of **existing statement IDs** interpreted under 
 4. **Try to witness survivors.** Reuse the certified finite-model registry. An explicit model satisfying all selected commitments witnesses formal satisfiability in that specified semantics; no model found means **unresolved**, not impossible. A finite search is exhaustive only for its declared bound unless a separate general small-model result is proved.
 5. **Persist every substantive outcome.** Store a new formal statement/argument/result only for an actual proposition/inference. Store successful, failed and blocked investigation records in `corpus/attempts/` with exact targets and evidence. Use `corpus/models/` for certified model evaluations and `instance_of_schema` for checked theorem instances. Fix inaccurate attempt records in place; do not erase genuinely earlier failed approaches.
 6. **Recompute the frontier.** Run `corpus.py frontier --routes` and `--reaching-root`, compare root-path open premises before/after, and report what genuinely closed versus what merely moved or gained a research link. The existing closure engine remains sole authority.
-7. **Choose the next question.** Prefer an open premise whose resolution would affect several verified paths or yield a general incompatible core, while retaining meaningful alternatives as complete theories with replacement explanations.
+7. **Choose the next question.** Prefer the next constraint, witness or fork that discriminates surviving positions across several verified paths. Investigate an open premise when it has that demonstrated role, while retaining meaningful alternatives as complete theories with replacement explanations.
 
 ## Reporting contract
 
@@ -39,7 +79,7 @@ The existing finite models (#414/#443), proved schemas (#412/#447) and proposed 
 
 ## Incompatibility clean-up pass
 
-The clean-up pass (#576) is the standing complement of [argument-first investigation](systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand) (#565). Argument-first paints a case in large strokes: a thesis, its end-to-end route and its strongest rivals. The clean-up pass comes afterwards and removes positions that cannot hold together, by running the research cycle above routinely instead of ad hoc. It adds no entity kind, schema or status: its outputs are the configuration, model, attempt and result records already described here.
+The clean-up pass (#576) is the standing complement of [argument-first investigation](systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand) (#565). Argument-first paints a case in large strokes: a thesis, its end-to-end route and its strongest rivals. Run the clean-up pass during case construction and branch exploration, removing positions that cannot hold together through the research cycle above; do not postpone it until after recursive premise expansion. It adds no entity kind, schema or status: its outputs are the configuration, model, attempt and result records already described here.
 
 1. **One shared vocabulary only.** A candidate group is a set of existing statements whose Lean declarations take the same typed parameters, read under one semantic profile. Statements in different vocabularies are not compared until a reviewed interpretive bridge relates them; similarity of names or prose is never a bridge (#415 stays candidates-only).
 2. **Non-trivial cores only.** Every member is a held position: a sourced claim, a root-path premise or a recorded rival. A core that only shows that a strong enough premise contradicts anything is not reported as a dilemma.
