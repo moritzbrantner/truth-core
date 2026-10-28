@@ -1,0 +1,86 @@
+{
+  "id": "MODEL-NIGHT-ACTUALIZATION-FORK-OVERLAP",
+  "description": "The same unpreceded moved potency (false, Unit.unit) has an actual self-mover and a distinct actual mover (true) without simple priority. This is a joint overlap witness: the Night fork is not exclusive. The mover and mover-actuality premises hold; same-respect act/potency exclusion, no self-motion and the priority bridge fail. Formal satisfiability of this encoding only; no metaphysical possibility or root closure is asserted.",
+  "vocabulary": "NIGHT-COSMOGONY",
+  "lean_declaration": "TruthCore.Models.NightActualizationFork.Overlap.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Unit",
+    "InAct": "TruthCore.Models.NightActualizationFork.Overlap.model.InAct",
+    "InPotency": "TruthCore.Models.NightActualizationFork.Overlap.model.InPotency",
+    "MovedIn": "TruthCore.Models.NightActualizationFork.Overlap.model.MovedIn",
+    "MovesIn": "TruthCore.Models.NightActualizationFork.Overlap.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.NightActualizationFork.Overlap.model.PriorSimply"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": ["Bool.false", "Bool.true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": ["Unit.unit"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.background"
+    },
+    {
+      "statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.fork"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.mover"
+    },
+    {
+      "statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.forcedBranch"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.reducedActual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.actual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.violatesNotBoth"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.violatesNoSelf"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Overlap.violatesPrior"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NightActualizationFork"
+  ]
+}

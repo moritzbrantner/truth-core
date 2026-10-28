@@ -1,0 +1,80 @@
+{
+  "id": "MODEL-NIGHT-ACTUALIZATION-FORK-NONACTUAL-MOVER",
+  "description": "Every Boolean being is moved and in potency; every being moves every being, while nothing is in act and no simple priority holds. The same selected moved potency has a mover but no mover in act. This witnesses the first Night horn while separating it from absence of any mover. The mover premise, same-respect act/potency exclusion and the restricted actual-mover priority bridge hold, but mover actuality and actual-mover reduction fail. Formal satisfiability only; no root closure.",
+  "vocabulary": "NIGHT-COSMOGONY",
+  "lean_declaration": "TruthCore.Models.NightActualizationFork.NonactualMover.model",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Unit",
+    "InAct": "TruthCore.Models.NightActualizationFork.NonactualMover.model.InAct",
+    "InPotency": "TruthCore.Models.NightActualizationFork.NonactualMover.model.InPotency",
+    "MovedIn": "TruthCore.Models.NightActualizationFork.NonactualMover.model.MovedIn",
+    "MovesIn": "TruthCore.Models.NightActualizationFork.NonactualMover.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.NightActualizationFork.NonactualMover.model.PriorSimply"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": ["Bool.false", "Bool.true"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": ["Unit.unit"],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.background"
+    },
+    {
+      "statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.fork"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.mover"
+    },
+    {
+      "statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.noForcedBranch"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.violatesActual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.violatesReducedActual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.notBoth"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.priority"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NightActualizationFork"
+  ]
+}

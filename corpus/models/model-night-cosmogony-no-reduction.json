@@ -60,9 +60,40 @@
       "value": "violates",
       "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
       "theorem": "TruthCore.Models.NightCosmogony.NoReduction.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.fork"
+    },
+    {
+      "statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.noForcedBranch"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.violatesMover"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.actual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency"],
+      "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.notBoth"
     }
   ],
   "modules": [
-    "TruthCore.Models.NightCosmogony"
+    "TruthCore.Models.NightCosmogony",
+    "TruthCore.Models.NightActualizationFork"
   ]
 }

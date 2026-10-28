@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-NIGHT-ACTUALIZATION-FORK-MODELS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NIGHT-ACTUALIZATION-FORK",
+    "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "kind": "countermodel",
+  "outcome": "blocked",
+  "summary": "Bounded finite-model investigation under the existing NIGHT-COSMOGONY vocabulary, Bool beings and one Unit respect. Reuse the unchanged Residual, NoReduction, SelfMover and OtherMover interpretations; extend their registrations with exact root mover, mover-actuality and act/potency-exclusion evaluations. Proposed five-member incompatible bundle: Night actualization, a mover for every moved being, every mover in act, same-respect act/potency exclusion and the restricted actual-mover simple-priority bridge. Single-deletion witnesses respectively: Residual, NoReduction, new NonactualMover, SelfMover, OtherMover. Every deletion is evaluated in one joint interpretation; no models are combined. OtherMover jointly satisfies the Night background and all three assumptions used to force a nonprior distinct actual mover. The first four deletion models also violate that forced conclusion. New Overlap interpretation has the same unpreceded moved potency both actually move itself and have a distinct nonprior actual mover; therefore coverage cannot be advertised as exclusive. New NonactualMover interpretation has a mover for the same moved potency while no mover is in act, rejecting the reading of the first horn as absence of any mover or as absolute causelessness. Model descriptions assert only satisfiability of this encoding, not metaphysical possibility. No source attribution is added, no root premise is discharged, and no minimum-cardinality assertion is made. Certificates and registrations constructed, offline corpus validation passed; Lean and live zero-axiom model verification remain pending.",
+  "evidence": [
+    "GENERATION-FROM-NIGHT-REFUTED"
+  ],
+  "blocker": "Finish isolated dependency staging, elaborate TruthCore.Models.NightActualizationFork and run the exact closed-application zero-axiom model gate before treating these proposed witnesses as checked."
+}
