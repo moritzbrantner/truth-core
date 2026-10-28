@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+  "paraphrase": "Adding prior or more detailed contingent reasons, each still requiring analysis for its reason, does not settle the final sufficient reason of the contingent series.",
+  "definition_ids": [
+    "DEF-LEIBNIZ-FACT-REASON-DEMAND",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
+  "paraphrase": "The necessary being proposed as the final reason for contingent existents has the reason for its own existence in itself.",
+  "definition_ids": [
+    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}
