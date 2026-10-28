@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Owner-scoped bounded two-control slice on clean origin/main a6648878. Reused BruteFoundationBoundary.boundaryRival exactly (both ontic and grounds) and Models.PSR.Intrinsic.model.ontic exactly. Added only a separate Time/history extension with explicit CoherentAtNow proposition, not hidden proof fields. Chose now-slice coherence to preserve existing Ontic actual-presence meaning; rejected silently changing it to existential ever-existence. First control has old child(false,true), temporally present at every Int index in worldfalse, contingent across worlds, with distinct actual concrete source(false,false) both causing and grounding it. Second control assigns old Intrinsic targetfalse presence iff old ExistsAt and0\u2264t, yielding begins0 plus NecessaryAt and not ContingentAt. Rejected worlds=times, temporal perpetuity=timeless eternity, beginning=contingency, and general cause=ground or time-indexed causal law. Existing ChangeDoesNotGiveModalContingency is not substituted for the stronger new onset witness. Challenge frozen before Solution SHA255c00dc572c9ef9fe1d43080ce78c2bc0917c8dc5b15240467557269b7809db. A single closed two-control result records the consequential separations, not a large axes lattice. No source attribution, global metaphysical bridge, infinite-time finite-model registration or root closure. Philosophical/model adequacy remains open; root-premise delta none. Both focused Solution and frozen Challenge builds pass. Compiled theorem axiom inspection reports exactly propext; the permitted Mathlib profile remains the approved three. Focused Comparator and independent NanoDa passed using the existing pinned4.35 verifier at /home/brantner/.cache/agent-work/truth-core-337-verifier. Scoped BindTypes/bind_result check passed with one bound result and zero mismatches, no premises or hidden parameters. The untouched Challenge hash was rechecked. Corpus and diff checks pass. All local delivery boundaries are met; full integrated gates remain CI-owned.",
+  "evidence": [
+    "TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+  ],
+  "blocker": "No local delivery blocker. Full integrated CI and the philosophical adequacy of these stipulated histories remain separate; no real-world or timeless-eternity conclusion is claimed."
+}

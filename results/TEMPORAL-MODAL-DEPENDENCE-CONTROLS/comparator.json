@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.TemporalHistoryControls.Challenge",
+  "solution_module": "TruthCore.Results.Modal.TemporalHistoryControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.TemporalHistoryControls.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

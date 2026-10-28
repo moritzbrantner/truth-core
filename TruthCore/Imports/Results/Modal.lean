@@ -36,3 +36,4 @@ import TruthCore.Results.Modal.T.Branching.Solution
 import TruthCore.Results.Modal.T.FrameBoundary.Solution
 import TruthCore.Results.Modal.T.Laws.Solution
 import TruthCore.Results.Modal.T.ScopeBoundary.Solution
+import TruthCore.Results.Modal.TemporalHistoryControls.Solution
