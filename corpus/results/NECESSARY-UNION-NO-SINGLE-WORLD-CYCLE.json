@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "argument_id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.checks",
+  "comparator_config": "results/NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE/comparator.json",
+  "status": "solution-present",
+  "description": "Under worldwise acyclicity restricted to the same necessary subtype, no nonempty union loop has all its edges witnessed in a single world. Map any proposed common-world path to the local relation and contradict its acyclicity. No claim about all causation or contingent individuals."
+}

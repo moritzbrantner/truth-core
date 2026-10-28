@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "term": "conditional source-to-common-underived bridge",
+  "definition": "Universally over World, Being, Ontic model, direct support relation and actual world, a union source together with actual reflexivity and no contingent ground of necessary yields NecessarilyUnderived. Actual existence of the source follows from reflexivity; the source itself supplies population. No additional finite-population or edge-invariance assumption is needed for this bridge.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.SourceUnderivedBridge"
+}

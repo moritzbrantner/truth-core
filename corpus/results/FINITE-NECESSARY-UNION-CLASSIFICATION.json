@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-NECESSARY-UNION-CLASSIFICATION",
+  "argument_id": "FINITE-NECESSARY-UNION-CLASSIFICATION",
+  "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.checks",
+  "comparator_config": "results/FINITE-NECESSARY-UNION-CLASSIFICATION/comparator.json",
+  "status": "solution-present",
+  "description": "Finite nonempty necessary carriers have a union source or nonempty TransGen loop, inclusively. If no source exists and no loop existed, Mathlib finite transitive irreflexive well-foundedness would yield a source by induction. Finiteness and population remain explicit open background; no root discharge."
+}

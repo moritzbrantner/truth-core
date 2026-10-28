@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNION-SOURCE",
+  "term": "source in the necessary-support union",
+  "definition": "There exists a necessary individual with no incoming UnionNecessarySupport edge from any member of the necessary subtype. This need not prohibit incoming contingent support; NoContingentGroundOfNecessary supplies that separate bridge.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.HasSource"
+}
