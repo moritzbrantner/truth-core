@@ -7,6 +7,7 @@ import TruthCore.Causality.BruteFoundationRoutes
 import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
+import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.FiniteBranching
 import TruthCore.Causality.FiniteNecessaryUnion
 import TruthCore.Causality.FiniteRestriction
@@ -27,6 +28,7 @@ import TruthCore.Causality.SourceWitness
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalEventControls
 import TruthCore.Causality.UnderivedCommonSource
+import TruthCore.Causality.UnderivedEssenceEsse
 import TruthCore.Causality.UnderivedNonComposite
 import TruthCore.Causality.UniqueFeedback
 import TruthCore.Causality.WorldSourceRegress

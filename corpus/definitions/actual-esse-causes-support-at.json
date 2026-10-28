@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+  "term": "selected-world direct cause-in-esse to existential-support interface",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ExistenceActuality.ActualEsseCausesSupportAt",
+  "definition": "ActualEsseCausesSupportAt m R CausesIn esse w says that if c and x both exist at w, c differs numerically from x, and the supplied CausesIn c x esse holds, then R w c x holds. This one-way direct map does not mention m.Causes and therefore does not require every ordinary event-causal edge to be existential support. Endpoint presence and act-in-esse remain separate assumptions.",
+  "note": "An explicitly OPEN analyst interface for the direct q3a4 underived-to-essence/esse connection. The supplied cause-in-esse and R interpretations must be justified in the same profile. No conservation analysis, nonparthood, modal necessity, explanatory adequacy or relation identity is stipulated, and no source attribution is claimed."
+}

@@ -248,6 +248,81 @@ The necessary-support **union WF is retained**. Only ordinary-world causal WF
 is absent. Neither configuration establishes its five original metaphysical
 inputs or the structural extensions; root open premises remain unchanged.
 
+## Shared interfaces for the four-area foundation investigation
+
+The inventory below fixes the reuse boundaries for the owner's dependence,
+composition, individuation and necessity investigation. It inspects existing
+declarations and dossiers, not new primary-source evidence. It does not identify
+an arbitrary mathematical interpretation with a metaphysically adequate account.
+
+| Arena | Reuse | Interface still requiring justification |
+| --- | --- | --- |
+| World-relative existence and causation | `German.Kant.CosmologicalInference.Ontic` has independent `frame`, `ExistsAt` and world-local `Causes` fields. `NecessaryAt` quantifies over accessible worlds; `NecessaryBeing` additionally supplies an actual existent. | Actual presence does not follow from a non-reflexive box, and `ExistsAt` does not analyze Thomistic esse. There is no separate `Modal.Ontic` declaration. |
+| Power and existential support | `PowerExistenceBoundary.Profile` separates `transmitsPower`, `supportsEsse`, `intrinsicPower` and `properPartOf`. Its `Coherent` conditions give endpoint presence and transmission/support-to-ordinary-cause inclusions. | Underived exercised power in the selected respect is not independence of the whole being. The inclusions have no converse. |
+| Named underivedness | `NamedPotentialCauser.NamedNecessarilyUnderived m R w n` retains the same actual necessary n and excludes incoming R edges from existing sources at every admitted world. | The no-support quantifier is broader than root accessibility. It is not uniqueness, an intrinsic reason, or absence of a different causal relation. |
+| Explanation | `ExistencePSR.Model` relates `Reason` tokens to `ExistenceFact`s while preserving the underlying `Ontic`. `Sound` supplies existence-factivity; `WorldwiseExplanation.StableExplanation` and `ReasonInvariant` are guarded by existence at the target world. | An `intrinsic` tag is not essence–esse identity or adequate intrinsic explanation. Stable explanatory assignment is not `BruteFoundationExplanations.NecessitatesExistenceAt`. Reason tokens are not automatically concrete causes. |
+| Conservation | `DEF-PER-SE-ESSE-CONSERVATION` and `STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE` record the q.104 a.1 account; `DEF-CAUSE-OF-BECOMING` and `DEF-CAUSE-OF-ORIGIN` retain different roles. | This conservation record supplies no Lean conservation relation or theorem equating it with `supportsEsse`, `CausesIn`, production at successive instants, or a nonexistence counterfactual. |
+| Composition and priority | `Article7.MatterFormAndEsseEssenceAreCompositionsReading`, `CompositePosteriorToComponentsReading` and `CompositeHasComponentOtherThanItselfReading` feed `FirstMoverSimple.firstMoverSimple`. | The implemented kind inclusions cover matter/form and distinct essence/esse. The primitive q.3 `Composite` remains broader than proper material parthood. Quantitative and genus–difference realization are not supplied by these inclusions. |
+| Genus and difference | `MetaphysicsIII3` supplies strict `IsGenus`, `DifferentiaOf` and `SaidOf` readings; q.3 a.5 adds `InGenus : Being → Term → Prop`. | Conceptual predication does not itself give a real component, a potency/act principle, or an efficient cause. No generic classified-bearer structure is needed merely to put these parameters beside the q.3 a.4 profile. |
+| Essence and efficient esse-causation | q.3 a.4 `Profile` represents `essenceOf` and `esseOf` in a common `Principle` sort. `distinctEsseExternalFromExhaustion` reuses two separately open causal premises. | This result is explicitly a transcription of the exhaustive dichotomy and its exclusion. Its efficient self-cause exclusion does not refute all intrinsic or noncausal reasons. The profile is not modal. |
+| Individuation | `Q11NatureUniqueness.godIsOneFromNature` uses injectivity of `suppositumOf`, suppositum/nature identity, and one common nature; its three Bool omission controls remain the exact reusable controls. | Mere necessity, absence of represented components and equality of an individual's own essence and esse do not supply a common nature or injective individuation. The three separate controls do not already certify a joint two-necessary-simple-being model. |
+
+Two minimal shared declarations make the direct connection explicit.
+`TruthCore.Causality.ExistenceActuality.ExistingInActAt` retains its one-way
+actuality role. Its exact type is
+`∀ x, m.ExistsAt w x → InAct x esse`, with `m`, `InAct`, `esse` and `w`
+supplied. This is the open `STMT-EXISTING-IN-ACT-AT` interface, not an axiom or
+an asserted equivalence. It supplies target actuality for a q.3 a.4 application;
+it does not supply the actual presence of a proposed cause, causal-to-support
+correspondence, all-perfection actuality, necessary existence, or essence–esse
+identity. `EXISTENCE-TO-ACT-IN-ESSE-INTERFACE` records the independent
+interpretive obligation. Shared authorship is integrated with the consuming
+necessity/actuality result rather than creating a second theory profile.
+
+
+`ExistenceActuality.ActualEsseCausesSupportAt m R CausesIn esse w` is the
+separate direct interface: from `m.ExistsAt w c`, `m.ExistsAt w x`, `c ≠ x`
+and `CausesIn c x esse`, it gives `R w c x`. This is the open
+`STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT`, not an identification of causes and support.
+It does not mention `m.Causes`. In particular, ordinary event-causal edges need
+not all be existence-support edges. Both endpoints' presence is an antecedent,
+not a conclusion, and the act-in-esse interface remains independent.
+
+The stronger pair of cause-in-esse-to-ordinary-cause correspondence and
+`ActualCauseSupportsEsse` can supply this direct map by composition. The
+ordinary route retains its original eleven-premise Challenge; a separately
+frozen direct Challenge replaces that pair by the qualified direct interface.
+No existing Challenge is weakened. The consuming investigation must demonstrate
+its claimed strictness with an actual model and preserve the independent
+cause-presence premise. A possible ordinary event cause that is not a cause of
+esse is not ruled out merely by calling the bearer underived with respect to R.
+
+The direct q.3 a.4 route can therefore be compared with the q.3 a.7 route
+without silently identifying their premises. A named underived actual bearer,
+target actuality, the source's distinct-esse external-cause conclusion, and
+explicit cause-presence/correspondence interfaces can exclude distinct esse.
+Constructively that yields a double negation of essence–esse equality;
+positive equality requires an appropriate further logical principle. This
+paragraph identifies the proposed consuming argument, not a newly certified
+theorem in this inventory. The actual result must import the existing q.3 a.4
+theorem and retain its open causal premises.
+
+The live joint rival model uses two actual necessary roots with a common actual
+dependent effect. Deriving represented simplicity through the existing
+`firstMoverSimple` theorem is stronger than assigning a free `Simple` flag,
+but a proper-component interpretation still does not cover all q.3 composition
+kinds. A fork's common dependent target does not supply upstream confluence.
+Equal represented perfections also do not establish numerical identity: the
+Q11 common-nature/individuation or differentiation-in-act premises must be
+stated and defended separately. This inventory approves no new metaphysical
+possibility claim and does not certify the worker's forthcoming joint model.
+
+**Premise comparison:** two analyst-defined interfaces are added as explicitly
+unproved vocabulary items. No philosophical premise is endorsed, removed or
+discharged; no new root route, source claim or consequence result is added by
+this inventory. The existing root-path commitments remain open. In particular,
+q.104 conservation's formal relation, genus–difference realization, the actual
+cause mappings and the common-nature/individuation bridges remain live gaps.
 ## Same-witness noncomposition after #636
 
 `NECESSARY-UNION-COMMON-NONCOMPOSITE` imports and applies the exact

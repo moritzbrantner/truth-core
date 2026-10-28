@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNDERIVED-ESSENCE-IDENTITY",
+  "term": "same underived necessary bearer with represented essence–esse identity",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.UnderivedEssenceEsse.UnderivedEssenceIdentity",
+  "definition": "UnderivedEssenceIdentity m R w p means there exists one n satisfying NamedNecessarilyUnderived m R w n and p.esseOf n = p.essenceOf n. The equality compares represented principles in the existing q3a4 Profile; it is not a modal definition, self-explanation predicate or God naming.",
+  "note": "The same witness is retained through the conditional source-to-q3 connection. The profile is interpreted at the selected actual world using three separately open adapters. Its essence and esse functions do not represent an independently defended intrinsic reason, pure actuality or an individuation rule."
+}

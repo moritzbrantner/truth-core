@@ -1,0 +1,10 @@
+{
+  "id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "argument_id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Direct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedEssenceEsse.all_controls",
+  "comparator_config": "results/UNDERIVED-ESSENCE-INTERFACE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Check the fixed joint and omission interpretations in ExtendedControls. The direct three-being model satisfies the q3 premises and the direct esse-cause interface while rejecting the all-ordinary-causes interface, with both relations well-founded and all endpoints actual. Existing varying Ontic data are reused rather than replacing necessity or underivedness with flags. No metaphysical possibility or inclusion-minimality of the ten-premise theorem is claimed."
+}
