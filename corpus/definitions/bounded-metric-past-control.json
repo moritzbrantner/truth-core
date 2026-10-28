@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOUNDED-METRIC-PAST-CONTROL",
+  "term": "bounded metric age in a past with no first moment",
+  "definition": "The time carrier is Mathlib Set.Ioc (0:Real) 1: real clock readings strictly greater than0 and at most1, with the inherited strict real order. The selected now has reading1. Clock age is ordinary real subtraction now.val-t.val. Every age is nonnegative and strictly below1. This bounded chosen metric says nothing by itself about an earliest member; the original PastIsFinite/PastIsInfinite predicates still concern earlier-time order.",
+  "basis": "stipulative",
+  "note": "Source-free mathematical interval control. Half the positive reading lies in the interval and is earlier. The clock scale and the excluded left endpoint are specified mathematical data, not physical realization, a privileged cosmological parametrization or a physical causal law. No new semantic primitive replaces the original temporal predicates.",
+  "lean_declaration": "TruthCore.Modal.BoundedMetricPast.BoundedMetricPastControl"
+}
