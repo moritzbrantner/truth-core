@@ -1,6 +1,6 @@
 {
   "id": "MODEL-ORDER-HOMOGENEOUS-CAUSAL-CONTROL",
-  "description": "#386 HomogeneousCausalControl assignment on the original Boolean beings and order. The tied assignment also witnesses failure of uniqueness; NoCausalOrder is the homogeneous no-cause witness.",
+  "description": "#386 HomogeneousCausalControl assignment on the original Boolean beings and order. The tied assignment also witnesses failure of uniqueness; NoCausalOrder is the homogeneous no-cause witness. Joint degree-fork control: the unchanged Boolean strict chain has a strict universal causal top at true, satisfies the full homogeneous-scale/genus/cause-more/grades background, and violates the unbounded-degree branch. The sole Unit respect aliases the named fixture perfections, without a source-identity claim.",
   "vocabulary": "QUARTA-ORDER",
   "lean_declaration": "TruthCore.Models.Order.HomogeneousCausalControl.model",
   "bindings": {
@@ -181,9 +181,60 @@
         "esse"
       ],
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation10"
+    },
+    {
+      "statement_id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.strictTop"
+    },
+    {
+      "statement_id": "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.notUnbounded"
+    },
+    {
+      "statement_id": "STMT-QUARTA-VIA-DEGREE-FORK",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "CausesIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.fork"
+    },
+    {
+      "statement_id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MoreIn",
+        "esse",
+        "esse",
+        "esse"
+      ],
+      "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.grades"
     }
   ],
   "modules": [
-    "TruthCore.Models.Order"
+    "TruthCore.Models.Order",
+    "TruthCore.Models.QuartaViaDegreeFork"
   ]
 }
