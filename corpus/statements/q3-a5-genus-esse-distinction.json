@@ -1,0 +1,16 @@
+{
+  "id": "STMT-Q3A5-GENUS-ESSE-DISTINCTION",
+  "paraphrase": "Aquinas’ third q3a5 proof argues that what is properly in a genus has esse distinct from essence, appealing to shared generic quiddity and differing acts of being.",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA",
+    "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS-PREDICATION-REAL-COMPOSITION",
+    "DISAMB-GENUS",
+    "DISAMB-ESSENCE"
+  ]
+}

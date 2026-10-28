@@ -1,0 +1,22 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
+  "statement_id": "STMT-Q3A5-GENUS-DIFFERENTIA-PRINCIPLES",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.5 co., first proof: species constituitur ex genere et differentia; id a quo sumitur differentia ... sicut actus ad potentiam",
+  "interpretation": "Prose source reading only. The relation is between principles from which the predicables are taken; it is not an assertion that the term tokens or any mathematical classification already supply real components or an efficient cause.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GENUS-STRICT",
+    "DEF-DIFFERENTIA",
+    "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GENUS-PREDICATION-REAL-COMPOSITION",
+    "DISAMB-GENUS",
+    "DISAMB-ESSENCE"
+  ]
+}

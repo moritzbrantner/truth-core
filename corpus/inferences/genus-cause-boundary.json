@@ -1,0 +1,9 @@
+{
+  "id": "INF-GENUS-CAUSE-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GENUS-CAUSE-BOUNDARY",
+  "rule": "model-construction",
+  "meaning": "A nonvacuous four-term strict-genus taxonomy classifies the Bool bearers and satisfies the existing differentia and essential-predication laws. A q3a4 positive efficient-cause witness and its edge-erased copy have identical actuality, essence, esse and essential-principle data: both have an actual distinct-esse subject and exclude sufficient efficient self-causation, while only the former satisfies causal exhaustiveness and supplies its external esse cause. A separate edge-free copy preserves actuality and taxonomy with esse identical to essence, satisfying q3a4 premises vacuously. This tests what the current predicational signature entails; it does not model the additional real-genus-composition claims of q3a5, establish metaphysical possibility, or discharge any root premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

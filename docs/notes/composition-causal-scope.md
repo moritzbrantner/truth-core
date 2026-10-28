@@ -126,3 +126,100 @@ is persisted here against its existing witness; the candidate records what is
 still to be investigated, and the attempt links this scope audit to the existing
 dossiers. Source attribution and formal consequence remain separate. Final CI
 covers the delivered records; unchanged proof evidence is reused.
+
+## Four composition senses: the genus-to-cause gap
+
+The next bounded cycle asks which **particular composition** supplies which
+dependence claim. Its downstream question is whether the same underived witness
+can be excluded from that composition, not whether the word *composite* can be
+repeated as a new premise. The strong rivals remain affirmative: simple-bearer
+arrangements reproduce specified interactions; universalism admits fusions
+without making each a substance; priority monism proposes a fundamental material
+whole; the Thomistic account offers real constitutive principles and a causal
+account of their union. These explanations must meet the same actual case before
+their commitments form an incompatible bundle.
+
+| Composition under consideration | Existing exact interface/result | Further commitment needed for dependence |
+| --- | --- | --- |
+| Material parts | `PowerExistenceBoundary.Composite` means a represented distinct proper component. Its `Boundary` already has an exercised unborrowed, necessary source with such a component and no represented external conserver. `UniversalFusionBoundary.Boundary` distinguishes fusion from candidate grounding. | The component's actual ontological priority, an efficient cause of the whole's esse, or an independently defended grounding relation. A mathematical part/fusion law does not supply all of these at once. |
+| Matter–form | `MatterFormAndEsseEssenceAreCompositionsReading` includes it under q3 `Composite`; `FirstMoverSimple.firstMoverSimple` imports that inclusion. Aristotle H.6 offers proximate potential/actual unity with a mover exception. | Why the actual subject has the relevant real constitution, and which material/formal, producing or conserving role supplies the dependence used by the argument. Neither two independently actual substances nor an additional efficient uniter follows merely from a record with two fields. |
+| Essence–existence | Article4's `DistinctEsseAt` requires an actual subject and distinct represented principles. `distinctEsseExternalFromExhaustion` derives an actual distinct efficient esse cause from the separate causal dichotomy and no-efficient-self-cause premise. Its existing omission controls are nonvacuous. | Causal exhaustiveness and the exclusion of sufficient efficient self-causation, not just the distinction. Intrinsic noncausal reasons, conservation and modal necessity remain separate. The existing conditional is expressly a transcription, not defense of those premises. |
+| Genus–difference | III.3's `IsGenus`, `DifferentiaOf`, `SaidOf`, and q3a5 `InGenus` supply a typed predication interface. Article7 currently has no genus/difference-to-`Composite` inclusion. | A faithful mapping from the classification to the source's real underlying principles, potency/act or essence/esse constitution, then the particular causal/priority premise. Terms, generic commonality and complete individual essence cannot be identified by convenience. |
+
+### Newly read q3a5 arguments
+
+The complete pinned `AQUINAS-ST-I-Q3-A5` Latin article was materialized and read,
+with full q3a7 for context. In the same SCTA edition and revision cited above,
+the a5 witness is XML identity `TAca84-d1e61-Dd1e1139`, blob
+`9204053aec597c5ea95b77543135e641ce4cfdeb`. Its printing artifacts were retained;
+no missing philosophical premise was supplied from an unpinned translation.
+
+The **first proof**, after the two senses of being in a genus, says a species is
+constituted from genus and differentia. What supplies the constitutive differentia
+stands to what supplies the genus as act to potency; sensitive and intellectual
+nature provide the example. The relation is between the principles **from which
+the predicables are taken**, not between written words or concept tokens as
+material pieces. The source uses God's exclusion of potency joined to act to
+reject proper genus-membership. The current predicational declarations do not
+encode that extra constitution/actuality account.
+
+The **third proof** appeals to generic common quiddity alongside different acts
+of being, and argues that things in a genus have esse other than essence. This
+is a substantive source argument, recorded as
+`STMT-Q3A5-GENUS-ESSE-DISTINCTION`, not an independently defended consequence of
+the existing III.3 predication laws. Generic commonality is not by definition
+equality of every subject's **complete** essence. The argument's sufficiency and
+its mapping into `Article4.Profile.essenceOf` remain to be defended.
+
+Neither reading is the already formalized second proof that being is not a genus.
+They retain separate statement identities. These differences matter to the
+uniqueness investigation: having one genus-word or shared predicates does not
+silently provide q11's same represented nature for the hypothetical individuals.
+
+### A structured joint interpretation test
+
+`GENUS-CAUSE-BOUNDARY` / `GenusCauseBoundary.checks` combines existing results
+instead of introducing a fresh opaque simplicity predicate:
+
+1. A four-term taxonomy has a designated genus, species and differentia, and
+   classifies both Bool bearers. Genus and differentia are essentially said of
+   their represented species; genus is not said of its own differentia. The
+   existing `BeingNotAGenus.beingNotAGenus` theorem is applied to these clauses.
+2. The existing `EssenceEsseExternalCause.premiseOmissionsAndControl` positive
+   witness provides an actual distinct-esse subject, a numerically distinct
+   actual efficient cause, causal exhaustiveness and no sufficient efficient
+   self-cause. Thus the successful case does not rely on an empty extension or
+   an absent differentia. The distinct cause and the subject supply two actual
+   Bool bearers.
+3. Erasing **only `CausesIn`** preserves the entire actuality, essence, esse and
+   essential-principle data, as well as the fixed taxonomy. The subject is still
+   actual and distinct-esse; the no-efficient-self-cause premise still holds.
+   There is no efficient esse cause, so causal exhaustiveness fails. The proof
+   uses `distinctEsseExternalFromExhaustion` to identify that failure.
+4. A separate edge-free identity copy keeps the same actuality and taxonomy but
+   sets esse equal to essence. Both q3a4 premises hold **vacuously** because their
+   distinct-esse antecedent fails. This tests the absence of a genus-to-real-
+   distinction bridge; it is not the nonvacuous external-cause case above.
+
+The result is an independence test for the **represented fragment**. It is not a
+countermodel to q3a5 after adding its further real-constitution commitments, nor
+to the full q3a7 uniting-cause premise. These interpretations establish no
+metaphysical possibility, necessary existence, pure actuality, full simplicity,
+intrinsic explanatory adequacy or particular actual ontology. In particular,
+no equation of represented essence and esse in the identity copy certifies all
+the other simplicity exclusions. No world index is in Article4: connecting its
+efficient-cause reading to a selected world's causal edge remains another bridge.
+
+The two live additions to test are therefore independently visible: **classification
+to real constitution**, and **real distinction to the selected dependence through
+causal exhaustiveness/priority**. The source supplies arguments for them; a source
+assertion is not their independent defense. The new candidate
+`GENUS-DIFFERENTIA-REAL-DEPENDENCE-BRIDGE` preserves this question. The models do
+not select the preferred denial, and the first three rows are reused findings,
+not new results advertised for this batch.
+
+Intended and actual root-premise change: **none**. All open root leaves are
+retained. The two new q3a5 claims are scoped prose readings; the new mathematical
+certificate has no ordinary premises and proves the stated joint controls, not
+the truth of a composition/dependence thesis. Focused Lean diagnostics reported
+zero axioms; final delivered-head CI owns binding, Comparator and NanoDa checks.
