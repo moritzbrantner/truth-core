@@ -1,0 +1,9 @@
+{
+  "id": "INF-POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "rule": "direct-proof",
+  "meaning": "For every type of worlds and fixed roster, frame, presence assignment and base world, exact meet closure implies absence amalgamation. This universal conditional does not establish either closure policy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

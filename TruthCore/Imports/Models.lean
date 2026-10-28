@@ -19,6 +19,7 @@ import TruthCore.Models.PSRLocalControls
 import TruthCore.Models.PastResourceControls
 import TruthCore.Models.Physics
 import TruthCore.Models.PhysicsFirstMover
+import TruthCore.Models.PopulationClosureSeparation
 import TruthCore.Models.PrimaVia
 import TruthCore.Models.Q11
 import TruthCore.Models.QuartaViaDegreeFork

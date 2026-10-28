@@ -1,0 +1,10 @@
+{
+  "id": "POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "argument_id": "POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "challenge_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution",
+  "theorem": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.checks",
+  "comparator_config": "results/POPULATION-EXACT-IMPLIES-AMALGAMATION/comparator.json",
+  "status": "solution-present",
+  "description": "For every type of worlds and fixed roster, frame, presence assignment and base world, exact meet closure implies absence amalgamation. This universal conditional does not establish either closure policy."
+}

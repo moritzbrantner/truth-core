@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-POPULATION-CLOSURE-SEPARATION",
+  "statement_ids": [
+    "STMT-ABSENCE-AMALGAMATION",
+    "STMT-EXACT-MEET-CLOSURE"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Exact meet closure supplies the weaker subset witness by the forward implication of its pointwise equivalence. The universal three-world assignment abc/bcd/b supplies world b for every ordered pair, including equal pairs; b is present everywhere. Exact intersection abc\u2229bcd=bc is missing: a excludes abc, d excludes bcd, and missing c excludes b. Thus the converse fails without omission or empty-world assumptions. Rejected interpretation: a subset of each intersection need not realize the intersection. Neither policy is metaphysically justified; #533 finite-cover composition and #561 finite-hit/compactness remain outside this slice. Intended and actual root-frontier premise delta: none. Warm shared Lean diagnostics accepted both frozen advertised targets, finite evaluations and carrier enumerations with no errors/warnings and no axioms. Request binding: workspace head 75192b1c3efdf19f25601e52a06116e706420f11, causal-harvest session, Scratch/issue607.lean version 4, full-content SHA256 7554090c57d18aa51e2a96936cbc99fbd1be4459e868b55da5327f214995b033. Lease wait 0.000034 s; HTTP 200; API 0.547 s, compared with first request 3.247 s. Retain warm service for iterative proof diagnostics; canonical final CI still owns build/binding/Comparator/NanoDa. An overlapping Prop-valued pattern definition introduced propext; explicit constructor matches removed that unintended dependency. No prior canonical #533 closure predicate or #495 exact-meet implementation was found on origin/main 0f1059ba; only shared quantifier/domain/frame vocabulary was reused.",
+  "evidence": [
+    "POPULATION-EXACT-IMPLIES-AMALGAMATION",
+    "POPULATION-CLOSURE-SEPARATION"
+  ]
+}
