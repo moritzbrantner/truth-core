@@ -57,7 +57,19 @@
       "value": "violates",
       "arguments": ["World", "Being", "Model", "world"],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesNoExplainedSource"
+    },
+    {
+      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.mutualNoBrute"
+    },
+    {
+      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.mutualNotBrute"
     }
   ],
-  "modules": ["TruthCore.Explanation.WellFoundedSource"]
+  "modules": ["TruthCore.Explanation.WellFoundedSource", "TruthCore.Models.PSRLocalControls"]
 }
