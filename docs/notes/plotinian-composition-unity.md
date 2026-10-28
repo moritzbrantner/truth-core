@@ -13,11 +13,12 @@ from Volkmann's Teubner edition (1883–1884), First1KGreek revision
 `7b5a33eade9341bfabd4a2ac6a3a7551756f3128`. The whole materialized treatise was
 read before these claims. The bounded claim range is V.4.1; V.4.2 supplies
 context rather than an additional formal claim. No English translation is
-used as the witness. VI.9.1–6 remains a successor reading, not evidence read
+used as the witness. The first reading preserves the source’s requirement that
+such a first exist; recording that requirement does not establish existence. VI.9.1–6 remains a successor reading, not evidence read
 for this batch.
 
 The opening sets a conditional explanatory order: anything **subsequent** to
-the first derives from it directly or through intermediaries. It then proposes
+the first derives from it directly or through intermediaries. It then requires there to be
 a first that stands on its own, prior to all, distinct from its derivatives,
 not mixed with them but present in another way. The text's genuine unity is
 outside combination and composition. It even qualifies predication of “one”
