@@ -2,9 +2,9 @@
   "snapshot": {
     "kind": "web_snapshot",
     "source_id": "STREET-DARWINIAN-DILEMMA",
-    "source_url": "https://sites.pitt.edu/~mthompso/readings/street.pdf",
-    "retrieved_at": "2026-10-28T20:01:31Z",
-    "sha256": "sha256:e7edd6b8083b92fec9a7b2798abf50a2ffcd395d9a00cb91e9031ac5e1d45123",
+    "source_url": "https://www.sjsu.edu/people/kyle.yrigoyen/courses/132/s1/street---darwinian-dilemma.pdf",
+    "retrieved_at": "2026-10-28T20:13:43Z",
+    "sha256": "sha256:5925edb3e477b366aa3bd85cf76349ca4f7ccb5d1edfb1421d4e86cd88e7fd72",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Copyright retained by author/publisher. Public university/instructor-hosted teaching copy; only hashes, precise locators and analytical paraphrases committed, not PDF or extracted text. No redistribution license claimed."
@@ -12,16 +12,16 @@
   "passages": [
     {
       "id": "STREET-DARWINIAN-DILEMMA-FULL",
-      "locator": "Philosophical Studies 127 (2006), pp.109\u2013166; complete paper in two-up teaching PDF",
+      "locator": "Philosophical Studies 127 (2006), pp.109–166; complete published paper in one-up university teaching PDF",
       "claim_locator_prefixes": [
         "pp. "
       ],
       "pdf_pages": {
         "first": 1,
-        "last": 29
+        "last": 58
       },
-      "text_sha256": "sha256:9add9397d0b2172cf056f531c07e0f202ba40776b2b5fb2e2403f6a1a6592671",
-      "incipit": "Philosophical Studies (2006) 127:109-166 ? Springer 2006 110 SHARON STREET DOI"
+      "text_sha256": "sha256:c49006795cec59425a1fb9894563acb6cff91eb8068ce85e07b7698c6ae10359",
+      "incipit": "Philosophical Studies (2006) 127:109 166 DOI 10.1007/s11098-005-1726-6 Ó"
     }
   ]
 }
