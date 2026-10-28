@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREO-INTERVENTION-DYNAMICS",
+  "term": "closed macro intervention dynamics",
+  "definition": "A description map semiconjugates every primitive transition in an explicitly specified intervention family to a macro transition. The exact existence criterion is preservation of equality of selected coarse data. This entails agreement over all finite histories in that family, not unrestricted causal or explanatory reduction.",
+  "basis": "stipulative",
+  "note": "Analyst interpretation of Mathlib Function.Semiconj, using Function.FactorsThrough for the exact closure criterion. The family of admissible interventions is explicit and can invalidate the reduction when enlarged.",
+  "lean_declaration": "TruthCore.Mereology.ArrangementDynamics.Realizes"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MEREO-ARRANGEMENT-DYNAMICS",
+  "paraphrase": "For any chosen description and primitive intervention family, closed macro transitions exist exactly when every primitive transition preserves equal coarse data; any realizing macro transitions reproduce all finite intervention histories. The inhabited two-simple identity-parthood fixture realizes a nonlinear AND response under joint writes and swaps, distinguishes coupled from uncoupled arrangements with the same intrinsic bits, and loses closure when a local bit flip is added. This is a formal response-model comparison, not a reduction of all causal powers, agency, life, mind or ultimate explanation.",
+  "lean_declaration": "TruthCore.Mereology.ArrangementDynamics.Certificate",
+  "definition_ids": [
+    "DEF-MEREO-INTERVENTION-DYNAMICS",
+    "DEF-MEREO-PRIMITIVE-BEARER-PROFILE",
+    "DEF-MEREO-SUBSTANTIAL-UNITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MEREO-DESCRIPTION-BEARER"
+  ]
+}
