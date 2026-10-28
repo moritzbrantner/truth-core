@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "STREET-DARWINIAN-DILEMMA",
+    "source_url": "https://sites.pitt.edu/~mthompso/readings/street.pdf",
+    "retrieved_at": "2026-10-28T20:01:31Z",
+    "sha256": "sha256:e7edd6b8083b92fec9a7b2798abf50a2ffcd395d9a00cb91e9031ac5e1d45123",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright retained by author/publisher. Public university/instructor-hosted teaching copy; only hashes, precise locators and analytical paraphrases committed, not PDF or extracted text. No redistribution license claimed."
+  },
+  "passages": [
+    {
+      "id": "STREET-DARWINIAN-DILEMMA-FULL",
+      "locator": "Philosophical Studies 127 (2006), pp.109\u2013166; complete paper in two-up teaching PDF",
+      "claim_locator_prefixes": [
+        "pp. "
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 29
+      },
+      "text_sha256": "sha256:9add9397d0b2172cf056f531c07e0f202ba40776b2b5fb2e2403f6a1a6592671",
+      "incipit": "Philosophical Studies (2006) 127:109-166 ? Springer 2006 110 SHARON STREET DOI"
+    }
+  ]
+}
