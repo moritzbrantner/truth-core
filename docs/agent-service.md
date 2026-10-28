@@ -73,10 +73,32 @@ group, so no `lean` child is orphaned).
 
 Every request may name `workspace` (an absolute path to a truth-core checkout;
 default: the service's own checkout) and, for Lean, `session` (default
-`default`). Give each worker its own checkout or worktree and session id;
-sessions are keyed by both, and each session handles one request at a time.
-Lean `path`s are relative to the workspace and must be `.lean` files inside
-it.
+`default`). The API keys sessions by workspace and session id, but the approved
+worker protocol uses one coordinator-owned local service and one shared Lean
+preview session. Workers keep isolated canonical clones for their commits;
+the coordinator supplies the preview workspace, endpoint and session identity.
+Lean `path`s are relative to the preview workspace and must be `.lean` files
+inside it.
+
+Acquire an exclusive lease on `/tmp/truth-core-lean.lock` before changing the
+preview workspace, refreshing imports, closing or reopening the shared session,
+or issuing Lean diagnostics/goals. Hold the same lease through the response
+and binding check, then release it for the next worker:
+
+```bash
+flock -x /tmp/truth-core-lean.lock bash
+# In this shell: prepare the agreed preview revision, request diagnostics/goals,
+# inspect the response binding, then exit to release the lease.
+```
+
+Record the canonical clone's target revision and the preview's exact HEAD,
+dirty state and submitted content hash. A response concerns that preview HEAD
+and content, not automatically the worker's canonical clone or final commit.
+Reuse loaded imports only while their dependencies are unchanged. When a new
+preview revision changes dependencies, refresh the required imports and close
+and reopen the shared session under the exclusive lease before querying it.
+The coordinator owns service startup/shutdown; workers must not replace it or
+create parallel Lean sessions.
 
 ## Operations
 
@@ -100,7 +122,11 @@ text; the session reuses loaded imports, so only the edited file re-elaborates.
 
 ## Client commands
 
-These were run against this checkout at the commit that added the service:
+These examples were run against this checkout at the commit that added the
+service; `w1` was that experiment's session id. For current work, use the
+coordinator-supplied workspace/session and hold the lease above for Lean calls,
+including close/reopen. Corpus queries may target a worker's canonical clone
+with the request's `workspace` field.
 
 ```bash
 B=http://127.0.0.1:8765
@@ -129,17 +155,22 @@ built), same file `TruthCore/Results/Causality/RegressReadingsCoincide/Solution.
 | repeated goal request, warm session | 0.04 s |
 | edit sent as `content`, re-elaborate and return diagnostics plus goal | 0.24 s |
 
-The service costs about 1 s more once per session and saves about 2 s on each
-later edit or goal query. Corpus calls cost what the CLI costs (`dossier`
-about 2 s, `check` about 1 s), since they run it.
+In that run, startup cost about 1 s more than a CLI check; warm edits or goal
+queries saved about 2 s each. These are single-machine observations with built
+imports, not measurements of lease contention, dependency refreshes or total
+worker throughput. Corpus calls cost what the CLI costs (`dossier` about 2 s,
+`check` about 1 s), since they run it.
 
 ## Limits
 
 - No authentication: anything on the machine can call it. Keep it on
   `127.0.0.1`, which is the only address it binds.
 - Jobs and sessions live in memory and end with the service.
-- Lean sessions in different workspaces may run concurrently; a `build` job in
-  a workspace whose sessions are open can change the imports they loaded.
-  Reopen (close the session) after a rebuild of imports.
+- The API permits concurrent sessions and does not enforce the shared lease.
+  Workers enforce the protocol above; a build can change loaded imports, so
+  dependency refresh and session reopening require the exclusive lease.
+- Preview diagnostics/goals support proof editing only. Required final CI
+  verifies the delivered revision, including build, binding, axiom, Comparator
+  and NanoDa checks; a successful preview response does not certify it.
 - The retain/revise/remove recommendation belongs in the coordinator's
   handoff, not here.
