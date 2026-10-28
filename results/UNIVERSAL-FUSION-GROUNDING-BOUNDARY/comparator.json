@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.UniversalFusionBoundary.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

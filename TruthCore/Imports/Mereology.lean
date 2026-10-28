@@ -2,4 +2,5 @@
 import TruthCore.Mereology.ArrangementDynamics
 import TruthCore.Mereology.ProcessTurnover
 import TruthCore.Mereology.TheseusIdentity
+import TruthCore.Mereology.UniversalFusionBoundary
 import TruthCore.Mereology.Vitalism
