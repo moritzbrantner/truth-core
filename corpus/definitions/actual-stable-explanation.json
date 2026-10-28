@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-STABLE-EXPLANATION",
+  "term": "same actual reason across worlds of existence",
+  "definition": "ActualStable m domain x means there is one rigid token r such that every world where x exists admits r as both actually present and explanatory. No claim about r or explanation is made at worlds where x is absent.",
+  "basis": "stipulative",
+  "note": "Source attribution paused under owner scope for #465; semantic test only. Actualist guards follow the fixed-roster membership convention of #599, extended to existing Reason tokens without changing Ontic.",
+  "lean_declaration": "TruthCore.Modal.ActualReasonWitness.ActualStable"
+}
