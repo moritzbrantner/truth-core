@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-SELECTED-DEGREE-FAMILY-ATTAINMENT",
+  "term": "attainment in the selected individual accessible-world degree family",
+  "definition": "SelectedDegreeFamilyAttains says that the image of the root-accessible-world set under v \u21a6 intensity v n has a greatest member in the shared Preorder, using Mathlib IsGreatest. A greatest member belongs to that image and bounds every image member; mere upper boundedness does not suffice. The predicate itself does not assert presence or necessity of n. NecessaryAt in the theorem ensures these grades belong to existing pairs. Empty accessibility gives an empty image and no greatest member. Different degree labels may be preorder-equivalent.",
+  "basis": "stipulative",
+  "note": "Mathematical profile bridge using existing Mathlib order and set notions. It isolates attainment within one rigid selected individual degree family, not invariance, literal identity of grades, actual-world attainment, everyworld named maximality, or a source-attributed philosophical premise.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.SelectedDegreeFamilyAttains"
+}
