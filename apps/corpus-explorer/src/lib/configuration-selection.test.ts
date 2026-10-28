@@ -20,7 +20,7 @@ function fixture(): VerifiedConfigurationBundle {
     configurations: [], scope: "Transport fixture only", inapplicable_models: [], verified_implications: [],
     verification: { result_ids: ["R"], original_bound_result_ids: ["R"], models: { models: 1, certificates: 1, axioms: [] }, compositions: { cores: 1 } },
     family_verification: { cores: 1 },
-    assumption_space: { statement_ids: ["P", "Q"], max_dimensions: 4, root: "root", nodes: [
+    assumption_space: { statement_ids: ["P", "Q"], max_dimensions: 10, root: "root", nodes: [
       { id: "root", kind: "decision", statement_id: "P", exclude: "model", include: "core" },
       { id: "model", kind: "terminal", required_statement_ids: [], optional_statement_ids: ["Q"], syntactic_selections_covered: 2, report: selection("model witnessed") },
       { id: "core", kind: "terminal", required_statement_ids: ["P"], optional_statement_ids: ["Q"], syntactic_selections_covered: 2, report: selection("verified incompatible") },
@@ -46,6 +46,13 @@ test("certified transport requires producer, proof provenance, bounded dimension
   const configuration = original.cases[0]!;
   expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, verified: false }] })).toThrow();
   expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, verification: undefined }] })).toThrow();
-  expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, assumption_space: { ...configuration.assumption_space, statement_ids: ["A", "B", "C", "D", "E"] } }] })).toThrow();
+  const dimensions = ["P", "Q", ...Array.from({ length: 8 }, (_, i) => `DIMENSION_${i}`)];
+  const expanded = { ...configuration.assumption_space, statement_ids: dimensions,
+    nodes: configuration.assumption_space.nodes.map((entry) => entry.kind === "terminal"
+      ? { ...entry, optional_statement_ids: dimensions.slice(1), syntactic_selections_covered: 512 } : entry),
+    limits: { ...configuration.assumption_space.limits, syntactic_selections: 1024, covered_selections: 1024 } };
+  expect(parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, assumption_space: expanded }] }).cases[0]?.assumption_space.statement_ids).toEqual(dimensions);
+  expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, assumption_space: { ...configuration.assumption_space, statement_ids: [...dimensions, "OVER_LIMIT"] } }] })).toThrow();
+  expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, assumption_space: { ...configuration.assumption_space, max_dimensions: 11 } }] })).toThrow();
   expect(() => parseVerifiedConfigurations({ ...original, cases: [{ ...configuration, assumption_space: { ...configuration.assumption_space, root: "MISSING" } }] })).toThrow();
 });

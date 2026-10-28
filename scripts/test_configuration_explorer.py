@@ -12,7 +12,7 @@ from itertools import combinations
 import unittest
 
 import corpus
-from configuration_explorer import INPUT_FILES, bounded_family, build_case_spaces, input_manifest, read_bundle, write_bundle
+from configuration_explorer import INPUT_FILES, MAX_DIMENSIONS, bounded_family, build_case_spaces, input_manifest, read_bundle, write_bundle
 from configurations import configuration_report, model_profile_mismatches
 
 
@@ -38,9 +38,10 @@ class ConfigurationExplorerTests(unittest.TestCase):
             space = bounded_family(case, lambda ids: self.classify(case, ids))
             nodes = {node['id']: node for node in space['nodes']}
             dimensions = space['statement_ids']
-            self.assertEqual(space['limits']['covered_selections'], 16)
-            self.assertLess(space['limits']['classifier_calls'], 16)
-            self.assertLess(space['limits']['terminal_families'], 16)
+            selections = 2 ** len(dimensions)
+            self.assertEqual(space['limits']['covered_selections'], selections)
+            self.assertLess(space['limits']['classifier_calls'], selections)
+            self.assertLess(space['limits']['terminal_families'], selections)
             for count in range(len(dimensions) + 1):
                 for selected in combinations(dimensions, count):
                     node = nodes[space['root']]
@@ -52,15 +53,15 @@ class ConfigurationExplorerTests(unittest.TestCase):
                     if node['report']['status'] == 'verified incompatible':
                         self.assertIsNone(node['report']['consequences'])
 
-    def test_unverified_data_and_fifth_dimension_are_rejected(self):
+    def test_unverified_data_and_over_limit_dimensions_are_rejected(self):
         reports = copy.deepcopy(self.reports)
         reports[0]['verified'] = False
         with self.assertRaisesRegex(ValueError, 'unverified'):
             build_case_spaces(self.context, reports)
         case = copy.deepcopy(self.context['cases'][0])
-        case['semantics']['applications']['FIFTH'] = []
-        with self.assertRaisesRegex(ValueError, 'at most 4'):
-            bounded_family(case, lambda ids: self.classify(case, ids))
+        case['semantics']['applications'] = {f'DIMENSION_{i}': [] for i in range(MAX_DIMENSIONS + 1)}
+        with self.assertRaisesRegex(ValueError, f'at most {MAX_DIMENSIONS}'):
+            bounded_family(case, lambda ids: self.fail('over-limit inputs must fail before classification'))
 
     def test_build_preflight_is_explicit_and_cannot_bypass_missing_or_uncached_inputs(self):
         args = argparse.Namespace(build_input=True, check=None, output=None, json=False)

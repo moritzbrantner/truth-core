@@ -1,6 +1,6 @@
 {
   "id": "MODEL-NIGHT-COSMOGONY-RESIDUAL",
-  "description": "#497 residual model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency and posterior to nothing, and nothing is in act or moved. All three core premises and the bare rival STMT-POTENCY-PRIOR-TO-ACT hold; the Night bundle and act's simple priority fail.",
+  "description": "#497 residual model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency and posterior to nothing, and nothing is in act or moved. All three core premises and the bare rival STMT-POTENCY-PRIOR-TO-ACT hold; the Night bundle and act's simple priority fail. Capacity extension: CanBe is the union of this same interpretation\u2019s potency and actuality predicates; the previous assignments are unchanged. Potency-as-unactualized-capacity holds in this joint finite interpretation.",
   "vocabulary": "NIGHT-COSMOGONY",
   "lean_declaration": "TruthCore.Models.NightCosmogony.Residual.model",
   "bindings": {
@@ -10,7 +10,8 @@
     "InPotency": "TruthCore.Models.NightCosmogony.Residual.model.InPotency",
     "MovedIn": "TruthCore.Models.NightCosmogony.Residual.model.MovedIn",
     "MovesIn": "TruthCore.Models.NightCosmogony.Residual.model.MovesIn",
-    "PriorSimply": "TruthCore.Models.NightCosmogony.Residual.model.PriorSimply"
+    "PriorSimply": "TruthCore.Models.NightCosmogony.Residual.model.PriorSimply",
+    "CanBe": "TruthCore.Models.NightCapacityControls.Residual.canBe"
   },
   "carriers": [
     {
@@ -60,9 +61,47 @@
       "value": "violates",
       "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Residual.noFork"
+    },
+    {
+      "statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+      "value": "violates",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Residual.noForcedBranch"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Residual.mover"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "MovesIn", "InAct"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Residual.actual"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency"],
+      "theorem": "TruthCore.Models.NightActualizationFork.Residual.notBoth"
+    },
+    {
+      "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "CanBe"],
+      "theorem": "TruthCore.Models.NightCapacityControls.Residual.analysis"
     }
   ],
   "modules": [
-    "TruthCore.Models.NightCosmogony"
+    "TruthCore.Models.NightCosmogony",
+    "TruthCore.Models.NightActualizationFork",
+    "TruthCore.Models.NightCapacityControls"
   ]
 }

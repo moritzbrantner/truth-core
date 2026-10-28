@@ -1,0 +1,29 @@
+{
+  "id": "NIGHT-ACTUALIZATION-CORE",
+  "premise_statement_ids": [
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-NIGHT-ACTUALIZATION-CORE"
+  ],
+  "meaning": "Compose the existing GENERATION-FROM-NIGHT-REFUTED.coreFromRootPremises theorem with the Night commitment. The four other commitments imply that the Night reading is false; the supplied Night witness therefore yields logical falsity. This exposes the already proved root-premise incompatibility to configuration propagation; it is not a new philosophical refutation and selects no member for rejection. The mover, actuality, act/potency and simple-priority assumptions share the same Being, Respect and predicates. The simple-priority bridge is unattributed and open. No excluded middle is needed. Inclusion-minimality is a separate obligation requiring a joint checked witness for every single-member deletion. No root premise closes.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}
