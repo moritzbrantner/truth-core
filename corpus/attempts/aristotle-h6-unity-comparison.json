@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-ARISTOTLE-H6-UNITY-COMPARISON",
+  "statement_ids": [
+    "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
+    "STMT-SEPARATE-PREDICATE-FORMS-LEAVE-UNITY-QUESTION",
+    "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
+    "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-FORM-MORE-NATURE-THAN-MATTER",
+    "STMT-MEREO-SOUL-UNITY-INDEPENDENCE"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read complete Greek ARIST-MET-VIII-6. Recorded four bounded source readings: nonheap unity explanandum, specific separate-predicate-Forms challenge, affirmative proximate-matter/form response and qualified mover exception. Rejected unconditional uncaused-whole, every-fusion external-agent and Aristotle-as-Thomistic-essence/esse interpretations. Existing Physics and Vitalism results delimit priority and observational underdetermination; no duplicate theorem is needed. The missing bridge from this unity explanation to a distinct actual cause in esse remains open; see docs/notes/aristotelian-unity-h6.md. Root premise change: none.",
+  "evidence": [
+    "ARIST-MET-1045A-NONHEAP-UNITY",
+    "ARIST-MET-1045A-SEPARATE-FORMS-UNITY",
+    "ARIST-MET-1045A-POTENTIAL-ACTUAL-UNITY",
+    "ARIST-MET-1045B-UNITY-MOVER-QUALIFICATION"
+  ]
+}

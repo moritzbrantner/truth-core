@@ -1,0 +1,15 @@
+{
+  "id": "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+  "statement_id": "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+  "source_id": "ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE",
+  "locator": "pp. 427–434, §§5.1–5.3: third factor, survival and limits; especially pp. 430–432 and note 44",
+  "interpretation": "Qualified realist reply, not a derivation of normativity from reproductive success. The goodness assumption is first-order normative; the belief–action mechanism, starting points and reasoning reliability are further commitments. Note 44 distinguishes explaining correlation/possibly defeating a defeater from directly justifying normative beliefs. No quantitative probability is assigned.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MORAL-ACCESS-CORRELATION",
+    "DEF-ENOCH-THIRD-FACTOR-ACCESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

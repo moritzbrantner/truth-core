@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-NATURAL-GOODNESS-FUNCTION-AUTHORITY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW",
+    "STMT-FUNCTION-EXCELLENCE-NECESSARY",
+    "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
+    "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
+    "STMT-REASON-REGULATED-INCLINATIONS-NATURAL-LAW"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read the whole pinned NE I.7, ST I q.5 a.1 and I-II q.94 a.2. Added four bounded source readings distinguishing role excellence, excellent rational activity over a complete life, ultimate due perfection and reason-regulated inclination. Existing GoodnessFromDesirability and naturalistic-realism reason-omission results already cover the proposed formal bridge and its failure; no duplicate theorem was created. Functional criterion assignment, the normative priority of human ends, correctness of rational regulation and categorical authority remain open for all compared views. Source fidelity, rejected inferences and a symmetric positive comparison are persisted in docs/notes/natural-goodness-function-and-authority.md. No root premise is added, removed or discharged.",
+  "evidence": [
+    "ARIST-EN-I7-FUNCTION-EXCELLENCE",
+    "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY",
+    "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION",
+    "AQUINAS-ST-I-II-Q94-A2-REASON-REGULATION",
+    "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY"
+  ]
+}

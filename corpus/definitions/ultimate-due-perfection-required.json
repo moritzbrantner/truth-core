@@ -1,0 +1,10 @@
+{
+  "id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
+  "term": "good simpliciter and ultimate due perfection",
+  "definition": "A thing lacking the ultimate perfection it ought to have is not good simpliciter. This exclusion does not assert that such a deficient thing exists, identify good simpliciter with per-perfection goodness, or derive categorical moral authority.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UltimateDuePerfectionRequiredReading"
+}

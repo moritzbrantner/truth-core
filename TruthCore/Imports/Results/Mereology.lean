@@ -3,3 +3,4 @@ import TruthCore.Results.Mereology.ArrangementDynamics.Solution
 import TruthCore.Results.Mereology.ProcessTurnover.Solution
 import TruthCore.Results.Mereology.SoulUnityIndependence.Solution
 import TruthCore.Results.Mereology.TheseusIdentity.Solution
+import TruthCore.Results.Mereology.UniversalFusionBoundary.Solution

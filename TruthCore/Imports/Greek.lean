@@ -4,6 +4,7 @@ import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Greek.Aristotle.MetaphysicsIII3
 import TruthCore.Greek.Aristotle.MetaphysicsIV7
 import TruthCore.Greek.Aristotle.MetaphysicsIX
+import TruthCore.Greek.Aristotle.NicomacheanEthics.BookI.Chapter7
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
