@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SOURCE-EXISTENCE-WITNESS",
+  "term": "an existing graph-relative source as a separate input",
+  "lean_declaration": "TruthCore.Causality.SourceWitness.HasSource",
+  "basis": "stipulative",
+  "definition": "HasSource G is existence of a node s with Graph.Source s, meaning no incoming G.edge from any graph node. For G := WorldSourceRegress.actualGraph m w, the source is an actually existing candidate in the fixed world w. It is stronger than mere population and is a separate open premise when applied to reality. It does not assert WF, no regress, finite ancestry, necessity, simplicity, explanatory adequacy or God. Under causal weak connectivity and upstream confluence, one such source suffices for the already defined RootedAtUniqueSource conclusion, including finite upstream paths from every node to that source.",
+  "note": "Analyst structural follow-up. WF plus population was one sufficient source-existence route, not a necessary condition for rootedness after a source witness is supplied. Replacing those two structural inputs by HasSource is a conditional premise comparison, not a defense or discharge of actual source existence."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "rule": "direct-proof",
+  "meaning": "Import WorldSourceRegress.overlapControl on the unchanged literal overlap actual graph for its acyclicity, source witness, SAME selected anchored injective regress and non-Acc. Each actual node has a direct upstream path to the existing none node or the zero path there; these concrete finite extensions give confluence and weak connectivity. Apply SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE to the imported source witness; its unique source and finite paths from every node coexist with the old infinite branch. Non-Acc at actual some0 directly refutes WF. No finite ancestry, universal branch termination, metaphysical possibility, or source identity with God is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
