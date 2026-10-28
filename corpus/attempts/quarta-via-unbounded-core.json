@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-UNBOUNDED-CORE",
+  "statement_ids": [
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES"
+  ],
+  "date": "2026-10-28",
+  "kind": "refutation",
+  "outcome": "blocked",
+  "summary": "On source checkpoint f9ef516b, connected the degree fork's unbounded branch to the existing root-path grades-to-maximum principle. Exact target: those two commitments together with the existing observation of grades yield STMT-CONFIGURATION-FALSE. The observation is used only for one carrier member a; unbounded extension at esse gives a comparison above a; the maximum principle supplies a maximal being at esse; extension above that maximum contradicts maximality. Confirmed that no homogeneous scale, preorder, totality, genus principle, causal ascent, causal relation or excluded middle is needed. This is a conditional conflict among exact existing propositions, not an unconditional philosophical refutation or newly sourced rival. The proof exposes the stronger boundary that maximum-principle plus extension leaves no carrier member; an additional advertised theorem for that boundary was deferred because the Challenge was already frozen. Preserved the prior two frozen Challenges. New frozen Challenge includes separate closed deletion controls: one Bool interpretation satisfies the maximum principle and observed grades while extension fails; one infinite Nat interpretation satisfies grades and extension while the maximum principle fails; one Empty-carrier interpretation satisfies both universal principles vacuously while the grades observation fails. These controls do not combine separate interpretations to witness one deletion. Empty means an omitted population assumption in the formal carrier, not metaphysical emptiness; Nat is not a finite interpretation. Rejected an Empty-only finite-registry extension because Nat is also outside that witness path. No tooling/registry extension or automatic inclusion-minimality claim is made. Focused core build, corpus check and axiom inspection pass: incompatible, withoutUnbounded and withoutGrades are zero-axiom; withoutMaximumPrinciple uses exactly the approved propext, Classical.choice and Quot.sound via the existing Nat proof. Final integrated binding, Comparator and NanoDa gates remain pending. The observation is not claimed the logically weakest population premise; no root premise closes.",
+  "evidence": [
+    "QUARTA-VIA-UNBOUNDED-CORE",
+    "QUARTA-VIA-DEGREE-FORK",
+    "QUARTA-VIA-DEGREE-BRANCH-WITNESSES"
+  ],
+  "blocker": "Complete required gates on the exact integrated head. Automatic registry-computed inclusion-minimality is unavailable without accepted registry witnesses for Nat and Empty; closed Comparator omission controls are reported separately. The philosophical truth of the incompatible root/rival commitments remains open."
+}
