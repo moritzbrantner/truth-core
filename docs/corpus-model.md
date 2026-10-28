@@ -53,6 +53,48 @@ There are three deliberately separate notions of verification:
 
 No green status is allowed to collapse these boundaries. See `docs/source-evidence.md` for the source workflow.
 
+For a single inference between **existing** statement IDs, `scripts/scaffold_result.py`
+prepares linked inference, argument, result and Comparator drafts. For example,
+after writing the intended meaning to `/tmp/result-meaning.txt`:
+
+```bash
+python3 scripts/scaffold_result.py --id MY-NEW-RESULT \
+  --premise STMT-ACTUAL-MODAL-REFLEXIVITY \
+  --conclusion STMT-ACTUAL-MODAL-REFLEXIVITY \
+  --meaning-file /tmp/result-meaning.txt --rule instantiation \
+  --challenge-module TruthCore.Results.MyResult.Challenge \
+  --solution-module TruthCore.Results.MyResult.Solution \
+  --theorem TruthCore.Results.MyResult.checks
+```
+
+This example only illustrates wiring; it supplies no proof. Default output is a
+JSON preview. `--output-dir /tmp/my-result-drafts` instead creates a **new**
+directory containing four canonical-path drafts and a manifest; existing output
+directories, canonical paths and record IDs are rejected. The command never
+creates or changes a statement or source claim. It copies meaning verbatim and
+inherits definition/disambiguation links for manual review. No-premise arguments
+omit `--premise`; repeated IDs and statements without a `lean_declaration` are
+rejected. Scoped assumptions, consistency commitments and multiple inference
+steps require manual records.
+
+Optionally pass `--type-evidence /path/to/saved-bind-types.json`, an existing
+`scripts/BindTypes.lean` JSON-array export. The command reuses `corpus.bind_result`
+to compare the selected theorem's hypothesis/conclusion heads against the supplied
+IDs and rejects mismatches. The manifest records the supplied bytes' hash and
+comparison, not their provenance or freshness. It does not run Lean or establish
+that an export came from the current revision. Without this option even head
+alignment remains unchecked. No global type export is started.
+
+The result draft intentionally lacks the required `status` field, so it is not
+ready for corpus registration. Review the prose/type correspondence, premise
+dossiers, inherited sense links and transcription classification; freeze the
+Challenge before constructing its Solution, complete the record at the appropriate
+workflow step, and run the normal final gates. Do not copy the manifest into the
+corpus. Comparator permission defaults to zero axioms; explicit repeated `--axiom`
+flags must satisfy the existing policy (the full approved three also require an
+existing Solution importing Mathlib). Enabling NanoDa in a draft config does not
+claim that NanoDa, Comparator, axiom inspection or source checks ran.
+
 ## Composition and visualization
 
 Large visual compositions should be derived from statements + inference applications + arguments. An argument can be collapsed to a single reusable block whose visible output is its conclusion, then expanded to reveal its internal premises and inference steps. React Flow or another graph renderer should consume such a derived projection; it should not become the canonical data model.

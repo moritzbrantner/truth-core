@@ -15,6 +15,13 @@ For a substantial frontier investigation (not a single source reading), the brie
 
 The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
 
+The coordinator runs `python3 scripts/worker_env.py --check` once for the
+selected toolchain/cache setup and supplies that setup to workers. Workers use
+`python3 scripts/worker_env.py -- <command> <args...>` without repeating the
+preflight unless the setup changes. Keep machine-specific verifier paths in
+repository-local Git configuration or the explicit environment, not in briefs
+that workers must reconstruct or in committed source.
+
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
 ## Concise reporting and persistence
@@ -41,6 +48,15 @@ Before handoff or retirement, persist verified source findings, rejected interpr
    boundaries and remaining gaps in their existing corpus records or linked
    notes. Shorter reporting must not remove this evidence. Do not replace it
    with chat history, temporary logs or duplicated progress narratives.
+6. **Trust completed work; do not repeat verification.** Reuse worker reports
+   and successful check evidence when the checked inputs and relevant
+   dependencies are unchanged (owner instruction, 2026-10-28). Use focused
+   diagnostics during development and final CI for the delivered revision;
+   do not independently repeat full builds, binding, Comparator, NanoDa, test
+   suites or review rounds at every handoff. Rerun affected checks for relevant
+   changes, concrete failures or unresolved findings. Complete the claim/type
+   self-sweep for a related batch before its first push, and combine related
+   findings into one reviewable PR where practical.
 
 ## Local server experiment for the next workloop
 
@@ -149,7 +165,7 @@ Work runs in parallel lanes (#416). Each lane owns directories and the corpus re
 Rules:
 
 - Edit outside your lane only where the work needs it (for example a shared definition or disambiguation such as `DISAMB-MOTION`), keep that edit minimal, and list every cross-lane file in the PR description.
-- Merge `origin/main` into your branch right before every push, then rerun the generators below and the checks.
+- Merge `origin/main` into your branch right before every push, then rerun the generators below and only checks whose evidence the merge invalidates. Reuse evidence for unchanged inputs; final CI covers the delivered revision.
 - Shared tables and import lists are generated, never hand-edited. Lean imports: `scripts/root-imports.sh --write` (each area has its own aggregator under `TruthCore/Imports/`; `scripts/root_imports.py` lists the areas finer than one top-level directory). Docs tables and lists: add one entry file (for example `docs/decisions/<date>-<NN>-<slug>.md`) and run `python3 scripts/docs_index.py --write`. CI rejects stale output of both. After a merge conflict in a generated file, take either side and rerun the generator. A row or list item that a branch from before #416 added by hand must first move into an entry file: the generator keeps only entries.
 
 See `docs/systematic-corpus-loop.md`, "Parallel lanes".
@@ -223,7 +239,10 @@ If a Solution cannot be proved from the advertised premises:
 
 ### 7. Verify the three boundaries
 
-Run:
+The following commands describe required verification coverage, not duplicate
+local runs for every worker and coordinator. Reuse completed evidence; final CI
+provides the integration checks. Run a check locally when development needs it
+or a relevant change or failure invalidates its earlier evidence:
 
 ```bash
 python3 scripts/source_evidence.py check

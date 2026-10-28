@@ -28,12 +28,41 @@ state.
 
 ## Startup and health check
 
+Configure the existing verifier cache once in the repository's **local** git
+config (shared by its worktrees), then run one preflight for that toolchain/cache
+setup and supply its result to workers:
+
+```bash
+git config --local truthcore.verifierHome /absolute/existing/cache
+python3 scripts/worker_env.py --check                # optional: --lean-version
+```
+
+The wrapper selects `TRUTH_CORE_VERIFIER_HOME` from the explicit environment,
+then `truthcore.verifierHome`, then `~/.cache/truth-core-verifier`. It adds
+`~/.elan/bin` to `PATH`. The preflight requires the exporter toolchain to match
+this checkout's pin and all four existing verifier executables; it prints a
+small JSON object naming the checkout, HEAD, toolchain and selected cache.
+`--lean-version` additionally probes the installed release with
+`elan run <pin> lean --version`, without Elan's `--install` flag, and checks its
+version against the pin. It never bootstraps, downloads or changes global
+configuration.
+
+After that, wrap commands without repeating the preflight. Arguments, the
+caller's working directory and the command's exit status are preserved. The
+repository-local config and preflight pin are read from the wrapper's own
+checkout even when the command runs elsewhere:
+
+```bash
+python3 scripts/worker_env.py -- lake build <focused-target>
+python3 scripts/worker_env.py -- scripts/verify-result.sh <RESULT-ID>
+```
+
 The master starts and stops the service. Lean requests need the imports of the
 edited file built (`lake exe cache get` once for Mathlib, then a `build` job
 or `lake build`); `lake env lean --server` does not build imports itself.
 
 ```bash
-python3 scripts/agent_service.py --port 8765          # optional: --workspace <checkout>
+python3 scripts/worker_env.py -- python3 scripts/agent_service.py --port 8765  # optional: --workspace <checkout>
 curl -s http://127.0.0.1:8765/health                  # status, toolchain, binding
 ```
 
