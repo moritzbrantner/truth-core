@@ -1,0 +1,10 @@
+{
+  "id": "SCIENCE-PREDICATE-RECODING",
+  "argument_id": "SCIENCE-PREDICATE-RECODING",
+  "challenge_module": "TruthCore.Results.Science.PredicateRecoding.Challenge",
+  "solution_module": "TruthCore.Results.Science.PredicateRecoding.Solution",
+  "theorem": "TruthCore.Results.Science.PredicateRecoding.controls",
+  "comparator_config": "results/SCIENCE-PREDICATE-RECODING/comparator.json",
+  "status": "solution-present",
+  "description": "Two-phase Boolean recoding is involutive; transporting any predicate preserves its value on the corresponding recoded feature. In the supplied original feature basis, phase independence is equivalent to factorization through the feature alone. The base feature predicate is phase independent, while its transported representation is not independent when the coded feature coordinate is held fixed. No choice of privileged physical basis, inductive entitlement, or actual color behavior follows."
+}
