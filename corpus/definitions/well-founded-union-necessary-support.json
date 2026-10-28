@@ -3,6 +3,6 @@
   "term": "well-founded global union of necessary existential-support edges",
   "definition": "The cross-world union of direct existential-support relations restricted to de re necessary individuals is well-founded. In finite models this rules out directed cycles (including nontrivial SCCs); in infinite models acyclicity alone does not establish well-foundedness. This permits world-varying edges that do not create a global regress.",
   "basis": "stipulative",
-  "note": "Alternative open condition to direct edge invariance, weaker than full necessary-edge inclusion with actual well-foundedness, and not an assertion that actual metaphysical dependence has an ordinal rank. This is an optional cross-world overlay constraint, strictly stronger than worldwise well-foundedness, not a default causal-coherence law or a consequence of temporal logic. Edges themselves never cross worlds.",
+  "note": "Alternative open condition to direct edge invariance, weaker than full necessary-edge inclusion with actual well-foundedness, and not an assertion that actual metaphysical dependence has an ordinal rank. This is an optional cross-world overlay constraint, strictly stronger than worldwise well-foundedness of the same necessary-support-restricted relations, and does not imply well-foundedness of the full world-local causal relations, not a default causal-coherence law or a consequence of temporal logic. Edges themselves never cross worlds.",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.WellFoundedUnionNecessarySupport"
 }
