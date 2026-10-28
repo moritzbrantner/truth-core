@@ -40,8 +40,8 @@ jobs:
         with:
           build: "true"
           save: "true"
+      # Offline PDF fixture tests always run, even when live source work is unaffected.
       - name: Install PDF source extraction
-        if: needs.comparator-plan.outputs.source == 'true'
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
