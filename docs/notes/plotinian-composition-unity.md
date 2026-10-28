@@ -11,8 +11,8 @@ that their philosophical premises are true. No root premise is discharged.
 from Volkmann's Teubner edition (1883–1884), First1KGreek revision
 `ed91552c52530c8f5a3ddf2dd767e899372a804c`, blob
 `7b5a33eade9341bfabd4a2ac6a3a7551756f3128`. The whole materialized treatise was
-read before these claims. The bounded claim range is V.4.1; V.4.2 supplies
-context rather than an additional formal claim. No English translation is
+read before these claims. Five readings concern V.4.1; the Intellect reading concerns V.4.2.
+The remaining text of V.4.2 supplies context. No English translation is
 used as the witness. The first reading preserves the source’s requirement that
 such a first exist; recording that requirement does not establish existence. VI.9.1–6 remains a successor reading, not evidence read
 for this batch.
@@ -50,7 +50,7 @@ weakness or envy. That productivity argument is preserved here as contextual
 reasoning, not silently converted into a theorem of necessary production in
 all Kripke worlds or an account of deliberative creation.
 
-The end of V.4.1 distinguishes the first from Intellect: intellection turns
+The opening of V.4.2 distinguishes the first from Intellect: intellection turns
 toward the intelligible and is determined or completed by it; Intellect is both
 thinking and intelligible, so already two and many in the relevant sense.
 V.4.2 elaborates activity of essence versus activity from essence, using fire
