@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-NECESSARY-IF-EXACT-FRAME-437",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-NECESSARY-IF-SUCCESSOR-CONNECTED",
+    "STMT-NECESSARY-IF-FORWARD-VALID-AT",
+    "STMT-NECESSARY-IF-EXACT-FRAME",
+    "STMT-NECESSARY-IF-EXISTENT",
+    "STMT-NECESSARY-IF-POSSIBLE-EXISTENCE",
+    "STMT-NECESSARY-IF-POSSIBLE-NONEXISTENCE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded follow-up to #437/PR-632; its frozen Challenges and accepted inputs are untouched. Starting from the exact boxed conditional and existing Box/Dia/Frame, imported GraphBridge and reused Mathlib Relation.ReflTransGen. Defined source-masked steps Rwa \u2227 Rab to match the scope of \u25a1(G\u2192\u25a1G). A path may exit the successor set but then cannot continue; restrict_path mechanically certifies that paths ending again inside can use only edges with both endpoints inside. Exact pointwise correspondence: forward escalation valid over ALL G:W\u2192Prop iff all ordered successors are connected by masked reflexive-transitive paths. Sufficiency is truth propagation by path induction. Necessity tests the schema with G(z)=ReflTransGen(maskedStep F w) a z, whose closure at every successor follows by appending one masked edge. This characteristic-predicate use is why a restricted corpus inventory or one chosen God predicate does not justify the converse. No excluded middle or classical axiom is used. Euclideanness supplies one-step paths, but is not necessary: the fixed three-world Option Bool line is reflexive symmetric and successor-connected at EVERY standpoint yet non-Euclidean, witnessed at center none by the two leaves. More generally reflexivity plus symmetry (T+B) suffices by the two-step path a\u2192w\u2192b. No minimal global modal-logic classification is claimed. The separate matrix helper proves both rival escalations with this same weaker connectivity condition, and only its coverage branch consumes explicit Logic.ExcludedMiddle. Actual truth still needs reflexivity/T; empty successor sets remain allowed and no exclusivity follows without a successor. Rejected the stronger claim that K5 is necessary, and rejected treating all-predicate correspondence as a result for a fixed divine essence or restricted admissible predicates. No source reading or attribution was performed; Collin intake, possibility of G, possibility of not-G and metaphysical modality adequacy remain OPEN. Shared prover at head a13fc46984ddec1697abd68b63d6bb9eaa50bce8 accepted complete combined source, including restrict_path, with no errors and zero axioms for certificate and matrix. Exact input SHA256 dd923fedcd3a67159add0ae700fb0e7bf3d6ed89c7e317c925bd94fcab1ccd2a; session causal-harvest, unique Scratch/issue437/Connectivity.lean, flock wait 0.000s, HTTP200 API0.250s. Interactive evidence does not replace final CI build/binding/Comparator/NanoDa. Intended and actual premise comparison: no root-path premise added, removed or discharged; the new closed mathematical schema characterizes the frame condition rather than establishing it for metaphysics. Root delta0; no God bridge or source claim. All load-bearing terms have linked definitions and one-step/path and scope disambiguations. After PR-632/630/633 merged, rebased only this follow-up onto origin/main 5da45a32 and regenerated shared imports/docs. Its final frontier --routes and --reaching-root output are byte-identical to a clean archived origin/main baseline. Dependency refresh changed no imported Lean dependency of the accepted proof, so existing exact-input service evidence is reused. The original NecessaryIfExistent Challenge is unchanged. Final claim/type self-sweep checked all-predicate versus fixed-G scope, masked versus one-step accessibility, T+B strictness and remaining explicit premises.",
+  "evidence": [
+    "NECESSARY-IF-EXISTENT-EXACT-FRAME",
+    "PR-632"
+  ]
+}
