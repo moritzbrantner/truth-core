@@ -1,0 +1,12 @@
+{
+  "id": "DEF-SEXTUS-ESTABLISHING-PROOF",
+  "term": "proof or criterion offered to establish an investigated claim in the Five Modes",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEXTUS-I166-REGRESS-SUSPENSION",
+    "SEXTUS-I169-RECIPROCAL-SUPPORT",
+    "SEXTUS-I170-177-DISPUTED-CRITERION"
+  ],
+  "definition": "What is offered to establish or make convincing the investigated claim; the passage subjects this offered support to renewed requests for proof or judgment where its entitlement remains disputed. This epistemic use is not efficient causation, physical activity or mere material implication. A graph edge alone does not certify establishment.",
+  "note": "Patrick1899 translation, PHI166,169–177. No equation with GeneratedWarrant or global epistemic well-foundedness is attributed to Sextus."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SEXTUS-I166-REGRESS-SUSPENSION",
+  "statement_id": "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.166",
+  "interpretation": "Source reading in prose only, not a Lean theorem. The absence of an establishing starting point belongs to the epistemic situation described, not to elapsed physical time. This is the passage’s adequacy challenge, not a proof that every infinite sequence of reasons lacks warrant under every possible standard.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-SUSPENSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}
