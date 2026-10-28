@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-MODAL-HIJK-CONVERGENCE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded refinement of discovery checkpoint b1b9027f, no new investigation. Reused the faithful graph adapter, existing Formula/Holds/Valid, Mathlib Quiver.Path.length and prior axiom4/B/5 validity proofs. Independent sweep accepted arbitrary-formula soundness and the genuinely stronger one-atom all-valuation converse: characteristic P(z)=ExactPath i a z converts validity into the required common endpoint. Preserved exact zero-length identity and successor decomposition; rejected substituting arbitrary reachability, assuming padding/reflexivity, using only one chosen valuation, or calling frame correspondence Hilbert completeness. Original nine-target Challenge SHA8b36faf092fe2e84ed5cbeecea839dec85602e9837cc9f417f81c1d531135f2a unchanged. New transparent wrapper Challenge frozen SHAaf01c4109daf8aa9701d8b45786915ee4d681c3f679aa59cb9c993c65f4dd344 before its assembly Solution. Config explicitly targets all original nine helpers through imported Challenge/Solution plus the wrapper. Focused original Solution build passed; source service discovery diagnostics are not final certification. Exact helper axiom evidence corrects an earlier informal constructive description: exactPath_zero uses propext, other eight use propext/Classical.choice/Quot.sound. No explicit EM hypothesis does not mean a constructive kernel artifact. No source claim, new philosophical premise, global frame restriction or root closure. Final wrapper and integrated gates pending.",
+  "evidence": [
+    "MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+  ],
+  "blocker": "Final wrapper compile and integrated binding/Comparator imported-target/NanoDa checks remain pending; no philosophical premise is discharged."
+}
