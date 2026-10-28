@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-POPULATION-COVER-CONTROLS",
+  "argument_id": "FINITE-POPULATION-COVER-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.checks",
+  "comparator_config": "results/FINITE-POPULATION-COVER-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "The alternating model fails amalgamation; infinite Nat tails are populated and individually contingent with amalgamation but have neither DeRe nor finite population cover; with no successors even an empty roster satisfies cover, amalgamation and contingency without joint absence."
+}
