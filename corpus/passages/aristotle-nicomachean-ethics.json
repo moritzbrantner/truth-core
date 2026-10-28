@@ -27,6 +27,23 @@
           "n": "1"
         }
       ]
+    },
+    {
+      "id": "ARIST-EN-I-7",
+      "locator": "I.7",
+      "claim_locator_prefixes": [
+        "I.7,"
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "1"
+        },
+        {
+          "subtype": "section",
+          "n": "7"
+        }
+      ]
     }
   ]
 }

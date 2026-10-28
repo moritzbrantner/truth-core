@@ -1,0 +1,9 @@
+{
+  "id": "STMT-REASON-REGULATED-INCLINATIONS-NATURAL-LAW",
+  "paraphrase": "Natural inclinations of parts of human nature, insofar as regulated by reason, pertain to natural law. This sufficient-direction reading does not say every actual inclination is to be followed or supply a criterion of correct reason.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ReasonRegulatedInclinationsBelongToNaturalLawReading",
+  "definition_ids": [
+    "DEF-REASON-REGULATED-NATURAL-INCLINATION",
+    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+  ]
+}
