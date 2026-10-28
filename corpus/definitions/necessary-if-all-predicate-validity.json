@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-IF-ALL-PREDICATE-VALIDITY",
+  "term": "pointwise forward validity over all world predicates",
+  "definition": "ForwardAt F w quantifies over every G:W\u2192Prop and states NecessaryIf F G w \u2192 Dia F G w \u2192 Box F G w. This is a frame property at a fixed standpoint, not a claim about a single chosen God predicate. It permits the characteristic reachability predicate needed for the exact converse. Restricting to a corpus inventory or a proposed divine essence does not license the converse.",
+  "basis": "stipulative",
+  "note": "Mathematical quantification only; no source attribution or metaphysical completeness of admissible predicates is assumed.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfConnectivity.ForwardAt"
+}

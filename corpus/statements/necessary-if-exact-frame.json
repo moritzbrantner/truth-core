@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-IF-EXACT-FRAME",
+  "paraphrase": "For every frame F and standpoint w, the schema \u25a1(G \u2192 \u25a1G) \u2192 (\u25c7G \u2192 \u25a1G), valid over ALL world predicates G, holds iff every ordered successor pair is connected by Mathlib reflexive-transitive masked reachability. Euclidean frames suffice by one step; reflexive symmetric frames suffice by two steps through w. A fixed three-world reflexive symmetric line has this connectivity at every standpoint but is not Euclidean, proving Euclideanness is not necessary. This is an exact pointwise all-predicate correspondence, not a characterization for one fixed G, restricted admissible predicates, or metaphysical modality.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfConnectivity.Certificate",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+    "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
+    "DEF-NECESSARY-IF-ALL-PREDICATE-VALIDITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY",
+    "DISAMB-MODAL-GRAPH-EDGE-PATH"
+  ]
+}
