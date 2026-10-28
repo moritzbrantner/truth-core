@@ -27,6 +27,7 @@ import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
 import TruthCore.Modal.S5Research
+import TruthCore.Modal.SelectedEffectBridge
 import TruthCore.Modal.StandardCorrespondenceCertificate
 import TruthCore.Modal.TResearch
 import TruthCore.Modal.TemporalHistory
