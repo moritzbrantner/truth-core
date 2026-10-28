@@ -1,0 +1,7 @@
+{
+  "id": "DEF-STRICT-PAST-ACCESSIBILITY",
+  "term": "strict-past accessibility",
+  "definition": "For a supplied Preorder T and designated now, the frame carrier is the subtype of times t with t=now or t<now. Accessibility from t to s means s<t. Transitivity ensures each earlier witness remains inside this past-through-now carrier. It is an inline instance of the existing Frame, not a new temporal syntax or causal relation.",
+  "basis": "stipulative",
+  "note": "Owner-approved bounded temporal interpretation of the existing Frame/order vocabulary; no new Lean semantic primitive. See inline frames in Modal.PastSerialityCertificate. Time points are not identified with modal alternative complete histories or causal graph vertices. No physical-past, duration or event-count claim."
+}

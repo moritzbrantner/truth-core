@@ -331,3 +331,26 @@ finite truncation of that model has a genuine source, while the pointwise
 all-active limit retains no intrinsic source. It supplies a counterexample
 to *grounding automatically commuting with a limit*, not an identification
 of mathematical activity with real metaphysical causal power.
+
+## Seriality of strict and inclusive past
+
+[PastSerialityCertificate](../TruthCore/Modal/PastSerialityCertificate.lean)
+connects the existing abstract modal frame to an explicitly temporal
+interpretation. For a supplied `Preorder T` and `now`, take only the times
+`t = now ∨ t < now`; let `t` access `s` when `s < t`. Transitivity keeps earlier
+witnesses inside this subtype. Seriality is then exactly the existing
+`PastIsInfinite (<) now` condition. Composing the existing generic D
+correspondence gives the same equivalence for one-atom D validity under every
+valuation. Adopting D for that strict-past frame therefore adopts a no-first
+past condition; it does not independently prove that condition.
+
+By contrast, inclusive accessibility `t → s` iff `s ≤ t` is reflexive and
+serial, validating T and D. Nat with `now = 0` has an earliest time and no
+strictly earlier witness, while its inclusive frame still validates those
+axioms. The checked control separates these interpretations rather than
+changing either axiom. An earliest time is not finite elapsed duration or
+finite event cardinality. No physical time order, event population or
+cosmological premise follows from the abstract mathematical correspondence.
+These time-index frames are not an identification of modal alternative
+histories with times, nor an interpretation of accessibility as causal edges.
+Intended and actual root-premise change: none.
