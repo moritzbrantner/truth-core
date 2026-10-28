@@ -1,0 +1,10 @@
+{
+  "id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "argument_id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalHarvest.localPSRCausalCore",
+  "comparator_config": "results/PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE/comparator.json",
+  "description": "Operational configuration adapter of existing all_external_causes_impossible: population and full causal well-foundedness at one world contradict the all-world claim that every existent has a distinct existing cause. It uses no explanation-coverage or PSR premise and is not a new philosophical discovery. Existing EmptyWorld, MutualCauses and Intrinsic controls provide the three single-removal interpretations; no new model data are introduced. Root premises unchanged.",
+  "status": "solution-present"
+}

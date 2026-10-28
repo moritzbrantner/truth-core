@@ -1,0 +1,10 @@
+{
+  "id": "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "argument_id": "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "challenge_module": "TruthCore.Results.Causality.WorldSourceRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.WorldSourceRegress.overlapControl",
+  "comparator_config": "results/WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP/comparator.json",
+  "description": "Reuse the literal GroundingAllowsRegress.link in a one-world all-present infinite interpretation, checking supplementary actual acyclicity and the same-node source path, injective anchored chain and non-Acc directly. The world lies in both starter and regress sets. This witnesses overlap and separates SourcePath from accessibility; it is not an extraction of incidental facts from the older existential result or a metaphysical possibility claim.",
+  "status": "solution-present"
+}
