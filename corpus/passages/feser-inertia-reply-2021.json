@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "FESER-INERTIA-REPLY-2021",
+    "source_url": "https://edwardfeser.blogspot.com/2021/07/schmid-on-existential-inertia.html",
+    "retrieved_at": "2026-10-28T21:59:10Z",
+    "sha256": "sha256:6484e22fb1333f0801922679ae7e59a8b4b828a90f4a762b91c53947dd93692c",
+    "encoding": "utf-8",
+    "language": "en",
+    "license": "Copyright Edward Feser; publicly author-published primary text. No redistribution license asserted. Only hashes, locators and a short incipit committed."
+  },
+  "passages": [
+    {
+      "id": "FESER-INERTIA-REPLY-2021-ARTICLE",
+      "locator": "Schmid on existential inertia: complete article, excluding reader comments",
+      "claim_locator_prefixes": [
+        "Schmid on existential inertia: "
+      ],
+      "html_selector": {
+        "element_id": "post-body-7649212048899316232"
+      },
+      "text_sha256": "sha256:c756f8da040bb672f7973ff9c7977e28537cf14f08154a060d6ea56c40565b2d",
+      "incipit": "At his blog, Joseph Schmid has replied to my recent post about his criticisms"
+    }
+  ]
+}

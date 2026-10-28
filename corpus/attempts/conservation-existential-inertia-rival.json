@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-CONSERVATION-EXISTENTIAL-INERTIA-RIVAL",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+    "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read full AQUINAS-ST-I-Q104-A1-EN and newly pinned complete author articles SCHMID-INERTIA-REPLY-3-ARTICLE (7 July 2021) and FESER-INERTIA-REPLY-2021-ARTICLE (6 July 2021), excluding reader comments. Exact paragraph locators, strongest responses and typed-interface inventory persist in docs/eternity-dependence-connection.md, Existential inertia section. Schmid accepts a PSR-like principle and proposes earlier existence plus absence of destructive causal change as extrinsic explanation without concurrent efficient sustenance; rejected treating this rival as merely brute persistence. Feser contests past-state sufficiency and alleges substance/persistence-power circularity; he expressly rejects annihilation/recreation conservation. Q104 objections and replies distinguish incorruptibility, completed production, preventing corruption and continuation of esse-giving without motion/time. Rejected identifying explanations with efficient causes, times with worlds, per-time causes with one fixed cause, or conditional typed correspondence with existence of a conserver. Existing direct essence-esse theorem yields double-negated identity only under its listed actual-target, no-support and interface/causal hypotheses; it does not defend conservation. No new shared vocabulary, Lean result, philosophical claim or root discharge is manufactured. Source assertions and this successful reading attempt do not establish target propositions.",
+  "evidence": [
+    "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE",
+    "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE"
+  ],
+  "blocker": "Independently defend concurrent esse-dependence against the prior-existence/no-destruction replacement; separately defend conservation-to-CausesIn interpretation and actual support interfaces for the same bearer. The rival text does not fix q3 profile assignments, so no formal denial of its exhaustive causal dichotomy is attributed. Root premise delta zero."
+}
