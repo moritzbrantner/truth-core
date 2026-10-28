@@ -131,3 +131,137 @@ premise or root connection. All 63 reaching-root open premises remain; the eight
 route costs remain 31/32/36/38/39/39/40/41. The unresolved task is independent
 defense or rejection of the necessity, entailment and scope commitments, not
 further transcription of their consequence.
+
+## Intrinsic existence reasons: the positive case and its parity test
+
+This source follow-up concerns `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON`,
+not a new interpretation of the model's `intrinsic` constructor. Reuse search
+and its dossier recover the existing Leibniz readings and explanatory-regress
+attempt. The complete pinned Elwes witness `SPINOZA-ETHICS-ELWES-FULL` was
+materialized and read at I definitions 1–8, axioms 1–7, propositions 1–11,
+including I8 notes and all I11 proofs and note. The Latin witnesses
+`AQUINAS-ST-I-Q3-A4`, `AQUINAS-ST-I-Q44-A1` and Latta
+`LEIBNIZ-MONADOLOGY-31-45` were also materialized and read. These are source
+interpretations and an uncertified philosophical comparison, not additional
+corpus claims or a Lean argument.
+
+**What the strongest positive proposal says.** An intrinsic reason answers
+why this actual being exists by what it really is, without a distinct producer
+or a further item that joins a separately specifiable nature to existence.
+It does not mean that the being first produces itself. Spinoza I definition1
+explicitly interprets causa sui through essence involving existence;
+definition7 distinguishes determination through one's nature from external
+constraint. His I6 corollary denies external production of substance; I7
+then moves to existence belonging to substance's nature. That move requires
+explanatory exhaustiveness: independence alone would also fit brute existence
+if existence need not have a reason. It is not an independent proof of PSR.
+I8 noteII makes the cause-of-each-individual demand and internal/external
+exhaustion explicit.
+
+The strongest foundation reply is therefore more substantial than “it exists
+necessarily.” Suppose an actual independent witness has been established by a
+separate argument, and its real nature has independently been shown to be
+subsistent actuality rather than a recipient whose existence needs another
+actualizer. Understanding that nature could explain why its existence is
+underived: there is no distinct received actuality left for a producer to
+supply. An explanation need not re-prove all its presuppositions. Starting
+with an actual witness does not make every explanation of it circular, just
+as explaining an actual figure's property can presuppose the figure.
+However, neither the witness nor the modal necessity predicate establishes
+that account of its real nature. Nor does absence of a composition gap alone
+establish that its nature is a sufficient reason why it exists at all. This
+last positive explanatory step remains open.
+
+Aquinas q3a4 supplies an importantly different route: its first proof excludes
+caused esse from essential principles alone, then uses first efficient
+causality to infer identity; its second uses act/potency. Neither proof says
+that efficient self-production explains God. The reply ad2 distinguishes
+knowing the truth that God exists from knowing the divine act of being or
+nature. Consequently this proposed essential explanation may exceed what
+those arguments make intelligible to us. q44a1 ad2 explicitly retains causes
+of necessities; necessity does not waive the reason demand. Its ad3 separates
+mathematical abstraction from the being of mathematical subjects. These
+passages support keeping the questions distinct, rather than identifying
+Aquinas' esse with Spinoza's conception of substance.
+
+**A new constraint from Spinoza's own near-misses.** I8 noteII says the nature
+of humanity does not explain why exactly twenty humans exist, and the
+definition of a triangle specifies no number of triangles. I11's second proof
+says a triangle's existence comes from the order of extended nature, not its
+figure's nature. Thus an essential account must reach the actual individual,
+including any multiplicity or individuation left unexplained. A generic
+conditional “whatever is N exists necessarily” is insufficient if nothing
+establishes an actual N, and “this actual thing has label N” adds no reason.
+This connects to the individuality gaps investigated in #681/#684 and the
+Compendium/De ente audit #683/#685, without closing them: excluding several
+instances of one generic nature does not exclude two different whole essences,
+each claimed to explain its own existence. A uniqueness inference would still
+need to exclude or identify those different essences.
+Conversely, where an actual witness is independently available, demanding a
+second existence proof is stronger than demanding explanation. The relevant
+question is whether its independently characterized nature genuinely explains
+this witness's actuality, rather than merely redescribes it.
+
+Necessary mathematical properties illustrate how an essence can explain a
+property without an earlier efficient cause: a Euclidean triangle's angles
+summing to two right angles follows from geometrical structure and background
+postulates. This is an illustrative analogy, not a new historical attribution
+or a claim that the property follows from the word triangle alone. It supports
+the intelligibility of nonproductive explanation, but does not establish a
+concrete triangle, the background geometry, or a concrete necessary being.
+No generally accepted concrete example of intrinsic explanation of existence
+itself is supplied here. The proposed divine or Spinozist substance is the
+disputed example, not independent confirmation of the proposal.
+
+**The independent debts in the existence proofs.** Spinoza I11's first proof
+uses I7; its second strengthens the explanatory demand to nonexistence too,
+excludes an external preventing reason, and denies an internal contradiction
+in an absolutely infinite perfect nature. The absence of an internal
+contradiction is a substantive commitment, not a consequence of calling the
+nature perfect. The third proof and note connect degree of reality with power
+of existence and appeal to our existence. Ordinary observations of stronger
+agents or enduring objects do not independently warrant that unrestricted
+reality-to-existence-power bridge. The note explicitly distinguishes externally
+produced things from substance, so an induction from familiar produced things
+would miss its intended domain. Leibniz §§33–35 provides analytical reasons
+for necessary truths; §§44–45 additionally connects real possibility with
+actuality for the proposed necessary being. Mathematical analysis alone does
+not justify that additional bridge. Neither author's positive case is fairly
+reduced to an arbitrary stable tag, but their substantive bridges remain
+contestable.
+
+**Parity with a positive infinitist rival.** A foundation theorist may say
+that an intrinsic real nature ends explanatory deferral without an arbitrary
+unexplained link. A serious infinitist may instead propose that the whole
+infinite structure, rather than a local predecessor token, intrinsically
+explains its existence. Both may allow explanations to presuppose actual
+subjects. Therefore “every item in your chain still needs explanation” does
+not by itself discriminate them if the foundation's own intrinsic account is
+accepted without an independent adequacy argument. Equally, a bare chain of
+conditional dependencies does not acquire such an account merely through
+infinity. A brute whole accepts an unexplained fact; a structural account
+claims an explanation and owes a defense. These are different rivals.
+
+The narrower useful commitment is **individual adequacy**: an alleged intrinsic
+reason must independently characterize the actual subject in a way that
+explains its actuality and any relevant individuation, not merely its modal
+status or properties conditional on instantiation. This is a proposed
+philosophical test, not a sufficient formal criterion or a new Boolean field.
+It applies equally to a simple foundation and an infinite whole. It does not
+require every explanation to be external or every explanans to be known.
+Nothing here independently establishes transitivity, asymmetry or
+well-foundedness of explanation; applying those structural properties to
+intrinsic explanation would need further defense. Ordinary property
+explanations motivate the possibility of intelligible nonproductive reasons,
+while generalizing them to concrete existence remains the decisive disputed
+step. A rival that accepts an independently characterized real nature as
+explanatory but allows the infinite whole the same resource remains unrefuted.
+
+Intended and actual root-premise delta: **zero**. No source claim, statement,
+definition, theorem, argument, model or closure flag changes. Retained are the
+unrestricted existence demand, actual-witness requirement and distinction
+between efficient causation and reasons. The gain is a positive proposal and
+a symmetric individuation test, not a defense of intrinsic adequacy. Stop this
+line until an argument independently establishes that a particular actual
+nature, or a particular global structure, meets that test; another necessity
+lemma or stable explanation-token assignment would repeat known boundaries.
