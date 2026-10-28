@@ -1,0 +1,9 @@
+{
+  "id": "WITTGENSTEIN-CORRECTNESS-AND-INDEPENDENT-CRITERIA",
+  "source_id": "WITTGENSTEIN-PHILOSOPHICAL-INVESTIGATIONS",
+  "locator": "I.258; I.265, with I.239–274 context",
+  "priority": 100,
+  "goal": "Compare the internalist claim that correctness can outrun all accessible checks against the requirement that meaningful rule-use admit independent criteria. Determine which accessibility and justification conditions, if any, the grammatical argument needs; distinguish an independent criterion from public consensus.",
+  "reason": "The exact data-relative classification theorem isolates fiber invariance but supplies neither a privileged projection nor normative/epistemic authority. No corpus claim yet attributes that analytical theorem to Wittgenstein. See docs/notes/wittgenstein-criterion-and-correctness.md.",
+  "status": "candidate"
+}
