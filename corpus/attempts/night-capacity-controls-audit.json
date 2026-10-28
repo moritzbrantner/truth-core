@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-NIGHT-CAPACITY-CONTROLS-AUDIT",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Independent source/type/model-registration audit against baseline 3f8d8a448b8a8a6a5a70b2b89a46e71ce75b3ade, six-atom Night territory component. Inspected the dossiers and exact theorem notActAndPotencyOfPotencyAnalysis: its analysis input uses the same Being, Respect, InAct and InPotency as its non-simultaneity output, with CanBe as an additional parameter. Composing it with NIGHT-ACTUALIZATION-CORE therefore conditionally excludes {Night actualization, mover existence, mover actuality, potency-as-unactualized-capacity analysis, actual-mover simple-priority bridge}; no equality, time, causation or act/potency sense is changed. This is propagation of existing theorems, not a new source reading or an unconditional refutation. Materialized ARIST-MET-IX-6 and read the whole Greek chapter, especially 1048a30–35 and 1048a35–b9. Existing claim ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A expressly treats its respect-indexed biconditional as a reading choice from the examples; the following analogy and distinction of kinds of act are not formalized. The witnesses establish neither that reading's fidelity nor premise truth. For fixed arbitrary CanBe, analysis implies non-simultaneity, but the converse does not follow: an in-potency nonactual item with CanBe false satisfies non-simultaneity while failing the analysis. The existing conservativity result quantifies existentially over a suitable ability predicate; an arbitrary-fixed-CanBe equivalence was rejected. Reviewed NightCapacityControls.lean and all seven model-registry extensions. Every extension chooses exactly one CanBe(x,r) := InPotency(x,r) OR InAct(x,r) over the same old interpretation; no old field, carrier or evaluation is altered. This particular choice also makes actuality imply ability. It is not a source-attributed identity or complete account of ability. The private constructive capacityAnalysis proof correctly shows the analysis for this choice when non-simultaneity holds; the two negative controls compose the existing bridge with the actual act/potency overlap. A direct comparison of all seven JSON records confirmed all previous bindings, carriers and evaluations unchanged. Each of the five maximal local position masks has a single joint interpretation satisfying all positive atoms and violating every excluded atom: POS-2C3A0C708EC8 by MODEL-NIGHT-COSMOGONY-SELF-MOVER (excludes both analysis and non-simultaneity); POS-4DE3A7B9EE22 by MODEL-NIGHT-ACTUALIZATION-FORK-NONACTUAL-MOVER (excludes mover actuality); POS-5C98BD59F93F by either MODEL-NIGHT-COSMOGONY-RESIDUAL or MODEL-NIGHT-MOVING-RESIDUAL (excludes Night); POS-C02A63845B54 by MODEL-NIGHT-COSMOGONY-OTHER-MOVER (excludes priority bridge); POS-EEE663B04343 by MODEL-NIGHT-COSMOGONY-NO-REDUCTION (excludes mover existence). No independent models are combined. Overlap is an additional negative-analysis control, not a witness for a maximal mask requiring the priority bridge. Claims of global-position witnesses, complete worldviews, metaphysical possibility, unrestricted capacity adequacy, minimum-cardinality cores and root closure are all excluded. No semantic/type finding remains in the inspected extension; focused compilation, exact model-certificate verification and integrated delivery checks remain worker/coordinator responsibilities. Actual root-premise delta: none.",
+  "evidence": [
+    "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+    "NIGHT-ACTUALIZATION-CORE",
+    "ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE",
+    "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
+  ]
+}
