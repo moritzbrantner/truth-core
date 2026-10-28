@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-NIGHT-ACTUALIZATION-FORK",
+  "statement_ids": [
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NIGHT-ACTUALIZATION-FORK",
+    "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "At baseline 9bdac2ab, extracted explicit same-witness coverage of the existing Night reading: no actual mover, an actual self-mover, or a distinct actual mover without simple priority. Coverage takes excluded middle explicitly; the self and distinct-mover alternatives can overlap, so an exclusive trilemma was rejected. A constructive follow-on uses the existing root mover, mover-actuality and act/potency commitments to force the distinct actual mover without priority. This is the positive repair boundary extracted from the existing coreFromRootPremises proof, not a new philosophical refutation. A separate composition applies that existing theorem to the supplied Night witness and exposes logical falsity for configuration propagation. New source attribution, identification of movers with efficient causes, and temporal-priority conclusions were all excluded. Frozen Challenges, proof terms and canonical records are present; corpus.py check and an independent semantic/type sweep pass, but Lean/Comparator/NanoDa verification is pending. No root premise is discharged.",
+  "evidence": [
+    "NIGHT-ACTUALIZATION-FORK",
+    "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+    "NIGHT-ACTUALIZATION-CORE"
+  ],
+  "blocker": "Coordinator is staging independent installed dependencies after moving worktrees off a full tmpfs; final Lean, binding, Comparator/NanoDa and exact joint deletion-model checks remain pending."
+}

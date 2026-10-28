@@ -1,0 +1,20 @@
+{
+  "id": "STMT-NIGHT-ACTUALIZATION-FORK",
+  "paraphrase": "Under explicit excluded middle, some unpreceded moved potency has one of three alternatives in the same respect: no mover in act moves it; it moves itself and is in act; or a distinct mover in act moves it without simple priority. The selected being and respect are shared across the alternatives. Coverage does not assert exclusivity; the self and distinct-mover alternatives can overlap.",
+  "lean_declaration": "TruthCore.Alternatives.NightActualizationFork.NightActualizationFork",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT",
+    "DISAMB-SELF-MOTION"
+  ]
+}

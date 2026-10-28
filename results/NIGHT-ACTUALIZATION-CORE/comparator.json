@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NightActualizationCore.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NightActualizationCore.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NightActualizationCore.incompatible"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
