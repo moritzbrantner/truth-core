@@ -1,0 +1,14 @@
+{
+  "id": "SELLARS-EPM-32-36-NONINFERENTIAL",
+  "statement_id": "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
+  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "locator": "VIII §32; §36",
+  "interpretation": "The source denies that noninferential status by itself entails epistemic autonomy; §36 specifically retains general reliability knowledge. This is a bounded prose reading, not a proof that every proposed foundationalist account is false.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}
