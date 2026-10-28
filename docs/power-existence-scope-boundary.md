@@ -409,6 +409,12 @@ all, as this very bearer, rather than merely for something b does or a state b
 has.** The action is a cause of b's being, not only an earlier action making b
 begin. “Now” selects the actual situation; it does not require repeated
 creation, temporal succession in the giver, or instantaneous physical action.
+This prospective concurrency is an interpretive requirement, not a consequence
+of `ExistsAt w x`: Ontic has no time argument, and w may represent a complete
+history. The existing `HistoryTimeScope` controls (#622) separate World and
+Time; world-existence does not imply presence at a selected time or concurrent
+activity. Any temporal application needs its own justified history/time and
+causal interpretation. Worlds must not silently be treated as times.
 “Direct” selects the esse-giving role itself, rather than every condition that
 allows it to operate. This is an intended causal reading, not a completed
 reductive analysis or an observation already established for every bearer.
@@ -439,7 +445,10 @@ definition: the existing formal results exclude it when their WF premise holds.
 
 No undisputed empirical example of **directly maintaining a substantial bearer's
 existence as such** is supplied by the current corpus. This is a limitation of
-the present case, not a finding that R has no instances. The proposed central
+the supplied examples, not a finding that R has no instances. Neither empirical
+observability nor absence of philosophical disagreement is a requirement for
+justification: a defended philosophical argument could establish an instance
+or property despite dispute. The proposed central
 instance, God continually giving creatures esse, is a substantive metaphysical
 thesis whose defense cannot assume the conclusion of the regress argument.
 The materialized `AQUINAS-ST-I-Q104-A1-EN`, response's paragraph beginning
