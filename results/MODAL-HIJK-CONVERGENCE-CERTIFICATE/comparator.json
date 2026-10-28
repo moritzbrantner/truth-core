@@ -1,0 +1,22 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ConvergenceCertificate.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ConvergenceCertificate.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.Convergence.exactPath_zero",
+    "TruthCore.Results.Modal.Convergence.exactPath_succ",
+    "TruthCore.Results.Modal.Convergence.iterBox_semantics",
+    "TruthCore.Results.Modal.Convergence.iterDiamond_semantics",
+    "TruthCore.Results.Modal.Convergence.convergence_sound",
+    "TruthCore.Results.Modal.Convergence.convergence_iff_valid",
+    "TruthCore.Results.Modal.Convergence.axiom4_correspondence",
+    "TruthCore.Results.Modal.Convergence.axiomB_correspondence",
+    "TruthCore.Results.Modal.Convergence.axiom5_correspondence",
+    "TruthCore.Results.Modal.ConvergenceCertificate.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

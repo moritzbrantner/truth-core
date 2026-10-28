@@ -1,0 +1,20 @@
+{
+  "id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "inference_ids": [
+    "INF-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+  ],
+  "meaning": "Universal assembly of nine frozen exact-path correspondence helpers. ExactPath zero is endpoint identity, and successor length decomposes into one directed edge plus the remaining exact path. Iterated box and diamond have universal/existential exact-endpoint semantics. For any natural h,i,j,k, the explicit fork/join convergence condition implies validity of diamond^h box^i phi \u2192 box^j diamond^k phi for arbitrary phi. Conversely validity of the one-atom instance over EVERY valuation and world implies that condition, by selecting the characteristic valuation consisting of i-successors of the chosen fork endpoint. The 4/B/5 specializations identify transitivity, symmetry and Euclideanness respectively with validity of the corresponding one-atom schemes; their forward directions reuse existing axiom validity theorems. There is no global frame, nonempty-domain, finite-world, linear-order or explicit excluded-middle hypothesis. The accepted artifact nevertheless uses approved Mathlib axioms, including Classical.choice; it is not advertised as a constructive or zero-axiom kernel proof. This proves frame/valuation correspondence, not soundness/completeness of a Hilbert calculus, canonical-model completeness or metaphysical frame truth. The wrapper is assembly for delivery, not additional discovery or a root discharge. Root-premise delta none.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+    "DEF-MODAL-GRAPH-PATH-CLOSURE",
+    "DEF-MODAL-EXACT-LENGTH-PATH",
+    "DEF-MODAL-HIJK-CONVERGENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-GRAPH-EDGE-PATH",
+    "DISAMB-MODAL-EXACT-PATH-CLOSURE"
+  ]
+}
