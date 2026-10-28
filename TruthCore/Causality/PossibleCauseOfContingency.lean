@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Basic.Logic.Basic
 import TruthCore.German.Kant.CosmologicalInference
 
 /-!
