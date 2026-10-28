@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SCHMID-INERTIA-REPLY-3",
+    "source_url": "https://public-api.wordpress.com/rest/v1.1/sites/majestyofreason.wordpress.com/posts/2136?fields=ID,site_ID,date,modified,slug,URL,title,content",
+    "retrieved_at": "2026-10-28T22:10:18Z",
+    "sha256": "sha256:a3a55e8a28a65dc3d5e02db414a404c4382ee6e25d27c87aa716825f6812946e",
+    "encoding": "utf-8",
+    "language": "en",
+    "license": "Copyright author; publicly author-published primary text. No redistribution license asserted. Only hashes, locators and a short incipit committed. Primary WordPress single-post API response, restricted through its fields parameter to post/site identity, publication/update dates, original URL, title and complete article HTML; no page chrome, comments or mutable author-profile metadata. Two independent fetches matched. Supersedes rendered-page witness after CI run 40777294225 observed raw drift: expected 68ff2b69435eec99c0c4e469a67d16ce4bc496db8f1e2bd0e6a404ca1d4a0ebf, got cf7d959f0607e575a173b42d1dfb03f77f938f2244bc23e0d666c3373d93e7ea. Complete API content was reread; its rendered article is exactly the body of the old materialized witness, whose extra title/byline are present separately in API metadata. The unretained differing CI response content is not asserted unchanged. Raw-byte verification remains enforced on this API response; no verifier exception or source kind added."
+  },
+  "passages": [
+    {
+      "id": "SCHMID-INERTIA-REPLY-3-ARTICLE",
+      "locator": "Part 3: complete article in WordPress single-post API content, excluding reader comments",
+      "claim_locator_prefixes": [
+        "Part 3: "
+      ],
+      "text_sha256": "sha256:a3a55e8a28a65dc3d5e02db414a404c4382ee6e25d27c87aa716825f6812946e",
+      "incipit": "{\"ID\":2136,\"site_ID\":147942385,\"date\":\"2021-07-07T11:32:22-04:00\",\"modified\":\"20",
+      "raw_text": true
+    }
+  ]
+}
