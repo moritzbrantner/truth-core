@@ -214,8 +214,9 @@ The positive rival is now supported by an accessible primary argument:
 Evan Welchance, *Metaphysical Infinitism and Theoretical Virtue*,
 *Erkenntnis* (2026), DOI [10.1007/s10670-026-01084-1](https://doi.org/10.1007/s10670-026-01084-1).
 `WELCHANCE-INFINITISM-1-3` pins the official CC BY 4.0 publisher PDF,
-physical pp.1–21 (complete article and references). It was materialized and
-read with context. The source's argument is defeasible philosophical
+selected physical pp.1–18 (§§1–2.4 through p.18). The complete
+21-page PDF was read for conclusion and context; the selected argument
+range was materialized and read. The source's argument is defeasible philosophical
 reasoning; no Lean theorem or new root commitment is advertised.
 
 The Bohn candidate's title was inaccurate. Publisher metadata identifies
@@ -357,3 +358,117 @@ parity as proof of actual infinitism; a binary partial edge as a full ground;
 fact explanation as efficient present-esse support. The next decisive
 comparison is an independently defended intrinsic existence explanation
 against this explicit uniformity/parity case, holding the explanandum fixed.
+
+### Finite access, the reason for the order, and comparative economy
+
+The owner's further objections sharpen three separate demands. These are
+argument candidates and appraisal, not new source attributions or established
+premises. The existing [epistemic infinitism analysis](infinitist-justification-adequacy.md),
+especially its Klein–Turri §§4a–b reading, already distinguishes available
+reasons from an actually completed infinite performance. That reply is reused,
+not counted as a new finding.
+
+**Can a finite thinker ever progress?** If justification of the first claim
+requires first completing verification of every later reason, an endless
+chain cannot meet that condition through successive finite inquiry. That is
+a strong objection to that particular completion requirement. The infinitist
+must defend a different adequate epistemic status: finite inquiry can answer
+particular challenges or improve support without finishing the whole chain.
+Calling those steps progress still requires a truth-conducive reasonhood norm,
+not mere accumulation of further assertions. A finite schema can make further
+steps intelligible, but neither a schema nor arbitrarily many individually
+possible responses establishes one actually suitable available chain.
+
+Ontic determination is a different target. The facts that constitute a chair
+are not required to await a thinker's inspection in order to obtain. Finite
+cognitive limitations therefore do not by themselves exclude infinite ontic
+dependence. Conversely, calling dependence ontic does not entitle a finite
+thinker to claim knowledge that it adequately explains the chair. The rival
+owes accessible warrant for the proposed dependence account and its scope,
+while a totality explanation remains owed if that is the common demand.
+There is no inference from human inability to traverse a chain to the chain's
+nonexistence, or from the chain's obtaining to human access to its explanation.
+
+**Any rule can be questioned; why this order?** A request for justification
+is not itself a refutation. If every answer were rejected solely because a
+further question is grammatically possible, the same veto would apply to a
+finite foundation and to the vetoing rule. The substantive challenge is whether
+the rule and its application are independently warranted or merely borrow
+all their force from the very order they purport to vindicate. A general
+rule must discriminate correct from incorrect applications; repeating it
+at another level does not supply that discrimination. This burden applies
+also to an asserted noninferential warrant or intrinsic existence reason.
+
+For ontic explanation, an order is not merely the order of enumeration,
+a causal chronology, or an arbitrary chosen relation. Even necessary
+co-obtaining or mutual entailment does not select a direction of explanation.
+The account must say which facts make which others obtain, why those full
+grounds are sufficient, and why reversal changes the relevant constitutive
+or essential dependence. If a contribution is only a partial ground, the
+rest of the joint ground and its arrangement cannot be hidden inside a
+binary arrow. The source's §1.3 n.15 proposes further explanation of the
+explanatory links but does not develop a vindication of this whole order.
+So the new open demand is precise: defend the obtaining and direction of
+these constitutive links and their governing rule, not just explain each
+member given that rule. Merely redescribing an unexplained order with a
+short recursive clause would relocate this demand.
+
+A constitutive or essence-based reason for the direction could answer a
+local order question without tracing an infinite history. That is a possible
+shape of answer, not an independently established reason in this batch.
+For present-esse support, it would additionally need the conservation
+interpretation defended above; a fact-grounding answer cannot substitute
+for it. For epistemic rules, the corresponding obligation concerns warrant
+and truth-conduciveness, not ontic constitution. The two demands must not
+be merged because both use the word “because.”
+
+**Is an infinite regress infinitely less economical?** The strongest
+parsimony argument is conditional: for the *same* explanandum and adequacy
+standard, if a finite account explains at least as much with fewer gratuitous
+independent commitments, prefer it other things equal. A regress that adds
+independent unexplained entities or merely relocates an unexplained ordering
+rule has a real cost. Infinitism does not answer that criticism by announcing
+that all its members depend on something else.
+
+The comparison nevertheless needs an explicit inventory. Number of entities,
+number of kinds or laws, number of independently unexplained commitments,
+and length of a generating specification measure different things. A finite
+base may explain infinitely many dependent entities; a uniform infinite
+chain need not introduce an independent assumption for every member.
+Equally, a short specification may describe infinitely many things without
+explaining why any of them or that ordering rule obtains. Compression alone
+establishes neither explanatory adequacy nor an infinitist advantage.
+
+Welchance's already-read §2 comparison concerns precisely competing kinds
+of unity: a relatively small common base and a common explanatory theory.
+Our appraisal does not convert their alleged parity into a general result
+about economy. A finite proposal must supply its base, the relevant
+production/constitution principles and the reason they obtain; an infinite
+proposal must supply its local full grounds, their direction/order and the
+status of the totality. Count any independent brute commitments on both
+sides, retain differences in what each explains, and only then apply the
+conditional preference. Neither “infinitely many members” nor “one source”
+alone settles that comparison.
+
+The material delta is thus a sharper open ordering/rule obligation and an
+explicit conditional parsimony test. The finite-mind availability answer
+was already covered in #669; it is not repackaged as new support. No new
+independent defense of infinitism, causal conservation or an intrinsic
+foundation is supplied here. Root-premise change remains zero.
+
+### Witness extraction repair
+
+The initial full pp.1–21 selection passed locally but failed CI40782499547
+on its extracted-text hash, with the full-PDF bytes unchanged
+(`1f98353914c8e4650660d0bdd84549912ed4b0ec76a318877be72dbd7f6c8f9f`).
+A bounded comparison used local Poppler26.01.0 and Ubuntu:noble
+Poppler24.02.0, matching CI's extraction. The sole normalized difference
+was the arrangement of zero-width characters in the CC-license URL on
+physical p.19; no philosophical text differed. Restricting the materialized
+selection to pp.1–18 avoids that extractor-sensitive footer while retaining
+the positive and critical arguments at issue. The full-PDF raw hash remains
+pinned, and its conclusion, license and references remain consulted context,
+not an additional selected passage. The historical passage ID is retained.
+No extraction normalization, integrity gate or repository dependency changed.
+The publisher HTML was considered but rejected because repeated fetches
+changed raw bytes; it was not substituted as a stable witness.
