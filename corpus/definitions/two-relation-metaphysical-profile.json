@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE",
+  "term": "metaphysical admissibility in the two-description control",
+  "definition": "The Bool metaphysical frame admits v from w exactly when v = w. This is a stipulated stronger admissibility profile on candidate descriptions, not an assertion that real metaphysical possibility is identity accessibility.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.PossibilityTransfer.metaphysical",
+  "note": "Its philosophical adequacy remains open. The control only refutes unrestricted E-to-M transfer without inclusion."
+}

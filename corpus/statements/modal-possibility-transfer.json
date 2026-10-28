@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MODAL-POSSIBILITY-TRANSFER",
+  "paraphrase": "For every candidate-description carrier, two frames E and M, and origin w, all-predicate diamond transfer from E to M holds exactly when E-accessibility at w is included in M-accessibility; the equivalent box transfer runs from M to E. A two-description equivalence-frame control has a satisfiable E-possible description excluded by M at the origin, and separates the corresponding boxes of its negation.",
+  "lean_declaration": "TruthCore.Modal.PossibilityTransfer.Checks",
+  "definition_ids": [
+    "DEF-TWO-RELATION-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DESCRIPTION-MODAL-ADMISSIBILITY"
+  ]
+}
