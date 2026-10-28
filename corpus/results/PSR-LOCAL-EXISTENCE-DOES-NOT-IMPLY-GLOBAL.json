@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Explanation.NoBruteExistence.scopeControl",
   "comparator_config": "results/PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL/comparator.json",
   "status": "solution-present",
-  "description": "A single sound model, retaining the existing intrinsic-control ontology, has local explanation coverage at false and an unexplained actual existence fact at true. Thus the optional actual-world position must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified."
+  "description": "Some sound Model Bool Bool has local explanation coverage at false, an unexplained actual existence fact at true, and fails all-world existence-PSR. In the inspected Solution construction the witness reuses Intrinsic.model.ontic, but ontology preservation is not exposed by the exported existential conclusion. The optional actual-world position therefore must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified."
 }
