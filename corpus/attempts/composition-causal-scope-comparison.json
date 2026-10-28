@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-COMPOSITION-CAUSAL-SCOPE-COMPARISON",
+  "statement_ids": [
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-GOD-IS-SIMPLE",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-MEREO-SOUL-UNITY-INDEPENDENCE"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized/read entire AQUINAS-ST-I-Q3-A7 and inspected the exact existing statement dossiers plus proposed PR655\u2013657 types and replacement accounts. Source scope includes quantitative and essence-esse composition, so an organism-only restriction is not licensed; the modern fusion-to-q3 Composite mapping also remains unproved. Material simplicity, macro closure, candidate grounding, numerical distinction and nonparthood cannot substitute for one another. Persisted six precise application obligations and symmetric affirmative rival comparison in docs/notes/composition-causal-scope.md; candidate COMPOSITION-TO-ACTUAL-CAUSE-SCOPE carries the remaining investigation. Existing PowerExistenceBoundary/Vitalism controls and the proposed same-witness connection already cover the formal omissions; a duplicate theorem was rejected. No common-profile inconsistent bundle or metaphysical possibility claim, no new source claim, no premise change or root discharge.",
+  "evidence": [
+    "AQUINAS-ST-I-Q3-A7-COMPOSITE-HAS-CAUSE",
+    "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+    "PR-655",
+    "PR-656",
+    "PR-657"
+  ]
+}
