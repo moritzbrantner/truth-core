@@ -1,0 +1,10 @@
+{
+  "id": "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION",
+  "term": "available-process qualification in Goldman’s tentative principle (10)",
+  "basis": "sourced",
+  "definition": "The later proposed sufficient clause requires reliable formation and absence of an available reliable or conditionally reliable alternative process whose relevant use would result in not holding the belief. Goldman explicitly leaves the counterfactual formulation and suitable availability imprecise, suggesting recall and assessment of already acquired evidence rather than mandatory completion of every evidence-gathering procedure.",
+  "claim_ids": [
+    "GOLDMAN-1979-AVAILABLE-PROCESS-REVISION"
+  ],
+  "note": "Not Klein–Turri’s availability of an endless series of sufficiently good reasons. This late revision prevents attributing unqualified reliability-alone sufficiency as the paper’s settled answer."
+}
