@@ -1,0 +1,15 @@
+{
+  "id": "STMT-BOUNDED-OMISSION",
+  "paraphrase": "For every n at most the supplied natural bound k, every Fin n indexed selection from the fixed rigid roster is absent together at one successor of the supplied world. Repetitions are allowed. The empty selection requires a successor; there is no implicit roster-inhabitedness or metaphysical admissibility assumption.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.UpTo",
+  "definition_ids": [
+    "DEF-BOUNDED-OMISSION",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BOUNDED-OMISSION",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
