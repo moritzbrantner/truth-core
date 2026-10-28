@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-RIGID-DESIGNATION",
+  "argument_id": "MODAL-RIGID-DESIGNATION",
+  "challenge_module": "TruthCore.Results.Modal.RigidDesignation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RigidDesignation.Solution",
+  "theorem": "TruthCore.Results.Modal.RigidDesignation.checks",
+  "comparator_config": "results/MODAL-RIGID-DESIGNATION/comparator.json",
+  "status": "solution-present",
+  "description": "Partial-name identity/existence characterization and two finite controls; reuses modal transfer rather than duplicating a frame inventory or counterpart argument. Internal actual-reference, rigidity and accessibility bridges remain conditional; no primary-source attribution, empirical discovery or root-premise discharge."
+}
