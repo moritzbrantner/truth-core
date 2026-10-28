@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FUSION-DISTINCT-CAUSE",
+  "term": "numerically distinct candidate cause",
+  "definition": "DistinctCause cause x requires a c unequal to x satisfying the independently supplied relation cause c x. Distinctness does not require that c be outside the parts of x. In the omission model the relation is strict parthood, not an asserted actual efficient-cause or grounding law.",
+  "basis": "stipulative",
+  "note": "Analyst scope profile for #328, motivated by the materialized Varzi exposition. All-subset quantification is an explicit second-order mathematical choice; neither causal sufficiency nor metaphysical adequacy is attributed to the source. See docs/notes/universal-fusion-grounding.md.",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.DistinctCause"
+}

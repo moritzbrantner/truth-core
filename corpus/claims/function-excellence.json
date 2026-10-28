@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-EN-I7-FUNCTION-EXCELLENCE",
+  "statement_id": "STMT-FUNCTION-EXCELLENCE-NECESSARY",
+  "source_id": "ARIST-EN",
+  "locator": "I.7, 1097b25-28 and 1098a7-15",
+  "interpretation": "Aristotle locates the good and the well in the work of those having a function, conditionally extends the analogy to humans if they have a function, and distinguishes the work of a lyre player from excellent lyre playing. This bounded reading evaluates exercises: good exercise qua role → excellent performance of its specified function. It does not assert that a skilled practitioner always performs well, infer a human function from the existence of crafts, or identify role-relative success with moral worth.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+  ]
+}

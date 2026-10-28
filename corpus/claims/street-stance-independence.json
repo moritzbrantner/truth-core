@@ -1,0 +1,15 @@
+{
+  "id": "STREET-STANCE-INDEPENDENT-REALISM",
+  "statement_id": "STMT-STREET-STANCE-INDEPENDENT-REALISM",
+  "source_id": "STREET-DARWINIAN-DILEMMA",
+  "locator": "pp. 110–112, §2: target and stance-independence",
+  "interpretation": "Taxonomic source reading, not a proof that this is the only legitimate sense of moral realism. Dependence of a judgment’s subject matter on attitudes is distinguished from dependence of its correctness on the stance taken toward it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-STREET-STANCE-INDEPENDENCE",
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

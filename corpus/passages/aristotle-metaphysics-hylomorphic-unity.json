@@ -1,0 +1,33 @@
+{
+  "snapshot": {
+    "source_id": "ARIST-MET",
+    "edition_urn": "urn:cts:greekLit:tlg0086.tlg025.perseus-grc2",
+    "language": "grc",
+    "repository": "PerseusDL/canonical-greekLit",
+    "revision": "a065c359aab33c33bd17ddc2cac7d27fdc9cd870",
+    "path": "data/tlg0086/tlg025/tlg0086.tlg025.perseus-grc2.xml",
+    "git_blob_sha": "4c03d2664d8acf43e49ce1b060d3e99f0e07c548",
+    "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/a065c359aab33c33bd17ddc2cac7d27fdc9cd870/data/tlg0086/tlg025/tlg0086.tlg025.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0"
+  },
+  "passages": [
+    {
+      "id": "ARIST-MET-VIII-6",
+      "locator": "VIII.6",
+      "claim_locator_prefixes": [
+        "VIII.6,"
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "8"
+        },
+        {
+          "subtype": "section",
+          "n": "6"
+        }
+      ]
+    }
+  ],
+  "notes": "Complete H.6 unity argument, potentiality/actuality response and moving-cause qualification; no later essence–esse doctrine attributed."
+}

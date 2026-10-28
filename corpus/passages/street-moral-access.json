@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "STREET-DARWINIAN-DILEMMA",
+    "source_url": "https://www.sjsu.edu/people/kyle.yrigoyen/courses/132/s1/street---darwinian-dilemma.pdf",
+    "retrieved_at": "2026-10-28T20:13:43Z",
+    "sha256": "sha256:5925edb3e477b366aa3bd85cf76349ca4f7ccb5d1edfb1421d4e86cd88e7fd72",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright retained by author/publisher. Public university/instructor-hosted teaching copy; only hashes, precise locators and analytical paraphrases committed, not PDF or extracted text. No redistribution license claimed."
+  },
+  "passages": [
+    {
+      "id": "STREET-DARWINIAN-DILEMMA-FULL",
+      "locator": "Philosophical Studies 127 (2006), pp.109–166; complete published paper in one-up university teaching PDF",
+      "claim_locator_prefixes": [
+        "pp. "
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 58
+      },
+      "text_sha256": "sha256:c49006795cec59425a1fb9894563acb6cff91eb8068ce85e07b7698c6ae10359",
+      "incipit": "Philosophical Studies (2006) 127:109 166 DOI 10.1007/s11098-005-1726-6 Ó"
+    }
+  ]
+}

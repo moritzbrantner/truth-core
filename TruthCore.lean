@@ -5,6 +5,7 @@ import TruthCore.Imports.Case
 import TruthCore.Imports.Case.Catholicism.StageThree
 import TruthCore.Imports.Causality
 import TruthCore.Imports.Comparison
+import TruthCore.Imports.Decision
 import TruthCore.Imports.English
 import TruthCore.Imports.Epistemology
 import TruthCore.Imports.Ethics
@@ -33,6 +34,7 @@ import TruthCore.Imports.Results.Case.Catholicism.StageThree
 import TruthCore.Imports.Results.Causality
 import TruthCore.Imports.Results.Comparison
 import TruthCore.Imports.Results.Comparison.Resurrection
+import TruthCore.Imports.Results.Decision
 import TruthCore.Imports.Results.Epistemology
 import TruthCore.Imports.Results.Ethics
 import TruthCore.Imports.Results.Explanation
