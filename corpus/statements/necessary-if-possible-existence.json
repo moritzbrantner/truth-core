@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NECESSARY-IF-POSSIBLE-EXISTENCE",
+  "paraphrase": "At the named standpoint, there is an accessible G-world (\u25c7G). This is an explicit open possibility premise, with no metaphysical adequacy inferred.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.PossibleExistence",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+  ]
+}

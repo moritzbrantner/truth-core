@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "lean_declaration": "TruthCore.Causality.SourceForest.ConfluenceStrictnessControl",
+  "paraphrase": "The fixed diamond is upstream-confluent, connected and well-founded, fails unique immediate predecessors, and is rooted at one source with paths from every node; confluence strictly weakens that local restriction.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-SOURCE-FOREST-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

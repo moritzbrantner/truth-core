@@ -1,0 +1,11 @@
+{
+  "id": "INF-SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "input_statement_ids": [
+    "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR"
+  ],
+  "output_statement_id": "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+  "rule": "direct-proof",
+  "meaning": "Mathlib Church\u2013Rosser on reversed edges: left uniqueness makes each immediate upstream fork have equal endpoints, supplying the local diamond condition. This derives upstream confluence as a sufficient structural condition, without asserting it of actual causation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

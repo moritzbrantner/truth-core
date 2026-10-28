@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-IF-EXISTENT-NEGATIVE",
+  "input_statement_ids": [
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-NECESSARY-IF-EXISTENT",
+    "STMT-NECESSARY-IF-POSSIBLE-NONEXISTENCE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-IF-IMPOSSIBLE-EXISTENCE",
+  "rule": "verified-mathematical-consequence",
+  "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-NECESSARY-IF-POSSIBLE-NONEXISTENCE, derive: G fails at every world accessible from the named standpoint (\u25a1\u00acG).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

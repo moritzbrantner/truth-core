@@ -1,0 +1,20 @@
+{
+  "id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-NECESSARY-IF-EXISTENT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-IF-COVERAGE",
+  "inference_ids": [
+    "INF-NECESSARY-IF-EXISTENT-COVERAGE"
+  ],
+  "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-EXCLUDED-MIDDLE, derive: At the named standpoint, either every accessible world satisfies G or every accessible world fails G (\u25a1G \u2228 \u25a1\u00acG). Coverage does not itself assert exclusivity or select a side.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+  ]
+}

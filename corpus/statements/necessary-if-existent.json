@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NECESSARY-IF-EXISTENT",
+  "paraphrase": "At the named standpoint, every accessible world at which G holds accesses only G-worlds: \u25a1(G \u2192 \u25a1G). This does not assert any G-world.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.NecessaryIf",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+  ]
+}

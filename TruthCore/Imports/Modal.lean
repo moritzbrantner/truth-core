@@ -23,6 +23,7 @@ import TruthCore.Modal.HistoryContrastive
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
 import TruthCore.Modal.NecessaryContingentActivity
+import TruthCore.Modal.NecessaryIfExistent
 import TruthCore.Modal.NecessaryPotentialCausers
 import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Modal.PastSerialityCertificate

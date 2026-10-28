@@ -1,0 +1,20 @@
+{
+  "id": "SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "inference_ids": [
+    "INF-SOURCE-FOREST-CONFLUENCE-STRICTNESS"
+  ],
+  "meaning": "On the fixed diamond, every node has a concrete finite upstream path to root; therefore every pair of upstream endpoints can join there. Its rank proves WF and explicit zigzags prove connectivity. tip has distinct immediate predecessors left/right, while the general confluence theorem gives a unique source and paths from every node. This permits multiple immediate causes and strictly weakens the sufficient LeftUnique condition; it does not establish metaphysical confluence.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-SOURCE-FOREST-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

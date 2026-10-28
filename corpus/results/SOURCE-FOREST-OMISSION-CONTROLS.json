@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "argument_id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForest.controls",
+  "comparator_config": "results/SOURCE-FOREST-OMISSION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Verify the four fixed data tables: V-shaped connected WF/acyclic graph has distinct sources when unique immediate predecessor is dropped; isolated nodes drop connectivity; the connected left-unique integer chain has no source and is not WF; Empty retains universal structural conditions but has no node or source. Integer indices are nodes, not time. These are logical controls, not metaphysical possibility claims. The same Comparator config checks the frozen LeftUnique atMostOne/rooted corollaries. Root-premise delta zero; no philosophical premise is established."
+}

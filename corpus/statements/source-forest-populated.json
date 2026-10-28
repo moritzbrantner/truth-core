@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SOURCE-FOREST-POPULATED",
+  "lean_declaration": "TruthCore.Causality.SourceForest.Populated",
+  "paraphrase": "Open population premise: the selected graph has an actual node when instantiated by actualGraph m w.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
