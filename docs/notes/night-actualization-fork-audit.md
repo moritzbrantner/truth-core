@@ -105,3 +105,48 @@ jointly. This audit has checked no enlarged-bundle model.
 No root premise closes. Exact-input Lean, binding, Comparator and NanoDa
 verification remains required before the coordinator calls the results
 certified.
+
+## Integrated diff and moving survivor sweep
+
+The integrated diff was independently reviewed against `9bdac2ab`, including
+the fork/core Solutions and frozen Challenges, statement/argument/inference/
+result prose, definition and disambiguation links, finite-model bindings and
+the proposed `CONFIG-NIGHT-ACTUALIZATION`. The core and forced consequence
+use constructive propositions; coverage's explicit excluded-middle premise
+is excluded from configuration implication inputs. All five deletion masks
+use one shared profile and each registered model satisfies the other four
+commitments. These establish inclusion-minimality when their live gates
+pass, not minimum cardinality. No source claim is added by the partition or
+the model extensions.
+
+One prose/type correction was requested and applied in the coordinator
+checkout: remove “Under explicit excluded middle” from the fork statement's
+paraphrase. The bound proposition is the existential fork itself; excluded
+middle belongs to the coverage argument's premise list. With that correction,
+the integrated scope inspected has no remaining semantic/type finding. Final
+exact-input verification and frontier comparison remain delivery obligations.
+
+The follow-on `TruthCore.Models.NightMovingResidual` and its registry record
+`MODEL-NIGHT-MOVING-RESIDUAL` were also independently inspected. This one
+three-being, one-respect interpretation satisfies the bare potency-priority
+rival, all four root-core mover/actuality/non-simultaneity/priority commitments,
+and present motion. Its `idle` potency has no prior actual being and is not
+being moved at this evaluation. Its distinct `moved` potency is moved by the
+actual `mover`, which is simply prior to it. All eight evaluations share that
+one model: no separate residual and motion interpretations are joined.
+
+`evaluation6` correctly composes the existing `coreFromRootPremises` theorem
+to deny Night actualization; `evaluation7` uses `idle` to deny universal
+act-priority. The three-constructor carrier enumeration and each registry
+argument list match the model. No permanent-rest, smallest-carrier,
+metaphysical-possibility or new source-attribution claim is made. This is a
+genuine survivor of the specified background with present motion, not a
+counterexample to a proved theorem or a defense of the rival's truth.
+
+Audited source SHA256:
+`e79baeec612ebef34575ff0f72e9d840423a11e88d949098f67df9264259e3c4`;
+registry SHA256:
+`eb953b9098ea0a35eb4d10e7ccf852782a64892ff8cd54c3200332fb57de19f9`.
+The focused build/model-gate outcomes are owned by the proof worker and
+coordinator; this paragraph records independent source/type/prose inspection.
+The actual root-premise delta remains none.
