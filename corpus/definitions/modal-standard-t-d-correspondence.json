@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+  "term": "one-atom T/D frame validity and reflexivity/seriality",
+  "definition": "Valid F quantifies Holds over every atomic valuation and every world. For the Unit atom p, T is box p implies p; D is box p implies diamond p. Reflexive F means every w accesses itself; Serial F means each w has some accessible successor. Empty world types satisfy these universal conditions vacuously. No identity between accessibility and a world-local cause or temporal relation is stipulated. The B axiom uses symmetry alone (KB); standard B additionally includes T (KTB).",
+  "basis": "stipulative",
+  "note": "Mathematical roles of existing Kripke definitions, not source-attributed philosophical commitments or Hilbert completeness. The new proposition is a transparent delivery conjunction only.",
+  "lean_declaration": "TruthCore.Modal.StandardCorrespondenceCertificate"
+}

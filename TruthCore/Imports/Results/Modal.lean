@@ -34,6 +34,8 @@ import TruthCore.Results.Modal.S5.Language.Solution
 import TruthCore.Results.Modal.S5.Laws.Solution
 import TruthCore.Results.Modal.S5.Projection.Solution
 import TruthCore.Results.Modal.S5.SymmetryBoundary.Solution
+import TruthCore.Results.Modal.StandardCorrespondence.Solution
+import TruthCore.Results.Modal.StandardCorrespondenceCertificate.Solution
 import TruthCore.Results.Modal.T.Branching.Solution
 import TruthCore.Results.Modal.T.FrameBoundary.Solution
 import TruthCore.Results.Modal.T.Laws.Solution
