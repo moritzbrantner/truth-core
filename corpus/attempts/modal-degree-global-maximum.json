@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-MODAL-DEGREE-GLOBAL-MAXIMUM",
+  "statement_ids": [
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+    "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+    "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
+    "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
+    "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+    "STMT-MODAL-DEGREE-ATTAINED-GLOBAL-MAXIMUM"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Developed from baseline 10460ef33c9b96a1b66756d5f5a6ee529e85f51b without importing any new nonmodal degree-fork module. Materialized KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM and read the complete content:encoded item, all13 steps and both closing paragraphs, rather than its abbreviated RSS description. Inspected existing Ontic, Frame, NecessaryAt and NecessaryVariableEffects fixed/alternating models before adding a separate world-indexed degree assignment over one shared Preorder. Dossiers inspected explicitly: STMT-ACTUAL-MODAL-REFLEXIVITY, STMT-MODAL-NECESSARY-AT-INDIVIDUAL, STMT-EXCLUDED-MIDDLE, and all four new potential/bound/bare-invariance/actual-guarded-invariance premises; also the named-global conclusion used as the attainment adapter's premise. Actual reflexivity plus necessity supplies actual presence and nonempty modal scope. Pointwise possible other-directed causation and the current-evaluation-world nonstrict bound give each existing individual a degree no greater than the selected n's degree there. Both directions of order-equivalent invariance transfer that bound across the root-accessible family. Explicit excluded middle handles identity with n; no global Lean classical axiom, actual causal exercise, causal sufficiency, God or uniqueness is inferred. No step5 possible-maximum premise is used. Step4 remains needed for value, so rejecting the whole first block as dispensable was explicitly rejected. Singular n, varying causal-witness worlds and other-directed scope remain open analyst commitments; no claim identifies them with the source's entire plural/literal-all/joint-witness step6. A source-attribution boundary was found before publication: bare NecessaryAt can hold for an individual absent at a nonreflexive base. Preserved the original frozen analyst Challenge/type; added a separately named actual-presence-and-necessity-guarded invariant predicate and newly frozen source-fidelity adapter that composes the original theorem. The bare invariant stays unattributed. The guarded adapter and possible-attainment adapter are labeled structural assembly/instantiation, not new philosophical discoveries. Finite omission controls concern the named n-at-every-world conclusion; they do not prove absence of every possible maximum. In particular the varying-degree control may attain a possible maximum elsewhere, so step5 alone does not replace11. Focused builds, combined corpus check and independent profile/type audit pass; axiom inspection of all three proof theorems reports no Lean axioms, with excluded middle still an explicit hypothesis. Required integrated binding, Comparator and NanoDa checks remain pending. No root premise closes.",
+  "evidence": [
+    "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+    "MODAL-DEGREE-ATTAINED-FROM-NAMED",
+    "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+    "KOONS-FOURTH-WAY-2022-STEP7-WEAK-BOUND-A",
+    "KOONS-FOURTH-WAY-2022-STEP11-ACTUAL-NECESSARY-INVARIANCE-A"
+  ],
+  "blocker": "Complete required gates on the exact integrated old-main-plus-source/modal head. Philosophically, existence of the selected necessary individual with the pointwise potential-cause role, adequacy of the intensity interpretation, the weak causal bound and invariant-degree commitment remain open. The conclusion is relative to the chosen accessible family and establishes neither value-maximality nor uniqueness. Owner steering prioritizes consequences/models and defers further attribution investigation."
+}

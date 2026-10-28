@@ -1,0 +1,31 @@
+{
+  "id": "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+    "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+    "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "inference_ids": [
+    "INF-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM"
+  ],
+  "meaning": "Relative-frame conditional on one rigid selected individual n, a world-indexed existence-degree assignment and one shared Preorder of degrees. Actual reflexivity and n's explicit NecessaryAt premise supply actual presence and a nonempty root-accessible family; no hidden inhabitedness, S5, transitivity or causal-soundness premise is used. For any existing y at a root-accessible evaluation world u, explicit excluded middle separates y=n from the other-directed case. The former gives degree reflexivity; the latter uses the pointwise potential-cause commitment and the weak bound on existing relata at u to give intensity(u,y)\u2264intensity(u,n), regardless of which successor witnesses possible causation. Conditional invariance is applied to the separately supplied necessity premise and transfers the bound from n at u through its standpoint degree to n at any other root-accessible world v. Thus n is globally maximum among existing accessible-world degree pairs at every accessible world, with ties allowed. No possible-maximum premise is used: the existence-degree shortcut therefore bypasses source step5 within this analyst specialization. This does not dispense with step4 for value, derive actual causation, causal sufficiency, a unique necessary individual, God, or unqualified scope over all metaphysical worlds. The selected singular, pointwise, other-directed commitment is not attributed as the whole of source6, which also allows plurality and has unresolved literal-all versus other-directed and joint versus varying-witness scope. All philosophical premises remain open; root-premise delta is none.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-PREORDER-DEGREE-INVARIANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

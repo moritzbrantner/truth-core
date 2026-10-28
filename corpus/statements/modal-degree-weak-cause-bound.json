@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+  "paraphrase": "At each root-accessible evaluation world, among individuals existing at that world, a possible cause has existence degree at least that of its possible recipient. Both degrees are evaluated at the current world, independently of the world witnessing the causal possibility. The comparison is nonstrict.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.WeakCauseDegreeBound",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

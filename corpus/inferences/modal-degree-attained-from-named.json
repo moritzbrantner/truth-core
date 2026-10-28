@@ -1,0 +1,12 @@
+{
+  "id": "INF-MODAL-DEGREE-ATTAINED-FROM-NAMED",
+  "input_statement_ids": [
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM"
+  ],
+  "output_statement_id": "STMT-MODAL-DEGREE-ATTAINED-GLOBAL-MAXIMUM",
+  "rule": "existential-introduction",
+  "meaning": "Structural witness selection from the named-individual conclusion, not a second philosophical derivation. Actual reflexivity selects the standpoint as an accessible world, and the named conclusion supplies n's presence there and its bound on every existing accessible-world pair. This constructs a witness of possible global attainment. Possible attainment is strictly weaker in the tested controls than n attaining a global bound at every accessible world; it is not a value bridge or a formalization of source steps1\u20135 as a whole. No independent premise defense or root-premise change is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
