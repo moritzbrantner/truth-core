@@ -16,6 +16,7 @@ import TruthCore.Models.Order
 import TruthCore.Models.OrderSecondary
 import TruthCore.Models.PSR
 import TruthCore.Models.PSRLocalControls
+import TruthCore.Models.PastResourceControls
 import TruthCore.Models.Physics
 import TruthCore.Models.PhysicsFirstMover
 import TruthCore.Models.PrimaVia
