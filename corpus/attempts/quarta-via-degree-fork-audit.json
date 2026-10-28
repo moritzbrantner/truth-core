@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-DEGREE-FORK-AUDIT",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-HOMOGENEOUS-BEING-SCALE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Independent source/type/model audit at baseline 1c83a5eaa217cf2eea7a2ed4330434901d87567d. Inspected dossiers and exact MaximumOrder schema, source-shaped homogeneous-scale bridge and AtMostOneMaximeEns theorem before the proposed proof. Materialized/read full ARIST-MET-II-1, AQUINAS-ST-I-Q2-A3, AQUINAS-ST-I-Q3-A5 and AQUINAS-ST-I-Q13-A5. Source limits: Aristotle 993b24–31 retains synonymy; the unrestricted causal comparative remains an explicit unattributed strengthening. Aquinas q3a5 ad2 distinguishes proportioned homogeneous measurement from approach; q13a5 co. denies univocity of God/creatures. The homogeneous profile is a stipulated contrast, and formal order shape alone does not distinguish it from an attribution pullback with universal possession. Accepted the frozen degree-fork vocabulary, coverage and separate horn-incompatibility Solution and canonical record types by inspection. Coverage lists the exact scale, at-being genus, unrestricted causal comparative, existing grades and excluded-middle premises, and gives an explicit instantiated-esse witness before its disjunction. This uses grades and excludes an empty carrier; the bare every-being-has-a-higher-being predicate alone would be vacuous there. Weak IsMaximumIn/Mathlib IsMax, preorder IsGreatest (which permits ties), and strict superiority over every distinct being were kept distinct. In the top branch genus supplies causes of every OTHER being's selected perfection, causal ascent supplies strict superiority, and the existing maximum schema gives no DISTINCT incoming cause; self-causation, other respects and absolute uncausedness are not excluded. Ties and incomparable co-maxima are excluded by the causal premises, not by an unstated antisymmetry or totality assumption. Existing AtMostOneMaximeEns already proves causal uniqueness under the broader all-respects genus premise; the new coverage does not claim uniqueness as newly discovered or strengthen the at-being premise merely to invoke it. The no-top branch uses explicit excluded middle to extract a positive strict-superior witness. The independent incompatibility proof uses the top's actual maximality directly and needs no additional order, causal, population or classical premise. Mathlib helper proofs may be classical; the authorized three-axiom profile is explicit and no zero-axiom coverage claim is made. The finite Boolean FiniteTop control reuses the existing HomogeneousCausalControl interpretation and its exact beingOrder; the infinite Nat Unbounded control has universal possession, MoreIn () x y := y < x, and no causal edges. Each joint type contains the entire four-proposition nonlogical background and its respective horn in one interpretation, with actual strict comparisons. Nat noMaximum composes the existing maximumNeedNotExist theorem; genus is vacuous, and separate noCausalEdges/noCausalSeries controls reject an illicit inference from increasing degrees to causal regress. Nat is not finite-registered. Unit aliases of named perfections are fixture assignments only, not source or philosophical identities. Rejected reuse: existing Order.TiedPrimary has tied approach degrees but its beingOrder field is ordinary Bool order; it cannot silently witness a homogeneous tied-order profile. Its genus/ascent failures and the separately named constant-lift tied-maxima schema are limited controls, not full-background witnesses. Exact source locators, rejected readings, accepted proof/model scope and remaining delivery boundaries are persisted in docs/notes/quarta-via-degree-fork-audit.md. No semantic/type finding remains in the inspected source and records. Final exact-input build/binding/Comparator/NanoDa remain coordinator obligations. Root-premise delta: none.",
+  "evidence": [
+    "MAXIMUM-ORDER-SCHEMA",
+    "AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS",
+    "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+    "ARIST-MET-993B-CAUSE-MOST-SUCH-A",
+    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A",
+    "AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A",
+    "AQUINAS-ST-I-Q13-A5-NAMES-ANALOGICAL-A"
+  ]
+}

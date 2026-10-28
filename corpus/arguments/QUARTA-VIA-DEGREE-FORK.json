@@ -1,0 +1,37 @@
+{
+  "id": "QUARTA-VIA-DEGREE-FORK",
+  "premise_statement_ids": [
+    "STMT-HOMOGENEOUS-BEING-SCALE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-QUARTA-VIA-DEGREE-FORK",
+  "inference_ids": [
+    "INF-QUARTA-VIA-DEGREE-FORK"
+  ],
+  "meaning": "Conditional fork on the existing stipulative homogeneous-scale contrast reading. The grades premise gives an actual carrier witness, and the scale makes it have the selected perfection esse. Explicit excluded middle splits existence of a maximal being in esse. If one exists, the at-being genus principle makes it cause the selected perfection in every other being; the unrestricted cause-more-such premise therefore makes it strictly more such than every distinct being, excluding tied and incomparable co-maxima. The no-distinct-incoming-cause clause composes HomogeneousScaleReading.causesRaiseDegree, HomogeneousScaleReading.isMaximumIn_iff_isMax and MaximumOrder.System.maximal_has_no_distinct_cause. Uniqueness is checked with explicit excluded middle for identity; this is not a new discovery of uniqueness, already established under the broader genus premise by AtMostOneMaximeEns. If no maximal being exists, explicit excluded middle extracts a higher being for every being. The independent supplementary theorem hornsIncompatible proves that the two branch predicates cannot both hold. No totality, maximum existence, arbitrary causal predecessor, infinite causal chain or absolute uncausedness is inferred. The unrestricted causal comparative remains the explicitly stronger open reading, not a new source attribution; no premise is established and root premises do not change.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

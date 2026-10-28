@@ -1,0 +1,16 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.incompatible",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.withoutUnbounded",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.withoutMaximumPrinciple",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.withoutGrades"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
