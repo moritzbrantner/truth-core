@@ -1,0 +1,16 @@
+{
+  "id": "SCHAFFER-12-PRIORITY-FOUNDATIONALISM",
+  "statement_id": "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
+  "source_id": "SCHAFFER-MONISM",
+  "locator": "§1.2, pp.35–38",
+  "interpretation": "Source reading recorded in prose only. Priority is not efficient causation, temporal precedence or parthood. Well-foundedness is an admitted background commitment, not a theorem that refutes infinitism or coherentism.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCHAFFER-MATERIAL-DOMAIN",
+    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
+    "DEF-SCHAFFER-BASIC-OBJECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-MONISM-SCOPE"
+  ]
+}

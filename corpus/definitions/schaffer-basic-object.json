@@ -1,0 +1,9 @@
+{
+  "id": "DEF-SCHAFFER-BASIC-OBJECT",
+  "term": "basic actual concrete object in Schaffer",
+  "definition": "Bx means Cx and no concrete y satisfies Dxy. Basicness is independence relative to the selected concrete domain and metaphysical relation, not absence of any efficient cause or a sufficient noncircular explanation of existence.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SCHAFFER-14-BASIC-WHOLE"
+  ]
+}
