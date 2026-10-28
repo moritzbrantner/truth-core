@@ -1,0 +1,17 @@
+{
+  "id": "STMT-FINITE-NECESSARY-UNION-SOURCE-OR-CYCLE",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.SourceOrCycle",
+  "paraphrase": "The union restricted to necessary individuals has a source or a nonempty directed TransGen loop. The alternatives are inclusive and may coexist.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-FINITE-NECESSARY-CARRIER",
+    "DEF-NECESSARY-UNION-SOURCE",
+    "DEF-NECESSARY-UNION-CYCLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

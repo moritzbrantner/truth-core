@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.HistoryContrastive.Challenge",
+  "solution_module": "TruthCore.Results.Modal.HistoryContrastive.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.HistoryContrastive.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

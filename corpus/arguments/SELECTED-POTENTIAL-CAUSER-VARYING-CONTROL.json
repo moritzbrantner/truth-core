@@ -1,0 +1,26 @@
+{
+  "id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "inference_ids": [
+    "INF-SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL"
+  ],
+  "meaning": "The unchanged registered varying interpretation jointly satisfies all five selected-causer backgrounds, named underivedness of the given false, and an actual outgoing edge to an existing recipient at world true. Reuse its reflexivity, no-contingent-predecessor and union-WF theorems and compose the named result. This nonvacuous positive profile supplies no actual edge at base false and establishes no metaphysical possibility.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

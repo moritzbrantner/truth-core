@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "argument_id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.checks",
+  "comparator_config": "results/NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Universal conditional source-to-common-underived bridge: actual reflexivity gives the source actual presence and no-contingent-ground lifts any existing incoming supporter into the necessary carrier, contradicting sourcehood. Neither background is established. The graph source itself supplies a necessary individual; this bridge does not need finite population or edge invariance."
+}

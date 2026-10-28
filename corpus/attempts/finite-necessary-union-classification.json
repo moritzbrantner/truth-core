@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-FINITE-NECESSARY-UNION-CLASSIFICATION",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-FINITE-NECESSARY-POPULATION",
+    "STMT-FINITE-NECESSARY-UNION-SOURCE-OR-CYCLE",
+    "STMT-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+    "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY",
+    "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+    "STMT-FINITE-NECESSARY-UNION-CONTROLS",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Source-free #604 finite necessary-carrier analysis. Inspected dossiers for the reused no-contingent-ground, actual-reflexivity and union-WF premises and the new finite-population/local-acyclicity premises. On the necessary subtype (not all beings), finite nonempty population entails a source OR a nonempty Relation.TransGen loop. Assume neither: Mathlib Finite.wellFounded_of_trans_of_irrefl on TransGen yields well-foundedness, and induction constructs a source, contradiction. Rejected the exclusive-fork interpretation: an explicit Fin 3 interpretation has independent source 0 and 1\u21942 cycle. Reused unchanged #518 rotating and varying structures and their proved facts: rotating is locally acyclic on the necessary restriction, lacks a source and has a union loop; varying has a source, no loop and a novel possible-world edge. Thus neither union cycles nor variable edges alone imply absence of a source. A source yields the same actual necessary underived individual under actual reflexivity and no-contingent-ground; the source supplies the population witness, and finite population/edge invariance are not required for this bridge. Local acyclicity excludes every loop whose edges are all witnessed in one world, by mapping the whole TransGen path into the local restricted relation. No attribution, root claim, necessity of union acyclicity, uniqueness, global explanation or closure is asserted. The source bridge is recorded as a universal conditional, not a new unproved root-route premise. Root frontier --routes and --reaching-root output are byte-identical before/after. Final warm-service preview accepted all canonical theorem/module content plus all four Solution wrappers with no diagnostics at service workspace /home/brantner/privat/truth-core-sprint-proof, session causal-harvest, Scratch/issue604.lean version 9; service head 75192b1c3efdf19f25601e52a06116e706420f11, response diff SHA256 660a0c8ebd32fec39115624b54b7ad33ab84bc3a9f5a747f309f92e4ee27556c, combined content SHA256 fb22a3389db0f78c1f179c60b94e791f0cf60be2738a77f1bd09ccaaa0d10a3b. This preview establishes elaboration only, not canonical Comparator/NanoDa certification; final CI covers the published revision. First import-loading preview API time 15.701s; final repeated edit API 0.467s, HTTP 0.5848s, lease wait 0.0000467s measured separately under /tmp/truth-core-lean.lock. Corpus dossier query via existing service succeeded with exact binding, HTTP 5.7366s; unlike Lean edits it still wraps the existing corpus CLI, so no corpus speedup is claimed. The warm session avoided per-edit CLI process/import startup; no new CLI proof benchmark or duplicate full checks were run. Recommendation: retain persistent-session proof edits with revision/content binding, keep canonical final verification in CI. Development corrected the Mathlib TransGen.mono explicit endpoint API, imported Fintype.EquivFin for the subtype finite instance, and supplied the WellFounded.asymmetric instance explicitly; no philosophical premise or frozen Challenge was changed by these corrections.",
+  "evidence": [
+    "FINITE-NECESSARY-UNION-CLASSIFICATION",
+    "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+    "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+    "FINITE-NECESSARY-UNION-CONTROLS"
+  ]
+}

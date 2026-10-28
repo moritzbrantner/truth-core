@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-POPULATION-COVER",
+  "term": "finite population cover and accessible successor",
+  "definition": "AccessibleSuccessor asserts a successor of the designated world. FinitePopulationCover supplies a finite list containing every rigid individual present at any accessible world. The individual type may be infinite. A finite hitting set is insufficient: it need not bound entire populations. FiniteCoverLaws quantifies these policies conditionally; FiniteCoverControls states alternating, infinite-tail and successor-free controls.",
+  "basis": "stipulative",
+  "note": "Mathematical semantics for #533. No metaphysical policy is defended. Existing rigid roster, presence, DeRe/DeDicto, contingency and joint absence retain their meanings.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FinitePopulationCover"
+}

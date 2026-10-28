@@ -104,8 +104,9 @@ class AffectedResultsTest(unittest.TestCase):
             with self.subTest(path=path):
                 self.assertEqual(self.select(path, "docs/x.md"), everything)
 
-    def test_scripts_outside_the_verifier_do_not_force_full_run(self):
-        self.assertEqual(self.select("scripts/source_evidence.py", "scripts/test_corpus_frontier.py"), ("subset", []))
+    def test_script_changes_use_the_conservative_safety_path(self):
+        self.assertEqual(self.select("scripts/source_evidence.py", "scripts/test_corpus_frontier.py"),
+                         ("full", ["RESULT-A", "RESULT-B", "RESULT-C"]))
 
     def test_nanoda_scope_is_changed_modules_and_reverse_dependents(self):
         self.assertEqual(
@@ -230,6 +231,168 @@ class AffectedResultsTest(unittest.TestCase):
 REPO = SCRIPT.parent.parent
 SCRIPT_REFERENCE = re.compile(r"scripts/[A-Za-z0-9_./-]*[A-Za-z0-9_]")
 PY_IMPORT = re.compile(r"^\s*(?:from\s+(\w+)\s+import|import\s+(\w+))", re.MULTILINE)
+
+
+class ImpactPlanTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        self.fixture = Fixture(self.root)
+
+    def plan(self, *paths, main=False):
+        return ar.impact_plan(self.root, paths, main=main)
+
+    def test_docs_only_bypasses_heavy_work_but_keeps_fast_checks(self):
+        for paths in [("AGENTS.md",), ("docs/catholic-case.md", "docs/decisions/x.md"),
+                      ("README.md", "CONTEXT.md", "CLAUDE.md"), ()]:
+            with self.subTest(paths=paths):
+                for main in (False, True):
+                    plan = self.plan(*paths, main=main)
+                    self.assertEqual(plan["selected"], [])
+                    self.assertEqual([k for k, v in plan["checks"].items() if v], ["fast"])
+
+    def test_leaf_and_shared_lean_keep_binding_results_and_nanoda(self):
+        for path in ("TruthCore/Results/A/Solution.lean", "TruthCore/Base.lean"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                self.assertEqual(plan["selected"], ["RESULT-A"])
+                for key in ("lean", "library_changed", "comparator_library", "report", "explorer_tests"):
+                    self.assertTrue(plan["checks"][key])
+                for key in ("source", "explorer", "full"):
+                    self.assertFalse(plan["checks"][key])
+        self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
+
+    def test_source_and_corpus_changes_retain_integrity_binding_and_data_tests(self):
+        for path in ("corpus/passages/P.json", "corpus/claims/C.json", "corpus/sources/S.json",
+                     "corpus/statements/S.json", "corpus/models/M.json", "results/RESULT-A/comparator.json"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                for key in ("lean", "source", "explorer_tests", "report", "comparator_library"):
+                    self.assertTrue(plan["checks"][key])
+                self.assertFalse(plan["checks"]["explorer"])
+                self.assertFalse(plan["checks"]["library_changed"])
+
+    def test_explorer_only_gets_live_report_and_both_browsers_without_library_recheck(self):
+        for path in ("apps/corpus-explorer/src/lib/corpus.ts", "bun.lock", "package.json", "turbo.json"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                for key in ("explorer", "explorer_tests", "report", "comparator_library"):
+                    self.assertTrue(plan["checks"][key])
+                for key in ("lean", "source", "library_changed"):
+                    self.assertFalse(plan["checks"][key])
+                self.assertEqual(plan["selected"], [])
+
+    def test_uncertain_tooling_generator_and_verifier_inputs_run_everything(self):
+        for path in ("unknown", "docs/executable.py", "TruthCore/new.data", "scripts/new.py",
+                     "scripts/source_evidence.py", "scripts/root_imports.py", "scripts/affected_results.py",
+                     "scripts/test_affected_results.py", "scripts/testdata/frontier-transcription-closure.json",
+                     "scripts/verifier-pins.env", ".github/workflows/ci.yml", ".github/actions/new/action.yml",
+                     "verifier/README.md", "lean-toolchain", "lake-manifest.json"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                self.assertTrue(all(plan["checks"].values()))
+                self.assertEqual(plan["selected"], ["RESULT-A", "RESULT-B", "RESULT-C"])
+
+    def test_main_formal_changes_remain_exhaustive_without_unrelated_browsers(self):
+        for path in ("TruthCore/Base.lean", "corpus/passages/P.json"):
+            plan = self.plan(path, main=True)
+            self.assertEqual(plan["mode"], "full")
+            self.assertEqual(plan["selected"], ["RESULT-A", "RESULT-B", "RESULT-C"])
+            for key in ("lean", "source", "library_changed", "report"):
+                self.assertTrue(plan["checks"][key])
+            self.assertFalse(plan["checks"]["explorer"])
+
+    def test_missing_base_and_full_nightly_manual_cli(self):
+        for args in (("--base", "unavailable"), ("--all",)):
+            with self.subTest(args=args):
+                output = self.root / "github-output"
+                summary = self.root / "summary"
+                output.write_text("")
+                result = subprocess.run(
+                    [sys.executable, str(SCRIPT), "--root", str(self.root), "select", *args],
+                    env={**os.environ, "GITHUB_OUTPUT": str(output), "GITHUB_STEP_SUMMARY": str(summary)},
+                    capture_output=True, text=True, check=True,
+                )
+                self.assertEqual(result.stdout.split(), ["RESULT-A", "RESULT-B", "RESULT-C"])
+                self.assertIn("mode=full", output.read_text())
+                for key in ("lean", "source", "library_changed", "explorer", "report", "comparator_library"):
+                    self.assertIn(f"{key}=true", output.read_text())
+                self.assertIn("not fresh formal certification", summary.read_text())
+
+    def test_git_diff_preserves_unusual_names_and_both_sides_of_renames(self):
+        git = ["git", "-C", str(self.root), "-c", "user.name=t", "-c", "user.email=t@t"]
+        subprocess.run([*git, "init", "-q"], check=True)
+        subprocess.run([*git, "add", "-A"], check=True)
+        subprocess.run([*git, "commit", "-qm", "base"], check=True)
+        path = "unexpected\nname.txt"
+        (self.root / path).write_text("unknown input")
+        old = "TruthCore/Base.lean"
+        new = "TruthCore/Renamed.lean"
+        (self.root / old).rename(self.root / new)
+        subprocess.run([*git, "add", "-A"], check=True)
+        subprocess.run([*git, "commit", "-qm", "rename and unknown"], check=True)
+        changed = ar.git_changed_files(self.root, "HEAD^", "HEAD")
+        self.assertEqual(sorted(changed), sorted([path, old, new]))
+        self.assertTrue(ar.impact_plan(self.root, changed)["checks"]["full"])
+
+    def test_docs_mixed_with_an_input_does_not_hide_the_input(self):
+        for path in ("TruthCore/Base.lean", "corpus/claims/C.json", "unknown"):
+            self.assertEqual(self.plan("docs/x.md", path)["checks"], self.plan(path)["checks"])
+
+
+def workflow_shell(step_name):
+    """Execute the actual workflow shell without adding a YAML dependency to CI tests."""
+    workflow = (REPO / ".github/workflows/ci.yml").read_text()
+    step = workflow.split(f"- name: {step_name}\n", 1)[1]
+    lines = step.split("        run: |\n", 1)[1].splitlines()
+    script = []
+    for line in lines:
+        if line and not line.startswith("          "):
+            break
+        script.append(line[10:])
+    return "\n".join(script)
+
+
+class ComparatorAggregateTest(unittest.TestCase):
+    def gate(self, **changes):
+        environment = {"PLAN": "success", "LIBRARY": "skipped", "SHARDS": "skipped", "MODE": "subset",
+                       "COUNT": "0", "EXPECT_LIBRARY": "false", "EXPECT_REPORT": "false", "EXPLORER": "false"}
+        environment.update(changes)
+        result = subprocess.run(["bash", "-euo", "pipefail", "-c", workflow_shell("Check comparator jobs")],
+                                env={**os.environ, **environment}, capture_output=True, text=True)
+        return result.returncode
+
+    def test_unaffected_and_running_branches(self):
+        self.assertEqual(self.gate(), 0)
+        self.assertEqual(self.gate(LIBRARY="success", EXPECT_LIBRARY="true", EXPECT_REPORT="true", EXPLORER="true"), 0)
+        self.assertEqual(self.gate(LIBRARY="success", EXPECT_LIBRARY="true", EXPECT_REPORT="true",
+                                   SHARDS="success", COUNT="3", MODE="full"), 0)
+
+    def test_failures_cancellations_and_unexpected_skips_block(self):
+        for change in ({"PLAN": "failure"}, {"PLAN": "skipped"}, {"COUNT": ""}, {"MODE": ""},
+                       {"LIBRARY": "failure"}, {"LIBRARY": "cancelled"}, {"EXPECT_LIBRARY": ""},
+                       {"EXPECT_LIBRARY": "true"}, {"COUNT": "1"}, {"SHARDS": "failure"},
+                       {"SHARDS": "cancelled"}, {"MODE": "full"}, {"EXPLORER": "true"},
+                       {"EXPECT_REPORT": "true"}):
+            with self.subTest(change=change):
+                self.assertNotEqual(self.gate(**change), 0)
+        self.assertNotEqual(self.gate(EXPECT_LIBRARY="true", LIBRARY="failure", COUNT="1", SHARDS="success"), 0)
+        self.assertNotEqual(self.gate(EXPECT_LIBRARY="true", LIBRARY="success", EXPECT_REPORT=""), 0)
+        self.assertNotEqual(self.gate(EXPLORER=""), 0)
+        self.assertNotEqual(self.gate(EXPECT_LIBRARY="true", LIBRARY="success", COUNT="1", SHARDS="success",
+                                     MODE="full", EXPECT_REPORT="false"), 0)
+
+    def test_workflow_gates_keep_stable_checks_and_live_browser_dependency(self):
+        workflow = (REPO / ".github/workflows/ci.yml").read_text()
+        for job in ("corpus-explorer-browser-root", "corpus-explorer-browser-pages"):
+            block = workflow.split(f"  {job}:\n", 1)[1].split("\n  #", 1)[0]
+            self.assertIn("needs: [comparator-plan, comparator-library]", block)
+            self.assertIn("if: needs.comparator-plan.outputs.explorer == 'true'", block)
+        self.assertIn("if: needs.comparator-plan.outputs.comparator_library == 'true'", workflow)
+        self.assertIn("if: needs.comparator-plan.outputs.explorer_tests == 'true'", workflow)
+        for step in ("Bind argument records to result theorem types", "Verify immutable primary-source witnesses"):
+            self.assertIn("if: needs.comparator-plan.outputs.", workflow.split(f"- name: {step}\n")[1].split("run:")[0])
 
 
 class ExplorerInputsTest(unittest.TestCase):

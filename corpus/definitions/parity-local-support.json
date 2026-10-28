@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARITY-LOCAL-SUPPORT",
+  "term": "world-local parity support",
+  "definition": "support w g n holds exactly when g = n + 1 and the target n has world w parity (false even, true odd). The same w must be retained along a local path. A local two-edge path is impossible because a successor has opposite parity. Edges have distinct endpoints and all endpoints exist in the model.",
+  "basis": "stipulative",
+  "note": "Task-local sense contrasted with the union certificate; forgetting labels is a mathematical operation, not cross-world causation.",
+  "lean_declaration": "TruthCore.Causality.ParityUnionRegress.support"
+}

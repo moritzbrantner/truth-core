@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-STRONG-WEAK-ACCESSIBILITY-COMPONENTS",
+  "term": "strong versus weak accessibility connectivity",
+  "sense_definition_ids": [
+    "DEF-ACCESSIBILITY-COMPONENTS",
+    "DEF-WEAK-ACCESSIBILITY-COMPONENTS"
+  ],
+  "resolution": "Strong components require directed paths both ways; weak components require a zigzag in the symmetrified quiver. The Bool order frame has one weak class and two distinct strong classes. For equivalence frames strong components coincide with accessibility equivalence classes, not necessarily with the whole world carrier. Nil paths are included throughout; reflexivity is therefore required for SCC/access equivalence even at the same vertex. Neither query supplies a causal or temporal bridge."
+}

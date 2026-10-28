@@ -1,0 +1,24 @@
+{
+  "id": "STMT-CONTINGENT-PREDECESSOR-CONTROL",
+  "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.ContingentPredecessorControl",
+  "paraphrase": "The fixed contingent-predecessor interpretation retains selected-world reflexivity, necessary presence and universal potential causation by false, sound distinct existing causal endpoints, and well-founded necessary-only union, but an actually existing contingent true causes false at base false. The no-contingent-predecessor bridge and named underivedness both fail; worldwise WF is not claimed.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-CONTINGENT-PREDECESSOR-CONTROL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+    "DISAMB-CAUSE"
+  ]
+}

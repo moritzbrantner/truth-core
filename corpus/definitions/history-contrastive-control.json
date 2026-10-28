@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HISTORY-CONTRASTIVE-CONTROL",
+  "term": "complete supplied presence history and contrastive discriminator",
+  "definition": "SameHistory compares IsAt for every candidate and supplied time. Discriminates h truth actual r requires truth at actual and SameHistory v actual at each accessible v where that same reason is true. The actual parameter designates a world; accessibility is possibility, never causal travel or selection. chains contains disjoint Bool-tagged infinite Nat member chains: predecessor of (w,n) is (w,n+1), present at all Nat times. reasons retains exactly the same local explains assignments and changes only reason truth: internal=true identifies reason r with existence of its bearer (r,0), internal=false makes reasons true everywhere. discovered is the empty predicate.",
+  "basis": "stipulative",
+  "note": "Analyst control for #467, with no source attribution. Completeness means the supplied presence extension over all times, not every qualitative feature or a new aggregate being. Discrimination is an explicit entailing standard; local labels certify no metaphysical explanatory adequacy. The general necessary_discriminating_excludes_rival theorem uses both a necessary reason and discrimination, plus an actually accessible different history. These assumptions do not follow from coverage. Internal explanation may include its own bearer; whether this is adequate is unresolved.",
+  "lean_declaration": "TruthCore.Modal.HistoryContrastive.Discriminates"
+}

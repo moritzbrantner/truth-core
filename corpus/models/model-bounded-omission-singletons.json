@@ -1,0 +1,100 @@
+{
+  "id": "MODEL-BOUNDED-OMISSION-SINGLETONS",
+  "description": "Three rigid candidates and three universally accessible worlds, actual world Slot.a, with exactly matching candidate x=v present in each world. Every pair is omissible, each candidate is contingent, every successor populated, no fixed necessary candidate and no empty successor. Finite formal assignment only; no metaphysical possibility or root closure.",
+  "vocabulary": "bounded-omission",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.singletonFrame",
+  "bindings": {
+    "W": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot",
+    "I": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot",
+    "F": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.singletonFrame",
+    "present": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.singletonExists",
+    "w": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.a",
+    "k": "TruthCore.Models.BoundedOmission.pairBound"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.a",
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.b",
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.c"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.enumerate"
+    },
+    {
+      "binding": "I",
+      "elements": [
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.a",
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.b",
+        "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Slot.c"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.enumerate"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.noNecessary"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.populated"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.individual"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.noEmpty"
+    },
+    {
+      "statement_id": "STMT-BOUNDED-OMISSION",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w",
+        "k"
+      ],
+      "theorem": "TruthCore.Models.BoundedOmission.pairs"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.BoundedOmission"
+  ]
+}

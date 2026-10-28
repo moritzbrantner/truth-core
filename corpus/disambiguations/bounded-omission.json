@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BOUNDED-OMISSION",
+  "term": "bounded omission versus whole-roster absence and amalgamation",
+  "sense_definition_ids": [
+    "DEF-BOUNDED-OMISSION",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS"
+  ],
+  "resolution": "UpTo bounds the number of candidates omitted together, not the number of accessible worlds or the roster size. Different selections may use different successor witnesses. In the three-singleton profile every pair is jointly absent at the remaining singleton, while no world has an empty population. The bound-zero condition requires only successor existence, not a population. Neither bounded omission nor this formal profile supplies unrestricted subintersection/exact-intersection closure or metaphysical possibility. Literal identity and actualist presence retain the shared quantifier-scope interpretation; worlds are not identified with times."
+}
