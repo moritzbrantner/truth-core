@@ -1,0 +1,20 @@
+{
+  "id": "MODAL-RIGID-DESIGNATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-RIGID-DESIGNATION",
+  "inference_ids": [
+    "INF-MODAL-RIGID-DESIGNATION"
+  ],
+  "meaning": "Derive successor co-reference iff existence from both exact designation profiles; quantify along M edges and reuse the certified box-transfer theorem for E inclusion. Decide two finite omission controls. No actual naming fact, historical thesis or human epistemic state is established.",
+  "definition_ids": [
+    "DEF-PARTIAL-RIGID-DESIGNATION",
+    "DEF-STRICT-NAME-COREFERENCE",
+    "DEF-TWO-RELATION-POSSIBILITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RIGID-IDENTITY-EXISTENCE",
+    "DISAMB-DESCRIPTION-MODAL-ADMISSIBILITY"
+  ]
+}

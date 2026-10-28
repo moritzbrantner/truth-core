@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRICT-NAME-COREFERENCE",
+  "term": "strict co-reference of partial names",
+  "definition": "CoRef a b v means there exists a candidate bearer x designated by both a and b at v. Under RigidAt this is a common existing denotation. Empty names do not satisfy CoRef, even if their designation relations are extensionally equal. Box quantifies CoRef over the selected relation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RigidDesignation.CoRef",
+  "note": "This explicit strict sentence convention separates reference from equality of names or reflexivity of bearer equality. It is an analyst convention, not a claim that Kripke universally endorses this treatment of empty names."
+}

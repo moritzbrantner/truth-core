@@ -38,6 +38,7 @@ import TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solutio
 import TruthCore.Results.Modal.PopulationClosureSeparation.Solution
 import TruthCore.Results.Modal.PossibilityTransfer.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
+import TruthCore.Results.Modal.RigidDesignation.Solution
 import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 import TruthCore.Results.Modal.S4.Countermodels.Solution
 import TruthCore.Results.Modal.S4.Extensionality.Solution
