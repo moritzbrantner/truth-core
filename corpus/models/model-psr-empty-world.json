@@ -51,7 +51,30 @@
       "value": "satisfies",
       "arguments": ["World", "Being", "Model", "world"],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldWellFounded"
+    },
+    {
+      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.emptyNoBrute"
+    },
+    {
+      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.emptyNotBrute"
+    },
+    {
+      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "value": "violates",
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.PSRLocalControls.emptyNoExplainedSource"
     }
   ],
-  "modules": ["TruthCore.Explanation.WellFoundedSource"]
+  "modules": ["TruthCore.Explanation.WellFoundedSource", "TruthCore.Models.PSRLocalControls"]
 }

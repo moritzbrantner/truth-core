@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "argument_id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteIncompatible.checks",
+  "comparator_config": "results/PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE/comparator.json",
+  "status": "solution-present",
+  "description": "Logical bookkeeping for configuration selection: local no-brute coverage and a local brute witness at the same model/world are incompatible. Compose the previously checked exclusion; no excluded-middle assumption or philosophical premise closure follows."
+}

@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.NoBruteExistence.checks",
+    "TruthCore.Results.Explanation.NoBruteExistence.exclusion",
+    "TruthCore.Results.Explanation.NoBruteExistence.coverage",
+    "TruthCore.Results.Explanation.NoBruteExistence.allWorld_iff"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
