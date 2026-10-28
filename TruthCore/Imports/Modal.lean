@@ -23,6 +23,7 @@ import TruthCore.Modal.Kripke
 import TruthCore.Modal.NecessaryContingentActivity
 import TruthCore.Modal.NecessaryPotentialCausers
 import TruthCore.Modal.NecessaryVariableEffects
+import TruthCore.Modal.PastSerialityCertificate
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
