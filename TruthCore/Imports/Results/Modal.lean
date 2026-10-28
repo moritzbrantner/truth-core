@@ -10,6 +10,7 @@ import TruthCore.Results.Modal.B.ScopeBoundary.Solution
 import TruthCore.Results.Modal.BoundedMetricPast.Solution
 import TruthCore.Results.Modal.Convergence.Solution
 import TruthCore.Results.Modal.ConvergenceCertificate.Solution
+import TruthCore.Results.Modal.CounterpartNecessityControls.Solution
 import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution
@@ -20,6 +21,7 @@ import TruthCore.Results.Modal.ExistenceDegrees.Solution
 import TruthCore.Results.Modal.ExistenceDegreesActual.Solution
 import TruthCore.Results.Modal.GraphBridge.Solution
 import TruthCore.Results.Modal.GraphBridgeCertificate.Solution
+import TruthCore.Results.Modal.HistoryContrastive.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution
@@ -39,6 +41,7 @@ import TruthCore.Results.Modal.S5.Language.Solution
 import TruthCore.Results.Modal.S5.Laws.Solution
 import TruthCore.Results.Modal.S5.Projection.Solution
 import TruthCore.Results.Modal.S5.SymmetryBoundary.Solution
+import TruthCore.Results.Modal.SelectedEffectBridge.Solution
 import TruthCore.Results.Modal.StandardCorrespondence.Solution
 import TruthCore.Results.Modal.StandardCorrespondenceCertificate.Solution
 import TruthCore.Results.Modal.T.Branching.Solution

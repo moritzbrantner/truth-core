@@ -1,0 +1,15 @@
+{
+  "id": "STMT-FINITE-POPULATION-COVER-LAWS",
+  "paraphrase": "Universal finite-list omission, full-cover joint absence, incompatibility of necessary population with individual contingency, explicit-excluded-middle positive DeRe, and complete-roster cover sufficiency. The finite cover and amalgamation policies remain open metaphysical commitments.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FiniteCoverLaws",
+  "definition_ids": [
+    "DEF-FINITE-POPULATION-COVER",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

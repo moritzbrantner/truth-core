@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "input_statement_ids": [
+    "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY"
+  ],
+  "output_statement_id": "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "rule": "typed-graph-derivation",
+  "meaning": "Under worldwise acyclicity restricted to the same necessary subtype, no nonempty union loop has all its edges witnessed in a single world. Map any proposed common-world path to the local relation and contradict its acyclicity. No claim about all causation or contingent individuals.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

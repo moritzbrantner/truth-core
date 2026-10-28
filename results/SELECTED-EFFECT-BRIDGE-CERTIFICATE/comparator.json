@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.SelectedEffectBridge.Challenge",
+  "solution_module": "TruthCore.Results.Modal.SelectedEffectBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.SelectedEffectBridge.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

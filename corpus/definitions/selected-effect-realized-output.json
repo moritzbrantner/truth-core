@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
+  "term": "causal realization of outputs",
+  "definition": "At every v, if a is performed there and x is its output, then the selected source Causes x at v. SoundDistinctCauses is separately required to infer existence of the effect from such a causal edge.",
+  "basis": "stipulative",
+  "note": "Explicit diagnostic for issue #462; no source attribution. Source-grounded act individuation and metaphysical adoption remain open. See docs/notes/selected-effect-bridge-462.md.",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.RealizedOutputs"
+}

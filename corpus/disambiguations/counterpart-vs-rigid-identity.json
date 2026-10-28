@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-COUNTERPART-VS-RIGID-IDENTITY",
+  "term": "same being across worlds",
+  "sense_definition_ids": [
+    "DEF-COUNTERPART-NECESSITY",
+    "DEF-COUNTERPART-TOTAL",
+    "DEF-COUNTERPART-UNIQUE",
+    "DEF-COUNTERPART-INJECTIVE",
+    "DEF-COUNTERPART-IDENTITY-BRIDGE"
+  ],
+  "resolution": "Canonical Ontic/NecessaryAt keeps literal Lean identity fixed. CounterpartNecessaryAt is a separate existentially guarded variant with independent four-place links. Total/Unique/Injective and surjectivity constrain correspondence only, not equality; singleton-domain bijections separate the readings. IdentityBridge explicitly supplies equality; its recovery theorem transfers target existence by substitution and does not defend that bridge. Missing links and nontransitive links can destroy counterpart necessity even with populated accessible domains; many-to-one links can preserve it for a rigidly contingent bearer. All controls are stipulated semantic interpretations, not historical counterpart theory or evidence of metaphysical possibility."
+}

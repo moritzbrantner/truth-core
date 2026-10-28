@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-EFFECT-SAME-ACT",
+  "term": "same performed act at every accessible world",
+  "definition": "For a selected standpoint w and one rigid token a, performs v a holds at every v accessible from w. This is not necessity of some possibly different act, a metaphysical identity criterion for acts, or source necessity.",
+  "basis": "stipulative",
+  "note": "Explicit diagnostic for issue #462; no source attribution. Source-grounded act individuation and metaphysical adoption remain open. See docs/notes/selected-effect-bridge-462.md.",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.SameActEverywhere"
+}

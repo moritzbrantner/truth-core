@@ -1,0 +1,19 @@
+{
+  "id": "FINITE-POPULATION-COVER-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-FINITE-POPULATION-COVER-CONTROLS",
+  "inference_ids": [
+    "INF-FINITE-POPULATION-COVER-CONTROLS"
+  ],
+  "meaning": "The alternating model fails amalgamation; infinite Nat tails are populated and individually contingent with amalgamation but have neither DeRe nor finite population cover; with no successors even an empty roster satisfies cover, amalgamation and contingency without joint absence.",
+  "definition_ids": [
+    "DEF-FINITE-POPULATION-COVER",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -4,8 +4,8 @@
 `select` reads the files a change touches and prints the result IDs whose
 verification could be affected:
 
-* every result when the change touches the toolchain, Lake files, verifier
-  scripts or pins, the verifier itself, this selector, or a workflow;
+* every result when the change touches the toolchain, Lake files, tooling,
+  verifier or workflow, or an input cannot be classified safely;
 * otherwise each result whose own records (`results/<ID>/**`,
   `corpus/results/<ID>.json`) changed, or whose Challenge or Solution module,
   or any `TruthCore` module either imports transitively, changed.
@@ -22,6 +22,11 @@ on any cache state.
 
 `external-imports` prints the non-`TruthCore` modules the library imports; CI
 keys its once-per-pin full NanoDa check on them.
+
+`select` also emits the heavyweight impact decisions to GITHUB_OUTPUT and the
+Actions summary (#568). Recognized documentation bypasses expensive work;
+missing diff bases and nightly/manual requests select full coverage. --main
+retains exhaustive verification for formal/corpus edits on main.
 
 `explorer` prints whether a change can affect the corpus explorer's code, so CI
 runs the explorer browser jobs only then (#520). Corpus records and Lean modules
@@ -50,21 +55,14 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # A change to any of these can change how every result is built or checked.
 FULL_RUN_PATTERNS = (
+    # Tooling and its tests are trust-boundary changes, including new scripts.
+    "scripts/*",
+    ".github/*",
     "lean-toolchain",
     "lakefile.toml",
     "lakefile.lean",
     "lake-manifest.json",
-    "scripts/verify-*.sh",
-    "scripts/bootstrap-verifier.sh",
-    "scripts/verifier-pins.env",
-    "scripts/affected_results.py",
-    "scripts/TruthCoreConstants.lean",
-    # verify-result.sh enforces the axiom policy through corpus.permitted_axioms_error.
-    "scripts/corpus.py",
     "verifier/*",
-    ".github/workflows/*",
-    # The Lean setup and incremental build cache every Lean job uses.
-    ".github/actions/lean-setup/*",
 )
 
 # What the explorer build and its browser tests run, apart from corpus data: the app, the
@@ -85,6 +83,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/territory.py",
     "scripts/root_imports.py",
     "scripts/testdata/objective-truth-pilot.json",
+    "scripts/testdata/frontier-transcription-closure.json",
     ".github/workflows/*",
     ".github/actions/*",
 )
@@ -96,6 +95,25 @@ IMPORT_RE = re.compile(r"^\s*(?:public\s+|private\s+)?(?:meta\s+)?import\s+(.+?)
 MATHLIB_WEIGHT = 25
 SHARD_CAPACITY = 100
 MAX_SHARDS = 4
+
+
+def input_kind(path: str) -> str:
+    """Only recognized non-executable prose may bypass the safety fallback.
+
+    Markdown inside an app, verifier, result or script can be a build/test input;
+    it deliberately does not inherit the documentation exemption.
+    """
+    if path in {"AGENTS.md", "CLAUDE.md", "README.md", "CONTEXT.md"} or (
+        path.startswith("docs/") and path.endswith(".md")
+    ):
+        return "docs"
+    if changed_module(path):
+        return "lean"
+    if path.startswith(("corpus/", "results/")) and path.endswith(".json"):
+        return "corpus"
+    if explorer_inputs_changed([path]):
+        return "explorer"
+    return "unknown"
 
 
 def module_path(root: Path, module: str) -> Path:
@@ -166,8 +184,39 @@ def changed_module(path: str) -> str | None:
 
 def needs_full_run(changed: Iterable[str]) -> list[str]:
     return sorted(
-        path for path in changed if any(fnmatch.fnmatchcase(path, pattern) for pattern in FULL_RUN_PATTERNS)
+        path for path in changed
+        if input_kind(path) == "unknown"
+        or any(fnmatch.fnmatchcase(path, pattern) for pattern in FULL_RUN_PATTERNS)
     )
+
+
+def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False) -> dict:
+    """One exact-diff plan for existing jobs; None means unavailable base or full request.
+
+    Corpus edits retain binding and source work. Explorer unit tests read both
+    corpus data and Lean source (site-state.test.ts indexes advertised declarations).
+    Browser selection reuses the existing code-input classification. Report production
+    remains live for every non-prose input; no absent report certifies a build.
+    """
+    changed = None if changed is None else sorted(set(changed))
+    safety = ["full run requested or exact base unavailable"] if changed is None else needs_full_run(changed)
+    kinds = {input_kind(p) for p in changed or []}
+    formal = bool(kinds & {"lean", "corpus"})
+    full = bool(safety) or (main and formal)
+    mode, selected = ("full", sorted(load_results(root))) if full else select(root, changed or [])
+    library = full or "lean" in kinds
+    lean = full or formal
+    source = full or "corpus" in kinds
+    browser = bool(safety) or bool(explorer_inputs_changed(changed or []))
+    explorer = browser or formal
+    report = lean or browser
+    reason = ", ".join(safety) if safety else (
+        "main formal/corpus change: exhaustive verification" if full else ", ".join(changed or []) or "empty exact diff"
+    )
+    checks = {"fast": True, "lean": lean, "source": source, "library_changed": library,
+              "explorer_tests": explorer, "explorer": browser, "report": report,
+              "comparator_library": library or report, "full": full}
+    return {"mode": mode, "selected": selected, "checks": checks, "reason": reason}
 
 
 def select(root: Path, changed: Iterable[str]) -> tuple[str, list[str]]:
@@ -255,13 +304,22 @@ def explorer_inputs_changed(changed: Iterable[str]) -> list[str]:
 
 def git_changed_files(root: Path, base: str, head: str) -> list[str]:
     output = subprocess.run(
-        ["git", "diff", "--name-only", "--no-renames", base, head],
+        ["git", "diff", "--name-only", "-z", "--no-renames", base, head, "--"],
         cwd=root,
         check=True,
         capture_output=True,
         text=True,
+        timeout=30,
     ).stdout
-    return [line for line in output.splitlines() if line]
+    return [path for path in output.split("\0") if path]
+
+
+def changed_files_or_full(root: Path, base: str, head: str) -> list[str] | None:
+    try:
+        return git_changed_files(root, base, head)
+    except (subprocess.SubprocessError, OSError) as exc:
+        print(f"cannot resolve exact diff; full verification: {exc}", file=sys.stderr)
+        return None
 
 
 def write_github_output(values: dict[str, str]) -> None:
@@ -276,19 +334,16 @@ def write_github_output(values: dict[str, str]) -> None:
 def command_select(args: argparse.Namespace) -> int:
     root = Path(args.root)
     if args.all:
-        mode, selected = "full", sorted(load_results(root))
-        reasons = ["full run requested"]
+        changed = None
     else:
         if args.files_from:
             changed = [line.strip() for line in Path(args.files_from).read_text().splitlines() if line.strip()]
         else:
-            changed = git_changed_files(root, args.base, args.head)
-        mode, selected = select(root, changed)
-        reasons = needs_full_run(changed) if mode == "full" else []
-    library_changed = mode == "full" or any(changed_module(p) for p in ([] if args.all else changed))
+            changed = changed_files_or_full(root, args.base, args.head)
+    plan = impact_plan(root, changed, main=args.main)
+    mode, selected = plan["mode"], plan["selected"]
     count = shard_count(root, selected)
-    if reasons:
-        print(f"full run because of: {', '.join(reasons)}", file=sys.stderr)
+    print(f"impact plan: {plan['reason']}", file=sys.stderr)
     print(f"{mode}: {len(selected)} results in {count} shard(s)", file=sys.stderr)
     if args.output:
         Path(args.output).write_text("".join(f"{r}\n" for r in selected), encoding="utf-8")
@@ -299,11 +354,20 @@ def command_select(args: argparse.Namespace) -> int:
         {
             "mode": mode,
             "count": str(len(selected)),
-            "library_changed": "true" if library_changed else "false",
+            **{key: str(value).lower() for key, value in plan["checks"].items()},
             "shards": json.dumps(list(range(count))),
             "shard_count": str(count),
         }
     )
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as handle:
+            handle.write("### Exact-head impact plan\n\n")
+            handle.write(f"Selection: {mode}, {len(selected)} results. Reason: {plan['reason']}\n\n")
+            handle.write("| Check | Decision |\n| --- | --- |\n")
+            for key, run in plan["checks"].items():
+                handle.write(f"| {key} | {'run' if run else 'unaffected inputs; bypass'} |\n")
+            handle.write("\nA bypass is an unaffected-input decision, not fresh formal certification or a report.\n")
     return 0
 
 
@@ -311,7 +375,9 @@ def command_explorer(args: argparse.Namespace) -> int:
     if args.all:
         changed_inputs = ["full run requested"]
     else:
-        changed_inputs = explorer_inputs_changed(git_changed_files(Path(args.root), args.base, args.head))
+        changed = changed_files_or_full(Path(args.root), args.base, args.head)
+        changed_inputs = (["exact base unavailable"] if changed is None else
+                          needs_full_run(changed) or explorer_inputs_changed(changed))
     run = "true" if changed_inputs else "false"
     print(f"explorer inputs changed: {', '.join(changed_inputs) or 'none'}", file=sys.stderr)
     print(run)
@@ -321,7 +387,8 @@ def command_explorer(args: argparse.Namespace) -> int:
 
 def command_nanoda_modules(args: argparse.Namespace) -> int:
     root = Path(args.root)
-    scope, modules = nanoda_scope(root, git_changed_files(root, args.base, args.head))
+    changed = changed_files_or_full(root, args.base, args.head)
+    scope, modules = ("full", []) if changed is None else nanoda_scope(root, changed)
     detail = "every TruthCore declaration" if scope == "full" else f"{len(modules)} affected module(s)"
     print(f"NanoDa scope: {scope}, {detail}", file=sys.stderr)
     text = "".join(f"{module}\n" for module in modules)
@@ -360,6 +427,7 @@ def main(argv: list[str] | None = None) -> int:
     source.add_argument("--files-from", help="file listing changed paths, one per line")
     source.add_argument("--all", action="store_true", help="select every result")
     sel.add_argument("--head", default="HEAD")
+    sel.add_argument("--main", action="store_true", help="retain exhaustive main verification for formal/corpus changes")
     sel.add_argument("--output", help="write the selected IDs here instead of stdout")
     sel.set_defaults(func=command_select)
     exp = sub.add_parser("explorer", help="print whether a change can affect the explorer's code")

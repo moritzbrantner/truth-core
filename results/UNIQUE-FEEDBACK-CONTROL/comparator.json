@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UniqueFeedback.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueFeedback.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UniqueFeedback.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

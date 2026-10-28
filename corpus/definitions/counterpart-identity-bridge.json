@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNTERPART-IDENTITY-BRIDGE",
+  "term": "IdentityBridge in issue #470",
+  "definition": "Every counterpart edge c w x v y entails literal Lean equality x=y. This is stronger than bijection and is an explicit stipulated bridge, not a derived identification.",
+  "basis": "stipulative",
+  "note": "Issue-local model semantics, not historical attribution; philosophical adequacy would require separate source investigation. Relation is an independent four-place World \u2192 Being \u2192 World \u2192 Being \u2192 Prop parameter.",
+  "lean_declaration": "TruthCore.Modal.CounterpartNecessity.IdentityBridge"
+}

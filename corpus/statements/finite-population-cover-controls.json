@@ -1,0 +1,15 @@
+{
+  "id": "STMT-FINITE-POPULATION-COVER-CONTROLS",
+  "paraphrase": "The alternating model fails amalgamation; infinite Nat tails are populated and individually contingent with amalgamation but have neither DeRe nor finite population cover; with no successors even an empty roster satisfies cover, amalgamation and contingency without joint absence.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FiniteCoverControls",
+  "definition_ids": [
+    "DEF-FINITE-POPULATION-COVER",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

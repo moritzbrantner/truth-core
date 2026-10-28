@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-HISTORY-CONTRASTIVE-MEMBERWISE-OMISSION",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+    "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
+    "STMT-MODAL-EXPLANATION-STABLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Issue #467 steering: same disjoint infinite member chains, world-local causes and explanation labels admit two reason-truth assignments. The necessary always-true assignment fails the contrastive entailment standard; a contingent internal bearer passes. Thus neither infinite local coverage nor necessary reason truth alone determines discrimination. Internal explanation is not ruled out by externality assumptions; this candidate does not explain why its own contingent bearer obtains and may be rejected as explanatorily circular or merely redescriptive. Empty reason discovery coexists with a discriminator. No source reading revised; existing Leibniz attribution is only a target of comparison, not reinterpreted or formally refuted. Rejected bridges: treating local labels as modal sufficiency; deriving selection from necessity alone; identifying lack of discovery with nonexistence. General necessary_discriminating_excludes_rival derives incompatibility only with explicit necessity, discrimination and genuine accessible difference. See docs/history-contrastive-controls.md for exact boundaries, unresolved adequacy and total-history obligations. No root premise change.",
+  "evidence": [
+    "HISTORY-CONTRASTIVE-CONTROLS"
+  ]
+}

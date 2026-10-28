@@ -22,6 +22,7 @@ concurrency:
 
 jobs:
   corpus-and-lean:
+    needs: comparator-plan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -35,14 +36,17 @@ jobs:
       # Prebuilt Mathlib, then an incremental TruthCore build from the latest main build
       # (.github/actions/lean-setup). This job alone writes the Lean caches, and only on main.
       - uses: ./.github/actions/lean-setup
+        if: needs.comparator-plan.outputs.lean == 'true'
         with:
           build: "true"
           save: "true"
       - name: Install PDF source extraction
+        if: needs.comparator-plan.outputs.source == 'true'
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
       - name: Bind argument records to result theorem types
+        if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check
       - name: Test corpus tooling and media-span and web-snapshot evidence offline
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
@@ -52,15 +56,17 @@ jobs:
       # passage when the verifier changed) and still validates every manifest offline. A live
       # page that drifts then turns main and the nightly run red without blocking unrelated PRs.
       - name: Verify immutable primary-source witnesses
+        if: needs.comparator-plan.outputs.source == 'true'
         env:
           EVENT: ${{ github.event_name }}
         run: |
-          if [[ "$EVENT" == pull_request ]]; then
+          if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
             python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
           else
             python3 scripts/source_evidence.py verify
           fi
       - name: Exercise source materialization
+        if: needs.comparator-plan.outputs.source == 'true'
         run: |
           python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt
           python3 scripts/source_evidence.py materialize ARIST-CAT-V --output /tmp/aristotle-categories-v.txt
@@ -76,6 +82,8 @@ jobs:
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q13-A8 --output /tmp/aquinas-st-i-q13-a8.txt
 
   corpus-explorer:
+    needs: comparator-plan
+    if: needs.comparator-plan.outputs.explorer_tests == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -123,9 +131,8 @@ jobs:
           github-pages: "true"
           test-base-path: /truth-core
 
-  # On a PR, verify only the results the diff can affect (scripts/affected_results.py); on main,
-  # nightly and manual runs, verify every result. The selection is recomputed in each job from
-  # the same commit, so it needs no artifact hand-off.
+  # One exact-head plan owns all heavyweight decisions. Main formal/corpus changes and
+  # nightly/manual runs retain exhaustive verification. Unknown inputs/base run everything.
   comparator-plan:
     runs-on: ubuntu-latest
     outputs:
@@ -134,7 +141,12 @@ jobs:
       shards: ${{ steps.select.outputs.shards }}
       shard_count: ${{ steps.select.outputs.shard_count }}
       library_changed: ${{ steps.select.outputs.library_changed }}
-      explorer: ${{ steps.explorer.outputs.explorer }}
+      lean: ${{ steps.select.outputs.lean }}
+      source: ${{ steps.select.outputs.source }}
+      explorer: ${{ steps.select.outputs.explorer }}
+      explorer_tests: ${{ steps.select.outputs.explorer_tests }}
+      report: ${{ steps.select.outputs.report }}
+      comparator_library: ${{ steps.select.outputs.comparator_library }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -144,33 +156,21 @@ jobs:
         id: select
         env:
           EVENT: ${{ github.event_name }}
-        run: |
-          if [[ "$EVENT" == pull_request ]]; then
-            python3 scripts/affected_results.py select --base HEAD^1 --head HEAD
-          else
-            python3 scripts/affected_results.py select --all
-          fi
-      # The browser jobs run only when the explorer's code can have changed
-      # (affected_results.py EXPLORER_INPUT_PATTERNS): on a PR against its base, on a push
-      # to main against the previous tip; nightly and manual runs always run them.
-      - name: Decide whether the explorer browser jobs run
-        id: explorer
-        env:
-          EVENT: ${{ github.event_name }}
           BEFORE: ${{ github.event.before }}
         run: |
           if [[ "$EVENT" == pull_request ]]; then
-            python3 scripts/affected_results.py explorer --base HEAD^1 --head HEAD
+            python3 scripts/affected_results.py select --base HEAD^1 --head HEAD
           elif [[ "$EVENT" == push && -n "$BEFORE" && ! "$BEFORE" =~ ^0+$ ]] \
             && git fetch --quiet --no-tags --depth=1 origin "$BEFORE"; then
-            python3 scripts/affected_results.py explorer --base "$BEFORE" --head HEAD
+            python3 scripts/affected_results.py select --base "$BEFORE" --head HEAD --main
           else
-            python3 scripts/affected_results.py explorer --all
+            python3 scripts/affected_results.py select --all
           fi
 
-  # Always produce one live configuration bundle; full library verification stays scoped.
+  # Whenever needed, produce a live configuration bundle at this workflow's checkout.
   comparator-library:
     needs: comparator-plan
+    if: needs.comparator-plan.outputs.comparator_library == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -210,8 +210,10 @@ jobs:
         if: steps.verifier.outputs.cache-hit != 'true'
         run: scripts/bootstrap-verifier.sh
       - name: Produce this workflow's verified configuration explorer report
+        if: needs.comparator-plan.outputs.report == 'true'
         run: python3 scripts/corpus.py configuration-report --output .cache/configuration-explorer.json
       - name: Upload the verified configuration report
+        if: needs.comparator-plan.outputs.report == 'true'
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: configuration-explorer-report
@@ -318,6 +320,9 @@ jobs:
         run: |
           if [[ "$EVENT" == pull_request ]]; then
             python3 scripts/affected_results.py select --base HEAD^1 --head HEAD --output "$RUNNER_TEMP/results.txt"
+          elif [[ "$EVENT" == push ]]; then
+            # The plan runs shards on main only for the exhaustive formal/safety path.
+            python3 scripts/affected_results.py select --all --output "$RUNNER_TEMP/results.txt"
           else
             python3 scripts/affected_results.py select --all --output "$RUNNER_TEMP/results.txt"
           fi
@@ -326,8 +331,8 @@ jobs:
           SHARD: ${{ matrix.shard }}/${{ needs.comparator-plan.outputs.shard_count }}
         run: scripts/verify-all.sh --results-file "$RUNNER_TEMP/results.txt" --shard "$SHARD"
 
-  # Stable aggregate: the live report producer always succeeds; optional shards
-  # follow the plan. A skipped producer cannot certify an explorer build.
+  # Stable aggregate: require exactly the work selected by the successful plan.
+  # A skipped producer is accepted only for an explicit unaffected-input decision.
   comparator:
     needs: [comparator-plan, comparator-library, comparator-shard]
     if: always()
@@ -340,12 +345,27 @@ jobs:
           SHARDS: ${{ needs.comparator-shard.result }}
           MODE: ${{ needs.comparator-plan.outputs.mode }}
           COUNT: ${{ needs.comparator-plan.outputs.count }}
+          EXPECT_LIBRARY: ${{ needs.comparator-plan.outputs.comparator_library }}
+          EXPECT_REPORT: ${{ needs.comparator-plan.outputs.report }}
+          EXPLORER: ${{ needs.comparator-plan.outputs.explorer }}
         run: |
           echo "plan=$PLAN ($MODE, $COUNT results) library=$LIBRARY shards=$SHARDS"
-          [[ "$PLAN" == success && "$LIBRARY" == success ]] || exit 1
-          for result in "$LIBRARY" "$SHARDS"; do
-            [[ "$result" == success || "$result" == skipped ]] || exit 1
-          done
-          if [[ "$MODE" == full ]]; then
-            [[ "$LIBRARY" == success && "$SHARDS" == success ]] || exit 1
+          [[ "$PLAN" == success && "$COUNT" =~ ^[0-9]+$ ]] || exit 1
+          [[ "$MODE" == full || "$MODE" == subset ]] || exit 1
+          [[ "$EXPECT_REPORT" == true || "$EXPECT_REPORT" == false ]] || exit 1
+          [[ "$EXPLORER" == true || "$EXPLORER" == false ]] || exit 1
+          if [[ "$EXPECT_LIBRARY" == true ]]; then
+            [[ "$LIBRARY" == success ]] || exit 1
+          elif [[ "$EXPECT_LIBRARY" == false ]]; then
+            [[ "$LIBRARY" == skipped && "$EXPECT_REPORT" == false && "$EXPLORER" == false ]] || exit 1
+            echo 'Comparator library/report inputs unaffected; no fresh certification produced.'
+          else
+            exit 1
           fi
+          if [[ "$COUNT" != 0 ]]; then
+            [[ "$SHARDS" == success ]] || exit 1
+          else
+            [[ "$SHARDS" == skipped ]] || exit 1
+          fi
+          [[ "$EXPLORER" != true || "$EXPECT_REPORT" == true ]] || exit 1
+          [[ "$MODE" != full || ( "$EXPECT_LIBRARY" == true && "$EXPECT_REPORT" == true && "$SHARDS" == success ) ]] || exit 1

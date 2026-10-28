@@ -56,7 +56,7 @@ Three checks run in CI (`.github/workflows/ci.yml`):
    core alike; NanoDa checks the whole export. Nothing a `TruthCore`
    declaration depends on is trusted without being checked. The script
    rejects any exporter diagnostic, because a Lean panic (for example on an
-   unparsable name) prints and continues. Every push to `main`, the nightly
+   unparsable name) prints and continues. Every formal/corpus change on `main`, the nightly
    run and any manual run check every `TruthCore` declaration. A pull request
    checks only the declarations of the modules whose build output its diff can
    affect: each changed module and every module that imports one transitively
@@ -89,10 +89,33 @@ Comparator (check 1) runs on a PR only for the results the diff can affect
 (`scripts/affected_results.py select`): those whose own records changed, or
 whose Challenge or Solution module, or any `TruthCore` module either imports
 transitively, changed. A change to the toolchain, the Lake files, the verifier
-scripts or pins, `verifier/`, `scripts/corpus.py` (which carries the axiom
-check) or a workflow selects every result. Every push to `main`, a nightly
+scripts or pins, `verifier/`, any tooling script or a workflow selects every
+result, as does an unknown input or an unavailable exact diff. Every formal/corpus change on `main`, a nightly
 scheduled run and any manual run verify every result, split across parallel
 shards (`scripts/verify-all.sh --shard INDEX/COUNT`).
+
+The existing `comparator-plan` computes all heavyweight decisions from the
+checked-out PR merge commit against its first parent, or a `main` push against
+its previous tip (#568). Nightly and manual runs always request full coverage.
+The Actions summary records the reason and each run/bypass decision.
+
+For recognized prose-only changes (`docs/**/*.md` and root `AGENTS.md`,
+`CLAUDE.md`, `README.md`, `CONTEXT.md`), `corpus-and-lean` retains import/doc
+index checks, corpus validation, offline tests and the frontier report. It
+bypasses Lean setup/build, binding and source verification/materialization;
+the explorer and Comparator library jobs are skipped. A skip records unaffected
+inputs, not a new proof certification. Other Markdown paths are not automatically
+prose: an unclassified path takes the full safety path.
+
+Leaf Lean edits retain incremental builds, binding, affected result verification
+and scoped NanoDa. Corpus/source JSON edits retain binding, source integrity and
+materialization. Both retain explorer unit tests, which read corpus data, index
+the real Lean declarations and compare frontier output. Explorer code
+edits retain unit tests and both browser variants, with a freshly verified
+configuration report from this workflow; report artifacts are never reused from
+another head. The stable `comparator` aggregate rejects failed/cancelled work,
+missing planner output, and unexpected skips of selected verifiers or the report
+producer. Cache keys and the once-per-pin NanoDa marker keep their existing meaning.
 
 ## Toolchain pin and rebuilding the verifier
 

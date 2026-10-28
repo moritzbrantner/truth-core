@@ -8,6 +8,7 @@ import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.FiniteBranching
+import TruthCore.Causality.FiniteNecessaryUnion
 import TruthCore.Causality.FiniteRestriction
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
@@ -23,4 +24,5 @@ import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalEventControls
+import TruthCore.Causality.UniqueFeedback
 import TruthCore.Causality.WorldSourceRegress

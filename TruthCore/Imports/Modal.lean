@@ -6,6 +6,7 @@ import TruthCore.Modal.BResearch
 import TruthCore.Modal.BoundedMetricPastControl
 import TruthCore.Modal.Convergence
 import TruthCore.Modal.ConvergenceCertificate
+import TruthCore.Modal.CounterpartNecessity
 import TruthCore.Modal.Cube
 import TruthCore.Modal.DResearch.Language
 import TruthCore.Modal.DResearch.Laws
@@ -16,6 +17,7 @@ import TruthCore.Modal.ExistenceDegreeAttainment
 import TruthCore.Modal.ExistenceDegrees
 import TruthCore.Modal.GraphBridge
 import TruthCore.Modal.GraphBridgeCertificate
+import TruthCore.Modal.HistoryContrastive
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
 import TruthCore.Modal.NecessaryContingentActivity
@@ -25,6 +27,7 @@ import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research
 import TruthCore.Modal.S5Research
+import TruthCore.Modal.SelectedEffectBridge
 import TruthCore.Modal.StandardCorrespondenceCertificate
 import TruthCore.Modal.TResearch
 import TruthCore.Modal.TemporalHistory
