@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-JUSTIFICATION-INTROSPECTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-JUSTIFICATION-INTROSPECTION-BOUNDARY",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing axiom4_valid theorem with a separately supplied global knowledge/justification condition; construct a reflexive nontransitive finite countermodel. The frame condition and norm are antecedents within the universally quantified theorem, not established philosophical premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+  "term": "first-order justification and the global knowledge/justification norm",
+  "definition": "KnowledgeRequiresJustification F p justified says for every model world w, Knows F p w implies justified w for the fixed proposition p. The supplied justified predicate records justification of p, not knowledge that p is justified. Knows F justified w is the latter higher-order condition. No path, truth predicate or certainty predicate defines justification.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.JustificationIntrospection.KnowledgeRequiresJustification",
+  "note": "The norm is explicit and global because the transfer applies it at epistemic alternatives. Actual justification and truth of this norm remain unestablished. Different first-order theories could supply the predicate; the proof does not select one."
+}
