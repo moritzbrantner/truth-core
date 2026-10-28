@@ -15,6 +15,13 @@ For a substantial frontier investigation (not a single source reading), the brie
 
 The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
 
+The coordinator runs `python3 scripts/worker_env.py --check` once for the
+selected toolchain/cache setup and supplies that setup to workers. Workers use
+`python3 scripts/worker_env.py -- <command> <args...>` without repeating the
+preflight unless the setup changes. Keep machine-specific verifier paths in
+repository-local Git configuration or the explicit environment, not in briefs
+that workers must reconstruct or in committed source.
+
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
 ## Concise reporting and persistence
