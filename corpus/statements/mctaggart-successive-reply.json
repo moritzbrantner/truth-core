@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MCTAGGART-SUCCESSIVE-REPLY",
+  "paraphrase": "McTaggart considers the reply that past, present and future are incompatible only simultaneously: the event is present, has been future and will be past, rather than possessing the three determinations simultaneously.",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}
