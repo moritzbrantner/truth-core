@@ -90,6 +90,35 @@ bodies, their exact hypotheses and their result gates remain the evidence.
 | Current metaphysical consumers | [ExistenceDegrees](../TruthCore/Modal/ExistenceDegrees.lean), [ExistenceDegreeAttainment](../TruthCore/Modal/ExistenceDegreeAttainment.lean), [NecessaryVariableEffects](../TruthCore/Modal/NecessaryVariableEffects.lean), [PowerExistenceBoundary](../TruthCore/Causality/PowerExistenceBoundary.lean) reuse the shared frame/Ontic semantics while retaining distinct degree, activity, power and existential-support predicates. | Conditional consequences do not validate those metaphysical bridges or identify the relations. No root premise closes through a change of notation. |
 | Graph interoperability | [GraphBridge](../TruthCore/Modal/GraphBridge.lean) supplies explicit directed Digraph/Quiver adapters; its [proofs](../TruthCore/Results/Modal/GraphBridge/Solution.lean) cover round trips, reachability/closure, S4 access agreement, K4 boxed persistence and K45 successor cones. [Certificate](../TruthCore/Modal/GraphBridgeCertificate.lean) and its canonical result retain all original helper signatures as comparison targets. | Edges keep direction and self-loops; no global Quiver instance is installed on a world type. A Unit dead-end control separates nil paths from edges and demonstrates that replacing access by closure changes boxed truth. These adapters do not identify accessibility with causation or establish world identity. |
 
+## Standard-system inventory and bounded T/D extension
+
+The shared interface remains `Frame`, `Formula`, `Holds` and `Valid` in
+`Modal.Kripke`. Its `axiomK_valid`, `axiomT_valid`, `axiomD_valid`,
+`axiomB_valid`, `axiom4_valid` and `axiom5_valid` prove forward validity.
+`Modal.Cube` already records fifteen frame profiles, `kt_implies_kd`, and
+`s5_implies_s4`, `s5_implies_ktb`, `s5_implies_kb5`, `s5_implies_kd45`.
+`Results.Modal.Convergence` supplies the generic exact-path correspondence
+and named 4/B/5 instances. These existing results are reused, not re-proved.
+
+The bounded extension in
+[StandardCorrespondence](../TruthCore/Results/Modal/StandardCorrespondence/Solution.lean)
+adds only `t_iff_reflexive` and `d_iff_serial`. Each uses the single atom `()`
+but validity still quantifies over **every** valuation and world. The T converse
+selects the valuation `P(v) = access(w,v)` for each chosen w; its boxed premise
+holds by identity and its conclusion yields `access(w,w)`. The D converse
+uses the constant-true valuation, so its diamond witness supplies a successor.
+The reverse directions reuse `axiomT_valid` and `axiomD_valid`. No inhabitedness,
+excluded middle, or frame restriction is an input; with an empty world type,
+validity and the corresponding universal frame conditions hold vacuously.
+
+Here symmetry corresponds to the **B axiom**, or the cube node `KB`.
+The standard system B includes T as well (`KTB` in this repository); symmetry
+alone is not that standard system. Reflexivity makes a necessary proposition
+true at the standpoint; seriality only supplies a successor. Neither condition
+is a statement about world-local causes, concrete existence or temporal past.
+This fills the named T/D correspondence gap without constructing a Hilbert
+calculus, claiming completeness, or discharging any philosophical premise.
+
 ## Prioritized next uses
 
 1. Consume the graph adapter and exact-path correspondence in
