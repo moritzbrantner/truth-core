@@ -10,8 +10,16 @@ theorem certificate : Certificate := by
   refine ⟨by decide, by unfold popularWin; decide, by unfold districtWin; decide,
     by decide, by unfold districtWin; decide, ?_, ?_⟩
   · intro p h
-    simp [popularWin, districtWin, popularCount, localCount, count, h]
+    have hp : p = (fun _ _ => true) := by
+      funext d v
+      exact h d v
+    rw [hp]
+    exact ⟨by unfold popularWin; decide, by unfold districtWin; decide⟩
   · intro p h
-    simp [popularWin, districtWin, popularCount, localCount, count, h]
+    have hp : p = (fun _ _ => false) := by
+      funext d v
+      exact h d v
+    rw [hp]
+    exact ⟨by unfold popularWin; decide, by unfold districtWin; decide⟩
 
 end TruthCore.Results.Politics.DistrictMajority

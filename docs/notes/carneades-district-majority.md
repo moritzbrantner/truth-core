@@ -93,3 +93,15 @@ discharged. The new statement is outside every Catholicism root route. The
 statement dossier was inspected after creation; source readings remain empty.
 The mathematical fixture is new work; the provisional caption reading is
 orientation only. No philosophical proposition is created merely to log activity.
+
+## Comparator repair boundary
+
+Initial PR #643 head `693cab84` passed corpus/build and library checks, but the
+result Comparator rejected a private `Nat.add_le_add_left.match_1_1` type in the
+`simp`-generated unanimity proof. The repair rewrites each unanimous function to
+the corresponding constant profile using extensionality and computes the finite
+result with `decide`. It does not modify the frozen Challenge or certificate.
+Shared-session preview at HEAD `f2db33e8273b214f158d63e2e3a17094ba181735`,
+content SHA256 `af1c5e73da24eb3fef3213ea81d352ae37b206be4887875e1fc15548b41500e7`,
+returned no Lean diagnostics. Final Comparator certification remains distinct
+from this interactive result; see PR checks for the delivered head.
