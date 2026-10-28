@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
+  "argument_id": "MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
+  "challenge_module": "TruthCore.Results.Modal.ExistenceDegreeAttainment.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution",
+  "theorem": "TruthCore.Results.Modal.ExistenceDegreeAttainment.attainmentIff",
+  "comparator_config": "results/MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY/comparator.json",
+  "status": "solution-present",
+  "description": "Under a shared Preorder, necessary presence of selected rigid n, pointwise possible causation of each existing other, the weak current-world cause-degree bound and explicit excluded middle give local dominance: intensity(v,y) \u2264 intensity(v,n) for every existing y at each root-accessible v. If any existing pair x@v globally dominates all existing pairs, necessary presence makes each n@u an admissible comparison; transitivity through x@v \u2264 n@v shows n@v is greatest in the selected degree image. Conversely a greatest member of that image is attained as n@v; necessary presence supplies its existence, and local dominance followed by the family bound dominates every existing pair. No actual-reflexivity, invariance or nonempty-family premise is required. With empty accessibility both attainment predicates are false. This equivalence transfers the attainment question to n own world-degree family without settling it; it is neither a proof of a maximum nor a defense of any input. The conclusion is weaker than n being globally maximal at every accessible world and does not assert actual-world presence, value, uniqueness or actual causal exercise. The comparison removes two hypotheses from the earlier stronger-conclusion route; it does not claim the same conclusion from fewer premises. Root-premise delta none. The frozen Challenge and solution bind the same four explicit premises; the Comparator configuration permits only the approved Mathlib three axioms. Final certification is supplied by the coordinator gates, not the discovery service diagnostics."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+  "term": "selected rigid individual as a pointwise possible cause of each existing other",
+  "definition": "OtherDirectedPotentialCause m w0 n states that for each root-accessible v and each y present at v with y ≠ n, PossibleCauseAt m v n y holds. The possibility witness may vary with v and y. It chooses a single rigid n, excludes self as target, and does not assert a joint world in which n causes all targets at once. Necessary presence of n is a separate proposition.",
+  "basis": "stipulative",
+  "note": "Explicit unattributed analyst specialization motivated by source6. The post permits a necessary being or plurality and literally refers to all existing things. No singular witness is inferred from the plural alternative, no self-target is silently removed from an attributed proposition, and pointwise possible causation is not identified with collective causal possibility. Those unformalized alternatives remain in the existing Koons comparison candidate.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.OtherDirectedPotentialCause"
+}

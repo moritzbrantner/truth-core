@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022",
+    "source_url": "https://robkoons.net/4/feed",
+    "retrieved_at": "2026-10-28T09:38:53Z",
+    "sha256": "sha256:61854f98b4887ae9c5cbdea88f9fd1a83a4f1a318a0412dc6e058629ee1d9047",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Author-published RSS feed; no explicit reuse license observed. Copyright remains with the author. Only hashes, locators and a short XML incipit are committed. Four normal source-tool fetches were byte-identical. No fixed archive fallback could be verified: HTTPS Wayback CDX/availability/capture requests reset, HTTP availability returned 403, and Arquivo.pt found no capture. This snapshot is therefore fragile against future author-feed updates; do not normalize volatile HTML nonce bytes or silently replace these hashes."
+  },
+  "passages": [
+    {
+      "id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM",
+      "locator": "A Further Reconstruction of the Fourth Way (2022-01-23), numbered steps 1–13 and closing remarks; author RSS item pubDate Sun, 23 Jan 2022 22:09:24 GMT, GUID/canonical link http://robkoons.net/old-blog-2021-22/a-further-reconstruction-of-the-fourth-way; full content:encoded in the byte-pinned feed",
+      "claim_locator_prefixes": [
+        "A Further Reconstruction of the Fourth Way (2022-01-23)"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:61854f98b4887ae9c5cbdea88f9fd1a83a4f1a318a0412dc6e058629ee1d9047",
+      "incipit": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+    }
+  ]
+}

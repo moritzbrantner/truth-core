@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "argument_id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "challenge_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution",
+  "theorem": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.unboundedWorldControl",
+  "comparator_config": "results/MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Closed zero-axiom joint control constructed from the explicit infinite interpretation. One fixed interpretation has natural-number modal world labels, three rigid candidate individuals and the same two necessarily present source/effect individuals with a sound distinct source-to-effect edge at every world. Each existing individual has intensity k at world label k. Universal accessibility, actual reflexivity, actual source presence, selected-source necessity, sound distinct causation, other-directed possible universal causation and the current-world weak degree bound hold jointly. Both bare and actual-guarded source-degree invariance fail, and no existing accessible-world pair attains a global degree maximum: a candidate at v is exceeded by the existing source at v+1. The Nat labels are alternatives, not times or counts of worlds; existence remains independent of intensity and absent candidates are guarded out. This is a concrete satisfiability/control certificate, not metaphysical possibility, a value/existence bridge, or a refutation of the entire Koons first block. No infinite interpretation is registered as a finite model and no root premise is discharged."
+}

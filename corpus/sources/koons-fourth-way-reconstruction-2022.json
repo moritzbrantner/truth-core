@@ -1,0 +1,10 @@
+{
+  "id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022",
+  "kind": "primary_text",
+  "author": "Robert C. Koons",
+  "work": "A Further Reconstruction of the Fourth Way (2022-01-23)",
+  "citation_system": "canonical blog-post title/date and numbered steps, with closing methodological remarks",
+  "work_urn": "https://robkoons.net/old-blog-2021-22/a-further-reconstruction-of-the-fourth-way",
+  "catalog_url": "https://robkoons.net/old-blog-2021-22/a-further-reconstruction-of-the-fourth-way",
+  "notes": "Primary author post. The canonical HTML is readable but carries per-request Cloudflare nonce bytes. The consulted pinned witness is the author-linked /4/feed RSS item, identified by its title, publication date, GUID/canonical post link and full content:encoded. Existing web_snapshot/raw_text materialization preserves the feed XML verbatim; local CDATA decoding for research reading does not replace the witness. No attributed claim or Lean formalization is added by this source record."
+}

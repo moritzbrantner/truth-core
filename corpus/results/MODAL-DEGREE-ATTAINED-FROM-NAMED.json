@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-DEGREE-ATTAINED-FROM-NAMED",
+  "argument_id": "MODAL-DEGREE-ATTAINED-FROM-NAMED",
+  "challenge_module": "TruthCore.Results.Modal.ExistenceDegrees.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ExistenceDegrees.Solution",
+  "theorem": "TruthCore.Results.Modal.ExistenceDegrees.attainedFromNamed",
+  "comparator_config": "results/MODAL-DEGREE-ATTAINED-FROM-NAMED/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription by instantiating the named maximum at the actual accessible world and introducing that pair as a witness. Structural witness selection from the named-individual conclusion, not a second philosophical derivation. Actual reflexivity selects the standpoint as an accessible world, and the named conclusion supplies n's presence there and its bound on every existing accessible-world pair. This constructs a witness of possible global attainment. Possible attainment is strictly weaker in the tested controls than n attaining a global bound at every accessible world; it is not a value bridge or a formalization of source steps1\u20135 as a whole. No independent premise defense or root-premise change is claimed. Focused axiom inspection reports no Lean axioms; excluded middle remains an explicit input of the main derivation and guarded adapter. The Comparator profile allows the approved Mathlib three only."
+}

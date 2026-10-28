@@ -9,6 +9,10 @@ import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution
 import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+import TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution
+import TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution
+import TruthCore.Results.Modal.ExistenceDegrees.Solution
+import TruthCore.Results.Modal.ExistenceDegreesActual.Solution
 import TruthCore.Results.Modal.K.Countermodels.Solution
 import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution

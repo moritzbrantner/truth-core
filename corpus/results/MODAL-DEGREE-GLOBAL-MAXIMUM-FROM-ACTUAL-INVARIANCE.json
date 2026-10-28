@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "argument_id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "challenge_module": "TruthCore.Results.Modal.ExistenceDegreesActual.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ExistenceDegreesActual.Solution",
+  "theorem": "TruthCore.Results.Modal.ExistenceDegreesActual.globalMaximumFromActualInvariant",
+  "comparator_config": "results/MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Transcription by assembly of the actual-presence guard and the already proved analyst-profile theorem; this is a source-fidelity adapter, not independent philosophical evidence. Source-fidelity specialization of MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM, not a second philosophical discovery. Bare NecessaryAt need not imply presence at a nonreflexive standpoint, so the source11 reading keeps actual presence inside its invariant-degree antecedent. Under the explicit ActualReflexive hypothesis, any NecessaryAt witness supplies that actual presence. Apply the guarded conditional to this pair, obtain the analyst invariant conditional needed by the already proved main theorem, and compose that theorem unchanged. The selected-individual other-directed pointwise source6 specialization, current-world weak degree bound, rigid identity, shared preorder, root-accessible scope and explicit excluded middle remain the same. This fixes an attribution boundary without weakening the original frozen Challenge or asserting that source11 applies to an arbitrary absent individual. No step5 possible-maximum premise, step4 value bridge, actual causal exercise, causal sufficiency, uniqueness, God or unrestricted all-world scope is inferred. All philosophical premises remain open; root-premise delta is none. Focused axiom inspection reports no Lean axioms; excluded middle remains an explicit input of the main derivation and guarded adapter. The Comparator profile allows the approved Mathlib three only."
+}

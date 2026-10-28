@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-KOONS-FOURTH-WAY-2022-PRIMARY-READING",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Bounded primary-author witness search for issue #345 following the degree fork/core investigation. The canonical 2022-01-23 post is readable now, but normal source-tool fetches have different HTML byte hashes because of per-request Cloudflare r/t script parameters. Extracted post text is stable; rejected stripping/normalizing those nonce bytes or pinning an inevitably drifting HTML response. Found the actual author-advertised /4/feed RSS anchor after a blank rel=alternate link. Four normal source-tool fetches of https://robkoons.net/4/feed were byte-identical; pinned the verbatim UTF-8 XML using the existing web_snapshot/raw_text variant, without adding any extractor or source kind. Materialized KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM, then read the complete uniquely identified content:encoded item, all thirteen numbered steps and both closing paragraphs. The truncated description and search snippets were not the witness. Canonical human citation, feed URL/hash, exact item title/date/GUID and access failures are preserved in the source/passage records and docs/notes/koons-fourth-way-reconstruction-2022-reading.md. The returned interpretation distinguishes possible-maximum and imported modal/causal blocks from the existing strict nonmodal profile; no attributed claim, Lean formalization, root-premise substitution or unconditional branch elimination is added. The issue paraphrase is not accepted as source evidence. Failed Wayback/CDX/availability probes and zero Arquivo.pt capture results are documented; no fixed capture is invented. The primary feed avoids the observed HTML volatility but remains fragile against future updates without a fixed archive fallback. A bibliographic_span is neither needed nor created. One coherent comparison candidate retains the next semantic question. Source integrity does not settle source fidelity or formal consequence; actual root-premise delta is none. Validation at source checkpoint 7aba445b78225b151b33ed4d584517cdc589a7d8: source_evidence.py check and corpus.py check passed; normal source_evidence.py verify --base HEAD^ --head HEAD refetched and verified exactly the one newly pinned RSS passage (61854f98b488), with all other passages checked offline only. Source text was not taken from a cached search rendering.",
+  "evidence": []
+}
