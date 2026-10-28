@@ -1,0 +1,15 @@
+{
+  "id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "inference_ids": [
+    "INF-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "meaning": "A constructive image-predicate factorization characterizes exact data-relative classification, with an explicit two-state obstruction and a discriminating-data control. This is an analytical constraint on representations, not a proof of Wittgenstein’s private-language conclusion or an identity between truth and use.",
+  "definition_ids": [
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+  ]
+}

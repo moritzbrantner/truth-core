@@ -1,0 +1,12 @@
+{
+  "id": "ATTEMPT-KRIPKE-RIGID-DESIGNATION-WITNESS",
+  "statement_ids": [
+    "STMT-MODAL-RIGID-DESIGNATION"
+  ],
+  "date": "2026-10-28",
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Located publisher DOI 10.1093/acprof:oso/9780199730155.003.0001 and primary university scans https://home.sandiego.edu/~baber/metaphysics/readings/Kripke.IdentityAndNecessity.pdf and https://www.uh.edu/~garson/NamingandNecessity.pdf. source_evidence.py web-hashes with pdf-pages 1:8 for the former and 18:20 for the latter rejected empty extracted text (image-only pages). No primary passage was materialized or read, so no source attribution is made. Rejected using search snippets, the publisher abstract or secondary summaries as substitutes. The formal result remains a stipulative partial-name profile.",
+  "blocker": "Readable legitimately hosted primary text or direct edition reading with precise locators, respecting the existing source-kind and witness rules.",
+  "evidence": []
+}

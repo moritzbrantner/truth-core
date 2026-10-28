@@ -1,0 +1,10 @@
+{
+  "id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "argument_id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "challenge_module": "TruthCore.Results.Logic.CorrectionCriterion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CorrectionCriterion.Solution",
+  "theorem": "TruthCore.Results.Logic.CorrectionCriterion.characterization",
+  "comparator_config": "results/CORRECTION-CRITERION-EXACT-FACTORIZATION/comparator.json",
+  "status": "solution-present",
+  "description": "Constructive exact-classification equivalence and concrete nonconstant controls. No philosophical criterion, source fidelity or root premise is established."
+}

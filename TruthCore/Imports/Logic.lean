@@ -2,6 +2,7 @@
 import TruthCore.Logic.CogitoConcrete
 import TruthCore.Logic.CogitoSubject
 import TruthCore.Logic.Configuration
+import TruthCore.Logic.CorrectionCriterion
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.JustificationIntrospection
 import TruthCore.Logic.KnowledgeRetorsion
@@ -13,6 +14,7 @@ import TruthCore.Logic.RegressDomains
 import TruthCore.Logic.Relativism
 import TruthCore.Logic.Scientism
 import TruthCore.Logic.SelfApplication
+import TruthCore.Logic.SoritesBoundary
 import TruthCore.Logic.ThoughtChangeSubject
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
