@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-PRIORITY-MONISM-FRAMEWORK",
+  "statement_ids": [
+    "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
+    "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
+    "STMT-SCHAFFER-TILING-JUSTIFICATION",
+    "STMT-SCHAFFER-BASIC-COMPOSITE-WHOLE",
+    "STMT-SCHAFFER-DERIVATIVE-ORDER-OPEN",
+    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read Schaffer §§1.1–1.4 pp.33–44 from the author-hosted published PDF, with byte-identical 2013 archive fallback. Five prose readings preserve restricted material scope, openly assumed well-founded priority, proposed tiling justifications, positive composite-whole dependence account and openness of derivative ordering. Exact existing theorem types inspected: WorldSourceRegress.sourcePath_of_acc, SourceForest.atMostOne_of_confluent/rooted_of_confluent and PowerExistenceBoundary.powerExistenceBoundary; none is treated as a sourced model of Schaffer or a causal/grounding identity. New redundant fusion-direction proof rejected because the parallel #328 investigation supplies the mereological separation and these generic certificates already expose structural burdens. The p.44 reversal of Bu labels in the exhaustiveness paragraph is recorded as an interpretation judgment resolved by pp.42–43, not silently formalized as source inconsistency. Shared-question answer map, strongest rivals and scope/open explanatory obligations are in docs/notes/priority-monism-framework.md. No new proof/result/closed premise.",
+  "evidence": [
+    "SCHAFFER-11-MATERIAL-SCOPE",
+    "SCHAFFER-12-PRIORITY-FOUNDATIONALISM",
+    "SCHAFFER-13-TILING-JUSTIFICATION",
+    "SCHAFFER-14-BASIC-WHOLE",
+    "SCHAFFER-14-DERIVATIVE-ORDER",
+    "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE"
+  ],
+  "blocker": "The bounded reading does not independently defend well-foundedness, tiling, the privileged priority relation, material closure, cosmic necessity or intrinsic explanatory adequacy. Schaffer’s later physical/gunk arguments and Markosian brutal composition remain separate unread tasks; #331 is not closed."
+}
