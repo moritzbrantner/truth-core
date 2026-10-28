@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNTERPART-NECESSITY",
+  "term": "CounterpartNecessaryAt in issue #470",
+  "definition": "Existing source bearer x has, at each accessible v, an existing y linked by the four-place relation c w x v y. This does not imply x=y.",
+  "basis": "stipulative",
+  "note": "Issue-local model semantics, not historical attribution; philosophical adequacy would require separate source investigation. Relation is an independent four-place World \u2192 Being \u2192 World \u2192 Being \u2192 Prop parameter.",
+  "lean_declaration": "TruthCore.Modal.CounterpartNecessity.CounterpartNecessaryAt"
+}
