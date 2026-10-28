@@ -84,3 +84,9 @@ this result and are interpreted as false in this witness.
 The later issues are argument branches, not automatic verdicts on every variant.
 They should import this shared vocabulary, reuse statement IDs only when their
 meanings coincide, and source any additional premises before claiming a refutation.
+
+For a positive alternative to a real common constituent, see the
+[Ockham common-predication comparison](notes/nominalist-universals.md).
+It distinguishes naturally common mental signs, conventional words and retained
+particular forms; it does not treat every use of “form” as a separate exemplar
+or infer a global verdict on realism from the word “universal.”

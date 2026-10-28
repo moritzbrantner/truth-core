@@ -1,0 +1,11 @@
+{
+  "id": "DEF-UNIVERSAL-MENTAL-SIGN",
+  "term": "universal",
+  "definition": "An intention of the soul apt naturally to signify and be predicated for many things, not for itself in that predication. Its universal role is semantic; it remains numerically one. Aptness is not actual instantiation by many or a proved account of acquisition and reliability.",
+  "basis": "sourced",
+  "claim_ids": [
+    "OCKHAM-SL-I14-SINGULAR-SIGN",
+    "OCKHAM-SL-I14-NATURAL-CONVENTIONAL",
+    "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE"
+  ]
+}
