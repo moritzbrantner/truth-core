@@ -10,33 +10,71 @@ no root route and discharges no philosophical premise.
 
 Consulted Pierre Duhem, *La Théorie physique. Son objet et sa structure*,
 Paris: Chevalier & Rivière, 1906, seconde partie, chapitre VI, printed
-pp.295–359. `DUHEM-THEORIE-PHYSIQUE-VI` pins Wikisource revision 11940991:
+pp.295–359. The current `DUHEM-THEORIE-PHYSIQUE-VI` witness is the named
+Internet Archive book OCR file for item `lathoriephysiq00duhe`, digitized
+with University of Toronto funding:
+
+<https://archive.org/download/lathoriephysiq00duhe/lathoriephysiq00duhe_djvu.txt>.
+
+Repeated actual downloads matched 870300 raw bytes, SHA256
+`247603c96f66cc608e71720a334265719b01f0ffdd24574057d24f10e72f1125`,
+and raw-text-adapter text SHA256
+`37d38ce455aac03cd238e01355849f6c5935ed31b94fd50343b8f25c8f70ec93`.
+The archive metadata identifies the 1906 Paris Chevalier & Rivière edition,
+University of Toronto contribution/funding, and this named DjVuTXT derivative
+with modification time `1697613359`. Its title page independently gives
+Paris, Chevalier & Rivière, 1906. The full archival text file is selected
+through the existing `web_snapshot` raw-text variant, without HTML rendering
+or a new source kind. It can still become unavailable or be replaced, which
+must fail the byte/text checks; no claim of infallible hosting is made.
+
+The bounded readings concern §§I–III, pp.295–312, and §X, pp.356–359.
+After the witness upgrade below, those passages and surrounding discussion
+were reread in the actual materialized French OCR, including the instrument,
+application/test, bundle error, exhaustive-alternative and good-sense arguments.
+This is not an assertion that the complete book or intervening detailed
+Newtonian/electrodynamic arguments have been exhaustively processed. The OCR
+retains page headers, hyphenation and transcription errors; none is silently
+corrected in the pinned data or treated as verified philosophical content.
+No English translation is used, and no full source text is committed.
+
+### Preserved first-witness failure and repair
+
+The first consulted witness was Wikisource revision 11940991:
 
 <https://fr.wikisource.org/w/index.php?title=La_Th%C3%A9orie_physique/SECONDE_PARTIE/Chapitre_VI&oldid=11940991>.
 
-Two actual fetches matched raw SHA256
+Its repeated local fetches and materialization matched raw SHA256
 `5a50d085adb9d0a7d643c444e2b410fa716c62769265a60a983d56971e7ac827`
 and normalized chapter text SHA256
 `47b975f671592ae856ebb7931abde33feb90b05cdeb0ec3fdcdd4af4190d6c19`.
-The full chapter is materialized for context; the bounded source readings
-concern §§I–III, pp.295–312, and §X, pp.356–359. These selected sections and
-immediate context were read in the verified French. The intervening detailed
-Newtonian/electrodynamic arguments are not claimed as exhaustively processed
-or as independent results of this batch. No English translation is relied on.
-Only locators, hashes, short incipit and paraphrases are committed.
+PR672 head `aa8be17e68579acc3d1c3f4f69c9dcee755ab687`, CI run
+`40764803650`, job `123086363759`, failed immutable-witness verification
+at `2026-10-28T20:41:41Z`: CI received raw SHA256
+`8096e1966060bf3607cc187838858971ad5cc9bc402234dd49076969bd10b964`.
+Fresh local fetch still returned the original raw/text pair. The failure is
+therefore at the rendered-response byte boundary; the CI body was not retained
+here, so no unperformed byte-level diff or equality of its extracted text is
+claimed. A revision URL also transcludes page contents and does not freeze
+every component of the rendered response. Replacing the expected raw hash
+blindly would not establish faithful or reproducible source evidence.
 
-A revision URL still transcludes scanned-page transcriptions; its immutable
-revision identifier does not by itself freeze every embedded page. The byte
-and text hashes identify the actual consulted response, and later drift must
-fail. A bounded CDX query for the chapter's canonical URL returned an empty
-list; a save request returned HTTP 523. No verified archive fallback is claimed.
-The snapshot therefore remains availability-fragile. One sentence in the
-transcribed Foucault vignette in §III repeats *ondulations* across opposite
-experimental outcomes. No physical sign inference or claim about the correct
-historical light theory relies on that sentence: the ensuing bundle and
-exhaustiveness argument is the consulted claim context. This transcription
-concern is preserved rather than silently repaired or made into a contradiction
-in Duhem's theory.
+The repair retains the same source and passage identity and all five source
+claims, but upgrades the witness to the archived 1906 book text above. Its
+actual passages were reread before the new hashes were recorded. No extractor,
+verifier, theorem, proof, Challenge or source interpretation was weakened or
+changed. A bounded CDX query for the original chapter returned an empty list;
+a save request returned HTTP523. A new CDX query for the archive text returned
+HTTP403, and a save request for that text returned HTTP523. No verified
+Wayback fallback is claimed.
+
+Both the initial transcription and the archived OCR repeat *ondulations*
+across opposite outcomes in one Foucault-vignette sentence (§III, p.310).
+This batch neither relies on that physical sign inference nor asserts an
+uninspected facsimile correction. The later explicit ensemble/exhaustiveness
+argument supports the recorded readings independently of that sentence. The
+concern is preserved rather than repaired silently or used as a contradiction
+in Duhem's philosophical theory.
 
 ## Argument and source scope
 
