@@ -108,8 +108,9 @@ inputs, not a new proof certification. Other Markdown paths are not automaticall
 prose: an unclassified path takes the full safety path.
 
 Leaf Lean edits retain incremental builds, binding, affected result verification
-and scoped NanoDa. Corpus/source JSON edits retain binding, source integrity,
-materialization and explorer unit tests that read corpus data. Explorer code
+and scoped NanoDa. Corpus/source JSON edits retain binding, source integrity and
+materialization. Both retain explorer unit tests, which read corpus data, index
+the real Lean declarations and compare frontier output. Explorer code
 edits retain unit tests and both browser variants, with a freshly verified
 configuration report from this workflow; report artifacts are never reused from
 another head. The stable `comparator` aggregate rejects failed/cancelled work,

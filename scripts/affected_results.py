@@ -193,7 +193,8 @@ def needs_full_run(changed: Iterable[str]) -> list[str]:
 def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False) -> dict:
     """One exact-diff plan for existing jobs; None means unavailable base or full request.
 
-    Corpus edits retain binding, source work and data-reading explorer unit tests.
+    Corpus edits retain binding and source work. Explorer unit tests read both
+    corpus data and Lean source (site-state.test.ts indexes advertised declarations).
     Browser selection reuses the existing code-input classification. Report production
     remains live for every non-prose input; no absent report certifies a build.
     """
@@ -207,7 +208,7 @@ def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False
     lean = full or formal
     source = full or "corpus" in kinds
     browser = bool(safety) or bool(explorer_inputs_changed(changed or []))
-    explorer = browser or "corpus" in kinds
+    explorer = browser or formal
     report = lean or browser
     reason = ", ".join(safety) if safety else (
         "main formal/corpus change: exhaustive verification" if full else ", ".join(changed or []) or "empty exact diff"

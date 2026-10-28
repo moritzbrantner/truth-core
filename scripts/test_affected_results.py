@@ -257,9 +257,9 @@ class ImpactPlanTest(unittest.TestCase):
             with self.subTest(path=path):
                 plan = self.plan(path)
                 self.assertEqual(plan["selected"], ["RESULT-A"])
-                for key in ("lean", "library_changed", "comparator_library", "report"):
+                for key in ("lean", "library_changed", "comparator_library", "report", "explorer_tests"):
                     self.assertTrue(plan["checks"][key])
-                for key in ("source", "explorer_tests", "explorer", "full"):
+                for key in ("source", "explorer", "full"):
                     self.assertFalse(plan["checks"][key])
         self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
 
