@@ -1,0 +1,32 @@
+{
+  "id": "STMT-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "lean_declaration": "TruthCore.Causality.UnderivedEssenceEsse.ExtendedControls",
+  "paraphrase": "Fixed populated controls jointly separate modal necessity, direct existential support and q3 essence–esse identity. They include a necessary but actually caused bearer with distinct essence/esse; named-target actuality and support-map omissions; and an acyclic three-being model where direct typed esse correspondence holds but mapping all ordinary causal edges to R fails.",
+  "definition_ids": [
+    "DEF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+    "DEF-UNDERIVED-ESSENCE-IDENTITY",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}

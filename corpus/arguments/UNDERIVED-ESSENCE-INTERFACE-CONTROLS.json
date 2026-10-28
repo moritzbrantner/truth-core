@@ -1,0 +1,36 @@
+{
+  "id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "inference_ids": [
+    "INF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS"
+  ],
+  "meaning": "Check the fixed joint and omission interpretations in ExtendedControls. The direct three-being model satisfies the q3 premises and the direct esse-cause interface while rejecting the all-ordinary-causes interface, with both relations well-founded and all endpoints actual. Existing varying Ontic data are reused rather than replacing necessity or underivedness with flags. No metaphysical possibility or inclusion-minimality of the ten-premise theorem is claimed.",
+  "definition_ids": [
+    "DEF-UNDERIVED-ESSENCE-IDENTITY",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}
