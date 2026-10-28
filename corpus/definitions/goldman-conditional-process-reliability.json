@@ -1,0 +1,11 @@
+{
+  "id": "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+  "term": "fallible process-type reliability and conditional reliability",
+  "basis": "sourced",
+  "definition": "Reliability is the truth-conducive tendency of a cognitive process-type; conditional reliability evaluates output truth given true belief-inputs. Neither requires that every token output be true. The recursive justification clause additionally requires justified input beliefs, and the paper leaves the threshold, relevant type generality, extent and frequency/propensity reading incompletely specified.",
+  "claim_ids": [
+    "GOLDMAN-1979-FALLIBLE-RELIABILITY",
+    "GOLDMAN-1979-RECURSIVE-ANCESTRY"
+  ],
+  "note": "No statistical estimate, empirical process assessment or probability of a philosophical theory is supplied. Reliability is not identical to behavioral success or truth of one belief."
+}
