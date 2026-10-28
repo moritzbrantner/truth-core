@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PROCESS-CARRIER-MATERIAL-STAGE",
+  "term": "same process, same stage and same constituents",
+  "sense_definition_ids": [
+    "DEF-PROCESS-TURNOVER-REPRESENTATION",
+    "DEF-MEREO-OPERATIONAL-LIFE-PROFILE"
+  ],
+  "resolution": "Numerical equality is of assigned process carriers, not of time indices. Continuity is a supplied operational relation; PreservesContinuity is the separate, explicit identity criterion under test. FixedExtension requires invariant constituent membership across equal carriers and is stronger than material constitution or materialism. DynamicExtension permits changing constituents of one carrier. Phase-carrier control uses a different interpretation of identity and rejects continuation-as-identity. Neither control establishes real river persistence, and neither is attributed to Heraclitus."
+}
