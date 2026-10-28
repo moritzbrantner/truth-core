@@ -89,3 +89,12 @@ under explicit world/domain/identity/degree semantics before adding attributed
 claims or a bridge. Reuse existing statement identities only if their types
 and meanings coincide. The witnessed unbounded branch has not been refuted by
 this source reading, and no root premise closes.
+
+## Validation
+
+At source checkpoint `7aba445b78225b151b33ed4d584517cdc589a7d8`, offline source
+and corpus checks passed. The normal
+`source_evidence.py verify --base HEAD^ --head HEAD` command refetched and
+verified the one newly added RSS passage with hash `61854f98b488`; the other
+288 passages received offline checks only in that run. This verifies the
+consulted feed bytes, not the argument or its interpretation.
