@@ -59,7 +59,8 @@ def validate_case(case, statements, results, arguments, models, root):
         raise ValueError('parameter_order must list every variable and fixed role exactly once')
     # Supported role shapes (all non-propositional, so no proof can hide in a
     # parameter): a carrier `Type`, a fixed carrier constant (Bool or Nat), a
-    # Kripke frame on a carrier, an element of a carrier, and a predicate or
+    # Kripke frame or the existing existence-PSR data model on carriers,
+    # an element of a carrier, and a predicate or
     # relation `X₁ → … → Xₙ → Prop` over carriers. Carriers must be declared
     # before they are used. The necessary-individual profiles (W, I, F,
     # present, w) are one instance; the Megarian capacity profile (#576) is
@@ -74,6 +75,13 @@ def validate_case(case, statements, results, arguments, models, root):
         if kind == 'Type':
             carriers.add(parameter['name'])
         elif kind.startswith('TruthCore.Modal.Frame ') and kind.split(' ', 1)[1] in carriers:
+            pass
+        elif (len(kind.split()) == 3
+              and kind.split()[0] == 'TruthCore.Explanation.ExistencePSR.Model'
+              and all(arg in carriers for arg in kind.split()[1:])):
+            # This exact structure contains ontology/explanation data, no
+            # soundness, PSR, or other proof fields. Keep arbitrary structures
+            # forbidden: they could carry a premise as an implicit field.
             pass
         elif kind in carriers:
             pass
