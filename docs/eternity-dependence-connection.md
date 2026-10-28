@@ -169,7 +169,17 @@ The complete author-published articles `SCHMID-INERTIA-REPLY-3-ARTICLE`
 (Edward Feser, 6 July 2021) were pinned, materialized and read, excluding reader
 comments. Their passage records locate the exact consulted bytes. These are
 primary evidence of each author's position, not independent verification of
-metaphysical adequacy. Schmid's journal PDF and current-domain article returned
+metaphysical adequacy. Feser's witness is the author-published Blogger Atom
+entry: `source_evidence.py materialize FESER-INERTIA-REPLY-2021-ARTICLE`
+returns its pinned XML, whose Atom `content` element contains the complete
+article HTML. Its rendered text was reread and exactly matches the earlier
+article witness; the final file newline is the only serialization difference.
+The rendered webpage failed raw-byte verification in CI run `40776675501`;
+the old expected/observed hashes are retained in the passage manifest. The
+local narrow refetch still returned the original webpage bytes, so it cannot
+establish the content of CI's differing response. Two independent Atom fetches
+agreed; raw-byte verification remains enforced on the replacement endpoint.
+Schmid's journal PDF and current-domain article returned
 HTTP 403 to the evidence fetcher; the original author-published WordPress article
 was accessible. No journal-paper reading is claimed.
 
