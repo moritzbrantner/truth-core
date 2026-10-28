@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-IF-FORWARD-VALID-AT",
+  "paraphrase": "At the named standpoint, every world predicate G satisfies the forward necessary-if-existent escalation schema. Quantification is over ALL world predicates, not one fixed God predicate.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfConnectivity.ForwardAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+    "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
+    "DEF-NECESSARY-IF-ALL-PREDICATE-VALIDITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY",
+    "DISAMB-MODAL-GRAPH-EDGE-PATH"
+  ]
+}
