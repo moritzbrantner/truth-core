@@ -1,0 +1,11 @@
+{
+  "id": "DEF-MCTAGGART-RECURRENT-CONTRADICTION",
+  "term": "the alleged recurrence making McTaggart’s explanatory regress vicious",
+  "definition": "In the 1908 A-series argument, every further explanatory A series is alleged to inherit the original incompatibility, so an explanation that merely relocates it leaves the original demand unanswered. This is a claim about recurrence of an unresolved contradiction, not a definition of all infinite chains as vicious. The asserted recurrence and the original incompatibility require defense.",
+  "basis": "sourced",
+  "claim_ids": [
+    "MCTAGGART-1908-CIRCULAR-INDEXING-OBJECTION",
+    "MCTAGGART-1908-RECURRENT-CONTRADICTION-REGRESS",
+    "MCTAGGART-1908-ULTIMATE-NEED-NOT-UNREAL"
+  ]
+}

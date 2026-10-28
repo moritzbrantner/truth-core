@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MCTAGGART-A-B-DETERMINATIONS",
+  "paraphrase": "McTaggart distinguishes permanent earlier/later relations from changing past/present/future determinations: an event earlier than another is always earlier, whereas an event described as present was future and will be past.",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}

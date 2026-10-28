@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-TIME-PASSAGE-INDEXING-REGRESS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MCTAGGART-A-B-DETERMINATIONS",
+    "STMT-MCTAGGART-SUCCESSIVE-REPLY",
+    "STMT-MCTAGGART-CIRCULAR-INDEXING-OBJECTION",
+    "STMT-MCTAGGART-RECURRENT-CONTRADICTION-REGRESS",
+    "STMT-MCTAGGART-ULTIMATE-NEED-NOT-UNREAL",
+    "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE",
+    "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
+    "STMT-HISTORY-TIME-SCOPE-CONTROLS",
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read the full pinned 1908 Unreality of Time, including the A/B definitions, successive-predication reply, circle/regress paragraphs and ultimate-concept objection/reply. Five scoped prose readings preserve that the alleged vice is reproduction of an unresolved contradiction, not bare infinity or mere absence of an explanation. Kept strong tensed-primitive and tenseless-relational replies as open analytical profiles; no source attribution of modern positions from this one paper. Reused exact existing HistoryTimeScope.Controls and CorrectionCriterion.characterization boundaries, rejected a duplicate time-order/branching or generic regress theorem, and did not reopen the parked motion-retorsion source hunt. Existing McTaggart commitments/Challenges/results unchanged. No formal inference, new result or root premise discharge; actual bridge candidates and witness details are in docs/notes/time-passage-indexing-regress.md.",
+  "evidence": [
+    "MCTAGGART-1908-A-B-DETERMINATIONS",
+    "MCTAGGART-1908-SUCCESSIVE-REPLY",
+    "MCTAGGART-1908-CIRCULAR-INDEXING-OBJECTION",
+    "MCTAGGART-1908-RECURRENT-CONTRADICTION-REGRESS",
+    "MCTAGGART-1908-ULTIMATE-NEED-NOT-UNREAL",
+    "HISTORY-TIME-SCOPE-CONTROLS",
+    "CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "blocker": "No claim of resolving the time dispute. Original incompatibility, A-essentiality, objective-meta-time recurrence and the appropriate explanatory norm remain contested; index well-typedness alone does not discharge them. Root-route premises remain unchanged."
+}

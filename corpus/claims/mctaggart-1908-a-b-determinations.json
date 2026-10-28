@@ -1,0 +1,15 @@
+{
+  "id": "MCTAGGART-1908-A-B-DETERMINATIONS",
+  "statement_id": "STMT-MCTAGGART-A-B-DETERMINATIONS",
+  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "locator": "The Unreality of Time, opening distinction, paragraph beginning 'Positions in time, as time appears to us prima facie' and paragraph beginning 'For the sake of brevity'",
+  "interpretation": "A source distinction, not a theorem that the A series is indispensable or contradictory. The words past, present and future concern A determinations; earlier/later are B relations. No world-to-world motion or temporal cause is asserted. Source reading in prose only; no new Lean declaration or result.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}
