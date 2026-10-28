@@ -1,0 +1,12 @@
+{
+  "id": "STMT-JUSTIFICATION-INTROSPECTION-BOUNDARY",
+  "paraphrase": "In the stipulated relational epistemic profile, transitivity and a global knowledge-requires-justification norm imply that knowing p entails knowing its justification. A reflexive nontransitive three-world model satisfies the norm while p is known and justified at its actual world without its justification being known. These are mathematical controls, not actual knowledge or a theory of certainty.",
+  "lean_declaration": "TruthCore.Logic.JustificationIntrospection.IntrospectionBoundary",
+  "definition_ids": [
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+    "DEF-KNOWLEDGE-JUSTIFICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FIRST-HIGHER-ORDER-JUSTIFICATION"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SCIENCE-PREDICATE-BASIS",
+  "term": "time dependence, coding and inductive relevance",
+  "sense_definition_ids": [
+    "DEF-SCIENCE-PREDICATE-RECODING",
+    "DEF-SCIENCE-PREDICATE-TRANSPORT"
+  ],
+  "resolution": "Phase independence compares two values at the same supplied feature coordinate. Transport preserves extensional values at corresponding coordinates, not at identical coordinate labels. Failure of the latter comparison does not prove physical change or inferior inductive entitlement. Boolean phases are a stipulated partition, not continuous time or the observation-dependent Goodman predicate. The control therefore challenges a purely coordinate-based criterion without refuting a physically defended qualitative/locational distinction."
+}
