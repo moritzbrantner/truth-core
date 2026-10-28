@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+  "term": "necessary-if-existent modal symmetry profile",
+  "definition": "Use the existing Kripke Frame and AFP MProp, Box and Dia: G is an arbitrary world predicate, \u25a1G at w means \u2200v, Rwv \u2192 Gv, and \u25c7G means \u2203v, Rwv \u2227 Gv. NecessaryIf is \u25a1(G \u2192 \u25a1G), not G(w) \u2192 \u25a1G(w). Euclidean means Rwv and Rwz imply Rvz. Task-specific proposition wrappers retain the positive/negative statement identities for exact binding; they introduce no new modal operator or God vocabulary. Coverage is \u25a1G \u2228 \u25a1\u00acG. Controls lists the fixed Bool models in the Lean type. G is a mathematical parameter; an interpretation as God-existence and metaphysical adequacy of accessibility are additional unproved commitments.",
+  "basis": "stipulative",
+  "note": "Mathematical experiment for #437, without source attribution. A metaphysical application requires independent defense of the proposition, frame profile, boxed conditional and whichever possibility premise is used. Scalar G is not Scott NecessaryExistence, a property of individuals and their essences.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.NecessaryIf"
+}

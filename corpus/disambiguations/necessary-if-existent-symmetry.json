@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY",
+  "term": "conditional necessity, possibility burdens, and scope",
+  "sense_definition_ids": [
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+    "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL"
+  ],
+  "resolution": "NecessaryIf uses a boxed conditional at one standpoint; a bare actual conditional is strictly insufficient, as the universal Bool control shows. Neither expression instantiates G. The scalar proposition G is distinct from Scott NE and its essence quantification. K5 Euclideanness suffices for both constructive escalations; no minimal-frame or necessity characterization is claimed. Coverage uses the explicit ExcludedMiddle premise. Exclusivity additionally needs an accessible world: empty K5 satisfies both boxes. S5 reflexivity supplies a successor, and its equivalence components permit opposite necessities at disconnected standpoints; no global metaphysical truth is inferred. \u25c7G and \u25c7\u00acG are equally explicit open burdens. Conceivability, failure to derive contradiction, and wording that stipulates possibility do not certify either. Domain-restricted odd-number examples explain a restriction without showing that a proposed divine essence has a model. All models here are mathematical controls, not metaphysical possibilities or source attributions."
+}

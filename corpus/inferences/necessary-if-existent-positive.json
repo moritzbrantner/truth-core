@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-IF-EXISTENT-POSITIVE",
+  "input_statement_ids": [
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-NECESSARY-IF-EXISTENT",
+    "STMT-NECESSARY-IF-POSSIBLE-EXISTENCE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-IF-NECESSARY-EXISTENCE",
+  "rule": "verified-mathematical-consequence",
+  "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-NECESSARY-IF-POSSIBLE-EXISTENCE, derive: G holds at every world accessible from the named standpoint (\u25a1G); this is neither frame-global truth nor the individual property Scott NE.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
