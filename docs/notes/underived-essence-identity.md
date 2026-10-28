@@ -236,8 +236,11 @@ The actual-source construction reuses `not_not_underived_of_lifting` on the
 constant-world gated relation
 `G v c n := NecessaryAt m w c ∧ NecessaryAt m w n ∧
 PresentEsseSupport m R w c n`. Well-foundedness is required only for this actual
-necessary-bearer restriction. Lifting for G is immediate from its gates and
-places no cross-world constraint on R. Actual no-contingent-support upgrades
+necessary-bearer restriction. The existing `PresentEsseSupport` guards the source's actual presence;
+the necessary target is not separately required to be actual by the relation.
+The extracted witness supplies target presence explicitly. Lifting for G is
+immediate from its gates and places no cross-world constraint on R. G is a
+constant-index mathematical auxiliary, not an invariant original R relation. Actual no-contingent-support upgrades
 absence of G predecessors to absence of all actual existing R supporters.
 Explicit excluded middle selects a witness and removes the double negation
 from the q3 identity for that same witness. The q3 implication is imported,
