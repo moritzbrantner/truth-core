@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
+  "argument_id": "FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
+  "challenge_module": "TruthCore.Results.Causality.FiniteActualSourcePaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.WorldSourceRegress.finite_actual_all_sourcePaths",
+  "comparator_config": "results/FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS/comparator.json",
+  "description": "Under the existing actual-acyclic profile, retain the source path for each chosen actual node in every finite actual graph. Apply the checked pointwise source-or-regress fork; its source horn already supplies the full path, while its injective anchored Nat-chain horn contradicts finiteness of the actual carrier. This strengthens the earlier merely-some-source corollary without changing that theorem or any frozen data/signature. Actual finiteness is an explicit conditional guard inside the conclusion, not an assertion that any world is finite. No additional philosophical premise, common source, temporal conclusion or root closure is introduced.",
+  "status": "solution-present"
+}

@@ -137,3 +137,19 @@ theorem overlapControl : OverlapControl := by
   exact ⟨hNoCycles, hPath, hRegress, hNotAcc, ⟨source, hSource⟩,
     ⟨overlapNode, hRegress⟩⟩
 end TruthCore.Results.Causality.WorldSourceRegress
+
+namespace TruthCore.Results.Causality.WorldSourceRegress
+open TruthCore.Causality.WorldSourceRegress
+open TruthCore.German.Kant.CosmologicalInference
+/-- Retain the path for each chosen node, strengthening the earlier
+merely-some-source finite corollary. Only the existing acyclicity background
+is assumed; finiteness and actual-node presence are explicit guards. -/
+theorem finite_actual_all_sourcePaths {World Being : Type} (m : Ontic World Being)
+    (hNoCycles : ActualAcyclic m) : FiniteActualAllSourcePaths m := by
+  intro w hFinite x
+  let : Finite (Actual m w) := hFinite
+  rcases source_or_regress (actualGraph m w) (hNoCycles w) x with hs | hr
+  · exact hs
+  · obtain ⟨f, _, hInj, _⟩ := hr
+    exact False.elim (not_injective_infinite_finite f hInj)
+end TruthCore.Results.Causality.WorldSourceRegress

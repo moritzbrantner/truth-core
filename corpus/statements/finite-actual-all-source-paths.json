@@ -1,0 +1,18 @@
+{
+  "id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "lean_declaration": "TruthCore.Causality.WorldSourceRegress.FiniteActualAllSourcePaths",
+  "paraphrase": "In every world with a finite actual carrier, each actual individual has its own finite upstream path to some existing source. No source is asserted for an empty world, and no one common source for all nodes or worlds is supplied.",
+  "definition_ids": [
+    "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}
