@@ -38,6 +38,16 @@ mover existence (NoReduction), mover actuality (NonactualMover),
 non-simultaneity (SelfMover), or priority bridge (OtherMover). The models
 worker owns these certificates; this list is not their verification.
 
+The completed core Solution was independently inspected: it applies the
+existing `coreFromRootPremises` to all four listed commitments and then the
+Night witness, exactly matching its frozen type. The models module and
+registry extensions were also inspected: each of the five deletion masks
+contains precisely the other four core members; OtherMover has an explicit
+`jointRootBackground` conjunction; Overlap has `sameWitnessOverlap`; and
+NonactualMover has a conjunction of no actual mover with an existing mover.
+The record argument lists match those model predicates. No semantic/type
+P1 was found. This inspection does not replace compilation or verification.
+
 ## Rejected readings and witness requirements
 
 Coverage is not exclusivity. Both an actual self-mover and a distinct actual
