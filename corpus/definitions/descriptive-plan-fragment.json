@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DESCRIPTIVE-PLAN-FRAGMENT",
+  "term": "syntactically descriptive planning-language fragment",
+  "definition": "Descriptive is True on factual atoms, False on forbidden-action atoms, and the conjunction of the recursive tests on conditional antecedent and consequent. Thus no forbidden-action occurrence appears at any depth. It excludes normative bridges syntactically, rather than establishing a natural-language fact/value classification.",
+  "basis": "stipulative",
+  "note": "This is an analyst restriction of the existing Sentence grammar, reused without changing its constructors or support clauses. Actual moral/naturalistic analyses may dispute that classification; no attribution to Hume or Carneades is made.",
+  "lean_declaration": "TruthCore.Metaethics.DescriptivePlanBoundary.Descriptive"
+}

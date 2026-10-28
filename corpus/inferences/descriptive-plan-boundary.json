@@ -1,0 +1,9 @@
+{
+  "id": "INF-DESCRIPTIVE-PLAN-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
+  "rule": "structural-invariance-and-composition",
+  "meaning": "In the stipulated material-support plan semantics, every satisfiable theory containing only factual atoms and conditionals has a compatible point permitting all actions. Acceptance of a factual atom and an explicit factual-to-forbidden conditional entails acceptance of the forbidden atom, by the existing general MP result. A nonempty singleton state with an alternative action available accepts the fact but accepts neither the prohibition nor its conditional. This separates conditional plan guidance from categorical normative warrant; neither moral realism nor ordinary-language adequacy is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
