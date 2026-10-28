@@ -1,0 +1,43 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+    "source_url": "https://www.gutenberg.org/ebooks/17556.txt.utf-8",
+    "retrieved_at": "2026-10-28T20:18:37Z",
+    "sha256": "sha256:aa9820b2fe493782a316e11eb666944931be46c6cf0b10c9e8a34485f4137dfd",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Patrick1899 translation, public domain; Project Gutenberg17556 distributed under the Project Gutenberg license included in the text. Two live raw-byte/text hash fetches matched. Only hashes, locators and short incipit committed.",
+    "translation": {
+      "translator": "Mary Mills Patrick",
+      "year": 1899,
+      "edition": "Sextus Empiricus and Greek Scepticism, Cambridge:Deighton Bell; London:George Bell,1899. Project Gutenberg17556 transcription."
+    }
+  },
+  "passages": [
+    {
+      "id": "SEXTUS-PH-I-FIVE-MODES",
+      "locator": "Outlines of Pyrrhonism I.164–177, ChapterXV The Five Tropes; read I.163–179 immediate context",
+      "claim_locator_prefixes": [
+        "I.164",
+        "I.165",
+        "I.166",
+        "I.167",
+        "I.168",
+        "I.169",
+        "I.170",
+        "I.171",
+        "I.172",
+        "I.173",
+        "I.174",
+        "I.175",
+        "I.176",
+        "I.177"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:cc90c7620a11f229c632bac8deb355b7ce38d9783977c64f237fb0e37d5ca6b4",
+      "incipit": "The Project Gutenberg eBook of Sextus Empiricus and Greek Scepticism"
+    }
+  ],
+  "notes": "Raw-text selector materializes the entire public-domain volume. Claims concern the translated primary BookI chapterXV, not Patrick’s preceding commentary. Five-mode presentation is not attributed to HansAlbert or equated with all later trilemma reconstructions."
+}

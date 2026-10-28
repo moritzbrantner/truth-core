@@ -1,0 +1,9 @@
+{
+  "id": "SEXTUS-REGRESS-ADEQUACY-NORM",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.166; I.168–174, with I.164–177 context",
+  "priority": 100,
+  "goal": "Defend or reject the entitlement norm behind the skeptical regress challenge: can an indefinitely renewed, unestablished proof demand yield adequate warrant through an infinitist or holistic account, or must the investigation obtain some independently established entitlement? Specify the strongest positive alternative without defining all warrant as finite GeneratedWarrant.",
+  "reason": "PHI166 identifies the point of the challenge; I173–174 supplies a reason why bare stopping by concession does not solve it. Existing RegressSchema controls establish consequences only under stipulated norms. The passage does not itself settle the strongest noninferential, coherentist and infinitist replies. No automatic transfer to actual causal exercise, per-se dependence or temporal beginning follows. See docs/notes/agrippa-justificatory-adequacy.md.",
+  "status": "candidate"
+}
