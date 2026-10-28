@@ -1,0 +1,10 @@
+{
+  "id": "PROCESS-TURNOVER-BOUNDARY",
+  "argument_id": "PROCESS-TURNOVER-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Mereology.ProcessTurnover.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.ProcessTurnover.Solution",
+  "theorem": "TruthCore.Results.Mereology.ProcessTurnover.certificate",
+  "comparator_config": "results/PROCESS-TURNOVER-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "In the existing two-cohort turnover fixture, every carrier assignment preserving operational continuation as numerical carrier identity has no timeless constituent-extension representation. A constant Unit carrier with time-indexed constituents satisfies continuation and turnover; a phase carrier with fixed constituents satisfies turnover but rejects continuation-as-identity. These logical interpretations neither settle actual river identity nor refute materialism, and do not establish substantial unity or a soul. Root-path open premises: no change."
+}

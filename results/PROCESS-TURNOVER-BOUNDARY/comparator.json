@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.ProcessTurnover.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.ProcessTurnover.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.ProcessTurnover.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
