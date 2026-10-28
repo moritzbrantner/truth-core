@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-ACTUALITY-FIXEDPOINT-REUSE-310",
+  "statement_ids": [
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-FINITE-GROUNDING-HAS-SOURCE",
+    "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+    "STMT-LOCAL-OBSERVATION-SELECTS-SOLUTION",
+    "STMT-REGRESS-SCHEMA-PACKAGE"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Bounded #310 proof-search/reuse audit at main49b4589aa6744c91a6bc9adec13215d0e7245c9d. Inspected target/reuse dossiers and exact Lean definitions/results before coding. Graph.transmission already takes independent intrinsic O and relation R; grounded_eq_lfp equates its least fixed point with FinitelyGroundedPower, and finiteGroundingHasSource extracts the finite path to O. The converse is a direct constructor induction inspected here, not separately certified as a new theorem. RegressSchema.regressSchemaPackage already certifies CrossDomainBoundary's source-free all-on successor graph in gfp but outside lfp. Rejected duplicating this package, calling least-fixedpoint selection metaphysically established, equating intrinsic power with absence of graph predecessors, treating equal fixed points as WF, or using logical-feedback uniqueness as pure borrowed-power causation. A one-world actual-subtype instantiation preserves locality but supplies no actualization bridge. Inspected merged #625 unique-feedback control, #588 Night/capacity extension, mathematical convergent schedule/finite-capacity controls and PowerExistenceBoundary; none supplies ACT-GROUND or the respect-to-whole-being bridge. Strongest surviving rival: globally obtaining non-WF structure can realize activity even without an inductive source; this is neither established possibility nor refuted by consistency/solution multiplicity. Exact retained philosophical premises unchanged; none added or removed, no new formal connection or discharge, root delta zero. Precise theorem locators, rejected readings and remaining bridge are persisted in docs/causal-regress-and-grim-reapers.md under Fixed-point reuse audit for #310. No new Lean/Challenge/result is warranted; completed verification evidence is reused.",
+  "blocker": "Independently defend why actual borrowed exercise in the selected world/respect must satisfy finite-source/least-fixedpoint grounding, against the non-WF global-structure rival, without defining original power by the desired conclusion. Whole-being underivedness remains a further bridge.",
+  "evidence": [
+    "REGRESS-SCHEMA-PACKAGE",
+    "FINITE-GROUNDING-HAS-SOURCE",
+    "ESSENTIAL-POWER-UNDERDETERMINED",
+    "LOCAL-OBSERVATION-SELECTS-SOLUTION",
+    "UNIQUE-FEEDBACK-CONTROL",
+    "PR-588",
+    "PR-625",
+    "CONVERGENT-ZENO-SCHEDULE",
+    "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+    "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY"
+  ]
+}
