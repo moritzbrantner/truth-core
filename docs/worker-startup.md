@@ -36,6 +36,14 @@ Choose affected checks as the worker contract and CI require. Scoped source veri
 
 Give a fresh proposition worker the four-line brief in `AGENTS.md`, exact statement IDs/theorems, owned paths, required gates and links to repository instructions. Use scoped context without inherited conversation by default. Read mandatory policy once, then refresh instructions whose applicable inputs change. Once the dossier command from #413 is available, inspect `python3 scripts/corpus.py dossier <STMT-ID>` and its recorded attempts before restarting research; preserve new findings there. Do not copy engineering timing into philosophical records.
 
+The repository skill `.agents/skills/truth-core-research/SKILL.md` packages this
+research handoff routine. When a coordinator-owned Lean preview is supplied,
+use `scripts/agent_lean.py` for full-content diagnostics/goals with automatic
+lease and response-binding checks; see [agent-service.md](agent-service.md#client-commands).
+The optional native startup hooks provide local context only. They do not
+prepare a fresh clone, verify anything or grant merge authority; automatic
+execution requires the runtime's exact-definition trust review.
+
 One owner runs each local gate. The master consumes its PR/log evidence and reruns only for an input change, failure, or repository requirement. Keep long jobs in the master, or await their specific process/session handles before the worker exits. A queued shell command is not a completed gate. Hand off pending handles explicitly; do not leave a worker-owned verification process behind. Merge ready PRs serially and coordinate updates with other lanes.
 
 For each of the three trial work items, put this evidence in the existing PR body or check log:
