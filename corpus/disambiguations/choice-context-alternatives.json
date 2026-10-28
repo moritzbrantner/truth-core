@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-CHOICE-CONTEXT-ALTERNATIVES",
+  "term": "doing otherwise, lawfulness and absence of constraint",
+  "sense_definition_ids": [
+    "DEF-CHOICE-CONTEXT-TABLE",
+    "DEF-CHOICE-CONTEXT-ALTERNATIVE",
+    "DEF-CHOICE-CONTEXT-CONSTRAINT",
+    "DEF-CHOICE-CONTEXT-RELATIONAL-LAW"
+  ],
+  "resolution": "A different output somewhere may change law or complete input. Alternative instead keeps both fixed. The deterministic table rules out this stronger alternative even at an unconstrained history. Unconstrained describes the absence of one explicitly modeled imposition, not freedom or desert. The relational-law control uses one identical relation and identical input for both outputs: rejecting deterministic functionality need not require violating that relation. The functional and relational tables are distinct interpretations, not simultaneously conflicting laws of one actual system. All are stipulated semantic controls; no source or historical free-will position is defined by these tests."
+}

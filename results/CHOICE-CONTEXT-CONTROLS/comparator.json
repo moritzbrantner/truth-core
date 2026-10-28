@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ChoiceContext.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ChoiceContext.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ChoiceContext.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

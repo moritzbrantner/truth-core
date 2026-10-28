@@ -6,6 +6,7 @@ import TruthCore.Imports.Case.Catholicism.StageThree
 import TruthCore.Imports.Causality
 import TruthCore.Imports.Comparison
 import TruthCore.Imports.English
+import TruthCore.Imports.Ethics
 import TruthCore.Imports.Explanation
 import TruthCore.Imports.German
 import TruthCore.Imports.Greek
@@ -30,6 +31,7 @@ import TruthCore.Imports.Results.Case.Catholicism.StageThree
 import TruthCore.Imports.Results.Causality
 import TruthCore.Imports.Results.Comparison
 import TruthCore.Imports.Results.Comparison.Resurrection
+import TruthCore.Imports.Results.Ethics
 import TruthCore.Imports.Results.Explanation
 import TruthCore.Imports.Results.Greek
 import TruthCore.Imports.Results.Hiddenness
@@ -41,4 +43,6 @@ import TruthCore.Imports.Results.Metaethics
 import TruthCore.Imports.Results.Modal
 import TruthCore.Imports.Results.Modern
 import TruthCore.Imports.Results.Plato
+import TruthCore.Imports.Results.Science
+import TruthCore.Imports.Science
 import TruthCore.Imports.Teleonomy

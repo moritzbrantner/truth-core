@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-FIRST-HIGHER-ORDER-JUSTIFICATION",
+  "term": "knowledge, justification, knowledge of justification, and certainty",
+  "sense_definition_ids": [
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+    "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+    "DEF-FACTIVE-KNOWLEDGE"
+  ],
+  "resolution": "Knows F p w is first-order relational knowledge of p; justified w records justification of that same p; Knows F justified w is knowledge that p is justified. Negating the last does not negate either earlier condition without additional assumptions. The finite model establishes this distinction even with factivity and a global knowledge-requires-justification norm. Certainty is not modeled and no claim about its necessity for knowledge follows. The existing generic factivity profile and this relational realization are compatible but distinct interfaces; assertion does not supply any knowledge token. No causal or metaphysical grounding edge is an epistemic warrant edge."
+}

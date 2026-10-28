@@ -3,6 +3,7 @@ import TruthCore.Logic.CogitoConcrete
 import TruthCore.Logic.CogitoSubject
 import TruthCore.Logic.Configuration
 import TruthCore.Logic.ExcludedMiddle
+import TruthCore.Logic.JustificationIntrospection
 import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.MaximumOrder
 import TruthCore.Logic.PerformedDenial

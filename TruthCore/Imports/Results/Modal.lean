@@ -10,6 +10,7 @@ import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
 import TruthCore.Results.Modal.B.ScopeBoundary.Solution
 import TruthCore.Results.Modal.BearerExercise.Solution
 import TruthCore.Results.Modal.BoundedMetricPast.Solution
+import TruthCore.Results.Modal.ChoiceContext.Solution
 import TruthCore.Results.Modal.Convergence.Solution
 import TruthCore.Results.Modal.ConvergenceCertificate.Solution
 import TruthCore.Results.Modal.CounterpartNecessityControls.Solution

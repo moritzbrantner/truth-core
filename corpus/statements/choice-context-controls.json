@@ -1,0 +1,17 @@
+{
+  "id": "STMT-CHOICE-CONTEXT-CONTROLS",
+  "lean_declaration": "TruthCore.Modal.ChoiceContext.Controls",
+  "paraphrase": "Stipulative finite decision-table controls, not a free-will theory. Reusing fixedConditionsStable, a fixed pair of law and complete input plus an exact response function entails stable selected output. In the displayed finite table, equal law and input imply equal action; an unconstrained actual history has no different action at the same context. Changing the input alone or the law alone gives explicit different actions. A constrained history and the unconstrained actual history share their action. A second, single relational law permits both Boolean actions at the very same unconstrained input, while requiring the true action at every constrained input. Thus lawfulness need not be functionality; nondeterministic lawful alternatives need not violate a law. Complete means complete for this stipulated table. No physical realization, freedom, responsibility, metaphysical adequacy or root premise is established.",
+  "definition_ids": [
+    "DEF-CHOICE-CONTEXT-TABLE",
+    "DEF-CHOICE-CONTEXT-ALTERNATIVE",
+    "DEF-CHOICE-CONTEXT-CONSTRAINT",
+    "DEF-CHOICE-CONTEXT-RELATIONAL-LAW",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHOICE-CONTEXT-ALTERNATIVES",
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+  ]
+}

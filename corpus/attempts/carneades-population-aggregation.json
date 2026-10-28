@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-CARNEADES-POPULATION-AGGREGATION",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-FINITE-POPULATION-AGGREGATION-CONTROLS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Read complete public auto-caption stream of Carneades video zG814I1DBzU; provisional locators, VTT hash, source-fidelity limits, decisive arithmetic bridge, strongest rival, and rejected readings persist in docs/notes/carneades-population-aggregation.md. No attributed source claim or materialized media_span is asserted. Independent stipulated real-scale finite profiles yield arbitrary low-positive-mean total dominance, global total/average strict-ranking incompatibility, equal-count agreement and zero-mean boundary. No ordinal-to-cardinal inference, infinite sum, individual-welfare distribution, moral adequacy, historical Parfit claim or attained maximum is established. Reuses Mathlib Archimedean naturals and positive multiplication cancellation; no existing Railton criterion is equated to a numeric scale. No root-route premise change; common scale, actual feasible count growth and normative authority remain OPEN for application. Frozen Challenge SHA256 58fa4570d5065f44160d25b0a160c46d578e7f06011ddc09a42776daa1724c9c. Development probe had initial import placement and multiplication-theorem API errors, corrected without changing Challenge. Canonical delivered verification belongs to CI.",
+  "evidence": [
+    "FINITE-POPULATION-AGGREGATION-CONTROLS"
+  ]
+}
