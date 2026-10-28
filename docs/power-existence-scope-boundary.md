@@ -168,3 +168,82 @@ are 31, 32, 36, 38, 39, 39, 40 and 41 (the designated efficient-regress route is
 40). #495 and the necessary-per-se convergence statement are not themselves
 open leaves on these routes. The audit therefore supplies a reusable
 interface and rejects duplicate work; it makes no root-closure claim.
+
+
+## Same-support-source composition after #633
+
+`TruthCore.Results.Causality.UnderivedCommonSource.named_support` now
+connects `NamedNecessarilyUnderived m R w n` (#608) to source uniqueness
+without identifying support with ordinary causation. The task module's
+`actualSupportGraph m R w` reuses `Actual m w` and the existing `Graph`,
+with edge `R w source target`. Named underivedness makes **this same n** an
+actual source. The proof imports and applies
+`TruthCore.Results.Causality.SourceForest.atMostOne_of_confluent` (#633).
+It concludes that n is a source and every actual R-source at w equals n.
+`exists_support` unpacks exactly `NecessarilyUnderived m R w` (#495),
+retaining that witness's named necessity and no-support properties alongside
+its unique selected-world R-source property.
+
+The primary direct premise vector is:
+
+- `STMT-NAMED-NECESSARILY-UNDERIVED` (or, for `exists_support`,
+  `STMT-NECESSARILY-UNDERIVED`);
+- `STMT-SOURCE-FOREST-WEAKLY-CONNECTED`, instantiated on
+  `actualSupportGraph m R w`;
+- `STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT`, instantiated on that same graph.
+
+This is useful proof assembly, not independent defense of any premise.
+Named actual presence supplies population; it is not inferred from necessity
+on a non-reflexive frame. There is no ordinary-world well-foundedness,
+maximality, reciprocal potential causation or accessibility assumption.
+Uniqueness is at this **one selected world** and on its actual-node support
+carrier. No source at an inaccessible or different world is identified, and
+no finite upstream path from every actual node to n is asserted.
+
+The optional ordinary-causal corollaries `named` and `exists_common` instead
+use `actualGraph m w`. Their direct vector has the same named/existential
+underived premise, causal-graph connectivity and confluence, **plus**
+`STMT-ACTUAL-CAUSE-SUPPORTS-ESSE`. That last interface is explicitly OPEN:
+every ordinary causal edge whose source and target both exist at w gives an
+R-support edge there. It is one-way, limited to actual endpoints at w, and
+neither source-attributed nor a definition identifying R with Causes. It
+converts the named underived witness into an ordinary-causal source before
+the same imported uniqueness theorem applies. Nothing identifies either
+source with the original instrumental-power source unless that witness is
+separately proved to have the corresponding graph-source property.
+
+The existing V-shaped `SourceForest.fork` remains the decisive rival to
+connectivity alone: its two distinct roots share a dependent target, so it
+is weakly connected and even well-founded while both roots are sources.
+The imported confluence uniqueness theorem excludes that two-root profile
+when confluence is added. This is a conditional graph constraint, not a
+claim that the metaphysical support relation is confluent. The existing
+source-free integer chain explains why graph uniqueness alone supplies no
+source; here the underived witness, not a hidden WF premise, supplies one.
+
+**Premise comparison:** the support route retains the existing named or
+existential underived premise and adds the two explicit structural premises
+to that conditional argument; the ordinary-causal alternative additionally
+requires the open causal-to-support interface on its distinct graph. Zero
+metaphysical premises are independently established or discharged. These
+assembly results create no connection to God, simplicity or personhood, and
+make no root-frontier change. Two end-to-end certificate records distinguish support from ordinary-causal
+semantics; the named and existential-fiber lemmas are implementation helpers,
+not additional corpus arguments or independent philosophical discoveries.
+
+
+The advertised end-to-end results are `from_union` and `causal_from_union`.
+Both **import and apply** the existing
+`TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks`,
+rather than adding its proved conclusion as a fresh ordinary premise. Their
+exact retained five-premise vector is
+`STMT-KANT-CONVERSION-NECESSARY-WITNESS`,
+`STMT-ACTUAL-MODAL-REFLEXIVITY`,
+`STMT-NO-CONTINGENT-GROUND-OF-NECESSARY`,
+`STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT`, and
+`STMT-EXCLUDED-MIDDLE`. The primary support-graph route adds connectivity and
+confluence (seven direct premises); the ordinary-causal route adds its
+corresponding graph constraints and the open map (eight direct premises).
+The necessary-support **union WF is retained**. Only ordinary-world causal WF
+is absent. Neither configuration establishes its five original metaphysical
+inputs or the structural extensions; root open premises remain unchanged.
