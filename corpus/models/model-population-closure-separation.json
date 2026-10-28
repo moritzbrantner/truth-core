@@ -1,0 +1,63 @@
+{
+  "id": "MODEL-POPULATION-CLOSURE-SEPARATION",
+  "description": "Universal three-world frame with populations abc, bcd, b over four rigid individuals. The singleton b population witnesses every ordered-pair subintersection; bc is absent as an exact population. Mathematical interpretation only.",
+  "vocabulary": "necessary-individual-population-closure",
+  "lean_declaration": "TruthCore.Models.PopulationClosureSeparation.frame",
+  "modules": [
+    "TruthCore.Models.PopulationClosureSeparation"
+  ],
+  "bindings": {
+    "W": "TruthCore.Models.PopulationClosureSeparation.World",
+    "I": "TruthCore.Models.PopulationClosureSeparation.Individual",
+    "F": "TruthCore.Models.PopulationClosureSeparation.frame",
+    "present": "TruthCore.Models.PopulationClosureSeparation.present",
+    "w": "TruthCore.Models.PopulationClosureSeparation.World.abc"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "TruthCore.Models.PopulationClosureSeparation.World.abc",
+        "TruthCore.Models.PopulationClosureSeparation.World.bcd",
+        "TruthCore.Models.PopulationClosureSeparation.World.b"
+      ],
+      "theorem": "TruthCore.Models.PopulationClosureSeparation.enumerateWorld"
+    },
+    {
+      "binding": "I",
+      "elements": [
+        "TruthCore.Models.PopulationClosureSeparation.Individual.a",
+        "TruthCore.Models.PopulationClosureSeparation.Individual.b",
+        "TruthCore.Models.PopulationClosureSeparation.Individual.c",
+        "TruthCore.Models.PopulationClosureSeparation.Individual.d"
+      ],
+      "theorem": "TruthCore.Models.PopulationClosureSeparation.enumerateIndividual"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-ABSENCE-AMALGAMATION",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.PopulationClosureSeparation.amalgamation"
+    },
+    {
+      "statement_id": "STMT-EXACT-MEET-CLOSURE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Models.PopulationClosureSeparation.noExactMeet"
+    }
+  ]
+}

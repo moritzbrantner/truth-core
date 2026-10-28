@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POPULATION-CLOSURE",
+  "term": "accessible population subintersection and exact meet closure",
+  "definition": "AbsenceAmalgamation F present w requires for every ordered pair u,v accessible from w a z accessible from w whose present extension is contained in both. ExactMeetClosure instead requires pointwise equivalence with membership in both extensions. Both quantify over a fixed roster; neither requires any accessible world or any present individual. They are vacuous without an accessible pair. Exact equality of populations is distinct from identity of worlds; different worlds can have the same extension.",
+  "basis": "stipulative",
+  "note": "Common API for #533/#534, introduced by #607. These mathematical policies supply no evidence that their resulting profiles are metaphysically possible. No frame restriction or existence-to-concreteness bridge is included.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.AbsenceAmalgamation"
+}
