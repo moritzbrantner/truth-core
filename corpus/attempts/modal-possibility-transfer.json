@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-MODAL-POSSIBILITY-TRANSFER",
+  "statement_ids": [
+    "STMT-MODAL-POSSIBILITY-TRANSFER"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Derived the exact E-to-M diamond bridge iff local accessibility inclusion, and the reversed box bridge, constructively using the existing modal semantics. Two Bool descriptions with E universal and M identity show the inclusion cannot be omitted even for equivalence frames: P has a candidate witness and an epistemic witness at false, but no metaphysical witness there. Rejected treating the carrier as all genuine metaphysical worlds or interpreting lack of contradiction proof as possibility. No geometry, modal duality or collapse matrix duplicated. Actual adequacy of the two relations remains open; no historical attribution and no root-premise change.",
+  "evidence": [
+    "MODAL-POSSIBILITY-TRANSFER"
+  ]
+}

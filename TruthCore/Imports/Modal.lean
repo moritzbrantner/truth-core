@@ -28,6 +28,7 @@ import TruthCore.Modal.NecessaryIfExistent
 import TruthCore.Modal.NecessaryPotentialCausers
 import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Modal.PastSerialityCertificate
+import TruthCore.Modal.PossibilityTransfer
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.S4Research

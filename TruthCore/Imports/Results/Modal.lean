@@ -35,6 +35,7 @@ import TruthCore.Results.Modal.NecessaryPotentialCausers.Solution
 import TruthCore.Results.Modal.PastSeriality.Solution
 import TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution
 import TruthCore.Results.Modal.PopulationClosureSeparation.Solution
+import TruthCore.Results.Modal.PossibilityTransfer.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 import TruthCore.Results.Modal.S4.Countermodels.Solution
