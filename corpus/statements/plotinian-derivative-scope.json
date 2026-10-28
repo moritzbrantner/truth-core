@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
+  "paraphrase": "If something is subsequent to the first, it derives from that first either immediately or by reduction through intermediaries.",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-CONSTITUTIVE-NEED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

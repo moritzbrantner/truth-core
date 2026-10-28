@@ -1,0 +1,15 @@
+{
+  "id": "PLOTINUS-V4-DERIVATIVE-SCOPE",
+  "statement_id": "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.1, opening: Εἴ τι ἔστι μετὰ τὸ πρῶτον ... ἐπὶ τὸ δεύτερον",
+  "interpretation": "Source reading recorded in prose only. The conditional scope claim permits mediation. It neither proves that any derivative exists nor identifies all individuals other than a chosen candidate as derivative; it is not universal direct efficient causation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-CONSTITUTIVE-NEED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}
