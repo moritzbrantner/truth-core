@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-DEGREE-FORK",
+  "statement_ids": [
+    "STMT-HOMOGENEOUS-BEING-SCALE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+    "STMT-QUARTA-VIA-DEGREE-FORK",
+    "STMT-QUARTA-VIA-DEGREE-BRANCH-WITNESSES"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "At baseline 1c83a5ea, investigated a conditional degree/causation fork on the existing homogeneous-scale contrast reading, not as an attributed source reading. Reused exact HomogeneousScaleReading.causesRaiseDegree, isMaximumIn_iff_isMax and MaximumOrder.System.maximal_has_no_distinct_cause. The existing atMostOneMaximeEns proof establishes the prior uniqueness boundary but requires a broader all-respects genus premise; strengthening the at-being premise merely to reuse it was rejected. With the scale at esse, genus at esse, the explicitly stronger open unrestricted cause-more-such premise, existing grades observation and explicit excluded middle, the selected perfection is instantiated and either a maximal being is a unique strict top causing the perfection in every distinct being with no distinct incoming cause, or every being has another more such than it. The grades witness is used for population, so the no-top horn does not rely on an empty carrier. A separate zero-axiom theorem proves the horns incompatible. Maximal, greatest-in-a-preorder and strict-greatest were not conflated: the strict superiority and identity uniqueness are derived from the causal premises, not built into the input maximality. Direct universal other-causation is retained in the conclusion, avoiding reliance on an unstated universal InAct guard. Both branches have separately specified full nonlogical-background witnesses: the existing finite Boolean causal control, and infinite Nat degrees with empty causation. These interpretations do not combine separate models to witness one branch. The Nat interpretation is not falsely finitely enumerated; it reuses maximumNeedNotExist. Its empty causal relation rejects the inference from unbounded degree extension to causal regress. The genus conditional in that branch is vacuous because no maximum exists, explicitly reported. Frozen Challenges precede Solutions. Focused builds and independent source/type/record sweep pass; axiom inspection reports exactly propext, Classical.choice and Quot.sound for coverage and combined witnesses, while horn incompatibility is zero-axiom. Final integrated binding, Comparator and NanoDa checks are still pending. No source premise, maximum existence, identity with God, absolute uncausedness or root closure is claimed. Root-premise delta: none.",
+  "evidence": [
+    "QUARTA-VIA-DEGREE-FORK",
+    "QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
+    "MAXIMUM-ORDER-SCHEMA",
+    "AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS",
+    "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM"
+  ],
+  "blocker": "Complete required verification on the exact integrated head, including the independent model certificates. Philosophically, the homogeneous-scale contrast, causal genus and unrestricted cause-more-such background remain open; the fork establishes no preferred branch."
+}

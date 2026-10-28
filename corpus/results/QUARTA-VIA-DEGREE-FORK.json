@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-DEGREE-FORK",
+  "argument_id": "QUARTA-VIA-DEGREE-FORK",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.coverage",
+  "comparator_config": "results/QUARTA-VIA-DEGREE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional coverage with explicit excluded middle, plus independently checked horn incompatibility. Conditional fork on the existing stipulative homogeneous-scale contrast reading. The grades premise gives an actual carrier witness, and the scale makes it have the selected perfection esse. Explicit excluded middle splits existence of a maximal being in esse. If one exists, the at-being genus principle makes it cause the selected perfection in every other being; the unrestricted cause-more-such premise therefore makes it strictly more such than every distinct being, excluding tied and incomparable co-maxima. The no-distinct-incoming-cause clause composes HomogeneousScaleReading.causesRaiseDegree, HomogeneousScaleReading.isMaximumIn_iff_isMax and MaximumOrder.System.maximal_has_no_distinct_cause. Uniqueness is checked with explicit excluded middle for identity; this is not a new discovery of uniqueness, already established under the broader genus premise by AtMostOneMaximeEns. If no maximal being exists, explicit excluded middle extracts a higher being for every being. The independent supplementary theorem hornsIncompatible proves that the two branch predicates cannot both hold. No totality, maximum existence, arbitrary causal predecessor, infinite causal chain or absolute uncausedness is inferred. The unrestricted causal comparative remains the explicitly stronger open reading, not a new source attribution; no premise is established and root premises do not change. Axiom inspection reports exactly propext, Classical.choice and Quot.sound for the main theorem, within the approved Mathlib profile. The independent hornsIncompatible theorem is zero-axiom."
+}
