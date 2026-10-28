@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
+  "rule": "model-construction",
+  "meaning": "The single existing registered NRegress interpretation jointly satisfies motion-in-the-moved, being moved only in potency, movers being actual, and same-respect act/potency exclusion. Distinct beings form a two-cycle with different respects: a moves b in k, and b moves a in h. There is no mover moved in no respect, and the relation MovesAsMoved is not well-founded. The plain existential negation is derived constructively from the old certificate negating the double-negated first-unmoved-mover existential; these types are not identified silently. Thus local exclusion of same-respect consecutive edges does not eliminate alternating-respect cycles or establish the separate well-founded regress premise. This is satisfiability of the shared typed predicates, not metaphysical possibility, a temporal sequence, or premise truth. All original model assignments and registry evaluations are preserved; no source attribution or root-premise discharge is added.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

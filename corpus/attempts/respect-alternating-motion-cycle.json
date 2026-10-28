@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-RESPECT-ALTERNATING-MOTION-CYCLE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MOVING-IS-IN-THE-MOVED",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "blocked",
+  "summary": "Fresh-main baseline 9bdac2abf1579d485fb3086482c3ccf8ac1b0d4c, branch sprint/20261028-motion-cycle-models. Reuse the exact registered MODEL-ACT-POTENCY-NREGRESS interpretation through TruthCore.Models.ActPotencyRemaining.NRegress.model, a definitionally equal alias of the earlier ActPotencyModels.NRegress.model. No carrier, assignment or old evaluation changes. The table has two beings a,b and two respects h,k: a moves b in k, b moves a in h; each recipient is potentially its incoming respect and each mover is actual in its outgoing respect. Add only the two missing registry evaluations, MovingIsInTheMovedReading and MovesOnlyAsInActReading. Reuse existing evaluation1 for moved-only-in-potency, evaluation3 for same-respect non-simultaneity, evaluation5 for failure of the double-negated globally-unmoved-mover conclusion, and evaluation6 for failure of well-foundedness. The new joint target also explicitly certifies distinct beings and distinct respects on an actual two-cycle. Plain negation of the unmoved-mover existential is derived constructively from evaluation5: an existential witness would itself imply its double negation, contradicting the old certificate. The result does not silently treat those propositions as identical. The four local commitments can exclude two consecutive edges in one respect while leaving an alternating-respect cycle, no globally unmoved mover, and failure of the separate per-se well-foundedness premise. Well-foundedness excludes cycles too; the finite countermodel is not an injective infinite chain or temporal process. No reduction, per-se transmission or regress premise is added to the general respect-switch theorem. This is a joint interpretation of shared typed predicates, not source fidelity or metaphysical possibility. Independent Lean/prose/type/old-evaluation audit passed; offline corpus and diff checks passed. The separate joint-control Challenge was frozen before proof bodies, SHA256 ec549f58925f38cfad6a78b9fe2bba3762e095d56638fc524e14579cd9a122c3. Proof bodies and a zero-axiom Comparator configuration are prepared, but compilation/model-gate/Comparator checks remain intentionally queued behind the coordinator heavy-job queue. No source attribution or root premise is discharged.",
+  "evidence": [
+    "AQUINAS-ST-I-Q2-A3-PRIMA-VIA-FROM-BEING-IN-ACT",
+    "LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE"
+  ],
+  "blocker": "Coordinator has requested no compilation while the current verification queue is active. Run the focused Solution build, exact extended model gate and axiom check when released, then coordinator integrated Comparator/NanoDa/binding gates before advertising certification."
+}
