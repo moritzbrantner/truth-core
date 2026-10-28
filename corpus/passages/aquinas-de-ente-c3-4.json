@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+    "source_url": "https://www.corpusthomisticum.org/oee.html",
+    "retrieved_at": "2026-10-28T21:59:18Z",
+    "sha256": "sha256:4fbd17e8136d920cd929f7b67fca45693f15eccdf4db7495bd16f9bcca119bb7",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Latin original public domain; Corpus Thomisticum digital edition ©2011 Fundación Tomás de Aquino, iura omnia asservantur. No open transcription licence asserted; metadata/hash pin and paraphrases only."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-DE-ENTE-C3-4",
+      "locator": "capp.3–4 (Baur/Koch numbering), anchors [69874]–[69875]",
+      "claim_locator_prefixes": [
+        "cap.3",
+        "cap.4"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "69874"
+        },
+        "to": {
+          "anchor": "69876"
+        }
+      },
+      "text_sha256": "sha256:eb7b620a51a79ede558a09af15b41264707a14cf6f6e7af009547a20ebf78114"
+    }
+  ]
+}
