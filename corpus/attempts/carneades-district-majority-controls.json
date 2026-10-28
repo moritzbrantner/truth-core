@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-CARNEADES-DISTRICT-MAJORITY-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-POLITICAL-DISTRICT-MAJORITY-CONTROLS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Read the complete English en-orig captions of Carneades.org What is Democracy? HlONC5qbXds; metadata, hash, locators, rival positions, rejected readings and access boundary persist in docs/notes/carneades-district-majority.md. Independent stipulative finite diagnostic: equal ballots and equal district populations permit five-of-nine popular support to lose two-of-three districts. Regrouping the same A/B multiplicities as 2,2,1 restores agreement; universal unanimity controls rule out attributing arbitrary disagreement to the mechanism. No authenticated source claim, moral conclusion or root closure. The original political-obligation question remains unproved: electoral aggregation does not supply consent or a natural duty, nor refute either. No added, removed or discharged philosophical premises.",
+  "evidence": [
+    "POLITICAL-DISTRICT-MAJORITY-CONTROLS"
+  ]
+}

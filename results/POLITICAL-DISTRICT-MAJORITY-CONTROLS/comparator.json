@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Politics.DistrictMajority.Challenge",
+  "solution_module": "TruthCore.Results.Politics.DistrictMajority.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Politics.DistrictMajority.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

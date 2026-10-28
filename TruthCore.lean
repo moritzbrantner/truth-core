@@ -20,6 +20,7 @@ import TruthCore.Imports.Metaethics
 import TruthCore.Imports.Modal
 import TruthCore.Imports.Models
 import TruthCore.Imports.Modern
+import TruthCore.Imports.Politics
 import TruthCore.Imports.Refutations
 import TruthCore.Imports.Results.Alternatives
 import TruthCore.Imports.Results.Aquinas
@@ -41,4 +42,5 @@ import TruthCore.Imports.Results.Metaethics
 import TruthCore.Imports.Results.Modal
 import TruthCore.Imports.Results.Modern
 import TruthCore.Imports.Results.Plato
+import TruthCore.Imports.Results.Politics
 import TruthCore.Imports.Teleonomy
