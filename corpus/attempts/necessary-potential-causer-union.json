@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-NECESSARY-POTENTIAL-CAUSER-UNION",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+    "STMT-ROTATING-NECESSARY-POTENTIAL-CAUSERS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Conditional constraint and unchanged-model control. Inspected all four premise dossiers and exact existing definitions. In the explicitly selected profile supportsEsse := m.Causes, actual reflexivity, necessity of a and b, OtherDirectedPotentialCause for each, and WellFoundedUnionNecessarySupport imply \u00ac(a \u2260 b), without an excluded-middle premise. Apply each potential clause at the selected base world, using the other necessary bearer's presence there. Its possible causal edge is witnessed at a root-accessible world; necessity supplies source presence there, giving both opposite UnionNecessarySupport edges. Pinned Mathlib.Order.RelClasses.WellFounded.asymmetric rules out the pair. This is negative non-distinctness, not an unqualified constructive identity theorem; no intensity, weak degree bound, invariance, no-contingent-ground or explanatory-token assumption is used. An interactive joint control on the unchanged Models.NecessarilyUnderived.rotating interpretation establishes both distinct necessary individuals have the potential role, every world has well-founded present support, but the cross-world union is not well-founded: replacing union WF with worldwise WF fails. No identification of ordinary causation with metaphysical grounding is asserted; selecting causal edges for the support relation is an explicit restricted profile. Reject the proposed weakening to merely an inhabited root-accessible family without further conditions: a root\u2192middle\u2192outside frame can have both individuals present only at middle; potential witnesses at outside then need not have existing sources. Necessity at the root does not imply presence at that two-step successor without transitivity, and Ontic does not assume endpoint soundness. This precise rejected weakening is a proof-boundary analysis, not yet a kernel-certified three-world control. A no-successor frame also makes necessary/potential roles vacuous, so actual reflexivity cannot simply be dropped. Persistent service necessary-causer-discovery version2 at head a6648878406495ef73069070331693e3e6c6f754 accepted exact probe SHA256 df4c7077b5d4d8ccb3fd593fa1cab5189e3063c354041f517def47beaf1df6d4 with no diagnostics; pre-proof frozen scratch type SHA2568160e42d3bb48dad1dd68481513685c6147c8a61e50759f9fd1d1b324eca6240 unchanged. The initial service probe preceded canonical packaging and certification. No root premise change or philosophical background established. Canonical refinement now freezes the transparent role-quantified constraint and its direct six-premise helper separately from the rotating joint control. Focused Solution/Challenge builds passed with frozen hashes 0c6f33106439bb6dc311166cf13fe7f59c48619454e1582020d04f40043a0c1b and bd66d8e62242e4be3d50402f407108687d6b18662279d95b22e6a03ea3eb19c8. Both canonical result configs passed Comparator and NanoDa; focused BindTypes/bind_result reports two bound and zero mismatches. The direct helper and both result checks have zero axioms by #print axioms. Comparator profiles are tightened to zero permitted axioms and rechecked. The proof uses only the asymmetry consequence of union WF; no weakest-premise claim is made.",
+  "evidence": [
+    "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+    "WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS"
+  ]
+}

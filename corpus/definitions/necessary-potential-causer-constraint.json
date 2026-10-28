@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-POTENTIAL-CAUSER-CONSTRAINT",
+  "term": "negative non-distinctness of necessary pointwise potential causers in a causal-union profile",
+  "definition": "NoDistinctNecessaryPotentialCausers quantifies over two rigid candidates a,b in one Ontic model at one standpoint. If each exists at every root-accessible world and each can possibly cause every existing other at every root-accessible evaluation world, then \u00ac(a \u2260 b). This is double-negated equality, not a positive equality term or an existence or divine-uniqueness assertion. In the result the existing UnionNecessarySupport parameter supportsEsse is explicitly instantiated by m.Causes: union edges require both bearers necessary and the source present at some admitted world carrying that ordinary modeled causal edge. This is a selected causal-support profile, not a general identification of efficient causation with existential grounding. Union WF concerns all admitted worlds; potential edges are taken from the reflexive base so their witness worlds are root-accessible. No degree assignment, causal endpoint-soundness or explanatory adequacy is assumed.",
+  "basis": "stipulative",
+  "note": "Source-free structural comparison. The explicit relation selection is part of the conditional profile. Necessity, potential-cause roles and union well-foundedness remain open; ordinary causal claims are not silently promoted to metaphysical grounds.",
+  "lean_declaration": "TruthCore.Modal.NecessaryPotentialCausers.NoDistinctNecessaryPotentialCausers"
+}
