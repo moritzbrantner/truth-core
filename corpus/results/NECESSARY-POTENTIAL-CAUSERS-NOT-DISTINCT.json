@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+  "argument_id": "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+  "challenge_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Solution",
+  "theorem": "TruthCore.Results.Modal.NecessaryPotentialCausers.checks",
+  "comparator_config": "results/NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT/comparator.json",
+  "status": "solution-present",
+  "description": "Under actual reflexivity and the selected m.Causes union-WF profile, two necessary universal pointwise other-directed potential causers cannot be distinct. Their roles produce opposite root-accessible causal witnesses; necessity supplies present sources there, yielding opposite union edges contradicted by Mathlib well-founded asymmetry. The conclusion quantifies the two necessity/potential-role antecedents explicitly; it asserts no role witness, positive identity, metaphysical grounding identification or divine uniqueness. No degree, weak degree bound, invariance, no-contingent-ground or excluded-middle premise is used. Root premises remain unchanged."
+}
