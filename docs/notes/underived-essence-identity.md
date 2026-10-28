@@ -222,3 +222,50 @@ No Lean declaration, source claim, candidate, argument, or closure flag changes.
 Intended and actual root-premise delta: none. Stop this line until independent
 evidence discriminates universal essential dependence from switching support,
 or justifies the two source interfaces and their world scope.
+
+## Selected-world necessary restriction
+
+`ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY` isolates the scope actually used
+by `actual_not_not_identity_direct`. Its conclusion is deliberately weaker than
+`UnderivedEssenceIdentity`: the same witness is actually present, necessary,
+without an incoming **actual** existing R-supporter, and has represented
+essence–esse identity. It makes no statement about its incoming support at
+other worlds.
+
+The actual-source construction reuses `not_not_underived_of_lifting` on the
+constant-world gated relation
+`G v c n := NecessaryAt m w c ∧ NecessaryAt m w n ∧
+PresentEsseSupport m R w c n`. Well-foundedness is required only for this actual
+necessary-bearer restriction. Lifting for G is immediate from its gates and
+places no cross-world constraint on R. Actual no-contingent-support upgrades
+absence of G predecessors to absence of all actual existing R supporters.
+Explicit excluded middle selects a witness and removes the double negation
+from the q3 identity for that same witness. The q3 implication is imported,
+not reproved; the existing historical readings and three actual adapters are
+retained unchanged.
+
+Compared with the original union route, actual reflexivity is removed,
+all-world no-contingent support is replaced by its actual-world instance, and
+union WF is replaced by WF of the actual necessary restriction. Neither WF
+of all actual beings nor no-novel-support is assumed. These are conditional
+burden reductions accompanying a weaker conclusion, **not** a derivation of
+the original global conclusion or defense of metaphysical premises. The
+existing `rotating` interpretation satisfies the new source premises while
+`rotatingNoUnderived` refutes global underivedness; `rotating_strictness`
+imports its existing local-WF and necessity proofs. No second finite fixture
+was introduced. The control is a mathematical interpretation, not a claim of
+metaphysical possibility.
+
+No existing root consumer was replaced. Intended and actual root-frontier
+premise delta: zero. The historical support/necessity interface gaps above,
+q3 exhaustiveness, and all actual adapters remain open. No new attribution is
+made. New predicates are selected-world restrictions of the existing
+vocabulary; all original Challenge files remain frozen.
+
+Focused persistent-session evidence: preview HEAD
+`210ab594fb5a1b2af75a6f0af684299937065238`, session `causal-harvest`,
+`Scratch/actual-scope-essence/Preview.lean`, content SHA256
+`bf45070203daba644ea9bab90464e9a7fd8241bd175f10761d64a1068079c68c`,
+diagnostics empty. The preview concatenated the new definition and solution
+modules and imported the already checked direct q3 result. This is development
+evidence; final build, binding, Comparator and NanoDa remain CI authorities.
