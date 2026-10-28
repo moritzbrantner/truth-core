@@ -40,9 +40,12 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSu
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectorRegress.Solution
