@@ -1,0 +1,20 @@
+{
+  "id": "PLATO-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
+  "statement_id": "STMT-PLATONIC-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "101b–c",
+  "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. This preserves the proposed explanatory priority of the relevant character in the safe answer, rather than attributing a mere name convention. It does not prove that addition or division never occurs, give a productive mechanism, identify formal explanation with efficient causation, or assert that a universal magnitude has a maximal instance.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PHAEDO-SAFE-ANSWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PHAEDO-CAUSE-AND-CONDITION",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}

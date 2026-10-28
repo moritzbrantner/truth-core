@@ -1,0 +1,15 @@
+{
+  "id": "PLATO-PHAEDO-99A-ENABLING-BODY",
+  "statement_id": "STMT-PLATONIC-PHAEDO-99A-ENABLING-BODY",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "99a–b",
+  "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. The bodily requirements are granted, not eliminated. The contrast concerns the explanation of this intelligent action; it does not establish that every physical cause is merely a condition, that embodied action is physically uncaused, or that the choice already has an adequate explanation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PHAEDO-ENABLING-CONDITION",
+    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+  ]
+}
