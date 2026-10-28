@@ -354,3 +354,21 @@ cosmological premise follows from the abstract mathematical correspondence.
 These time-index frames are not an identification of modal alternative
 histories with times, nor an interpretation of accessibility as causal edges.
 Intended and actual root-premise change: none.
+
+## No first moment need not mean unbounded clock age
+
+[BoundedMetricPastControl](../TruthCore/Modal/BoundedMetricPastControl.lean)
+uses the standard real interval `(0,1]`, with `now = 1`. Every admitted point
+`t` has the earlier admitted point `t/2`, so the original `PastIsInfinite`
+predicate holds and the original earliest-time `PastIsFinite` predicate fails.
+Yet every clock age `1-t` lies in `[0,1)`. All these properties hold jointly
+for one specified interval, rather than in separate interpretations.
+
+This mathematical control separates absence of an earliest moment from
+unbounded age in the chosen real clock. It does not establish physical
+realization or that this clock represents cosmological duration. The existing
+convergent Zeno schedule instead has a first stage; it is not substituted for
+this no-first profile. Neither result infers finite event cardinality from a
+finite metric bound. The interval is also not the integer unit grid of the
+bounded-resource argument; a uniform resource increment on every integer step
+is a separate hypothesis. Intended and actual root-premise change: none.

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

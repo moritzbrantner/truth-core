@@ -1,0 +1,9 @@
+{
+  "id": "INF-HISTORY-CONTRASTIVE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+  "rule": "direct-proof",
+  "meaning": "Provide explicit infinite-chain witnesses. The differing reason assignments retain causes and local explanatory labels. The selected internal reason is contingent; the constant reason is necessary but nondiscriminating.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

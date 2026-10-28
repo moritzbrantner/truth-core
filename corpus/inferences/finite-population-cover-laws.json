@@ -1,0 +1,9 @@
+{
+  "id": "INF-FINITE-POPULATION-COVER-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FINITE-POPULATION-COVER-LAWS",
+  "rule": "direct-proof",
+  "meaning": "Universal finite-list omission, full-cover joint absence, incompatibility of necessary population with individual contingency, explicit-excluded-middle positive DeRe, and complete-roster cover sufficiency. The finite cover and amalgamation policies remain open metaphysical commitments.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

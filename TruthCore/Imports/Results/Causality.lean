@@ -9,6 +9,10 @@ import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.FiniteRestriction.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
@@ -22,6 +26,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
@@ -34,6 +39,7 @@ import TruthCore.Results.Causality.SupertaskOscillation.Solution
 import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
+import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 import TruthCore.Results.Causality.WorldSourceRegress.Solution

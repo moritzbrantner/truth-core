@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+  "term": "local output uniqueness",
+  "definition": "For every world v and act a, any two outputs x,y of a at v are equal. This is at-most-one uniqueness at each world, not cross-world output invariance, existence of an output, or a physical determinism thesis.",
+  "basis": "stipulative",
+  "note": "Explicit diagnostic for issue #462; no source attribution. Source-grounded act individuation and metaphysical adoption remain open. See docs/notes/selected-effect-bridge-462.md.",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.LocallyDeterministic"
+}

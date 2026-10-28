@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EARLIEST-TIME-AND-METRIC-DURATION",
+  "term": "finite past as first time versus bounded metric age",
+  "sense_definition_ids": [
+    "DEF-TEMPORAL-EXISTENCE-BEGINNING",
+    "DEF-BOUNDED-METRIC-PAST-CONTROL"
+  ],
+  "resolution": "The existing PastIsFinite predicate means an earlier-free time at or before now; PastIsInfinite means each time through now has an earlier time. Neither denotes unbounded metric duration or finite event cardinality. This control uses the original predicates on (0,1] and a chosen Real clock to show no first moment can coexist with bounded age. The absence of a first moment does not prove unbounded age in this profile; conversely, bounded age alone does not supply an earliest time. Time points here are mathematical indices, not alternative complete histories or causal-support vertices. No physical realization or finite-resource hypothesis follows."
+}

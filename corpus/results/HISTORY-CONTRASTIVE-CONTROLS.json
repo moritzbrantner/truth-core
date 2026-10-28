@@ -1,0 +1,10 @@
+{
+  "id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "argument_id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Modal.HistoryContrastive.Challenge",
+  "solution_module": "TruthCore.Results.Modal.HistoryContrastive.Solution",
+  "theorem": "TruthCore.Results.Modal.HistoryContrastive.controls",
+  "comparator_config": "results/HISTORY-CONTRASTIVE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Closed infinite-chain omission controls: memberwise causal and sound local explanatory coverage are compatible with a necessary nondiscriminator and, under the same ontology and explains assignments, a contingent internal discriminator. Empty discovery still permits the internal discriminator. This certifies mathematical assignments, not sufficient metaphysical explanation, a real possible rival, or a root obligation."
+}

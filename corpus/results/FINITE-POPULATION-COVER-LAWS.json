@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-POPULATION-COVER-LAWS",
+  "argument_id": "FINITE-POPULATION-COVER-LAWS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.checks",
+  "comparator_config": "results/FINITE-POPULATION-COVER-LAWS/comparator.json",
+  "status": "solution-present",
+  "description": "Universal finite-list omission, full-cover joint absence, incompatibility of necessary population with individual contingency, explicit-excluded-middle positive DeRe, and complete-roster cover sufficiency. The finite cover and amalgamation policies remain open metaphysical commitments."
+}

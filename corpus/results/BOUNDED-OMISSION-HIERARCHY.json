@@ -1,0 +1,10 @@
+{
+  "id": "BOUNDED-OMISSION-HIERARCHY",
+  "argument_id": "BOUNDED-OMISSION-HIERARCHY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.checks",
+  "comparator_config": "results/BOUNDED-OMISSION-HIERARCHY/comparator.json",
+  "status": "solution-present",
+  "description": "In the stipulated Kripke semantics, omission of every indexed selection of at most k rigid candidates is downward closed in k and follows from whole-roster JointAbsence. At k=0 it is equivalent to having a successor, with no roster-inhabitedness assumption. The existing Boolean alternating model satisfies bound 1 but fails bound 2. The explicit three-world, three-candidate universal singleton model satisfies bound 2 but fails bound 3; it is reflexive, every candidate can be absent, every successor is populated, no fixed candidate is necessary, and no successor omits the entire roster. These are finite formal separations, not metaphysical admissibility, unrestricted amalgamation, or a root-premise discharge."
+}

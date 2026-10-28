@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-UNIQUE-FEEDBACK-EXPLANATION",
+  "term": "consistency, unique feedback solution and sufficient explanation",
+  "sense_definition_ids": [
+    "DEF-UNIQUE-FEEDBACK-STATE",
+    "DEF-LOCAL-TRANSMISSION",
+    "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"
+  ],
+  "resolution": "The two Boolean equations are state constraints whose unique satisfying pair needs no observed boundary bit. They are not the pure transfer rule of EssentialPower, a cyclic causal graph, an all-borrowed instrumental-power model, or a model of time travel. Nonconstant gates are checked on their full truth tables, not all perturbations of the satisfying state. Sufficient ontological explanation is unrepresented, so the control neither establishes nor refutes it. An intrinsic global structural explanation remains a live interpretation requiring an independent bridge; no prohibition of explanatory circularity is assumed."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "STMT-FINITE-NECESSARY-UNION-CONTROLS",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.ModelControls",
+  "paraphrase": "The explicit Fin 3 interpretation has both source and cycle; the unchanged rotating interpretation has restricted local acyclicity, no source and a union cycle; the unchanged benign varying interpretation has a source, no cycle and a novel necessary-support edge.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-FINITE-NECESSARY-CARRIER",
+    "DEF-NECESSARY-UNION-SOURCE",
+    "DEF-NECESSARY-UNION-CYCLE",
+    "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
+    "DEF-FINITE-NECESSARY-UNION-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

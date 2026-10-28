@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACCESSIBILITY-COMPONENTS",
+  "term": "strong accessibility component",
+  "definition": "Mathlib Quiver.StronglyConnectedComponent is the quotient by existence of finite directed paths in both directions, including nil paths. The quiver is the existing explicit Frame.toQuiver, so arrows mean exactly accessibility. Under reflexivity and transitivity each path collapses to accessibility; symmetry supplies the reverse direction. Therefore the SCC class equals the accessibility equivalence class under those three explicit conditions.",
+  "basis": "stipulative",
+  "note": "Mathematical convention, not a source reading or a cross-domain bridge. Equivalence-frame assumptions are explicit; they do not assert global accessibility between all worlds.",
+  "lean_declaration": "TruthCore.Modal.AccessibilityComponents.Certificate"
+}
