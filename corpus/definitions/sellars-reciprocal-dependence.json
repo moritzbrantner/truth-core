@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SELLARS-RECIPROCAL-DEPENDENCE",
+  "term": "reciprocal dependence in distinct logical dimensions and revisability",
+  "basis": "sourced",
+  "definition": "Observation reports support other empirical propositions in one dimension, while relying on other knowledge in another. Sellars joins this to piecemeal self-correction, not simultaneous suspension of all claims. The passage does not identify this with one self-supporting inferential cycle.",
+  "claim_ids": [
+    "SELLARS-EPM-38-DIMENSIONS",
+    "SELLARS-EPM-38-SELF-CORRECTION"
+  ]
+}

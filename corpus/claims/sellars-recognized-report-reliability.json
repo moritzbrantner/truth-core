@@ -1,0 +1,15 @@
+{
+  "id": "SELLARS-EPM-35-RECOGNITION",
+  "statement_id": "STMT-SELLARS-RECOGNIZED-REPORT-RELIABILITY",
+  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "locator": "VIII §35",
+  "interpretation": "The reliable-response proposal is expressly insufficient as it stands. The perceiver must know the relevant reporting reliability and possess the concepts needed to recognize it. These are stated requirements, not a proved sufficient recipe for empirical knowledge or communal consensus as truth.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
+    "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}

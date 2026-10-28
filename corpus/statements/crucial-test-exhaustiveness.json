@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CRUCIAL-TEST-CERTAINTY-NEEDS-EXHAUSTIVENESS",
+  "paraphrase": "Even supposing the other assumptions in each tested physical system were logically secured, refuting one of two currently considered hypotheses would not turn the other into incontestable truth unless the alternatives were exhaustive; physical alternatives need not form a strict contradictory pair.",
+  "definition_ids": [
+    "DEF-SCIENCE-CRUCIAL-TEST-CERTAINTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

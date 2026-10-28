@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ARISTOTLE-ANPOST-SAME-RESPECT-PRIORITY",
+  "paraphrase": "Aristotle rejects unqualified circular demonstration under the requirement that demonstrative premises be prior and better known than their conclusions: the same things cannot be prior and posterior to one another in the same respect, though priority relative to us differs from priority without qualification.",
+  "definition_ids": [
+    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
+    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
+    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+  ]
+}

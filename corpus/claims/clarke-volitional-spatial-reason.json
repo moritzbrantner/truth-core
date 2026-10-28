@@ -1,0 +1,16 @@
+{
+  "id": "CLARKE-III-2-5-8-VOLITIONAL-REASON",
+  "statement_id": "STMT-VOLITION-MAY-SUFFICE-WITHOUT-EXTERNAL-SPATIAL-DIFFERENCE",
+  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "locator": "Clarke III §§2,5,7–8",
+  "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES",
+    "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+  ]
+}

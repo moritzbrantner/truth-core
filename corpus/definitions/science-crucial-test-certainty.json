@@ -1,0 +1,9 @@
+{
+  "id": "DEF-SCIENCE-CRUCIAL-TEST-CERTAINTY",
+  "term": "crucial experiment and incontestable theoretical truth",
+  "definition": "The strong claim Duhem criticizes treats experimental rejection of one physical hypothesis as deductively establishing the surviving hypothesis, as if the considered hypotheses formed an exhaustive contradictory pair. His objection is stronger than merely admitting a presently unsuccessful prediction: even secured auxiliaries do not by themselves prove exhaustiveness.",
+  "basis": "sourced",
+  "claim_ids": [
+    "DUHEM-VI-III-CRUCIAL-EXHAUSTIVENESS"
+  ]
+}

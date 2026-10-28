@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DUHEM-THEORIE-PHYSIQUE",
+    "source_url": "https://archive.org/download/lathoriephysiq00duhe/lathoriephysiq00duhe_djvu.txt",
+    "retrieved_at": "2026-10-28T20:46:29Z",
+    "sha256": "sha256:247603c96f66cc608e71720a334265719b01f0ffdd24574057d24f10e72f1125",
+    "encoding": "utf-8",
+    "language": "fra",
+    "license": "Public-domain1906 French original, Paris: Chevalier & Rivière; Internet Archive item lathoriephysiq00duhe, University of Toronto digitization. The named archival OCR derivative (reported mtime1697613359) is byte/text-pinned; three fetches matched. No translation or webpage template expansion is used. It can still become unavailable or be replaced, which must fail integrity checks. No verified Wayback fallback claimed; original Wikisource rendered-HTML failure and hashes preserved in linked note/attempt."
+  },
+  "passages": [
+    {
+      "id": "DUHEM-THEORIE-PHYSIQUE-VI",
+      "locator": "1906 archival book OCR; bounded source range Seconde partie, chapitre VI, §§I–X, pp.295–359",
+      "claim_locator_prefixes": [
+        "Seconde partie, VI §I",
+        "Seconde partie, VI §II",
+        "Seconde partie, VI §III",
+        "Seconde partie, VI §X"
+      ],
+      "text_sha256": "sha256:37d38ce455aac03cd238e01355849f6c5935ed31b94fd50343b8f25c8f70ec93",
+      "incipit": "Digitized  by  the  Internet  Archive \n\nin  2011  with  funding  from",
+      "raw_text": true
+    }
+  ],
+  "notes": "The complete named book OCR file is selected as raw primary text; only the bounded chapter-VI readings are claimed. Its title page confirms1906 edition, and §§I–III/X were reread from actual materialization after replacing the Wikisource HTML witness. No scientific or epistemic adequacy is verified by the source pin. Original passage identity and source/claim locators are preserved; no source claim or Lean theorem was changed."
+}
