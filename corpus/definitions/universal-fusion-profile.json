@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-FUSION-PROFILE",
+  "term": "unrestricted fusion in a fixed partial-order domain",
+  "definition": "A fusion is an upper bound for the selected nonempty family, every part of which overlaps a selected member. Overlap means a common part. Unrestricted requires this for every nonempty Set of the fixed carrier. Composite means having a strict part. Body instantiates the order by subset inclusion on nonempty subsets of Bool.",
+  "basis": "stipulative",
+  "note": "Analyst scope profile for #328, motivated by the materialized Varzi exposition. All-subset quantification is an explicit second-order mathematical choice; neither causal sufficiency nor metaphysical adequacy is attributed to the source. See docs/notes/universal-fusion-grounding.md.",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
+}

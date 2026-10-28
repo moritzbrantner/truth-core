@@ -1,0 +1,9 @@
+{
+  "id": "INF-INFINITE-WAGER-MIXTURE-TIE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INFINITE-WAGER-MIXTURE-TIE",
+  "rule": "direct-proof",
+  "meaning": "Use Mathlib extended nonnegative multiplication to compute top for nonzero factors, instantiate at one and one-half, and evaluate the zero-factor controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

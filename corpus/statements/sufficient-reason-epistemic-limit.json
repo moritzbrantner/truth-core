@@ -1,0 +1,10 @@
+{
+  "id": "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
+  "paraphrase": "The sufficient-reason demand is not restricted to reasons known by human inquirers.",
+  "definition_ids": [
+    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}

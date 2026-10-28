@@ -1,0 +1,16 @@
+{
+  "id": "INFINITE-WAGER-MIXTURE-TIE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INFINITE-WAGER-MIXTURE-TIE",
+  "inference_ids": [
+    "INF-INFINITE-WAGER-MIXTURE-TIE"
+  ],
+  "meaning": "Closed mathematical certificate for the stipulated nonnegative reward profile; distinct mixed-act probabilities have equal top expectation, and zero factors give zero. No philosophical premise is discharged.",
+  "definition_ids": [
+    "DEF-INFINITE-WAGER-MIXTURE",
+    "DEF-INFINITE-WAGER-ACTION-WEIGHT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITE-WAGER-ACT-TRUTH"
+  ]
+}

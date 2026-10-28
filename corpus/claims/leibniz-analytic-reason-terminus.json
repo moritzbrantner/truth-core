@@ -1,0 +1,15 @@
+{
+  "id": "LEIBNIZ-33-35-ANALYTIC-TERMINUS",
+  "statement_id": "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§§33–35",
+  "interpretation": "Prose reading of the proposed analytical termination for truths of reasoning. It is not a claim that any arbitrarily selected axiom is self-justifying or that an existence explanation must be a finite psychological performance.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-LEIBNIZ-ANALYTIC-TERMINUS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}
