@@ -22,6 +22,7 @@ import TruthCore.Results.Modal.K.Extensionality.Solution
 import TruthCore.Results.Modal.K.Laws.Solution
 import TruthCore.Results.Modal.K.ScopeBoundary.Solution
 import TruthCore.Results.Modal.NecessaryPotentialCausers.Solution
+import TruthCore.Results.Modal.PastSeriality.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 import TruthCore.Results.Modal.S4.Countermodels.Solution
