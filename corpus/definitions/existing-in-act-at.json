@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTING-IN-ACT-AT",
+  "term": "selected-world existence-to-act-in-esse interface",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ExistenceActuality.ExistingInActAt",
+  "definition": "ExistingInActAt m InAct esse w says that every x with m.ExistsAt w x satisfies the supplied InAct x esse predicate. It is one direction at one selected world, not an equivalence or a theory of all perfections. It imposes no presence condition on a merely alleged cause and supplies no causal, explanatory, modal or essence–esse identity conclusion.",
+  "note": "An OPEN semantic interface between the existing Ontic assignment and a supplied act-in-esse reading, introduced for the direct q3a4 integration in #319. Its applicability to a specific interpretation must be defended independently; the Lean declaration does not assert it. No source attribution is claimed. The linked candidate asks how the actual represented beings and esse respect are to be identified."
+}
