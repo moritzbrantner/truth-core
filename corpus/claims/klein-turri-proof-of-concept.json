@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-4B-PROOF-OF-CONCEPT",
+  "statement_id": "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§4b, paragraphs beginning “Grant that it is possible” through the final example discussion",
+  "interpretation": "Prose reading of an explicitly reported objection, not a conclusive refutation of infinitism. No claim is made that no such series exists.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

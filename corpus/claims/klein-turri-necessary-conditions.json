@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-1-NECESSARY-CONDITIONS",
+  "statement_id": "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§1, paragraph beginning “Infinitism is designed” and numbered conditions",
+  "interpretation": "Prose reading only. Endless noncircular graph shape is not represented as sufficient epistemic warrant; the arbitrariness challenge to foundational reasons remains contested.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

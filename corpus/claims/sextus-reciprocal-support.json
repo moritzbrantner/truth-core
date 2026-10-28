@@ -1,0 +1,16 @@
+{
+  "id": "SEXTUS-I169-RECIPROCAL-SUPPORT",
+  "statement_id": "STMT-SEXTUS-RECIPROCAL-SUPPORT-SUSPENSION",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.169",
+  "interpretation": "Source reading in prose only, not a Lean theorem. The scope is the reciprocal establishing procedure described. A cycle’s graph shape alone is not identified with every holistic or coherentist account of epistemic warrant, and the passage is not a theorem about causal loops.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-SUSPENSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

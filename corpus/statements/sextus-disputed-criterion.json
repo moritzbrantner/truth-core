@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
+  "paraphrase": "In the sensible/intellectual inquiry described by Sextus, an allegedly decisive criterion that remains disputed itself faces a further demand for judgment: repeated same-kind criteria regress, cross-kind mutual support is reciprocal, and stopping by concession invokes the hypothetical mode.",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-BARE-HYPOTHESIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MCTAGGART-RECURRENT-CONTRADICTION-REGRESS",
+  "paraphrase": "McTaggart describes a further A series introduced to explain the first as facing the same difficulty, requiring a third and so on; his stated reason for rejecting the explanation is that each attempted removal reproduces the contradiction in the explanation.",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}

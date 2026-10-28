@@ -1,0 +1,15 @@
+{
+  "id": "OCKHAM-SL-I14-NATURAL-CONVENTIONAL",
+  "statement_id": "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.14: final paragraphs beginning Verumtamen sciendum and Aliud est universale",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Preserves the proportional natural-sign analogies without turning them into a complete causal acquisition or truth-tracking theory. Does not equate natural mental signification with arbitrary verbal convention.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIVERSAL-MENTAL-SIGN",
+    "DEF-UNIVERSAL-CONVENTIONAL-SIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}

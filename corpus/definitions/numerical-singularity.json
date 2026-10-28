@@ -1,0 +1,9 @@
+{
+  "id": "DEF-NUMERICAL-SINGULARITY",
+  "term": "numerically singular",
+  "definition": "Being one thing rather than several, in the first sense of singular in Summa logicae I.14. It does not mean being inapt to signify or be predicated for many.",
+  "basis": "sourced",
+  "claim_ids": [
+    "OCKHAM-SL-I14-SINGULAR-SIGN"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SEXTUS-I168-173-174-BARE-HYPOTHESIS",
+  "statement_id": "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.168; I.173–174",
+  "interpretation": "Source reading in prose only, not a Lean theorem. This targets unestablished concession as the sole entitlement. It does not show that every axiom is false, that truth requires an earlier proof in time, or that no noninferential entitlement can be defended. The equal-standing challenge is a premise of the skeptical argument, not a theorem about all foundationalism.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-BARE-HYPOTHESIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

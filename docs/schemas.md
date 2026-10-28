@@ -86,6 +86,12 @@ local transmission equations select one global solution.
 
 ## Agrippa/Münchhausen boundary and skeptical response
 
+The primary-source adequacy investigation is now separated in
+[the Agrippa note](notes/agrippa-justificatory-adequacy.md): Sextus PH I.164–177
+challenges an unmet demand for establishment and bare concession; it does not
+vindicate the stipulated `GeneratedWarrant` norm or automatically transfer
+epistemic suspension to causal impossibility.
+
 The certified `CrossDomainBoundary` assigns the **same successor graph** to
 causal transmission and inferential rules. Every node is stipulated existent
 and locally active; every justification is withheld, and no all-premise

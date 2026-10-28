@@ -1,0 +1,12 @@
+{
+  "id": "DEF-SEXTUS-SUSPENSION",
+  "term": "skeptical suspension of judgment in the Five Modes",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEXTUS-I165-SUSPENSION-NOT-CHOICE",
+    "SEXTUS-I166-REGRESS-SUSPENSION",
+    "SEXTUS-I169-RECIPROCAL-SUPPORT"
+  ],
+  "definition": "The procedure ends without accepting or rejecting the investigated matter when the described dispute or establishing procedure has not supplied a verdict. Suspension is not an asserted negation of the matter and does not by itself supply a positive knowledge claim.",
+  "note": "Scope is the selected PHI165–169 passage. This does not settle every interpretive question about Sextus’ broader skeptical practice."
+}

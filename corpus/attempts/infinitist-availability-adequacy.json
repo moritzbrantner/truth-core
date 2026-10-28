@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-INFINITIST-AVAILABILITY-ADEQUACY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
+    "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
+    "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
+    "STMT-KLEIN-TURRI-AVAILABLE-REASONS",
+    "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
+    "STMT-KLEIN-TURRI-OPPOSED-CHAINS-CHALLENGE",
+    "STMT-KLEIN-TURRI-TRANSFER-ONLY-OBJECTION",
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH"
+  ],
+  "kind": "source-search",
+  "outcome": "succeeded",
+  "summary": "Materialized and read the full Klein–Turri coauthored IEP article, repeated live bytes/text match. Recorded seven scoped readings and positive foundationalist/holistic/infinitist comparison in docs/notes/infinitist-justification-adequacy.md. The 1999 journal paper was a search lead, not a consulted passage; no journal-paper attribution is claimed. The source explicitly treats noncircularity/endlessness as necessary not jointly sufficient, distinguishes available reasons from actual infinite production and not-yet-reason-enhanced premises from wholly unjustified premises, restricts the enhancement/interrogation status and preserves proof-of-concept/opposed-chain/origin objections. Existing RegressSchema, Graph.grounded_eq_lfp and accessibilityAllowsUnboundedDepth already certify the structural controls; rejected duplicating a successor model or the arbitrary-finite-depth-versus-one-endless-chain control. No new theorem, contradiction of infinitism or causal/temporal transfer is claimed. Remaining blocker for an adequacy conclusion: independently defend the reasonhood/availability and transfer-or-generation norm, plus its actual applicability. Root premise delta none. A bounded 2024 Wayback fallback check produced a different selected text hash; it was not adopted as an equivalent witness.",
+  "evidence": [
+    "KLEIN-TURRI-1-NECESSARY-CONDITIONS",
+    "KLEIN-TURRI-1-ENHANCEMENT",
+    "KLEIN-TURRI-3B-RESTRICTED-STATUS",
+    "KLEIN-TURRI-4A-AVAILABLE",
+    "KLEIN-TURRI-4B-PROOF-OF-CONCEPT",
+    "KLEIN-TURRI-4C-OPPOSED-CHAINS",
+    "KLEIN-TURRI-4D-ORIGIN-OBJECTION",
+    "REGRESS-SCHEMA-PACKAGE",
+    "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SEXTUS-I165-SUSPENSION-NOT-CHOICE",
+  "statement_id": "STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.165",
+  "interpretation": "Source reading in prose only, not a Lean theorem. This records suspension as distinct from asserting the negation of the investigated proposition. It does not attribute a universal positive theorem that knowledge is impossible, or a positive assertion of causal possibility, to the skeptical procedure.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-SEXTUS-SUSPENSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

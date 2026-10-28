@@ -1,0 +1,16 @@
+{
+  "id": "SEXTUS-I170-177-DISPUTED-CRITERION",
+  "statement_id": "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
+  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "locator": "I.170–177",
+  "interpretation": "Source reading in prose only, not a Lean theorem. The sensible/intellectual taxonomy and continuing dispute are background commitments of this source argument. This records its concrete application, not a checked exhaustive partition of all epistemologies or a proof that disagreement alone always defeats knowledge.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-BARE-HYPOTHESIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

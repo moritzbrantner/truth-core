@@ -1,0 +1,15 @@
+{
+  "id": "PLOTINUS-V4-FIRST-SELF-STANDING",
+  "statement_id": "STMT-PLOTINIAN-FIRST-SELF-STANDING",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.1, opening: δεῖ μὲν γάρ τι πρὸ πάντων ... οὐκ ἂν ἀρχὴ εἴη",
+  "interpretation": "Source reading recorded in prose only. Records the text’s requirement that there be such a first and its proposed characteristics, not a verified existential proof. The need for a first remains an open philosophical commitment; prior to all is not reduced to graph-source status.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-SIMPLICITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}
