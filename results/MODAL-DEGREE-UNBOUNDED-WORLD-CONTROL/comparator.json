@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.unboundedWorldControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

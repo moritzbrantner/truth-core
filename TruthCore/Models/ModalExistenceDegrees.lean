@@ -2,9 +2,10 @@ import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Models.OrderSecondary
 import TruthCore.Modal.ExistenceDegrees
 
-/-! Finite controls for a separately declared modal weak-bound profile.
-Intensity labels are the existing ordered `Fin 3` labels, not existence truth
-values or counts of worlds. `ExistsAt` remains an independent world-indexed
+/-! Finite and infinite controls for a separately declared modal weak-bound profile.
+The finite controls reuse ordered `Fin 3` intensity labels; the infinite
+control uses ordered Nat labels. Neither is an existence truth value or count
+of worlds. `ExistsAt` remains an independent world-indexed
 predicate. The unused second effect is absent in these interpretations; its
 assigned intensity is ignored by the existence-guarded comparisons.
 
@@ -232,5 +233,72 @@ namespace PotentialOnly
 theorem actualInvariant : ActualNecessaryDegreeInvariant ontic intensity false source :=
   fun h => invariant h.2
 end PotentialOnly
+
+/-! An infinite control of possible attainment. Natural-number worlds are
+alternative labels, not times or numbers of worlds. Each world has the same
+necessary source/effect population and actual causal edge. Intensity varies
+with the label although the accessible family and presence facts do not. -/
+namespace UnboundedWorlds
+def ontic : Ontic Nat EffectBeing where
+  frame := ⟨fun _ _ => True⟩
+  ExistsAt := fun _ x => fixedEffects.ExistsAt false x
+  Causes := fun _ x y => fixedEffects.Causes false x y
+
+def intensity (w : Nat) (_ : EffectBeing) : Nat := w
+
+/-- Full nonlogical modal/causal background except degree invariance, together
+with failure even of some attained global degree maximum. No degree is compared
+as an existence truth value, and absent candidates are existence-guarded. -/
+def JointWitness : Prop :=
+  (∀ w v, ontic.frame.access w v) ∧
+  ActualReflexive ontic 0 ∧ ontic.ExistsAt 0 source ∧
+  NecessaryAt ontic 0 source ∧ SoundDistinctCauses ontic ∧
+  OtherDirectedPotentialCause ontic 0 source ∧
+  WeakCauseDegreeBound ontic intensity 0 ∧
+  ¬ NecessaryDegreeInvariant ontic intensity 0 source ∧
+  ¬ ActualNecessaryDegreeInvariant ontic intensity 0 source ∧
+  ¬ AttainedGlobalDegreeMaximum ontic intensity 0
+
+theorem allAccess : ∀ w v, ontic.frame.access w v := fun _ _ => trivial
+
+theorem reflexive : ActualReflexive ontic 0 := trivial
+
+theorem actual : ontic.ExistsAt 0 source := Or.inl rfl
+
+theorem necessary : NecessaryAt ontic 0 source := fun _ _ => Or.inl rfl
+
+theorem sound : SoundDistinctCauses ontic :=
+  fun _ x y h => fixedEffectsSound false x y h
+
+theorem actualEdgeEveryWorld : ∀ w, ontic.Causes w source firstEffect :=
+  fun _ => ⟨rfl, rfl⟩
+
+theorem potential : OtherDirectedPotentialCause ontic 0 source := by
+  intro v _ y hy hne
+  change y = source ∨ y = firstEffect at hy
+  rcases hy with hSource | hEffect
+  · exact (hne hSource).elim
+  · exact ⟨v, trivial, rfl, hEffect⟩
+
+theorem bound : WeakCauseDegreeBound ontic intensity 0 :=
+  fun v _ _ _ _ _ _ => Nat.le_refl v
+
+theorem notInvariant : ¬ NecessaryDegreeInvariant ontic intensity 0 source :=
+  fun h => (by decide : ¬ ((1 : Nat) ≤ 0)) ((h necessary) 1 trivial).1
+
+theorem notActualInvariant : ¬ ActualNecessaryDegreeInvariant ontic intensity 0 source :=
+  fun h => (by decide : ¬ ((1 : Nat) ≤ 0)) (h ⟨actual, necessary⟩ 1 trivial).1
+
+/-- Every candidate maximum at v is exceeded by the existing source at v+1.
+The comparison is across alternative worlds, not successive moments. -/
+theorem noAttainedMaximum : ¬ AttainedGlobalDegreeMaximum ontic intensity 0 := by
+  intro ⟨v, x, _, _, hBound⟩
+  have hBad := hBound (v + 1) trivial source (Or.inl rfl)
+  exact Nat.not_succ_le_self v hBad
+
+theorem jointWitness : JointWitness :=
+  ⟨allAccess, reflexive, actual, necessary, sound, potential, bound,
+    notInvariant, notActualInvariant, noAttainedMaximum⟩
+end UnboundedWorlds
 
 end TruthCore.Models.ModalExistenceDegrees
