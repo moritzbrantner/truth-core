@@ -29,7 +29,8 @@ state.
 ## Startup and health check
 
 Configure the existing verifier cache once in the repository's **local** git
-config (shared by its worktrees), then run one preflight per worker startup:
+config (shared by its worktrees), then run one preflight for that toolchain/cache
+setup and supply its result to workers:
 
 ```bash
 git config --local truthcore.verifierHome /absolute/existing/cache
