@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-4D-ORIGIN-OBJECTION",
+  "statement_id": "STMT-KLEIN-TURRI-TRANSFER-ONLY-OBJECTION",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§4d, paragraphs beginning “Thus, Aristotle holds” and “The unexplained origin objection”, ending with Dancy quotation",
+  "interpretation": "Prose reading of an objection reported by Klein and Turri. The original Aristotle, Ginet and Dancy works have not been materialized for these claims; no direct attribution to those authors is created. The transfer-only requirement is a disputed premise, not a theorem about every justification norm.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

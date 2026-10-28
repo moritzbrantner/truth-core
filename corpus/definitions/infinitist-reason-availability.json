@@ -1,0 +1,11 @@
+{
+  "id": "DEF-INFINITIST-REASON-AVAILABILITY",
+  "term": "infinitist availability versus completed production",
+  "basis": "sourced",
+  "definition": "An appropriately structured series of reasons is available to an agent without the agent actually producing every member. The surveyed reply distinguishes the contextual production of finitely many reasons from further reasons being available; it leaves the feasibility, comprehension and epistemic adequacy of such availability to be defended.",
+  "claim_ids": [
+    "KLEIN-TURRI-4A-AVAILABLE",
+    "KLEIN-TURRI-4B-PROOF-OF-CONCEPT"
+  ],
+  "note": "Source-specific epistemic reading, not an interpretation of physical causation, existence or GeneratedWarrant. No universal adequacy standard is established by attribution."
+}
