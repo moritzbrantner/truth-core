@@ -1,0 +1,16 @@
+{
+  "id": "LEIBNIZ-45-INTRINSIC-REASON",
+  "statement_id": "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§45",
+  "interpretation": "Prose source reading of the closing retrospective a posteriori clause. It concerns the proposed final ground, not every individual satisfying a de re necessity predicate. It neither establishes an actual ground nor certifies the sufficiency or noncircularity of an intrinsic reason.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}

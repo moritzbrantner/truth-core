@@ -1,0 +1,16 @@
+{
+  "id": "LEIBNIZ-36-37-CONTINGENT-DETAIL-DEFERMENT",
+  "statement_id": "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§§36–37",
+  "interpretation": "Prose reading of Leibniz’s inferential step: the explanandum is the contingent sequence or connection, and further contingent detail renews the demand. The source draws an outside-the-series conclusion in the existing series statement. This record does not prove that every global or non-well-founded explanation is inadequate.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-LEIBNIZ-FACT-REASON-DEMAND",
+    "DEF-KANT-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}
