@@ -1,0 +1,22 @@
+{
+  "id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "premise_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE"
+  ],
+  "meaning": "Operational configuration adapter of existing all_external_causes_impossible: population and full causal well-foundedness at one world contradict the all-world claim that every existent has a distinct existing cause. It uses no explanation-coverage or PSR premise and is not a new philosophical discovery. Existing EmptyWorld, MutualCauses and Intrinsic controls provide the three single-removal interpretations; no new model data are introduced. Root premises unchanged.",
+  "definition_ids": [
+    "DEF-CONFIGURATION-FALSE",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-PSR-WELL-FOUNDED-CAUSES-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

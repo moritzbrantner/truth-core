@@ -1,0 +1,19 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WorldSourceRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WorldSourceRegress.checks",
+    "TruthCore.Results.Causality.WorldSourceRegress.actualSource_iff",
+    "TruthCore.Results.Causality.WorldSourceRegress.sourcePath_of_acc",
+    "TruthCore.Results.Causality.WorldSourceRegress.chain_injective",
+    "TruthCore.Results.Causality.WorldSourceRegress.source_or_regress",
+    "TruthCore.Results.Causality.WorldSourceRegress.worldProjection",
+    "TruthCore.Results.Causality.WorldSourceRegress.finite_source"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

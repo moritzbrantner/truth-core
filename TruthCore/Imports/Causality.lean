@@ -14,10 +14,13 @@ import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
+import TruthCore.Causality.NamedPotentialCauser
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
+import TruthCore.Causality.ParityUnionRegress
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalEventControls
+import TruthCore.Causality.WorldSourceRegress

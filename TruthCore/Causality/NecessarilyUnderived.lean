@@ -75,7 +75,11 @@ def ActualReflexive (m : Ontic World Being) (w₀ : World) : Prop :=
 
 /-- Union of the world-indexed direct existential-support edges, restricted
 to rigidly necessary bearers. Well-foundedness here is a cross-world condition:
-even if every world's edge relation is a DAG, their union need not be. -/
+even if every world's edge relation is a DAG, their union need not be.
+Each edge remains wholly within its witness world; a path in this overlay may
+combine edges witnessed at different worlds and is not an actual causal path.
+Requiring this overlay to be well-founded is an additional open constraint,
+not ordinary worldwise causal or temporal coherence. -/
 def UnionNecessarySupport (m : Ontic World Being)
     (supportsEsse : World → Being → Being → Prop) (w₀ : World)
     (source target : Being) : Prop :=

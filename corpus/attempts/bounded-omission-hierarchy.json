@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-BOUNDED-OMISSION-HIERARCHY",
+  "statement_ids": [
+    "STMT-BOUNDED-OMISSION-HIERARCHY",
+    "STMT-BOUNDED-OMISSION",
+    "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+    "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Issue606 bounded slice of534. Main0f1059ba and open PRs contained no equivalent singleton/bounded omission module; the533 positive theorem was not available on main. Reused Quantifiers and the exact Alternating.checks individual-contingency conjunct. UpTo quantifies every Fin n indexed selection for n\u2264k, permitting repetition; the zero-selection clause is exactly successor existence even with an empty roster. Checked general downward closure and JointAbsence\u2192UpTo for every bound. Existing Bool alternating populations give UpTo1 and not UpTo2. Three universally accessible singleton populations on the enumerated Slot carrier give UpTo2, not UpTo3, IndividualContingency, DeDicto, not DeRe and not JointAbsence. Rejected treating pairwise omission as unrestricted whole-roster absence, conflating worlds with times, or treating stipulated profiles as metaphysical evidence. Initial Fin3 carrier decisions and Fin.fin_one_eq_zero elaborated but introduced propext/Quot.sound through imported instances/lemmas. Replaced those proof artifacts by the isomorphic three-constructor carrier and direct Nat/Fin structural elimination; the final theorem and every registry certificate have no axioms. This changes no population semantics. The optional general k+1 construction was not pursued: the two strict finite steps plus arbitrary-bound monotonicity meet the requested bounded slice without new cardinality machinery. The new bounded-omission model vocabulary includes the bound parameter; the existing necessary-individual configuration profiles are unchanged. Dossiers for all six target statements were inspected; no statement here is a root-route open leaf. No source-derived claim, new metaphysical premise, necessary individual, or root discharge. Intended and actual root-path open-premise delta0; all existing root-path premises remain. Interactive service accepted final combined task definitions, Solution and model certificates with no errors/warnings and reported no axioms for checks, pairs, individual, populated, noNecessary, noEmpty and enumerate. Service workspace head75192b1c3efdf19f25601e52a06116e706420f11, causal-harvest Scratch/issue606.lean version8, effective input SHA2566eac88076bea215f78c2ea9a30fbd6d72770a9e535fc34b30f660eaa978f5dfb. Lease wait0.000023s, HTTP0.252s, service elaboration0.221s; initial import/elaboration8.105s (HTTP8.518s), subsequent edits0.235\u20130.319s API. One shared-lease wait was6.022s and its API time0.277s, kept distinct from elaboration latency. Frozen Challenge SHA256b81f4145cf6e832561a0ca1e8714d2df79257c7727778dd18afc3617169b8f6c unchanged. Corpus validation passes; final integration build, binding, Comparator and NanoDa are CI-owned, not claimed as completed locally.",
+  "evidence": [
+    "BOUNDED-OMISSION-HIERARCHY"
+  ],
+  "blocker": "No local implementation blocker. Metaphysical admissibility and any independent defense of unrestricted recombination remain open; final delivered-revision integration gates remain CI-owned."
+}

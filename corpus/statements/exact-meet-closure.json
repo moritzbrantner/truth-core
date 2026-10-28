@@ -1,0 +1,10 @@
+{
+  "id": "STMT-EXACT-MEET-CLOSURE",
+  "paraphrase": "Every ordered pair of worlds accessible from the supplied base world has an accessible world whose population is exactly their intersection. No successor or nonempty population is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ExactMeetClosure",
+  "definition_ids": [
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ]
+}
