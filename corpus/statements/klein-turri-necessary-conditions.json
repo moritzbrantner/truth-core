@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
+  "paraphrase": "The Klein–Turri enhancement account requires exclusion of target-presupposing reasons and rejects any reason being sufficiently justified independently of further reasons; these conditions are necessary but not jointly sufficient for enhancing a belief.",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

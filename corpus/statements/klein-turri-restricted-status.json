@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
+  "paraphrase": "The enhancement and interrogation arguments concern specified reason-related epistemic statuses; the article assumes non-skepticism for these arguments and allows unreasoned knowledge outside the superior reflective status at issue.",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

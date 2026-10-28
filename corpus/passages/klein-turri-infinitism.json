@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KLEIN-TURRI-INFINITISM",
+    "source_url": "https://iep.utm.edu/inf-epis/",
+    "retrieved_at": "2026-10-28T20:18:44Z",
+    "sha256": "sha256:d32fb3a1b27855432249179fdf86c1ba272f3ce9528b737ab826b5b7cf8c65bf",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright Peter D. Klein, John Turri and Internet Encyclopedia of Philosophy. Public author-coauthored scholarly exposition; only hashes, short incipit, locators and analytical paraphrases committed, no full-text redistribution."
+  },
+  "passages": [
+    {
+      "id": "KLEIN-TURRI-INFINITISM-FULL",
+      "locator": "Infinitism in Epistemology, sections 1–4 and references",
+      "claim_locator_prefixes": [
+        "§"
+      ],
+      "html_selector": {
+        "heading": "Infinitism in Epistemology"
+      },
+      "text_sha256": "sha256:e8507aa40db86b12815f8038227f2a20297ec266748d8753352380a6a90bb79d",
+      "incipit": "Infinitism in Epistemology\nThis article provides an overview of infinitism in"
+    }
+  ]
+}

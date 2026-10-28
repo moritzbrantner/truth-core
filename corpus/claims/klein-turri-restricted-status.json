@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-3B-RESTRICTED-STATUS",
+  "statement_id": "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§3b, opening paragraph; §3b.ii, paragraphs beginning “A key idea” and “Lines 1 and 2”",
+  "interpretation": "Prose reading only. No general proof that all knowledge requires an infinitist chain is advertised; the premise specifying the epistemic status and the non-skeptical assumption remain visible.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "MCTAGGART-1908-ULTIMATE-NEED-NOT-UNREAL",
+  "statement_id": "STMT-MCTAGGART-ULTIMATE-NEED-NOT-UNREAL",
+  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "locator": "The Unreality of Time, paragraphs beginning 'We must consider a possible objection' and 'But this does not apply here'",
+  "interpretation": "The first paragraph poses the ultimate-concept objection; the second explicitly concedes possible validity without a valid explanation, then appeals to the alleged surviving contradiction. This does not attribute acceptance of every brute fact, PSR denial, or a proof that the A series actually is contradictory. Source reading in prose only; no new Lean declaration or result.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}
