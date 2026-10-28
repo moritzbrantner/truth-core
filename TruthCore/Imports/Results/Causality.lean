@@ -9,6 +9,10 @@ import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
 import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.Classification.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solution
+import TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.FiniteRestriction.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution

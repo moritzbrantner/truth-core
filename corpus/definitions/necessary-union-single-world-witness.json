@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNION-SINGLE-WORLD-WITNESS",
+  "term": "one-world witnessing of a union loop",
+  "definition": "NoSingleWorldCycle denies, at every world w and necessary b, a nonempty TransGen loop whose every edge both belongs to the union and is witnessed by PresentEsseSupport at that same w. It excludes a whole path being witnessed there; it does not assert unique worlds for its edges or exclude edges shared by worlds.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.NoSingleWorldCycle"
+}
