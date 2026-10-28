@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.SoritesBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.SoritesBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.SoritesBoundary.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

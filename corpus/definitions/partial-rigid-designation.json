@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PARTIAL-RIGID-DESIGNATION",
+  "term": "existence-sensitive partial rigid designation",
+  "definition": "A Name is a relation from candidate descriptions to candidate bearers, with no totality or functionality built into its type. RigidAt m n w x says at every m-accessible v, n v y iff y = x and ExistsAt v x. Hence no other bearer is designated, and the selected bearer is designated exactly when it exists at that successor. It does not assert an actual referent or actual existence, and does not constrain E-only alternatives. Ontic and NecessaryAt retain their existing meanings.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RigidDesignation.RigidAt",
+  "note": "Analyst-defined existence-sensitive profile; not a sourced reading of Kripke. Relational designation avoids forcing a referent through a total function. Numerical equality is reused; counterpart correspondence is not silently substituted. Actual co-designation appears explicitly in Laws even though the successor characterization needs only rigidity. A source reading and applicability to ordinary names remain open."
+}

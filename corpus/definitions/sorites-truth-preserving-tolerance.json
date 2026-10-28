@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SORITES-TRUTH-PRESERVING-TOLERANCE",
+  "term": "truth-preserving local tolerance on a finite case chain",
+  "definition": "Tolerance P n means every k<n satisfies P k \u2192 P(k+1). Boundary P n means some k<n satisfies P k and not P(k+1). P is a binary predicate; decidability is explicitly quantified only for boundary extraction. The index counts cases, not time, causes or grains in an empirically fixed heap.",
+  "basis": "stipulative",
+  "note": "Analyst profile comparing commitments; not attributed to an author. No perceptual indistinguishability or ability to know the boundary is asserted.",
+  "lean_declaration": "TruthCore.Logic.SoritesBoundary.Tolerance"
+}

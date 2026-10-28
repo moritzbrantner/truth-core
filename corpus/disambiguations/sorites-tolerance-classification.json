@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SORITES-TOLERANCE-CLASSIFICATION",
+  "term": "tolerance, classification and boundary",
+  "sense_definition_ids": [
+    "DEF-SORITES-TRUTH-PRESERVING-TOLERANCE",
+    "DEF-SORITES-PARTIAL-NONOPPOSITION"
+  ],
+  "resolution": "Binary truth-preserving tolerance passes membership to each successor. Partial non-opposition merely excludes immediately opposed determinate statuses and does not pass positivity through borderline cases. The theorem does not refute the latter from the inconsistency of the former with opposed endpoints. Predicate extension, detectability and epistemic certainty are distinct. Borderline status does not establish metaphysical indeterminacy; classical metatheory does not establish sharpness of ordinary vague language. Sorites is not a parthood or temporal persistence theorem."
+}

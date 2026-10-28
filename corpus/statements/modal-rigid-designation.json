@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MODAL-RIGID-DESIGNATION",
+  "paraphrase": "For every Ontic model, two partial names, origin and selected bearer, actual designation by both names and existence-sensitive rigidity of both names imply: strict necessary co-reference holds iff that bearer exists at every admitted successor; co-reference holds at each successor where it exists; inclusion of E successors in M successors transfers strict necessity to E. Finite controls separate rigidity from necessary existence and M-necessity from E-necessity.",
+  "lean_declaration": "TruthCore.Modal.RigidDesignation.Checks",
+  "definition_ids": [
+    "DEF-PARTIAL-RIGID-DESIGNATION",
+    "DEF-STRICT-NAME-COREFERENCE",
+    "DEF-TWO-RELATION-POSSIBILITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RIGID-IDENTITY-EXISTENCE",
+    "DISAMB-DESCRIPTION-MODAL-ADMISSIBILITY"
+  ]
+}
