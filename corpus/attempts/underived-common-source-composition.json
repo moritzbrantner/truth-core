@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-UNDERIVED-COMMON-SOURCE-COMPOSITION",
+  "statement_ids": [
+    "STMT-NAMED-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Witness-preserving composition of existing #495/#608 with #633. See docs/power-existence-scope-boundary.md, Same-support-source composition. Named underivedness yields an actual source on the graph with edge R w and the existing actual subtype. SourceForest.atMostOne_of_confluent then identifies every actual R-source with that same n under weak connectivity and upstream confluence of THIS graph. The existential version unpacks the exact #495 conclusion and retains named necessity and no-support scope. A separate ordinary-causal alternative requires the explicitly OPEN one-way ActualCauseSupportsEsse interface for actual endpoints at the selected w, with connectivity/confluence on actualGraph m w instead. No R=Causes substitution, ordinary-world WF, reflexivity, maximality or reciprocal universal potential causation is used. Named presence guards population. Existing fork retains the weak-connectivity-only two-root rival; confluence is the added conditional discriminator. No source attribution, intrinsic explanation, all-world uniqueness, path coverage, God or simplicity claim is made. Named and existential-fiber helpers distinguish scope and relation; final metadata advertises only two end-to-end connections. Interactive exact full-content proof at shared head5da45a3204847bde44c713fbac1e4995a612a12d, session causal-harvest, Scratch/issue319/CommonSource.lean version1 returned diagnostic[]; SHA256 9c624750257b6e172e0b9b622a4701351b3576dc6076009e94d2b238f0b5b53b. HTTP1.338s/API1.309s/lock0.000065s; no workspace file mutation. This is focused proof discovery evidence, not final Comparator certification. New statements/definitions, exact direct premise vectors and final CI records preserve the boundary. Final advertised results from_union and causal_from_union IMPORT and APPLY exact NecessarilyUnderived.PositiveUnion.checks, retaining all five original #495 premises before lifting the returned witness. Thus necessary-support-union WF IS retained; only ordinary-world causal WF is absent. Named and existential-fiber lemmas remain implementation helpers, not new ordinary-premise corpus arguments. Two end-to-end certificate records distinguish support and ordinary causation, with exact seven- and eight-premise vectors. Final integrated full-content proof accepted by the same session at49b4589aa6744c91a6bc9adec13215d0e7245c9d version3 with diagnostic[], SHA25613ce158fd201f7ef84e0874d4fc41b5cd4bff87b1f52a92f8bffa80eca0ec630; API1.582s, HTTP1.610s, lock0.000028s. Initial version2 probe failed only because a newly added import was concatenated after declarations in the scratch request; fixing request import placement yielded version3 success, with no source/type weakening. Frozen final Challenge SHA2561a947cff8b992041fbaf60d96921f184f74016265a594bddfd90d8163e1795ed. Against pristine49b4589a archive, both --routes and --reaching-root reports are byte-identical. Claim/type self-sweep preserves exact quantifiers, named actual presence, selected-world graph relation and all seven/eight retained premises; canonical Comparator/binding remains CI, not implied by interactive diagnostics.",
+  "evidence": [
+    "NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
+    "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+    "NECESSARY-UNDERIVED-POSITIVE-UNION",
+    "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+    "SOURCE-FOREST-OMISSION-CONTROLS"
+  ],
+  "blocker": "No root closure: metaphysical applicability of support connectivity/confluence and, for ordinary-causal identification, ActualCauseSupportsEsse remains open. The instrumental-power witness still needs its own same-domain source proof. Canonical final proof certification is delegated to CI."
+}
