@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SOURCE-FOREST-OMISSION-CONTROLS",
+  "lean_declaration": "TruthCore.Causality.SourceForest.OmissionControls",
+  "paraphrase": "The fixed fork, isolated pair, integer chain and empty graph witness the separate limits of immediate-predecessor uniqueness, causal connectivity, WF and population in the stated structural routes.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-SOURCE-FOREST-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

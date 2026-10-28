@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SourceForest.atMostOne_of_confluent"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SOURCE-FOREST-CONTROLS",
+  "term": "fixed source-constraint omission and strictness graphs",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SourceForest.OmissionControls",
+  "definition": "fork has three nodes a,b,c with exactly a\u2192c and b\u2192c; a,b are distinct sources. isolated has two Bool nodes and no edges. chain has all Int nodes with edge y x iff y=x+1; integer labels index causal nodes, not temporal instants. empty has carrier Empty and no edges. OmissionControls certifies the fork is connected, well-founded and acyclic but not left-unique; isolated is left-unique and well-founded but disconnected with two sources; chain is connected, left-unique and at-most-one-source but not well-founded and has no source; Empty is connected, left-unique, well-founded and at-most-one-source but unpopulated and source-free. diamond has nodes root,left,right,tip, with root\u2192left, root\u2192right, left\u2192tip, right\u2192tip. ConfluenceStrictnessControl certifies its upstream confluence, weak connectivity, WF, failure of immediate predecessor uniqueness, and one source with paths from all nodes.",
+  "note": "Explicit mathematical interpretations only, not claims that causal or metaphysical possibilities are realized. Empty connectivity uses the universal zigzag convention rather than a nonempty connected-space convention. The fixed diamond proves the sufficient left-unique restriction can be strictly weakened to upstream confluence."
+}

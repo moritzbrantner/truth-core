@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "argument_id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForest.confluent_of_uniquePredecessor",
+  "comparator_config": "results/SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR/comparator.json",
+  "status": "solution-present",
+  "description": "Mathlib Church\u2013Rosser on reversed edges: left uniqueness makes each immediate upstream fork have equal endpoints, supplying the local diamond condition. This derives upstream confluence as a sufficient structural condition, without asserting it of actual causation. Root-premise delta zero; no philosophical premise is established."
+}

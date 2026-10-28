@@ -1,0 +1,14 @@
+{
+  "id": "INF-SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+  "input_statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-SOURCE-FOREST-WELL-FOUNDED",
+    "STMT-SOURCE-FOREST-POPULATED"
+  ],
+  "output_statement_id": "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "Compose WorldSourceRegress.sourcePath_of_acc at an explicitly present node to get a source; compose the confluence-based at-most-one theorem to identify all sources. For each node, compose sourcePath_of_acc again and transport its finite path endpoint to the same unique source. All structural philosophical premises stay open, and no world-to-world common witness or source with an outgoing edge is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

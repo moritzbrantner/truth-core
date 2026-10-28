@@ -1,0 +1,24 @@
+{
+  "id": "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+  "premise_statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-SOURCE-FOREST-WELL-FOUNDED",
+    "STMT-SOURCE-FOREST-POPULATED"
+  ],
+  "conclusion_statement_id": "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+  "inference_ids": [
+    "INF-SOURCE-FOREST-ROOTED-FROM-CONFLUENCE"
+  ],
+  "meaning": "Compose WorldSourceRegress.sourcePath_of_acc at an explicitly present node to get a source; compose the confluence-based at-most-one theorem to identify all sources. For each node, compose sourcePath_of_acc again and transport its finite path endpoint to the same unique source. All structural philosophical premises stay open, and no world-to-world common witness or source with an outgoing edge is inferred.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
