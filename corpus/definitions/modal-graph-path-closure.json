@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-GRAPH-PATH-CLOSURE",
+  "term": "quiver reachability versus one-step modal accessibility",
+  "definition": "Quiver.Reachable for the explicit frame quiver means a nonempty type of finite directed paths, including the zero-edge nil path. It corresponds to Relation.ReflTransGen F.access, not in general F.access. Reflexive F means every world accesses itself; Transitive F collapses each two-step access to an edge; together they identify reachability and access. Euclidean F means two successors of a common world access one another. Under transitivity boxed truth persists along paths; transitivity plus Euclideanness makes the successor cones of a world and its accessible successor agree pointwise. None of these frame conditions is automatic.",
+  "basis": "stipulative",
+  "note": "Uses Mathlib path/closure notions. The Unit dead-end control has a nil path without an access edge and distinguishes original box-false from box-false over the closure frame. Analytic convergence, causal regress, temporal order and arbitrary world identity are not asserted.",
+  "lean_declaration": "TruthCore.Modal.GraphBridgeCertificate"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "argument_id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Challenge",
+  "solution_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Solution",
+  "theorem": "TruthCore.Results.Modal.GraphBridgeCertificate.certificate",
+  "comparator_config": "results/MODAL-GRAPH-BRIDGE-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Transparent universal assembly of ten previously frozen mathematical graph-bridge facts. Round trips preserve Frame/Digraph structure and adjacency equals one-step access. The explicit thin quiver has an arrow exactly for each access edge. Its reachability equals reflexive-transitive closure; only the reflexive-and-transitive clause identifies that closure with access. Under transitivity, boxed Holds persists along paths, including nil paths, while remaining boxed. Under transitivity and Euclideanness, accessible source/target worlds have equal successor cones pointwise. The Unit dead-end control has a nil path but no access edge: box-false holds over the original frame and fails over its reflexive-transitive closure. All restrictions occur inside their respective universally quantified clauses; there is no global frame, population or excluded-middle premise. This is delivery by assembly, not another mathematical discovery, a philosophical premise defense or root closure. The original ten-theorem Challenge remains frozen and all ten original helpers are also listed as Comparator targets. Root-premise delta none. The permitted axiom profile is exactly the approved Mathlib three; the original reachability/access helper reports propext and Quot.sound from the reused Mathlib closure theorem. No claim of zero axioms is made for the bundle. Final integrated certification remains coordinator-owned."
+}
