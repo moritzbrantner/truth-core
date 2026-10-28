@@ -23,6 +23,7 @@ import TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solu
 import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
 import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
 import TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution
+import TruthCore.Results.Logic.SoritesBoundary.Solution
 import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
 import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
