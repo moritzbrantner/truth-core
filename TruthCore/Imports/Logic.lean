@@ -12,6 +12,7 @@ import TruthCore.Logic.RegressDomains
 import TruthCore.Logic.Relativism
 import TruthCore.Logic.Scientism
 import TruthCore.Logic.SelfApplication
+import TruthCore.Logic.SoritesBoundary
 import TruthCore.Logic.ThoughtChangeSubject
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthPilot
