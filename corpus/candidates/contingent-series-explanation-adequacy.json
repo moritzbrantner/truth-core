@@ -1,0 +1,9 @@
+{
+  "id": "CONTINGENT-SERIES-EXPLANATION-ADEQUACY",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§§32–38,45",
+  "priority": 430,
+  "goal": "Defend or reject the claim that an explanation of the obtaining contingent sequence cannot be completed solely by further contingent members whose own obtaining remains unexplained. Evaluate the whole-series sufficient-reason norm and whether a non-well-founded global structural account can meet it; do not stipulate that all explanation is inductively generated. Separately test the proposed necessary ground’s intrinsic sufficiency and actuality.",
+  "reason": "The read §§36–37 supplies an explicit argument for explanatory deferment, while existing unique-feedback/history-contrastive/regress certificates do not choose its adequacy norm. Mathematical uniqueness does not by itself explain why its constraint system obtains; conversely, saying an account is infinite does not show that a stronger global account leaves that fact unexplained. The source claim is not an automatic inference from epistemic Agrippa skepticism to causal impossibility. See docs/notes/unique-feedback-explanation-311.md.",
+  "status": "candidate"
+}

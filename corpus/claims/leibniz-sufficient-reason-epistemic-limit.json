@@ -1,0 +1,15 @@
+{
+  "id": "LEIBNIZ-32-REASON-EPISTEMIC-LIMIT",
+  "statement_id": "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
+  "source_id": "LEIBNIZ-MONADOLOGY",
+  "locator": "§32",
+  "interpretation": "Prose source reading of the qualification that sufficient reasons usually cannot be known by us. No absent reason is inferred from absent knowledge, and no adequate reason is certified merely because a token is stipulated.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+  ]
+}

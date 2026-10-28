@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-EXPLANATORY-REGRESS-ADEQUACY-311",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
+    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+    "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
+    "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
+    "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
+    "STMT-UNIQUE-FEEDBACK-CONTROL",
+    "STMT-HISTORY-CONTRASTIVE-CONTROLS"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Owner renewed the Agrippa/Münchhausen challenge to explanatory regress. Materialized/read the complete pinned Latta Monadology §§31–45, separating §32 universal explanatory scope and epistemic limitation, §§33–35 analytical termination, §§36–37 renewed contingent-detail demand and §45 proposed intrinsic existence reason. Existing unique-feedback, history-contrastive and regress fixed-point certificates already cover the formal omission tests; no duplicate theorem or opaque adequacy predicate is added. Leibniz argues against leaving the whole contingent sequence explained only by further contingent details, not against infinity as a cardinal or against every beginningless history. The independently disputed premises are whole-series PSR, the inadequacy of an undischarged contingent explanation-base, and the exclusion of intrinsic global/non-well-founded accounts. A brute global fact, a complete structural account and a non-well-founded ground account are separate positive rivals. Neither necessity nor a reason-token alone certifies the proposed necessary ground’s sufficiency. See the explanatory-adequacy audit in docs/notes/unique-feedback-explanation-311.md for exact argument steps, theorem locators, rejected readings and remaining bridges. Intended/actual root-premise delta zero; no premise established, no source-free per se causal impossibility inferred.",
+  "evidence": [
+    "LEIBNIZ-32-FACT-REASON-DEMAND",
+    "LEIBNIZ-32-REASON-EPISTEMIC-LIMIT",
+    "LEIBNIZ-33-35-ANALYTIC-TERMINUS",
+    "LEIBNIZ-36-37-CONTINGENT-DETAIL-DEFERMENT",
+    "LEIBNIZ-45-INTRINSIC-REASON",
+    "LEIBNIZ-SERIES-SUFFICIENT-REASON-A",
+    "UNIQUE-FEEDBACK-CONTROL",
+    "HISTORY-CONTRASTIVE-CONTROLS",
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}
