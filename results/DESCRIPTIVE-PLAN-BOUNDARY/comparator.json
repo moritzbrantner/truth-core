@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.DescriptivePlanBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.DescriptivePlanBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.DescriptivePlanBoundary.boundary"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -45,4 +45,6 @@ import TruthCore.Imports.Results.Modal
 import TruthCore.Imports.Results.Modern
 import TruthCore.Imports.Results.Plato
 import TruthCore.Imports.Results.Politics
+import TruthCore.Imports.Results.Science
+import TruthCore.Imports.Science
 import TruthCore.Imports.Teleonomy

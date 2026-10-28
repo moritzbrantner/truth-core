@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCIENCE-PREDICATE-RECODING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCIENCE-PREDICATE-RECODING",
+  "rule": "direct-proof",
+  "meaning": "Two-phase Boolean recoding is involutive; transporting any predicate preserves its value on the corresponding recoded feature. In the supplied original feature basis, phase independence is equivalent to factorization through the feature alone. The base feature predicate is phase independent, while its transported representation is not independent when the coded feature coordinate is held fixed. No choice of privileged physical basis, inductive entitlement, or actual color behavior follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

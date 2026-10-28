@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENCE-PREDICATE-RECODING",
+  "term": "phase independence in a supplied feature basis",
+  "definition": "A predicate p assigns a Boolean value to a Boolean phase and feature. PhaseIndependent p holds that p false feature equals p true feature for each fixed feature. recode complements the feature in phase true and leaves it unchanged in phase false. transported p evaluates p at the inverse-recoded feature. base returns its feature. Each phase has an invertible coding; the fixed coordinate used in the independence comparison changes under recoding.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Science.PredicateRecoding.PhaseIndependent",
+  "note": "A deliberately bounded analytical test, not a source definition of qualitative predicates, physical color, or Goodman grue. See docs/notes/carneades-induction.md. A source defense would need a criterion selecting relevant physical features independently of the coding."
+}
