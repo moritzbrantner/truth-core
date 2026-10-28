@@ -14,6 +14,40 @@ For one owner-scoped thesis or argument (#565):
 
 Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
 
+## Interpreting causal and dependency relations
+
+Before a causal or dependency relation supports a metaphysical conclusion, answer
+these questions in its existing definition/disambiguation records or linked
+research notes, with evidence and explicit **OPEN** burdens where answers remain
+undefended:
+
+1. **Meaning.** What does the relation mean in ordinary language, without relying
+   on its symbol or formal properties to explain it?
+2. **Phenomena.** What are its clearest actual instances or phenomena, and why do
+   they instantiate this meaning?
+3. **Exclusions.** Which nearby cases fail to instantiate it, and what excludes
+   them? Distinguish efficient causation, grounding and conservation rather than
+   treating their names as interchangeable.
+4. **Properties.** What independently justifies each property the argument uses,
+   especially asymmetry, transitivity and well-foundedness, for this interpreted
+   relation on the stated domain? A physical example or the word “essential” is
+   not a proof of well-foundedness. A finite or inductively generated model proves
+   properties of that construction; it does not silently discharge well-foundedness
+   of actual dependence. State whether a property concerns one local relation or
+   a union of relations: properties of each component need not hold for the union.
+5. **Abstraction.** Why does an interpretation illustrated by physical causation,
+   electricity, motion or support license the proposed claim about existence or
+   general metaphysical dependence? Identify and defend the bridge, its domain
+   and limits; shared vocabulary or relational form does not supply it.
+
+Prioritize the independent property justifications and the abstraction bridge
+(questions 4–5). A pure relational theorem establishes a conditional mathematical
+consequence, not the causal applicability of its relation. Such theorems remain
+useful and may be developed with open interpretive burdens, but must not be
+advertised as metaphysical support until those burdens are defended. Preserve
+the exact assumptions and unmet burdens in the existing records; this requirement
+adds no registry or verification gate and changes no source-fidelity standard.
+
 ## Progress is depth on the root path, not volume
 
 Use `python3 scripts/corpus.py frontier --routes` and `--reaching-root`. Report exactly what changed for root-facing open premises, including **no change** for unconnected outposts.
