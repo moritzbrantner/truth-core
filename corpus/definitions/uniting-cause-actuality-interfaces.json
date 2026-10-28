@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+  "term": "actuality and correspondence of a uniting cause",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesPresent",
+  "definition": "UnitingCausesPresent says that a distinct CausesIn c x esse witness for a target existing at the selected world has an existing source there. UnitingCausesAreActual separately says that such a distinct cause-in-esse witness with both endpoints existing supplies an Ontic.Causes edge at that world. CommonUnderivedNonComposite retains the same named necessarily underived individual, its unique selected-world actual-source property and the negation of the supplied Composite predicate. InterfaceOmissionControls consists of two explicit Unit-world Bool-being interpretations with that same composite source false: absentCause violates cause presence while retaining edge correspondence; differentCause retains presence but violates edge correspondence.",
+  "note": "Open analyst interfaces, not additional source readings or equations of efficient causation, existential support and sufficient explanation. The existing q.3 Composite parameter keeps its independently supplied interpretation; no claim that all material objects satisfy it or that any model is metaphysically possible."
+}

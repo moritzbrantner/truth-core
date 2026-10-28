@@ -1,0 +1,16 @@
+{
+  "id": "GOLDMAN-1979-AVAILABLE-PROCESS-REVISION",
+  "statement_id": "STMT-GOLDMAN-AVAILABLE-PROCESS-REVISION",
+  "source_id": "GOLDMAN-JUSTIFIED-BELIEF-1979",
+  "locator": "pp. 18–20, section III, Jones case, principle (10) and its limitations",
+  "interpretation": "The contrary testimony is false in the example; actual truth and justification come apart. Principle (10) is tentative, not a final fully precise criterion. Availability does not mean every possible investigation must already have been performed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+  ]
+}

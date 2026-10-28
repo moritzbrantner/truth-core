@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SPATIAL-TRANSLATION-PROFILE",
+  "term": "labeled real-line spatial configuration and translation profile",
+  "definition": "Bodies are labels B and a configuration is B→ℝ in a chosen absolute coordinate. A common shift adds a real displacement to every label. Selected relative data are signed pairwise displacements, stronger than unsigned distances. Origin normalization subtracts one labeled body’s coordinate; it represents a translation orbit and asserts no actual absolute location. This static profile contains no dynamics, rotation, empirical completeness or metaphysical-identity criterion.",
+  "basis": "stipulative",
+  "note": "Analyst geometry, reusing Mathlib real normed-group arithmetic and metric. The Certificate explicitly supplies a body where inhabitedness matters and also includes an empty-domain control. A real line is a bounded mathematical model, not a replacement for three-dimensional mechanics.",
+  "lean_declaration": "TruthCore.Space.TranslationBoundary.Certificate"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
+  "paraphrase": "Goldman offers a case in which compelling original evidence may justify a belief and memory may preserve that status after the evidence is forgotten, leaving the subject unable to demonstrate why the belief is justified.",
+  "definition_ids": [
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+  ]
+}

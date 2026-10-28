@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
+  "term": "noninferential observational knowledge in Sellars",
+  "basis": "sourced",
+  "definition": "An observation report need not be the conclusion of an inference, while its epistemic standing can presuppose other knowledge. This distinction does not identify noninferential knowledge with arbitrary assent or an autonomous self-authenticating Given.",
+  "claim_ids": [
+    "SELLARS-EPM-32-36-NONINFERENTIAL",
+    "SELLARS-EPM-38-DIMENSIONS"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GOLDMAN-RECURSIVE-HISTORICAL-ACCOUNT",
+  "paraphrase": "Goldman initially proposes reliable belief-independent generation and conditionally reliable belief-dependent operations on justified input beliefs, with closure; he accepts describing this historical account as diachronic foundationalism.",
+  "definition_ids": [
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+  ]
+}

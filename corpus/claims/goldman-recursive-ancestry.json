@@ -1,0 +1,16 @@
+{
+  "id": "GOLDMAN-1979-RECURSIVE-ANCESTRY",
+  "statement_id": "STMT-GOLDMAN-RECURSIVE-HISTORICAL-ACCOUNT",
+  "source_id": "GOLDMAN-JUSTIFIED-BELIEF-1979",
+  "locator": "pp. 13–15, section II, principles (6A)–(6B), closure and foundationalism discussion",
+  "interpretation": "Initial stage of the paper, later qualified in section III. Conditional reliability does not make arbitrary unjustified input beliefs justified, and closure is a proposed theory clause rather than an independently proved adequacy norm.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
+    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+  ]
+}
