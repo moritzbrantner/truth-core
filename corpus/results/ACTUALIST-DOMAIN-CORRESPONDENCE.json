@@ -1,0 +1,22 @@
+{
+  "id": "ACTUALIST-DOMAIN-CORRESPONDENCE",
+  "argument_id": "ACTUALIST-DOMAIN-CORRESPONDENCE",
+  "challenge_module": "TruthCore.Results.Modal.ActualistDomains.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ActualistDomains.Solution",
+  "theorem": "TruthCore.Results.Modal.ActualistDomains.checks",
+  "comparator_config": "results/ACTUALIST-DOMAIN-CORRESPONDENCE/comparator.json",
+  "description": "For fixed-roster Ontic semantics with arbitrary total predicates and existence-guarded universal quantification, box-forall to forall-box holds for all predicates/worlds exactly when domains increase along accessibility; the reverse transfer holds exactly when domains decrease. Increasing domains exclude the existing actual-plus-accessible-absence ContingentAt profile. In the unchanged PSR.ContingentOnly ontology, accessibility is universal, false is necessary, and true is contingent at false; both domain policies and both transfers fail. This is an explicit semantic correspondence and one joint countercontrol, not a theorem that S5 removes contingency, a general quantified proof calculus, or metaphysical possibility. Generic laws permit empty domains and require no frame, population, excluded-middle, causal or temporal premise. Intended and actual root-premise delta none.",
+  "definition_ids": [
+    "DEF-ACTUALIST-ALL",
+    "DEF-INCREASING-EXISTENCE-DOMAINS",
+    "DEF-DECREASING-EXISTENCE-DOMAINS",
+    "DEF-BOX-ALL-TO-ALL-BOX",
+    "DEF-ALL-BOX-TO-BOX-ALL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DOMAIN-PERSISTENCE-AND-NECESSITY"
+  ],
+  "status": "solution-present"
+}
