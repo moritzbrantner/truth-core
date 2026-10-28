@@ -1,0 +1,10 @@
+{
+  "id": "STMT-ALIKE-PLACES-MAY-BE-DISTINCT",
+  "paraphrase": "Clarke denies that perfectly alike places must be numerically the same place, and distinguishes a world’s unchanged internal order from its occupying the same absolute place.",
+  "definition_ids": [
+    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-DATA-IDENTITY"
+  ]
+}

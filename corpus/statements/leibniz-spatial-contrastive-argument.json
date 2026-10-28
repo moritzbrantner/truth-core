@@ -1,0 +1,12 @@
+{
+  "id": "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE",
+  "paraphrase": "Leibniz argues that uniform absolute space supplies no reason for one arrangement of the whole material world rather than a relocation preserving the bodies’ mutual situations; he invokes sufficient reason against that absolute-space supposition and rejects mere will as an adequate answer to this contrast.",
+  "definition_ids": [
+    "DEF-LEIBNIZ-RELATIONAL-SPACE",
+    "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-DATA-IDENTITY",
+    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+  ]
+}

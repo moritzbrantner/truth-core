@@ -1,0 +1,11 @@
+{
+  "id": "STMT-VOLITION-MAY-SUFFICE-WITHOUT-EXTERNAL-SPATIAL-DIFFERENCE",
+  "paraphrase": "Clarke accepts sufficient reason while claiming that, when alternatives are equally good or indifferent, an agent’s own will may suffice without an external difference determining which alternative is chosen.",
+  "definition_ids": [
+    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES",
+    "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+  ]
+}
