@@ -34,6 +34,7 @@ import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.SourceForest.Solution
+import TruthCore.Results.Causality.SourceWitness.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution

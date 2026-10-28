@@ -1,0 +1,18 @@
+{
+  "id": "STMT-GRAPH-HAS-SOURCE-WITNESS",
+  "lean_declaration": "TruthCore.Causality.SourceWitness.HasSource",
+  "paraphrase": "Open structural input: the selected graph has at least one graph-relative source. For an actualGraph, this witness is actually present in the selected world; no WF or uniqueness is assumed by this input.",
+  "definition_ids": [
+    "DEF-SOURCE-EXISTENCE-WITNESS",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

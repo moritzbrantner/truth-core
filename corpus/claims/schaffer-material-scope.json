@@ -1,0 +1,14 @@
+{
+  "id": "SCHAFFER-11-MATERIAL-SCOPE",
+  "statement_id": "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
+  "source_id": "SCHAFFER-MONISM",
+  "locator": "§1.1, pp.33–35",
+  "interpretation": "Source reading recorded in prose only. The restricted arena and existence assumptions are retained; no claim about all beings, divine nonexistence or the cosmos being a mereological simple is attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCHAFFER-MATERIAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-MONISM-SCOPE"
+  ]
+}

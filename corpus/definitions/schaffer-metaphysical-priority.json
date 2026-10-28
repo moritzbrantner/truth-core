@@ -1,0 +1,9 @@
+{
+  "id": "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
+  "term": "metaphysical priority in Schaffer",
+  "definition": "Dxy means that x depends metaphysically on y. It is distinct from the parthood relation P and is not identified with efficient causation, temporal succession or the repository’s support-of-esse relation. The article separately assumes irreflexivity, transitivity and well-foundedness.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SCHAFFER-12-PRIORITY-FOUNDATIONALISM"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.ArrangementDynamics.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.ArrangementDynamics.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.ArrangementDynamics.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
