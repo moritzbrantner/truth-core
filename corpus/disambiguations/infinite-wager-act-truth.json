@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-INFINITE-WAGER-ACT-TRUTH",
+  "term": "expected utility, rational action, belief, and truth",
+  "sense_definition_ids": [
+    "DEF-INFINITE-WAGER-MIXTURE",
+    "DEF-INFINITE-WAGER-ACTION-WEIGHT"
+  ],
+  "resolution": "value compares extended nonnegative expected utilities in an explicitly stipulated two-state reward profile. A mixed act independently selects the rewarded act with weight q. It does not select whether a proposition is true and does not model an ability to choose belief. Equality at top defeats strict ranking by this value alone; it does not prove indifference under every decision rule, a duty to randomize, or that any religious hypothesis is true. Positive weights, bounded-probability interpretation, payoff assignments and any maximizing norm remain open application commitments. No signed-cost claim is made."
+}

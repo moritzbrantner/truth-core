@@ -1,0 +1,10 @@
+{
+  "id": "INFINITE-WAGER-MIXTURE-TIE",
+  "argument_id": "INFINITE-WAGER-MIXTURE-TIE",
+  "challenge_module": "TruthCore.Results.Decision.InfiniteWager.Challenge",
+  "solution_module": "TruthCore.Results.Decision.InfiniteWager.Solution",
+  "theorem": "TruthCore.Results.Decision.InfiniteWager.mixtureTie",
+  "comparator_config": "results/INFINITE-WAGER-MIXTURE-TIE/comparator.json",
+  "status": "solution-present",
+  "description": "Restricted nonnegative infinite-reward mixed-act tie with zero-prior and zero-action controls. Standard ENNReal arithmetic does not strictly rank pure action above every positive mixture. No signed finite-cost theorem, practical duty, religious truth or root discharge is claimed."
+}

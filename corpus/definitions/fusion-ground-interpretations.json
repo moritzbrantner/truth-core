@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FUSION-GROUND-INTERPRETATIONS",
+  "term": "strict-part and empty candidate grounding interpretations",
+  "definition": "The same Body order and all its Fusion facts admit partGround x y defined as strict parthood, and noGround x y always false. These are distinct candidate interpretations of a relation, not claims that actual metaphysical grounding is parthood or absent. Extended adds one nonmaterial nonpart candidate; externalControl asserts its nonparthood, not that it is an actual cause.",
+  "basis": "stipulative",
+  "note": "Analyst scope profile for #328, motivated by the materialized Varzi exposition. All-subset quantification is an explicit second-order mathematical choice; neither causal sufficiency nor metaphysical adequacy is attributed to the source. See docs/notes/universal-fusion-grounding.md.",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.partGround"
+}

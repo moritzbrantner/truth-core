@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Decision.InfiniteWager.Challenge",
+  "solution_module": "TruthCore.Results.Decision.InfiniteWager.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Decision.InfiniteWager.mixtureTie"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

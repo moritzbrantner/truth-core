@@ -1,0 +1,11 @@
+{
+  "id": "STMT-STREET-DARWINIAN-ACCESS-CHALLENGE",
+  "paraphrase": "Conditional on her evolutionary picture, Street argues that stance-independent realism owes a relation between selective influences and evaluative truth: denying such a relation leads to skepticism, while her proposed truth-tracking explanation loses to an adaptive-link explanation on scientific explanatory grounds.",
+  "definition_ids": [
+    "DEF-STREET-STANCE-INDEPENDENCE",
+    "DEF-MORAL-ACCESS-CORRELATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

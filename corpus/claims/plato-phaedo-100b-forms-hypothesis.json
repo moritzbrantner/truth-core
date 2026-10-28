@@ -1,0 +1,17 @@
+{
+  "id": "PLATO-PHAEDO-100B-FORMS-HYPOTHESIS",
+  "statement_id": "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS",
+  "source_id": "PLATO-PHAEDO",
+  "locator": "100b",
+  "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. The conditional argumentative start is explicit. This statement neither denies Socrates commitment to Forms nor converts the passage into an independent proof of their existence, uniqueness or maximal degree.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLATONIC-FORM",
+    "DEF-PHAEDO-HYPOTHETICAL-START"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+  ]
+}

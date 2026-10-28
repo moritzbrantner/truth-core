@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PHAEDO-ENABLING-CONDITION",
+  "term": "enabling condition in the Phaedo action example",
+  "definition": "The bodily conditions without which Socrates says he could not carry out his decisions (bones, sinews and the like). Their necessity for this action is distinguished from the explanation of his intelligent choice; this is not a universal taxonomy of all physical causes.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLATO-PHAEDO-99A-ENABLING-BODY"
+  ]
+}

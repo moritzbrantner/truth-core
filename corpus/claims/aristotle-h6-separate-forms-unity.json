@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1045A-SEPARATE-FORMS-UNITY",
+  "statement_id": "STMT-SEPARATE-PREDICATE-FORMS-LEAVE-UNITY-QUESTION",
+  "source_id": "ARIST-MET",
+  "locator": "VIII.6, 1045a14–25",
+  "interpretation": "Prose source reading of this specific unity objection. This does not refute every Platonist theory or establish that no separate Forms exist; a strengthened participation account remains a possible reply requiring examination.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ARISTOTLE-NONHEAP-WHOLE",
+    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
+    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+  ]
+}
