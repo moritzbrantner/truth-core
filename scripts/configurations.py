@@ -213,7 +213,10 @@ def certificate_source(case, statements, results, arguments, models=None):
         substitutions = {role: model['bindings'][key] for role, key in entry['parameters'].items()}
         for j, parameter in enumerate(profile['parameters']):
             expected = parameter['type']
-            expected = re.sub(r'\b[A-Za-z_][A-Za-z_0-9]*\b', lambda match: '(' + substitutions[match[0]] + ')' if match[0] in substitutions else match[0], expected)
+            # Roles are unqualified names. A role named Model must not
+            # replace the final component of ExistencePSR.Model.
+            expected = re.sub(r'(?<![A-Za-z_0-9.])[A-Za-z_][A-Za-z_0-9]*(?![A-Za-z_0-9.])',
+                              lambda match: '(' + substitutions[match[0]] + ')' if match[0] in substitutions else match[0], expected)
             lines.append(f'def model_parameter_{index}_{j} : {expected} := {substitutions[parameter["name"]]}')
     lines += [f'#print axioms {name}' for name in generated_names('\n'.join(lines))]
     lines.append('end ConfigurationCertificates')

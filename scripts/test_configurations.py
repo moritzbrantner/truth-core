@@ -164,16 +164,17 @@ class ConfigurationTests(unittest.TestCase):
 
     def test_existence_psr_data_role_preserves_explicit_premises(self):
         profile = self.case['semantics']
-        profile['parameters'].append({'name': 'm', 'type': 'TruthCore.Explanation.ExistencePSR.Model W I'})
-        profile['parameter_order'].append('m')
+        profile['parameters'].append({'name': 'Model', 'type': 'TruthCore.Explanation.ExistencePSR.Model W I'})
+        profile['parameter_order'].append('Model')
         for mid, model in self.models.items():
-            model['bindings']['m'] = 'Fixture.model'
-            self.case['model_bindings'][list(self.models).index(mid)]['parameters']['m'] = 'm'
+            model['bindings']['Model'] = 'Fixture.model'
+            self.case['model_bindings'][list(self.models).index(mid)]['parameters']['Model'] = 'Model'
         self.validate()
         source = certificate_source(self.case, self.statements, self.results, self.arguments, self.models)
-        self.assertIn('(m : TruthCore.Explanation.ExistencePSR.Model W I)', source)
+        self.assertIn('(Model : TruthCore.Explanation.ExistencePSR.Model W I)', source)
+        self.assertIn('def model_parameter_0_5 : TruthCore.Explanation.ExistencePSR.Model (Bool) (Bool) := Fixture.model', source)
         self.assertIn('(@Fixture.P W) → (@Fixture.Q W) → False', source)
-        self.assertIn('exact @Fixture.CORE W I F present w m', source)
+        self.assertIn('exact @Fixture.CORE W I F present w Model', source)
         for bad in ['TruthCore.Explanation.ExistencePSR.Model W Later',
                     'TruthCore.Explanation.ExistencePSR.Model W',
                     'TruthCore.Explanation.ExistencePSR.Model W I Prop',
