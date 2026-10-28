@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-HISTORY-TIME-SCOPE-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-HISTORY-TIME-SCOPE-CONTROLS",
+    "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Audited origin/main 0f1059ba and open PR titles: #594 already supplies Int-time everlasting-contingent and beginning-necessary controls. Rejected duplicating those results; #467 owns contrastive complete-history explanation. Remaining #469 gap is the shared-timeline quantifier hierarchy. New task-local model imports exact TemporalHistory.History/Ontic vocabulary without changing shared definitions. Proved generic AllTime\u2192Common\u2192Worldwise and AllTime\u2194Worldwise\u2227Uniform; the explicit Uniform bridge is within-world propagation, not metaphysical conservation. Bool diagonal and synchronized controls witness both failed converses, and each world in both interpretations fails EverlastingAt. Rejected silently imposing CoherentAtNow or identifying Ontic.ExistsAt with existential history presence. No atemporal predicate, source attribution, creation/conservation claim or new metaphysical necessity definition. The #353 eternity bridge remains a separate sourced obligation. Main/shared vocabulary untouched; intended and actual root-premise delta zero. Persistent Lean service HTTP200 at detached75192b1c, session causal-harvest, Scratch/issue469.lean, two edits under flock /tmp/truth-core-lean.lock, reported lock wait0s, final diagnostics empty, content SHA2564e43527f49c0ea81b1e7097e66ae403e348ac937b0e6aab7212aafae86bfbc67. Interactive combined-file diagnostics do not replace final build/binding/Comparator/NanoDa; those remain CI-owned. Claim/type self-sweep: exact displayed quantifiers, fixed bearer and distinct interpretations; no hidden nonemptiness because History.now provides the time; no coherence or reality claim added.",
+  "evidence": [
+    "HISTORY-TIME-SCOPE-CONTROLS",
+    "TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+  ]
+}

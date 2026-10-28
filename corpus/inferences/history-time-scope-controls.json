@@ -1,0 +1,9 @@
+{
+  "id": "INF-HISTORY-TIME-SCOPE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HISTORY-TIME-SCOPE-CONTROLS",
+  "rule": "model-construction",
+  "meaning": "Formal shared-timeline controls: for arbitrary History W B T and a fixed bearer, all-worlds/all-times presence implies one common time (using History.now), which implies worldwise possibly different witness times. All-worlds/all-times presence is equivalent to worldwise witness times together with within-world propagation from any presence time to every time. In a fixed Bool-world, Unit-bearer, Bool-time diagonal interpretation each world has presence but no common time exists and neither world is everlasting. In a separate synchronized interpretation a common false-time witness exists but all-times presence fails and neither world is everlasting. Ontic assignments are supplied but no coherence with IsAt is asserted. These are quantifier controls, not definitions of modal necessity, metaphysical possibility, conservation or sourced eternity. No root premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
