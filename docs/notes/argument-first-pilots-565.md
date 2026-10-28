@@ -2,9 +2,9 @@
 
 This note applies the argument-first method of
 [systematic-corpus-loop.md](../systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand)
-to the two pilot investigations, #564 and #563. It reads only existing records;
-it adds no statement, claim, argument or result, and changes no premise or
-frontier closure. Every ID below exists on `main` at the time of writing.
+to the two pilot investigations, #564 and #563. The initial inventory reads
+existing records; later bounded refinements are identified separately below.
+The inventory changes no premise or frontier closure.
 Neither pilot currently lies on a root path: `corpus.py frontier --reaching-root`
 lists none of their statements.
 
@@ -161,3 +161,47 @@ Retain the method. Revise after the first formal slice of each pilot: check that
 the split proposed here (step 3 of pilot A; the applicability/bindingness
 separation of pilot B) was in fact the one a theorem needed. No schema change was
 needed; the existing records and one note sufficed.
+
+## Bounded temporal/modal dependence controls (2026-10-28)
+
+`TEMPORAL-MODAL-DEPENDENCE-CONTROLS` separates two consequential combinations
+using existing ontology assignments, rather than a new lattice of all possible
+labels. Its tiny `Modal.TemporalHistory.History` adds a separately indexed
+`IsAt` and `now`. `CoherentAtNow` is an explicit proposition in both closed
+controls, not a hidden proof field. It identifies old modal presence with
+presence at now=0; it does not redefine `Ontic.ExistsAt` as ever having existed.
+Times are standard Mathlib Int indices, and worlds are complete alternatives.
+
+The first history preserves `BruteFoundationBoundary.boundaryRival.ontic` and
+its grounding relation. Its child `(false,true)` occupies every integer time
+in world false and remains modally contingent there. The old source
+`(false,false)` is a distinct existing concrete witness of both a cause edge
+and a ground edge to that child. The target is the old dependent child, **not**
+the old brute root. The result asserts those two edges at the selected model
+world; it does not identify causation and grounding universally, infer a
+beginning, or assert a time-indexed causal law.
+
+The second history preserves `Models.PSR.Intrinsic.model.ontic`; explanation
+labels play no role. Its target false is assigned presence from integer0
+onward and absence before0. At the designated world it begins at0 and is
+`NecessaryAt` (present at now=0 in every accessible history), hence not
+`ContingentAt`. This is a fixed counterexample to
+beginning entailing modal contingency under explicit now-slice semantics,
+not a theorem that whatever begins is necessary. The existing
+`ChangeDoesNotGiveModalContingency` uses separate world/time indices but was
+not substituted for this onset control.
+
+Temporal everlasting presence is not the existing timeless `Eternal`
+predicate: no-succession eternity remains the distinct sense recorded in
+`DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY`. No timeless-eternity theorem,
+metaphysical possibility, explanatory adequacy, or global existence/cause/
+ground bridge is established. The two controls each certify their properties
+jointly; they are not spliced into a single being that both begins and is
+everlasting. Infinite Int time is not falsely registered as a finite model.
+
+The new Challenge was frozen before proof construction (SHA256
+`255c00dc572c9ef9fe1d43080ce78c2bc0917c8dc5b15240467557269b7809db`).
+Both focused Solution and Challenge builds, scoped binding, Comparator and
+independent NanoDa checks pass; the theorem uses exactly propext. Full integrated
+CI remains the final delivery gate. Intended and actual
+root-premise delta: none; this comparison defends no open root commitment.

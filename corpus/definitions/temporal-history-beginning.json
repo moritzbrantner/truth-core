@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-HISTORY-BEGINNING",
+  "term": "first presence at a supplied time under the chosen temporal order",
+  "definition": "BeginsAt h w x t requires IsAt w x t and absence of x at every s strictly earlier than t in the supplied Mathlib Preorder. It asserts neither later persistence nor modal contingency, nor a cause of the beginning. Arbitrary preorders need not compare all times; the control uses Int standard linear order and t=0. All earlier integer times are absent and all nonnegative times present by that control assignment.",
+  "basis": "stipulative",
+  "note": "World-relative temporal onset, not birth/rebirth between modal worlds or a new interpretation of the primitive beginsContingency in PossibleCauseOfContingency. Existing ChangeDoesNotGiveModalContingency separates world/time variation but is not falsely reused as a theorem about this onset control.",
+  "lean_declaration": "TruthCore.Modal.TemporalHistory.BeginsAt"
+}
