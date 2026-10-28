@@ -1,6 +1,6 @@
 {
   "id": "MODEL-NIGHT-ACTUALIZATION-FORK-NONACTUAL-MOVER",
-  "description": "Every Boolean being is moved and in potency; every being moves every being, while nothing is in act and no simple priority holds. The same selected moved potency has a mover but no mover in act. This witnesses the first Night horn while separating it from absence of any mover. The mover premise, same-respect act/potency exclusion and the restricted actual-mover priority bridge hold, but mover actuality and actual-mover reduction fail. Formal satisfiability only; no root closure.",
+  "description": "Every Boolean being is moved and in potency; every being moves every being, while nothing is in act and no simple priority holds. The same selected moved potency has a mover but no mover in act. This witnesses the first Night horn while separating it from absence of any mover. The mover premise, same-respect act/potency exclusion and the restricted actual-mover priority bridge hold, but mover actuality and actual-mover reduction fail. Formal satisfiability only; no root closure. Capacity extension: CanBe is the union of this same interpretation\u2019s potency and actuality predicates; the previous assignments are unchanged. Potency-as-unactualized-capacity holds in this joint finite interpretation.",
   "vocabulary": "NIGHT-COSMOGONY",
   "lean_declaration": "TruthCore.Models.NightActualizationFork.NonactualMover.model",
   "bindings": {
@@ -10,7 +10,8 @@
     "InPotency": "TruthCore.Models.NightActualizationFork.NonactualMover.model.InPotency",
     "MovedIn": "TruthCore.Models.NightActualizationFork.NonactualMover.model.MovedIn",
     "MovesIn": "TruthCore.Models.NightActualizationFork.NonactualMover.model.MovesIn",
-    "PriorSimply": "TruthCore.Models.NightActualizationFork.NonactualMover.model.PriorSimply"
+    "PriorSimply": "TruthCore.Models.NightActualizationFork.NonactualMover.model.PriorSimply",
+    "CanBe": "TruthCore.Models.NightCapacityControls.NonactualMover.canBe"
   },
   "carriers": [
     {
@@ -72,9 +73,16 @@
       "value": "satisfies",
       "arguments": ["Being", "Respect", "InAct", "InPotency", "MovesIn", "PriorSimply"],
       "theorem": "TruthCore.Models.NightActualizationFork.NonactualMover.priority"
+    },
+    {
+      "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "CanBe"],
+      "theorem": "TruthCore.Models.NightCapacityControls.NonactualMover.analysis"
     }
   ],
   "modules": [
-    "TruthCore.Models.NightActualizationFork"
+    "TruthCore.Models.NightActualizationFork",
+    "TruthCore.Models.NightCapacityControls"
   ]
 }

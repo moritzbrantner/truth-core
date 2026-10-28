@@ -1,6 +1,6 @@
 {
   "id": "MODEL-NIGHT-COSMOGONY-NO-REDUCTION",
-  "description": "#497 removal model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency, posterior to nothing, and moved by nothing. The Night bundle, no self-motion and the actual-mover bridge hold; the reduction-by-a-being-in-act premise fails.",
+  "description": "#497 removal model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency, posterior to nothing, and moved by nothing. The Night bundle, no self-motion and the actual-mover bridge hold; the reduction-by-a-being-in-act premise fails. Capacity extension: CanBe is the union of this same interpretation\u2019s potency and actuality predicates; the previous assignments are unchanged. Potency-as-unactualized-capacity holds in this joint finite interpretation.",
   "vocabulary": "NIGHT-COSMOGONY",
   "lean_declaration": "TruthCore.Models.NightCosmogony.NoReduction.model",
   "bindings": {
@@ -10,7 +10,8 @@
     "InPotency": "TruthCore.Models.NightCosmogony.NoReduction.model.InPotency",
     "MovedIn": "TruthCore.Models.NightCosmogony.NoReduction.model.MovedIn",
     "MovesIn": "TruthCore.Models.NightCosmogony.NoReduction.model.MovesIn",
-    "PriorSimply": "TruthCore.Models.NightCosmogony.NoReduction.model.PriorSimply"
+    "PriorSimply": "TruthCore.Models.NightCosmogony.NoReduction.model.PriorSimply",
+    "CanBe": "TruthCore.Models.NightCapacityControls.NoReduction.canBe"
   },
   "carriers": [
     {
@@ -90,10 +91,17 @@
       "value": "satisfies",
       "arguments": ["Being", "Respect", "InAct", "InPotency"],
       "theorem": "TruthCore.Models.NightActualizationFork.NoReduction.notBoth"
+    },
+    {
+      "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+      "value": "satisfies",
+      "arguments": ["Being", "Respect", "InAct", "InPotency", "CanBe"],
+      "theorem": "TruthCore.Models.NightCapacityControls.NoReduction.analysis"
     }
   ],
   "modules": [
     "TruthCore.Models.NightCosmogony",
-    "TruthCore.Models.NightActualizationFork"
+    "TruthCore.Models.NightActualizationFork",
+    "TruthCore.Models.NightCapacityControls"
   ]
 }
