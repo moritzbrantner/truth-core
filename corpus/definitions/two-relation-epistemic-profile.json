@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TWO-RELATION-EPISTEMIC-PROFILE",
+  "term": "epistemic admissibility in the two-description control",
+  "definition": "The Bool epistemic frame admits every candidate description from every origin. This is a stipulated coarse profile and is distinct from the identity relation used as the stronger metaphysical profile.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.PossibilityTransfer.epistemic",
+  "note": "A mathematical control, not a sourced theory of knowledge; no failure-of-proof operator occurs."
+}

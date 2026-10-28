@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POPULATION-TOTAL-RANKING",
+  "term": "strict total ranking",
+  "definition": "TotalRanking r means that r p q holds exactly when profile q has strictly greater count-times-mean total than profile p. This is a stipulated ordering policy on summaries, not a morally authoritative ought or maximal feasible choice.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationAggregation.TotalRanking",
+  "note": "Normative authority remains open. A global ranking relation is distinguished from an attained maximum: with unbounded finite counts and fixed positive mean no greatest total is promised."
+}

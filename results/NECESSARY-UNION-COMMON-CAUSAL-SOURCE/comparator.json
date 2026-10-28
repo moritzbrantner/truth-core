@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UnderivedCommonSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedCommonSource.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UnderivedCommonSource.causal_from_union"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

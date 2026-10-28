@@ -1,0 +1,20 @@
+{
+  "id": "STMT-COMMON-UNDERIVED-SUPPORT-SOURCE",
+  "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.CommonUnderivedSupportSource",
+  "paraphrase": "Some same named actual necessarily underived R-witness is also the unique actual R-support source at the selected world. Its actual presence and necessary status are retained; no ordinary causal, explanatory or divine identification follows.",
+  "definition_ids": [
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

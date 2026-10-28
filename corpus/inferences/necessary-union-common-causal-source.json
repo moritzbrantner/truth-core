@@ -1,0 +1,18 @@
+{
+  "id": "INF-NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE",
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT"
+  ],
+  "output_statement_id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "Import and apply NecessarilyUnderived.PositiveUnion.checks with its exact FIVE original premises: NecessaryBeing, actual reflexivity, no contingent supporter of a necessary bearer, necessary-support-union WF, and explicit EM. Preserve its witness through exists_common on the actual ordinary causal graph, using open causal connectivity and confluence PLUS the explicitly open actual Cause-to-R-support interface. Necessary-support-union WF is retained; no ordinary world-causal WF or reciprocal universal potential-cause role is assumed. This is a conditional connection, not a new defense or root closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

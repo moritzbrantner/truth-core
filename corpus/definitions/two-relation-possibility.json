@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TWO-RELATION-POSSIBILITY",
+  "term": "two-relation modal admissibility on candidate descriptions",
+  "definition": "Reuse Frame.access and the existing GoedelGod MProp, Box and Dia: Box F P w means every F-accessible candidate satisfies P; Dia F P w means some F-accessible candidate satisfies P. IncludedAt E M w means every E-successor of w is an M-successor. TransferLaws quantifies over every predicate, permitting singleton tests. OmissionControl fixes Bool descriptions, E universal, M identity, origin false and P(v) := v = true. Both frames are equivalences. The carrier is candidate descriptions rather than an assertion that all its members are genuinely metaphysically possible; M is the explicitly stipulated stronger admission filter.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.PossibilityTransfer.IncludedAt",
+  "note": "Issue #438 control reuses the modal embedding and FiniteSupport without its theological axioms. This issue-local vocabulary separates two relations; prior Conceivability.StrongBridge instead leaves conception an arbitrary operator. Actual epistemic adequacy and metaphysical fidelity remain open interpretation obligations. No source reading or external-modal truth is established."
+}

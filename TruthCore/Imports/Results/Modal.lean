@@ -17,6 +17,7 @@ import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution
 import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+import TruthCore.Results.Modal.DeonticFutureBoundary.Solution
 import TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution
 import TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution
 import TruthCore.Results.Modal.ExistenceDegrees.Solution
@@ -35,6 +36,7 @@ import TruthCore.Results.Modal.NecessaryPotentialCausers.Solution
 import TruthCore.Results.Modal.PastSeriality.Solution
 import TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution
 import TruthCore.Results.Modal.PopulationClosureSeparation.Solution
+import TruthCore.Results.Modal.PossibilityTransfer.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 import TruthCore.Results.Modal.S4.Countermodels.Solution
