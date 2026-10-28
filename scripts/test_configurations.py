@@ -298,12 +298,40 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         with patch.object(self.corpus, 'load_dir', side_effect=loader), \
              patch.object(self.corpus, 'registered_configurations', return_value=[case]), \
              patch.object(self.corpus, 'verify_case', return_value={}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
              patch.object(self.corpus, 'run_bind_tool', return_value=[described]) as tool, \
              redirect_stdout(output), self.assertRaisesRegex(self.corpus.CorpusError, 'original theorem binding rejected'):
             self.corpus.command_configurations(args)
         self.assertEqual(tool.call_args.args[0]['theorems'], [result['theorem']])
         self.assertEqual(output.getvalue(), '')
 
+
+    def test_multi_case_verification_binds_the_exact_unique_union_and_fails_closed(self):
+        cases = [self.cases['CONFIG-NECESSARY-INDIVIDUAL'], self.cases['CONFIG-NIGHT-ACTUALIZATION']]
+        selected = sorted({rid for case in cases for key in ('incompatibility_result_ids', 'implication_result_ids') for rid in case.get(key, [])})
+        context = dict(statements=self.statements, results=self.results, arguments=self.arguments, models=self.models,
+                       cases=[cases[0], copy.deepcopy(cases[0]), cases[1]])
+        args = argparse.Namespace(case=None, seed=None, premise=[], registered=False)
+        descriptions = [{'theorem': self.results[rid]['theorem']} for rid in selected]
+        with patch.object(self.corpus, 'verify_case', side_effect=lambda *args: {}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
+             patch.object(self.corpus, 'run_bind_tool', return_value=descriptions) as tool, \
+             patch.object(self.corpus, 'bind_result', return_value={'status': 'bound'}):
+            reports = self.corpus.collect_configuration_reports(args, context)
+        self.assertEqual(len(reports), 3)
+        self.assertEqual(tool.call_count, 1)
+        self.assertEqual(tool.call_args.args[0]['theorems'], [self.results[rid]['theorem'] for rid in selected])
+        for report, case in zip(reports, context['cases']):
+            self.assertEqual(report['verification']['original_bound_result_ids'],
+                             sorted(set(case.get('incompatibility_result_ids', []) + case.get('implication_result_ids', []))))
+        def bind(result, argument, statements, description):
+            return {'status': 'mismatch', 'problems': ['missing description']} if 'error' in description else {'status': 'bound'}
+        with patch.object(self.corpus, 'verify_case', side_effect=lambda *args: {}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
+             patch.object(self.corpus, 'run_bind_tool', return_value=descriptions[:-1]), \
+             patch.object(self.corpus, 'bind_result', side_effect=bind), \
+             self.assertRaisesRegex(self.corpus.CorpusError, 'original theorem binding rejected'):
+            self.corpus.collect_configuration_reports(args, context)
 
     def test_all_sixteen_positive_starter_subsets_match_independent_reference(self):
         case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']
