@@ -1,0 +1,37 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SELLARS-EMPIRICISM-MIND",
+    "source_url": "https://www.ditext.com/sellars/epm8.html",
+    "retrieved_at": "2026-10-28T20:35:59Z",
+    "sha256": "sha256:12d810f1c2d5deab5a749efa8706ccfa238162980b00139b2431d2939a9429bd",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright University of Minnesota Press; authorized hypertext editorial introduction expressly states reproduction with publisher permission. Only hashes, locators and analytical paraphrases committed. Two live fetches and two fixed 2001 archive fetches matched bytes and selected text; no redistribution license beyond the stated host permission inferred.",
+    "wayback_url": "https://web.archive.org/web/20011101113940id_/https://www.ditext.com/sellars/epm8.html",
+    "wayback_sha256": "sha256:12d810f1c2d5deab5a749efa8706ccfa238162980b00139b2431d2939a9429bd"
+  },
+  "passages": [
+    {
+      "id": "SELLARS-EPM-EMPIRICAL-FOUNDATION",
+      "locator": "VIII, §§32–38, complete chapter",
+      "claim_locator_prefixes": [
+        "VIII §32",
+        "VIII §35",
+        "VIII §36",
+        "VIII §37",
+        "VIII §38"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "VIII. DOES EMPIRICAL KNOWLEDGE HAVE A FOUNDATION?"
+        },
+        "to": {
+          "text": "[Next]"
+        }
+      },
+      "text_sha256": "sha256:b23ecaa3f9e7a08c609839c139e91a70b211475f0698589966ee8357602634c8",
+      "incipit": "VIII. DOES EMPIRICAL KNOWLEDGE HAVE A FOUNDATION?"
+    }
+  ]
+}

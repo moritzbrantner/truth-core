@@ -1,0 +1,21 @@
+{
+  "id": "STMT-UNITING-CAUSES-ARE-ACTUAL",
+  "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesAreActual",
+  "paraphrase": "Open correspondence interface: a distinct cause-in-esse with both endpoints actually existing at the selected world gives an ordinary causal edge there.",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-SIMPLE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-CAUSE"
+  ]
+}

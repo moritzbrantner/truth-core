@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-UNITING-CAUSE-ACTUALITY",
+  "term": "atemporal cause-in-esse versus an existing world-local causal predecessor",
+  "sense_definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES"
+  ],
+  "resolution": "The q.3 CausesIn c x esse reading does not by its type supply world-indexed existence of c or a world-local Ontic.Causes edge. The two open interfaces state these separately. Sourcehood only excludes incoming edges from actual nodes; an absent candidate therefore cannot contradict sourcehood. Composite is the existing q.3 predicate, not the proper-part proxy in PowerExistenceBoundary. Neither interface is attributed to Aquinas, and no cause of becoming, temporal first cause, intrinsic reason, God identification or maximality is inferred."
+}

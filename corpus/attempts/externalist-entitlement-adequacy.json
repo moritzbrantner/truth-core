@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-EXTERNALIST-ENTITLEMENT-ADEQUACY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-GOLDMAN-STATUS-WITHOUT-ACCESS",
+    "STMT-GOLDMAN-FALLIBLE-JUSTIFICATION",
+    "STMT-GOLDMAN-RECURSIVE-HISTORICAL-ACCOUNT",
+    "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
+    "STMT-GOLDMAN-METARELIABILITY-NOT-AUTOMATIC-REMEDY",
+    "STMT-GOLDMAN-AVAILABLE-PROCESS-REVISION",
+    "STMT-JUSTIFICATION-INTROSPECTION-BOUNDARY",
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-STREET-DARWINIAN-ACCESS-CHALLENGE"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read the full university-hosted Goldman 1979 primary transcription; repeated live bytes and selected text match. Recorded six scoped readings, positive externalist account and strongest access/evidence/reliability replies in docs/notes/externalist-entitlement-and-regress.md. Preserved initial (6A)–(6B) account versus later section III qualifications, fallible reliability versus true output, conditionally reliable inference versus justified inputs, forgotten evidence versus mere confidence, and reliable metabelief versus actual entitlement. Existing JustificationIntrospection.introspectionBoundary and RegressSchema certificates already supply the structural distinctions; rejected another graph/introspection countermodel and any claim that reliability is justified merely by defining it so. No clairvoyance objection or later Goldman view is attributed from memory. Remaining adequacy norms, process granularity and available-process counterfactual remain independently open. No new theorem/result, cross-domain causal conclusion, root edge or premise discharge. A bounded exact-URL Wayback CDX query returned no captures, so no unverified fallback is declared. The HTML-declared Windows-1252 encoding was used; UTF-8 failed and was not silently substituted.",
+  "evidence": [
+    "GOLDMAN-1979-STATUS-ACCESS",
+    "GOLDMAN-1979-FALLIBLE-RELIABILITY",
+    "GOLDMAN-1979-RECURSIVE-ANCESTRY",
+    "GOLDMAN-1979-FORGOTTEN-EVIDENCE",
+    "GOLDMAN-1979-METABELIEF-OBJECTION",
+    "GOLDMAN-1979-AVAILABLE-PROCESS-REVISION",
+    "LOGIC-JUSTIFICATION-INTROSPECTION",
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}

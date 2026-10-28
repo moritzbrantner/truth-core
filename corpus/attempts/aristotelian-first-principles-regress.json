@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-ARISTOTELIAN-FIRST-PRINCIPLES-REGRESS",
+  "statement_ids": [
+    "STMT-ARISTOTLE-ANPOST-DEMONSTRATIVE-PREMISES",
+    "STMT-ARISTOTLE-ANPOST-SHARED-DEMONSTRATIVISM",
+    "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
+    "STMT-ARISTOTLE-ANPOST-IMMEDIATE-KNOWLEDGE",
+    "STMT-ARISTOTLE-ANPOST-SAME-RESPECT-PRIORITY",
+    "STMT-ARISTOTLE-ANPOST-CIRCULAR-SELF-RETURN",
+    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES",
+    "STMT-REGRESS-JUSTIFICATION-TRANSFER"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized/read complete primary Greek An.Post.I.2–3 from the pinned Bekker1837 First1KGreek edition. Six prose readings isolate demonstrative-premise norms, the opponents' shared demonstrativism, the conditional-only regress objection, Aristotle's positive immediate-knowledge reply and qualified circularity arguments. Rejected immediate=arbitrary dogma, actual traversal=dispositional availability, all generated warrant=all knowledge, finite necessary branch=global finite proof and epistemic no-regress=causal impossibility. Existing RegressSchema.justificationTransfer and CrossDomainBoundary already supply the exact structural controls; no new proof is justified. Independent entitlement, termination/access and applicability to strongest infinitist/holistic rivals remain open. Full source/argument/reuse/premise comparison in docs/notes/aristotelian-first-principles-and-regress.md. Root premise change none.",
+  "evidence": [
+    "ARIST-APOST-71B-DEMONSTRATIVE-PREMISES",
+    "ARIST-APOST-72B-SHARED-DEMONSTRATIVISM",
+    "ARIST-APOST-72B-REGRESS-CONDITIONAL-KNOWLEDGE",
+    "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE",
+    "ARIST-APOST-72B-SAME-RESPECT-PRIORITY",
+    "ARIST-APOST-72B-CIRCULAR-SELF-RETURN"
+  ]
+}

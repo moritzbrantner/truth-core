@@ -1,0 +1,10 @@
+{
+  "id": "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "argument_id": "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedNonComposite.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedNonComposite.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedNonComposite.omission_controls",
+  "comparator_config": "results/UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct two explicit Unit-world Bool-being interpretations separating the two actuality interfaces, with the same necessary underived unique actual source false still composite. These are logical omission controls, not source readings or metaphysical possibility claims."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "SELLARS-EPM-38-SELF-CORRECTION",
+  "statement_id": "STMT-SELLARS-PIECEMEAL-SELF-CORRECTION",
+  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "locator": "VIII §38, final paragraph",
+  "interpretation": "This is a positive methodological proposal, not a verified guarantee that every revisable coherent system is true or justified. The chapter’s requirements concerning observational authority and reliability are not replaced by mere revisability.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}

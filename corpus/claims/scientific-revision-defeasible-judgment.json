@@ -1,0 +1,15 @@
+{
+  "id": "DUHEM-VI-X-DEFEASIBLE-JUDGMENT",
+  "statement_id": "STMT-SCIENTIFIC-REVISION-DEFEASIBLE-JUDGMENT",
+  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "locator": "Seconde partie, VI §X, pp.356–359",
+  "interpretation": "Prose source reading only; no attributed Lean theorem. Preserves Duhem’s positive rational-choice account and its admitted vagueness and disagreement. Neither arbitrary choice, equal rational merit of every surviving repair, an algorithm of infallible choice, nor global skepticism is attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST",
+    "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

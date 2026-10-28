@@ -1,0 +1,11 @@
+{
+  "id": "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+  "term": "historical reliabilism and externalist epistemic status in Goldman 1979",
+  "basis": "sourced",
+  "definition": "An actual belief’s justificational status depends on its suitable cognitive ancestry rather than solely on the subject’s present ability to supply reasons. Principles (6A)–(6B) distinguish belief-independent reliable generation and belief-dependent conditionally reliable operations on justified inputs, with a proposed closure clause. The paper later qualifies this initial account.",
+  "claim_ids": [
+    "GOLDMAN-1979-RECURSIVE-ANCESTRY",
+    "GOLDMAN-1979-FORGOTTEN-EVIDENCE"
+  ],
+  "note": "Source-specific positive proposal, not a definition of all epistemic warrant or an established norm. Its proposed foundational base is not arbitrary concession; its independent adequacy remains disputed. Externalist is the comparison label for denial of mandatory privileged epistemic access, not an attribution of processes necessarily external to the organism or a claim that Goldman uses that label here."
+}

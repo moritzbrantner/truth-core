@@ -1,0 +1,15 @@
+{
+  "id": "CLARKE-III-2-5-DISTINCT-PLACES",
+  "statement_id": "STMT-ALIKE-PLACES-MAY-BE-DISTINCT",
+  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "locator": "Clarke III §§2,5",
+  "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-DATA-IDENTITY"
+  ]
+}

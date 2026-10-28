@@ -323,3 +323,72 @@ discharged; no new root route, source claim or consequence result is added by
 this inventory. The existing root-path commitments remain open. In particular,
 q.104 conservation's formal relation, genus–difference realization, the actual
 cause mappings and the common-nature/individuation bridges remain live gaps.
+## Same-witness noncomposition after #636
+
+`NECESSARY-UNION-COMMON-NONCOMPOSITE` imports and applies the exact
+`TruthCore.Results.Causality.UnderivedCommonSource.causal_from_union`
+theorem. It retains that theorem's eight premises and its **same named
+individual**, including necessary existence, absence of R-support and
+unique actual causal sourcehood. Its additional conclusion is
+`¬ Composite n` for the supplied q.3 predicate. It neither supplies a God
+identification nor asserts the other classical attributes.
+
+Three further direct premises do the work:
+
+1. The existing `CompositeHasAUnitingCauseReading` gives a distinct
+   `CausesIn c n esse` witness for a composite n.
+2. `UnitingCausesPresent` says such a cause of an actually existing target
+   itself exists at the selected world.
+3. `UnitingCausesAreActual` says such a cause with actual endpoints gives
+   an ordinary `m.Causes w c n` edge.
+
+That incoming edge contradicts sourcehood of this same n. Both new interfaces
+are explicit **open analyst commitments**, not attributed to Aquinas and not
+asserted as identities between `CausesIn`, `m.Causes` and R. The proof does not
+need the existing maximum-based route's maximality or causal-comparison
+premises, nor the first-mover route's first-being premise. This compares
+conditional routes; it does not defend one by counting its premises.
+Necessary-support **union well-foundedness remains an input** through #636.
+Connectivity and confluence are retained for its unique-source conclusion,
+even though noncomposition alone requires only sourcehood.
+
+The whole pinned article `AQUINAS-ST-I-Q3-A7` was materialized and read.
+Its third proof says that a composite requires a cause uniting what is diverse
+in itself, and that God has no cause as first efficient cause. The existing
+claim already records reading that as a distinct cause of being. Neither the
+passage nor the old Lean type supplies the modern `Ontic` world's endpoint
+existence or the relation correspondence. Hence this connection creates no
+new historical claim and provides no independent source defense of its two
+interfaces. OCR defects elsewhere in the pinned transcription do not alter
+the consulted third-proof clause; no source bytes were repinned.
+
+`UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS` separately witnesses both gaps:
+
+- In `absentCause`, false is the only existing individual and is necessarily
+  present, R-underived and the unique actual source. It is composite and has
+  the alleged uniting cause true. The world-local causal edge is recorded,
+  but true is absent. Presence fails; the actual-node graph has no incoming
+  predecessor. This deliberately violates endpoint soundness: it tests the
+  weaker encoded types, not a genuine cause by a nonexistent thing.
+- In `differentCause`, both candidates exist and false causes true. False is
+  again the same necessarily underived unique actual source and composite.
+  The atemporal alleged uniting cause is true-to-false; this does not map to
+  an actual causal edge. Presence holds and correspondence fails.
+
+Both retain the existing q.3 uniting-cause reading. Their distinct cause need
+not be outside the composite's parts: `c ≠ n` is numerical distinctness only.
+No material-fusion, parthood or temporal claim is introduced. They establish
+logical omission boundaries, not metaphysical possibility or a refutation
+of actual composites. The original power-source countermodels remain the
+stronger warning against transferring underivedness in one respect to whole
+being without any interface.
+
+**Actual premise comparison:** all eight #636 premises retained; the q.3
+uniting-cause statement plus two open interfaces added to this conditional
+connection. Zero open root premises independently defended or discharged;
+no existing root argument rewired. Source correspondence, cause actuality,
+the relation R's metaphysical applicability, and the original regress
+premises remain open. The adjacent PSR audit in
+[psr-scope-countermodels.md](psr-scope-countermodels.md) independently preserves
+the distinction between an explanation and a necessitating reason; the
+present causal connection does not discharge that explanatory bridge either.

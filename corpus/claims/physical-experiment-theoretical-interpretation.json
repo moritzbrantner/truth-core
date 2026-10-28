@@ -1,0 +1,14 @@
+{
+  "id": "DUHEM-VI-I-THEORETICAL-INTERPRETATION",
+  "statement_id": "STMT-PHYSICAL-EXPERIMENT-THEORETICAL-INTERPRETATION",
+  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "locator": "Seconde partie, VI §I, pp.299–301",
+  "interpretation": "Prose source reading only; no attributed Lean theorem. Read in the original French and limited to Duhem’s physics/instrumentation discussion. This does not assert that every everyday observation or every possible kind of knowledge requires the same theoretical apparatus.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}
