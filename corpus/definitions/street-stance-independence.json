@@ -1,0 +1,10 @@
+{
+  "id": "DEF-STREET-STANCE-INDEPENDENCE",
+  "term": "stance-independence in Street’s realist target",
+  "definition": "Some evaluative truths hold independently of all relevant evaluative stances, not merely independently of an appraiser’s present judgment. Facts about the attitudes of the person being evaluated can remain part of the subject matter. Street separately tests whether the natural–normative identity itself depends on attitudes. This is her taxonomy, not a replacement for the project’s weaker appraiser-independence definition.",
+  "basis": "sourced",
+  "claim_ids": [
+    "STREET-STANCE-INDEPENDENT-REALISM",
+    "STREET-RAILTON-WELFARE-TAXONOMY"
+  ]
+}
