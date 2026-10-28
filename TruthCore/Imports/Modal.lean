@@ -6,6 +6,7 @@ import TruthCore.Modal.BResearch
 import TruthCore.Modal.BoundedMetricPastControl
 import TruthCore.Modal.Convergence
 import TruthCore.Modal.ConvergenceCertificate
+import TruthCore.Modal.CounterpartNecessity
 import TruthCore.Modal.Cube
 import TruthCore.Modal.DResearch.Language
 import TruthCore.Modal.DResearch.Laws
