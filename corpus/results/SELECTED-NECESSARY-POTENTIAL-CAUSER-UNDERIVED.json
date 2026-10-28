@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
+  "argument_id": "SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
+  "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalHarvest.selectedCauserUnderived",
+  "comparator_config": "results/SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED/comparator.json",
+  "description": "In the explicit profile R := m.Causes, actual reflexivity, necessity and the universal other-directed potential-cause role of the given n, the no-contingent-predecessor bridge for that chosen relation, and union WF imply named underivedness of that same n. An existing incoming source must be necessary; self-support contradicts WF asymmetry, and any distinct incoming source has a possible return edge from n, also contradicting union asymmetry. Edges stay within their witness worlds: union WF is an optional overlay condition, not worldwise causal coherence or an actual cross-world causal path. No EM, degree/intensity or invariance premise is used. The type asserts neither a generic causal-grounding identity nor divine uniqueness, and changes no root premise.",
+  "status": "solution-present"
+}

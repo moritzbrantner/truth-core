@@ -1,0 +1,30 @@
+{
+  "id": "WORLD-INDEXED-SOURCES-NO-COMMON-BEARER",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-WORLD-INDEXED-SOURCE-CONTROL",
+  "inference_ids": [
+    "INF-WORLD-INDEXED-SOURCES-NO-COMMON-BEARER"
+  ],
+  "meaning": "A fresh fixed Fin3 interpretation lies inside the acyclic-world setting: each raw cause relation is well-founded with existing distinct endpoints, and the actual-source value images are {true},{false},{false}. Reuse Graph.Map.wellFounded and controls_of_wellFounded plus the new actualSource_iff bridge; no ad hoc root criterion is introduced. Every world is a starter world and none has regress, yet no same existing source works in all worlds. Selected false is necessary and universally potentially causes each existing other, with a well-founded necessary-only union, but contingent true actually causes it at0. Thus the no-contingent-predecessor bridge cannot be omitted from the exact named-underived profile even after adding pointwise WF. Rank witnesses are not time; overlay edges never form an actual cross-world causal path. The prior frozen Bool control remains unchanged, and no metaphysical possibility or root closure is established.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-INDEXED-SOURCE-CONTROL",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

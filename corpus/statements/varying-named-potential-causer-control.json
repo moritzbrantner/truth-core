@@ -1,0 +1,22 @@
+{
+  "id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.VaryingNamedControl",
+  "paraphrase": "In the literal varying model, selected false at base false satisfies reflexivity, necessary presence, the universal other-directed potential-cause role, the no-contingent-predecessor and union-WF backgrounds for m.Causes, and named underivedness. At world true recipient true exists and is actually caused by selected false.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}
