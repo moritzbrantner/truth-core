@@ -35,10 +35,12 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.UltimatePerfection
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.OrganOperation
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.ReasonRegulatedInclination
 import TruthCore.Latin.Tacitus.Annals

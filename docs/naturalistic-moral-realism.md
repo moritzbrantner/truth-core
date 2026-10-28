@@ -153,6 +153,123 @@ Catholicism or naturalism true, refutes the alternative whole worldview, or
 closes an ethical root frontier node. The new relations are `attacks`, not
 `refutes`.
 
+## Moral access comparison: evolutionary influence and correlation (#373)
+
+This bounded comparison refines **Q-MORAL-EPISTEMOLOGY**, using the existing
+Q-MIND-INDEPENDENCE and Q-MORAL-GROUNDING distinctions. It adds no new question
+identity, numeric confidence or aggregate score. The earlier ten-question counts
+retain their original scope. A sourced proposed answer is **S**, not a verified
+adequacy result; none of the following mechanisms has been shown here to explain
+actual moral knowledge. Mere truth-aptness and possible error do not answer access.
+
+### Challenge and scope
+
+Street, *A Darwinian Dilemma* (2006), §§2–7, pp.110–139, presents a conditional
+challenge: given extensive evolutionary influence, an attitude-independent realist
+owes a truth–selection relation. She argues that no relation yields skepticism,
+while truth-tracking loses to an adaptive-link explanation. The evolutionary
+picture is expressly speculative (§3), rational reflection is acknowledged
+(pp.123–124), and this is **her proposed dilemma**, not a checked exhaustive fork.
+Its scientific comparison, skeptical inference and exhaustion of explanations
+remain disputed (`STMT-STREET-DARWINIAN-ACCESS-CHALLENGE`).
+
+Her taxonomy also matters: pp.136–137 classify Railton's **individual non-moral
+welfare** as anti-realist under stronger attitude-independence. That does not revise
+our weaker appraiser-independence statement, refute his account or extend the
+classification to his impartial rightness criterion. The existing natural-basis
+explanatory order remains intact. `DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE`
+records this distinction rather than merging meanings by the word “realism.”
+
+### Positive replies under one access question
+
+| Recorded account | Proposed access mechanism and source | Remaining commitments, assessed symmetrically |
+|---|---|---|
+| Railton's naturalism | Natural facts can affect judgment through causal feedback; inquiry can expose excluded interests and correct arrangements (1986 pp.171–172,193–195; existing `STMT-RAILTON-FALLIBLE-MORAL-LEARNING`). | The proposed natural basis must genuinely occupy the evaluative role; feedback must connect to that basis rather than merely power or conformity. Equal consideration is substantive. Repression and reversals remain possible. |
+| Boyd's naturalism | Human goods and their homeostatic mechanisms can regulate inquiry; observation, sympathy and reflective equilibrium are theory-dependent (reprint §§4.4–4.5, especially pp.332–333; existing `STMT-BOYD-EMPIRICAL-MORAL-INQUIRY`). | The goods/homeostasis proposal and causal reference need defense; background beliefs must already be sufficiently approximately true. Calling inquiry empirical supplies no automatic reliability or convergence. |
+| Enoch's robust realism | A third factor links selected-for judgment to independently valued survival, with a causal route to belief and a noncausal normative connection. Reasoning from suitable starting points can improve a modest correlation (2010 §§5.1–5.3, pp.427–434; `STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY`). | Survival's qualified goodness is an independent normative assumption, not true because selected. The belief–action mechanism, adequate starting points and reasoning need support. The proposal allows error and residual epistemic luck; it is not fully counterfactually robust. Note44 distinguishes explaining correlation/possibly defeating a defeater from directly justifying belief. |
+| Catholic natural law, recorded q.94 account | Practical reason apprehends goods in the order of natural inclinations; general principles and particular conclusions differ (I–II q.94 aa.2,4; existing first-precept and correction records). | The teleological interpretation of human goods, access to the relevant inclinations and the reliability of particular application need defense. q.94 a.2 ad2 requires rational regulation of inclinations; not every urge is a moral standard. q.94 a.4 admits passion, custom and corrupted nature can impair judgment. This range does **not** supply an explicit divine-design guarantee, defeat every evolutionary explanation, or prove access merely by naming God. |
+
+Enoch frames the challenge as explaining a specified truth–belief correlation
+(§§3.1–3.2, pp.421–423), not supplying a new analysis of knowledge. He grants that
+naturalists can in principle offer causal access, depending on details. His own
+third-factor response challenges the restriction of acceptable explanations to
+causal tracking; whether that response adequately explains the actual correlation
+is still open. His normative connection is not a second causal influence.
+
+The Catholic q.94 source supplies a positive teleological account and fallibility,
+not a free epistemic advantage. The same distinction between a proposed mechanism
+and independently defended sufficiency applies to all four rows. The selected
+sources do not establish equal merit, actual reliability or compatibility of every
+commitment in each complete worldview. Street's full constructivist alternative,
+stronger Catholic design/illumination arguments and other realist replies remain
+outside this one comparison slice; they are not silently refuted.
+
+### Consequence, premise comparison and next test
+
+No new theorem was manufactured. `FITNESS-TRUTH-BOUNDARY` (#651) already separates
+successful behavior from truth in an explicit binary belief/desire mechanism; its
+countermodel provides no frequency, moral-truth encoding, skeptical probability or
+exhaustive classification of explanatory replies. A new argument merely assuming
+“all adequate explanations causally track” would hide the precise disputed bridge.
+
+This reading narrows two tempting eliminations: “all realist naturalisms face the
+same horn” requires a common independence profile, and “only causal tracking can
+explain access” requires answering the third-factor reply. Neither universal claim
+has been certified. No rival worldview is eliminated by this batch. No existing
+root-path open premise is retained under a new name, added or discharged; the route
+costs and reaching-root leaf set are unchanged. Sourced commitments remain open.
+
+The next decisive comparison is whether each mechanism explains the same specified
+range of judgments, with independently supported starting points and normative
+standards, while allowing its documented errors. A stronger counterfactual
+reliability demand must be stated and defended symmetrically, not imposed only on
+Enoch while exempting naturalism or natural law. This is an explanatory-adequacy
+obligation, not a request to infer a moral conclusion from an unconstrained `Prop`.
+
+### Witness and interpretation boundary
+
+New primary passages: `STREET-DARWINIAN-DILEMMA-FULL` (SJSU university-hosted
+teaching copy of the published paper, 58 physical pages with original journal
+pagination) and `ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE-FULL`
+(instructor-hosted teaching PDF, 26 physical pages). Both were byte-pinned,
+materialized and read in the cited argument ranges with surrounding context.
+Only hashes, locators and paraphrases are committed; copyright stays with the
+rights holders. These live teaching URLs have no pinned archive fallback in this
+batch, so availability remains a limitation. Enoch's official author publication
+page was only a bibliographic pointer, not the paper witness. No secondary snippet
+was used as claim evidence. The full papers are pinned, but only the cited coherent
+argument ranges were processed; neither author is declared exhausted.
+
+The first delivered revision ae347c1c used the Pittsburgh two-up Street PDF
+(`https://sites.pitt.edu/~mthompso/readings/street.pdf`, 17,043,293 bytes,
+raw SHA-256 `e7edd6b8083b92fec9a7b2798abf50a2ffcd395d9a00cb91e9031ac5e1d45123`).
+Its source bytes did not drift. Local Poppler 26.01.0 extracted normalized text
+`9add9397d0b2172cf056f531c07e0f202ba40776b2b5fb2e2403f6a1a6592671`, while
+[CI40760201489](https://github.com/moritzbrantner/truth-core/actions/runs/40760201489)
+failed that integrity boundary with
+`93cbc304e6a3374e3ed4c1d01d58a1e1a4c4c1c26abbe046bf650a42e4b41e90`.
+The run used Ubuntu24.04 image20261025.353 and poppler-utils24.02.0-1ubuntu9.11.
+The two-up layout already required per-half-page reading-order checks. Rather
+than bless whichever hash CI happened to produce or relax extraction integrity,
+the same passage identity was upgraded to a clearer published one-up witness:
+SJSU PDF raw SHA-256
+`5925edb3e477b366aa3bd85cf76349ca4f7ccb5d1edfb1421d4e86cd88e7fd72`
+(322,971 bytes), normalized text
+`c49006795cec59425a1fb9894563acb6cff91eb8068ce85e07b7698c6ae10359`.
+Both local Poppler26.01.0 and a bounded Ubuntu:noble Poppler24.02.0 comparison
+extracted **identical** normalized text from these same replacement bytes.
+The replacement was materialized and its cited taxonomy/dilemma passages and
+context reread; journal locators and source interpretations did not change.
+No extractor, verifier, CI gate or philosophical assumption changed. The original
+failure remains evidence of an extractor-sensitive layout, not source-byte drift.
+
+The new statements/claims are prose source readings with **no Lean declaration or
+new result**. Their cited source support and the interpretation judgments remain
+separate from proof verification. Stronger conclusions about actual truth-tracking,
+realism's defeat, naturalism's defeat, or Catholicism do not follow. The substantive
+attempt and rejected formalization are recorded in
+`ATTEMPT-MORAL-ACCESS-EVOLUTIONARY-COMPARISON`.
+
 ## Reproducibility and fidelity sweep
 
 Convention stack resolved at

@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-MORAL-ACCESS-EVOLUTIONARY-COMPARISON",
+  "statement_ids": [
+    "STMT-STREET-STANCE-INDEPENDENT-REALISM",
+    "STMT-STREET-DARWINIAN-ACCESS-CHALLENGE",
+    "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
+    "STMT-ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
+    "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+    "STMT-BOYD-EMPIRICAL-MORAL-INQUIRY",
+    "STMT-RAILTON-FALLIBLE-MORAL-LEARNING",
+    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW",
+    "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read materialized Street2006 §§2–7 and Enoch2010 §§3–5, plus existing Boyd/Railton and q94 witnesses. Found Street’s stronger taxonomy explicitly excludes Railton individual welfare; preserved Enoch’s noncausal third-factor reply and normative/empirical commitments alongside naturalist and Catholic access accounts. Rejected a new opaque Darwinian-dilemma theorem: exclusion of all third-factor explanations and skeptical probability do not follow from the existing fitness/truth control (#651). No new result, no root-premise reduction, no defended adequacy from sourced answers. Source scope, extraction caveats, strongest replies and next test persisted in docs/naturalistic-moral-realism.md, Moral access comparison section. Initial Street web-hashes requested58 physical pages but witness is29 two-up pages; corrected range, raw bytes unchanged. Delivered-head CI40760201489 at ae347c1c then exposed Street two-up PDF extraction drift: raw e7edd6b8…5123 unchanged, local Poppler26.01 text9add9397…92671 versus Ubuntu24.04 Poppler24.02.0-1ubuntu9.11 text93cbc304…b41e90. Upgraded same passage to SJSU published58page one-up witness after materialization/rereading; raw5925edb3…7fd72, normalizedc4900679…0359 identical on Poppler26.01 and24.02. No hash merely repinned to CI, no extractor/integrity change and no claim interpretation change. Full hashes and failed-run evidence in existing note.",
+  "evidence": [
+    "STREET-STANCE-INDEPENDENT-REALISM",
+    "STREET-DARWINIAN-ACCESS-CHALLENGE",
+    "STREET-RAILTON-WELFARE-TAXONOMY",
+    "ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
+    "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+    "PR-651"
+  ]
+}

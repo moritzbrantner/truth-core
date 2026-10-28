@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FUSION-OUTSIDE-CAUSE",
+  "term": "nonpart candidate cause",
+  "definition": "OutsideCause cause x requires an admitted candidate c which is not a part of x and stands in the independently supplied relation cause to x. This is stronger than numerical distinctness in the reflexive partial order and is explicitly relative to its carrier.",
+  "basis": "stipulative",
+  "note": "Analyst scope profile for #328, motivated by the materialized Varzi exposition. All-subset quantification is an explicit second-order mathematical choice; neither causal sufficiency nor metaphysical adequacy is attributed to the source. See docs/notes/universal-fusion-grounding.md.",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.OutsideCause"
+}
