@@ -1,0 +1,10 @@
+{
+  "id": "NIGHT-ACTUALIZATION-CORE",
+  "argument_id": "NIGHT-ACTUALIZATION-CORE",
+  "challenge_module": "TruthCore.Results.Alternatives.NightActualizationCore.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NightActualizationCore.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NightActualizationCore.incompatible",
+  "comparator_config": "results/NIGHT-ACTUALIZATION-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Composition of an existing checked implication with its explicitly assumed denial, using zero Lean axioms. Compose the existing GENERATION-FROM-NIGHT-REFUTED.coreFromRootPremises theorem with the Night commitment. The four other commitments imply that the Night reading is false; the supplied Night witness therefore yields logical falsity. This exposes the already proved root-premise incompatibility to configuration propagation; it is not a new philosophical refutation and selects no member for rejection. The mover, actuality, act/potency and simple-priority assumptions share the same Being, Respect and predicates. The simple-priority bridge is unattributed and open. No excluded middle is needed. Inclusion-minimality is a separate obligation requiring a joint checked witness for every single-member deletion. No root premise closes."
+}

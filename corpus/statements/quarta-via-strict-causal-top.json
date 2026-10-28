@@ -1,0 +1,24 @@
+{
+  "id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+  "paraphrase": "Some being is maximal in the selected perfection, is more such than every distinct being, causes that perfection in every distinct being, and has no distinct cause of that perfection. Every being maximal in that perfection equals this one. Self-causation is outside the no-distinct-cause clause; no identification with God is stated.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.QuartaViaStrictCausalTop",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

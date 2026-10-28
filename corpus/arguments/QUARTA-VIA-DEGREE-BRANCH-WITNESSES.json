@@ -1,0 +1,31 @@
+{
+  "id": "QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
+  "inference_ids": [
+    "INF-QUARTA-VIA-DEGREE-BRANCH-WITNESSES"
+  ],
+  "meaning": "Two separately specified interpretations each jointly witness the entire nonlogical degree-fork background. The existing finite Boolean homogeneous causal control satisfies the scale, at-being genus, unrestricted causal comparative, grades and strict causal-top branch in one interpretation. The natural-number interpretation satisfies the same nonlogical background and the every-being-has-a-higher-being branch in one interpretation; it has no causal edges and no strict causal top. The Nat proof reuses MaximumOrderSchema.maximumNeedNotExist. The cause-free model therefore directly prevents promoting strict-degree extension to causal regress. The genus conditional in this branch is vacuous because there is no maximum, which is reported rather than hidden. Named perfections are assigned the same Unit fixture respect, without a source or philosophical identity claim. No facts are combined from separate interpretations to witness one branch. The infinite interpretation is not a finite registered model. These are satisfiability witnesses, not metaphysical possibility, source fidelity or establishment of premises; no root premise changes.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

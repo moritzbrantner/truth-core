@@ -1,0 +1,31 @@
+{
+  "id": "QUARTA-VIA-UNBOUNDED-CORE",
+  "premise_statement_ids": [
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-QUARTA-VIA-UNBOUNDED-CORE"
+  ],
+  "meaning": "The grades observation supplies one member a of the shared Being carrier; it is used only for this population fact. Unbounded degree extension at esse gives a being b more such than a. The existing grades-to-maximum principle at esse then supplies a maximal being m, and extension at m supplies a being more such than m, contradicting its maximality. The three explicit premises therefore cannot coexist. No homogeneous scale, preorder, totality, genus principle, causal-ascent premise, causal relation, or excluded middle is used; MoreIn remains the shared primitive comparative. This connects the degree fork's unbounded branch to an existing root-path maximum-existence assumption without establishing either side or selecting a preferred member for rejection. The stronger two-premise boundary is that the maximum principle and unbounded extension admit no member of Being; observed grades rule out that empty-carrier case. Supplementary closed Comparator obligations separately witness every single deletion: the same finite Bool interpretation satisfies maximum and grades while extension fails; the same infinite Nat interpretation satisfies grades and extension while the maximum principle fails; the same Empty-carrier interpretation satisfies both universal principles vacuously while grades fail. Nat and Empty are not represented as nonempty finite-registry witnesses, so automatic registered inclusion-minimality remains unavailable. These are formal omission controls, not metaphysical emptiness, source attribution of a new rival, or truth of a premise. No root premise changes.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

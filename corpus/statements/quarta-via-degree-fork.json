@@ -1,0 +1,24 @@
+{
+  "id": "STMT-QUARTA-VIA-DEGREE-FORK",
+  "paraphrase": "The selected perfection is instantiated, and either a strict causal top exists (maximal, more such than every distinct being, cause of the selected perfection in every distinct being, with no distinct incoming cause of it and unique among maxima), or every being has some being more such than it in that perfection. This statement expresses coverage; horn incompatibility is certified separately.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.QuartaViaDegreeFork",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

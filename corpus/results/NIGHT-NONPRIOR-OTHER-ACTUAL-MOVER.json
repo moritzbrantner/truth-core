@@ -1,0 +1,10 @@
+{
+  "id": "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+  "argument_id": "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+  "challenge_module": "TruthCore.Results.Alternatives.NightActualizationFork.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NightActualizationFork.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NightActualizationFork.forcedOtherFromRootPremises",
+  "comparator_config": "results/NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER/comparator.json",
+  "status": "solution-present",
+  "description": "Constructive forced consequence with zero Lean axioms; the root mover premises eliminate two repairs. The Night witness is moved, so the root reduction premise supplies a mover; the root mover-actuality premise makes that mover actual in the same respect. It is distinct from the potency because otherwise the same being would be in act and potency in the same respect, contrary to the listed root premise. The Night witness excludes simple priority of that actual mover. Thus accepting the Night reading together with these root commitments forces failure of the actual-mover simple-priority bridge on this witness. This constructive forced-repair boundary is extracted from the proof of GENERATION-FROM-NIGHT-REFUTED.coreFromRootPremises; it establishes none of the open commitments and does not close a root premise."
+}
