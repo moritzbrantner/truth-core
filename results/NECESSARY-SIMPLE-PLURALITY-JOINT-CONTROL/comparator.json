@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessarySimplePlurality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySimplePlurality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessarySimplePlurality.jointControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
