@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BINARY-TRUTH-FITNESS-WARRANT",
+  "term": "truth, successful response, fitness, reliability and warrant",
+  "sense_definition_ids": [
+    "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
+    "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
+  ],
+  "resolution": "Truthful concerns represented binary values; Successful concerns actions matching independently supplied targets. Target alignment with actual survival is open. The same target bit serves both roles in this deliberately small environment; this favorable coupling still does not force truthful representation. Direct polarity is the exact bridge within this response rule under success, not an empirical fact about agents. Equal behavioral scores do not give equal probabilities, low reliability probability, a defeater, absence of warrant, or naturalism self-defeat. The controls have only one represented binary content per input; all-false means every such bit, not all human beliefs or all logical truths."
+}
