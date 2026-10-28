@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+  "term": "first instant, first event, bounded duration, and causal regress",
+  "sense_definition_ids": [
+    "DEF-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+    "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION"
+  ],
+  "resolution": "The real time carrier includes zero, but the populated schedule consists only of positive eventTime values. First instant therefore does not mean first event. Nat indices order labels in reverse chronological direction here. Bounded duration means a numerical bound on the chosen clock, not finite cardinality or accessibility. In the integer control every time is an event index; strict temporal precedence is the usual <, whereas independentCauses is empty. Applying the existing generic per-se-series predicate to this stipulated relation does not identify ordinary temporal precedence with per-se causation. Neither mathematical construction establishes physical realizability."
+}

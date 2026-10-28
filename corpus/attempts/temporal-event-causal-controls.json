@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-TEMPORAL-EVENT-CAUSAL-CONTROLS"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Two closed mathematical controls: the usual real interval [0,1] has a first instant 0; every event label n has clock time 1 - zenoStageTime n = (1/2)^n in (0,1], and every event has an event at a strictly smaller time. Thus no event occurs at 0 and there is no least event although elapsed clock duration is bounded and the time carrier has a first instant. Separately the usual integer time/event carrier has an event earlier than every integer bound, while its stipulated causal relation is empty, well-founded, and has no Nat-indexed descending causal series. Event indices label occurrences and do not specify chronological order. Neither physical realization nor a beginningless physical past is established. No philosophical premise is discharged; intended and actual root-premise delta none. Reused existing ConvergentSchedule clock by reflection; rejected the original first-stage Zeno schedule as a no-first-event witness. PR609 already supplies the distinct no-first-time bounded-age model (0,1], so that proof is not duplicated. PR600 handles strict/inclusive past seriality; PR608 handles causal source/regress classification. No source records or finite-model registration are appropriate. Frozen Challenge SHA819b9301e117fbb4153547fe868ebcabe757a69f24f37efc26cdeeae550de419. Shared single warm session causal-harvest on prover head75192b1c3efdf19f25601e52a06116e706420f11 accepted content SHA726f2b70fa2d6b7045ee049d1ae4830d3299eb38584bbfd5dfdbf0934951bc85 with no errors or warnings; axioms exactly propext, Classical.choice, Quot.sound. Lease wait0.000024s; HTTP9.099s; service9.067s. Canonical imports/binding/Comparator/NanoDa remain final CI responsibilities. Final comment-only matrix addition was checked through a repeated full-content goal request: SHA168d6513367243d22cde30f47c4b9b811e57c0030eb1642309a9927da0e4d9c6, version2, no errors/warnings, goal explicitly showed exists m, eventTime m < eventTime n. Lease0.000029s, HTTP0.258s, service0.223s. Corpus check and dossier succeeded; frontier --routes and --reaching-root inspected: this new closed control is not on a root route. No retained/added/removed root premises. Canonical base origin/main0f1059ba; no shared vocabulary or source claims changed.",
+  "evidence": [
+    "TEMPORAL-EVENT-CAUSAL-CONTROLS",
+    "PR-609",
+    "PR-600",
+    "PR-608"
+  ],
+  "blocker": "No implementation blocker; physical applicability is unproved and root frontier unchanged."
+}
