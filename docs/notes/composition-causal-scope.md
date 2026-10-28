@@ -201,7 +201,10 @@ instead of introducing a fresh opaque simplicity predicate:
    distinct-esse antecedent fails. This tests the absence of a genus-to-real-
    distinction bridge; it is not the nonvacuous external-cause case above.
 
-The result is an independence test for the **represented fragment**. It is not a
+The result is an independence test for the **represented fragment**. The old
+clauses require a differentia, not multiple represented species or a full
+metaphysical theory of genus-division; the four-term carrier does not claim to
+supply the latter. It is not a
 countermodel to q3a5 after adding its further real-constitution commitments, nor
 to the full q3a7 uniting-cause premise. These interpretations establish no
 metaphysical possibility, necessary existence, pure actuality, full simplicity,
