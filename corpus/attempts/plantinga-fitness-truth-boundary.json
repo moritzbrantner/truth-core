@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-PLANTINGA-FITNESS-TRUTH-BOUNDARY",
+  "statement_ids": [
+    "STMT-FITNESS-TRUTH-BOUNDARY"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inventoried #364, #515, #398 item7 and #150: no existing EAAN typed reliability result was found. Read materialized WCB III.7.IV.B teaching excerpt pp9\u201310. Checked exact compensation and Direct bridge plus fully successful wholly true/all-false controls. Rejected inference from equal possible successful profiles to comparative probability, naturalism self-defeat or warrant loss. First proof attempt incorrectly used definitional equality for whole-function scoring; corrected with extensional equality under approved Mathlib axiom policy, preserving frozen Challenge. Source and proof boundary evidence: docs/notes/plantinga-fitness-truth-boundary.md.",
+  "evidence": [
+    "FITNESS-TRUTH-BOUNDARY"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITNESS-TRUTH-BOUNDARY",
+  "paraphrase": "For a stipulated binary belief/polarity response mechanism, successful response is exactly characterized by compensating polarity. Any binary belief map can be paired with a polarity map to match every supplied target. Among successful profiles, exact all-state belief truth holds iff every polarity follows rather than reverses belief. Two inhabited Boolean profiles, one wholly truthful and one false at every input, have identical fully successful responses and equal values under every score of the whole response function. No evolutionary process, naturalism theory, probability, comparative abundance, warrant or defeater is encoded. Root-path open premises: no change.",
+  "lean_declaration": "TruthCore.Epistemology.FitnessTruthBoundary.Certificate",
+  "definition_ids": [
+    "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
+    "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BINARY-TRUTH-FITNESS-WARRANT"
+  ]
+}

@@ -221,3 +221,32 @@ control instead shows that the remaining local commitments cannot guarantee
 attainment. Neither result prefers rejecting a specific premise, proves a
 metaphysical possibility, or changes a root-path open premise. This refinement
 uses the profile's explicit semantics without making a source attribution.
+
+## Integrity follow-up: transient feed failure
+
+Main revision `73dcbb13`, workflow run `40747604144`, job `123026416902`
+failed at 18:53:52 UTC on 28 October 2026 with HTTP 404 for `/4/feed`.
+Subsequent fresh requests using the production source verifier returned the
+original 54,102 bytes and unchanged byte/text hash `61854f98b4887ae9c5cbdea88f9fd1a83a4f1a318a0412dc6e058629ee1d9047`.
+Materialization in a fresh repair clone succeeded, as did an explicit
+`materialize_web_snapshot(passage, use_cache=False)` verification of this
+passage alone. Thus the endpoint recovered without a re-pin. The ignored
+local cache also preserves the original witness; it is not a substitute for
+network verification. No claim, locator, license or philosophical reading changed.
+
+The publisher's `www` and HTTP feed variants returned the exact same bytes.
+The alternative `/old-blog-2021-22/feed` returned different feed bytes and
+was rejected as an exact-byte replacement. Wayback CDX returned `[]`, and
+the availability API returned no archived snapshots. Save Page Now timed
+out after 25 seconds; no successful capture or fixed fallback is asserted.
+The source remains fragile against transient publisher failures. No source
+manifest change can honestly guarantee its availability on another machine.
+The existing materialization command above reproduces the focused boundary;
+these findings do not justify marking the failed integrated CI run green.
+Root-premise change: none.
+
+The coordinator additionally confirmed hosted-CI recovery on integrated main
+`a13fc469`: [run 40749570362, job 123032417241](https://github.com/moritzbrantner/truth-core/actions/runs/40749570362/job/123032417241)
+passed the full source verification with unchanged witness inputs. The older
+failed run is retained as failure evidence; no retry is needed to repeat the
+new successful check.
