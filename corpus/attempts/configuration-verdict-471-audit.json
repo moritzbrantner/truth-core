@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-CONFIGURATION-VERDICT-471-AUDIT",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-NO-BRUTE-EXISTENCE-AT",
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+    "STMT-NECESSARY-INDIVIDUAL-DE-RE"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "At main 0f1059ba, inspected the six-axis CONFIG-LOCAL-EXISTENCE-PSR, its five unchanged model controls, the exact local explained-source theorem and necessary-individual configuration certificates/composition. No new formal claim is introduced. WellFoundedSource.all_external_causes_impossible already rejects population plus causal well-foundedness plus all-world universal external causation; PSR is not needed. Pending PR-608 head 655ec657e064f4cd64884317bf8ff9a9a103e4f9 registers this exact core, so re-registering it or scanning 64 subsets would duplicate existing work. Single-deletion controls already live in Intrinsic (omit external causation), MutualCauses (omit WF) and EmptyWorld (omit population); the last retains inhabited candidate/world types but empty existence. Existing NoBrute plus Brute incompatibility is logical coverage bookkeeping, not a new explanatory dilemma. The #435 fixed-bearer/de-dicto/individual-contingency/joint-absence implications and incompatible pairs already have Boolean witnesses; their names do not license substitution into #437 necessary-if-existent God-proposition symmetry. MODAL-S5-SYMMETRY-BOUNDARY concerns modal collapse, not that ontological symmetry, so it was rejected as an acceptance-pilot substitute. Pending PR-615 classifies finite necessary-support unions, PR-619 separates memberwise explanation from history discrimination, and PR-625 supplies a unique logical feedback control; none establishes adequate explanation or ACT-GROUND. These pending PRs are scope evidence, not claimed delivered certificates. Added the missing five-way vacuity reporting contract to docs/configuration-elimination-loop.md. No proof edit, new source attribution, shared vocabulary, configuration dimension or verifier run is warranted for this audit. Intended and actual premise comparison: no formal premises retained/added/removed by this documentation change; no root-premise or closure delta. Source attribution remains paused. Publication refresh merged origin/main 9f688a74: PR-608 is now merged, and PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE is present in main with TruthCore.Results.Causality.CausalHarvest.localPSRCausalCore. The initial pending classification above records the audit checkpoint, not final delivery status. This strengthens the reason not to duplicate the core. Frontier routes and reaching-root output were byte-identical with and without the new attempt on the initial baseline; the audit adds no logical records.",
+  "evidence": [
+    "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+    "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+    "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+    "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+    "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+    "PR-608",
+    "PR-615",
+    "PR-619",
+    "PR-625",
+    "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE"
+  ],
+  "blocker": "No substantive new incompatibility among these commitments follows from the inspected shared profiles beyond existing/pending cores. The #437 acceptance pilot still requires its exact necessary-if-existent propositional semantics and omission controls; the #310 actuality/#311 explanatory-adequacy branches still require independently defended bridges. An explicit reviewed bridge is required before combining these with local existence-PSR; names or model absence cannot supply it. #471 remains open."
+}
