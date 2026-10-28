@@ -157,3 +157,68 @@ Against pristine origin/main at4e1f3dd4, all eight route records, the63 root
 items and reaching-root statement set are unchanged. Global closed/control
 bookkeeping and premise-dependent indexes may gain this outpost; this is not
 a reduction of root obligations.
+
+
+## No-contingent-support restriction: source interface boundary
+
+A follow-up to the same-witness route inspected `related` and the dossiers for
+`STMT-NO-CONTINGENT-GROUND-OF-NECESSARY` and
+`STMT-CAUSE-OF-NECESSITY-IS-NECESSARY`, including the existing minimal-bridges
+and finite-union attempts. The independent defense remains blocked; the
+switching rival and its existing certificates are retained unchanged.
+
+The existing q2a3 claim
+`AQUINAS-ST-I-Q2-A3-CAUSE-OF-NECESSITY-NECESSARY-A` was already explicit that
+necessity inheritance is presupposed rather than argued. Full materialization
+and reading of `AQUINAS-ST-I-Q2-A3` confirmed its precise locus, I q.2 a.3 co.,
+tertia via, the transition from the necessity dichotomy to the regress among
+necessary beings having a cause of their necessity. This adds no new source
+claim or independent defense. The existing candidate
+`AQUINAS-TERTIA-VIA-OPEN-PREMISES`, item (4), already owns that defense.
+
+The additional interface finding is that even accepting this historical
+premise does not supply the modern restriction. Its exact Lean type uses
+`IsNecessary Possible IsAt` and `CausesNecessityOf c x`; the restriction uses
+`NecessaryAt m w₀` and `supportsEsse w c x`, with existence of c at w.
+`DEF-NECESSARY-BEING` explicitly leaves possibility primitive over temporal
+conditions. Neither an identification with root-accessible de re existence
+nor a conversion from every direct esse supporter to a cause of the bearer's
+necessity is given. Both conversions would be additional open commitments;
+importing the historical premise alone would hide them. In particular, a
+cause of existence at one world need not thereby explain necessity across
+worlds. This mismatch is separate from the already recorded absence of a
+defense of the historical premise itself.
+
+The proposed replacements were rejected as defenses for these exact reasons:
+
+- De dicto necessary sufficiency of *some* supporter permits different
+  contingent supporters at different worlds. Universal existence of an
+  existential witness does not fix the witness. Conversely, necessary
+  sufficiency of a particular supporter's existence for the target's existence
+  has the implication in the wrong direction for necessity inheritance.
+- Essential dependence on a particular c could support the needed converse,
+  that target existence requires c's existence throughout the root-accessible
+  worlds. Applying it to **every** present direct supporter would add the
+  disputed universal essential-dependence commitment. It is not established
+  by the label “direct esse support”; no uniqueness or fixed supporter may be
+  inserted silently. A restriction to essential supporters leaves the
+  original underivedness conclusion, which excludes all direct supporters,
+  needing a further adequacy bridge.
+- Essential origin concerns the identity or origin of the bearer. The present
+  support primitive concerns direct support at each world and has no origin
+  parameter. Transferring a principle about a particular origin to all
+  concurrent supporters would be a further substantive premise.
+
+There is also a scope boundary: `NoContingentGroundOfNecessary` quantifies over
+**every** world w, while `NecessaryAt m w₀` quantifies only over worlds
+accessible from w₀. A principle asserted only at accessible evaluation worlds
+would not cover incoming support elsewhere unless a further scope condition
+were supplied. The existing conclusion itself excludes support at every
+admitted world, so simply weakening this premise's world quantifier would not
+preserve the advertised theorem. This is inspection of the existing types,
+not a newly certified model or impossibility theorem.
+
+No Lean declaration, source claim, candidate, argument, or closure flag changes.
+Intended and actual root-premise delta: none. Stop this line until independent
+evidence discriminates universal essential dependence from switching support,
+or justifies the two source interfaces and their world scope.
