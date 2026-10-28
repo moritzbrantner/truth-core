@@ -1,0 +1,12 @@
+{
+  "id": "INF-PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "input_statement_ids": [
+    "STMT-NO-BRUTE-EXISTENCE-AT",
+    "STMT-BRUTE-EXISTENCE-AT"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "direct-proof",
+  "meaning": "Logical bookkeeping for configuration selection: local no-brute coverage and a local brute witness at the same model/world are incompatible. Compose the previously checked exclusion; no excluded-middle assumption or philosophical premise closure follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

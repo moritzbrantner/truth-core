@@ -1,7 +1,7 @@
 {
   "id": "DEF-PSR-EXPLAINED-UNCAUSED-SOURCE",
   "term": "existent with an explained fact and no incoming existing efficient cause",
-  "definition": "At the selected world, there exists an individual and an explanation token for its existence fact, but no other existing individual is related to it by Causes. The token is not certified metaphysically sufficient, and the individual need not be necessary, simple, unique, or divine.",
+  "definition": "At the selected world, there exists an individual and an explanation token for its existence fact, but no existing individual (including itself) is related to it by Causes. The token is not certified metaphysically sufficient, and the individual need not be necessary, simple, unique, or divine.",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.ExplainedSourceAt",
   "basis": "stipulative",
   "note": "Only an intermediate result in the formal model; neither ex nihilo creation nor self-grounding follows."

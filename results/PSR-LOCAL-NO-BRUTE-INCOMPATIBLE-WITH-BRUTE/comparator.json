@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.NoBruteIncompatible.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

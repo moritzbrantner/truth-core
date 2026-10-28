@@ -1,0 +1,20 @@
+{
+  "id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "inference_ids": [
+    "INF-PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL"
+  ],
+  "meaning": "A single sound model, retaining the existing intrinsic-control ontology, has local explanation coverage at false and an unexplained actual existence fact at true. Thus the optional actual-world position must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "argument_id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteExistence.scopeControl",
+  "comparator_config": "results/PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL/comparator.json",
+  "status": "solution-present",
+  "description": "A single sound model, retaining the existing intrinsic-control ontology, has local explanation coverage at false and an unexplained actual existence fact at true. Thus the optional actual-world position must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified."
+}

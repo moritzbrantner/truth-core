@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-LOCAL-NO-BRUTE-EXISTENCE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-NO-BRUTE-EXISTENCE-AT",
+    "STMT-BRUTE-EXISTENCE-AT",
+    "STMT-PSR-EXISTENCE-COMPONENT",
+    "STMT-PSR-POPULATED-AT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+    "STMT-PSR-EXPLAINED-SOURCE-AT",
+    "STMT-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CONFIGURATION-FALSE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inspected dossiers for existing existence-PSR, population, causal well-foundedness, explained source, and excluded middle, then added an optional local positive individual existence-fact comparison axis relative only to explains. The explicit-EM fork is logical bookkeeping, not a substantive discovery or preferred-horn selection. A single sound two-world witness separates local coverage from all-world PSR. Existing existingSource_of_wellFounded yields the explained-source result from local coverage instead of global PSR. The old grounding rival expanded with sound PSR tokens retains a brute contingent grounding root and no necessary concretum: token coverage does not discharge a substantive adequate-explanation/grounding bridge. Negative/totality facts, sufficiency, noncircularity and necessary/divine existence remain outside the result; no root premise change. New premise dossiers inspected after records load; see result records for exact frozen theorem bindings. Interactive/focused compilation is not final Comparator certification. All five advertised results passed Comparator and NanoDa locally with the pinned 4.35 verifier; focused BindTypes/bind_result reports five bound and zero mismatches. Four result profiles permit zero axioms; only the reused well-founded-source route permits the standard three Mathlib axioms. Frozen Challenges were preserved, including the separate configuration-false adapter. Generated import integration, full-library binding and CI remain coordinator-owned.",
+  "evidence": [
+    "PSR-LOCAL-EXISTENCE-BOUNDARY",
+    "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+    "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+    "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+    "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+  ]
+}

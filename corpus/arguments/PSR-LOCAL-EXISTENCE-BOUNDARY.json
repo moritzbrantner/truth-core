@@ -1,0 +1,22 @@
+{
+  "id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-LOCAL-EXISTENCE-BOUNDARY",
+  "inference_ids": [
+    "INF-PSR-LOCAL-EXISTENCE-BOUNDARY"
+  ],
+  "meaning": "Logical scope bookkeeping for the optional local comparison axis: explicit excluded middle supplies coverage; incompatibility and the equivalence between all-world existence-PSR and all local coverages are checked separately without excluded middle. This establishes no optional horn or philosophical background.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}

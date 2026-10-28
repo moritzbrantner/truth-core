@@ -1,0 +1,16 @@
+{
+  "id": "STMT-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "lean_declaration": "TruthCore.Explanation.NoBruteExistence.LocalDoesNotImplyGlobal",
+  "paraphrase": "One sound two-world explanation model has local no-brute existence coverage at world false, a brute positive individual existence fact at world true, and fails all-world existence-PSR.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}

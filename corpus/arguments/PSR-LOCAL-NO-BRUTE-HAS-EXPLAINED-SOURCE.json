@@ -1,0 +1,27 @@
+{
+  "id": "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+  "premise_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-NO-BRUTE-EXISTENCE-AT",
+    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+  ],
+  "conclusion_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "inference_ids": [
+    "INF-PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE"
+  ],
+  "meaning": "At one populated world, reuse existingSource_of_wellFounded to obtain an actual existent without any incoming existing efficient cause, including a self-cause; local explanation coverage supplies a reason for its positive existence fact. The prior global existence-PSR premise is replaced by coverage at this world only. No adequate explanation, necessity, uniqueness, or divinity follows.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
+    "DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}
