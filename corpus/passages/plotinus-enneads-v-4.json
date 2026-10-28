@@ -1,0 +1,34 @@
+{
+  "snapshot": {
+    "source_id": "PLOTINUS-ENNEADS",
+    "edition_urn": "urn:cts:greekLit:tlg2000.tlg001.1st1K-grc1",
+    "language": "grc",
+    "repository": "OpenGreekAndLatin/First1KGreek",
+    "revision": "ed91552c52530c8f5a3ddf2dd767e899372a804c",
+    "path": "data/tlg2000/tlg001/tlg2000.tlg001.1st1K-grc1.xml",
+    "git_blob_sha": "7b5a33eade9341bfabd4a2ac6a3a7551756f3128",
+    "source_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/ed91552c52530c8f5a3ddf2dd767e899372a804c/data/tlg2000/tlg001/tlg2000.tlg001.1st1K-grc1.xml",
+    "license": "CC BY-SA 4.0; Volkmann 1883–1884 underlying edition public domain."
+  },
+  "passages": [
+    {
+      "id": "PLOTINUS-ENN-V-4",
+      "locator": "V.4, complete treatise (chapters 1–2)",
+      "claim_locator_prefixes": [
+        "V.4.1",
+        "V.4.2"
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "5"
+        },
+        {
+          "subtype": "chapter",
+          "n": "4"
+        }
+      ]
+    }
+  ],
+  "notes": "Entire treatise provides context for bounded V.4.1 composition, priority and unity readings. Greek primary text, not an assumed English translation."
+}

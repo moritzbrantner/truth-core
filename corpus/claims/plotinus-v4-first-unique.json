@@ -1,0 +1,15 @@
+{
+  "id": "PLOTINUS-V4-FIRST-UNIQUE",
+  "statement_id": "STMT-PLOTINIAN-FIRST-UNIQUE",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.1, τὸ δὴ τοιοῦτον ἓν μόνον ... οὐχ ἓν ἂν εἴη τὰ ἄμφω",
+  "interpretation": "Source reading recorded in prose only. Records Plotinus’s uniqueness conclusion and his reason that another such principle would leave the pair not one. It does not advertise a verified inference from individual simplicity or refute plural simples without the source’s stronger unity and global-priority commitments.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-SIMPLICITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

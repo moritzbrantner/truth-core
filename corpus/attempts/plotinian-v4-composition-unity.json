@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-PLOTINIAN-V4-COMPOSITION-UNITY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-PLOTINIAN-FIRST-SELF-STANDING",
+    "STMT-PLOTINIAN-COMPOSITE-NEED",
+    "STMT-PLOTINIAN-FIRST-UNIQUE",
+    "STMT-PLOTINIAN-BODY-NOT-FIRST",
+    "STMT-PLOTINIAN-INTELLECT-NOT-FIRST",
+    "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Pinned and materialized full Greek Enneads V.4 (chapters1–2), read whole for the bounded V.4.1 argument. Six prose readings preserve first-principle self-standing/global scope, constitutive need for internal simples, asserted uniqueness, body exclusion, Intellect plurality and immediate-or-mediated derivation. Exact FirstMoverSimple.firstMoverSimple, StageTwo.GodIsSimple.godIsSimple and SourceForest.atMostOne_of_confluent/rooted_of_confluent were inspected and reused as conditional boundaries, not relabeled Plotinian results. A duplicate graph/simplicity theorem and a transcription of uniqueness were rejected: needed interpretation and individuation premises remain independent. Distinct numerical individuals each lacking modeled components are not refuted by saying their pair is not one; actual causal correspondence and common-domain coverage also remain open. Positive rival map and source/proof boundaries are in docs/notes/plotinian-composition-unity.md. No new Lean/result, no root premise or route change.",
+  "evidence": [
+    "PLOTINUS-V4-FIRST-SELF-STANDING",
+    "PLOTINUS-V4-COMPOSITE-NEED",
+    "PLOTINUS-V4-FIRST-UNIQUE",
+    "PLOTINUS-V4-BODY-NOT-FIRST",
+    "PLOTINUS-V4-INTELLECT-NOT-FIRST",
+    "PLOTINUS-V4-DERIVATIVE-SCOPE"
+  ],
+  "blocker": "Constitutive need must be justified against whole-first priority and interpreted as the exact priority or actual causal relation used by the target theorem. Global unity/individuation is not supplied by individual simplicity; existence, modal necessity and intrinsic explanatory adequacy remain separate obligations. VI.9.1–6 is a successor witness to read, not evidence already consulted."
+}

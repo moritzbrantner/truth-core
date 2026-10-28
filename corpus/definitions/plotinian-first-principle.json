@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+  "term": "first principle in Plotinus V.4",
+  "definition": "The proposed first stands on its own, is prior to all subsequent things and is distinct from what proceeds from it, while present to them in another manner. This is global explanatory priority, not merely absence of an incoming edge in a restricted graph, earliest time or the Catholic nominal identification of God.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLOTINUS-V4-FIRST-SELF-STANDING",
+    "PLOTINUS-V4-DERIVATIVE-SCOPE"
+  ]
+}
