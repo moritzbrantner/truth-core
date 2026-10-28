@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNION-COMMON-NONCOMPOSITE",
+  "argument_id": "NECESSARY-UNION-COMMON-NONCOMPOSITE",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedNonComposite.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedNonComposite.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedNonComposite.from_union",
+  "comparator_config": "results/NECESSARY-UNION-COMMON-NONCOMPOSITE/comparator.json",
+  "status": "solution-present",
+  "description": "Import and apply the exact #636 causal_from_union theorem, retaining all eight premises including necessary-support-union WF. Keep its SAME named underived unique actual causal-source witness. A composite would have a distinct q.3 uniting cause; explicit open presence and correspondence interfaces turn it into an actual incoming causal edge, contradicting that witness sourcehood. This is a conditional same-witness connection, not independent defense of the interfaces or root closure. No maximality, first-being or cause-comparison premise is used."
+}

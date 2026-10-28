@@ -42,6 +42,7 @@ import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
 import TruthCore.Results.Causality.TemporalEventControls.Solution
 import TruthCore.Results.Causality.UnderivedCommonSource.Solution
+import TruthCore.Results.Causality.UnderivedNonComposite.Solution
 import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution

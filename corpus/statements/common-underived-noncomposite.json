@@ -1,0 +1,21 @@
+{
+  "id": "STMT-COMMON-UNDERIVED-NONCOMPOSITE",
+  "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.CommonUnderivedNonComposite",
+  "paraphrase": "Some same individual retains named necessarily underived support status and unique actual causal sourcehood in the selected world, and is noncomposite for the supplied q.3 Composite predicate. No God identification, essence-esse identity or intrinsic reason is asserted.",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-SIMPLE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-CAUSE"
+  ]
+}
