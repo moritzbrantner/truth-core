@@ -1,0 +1,10 @@
+{
+  "id": "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+  "argument_id": "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteCompatibility.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteCompatibility.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteCompatibility.checks",
+  "comparator_config": "results/PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE/comparator.json",
+  "status": "solution-present",
+  "description": "Expand the existing contingent grounding rival by explanation tokens for its actual positive existence facts; reuse its no-necessary-concretum and brute-root certificates unchanged. Sound all-world existence-PSR coexists with this grounding-brute rival, so the new optional token-coverage axis alone excludes neither grounding brute roots nor contingency. A substantive adequate-explanation-to-ground bridge remains open."
+}

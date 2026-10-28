@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BRUTE-EXISTENCE-AT",
+  "term": "local brute positive existence fact",
+  "definition": "At the selected world some actual individual has no explains-related Reason token for its positive existence fact. This existential failure of coverage requires actual population, unlike the local universal alternative. It is not merely lack of an existing efficient cause or concrete ground, and does not assess the adequacy of tokens that are present.",
+  "basis": "stipulative",
+  "note": "Owner-requested optional analyst comparison axis; no source attribution. The existing explanation model and its weak token semantics are retained.",
+  "lean_declaration": "TruthCore.Explanation.NoBruteExistence.BruteExistenceAt"
+}

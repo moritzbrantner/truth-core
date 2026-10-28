@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NO-BRUTE-EXISTENCE-AT",
+  "lean_declaration": "TruthCore.Explanation.NoBruteExistence.NoBruteExistenceAt",
+  "paraphrase": "Every actual positive individual existence fact at the selected world has a reason according to the model explains relation. This optional local commitment asserts neither explanatory adequacy nor causal or grounding coverage.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}

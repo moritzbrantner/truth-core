@@ -104,6 +104,84 @@ defence of the thinker-local anti-brute-root premise against the brute
 contingent-foundation rival (#505, #545), or a bridge to the tertia via's
 necessary being, which needs a modeling decision (`DISAMB-NECESSARY-INDIVIDUAL-SCOPE`).
 
+### Optional no-brute-existence PSR: explanatory and grounding roots
+
+The existing existence-PSR is weaker than the anti-brute-grounding commitment
+needed by this pilot. `ExistencePSR.Model.explains` relates reason tokens to
+existence facts; `Sound` only requires the explained individual to exist.
+Neither definition requires sufficient explanation, an existing concrete
+reason-bearer, a grounding edge or noncircularity. The `Reason.intrinsic` tag
+is explicitly not evidence that an essence explains its own instantiation.
+A local no-unexplained-existence condition therefore removes unexplained-fact
+profiles, not automatically contingent roots of the separate grounding relation.
+All-world `ExistencePSR` covers every supplied model world, not only the worlds
+accessible from a selected standpoint; that scope must also remain explicit.
+
+This limitation already appears in
+`BruteFoundationRoutes.weakExplanationsDoNotExcludeBruteRoot`: selection-token
+coverage and truth soundness coexist with failure of
+`EveryContingentGroundedAt` and `NecessaryConcreteAt` in `boundaryRival`.
+`Explanation.WellFoundedSource.psr_gives_explained_source` separately derives
+an explained existent with no incoming existing efficient cause from population,
+PSR and causal well-foundedness. An explained fact and an uncaused individual
+are not contradictory descriptions under these semantics.
+
+The compatibility refinement in
+[NoBruteExistenceCompatibility](../../TruthCore/Models/NoBruteExistenceCompatibility.lean)
+connects those vocabularies directly: it retains `boundaryRival.ontic` and its
+separate grounding assignment unchanged, and assigns
+`explains w r (fact x)` exactly when x exists at w and r is the intrinsic token
+for x. Its four-conjunct target is truth soundness, all-world existence-PSR,
+no necessary concrete individual at the selected world, and failure of the
+all-contingent-grounded requirement. This is one joint interpretation, not a
+combination of independent models. The separate control Challenge was frozen
+before helper proof construction; focused/integrated verification is delegated
+to the coordinator. Token adequacy is neither added nor claimed.
+
+The consequential missing bridge is from an admitted explanation of a contingent
+concrete existence fact to an actual concrete grounding predecessor in the
+**same** profile. With the global bridge, local PSR supplies
+`EveryContingentGroundedAt`, and the existing
+`BruteFoundationBoundary.necessaryConcreteOfGroundedContingents` composes it
+with actual population and grounding well-foundedness. The end-to-end pilot
+needs only the corresponding ancestry-local bridge to
+`CogitoNecessaryConcrete.ThinkerAncestryGrounded`, which feeds the existing
+`necessaryConcreteAncestor` result; it need not demand a concrete predecessor
+for necessary individuals or for unrelated concreta. Requiring every existent
+to have an external cause would be a stronger, different premise and conflicts
+with causal well-foundedness plus population. Merely naming explanations
+sufficient, while leaving the relation unconstrained, supplies no such bridge.
+
+The new local finite comparison must retain this calibration: in the existing
+`PSR.ContingentOnly` model, the unexplained witness is the necessary individual
+`false`, not the explained contingent individual `true`. Its populated/brute/
+well-founded profile therefore means an unexplained existence fact, not a
+certificate of a contingent grounding root. The separate compatibility
+expansion above supplies the latter comparison without changing the ontology.
+
+For the next bounded comparison, existing axes should remain typed separately.
+`ContingentAt` is actual presence plus accessible absence;
+`HasExistingCauseAt` is an existing predecessor in `ontic.Causes`;
+`grounds` and `ExternallySupportedAt` concern separate dependence relations.
+`PossibleCauseOfContingency.mixedHasContingentUncausedRoot` already witnesses
+an uncaused contingent individual, even alongside a necessary concretum.
+Temporal `IsAt : Being → Time → Prop` and `Before` in the Third Way are not
+modal worlds/accessibility. `NothingBeginsExceptThroughWhatIsReading` relates
+earlier absence and later presence to some earlier existent; it does not
+supply a first instant or a causal edge to that individual. The existing
+`ChangeDoesNotGiveModalContingency` control uses separate world/time indices.
+The already recorded eternity/perpetuity disambiguation keeps timeless eternity
+separate from endless temporal succession, and the current stage-2 `Eternal`
+predicate does not encode an all-times-presence theorem. No already-checked
+eternal-yet-dependent joint witness is supplied here. Reuse the uncaused/
+contingent and world/time controls before adding a temporal-history axis.
+
+Actual discrimination: the optional PSR excludes unexplained profiles under
+its explicit explanation semantics. It does not yet reject the old contingent
+brute-ground-root rival, establish a necessary being, or close a root premise.
+The stronger explanatory-to-grounding interpretation remains an open substantive
+commitment, rather than a consequence of the new name. Premise delta: none.
+
 ## Pilot B: from objective goods to binding reasons (#563, #149, #185)
 
 **Thesis and purpose.** A theory that claims to be a complete account of

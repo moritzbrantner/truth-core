@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+  "argument_id": "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExplainedSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExplainedSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteExplainedSource.checks",
+  "comparator_config": "results/PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "At one populated world, reuse existingSource_of_wellFounded to obtain an actual existent without any incoming existing efficient cause, including a self-cause; local explanation coverage supplies a reason for its positive existence fact. The prior global existence-PSR premise is replaced by coverage at this world only. No adequate explanation, necessity, uniqueness, or divinity follows."
+}

@@ -1,0 +1,177 @@
+{
+  "id": "CONFIG-LOCAL-EXISTENCE-PSR",
+  "description": "Optional local explanation-coverage comparison on unchanged PSR controls. NoBrute and Brute are logical comparison labels relative to stipulated explains, not a substantive philosophical dilemma or adequate-explanation verdict. Causal structure is independent; the external-cause dimension quantifies over all model worlds. No root premise is assumed true.",
+  "seed_statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+  "semantics": {
+    "id": "local-existence-psr-stipulated-explanations",
+    "logic": "Constructive Lean model certificates remain zero-axiom. The general well-founded-source implication permits exactly the approved Mathlib axioms propext, Classical.choice and Quot.sound; no excluded-middle proposition is a profile premise.",
+    "frame": "The Model contains arbitrary shared accessibility; registered controls use universal frames. Local dimensions concern the designated world only; EveryExistentExternallyCaused is explicitly all-world.",
+    "domain": "Fixed World and Being candidate types. Existence is separately indexed by world; neither type inhabitedness nor a designated world implies population.",
+    "identity": "Literal equality of candidates across worlds. Reasons explain tagged positive existence facts; this is distinct from efficient causes and grounding.",
+    "vocabulary": "EXISTENCE-PSR",
+    "modules": [
+      "TruthCore.Explanation.NoBruteExistence",
+      "TruthCore.Explanation.WellFoundedSource"
+    ],
+    "parameters": [
+      {
+        "name": "World",
+        "type": "Type"
+      },
+      {
+        "name": "Being",
+        "type": "Type"
+      },
+      {
+        "name": "Model",
+        "type": "TruthCore.Explanation.ExistencePSR.Model World Being"
+      },
+      {
+        "name": "world",
+        "type": "World"
+      }
+    ],
+    "parameter_order": [
+      "World",
+      "Being",
+      "Model",
+      "world"
+    ],
+    "applications": {
+      "STMT-NO-BRUTE-EXISTENCE-AT": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "STMT-BRUTE-EXISTENCE-AT": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "STMT-PSR-POPULATED-AT": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "STMT-PSR-WELL-FOUNDED-CAUSES-AT": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "STMT-PSR-EXTERNAL-CAUSE-COMPONENT": [
+        "World",
+        "Being",
+        "Model"
+      ],
+      "STMT-PSR-EXPLAINED-SOURCE-AT": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ]
+    },
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "configurations": [
+    {
+      "id": "populated-no-brute-well-founded",
+      "statement_ids": [
+        "STMT-NO-BRUTE-EXISTENCE-AT",
+        "STMT-PSR-POPULATED-AT",
+        "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+      ]
+    },
+    {
+      "id": "populated-brute-well-founded",
+      "statement_ids": [
+        "STMT-BRUTE-EXISTENCE-AT",
+        "STMT-PSR-POPULATED-AT",
+        "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+      ]
+    },
+    {
+      "id": "populated-no-brute-external-causes",
+      "statement_ids": [
+        "STMT-NO-BRUTE-EXISTENCE-AT",
+        "STMT-PSR-POPULATED-AT",
+        "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+      ]
+    },
+    {
+      "id": "no-brute-well-founded-external-vacuity",
+      "statement_ids": [
+        "STMT-NO-BRUTE-EXISTENCE-AT",
+        "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+        "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+      ]
+    },
+    {
+      "id": "local-coverage-and-counterposition-bookkeeping",
+      "statement_ids": [
+        "STMT-NO-BRUTE-EXISTENCE-AT",
+        "STMT-BRUTE-EXISTENCE-AT"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+  ],
+  "implication_result_ids": [
+    "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE"
+  ],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-PSR-CONTINGENTONLY",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "Model": "Model",
+        "world": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-PSR-EMPTY-WORLD",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "Model": "Model",
+        "world": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-PSR-INTRINSIC",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "Model": "Model",
+        "world": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-PSR-MUTUAL-CAUSES",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "Model": "Model",
+        "world": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-PSR-WORLDWISE-ALTERNATING",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "Model": "Model",
+        "world": "world"
+      }
+    }
+  ]
+}
