@@ -31,6 +31,7 @@ import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
+import TruthCore.Results.Causality.PluralRootConfluence.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
