@@ -5,15 +5,17 @@
     "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
     "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
     "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT"
+    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE"
   ],
   "kind": "reading",
   "outcome": "blocked",
-  "summary": "Read materialized Compendium I12–15 and newly pinned De ente et essentia capp.3–4 (Baur/Koch Corpus Thomisticum numbering,69874–5). De ente enumerates three multiplication modes, distinguishes addition-excluding pure esse from indeterminate common being, and takes genus/differentia of simple immaterial quiddities from the whole rather than real quiddity-parts. This narrows the live bridge but supplies no independently defended exhaustive exclusion of primitive whole-subject individuation or different whole essences. Rejected unrestricted identity-predicate PII, inferring real composition from predication, common numerical nature from one predicate, and reverse use of the all-other-things-receive-esse conclusion whose source derivation already uses uniqueness. Precise locators, strongest rival and conditional defense boundaries persist in docs/notes/necessary-simple-plurality.md. No new claim/theorem, no added/removed/discharged premise; intended and actual root delta zero.",
-  "blocker": "Defend independently why every real difference between the same proposed unreceived simple candidates must be an additional limiting/receiving principle, or derive a narrower premise acceptable to the primitive-identity/different-whole-essence rival; also defend addition-excluding esse tantum applicability. The source assertion of exhaustiveness is not an independent proof.",
+  "summary": "Read materialized Compendium I12–15 and newly pinned De ente et essentia capp.3–4 (Baur/Koch Corpus Thomisticum numbering,69874–5). De ente enumerates three multiplication modes, distinguishes addition-excluding pure esse from indeterminate common being, and takes genus/differentia of simple immaterial quiddities from the whole rather than real quiddity-parts. This narrows the live bridge but supplies no independently defended exhaustive exclusion of primitive whole-subject individuation or different whole essences. Rejected unrestricted identity-predicate PII, inferring real composition from predication, common numerical nature from one predicate, and reverse use of the all-other-things-receive-esse conclusion whose source derivation already uses uniqueness. Precise locators, strongest rival and conditional defense boundaries persist in docs/notes/necessary-simple-plurality.md. No new claim/theorem, no added/removed/discharged premise; intended and actual root delta zero. Follow-up: read materialized ST I q.7 aa.1–2 in full. A.1 distinguishes matter perfected by form from form contracted by matter; ad3 distinguishes unreceived from received instances, not two unreceived beings. A.2 co. infers reception/contraction from stated created-form essence/esse nonidentity, not nonidentity from determinate nature. Sed contra uses all-others causal dependence; ad1 uses createdness. Neither supplies an independent exclusion of two uncreated whole essences each identical with esse. The existing note preserves exact within-article locators and rejected converse.",
+  "blocker": "Defend independently why every real difference between the same proposed unreceived simple candidates must be an additional limiting/receiving principle, or derive a narrower premise acceptable to the primitive-identity/different-whole-essence rival; also defend addition-excluding esse tantum applicability. The source assertion of exhaustiveness is not an independent proof. Q.7 a.2 only supplies nonidentity-to-reception; defending its converse for the same disputed whole essences remains open. Createdness/all-others causal scope cannot be silently assumed against an independent uncreated plural rival.",
   "evidence": [
     "AQUINAS-COMPENDIUM-I15-ONE-GOD",
     "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
-    "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL"
+    "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+    "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE"
   ]
 }
