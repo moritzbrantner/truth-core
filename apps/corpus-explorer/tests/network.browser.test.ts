@@ -110,8 +110,10 @@ for (const mobile of [false, true]) {
     // passage at once: off-screen nodes are intentionally virtualized.
     const comparison = new URL(page.url());
     comparison.searchParams.delete("viewport");
-    await page.goto(comparison.toString());
+    const response = await page.goto(comparison.toString());
+    expect(response?.status()).toBe(200);
     await page.locator(`[data-id="${selected}"] .graph-node-statement[data-selected="true"]`).waitFor();
+
     await shell.scrollIntoViewIfNeeded();
     if (screenshots) { await shell.screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-layered.png` }); }
     console.info(JSON.stringify({ workload: "real-corpus-network-browser", mobile, mounted, initialMs, selectionMs, browser: browser.version(), bun: Bun.version }));
