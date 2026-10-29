@@ -18,5 +18,19 @@
     "setting": "TruthCore.Logic.Strength.UniqueExistence.twoPointSetting",
     "result_id": "STRENGTH-UNIQUE-SEPARATOR"
   },
-  "note": "For one supplied predicate on a common carrier, unique existence is existence plus at most one satisfying witness. The two-point setting satisfies existence and refutes unique existence. This generic logical comparison supplies no metaphysical premise and does not assert a uniquely explanatory delta."
+  "note": "For one supplied predicate on a common carrier, unique existence is existence plus at most one satisfying witness. The two-point setting satisfies existence and refutes unique existence. This generic logical comparison supplies no metaphysical premise and does not assert a uniquely explanatory delta.",
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      1
+    ],
+    "weaker": [
+      0,
+      1
+    ],
+    "delta": [
+      0,
+      1
+    ]
+  }
 }

@@ -83,8 +83,9 @@ expression-presentation authority, not a certificate or proof-status authority.
 
 ## Current handoff: certified strength comparisons
 
-Selected base: `5332b82aa11123e68eeaa74f3b9d04834a816197`, which includes
-merged PRs #726 and #725. Branch: `feat/certified-strength`. This stage uses the
+Selected base: `65176b5c` (merged PR #727). Follow-up branch:
+`fix/strength-application-binding`. Exact delivered revision and CI are recorded
+in the follow-up PR handoff. This stage uses the
 existing statement, inference, argument, result and relation records; there is
 no all-pairs search and no solver service.
 
@@ -93,11 +94,18 @@ comparison registration carried by relations. A registered Lean specification
 fixes shared vocabulary/typeclass parameters, an ordered explicit background,
 stronger and weaker formulas, a named proposed delta, and an allowed-case
 remainder. `scripts/CheckStrength.lean` checks complete certificate types against
-those applied formulas using Lean definitional equality. Corpus head binding
+those applied formulas using Lean definitional equality. Every named field and
+background also has an explicit ordered parameter-index correspondence into the
+shared telescope, including implicit carriers and relevant instances. Dependent
+argument types, declaration heads, each ordered argument, and complete
+applications must agree. Fields may omit unused parameters (DecidableEq in the
+cause fields; LinearOrder in equality/inequality), but may neither specialize G
+to True nor permute same-typed arguments. Maps must be strictly increasing; no
+type/name heuristic or argument membership test selects a correspondence. Corpus head binding
 identifies statement records; it is insufficient for certificate application
 binding. Neither declaration names nor pretty-printed text establish matching.
 
-An exact additional requirement needs all three implications: stronger to
+A proved exact factorization needs all three implications: stronger to
 weaker, stronger to delta, and weaker plus delta to stronger, together with the
 advertised equivalence certificate. Sufficiency alone leaves exactness
 unresolved. Equivalence of stronger and weaker is a separate question. A strict
@@ -106,7 +114,16 @@ whose background holds and which satisfies weaker and not stronger. Failure to
 find a converse supplies no separator. Multiple registrations may propose
 different named deltas; no uniqueness or minimality follows. A delta
 definitionally equal to the stronger formula or weaker-implies-stronger cannot
-be advertised as explanatory additional content.
+pass the definitional degeneracy guard. This guard detects only definitional
+matches; a negative check establishes no semantic nonredundancy. Exact
+factorization does not certify explanatory usefulness: S padded with True can
+factor S perfectly. Informativeness remains a reviewed interpretation, with
+linked controls as evidence. No logical inequivalence to W → S is required:
+at-most-one is a meaningful delta despite being equivalent to existence →
+unique existence. No general semantic-restatement solver is supplied.
+A separator refutes the general converse for the advertised comparison, not
+the converse on every fixed carrier or interpretation. The present examples
+use Type 0; closed settings can directly instantiate higher universes too.
 
 The remainder of cases admitted only by the weaker formula is weaker and not
 stronger, not the conjunctive additional requirement. A named remainder such as
@@ -122,7 +139,10 @@ being; it neither prohibits all self-causes nor replaces a shared existential
 witness by unrelated witnesses. Its constructive reconstruction explicitly
 selects decidable equality. A finite self-cause setting separates the principles;
 a mixed self/nonself-cause control checks the weaker interpretation of the
-delta. These are formal settings, not claims of metaphysical possibility.
+delta. The report links all three existing controls (mixed self/other causes,
+no causes, and non-restatement) through their canonical result pages and
+verifier configurations; they provide no implication/exactness/strictness role.
+These are formal settings, not claims of metaphysical possibility.
 Reconstruction retains the broad witness when it is distinct. If that witness
 is the generated being itself, the delta supplies an alternative witness whose
 distinctness and causation are asserted together.
@@ -138,9 +158,13 @@ result machinery. The explorer consumes only that derived report and validates
 its source/dependency inputs. A definition edit or changed background/application
 must invalidate old output even when record IDs and declaration names persist.
 The formula view reuses the structure inspector; proof links and semantic
-interpretation stay distinct. Intended root-premise delta: none. Validation,
-actual frontier comparison, exact delivered revision and remaining scope will
-be linked in the implementation PR.
+interpretation stay distinct. Intended and actual root-premise delta: none.
+No corpus proposition, Challenge, or proof is changed.
+Binding regressions include valid specialized causal certificates, a valid
+swapped-argument certificate, and a valid mismatched-background certificate,
+all rejected at field binding before report publication. Positive coverage
+includes all three live comparisons, omitted parameters and polymorphic
+certificates. The existing verifier gates remain required for delivered CI.
 
 To verify a requested registration, or produce the registered explorer slice:
 

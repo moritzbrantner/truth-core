@@ -17,6 +17,7 @@ def fixture():
     relation = {"id": "REL-TEST", "predicate": strength.PREDICATE,
                 "subject_kind": "statement", "subject_id": "S", "object_kind": "statement", "object_id": "W",
                 "delta_statement_id": "D", "background_statement_ids": [], "comparison_spec": "TruthCore.Test.spec",
+                "statement_parameter_indices": {role: [] for role in ("stronger", "weaker", "delta")},
                 "evidence_result_ids": {role: role for role in strength.EXACT_DELTA_ROLES}, "note": "Explicit local interpretation."}
     data = {"statements": statements, "results": results, "arguments": arguments, "definitions": {}, "disambiguations": {}, "comparisons": [relation]}
     return relation, data
@@ -31,6 +32,9 @@ def binding(relation, data):
               "certificates": [{"role": role, "theorem": data["results"][rid]["theorem"], "bound": True} for role, rid in relation["evidence_result_ids"].items()]}
     if relation.get("separator"):
         output["separator"] = {"setting": relation["separator"]["setting"], "theorem": data["results"][relation["separator"]["result_id"]]["theorem"], "bound": True}
+    for field in output["field_bindings"]:
+        relation["statement_parameter_indices"].setdefault(field["role"], [])
+        field.update(parameter_indices=relation["statement_parameter_indices"][field["role"]], expected_application=field["declaration"])
     return output
 
 
@@ -72,6 +76,29 @@ class StrengthComparisonsTest(unittest.TestCase):
             with self.subTest(field=field), self.assertRaisesRegex(ValueError, "not registration authority"):
                 strength.validate_registration({**relation, field: value}, data["statements"], data["results"], data["arguments"])
 
+    def test_parameter_maps_are_explicit_ordered_and_complete(self):
+        relation, data = fixture()
+        for maps in (None, {}, {"stronger": [1, 0], "weaker": [], "delta": []},
+                     {"stronger": [0, 0], "weaker": [], "delta": []},
+                     {"stronger": [True], "weaker": [], "delta": []}):
+            with self.subTest(maps=maps), self.assertRaisesRegex(ValueError, 'ordered subsequence'):
+                strength.validate_registration({**relation, 'statement_parameter_indices': maps},
+                                              data['statements'], data['results'], data['arguments'])
+
+    def test_controls_resolve_to_results_and_supply_no_certificate_role(self):
+        relation, data = fixture()
+        relation['explanatory_control_result_ids'] = ['missing']
+        with self.assertRaisesRegex(ValueError, 'unknown evidence result'):
+            strength.validate_registration(relation, data['statements'], data['results'], data['arguments'])
+        relation['explanatory_control_result_ids'] = ['separator']
+        data['results']['separator']['description'] = 'Interpretive control only.'
+        relation['evidence_result_ids'] = {'reconstruction': 'reconstruction'}
+        report = strength.projection(relation, data, binding(relation, data), verified=True)
+        self.assertEqual(report['explanatory_controls'][0]['result_id'], 'separator')
+        self.assertEqual(report['comparison_status'], 'unresolved')
+        self.assertEqual(report['delta_status'], 'sufficient only; exactness unresolved')
+        self.assertIn('not certified', report['explanatory_status'])
+
     def test_unknown_background_or_evidence_rejected(self):
         relation, data = fixture()
         for changed in ({"background_statement_ids": ["missing"]}, {"evidence_result_ids": {"implication": "missing"}}):
@@ -90,12 +117,12 @@ class StrengthComparisonsTest(unittest.TestCase):
     def test_all_three_directions_and_iff_needed_for_exact_label(self):
         relation, data = fixture()
         full = strength.projection(relation, data, binding(relation, data), verified=True)
-        self.assertEqual(full["delta_status"], "exact additional requirement proved")
+        self.assertEqual(full["delta_status"], "exact factorization proved")
         for missing in strength.EXACT_DELTA_ROLES:
             partial = copy.deepcopy(relation)
             del partial["evidence_result_ids"][missing]
             report = strength.projection(partial, data, binding(partial, data), verified=True)
-            self.assertNotEqual(report["delta_status"], "exact additional requirement proved")
+            self.assertNotEqual(report["delta_status"], "exact factorization proved")
 
     def test_strictness_needs_separating_setting_same_background_binding(self):
         relation, data = fixture()
@@ -131,7 +158,7 @@ class StrengthComparisonsTest(unittest.TestCase):
         relation, data = fixture()
         actual = binding(relation, data)
         actual["delta_degenerate"] = True
-        with self.assertRaisesRegex(ValueError, "not an explanatory"):
+        with self.assertRaisesRegex(ValueError, "definitional degeneracy"):
             strength.projection(relation, data, actual, verified=True)
 
     def test_registered_only_never_infers_proofs_from_result_presence(self):
@@ -158,7 +185,7 @@ class StrengthComparisonsTest(unittest.TestCase):
             with patch.object(strength, "input_manifest", manifest):
                 current = manifest(root)
                 report = strength.projection(relation, data, binding(relation, data), verified=True)
-                artifact = {"schema_version": 1, "producer": {"mode": "live-verified", "trust": strength.TRUST,
+                artifact = {"schema_version": strength.SCHEMA_VERSION, "producer": {"mode": "live-verified", "trust": strength.TRUST,
                             "source_head": "informational", "inputs": current, "input_digest": strength.input_digest(current)}, "comparisons": [report]}
                 path = root / "artifact.json"
                 path.write_text(json.dumps(artifact))

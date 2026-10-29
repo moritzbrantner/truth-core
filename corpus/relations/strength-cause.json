@@ -18,5 +18,27 @@
     "setting": "TruthCore.Logic.Strength.Cause.selfOnlySetting",
     "result_id": "STRENGTH-CAUSE-SEPARATOR"
   },
-  "note": "Under explicit decidable identity and the same generation/cause predicates, the distinct-cause principle is the broad principle plus the local requirement that a generated self-causing being also has a distinct cause. This keeps one shared existential witness, permits mixed self/nonself causes, and is not global causal irreflexivity. The self-only setting separates the principles; it is not a claim that real causes have that interpretation."
+  "note": "Under explicit decidable identity and the same generation/cause predicates, the distinct-cause principle is the broad principle plus the local requirement that a generated self-causing being also has a distinct cause. This keeps one shared existential witness, permits mixed self/nonself causes, and is not global causal irreflexivity. The self-only setting separates the principles; it is not a claim that real causes have that interpretation.",
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      2,
+      3
+    ],
+    "weaker": [
+      0,
+      2,
+      3
+    ],
+    "delta": [
+      0,
+      2,
+      3
+    ]
+  },
+  "explanatory_control_result_ids": [
+    "STRENGTH-CAUSE-MIXED-CONTROL",
+    "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+    "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+  ]
 }
