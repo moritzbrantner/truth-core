@@ -1,0 +1,34 @@
+{
+  "id": "ATTEMPT-CLASSICAL-ATTRIBUTES-STRUCTURE-MIGRATION",
+  "statement_ids": [
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-GOD-HAS-INTELLECT",
+    "STMT-GOD-HAS-WILL",
+    "STMT-GOD-IS-ETERNAL",
+    "STMT-GOD-IS-IMMUTABLE",
+    "STMT-GOD-IS-INFINITE",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING",
+    "STMT-GOD-IS-ONE",
+    "STMT-GOD-IS-PERFECT",
+    "STMT-GOD-IS-SIMPLE",
+    "STMT-GOD-IS-SUPREMELY-GOOD",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+  ],
+  "date": "2026-10-29",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded preservation/audit of CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES at 3cd9545a. Exact 69-record before/reviewed inventory, dispositions, self-sweep and unresolved bridges: docs/notes/classical-attributes-migration.md and its linked JSON. Related/dossier/attempt findings reused; the unrestricted causal ascent, naming converse and primitive attributes interpretation remain open. Corrected one-way bridge prose after re-reading materialized VATICAN-I-DEI-FILIUS-CH1 DS 3001\u20133002. Reused PureAct for the identical IsImmutable body, checked by Iff.rfl; regrouped the nine shared-witness predicates with a checked bridge equivalence under original parameters. Frozen Challenge unchanged. Complete-expression binding includes 28 recursive project dependencies, not just statement heads. All 15 hypotheses reported used; no minimality follows. Empty-IsGod and missing-converse controls plus an inhabited Unit setting conditional on retained excluded middle distinguish legitimate universal vacuity from existence. #720 declared-use projection supplies no fork application in this assembly. Intended/actual root premise delta none; eight route costs unchanged at 31,32,36,38,39,39,40,41. No whole-corpus audit, independent philosophical truth, or source-fidelity renewal is claimed. Next coherent scope is the later CLASSICAL-ATTRIBUTES-ALL specialization and same-witness consumers, with checked identity-decision weakening as a separate result if supported.",
+  "evidence": [
+    "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+    "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD"
+  ]
+}

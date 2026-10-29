@@ -2,9 +2,9 @@ import TruthCore.Case.Catholicism.StageOneQuartaVia
 
 /-!
 Stage 2, the classical divine attributes (owner decision on #143, 2026-10-24:
-option (a)). The skeleton keeps its field `HasClassicalAttributes`. One open
-definitional bridge, sourced from Vatican I, *Dei Filius* ch. 1, says which
-attributes it abbreviates. Each attribute is then derived for God, one group at a
+option (a)). The skeleton keeps its field `HasClassicalAttributes`. An explicit open
+one-way bridge, motivated by Vatican I, *Dei Filius* ch. 1, maps nine
+attribute predicates to the primitive field; it supplies no converse. Each attribute is then derived for God, one group at a
 time, from ST I qq.3–26.
 
 The link from the skeleton's `IsGod` to the *quarta via* is the converse of the
@@ -24,9 +24,9 @@ open TruthCore.Latin.Aquinas.SummaTheologiae (IsMaximumIn)
 
 universe u v
 
-/-- The definitional bridge: a being that is simple, perfect, good, one,
+/-- The open one-way bridge: a being that is simple, perfect, good, one,
 infinite, immutable, eternal, and has intellect and will has the classical
-attributes. Open premise. It fixes what the skeleton field abbreviates, after
+attributes. Open premise. It implies the primitive skeleton field, without defining it, after
 *Dei Filius* ch. 1 (*unum … aeternum, immensum … intellectu ac voluntate omnique
 perfectione infinitum … simplex omnino et incommutabilis*). -/
 def ClassicalAttributesSuffice (σ : Signature)
@@ -34,6 +34,38 @@ def ClassicalAttributesSuffice (σ : Signature)
       σ.Being → Prop) : Prop :=
   ∀ g, Simple g → Perfect g → Good g → One g → Infinite g → Immutable g → Eternal g →
     HasIntellect g → HasWill g → σ.HasClassicalAttributes g
+
+/-- The nine predicates at one shared being, in the bridge's original order.
+This is a reusable connective component, not a definition of the primitive
+`Signature.HasClassicalAttributes` and not a new historical reading. -/
+def NineClassicalAttributes {Being : Type}
+    (Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill : Being → Prop)
+    (g : Being) : Prop :=
+  Simple g ∧ Perfect g ∧ Good g ∧ One g ∧ Infinite g ∧ Immutable g ∧ Eternal g ∧
+    HasIntellect g ∧ HasWill g
+
+/-- Checked preservation of the original curried bridge, for its original
+parameters. This equivalence changes only connective presentation; neither side
+asserts the bridge or a converse from the primitive attributes field. -/
+theorem classicalAttributesSuffice_iff (σ : Signature)
+    (Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill : σ.Being → Prop) :
+    ClassicalAttributesSuffice σ Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill ↔
+      (∀ g, NineClassicalAttributes Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill g →
+        σ.HasClassicalAttributes g) := by
+  constructor
+  · intro h g ⟨hs, hp, hg, ho, hi, hm, he, hx, hw⟩
+    exact h g hs hp hg ho hi hm he hx hw
+  · intro h g hs hp hg ho hi hm he hx hw
+    exact h g ⟨hs, hp, hg, ho, hi, hm, he, hx, hw⟩
+
+/-- Apply the unchanged open bridge to the nine attributes of the same witness. -/
+theorem classicalAttributesFromNine (σ : Signature)
+    (Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill : σ.Being → Prop)
+    (h : ClassicalAttributesSuffice σ Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill)
+    (g : σ.Being)
+    (hNine : NineClassicalAttributes Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill g) :
+    σ.HasClassicalAttributes g :=
+  (classicalAttributesSuffice_iff σ Simple Perfect Good One Infinite Immutable Eternal HasIntellect HasWill).mp h g hNine
 
 /-- Whatever is God is maximal in being. Open premise: the converse of the nominal
 definitions of stage 1, read as a definite description (the name applies only to
@@ -113,6 +145,13 @@ capacity for any change (ST I q.9 a.1: whatever is changed in any way is in some
 way in potency). Not merely "not changing now" (Codex P1 on #199). -/
 def IsImmutable {Being : Sort u} {Respect : Sort v} (InPotency : Being → Respect → Prop)
     (g : Being) : Prop :=
-  ∀ r, ¬ InPotency g r
+  TruthCore.Latin.Aquinas.SummaTheologiae.PureAct InPotency g
+
+/-- The compatibility name retains exactly its original no-potency body.
+This is preservation of the encoded strong reading, not a philosophical
+equivalence between every sense of immutability and pure actuality. -/
+theorem isImmutable_iff_noPotency {Being : Sort u} {Respect : Sort v}
+    (InPotency : Being → Respect → Prop) (g : Being) :
+    IsImmutable InPotency g ↔ ∀ r, ¬ InPotency g r := Iff.rfl
 
 end TruthCore.Case.Catholicism

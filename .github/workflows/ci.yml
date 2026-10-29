@@ -45,6 +45,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      - name: Check bounded migration coverage and review freshness
+        run: python3 scripts/bundle_audit.py
       - name: Bind argument records to result theorem types
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check

@@ -81,7 +81,7 @@ catalog was consulted, and no conventions were installed or updated.
 The inspector was delivered by merged PR #726. Its implementation remains the
 expression-presentation authority, not a certificate or proof-status authority.
 
-## Current handoff: certified strength comparisons
+## Prior delivery: certified strength comparisons
 
 Selected base: `65176b5c` (merged PR #727). Follow-up branch:
 `fix/strength-application-binding`. Exact delivered revision and CI are recorded
@@ -187,3 +187,35 @@ The explorer build cache directly includes Lean sources, corpus records,
 certificate configurations and producer/verifier inputs. Report validation
 therefore cannot be bypassed by restoring a cached export after a dependency
 changes while statement IDs and declaration names remain fixed.
+
+
+## Current handoff: bounded corpus migration
+
+Base `3cd9545a75c975314ea9ebd146d9757bbb754158`; branch
+`refactor/classical-attributes-contract`. The delivered PR records the exact
+revision and final CI. This slice migrates only
+`CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES`: 69 explicitly accounted records, with
+one complete-expression result contract. The [audit and claim/type sweep](notes/classical-attributes-migration.md)
+link its exact before-state, disposition inventory and persisted attempt.
+The earlier strength delivery and evidence above remain intact.
+
+The source claim retains its original confession reading; corrected prose stops
+calling the open one-way attributes bridge a definition. `IsImmutable` reuses
+`PureAct` with checked original-body preservation; a named nine-attribute
+conjunction has checked equivalence with the original curried bridge. The frozen
+Challenge stays unchanged. Standard `bind-check` enforces the selected complete
+expression and its 28 project dependencies. Record coverage/freshness is checked
+by `scripts/bundle_audit.py` and CI. Neither checker decides philosophical
+adequacy. Root-route premise identities and costs remain unchanged.
+
+No local service endpoint/workspace/session was configured for this task; the
+existing documented CLI fallback was used. There was no service experiment or
+service-verification evidence in this slice.
+
+Next concrete migration: `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL`, then its
+same-witness consumers. Inspect and bind the specialized `IsImmutable InPotency`
+and attribute applications, retain the nine-to-field bridge and naming converse,
+and test whether identity decidability can replace full excluded middle in new
+weaker results. Preserve old Challenges and prior evidence. Do not treat the
+present audit as having covered those additional results or recursively
+certified all source readings.

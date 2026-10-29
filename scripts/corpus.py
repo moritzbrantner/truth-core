@@ -2360,11 +2360,16 @@ THEORY_BUNDLE_PREFIXES = ["TruthCore.Comparison."]
 def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
     """The modules to import and the theorems to describe, in result-id order."""
     ordered = sorted((record for _, record in results), key=lambda record: record["id"])
-    return {
+    out = {
         "modules": sorted({record["solution_module"] for record in ordered}),
         "theorems": [record["theorem"] for record in ordered],
         "bundle_prefixes": THEORY_BUNDLE_PREFIXES,
     }
+    from expression_contracts import selected_theorems
+    selected = selected_theorems(ordered)
+    if selected:
+        out["contract_theorems"] = selected
+    return out
 
 
 def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
@@ -2641,6 +2646,8 @@ def bind_result(
                 }
             )
 
+    from expression_contracts import check as check_expression_contract
+    problems.extend(check_expression_contract(result, described, ROOT))
     if problems:
         status = "mismatch"
     elif undecidable:
