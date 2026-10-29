@@ -4,12 +4,14 @@ import { comparisonsForResult, comparisonsForStatement, parseStrengthComparisons
 function bundle() {
   const proof = (role: string) => ({ role, result_id: `RESULT-${role}`, theorem: `Proof.${role}`, argument_id: `ARG-${role}`, bound: true as const, expected_type: `${role} expected`, actual_type: `${role} actual` });
   return {
-    schema_version: 1, producer: { mode: "live-verified", input_digest: "current-inputs" }, comparisons: [{
+    schema_version: 2, producer: { mode: "live-verified", input_digest: "current-inputs" }, comparisons: [{
       id: "REL-COMPARE", stronger_statement_id: "STMT-S", weaker_statement_id: "STMT-W", delta_statement_id: "STMT-D", remainder_statement_id: "STMT-R",
       background_statement_ids: ["STMT-GAMMA"], comparison_spec: "Comparison.spec", note: "Selected background comparison.", verified: true,
-      comparison_status: "strict strengthening", converse_status: "refuted by separating setting", delta_status: "exact additional requirement proved",
+      comparison_status: "strict strengthening", converse_status: "refuted by separating setting", delta_status: "exact factorization proved",
+      explanatory_status: "reviewed interpretation; informative explanation is not certified by factorization",
+      explanatory_controls: [{ result_id: "CONTROL", argument_id: "ARG-CONTROL", theorem: "Proof.control", description: "Explanation control." }],
       obligations: ["implication", "delta_forward", "reconstruction", "equivalence"].map(proof),
-      binding: { parameters: [{ name: "x", type: "Entity" }], formulas: { background: ["G x"], stronger: "S x", weaker: "W x", delta: "D x", remainder: "W x ∧ ¬ S x" } },
+      binding: { field_bindings: ["stronger", "weaker", "delta", "background.0", "remainder"].map((role) => ({ role, declaration: "Decl", parameter_indices: [0], expected_application: "Decl x", explicit_application: "Decl x", expression: "Decl x", type: "Prop", bound: true })), parameters: [{ name: "x", type: "Entity" }], formulas: { background: ["G x"], stronger: "S x", weaker: "W x", delta: "D x", remainder: "W x ∧ ¬ S x" } },
       separator: { setting: "Concrete.setting", result_id: "RESULT-SEPARATOR", theorem: "Proof.separator", bound: true },
       remaining_obligations: [], definitions: [], disambiguations: [],
       provenance: { result_ids: ["RESULT-implication", "RESULT-SEPARATOR"], bind_check: "bound", semantic_binding: "definitional equality", comparator: "passed" }, scope_notes: ["No minimality claim."],
@@ -24,6 +26,7 @@ test("certified transport preserves background, added requirement and allowed ca
   expect(comparisonsForStatement(input, "STMT-R")).toHaveLength(1);
   expect(comparisonsForStatement(input, "UNRELATED")).toHaveLength(0);
   expect(comparisonsForResult(input, "RESULT-SEPARATOR")).toHaveLength(1);
+  expect(comparisonsForResult(input, "CONTROL")).toHaveLength(1);
 });
 
 test("strictness without checked separating evidence is rejected", () => {
@@ -67,4 +70,13 @@ test("partial structural evidence stays explicit, without invented primitive sem
   const report = parseStrengthComparisons(input)[0];
   expect(report.binding.structure?.[0].expansion?.kind).toBe("unsupported");
   expect(report.binding.structure?.[0].expansion?.coverage).toContain("partial");
+});
+
+test("failed or head-only field binding cannot receive a displayed verdict", () => {
+  const input = bundle();
+  input.comparisons[0].binding.field_bindings[0].bound = false;
+  expect(() => parseStrengthComparisons(input)).toThrow("complete statement application");
+  Reflect.deleteProperty(input.comparisons[0].binding.field_bindings[0], "expected_application");
+  input.comparisons[0].binding.field_bindings[0].bound = true;
+  expect(() => parseStrengthComparisons(input)).toThrow("complete statement application");
 });

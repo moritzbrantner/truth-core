@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.StrengthOrder.implication",
   "comparator_config": "results/STRENGTH-ORDER-IMPLICATION/comparator.json",
   "status": "solution-present",
-  "description": "Apply pinned Mathlib le_of_lt in the same supplied LinearOrder. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+  "description": "Apply pinned Mathlib le_of_lt in the same supplied LinearOrder. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
 }

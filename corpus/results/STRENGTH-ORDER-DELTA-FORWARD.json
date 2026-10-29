@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.StrengthOrder.deltaForward",
   "comparator_config": "results/STRENGTH-ORDER-DELTA-FORWARD/comparator.json",
   "status": "solution-present",
-  "description": "Apply pinned Mathlib ne_of_gt to the same ordered x,y. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+  "description": "Apply pinned Mathlib ne_of_gt to the same ordered x,y. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
 }

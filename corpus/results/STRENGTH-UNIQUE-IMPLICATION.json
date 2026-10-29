@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.StrengthUnique.implication",
   "comparator_config": "results/STRENGTH-UNIQUE-IMPLICATION/comparator.json",
   "status": "solution-present",
-  "description": "Keep the original witness and its predicate proof from the pinned Mathlib unique-existence definition. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+  "description": "Keep the original witness and its predicate proof from the pinned Mathlib unique-existence definition. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
 }

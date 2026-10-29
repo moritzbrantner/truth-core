@@ -14,7 +14,7 @@ from configuration_explorer import input_digest, input_manifest as configuration
 from proposition_structure import module_for
 
 PREDICATE = "strength_comparison"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 ROLES = {"implication", "delta_forward", "reconstruction", "equivalence", "converse", "allowed_cases", "remainder_identity"}
 EXACT_DELTA_ROLES = {"implication", "delta_forward", "reconstruction", "equivalence"}
 TRUST = "Trusted live producer; freshness validation is not fresh proof execution. Existing result verifiers remain authoritative."
@@ -42,6 +42,15 @@ def validate_registration(relation, statements, results, arguments, configs=None
     background = relation.get("background_statement_ids")
     if not isinstance(background, list) or any(not isinstance(sid, str) for sid in background) or len(set(background)) != len(background) or any(sid not in statements or not statements[sid].get("lean_declaration") for sid in background):
         raise ValueError(f"{label}: background_statement_ids must list distinct known Lean statements in binder order")
+    fields = {"stronger", "weaker", "delta"} | {f"background.{i}" for i in range(len(background))}
+    if relation.get("remainder_statement_id"):
+        fields.add("remainder")
+    maps = relation.get("statement_parameter_indices")
+    if not isinstance(maps, dict) or set(maps) != fields or any(
+        not isinstance(indices, list) or any(type(i) is not int or i < 0 for i in indices)
+        or indices != sorted(set(indices)) for indices in maps.values()
+    ):
+        raise ValueError(f"{label}: statement_parameter_indices must give each field an ordered subsequence of the shared telescope")
     string(relation.get("comparison_spec"), f"{label}: comparison_spec")
     string(relation.get("note"), f"{label}: note")
     for forbidden in ("verified", "status", "strictly_stronger", "strict", "minimal", "unique_delta"):
@@ -58,7 +67,10 @@ def validate_registration(relation, statements, results, arguments, configs=None
             raise ValueError(f"{label}: separator must name a setting and result_id")
         string(separator.get("setting"), f"{label}: separator.setting")
         string(separator.get("result_id"), f"{label}: separator.result_id")
-    selected = list(evidence.values()) + ([separator["result_id"]] if separator else [])
+    controls = relation.get("explanatory_control_result_ids", [])
+    if not isinstance(controls, list) or any(not isinstance(rid, str) for rid in controls) or len(set(controls)) != len(controls):
+        raise ValueError(f"{label}: explanatory controls must be distinct result IDs")
+    selected = controls + list(evidence.values()) + ([separator["result_id"]] if separator else [])
     for rid in selected:
         if not isinstance(rid, str) or rid not in results:
             raise ValueError(f"{label}: unknown evidence result {rid}")
@@ -113,7 +125,7 @@ def context(root, load_dir):
     data["comparisons"] = sorted((r for r in data["relations"].values() if r.get("predicate") == PREDICATE), key=lambda r: r["id"])
     for relation in data["comparisons"]:
         validate_registration(relation, data["statements"], data["results"], data["arguments"])
-    selected = {rid for relation in data["comparisons"] for rid in relation["evidence_result_ids"].values()} | {
+    selected = {rid for relation in data["comparisons"] for rid in [*relation["evidence_result_ids"].values(), *relation.get("explanatory_control_result_ids", [])]} | {
         relation["separator"]["result_id"] for relation in data["comparisons"] if relation.get("separator")}
     # Reuse the canonical executable-gate contract, including theorem coverage,
     # Challenge/Solution paths, axiom policy and enabled NanoDa.
@@ -127,6 +139,7 @@ def context(root, load_dir):
 def checker_request(root, relations, data):
     modules, comparisons = set(), []
     for relation in relations:
+        modules.update(data["results"][rid]["solution_module"] for rid in relation.get("explanatory_control_result_ids", []))
         spec = relation["comparison_spec"]
         modules.add(module_for(root, spec))
         certs = []
@@ -139,7 +152,7 @@ def checker_request(root, relations, data):
         declarations["background"] = [data["statements"][sid]["lean_declaration"] for sid in relation["background_statement_ids"]]
         if relation.get("remainder_statement_id"):
             declarations["remainder"] = data["statements"][relation["remainder_statement_id"]].get("lean_declaration")
-        item = {"id": relation["id"], "specification": spec, "certificates": certs, "statement_declarations": declarations}
+        item = {"id": relation["id"], "specification": spec, "certificates": certs, "statement_declarations": declarations, "statement_parameter_indices": relation["statement_parameter_indices"]}
         if relation.get("separator"):
             setting = relation["separator"]["setting"]
             result = data["results"][relation["separator"]["result_id"]]
@@ -151,6 +164,8 @@ def checker_request(root, relations, data):
 
 def projection(relation, data, binding=None, *, verified=False):
     """Only checked roles produce claims; a sufficient condition is never exact content."""
+    if verified:
+        validate_binding(relation, data, binding)
     evidence = relation["evidence_result_ids"]
     roles = set(evidence) if verified else set()
     strict = "implication" in roles and relation.get("separator") is not None
@@ -159,7 +174,7 @@ def projection(relation, data, binding=None, *, verified=False):
         raise ValueError(f"{relation['id']}: contradictory converse and separating evidence")
     exact = EXACT_DELTA_ROLES <= roles
     if exact and binding and binding.get("delta_degenerate"):
-        raise ValueError(f"{relation['id']}: delta is definitionally S or W → S, not an explanatory additional requirement")
+        raise ValueError(f"{relation['id']}: delta is definitionally S or W → S, excluded by the definitional degeneracy guard; explanatory usefulness is not certified")
     obligations = []
     bound_by_role = {c["role"]: c for c in (binding or {}).get("certificates", [])}
     for role, rid in sorted(evidence.items()):
@@ -177,11 +192,16 @@ def projection(relation, data, binding=None, *, verified=False):
               "comparison_spec": relation["comparison_spec"], "note": relation["note"], "verified": verified,
               "comparison_status": "strict strengthening" if strict else "proved equivalence" if equivalent else "proved implication" if "implication" in roles else "unresolved",
               "converse_status": "refuted by separating setting" if strict else "proved" if "converse" in roles else "unresolved",
-              "delta_status": "exact additional requirement proved" if exact else "sufficient only; exactness unresolved" if "reconstruction" in roles else "unresolved",
+              "delta_status": "exact factorization proved" if exact else "sufficient only; exactness unresolved" if "reconstruction" in roles else "unresolved",
+              "explanatory_controls": [{"result_id": rid, "argument_id": data["results"][rid]["argument_id"], "theorem": data["results"][rid]["theorem"], "description": data["results"][rid]["description"]} for rid in relation.get("explanatory_control_result_ids", [])],
+              "explanatory_status": "reviewed interpretation; informative explanation is not certified by factorization",
               "obligations": obligations, "binding": binding, "remaining_obligations": sorted(EXACT_DELTA_ROLES - roles),
               "definitions": definitions, "disambiguations": disambiguations,
               "scope_notes": ["Comparison is under the displayed shared background and vocabulary, not the entire theorem environment.",
-                              "D is an additional requirement; W ∧ ¬S denotes cases admitted only by W. They are distinct roles.",
+                              "Exact factorization S ↔ (W ∧ D) does not certify that D is informative: even S ∧ True can be an exact factorization.",
+                              "The degeneracy guard detects only definitional matches to S or W → S; a negative check proves no semantic nonredundancy.",
+                              "A checked separating instance refutes the general converse under this comparison, not the converse for every fixed domain or interpretation. Current examples use Type 0; closed settings need not use universe zero.",
+                              "D is a proposed additional requirement; W ∧ ¬S denotes cases admitted only by W. They are distinct roles.",
                               "No unique or minimal delta is claimed. Proof-term use does not establish premise necessity.",
                               "The artifact is derived presentation; corpus results, Comparator and NanoDa remain the proof authorities."]}
     if relation.get("remainder_statement_id"):
@@ -216,7 +236,7 @@ def validate_binding(relation, data, binding):
     if len(fields) != len(declarations) or {f.get("role") for f in fields} != set(declarations):
         raise ValueError(f"{relation['id']}: incomplete statement/background bindings")
     for field in fields:
-        if field.get("bound") is not True or field.get("declaration") != declarations[field["role"]]:
+        if field.get("bound") is not True or field.get("declaration") != declarations[field["role"]] or field.get("parameter_indices") != relation["statement_parameter_indices"][field["role"]] or not field.get("expected_application"):
             raise ValueError(f"{relation['id']}: mismatched statement/background binding")
     if relation.get("separator"):
         separator = binding.get("separator", {})
@@ -231,7 +251,7 @@ def verify(root, data, relations):
     if not relations:
         return []
     run(root, ["lake", "build", *request["modules"]])
-    ids = sorted({rid for relation in relations for rid in relation["evidence_result_ids"].values()} |
+    ids = sorted({rid for relation in relations for rid in [*relation["evidence_result_ids"].values(), *relation.get("explanatory_control_result_ids", [])]} |
                  {relation["separator"]["result_id"] for relation in relations if relation.get("separator")})
     selected = [(root / "corpus/results" / f"{rid}.json", data["results"][rid]) for rid in ids]
     described = json_tool(root, "scripts/BindTypes.lean", bind_tool_input(selected))

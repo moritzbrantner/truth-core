@@ -31,7 +31,16 @@ test("certified comparisons preserve selected backgrounds, all obligations and s
   expect(await cause.locator("[data-strength-status]").textContent()).toBe("strict strengthening");
   expect(await cause.getByLabel("Selected background").textContent()).toContain("Background Γ");
   expect(await cause.getByLabel("Exact comparison formulas").innerText()).toContain("STMT-CAUSE-PRINCIPLE-BROAD");
-  expect(await cause.locator("[data-delta-status]").innerText()).toContain("exact additional requirement proved");
+  expect(await cause.locator("[data-delta-status]").innerText()).toContain("exact factorization proved");
+  expect(await cause.locator("[data-delta-status]").innerText()).toContain("does not certify explanatory usefulness");
+  expect(await cause.innerText()).toContain("does not assert separation for every fixed domain");
+  for (const result of ["STRENGTH-CAUSE-MIXED-CONTROL", "STRENGTH-CAUSE-NO-CAUSE-CONTROL", "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"]) {
+    const link = cause.getByLabel("Explanatory controls").getByRole("link", { name: `${result} · control evidence →`, exact: true });
+    const href = await link.getAttribute("href");
+    const response = await page.request.get(new URL(href!, page.url()).href);
+    expect(response.status()).toBe(200);
+    expect(await response.text()).toContain("Certified strength comparisons");
+  }
   for (const role of ["implication", "delta_forward", "reconstruction", "equivalence"]) {
     expect(await cause.locator(`[data-strength-role="${role}"]`).innerText()).toContain("proved");
   }

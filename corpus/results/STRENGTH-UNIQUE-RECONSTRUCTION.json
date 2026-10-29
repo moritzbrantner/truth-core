@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.StrengthUnique.reconstruction",
   "comparator_config": "results/STRENGTH-UNIQUE-RECONSTRUCTION/comparator.json",
   "status": "solution-present",
-  "description": "Keep the existing existential witness and use at most one to prove every other predicate witness equals it. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+  "description": "Keep the existing existential witness and use at most one to prove every other predicate witness equals it. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
 }

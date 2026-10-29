@@ -95,10 +95,56 @@ def head? (e : Expr) : Option Name :=
   | .const n _ => some n
   | _ => none
 
-def fieldBinding (role : String) (e : Expr) (declaration : String) : MetaM Json := do
+/-- A registration selects an ordered subsequence of the specification telescope.
+Indices include implicit carrier arguments and relevant instances. No argument is
+inferred by name, by type similarity, or from the field being checked. -/
+def fieldBinding (xs : Array Expr) (maps : Json) (role : String) (e : Expr)
+    (declaration : String) : MetaM Json := do
+  let indices ← match maps.getObjValAs? (Array Nat) role with
+    | .ok v => pure v
+    | .error _ => throwError "{role}: missing ordered statement parameter correspondence"
+  let mut expected ← mkConstWithFreshMVarLevels declaration.toName
+  let mut previous : Option Nat := none
+  for i in indices do
+    if i >= xs.size || (previous.isSome && i <= previous.get!) then
+      throwError "{role}: parameter indices must be an ordered subsequence of the shared context"
+    let t ← whnf (← inferType expected)
+    let .forallE _ domain _ _ := t
+      | throwError "{role}: too many declaration arguments"
+    if !(← isDefEq domain (← inferType xs[i]!)) then
+      throwError "{role}: parameter {i} has wrong dependent type"
+    expected := mkApp expected xs[i]!
+    previous := some i
+  if !(← isDefEq (← inferType expected) (mkSort Level.zero)) then
+    throwError "{role}: correspondence must fully apply a proposition declaration"
+  -- Compare heads and each ordered argument as well as the full propositions:
+  -- unfolding an argument-erasing definition must not conceal a permutation.
+  let mut agrees := head? e == some declaration.toName
+  let actualArgs := e.getAppArgs
+  let expectedArgs := expected.getAppArgs
+  agrees := agrees && actualArgs.size == expectedArgs.size
+  if agrees then
+    match e.getAppFn.consumeMData, expected.getAppFn with
+    | .const _ actualLevels, .const _ expectedLevels =>
+      agrees := actualLevels.length == expectedLevels.length
+      for (actualLevel, expectedLevel) in actualLevels.zip expectedLevels do
+        let same ← isLevelDefEq actualLevel expectedLevel
+        agrees := agrees && same
+    | _, _ => agrees := false
+    for i in [:actualArgs.size] do
+      let same ← isDefEq actualArgs[i]! expectedArgs[i]!
+      agrees := agrees && same
+    let same ← isDefEq e expected
+    agrees := agrees && same
+  expected ← instantiateMVars expected
+  let expectedText ← ppExplicit expected
+  let actualText ← ppExplicit e
   return Json.mkObj [("role", str role), ("declaration", str declaration),
-    ("expression", str (← pp e)), ("explicit_application", str (← ppExplicit e)), ("type", str (← pp (← inferType e))),
-    ("bound", Json.bool ((head? e).map Name.toString == some declaration))]
+    ("parameter_indices", toJson indices), ("expected_application", str expectedText),
+    ("expression", str (← pp e)), ("explicit_application", str actualText),
+    ("type", str (← pp (← inferType e))), ("bound", Json.bool agrees),
+    ("diagnostic", str (if agrees then "bound" else
+      s!"{role}: expected {expectedText}; actual {actualText}"))]
 
 partial def propositionList (e : Expr) : MetaM (Array Expr) := do
   let e ← whnf e
@@ -160,13 +206,14 @@ def describe (request : Json) : MetaM Json := do
     let certificates ← cs.mapM (certificate xs spec)
     let mut bindings : Array Json := #[]
     if let .ok ds := request.getObjVal? "statement_declarations" then
+      let maps ← object request "statement_parameter_indices"
       for (role, e) in [("stronger", strong), ("weaker", weak), ("delta", delta), ("remainder", remainder)] do
         if let .ok name := ds.getObjValAs? String role then
-          bindings := bindings.push (← fieldBinding role e name)
+          bindings := bindings.push (← fieldBinding xs maps role e name)
       if let .ok bgs := ds.getObjValAs? (Array String) "background" then
         if bgs.size != background.size then throwError "background statement count differs from specification"
         for i in [:bgs.size] do
-          bindings := bindings.push (← fieldBinding ("background." ++ toString i) background[i]! bgs[i]!)
+          bindings := bindings.push (← fieldBinding xs maps ("background." ++ toString i) background[i]! bgs[i]!)
     let mut out := [("id", str id), ("specification", str specification),
       ("application", str (← pp spec)), ("parameters", Json.arr parameters),
       ("explicit_application", str (← ppExplicit spec)), ("universe_parameters", toJson (specInfo.levelParams.map Name.toString)),

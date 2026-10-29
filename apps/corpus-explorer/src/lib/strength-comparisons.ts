@@ -15,8 +15,10 @@ export type StrengthComparison = {
   verified: true;
   comparison_status: "strict strengthening" | "proved equivalence" | "proved implication" | "unresolved";
   converse_status: "proved" | "refuted by separating setting" | "unresolved";
-  delta_status: "exact additional requirement proved" | "sufficient only; exactness unresolved" | "unresolved";
+  delta_status: "exact factorization proved" | "sufficient only; exactness unresolved" | "unresolved";
   remainder_status?: "exact admitted-only remainder proved" | "unresolved";
+  explanatory_status: string;
+  explanatory_controls: Array<{ result_id: string; argument_id: string; theorem: string; description: string }>;
   obligations: StrengthObligation[];
   binding: {
     parameters: Array<{ name: string; type: string; binder_info?: string }>;
@@ -25,7 +27,7 @@ export type StrengthComparison = {
     application?: string;
     explicit_application?: string;
     universe_parameters?: string[];
-    field_bindings?: Array<{ role: string; declaration: string; expression: string; explicit_application?: string; type: string; bound: true }>;
+    field_bindings: Array<{ role: string; declaration: string; parameter_indices: number[]; expected_application: string; expression: string; explicit_application?: string; type: string; bound: true }>;
     structure?: StructureDeclaration[];
     references?: Array<{ declaration: string; type?: string; fields?: Array<{ declaration: string; type: string; is_law?: boolean }> }>;
   };
@@ -43,7 +45,7 @@ function obligation(value: unknown): boolean {
 }
 /** Validate the trusted producer's transport; never derive fresh proof status here. */
 export function parseStrengthComparisons(value: unknown): StrengthComparison[] {
-  if (!record(value) || value.schema_version !== 1 || !record(value.producer) || value.producer.mode !== "live-verified"
+  if (!record(value) || value.schema_version !== 2 || !record(value.producer) || value.producer.mode !== "live-verified"
     || typeof value.producer.input_digest !== "string" || !Array.isArray(value.comparisons)) throw new Error("Invalid certified comparison bundle");
   for (const entry of value.comparisons) {
     if (!record(entry) || entry.verified !== true
@@ -51,7 +53,9 @@ export function parseStrengthComparisons(value: unknown): StrengthComparison[] {
       || !strings(entry.background_statement_ids) || !strings(entry.remaining_obligations) || !strings(entry.scope_notes)
       || !["strict strengthening", "proved equivalence", "proved implication", "unresolved"].includes(String(entry.comparison_status))
       || !["proved", "refuted by separating setting", "unresolved"].includes(String(entry.converse_status))
-      || !["exact additional requirement proved", "sufficient only; exactness unresolved", "unresolved"].includes(String(entry.delta_status))
+      || !["exact factorization proved", "sufficient only; exactness unresolved", "unresolved"].includes(String(entry.delta_status))
+      || typeof entry.explanatory_status !== "string" || !Array.isArray(entry.explanatory_controls)
+      || !entry.explanatory_controls.every((item: unknown) => record(item) && ["result_id", "argument_id", "theorem", "description"].every((key) => typeof item[key] === "string"))
       || !Array.isArray(entry.obligations) || !entry.obligations.every(obligation)
       || !record(entry.binding) || !Array.isArray(entry.binding.parameters) || !entry.binding.parameters.every((parameter: unknown) => record(parameter) && typeof parameter.name === "string" && typeof parameter.type === "string")
       || !record(entry.binding.formulas) || !strings(entry.binding.formulas.background)
@@ -62,6 +66,13 @@ export function parseStrengthComparisons(value: unknown): StrengthComparison[] {
       || entry.provenance.semantic_binding !== "definitional equality" || entry.provenance.comparator !== "passed") throw new Error("Invalid certified comparison");
     if (entry.binding.structure !== undefined && (!Array.isArray(entry.binding.structure) || !entry.binding.structure.every((item: unknown) => record(item) && typeof item.declaration === "string"
       && (item.type === undefined || isExpressionNode(item.type)) && (item.expansion === undefined || isExpressionNode(item.expansion))))) throw new Error("Invalid comparison expression structure");
+    const expectedFields = ["stronger", "weaker", "delta", ...entry.background_statement_ids.map((_, i) => `background.${i}`), ...(entry.remainder_statement_id ? ["remainder"] : [])];
+    const fields = entry.binding.field_bindings;
+    if (!Array.isArray(fields) || fields.length !== expectedFields.length
+      || new Set(fields.map((f: unknown) => record(f) ? f.role : undefined)).size !== fields.length
+      || !fields.every((f: unknown) => record(f) && f.bound === true && expectedFields.includes(String(f.role))
+        && typeof f.declaration === "string" && typeof f.expected_application === "string" && typeof f.explicit_application === "string"
+        && Array.isArray(f.parameter_indices) && f.parameter_indices.every((n: unknown, i: number, ns: unknown[]) => typeof n === "number" && Number.isInteger(n) && n >= 0 && (i === 0 || n > (ns[i - 1] as number))))) throw new Error("Invalid complete statement application binding");
     const roles = new Set(entry.obligations.map((item) => (item as StrengthObligation).role));
     const separated = record(entry.separator) && entry.separator.bound === true && ["setting", "result_id", "theorem"].every((key) => record(entry.separator) && typeof entry.separator[key] === "string");
     if ((entry.separator !== undefined && !separated)
@@ -71,7 +82,7 @@ export function parseStrengthComparisons(value: unknown): StrengthComparison[] {
       || (entry.comparison_status === "proved equivalence" && (!roles.has("implication") || !roles.has("converse")))
       || (entry.converse_status === "refuted by separating setting" && !separated)
       || (entry.converse_status === "proved" && !roles.has("converse"))
-      || (entry.delta_status === "exact additional requirement proved" && !["implication", "delta_forward", "reconstruction", "equivalence"].every((role) => roles.has(role)))) throw new Error("Comparison label lacks its certified evidence");
+      || (entry.delta_status === "exact factorization proved" && !["implication", "delta_forward", "reconstruction", "equivalence"].every((role) => roles.has(role)))) throw new Error("Comparison label lacks its certified evidence");
   }
   return value.comparisons as StrengthComparison[];
 }
@@ -96,5 +107,5 @@ export function comparisonsForStatement(comparisons: StrengthComparison[], id: s
   return comparisons.filter((entry) => [entry.stronger_statement_id, entry.weaker_statement_id, entry.delta_statement_id, entry.remainder_statement_id, ...entry.background_statement_ids].includes(id));
 }
 export function comparisonsForResult(comparisons: StrengthComparison[], id: string): StrengthComparison[] {
-  return comparisons.filter((entry) => entry.provenance.result_ids.includes(id));
+  return comparisons.filter((entry) => entry.provenance.result_ids.includes(id) || entry.explanatory_controls.some((control) => control.result_id === id));
 }

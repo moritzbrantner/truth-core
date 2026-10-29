@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.StrengthUnique.separator",
   "comparator_config": "results/STRENGTH-UNIQUE-SEPARATOR/comparator.json",
   "status": "solution-present",
-  "description": "The supplied Bool predicate True has distinct false and true witnesses, satisfying existence and falsifying unique existence under the same empty background. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+  "description": "The supplied Bool predicate True has distinct false and true witnesses, satisfying existence and falsifying unique existence under the same empty background. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
 }

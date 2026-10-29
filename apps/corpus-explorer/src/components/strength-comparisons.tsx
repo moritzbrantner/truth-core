@@ -6,7 +6,7 @@ const roles: Record<string, string> = {
   implication: "Implication · S → W",
   delta_forward: "Added requirement follows · S → D",
   reconstruction: "Reconstruction · W and D imply S",
-  equivalence: "Exact added requirement · S ↔ (W ∧ D)",
+  equivalence: "Exact factorization · S ↔ (W ∧ D)",
   converse: "Converse · W → S",
   allowed_cases: "Allowed cases · W ↔ (S ∨ R)",
   remainder_identity: "Remainder identity · R ↔ (W ∧ ¬ S)",
@@ -44,7 +44,15 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
         <Formula label="W · weaker proposition" text={comparison.binding.formulas.weaker} statementId={comparison.weaker_statement_id} />
         <Formula label="D · named proposed extra requirement" text={comparison.binding.formulas.delta} statementId={comparison.delta_statement_id} />
       </div>
-      <p className="mt-3 text-sm leading-6" data-delta-status>Added requirement: <strong>{comparison.delta_status}</strong>. This concerns S ↔ (W ∧ D), separately from whether S and W are equivalent.</p>
+      <p className="mt-3 text-sm leading-6" data-delta-status>Factorization: <strong>{comparison.delta_status}</strong>. This proves S ↔ (W ∧ D) when certified. Informative explanation remains a reviewed interpretation; valid factorization alone does not certify explanatory usefulness (for example, padding S with True). The degeneracy check detects only definitional matches to S or W → S; passing it proves no semantic nonredundancy.</p>
+      <p className="mt-2 text-xs leading-6 text-[var(--muted)]">{comparison.explanatory_status}</p>
+      {comparison.explanatory_controls.length ? <div className="mt-4" aria-label="Explanatory controls">
+        <h4 className="eyebrow">Explanatory controls · separate from comparison verdicts</h4>
+        <ul className="mt-2 grid gap-3">{comparison.explanatory_controls.map((control) => <li className="text-xs leading-6" key={control.result_id}>
+          <Link className="link-quiet break-all" href={`/results/${control.result_id}`}>{control.result_id} · control evidence →</Link>
+          <p>{control.description}</p>
+        </li>)}</ul>
+      </div> : null}
       <div className="mt-5" aria-label="Additional allowed cases">
         <Formula label="R · proposed description of the extra allowed cases" text={comparison.binding.formulas.remainder} statementId={comparison.remainder_statement_id} />
         <p className="mt-2 text-sm" data-remainder-status>{comparison.remainder_status ?? "No named remainder decomposition is certified here."}</p>
@@ -67,7 +75,7 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
           </details>
         </li>)}</ul>
         <p className="mt-3 text-sm" data-converse-status>Converse: {comparison.converse_status}.</p>
-        <p className="mt-2 text-xs leading-6 text-[var(--muted)]">Failure to find a converse is unresolved. Strictness requires a checked setting satisfying the same Γ with W ∧ ¬ S.</p>
+        <p className="mt-2 text-xs leading-6 text-[var(--muted)]">Failure to find a converse is unresolved. A checked instance satisfying the same Γ with W ∧ ¬ S refutes the general converse under this comparison; it does not assert separation for every fixed domain or interpretation. Current examples use Type 0; the closed-setting restriction does not require universe zero.</p>
         {comparison.separator ? <div className="mt-3 rounded border border-[var(--line)] p-3 text-sm leading-6" data-strength-separator>
           <p className="eyebrow">Checked separating setting · Γ with W ∧ ¬ S</p>
           <p className="mt-2 break-all font-mono text-xs">{comparison.separator.setting}</p>
@@ -86,7 +94,7 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
         {comparison.binding.universe_parameters?.length ? <p className="mt-2 text-xs">Universe parameters: {comparison.binding.universe_parameters.join(", ")}.</p> : null}
         <ul className="mt-3 grid gap-2">{comparison.binding.parameters.map((parameter, index) => <li className="min-w-0 text-xs" key={`${index}:${parameter.name}`}><code className="whitespace-pre-wrap break-words">{parameter.name} : {parameter.type}</code>{parameter.binder_info ? <span className="ml-2 text-[var(--muted)]">{parameter.binder_info}</span> : null}</li>)}</ul>
         {comparison.binding.field_bindings?.map((binding) => <div className="mt-3 min-w-0 text-xs" key={binding.role}>
-          <p className="break-all">{binding.role} · {binding.declaration}</p><pre className="whitespace-pre-wrap break-words">{binding.explicit_application ?? binding.expression} : {binding.type}</pre>
+          <p className="break-all">{binding.role} · {binding.declaration}</p><pre className="whitespace-pre-wrap break-words">{binding.explicit_application ?? binding.expression} : {binding.type}</pre><p>Expected application (shared parameter indices {binding.parameter_indices.join(", ")})</p><pre className="whitespace-pre-wrap break-words">{binding.expected_application}</pre>
         </div>)}
         {comparison.binding.structure?.map((declaration, index) => <details className="mt-3" key={declaration.declaration}>
           <summary className="cursor-pointer break-all text-xs">Inspect bound expression structure · {declaration.declaration}</summary>

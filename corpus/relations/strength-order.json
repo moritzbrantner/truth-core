@@ -21,5 +21,29 @@
     "result_id": "STRENGTH-ORDER-SEPARATOR"
   },
   "note": "Under the supplied mathematical LinearOrder, strict comparison is non-strict comparison plus inequality. Equality is the exact admitted-only remainder, with a checked zero/zero separating setting. These identities do not transfer to primitive AtLeastIn or MoreIn relations by their names: the compatibility laws remain separate premises. Actual theorem axioms and class-law parameters are reported by the producer.",
-  "remainder_statement_id": "STMT-STRENGTH-ORDER-EQUAL"
+  "remainder_statement_id": "STMT-STRENGTH-ORDER-EQUAL",
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "weaker": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "delta": [
+      0,
+      2,
+      3
+    ],
+    "remainder": [
+      0,
+      2,
+      3
+    ]
+  }
 }
