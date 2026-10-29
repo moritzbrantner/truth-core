@@ -529,3 +529,16 @@ the rival Enoch and Gibbard sources recorded here still do not supply specific
 case norms, whereas Railton supplies the impartial criterion and a distinct
 explicit example of wrongful mass killing. Each account's further bridge is
 judged on its own commitments.
+
+`HARD-CASE-GOODS-CONTROL` composes the typed certificate with two further
+independently supplied relations. The same victim's bodily integrity is
+classified as a good and as damaged by the violation; the same victim's life
+is classified as a good and as damaged by the killing. Both compared verdicts
+share those exact classifications and all hard-case facts, yet one supplies
+both prohibitions while the other supplies neither. The relations also have
+negative instances, so neither is simply true of everything. These are finite
+analyst assignments, not causal explanations, real-world facts, a historical
+claim, or a substantive rule that damage entails prohibition. A richer
+account may reject a verdict under its own supplied norm; no anti-realist or
+realist is attributed the negative assignment. The negative prohibition is
+not permission. The previously frozen typed certificate remains unchanged.
