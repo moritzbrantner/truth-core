@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+  "term": "constitutive content complete for nature identity",
+  "definition": "A supplied content : Principle → Respect → Prop distinguishes its principle values: pointwise equivalence of content implies equality of the represented nature values. It does not assert that qualitative agreement is numerical identity of beings.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.ConstitutiveContentComplete",
+  "note": "A proposed independent extensional account of nature; reading an essence as a complete constitutive account motivates the question but does not establish its completeness in positive/formal/eminent perfections. Neither intrinsic explanatory adequacy nor unreceived-esse applicability follows."
+}

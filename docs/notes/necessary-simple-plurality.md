@@ -375,3 +375,186 @@ not defend it, so no new theorem or source claim is added. Root premise delta:
 zero; the existing source-attributed subsistent-being/infinity premise is
 retained unchanged, as are the Q11 and perfection route premises. This reading
 clarifies their applicability and closes none of them.
+
+## Constitutive content and the same act sense (#697)
+
+The next test separates **complete constitutive content** from its **alignment
+with the act/perfection predicate**. Merely adding arbitrarily many duplicate
+respect labels would leave the primitive essence assignments untouched; that
+was rejected as a sufficient new discriminator. The result instead asks exactly
+what an extensional account of nature must contribute to the existing proofs.
+It introduces no new God predicate or ontology.
+
+### Primary reading and the decisive mode restriction
+
+The materialized complete `AQUINAS-COMPENDIUM-I-12-15`,
+`AQUINAS-ST-I-Q3-A3`, `AQUINAS-ST-I-Q11-A3`, and `AQUINAS-ST-I-Q4-A2`
+witnesses were read before this test. The previous q.7 and De ente findings
+above are reused, not attributed to new reading. Exact discriminators are:
+
+| Witness and locator | What it supports here | What remains open |
+| --- | --- | --- |
+| Compendium I.12 [69982], I.13 [69984] | Genus/difference composition involves potency; esse is not divided as a genus. | Why two proposed whole essences must be a genus/difference division or received instances, rather than primitive distinct wholes. |
+| Compendium I.14 [69986], I.15 [69988] | Multiplication of **one common essence** needs an individuating item, and the source proposes an exhaustive differentiae/subject argument for subsistent esse. | Common predication does not alone give one represented nature; the exhaustiveness and application to these candidates remain disputed. |
+| ST I q.3 a.3 co., from the material-substance contrast through subsisting forms; ad2 | Individuating matter is contrasted with forms individuated through themselves; effects can represent one simple cause through many imperfect representations. | The proper-God conclusion is not a universal assertion about every first mover, nor a derivation of one nature across different proposed wholes. |
+| ST I q.11 a.3 co., first proof, singular basis and Socrates contrast | The incommunicability observation concerns a singular *as this singular*, illustrated before the application to God. The existing general injectivity reading is reused with its original meaning. | Choosing a complete representation of that basis still requires warrant; a shared species predicate is not such a basis. |
+| ST I q.11 a.3 co., second proof, difference and privation/perfection argument | Distinct candidates must differ in an item, and the argument excludes the respective lack under complete perfection. | To instantiate the existing Lean reading, the difference must survive as opposite truth values in the **same** `InAct` sense used by every-perfection. |
+| ST I q.4 a.2 obj2; co., first and second proofs; reply1–2 | Opposed specific forms motivate the objection; the reply permits what is diverse and opposed in itself to preexist eminently as one. | A formal constitutive difference is not automatically absence of an eminent perfection. The argument needs an independently defended alignment and completeness account, not a switch of sense. |
+
+This last point does **not** refute q.11. Its strongest defender can argue that
+unreceived subsistent esse has a constitutive account exhausted by the relevant
+perfections and that every candidate difference must therefore appear in that
+same sense. The primitive-whole-essence rival denies that exhaustiveness, or
+distinguishes formal character from eminent containment. The q.4 reply prevents
+using opposed creaturely forms as an automatic counterexample to universal
+eminent perfection, and equally prevents silently importing their *formal*
+difference as an *eminent* absence. `DISAMB-IN-ACT` remains authoritative.
+No new attributed claim, source kind or source manifest is added.
+
+### Exact conditional composition
+
+`ConstitutiveNatureUniqueness.checks` imports and applies
+`Q11NatureUniqueness.godIsOneFromNature`. Given the existing incommunicable
+individuation and every-perfection commitments, it exposes three further OPEN
+interfaces:
+
+1. `FirstMoverSuppositumIsNature`: the represented singular basis equals nature
+   **on the first-mover candidate domain**. This is an explicit applicability
+   adapter, not the proper-God source premise silently broadened.
+2. `ConstitutiveContentComplete`: for the supplied `content : Principle →
+   Respect → Prop`, agreement in every content respect implies equality of
+   represented nature values. It concerns nature identity, not yet identity of
+   beings; an arbitrary collection of properties need not be complete.
+3. `FirstMoverContentAgreesWithAct`: each first mover's nature content agrees
+   with the **same** `InAct` used by every-perfection. It does not equate formal
+   character and eminent possession by naming them both properties.
+
+Every-perfection plus (3) gives content agreement; (2) gives common nature.
+The imported Q11 theorem uses that common nature, (1), and the unchanged
+individuation premise to derive at-most-one first mover. Existence is not
+produced: a supplied mover is used only inside the universal at-most-one proof.
+The theorem could fail without either new constitutive interface, as the
+unchanged-model controls below show. It is a conditional interface composition,
+not an independent defense of those interfaces or a transcription whose premise
+already asserts uniqueness.
+
+`differentiate` additionally targets the original
+`STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT`. It does **not** use
+ every-perfection. If distinct first movers had the same act profile, the same
+content/nature/individuation reasoning would identify them. Explicit excluded
+middle extracts a respect with opposite act truth values. The conclusion is
+exactly the original quantified differentiation type; its source claim and
+original Challenge are unchanged. The existing `OneFirstMover.oneFirstMover`
+can consume that result with every-perfection and the original identity split.
+The comparison is thus registered at the actual differentiation obligation,
+not kept off the argument graph to preserve a metric.
+
+### Independent omissions on the unchanged rival
+
+`CONSTITUTIVE-NATURE-OMISSION-CONTROLS` imports the original
+`PartFreePlurality.jointControl`. Every old ontic, actual-presence, necessary,
+world/identity, causal/support, power, component, essence, suppositum, motion
+and act field is unchanged. Only the proposed **content function** differs:
+
+| Content assignment on the same principle carrier | Retained additional condition | Failed condition |
+| --- | --- | --- |
+| `actContent p r := inAct p r` | Act/content alignment for the same roots; the new first-mover suppositum/nature adapter also holds. | Content cannot distinguish the distinct left/right essence values. Completeness fails. |
+| `separatingContent`, an injective five-row code on the original three respects | Every two different principle values differ in a code row, so content completeness holds; the same adapter holds. | At right/heat the code is false while the original `InAct` is true. Same-sense alignment fails. |
+
+The second code is assignment data, **not** a source-derived definition of
+actual natures or perfections. The two tests show that neither agreement nor
+completeness is automatic from the original joint constraints; no field of the
+old ontology is replaced to obtain this conclusion. Supplying both, alongside
+the retained individuation/adapter/every-perfection inputs, excludes this
+particular plural interpretation. That does not exclude every plural-foundation
+account or establish metaphysical possibility of the surviving omissions.
+
+The auxiliary `premisesJointlySatisfiable`, checked in the controls Comparator
+config, reuses `OneFirstMover.Joint`'s existing four-being carrier and motion/act
+assignment. An injective four-row content and identity-valued represented
+principles satisfy all five non-logical uniqueness hypotheses with an actual
+first mover and actual motion. Only that carrier and those motion/act fields
+are reused; this is not a claim to preserve every old essence assignment in
+the earlier single-mover test. It supplies nonvacuity, not an actual foundation.
+
+### Meaning, rivals, and end-to-end application
+
+In ordinary terms the proposed content is a complete constitutive account of
+*what a nature is*. A geometric definition illustrates the distinction:
+characterizing triangularity is not individuating two particular triangles.
+Here completeness concerns represented **nature values**; numerical identity
+still needs the independent singular-basis and suppositum/nature commitments.
+An incomplete feature list, behavioral similarity, a common word, identity to a
+named object, and an explanation-token are near misses rather than this account.
+
+Extensionality holds by construction for natures stipulated to be equivalence
+classes of complete descriptions. That mathematical representation does not
+show that real natures are exhausted by positive or eminent perfections. Nor
+does a physical causal/power profile independently establish concrete
+constitutive identity, unreceived esse, or the abstraction to a metaphysical
+first mover. The strongest whole-essence reply keeps the same actual causal
+roles while treating intrinsic constitution/individuation as primitive; its
+explanatory burden remains, but the present source reading has not refuted it.
+
+The #701 occurrence composition provides a same selected necessary, actual,
+concrete, conditionally underived individual with represented essence–esse
+identity. It does not make that individual a first mover, supply (1)–(3), or
+establish unreceived subsistent esse in the stronger source sense. To compose
+existence and this at-most-one result, one must additionally warrant that the
+**same** selected individual meets the candidate-domain and constitutive
+conditions. No existential witness substitution, God identification, uniqueness
+of causal sources generally, or root closure is inferred here.
+
+### Exact premise and validation report
+
+The direct uniqueness theorem has five hypotheses: existing incommunicable
+individuation and every-perfection, plus the three new OPEN interfaces. It
+neither assumes the old common-nature premise nor adds a new existence premise.
+The differentiation theorem instead has existing individuation and explicit
+excluded middle plus those three interfaces, with no every-perfection input.
+The original uniqueness route can still use its original differentiation
+commitment directly; the new derivation does not independently establish it.
+This is not a claim that one full premise bundle is weaker than the other.
+
+Measured against the pristine base, all 63 default `frontier --reaching-root`
+open IDs and all eight costs remain unchanged:
+31/32/36/38/39/39/40/41 (designated route40). The three new interfaces are
+registered openly as premises of the actual differentiation/uniqueness
+inferences. They have transitive dependents through first-mover routes, but the
+default root walk enters the designated efficient-regress route, which does
+not enter this differentiation node. Non-designated route text now marks the
+old differentiation premise “proved, rests on open premises”; it is **not
+closed** or removed from their cost. No root route is repointed, no old premise
+is removed, and no premise is independently defended. The global philosophical
+inventory has three additional bare open interfaces; that is an explicit cost,
+not a reduction of the case's burden.
+
+The claim/type sweep checks: completeness quantifies over represented natures,
+alignment only over first movers and the same acts, the applicability adapter
+is not source-attributed, differentiation is an existential opposite-truth
+respect (not merely inequality of labels), uniqueness supplies no witness,
+and each omission changes only its stated content assignment. Q11's general
+singular-basis reading is reused; its proper-God nature-identity reading is
+not broadened. All new interfaces have stipulative definition records and
+explicit disambiguation, linked alongside the original source definitions.
+
+New Challenge types were frozen before their respective proofs; the independent
+nonvacuity and differentiation declarations were added without weakening the
+earlier unique/control types. Final complete Challenge SHA256:
+`f96fcaefe7ad30af104ef27cf2ac0111d9b74a1c6f9cfc17dc1d644a2cb972a8`.
+Existing Challenges and source claims remain unchanged. First diagnostics
+rejected an abbreviation-qualified recursor and the temporary combined file's
+import placement; both were corrected without changing a theorem's meaning.
+Final combined definitions/Solution accepted on clean shared preview
+`9a3bacd5060f16671a8638d792d58c96df0ac9ce`, session `master-20261029`,
+`Scratch/issue697/Comparison.lean` version2, content SHA256
+`accc87c57f3cb12b510ce1dc63a8fafdca4614228e144a049f342825fc39ca3b`.
+All four checked paths report zero axioms, with no errors or warnings.
+
+For the bounded service comparison, the accepted warm edit took0.232s service,
+0.250s request, and0.286s client total with negligible lease wait. The identical
+combined file through CLI under the shared lease took0.78s. This is a single
+local development comparison, not proof-throughput evidence. The supplied
+session was reused after coordinator-owned dependency refresh; no worker
+session or dependency setup was created. Final build, binding, Comparator and
+NanoDa belong to delivered-head CI; preview diagnostics are not certification.
