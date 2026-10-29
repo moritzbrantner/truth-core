@@ -28,6 +28,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
