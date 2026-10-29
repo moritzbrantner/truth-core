@@ -23,7 +23,18 @@
         "$TURBO_DEFAULT$",
         "$TURBO_ROOT$/.cache/configuration-explorer.json",
         "$TURBO_ROOT$/.cache/proposition-structure.json",
-        "$TURBO_ROOT$/.cache/strength-comparisons.json"
+        "$TURBO_ROOT$/.cache/strength-comparisons.json",
+        "$TURBO_ROOT$/TruthCore.lean",
+        "$TURBO_ROOT$/TruthCore/**/*.lean",
+        "$TURBO_ROOT$/corpus/**/*.json",
+        "$TURBO_ROOT$/results/**/comparator.json",
+        "$TURBO_ROOT$/scripts/*",
+        "$TURBO_ROOT$/verifier/Cargo.toml",
+        "$TURBO_ROOT$/verifier/Cargo.lock",
+        "$TURBO_ROOT$/verifier/src/**/*.rs",
+        "$TURBO_ROOT$/lean-toolchain",
+        "$TURBO_ROOT$/lakefile.toml",
+        "$TURBO_ROOT$/lake-manifest.json"
       ]
     },
     "dev": {

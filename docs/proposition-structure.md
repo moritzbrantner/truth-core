@@ -159,3 +159,7 @@ the three directions and a result for the displayed biconditional. Named
 allowed-case exactness requires both its identity and decomposition results.
 Inherited model/typeclass law structures remain named library boundaries; the
 inspector does not claim an exhaustive recursive inventory of Mathlib laws.
+The explorer build cache directly includes Lean sources, corpus records,
+certificate configurations and producer/verifier inputs. Report validation
+therefore cannot be bypassed by restoring a cached export after a dependency
+changes while statement IDs and declaration names remain fixed.
