@@ -1,0 +1,52 @@
+{
+  "baseline_revision": "3cd9545a75c975314ea9ebd146d9757bbb754158",
+  "dependencies": {
+    "TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection": "163038117cac1c38d53003dea946a839abbdac5d7004928167b302be4dcba79b",
+    "TruthCore.Case.Catholicism.CausesEveryPerfectionOfOthers": "ce0551aa887127af63d81388b27e9909bf84021ec848bbcb208c8de1ebbdd01c",
+    "TruthCore.Case.Catholicism.ClassicalAttributesSuffice": "3ab0722a3763f9133be039752ff094526b7f4a79180cfce7e98d14a2e0756ad0",
+    "TruthCore.Case.Catholicism.GodHasClassicalAttributes": "21b5e76c38c6b2c9eebf7adf69abac217bbece4ac803ef3bef71f7be47934fcf",
+    "TruthCore.Case.Catholicism.GodHasIntellect": "99e13fd9dbae6d7d6d1547315c145fb9b7314afa60c5e9e2f31c252354bf2b23",
+    "TruthCore.Case.Catholicism.GodHasWill": "62b4300172b23affac252c35a74f1263c69b6475ef6905ab89352156f24cbc6b",
+    "TruthCore.Case.Catholicism.GodIsEternal": "82c6865282f91fabf149f43c2240ed1af141eaf93b7579ab9015dc42fa515c01",
+    "TruthCore.Case.Catholicism.GodIsImmutable": "87611196c115178454c2f1c82144f4217c12f594dd481472ed05b9ecde7bf97d",
+    "TruthCore.Case.Catholicism.GodIsInfinite": "f9ea1b7cd466e2a4b4c9bd6c21eeb2e7d961e6bdfce3ca0deb3d4104629b4e3f",
+    "TruthCore.Case.Catholicism.GodIsMaximalInBeing": "dba751700c4072d0f8c0b3e76fbacf784073757fb5fd9c388b0d45f8f8686c1d",
+    "TruthCore.Case.Catholicism.IsPerfect": "308231a7e430bff41b6c2401e1b952f862ad63b8dd6425ce4f7dc807c7d1a647",
+    "TruthCore.Case.Catholicism.IsSimple": "3688a63aba002cd3c8840100524d00e8e5256c3a7e0bbec0dff54720ce30d182",
+    "TruthCore.Case.Catholicism.IsSupremelyGood": "596903b153b158e2db69c9226e703d9369851e1b0d50c2653297b108a7f60587",
+    "TruthCore.Case.Catholicism.IsTheOneGod": "1757affde4239dcbf3b4a83f2bf96feff58db925641572db6815b2c87235ab9e",
+    "TruthCore.Case.Catholicism.Signature": "fec99294b59af77531d9fc7ff829e14efb9310739a3855d27492529ee702a993",
+    "TruthCore.Case.Catholicism.Signature.Being": "2f418bd15dd6b8b627008a8cb55b2f50c550a60dfa9743d7cab9c33170d8c8ed",
+    "TruthCore.Case.Catholicism.Signature.HasClassicalAttributes": "40debd61e3c611816217116cc48e586ab18f1df6c3f5104e2dbf57aa8492072f",
+    "TruthCore.Case.Catholicism.Signature.IsGod": "d898926c8a795c03f3bd2ba1e1359b22fc7046da4f505d741158c3ed136cd490",
+    "TruthCore.Case.Catholicism.Signature.mk": "9c5fcbdb17683aea090823514e505ce93fea6f30011059b5c1da3fb07a826b90",
+    "TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading": "8d07c25ae76e5b10c11dab0c86a6183239b51a375e0813b0a1b825ec22a5ca67",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading": "e6e9cb42d7a45fb5574ee48ee7f2a54a244942eb1df7f1825b4830d4e900dd42",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus": "9601a937132c19ec98f78de5a60354bf256cd1c7150bf7bea71b8f7a25d169a5",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading": "3799a4a2302c6241b7a93289b6778a5b11ae78d9950a7a6171f49be85c39065f",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading": "4a84bcd78cdfc0eb5453cf189248f43e5fdeca72613c47f89647e23177abc189",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn": "fa374d3d9ed855441d0242e899f8cf640ce1dd002755c05a764399138ea28898",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading": "3ac4d7dc69545c63c31ed554702aafdd97772d1f3eb0b501c5c71c57e0130448",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading": "f5a8637f4544536c7574b36a37f7a35bbcff9b16e8f524a8ce7359dae1aeff37",
+    "TruthCore.Logic.ExcludedMiddle": "4a2ff59ff14334d50a5c20b5c8afab6ce16cc4662267cb6a56f94bb10130eb83"
+  },
+  "frozen_inputs": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "41172e62b489e353c00bfbb6a9bfcdcda87b36c531dee0ba673b41e7da220420"
+    },
+    {
+      "path": "TruthCore/Results/Case/Catholicism/StageTwo/ClassicalAttributes/Challenge.lean",
+      "sha256": "899d8ff4a8d077f6d5c32f7330bfc0d921af7c68ac70926bc454b143b513eda7"
+    }
+  ],
+  "provenance": "Isolated frozen Challenge extraction; theorem proof body excluded. Alpha names and metadata ignored; no semantic normalization.",
+  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+  "schema_version": 1,
+  "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.godHasClassicalAttributes",
+  "type_sha256": "92a5cb4634e3a2a03893da60b72a080ba7624184187eff996f772499878741e1"
+}

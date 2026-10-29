@@ -15,6 +15,7 @@ FIRST_SLICE = (
     "STMT-CAUSE-PRINCIPLE-BROAD",
     "STMT-CAUSE-PRINCIPLE-DISTINCT",
     "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
 )
 NOTES = [
     "Derived presentation of elaborated Lean expressions, not proof support or semantic equivalence.",

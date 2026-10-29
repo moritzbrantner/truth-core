@@ -34,7 +34,9 @@
         "$TURBO_ROOT$/verifier/src/**/*.rs",
         "$TURBO_ROOT$/lean-toolchain",
         "$TURBO_ROOT$/lakefile.toml",
-        "$TURBO_ROOT$/lake-manifest.json"
+        "$TURBO_ROOT$/lake-manifest.json",
+        "$TURBO_ROOT$/docs/notes/classical-attributes-migration.json",
+        "$TURBO_ROOT$/scripts/contracts/**/*.json"
       ]
     },
     "dev": {

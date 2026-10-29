@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "title": "Classical attribute assembly: bounded audit",
+  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+  "base_head": "3cd9545a75c975314ea9ebd146d9757bbb754158",
+  "root": "STMT-CATHOLICISM-TRUE",
+  "designated_route": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "route_costs_before": [
+    31,
+    32,
+    36,
+    38,
+    39,
+    39,
+    40,
+    41
+  ],
+  "premise_delta": "No change: all original root-route open leaves retained; none admitted or discharged.",
+  "records": [
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+      "path": "corpus/results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Assembly prose corrected to conditional one-way content. Frozen Challenge unchanged; helper factors only the final connective application. All 15 proof hypotheses are reported used, conservatively; no logical minimality is inferred.",
+      "before": {
+        "sha256": "8135903d72d59bf01063e5280c43e1380856c6725ee09d0b69b5668090f2eb77",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8135903d72d59bf01063e5280c43e1380856c6725ee09d0b69b5668090f2eb77"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+      "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Assembly prose corrected to conditional one-way content. Frozen Challenge unchanged; helper factors only the final connective application. All 15 proof hypotheses are reported used, conservatively; no logical minimality is inferred.",
+      "before": {
+        "sha256": "04552e690716be8ec483b6946d91c8cdaa8c9d6b8354da6f76c984b184492abb",
+        "lean_declaration": null,
+        "prose": "Stage 2 (owner decision on #143, 2026-10-24, option (a)): the skeleton's open premise STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES, derived. The definitional bridge (Dei Filius ch. 1) lists nine attributes. Four are derived for whatever is God through its being maximal in being: one, simple, perfect, supremely good (CATHOLICISM-STAGE2-GOD-IS-ONE, -SIMPLE, -PERFECT, -SUPREMELY-GOOD, imported). The other five (infinite, immutable, eternal, intellect, will) are open premises, each supported by Dei Filius ch. 1, until their groups (ST I qq.7, 9, 10, 14, 19) are derived."
+      },
+      "reviewed_sha256": "5ee47a8dcf2ccd3baae1ce7d97840e4e72c6f0011fa0c50bdd1d8f90230cab26"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+      "path": "corpus/statements/actuality-only-insofar-as-being.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "before": {
+        "sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
+      },
+      "reviewed_sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "path": "corpus/statements/at-most-one-maximum-in-being.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Derived intermediate is reused; not restated as a new external premise.",
+      "before": {
+        "sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be",
+        "lean_declaration": "TruthCore.Case.Catholicism.AtMostOneMaximeEns"
+      },
+      "reviewed_sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+      "path": "corpus/statements/cause-of-being-causes-every-perfection.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "The esse-to-each-perfection causal bridge remains explicitly assumed; perfections preexisting in a cause does not itself imply this causal conclusion.",
+      "before": {
+        "sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618",
+        "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection"
+      },
+      "reviewed_sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "path": "corpus/statements/cause-of-quality-in-another-is-more-such.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Unrestricted strict causal ascent is retained explicitly. Prior #723 source audit removed its Aristotle attribution: synonymy and ties prevent replacing it silently by the sourced at-least reading. No source repair or premise discharge is claimed here.",
+      "before": {
+        "sha256": "9836e1565f01771addf65bedbaecfee5fc62836653a9814a5b6f6e373d09172a",
+        "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading"
+      },
+      "reviewed_sha256": "9836e1565f01771addf65bedbaecfee5fc62836653a9814a5b6f6e373d09172a"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+      "path": "corpus/statements/classical-attributes-suffice.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Clarified one-way open sufficiency, not a definition/equivalence. Curried Lean body and frozen theorem interface remain unchanged; conjunction regrouping is checked by classicalAttributesSuffice_iff.",
+      "before": {
+        "sha256": "bfd236d75242ba0f9407b39ce1a429ae77a2e57204aa7eaa9c1ae53b41668b9f",
+        "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
+        "prose": "Open definitional bridge: a being that is simple, perfect, good, one, infinite, immutable, eternal, and has intellect and will has the classical divine attributes (the skeleton's HasClassicalAttributes), after Dei Filius ch. 1."
+      },
+      "reviewed_sha256": "a88ef716a10713d32564d6b67532581cd3c82c2f219cee2b5c96198bcc33607f"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "path": "corpus/statements/composite-has-a-uniting-cause.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "before": {
+        "sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading"
+      },
+      "reviewed_sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-EXCLUDED-MIDDLE",
+      "path": "corpus/statements/excluded-middle.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Full ∀ p, p ∨ ¬p is an explicit retained hypothesis, not an implicit typeclass law. The proof uses equality instances. Usage does not show full excluded middle is logically necessary; a weaker identity-decidability migration is left to the next scope.",
+      "before": {
+        "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
+        "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
+      },
+      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+      "path": "corpus/statements/god-has-classical-divine-attributes.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Universal over the same σ.IsGod witness; no existence and no unpacking of the primitive HasClassicalAttributes field. Empty IsGod interpretation remains admitted.",
+      "before": {
+        "sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasClassicalAttributes"
+      },
+      "reviewed_sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-INTELLECT",
+      "path": "corpus/statements/god-has-intellect.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "Universal wrapper retains the primitive HAS-INTELLECT predicate as an input. Its intended source meaning is supplied by the linked definition, not internal modality/time/cognition semantics; no further attribute content is extracted.",
+      "before": {
+        "sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+      },
+      "reviewed_sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-WILL",
+      "path": "corpus/statements/god-has-will.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "Universal wrapper retains the primitive HAS-WILL predicate as an input. Its intended source meaning is supplied by the linked definition, not internal modality/time/cognition semantics; no further attribute content is extracted.",
+      "before": {
+        "sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+      },
+      "reviewed_sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-ETERNAL",
+      "path": "corpus/statements/god-is-eternal.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "Universal wrapper retains the primitive IS-ETERNAL predicate as an input. Its intended source meaning is supplied by the linked definition, not internal modality/time/cognition semantics; no further attribute content is extracted.",
+      "before": {
+        "sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
+      },
+      "reviewed_sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-IMMUTABLE",
+      "path": "corpus/statements/god-is-immutable.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "GodIsImmutable accepts an arbitrary Immutable predicate in this assembly. Only later specialization IsImmutable InPotency means no potency. The existing disambiguation already records that restriction; the wrapper alone does not enforce it.",
+      "before": {
+        "sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable"
+      },
+      "reviewed_sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-INFINITE",
+      "path": "corpus/statements/god-is-infinite.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "Universal wrapper retains the primitive IS-INFINITE predicate as an input. Its intended source meaning is supplied by the linked definition, not internal modality/time/cognition semantics; no further attribute content is extracted.",
+      "before": {
+        "sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
+      },
+      "reviewed_sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-MAXIMAL-IN-BEING",
+      "path": "corpus/statements/god-is-maximal-in-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Universal IsGod-to-maximality remains an independent converse naming premise, not recovered from a nominal sufficient condition or uniqueness of maxima.",
+      "before": {
+        "sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsMaximalInBeing"
+      },
+      "reviewed_sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-ONE",
+      "path": "corpus/statements/god-is-one.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Derived intermediate is reused; not restated as a new external premise.",
+      "before": {
+        "sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsOne"
+      },
+      "reviewed_sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-PERFECT",
+      "path": "corpus/statements/god-is-perfect.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Derived intermediate is reused; not restated as a new external premise.",
+      "before": {
+        "sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsPerfect"
+      },
+      "reviewed_sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-SIMPLE",
+      "path": "corpus/statements/god-is-simple.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Derived intermediate is reused; not restated as a new external premise.",
+      "before": {
+        "sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsSimple"
+      },
+      "reviewed_sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-SUPREMELY-GOOD",
+      "path": "corpus/statements/god-is-supremely-good.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Derived intermediate is reused; not restated as a new external premise.",
+      "before": {
+        "sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsSupremelyGood"
+      },
+      "reviewed_sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOODNESS-IS-ACTUALITY",
+      "path": "corpus/statements/goodness-is-actuality.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "before": {
+        "sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
+      },
+      "reviewed_sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "path": "corpus/statements/maximum-in-genus-causes-all-in-genus.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "before": {
+        "sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+      },
+      "reviewed_sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+      "path": "corpus/statements/perfections-of-effect-preexist-in-cause.json",
+      "status": "inspected",
+      "classification": "open_premise",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "before": {
+        "sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading"
+      },
+      "reviewed_sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-AQUINAS-AT-MOST-ONE-MAXIME-ENS",
+      "path": "corpus/inferences/aquinas-at-most-one-maxime-ens.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Checked the corresponding existing Lean proof steps and original input/output statement IDs. Preserve all explicit hypotheses; the inference is not a fork-coverage or exclusivity certificate.",
+      "before": {
+        "sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-CLASSICAL-ATTRIBUTES",
+      "path": "corpus/inferences/stage2-classical-attributes.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "All nine predicates apply to the same g satisfying IsGod, followed by the explicit one-way sufficiency input. No existential witness replacement or reverse implication.",
+      "before": {
+        "sha256": "750773cec5932c8e47783151d1d87c74323b99fd46c21dba99a45b1fe32e8e7f",
+        "lean_declaration": null,
+        "prose": "Whatever is God has the nine attributes the definitional bridge lists, so it has the classical attributes."
+      },
+      "reviewed_sha256": "b301225d2c365b418d9f4bbf060ea49923b0a32cc3093ff03c67d45069d4fee2"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-ONE",
+      "path": "corpus/inferences/stage2-god-is-one.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Checked the corresponding existing Lean proof steps and original input/output statement IDs. Preserve all explicit hypotheses; the inference is not a fork-coverage or exclusivity certificate.",
+      "before": {
+        "sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-PERFECT",
+      "path": "corpus/inferences/stage2-god-is-perfect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Checked the corresponding existing Lean proof steps and original input/output statement IDs. Preserve all explicit hypotheses; the inference is not a fork-coverage or exclusivity certificate.",
+      "before": {
+        "sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-SIMPLE",
+      "path": "corpus/inferences/stage2-god-is-simple.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Checked the corresponding existing Lean proof steps and original input/output statement IDs. Preserve all explicit hypotheses; the inference is not a fork-coverage or exclusivity certificate.",
+      "before": {
+        "sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-SUPREMELY-GOOD",
+      "path": "corpus/inferences/stage2-god-is-supremely-good.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Checked the corresponding existing Lean proof steps and original input/output statement IDs. Preserve all explicit hypotheses; the inference is not a fork-coverage or exclusivity certificate.",
+      "before": {
+        "sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ACT",
+      "path": "corpus/definitions/act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-CAUSE-OF-PERFECTION",
+      "path": "corpus/definitions/cause-of-perfection.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+      },
+      "reviewed_sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+      "path": "corpus/definitions/classical-attributes-bundle.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Existing one-way warning retained; names NineClassicalAttributes and checked curried/conjunctive regrouping. No converse to the primitive field; no new statement IDs for ordinary connective occurrences.",
+      "before": {
+        "sha256": "fdfbcb586159f5837c706684cbc2eb804ea2d4099203a42d011a48075bda127e",
+        "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
+        "prose": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means ∀ g, σ.IsGod g → σ.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
+      },
+      "reviewed_sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ESSE",
+      "path": "corpus/definitions/esse.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
+      },
+      "reviewed_sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ESSENCE-THOMISTIC-NATURE",
+      "path": "corpus/definitions/essence-thomistic-nature.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A terminological stipulation for the existing attribute records, checked against the materialized q.3 a.4 contrast of what a thing is with its esse. No new Lean essence predicate or identity proof is introduced; sourcing a general essence theory remains separate from this vocabulary link.",
+      "before": {
+        "sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ETERNAL",
+      "path": "corpus/definitions/eternal.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ImmutableIsEternalReading states only that being in potency in no respect suffices for Eternal. It does not encode time, beginning, end or succession, so the intended sourced meaning is not a new definitionally enforced temporal theorem.",
+      "before": {
+        "sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
+      },
+      "reviewed_sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GENUS-BROAD",
+      "path": "corpus/definitions/genus-broad.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+      },
+      "reviewed_sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "path": "corpus/definitions/god-of-classical-theism.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. Case vocabulary (TruthCore/Case/Catholicism/Root.lean), not a new proof that anything satisfies it. Dei Filius ch. 1 supplies the attribute list; the open bridge and its parameter mapping are explicit in DEF-CLASSICAL-ATTRIBUTES-BUNDLE. The linked sourced term definitions do not make the primitive IsGod or HasClassicalAttributes fields definitionally equivalent to their natural-language descriptions.",
+      "before": {
+        "sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e",
+        "lean_declaration": "TruthCore.Case.Catholicism.Signature"
+      },
+      "reviewed_sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "path": "corpus/definitions/good-as-being-in-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
+      },
+      "reviewed_sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-HAS-INTELLECT",
+      "path": "corpus/definitions/intellect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ImmaterialIsIntellectualReading asserts that what is neither matter-form composite nor a component of anything has intellect. That strong antecedent is the case interpretation of the source's highest immateriality, not a definition of all intellect or a claim that sense cognition is intellectual. No species-of-knowledge semantics is enforced by the primitive predicate.",
+      "before": {
+        "sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+      },
+      "reviewed_sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-HAS-WILL",
+      "path": "corpus/definitions/will.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. WillFollowsIntellectReading formalizes HasIntellect x → HasWill x, not the internal structure of intellectual appetite or divine choice. The source supplies the intended meaning; no equivalence definition of HasWill is added.",
+      "before": {
+        "sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+      },
+      "reviewed_sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IMMUTABLE",
+      "path": "corpus/definitions/immutable.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Removed duplicated no-potency body by reusing existing PureAct. isImmutable_iff_noPotency : IsImmutable p g ↔ ∀ r, ¬p g r is Iff.rfl under original Sort parameters. General philosophical immutability remains distinct.",
+      "before": {
+        "sha256": "31fd07b13fbd052e24a2106ee9b2f908589e17248665de5ed56f69855f5843d4",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable",
+        "prose": "The case takes pure act, a sufficient condition in the first source argument, as its strong reading of altogether immutable. The source does not give a general biconditional identifying every use of immutability with this predicate. GodIsImmutable also permits an abstract Immutable parameter in the earlier group."
+      },
+      "reviewed_sha256": "3a2837801322c882c86b22a4066784cde5a5ed5b4ecff7848db93713df346162"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IN-ACT-FORMALLY",
+      "path": "corpus/definitions/in-act-formally.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "3575a6f229d79aab36ae187d9cff79515bc2b3ea4b6ea67142b9d80f5740fe8b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "3575a6f229d79aab36ae187d9cff79515bc2b3ea4b6ea67142b9d80f5740fe8b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IN-ACT-VIRTUALLY",
+      "path": "corpus/definitions/in-act-virtually.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "before": {
+        "sha256": "cce492e875524e50c7ab8b9ccde2d4329996ab639a8ba7edeb9503ffeefeedc9",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "cce492e875524e50c7ab8b9ccde2d4329996ab639a8ba7edeb9503ffeefeedc9"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-INFINITE",
+      "path": "corpus/definitions/infinite.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x → Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise.",
+      "before": {
+        "sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
+      },
+      "reviewed_sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MAXIME-ENS",
+      "path": "corpus/definitions/maxime-ens.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Uses exactly the same IsMaximumIn at esse. Uniqueness follows from genus and causal-ascent assumptions plus explicit logical choice, not from the name.",
+      "before": {
+        "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+      },
+      "reviewed_sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MAXIMUM-IN-A-PERFECTION",
+      "path": "corpus/definitions/maximum-in-a-perfection.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "IsMaximumIn requires possession and no incoming MoreIn comparison. It is maximality, not greatness, totality or uniqueness. No order/typeclass laws enter this bundle.",
+      "before": {
+        "sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+      },
+      "reviewed_sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MORE-IN",
+      "path": "corpus/definitions/more-in.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "Primitive comparison has no order laws. Mathlib linear-order strength evidence does not transfer to this predicate; no bridge is inferred from a related record.",
+      "before": {
+        "sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
+      },
+      "reviewed_sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ONE-GOD",
+      "path": "corpus/definitions/one-god.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "IsTheOneGod IsGod g is ∀ g′, IsGod g′ → g′ = g; it asserts neither IsGod g nor existence. Assembly separately carries IsGod g and uses identical g throughout.",
+      "before": {
+        "sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsTheOneGod"
+      },
+      "reviewed_sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-PURE-ACT",
+      "path": "corpus/definitions/pure-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing no-potency vocabulary reused only for exactly coincident encoded body. The general interpretation and source commitments are not widened.",
+      "before": {
+        "sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
+      },
+      "reviewed_sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-RESPECT",
+      "path": "corpus/definitions/respect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A modeling parameter of the prima via reconstruction (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3.lean), kept abstract so that the formal results do not depend on what motus covers. The reading as perfection follows ST I q.4 a.1 (passage AQUINAS-ST-I-Q4-A1); no claim states it in this form yet.",
+      "before": {
+        "sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SELF-EVIDENT-MARKING",
+      "path": "corpus/definitions/self-evident-marking.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. Project schema (#156, #167). It is not yet tied to the classical per se nota of ST I q.2 a.1, which has no pinned passage; STMT-EXCLUDED-MIDDLE is marked on Aristotle's elenctic defence, not on per se nota.",
+      "before": {
+        "sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SIMPLE",
+      "path": "corpus/definitions/divine-simplicity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. The source supplies the meaning and asserts it of God. Which structures the primitive Composite represents remains an interpretation of the signature; this metadata does not add a Lean equivalence or discharge a premise.",
+      "before": {
+        "sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsSimple"
+      },
+      "reviewed_sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SUPREMELY-GOOD",
+      "path": "corpus/definitions/supremely-good.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. The sourced sense motivates this case conjunction; Aquinas does not state that conjunction of abstract predicates as a definition. The case must interpret GoodIn and CausesIn accordingly; no new axiom is supplied here.",
+      "before": {
+        "sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsSupremelyGood"
+      },
+      "reviewed_sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-UNIVERSALLY-PERFECT",
+      "path": "corpus/definitions/universally-perfect.json",
+      "status": "unresolved",
+      "classification": "intentional_abstraction",
+      "finding": "IsPerfect quantifies only respects instantiated by some being. It does not assert all arbitrary respects, and the one InAct parameter must receive a consistent formal/eminent interpretation. That interpretation is not enforced by Lean.",
+      "before": {
+        "sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
+      },
+      "reviewed_sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-BEING",
+      "path": "corpus/disambiguations/being.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-BEING-UNIVOCITY",
+      "path": "corpus/disambiguations/being-univocity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-CAUSE",
+      "path": "corpus/disambiguations/cause.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ESSENCE",
+      "path": "corpus/disambiguations/essence.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+      "path": "corpus/disambiguations/eternity-and-temporal-perpetuity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GENUS",
+      "path": "corpus/disambiguations/genus.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GOD",
+      "path": "corpus/disambiguations/god.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
+      "path": "corpus/disambiguations/good-practical-and-ontological.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+      "path": "corpus/disambiguations/immutable-and-currently-unchanging.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-IN-ACT",
+      "path": "corpus/disambiguations/in-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-INFINITY",
+      "path": "corpus/disambiguations/infinity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-INTELLECT-AND-SENSE-COGNITION",
+      "path": "corpus/disambiguations/intellect-and-sense-cognition.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-MAXIME-ENS",
+      "path": "corpus/disambiguations/maxime-ens.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ORDER-OF-BEING",
+      "path": "corpus/disambiguations/order-of-being.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "before": {
+        "sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e"
+    },
+    {
+      "kind": "claims",
+      "id": "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
+      "path": "corpus/claims/vatican-i-dei-filius-ch1-one-true-living-god.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Re-read materialized VATICAN-I-DEI-FILIUS-CH1, DS 3001–3002. The council confesses an existing God and attributes; it does not universally quantify arbitrary predicates into a skeleton field. Corrected explanatory bridge wording without revising the source-bound statement or adding a claim.",
+      "before": {
+        "sha256": "30f1cac9de7051ce7aa7e15a9b87ac3ab92d51b9a114a7a0c087dce63662c9c8",
+        "lean_declaration": null,
+        "prose": "The council's confession of God's attributes (DS 3001): one, true, living, creator and lord, almighty, eternal, immense, incomprehensible, infinite in intellect, will and every perfection; one singular, altogether simple and unchangeable spiritual substance; really distinct from the world; most blessed; exalted above all. With 'bonitate sua' (DS 3002) for goodness. Kept as prose. It is the list that the definitional bridge STMT-CLASSICAL-ATTRIBUTES-SUFFICE abbreviates (owner decision on #143, 2026-10-24) and supports the five attributes not yet derived. As in the root (A), it states what the Church teaches; it is not used as a premise of the derivations."
+      },
+      "reviewed_sha256": "0c57a1b17a19d10172166462d91f6a557a6c9c82d7fc9bd7d433c0acc8e94f26"
+    }
+  ],
+  "limits": [
+    "Exactly this result and its six declared inference steps, their 21 statements, 25 definitions, 14 directly linked disambiguations, one argument and one clarified source claim. Imported results are reused evidence; they are not all migrated to complete-expression contracts.",
+    "15 hypothesis occurrences reported used; syntactic use is not a necessity proof. Full excluded middle may be stronger than identity decidability; no weaker result is certified here.",
+    "Being is inhabited by Signature.jesus. IsGod need not be inhabited. The conclusion is pointwise, so empty-IsGod vacuity is legitimate and explicitly tested.",
+    "The Unit positive setting realizes all nonlogical premises with a God witness, conditional on the same explicit excluded-middle hypothesis. It supplies no metaphysical applicability or independent proof of that logical floor.",
+    "Primitive Infinite, Immutable, Eternal, HasIntellect and HasWill parameters are not automatically expanded into their intended philosophical accounts. Complete-expression checks detect context/dependency changes, not semantic adequacy.",
+    "Structure extraction is bounded and preserves library boundaries. It does not recursively enumerate every library law or turn unknown expressions into independent atoms.",
+    "#720 fork-use projection is reused as a declared-use locator. This assembly contains no declared disjunction-elimination use, coverage theorem or exclusivity result. Related degree-fork records create no inference here."
+  ],
+  "next_scope": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL and its same-witness downstream consumers: bind the specialized IsImmutable InPotency and all attribute applications, then investigate checked weakening of the equality-decision premises without changing frozen Challenges."
+}

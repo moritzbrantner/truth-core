@@ -1,10 +1,10 @@
 {
   "id": "DEF-IMMUTABLE",
   "term": "immutable (ST I q.9; Lean parameter `Immutable` of `GodIsImmutable`)",
-  "definition": "Altogether immutable means incapable of any change, not merely unchanging now (ST I q.9 a.1). The first argument excludes change because the first being has no potency, and whatever changes is in some way in potency. Stage 2 uses IsImmutable InPotency g := ∀ r, ¬ InPotency g r.",
+  "definition": "Altogether immutable means incapable of any change, not merely unchanging now (ST I q.9 a.1). The first argument excludes change because the first being has no potency, and whatever changes is in some way in potency. Stage 2 uses IsImmutable InPotency g := \u2200 r, \u00ac InPotency g r.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable",
-  "note": "The case takes pure act, a sufficient condition in the first source argument, as its strong reading of altogether immutable. The source does not give a general biconditional identifying every use of immutability with this predicate. GodIsImmutable also permits an abstract Immutable parameter in the earlier group.",
+  "note": "The case takes pure act, a sufficient condition in the first source argument, as its strong reading of altogether immutable. The source does not give a general biconditional identifying every use of immutability with this predicate. GodIsImmutable also permits an abstract Immutable parameter in the earlier group. IsImmutable now reuses PureAct (DEF-PURE-ACT) for that identical encoded no-potency body; isImmutable_iff_noPotency preserves the original expression. This does not identify general philosophical immutability with every sense of pure actuality. See docs/notes/classical-attributes-migration.md for the bounded scope, before-state and remaining interpretation obligations.",
   "claim_ids": [
     "AQUINAS-ST-I-Q9-A1-GOD-ALTOGETHER-IMMUTABLE"
   ]
