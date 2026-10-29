@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-HARD-MORAL-CASE-RAILTON-REASON",
+  "statement_ids": [
+    "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
+    "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
+    "STMT-HARD-MORAL-CASE-CONTROLS",
+    "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW"
+  ],
+  "date": "2026-10-29",
+  "kind": "reading",
+  "outcome": "blocked",
+  "summary": "Materialized and read Railton Moral Realism pp. 201–204: he retains moral obligation even where a rational agent lacks an instrumental reason, explicitly judges Hitler morally ought not to have killed six million Jews (p. 203 n. 41), and rejects categorical rational compulsion. Rejected inferring moral permission or absence of obligation from absence of a categorical reason. This specific example does not establish an exceptionless prohibition of all innocent nonthreatening killing or sexual violation, nor a categorical reason for an indifferent agent. Precise source scope and remaining application gaps are in docs/naturalistic-moral-realism.md, Hard-case research section. Full four-way answer map, goods-conflict control and non-vacuous formal comparison remain open; no root premise discharged. Extended the attempt with source-scoped Catholic, Railton, Enoch and Gibbard answers and an analyst omission/conflict certificate; its Boolean outcomes classify both as good and feasible but do not select a real-world priority. Shared-service combined source preview had no diagnostics at 2c8acfd6, SHA-256 fa5a4a95782486ebb4a2a21c12f918b6bd3612a4edbf9b67078534902c14694d.",
+  "evidence": [
+    "HARD-MORAL-CASE-CONTROLS",
+    "ENOCH-THIRD-FACTOR-ACCESS-REPLY"
+  ],
+  "blocker": "Case-specific normative derivations, an independently defended categorical-reason bridge and a defensible priority principle remain open for each relevant account."
+}

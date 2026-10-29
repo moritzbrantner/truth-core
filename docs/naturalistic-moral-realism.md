@@ -437,3 +437,52 @@ no corpus speedup is claimed. Retain the shared service for warm proof edits,
 measure contention before throughput claims, and keep final CI authoritative.
 The frozen Challenge SHA-256 is
 `7c1e280b4197fa7f16b947684a2b1c76a4ce92abf53ab84de032ec17204f2570`.
+
+### Hard-case research: Railton's obligation/reason distinction
+
+The materialized `RAILTON-MORAL-REALISM-FULL`, pp. 201–204, gives a
+stronger reply than the absence of categorical reasons might suggest. Railton
+holds that variations in personal desires do not exempt a person from moral
+obligation, while accepting that a rational agent may lack an instrumental
+reason to comply. In footnote 41, p. 203, he contrasts his view with Harman's
+and says that Hitler morally ought not to have killed six million Jews. This
+is a specific moral judgment, not a demonstrated exceptionless rule covering
+every deliberate killing of an innocent nonthreatening person, nor a reason
+independent of the offender's ends. His p. 204 proposal to alter social
+arrangements to bring individual and social rationality closer offers a
+practical response, not the missing categorical-reason implication. The
+adequacy of his impartial criterion and its application to the stipulated
+sexual-violation and killing cases remain open. Identifying failure to prove a
+prohibition with permission would erase his explicit distinction.
+
+### Same hard questions and competing answers (#699)
+
+The shared questions below refine the existing `Q-NORMATIVE-REASONS` and
+`Q-MORAL-AUTHORITY` comparison, not a new score. The acts are (1) sexual
+violation without consent and (2) deliberately killing an innocent,
+nonthreatening person, with gain, indifference and no anticipated punishment.
+A sourced account is a proposed answer; the entries do not certify it or apply
+an author's whole theory by fiat.
+
+| Account | Case and indifferent agent | Conflict and open bridge |
+|---|---|---|
+| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. Neither that general passage nor its first precept alone derives the precise two prohibitions. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
+| Railton, naturalistic realist | Impartial rightness counts affected interests equally; moral obligation can apply despite an agent's lacking instrumental reason (pp. 201–204). His specific condemnation of mass killing is above. The present source slice does not derive either universal case prohibition, and he rejects a reason independent of all ends. | His impartial assessment calls for comparison of all affected interests, not merely the offender's; the adequacy of aggregation and application remains open. A categorical-reason requirement is a disputed extra premise, not built into his view. |
+| Enoch, non-naturalistic realist | His independently normative survival-value premise and third-factor access reply (§§5.1–5.3) offer a substantive realist response, not the first-order case norms. The sourced fragment does not establish either prohibition or a categorical reason for this offender. | Defend the normative starting point, qualified epistemic connection, and case-specific first-order norm and reason; a pro-tanto good of survival can be outweighed. An additional priority principle is needed for the selected conflict. |
+| Gibbard, expressivist | Planning and coordination, with inferential relations among normative commitments, offer action guidance and condemnation without requiring stance-independent moral truth (Reply to Commentators, pp. 535–544). The existing plan semantics is an analyst reconstruction, not his indicative semantics. This slice does not establish that he specifically endorses either hard-case norm or that an indifferent offender has a categorical reason. | A suitably committed plan can rule out a violation and guide action; which plan or priority to adopt, and why it binds an indifferent agent, remains a substantive question. No refusal to derive a realist prohibition licenses an act. |
+
+The `HARD-MORAL-CASE-CONTROLS` finite certificate provides three separate
+controls: same moral classification and indifference with opposite supplied
+reason bits; same report and basis assessment with opposite prohibition bits;
+and opposite ideal-successor duties with both Boolean outcomes classified as
+good and feasible in the same available frame. The last can illustrate keeping a promise versus
+preventing harm **only with further interpretation** identifying those
+outcomes with goods. The common good predicate marks both outcomes as recognized good but does not
+explain that recognition or prove a moral priority principle. Both ideal and available sets overlap in
+each model, excluding vacuous obligation and unavailable fulfillment. These
+models expose insufficiency of the thin assumptions only; richer theories may
+exclude either assignment. In particular a false prohibition bit is not a
+positive permission, endorsement, or proof that a real offender lacks a
+reason. A theory that supplies a valid case-specific norm and a prohibition
+implies categorical reason bridge would rule out the corresponding negative
+assignment; neither bridge is established by the present controls.

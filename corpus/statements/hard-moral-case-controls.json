@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HARD-MORAL-CASE-CONTROLS",
+  "paraphrase": "In analyst finite assignments, two indifferent agents share a prohibited moral case but differ in the supplied categorical-reason bit; two cases share report and basis bits but differ in supplied prohibition; and two compatible ideal frames over the same feasible Boolean alternatives require opposite outcomes, both outcomes classified as good and each outcome feasible. No false prohibition bit means permission, and the Boolean alternatives only illustrate a conflict, not an actual obligation or priority rule.",
+  "lean_declaration": "TruthCore.Ethics.HardMoralCases.Controls",
+  "definition_ids": [
+    "DEF-HARD-MORAL-CASE-CONTROLS",
+    "DEF-MORAL-ACCESS-FIBER-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ethics.HardMoralCases.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.HardMoralCases.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ethics.HardMoralCases.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

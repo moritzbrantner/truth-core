@@ -1,0 +1,10 @@
+{
+  "id": "HARD-MORAL-CASE-CONTROLS",
+  "argument_id": "HARD-MORAL-CASE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ethics.HardMoralCases.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.HardMoralCases.Solution",
+  "theorem": "TruthCore.Results.Ethics.HardMoralCases.certificate",
+  "comparator_config": "results/HARD-MORAL-CASE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite analyst assignments distinguish prohibition from categorical reason for an indifferent agent and from shared report/basis, and show opposing duties with both alternatives feasible under different ideal frames. No actual permission, moral norm, priority, or root-premise discharge follows."
+}

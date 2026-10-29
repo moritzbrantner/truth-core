@@ -1,0 +1,16 @@
+{
+  "id": "HARD-MORAL-CASE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HARD-MORAL-CASE-CONTROLS",
+  "inference_ids": [
+    "INF-HARD-MORAL-CASE-CONTROLS"
+  ],
+  "meaning": "Finite omission and conflict controls, not actual moral truths or complete rival theories.",
+  "definition_ids": [
+    "DEF-HARD-MORAL-CASE-CONTROLS",
+    "DEF-MORAL-ACCESS-FIBER-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}
