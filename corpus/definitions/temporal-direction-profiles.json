@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-DIRECTION-PROFILES",
+  "term": "strict, non-backward simultaneous, and backward event profiles",
+  "definition": "StrictForward requires C e f → clock e < clock f. NoBackward requires C e f → ¬ clock f < clock e. HasSimultaneous supplies an edge at equal clock values; HasBackward supplies an edge with target clock strictly before source clock. DirectionFork is StrictForward ∨ (NoBackward ∧ HasSimultaneous) ∨ HasBackward. DirectionExclusive separately forbids each pair of horns. Framework quantifies over a common event carrier and linearly ordered time carrier and certifies coverage, pairwise incompatibility and StrictForward → EventAcyclic. These are semantic conditions, not names of exhaustive metaphysical theories.",
+  "basis": "stipulative",
+  "note": "Analyst mathematical profile for #700; an actual-world application requires independent event individuation, causal meaning, clock interpretation and source-fidelity defense. Research and rejected readings: docs/notes/temporal-actualization-fork.md. No source attribution.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.DirectionFork"
+}
