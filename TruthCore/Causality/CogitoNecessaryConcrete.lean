@@ -91,6 +91,15 @@ def NecessaryConcreteAncestorOfThinker (m : Profile W B) (Occurs : Episode → P
   ∃ b e x, Occurs e ∧ Bears b e ∧ GroundAncestor m w x b ∧
     m.concrete x ∧ m.ontic.ExistsAt w x ∧ NecessaryAt m.ontic w x
 
+/-- Strengthening of the existing necessary-ancestor conclusion retaining the
+actual-concrete-ground minimality used to select that same witness. This is
+not global underivedness, nor absence of abstract or unmodelled support. -/
+def NecessaryConcreteRootAncestorOfThinker (m : Profile W B) (Occurs : Episode → Prop)
+    (Bears : B → Episode → Prop) (w : W) : Prop :=
+  ∃ b e x, Occurs e ∧ Bears b e ∧ GroundAncestor m w x b ∧
+    m.concrete x ∧ m.ontic.ExistsAt w x ∧ NecessaryAt m.ontic w x ∧
+      ∀ y, ¬ ActualConcreteGround m w y x
+
 /-- Some bearer of an occurring thought has an actual concrete
 ground-ancestor (possibly itself) that is contingent at `w` and has no actual
 concrete ground at `w`. A root of this relation only: it may still have an

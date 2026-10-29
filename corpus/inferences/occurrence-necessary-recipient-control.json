@@ -1,0 +1,9 @@
+{
+  "id": "INF-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "rule": "direct-proof",
+  "meaning": "Reuse the #680 varying ontology and pairProfile, adding a thought borne by recipient true and using its existing varying support as grounding. All six non-logical #564 premises hold; true itself witnesses the old necessary-ancestor conclusion but has actual incoming support and distinct represented esse. The same interpretation has source false with no actual incoming support and identity. This refutes propagation to an arbitrary necessary witness, not the strengthened minimal-ancestor theorem or metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -22,6 +22,7 @@ import TruthCore.Causality.NamedPotentialCauser
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
 import TruthCore.Causality.NecessarySimplePlurality
+import TruthCore.Causality.OccurrenceUnderivedEssence
 import TruthCore.Causality.ParityUnionRegress
 import TruthCore.Causality.PartFreePlurality
 import TruthCore.Causality.PluralRootConfluence
