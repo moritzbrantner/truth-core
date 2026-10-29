@@ -48,7 +48,7 @@ function EmptyCertification({ registrations }: { registrations: Registration[] }
   return <section className={styles.emptyState} aria-label="Certification unavailable">
     <span className={styles.emptySymbol}>∅</span>
     <h3>Certification unavailable in this build</h3>
-    <p>The producer-signed configuration report is missing. Registered cases alone do not establish that a set is incompatible or satisfiable. The GitHub Pages deployment produces a fresh report before building the atlas.</p>
+    <p>The verified configuration report is missing. Registered cases alone do not establish that a set is incompatible or satisfiable. The GitHub Pages deployment produces a fresh report before building the atlas.</p>
     {registrations.length > 0 ? <div className={styles.registrationList}>
       <span className={styles.microLabel}>Registered cases · verification required</span>
       {registrations.map((entry) => <Link href={`/configurations/${entry.id}`} key={entry.id}>{compactId(entry.id)} <span>↗</span></Link>)}
@@ -216,7 +216,7 @@ function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel;
   return <div className={styles.viewBody}>
     <div className={styles.metricStrip}>
       <div><span>Recorded root routes</span><strong>{routes.length}</strong></div>
-      <div><span>Lowest open-leaf cost</span><strong>{Math.min(...routes.map((route) => route.cost))}</strong></div>
+      <div><span>Lowest unestablished-leaf cost</span><strong>{routes.length ? Math.min(...routes.map((route) => route.cost)) : 0}</strong></div>
       <div><span>Root proposition</span><strong className={styles.metricWord}>{model.establishedRoot ? "Established" : "Not established"}</strong></div>
     </div>
     <div className={styles.routeLayout}>
@@ -339,7 +339,7 @@ function ImpactView({ model, selectedPremiseId, selectPremise }: { model: AtlasM
     <ImpactWaves premise={selected} model={model} />
     <div className={styles.detailColumns}>
       <section className={styles.panel}>
-        <div className={styles.panelHeading}><span>Recorded downstream support</span><span>{selected.dependentArguments.length + selected.dependentStatements.length} links to inspect</span></div>
+        <div className={styles.panelHeading}><span>Recorded downstream support</span><span>{selected.dependentArguments.length + selected.dependentStatements.length} records to inspect</span></div>
         <details className={styles.evidenceDetails} open><summary>{selected.dependentArguments.length} dependent arguments</summary><ul>
           {selected.dependentArguments.map((id) => <li key={id}><Link href={model.argumentTargets[id]}>{id}</Link></li>)}
         </ul></details>
