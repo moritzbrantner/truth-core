@@ -1,9 +1,0 @@
-{
-  "id": "INF-HARD-MORAL-CASE-CONTROLS",
-  "input_statement_ids": [],
-  "output_statement_id": "STMT-HARD-MORAL-CASE-CONTROLS",
-  "rule": "construct-explicit-finite-assignments-and-ideal-successor-frames",
-  "meaning": "Constructs explicit pairs and two feasible ideal frames under the reused state and Ought/Can definitions. These assignments isolate missing bridges without refuting stronger theories or deriving actual norms.",
-  "assumption_statement_ids": [],
-  "discharged_statement_ids": []
-}

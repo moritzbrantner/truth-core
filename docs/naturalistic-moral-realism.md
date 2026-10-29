@@ -466,32 +466,16 @@ an author's whole theory by fiat.
 
 | Account | Case and indifferent agent | Conflict and open bridge |
 |---|---|---|
-| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. II–II q.64 a.6 co. argues against killing the innocent, grounded in the victim’s nature and common good; ad 1 qualifies this in the case of a divine command. This is a sourced case-specific answer, not a verified universal without exception or a demonstrated categorical-reason bridge. The cited q.94 passage alone does not derive either precise prohibition, and the recorded slice does not derive the nonconsensual-violation case. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
+| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. II–II q.64 a.6 co. argues against killing the innocent, grounded in the victim’s nature and common good; ad 1 qualifies this in the case of a divine command. This is a sourced case-specific answer, not a verified universal without exception or a demonstrated categorical-reason bridge. The cited q.94 passage alone does not derive either precise prohibition, and q.154 a.7 condemns certain forced violations and also uses a broader abduction category; it does not establish a prohibition of every act satisfying our consent-based description. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
 | Railton, naturalistic realist | Impartial rightness counts affected interests equally; moral obligation can apply despite an agent's lacking instrumental reason (pp. 201–204). His specific condemnation of mass killing is above. The present source slice does not derive either universal case prohibition, and he rejects a reason independent of all ends. | His impartial assessment calls for comparison of all affected interests, not merely the offender's; the adequacy of aggregation and application remains open. A categorical-reason requirement is a disputed extra premise, not built into his view. |
 | Enoch, non-naturalistic realist | His independently normative survival-value premise and third-factor access reply (§§5.1–5.3) offer a substantive realist response, not the first-order case norms. The sourced fragment does not establish either prohibition or a categorical reason for this offender. | Defend the normative starting point, qualified epistemic connection, and case-specific first-order norm and reason; a pro-tanto good of survival can be outweighed. An additional priority principle is needed for the selected conflict. |
 | Gibbard, expressivist | Planning and coordination, with inferential relations among normative commitments, offer action guidance and condemnation without requiring stance-independent moral truth (Reply to Commentators, pp. 535–544). The existing plan semantics is an analyst reconstruction, not his indicative semantics. This slice does not establish that he specifically endorses either hard-case norm or that an indifferent offender has a categorical reason. | A suitably committed plan can rule out a violation and guide action; which plan or priority to adopt, and why it binds an indifferent agent, remains a substantive question. No refusal to derive a realist prohibition licenses an act. |
 
-The `HARD-MORAL-CASE-CONTROLS` finite certificate provides three separate
-controls: same moral classification and indifference with opposite supplied
-reason bits; same report and basis assessment with opposite prohibition bits;
-and opposite ideal-successor duties with both Boolean outcomes classified as
-good and feasible in the same available frame. The last can illustrate keeping a promise versus
-preventing harm **only with further interpretation** identifying those
-outcomes with goods. The common good predicate marks both outcomes as recognized good but does not
-explain that recognition or prove a moral priority principle. Both ideal and available sets overlap in
-each model, excluding vacuous obligation and unavailable fulfillment. These
-models expose insufficiency of the thin assumptions only; richer theories may
-exclude either assignment. In particular a false prohibition bit is not a
-positive permission, endorsement, or proof that a real offender lacks a
-reason. A theory that supplies a valid case-specific norm and a prohibition
-implies categorical reason bridge would rule out the corresponding negative
-assignment; neither bridge is established by the present controls.
-
-
 #### Stronger typed controls and targeted source correction
 
-The earlier Boolean certificate remains a narrow control, not a model of the
-two goods. `HARD-CASE-TYPED-CONTROLS` instead fixes human roles, separate
+The initial Boolean certificate repeated the existing #708 access control and
+did not model the two goods; it was removed before merge.
+`HARD-CASE-TYPED-CONTROLS` fixes human roles, separate
 actions and contexts, nonconsent, deliberate killing, innocence and lack of
 threat, indifference, benefit, lack of punishment and feasibility; it then
 varies only the supplied normative verdicts. One witness has both prohibitions
@@ -526,3 +510,22 @@ therefore stronger than mere emotional disapproval. It does not automatically
 yield the content of the agent's plan, an unconditional categorical reason,
 or the relevant conflict priority. The analyst's material-conditional plan
 semantics remains separate from Gibbard's discussion of indicatives.
+
+
+The materialized translation `AQUINAS-ST-II-II-Q154-A7-EN`, read with
+a.1 and a.6, supplies a historically specific sexual-violation answer. In a.7
+co., forcible unlawful violation of a virgin is one case of the category he
+classifies as lust. His category also includes removing a woman against her
+father's wishes when she consents, and includes abducted widows and nonvirgins.
+In ad 4 he says a newly married husband's violence is sinful while excluding
+it from this particular rape classification. In a.1 and a.6 the analysis
+includes patriarchal authority, marriage and virginity; its classification
+cannot be substituted for modern nonconsent or read as a general theory of
+sexual autonomy. The offense's factual application to every possible victim,
+and the alleged end-independent reason for this offender, are not established
+by this passage. Nor does withholding that broader generalization endorse any
+act. This stronger historical reply applies to its specific forced example;
+the rival Enoch and Gibbard sources recorded here still do not supply specific
+case norms, whereas Railton supplies the impartial criterion and a distinct
+explicit example of wrongful mass killing. Each account's further bridge is
+judged on its own commitments.

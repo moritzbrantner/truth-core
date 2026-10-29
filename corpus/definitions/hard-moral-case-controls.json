@@ -1,8 +1,0 @@
-{
-  "id": "DEF-HARD-MORAL-CASE-CONTROLS",
-  "term": "hard moral case omission and conflict controls",
-  "definition": "A Case extends the existing moral-access State with independent Boolean indifference and categorical-reason fields; Reason means the latter is true. The finite controls compare these assignments, then use ideal-successor Ought and feasible Can on two Boolean outcomes. A supplied predicate classifies both outcomes as good. The two ideal frames select opposite outcomes, each feasible in the common available frame.",
-  "basis": "stipulative",
-  "note": "These are analyst stress assignments, not complete theories, source attributions, or claims about metaphysically possible worlds. The outcomes may illustrate promise-keeping versus harm prevention only when an additional interpretation identifies each outcome with the corresponding good; the theorem does not assert those goods or a priority. No implication from non-prohibition to permission is encoded.",
-  "lean_declaration": "TruthCore.Ethics.HardMoralCases.Case"
-}
