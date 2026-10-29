@@ -1,0 +1,34 @@
+{
+  "id": "INFINITE-GREATEST-WHOLE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INFINITE-GREATEST-WHOLE-CONTROL",
+  "inference_ids": [
+    "INF-INFINITE-GREATEST-WHOLE-CONTROL"
+  ],
+  "meaning": "The infinite set of three-coordinate real points is greatest under inclusion in the infinite family of all regions. That family is order-bounded, but the whole has no upper bound in first-coordinate extent. The same homogeneous region interpretation with empty priority violates the genus-at-being-shaped cause-all principle. A bounded open real interval has an unattained least upper bound and no maximal member; two singleton regions are maximal but not greatest within their explicit two-member family. The certificate imports unchanged prior Bool finite-top and Nat no-maximal full-background witnesses. These are mathematical order/omission controls, not actual physical infinity, metaphysical possibility, intensive perfection, genuine causality or proof of the Fourth Way.",
+  "definition_ids": [
+    "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGION-EXTENT-AND-PERFECTION",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}
