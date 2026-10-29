@@ -7,7 +7,7 @@ import { getFrontierReport } from "@/lib/site-state";
 import { getVerifiedConfigurations } from "@/lib/verified-configurations";
 
 import { AtlasExplorer } from "./atlas-explorer";
-import { buildAtlasModel } from "./atlas-model";
+import { buildAtlasModel, certifiedCores } from "./atlas-model";
 
 export const metadata: Metadata = {
   title: "Progress atlas — Truth Core",
@@ -15,8 +15,9 @@ export const metadata: Metadata = {
 };
 
 export default function AtlasPage() {
-  const model = buildAtlasModel(getCorpus(), getFrontierReport());
   const verified = getVerifiedConfigurations();
+  const coreIds = (verified?.cases ?? []).flatMap((configuration) => certifiedCores(configuration).flatMap((core) => core.statement_ids));
+  const model = buildAtlasModel(getCorpus(), getFrontierReport(), coreIds);
   const registrations = verified ? [] : getRegisteredConfigurationCases().map(({ id, semantics, scope }) => ({ id, semantics, scope }));
   return <article className="atlas-page min-w-0">
     <header className="mb-7 border-b border-[var(--line)] pb-6">

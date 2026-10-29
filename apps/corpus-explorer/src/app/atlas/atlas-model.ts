@@ -26,7 +26,6 @@ export type AtlasModel = {
   premises: AtlasPremise[];
   routes: AtlasRoute[];
   labels: Record<string, string>;
-  arguments: Record<string, string>;
   argumentTargets: Record<string, string>;
   establishedRoot: boolean;
 };
@@ -51,10 +50,15 @@ export type AtlasMosaicCell = {
   unresolvedReason: string | null;
 };
 
-export function buildAtlasModel(corpus: Corpus, report: FrontierReport): AtlasModel {
-  const labels = Object.fromEntries(corpus.statements.map((statement) => [statement.id, statement.paraphrase]));
+export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStatementIds: readonly string[] = []): AtlasModel {
+  const neededLabels = new Set(coreStatementIds);
+  const labels = Object.fromEntries(corpus.statements.filter((statement) => neededLabels.has(statement.id)).map((statement) => [statement.id, statement.paraphrase]));
   const argumentsById = Object.fromEntries(corpus.arguments.map((argument) => [argument.id, argument.meaning]));
   const resultByArgument = new Map(corpus.results.map((result) => [result.argument_id, result.id]));
+  const linkedArguments = new Set([
+    ...report.routes.routes.map((route) => route.argument_id),
+    ...report.items.flatMap((item) => report.premise_dependents[item.statement_id]?.arguments ?? []),
+  ]);
   const depths = new Map(report.items.map((item) => [item.statement_id, item.depth]));
   const roots = new Set(report.reaching_root_statements);
   return {
@@ -79,8 +83,7 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport): AtlasMo
       provedUnestablished: route.proved_unestablished_statement_ids.length,
     })),
     labels,
-    arguments: argumentsById,
-    argumentTargets: Object.fromEntries(corpus.arguments.map((argument) => [argument.id,
+    argumentTargets: Object.fromEntries(corpus.arguments.filter((argument) => linkedArguments.has(argument.id)).map((argument) => [argument.id,
       resultByArgument.has(argument.id) ? `/results/${resultByArgument.get(argument.id)}` : `/statements/${argument.conclusion_statement_id}`])),
     establishedRoot: report.established_statements.includes(report.root),
   };

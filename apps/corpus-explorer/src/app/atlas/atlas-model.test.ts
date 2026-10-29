@@ -53,6 +53,11 @@ test("atlas partitions real open premises exactly once and keeps root reachabili
   expect(tiles.filter((tile) => tile.depth === "bare").reduce((total, tile) => total + tile.count, 0)).toBe(report.depth_counts.bare);
   expect(tiles.filter((tile) => tile.depth === "sourced").reduce((total, tile) => total + tile.count, 0)).toBe(report.depth_counts.sourced);
   expect(new Set(tiles.flatMap((tile) => tile.premises.map((premise) => premise.id))).size).toBe(model.premises.length);
+  const coreLabel = report.items[0]?.statement_id;
+  if (coreLabel) {
+    const focused = buildAtlasModel(getCorpus(), report, [coreLabel]);
+    expect(Object.keys(focused.labels)).toEqual([coreLabel]);
+  }
   for (const route of model.routes) {
     expect(route.bare + route.sourced + route.provedUnestablished).toBe(route.open_premise_statement_ids.length);
     expect(route.cost).toBe(route.open_premise_statement_ids.length);
@@ -60,6 +65,11 @@ test("atlas partitions real open premises exactly once and keeps root reachabili
       expect(routeImpact(route, premise)).toBe(true);
     }
     expect(model.argumentTargets[route.argument_id]).toMatch(/^\/(results|statements)\//);
+  }
+  for (const premise of model.premises) {
+    for (const argumentId of premise.dependentArguments) {
+      expect(model.argumentTargets[argumentId]).toMatch(/^\/(results|statements)\//);
+    }
   }
 }, 30000);
 
