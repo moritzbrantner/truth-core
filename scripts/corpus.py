@@ -3158,7 +3158,50 @@ def parser() -> argparse.ArgumentParser:
     unused.add_argument("--bind-json", help="use a saved `bind-check --json` report instead of running Lean")
     unused.add_argument("--usage-json", help="use a saved scripts/UnusedPremises.lean output instead of running Lean")
     unused.set_defaults(func=command_unused_premises)
+    structure = sub.add_parser("structure", help="inspect elaborated proposition structure (derived presentation only)")
+    structure.add_argument("statement_id")
+    structure.add_argument("--json", action="store_true", help="emit JSON (the structural format)")
+    structure.add_argument("--unfold", action="append", default=[], metavar="DECLARATION", help="unfold exactly one project definition, explicitly")
+    structure.set_defaults(func=command_structure)
+    report = sub.add_parser("structure-report", help="generate or validate the first-slice explorer structure artifact")
+    report.add_argument("--output", default=".cache/proposition-structure.json")
+    report.add_argument("--build-input", action="store_true", help="generate the explorer input (default)")
+    report.add_argument("--check-input", action="store_true", help="validate existing artifact input hashes without Lean")
+    report.set_defaults(func=command_structure)
     return result
+
+
+def command_structure(args: argparse.Namespace) -> int:
+    from proposition_structure import FIRST_SLICE, build_reports, check_artifact
+
+    try:
+        output = ROOT / getattr(args, "output", ".cache/proposition-structure.json")
+        if getattr(args, "check_input", False):
+            check_artifact(ROOT, json.loads(output.read_text()))
+            print("structure artifact inputs match")
+            return 0
+        kinds = ("statements", "definitions", "disambiguations", "arguments", "results", "relations", "claims", "inferences")
+        records = {kind: load_dir(kind) for kind in kinds}
+        data = {kind: [r for _, r in values] for kind, values in records.items()}
+        frontier = frontier_report(data["statements"], data["arguments"], data["results"], data["relations"],
+                                   transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+                                   claims=data["claims"], inferences=data["inferences"])
+        batch = args.command == "structure-report"
+        selected = list(FIRST_SLICE) if batch else [args.statement_id]
+        unfold = list(getattr(args, "unfold", []))
+        if batch:
+            unfold.extend(s["lean_declaration"] for s in data["statements"] if s["id"] in selected)
+            unfold.append("TruthCore.Case.Catholicism.ClassicalAttributesSuffice")
+        report = build_reports(ROOT, records, selected, unfold, frontier)
+        if batch:
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_text(json.dumps(report, ensure_ascii=False) + "\n")
+            print(f"wrote {output}")
+        else:
+            print(json.dumps(report["reports"][0], indent=2, ensure_ascii=False))
+        return 0
+    except (ValueError, OSError, KeyError) as exc:
+        raise CorpusError(str(exc)) from exc
 
 
 def main() -> int:

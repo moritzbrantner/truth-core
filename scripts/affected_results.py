@@ -81,6 +81,8 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/finite_models.py",
     "scripts/configurations.py",
     "scripts/configuration_explorer.py",
+    "scripts/proposition_structure.py",
+    "scripts/PropositionStructure.lean",
     "scripts/territory.py",
     "scripts/root_imports.py",
     "scripts/testdata/objective-truth-pilot.json",
