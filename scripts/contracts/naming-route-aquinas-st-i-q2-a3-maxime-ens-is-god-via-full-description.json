@@ -1,0 +1,38 @@
+{
+  "baseline_revision": "e634f01f6f77a8592f256cd72548ffa299a49613",
+  "dependencies": {
+    "TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection": "163038117cac1c38d53003dea946a839abbdac5d7004928167b302be4dcba79b",
+    "TruthCore.Case.Catholicism.CausesEveryPerfectionOfOthers": "ce0551aa887127af63d81388b27e9909bf84021ec848bbcb208c8de1ebbdd01c",
+    "TruthCore.Case.Catholicism.GodNamesTheFullyDescribedPrinciple": "7099e5decb4f8fcde88cd9e07c585fc97916176d0c82e066cbae0e7a17544fcc",
+    "TruthCore.Case.Catholicism.MaximeEnsIsGod": "f478eae3ad1140865854d634435465c013c5054cf23976614399f195a4c53c79",
+    "TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing": "d8d2045e67f8bc9c81a4cf778cef8f0e75b6fb4d74e165de949dd1a199cbca27",
+    "TruthCore.Case.Catholicism.RemoteFromAll": "7325b7143f55f236a96f8782d80a82ac8fe1ddcd42a3e65c93347da92761558e",
+    "TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading": "8d07c25ae76e5b10c11dab0c86a6183239b51a375e0813b0a1b825ec22a5ca67",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading": "e6e9cb42d7a45fb5574ee48ee7f2a54a244942eb1df7f1825b4830d4e900dd42",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus": "9601a937132c19ec98f78de5a60354bf256cd1c7150bf7bea71b8f7a25d169a5",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.IsFirstBeing": "ce2247e434778b3e2fbced4b0644a54cff81ca78e3a4a6c44c38a8b2de47bcba",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn": "fa374d3d9ed855441d0242e899f8cf640ce1dd002755c05a764399138ea28898",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading": "3ac4d7dc69545c63c31ed554702aafdd97772d1f3eb0b501c5c71c57e0130448",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.NoComponentIsFirstBeingReading": "b635835218c978e5737086fa11bf8d1036ebd613f88799d84eed6223477f40e5",
+    "TruthCore.Logic.ExcludedMiddle": "4a2ff59ff14334d50a5c20b5c8afab6ce16cc4662267cb6a56f94bb10130eb83"
+  },
+  "frozen_inputs": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "41172e62b489e353c00bfbb6a9bfcdcda87b36c531dee0ba673b41e7da220420"
+    },
+    {
+      "path": "TruthCore/Results/Aquinas/SummaTheologiae/MaximeEnsIsGodViaFullDescription/Challenge.lean",
+      "sha256": "4a874b1bc807a111247d7a7741ae39acaf7701a08235bbea8d0b6fc9edd9aba6"
+    }
+  ],
+  "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
+  "result_id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION",
+  "schema_version": 1,
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.maximeEnsIsGodViaFullDescription",
+  "type_sha256": "ca55068c5cf0edb940f83ead572d87745f1980b6d1b0ccee68fca40f8a3c2ad2"
+}

@@ -4,10 +4,12 @@ import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Sol
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution
 import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution
 import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
@@ -46,4 +48,5 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
+import TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution

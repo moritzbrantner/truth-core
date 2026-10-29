@@ -73,7 +73,7 @@ test("complete specialization and consumers expose same-witness and identity bou
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  for (const id of ["CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE", "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"]) {
+  for (const id of ["CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE", "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"]) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
     expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("149 record dispositions");
@@ -93,6 +93,45 @@ test("complete specialization and consumers expose same-witness and identity bou
   const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const mobile = await context.newPage();
   await mobile.goto(`${base}results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL/#bundle-audit`);
+  const panel = mobile.getByRole("region", { name: "Bounded bundle audit", exact: true });
+  await panel.locator("[data-audit-records] > summary").tap();
+  expect(await panel.locator("[data-audit-records]").evaluate((e) => e.hasAttribute("open"))).toBe(true);
+  expect(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await context.close();
+  expect(errors).toEqual([]);
+}, 60000);
+
+
+test("naming route exposes one-way applications, witness identity and explicit existence decisions", async () => {
+  const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
+  const ids = [
+    "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS",
+    "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION",
+    "CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION",
+    "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+    "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+    "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  ];
+  ids.push(...ids.filter((id) => id !== "CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION").map((id) => `${id}-IDENTITY`));
+  const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  for (const id of ids) {
+    await page.goto(`${base}results/${id}/#bundle-audit`);
+    const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("161 record dispositions");
+    expect(await panel.innerText()).toContain("DecidableEq Principle");
+    expect(await panel.innerText()).toContain("FirstUnmovedMoverExistsOrNot");
+    expect(await panel.innerText()).toContain("same witness");
+    expect(await panel.innerText()).toContain("one-way");
+    await panel.locator("[data-audit-records] > summary").click();
+    const bridge = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS" }) });
+    expect(await bridge.innerText()).toContain("Every first mover");
+  }
+  await page.close();
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const mobile = await context.newPage();
+  await mobile.goto(`${base}results/${ids[0]}/#bundle-audit`);
   const panel = mobile.getByRole("region", { name: "Bounded bundle audit", exact: true });
   await panel.locator("[data-audit-records] > summary").tap();
   expect(await panel.locator("[data-audit-records]").evaluate((e) => e.hasAttribute("open"))).toBe(true);

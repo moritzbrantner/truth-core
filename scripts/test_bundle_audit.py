@@ -22,6 +22,23 @@ class BundleAuditTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'coverage'):
             bundle_audit.check(audit=missing)
 
+    def test_naming_route_reuses_frozen_consumer_contract(self):
+        audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[2].read_text()))
+        self.assertEqual(len(audit['records']), 161)
+        self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 11)
+        self.assertEqual(len(audit['contract_baselines']), 11)
+        missing = copy.deepcopy(audit)
+        missing['contract_baselines'].pop('CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS')
+        with self.assertRaisesRegex(ValueError, 'scoped consumer'):
+            bundle_audit.check(audit=missing)
+
+    def test_conditional_bridges_do_not_supply_existence(self):
+        run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
+                              'scripts/fixtures/NamingFirstMoverMigration.lean'],
+                             cwd=bundle_audit.ROOT, text=True, capture_output=True)
+        self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
+        self.assertNotIn('sorry', run.stdout + run.stderr)
+
     def test_missing_record_and_stale_review_are_rejected(self):
         audit = json.loads(bundle_audit.AUDIT.read_text())
         missing = copy.deepcopy(audit)
