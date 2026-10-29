@@ -7,7 +7,11 @@ test("bounded audit exposes exact coverage and keeps unrelated results outside s
   expect(audit?.records.filter((r) => r.kind === "definitions").length).toBe(25);
   expect(audit?.records.find((r) => r.id === "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH")?.status).toBe("unresolved");
   expect(audit?.limits.join(" ")).toContain("#720");
-  expect(getBundleAudit("CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL")).toBeUndefined();
+  const complete = getBundleAudit("CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL");
+  expect(complete?.records.length).toBe(149);
+  expect(getBundleAudit("CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE")).toBe(complete);
+  expect(getBundleAudit("CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY")).toBe(complete);
+  expect(getBundleAudit("CATHOLICISM-SKELETON")).toBeUndefined();
   expect(auditRecordHref("statements", "STMT-EXCLUDED-MIDDLE")).toBe("/statements/STMT-EXCLUDED-MIDDLE");
   expect(auditRecordHref("inferences", "INF-STAGE2-CLASSICAL-ATTRIBUTES")).toBeUndefined();
 });

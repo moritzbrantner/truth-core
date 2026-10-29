@@ -9,9 +9,10 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)
 open TruthCore.Case.Catholicism
 
-/-- Stage 2, complete: all nine attributes of the definitional bridge are
-derived for whatever is God (one, simple, perfect, supremely good, infinite,
-immutable, eternal, intellect, will). -/
+/-- Conditional assembly at one being. The nine derived predicates imply the
+primitive field only under the explicit open sufficiency premise; the
+God-to-maximality naming converse is retained. This universal conditional
+supplies no existence witness. -/
 theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle : Type}
     (InPotency InAct GoodIn : σ.Being → Respect → Prop)
     (MoreIn : Respect → σ.Being → σ.Being → Prop)
@@ -68,7 +69,10 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type} {Principle :
     hWillFollows
   -- INF-STAGE2-CLASSICAL-ATTRIBUTES-ALL
   intro g hg
-  exact hSuffice g (hSimple g hg) (hPerfect g hg) (hGood g hg) (hOne g hg) (hInfinite g hg)
-    (hImmutable g hg) (hEternal g hg) (hIntellect g hg) (hWill g hg)
+  exact classicalAttributesFromNine σ (IsSimple Composite) (IsPerfect InAct)
+    (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
+    Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill hSuffice g
+    ⟨hSimple g hg, hPerfect g hg, hGood g hg, hOne g hg, hInfinite g hg,
+      hImmutable g hg, hEternal g hg, hIntellect g hg, hWill g hg⟩
 
 end TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll

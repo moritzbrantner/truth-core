@@ -67,3 +67,36 @@ test("bounded audit exposes exact scope, open premises and unresolved converse o
   await touch.close();
   expect(errors).toEqual([]);
 }, 60000);
+
+test("complete specialization and consumers expose same-witness and identity boundaries", async () => {
+  const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
+  const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  for (const id of ["CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE", "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"]) {
+    await page.goto(`${base}results/${id}/#bundle-audit`);
+    const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("149 record dispositions");
+    expect(await panel.innerText()).toContain("DecidableEq Principle");
+    expect(await panel.innerText()).toContain("same witness");
+    expect(await panel.innerText()).toContain("Q11-NATURE");
+    await panel.locator("[data-audit-records] > summary").click();
+    const immutable = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-GOD-IS-IMMUTABLE" }) });
+    expect(await immutable.innerText()).toContain("IsImmutable InPotency");
+    expect(await immutable.innerText()).toContain("same Respect");
+    await panel.locator("[data-audit-records] > summary").click();
+    if (id.endsWith("-ALL") && process.env.TEST_COMPLETE_SCREENSHOT_PATH) {
+      await panel.screenshot({ path: process.env.TEST_COMPLETE_SCREENSHOT_PATH });
+    }
+  }
+  await page.close();
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const mobile = await context.newPage();
+  await mobile.goto(`${base}results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL/#bundle-audit`);
+  const panel = mobile.getByRole("region", { name: "Bounded bundle audit", exact: true });
+  await panel.locator("[data-audit-records] > summary").tap();
+  expect(await panel.locator("[data-audit-records]").evaluate((e) => e.hasAttribute("open"))).toBe(true);
+  expect(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await context.close();
+  expect(errors).toEqual([]);
+}, 60000);

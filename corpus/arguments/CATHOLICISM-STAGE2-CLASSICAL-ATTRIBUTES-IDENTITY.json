@@ -1,0 +1,60 @@
+{
+  "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "premise_statement_ids": [
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING"
+  ],
+  "conclusion_statement_id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+  "inference_ids": [
+    "INF-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"
+  ],
+  "meaning": "Under explicit DecidableEq parameters on both \u03c3.Being and Principle, derive the same universal conditional attributes field from the other 18 unchanged premises. Identity case splits suffice for uniqueness, perfection and esse/essence identity. This is a separate sufficient interface, not a proof of logical minimality or of either equality decision assumption; it supplies no existence witness and does not change the designated root route.",
+  "definition_ids": [
+    "DEF-SIMPLE",
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-SUPREMELY-GOOD",
+    "DEF-ONE-GOD",
+    "DEF-INFINITE",
+    "DEF-IMMUTABLE",
+    "DEF-ETERNAL",
+    "DEF-HAS-INTELLECT",
+    "DEF-HAS-WILL",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+    "DEF-MAXIME-ENS",
+    "DEF-ESSE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-ACT",
+    "DEF-GOOD-AS-BEING-IN-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-PURE-ACT",
+    "DEF-ALTOGETHER-IMMATERIAL",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}

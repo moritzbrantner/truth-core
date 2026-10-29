@@ -309,14 +309,14 @@
       "kind": "statements",
       "id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
       "path": "corpus/statements/perfections-of-effect-preexist-in-cause.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "open_premise",
-      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit. Subsequent ALL migration: added the existing cause, act, respect, esse and formal/eminent definition/disambiguation links; proposition and source reading unchanged.",
       "before": {
         "sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading"
       },
-      "reviewed_sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0"
+      "reviewed_sha256": "3bb8352f5976cc00dc80fdeee788c44735c931d77bdad7f13a15ce80de577b1b"
     },
     {
       "kind": "inferences",
@@ -806,14 +806,14 @@
       "kind": "disambiguations",
       "id": "DISAMB-GOD",
       "path": "corpus/disambiguations/god.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Subsequent ALL migration: qualified the same-witness note to distinguish Q11-NATURE's explicit alternative uniqueness premises; original assembly sense unchanged.",
       "before": {
         "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2"
+      "reviewed_sha256": "1be6875657b36c0dbf47536eabb6a22986951b0ab521e004cec3d7520ba38155"
     },
     {
       "kind": "disambiguations",
