@@ -7,6 +7,7 @@ premise, not evidence that actual existential support is concrete grounding. -/
 namespace TruthCore.Causality.OccurrenceUnderivedEssence
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.CogitoNecessaryConcrete
+open TruthCore.Causality.NecessarilyUnderived
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
@@ -31,7 +32,7 @@ def SameWitnessEssenceIdentity (m : TruthCore.Causality.BruteFoundationBoundary.
   ∃ b e n, Occurs e ∧ Bears b e ∧ GroundAncestor m w n b ∧
     m.concrete n ∧ m.ontic.ExistsAt w n ∧ NecessaryAt m.ontic w n ∧
     (∀ c, ¬ ActualConcreteGround m w c n) ∧
-    (∀ c, m.ontic.ExistsAt w c → ¬ R w c n) ∧ p.esseOf n = p.essenceOf n
+    NoExistingSupportAt m.ontic R w n ∧ p.esseOf n = p.essenceOf n
 
 /-- Reuse #680's SAME ontology and q3 profile; the thought's bearer is the
 necessary recipient true, and its ground is the actual necessary source false. -/
@@ -60,9 +61,9 @@ def NecessaryRecipientControl : Prop :=
   ThinkerAncestryGrounded m (fun _ : Unit => True) recipientBears true ∧
   NecessaryConcreteAncestorOfThinker m (fun _ : Unit => True) recipientBears true ∧
   NecessaryAt m.ontic true true ∧
-  (¬ ∀ c, m.ontic.ExistsAt true c → ¬ R true c true) ∧
+  ¬ NoExistingSupportAt m.ontic R true true ∧
   p.esseOf true ≠ p.essenceOf true ∧
-  (∀ c, m.ontic.ExistsAt true c → ¬ R true c false) ∧
+  NoExistingSupportAt m.ontic R true false ∧
   p.esseOf false = p.essenceOf false
 
 end TruthCore.Causality.OccurrenceUnderivedEssence

@@ -24,5 +24,5 @@ and represented essence–esse identity. Support elsewhere is unrestricted. -/
 def ActualUnderivedEssenceIdentity (m : Ontic W B) (R : W → B → B → Prop)
     (w : W) (p : Profile B P A) : Prop :=
   ∃ n, m.ExistsAt w n ∧ NecessaryAt m w n ∧
-    (∀ c, m.ExistsAt w c → ¬ R w c n) ∧ p.esseOf n = p.essenceOf n
+    NoExistingSupportAt m R w n ∧ p.esseOf n = p.essenceOf n
 end TruthCore.Causality.ActualUnderivedEssenceEsse
