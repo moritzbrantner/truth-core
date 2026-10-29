@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { PropositionStructure } from "@/components/proposition-structure";
+import { getStructureReport } from "@/lib/proposition-structure";
 import { notFound } from "next/navigation";
 
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
@@ -141,6 +143,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
           </p>
         ) : null}
       </section>
+
+      <PropositionStructure report={getStructureReport(statement.id)} />
 
       <TermsSection corpus={corpus} records={[statement]} />
 

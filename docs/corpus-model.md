@@ -45,6 +45,12 @@ Passage identity is likewise not claim identity. Changing an interpretation does
 
 ## Verification boundaries
 
+The [proposition structure inspector](proposition-structure.md) derives a bounded
+expression view from elaborated Lean. Its internal addresses are scoped to the
+statement and input revision, require no authored statement records, and carry
+no frontier or proof status. Definition expansion, semantic interpretation and
+argument support remain separate.
+
 There are three deliberately separate notions of verification:
 
 1. **Source integrity** — `scripts/source_evidence.py` checks that every formalized claim resolves to one passage, that the passage belongs to the registered work, and that the fetched edition bytes match the pinned Git blob SHA. Materialization makes the consulted text reproducible.

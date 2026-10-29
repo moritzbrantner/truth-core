@@ -36,12 +36,19 @@ runs:
       with:
         name: configuration-explorer-report
         path: .cache
+    - name: Download this workflow's derived proposition structure
+      uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+      with:
+        name: proposition-structure-report
+        path: .cache
     - name: Build explorer
       shell: bash
       env:
         GITHUB_PAGES: ${{ inputs.github-pages }}
         TRUTH_CORE_CONFIGURATION_REPORT: .cache/configuration-explorer.json
         TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT: "true"
+        TRUTH_CORE_STRUCTURE_REPORT: .cache/proposition-structure.json
+        TRUTH_CORE_REQUIRE_STRUCTURE_REPORT: "true"
       run: bun run build
     - name: Test frontier in the browser
       shell: bash
