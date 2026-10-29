@@ -1,0 +1,10 @@
+{
+  "id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "argument_id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "challenge_module": "TruthCore.Results.Aristotle.SynonymyTie.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.SynonymyTie.Solution",
+  "theorem": "TruthCore.Results.Aristotle.SynonymyTie.synonymyTieControl",
+  "comparator_config": "results/ARISTOTLE-SYNONYMY-TIE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Finite same-account causal tie separates the non-strict and strict readings; no metaphysical possibility asserted."
+}

@@ -1,1 +1,9 @@
-{"id": "REL-ARIST-MET-993B-CAUSE-MOST-SUCH-SUPPORTS-MAXIMUM-CAUSES-GENUS", "subject_kind": "claim", "subject_id": "ARIST-MET-993B-CAUSE-MOST-SUCH-A", "predicate": "supports", "object_kind": "statement", "object_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS", "note": "Metaphysics II.1, 993b24-26 is the place the quarta via cites for this premise (sicut ignis, qui est maxime calidus, est causa omnium calidorum, ut in eodem libro dicitur): fire is hottest and is the cause of heat to the others. Aristotle's sentence runs the other way, from being the cause of the synonymous quality in others to being most such (STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH); the fire example instances both directions, but the text gives no general step from maximal to cause. Evidence for the premise's example, not for its universality."}
+{
+  "id": "REL-ARIST-MET-993B-CAUSE-MOST-SUCH-SUPPORTS-MAXIMUM-CAUSES-GENUS",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-993B-CAUSE-MOST-SUCH-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "note": "Metaphysics II.1, 993b24-26 is the place the quarta via cites for this premise (sicut ignis, qui est maxime calidus, est causa omnium calidorum, ut in eodem libro dicitur): fire is hottest and is the cause of heat to the others. Aristotle's sentence runs the other way, from being the cause of the synonymous quality in others to being most such (STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-AT-LEAST-AS-SUCH); the fire example instances both directions, but the text gives no general step from maximal to cause. Evidence for the premise's example, not for its universality."
+}

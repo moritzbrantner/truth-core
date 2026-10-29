@@ -1,0 +1,18 @@
+{
+  "id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SYNONYMY-TIE-CONTROL",
+  "inference_ids": [
+    "INF-ARISTOTLE-SYNONYMY-TIE-CONTROL"
+  ],
+  "meaning": "A nonvacuous same-account causal tie distinguishes the at-least source reading from its strict strengthening, without asserting that this interpretation is metaphysically possible.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-AT-LEAST-IN",
+    "DEF-SHARED-DEFINING-ACCOUNT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

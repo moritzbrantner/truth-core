@@ -1,0 +1,10 @@
+{
+  "id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "argument_id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "challenge_module": "TruthCore.Results.Aristotle.SynonymyScope.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.SynonymyScope.Solution",
+  "theorem": "TruthCore.Results.Aristotle.SynonymyScope.synonymyScopeControl",
+  "comparator_config": "results/ARISTOTLE-SYNONYMY-SCOPE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Finite typed countermodel with explicitly witnessed same-account and changed-account causal edges; no metaphysical possibility or source fidelity follows."
+}
