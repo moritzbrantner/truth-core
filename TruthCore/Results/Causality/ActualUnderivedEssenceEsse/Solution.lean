@@ -53,11 +53,8 @@ theorem checks {W B P A : Type} (m : Ontic W B)
     | inr h => exact False.elim (hNN h)
   obtain ⟨n, hn, hNec, hNo⟩ := hSource
   refine ⟨n, hn, hNec, hNo, ?_⟩
-  have hId := TruthCore.Results.Causality.UnderivedEssenceEsse.actual_not_not_identity_direct
-    m R w p n hn hNo hInAct hPresent hTyped hExhaustive hNoSelfCause
-  cases hEM (p.esseOf n = p.essenceOf n) with
-  | inl h => exact h
-  | inr h => exact False.elim (hId h)
+  exact TruthCore.Results.Causality.UnderivedEssenceEsse.actual_identity_direct
+    m R w p n hn hNo hEM hInAct hPresent hTyped hExhaustive hNoSelfCause
 
 /-- Reuse the rotating interpretation: local premises coexist with failure of
 all-world underivedness. This witnesses scope strictness, not metaphysical possibility. -/

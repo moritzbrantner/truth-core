@@ -19,7 +19,7 @@ not be accessible from the base. No reason token or divine attribute is given. -
 def NamedNecessarilyUnderived {World Being : Type} (m : Ontic World Being)
     (R : World → Being → Being → Prop) (w : World) (n : Being) : Prop :=
   m.ExistsAt w n ∧ NecessaryAt m w n ∧
-    ∀ v source, m.ExistsAt v source → ¬ R v source n
+    ∀ v, NoExistingSupportAt m R v n
 
 /-- The unchanged registered varying interpretation gives a nonvacuous
 positive profile. Its source has an actual other-directed effect at world
