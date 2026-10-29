@@ -9,7 +9,7 @@
     "start": "next start",
     "test": "bun test src",
     "typecheck": "tsc --noEmit",
-    "test:browser": "bun test tests/*.browser.test.ts",
+    "test:browser": "bun --max-http-header-size=65536 test tests/*.browser.test.ts",
     "configuration-inputs": "python3 ../../scripts/corpus.py configuration-report --build-input"
   },
   "dependencies": {
