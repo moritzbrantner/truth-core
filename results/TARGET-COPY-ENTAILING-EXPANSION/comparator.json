@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.TargetCopyExpansion.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.TargetCopyExpansion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.TargetCopyExpansion.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

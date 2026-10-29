@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+  "term": "target-copying modal reason expansion and common populated arena",
+  "definition": "copied m retains the whole existing BruteFoundationBoundary.Profile m. A reason is an existing ExistenceFact tag; reasonPresent w (fact x) is concrete x and ExistsAt w x, while explains w r x additionally requires r=fact x. EntailingCoverage conjoins existing ExplanationSound, LocallyExplained and NecessitatesExistenceAt for every admitted link, not necessity of all reasons. arena g fixes universal Bool accessibility, rigid Nat candidates all actual/concrete, and assigns both Causes and grounds to the supplied graph edge. single has edge y=0 and x≠0; plural has y≤1 and 2≤x; descending has y=x+1. Sources are the existing Graph.Source predicate, relation-relative; all nodes are actual in these controls.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.TargetCopyExpansion.Certificate",
+  "note": "A diagnostic of a failed sufficiency test for #698, not an attributed theory of explanation. No actual-world interpretation, real intrinsic nature, efficient cause/ground equivalence, noncircularity, totality fact, source uniqueness principle or well-foundedness norm is assumed. The universal construction also applies to profiles with contingent targets; arbitrary model properties remain unrestricted."
+}

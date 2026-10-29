@@ -1,0 +1,9 @@
+{
+  "id": "INF-TARGET-COPY-ENTAILING-EXPANSION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
+  "rule": "Constructive expansion, validity projection and inhabited common-arena controls",
+  "meaning": "The target-coded reason entails its target at every accessible world by its definition, independently of the original ontology or grounds. All three explicitly populated common-arena dependence assignments therefore survive this proposed constraint. Existing successor non-well-foundedness is reused, not reproved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
