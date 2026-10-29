@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
+  "term": "modal entailment versus independently adequate existence explanation",
+  "sense_definition_ids": [
+    "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
+    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+  ],
+  "resolution": "NecessitatesExistenceAt constrains truth across accessible worlds; copied satisfies it by repeating the target condition. That repetition establishes no direction, relevance, real nature or reason why the target obtains. Intrinsic explanation is not efficient self-production and is not rejected merely for lacking an external cause. A principled intrinsic account must independently characterize this actual nature and its explanatory role; its positive adequacy is open. No common token for all individual existence facts is distinct from no explanation of a totality: the existing signature does not add such a fact or a compositional aggregation rule. Modeled relation roots are not absolutely unexplained facts or divine beings."
+}

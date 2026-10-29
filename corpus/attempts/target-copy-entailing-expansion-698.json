@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-TARGET-COPY-ENTAILING-EXPANSION-698",
+  "date": "2026-10-29",
+  "statement_ids": [
+    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
+    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+    "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+    "STMT-TARGET-COPY-ENTAILING-EXPANSION"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inventory rejected duplicate necessary-reason transfer and history-discrimination lemmas. New general expansion preserves every original Profile while satisfying even modal target necessitation, by copying each target concrete-existence condition into reason truth. The same populated Bool/Nat arena retains unique, plural and source-free non-WF structures under these clauses; successor non-WF proof reused. Distinct target tags preclude a common memberwise token, without showing absence of a totality explanation. Existing boundaryRival can also be expanded unchanged, so entailment does not supply necessary reason truth. Materialized/read Monadology31–45, Spinoza Idefs/axioms–I11 with notes and all proofs, and Aquinas q3a4/q44a1. Existing intrinsic-nature positive case retained; a reason independently characterized beyond target truth, justified direction/application and relevant individual/multiplicity scope remain open. No source claim or root premise added/removed/discharged. Exact rejected approaches, semantic audit, source locators, common-explanandum comparison, strongest rivals and verification binding are in docs/psr-scope-countermodels.md. Pending #677 is the weaker negative control, not an imported or integrated theorem.",
+  "evidence": [
+    "TARGET-COPY-ENTAILING-EXPANSION",
+    "HISTORY-CONTRASTIVE-CONTROLS",
+    "LEIBNIZ-45-INTRINSIC-REASON",
+    "LEIBNIZ-32-FACT-REASON-DEMAND",
+    "LEIBNIZ-36-37-CONTINGENT-DETAIL-DEFERMENT",
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}
