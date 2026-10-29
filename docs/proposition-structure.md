@@ -254,8 +254,8 @@ is complete; its [naming audit](notes/naming-first-mover-migration.md) and
 [inventory](notes/naming-first-mover-migration.json) remain the preservation
 evidence. The current substantive bundle is on
 `research/causal-perfections-transfer`. Checked implementation revision:
-`c55af5ec6e6e451a870fa7a87fc0650e55060f6c`; this handoff-only follow-up changes
-no checked inputs. The delivery PR records its exact delivered head, CI run and
+`c55af5ec6e6e451a870fa7a87fc0650e55060f6c`; the CI follow-up changes no
+theorem inputs. The delivery PR records its exact delivered head, CI run and
 current-head review request/status.
 
 Target: `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION`. Reuse: existing
@@ -329,8 +329,19 @@ delivery obligations.
 The implementation uses the documented CLI fallback: no coordinator service
 workspace/session was supplied, and no service-health or new experiment claim
 is made. Necessary cross-lane edits from lane A are this handoff, its linked
-research note and the alternative-campaign entry/generated table. No lane B
-proof, tooling code, dependency, registry or verification authority is changed.
+research note and the alternative-campaign entry/generated table. The CI
+follow-up also re-reviews DEF-CAUSE-OF-PERFECTION and DISAMB-CAUSE
+in the three existing migration inventory JSON files and adjusts
+`apps/corpus-explorer/src/lib/source-attribution.test.ts` to read attribution
+from the existing dossier independently of frontier-item classification.
+No lane B proof, runtime tooling/explorer code, dependency, registry or
+verification authority is changed. Prior proof checks remain valid; the
+follow-up changes only review records, regression coverage and documentation.
+Follow-up local validation: all three audit inventories pass; all 364 Python
+tooling tests and 130 explorer tests pass; explorer typechecking passes.
+The original delivered-head CI also passed Comparator and library verification;
+its two integration failures are the audit freshness and attribution test fixed
+here. Final CI must cover this follow-up head.
 
 Next concrete research step: independently justify application/concurrence for
 the universal esse witness, or defend an additional subsistent/first-cause

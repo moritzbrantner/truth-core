@@ -1091,13 +1091,13 @@
       "id": "DEF-CAUSE-OF-PERFECTION",
       "path": "corpus/definitions/cause-of-perfection.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse. No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Existing interpretation retained: `CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse. No new structural law, source attribution or independently established premise is introduced. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
       "before": {
         "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
       },
-      "reviewed_sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3"
+      "reviewed_sha256": "bdf413862d893118f5deb587c905f927b71bc620cce8141e6716d39018e70313"
     },
     {
       "kind": "definitions",
@@ -1702,13 +1702,13 @@
       "id": "DISAMB-CAUSE",
       "path": "corpus/disambiguations/cause.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The case keeps moving (`MovesIn`, a present reduction from potency to act), causing a perfection (`CausesIn`, with 'cause of being' at esse) and simple priority (`PriorSimply`, DEF-SIMPLE-PRIORITY) as separate predicates, and every passage between them is an explicit premise: STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (open, bare) from simple priority to cause of being; STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD (sourced, q.105 a.5: an agent whose being God causes is itself moved when it moves) linking causing being and moving; STMT-DIRECTING-IS-MOVING for the quinta via. Aristotle's four modes classify causes in general and are not premises of the root path. SCG I.13’s cause of coming to be (CausesOrigin) is recorded separately from moving in a respect or causing a perfection; the finite-past result does not identify its cause as God.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Existing resolution retained: The case keeps moving (`MovesIn`, a present reduction from potency to act), causing a perfection (`CausesIn`, with 'cause of being' at esse) and simple priority (`PriorSimply`, DEF-SIMPLE-PRIORITY) as separate predicates, and every passage between them is an explicit premise: STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (open, bare) from simple priority to cause of being; STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD (sourced, q.105 a.5: an agent whose being God causes is itself moved when it moves) linking causing being and moving; STMT-DIRECTING-IS-MOVING for the quinta via. Aristotle's four modes classify causes in general and are not premises of the root path. SCG I.13’s cause of coming to be (CausesOrigin) is recorded separately from moving in a respect or causing a perfection; the finite-past result does not identify its cause as God. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
       "before": {
         "sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e"
+      "reviewed_sha256": "aec33da624bc5c9069aadccceea3d0a2b9bc2ce838342046f8ad19b7d05d784b"
     },
     {
       "kind": "disambiguations",

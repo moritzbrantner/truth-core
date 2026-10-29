@@ -246,6 +246,21 @@ constructors with direct case decisions; actual axiom reports and Comparator
 certify zero axioms. The causal tables, philosophical background and advertised
 model claims were retained. No legacy Challenge was touched.
 
+CI follow-up on PR #732 (initial run 40959210269): the bounded migration
+checker correctly rejected stale review hashes for DEF-CAUSE-OF-PERFECTION
+and DISAMB-CAUSE after the semantic-note additions. Re-reviewed those two
+records in each of the three existing migration inventories, preserving the
+original before-state, coverage and source/Lean boundaries, and recording the
+follow-up finding before refreshing their hashes. `scripts/bundle_audit.py`
+remains unchanged. The source-attribution regression also assumed this target
+always occupied `frontier.items`; it now checks the identical direct/support
+claim IDs through the existing dossier, independently of conditional-proof
+classification. All three audit inventories, all 364 Python tooling tests,
+all 130 explorer tests and explorer typechecking pass locally. Runtime frontier,
+attribution and closure logic are unchanged.
+No philosophical premise or proof changes in this follow-up; prior verification
+of unchanged theorem inputs is reused.
+
 No service workspace/session was supplied; use the documented CLI fallback,
 as in #731. No service health or new performance experiment is claimed.
 
