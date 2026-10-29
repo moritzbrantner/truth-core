@@ -1,0 +1,9 @@
+{
+  "id": "INF-ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SYNONYMY-TIE-CONTROL",
+  "rule": "model-construction",
+  "meaning": "Two distinct entities share the account and are related causally; universal at-least and empty more relations witness a tie and satisfy the non-strict but not the strict principle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

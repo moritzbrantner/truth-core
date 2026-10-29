@@ -1,8 +1,8 @@
 {
   "id": "ARIST-MET-993B-CAUSE-MOST-SUCH-A",
-  "statement_id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-MORE-SUCH",
+  "statement_id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-AT-LEAST-AS-SUCH",
   "source_id": "ARIST-MET",
   "locator": "II.1, 993b24-31",
-  "interpretation": "Metaphysics II.1, 993b24–26 says that what makes the synonymous quality belong to the others is most such, illustrated by fire and heat; 993b26–31 applies the thought to truth. This conservative pairwise reading requires both cause and effect to have the quality under a shared defining account, and weakens most to more relative to each distinct effect. The text does not itself establish the unrestricted extension to changed-sense causes or an instance at being. Aquinas q.13 a.5 co. and ad 1 distinguishes analogical from univocal predication and agency; analogy is not synonymous predication. The semantic applicability of this formal condition and the unrestricted extension remain open.",
+  "interpretation": "Metaphysics II.1, 993b24–26 says that what makes the synonymous quality belong to the others is most such, illustrated by fire and heat; 993b26–31 applies the thought to truth. This conservative pairwise reading requires both cause and effect to have the quality under a shared defining account, and weakens most to at least as relative to each distinct effect, allowing ties. The passage does not explicitly exclude tied cases; strict superiority requires a further open premise. The text does not itself establish the unrestricted extension to changed-sense causes or an instance at being. Aquinas q.13 a.5 co. and ad 1 distinguishes analogical from univocal predication and agency; analogy is not synonymous predication. The semantic applicability of this formal condition and the unrestricted extension remain open.",
   "status": "formalized"
 }

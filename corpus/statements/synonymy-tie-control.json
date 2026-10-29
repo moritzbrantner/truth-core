@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SYNONYMY-TIE-CONTROL",
+  "paraphrase": "A two-entity interpretation has a same-account causal edge, equal at-least standings and no strict superiority, satisfying the non-strict reading and violating the strict reading. This is a formal model, not a claim of metaphysical possibility.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.SynonymousCauseTieControl",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-AT-LEAST-IN",
+    "DEF-SHARED-DEFINING-ACCOUNT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-MORE-SUCH",
-  "paraphrase": "If a distinct cause and effect have a quality under the same defining account, and the cause causes that quality in the effect, the cause is more such than the effect. This pairwise reading weakens the source’s most-such claim; application of the shared account to concrete causes remains open.",
+  "paraphrase": "Open strict strengthening: if a distinct cause and effect have a quality under the same defining account, and the cause causes that quality in the effect, the cause is more such than the effect. Aristotle’s most-such wording does not itself exclude ties; this strict reading is not attributed to the source.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.SynonymousCauseMoreSuchReading",
   "definition_ids": [
     "DEF-CAUSE-OF-PERFECTION",

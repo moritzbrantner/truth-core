@@ -2,8 +2,8 @@ import TruthCore.Greek.Aristotle.Metaphysics
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 
-/-- Metaphysics II.1, 993b24–26: restricted pairwise reading of the
-cause-most-such sentence. `Holds c r s` means that cause c has quality r under defining account s.
+/-- Strict strengthening of the restricted pairwise reading of Metaphysics II.1,
+993b24–26, not attributed to the source: most-such need not exclude ties. `Holds c r s` means that cause c has quality r under defining account s.
 Both cause and effect must have the quality under one shared account. It is
 an explicit interpretive condition, not a definition of causal or analogical
 predication; neither its extension nor its applicability to being is assumed. -/

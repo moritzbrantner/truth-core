@@ -9,8 +9,10 @@ theorem synonymyScopeControl : SynonymyScopeControl := by
   · intro c x r _ hc hs
     rcases hc with ⟨rfl, rfl⟩ | ⟨rfl, rfl⟩
     · exact ⟨rfl, rfl⟩
-    · rcases hs with ⟨s, h1, h2⟩
-      cases s <;> simp at h1 h2
+    · have noShared : ¬ ∃ s : Bool,
+          (((1 : Fin 3) = 0 ∧ s = false) ∨ ((1 : Fin 3) = 1 ∧ s = false) ∨ ((1 : Fin 3) = 2 ∧ s = true)) ∧
+          (((2 : Fin 3) = 0 ∧ s = false) ∨ ((2 : Fin 3) = 1 ∧ s = false) ∨ ((2 : Fin 3) = 2 ∧ s = true)) := by decide
+      exact False.elim (noShared hs)
   · intro h
     have bad := h 1 2 () (by decide) (Or.inr ⟨rfl, rfl⟩)
     exact (by decide : ¬ ((1 : Fin 3) = 0 ∧ (2 : Fin 3) = 1)) bad
@@ -18,7 +20,6 @@ theorem synonymyScopeControl : SynonymyScopeControl := by
   · exact ⟨false, Or.inl ⟨rfl, rfl⟩, Or.inr (Or.inl ⟨rfl, rfl⟩)⟩
   · exact ⟨rfl, rfl⟩
   · exact Or.inr ⟨rfl, rfl⟩
-  · rintro ⟨s, h1, h2⟩
-    cases s <;> simp at h1 h2
+  · decide
   · decide
 end TruthCore.Results.Aristotle.SynonymyScope
