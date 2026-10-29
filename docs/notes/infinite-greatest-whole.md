@@ -158,13 +158,43 @@ established by this batch; the precise burden and strongest objection are
 persisted instead, as #696 permits. The existing strict-primacy candidate remains
 open, and the same dependence/individuation burden connects to #320/#697.
 
+## Sourced whole-first rival: Schaffer
+
+Schaffer, *Monism: The Priority of the Whole*, §§1.1–1.4, pp. 33–44
+(`SCHAFFER-MONISM-FRAMEWORK`, materialized and read), offers a concrete rival
+to a parts-first account. His arena is actual concrete material objects, with
+an assumed cosmos and proper parts; deities and spirits are outside that arena
+(p. 33). His cosmos is a material object, not the `Set Point` in the Lean
+control. Parthood and metaphysical dependence are distinct relations (p. 38):
+the latter is an explanatory priority, not an efficient-cause predicate.
+
+His positive argument adds premises beyond maximality. Foundationalism assumes
+a well-founded priority ordering (p. 37). A completeness argument requires
+basic objects to cover the cosmos (p. 39), while recombinability and an economy
+argument motivate restrictions on overlap or proper parthood among basics
+(pp. 40–41). Given this framework, the whole can be the sole basic material
+object and its proper parts depend on it (pp. 42–43). The completeness,
+recombinability, duplication and foundationalist assumptions are disputable;
+the source does not derive them from inclusion alone. The physical and gunk
+arguments in §2 lie outside the materialized witness and are not assessed here.
+
+On the same explanatory question, Schaffer's basic whole grounds derivative
+material parts, while Aquinas q.44 proposes an essential giver for received
+esse. The former's restricted material basicness does not answer why the cosmos
+exists or establish an all-being source; the latter must justify actual
+reception, causal scope and uniqueness. Neither a mathematical greatest set
+nor its empty-priority assignment refutes the substantive dependence account.
+Conversely, Schaffer's priority premise does not instantiate the Lean model's
+empty relation or establish Aquinas's efficient-cause bridge. These boundaries
+leave both actual application and any comparison of explanatory sufficiency open.
+
 ## Symmetric comparison on the same why-question
 
 | Account | Proposed answer for why the relevant beings exist | Remaining burden |
 | --- | --- | --- |
 | Classical theistic participation | Nonreceived subsistent esse gives esse to dependent recipients; finite perfections preexist eminently, not as spatial parts | Defend reception, actual giver/dependence, scope, essential identity and uniqueness; a top or infinity label supplies none. |
 | Naturalistic spatial whole | A physically actual whole with laws/constraints accounts for local regions, objects or processes | Defend that actual structure and the explanatory relation. Inclusion is not production; a brute whole is a different stopping account from explained constraints. |
-| Non-theistic global/priority account | Parts depend on a fundamental whole through constitutive/global structure | Defend grounding's reality, direction and individuation; maximal inclusion is not its proof. It need not claim an efficient producer of every set-theoretic subset. |
+| Schaffer’s priority monism (§§1.1–1.4, pp. 33–44) | Actual material parts depend on a basic material cosmos under the stated priority and tiling framework | Defend foundationalism, completeness, recombinability and economy; its material domain and grounding do not establish an efficient producer or explain cosmic existence. |
 | Plural or brute foundations | Independent natures or a brute arrangement stop the explanation at another place | Defend coexistence, application and stopping policy by the same criteria asked of a single giver. Their lack of this bridge is not itself a contradiction. |
 
 These are explicit competing proposals, not new source-attributed claims or a
