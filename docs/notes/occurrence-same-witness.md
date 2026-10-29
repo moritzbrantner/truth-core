@@ -136,3 +136,63 @@ this run; no claim of total proof throughput or controlled CLI speedup is made.
 The API corpus record call and CLI dossier/related searches preserve the same
 corpus semantics. Retain the shared service for repeated diagnostics, while
 using CLI discovery and final CI for their existing roles.
+
+
+## Shared vocabulary and composition refactor (#713)
+
+The union-support, selected-world-support and occurrence routes repeated two
+pieces of the same composition. Their supporter-exclusion formulas had no
+shared pointwise name, and each independently converted the constructive q3
+`¬¬` consequence to identity using the already explicit excluded-middle premise.
+
+`NecessarilyUnderived.NoExistingSupportAt m R w n` now names exactly
+`∀ c, m.ExistsAt w c → ¬ R w c n`. Its curried guard preserves the original
+formulas by definitional equality. It does **not** assert that n exists, is
+necessary, or has no supporters at other worlds. Global named underivedness
+still quantifies this predicate over **every admitted world**; the selected-world
+and occurrence conclusions use it only at w. “Existing” is world-relative
+existence, not temporal concurrence. R remains a supplied support relation,
+separate from ordinary causes and concrete grounds.
+
+The new `UnderivedEssenceEsse.actual_identity_direct` helper composes the
+unchanged constructive `actual_not_not_identity_direct` with the existing
+`ExcludedMiddleIffDne.excludedMiddleIffDoubleNegationElimination` theorem.
+It still takes the same named n, its existence and supporter exclusion, explicit
+excluded middle, and all five existing q3 commitments/interfaces. It proves no
+new support interface. The three consumers now finish by applying this helper:
+`UnderivedEssenceEsse.from_union_direct`, `ActualUnderivedEssenceEsse.checks`
+and `OccurrenceUnderivedEssence.checks`. Their distinct witness-selection steps
+remain visible; none may substitute the witness selected by another route.
+
+For example, after selecting the same necessary ancestor and obtaining its
+supporter exclusion from the open concrete-ground bridge, the occurrence proof
+ends directly with `actual_identity_direct ... n hn hNo hEM ...`. It no longer
+repeats a local double-negation elimination. The ordinary-cause/support
+adapter and the concrete-ground/support adapter remain separate and explicit.
+
+This is a code/vocabulary refactor with **no premise change**. Existing theorem
+signatures, frozen Challenges, statement IDs, source readings and model
+assignments are preserved. In particular the occurrence route retains all 13
+hypotheses and the same actual-only underivedness; the union route retains its
+stronger all-world exclusion. No bundle hides a philosophical assumption and
+no root premise is discharged. Final affected-result CI retains build, binding,
+Comparator and NanoDa coverage.
+
+
+Focused refactor evidence: shared preview
+`9a3bacd5060f16671a8638d792d58c96df0ac9ce`, clean,
+`master-20261029`, `Scratch/issue713/Combined.lean` version 2, full content
+SHA-256 `23640572f258901c2f9ec793c027d3efb63bb916d232ad9fbd9e3bef94a31aba`.
+The combined edit imports the existing public theorem modules, adds the new
+alias/helper, and checks all three migrated proof bodies against their original
+types. Four `rfl` checks confirm that the global, named, selected-world and
+occurrence formulas are definitionally unchanged. All four axiom queries report
+no axioms; there are no Lean errors, warnings or `sorry`. The first scratch
+submission omitted its local `World`/`Being` binders; adding those binders fixed
+that development-only assembly error. Canonical source already had the binders.
+
+Both `frontier --routes` and `frontier --reaching-root` remain byte-identical
+before/after this refactor. Source manifests and corpus checks pass. Canonical
+module compilation and the unchanged frozen Challenges remain final CI's
+build/binding/Comparator/NanoDa obligation; the scratch elaboration is focused
+development evidence, not a replacement for those gates.

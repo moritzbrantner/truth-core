@@ -1,4 +1,5 @@
 import TruthCore.Causality.UnderivedEssenceEsse
+import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 namespace TruthCore.Results.Causality.UnderivedEssenceEsse
@@ -30,6 +31,24 @@ theorem actual_not_not_identity_direct {W B P A : Type} (m : Ontic W B)
   have hExists := hPresent c n hn hc hCause
   exact hNoSupport c hExists (hTyped c n hExists hn hc hCause)
 
+/-- Promote the constructive q3 consequence for this same named individual
+using explicitly supplied excluded middle. Target existence and world-local
+support absence remain separate; no necessary→underived inference is used. -/
+theorem actual_identity_direct {W B P A : Type} (m : Ontic W B)
+    (R : W → B → B → Prop) (w : W) (p : Profile B P A) (n : B)
+    (hn : m.ExistsAt w n) (hNoSupport : NoExistingSupportAt m R w n)
+    (hEM : TruthCore.Logic.ExcludedMiddle)
+    (hInAct : ExistingInActAt m p.InAct p.esse w)
+    (hPresent : UnitingCausesPresent m p.CausesIn p.esse w)
+    (hTyped : ActualEsseCausesSupportAt m R p.CausesIn p.esse w)
+    (hExhaustive : DistinctEsseCauseDichotomyReading p)
+    (hNoSelfCause : EssentialPrinciplesCannotCauseDistinctEsseReading p) :
+    p.esseOf n = p.essenceOf n := by
+  exact
+    (TruthCore.Results.Logic.ExcludedMiddleIffDne.excludedMiddleIffDoubleNegationElimination.mp hEM)
+      _ (actual_not_not_identity_direct m R w p n hn hNoSupport
+        hInAct hPresent hTyped hExhaustive hNoSelfCause)
+
 /-- Retain the exact five original #495 union-route premises, plus the two
 q3 premises and THREE open selected-world adapters. The ordinary Causes
 relation does not occur in these additional assumptions. -/
@@ -49,11 +68,8 @@ theorem from_union_direct {W B P A : Type} (m : Ontic W B)
     TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks
       m R w hNecessary hReflexive hNoContingent hUnionWF hEM
   refine ⟨n, ⟨hn, hNecessaryN, hNoSupport⟩, ?_⟩
-  have hNN := actual_not_not_identity_direct m R w p n hn
-    (hNoSupport w) hInAct hPresent hTyped hExhaustive hNoSelfCause
-  cases hEM (p.esseOf n = p.essenceOf n) with
-  | inl h => exact h
-  | inr h => exact False.elim (hNN h)
+  exact actual_identity_direct m R w p n hn (hNoSupport w) hEM
+    hInAct hPresent hTyped hExhaustive hNoSelfCause
 
 /-- Constructive core: actual absence of R-support, rather than modality, does
 work here. Apply the existing q.3 a.4 conditional, then transport its actual

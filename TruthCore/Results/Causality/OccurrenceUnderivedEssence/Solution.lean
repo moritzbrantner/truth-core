@@ -38,11 +38,8 @@ theorem checks {W B Episode P A : Type}
     intro c hce hR
     exact hRoot c (hSupport c n hce hc hn hR)
   refine ⟨b, e, n, he, hb, ha, hc, hn, hNec, hRoot, hNo, ?_⟩
-  have hNN := TruthCore.Results.Causality.UnderivedEssenceEsse.actual_not_not_identity_direct
-    m.ontic R w p n hn hNo hInAct hPresent hTyped hExhaustive hNoSelfCause
-  cases hEM (p.esseOf n = p.essenceOf n) with
-  | inl h => exact h
-  | inr h => exact False.elim (hNN h)
+  exact TruthCore.Results.Causality.UnderivedEssenceEsse.actual_identity_direct
+    m.ontic R w p n hn hNo hEM hInAct hPresent hTyped hExhaustive hNoSelfCause
 /-- A necessary bearer need not itself be the minimal ancestor. The root
 selection retained by the new helper, rather than necessity alone, matters. -/
 theorem recipient_control : NecessaryRecipientControl := by
