@@ -189,7 +189,7 @@ therefore cannot be bypassed by restoring a cached export after a dependency
 changes while statement IDs and declaration names remain fixed.
 
 
-## Current handoff: bounded corpus migration
+## Prior delivery: complete classical attributes (#730)
 
 Prompt 3 continuation from integrated main
 `ea537f38d664ceb21dcc8afc1ab9a4b6b7814d4c` (#728/#729), branch
@@ -244,3 +244,74 @@ the distinction from the First Way's particular existence disjunction. The
 unrestricted strict causal ascent, sufficiency/naming/first-being bridges and
 formal/eminent interpretation remain open. Do not expand this audit into a
 claim of whole-corpus migration or renewed source fidelity.
+
+
+## Current handoff: bounded corpus migration
+
+Naming/identity continuation from integrated #730 main
+`e634f01f6f77a8592f256cd72548ffa299a49613`, branch
+`refactor/naming-first-mover-route`. Verified implementation revision:
+`9e22dd5ea66103846c5c50e317855461c7d7487c`; the following handoff-only commit
+does not change checked inputs. The delivery PR records its exact delivered head,
+final CI run and completed current-head review.
+
+Scope is **six legacy bundles**: full-description naming, first-mover identity,
+Stage1 full-description, original same-witness consumer, Prima root composition,
+and `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`. The
+[bounded self-sweep](notes/naming-first-mover-migration.md) and
+[exact inventory](notes/naming-first-mover-migration.json) persist 146 initial
+record dispositions plus 15 new argument/inference/result records for five
+separately frozen equality interfaces: **161 records**. Reuse #730's unchanged
+attribute/source/control evidence and same-witness expression contract. All six
+legacy Challenges **and Solutions** remain byte-identical. The first-mover
+argument gains existing semantic links; no statement or source claim changes.
+
+The audit binds description-to-God only, supplied f/m identity, transported
+maximality and the same named/attributed f through the root route. Neither naming
+nor identity supplies existence. Maximum uniqueness alone cannot establish
+original IsGod uniqueness. The retained God-to-maximality premise matches #730's
+attribute identity interface, which the alternative consumer imports without
+strengthening its original inputs. All causal, first-being, naming and field
+bridge directions are preserved. The historical end remains a structural
+transcription under its original open bridges.
+
+The two new bridge variants use explicit `DecidableEq Being`; three composition
+variants additionally use `DecidableEq Principle`. Same-witness/Prima variants
+retain `FirstUnmovedMoverExistsOrNot`; the efficient-regress variant adds that
+explicit hypothesis when dropping full EM. All other proposition inputs remain
+(7/5/30/37/38 respectively). Equality instances are assumptions outside frontier
+proposition counts; neither is established. There is no minimality, necessity,
+strict-strength or existence-disjunction replacement certificate.
+
+Verified implementation evidence: library build; corpus and complete binding
+(648 bound, two pinned, zero mismatch); ten isolated frozen Challenge/Solution
+contracts and ten result Comparator/NanoDa checks with zero permitted axioms;
+new inhabited no-existence control; six focused audit, 35 impact and five
+structure tests. Inspector input includes the two bridge conclusions, naming
+premise and existence disjunction; existing presentation/verification authorities
+remain separate. Production browser acceptance is recorded in the delivery PR.
+Final CI retains all required integration, source, Comparator and NanoDa checks.
+No unchanged source checks or full dependency reviews are repeated locally.
+
+Intended/actual philosophical premise discharge: **none**. All 63 root-reaching
+open-premise identities and all eight legacy route rows remain unchanged;
+designated cost stays 40. Registration adds two alternative root rows at costs
+39/40 with 37/38 proposition inputs; these counts exclude their two equality
+instances. Root selection is unchanged. The existing attempt retains findings,
+rejected inferences and the exact audit references. No new source-fidelity
+question was discovered within this structural review; existing q.105 translation
+basis, formal/eminent compatibility, strict causal ascent, perfections,
+first-being, naming sufficiency/converse, primitive attributes and
+historical/authority burdens remain open.
+
+No installed convention artifacts exist; none was installed or updated. No
+service setup was supplied; documented CLI fallback was used, with no health or
+service-experiment claim. Cross-lane work is limited to necessary lane C audit,
+contract/fixture/impact and inspector/explorer presentation files and this
+handoff; no lane B proof is changed. Stop at this coherent route.
+
+Next substantive question: which retained causal or naming bridge can
+discriminate the strongest surviving rival on this route? That investigation,
+other root routes and new source work belong to the next bounded task. Next
+concrete delivery step, if CI/review is pending in the PR: wait for the required
+checks and delivered-head review, fixing concrete findings only.
