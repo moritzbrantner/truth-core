@@ -1,0 +1,24 @@
+{
+  "id": "TARGET-COPY-ENTAILING-EXPANSION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
+  "inference_ids": [
+    "INF-TARGET-COPY-ENTAILING-EXPANSION"
+  ],
+  "meaning": "Construct copied reason truth from the target concrete-existence condition while preserving the full Profile. Prove existing soundness, coverage and NecessitatesExistenceAt by construction. Expand an arbitrary original profile and project to establish universal-validity conservativity. Compute source counts on the common actual Nat arena, apply the existing successorChainNotWellFounded theorem for the source-free case, and compare copied reasons for targets0 and1 to refute one common memberwise token. No direction or adequacy of actual explanation follows from the copied truth condition.",
+  "definition_ids": [
+    "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

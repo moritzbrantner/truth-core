@@ -1,0 +1,10 @@
+{
+  "id": "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "argument_id": "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "challenge_module": "TruthCore.Results.Causality.TemporalActualization.Reciprocal.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalActualization.Reciprocal.consume",
+  "comparator_config": "results/RECIPROCAL-EVENT-RESPECT-CONSTRAINT/comparator.json",
+  "status": "solution-present",
+  "description": "Apply imported TEMPORAL-DIRECTION-FRAMEWORK at the same clock/relation. The strict horn contradicts reciprocal event edges via its finite-cycle theorem. The backward horn contradicts the explicit NoBackward premise. In the remaining non-backward/simultaneous horn the reciprocal edges must have equal exercise times. At that same time, import CONSECUTIVE-MOVER-RESPECTS and feed the two projected canonical mover edges plus the four lifted local premises; the event respects must differ. Thus the two branches inconsistent with the supplied reciprocal pair and NoBackward are conditionally excluded, while the simultaneous alternating-respect branch has a joint control in TEMPORAL-ACTUALIZATION-CONTROLS. None of these premises is independently established. Intended and actual root-route/open-premise delta zero; STMT-NO-INFINITE-PER-SE-MOVER-SERIES remains open. Interactive development evidence is not final verification: delivered-head build, binding, Comparator and NanoDa remain required."
+}

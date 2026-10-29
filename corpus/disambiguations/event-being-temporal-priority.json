@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+  "term": "event causation, entity feedback, simultaneity and sustaining priority",
+  "sense_definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION"
+  ],
+  "resolution": "The clock map refers to selected exercise instants of particular tokens, not the existence-time of their bearers or completion of the whole cause process. A₀→B₁→A₂ is feedback between beings but no event cycle. NoBackward permits simultaneous circles; StrictForward excludes finite event cycles but permits infinite upstream descent. Sustaining is a separate relation whose mathematical control has the same extension as the simultaneous circle only by stipulation. A common linear clock and the canonical motion projection are open interpretation choices. Passage, presentism/eternalism, actual realization, source fidelity and explanatory sufficiency are not decided."
+}

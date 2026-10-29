@@ -1,0 +1,20 @@
+{
+  "id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
+  "paraphrase": "Every existing concrete-grounding Profile admits an expansion preserving its entire reality and satisfying sound local coverage plus modal necessitation of each target by every admitted reason. A property of the original Profile is universally valid over those expansions iff it was valid over all original profiles. In one common inhabited two-world, rigid-Nat arena, unique-source, exactly-two-source and source-free non-well-founded dependence assignments all have such expansions; no single copied token covers every individual. The reasons literally repeat their targets’ concrete existence, so this is a failed modal-sufficiency discriminator, not independently adequate explanation or a denial of totality explanation.",
+  "lean_declaration": "TruthCore.Explanation.TargetCopyExpansion.Certificate",
+  "definition_ids": [
+    "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
+    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

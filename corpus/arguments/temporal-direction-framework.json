@@ -1,0 +1,25 @@
+{
+  "id": "TEMPORAL-DIRECTION-FRAMEWORK",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
+  "inference_ids": [
+    "INF-TEMPORAL-DIRECTION-FRAMEWORK"
+  ],
+  "meaning": "For every event carrier, linearly ordered time carrier, clock and causal relation, exactly one of these semantic horns holds: every edge is strictly forward; all edges are non-backward and at least one is simultaneous; or at least one edge is backward. Coverage and pairwise incompatibility are separately certified. In the strict horn no nonempty finite directed event walk returns to its start. No populated carrier, actual chronology, theory of passage, well-foundedness, physical possibility or exhaustive list of named metaphysical theories is asserted.",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

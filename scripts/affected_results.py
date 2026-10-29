@@ -75,6 +75,7 @@ EXPLORER_INPUT_PATTERNS = (
     "bun.lock",
     "turbo.json",
     "scripts/corpus.py",
+    "scripts/research_index.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
     "scripts/finite_models.py",
