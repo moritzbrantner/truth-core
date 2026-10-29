@@ -79,6 +79,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/expression_contracts.py",
     "scripts/contracts/*.json",
     "docs/notes/classical-attributes-migration.json",
+    "docs/notes/classical-attributes-all-migration.json",
     "scripts/research_index.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",

@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / 'docs/notes/classical-attributes-migration.json'
+AUDITS = (AUDIT, ROOT / 'docs/notes/classical-attributes-all-migration.json')
 
 
 def records(root):
@@ -43,6 +44,12 @@ def check(root=ROOT, audit=None):
         raise ValueError('missing reviewed expression contract for the audited result')
     index = records(root)
     expected = expected_scope(index, audit['result_id'])
+    for rid in audit.get('consumer_result_ids', []):
+        related = contracts().get(rid)
+        if related is None or related['baseline_revision'] != audit['base_head']:
+            raise ValueError('missing reviewed expression contract for a scoped consumer')
+        for kind, ids in expected_scope(index, rid).items():
+            expected[kind].update(ids)
     actual = {kind: set() for kind in expected}
     for row in audit['records']:
         kind, rid = row['kind'], row['id']
@@ -64,5 +71,6 @@ def check(root=ROOT, audit=None):
 
 
 if __name__ == '__main__':
-    checked = check()
-    print(f"bundle audit: {len(checked['records'])} exact record dispositions; semantic adequacy remains reviewed")
+    for path in AUDITS:
+        checked = check(audit=json.loads(path.read_text()))
+        print(f"{checked['result_id']}: {len(checked['records'])} exact record dispositions; semantic adequacy remains reviewed")

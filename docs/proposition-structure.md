@@ -191,39 +191,56 @@ changes while statement IDs and declaration names remain fixed.
 
 ## Current handoff: bounded corpus migration
 
-Base `3cd9545a75c975314ea9ebd146d9757bbb754158`; branch
-`refactor/classical-attributes-contract`. Verified implementation head:
-`b188ed41b0bcb858cfe339937fc550fb8c9685d6`; this handoff follow-up changes only
-documentation. The delivered PR records its current head and final CI. This slice migrates only
-`CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES`: 69 explicitly accounted records, with
-one complete-expression result contract. The [audit and claim/type sweep](notes/classical-attributes-migration.md)
-link its exact before-state, disposition inventory and persisted attempt.
-The earlier strength delivery and evidence above remain intact.
+Prompt 3 continuation from integrated main
+`ea537f38d664ceb21dcc8afc1ab9a4b6b7814d4c` (#728/#729), branch
+`refactor/classical-attributes-all`. The delivery PR records the exact final
+head and CI identity. Verified implementation revision:
+`e6df0bc9f2acdc57025da620ed0d53f983574f88`; this handoff follow-up changes
+only documentation. This is one bounded migration: ALL, its three immediate same-witness
+consumers, and a separate identity-decision interface. The prior 69-record
+[audit](notes/classical-attributes-migration.md) remains valid reused evidence;
+the [new audit/self-sweep](notes/classical-attributes-all-migration.md) and
+[inventory](notes/classical-attributes-all-migration.json) account for 146
+existing records plus three new argument/inference/result records.
 
-The source claim retains its original confession reading; corrected prose stops
-calling the open one-way attributes bridge a definition. `IsImmutable` reuses
-`PureAct` with checked original-body preservation; a named nine-attribute
-conjunction has checked equivalence with the original curried bridge. The frozen
-Challenge stays unchanged. Standard `bind-check` enforces the selected complete
-expression and its 28 project dependencies. Record coverage/freshness is checked
-by `scripts/bundle_audit.py` and CI. Neither checker decides philosophical
-adequacy. Root-route premise identities and costs remain unchanged.
+All four existing Challenges and interfaces remain unchanged. Five complete
+expression contracts bind the specialized `IsImmutable InPotency`, every other
+attribute application, original signature/carriers and shared witnesses.
+The nine-attribute conjunction implies the primitive field only through the
+open sufficiency bridge. The God-to-maximality converse remains explicit in
+ALL and the two original witness consumers; Q11-NATURE retains its three
+alternative uniqueness premises. The disambiguation note now states that
+exception. Preexistence has the existing term links added. No source reading
+or philosophical interpretation changes.
 
-The initial delivered CI exposed two tooling integration defects: the explorer
-impact planner omitted the new audit/contract inputs, and a schema-registration
-test mocked all JSON reads as its saved Lean response. Added the exact build
-inputs and restricted the mock to its fixture; the affected 5 schema and 35
-impact-planning tests pass. Proof/source inputs and the recorded philosophical
-comparison are unchanged. Final delivered CI remains required.
+The separate `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY` proves the same
+universal conditional field with explicit `DecidableEq σ.Being` and
+`DecidableEq Principle`, retaining the other 18 original premises. Comparator
+and NanoDa accept it with zero permitted axioms. This is a sufficient interface,
+not a necessity/minimality result, assertion of either equality instance, or
+root premise discharge. Legacy EM interfaces and the First Way's separate
+existence disjunction remain unchanged. Same-witness controls reject combining
+unrelated existentials and deriving God uniqueness from a unique maximum alone.
 
-No local service endpoint/workspace/session was configured for this task; the
-existing documented CLI fallback was used. There was no service experiment or
-service-verification evidence in this slice.
+Verified: library build, corpus/binding, five isolated contract comparisons,
+five result Comparator/NanoDa checks, specialized controls and focused
+contract/audit/impact tests. Source evidence is reused from #729 because source
+inputs are unchanged; final CI retains its required integration coverage.
+Explorer production export and all three bounded-audit/structure browser tests
+pass (66 assertions): all five pages, desktop inspection, touch expansion at
+390px and no horizontal overflow. Current-head review/final CI status is recorded
+in the delivery PR.
+Root-reaching premise identities and eight route costs are unchanged:
+`31, 32, 36, 38, 39, 39, 40, 41`; designated route remains cost 40. Dependency
+counts/order change only because the alternative argument is registered.
 
-Next concrete migration: `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL`, then its
-same-witness consumers. Inspect and bind the specialized `IsImmutable InPotency`
-and attribute applications, retain the nine-to-field bridge and naming converse,
-and test whether identity decidability can replace full excluded middle in new
-weaker results. Preserve old Challenges and prior evidence. Do not treat the
-present audit as having covered those additional results or recursively
-certified all source readings.
+No service endpoint/workspace/session was supplied. The documented CLI fallback
+was used; no service experiment or service-health evidence is claimed.
+
+Next coherent migration: `MaximeEnsIsGodViaFullDescription` and
+`FirstMoverIsMaximeEns`, then immediate root compositions. Bind their naming and
+identity transports, check separate equality-decision interfaces, and preserve
+the distinction from the First Way's particular existence disjunction. The
+unrestricted strict causal ascent, sufficiency/naming/first-being bridges and
+formal/eminent interpretation remain open. Do not expand this audit into a
+claim of whole-corpus migration or renewed source fidelity.

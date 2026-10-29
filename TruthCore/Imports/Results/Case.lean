@@ -34,6 +34,7 @@ import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesThroughGroupTwo.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution
