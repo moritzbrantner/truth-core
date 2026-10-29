@@ -1,0 +1,10 @@
+{
+  "id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "argument_id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ethics.MoralAccessFibers.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.MoralAccessFibers.Solution",
+  "theorem": "TruthCore.Results.Ethics.MoralAccessFibers.certificate",
+  "comparator_config": "results/MORAL-ACCESS-FIBER-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Four finite moral-access controls by reuse of the exact criterion. Thin and restricted equal-data witnesses obstruct exact classification; natural-basis enrichment and categorical restriction admit it; a one-way sufficient bridge gives positive certification while leaving an unresolved fiber. All are stipulated stress assignments, not real-world possibility claims, actual moral knowledge or categorical reason. Intended and actual root-premise change: none."
+}

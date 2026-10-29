@@ -1,0 +1,17 @@
+{
+  "id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MORAL-ACCESS-FIBER-CONTROLS",
+  "inference_ids": [
+    "INF-MORAL-ACCESS-FIBER-CONTROLS"
+  ],
+  "meaning": "Instantiates the existing exact criterion to distinguish missing observational discrimination from open constitutive, categorical and sufficient normative bridges. No moral account or actual moral proposition is established or refuted.",
+  "definition_ids": [
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+    "DEF-MORAL-ACCESS-FIBER-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

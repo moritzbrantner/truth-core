@@ -1,0 +1,9 @@
+{
+  "id": "INF-MORAL-ACCESS-FIBER-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MORAL-ACCESS-FIBER-CONTROLS",
+  "rule": "instantiate-existing-exact-classification-theorem-on-explicit-restricted-types",
+  "meaning": "Imports CorrectionCriterion.characterization and applies its equivalence to four explicit state spaces. Equal data with opposite supplied prohibition refute exact classification. The basis equality transports prohibition on the natural-basis subtype. Constant truth on the categorical subtype admits classification despite an erroneous report. The one-way subtype keeps the false-basis opposite-prohibition pair. The philosophical bridges are defined model restrictions, not established premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
