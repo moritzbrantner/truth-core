@@ -1,0 +1,9 @@
+{
+  "id": "INF-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "rule": "explicit-model-and-theorem-composition",
+  "meaning": "Verify finite controls by their definitions; import strict acyclicity, the reciprocal fork consequence, the original successor-chain non-accessibility proof, and unchanged TEMPORAL-EVENT-CAUSAL-CONTROLS. The controls are jointly certified internally, not a single world containing every mutually exclusive profile.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

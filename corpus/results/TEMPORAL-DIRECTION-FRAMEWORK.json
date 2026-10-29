@@ -1,0 +1,10 @@
+{
+  "id": "TEMPORAL-DIRECTION-FRAMEWORK",
+  "argument_id": "TEMPORAL-DIRECTION-FRAMEWORK",
+  "challenge_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalActualization.Framework.framework",
+  "comparator_config": "results/TEMPORAL-DIRECTION-FRAMEWORK/comparator.json",
+  "status": "solution-present",
+  "description": "For every event carrier, linearly ordered time carrier, clock and causal relation, exactly one of these semantic horns holds: every edge is strictly forward; all edges are non-backward and at least one is simultaneous; or at least one edge is backward. Coverage and pairwise incompatibility are separately certified. In the strict horn no nonempty finite directed event walk returns to its start. No populated carrier, actual chronology, theory of passage, well-foundedness, physical possibility or exhaustive list of named metaphysical theories is asserted. Interactive development evidence is not final verification: delivered-head build, binding, Comparator and NanoDa remain required."
+}

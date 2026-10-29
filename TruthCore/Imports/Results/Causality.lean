@@ -44,6 +44,9 @@ import TruthCore.Results.Causality.SupertaskOscillation.Solution
 import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
+import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
+import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
+import TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solution
 import TruthCore.Results.Causality.TemporalEventControls.Solution
 import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution

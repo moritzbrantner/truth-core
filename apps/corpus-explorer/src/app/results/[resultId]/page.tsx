@@ -6,6 +6,7 @@ import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { StatementLink } from "@/components/statement-link";
 import { TermsSection } from "@/components/terms-section";
 import { claimsForResult, comparatorForResult, findResult, findStatement, getCorpus } from "@/lib/corpus";
+import { forkUses } from "@/lib/fork-use";
 import { theoremInModule } from "@/lib/lean-source";
 import { TRANSCRIPTION_KIND_DESCRIPTIONS, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
 
@@ -58,6 +59,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
     arguments: projectionArguments,
     verified_argument_ids: corpus.results.map((entry) => entry.argument_id).filter((id) => reachable.has(id)),
   };
+  const appliedForks = forkUses(corpus, result);
   const heuristic = kind.flag && kind.kind === "derivation";
 
   return (
@@ -189,6 +191,44 @@ export default async function ResultPage({ params }: ResultPageProps) {
           <dd>Comparator, NanoDa and the premise binding check run on every change before it merges to main.</dd>
         </dl>
       </section>
+
+      {appliedForks.length ? (
+        <section aria-label="Fork applied here" className="record-section max-w-4xl">
+          <p className="eyebrow">Fork applied here</p>
+          <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">Certified case-split inputs</h2>
+          <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+            These declared disjunction-elimination steps consume the exact result inputs below.
+            Follow the coverage result to inspect its theorem, background and branch scope;
+            the advertised theorem above binds this use and its remaining premises.
+          </p>
+          {appliedForks.map(({ step, evidence }) => (
+            <div className="mt-6 border-l-2 border-[var(--accent)] pl-4" key={step.id}>
+              <p className="font-mono text-xs break-all">{step.id}</p>
+              <p className="mt-3 text-sm leading-6">{step.meaning}</p>
+              <ul className="mt-4 space-y-3">
+                {evidence.map((producer) => (
+                  <li key={producer.id}>
+                    <Link className="link-quiet font-mono text-xs break-all" href={`/results/${producer.id}`}>
+                      {producer.id}
+                    </Link>
+                    <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{producer.theorem}</p>
+                    <p className="mt-1 text-sm text-[var(--muted)]">
+                      Advertised premises: {producer.argument.premise_statement_ids.length
+                        ? producer.argument.premise_statement_ids.join(", ")
+                        : "none; inspect the theorem’s explicit quantified background"}.
+                    </p>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 text-sm">
+                Branch consequence: <Link className="link-quiet font-mono text-xs break-all" href={`/statements/${step.output_statement_id}`}>
+                  {step.output_statement_id}
+                </Link>
+              </p>
+            </div>
+          ))}
+        </section>
+      ) : null}
 
       <section className="record-section">
         <p className="eyebrow">Argument composition</p>
