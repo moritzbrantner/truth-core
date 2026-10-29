@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MORAL-ACCESS-FIBER-CONTROLS",
+  "paraphrase": "Four analyst access controls for whether deliberately killing an innocent person in a specified case is prohibited: unrestricted Boolean norm assignments have no exact outward-data criterion; equating prohibition with a supplied basis assessment still leaves outward reports insufficient but admits exact enriched-data classification; an explicit categorical-prohibition restriction admits even a constant exact classifier and an erroneous report; a one-way sufficient-basis restriction supports positive certification but no exact enriched-data classifier on its residual fiber. These restricted classes are not complete moral theories or assertions of metaphysically possible worlds; no actual norm, knowledge, permission or categorical reason is established.",
+  "lean_declaration": "TruthCore.Ethics.MoralAccessFibers.Controls",
+  "definition_ids": [
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+    "DEF-MORAL-ACCESS-FIBER-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}
