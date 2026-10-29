@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-CAUSE-SEPARATOR",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
+  "rule": "typed_strength_comparison",
+  "meaning": "The specified identity-only Bool setting satisfies W and not S under exactly the same empty background and decidable identity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

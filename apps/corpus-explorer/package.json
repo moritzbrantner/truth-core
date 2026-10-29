@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test:browser": "bun --max-http-header-size=65536 test tests/*.browser.test.ts",
     "configuration-inputs": "python3 ../../scripts/corpus.py configuration-report --build-input",
-    "structure-inputs": "python3 ../../scripts/worker_env.py -- python3 ../../scripts/corpus.py structure-report --build-input"
+    "structure-inputs": "python3 ../../scripts/worker_env.py -- python3 ../../scripts/corpus.py structure-report --build-input",
+    "strength-inputs": "python3 ../../scripts/worker_env.py -- python3 ../../scripts/corpus.py strength-report --build-input"
   },
   "dependencies": {
     "@xyflow/react": "latest",

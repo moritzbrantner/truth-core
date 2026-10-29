@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { ArgumentFlow } from "@/components/argument-flow";
+import { StrengthComparisons } from "@/components/strength-comparisons";
+import { comparisonsForResult, getStrengthComparisons } from "@/lib/strength-comparisons";
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { StatementLink } from "@/components/statement-link";
 import { TermsSection } from "@/components/terms-section";
@@ -75,6 +77,8 @@ export default async function ResultPage({ params }: ResultPageProps) {
         {conclusion?.paraphrase ?? argument.conclusion_statement_id}
       </h1>
       <p className="mt-6 max-w-4xl text-lg leading-8 text-[var(--muted)]">{result.meaning}</p>
+
+      <StrengthComparisons comparisons={comparisonsForResult(getStrengthComparisons(), result.id)} />
 
       <aside className="mt-10 max-w-4xl border-l-2 border-[var(--accent)] bg-[var(--callout)] px-5 py-5 text-sm leading-6 text-[var(--muted)]">
         {kind.kind === "transcription" ? (

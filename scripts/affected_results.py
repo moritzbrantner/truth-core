@@ -83,6 +83,8 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/configuration_explorer.py",
     "scripts/proposition_structure.py",
     "scripts/PropositionStructure.lean",
+    "scripts/strength_comparisons.py",
+    "scripts/CheckStrength.lean",
     "scripts/territory.py",
     "scripts/root_imports.py",
     "scripts/testdata/objective-truth-pilot.json",

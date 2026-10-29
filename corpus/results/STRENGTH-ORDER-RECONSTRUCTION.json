@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "argument_id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthOrder.reconstruction",
+  "comparator_config": "results/STRENGTH-ORDER-RECONSTRUCTION/comparator.json",
+  "status": "solution-present",
+  "description": "Apply pinned Mathlib lt_of_le_of_ne with the correctly oriented inequality in the same supplied LinearOrder. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

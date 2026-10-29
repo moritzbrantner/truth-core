@@ -15,12 +15,26 @@
         "TRUTH_CORE_CONFIGURATION_REPORT",
         "TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT",
         "TRUTH_CORE_STRUCTURE_REPORT",
-        "TRUTH_CORE_REQUIRE_STRUCTURE_REPORT"
+        "TRUTH_CORE_REQUIRE_STRUCTURE_REPORT",
+        "TRUTH_CORE_STRENGTH_REPORT",
+        "TRUTH_CORE_REQUIRE_STRENGTH_REPORT"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
         "$TURBO_ROOT$/.cache/configuration-explorer.json",
-        "$TURBO_ROOT$/.cache/proposition-structure.json"
+        "$TURBO_ROOT$/.cache/proposition-structure.json",
+        "$TURBO_ROOT$/.cache/strength-comparisons.json",
+        "$TURBO_ROOT$/TruthCore.lean",
+        "$TURBO_ROOT$/TruthCore/**/*.lean",
+        "$TURBO_ROOT$/corpus/**/*.json",
+        "$TURBO_ROOT$/results/**/comparator.json",
+        "$TURBO_ROOT$/scripts/*",
+        "$TURBO_ROOT$/verifier/Cargo.toml",
+        "$TURBO_ROOT$/verifier/Cargo.lock",
+        "$TURBO_ROOT$/verifier/src/**/*.rs",
+        "$TURBO_ROOT$/lean-toolchain",
+        "$TURBO_ROOT$/lakefile.toml",
+        "$TURBO_ROOT$/lake-manifest.json"
       ]
     },
     "dev": {

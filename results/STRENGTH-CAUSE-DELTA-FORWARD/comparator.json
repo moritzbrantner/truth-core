@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.StrengthCause.deltaForward"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

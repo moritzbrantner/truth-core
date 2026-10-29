@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "argument_id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.equivalence",
+  "comparator_config": "results/STRENGTH-CAUSE-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the implication, delta-forward and reconstruction proofs under the same explicit decidable-identity parameter. This equates the strong principle with W and D, not S with W alone. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

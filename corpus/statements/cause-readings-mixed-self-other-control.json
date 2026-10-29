@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+  "paraphrase": "The Bool relation containing every pair satisfies the local alternative-cause condition and also contains self-causation; the condition is not global causal irreflexivity.",
+  "lean_declaration": "TruthCore.Logic.Strength.Cause.MixedSelfAndOtherAllowed",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

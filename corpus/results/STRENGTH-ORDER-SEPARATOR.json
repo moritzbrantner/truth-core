@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-ORDER-SEPARATOR",
+  "argument_id": "STRENGTH-ORDER-SEPARATOR",
+  "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthOrder.separator",
+  "comparator_config": "results/STRENGTH-ORDER-SEPARATOR/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit Nat setting x=y=0 satisfies W and not S with the same empty background and Nat LinearOrder. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

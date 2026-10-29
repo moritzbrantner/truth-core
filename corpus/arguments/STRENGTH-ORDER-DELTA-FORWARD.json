@@ -1,0 +1,14 @@
+{
+  "id": "STRENGTH-ORDER-DELTA-FORWARD",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-ORDER-GREATER"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "inference_ids": [
+    "INF-STRENGTH-ORDER-DELTA-FORWARD"
+  ],
+  "meaning": "Apply pinned Mathlib ne_of_gt to the same ordered x,y.",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

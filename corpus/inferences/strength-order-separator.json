@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-ORDER-SEPARATOR",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRENGTH-ORDER-ZERO-SEPARATOR",
+  "rule": "typed_strength_comparison",
+  "meaning": "The explicit Nat setting x=y=0 satisfies W and not S with the same empty background and Nat LinearOrder.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

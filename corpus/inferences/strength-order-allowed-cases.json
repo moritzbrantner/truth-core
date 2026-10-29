@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-ORDER-ALLOWED-CASES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRENGTH-ORDER-ALLOWED-CASES",
+  "rule": "typed_strength_comparison",
+  "meaning": "Use pinned Mathlib le_iff_lt_or_eq and equality symmetry to obtain y ≥ x iff y > x or y = x. This disjunction selects no branch.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

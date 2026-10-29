@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ExpressionNode, StructureReport } from "@/lib/proposition-structure";
 
 /** Presentation only: ordered edges remain ordered, including implicit arguments. */
-function Expression({ node, role, scope }: { node: ExpressionNode; role: string; scope: string }) {
+export function Expression({ node, role, scope }: { node: ExpressionNode; role: string; scope: string }) {
   const address = `${scope}:${node.id}`;
   return (
     <details className="mt-2 min-w-0 border-l border-[var(--line)] pl-3" id={address} data-expression-kind={node.kind}>

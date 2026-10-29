@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-IMPLICATION",
+  "argument_id": "STRENGTH-CAUSE-IMPLICATION",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.implication",
+  "comparator_config": "results/STRENGTH-CAUSE-IMPLICATION/comparator.json",
+  "status": "solution-present",
+  "description": "With shared decidable identity, generation predicate and cause relation, drop only distinctness from the same existential cause witness. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

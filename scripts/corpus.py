@@ -2066,6 +2066,13 @@ def validate() -> dict[str, int]:
     result_records = {key: value[1] for key, value in result_index.items()}
     for path, relation in relations:
         validate_schema_registration(path, relation, result_records, result_configs)
+        if relation.get("predicate") == "strength_comparison":
+            from strength_comparisons import validate_registration
+            try:
+                validate_registration(relation, {sid: record for sid, (_, record) in statement_index.items()},
+                                      result_records, {aid: record for aid, (_, record) in argument_index.items()}, result_configs)
+            except ValueError as exc:
+                raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
 
     unused = sorted(definition_ids - used_definitions)
     if unused:
@@ -2832,6 +2839,36 @@ def command_configuration_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_strength_comparisons(args: argparse.Namespace) -> int:
+    from strength_comparisons import context, projection, read_bundle, verify, write_bundle
+    try:
+        data = context(ROOT, load_dir)
+        if args.command == "strength-report":
+            output = Path(args.output)
+            output = output if output.is_absolute() else ROOT / output
+            bundle = read_bundle(ROOT, output, data) if args.check_input else write_bundle(ROOT, output, data)
+            if args.json:
+                print(json.dumps({**bundle, "producer": {k: v for k, v in bundle["producer"].items() if k != "inputs"}}, ensure_ascii=False))
+            else:
+                print(f"strength report: {len(bundle['comparisons'])} comparisons; {bundle['producer']['input_digest']}")
+                print("Producer freshness validated; no fresh proof execution." if args.check_input else "Existing result verifiers and complete application binding passed.")
+            return 0
+        selected = data["comparisons"]
+        if args.comparison_id:
+            selected = [r for r in selected if r["id"] == args.comparison_id]
+            if not selected:
+                raise ValueError(f"unknown registered comparison: {args.comparison_id}")
+        reports = [projection(r, data) for r in selected] if args.registered else verify(ROOT, data, selected)
+        if args.json:
+            print(json.dumps(reports, ensure_ascii=False))
+        else:
+            for report in reports:
+                print(f"{report['id']}: {report['comparison_status']}; {report['delta_status']}; converse {report['converse_status']}")
+        return 0
+    except (ValueError, OSError, KeyError, TypeError) as exc:
+        raise CorpusError(str(exc)) from exc
+
+
 def registered_models(statement_index=None):
     if statement_index is None:
         statement_index = index_by_id(load_dir("statements"), "statement")
@@ -3073,6 +3110,17 @@ def parser() -> argparse.ArgumentParser:
     report_mode.add_argument("--check", metavar="PATH", help="check trusted producer output freshness/projection; does not rerun proofs")
     configuration_report_parser.add_argument("--json", action="store_true")
     configuration_report_parser.set_defaults(func=command_configuration_report)
+    strength = sub.add_parser("strength-comparisons", help="verify selected registered proposition-strength evidence")
+    strength.add_argument("comparison_id", nargs="?")
+    strength.add_argument("--json", action="store_true")
+    strength.add_argument("--registered", action="store_true", help="provenance only; no proof verdicts")
+    strength.set_defaults(func=command_strength_comparisons)
+    strength_report = sub.add_parser("strength-report", help="produce or freshness-check disposable certified strength presentation")
+    strength_report.add_argument("--output", default=".cache/strength-comparisons.json")
+    strength_report.add_argument("--build-input", action="store_true", help="produce the registered static slice")
+    strength_report.add_argument("--check-input", action="store_true", help="validate producer freshness without rerunning proofs")
+    strength_report.add_argument("--json", action="store_true")
+    strength_report.set_defaults(func=command_strength_comparisons)
     configurations = sub.add_parser("configurations", help="compose explicit configurations with live certified cores/models")
     configurations.add_argument("--case", metavar="CONFIG-ID")
     configurations.add_argument("--seed", metavar="STMT-ID")

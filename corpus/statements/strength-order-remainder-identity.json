@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "paraphrase": "For every mathematical linear order and shared x,y, equality y = x is exactly the remainder y ≥ x and not y > x.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.RemainderLaw",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

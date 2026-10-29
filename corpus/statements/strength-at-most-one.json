@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-AT-MOST-ONE",
+  "paraphrase": "For an arbitrary supplied type and predicate P, any two witnesses satisfying P are equal; existence is not asserted.",
+  "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.AtMostOne",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-ORDER-EQUIVALENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
+  "rule": "typed_strength_comparison",
+  "meaning": "Compose all three obligations to obtain y > x iff y ≥ x and y ≠ x under the same mathematical LinearOrder.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

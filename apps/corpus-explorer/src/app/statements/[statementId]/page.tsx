@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { PropositionStructure } from "@/components/proposition-structure";
 import { getStructureReport } from "@/lib/proposition-structure";
+import { StrengthComparisons } from "@/components/strength-comparisons";
+import { comparisonsForStatement, getStrengthComparisons } from "@/lib/strength-comparisons";
 import { notFound } from "next/navigation";
 
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
@@ -60,6 +62,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
       <h1 className="mt-5 font-serif text-4xl leading-[1.02] tracking-[-0.04em] sm:text-5xl">{statement.paraphrase}</h1>
 
       <Link className="link-quiet mt-4 inline-block text-sm" href={`/dossiers/${statement.id}`}>Premise dossier and attempt log →</Link>
+
+      <StrengthComparisons comparisons={comparisonsForStatement(getStrengthComparisons(), statement.id)} />
 
       <section className="record-section">
         <p className="eyebrow">Where it stands</p>
