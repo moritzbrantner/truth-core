@@ -1,0 +1,16 @@
+{
+  "id": "INF-CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "input_statement_ids": [
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+    "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "Apply conditional uniqueness to distinct witnesses",
+  "meaning": "Imported conditional first-mover uniqueness contradicts explicit witnesses of two distinct first movers. All six assumptions use the same predicates and represented nature assignments. This is a conditional incompatibility; no member is selected for rejection, no bridge is defended and no root premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

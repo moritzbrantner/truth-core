@@ -1,0 +1,10 @@
+{
+  "id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "argument_id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "challenge_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Solution",
+  "theorem": "TruthCore.Results.Causality.ConstitutiveConfiguration.incompatible",
+  "comparator_config": "results/CONSTITUTIVE-NATURE-PLURALITY-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Imported conditional first-mover uniqueness contradicts explicit witnesses of two distinct first movers. All six assumptions use the same predicates and represented nature assignments. This is a conditional incompatibility; no member is selected for rejection, no bridge is defended and no root premise is discharged."
+}

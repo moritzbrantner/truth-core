@@ -1,0 +1,273 @@
+{
+  "id": "CONFIG-CONSTITUTIVE-PLURALITY",
+  "description": "Conditional incompatibility and six finite deletion witnesses; no premise is established and no root premise closes.",
+  "seed_statement_id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+  "semantics": {
+    "id": "constitutive-first-mover-shared-assignments",
+    "logic": "Constructive Lean, zero axioms.",
+    "frame": "One interpretation; no modal or time index.",
+    "domain": "Type carriers Being, Principle and Respect; explicit plurality witnesses distinct first movers.",
+    "identity": "Lean equality on candidates and represented natures; SAME InAct across perfection and alignment.",
+    "vocabulary": "CONSTITUTIVE-CONFIGURATION",
+    "modules": [
+      "TruthCore.Causality.ConstitutiveConfiguration"
+    ],
+    "parameters": [
+      {
+        "name": "Being",
+        "type": "Type"
+      },
+      {
+        "name": "Principle",
+        "type": "Type"
+      },
+      {
+        "name": "Respect",
+        "type": "Type"
+      },
+      {
+        "name": "Moved",
+        "type": "Being → Respect → Prop"
+      },
+      {
+        "name": "Moves",
+        "type": "Being → Being → Respect → Prop"
+      },
+      {
+        "name": "InAct",
+        "type": "Being → Respect → Prop"
+      },
+      {
+        "name": "suppositum",
+        "type": "Being → Principle"
+      },
+      {
+        "name": "essence",
+        "type": "Being → Principle"
+      },
+      {
+        "name": "content",
+        "type": "Principle → Respect → Prop"
+      }
+    ],
+    "parameter_order": [
+      "Being",
+      "Principle",
+      "Respect",
+      "Moved",
+      "Moves",
+      "InAct",
+      "suppositum",
+      "essence",
+      "content"
+    ],
+    "applications": {
+      "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE": [
+        "Being",
+        "Principle",
+        "suppositum"
+      ],
+      "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "suppositum",
+        "essence"
+      ],
+      "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct"
+      ],
+      "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves"
+      ],
+      "STMT-CONSTITUTIVE-CONTENT-COMPLETE": [
+        "Principle",
+        "Respect",
+        "content"
+      ],
+      "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct",
+        "essence",
+        "content"
+      ]
+    },
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "full-core",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    },
+    {
+      "id": "without-individual",
+      "statement_ids": [
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    },
+    {
+      "id": "without-nature",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    },
+    {
+      "id": "without-perfection",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    },
+    {
+      "id": "without-incomplete",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    },
+    {
+      "id": "without-misaligned",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE"
+      ]
+    },
+    {
+      "id": "without-positive",
+      "statement_ids": [
+        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "CONSTITUTIVE-NATURE-PLURALITY-CORE"
+  ],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-CONSTITUTIVE-INDIVIDUAL",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    },
+    {
+      "model_id": "MODEL-CONSTITUTIVE-NATURE",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    },
+    {
+      "model_id": "MODEL-CONSTITUTIVE-PERFECTION",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    },
+    {
+      "model_id": "MODEL-CONSTITUTIVE-INCOMPLETE",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    },
+    {
+      "model_id": "MODEL-CONSTITUTIVE-MISALIGNED",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    },
+    {
+      "model_id": "MODEL-CONSTITUTIVE-POSITIVE",
+      "parameters": {
+        "Being": "Being",
+        "Principle": "Principle",
+        "Respect": "Respect",
+        "Moved": "Moved",
+        "Moves": "Moves",
+        "InAct": "InAct",
+        "suppositum": "suppositum",
+        "essence": "essence",
+        "content": "content"
+      }
+    }
+  ]
+}

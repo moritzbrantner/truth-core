@@ -1,0 +1,36 @@
+{
+  "id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "premise_statement_ids": [
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+    "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-CONSTITUTIVE-NATURE-PLURALITY-CORE"
+  ],
+  "meaning": "Imported conditional first-mover uniqueness contradicts explicit witnesses of two distinct first movers. All six assumptions use the same predicates and represented nature assignments. This is a conditional incompatibility; no member is selected for rejection, no bridge is defended and no root premise is discharged.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

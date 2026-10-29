@@ -76,6 +76,18 @@ class ConfigurationTests(unittest.TestCase):
                 self.validate()
             self.case, self.models = saved_case, saved_models
 
+    def test_carrier_functions_are_allowed_but_proof_arguments_are_not(self):
+        self.case['semantics']['parameters'].append({'name': 'image', 'type': 'I → W'})
+        self.case['semantics']['parameter_order'].append('image')
+        for model in self.models.values():
+            model['bindings']['image'] = 'Fixture.image'
+        for binding in self.case['model_bindings']:
+            binding['parameters']['image'] = 'image'
+        self.validate()
+        self.case['semantics']['parameters'][-1]['type'] = 'Prop → W'
+        with self.assertRaises(ValueError):
+            self.validate()
+
     def test_certificate_type_uses_same_explicit_parameters_and_false(self):
         source = certificate_source(self.case, self.statements, self.results, self.arguments)
         self.assertIn('(@Fixture.P W) → (@Fixture.Q W) → False := by', source)
