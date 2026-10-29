@@ -33,19 +33,19 @@ universe u v
 This is the weakest maximal reading of *maxime tale*, not greatestness:
 no comparison with every other being, uniqueness or totality is asserted.
 The primitive `MoreIn` parameter is not itself given any order laws. -/
-def IsMaximalIn {Being : Sort u} {Respect : Sort v}
+def IsMaximumIn {Being : Sort u} {Respect : Sort v}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop) (r : Respect) (m : Being) : Prop :=
   InAct m r ∧ ∀ y, ¬ MoreIn r y m
 
-/-- Compatibility name for the existing source reading. The body is exactly
-`IsMaximalIn`; existing statement identities and theorem interfaces retain this
+/-- Canonical maximality name for the existing source reading. The body is exactly
+`IsMaximumIn`; existing statement identities and theorem interfaces retain their
 name. On a homogeneous preorder this corresponds to Mathlib `IsMax`, not
 `IsGreatest`. See `DISAMB-MAXIME-ENS`. -/
-def IsMaximumIn {Being : Sort u} {Respect : Sort v}
+def IsMaximalIn {Being : Sort u} {Respect : Sort v}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop) (r : Respect) (m : Being) : Prop :=
-  IsMaximalIn InAct MoreIn r m
+  IsMaximumIn InAct MoreIn r m
 
 /-- `c` is the cause of everything else in the genus `r` (*causa omnium quae sunt
 illius generis*): of every other thing that has `r`, `c` causes its being `r`.
