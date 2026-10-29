@@ -111,7 +111,11 @@ for (const mobile of [false, true]) {
     comparison.searchParams.delete("sel");
     comparison.searchParams.delete("obligation");
     for (const key of new Set(getPropositionGraph().statements.map((node) => node.clusters.passage))) { comparison.searchParams.append("open", key); }
-    await page.goto(comparison.toString());
+    // Every real passage cluster remains expanded. This share URL can exceed
+    // Bun's default 16 KiB request-header limit as the corpus grows; the browser
+    // test command gives the static fixture server a 64 KiB allowance.
+    const response = await page.goto(comparison.toString());
+    expect(response?.status()).toBe(200);
     await page.locator(".graph-node-statement").first().waitFor();
     await shell.scrollIntoViewIfNeeded();
     if (screenshots) { await shell.screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-layered.png` }); }
