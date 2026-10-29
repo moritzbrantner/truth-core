@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.implication",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-IMPLICATION/comparator.json",
+  "status": "solution-present",
+  "description": "Restrict the legacy cause/effect/perfection quantifiers to universal esse sources and distinct effects; all causal antecedents are retained. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md. The existing transcription detector classifies this direct scope projection as a transcription; it is not an independent causal defense."
+}

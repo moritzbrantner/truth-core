@@ -6,6 +6,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAna
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution

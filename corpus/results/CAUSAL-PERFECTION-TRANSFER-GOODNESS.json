@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.goodness",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-GOODNESS/comparator.json",
+  "status": "solution-present",
+  "description": "For each supplied God, use the explicit God-to-maximality premise, genus at esse, actuality-to-being and restricted transfer to derive causation of each other instantiated perfection; coextension of goodness and actuality gives goodness in esse. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

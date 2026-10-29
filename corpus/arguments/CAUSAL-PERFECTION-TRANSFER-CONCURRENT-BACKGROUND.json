@@ -1,0 +1,21 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CONCURRENT-TRANSFER-SEPARATES",
+  "inference_ids": [
+    "INF-CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND"
+  ],
+  "meaning": "Evaluate the finite concurrent causal table: the shared philosophical test background and narrower principle hold while the particular-source instance 1,3,skill falsifies unrestricted transfer.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

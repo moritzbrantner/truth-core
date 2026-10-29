@@ -1,0 +1,17 @@
+{
+  "id": "STMT-CONCURRENT-TRANSFER-SEPARATES",
+  "paraphrase": "The four-being concurrent interpretation jointly satisfies TransferModelBackground true, universal-scope transfer, and failure of unrestricted transfer. Source 0 causes both actualities of all others; particular source 1 causes recipient 3 at esse but not at skill; secondary producer 2 also causes recipient 3 at skill. This is an interpreted finite scope control, not a metaphysical possibility claim.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ConcurrentTransferSeparates",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

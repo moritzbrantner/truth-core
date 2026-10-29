@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.reducedDescription",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION/comparator.json",
+  "status": "solution-present",
+  "description": "For the supplied reduced description, apply restricted transfer using its independently supplied universal esse causation. Derive remoteness from first-being/no-component premises, then apply the retained full nominal premise. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}
