@@ -60,5 +60,17 @@ def Certificate : Prop :=
   ¬ ConstitutiveContentComplete actContent ∧
   ConstitutiveContentComplete separatingContent ∧
   ¬ FirstMoverContentAgreesWithAct moved moves inAct essence separatingContent
+/-- The existing positive witness's constitutive table, named so the finite
+model registry can bind the exact data without choosing from an existential
+proof. This is definitionally the former local table, not a new interpretation. -/
+def positiveContent : TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B →
+    TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R → Prop :=
+  TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.rec
+    (motive := fun _ => TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R → Prop)
+    (fun _ => True)
+    (TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R.rec (motive := fun _ => Prop) True False)
+    (fun _ => False)
+    (TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R.rec (motive := fun _ => Prop) False True)
+
 end Control
 end TruthCore.Causality.ConstitutiveNatureUniqueness

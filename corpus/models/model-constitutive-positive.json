@@ -1,0 +1,124 @@
+{
+  "id": "MODEL-CONSTITUTIVE-POSITIVE",
+  "description": "Finite deletion witness for the constitutive plurality core; this is a model-relative assignment, not metaphysical possibility or a premise discharge. The interpretation varies the indicated assignments; it does not claim the full original joint ontology.",
+  "vocabulary": "CONSTITUTIVE-CONFIGURATION",
+  "lean_declaration": "TruthCore.Models.ConstitutiveConfiguration.modelPositive",
+  "bindings": {
+    "Being": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B",
+    "Principle": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B",
+    "Respect": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R",
+    "Moved": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movedIn",
+    "Moves": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movesIn",
+    "InAct": "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.inAct",
+    "suppositum": "TruthCore.Models.ConstitutiveConfiguration.identityPositive",
+    "essence": "TruthCore.Models.ConstitutiveConfiguration.identityPositive",
+    "content": "TruthCore.Causality.ConstitutiveNatureUniqueness.Control.positiveContent"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.g",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.f",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.x",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.c"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumeratePositiveBeing"
+    },
+    {
+      "binding": "Principle",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.g",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.f",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.x",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B.c"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumeratePositiveBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R.heat",
+        "TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R.other"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumeratePositiveRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "suppositum"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positive0"
+    },
+    {
+      "statement_id": "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "suppositum",
+        "essence"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positive1"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positive2"
+    },
+    {
+      "statement_id": "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positivePlural"
+    },
+    {
+      "statement_id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+      "value": "satisfies",
+      "arguments": [
+        "Principle",
+        "Respect",
+        "content"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positive3"
+    },
+    {
+      "statement_id": "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct",
+        "essence",
+        "content"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.positive4"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.ConstitutiveConfiguration"
+  ]
+}

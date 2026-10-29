@@ -1,0 +1,127 @@
+{
+  "id": "MODEL-CONSTITUTIVE-INDIVIDUAL",
+  "description": "Finite deletion witness for the constitutive plurality core; this is a model-relative assignment, not metaphysical possibility or a premise discharge. The interpretation varies the indicated assignments; it does not claim the full original joint ontology.",
+  "vocabulary": "CONSTITUTIVE-CONFIGURATION",
+  "lean_declaration": "TruthCore.Models.ConstitutiveConfiguration.modelIndividual",
+  "bindings": {
+    "Being": "TruthCore.Causality.PartFreePlurality.Being",
+    "Principle": "TruthCore.Causality.PartFreePlurality.Being",
+    "Respect": "TruthCore.Causality.PartFreePlurality.Respect",
+    "Moved": "TruthCore.Causality.PartFreePlurality.moved",
+    "Moves": "TruthCore.Causality.PartFreePlurality.moves",
+    "InAct": "TruthCore.Causality.PartFreePlurality.inAct",
+    "suppositum": "TruthCore.Models.ConstitutiveConfiguration.constantNature",
+    "essence": "TruthCore.Models.ConstitutiveConfiguration.constantNature",
+    "content": "TruthCore.Causality.ConstitutiveNatureUniqueness.Control.separatingContent"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Causality.PartFreePlurality.Being.left",
+        "TruthCore.Causality.PartFreePlurality.Being.right",
+        "TruthCore.Causality.PartFreePlurality.Being.constituent",
+        "TruthCore.Causality.PartFreePlurality.Being.instrument",
+        "TruthCore.Causality.PartFreePlurality.Being.effect"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumerateBeing"
+    },
+    {
+      "binding": "Principle",
+      "elements": [
+        "TruthCore.Causality.PartFreePlurality.Being.left",
+        "TruthCore.Causality.PartFreePlurality.Being.right",
+        "TruthCore.Causality.PartFreePlurality.Being.constituent",
+        "TruthCore.Causality.PartFreePlurality.Being.instrument",
+        "TruthCore.Causality.PartFreePlurality.Being.effect"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.esse",
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.drive",
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.heat"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.enumerateRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Principle",
+        "suppositum"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual0"
+    },
+    {
+      "statement_id": "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "suppositum",
+        "essence"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual1"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual2"
+    },
+    {
+      "statement_id": "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual3"
+    },
+    {
+      "statement_id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+      "value": "satisfies",
+      "arguments": [
+        "Principle",
+        "Respect",
+        "content"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual4"
+    },
+    {
+      "statement_id": "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Principle",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct",
+        "essence",
+        "content"
+      ],
+      "theorem": "TruthCore.Models.ConstitutiveConfiguration.individual5"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.ConstitutiveConfiguration"
+  ]
+}

@@ -64,9 +64,8 @@ open TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint in
 /-- Nonvacuity: the existing OneFirstMover.Joint carrier and motion model admit
 all five advertised premises together, with an actual first mover and motion.
 The content below is assignment data, not a source-derived real definition. -/
-theorem premisesJointlySatisfiable :
-    ∃ content : TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B →
-      TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R → Prop,
+theorem positiveCertificate :
+      let content := Control.positiveContent
       let Moved := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movedIn
       let Moves := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movesIn
       let Act := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.inAct
@@ -77,11 +76,7 @@ theorem premisesJointlySatisfiable :
       ConstitutiveContentComplete content ∧
       FirstMoverContentAgreesWithAct Moved Moves Act (fun individual => individual) content ∧
       IsFirstUnmovedMover Moved Moves .g := by
-  let content : B → R → Prop := B.rec (motive := fun _ => R → Prop)
-    (fun _ => True)
-    (R.rec (motive := fun _ => Prop) True False)
-    (fun _ => False)
-    (R.rec (motive := fun _ => Prop) False True)
+  let content := Control.positiveContent
   have onlyG : ∀ b, IsFirstUnmovedMover movedIn movesIn b → b = .g := by
     intro b ⟨⟨target, r, hm⟩, hu⟩
     cases b with
@@ -98,7 +93,7 @@ theorem premisesJointlySatisfiable :
       | exact False.elim ((h .heat).mpr trivial)
       | exact False.elim ((h .other).mp trivial)
       | exact False.elim ((h .other).mpr trivial)
-  refine ⟨content, (fun _ _ h => h), (fun _ _ => rfl), ?_, complete, ?_, ?_⟩
+  refine ⟨(fun _ _ h => h), (fun _ _ => rfl), ?_, complete, ?_, ?_⟩
   · intro b hb r
     have eq := onlyG b hb
     subst b
@@ -108,6 +103,25 @@ theorem premisesJointlySatisfiable :
     subst b
     cases r <;> exact Iff.rfl
   · exact ⟨⟨.f, .other, trivial⟩, fun _ h => h⟩
+
+open TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint in
+/-- Nonvacuity: the existing OneFirstMover.Joint carrier and motion model admit
+all five advertised premises together, with an actual first mover and motion.
+The content below is assignment data, not a source-derived real definition. -/
+theorem premisesJointlySatisfiable :
+    ∃ content : TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B →
+      TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.R → Prop,
+      let Moved := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movedIn
+      let Moves := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.movesIn
+      let Act := TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.inAct
+      IndividuatingBasisIsIncommunicableReading
+        (fun individual : TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Joint.B => individual) ∧
+      FirstMoverSuppositumIsNature Moved Moves (fun individual => individual) (fun individual => individual) ∧
+      FirstUnmovedMoverHasEveryPerfection Moved Moves Act ∧
+      ConstitutiveContentComplete content ∧
+      FirstMoverContentAgreesWithAct Moved Moves Act (fun individual => individual) content ∧
+      IsFirstUnmovedMover Moved Moves .g := by
+  exact ⟨Control.positiveContent, positiveCertificate⟩
 
 /-- The actual open differentiation premise, obtained by contrapositive of the
 same constitutive identity account. Classical quantifier extraction is explicit;
