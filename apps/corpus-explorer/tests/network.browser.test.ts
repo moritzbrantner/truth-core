@@ -106,13 +106,12 @@ for (const mobile of [false, true]) {
     expect(selectedBox.y).toBeGreaterThanOrEqual(layeredBox.y);
     expect(selectedBox.x + selectedBox.width).toBeLessThanOrEqual(layeredBox.x + layeredBox.width);
     expect(selectedBox.y + selectedBox.height).toBeLessThanOrEqual(layeredBox.y + layeredBox.height);
+    // Reload the actual selected-cluster view, rather than opening every
+    // passage at once: off-screen nodes are intentionally virtualized.
     const comparison = new URL(page.url());
     comparison.searchParams.delete("viewport");
-    comparison.searchParams.delete("sel");
-    comparison.searchParams.delete("obligation");
-    for (const key of new Set(getPropositionGraph().statements.map((node) => node.clusters.passage))) { comparison.searchParams.append("open", key); }
     await page.goto(comparison.toString());
-    await page.locator(".graph-node-statement").first().waitFor();
+    await page.locator(`[data-id="${selected}"] .graph-node-statement[data-selected="true"]`).waitFor();
     await shell.scrollIntoViewIfNeeded();
     if (screenshots) { await shell.screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-layered.png` }); }
     console.info(JSON.stringify({ workload: "real-corpus-network-browser", mobile, mounted, initialMs, selectionMs, browser: browser.version(), bun: Bun.version }));
