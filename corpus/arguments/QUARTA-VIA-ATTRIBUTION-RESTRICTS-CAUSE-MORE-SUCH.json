@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH"
   ],
-  "meaning": "Formal fact, from no premises: on the reading by attribution with strict primacy, Aristotle's cause-is-more-such principle holds for the primary and fails in general. So at being the frontier premise STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH needs re-reading: restricted to the primary as cause it is derivable from the order by approach and strict primacy (an open premise, STMT-NOTHING-ELSE-REACHES-THE-PRIMARY); unrestricted it is the synonymous (univocal) principle of Met. II.1.",
+  "meaning": "Formal fact, from no premises: on the reading by attribution with strict primacy, Aristotle's cause-is-more-such principle holds for the primary and fails in general. So at being the frontier premise STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH needs re-reading: restricted to the primary as cause it is derivable from the order by approach and strict primacy (an open premise, STMT-NOTHING-ELSE-REACHES-THE-PRIMARY); the unrestricted proposition goes beyond the synonymous reading of Met. II.1. The attribution-order restriction and synonymy are distinct conditions.",
   "definition_ids": [
     "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
     "DEF-STRICT-PRIMACY",

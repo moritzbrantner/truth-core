@@ -25,25 +25,17 @@ theorem unrestricted_implies_synonymous {Entity : Sort u} {Respect : Sort v}
   intro c x r hne hc _
   exact h c x r hne hc
 
-/-- A three-entity interpretation has one same-sense causal edge with a
-comparison and a second, non-same-sense causal edge without one. This is a
-logical countermodel to the converse, not a claim of metaphysical possibility. -/
-theorem synonymous_does_not_imply_unrestricted :
-    ∃ (causes : Fin 3 → Fin 3 → Unit → Prop)
-      (more : Unit → Fin 3 → Fin 3 → Prop)
-      (holds : Fin 3 → Unit → Bool → Prop),
-      SynonymousCauseMoreSuchReading causes more holds ∧
-      ¬ CauseOfQualityInAnotherIsMoreSuchReading causes more := by
-  refine ⟨fun c x _ => (c = 0 ∧ x = 1) ∨ (c = 1 ∧ x = 2),
-    fun _ c x => c = 0 ∧ x = 1,
-    fun c _ s => (c = 0 ∧ s = false) ∨ (c = 1 ∧ s = false) ∨ (c = 2 ∧ s = true), ?_, ?_⟩
-  · intro c x r _ hc hs
-    rcases hc with ⟨rfl, rfl⟩ | ⟨rfl, rfl⟩
-    · exact ⟨rfl, rfl⟩
-    · rcases hs with ⟨s, h1, h2⟩
-      cases s <;> simp at h1 h2
-  · intro h
-    have bad := h 1 2 () (by decide) (Or.inr ⟨rfl, rfl⟩)
-    exact (by decide : ¬ ((1 : Fin 3) = 0 ∧ (2 : Fin 3) = 1)) bad
+/-- A finite control with a same-account causal edge and a changed-account
+causal edge. The restricted comparison holds, the broad comparison fails, and
+both edges and their account profiles are explicit. This is a logical model,
+not an assertion of metaphysical possibility. -/
+def SynonymyScopeControl : Prop :=
+  ∃ (causes : Fin 3 → Fin 3 → Unit → Prop)
+    (more : Unit → Fin 3 → Fin 3 → Prop)
+    (holds : Fin 3 → Unit → Bool → Prop),
+    SynonymousCauseMoreSuchReading causes more holds ∧
+    ¬ CauseOfQualityInAnotherIsMoreSuchReading causes more ∧
+    causes 0 1 () ∧ (∃ s, holds 0 () s ∧ holds 1 () s) ∧ more () 0 1 ∧
+    causes 1 2 () ∧ (¬ ∃ s, holds 1 () s ∧ holds 2 () s) ∧ ¬ more () 1 2
 
 end TruthCore.Greek.Aristotle.Metaphysics

@@ -1,0 +1,17 @@
+{
+  "id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SYNONYMY-SCOPE-CONTROL",
+  "inference_ids": [
+    "INF-ARISTOTLE-SYNONYMY-SCOPE-CONTROL"
+  ],
+  "meaning": "A finite typed interpretation separates the restricted and unrestricted causal comparisons with a nonvacuous same-account case. It does not establish that the model is metaphysically possible or that either principle holds in reality.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}
