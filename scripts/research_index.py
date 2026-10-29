@@ -269,7 +269,7 @@ def related(db, identifier, limit=20):
             0 if 'argument_id' in reason else 1, len(reason.get('premise_statement_ids', []))))
         matches.append({'statement_id': other, 'paraphrase': statements[other].get('paraphrase'),
                         'path': rows[other]['path'], 'tier': entry['tier'],
-                        'reason_count': len(reasons), 'reasons': reasons[:3]})
+                        'reason_count': len(reasons), 'reasons': reasons})
     prior = [dict(row) for row in db.execute(
         "SELECT r.id,r.path,r.body FROM refs JOIN records r ON r.key=refs.owner "
         "WHERE refs.target=? AND r.kind='attempts' ORDER BY r.id", (sid,))]

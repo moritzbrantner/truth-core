@@ -25,8 +25,9 @@ one member of a bundle is never presented as sufficient for its conclusion.
 Known falsity-concluding bundles label their other premises as incompatible
 bundle members. This does not select which premise to reject. Directly linked
 prior attempts are returned with outcomes and blockers to help avoid repeating
-failed investigations. Up to three reasons per match are displayed, with the
-full reason count; increase the statement limit to inspect more neighbors.
+failed investigations. The text output displays up to three reasons per match, with the full reason
+count; `--json` retains every reason for each returned match. Increase the
+statement limit to inspect more neighbors.
 
 These are discovery rankings, not certified equivalence, strength or entailment.
 No cross-profile composition is performed. Source passage coverage remains a

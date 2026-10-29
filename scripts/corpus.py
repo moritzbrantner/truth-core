@@ -2290,14 +2290,14 @@ def command_related(args: argparse.Namespace) -> int:
         for item in report['matches']:
             print(f"\n{item['statement_id']}: {item['paraphrase']}")
             print(f"  {item['path']}")
-            for reason in item['reasons']:
+            for reason in item['reasons'][:3]:
                 evidence = reason.get('argument_id') or reason.get('relation_id') or ', '.join(reason.get('ids', [])) or reason.get('declaration') or reason.get('namespace') or ', '.join(reason.get('words', []))
                 print(f"  {reason['kind']}: {evidence}")
                 if 'premise_statement_ids' in reason:
                     print('    requires: ' + ', '.join(reason['premise_statement_ids']))
                     print('    concludes: ' + str(reason['conclusion_statement_id']))
-            if item['reason_count'] > len(item['reasons']):
-                print(f"  {item['reason_count']} reasons total; showing {len(item['reasons'])}")
+            if item['reason_count'] > 3:
+                print(f"  {item['reason_count']} reasons total; showing 3 (all in --json)")
         print('\nPrior attempts:')
         for attempt in report['prior_attempts']:
             print(f"  {attempt['id']} [{attempt['outcome']}]: {attempt['path']}")

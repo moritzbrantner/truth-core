@@ -101,6 +101,27 @@ class ResearchIndexTests(unittest.TestCase):
         self.assertEqual(reason['kind'], 'incompatible_bundle_member')
         self.assertEqual(reason['premise_statement_ids'], ['S', 'T', 'U'])
 
+    def test_json_keeps_all_reasons_while_text_is_bounded(self):
+        from contextlib import redirect_stdout
+        from io import StringIO
+        from unittest.mock import patch
+        import corpus
+        self.put('statements', {'id': 'T', 'paraphrase': 'another commitment'})
+        for index in range(5):
+            self.put('arguments', {'id': f'EXTRA-{index}', 'premise_statement_ids': ['S'],
+                                   'conclusion_statement_id': 'T'})
+        output = StringIO()
+        with patch.object(corpus, 'ROOT', self.root), redirect_stdout(output):
+            self.assertEqual(corpus.main_with(['related', 'S', '--json']), 0)
+        match = json.loads(output.getvalue())['matches'][0]
+        self.assertEqual(match['reason_count'], 7)
+        self.assertEqual(len(match['reasons']), 7)
+        output = StringIO()
+        with patch.object(corpus, 'ROOT', self.root), redirect_stdout(output):
+            self.assertEqual(corpus.main_with(['related', 'S']), 0)
+        self.assertEqual(output.getvalue().count('consequence_with_full_bundle:'), 3)
+        self.assertIn('7 reasons total; showing 3 (all in --json)', output.getvalue())
+
     def test_workflow_cache_refresh_and_corpus_cli(self):
         from contextlib import redirect_stdout, redirect_stderr
         from io import StringIO
