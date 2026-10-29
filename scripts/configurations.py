@@ -60,8 +60,8 @@ def validate_case(case, statements, results, arguments, models, root):
     # Supported role shapes (all non-propositional, so no proof can hide in a
     # parameter): a carrier `Type`, a fixed carrier constant (Bool or Nat), a
     # Kripke frame or the existing existence-PSR data model on carriers,
-    # an element of a carrier, and a predicate or
-    # relation `X₁ → … → Xₙ → Prop` over carriers. Carriers must be declared
+    # an element of a carrier, and a carrier-valued function, predicate or
+    # relation `X₁ → … → Xₙ → Y` over carriers (Y may be Prop). Carriers must be declared
     # before they are used. The necessary-individual profiles (W, I, F,
     # present, w) are one instance; the Megarian capacity profile (#576) is
     # another.
@@ -85,7 +85,7 @@ def validate_case(case, statements, results, arguments, models, root):
             pass
         elif kind in carriers:
             pass
-        elif len(words) >= 2 and words[-1] == 'Prop' and all(word in carriers for word in words[:-1]):
+        elif len(words) >= 2 and words[-1] in carriers | {'Prop'} and all(word in carriers for word in words[:-1]):
             pass
         else:
             raise ValueError(f"{parameter['name']}: unsupported semantic role type; proof-valued parameters are forbidden")
