@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PluralRootConfluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PluralRootConfluence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PluralRootConfluence.control"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

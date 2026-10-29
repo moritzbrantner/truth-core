@@ -3,6 +3,7 @@ import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.BoundedPastResource.Solution
 import TruthCore.Results.Causality.BruteRootDisjunction.Solution
 import TruthCore.Results.Causality.CausalHarvest.Solution
+import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
@@ -28,9 +29,11 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
+import TruthCore.Results.Causality.PluralRootConfluence.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution

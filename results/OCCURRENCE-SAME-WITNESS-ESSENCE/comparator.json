@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.OccurrenceUnderivedEssence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.OccurrenceUnderivedEssence.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

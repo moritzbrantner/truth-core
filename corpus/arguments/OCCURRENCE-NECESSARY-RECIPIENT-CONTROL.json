@@ -1,0 +1,46 @@
+{
+  "id": "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "inference_ids": [
+    "INF-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL"
+  ],
+  "meaning": "Reuse the #680 varying ontology and pairProfile, adding a thought borne by recipient true and using its existing varying support as grounding. All six non-logical #564 premises hold; true itself witnesses the old necessary-ancestor conclusion but has actual incoming support and distinct represented esse. The same interpretation has source false with no actual incoming support and identity. This refutes propagation to an arbitrary necessary witness, not the strengthened minimal-ancestor theorem or metaphysical possibility.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-SUPPORT-CONCRETE-GROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}

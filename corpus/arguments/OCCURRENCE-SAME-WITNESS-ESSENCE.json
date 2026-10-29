@@ -1,0 +1,60 @@
+{
+  "id": "OCCURRENCE-SAME-WITNESS-ESSENCE",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
+  "inference_ids": [
+    "INF-OCCURRENCE-SAME-WITNESS-ESSENCE"
+  ],
+  "meaning": "Refine the original COGITO-ANCESTRY-ROOT-FORK Acc descent to retain its actual-concrete-ground-minimal witness; the original thinker-local anti-brute premise rules out its contingent horn. Projecting the strengthened helper preserves the old frozen fork type. For that SAME concrete necessary ancestor, the explicit actual-support-to-concrete-ground bridge excludes actual existing R-supporters. Import and apply actual_not_not_identity_direct from UNDERIVED-ESSENCE-ESSE to that very n; explicit excluded middle gives represented essence–esse identity. This is conditional composition consuming the existing q3 transcription, not a defense of its source commitments or of occurrence, concreteness, grounding, well-foundedness or the three q3 interfaces. No new necessary→underived premise, no witness replacement, no union/all-world support conclusion. Root-premise delta none.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-SUPPORT-CONCRETE-GROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}

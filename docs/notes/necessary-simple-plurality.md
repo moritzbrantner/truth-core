@@ -283,3 +283,95 @@ bridge and rejects two invalid shortcuts; it does not establish uniqueness or
 the metaphysical possibility of the rival. Claim/type self-sweep: every new
 source paraphrase has its witness and within-chapter locator above; no new Lean
 type or source claim is presented as verified consequence.
+## Act limitation follow-up: q.7 does not reverse reception
+
+The next bounded reading is *Summa theologiae* I q.7 aa.1–2, read in full
+(including objections and replies) from materialized SCTA witnesses
+`AQUINAS-ST-I-Q7-A1` and `AQUINAS-ST-I-Q7-A2`. The latter extends the existing
+q.7 manifest within the same immutable Leonine witness, not a new edition.
+This tests the specific missing inference from whole-nature difference to a
+real receiver of esse. It does not repeat the De ente multiplication inventory.
+The existing subsistent-being/infinity dossier and related argument bundles
+were inspected: `SubsistentBeingIsInfiniteReading` gives
+`∀ x, esseOf x = essenceOf x → Infinite x`. Its primitive infinity conclusion
+neither defines real reception nor supplies numerical uniqueness.
+
+### Two directions of limitation, and a qualified infinity
+
+Q.7 a.1 co., from *Considerandum est igitur*, distinguishes two directions.
+Matter is determined and perfected by receiving form: its prior potency to many
+forms terminates in one. Form considered in itself is common to many and its
+amplitude is contracted when received in this matter. Infinity on the matter
+side signifies incompleteness; infinity on the form side signifies perfection.
+Thus a principle saying simply that every limitation implies imperfection, or
+that every determining act is a receiving potency, would erase a distinction
+on which this argument depends. Matter and form are not two already actual
+bodies; no finite rank/component assignment represents this account merely by
+using the same word “limitation.”
+
+The body then calls esse most formal and applies the absence of reception to
+divine esse. That is a proposed extension of the form-side account, with its
+own applicability obligation. “Pure act” as absence of potency in a represented
+respect dictionary is not yet the stronger claim that the whole subject is
+addition-excluding esse tantum. Even immaterial subsistence is insufficient:
+a.2 co. explicitly considers created subsistent forms not received in matter.
+They are unlimited **in that qualified respect**, while their esse is received
+and contracted to determinate nature. The distinction blocks both identifying
+immateriality with unrestricted infinity and treating every whole-form
+specificity as matter/form composition.
+
+### The useful implication has an independently open antecedent
+
+Q.7 a.2 co., paragraph beginning *Si autem loquamur de infinito secundum quod
+convenit formae*, supplies the precise sequence. A created form subsisting
+without matter **has esse and is not its esse**; consequently its esse is
+received and contracted to a determinate nature, and it is not infinite
+simpliciter. The inferential direction is from the stated nonidentity to
+reception/contraction. It does not derive nonidentity merely from having a
+determinate nature, nor from the existence of another different whole nature.
+Reading it backwards would install the missing bridge rather than defend it.
+Its created-form subject must also survive into any attributed formalization;
+this is not a universal theorem about every proposed independent being.
+
+The adjacent replies do not remove that antecedent without a new commitment.
+The sed contra starts with everything besides God proceeding from God as first
+principle. That global causal scope already excludes a second independent
+candidate if applied to it; it cannot be used here as an independently proved
+consequence of nonreception. Ad 1 says identity of essence and esse is contrary
+to being made, because subsistent esse is not created. It argues about what
+can be produced, not whether two unproduced subjects can each be their esse.
+Using createdness of the disputed second subject to reject it would assume
+what the independent plural rival denies. This does not show those source
+premises false; it identifies their exact burden in this investigation.
+
+Q.7 a.1 obj.3 directly presses “this and not that” as substantial finitude.
+Ad 3 answers that subsistent unreceived esse, precisely as infinite, differs
+from other things; the illustrative contrast is subsistent whiteness against
+whiteness existing in a subject. Hence numerical or conceptual contrast is not
+silently equivalent to the reception the body discusses. The reply offers an
+unreceived/received distinction, not a second argument that **two unreceived**
+subjects are impossible. Its reference to all others must not be promoted into
+an independently defended exclusivity premise.
+
+### Surviving fork and exact case effect
+
+The strongest present defense is narrower: where a thing really has esse other
+than what it is, q.7 a.2 supplies an intelligible reception/contraction account
+that allows a simple immaterial quiddity without denying metaphysical
+composition of essence and esse. The rival contests applicability: its different
+whole essences are each their esse, without a distinct real receiver. Neither
+labeling them determinate nor labeling them pure act decides that disagreement.
+A merely conceptual distinction cannot serve as the real receiving principle;
+an asserted real distinction would need independent argument about these same
+subjects. No historical attribution to Scotus or Suárez, and no assertion of
+the rival's metaphysical possibility, follows from this reading.
+
+The next discriminating obligation remains to derive **real essence/esse
+nonidentity or reception** from a proposed whole-subject determination, without
+using createdness, all-others causal dependence, common numerical nature or
+uniqueness as an unproved shortcut. Q.7 offers no such independent derivation in
+this cluster. A conditional whose new premise already states that bridge would
+not defend it, so no new theorem or source claim is added. Root premise delta:
+zero; the existing source-attributed subsistent-being/infinity premise is
+retained unchanged, as are the Q11 and perfection route premises. This reading
+clarifies their applicability and closes none of them.
