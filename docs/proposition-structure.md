@@ -192,8 +192,9 @@ changes while statement IDs and declaration names remain fixed.
 ## Current handoff: bounded corpus migration
 
 Base `3cd9545a75c975314ea9ebd146d9757bbb754158`; branch
-`refactor/classical-attributes-contract`. The delivered PR records the exact
-revision and final CI. This slice migrates only
+`refactor/classical-attributes-contract`. Verified implementation head:
+`b188ed41b0bcb858cfe339937fc550fb8c9685d6`; this handoff follow-up changes only
+documentation. The delivered PR records its current head and final CI. This slice migrates only
 `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES`: 69 explicitly accounted records, with
 one complete-expression result contract. The [audit and claim/type sweep](notes/classical-attributes-migration.md)
 link its exact before-state, disposition inventory and persisted attempt.
