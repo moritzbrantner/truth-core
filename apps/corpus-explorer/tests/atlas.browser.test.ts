@@ -50,7 +50,7 @@ test("atlas's five lenses use the current static reports, expose evidence, and p
     await page.getByRole("region", { name: "Certified configuration mosaic" }).waitFor();
     const first = page.getByRole("button", { name: /^Selection \d+:/ }).first();
     await first.click();
-    expect(new URL(page.url()).searchParams.has("mask")).toBe(true);
+    await page.waitForURL((url) => url.searchParams.has("mask"));
   } else {
     expect(await page.getByRole("region", { name: "Certification unavailable" }).count()).toBe(1);
   }
@@ -60,12 +60,12 @@ test("atlas's five lenses use the current static reports, expose evidence, and p
   const routes = page.getByRole("region", { name: "Compare conditional proof routes" }).getByRole("button");
   expect(await routes.count()).toBeGreaterThan(0);
   await routes.last().click();
-  expect(new URL(page.url()).searchParams.has("route")).toBe(true);
+  await page.waitForURL((url) => url.searchParams.has("route"));
 
   await navigation.getByRole("button", { name: /Frontier treemap/ }).click();
   await page.getByRole("region", { name: "Open-premise treemap" }).waitFor();
   await page.getByRole("region", { name: "Open-premise treemap" }).getByRole("button").last().click();
-  expect(new URL(page.url()).searchParams.get("group")).toBe("other-sourced");
+  await page.waitForURL((url) => url.searchParams.get("group") === "other-sourced");
 
   await navigation.getByRole("button", { name: /Impact waves/ }).click();
   await page.getByText("Hypothetical challenge / recorded dependencies").waitFor();
