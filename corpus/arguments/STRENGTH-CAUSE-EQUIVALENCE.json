@@ -1,0 +1,16 @@
+{
+  "id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSE-READINGS-EXACT-SELF-CAUSE-DELTA",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-EQUIVALENCE"
+  ],
+  "meaning": "Compose the implication, delta-forward and reconstruction proofs under the same explicit decidable-identity parameter. This equates the strong principle with W and D, not S with W alone.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "premise_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-BROAD",
+    "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-RECONSTRUCTION"
+  ],
+  "meaning": "Under shared decidable identity, retain the broad principle witness when distinct; if that witness is the entity itself, use the local alternative-cause condition. No global irreflexivity is assumed.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

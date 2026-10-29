@@ -15,12 +15,15 @@
         "TRUTH_CORE_CONFIGURATION_REPORT",
         "TRUTH_CORE_REQUIRE_CONFIGURATION_REPORT",
         "TRUTH_CORE_STRUCTURE_REPORT",
-        "TRUTH_CORE_REQUIRE_STRUCTURE_REPORT"
+        "TRUTH_CORE_REQUIRE_STRUCTURE_REPORT",
+        "TRUTH_CORE_STRENGTH_REPORT",
+        "TRUTH_CORE_REQUIRE_STRENGTH_REPORT"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
         "$TURBO_ROOT$/.cache/configuration-explorer.json",
-        "$TURBO_ROOT$/.cache/proposition-structure.json"
+        "$TURBO_ROOT$/.cache/proposition-structure.json",
+        "$TURBO_ROOT$/.cache/strength-comparisons.json"
       ]
     },
     "dev": {

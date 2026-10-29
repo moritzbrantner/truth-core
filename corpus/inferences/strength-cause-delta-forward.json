@@ -1,0 +1,11 @@
+{
+  "id": "INF-STRENGTH-CAUSE-DELTA-FORWARD",
+  "input_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-DISTINCT"
+  ],
+  "output_statement_id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "rule": "typed_strength_comparison",
+  "meaning": "For a generated self-causing entity, instantiate the distinct-cause principle at that same entity to obtain its alternative cause. The self-cause guard is not used; this is one obligation, not a necessity claim about proof-term usage.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

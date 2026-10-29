@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-UNIQUE-DELTA-FORWARD",
+  "argument_id": "STRENGTH-UNIQUE-DELTA-FORWARD",
+  "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthUnique.deltaForward",
+  "comparator_config": "results/STRENGTH-UNIQUE-DELTA-FORWARD/comparator.json",
+  "status": "solution-present",
+  "description": "Any two witnesses equal the unique witness and hence each other. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

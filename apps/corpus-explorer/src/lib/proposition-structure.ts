@@ -29,9 +29,9 @@ export type StructureReport = {
 function record(value: unknown): value is Record<string, unknown> { return typeof value === "object" && value !== null && !Array.isArray(value); }
 function strings(value: unknown): value is string[] { return Array.isArray(value) && value.every((item: unknown) => typeof item === "string"); }
 function semantic(value: unknown): boolean { return record(value) && typeof value.id === "string" && (value.expression_ids === undefined || strings(value.expression_ids)); }
-function node(value: unknown, depth = 0): value is ExpressionNode {
+export function isExpressionNode(value: unknown, depth = 0): value is ExpressionNode {
   return depth < 120 && record(value) && ["id", "kind", "text", "type", "coverage"].every((key) => typeof value[key] === "string")
-    && Array.isArray(value.children) && value.children.every((child: unknown) => record(child) && typeof child.role === "string" && node(child.node, depth + 1));
+    && Array.isArray(value.children) && value.children.every((child: unknown) => record(child) && typeof child.role === "string" && isExpressionNode(child.node, depth + 1));
 }
 export function parseStructureReports(value: unknown): StructureReport[] {
   if (!record(value) || value.schema_version !== 1 || !Array.isArray(value.reports)) throw new Error("Invalid structure report bundle");
@@ -39,7 +39,7 @@ export function parseStructureReports(value: unknown): StructureReport[] {
     if (!record(report) || typeof report.statement_id !== "string" || typeof report.lean_declaration !== "string"
       || !record(report.revision) || typeof report.revision.head !== "string" || typeof report.revision.input_digest !== "string"
       || !Array.isArray(report.declarations) || !report.declarations.every((decl: unknown) => record(decl)
-        && typeof decl.declaration === "string" && (decl.type === undefined || node(decl.type)) && (decl.expansion === undefined || node(decl.expansion)))
+        && typeof decl.declaration === "string" && (decl.type === undefined || isExpressionNode(decl.type)) && (decl.expansion === undefined || isExpressionNode(decl.expansion)))
       || !record(report.semantic_links) || !Array.isArray(report.semantic_links.definitions) || !Array.isArray(report.semantic_links.disambiguations)
       || !record(report.support) || !Array.isArray(report.support.arguments) || !Array.isArray(report.support.results)
       || !Array.isArray(report.support.related_statements) || !strings(report.coverage_notes)

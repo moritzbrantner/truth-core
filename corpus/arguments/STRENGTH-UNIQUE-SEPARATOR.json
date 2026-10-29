@@ -1,0 +1,12 @@
+{
+  "id": "STRENGTH-UNIQUE-SEPARATOR",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-STRENGTH-UNIQUE-TWO-POINT-SEPARATOR",
+  "inference_ids": [
+    "INF-STRENGTH-UNIQUE-SEPARATOR"
+  ],
+  "meaning": "The supplied Bool predicate True has distinct false and true witnesses, satisfying existence and falsifying unique existence under the same empty background.",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

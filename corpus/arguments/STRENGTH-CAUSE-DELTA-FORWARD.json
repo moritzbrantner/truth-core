@@ -1,0 +1,18 @@
+{
+  "id": "STRENGTH-CAUSE-DELTA-FORWARD",
+  "premise_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-DISTINCT"
+  ],
+  "conclusion_statement_id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-DELTA-FORWARD"
+  ],
+  "meaning": "For a generated self-causing entity, instantiate the distinct-cause principle at that same entity to obtain its alternative cause. The self-cause guard is not used; this is one obligation, not a necessity claim about proof-term usage.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

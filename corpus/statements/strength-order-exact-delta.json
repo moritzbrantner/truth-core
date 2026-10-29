@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
+  "paraphrase": "For every mathematical linear order and shared x,y, y > x holds exactly when y ≥ x and y ≠ x.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.ExactDelta",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

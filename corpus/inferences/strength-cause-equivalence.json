@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-CAUSE-EQUIVALENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSE-READINGS-EXACT-SELF-CAUSE-DELTA",
+  "rule": "typed_strength_comparison",
+  "meaning": "Compose the implication, delta-forward and reconstruction proofs under the same explicit decidable-identity parameter. This equates the strong principle with W and D, not S with W alone.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

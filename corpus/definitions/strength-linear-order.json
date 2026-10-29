@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRENGTH-LINEAR-ORDER",
+  "term": "mathematical linear order in the strength-comparison fixture",
+  "definition": "The supplied Mathlib LinearOrder α instance carries the ordinary ≤ and < laws, including reflexivity, antisymmetry, transitivity and totality. Strict x y is y > x, Weak x y is y ≥ x, Unequal x y is y ≠ x, and Equal x y is y = x. The same α, instance, x and y are shared across every certificate.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.spec",
+  "note": "A generic mathematical fixture, justified by the pinned Mathlib order definitions and the exact proof terms. It is not an interpretation of metaphysical comparison. In particular primitive relations named MoreIn and AtLeastIn acquire no Mathlib order law by their names. The Nat interpretation x=y=0 is an explicit separating setting. Equality is the extra allowed case, whereas inequality is the additional requirement; neither is a unique/minimal explanatory remainder claim. The allowed-cases and remainder-identity proofs use pinned Mathlib le_iff_lt_or_eq and have actual axioms propext, Classical.choice and Quot.sound; the other order certificates use propext."
+}

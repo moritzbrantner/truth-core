@@ -1,0 +1,16 @@
+{
+  "id": "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-NO-CAUSE-CONTROL"
+  ],
+  "meaning": "The empty-cause Bool control has D but not W, so D alone is not the strong principle.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

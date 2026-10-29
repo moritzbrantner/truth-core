@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-UNIQUE-EQUIVALENCE",
+  "argument_id": "STRENGTH-UNIQUE-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthUnique.equivalence",
+  "comparator_config": "results/STRENGTH-UNIQUE-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose all three constructive obligations: unique existence iff existence and at most one, for the same arbitrary type and predicate. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

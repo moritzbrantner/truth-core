@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "argument_id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.mixedControl",
+  "comparator_config": "results/STRENGTH-CAUSE-MIXED-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "The all-pairs Bool control satisfies D while admitting self-causation; D is not global irreflexivity. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

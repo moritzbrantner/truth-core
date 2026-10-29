@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL",
+  "paraphrase": "With every Bool entity generated and no causal pairs, the local alternative-cause condition holds while the broad cause principle fails.",
+  "lean_declaration": "TruthCore.Logic.Strength.Cause.NoCauseDeltaControl",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

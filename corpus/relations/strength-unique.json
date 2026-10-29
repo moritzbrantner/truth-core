@@ -1,0 +1,22 @@
+{
+  "id": "REL-STRENGTH-UNIQUE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-STRENGTH-UNIQUE-EXISTS",
+  "predicate": "strength_comparison",
+  "object_kind": "statement",
+  "object_id": "STMT-STRENGTH-EXISTS",
+  "comparison_spec": "TruthCore.Logic.Strength.UniqueExistence.spec",
+  "delta_statement_id": "STMT-STRENGTH-AT-MOST-ONE",
+  "background_statement_ids": [],
+  "evidence_result_ids": {
+    "implication": "STRENGTH-UNIQUE-IMPLICATION",
+    "delta_forward": "STRENGTH-UNIQUE-DELTA-FORWARD",
+    "reconstruction": "STRENGTH-UNIQUE-RECONSTRUCTION",
+    "equivalence": "STRENGTH-UNIQUE-EQUIVALENCE"
+  },
+  "separator": {
+    "setting": "TruthCore.Logic.Strength.UniqueExistence.twoPointSetting",
+    "result_id": "STRENGTH-UNIQUE-SEPARATOR"
+  },
+  "note": "For one supplied predicate on a common carrier, unique existence is existence plus at most one satisfying witness. The two-point setting satisfies existence and refutes unique existence. This generic logical comparison supplies no metaphysical premise and does not assert a uniquely explanatory delta."
+}

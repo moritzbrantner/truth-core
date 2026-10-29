@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-DELTA-FORWARD",
+  "argument_id": "STRENGTH-CAUSE-DELTA-FORWARD",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.deltaForward",
+  "comparator_config": "results/STRENGTH-CAUSE-DELTA-FORWARD/comparator.json",
+  "status": "solution-present",
+  "description": "For a generated self-causing entity, instantiate the distinct-cause principle at that same entity to obtain its alternative cause. The self-cause guard is not used; this is one obligation, not a necessity claim about proof-term usage. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}
