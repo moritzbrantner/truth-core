@@ -194,8 +194,9 @@ changes while statement IDs and declaration names remain fixed.
 Prompt 3 continuation from integrated main
 `ea537f38d664ceb21dcc8afc1ab9a4b6b7814d4c` (#728/#729), branch
 `refactor/classical-attributes-all`. The delivery PR records the exact final
-head and CI identity. Verified implementation revision is recorded below once
-committed. This is one bounded migration: ALL, its three immediate same-witness
+head and CI identity. Verified implementation revision:
+`e6df0bc9f2acdc57025da620ed0d53f983574f88`; this handoff follow-up changes
+only documentation. This is one bounded migration: ALL, its three immediate same-witness
 consumers, and a separate identity-decision interface. The prior 69-record
 [audit](notes/classical-attributes-migration.md) remains valid reused evidence;
 the [new audit/self-sweep](notes/classical-attributes-all-migration.md) and
@@ -225,7 +226,10 @@ Verified: library build, corpus/binding, five isolated contract comparisons,
 five result Comparator/NanoDa checks, specialized controls and focused
 contract/audit/impact tests. Source evidence is reused from #729 because source
 inputs are unchanged; final CI retains its required integration coverage.
-Explorer acceptance and review status are recorded with the delivered revision.
+Explorer production export and all three bounded-audit/structure browser tests
+pass (66 assertions): all five pages, desktop inspection, touch expansion at
+390px and no horizontal overflow. Current-head review/final CI status is recorded
+in the delivery PR.
 Root-reaching premise identities and eight route costs are unchanged:
 `31, 32, 36, 38, 39, 39, 40, 41`; designated route remains cost 40. Dependency
 counts/order change only because the alternative argument is registered.

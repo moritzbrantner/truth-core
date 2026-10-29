@@ -165,7 +165,12 @@ all five contracts), isolated Challenge/Solution preservation, all five result
 Comparator/NanoDa checks, audit/contract/impact tests and specialized controls.
 Unchanged pinned source evidence is reused from #729; final CI retains source,
 Lean, binding, Comparator and NanoDa coverage for the delivered revision.
-Explorer acceptance and review evidence belong in the delivery PR and current
+Explorer acceptance passed on the production export: all five scoped result
+pages, desktop inspection, touch expansion at 390px, no horizontal overflow,
+and the existing structure inspector (three browser tests, 66 assertions).
+Reproduce in `apps/corpus-explorer` after `bun run build` with
+`bun --max-http-header-size=65536 test tests/bundle-audit.browser.test.ts tests/proposition-structure.browser.test.ts`.
+Current-head review and final CI evidence belong in the delivery PR and current
 handoff. Reproduction:
 
 ```bash
