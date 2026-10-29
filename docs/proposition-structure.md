@@ -253,8 +253,10 @@ Continue from merged #731, starting synchronized main
 is complete; its [naming audit](notes/naming-first-mover-migration.md) and
 [inventory](notes/naming-first-mover-migration.json) remain the preservation
 evidence. The current substantive bundle is on
-`research/causal-perfections-transfer`; delivery PR and checked implementation
-revision are recorded with the final handoff update.
+`research/causal-perfections-transfer`. Checked implementation revision:
+`c55af5ec6e6e451a870fa7a87fc0650e55060f6c`; this handoff-only follow-up changes
+no checked inputs. The delivery PR records its exact delivered head, CI run and
+current-head review request/status.
 
 Target: `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION`. Reuse: existing
 `CausesIn`/`CausesAllInGenus`, q.4/q.6 support, the read pinned q.4 a.2,
