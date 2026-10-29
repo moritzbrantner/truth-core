@@ -3,6 +3,7 @@ import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.BoundedPastResource.Solution
 import TruthCore.Results.Causality.BruteRootDisjunction.Solution
 import TruthCore.Results.Causality.CausalHarvest.Solution
+import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
