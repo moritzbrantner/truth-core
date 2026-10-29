@@ -435,6 +435,7 @@ class ExplorerInputsTest(unittest.TestCase):
             "scripts/contracts/classical-attributes.json",
             "docs/notes/classical-attributes-migration.json",
             "docs/notes/classical-attributes-all-migration.json",
+            "docs/notes/naming-first-mover-migration.json",
             ".github/workflows/ci.yml",
         ]
         self.assertEqual(ar.explorer_inputs_changed(changed), sorted(changed))

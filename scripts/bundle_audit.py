@@ -5,7 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / 'docs/notes/classical-attributes-migration.json'
-AUDITS = (AUDIT, ROOT / 'docs/notes/classical-attributes-all-migration.json')
+AUDITS = (AUDIT, ROOT / 'docs/notes/classical-attributes-all-migration.json',
+          ROOT / 'docs/notes/naming-first-mover-migration.json')
 
 
 def records(root):
@@ -40,13 +41,13 @@ def check(root=ROOT, audit=None):
     audit = audit if audit is not None else json.loads(AUDIT.read_text())
     from expression_contracts import contracts
     contract = contracts().get(audit['result_id'])
-    if contract is None or contract['baseline_revision'] != audit['base_head']:
+    if contract is None or contract['baseline_revision'] != audit.get('contract_baselines', {}).get(audit['result_id'], audit['base_head']):
         raise ValueError('missing reviewed expression contract for the audited result')
     index = records(root)
     expected = expected_scope(index, audit['result_id'])
     for rid in audit.get('consumer_result_ids', []):
         related = contracts().get(rid)
-        if related is None or related['baseline_revision'] != audit['base_head']:
+        if related is None or related['baseline_revision'] != audit.get('contract_baselines', {}).get(rid, audit['base_head']):
             raise ValueError('missing reviewed expression contract for a scoped consumer')
         for kind, ids in expected_scope(index, rid).items():
             expected[kind].update(ids)

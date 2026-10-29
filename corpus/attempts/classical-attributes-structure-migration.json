@@ -3,11 +3,14 @@
   "statement_ids": [
     "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
     "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+    "STMT-CATHOLICISM-TRUE",
     "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
     "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
     "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
     "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
     "STMT-EXCLUDED-MIDDLE",
+    "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
+    "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS",
     "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
     "STMT-GOD-HAS-INTELLECT",
     "STMT-GOD-HAS-WILL",
@@ -19,14 +22,17 @@
     "STMT-GOD-IS-PERFECT",
     "STMT-GOD-IS-SIMPLE",
     "STMT-GOD-IS-SUPREMELY-GOOD",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
     "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-MAXIME-ENS-IS-GOD",
     "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS"
   ],
   "date": "2026-10-29",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Bounded preservation/audit of CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES at 3cd9545a. Exact 69-record before/reviewed inventory, dispositions, self-sweep and unresolved bridges: docs/notes/classical-attributes-migration.md and its linked JSON. Related/dossier/attempt findings reused; the unrestricted causal ascent, naming converse and primitive attributes interpretation remain open. Corrected one-way bridge prose after re-reading materialized VATICAN-I-DEI-FILIUS-CH1 DS 3001\u20133002. Reused PureAct for the identical IsImmutable body, checked by Iff.rfl; regrouped the nine shared-witness predicates with a checked bridge equivalence under original parameters. Frozen Challenge unchanged. Complete-expression binding includes 28 recursive project dependencies, not just statement heads. All 15 hypotheses reported used; no minimality follows. Empty-IsGod and missing-converse controls plus an inhabited Unit setting conditional on retained excluded middle distinguish legitimate universal vacuity from existence. #720 declared-use projection supplies no fork application in this assembly. Intended/actual root premise delta none; eight route costs unchanged at 31,32,36,38,39,39,40,41. No whole-corpus audit, independent philosophical truth, or source-fidelity renewal is claimed. Next coherent scope is the later CLASSICAL-ATTRIBUTES-ALL specialization and same-witness consumers, with checked identity-decision weakening as a separate result if supported. Follow-up from main ea537f38: docs/notes/classical-attributes-all-migration.md and its exact 149-record inventory cover ALL plus three immediate same-witness consumers and the separate identity argument. Reused all four frozen Challenges and checked five complete-expression contracts. Explicit DecidableEq on Being and Principle suffices in a separate zero-axiom theorem; no logical necessity/minimality asserted and legacy EM interfaces retained. Same witness m/f preserved across naming, attribute proofs and field packaging. Repaired ALL bridge prose, qualified DISAMB-GOD for Q11-NATURE, and added existing term links to preexistence; no proposition/source interpretation changed. Root open premise identities and eight route costs unchanged. Next: full-description naming and first-mover/maximal-being identity, then immediate root consumers.",
+  "summary": "Bounded preservation/audit of CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES at 3cd9545a. Exact 69-record before/reviewed inventory, dispositions, self-sweep and unresolved bridges: docs/notes/classical-attributes-migration.md and its linked JSON. Related/dossier/attempt findings reused; the unrestricted causal ascent, naming converse and primitive attributes interpretation remain open. Corrected one-way bridge prose after re-reading materialized VATICAN-I-DEI-FILIUS-CH1 DS 3001–3002. Reused PureAct for the identical IsImmutable body, checked by Iff.rfl; regrouped the nine shared-witness predicates with a checked bridge equivalence under original parameters. Frozen Challenge unchanged. Complete-expression binding includes 28 recursive project dependencies, not just statement heads. All 15 hypotheses reported used; no minimality follows. Empty-IsGod and missing-converse controls plus an inhabited Unit setting conditional on retained excluded middle distinguish legitimate universal vacuity from existence. #720 declared-use projection supplies no fork application in this assembly. Intended/actual root premise delta none; eight route costs unchanged at 31,32,36,38,39,39,40,41. No whole-corpus audit, independent philosophical truth, or source-fidelity renewal is claimed. Next coherent scope is the later CLASSICAL-ATTRIBUTES-ALL specialization and same-witness consumers, with checked identity-decision weakening as a separate result if supported. Follow-up from main ea537f38: docs/notes/classical-attributes-all-migration.md and its exact 149-record inventory cover ALL plus three immediate same-witness consumers and the separate identity argument. Reused all four frozen Challenges and checked five complete-expression contracts. Explicit DecidableEq on Being and Principle suffices in a separate zero-axiom theorem; no logical necessity/minimality asserted and legacy EM interfaces retained. Same witness m/f preserved across naming, attribute proofs and field packaging. Repaired ALL bridge prose, qualified DISAMB-GOD for Q11-NATURE, and added existing term links to preexistence; no proposition/source interpretation changed. Root open premise identities and eight route costs unchanged. Next: full-description naming and first-mover/maximal-being identity, then immediate root consumers. Bounded continuation from integrated #730 e634f01f: docs/notes/naming-first-mover-migration.md and its exact 161-record inventory audit the two naming/identity bridges, Stage1, same-witness consumer and designated efficient-regress root compositions. Five separately frozen equality interfaces use DecidableEq Being (bridges), plus DecidableEq Principle (attribute/root compositions); retain the particular FirstUnmovedMoverExistsOrNot explicitly in every alternative composition. Reuse the attribute identity interface only under the existing matching God-to-maximality premise. Reject naming-to-existence, identity-to-existence, a naming converse, and maximum-to-original-God uniqueness without its additional premise; the first two have a focused complete-application inhabited Unit control, the latter reuse prior controls. No source interpretation changes or new fidelity finding; q.105 translation basis and formal/eminent/strict-cause burdens remain open. All six legacy Challenges/Solutions unchanged. All 63 root-reaching open-premise identities and eight legacy route rows unchanged; two alternative root rows registered with costs 39/40, excluding the explicit instance assumptions. No philosophical premise discharge, logical minimality or strict-strength certificate.",
   "evidence": [
     "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
     "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
@@ -34,6 +40,16 @@
     "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
     "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
     "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
-    "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"
+    "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+    "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS",
+    "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION",
+    "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+    "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+    "CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION",
+    "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
+    "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+    "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+    "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+    "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY"
   ]
 }
