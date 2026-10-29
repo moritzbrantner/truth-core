@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-INNOCENCE-HARD-CASE-AQUINAS",
+  "term": "innocence in the hard case and Aquinas’s innocent/righteous contrast",
+  "sense_definition_ids": [
+    "DEF-AQUINAS-INNOCENCE-Q64",
+    "DEF-HARD-CASE-INNOCENCE-NONTHREAT"
+  ],
+  "resolution": "Aquinas contrasts innocent and righteous people with sinners in his common-good argument, without defining a general test for innocence. The formal hard case stipulates innocence and nonthreat separately for one victim. These senses are compared without an identity or implication; applying the historical argument to this precise case requires an additional interpretive and factual bridge."
+}

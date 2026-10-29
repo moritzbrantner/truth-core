@@ -3,7 +3,13 @@
   "statement_id": "STMT-AQUINAS-HISTORICAL-RAPE-FORCE",
   "source_id": "AQUINAS-ST",
   "locator": "II-II q.154 a.7 co. and ad 4",
-  "interpretation": "The body classifies rape as a species of lust and distinguishes forcible unlawful violation of a virgin from removal against her father’s wishes with her consent. Reply 4 treats violence by a newly married husband as sinful but not rape in this historical category. This reading neither equates his classification with modern consent-based definitions nor derives a categorical reason independent of an offender’s ends.",
+  "interpretation": "The body classifies rape as a species of lust and distinguishes forcible unlawful violation of a virgin from removal against her father’s wishes with her consent, and includes abducted widows and nonvirgins. Reply 4 treats violence by a newly married husband as sinful but not rape in this historical category. This reading neither equates his classification with modern consent-based definitions nor derives a categorical reason independent of an offender’s ends.",
   "status": "formalized",
-  "basis": "translation"
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-AQUINAS-HISTORICAL-RAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT"
+  ]
 }

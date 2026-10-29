@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
+  "term": "historical rape and stipulated nonconsensual act",
+  "sense_definition_ids": [
+    "DEF-AQUINAS-HISTORICAL-RAPE",
+    "DEF-HARD-CASE-NONCONSENT"
+  ],
+  "resolution": "Aquinas’s historical category refers in part to force and abduction relative to family or marital status: it may include removal with the woman’s consent, while ad 4 excludes a newly married husband’s violence from that classification though calling it sinful. The hard-case predicate separately stipulates lack of consent for the specific act; it encodes neither the source category nor a legal definition. The source supports a forced-violation example but not their universal equivalence."
+}

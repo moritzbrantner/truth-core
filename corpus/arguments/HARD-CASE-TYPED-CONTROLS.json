@@ -7,9 +7,13 @@
   ],
   "meaning": "Explicit factual and normative assignments witness underdetermination, together with feasible competing priorities for distinct goods.",
   "definition_ids": [
-    "DEF-HARD-CASE-TYPED-CONTROLS"
+    "DEF-HARD-CASE-TYPED-CONTROLS",
+    "DEF-HARD-CASE-NONCONSENT",
+    "DEF-HARD-CASE-INNOCENCE-NONTHREAT"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE",
+    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
+    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
   ]
 }
