@@ -28,12 +28,22 @@ def QuartaViaStrictCausalTop {Being Respect : Type}
     (∀ c, c ≠ m → ¬ CausesIn c m esse) ∧
     ∀ n, IsMaximumIn InAct MoreIn esse n → n = m
 
-/-- Every being has a strictly higher being in the selected respect. This does
-not assert that it has a cause, causal predecessor or infinite causal chain.
-The predicate alone is vacuous on an empty carrier; the fork adds population. -/
+/-- Every being has some being that is `MoreIn` the selected respect. Under
+the homogeneous-order reading this is strict degree extension; the raw
+comparative parameter alone has no imposed order laws. It does not assert a
+cause or causal chain. The predicate alone is vacuous on an empty carrier;
+the fork adds population. -/
 def QuartaViaUnboundedDegrees {Being Respect : Type}
     (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
   ∀ x, ∃ y, MoreIn esse y x
+
+/-- Canonical name for comparative extension at every member, strict on
+ the homogeneous-order reading. It excludes a maximal member, not a metric
+ bound: even `(0,1)` has this property.
+ An infinite greatest spatial whole need not satisfy it under region inclusion. -/
+def QuartaViaNoMaximalDegree {Being Respect : Type}
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
+  QuartaViaUnboundedDegrees MoreIn esse
 
 /-- The selected perfection is instantiated, and either a strict causal top
 exists or every being has a strictly higher being. This states coverage only;
