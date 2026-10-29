@@ -88,6 +88,15 @@ not authorize adding an external Lean dependency.
 
 ## Premise dossiers and attempts
 
+Before opening a new proposition investigation or introducing vocabulary, run
+`python3 scripts/corpus.py related <STMT-ID>` for the load-bearing seed. It reuses
+or refreshes a disposable local index and surfaces related propositions, complete
+argument bundles and previous attempts. Inspect promising matches before
+reinventing them. Rankings and shared vocabulary are discovery aids, not proofs
+of equivalence, implication or incompatibility. Continue with the dossier and
+existing certification workflow below. The repository-local `proposition-reuse`
+skill in `.agents/skills/proposition-reuse/SKILL.md` describes this entry point.
+
 For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
 (the explorer links the same generated dossier from the statement page). Before
 handoff, update `corpus/attempts/` for failed derivations, rejected readings,

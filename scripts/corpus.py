@@ -2275,6 +2275,38 @@ def command_territory(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_related(args: argparse.Namespace) -> int:
+    # Discovery is independent of expensive proof gates and frontier computation.
+    import sqlite3
+    from research_index import cached_related
+    try:
+        report = cached_related(ROOT, args.statement_id, args.limit)
+    except (ValueError, OSError, sqlite3.Error) as exc:
+        raise CorpusError(str(exc)) from exc
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+    else:
+        print(f"Related to {report['statement_id']} (discovery, not certification)")
+        for item in report['matches']:
+            print(f"\n{item['statement_id']}: {item['paraphrase']}")
+            print(f"  {item['path']}")
+            for reason in item['reasons'][:3]:
+                evidence = reason.get('argument_id') or reason.get('relation_id') or ', '.join(reason.get('ids', [])) or reason.get('declaration') or reason.get('namespace') or ', '.join(reason.get('words', []))
+                print(f"  {reason['kind']}: {evidence}")
+                if 'premise_statement_ids' in reason:
+                    print('    requires: ' + ', '.join(reason['premise_statement_ids']))
+                    print('    concludes: ' + str(reason['conclusion_statement_id']))
+            if item['reason_count'] > 3:
+                print(f"  {item['reason_count']} reasons total; showing 3 (all in --json)")
+        print('\nPrior attempts:')
+        for attempt in report['prior_attempts']:
+            print(f"  {attempt['id']} [{attempt['outcome']}]: {attempt['path']}")
+        if not report['prior_attempts']:
+            print('  none directly linked')
+        print('\nUse dossier for premise status and configurations for certification.')
+    return 0
+
+
 def command_dossier(args: argparse.Namespace) -> int:
     validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
@@ -3091,6 +3123,11 @@ def parser() -> argparse.ArgumentParser:
     territory.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     territory.add_argument("--max-atoms", type=int, default=512, help="bound on the atom universe (default 512)")
     territory.set_defaults(func=command_territory)
+    related_parser = sub.add_parser("related", help="find connected propositions and previous attempts; discovery only")
+    related_parser.add_argument("statement_id")
+    related_parser.add_argument("--limit", type=int, default=10)
+    related_parser.add_argument("--json", action="store_true")
+    related_parser.set_defaults(func=command_related)
     dossier = sub.add_parser("dossier", help="inspect a premise's sources, arguments, attempts and route contribution")
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
