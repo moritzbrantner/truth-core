@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConstitutiveConfiguration.incompatible"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
