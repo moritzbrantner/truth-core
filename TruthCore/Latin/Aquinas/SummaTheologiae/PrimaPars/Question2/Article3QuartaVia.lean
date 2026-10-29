@@ -31,7 +31,8 @@ universe u v
 
 /-- `m` has the perfection `r` and nothing is more `r` than it.
 This is the weakest maximal reading of *maxime tale*, not greatestness:
-no comparison with every other being, uniqueness or totality is asserted. -/
+no comparison with every other being, uniqueness or totality is asserted.
+The primitive `MoreIn` parameter is not itself given any order laws. -/
 def IsMaximalIn {Being : Sort u} {Respect : Sort v}
     (InAct : Being → Respect → Prop)
     (MoreIn : Respect → Being → Being → Prop) (r : Respect) (m : Being) : Prop :=

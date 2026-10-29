@@ -83,6 +83,10 @@ the old spelling is definitionally equal. The bounded open interval satisfies
 it, whereas the infinite greatest region does not. Existing comments claiming
 only a strict extension/no-top horn remain correct. The new aliases add no
 order assumptions, no global totality/comparability and no population premise.
+The raw `MoreIn` parameter alone carries no irreflexivity, transitivity or
+other order laws; comparison with Mathlib maximality uses the existing
+`HomogeneousScaleReading` representation. The new region/interval fixtures
+supply their standard mathematical orders explicitly.
 The original model's Nat order is genuinely unbounded, but that special fact
 is not the generic predicate's meaning. No imported theorem type changed.
 
