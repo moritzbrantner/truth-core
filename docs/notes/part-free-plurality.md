@@ -111,3 +111,139 @@ Development evidence: supplied local service, workspace
 The combined definitions/solution elaborate with no errors; the final theorem
 reports no axioms. This is focused development evidence. Final delivered-head
 CI owns build, binding, Comparator and NanoDa certification.
+
+## Upstream confluence on the same interpretation (#702)
+
+The new `PluralRootConfluence.control` tests the exact #684 interpretation
+against the exact #634 interface. It does not replace either with a smaller
+fork graph. `graph` is `WorldSourceRegress.actualGraph ontic false`: the carrier
+is the existing actual-node subtype and its edge is literally
+`ontic.Causes false y.val x.val`. The proof includes the definitional equality
+with `UnderivedCommonSource.actualSupportGraph ontic power.supportsEsse false`.
+Both relations in this *particular assignment* were already `prior`. This is
+not a general equation between efficient causation and existential support.
+All nodes exist in this modeled world; that is not independent evidence that
+these are real beings or real sustaining dependencies.
+
+The original `PartFreePlurality.jointControl` is imported and applied unchanged.
+Thus both roots retain modeled necessity, part-freedom, unborrowed power,
+represented pure act/simplicity and every represented perfection, while the
+nonempty composition and distinct-esse controls remain. The new certificate
+adds a graph projection: strict rank proves well-foundedness; every actual node
+has an undirected causal path to the same actual effect, proving weak
+connectivity. The distinct `left` and `right` have no upstream predecessor but
+each causes the same instrument. Their finite upstream extensions can only be
+themselves, so those extensions cannot join. In particular the two one-link
+upstream paths out of instrument witness the failure required by the definition
+of `UpstreamConfluent`.
+
+The proof **uses**, rather than reproves, #634's
+`SourceWitness.rooted_from_source`. Its connectivity and source-existence
+inputs hold here. If its confluence input held, its unique-source conclusion
+would identify the two distinct roots, a contradiction. The theorem cannot be
+applied to establish uniqueness in this model; confluence is precisely the
+missing hypothesis. Even well-foundedness and the full original joint control
+do not supply it. No `NecessaryBeing`, q.3 or explanatory-adequacy premise is
+silently substituted for that missing structural input.
+
+### Cooperation versus common origin
+
+A useful ordinary analogy is two independently powered devices jointly driving
+one load. Sharing the load is a *downstream* intersection. A common power source
+for both devices would instead provide an *upstream* intersection. This analogy
+is not a claim that either device is an ultimate, necessary or simple being;
+its purpose is to identify the direction of the disputed inference. The
+unchanged joint model performs the formal test of the stronger encoded bundle.
+Neither a shared effect nor the presence of a uniting cause guarantees that
+its two contributing causes in turn derive from a common cause. The existing
+q.3 a.7 uniting-cause reading is retained in `JointControl`; it gives a cause
+for each modeled composite, not a common ancestor of every contributing source.
+
+The strongest proposed defense here is an **open analyst commitment**: the
+coordinated contribution of distinct existence-supporters to a single existent
+must itself derive from a prior common existential ground. To yield the generic
+confluence hypothesis it must also cover *every pair of finite upstream paths*,
+including paths with several intermediate nodes; a claim only about one
+immediate joint effect is not yet that theorem. Such a defense would need to
+explain why unity of the effect cannot be primitive or arise from the natures
+and cooperative powers of independent sources, and why any alleged ground is
+an actual same-relation ancestor rather than a law, explanation-token, formal
+cause, or merely common description. Naming the principle “unity” provides
+none of this warrant. This investigation obtains no independent defense of
+that commitment and adds no source-derived claim for it.
+
+The strongest surviving pluralist reply is correspondingly precise: two
+necessary underived candidates can have distinct whole essences, with their
+cooperation primitive or grounded in their respective natures, while a dependent
+composite has its own uniting cause. The literal certificate witnesses the
+listed finite constraints, including part-freedom and a shared dependent effect;
+it does not show that this richer metaphysical account is possible, explains
+its own plurality, or satisfies an independently adequate PSR. Primitive
+individuation, reality-facing support semantics and explanatory adequacy remain
+its outstanding burdens. The confluence defender owes the competing exclusion,
+rather than gaining it from the absence of a preferred model.
+
+### Comparison with existing certified controls
+
+| Case | Existing certificate / exact scope | Consequence |
+| --- | --- | --- |
+| Disjoint source domains | `SourceForest.controls`, isolated Bool graph: two sources, WF and unique immediate predecessors, failure of weak connectivity | Nothing supplies a universe-wide common source across disconnected domains. This is a logical omission control, not the full #684 metaphysics. |
+| Cooperative independent sources | `PluralRootConfluence.control`: unchanged full #684 joint bundle on its actual graph; connected, WF, two distinct sources causing instrument, nonjoinable upstream endpoints | Common downstream effect does not supply upstream confluence, even with these represented attributes. |
+| Genuine common-source cooperation | `SourceForest.confluence_strictness`: the fixed diamond is connected, WF, upstream-confluent and uniquely rooted, despite multiple immediate parents of tip | Upstream confluence permits genuine cooperative causes; it is weaker than unique immediate predecessor. |
+| One source with an infinite branch | `SourceWitness.overlap_control`: unchanged literal actual overlap graph, connected/confluent/uniquely rooted, same node has injective infinite ancestry and is not accessible | A finite path to one source need not terminate every branch. Confluence and rootedness do not imply WF. |
+
+These comparisons reuse the named verified results from #633/#634; they do not
+reprove their model certificates or assert that all four cases satisfy the
+same extra metaphysical bundle. At-most-one-source remains distinct from
+source existence (the original integer-chain control has no source), and
+both remain distinct from God's uniqueness. No graph theorem supplies the
+identification with God, adequacy of explanation, or actual-world warrant.
+
+### Premise and claim/type comparison
+
+Intended and actual root delta: **none**. The original joint bundle and all
+root-route leaves are retained; no new philosophical premise or route is
+introduced, and none is removed, strengthened or discharged. The new result is
+a closed model certificate and counterexample to a proposed implication under
+the represented bundle, not a transcription with an assumed conclusion. It
+excludes using the retained encoded commitments alone to derive confluence;
+it does not refute confluence as an additional metaphysical commitment.
+
+The prose and type agree: the world is the named Bool world `false`, the beings
+are the *same* five constructor values, existence is the inherited model
+predicate, WF concerns the actual selected rank relation, and nonjoinability
+concerns finite **upstream** paths from left/right. The original necessity
+claims are those in the imported joint bundle; no strengthened modality is
+introduced. Every graph control uses the actual-node subtype, so no absent
+candidate supplies a source. The actualGraph/support equality is specific to
+this assignment. All load-bearing definitions and disambiguations reuse the
+original joint-control links plus the existing graph/path/confluence records;
+the new stipulative definition describes only the graph view and certificate.
+
+Development binding: canonical work started at `db603d31`; shared preview
+`/home/brantner/.cache/agent-work/truth-core-shared-preview` at exact
+`db603d3140e92c4b1ca653ab2098a0189a70653f`, clean, session
+`master-20261029`, path `Scratch/issue702/Proof.lean`, version 2, submitted combined
+content SHA256 `3822e5179b3493f75be5df2ad244e2507745a8b3a58b7e3d9c925b333282e5e5`.
+Full definitions/Solution were accepted without Lean errors; `#print axioms`
+reports exactly `propext`, `Classical.choice`, `Quot.sound`, the permitted
+Mathlib set. Frozen Challenge SHA256
+`afaed7704ad8e9e15feb4b8b24a93c669499cc806b205b924b60e65b4038cce9`.
+Final CI, rather than preview diagnostics, owns canonical build, binding,
+Comparator and NanoDa certification.
+
+For the bounded shared-service experiment, a corpus-record query returned the
+existing confluence record with its exact revision/file hash. The first cold
+proof request timed out at the client's default 120 seconds; the service later
+completed it (coordinator observation), so the session was preserved. Focused
+CLI diagnosis exposed a missing explicit actual-node type on the rank lambda;
+adding that type fixed the proof without changing the frozen Challenge. The
+same-session corrected edit with a 300-second timeout took 0.224 seconds of
+service elaboration, 0.250 seconds of request time and 3.274 seconds waiting for
+the shared lease (3.597 seconds client total). The identical corrected scratch
+file via CLI under that lease took 1.23 seconds. These are one-machine development
+observations, not final verification or proof-throughput evidence; contention
+made this HTTP submission slower overall despite faster warm elaboration.
+Recommendation: retain the persistent shared service and client binding checks,
+revise cold-request timeout guidance, and retain CLI diagnosis when a request
+times out. Do not restart a live session solely because observation timed out.

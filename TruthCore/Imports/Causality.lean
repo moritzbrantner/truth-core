@@ -5,6 +5,7 @@ import TruthCore.Causality.BruteFoundationBoundary
 import TruthCore.Causality.BruteFoundationDoubling
 import TruthCore.Causality.BruteFoundationExplanations
 import TruthCore.Causality.BruteFoundationRoutes
+import TruthCore.Causality.ChainInstantiation
 import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.EssentialPower
@@ -23,6 +24,7 @@ import TruthCore.Causality.NecessaryBeingSurvey
 import TruthCore.Causality.NecessarySimplePlurality
 import TruthCore.Causality.ParityUnionRegress
 import TruthCore.Causality.PartFreePlurality
+import TruthCore.Causality.PluralRootConfluence
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings

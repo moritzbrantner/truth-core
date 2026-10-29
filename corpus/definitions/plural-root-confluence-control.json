@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "term": "upstream confluence test on the unchanged part-free plural-root interpretation",
+  "definition": "PluralRootConfluence.graph is exactly WorldSourceRegress.actualGraph PartFreePlurality.ontic false. node x only pairs the same x with its existing True actuality witness. In this fixed interpretation Causes and power.supportsEsse are both the original strict rank relation, so the actual causal/support graphs are definitionally equal. Control conjoins the original JointControl with connectivity, WF, two distinct source witnesses, their shared instrument effect, nonjoinability of their upstream endpoints, and failure of confluence and unique rootedness.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PluralRootConfluence.Control",
+  "note": "A view/certificate of existing assignments, not new general causal vocabulary or a universal identification of efficient causation with existential support. A graph\u2019s actual-node subtype concerns modeled ExistsAt, not independent warrant of real existence. See docs/notes/part-free-plurality.md, Upstream confluence on the same interpretation."
+}
