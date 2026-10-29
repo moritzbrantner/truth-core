@@ -37,6 +37,12 @@ class ResearchIndexTests(unittest.TestCase):
         self.assertEqual({r['id'] for r in lookup(db, 'S')['referenced_by']}, {'A', 'B'})
         self.assertEqual(duplicates(db)[0]['argument_ids'], ['A', 'B'])
 
+    def test_same_id_result_references_its_argument_without_identity_self_links(self):
+        db = self.open()
+        references = lookup(db, 'arguments:A')['referenced_by']
+        self.assertEqual([(item['kind'], item['id']) for item in references], [('results', 'A')])
+        self.assertEqual(lookup(db, 'arguments:B')['referenced_by'], [])
+
     def test_corpus_edit_rejects_stale_queries(self):
         self.open()
         self.put('statements', {'id': 'S', 'paraphrase': 'changed'})

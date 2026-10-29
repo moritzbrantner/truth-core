@@ -37,8 +37,9 @@ def references(value):
         for item in value:
             yield from references(item)
     elif isinstance(value, dict):
-        for item in value.values():
-            yield from references(item)
+        for field, item in value.items():
+            if field != 'id':
+                yield from references(item)
 
 
 def entities(path, value):
@@ -90,7 +91,7 @@ def build(root, destination):
                            (key, identifier, kind, path.relative_to(root).as_posix(), body))
                 db.execute('INSERT INTO search VALUES (?,?)', (key, body))
                 db.executemany('INSERT OR IGNORE INTO refs VALUES (?,?)',
-                               ((key, ref) for ref in references(record) if ref in known and ref != identifier))
+                               ((key, ref) for ref in references(record) if ref in known))
                 if kind == 'arguments':
                     signature = json.dumps(sorted(set(record.get('premise_statement_ids', []))))
                     db.execute('INSERT INTO arguments VALUES (?,?,?)',
