@@ -107,6 +107,21 @@ for the attempt format and reference boundaries.
 - Keep source interpretation, proposition extraction, formalization, proof search, and proof verification distinct. Lean's kernel verifies accepted proof terms; tactics, solvers, and LLMs are search helpers, not authorities.
 - Machine-checkable does not mean automatically discoverable. Failure to find a proof is not a refutation, and formal verification establishes consequence only inside the encoded system—not premise truth, source fidelity, empirical truth, or completeness of the chosen logic.
 
+## Semantic grounding of metaphysical relations
+
+Every newly introduced or substantially reinterpreted relation involving causation, dependence, grounding, contingency, necessity, or explanation must have an independently defensible interpretation.
+
+For philosophically significant relations:
+
+1. Explain their meaning in ordinary language.
+2. Identify concrete examples and counterexamples, or explicitly record why examples remain unavailable.
+3. Distinguish them from superficially similar relations.
+4. Independently justify structural properties such as transitivity, asymmetry, and well-foundedness.
+5. Justify any generalization from ordinary experience to metaphysical claims.
+6. Test the interpretation against serious competing accounts.
+
+A formally verified theorem establishes a conditional consequence, not the truth or applicability of its metaphysical interpretation. Never treat a mathematical relation as genuinely causal or explanatory merely because of its name.
+
 ## Permanent invariants
 
 1. **Research before formalization.** Every source-derived claim must point to a stable source record and a precise locator. For a copyrighted work with no pinnable witness, that locator may be a `bibliographic_span`: edition, ISBN or DOI, and exact pages or section, without pinned bytes (owner decision 1c on #378; see `docs/source-evidence.md`).
