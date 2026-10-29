@@ -466,7 +466,7 @@ an author's whole theory by fiat.
 
 | Account | Case and indifferent agent | Conflict and open bridge |
 |---|---|---|
-| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. Neither that general passage nor its first precept alone derives the precise two prohibitions. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
+| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. II–II q.64 a.6 co. argues against killing the innocent, grounded in the victim’s nature and common good; ad 1 qualifies this in the case of a divine command. This is a sourced case-specific answer, not a verified universal without exception or a demonstrated categorical-reason bridge. The cited q.94 passage alone does not derive either precise prohibition, and the recorded slice does not derive the nonconsensual-violation case. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
 | Railton, naturalistic realist | Impartial rightness counts affected interests equally; moral obligation can apply despite an agent's lacking instrumental reason (pp. 201–204). His specific condemnation of mass killing is above. The present source slice does not derive either universal case prohibition, and he rejects a reason independent of all ends. | His impartial assessment calls for comparison of all affected interests, not merely the offender's; the adequacy of aggregation and application remains open. A categorical-reason requirement is a disputed extra premise, not built into his view. |
 | Enoch, non-naturalistic realist | His independently normative survival-value premise and third-factor access reply (§§5.1–5.3) offer a substantive realist response, not the first-order case norms. The sourced fragment does not establish either prohibition or a categorical reason for this offender. | Defend the normative starting point, qualified epistemic connection, and case-specific first-order norm and reason; a pro-tanto good of survival can be outweighed. An additional priority principle is needed for the selected conflict. |
 | Gibbard, expressivist | Planning and coordination, with inferential relations among normative commitments, offer action guidance and condemnation without requiring stance-independent moral truth (Reply to Commentators, pp. 535–544). The existing plan semantics is an analyst reconstruction, not his indicative semantics. This slice does not establish that he specifically endorses either hard-case norm or that an indifferent offender has a categorical reason. | A suitably committed plan can rule out a violation and guide action; which plan or priority to adopt, and why it binds an indifferent agent, remains a substantive question. No refusal to derive a realist prohibition licenses an act. |
@@ -486,3 +486,43 @@ positive permission, endorsement, or proof that a real offender lacks a
 reason. A theory that supplies a valid case-specific norm and a prohibition
 implies categorical reason bridge would rule out the corresponding negative
 assignment; neither bridge is established by the present controls.
+
+
+#### Stronger typed controls and targeted source correction
+
+The earlier Boolean certificate remains a narrow control, not a model of the
+two goods. `HARD-CASE-TYPED-CONTROLS` instead fixes human roles, separate
+actions and contexts, nonconsent, deliberate killing, innocence and lack of
+threat, indifference, benefit, lack of punishment and feasibility; it then
+varies only the supplied normative verdicts. One witness has both prohibitions
+and reasons; another denies both supplied prohibitions; a third retains both
+prohibitions without the supplied reasons. This is an omission test for the
+explicitly thin factual profile, not a model of every rival's stronger
+assumptions. False prohibition does not entail permission.
+
+The conflict model distinguishes promise keeping and serious harm prevention
+as two goods. It recognizes both, makes each of two feasible alternatives
+realize its corresponding good but not the other, and supplies two ideal
+frames selecting opposite alternatives, each with a feasible ideal successor.
+The recognition and realization assignments are stipulated, not discovered
+moral truths; no priority principle or empirical possibility is established.
+The model does not derive either priority from a source. A deontologist may
+assign strict priority to the promise under a stated principle; a consequentialist
+may instead prioritize the prevention of grave harm under a stated rule.
+Neither rule follows merely from recognition and feasibility of both goods.
+
+The new `AQUINAS-ST-II-II-Q64-A6-EN` pins and materializes the public-domain
+1920 English translation (New Advent), q.64 a.6 co. and ad 1, including the
+argument about love of human nature, common good and the divine-command reply.
+The source's divine-command qualification cannot be erased by citing only
+the broad conclusion. How Aquinas reconciles the two is an interpretive issue;
+the present record does not decide it. No categorical reason for an
+indifferent agent follows merely by labeling an action unlawful.
+
+Gibbard, *Reply to Commentators* pp. 541–542, distinguishes permitting,
+forbidding, and requiring oneself in a hypothetical situation from picking
+between alternatives one takes to be eligible. His action-guidance reply is
+therefore stronger than mere emotional disapproval. It does not automatically
+yield the content of the agent's plan, an unconditional categorical reason,
+or the relevant conflict priority. The analyst's material-conditional plan
+semantics remains separate from Gibbard's discussion of indicatives.

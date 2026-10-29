@@ -1,0 +1,9 @@
+{
+  "id": "INF-HARD-CASE-TYPED-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HARD-CASE-TYPED-CONTROLS",
+  "rule": "construct-typed-case-and-feasible-conflict-witnesses",
+  "meaning": "Constructs one typed factual interpretation with differing verdicts and one with two independently distinguished recognized goods and feasible opposing ideal frames. Neither witness licenses a real-world verdict.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
