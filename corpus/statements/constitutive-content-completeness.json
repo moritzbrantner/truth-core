@@ -1,0 +1,24 @@
+{
+  "id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+  "paraphrase": "The proposed constitutive content distinguishes represented natures: if two principle values agree pointwise on every content respect, they are equal. This is an OPEN extensionality commitment, not merely a common predicate or a definition of real essence.",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.ConstitutiveContentComplete",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}
