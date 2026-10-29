@@ -1,0 +1,9 @@
+{
+  "id": "INF-INFINITE-GREATEST-WHOLE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INFINITE-GREATEST-WHOLE-CONTROL",
+  "rule": "Construct explicit order and omission controls; compose existing model certificates",
+  "meaning": "Use the Mathlib powerset inclusion order and real order separately, inject constants/singletons to witness both infinite carriers, and refute each coordinate bound by a+1. Exhibit a proper region with no priority edge; midpoint extends each open-interval degree; disjoint singleton regions witness restricted incomparable maxima. Apply unchanged QuartaViaDegreeFork.branchWitnesses for the old finite/Nat controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -5,6 +5,7 @@ import TruthCore.Models.BoundedOmission
 import TruthCore.Models.FiniteSupport
 import TruthCore.Models.HistoryTimeScope
 import TruthCore.Models.Inertia
+import TruthCore.Models.InfiniteGreatestWhole
 import TruthCore.Models.MegarianCapacity
 import TruthCore.Models.ModalExistenceDegrees
 import TruthCore.Models.NecessarilyUnderived

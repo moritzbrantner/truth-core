@@ -31,9 +31,16 @@ def QuartaViaStrictCausalTop {Being Respect : Type}
 /-- Every being has a strictly higher being in the selected respect. This does
 not assert that it has a cause, causal predecessor or infinite causal chain.
 The predicate alone is vacuous on an empty carrier; the fork adds population. -/
-def QuartaViaUnboundedDegrees {Being Respect : Type}
+def QuartaViaNoMaximalDegree {Being Respect : Type}
     (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
   ∀ x, ∃ y, MoreIn esse y x
+
+/-- Compatibility name for strict degree extension at every member. This says
+no member is maximal, not metric unboundedness: even `(0,1)` has this property.
+An infinite greatest spatial whole need not satisfy it under region inclusion. -/
+def QuartaViaUnboundedDegrees {Being Respect : Type}
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
+  QuartaViaNoMaximalDegree MoreIn esse
 
 /-- The selected perfection is instantiated, and either a strict causal top
 exists or every being has a strictly higher being. This states coverage only;
