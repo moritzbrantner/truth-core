@@ -209,6 +209,13 @@ expression and its 28 project dependencies. Record coverage/freshness is checked
 by `scripts/bundle_audit.py` and CI. Neither checker decides philosophical
 adequacy. Root-route premise identities and costs remain unchanged.
 
+The initial delivered CI exposed two tooling integration defects: the explorer
+impact planner omitted the new audit/contract inputs, and a schema-registration
+test mocked all JSON reads as its saved Lean response. Added the exact build
+inputs and restricted the mock to its fixture; the affected 5 schema and 35
+impact-planning tests pass. Proof/source inputs and the recorded philosophical
+comparison are unchanged. Final delivered CI remains required.
+
 No local service endpoint/workspace/session was configured for this task; the
 existing documented CLI fallback was used. There was no service experiment or
 service-verification evidence in this slice.
