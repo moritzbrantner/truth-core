@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-TEMPORAL-ACTUALIZATION-FORK",
+  "date": "2026-10-29",
+  "statement_ids": [
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-CONSECUTIVE-MOVERS-HAVE-DISTINCT-RESPECTS",
+    "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
+    "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+    "STMT-TEMPORAL-ACTUALIZATION-CONTROLS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Certified semantic direction coverage and separate pairwise exclusivity under an explicit linear clock; StrictForward excludes every Mathlib TransGen closed walk but not infinite descending causation. Actual downstream consumption in Reciprocal.consume case-splits the imported framework, excludes strict/backward horns for a reciprocal pair under NoBackward, then instantiates exact existing consecutiveRespects at their proved equal exercise time. Joint simultaneous alternating-respect circle satisfies all local canonical premises/projection; it remains source-free and only mathematically witnessed. A₀→B₁→A₂ projects to being feedback but has no event cycle. Optional staging permits overlapping exercise and later attainment. Imported original successor-chain non-accessibility and temporal event/Zeno controls retain their scope. Existing primary witnesses VII.1/VIII.5/IV.11/q2a3 materialized and read; precise locators, rejected strict-priority/source attributions, strongest sustaining rival and remaining real-world bridges persist in docs/notes/temporal-actualization-fork.md. No new source claim. Related discovery via owner corpus index and exact dossiers preceded definitions. First full edit (SHA52c187b1a269781bb169197bb00bf3f4a8d2040b58b85c6ca79f3d1745b68c57) took 289.411s and returned local development errors (quantifier simp shape, lambda beta-reduction in omega, reducible decision instances); it was never proof evidence. Coordinator built the missing preview import and reopened the shared session under lease. Corrected full edit accepted clean preview db603d3140e92c4b1ca653ab2098a0189a70653f, session master-20261029 version1, content 191e3d1403adf0dba17368a77408b5843915bb0ec90c8925d2fc93dfb1e19987; no errors/warnings/sorry, only print-axioms info propext/Classical.choice/Quot.sound. HTTP2.518s, service2.500s, lease0.000028s; identical corrected CLI9.288s accepted under the same lease/import setup. Single-run comparison recommends retaining service with dependency readiness and cold-timeout handling; no proof-throughput claim. Corpus GET returned exact existing respect statement hash294290881603960e530b48a311265a43d8e0ea3eaf50bbc6c497d487c39d24fc bound to canonical dirty clone. Frozen Challenges {\"Controls\": \"9eb46cd1a5859eee8799f6e6180c740f23392a24f2ae88ab4cf8514f2ce8d432\", \"Framework\": \"2dcf80370c207209ff420b7f6ebe1b856332367efc7fa9bd4e99a5117a7c98a3\", \"Reciprocal\": \"f2f42ff8518f69132b58a5227f260443574999de526ad080b1da8f525b38c7b4\"}. Intended/actual root-premise delta zero; local application premises remain open and none is inserted into root routes. Canonical final build, binding, Comparator and NanoDa remain CI-owned.",
+  "evidence": [
+    "TEMPORAL-DIRECTION-FRAMEWORK",
+    "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+    "TEMPORAL-ACTUALIZATION-CONTROLS",
+    "CONSECUTIVE-MOVER-RESPECTS",
+    "TEMPORAL-EVENT-CAUSAL-CONTROLS"
+  ],
+  "blocker": "No implementation blocker; actual clock direction, event-to-real-mover semantics and substantive source-grounded sustaining adequacy remain philosophically unproved."
+}

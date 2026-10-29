@@ -1,0 +1,21 @@
+{
+  "id": "STMT-EVENT-CAUSATION-NONBACKWARD",
+  "paraphrase": "Every edge in the selected event relation forbids a strictly earlier target exercise time than its source exercise time. Equal exercise times are permitted. This is an explicit open analyst profile, not an attributed thesis or a universally established causal law.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.NoBackward",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

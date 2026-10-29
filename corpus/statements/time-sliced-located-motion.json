@@ -1,0 +1,21 @@
+{
+  "id": "STMT-TIME-SLICED-LOCATED-MOTION",
+  "paraphrase": "At each supplied time, the existing canonical MovingIsInTheMovedReading holds for that time slice: whenever y moves x in r, x is being moved in r. The universal temporal lift remains an open premise; it is not a new source claim.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.LocatedMotion",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}
