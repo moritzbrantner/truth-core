@@ -25,6 +25,11 @@ theorem unrestricted_implies_synonymous {Entity : Sort u} {Respect : Sort v}
   intro c x r hne hc _
   exact h c x r hne hc
 
+/-- Explicit finite points avoid the axiom-bearing Fin numeral instance. -/
+def scopePoint0 : Fin 3 := ⟨0, Nat.zero_lt_succ 2⟩
+def scopePoint1 : Fin 3 := ⟨1, Nat.succ_lt_succ (Nat.zero_lt_succ 1)⟩
+def scopePoint2 : Fin 3 := ⟨2, Nat.lt_succ_self 2⟩
+
 /-- A finite control with a same-account causal edge and a changed-account
 causal edge. The restricted comparison holds, the broad comparison fails, and
 both edges and their account profiles are explicit. This is a logical model,
@@ -35,7 +40,7 @@ def SynonymyScopeControl : Prop :=
     (holds : Fin 3 → Unit → Bool → Prop),
     SynonymousCauseMoreSuchReading causes more holds ∧
     ¬ CauseOfQualityInAnotherIsMoreSuchReading causes more ∧
-    causes 0 1 () ∧ (∃ s, holds 0 () s ∧ holds 1 () s) ∧ more () 0 1 ∧
-    causes 1 2 () ∧ (¬ ∃ s, holds 1 () s ∧ holds 2 () s) ∧ ¬ more () 1 2
+    causes scopePoint0 scopePoint1 () ∧ (∃ s, holds scopePoint0 () s ∧ holds scopePoint1 () s) ∧ more () scopePoint0 scopePoint1 ∧
+    causes scopePoint1 scopePoint2 () ∧ (¬ ∃ s, holds scopePoint1 () s ∧ holds scopePoint2 () s) ∧ ¬ more () scopePoint1 scopePoint2
 
 end TruthCore.Greek.Aristotle.Metaphysics
