@@ -4,6 +4,7 @@ import { ThemeSwitcher } from "@/components/theme-switcher";
 
 const links = [
   { href: "/", label: "Frontier" },
+  { href: "/atlas", label: "Atlas" },
   { href: "/state", label: "Case" },
   { href: "/statements/STMT-CATHOLICISM-TRUE", label: "Root proposition" },
   { href: "/candidates", label: "Research" },
