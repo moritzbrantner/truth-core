@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-BEARER-REGRESS-562",
+  "date": "2026-10-31",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
+    "STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT",
+    "STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT",
+    "STMT-BEARER-OUTCOME-COVERAGE",
+    "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
+    "STMT-BEARER-REGRESS-CONTROLS",
+    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+    "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS"
+  ],
+  "summary": "Inventoried Cogito #532/#536/#564, occurrence #701 and necessarily-underived #495 records, and reused their vocabulary rather than a new Support type. Proved coverage of four outcome forms with explicit excluded middle, the exclusion of nonterminating forms by terminus forms, and a primary-substance terminus under well-foundedness and two open bridges. Models witness each form and the bundle case. Rejected: inferring a bearer of a bearer (no support or bearing edge follows; NonSubstanceBranchModel); defining Dependent as having a supporter (makes the ancestry premise trivial); treating the terminus forms as exclusive (BothTerminiModel); treating 'has a terminus' and regress as exclusive (TerminusWithCycleModel; the exclusive split is accessibility); attributing the bridges to Aristotle (Categories I.2 within 1a20-1b9, materialized ARIST-CAT-V, states inability to be apart, not direct support; and V 2a11-14 gives a negative test and examples). Finding: a support-minimal terminus passes that negative test under the bridges, and the same terminus can fail a separately supplied Substance, so the test alone does not exclude a kind-classifying rival; the model marks nothing as a process. Not attempted: a constructive coverage without excluded middle, a Process predicate or a bridge from non-substantial terminus to process, omission models for occurrence, bearer principle and bearer existence, and a defense of well-foundedness for this relation. Nihilism is not formalized here. See docs/notes/bearer-regress.md. No root premise change.",
+  "evidence": [
+    "BEARER-OUTCOME-COVERAGE",
+    "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+    "BEARER-REGRESS-CONTROLS"
+  ]
+}

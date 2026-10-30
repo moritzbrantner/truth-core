@@ -1,0 +1,10 @@
+{
+  "id": "BEARER-OUTCOME-COVERAGE",
+  "argument_id": "BEARER-OUTCOME-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.BearerRegress.someBearerOutcome",
+  "comparator_config": "results/BEARER-OUTCOME-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Classical coverage (excluded middle as an explicit premise), not a transcription: Acc induction and the set of non-accessible ancestors give the positive branch forms. All four non-logical premises open. No branch is asserted, and the case split itself decides nothing about which holds. Exclusivity is a separate obligation, handled in BEARER-REGRESS-CONTROLS. No root change."
+}

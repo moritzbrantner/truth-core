@@ -1,0 +1,15 @@
+{
+  "id": "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
+  "paraphrase": "Every existing support-ancestor of a bearer of an occurring thought, the bearer included, that satisfies the supplied dependence predicate has an existing direct supporter at the selected world. An explicit open premise, not attributed to a source. Silent about entities outside these ancestries.",
+  "lean_declaration": "TruthCore.Causality.BearerRegress.BearerAncestryDependentsSupported",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-BEARER-SUPPORT-ANCESTRY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}
