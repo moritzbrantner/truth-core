@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "OPPY-UNIVERSE-NO-CAUSE-2020",
+    "source_url": "https://catalogimages.wiley.com/images/db/pdf/9781119028451.excerpt.pdf",
+    "retrieved_at": "2026-10-30T12:45:00Z",
+    "sha256": "sha256:1c4af32eee55cf9d0728d50221ec95c13027d9d577ad561a9cc060153c1ee30e",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright 2020 John Wiley & Sons. Publisher-hosted public book excerpt. Only hashes, locators, short incipit and analytical paraphrases committed; no full-text redistribution. The complete selected chapter uses explicit join_soft_hyphens text normalization for discretionary PDF line-break marks; raw-byte integrity remains unchanged (PR #739 CI extraction repair)."
+  },
+  "passages": [
+    {
+      "id": "OPPY-UNIVERSE-NO-CAUSE-13-22",
+      "locator": "The Universe Does Not Have a Cause, pp.13\u201322, \u00a7\u00a7I\u2013VII (complete Oppy chapter with immediate Koons reply context on p.22)",
+      "claim_locator_prefixes": [
+        "\u00a7"
+      ],
+      "pdf_pages": {
+        "first": 13,
+        "last": 22,
+        "text_normalization": "join_soft_hyphens"
+      },
+      "text_sha256": "sha256:624cff0fbbf6e51580a1d42cd9b2e5f24d58f386e591dd1d0bb0168bfe4d50a4",
+      "incipit": "The Universe Does Not Have a Cause Graham Oppy I. Causal Reality Consi"
+    }
+  ]
+}

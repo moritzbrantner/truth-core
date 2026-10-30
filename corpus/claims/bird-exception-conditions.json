@@ -1,0 +1,11 @@
+{
+  "id": "BIRD-2004-EXCEPTION-CONDITIONS",
+  "statement_id": "STMT-BIRD-2004-EXCEPTION-CONDITIONS",
+  "source_id": "BIRD-ANTIDOTES-2004",
+  "locator": "§§1–3 and §§6–7, pp.259–262 and 268–269",
+  "interpretation": "Retains the conditions from the consulted complete article. No all-macroscopic or all-fundamental strict law thesis is attributed: Bird argues against fundamental finks but leaves the general absence of fundamental antidotes inconclusive. The new Lean copy rule is an analyst profile, not this source’s law theory.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BIRD-DISPOSITIONS-EXCEPTIONS"
+  ]
+}

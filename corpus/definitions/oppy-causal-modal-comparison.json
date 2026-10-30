@@ -1,0 +1,12 @@
+{
+  "id": "DEF-OPPY-CAUSAL-MODAL-COMPARISON",
+  "term": "Oppy’s natural causal reality, restricted worlds and primitive ontological necessities",
+  "basis": "sourced",
+  "definition": "Causal reality includes every causal relatum; Oppy proposes that natural reality exhausts it. His possible worlds share actual laws and some initial history and diverge through objective chance. He leaves a unique natural initial cause versus infinite regress open. In the restricted general-causal comparison, he balances commitments against explanatory breadth/depth and treats ontological necessities as primitives.",
+  "claim_ids": [
+    "OPPY-2020-NATURAL-CAUSAL-REALITY",
+    "OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
+    "OPPY-2020-NECESSITY-COMPARATIVE-COST"
+  ],
+  "note": "Source-specific proposal, not a proved metaphysically exhaustive modal semantics. Necessary initial state, particular state or aspect are alternative formulations in §VI; no rigid individual identity is inferred from a shared description. Necessity is not defined as independence, full explanation, cognitive access or divine attributes. The causal-priority and no-cycle principles in §I and the controversial necessity-to-independence step in §VI are Oppy’s arguments, not imported axioms here. See docs/notes/ultimate-explanation-and-knowledge-737.md."
+}

@@ -8,6 +8,7 @@ import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
+import TruthCore.Results.Causality.DerivativeJointPower.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
@@ -23,6 +24,7 @@ import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
+import TruthCore.Results.Causality.JointGroups.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution

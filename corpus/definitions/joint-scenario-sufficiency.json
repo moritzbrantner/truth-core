@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
+  "term": "scenario-relative joint sufficiency and contributor deletion",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices",
+  "definition": "A supplied antecedent event set suffices for an effect when, in every allowed scenario, occurrence of all antecedents implies occurrence of that effect. Group sufficiency uses the contributor/enabler union. Indispensability and redundancy test removal from the contributor set with all enablers retained. This differs from admission, membership or actual exercise.",
+  "note": "Allowed scenarios and background must be independently defended. The finite fixture allows every Boolean input scenario and has an allowed populated actual scenario. Neither scenario sufficiency nor occurrence establishes causal production, existential support or explanatory completeness; these remain OPEN. See docs/notes/joint-causal-groups-733.md."
+}

@@ -10,6 +10,7 @@ import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.ConstitutiveConfiguration
 import TruthCore.Causality.ConstitutiveNatureUniqueness
 import TruthCore.Causality.ConvergentSchedule
+import TruthCore.Causality.DerivativeJointPower
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.FiniteBranching
@@ -18,6 +19,7 @@ import TruthCore.Causality.FiniteRestriction
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
+import TruthCore.Causality.JointGroups
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NamedPotentialCauser

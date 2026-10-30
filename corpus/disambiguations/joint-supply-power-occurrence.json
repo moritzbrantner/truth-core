@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+  "term": "productive contribution versus enabling occurrence, existential path and actual explanation",
+  "sense_definition_ids": [
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+  ],
+  "resolution": "Supply requires every productive contributor of one supplier record; FinitelyGroundedPower follows one projected membership edge at a time. Neither defines actual borrowing or establishes explanatory adequacy. An enabler must occur under exercise coherence but need not exercise productive power. Admission, exercise, event occurrence, local active power and inductive Supply remain separate. PoweredGroups is scoped to records used as actual suppliers; arbitrary admitted alternatives can have inactive contributors, as AdmissionOmission certifies. Rooted branch indispensability holds over BOTH allowed source-on scenarios; selected history sufficiency and uniqueness do not inherit that omission witness. AtContext fixes one time/respect without identifying event tokens or their bearers; #711 alternating-respect motion remains a separate boundary. See docs/notes/derivative-joint-power-734.md."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ULTIMATE-EXPLANATION-PROFILE",
+  "term": "supplied local transition profile and deterministic continuation",
+  "definition": "Profile specifies a Boolean initial value and a time-dependent allowed-successor relation. Follows requires that initial value and every local transition. Deterministic requires at most one next state for each time/current state, not existence, stationarity, an unchanging output, empirical lawhood or access to a state. stable copies the current value; openFuture n enforces copying only while t+1<n+1. A local conditional consequence is an explanation only under independently defended law/mechanism semantics.",
+  "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Profile",
+  "basis": "stipulative",
+  "note": "Analyst comparison for #737. Conditional toy dynamics reuse Trace. No new causal or grounding relation is introduced. Strict transition satisfaction is not a universal account of scientific explanation; Bird’s fink/antidote qualifications prevent identifying dispositions with unqualified copying. Examples: an ideal retained switch setting; counterexample: a changing input or defeated mechanism. No transitivity, asymmetry or well-foundedness of metaphysical explanation is assumed. Generalization to actual mechanisms remains OPEN. See docs/notes/ultimate-explanation-and-knowledge-737.md."
+}
