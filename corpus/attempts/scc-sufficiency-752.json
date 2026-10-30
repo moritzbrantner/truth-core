@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-SCC-SUFFICIENCY-752",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-CONDENSATION-SUFFICIENCY-CERTIFICATE",
+    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+    "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "STMT-ULTIMATE-ADEQUACY-COMPARISON"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Certified what condensation preserves and loses for joint Supply. Paired models share one membership graph, hence every graph-determined summary, with different Supply. Over a well-founded condensation, under LocalPower and PoweredGroups, Supply of every active event coincides with escape inside components. Rejected before certification: the conjecture that condensed Supply could replace the well-founded hypothesis, refuted by the loop chain; the conjecture that well-foundedness is necessary, refuted by separate records on the #634 graph; treating Trap as tracking scenario indispensability; and reading a source component as a foundation. Actual-exercise, inductive-selection, modal and physical-to-existential bridges remain OPEN, and rivals rejecting Supply are not refuted. No source claim was added. Findings in docs/notes/scc-sufficiency-752.md. No root premise change.",
+  "evidence": [
+    "CONDENSATION-SUFFICIENCY-CERTIFICATE",
+    "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+    "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "ULTIMATE-ADEQUACY-COMPARISON"
+  ]
+}

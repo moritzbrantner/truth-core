@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+  "term": "per se link carried by a simultaneous event edge",
+  "definition": "LinkOnSimultaneousEdge clock bearer C Link: if Link t y x then there are tokens e, f with C e f, bearer e = y, bearer f = x, clock e = t and clock f = t. Intended example: this exercise of the hand's moved stick pushing this stone, while the stick is being moved. Counterexample to the converse: a simultaneous edge from an unmoved source is no link. The relation is assumed neither transitive, asymmetric nor well-founded.",
+  "basis": "stipulative",
+  "note": "Open analyst bridge for #718 with no source attribution. It is suggested by, but not read from, the simultaneity of mover and moved at Physics VII.1, 242a20-30 and the simul of ST I q.2 a.3; a rival who holds that every producing cause precedes its effect can deny it, or keep it and accept that no time has a link. What would source it: a reading tying the per se dependence of a second mover to one token's exercise. Research: docs/notes/temporal-actualization-fork.md.",
+  "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.LinkOnSimultaneousEdge"
+}

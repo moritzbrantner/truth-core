@@ -1,0 +1,10 @@
+{
+  "id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.RootMultiplication.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootMultiplication.Solution",
+  "theorem": "TruthCore.Results.Causality.RootMultiplication.uniqueFromUnlimitedNature",
+  "comparator_config": "results/UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Simplicity and first-being make each first mover lack a limiting principle. The OPEN bridge UnlimitedBeingsShareNature then gives one represented nature for first movers, and imported Q11NatureUniqueness.godIsOneFromNature with individuation and the adapter gives identity. Every-perfection is not used. No first mover is produced. The bridge is an unattributed open premise; its first-mover instance is not independent of uniqueness given individuation and the adapter, and only its reach beyond first movers exceeds uniqueness."
+}
