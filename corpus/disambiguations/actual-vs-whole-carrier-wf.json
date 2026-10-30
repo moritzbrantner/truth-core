@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+  "term": "well-foundedness of the selected relation: restricted to actual concreta, or over the whole carrier, and which relation",
+  "sense_definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+  ],
+  "resolution": "STMT-ACTUAL-GROUNDING-WF and every result of NECESSARY-OR-NONNECESSARY-ROOT, NECESSARY-ROOT-TRILEMMA and NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED use the restricted sense (DEF-ACTUAL-GROUNDING-WF). The whole-carrier sense WellFounded (grounds w), of BRUTE-ROOT-DISJUNCTION, implies the restricted one and is not implied by it (RestrictedWeakerControl in STMT-NECESSARY-ROOT-CONTROLS), so no step passes from restricted to whole-carrier. It is also a different condition from Acc at a thinker (DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING). In all these results the relation is the profile's grounds w. Reading it as efficient causing is the instance withCauses m, a different profile: RelationTypeControl shows a root of one relation need not be a root of the other, so a result at m is not a result about causing."
+}

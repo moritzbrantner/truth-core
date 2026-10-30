@@ -1,0 +1,24 @@
+{
+  "id": "STMT-ACTUAL-GROUNDING-WF",
+  "paraphrase": "The profile's selected relation at w, restricted to candidates that are concrete and exist at w, is well-founded. Cycles and descending chains through absent or non-concrete candidates are unconstrained. An open premise, not attributed to any source; it is relative to the selected relation, which the type does not identify with efficient causing.",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualGroundingWF",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}
