@@ -1,0 +1,24 @@
+{
+  "id": "PSR-SELF-APPLICATION-STANCE-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+  "inference_ids": [
+    "INF-PSR-SELF-APPLICATION-STANCE-MAP"
+  ],
+  "meaning": "Which stated commitments make the self-application charge a contradiction, and a witnessed consistent critic in the same signature. Interpretation and limits are in docs/notes/psr-self-application-756.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-EXEMPTION-STANDING",
+    "DEF-PSR-RESTRICTED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

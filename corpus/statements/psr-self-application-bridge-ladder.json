@@ -1,0 +1,21 @@
+{
+  "id": "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "paraphrase": "A restricted PSR that excludes a brute truth must contain it in its domain, and a domain that holds and contains b gives the domain holding b alone. The bridge from support to having a reason excludes supported brute truths, follows from the contingent-fact PSR at the world, gives that PSR under support coverage, and holds in a named model where the PSR fails, so without coverage it does not give the PSR. The bridge from evidence to having a reason follows from the PSR and forbids using a brute truth as evidence; in the named model science at world a it holds with a supported brute root and the PSR failing, and in premiseRoot a critic meets its demands while the bridge fails. The conditional that an accessible brute truth defeats all support gives, with any support at the world, no brute truth at any accessible world. It also excludes a stance that accepts and demands a claim and meets its demands, when a brute truth is accessible. Named models delete each of that conditional, the accessible brute truth and the support. With any support and self-access at a world, it cannot hold together with the conjunct law, factive, necessitating, distributing and contingently irreflexive reasons, an aggregate of the contingent truths there and a contingent truth there, by the #755 collapse core. A necessary truth that necessitates what it explains cannot explain a contingent truth, while the named ground model explains a contingent choice by a necessary ground without necessitation, and another has the contingent-fact PSR with a necessary truth that has no reason; it fails unrestricted fact coverage as the scene does. No bridge is asserted or defended here; no PSR is established, no brute foundation is excluded unconditionally and no model is claimed metaphysically possible.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-EPISTEMIC-ONTIC-BRIDGES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ],
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.BridgeLadder"
+}
