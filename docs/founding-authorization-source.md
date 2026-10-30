@@ -242,20 +242,23 @@ Module `TruthCore.Case.Catholicism.StageThree.CommissionAttestation`, result
 grants the link premise, against the strongest historical argument for a
 governing commission and against a pinned critical denial.
 
-**The pinned denial.** Harnack, *History of Dogma* I, ch. II §3, note 76
-(`HARNACK-HOD-I-II-3-FN-76`, same Gutenberg snapshot as §2): "The words of the
-Lord, Matt. XVI. 18; XVIII. 17, belong to a later period." Claim
-`HARNACK-HOD-I-II-3-N76-CHURCH-SAYINGS-LATER` reads it at the event level for
-18.17 (`STMT-MATT-18-17-JUDGING-SAYING-LATER`: Jesus did not give the
-*ekklēsia* its judging power), because Harnack's §2 denies that Jesus founded a
-community; a wording-only reading was rejected for that reason. The note gives
-no argument and names only the two *ekklēsia* sayings. Matthew 16.18 names no
-power given to a disciple and bears on stage 5, not here. In Lean the denial
-refutes only that Matthew 18.17-18 goes back to Jesus
-(`judgingSayingLater_refutes_mt18`); it is compatible with
-`STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS` and with both attestation premises
-below (`judgingSayingLater_compatible`). **Matthew 16.19, 18.18, John 20.23
-and 21.15-17 are untouched by any pinned denial.**
+**The pinned critical witnesses.** Harnack, *History of Dogma* I, ch. II §3,
+note 76 (`HARNACK-HOD-I-II-3-FN-76`): "The words of the Lord, Matt. XVI. 18;
+XVIII. 17, belong to a later period." The claim
+`HARNACK-HOD-I-II-3-N76-CHURCH-SAYINGS-LATER` reads that dating only
+(`STMT-MATT-16-18-18-17-SAYINGS-LATER`). The note gives no argument, does not say later than what, and has the
+designation *ekklēsia* as its subject. Renan, *Life of Jesus* ch. XVIII
+(`RENAN-LIFE-XVIII`, `STMT-COMMUNITY-ATTRIBUTION-OF-CHURCH-POWERS-POSSIBLE`), after saying that Jesus confided to the Church
+binding, unbinding and remitting sins (note 11: Matthew 18.17 and following,
+John 20.23): "It is possible that many of these words may have been attributed
+to the master". That is a possibility about many words, and Renan is not a
+message-only rival: the same chapter has Jesus laying the foundation of a
+church. **No pinned source denies a named power outright.**
+
+The event-level `STMT-JUDGING-POWER-NOT-GIVEN-BY-JESUS` is unattributed. In Lean it refutes only that Matthew
+18.17-18 goes back to Jesus (`judgingPowerNotGiven_refutes_mt18`) and is
+compatible with `STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS` and both attestation
+premises below (`judgingPowerNotGiven_compatible`).
 
 **The attested family.** Matthew 16.19 and 18.18 (binding and loosing) and John
 20.23 (forgiving and retaining) share one form: the disciples' act on earth is
@@ -290,8 +293,21 @@ mandate and his founding of the Catholic Church must now deny one of:
    critical sense means formed by the community.
 
 Otherwise it denies the link premise, the mandate or the founding (stage 5,
-Harnack's own route in §2). Harnack's note 76 supports none of these denials
-beyond the Matthew 18 commission.
+Harnack's own route in §2). Renan's possibility, if it held for binding and for
+remitting alike, would be a way of taking option 2; that use is this corpus's,
+not his argument.
+
+**A denial of Matthew 16.19 alone.** Denying the keys and binding and loosing,
+with the two attestation premises, leaves forgiving and retaining as the power
+Jesus gave (`matt16PowersNotGiven_forces_john`), and this is satisfiable with the
+report-to-event premise (`matt16PowersNotGiven_compatible`). A denial of the whole
+family rejects independence or the criterion
+(`familyNotGiven_rejects_attestation`) and a model has independence true and
+the criterion false (`familyNotGiven_with_independence`). These denials are
+hypotheses of the theorems: no pinned source states them, and `Power` has one
+`bindAndLoose` for the singular 16.19 and the plural 18.18, so a critic who
+denies only the Petrine address is not represented. Lean proves these conditionals
+only; it gives no historical confidence in any branch.
 
 **What it does not do.** The two attestation premises yield only *some*
 heaven-ratified power, not a whole governing report, so they do not give
@@ -300,12 +316,12 @@ Matthew 28's report-to-event content they would give the narrow premise
 (`narrow_from_attestation`), but that route is not recorded as an argument: it
 would replace one sourced premise with two unsourced ones.
 
-**Paul on Cephas** (`NT-GAL-2`, claim `NT-GAL-2-7-9-CEPHAS-PILLAR`; 1.18 in
-`NT-GAL-1`). Within Paul's lifetime Cephas is one of three reputed pillars and
-holds an apostolate to the circumcised. This is a datum both sides explain: by
-a commission (Matthew 16.18-19, John 21.15-17), or by the first appearance
-(1 Corinthians 15.5) and his role among the disciples. It does not discriminate
-and is not a premise; Paul names James first and opposes Cephas at Antioch.
+**Paul on Cephas** (`NT-GAL-2`, `NT-GAL-1`; no claim). Paul reports James,
+Cephas and John as reputed pillars (2.9), the apostleship of the circumcision
+of Peter (2.8) and a fifteen-day stay with Cephas (1.18). Both a commission and
+the first appearance (1 Corinthians 15.5) would explain this. It does not
+discriminate and is not a premise; Paul names James first and opposes Cephas
+at Antioch.
 
 **Open.** Pinnable sources for the criterion and for John's independence (or
 dependence) were not found: archive.org was unreachable and the standard
