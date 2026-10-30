@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Logic.TruthNontriviality.Core.truthNontrivialityCore",
   "comparator_config": "results/TRUTH-NONTRIVIALITY-CORE/comparator.json",
   "status": "solution-present",
-  "description": "Conditional laws of predicate collapse and of what a global denial of truth excludes. Each bridge is an explicit hypothesis. It refutes no rival that denies the bridges, and it proves no absolute truth exists."
+  "description": "Conditional laws of predicate collapse and of what a global denial of truth excludes. Each bridge is an explicit hypothesis. It applies to a rival only once that rival's predicate meets the hypotheses, and it does not prove that some content is absolutely true."
 }

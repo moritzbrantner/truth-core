@@ -98,8 +98,8 @@ def GlobalDenialPrice : Prop :=
 /-- The laws and the price (`STMT-TRUTH-NONTRIVIALITY-CORE`). -/
 def TruthNontrivialityCore : Prop := CollapseLaws ∧ GlobalDenialPrice
 
-/-- Local collapse survives: an expressive, uncollapsed predicate with one
-two-member domain where all hold and another where all fail. -/
+/-- Local collapse survives: an expressive, uncollapsed predicate with one domain
+of at least two members where all hold and another such domain where all fail. -/
 def LocalCollapseModel : Prop :=
   ∃ (Content : Type) (truth : Content → Prop) (Dh Df : Norm.Demarcation Content),
     Expressive truth ∧ ¬ Collapse truth ∧

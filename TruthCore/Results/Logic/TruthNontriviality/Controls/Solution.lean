@@ -54,8 +54,9 @@ def Glut.neg : Glut → Glut
 
 /-- The designated values. -/
 def Glut.holds : Glut → Prop
+  | .t => True
+  | .b => True
   | .f => False
-  | _ => True
 
 theorem glutModel : GlutModel := by
   refine ⟨Glut, Glut.holds, Glut.neg, ⟨.b, trivial, trivial⟩, ⟨.f, fun h => h⟩, ?_, ?_, ?_⟩
