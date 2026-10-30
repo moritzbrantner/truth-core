@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-COOPERATION-LADDER",
+  "term": "coexistence, compatibility and actual coordination",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.JointCooperation.Coordinated",
+  "definition": "Coexist: both events occur at the actual scenario. Compatible: both occur at some allowed scenario. Coordinated: the exercise is coherent, the record is exercised, and the two events are distinct contributors of it. Joint scenario sufficiency and Supply are the existing notions, kept separate from all three.",
+  "note": "Stipulative, reusing the #733 and #734 records. Coordinated is a record-keeping condition and does not include any productive relation; what would ground productive cooperation stays open. See docs/notes/joint-cooperation-744.md."
+}

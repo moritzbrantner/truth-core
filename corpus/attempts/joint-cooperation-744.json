@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-JOINT-COOPERATION-744",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-JOINT-COOPERATION-CERTIFICATE",
+    "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "STMT-PLURAL-ROOT-CONFLUENCE-CONTROL",
+    "STMT-ULTIMATE-ADEQUACY-COMPARISON",
+    "STMT-DIVERSE-IN-ONE-ORDER-PAIRWISE",
+    "STMT-DIVERSE-IN-ONE-ORDER-TOTAL"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Tested whether joint cooperation discriminates one source from plural independent ones on #733 Exercise semantics. Proved coverage for a coordinated jointly sufficient pair and the costs of each branch. Conjecture rejected: that necessary independent foundations must cooperate by coincidence. In one scenario space contributors occurring everywhere fit and are redundant, and in the fit model the effect occurs everywhere, so the coincidence charge is empty there; the same #735 records fall in the brute branch only on a scenario space that is not the modal space. Rejected as a discriminator: denial of the brute branch, since it excludes a source from being a coordinated needed contributor at one source or two, and one least source still has a brute needed pair while two sources can have none. Rejected as independent: denial of fit among contributors occurring everywhere, equivalent to per-record at-most-one, and the total reading of ST I q.11 a.3's third proof, which gives at-most-one source outright. Read the third proof in the materialized witness AQUINAS-ST-I-Q11-A3; two analyst readings recorded; its per se premise is left as candidate MANY-CAUSE-ONE-PER-ACCIDENS. RootMultiplication (#771) and CondensationSufficiency (#768) were unmerged at start and not imported.",
+  "blocker": "Scenario sufficiency cannot separate production from idle co-occurrence in the fit branch (an effect occurring everywhere is sufficed for by the empty set). Any further discrimination of the plural necessary rival needs an independently defended productive or per se causal notion applied to one source and to plural sources alike. No root premise discharged.",
+  "evidence": [
+    "JOINT-COOPERATION-CERTIFICATE",
+    "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "ULTIMATE-ADEQUACY-COMPARISON",
+    "AQUINAS-ST-I-Q11-A3-ONE-ORDER-A",
+    "AQUINAS-ST-I-Q11-A3-ONE-ORDER-B"
+  ]
+}
