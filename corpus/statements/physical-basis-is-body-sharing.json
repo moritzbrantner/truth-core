@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PHYSICAL-BASIS-IS-BODY-SHARING",
+  "paraphrase": "If a mental token of an intellectual exercise of the designated principle is physical or realized by something physical, the body shares in that exercise. An open, unattributed bridge. It is false on a reading where bodily sharing means only instrumental exercise through an organ and physical basis is not such an exercise.",
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicalBasisIsBodySharing",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
+  "paraphrase": "Each occurrence of the target mental kind that has a physical effect is such that not all of its physical effects are overdetermined by it. Overdetermining means causing an effect fully determined by prior physical occurrences while being neither among them nor realized by one of them. Occurrences with no physical effect satisfy this vacuously.",
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.EachCauseNotAllOverdetermined",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAPINEAU-PREMISE-3-SCOPE"
+  ]
+}

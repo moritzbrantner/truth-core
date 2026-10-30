@@ -1,0 +1,9 @@
+{
+  "id": "PSR-SELF-APPLICATION-STANCE-MAP",
+  "argument_id": "PSR-SELF-APPLICATION-STANCE-MAP",
+  "challenge_module": "TruthCore.Results.Explanation.PSRSelfApplication.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRSelfApplication.Solution",
+  "theorem": "TruthCore.Results.Explanation.PSRSelfApplication.stanceMap",
+  "comparator_config": "results/PSR-SELF-APPLICATION-STANCE-MAP/comparator.json",
+  "status": "solution-present"
+}

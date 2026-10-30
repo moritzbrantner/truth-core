@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-PSR-SELF-APPLICATION",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+    "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Certified when the self-application charge convicts: only against stated rules in the same epistemic sense, with a witnessed consistent critic that keeps an epistemic demand and a brute root. Rejected: reading a brute root as breaching an epistemic demand (equivocation; the critic model separates them); treating the supported-implies-explained bridge as an independent premise (under support coverage it gives the PSR, and it follows from the PSR, so it is the PSR over supported facts); a uniformity test alone as settling a boundary (any status is uniform relative to itself, and one stance is selective and restricted relative to different features); a boundary defined by having a reason (it holds in every arena). Tested and not defended: the evidence bridge leaves a brute truth that is never used as evidence; the global-defeat conditional gives no accessible brute truth from any support, but it is undefended and the rival who holds defeat is local denies it. Blocker: no argument for global defeat over local defeat is certified, and no narrowest-bridge claim is made beyond the tested forms. Not read: Koons-Pruss, Pruss, Della Rocca and their critics (#409), so nothing is attributed to them; the comparison of their defenses in #756 task 3 remains open. Not imported as lemmas: #698, #737/#739, #746, #750. See docs/notes/psr-self-application-756.md.",
+  "evidence": [
+    "PSR-SELF-APPLICATION-STANCE-MAP",
+    "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+    "PSR-COLLAPSE-CORE",
+    "PSR-STRENGTH-MAP"
+  ]
+}

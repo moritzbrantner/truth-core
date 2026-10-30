@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NONNECESSARY-ROOT",
+  "term": "nonnecessary root of the selected relation",
+  "definition": "ActualRoot m w x means x is an actual concretum at w and no actual concretum is related to x by grounds w. NonnecessaryRootAt m w says some actual root x has ¬ NecessaryAt m.ontic w x: x does not exist at every world accessible from w. It is a negated universal and exhibits no world lacking x. A root of the selected relation only, not shown absolutely unexplained, uncaused under a different relation, or temporally first: an abstract, absent or unmodelled ground or explanation remains possible.",
+  "basis": "stipulative",
+  "note": "Analyst's vocabulary for #553: 'uncaused relative to R', not 'uncaused absolutely' or 'absurd'. Would be sourced only by an account of what a root of real grounding or causing is (#505, #545).",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NonnecessaryRootAt"
+}

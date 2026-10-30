@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-RESTRICTED-SCOPE",
+  "term": "restricted PSR and brute truth",
+  "definition": "BruteAt A w f says f is a contingent truth at w with no reason at w. RestrictedPSR A w D says every contingent truth at w in the domain D has a reason at w.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #756, over the #755 arena.",
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.RestrictedPSR"
+}
