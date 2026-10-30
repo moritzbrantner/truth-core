@@ -32,10 +32,10 @@ def FirstMoversShareNature
   ∀ f g, IsFirstUnmovedMover Moved Moves f → IsFirstUnmovedMover Moved Moves g →
     essence f = essence g
 
-/-- Under individuation, the first-mover suppositum/nature adapter and
-every-perfection: distinct first movers have one act profile and different
-represented natures, and at-most-one is equivalent to each of the two preceding
-nature conditions. Supplies no first mover. -/
+/-- Distinct first movers have one act profile and different represented natures,
+and at-most-one is equivalent to each of the two preceding nature conditions. This
+definition assumes nothing; `residue` derives it from individuation, the first-mover
+suppositum/nature adapter and every-perfection. Supplies no first mover. -/
 def PluralityResidue
     (Moved : B → R → Prop) (Moves : B → B → R → Prop) (InAct : B → R → Prop)
     (essence : B → P) : Prop :=
