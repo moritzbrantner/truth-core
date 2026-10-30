@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMPONENT-ESCAPE",
+  "term": "escape inside a strongly connected component",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.ComponentEscape",
+  "definition": "ComponentEscape h I A says that each nonempty set of active events within one component contains an intrinsic event or the effect of an admitted record none of whose contributors is in that set. It restricts #734 Escape to subsets of a single component; the record's contributors may lie outside the component.",
+  "note": "Analyst condition with no independent metaphysical defense. It is necessary for Supply of every active event under LocalPower and PoweredGroups, and sufficient with a well-founded condensation; DEF-DERIVATIVE-JOINT-SUPPLY and docs/notes/scc-sufficiency-752.md give the standard it is measured against."
+}
