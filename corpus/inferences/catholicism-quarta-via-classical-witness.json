@@ -25,7 +25,7 @@
   ],
   "output_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
   "rule": "verified-result",
-  "meaning": "Choose the maximal witness supplied by the existing Fourth-Way inference. Full-description naming and the imported pointwise attribute proofs apply to this same maximum. The existing GodIsOne inference supplies uniqueness of all IsGod instances from its explicit converse premise, rather than confusing unique maximum with unique God. Then apply the unchanged ClassicalAttributesSuffice bridge. Philosophical premises remain open.",
+  "meaning": "Choose the maximal witness supplied by whichever Fourth-Way inference concludes STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL in the argument. Full-description naming and the imported pointwise attribute proofs apply to this same maximum. The existing GodIsOne inference supplies uniqueness of all IsGod instances from its explicit converse premise, rather than confusing unique maximum with unique God. Then apply the unchanged ClassicalAttributesSuffice bridge. Philosophical premises remain open.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

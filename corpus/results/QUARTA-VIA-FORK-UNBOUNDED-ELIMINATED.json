@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "argument_id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.strictTop",
+  "comparator_config": "results/QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED/comparator.json",
+  "status": "solution-present",
+  "description": "Fork-consumption site. On the stipulated homogeneous scale, QuartaViaDegreeFork.coverage gives the certified fork and QuartaViaUnboundedCore.incompatible excludes its unbounded horn under the added grades-to-maximum principle, leaving QuartaViaStrictCausalTop. Supplementary survivors obligation: the existing finite Boolean interpretation satisfies the fork background, the added principle and the strict top; the existing Nat interpretation satisfies the fork background and the unbounded horn and violates the added principle. The result is conditional and establishes no premise. It selects a top only under the listed background. It does not identify the top with God or with the maximally true, and adds no attribution to a source. The scale is a stipulated contrast reading and this result is off every root route."
+}

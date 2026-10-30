@@ -119,6 +119,12 @@ full-description naming theorem and the same nine pointwise attribute results
 to that maximum. The root imports `Skeleton.catholicismSkeleton`, using the
 witness's uniqueness to transport its attributes to all `IsGod` instances.
 
+`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE` keeps the same premises except
+`STMT-MOST-TRUE-IS-MOST-BEING`. It gets the maximum through a population-relative
+form of the degree fork's split, applying the maximum principle at esse as well
+as truth, and does not show the witness maximally true. The exact fork theorem is
+consumed off-route by `QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED`.
+
 The exact listed hypothesis set is a subset of the selected efficient-regress First-Way composition's:
 30 rather than 38, with no added premise. The omitted inputs are:
 

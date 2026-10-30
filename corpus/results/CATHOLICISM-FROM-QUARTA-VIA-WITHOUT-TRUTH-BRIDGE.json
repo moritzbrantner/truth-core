@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.catholicismFromQuartaViaWithoutTruthBridge",
+  "comparator_config": "results/CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Alternative Fourth-Way root composition with exactly the premises of CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES except STMT-MOST-TRUE-IS-MOST-BEING. The maximum comes from QuartaViaMaximumInBeing.maximeEnsCausesBeingOfAll, which adds no premise to the route but applies the grades-to-maximum principle at esse as well as at truth and actuality only insofar as being at truth. The truth bridge is omitted, not refuted or proved. The historical end remains a structural transcription conditional on revelation, history and authority bridges. All listed premises remain open, and the selected First-Way root route is unchanged."
+}
