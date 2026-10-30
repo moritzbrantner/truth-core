@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "BIRD-ANTIDOTES-2004",
+    "source_url": "https://ojs.ehu.eus/index.php/THEORIA/article/download/581/487",
+    "retrieved_at": "2026-10-30T12:00:00Z",
+    "sha256": "sha256:fbf89ada2be54f0bceffe7aacf8cf7c8dbc7e1a6c73147e24d8da41da23c1626",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "CC BY-NC-ND 4.0, as stated by the official Theoria journal article landing page. Only hashes, locators, short incipit and analytical paraphrases committed; no full-text redistribution."
+  },
+  "passages": [
+    {
+      "id": "BIRD-ANTIDOTES-FULL",
+      "locator": "Antidotes all the way down? (2004), Theoria 19(3), no.51, pp.259\u2013269, \u00a7\u00a71\u20137",
+      "claim_locator_prefixes": [
+        "\u00a7"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 11
+      },
+      "text_sha256": "sha256:81a2a139fdef4d81f8f8360b7ddb49bdd9406e44696feac0748aa48d5a0c907d",
+      "incipit": "Antidotes all the way down? Alexander BIRD BIBLID [0495-4548 (2004) 19"
+    }
+  ]
+}

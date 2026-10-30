@@ -1,0 +1,11 @@
+{
+  "id": "BIRD-2004-DISPOSITIONAL-LAW-ACCOUNT",
+  "statement_id": "STMT-BIRD-2004-DISPOSITIONAL-LAW-ACCOUNT",
+  "source_id": "BIRD-ANTIDOTES-2004",
+  "locator": "§6, pp.267–268, dispositional essentialism and laws",
+  "interpretation": "Bird’s positive dispositional-essentialist proposal, not an independently established metaphysical truth. He treats laws as explained by properties rather than independent extra factors. This source account supplies no general agent access to essences, proof of their instantiation or noncircular warrant for extending finite observations.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-BIRD-DISPOSITIONS-EXCEPTIONS"
+  ]
+}

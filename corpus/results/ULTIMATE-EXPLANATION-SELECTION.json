@@ -1,0 +1,10 @@
+{
+  "id": "ULTIMATE-EXPLANATION-SELECTION",
+  "argument_id": "ULTIMATE-EXPLANATION-SELECTION",
+  "challenge_module": "TruthCore.Results.Epistemology.UltimateExplanation.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.UltimateExplanation.Solution",
+  "theorem": "TruthCore.Results.Epistemology.UltimateExplanation.integration",
+  "comparator_config": "results/ULTIMATE-EXPLANATION-SELECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Composes merged HistorySelection.Certificate. Neither the source-free nor rooted history admits an evidence-only entailing selector on constant reason truth, while their shared coarse occupancy trace satisfies the same stable local profile with nonempty cells, exact forecasts and an optimal bet. The certified unique Int global law projects to that same trace and performance, conditional on that law. This compares selection and local prediction within explicit projections, not complete ultimate adequacy or agent access."
+}

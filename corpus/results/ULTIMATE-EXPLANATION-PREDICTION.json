@@ -1,0 +1,10 @@
+{
+  "id": "ULTIMATE-EXPLANATION-PREDICTION",
+  "argument_id": "ULTIMATE-EXPLANATION-PREDICTION",
+  "challenge_module": "TruthCore.Results.Epistemology.UltimateExplanation.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.UltimateExplanation.Solution",
+  "theorem": "TruthCore.Results.Epistemology.UltimateExplanation.certificate",
+  "comparator_config": "results/ULTIMATE-EXPLANATION-PREDICTION/comparator.json",
+  "status": "solution-present",
+  "description": "At each observed cutoff, a supplied stable copy-law profile has a nonempty evidence cell, exact persistence predictions and an outcome-wise optimal bet irrespective of the supplied Scope ground. A shared-prefix open-future profile admits true/false next values, defeats exact prediction and every outcome-wise optimal action but retains a safe action; even a grounded scope can accompany this failure. Adding the stable-law restriction strictly narrows that cell and improves prediction. Reuses both Hume test certificates; no empirical or normative entitlement conclusion."
+}
