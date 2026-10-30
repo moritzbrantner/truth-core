@@ -285,3 +285,50 @@ all three result-specific Comparator checks with NanoDa kernel acceptance;
 source/corpus manifests and generated imports/docs. These are formal/input
 checks, not endorsement of source interpretations or the remaining bridge.
 Delivered-head CI and review remain separate gates.
+
+
+## PR #739 source-extraction repair
+
+Original publication head `379373cb36165b7367bd792c44ac7ef6f4cf7846` failed the
+source step of CI run 41064713459, job 124093081647. The runner was Ubuntu 24.04,
+image 20261025.353, with `poppler-utils` and `libpoppler134`
+24.02.0-1ubuntu9.11. Bird, all proof gates and the current-head review passed.
+Oppy's PDF bytes matched the existing authoritative
+`1c4af32eee55cf9d0728d50221ec95c13027d9d577ad561a9cc060153c1ee30e`.
+Local Poppler 26.01.0 extracted 35977 normalized characters with original text
+hash `1630256b6a882bb66a93844ace3413925a79ac13e8ba21ab7ad3b4242f352f7d`;
+CI 24.02.0 extracted 35978 with
+`1a8139e599ba22c52b0bb7a4217dcfa689cf6416ec4165eff34631a71b579b77`.
+Temporary uncommitted Ubuntu package binaries reproduced that exact CI hash.
+
+The only differences were discretionary U+00AD placements on pp. 16, 18, 20:
+leading soft hyphen versus one after the first letter in “reality” and
+“singularity”, and an inserted line break/space between the first letter and
+remainder of “reality”. Ordinary letters and lexical punctuation were unchanged.
+`-layout` retained the difference; `-raw` also joined ordinary words differently
+and was rejected. Selecting around the unstable pages would omit relevant
+argument/context and was rejected. No equally usable full primary alternate
+witness surfaced; search snippets and abstract records were not substituted.
+
+The repair retains the entire 13–22 range and the exact PDF byte hash. Its
+manifest explicitly opts into `pdf_pages.text_normalization =
+"join_soft_hyphens"`: remove discretionary U+00AD and its following
+spaces/tabs/newlines, then perform the existing whitespace normalization.
+Ordinary lexical hyphens remain and no joining crosses page breaks; all other witnesses retain
+exactly their prior extraction policy. Both actual Poppler outputs now produce
+**35859 identical canonical characters** with a single pinned text SHA-256:
+`624cff0fbbf6e51580a1d42cd9b2e5f24d58f386e591dd1d0bb0168bfe4d50a4`.
+This is a specified extraction change checked against both real outputs, not
+acceptance of either unexplained original hash or unchecked source drift.
+
+The corrected complete passage was materialized under both versions and the
+outputs compared byte-for-byte; its consulted sections and immediate context
+were reread. The source interpretation, claims, philosophical conclusions,
+statement/argument types, Lean files and premise comparison are unchanged.
+Focused regression uses the actual three typography differences and verifies
+opt-in convergence, unchanged default behavior, preservation of lexical
+hyphens, rejection of unknown policies, changed canonical words and raw-byte
+drift. Local source manifest/corpus checks and the existing source adapter
+unit tests cover the repair; existing proof verification is reused unchanged.
+Final CI retains its full live-source coverage because the extraction script
+changed, plus the required delivered-head review.

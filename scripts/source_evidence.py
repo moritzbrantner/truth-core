@@ -1072,10 +1072,16 @@ def select_html_range(tokens: list[Token], selector: dict[str, Any], passage_id:
 
 
 def validate_pdf_pages(where: str, pages: Any) -> None:
-    if (not isinstance(pages, dict) or set(pages) != {"first", "last"}
+    if (not isinstance(pages, dict)
+            or set(pages) not in ({"first", "last"}, {"first", "last", "text_normalization"})
+            or ("text_normalization" in pages
+                and pages["text_normalization"] != "join_soft_hyphens")
             or any(type(pages[k]) is not int for k in ("first", "last"))
             or not 1 <= pages["first"] <= pages["last"]):
-        raise SourceEvidenceError(f"{where}: pdf_pages requires positive integer first <= last")
+        raise SourceEvidenceError(
+            f"{where}: pdf_pages requires positive integer first <= last; "
+            "optional text_normalization must be join_soft_hyphens"
+        )
 
 
 def extract_pdf_text(data: bytes, passage: dict[str, Any]) -> str:
@@ -1096,6 +1102,11 @@ def extract_pdf_text(data: bytes, passage: dict[str, Any]) -> str:
         raise SourceEvidenceError(f"{passage['id']}: PDF extraction failed: {result.stderr.decode('utf-8', errors='replace')}")
     try:
         decoded = result.stdout.decode("utf-8")
+        # Opt in per witness: Poppler versions can place a discretionary U+00AD
+        # before/inside a word or split its continuation onto the next line.
+        # Ordinary lexical hyphens are untouched; never join across a page break.
+        if pages.get("text_normalization") == "join_soft_hyphens":
+            decoded = re.sub(r"\u00ad[ \t\r\n]*", "", decoded)
         text = " ".join(decoded.split())
     except UnicodeDecodeError as exc:
         raise SourceEvidenceError(f"{passage['id']}: PDF extractor returned invalid UTF-8") from exc
