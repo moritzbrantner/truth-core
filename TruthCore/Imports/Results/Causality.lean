@@ -23,6 +23,7 @@ import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
+import TruthCore.Results.Causality.JointGroups.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution

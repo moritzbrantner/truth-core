@@ -221,7 +221,7 @@ Exact inventory (formal use and comparison are distinguished):
 | #467 history contrast | `TruthCore.Modal.HistoryContrastive.Discriminates`, `distinct_histories`, `internal_discriminates`, `causal_coverage`, `coverage`, `sound` | Shared semantics and prior populated local completeness; distinct_histories formally consumed; whole-vector extension is new. |
 | #312 necessity/PSR | `TruthCore.Causality.BruteFoundationExplanations.necessaryReasonAndNecessitation` | Comparison only: necessitation is an extra condition, not supplied by reason truth. |
 | #704 instantiation | `TruthCore.Results.Causality.ChainInstantiation.controls` | Existing populated/empty and finite-window comparison; no inference from Nat indexing to real infinite instantiation. |
-| #698/#712 target copying | `TruthCore.Results.Explanation.TargetCopyExpansion.certificate` | Existing independent negative control: even entailing coverage can copy target truth while preserving arbitrary reality. Not reproved or represented as adequate. |
+| #698/#712 target copying | `TruthCore.Results.Explanation.TargetCopyExpansion.checks` | Existing independent negative control: even entailing coverage can copy target truth while preserving arbitrary reality. Not reproved or represented as adequate. |
 | Fixed-point boundary | `TruthCore.Logic.Regress.Graph.grounded_eq_lfp`, `TruthCore.Results.Logic.RegressSchema.regressSchemaPackage` | Comparison only; inductive grounding and greatest-fixed-point activity are not identified. |
 | #634 source + infinite branch | `TruthCore.Results.Causality.SourceWitness.overlap_control` | Imported/composed unchanged; sourcehood and infinite ancestry coexist. |
 

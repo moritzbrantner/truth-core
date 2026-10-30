@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-JOINT-CAUSAL-GROUPS-733",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "STMT-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "STMT-PLURAL-ROOT-CONFLUENCE-CONTROL"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The bounded joint-group/order slice for #733/#613/#311 reuses canonical Graph/Actual/closure/path semantics and literal #634/#707 controls. Distinct contributor/enabler events, bearer map, scenario sufficiency, actual exercise, indispensability and redundancy now have typed meanings. A finite all-scenario cooperative fixture and absent-exercise/absent-actuality/empty-record/cycle omissions separate them. No new source-derived claim; owner ignition patterns are partial membership illustrations, not empirical sufficiency laws. Rejected renaming #707 jointControl into cooperation, treating one projected arrow as sufficient, supplying all events a cause record, and inferring WF from unique records/source or a least-reaching source. Early preview API/set-elaboration failures were repaired without weakening goals. Exact source/prose/type audit, surviving rivals and service evidence persist in docs/notes/joint-causal-groups-733.md. Actual exercise, causal sufficiency, acyclicity/WF, existential abstraction and full explanation remain independently OPEN for #734/#735. Zero root/configuration premise delta.",
+  "evidence": [
+    "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+    "CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "PLURAL-ROOT-CONFLUENCE-CONTROL"
+  ]
+}
