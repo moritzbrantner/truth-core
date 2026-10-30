@@ -22,9 +22,7 @@ potency to act). The readings add one primitive:
   ἔχειν; *aliter et aliter se habere*). Aquinas counts the respects as
   substance, quantity, quality and place (lect. 7 n. 12). It is a primitive,
   distinct from `CanFailToBe` of `BookIX`; the two are related only by the
-  explicit bridge `CanFailToBeIsCanBeOtherwiseBridge`, read from *In Metaph.* V,
-  lect. 6 n. 14 (and its weaker sibling
-  `CanFailToBeIsCanBeOtherwiseInSomeRespectReading`).
+  explicit, unattributed bridge `CanFailToBeIsCanBeOtherwiseBridge`.
 * `OfChange r` — `r` is a respect of change: substance, quantity, quality or
   place, the respects in which Aquinas says a moved thing is otherwise and
   otherwise (lect. 7 n. 12). Λ.7's "in no way" (οὐδαμῶς, *nullo modo*) is read
@@ -120,48 +118,44 @@ def UnchangeableInRespectsOfChangeIsUnchangeableSimplyBridge {Being : Sort u}
     (∀ r, OfChange r → ¬ CanBeOtherwise m r) →
     ∀ r, ¬ MovedIn m r ∧ ¬ CanBeOtherwise m r
 
-/-- Whatever can fail to be `r` can be otherwise in respect `r`.
+/-- Open bridge, unattributed: whatever can fail to be `r` can be otherwise in
+respect `r`.
 
-Read from Aquinas: *quae autem pluribus modis habere se possunt, possunt se
-habere aliter et aliter* (what can be in more than one way can be otherwise and
-otherwise). Two reading steps, both choices: (a) `CanFailToBe x r` in the
-two-way sense of the potency of the contradictory (*possibile esse et non esse*,
-*In Metaph.* IX, lect. 9 n. 2) is a case of being able to be in more than one way,
-the two ways being `r` and not `r`; (b) the respect in which the thing can be
-otherwise is the respect `r` of those ways, reading *aliter et aliter*
-anaphorically as being in another of the *plures modi* (as Δ.5, 1015b13 glosses
-being otherwise as being in more ways). Under the bare-possibility sense of
-"can fail to be `r`" (`DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE`) step (a) fails:
-an unchangeable being that is not `r` can be in only one way. The unrelativized
-sibling reading, which drops (b), is
-`CanFailToBeIsCanBeOtherwiseInSomeRespectReading`.
+It holds when `CanFailToBe` is read in the two-way sense of the potency of the
+contradictory (*possibile esse et non esse*, *In Metaph.* IX, lect. 9 n. 2):
+what can be `r` and can fail to be `r` can, whichever it is, be the other way.
+It fails if "can fail to be `r`" is read as the bare possibility of not being
+`r`, which an unchangeable being that is not `r` also has
+(`DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE`). No source read for #352 states it:
+*In Metaph.* XII, lect. 7 n. 13 infers (*unde sequitur*) from the mover's not
+being able to be otherwise that the first motion, a different subject, cannot
+not be, and n. 15 denies that this necessity is the absolute "cannot be
+otherwise", so it does not tie the two for one subject in one respect. *Met.*
+Δ.5, 1015a33-35 only defines the necessary as what cannot be otherwise, and
+1015b11-13 argues the converse direction.
 
-Not read from Aristotle: *Met.* Δ.5, 1015b11-13 argues the converse (what is
-simple cannot be in more ways, hence not otherwise and otherwise, since being
-otherwise would already be being in more ways), and 1015a33-35 only defines the
-necessary as what cannot be otherwise. *In Metaph.* XII, lect. 7 n. 13 does not
-supply it either: it passes from the mover's not being able to be otherwise to
-the first motion's not being able not to be, a different subject.
-
-Source: Aquinas, *In Metaph.* V, lect. 6 n. 14. -/
+Partial support only: `WhatCanBeInMoreWaysCanBeOtherwiseReading` has the same
+consequent predicate but speaks of what can be in more ways and names no respect.
+Two steps stay unattributed: that the two-way potency to `r` is an ability to be
+in more ways, and that the respect of being otherwise is `r`. -/
 def CanFailToBeIsCanBeOtherwiseBridge {Being : Sort u} {Respect : Sort v}
     (CanFailToBe CanBeOtherwise : Being → Respect → Prop) : Prop :=
   ∀ x r, CanFailToBe x r → CanBeOtherwise x r
 
-/-- Whatever can fail to be `r` can be otherwise in some respect.
+/-- Whatever can be in more ways can be otherwise in some respect.
 
-The unrelativized sibling reading of *In Metaph.* V, lect. 6 n. 14 (*quae autem
-pluribus modis habere se possunt, possunt se habere aliter et aliter*): it keeps
-step (a) of `CanFailToBeIsCanBeOtherwiseBridge` and, not taking *aliter et
-aliter* anaphorically, does not say in which respect the thing can be
-otherwise. It is too weak for the Λ.7 route, which needs the respect of the
-potency.
+Read from Aquinas: *quae autem pluribus modis habere se possunt, possunt se
+habere aliter et aliter* (what can be in more ways can be otherwise and
+otherwise). `CanBeInMoreWays` is a parameter for *pluribus modis se habere posse*.
+The sentence names no respect, so the reading says only that there is one. It
+does not mention the potency of the contradictory, and it does not state
+`CanFailToBeIsCanBeOtherwiseBridge`.
 
 Source: Aquinas, *In Metaph.* V, lect. 6 n. 14. -/
-def CanFailToBeIsCanBeOtherwiseInSomeRespectReading {Being : Sort u}
-    {Respect : Sort v} (CanFailToBe CanBeOtherwise : Being → Respect → Prop) :
-    Prop :=
-  ∀ x r, CanFailToBe x r → ∃ s, CanBeOtherwise x s
+def WhatCanBeInMoreWaysCanBeOtherwiseReading {Being : Sort u} {Respect : Sort v}
+    (CanBeInMoreWays : Being → Prop)
+    (CanBeOtherwise : Being → Respect → Prop) : Prop :=
+  ∀ x, CanBeInMoreWays x → ∃ s, CanBeOtherwise x s
 
 /-- Some mover that moves something and is moved in no respect cannot be
 otherwise in the respect `understood` of what it understands: it cannot pass

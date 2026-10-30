@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CAN-BE-IN-MORE-WAYS",
+  "term": "can be in more ways (pluribus modis se habere posse; πλεοναχῶς ἔχειν)",
+  "definition": "`CanBeInMoreWays x`: x can be in more than one way. In Metaph. V, lect. 6 n. 14 says it of composites, because they are mutable. A Lean parameter of WhatCanBeInMoreWaysCanBeOtherwiseReading, relative to no respect, and not defined from CanFailToBe or CanBeOtherwise.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-IN-METAPH-V-L6-MORE-WAYS-OTHERWISE-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.WhatCanBeInMoreWaysCanBeOtherwiseReading"
+}
