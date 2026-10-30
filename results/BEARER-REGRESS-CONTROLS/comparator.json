@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.BearerRegress.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

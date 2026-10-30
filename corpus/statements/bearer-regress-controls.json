@@ -1,0 +1,22 @@
+{
+  "id": "STMT-BEARER-REGRESS-CONTROLS",
+  "paraphrase": "Logical models and exclusions. Models of the bearer premises witness a terminus satisfying the substance predicate, a well-founded terminus failing it whose bearer has no bearer, a two-node cycle, an acyclic infinite chain, and a bundle whose members support each other while nothing bears the bundle. One bearer can have termini on both sides of the predicate, and a terminus together with a cycle. Without the ancestry premise a dependent bearer has no terminus in the nondependent sense. A terminus satisfying the predicate can be contingent. Omitting either subject-relation bridge leaves no terminus passing the Categories test; with both, a terminus passes it and can fail a separately supplied substance predicate. For every interpretation and bearer, each terminus form excludes the cycle and endless forms. No model is claimed metaphysically possible.",
+  "lean_declaration": "TruthCore.Causality.BearerRegress.BearerRegressControls",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-BEARER-SUPPORT-ANCESTRY",
+    "DEF-BEARER-SUPPORT-OUTCOMES",
+    "DEF-CATEGORIES-SUBJECT-RELATIONS",
+    "DEF-COGITO-SUBSTANCE-PREDICATE",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEARS-INHERES-SUPPORTS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "INF-BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
+    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+    "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
+    "STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT",
+    "STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
+  "rule": "constructive-proof",
+  "meaning": "Well-foundedness of existing direct support eliminates the nonterminating forms, so descent from a bearer reaches a terminus (terminusOfWellFounded). If that terminus were in or said of something, the two open bridges would give it an existing direct supporter, contradicting the terminus; so it is neither, and the Categories reading gives the supplied primary-substance predicate. The bridges carry the step from support-minimality to the Categories test and are not attributed to Aristotle. Passing that negative test does not give a separately supplied substance predicate (NegativeTestControl). No necessity, uniqueness, soul or God follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
