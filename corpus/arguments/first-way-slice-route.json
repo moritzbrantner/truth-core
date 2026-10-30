@@ -1,0 +1,43 @@
+{
+  "id": "FIRST-WAY-SLICE-ROUTE",
+  "premise_statement_ids": [
+    "STMT-EVENT-CAUSATION-NONBACKWARD",
+    "STMT-EVENT-MOTION-PROJECTION",
+    "STMT-TIME-SLICED-LOCATED-MOTION",
+    "STMT-TIME-SLICED-POTENTIAL-MOTION",
+    "STMT-TIME-SLICED-ACTUAL-MOVER",
+    "STMT-TIME-SLICED-NOT-ACT-AND-POTENCY",
+    "STMT-TIME-SLICED-REDUCED-BY-MOVER",
+    "STMT-TIME-SLICED-SECOND-MOVERS",
+    "STMT-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+    "STMT-SLICE-REGRESS-IF-SIMULTANEOUS"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-WAY-SLICE-ROUTE-OUTCOME",
+  "inference_ids": [
+    "INF-TEMPORAL-DIRECTION-FRAMEWORK",
+    "INF-FIRST-WAY-SLICE-FORK-USE"
+  ],
+  "meaning": "Fork applied here: TEMPORAL-DIRECTION-FRAMEWORK is instantiated and case-split in TemporalPrimaVia.Route.route. Strict horn: the link bridge leaves no per se link at any time, so the regress hypothesis of the exact imported AQUINAS-ST-I-Q2-A3-PRIMA-VIA theorem holds at each slice, and each mover of another at t is unmoved at t. Simultaneous horn: the conditional regress premise supplies that hypothesis, and it also excludes every closed event walk. Backward horn: rejected by NoBackward. All ten premises remain open. The conclusion is in the slice sense (DEF-TIME-SLICED-FIRST-MOVER), not STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING, and STMT-NO-INFINITE-PER-SE-MOVER-SERIES is not discharged. Root-route delta zero.",
+  "definition_ids": [
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-PER-SE-LINK",
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

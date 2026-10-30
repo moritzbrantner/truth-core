@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TIME-SLICED-FIRST-MOVER",
+  "term": "first unmoved mover at a time",
+  "definition": "The canonical predicates instantiated at one supplied time t: f moves something at t and is moved in no respect at t (IsFirstUnmovedMover (Moved t) (Moves t) f). It does not say that f is moved at no other time, and it is not IsFirstUnmovedMover of any time-free relation.",
+  "basis": "stipulative",
+  "note": "Analyst instantiation for #718. The prima via module reads its time-free vocabulary simul; which clock, if any, realizes that is open. Reality-facing examples, rivals and limits: docs/notes/temporal-actualization-fork.md. No source attribution.",
+  "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceRouteOutcome"
+}
