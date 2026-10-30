@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TemporalPrimaVia.Route.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TemporalPrimaVia.Route.route"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

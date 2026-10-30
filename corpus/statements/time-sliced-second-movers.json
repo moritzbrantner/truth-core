@@ -1,0 +1,27 @@
+{
+  "id": "STMT-TIME-SLICED-SECOND-MOVERS",
+  "paraphrase": "At each supplied time, the existing canonical strong SecondMoversMoveOnlyAsMovedReading holds: a mover other than the moved thing that is being moved in any respect at that time is a per se link at that time. The temporal lift is open and unattributed.",
+  "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceSecondMovers",
+  "definition_ids": [
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-PER-SE-LINK",
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}
