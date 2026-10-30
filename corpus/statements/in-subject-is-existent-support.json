@@ -1,0 +1,16 @@
+{
+  "id": "STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT",
+  "paraphrase": "For an existing x at the selected world, if x is in y in the supplied Categories relation, then y exists there and directly supports x. An explicit open premise, not attributed to Aristotle: Categories I.2 says that what is in a subject cannot be apart from it, which is weaker than having it as a direct existing supporter.",
+  "lean_declaration": "TruthCore.Causality.BearerRegress.InSubjectIsExistentSupport",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-CATEGORIES-SUBJECT-RELATIONS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEARS-INHERES-SUPPORTS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}
