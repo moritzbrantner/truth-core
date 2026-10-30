@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THESIS-CAPTURE",
+  "term": "capture for a no-absolute-truth thesis",
+  "definition": "`CapturesThesis T thesis`: if no content is absolutely true, the thesis content is absolutely true. With `ThesisDisquotes` over the universal scope it gives both directions of the truth schema for that content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.CapturesThesis",
+  "note": "Stipulated. Stronger than what RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING assumes, which is disquotation alone."
+}

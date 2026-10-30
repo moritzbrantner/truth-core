@@ -1,0 +1,16 @@
+{
+  "id": "INF-MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
+    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
+    "STMT-INTELLECTUAL-EXERCISE-TOKENED",
+    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING"
+  ],
+  "output_statement_id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+  "rule": "reductio",
+  "meaning": "Suppose a per-se operation. Tokening gives a mental token; the causal premises make it physically based; the basis/sharing bridge gives bodily sharing, contradicting the operation being free of it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

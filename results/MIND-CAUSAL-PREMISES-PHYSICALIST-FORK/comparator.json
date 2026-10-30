@@ -1,0 +1,18 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.MindPhysicalism.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.MindPhysicalism.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.MindPhysicalism.physicalistFork",
+    "TruthCore.Results.Comparison.MindPhysicalism.fourWayCoverage",
+    "TruthCore.Results.Comparison.MindPhysicalism.positionsExclusive",
+    "TruthCore.Results.Comparison.MindPhysicalism.eliminativeWitness",
+    "TruthCore.Results.Comparison.MindPhysicalism.reductiveWitness",
+    "TruthCore.Results.Comparison.MindPhysicalism.realizationWitness",
+    "TruthCore.Results.Comparison.MindPhysicalism.occurrenceIdentityWitness",
+    "TruthCore.Results.Comparison.MindPhysicalism.completenessExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.influenceExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.overdeterminationExit"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
