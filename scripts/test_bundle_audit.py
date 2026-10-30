@@ -32,6 +32,7 @@ class BundleAuditTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'scoped consumer'):
             bundle_audit.check(audit=missing)
 
+    @unittest.skipUnless((Path.home() / '.elan/bin/lake').exists(), 'requires pinned Lean')
     def test_conditional_bridges_do_not_supply_existence(self):
         run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
                               'scripts/fixtures/NamingFirstMoverMigration.lean'],
@@ -63,6 +64,7 @@ class BundleAuditTest(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         self.assertNotIn('sorry', run.stdout + run.stderr)
 
+    @unittest.skipUnless((Path.home() / '.elan/bin/lake').exists(), 'requires pinned Lean')
     def test_specialized_inhabited_and_split_witness_controls(self):
         run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
                               'scripts/fixtures/ClassicalAttributesAllMigration.lean'],
