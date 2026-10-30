@@ -1,0 +1,20 @@
+{
+  "id": "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+  "paraphrase": "A stance that demands nothing cannot also demand a claim. No stance is core-demanding, meets its demands and accepts a core commitment that has no support at the world; each of those five members is deleted by a named scene model at the root and world a. By the #397 schema, a demanded unsupported claim is either unaccepted by a stance meeting its demands or a counterexample to the demand. Given decidability of the demand and of a feature comparison, a demanded target and a stance's own claim are uniform, selective or restricted relative to that feature, and those standings exclude each other. A named critic at world a demands reasons for the claim that the contingent-fact PSR holds and for its own core commitments, meets them, does not accept that claim, and accepts a claim true exactly where some contingent truth has no reason; its root is supported and has no reason, its event has a reason and no support, the root is a reason for the event while the event supports the root and not conversely, and reasons there are factive, necessitating, independent and irreflexive on contingent facts. One named stance is selective relative to one feature and restricted relative to another. A boundary defined by having a reason holds in every arena, any status is uniform relative to itself as a feature, and an event-scoped boundary holds with the local reason and fails without it. At no world does a stance have every accepted claim backed by an accepted claim, well-founded support and something accepted; named models delete each, including a circle and an endless chain. A named defender meets the demand for the claim that the PSR holds at a world where it fails. The edges of support are stipulated: no model shows evidence to be good, a bundle to be metaphysically possible, or any person to hold it. This establishes no PSR, excludes no brute foundation and decides no boundary.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-EXEMPTION-STANDING",
+    "DEF-PSR-RESTRICTED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ],
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.StanceMap"
+}

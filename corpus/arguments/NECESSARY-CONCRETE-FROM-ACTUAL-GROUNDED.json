@@ -1,0 +1,33 @@
+{
+  "id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED"
+  ],
+  "meaning": "The added premise closing the root horn. Weakens the whole-carrier well-foundedness of the unregistered necessaryConcreteOfGroundedContingents to restricted well-foundedness and replaces its Lean classical axioms with explicit excluded middle. The closing premise is not an independent derivation: given excluded middle it is equivalent to the denial of a contingent root (everyContingentGrounded_iff_noContingentRoot), so it must be defended on its own (#505, #545). It is not implied by the conclusion (STMT-NECESSARY-ROOT-CONTROLS). Necessity is accessibility-relative; no uniqueness, underivedness, simplicity, intellect or God.",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

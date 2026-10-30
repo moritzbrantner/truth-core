@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
+  "term": "no overdetermination, per cause",
+  "definition": "EachCauseNotAllOverdetermined: for each target-kind occurrence with a physical effect, not all its physical effects are overdetermined by it. Overdetermines c x: c causes x, the prior physical occurrences fully determine x, and c is neither among them nor realized by one of them.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PAPINEAU-RISE-NO-OVERDETERMINATION-DISTRIBUTIVE"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.EachCauseNotAllOverdetermined"
+}

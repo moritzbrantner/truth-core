@@ -1,0 +1,12 @@
+{
+  "id": "INF-NECESSARY-ROOT-TRILEMMA",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-TRILEMMA",
+  "rule": "constructive-proof",
+  "meaning": "Excluded middle on restricted well-foundedness; in the well-founded case apply necessaryOrNonnecessaryRoot, retaining well-foundedness in the second horn; otherwise the third horn.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

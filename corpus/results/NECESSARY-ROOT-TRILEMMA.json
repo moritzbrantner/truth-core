@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-TRILEMMA",
+  "argument_id": "NECESSARY-ROOT-TRILEMMA",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryRootTrilemma",
+  "comparator_config": "results/NECESSARY-ROOT-TRILEMMA/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms: an inhabited world has a necessary concretum, or well-founded restricted grounding with a nonnecessary root, or non-well-founded restricted grounding. Coverage only, with overlaps. Inhabitedness is open; no horn is asserted; no root change."
+}

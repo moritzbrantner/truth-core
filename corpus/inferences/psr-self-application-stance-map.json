@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-SELF-APPLICATION-STANCE-MAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+  "rule": "model-construction",
+  "meaning": "Prove the two stated-rule contradictions and the regress core generally, apply the #397 norm schema, prove the fork by the supplied decisions, and construct the scene stances, inquiries and arenas as named models.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

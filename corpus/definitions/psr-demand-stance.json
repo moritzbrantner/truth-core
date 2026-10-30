@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DEMAND-STANCE",
+  "term": "demand for reasons (stance)",
+  "definition": "A Stance lists what is accepted, what is core and what is demanded. Demanding p is the stance's own commitment that accepting p requires a reason. Honors S I w says everything S both demands and accepts is supported at w. NoneDemanded says nothing is demanded; CoreDemanded says every core commitment is. These bind only the stance that holds them.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #756, an instance of the #397 Norm schema. No person is attributed any of these stances.",
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.Honors"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "PAPINEAU-RISE-NO-OVERDETERMINATION-COLLECTIVE",
+  "statement_id": "STMT-NOT-ALL-MENTAL-EFFECTS-OVERDETERMINED-TOGETHER",
+  "source_id": "PAPINEAU-RISE-PHYSICALISM",
+  "locator": "pp.3–12 p.9 (Comments on the Causal Argument for Physicalism), premise 3 (no universal overdetermination), read collectively",
+  "interpretation": "Reading B of the same sentence: the plural taken together, so that some physical effect of some mental cause is not overdetermined. His gloss of rejecting the premise, that \"the physical effects of mental causes are always overdetermined\" (p.10), fits this reading too. Under it the universal conclusion he draws does not follow by collectiveHybrid; this is a finding about this reading, not a claim that Papineau holds the reading or that his argument is invalid on the reading he intends.",
+  "status": "formalized",
+  "interpretation_of": "PAPINEAU-RISE-NO-OVERDETERMINATION-DISTRIBUTIVE",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-PREMISE-3-COLLECTIVE",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAPINEAU-PREMISE-3-SCOPE"
+  ]
+}

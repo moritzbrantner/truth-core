@@ -8,6 +8,7 @@ import TruthCore.Results.Explanation.NoBruteExistence.Solution
 import TruthCore.Results.Explanation.NoBruteExplainedSource.Solution
 import TruthCore.Results.Explanation.NoBruteIncompatible.Solution
 import TruthCore.Results.Explanation.PSRScope.Solution
+import TruthCore.Results.Explanation.PSRSelfApplication.Solution
 import TruthCore.Results.Explanation.PSRStrength.Solution
 import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
 import TruthCore.Results.Explanation.UltimateAdequacy.Solution

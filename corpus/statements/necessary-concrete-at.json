@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NECESSARY-CONCRETE-AT",
+  "paraphrase": "Some concrete individual exists at w and at every world accessible from w: the same rigid candidate, de re, relative to the frame's accessibility. It says nothing about uniqueness, underivedness, simplicity, intellect or God, and with no accessible world it reduces to actual existence.",
+  "lean_declaration": "TruthCore.Causality.BruteFoundationBoundary.NecessaryConcreteAt",
+  "definition_ids": [
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

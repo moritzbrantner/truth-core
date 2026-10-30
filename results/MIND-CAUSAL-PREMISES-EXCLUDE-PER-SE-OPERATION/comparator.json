@@ -1,0 +1,18 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.MindPhysicalism.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.MindPhysicalism.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.MindPhysicalism.noPerSeOperation",
+    "TruthCore.Results.Comparison.MindPhysicalism.q75BundleIncompatible",
+    "TruthCore.Results.Comparison.MindPhysicalism.someBased",
+    "TruthCore.Results.Comparison.MindPhysicalism.completenessExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.influenceExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.overdeterminationExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.tokeningExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.bridgeExit",
+    "TruthCore.Results.Comparison.MindPhysicalism.bundleWitness",
+    "TruthCore.Results.Comparison.MindPhysicalism.collectiveHybrid"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

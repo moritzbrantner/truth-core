@@ -1,0 +1,25 @@
+{
+  "id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "inference_ids": [
+    "INF-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER"
+  ],
+  "meaning": "Tested epistemic-to-ontic bridges with what each costs and where each fails. Not a proof that a narrower bridge cannot exist. Interpretation and limits are in docs/notes/psr-self-application-756.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-EPISTEMIC-ONTIC-BRIDGES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}
