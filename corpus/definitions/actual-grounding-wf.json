@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-GROUNDING-WF",
+  "term": "well-founded actual grounding",
+  "definition": "Over the #505 Profile, ActualConcrete m w x means concrete x and ExistsAt w x. ActualGroundingWF m w is Lean's WellFounded of grounds w restricted to the subtype of actual concreta. It constrains only edges between actual concreta at w: cycles and descending chains through absent or non-concrete candidates are unconstrained. Non-well-foundedness of it is not by itself a cycle, nor a completed temporal process.",
+  "basis": "stipulative",
+  "note": "Analyst's vocabulary for #553, whose restriction to actual concrete beings it follows. Which relation is well-founded, and why, is left to the profile's selected grounds: nothing here defends the condition for any real relation, and withCauses selects Ontic.Causes instead. A sourced account of existential grounding (#545) would replace the stipulation.",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualGroundingWF"
+}

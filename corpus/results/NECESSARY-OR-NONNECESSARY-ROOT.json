@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-OR-NONNECESSARY-ROOT",
+  "argument_id": "NECESSARY-OR-NONNECESSARY-ROOT",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryOrNonnecessaryRoot",
+  "comparator_config": "results/NECESSARY-OR-NONNECESSARY-ROOT/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms, not a transcription: in an inhabited world where the selected relation is well-founded on actual concreta, some concrete individual exists at every accessible world, or some actual root of the relation does not. The horns overlap. Inhabitedness and restricted well-foundedness are open; no horn is asserted; no root change."
+}

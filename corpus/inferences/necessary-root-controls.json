@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-ROOT-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-ROOT-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Check the finite and Nat-carried models, prove whole-carrier to restricted well-foundedness by InvImage.wf, prove the reduction of excluded middle to the root principle with a two-candidate profile in which a root decides the proposition, and prove the reductio form by well-founded induction with no excluded middle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
