@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.UltimateAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.UltimateAdequacy.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.UltimateAdequacy.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

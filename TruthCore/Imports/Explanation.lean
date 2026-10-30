@@ -5,4 +5,5 @@ import TruthCore.Explanation.HistorySelection
 import TruthCore.Explanation.LawActuality
 import TruthCore.Explanation.NoBruteExistence
 import TruthCore.Explanation.TargetCopyExpansion
+import TruthCore.Explanation.UltimateAdequacy
 import TruthCore.Explanation.WellFoundedSource
