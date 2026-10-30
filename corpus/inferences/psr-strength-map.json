@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-STRENGTH-MAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PSR-STRENGTH-MAP",
+  "rule": "model-construction",
+  "meaning": "Prove the valid edges generally, construct a named model for each invalid edge, and show the #312 scopes coincide along the embedding ofModel.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

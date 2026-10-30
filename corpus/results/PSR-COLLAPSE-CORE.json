@@ -1,0 +1,9 @@
+{
+  "id": "PSR-COLLAPSE-CORE",
+  "argument_id": "PSR-COLLAPSE-CORE",
+  "challenge_module": "TruthCore.Results.Explanation.PSRStrength.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRStrength.Solution",
+  "theorem": "TruthCore.Results.Explanation.PSRStrength.collapseCore",
+  "comparator_config": "results/PSR-COLLAPSE-CORE/comparator.json",
+  "status": "solution-present"
+}

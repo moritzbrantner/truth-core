@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-REASON-DISTRIBUTION",
+  "term": "distribution of a reason over conjuncts",
+  "definition": "Distribution A says a reason for an aggregate is a reason for each of its conjuncts. It is a premise under test, and mutualReasons satisfies the rest of the core without it.",
+  "basis": "stipulative",
+  "note": "Analyst-stated condition for the comparison arena of #755; it is under test, not asserted. A sourced reading would need a pinned witness from the #409 or #365 intake.",
+  "lean_declaration": "TruthCore.Explanation.PSRStrength.Distribution"
+}

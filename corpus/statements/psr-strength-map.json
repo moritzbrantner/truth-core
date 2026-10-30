@@ -1,0 +1,23 @@
+{
+  "id": "STMT-PSR-STRENGTH-MAP",
+  "paraphrase": "In one arena: unrestricted fact coverage gives contingent-fact coverage, and given coherence of existence facts it gives existence coverage; contingent-fact and existence coverage do not imply each other, each failing in a named factive coherent model. In one infinite-history signature every member has a reason while the whole lacks one, and with a law the whole has a reason while the contingent law has none; reasons there are factive, necessitating and independent. Necessity of the contingent-fact PSR gives it, and it gives weak PSR, under reflexivity; each edge fails in a named non-reflexive model, and the converses fail in a named universally accessible model. A reason at each world where a fact is true does not give one stable reason. Weak PSR gives no brute contingent truth under distribution and the diagonal facts, and named models satisfy each bridge without the other while keeping weak PSR and a brute truth. Extensional domains with entailment conjuncts supply the diagonal facts and an aggregate, so there weak PSR with factive, necessitating, distributing, irreflexive reasons excludes contingency at the world; a named extensional model without necessitation has contingency, an aggregate and fact coverage at world false. A named cofinite domain has fact coverage and independence at every world with finite conjunctions and no aggregate. Local and universal external causation do not give existence or contingent coverage in one named model, and existence coverage does not give universal external causation in another. Copying each truth as its own reason gives fact coverage, necessitation and factivity over any arena, and independence and irreflexivity of the copy fail wherever a contingent truth exists. Over the embedding of #312 models, its existence and contingent-only PSRs are the all-world forms of these scopes restricted to existence facts. Models show satisfiability of encoded bundles, not metaphysical possibility, and no PSR is established.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-PSR-DOMAIN-BRIDGES",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ],
+  "lean_declaration": "TruthCore.Explanation.PSRStrength.StrengthMap"
+}
