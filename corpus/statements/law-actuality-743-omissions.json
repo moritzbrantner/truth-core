@@ -1,0 +1,16 @@
+{
+  "id": "STMT-LAW-ACTUALITY-743-OMISSIONS",
+  "paraphrase": "At every n the first unrecorded value identifies both laws but is not record-only; full value information determines either history. A constant record-only estimator identifies the retained true-law candidate. A coherent empty presence interpretation retains unique formal law solutions, so mathematical uniqueness has no built-in population consequence. Reuses the exact #704 finite/infinite-window and empty/full-transmission controls. These are model interpretations, not evidence about actual concreta or warrant.",
+  "lean_declaration": "TruthCore.Explanation.LawActuality.Omissions",
+  "definition_ids": [
+    "DEF-LAW-ACTUALITY-743",
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-CHAIN-INSTANTIATION-WINDOW"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LAW-ACTUALITY-743",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC"
+  ]
+}

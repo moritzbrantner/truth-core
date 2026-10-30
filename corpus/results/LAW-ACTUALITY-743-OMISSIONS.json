@@ -1,0 +1,10 @@
+{
+  "id": "LAW-ACTUALITY-743-OMISSIONS",
+  "argument_id": "LAW-ACTUALITY-743-OMISSIONS",
+  "challenge_module": "TruthCore.Results.Explanation.LawActuality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.LawActuality.Solution",
+  "theorem": "TruthCore.Results.Explanation.LawActuality.omissions",
+  "comparator_config": "results/LAW-ACTUALITY-743-OMISSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "At every n the first unrecorded value identifies both laws but is not record-only; full value information determines either history. A constant record-only estimator identifies the retained true-law candidate. A coherent empty presence interpretation retains unique formal law solutions, so mathematical uniqueness has no built-in population consequence. Reuses the exact #704 finite/infinite-window and empty/full-transmission controls. These are model interpretations, not evidence about actual concreta or warrant. No root premise is discharged."
+}

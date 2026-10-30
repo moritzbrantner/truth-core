@@ -1,0 +1,9 @@
+{
+  "id": "INF-LAW-ACTUALITY-743-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LAW-ACTUALITY-743-CERTIFICATE",
+  "rule": "direct-proof",
+  "meaning": "Derive each unique trace pointwise from the initial condition and total prescribed transitions. Transport any estimator across identical prefixes and contradict correctness on opposite labels. Evaluate presence at n+1 to distinguish complete histories; apply exact HistorySelection.no_selection and characterization to the entire recorded value vector.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

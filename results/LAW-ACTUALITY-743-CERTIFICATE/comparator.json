@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.LawActuality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.LawActuality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.LawActuality.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

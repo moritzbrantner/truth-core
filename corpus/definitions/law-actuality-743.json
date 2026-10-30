@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LAW-ACTUALITY-743",
+  "term": "finite-record identification of individually unique laws",
+  "definition": "law n b reuses Profile and Follows. Each rule prescribes signal n b at every successor time with true at time zero. realized n uses the existing History and Ontic signatures: at each time exactly the signal-valued candidate bearer is present; ExistsAt is presence at now zero. readings admit all Boolean value propositions in the prefix through n. UsesRecord requires an arbitrary estimator to return the same law label for every pair of traces sharing that prefix. Identifies requires correctness on both stipulated laws. These are mathematical satisfaction and exact information conditions, not real lawhood, concrete actuality, or epistemic justification.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.LawActuality.UsesRecord",
+  "note": "Examples: two initially identical instrument traces, one changing after n. Full observation at n+1 breaks the symmetry; a singleton candidate family removes the identification task. Mathematical state-bearers are not independently certified concreta. No new causation, grounding, dependence or necessity relation is introduced; Causes is empty. Universal accessibility admits analyst comparisons only, not certified metaphysical possibilities. Prefix-invariance is justified by identical entire admitted inputs, not by a metaphysical causal axiom. No transfer to actual instruments, properties or fallible warrant is proved. Semantic/application boundaries and strongest rivals: docs/notes/law-actuality-743.md."
+}
