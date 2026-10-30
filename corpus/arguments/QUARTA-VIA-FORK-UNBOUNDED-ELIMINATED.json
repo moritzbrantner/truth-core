@@ -1,0 +1,40 @@
+{
+  "id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "premise_statement_ids": [
+    "STMT-HOMOGENEOUS-BEING-SCALE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-GRADES-HAVE-A-MAXIMUM"
+  ],
+  "conclusion_statement_id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+  "inference_ids": [
+    "INF-QUARTA-VIA-DEGREE-FORK",
+    "INF-QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED"
+  ],
+  "meaning": "Under the fork's exact background and the added grades-to-maximum principle, the certified fork and the certified unbounded core leave the strict causal top. The scale is a stipulated contrast reading; no premise is established and no identification with God or the maximally true is made.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-RESPECT",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MORE-IN",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-HOMOGENEOUS-SCALE",
+    "DEF-BEING-UNIVOCAL",
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT",
+    "DISAMB-TRUE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

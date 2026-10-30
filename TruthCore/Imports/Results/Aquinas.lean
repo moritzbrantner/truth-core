@@ -46,7 +46,9 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaxim
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution

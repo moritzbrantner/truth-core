@@ -45,6 +45,15 @@ def QuartaViaNoMaximalDegree {Being Respect : Type}
     (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
   QuartaViaUnboundedDegrees MoreIn esse
 
+/-- Every being that has the selected perfection has some being that is `MoreIn`
+that perfection than it. The comparator itself need not have the perfection.
+`QuartaViaUnboundedDegrees` implies this predicate; the two coincide when every
+being has the perfection. It asserts no cause or causal chain. -/
+def QuartaViaUnboundedAmongActual {Being Respect : Type}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop) (esse : Respect) : Prop :=
+  ∀ x, InAct x esse → ∃ y, MoreIn esse y x
+
 /-- The selected perfection is instantiated, and either a strict causal top
 exists or every being has a strictly higher being. This states coverage only;
 horn incompatibility is a separate theorem under the same scale reading. -/
