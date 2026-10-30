@@ -10,6 +10,7 @@ import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.ConstitutiveConfiguration
 import TruthCore.Causality.ConstitutiveNatureUniqueness
 import TruthCore.Causality.ConvergentSchedule
+import TruthCore.Causality.DerivativeJointPower
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.FiniteBranching
