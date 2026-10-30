@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NightActualizationFork.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NightActualizationFork.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NightActualizationFork.forcedOtherFromRootPremises"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

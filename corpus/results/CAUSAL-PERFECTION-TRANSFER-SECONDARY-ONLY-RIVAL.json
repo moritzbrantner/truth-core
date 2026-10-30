@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.rival",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL/comparator.json",
+  "status": "solution-present",
+  "description": "Evaluate the secondary-only table: the same background holds, but universal source 0 does not cause recipient 3 at skill, falsifying even restricted transfer. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SEXTUS-BARE-HYPOTHESIS",
+  "term": "unestablished hypothetical concession in the Five Modes",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEXTUS-I168-173-174-BARE-HYPOTHESIS"
+  ],
+  "definition": "A stopping assumption taken for granted without the establishment requested in the inquiry. Sextus challenges bare concession by asking why the opponent may not concede the contrary, or simply assume the disputed conclusion. This is not a definition of every noninferential foundation, axiom or perceptual entitlement.",
+  "note": "PHI168,173–174. A foundationalist can contest the application by defending an entitlement beyond bare concession; the present reading does not judge that defense successful."
+}

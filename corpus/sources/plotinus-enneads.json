@@ -1,0 +1,11 @@
+{
+  "id": "PLOTINUS-ENNEADS",
+  "kind": "primary_text",
+  "author": "Plotinus",
+  "work": "Enneads",
+  "citation_system": "Ennead.treatise.chapter (conventional Roman/Arabic numbering)",
+  "work_urn": "urn:cts:greekLit:tlg2000.tlg001",
+  "reference_edition_urn": "urn:cts:greekLit:tlg2000.tlg001.1st1K-grc1",
+  "catalog_url": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/ed91552c52530c8f5a3ddf2dd767e899372a804c/data/tlg2000/tlg001",
+  "notes": "Volkmann, Teubner 1883–1884 Greek edition; First1KGreek digital transcription. Plotinian source claims are kept distinct from Platonic and Thomistic readings."
+}

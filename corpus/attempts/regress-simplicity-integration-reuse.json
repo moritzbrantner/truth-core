@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-REGRESS-SIMPLICITY-INTEGRATION-REUSE",
+  "statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARY-PER-SE-IS-MAXIME-ENS",
+    "STMT-GOD-IS-SIMPLE",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Integration inventory for #319 at 0f1059ba; inspected all five premise dossiers and existing typed theorems. See docs/power-existence-scope-boundary.md, Integration reuse audit. Existing PowerExistenceBoundary already proves both omission models and the support-to-transmission conditional; duplicating them is rejected. FirstMoverSimple and GodIsSimple already derive their conditional simplicity conclusions. #495 excludes incoming existential support from present sources but does not relate that relation to q3 uniting causes or proper components. A candidate interface would map a distinct CausesIn c x esse witness to support at a world where c exists, for the same x; neither source presence nor this semantic correspondence follows from the existing types. NecessaryPerSeIsMaximeEns identifies n with each given maximum; it does not furnish a maximum. De re NecessaryAt and temporal IsNecessaryPerSe remain unmapped. PSR reason tokens do not supply external supporters or identify their bearer with the power source. #591 separates consecutive motion respects and supplies no omitted power/esse bridge. No source attribution added, no new formal consequence claimed, and no root premise added or discharged; exact eight route costs retained: 31,32,36,38,39,39,40,41. Shared local service corpus record query succeeded at its separate pinned 75192b1c workspace; this was a read-only API check, not Lean verification.",
+  "evidence": [
+    "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+    "AQUINAS-ST-I-Q3-FIRST-MOVER-SIMPLE",
+    "CATHOLICISM-STAGE2-GOD-IS-SIMPLE",
+    "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS",
+    "CONSECUTIVE-MOVER-RESPECTS"
+  ],
+  "blocker": "Defend a typed correspondence between the same underived individual, present uniting causes and existential-support edges, or establish the missing first-being/maximality premises for that individual. No new source investigation authorized; source, modal and common-witness identifications remain open."
+}

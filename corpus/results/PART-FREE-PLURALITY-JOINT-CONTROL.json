@@ -1,0 +1,10 @@
+{
+  "id": "PART-FREE-PLURALITY-JOINT-CONTROL",
+  "argument_id": "PART-FREE-PLURALITY-JOINT-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.PartFreePlurality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PartFreePlurality.Solution",
+  "theorem": "TruthCore.Results.Causality.PartFreePlurality.jointControl",
+  "comparator_config": "results/PART-FREE-PLURALITY-JOINT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "One fixed five-being, two-world interpretation jointly retains the earlier first-way, represented simplicity/pure-act, q3a4 distinct-esse causal dichotomy and PSR coverage commitments, while separating efficient cause/priority from proper components. Two distinct necessary roots cause a common instrument and enter no composition. A dependent constituent composes the instrument and effect, so composition and both distinct-esse witnesses remain nonvacuous. The q3a8 no-component-is-first-being and q3a7 uniting-cause readings hold. Q11 incommunicable individuation and suppositum/nature identity hold, but common nature and differentiation in represented act fail. This establishes satisfiability of the exact encoded bundle, not metaphysical possibility, full classical divine simplicity or independently supported primitive individuation. No root premise is discharged."
+}

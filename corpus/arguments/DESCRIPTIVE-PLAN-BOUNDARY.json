@@ -1,0 +1,22 @@
+{
+  "id": "DESCRIPTIVE-PLAN-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
+  "inference_ids": [
+    "INF-DESCRIPTIVE-PLAN-BOUNDARY"
+  ],
+  "meaning": "In the stipulated material-support plan semantics, every satisfiable theory containing only factual atoms and conditionals has a compatible point permitting all actions. Acceptance of a factual atom and an explicit factual-to-forbidden conditional entails acceptance of the forbidden atom, by the existing general MP result. A nonempty singleton state with an alternative action available accepts the fact but accepts neither the prohibition nor its conditional. This separates conditional plan guidance from categorical normative warrant; neither moral realism nor ordinary-language adequacy is established.",
+  "definition_ids": [
+    "DEF-PLAN-STATE-POINT",
+    "DEF-PLAN-STATE-SENTENCE",
+    "DEF-PLAN-STATE-SUPPORT",
+    "DEF-PLAN-STATE-ACCEPTANCE",
+    "DEF-DESCRIPTIVE-PLAN-FRAGMENT",
+    "DEF-DESCRIPTIVE-PLAN-BOUNDARY",
+    "DEF-CATEGORICAL-NORMATIVE-WARRANT-BOUNDARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT",
+    "DISAMB-PLAN-GUIDANCE-VS-CATEGORICAL-REASON"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SPATIAL-SYMMETRY-REASON-ADEQUACY",
+  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "locator": "Leibniz III §§4–8; Clarke III §§2–8",
+  "priority": 100,
+  "goal": "Defend or challenge the exact individuation and reason-selection requirements that distinguish relational spatial ontology from absolute locations with intrinsic volitional selection. Determine whether a reason must be restricted to invariant relative data and obey the analyst covariance norm, rather than inferring that from PSR alone.",
+  "reason": "Translation geometry proves an obstruction only under its explicit input and output symmetry requirements. The exchange disputes contrastive sufficiency and sameness of place; an enriched input or rejection of covariance remains a positive rival. See docs/notes/spatial-translation-and-reason.md.",
+  "status": "candidate"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "PAST-RESOURCE-OMISSION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PAST-RESOURCE-OMISSION-CONTROLS",
+  "inference_ids": [
+    "INF-PAST-RESOURCE-OMISSION-CONTROLS"
+  ],
+  "meaning": "Two explicit real-valued stocks on the full integer time grid with now zero: exp(t) has lower bound zero and strictly positive growth at each past unit step, but no uniform positive growth bound; the stock t satisfies the uniform growth bound with epsilon one but has no real lower bound over the past. The negations compose the independent resource contradiction theorem. This mathematical omission control does not establish physical or metaphysical realization, an entropy law, or an unconditional rejection of a beginningless past.",
+  "definition_ids": [
+    "DEF-PAST-RESOURCE-STOCK",
+    "DEF-PAST-RESOURCE-LOWER-BOUND",
+    "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+  ]
+}

@@ -2,9 +2,9 @@
 
 This note applies the argument-first method of
 [systematic-corpus-loop.md](../systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand)
-to the two pilot investigations, #564 and #563. It reads only existing records;
-it adds no statement, claim, argument or result, and changes no premise or
-frontier closure. Every ID below exists on `main` at the time of writing.
+to the two pilot investigations, #564 and #563. The initial inventory reads
+existing records; later bounded refinements are identified separately below.
+The inventory changes no premise or frontier closure.
 Neither pilot currently lies on a root path: `corpus.py frontier --reaching-root`
 lists none of their statements.
 
@@ -104,6 +104,84 @@ defence of the thinker-local anti-brute-root premise against the brute
 contingent-foundation rival (#505, #545), or a bridge to the tertia via's
 necessary being, which needs a modeling decision (`DISAMB-NECESSARY-INDIVIDUAL-SCOPE`).
 
+### Optional no-brute-existence PSR: explanatory and grounding roots
+
+The existing existence-PSR is weaker than the anti-brute-grounding commitment
+needed by this pilot. `ExistencePSR.Model.explains` relates reason tokens to
+existence facts; `Sound` only requires the explained individual to exist.
+Neither definition requires sufficient explanation, an existing concrete
+reason-bearer, a grounding edge or noncircularity. The `Reason.intrinsic` tag
+is explicitly not evidence that an essence explains its own instantiation.
+A local no-unexplained-existence condition therefore removes unexplained-fact
+profiles, not automatically contingent roots of the separate grounding relation.
+All-world `ExistencePSR` covers every supplied model world, not only the worlds
+accessible from a selected standpoint; that scope must also remain explicit.
+
+This limitation already appears in
+`BruteFoundationRoutes.weakExplanationsDoNotExcludeBruteRoot`: selection-token
+coverage and truth soundness coexist with failure of
+`EveryContingentGroundedAt` and `NecessaryConcreteAt` in `boundaryRival`.
+`Explanation.WellFoundedSource.psr_gives_explained_source` separately derives
+an explained existent with no incoming existing efficient cause from population,
+PSR and causal well-foundedness. An explained fact and an uncaused individual
+are not contradictory descriptions under these semantics.
+
+The compatibility refinement in
+[NoBruteExistenceCompatibility](../../TruthCore/Models/NoBruteExistenceCompatibility.lean)
+connects those vocabularies directly: it retains `boundaryRival.ontic` and its
+separate grounding assignment unchanged, and assigns
+`explains w r (fact x)` exactly when x exists at w and r is the intrinsic token
+for x. Its four-conjunct target is truth soundness, all-world existence-PSR,
+no necessary concrete individual at the selected world, and failure of the
+all-contingent-grounded requirement. This is one joint interpretation, not a
+combination of independent models. The separate control Challenge was frozen
+before helper proof construction; focused/integrated verification is delegated
+to the coordinator. Token adequacy is neither added nor claimed.
+
+The consequential missing bridge is from an admitted explanation of a contingent
+concrete existence fact to an actual concrete grounding predecessor in the
+**same** profile. With the global bridge, local PSR supplies
+`EveryContingentGroundedAt`, and the existing
+`BruteFoundationBoundary.necessaryConcreteOfGroundedContingents` composes it
+with actual population and grounding well-foundedness. The end-to-end pilot
+needs only the corresponding ancestry-local bridge to
+`CogitoNecessaryConcrete.ThinkerAncestryGrounded`, which feeds the existing
+`necessaryConcreteAncestor` result; it need not demand a concrete predecessor
+for necessary individuals or for unrelated concreta. Requiring every existent
+to have an external cause would be a stronger, different premise and conflicts
+with causal well-foundedness plus population. Merely naming explanations
+sufficient, while leaving the relation unconstrained, supplies no such bridge.
+
+The new local finite comparison must retain this calibration: in the existing
+`PSR.ContingentOnly` model, the unexplained witness is the necessary individual
+`false`, not the explained contingent individual `true`. Its populated/brute/
+well-founded profile therefore means an unexplained existence fact, not a
+certificate of a contingent grounding root. The separate compatibility
+expansion above supplies the latter comparison without changing the ontology.
+
+For the next bounded comparison, existing axes should remain typed separately.
+`ContingentAt` is actual presence plus accessible absence;
+`HasExistingCauseAt` is an existing predecessor in `ontic.Causes`;
+`grounds` and `ExternallySupportedAt` concern separate dependence relations.
+`PossibleCauseOfContingency.mixedHasContingentUncausedRoot` already witnesses
+an uncaused contingent individual, even alongside a necessary concretum.
+Temporal `IsAt : Being → Time → Prop` and `Before` in the Third Way are not
+modal worlds/accessibility. `NothingBeginsExceptThroughWhatIsReading` relates
+earlier absence and later presence to some earlier existent; it does not
+supply a first instant or a causal edge to that individual. The existing
+`ChangeDoesNotGiveModalContingency` control uses separate world/time indices.
+The already recorded eternity/perpetuity disambiguation keeps timeless eternity
+separate from endless temporal succession, and the current stage-2 `Eternal`
+predicate does not encode an all-times-presence theorem. No already-checked
+eternal-yet-dependent joint witness is supplied here. Reuse the uncaused/
+contingent and world/time controls before adding a temporal-history axis.
+
+Actual discrimination: the optional PSR excludes unexplained profiles under
+its explicit explanation semantics. It does not yet reject the old contingent
+brute-ground-root rival, establish a necessary being, or close a root premise.
+The stronger explanatory-to-grounding interpretation remains an open substantive
+commitment, rather than a consequence of the new name. Premise delta: none.
+
 ## Pilot B: from objective goods to binding reasons (#563, #149, #185)
 
 **Thesis and purpose.** A theory that claims to be a complete account of
@@ -161,3 +239,47 @@ Retain the method. Revise after the first formal slice of each pilot: check that
 the split proposed here (step 3 of pilot A; the applicability/bindingness
 separation of pilot B) was in fact the one a theorem needed. No schema change was
 needed; the existing records and one note sufficed.
+
+## Bounded temporal/modal dependence controls (2026-10-28)
+
+`TEMPORAL-MODAL-DEPENDENCE-CONTROLS` separates two consequential combinations
+using existing ontology assignments, rather than a new lattice of all possible
+labels. Its tiny `Modal.TemporalHistory.History` adds a separately indexed
+`IsAt` and `now`. `CoherentAtNow` is an explicit proposition in both closed
+controls, not a hidden proof field. It identifies old modal presence with
+presence at now=0; it does not redefine `Ontic.ExistsAt` as ever having existed.
+Times are standard Mathlib Int indices, and worlds are complete alternatives.
+
+The first history preserves `BruteFoundationBoundary.boundaryRival.ontic` and
+its grounding relation. Its child `(false,true)` occupies every integer time
+in world false and remains modally contingent there. The old source
+`(false,false)` is a distinct existing concrete witness of both a cause edge
+and a ground edge to that child. The target is the old dependent child, **not**
+the old brute root. The result asserts those two edges at the selected model
+world; it does not identify causation and grounding universally, infer a
+beginning, or assert a time-indexed causal law.
+
+The second history preserves `Models.PSR.Intrinsic.model.ontic`; explanation
+labels play no role. Its target false is assigned presence from integer0
+onward and absence before0. At the designated world it begins at0 and is
+`NecessaryAt` (present at now=0 in every accessible history), hence not
+`ContingentAt`. This is a fixed counterexample to
+beginning entailing modal contingency under explicit now-slice semantics,
+not a theorem that whatever begins is necessary. The existing
+`ChangeDoesNotGiveModalContingency` uses separate world/time indices but was
+not substituted for this onset control.
+
+Temporal everlasting presence is not the existing timeless `Eternal`
+predicate: no-succession eternity remains the distinct sense recorded in
+`DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY`. No timeless-eternity theorem,
+metaphysical possibility, explanatory adequacy, or global existence/cause/
+ground bridge is established. The two controls each certify their properties
+jointly; they are not spliced into a single being that both begins and is
+everlasting. Infinite Int time is not falsely registered as a finite model.
+
+The new Challenge was frozen before proof construction (SHA256
+`255c00dc572c9ef9fe1d43080ce78c2bc0917c8dc5b15240467557269b7809db`).
+Both focused Solution and Challenge builds, scoped binding, Comparator and
+independent NanoDa checks pass; the theorem uses exactly propext. Full integrated
+CI remains the final delivery gate. Intended and actual
+root-premise delta: none; this comparison defends no open root commitment.

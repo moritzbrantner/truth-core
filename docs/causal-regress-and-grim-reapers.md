@@ -129,6 +129,78 @@ successor chain. So *non-uniqueness without a boundary condition* is not an
 argument that the chain is mathematically impossible; one observed effect can
 select a solution. **What explains that effect** is a different question.
 
+### Fixed-point reuse audit for #310 (2026-10-28)
+
+At `49b4589aa6744c91a6bc9adec13215d0e7245c9d`, the proposed
+least-versus-greatest activation test is already substantially covered:
+
+- `TruthCore.Logic.Regress.Graph.transmission` takes the original-power
+  predicate `O` as independent data and sends `S` to
+  `{x | O x ∨ ∃ y, R y x ∧ y ∈ S}`. Its monotonicity is proved.
+  `Graph.grounded_eq_lfp` identifies its least fixed point with the existing
+  `FinitelyGroundedPower R O`, without assuming well-foundedness of `R`.
+- `TruthCore.Results.Causality.FiniteGroundingHasSource.finiteGroundingHasSource`
+  extracts `∃ s, FiniteCausalPath R x s ∧ O s` from that inductive membership.
+  Conversely the constructors `FiniteCausalPath.same/link` and
+  `FinitelyGroundedPower.intrinsic/borrowed` give the reverse construction by
+  induction on the path. This reverse construction is an inspected structural
+  consequence, not a newly registered or separately certified theorem here.
+- `TruthCore.Results.Logic.RegressSchema.regressSchemaPackage`, through
+  `RegressDomains.CrossDomainBoundary`, already certifies the same successor
+  graph with every node active, no graph source, `0` in the greatest fixed
+  point and `0` outside the least fixed point for `O = False`.
+  Thus the contemplated countermodel is already present, not a missing proof.
+- `Graph.fixedPoints_equal_of_wellFounded` supplies a sufficient condition for
+  equality. `RegressDomains.CycleAndConverseBoundary` explicitly blocks the
+  converse: every node can be intrinsic on a self-loop, giving equal fixed
+  points without well-foundedness. Neither equality nor finite grounding at a
+  selected node establishes global accessibility.
+
+For a world-local application fix **one** `w`, use its existing-being subtype
+as carrier, and restrict `R` and `O` to that carrier. The same polymorphic
+schema applies; it does not require a new activation engine, a union of
+cross-world edges, or a temporal interpretation. This is an instantiation
+recipe, not a newly verified world-local physical model. In particular,
+`O` remains an independently interpreted input: it must not mean “whatever
+source the desired conclusion requires.” Graph sources (no incoming edge)
+and intrinsic-power bearers are different predicates in these theorems.
+
+The decisive missing bridge remains **ACT-GROUND**: an independently
+characterized actual exercise, in a specified world and respect, must belong
+to this least fixed point (or meet another independently defended condition
+which entails finite grounding). That bridge would exclude source-free
+active assignments by composition with the existing source theorem. It is
+not established by monotonicity, an observed effect, link-cut sensitivity,
+or the mathematical existence of least and greatest fixed points. Assuming
+accessibility supplies a stronger sufficient background, not a defense of
+that background. Conversely, the strongest structural rival can regard the
+whole non-well-founded assignment as actual and treat the global structure
+as its ground. The existing countermodel establishes consistency of the
+encoded constraints; it establishes neither that rival's actuality nor its
+metaphysical impossibility.
+
+The merged #625 `UniqueFeedback.Controls` control further rules out using
+solution multiplicity as a general objection to global constraints: its
+sensitive Boolean equations have a unique solution without observational
+selection. Those gates are not the pure borrowed-power transmission law,
+so they are not substituted for a causal model. The existing
+`CONVERGENT-ZENO-SCHEDULE` and `SUPERTASK-FINITE-PREFIX-NONUNIFORM`
+controls concern mathematical scheduling and finite-capacity quantifiers;
+neither supplies ACT-GROUND or a bound on real causal transfer. The #588
+Night/capacity extension preserves that investigation's finite models and
+does not establish this bridge either.
+
+Even a defended bridge would initially give an original power in the chosen
+respect. `PowerExistenceBoundary.Boundary` retains controls in which such a
+source has external support of its existence, or is necessary and composite.
+There is no passage here from an original exercise-source to an uncaused
+whole being, simplicity or God. The exact root-premise delta is zero; the
+no-infinite-per-se-efficient-cause premise, ACT-POWER, ACT-GROUND, ACT-LIMIT
+and any Reaper recombination principle remain open. No source attribution,
+new argument, result, Challenge or replacement definition is introduced by
+this audit. Existing verification evidence is reused; no Lean checker rerun
+can discharge the remaining interpretive bridge.
+
 ### A new limit test: the intrinsic source escapes to infinity
 
 The verified finite-grounding theorem alone does not authorize us to take

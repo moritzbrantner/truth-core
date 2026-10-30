@@ -1,0 +1,12 @@
+{
+  "id": "AQUINAS-ST-I-II-Q94-A2-REASON-REGULATION",
+  "statement_id": "STMT-REASON-REGULATED-INCLINATIONS-NATURAL-LAW",
+  "source_id": "AQUINAS-ST",
+  "locator": "I-II q.94 a.2 ad 2",
+  "interpretation": "The reply says inclinations of any parts of human nature, including concupiscible and irascible appetite, pertain to natural law insofar as regulated by reason. The reading records only the sufficient direction using independent predicates. It rejects unrestricted appeal to an actual urge and does not turn RegulatedByReason into a definition of conformity to natural law.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-REGULATED-NATURAL-INCLINATION",
+    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+  ]
+}

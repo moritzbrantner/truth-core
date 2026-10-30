@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-PREDECESSOR-BRIDGE-OMISSION",
+  "argument_id": "CONTINGENT-PREDECESSOR-BRIDGE-OMISSION",
+  "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalHarvest.contingentPredecessorControl",
+  "comparator_config": "results/CONTINGENT-PREDECESSOR-BRIDGE-OMISSION/comparator.json",
+  "description": "One fixed endpoint-sound, distinct-cause interpretation retains the named theorem's reflexivity, necessity, potential role and union-WF backgrounds but violates the no-contingent-predecessor bridge and named underivedness. The selected necessary false actually receives a cause from contingent true at false. Only false is necessary, so the necessary-only union is empty despite the local two-cycle. This tests the exact missing bridge; worldwise causal WF, temporal coherence and metaphysical possibility are not claimed. Because its actual world false has a two-cycle, this control is outside the owner's acyclic-world setting; it only tests the weaker background without pointwise WF.",
+  "status": "solution-present"
+}

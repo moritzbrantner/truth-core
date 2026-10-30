@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+  "term": "ideal-successor obligation and available-continuation fulfillment",
+  "definition": "Ought ideal w p means every ideal successor v satisfies p. Can available w p means some available successor v satisfies p. Both reuse Modal.Frame, with predicates on complete continuations. The available relation must be supplied and its intended agency interpretation independently defended. Certificate quantifies over all predicates and characterizes validity by a common ideal/available successor. Bool goal is equality to true; ideal accesses true, broad accesses both Booleans, blocked accesses false. Serial ideality alone supplies no common successor with blocked.",
+  "basis": "stipulative",
+  "note": "Analyst semantics, not sourced Kant vocabulary. Prompted by provisional Carneades captions; source boundary and rejected readings are preserved in docs/notes/carneades-deontology-boundary.md. No external dependency, agency logic or second modal engine.",
+  "lean_declaration": "TruthCore.Modal.DeonticFutureBoundary.Ought"
+}

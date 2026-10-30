@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PARITY-LOCAL-VS-UNION",
+  "term": "world-local termination versus union acyclicity and well-foundedness",
+  "sense_definition_ids": [
+    "DEF-PARITY-UNION-REGRESS",
+    "DEF-PARITY-LOCAL-SUPPORT"
+  ],
+  "resolution": "Each direct edge is world-indexed. Local support has depth at most one. The unlabeled union admits arbitrarily long predecessor descent by alternating edge labels, without a same-world two-step causal chain. No finite cycle does not mean well-founded on Nat. Finite worlds plus uniformly bounded local depth therefore cannot replace union well-foundedness. Union WF remains an independent conditional premise; this control neither refutes its metaphysical truth nor establishes a common cross-world ranking."
+}

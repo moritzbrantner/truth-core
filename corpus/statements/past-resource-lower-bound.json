@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PAST-RESOURCE-LOWER-BOUND",
+  "paraphrase": "One real L bounds the stock S from below at every integer time t\u2264now. The bound is uniform over the whole beginningless integer past; no finite elapsed-time budget is asserted.",
+  "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound",
+  "definition_ids": [
+    "DEF-PAST-RESOURCE-STOCK",
+    "DEF-PAST-RESOURCE-LOWER-BOUND",
+    "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+  ]
+}

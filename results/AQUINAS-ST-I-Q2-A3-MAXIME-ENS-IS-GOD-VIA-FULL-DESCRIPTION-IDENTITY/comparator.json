@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.maximeEnsIsGodViaFullDescription"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

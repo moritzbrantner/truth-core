@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-4A-AVAILABLE",
+  "statement_id": "STMT-KLEIN-TURRI-AVAILABLE-REASONS",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§4a, final paragraph; §4b, paragraph beginning “The objection can be made”",
+  "interpretation": "Prose reading only. This distinguishes the requirements; it does not establish that a human agent possesses the required series or that availability is epistemically sufficient.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

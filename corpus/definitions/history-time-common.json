@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HISTORY-TIME-COMMON",
+  "term": "one common presence time across worlds",
+  "definition": "Common h x is \u2203t \u2200w h.IsAt w x t. The single t belongs to the shared Time type of History. This is stronger than selecting a possibly different witness per world and weaker than presence at every supplied time.",
+  "basis": "stipulative",
+  "note": "Analyst formal scope, not a definition of modal necessity or sourced eternity.",
+  "lean_declaration": "TruthCore.Models.HistoryTimeScope.Common"
+}

@@ -1,6 +1,6 @@
 {
   "id": "ATTEMPT-MODAL-VARIABLE-EFFECT-SHIFT",
-  "date": "2026-10-26",
+  "date": "2026-10-28",
   "statement_ids": [
     "STMT-MODAL-SOUND-DISTINCT-CAUSES",
     "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
@@ -10,8 +10,9 @@
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
-  "summary": "Certified MODEL-MODAL-VARIABLE-EFFECTS and MODEL-MODAL-FIXED-EFFECT both have a necessarily existing source, distinct existing causal relata, and some caused effect at every accessible world, but disagree on whether one rigid effect is present across all worlds; the selected effect is contingent only in the first model. Verified the fixed-effect-to-some-effect implication and a conditional impossibility core for disjoint effect sets. This refutes the quantifier shift, not the necessity of a real concrete cause, free choice, causal determinism or creation. See docs/modal-quantifier-shift-models.md and #462.",
+  "summary": "Certified MODEL-MODAL-VARIABLE-EFFECTS and MODEL-MODAL-FIXED-EFFECT both have a necessarily existing source, distinct existing causal relata, and some caused effect at every accessible world, but disagree on whether one rigid effect is present across all worlds; the selected effect is contingent only in the first model. Verified the fixed-effect-to-some-effect implication and a conditional impossibility core for disjoint effect sets. This refutes the quantifier shift, not the necessity of a real concrete cause, free choice, causal determinism or creation. See docs/modal-quantifier-shift-models.md and #462. Follow-up #462 on main 0f1059ba: the remaining gap is not the already-certified forall-world/exists-effect quantifier shift, but same act identity plus local uniqueness versus stable selected output. OutputProfile overlays the existing alternatingEffects ontology with Unit acts performed everywhere and output w () x iff x=some w; local uniqueness and an invariant function conditionedOutput hold while the full Bool condition varies, StableActOutput fails, and firstEffect remains contingent. The general conditional proof factors fixed full conditions plus exact response law into StableActOutput, then combines stability with same-act performance, causal realization and sound relata to derive selected-effect necessity. Rejected same-act identity, bare local uniqueness and invariant response-function identity as independently sufficient. A necessary source is retained by the countercontrol but is unnecessary downstream once same-act performance is assumed. Challenge SHA256 9381a9c69c39c365c3f787bd50d8e14c203708d5d87b7a003c996f0a8cd07c1b was frozen before proof work. Persistent Lean service accepted the self-contained control and returned zero axioms for checks; integrated build/binding/Comparator/NanoDa remain final CI obligations. Precise semantics, premise table and service evidence: docs/notes/selected-effect-bridge-462.md. No historical attribution or theological premise discharge; metaphysical adoption, full-condition necessity and free creation remain open.",
   "evidence": [
-    "PR-481"
+    "PR-481",
+    "SELECTED-EFFECT-BRIDGE-CERTIFICATE"
   ]
 }

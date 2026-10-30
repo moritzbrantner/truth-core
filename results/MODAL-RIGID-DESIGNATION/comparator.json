@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RigidDesignation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RigidDesignation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RigidDesignation.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

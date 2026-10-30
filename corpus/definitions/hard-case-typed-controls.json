@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HARD-CASE-TYPED-CONTROLS",
+  "term": "typed hard-case and goods-conflict controls",
+  "definition": "Finite people, actions, contexts and goods have explicit factual relations: actor, target, nonconsent, deliberate killing, victim innocence and nonthreat, offender indifference, benefit, absence of punishment, feasibility, recognition and realization of promise keeping and harm prevention. Separately supplied verdicts contain forbidden and categorical-reason-against predicates; ideal-successor frames define the two compared duties.",
+  "basis": "stipulative",
+  "note": "These analyst assignments distinguish actual case properties from normative predicates; lack of prohibition is not permission. One action realizes only the promise good and one realizes only the serious-harm-prevention good. Neither actual feasibility nor actual priority is established. The named types are finite controls rather than complete historical theories.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+  "term": "world-local causal graph on actually existing candidates",
+  "definition": "Actual m w is the subtype of candidates x satisfying m.ExistsAt w x. actualGraph m w reuses Logic.Regress.Graph with edge y x := m.Causes w y.val x.val; the world w is fixed throughout every path and chain. Graph.Source s means no incoming edge from any actual node, including s itself; an absent isolated candidate cannot be a source because it is not a node. The actualSource_iff bridge expresses this as absence of an existing incoming cause. ActualAcyclic requires Graph.NoCycles at each world: no nonempty finite return path of actual-node edges. It does not imply well-foundedness or posit sources, and imposes no condition on raw edges with nonexistent endpoints. Sources may be isolated, multiple, non-concrete in an unrestricted candidate domain, and graph-relative.",
+  "basis": "stipulative",
+  "note": "A local derived subtype view of the existing Ontic fields and Graph, not a new graph or world semantics. Frame/accessibility is unused. It neither supplies endpoint soundness for raw Causes nor equates causal edges with grounding, powers, temporal order, or modal edges.",
+  "lean_declaration": "TruthCore.Causality.WorldSourceRegress.actualGraph"
+}

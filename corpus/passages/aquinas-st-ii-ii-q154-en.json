@@ -1,0 +1,55 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.newadvent.org/summa/3154.htm",
+    "retrieved_at": "2026-10-29T10:27:43Z",
+    "sha256": "sha256:07c3ab6b928a16ce1b3d1c2eb57d5e065a42438ea9ad3aead867d8105bb9df37",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Fathers of the English Dominican Province",
+      "year": 1920,
+      "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"
+    },
+    "license": "1920 translation public domain in the US; page footer states online edition copyright Kevin Knight and New Advent LLC. Only hashes and a short incipit are committed; live bytes may change."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-II-II-Q154-A1-EN",
+      "locator": "II-II q.154 a.1",
+      "claim_locator_prefixes": [
+        "II-II q.154 a.1 "
+      ],
+      "html_selector": {
+        "heading": "Article 1. Whether six species are fittingly assigned to lust?"
+      },
+      "text_sha256": "sha256:b2f315f47d554532b278353aa5253b961aeebc4977ddce9135e0a097ec3adfe8",
+      "incipit": "Article 1. Whether six species are fittingly assigned to lust?"
+    },
+    {
+      "id": "AQUINAS-ST-II-II-Q154-A6-EN",
+      "locator": "II-II q.154 a.6",
+      "claim_locator_prefixes": [
+        "II-II q.154 a.6 "
+      ],
+      "html_selector": {
+        "heading": "Article 6. Whether seduction should be reckoned a species of lust?"
+      },
+      "text_sha256": "sha256:ca6d3fb34602a8c972a137fe0a379e899b7ca8b7833d5a9a147b6d656a97b085",
+      "incipit": "Article 6. Whether seduction should be reckoned a species of lust?"
+    },
+    {
+      "id": "AQUINAS-ST-II-II-Q154-A7-EN",
+      "locator": "II-II q.154 a.7",
+      "claim_locator_prefixes": [
+        "II-II q.154 a.7 "
+      ],
+      "html_selector": {
+        "heading": "Article 7. Whether rape is a species of lust, distinct from seduction?"
+      },
+      "text_sha256": "sha256:f8bb647adc509c6f8ed35ab88306696f70b76ac7f44135f9dc17a104e09767ed",
+      "incipit": "Article 7. Whether rape is a species of lust, distinct from seduction?"
+    }
+  ]
+}

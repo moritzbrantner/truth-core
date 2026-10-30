@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-SPATIAL-REASON-SUFFICIENCY",
+  "term": "sufficient reason for indifferent spatial alternatives",
+  "sense_definition_ids": [
+    "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON",
+    "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON",
+    "DEF-SPATIAL-COVARIANT-SELECTION"
+  ],
+  "resolution": "Leibniz demands a contrastive explanation of the selected placement; Clarke allows intrinsic volition without an external difference. Both profess sufficient reason. The analyst covariance norm is a third, explicitly added condition, not either source’s unqualified PSR. The no-selector theorem therefore does not refute Clarke or prove relationalism from PSR alone."
+}

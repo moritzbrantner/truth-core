@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-TIMAEUS-BROAD-DISTINCT-STRENGTH",
+  "statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-BROAD",
+    "STMT-CAUSE-PRINCIPLE-DISTINCT",
+    "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "date": "2026-10-29",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reuse the original Timaeus broad/distinct cause predicates without revising their source readings. Under explicit decidable identity, all three obligations certify the named local delta: a generated self-causing entity has a distinct alternative cause. Reconstruction keeps the broad witness when it is distinct; if it is self-identical, D supplies an alternative witness whose distinctness and causation concern that same alternative. A Bool identity-only setting satisfies broad and not distinct; an all-pairs setting admits self-causation and D; an empty-cause setting has D without broad. Global irreflexivity was rejected as too strong. D is not claimed unique or minimal; no causal applicability or root premise is discharged. PR #723 order-like causal primitives supply no ordinary-order identities merely by their names. A separate generated-self-only plus generated-uncaused two-point control makes W → S true and D false, excluding a disguised conditional restatement.",
+  "evidence": [
+    "STRENGTH-CAUSE-IMPLICATION",
+    "STRENGTH-CAUSE-DELTA-FORWARD",
+    "STRENGTH-CAUSE-RECONSTRUCTION",
+    "STRENGTH-CAUSE-EQUIVALENCE",
+    "STRENGTH-CAUSE-SEPARATOR",
+    "STRENGTH-CAUSE-MIXED-CONTROL",
+    "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+    "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+  ]
+}

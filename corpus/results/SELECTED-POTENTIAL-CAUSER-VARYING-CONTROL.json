@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "argument_id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalHarvest.varyingNamedControl",
+  "comparator_config": "results/SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL/comparator.json",
+  "description": "The unchanged registered varying interpretation jointly satisfies all five selected-causer backgrounds, named underivedness of the given false, and an actual outgoing edge to an existing recipient at world true. Reuse its reflexivity, no-contingent-predecessor and union-WF theorems and compose the named result. This nonvacuous positive profile supplies no actual edge at base false and establishes no metaphysical possibility.",
+  "status": "solution-present"
+}

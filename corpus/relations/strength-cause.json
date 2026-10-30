@@ -1,0 +1,44 @@
+{
+  "id": "REL-STRENGTH-CAUSE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "predicate": "strength_comparison",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSE-PRINCIPLE-BROAD",
+  "comparison_spec": "TruthCore.Logic.Strength.Cause.spec",
+  "delta_statement_id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "background_statement_ids": [],
+  "evidence_result_ids": {
+    "implication": "STRENGTH-CAUSE-IMPLICATION",
+    "delta_forward": "STRENGTH-CAUSE-DELTA-FORWARD",
+    "reconstruction": "STRENGTH-CAUSE-RECONSTRUCTION",
+    "equivalence": "STRENGTH-CAUSE-EQUIVALENCE"
+  },
+  "separator": {
+    "setting": "TruthCore.Logic.Strength.Cause.selfOnlySetting",
+    "result_id": "STRENGTH-CAUSE-SEPARATOR"
+  },
+  "note": "Under explicit decidable identity and the same generation/cause predicates, the distinct-cause principle is the broad principle plus the local requirement that a generated self-causing being also has a distinct cause. This keeps one shared existential witness, permits mixed self/nonself causes, and is not global causal irreflexivity. The self-only setting separates the principles; it is not a claim that real causes have that interpretation.",
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      2,
+      3
+    ],
+    "weaker": [
+      0,
+      2,
+      3
+    ],
+    "delta": [
+      0,
+      2,
+      3
+    ]
+  },
+  "explanatory_control_result_ids": [
+    "STRENGTH-CAUSE-MIXED-CONTROL",
+    "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+    "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+  ]
+}

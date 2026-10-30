@@ -1,0 +1,10 @@
+{
+  "id": "HISTORY-SELECTION-CERTIFICATE",
+  "argument_id": "HISTORY-SELECTION-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Explanation.HistorySelection.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.HistorySelection.Solution",
+  "theorem": "TruthCore.Results.Explanation.HistorySelection.certificate",
+  "comparator_config": "results/HISTORY-SELECTION-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "Whole-vector entailing-selection characterization and omission, with composed infinite and grounded controls. A contrastive adequacy bridge, independent explanatory relevance, applicability and law actuality remain open. This is a substantive informational consequence, not a definition of adequate explanation or a root discharge."
+}

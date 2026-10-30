@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-BRUTE-EXISTENCE-AT",
+  "term": "local no-brute positive existence facts",
+  "definition": "At one selected world w, every x satisfying ExistsAt w x has some Reason token related by explains to ExistenceFact.fact x. The interpretation of explains is stipulated; the formal type does not establish independent adequacy, sufficiency, concreteness or noncircularity of explanation, and does not identify explains with efficient causation or grounding. It covers positive individual existence facts only, not negative or totality facts. It is vacuously true at an unpopulated world; global ExistencePSR quantifies it over all worlds.",
+  "basis": "stipulative",
+  "note": "Owner-requested optional analyst comparison axis; no source attribution. The existing explanation model and its weak token semantics are retained.",
+  "lean_declaration": "TruthCore.Explanation.NoBruteExistence.NoBruteExistenceAt"
+}

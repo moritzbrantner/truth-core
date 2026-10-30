@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+  "term": "bounded schedule with first instant and no first event",
+  "definition": "Controls bundles: existence of a least element of BoundedTime = Set.Icc (0:Real) 1 with value 0; positive eventTime n at most 1 for all n; a strictly earlier event for each n; an integer below every integer bound; no independentCauses edges; WellFounded independentCauses; and NoInfiniteDescendingPerSeSeries independentCauses. eventTime n is the reflected existing zenoStageTime, not an added real-time limit notion. independentCauses x y is False. NoInfiniteDescendingPerSeSeries uses the existing successor-causes-predecessor convention, with no distinctness requirement.",
+  "basis": "stipulative",
+  "note": "Analyst mathematical controls only, with actual Mathlib real interval and integer order. A physical event interpretation would require independent support. No source attribution.",
+  "lean_declaration": "TruthCore.Causality.TemporalEventControls.Controls"
+}

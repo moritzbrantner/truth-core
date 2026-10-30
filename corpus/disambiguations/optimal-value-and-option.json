@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-OPTIMAL-VALUE-AND-OPTION",
+  "term": "best option, best quality, and perfect making",
+  "sense_definition_ids": [
+    "DEF-OPTIMAL-CREATION-CANDIDATE",
+    "DEF-OPTIMAL-CREATION-OUTPUTS",
+    "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
+  ],
+  "resolution": "PartialOrder antisymmetry identifies equal greatest quality values; it does not identify the candidates mapped to them. Candidate uniqueness is a separate quantified hypothesis. Fixed feasible options are not simultaneously existent creations. Totality concerns positive selected effects and excludes the no-creation rival within this formal scope. Perfect manner of making is not identified with maximizing the quality of the product. Monadology \u00a7\u00a753\u201355 supplies a best-creation rationale, not the formal uniqueness/totality package; ST I q25a6 reply3 supports a better-other-universe reply, not universal strict improvability of every admissible option. See the materialized source readings in docs/notes/optimal-creation-choice.md."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PREORDER-DEGREE-INVARIANCE",
+  "term": "same existence degree across accessible worlds",
+  "definition": "Same degree is represented by both inequalities intensity v n ≤ intensity w0 n and intensity w0 n ≤ intensity v n in one shared Preorder, not literal identity of degree labels. The source-shaped ActualNecessaryDegreeInvariant clause requires BOTH actual base-world presence and NecessaryAt m w0 n before asserting this equivalence at each root-accessible v. The earlier NecessaryDegreeInvariant analyst predicate has only the relative-necessity antecedent; it is stronger outside actual/reflexive contexts and is not directly attributed to source11. Neither clause asserts necessary existence of n or uniqueness of a degree maximum.",
+  "basis": "stipulative",
+  "note": "A deliberately weak ordered representation of the source11 same-degree wording. Relative necessity can be vacuous at a nonreflexive standpoint while n is absent there; that does not support an assertion about an absent base-world intensity. The guarded source reading is therefore separate from the frozen analyst predicate. Main-to-source adaptation uses explicit ActualReflexive and NecessaryAt inputs, not a hidden frame axiom.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.ActualNecessaryDegreeInvariant"
+}

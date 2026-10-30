@@ -8,10 +8,10 @@ open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchRea
 open TruthCore.Case.Catholicism
 
 /-- Stage 2 (owner decision on #143, 2026-10-24): God has the classical
-attributes. The definitional bridge (*Dei Filius* ch. 1) needs nine attributes.
+attributes. The open one-way bridge (motivated by *Dei Filius* ch. 1) needs nine attributes.
 Four are derived for whatever is God, through its being maximal in being: one,
 simple, perfect and supremely good. The other five are open premises, each
-supported by *Dei Filius* ch. 1, until their groups are derived. -/
+supported by *Dei Filius* ch. 1, as inputs to this result. Later compositions derive them separately. No existence of God or converse from the primitive attributes field is concluded. -/
 theorem godHasClassicalAttributes (σ : Signature) {Respect : Type}
     (InAct GoodIn : σ.Being → Respect → Prop)
     (MoreIn : Respect → σ.Being → σ.Being → Prop)
@@ -44,9 +44,12 @@ theorem godHasClassicalAttributes (σ : Signature) {Respect : Type}
     hMaximal hGenus hBeing hPreexist hEM
   have hGood := TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.godIsSupremelyGood σ.IsGod InAct GoodIn MoreIn
     CausesIn esse hMaximal hGenus hBeing hGoodness hPerfections
-  -- INF-STAGE2-CLASSICAL-ATTRIBUTES: with the five open attributes, the definitional bridge
+  -- INF-STAGE2-CLASSICAL-ATTRIBUTES: with the five open attributes, the open one-way bridge
   intro g hg
-  exact hSuffice g (hSimple g hg) (hPerfect g hg) (hGood g hg) (hOne g hg) (hInfinite g hg)
-    (hImmutable g hg) (hEternal g hg) (hIntellect g hg) (hWill g hg)
+  exact classicalAttributesFromNine σ (IsSimple Composite) (IsPerfect InAct)
+    (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
+    Infinite Immutable Eternal HasIntellect HasWill hSuffice g
+    ⟨hSimple g hg, hPerfect g hg, hGood g hg, hOne g hg, hInfinite g hg,
+      hImmutable g hg, hEternal g hg, hIntellect g hg, hWill g hg⟩
 
 end TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes

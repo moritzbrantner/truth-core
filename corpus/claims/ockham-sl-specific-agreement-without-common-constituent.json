@@ -1,0 +1,17 @@
+{
+  "id": "OCKHAM-SL-I17-SPECIFIC-AGREEMENT",
+  "statement_id": "STMT-SPECIFIC-AGREEMENT-WITHOUT-COMMON-CONSTITUENT",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.17: first two replies beginning Ad primum concedo and Secundum etiam argumentum",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Retains real specific agreement and the appeal to each individual’s intellective soul/form. It rejects the proposed inference to an additional shared constituent; it does not claim that resemblance is invented by language or that its explanatory adequacy has been independently proved.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NUMERICAL-SINGULARITY",
+    "DEF-PARTICULAR-SUBSTANTIAL-FORM",
+    "DEF-COMMON-NATURE-CONSTITUENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
+    "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM"
+  ]
+}

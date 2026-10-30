@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-NECESSARY-UNION-CONTROLS",
+  "argument_id": "FINITE-NECESSARY-UNION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Solution",
+  "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.checks",
+  "comparator_config": "results/FINITE-NECESSARY-UNION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Joint controls on explicit finite interpretations: source plus independent two-cycle; rotating local acyclicity with no union source and a union cycle; benign varying source without a union cycle despite a novel necessary edge. Reuses the unchanged rotating and varying model theorems. These refute exclusivity of source/cycle and any inference from variable edges alone to absence of a common source; no metaphysical interpretation is established."
+}

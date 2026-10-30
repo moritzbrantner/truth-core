@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THESEUS-OCCURRENCE-BEARER",
+  "term": "stage occurrence and numerical bearer",
+  "definition": "Stage distinguishes original, intermediate, continued and reassembled occurrences. A function bearer : Stage \u2192 B assigns an object to each occurrence; ordinary equality of B represents numerical identity. Different stage constructors do not entail different bearers. No claim about the adequacy of this persistent-object representation is implicit.",
+  "basis": "stipulative",
+  "note": "Analytical Theseus reassembly profile; not attributed to Plutarch. See docs/notes/theseus-identity-boundary.md.",
+  "lean_declaration": "TruthCore.Mereology.TheseusIdentity.Stage"
+}

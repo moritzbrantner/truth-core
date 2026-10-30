@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
+  "term": "binary belief/polarity response mechanism",
+  "definition": "act belief polarity follows belief when polarity=false and reverses it when polarity=true. belief is one binary representation at each input; target is its independently supplied true value and successful response. Successful requires act=target at every input. Direct requires polarity=false everywhere. Polarity is a thin action-preference proxy; the Boolean rule supplies no complete account of desire, content or agency.",
+  "basis": "stipulative",
+  "note": "Analyst finite semantic control motivated by the pinned Plantinga belief/desire passage, not attributed mathematical psychology. See docs/notes/plantinga-fitness-truth-boundary.md.",
+  "lean_declaration": "TruthCore.Epistemology.FitnessTruthBoundary.act"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "STMT-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY",
+  "lean_declaration": "TruthCore.Models.NoBruteExistenceCompatibility.JointWitness",
+  "paraphrase": "The specified explanation-model expansion of the existing grounding rival is sound and satisfies all-world existence-PSR, while the unchanged grounding profile lacks a necessary concrete individual at world false and it is not the case that every actual contingent concrete existent there has an actual concrete ground.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

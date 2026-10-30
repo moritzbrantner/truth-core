@@ -76,6 +76,18 @@ class ConfigurationTests(unittest.TestCase):
                 self.validate()
             self.case, self.models = saved_case, saved_models
 
+    def test_carrier_functions_are_allowed_but_proof_arguments_are_not(self):
+        self.case['semantics']['parameters'].append({'name': 'image', 'type': 'I → W'})
+        self.case['semantics']['parameter_order'].append('image')
+        for model in self.models.values():
+            model['bindings']['image'] = 'Fixture.image'
+        for binding in self.case['model_bindings']:
+            binding['parameters']['image'] = 'image'
+        self.validate()
+        self.case['semantics']['parameters'][-1]['type'] = 'Prop → W'
+        with self.assertRaises(ValueError):
+            self.validate()
+
     def test_certificate_type_uses_same_explicit_parameters_and_false(self):
         source = certificate_source(self.case, self.statements, self.results, self.arguments)
         self.assertIn('(@Fixture.P W) → (@Fixture.Q W) → False := by', source)
@@ -161,6 +173,28 @@ class ConfigurationTests(unittest.TestCase):
         self.case['semantics']['parameters'] = [p for p in self.case['semantics']['parameters'] if p['name'] != 'W']
         with self.assertRaisesRegex(ValueError, 'proposition-valued carriers'):
             self.validate()
+
+    def test_existence_psr_data_role_preserves_explicit_premises(self):
+        profile = self.case['semantics']
+        profile['parameters'].append({'name': 'Model', 'type': 'TruthCore.Explanation.ExistencePSR.Model W I'})
+        profile['parameter_order'].append('Model')
+        for mid, model in self.models.items():
+            model['bindings']['Model'] = 'Fixture.model'
+            self.case['model_bindings'][list(self.models).index(mid)]['parameters']['Model'] = 'Model'
+        self.validate()
+        source = certificate_source(self.case, self.statements, self.results, self.arguments, self.models)
+        self.assertIn('(Model : TruthCore.Explanation.ExistencePSR.Model W I)', source)
+        self.assertIn('def model_parameter_0_5 : TruthCore.Explanation.ExistencePSR.Model (Bool) (Bool) := Fixture.model', source)
+        self.assertIn('(@Fixture.P W) → (@Fixture.Q W) → False', source)
+        self.assertIn('exact @Fixture.CORE W I F present w Model', source)
+        for bad in ['TruthCore.Explanation.ExistencePSR.Model W Later',
+                    'TruthCore.Explanation.ExistencePSR.Model W',
+                    'TruthCore.Explanation.ExistencePSR.Model W I Prop',
+                    'Fixture.ProofBearingModel W I',
+                    'TruthCore.Explanation.ExistencePSR.Sound m']:
+            profile['parameters'][-1]['type'] = bad
+            with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
+                self.validate()
 
     def test_false_conclusions_cannot_enter_implication_discovery(self):
         self.statements['False'] = {'id': 'False', 'lean_declaration': 'TruthCore.Logic.ConfigurationFalse'}
@@ -276,12 +310,40 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         with patch.object(self.corpus, 'load_dir', side_effect=loader), \
              patch.object(self.corpus, 'registered_configurations', return_value=[case]), \
              patch.object(self.corpus, 'verify_case', return_value={}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
              patch.object(self.corpus, 'run_bind_tool', return_value=[described]) as tool, \
              redirect_stdout(output), self.assertRaisesRegex(self.corpus.CorpusError, 'original theorem binding rejected'):
             self.corpus.command_configurations(args)
         self.assertEqual(tool.call_args.args[0]['theorems'], [result['theorem']])
         self.assertEqual(output.getvalue(), '')
 
+
+    def test_multi_case_verification_binds_the_exact_unique_union_and_fails_closed(self):
+        cases = [self.cases['CONFIG-NECESSARY-INDIVIDUAL'], self.cases['CONFIG-NIGHT-ACTUALIZATION']]
+        selected = sorted({rid for case in cases for key in ('incompatibility_result_ids', 'implication_result_ids') for rid in case.get(key, [])})
+        context = dict(statements=self.statements, results=self.results, arguments=self.arguments, models=self.models,
+                       cases=[cases[0], copy.deepcopy(cases[0]), cases[1]])
+        args = argparse.Namespace(case=None, seed=None, premise=[], registered=False)
+        descriptions = [{'theorem': self.results[rid]['theorem']} for rid in selected]
+        with patch.object(self.corpus, 'verify_case', side_effect=lambda *args: {}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
+             patch.object(self.corpus, 'run_bind_tool', return_value=descriptions) as tool, \
+             patch.object(self.corpus, 'bind_result', return_value={'status': 'bound'}):
+            reports = self.corpus.collect_configuration_reports(args, context)
+        self.assertEqual(len(reports), 3)
+        self.assertEqual(tool.call_count, 1)
+        self.assertEqual(tool.call_args.args[0]['theorems'], [self.results[rid]['theorem'] for rid in selected])
+        for report, case in zip(reports, context['cases']):
+            self.assertEqual(report['verification']['original_bound_result_ids'],
+                             sorted(set(case.get('incompatibility_result_ids', []) + case.get('implication_result_ids', []))))
+        def bind(result, argument, statements, description):
+            return {'status': 'mismatch', 'problems': ['missing description']} if 'error' in description else {'status': 'bound'}
+        with patch.object(self.corpus, 'verify_case', side_effect=lambda *args: {}), \
+             patch.object(self.corpus, 'verify_compositions', return_value={'cores': 0}), \
+             patch.object(self.corpus, 'run_bind_tool', return_value=descriptions[:-1]), \
+             patch.object(self.corpus, 'bind_result', side_effect=bind), \
+             self.assertRaisesRegex(self.corpus.CorpusError, 'original theorem binding rejected'):
+            self.corpus.collect_configuration_reports(args, context)
 
     def test_all_sixteen_positive_starter_subsets_match_independent_reference(self):
         case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']

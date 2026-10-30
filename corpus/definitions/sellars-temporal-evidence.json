@@ -1,0 +1,9 @@
+{
+  "id": "DEF-SELLARS-TEMPORAL-EVIDENCE",
+  "term": "present knowledge of earlier evidence versus earlier knowledge",
+  "basis": "sourced",
+  "definition": "The account requires that the subject can now cite earlier facts and now knows or remembers that they occurred; it does not require that the subject knew them when they occurred. Present epistemic entitlement is distinct from the developmental history of acquiring response habits.",
+  "claim_ids": [
+    "SELLARS-EPM-37-TEMPORAL-REGRESS"
+  ]
+}

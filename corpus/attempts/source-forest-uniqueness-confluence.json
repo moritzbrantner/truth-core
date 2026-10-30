@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-SOURCE-FOREST-UNIQUENESS-CONFLUENCE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-SOURCE-FOREST-WELL-FOUNDED",
+    "STMT-SOURCE-FOREST-POPULATED",
+    "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+    "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst structural slice for #320, baseline73dcbb13. Inventory found existing Graph/Source, actualGraph, FiniteCausalPath and WorldSourceRegress.sourcePath_of_acc, and Mathlib EqvGen, Relator.LeftUnique, ReflTransGen, Join and Church\u2013Rosser; no existing repository source-uniqueness theorem under these conditions. First proved weak causal connectivity plus unique immediate predecessor gives at-most-one source without WF or population. Generalized through Mathlib equivalence_join to upstream confluence; a fixed finite diamond proves this condition strictly weaker than unique immediate predecessor. Confluence is defined by joining arbitrary finite upstream branches, not by existence of a named/common source. WF plus explicit population composes the existing source-path theorem to produce one source with finite paths from all nodes. Four frozen controls separate V-shaped multiple sources, disconnected sources, connected source-free integer chain and empty carrier. The integer chain preserves uniqueness vacuously while failing existence; no nonemptiness is hidden inside connectivity. Rejected inferring causal connectivity from accessibility connectivity, necessity/no-parts/essence-esse identity from graph structure, or multiple immediate causes from metaphysical impossibility. Strongest residual objection: neither the original LeftUnique restriction nor its weaker upstream-confluence replacement is independently warranted for actual causes. Shared service full-content probes used causal-harvest at detached73dcbb13, unique Scratch/issue320-forest/Proof.lean under /tmp/truth-core-lean.lock; HTTP200, lock wait0, versions1-8, final SHA2562ada60dfb3e81cb69400c0dd015147dbc21bbd0a3ea6e582e17db0938957e8bd, no diagnostics at version8. Initial frozen Challenge SHA25681823585e4e0f91db1bfa83637f2428131142d963e2177f33873984509a62bdb preserved; separate confluence Challenge SHA256592527e0a7b20e2d58b7ed2074e9de1c98d62a4d0ea3130defee2c1052456e59. Interactive elaboration is not final Comparator/NanoDa certification. No source attribution or actual metaphysical profile established. Intended and actual root-premise delta zero: all previous root leaves retained, none added or removed; no route or root closure changes.",
+  "evidence": [
+    "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+    "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+    "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+    "SOURCE-FOREST-OMISSION-CONTROLS",
+    "SOURCE-FOREST-CONFLUENCE-STRICTNESS"
+  ]
+}

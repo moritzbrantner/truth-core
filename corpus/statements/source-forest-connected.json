@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+  "lean_declaration": "TruthCore.Causality.SourceForest.WeaklyConnected",
+  "paraphrase": "Open structural premise: every two nodes in the selected causal graph are joined by a finite undirected causal zigzag; empty carriers satisfy this universal condition.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

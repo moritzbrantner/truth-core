@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "rule": "direct-proof",
+  "meaning": "Some sound Model Bool Bool has local explanation coverage at false, an unexplained actual existence fact at true, and fails all-world existence-PSR. In the inspected Solution construction the witness reuses Intrinsic.model.ontic, but ontology preservation is not exposed by the exported existential conclusion. The optional actual-world position therefore must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

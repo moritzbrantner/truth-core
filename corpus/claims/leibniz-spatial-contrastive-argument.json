@@ -1,0 +1,17 @@
+{
+  "id": "LEIBNIZ-III-5-7-SPATIAL-REASON",
+  "statement_id": "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE",
+  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "locator": "Leibniz III §§5,7",
+  "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-LEIBNIZ-RELATIONAL-SPACE",
+    "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIAL-DATA-IDENTITY",
+    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+  ]
+}

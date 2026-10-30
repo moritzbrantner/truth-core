@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "paraphrase": "The selected rigid n actually exists and exists at every root-accessible world. At every such world its degree bounds the degrees of all individuals existing at any root-accessible world. Ties and other necessary individuals are allowed; no value maximum, actual causal exercise, divine identity or uniqueness is asserted.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.NecessaryGlobalDegreeMaximum",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

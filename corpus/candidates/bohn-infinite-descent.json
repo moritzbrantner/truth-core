@@ -3,7 +3,7 @@
   "source_id": "BOHN-INFINITE-DESCENT",
   "locator": "whole chapter",
   "priority": 906,
-  "goal": "Waiting for a witness (copyrighted, #378). Attribute STMT-INFINITE-PER-SE-CAUSE-SERIES once a bibliographic citation is admitted, and connect it to the source-free models of #310.",
-  "reason": "Alternatives campaign #387, act/potency and regress batch: the rival statement and its alternative_to relation are recorded; the witness is missing, so no claim attributes it yet (invariant 18).",
+  "goal": "Obtain and read the author manuscript Indefinitely Descending Ground (2018), pp.167–181. PhilArchive BOHIDG/BOHIDGv1 currently return HTTP 403; author-linked institutional record https://hdl.handle.net/11250/4022949 needs a usable file witness. Do not attribute STMT-INFINITE-PER-SE-CAUSE-SERIES from a fact-grounding argument without independently defending the causal relation bridge.",
+  "reason": "Corrected publisher identity and preserved exact witness leads in the source record. The separate accessible Welchance 2026 argument supplies positive uniformity/parity reasons but leaves totality PSR and present-esse conservation open; see docs/notes/unique-feedback-explanation-311.md. No Bohn claim or missing-witness workaround is created.",
   "status": "candidate"
 }

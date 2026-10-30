@@ -1,0 +1,9 @@
+{
+  "id": "INF-TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "rule": "model-construction",
+  "meaning": "Two closed history controls with explicit CoherentAtNow, reusing old ontology assignments without changing any existence, cause or ground relation. First, boundaryRival child (false,true) exists at every Int time in world false yet is modally contingent there; source (false,false) is a distinct actually existing concrete individual with both a Causes edge and a grounds edge to that child in that same fixed old profile. These are two chosen edges with one witness, not a universal identification of causes and grounds or an assertion of temporal production at every time. Second, the old PSR.Intrinsic ontology target false is absent before Int time0 and present from0 onward in every world; it begins at0 in world false and is present at the designated now=0 in every accessible history (NecessaryAt), hence not ContingentAt. Modal presence is explicitly the now=0 slice, not ever having existed, and worlds remain alternatives rather than times. The controls are separate interpretations with jointly certified properties internally; no single target is asserted both beginning and everlasting. Neither establishes timeless Eternal, metaphysical possibility, a sufficient-reason premise, a causal law for beginnings, or a necessary being in reality. No premise is added to an existing root route; intended and actual root-premise delta none.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

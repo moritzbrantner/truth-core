@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PHAEDO-BEST-EXPLANATORY-AIM",
+  "term": "explanation through what is best in the Phaedo",
+  "definition": "The explanatory aim expressed in the choice-of-best example and the search for why things are arranged best and fittingly. The source distinguishes this aim from indispensable conditions and admits failure to obtain the desired account before the second voyage. It is not an already proved moral standard, universal final-cause law or identification of a divine agent.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLATO-PHAEDO-99A-ENABLING-BODY",
+    "PLATO-PHAEDO-99BC-EXPLANATORY-SEARCH"
+  ]
+}

@@ -33,7 +33,7 @@ runs:
     # lean-toolchain pins the exact Lean version that the Mathlib release in lake-manifest.json
     # requires. `use-mathlib-cache` runs `lake exe cache get`, so Mathlib is downloaded prebuilt
     # rather than compiled.
-    - uses: leanprover/lean-action@24581d74d674803a25a81b10b059c5c0cdd344c6 # v1
+    - uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64 # v1
       with:
         auto-config: false
         build: false

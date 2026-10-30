@@ -1,0 +1,29 @@
+{
+  "id": "ULTIMATE-ADEQUACY-EPISTEMIC",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ULTIMATE-ADEQUACY-EPISTEMIC",
+  "inference_ids": [
+    "INF-ULTIMATE-ADEQUACY-EPISTEMIC"
+  ],
+  "meaning": "Compose the existing #737 Integration without altering its original history/projection models and instantiate the existing #677 conservative weak-token expansion at every new exact modal overlay. This preserves all actual signatures. It does not identify the old epistemic fixtures with the new exercise fixtures or establish agent entitlement; it carries the established local-prediction/whole-selection separation alongside the new ontic discriminator. This is a reuse composition, not an independent epistemic advance.",
+  "definition_ids": [
+    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-PSR-REASON",
+    "DEF-ULTIMATE-EXPLANATION-PROFILE",
+    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+    "DEF-ULTIMATE-EXPLANATION-DECISION",
+    "DEF-WEAK-EXPLANATION-EXPANSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC"
+  ]
+}

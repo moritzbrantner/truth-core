@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-NOMINALIST-UNIVERSALS-PRIMARY-COMPARISON",
+  "statement_ids": [
+    "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
+    "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
+    "STMT-MENTAL-UNIVERSAL-NOT-EXTRAMENTAL-SUBSTANCE",
+    "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
+    "STMT-SPECIFIC-AGREEMENT-WITHOUT-COMMON-CONSTITUENT",
+    "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
+    "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
+    "STMT-PLATONIC-ONE-OVER-MANY",
+    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read full materialized Latin Summa logicae I.14–17 in immutable Logic Museum revisions. Positive rival: natural mental signs, conventional words subordinated to one concept, real specific agreement through particulars/own forms, without an additional common substantial constituent. Reused existing Forms/ParticipationGrounding/ThirdMan results instead of duplicating a regress or treating a semantic reply as adequate metaphysical grounding. Spade author-site PDF timed out and UMass mirror returned404; neither was used for claims. Rendered oldid HTML bytes varied despite identical content, so used byte-stable immutable oldid action=raw endpoints with existing raw_text extraction, twice matched and materialized. Bounded chapter14 CDX query found no capture; save returnedHTTP520; no archive fallback invented. Precise locators, rejected readings, strongest realist replies, primary/transcription boundaries and remaining reliability/selection burdens persist in docs/notes/nominalist-universals.md. No proof, philosophical elimination or root-premise discharge advertised.",
+  "evidence": [
+    "OCKHAM-SL-I14-SINGULAR-SIGN",
+    "OCKHAM-SL-I14-NATURAL-CONVENTIONAL",
+    "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE",
+    "OCKHAM-SL-I16-PARTICULAR-FORMS",
+    "OCKHAM-SL-I17-SPECIFIC-AGREEMENT",
+    "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY",
+    "OCKHAM-SL-I17-EXPRESSES-NATURE"
+  ]
+}

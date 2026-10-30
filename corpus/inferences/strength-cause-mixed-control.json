@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-CAUSE-MIXED-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+  "rule": "typed_strength_comparison",
+  "meaning": "The all-pairs Bool control satisfies D while admitting self-causation; D is not global irreflexivity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

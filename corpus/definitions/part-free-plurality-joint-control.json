@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "term": "part-free plural-root finite interpretation",
+  "definition": "PartFreePlurality fixes five beings left/right/constituent/instrument/effect, using the original three respect values and two universal worlds. Strict ranks 0/0/1/2/3 give ordinary efficient causation and priority. A component must additionally have positive rank; constituent composes instrument/effect and instrument composes effect. Dynamics are pulled back from the original interpretation with constituent mapped to instrument. The two roots have distinct primitive essence values but no represented component or potency.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PartFreePlurality.JointControl",
+  "note": "Finite assignment data reuses the existing generic philosophical vocabulary and consequence theorems. Neither constructor tags nor equality of essence/esse values constitute a defended metaphysics of individuation or unreceived esse. The root predicate tests candidate bearers, not an identification with God. Exact omissions and comparison: docs/notes/part-free-plurality.md."
+}

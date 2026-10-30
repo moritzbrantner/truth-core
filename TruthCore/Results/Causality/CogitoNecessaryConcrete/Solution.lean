@@ -19,6 +19,39 @@ along actual concrete grounds by `Acc` induction. At each ancestor, excluded
 middle decides whether it has an actual concrete ground (descend), else whether
 it is contingent (a root: second horn), else it exists at every accessible
 world (first horn). -/
+theorem ancestryRootForkWithRoot {W B Episode : Type}
+    (m : Profile W B) (Occurs : Episode → Prop) (Bears : B → Episode → Prop) (w : W)
+    (hOccurs : ThoughtOccurs Occurs)
+    (hBearer : EveryThoughtHasSubject Occurs Bears)
+    (hConcrete : EveryBearerIsConcrete Occurs Bears m.concrete)
+    (hExists : EveryBearerExistsAt m.ontic Occurs Bears w)
+    (hAcc : ThinkerGroundingAccessible m Occurs Bears w)
+    (hEM : ExcludedMiddle) :
+    (NecessaryConcreteRootAncestorOfThinker m Occurs Bears w ∨
+      ContingentRootAncestorOfThinker m Occurs Bears w) := by
+  obtain ⟨b, e, he, hb⟩ :=
+    TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought Occurs Bears hOccurs hBearer
+  have walk : ∀ x, Acc (ActualConcreteGround m w) x → GroundAncestor m w x b →
+      m.concrete x → m.ontic.ExistsAt w x → (NecessaryConcreteRootAncestorOfThinker m Occurs Bears w ∨
+      ContingentRootAncestorOfThinker m Occurs Bears w) := by
+    intro x hx
+    induction hx with
+    | intro x _ ih =>
+      intro hanc hc hex
+      rcases hEM (∃ y, ActualConcreteGround m w y x) with ⟨y, hy⟩ | hnone
+      · exact ih y hy (Relation.ReflTransGen.head hy hanc) hy.1 hy.2.1
+      · rcases hEM (ContingentAt m.ontic w x) with hcont | hncont
+        · exact Or.inr ⟨b, e, x, he, hb, hanc, hc, hex, hcont, fun y hy => hnone ⟨y, hy⟩⟩
+        · refine Or.inl ⟨b, e, x, he, hb, hanc, hc, hex, ?_, fun y hy => hnone ⟨y, hy⟩⟩
+          intro v hv
+          rcases hEM (m.ontic.ExistsAt v x) with h | h
+          · exact h
+          · exact (hncont ⟨hex, v, hv, h⟩).elim
+  exact walk b (hAcc b e he hb) Relation.ReflTransGen.refl (hConcrete b e he hb)
+    (hExists b e he hb)
+
+/-- Original frozen fork, projected from the same descent with its minimality
+fact retained by `ancestryRootForkWithRoot`. -/
 theorem ancestryRootFork {W B Episode : Type}
     (m : Profile W B) (Occurs : Episode → Prop) (Bears : B → Episode → Prop) (w : W)
     (hOccurs : ThoughtOccurs Occurs)
@@ -28,25 +61,28 @@ theorem ancestryRootFork {W B Episode : Type}
     (hAcc : ThinkerGroundingAccessible m Occurs Bears w)
     (hEM : ExcludedMiddle) :
     ThinkerAncestryRootFork m Occurs Bears w := by
-  obtain ⟨b, e, he, hb⟩ :=
-    TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought Occurs Bears hOccurs hBearer
-  have walk : ∀ x, Acc (ActualConcreteGround m w) x → GroundAncestor m w x b →
-      m.concrete x → m.ontic.ExistsAt w x → ThinkerAncestryRootFork m Occurs Bears w := by
-    intro x hx
-    induction hx with
-    | intro x _ ih =>
-      intro hanc hc hex
-      rcases hEM (∃ y, ActualConcreteGround m w y x) with ⟨y, hy⟩ | hnone
-      · exact ih y hy (Relation.ReflTransGen.head hy hanc) hy.1 hy.2.1
-      · rcases hEM (ContingentAt m.ontic w x) with hcont | hncont
-        · exact Or.inr ⟨b, e, x, he, hb, hanc, hc, hex, hcont, fun y hy => hnone ⟨y, hy⟩⟩
-        · refine Or.inl ⟨b, e, x, he, hb, hanc, hc, hex, ?_⟩
-          intro v hv
-          rcases hEM (m.ontic.ExistsAt v x) with h | h
-          · exact h
-          · exact (hncont ⟨hex, v, hv, h⟩).elim
-  exact walk b (hAcc b e he hb) Relation.ReflTransGen.refl (hConcrete b e he hb)
-    (hExists b e he hb)
+  rcases ancestryRootForkWithRoot m Occurs Bears w hOccurs hBearer hConcrete hExists hAcc hEM with
+    ⟨b, e, x, he, hb, ha, hc, hx, hn, _⟩ | h
+  · exact Or.inl ⟨b, e, x, he, hb, ha, hc, hx, hn⟩
+  · exact Or.inr h
+
+/-- The same minimal ancestor is necessary: the original ancestry-grounding
+premise excludes a contingent minimal ancestor. No necessary→underived axiom. -/
+theorem necessaryConcreteRootAncestor {W B Episode : Type}
+    (m : Profile W B) (Occurs : Episode → Prop) (Bears : B → Episode → Prop) (w : W)
+    (hOccurs : ThoughtOccurs Occurs)
+    (hBearer : EveryThoughtHasSubject Occurs Bears)
+    (hConcrete : EveryBearerIsConcrete Occurs Bears m.concrete)
+    (hExists : EveryBearerExistsAt m.ontic Occurs Bears w)
+    (hAcc : ThinkerGroundingAccessible m Occurs Bears w)
+    (hGrounded : ThinkerAncestryGrounded m Occurs Bears w)
+    (hEM : ExcludedMiddle) :
+    NecessaryConcreteRootAncestorOfThinker m Occurs Bears w := by
+  rcases ancestryRootForkWithRoot m Occurs Bears w hOccurs hBearer hConcrete hExists hAcc hEM with
+    h | ⟨b, e, x, he, hb, ha, hc, hx, ht, hroot⟩
+  · exact h
+  · obtain ⟨y, hy⟩ := hGrounded b e x he hb ha hc hx ht
+    exact (hroot y hy).elim
 
 /-- Adding the thinker-local anti-brute-root principle closes the second horn
 of `ancestryRootFork`: some bearer of an occurring thought has a necessary
@@ -61,11 +97,10 @@ theorem necessaryConcreteAncestor {W B Episode : Type}
     (hGrounded : ThinkerAncestryGrounded m Occurs Bears w)
     (hEM : ExcludedMiddle) :
     NecessaryConcreteAncestorOfThinker m Occurs Bears w := by
-  rcases ancestryRootFork m Occurs Bears w hOccurs hBearer hConcrete hExists hAcc hEM with
-    h | ⟨b, e, x, he, hb, hanc, hc, hex, hcont, hroot⟩
-  · exact h
-  · obtain ⟨y, hy⟩ := hGrounded b e x he hb hanc hc hex hcont
-    exact (hroot y hy).elim
+  obtain ⟨b, e, x, he, hb, ha, hc, hx, hn, _⟩ :=
+    necessaryConcreteRootAncestor m Occurs Bears w
+      hOccurs hBearer hConcrete hExists hAcc hGrounded hEM
+  exact ⟨b, e, x, he, hb, ha, hc, hx, hn⟩
 
 /-! ## Controls -/
 

@@ -1,0 +1,9 @@
+{
+  "id": "INF-PSR-COLLAPSE-CORE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PSR-COLLAPSE-CORE",
+  "rule": "model-construction",
+  "meaning": "Prove the two inconsistencies generally from the lemma that a true necessitating reason for a contingent fact is contingent, and construct one deletion model for each member of the first bundle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

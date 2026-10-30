@@ -1,0 +1,10 @@
+{
+  "id": "UNIQUE-FEEDBACK-CONTROL",
+  "argument_id": "UNIQUE-FEEDBACK-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.UniqueFeedback.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueFeedback.Solution",
+  "theorem": "TruthCore.Results.Causality.UniqueFeedback.controls",
+  "comparator_config": "results/UNIQUE-FEEDBACK-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Closed certificate of sensitive logical gates and their unique consistent Boolean state. Does not certify sufficient ontological explanation, actual causal possibility, or failure of a global structural explanation."
+}

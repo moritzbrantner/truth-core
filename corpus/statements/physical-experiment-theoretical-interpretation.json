@@ -1,0 +1,10 @@
+{
+  "id": "STMT-PHYSICAL-EXPERIMENT-THEORETICAL-INTERPRETATION",
+  "paraphrase": "A physical experiment uses theoretical representation in setting up instruments and interpreting their readings; the concrete apparatus and its schematic theoretical description are linked in the physicist’s work.",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

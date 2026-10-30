@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { PropositionStructure } from "@/components/proposition-structure";
+import { getStructureReport } from "@/lib/proposition-structure";
+import { StrengthComparisons } from "@/components/strength-comparisons";
+import { comparisonsForStatement, getStrengthComparisons } from "@/lib/strength-comparisons";
 import { notFound } from "next/navigation";
 
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
@@ -14,6 +18,7 @@ import {
   getCorpus,
   resultsForArgument,
 } from "@/lib/corpus";
+import { sourceAttribution } from "@/lib/source-attribution";
 import { leanIndex } from "@/lib/lean-source";
 import { describeDisagreement, FLOOR_BASIS_DESCRIPTIONS } from "@/lib/floor";
 import { CLOSURE_DESCRIPTIONS, floorEntry, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
@@ -58,6 +63,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
 
       <Link className="link-quiet mt-4 inline-block text-sm" href={`/dossiers/${statement.id}`}>Premise dossier and attempt log →</Link>
 
+      <StrengthComparisons comparisons={comparisonsForStatement(getStrengthComparisons(), statement.id)} />
+
       <section className="record-section">
         <p className="eyebrow">Where it stands</p>
         {state.kind === "closed" ? (
@@ -71,9 +78,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
           <div className="mt-3 grid gap-3 text-lg leading-8">
             <p>
               An open premise.{" "}
-              {state.item.depth === "bare"
-                ? "It is bare: no source claim states it and no source supports it."
-                : "It is sourced but not yet defended: it is not proved, not marked self-evident, and its alternatives are not all refuted."}
+              {sourceAttribution(state.item)} It remains open under the current closure rules.
               {state.item.transcription_only ? " It is the conclusion of a transcription whose premises are not all closed, which does not close it." : ""}
             </p>
             <p className="text-sm text-[var(--muted)]">
@@ -142,6 +147,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
         ) : null}
       </section>
 
+      <PropositionStructure report={getStructureReport(statement.id)} />
+
       <TermsSection corpus={corpus} records={[statement]} />
 
       <section className="record-section">
@@ -182,7 +189,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
               const source = findSource(corpus, claim.source_id);
               return (
                 <Link className="block py-4 transition hover:text-[var(--accent)]" href={`/claims/${claim.id}`} key={claim.id}>
-                  <span className="eyebrow">States it{claim.basis === "translation" ? " · read from a translation" : ""}</span>
+                  <span className="eyebrow">Directly attributes this statement{claim.basis === "translation" ? " · read from a translation" : ""}</span>
                   <span className="mt-1 block font-serif text-lg">
                     {source ? `${source.author}, ${source.work}` : claim.source_id} · {claim.locator}
                   </span>
@@ -195,8 +202,9 @@ export default async function StatementPage({ params }: StatementPageProps) {
             })}
             {supports.map((relation) => (
               <Link className="block py-4 transition hover:text-[var(--accent)]" href={`/claims/${relation.subject_id}`} key={relation.id}>
-                <span className="eyebrow">Supports it (evidence, not an inference)</span>
+                <span className="eyebrow">Linked as support (not a direct attribution or inference)</span>
                 <span className="mt-1 block font-serif text-lg">{describe(relation.subject_id)}</span>
+                {relation.note ? <span className="mt-1 block text-sm leading-6 text-[var(--muted)]">{relation.note}</span> : null}
                 <span className="mt-1 block font-mono text-xs text-[var(--muted)]">{relation.subject_id}</span>
               </Link>
             ))}

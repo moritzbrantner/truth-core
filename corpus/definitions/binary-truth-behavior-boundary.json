@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY",
+  "term": "exact binary truth and behavioral scoring",
+  "definition": "Truthful target belief means the belief bit equals the target at every input. Successful response is a different notion defined through act. A behavioral score is an arbitrary Nat-valued function on the whole Boolean-input response function; the certificate proves its value identical for the displayed profiles. No counting distribution or likelihood on cognitive systems is supplied.",
+  "basis": "stipulative",
+  "note": "Exact all-state truth is deliberately stronger than approximate or probabilistic reliability. A Nat score is an analyst proxy; no empirical reproductive fitness or epistemic warrant interpretation is established.",
+  "lean_declaration": "TruthCore.Epistemology.FitnessTruthBoundary.Truthful"
+}

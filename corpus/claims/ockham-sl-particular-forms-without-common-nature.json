@@ -1,0 +1,16 @@
+{
+  "id": "OCKHAM-SL-I16-PARTICULAR-FORMS",
+  "statement_id": "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.16: final paragraphs beginning Et ideo debemus and Et ideo omnis essentia",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Keeps the particular-form and immaterial-substance clauses. This is Ockham’s proposed reading, not a source verification of every doctrine he assigns to the Peripatetics, and not a denial of all forms.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PARTICULAR-SUBSTANTIAL-FORM",
+    "DEF-COMMON-NATURE-CONSTITUENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
+    "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM"
+  ]
+}

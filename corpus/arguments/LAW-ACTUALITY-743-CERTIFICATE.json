@@ -1,0 +1,20 @@
+{
+  "id": "LAW-ACTUALITY-743-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LAW-ACTUALITY-743-CERTIFICATE",
+  "inference_ids": [
+    "INF-LAW-ACTUALITY-743-CERTIFICATE"
+  ],
+  "meaning": "Derive each unique trace pointwise from the initial condition and total prescribed transitions. Transport any estimator across identical prefixes and contradict correctness on opposite labels. Evaluate presence at n+1 to distinguish complete histories; apply exact HistorySelection.no_selection and characterization to the entire recorded value vector.",
+  "definition_ids": [
+    "DEF-LAW-ACTUALITY-743",
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-CHAIN-INSTANTIATION-WINDOW"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LAW-ACTUALITY-743",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "argument_id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForest.atMostOne_of_confluent",
+  "comparator_config": "results/SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Mathlib equivalence_join turns upstream confluence into equivalence of having a common finite upstream extension. Every graph edge lies in that equivalence, so EqvGen causal connectivity joins any two sources. A source admits no nontrivial upstream path, forcing the common extension to equal each source. No WF, nonemptiness, acyclicity, necessary existence or divine predicate is used. Root-premise delta zero; no philosophical premise is established."
+}

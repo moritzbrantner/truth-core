@@ -80,6 +80,18 @@ whitespace to single spaces, and checks `text_sha256`. Changes in extraction
 therefore fail rather than silently changing the consulted text. Empty or
 image-only extraction is rejected; this adapter does not perform OCR.
 
+A witness whose PDF text layer has discretionary line-break marks may opt in
+with `pdf_pages: {"first": 13, "last": 22,
+"text_normalization": "join_soft_hyphens"}`. This removes U+00AD together with
+following spaces/tabs/newlines before whitespace normalization, joining a word
+split at that discretionary mark. Ordinary hyphens remain; joining never crosses a page break.
+The option must be recorded in the manifest and its resulting text read and
+pinned; unknown policies are rejected. Without it, extraction is unchanged.
+The original PDF bytes must still pass their SHA-256 check before extraction,
+and changed canonical words still fail `text_sha256`. This handles the observed
+Poppler 24.02/26.01 Oppy soft-hyphen placement difference without omitting pages,
+pinning a runtime extractor version or accepting alternate text hashes.
+
 Install Poppler (`sudo apt-get install poppler-utils` on Debian/Ubuntu).
 `web-hashes URL --encoding utf-8 --pdf-pages FIRST:LAST` prints pinning fields.
 Fetch twice and inspect the verified materialization before source claims,

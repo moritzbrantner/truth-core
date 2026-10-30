@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-PSR-STRENGTH-MAP",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-PSR-COLLAPSE-CORE",
+    "STMT-PSR-STRENGTH-MAP"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Certified a non-linear map of PSR formulations in one arena, with a seven-member inconsistent core and a deletion model per member. Rejected in review of the draft: calling necessity-to-actuality reflexivity-dependent without a model (a separating model was added); leaving the box-exists versus exists-box scope untested (shiftingReason was added); assuming factivity in the weak-PSR bridge (the proof does not use it, so it was dropped). Not formalized: the rational-inquiry norm, contrastive and probabilistic explanation, and independently productive Supply. Not read: the #409 and #365 sources, so nothing is attributed to them. The results #465, #735, #746 and #750 are not imported as lemmas; only #312 is composed. Remaining blockers for any root use: whether explanation is necessitating, whether a totality fact exists, distribution, the diagonal facts, and extensionality. See docs/notes/psr-strength-755.md.",
+  "evidence": [
+    "PSR-COLLAPSE-CORE",
+    "PSR-STRENGTH-MAP",
+    "PSR-EXISTENCE-SCOPE-COUNTERMODELS"
+  ]
+}

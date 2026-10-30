@@ -1,0 +1,20 @@
+{
+  "id": "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Certificate",
+  "paraphrase": "A persistent set of borrowing contributions with no intrinsic member and a required contributor in that set for every supplier alternative cannot have inductive joint supply. With contributor-power coherence, supplying every active contribution is equivalent to every nonempty active set having an intrinsic member or a supplier whose contributors all escape the set. The exact rooted infinite #634 graph has existential graph grounding for every event but no complete joint supply for any derivative event, even with an intrinsic source in every sufficient exercised group and with a uniquely selected all-on scenario. All applicability and real-world explanatory bridges remain OPEN.",
+  "definition_ids": [
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

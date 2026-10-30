@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "argument_id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Causality.JointGroups.Challenge",
+  "solution_module": "TruthCore.Results.Causality.JointGroups.Solution",
+  "theorem": "TruthCore.Results.Causality.JointGroups.certificate",
+  "comparator_config": "results/JOINT-CAUSAL-GROUPS-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional joint-membership order schema and fixed controls: acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal ancestors and, with actual population, a source; under acyclicity a least element is exactly a source with finite paths from every node. Typed ignition records assert only membership. A finite scenario model separates joint sufficiency, alternatives, redundancy, enabling conditions and actual exercise. Exact recorded #634 and imported #707 controls preserve respectively the infinite branch despite unique source/records and plural minima without a least element. Empty record/absent-event and cycle omissions prevent stronger applicability conclusions. Prove equality of the recorded-group projection with the original Graph, use transitive closure composition and acyclicity for IsStrictOrder, compose Graph.controls_of_wellFounded with source-minimality on the actual subtype, and reverse finite paths to characterize leastness under acyclicity. Check finite cooperative scenarios and omission fixtures, and import SourceWitness.overlap_control and PluralRootConfluence.control unchanged. Neither imported jointControl nor membership asserts cooperative sufficiency; all actual applicability and full-ground commitments remain OPEN. Root premise delta zero."
+}

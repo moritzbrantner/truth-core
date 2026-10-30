@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "argument_id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "challenge_module": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.checks",
+  "comparator_config": "results/ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Apply not_not_underived_of_lifting to a constant-world gated relation containing only actual R edges between necessary bearers. The actual necessary restriction is well-founded; its gated predecessors trivially lift. Local no-contingent support upgrades absence of gated incoming edges to absence of every actual existing R supporter. Explicit excluded middle selects this same actual necessary source. Apply actual_not_not_identity_direct and excluded middle to obtain represented essence–esse identity for it. This is a conditional composition consuming the existing q3 transcription; all philosophical premises remain open. No all-world underivedness, actual reflexivity, global no-contingent condition or union well-foundedness follows."
+}

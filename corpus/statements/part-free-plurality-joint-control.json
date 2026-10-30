@@ -1,0 +1,42 @@
+{
+  "id": "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "paraphrase": "One fixed five-being, two-world interpretation jointly retains the earlier first-way, represented simplicity/pure-act, q3a4 distinct-esse causal dichotomy and PSR coverage commitments, while separating efficient cause/priority from proper components. Two distinct necessary roots cause a common instrument and enter no composition. A dependent constituent composes the instrument and effect, so composition and both distinct-esse witnesses remain nonvacuous. The q3a8 no-component-is-first-being and q3a7 uniting-cause readings hold. Q11 incommunicable individuation and suppositum/nature identity hold, but common nature and differentiation in represented act fail. This establishes satisfiability of the exact encoded bundle, not metaphysical possibility, full classical divine simplicity or independently supported primitive individuation. No root premise is discharged.",
+  "lean_declaration": "TruthCore.Causality.PartFreePlurality.JointControl",
+  "definition_ids": [
+    "DEF-PART-FREE-PLURALITY-JOINT-CONTROL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-SIMPLE",
+    "DEF-PURE-ACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-SOUNDNESS",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-SIMPLE-PLURALITY",
+    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+    "DISAMB-IN-ACT",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-POWER-CAPACITY-EXERCISE",
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.firstMoverIsMaximeEns"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "PSR-STRENGTH-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-STRENGTH-MAP",
+  "inference_ids": [
+    "INF-PSR-STRENGTH-MAP"
+  ],
+  "meaning": "An axiom-free map of implications and separations for #755. The formulations are not linearly ordered. It discharges no premise and attributes nothing to a source. Open bridges are named in docs/notes/psr-strength-755.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-PSR-DOMAIN-BRIDGES",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

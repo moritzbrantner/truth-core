@@ -108,6 +108,10 @@ theorem uniqueClassicalGodExists (σ : Signature) {Respect : Type} {Principle : 
     hFirstBeing hImmaterial hWillFollows f hfMax
   have hOne := Q11NatureUniqueness.godIsOneFromNature σ.IsGod suppositumOf essenceOf deity
     hIndividual hNature hCommon f hfGod
-  exact ⟨f, hfGod, hOne, hSuffice f hSimple hPerfect hGood hOne hInfinite hImmutable hEternal
-    hIntellect hWill⟩
+  -- The checked bridge equivalence groups only attributes of this same witness.
+  have hField := classicalAttributesFromNine σ (IsSimple Composite) (IsPerfect InAct)
+    (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
+    Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill hSuffice f
+    ⟨hSimple, hPerfect, hGood, hOne, hInfinite, hImmutable, hEternal, hIntellect, hWill⟩
+  exact ⟨f, hfGod, hOne, hField⟩
 end TruthCore.Results.Case.Catholicism.StagesOneTwoQ11

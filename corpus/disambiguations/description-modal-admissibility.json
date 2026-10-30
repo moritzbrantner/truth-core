@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-DESCRIPTION-MODAL-ADMISSIBILITY",
+  "term": "possible description versus genuinely possible state",
+  "sense_definition_ids": [
+    "DEF-TWO-RELATION-EPISTEMIC-PROFILE",
+    "DEF-TWO-RELATION-METAPHYSICAL-PROFILE"
+  ],
+  "resolution": "The shared Frame carrier is interpreted here as candidate descriptions. E-admissibility and M-admissibility differ and do not identify all conceivable descriptions with genuine metaphysical worlds. Satisfiability of P on that carrier is an explicit witness, not a syntactic consistency theorem, a logical completeness theorem or evidence that P is really metaphysically possible. The epistemic and metaphysical labels name stipulated profiles only. Failure to find a proof is neither a relation nor a predicate in this model. Logical, conceptual and nomological possibility are not identified with either profile. Full predicate quantification is explicit; a restricted language does not inherit the necessity direction without adequate separating predicates."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCIENCE-READING-SELF-CERTIFICATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCIENCE-READING-SELF-CERTIFICATION",
+  "rule": "verified-calibration-shift-composition-and-data-fiber-criterion",
+  "meaning": "Apply TruthCore.Results.Science.MeasurementCalibration.certificate to build equal-reading profiles with a selected nonzero bias and to identify profiles with a supplied true anchor; use TruthCore.Results.Logic.CorrectionCriterion.characterization to rule out exact classifiers on equal-data fibers and supply an anchored criterion. Uniform soundness alone rules out positive reading-only certificates on each reachable derived datum. The infinite-report case is included by the arbitrary Evidence type.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -45,6 +45,36 @@ Passage identity is likewise not claim identity. Changing an interpretation does
 
 ## Verification boundaries
 
+The [proposition structure inspector](proposition-structure.md) derives a bounded
+expression view from elaborated Lean. Its internal addresses are scoped to the
+statement and input revision, require no authored statement records, and carry
+no frontier or proof status. Definition expansion, semantic interpretation and
+argument support remain separate.
+
+Selected strength comparisons use existing statement-to-statement relations
+with predicate `strength_comparison`. Their single semantic owner is
+`scripts/strength_comparisons.py`. The subject is the stronger proposition and
+the object the weaker proposition; `comparison_spec` names the Lean
+specification of their complete applications under shared parameters and
+background. `delta_statement_id` names the proposed extra requirement;
+`background_statement_ids` lists the ordered background.
+`statement_parameter_indices` gives every named field (including `background.N`)
+an explicit strictly increasing subsequence of the shared specification telescope,
+counting implicit types and instances. Lean checks dependent argument types,
+ordered argument equality and the full declaration application; specialization
+and parameter permutations are outside this generic registration contract. Optional
+`remainder_statement_id` identifies cases admitted only by the weaker formula.
+`evidence_result_ids` maps named obligations to existing result IDs; `separator`
+names a closed application of the same specification and its result ID.
+Optional `explanatory_control_result_ids` links existing result authorities as
+interpretive evidence only; these results never supply comparison certificate roles.
+Metadata never establishes any of these obligations. The producer validates
+canonical result/configuration bindings and uses Lean definitional equality for
+complete theorem types, then the existing result verifiers. Computed labels are
+derived presentation, not stored relation verdicts or a second proof authority.
+See the [comparison design and current handoff](proposition-structure.md#current-handoff-certified-strength-comparisons)
+for the obligation meanings, background boundaries and migration scope.
+
 There are three deliberately separate notions of verification:
 
 1. **Source integrity** — `scripts/source_evidence.py` checks that every formalized claim resolves to one passage, that the passage belongs to the registered work, and that the fetched edition bytes match the pinned Git blob SHA. Materialization makes the consulted text reproducible.
@@ -52,6 +82,48 @@ There are three deliberately separate notions of verification:
 3. **Formal verification** — Lean and Comparator establish that an advertised conclusion follows from advertised formal premises. They do not establish source fidelity or the historical truth of those premises.
 
 No green status is allowed to collapse these boundaries. See `docs/source-evidence.md` for the source workflow.
+
+For a single inference between **existing** statement IDs, `scripts/scaffold_result.py`
+prepares linked inference, argument, result and Comparator drafts. For example,
+after writing the intended meaning to `/tmp/result-meaning.txt`:
+
+```bash
+python3 scripts/scaffold_result.py --id MY-NEW-RESULT \
+  --premise STMT-ACTUAL-MODAL-REFLEXIVITY \
+  --conclusion STMT-ACTUAL-MODAL-REFLEXIVITY \
+  --meaning-file /tmp/result-meaning.txt --rule instantiation \
+  --challenge-module TruthCore.Results.MyResult.Challenge \
+  --solution-module TruthCore.Results.MyResult.Solution \
+  --theorem TruthCore.Results.MyResult.checks
+```
+
+This example only illustrates wiring; it supplies no proof. Default output is a
+JSON preview. `--output-dir /tmp/my-result-drafts` instead creates a **new**
+directory containing four canonical-path drafts and a manifest; existing output
+directories, canonical paths and record IDs are rejected. The command never
+creates or changes a statement or source claim. It copies meaning verbatim and
+inherits definition/disambiguation links for manual review. No-premise arguments
+omit `--premise`; repeated IDs and statements without a `lean_declaration` are
+rejected. Scoped assumptions, consistency commitments and multiple inference
+steps require manual records.
+
+Optionally pass `--type-evidence /path/to/saved-bind-types.json`, an existing
+`scripts/BindTypes.lean` JSON-array export. The command reuses `corpus.bind_result`
+to compare the selected theorem's hypothesis/conclusion heads against the supplied
+IDs and rejects mismatches. The manifest records the supplied bytes' hash and
+comparison, not their provenance or freshness. It does not run Lean or establish
+that an export came from the current revision. Without this option even head
+alignment remains unchecked. No global type export is started.
+
+The result draft intentionally lacks the required `status` field, so it is not
+ready for corpus registration. Review the prose/type correspondence, premise
+dossiers, inherited sense links and transcription classification; freeze the
+Challenge before constructing its Solution, complete the record at the appropriate
+workflow step, and run the normal final gates. Do not copy the manifest into the
+corpus. Comparator permission defaults to zero axioms; explicit repeated `--axiom`
+flags must satisfy the existing policy (the full approved three also require an
+existing Solution importing Mathlib). Enabling NanoDa in a draft config does not
+claim that NanoDa, Comparator, axiom inspection or source checks ran.
 
 ## Composition and visualization
 

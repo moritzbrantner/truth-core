@@ -1,0 +1,9 @@
+{
+  "id": "INF-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "rule": "Contributor-supply induction, exact cut characterization and joint-group omission models",
+  "meaning": "Induct on contributor-supply derivations to exclude every intrinsic-free persistent borrowing trap and extract an intrinsic path when each supplier has a contributor. Under explicit powered-group coherence, characterize supply of all active contributions by escape from every nonempty active subset. On exactly the recorded #634 graph, compose #733 graph equality with Graph.grounded_eq_lfp: every node has existential graph grounding, yet no derivative node has joint contributor supply, although the same intrinsic source is in every group. Check the branch contributor is indispensable over the two-scenario space; check actual coherence, joint sufficiency and local power separately, then restrict to the unique allowed all-on history without inferring supply. Finite intrinsic/instrument, source-free two-contributor, enabler, empty-group, intrinsic and inactive-admitted-alternative omission controls isolate the assumptions. Import existing #299/#310/#711 controls unchanged. Neither actual inductive selection nor productive explanatory adequacy is established; root premise delta zero.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

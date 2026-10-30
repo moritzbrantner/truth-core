@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.OptimalCreationChoice.Challenge",
+  "solution_module": "TruthCore.Results.Modal.OptimalCreationChoice.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.OptimalCreationChoice.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

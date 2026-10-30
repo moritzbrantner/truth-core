@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-REASON-NECESSITATING",
+  "term": "sufficient reason, necessitating sense",
+  "definition": "Necessitating A says that if r explains f at w then f is true at every world accessible from w where r is true.",
+  "basis": "stipulative",
+  "note": "Analyst-stated condition for the comparison arena of #755; it is under test, not asserted. A sourced reading would need a pinned witness from the #409 or #365 intake.",
+  "lean_declaration": "TruthCore.Explanation.PSRStrength.Necessitating"
+}

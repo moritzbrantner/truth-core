@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
+  "term": "pointwise masked successor strong connectivity",
+  "definition": "For a frame F and standpoint w let S={a | F.access w a}. maskedStep F w a b means a\u2208S and F.access a b. SuccessorConnected F w means for every ordered a,b\u2208S, Mathlib Relation.ReflTransGen (maskedStep F w) a b. Zero-length paths are included. A masked edge may exit S but cannot continue from outside S; restrict_path proves that paths ending in S can be restricted to edges with both endpoints in S. Thus this is directed connectivity of every ordered successor pair within the induced successor subgraph. Empty and singleton S satisfy it without existence assumptions.",
+  "basis": "stipulative",
+  "note": "Exact mathematical frame correspondence for #437, not a claim about metaphysical worlds, source intent, or which propositions count as metaphysically possible. Uses Mathlib relation closure and existing GraphBridge imports rather than a new graph implementation.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfConnectivity.SuccessorConnected"
+}

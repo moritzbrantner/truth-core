@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ActualistDomains.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ActualistDomains.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ActualistDomains.boxAllToAllBox_iff",
+    "TruthCore.Results.Modal.ActualistDomains.allBoxToBoxAll_iff",
+    "TruthCore.Results.Modal.ActualistDomains.increasing_excludes_contingency",
+    "TruthCore.Results.Modal.ActualistDomains.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

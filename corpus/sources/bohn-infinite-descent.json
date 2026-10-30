@@ -2,9 +2,9 @@
   "id": "BOHN-INFINITE-DESCENT",
   "kind": "primary_text",
   "author": "Einar Duenger Bohn",
-  "work": "Infinite Descent, in R. Bliss and G. Priest (eds.), Reality and its Structure: Essays in Fundamentality, Oxford University Press, 2018",
+  "work": "Indefinitely Descending Ground, in R. Bliss and G. Priest (eds.), Reality and its Structure: Essays in Fundamentality, Oxford University Press, 2018, pp. 167–181",
   "citation_system": "section and page",
-  "work_urn": "https://openlibrary.org/search?q=Reality+and+its+Structure+Essays+in+Fundamentality",
-  "catalog_url": "https://openlibrary.org/search?q=Reality+and+its+Structure+Essays+in+Fundamentality",
-  "notes": "Bibliographic identity only: no passage witness is pinned (in copyright; #378). Do not cite claims from it. It stands for the view that chains of ground may descend without end, which is the strongest rival of the well-foundedness reading of the per se regress premise."
+  "work_urn": "https://doi.org/10.1093/oso/9780198755630.003.0009",
+  "catalog_url": "https://academic.oup.com/book/5000/chapter-abstract/147493228",
+  "notes": "Bibliographic identity corrected from publisher metadata (2026-10-28); no chapter passage is pinned or read, so no source claim is licensed. Author manuscript locator https://philarchive.org/archive/BOHIDG returned HTTP 403 (including BOHIDGv1); author-linked institutional record https://hdl.handle.net/11250/4022949 redirected to an inaccessible NVA landing page. See docs/notes/unique-feedback-explanation-311.md for bounded search and the separate read Welchance positive argument. Fact grounding must not be identified with per se efficient causation."
 }

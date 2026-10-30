@@ -1,0 +1,24 @@
+{
+  "id": "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "inference_ids": [
+    "INF-DERIVATIVE-JOINT-POWER-CERTIFICATE"
+  ],
+  "meaning": "Induct on contributor-supply derivations to exclude every intrinsic-free persistent borrowing trap and extract an intrinsic path when each supplier has a contributor. Under explicit powered-group coherence, characterize supply of all active contributions by escape from every nonempty active subset. On exactly the recorded #634 graph, compose #733 graph equality with Graph.grounded_eq_lfp: every node has existential graph grounding, yet no derivative node has joint contributor supply, although the same intrinsic source is in every group. Check the branch contributor is indispensable over the two-scenario space; check actual coherence, joint sufficiency and local power separately, then restrict to the unique allowed all-on history without inferring supply. Finite intrinsic/instrument, source-free two-contributor, enabler, empty-group, intrinsic and inactive-admitted-alternative omission controls isolate the assumptions. Import existing #299/#310/#711 controls unchanged. Neither actual inductive selection nor productive explanatory adequacy is established; root premise delta zero.",
+  "definition_ids": [
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

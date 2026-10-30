@@ -109,6 +109,10 @@ theorem uniqueClassicalGodExists (σ : Signature) {Respect : Type} {Principle : 
   -- Uniqueness of maxima is not used to exclude another nonmaximal IsGod.
   have hOne := TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.godIsOne
     σ.IsGod InAct MoreIn CausesIn esse hMaximal hGenus hCauseMore hEM f hfGod
-  exact ⟨f, hfGod, hOne, hSuffice f hSimple hPerfect hGood hOne hInfinite hImmutable hEternal
-    hIntellect hWill⟩
+  -- The checked bridge equivalence groups only attributes of this same witness.
+  have hField := classicalAttributesFromNine σ (IsSimple Composite) (IsPerfect InAct)
+    (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
+    Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill hSuffice f
+    ⟨hSimple, hPerfect, hGood, hOne, hInfinite, hImmutable, hEternal, hIntellect, hWill⟩
+  exact ⟨f, hfGod, hOne, hField⟩
 end TruthCore.Results.Case.Catholicism.StagesOneTwo

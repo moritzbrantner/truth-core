@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "paraphrase": "Every generated thing that causes itself has a cause distinct from itself; that alternative witness both differs from and causes that same generated thing.",
+  "lean_declaration": "TruthCore.Logic.Strength.Cause.SelfCausingGeneratedHaveAlternativeCause",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

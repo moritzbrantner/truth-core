@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
+  "paraphrase": "Some existing root-accessible world-individual pair attains a global degree maximum if and only if the selected n accessible-world degree image has a greatest member. This proposition is an equivalence, not an assertion that either maximum exists; the result supplies its explicit necessary-presence and local causal hypotheses.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.GlobalAttainmentIffSelectedFamily",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-MODAL-SELECTED-DEGREE-FAMILY-ATTAINMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE"
+  ]
+}

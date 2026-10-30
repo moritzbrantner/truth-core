@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1045A-POTENTIAL-ACTUAL-UNITY",
+  "statement_id": "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
+  "source_id": "ARIST-MET",
+  "locator": "VIII.6, 1045a23–33; 1045b17–21",
+  "interpretation": "Prose reading of the affirmative H.6 proposal, not a proof that every organized system instantiates it. Same and one are qualified by potentiality and actuality; this does not identify matter and form without qualification, define a material arrangement as a substance, or import a Thomistic essence–esse distinction.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ARISTOTLE-NONHEAP-WHOLE",
+    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
+    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+  ]
+}

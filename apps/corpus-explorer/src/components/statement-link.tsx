@@ -17,6 +17,7 @@ export function StatementLink({ corpus, report, id, note }: { corpus: Corpus; re
       <Link className="mt-2 block font-serif text-xl leading-snug hover:text-[var(--accent)]" href={`/statements/${id}`}>
         {statement?.paraphrase ?? id}
       </Link>
+      <Link className="link-quiet mt-2 inline-block text-xs" href={`/statements/${id}#structure`}>Inspect proposition structure →</Link>
       <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{id}</p>
     </li>
   );

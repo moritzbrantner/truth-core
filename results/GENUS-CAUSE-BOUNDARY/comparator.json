@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.GenusCauseBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.GenusCauseBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.GenusCauseBoundary.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

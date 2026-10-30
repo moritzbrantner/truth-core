@@ -161,3 +161,120 @@ Do not eliminate these controls through a convenient lifetime type or an
 assumption that every observation exists. A flags-only decomposition would be a
 transcription. The candidate keeps A–C open until their source readings and
 actual structure support a derivation.
+
+## Existential inertia: the live rival and the remaining bridge
+
+The complete author-published articles `SCHMID-INERTIA-REPLY-3-ARTICLE`
+(Joseph C. Schmid, 7 July 2021) and `FESER-INERTIA-REPLY-2021-ARTICLE`
+(Edward Feser, 6 July 2021) were pinned, materialized and read, excluding reader
+comments. Their passage records locate the exact consulted bytes. These are
+primary evidence of each author's position, not independent verification of
+metaphysical adequacy. Feser's witness is the author-published Blogger Atom
+entry: `source_evidence.py materialize FESER-INERTIA-REPLY-2021-ARTICLE`
+returns its pinned XML, whose Atom `content` element contains the complete
+article HTML. Its rendered text was reread and exactly matches the earlier
+article witness; the final file newline is the only serialization difference.
+The rendered webpage failed raw-byte verification in CI run `40776675501`;
+the old expected/observed hashes are retained in the passage manifest. The
+local narrow refetch still returned the original webpage bytes, so it cannot
+establish the content of CI's differing response. Two independent Atom fetches
+agreed; raw-byte verification remains enforced on the replacement endpoint.
+Schmid's journal PDF and current-domain article returned
+HTTP 403 to the evidence fetcher; the original author-published WordPress article
+was accessible. Its rendered-page raw bytes then differed in CI run
+`40777294225`. The Schmid passage now pins the authoritative WordPress
+single-post API response for post `2136` on site `147942385`, restricted by
+the server's `fields` parameter to identity, dates, original URL, title and
+complete article HTML. Materialization returns JSON; its `content` field is
+the article. It was reread and matches exactly the old witness body; the old
+page's extra title/byline are separately represented in API metadata. Two
+independent selected-field responses matched. Failed expected/observed hashes
+remain in the manifest; raw-response verification is unchanged. No claim is
+made about the unretained differing CI response's article content. No
+journal-paper reading is claimed.
+
+**Rival replacement.** Schmid's paragraphs beginning “For S to fail to exist at
+m” and “Here, we seem to have” explain persistence through earlier existence,
+absence of a factor causing cessation, and a causal requirement on change. His
+closing edit, paragraph beginning “And this discovery especially helps”, accepts
+a PSR or PSR-like explanatory principle while disputing the identification of
+extrinsic explanation with a sustaining cause. Thus the strongest rival here
+is not simply unexplained persistence. Its proposed explanation can include
+facts extrinsic to the object at the later time without a concurrent sustaining
+efficient cause. Its sufficiency remains disputed. Laws, transtemporal relations
+and propositional necessity are further accounts he mentions, not accounts
+independently inspected in their linked documents.
+
+**Strongest response in the inspected Feser article.** Under “EIT versus EET”,
+the paragraph beginning “Rather, a critique” argues that constituents considered
+just as constituents are only potentially the whole at the selected time;
+past combination does not suffice to actualize their present combination.
+Under “The metaphysics of existential inertia”, the paragraphs beginning
+“Now, an objection” and “I find this” argue that a persistence power depends
+ontologically on its substance, so the substance cannot depend on that same
+power without circularity. The paragraph beginning “Schmid does not attribute”
+explicitly allows past events a role in present explanation: the issue is their
+sufficiency, not their relevance. Under “An argument against EIT”, paragraphs
+beginning “Another problem” and “But this simply ignores” apply the circularity
+and present-actualization objections to a proposed emergent persistence power
+and the earlier-parts response. This response needs the concurrent-actualization
+and dependence-direction premises; it does not follow from the mere fact that
+a thing has persisted. Nor does its intrinsic-power criticism by itself answer
+every law-based or extrinsic no-change account.
+
+Feser's paragraph beginning “This makes it sound” expressly rejects annihilation
+and recreation at every moment. This agrees with q.104 a.1 ad 4's distinction
+between continuing esse-giving and a succession of new productions. It blocks
+a diachronic-identity objection aimed only at repeated recreation. It does not
+establish that conservation occurs.
+
+**What q.104 contributes.** Objection 1 argues from naturally inseparable form
+to no need for preservation; ad 1 makes the form's resulting esse conditional
+on divine influence. Objection 2 invokes the house and heated water after their
+agents cease; the response and ad 2 distinguish causes of becoming from causes
+of being. Objection 3 infers persistence from absence of corruption; ad 3 limits
+this to preservation against corruption. Objection 4 challenges a preserving
+action that adds nothing new; ad 4 answers with continuation of the giving of
+esse. The response's paragraph beginning “Now every creature may be compared”
+applies the illumination analogy through participated esse and essence–esse
+distinction. These are articulated reasons and replies, but their application
+to every creature remains a substantive dependence commitment. Treating the
+illumination comparison as independently proving all existential dependence
+would hide the disputed bridge.
+
+| Existing typed commitment | What this reading establishes about the rival |
+|---|---|
+| `STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING` | Persistence after a maker stops is compatible with both accounts. It does not discriminate them. |
+| `STMT-EXISTING-IN-ACT-AT` | The rival does not settle the interpretation from modeled existence into the supplied `InAct`/`esse`. |
+| `STMT-UNITING-CAUSES-PRESENT` | The rival does not assert an absent concurrent conserver. Whether a past explanatory factor counts as a typed `CausesIn` cause is precisely unresolved. |
+| `STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT` | A conditional map of already-given actual esse causes can hold even if no such cause is supplied for the persisting object. It does not generate conservation. |
+| `STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY` | A noncausal persistence explanation contests causal exhaustiveness only if the same target has the represented distinct essence/esse and lacks both efficient-causal disjuncts. Schmid's article does not fix those assignments; no formal denial is attributed. |
+
+The exact interface types are in `TruthCore/Causality/ExistenceActuality.lean`
+and `TruthCore/Causality/UnderivedNonComposite.lean`. The existing theorem
+`TruthCore.Results.Causality.UnderivedEssenceEsse.actual_not_not_identity_direct`
+requires an actual named target, no incoming support, actuality, cause presence,
+typed correspondence, q.3 causal exhaustiveness and efficient self-cause
+exclusion. Its constructive conclusion is **double-negated** represented
+esse–essence identity. It supplies neither a conserver nor the truth of any
+interface. No new theorem or finite graph is needed to rediscover those limits.
+
+Two scope checks matter before formalizing the rival argument. First, from
+cessation implying a destructive cause and absence of that cause, one obtains
+non-cessation; if cessation is encoded as negated later existence, positive
+later existence additionally needs stability/double-negation elimination.
+This is an encoding diagnostic, not a claim that Schmid adopts constructive
+logic. Second, a pointwise conserving cause `∀ t, ∃ c, ...` is not one fixed
+conserver `∃ c, ∀ t, ...`; neither statement identifies that conserver with the
+same root witness. Times in an inertia account are not automatically worlds
+in `Ontic`, and q.104's timeless action is not automatically a temporal sequence.
+
+The next discriminating obligation is to defend or reject the sufficiency of
+prior existence plus no destructive change for the **same** existing bearer,
+against the proposed need for concurrent actualization. Separately defend the
+interpretation from direct conservation into `CausesIn ... esse`, endpoint
+presence and its map to `R`. Efficient cause, ontological dependence, adequate
+reason and preventing corruption retain separate meanings. No premise was
+added to an argument, discharged or removed; root-route open premises are
+unchanged. This reading narrows the rival and the missing bridge, without
+advertising a new proof or an elimination of existential inertia.

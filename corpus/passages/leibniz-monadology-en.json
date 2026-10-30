@@ -32,6 +32,24 @@
         }
       },
       "text_sha256": "sha256:48c8019d588af3c5d262323ea365382be7021bf4f4ee23f7f0b68eb6650b6d04"
+    },
+    {
+      "id": "LEIBNIZ-MONADOLOGY-53-55",
+      "locator": "Monadology \u00a7\u00a753\u201355",
+      "claim_locator_prefixes": [
+        "\u00a753",
+        "\u00a754",
+        "\u00a755"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "53"
+        },
+        "to": {
+          "anchor": "56"
+        }
+      },
+      "text_sha256": "sha256:b030b8e127fa950b100476a9062532c2f89d1c06db40b24dd3f8bd909dfd1ef7"
     }
   ]
 }

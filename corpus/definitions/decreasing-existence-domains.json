@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DECREASING-EXISTENCE-DOMAINS",
+  "term": "decreasing existence domains",
+  "definition": "Along every accessibility edge w\u2192v, each candidate existing at v already exists at w. This does not assert that anyone exists, nor that all candidates are necessary.",
+  "basis": "stipulative",
+  "note": "Approved source-free semantic interface for fixed-roster actualist domain transfer. No physical or metaphysical domain policy is asserted. No free-logic proof calculus, counterpart semantics, or general quantified syntax is introduced.",
+  "lean_declaration": "TruthCore.Modal.ActualistDomains.DecreasingDomains"
+}

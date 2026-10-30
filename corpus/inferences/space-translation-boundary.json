@@ -1,0 +1,9 @@
+{
+  "id": "INF-SPACE-TRANSLATION-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SPACE-TRANSLATION-BOUNDARY",
+  "rule": "Mathlib real additive cancellation and metric identities; translation fixed-point obstruction; explicit inhabited and empty-domain controls",
+  "meaning": "Recover the translation from one supplied body and signed differences. Metric subtraction cancels a common shift. Translation invariance of input data plus covariance would fix an absolute output under a unit shift, contradicting inhabitedness. Construct origin normalization and the nondegenerate two-body and empty-body controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

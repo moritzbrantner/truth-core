@@ -93,6 +93,13 @@ class SchemaRegistrationTest(unittest.TestCase):
             "relations": [(self.path, self.relation)],
             "statements": [(self.path, {"id": name}) for name in ("INSTANCE", "SCHEMA")],
         }
+        read_text = Path.read_text
+
+        def fixture_text(path, *args, **kwargs):
+            # Only stub the saved Lean response. Contract registrations and
+            # other independent repository inputs must retain their contents.
+            return "[]" if path == Path("fixture.json") else read_text(path, *args, **kwargs)
+
         for fixture_only in (False, True):
             with self.subTest(fixture_only=fixture_only):
                 report = {"summary": {"bound": 0, "pinned": 0, "mismatch": 0}, "stale_pins": []}
@@ -104,7 +111,7 @@ class SchemaRegistrationTest(unittest.TestCase):
                     patch.object(corpus, "bind_report", return_value=report) as bind,
                     patch.object(corpus, "registered_models", return_value=[{"id": "MODEL-TEST"}]),
                     patch.object(corpus, "verify_models", return_value={"models": 1}) as models,
-                    patch.object(Path, "read_text", return_value="[]"),
+                    patch.object(Path, "read_text", autospec=True, side_effect=fixture_text),
                     contextlib.redirect_stdout(io.StringIO()),
                 ):
                     self.assertEqual(corpus.command_bind_check(args), 0)

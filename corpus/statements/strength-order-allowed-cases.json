@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-ALLOWED-CASES",
+  "paraphrase": "For every mathematical linear order and shared x,y, y ≥ x holds exactly when y > x or y = x; no branch is selected from this disjunction.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.AllowedCasesLaw",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

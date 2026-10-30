@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "rule": "Explicit finite interpretation, reuse of verified simplicity/pure-act theorems and uniqueness-route exclusion",
+  "meaning": "Supply nonempty finite carriers and actual causal/component/motion witnesses; verify the interpreted source premises, derive both roots’ represented attributes using imported proofs, and refute common-nature/differentiation premises using imported uniqueness theorems and the distinct roots.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

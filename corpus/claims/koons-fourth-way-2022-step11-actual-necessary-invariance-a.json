@@ -1,0 +1,19 @@
+{
+  "id": "KOONS-FOURTH-WAY-2022-STEP11-ACTUAL-NECESSARY-INVARIANCE-A",
+  "statement_id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
+  "source_id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022",
+  "locator": "A Further Reconstruction of the Fourth Way (2022-01-23), step 11",
+  "interpretation": "Guarded selected-individual reading of step11: if n is actually present at the standpoint and exists at every root-accessible world, its degree at each such world is equivalent in the shared preorder to its degree at the standpoint. Actual presence and necessary presence are BOTH antecedents of the bound proposition. Same degree is weakened to mutual non-strict comparison, not strengthened to equality of labels; the quantification is explicitly relative to the admitted root-accessible family. This asserts neither an actual nor a necessary individual, and it is not a consequence of modal necessity alone: invariance is the additional conditional commitment attributed here. The bare analyst NecessaryDegreeInvariant has no actual-presence antecedent and can constrain absent-base grades on nonreflexive frames; that stronger condition is not this source claim. The source supplies no universal numerical intensity representation or uniqueness conclusion.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-PREORDER-DEGREE-INVARIANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

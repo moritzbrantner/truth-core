@@ -82,9 +82,51 @@
         "Model"
       ],
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation4"
+    },
+    {
+      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentNotNoBrute"
+    },
+    {
+      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentBrute"
+    },
+    {
+      "statement_id": "STMT-PSR-POPULATED-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentPopulated"
+    },
+    {
+      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentWellFounded"
+    },
+    {
+      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentNotExternal"
+    },
+    {
+      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.PSRLocalControls.contingentExplainedSource"
     }
   ],
   "modules": [
-    "TruthCore.Models.PSR"
+    "TruthCore.Models.PSR",
+    "TruthCore.Models.PSRLocalControls"
   ]
 }

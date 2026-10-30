@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-THESEUS-IDENTITY-CONTINUITY-MATERIAL",
+  "term": "same ship",
+  "sense_definition_ids": [
+    "DEF-THESEUS-OCCURRENCE-BEARER",
+    "DEF-THESEUS-COMPONENT-INVENTORY",
+    "DEF-THESEUS-IDENTITY-PRINCIPLES"
+  ],
+  "resolution": "Numerical identity is equality of the object assigned to an occurrence. Component inventory and the ordered replacement steps are separately supplied facts; neither entails numerical identity without its bridge. Material is same-components-suffice, not essential parthood, which has the reverse direction. Continued and reassembled occurrence distinction does not itself give bearer distinction. Spatial separation and physical adequacy are not modeled; final bearer distinction is an explicit hypothesis. No inference to substantial unity, soul, grounding direction, or possible-world identity is made."
+}

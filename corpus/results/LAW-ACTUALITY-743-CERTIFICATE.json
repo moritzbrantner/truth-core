@@ -1,0 +1,10 @@
+{
+  "id": "LAW-ACTUALITY-743-CERTIFICATE",
+  "argument_id": "LAW-ACTUALITY-743-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Explanation.LawActuality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.LawActuality.Solution",
+  "theorem": "TruthCore.Results.Explanation.LawActuality.certificate",
+  "comparator_config": "results/LAW-ACTUALITY-743-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "For every finite prefix through n, two deterministic profiles each have their own unique full satisfying signal. Their typed presence histories are coherent at now and contain exactly one state-bearer at every time. No arbitrary prefix-invariant estimator correctly identifies both law labels. At either designation the admitted value propositions fail whole-history determination and every evidence-only entailing selector fails. This is a conditional mathematical discriminator, not actual instantiation, metaphysical accessibility or justification. No root premise is discharged."
+}

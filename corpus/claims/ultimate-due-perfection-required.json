@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION",
+  "statement_id": "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.5 a.1 ad 1",
+  "interpretation": "The reply distinguishes being simpliciter through first substantial actuality from goodness simpliciter through ultimate perfection. It explicitly denies goodness simpliciter of what lacks the ultimate perfection it ought to have, while allowing goodness in a respect insofar as actual. Only that negative conditional is formalized; no converse, existence of a deficient subject, or double-negation elimination is added. This is a sibling of the existing per-perfection reading, not a revision or extension of its type.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+  ]
+}

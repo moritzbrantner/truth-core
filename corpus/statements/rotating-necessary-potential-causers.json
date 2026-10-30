@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ROTATING-NECESSARY-POTENTIAL-CAUSERS",
+  "lean_declaration": "TruthCore.Modal.NecessaryPotentialCausers.RotatingControl",
+  "paraphrase": "In the unchanged rotating interpretation, the selected base is reflexive, both distinct Bool individuals are necessary and have the other-directed universal potential-cause role, and every world has well-founded present causal support, while the cross-world union of necessary causal-support edges is not well-founded.",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "DEF-NECESSARY-POTENTIAL-CAUSER-CONSTRAINT",
+    "DEF-ROTATING-NECESSARY-POTENTIAL-CAUSERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-PLATONIC-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
+  "paraphrase": "For the safe answer about becoming two, Socrates appeals to participation in twoness and sets aside addition and division as the answer to that question; what is to be two must partake of twoness, and what is to be one of oneness.",
+  "definition_ids": [
+    "DEF-PLATONIC-FORM",
+    "DEF-PLATONIC-PARTICIPATION",
+    "DEF-PLATONIC-EXPLANATION",
+    "DEF-PHAEDO-SAFE-ANSWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE",
+    "DISAMB-PLATONIC-FORM",
+    "DISAMB-PHAEDO-CAUSE-AND-CONDITION",
+    "DISAMB-PLATONIC-PARTICIPATION"
+  ]
+}

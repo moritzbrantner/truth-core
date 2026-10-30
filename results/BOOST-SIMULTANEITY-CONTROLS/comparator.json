@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Challenge",
+  "solution_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Spacetime.BoostSimultaneity.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

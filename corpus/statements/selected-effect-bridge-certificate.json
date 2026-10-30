@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.SelectedEffectCertificate",
+  "paraphrase": "Same rigid act at every accessible world and local output uniqueness do not entail necessity of one selected effect: the unchanged alternatingEffects ontology has a necessary source, sound distinct causal relata, ubiquitous same-act performance, locally unique outputs given by the fixed function some(condition), contingent firstEffect and no fixed necessary effect. The condition is the varying Bool world label. For arbitrary output profiles, fixed full conditions plus an exact fixed response-function law entail StableActOutput. Same-act performance plus that cross-world stability, actual selected output, causal realization and sound causal relata entail necessity of that particular effect. Source necessity and local determinism are not needed by this last implication. These are conditional semantic results, with metaphysical adoption and free creation open; root-premise delta none.",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+    "DEF-SELECTED-EFFECT-SAME-ACT",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+    "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS",
+    "DISAMB-CAUSE"
+  ]
+}

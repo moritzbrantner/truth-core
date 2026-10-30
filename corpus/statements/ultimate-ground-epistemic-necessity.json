@@ -1,0 +1,19 @@
+{
+  "id": "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY",
+  "paraphrase": "OPEN proposed bridge for the identified method and domain: even when relevant local evidence, a genuinely reliable process and ordinary defeater conditions are retained, absence of an adequate ultimate explanation defeats that method’s epistemic entitlement. This is an unattributed disputed additional norm, not entailed by the mathematical controls or asserted by Hume, Goldman, Lewis, Bird or Aquinas.",
+  "definition_ids": [
+    "DEF-ULTIMATE-EXPLANATION-PROFILE",
+    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+    "DEF-ULTIMATE-EXPLANATION-DECISION",
+    "DEF-REGULARITY-GROUND",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-PRACTICE",
+    "DEF-GOLDMAN-HISTORICAL-RELIABILISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

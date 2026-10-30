@@ -7,4 +7,8 @@ import TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution
 import TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution
 import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
 import TruthCore.Results.Alternatives.MegarianCapacityCore.Solution
+import TruthCore.Results.Alternatives.NightActualizationCore.Solution
+import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
+import TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution
+import TruthCore.Results.Alternatives.RespectSwitch.Solution

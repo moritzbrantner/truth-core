@@ -1,0 +1,15 @@
+{
+  "id": "MCTAGGART-1908-SUCCESSIVE-REPLY",
+  "statement_id": "STMT-MCTAGGART-SUCCESSIVE-REPLY",
+  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "locator": "The Unreality of Time, paragraph beginning 'It may seem that this can easily be explained'",
+  "interpretation": "This records a reply reconstructed by McTaggart, not his endorsement of its explanatory adequacy. Its successive qualification is essential; it does not assert three mutually incompatible unqualified predicates of one event at one index. Source reading in prose only; no new Lean declaration or result.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}

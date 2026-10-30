@@ -1,0 +1,16 @@
+{
+  "id": "SCHAFFER-14-BASIC-WHOLE",
+  "statement_id": "STMT-SCHAFFER-BASIC-COMPOSITE-WHOLE",
+  "source_id": "SCHAFFER-MONISM",
+  "locator": "§1.3, p.38, basic-object definition; §1.4, pp.42–43, basic whole",
+  "interpretation": "Source reading recorded in prose only. This records the affirmative dependence account and its conditional derivation in the text, not an established metaphysical possibility, an intrinsic explanation of cosmic existence or an identification with God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCHAFFER-MATERIAL-DOMAIN",
+    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
+    "DEF-SCHAFFER-BASIC-OBJECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-MONISM-SCOPE"
+  ]
+}

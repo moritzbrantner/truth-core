@@ -1,0 +1,10 @@
+{
+  "id": "PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "argument_id": "PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.PluralRootConfluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PluralRootConfluence.Solution",
+  "theorem": "TruthCore.Results.Causality.PluralRootConfluence.control",
+  "comparator_config": "results/PLURAL-ROOT-CONFLUENCE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "The unchanged five-being, two-world PartFreePlurality joint interpretation has a weakly connected, well-founded actual causal graph at false, definitionally equal to its actual existential-support graph. Its distinct actual left/right sources both cause instrument; their upstream paths have no common extension. Upstream confluence and rooted-at-unique-source therefore fail, while the full earlier joint control remains true. This certifies satisfiability of the encoded commitments and a precise obstruction to applying the existing rooted theorem, not metaphysical possibility, real instantiation, explanatory adequacy or God\u2019s uniqueness."
+}

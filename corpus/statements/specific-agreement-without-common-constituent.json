@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SPECIFIC-AGREEMENT-WITHOUT-COMMON-CONSTITUENT",
+  "paraphrase": "Socrates and Plato really agree specifically and differ numerically; their greater agreement than that with a donkey need not be agreement in a further numerically common constituent. The reply appeals to the individuals themselves and their own forms.",
+  "definition_ids": [
+    "DEF-NUMERICAL-SINGULARITY",
+    "DEF-PARTICULAR-SUBSTANTIAL-FORM",
+    "DEF-COMMON-NATURE-CONSTITUENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
+    "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM"
+  ]
+}

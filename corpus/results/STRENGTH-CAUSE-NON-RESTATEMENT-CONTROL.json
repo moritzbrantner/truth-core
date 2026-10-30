@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "argument_id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.nonRestatementControl",
+  "comparator_config": "results/STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "The Bool relation with only the false-to-false pair makes broad-to-distinct implication vacuous at the uncaused true point while falsifying the local delta at false; the named delta is not a disguised conditional W → S. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

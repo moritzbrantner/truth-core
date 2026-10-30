@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-EQUAL",
+  "paraphrase": "For the same mathematical x,y, y equals x; this is the extra case admitted by the nonstrict order comparison.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.Equal",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

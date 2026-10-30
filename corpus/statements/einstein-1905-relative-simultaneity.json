@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EINSTEIN-1905-RELATIVE-SIMULTANEITY",
+  "paraphrase": "Under the stated relativity and light-speed principles and the §1 synchronization procedure, Einstein argues that stationary and co-moving observers need not agree on the synchronization of the rod-end clocks and draws a frame-relative simultaneity conclusion.",
+  "definition_ids": [
+    "DEF-EINSTEIN-CLOCK-TIME",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+  ]
+}

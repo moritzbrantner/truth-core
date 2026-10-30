@@ -1,0 +1,10 @@
+{
+  "id": "POLITICAL-DISTRICT-MAJORITY-CONTROLS",
+  "argument_id": "POLITICAL-DISTRICT-MAJORITY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Politics.DistrictMajority.Challenge",
+  "solution_module": "TruthCore.Results.Politics.DistrictMajority.Solution",
+  "theorem": "TruthCore.Results.Politics.DistrictMajority.certificate",
+  "comparator_config": "results/POLITICAL-DISTRICT-MAJORITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "In a stipulated two-party electorate with three districts of three voters each, counting every ballot once, the packed profile has five A ballots but loses two districts. A second profile with the same total five A and four B ballots, grouped 2,2,1 instead of 3,1,1, wins two districts. For every profile unanimous A implies both popular and district victory; unanimous B implies neither. The finite aggregation test establishes no claim about actual boundaries, proportional fairness, consent, or justified political authority. The proof computes finite witnesses and derives universal unanimous controls; it is not an opaque normative bridge transcription. All substantive normative and empirical applicability questions remain open. No root path is changed."
+}

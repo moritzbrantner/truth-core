@@ -36,8 +36,10 @@ prima via (`stageOneFromPrimaVia` instantiates Aquinas' `Being` with it).
 
 * `IsGod g` — `g` is God, in the sense of the God of classical theism, not
   merely what is called God.
-* `HasClassicalAttributes g` — `g` is simple, perfect, good, infinite,
-  immutable, eternal and one, and has intellect and will.
+* `HasClassicalAttributes g` — a primitive field intended to group simplicity,
+  perfection, goodness, infinity, immutability, eternity, unity, intellect and will.
+  The open `ClassicalAttributesSuffice` premise maps nine predicates to it;
+  this structure supplies no equivalence or field laws.
 * `RevealsRecognizably g` — `g` can reveal and can make a revelation
   recognizable as his by external signs (miracles, prophecies).
 * `jesus` — Jesus of Nazareth, a being; `ClaimedDivineAuthority x`,

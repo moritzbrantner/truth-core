@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-ORDER-EQUIVALENCE",
+  "argument_id": "STRENGTH-ORDER-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthOrder.equivalence",
+  "comparator_config": "results/STRENGTH-ORDER-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose all three obligations to obtain y > x iff y ≥ x and y ≠ x under the same mathematical LinearOrder. Actual axiom is propext. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
+}

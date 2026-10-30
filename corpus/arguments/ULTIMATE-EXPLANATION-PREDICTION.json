@@ -1,0 +1,23 @@
+{
+  "id": "ULTIMATE-EXPLANATION-PREDICTION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ULTIMATE-EXPLANATION-PREDICTION",
+  "inference_ids": [
+    "INF-ULTIMATE-EXPLANATION-PREDICTION"
+  ],
+  "meaning": "At each observed cutoff, a supplied stable copy-law profile has a nonempty evidence cell, exact persistence predictions and an outcome-wise optimal bet irrespective of the supplied Scope ground. A shared-prefix open-future profile admits true/false next values, defeats exact prediction and every outcome-wise optimal action but retains a safe action; even a grounded scope can accompany this failure. Adding the stable-law restriction strictly narrows that cell and improves prediction. Reuses both Hume test certificates; no empirical or normative entitlement conclusion.",
+  "definition_ids": [
+    "DEF-ULTIMATE-EXPLANATION-PROFILE",
+    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+    "DEF-ULTIMATE-EXPLANATION-DECISION",
+    "DEF-REGULARITY-GROUND",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

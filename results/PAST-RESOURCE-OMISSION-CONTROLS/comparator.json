@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PastResourceControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PastResourceControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PastResourceControls.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

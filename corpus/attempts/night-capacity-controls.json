@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-NIGHT-CAPACITY-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Baseline 3f8d8a448b8a8a6a5a70b2b89a46e71ce75b3ade. Existing NIGHT-ACTUALIZATION-CORE and BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY propagate two incompatible five-member sets in one six-atom Night component: the original core and the core with potency-as-unactualized-capacity replacing same-respect act/potency exclusion. The baseline territory has five surviving local positions, only one previously registered as witnessed. Extend each of the seven existing Night models with CanBe(x,r) := InPotency(x,r) or InAct(x,r), preserving every previous carrier, binding and evaluation. This chosen interpretation also allows whatever is actual to be able. The capacity analysis holds in NoReduction, Residual, OtherMover, NonactualMover and MovingResidual, proved from each existing same-respect exclusion certificate; it fails in SelfMover and Overlap, by composition with the existing analysis-to-exclusion theorem. Joint exact position controls: POS-2C3A0C708EC8 SelfMover; POS-4DE3A7B9EE22 NonactualMover; POS-5C98BD59F93F Residual and MovingResidual; POS-C02A63845B54 OtherMover; POS-EEE663B04343 NoReduction. Every position is now witnessed in this six-atom bounded projection, with its excluded atoms also explicitly violated in the same model. The complete territory computation uses 127 atoms, max_atoms 512, closure_limit 20000, core_combination_limit 4096 and hitting_set_limit 1024; none of these searches is truncated. These finite witnesses establish satisfiability of their exact encoded commitments, not metaphysical possibility, full Aristotelian capacity theory, or an exhaustive partition of all rival worldviews. Rejected strengthening: analysis is not equivalent to non-simultaneity for an arbitrary fixed CanBe; the converse here uses the explicit chosen capacity predicate. No source-attributed definition of CanBe, new philosophical premise, statement, or core theorem is introduced. Focused build TruthCore.Models.NightCapacityControls passed; the existing finite_models.verify_models gate accepted seven models and 97 exact closed certificates with zero axioms. Offline corpus check and independent old-binding/semantic-alignment audit passed. Root-premise delta: no change; final integrated build/binding/Comparator/NanoDa remain coordinator delivery gates.",
+  "evidence": [
+    "NIGHT-ACTUALIZATION-CORE",
+    "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY"
+  ]
+}

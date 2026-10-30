@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SEXTUS-RECIPROCAL-SUPPORT-SUSPENSION",
+  "paraphrase": "When the item offered to establish a disputed claim itself needs that disputed claim for support, the skeptical procedure takes neither as establishing the other and suspends judgment about both.",
+  "definition_ids": [
+    "DEF-SEXTUS-ESTABLISHING-PROOF",
+    "DEF-SEXTUS-SUSPENSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+  ]
+}

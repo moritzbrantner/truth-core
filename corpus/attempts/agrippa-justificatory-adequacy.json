@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-AGRIPPA-JUSTIFICATORY-ADEQUACY",
+  "statement_ids": [
+    "STMT-REGRESS-SCHEMA-PACKAGE",
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF",
+    "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
+    "STMT-SEXTUS-RECIPROCAL-SUPPORT-SUSPENSION",
+    "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
+    "STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION"
+  ],
+  "date": "2026-10-28",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized/read Patrick1899 PHI164–177 with I163–179 context from twice-matching Gutenberg17556 raw/text witness. Five scoped prose readings isolate the renewed proof-demand/no establishment point, the contrary-concession objection to bare hypotheses, reciprocity, disputed-criterion recursion and suspension rather than positive denial. Existing regressSchemaPackage/grounded_eq_lfp/JustificationTransfer already certify the stipulated mathematical standards, so no duplicate successor-chain proof or new theorem is proposed. Strong foundationalist/holistic/infinitist replies and exact independently open adequacy norms are mapped in docs/notes/agrippa-justificatory-adequacy.md. HansAlbert not read or attributed; no five-to-three exclusivity theorem or automatic epistemic-to-causal transfer. No root premise added, removed or discharged.",
+  "evidence": [
+    "SEXTUS-I166-REGRESS-SUSPENSION",
+    "SEXTUS-I168-173-174-BARE-HYPOTHESIS",
+    "SEXTUS-I169-RECIPROCAL-SUPPORT",
+    "SEXTUS-I170-177-DISPUTED-CRITERION",
+    "SEXTUS-I165-SUSPENSION-NOT-CHOICE",
+    "REGRESS-SCHEMA-PACKAGE"
+  ]
+}

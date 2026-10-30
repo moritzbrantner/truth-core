@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "source_id": "ARIST-APOST",
+    "edition_urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc1",
+    "language": "grc",
+    "repository": "OpenGreekAndLatin/First1KGreek",
+    "revision": "ed91552c52530c8f5a3ddf2dd767e899372a804c",
+    "path": "data/tlg0086/tlg001/tlg0086.tlg001.1st1K-grc1.xml",
+    "git_blob_sha": "66f6b6a902e7e24bfbc70b91104f8ce509e2ce8d",
+    "source_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/ed91552c52530c8f5a3ddf2dd767e899372a804c/data/tlg0086/tlg001/tlg0086.tlg001.1st1K-grc1.xml",
+    "license": "CC BY-SA 4.0"
+  },
+  "passages": [
+    {
+      "id": "ARIST-APOST-I-2",
+      "locator": "I.2",
+      "claim_locator_prefixes": [
+        "I.2,"
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "posteriora"
+        },
+        {
+          "subtype": "part",
+          "n": "1"
+        },
+        {
+          "subtype": "chapter",
+          "n": "2"
+        }
+      ]
+    },
+    {
+      "id": "ARIST-APOST-I-3",
+      "locator": "I.3",
+      "claim_locator_prefixes": [
+        "I.3,"
+      ],
+      "cts_path": [
+        {
+          "subtype": "book",
+          "n": "posteriora"
+        },
+        {
+          "subtype": "part",
+          "n": "1"
+        },
+        {
+          "subtype": "chapter",
+          "n": "3"
+        }
+      ]
+    }
+  ],
+  "notes": "Complete Posterior Analytics I.2 context and I.3 regress/circular-demonstration argument, not an assertion that every epistemic justification is demonstrative or finitely foundation-generated."
+}

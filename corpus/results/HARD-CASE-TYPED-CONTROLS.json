@@ -1,0 +1,10 @@
+{
+  "id": "HARD-CASE-TYPED-CONTROLS",
+  "argument_id": "HARD-CASE-TYPED-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ethics.HardCaseTyped.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.HardCaseTyped.Solution",
+  "theorem": "TruthCore.Results.Ethics.HardCaseTyped.certificate",
+  "comparator_config": "results/HARD-CASE-TYPED-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Typed finite omission witnesses for two hard cases and a constrained conflict between distinct recognized goods under common feasibility. Verdicts and priority frames are supplied; no actual prohibition, permission, reason or priority is proved."
+}

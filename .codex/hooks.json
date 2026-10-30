@@ -1,0 +1,29 @@
+{
+  "description": "Compact research context only; no preparation or verification gates.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"$(git rev-parse --show-toplevel)/scripts/agent_context.py\" --hook",
+            "timeout": 3,
+            "additionalContextLimit": 600
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"$(git rev-parse --show-toplevel)/scripts/agent_context.py\" --hook",
+            "timeout": 3,
+            "additionalContextLimit": 600
+          }
+        ]
+      }
+    ]
+  }
+}

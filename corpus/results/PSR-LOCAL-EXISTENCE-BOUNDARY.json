@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "argument_id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteExistence.checks",
+  "comparator_config": "results/PSR-LOCAL-EXISTENCE-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "Logical scope bookkeeping for the optional local comparison axis: explicit excluded middle supplies coverage; incompatibility and the equivalence between all-world existence-PSR and all local coverages are checked separately without excluded middle. This establishes no optional horn or philosophical background."
+}

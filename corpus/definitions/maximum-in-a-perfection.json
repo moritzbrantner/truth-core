@@ -6,5 +6,6 @@
   "claim_ids": [
     "AQUINAS-ST-I-Q2-A3-GRADES-HAVE-MAXIMUM-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn",
+  "note": "IsMaximalIn is the canonical spelling of the same body; IsMaximumIn remains its definitionally equal public compatibility name. This does not strengthen maximality to greatestness; see docs/notes/infinite-greatest-whole.md."
 }

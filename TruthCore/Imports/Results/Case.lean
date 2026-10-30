@@ -4,17 +4,23 @@ import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Sol
 import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution
 import TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution
 import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaVia.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution
 import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
 import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
+import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.DictoJointIncompatible.Solution
@@ -30,6 +36,7 @@ import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
 import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesThroughGroupTwo.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution
@@ -41,4 +48,5 @@ import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
 import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
+import TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.Solution
 import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution

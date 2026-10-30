@@ -1,0 +1,16 @@
+{
+  "id": "ARIST-MET-1045B-UNITY-MOVER-QUALIFICATION",
+  "statement_id": "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
+  "source_id": "ARIST-MET",
+  "locator": "VIII.6, 1045a29–33; 1045b17–23",
+  "interpretation": "Prose source reading retaining both the conditional mover exception and generation qualification. This challenges a further-tie explanation of this unity; it does not say a generated whole is uncaused, deny every dependence of its being, or supply an independently verified sufficient explanation of existence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ARISTOTLE-NONHEAP-WHOLE",
+    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
+    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+  ]
+}

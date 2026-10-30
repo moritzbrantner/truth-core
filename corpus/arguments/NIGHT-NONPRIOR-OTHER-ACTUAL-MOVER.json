@@ -1,0 +1,29 @@
+{
+  "id": "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+  "premise_statement_ids": [
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "conclusion_statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+  "inference_ids": [
+    "INF-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER"
+  ],
+  "meaning": "The Night witness is moved, so the root reduction premise supplies a mover; the root mover-actuality premise makes that mover actual in the same respect. It is distinct from the potency because otherwise the same being would be in act and potency in the same respect, contrary to the listed root premise. The Night witness excludes simple priority of that actual mover. Thus accepting the Night reading together with these root commitments forces failure of the actual-mover simple-priority bridge on this witness. This constructive forced-repair boundary is extracted from the proof of GENERATION-FROM-NIGHT-REFUTED.coreFromRootPremises; it establishes none of the open commitments and does not close a root premise.",
+  "definition_ids": [
+    "DEF-BEING-AS-ENTITY",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT",
+    "DISAMB-SELF-MOTION"
+  ]
+}

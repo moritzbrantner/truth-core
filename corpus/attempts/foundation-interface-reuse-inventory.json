@@ -1,0 +1,35 @@
+{
+  "id": "ATTEMPT-FOUNDATION-INTERFACE-REUSE-INVENTORY",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+    "STMT-NAMED-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+    "STMT-NECESSARY-PER-SE-IS-MAXIME-ENS",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Shared-vocabulary inventory for the owner-prioritized four-area investigation at ae89a385. Inspected exact Ontic, PSR, power/support, q3a4/a7/a5, Q11, SourceForest and underived declarations and target dossiers; reuse boundaries persist in docs/power-existence-scope-boundary.md under Shared interfaces. Rejected a new omnibus profile, automatic cause/ground/conservation/explanation identity, accessible-only reading of named underivedness, treating stable intrinsic-tag assignment as adequate essence explanation, and treating the three Q11 omission controls as the undelivered joint modal/simple model. Existing q104 conservation has sourced prose but no Lean conservation relation; strict genus/differentia predication has no realized-component or genus-composition inclusion. The live direct q3a4 application needs only one new shared interface ExistingInActAt: selected-world ExistsAt implies the supplied InAct-in-esse, with no converse/all-perfection/modal conclusion. It is added openly with a candidate and no attribution, not assumed true. This shared declaration is prepared for integration with the consuming necessity/actuality result rather than a second framework or independent theorem. The proposed joint two-root model must state structural composition scope and cannot silently claim full q3 simplicity. No new philosophical consequence, accepted metaphysical premise, source reading or root closure is advertised. All actual causal correspondence, individuation and norm adequacy obligations remain independent. Exact adapter full-content development diagnostics returned no errors at shared preview f2544a0142304bf074112e7323cb5b8ab6e46840, session causal-harvest, Scratch/FoundationVocabularyExistingInAct.lean, content SHA256 4a0ec8755faa68308751faaf16d07a12282b8aa09a017965da3d70a01f3b07e2. This elaborates a definition and is not a Comparator certificate or proof of the open interface. Before the consuming batch first push, added the separately OPEN direct ActualEsseCausesSupportAt interface: distinct cause-in-esse with already-present endpoints implies R at the selected world. This avoids requiring the stronger claim that all ordinary Ontic.Causes edges support existence. The original ordinary-causal route is retained as a separate stronger corollary, not silently weakened; its frozen Challenge is unchanged. A separate direct Challenge and strictness control belong to the consuming necessity worker. No conservation or event-causation identity is introduced. The complete two-definition module elaborated with no diagnostics at the same f2544a0142304bf074112e7323cb5b8ab6e46840 preview, Scratch/FoundationVocabularyDirectEsse.lean, content SHA256 664cffd4556f81126b84b0679b2d86b1e8466a90049d66a9c27bf7977fad7b43. This remains definition elaboration rather than verification of either open interface.",
+  "evidence": [
+    "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+    "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+    "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+    "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+    "AQUINAS-ST-I-Q3-FIRST-MOVER-SIMPLE",
+    "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+    "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE"
+  ],
+  "blocker": "No premise defense or root reduction: interpret selected-world existence as the intended actual esse; defend cause presence/correspondence, formal conservation and genus-composition realization, and the common-nature/individuation or differentiation bridge for the same actual witness."
+}

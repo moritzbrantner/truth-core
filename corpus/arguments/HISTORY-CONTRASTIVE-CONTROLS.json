@@ -1,0 +1,17 @@
+{
+  "id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+  "inference_ids": [
+    "INF-HISTORY-CONTRASTIVE-CONTROLS"
+  ],
+  "meaning": "Compute coverage and soundness for the same two infinite local chains under two reason-truth assignments. Evaluate a rival member to refute SameHistory and the constant reason discriminator; use internal reason truth to force the same world. An empty discovery assignment coexists with the latter discriminator. No actual selection explanation or root discharge follows.",
+  "definition_ids": [
+    "DEF-HISTORY-CONTRASTIVE-CONTROL",
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+  ]
+}

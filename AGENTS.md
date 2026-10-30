@@ -15,6 +15,13 @@ For a substantial frontier investigation (not a single source reading), the brie
 
 The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
 
+The coordinator runs `python3 scripts/worker_env.py --check` once for the
+selected toolchain/cache setup and supplies that setup to workers. Workers use
+`python3 scripts/worker_env.py -- <command> <args...>` without repeating the
+preflight unless the setup changes. Keep machine-specific verifier paths in
+repository-local Git configuration or the explicit environment, not in briefs
+that workers must reconstruct or in committed source.
+
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
 ## Concise reporting and persistence
@@ -41,6 +48,15 @@ Before handoff or retirement, persist verified source findings, rejected interpr
    boundaries and remaining gaps in their existing corpus records or linked
    notes. Shorter reporting must not remove this evidence. Do not replace it
    with chat history, temporary logs or duplicated progress narratives.
+6. **Trust completed work; do not repeat verification.** Reuse worker reports
+   and successful check evidence when the checked inputs and relevant
+   dependencies are unchanged (owner instruction, 2026-10-28). Use focused
+   diagnostics during development and final CI for the delivered revision;
+   do not independently repeat full builds, binding, Comparator, NanoDa, test
+   suites or review rounds at every handoff. Rerun affected checks for relevant
+   changes, concrete failures or unresolved findings. Complete the claim/type
+   self-sweep for a related batch before its first push, and combine related
+   findings into one reviewable PR where practical.
 
 ## Local server experiment for the next workloop
 
@@ -72,6 +88,15 @@ not authorize adding an external Lean dependency.
 
 ## Premise dossiers and attempts
 
+Before opening a new proposition investigation or introducing vocabulary, run
+`python3 scripts/corpus.py related <STMT-ID>` for the load-bearing seed. It reuses
+or refreshes a disposable local index and surfaces related propositions, complete
+argument bundles and previous attempts. Inspect promising matches before
+reinventing them. Rankings and shared vocabulary are discovery aids, not proofs
+of equivalence, implication or incompatibility. Continue with the dossier and
+existing certification workflow below. The repository-local `proposition-reuse`
+skill in `.agents/skills/proposition-reuse/SKILL.md` describes this entry point.
+
 For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
 (the explorer links the same generated dossier from the statement page). Before
 handoff, update `corpus/attempts/` for failed derivations, rejected readings,
@@ -90,6 +115,21 @@ for the attempt format and reference boundaries.
 - When claiming `P1, ..., Pn ⊢ C`, make the premises, definitions, and inference rules explicit and reduce the claim to a mechanically checkable artifact, using Lean by default in this repository.
 - Keep source interpretation, proposition extraction, formalization, proof search, and proof verification distinct. Lean's kernel verifies accepted proof terms; tactics, solvers, and LLMs are search helpers, not authorities.
 - Machine-checkable does not mean automatically discoverable. Failure to find a proof is not a refutation, and formal verification establishes consequence only inside the encoded system—not premise truth, source fidelity, empirical truth, or completeness of the chosen logic.
+
+## Semantic grounding of metaphysical relations
+
+Every newly introduced or substantially reinterpreted relation involving causation, dependence, grounding, contingency, necessity, or explanation must have an independently defensible interpretation.
+
+For philosophically significant relations:
+
+1. Explain their meaning in ordinary language.
+2. Identify concrete examples and counterexamples, or explicitly record why examples remain unavailable.
+3. Distinguish them from superficially similar relations.
+4. Independently justify structural properties such as transitivity, asymmetry, and well-foundedness.
+5. Justify any generalization from ordinary experience to metaphysical claims.
+6. Test the interpretation against serious competing accounts.
+
+A formally verified theorem establishes a conditional consequence, not the truth or applicability of its metaphysical interpretation. Never treat a mathematical relation as genuinely causal or explanatory merely because of its name.
 
 ## Permanent invariants
 
@@ -121,11 +161,13 @@ For a group of related open propositions, follow [the configuration elimination 
 
 ## Argument-first investigation
 
-Frontier-led work is **recursive argument refinement** (#565): keep one owner-scoped, end-to-end case and its strongest rivals visible. Reuse exact theorem IDs, verify its conditional structure, investigate its most consequential open premise as a child argument, then **recompose the result into the parent** before choosing another. Report the exact parent/root premise delta. Repeat until the route is established, decisively defeated, or precisely blocked. Split canonical propositions/tasks only for consequential inference, rival discrimination, independent defense, reuse, or the source/proof invariants. No duplicate tracker or claim of closure from an open bridge. See [the terse corpus loop](docs/systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand).
+Frontier-led work is **constraint discovery and elimination within an end-to-end case**. Start from related existing commitments under one explicit semantic profile. Compose checked implications, seek incompatible bundles and substantive exhaustive forks, and witness surviving branches before opening another premise investigation. Recursive premise defense is a targeted fallback when it can discriminate surviving branches, not the default engine. Keep the strongest rivals and the original question visible; recompose every finding into that case.
+
+Follow the [certified fork workflow](docs/configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow). A dilemma/trilemma needs a checked coverage theorem under explicit background assumptions; exclusivity is a separate obligation. A contradictory bundle forces rejection of at least one member, not a preferred member. Prefer small general constraints that prune families over issue/proposition counts. Preserve the existing proof, source, dossier and frontier authorities; conditional elimination does not establish its background or close a root premise. Split records only for consequential inference, rival discrimination, independent defense, reuse, or existing source/proof invariants.
 
 ## Outer systematic loop
 
-Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a high-leverage open obligation on the current #143 root route. Finish or repair in-flight work and respect real dependencies.
+Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a related cluster on the current #143 root route where existing commitments can yield a substantive fork, implication or incompatible core. Finish or repair in-flight work and respect real dependencies.
 
 For source ingestion when a frontier obligation needs it:
 
@@ -147,7 +189,7 @@ Work runs in parallel lanes (#416). Each lane owns directories and the corpus re
 Rules:
 
 - Edit outside your lane only where the work needs it (for example a shared definition or disambiguation such as `DISAMB-MOTION`), keep that edit minimal, and list every cross-lane file in the PR description.
-- Merge `origin/main` into your branch right before every push, then rerun the generators below and the checks.
+- Merge `origin/main` into your branch right before every push, then rerun the generators below and only checks whose evidence the merge invalidates. Reuse evidence for unchanged inputs; final CI covers the delivered revision.
 - Shared tables and import lists are generated, never hand-edited. Lean imports: `scripts/root-imports.sh --write` (each area has its own aggregator under `TruthCore/Imports/`; `scripts/root_imports.py` lists the areas finer than one top-level directory). Docs tables and lists: add one entry file (for example `docs/decisions/<date>-<NN>-<slug>.md`) and run `python3 scripts/docs_index.py --write`. CI rejects stale output of both. After a merge conflict in a generated file, take either side and rerun the generator. A row or list item that a branch from before #416 added by hand must first move into an entry file: the generator keeps only entries.
 
 See `docs/systematic-corpus-loop.md`, "Parallel lanes".
@@ -221,7 +263,10 @@ If a Solution cannot be proved from the advertised premises:
 
 ### 7. Verify the three boundaries
 
-Run:
+The following commands describe required verification coverage, not duplicate
+local runs for every worker and coordinator. Reuse completed evidence; final CI
+provides the integration checks. Run a check locally when development needs it
+or a relevant change or failure invalidates its earlier evidence:
 
 ```bash
 python3 scripts/source_evidence.py check

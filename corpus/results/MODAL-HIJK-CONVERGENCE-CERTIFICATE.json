@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "argument_id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Modal.ConvergenceCertificate.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ConvergenceCertificate.Solution",
+  "theorem": "TruthCore.Results.Modal.ConvergenceCertificate.certificate",
+  "comparator_config": "results/MODAL-HIJK-CONVERGENCE-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Universal assembly of nine frozen exact-path correspondence helpers. ExactPath zero is endpoint identity, and successor length decomposes into one directed edge plus the remaining exact path. Iterated box and diamond have universal/existential exact-endpoint semantics. For any natural h,i,j,k, the explicit fork/join convergence condition implies validity of diamond^h box^i phi \u2192 box^j diamond^k phi for arbitrary phi. Conversely validity of the one-atom instance over EVERY valuation and world implies that condition, by selecting the characteristic valuation consisting of i-successors of the chosen fork endpoint. The 4/B/5 specializations identify transitivity, symmetry and Euclideanness respectively with validity of the corresponding one-atom schemes; their forward directions reuse existing axiom validity theorems. There is no global frame, nonempty-domain, finite-world, linear-order or explicit excluded-middle hypothesis. The accepted artifact nevertheless uses approved Mathlib axioms, including Classical.choice; it is not advertised as a constructive or zero-axiom kernel proof. This proves frame/valuation correspondence, not soundness/completeness of a Hilbert calculus, canonical-model completeness or metaphysical frame truth. The wrapper is assembly for delivery, not additional discovery or a root discharge. Root-premise delta none. The original nine helper types remain frozen in their separate Challenge and all are explicit Comparator targets alongside the wrapper. Focused helper axiom inspection: exactPath_zero uses propext; the remaining eight use propext, Classical.choice and Quot.sound. The permitted profile is exactly the approved Mathlib three. Final integrated verification remains coordinator-owned. Both separately frozen wrapper Solution and Challenge passed the focused refinement build."
+}

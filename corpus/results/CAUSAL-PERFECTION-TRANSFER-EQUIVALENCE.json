@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.exactDelta",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the implication, residual projection and reconstruction into the exact scope decomposition under explicitly quantified decision parameters. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

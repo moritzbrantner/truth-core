@@ -1,0 +1,16 @@
+{
+  "id": "STMT-LOCAL-EXISTENCE-BOUNDARY",
+  "lean_declaration": "TruthCore.Explanation.NoBruteExistence.LocalExistenceBoundary",
+  "paraphrase": "At the selected world the local no-brute and brute-existence alternatives cover and cannot both hold; the existing all-world existence-PSR is equivalent to no-brute coverage at every world.",
+  "definition_ids": [
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-SCOPE",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-EXISTENCE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+  ]
+}

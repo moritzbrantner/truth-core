@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRENGTH-PREDICATE-UNIQUENESS",
+  "term": "existence, unique existence and at most one in the generic strength fixture",
+  "definition": "For an arbitrary supplied type α and predicate P, Exists P is ∃x,P x; Unique P is Mathlib ExistsUnique P, meaning ∃x,P x ∧ ∀y,P y→y=x. AtMostOne P means ∀x y,P x→P y→x=y. All conditions share that same α and P, and the witness of existence is retained in reconstruction.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.AtMostOne",
+  "note": "A generic mathematical fixture with no historical or philosophical existence attribution. The Bool predicate True has two witnesses and separates existence from unique existence. Empty predicates satisfy at most one while failing existence, so at most one supplies genuine additional content rather than being identified with unique existence. Proofs use the pinned Mathlib ExistsUnique definition and actually require no axioms."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CONTINGENT-PREDECESSOR-BRIDGE-OMISSION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CONTINGENT-PREDECESSOR-CONTROL",
+  "inference_ids": [
+    "INF-CONTINGENT-PREDECESSOR-BRIDGE-OMISSION"
+  ],
+  "meaning": "One fixed endpoint-sound, distinct-cause interpretation retains the named theorem's reflexivity, necessity, potential role and union-WF backgrounds but violates the no-contingent-predecessor bridge and named underivedness. The selected necessary false actually receives a cause from contingent true at false. Only false is necessary, so the necessary-only union is empty despite the local two-cycle. This tests the exact missing bridge; worldwise causal WF, temporal coherence and metaphysical possibility are not claimed. Because its actual world false has a two-cycle, this control is outside the owner's acyclic-world setting; it only tests the weaker background without pointwise WF.",
+  "definition_ids": [
+    "DEF-CONTINGENT-PREDECESSOR-CONTROL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-NAMED-NECESSARILY-UNDERIVED",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

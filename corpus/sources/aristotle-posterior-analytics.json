@@ -1,0 +1,11 @@
+{
+  "id": "ARIST-APOST",
+  "kind": "primary_text",
+  "author": "Aristotle",
+  "work": "Posterior Analytics",
+  "citation_system": "Bekker",
+  "work_urn": "urn:cts:greekLit:tlg0086.tlg001",
+  "reference_edition_urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc1",
+  "catalog_url": "https://catalog.perseus.tufts.edu/catalog/urn:cts:greekLit:tlg0086.tlg001",
+  "notes": "The CTS work/edition includes both Analytics although the electronic title says Analytica priora. Posterior Analytics is the actual posteriora division; passage paths retain that division and distinguish its books from the Prior Analytics. Bekker, Aristotelis Opera I, Oxford 1837, primary Greek."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CHOICE-CONTEXT-CONSTRAINT",
+  "term": "absence of an imposed constraint",
+  "definition": "Unconstrained h means h.imposed=false. In this finite table imposed=true forces the true action independently of preference and the law selector. The Boolean has this explicit response effect, but its absence is not identified with free will, consent, agency, moral responsibility, or a sufficient compatibilist criterion.",
+  "basis": "stipulative",
+  "note": "Analyst-defined control motivated by the Carneades definition fork; no source attribution. Adequacy and applicability remain open. See docs/notes/carneades-choice-context.md.",
+  "lean_declaration": "TruthCore.Modal.ChoiceContext.Unconstrained"
+}

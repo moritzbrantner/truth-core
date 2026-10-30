@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
+  "paraphrase": "If the selected rigid n exists at every root-accessible world, its degree at every such world is order-equivalent to its degree at the standpoint: both inequalities hold. This conditional does not assert necessity of n, literal identity of degree labels, or actual presence from necessity on a nonreflexive frame. This is an analyst condition, kept separate from the actual-presence-guarded source reading; on a nonreflexive frame its antecedent can hold even when n is absent at the standpoint.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.NecessaryDegreeInvariant",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-PREORDER-DEGREE-INVARIANCE",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-NECESSARY"
+  ]
+}

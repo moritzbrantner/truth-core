@@ -1,0 +1,17 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+  "input_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+  ],
+  "output_statement_id": "STMT-MAXIME-ENS-IS-GOD",
+  "rule": "direct-proof",
+  "meaning": "Separate sufficient interface under explicit DecidableEq Being; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

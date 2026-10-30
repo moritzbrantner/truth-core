@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.PSRStrength.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.PSRStrength.strengthMap"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

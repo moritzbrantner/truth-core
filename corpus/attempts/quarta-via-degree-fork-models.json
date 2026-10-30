@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-DEGREE-FORK-MODELS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-HOMOGENEOUS-BEING-SCALE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+    "STMT-QUARTA-VIA-DEGREE-FORK"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Baseline 1c83a5eaa217cf2eea7a2ed4330434901d87567d. Two independently specified joint interpretations of the full nonlogical degree-fork background: a homogeneous scale at esse, the at-being maximum/genus principle, the unrestricted cause-more-such principle and the existing grades premise. The latter unrestricted causal comparative remains an explicit open strengthening; no new source attribution is made. FiniteTop reuses the unchanged registered Order.HomogeneousCausalControl Boolean model and its constructive Mathlib Preorder: true strictly exceeds false and causes being in false. It jointly satisfies the strict causal-top branch, including uniqueness and absence of a distinct incoming cause, and violates unbounded degrees. Unbounded uses Nat, every being in act, MoreIn(r,x,y) iff y<x, and an empty CausesIn relation. It jointly satisfies the same background, has strict comparisons and a strictly higher degree for every being, but no maximum or strict causal top. Its genus premise is vacuous because no maximum exists. noMaximum composes the existing MAXIMUM-ORDER-SCHEMA maximumNeedNotExist theorem through the existing homogeneous-scale maximality bridge. noCausalEdges and noCausalSeries explicitly certify that degree ascent is not a causal regress. Each model has one Unit respect, so the three named grade respects alias only in this fixture; no source identity between being, goodness, truth or nobility follows. Assignments and concrete JointWitness propositions were frozen before proof bodies and the separately frozen witness Challenge. Rejected full-background controls: NoCausalOrder has a maximum and no edges but violates the genus premise; existing TiedPrimary violates both the genus principle and unrestricted causal ascent. TiedPrimary\u2019s existing beingOrder is the strict Boolean order, while the earlier general tied-maxima control uses a constant-lift preorder: these profiles must not be silently identified. Focused build of TruthCore.Models.QuartaViaDegreeFork passed. The existing finite-model gate accepted the single extended Boolean registration and all 19 exact closed certificates with zero axioms; no infinite carrier is falsely enumerated or registered as finite. FiniteTop.jointWitness and Unbounded.noCausalSeries are zero-axiom; Unbounded.jointWitness and combined branchWitnesses depend exactly on propext, Classical.choice and Quot.sound through reused Mathlib order machinery. The combined result must therefore be described in classical Mathlib logic, not as a zero-axiom constructive proof. Independent semantic/type audit passed. This proves satisfiability of the exact encoded backgrounds and branches, not metaphysical possibility, complete rival worldviews or premise truth. Root-premise delta: no change. Final integrated source/build/binding/Comparator/NanoDa remain coordinator delivery gates.",
+  "evidence": [
+    "MAXIMUM-ORDER-SCHEMA"
+  ]
+}

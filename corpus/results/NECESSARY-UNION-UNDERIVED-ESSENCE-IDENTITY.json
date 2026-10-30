@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+  "argument_id": "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Direct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedEssenceEsse.from_union_direct",
+  "comparator_config": "results/NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Import and apply the existing PositiveUnion.checks with its exact five original premises, retaining its same actual necessary underived individual. Apply the existing q3a4 distinctEsseExternalFromExhaustion to the source-attributed causal dichotomy and efficient-self-cause exclusion. Three separately OPEN selected-world adapters supply the q3 actuality of that individual, the actual presence of a q3 cause-in-esse, and direct typed cause-in-esse→R support. Such an incoming edge contradicts that same individual’s underivedness. Constructively the core yields only double-negated essence–esse identity; explicit excluded middle yields positive identity. No assumption that every ordinary event cause supports esse, actual graph connectivity/confluence, maximality, pure actuality or uniqueness is used. This is a conditional same-witness connection consuming an existing transcription, not a defense of its premises or a root discharge."
+}

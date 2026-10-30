@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+  "term": "faithful directed graph and thin quiver of a Kripke frame",
+  "definition": "Frame.toDigraph uses F.access literally as Digraph.Adj; ofDigraph uses adjacency literally as access. Direction and self-loops are preserved. Frame.toQuiver supplies the explicit quiver whose arrow type from a to b is PLift (F.access a b). It is a thin quiver with no distinguishable parallel arrows, and is passed explicitly rather than installed globally on the world type. The adapter changes neither the frame nor its valuation or Holds semantics.",
+  "basis": "stipulative",
+  "note": "Mathematical interface with existing Mathlib Digraph/Quiver notions, not a metaphysical identification or an added accessibility condition. Distinct frames may coexist over the same world type.",
+  "lean_declaration": "TruthCore.Modal.Frame.toQuiver"
+}

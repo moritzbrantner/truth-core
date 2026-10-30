@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-UNBOUNDED-CORE-MODELS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Bounded deletion-control investigation following the degree fork. Exact proposed incompatible set: the global GradesByApproachToAMaximumReading, actual GradesFoundInThingsReading, and QuartaViaUnboundedDegrees at the selected esse. No homogeneous-scale, genus-causality or causal-ascent premise is added. Preserve all prior Boolean/Nat assignments and the original BranchWitnesses proposition. FiniteTop retains grades-to-maximum and actual grades while violating unbounded degrees. Its new gradesHaveMaximum certificate extends the already registered Boolean model by exactly one evaluation. Unbounded retains actual grades and unbounded degrees while violating grades-to-maximum; the negative proof applies that principle to the existing Nat comparison 1>0 and composes the existing noMaximum certificate. EmptyControl has Empty beings and one Unit respect, with inAct and moreIn constantly False. It retains the vacuous grades-to-maximum and unbounded predicates while violating actual grades; the new data was frozen before proof bodies and the proof worker froze the main core Challenge and these three closed omission obligations before solution work. This control exposes the logical need for a population-supplying premise; it does not identify the stronger actual-grades premise with bare population or prove that it is the weakest possible background. Empty is an explicit typed logical interpretation, not a claim of an empty metaphysically possible world. The finite-model registry currently requires nonempty enumerations. Neither Empty nor infinite Nat is registered there, and no tooling or registry semantics were changed: adding Empty alone would still not register the Nat control or produce automatic registry-computed minimality. The three omissions are instead available as exact supplemental Comparator obligations withoutUnbounded, withoutMaximumPrinciple and withoutGrades in the separate QuartaViaUnboundedCore Challenge/Solution. Focused model-module build passed. Axiom inspection: Boolean gradesHaveMaximum and all three EmptyControl certificates have no axioms; Nat violatesGradesHaveMaximum uses exactly propext, Classical.choice and Quot.sound through the prior Mathlib control. The existing finite-model gate accepted the one extended Boolean registration and all 20 exact closed certificates with zero axioms. These local certificates do not substitute for integrated Comparator/NanoDa verification of the new core and its controls. No new source attribution, canonical philosophical statement, root-premise discharge, minimum-cardinality claim, or registry-computed minimality label is asserted.",
+  "evidence": [
+    "MAXIMUM-ORDER-SCHEMA"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+  "term": "relational epistemic alternatives and knowledge",
+  "definition": "For a supplied shared modal Frame F, Knows F p w means p holds at every v accessible from w, using the existing Holds semantics. Reflexive accessibility makes this relation factive. Transitivity validates positive introspection through the existing axiom4_valid theorem. These frame conditions are independent assumptions, not definitional requirements on all subjects. The actual world is a separately selected model world.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.JustificationIntrospection.Knows",
+  "note": "A mathematical epistemic interpretation of the existing modal frame, not a historical source reading, completeness claim or proof of actual knowledge. It does not identify epistemic accessibility with metaphysical possibility or causal dependence."
+}

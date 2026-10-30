@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-ACTUAL-REASON-ANCHOR-OVERLAP",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MODAL-EXPLANATION-STABLE",
+    "STMT-ACTUAL-REASON-WITNESS-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused #481 alternating countermodel and #599 fixed-roster actualist membership convention rather than repeating a quantifier-shift target. Explicit actual reason membership still permits varying local witnesses and no stable reason. A unique admitted anchor reason plus pairwise overlap with that anchor suffices for one actual token wherever the explanandum exists; a populated sound control satisfies this bridge while violating full ReasonInvariant. The earlier worldwise_and_invariance_implies_stable theorem requires a world of existence and worldwise explanations in addition to ReasonInvariant and concludes only token-only StableExplanation. ReasonInvariant preserves explains, not actual-token membership, so it does not suffice for ActualStable with independently varying token domains. The anchor control establishes only that full ReasonInvariant is unnecessary for the new sufficient anchor criterion. This is set-intersection reasoning on stipulated explanation assignments, not a metaphysical account of reason sufficiency. Source readings paused; no author attribution or complete-history ontology selection. Brute facts remain rivals to local PSR; alternating local reasons remain rivals to stable explanations; neither rival is eliminated philosophically. Root premises retained unchanged; necessary bearer, reason adequacy, intrinsic essence, external bearer and circularity remain separate. Details and exact Lean names in docs/modal-quantifier-shift-models.md.",
+  "evidence": [
+    "PR-481",
+    "PR-599",
+    "ACTUAL-REASON-WITNESS-CERTIFICATE"
+  ]
+}

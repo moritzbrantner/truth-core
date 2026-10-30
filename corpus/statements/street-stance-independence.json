@@ -1,0 +1,11 @@
+{
+  "id": "STMT-STREET-STANCE-INDEPENDENT-REALISM",
+  "paraphrase": "Street’s target realism holds that some evaluative truths are independent of all evaluative attitudes in the stance-independence sense; independence from merely making a particular judgment is insufficient.",
+  "definition_ids": [
+    "DEF-STREET-STANCE-INDEPENDENCE",
+    "DEF-NATURALIST-APPRAISER-INDEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+  ]
+}

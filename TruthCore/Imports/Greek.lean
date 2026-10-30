@@ -4,6 +4,7 @@ import TruthCore.Greek.Aristotle.Metaphysics
 import TruthCore.Greek.Aristotle.MetaphysicsIII3
 import TruthCore.Greek.Aristotle.MetaphysicsIV7
 import TruthCore.Greek.Aristotle.MetaphysicsIX
+import TruthCore.Greek.Aristotle.NicomacheanEthics.BookI.Chapter7
 import TruthCore.Greek.Aristotle.Physics
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter1
 import TruthCore.Greek.Aristotle.Physics.BookI.Chapter2
@@ -66,6 +67,8 @@ import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
 import TruthCore.Greek.Aristotle.Physics.Typed.Capacity
 import TruthCore.Greek.Aristotle.Physics.Typed.CosmicChange
 import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+import TruthCore.Greek.Aristotle.SynonymousCause
+import TruthCore.Greek.Aristotle.SynonymousCauseAtLeast
 import TruthCore.Greek.Clement.FirstCorinthians
 import TruthCore.Greek.Josephus.Antiquities
 import TruthCore.Greek.Plato.Forms

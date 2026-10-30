@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PAST-RESOURCE-POSITIVE-STEP",
+  "paraphrase": "The fixed real epsilon is strictly positive. This is the common increment used by UniformPastGrowth, not a separate positive value chosen for each past step.",
+  "lean_declaration": "TruthCore.Causality.BoundedPastResource.PositiveStep",
+  "definition_ids": [
+    "DEF-PAST-RESOURCE-STOCK",
+    "DEF-PAST-RESOURCE-LOWER-BOUND",
+    "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "MODEL-ACT-POTENCY-NREGRESS",
-  "description": "Original #374 NRegress omission: all retained premises hold while the absolute unmoved-mover conclusion fails. The omitted premise is refuted by composition with the existing theorem.",
+  "description": "Original #374 NRegress omission: all retained premises hold while the absolute unmoved-mover conclusion fails. The omitted premise is refuted by composition with the existing theorem. The unchanged interpretation also satisfies motion-in-the-moved and every mover being in act, jointly with the existing potency and non-simultaneity evaluations. Its actual two-cycle uses different respects (a moves b in k, b moves a in h), so same-respect consecutive-edge exclusion is compatible with a cycle and absence of a globally unmoved mover. Well-foundedness of MovesAsMoved is a separate violated premise, not merely a prohibition of distinct-node infinite chains.",
   "vocabulary": "MOTION-BEING-IN-ACT",
   "lean_declaration": "TruthCore.Models.ActPotencyRemaining.NRegress.model",
   "bindings": {
@@ -106,9 +106,32 @@
         "MovesAsMoved"
       ],
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation6"
+    },
+    {
+      "statement_id": "STMT-MOVING-IS-IN-THE-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.RespectAlternatingMotionCycle.inMoved"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.RespectAlternatingMotionCycle.moverActual"
     }
   ],
   "modules": [
-    "TruthCore.Models.ActPotencyRemaining"
+    "TruthCore.Models.ActPotencyRemaining",
+    "TruthCore.Models.RespectAlternatingMotionCycle"
   ]
 }

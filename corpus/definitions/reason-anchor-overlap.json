@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REASON-ANCHOR-OVERLAP",
+  "term": "unique anchor reason with cross-world overlap",
+  "definition": "AnchorOverlap means there is a world a where x exists, exactly one admitted reason r at a, and for every world v where x exists there is some token admitted at both a and v. Overlap witnesses may vary until anchor uniqueness identifies them. Nonvacuity, uniqueness and overlap are explicit conditional assumptions, not consequences of PSR.",
+  "basis": "stipulative",
+  "note": "Source attribution paused under owner scope for #465; semantic test only. Actualist guards follow the fixed-roster membership convention of #599, extended to existing Reason tokens without changing Ontic.",
+  "lean_declaration": "TruthCore.Modal.ActualReasonWitness.AnchorOverlap"
+}

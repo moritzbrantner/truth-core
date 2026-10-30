@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SECONDARY-ONLY-TRANSFER-SURVIVES",
+  "rule": "typed_scope_comparison",
+  "meaning": "Evaluate the secondary-only table: the same background holds, but universal source 0 does not cause recipient 3 at skill, falsifying even restricted transfer.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONCURRENT-TRANSFER-SEPARATES",
+  "rule": "typed_scope_comparison",
+  "meaning": "Evaluate the finite concurrent causal table: the shared philosophical test background and narrower principle hold while the particular-source instance 1,3,skill falsifies unrestricted transfer.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

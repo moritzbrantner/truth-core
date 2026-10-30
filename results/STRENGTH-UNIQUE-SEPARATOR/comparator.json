@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.StrengthUnique.separator"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

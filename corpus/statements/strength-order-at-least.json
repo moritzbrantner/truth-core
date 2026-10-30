@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-AT-LEAST",
+  "paraphrase": "For the supplied mathematical linear order and x,y, y is at least x.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.Weak",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

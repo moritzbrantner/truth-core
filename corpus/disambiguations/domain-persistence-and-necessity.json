@@ -1,0 +1,13 @@
+{
+  "id": "DISAMB-DOMAIN-PERSISTENCE-AND-NECESSITY",
+  "term": "varying domains, rigid identity and necessity",
+  "sense_definition_ids": [
+    "DEF-ACTUALIST-ALL",
+    "DEF-INCREASING-EXISTENCE-DOMAINS",
+    "DEF-DECREASING-EXISTENCE-DOMAINS",
+    "DEF-BOX-ALL-TO-ALL-BOX",
+    "DEF-ALL-BOX-TO-BOX-ALL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "resolution": "The Ontic candidate roster and its literal identity stay fixed. Varying domains means varying ExistsAt extensions. Predicates P are arbitrary total predicates even on absent candidates; only actualist quantification is guarded. Increasing/decreasing are edgewise domain inclusions, whereas NecessaryAt concerns one selected individual. Increasing domains eliminate ContingentAt because actual membership persists to every successor, not because the accessibility frame is S5. The transfer directions are named by their exact formulas rather than potentially ambiguous Barcan labels. Neither equivalence covers all actualist/free-logic/counterpart conventions. Worlds in this result are abstract modal evaluation indices, not times or causal vertices connected by cross-world causal arrows."
+}

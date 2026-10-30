@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "argument_id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
+  "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.coverage",
+  "comparator_config": "results/NECESSARY-IF-EXISTENT-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-EXCLUDED-MIDDLE, derive: At the named standpoint, either every accessible world satisfies G or every accessible world fails G (\u25a1G \u2228 \u25a1\u00acG). Coverage does not itself assert exclusivity or select a side. No source attribution, metaphysical possibility, God-existence, or root premise discharge is inferred."
+}

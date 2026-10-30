@@ -1,0 +1,43 @@
+{
+  "id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "premise_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-NECESSARY-WELL-FOUNDED",
+    "STMT-ACTUAL-NO-CONTINGENT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-UNDERIVED-ESSENCE-IDENTITY",
+  "inference_ids": [
+    "INF-ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY"
+  ],
+  "meaning": "Apply not_not_underived_of_lifting to a constant-world gated relation containing only actual R edges between necessary bearers. The actual necessary restriction is well-founded; its gated predecessors trivially lift. Local no-contingent support upgrades absence of gated incoming edges to absence of every actual existing R supporter. Explicit excluded middle selects this same actual necessary source. Apply actual_not_not_identity_direct and excluded middle to obtain represented essence–esse identity for it. This is a conditional composition consuming the existing q3 transcription; all philosophical premises remain open. No all-world underivedness, actual reflexivity, global no-contingent condition or union well-foundedness follows.",
+  "definition_ids": [
+    "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}

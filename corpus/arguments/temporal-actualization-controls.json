@@ -1,0 +1,25 @@
+{
+  "id": "TEMPORAL-ACTUALIZATION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "inference_ids": [
+    "INF-TEMPORAL-ACTUALIZATION-CONTROLS"
+  ],
+  "meaning": "Joint mathematical controls: A₀→B₁→A₂ has strictly forward acyclic event edges but reciprocal projected being edges. A separate simultaneous alternating-respect Bool circle has no backwards edge, violates strict-forward and event acyclicity, satisfies the explicit motion projection and all four time-sliced canonical local premises, and satisfies the reciprocal constraint; every node has a predecessor. A separately named sustaining relation on that circle admits both all-on and all-off local activity solutions. Another clock on the same circle witnesses a backward edge. The Nat successor-as-cause chain has strictly forward negative-integer exercise times and no finite event cycle, yet is not well-founded. Optional staging on the simultaneous circle has potency at -1, exercise at 0 and attained actuality at 3, so cause attainment need not precede effect exercise. Existing TEMPORAL-EVENT-CAUSAL-CONTROLS is imported unchanged for the Zeno/first-instant/event/empty-causation boundaries. These are satisfiability controls, not actual causal history, metaphysical possibility or explanatory sufficiency.",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}
