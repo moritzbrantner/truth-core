@@ -1,0 +1,26 @@
+{
+  "id": "BEARER-REGRESS-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-BEARER-REGRESS-CONTROLS",
+  "inference_ids": [
+    "INF-BEARER-REGRESS-CONTROLS"
+  ],
+  "meaning": "Branch witnesses for the four outcome forms and the bundle case, two non-exclusivity models, omission models for the ancestry premise and each bridge, a contingent terminus and a negative-test control, plus the universal exclusion of the nonterminating forms by the terminus forms. Logical models only; no premise is discharged and none is claimed metaphysically possible.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-BEARER-SUPPORT-ANCESTRY",
+    "DEF-BEARER-SUPPORT-OUTCOMES",
+    "DEF-CATEGORIES-SUBJECT-RELATIONS",
+    "DEF-COGITO-SUBSTANCE-PREDICATE",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEARS-INHERES-SUPPORTS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

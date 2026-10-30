@@ -1,0 +1,10 @@
+{
+  "id": "BEARER-REGRESS-CONTROLS",
+  "argument_id": "BEARER-REGRESS-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.BearerRegress.controls",
+  "comparator_config": "results/BEARER-REGRESS-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Logical models and one universal exclusion. Witnesses each outcome form and the bundle case; shows the terminus forms non-exclusive, a terminus compatible with a cycle, a contingent terminus, and the need for the ancestry premise and each subject-relation bridge. It does not test omission of the other premises. No premise discharged. No root change."
+}
