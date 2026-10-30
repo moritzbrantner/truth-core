@@ -119,12 +119,6 @@ full-description naming theorem and the same nine pointwise attribute results
 to that maximum. The root imports `Skeleton.catholicismSkeleton`, using the
 witness's uniqueness to transport its attributes to all `IsGod` instances.
 
-`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE` keeps the same premises except
-`STMT-MOST-TRUE-IS-MOST-BEING`. It gets the maximum through a population-relative
-form of the degree fork's split, applying the maximum principle at esse as well
-as truth, and does not show the witness maximally true. The exact fork theorem is
-consumed off-route by `QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED`.
-
 The exact listed hypothesis set is a subset of the selected efficient-regress First-Way composition's:
 30 rather than 38, with no added premise. The omitted inputs are:
 
@@ -157,3 +151,11 @@ same-witness First-Way theorem instead listed those two proved intermediates;
 its 38-input list has the same expanded philosophical frontier. This is an
 alternative argument with fewer listed commitments, not closure of the omitted
 premises or replacement of the owner-designated First-Way route.
+
+`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE` is a further alternative with
+the premises of the route above except `STMT-MOST-TRUE-IS-MOST-BEING`. It gets
+the maximum through a population-relative form of the degree fork's split.
+Grades of truth supply only population. The maximum principle at esse carries
+the maximum when something having esse has a comparator; otherwise the maximum
+is vacuous. The witness is not shown to be maximally true. The exact fork theorem
+is consumed off-route by `QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED`.

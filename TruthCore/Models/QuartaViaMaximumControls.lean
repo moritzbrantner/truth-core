@@ -54,4 +54,27 @@ theorem conclusionFails : ¬ MaximeEnsCausesBeingOfAllReading inAct moreIn cause
   exact Bool.noConfusion (h : esse = verum)
 end NoEsse
 
+/-! Only `true` has any perfection, and the fixture's truth compares it with
+`false`, which has no perfection. Nothing is compared in esse. -/
+namespace FlatEsse
+def inAct (x : Bool) (_ : Bool) : Prop := x = true
+def moreIn (r x y : Bool) : Prop := r = verum ∧ x = true ∧ y = false
+def causesIn (_ _ _ : Bool) : Prop := False
+
+theorem grades : GradesFoundInThingsReading moreIn verum verum verum := by
+  dsimp only [GradesFoundInThingsReading, moreIn]; decide
+theorem approach : GradesByApproachToAMaximumReading inAct moreIn := by
+  dsimp only [GradesByApproachToAMaximumReading, IsMaximumIn, inAct, moreIn]; decide
+theorem genus : MaximumInGenusCausesAllInGenusReading inAct moreIn causesIn := by
+  dsimp only [MaximumInGenusCausesAllInGenusReading, CausesAllInGenus, IsMaximumIn,
+    inAct, causesIn, moreIn]; decide
+theorem actuality : ActualityOnlyInsofarAsBeingReading inAct esse :=
+  fun _ _ h => h
+theorem conclusion : MaximeEnsCausesBeingOfAllReading inAct moreIn causesIn esse := by
+  dsimp only [MaximeEnsCausesBeingOfAllReading, CausesAllInGenus, IsMaximumIn,
+    inAct, causesIn, moreIn]; decide
+theorem noComparisonInEsse : ∀ y x, ¬ moreIn esse y x := by
+  dsimp only [moreIn]; decide
+end FlatEsse
+
 end TruthCore.Models.QuartaViaMaximumControls

@@ -11,7 +11,7 @@
   "inference_ids": [
     "INF-QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE"
   ],
-  "meaning": "Derives the existing conclusion of the quarta via argument through a population-relative form of the degree fork's split instead of through STMT-MOST-TRUE-IS-MOST-BEING. The maximum principle is applied at truth and at esse; actuality only insofar as being is applied at truth. Maximality is the weak IsMaximumIn. This is a formal alternative, not a reading of the source's order of argument. Every premise remains open.",
+  "meaning": "Derives the existing conclusion of the quarta via argument through a population-relative form of the degree fork's split instead of through STMT-MOST-TRUE-IS-MOST-BEING. The maximum principle is applied at truth and, in the non-flat case, at esse; actuality only insofar as being is applied at truth. Maximality is the weak IsMaximumIn. This is a formal alternative, not a reading of the source's order of argument. Every premise remains open. Grades of truth supply only a being having esse; any respect with grades would do. In the case with a comparison above a being having esse, the maximum principle at esse carries the maximum. In the flat case, with no such comparison, that being is vacuously maximal and the principle at esse is unused; flatBranch shows the genus principle and cause-more-such then leave at most one being having esse. MoreIn does not entail InAct (flatMaximum), so the maximum does not presuppose grades of being.",
   "definition_ids": [
     "DEF-BEING-AS-ENTITY",
     "DEF-RESPECT",

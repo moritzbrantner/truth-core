@@ -52,9 +52,12 @@ theorem actualCore {Being Respect : Type}
 /-- Some being is maximal in esse and causes esse in every other being having
 esse, without the premise that the maximally true is maximally being. The
 grades-to-maximum principle at truth gives a being having truth; actuality only
-insofar as being gives it esse; `actualFork` and `actualCore` then give a
-maximum in esse. The principle is used at truth and at esse. The witness is not
-shown to be maximally true. Maximality here is the weak `IsMaximumIn`. The truth
+insofar as being gives it esse. Those grades supply only that population; any
+respect with grades would do. If some being having esse has a being more such
+than it, the principle at esse gives the maximum (`actualFork`, `actualCore`).
+Otherwise a being having esse is vacuously maximal and the principle at esse is
+not used, so the maximum does not presuppose grades of being (`flatBranch`,
+`flatMaximum`). The witness is not shown to be maximally true. Maximality here is the weak `IsMaximumIn`. The truth
 bridge is neither refuted nor derived. -/
 theorem maximeEnsCausesBeingOfAll {Being Respect : Type}
     (InAct : Being → Respect → Prop)
@@ -72,6 +75,37 @@ theorem maximeEnsCausesBeingOfAll {Being Respect : Type}
   rcases actualFork InAct MoreIn esse hEM with ⟨m, hm⟩ | hUnbounded
   · exact ⟨m, hm, hGenus esse m hm⟩
   · exact (actualCore InAct MoreIn esse hApproach ⟨t, hBeing t verum ht.1⟩ hUnbounded).elim
+
+/-- With no comparison in esse, the genus principle and unrestricted causal
+comparative leave at most one being having esse: any other would be caused by
+it and so compared with it. -/
+theorem flatBranch {Being Respect : Type}
+    (InAct : Being → Respect → Prop)
+    (MoreIn : Respect → Being → Being → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
+    (hFlat : ∀ y x, ¬ MoreIn esse y x)
+    (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
+    (hCause : TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
+      CausesIn MoreIn)
+    (m : Being) (hm : InAct m esse) :
+    ∀ x, x ≠ m → ¬ InAct x esse := by
+  intro x hx hAct
+  exact hFlat m x (hCause m x esse (fun h => hx h.symm)
+    (hGenus esse m ⟨hm, fun y => hFlat y m⟩ x hx hAct))
+
+/-- One Boolean interpretation satisfies the theorem's other nonlogical premises
+and its conclusion with no comparison in esse, while the fixture's truth compares
+a being with one lacking every perfection, so `MoreIn` does not entail `InAct`. -/
+theorem flatMaximum :
+    GradesFoundInThingsReading FlatEsse.moreIn verum verum verum ∧
+    GradesByApproachToAMaximumReading FlatEsse.inAct FlatEsse.moreIn ∧
+    MaximumInGenusCausesAllInGenusReading FlatEsse.inAct FlatEsse.moreIn FlatEsse.causesIn ∧
+    ActualityOnlyInsofarAsBeingReading FlatEsse.inAct esse ∧
+    MaximeEnsCausesBeingOfAllReading FlatEsse.inAct FlatEsse.moreIn FlatEsse.causesIn esse ∧
+    (∀ y x, ¬ FlatEsse.moreIn esse y x) ∧
+    (FlatEsse.moreIn verum true false ∧ ¬ FlatEsse.inAct false verum) := by
+  exact ⟨FlatEsse.grades, FlatEsse.approach, FlatEsse.genus, FlatEsse.actuality,
+    FlatEsse.conclusion, FlatEsse.noComparisonInEsse, ⟨rfl, rfl, rfl⟩, fun h => Bool.noConfusion h⟩
 
 /-- The truth bridge is not entailed: one Boolean interpretation satisfies the
 other premises and the conclusion while the truth bridge fails. -/
