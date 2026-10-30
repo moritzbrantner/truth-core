@@ -146,7 +146,7 @@ def Certificate : Prop :=
   (∀ (S : Type) (r : S → S → Prop) (f : Int → S) (t u : Int),
     (∀ s a b, r s a → r s b → a = b) → Follows (fun _ => r) f →
       f t = f u → f (t + 1) = f (u + 1)) ∧
-  -- Finite window, functional law: the start state parametrizes solutions.
+  -- Finite window, total functional law: the start state parametrizes solutions.
   (∀ (S : Type) (n : Nat) (step : S → S),
     Function.Bijective (fun f : {f : Fin (n + 1) → S //
       FollowsFin (fun a b => b = step a) f} => f.1 0)) ∧
