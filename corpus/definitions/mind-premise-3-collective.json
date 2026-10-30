@@ -1,0 +1,10 @@
+{
+  "id": "DEF-MIND-PREMISE-3-COLLECTIVE",
+  "term": "no overdetermination, taken together",
+  "definition": "NotAllOverdeterminedTogether: not every physical effect of every target-kind occurrence is overdetermined by it. One non-overdetermined pair satisfies it, and any other target-kind occurrence may overdetermine all its effects.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PAPINEAU-RISE-NO-OVERDETERMINATION-COLLECTIVE"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.NotAllOverdeterminedTogether"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING",
+  "term": "bodily involvement in an intellectual exercise: physical basis or bodily sharing",
+  "sense_definition_ids": [
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ],
+  "resolution": "PhysicallyBased is a predicate of occurrences in the modern frame: the occurrence has a physical kind or is realized by a physical occurrence. BodyShares is a predicate of q.75 operations: the body participates in the exercise, and it excludes object-side phantasms (ad 3). No definition identifies them. STMT-INTELLECTUAL-EXERCISE-TOKENED and STMT-PHYSICAL-BASIS-IS-BODY-SHARING are the only passage between them, and both are explicit, unattributed and open. bridgeExit satisfies every other premise with a per-se operation and a physical token, so the passage is load-bearing."
+}

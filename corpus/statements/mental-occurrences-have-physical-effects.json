@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
+  "paraphrase": "Causal influence: every occurrence of the target mental kind causes some occurrence that is physical and an effect. It does not say which relation of causing is meant; a frame interprets it strictly or generously.",
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.CausalInfluence",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL"
+  ]
+}

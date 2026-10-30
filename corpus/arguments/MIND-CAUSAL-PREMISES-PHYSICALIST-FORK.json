@@ -1,0 +1,26 @@
+{
+  "id": "MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
+    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED"
+  ],
+  "conclusion_statement_id": "STMT-MIND-PHYSICALIST-FORK",
+  "inference_ids": [
+    "INF-MIND-CAUSAL-PREMISES-PHYSICALIST-FORK"
+  ],
+  "meaning": "Conditional coverage under Papineau's completeness and causal influence, the distributive reading of his premise 3, and excluded middle: the target mental kind falls under the eliminative, reductive or nonreductive condition. Excluded middle alone gives only the four-way partition fourWayCoverage, and positionsExclusive shows the four exclusive; the three causal premises are what remove SomeUnbased. Four witnesses satisfy the causal premises in each branch, with two distinct nonreductive shapes. Three deletion models each keep two causal premises and have an unbased occurrence with the fork false. These are finite formal interpretations, not rival theories or possibility claims. No branch is chosen and no premise established; physicalism is not derived, since eliminative and nonreductive positions are distinct branches and premise truth is open.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-POSITIONS",
+    "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-PAPINEAU-PREMISE-3-SCOPE"
+  ]
+}

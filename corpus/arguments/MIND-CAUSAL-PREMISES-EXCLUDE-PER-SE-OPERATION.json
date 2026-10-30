@@ -1,0 +1,29 @@
+{
+  "id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
+    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
+    "STMT-INTELLECTUAL-EXERCISE-TOKENED",
+    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING"
+  ],
+  "conclusion_statement_id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+  "inference_ids": [
+    "INF-MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION"
+  ],
+  "meaning": "Incompatible core: excluded middle, the three causal premises, tokening, the basis/sharing bridge and a per-se intellectual operation cannot all hold. This forces rejection of some member and selects none: it does not refute q.75 or establish any causal premise. q75BundleIncompatible composes the existing q.75 reductios so that the five q.75 premises yielding the operation join the core. Each of the five non-logical premises has a deletion model with a per-se operation, so the core is inclusion-minimal for them; excluded middle has none. bridgeExit keeps the causal premises and the reductive condition, so these do not exclude a per-se operation without the bridge. collectiveHybrid shows the same for the collective reading of premise 3. bundleWitness shows the premises jointly satisfiable. All models are finite formal interpretations. Rival replies are not adjudicated.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL",
+    "DISAMB-PAPINEAU-PREMISE-3-SCOPE",
+    "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING"
+  ]
+}

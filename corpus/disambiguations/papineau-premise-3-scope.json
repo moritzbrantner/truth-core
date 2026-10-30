@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PAPINEAU-PREMISE-3-SCOPE",
+  "term": "scope of \"not all overdetermined\" (Papineau premise 3)",
+  "sense_definition_ids": [
+    "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
+    "DEF-MIND-PREMISE-3-COLLECTIVE"
+  ],
+  "resolution": "The sentence admits a per-cause and a collective reading, and each has its own claim and statement. Per-cause yields PhysicalistFork with the other premises (physicalistFork). Collective yields only SomeBased (someBased), and collectiveHybrid satisfies it with an unbased occurrence. No argument here uses the collective reading for a universal conclusion or passes from one reading to the other. The distributive reading implies the collective one only given an occurrence with a physical effect; no theorem here states that implication."
+}

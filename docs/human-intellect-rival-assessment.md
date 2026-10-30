@@ -150,3 +150,5 @@ reception theory is chosen as the defense, obtain its pinned Latin context
 before claiming it supplies that defense. Operation attribution and
 operation/existence correspondence must then be independently defended.
 Issue #419 remains open.
+
+Later work: `docs/notes/mind-physicalism-fork-419.md` formalizes the causal argument and adds the bridge discussed above as an explicit, unattributed open premise, with a deletion model. It does not defend that bridge.
