@@ -1,0 +1,13 @@
+{
+  "id": "AQUINAS-IN-METAPH-V-L6-MORE-WAYS-OTHERWISE-A",
+  "statement_id": "STMT-WHAT-CAN-BE-IN-MORE-WAYS-CAN-BE-OTHERWISE",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "V, lect. 6 n. 14",
+  "interpretation": "Aquinas on Met. V.5, 1015b9-13: the first necessary must be simple, because composites are mutable 'et ita pluribus modis se possunt habere: quae autem pluribus modis habere se possunt, possunt se habere aliter et aliter; quod est contra rationem necessarii.' The middle sentence is read as: whatever can be in more ways can be otherwise in some respect. It is said inside an argument about composites but its subject is general ('quae'). It names no respect, so the reading only says there is one. It does not mention the potency of the contradictory or a respect r, so it does not state STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAN-BE-IN-MORE-WAYS",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT"
+  ]
+}
