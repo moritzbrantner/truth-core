@@ -1,0 +1,23 @@
+{
+  "id": "STMT-TRUTH-NONTRIVIALITY-CORE",
+  "paraphrase": "For every content type, predicate and negation operator: an expressive predicate does not collapse; each pole collapses; a collapsed predicate with a decided pivot is at a pole, and the poles exclude each other on inhabited contents; collapse with exclusive negation gives all-fail, with exhaustive negation all-hold, and with both is impossible on inhabited contents. For every truth semantics: no absolute truth entails that the absolute predicate collapses and is not expressive, and on inhabited contents that negation is not exhaustive for it; a thesis that disquotes and captures entails that the global denial fails; total nihilism entails that no assertion commitment in any sense is met and that no agent's predicate is expressive. Conditional laws: they do not say that any rival accepts a hypothesis.",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.TruthNontrivialityCore",
+  "definition_ids": [
+    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+    "DEF-TRUTH-PREDICATE-COLLAPSE",
+    "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+    "DEF-NEGATION-EXHAUSTIVE",
+    "DEF-THESIS-CAPTURE",
+    "DEF-GLOBAL-TRUTH-NIHILISM",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-TRUTH-COLLAPSE-LEVEL",
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}

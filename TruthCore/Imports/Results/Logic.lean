@@ -28,6 +28,9 @@ import TruthCore.Results.Logic.StrengthCause.Solution
 import TruthCore.Results.Logic.StrengthOrder.Solution
 import TruthCore.Results.Logic.StrengthUnique.Solution
 import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
+import TruthCore.Results.Logic.TruthNontriviality.Controls.Solution
+import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
+import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution
 import TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution
 import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
 import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution

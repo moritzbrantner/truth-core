@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing witnesses: a proposition that holds and one that fails are not equivalent, so not all propositions are.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

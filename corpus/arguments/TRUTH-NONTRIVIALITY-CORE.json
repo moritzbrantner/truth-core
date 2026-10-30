@@ -1,0 +1,27 @@
+{
+  "id": "TRUTH-NONTRIVIALITY-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTH-NONTRIVIALITY-CORE",
+  "inference_ids": [
+    "INF-TRUTH-NONTRIVIALITY-CORE"
+  ],
+  "meaning": "Transport the Prop theorem to a predicate through Expressive; derive the negation factorization from the predicate's own negation; compose the disquotation theorem with capture.",
+  "definition_ids": [
+    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+    "DEF-TRUTH-PREDICATE-COLLAPSE",
+    "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+    "DEF-NEGATION-EXHAUSTIVE",
+    "DEF-THESIS-CAPTURE",
+    "DEF-GLOBAL-TRUTH-NIHILISM",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-TRUTH-COLLAPSE-LEVEL",
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+  ]
+}
