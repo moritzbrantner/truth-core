@@ -21,7 +21,8 @@ the fact `f` obtains.
 - **Examples and counterexamples.** Reasons that do not necessitate: an agent's motive
   for a free choice, or a stochastic setup for its outcome, on views that count them
   as explaining. Modal entailment that does not explain: `f` entails itself, and the
-  `copy` model shows that this satisfies every coverage condition.
+  `copy` model shows that this satisfies `FactPSR`, and so `ContingentPSR` and `NoBrute`
+  (`ExistencePSR` needs `Coherent` as well, and weak PSR needs reflexivity).
 - **Not the same as.** Efficient causation (`Ontic.Causes`, see
   `DISAMB-PSR-EXPLANATION-CAUSE`), modal sufficiency (`Necessitating`, see
   `DISAMB-PSR-REASON-NECESSITATING`), and conjunct-hood (`conjunct`).
@@ -82,7 +83,7 @@ uses. World-relative formulations are read at the named world.
 | reason at every world → `StableReason` | invalid | `shiftingReason` (`□∃r` is not `∃r□`) |
 | `LocalCausalPrinciple` and `ExternalCause` → `ExistencePSR` or `ContingentPSR` | invalid | `causeOnly`: an infinite causal chain, no reason |
 | `ExistencePSR` and `LocalCausalPrinciple` → `ExternalCause` | invalid | `ground true` |
-| any coverage → `ReasonIndependent` | invalid where contingency exists | `copy A` has `FactPSR`, `Necessitating`, `Factive` over any `A` |
+| `FactPSR` → `ReasonIndependent` | invalid where contingency exists | `copy A` has `FactPSR`, `Necessitating`, `Factive` over any `A` |
 | `ReasonIndependent` → `Necessitating` | invalid | `ground true` |
 
 The formulations are not linearly ordered: `ContingentPSR` and `ExistencePSR` are
@@ -105,7 +106,7 @@ incomparable, and quality conditions are a separate axis from scope.
   supply the diagonal facts and an aggregate. So the weak version's safety depends on
   rejecting extensionality or a reason quality, not on its modal position alone.
 - **Requiring independence** is what separates a real reason from `copy`, which meets
-  every coverage clause. It is a quality condition, not more scope.
+  `FactPSR` over any arena. It is a quality condition, not more scope.
 
 ## Controls
 
