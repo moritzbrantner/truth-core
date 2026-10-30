@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-CONTRAST",
+  "term": "truth-discriminating contrast relevance",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ContrastRelevant",
+  "definition": "ContrastRelevant: for each contingent member f and each accessible world v lacking f, some member reason for f is false at v. UniformContrast: one member reason for f is false at all such worlds.",
+  "note": "One candidate reading of 'why this rather than otherwise', stipulated in order to test it. It is truth discrimination only. It refuses an answer whose reason also holds at the rival, so it excludes nonnecessitating accounts of that form; a reason false at the rival need not necessitate. See docs/notes/explanatory-adequacy-750.md."
+}

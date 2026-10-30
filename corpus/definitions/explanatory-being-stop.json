@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-BEING-STOP",
+  "term": "necessary-being stop",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.BeingStop",
+  "definition": "Every noncontingent member of the account is the existence fact of a being necessary at the world.",
+  "note": "Circular control: this standard names the expected satisfier, so any necessary being obtained from it was stated in it. It is not proposed as a criterion. See docs/notes/explanatory-adequacy-750.md."
+}

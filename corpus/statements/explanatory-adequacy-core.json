@@ -1,0 +1,22 @@
+{
+  "id": "STMT-EXPLANATORY-ADEQUACY-CORE",
+  "paraphrase": "No arena has a reason-closed account of a contingent explanandum whose contingent reason relation is well-founded and whose reasons for contingent members are all contingent; replacing that last condition with all reasons necessitating, or with truth-discriminating contrast relevance, also gives inconsistency. For the first bundle, one named model each keeps the other members and refutes the deleted one: a brute contingent terminus has no reason-closed account, a source-free infinite chain is not well-founded, a necessary reason for a contingent target is not contingent, and a target with no rival is not contingent. The core forces rejection of at least one member and chooses none.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-TWO-WAY",
+    "DEF-EXPLANATORY-BEING-STOP",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ],
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.Core"
+}
