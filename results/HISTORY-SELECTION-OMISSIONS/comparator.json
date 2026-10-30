@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.HistorySelection.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.HistorySelection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.HistorySelection.omissions"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

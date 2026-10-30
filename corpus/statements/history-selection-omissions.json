@@ -1,0 +1,17 @@
+{
+  "id": "STMT-HISTORY-SELECTION-OMISSIONS",
+  "paraphrase": "Closed controls: isolating the actual accessibility component permits determination despite a different disconnected history; identical populated histories need no discrimination; an internal actuality marker selects but is not evidence-only over constant truth; false candidate truth satisfies the implication vacuously but fails Selects. Positive weights favor the actual history while retaining positive weight for the rival. These weights are no proof of actual chances or adequate nonnecessitating explanation.",
+  "lean_declaration": "TruthCore.Explanation.HistorySelection.OmissionControls",
+  "definition_ids": [
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-HISTORY-SELECTION-CONTROLS",
+    "DEF-HISTORY-CONTRASTIVE-CONTROL",
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-UNIQUE-FEEDBACK-STATE",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+  ]
+}
