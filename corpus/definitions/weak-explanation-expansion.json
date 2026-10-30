@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WEAK-EXPLANATION-EXPANSION",
+  "term": "conservative weak explanatory-token expansion",
+  "definition": "canonical retains an Ontic interpretation unchanged and assigns its intrinsic-tag candidate reason to each existence fact precisely where the individual exists. CoverageAndGuardedStability conjoins existing Sound, ExistencePSR, StableExplanation for every candidate, and existence-guarded ReasonInvariant for every candidate. This is neither unconditional persistence of explaining into absent-target worlds nor an independently sufficient explanation.",
+  "basis": "stipulative",
+  "note": "A model-expansion diagnostic for #312/#319, not a source-attributed PSR or new theory of grounding or conservation. Every property solely of the old Ontic signature is unchanged. The intrinsic constructor is a syntactic tag, not essence–esse identity, a real nature, a reason-bearer or causal productivity.",
+  "lean_declaration": "TruthCore.Explanation.ConservativeReasonExpansion.canonical"
+}
