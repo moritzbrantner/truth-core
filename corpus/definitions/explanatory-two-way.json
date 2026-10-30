@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-TWO-WAY",
+  "term": "two-way reason",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.TwoWay",
+  "definition": "For each contingent member f and rival world v lacking f, some member reason for f is also admitted at v as a reason for a fact true at v and false at a.",
+  "note": "Candidate structural condition for nonnecessitating explanation. It is a pattern in the admitted reasons and does not establish relevance: token expansion satisfies it given a rival outcome. See docs/notes/explanatory-adequacy-750.md."
+}

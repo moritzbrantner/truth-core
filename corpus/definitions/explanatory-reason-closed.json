@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-REASON-CLOSED",
+  "term": "reason-closed account",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed",
+  "definition": "An account S of x at a contains x, has only true members, contains every reason admitted for a member, gives each contingent member a reason, and admits no reason modally coextensive with a contingent member. Its members may be reasons for one another; no asymmetry or foundedness is included. Founded is the separate condition that the contingent reason relation is well-founded. AllReasonsVary and AllReasonsNecessitate are separate conditions on the reasons of contingent members.",
+  "note": "Candidate standard from #750, not a definition of adequate explanation. Its clause covered excludes a contingent member with no reason by stipulation, so it supplies no argument against a contingent stopping point. The reason relation is the #755 parameter; closure under admitted reasons assumes the arena lists the account's own reasons. See docs/notes/explanatory-adequacy-750.md."
+}

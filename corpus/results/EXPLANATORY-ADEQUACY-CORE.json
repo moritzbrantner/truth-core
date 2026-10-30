@@ -1,0 +1,10 @@
+{
+  "id": "EXPLANATORY-ADEQUACY-CORE",
+  "argument_id": "EXPLANATORY-ADEQUACY-CORE",
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExplanatoryAdequacy.core",
+  "comparator_config": "results/EXPLANATORY-ADEQUACY-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "An inconsistency of reason closure, a contingent explanandum, well-founded contingent reasons and only contingent reasons, with necessitating and contrast variants and a deletion model per member of the first bundle. Conditional consequence only: it establishes no member, and which to reject remains open."
+}

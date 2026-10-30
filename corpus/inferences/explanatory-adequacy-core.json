@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXPLANATORY-ADEQUACY-CORE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXPLANATORY-ADEQUACY-CORE",
+  "rule": "model-construction",
+  "meaning": "Prove by well-founded descent that the bundle is inconsistent, with its necessitating and contrast variants, and construct a model for each deleted member.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
