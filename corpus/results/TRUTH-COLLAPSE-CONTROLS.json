@@ -1,0 +1,10 @@
+{
+  "id": "TRUTH-COLLAPSE-CONTROLS",
+  "argument_id": "TRUTH-COLLAPSE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthNontriviality.Controls.truthCollapseControls",
+  "comparator_config": "results/TRUTH-COLLAPSE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Eight models bounding STMT-TRUTH-NONTRIVIALITY-CORE: local collapse, profile variation, uninterpreted one-point structure, gluts, collapse poles, the relativist survivor, total nihilism and the satisfiable truth schema. Consistency of encodings only."
+}

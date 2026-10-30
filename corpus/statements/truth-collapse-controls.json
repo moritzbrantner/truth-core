@@ -1,0 +1,25 @@
+{
+  "id": "STMT-TRUTH-COLLAPSE-CONTROLS",
+  "paraphrase": "Eight existence claims. (1) An expressive uncollapsed predicate with an all-holding domain and an all-failing domain, each with at least two members. (2) On the pilot language: global profile variation with every profile collapsed; global variation with some profile uncollapsed; the pilot's stable-logical local variation. (3) STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE alongside an inhabited type with no two distinct elements, a fixing step function and an empty relation, all uninterpreted. (4) A predicate and negation where some content and its negation hold, another content fails, negation is exhaustive and not exclusive, and the predicate does not collapse. (5) An all-hold model with exhaustive non-exclusive negation and an all-fail model with exclusive non-exhaustive negation. (6) No absolute truth, a disquoting non-capturing thesis, every agent's predicate expressive and uncollapsed, the thesis true for one agent and not the other. (7) Total nihilism on inhabited contents with exclusive negation. (8) A disquoting and capturing thesis that is not absolutely true, with another content absolutely true. Consistency of these encodings only: no defense of what they model and no source reading.",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.TruthCollapseControls",
+  "definition_ids": [
+    "DEF-TRUTH-PREDICATE-COLLAPSE",
+    "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+    "DEF-NEGATION-EXHAUSTIVE",
+    "DEF-THESIS-CAPTURE",
+    "DEF-GLOBAL-TRUTH-NIHILISM",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-COLLAPSE-LEVEL",
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}

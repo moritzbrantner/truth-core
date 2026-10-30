@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GLOBAL-TRUTH-NIHILISM",
+  "term": "total truth nihilism",
+  "definition": "`GlobalTruthNihilism T`: no content is absolutely true and no content is true for any agent, in the semantics `T`.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.GlobalTruthNihilism",
+  "note": "Stipulated test reading, unattributed. Not any historical nihilist's thesis; a source reading would be a separate claim."
+}

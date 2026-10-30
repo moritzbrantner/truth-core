@@ -21,4 +21,5 @@ import TruthCore.Logic.Strength.UniqueExistence
 import TruthCore.Logic.StrengthComparison
 import TruthCore.Logic.ThoughtChangeSubject
 import TruthCore.Logic.TruthComposition
+import TruthCore.Logic.TruthNontriviality
 import TruthCore.Logic.TruthPilot

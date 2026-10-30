@@ -1,0 +1,17 @@
+{
+  "id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "inference_ids": [
+    "INF-LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE"
+  ],
+  "meaning": "Compose the existing witnesses: a proposition that holds and one that fails are not equivalent, so not all propositions are.",
+  "definition_ids": [
+    "DEF-LEAN-PROPOSITION-HOLDING",
+    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE",
+    "DISAMB-TRUTH-COLLAPSE-LEVEL"
+  ]
+}
