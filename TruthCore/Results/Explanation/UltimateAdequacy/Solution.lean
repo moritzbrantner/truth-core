@@ -11,7 +11,13 @@ open TruthCore.Logic.Regress
 open TruthCore.German.Kant.CosmologicalInference
 
  theorem actual_occurs (k : Kind) (e : Nat) : (exercise k).occurs (exercise k).actual e := by
-  cases k <;> simp [exercise]
+  cases k with
+  | single => rfl
+  | chain => rfl
+  | branch => exact Or.inr rfl
+  | plural =>
+    dsimp [exercise]
+    split_ifs <;> first | rfl | exact ⟨rfl,rfl⟩
 
  theorem local_actual (k : Kind) : LocalPower (groups k) (intrinsic k) ((exercise k).occurs (exercise k).actual) := by
   intro e
@@ -46,7 +52,9 @@ open TruthCore.German.Kant.CosmologicalInference
       have hb := hm 1 (Or.inl (Or.inr rfl))
       change s.1 = true at ha
       change s.2 = true at hb
-      simpa [exercise, groups, show g+2 ≠ 0 by omega, show g+2 ≠ 1 by omega] using And.intro ha hb
+      change (if g+2 = 0 then s.1 = true else if g+2 = 1 then s.2 = true else s.1 = true ∧ s.2 = true)
+      rw [ite_eq_right (by omega : g+2 ≠ 0), ite_eq_right (by omega : g+2 ≠ 1)]
+      exact ⟨ha,hb⟩
     | branch =>
       have ha := hm (g+2) (Or.inl (Or.inr rfl))
       rcases ha with bad | hon
@@ -54,7 +62,11 @@ open TruthCore.German.Kant.CosmologicalInference
       · exact Or.inr hon
     | chain => exact hm (g+1) (Or.inl (Or.inl rfl))
   · intro y x
-    simp [Exercise.ontic, Exercise.exercisedGroups, Groups.graph, exercise, groups]
+    constructor
+    · rintro ⟨g,_,he,hm⟩
+      exact ⟨g,trivial,he,hm⟩
+    · rintro ⟨g,_,he,hm⟩
+      exact ⟨g,⟨trivial,trivial⟩,he,hm⟩
 
  theorem single_supply (e : Nat) : Supply (groups .single) (intrinsic .single) e := by
   cases e with
@@ -180,14 +192,36 @@ theorem chain_no_source (e : Nat) : ¬ (groups .chain).graph.Source e := by
  theorem branch_edge (y x : TruthCore.Causality.DerivativeJointPower.Node) :
     TruthCore.Causality.DerivativeJointPower.K.edge y x ↔
     (groups .branch).graph.edge (encode y) (encode x) := by
-  cases y with
-  | mk y hy => cases x with
-    | mk x hx => cases x <;> cases y <;>
-      simp [TruthCore.Causality.DerivativeJointPower.K,
-        TruthCore.Causality.WorldSourceRegress.actualGraph,
-        TruthCore.Causality.WorldSourceRegress.overlap,
-        TruthCore.Results.Causality.GroundingAllowsRegress.link,
-        Groups.graph,Groups.members,groups,encode]
+  rcases y with ⟨y,hy⟩
+  rcases x with ⟨x,hx⟩
+  cases x with
+  | none =>
+    constructor
+    · intro hf
+      cases y <;> exact hf.elim
+    · rintro ⟨g,_,he,_⟩
+      change g+1 = 0 at he
+      omega
+  | some n =>
+    cases y with
+    | none =>
+      exact ⟨fun _ => ⟨n,trivial,rfl,Or.inl (Or.inl rfl)⟩,fun _ => trivial⟩
+    | some m =>
+      constructor
+      · intro he
+        change m = n+1 at he
+        subst m
+        exact ⟨n,trivial,rfl,Or.inl (Or.inr rfl)⟩
+      · rintro ⟨g,_,he,hm⟩
+        change g+1 = n+1 at he
+        have hgn := Nat.succ.inj he
+        subst g
+        rcases hm with hm | hf
+        · rcases hm with hm | hm
+          · change m+1 = 0 at hm; omega
+          · change m+1 = (n+1)+1 at hm
+            exact Nat.succ.inj hm
+        · exact hf.elim
 
  theorem branch_supply (e : TruthCore.Causality.DerivativeJointPower.Node) :
     Supply TruthCore.Causality.DerivativeJointPower.H
@@ -202,7 +236,7 @@ theorem chain_no_source (e : Nat) : ¬ (groups .chain).graph.Source e := by
     have he : e = TruthCore.Causality.DerivativeJointPower.node (some n) := Subtype.ext hx
     subst e
     have old := TruthCore.Results.Causality.DerivativeJointPower.rooted_control.2.2.2.2.1 n
-    have hn : encode (TruthCore.Causality.DerivativeJointPower.node (some n)) ≠ 0 := by simp [encode,TruthCore.Causality.DerivativeJointPower.node]
+    have hn : encode (TruthCore.Causality.DerivativeJointPower.node (some n)) ≠ 0 := by change n+1 ≠ 0; omega
     have new := TruthCore.Results.Causality.DerivativeJointPower.trap_obstruction _ _ _ branch_trap _ hn
     exact ⟨fun h => (old h).elim, fun h => (new h).elim⟩
 
@@ -212,13 +246,23 @@ theorem chain_no_source (e : Nat) : ¬ (groups .chain).graph.Source e := by
     branch_least,branch_no_supply,branch_indispensable,chain_no_supply,chain_no_least,
     decode_encode,encode_decode,branch_edge,branch_supply⟩
 
+/-- This necessity is a property of the stipulated modal extension, not a
+consequence from intrinsic productive power to the bearer's necessary being. -/
+theorem intrinsic_necessary (k : Kind) (e : Nat)
+    (hi : TruthCore.Explanation.UltimateAdequacy.intrinsic k e) :
+    NecessaryAt (modal k false) false e :=
+  fun _ _ => Or.inr (Or.inr hi)
+
+ theorem not_intrinsic_target (k : Kind) : ¬ TruthCore.Explanation.UltimateAdequacy.intrinsic k 2 := by
+  cases k <;> dsimp [TruthCore.Explanation.UltimateAdequacy.intrinsic] <;> decide
+
  theorem modal_contingent (k : Kind) : ContingentAt (modal k false) false 2 := by
   refine ⟨Or.inl rfl,true,trivial,?_⟩
   intro h
   rcases h with h | h | h
   · exact Bool.noConfusion h
   · exact Bool.noConfusion h
-  · cases k <;> simp [TruthCore.Explanation.UltimateAdequacy.intrinsic] at h
+  · exact not_intrinsic_target k h
 
  theorem modal_controls : ModalControls := by
   refine ⟨fun _ _ _ => Or.inl rfl, ?_, fun _ _ _ _ => Or.inr (Or.inl rfl),
@@ -231,7 +275,10 @@ theorem chain_no_source (e : Nat) : ¬ (groups .chain).graph.Source e := by
     · intro hs
       have bad := (hs 2 ()).mpr (Or.inl rfl)
       change true = false ∨ false = true ∨ TruthCore.Explanation.UltimateAdequacy.intrinsic k 2 at bad
-      cases k <;> simp [TruthCore.Explanation.UltimateAdequacy.intrinsic] at bad
+      rcases bad with hf | hf | hi
+      · exact Bool.noConfusion hf
+      · exact Bool.noConfusion hf
+      · exact not_intrinsic_target k hi
     · exact fun _ _ => Iff.rfl
   · intro k
     refine ⟨fun _ _ => trivial, ?_⟩

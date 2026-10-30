@@ -16,7 +16,7 @@ This consumes merged #733/#740, #734/#747, #736/#738, #737/#739, #677 and #712.
 It supplies #735's consequential failed-discriminator/countermodel outcome;
 it does not claim an exhaustive metaphysical fork, refute a worldview, or close
 a #143 root premise. The six owner successor investigations #741–746 are not
-implemented here. In particular no unmerged #743/#748 proof is imported.
+implemented here. In particular no #743/#748 proof is imported.
 
 ## One question, one interpretation policy
 
@@ -139,6 +139,13 @@ not preserve arbitrary cross-world exercise/causation claims, make worlds
 into scenarios, establish real metaphysical accessibility, or identify every
 bearer's existence with its exercise. The id bearer map is a stipulated
 one-event-per-bearer policy in these fixtures, not a universal identity thesis.
+
+The helper `intrinsic_necessary` checks that this stipulated second overlay
+retains necessary bearer0 in the single/branch cases and bearers0,1 in the
+plural case. Its hypothesis is the chosen intrinsic-contribution assignment;
+the theorem is about the extension we constructed, not a real power-to-modal
+inference. Thus a necessary source and contingent target are genuinely
+compatible in the named extension, without full-reason necessitation.
 
 For each contingent-target extension the existing necessity-transfer theorem
 excludes simultaneously necessary reason truth and necessitation of **that
@@ -296,3 +303,38 @@ CI remain separate. Reproduction after build:
 `worker_env.py -- scripts/verify-result.sh ULTIMATE-ADEQUACY-COMPARISON`
 and `ULTIMATE-ADEQUACY-EPISTEMIC`. No source manifest/claim bytes change, so
 unchanged pinned-witness verification evidence is reused.
+
+The first canonical Comparator run rejected a private
+`Init.Data.Nat.Basic` / `Nat.add_le_add_left.match_1_1` type in the new
+simp-generated proofs. Existing recorded incidents identified this exporter
+boundary. Replacing those new simp calls with explicit cases/constructors and
+public arithmetic operations repaired it without changing the frozen
+Challenge, certificate definitions, any premise or verifier. The affected
+canonical build and main Comparator/NanoDa then passed. The final combined
+full edit was accepted at clean preview
+`bd09db483c815ba3531b116ab9f4f7e8d2e5667a` with no diagnostics, SHA256
+`31789e646990e5e6508293355727232de7f4a28626559399fe302bb4f7e57324`.
+This supersedes the earlier development hash. The original anchored branch
+transport and named chain source-freedom are additionally proved helpers;
+the main certificate exposes the stated structural/modal clauses, not every
+incidental helper property. Frozen Challenge SHA256:
+`761326f56c1f4d9a62dbfa9aba442032401b636bc49886df83701eeb4ad97e05`.
+
+Publication-local gates: the integrated library build passed; bind-check found
+672 bound results, the two existing pinned legacy conclusions and zero
+mismatches. Both new result-specific Comparator checks and their independent
+NanoDa runs passed. Source/corpus manifests and generated imports/docs passed;
+root-route and reaching-root outputs were byte-identical to baseline. The
+additional `intrinsic_necessary` helper changes none of the two certified
+targets or their dependencies; its focused build passed. Final delivered-head
+CI retains full integration authority.
+
+For the bounded service experiment, the FINAL identical full-edit bytes
+(including that helper), SHA256
+`9b88d8c1c9091a147add02cc74e0423ba3d6f3195d152c9cb14cfb24c1b6e51e`,
+were accepted by canonical CLI in2.22s and the warm shared service in0.617s
+(service0.347s; negligible lease wait), at previewbd09db48. Both reported no
+errors or warnings. This supersedes the earlier development hashes and is a
+single prepared-import comparison, not general throughput evidence. Retain
+the service for repeated bound edits; canonical proof and final CI checks
+remain necessary. No new service infrastructure or second session was used.
