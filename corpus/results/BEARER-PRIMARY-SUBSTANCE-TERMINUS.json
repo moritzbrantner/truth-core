@@ -1,0 +1,10 @@
+{
+  "id": "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+  "argument_id": "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+  "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
+  "theorem": "TruthCore.Results.Causality.BearerRegress.primarySubstanceTerminus",
+  "comparator_config": "results/BEARER-PRIMARY-SUBSTANCE-TERMINUS/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional, not a transcription: Acc descent yields the terminus and the two bridges refute its being in or said of a subject before the Categories reading applies. Open premises: occurrence, bearer principle, bearer existence, ancestry premise, well-founded support, and both bridges; the Categories reading is a sourced claim about Aristotle, not established as true. Excluded middle is explicit. Establishes no independent substance, necessity, soul or God. No root change."
+}

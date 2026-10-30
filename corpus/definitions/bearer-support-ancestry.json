@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BEARER-SUPPORT-ANCESTRY",
+  "term": "support ancestry of a bearer; dependent ancestor",
+  "definition": "`SupportAncestor m R w x b` is the reflexive-transitive closure of `PresentEsseSupport m R w`, so x is b or reached from b by a finite chain of direct supporters existing at w. `Dependent` is an unconstrained predicate, not defined as having a supporter. `BearerAncestryDependentsSupported` says that each existing ancestor of a bearer of an occurring thought that satisfies `Dependent` has an existing direct supporter at w.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.BearerRegress.BearerAncestryDependentsSupported",
+  "note": "Stipulated for the source-free #562 investigation; docs/notes/bearer-regress.md gives ordinary-language meaning, examples and rivals. A sourced sense of existential dependence would need a pinned reading and is not identified with this predicate."
+}

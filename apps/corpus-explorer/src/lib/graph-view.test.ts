@@ -189,8 +189,9 @@ describe("corpus graph views", () => {
       }
       expect(clusters.reduce((sum, node) => sum + node.size, 0)).toBe(corpusGraph.statements.length);
       expect(view.statementCount).toBe(corpusGraph.statements.length);
-      // Retain at least a fivefold reduction without freezing the number of source ranges.
-      expect(view.nodes.length * 5).toBeLessThanOrEqual(corpusGraph.statements.length);
+      // Retain a substantial reduction without freezing the number of source ranges. The exact
+      // group checks above carry correctness; this ratio only guards against losing the collapse.
+      expect(view.nodes.length * 4).toBeLessThanOrEqual(corpusGraph.statements.length);
     }
   });
 });

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT",
+  "paraphrase": "For an existing x at the selected world, if x is said of y in the supplied Categories relation, then y exists there and directly supports x. An explicit open premise, not attributed to Aristotle, and disputable for a universal said of many individuals.",
+  "lean_declaration": "TruthCore.Causality.BearerRegress.SaidOfSubjectIsExistentSupport",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-CATEGORIES-SUBJECT-RELATIONS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEARS-INHERES-SUPPORTS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

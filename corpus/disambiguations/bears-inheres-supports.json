@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BEARS-INHERES-SUPPORTS",
+  "term": "'has' or 'depends on': bearing, being in a subject, being said of a subject, and direct existential support",
+  "sense_definition_ids": [
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-CATEGORIES-SUBJECT-RELATIONS"
+  ],
+  "resolution": "Bears s e relates a subject to a thought episode (DEF-THOUGHT-BEARER). PresentEsseSupport relates an existing direct supporter to what it supports at one world (DEF-PRESENT-ESSE-SUPPORT). In and SaidOf are the supplied Categories relations (DEF-CATEGORIES-SUBJECT-RELATIONS); no In or SaidOf edge need be a support edge. The #562 argument passes from a bearer into support ancestry only by starting the ancestry at that bearer; it never infers a bearer of a bearer, and NonSubstanceBranchModel has an occurring episode with an existing bearer and no existing supporter. It passes from In or SaidOf to support only through the explicit open premises STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT and STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT. Explanation is a further relation that no record here uses."
+}
