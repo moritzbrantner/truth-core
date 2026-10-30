@@ -22,7 +22,9 @@ potency to act). The readings add one primitive:
   ἔχειν; *aliter et aliter se habere*). Aquinas counts the respects as
   substance, quantity, quality and place (lect. 7 n. 12). It is a primitive,
   distinct from `CanFailToBe` of `BookIX`; the two are related only by the
-  explicit, unattributed bridge `CanFailToBeIsCanBeOtherwiseBridge`.
+  explicit bridge `CanFailToBeIsCanBeOtherwiseBridge`, read from *In Metaph.* V,
+  lect. 6 n. 14 (and its weaker sibling
+  `CanFailToBeIsCanBeOtherwiseInSomeRespectReading`).
 * `OfChange r` — `r` is a respect of change: substance, quantity, quality or
   place, the respects in which Aquinas says a moved thing is otherwise and
   otherwise (lect. 7 n. 12). Λ.7's "in no way" (οὐδαμῶς, *nullo modo*) is read
@@ -36,9 +38,10 @@ The readings sit in the Aquinas commentary namespace, as `BookIX` does for
 *Met.* Θ.8, because each Aristotle reading is paired with Aquinas' reading of
 the same lines and both bind the same Lean declaration.
 
-Source witnesses: Perseus Greek *Metaphysics* (passage `ARIST-MET-XII-7`) and
-the Corpus Thomisticum Latin page, pinned as web snapshot passage
-`AQUINAS-IN-METAPH-XII-L7`.
+Source witnesses: Perseus Greek *Metaphysics* (passages `ARIST-MET-XII-7`, and
+`ARIST-MET-V-5` and `ARIST-MET-XII-9` for context) and the Corpus Thomisticum
+Latin pages, pinned as web snapshot passages `AQUINAS-IN-METAPH-XII-L7`,
+`AQUINAS-IN-METAPH-XII-L11` and `AQUINAS-IN-METAPH-V-L6`.
 -/
 
 namespace TruthCore.Latin.Aquinas.InMetaphysicam
@@ -98,7 +101,17 @@ It says that such a mover has no respect, outside substance, quantity, quality
 and place, in which it is moved or could be otherwise (for example in
 understanding or willing). Λ.7 and lect. 7 do not say this: their "in no way" is
 argued from the mover's not being moved. It carries the readings from the
-respects of change to the case's abstract `Respect`. -/
+respects of change to the case's abstract `Respect`.
+
+Partial support only: *In Metaph.* XII, lect. 11 n. 8 (on Λ.9, 1074b25-27) denies
+the first mover a change in what it understands
+(`FirstMoverCannotChangeWhatItUnderstandsReading`), one respect that is not one
+of change, of a mover it presupposes moved in no respect at all. No text read
+for #352 says that such a mover cannot be otherwise in every further respect,
+in particular in willing. *In Metaph.* V, lect. 6 n. 14 says that the first
+necessary is necessary in every way and not otherwise and otherwise, but no text
+read identifies the first necessary with this mover (lect. 7 n. 13–15 refers
+the necessity of Λ.7, 1072b10-13 to the first motion). -/
 def UnchangeableInRespectsOfChangeIsUnchangeableSimplyBridge {Being : Sort u}
     {Respect : Sort v} (MovedIn : Being → Respect → Prop)
     (MovesIn : Being → Being → Respect → Prop) (OfChange : Respect → Prop)
@@ -107,21 +120,81 @@ def UnchangeableInRespectsOfChangeIsUnchangeableSimplyBridge {Being : Sort u}
     (∀ r, OfChange r → ¬ CanBeOtherwise m r) →
     ∀ r, ¬ MovedIn m r ∧ ¬ CanBeOtherwise m r
 
-/-- Open bridge, unattributed: whatever can fail to be `r` can be otherwise in
-respect `r`.
+/-- Whatever can fail to be `r` can be otherwise in respect `r`.
 
-It holds when `CanFailToBe` is read in the two-way sense of the potency of the
-contradictory (*possibile esse et non esse*, *In Metaph.* IX, lect. 9 n. 2):
-what can be `r` and can fail to be `r` can, whichever it is, be the other way.
-It fails if "can fail to be `r`" is read as the bare possibility of not being
-`r`, which an unchangeable being that is not `r` also has
-(`DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE`). No source read for #352 states it:
-*In Metaph.* XII, lect. 7 n. 13 infers (*unde sequitur*) from the mover's not
-being able to be otherwise that the first motion, a different subject, cannot
-not be, and n. 15 denies that this necessity is the absolute "cannot be
-otherwise", so it does not tie the two for one subject in one respect. -/
+Read from Aquinas: *quae autem pluribus modis habere se possunt, possunt se
+habere aliter et aliter* (what can be in more than one way can be otherwise and
+otherwise). Two reading steps, both choices: (a) `CanFailToBe x r` in the
+two-way sense of the potency of the contradictory (*possibile esse et non esse*,
+*In Metaph.* IX, lect. 9 n. 2) is a case of being able to be in more than one way,
+the two ways being `r` and not `r`; (b) the respect in which the thing can be
+otherwise is the respect `r` of those ways, reading *aliter et aliter*
+anaphorically as being in another of the *plures modi* (as Δ.5, 1015b13 glosses
+being otherwise as being in more ways). Under the bare-possibility sense of
+"can fail to be `r`" (`DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE`) step (a) fails:
+an unchangeable being that is not `r` can be in only one way. The unrelativized
+sibling reading, which drops (b), is
+`CanFailToBeIsCanBeOtherwiseInSomeRespectReading`.
+
+Not read from Aristotle: *Met.* Δ.5, 1015b11-13 argues the converse (what is
+simple cannot be in more ways, hence not otherwise and otherwise, since being
+otherwise would already be being in more ways), and 1015a33-35 only defines the
+necessary as what cannot be otherwise. *In Metaph.* XII, lect. 7 n. 13 does not
+supply it either: it passes from the mover's not being able to be otherwise to
+the first motion's not being able not to be, a different subject.
+
+Source: Aquinas, *In Metaph.* V, lect. 6 n. 14. -/
 def CanFailToBeIsCanBeOtherwiseBridge {Being : Sort u} {Respect : Sort v}
     (CanFailToBe CanBeOtherwise : Being → Respect → Prop) : Prop :=
   ∀ x r, CanFailToBe x r → CanBeOtherwise x r
+
+/-- Whatever can fail to be `r` can be otherwise in some respect.
+
+The unrelativized sibling reading of *In Metaph.* V, lect. 6 n. 14 (*quae autem
+pluribus modis habere se possunt, possunt se habere aliter et aliter*): it keeps
+step (a) of `CanFailToBeIsCanBeOtherwiseBridge` and, not taking *aliter et
+aliter* anaphorically, does not say in which respect the thing can be
+otherwise. It is too weak for the Λ.7 route, which needs the respect of the
+potency.
+
+Source: Aquinas, *In Metaph.* V, lect. 6 n. 14. -/
+def CanFailToBeIsCanBeOtherwiseInSomeRespectReading {Being : Sort u}
+    {Respect : Sort v} (CanFailToBe CanBeOtherwise : Being → Respect → Prop) :
+    Prop :=
+  ∀ x r, CanFailToBe x r → ∃ s, CanBeOtherwise x s
+
+/-- Some mover that moves something and is moved in no respect cannot be
+otherwise in the respect `understood` of what it understands: it cannot pass
+from one object of understanding to another.
+
+Aquinas on Λ.9, 1074b25-27: the first intellect does not change from one
+object of understanding to another, both because the change would be to
+something less worthy and because passing from one object to another is a kind
+of motion (*quidam motus*), which cannot belong to the first mover, since it is
+altogether unmovable (*cum sit omnino immobile*). Read existentially, of the
+first mover whose existence is presupposed, as the Λ.7 readings are. "Moved in
+no respect" is entailed by *omnino immobile*; the modal *immobile* (cannot be
+moved) is not kept. "Cannot pass from one object to another" is read as cannot
+be otherwise in the respect `understood`.
+
+For this mover it says "moved in no respect" of every respect, willing
+included, but "cannot be otherwise" only of `understood`, which the reading
+glosses as a respect that is not one of change (substance, quantity, quality,
+place); the type does not encode that gloss. It does not say that the mover
+cannot be otherwise in further respects such as willing, and it is existential,
+so it does not state `UnchangeableInRespectsOfChangeIsUnchangeableSimplyBridge`;
+it supports that bridge's `MovedIn` half and, for `understood` only, its
+`CanBeOtherwise` half.
+
+Source: Aquinas, *In Metaph.* XII, lect. 11 n. 8; Aristotle, *Met.* Λ.9,
+1074b25-27 (*the most divine thing thinks ... and does not change; for change
+would be for the worse, and such a thing would already be a motion*), for
+context. -/
+def FirstMoverCannotChangeWhatItUnderstandsReading {Being : Sort u}
+    {Respect : Sort v} (MovedIn : Being → Respect → Prop)
+    (MovesIn : Being → Being → Respect → Prop)
+    (CanBeOtherwise : Being → Respect → Prop) (understood : Respect) : Prop :=
+  ∃ m, (∃ x r, MovesIn m x r) ∧ (∀ r, ¬ MovedIn m r) ∧
+    ¬ CanBeOtherwise m understood
 
 end TruthCore.Latin.Aquinas.InMetaphysicam

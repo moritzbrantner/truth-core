@@ -11,9 +11,10 @@ open TruthCore.Case.Catholicism (FirstUnmovedMoverIsPureAct IsFirstUnmovedMover
 mover moved in no respect of change and in act in being cannot be otherwise in
 any respect of change (Λ.7, 1072b4-10; *In Metaph.* XII, lect. 7 n. 12–13); a
 mover unchangeable in every respect of change is unmoved and cannot be otherwise
-in any respect (open bridge, unattributed); there is at most one first mover
-moved by none; whatever can fail to be `r` can be otherwise in `r` (open bridge,
-unattributed); and every potency is of the contradictory (Θ.8, 1050b8-15;
+in any respect (open bridge, unattributed; lect. 11 n. 8 supports it for the
+respect of understanding only); there is at most one first mover
+moved by none; whatever can fail to be `r` can be otherwise in `r` (*In Metaph.*
+V, lect. 6 n. 14, read per respect); and every potency is of the contradictory (Θ.8, 1050b8-15;
 *In Metaph.* IX, lect. 9 n. 2–4). Hence every first mover moved by none is pure
 act. Not used: act's simple priority, non-simultaneity, and the bridge that the
 first unmoved mover is the first being. -/

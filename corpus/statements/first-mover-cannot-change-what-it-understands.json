@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FIRST-MOVER-CANNOT-CHANGE-WHAT-IT-UNDERSTANDS",
+  "paraphrase": "Some mover that moves something and is moved in no respect at all cannot be otherwise in the respect of what it understands: it cannot pass from one object of understanding to another. For that mover it says 'moved in no respect' of every respect (including willing), but 'cannot be otherwise' only of what it understands. The Lean type leaves the respect `understood` a parameter; that it is not a respect of change is the reading's gloss, not encoded.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.FirstMoverCannotChangeWhatItUnderstandsReading",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT",
+    "DEF-RESPECT-OF-WHAT-IS-UNDERSTOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

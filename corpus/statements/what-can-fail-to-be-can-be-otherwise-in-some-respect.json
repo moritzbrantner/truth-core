@@ -1,0 +1,13 @@
+{
+  "id": "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE-IN-SOME-RESPECT",
+  "paraphrase": "Whatever can fail to be r (in the two-way sense, able to be r and able not to be r) can be otherwise in some respect. Weaker than STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE: it does not say that the respect of being otherwise is r.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.CanFailToBeIsCanBeOtherwiseInSomeRespectReading",
+  "definition_ids": [
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE"
+  ]
+}

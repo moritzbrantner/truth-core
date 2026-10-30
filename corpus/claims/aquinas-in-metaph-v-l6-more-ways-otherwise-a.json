@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-IN-METAPH-V-L6-MORE-WAYS-OTHERWISE-A",
+  "statement_id": "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "V, lect. 6 n. 14",
+  "interpretation": "Aquinas on Met. V.5, 1015b9-13: the first necessary, necessary in every way, must be simple, because composites are mutable 'et ita pluribus modis se possunt habere: quae autem pluribus modis habere se possunt, possunt se habere aliter et aliter; quod est contra rationem necessarii. Nam necessarium est, quod est impossibile aliter se habere.' The middle sentence (what can be in more ways can be otherwise and otherwise) is read as STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE through two reading choices: (a) what can fail to be r in the two-way sense of the potency of the contradictory (able to be r and able not to be r; In Metaph. IX, lect. 9 n. 2, DEF-CAN-FAIL-TO-BE) is able to be in more than one way, the two ways being r and not r; (b) the respect in which it can be otherwise is the respect r of those ways: 'aliter et aliter' is read anaphorically as being in another of the 'plures modi' just named, as Aristotle's own gloss makes being otherwise and otherwise the same as being in more ways (1015b11-13, ἤδη γὰρ πλεοναχῶς ἂν ἔχοι) and Aquinas' 'et per consequens nec pluribus modis' does. Choice (a) fails under the bare-possibility sense of 'can fail to be r', which DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE does not adopt. The sentence names no respect explicitly; the sibling -B drops choice (b) for a reader who does not take the anaphora. The sentence is said in an argument about composites and the first necessary; it is read as a general principle because Aquinas states it of whatever can be in more ways ('quae autem'), not only of composites. Aristotle's sentence at 1015b11-13 runs the other way (what cannot be in more ways cannot be otherwise and otherwise, since being otherwise and otherwise would already be being in more ways), so no Aristotle claim states the bridge.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAN-FAIL-TO-BE",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE"
+  ]
+}

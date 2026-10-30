@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-METAPH",
+    "source_url": "https://www.corpusthomisticum.org/cmp05.html",
+    "sha256": "sha256:230dcfb6b8fd45cefe50de8e185017961cf81739452a0286aa404885e17c28f1",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-27T19:31:53Z",
+    "license": "Latin text as transcribed by Roberto Busa and reviewed by Enrique Alarcón on the Corpus Thomisticum; the site claims copyright for this edition (Fundación Tomás de Aquino, all rights reserved). Only hashes, locators, metadata and a short incipit are committed. No Wayback capture is pinned: the archive was unreachable from the pinning host on 2026-10-27."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-METAPH-V-L6",
+      "locator": "V, lect. 6",
+      "html_selector": {
+        "from": {
+          "text": "Lectio 6"
+        },
+        "to": {
+          "text": "Lectio 7"
+        }
+      },
+      "text_sha256": "sha256:945056c274de4d0afe23c38f20ea2683df661e00b64a39b49662906fb2163b0d",
+      "incipit": "Lectio 6",
+      "claim_locator_prefixes": [
+        "V, lect. 6 "
+      ]
+    }
+  ]
+}
