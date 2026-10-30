@@ -1,0 +1,10 @@
+{
+  "id": "ULTIMATE-ADEQUACY-EPISTEMIC",
+  "argument_id": "ULTIMATE-ADEQUACY-EPISTEMIC",
+  "challenge_module": "TruthCore.Results.Explanation.UltimateAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.UltimateAdequacy.Solution",
+  "theorem": "TruthCore.Results.Explanation.UltimateAdequacy.epistemic_comparison",
+  "comparator_config": "results/ULTIMATE-ADEQUACY-EPISTEMIC/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing #737 Integration without altering its original history/projection models and instantiate the existing #677 conservative weak-token expansion at every new exact modal overlay. This preserves all actual signatures. It does not identify the old epistemic fixtures with the new exercise fixtures or establish agent entitlement; it carries the established local-prediction/whole-selection separation alongside the new ontic discriminator. This is a reuse composition, not an independent epistemic advance."
+}
