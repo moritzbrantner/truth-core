@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MIND-PHYSICAL-BASIS",
+  "term": "physically based; realized by",
+  "definition": "PhysicallyBased e means e is physical or RealizedBy e r for some physical r. RealizedBy relates a second-order occurrence, having some state that plays a role, to the first-order occurrence playing it. Example: a program step realized by a circuit event. Non-example: an effect of that circuit event, which is caused and not realized. It differs from causation in holding between an occurrence and what fills its role, with no assumed temporal order. No structural law is assumed. It is not bodily sharing in q.75 (DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING).",
+  "basis": "stipulative",
+  "note": "Papineau pp.10-11 gives the role sense; competing accounts of realization (subset, mechanistic) are not adjudicated, and a theorem here turns only on the primitive relation.",
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicallyBased"
+}

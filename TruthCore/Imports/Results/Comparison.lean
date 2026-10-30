@@ -6,6 +6,7 @@ import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solu
 import TruthCore.Results.Comparison.Metaethics.OConnorEmotivismConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Solution
+import TruthCore.Results.Comparison.MindPhysicalism.Solution
 import TruthCore.Results.Comparison.MoralError.AquinasGermansErred.Solution
 import TruthCore.Results.Comparison.MoralError.EmotivismExcludesGenuineMoralContradiction.Solution
 import TruthCore.Results.Comparison.MoralError.EmotivismExcludesMoralError.Solution

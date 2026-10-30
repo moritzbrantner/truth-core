@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MIND-PHYSICALIST-FORK",
+  "paraphrase": "For the target kind of a frame, at least one of three holds: it has no occurrence (eliminative); it has an occurrence and is itself a physical kind (reductive); or it has an occurrence, is not a physical kind, and every occurrence of it is physical or realized by something physical (nonreductive). These labels are defined by these conditions and are not readings of any author. The fork selects no branch.",
+  "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicalistFork",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-POSITIONS",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL"
+  ]
+}
