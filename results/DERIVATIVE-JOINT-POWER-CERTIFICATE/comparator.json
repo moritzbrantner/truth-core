@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DerivativeJointPower.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DerivativeJointPower.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DerivativeJointPower.certificate"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+  "term": "joint contributor supply, local productive activity and borrowing-cut escape",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply",
+  "definition": "Supply inductively admits independently specified intrinsic contributions and the effect of an admitted supplier record once every contributor has Supply. Enablers are excluded from this productive-power derivation; Exercise.coherent separately requires their occurrence. LocalPower is the unselected intrinsic-or-all-contributors-active equation. PoweredGroups requires active contributors for each admitted supplier record of an active target; applications use exercised-group restriction, not mere admission. Trap has no intrinsic member and every admitted supplier for its targets retains a contributor inside it. Escape requires an intrinsic member or an entire contributor set outside each nonempty active subset. AtContext fixes one exercise instant and respect for contributors and effect; event bearers remain separate. Intrinsic means underived contribution in this context, not graph sourcehood or absence of temporal origin.",
+  "note": "Analyst standard, not a definition of borrowing itself or an attributed account of all causal explanation. See docs/notes/derivative-joint-power-734.md for examples, counterexamples, source locators, structural properties, rejected alternatives and OPEN actual-exercise/inductive-selection, productive adequacy, respect and physical-to-existential bridges. Contributor sets can be infinite; no finite branching or common finite depth is imposed. All-member epistemic GeneratedWarrant has a different interpretation and is not asserted to be causal supply."
+}

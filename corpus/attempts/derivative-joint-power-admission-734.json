@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-DERIVATIVE-JOINT-POWER-ADMISSION-734",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "failed",
+  "summary": "Rejected the initial unqualified draft Supply/Escape equivalence. LocalPower only selects some active alternative; it does not make all admitted alternatives of the active target have active contributors. A failed proof exposed this gap before any certification. The revised claim explicitly retains PoweredGroups for supplier records, and AdmissionOmission certifies failure without it: active self-support plus an admitted inactive external alternative satisfies LocalPower and Escape yet has no Supply. Arbitrary admission must not be silently promoted to exercised active power. The original all-member draft was also rejected: enabling occurrence is not productive power. The final contributor-only semantics and EnablerControl preserve that distinction. No Challenge was accepted or result claimed for either rejected draft; the corrected claim was frozen before completing its corrected proof.",
+  "evidence": [
+    "DERIVATIVE-JOINT-POWER-CERTIFICATE"
+  ]
+}
