@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HISTORY-SELECTION-INFORMATION",
+  "term": "whole-vector informational history selection",
+  "definition": "SameEvidence truth basis v w compares the truth values of every admitted token, without any finiteness bound. EvidenceOnly p requires p to have identical truth at every pair with the same whole vector. Determines requires accessible worlds with the actual vector to have the actual complete supplied presence extension. Selects is exactly the existing Discriminates test applied to a Unit-tagged candidate proposition. These are extensional informational tests, not causal production, grounding, epistemic availability or metaphysical adequacy.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines",
+  "note": "New content after reuse of HistoryContrastive: arbitrary joint/infinitary recombinations cannot create entailing discrimination from an indistinguishable rival, and whole-vector determination exactly characterizes availability of an evidence-only entailing candidate. SameEvidence is an equivalence by pointwise biconditionals, independently of metaphysics. EvidenceOnly imposes no asymmetry, transitivity or well-foundedness on explanations; it is dependence on an information vector only. A parity-bit analogy motivates treating identical complete inputs alike; transferring this to all actual explanation is OPEN, especially for probabilistic, causal, intensional or intrinsic accounts. No aggregate being, actual-world contingency, or metaphysical accessibility is inferred. Independently warranted relevance and actuality are unencoded, and target copying can pass the test. Semantic grounding, strongest rivals and explicit OPEN burdens are in docs/notes/explanatory-selection-736.md."
+}

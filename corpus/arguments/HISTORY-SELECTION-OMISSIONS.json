@@ -1,0 +1,21 @@
+{
+  "id": "HISTORY-SELECTION-OMISSIONS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HISTORY-SELECTION-OMISSIONS",
+  "inference_ids": [
+    "INF-HISTORY-SELECTION-OMISSIONS"
+  ],
+  "meaning": "Compute the equality-accessibility and repeated-history assignments; an explicit internal marker distinguishes the actual Bool world and violates constant-vector invariance. Separate vacuous implication from actual candidate truth and compute both positive weights.",
+  "definition_ids": [
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-HISTORY-SELECTION-CONTROLS",
+    "DEF-HISTORY-CONTRASTIVE-CONTROL",
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-UNIQUE-FEEDBACK-STATE",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+  ]
+}
