@@ -1,0 +1,9 @@
+{
+  "id": "INF-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "rule": "model-construction",
+  "meaning": "Prove the implication by well-founded descent to a contingent terminal fact, then construct the named models and evaluate both norms on each.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

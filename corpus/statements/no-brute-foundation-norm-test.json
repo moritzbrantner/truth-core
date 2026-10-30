@@ -1,0 +1,22 @@
+{
+  "id": "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "paraphrase": "A contingent truth with a reason, with any two terminal facts supplying it being the same, under factive, necessitating and well-founded reasons at that world, cannot stand with the open norm that no foundation there is a contingent truth with no reason; each of the seven members is deleted by a named model. A named contingent terminus and a named contingent law are such foundations and fail the norm. The norm holds at a necessary ground with or without a self-reason, in a named domain with no terminal fact, at two brute roots of one effect, neither being a foundation of it, and at one isolated brute fact, so it does not exclude brute truths. The norm with the contingency restriction removed fails at the necessary ground without a self-reason, holds with one, and holds in every target-copy arena. The norm's verdict on an arena and the epistemic support of a named fact vary independently across named arenas and inquiries. Under factivity the target copy of an arena has a reason for everything that has one there and keeps truth and the ontic structure; for the brute terminus it also gains a reason for the terminus and loses reason independence. Neither norm is asserted, no preference principle is established, and no model is claimed metaphysically possible.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-STOP-TERMINAL",
+    "DEF-STOP-FOUNDATION",
+    "DEF-NO-BRUTE-FOUNDATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-BRUTE-TERMINAL-UNREASONED",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ],
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.FoundationNormTest"
+}
