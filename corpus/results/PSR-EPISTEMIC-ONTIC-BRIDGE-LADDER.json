@@ -1,0 +1,9 @@
+{
+  "id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "argument_id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "challenge_module": "TruthCore.Results.Explanation.PSRSelfApplication.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRSelfApplication.Solution",
+  "theorem": "TruthCore.Results.Explanation.PSRSelfApplication.bridgeLadder",
+  "comparator_config": "results/PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER/comparator.json",
+  "status": "solution-present"
+}
