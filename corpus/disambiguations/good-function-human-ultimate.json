@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE",
+  "term": "good qua role, human good, good in a respect and good simpliciter",
+  "sense_definition_ids": [
+    "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE",
+    "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY",
+    "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
+    "DEF-GOOD-AS-BEING-IN-ACT"
+  ],
+  "resolution": "The Aristotle role reading concerns competent exercise of an already specified function, not the choice or justification of a human function. His human-good conclusion concerns excellent rational activity over a complete life. Aquinas q.5 ad 1 concerns ultimate due perfection for goodness simpliciter and explicitly allows a merely actual subject to be good only in a respect. The existing q.5 co. GoodIn/Has reading is per perfection; q.94 GoodAct is practical good apprehended by practical reason. None of these predicates or domains is silently identified; no inference from role success or bare actuality to categorical moral obligation is supplied. See docs/notes/natural-goodness-function-and-authority.md."
+}

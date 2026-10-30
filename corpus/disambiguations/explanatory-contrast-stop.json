@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-EXPLANATORY-CONTRAST-STOP",
+  "term": "answering a contrast; stopping at the necessary",
+  "sense_definition_ids": [
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-TWO-WAY",
+    "DEF-EXPLANATORY-BEING-STOP",
+    "DEF-EXPLANATORY-REASON-CLOSED"
+  ],
+  "resolution": "'Answers why this rather than otherwise' has two formal senses here. ContrastRelevant takes it as a reason false at the rival world; TwoWay takes it as one reason admitted for each outcome at its own world. A reason meeting the first varies; a necessary reason cannot meet it. 'Stops at the necessary' also has two senses. ReasonClosed allows a noncontingent member, which may be a fact that is no being's existence fact; BeingStop requires a necessary being's existence fact. No inference passes from one sense to the other. Comparison keeps them as separate conjuncts, and no attributed source is read as fixing either sense."
+}

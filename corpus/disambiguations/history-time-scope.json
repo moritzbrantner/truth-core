@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-HISTORY-TIME-SCOPE",
+  "term": "history existence, shared-time presence and eternity",
+  "sense_definition_ids": [
+    "DEF-HISTORY-TIME-SCOPE",
+    "DEF-HISTORY-TIME-COMMON"
+  ],
+  "resolution": "HistoryTimeScope.Worldwise existentially quantifies time separately within each world; Common selects one index from a shared T; AllTime quantifies every supplied world and time. All three concern only IsAt. Ontic.ExistsAt remains independent: neither now-slice coherence nor existential-history coherence is imposed. In #594 controls CoherentAtNow explicitly relates Ontic existence to a designated slice; those conclusions cannot silently be read as the Worldwise scope here. Uniform is within-world propagation of presence, not changelessness, causal conservation or atemporal existence. The #353 sourced eternity investigation supplies no license to identify any of these scopes with simultaneously-all-of-life existence."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-HARD-CASE-GOODS-CONTROL",
+  "input_statement_ids": [
+    "STMT-HARD-CASE-TYPED-CONTROLS"
+  ],
+  "output_statement_id": "STMT-HARD-CASE-GOODS-CONTROL",
+  "rule": "extend-typed-hard-case-witness-with-independent-nonconstant-good-and-damage-relations",
+  "meaning": "Extracts the hard-case factual and differing verdict witnesses from the prior certificate, and extends them with explicit, common positive goods and damage classifications. This construction assumes no norm connecting damage to prohibition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

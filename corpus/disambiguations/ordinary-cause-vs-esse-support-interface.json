@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+  "term": "ordinary actual causation versus a direct cause-in-esse support map",
+  "sense_definition_ids": [
+    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT"
+  ],
+  "resolution": "ActualCauseSupportsEsse maps every ordinary Ontic.Causes edge with present endpoints to R at the selected world. ActualEsseCausesSupportAt instead maps only a supplied CausesIn-at-esse edge between numerically distinct present endpoints to R; it makes no assertion about other ordinary event-causal edges. The direct interface can be obtained by composing a cause-in-esse-to-ordinary-cause map with the stronger ordinary-cause-to-R map, but it does not itself require those two interfaces. Neither interface supplies cause presence, identifies R with conservation, or proves metaphysical applicability."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
+  "term": "presence now, temporal perpetuity, beginning and modal existence",
+  "sense_definition_ids": [
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-TEMPORAL-HISTORY-EVERLASTING",
+    "DEF-TEMPORAL-HISTORY-BEGINNING"
+  ],
+  "resolution": "CoherentAtNow fixes how each old Ontic presence predicate is read at the designated temporal slice. EverlastingAt quantifies over times within ONE fixed world; NecessaryAt quantifies presence of ONE fixed individual over accessible WORLDS. BeginsAt quantifies absence at earlier times, not at alternative worlds. The controls keep both indices separate and use the same now=0 at each alternative history. The first target is a caused/grounded child, not the existing rival root; its one actual cause/ground witness does not identify the two relations universally or assert causation at every time. The second ontology comes from a PSR model, but its explanation tokens do no work in this temporal result. Timeless Eternal remains the distinct existing sourced sense, never inferred from all-times presence."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS",
+  "term": "same act, deterministic response and necessary selected effect",
+  "sense_definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+    "DEF-SELECTED-EFFECT-SAME-ACT",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+    "DEF-SELECTED-EFFECT-REALIZED-OUTPUT"
+  ],
+  "resolution": "Acts are rigid overlay tokens; world indices are modal alternatives, not times. LocallyDeterministic means at-most-one output per world; a world-independent function response:C\u2192Being can still give different outputs if the full condition C varies. StableActOutput instead requires recurrence of each selected actual output at accessible performance worlds. Fixed condition identity plus the exact output-function law imply that recurrence. SameActEverywhere is separate from necessary source existence, capacity, agency, and freedom. The existing alternatingEffects ontology keeps all causal relata existent and distinct. Causes is not identified with creation ex nihilo, conservation, temporal event production or a complete sufficient metaphysical explanation. RealizedOutputs adds a causal edge obligation, so an arbitrary output table alone is not called causal production. The theorem for one selected effect does not entail universal propositional modal collapse, a theological conclusion or historical attribution."
+}

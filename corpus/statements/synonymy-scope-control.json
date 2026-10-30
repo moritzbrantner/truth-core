@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SYNONYMY-SCOPE-CONTROL",
+  "paraphrase": "There is a three-entity, two-account interpretation in which the restricted causal comparison holds, the unrestricted one fails, a same-account causal edge has its required comparison, and a changed-account causal edge lacks one. This is a formal countermodel, not a claim of metaphysical possibility.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.SynonymyScopeControl",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-SHARED-DEFINING-ACCOUNT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

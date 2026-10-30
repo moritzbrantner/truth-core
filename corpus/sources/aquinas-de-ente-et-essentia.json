@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+  "kind": "primary_text",
+  "author": "Thomas Aquinas",
+  "work": "De ente et essentia",
+  "citation_system": "chapter in the Baur/Koch Corpus Thomisticum edition; other editions number chapters differently",
+  "catalog_url": "https://www.corpusthomisticum.org/oee.html",
+  "notes": "Corpus Thomisticum text identifies L. Baur (1933), emended by J. Koch, Busa transcription and Alarcón revision; host digital edition ©2011 Fundación Tomás de Aquino, all rights reserved. Metadata/hashes and paraphrases only; no open transcription licence asserted. Repository-local work URN, not an external CTS authority.",
+  "work_urn": "urn:truth-core:work:aquinas-de-ente-et-essentia"
+}

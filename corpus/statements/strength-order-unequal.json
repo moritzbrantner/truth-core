@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "paraphrase": "For the same mathematical x,y, y is not equal to x; this is proposed extra required content, not an extra allowed case.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.Unequal",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "argument_id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
+  "theorem": "TruthCore.Results.Explanation.NoBruteExistence.scopeControl",
+  "comparator_config": "results/PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL/comparator.json",
+  "status": "solution-present",
+  "description": "Some sound Model Bool Bool has local explanation coverage at false, an unexplained actual existence fact at true, and fails all-world existence-PSR. In the inspected Solution construction the witness reuses Intrinsic.model.ontic, but ontology preservation is not exposed by the exported existential conclusion. The optional actual-world position therefore must not be replaced by the all-world existence-PSR. Explanation adequacy and metaphysical possibility are not certified."
+}

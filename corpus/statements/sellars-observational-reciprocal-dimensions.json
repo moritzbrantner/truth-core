@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SELLARS-OBSERVATIONAL-RECIPROCAL-DIMENSIONS",
+  "paraphrase": "Sellars retains observation reports’ distinctive supporting role while proposing dependence on other empirical knowledge in another logical dimension.",
+  "definition_ids": [
+    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
+    "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}

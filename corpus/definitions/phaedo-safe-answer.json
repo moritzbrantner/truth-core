@@ -1,0 +1,10 @@
+{
+  "id": "DEF-PHAEDO-SAFE-ANSWER",
+  "term": "safe answer in the Phaedo",
+  "definition": "The account that beautiful things are beautiful through beauty and, in the quantity example, things become two through participating in twoness. This proposes explanatory dependence for being so while expressly withholding a settled manner of participation. It supplies neither a modern efficient-production mechanism nor proof of global explanatory completeness.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLATO-PHAEDO-100D-MANNER-OPEN",
+    "PLATO-PHAEDO-101BC-TWONESS-SAFE-ANSWER"
+  ]
+}

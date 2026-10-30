@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EXISTING-IN-ACT-AT",
+  "lean_declaration": "TruthCore.Causality.ExistenceActuality.ExistingInActAt",
+  "paraphrase": "Open one-way interface: each individual represented as existent at the selected world is in act in the supplied esse respect; no converse, all-perfection claim or source attribution is asserted.",
+  "definition_ids": [
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT"
+  ]
+}

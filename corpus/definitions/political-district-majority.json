@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POLITICAL-DISTRICT-MAJORITY",
+  "term": "two-stage district majority in the equal-size nine-voter fixture",
+  "definition": "Profile is Fin 3 \u2192 Fin 3 \u2192 Bool: district index and within-district voter index, true meaning A. Each district has exactly three voters. count sums the three Bool.toNat values; localCount applies it within a district; popularCount sums the three local counts. popularWin is at least five A votes. districtWin is at least two districts with at least two A votes. Every ballot has weight one within its district; equal districts each have weight one in the second stage. There are no ties. packed has local A counts 3,1,1; spread has 2,2,1. No voter identity correspondence beyond the total multiplicities is encoded.",
+  "basis": "stipulative",
+  "note": "Independent mathematical diagnostic motivated by a provisional full-caption reading recorded in docs/notes/carneades-district-majority.md. No source fidelity, real-world district legality, or normative standard is certified. No matching electoral vocabulary existed in TruthCore; church authority vocabulary would not match. The explicit finite sum uses standard Fin/Bool/Nat, with Mathlib tactics for proof simplification.",
+  "lean_declaration": "TruthCore.Politics.DistrictMajority.Profile"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SECONDARY-ONLY-TRANSFER-SURVIVES",
+  "inference_ids": [
+    "INF-CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL"
+  ],
+  "meaning": "Evaluate the secondary-only table: the same background holds, but universal source 0 does not cause recipient 3 at skill, falsifying even restricted transfer.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

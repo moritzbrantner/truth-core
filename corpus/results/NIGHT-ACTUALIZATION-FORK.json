@@ -1,0 +1,10 @@
+{
+  "id": "NIGHT-ACTUALIZATION-FORK",
+  "argument_id": "NIGHT-ACTUALIZATION-FORK",
+  "challenge_module": "TruthCore.Results.Alternatives.NightActualizationFork.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NightActualizationFork.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NightActualizationFork.coverage",
+  "comparator_config": "results/NIGHT-ACTUALIZATION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional coverage with explicit excluded middle and zero Lean axioms; no exclusivity claim. Extract an unpreceded moved-potency witness from the existing Night reading. Excluded middle first decides whether it has a mover in act in the same respect, then whether a selected such mover is the potency itself. If distinct, the Night witness already excludes its simple priority. This covers possible repairs of the existing GENERATION-FROM-NIGHT-REFUTED argument, not serious worldviews by mere labels; its three omission models witness the corresponding branches. No source attributes this classification, no horn is established unconditionally, and no root premise closes."
+}

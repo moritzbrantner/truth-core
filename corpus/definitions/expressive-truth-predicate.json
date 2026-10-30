@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+  "term": "expressive truth predicate",
+  "definition": "`Expressive truth`: for every `P : Prop` some content `c` has `truth c ↔ P`.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.Expressive",
+  "note": "Stipulated bridge between a content language and `Prop`. Not claimed of any natural language; a rival may deny it for the predicate it denies."
+}

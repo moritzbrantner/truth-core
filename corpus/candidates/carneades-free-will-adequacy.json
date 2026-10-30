@@ -1,0 +1,9 @@
+{
+  "id": "CARNEADES-FREE-WILL-ADEQUACY",
+  "source_id": "CARNEADES-FREE-WILL-2026",
+  "locator": "What Philosophers Mean By Free Will, numbered claims 1\u20133 and following paragraph",
+  "priority": 435,
+  "goal": "Investigate the independently defended adequacy criteria connecting structured lawful same-input alternatives or absence of imposed constraint to agency and responsibility. Reuse the finite ChoiceContext controls and SelectedEffectBridge.fixedConditionsStable. Do not infer freedom from arbitrary contingency, an imposed flag, survey agreement or nondeterminism alone; do not read libertarianism as necessarily violating a law. Pin and materialize an article passage before creating attributed claims; video attribution requires admissible media_span producer provenance and decisive audio checks. The article supplies orientation, not the requested adequacy defense. Seek appropriate primary rival arguments rather than treating this candidate as evidence for either theory.",
+  "reason": "The finite controls distinguish context-preserving alternatives, mere cross-history variation, constraint absence and nonfunctional lawfulness. Neither libertarian nor compatibilist sufficiency for freedom or responsibility follows; all such adequacy premises remain open. See docs/notes/carneades-choice-context.md.",
+  "status": "candidate"
+}

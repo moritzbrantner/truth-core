@@ -1,0 +1,32 @@
+{
+  "id": "NECESSARY-OR-NONNECESSARY-ROOT",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+  "inference_ids": [
+    "INF-NECESSARY-OR-NONNECESSARY-ROOT"
+  ],
+  "meaning": "Coverage theorem for #553, not a transcription: the root is obtained by induction. Compared with BRUTE-ROOT-DISJUNCTION, well-foundedness is restricted to actual concreta and the second horn says nonnecessary, not contingent; excluded middle is an explicit hypothesis rather than Lean's axioms. The horns are not exclusive (STMT-NECESSARY-ROOT-CONTROLS). Inhabitedness and restricted well-foundedness are open; neither horn is asserted. The root is a root of the selected relation only and may have a non-concrete or unmodelled explanation. Nothing about uniqueness, underivedness, simplicity, intellect or God follows.",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

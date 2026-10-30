@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOUNDED-OMISSION",
+  "term": "bounded joint omission of rigid candidates",
+  "definition": "UpTo F present w k means that for each n \u2264 k and each function selection : Fin n \u2192 I, there is an accessible v at which every selected candidate is absent. Duplicate selections are allowed; all subsets of size at most k are thereby represented. The n=0 case requires a successor even if I is empty. In the singleton profile Slot has exactly three constructors a,b,c, the universal frame accesses all three, and singletonExists x v means literal equality x=v. Hence all worlds are inhabited by their matching candidate. These definitions stipulate formal populations and do not defend their metaphysical possibility.",
+  "basis": "stipulative",
+  "note": "Task-local #606 diagnostic extending the existing alternating equality population from two to three candidates. No new philosophical premise or source attribution.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.UpTo"
+}

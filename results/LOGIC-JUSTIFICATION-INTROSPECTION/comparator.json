@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.JustificationIntrospection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.JustificationIntrospection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.JustificationIntrospection.introspectionTransfer",
+    "TruthCore.Results.Logic.JustificationIntrospection.higherOrderIgnoranceBoundary",
+    "TruthCore.Results.Logic.JustificationIntrospection.introspectionBoundary"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

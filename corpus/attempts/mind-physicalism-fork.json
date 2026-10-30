@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-MIND-PHYSICALISM-FORK",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-MIND-PHYSICALIST-FORK",
+    "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
+    "STMT-NOT-ALL-MENTAL-EFFECTS-OVERDETERMINED-TOGETHER",
+    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING",
+    "STMT-HUMAN-INTELLECT-PER-SE-OPERATION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Read Papineau pp.8-12 and notes 5-6 and certified a fork and an incompatible core between his causal premises and a q.75 per-se operation. Findings: the collective reading of his premise 3 gives only that some occurrence is based, and collectiveHybrid keeps a per-se operation; the core needs an unattributed basis/sharing bridge, without which bridgeExit keeps a reductive frame and a per-se operation. Rejected: labelling a fork branch with an author, since no eliminativist or nonreductivist witness was read; treating SomeUnbased as substance dualism or subsistence; building the bridge into a definition. Unresolved: every premise, Sturgeon's equivocation charge (note 6, not read beyond the note), consciousness, and intentionality. Any defense of the bridge or a q.75 reply remains open. See docs/notes/mind-physicalism-fork-419.md.",
+  "evidence": [
+    "MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
+    "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+    "PAPINEAU-RISE-NO-OVERDETERMINATION-COLLECTIVE"
+  ]
+}

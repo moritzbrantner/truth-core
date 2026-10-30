@@ -1,0 +1,23 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Challenge",
+  "solution_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.GraphBridge.frame_roundtrip",
+    "TruthCore.Results.Modal.GraphBridge.digraph_roundtrip",
+    "TruthCore.Results.Modal.GraphBridge.adjacency_iff_access",
+    "TruthCore.Results.Modal.GraphBridge.arrow_iff_access",
+    "TruthCore.Results.Modal.GraphBridge.quiver_is_thin",
+    "TruthCore.Results.Modal.GraphBridge.reachable_iff_reflTransGen",
+    "TruthCore.Results.Modal.GraphBridge.reachable_iff_access",
+    "TruthCore.Results.Modal.GraphBridge.box_along_paths",
+    "TruthCore.Results.Modal.GraphBridge.successor_cones",
+    "TruthCore.Results.Modal.GraphBridge.nil_path_boundary",
+    "TruthCore.Results.Modal.GraphBridgeCertificate.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

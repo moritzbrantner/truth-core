@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-POSSIBILITY-TRANSFER",
+  "argument_id": "MODAL-POSSIBILITY-TRANSFER",
+  "challenge_module": "TruthCore.Results.Modal.PossibilityTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PossibilityTransfer.Solution",
+  "theorem": "TruthCore.Results.Modal.PossibilityTransfer.checks",
+  "comparator_config": "results/MODAL-POSSIBILITY-TRANSFER/comparator.json",
+  "status": "solution-present",
+  "description": "Exact transfer characterization under full predicate semantics, with a finite omitted-inclusion countermodel. No historical attribution, proof-search claim or root-premise discharge."
+}

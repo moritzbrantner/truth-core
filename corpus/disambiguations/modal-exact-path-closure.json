@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MODAL-EXACT-PATH-CLOSURE",
+  "term": "exact path length versus arbitrary finite reachability",
+  "sense_definition_ids": [
+    "DEF-MODAL-GRAPH-PATH-CLOSURE",
+    "DEF-MODAL-EXACT-LENGTH-PATH"
+  ],
+  "resolution": "The h/i/j/k condition and iterated modalities use exact lengths. Quiver.Reachable and ReflTransGen allow any finite length, including nil, and cannot replace an ExactPath index. In particular zero length is endpoint identity without an accessibility self-edge; no reflexivity, padding or linear order is assumed. Valuation correspondence requires every valuation for the one-atom formula, while arbitrary-formula soundness is a separate quantified clause. Neither scope supplies a Hilbert proof calculus or completeness theorem."
+}

@@ -1,0 +1,145 @@
+{
+  "id": "MODEL-NIGHT-MOVING-RESIDUAL",
+  "description": "One joint three-being, one-respect interpretation: idle is an unpreceded potency not being moved at this evaluation; moved is in potency and is moved by the distinct actual mover, which is simply prior to moved. It satisfies the bare potency-priority rival, the four root-core mover/actuality/noncontradiction/priority commitments, and present motion together, while both the stronger Night commitment and global act-priority fail. It therefore blocks upgrading the existing Night elimination to global act-priority even with nonvacuous present motion. The three-being search bound is not claimed minimal; no temporal persistence, metaphysical possibility, source attribution or root closure is asserted. Capacity extension: CanBe is the union of this same interpretation\u2019s potency and actuality predicates; the previous assignments are unchanged. Potency-as-unactualized-capacity holds in this joint finite interpretation.",
+  "vocabulary": "NIGHT-COSMOGONY",
+  "lean_declaration": "TruthCore.Models.NightMovingResidual.model",
+  "bindings": {
+    "Being": "TruthCore.Models.NightMovingResidual.Being",
+    "Respect": "Unit",
+    "InAct": "TruthCore.Models.NightMovingResidual.model.InAct",
+    "InPotency": "TruthCore.Models.NightMovingResidual.model.InPotency",
+    "MovedIn": "TruthCore.Models.NightMovingResidual.model.MovedIn",
+    "MovesIn": "TruthCore.Models.NightMovingResidual.model.MovesIn",
+    "PriorSimply": "TruthCore.Models.NightMovingResidual.model.PriorSimply",
+    "CanBe": "TruthCore.Models.NightCapacityControls.MovingResidual.canBe"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Models.NightMovingResidual.Being.idle",
+        "TruthCore.Models.NightMovingResidual.Being.moved",
+        "TruthCore.Models.NightMovingResidual.Being.mover"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-POTENCY-PRIOR-TO-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation2"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation3"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovesIn",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation4"
+    },
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation6"
+    },
+    {
+      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Models.NightMovingResidual.evaluation7"
+    },
+    {
+      "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "CanBe"
+      ],
+      "theorem": "TruthCore.Models.NightCapacityControls.MovingResidual.analysis"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NightMovingResidual",
+    "TruthCore.Models.NightCapacityControls"
+  ]
+}

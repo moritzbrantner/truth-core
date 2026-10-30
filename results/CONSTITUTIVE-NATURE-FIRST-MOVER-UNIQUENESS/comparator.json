@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

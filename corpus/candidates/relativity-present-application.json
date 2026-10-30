@@ -1,0 +1,9 @@
+{
+  "id": "RELATIVITY-PRESENT-APPLICATION",
+  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "locator": "§§1–3, synchronized frame clocks and coordinate transformation; follow-up §§4–5 on rods, clocks and velocity addition",
+  "priority": 430,
+  "goal": "Investigate what independently warrants applying the explicit boost profile to actual clock/event descriptions, and what further argument would rule out an additional privileged foliation. Preserve empirical reliability, synchronization and physical-frame assumptions separately from the mathematical fact that two coordinate simultaneity relations differ. Compare a tenseless reading with an additional preferred relation and any tensed account; do not identify tensed indexing, modal worlds and inertial frame coordinates.",
+  "reason": "BOOST-SIMULTANEITY-CONTROLS preserves the Lorentzian interval and future-cone order while giving a nonempty spacelike simultaneity counterexample and a relation matching only one frame. It supplies no physical-ontology bridge or anti-presentist conclusion. See docs/notes/relativity-simultaneity-and-present.md.",
+  "status": "candidate"
+}

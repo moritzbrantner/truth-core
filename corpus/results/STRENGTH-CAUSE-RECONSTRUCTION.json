@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "argument_id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.reconstruction",
+  "comparator_config": "results/STRENGTH-CAUSE-RECONSTRUCTION/comparator.json",
+  "status": "solution-present",
+  "description": "Under shared decidable identity, retain the broad principle witness when distinct; if that witness is the entity itself, use the local alternative-cause condition. No global irreflexivity is assumed. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

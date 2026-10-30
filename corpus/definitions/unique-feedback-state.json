@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIQUE-FEEDBACK-STATE",
+  "term": "unique self-consistent logical feedback state",
+  "definition": "Consistent (a,b) means a = not b and b = a and b, over Bool. Sensitive records that negation differs on false/true and conjunction differs when either argument varies with the other fixed true. Controls asserts sensitivity, consistency of (true,false), and that every consistent pair equals that witness.",
+  "basis": "stipulative",
+  "note": "A task-local mathematical diagnostic for #311. No causal relation, ontic existence, temporal dynamics, inventor, explanation relation, or explanation-adequacy predicate is supplied. Gate truth-table sensitivity is distinct from sensitivity at the unique solution.",
+  "lean_declaration": "TruthCore.Causality.UniqueFeedback.Controls"
+}

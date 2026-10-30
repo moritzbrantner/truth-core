@@ -4,6 +4,9 @@ import TruthCore.Alternatives.ActualityWithoutBeing
 import TruthCore.Alternatives.FirstClosure
 import TruthCore.Alternatives.Inertia
 import TruthCore.Alternatives.McTaggart
+import TruthCore.Alternatives.MindPhysicalism
+import TruthCore.Alternatives.NightActualizationFork
 import TruthCore.Alternatives.NightCosmogony
 import TruthCore.Alternatives.PhysicalCompleteness
+import TruthCore.Alternatives.RespectSwitch
 import TruthCore.Alternatives.Retorsion

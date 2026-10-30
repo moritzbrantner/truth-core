@@ -1,0 +1,20 @@
+{
+  "id": "HARD-CASE-GOODS-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HARD-CASE-GOODS-CONTROL",
+  "inference_ids": [
+    "INF-HARD-CASE-TYPED-CONTROLS",
+    "INF-HARD-CASE-GOODS-CONTROL"
+  ],
+  "meaning": "Composes the certified typed hard-case omission with shared, separately stipulated positive-good and damage assignments; does not establish actual moral truth or permission.",
+  "definition_ids": [
+    "DEF-HARD-CASE-TYPED-CONTROLS",
+    "DEF-HARD-CASE-NONCONSENT",
+    "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
+    "DEF-HARD-CASE-HUMAN-GOODS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
+    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+  ]
+}

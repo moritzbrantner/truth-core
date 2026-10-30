@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WorldSourceRegress.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WorldSourceRegress.overlapControl"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

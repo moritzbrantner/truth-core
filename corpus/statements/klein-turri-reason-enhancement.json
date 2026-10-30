@@ -1,0 +1,12 @@
+{
+  "id": "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
+  "paraphrase": "Klein and Turri present reasoning as capable of enhancing a belief through sufficiently good reasons even when those reasons have not yet themselves been reason-enhanced.",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

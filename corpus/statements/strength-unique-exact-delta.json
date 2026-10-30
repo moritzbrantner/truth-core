@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
+  "paraphrase": "For every supplied type and predicate P, unique existence holds exactly when existence and at most one both hold, preserving the existential witness.",
+  "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.ExactDelta",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

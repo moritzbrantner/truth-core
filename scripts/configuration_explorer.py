@@ -14,7 +14,9 @@ import tempfile
 from configurations import configuration_report, model_profile_mismatches, verify_compositions
 
 SCHEMA_VERSION = 1
-MAX_DIMENSIONS = 4
+# Bound exhaustive transport generation to at most 1,024 syntactic selections.
+# The Night case has nine dimensions, including derived conclusions and controls.
+MAX_DIMENSIONS = 10
 PRODUCER_TRUST = "Output of the trusted verification producer. Digest validation checks freshness, not fresh proof execution."
 INPUT_FILES = (
     'lean-toolchain', 'lakefile.toml', 'lake-manifest.json', 'TruthCore.lean',

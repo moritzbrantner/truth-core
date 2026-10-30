@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.NecessaryIfConnectivity.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryIfConnectivity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.NecessaryIfConnectivity.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

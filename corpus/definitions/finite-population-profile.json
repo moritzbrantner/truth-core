@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-POPULATION-PROFILE",
+  "term": "finite population profile and total welfare",
+  "definition": "Stipulated Profile records a strictly positive natural count and a real mean on a common cardinal interpersonal scale. Profile.total is count times mean. The record gives no individual assignment, distribution, population identity, feasibility, ordinal-to-cardinal conversion or moral authority; no empty or infinite counts are admitted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationAggregation.Profile",
+  "note": "Independent mathematical control prompted by provisional Carneades captions, not a source interpretation. Common scale and arbitrary finite profiles require separate justification for any ethical application; Railton\u2019s nonnumeric welfare criterion is not identified with this scale."
+}

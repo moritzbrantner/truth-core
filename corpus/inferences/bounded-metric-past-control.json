@@ -1,0 +1,9 @@
+{
+  "id": "INF-BOUNDED-METRIC-PAST-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-BOUNDED-METRIC-PAST-CONTROL",
+  "rule": "direct-proof",
+  "meaning": "In one explicitly specified real interval time carrier (0,1], there is a selected now with clock reading1 satisfying the original PastIsInfinite predicate and not the original PastIsFinite predicate, while every time has nonnegative clock age strictly below1. For each t, half its positive clock reading is another admitted earlier time. This is a joint mathematical countercontrol to inferring unbounded chosen metric age from absence of a first moment, or an earliest time from bounded age. It does not establish physical realization, a privileged physical clock, causal history, finite event cardinality, or a conclusion about whether the actual universe has a beginning. The existing integer-grid resource contradiction remains separate. Intended and actual root-premise delta none.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

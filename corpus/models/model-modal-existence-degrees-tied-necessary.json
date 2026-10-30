@@ -1,0 +1,153 @@
+{
+  "id": "MODEL-MODAL-EXISTENCE-DEGREES-TIED-NECESSARY",
+  "description": "The unchanged fixedEffects ontology has two distinct necessarily present individuals, source and firstEffect, both assigned the high intensity label at both worlds. The selected source satisfies the entire nonlogical modal-degree profile and the global-maximum conclusion, while firstEffect is also a necessary global maximum. This refutes uniqueness of a maximum among necessary individuals, not uniqueness of universal possible causers. Intensity uses ordered Fin 3 labels independently of ExistsAt, not truth values or numbers of worlds; absent secondEffect intensities are ignored. Worlds are alternatives, not times. This is a singular, other-directed analyst profile, not the entire Koons proof; generic excluded middle is an external logical premise, not certified by this finite interpretation. Formal satisfiability only, no metaphysical possibility or root closure.",
+  "vocabulary": "MODAL-EXISTENCE-DEGREES",
+  "lean_declaration": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.model",
+  "bindings": {
+    "World": "Bool",
+    "Being": "TruthCore.Modal.NecessaryVariableEffects.EffectBeing",
+    "Degree": "TruthCore.Models.ModalExistenceDegrees.Intensity",
+    "DegreeOrder": "TruthCore.Models.ModalExistenceDegrees.intensityOrder",
+    "Ontic": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.model.1",
+    "intensity": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.model.2",
+    "world": "Bool.false",
+    "source": "TruthCore.Modal.NecessaryVariableEffects.source"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Modal.NecessaryVariableEffects.source",
+        "TruthCore.Modal.NecessaryVariableEffects.firstEffect",
+        "TruthCore.Modal.NecessaryVariableEffects.secondEffect"
+      ],
+      "theorem": "TruthCore.Modal.NecessaryVariableEffects.enumerateEffectBeing"
+    },
+    {
+      "binding": "Degree",
+      "elements": [
+        "TruthCore.Models.OrderSecondary.d0",
+        "TruthCore.Models.OrderSecondary.d1",
+        "TruthCore.Models.OrderSecondary.d2"
+      ],
+      "theorem": "TruthCore.Models.OrderSecondary.enumerateDegree"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.sound"
+    },
+    {
+      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.reflexive"
+    },
+    {
+      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "source"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.necessary"
+    },
+    {
+      "statement_id": "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "source"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.potential"
+    },
+    {
+      "statement_id": "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "Ontic",
+        "intensity",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.bound"
+    },
+    {
+      "statement_id": "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "Ontic",
+        "intensity",
+        "world",
+        "source"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.invariant"
+    },
+    {
+      "statement_id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "Ontic",
+        "intensity",
+        "world",
+        "source"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.maximum"
+    },
+    {
+      "statement_id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Degree",
+        "DegreeOrder",
+        "Ontic",
+        "intensity",
+        "world",
+        "source"
+      ],
+      "theorem": "TruthCore.Models.ModalExistenceDegrees.TiedNecessary.actualInvariant"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.ModalExistenceDegrees"
+  ]
+}

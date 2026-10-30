@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "rule": "typed_strength_comparison",
+  "meaning": "Prove equality is exactly W and not S, using the checked mathematical order decomposition; equality is not confused with the additional requirement of inequality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-CONSERVATION-EXISTENTIAL-INERTIA-RIVAL",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+    "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-ACTUAL-NO-CONTINGENT",
+    "STMT-ACTUAL-NECESSARY-WELL-FOUNDED",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read full AQUINAS-ST-I-Q104-A1-EN and newly pinned complete author articles SCHMID-INERTIA-REPLY-3-ARTICLE (7 July 2021) and FESER-INERTIA-REPLY-2021-ARTICLE (6 July 2021), excluding reader comments. Exact paragraph locators, strongest responses and typed-interface inventory persist in docs/eternity-dependence-connection.md, Existential inertia section. Schmid accepts a PSR-like principle and proposes earlier existence plus absence of destructive causal change as extrinsic explanation without concurrent efficient sustenance; rejected treating this rival as merely brute persistence. Feser contests past-state sufficiency and alleges substance/persistence-power circularity; he expressly rejects annihilation/recreation conservation. Q104 objections and replies distinguish incorruptibility, completed production, preventing corruption and continuation of esse-giving without motion/time. Rejected identifying explanations with efficient causes, times with worlds, per-time causes with one fixed cause, or conditional typed correspondence with existence of a conserver. Existing direct essence-esse theorem yields double-negated identity only under its listed actual-target, no-support and interface/causal hypotheses; it does not defend conservation. No new shared vocabulary, Lean result, philosophical claim or root discharge is manufactured. Source assertions and this successful reading attempt do not establish target propositions. Repair after CI run 40776675501: rendered Feser page raw bytes differed on CI; a narrow local refetch reproduced the old hash, not the CI response. Replaced that page with its author-published Blogger Atom post entry, materialized the complete XML, reread its article content and checked exact rendered-text equality to the prior article (only final file newline differs). Two Atom fetches matched. Old expected/observed hashes persist in the passage manifest; raw verification remains unchanged. No assumption about the unretained CI response article text is made. Second repair after CI run 40777294225: Feser Atom witness passed but Schmid rendered-page raw bytes differed. Replaced Schmid page with authoritative WordPress single-post API response for post 2136/site 147942385, using server-selected identity/date/URL/title/content fields and existing raw_text web_snapshot. Two selected-field fetches matched; materialized JSON article content was reread and rendered body exactly matches the earlier witness (title/byline metadata separate). Old expected/observed hashes persist in its manifest; no raw verification exception, new source kind, claim or result. No inference about the unretained CI response article content. Follow-up five-question interpretation audit reread the full materialized q104 article and reused the recorded rival/source findings. Ordinary causal meaning, examples, near misses, independent property burdens and physical-to-existential abstraction status persist in docs/power-existence-scope-boundary.md. No undisputed empirical substantial-bearer conservation example is currently supplied; light/current/process/structural-state examples do not establish conservation of their material bearer. Rejected counterfactual-only directness, efficient-cause/ground/reason synonymy, transitivity inferred from directness, WF from asymmetry or finite observations, and cross-world necessity inheritance from actual support. Actual necessary-support WF and cross-world union WF remain distinct open obligations. No new source reading claim, Lean result or root premise change.",
+  "evidence": [
+    "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE",
+    "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE"
+  ],
+  "blocker": "Independently defend concurrent esse-dependence against the prior-existence/no-destruction replacement; separately defend conservation-to-CausesIn interpretation and actual support interfaces for the same bearer. The rival text does not fix q3 profile assignments, so no formal denial of its exhaustive causal dichotomy is attributed. Root premise delta zero. Five-question audit leaves the existential interpretation and abstraction bridge open; independently justify same-bearer concurrent esse-giving against the inertia replacement and each consumed order/modal property. Pure WF consequences cannot justify their causal application."
+}

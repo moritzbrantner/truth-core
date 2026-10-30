@@ -1,0 +1,9 @@
+{
+  "id": "INF-HISTORY-SELECTION-OMISSIONS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-HISTORY-SELECTION-OMISSIONS",
+  "rule": "direct-proof",
+  "meaning": "Compute the equality-accessibility and repeated-history assignments; an explicit internal marker distinguishes the actual Bool world and violates constant-vector invariance. Separate vacuous implication from actual candidate truth and compute both positive weights.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

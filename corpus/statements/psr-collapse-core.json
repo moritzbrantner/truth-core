@@ -1,0 +1,17 @@
+{
+  "id": "STMT-PSR-COLLAPSE-CORE",
+  "paraphrase": "Given that a conjunct is true wherever its aggregate is, no comparison arena has a world with a contingent truth, a true aggregate of all contingent truths there, no brute contingent truth there, factive and necessitating reasons, distribution of reasons over conjuncts, and no contingent fact that is its own reason. Replacing distribution and irreflexivity by independence of a reason from its target is also inconsistent. For each of the seven members of the first bundle, one named finite or countable model keeps the conjunct law and the other six and refutes that member, so the first bundle is inclusion-minimal. This gives neither minimum cardinality, nor minimality of the second bundle, nor a preferred member to reject, nor the truth or metaphysical possibility of any member or model.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ],
+  "lean_declaration": "TruthCore.Explanation.PSRStrength.CollapseCore"
+}

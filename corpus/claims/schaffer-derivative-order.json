@@ -1,0 +1,16 @@
+{
+  "id": "SCHAFFER-14-DERIVATIVE-ORDER",
+  "statement_id": "STMT-SCHAFFER-DERIVATIVE-ORDER-OPEN",
+  "source_id": "SCHAFFER-MONISM",
+  "locator": "§1.4, p.44, final discussion",
+  "interpretation": "Source reading recorded in prose only. Neither monism nor pluralism imposes priority along every intermediate parthood edge. The separate p.44 exhaustiveness sentence reverses Bu labels; this reading follows the explicit definitions on pp.42–43 rather than that apparent typographical reversal.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCHAFFER-MATERIAL-DOMAIN",
+    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
+    "DEF-SCHAFFER-BASIC-OBJECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-MONISM-SCOPE"
+  ]
+}

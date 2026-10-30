@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-IN-METAPH-XII-L11-SUPPORTS-UNCHANGEABLE-SIMPLY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-XII-L11-FIRST-MOVER-UNDERSTANDING-UNCHANGEABLE-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY",
+  "note": "Partial support. Lect. 11 n. 8 is existential (the first mover) where the bridge is universal, and it does not argue from the bridge's antecedent (unmoved in the respects of change): it presupposes 'omnino immobile', which is the bridge's MovedIn conclusion. So it bears on the conclusion's MovedIn half in every respect, and on its CanBeOtherwise half only for the respect of understanding. That the mover cannot be otherwise in any further respect (for example willing), and the universal form, stay unattributed."
+}

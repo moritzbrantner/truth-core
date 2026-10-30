@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.deltaForward"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

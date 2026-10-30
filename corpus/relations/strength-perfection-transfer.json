@@ -1,0 +1,49 @@
+{
+  "id": "REL-STRENGTH-PERFECTION-TRANSFER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+  "predicate": "strength_comparison",
+  "object_kind": "statement",
+  "object_id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+  "comparison_spec": "TruthCore.Case.Catholicism.perfectionTransferSpec",
+  "delta_statement_id": "STMT-RESIDUAL-PERFECTION-TRANSFER",
+  "background_statement_ids": [],
+  "evidence_result_ids": {
+    "implication": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+    "delta_forward": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+    "reconstruction": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+    "equivalence": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE"
+  },
+  "separator": {
+    "setting": "TruthCore.Case.Catholicism.concurrentTransferSetting",
+    "result_id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR"
+  },
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "weaker": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "delta": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ]
+  },
+  "explanatory_control_result_ids": [
+    "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+    "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL"
+  ],
+  "note": "Unrestricted causal transfer contains universal-scope transfer plus the residual nonuniversal and self-effect cases, under explicit equality/scope decisions. These decisions are comparison parameters only; the three application results need no added decisions. The separator is populated and satisfies the stronger shared background via its separately checked concurrent-background result. The secondary-only rival also satisfies that same shared background but denies even universal transfer. Neither actual metaphysical possibility nor premise truth follows. See docs/notes/causal-perfection-transfer.md."
+}

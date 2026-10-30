@@ -1,0 +1,15 @@
+{
+  "id": "STMT-HARD-CASE-TYPED-CONTROLS",
+  "paraphrase": "One explicitly specified factual structure represents nonconsensual violation and deliberate killing of an innocent nonthreatening victim by an indifferent, benefiting, unpunished offender; different supplied verdicts disagree about both prohibitions, and verdicts agreeing on both prohibitions differ on categorical reasons against them. Another finite structure recognizes both promise keeping and serious harm prevention, makes one feasible action realize each good but not the other, and supplies two feasible ideal frames requiring opposite actions. No negative prohibition is permission, no real-world norm or priority is proven, and richer theories may exclude these assignments.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Certificate",
+  "definition_ids": [
+    "DEF-HARD-CASE-TYPED-CONTROLS",
+    "DEF-HARD-CASE-NONCONSENT",
+    "DEF-HARD-CASE-INNOCENCE-NONTHREAT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE",
+    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
+    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+  ]
+}

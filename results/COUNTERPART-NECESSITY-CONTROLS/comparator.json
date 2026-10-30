@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.CounterpartNecessityControls.Challenge",
+  "solution_module": "TruthCore.Results.Modal.CounterpartNecessityControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.CounterpartNecessityControls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

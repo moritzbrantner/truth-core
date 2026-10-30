@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "term": "global propositional collapse",
+  "definition": "`∀ P Q : Prop, P ↔ Q`: all propositions of Lean's logic are pairwise equivalent. About `Prop` only.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.GlobalPropositionalCollapse",
+  "note": "Stipulated from #556. It is equivalence, not identity (`=`), and does not mention contents, agents, worlds or a truth predicate."
+}

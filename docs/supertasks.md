@@ -17,7 +17,7 @@ that principle, not conceal it in the definition of *completed*.
 | Example | Mathematical outcome | What follows, and what does not |
 | --- | --- | --- |
 | Geometrically shortening durations, $\sum_{k=1}^{\infty}2^{-k}$ | The ordinary partial sums $s_n=1-2^{-n}$ approach **1**. No stage is last; all stage times are before the endpoint (Lean-verified: `CONVERGENT-ZENO-SCHEDULE`). | A *finite-time schedule* and an abstract limit are mathematically coherent. Physical execution, causal completion and a particular endpoint state are not thereby established. |
-| Uniform positive duration, $1+1+1+\cdots$ | Partial sums are $n$ and are unbounded. | With exactly one unit of duration per operation, no natural-number budget covers every prefix (Lean proves the unit-cost case only; a general positive minimum is not formalized). **The cost assumption matters.** |
+| Uniform positive duration, $1+1+1+\cdots$ | Partial sums are $n$ and are unbounded. | With exactly one unit of duration per operation, no natural-number budget covers every prefix (the original Lean result proves only this unit-cost duration case; the separate backward resource constraint below treats a general positive real minimum). **The cost assumption matters.** |
 | Alternating unit changes, $1-1+1-1+\cdots$ | Ordinary partial sums alternate between 1 and 0 and have **no ordinary limit**. | An endpoint state need not be defined by the preceding values. Generalized summation methods are separate conventions, not ordinary convergence. |
 | A constant or eventually constant Boolean output after each stage | The output has a stable terminal value. | No **last indexed operation** is necessary for a well-defined *abstract* limit value under the specified semantics. |
 
@@ -92,6 +92,64 @@ completion (SU-GROUND). Convergence of clock times
 stable Boolean output (`DEF-SUPERTASK-STABLE-LIMIT`); see
 `DISAMB-SUPERTASK-LIMIT-NOTION`. Its Comparator config permits Mathlib's
 three standard axioms ([axiom policy](axiom-policy.md)).
+
+## A beginningless past with bounded resource spread
+
+`BOUNDED-PAST-RESOURCE-CONTRADICTION` adds a conditional argument about a
+neutral real stock, rather than declaring that an infinite past is impossible.
+The profile is `S : Int → Real`, with selected integer `now`. All integer
+indices at or before now are in the past; arbitrarily earlier indices are
+available. This is a discrete time profile, not a new temporal framework or a
+claim about every possible order of time.
+
+The three explicit hypotheses are:
+
+- one fixed `epsilon > 0`;
+- one real lower bound `L ≤ S(t)` throughout the past;
+- `S(t) + epsilon ≤ S(t+1)` at every unit step with `t < now`.
+
+Backward induction gives
+
+`S(now - n) + n * epsilon ≤ S(now)`
+
+for every natural n. The lower bound therefore yields
+`n * epsilon ≤ S(now) - L` for every n, contradicting the Archimedean property
+of the real numbers. The available **resource spread** is finite because
+`S(now)` and `L` are real values. No finite elapsed-time budget, first event,
+finite event count, or traversal initiated at a first event is assumed. The
+argument excludes the joint resource profile over a beginningless integer
+past; it does not itself prove a first-time theorem for arbitrary temporal
+orders. Unlike a forward omega supertask with a first stage and limit endpoint,
+this proof only examines longer finite stretches backward from now. A
+sufficiently long finite stretch already exceeds the resource spread; no
+completed infinite process is used as an extra premise.
+
+The companion `PAST-RESOURCE-OMISSION-CONTROLS` fixes two assignments on the
+same integer grid. Exponential stock `exp(t)` has lower bound zero and a
+strictly positive increase at every past step, but no uniform positive minimum
+increment. Linear stock `t` has uniform unit growth but no past lower bound.
+These controls compose the main constraint with independently proved positive
+properties of each assignment; no limit-of-increments theorem or physical
+realization is claimed. Thus positivity or monotonicity alone cannot replace
+the uniform-rate hypothesis, and uniform growth alone cannot replace the
+resource bound. The controls do not establish minimality of every formal
+premise, or prefer rejecting one particular condition.
+
+`Stock` is neutral terminology. Interpreting it as entropy or accumulated
+expenditure requires separate justification of the whole-past lower bound,
+common unit grid, and uniform strictly positive rate. None follows merely from
+a finite period of observed positive changes, a name such as second law, or
+causal well-foundedness. This result makes no empirical closed-universe,
+cosmological-age or entropy-production claim. Extended/non-Archimedean resource
+values and different temporal orders are outside the encoded profile.
+
+The proof uses ordinary Mathlib integer/real order, backward natural induction
+and Archimedean `exists_nat_gt`. The old exact natural-number unit-cost theorem
+is orientation, not a consumed lemma. Relative to that discussion, there is
+no finite **time** budget here; a finite **resource** spread and uniform
+positive growth are the substantive restrictions instead. Their truth for a
+physical application remains open. No causal-eventcoverage bridge was added.
+Intended and actual root-premise delta: none.
 
 ## Strongest objection and strongest reply
 
@@ -273,3 +331,44 @@ finite truncation of that model has a genuine source, while the pointwise
 all-active limit retains no intrinsic source. It supplies a counterexample
 to *grounding automatically commuting with a limit*, not an identification
 of mathematical activity with real metaphysical causal power.
+
+## Seriality of strict and inclusive past
+
+[PastSerialityCertificate](../TruthCore/Modal/PastSerialityCertificate.lean)
+connects the existing abstract modal frame to an explicitly temporal
+interpretation. For a supplied `Preorder T` and `now`, take only the times
+`t = now ∨ t < now`; let `t` access `s` when `s < t`. Transitivity keeps earlier
+witnesses inside this subtype. Seriality is then exactly the existing
+`PastIsInfinite (<) now` condition. Composing the existing generic D
+correspondence gives the same equivalence for one-atom D validity under every
+valuation. Adopting D for that strict-past frame therefore adopts a no-first
+past condition; it does not independently prove that condition.
+
+By contrast, inclusive accessibility `t → s` iff `s ≤ t` is reflexive and
+serial, validating T and D. Nat with `now = 0` has an earliest time and no
+strictly earlier witness, while its inclusive frame still validates those
+axioms. The checked control separates these interpretations rather than
+changing either axiom. An earliest time is not finite elapsed duration or
+finite event cardinality. No physical time order, event population or
+cosmological premise follows from the abstract mathematical correspondence.
+These time-index frames are not an identification of modal alternative
+histories with times, nor an interpretation of accessibility as causal edges.
+Intended and actual root-premise change: none.
+
+## No first moment need not mean unbounded clock age
+
+[BoundedMetricPastControl](../TruthCore/Modal/BoundedMetricPastControl.lean)
+uses the standard real interval `(0,1]`, with `now = 1`. Every admitted point
+`t` has the earlier admitted point `t/2`, so the original `PastIsInfinite`
+predicate holds and the original earliest-time `PastIsFinite` predicate fails.
+Yet every clock age `1-t` lies in `[0,1)`. All these properties hold jointly
+for one specified interval, rather than in separate interpretations.
+
+This mathematical control separates absence of an earliest moment from
+unbounded age in the chosen real clock. It does not establish physical
+realization or that this clock represents cosmological duration. The existing
+convergent Zeno schedule instead has a first stage; it is not substituted for
+this no-first profile. Neither result infers finite event cardinality from a
+finite metric bound. The interval is also not the integer unit grid of the
+bounded-resource argument; a uniform resource increment on every integer step
+is a separate hypothesis. Intended and actual root-premise change: none.

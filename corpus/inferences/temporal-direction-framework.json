@@ -1,0 +1,9 @@
+{
+  "id": "INF-TEMPORAL-DIRECTION-FRAMEWORK",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
+  "rule": "classical-order-classification",
+  "meaning": "Invoke the certified universal direction framework; classical quantifier negation finds a violating edge, and linearity makes a non-backward non-strict edge simultaneous. Coverage, pairwise exclusivity and the strict branch finite-path consequence are distinct conjuncts. Reused at the same typed model by the downstream fork consumption.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

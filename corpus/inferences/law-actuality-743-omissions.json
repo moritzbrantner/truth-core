@@ -1,0 +1,9 @@
+{
+  "id": "INF-LAW-ACTUALITY-743-OMISSIONS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LAW-ACTUALITY-743-OMISSIONS",
+  "rule": "direct-proof",
+  "meaning": "Use the first unobserved value and exact state measurements for positive identification/determination. Restrict the correctness demand to the true-law candidate for the constant estimator. Keep law satisfaction unchanged while emptying represented existence and presence. Compose TruthCore.Results.Causality.ChainInstantiation.controls rather than reproving its prior omission models.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

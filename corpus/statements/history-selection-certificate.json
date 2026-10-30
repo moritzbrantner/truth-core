@@ -1,0 +1,17 @@
+{
+  "id": "STMT-HISTORY-SELECTION-CERTIFICATE",
+  "paraphrase": "For any typed history and admitted truth-vector, determining the complete supplied history among accessible worlds is equivalent to existence of an evidence-only candidate satisfying the entailing discriminator. An accessible different history with the same whole vector defeats every such candidate, including arbitrary infinitary recombinations. Composed controls retain existing all-on/off transmission, a unique beginningless Int signal under an independent gate law, a source-free copying graph, identical selection failures and internal-marker successes for source-free and rooted presence histories, and the existing source-plus-infinite-branch model. These are conditional informational constraints and stipulated models, not metaphysical adequacy or actuality.",
+  "lean_declaration": "TruthCore.Explanation.HistorySelection.Certificate",
+  "definition_ids": [
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-HISTORY-SELECTION-CONTROLS",
+    "DEF-HISTORY-CONTRASTIVE-CONTROL",
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-UNIQUE-FEEDBACK-STATE",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-CAUSE-SEPARATOR",
+  "argument_id": "STRENGTH-CAUSE-SEPARATOR",
+  "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthCause.separator",
+  "comparator_config": "results/STRENGTH-CAUSE-SEPARATOR/comparator.json",
+  "status": "solution-present",
+  "description": "The specified identity-only Bool setting satisfies W and not S under exactly the same empty background and decidable identity. No axioms are used. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of either open causal principle."
+}

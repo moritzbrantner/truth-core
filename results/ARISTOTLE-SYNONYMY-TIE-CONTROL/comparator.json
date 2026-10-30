@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.SynonymyTie.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.SynonymyTie.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.SynonymyTie.synonymyTieControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

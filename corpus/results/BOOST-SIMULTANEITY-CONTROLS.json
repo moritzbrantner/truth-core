@@ -1,0 +1,10 @@
+{
+  "id": "BOOST-SIMULTANEITY-CONTROLS",
+  "argument_id": "BOOST-SIMULTANEITY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Challenge",
+  "solution_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Solution",
+  "theorem": "TruthCore.Results.Spacetime.BoostSimultaneity.controls",
+  "comparator_config": "results/BOOST-SIMULTANEITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "In an explicit inhabited 1+1 real coordinate profile with c=1, the rational boost with v=4/5 is an isometry equivalence of the Mathlib quadratic form t²−x² and preserves the future cone |x|≤t and the induced event-difference order in both directions. The distinct spacelike pair (0,0),(0,1) is simultaneous in the original frame and not in the boosted frame. No relation exactly matches both frame-simultaneity relations, while the original relation itself witnesses a distinguished choice matching one frame only. This does not establish physical applicability, deny a privileged present, or equate geometric future order with actual causation."
+}

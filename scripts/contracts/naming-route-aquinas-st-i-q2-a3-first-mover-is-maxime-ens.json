@@ -1,0 +1,34 @@
+{
+  "baseline_revision": "e634f01f6f77a8592f256cd72548ffa299a49613",
+  "dependencies": {
+    "TruthCore.Case.Catholicism.FirstUnmovedMoverIsMaximeEns": "0e9d03f811b1099b04a412ec04af009618fbf100d22adae260b590f9efc4286d",
+    "TruthCore.Case.Catholicism.IsFirstUnmovedMover": "383241ff8eff29a915b00e698069246bbc98aea2c8e07275da787fdeddc58555",
+    "TruthCore.Case.Catholicism.MaximeEnsIsGod": "f478eae3ad1140865854d634435465c013c5054cf23976614399f195a4c53c79",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading": "e6e9cb42d7a45fb5574ee48ee7f2a54a244942eb1df7f1825b4830d4e900dd42",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus": "9601a937132c19ec98f78de5a60354bf256cd1c7150bf7bea71b8f7a25d169a5",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.CreatedAgentIsAppliedToActByGodReading": "7d06f90533623262eb85b11f73158a9c23d74c84448e17f3e320bbbc255fd75b",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn": "fa374d3d9ed855441d0242e899f8cf640ce1dd002755c05a764399138ea28898",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading": "3ac4d7dc69545c63c31ed554702aafdd97772d1f3eb0b501c5c71c57e0130448",
+    "TruthCore.Latin.Aquinas.SummaTheologiae.MovesOnlyAsInActReading": "9374f5ccbdee54b9764d380e25ef9f3fda0f86bcd35830e2db231a3ed0d65690",
+    "TruthCore.Logic.ExcludedMiddle": "4a2ff59ff14334d50a5c20b5c8afab6ce16cc4662267cb6a56f94bb10130eb83"
+  },
+  "frozen_inputs": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "41172e62b489e353c00bfbb6a9bfcdcda87b36c531dee0ba673b41e7da220420"
+    },
+    {
+      "path": "TruthCore/Results/Aquinas/SummaTheologiae/FirstMoverIsMaximeEns/Challenge.lean",
+      "sha256": "e1b78eac9362f9b34d3c55d63c8c425f6c5791cea8f5362da0e779ab39099cf0"
+    }
+  ],
+  "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
+  "result_id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS",
+  "schema_version": 1,
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.firstMoverIsMaximeEns",
+  "type_sha256": "f4427472be0ebfd9783fa6f2607c63090cd6d71fdaeea4a2574323db24fe0cee"
+}

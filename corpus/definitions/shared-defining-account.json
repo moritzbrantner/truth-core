@@ -1,0 +1,7 @@
+{
+  "id": "DEF-SHARED-DEFINING-ACCOUNT",
+  "term": "shared defining account of a quality",
+  "definition": "For a respect r, entities c and x have a shared defining account when there is a sense s such that Holds c r s and Holds x r s. Holds means that the entity has that quality under the indicated defining account, rather than merely that a common word is applied to each. The model treats the sense type and Holds relation as parameters; it does not define or establish any particular account or its real-world applicability.",
+  "basis": "stipulative",
+  "note": "This is the explicit condition in SynonymousCauseMoreSuchReading, an interpretive abstraction of Metaphysics II.1 993b24–26. Fire and heated things are the source example; whether particular entities possess a quality under the same account is an open interpretive and substantive question. A changed account need not mean pure equivocation: analogical predication is a separate possibility. This pairwise condition is narrower than DEF-BEING-UNIVOCAL, which describes a global account and homogeneous scale of being, and is not identified with an attribution order."
+}

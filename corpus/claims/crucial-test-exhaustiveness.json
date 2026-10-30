@@ -1,0 +1,14 @@
+{
+  "id": "DUHEM-VI-III-CRUCIAL-EXHAUSTIVENESS",
+  "statement_id": "STMT-CRUCIAL-TEST-CERTAINTY-NEEDS-EXHAUSTIVENESS",
+  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "locator": "Seconde partie, VI §III, pp.308–312",
+  "interpretation": "Prose source reading only; no attributed Lean theorem. Retains the second, independent objection after Duhem temporarily grants secured auxiliaries. This is not an argument against an actually proved exhaustive fork under its stated background, and no complete metaphysical partition is inferred.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCIENCE-CRUCIAL-TEST-CERTAINTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

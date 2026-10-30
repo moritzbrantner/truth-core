@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
+  "term": "local acyclicity on necessary bearers",
+  "definition": "At each world the present direct existential-support relation restricted to the fixed necessary subtype has no nonempty TransGen loop. This says nothing about cycles through contingent individuals outside the subtype.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.LocallyAcyclic"
+}

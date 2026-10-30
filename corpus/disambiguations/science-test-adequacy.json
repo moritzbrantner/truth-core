@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-SCIENCE-TEST-ADEQUACY",
+  "term": "experimental success, auxiliary trust, certainty, judgment and calibration",
+  "sense_definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST",
+    "DEF-SCIENCE-CRUCIAL-TEST-CERTAINTY",
+    "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE",
+    "DEF-CONSTANT-ADDITIVE-CALIBRATION",
+    "DEF-INPUT-DEPENDENT-CALIBRATION"
+  ],
+  "resolution": "Practical application, testing a theoretical ensemble, selecting a faulty member, and establishing the unique true theory are different tasks. Duhem does not equate lack of deductive certainty with absence of rational empirical choice. In the analyst model, agreement means exact predicted response equality, not shared true laws or a sufficient ontological explanation. A common anchor is a supplied equality, not epistemic justification for that value; identifying profiles under constant bias proves neither actual instrument stability nor independence of calibration. Input-dependent bias is a separate control, not silently included in the constant-bias identification theorem. No claim here transfers a scientific or epistemic regress norm automatically to causal activity."
+}

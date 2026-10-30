@@ -1,0 +1,19 @@
+{
+  "id": "STMT-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "lean_declaration": "TruthCore.Causality.SourceWitness.ConfluentOverlapControl",
+  "paraphrase": "The unchanged literal overlap graph is weakly causally connected, upstream-confluent and rooted at a unique source with finite upstream paths from all nodes, yet is acyclic and has the same selected actual some0 on an injective infinite upstream chain and inaccessible; this graph is not well-founded.",
+  "definition_ids": [
+    "DEF-SOURCE-EXISTENCE-WITNESS",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

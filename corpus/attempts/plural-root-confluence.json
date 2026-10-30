@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-PLURAL-ROOT-CONFLUENCE",
+  "date": "2026-10-29",
+  "statement_ids": [
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+    "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+    "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+    "STMT-PLURAL-ROOT-CONFLUENCE-CONTROL"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Reuse inventory consumed exact SourceForest/SourceWitness theorems and unchanged PartFreePlurality.jointControl. The literal actualGraph of that ontology is definitionally its actualSupportGraph: both retain prior, not a replacement relation. It is weakly connected and WF with distinct actual rank-zero sources jointly causing instrument, whose upstream extensions cannot join. Imported rooted_from_source would identify these sources if confluence held, so confluence fails while its other inputs hold. The full existing joint commitment bundle is retained. Existing isolated, diamond and literal overlap controls supply disjoint/common-source/infinite-branch contrasts without claiming they share every extra metaphysical premise. Proposed unity-to-common-ground defense remains an unattributed open commitment; a common downstream effect or q3a7 uniting cause does not supply upstream merger. Strongest pluralist reply and outstanding individuation, semantic and explanatory burdens are in docs/notes/part-free-plurality.md. Rejected inferring confluence from cooperation, necessity, part-freedom, WF or intrinsic explanation tokens, and rejected treating finite satisfiability as real possibility. No root premise added/removed/discharged. Shared-session combined proof v2 accepted at clean preview db603d3140e92c4b1ca653ab2098a0189a70653f with SHA2563822e5179b3493f75be5df2ad244e2507745a8b3a58b7e3d9c925b333282e5e5; permitted Mathlib axioms only. First client timeout and explicit-binder correction preserved in the note. Final canonical verification remains CI-owned.",
+  "evidence": [
+    "PLURAL-ROOT-CONFLUENCE-CONTROL",
+    "PART-FREE-PLURALITY-JOINT-CONTROL",
+    "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
+    "SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+    "CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ]
+}

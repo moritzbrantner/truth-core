@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "BRENNER-MEREOLOGICAL-NIHILISM-PERSONAL-ONTOLOGY",
+    "source_url": "https://www.newdualism.org/papers-Jul2020/Brenner-BREMNA-3.1.pdf",
+    "retrieved_at": "2026-10-28T20:00:09Z",
+    "sha256": "sha256:04c1f5f914cc044e62246fce5d4233906ceecdf4b58ef97e7659584d61bb4692",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright author2017, all rights reserved; publicly hosted preprint mirror, no redistribution permission asserted. Exact PDF bytes matched two live fetches. No archive fallback known; availability remains fragile."
+  },
+  "passages": [
+    {
+      "id": "BRENNER-PERSONAL-ONTOLOGY-ARRANGEMENT-CAUSAL-CONTEXT",
+      "locator": "Author preprint pp.5\u20138, Objections2\u20134 (with law-parsimony context)",
+      "claim_locator_prefixes": [
+        "Objection2",
+        "Objection3",
+        "Objection4"
+      ],
+      "pdf_pages": {
+        "first": 5,
+        "last": 8
+      },
+      "text_sha256": "sha256:adefb13a21ea658f69c241ce8b27a42940754f754686a310d75d6d4efeb46ed7",
+      "incipit": "Quine (1951) famously distinguished between a theory\u2019s ontology and"
+    }
+  ]
+}

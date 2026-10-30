@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-COMPOSITION-KINDS-GENUS-CAUSE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+    "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
+    "STMT-GENUS-CAUSE-BOUNDARY"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inventoried the four composition senses and materialized/read full q3a5 and q3a7. Current Article7 formal inclusions cover matter/form and essence/esse, not genus/differentia realization. Reused BeingNotAGenus.beingNotAGenus and EssenceEsseExternalCause.premiseOmissionsAndControl positive witness to build three joint interpretations: fixed actual strict-genus taxonomy with a distinct-esse efficient cause; same noncausal Profile fields with every cause edge erased, preserving no-efficient-self-cause but losing causal exhaustiveness; and an edge-free same-actuality identity copy with vacuous q3a4 premises. These are not countermodels to full q3a5 real composition or proofs of metaphysical possibility. Rejected treating conceptual terms as material components, generic quiddity as complete essence, source assertion as defense, or represented lack of cause as independently established absence of every form of dependence. All root premises retained. Precise source context, theorem reuse and remaining bridge are persisted in docs/notes/composition-causal-scope.md.",
+  "evidence": [
+    "GENUS-CAUSE-BOUNDARY",
+    "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
+    "AQUINAS-ST-I-Q3-A5-GENUS-ESSE-DISTINCTION"
+  ]
+}

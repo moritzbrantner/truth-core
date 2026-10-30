@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-MODAL-RIGID-DESIGNATION",
+  "statement_ids": [
+    "STMT-MODAL-RIGID-DESIGNATION",
+    "STMT-MODAL-POSSIBILITY-TRANSFER"
+  ],
+  "date": "2026-10-28",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "After inventory of CounterpartNecessity, IdentificationNeedsBridge and PossibilityTransfer, used partial designation rather than duplicate bijection/identity controls. Derived exact strict necessary co-reference/existence characterization and composed the existing box-transfer theorem. Controls retain actual co-reference but omit necessary existence or E-to-M inclusion. Rejected a blanket necessary-a-posteriori conclusion: no actual reference, discovery or knowledge is established. Root open-premise delta zero; application of reference, rigidity and epistemic bridges remains open.",
+  "evidence": [
+    "MODAL-RIGID-DESIGNATION",
+    "MODAL-POSSIBILITY-TRANSFER"
+  ]
+}

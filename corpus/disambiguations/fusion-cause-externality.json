@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-FUSION-CAUSE-EXTERNALITY",
+  "term": "external cause of a composite",
+  "sense_definition_ids": [
+    "DEF-FUSION-DISTINCT-CAUSE",
+    "DEF-FUSION-OUTSIDE-CAUSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-NB-SURVEY-EXTERNAL-CAUSE"
+  ],
+  "resolution": "The new model separates numerical distinction from nonparthood. The q3 model of external esse-cause requires a distinct actual cause, not a cause outside all parts. The necessary-being survey uses a stronger outside-thing-and-parts condition. Neither is silently identified with a generic candidate relation here. A universal material fusion excludes material nonpart candidates within its covered domain, not distinct internal causes or nonmaterial causes in a larger domain. No direct q3 or survey-premise refutation is inferred."
+}

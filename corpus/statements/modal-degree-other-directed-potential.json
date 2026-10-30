@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+  "paraphrase": "At every root-accessible world, each individual existing there other than the selected rigid n can be caused by n at some world accessible from that evaluation world. The causal witness may vary with the recipient. This selected-individual, other-directed, pointwise commitment does not itself assert necessity of n and is an analyst specialization, not the complete source step 6.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.OtherDirectedPotentialCause",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "KOONS-FOURTH-WAY-2022-STEP7-WEAK-BOUND-A",
+  "statement_id": "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+  "source_id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022",
+  "locator": "A Further Reconstruction of the Fourth Way (2022-01-23), step 7",
+  "interpretation": "Restricted reading of step7: in each root-accessible evaluation world v, among x and y currently present at v, if x can be a cause of y existence, y degree at v is no greater than x degree at v. The formalization uses one analyst-supplied preorder of degrees and represents causal possibility by an edge at some v-accessible u; the degree comparison remains at CURRENT v. Present-relata guards and the root-accessible domain restrict the sentence rather than strengthening its non-strict comparative. The source does not define a numerical measure or fix this representation. This is not the earlier unrestricted strict cause-more-such principle, and no actual current edge, unique causer, necessary individual, literal degree-label identity or complete metaphysical-world domain is asserted. The interpretation of the supplied Causes relation as existence-causation remains explicit; no adequacy of arbitrary relational interpretations is sourced.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-EXISTENCE-DEGREE",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-DEGREE-PRESENCE",
+    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+  ]
+}

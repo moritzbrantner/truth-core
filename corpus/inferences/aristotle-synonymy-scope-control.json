@@ -1,0 +1,9 @@
+{
+  "id": "INF-ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SYNONYMY-SCOPE-CONTROL",
+  "rule": "model-construction",
+  "meaning": "Construct a three-entity interpretation: 0 causes 1 under their shared account and is more; 1 causes 2 under different accounts and is not more. Thus the restricted rule holds and the unrestricted rule fails.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

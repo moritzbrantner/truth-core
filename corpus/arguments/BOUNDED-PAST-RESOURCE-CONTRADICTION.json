@@ -1,0 +1,22 @@
+{
+  "id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+  "premise_statement_ids": [
+    "STMT-PAST-RESOURCE-POSITIVE-STEP",
+    "STMT-PAST-RESOURCE-LOWER-BOUND",
+    "STMT-PAST-RESOURCE-UNIFORM-GROWTH"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-BOUNDED-PAST-RESOURCE-CONTRADICTION"
+  ],
+  "meaning": "On the entire integer past of a real-valued stock, a fixed positive epsilon, one real past lower bound L, and uniform per-step growth by at least epsilon are jointly incompatible. Backward induction gives S(now\u2212n)+n*epsilon\u2264S(now) for every natural n. The lower bound then gives n*epsilon\u2264S(now)\u2212L for every n, contradicting the Archimedean property of Real. The Int grid and finite Archimedean real values are fixed mathematical background; no finite elapsed-time budget, temporal first event, finite event cardinality, causal well-foundedness or global entropy law is a premise. This is an actual conditional constraint on a beginningless discrete resource profile, not a proof that every temporal order has a first instant. No preferred premise is rejected. Uniform positivity and the whole-past lower bound remain open restrictions for any physical application; strict pointwise growth alone is insufficient, as the separate controls calibrate. The old SUPERTASK-UNIT-COST-UNBOUNDED result is orientation, not an imported inference: no literal premise-minimality comparison to its closed unit-duration theorem is claimed. Relative to that discussion, this route omits a finite TIME budget and instead makes the RESOURCE bound and uniform growth explicit. Intended and actual root-premise delta none.",
+  "definition_ids": [
+    "DEF-PAST-RESOURCE-STOCK",
+    "DEF-PAST-RESOURCE-LOWER-BOUND",
+    "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+  ]
+}

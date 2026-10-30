@@ -1,0 +1,9 @@
+{
+  "id": "INF-TRUTH-COLLAPSE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TRUTH-COLLAPSE-CONTROLS",
+  "rule": "model-construction",
+  "meaning": "Construct each model; the uncollapsed claims follow from the expressive law where the model is expressive.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

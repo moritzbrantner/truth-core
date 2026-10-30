@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-WF-REVERSE-DILEMMA-553",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+    "STMT-NECESSARY-ROOT-TRILEMMA",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-NECESSARY-ROOT-CONTROLS",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-BRUTE-ROOT-DISJUNCTION",
+    "STMT-COGITO-ANCESTRY-ROOT-FORK",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#553. Prior delivery checked first: BRUTE-ROOT-DISJUNCTION already gives a classical partition with whole-carrier well-foundedness and a contingent root; COGITO-ANCESTRY-ROOT-FORK gives a thinker-local version; necessaryConcreteOfGroundedContingents (unregistered) gives the closure with Lean's classical axioms. Remaining scope delivered here on the same Profile: well-foundedness restricted to actual concreta (strictly weaker, RestrictedWeakerControl); a nonnecessary second horn kept apart from contingent; branch witnesses, overlaps, omission controls, relation-type, counterpart and accessibility controls; explicit excluded middle with zero Lean axioms. Correction of the issue: #553 calls the existential root theorem constructive and its proof needing no classical reasoning. Rejected: quantified over profiles it implies ExcludedMiddle (a two-candidate profile in which the second candidate is actual exactly if p and then grounds the first; a root decides p). Minimal elements from WellFounded need excluded middle in general. Only the reductio form, double negation of a nonnecessary root, is constructive. Coverage only: the first horn overlaps each other horn, so exclusivity is false, not merely unproved, for the two-horned and three-horned forks. Closure: EveryContingentGroundedAt closes the root horn (NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED), but given excluded middle it is equivalent to the denial of a contingent root, so it rejects the horn and needs independent defence (#505, #545); it is not implied by a necessary concretum (overlap model). The third horn is witnessed both by a cycle and by an acyclic unending descent, so it does not reduce to either. Relation: grounds and Causes are separate relations of the Profile; withCauses selects Causes, and one model has a root of each that is not a root of the other, so a grounding result is not automatically a causal one. No new metaphysical relation is introduced and no real relation is claimed to be well-founded. Rejected readings: root as absolutely unexplained or absurd (only relative to the selected relation); counterpart persistence as rigid necessity (CounterpartControl); necessity as all-world (NecessaryAt stays accessibility-relative, AccessibilityControl). Inhabitedness reuses the Cogito's InhabitedConcreteAt so that COGITO-INHABITED-CONCRETE-WORLD supplies it directly; a composed Cogito result was not registered, since COGITO-ANCESTRY-ROOT-FORK already covers that route more weakly. Not formalized from the issue: counterpart semantics as such (only a supplied relation on rigid candidates); a finite-carrier theorem that non-well-foundedness yields a cycle (WORLD-ACTUAL-SOURCE-OR-REGRESS covers the source/regress side on its own graphs); a proof that the modal shift from nonnecessary to contingent itself implies excluded middle (only the direction with excluded middle is proved). Frontier delta: none; see PR.",
+  "evidence": [
+    "NECESSARY-OR-NONNECESSARY-ROOT",
+    "NECESSARY-ROOT-TRILEMMA",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "NECESSARY-ROOT-CONTROLS",
+    "BRUTE-ROOT-DISJUNCTION",
+    "COGITO-ANCESTRY-ROOT-FORK"
+  ],
+  "blocker": "Root connection: no root-path premise uses world-indexed de re necessity (same bridge blocker as ATTEMPT-COGITO-NECESSARY-CONCRETE-ANCESTOR-564; DISAMB-NECESSARY-INDIVIDUAL-SCOPE). Open premises: restricted well-foundedness of a real relation and an independent defence of EveryContingentGroundedAt or a rejection of the nonnecessary-root rival (#505, #545)."
+}

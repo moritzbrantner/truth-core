@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WELCHANCE-INFINITISM-THEORETICAL-VIRTUE",
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s10670-026-01084-1.pdf",
+    "retrieved_at": "2026-10-28T22:43:57Z",
+    "sha256": "sha256:1f98353914c8e4650660d0bdd84549912ed4b0ec76a318877be72dbd7f6c8f9f",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "\u00a9 The Author(s) 2026. Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/), stated in the article. Official Springer open-access publisher PDF; no third-party mirror. No archived fallback pinned; live-byte drift remains detectable."
+  },
+  "passages": [
+    {
+      "id": "WELCHANCE-INFINITISM-1-3",
+      "locator": "\u00a7\u00a71\u20132.4, through physical PDF p.18 (full PDF consulted for conclusion and context)",
+      "claim_locator_prefixes": [
+        "\u00a71",
+        "\u00a72"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 18
+      },
+      "text_sha256": "sha256:8f455068c20e5650b474940ac99ffbd7147f6d7c5a297d2f1f2f5ec07cef84ae",
+      "incipit": "Erkenntnis https://doi.org/10.1007/s10670-026-01084-1 ORIGINAL RE"
+    }
+  ]
+}

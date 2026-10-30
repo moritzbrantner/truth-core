@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-RELATIVITY-SIMULTANEITY-CONTROLS",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-BOOST-SIMULTANEITY-CONTROLS",
+    "STMT-EINSTEIN-1905-CLOCK-TIME",
+    "STMT-EINSTEIN-1905-RELATIVE-SIMULTANEITY",
+    "STMT-EINSTEIN-1905-COORDINATE-TRANSFORMATION"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inventory found no pinned Mathlib Minkowski/Lorentz notion; reused its actual QuadraticForm.prod/sq and QuadraticMap.IsometryEquiv. Existing HistoryTimeScope controls concern quantifiers, not frame changes; Aristotle PhysicsIV11 does not supply boosts. Materialized/read full Einstein1905 §§1–3 primary translation on Fourmilab, twice-matching live HTML and a twice-matching 2024archive fallback. Existing extractor omits equation images, so three attributed prose readings use only actual extracted prose and the analyst boost is not credited as a source derivation. Rejected German rendered-page witness after generated-at raw-byte drift, not philosophically substituted its content. Rational c=1 boost with v=4/5 is a quadratic-form linear isometry, preserves future cone/event-difference order both ways, and changes simultaneity of distinct spacelike events (0,0)/(0,1). Exact common simultaneity is impossible for these two frames; a designated one-frame relation remains a witness, not proof of privileged-present ontology. Challenge frozen before Solution; servicef2544a01 v3 content9382b885fecc47b760abaeae3897108792168e05fc8c4a9309fa161de34af41b has no errors/warnings and exactly approvedMathlibaxioms. No physical actuality, empiricaladequacy, allframes coverage, no-preferred-present principle, causalregress or actual infinitepast inferred. Strongest tensed/tenseless/preferredstructure replies, sourceedition corrections, rejectedmeanings and proofboundaries persist in docs/notes/relativity-simultaneity-and-present.md. Root-premise delta none; final delivered-head build/binding/Comparator/NanoDa pendingCI.",
+  "evidence": [
+    "BOOST-SIMULTANEITY-CONTROLS",
+    "EINSTEIN-1905-1-CLOCK-TIME",
+    "EINSTEIN-1905-2-RELATIVE-SIMULTANEITY",
+    "EINSTEIN-1905-3-COORDINATE-TRANSFORMATION"
+  ],
+  "blocker": "No local delivery blocker. Physical frame/event application and ontological present/passage interpretations remain open in RELATIVITY-PRESENT-APPLICATION."
+}

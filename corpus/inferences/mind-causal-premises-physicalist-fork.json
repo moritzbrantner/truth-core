@@ -1,0 +1,14 @@
+{
+  "id": "INF-MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
+    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
+    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED"
+  ],
+  "output_statement_id": "STMT-MIND-PHYSICALIST-FORK",
+  "rule": "case-analysis",
+  "meaning": "Completeness makes each physical effect fully determined by its prior physical occurrences; distributive premise 3 with excluded middle gives a mental cause a physical effect it does not overdetermine, hence places it among or realized by those occurrences. Influence supplies the effect. Excluded middle then splits on occurrence of the target kind and on its being a physical kind.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

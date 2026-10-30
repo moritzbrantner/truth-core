@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PLOTINIAN-CONSTITUTIVE-NEED",
+  "term": "constitutive need for internal simples",
+  "definition": "The nonsimple needs the simples in it in order to be constituted from them. This records the parts-to-composite direction asserted in V.4.1. It is not automatically a distinct efficient cause of continued esse, a temporal production history, or the repository’s PriorSimply relation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PLOTINUS-V4-COMPOSITE-NEED"
+  ]
+}

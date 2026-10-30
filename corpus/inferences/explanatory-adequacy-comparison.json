@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXPLANATORY-ADEQUACY-COMPARISON",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+  "rule": "model-construction",
+  "meaning": "Compute the verdict of each candidate standard on each shared rival, prove the token expansion and projection generally, and consume the #735 Supply and least-node facts.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-EXISTENCE-DEGREE",
+  "term": "world-indexed existence degree in the modal weak-bound profile",
+  "definition": "The parameter intensity : World → Being → Degree assigns each rigid candidate at each world a label in one shared Mathlib Preorder. The ordering represents graded existence for this conditional profile. Only ExistsAt-guarded individual/world pairs enter the global maximum comparison; the total label assignment itself confers no presence. Degree intensity is neither Boolean existence, a count of worlds in which a candidate exists, necessary presence, nor an analysis of Thomistic esse. A greatest attained grade can be tied by distinct individuals or degree labels; strictness, antisymmetry and numerical units are not included.",
+  "basis": "stipulative",
+  "note": "Analyst semantic role for the restricted modal-degree reading of the pinned Koons post, not an attributed full definition of degree of existence or a claim that the source supplies this particular representation. Existing Ontic is reused; the earlier nonmodal strict cause-more-such and homogeneous-being-scale meanings are not identified with it. Sourcing a substantive account of degree intensity and its relation to value/esse remains open in KOONS-FOURTH-WAY-2022-MODAL-COMPARISON.",
+  "lean_declaration": "TruthCore.Modal.ExistenceDegrees.WeakCauseDegreeBound"
+}

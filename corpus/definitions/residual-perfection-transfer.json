@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RESIDUAL-PERFECTION-TRANSFER",
+  "term": "residual transfer cases",
+  "definition": "ResidualPerfectionTransfer requires the legacy causal transfer for nonuniversal sources and for self-effects. It is a scope remainder, with no independent claim that these cases hold.",
+  "basis": "stipulative",
+  "note": "Scope and finite interpretation for the existing causal vocabulary; semantic grounding, precise source locators, examples, rejected interpretations and remaining obligations: docs/notes/causal-perfection-transfer.md. No new structural law is attributed to a source.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ResidualPerfectionTransfer"
+}

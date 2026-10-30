@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "One fixed five-being, two-world interpretation jointly retains the earlier first-way, represented simplicity/pure-act, q3a4 distinct-esse causal dichotomy and PSR coverage commitments, while separating efficient cause/priority from proper components. Two distinct necessary roots cause a common instrument and enter no composition. A dependent constituent composes the instrument and effect, so composition and both distinct-esse witnesses remain nonvacuous. The q3a8 no-component-is-first-being and q3a7 uniting-cause readings hold. Q11 incommunicable individuation and suppositum/nature identity hold, but common nature and differentiation in represented act fail. This establishes satisfiability of the exact encoded bundle, not metaphysical possibility, full classical divine simplicity or independently supported primitive individuation. No root premise is discharged. Rejected merely deleting all components (vacuous strengthening), preserving rank-causes-as-parts (still fails q3a8), and treating exclusion of the old assignment as universal uniqueness. Existing generic source premises retain their meanings; only the concrete assignment changes. All source-fidelity and individuation/application premises remain open. Exact proof boundary, rejected four-being variant and service binding persist in docs/notes/part-free-plurality.md.",
+  "evidence": [
+    "PART-FREE-PLURALITY-JOINT-CONTROL",
+    "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL"
+  ]
+}

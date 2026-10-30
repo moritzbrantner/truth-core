@@ -1,0 +1,17 @@
+{
+  "id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "inference_ids": [
+    "INF-MODAL-GRAPH-BRIDGE-CERTIFICATE"
+  ],
+  "meaning": "Transparent universal assembly of ten previously frozen mathematical graph-bridge facts. Round trips preserve Frame/Digraph structure and adjacency equals one-step access. The explicit thin quiver has an arrow exactly for each access edge. Its reachability equals reflexive-transitive closure; only the reflexive-and-transitive clause identifies that closure with access. Under transitivity, boxed Holds persists along paths, including nil paths, while remaining boxed. Under transitivity and Euclideanness, accessible source/target worlds have equal successor cones pointwise. The Unit dead-end control has a nil path but no access edge: box-false holds over the original frame and fails over its reflexive-transitive closure. All restrictions occur inside their respective universally quantified clauses; there is no global frame, population or excluded-middle premise. This is delivery by assembly, not another mathematical discovery, a philosophical premise defense or root closure. The original ten-theorem Challenge remains frozen and all ten original helpers are also listed as Comparator targets. Root-premise delta none.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+    "DEF-MODAL-GRAPH-PATH-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-GRAPH-EDGE-PATH"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ULTIMATE-EXPLANATION-DECISION",
+  "term": "outcome-wise optimal and safe actions",
+  "definition": "Action has safe, betTrue and betFalse. payoff gives the safe action1 in either binary outcome, a correct bet2 and a wrong bet0. Optimal means its payoff is at least every alternative action’s at every cell member. Safe means payoff at least1 at every member. Safe therefore need not be outcome-wise optimal. No probability, utility aggregation, empirical success frequency or independent normative rationality is defined.",
+  "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Optimal",
+  "basis": "stipulative",
+  "note": "Stipulated single-task ordinal payoff comparison. A weather contingency with a robust fallback is an ordinary illustration; a task with no fallback is a counterexample to applying this particular action menu. Availability, goal legitimacy and a norm connecting this performance criterion to reasonable action remain OPEN; uncertainty alone does not prove that every action is irrational."
+}

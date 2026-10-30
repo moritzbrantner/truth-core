@@ -1,0 +1,28 @@
+{
+  "id": "BEARER-OUTCOME-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-BEARER-OUTCOME-COVERAGE",
+  "inference_ids": [
+    "INF-BEARER-OUTCOME-COVERAGE"
+  ],
+  "meaning": "Take an occurring thought and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE; the bearer exists at w by STMT-COGITO-BEARER-EXISTS-AT-WORLD. Excluded middle splits on accessibility of the bearer for existing direct support. If accessible, Acc induction descends until an ancestor has no existing supporter; the ancestry premise then makes it fail Dependent, and excluded middle splits on Substance. If not accessible, the non-accessible ancestors form an endless set, and excluded middle splits on whether a cycle lies below the bearer. Coverage only; all four non-logical premises are open, excluded middle is an explicit hypothesis, and no branch is asserted. Which case holds is not decided, and a terminus failing Substance is not thereby a process.",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-BEARER-SUPPORT-ANCESTRY",
+    "DEF-BEARER-SUPPORT-OUTCOMES",
+    "DEF-COGITO-SUBSTANCE-PREDICATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEARS-INHERES-SUPPORTS",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

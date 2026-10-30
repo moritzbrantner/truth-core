@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "argument_id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthOrder.remainderIdentity",
+  "comparator_config": "results/STRENGTH-ORDER-REMAINDER-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Prove equality is exactly W and not S, using the checked mathematical order decomposition; equality is not confused with the additional requirement of inequality. Actual axioms are propext, Classical.choice and Quot.sound. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
+}

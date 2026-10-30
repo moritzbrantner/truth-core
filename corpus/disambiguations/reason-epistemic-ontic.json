@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-REASON-EPISTEMIC-ONTIC",
+  "term": "reason",
+  "sense_definition_ids": [
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-EPISTEMIC-SUPPORT"
+  ],
+  "resolution": "Reason is read ontically (DEF-PSR-STRENGTH-REASON, a reason why a fact obtains) in every PSR, brute-truth and explained clause, and epistemically (DEF-EPISTEMIC-SUPPORT, a reason to accept a claim) in every supported, honored and demanded clause. The results do not pass from one to the other: the consistent critic has a supported brute root and an explained unsupported event. A passage from one to the other occurs only through a bridge listed as an explicit hypothesis (DEF-EPISTEMIC-ONTIC-BRIDGES)."
+}

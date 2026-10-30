@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
+  "paraphrase": "Sellars’s account requires present knowledge of relevant earlier facts, without requiring that they were known when they occurred.",
+  "definition_ids": [
+    "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY",
+    "DEF-SELLARS-TEMPORAL-EVIDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+  ]
+}

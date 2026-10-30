@@ -59,8 +59,9 @@ def validate_case(case, statements, results, arguments, models, root):
         raise ValueError('parameter_order must list every variable and fixed role exactly once')
     # Supported role shapes (all non-propositional, so no proof can hide in a
     # parameter): a carrier `Type`, a fixed carrier constant (Bool or Nat), a
-    # Kripke frame on a carrier, an element of a carrier, and a predicate or
-    # relation `X₁ → … → Xₙ → Prop` over carriers. Carriers must be declared
+    # Kripke frame or the existing existence-PSR data model on carriers,
+    # an element of a carrier, and a carrier-valued function, predicate or
+    # relation `X₁ → … → Xₙ → Y` over carriers (Y may be Prop). Carriers must be declared
     # before they are used. The necessary-individual profiles (W, I, F,
     # present, w) are one instance; the Megarian capacity profile (#576) is
     # another.
@@ -75,9 +76,16 @@ def validate_case(case, statements, results, arguments, models, root):
             carriers.add(parameter['name'])
         elif kind.startswith('TruthCore.Modal.Frame ') and kind.split(' ', 1)[1] in carriers:
             pass
+        elif (len(kind.split()) == 3
+              and kind.split()[0] == 'TruthCore.Explanation.ExistencePSR.Model'
+              and all(arg in carriers for arg in kind.split()[1:])):
+            # This exact structure contains ontology/explanation data, no
+            # soundness, PSR, or other proof fields. Keep arbitrary structures
+            # forbidden: they could carry a premise as an implicit field.
+            pass
         elif kind in carriers:
             pass
-        elif len(words) >= 2 and words[-1] == 'Prop' and all(word in carriers for word in words[:-1]):
+        elif len(words) >= 2 and words[-1] in carriers | {'Prop'} and all(word in carriers for word in words[:-1]):
             pass
         else:
             raise ValueError(f"{parameter['name']}: unsupported semantic role type; proof-valued parameters are forbidden")
@@ -205,7 +213,10 @@ def certificate_source(case, statements, results, arguments, models=None):
         substitutions = {role: model['bindings'][key] for role, key in entry['parameters'].items()}
         for j, parameter in enumerate(profile['parameters']):
             expected = parameter['type']
-            expected = re.sub(r'\b[A-Za-z_][A-Za-z_0-9]*\b', lambda match: '(' + substitutions[match[0]] + ')' if match[0] in substitutions else match[0], expected)
+            # Roles are unqualified names. A role named Model must not
+            # replace the final component of ExistencePSR.Model.
+            expected = re.sub(r'(?<![A-Za-z_0-9.])[A-Za-z_][A-Za-z_0-9]*(?![A-Za-z_0-9.])',
+                              lambda match: '(' + substitutions[match[0]] + ')' if match[0] in substitutions else match[0], expected)
             lines.append(f'def model_parameter_{index}_{j} : {expected} := {substitutions[parameter["name"]]}')
     lines += [f'#print axioms {name}' for name in generated_names('\n'.join(lines))]
     lines.append('end ConfigurationCertificates')

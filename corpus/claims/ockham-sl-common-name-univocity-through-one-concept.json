@@ -1,0 +1,15 @@
+{
+  "id": "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY",
+  "statement_id": "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.17: reply beginning Et si dicas nomina communia and following Et ideo concedendum",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Records the human-name example and its positive semantic reply. It does not generalize a complete semantics to every expression, prove correct classification, or identify the sign with what it signifies.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIVERSAL-MENTAL-SIGN",
+    "DEF-UNIVERSAL-CONVENTIONAL-SIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}

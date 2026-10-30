@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DEONTIC-AVAILABLE-CONTINUATION",
+  "term": "relation-relative possible fulfillment",
+  "definition": "Can available w p means there exists v with available.access w v and p v. Accessibility is an explicit input. Logical possibility, feasible continuation and the selected actual continuation require different intended relations; the definition does not assert any of them coincides. No temporal or agency axioms are implicit.",
+  "basis": "stipulative",
+  "note": "Separate from ideal-successor obligation and from moral permission. Complete continuation profiles are used only as small controls.",
+  "lean_declaration": "TruthCore.Modal.DeonticFutureBoundary.Can"
+}

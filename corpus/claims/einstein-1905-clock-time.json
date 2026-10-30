@@ -1,0 +1,17 @@
+{
+  "id": "EINSTEIN-1905-1-CLOCK-TIME",
+  "statement_id": "STMT-EINSTEIN-1905-CLOCK-TIME",
+  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "locator": "§1, paragraphs beginning “But it is not possible without further assumption” and “We assume that this definition”, ending “the time of the stationary system”",
+  "basis": "translation",
+  "interpretation": "Prose-only primary-translation reading. This records his frame-clock construction and its explicit assumptions, not proof that the convention is uniquely warranted or that a global metaphysical present is impossible.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-EINSTEIN-CLOCK-TIME",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+  ]
+}

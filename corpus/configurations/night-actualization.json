@@ -1,0 +1,281 @@
+{
+  "id": "CONFIG-NIGHT-ACTUALIZATION",
+  "description": "Actualization of unpreceded potency against three root-path motion/act-potency commitments and the open actual-mover/simple-priority bridge. The core and its deletion witnesses constrain the conjunction; no member or bridge is established. Inclusion-minimality and witness status are computed from live certificates.",
+  "seed_statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "semantics": {
+    "id": "night-actualization-shared-predicates",
+    "logic": "Constructive Lean propositions; no excluded-middle background for the core or forced distinct-mover consequence. The separately registered general coverage theorem takes explicit excluded middle and is not an implication input here. Zero-axiom certificates.",
+    "frame": "One shared evaluation, with no time or modal accessibility index. MovedIn means reduction from potency to act, InAct actuality in the stated respect, and PriorSimply simple rather than temporal priority. No identification of mere motion with efficient causation.",
+    "domain": "Arbitrary Being and Respect carriers (Type 0), possibly empty; the Night premise supplies its own witnesses. Registered controls use Bool/Unit; the moving residual uses three enumerated beings and one Unit respect.",
+    "identity": "Literal Lean equality. Same-respect self-motion is MovesIn x x r; no inference from whole/parts self-motion. All assumptions share exact predicates and respects.",
+    "vocabulary": "NIGHT-COSMOGONY",
+    "modules": [
+      "TruthCore.Alternatives.NightCosmogony",
+      "TruthCore.Alternatives.NightActualizationFork"
+    ],
+    "parameters": [
+      {
+        "name": "Being",
+        "type": "Type"
+      },
+      {
+        "name": "Respect",
+        "type": "Type"
+      },
+      {
+        "name": "InAct",
+        "type": "Being \u2192 Respect \u2192 Prop"
+      },
+      {
+        "name": "InPotency",
+        "type": "Being \u2192 Respect \u2192 Prop"
+      },
+      {
+        "name": "MovedIn",
+        "type": "Being \u2192 Respect \u2192 Prop"
+      },
+      {
+        "name": "MovesIn",
+        "type": "Being \u2192 Being \u2192 Respect \u2192 Prop"
+      },
+      {
+        "name": "PriorSimply",
+        "type": "Being \u2192 Being \u2192 Prop"
+      }
+    ],
+    "parameter_order": [
+      "Being",
+      "Respect",
+      "InAct",
+      "InPotency",
+      "MovedIn",
+      "MovesIn",
+      "PriorSimply"
+    ],
+    "applications": {
+      "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "PriorSimply"
+      ],
+      "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
+      "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
+      "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovesIn",
+        "PriorSimply"
+      ],
+      "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "MovesIn",
+        "PriorSimply"
+      ],
+      "STMT-POTENCY-PRIOR-TO-ACT": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD": [
+        "Being",
+        "Respect",
+        "MovedIn"
+      ]
+    },
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "full-core",
+      "statement_ids": [
+        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+      ]
+    },
+    {
+      "id": "without-night",
+      "statement_ids": [
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+      ]
+    },
+    {
+      "id": "without-mover",
+      "statement_ids": [
+        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+      ]
+    },
+    {
+      "id": "without-mover-actuality",
+      "statement_ids": [
+        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+      ]
+    },
+    {
+      "id": "without-non-simultaneity",
+      "statement_ids": [
+        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+      ]
+    },
+    {
+      "id": "without-priority-bridge",
+      "statement_ids": [
+        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+      ]
+    },
+    {
+      "id": "moving-bare-rival-survivor",
+      "statement_ids": [
+        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+        "STMT-POTENCY-PRIOR-TO-ACT",
+        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "NIGHT-ACTUALIZATION-CORE"
+  ],
+  "implication_result_ids": [
+    "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER"
+  ],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-NIGHT-COSMOGONY-NO-REDUCTION",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-COSMOGONY-SELF-MOVER",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-COSMOGONY-OTHER-MOVER",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-COSMOGONY-RESIDUAL",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-ACTUALIZATION-FORK-OVERLAP",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-ACTUALIZATION-FORK-NONACTUAL-MOVER",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    },
+    {
+      "model_id": "MODEL-NIGHT-MOVING-RESIDUAL",
+      "parameters": {
+        "Being": "Being",
+        "Respect": "Respect",
+        "InAct": "InAct",
+        "InPotency": "InPotency",
+        "MovedIn": "MovedIn",
+        "MovesIn": "MovesIn",
+        "PriorSimply": "PriorSimply"
+      }
+    }
+  ]
+}

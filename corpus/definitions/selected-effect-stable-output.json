@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+  "term": "cross-world stable output",
+  "definition": "For every x assigned as output of a at standpoint w, x is assigned as output of the same a at every accessible v where a is performed. This explicit cross-world sufficiency law is not entailed by local uniqueness or same act identity.",
+  "basis": "stipulative",
+  "note": "Explicit diagnostic for issue #462; no source attribution. Source-grounded act individuation and metaphysical adoption remain open. See docs/notes/selected-effect-bridge-462.md.",
+  "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.StableActOutput"
+}

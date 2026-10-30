@@ -1,0 +1,21 @@
+{
+  "id": "HISTORY-SELECTION-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-HISTORY-SELECTION-CERTIFICATE",
+  "inference_ids": [
+    "INF-HISTORY-SELECTION-CERTIFICATE"
+  ],
+  "meaning": "Prove the exact equivalence by using the complete evidence-equivalence class as a candidate and, conversely, transporting candidate truth along evidence agreement. Apply it to the accessible rival. Compose existing all-on/off, unique-feedback and source-overlap theorems; derive signal uniqueness pointwise without an initial value. Keep the same presence extensions while changing only the causal graph for the rooted comparison.",
+  "definition_ids": [
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-HISTORY-SELECTION-CONTROLS",
+    "DEF-HISTORY-CONTRASTIVE-CONTROL",
+    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+    "DEF-UNIQUE-FEEDBACK-STATE",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+  ]
+}

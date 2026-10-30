@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+  "argument_id": "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+  "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForest.rooted_of_confluent",
+  "comparator_config": "results/SOURCE-FOREST-ROOTED-FROM-CONFLUENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose WorldSourceRegress.sourcePath_of_acc at an explicitly present node to get a source; compose the confluence-based at-most-one theorem to identify all sources. For each node, compose sourcePath_of_acc again and transport its finite path endpoint to the same unique source. All structural philosophical premises stay open, and no world-to-world common witness or source with an outgoing edge is inferred. Root-premise delta zero; no philosophical premise is established."
+}

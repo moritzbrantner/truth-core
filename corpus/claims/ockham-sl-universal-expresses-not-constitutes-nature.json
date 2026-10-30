@@ -1,0 +1,16 @@
+{
+  "id": "OCKHAM-SL-I17-EXPRESSES-NATURE",
+  "statement_id": "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.17: fourth reply beginning Ad aliud dicendum est quod loquendo and Et hoc est quod dicit Commentator",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Reads the sign/constitutive-nature distinction, not the denial that substances have natures. Explaining or expressing in this semantic passage is not automatically efficient production, metaphysical grounding, or a sufficient epistemic explanation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNIVERSAL-MENTAL-SIGN",
+    "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
+    "DEF-COMMON-NATURE-CONSTITUENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}

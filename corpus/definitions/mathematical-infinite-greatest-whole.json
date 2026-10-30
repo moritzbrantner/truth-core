@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
+  "term": "mathematical infinite greatest region and its coordinate extent",
+  "definition": "Point is Fin 3 → ℝ and Region is Set Point under inclusion. whole is Set.univ. Both whole and the family of all regions are infinite; the family is order-bounded above by whole. coordinates s is the first-coordinate image of s in ℝ. Unboundedness of coordinates whole concerns the real order, not the region inclusion order, metric norm or intensive perfection. The explicit two-singleton subfamily has incomparable maximal elements and no greatest member.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Models.InfiniteGreatestWhole.whole",
+  "note": "A mathematical countermodel arena for #696, not actual spatial ontology or attribution to Aquinas. inAct is mere domain-membership contrast; emptyPriority is a formal omission, not an independently interpreted cause/ground. Source comparison and six semantic-grounding boundaries are in docs/notes/infinite-greatest-whole.md."
+}

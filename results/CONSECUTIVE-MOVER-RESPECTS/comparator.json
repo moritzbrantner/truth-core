@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.RespectSwitch.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RespectSwitch.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.RespectSwitch.consecutiveRespects"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

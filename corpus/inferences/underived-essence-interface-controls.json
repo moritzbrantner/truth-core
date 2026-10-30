@@ -1,0 +1,9 @@
+{
+  "id": "INF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "rule": "direct-proof",
+  "meaning": "Check the fixed joint and omission interpretations in ExtendedControls. The direct three-being model satisfies the q3 premises and the direct esse-cause interface while rejecting the all-ordinary-causes interface, with both relations well-founded and all endpoints actual. Existing varying Ontic data are reused rather than replacing necessity or underivedness with flags. No metaphysical possibility or inclusion-minimality of the ten-premise theorem is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

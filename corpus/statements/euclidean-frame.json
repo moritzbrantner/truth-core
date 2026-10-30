@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EUCLIDEAN-FRAME",
+  "paraphrase": "The chosen frame is Euclidean: any two successors of a world are mutually accessible.",
+  "lean_declaration": "TruthCore.Modal.Euclidean",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+  ]
+}

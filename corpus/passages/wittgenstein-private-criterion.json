@@ -1,0 +1,68 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WITTGENSTEIN-PHILOSOPHICAL-INVESTIGATIONS",
+    "source_url": "https://centerforgermanphilosophy.uchicago.edu/wp-content/uploads/2024/05/PI-243-308-422-427-Anscombe-Monolingual-Edition.pdf",
+    "retrieved_at": "2026-10-28T19:41:45Z",
+    "sha256": "sha256:b35d1b5738c8dac674c46d06ae563397bdb3d90eafbdf16c7041e3368579a21d",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright Basil Blackwell Ltd 1958, all rights reserved; university-hosted teaching excerpt. No redistribution permission asserted; only hashes, locators and short incipit retained. Two live fetches matched on 2026-10-28. Wayback CDX returned no status-200 PDF capture; save request timed out after 20 seconds without response. No fallback pinned; live witness remains fragile.",
+    "translation": {
+      "translator": "G. E. M. Anscombe",
+      "year": 1967,
+      "edition": "Third edition, Basil Blackwell; English text with index, ISBN 0-631-14670-9"
+    }
+  },
+  "passages": [
+    {
+      "id": "WITTGENSTEIN-PI-PRIVATE-CRITERION-CONTEXT",
+      "locator": "Part I §§239–274, printed pp.88e–95e (including preceding page-boundary context)",
+      "claim_locator_prefixes": [
+        "I.239",
+        "I.240",
+        "I.241",
+        "I.242",
+        "I.243",
+        "I.244",
+        "I.245",
+        "I.246",
+        "I.247",
+        "I.248",
+        "I.249",
+        "I.250",
+        "I.251",
+        "I.252",
+        "I.253",
+        "I.254",
+        "I.255",
+        "I.256",
+        "I.257",
+        "I.258",
+        "I.259",
+        "I.260",
+        "I.261",
+        "I.262",
+        "I.263",
+        "I.264",
+        "I.265",
+        "I.266",
+        "I.267",
+        "I.268",
+        "I.269",
+        "I.270",
+        "I.271",
+        "I.272",
+        "I.273",
+        "I.274"
+      ],
+      "pdf_pages": {
+        "first": 5,
+        "last": 12
+      },
+      "text_sha256": "sha256:67590da136c2e2a99d44c95af9ef9df57625f90bb5b0f215c1301aa46b7857d2",
+      "incipit": "88e PHILOSOPHICAL INVESTIGATIONS I of course for me to call this colour \"blue\"."
+    }
+  ],
+  "notes": "Analytical investigation context, not an attribution of the criterion factorization theorem to Wittgenstein. Read the verified materialization before using any source-derived claim; see docs/notes/wittgenstein-criterion-and-correctness.md."
+}

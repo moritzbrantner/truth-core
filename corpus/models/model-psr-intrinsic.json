@@ -95,11 +95,24 @@
       "value": "satisfies",
       "arguments": ["World", "Being", "Model", "world"],
       "theorem": "TruthCore.Explanation.WellFoundedSource.intrinsicExplainedSource"
+    },
+    {
+      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.intrinsicNoBrute"
+    },
+    {
+      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.intrinsicNotBrute"
     }
   ],
   "modules": [
     "TruthCore.Models.PSR",
     "TruthCore.Modal.WorldwiseExplanation",
-    "TruthCore.Explanation.WellFoundedSource"
+    "TruthCore.Explanation.WellFoundedSource",
+    "TruthCore.Models.PSRLocalControls"
   ]
 }

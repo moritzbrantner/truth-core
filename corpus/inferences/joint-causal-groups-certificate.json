@@ -1,0 +1,9 @@
+{
+  "id": "INF-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "rule": "Conditional relational proof and explicit scenario/graph omission controls",
+  "meaning": "Prove equality of the recorded-group projection with the original Graph, use transitive closure composition and acyclicity for IsStrictOrder, compose Graph.controls_of_wellFounded with source-minimality on the actual subtype, and reverse finite paths to characterize leastness under acyclicity. Check finite cooperative scenarios and omission fixtures, and import SourceWitness.overlap_control and PluralRootConfluence.control unchanged. Neither imported jointControl nor membership asserts cooperative sufficiency; all actual applicability and full-ground commitments remain OPEN. Root premise delta zero.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

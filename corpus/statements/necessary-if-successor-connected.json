@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-IF-SUCCESSOR-CONNECTED",
+  "paraphrase": "Every ordered pair of worlds accessible from the named standpoint is connected by a finite masked path; no successor existence is asserted.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfConnectivity.SuccessorConnected",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+    "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
+    "DEF-NECESSARY-IF-ALL-PREDICATE-VALIDITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY",
+    "DISAMB-MODAL-GRAPH-EDGE-PATH"
+  ]
+}

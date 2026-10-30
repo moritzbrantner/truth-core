@@ -1,0 +1,12 @@
+{
+  "id": "INF-SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "input_statement_ids": [
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
+    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT"
+  ],
+  "output_statement_id": "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "Mathlib equivalence_join turns upstream confluence into equivalence of having a common finite upstream extension. Every graph edge lies in that equivalence, so EqvGen causal connectivity joins any two sources. A source admits no nontrivial upstream path, forcing the common extension to equal each source. No WF, nonemptiness, acyclicity, necessary existence or divine predicate is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

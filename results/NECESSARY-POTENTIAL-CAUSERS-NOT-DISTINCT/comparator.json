@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.NecessaryPotentialCausers.checks",
+    "TruthCore.Results.Modal.NecessaryPotentialCausers.noDistinct"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

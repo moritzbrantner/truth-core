@@ -1,0 +1,10 @@
+{
+  "id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "kind": "primary_text",
+  "author": "Albert Einstein",
+  "work": "On the Electrodynamics of Moving Bodies (1905), W. Perrett and G. B. Jeffery translation (1923)",
+  "citation_system": "section and paragraph incipit",
+  "work_urn": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+  "catalog_url": "https://de.wikisource.org/wiki/Zur_Elektrodynamik_bewegter_K%C3%B6rper",
+  "notes": "English primary-text translation reproduced by Fourmilab. The German paper appeared in Annalen der Physik 17 (1905), 891–921. Selected sections1–3 are pinned as HTML; equation images are omitted by the existing text extractor, so attributed prose readings do not depend on image-only equations. The rational boost certificate is an analyst mathematical control, not an attributed reconstruction of the full physical derivation. No empirical validation or presentist/eternalist ontology is established. The host explicitly identifies John Walker1999 electronic editing, notation updates and specified corrections to the1923translation; source claims do not silently attribute those editorial symbols to the1905German printing."
+}

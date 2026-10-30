@@ -1,0 +1,16 @@
+{
+  "id": "KLEIN-TURRI-1-ENHANCEMENT",
+  "statement_id": "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
+  "source_id": "KLEIN-TURRI-INFINITISM",
+  "locator": "§1, paragraph beginning “In addition to denying”",
+  "interpretation": "Prose reading only. Not-yet-enhanced does not mean wholly unjustified; the passage does not license enhancement by arbitrary, false or irrelevant premises.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-REASON-ENHANCED-JUSTIFICATION",
+    "DEF-INFINITIST-REASON-AVAILABILITY",
+    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+  ]
+}

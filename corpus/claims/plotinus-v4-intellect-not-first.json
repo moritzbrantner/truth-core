@@ -1,0 +1,16 @@
+{
+  "id": "PLOTINUS-V4-INTELLECT-NOT-FIRST",
+  "statement_id": "STMT-PLOTINIAN-INTELLECT-NOT-FIRST",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.2, διὰ τί δὲ οὐ νοῦς ... διὸ δύο ἤδη",
+  "interpretation": "Source reading recorded in prose only. The source’s articulated intellect/intelligible argument is preserved rather than equating the Plotinian first with an intellectual first being. No denial of every alternative account of divine cognition is inferred.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
+    "DEF-PLOTINIAN-SIMPLICITY",
+    "DEF-PLOTINIAN-INTELLECT-DUALITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

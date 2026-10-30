@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING",
+  "term": "brute existence fact versus grounding-brute root",
+  "sense_definition_ids": [
+    "DEF-BRUTE-EXISTENCE-AT",
+    "DEF-NO-BRUTE-EXISTENCE-AT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+  ],
+  "resolution": "NoBruteExistenceAt and BruteExistenceAt concern existence of tokens in the model explains relation at one selected world. A brute root relative to a directed grounding relation concerns absence of concrete incoming grounds; it can still carry stipulated explanation tokens. The compatibility certificate expands the old grounding rival with sound all-world explanation coverage while retaining its brute contingent root and lack of a necessary concrete individual. No conversion from tokens to adequate, concrete or noncircular grounds is assumed."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PSR-REASON-NECESSITATING",
+  "term": "sufficient reason",
+  "sense_definition_ids": [
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING"
+  ],
+  "resolution": "Sufficient reason is read in the bare sense (DEF-PSR-STRENGTH-REASON) in every coverage formulation. The necessitating sense (DEF-PSR-REASON-NECESSITATING) appears only as the separately listed hypothesis Necessitating. The results never pass from one to the other: the collapse core lists Necessitating as a member, and the model ground true satisfies the other members without it. Which sense a source or a worldview intends is not decided here."
+}

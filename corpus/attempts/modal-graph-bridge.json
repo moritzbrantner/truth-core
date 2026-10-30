@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-MODAL-GRAPH-BRIDGE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-MODAL-GRAPH-BRIDGE-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reusable faithful graph interface discovered at proof checkpoint7674acca. Reused shared Kripke Frame/Holds/axiom4_valid and Mathlib Digraph, Quiver.Path/Reachable, Relation.ReflTransGen and reflTransGen_eq_self. Inspected all ten frozen helper types and proofs independently. Round trips preserve directed one-step edges including loops; explicit proof-lifted thin quiver avoids competing global instances on the same world carrier. Rejected replacing access by reachability unconditionally: the Unit dead-end still has a nil path, and box-false changes truth after reflexive-transitive closure. Required reflexivity+transitivity for closure/access identification; required transitivity for boxed path persistence and transitivity+Euclideanness for pointwise successor-cone agreement. No endpoint world identity or unboxed nil-endpoint truth is inferred. Original Challenge SHA98f5ff90e26613efa4033e92840e6d14971816822cd94f158f1ca08b77c7c68f preserved. Separate transparent ten-clause assembly certificate and wrapper Challenge frozen SHAa4ac1c832784dc9c86bfb705748315b11179ebe4246603bb2b8c6c9576325ec8 before Solution. One canonical result avoids binding distinct raw equality/iff heads to separate statements. Config includes all original helpers plus the wrapper through imported original Challenge/Solution. Focused discovery build passed; nine helpers report no axioms, reachable_iff_access reports propext/Quot.sound from Mathlib. This is an assembly delivery checkpoint, not additional discovery, source attribution, a metaphysical frame assertion or root discharge. Refinement focused build of both wrapper Solution and Challenge passed after freezing. Final integrated gate evidence remains pending. Refinement #print axioms of the compiled wrapper certificate reports exactly propext and Quot.sound; no Classical.choice or sorryAx is used by that term.",
+  "evidence": [
+    "MODAL-GRAPH-BRIDGE-CERTIFICATE"
+  ],
+  "blocker": "Final integrated binding and Comparator imported-target/NanoDa checks remain coordinator-owned; no philosophical premise is discharged."
+}

@@ -1,6 +1,6 @@
 # Systematic corpus loop
 
-Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Frontier investigations lead; source campaigns serve their open premises. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
+Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Constraint discovery within frontier investigations leads; source campaigns serve decisive gaps. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
 
 ## Frontier investigations: argument-first, decomposition on demand
 
@@ -8,11 +8,56 @@ For one owner-scoped thesis or argument (#565):
 
 1. **Map the whole case.** State the conclusion and downstream purpose, strongest positive argument and serious rivals, existing statement/theorem IDs, explicit assumptions, and current bottleneck.
 2. **Verify the conditional structure.** Formalize load-bearing inferences and test omissions or rival models. A verified implication does not establish its premises.
-3. **Refine recursively.** Pick the highest-leverage open premise or decisive fork; investigate it as a smaller end-to-end argument, reusing existing results. Repeat at the child level only when necessary.
+3. **Force choices before expanding premises.** Follow the [certified fork workflow](configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow): compose implications, certify incompatible bundles, prove coverage of substantive branches, and seek models of survivors under a fixed background. Investigate a child premise only when its resolution would discriminate those branches; do not default to another layer of assumptions.
 4. **Decompose on demand.** Separate canonical statements/tasks only when inference, a real disagreement, independent justification, reuse, or a source/proof invariant requires it. Do not manufacture atomized taxonomies or duplicate issues.
 5. **Recompose immediately.** Connect the child's actual result to its parent, update unresolved assumptions and alternatives, and continue the same argument. A failed route yields a recorded countermodel or precise blocker, not a stronger invented premise.
 
 Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
+
+## Semantic grounding of metaphysical relations
+
+For newly introduced or substantially reinterpreted relations involving causation,
+dependence, grounding, contingency, necessity or explanation, follow the semantic
+grounding requirement in `AGENTS.md`. Before philosophically significant relations
+support a metaphysical conclusion, answer these questions in their existing
+definition/disambiguation records or linked research notes, with evidence and
+explicit **OPEN** burdens where answers remain
+undefended:
+
+1. **Meaning.** What does the relation mean in ordinary language, without relying
+   on its symbol or formal properties to explain it?
+2. **Phenomena.** What are its clearest concrete examples and counterexamples,
+   and why do they instantiate or fail to instantiate this meaning? Explicitly
+   record why examples remain unavailable when that is the case.
+3. **Exclusions.** Which nearby cases fail to instantiate it, and what excludes
+   them? Distinguish efficient causation, grounding and conservation rather than
+   treating their names as interchangeable.
+4. **Properties.** What independently justifies each property the argument uses,
+   especially asymmetry, transitivity and well-foundedness, for this interpreted
+   relation on the stated domain? A physical example or the word “essential” is
+   not a proof of well-foundedness. A finite or inductively generated model proves
+   properties of that construction; it does not silently discharge well-foundedness
+   of actual dependence. State whether a property concerns one local relation or
+   a union of relations: properties of each component need not hold for the union.
+5. **Abstraction.** Why does an interpretation illustrated by physical causation,
+   electricity, motion or support license the proposed claim about existence or
+   general metaphysical dependence? Identify and defend the bridge, its domain
+   and limits; shared vocabulary or relational form does not supply it.
+6. **Rivals.** How does the interpretation fare against serious competing accounts
+   of the same phenomena and explanatory task? Preserve their strongest objections
+   and any unresolved disagreement.
+
+Prioritize the independent property justifications and the abstraction bridge
+(questions 4–5). A pure relational theorem establishes a conditional mathematical
+consequence, not the causal applicability of its relation. Such theorems remain
+useful and may be developed with open interpretive burdens, but must not be
+advertised as metaphysical support until those burdens are defended. Preserve
+the exact assumptions and unmet burdens in the existing records; this requirement
+adds no registry or verification gate and changes no source-fidelity standard.
+Independent justification may be a defensible philosophical argument, with its
+assumptions and defeaters explicit; it need not be empirical evidence or a kernel
+proof of every premise. Source attribution and formal consequence remain distinct
+from that independent defense.
 
 ## Progress is depth on the root path, not volume
 
@@ -49,7 +94,7 @@ A source range is complete once read and its relevant substantive content repres
 
 ## Failed proofs feed research
 
-Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. Prefer a targeted child argument or source candidate over unrelated reading.
+Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. First test whether the failure exposes a countermodel, incompatible bundle or useful fork. Pursue a targeted child argument or source candidate when it can resolve that fork; do not automatically expand the premise queue.
 
 ## Campaign handoff
 

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+  "lean_declaration": "TruthCore.Causality.SourceForest.UpstreamConfluent",
+  "paraphrase": "Open structural premise: any two finite upstream paths starting at one node can be extended upstream to a common node. No source or termination is assumed.",
+  "definition_ids": [
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

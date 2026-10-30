@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MCTAGGART-CIRCULAR-INDEXING-OBJECTION",
+  "paraphrase": "McTaggart objects that explaining successive A determinations presupposes time, while his earlier argument requires the A series to account for time; he therefore treats the proposed explanation of the A series as circular.",
+  "definition_ids": [
+    "DEF-MCTAGGART-A-B-DETERMINATIONS",
+    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+  ]
+}

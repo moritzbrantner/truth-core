@@ -1,0 +1,12 @@
+{
+  "id": "INF-NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+  "input_statement_ids": [
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+  ],
+  "output_statement_id": "STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+  "rule": "direct-proof",
+  "meaning": "Under actual reflexivity and the selected m.Causes union-WF profile, two necessary universal pointwise other-directed potential causers cannot be distinct. Their roles produce opposite root-accessible causal witnesses; necessity supplies present sources there, yielding opposite union edges contradicted by Mathlib well-founded asymmetry. The conclusion quantifies the two necessity/potential-role antecedents explicitly; it asserts no role witness, positive identity, metaphysical grounding identification or divine uniqueness. No degree, weak degree bound, invariance, no-contingent-ground or excluded-middle premise is used. Root premises remain unchanged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

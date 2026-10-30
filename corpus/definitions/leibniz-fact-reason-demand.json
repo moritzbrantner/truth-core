@@ -1,0 +1,10 @@
+{
+  "id": "DEF-LEIBNIZ-FACT-REASON-DEMAND",
+  "term": "sufficient reason for a fact or true statement",
+  "definition": "In Monadology §32 the reason answers why a real/existing fact or a true statement is so rather than otherwise. The demand is not restricted to reasons known by us. This explanatory norm is broader than a predecessor assignment and is not identified with efficient causation, a reason token, or a generated-warrant derivation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "LEIBNIZ-32-FACT-REASON-DEMAND",
+    "LEIBNIZ-32-REASON-EPISTEMIC-LIMIT"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-CARNEADES-INFINITE-WAGER-MIXTURE",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-INFINITE-WAGER-MIXTURE-TIE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Read complete public automatic captions of Carneades.org Pascal's Wager p3ScupIbdkU, 00:00\u201306:24; exact reading and rejection boundaries in docs/notes/carneades-decision-wager.md. No attributed source claim: media witness not pinned/materialized, audio/slides unverified. Companion ACeOPJPsHd8 returned caption HTTP429 and was not read. Independent stipulated nonnegative ENNReal profile p*q*top shows all nonzero mixtures tie at top; distinct probabilities one and one-half tie, while zero prior or zero rewarded-act probability gives zero. This challenges strict ranking by this coarse expectation alone; it does not refute tie-permitting maximization or prove practical obligation, belief agency, signed finite-cost immunity or religious truth. All priors/payoffs/agency/maximizing application commitments remain open. Main inventory found no existing wager/decision Lean vocabulary implementing #375/#376; standard Mathlib ENNReal reused instead of new arithmetic. No root-premise change. Challenge frozen c71299b3 before proof; persistent shared-session development diagnostics are not final Comparator certification.",
+  "evidence": [
+    "INFINITE-WAGER-MIXTURE-TIE"
+  ]
+}

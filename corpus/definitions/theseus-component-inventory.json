@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THESEUS-COMPONENT-INVENTORY",
+  "term": "exact component inventory",
+  "definition": "Two fixed slots each have their own old and replacement component. A Bool pair records the generation at each slot, not merely shape or mass: original and reassembled have (old,old), intermediate (new,old), continued (new,new). These finite inventories are shared by all bearer assignments; no whole-object identity is defined by inventory.",
+  "basis": "stipulative",
+  "note": "Analytical Theseus reassembly profile; not attributed to Plutarch. See docs/notes/theseus-identity-boundary.md.",
+  "lean_declaration": "TruthCore.Mereology.TheseusIdentity.contents"
+}

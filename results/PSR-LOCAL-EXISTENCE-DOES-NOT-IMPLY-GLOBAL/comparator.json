@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.NoBruteExistence.scopeControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

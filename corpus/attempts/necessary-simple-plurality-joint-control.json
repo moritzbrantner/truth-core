@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "date": "2026-10-28",
+  "statement_ids": [
+    "STMT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Built a single nonempty four-being interpretation with two universal worlds, two necessary uncaused roots and a positive common instrument/effect/per-se link. Existing simplicity and pure-act proofs are imported and applied to actual source-premise assignments; q3a4 cause-dichotomy/no-self-cause have actual distinct-esse witnesses. Registered exact first-way, Q11, act/perfection and PSR evaluations in one explicit combined model profile. Common-nature and differentiation-in-act exclude this very model via imported uniqueness theorems; own-essence/esse identity and shared represented acts do not supply either. Source q3a3/a7/q11a3 materialized/read. Compendium I12–15 newly twice-pinned/materialized/read supplies a no-differentiae/no-subject multiplication argument, with its application/exhaustiveness still open against primitive individuation/different essences. Rejected opaque Simple/God flags, mixing witnesses, claiming full genus–difference simplicity, treating intrinsic tokens as explanatory adequacy, and claiming formal satisfiability as metaphysical possibility. Exact source/proof/type boundaries and the next decisive premise are in docs/notes/necessary-simple-plurality.md. Root premise delta zero.",
+  "evidence": [
+    "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+    "AQUINAS-COMPENDIUM-I15-ONE-GOD",
+    "AQUINAS-ST-I-Q3-FIRST-MOVER-SIMPLE",
+    "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT",
+    "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+    "AQUINAS-ST-I-Q11-A3-ONE-FIRST-MOVER"
+  ]
+}

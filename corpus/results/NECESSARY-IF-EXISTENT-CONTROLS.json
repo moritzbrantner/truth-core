@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-IF-EXISTENT-CONTROLS",
+  "argument_id": "NECESSARY-IF-EXISTENT-CONTROLS",
+  "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
+  "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.controls",
+  "comparator_config": "results/NECESSARY-IF-EXISTENT-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "The fixed Bool interpretations certify: an S4 boxed-conditional model with both possibilities and neither necessity; a universal S5 actual-only-conditional model failing the boxed conditional and both necessities; a nonserial empty K5 model with both necessities and neither possibility; a disconnected identity S5 model with opposite component necessities but neither global alternative; and separate constant universal models witnessing each rival possibility while excluding the other. No source attribution, metaphysical possibility, God-existence, or root premise discharge is inferred."
+}

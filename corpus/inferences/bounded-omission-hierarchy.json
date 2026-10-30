@@ -1,0 +1,9 @@
+{
+  "id": "INF-BOUNDED-OMISSION-HIERARCHY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-BOUNDED-OMISSION-HIERARCHY",
+  "rule": "direct-proof",
+  "meaning": "Construct successor witnesses and restrict the bound. Reuse the existing Alternating.checks individual-contingency conjunct for bound 1; refute its bound 2 by enumerating the Boolean candidates. Enumerate the three rigid singleton populations to omit each pair, and use every-world population to refute whole-roster absence and bound 3. The proof is structural and may fail for another profile; it is not a transcription.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

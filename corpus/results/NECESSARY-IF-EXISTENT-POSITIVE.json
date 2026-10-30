@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-IF-EXISTENT-POSITIVE",
+  "argument_id": "NECESSARY-IF-EXISTENT-POSITIVE",
+  "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
+  "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.positive",
+  "comparator_config": "results/NECESSARY-IF-EXISTENT-POSITIVE/comparator.json",
+  "status": "solution-present",
+  "description": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-NECESSARY-IF-POSSIBLE-EXISTENCE, derive: G holds at every world accessible from the named standpoint (\u25a1G); this is neither frame-global truth nor the individual property Scott NE. No source attribution, metaphysical possibility, God-existence, or root premise discharge is inferred."
+}

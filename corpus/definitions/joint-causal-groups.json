@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-CAUSAL-GROUPS",
+  "term": "joint causal group records, scenario sufficiency and actual exercise",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.JointGroups.Groups",
+  "definition": "Groups record contributor and enabling-condition event sets, effect and admission without creating a new substance. Exercise adds separate bearer, scenario occurrence, allowed scenarios, actual scenario and exercised predicates. suffices quantifies over all admitted scenarios; indispensable and redundant test deletion relative to a particular group. exercisedGroups filters membership by exercise and admission; its actualGraph uses the existing occurring-event subtype. ancestry is Relation.TransGen. A least element finitely reaches every node; a source need only lack incoming edges.",
+  "note": "Meaning, examples, exclusions, conditional structural justification, strongest rivals and OPEN actual exercise/sufficiency/acyclicity/WF and physical-to-existential abstraction burdens are in docs/notes/joint-causal-groups-733.md. No source attribution or empirical causal sufficiency is claimed. Membership completeness, production and explanatory completeness remain distinct."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DEF-ARISTOTLE-NONHEAP-WHOLE",
+  "term": "nonheap whole in Metaphysics H.6",
+  "definition": "The explanatory target at 1045a8–14: a plurality of parts whose whole is not merely a heap but something besides its parts. This source condition is not silently equated with every fusion, a living organism, or the primitive Composite predicate used by the later Aquinas argument.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ARIST-MET-1045A-NONHEAP-UNITY"
+  ]
+}

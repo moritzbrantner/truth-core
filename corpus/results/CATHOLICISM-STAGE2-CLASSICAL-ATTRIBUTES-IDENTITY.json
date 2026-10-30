@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "argument_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.godHasClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Under explicit DecidableEq parameters on both \u03c3.Being and Principle, derive the same universal conditional attributes field from the other 18 unchanged premises. Identity case splits suffice for uniqueness, perfection and esse/essence identity. This is a separate sufficient interface, not a proof of logical minimality or of either equality decision assumption; it supplies no existence witness and does not change the designated root route."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "AQUINAS-COMPENDIUM-I15-ONE-GOD",
+  "statement_id": "STMT-GOD-IS-ONE",
+  "source_id": "AQUINAS-COMPENDIUM-THEOLOGIAE",
+  "locator": "I cap.15, [69988], three arguments for impossibility of several Gods; context capp.12–14",
+  "interpretation": "The conclusion is at-most-one proper divine being, not an existential proof and not a denial of distinct divine persons. The final argument constrains multiplicability of forms by differentiae or receiving subjects, then applies the previously claimed no-differentiae/subsistent-esse conditions to God. The source supplies an argument schema for uniqueness; this claim does not show that arbitrary necessary uncaused candidates satisfy its stronger conditions or that its division of individuation is independently established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ONE-GOD",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-ESSENCE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+  "term": "first-mover suppositum/nature applicability adapter",
+  "definition": "The existing GodSuppositumIsNatureReading is explicitly required of the candidate predicate IsFirstUnmovedMover Moved Moves, without changing that predicate or introducing a new God predicate.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverSuppositumIsNature",
+  "note": "Open, unattributed extension of the proper-God premise to the first-mover candidate domain. The q3a3 source argument about subsistent forms supplies a research lead; existing represented simplicity or modal necessity does not automatically discharge the adapter."
+}

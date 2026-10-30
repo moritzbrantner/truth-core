@@ -1,0 +1,15 @@
+{
+  "id": "PLOTINUS-V4-COMPOSITE-NEED",
+  "statement_id": "STMT-PLOTINIAN-COMPOSITE-NEED",
+  "source_id": "PLOTINUS-ENNEADS",
+  "locator": "V.4.1, τὸ γὰρ μὴ πρῶτον ... ἵν’ ᾖ ἐξ ἐκείνων",
+  "interpretation": "Source reading recorded in prose only. The explicit reason for excluding a nonsimple first is recorded. Constitutive need supplies neither the identity of a particular proper component nor an actual efficient cause unless those further interfaces are defended.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PLOTINIAN-SIMPLICITY",
+    "DEF-PLOTINIAN-CONSTITUTIVE-NEED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+  ]
+}

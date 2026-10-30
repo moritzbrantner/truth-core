@@ -1,0 +1,11 @@
+{
+  "id": "OPPY-2020-NECESSITY-COMPARATIVE-COST",
+  "statement_id": "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST",
+  "source_id": "OPPY-UNIVERSE-NO-CAUSE-2020",
+  "locator": "§§III–VII, pp.16–22",
+  "interpretation": "Retains the repeated restricted-comparison qualification. This is a sourced comparative argument, not independently accepted equality of all explanatory or epistemic properties, no aggregate numerical score and no global refutation of theism. §VI’s necessity-implies-independence step remains disputed rather than built into the models.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-OPPY-CAUSAL-MODAL-COMPARISON"
+  ]
+}

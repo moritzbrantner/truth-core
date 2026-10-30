@@ -1,0 +1,10 @@
+{
+  "id": "STMT-EXPERIMENT-APPLICATION-VERSUS-TEST",
+  "paraphrase": "An application experiment uses accepted physical theories to solve a practical problem; a test experiment investigates a theory’s correctness. Reliance on accepted theory in the former is not by itself a logical defect.",
+  "definition_ids": [
+    "DEF-SCIENCE-THEORY-LADEN-TEST"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCIENCE-TEST-ADEQUACY"
+  ]
+}

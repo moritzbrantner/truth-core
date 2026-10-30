@@ -1,0 +1,9 @@
+{
+  "id": "INF-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "rule": "constructive-existential-image-and-equality-transport",
+  "meaning": "An exact classifier transfers correctness across identical data. Conversely, classify a datum by existence of a correct state projecting to it; fiber invariance makes this exact on every represented state. The same two report values cannot distinguish false from true correctness in the Boolean control; identity data can.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

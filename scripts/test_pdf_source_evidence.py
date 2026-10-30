@@ -92,3 +92,55 @@ class PdfSnapshotTest(unittest.TestCase):
         item = dict(passage(), pdf_pages={'first': 1, 'last': 2})
         with self.assertRaisesRegex(se.SourceEvidenceError, 'textless'):
             se.extract_web_text(fixture_pdf(second_text=b''), item)
+
+
+class PdfSoftHyphenTest(unittest.TestCase):
+    # Actual Oppy pp.16/18/20 deltas from Poppler 24.02.0 and 26.01.0.
+    # Synthetic surrounding text avoids redistributing the copyrighted chapter.
+    old = "\u00adreality r\u00ad\neality, \u00adsingularity” real-time non‐natural\f"
+    new = "r\u00adeality \u00adreality, s\u00adingularity” real-time non‐natural\f"
+    canonical = "reality reality, singularity” real-time non‐natural"
+
+    def extract(self, text, item):
+        result = subprocess.CompletedProcess([], 0, text.encode(), b'')
+        with mock.patch.object(se.subprocess, 'run', return_value=result):
+            return se.extract_pdf_text(fixture_pdf(), item)
+
+    def normalized_item(self):
+        item = passage()
+        item['pdf_pages']['text_normalization'] = 'join_soft_hyphens'
+        item['text_sha256'] = se.sha256_text(self.canonical)
+        return item
+
+    def test_actual_version_deltas_converge_only_when_opted_in(self):
+        item = self.normalized_item()
+        se.validate_web_snapshot_manifest(se.ROOT / 'corpus/passages/fixture.json', item)
+        for text in (self.old, self.new):
+            with self.subTest(text=text):
+                # Existing witnesses retain exactly the previous extraction.
+                self.assertEqual(self.extract(text, passage()), ' '.join(text.split()))
+                actual = self.extract(text, item)
+                self.assertEqual(actual, self.canonical)
+                se.check_web_text(actual, item)
+
+    def test_does_not_join_across_page_boundaries(self):
+        item = self.normalized_item()
+        item['pdf_pages']['last'] = 2
+        self.assertEqual(self.extract("edge\u00ad\fcase\f", item), 'edge case')
+
+    def test_semantic_change_and_raw_byte_drift_still_rejected(self):
+        item = self.normalized_item()
+        changed = self.extract(self.new.replace('real-time', 'imaginary-time'), item)
+        with self.assertRaisesRegex(se.SourceEvidenceError, 'extracted text mismatch'):
+            se.check_web_text(changed, item)
+        with mock.patch.object(se, 'download', return_value=b'%PDF-1.4 altered'), mock.patch.object(se.subprocess, 'run') as run:
+            with self.assertRaisesRegex(se.SourceEvidenceError, 'byte drift'):
+                se.materialize_web_snapshot(item, use_cache=False)
+            run.assert_not_called()
+
+    def test_unknown_normalization_policy_rejected(self):
+        item = self.normalized_item()
+        for value in (True, None, 'remove-hyphens'):
+            with self.subTest(value=value), self.assertRaises(se.SourceEvidenceError):
+                se.validate_web_snapshot_manifest(se.ROOT / 'corpus/passages/fixture.json',
+                    dict(item, pdf_pages=dict(item['pdf_pages'], text_normalization=value)))

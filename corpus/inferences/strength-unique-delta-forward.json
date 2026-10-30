@@ -1,0 +1,11 @@
+{
+  "id": "INF-STRENGTH-UNIQUE-DELTA-FORWARD",
+  "input_statement_ids": [
+    "STMT-STRENGTH-UNIQUE-EXISTS"
+  ],
+  "output_statement_id": "STMT-STRENGTH-AT-MOST-ONE",
+  "rule": "typed_strength_comparison",
+  "meaning": "Any two witnesses equal the unique witness and hence each other.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

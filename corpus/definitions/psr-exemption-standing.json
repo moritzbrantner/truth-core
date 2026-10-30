@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXEMPTION-STANDING",
+  "term": "exemption standing",
+  "definition": "For a demanded target and a stance's own claim: Uniform demands both. Selective demands only the target although the two agree on a supplied feature k. Restricted demands only the target and the two differ on k. Each standing is relative to k, and neither Selective nor Restricted says k is the right feature or a defensible line.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #756. The results show the same stance can have both standings relative to different features.",
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.Selective"
+}

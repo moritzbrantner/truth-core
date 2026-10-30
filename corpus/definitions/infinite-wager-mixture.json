@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INFINITE-WAGER-MIXTURE",
+  "term": "nonnegative infinite-reward mixed-act expectation",
+  "definition": "Mathlib ENNReal provides extended nonnegative reals with top and zero-times-top equal to zero. value p q is p*q*top. p is reward-state prior weight; q is an independent probability of selecting the rewarded act; every other payoff is zero. Actual probabilities lie in [0,1]; the general algebra theorem also covers nonzero weights outside that range.",
+  "basis": "stipulative",
+  "note": "Restricted analyst profile prompted by a provisional Carneades caption reading, not attributed to Carneades or Pascal. Signed finite costs and infinite losses are excluded. Expected utility ranking supplies no action norm or truth premise.",
+  "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
+}

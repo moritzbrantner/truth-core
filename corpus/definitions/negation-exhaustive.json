@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NEGATION-EXHAUSTIVE",
+  "term": "exhaustive expressed negation",
+  "definition": "`NegationExhaustive truth neg`: `∀ p, truth p ∨ truth (neg p)`. Partner of exclusion (`NegationRespected`, `truth (neg p) → ¬ truth p`); neither includes the other.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.NegationExhaustive",
+  "note": "Stipulated. The models in STMT-TRUTH-COLLAPSE-CONTROLS separate it from exclusion."
+}

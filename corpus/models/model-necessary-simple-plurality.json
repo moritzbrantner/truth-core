@@ -1,0 +1,387 @@
+{
+  "id": "MODEL-NECESSARY-SIMPLE-PLURALITY",
+  "description": "One nonempty four-being, two-world universal-accessibility interpretation: two necessary uncaused roots share an actual instrument/effect and satisfy the displayed first-way/simplicity/pure-act inputs. These are exact represented-component, matter/form, essence/esse and three-respect claims, not a complete metaphysical theory of simplicity or a claim that the candidates are God. Common-nature and qualitative-act-differentiation fail in this same assignment. Intrinsic-tagged explanation tokens provide only sound PSR coverage, not sufficient intrinsic explanation. Genus/difference and full individuation adequacy remain open.",
+  "vocabulary": "NECESSARY-SIMPLE-PLURALITY",
+  "lean_declaration": "TruthCore.Models.NecessarySimplePlurality.model",
+  "bindings": {
+    "Being": "TruthCore.Causality.NecessarySimplePlurality.Being",
+    "Respect": "TruthCore.Causality.NecessarySimplePlurality.Respect",
+    "World": "Bool",
+    "Moved": "TruthCore.Causality.NecessarySimplePlurality.moved",
+    "Moves": "TruthCore.Causality.NecessarySimplePlurality.moves",
+    "InAct": "TruthCore.Causality.NecessarySimplePlurality.inAct",
+    "InPotency": "TruthCore.Causality.NecessarySimplePlurality.moved",
+    "AsMoved": "TruthCore.Causality.NecessarySimplePlurality.asMoved",
+    "Priority": "TruthCore.Causality.NecessarySimplePlurality.component",
+    "Component": "TruthCore.Causality.NecessarySimplePlurality.component",
+    "Body": "TruthCore.Causality.NecessarySimplePlurality.body",
+    "MatterForm": "TruthCore.Causality.NecessarySimplePlurality.matterForm",
+    "Composite": "TruthCore.Causality.NecessarySimplePlurality.composite",
+    "Essence": "TruthCore.Causality.NecessarySimplePlurality.essence",
+    "Esse": "TruthCore.Causality.NecessarySimplePlurality.esse",
+    "Candidates": "TruthCore.Causality.NecessarySimplePlurality.root",
+    "Suppositum": "TruthCore.Causality.NecessarySimplePlurality.suppositum",
+    "deity": "TruthCore.Causality.NecessarySimplePlurality.Being.left",
+    "PureAct": "TruthCore.Models.NecessarySimplePlurality.pureAct",
+    "PSR": "TruthCore.Causality.NecessarySimplePlurality.explanation",
+    "Ontic": "TruthCore.Causality.NecessarySimplePlurality.ontic",
+    "actual": "Bool.false",
+    "EsseProfile": "TruthCore.Causality.NecessarySimplePlurality.esseProfile",
+    "left": "TruthCore.Causality.NecessarySimplePlurality.Being.left",
+    "CausesIn": "TruthCore.Causality.NecessarySimplePlurality.esseProfile.CausesIn",
+    "esseRespect": "TruthCore.Causality.NecessarySimplePlurality.Respect.esse"
+  },
+  "carriers": [
+    {
+      "binding": "World",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.enumerateWorld"
+    },
+    {
+      "binding": "Being",
+      "elements": [
+        "TruthCore.Causality.NecessarySimplePlurality.Being.left",
+        "TruthCore.Causality.NecessarySimplePlurality.Being.right",
+        "TruthCore.Causality.NecessarySimplePlurality.Being.instrument",
+        "TruthCore.Causality.NecessarySimplePlurality.Being.effect"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.enumerateBeing"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.esse",
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.drive",
+        "TruthCore.Causality.NecessarySimplePlurality.Respect.heat"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.enumerateRespect"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation0"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation1"
+    },
+    {
+      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moves",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation2"
+    },
+    {
+      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation3"
+    },
+    {
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation4"
+    },
+    {
+      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "AsMoved"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation5"
+    },
+    {
+      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "AsMoved"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation6"
+    },
+    {
+      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "Priority"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation7"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "Priority"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation8"
+    },
+    {
+      "statement_id": "STMT-NO-BODY-MOVES-UNLESS-MOVED",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "Body"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation9"
+    },
+    {
+      "statement_id": "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Component",
+        "Priority"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation10"
+    },
+    {
+      "statement_id": "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Composite",
+        "Component"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation11"
+    },
+    {
+      "statement_id": "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Being",
+        "MatterForm",
+        "Composite",
+        "Essence",
+        "Esse"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation12"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Being",
+        "Moved",
+        "Moves",
+        "Body",
+        "MatterForm",
+        "Composite",
+        "Essence",
+        "Esse"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation13"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "PureAct"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation14"
+    },
+    {
+      "statement_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation15"
+    },
+    {
+      "statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation16"
+    },
+    {
+      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Being",
+        "Suppositum"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation17"
+    },
+    {
+      "statement_id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Being",
+        "Candidates",
+        "Suppositum",
+        "Essence"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation18"
+    },
+    {
+      "statement_id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Being",
+        "Candidates",
+        "Essence",
+        "deity"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation19"
+    },
+    {
+      "statement_id": "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+      "value": "violates",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Moved",
+        "Moves",
+        "InAct"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation20"
+    },
+    {
+      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "PSR"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation21"
+    },
+    {
+      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "PSR"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation22"
+    },
+    {
+      "statement_id": "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Being",
+        "Respect",
+        "EsseProfile"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation23"
+    },
+    {
+      "statement_id": "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Being",
+        "Respect",
+        "EsseProfile"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation24"
+    },
+    {
+      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "actual",
+        "left"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation25"
+    },
+    {
+      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "actual"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation26"
+    },
+    {
+      "statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "Composite",
+        "CausesIn",
+        "esseRespect"
+      ],
+      "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation27"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.NecessarySimplePlurality"
+  ]
+}

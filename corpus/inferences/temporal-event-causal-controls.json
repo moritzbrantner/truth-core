@@ -1,0 +1,9 @@
+{
+  "id": "INF-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+  "rule": "model-construction",
+  "meaning": "Two closed mathematical controls: the usual real interval [0,1] has a first instant 0; every event label n has clock time 1 - zenoStageTime n = (1/2)^n in (0,1], and every event has an event at a strictly smaller time. Thus no event occurs at 0 and there is no least event although elapsed clock duration is bounded and the time carrier has a first instant. Separately the usual integer time/event carrier has an event earlier than every integer bound, while its stipulated causal relation is empty, well-founded, and has no Nat-indexed descending causal series. Event indices label occurrences and do not specify chronological order. Neither physical realization nor a beginningless physical past is established. No philosophical premise is discharged; intended and actual root-premise delta none.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

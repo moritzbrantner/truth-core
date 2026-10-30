@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RotatingPotentialCausers.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RotatingPotentialCausers.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RotatingPotentialCausers.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

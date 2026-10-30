@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL",
+  "term": "actual-only necessary-if-existent conditional",
+  "definition": "At the named world w, G w implies Box F G w. This says nothing about whether the same conditional holds at other accessible worlds and is weaker than the boxed conditional on reflexive S5 frames.",
+  "basis": "stipulative",
+  "note": "Scope control for #437, no source attribution and no assertion that G is instantiated.",
+  "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.ActualConditional"
+}

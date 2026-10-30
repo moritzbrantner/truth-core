@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACCESSIBLE-SUCCESSOR",
+  "paraphrase": "The supplied base world has at least one accessible successor; no population is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.AccessibleSuccessor",
+  "definition_ids": [
+    "DEF-FINITE-POPULATION-COVER",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

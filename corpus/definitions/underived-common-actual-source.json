@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+  "term": "explicit actual causal-to-support interface and common underived source",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.ActualCauseSupportsEsse",
+  "definition": "ActualCauseSupportsEsse m R w says every m.Causes w source target edge with BOTH endpoints existing at the selected w is also an R w source target edge. It is a one-way OPEN interface, not R = m.Causes. UniqueActualSourceAt m w n says n actually exists, the actualGraph subtype node of that same n is a Graph.Source, and every source in that selected-world actual-node graph has underlying individual n. CommonUnderivedActualSource m R w retains a single n satisfying NamedNecessarilyUnderived m R w n together with UniqueActualSourceAt m w n. It does not say all graph nodes have upstream paths to n. actualSupportGraph m R w uses the existing Actual m w carrier and Graph edge R w. UniqueActualSupportSourceAt and CommonUnderivedSupportSource have the same witness-preserving source meanings for R instead of Causes; their primary integration needs no causal-to-support interface.",
+  "note": "Task-specific integration of existing named underived and world-local source meanings. The interface is independently disputable and unattributed. The graph theorem supplies uniqueness from connectedness and confluence; it supplies neither this interface nor underived existence. No simplicity, God, intrinsic explanation or cross-world source uniqueness is encoded."
+}

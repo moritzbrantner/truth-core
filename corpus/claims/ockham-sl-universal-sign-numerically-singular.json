@@ -1,0 +1,15 @@
+{
+  "id": "OCKHAM-SL-I14-SINGULAR-SIGN",
+  "statement_id": "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
+  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "locator": "I.14: paragraphs beginning Est autem primo sciendum and Dicendum est igitur",
+  "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Reads the two senses of singular and the conclusion about universality by signification. Aptness for predication of many is not asserted actual plurality, infallibility or a modal-domain theorem.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NUMERICAL-SINGULARITY",
+    "DEF-UNIVERSAL-MENTAL-SIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+  ]
+}

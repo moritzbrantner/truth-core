@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+  "term": "selected-world necessary support and underived essence identity",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualUnderivedEssenceEsse.ActualUnderivedEssenceIdentity",
+  "definition": "ActualNoContingent restricts the existing no-contingent-supporter condition to w. ActualNecessarySupport m R w c n is NecessaryAt m w c ∧ NecessaryAt m w n ∧ PresentEsseSupport m R w c n; ActualNecessaryWellFounded is its well-foundedness. ActualUnderivedEssenceIdentity existentially conjoins actual presence, NecessaryAt, NoExistingSupportAt m R w n (absence of actual existing R supporters), and Profile essence–esse equality for one same bearer.",
+  "note": "A deliberately weaker scope than NamedNecessarilyUnderived and UnderivedEssenceIdentity. No actual reflexivity, cross-world edge transport or all-world supporter exclusion is implicit. The necessity notion and typed q3 profile retain their existing meanings. These restrictions are analyst stipulations, not attributed historical premises."
+}

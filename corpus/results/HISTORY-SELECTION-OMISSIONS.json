@@ -1,0 +1,10 @@
+{
+  "id": "HISTORY-SELECTION-OMISSIONS",
+  "argument_id": "HISTORY-SELECTION-OMISSIONS",
+  "challenge_module": "TruthCore.Results.Explanation.HistorySelection.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.HistorySelection.Solution",
+  "theorem": "TruthCore.Results.Explanation.HistorySelection.omissions",
+  "comparator_config": "results/HISTORY-SELECTION-OMISSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "Omission/nonvacuity controls for accessibility, distinctness, evidence-only dependence and actual truth, plus positive comparative weights. No metaphysical or epistemic adequacy is certified."
+}

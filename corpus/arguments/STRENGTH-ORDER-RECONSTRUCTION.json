@@ -1,0 +1,15 @@
+{
+  "id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-ORDER-AT-LEAST",
+    "STMT-STRENGTH-ORDER-UNEQUAL"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-ORDER-GREATER",
+  "inference_ids": [
+    "INF-STRENGTH-ORDER-RECONSTRUCTION"
+  ],
+  "meaning": "Apply pinned Mathlib lt_of_le_of_ne with the correctly oriented inequality in the same supplied LinearOrder.",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

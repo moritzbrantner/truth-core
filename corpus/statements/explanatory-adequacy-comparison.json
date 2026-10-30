@@ -1,0 +1,25 @@
+{
+  "id": "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+  "paraphrase": "On one shared signature and target. Reason closure has accounts in the one-necessary-being, two-necessary-beings, necessary-fact-with-no-necessary-being, infinite-chain and no-rival models, and none in the brute-terminus or idle-necessary-being models. Truth-discriminating contrast relevance has no account containing the target in the source, necessary-fact, brute or idle models, and holds on the chain, where one reason per member also excludes all rivals unless the whole is included, and vacuously in the no-rival model. Two-way reasons hold in the source, necessary-fact and no-rival models, the last vacuously, and for no account containing the target in the chain, brute or idle models. All three standards agree on an arena and its projection without beings, and the one-being and necessary-fact models have one projection. Adding a fact true everywhere as sole reason gives any truth of any arena a reason-closed account with truths and beings unchanged, including the brute model; for a contingent explanandum contrast relevance then fails, and two-way reasons hold given a rival outcome. The necessary-being stop is met by the source models, by no reason-closed account in the necessary-fact model, and vacuously by the chain without the whole; with closure, well-foundedness and a contingent explanandum it excludes that no being is necessary, which it stated. On the #735 overlays target2 has a reason-closed account in all four graphs when all candidates are necessary; with the other overlay it has one in the single and plural graphs and none in the branch and chain graphs. Chain has no joint Supply of target2, and plural has it with no least node. These are model verdicts and conditional consequences. No standard is established, and no model is shown metaphysically possible.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-TWO-WAY",
+    "DEF-EXPLANATORY-BEING-STOP",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ],
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.Comparison"
+}

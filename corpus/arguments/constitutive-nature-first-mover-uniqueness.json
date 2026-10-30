@@ -1,0 +1,34 @@
+{
+  "id": "CONSTITUTIVE-NATURE-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+  ],
+  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "inference_ids": [
+    "INF-CONSTITUTIVE-NATURE-FIRST-MOVER-UNIQUENESS"
+  ],
+  "meaning": "Every-perfection and the SAME-InAct alignment give pointwise agreement of each first mover’s proposed constitutive nature contents. Completeness gives one common represented nature, using any supplied first mover only inside the at-most-one proof. Apply imported Q11NatureUniqueness.godIsOneFromNature with incommunicable individuation and the explicit first-mover suppositum/nature adapter. No first mover is produced; the three new applicability/constitutive premises remain open. This is a conditional interface composition, not independent defense of the unreceived-esse bridge.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

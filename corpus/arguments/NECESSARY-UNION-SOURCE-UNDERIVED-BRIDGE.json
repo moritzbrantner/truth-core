@@ -1,0 +1,23 @@
+{
+  "id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "inference_ids": [
+    "INF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE"
+  ],
+  "meaning": "Universal conditional source-to-common-underived bridge: actual reflexivity gives the source actual presence and no-contingent-ground lifts any existing incoming supporter into the necessary carrier, contradicting sourcehood. Neither background is established. The graph source itself supplies a necessary individual; this bridge does not need finite population or edge invariance.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-UNION-SOURCE",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

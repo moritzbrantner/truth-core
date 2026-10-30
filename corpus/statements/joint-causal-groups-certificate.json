@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "lean_declaration": "TruthCore.Causality.JointGroups.Certificate",
+  "paraphrase": "Conditional joint-membership order schema and fixed controls: acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal ancestors and, with actual population, a source; under acyclicity a least element is exactly a source with finite paths from every node. Typed ignition records assert only membership. A finite scenario model separates joint sufficiency, alternatives, redundancy, enabling conditions and actual exercise. Exact recorded #634 and imported #707 controls preserve respectively the infinite branch despite unique source/records and plural minima without a least element. Empty record/absent-event and cycle omissions prevent stronger applicability conclusions.",
+  "definition_ids": [
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "DEF-PLURAL-ROOT-CONFLUENCE-CONTROL",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

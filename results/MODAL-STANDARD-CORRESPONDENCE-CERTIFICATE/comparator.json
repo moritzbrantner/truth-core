@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.StandardCorrespondenceCertificate.Challenge",
+  "solution_module": "TruthCore.Results.Modal.StandardCorrespondenceCertificate.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.StandardCorrespondenceCertificate.certificate",
+    "TruthCore.Results.Modal.StandardCorrespondence.t_iff_reflexive",
+    "TruthCore.Results.Modal.StandardCorrespondence.d_iff_serial"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+  "paraphrase": "Universal assembly of the separately frozen one-atom T and D frame correspondences. Valid quantifies over every valuation and every world. T validity is equivalent to reflexivity, by the characteristic valuation P(v)=access(w,v); D validity is equivalent to seriality, by the constant-true valuation. Reverse directions reuse axiomT_valid and axiomD_valid. There is no frame-property, inhabitedness, causal, temporal or explicit excluded-middle premise; empty world types satisfy both universal sides vacuously. Symmetry alone is the B axiom/KB frame condition, whereas standard B includes T (KTB here). This is frame/valuation correspondence, not Hilbert soundness/completeness or metaphysical frame truth. The wrapper is assembly, not an additional discovery. Root-premise delta none.",
+  "lean_declaration": "TruthCore.Modal.StandardCorrespondenceCertificate",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE"
+  ]
+}

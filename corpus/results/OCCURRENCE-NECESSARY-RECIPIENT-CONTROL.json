@@ -1,0 +1,10 @@
+{
+  "id": "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "argument_id": "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.OccurrenceUnderivedEssence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution",
+  "theorem": "TruthCore.Results.Causality.OccurrenceUnderivedEssence.recipient_control",
+  "comparator_config": "results/OCCURRENCE-NECESSARY-RECIPIENT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the #680 varying ontology and pairProfile, adding a thought borne by recipient true and using its existing varying support as grounding. All six non-logical #564 premises hold; true itself witnesses the old necessary-ancestor conclusion but has actual incoming support and distinct represented esse. The same interpretation has source false with no actual incoming support and identity. This refutes propagation to an arbitrary necessary witness, not the strengthened minimal-ancestor theorem or metaphysical possibility."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY",
+  "statement_id": "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
+  "source_id": "ARIST-EN",
+  "locator": "I.7, 1098a7-20",
+  "interpretation": "The conclusion describes human good as activity of soul according to virtue, according to the best and most complete if there are several, and adds a complete life. The reading preserves activity rather than mere rational capacity and the complete-life qualification. VirtuousActivity is a parameter for the specified appropriate excellence; no ordering or independent justification of virtues is encoded. The analogy and human-function identification are not claimed to be proved.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+  ]
+}

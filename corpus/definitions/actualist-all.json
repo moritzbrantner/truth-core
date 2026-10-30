@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUALIST-ALL",
+  "term": "actualist universal quantification",
+  "definition": "For a fixed Ontic roster and total predicate P:World\u2192Being\u2192Prop, ActualistAll m P w means every candidate x satisfying ExistsAt w x satisfies P w x. Only the quantifier is existence-guarded; P remains defined on absent candidates.",
+  "basis": "stipulative",
+  "note": "Approved source-free semantic interface for fixed-roster actualist domain transfer. No physical or metaphysical domain policy is asserted. No free-logic proof calculus, counterpart semantics, or general quantified syntax is introduced.",
+  "lean_declaration": "TruthCore.Modal.ActualistDomains.ActualistAll"
+}

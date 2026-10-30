@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOOST-FRAME-SIMULTANEITY",
+  "term": "coordinate-frame simultaneity",
+  "definition": "Simultaneous p q is equality p.1=q.1 of supplied coordinate times. The transformed comparison uses the first coordinates of boost p and boost q.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Spacetime.BoostSimultaneity.Simultaneous",
+  "note": "This analytic predicate captures one frame-coordinate relation only. Its empirical identification with clock synchronization and any identification with metaphysical co-presence remain distinct open readings; source clock claims are recorded separately."
+}

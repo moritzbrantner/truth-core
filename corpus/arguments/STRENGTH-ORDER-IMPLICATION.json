@@ -1,0 +1,14 @@
+{
+  "id": "STRENGTH-ORDER-IMPLICATION",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-ORDER-GREATER"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-ORDER-AT-LEAST",
+  "inference_ids": [
+    "INF-STRENGTH-ORDER-IMPLICATION"
+  ],
+  "meaning": "Apply pinned Mathlib le_of_lt in the same supplied LinearOrder.",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

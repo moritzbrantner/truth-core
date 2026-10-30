@@ -1,0 +1,46 @@
+{
+  "id": "PART-FREE-PLURALITY-JOINT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "inference_ids": [
+    "INF-PART-FREE-PLURALITY-JOINT-CONTROL"
+  ],
+  "meaning": "Construct a simultaneous part-free five-being strengthening of the unchanged four-being control. Import and apply the existing FirstMoverSimple, FirstMoverPureAct, Q11NatureUniqueness and OneFirstMover theorems. Separate ordinary causation/priority from composition and certify q3a8 without discarding the two composite/distinct-esse witnesses. This does not discharge an open root premise.",
+  "definition_ids": [
+    "DEF-PART-FREE-PLURALITY-JOINT-CONTROL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-SIMPLE",
+    "DEF-PURE-ACT",
+    "DEF-PSR-REASON",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-PSR-SOUNDNESS",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-SIMPLE-PLURALITY",
+    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
+    "DISAMB-IN-ACT",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-POWER-CAPACITY-EXERCISE",
+    "DISAMB-CAUSE"
+  ]
+}

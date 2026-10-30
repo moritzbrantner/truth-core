@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "argument_id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryConcreteOfActualGrounded",
+  "comparator_config": "results/NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms: inhabitedness, restricted well-foundedness and 'every actual contingent concretum has an actual concrete ground' give a concrete individual existing at every accessible world. The third premise rejects the root horn and needs its own defence. All three non-logical premises are open; no root change."
+}

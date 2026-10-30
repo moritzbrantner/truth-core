@@ -1,0 +1,21 @@
+{
+  "id": "STMT-EVENT-MOTION-PROJECTION",
+  "paraphrase": "Every selected causal event edge supplies a canonical MovesIn edge between the source and target bearers, in the target event respect, at the target exercise time. This unattributed bridge is open; no causal endpoint existence or ordinary-cause/per-se identity follows by definition.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.MotionProjection",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

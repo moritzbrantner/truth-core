@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-NIGHT-MOVING-RESIDUAL",
+  "statement_ids": [
+    "STMT-POTENCY-PRIOR-TO-ACT",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+  ],
+  "date": "2026-10-28",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "At source baseline c2463001, rejected an additional bare-rival coverage theorem as insufficient novelty: the selected unpreceded potency either is not being moved or has a distinct nonprior actual mover is a direct witness-local repackaging of the existing Night elimination/forced-repair result, and adding the priority bridge makes its nonmotion follow constructively. The decisive remaining question was whether this survivor requires absence of all present motion. Existing MODEL-NIGHT-COSMOGONY-RESIDUAL has no motion, while MODEL-NIGHT-COSMOGONY-OTHER-MOVER violates the priority bridge; combining them cannot answer the joint question. Constructed MODEL-NIGHT-MOVING-RESIDUAL in TruthCore.Models.NightMovingResidual: one shared three-being, one-respect interpretation has an idle potency with no actual prior, a distinct moved potency, and an actual mover simply prior to the moved potency. All four root-core commitments and present motion hold together with the bare potency-priority rival, while the stronger Night commitment and global act-priority fail. The negative Night evaluation composes the existing coreFromRootPremises theorem. Focused module build and the existing finite-model gate pass all 11 closed model/carrier/evaluation certificates with no axioms; the exact model_report classifies it as a counterexample to global act-priority from all six positively evaluated commitments, with no missing or violated premise. Independent source/type/registration sweep found no P1/P2. Bounds: three beings and one respect, not claimed carrier-minimal. InPotency remains a shared primitive assigned by this interpretation, not a new global definition. The idle potency is not being moved at this evaluation; no permanent rest or temporal persistence follows. This certifies satisfiability of the encoding, not metaphysical possibility, premise truth or unconditional root closure. Root-premise delta: none.",
+  "evidence": [
+    "GENERATION-FROM-NIGHT-REFUTED",
+    "NIGHT-ACTUALIZATION-CORE"
+  ],
+  "blocker": "Eliminating this remaining formal rival requires an independently defended constraint applying to an unpreceded potency even when it is not presently being actualized; the existing mover/priority commitments only constrain the moving branch. No such new philosophical premise is added."
+}

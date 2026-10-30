@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
+  "rule": "typed_strength_comparison",
+  "meaning": "The Bool relation with only the false-to-false pair makes broad-to-distinct implication vacuous at the uncaused true point while falsifying the local delta at false; the named delta is not a disguised conditional W → S.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

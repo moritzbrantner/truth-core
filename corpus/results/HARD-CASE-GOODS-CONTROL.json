@@ -1,0 +1,10 @@
+{
+  "id": "HARD-CASE-GOODS-CONTROL",
+  "argument_id": "HARD-CASE-GOODS-CONTROL",
+  "challenge_module": "TruthCore.Results.Ethics.HardCaseGoods.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.HardCaseGoods.Solution",
+  "theorem": "TruthCore.Results.Ethics.HardCaseGoods.certificate",
+  "comparator_config": "results/HARD-CASE-GOODS-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Extends the certified same-facts hard-case pair with shared positive but nonconstant life and bodily-integrity good and damage relations. The assignments are stipulative, not sourced moral truths or licenses to harm."
+}

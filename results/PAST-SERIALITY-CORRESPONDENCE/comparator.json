@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.PastSeriality.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PastSeriality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.PastSeriality.strictPast_serial_iff",
+    "TruthCore.Results.Modal.PastSeriality.strictPast_D_iff",
+    "TruthCore.Results.Modal.PastSeriality.inclusivePast_T_D",
+    "TruthCore.Results.Modal.PastSeriality.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROTATING-NECESSARY-POTENTIAL-CAUSERS",
+  "rule": "direct-proof",
+  "meaning": "The literal registered rotating interpretation jointly has two distinct necessary universal potential causers and well-founded present-source causal support at every world, but not a well-founded cross-world necessary-support union. Compose its old worldwise-WF and non-union-WF theorems with the newly checked potential roles. Hence worldwise WF cannot replace the union premise of the negative non-distinctness constraint; no metaphysical possibility or failure of every stronger causal theory follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -47,7 +47,48 @@
       "value": "violates",
       "arguments": ["World", "Being", "Model", "individual"],
       "theorem": "TruthCore.Modal.WorldwiseExplanation.alternatingNotStable"
+    },
+    {
+      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingNoBrute"
+    },
+    {
+      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingNotBrute"
+    },
+    {
+      "statement_id": "STMT-PSR-POPULATED-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingPopulated"
+    },
+    {
+      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "value": "satisfies",
+      "arguments": ["World", "Being", "Model", "world"],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingWellFounded"
+    },
+    {
+      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "value": "violates",
+      "arguments": ["World", "Being", "Model"],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingNotExternal"
+    },
+    {
+      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "value": "satisfies",
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
+      "theorem": "TruthCore.Models.PSRLocalControls.alternatingExplainedSource"
     }
   ],
-  "modules": ["TruthCore.Modal.WorldwiseExplanation"]
+  "modules": ["TruthCore.Modal.WorldwiseExplanation", "TruthCore.Models.PSRLocalControls"]
 }

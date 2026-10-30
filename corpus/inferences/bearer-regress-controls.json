@@ -1,0 +1,9 @@
+{
+  "id": "INF-BEARER-REGRESS-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-BEARER-REGRESS-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Branch witnesses for the four outcome forms and the bundle case, two non-exclusivity models, omission models for the ancestry premise and each bridge, a contingent terminus and a negative-test control, plus the universal exclusion of the nonterminating forms by the terminus forms. Logical models only; no premise is discharged and none is claimed metaphysically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

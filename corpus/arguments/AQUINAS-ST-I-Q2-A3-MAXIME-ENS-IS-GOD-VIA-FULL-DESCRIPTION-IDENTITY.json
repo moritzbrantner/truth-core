@@ -1,0 +1,38 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+  "premise_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-ENS-IS-GOD",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY"
+  ],
+  "meaning": "Separate sufficient interface under explicit DecidableEq Being; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed.",
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ],
+  "definition_ids": [
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-RESPECT",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-SIMPLE",
+    "DEF-MAXIME-ENS",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA"
+  ]
+}

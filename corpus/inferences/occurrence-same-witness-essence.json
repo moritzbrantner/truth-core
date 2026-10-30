@@ -1,0 +1,23 @@
+{
+  "id": "INF-OCCURRENCE-SAME-WITNESS-ESSENCE",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
+  "rule": "direct-proof",
+  "meaning": "Refine the original COGITO-ANCESTRY-ROOT-FORK Acc descent to retain its actual-concrete-ground-minimal witness; the original thinker-local anti-brute premise rules out its contingent horn. Projecting the strengthened helper preserves the old frozen fork type. For that SAME concrete necessary ancestor, the explicit actual-support-to-concrete-ground bridge excludes actual existing R-supporters. Import and apply actual_not_not_identity_direct from UNDERIVED-ESSENCE-ESSE to that very n; explicit excluded middle gives represented essence–esse identity. This is conditional composition consuming the existing q3 transcription, not a defense of its source commitments or of occurrence, concreteness, grounding, well-foundedness or the three q3 interfaces. No new necessary→underived premise, no witness replacement, no union/all-world support conclusion. Root-premise delta none.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

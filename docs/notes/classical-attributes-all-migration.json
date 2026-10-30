@@ -1,0 +1,1971 @@
+{
+  "schema_version": 1,
+  "title": "Complete classical attributes and same-witness consumers: bounded audit",
+  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL",
+  "consumer_result_ids": [
+    "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+    "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+    "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+    "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"
+  ],
+  "base_head": "ea537f38d664ceb21dcc8afc1ab9a4b6b7814d4c",
+  "root": "STMT-CATHOLICISM-TRUE",
+  "designated_route": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "route_costs_before": [
+    31,
+    32,
+    36,
+    38,
+    39,
+    39,
+    40,
+    41
+  ],
+  "premise_delta": "No change to actual root-route open premises or costs. Old 19-premise ALL interface retained. Separate identity theorem replaces full EM with two explicit DecidableEq carrier parameters and retains the other 18 premises; neither instance is independently established. No philosophical premise discharged.",
+  "records": [
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+      "path": "corpus/results/CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Fourth Way supplies m with maximality; full-description naming gives σ.IsGod m. Eight proofs use local Maximal at m, while uniqueness uses original σ.IsGod and retained hMaximal. The same m receives the sufficiency field. Complete-expression contract pins this theorem, its frozen Challenge, telescope and recursive project dependencies; Comparator/NanoDa proof verification remains separate.",
+      "before": {
+        "sha256": "abd16ee58e6d7ef5027bdbc080d33cc880fcc628d63c425d088278a8cad952fb",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "abd16ee58e6d7ef5027bdbc080d33cc880fcc628d63c425d088278a8cad952fb"
+    },
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL",
+      "path": "corpus/results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Repaired misleading definitional-bridge prose. Exact original 19-hypothesis Challenge preserved, including IsImmutable InPotency, all ordered parameters and original σ. Final conjunction application now uses the previously checked bridge equivalence at the same g. Complete-expression contract pins this theorem, its frozen Challenge, telescope and recursive project dependencies; Comparator/NanoDa proof verification remains separate.",
+      "before": {
+        "sha256": "65ec845aca0d7c691b4fdf66cfec4faf767c4b2a04dc06ef60def4435780d5c0",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "65ec845aca0d7c691b4fdf66cfec4faf767c4b2a04dc06ef60def4435780d5c0"
+    },
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+      "path": "corpus/results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY.json",
+      "status": "repaired",
+      "classification": "new_sufficient_interface",
+      "finding": "New separately frozen Challenge and zero-axiom solution: explicit DecidableEq σ.Being and DecidableEq Principle, the other 18 original premises and identical conclusion. Reuses the six EM-free imported attribute proofs; proves uniqueness/perfection/infinity with equality decisions only. No existence, no premise truth, no necessity or minimality claim. Complete-expression contract pins this theorem, its frozen Challenge, telescope and recursive project dependencies; Comparator/NanoDa proof verification remains separate.",
+      "before": {
+        "sha256": "absent (new record)"
+      },
+      "reviewed_sha256": "8c4c9c4dc9d45ddc576c31ab53618a8983f9ac913729c3087d844a26bb11979d"
+    },
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+      "path": "corpus/results/CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field. Complete-expression contract pins this theorem, its frozen Challenge, telescope and recursive project dependencies; Comparator/NanoDa proof verification remains separate.",
+      "before": {
+        "sha256": "782e621e0048d4354b048ffcabab285a5b0d1b11a2ec8239eade44197cf173a2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "782e621e0048d4354b048ffcabab285a5b0d1b11a2ec8239eade44197cf173a2"
+    },
+    {
+      "kind": "results",
+      "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+      "path": "corpus/results/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f. Complete-expression contract pins this theorem, its frozen Challenge, telescope and recursive project dependencies; Comparator/NanoDa proof verification remains separate.",
+      "before": {
+        "sha256": "d5d1c505a13811cd1eb991c1de193feb18f31b60d137bcd7cbeb105f10b54780",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "d5d1c505a13811cd1eb991c1de193feb18f31b60d137bcd7cbeb105f10b54780"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+      "path": "corpus/arguments/CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Fourth Way supplies m with maximality; full-description naming gives σ.IsGod m. Eight proofs use local Maximal at m, while uniqueness uses original σ.IsGod and retained hMaximal. The same m receives the sufficiency field.",
+      "before": {
+        "sha256": "6212fd81c2ecb0cfe08b4e2ff8c9d7567e06db20722fb5b49aaa88200a0897cd",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "6212fd81c2ecb0cfe08b4e2ff8c9d7567e06db20722fb5b49aaa88200a0897cd"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL",
+      "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Repaired misleading definitional-bridge prose. Exact original 19-hypothesis Challenge preserved, including IsImmutable InPotency, all ordered parameters and original σ. Final conjunction application now uses the previously checked bridge equivalence at the same g.",
+      "before": {
+        "sha256": "856f10f071098b9ad6123c28ff09421360cc747c8fcbf2817c9e5608ee6eabfe",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "f06a551a3cea499964d0740a96f623f1aa1f3525759965a5c87c331c8e153236"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+      "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY.json",
+      "status": "repaired",
+      "classification": "new_sufficient_interface",
+      "finding": "New separately frozen Challenge and zero-axiom solution: explicit DecidableEq σ.Being and DecidableEq Principle, the other 18 original premises and identical conclusion. Reuses the six EM-free imported attribute proofs; proves uniqueness/perfection/infinity with equality decisions only. No existence, no premise truth, no necessity or minimality claim.",
+      "before": {
+        "sha256": "absent (new record)"
+      },
+      "reviewed_sha256": "2040c805f4f22457ab61ca6173a8185c2116f92f565d55bf98664d157a977978"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+      "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field.",
+      "before": {
+        "sha256": "21a6d8efa53accb59532c6fafb164ee5d011344910fec0c6f53e51c648fae863",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "21a6d8efa53accb59532c6fafb164ee5d011344910fec0c6f53e51c648fae863"
+    },
+    {
+      "kind": "arguments",
+      "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+      "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f.",
+      "before": {
+        "sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "path": "corpus/statements/act-simply-prior-to-potency.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Act is simply prior to potency: whatever is in potency in a respect is simply posterior to some being that is in act in that respect. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "24fe5978433819bc66b38f876a3b33560bd8c6ee9dcb572a78fd0e922937b109",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
+      },
+      "reviewed_sha256": "24fe5978433819bc66b38f876a3b33560bd8c6ee9dcb572a78fd0e922937b109"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+      "path": "corpus/statements/actuality-only-insofar-as-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Nothing has actuality except insofar as it is: whatever is in act in some respect has being. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
+      },
+      "reviewed_sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "path": "corpus/statements/at-most-one-maximum-in-being.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: There is at most one maximum in being: any two beings that are each maximal in being (each has being, and nothing is more a being than either) are the same. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be",
+        "lean_declaration": "TruthCore.Case.Catholicism.AtMostOneMaximeEns"
+      },
+      "reviewed_sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+      "path": "corpus/statements/cause-of-being-causes-every-perfection.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Open premise: the cause of a thing's being causes each of its perfections. If c causes x's being and x is in act in some respect, c causes x's being in act in that respect. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618",
+        "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection"
+      },
+      "reviewed_sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "path": "corpus/statements/cause-of-quality-in-another-is-more-such.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Unrestricted strict causal ascent remains an unattributed open strengthening. Reuse previous synonymous-cause audit and rejection of silently dropping synonymy/ties. It is neither sourced anew nor discharged by this migration.",
+      "before": {
+        "sha256": "9836e1565f01771addf65bedbaecfee5fc62836653a9814a5b6f6e373d09172a",
+        "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading"
+      },
+      "reviewed_sha256": "9836e1565f01771addf65bedbaecfee5fc62836653a9814a5b6f6e373d09172a"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+      "path": "corpus/statements/classical-attributes-suffice.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Open one-way law on the exact nine specialized predicates at one g. IsImmutable receives InPotency, never InAct. Checked classicalAttributesSuffice_iff preserves the original curried law; HasClassicalAttributes remains primitive with no recovery converse.",
+      "before": {
+        "sha256": "a88ef716a10713d32564d6b67532581cd3c82c2f219cee2b5c96198bcc33607f",
+        "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice"
+      },
+      "reviewed_sha256": "a88ef716a10713d32564d6b67532581cd3c82c2f219cee2b5c96198bcc33607f"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "path": "corpus/statements/composite-has-a-uniting-cause.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Every composite has a cause, other than itself, of its being: things diverse in themselves come together into one only through a cause uniting them. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading"
+      },
+      "reviewed_sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD",
+      "path": "corpus/statements/every-created-agent-acts-as-applied-to-act-by-god.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Every agent other than God whose being God causes is, whenever it moves something, itself moved in some respect. Read from q.105 a.5: every created agent acts in virtue of God, who applies its form and powers to operation, besides giving and preserving them. That its mover is God, and God's applying its powers, are not formalized. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "e751875a1db5340d3e574dae4eebb145576cecac6c8a901ea045f66b91b2732d",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CreatedAgentIsAppliedToActByGodReading"
+      },
+      "reviewed_sha256": "e751875a1db5340d3e574dae4eebb145576cecac6c8a901ea045f66b91b2732d"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-EXCLUDED-MIDDLE",
+      "path": "corpus/statements/excluded-middle.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Full ∀p, p ∨ ¬p retained in every old interface. The new identity result instead has explicit DecidableEq σ.Being and DecidableEq Principle parameters; its checked proof establishes sufficiency, not logical necessity or minimality. No root-route discharge.",
+      "before": {
+        "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
+        "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
+      },
+      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY",
+      "path": "corpus/statements/first-being-is-in-no-way-in-potency.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: The first being, to which nothing else is simply prior, is in potency in no respect. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "0a0b6e910b2a9e1357377a0ef94e74a91123ff129d0d9b73d146733c8b9bfa90",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstBeingIsInNoWayInPotencyReading"
+      },
+      "reviewed_sha256": "0a0b6e910b2a9e1357377a0ef94e74a91123ff129d0d9b73d146733c8b9bfa90"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
+      "path": "corpus/statements/first-unmoved-mover-exists-or-not.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Either there is a first mover moved by none or there is none (excluded middle for this proposition). Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "9eb741143fe93b271fe0b88add6a8149a746197b1d5dba0d3252d5ecd66ae84d",
+        "lean_declaration": "TruthCore.Case.Catholicism.FirstUnmovedMoverExistsOrNot"
+      },
+      "reviewed_sha256": "9eb741143fe93b271fe0b88add6a8149a746197b1d5dba0d3252d5ecd66ae84d"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+      "path": "corpus/statements/god-has-classical-divine-attributes.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Exactly ∀g, σ.IsGod g → σ.HasClassicalAttributes g. ALL specializes all nine predicates but produces no existential witness and recovers no conjunction from the field.",
+      "before": {
+        "sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasClassicalAttributes"
+      },
+      "reviewed_sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-INTELLECT",
+      "path": "corpus/statements/god-has-intellect.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God has intellect (ST I q.14 a.1). Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+      },
+      "reviewed_sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-HAS-WILL",
+      "path": "corpus/statements/god-has-will.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God has will (ST I q.19 a.1). Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+      },
+      "reviewed_sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-ETERNAL",
+      "path": "corpus/statements/god-is-eternal.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is eternal (ST I q.10 a.2). Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
+      },
+      "reviewed_sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-HIS-OWN-ESSE",
+      "path": "corpus/statements/god-is-his-own-esse.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Intermediate equality esseOf g = essenceOf g on Principle. The legacy infinity proof case-splits using full EM; the new result case-splits using the explicit Principle identity instance. Noncomposition alone gives double negation, not constructive equality without a further logical floor.",
+      "before": {
+        "sha256": "c65f5ca968ef2e6ff57c15c27387ed48b03f5a94413743c944a610e9cac74948",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c65f5ca968ef2e6ff57c15c27387ed48b03f5a94413743c944a610e9cac74948"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-IMMATERIAL",
+      "path": "corpus/statements/god-is-immaterial.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: Whatever is God is altogether immaterial: not composed of matter and form, and a component of nothing. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "f90984281a38971bb041c808e190302daa4982ced3a6539ff17a599a445bbb11",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "f90984281a38971bb041c808e190302daa4982ced3a6539ff17a599a445bbb11"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-IMMUTABLE",
+      "path": "corpus/statements/god-is-immutable.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Wrapper is ∀g, IsGod g → Immutable g. ALL and all scoped witness consumers specialize Immutable to IsImmutable InPotency = PureAct InPotency = ∀r, ¬InPotency g r, on σ.Being and the same Respect. Reuse checked isImmutable_iff_noPotency; no universal philosophical equivalence asserted.",
+      "before": {
+        "sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable"
+      },
+      "reviewed_sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-INFINITE",
+      "path": "corpus/statements/god-is-infinite.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is infinite (ST I q.7 a.1): whatever is God satisfies the primitive Infinite predicate (DEF-INFINITE). In CATHOLICISM-STAGE2-GOD-IS-INFINITE it is derived from God's act of being being its essence, not received in anything. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
+      },
+      "reviewed_sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-MAXIMAL-IN-BEING",
+      "path": "corpus/statements/god-is-maximal-in-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Open universal converse: every original σ.IsGod is maximal at the same InAct/MoreIn/esse. Naming a selected maximum does not imply it. Retained by ALL and the two original witness consumers; Q11-NATURE replaces it with three explicit nature/individuation premises.",
+      "before": {
+        "sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsMaximalInBeing"
+      },
+      "reviewed_sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-ONE",
+      "path": "corpus/statements/god-is-one.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is one: whatever is God is the same. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsOne"
+      },
+      "reviewed_sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-PERFECT",
+      "path": "corpus/statements/god-is-perfect.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is perfect: whatever any being is in act in, God is in act in, formally or eminently. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsPerfect"
+      },
+      "reviewed_sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-SIMPLE",
+      "path": "corpus/statements/god-is-simple.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is simple: whatever is God is in no way composite. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsSimple"
+      },
+      "reviewed_sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-IS-SUPREMELY-GOOD",
+      "path": "corpus/statements/god-is-supremely-good.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: God is supremely good: good in respect of being, and the cause from which every perfection of other things flows. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsSupremelyGood"
+      },
+      "reviewed_sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+      "path": "corpus/statements/god-names-the-fully-described-principle.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Open premise, the fuller nominal definition: the name 'God' applies, in its proper sense, to the only being that is maximal in being (above all), causes the being of every other being (principle of all), causes every perfection of every other being (cause of every perfection, et hoc dicimus Deum), and enters into the composition of nothing (remote from all, q.13 a.8 ad 2). It keeps every condition the sources give, so it is weaker than STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheFullyDescribedPrinciple"
+      },
+      "reviewed_sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GOODNESS-IS-ACTUALITY",
+      "path": "corpus/statements/goodness-is-actuality.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: A thing is good in a given perfection exactly when it actually has that perfection. This is the per-perfection coextension read from 'good and being are the same in reality'; the difference in concept is not formalized. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
+      },
+      "reviewed_sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-GRADES-HAVE-A-MAXIMUM",
+      "path": "corpus/statements/grades-have-a-maximum.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Wherever things are more and less in some perfection, there is something maximal in it: something that has the perfection and than which nothing is more such. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "a31d47da20db1ec02593f3e379676e82c65c12f2f5005583d788e1a86a39eb52",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesByApproachToAMaximumReading"
+      },
+      "reviewed_sha256": "a31d47da20db1ec02593f3e379676e82c65c12f2f5005583d788e1a86a39eb52"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+      "path": "corpus/statements/immaterial-is-intellectual.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: What is altogether immaterial, neither composed of matter and form nor a component (matter, or a form in matter) of anything, has intellect: immateriality is the reason why a thing knows. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "36e9e8a9482fc7f964cee22c3f8684559dfa329d04c469641b6b64515aa23175",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading"
+      },
+      "reviewed_sha256": "36e9e8a9482fc7f964cee22c3f8684559dfa329d04c469641b6b64515aa23175"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-IMMUTABLE-IS-ETERNAL",
+      "path": "corpus/statements/immutable-is-eternal.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: What is altogether immutable, in potency in no respect, is eternal: eternity follows immutability, as time follows motion. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "ff4b4185b812898e67111b3ca3f0ee5a29909595aca60efa4b01f78f85435ad6",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmutableIsEternalReading"
+      },
+      "reviewed_sha256": "ff4b4185b812898e67111b3ca3f0ee5a29909595aca60efa4b01f78f85435ad6"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+      "path": "corpus/statements/matter-form-and-esse-essence-are-compositions.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Whatever is composed of matter and form, or has an act of being (esse) other than its essence, is composite. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "693823d57d40864a9065ca67cdddd5a7fc3a509962634db83d99d8127024a723",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MatterFormAndEsseEssenceAreCompositionsReading"
+      },
+      "reviewed_sha256": "693823d57d40864a9065ca67cdddd5a7fc3a509962634db83d99d8127024a723"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+      "path": "corpus/statements/maxime-ens-causes-being-of-all.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Reused intermediate, not admitted as a new external premise: There is something maximally being that is the cause of being to every other being. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "626e7efe4624f1fbea69b4ce3f29cd28e41cef95b1ab63f12eed0a0349fc952c",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximeEnsCausesBeingOfAllReading"
+      },
+      "reviewed_sha256": "626e7efe4624f1fbea69b4ce3f29cd28e41cef95b1ab63f12eed0a0349fc952c"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+      "path": "corpus/statements/maximum-in-being-is-first-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Open bridge: whatever is maximal in being is the first being, i.e. nothing other than it is simply prior to it. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "9d6d9ba418e3eaf69906935566429bd254438e231220bed3cd68180232489caf",
+        "lean_declaration": "TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing"
+      },
+      "reviewed_sha256": "9d6d9ba418e3eaf69906935566429bd254438e231220bed3cd68180232489caf"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "path": "corpus/statements/maximum-in-genus-causes-all-in-genus.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: What is maximal in a genus (a perfection) is the cause of that perfection in every other thing that has it. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+      },
+      "reviewed_sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-MOST-TRUE-IS-MOST-BEING",
+      "path": "corpus/statements/most-true-is-most-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Whatever is maximally true is maximally a being. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "e9d90df0c1661b1b6e35e88de47a8ffca15717b609c321dc0f5b66473ce04a98",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
+      },
+      "reviewed_sha256": "e9d90df0c1661b1b6e35e88de47a8ffca15717b609c321dc0f5b66473ce04a98"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NO-COMPONENT-IS-FIRST-BEING",
+      "path": "corpus/statements/no-component-is-first-being.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: No component of anything (part, matter or form) is the first being: no part of a composite can be simply first among beings. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "bf23f13b80d52b2d8dec84f6a01fa19dcce872e7974ff764c32fc837e2842178",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoComponentIsFirstBeingReading"
+      },
+      "reviewed_sha256": "bf23f13b80d52b2d8dec84f6a01fa19dcce872e7974ff764c32fc837e2842178"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "path": "corpus/statements/no-infinite-per-se-mover-series.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: A per se ordered series of moved movers cannot go on to infinity: the relation 'moves as a moved mover' is well-founded. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "6e6f0d5c9c75f50a561af808a20b152fb13f6e60df7477def623f4b56d7460bf",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
+      },
+      "reviewed_sha256": "6e6f0d5c9c75f50a561af808a20b152fb13f6e60df7477def623f4b56d7460bf"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "path": "corpus/statements/nothing-in-act-and-potency-in-same-respect.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading"
+      },
+      "reviewed_sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "path": "corpus/statements/nothing-moved-except-as-in-potency.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Nothing is moved except insofar as it is in potency to that toward which it is moved. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "7b7b73ca00ec8db7cfd81d788182f9b5e68b4784d7f2aa43fa3e76ad4d39b20a",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MovedOnlyAsInPotencyReading"
+      },
+      "reviewed_sha256": "7b7b73ca00ec8db7cfd81d788182f9b5e68b4784d7f2aa43fa3e76ad4d39b20a"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "path": "corpus/statements/nothing-moves-except-as-in-act.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: A thing moves another in some respect only insofar as it is itself in act in that respect. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "de6370115e65a2e429dd4541897b07f1c5194b815c5f1aa52e41755d0f0a14d5",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MovesOnlyAsInActReading"
+      },
+      "reviewed_sha256": "de6370115e65a2e429dd4541897b07f1c5194b815c5f1aa52e41755d0f0a14d5"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "path": "corpus/statements/nothing-reduced-to-act-except-by-a-mover.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Whatever is being moved in a respect is moved by something in that respect, since nothing is reduced from potency to act except by something. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "12728ac35108f55a66700913b43217d99a0deeafaf4e0db2cad74927819fb254",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ReducedOnlyByAMoverReading"
+      },
+      "reviewed_sha256": "12728ac35108f55a66700913b43217d99a0deeafaf4e0db2cad74927819fb254"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+      "path": "corpus/statements/perfections-of-effect-preexist-in-cause.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Added existing definition/disambiguation links for cause, esse, respect and formal/eminent act. Same encoded ∀c x r, CausesIn c x esse → InAct x r → InAct c r; no change to statement, source reading or open burden. The philosophical premise remains open; this repair adds metadata links only.",
+      "before": {
+        "sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading"
+      },
+      "reviewed_sha256": "3bb8352f5976cc00dc80fdeee788c44735c931d77bdad7f13a15ce80de577b1b"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+      "path": "corpus/statements/q11-god-suppositum-nature.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: For every proper instance of IsGod, its represented suppositum equals its nature (essenceOf). Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "5261bfc92b5beb69545e1b6cbebb01461a695795421b8ecbc6227c558b4965ca",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading"
+      },
+      "reviewed_sha256": "5261bfc92b5beb69545e1b6cbebb01461a695795421b8ecbc6227c558b4965ca"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "path": "corpus/statements/q11-individuating-basis.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Numerically different individuals cannot share the individuating basis represented by suppositumOf: equality of that basis entails identity of individuals. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "908a97eb5abd4f55e49dd77f7134c68dabe3f695e255318a7de68f692d1db11d",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
+      },
+      "reviewed_sha256": "908a97eb5abd4f55e49dd77f7134c68dabe3f695e255318a7de68f692d1db11d"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+      "path": "corpus/statements/q11-common-divine-nature.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: On the explicit shared-nature reading of God/this God, every proper instance of IsGod has the same divine nature represented by the parameter deity. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "2c0dafff221be6e8e39d741b25fcd6bae7a90d154a30b14dd430a9e24df267f6",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading"
+      },
+      "reviewed_sha256": "2c0dafff221be6e8e39d741b25fcd6bae7a90d154a30b14dd430a9e24df267f6"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "path": "corpus/statements/second-movers-move-only-as-moved.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: A mover other than the moved thing that is itself being moved moves only insofar as it is moved, as the stick moves only because the hand moves it: its moving is a per se link of the mover series. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "7eeeecc44d909fce6d636bb0007efaca337e1922bc168c630b780da30411148d",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveOnlyAsMovedReading"
+      },
+      "reviewed_sha256": "7eeeecc44d909fce6d636bb0007efaca337e1922bc168c630b780da30411148d"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "path": "corpus/statements/something-is-moved-in-this-world.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Something in this world is being moved (reduced from potency to act in some respect); this is evident to the senses. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "031871baee7733c258d26d38fbcf4ca5ae4c011fcb49c78ceea612ddf32a36df",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SomethingIsMovedReading"
+      },
+      "reviewed_sha256": "031871baee7733c258d26d38fbcf4ca5ae4c011fcb49c78ceea612ddf32a36df"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-SUBSISTENT-BEING-IS-INFINITE",
+      "path": "corpus/statements/subsistent-being-is-infinite.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: What is its own subsistent being (its act of being is its essence, not received in anything) is infinite. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "72d04bcdc0b1f607597a514f2470d18fb942daf74ad1142e2e37a8365e0970b9",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SubsistentBeingIsInfiniteReading"
+      },
+      "reviewed_sha256": "72d04bcdc0b1f607597a514f2470d18fb942daf74ad1142e2e37a8365e0970b9"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+      "path": "corpus/statements/things-more-and-less-good-true-noble.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Grades are found in things: some things are more and others less good, true and noble. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "86742b821453a7bc1f6ab14945053cab2753706044c4cf703519d24e023e2b4b",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
+      },
+      "reviewed_sha256": "86742b821453a7bc1f6ab14945053cab2753706044c4cf703519d24e023e2b4b"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+      "path": "corpus/statements/unique-god-with-classical-attributes-exists.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Exactly ∃g, σ.IsGod g ∧ IsTheOneGod σ.IsGod g ∧ σ.HasClassicalAttributes g. Fourth-Way m and First-Way f remain the single respective witness; uniqueness ranges over original σ.IsGod, including in Q11-NATURE.",
+      "before": {
+        "sha256": "9c1652a18e12bb35f55b1478bb315866fed3c5cec8dfd892bbca08849ef62dc2",
+        "lean_declaration": "TruthCore.Case.Catholicism.UniqueClassicalGodExists"
+      },
+      "reviewed_sha256": "9c1652a18e12bb35f55b1478bb315866fed3c5cec8dfd892bbca08849ef62dc2"
+    },
+    {
+      "kind": "statements",
+      "id": "STMT-WILL-FOLLOWS-INTELLECT",
+      "path": "corpus/statements/will-follows-intellect.json",
+      "status": "unresolved",
+      "classification": "open_premise",
+      "finding": "Retained explicit open commitment: Whatever has intellect has will. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "before": {
+        "sha256": "fa2445c297ace3d683c15b3fd2cc984666af8c5d7fd42008f61c712ebb1f1198",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.WillFollowsIntellectReading"
+      },
+      "reviewed_sha256": "fa2445c297ace3d683c15b3fd2cc984666af8c5d7fd42008f61c712ebb1f1198"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-AQUINAS-AT-MOST-ONE-MAXIME-ENS",
+      "path": "corpus/inferences/aquinas-at-most-one-maxime-ens.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: If one maximum in being were other than another, the other, being maximal, would cause its being (genus principle at esse), and so be more a being than it (Metaphysics II.1); but nothing is more a being than a maximum. So the two are not distinct, and by excluded middle they are the same. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-AQUINAS-ST-I-Q2-A3-QUARTA-VIA",
+      "path": "corpus/inferences/aquinas-st-i-q2-a3-quarta-via.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Grades of truth have a maximum; the maximally true is maximally being; by the genus principle at esse, it causes the being of every other being. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "848c4e7335e2560554401f826ef68875e201c362559fee70cc056a10df139e8f",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "848c4e7335e2560554401f826ef68875e201c362559fee70cc056a10df139e8f"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY",
+      "path": "corpus/inferences/aquinas-st-i-q3-a1-first-being-no-potency.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: If the first being were in potency in a respect, some being in act in that respect would be simply prior to it. Only the first being itself is prior to the first being, so it would be in act and in potency in the same respect, which is impossible. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "8741f437d96979ad6ed2989f590be890c880a5b0666e6e165ad6bd9ee1c7da8c",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8741f437d96979ad6ed2989f590be890c880a5b0666e6e165ad6bd9ee1c7da8c"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+      "path": "corpus/inferences/catholicism-quarta-via-classical-witness.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Choose the maximal witness supplied by the existing Fourth-Way inference. Full-description naming and the imported pointwise attribute proofs apply to this same maximum. The existing GodIsOne inference supplies uniqueness of all IsGod instances from its explicit converse premise, rather than confusing unique maximum with unique God. Then apply the unchanged ClassicalAttributesSuffice bridge. Philosophical premises remain open. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "288345ba4ee550a0f7dc44f24860e2332a674d812168b7343ad10eadf82defc0",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "288345ba4ee550a0f7dc44f24860e2332a674d812168b7343ad10eadf82defc0"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+      "path": "corpus/inferences/catholicism-stages-one-two-q11-nature.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Distinct alternative composition preserving the original First-Way same witness and eight pointwise attribute proofs. The ninth attribute is derived by the imported Q11 nature/individuation theorem instead of assuming GodIsMaximalInBeing. No default root_route or frozen old Challenge changes. This relocates a uniqueness obligation into three sourced commitments and does not reduce assumption count. Revelation, historical and authority commitments remain open. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "beb041ecda27b85d06d76626d292b6f6d0ffa187753ce756db1e3e09694f3e81",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "beb041ecda27b85d06d76626d292b6f6d0ffa187753ce756db1e3e09694f3e81"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+      "path": "corpus/inferences/catholicism-stages-one-two-same-witness.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Compose the imported prima via, quarta via, full-description naming and first-mover/maximal-being identity results. Apply the eight non-uniqueness Stage2 results at that same maximal witness. Apply the existing GodIsOne result using the original GodIsMaximalInBeing premise for the ninth attribute, and then the unchanged ClassicalAttributesSuffice bridge. The local maximality predicate used to instantiate generic attribute theorems does not redefine the skeleton's IsGod. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "e49e637672a8f61ecbd5e158a73e30bb24b8b973ae17a3c06b76aad08f00ffdb",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "e49e637672a8f61ecbd5e158a73e30bb24b8b973ae17a3c06b76aad08f00ffdb"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-CLASSICAL-ATTRIBUTES",
+      "path": "corpus/inferences/stage2-classical-attributes.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: At each same being g satisfying IsGod, instantiate the nine pointwise attribute premises, then apply the explicit open one-way sufficiency premise to obtain the primitive HasClassicalAttributes field. No reverse implication or existence is inferred. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "b301225d2c365b418d9f4bbf060ea49923b0a32cc3093ff03c67d45069d4fee2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "b301225d2c365b418d9f4bbf060ea49923b0a32cc3093ff03c67d45069d4fee2"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+      "path": "corpus/inferences/stage2-classical-attributes-identity.json",
+      "status": "repaired",
+      "classification": "new_sufficient_interface",
+      "finding": "New composition inference uses the 18 unchanged non-EM premise statements. DecidableEq σ.Being and DecidableEq Principle are explicit typeclass parameters in its theorem contract, not established proposition records. Same ordered nine attributes at g feed the open sufficiency law.",
+      "before": {
+        "sha256": "absent (new record)"
+      },
+      "reviewed_sha256": "545984f7897b380c507401c0822d318d0e578f66e1279efb1dae130c171a535e"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-HAS-INTELLECT",
+      "path": "corpus/inferences/stage2-god-has-intellect.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: The immaterial is intellectual (q.14 a.1). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "428c1a65a7274721f1751ac12e1841c1fa98a20cb8f02ddfe2f13168712e5bc1",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "428c1a65a7274721f1751ac12e1841c1fa98a20cb8f02ddfe2f13168712e5bc1"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-HAS-WILL",
+      "path": "corpus/inferences/stage2-god-has-will.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Will follows intellect (q.19 a.1). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "aaf38c691ccdc6648993a1f2e26961b324c8b5488c9d80a69dd1f2df2a6883b1",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "aaf38c691ccdc6648993a1f2e26961b324c8b5488c9d80a69dd1f2df2a6883b1"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-ETERNAL",
+      "path": "corpus/inferences/stage2-god-is-eternal.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: God is altogether immutable, so eternal (q.10 a.2). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "9d0dd4189dd44381bc6f7331a66c0e11f66cba9071f3c1e25d520b3f3d35c30b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "9d0dd4189dd44381bc6f7331a66c0e11f66cba9071f3c1e25d520b3f3d35c30b"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-HIS-OWN-ESSE",
+      "path": "corpus/inferences/stage2-god-is-his-own-esse.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: An act of being other than the essence would be a composition (q.3 a.7), but God is simple; by excluded middle God's esse is his essence. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "ffe98049d0d3c05462b332fb7646c2c1b33655b799bac27c660c096280502c80",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "ffe98049d0d3c05462b332fb7646c2c1b33655b799bac27c660c096280502c80"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-IMMATERIAL",
+      "path": "corpus/inferences/stage2-god-is-immaterial.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: God is not a matter-form composite, since that is a composition (q.3 a.7) and God is simple; and God is a component of nothing, since God is the first being (open bridge) and no component is the first being (q.3 a.8). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "44288c8fddcf8ac036cc8e3fb54144a779a22ca300f5da4d11836df96a3187ac",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "44288c8fddcf8ac036cc8e3fb54144a779a22ca300f5da4d11836df96a3187ac"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-IMMUTABLE",
+      "path": "corpus/inferences/stage2-god-is-immutable.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Whatever is God is maximal in being, so the first being (open bridge), and the first being is in potency in no respect (q.3 a.1): God is altogether immutable (q.9 a.1, first reason). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "c4339e095f4b2823eb02a28a68f9a9a88a0e3a726c4b2130738b96728bfa8618",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c4339e095f4b2823eb02a28a68f9a9a88a0e3a726c4b2130738b96728bfa8618"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-INFINITE",
+      "path": "corpus/inferences/stage2-god-is-infinite.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: What is its own subsistent being is infinite (q.7 a.1). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "fd4b1cfefc98bcac780c8f6f06163879a56a4b15e168423c40abb09f0d42958d",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "fd4b1cfefc98bcac780c8f6f06163879a56a4b15e168423c40abb09f0d42958d"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-ONE",
+      "path": "corpus/inferences/stage2-god-is-one.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Any two beings that are God are each maximal in being, and there is at most one maximum in being. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-PERFECT",
+      "path": "corpus/inferences/stage2-god-is-perfect.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: A being in act in r is God or another; another has being, so God causes its being (genus principle at esse), and its perfection pre-exists in God as in its effective cause (q.4 a.2). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-SIMPLE",
+      "path": "corpus/inferences/stage2-god-is-simple.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: Were God composite, a uniting cause other than God would cause God's being (q.3 a.7) and so be more a being than God (Metaphysics II.1); but God is maximal in being. Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a"
+    },
+    {
+      "kind": "inferences",
+      "id": "INF-STAGE2-GOD-IS-SUPREMELY-GOOD",
+      "path": "corpus/inferences/stage2-god-is-supremely-good.json",
+      "status": "inspected",
+      "classification": "preservation",
+      "finding": "Retained declared step: God is in act as to being, so good in respect of being (q.5 a.1); and God causes the being, hence every perfection, of every other being (the bridge of stage 1 version (a); q.6 a.2). Ordered instantiation and same-witness binding checked in the selected theorem types; this does not establish the open inputs.",
+      "before": {
+        "sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ACT",
+      "path": "corpus/definitions/act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `InAct x r`: x actually has the perfection r, as fire is actually hot. In Lean `InAct` is a parameter, not a definition: its content is fixed only by the premises that use it, above all that nothing is in act and in potency in the same respect at once. Whether a mover must have the perfection formally or may have it virtually is left open (DISAMB-IN-ACT). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ALTOGETHER-IMMATERIAL",
+      "path": "corpus/definitions/altogether-immaterial.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: x is altogether immaterial when it is neither composed of matter and form (`¬ ComposedOfMatterAndForm x`) nor a component of anything, as matter or as a form in matter (`∀ y, ¬ ComponentOf x y`, which is DEF-REMOTE-FROM-ALL). This is the grade of immateriality that ST I q.14 a.1 makes the reason of intellectual knowledge: the mode of knowledge follows the mode of immateriality, and what is in the highest degree immaterial is in the highest degree of knowledge. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "3685840ec24c7a2f4d3548c2a2c95369d8e142eda3430e08530b7b0db2834463",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading"
+      },
+      "reviewed_sha256": "3685840ec24c7a2f4d3548c2a2c95369d8e142eda3430e08530b7b0db2834463"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-CATHOLICISM-TRUE-PHASE-1",
+      "path": "corpus/definitions/catholicism-true-phase-1.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The root STMT-CATHOLICISM-TRUE means exactly: (A) the Catholic Church is a teaching authority founded by God (`IsGod`; no uniqueness asserted), and (B) the twelve articles of the Nicene-Constantinopolitan Creed hold. It does not yet include the full list of defined dogmas. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "be017394ed65fff213951c9814a04147c335f4a6b8069f233d45091326db5670",
+        "lean_declaration": "TruthCore.Case.Catholicism.CatholicismTrue"
+      },
+      "reviewed_sha256": "be017394ed65fff213951c9814a04147c335f4a6b8069f233d45091326db5670"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-CAUSE-OF-PERFECTION",
+      "path": "corpus/definitions/cause-of-perfection.json",
+      "status": "inspected",
+      "classification": "reviewed_semantic_note",
+      "finding": "Existing interpretation retained: `CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse. No new structural law, source attribution or independently established premise is introduced. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
+      "before": {
+        "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+      },
+      "reviewed_sha256": "bdf413862d893118f5deb587c905f927b71bc620cce8141e6716d39018e70313"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+      "path": "corpus/definitions/classical-attributes-bundle.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The case groups simple, perfect, good, one, infinite, immutable, eternal, intellect and will in the order of ClassicalAttributesSuffice. In the complete stage-2 composition its arguments are IsSimple Composite (DEF-SIMPLE), IsPerfect InAct (DEF-UNIVERSALLY-PERFECT), IsSupremelyGood InAct GoodIn CausesIn esse (DEF-SUPREMELY-GOOD), IsTheOneGod σ.IsGod (DEF-ONE-GOD), Infinite (DEF-INFINITE), IsImmutable InPotency (DEF-IMMUTABLE), Eternal (DEF-ETERNAL), HasIntellect (DEF-HAS-INTELLECT), and HasWill (DEF-HAS-WILL). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535",
+        "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice"
+      },
+      "reviewed_sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+      "path": "corpus/definitions/definitively-proposes-as-revealed.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: A Church proposal that a proposition is to be believed as divinely revealed, made by solemn judgment or by the ordinary and universal magisterium. This is the proposal condition in Dei Filius ch. 3, paragraph 4, not an arbitrary assertion by Church members or authorities. The source's rule for divine and catholic faith separately requires that the content be contained in the word of God written or handed down; the act of proposing it does not by definition establish that separate condition or its truth. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "98111b7b66873c2cf8f978c755a79ca089b3ed1d35d40e72d0adbd3191248282",
+        "lean_declaration": "TruthCore.Case.Catholicism.Signature.DefinitivelyProposesAsRevealed"
+      },
+      "reviewed_sha256": "98111b7b66873c2cf8f978c755a79ca089b3ed1d35d40e72d0adbd3191248282"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ESSE",
+      "path": "corpus/definitions/esse.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The distinguished respect `esse`: `InAct x esse` says that x has being. Esse is the actuality of all things, even of forms: nothing has actuality except insofar as it is. Being 'maximal in being' and 'cause of being' are said with respect to this respect. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
+      },
+      "reviewed_sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ESSENCE-THOMISTIC-NATURE",
+      "path": "corpus/definitions/essence-thomistic-nature.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Essence is what a thing is, its nature or quiddity, contrasted with its act of being (esse). The statement that God is his own esse identifies these in its theological context; the words essence and esse alone do not make that identity hold. This sense is not Scott’s modal essence of an individual or the 1970 Gödel variant’s different essence definition. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ETERNAL",
+      "path": "corpus/definitions/eternal.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Eternity has neither beginning nor end and is without succession, all at once (ST I q.10 a.1); it is not merely endless time. In stage 2 Eternal is a primitive predicate supplied to GodIsEternal and ClassicalAttributesSuffice. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
+      },
+      "reviewed_sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-FIRST-BEING",
+      "path": "corpus/definitions/first-being.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `IsFirstBeing f`: no being other than f is simply prior to f. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "f044f3590be4fd0c92f52bf15587c43c97b5d3fef344eb9d6395fa767f7fd9ff",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsFirstBeing"
+      },
+      "reviewed_sha256": "f044f3590be4fd0c92f52bf15587c43c97b5d3fef344eb9d6395fa767f7fd9ff"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-FIRST-UNMOVED-MOVER",
+      "path": "corpus/definitions/first-unmoved-mover.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `IsFirstUnmovedMover f`: f moves something and is itself moved in no respect. 'A nullo movetur' is read as 'moved in no respect', not 'not moved by anything else'. The definition does not make f God, unique, or pure act; those are separate statements. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "1673c032a190c1d1ad22dfd83e3420d7702229940b9a48aee1fbdeac9a12a8d7",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsFirstUnmovedMover"
+      },
+      "reviewed_sha256": "1673c032a190c1d1ad22dfd83e3420d7702229940b9a48aee1fbdeac9a12a8d7"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GENUS-BROAD",
+      "path": "corpus/definitions/genus-broad.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The index `r : Respect` of the quarta via's genus principle (`MaximumInGenusCausesAllInGenusReading`): a perfection such as heat, goodness or being, whose bearers are more and less such by approach to what is maximally such. It need not be a strict genus: heat in the example is a quality, not a genus of hot things, and being is not a strict genus. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+      },
+      "reviewed_sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+      "path": "corpus/definitions/god-as-named-in-the-summa.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The Lean parameter `God : Being → Prop` of the stage-1 maxime ens route: g is the one the Summa calls God (q.105 a.5, q.13 a.8). Its content comes only from the premises that use it. The open premise STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS gives a sufficient condition for it, a reduced form of the q.13 nominal definition (the only maximum in being that causes the being of every other being), which drops 'remote from all' and the causation of goodness and every perfection. On that route it is a different parameter from `IsGod`. The designated route (CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION) does not use this parameter: its fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE applies the name to `IsGod` directly (DISAMB-GOD). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "be3dc11a9a5037da10e2186e5efc51a3f82f7793a1999e551332f59c4cdb5851",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheUniqueMaximeEns"
+      },
+      "reviewed_sha256": "be3dc11a9a5037da10e2186e5efc51a3f82f7793a1999e551332f59c4cdb5851"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOD-NOMINAL-Q13",
+      "path": "corpus/definitions/god-nominal-q13.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: What the name 'God' is imposed to signify: something existing above all, which is the principle of all and remote from all (supra omnia existens, quod est principium omnium, et remotum ab omnibus). A nominal definition: what the name signifies, not what God is. Kept whole, with all three conditions. The fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE formalizes it, together with the quarta via's 'cause of every perfection', reading 'remote from all' as DEF-REMOTE-FROM-ALL. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "ead8786cd02314dc2faebfdd68e3750703b14710b0e2d116d4d740a2a2f73e70",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "ead8786cd02314dc2faebfdd68e3750703b14710b0e2d116d4d740a2a2f73e70"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "path": "corpus/definitions/god-of-classical-theism.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The case signature's `IsGod g`: g is God in the sense of the God of classical theism, not merely what is called God. The stages after stage 1 and the root use this predicate. Its content is fixed only by the open premises that use it: STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES (simple, perfect, good, infinite, immutable, eternal, one, with intellect and will) and, on the older stage-1 routes, the identification premise STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD. On the designated route it is also fixed by the fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which applies the proper name 'God' to `IsGod` directly (DISAMB-GOD). The individual attribute senses and their one-way mapping to the skeleton field are recorded in DEF-CLASSICAL-ATTRIBUTES-BUNDLE and linked from STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e",
+        "lean_declaration": "TruthCore.Case.Catholicism.Signature"
+      },
+      "reviewed_sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "path": "corpus/definitions/good-as-being-in-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Good and being are the same in reality and differ only in notion: a thing is good in a respect exactly insofar as it is in act in that perfection; good adds the notion of the desirable. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
+      },
+      "reviewed_sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-HAS-INTELLECT",
+      "path": "corpus/definitions/intellect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Having intellect means intellectual cognition, distinguished from sense in ST I q.14 a.1 by its greater separation from matter. Cognition involves the form of what is known in the knower; divine cognition is not a created habit or quality. HasIntellect remains a primitive predicate of beings in GodHasIntellect and ClassicalAttributesSuffice. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+      },
+      "reviewed_sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-HAS-WILL",
+      "path": "corpus/definitions/will.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Will is the inclination of an intellectual nature toward the good apprehended through an intelligible form: seeking it when absent and resting in it when possessed (ST I q.19 a.1). Divine will is not a lack seeking satisfaction: Aquinas says it always possesses its good. HasWill is a primitive predicate in GodHasWill and ClassicalAttributesSuffice. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+      },
+      "reviewed_sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IMMUTABLE",
+      "path": "corpus/definitions/immutable.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Altogether immutable means incapable of any change, not merely unchanging now (ST I q.9 a.1). The first argument excludes change because the first being has no potency, and whatever changes is in some way in potency. Stage 2 uses IsImmutable InPotency g := ∀ r, ¬ InPotency g r. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "3a2837801322c882c86b22a4066784cde5a5ed5b4ecff7848db93713df346162",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable"
+      },
+      "reviewed_sha256": "3a2837801322c882c86b22a4066784cde5a5ed5b4ecff7848db93713df346162"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IN-ACT-FORMALLY",
+      "path": "corpus/definitions/in-act-formally.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: A cause is in act formally in a perfection when it has that perfection in the same form in which it produces it, as fire that is hot makes the wood hot. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "3575a6f229d79aab36ae187d9cff79515bc2b3ea4b6ea67142b9d80f5740fe8b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "3575a6f229d79aab36ae187d9cff79515bc2b3ea4b6ea67142b9d80f5740fe8b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-IN-ACT-VIRTUALLY",
+      "path": "corpus/definitions/in-act-virtually.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: A cause is in act virtually, or eminently, in a perfection when it has it in a higher way, as a power to produce it, without having it in the same form: whatever perfection is in the effect is in the effective cause 'univocally or more eminently' (ST I q.4 a.2). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "cce492e875524e50c7ab8b9ccde2d4329996ab639a8ba7edeb9503ffeefeedc9",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "cce492e875524e50c7ab8b9ccde2d4329996ab639a8ba7edeb9503ffeefeedc9"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-INFINITE",
+      "path": "corpus/definitions/infinite.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Divine infinity is unboundedness of subsistent being not received in, and limited by, anything (ST I q.7 a.1). It is the infinity of perfection, not an infinite quantity or indeterminate matter. Infinite is a primitive predicate supplied to GodIsInfinite and to ClassicalAttributesSuffice. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf",
+        "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
+      },
+      "reviewed_sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MAXIME-ENS",
+      "path": "corpus/definitions/maxime-ens.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+      },
+      "reviewed_sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MAXIMUM-IN-A-PERFECTION",
+      "path": "corpus/definitions/maximum-in-a-perfection.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `IsMaximumIn InAct MoreIn r m`: m has the perfection r and nothing is more r than m. Maximal, not greatest: it does not say that m is more r than everything else, so it does not by itself give uniqueness. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+      },
+      "reviewed_sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MORE-IN",
+      "path": "corpus/definitions/more-in.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `MoreIn r x y`: x is more r than y (more good, more true, more noble, more hot). Only the comparative is primitive: nothing makes it a total order, a measure, or comparable across all things. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
+      },
+      "reviewed_sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-MOTION-AS-REDUCTION",
+      "path": "corpus/definitions/motion-as-reduction.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies. Aristotle's definition of motion as the actuality of the potential as such, read for beings and respects (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), would make STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic if adopted as the Lean definition of `MovedIn`; it is no stronger than that premise (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so `MovedIn` stays a parameter. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "df7c8fa669493ad3e42b4f84dc14344f9e6d76b37aed42f6166ef8e5f636e8d7",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "df7c8fa669493ad3e42b4f84dc14344f9e6d76b37aed42f6166ef8e5f636e8d7"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-NOMINAL-DEFINITION",
+      "path": "corpus/definitions/nominal-definition.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: What a name signifies, as opposed to what the thing is (quod quid est). In demonstrating from an effect that a cause exists, the middle term is what the name signifies, because the question what it is follows the question whether it is; the names of God are imposed from his effects. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "eed6a97f615642d2d5e872e24a7028d6ca05359428988a45dc6f315944c862be",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "eed6a97f615642d2d5e872e24a7028d6ca05359428988a45dc6f315944c862be"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ONE-GOD",
+      "path": "corpus/definitions/one-god.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: One God is numerical uniqueness of the God confessed by Dei Filius ch. 1. The case uses IsTheOneGod IsGod g := ∀ g′, IsGod g′ → g′ = g. This predicate alone does not assert IsGod g or the existence of any God; those are separate premises or conclusions. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsTheOneGod"
+      },
+      "reviewed_sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ONTOLOGICAL-TRUTH",
+      "path": "corpus/definitions/ontological-truth.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Truth said of a thing is its conformity to the intellect on which it depends in being, rather than its being believed or observed. In ST I q.16 a.1, a true artifact realizes the form conceived by its maker, and a true natural thing realizes its proper nature according to the divine intellect’s exemplar (a true stone has the nature proper to a stone). This truth is secondary to truth in intellect. ST I q.16 a.3 relates a thing’s intelligibility to the being it has: truth adds a relation to intellect to the account of being. This is the ontological sense used to interpret the quarta via’s verum, not sentence truth, confidence, or frequency of endorsement. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "0466c5d73e90f7b8589b940dbb85f4f729ce4d5cba4c06a9f291f4a44b23ccb9",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
+      },
+      "reviewed_sha256": "0466c5d73e90f7b8589b940dbb85f4f729ce4d5cba4c06a9f291f4a44b23ccb9"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
+      "path": "corpus/definitions/ontological-truth-comparison.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: For this reading, x is more true than y in the relevant respect when x more fully realizes the intelligible nature or form under consideration: the comparison is of realization of that form, hence of intelligibility grounded in actuality. It is not a comparison of two sentences’ accuracy, how many observers agree, or an observer’s certainty. The relevant form and comparative must be supplied by an interpretation of the things compared; no numerical measure or total comparability of all kinds is stipulated. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "13a9d4500f938084902eb0aec3520ff105c2e9b2d52af4297b0deb5ba4656edb",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
+      },
+      "reviewed_sha256": "13a9d4500f938084902eb0aec3520ff105c2e9b2d52af4297b0deb5ba4656edb"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-PER-SE-LINK-STRONG",
+      "path": "corpus/definitions/per-se-link-strong.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Every mover other than the moved thing that is itself being moved, in any respect, moves only insofar as it is moved. This is reading A of 'moventia secunda non movent nisi per hoc quod sunt mota a primo movente', and the reading the case uses. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "d838a4688fde844c40bb1461fa3ec182b4199c11657ab258c37d69015f1cf3b0",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveOnlyAsMovedReading"
+      },
+      "reviewed_sha256": "d838a4688fde844c40bb1461fa3ec182b4199c11657ab258c37d69015f1cf3b0"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-PER-SE-ORDERED-SERIES",
+      "path": "corpus/definitions/per-se-ordered-series.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: A series in which each cause after the first causes only insofar as it is, here and now, moved by the one before it: the stone is moved by the stick, the stick by the hand. In Lean the link is `MovesAsMoved y x` (y moves x only insofar as y is itself moved) and 'no infinite regress' is well-foundedness of that relation (`NoInfinitePerSeMoverSeriesReading`). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
+      },
+      "reviewed_sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-POTENCY",
+      "path": "corpus/definitions/potency.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `InPotency x r`: x is in potency to r, able to be r without being r actually; what is actually hot is at the same time cold in potency. A parameter in Lean, constrained by the same premises as `InAct`; nothing defines it as the negation of act. That gloss, 'able to be r without being r actually', is the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY). If it were made the Lean definition of `InPotency`, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT would become analytic; the analysis is satisfiable exactly when that premise holds (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so this would move the premise's openness to the analysis's fidelity without discharging it. `InPotency` therefore stays a parameter. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-PURE-ACT",
+      "path": "corpus/definitions/pure-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `PureAct f`: f is in potency in no respect (nullo modo in potentia; q.3 a.2: purus actus, non habens aliquid de potentialitate). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
+      },
+      "reviewed_sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-Q11-COMMON-DIVINE-NATURE",
+      "path": "corpus/definitions/q11-common-divine-nature.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The existing essenceOf map is used in the Thomistic nature/quiddity sense. The Principle parameter deity represents the divine nature considered in q.11 a.3’s first proof. ProperGodInstancesHaveCommonNatureReading explicitly says that every original IsGod instance has essenceOf g = deity. This is a qualified shared-nature reading of the hypothetical plurality, not a definitional membership test for IsGod, a genus, or the conclusion of numerical uniqueness. Equality here is equality of represented nature values, not merely two beings falling under the same word or predicate. Mere univocal use of God does not establish this premise; accepting the shared-nature reading remains a substantive interpretive commitment. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "11864aef1bed85257c88c184c6d104cbe5808b057bdda738a25d75442562b80e",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading"
+      },
+      "reviewed_sha256": "11864aef1bed85257c88c184c6d104cbe5808b057bdda738a25d75442562b80e"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+      "path": "corpus/definitions/q11-god-suppositum-nature.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: For a being g satisfying the original IsGod predicate, suppositumOf g = essenceOf g in the existing Principle sort. This represents q.3 a.3’s absence of a real suppositum/nature distinction for God. It is an explicit universal open commitment, not a definition of IsGod or a theorem inferred from generic simplicity. It does not equate Lean objects in Being with objects in Principle. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "69ea8295a0b59bc361e79bd9eed9456478be5d413e5fdcd81c7ec28afa55756c",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading"
+      },
+      "reviewed_sha256": "69ea8295a0b59bc361e79bd9eed9456478be5d413e5fdcd81c7ec28afa55756c"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-Q11-INDIVIDUATING-BASIS",
+      "path": "corpus/definitions/q11-individuating-basis.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The Principle-valued representation suppositumOf x records that by which a singular being is this individual, in q.11 a.3 first proof. It is distinguished from the nature essenceOf x. Equality of represented bases entails identity of beings only under STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE; no injectivity, existence or God-uniqueness is built into the map. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "797848dee2cb7c79bcbda3a8db645ee7ef78812351467dcbe30120f8a77734ce",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
+      },
+      "reviewed_sha256": "797848dee2cb7c79bcbda3a8db645ee7ef78812351467dcbe30120f8a77734ce"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-REMOTE-FROM-ALL",
+      "path": "corpus/definitions/remote-from-all.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `RemoteFromAll ComponentOf m`: m enters into the composition of nothing, as neither part, matter nor form of anything (`∀ x, ¬ ComponentOf m x`). This is the case's reading of the third condition in q.13 a.8 ad 2's description of what the name 'God' signifies, taken through q.3 a.8, the article that denies God any composition with other things. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1",
+        "lean_declaration": "TruthCore.Case.Catholicism.RemoteFromAll"
+      },
+      "reviewed_sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-RESPECT",
+      "path": "corpus/definitions/respect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `Respect`: that with respect to which a thing is moved, in act or in potency, such as being hot. The quarta via reads a respect as a perfection (ST I q.4 a.1: a thing is called perfect insofar as it is in act). 'Moved in no respect' quantifies over all respects. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SELF-EVIDENT-MARKING",
+      "path": "corpus/definitions/self-evident-marking.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: A statement is self-evident in this corpus when its record carries a `self_evident` marking whose justification ids are sourced claims or results: the marking is itself a challengeable, argued claim, not a bare flag. It names a floor basis (retorsion, common_ground or observation) and closes the statement only while that criterion holds on the current records; closure is relative to the listed bases (docs/corpus-model.md, #500). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SIMPLE",
+      "path": "corpus/definitions/divine-simplicity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Simple means without composition of any kind (ST I q.3 a.7), including quantitative parts, matter/form, nature/suppositum, essence/being, genus/difference and subject/accident. The case encodes this as IsSimple Composite g := ¬ Composite g. Composite is a primitive covering every relevant composition; the predicate is not merely the denial of matter-form composition. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsSimple"
+      },
+      "reviewed_sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SIMPLE-PRIORITY",
+      "path": "corpus/definitions/simple-priority.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: `PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "875e4d5d931b5ec580cc42ddbcf305645c65fdd3d781b423589ffafbe8bb9189",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
+      },
+      "reviewed_sha256": "875e4d5d931b5ec580cc42ddbcf305645c65fdd3d781b423589ffafbe8bb9189"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SKELETON-OPEN-PREDICATES",
+      "path": "corpus/definitions/skeleton-open-predicates.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: The skeleton separately assumes that God can reveal recognizably through external signs (motives of credibility), that Jesus claimed to speak and act with divine authority and rose, that Christ founded a visible, enduring Church with an authority structure, and that each society he so founded is the Catholic Church. Society equality represents the latter historical-identity claim. These are the advertised meanings of distinct primitive fields/relations in Signature, not definitions that make any of them hold. Founding a society is distinct from founding it as a teaching authority, and Jesus’s stage predicate RoseFromTheDead is not identified with the separate uninterpreted Creed article. The phase-1 root fixes the teaching-authority role and twelve Creed articles. No event criteria, complete ecclesiology or evidence for those assumptions is supplied by the signature. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "fed4609ae9efdac66f2953a5b1653c21a46c909cb24bac82f6c97f42e01a41ee",
+        "lean_declaration": "TruthCore.Case.Catholicism.Signature"
+      },
+      "reviewed_sha256": "fed4609ae9efdac66f2953a5b1653c21a46c909cb24bac82f6c97f42e01a41ee"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-SUPREMELY-GOOD",
+      "path": "corpus/definitions/supremely-good.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Supreme goodness is goodness in the most excellent mode, as the first, non-univocal cause from which all desired perfections flow (ST I q.6 a.2). Goodness itself adds desirability to being in act (DEF-GOOD-AS-BEING-IN-ACT). The case predicate IsSupremelyGood is the conjunction GoodIn g esse and CausesEveryPerfectionOfOthers InAct CausesIn g (DEF-CAUSE-OF-PERFECTION). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsSupremelyGood"
+      },
+      "reviewed_sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-UNIQUE-CLASSICAL-GOD-WITNESS",
+      "path": "corpus/definitions/unique-classical-god-witness.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: UniqueClassicalGodExists σ means ∃g, σ.IsGod g ∧ IsTheOneGod σ.IsGod g ∧ σ.HasClassicalAttributes g. Every conjunct concerns the same g. IsTheOneGod quantifies over all beings satisfying the original σ.IsGod, not only maximal beings. No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "baeb896e1861ef08d7620301ed001ccf4484d6ce60c0aa9311deee9d4bd6e4b8",
+        "lean_declaration": "TruthCore.Case.Catholicism.UniqueClassicalGodExists"
+      },
+      "reviewed_sha256": "baeb896e1861ef08d7620301ed001ccf4484d6ce60c0aa9311deee9d4bd6e4b8"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-UNIVERSALLY-PERFECT",
+      "path": "corpus/definitions/universally-perfect.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing interpretation retained: Universally perfect means lacking none of the perfections found in things (ST I q.4 a.2). These preexist in God eminently, not as a conjunction of incompatible creaturely forms. IsPerfect InAct g := ∀ x r, InAct x r → InAct g r uses InAct in its formal-or-virtual sense (DEF-IN-ACT-FORMALLY, DEF-IN-ACT-VIRTUALLY). No new structural law, source attribution or independently established premise is introduced.",
+      "before": {
+        "sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99",
+        "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
+      },
+      "reviewed_sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-APPETITE-POWER-AND-EXERCISE",
+      "path": "corpus/disambiguations/appetite-power-exercise.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast.",
+      "before": {
+        "sha256": "84b2ef65a1a6c45d2029bc9fe7f8aef7e156ec1276f2ebc415cee283f47fa2c4",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "84b2ef65a1a6c45d2029bc9fe7f8aef7e156ec1276f2ebc415cee283f47fa2c4"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-BEING",
+      "path": "corpus/disambiguations/being.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Aquinas draws this distinction himself (ST I q.48 a.2 ad 2). Stage 1 uses only being as the entity of a thing: the domain `Being`, the respect `esse` (DEF-ESSE) and 'maximal in being'. Being as the truth of a proposition appears only in STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH, where 'there is evil' is the truth (`Holds`) of a sentence. Sentences and beings are different Lean types, so no result can pass from 'evil is' to 'evil is a being' or count a privation as in act with respect to esse. What the definitions do not settle is whether being admits of more and less (`MoreIn esse`) across categories; that is carried by the premises that use the primitive comparative (STMT-GRADES-HAVE-A-MAXIMUM, STMT-MOST-TRUE-IS-MOST-BEING), not by the word. Aristotle's many senses of being (STMT-BEING-HAS-SEVERAL-SENSES) are senses of being as entity. Whether being is said univocally or analogically, and so whether it is a genus, is a separate axis recorded in DISAMB-BEING-UNIVOCITY and DISAMB-GENUS.",
+      "before": {
+        "sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-BEING-UNIVOCITY",
+      "path": "corpus/disambiguations/being-univocity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The sources read here take being analogically: Aristotle's pros hen (STMT-BEING-SAID-PROS-HEN), Aquinas' analogy of divine names (STMT-DIVINE-NAMES-ANALOGICAL), being as the first analogical predicate (STMT-BEING-FIRST-ANALOGICAL-PREDICATE), and grades of being by approach to God (STMT-BEING-MEASURED-BY-APPROACH-TO-GOD). The quarta via premises that speak of more and less in being (STMT-GRADES-HAVE-A-MAXIMUM, STMT-MOST-TRUE-IS-MOST-BEING, STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS) are to be read in this analogical sense. Their Lean form does not encode it: `MoreIn esse` is a primitive comparative compatible with both senses. The two senses now have order models (DEF-HOMOGENEOUS-SCALE for the univocal sense, DEF-ORDER-BY-APPROACH-TO-A-PRIMARY for attribution), and DISAMB-ORDER-OF-BEING records, premise by premise, which survive on which model. The source-bound STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-AT-LEAST-AS-SUCH requires a shared defining account (DEF-SHARED-DEFINING-ACCOUNT); STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH drops that condition and remains an unattributed open premise; STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-MORE-SUCH retains the condition but adds strict superiority and likewise remains unattributed. Applying either to analogical being needs independent justification; analogy and failure of a shared account are not identified. The attribution-order result STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH derives a primary-as-cause comparison under strict primacy and gives a countermodel to unrestricted comparison; it does not establish synonymy or source the unrestricted use with the primary as effect in AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING.",
+      "before": {
+        "sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-CAUSAL-SERIES",
+      "path": "corpus/disambiguations/causal-series.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise.",
+      "before": {
+        "sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-CAUSE",
+      "path": "corpus/disambiguations/cause.json",
+      "status": "inspected",
+      "classification": "reviewed_semantic_note",
+      "finding": "Existing resolution retained: The case keeps moving (`MovesIn`, a present reduction from potency to act), causing a perfection (`CausesIn`, with 'cause of being' at esse) and simple priority (`PriorSimply`, DEF-SIMPLE-PRIORITY) as separate predicates, and every passage between them is an explicit premise: STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (open, bare) from simple priority to cause of being; STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD (sourced, q.105 a.5: an agent whose being God causes is itself moved when it moves) linking causing being and moving; STMT-DIRECTING-IS-MOVING for the quinta via. Aristotle's four modes classify causes in general and are not premises of the root path. SCG I.13’s cause of coming to be (CausesOrigin) is recorded separately from moving in a respect or causing a perfection; the finite-past result does not identify its cause as God. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
+      "before": {
+        "sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "aec33da624bc5c9069aadccceea3d0a2b9bc2ce838342046f8ad19b7d05d784b"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+      "path": "corpus/disambiguations/creature-passive-divine-will.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Read q.80 passive appetite in its soul-power context; read q.19 divine willing with its identity with divine being and denial of external motion. The source analogy of inclination does not transfer creaturely passivity, appetite as a distinct accidental faculty, or transition to act into God. HasWill remains the existing primitive predicate, with no new equivalence definition.",
+      "before": {
+        "sha256": "5a51042532e8c002a2bacb623d8861b45af773ba52c7dfdeba557e262036c9fb",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "5a51042532e8c002a2bacb623d8861b45af773ba52c7dfdeba557e262036c9fb"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ESSENCE",
+      "path": "corpus/disambiguations/essence.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Scott's variant and Gödel's 1970 variant define 'essence' differently, and their statements and results keep the two apart. Scott's ess (DEF-ESSENCE-SCOTT) requires the bearer to have the essence, and its inclusion quantifies over all individuals; Gödel's 1970 Ess. (DEF-ESSENCE-GOEDEL-1970) drops that conjunct and quantifies over existing individuals. They are separate Lean declarations, `TruthCore.Isabelle.AFP.GoedelGod.Essence` and `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence`, and no statement treats one as the other. The difference is what the paired results SCOTT-EMPTY-PROPERTY-NOT-ESSENCE and GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE show, and it is what makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) while Scott's are satisfiable. Neither is the Thomist essence. Thomistic essence as nature/quiddity in the attribute readings is distinct from either modal essence definition; the claim of identity with esse is separate from this term’s definition. `FilteredEssence` (DEF-FILTERED-ESSENCE) is a stipulated experiment that filters comparison properties in Scott's structure; it neither changes the original Scott definition nor supplies an historical or metaphysical theory of essence.",
+      "before": {
+        "sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+      "path": "corpus/disambiguations/eternity-and-temporal-perpetuity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model.",
+      "before": {
+        "sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GENUS",
+      "path": "corpus/disambiguations/genus.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Aristotle's being-not-a-genus argument (ARIST-MET-998B-BEING-NOT-A-GENUS) and Aquinas' ST I q.3 a.5 (STMT-GOD-IN-NO-GENUS) use the strict sense only. The quarta via's genus principle (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS, claim AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A) is read in the broad sense: its example is heat, which is a quality and not a strict genus of hot things; it is applied to being, which Aquinas himself says is no genus; and Aquinas' own account of grades of being (q.3 a.5 ad 2: each thing has as much of being as it approaches God) needs no common genus. Aristotle's 999a6-14 (STMT-NO-GENUS-OVER-PRIOR-AND-POSTERIOR) points the same way: an order of better and worse is not a strict genus. The strict reading of the quarta via sentence is rejected as Aquinas' meaning for these reasons, but kept as a formal contrast (`MaximumInStrictGenusCausesAllInGenusReading`): on it the via fails at being (STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA). On the broad reading, being-not-a-genus does not refute the premise (STMT-BROAD-GENUS-READING-COMPATIBLE-WITH-BEING-NOT-A-GENUS). No argument passes between the senses: the strict results speak of `IsGenus`, the broad premise quantifies over every respect and never mentions `IsGenus`. What the broad reading does not settle is whether the genus principle is true for being; that is the open premise itself, now without the equivocation objection.",
+      "before": {
+        "sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GOD",
+      "path": "corpus/disambiguations/god.json",
+      "status": "repaired",
+      "classification": "defect",
+      "finding": "Repaired an overgeneral same-witness note: original consumers retain the God-to-maximality premise, while Q11-NATURE uses three explicit nature/individuation premises instead. Local Maximal never redefines σ.IsGod. All theorem types and source readings unchanged.",
+      "before": {
+        "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "1be6875657b36c0dbf47536eabb6a22986951b0ab521e004cec3d7520ba38155"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
+      "path": "corpus/disambiguations/good-practical-and-ontological.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: GoodIn on beings/perfections is actuality in the q.5 reading; GoodAct on acts is the practical-good predicate in q.94’s first precept. CatholicNaturalLaw conjoins these commitments but contains no identification or derivation of the latter predicate from the former.",
+      "before": {
+        "sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+      "path": "corpus/disambiguations/immutable-and-currently-unchanging.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The complete stage-2 argument uses IsImmutable, meaning no potency in any respect. Merely not changing now cannot substitute for that antecedent in the eternity argument. The earlier GodIsImmutable wrapper accepts a primitive predicate, so its intended reading must be fixed separately.",
+      "before": {
+        "sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-IN-ACT",
+      "path": "corpus/disambiguations/in-act.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The case does not choose between the two senses. Every premise that speaks of act (STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT, STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT, STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION) uses the one parameter `InAct`, so within a result every premise is read in the same sense and no step passes from one sense to the other. The choice matters for premise truth, not validity: read formally, 'a thing moves only as in act' faces causes that produce what they do not themselves have; read virtually, the non-simultaneity premise must hold for virtual act too. A defence of these premises must fix one sense and defend all of them in it. BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY reads the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) with the same `InAct` as the non-simultaneity premise, so no step changes sense. IX.6 says 'not actually r' of formal act; read virtually, the analysis would say that potency to r excludes virtual act of r, a stronger reading than IX.6 states. The bridge therefore carries Aristotle's support to the premise on the formal reading only. STMT-PERFECT-INSOFAR-AS-IN-ACT, through which AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY derives STMT-GOODNESS-IS-ACTUALITY, uses the one parameter `Has` of the conclusion, which the case instantiates by `InAct`; so the goodness steps take whatever sense the other act premises of a result take. ST I q.4 a.1 co. and q.5 a.1 co. speak of a thing's own act, so their support is for the formal reading.",
+      "before": {
+        "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-INFINITY",
+      "path": "corpus/disambiguations/infinity.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity.",
+      "before": {
+        "sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-INTELLECT-AND-SENSE-COGNITION",
+      "path": "corpus/disambiguations/intellect-and-sense-cognition.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: HasIntellect means intellectual cognition, not any cognition whatever. The source distinguishes sense from intellect; the case’s sufficiency premise for intellect uses the stated interpretation of highest immateriality. Neither the primitive predicate nor this terminology proves an intellectual faculty from sensory awareness alone.",
+      "before": {
+        "sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-MAXIME-ENS",
+      "path": "corpus/disambiguations/maxime-ens.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts.",
+      "before": {
+        "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-MOTION",
+      "path": "corpus/disambiguations/motion.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The prima via itself defines moving as educing from potency to act (claim AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A), and the case reads motus in that broad sense. Aristotle's physical change is one kind of such reduction, so the observation premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD holds on either reading. All premises share `MovedIn`/`MovesIn` over an abstract `Respect`, so the formal results hold for any one reading applied throughout; an objection that the regress premises hold only for local motion is an objection to a premise, not an equivocation. Scope (#404): the typed Physics readings (TruthCore.Greek.Aristotle.Physics.Typed, docs/typed-physics.md) read `MovedIn`/`MovesIn` as physical motion. A universal prima via premise restricts to physical motion, so results that use prima via premises to derive typed Physics statements stay within one reading. The converse does not hold: Physics premises about physical motion do not extend to every reduction from potency to act. VIII.4's division and its conclusions therefore carry an explicit guard for respects of physical motion (`IsPhysicalRespect`, DEF-PHYSICAL-RESPECT); its other readings are scoped by their antecedent primitives (forced, natural, self-, passive natural motion are kinds of physical motion by definition); the III.3 and VIII.5 readings carry no guard and are accepted only under a physical instantiation of `MovedIn`/`MovesIn`. The VIII.4 readings yield STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER. They reach the root premise STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER only through the explicit, unattributed scope premise STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION (result ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA), which is open and false on the broad reading if some reduction is not a physical motion. BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY reads Physics III.1's definition (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY) with the same `MovedIn` as STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY. Aristotle states the definition for physical change; applied to the broad reading it is the definition extended to every reduction from potency to act, and the bridge carries his support to the premise only as far as that extension holds. Moving as an end (#352): Met. XII.7's unmoved mover moves as an object of love (ὡς ἐρώμενον, 1072b3; In Metaph. XII, lect. 7 n. 1-3, sicut desiderabile, the heaven's motion being for its sake and caused by a proximate mover). The Lambda.7 readings (STMT-SOME-UNMOVED-MOVER-CANNOT-BE-OTHERWISE, STMT-EVERY-UNMOVED-MOVER-CANNOT-BE-OTHERWISE) read the case's MovesIn to include moving as an end: on the broad reading, what moves as an end is that for whose sake a potency is reduced to act. This is an unattributed reading choice, not a claim that Aristotle's mover is an efficient mover. ARIST-MET-XII-7-FIRST-MOVER-PURE-ACT depends on it: its uniqueness step identifies the prima via's first mover with Lambda.7's mover through the same MovesIn. If MovesIn is read as efficient moving only, the Lambda.7 mover need not satisfy IsFirstUnmovedMover and the step fails. Lambda.7's 'unmoved' and 'in no way otherwise' are read over the respects of change (DEF-RESPECT-OF-CHANGE); their extension to every respect, for a mover that moves something and is unmoved and unable to be otherwise in every respect of change, is the unattributed STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY.",
+      "before": {
+        "sha256": "92662e4d1902ea1410f5cc62ad107bc631b2e1b98ac4a917da787da8056cf1c9",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "92662e4d1902ea1410f5cc62ad107bc631b2e1b98ac4a917da787da8056cf1c9"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-ORDER-OF-BEING",
+      "path": "corpus/disambiguations/order-of-being.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: `MoreIn esse` is one primitive comparative in every result; this record says which order model each use takes. Their order shapes need not differ: when every represented being has the perfection (`∀ x, InAct x r`), an order by approach to a primary is a homogeneous scale for the preorder pulled back along `near` (`ApproachToPrimaryReading.homogeneousLift`). Universal possession is an additional condition: the attribution reading itself requires only the primary to have the perfection. Strict primacy of one distinguished being (DEF-STRICT-PRIMACY) and the causal clause of q.13 a.5 are further separate premises. Aquinas' sense is the attribution order (q.3 a.5 ad 2, AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A), which attributes only the order by approach. Strict primacy is not attributed to q.3 a.5 ad 2: it is the separate open premise STMT-NOTHING-ELSE-REACHES-THE-PRIMARY, with no claim, taken as an explicit hypothesis where it is load-bearing (QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING, QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM). Likewise q.13 a.5 speaks of creatures; that everything other than the primary is a creature is the open premise STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES. Verdicts on the frontier premises: (1) STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS: on the homogeneous scale the order gives it no support but is consistent with it (STMT-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING); on the attribution order its instance at being is derived from the order by approach, strict primacy, the causal order of creatures to the primary and the creature premise (STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS), so at being it survives re-read as a consequence of q.3 a.5 ad 2 and q.13 a.5 plus two open metaphysical premises and excluded middle, while the principle for other perfections stays open. (2) STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH: its source sense is synonymous (Met. II.1, 993b24-26: the synonymous quality), the univocal sense, where it is consistent but unsupported; on the attribution order with strict primacy it holds for the primary as cause and fails in general (STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH). It therefore needs re-reading at being: restricted to the primary it is derivable, and the AT-MOST-ONE route uses it only there; applied with the primary as effect (AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING) it is neither derivable on the attribution order nor available in its synonymous sense, since q.13 a.5 (arg. 1 and ad 1) denies that the first agent is a univocal cause; that use equivocates unless separately sourced. (3) STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING: neither order yields it, even with the causal order and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING). On the attribution order with strict primacy the maximum is the primary, so the bridge reduces to: nothing other than the primary is simply prior to it; it stays open.",
+      "before": {
+        "sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-PER-SE",
+      "path": "corpus/disambiguations/per-se.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking.",
+      "before": {
+        "sha256": "2a688fb68fe917ecd122430ab25ef91041ae7cf28878b9bfc9d08f08e3b9b115",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "2a688fb68fe917ecd122430ab25ef91041ae7cf28878b9bfc9d08f08e3b9b115"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-PER-SE-LINK",
+      "path": "corpus/disambiguations/per-se-link.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The case uses the strong reading. Result AQUINAS-ST-I-Q2-A3-STRONG-READING-INTENDED argues that it is Thomas' meaning (from the unrestricted conclusion, the wording, and the failure of the weak reading to yield an unmoved mover, under a stated charity principle); result AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE records that the weak reading yields only a mover unmoved as mover of its series; the irrelevant-respect objection is scoped by AQUINAS-ST-I-Q2-A3-IRRELEVANT-RESPECT-OBJECTION-SCOPE. No result mixes the two readings: they are different Lean premises.",
+      "before": {
+        "sha256": "a49dc01003b2e4b595167ffd69a8a750ac771c0c155662edef81c4228a88106e",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "a49dc01003b2e4b595167ffd69a8a750ac771c0c155662edef81c4228a88106e"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-Q11-GOD-BEING-PERSON",
+      "path": "corpus/disambiguations/q11-god-being-person.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: Every quantified God in the Q11 proof is an original IsGod instance in Being: a hypothetical divine being, not Father, Son or Spirit as distinct persons. suppositumOf is used here for the individuating basis in the anti-plurality argument and not as a divine-person index. The common deity parameter does not identify persons. Existing IsGod is not redefined and no Trinitarian conclusion follows.",
+      "before": {
+        "sha256": "96c354780768639587bc5060b4e613f04ce2f0fd5395ce333ff6bd80cde94462",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "96c354780768639587bc5060b4e613f04ce2f0fd5395ce333ff6bd80cde94462"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-Q11-SUPPOSITUM-NATURE",
+      "path": "corpus/disambiguations/q11-suppositum-nature.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: suppositumOf represents the individuating basis of this individual; essenceOf represents what the being is. Both take values in Principle only to permit the separately stated identity comparison. No identity between these senses, no injectivity, and no mapping of every immaterial being to one nature is assumed by the vocabulary. God-specific identity and common-nature scope are separate sourced open premises. This is unrelated to modal Scott/Gödel essence.",
+      "before": {
+        "sha256": "452e1afb87e5ba2a12a9cf534ea61b3b9b9a78731717f2c14c3239a9d36bed41",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "452e1afb87e5ba2a12a9cf534ea61b3b9b9a78731717f2c14c3239a9d36bed41"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-TRUE",
+      "path": "corpus/disambiguations/true.json",
+      "status": "inspected",
+      "classification": "intentional_abstraction",
+      "finding": "Existing resolution retained: The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; the result's conclusion denies truth simply, and it denies objective truth only under the further, unformalized bridge that what is objectively true is true (no Lean declaration states it). 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate. The objective-truth pilot uses DEF-LEAN-PROPOSITION-HOLDING for ∃ P : Prop, P and its logical counterpart: a proof in the encoded logic, not an identification with ontological, robust, minimal or attitude-independent truth. Its profile Interpretation is a stipulated external mapping, and a bridge preserving a logical sentence across profiles remains explicit and open.",
+      "before": {
+        "sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2"
+    },
+    {
+      "kind": "claims",
+      "id": "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
+      "path": "corpus/claims/vatican-i-dei-filius-ch1-one-true-living-god.json",
+      "status": "inspected",
+      "classification": "reused_source_evidence",
+      "finding": "Reuse prior audit materialization and interpretation of VATICAN-I-DEI-FILIUS-CH1, DS 3001–3002. Confession of God and attributes is not a universal arbitrary-predicate sufficiency law. No source or claim change; no renewed source-fidelity certification.",
+      "before": {
+        "sha256": "0c57a1b17a19d10172166462d91f6a557a6c9c82d7fc9bd7d433c0acc8e94f26",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "0c57a1b17a19d10172166462d91f6a557a6c9c82d7fc9bd7d433c0acc8e94f26"
+    }
+  ],
+  "limits": [
+    "Exactly four existing result bundles and their declared statement/inference/term closure, plus three new records for the separate identity interface: 149 dispositions (146 existing, 3 new). The prior 69-record audit is retained separately. No whole-corpus or recursively renewed source audit.",
+    "IsImmutable InPotency means no potency in any Respect at the same being. Infinite, Eternal, HasIntellect and HasWill remain primitive predicates constrained by explicit readings, not internally derived accounts of infinity, succession, cognition or appetite.",
+    "GodHasClassicalAttributes is universal conditional; IsGod need not be inhabited. Existence in consumers comes separately from Fourth-Way m or First-Way f. All conjunction components concern that same witness; separate existential witnesses cannot be combined.",
+    "NineClassicalAttributes and HasClassicalAttributes remain distinct. Only the open one-way sufficiency law connects them. The God-to-maximality naming converse remains open in ALL and original witness consumers; Q11-NATURE has three explicit alternative uniqueness premises.",
+    "The new checked theorem uses DecidableEq σ.Being and DecidableEq Principle. This supplies a sufficient logical floor without full excluded middle; syntactic use alone does not prove necessity, minimality, or strict separation from EM. Legacy imported proofs and downstream interfaces retain their original EM hypotheses.",
+    "Unrestricted strict causal ascent, cause-of-being/every-perfection and maximum/first-being bridges, formal/eminent interpretation and source-reading applicability remain open. Reuse prior source witnesses and rejected readings; no attribution or metaphysical interpretation is strengthened.",
+    "No declared disjunction-elimination fork use is added. Existing proof/type/source/frontier authorities remain authoritative; presentation and exact expression identity do not establish premise truth."
+  ],
+  "next_scope": "Full-description naming and first-mover/maximal-being identity (MaximeEnsIsGodViaFullDescription and FirstMoverIsMaximeEns), then their immediate root compositions. Bind their witness transports and check separate identity-decision interfaces; retain FirstUnmovedMoverExistsOrNot separately from carrier identity decisions."
+}

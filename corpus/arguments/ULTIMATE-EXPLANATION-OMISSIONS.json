@@ -1,0 +1,23 @@
+{
+  "id": "ULTIMATE-EXPLANATION-OMISSIONS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ULTIMATE-EXPLANATION-OMISSIONS",
+  "inference_ids": [
+    "INF-ULTIMATE-EXPLANATION-OMISSIONS"
+  ],
+  "meaning": "Explicit omission controls: an inconsistent initial value and observed prefix empties the evidence cell and makes accuracy/optimality vacuous; a grounded scope with a false forecast still makes an error; the toggle profile is deterministic but the constant-on trace fails it. These are mathematical controls, not metaphysical or epistemic closure.",
+  "definition_ids": [
+    "DEF-ULTIMATE-EXPLANATION-PROFILE",
+    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+    "DEF-ULTIMATE-EXPLANATION-DECISION",
+    "DEF-REGULARITY-GROUND",
+    "DEF-REGULARITY-SCOPE",
+    "DEF-HUME-INDUCTION-RECORD",
+    "DEF-HUME-INDUCTION-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
+    "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
+    "DISAMB-REGULARITY-CAUSAL-SENSES"
+  ]
+}

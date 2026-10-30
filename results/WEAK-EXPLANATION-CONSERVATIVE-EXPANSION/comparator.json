@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ConservativeReasonExpansion.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ConservativeReasonExpansion.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

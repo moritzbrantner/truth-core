@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-NECESSARY-UNION-CONTROLS",
+  "term": "joint finite source/cycle controls",
+  "definition": "The explicit one-world Fin 3 model has a source at 0 and a two-cycle between 1 and 2. The unchanged Bool rotating model has restricted local acyclicity, no union source and a union cycle. The unchanged Bool varying model has a union source, no union cycle and a novel necessary support edge. These are formal interpretations of the signature, not established metaphysical possibilities.",
+  "basis": "stipulative",
+  "note": "Source-free finite graph investigation #604. No metaphysical actuality, divine identity, uniqueness, or root discharge is asserted.",
+  "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.ModelControls"
+}

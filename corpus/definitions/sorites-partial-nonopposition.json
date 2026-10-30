@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SORITES-PARTIAL-NONOPPOSITION",
+  "term": "non-opposition tolerance in a partial classification",
+  "definition": "Status is positive, borderline or negative. NonOpposed a b forbids positive/negative and negative/positive adjacent pairs. Borderline is neither positive nor negative; transitions through it may preserve non-opposition while losing positivity.",
+  "basis": "stipulative",
+  "note": "A finite partial classification control, not full supervaluation, fuzzy logic or a claim that actual language has precisely three semantic values.",
+  "lean_declaration": "TruthCore.Logic.SoritesBoundary.NonOpposed"
+}

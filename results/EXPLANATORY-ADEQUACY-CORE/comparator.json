@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ExplanatoryAdequacy.core"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

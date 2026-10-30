@@ -1,0 +1,23 @@
+{
+  "id": "FINITE-NECESSARY-UNION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-FINITE-NECESSARY-UNION-CONTROLS",
+  "inference_ids": [
+    "INF-FINITE-NECESSARY-UNION-CONTROLS"
+  ],
+  "meaning": "Joint controls on explicit finite interpretations: source plus independent two-cycle; rotating local acyclicity with no union source and a union cycle; benign varying source without a union cycle despite a novel necessary edge. Reuses the unchanged rotating and varying model theorems. These refute exclusivity of source/cycle and any inference from variable edges alone to absence of a common source; no metaphysical interpretation is established.",
+  "definition_ids": [
+    "DEF-UNION-NECESSARY-SUPPORT",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-FINITE-NECESSARY-CARRIER",
+    "DEF-NECESSARY-UNION-SOURCE",
+    "DEF-NECESSARY-UNION-CYCLE",
+    "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
+    "DEF-FINITE-NECESSARY-UNION-CONTROLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-SUPPORT-CONCRETE-GROUND",
+  "term": "actual esse support as concrete grounding",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.OccurrenceUnderivedEssence.ActualSupportIsConcreteGround",
+  "definition": "At selected w, each existing R-supporter c of each existing concrete target n is an ActualConcreteGround: c is concrete, exists at w and grounds n at w. Thus a concrete-ground-minimal ancestor has no existing R-supporter. The converse is not asserted.",
+  "note": "Explicit open analyst bridge. It excludes abstract supporters of concrete targets and support relations absent from grounds; neither arbitrary graph structure nor a causal word establishes it. All worlds and individuals are the same as the occurrence/grounding profile. This is not necessity implies underivedness. See docs/notes/occurrence-same-witness.md."
+}

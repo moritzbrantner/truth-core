@@ -1,0 +1,20 @@
+{
+  "id": "INF-NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-UNDERIVED-ESSENCE-IDENTITY",
+  "rule": "direct-proof",
+  "meaning": "Import and apply the existing PositiveUnion.checks with its exact five original premises, retaining its same actual necessary underived individual. Apply the existing q3a4 distinctEsseExternalFromExhaustion to the source-attributed causal dichotomy and efficient-self-cause exclusion. Three separately OPEN selected-world adapters supply the q3 actuality of that individual, the actual presence of a q3 cause-in-esse, and direct typed cause-in-esse→R support. Such an incoming edge contradicts that same individual’s underivedness. Constructively the core yields only double-negated essence–esse identity; explicit excluded middle yields positive identity. No assumption that every ordinary event cause supports esse, actual graph connectivity/confluence, maximality, pure actuality or uniqueness is used. This is a conditional same-witness connection consuming an existing transcription, not a defense of its premises or a root discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

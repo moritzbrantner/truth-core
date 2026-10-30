@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TemporalActualization.Framework.framework"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
