@@ -1,0 +1,10 @@
+{
+  "id": "TRUTH-NONTRIVIALITY-CORE",
+  "argument_id": "TRUTH-NONTRIVIALITY-CORE",
+  "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.Core.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthNontriviality.Core.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthNontriviality.Core.truthNontrivialityCore",
+  "comparator_config": "results/TRUTH-NONTRIVIALITY-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional laws of predicate collapse and of what a global denial of truth excludes. Each bridge is an explicit hypothesis. It applies to a rival only once that rival's predicate meets the hypotheses, and it does not prove that some content is absolutely true."
+}

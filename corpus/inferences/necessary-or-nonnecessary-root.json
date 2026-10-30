@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-OR-NONNECESSARY-ROOT",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+  "rule": "constructive-proof",
+  "meaning": "Descend along the restricted relation by well-founded induction from an actual concretum; excluded middle decides at each step whether an actual concrete ground exists, so the descent reaches an actual root; excluded middle then decides whether that root exists at every accessible world (first horn) or not (second horn).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "argument_id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "challenge_module": "TruthCore.Results.Comparison.MindPhysicalism.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.MindPhysicalism.Solution",
+  "theorem": "TruthCore.Results.Comparison.MindPhysicalism.noPerSeOperation",
+  "comparator_config": "results/MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION/comparator.json",
+  "status": "solution-present",
+  "description": "Incompatible core: the three causal premises, excluded middle, and two open bridges exclude a per-se intellectual operation. Comparator also checks the composition with the q.75 premises, five deletion models, the collective-reading hybrid, someBased and a joint-satisfiability witness. It refutes neither q.75 nor physicalism: rejection of some member is forced and none is selected. No root premise is discharged."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-TRUTH-NONTRIVIALITY-556",
+  "date": "2026-10-30",
+  "statement_ids": [
+    "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+    "STMT-TRUTH-NONTRIVIALITY-CORE",
+    "STMT-TRUTH-COLLAPSE-CONTROLS",
+    "STMT-GLOBAL-NO-ABSOLUTE-TRUTH",
+    "STMT-SOME-ABSOLUTE-TRUTH"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Searched TruthCore and the corpus for the exact theorem: none existed. Proved ¬∀ P Q : Prop, P ↔ Q from the two existing witnesses; ∃ P Q, P ∧ ¬ Q got no statement, since the conjunction of those witnesses suffices. Rejected reading: treating that theorem as refuting relativism or nihilism. It constrains a truth predicate only through the hypothesis Expressive, and the controls have models of no absolute truth with expressive relative truth, of total nihilism, of global profile variation and of gluts. A first draft of the capture clause expected a contradiction; ThesisSchemaModel shows disquotation with capture is satisfiable and yields only ¬ GlobalNoAbsoluteTruth, with no witness of absolute truth. Exhaustive negation had to be stated disjunctively: from ¬ truth p → truth (neg p), collapse gives only ¬¬ truth p constructively. Profile for elimination: under Expressive, or exclusion with exhaustion on inhabited contents, predicate collapse is excluded; without those bridges nothing beyond Prop collapse is. Eliminated corpus rivals: none; STMT-GLOBAL-NO-ABSOLUTE-TRUTH stays surviving and no refutes relation is added. Strongest remaining rival: relative-truth relativism with expressive relative predicates. Remaining gaps: no source reading of any relativist or nihilist; whether any rival accepts Expressive, capture or exhaustion is open.",
+  "evidence": [
+    "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+    "TRUTH-NONTRIVIALITY-CORE",
+    "TRUTH-COLLAPSE-CONTROLS"
+  ]
+}

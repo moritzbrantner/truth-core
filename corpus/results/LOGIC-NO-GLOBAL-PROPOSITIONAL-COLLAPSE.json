@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "argument_id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.noGlobalPropositionalCollapse",
+  "comparator_config": "results/LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE/comparator.json",
+  "status": "solution-present",
+  "description": "Not all Lean propositions are pairwise equivalent, composed from STMT-SOME-LEAN-PROPOSITION-HOLDS and STMT-SOME-LEAN-PROPOSITION-FAILS. A logical theorem about Prop only."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthNontriviality.Controls.truthCollapseControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

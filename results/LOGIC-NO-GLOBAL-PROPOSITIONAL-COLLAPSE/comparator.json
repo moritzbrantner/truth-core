@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.noGlobalPropositionalCollapse"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISTEMIC-ONTIC-BRIDGES",
+  "term": "epistemic-to-ontic bridge",
+  "definition": "TrackingBridge: every supported contingent truth at w has a reason at w. EvidenceBridge: every contingent truth used as evidence at w has a reason at w. GlobalDefeat: if a brute contingent truth exists at some world accessible from w, nothing supports anything at w. SupportCoverage: every contingent truth at w is supported at w. All four are hypotheses under test, and no result asserts any of them.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #756. Whether any source defends one of these forms has not been read; a sourced reading would need a pinned witness from the #409 intake.",
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.EvidenceBridge"
+}

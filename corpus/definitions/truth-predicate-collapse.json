@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRUTH-PREDICATE-COLLAPSE",
+  "term": "collapse of a truth predicate",
+  "definition": "`Collapse truth`: for one predicate on one content type, `∀ p q, truth p ↔ truth q`. The poles are `AllHold` and `AllFail`.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthNontriviality.Collapse",
+  "note": "Stipulated test notion. The predicate and content type are parameters, so it covers a rival only once the rival's predicate is supplied."
+}

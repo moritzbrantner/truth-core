@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISTEMIC-SUPPORT",
+  "term": "epistemic reason (support)",
+  "definition": "Inquiry.supports w e p says that at w the fact e is admitted as a reason to accept p; Supported I w p says some fact is. It is a primitive parameter, not assumed factive, transitive, asymmetric or well-founded, and it says nothing about why p obtains. Smoke is a reason to accept that there is a fire and no reason why there is one.",
+  "basis": "stipulative",
+  "note": "Analyst-stated relation for #756, under test. A sourced reading would need a pinned witness from the #409 intake.",
+  "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.Supported"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "TRUTH-COLLAPSE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTH-COLLAPSE-CONTROLS",
+  "inference_ids": [
+    "INF-TRUTH-COLLAPSE-CONTROLS"
+  ],
+  "meaning": "Construct each model; the uncollapsed claims follow from the expressive law where the model is expressive.",
+  "definition_ids": [
+    "DEF-TRUTH-PREDICATE-COLLAPSE",
+    "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+    "DEF-NEGATION-EXHAUSTIVE",
+    "DEF-THESIS-CAPTURE",
+    "DEF-GLOBAL-TRUTH-NIHILISM",
+    "DEF-ABSOLUTE-TRUTH",
+    "DEF-RELATIVE-TRUTH",
+    "DEF-ASSERTION-COMMITMENT",
+    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+    "DEF-PILOT-RELATIVISM-GLOBAL",
+    "DEF-PILOT-RELATIVISM-LOCAL",
+    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-COLLAPSE-LEVEL",
+    "DISAMB-ASSERTED-TRUTH-SENSE",
+    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
+    "DISAMB-PILOT-RELATIVITY"
+  ]
+}
