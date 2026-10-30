@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-LAW-ACTUALITY-743",
+  "statement_ids": [
+    "STMT-LAW-ACTUALITY-743-CERTIFICATE",
+    "STMT-LAW-ACTUALITY-743-OMISSIONS",
+    "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY"
+  ],
+  "date": "2026-10-30",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "New #743 discriminator varies two individually deterministic, uniquely solvable laws and quantifies over every prefix-invariant law estimator. Both mathematical histories have explicit coherent state population; neither law can be uniformly identified from the shared finite prefix. Composes exact whole-vector HistorySelection.no_selection/characterization and #704 ChainInstantiation.controls. Full-data, one-candidate and empty-realization omissions prevent overclaiming. No reproof of #737 fixed forecast/openFuture countermodels. Sources, exact theorem inventory, rejected interpretations, proof boundaries and remaining bridge persist in docs/notes/law-actuality-743.md. Initial interactive proof failed on reserved prefix identifier and ambiguous opened Certificate/Omissions names; corrected without changing frozen Challenge or statement types.",
+  "blocker": "Actual concrete applicability/governance or best-system truth, independently defended candidate exclusion, and fallible epistemic entitlement remain OPEN. STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY and #467 are not discharged.",
+  "evidence": [
+    "LAW-ACTUALITY-743-CERTIFICATE",
+    "LAW-ACTUALITY-743-OMISSIONS",
+    "HISTORY-SELECTION-CERTIFICATE",
+    "CHAIN-INSTANTIATION-CONTROLS"
+  ]
+}

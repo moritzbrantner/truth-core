@@ -1,0 +1,20 @@
+{
+  "id": "LAW-ACTUALITY-743-OMISSIONS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LAW-ACTUALITY-743-OMISSIONS",
+  "inference_ids": [
+    "INF-LAW-ACTUALITY-743-OMISSIONS"
+  ],
+  "meaning": "Use the first unobserved value and exact state measurements for positive identification/determination. Restrict the correctness demand to the true-law candidate for the constant estimator. Keep law satisfaction unchanged while emptying represented existence and presence. Compose TruthCore.Results.Causality.ChainInstantiation.controls rather than reproving its prior omission models.",
+  "definition_ids": [
+    "DEF-LAW-ACTUALITY-743",
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-CHAIN-INSTANTIATION-WINDOW"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LAW-ACTUALITY-743",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC"
+  ]
+}
