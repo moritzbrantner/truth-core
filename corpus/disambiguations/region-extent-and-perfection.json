@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-REGION-EXTENT-AND-PERFECTION",
+  "term": "infinite region extent versus unrestricted perfection",
+  "sense_definition_ids": [
+    "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
+    "DEF-INFINITE"
+  ],
+  "resolution": "IsGreatest under region inclusion means every region is included; maximality only excludes strictly greater members of the stated domain. The whole is greatest in all regions; the singletons are maximal only in the selected two-member family. QuartaViaNoMaximalDegree (old QuartaViaUnboundedDegrees) asserts a higher member for every member, as on bounded (0,1), not metric unboundedness. The whole has infinite cardinality and first-coordinate extent but is not thereby an intensive infinite perfection or maxime ens. Region inclusion, efficient causation, grounding and explanatory priority are distinct: emptyPriority only refutes entailment from geometry alone. No type, mathematical membership or arbitrary relation establishes real instantiation. See docs/notes/infinite-greatest-whole.md."
+}

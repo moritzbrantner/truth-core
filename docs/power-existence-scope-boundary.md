@@ -247,3 +247,318 @@ corresponding graph constraints and the open map (eight direct premises).
 The necessary-support **union WF is retained**. Only ordinary-world causal WF
 is absent. Neither configuration establishes its five original metaphysical
 inputs or the structural extensions; root open premises remain unchanged.
+
+## Shared interfaces for the four-area foundation investigation
+
+The inventory below fixes the reuse boundaries for the owner's dependence,
+composition, individuation and necessity investigation. It inspects existing
+declarations and dossiers, not new primary-source evidence. It does not identify
+an arbitrary mathematical interpretation with a metaphysically adequate account.
+
+| Arena | Reuse | Interface still requiring justification |
+| --- | --- | --- |
+| World-relative existence and causation | `German.Kant.CosmologicalInference.Ontic` has independent `frame`, `ExistsAt` and world-local `Causes` fields. `NecessaryAt` quantifies over accessible worlds; `NecessaryBeing` additionally supplies an actual existent. | Actual presence does not follow from a non-reflexive box, and `ExistsAt` does not analyze Thomistic esse. There is no separate `Modal.Ontic` declaration. |
+| Power and existential support | `PowerExistenceBoundary.Profile` separates `transmitsPower`, `supportsEsse`, `intrinsicPower` and `properPartOf`. Its `Coherent` conditions give endpoint presence and transmission/support-to-ordinary-cause inclusions. | Underived exercised power in the selected respect is not independence of the whole being. The inclusions have no converse. |
+| Named underivedness | `NamedPotentialCauser.NamedNecessarilyUnderived m R w n` retains the same actual necessary n and excludes incoming R edges from existing sources at every admitted world. | The no-support quantifier is broader than root accessibility. It is not uniqueness, an intrinsic reason, or absence of a different causal relation. |
+| Explanation | `ExistencePSR.Model` relates `Reason` tokens to `ExistenceFact`s while preserving the underlying `Ontic`. `Sound` supplies existence-factivity; `WorldwiseExplanation.StableExplanation` and `ReasonInvariant` are guarded by existence at the target world. | An `intrinsic` tag is not essence–esse identity or adequate intrinsic explanation. Stable explanatory assignment is not `BruteFoundationExplanations.NecessitatesExistenceAt`. Reason tokens are not automatically concrete causes. |
+| Conservation | `DEF-PER-SE-ESSE-CONSERVATION` and `STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE` record the q.104 a.1 account; `DEF-CAUSE-OF-BECOMING` and `DEF-CAUSE-OF-ORIGIN` retain different roles. | This conservation record supplies no Lean conservation relation or theorem equating it with `supportsEsse`, `CausesIn`, production at successive instants, or a nonexistence counterfactual. |
+| Composition and priority | `Article7.MatterFormAndEsseEssenceAreCompositionsReading`, `CompositePosteriorToComponentsReading` and `CompositeHasComponentOtherThanItselfReading` feed `FirstMoverSimple.firstMoverSimple`. | The implemented kind inclusions cover matter/form and distinct essence/esse. The primitive q.3 `Composite` remains broader than proper material parthood. Quantitative and genus–difference realization are not supplied by these inclusions. |
+| Genus and difference | `MetaphysicsIII3` supplies strict `IsGenus`, `DifferentiaOf` and `SaidOf` readings; q.3 a.5 adds `InGenus : Being → Term → Prop`. | Conceptual predication does not itself give a real component, a potency/act principle, or an efficient cause. No generic classified-bearer structure is needed merely to put these parameters beside the q.3 a.4 profile. |
+| Essence and efficient esse-causation | q.3 a.4 `Profile` represents `essenceOf` and `esseOf` in a common `Principle` sort. `distinctEsseExternalFromExhaustion` reuses two separately open causal premises. | This result is explicitly a transcription of the exhaustive dichotomy and its exclusion. Its efficient self-cause exclusion does not refute all intrinsic or noncausal reasons. The profile is not modal. |
+| Individuation | `Q11NatureUniqueness.godIsOneFromNature` uses injectivity of `suppositumOf`, suppositum/nature identity, and one common nature; its three Bool omission controls remain the exact reusable controls. | Mere necessity, absence of represented components and equality of an individual's own essence and esse do not supply a common nature or injective individuation. The three separate controls do not already certify a joint two-necessary-simple-being model. |
+
+Two minimal shared declarations make the direct connection explicit.
+`TruthCore.Causality.ExistenceActuality.ExistingInActAt` retains its one-way
+actuality role. Its exact type is
+`∀ x, m.ExistsAt w x → InAct x esse`, with `m`, `InAct`, `esse` and `w`
+supplied. This is the open `STMT-EXISTING-IN-ACT-AT` interface, not an axiom or
+an asserted equivalence. It supplies target actuality for a q.3 a.4 application;
+it does not supply the actual presence of a proposed cause, causal-to-support
+correspondence, all-perfection actuality, necessary existence, or essence–esse
+identity. `EXISTENCE-TO-ACT-IN-ESSE-INTERFACE` records the independent
+interpretive obligation. Shared authorship is integrated with the consuming
+necessity/actuality result rather than creating a second theory profile.
+
+
+`ExistenceActuality.ActualEsseCausesSupportAt m R CausesIn esse w` is the
+separate direct interface: from `m.ExistsAt w c`, `m.ExistsAt w x`, `c ≠ x`
+and `CausesIn c x esse`, it gives `R w c x`. This is the open
+`STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT`, not an identification of causes and support.
+It does not mention `m.Causes`. In particular, ordinary event-causal edges need
+not all be existence-support edges. Both endpoints' presence is an antecedent,
+not a conclusion, and the act-in-esse interface remains independent.
+
+The stronger pair of cause-in-esse-to-ordinary-cause correspondence and
+`ActualCauseSupportsEsse` can supply this direct map by composition. The
+ordinary route retains its original eleven-premise Challenge; a separately
+frozen direct Challenge replaces that pair by the qualified direct interface.
+No existing Challenge is weakened. The consuming investigation must demonstrate
+its claimed strictness with an actual model and preserve the independent
+cause-presence premise. A possible ordinary event cause that is not a cause of
+esse is not ruled out merely by calling the bearer underived with respect to R.
+
+The direct q.3 a.4 route can therefore be compared with the q.3 a.7 route
+without silently identifying their premises. A named underived actual bearer,
+target actuality, the source's distinct-esse external-cause conclusion, and
+explicit cause-presence/correspondence interfaces can exclude distinct esse.
+Constructively that yields a double negation of essence–esse equality;
+positive equality requires an appropriate further logical principle. This
+paragraph identifies the proposed consuming argument, not a newly certified
+theorem in this inventory. The actual result must import the existing q.3 a.4
+theorem and retain its open causal premises.
+
+The live joint rival model uses two actual necessary roots with a common actual
+dependent effect. Deriving represented simplicity through the existing
+`firstMoverSimple` theorem is stronger than assigning a free `Simple` flag,
+but a proper-component interpretation still does not cover all q.3 composition
+kinds. A fork's common dependent target does not supply upstream confluence.
+Equal represented perfections also do not establish numerical identity: the
+Q11 common-nature/individuation or differentiation-in-act premises must be
+stated and defended separately. This inventory approves no new metaphysical
+possibility claim and does not certify the worker's forthcoming joint model.
+
+**Premise comparison:** two analyst-defined interfaces are added as explicitly
+unproved vocabulary items. No philosophical premise is endorsed, removed or
+discharged; no new root route, source claim or consequence result is added by
+this inventory. The existing root-path commitments remain open. In particular,
+q.104 conservation's formal relation, genus–difference realization, the actual
+cause mappings and the common-nature/individuation bridges remain live gaps.
+## Same-witness noncomposition after #636
+
+`NECESSARY-UNION-COMMON-NONCOMPOSITE` imports and applies the exact
+`TruthCore.Results.Causality.UnderivedCommonSource.causal_from_union`
+theorem. It retains that theorem's eight premises and its **same named
+individual**, including necessary existence, absence of R-support and
+unique actual causal sourcehood. Its additional conclusion is
+`¬ Composite n` for the supplied q.3 predicate. It neither supplies a God
+identification nor asserts the other classical attributes.
+
+Three further direct premises do the work:
+
+1. The existing `CompositeHasAUnitingCauseReading` gives a distinct
+   `CausesIn c n esse` witness for a composite n.
+2. `UnitingCausesPresent` says such a cause of an actually existing target
+   itself exists at the selected world.
+3. `UnitingCausesAreActual` says such a cause with actual endpoints gives
+   an ordinary `m.Causes w c n` edge.
+
+That incoming edge contradicts sourcehood of this same n. Both new interfaces
+are explicit **open analyst commitments**, not attributed to Aquinas and not
+asserted as identities between `CausesIn`, `m.Causes` and R. The proof does not
+need the existing maximum-based route's maximality or causal-comparison
+premises, nor the first-mover route's first-being premise. This compares
+conditional routes; it does not defend one by counting its premises.
+Necessary-support **union well-foundedness remains an input** through #636.
+Connectivity and confluence are retained for its unique-source conclusion,
+even though noncomposition alone requires only sourcehood.
+
+The whole pinned article `AQUINAS-ST-I-Q3-A7` was materialized and read.
+Its third proof says that a composite requires a cause uniting what is diverse
+in itself, and that God has no cause as first efficient cause. The existing
+claim already records reading that as a distinct cause of being. Neither the
+passage nor the old Lean type supplies the modern `Ontic` world's endpoint
+existence or the relation correspondence. Hence this connection creates no
+new historical claim and provides no independent source defense of its two
+interfaces. OCR defects elsewhere in the pinned transcription do not alter
+the consulted third-proof clause; no source bytes were repinned.
+
+`UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS` separately witnesses both gaps:
+
+- In `absentCause`, false is the only existing individual and is necessarily
+  present, R-underived and the unique actual source. It is composite and has
+  the alleged uniting cause true. The world-local causal edge is recorded,
+  but true is absent. Presence fails; the actual-node graph has no incoming
+  predecessor. This deliberately violates endpoint soundness: it tests the
+  weaker encoded types, not a genuine cause by a nonexistent thing.
+- In `differentCause`, both candidates exist and false causes true. False is
+  again the same necessarily underived unique actual source and composite.
+  The atemporal alleged uniting cause is true-to-false; this does not map to
+  an actual causal edge. Presence holds and correspondence fails.
+
+Both retain the existing q.3 uniting-cause reading. Their distinct cause need
+not be outside the composite's parts: `c ≠ n` is numerical distinctness only.
+No material-fusion, parthood or temporal claim is introduced. They establish
+logical omission boundaries, not metaphysical possibility or a refutation
+of actual composites. The original power-source countermodels remain the
+stronger warning against transferring underivedness in one respect to whole
+being without any interface.
+
+**Actual premise comparison:** all eight #636 premises retained; the q.3
+uniting-cause statement plus two open interfaces added to this conditional
+connection. Zero open root premises independently defended or discharged;
+no existing root argument rewired. Source correspondence, cause actuality,
+the relation R's metaphysical applicability, and the original regress
+premises remain open. The adjacent PSR audit in
+[psr-scope-countermodels.md](psr-scope-countermodels.md) independently preserves
+the distinction between an explanation and a necessitating reason; the
+present causal connection does not discharge that explanatory bridge either.
+
+## Five questions for direct existential support (#680, #686)
+
+This audit concerns **R itself**, not the validity of the theorems parameterized
+by R. It reuses `PresentEsseSupport`, `ActualNecessaryWellFounded`,
+`PowerExistenceBoundary.Profile` and its existing boundary theorem; it does not
+introduce another dependence relation. The actual-world theorem (#686) and
+the union theorem used by #680 remain conditional consequences. Their intended
+metaphysical interpretation has the following status.
+
+### 1. What would R mean in ordinary reality?
+
+The proposed reading is: **c is now actively responsible for b's existing at
+all, as this very bearer, rather than merely for something b does or a state b
+has.** The action is a cause of b's being, not only an earlier action making b
+begin. “Now” selects the actual situation; it does not require repeated
+creation, temporal succession in the giver, or instantaneous physical action.
+This prospective concurrency is an interpretive requirement, not a consequence
+of `ExistsAt w x`: Ontic has no time argument, and w may represent a complete
+history. The existing `HistoryTimeScope` controls (#622) separate World and
+Time; world-existence does not imply presence at a selected time or concurrent
+activity. Any temporal application needs its own justified history/time and
+causal interpretation. Worlds must not silently be treated as times.
+“Direct” selects the esse-giving role itself, rather than every condition that
+allows it to operate. This is an intended causal reading, not a completed
+reductive analysis or an observation already established for every bearer.
+
+For a positive application one must identify c and b independently, fix what
+counts as the same bearer b, and explain the actual activity attributed to c
+and why its effect is that bearer's existence. That last explanation must
+exclude the weaker diagnosis that c changes a persisting bearer, maintains an
+arrangement or removes a threat. Calling the activity “existence giving” does
+not supply that explanation. R would be false on this reading where only
+those weaker roles occur; a dispute over whether any giver is needed remains
+a dispute over R's instantiation, not a reason to redefine the weaker role as R.
+A claim that b would disappear without c can be evidence within an independently
+specified causal account, but is not sufficient by itself: removal may destroy
+b, remove a protector, or track a common cause. Mere covariance supplies no
+direction or directness either.
+
+There is an important gap between this interpretation and the exact code.
+`PresentEsseSupport m R w c b` is only `m.ExistsAt w c ∧ R w c b`.
+It does not establish the target's presence, distinctness, a causal mechanism,
+or any of the ordinary-language conditions just described. The necessary-bearer
+restrictions in the consuming arguments supply their own guards. A faithful
+application must justify the relevant target presence and interpretation;
+the wrapper's name cannot certify them. Self-support has not been excluded by
+definition: the existing formal results exclude it when their WF premise holds.
+
+### 2. What are clear examples, and which are only analogues?
+
+No undisputed empirical example of **directly maintaining a substantial bearer's
+existence as such** is supplied by the current corpus. This is a limitation of
+the supplied examples, not a finding that R has no instances. Neither empirical
+observability nor absence of philosophical disagreement is a requirement for
+justification: a defended philosophical argument could establish an instance
+or property despite dispute. The proposed central
+instance, God continually giving creatures esse, is a substantive metaphysical
+thesis whose defense cannot assume the conclusion of the regress argument.
+The materialized `AQUINAS-ST-I-Q104-A1-EN`, response's paragraph beginning
+“Now every creature may be compared” and reply 4, articulates that thesis through
+participated being and continued esse-giving; it does not make it an independent
+empirical observation. The article's complete objections and replies were reread
+for this audit. The source's account and its truth retain separate statuses.
+
+The following are useful **scope tests**, not new physical research claims or
+verified R-instances. A powered lamp's illumination can illustrate a causal
+exercise requiring an ongoing supply. The lamp's ceasing to shine does not
+establish that the lamp ceases to exist. A maintained current or oscillation
+can illustrate a continuing process; identifying b with that process changes
+the target from its enduring material bearer. An arrangement maintained by
+pressure, tension or control illustrates dependence of a structural state;
+the continued existence of the materials is a different question. Life support
+raises the more serious question whether an organism ceases to exist at death,
+but neither that identity judgment nor the distinction between preventing
+lethal corruption and directly giving esse follows from the phrase “life
+support.” These cases need not be denied to prevent their being overread.
+
+If processes or states are admitted as beings, some of these may become
+candidates for a restricted R. One must then defend their identity criteria,
+what maintains that very process or state, and its causal account. A theorem
+about such bearers would concern that restricted domain. It cannot be exported
+to every substance, or to the material subject that survives the process,
+without a further argument. Naming light itself as b does not silently turn
+an illumination example into conservation of the air's existence.
+
+### 3. What is excluded, including near misses?
+
+The q.104 a.1 response distinguishes preserving a child from fire, building a
+house, and directly preserving being; objection 2 and reply 2 address persistence
+after a maker ceases. Those distinctions prohibit an inference from “causal
+condition for b” to “direct giver of b's esse.” A builder's completed production
+is not already concurrent support; a guardian's prevention of corruption is
+not already esse-giving. A prerequisite, fuel, permission or environmental
+condition is not made direct merely because it is indispensable in a selected
+scenario. A cause of movement, warmth or exercised power is not on that account
+a cause of the bearer's being. The existing
+`originalPowerBlocksEsseSupportIfItTransmits` states the conditional bridge
+needed for one such transfer; it does not establish that bridge.
+
+Nor are constitutive ground, efficient cause and adequate reason synonyms.
+That the arrangement accounts for a house *as a house* leaves open whether the
+arrangement is an agent, whether the parts are direct existential supporters,
+and whether an additional uniting cause exists. A law or an explanation token
+can explain a fact without being an existing individual actively conserving
+its bearer. The existing PSR and q.3 vocabularies must retain their distinct
+roles. Conversely, excluding those explanations from this **causal** R does
+not refute them as accounts of persistence. It limits what the R-theorem answers.
+
+### 4. Which structural properties have independent justification?
+
+None of the following is independently established by choosing this meaning.
+They must be defended for the same R, bearers and scope used in the theorem.
+
+| Proposed property | Present status and exact burden |
+| --- | --- |
+| Actual endpoint presence | Intelligible for an actual causal application, but not supplied for b by `PresentEsseSupport`; the typed cause-presence and target-actuality interfaces remain separate. |
+| Irreflexivity and asymmetry | OPEN. The thought that a recipient cannot confer its own existence needs an argument about causal priority in the same respect. Mutual dependence of activities or components does not settle whether reciprocal **esse**-giving is possible. Excluding efficient self-causation alone does not exclude a two-member cycle. WF implies these restrictions mathematically; that implication cannot defend WF. |
+| Transitivity | OPEN, and potentially inappropriate for a **direct** relation. If c directly supports d and d directly supports b, c may be an indirect supporter of b without another direct edge. Closure under chains requires an independent account, or a separately stated indirect conclusion. Replacing R by its transitive closure changes the intended immediate/direct reading and must not happen silently. |
+| Actual necessary-support WF (#686) | OPEN. Finite observed chains, local asymmetry and absence of known cycles do not rule out a beginningless upstream dependence series. The claim needs a reason why every such series must reach a nondependent source within this same existential sense. A theorem extracting a source from WF proves no such reason. |
+| Union necessary-support WF (#680) | OPEN and stronger in scope. Even an independent defense at each world would not rule out a descending chain assembled from different worlds. The existing rotating-union controls already isolate that omission. A cross-world compatibility argument is required; an actual physical chain supplies none. |
+| Necessity inheritance | OPEN. Actual support of a necessary bearer does not alone entail that this particular supporter exists at all accessible worlds. That requires the same supporter's indispensability across those alternatives, rather than interchangeable or optional support. The global no-contingent premise additionally quantifies over every admitted support world; the actual restriction does not. |
+
+A defense must not build asymmetry or WF into the English definition and then
+announce the needed premise as proved by that definition. Conversely, directness
+is no license to assume transitivity. Independent arguments about causal
+priority, essential dependence or infinite series may address these burdens,
+but their applicability to existence as such remains part of what they must
+show. Pure mathematical WF lemmas settle only their conditional consequences.
+
+### 5. Why would the physical-to-existential abstraction survive?
+
+The current evidence does **not** license that transfer. Abstraction is justified
+when the discarded details do no work in the inference being preserved. In a
+physical sustaining example, the relevant work can be done by an energy supply,
+a dissipative process, a selected state variable or an identity criterion for
+an organized system. Removing those details leaves no demonstrated reason that
+a persisting bearer needs a concurrent giver of existence. A physical law that
+settles when illumination stops does not by itself settle when the lamp,
+material subject or substance ceases to be. This is a missing preservation
+argument, not a technical inconvenience addressed by a more general graph.
+
+A successful transfer needs (a) an independently supported account of why the
+same bearer's existence is received or presently actualized rather than merely
+its activity; (b) a reason that the causal dependence is on a present giver,
+rather than adequately explained by prior existence plus no destructive change;
+(c) a justified map to R and the supplied `CausesIn ... esse`, with their actual
+endpoints; and (d) separate defenses of whichever order and modal restrictions
+the chosen result consumes. A participation or essence–esse argument is a
+candidate for (a), but only after its premises and causal exhaustiveness are
+defended; merely applying that vocabulary to a lamp supplies no bridge.
+
+The live replacement is the already inspected existential-inertia account:
+prior existence together with no destructive causal change can explain
+persistence without concurrent efficient sustenance. Its strongest form is
+not “no explanation.” The Feser response recorded in
+[eternity-dependence-connection.md](eternity-dependence-connection.md#existential-inertia-the-live-rival-and-the-remaining-bridge)
+contests the sufficiency of that explanation through present actualization
+and the alleged dependence of persistence powers on their substances. Those
+are discriminating arguments, but their direction and actualization premises
+remain disputed. No new source attribution or rival refutation is claimed here.
+
+**Disposition and premise comparison:** retain R as a stipulated parameter for
+the existing conditional results; withhold their use as actual metaphysical
+evidence until the stated interpretation and property burdens are met. There
+is no newly defended bridge, no source claim, no Lean type change and no
+additional admitted premise. All root-route open-premise sets are unchanged
+(delta zero). This audit narrows the proposed reading and identifies where
+analogy stops; it neither discharges WF nor denies that a later independent
+metaphysical argument could establish existential conservation.

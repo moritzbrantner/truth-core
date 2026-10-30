@@ -115,3 +115,5 @@ import TruthCore.Results.Aristotle.Physics.WholeHeavenNotInPlace.Solution
 import TruthCore.Results.Aristotle.Physics.WithoutSoulNoTimeAsNumber.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoArrowStationary.Solution
 import TruthCore.Results.Aristotle.Physics.ZenoMilletSound.Solution
+import TruthCore.Results.Aristotle.SynonymyScope.Solution
+import TruthCore.Results.Aristotle.SynonymyTie.Solution

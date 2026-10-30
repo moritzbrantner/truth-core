@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CHAIN-INSTANTIATION-WINDOW",
+  "term": "bounded observation of a populated candidate chain",
+  "definition": "SameWindow compares existence at all indices at most bound and causal edges only when both endpoint indices are at most bound. chain uses the existing Ontic signature on one Unit world and Nat candidates, guarding each successor edge by both endpoint existence facts. Candidate-domain membership is distinct from world-relative existence.",
+  "basis": "stipulative",
+  "note": "Analyst observational profile for issue #704, neither a source interpretation nor a complete empirical causal-access theory. No temporal length, actual-world identification, real full grounding or explanatory sufficiency is supplied. finite has population n\u2264bound; infinite all n; empty none.",
+  "lean_declaration": "TruthCore.Causality.ChainInstantiation.SameWindow"
+}

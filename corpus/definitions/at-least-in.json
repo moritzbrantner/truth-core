@@ -1,0 +1,7 @@
+{
+  "id": "DEF-AT-LEAST-IN",
+  "term": "at least as in a respect",
+  "definition": "AtLeastIn r c x means c is at least as r as x, permitting equal standing. It is an explicit comparison primitive, not the negation of MoreIn r x c: under a partial order absence of reverse strict comparison may instead mean incomparability. Its relation to MoreIn and applicability to particular qualities are open unless independently specified.",
+  "basis": "stipulative",
+  "note": "Stipulated for the conservative comparison reading: a source-grounded account of each quality and its comparative order would be needed to determine its concrete extension. Neither totality nor a bridge to strict MoreIn is assumed."
+}

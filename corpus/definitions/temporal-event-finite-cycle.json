@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+  "term": "finite event cycle and entity feedback",
+  "definition": "EventAcyclic C is ∀ e, ¬ Relation.TransGen C e e, where Mathlib TransGen is nonempty finite reachability. BeingEdge bearer C x y projects an edge between particular event tokens to their bearers. A closed walk in the projected graph need not lift to a closed walk over event tokens. ReciprocalConstraint says each pair C e f and C f e has equal exercise times and different target event respects; it is only a two-edge constraint and not universal acyclicity or well-foundedness.",
+  "basis": "stipulative",
+  "note": "Analyst mathematical profile for #700; an actual-world application requires independent event individuation, causal meaning, clock interpretation and source-fidelity defense. Research and rejected readings: docs/notes/temporal-actualization-fork.md. No source attribution.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.EventAcyclic"
+}

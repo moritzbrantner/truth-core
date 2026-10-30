@@ -1,0 +1,15 @@
+{
+  "id": "STRENGTH-UNIQUE-RECONSTRUCTION",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-EXISTS",
+    "STMT-STRENGTH-AT-MOST-ONE"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-UNIQUE-EXISTS",
+  "inference_ids": [
+    "INF-STRENGTH-UNIQUE-RECONSTRUCTION"
+  ],
+  "meaning": "Keep the existing existential witness and use at most one to prove every other predicate witness equals it.",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

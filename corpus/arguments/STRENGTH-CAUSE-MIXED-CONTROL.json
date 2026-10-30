@@ -1,0 +1,16 @@
+{
+  "id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-MIXED-CONTROL"
+  ],
+  "meaning": "The all-pairs Bool control satisfies D while admitting self-causation; D is not global irreflexivity.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

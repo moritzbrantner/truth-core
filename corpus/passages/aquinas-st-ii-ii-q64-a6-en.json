@@ -1,0 +1,14 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.newadvent.org/summa/3064.htm",
+    "retrieved_at": "2026-10-29T10:21:24Z",
+    "sha256": "sha256:1f9d282c3dfc4d1c4962e2b2c3602716b1fd813a23591914a4b6c16a9795ca6f",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {"translator": "Fathers of the English Dominican Province", "year": 1920, "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"},
+    "license": "1920 translation public domain in the US; page footer states online edition copyright Kevin Knight and New Advent LLC. Only hashes and a short incipit are committed; live bytes may change."
+  },
+  "passages": [{"id": "AQUINAS-ST-II-II-Q64-A6-EN", "locator": "II-II q.64 a.6", "claim_locator_prefixes": ["II-II q.64 a.6 "], "html_selector": {"heading": "Article 6. Whether it is lawful to kill the innocent?"}, "text_sha256": "sha256:2cf5a07878f049cb9922eab5db5389bf5a5ff0da63bb4582e2ab3a082658f382", "incipit": "Article 6. Whether it is lawful to kill the innocent?"}]
+}

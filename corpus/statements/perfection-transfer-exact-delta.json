@@ -1,0 +1,17 @@
+{
+  "id": "STMT-PERFECTION-TRANSFER-EXACT-DELTA",
+  "paraphrase": "For any shared Being/Respect vocabulary, under explicitly supplied decisions of Being equality and universal esse scope, unrestricted transfer is equivalent to universal-scope transfer conjoined with the residual nonuniversal/self cases. This certifies scope decomposition, not applicability or premise truth.",
+  "lean_declaration": "TruthCore.Case.Catholicism.PerfectionTransferExactDelta",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-RESIDUAL-PERFECTION-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

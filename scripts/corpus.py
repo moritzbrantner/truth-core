@@ -2066,6 +2066,13 @@ def validate() -> dict[str, int]:
     result_records = {key: value[1] for key, value in result_index.items()}
     for path, relation in relations:
         validate_schema_registration(path, relation, result_records, result_configs)
+        if relation.get("predicate") == "strength_comparison":
+            from strength_comparisons import validate_registration
+            try:
+                validate_registration(relation, {sid: record for sid, (_, record) in statement_index.items()},
+                                      result_records, {aid: record for aid, (_, record) in argument_index.items()}, result_configs)
+            except ValueError as exc:
+                raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
 
     unused = sorted(definition_ids - used_definitions)
     if unused:
@@ -2275,6 +2282,38 @@ def command_territory(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_related(args: argparse.Namespace) -> int:
+    # Discovery is independent of expensive proof gates and frontier computation.
+    import sqlite3
+    from research_index import cached_related
+    try:
+        report = cached_related(ROOT, args.statement_id, args.limit)
+    except (ValueError, OSError, sqlite3.Error) as exc:
+        raise CorpusError(str(exc)) from exc
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+    else:
+        print(f"Related to {report['statement_id']} (discovery, not certification)")
+        for item in report['matches']:
+            print(f"\n{item['statement_id']}: {item['paraphrase']}")
+            print(f"  {item['path']}")
+            for reason in item['reasons'][:3]:
+                evidence = reason.get('argument_id') or reason.get('relation_id') or ', '.join(reason.get('ids', [])) or reason.get('declaration') or reason.get('namespace') or ', '.join(reason.get('words', []))
+                print(f"  {reason['kind']}: {evidence}")
+                if 'premise_statement_ids' in reason:
+                    print('    requires: ' + ', '.join(reason['premise_statement_ids']))
+                    print('    concludes: ' + str(reason['conclusion_statement_id']))
+            if item['reason_count'] > 3:
+                print(f"  {item['reason_count']} reasons total; showing 3 (all in --json)")
+        print('\nPrior attempts:')
+        for attempt in report['prior_attempts']:
+            print(f"  {attempt['id']} [{attempt['outcome']}]: {attempt['path']}")
+        if not report['prior_attempts']:
+            print('  none directly linked')
+        print('\nUse dossier for premise status and configurations for certification.')
+    return 0
+
+
 def command_dossier(args: argparse.Namespace) -> int:
     validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
@@ -2321,11 +2360,16 @@ THEORY_BUNDLE_PREFIXES = ["TruthCore.Comparison."]
 def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
     """The modules to import and the theorems to describe, in result-id order."""
     ordered = sorted((record for _, record in results), key=lambda record: record["id"])
-    return {
+    out = {
         "modules": sorted({record["solution_module"] for record in ordered}),
         "theorems": [record["theorem"] for record in ordered],
         "bundle_prefixes": THEORY_BUNDLE_PREFIXES,
     }
+    from expression_contracts import selected_theorems
+    selected = selected_theorems(ordered)
+    if selected:
+        out["contract_theorems"] = selected
+    return out
 
 
 def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
@@ -2602,6 +2646,8 @@ def bind_result(
                 }
             )
 
+    from expression_contracts import check as check_expression_contract
+    problems.extend(check_expression_contract(result, described, ROOT))
     if problems:
         status = "mismatch"
     elif undecidable:
@@ -2798,6 +2844,36 @@ def command_configuration_report(args: argparse.Namespace) -> int:
         print(f"configuration report: {len(bundle['cases'])} cases; source {bundle['producer']['source_head']}; input digest {bundle['producer']['input_digest']}")
         print("Validated producer output freshness; this check is not fresh proof execution." if args.check or args.build_input else "Live verification completed; disposable producer output written.")
     return 0
+
+
+def command_strength_comparisons(args: argparse.Namespace) -> int:
+    from strength_comparisons import context, projection, read_bundle, verify, write_bundle
+    try:
+        data = context(ROOT, load_dir)
+        if args.command == "strength-report":
+            output = Path(args.output)
+            output = output if output.is_absolute() else ROOT / output
+            bundle = read_bundle(ROOT, output, data) if args.check_input else write_bundle(ROOT, output, data)
+            if args.json:
+                print(json.dumps({**bundle, "producer": {k: v for k, v in bundle["producer"].items() if k != "inputs"}}, ensure_ascii=False))
+            else:
+                print(f"strength report: {len(bundle['comparisons'])} comparisons; {bundle['producer']['input_digest']}")
+                print("Producer freshness validated; no fresh proof execution." if args.check_input else "Existing result verifiers and complete application binding passed.")
+            return 0
+        selected = data["comparisons"]
+        if args.comparison_id:
+            selected = [r for r in selected if r["id"] == args.comparison_id]
+            if not selected:
+                raise ValueError(f"unknown registered comparison: {args.comparison_id}")
+        reports = [projection(r, data) for r in selected] if args.registered else verify(ROOT, data, selected)
+        if args.json:
+            print(json.dumps(reports, ensure_ascii=False))
+        else:
+            for report in reports:
+                print(f"{report['id']}: {report['comparison_status']}; {report['delta_status']}; converse {report['converse_status']}")
+        return 0
+    except (ValueError, OSError, KeyError, TypeError) as exc:
+        raise CorpusError(str(exc)) from exc
 
 
 def registered_models(statement_index=None):
@@ -3041,6 +3117,17 @@ def parser() -> argparse.ArgumentParser:
     report_mode.add_argument("--check", metavar="PATH", help="check trusted producer output freshness/projection; does not rerun proofs")
     configuration_report_parser.add_argument("--json", action="store_true")
     configuration_report_parser.set_defaults(func=command_configuration_report)
+    strength = sub.add_parser("strength-comparisons", help="verify selected registered proposition-strength evidence")
+    strength.add_argument("comparison_id", nargs="?")
+    strength.add_argument("--json", action="store_true")
+    strength.add_argument("--registered", action="store_true", help="provenance only; no proof verdicts")
+    strength.set_defaults(func=command_strength_comparisons)
+    strength_report = sub.add_parser("strength-report", help="produce or freshness-check disposable certified strength presentation")
+    strength_report.add_argument("--output", default=".cache/strength-comparisons.json")
+    strength_report.add_argument("--build-input", action="store_true", help="produce the registered static slice")
+    strength_report.add_argument("--check-input", action="store_true", help="validate producer freshness without rerunning proofs")
+    strength_report.add_argument("--json", action="store_true")
+    strength_report.set_defaults(func=command_strength_comparisons)
     configurations = sub.add_parser("configurations", help="compose explicit configurations with live certified cores/models")
     configurations.add_argument("--case", metavar="CONFIG-ID")
     configurations.add_argument("--seed", metavar="STMT-ID")
@@ -3091,6 +3178,11 @@ def parser() -> argparse.ArgumentParser:
     territory.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     territory.add_argument("--max-atoms", type=int, default=512, help="bound on the atom universe (default 512)")
     territory.set_defaults(func=command_territory)
+    related_parser = sub.add_parser("related", help="find connected propositions and previous attempts; discovery only")
+    related_parser.add_argument("statement_id")
+    related_parser.add_argument("--limit", type=int, default=10)
+    related_parser.add_argument("--json", action="store_true")
+    related_parser.set_defaults(func=command_related)
     dossier = sub.add_parser("dossier", help="inspect a premise's sources, arguments, attempts and route contribution")
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
@@ -3121,7 +3213,50 @@ def parser() -> argparse.ArgumentParser:
     unused.add_argument("--bind-json", help="use a saved `bind-check --json` report instead of running Lean")
     unused.add_argument("--usage-json", help="use a saved scripts/UnusedPremises.lean output instead of running Lean")
     unused.set_defaults(func=command_unused_premises)
+    structure = sub.add_parser("structure", help="inspect elaborated proposition structure (derived presentation only)")
+    structure.add_argument("statement_id")
+    structure.add_argument("--json", action="store_true", help="emit JSON (the structural format)")
+    structure.add_argument("--unfold", action="append", default=[], metavar="DECLARATION", help="unfold exactly one project definition, explicitly")
+    structure.set_defaults(func=command_structure)
+    report = sub.add_parser("structure-report", help="generate or validate the first-slice explorer structure artifact")
+    report.add_argument("--output", default=".cache/proposition-structure.json")
+    report.add_argument("--build-input", action="store_true", help="generate the explorer input (default)")
+    report.add_argument("--check-input", action="store_true", help="validate existing artifact input hashes without Lean")
+    report.set_defaults(func=command_structure)
     return result
+
+
+def command_structure(args: argparse.Namespace) -> int:
+    from proposition_structure import FIRST_SLICE, build_reports, check_artifact
+
+    try:
+        output = ROOT / getattr(args, "output", ".cache/proposition-structure.json")
+        if getattr(args, "check_input", False):
+            check_artifact(ROOT, json.loads(output.read_text()))
+            print("structure artifact inputs match")
+            return 0
+        kinds = ("statements", "definitions", "disambiguations", "arguments", "results", "relations", "claims", "inferences")
+        records = {kind: load_dir(kind) for kind in kinds}
+        data = {kind: [r for _, r in values] for kind, values in records.items()}
+        frontier = frontier_report(data["statements"], data["arguments"], data["results"], data["relations"],
+                                   transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+                                   claims=data["claims"], inferences=data["inferences"])
+        batch = args.command == "structure-report"
+        selected = list(FIRST_SLICE) if batch else [args.statement_id]
+        unfold = list(getattr(args, "unfold", []))
+        if batch:
+            unfold.extend(s["lean_declaration"] for s in data["statements"] if s["id"] in selected)
+            unfold.append("TruthCore.Case.Catholicism.ClassicalAttributesSuffice")
+        report = build_reports(ROOT, records, selected, unfold, frontier)
+        if batch:
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_text(json.dumps(report, ensure_ascii=False) + "\n")
+            print(f"wrote {output}")
+        else:
+            print(json.dumps(report["reports"][0], indent=2, ensure_ascii=False))
+        return 0
+    except (ValueError, OSError, KeyError) as exc:
+        raise CorpusError(str(exc)) from exc
 
 
 def main() -> int:

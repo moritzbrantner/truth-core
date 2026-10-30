@@ -1,0 +1,10 @@
+{
+  "id": "STRENGTH-ORDER-ALLOWED-CASES",
+  "argument_id": "STRENGTH-ORDER-ALLOWED-CASES",
+  "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
+  "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
+  "theorem": "TruthCore.Results.Logic.StrengthOrder.allowedCases",
+  "comparator_config": "results/STRENGTH-ORDER-ALLOWED-CASES/comparator.json",
+  "status": "solution-present",
+  "description": "Use pinned Mathlib le_iff_lt_or_eq and equality symmetry to obtain y ≥ x iff y > x or y = x. This disjunction selects no branch. Actual axioms are propext, Classical.choice and Quot.sound. This checks mathematical consequence in the selected shared vocabulary, not source fidelity, metaphysical applicability, or the truth of any philosophical application of these mathematical propositions."
+}

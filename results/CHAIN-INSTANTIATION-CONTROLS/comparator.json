@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ChainInstantiation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ChainInstantiation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ChainInstantiation.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "term": "q3 identity and typed support interface controls",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.UnderivedEssenceEsse.ExtendedControls",
+  "definition": "ExtendedControls conjoins Controls with TypedCorrespondenceControl. Controls reuses Models.NecessarilyUnderived.varying with a q3 profile at world true: source false is underived with identical essence/esse, while necessarily existing true has distinct essence/esse and an actual external cause. Further fixed profiles omit existence-to-act or ordinary-cause-to-R correspondence for a specified named target. TypedCorrespondenceControl has three actual Option Bool beings, an esse-cause none→some false, a separate ordinary edge some false→some true, R containing only the first edge, both well-founded graphs, all q3 premises and direct esse correspondence, but failure of the broader ordinary-cause correspondence.",
+  "note": "These are concrete interpretations of limited signatures, not claims of metaphysical possibility, full divine simplicity or pure actuality. The omissions test named propagation rather than minimality of every premise in the existential theorem. The latter three-being control witnesses strictness of the direct interface without absent endpoints or causal cycles."
+}

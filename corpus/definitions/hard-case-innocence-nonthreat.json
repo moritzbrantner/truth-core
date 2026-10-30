@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
+  "term": "stipulated innocent and nonthreatening victim",
+  "definition": "The model separately supplies innocent and nonthreatening predicates, each applied to the victim in the killing context; neither is defined from or entails the other.",
+  "basis": "stipulative",
+  "note": "These are separate factual case classifications, not definitions of legal guilt, moral innocence or threat, and not an identification with Aquinas’s innocent/righteous contrast. Their applicability to real cases requires independent support.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.innocent"
+}

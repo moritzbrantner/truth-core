@@ -1,0 +1,49 @@
+{
+  "id": "REL-STRENGTH-ORDER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-STRENGTH-ORDER-GREATER",
+  "predicate": "strength_comparison",
+  "object_kind": "statement",
+  "object_id": "STMT-STRENGTH-ORDER-AT-LEAST",
+  "comparison_spec": "TruthCore.Logic.Strength.Order.spec",
+  "delta_statement_id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "background_statement_ids": [],
+  "evidence_result_ids": {
+    "implication": "STRENGTH-ORDER-IMPLICATION",
+    "delta_forward": "STRENGTH-ORDER-DELTA-FORWARD",
+    "reconstruction": "STRENGTH-ORDER-RECONSTRUCTION",
+    "equivalence": "STRENGTH-ORDER-EQUIVALENCE",
+    "allowed_cases": "STRENGTH-ORDER-ALLOWED-CASES",
+    "remainder_identity": "STRENGTH-ORDER-REMAINDER-IDENTITY"
+  },
+  "separator": {
+    "setting": "TruthCore.Logic.Strength.Order.zeroSetting",
+    "result_id": "STRENGTH-ORDER-SEPARATOR"
+  },
+  "note": "Under the supplied mathematical LinearOrder, strict comparison is non-strict comparison plus inequality. Equality is the exact admitted-only remainder, with a checked zero/zero separating setting. These identities do not transfer to primitive AtLeastIn or MoreIn relations by their names: the compatibility laws remain separate premises. Actual theorem axioms and class-law parameters are reported by the producer.",
+  "remainder_statement_id": "STMT-STRENGTH-ORDER-EQUAL",
+  "statement_parameter_indices": {
+    "stronger": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "weaker": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "delta": [
+      0,
+      2,
+      3
+    ],
+    "remainder": [
+      0,
+      2,
+      3
+    ]
+  }
+}

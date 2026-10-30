@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.separator",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND/comparator.json",
+  "status": "solution-present",
+  "description": "Evaluate the finite concurrent causal table: the shared philosophical test background and narrower principle hold while the particular-source instance 1,3,skill falsifies unrestricted transfer. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

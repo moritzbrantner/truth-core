@@ -26,6 +26,54 @@
         "I q.19 a.2 "
       ],
       "tei_xml_id": "TAca84-d1e144-Dd1e356"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A3",
+      "locator": "I q.19 a.3",
+      "claim_locator_prefixes": [
+        "I q.19 a.3 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e576"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A4",
+      "locator": "I q.19 a.4",
+      "claim_locator_prefixes": [
+        "I q.19 a.4 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e920"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A5",
+      "locator": "I q.19 a.5",
+      "claim_locator_prefixes": [
+        "I q.19 a.5 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e1195"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A7",
+      "locator": "I q.19 a.7",
+      "claim_locator_prefixes": [
+        "I q.19 a.7 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e1788"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A8",
+      "locator": "I q.19 a.8",
+      "claim_locator_prefixes": [
+        "I q.19 a.8 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e2067"
+    },
+    {
+      "id": "AQUINAS-ST-I-Q19-A10",
+      "locator": "I q.19 a.10",
+      "claim_locator_prefixes": [
+        "I q.19 a.10 "
+      ],
+      "tei_xml_id": "TAca84-d1e144-Dd1e2558"
     }
   ]
 }

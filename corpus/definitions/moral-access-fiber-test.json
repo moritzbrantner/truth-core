@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MORAL-ACCESS-FIBER-TEST",
+  "term": "restricted moral-access fiber test",
+  "definition": "A finite State has report, proposed basis-assessment output and supplied prohibited bits. Outward data contain the report and uniformly abstaining behavior/apparent successful deliberation; enriched data additionally contain the basis bit. Prohibited means the supplied bit equals true. NaturalBasis equates this bit with basis; Categorical restricts it to true; SufficientBasis requires true basis to imply prohibition only. Subtypes restrict admissible assignments before the existing exact-classification criterion is applied.",
+  "basis": "stipulative",
+  "note": "An analytical comparison of proposed bridges, not a model of an entire sourced theory. False prohibition does not encode permission. Basis is not guaranteed accessible and its equivalence to prohibition is an exposed, unproved substantive bridge. A constant classifier on a norm-restricted class establishes no warrant. Full source-to-control comparison and remaining case-specific normative derivation: docs/naturalistic-moral-realism.md, Identical-evidence test.",
+  "lean_declaration": "TruthCore.Ethics.MoralAccessFibers.State"
+}

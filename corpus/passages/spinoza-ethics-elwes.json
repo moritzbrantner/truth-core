@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SPINOZA-ETHICS",
+    "source_url": "https://raw.githubusercontent.com/GITenberg/Ethics_3800/ebe6b9d77e22c5809de3514d005bc26a29eb5610/3800.txt",
+    "retrieved_at": "2026-10-28T22:19:35Z",
+    "sha256": "sha256:335f3e06da25e7003731f0cf8fefb3afa999393109a669d69cd3c85c414d88a3",
+    "encoding": "ascii",
+    "language": "en",
+    "translation": {
+      "translator": "R. H. M. Elwes",
+      "edition": "Project Gutenberg ebook3800, GITenberg text last updated December11,2017",
+      "year": 1883
+    },
+    "license": "Public-domain English translation; Project Gutenberg license included in pinned file. Only hashes, locators and analytical paraphrases committed."
+  },
+  "passages": [
+    {
+      "id": "SPINOZA-ETHICS-ELWES-FULL",
+      "locator": "Ethics, complete Elwes translation; Part I definitions, axioms and propositions1\u201311,16\u201317,29\u201333 consulted",
+      "claim_locator_prefixes": [
+        "I definition ",
+        "I axiom ",
+        "I proposition "
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:7dd1d503d1b881eb8eb30aa948b4f00934668ac293a647fbf9ae5cbee13a827a",
+      "incipit": "The Project Gutenberg EBook of The Ethics, by Benedict de Spinoza"
+    }
+  ]
+}

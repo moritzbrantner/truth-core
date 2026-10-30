@@ -1,0 +1,14 @@
+{
+  "id": "STRENGTH-UNIQUE-IMPLICATION",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-UNIQUE-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-EXISTS",
+  "inference_ids": [
+    "INF-STRENGTH-UNIQUE-IMPLICATION"
+  ],
+  "meaning": "Keep the original witness and its predicate proof from the pinned Mathlib unique-existence definition.",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

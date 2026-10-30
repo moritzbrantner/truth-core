@@ -186,7 +186,7 @@ records this distinction rather than merging meanings by the word “realism.”
 |---|---|---|
 | Railton's naturalism | Natural facts can affect judgment through causal feedback; inquiry can expose excluded interests and correct arrangements (1986 pp.171–172,193–195; existing `STMT-RAILTON-FALLIBLE-MORAL-LEARNING`). | The proposed natural basis must genuinely occupy the evaluative role; feedback must connect to that basis rather than merely power or conformity. Equal consideration is substantive. Repression and reversals remain possible. |
 | Boyd's naturalism | Human goods and their homeostatic mechanisms can regulate inquiry; observation, sympathy and reflective equilibrium are theory-dependent (reprint §§4.4–4.5, especially pp.332–333; existing `STMT-BOYD-EMPIRICAL-MORAL-INQUIRY`). | The goods/homeostasis proposal and causal reference need defense; background beliefs must already be sufficiently approximately true. Calling inquiry empirical supplies no automatic reliability or convergence. |
-| Enoch's robust realism | A third factor links selected-for judgment to independently valued survival, with a causal route to belief and a noncausal normative connection. Reasoning from suitable starting points can improve a modest correlation (2010 §§5.1–5.3, pp.427–434; `STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY`). | Survival's qualified goodness is an independent normative assumption, not true because selected. The belief–action mechanism, adequate starting points and reasoning need support. The proposal allows error and residual epistemic luck; it is not fully counterfactually robust. Note44 distinguishes explaining correlation/possibly defeating a defeater from directly justifying belief. |
+| Enoch's robust realism | A third factor links selected-for judgment to independently valued survival, with a causal route to belief and a noncausal normative connection. Reasoning from suitable starting points can improve a modest correlation (2010 §§5.1–5.3, pp.427–434; `STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY`). | Survival's qualified goodness is an independent normative assumption, not true because selected. The belief–action mechanism, adequate starting points and reasoning need support. The proposal allows error and residual epistemic luck; it is not fully counterfactually robust. Note 44 distinguishes explaining correlation/possibly defeating a defeater from directly justifying belief. |
 | Catholic natural law, recorded q.94 account | Practical reason apprehends goods in the order of natural inclinations; general principles and particular conclusions differ (I–II q.94 aa.2,4; existing first-precept and correction records). | The teleological interpretation of human goods, access to the relevant inclinations and the reliability of particular application need defense. q.94 a.2 ad2 requires rational regulation of inclinations; not every urge is a moral standard. q.94 a.4 admits passion, custom and corrupted nature can impair judgment. This range does **not** supply an explicit divine-design guarantee, defeat every evolutionary explanation, or prove access merely by naming God. |
 
 Enoch frames the challenge as explaining a specified truth–belief correlation
@@ -302,3 +302,243 @@ and `TrueEvaluativeAscriptionOccurs` does the same for the true sentence.
 Thus replacing `Ascribes` by an empty relation cannot satisfy these stronger
 conclusions. The source-reading commitments are unchanged; shared model-fact
 lemmas are reused by both generations of results.
+
+## Identical-evidence test (#703)
+
+The concrete question is whether **deliberately killing an innocent person in the
+case under consideration is prohibited**. This is a question about prohibition,
+not whether an indifferent agent happens to care, whether a belief is justified,
+or whether failure to prove prohibition licenses killing. In particular the
+formal negative bit does **not** mean permission: the fixture supplies no
+permission predicate or inference. The case-specific objective norm and its
+categorical authority remain obligations in #699/#563.
+
+`MORAL-ACCESS-FIBER-CONTROLS` imports and applies
+`TruthCore.Results.Logic.CorrectionCriterion.characterization` (#647). It does not
+reprove the generic criterion. A state has a conscience/consensus report bit, a
+proposed relevant-basis assessment bit and a supplied prohibition bit. Outward
+data comprise that report, abstaining behavior and apparent successful
+deliberation (the last two are uniformly positive). The basis bit is **omitted**
+from outward data; enriched data include it. It is an assessment's proposed
+output, not a measurement already proved to track normative truth. This is a
+small stress test, not a new metaethical framework or a modal-world ontology.
+
+### Checked controls and their actual scope
+
+| Explicit class | Checked result | Philosophical boundary |
+|---|---|---|
+| Unrestricted assignments | Two states with report=true, basis=false and opposite prohibition have identical outward data. No exact outward-data classifier exists. | Refutes an exact classifier **on this unrestricted class**. It does not establish that both states are metaphysically admissible under any particular moral account. |
+| `NaturalBasis`: prohibition=basis | States with report=true and both bits false versus both bits true remain indistinguishable outwardly. Enriched data do admit an exact classifier. | A naturalist may identify moral truth with a sufficiently rich natural basis. This exposes a constitutive bridge and the need to know its basis; it does not prove that ordinary reports contain that basis. The Boolean equality is an analyst's exact idealization, not an attributed thesis that Boyd/Railton promise perfect observation. |
+| `Categorical`: prohibition=true | Even outward data admit an exact classifier (always affirm prohibition). There is also a state with a false report and true prohibition. | An account defending this categorical prohibition excludes the negative assignment. The constant classifier uses the **supplied norm restriction**, not evidence for that norm; its existence establishes no observer's warrant. A Catholic natural-law defense is not refuted by the unrestricted negative assignment. |
+| `SufficientBasis`: basis=true implies prohibition | A positive basis is sufficient on this class, but two basis=false states with opposite prohibition share even enriched data. No exact enriched-data classifier exists. | A noncausal normative connection is logically enough for a one-way certificate; exact classification requires more. This is an analyst's sufficient-condition control, **not** Enoch's modest correlation turned into an exceptionless bridge, nor an attribution of this particular prohibition to him. |
+
+The two positive rival responses are therefore explicit and different: a
+constitutive natural-basis constraint blocks the *same-basis* opposite-truth pair,
+while a categorical norm blocks the negative assignment altogether. The
+sufficient-condition control additionally shows why a limited positive warrant
+could coexist with failure of a complete classifier. None of these fixtures is a
+certificate of the full consistency or actual truth of a named worldview. The
+same background meanings and fixed question are retained across the tests;
+changing the allowed assignments is visible in the subtype, not hidden in a
+new definition of knowledge.
+
+### Strongest sourced access accounts against that pair
+
+These comparisons reuse the existing claims, definitions and disambiguations
+from the preceding section; no new attributed claim or source kind is introduced.
+The primary witnesses were materialized again and read in the coherent ranges
+below before this application. The cited q.94 passages concern practical reason
+and human inclinations, not an independent complete derivation of the specified
+innocent-killing prohibition.
+
+| Account and exact existing reading | Is the thin opposite-truth pair admissible on its strongest premises? | Additional bridge still to defend for this question |
+|---|---|---|
+| Catholic natural law: ST I–II q.94 a.2 co./ad2; a.4 co./ad3, `STMT-FIRST-PRECEPT-OF-NATURAL-LAW` and the existing correction readings | Not automatically. If this act description is independently shown to fall under an exceptionless prohibition, its negative member is excluded (`Categorical` control). Identical reports do not imply identical rational apprehension or correct application. q.94 a.4 expressly distinguishes common principles from particular judgments and admits distorted judgment. | Show why intentional killing of the innocent violates a rationally regulated human good under the exact description; defend the practical inference and access to relevant circumstances. The present q.94 slice does not supply a God-design guarantee that every conscience report is correct. A further divine-grounding/access argument must carry its own premises. |
+| Railton: *Moral Realism* pp.171–174,193–195, `STMT-RAILTON-FALLIBLE-MORAL-LEARNING` | Same reports and abstention can occur despite different relevant natural circumstances. Holding the **full proposed natural basis and its constitutive criterion** fixed while varying rightness is excluded on that identification, as illustrated by `NaturalBasis`. The basis output is not just a report of current desire. | Defend the naturalistic evaluation and the impartial consideration of affected interests; show that the actual access process is sensitive to those facts. Railton explicitly allows feedback failure, reversals and repression; no infallible report classifier follows. His rightness criterion does not here establish this prohibition as categorical, and his contingent-reasons account must not be redescribed as binding every indifferent agent. |
+| Boyd: *How to Be a Moral Realist*, reprint §§4.4–4.5, pp.332–337, `STMT-BOYD-EMPIRICAL-MORAL-INQUIRY` | The toy pair is not certified as a same-full-basis pair under homeostatic naturalism. Human goods and mechanisms, not bare consensus, regulate inquiry. Approximate truth and causal reference can permit serious errors; the source does not make identical coarse appearances exact access data. | Defend the goods/homeostasis account, sufficiently approximately true background beliefs, and a causal/observational relation that is epistemically relevant here. A single Boolean basis is only an explicit idealized constitutive constraint, not a reduction of Boyd's cluster theory to an exceptionless test. |
+| Enoch: *The Epistemological Challenge to Metanormative Realism* §§5.1–5.3, pp.427–434, `STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY` | No universal pair-admissibility conclusion follows. Fundamental normative truths are treated as necessary in the counterfactual discussion (p.433); varying them while fixing everything else is not a licensed possible-world construction. Equally, the modest correlation alone is no proof of fiber invariance. The theory need not supply a perfect classifier to avoid skepticism. | Defend the qualified independent value of the evolutionary aim, the belief/action mechanism and sufficiently good starting points/reasoning. To derive **this categorical prohibition**, supply further first-order normative premises: qualified pro-tanto survival value does not entail it. Noncausal normative connections are not excluded merely because they are not causal tracking. |
+
+Enoch §5.1, pp.427–429, deliberately weakens the correlation to be explained and
+uses reasoning from adequate starting points. Section 5.3, pp.430–432, qualifies
+survival's value (not always good, overriding, ultimate or intrinsic), separates
+selection's causal influence on belief from its normative connection to truth,
+and allows residual luck. Note 44 (p.432) distinguishes explaining the correlation
+and possibly defeating a defeater from directly justifying beliefs. Replacing
+these with `SufficientBasis`, a biconditional or universal correctness would
+strengthen his actual claim. We rejected that attribution. The control instead
+shows what a *separately defended* sufficient normative bridge would buy, without
+requiring a second causal influence.
+
+Railton pp.193–195 explicitly allows opposite social tendencies and persistent
+exclusion; Boyd §§4.4–4.5 makes approximate truth of background theories and an
+epistemically relevant connection substantive. Aquinas q.94 a.2 ad2 and a.4 ad3
+require inclinations to be regulated by reason, and a.4 co. distinguishes
+particular practical conditions from common principles. Consequently we also
+rejected three shortcuts: current desire as the complete natural basis,
+unanimity as rational apprehension, and a theological label as a reliability
+proof. These are findings about the existing exact readings, not refutations of
+their strongest access arguments.
+
+### Consequence and remaining investigation
+
+The perfect classifier targeted by #647 is an extensional predicate on **all**
+admitted states. Its nonexistence is stronger than failure of a particular
+algorithm, but it does not negate fallible justified belief, real moral truth,
+noninferential rational insight, or a categorically binding reason. Conversely,
+its existence (especially the constant categorical classifier) provides none of
+those epistemic achievements. `FITNESS-TRUTH-BOUNDARY` (#651) already supplies the
+separate belief/desire compensation mechanism with successful identical
+responses. We reuse that result as a scope boundary; the present test adds
+moral question/model-class restrictions, not an evolutionary explanation or a
+frequency claim.
+
+The next discriminator for #563/#699 is a defended **case-specific normative
+inference and access account** for the same fixed act description. For each
+account ask which full basis/starting points it requires, which differences it
+forbids, and what grounds actual access to them; do not declare a counterworld
+admissible by toggling a bit. A categorical prohibition, its recognition and a
+reason binding an indifferent agent are three distinct obligations. Nothing in
+these controls derives permission to harm or ranks the four accounts.
+
+Intended and actual root-premise change: **none**. No ordinary philosophical
+premise is added to the theorem: its restrictions are explicitly internal
+mathematical model classes. No root argument, existing premise, claim or source
+interpretation is changed. This does not defend any restriction's actual
+instantiation or close the moral route. The successful attempt records a bounded
+comparison, not success at establishing its philosophical targets.
+
+The claim/type self-sweep compares the complete statement/argument/result prose
+with `Controls`: ThinControl is a negated existential classifier; NaturalControl
+has both outward failure and enriched success on a subtype; CategoricalControl
+supplies a true norm with a false report; SufficientControl states a one-way
+positive consequence and enriched failure on a different subtype. Every positive
+existence is scoped to its own model class; no global impossibility, knowledge,
+probability, source-derived norm or categorical authority is asserted. The
+challenge was frozen before proof checking. Exact final verification belongs to
+delivered-head build, binding, Comparator and NanoDa in CI.
+
+Development evidence for the shared-service experiment: preview workspace
+`~/.cache/agent-work/truth-core-shared-preview`, clean HEAD
+`db603d3140e92c4b1ca653ab2098a0189a70653f`, session `master-20261029`, path
+`Scratch/issue703/Combined.lean`. Full definitions plus Solution, with the new
+local import inlined and the existing characterization imported, were accepted
+without diagnostics at version2, content SHA-256
+`06c2833d429f17342870b90e5b905bd0f25a5e5e240e4993c31154774bbfc5f6`.
+The first edit exposed a beta-reduction/rewrite mismatch, repaired by stating the
+explicit target with `change`; its subsequent warm edit cost 0.227s service and
+0.296s client with negligible lease wait. A single same-content CLI comparison
+under the shared lease (`worker_env.py -- lake env lean /tmp/703-combined.lean`)
+succeeded in 0.70s. The first submission instead waited 70.35s for the lease and
+had 14.96s client request time: warm elaboration gains do not establish better
+multiworker throughput. A corpus-record query correctly bound the canonical
+workspace, HEAD and Enoch record SHA-256
+`a1db80a15a69d723a45f685af58a5b93977dd7c70e277108aa1b97dab4d7c704`;
+no corpus speedup is claimed. Retain the shared service for warm proof edits,
+measure contention before throughput claims, and keep final CI authoritative.
+The frozen Challenge SHA-256 is
+`7c1e280b4197fa7f16b947684a2b1c76a4ce92abf53ab84de032ec17204f2570`.
+
+### Hard-case research: Railton's obligation/reason distinction
+
+The materialized `RAILTON-MORAL-REALISM-FULL`, pp. 201–204, gives a
+stronger reply than the absence of categorical reasons might suggest. Railton
+holds that variations in personal desires do not exempt a person from moral
+obligation, while accepting that a rational agent may lack an instrumental
+reason to comply. In footnote 41, p. 203, he contrasts his view with Harman's
+and says that Hitler morally ought not to have killed six million Jews. This
+is a specific moral judgment, not a demonstrated exceptionless rule covering
+every deliberate killing of an innocent nonthreatening person, nor a reason
+independent of the offender's ends. His p. 204 proposal to alter social
+arrangements to bring individual and social rationality closer offers a
+practical response, not the missing categorical-reason implication. The
+adequacy of his impartial criterion and its application to the stipulated
+sexual-violation and killing cases remain open. Identifying failure to prove a
+prohibition with permission would erase his explicit distinction.
+
+### Same hard questions and competing answers (#699)
+
+The shared questions below refine the existing `Q-NORMATIVE-REASONS` and
+`Q-MORAL-AUTHORITY` comparison, not a new score. The acts are (1) sexual
+violation without consent and (2) deliberately killing an innocent,
+nonthreatening person, with gain, indifference and no anticipated punishment.
+A sourced account is a proposed answer; the entries do not certify it or apply
+an author's whole theory by fiat.
+
+| Account | Case and indifferent agent | Conflict and open bridge |
+|---|---|---|
+| Catholic natural law | ST I–II q.94 a.2 co. identifies practical good to be pursued, evil avoided, and preservation of life among natural-law matters. II–II q.64 a.6 co. argues against killing the innocent, grounded in the victim’s nature and common good; ad 1 qualifies this in the case of a divine command. This is a sourced case-specific answer, not a verified universal without exception or a demonstrated categorical-reason bridge. The cited q.94 passage alone does not derive either precise prohibition, and q.154 a.7 condemns certain forced violations and also uses a broader abduction category; it does not establish a prohibition of every act satisfying our consent-based description. The natural-law route proposes obligation grounded in rational human nature and eternal law; desire and punishment are not its stated criterion. | Show the case facts fall under relevant exceptionless norms, why practical standards bind this person, and how the divine-grounding link works; q.94 a.4 also allows error in particular conclusions. In promise versus preventing serious harm, both recognized goods do not alone specify the overriding obligation. |
+| Railton, naturalistic realist | Impartial rightness counts affected interests equally; moral obligation can apply despite an agent's lacking instrumental reason (pp. 201–204). His specific condemnation of mass killing is above. The present source slice does not derive either universal case prohibition, and he rejects a reason independent of all ends. | His impartial assessment calls for comparison of all affected interests, not merely the offender's; the adequacy of aggregation and application remains open. A categorical-reason requirement is a disputed extra premise, not built into his view. |
+| Enoch, non-naturalistic realist | His independently normative survival-value premise and third-factor access reply (§§5.1–5.3) offer a substantive realist response, not the first-order case norms. The sourced fragment does not establish either prohibition or a categorical reason for this offender. | Defend the normative starting point, qualified epistemic connection, and case-specific first-order norm and reason; a pro-tanto good of survival can be outweighed. An additional priority principle is needed for the selected conflict. |
+| Gibbard, expressivist | Planning and coordination, with inferential relations among normative commitments, offer action guidance and condemnation without requiring stance-independent moral truth (Reply to Commentators, pp. 535–544). The existing plan semantics is an analyst reconstruction, not his indicative semantics. This slice does not establish that he specifically endorses either hard-case norm or that an indifferent offender has a categorical reason. | A suitably committed plan can rule out a violation and guide action; which plan or priority to adopt, and why it binds an indifferent agent, remains a substantive question. No refusal to derive a realist prohibition licenses an act. |
+
+#### Stronger typed controls and targeted source correction
+
+The initial Boolean certificate repeated the existing #708 access control and
+did not model the two goods; it was removed before merge.
+`HARD-CASE-TYPED-CONTROLS` fixes human roles, separate
+actions and contexts, nonconsent, deliberate killing, innocence and lack of
+threat, indifference, benefit, lack of punishment and feasibility; it then
+varies only the supplied normative verdicts. One witness has both prohibitions
+and reasons; another denies both supplied prohibitions; a third retains both
+prohibitions without the supplied reasons. This is an omission test for the
+explicitly thin factual profile, not a model of every rival's stronger
+assumptions. False prohibition does not entail permission.
+
+The conflict model distinguishes promise keeping and serious harm prevention
+as two goods. It recognizes both, makes each of two feasible alternatives
+realize its corresponding good but not the other, and supplies two ideal
+frames selecting opposite alternatives, each with a feasible ideal successor.
+The recognition and realization assignments are stipulated, not discovered
+moral truths; no priority principle or empirical possibility is established.
+The model does not derive either priority from a source. A deontologist may
+assign strict priority to the promise under a stated principle; a consequentialist
+may instead prioritize the prevention of grave harm under a stated rule.
+Neither rule follows merely from recognition and feasibility of both goods.
+
+The new `AQUINAS-ST-II-II-Q64-A6-EN` pins and materializes the public-domain
+1920 English translation (New Advent), q.64 a.6 co. and ad 1, including the
+argument about love of human nature, common good and the divine-command reply.
+The source's divine-command qualification cannot be erased by citing only
+the broad conclusion. How Aquinas reconciles the two is an interpretive issue;
+the present record does not decide it. No categorical reason for an
+indifferent agent follows merely by labeling an action unlawful.
+
+Gibbard, *Reply to Commentators* pp. 541–542, distinguishes permitting,
+forbidding, and requiring oneself in a hypothetical situation from picking
+between alternatives one takes to be eligible. His action-guidance reply is
+therefore stronger than mere emotional disapproval. It does not automatically
+yield the content of the agent's plan, an unconditional categorical reason,
+or the relevant conflict priority. The analyst's material-conditional plan
+semantics remains separate from Gibbard's discussion of indicatives.
+
+
+The materialized translation `AQUINAS-ST-II-II-Q154-A7-EN`, read with
+a.1 and a.6, supplies a historically specific sexual-violation answer. In a.7
+co., forcible unlawful violation of a virgin is one case of the category he
+classifies as lust. His category also includes removing a woman against her
+father's wishes when she consents, and includes abducted widows and nonvirgins.
+In ad 4 he says a newly married husband's violence is sinful while excluding
+it from this particular rape classification. In a.1 and a.6 the analysis
+includes patriarchal authority, marriage and virginity; its classification
+cannot be substituted for modern nonconsent or read as a general theory of
+sexual autonomy. The offense's factual application to every possible victim,
+and the alleged end-independent reason for this offender, are not established
+by this passage. Nor does withholding that broader generalization endorse any
+act. This stronger historical reply applies to its specific forced example;
+the rival Enoch and Gibbard sources recorded here still do not supply specific
+case norms, whereas Railton supplies the impartial criterion and a distinct
+explicit example of wrongful mass killing. Each account's further bridge is
+judged on its own commitments.
+
+`HARD-CASE-GOODS-CONTROL` composes the typed certificate with two further
+independently supplied relations. The same victim's bodily integrity is
+classified as a good and as damaged by the violation; the same victim's life
+is classified as a good and as damaged by the killing. Both compared verdicts
+share those exact classifications and all hard-case facts, yet one supplies
+both prohibitions while the other supplies neither. The relations also have
+negative instances, so neither is simply true of everything. These are finite
+analyst assignments, not causal explanations, real-world facts, a historical
+claim, or a substantive rule that damage entails prohibition. A richer
+account may reject a verdict under its own supplied norm; no anti-realist or
+realist is attributed the negative assignment. The negative prohibition is
+not permission. The previously frozen typed certificate remains unchanged.

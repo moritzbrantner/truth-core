@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HARD-CASE-NONCONSENT",
+  "term": "stipulated nonconsensual act in the hard case",
+  "definition": "The typed control uses the supplied predicate nonconsensual, applied to the specified action in the specified violation context, to record that the victim does not consent. The finite witness supplies that classification directly.",
+  "basis": "stipulative",
+  "note": "This is a factual modeling stipulation, not an analysis of consent or a universal legal definition. The model does not define coercion, capacity, sexual acts or consent conditions, and does not equate the predicate with Aquinas’s historical rape category.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.nonconsensual"
+}

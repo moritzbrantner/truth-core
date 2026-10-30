@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-ZERO-SEPARATOR",
+  "paraphrase": "The natural-number setting x=y=0 satisfies the empty background and y ≥ x while falsifying y > x.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.ZeroSeparates",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

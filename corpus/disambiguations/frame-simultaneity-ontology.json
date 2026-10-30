@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY",
+  "term": "frame clock simultaneity, geometric order and privileged presence",
+  "sense_definition_ids": [
+    "DEF-BOOST-FUTURE-ORDER",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE",
+    "DEF-EINSTEIN-CLOCK-TIME"
+  ],
+  "resolution": "The mathematical Simultaneous relation is coordinate-time equality; the source introduces synchronization and frame clock times under physical assumptions. An additional privileged-present relation is not required by the theorem to agree with both frame relations. GeometricBefore uses future-directed nonspacelike event differences and is preserved here despite simultaneity disagreement. Neither it nor frame clock equality is automatically Ontic.Causes, modal access, truth-at-history/time, tensed A-properties or timelessness. Source Einstein conclusions concern his physical frame/synchronization analysis, not an established denial of all presentist ontology."
+}

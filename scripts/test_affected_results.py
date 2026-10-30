@@ -430,6 +430,12 @@ class ExplorerInputsTest(unittest.TestCase):
             "apps/corpus-explorer/tests/graph-buckets.browser.test.ts",
             "bun.lock",
             "scripts/premise_dossiers.py",
+            "scripts/bundle_audit.py",
+            "scripts/expression_contracts.py",
+            "scripts/contracts/classical-attributes.json",
+            "docs/notes/classical-attributes-migration.json",
+            "docs/notes/classical-attributes-all-migration.json",
+            "docs/notes/naming-first-mover-migration.json",
             ".github/workflows/ci.yml",
         ]
         self.assertEqual(ar.explorer_inputs_changed(changed), sorted(changed))

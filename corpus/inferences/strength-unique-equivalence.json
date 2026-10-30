@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-UNIQUE-EQUIVALENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
+  "rule": "typed_strength_comparison",
+  "meaning": "Compose all three constructive obligations: unique existence iff existence and at most one, for the same arbitrary type and predicate.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

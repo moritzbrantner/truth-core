@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+  "term": "first-mover constitutive-content and act alignment",
+  "definition": "For every existing-interface first mover f and each respect r, content (essence f) r ↔ InAct f r, with exactly the same InAct predicate as every-perfection.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverContentAgreesWithAct",
+  "note": "Open analyst interface. Formal essence differences need not imply absence of an eminent perfection; q4a2 obj2 and reply1–2 require this sense issue to remain explicit. The paired model controls demonstrate independent failure, not a metaphysical possibility."
+}

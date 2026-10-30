@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.catholicismFromPrimaViaWithClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton."
+}

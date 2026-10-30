@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOOST-SPACETIME-PROFILE",
+  "term": "1+1 coordinate event, Lorentzian interval and rational boost",
+  "definition": "Event is the Mathlib product module ℝ×ℝ, first coordinate t and second x. interval is QuadraticMap.prod of sq and negative sq, hence t²−x². boost is a Mathlib QuadraticMap.IsometryEquiv of this form, with linear coordinates ((5t−4x)/3,(5x−4t)/3), inverse with plus signs. This corresponds to c=1, v=4/5, gamma=5/3 in the analyst profile.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Spacetime.BoostSimultaneity.interval",
+  "note": "Pinned Mathlib contains quadratic forms and their isometry equivalences but no dedicated Minkowski/Lorentz-space module. Reuse those actual mathematical notions; this minimal real 1+1 model is not an alternate physics library. Nonzero lightlike displacements have interval zero; this is not a positive-definite norm or Euclidean metric isometry. Physical events, inertial-frame admissibility, synchronization and empirical adequacy require independent application arguments."
+}

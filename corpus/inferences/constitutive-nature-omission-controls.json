@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONSTITUTIVE-NATURE-OMISSION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONSTITUTIVE-NATURE-OMISSION-CONTROLS",
+  "rule": "Unchanged joint-model reuse and independent constitutive-content assignments",
+  "meaning": "Apply the unchanged PartFreePlurality.jointControl and expose two independent omissions without altering its ontology. The old act table agrees on both roots but cannot separate their distinct essence values; a five-row separating code distinguishes every represented nature but fails the required act/content agreement on right at heat. A separate auxiliary Comparator-checked witness reuses OneFirstMover.Joint to satisfy all five conditional uniqueness hypotheses together with an actual first mover.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

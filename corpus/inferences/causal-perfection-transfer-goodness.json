@@ -1,0 +1,15 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "input_statement_ids": [
+    "STMT-GOD-IS-MAXIMAL-IN-BEING",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+  ],
+  "output_statement_id": "STMT-GOD-IS-SUPREMELY-GOOD",
+  "rule": "typed_composition",
+  "meaning": "For each supplied God, use the explicit God-to-maximality premise, genus at esse, actuality-to-being and restricted transfer to derive causation of each other instantiated perfection; coextension of goodness and actuality gives goodness in esse.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

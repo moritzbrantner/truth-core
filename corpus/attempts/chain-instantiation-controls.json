@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-CHAIN-INSTANTIATION-CONTROLS",
+  "statement_ids": [
+    "STMT-CHAIN-INSTANTIATION-CONTROLS",
+    "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
+    "STMT-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE"
+  ],
+  "date": "2026-10-29",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Issue #704: bounded presence/edge observations agree between explicit finite source chain and infinite non-WF chain; empty/populated interpretations share universal presence equation. Reuses LocalTransmission and successorChainNotWellFounded, not a new infinite-regress proof. Dossiers and related discovery inspected existing escaping-source, observation-selection, actual-source/regress and #693 uniformity/parity boundaries. Proposed actual-occurrence/realization bridge remains independent, and finite access fails to warrant an actually infinite series without extension support. Strongest rival replies and symmetric first-source burden persist in docs/notes/chain-instantiation-controls.md. Initial proof edits failed on equality rewriting and unavailable Acc.mono, repaired by explicit rewriting and accessibility induction. Repeated shared preview accepted combined content SHA256 a90789dd9d962ca0536009e6e9b94ef2b1b1d08edce0dd64fffe39d5d328a1ee at db603d3140e92c4b1ca653ab2098a0189a70653f session master-20261029 with empty diagnostics; this is development evidence, final CI owns certification. No historical attribution or actual metaphysical possibility established; root delta none.",
+  "evidence": [
+    "CHAIN-INSTANTIATION-CONTROLS",
+    "INFINITE-LOCAL-TRANSMISSION-MODEL",
+    "PR-693"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT",
+  "term": "accuracy, certification and epistemic entitlement",
+  "sense_definition_ids": [
+    "DEF-INSTRUMENT-OFFSET-ACCURACY",
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+    "DEF-WARRANTED-CORRECTION-STANDARD"
+  ],
+  "resolution": "Zero offset is a property of a supplied signal/bias profile. A uniformly sound certificate guarantees that property across the model class; an exact criterion additionally classifies it in both directions. Neither is identified with actual epistemic entitlement, which may be fallible or externalist and need not include internal perfect recognition. Only functions of the same complete readings are considered; reasons carrying genuinely independent information are outside this obstruction. Supplied true signal anchors can distinguish the profiles, but their acquisition and warrant are not proved.",
+  "note": "No result here refutes all infinitism, all externalism or any actual causal regress. Restricting allowable signal functions can remove compensating alternatives; the unrestricted profile is essential."
+}

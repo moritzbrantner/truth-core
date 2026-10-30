@@ -1,0 +1,22 @@
+{
+  "id": "STMT-OPTIMAL-CREATION-CHOICE",
+  "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.OptimalChoiceCertificate",
+  "paraphrase": "For fixed candidate options and a fixed partially ordered quality map, total optimal output at accessible performance worlds plus at-most-one optimal candidate entails stable selected output. With same-act performance, actual selected output, sound causal endpoints and realized outputs, the existing selectedEffectNecessary theorem entails necessity of that effect. All optimal candidates have equal greatest quality, but equal quality need not identify candidates: the unchanged alternatingEffects ontology has two distinct optimal candidates under constant Nat quality while its selected first effect remains contingent. If each admissible candidate has a strictly better admissible candidate, no optimal candidate exists; unbounded Nat quality witnesses that regime. These conditional optimization controls do not establish maximizing agency, fixed alternatives/quality, positive-output totality, unique optimum, metaphysical possibility or free creation. No root premise change.",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+    "DEF-SELECTED-EFFECT-SAME-ACT",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+    "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-OPTIMAL-CREATION-CANDIDATE",
+    "DEF-OPTIMAL-CREATION-OUTPUTS",
+    "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS",
+    "DISAMB-CAUSE",
+    "DISAMB-OPTIMAL-VALUE-AND-OPTION"
+  ]
+}

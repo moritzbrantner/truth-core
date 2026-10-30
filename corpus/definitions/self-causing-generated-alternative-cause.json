@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "term": "self-causing generated beings have an alternative cause",
+  "definition": "For every x, if x comes to be and Causes x x, there exists the same alternative witness y with y ≠ x and Causes y x. The guard concerns each generated x; it is not global irreflexivity. A mixed relation with both self and distinct causes satisfies it. With no causes it is vacuously true even if a generated thing exists; therefore it is not the distinct-cause principle by itself.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Strength.Cause.SelfCausingGeneratedHaveAlternativeCause",
+  "note": "An explicitly proposed mathematical comparison condition on the existing schematic Timaeus cause relation, not a new attributed reading or a claim about real causal applicability. Ordinary motivation: an entity allowed to stand as its own cause may still need a cause other than itself. Actual self-causation examples and its metaphysical permissibility remain OPEN and are unnecessary to this conditional comparison. Formal controls use Bool: all causal pairs are a mixed positive control; no pairs give D without W; identity-only pairs separate broad from distinct. No transitivity, asymmetry, well-foundedness or physical-to-metaphysical abstraction is assumed. The serious rival broad reading admits self-only causes; global irreflexivity is stronger and is not substituted. The exact reconstruction selects the same witness under explicit DecidableEq Entity; this computational/logical background is not attributed to Plato."
+}

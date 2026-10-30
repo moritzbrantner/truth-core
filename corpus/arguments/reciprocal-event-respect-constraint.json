@@ -1,0 +1,33 @@
+{
+  "id": "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "premise_statement_ids": [
+    "STMT-EVENT-CAUSATION-NONBACKWARD",
+    "STMT-EVENT-MOTION-PROJECTION",
+    "STMT-TIME-SLICED-LOCATED-MOTION",
+    "STMT-TIME-SLICED-POTENTIAL-MOTION",
+    "STMT-TIME-SLICED-ACTUAL-MOVER",
+    "STMT-TIME-SLICED-NOT-ACT-AND-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "inference_ids": [
+    "INF-TEMPORAL-DIRECTION-FRAMEWORK",
+    "INF-TEMPORAL-RECIPROCAL-FORK-USE"
+  ],
+  "meaning": "Apply imported TEMPORAL-DIRECTION-FRAMEWORK at the same clock/relation. The strict horn contradicts reciprocal event edges via its finite-cycle theorem. The backward horn contradicts the explicit NoBackward premise. In the remaining non-backward/simultaneous horn the reciprocal edges must have equal exercise times. At that same time, import CONSECUTIVE-MOVER-RESPECTS and feed the two projected canonical mover edges plus the four lifted local premises; the event respects must differ. Thus the two branches inconsistent with the supplied reciprocal pair and NoBackward are conditionally excluded, while the simultaneous alternating-respect branch has a joint control in TEMPORAL-ACTUALIZATION-CONTROLS. None of these premises is independently established. Intended and actual root-route/open-premise delta zero; STMT-NO-INFINITE-PER-SE-MOVER-SERIES remains open.",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

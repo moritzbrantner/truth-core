@@ -1,0 +1,29 @@
+{
+  "id": "STMT-ACTUAL-NO-CONTINGENT",
+  "lean_declaration": "TruthCore.Causality.ActualUnderivedEssenceEsse.ActualNoContingent",
+  "paraphrase": "Each existing supporter at the selected world of a de re necessary bearer is itself necessary. No supporters at other worlds are constrained.",
+  "definition_ids": [
+    "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
+    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-CAUSE",
+    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+  ]
+}

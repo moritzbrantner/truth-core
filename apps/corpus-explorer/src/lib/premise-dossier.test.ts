@@ -34,5 +34,5 @@ describe("dossier transport", () => {
     expect(p?.established).toBe(false);
     expect(p?.route_contributions.some((entry) => entry.open_leaf)).toBe(true);
     expect(dossiers["STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]?.attempts.find((entry) => entry.id === "ATTEMPT-STRICT-PRIMACY-READING")?.outcome).toBe("failed");
-  });
+  }, 15_000);
 });

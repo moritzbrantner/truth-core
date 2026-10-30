@@ -1,0 +1,9 @@
+{
+  "id": "INF-CHAIN-INSTANTIATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CHAIN-INSTANTIATION-CONTROLS",
+  "rule": "explicit-world-local-population-controls",
+  "meaning": "For every finite observation bound, explicitly populated finite and infinite successor-chain interpretations have the same existence and causal-edge data inside that window. The finite interpretation has an existing source at its boundary and no existing index beyond it; the infinite interpretation is populated everywhere and not well-founded. Separately, empty and fully populated interpretations satisfy the same universal LocalTransmission presence equation. These are formal interpretations, not actual histories or adequate explanations.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

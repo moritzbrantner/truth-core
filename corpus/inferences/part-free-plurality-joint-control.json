@@ -1,0 +1,9 @@
+{
+  "id": "INF-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "rule": "Explicit finite interpretation, reuse of verified simplicity/pure-act theorems and uniqueness-route exclusion",
+  "meaning": "Verify the five-being assignments and their actual component/motion/efficient-cause witnesses; derive represented attributes using imported theorems and exclude common nature/differentiation using imported uniqueness theorems. Check no-component-first and actual absence of either root from all compositions.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

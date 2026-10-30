@@ -1,0 +1,10 @@
+{
+  "id": "CONSTITUTIVE-NATURE-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "CONSTITUTIVE-NATURE-FIRST-MOVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.checks",
+  "comparator_config": "results/CONSTITUTIVE-NATURE-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Every-perfection and the SAME-InAct alignment give pointwise agreement of each first mover’s proposed constitutive nature contents. Completeness gives one common represented nature, using any supplied first mover only inside the at-most-one proof. Apply imported Q11NatureUniqueness.godIsOneFromNature with incommunicable individuation and the explicit first-mover suppositum/nature adapter. No first mover is produced; the three new applicability/constitutive premises remain open. This is a conditional interface composition, not independent defense of the unreceived-esse bridge."
+}

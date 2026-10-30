@@ -1,0 +1,10 @@
+{
+  "id": "SCIENCE-READING-SELF-CERTIFICATION",
+  "argument_id": "SCIENCE-READING-SELF-CERTIFICATION",
+  "challenge_module": "TruthCore.Results.Science.ReadingSelfCertification.Challenge",
+  "solution_module": "TruthCore.Results.Science.ReadingSelfCertification.Solution",
+  "theorem": "TruthCore.Results.Science.ReadingSelfCertification.certificate",
+  "comparator_config": "results/SCIENCE-READING-SELF-CERTIFICATION/comparator.json",
+  "status": "solution-present",
+  "description": "In an unrestricted constant-additive-bias model, permitting a nonzero offset, any positive certificate derived only from complete readings and uniformly sound for zero bias must withhold affirmation on every reachable derived datum. Reports may have any type, including an infinite sequence. No exact classifier from those same data exists. Supplying the true signal value at one input permits an exact extensional criterion under constant bias. A nonconstant Boolean-input integer fixture witnesses identical complete readings with zero versus nonzero bias, distinct signal values at both inputs and different supplied true anchors. These are model-class guarantees, not claims that fallible justification or all infinitist explanations fail."
+}

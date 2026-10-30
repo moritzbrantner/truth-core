@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PartFreePlurality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PartFreePlurality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PartFreePlurality.jointControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

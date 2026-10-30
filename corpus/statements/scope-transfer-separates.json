@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SCOPE-TRANSFER-SEPARATES",
+  "paraphrase": "In the closed four-being concurrent setting, universal-scope transfer holds and unrestricted transfer fails. The comparison background is empty; the separate concurrent-background result certifies the stronger shared philosophical test background in this identical setting.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ScopeTransferSeparates",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-RESIDUAL-PERFECTION-TRANSFER",
+    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

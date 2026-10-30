@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-UNIQUE-TWO-POINT-SEPARATOR",
+  "paraphrase": "The Bool predicate True satisfies the empty background and existence, but unique existence fails because false and true are distinct witnesses.",
+  "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.TwoPointsSeparate",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}

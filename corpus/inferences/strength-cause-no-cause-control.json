@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL",
+  "rule": "typed_strength_comparison",
+  "meaning": "The empty-cause Bool control has D but not W, so D alone is not the strong principle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

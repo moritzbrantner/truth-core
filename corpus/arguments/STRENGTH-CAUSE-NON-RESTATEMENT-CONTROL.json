@@ -1,0 +1,16 @@
+{
+  "id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
+  "inference_ids": [
+    "INF-STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+  ],
+  "meaning": "The Bool relation with only the false-to-false pair makes broad-to-distinct implication vacuous at the uncaused true point while falsifying the local delta at false; the named delta is not a disguised conditional W → S.",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

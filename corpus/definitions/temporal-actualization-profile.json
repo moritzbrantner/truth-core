@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+  "term": "event tokens, subjects, respects, exercise and attained actuality",
+  "definition": "Staged onset exercise attained bearer respect Potency Actual requires onset e < exercise e, exercise e ≤ attained e, the bearer potential in its event respect at onset, and actual in that respect at attainment. Event, Being, Respect and Time are distinct type parameters; these are supplied predicates and maps, not hidden existence or philosophical assumptions. Staging does not constrain a cause token to finish before its effect exercises.",
+  "basis": "stipulative",
+  "note": "Analyst mathematical profile for #700; an actual-world application requires independent event individuation, causal meaning, clock interpretation and source-fidelity defense. Research and rejected readings: docs/notes/temporal-actualization-fork.md. No source attribution.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.Staged"
+}

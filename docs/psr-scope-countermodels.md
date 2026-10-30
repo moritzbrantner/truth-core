@@ -83,3 +83,381 @@ This result discharges the *formal non-entailment* tests only. It connects
 conceptual alternatives around #312; it does not close an argument to the
 Truth Core root. The infinite borrowed-power actuality and whole-chain
 explanation investigations (#310, #311) remain open.
+
+## Necessitarianism boundary: reuse audit (#312, 2026-10-28)
+
+A fresh inventory found that the tempting necessity-transfer proof is already
+present. No additional theorem is needed to state that transfer. The precise
+reuse is:
+
+| Question | Existing Lean evidence | Additional commitment still needed |
+| --- | --- | --- |
+| Does a necessary reason yield a necessary selected existent? | `Causality.BruteFoundationExplanations.necessaryReasonAndNecessitation` | `NecessitatesExistenceAt` for that reason and that same existent, in addition to `NecessaryReasonAt` |
+| Is actual contingency compatible with both those conditions? | `Causality.BruteFoundationExplanations.contingentExcludesNecessaryNecessitatingReason` derives `False` | Applicability of both conditions, rather than their stipulation |
+| Do necessary abstract reasons plus sound local explanatory coverage supply a necessary concrete being? | `Causality.BruteFoundationExplanations.abstractReasonCoverageInsufficient` retains coverage, soundness and necessary reason truth but lacks a necessary concrete individual | A real reason-to-bearer or reason-to-effect bridge; a reason token is not an ontic individual |
+| Does worldwise existence-PSR supply one stable explanation token? | `Modal.WorldwiseExplanation.worldwiseWithoutStable` refutes that shift; `worldwise_and_invariance_implies_stable` states a sufficient repair with an existence witness | `ReasonInvariant` for the selected being; even a stable token is not modal sufficiency |
+| Does the same act force the same effect? | `Results.Modal.SelectedEffectBridge.selectedEffectNecessary` uses stable output; its varying-output control retains same act and local uniqueness | Cross-world output stability, or the separately explicit fixed-full-conditions response law |
+| Does a necessary reason discriminate histories? | `Modal.HistoryContrastive.constant_not_discriminating`, `internal_discriminates`, and `necessary_discriminating_excludes_rival` | An entailing discrimination requirement; the successful internal reason is contingent |
+
+The full namespace prefix is `TruthCore`. These are existing theorem and
+control names, not new results or a claim that every helper has a separate
+Comparator result record. The reason sorts in `ExistencePSR.Model` and
+`BruteFoundationExplanations.ExplanationProfile` differ. The table compares
+explicit questions; it supplies no definitional identification between their
+reason tokens, bearer beings or explanatory relations.
+
+The strongest necessitarian case adds two substantive commitments: every
+selected adequate reason is necessary, and adequate sufficiency entails the
+selected effect throughout the accessible worlds. The first row then already
+establishes necessity **of that effect**. Universalizing that conclusion over
+existence facts still does not establish necessity of every true proposition:
+`ExistencePSR` quantifies over existing individuals, not arbitrary facts. A
+full modal-collapse claim needs its own scope bridge. Factivity, which rules
+out an explanatory assignment to a false explanandum at the same world, is
+weaker than that cross-world entailment requirement.
+
+Two replies remain distinct. A nonnecessitating explanation can retain a
+necessary reason without the strong entailment condition; the abstract-reason
+control tests this formally but does not demonstrate metaphysical sufficiency.
+Alternatively, a full reason can include contingent conditions; necessitation
+then does not give necessity of the effect unless the full reason is itself
+necessary. The history and selected-act controls expose these different
+commitments without ranking either reply as true. Merely calling a reason
+"sufficient", "intrinsic" or "complete" settles none of those adequacy questions.
+
+This audit rejects a duplicate proof that only packages the already explicit
+bridges. It introduces no historical attribution, new theorem, new metaphysical
+premise or root connection. All 63 reaching-root open premises remain; the eight
+route costs remain 31/32/36/38/39/39/40/41. The unresolved task is independent
+defense or rejection of the necessity, entailment and scope commitments, not
+further transcription of their consequence.
+
+## Intrinsic existence reasons: the positive case and its parity test
+
+This source follow-up concerns `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON`,
+not a new interpretation of the model's `intrinsic` constructor. Reuse search
+and its dossier recover the existing Leibniz readings and explanatory-regress
+attempt. The complete pinned Elwes witness `SPINOZA-ETHICS-ELWES-FULL` was
+materialized and read at I definitions 1–8, axioms 1–7, propositions 1–11,
+including I8 notes and all I11 proofs and note. The Latin witnesses
+`AQUINAS-ST-I-Q3-A4`, `AQUINAS-ST-I-Q44-A1` and Latta
+`LEIBNIZ-MONADOLOGY-31-45` were also materialized and read. These are source
+interpretations and an uncertified philosophical comparison, not additional
+corpus claims or a Lean argument.
+
+**What the strongest positive proposal says.** An intrinsic reason answers
+why this actual being exists by what it really is, without a distinct producer
+or a further item that joins a separately specifiable nature to existence.
+It does not mean that the being first produces itself. Spinoza I definition1
+explicitly interprets causa sui through essence involving existence;
+definition7 distinguishes determination through one's nature from external
+constraint. His I6 corollary denies external production of substance; I7
+then moves to existence belonging to substance's nature. That move requires
+explanatory exhaustiveness: independence alone would also fit brute existence
+if existence need not have a reason. It is not an independent proof of PSR.
+I8 noteII makes the cause-of-each-individual demand and internal/external
+exhaustion explicit.
+
+The strongest foundation reply is therefore more substantial than “it exists
+necessarily.” Suppose an actual independent witness has been established by a
+separate argument, and its real nature has independently been shown to be
+subsistent actuality rather than a recipient whose existence needs another
+actualizer. Understanding that nature could explain why its existence is
+underived: there is no distinct received actuality left for a producer to
+supply. An explanation need not re-prove all its presuppositions. Starting
+with an actual witness does not make every explanation of it circular, just
+as explaining an actual figure's property can presuppose the figure.
+However, neither the witness nor the modal necessity predicate establishes
+that account of its real nature. Nor does absence of a composition gap alone
+establish that its nature is a sufficient reason why it exists at all. This
+last positive explanatory step remains open.
+
+Aquinas q3a4 supplies an importantly different route: its first proof excludes
+caused esse from essential principles alone, then uses first efficient
+causality to infer identity; its second uses act/potency. Neither proof says
+that efficient self-production explains God. The reply ad2 distinguishes
+knowing the truth that God exists from knowing the divine act of being or
+nature. Consequently this proposed essential explanation may exceed what
+those arguments make intelligible to us. q44a1 ad2 explicitly retains causes
+of necessities; necessity does not waive the reason demand. Its ad3 separates
+mathematical abstraction from the being of mathematical subjects. These
+passages support keeping the questions distinct, rather than identifying
+Aquinas' esse with Spinoza's conception of substance.
+
+**A new constraint from Spinoza's own near-misses.** I8 noteII says the nature
+of humanity does not explain why exactly twenty humans exist, and the
+definition of a triangle specifies no number of triangles. I11's second proof
+says a triangle's existence comes from the order of extended nature, not its
+figure's nature. Thus an essential account must reach the actual individual,
+including any multiplicity or individuation left unexplained. A generic
+conditional “whatever is N exists necessarily” is insufficient if nothing
+establishes an actual N, and “this actual thing has label N” adds no reason.
+This connects to the individuality gaps investigated in #681/#684 and the
+Compendium/De ente audit #683/#685, without closing them: excluding several
+instances of one generic nature does not exclude two different whole essences,
+each claimed to explain its own existence. A uniqueness inference would still
+need to exclude or identify those different essences.
+Conversely, where an actual witness is independently available, demanding a
+second existence proof is stronger than demanding explanation. The relevant
+question is whether its independently characterized nature genuinely explains
+this witness's actuality, rather than merely redescribes it.
+
+Necessary mathematical properties illustrate how an essence can explain a
+property without an earlier efficient cause: a Euclidean triangle's angles
+summing to two right angles follows from geometrical structure and background
+postulates. This is an illustrative analogy, not a new historical attribution
+or a claim that the property follows from the word triangle alone. It supports
+the intelligibility of nonproductive explanation, but does not establish a
+concrete triangle, the background geometry, or a concrete necessary being.
+No generally accepted concrete example of intrinsic explanation of existence
+itself is supplied here. The proposed divine or Spinozist substance is the
+disputed example, not independent confirmation of the proposal.
+
+**The independent debts in the existence proofs.** Spinoza I11's first proof
+uses I7; its second strengthens the explanatory demand to nonexistence too,
+excludes an external preventing reason, and denies an internal contradiction
+in an absolutely infinite perfect nature. The absence of an internal
+contradiction is a substantive commitment, not a consequence of calling the
+nature perfect. The third proof and note connect degree of reality with power
+of existence and appeal to our existence. Ordinary observations of stronger
+agents or enduring objects do not independently warrant that unrestricted
+reality-to-existence-power bridge. The note explicitly distinguishes externally
+produced things from substance, so an induction from familiar produced things
+would miss its intended domain. Leibniz §§33–35 provides analytical reasons
+for necessary truths; §§44–45 additionally connects real possibility with
+actuality for the proposed necessary being. Mathematical analysis alone does
+not justify that additional bridge. Neither author's positive case is fairly
+reduced to an arbitrary stable tag, but their substantive bridges remain
+contestable.
+
+**Parity with a positive infinitist rival.** A foundation theorist may say
+that an intrinsic real nature ends explanatory deferral without an arbitrary
+unexplained link. A serious infinitist may instead propose that the whole
+infinite structure, rather than a local predecessor token, intrinsically
+explains its existence. Both may allow explanations to presuppose actual
+subjects. Therefore “every item in your chain still needs explanation” does
+not by itself discriminate them if the foundation's own intrinsic account is
+accepted without an independent adequacy argument. Equally, a bare chain of
+conditional dependencies does not acquire such an account merely through
+infinity. A brute whole accepts an unexplained fact; a structural account
+claims an explanation and owes a defense. These are different rivals.
+
+The narrower useful commitment is **individual adequacy**: an alleged intrinsic
+reason must independently characterize the actual subject in a way that
+explains its actuality and any relevant individuation, not merely its modal
+status or properties conditional on instantiation. This is a proposed
+philosophical test, not a sufficient formal criterion or a new Boolean field.
+It applies equally to a simple foundation and an infinite whole. It does not
+require every explanation to be external or every explanans to be known.
+Nothing here independently establishes transitivity, asymmetry or
+well-foundedness of explanation; applying those structural properties to
+intrinsic explanation would need further defense. Ordinary property
+explanations motivate the possibility of intelligible nonproductive reasons,
+while generalizing them to concrete existence remains the decisive disputed
+step. A rival that accepts an independently characterized real nature as
+explanatory but allows the infinite whole the same resource remains unrefuted.
+
+Intended and actual root-premise delta: **zero**. No source claim, statement,
+definition, theorem, argument, model or closure flag changes. Retained are the
+unrestricted existence demand, actual-witness requirement and distinction
+between efficient causation and reasons. The gain is a positive proposal and
+a symmetric individuation test, not a defense of intrinsic adequacy. Stop this
+line until an argument independently establishes that a particular actual
+nature, or a particular global structure, meets that test; another necessity
+lemma or stable explanation-token assignment would repeat known boundaries.
+
+## Entailing reasons can still copy their targets (#698)
+
+The first proposed discriminator after weak reason coverage was **modal
+sufficiency**: whenever a reason is admitted for an individual, the truth of
+that reason entails that same individual's existence throughout the accessible
+worlds. This is the existing `NecessitatesExistenceAt`, not a new predicate
+called “adequate.” The inventory above already contains necessity-transfer and
+history-discrimination theorems; repeating either would not answer #698.
+
+`TARGET-COPY-ENTAILING-EXPANSION` instead tests how much this condition can
+constrain the original reality when reason truth remains freely assignable.
+It is a **failed discriminator**, not the discovery of a positive adequate
+explanation. The pending #677 `ConservativeReasonExpansion` is the weaker
+negative control: its checked-head scope is factivity, coverage, rigid-token
+stability and guarded invariance without ontic restriction. #677 is not yet
+integrated at this work's base; this proof neither imports its unpublished
+module nor silently treats it as merged. The new construction uses the existing
+`BruteFoundationExplanations.ExplanationProfile` and its exact modal condition.
+
+### Uniform construction, exact consequence
+
+For **every** existing `BruteFoundationBoundary.Profile m`, `copied m` preserves
+its entire `reality` record, including its frame, candidates' existence,
+concreteness, efficient-cause assignment and grounding assignment. It uses
+existing `ExistenceFact.fact x` tags as reason tokens, in a separate role from
+ontic individuals, and sets:
+
+```text
+reasonPresent(w, fact(x)) := concrete(x) ∧ ExistsAt(w,x)
+explains(w, r, x)         := r = fact(x) ∧ concrete(x) ∧ ExistsAt(w,x).
+```
+
+Existing `ExplanationSound` and `LocallyExplained` follow directly. So does
+`NecessitatesExistenceAt` for **every admitted link**: at an accessible world
+where this reason is true, its target already exists by the reason's copied
+truth condition. The full reason may be contingent. It is not independently
+specified information about a real nature, producer or constitutive ground.
+Calling the token a reason does not turn “this concrete individual exists”
+into a reason **why** that individual exists.
+
+The certificate also proves universal-validity conservativity. For any property
+`P` solely of the original `Profile`, `P` holds in every model with these
+entailing-coverage clauses exactly when it held in every original profile.
+The forward direction expands an arbitrary original profile; the reverse
+projects its unchanged reality. Thus even adding this cross-world entailment
+test imposes **no** restriction on an original reality if the reason truth
+assignment can freely copy the target. The theorem concerns that model class;
+it does not say that no interpreted explanatory principle can constrain reality.
+
+In particular it applies to the unchanged `boundaryRival` from #505 as well as
+to necessarily populated models. Its existing proofs
+`boundaryRivalInhabited`, `boundaryRivalAllContingent` and
+`boundaryRivalNoNecessary` remain true of the expansion's literal reality.
+Target-coded entailment therefore does not provide a necessary reason or
+necessary concrete being. This is not a new proof of the already known
+`necessaryReasonAndNecessitation`: that theorem still requires necessity of
+the reason **in addition** to modal sufficiency. Here the contingent target's
+copied reason fails that additional premise.
+
+### One actual arena, three surviving source structures
+
+The fixed common arena has Bool-indexed alternative complete worlds, universal
+accessibility, rigid Nat candidates, and **every candidate actually present and
+concrete at each world**. Actual population is exhibited by candidate0, not
+inferred from an inhabited type. Each supplied graph is assigned to both
+`Causes` and `grounds` in this fixture only. The two relations are not thereby
+identified in reality or across other profiles. Nat indices are neither
+clock times nor possible worlds.
+
+The same concrete explanandum in each fixture is: **why does individual2
+actually exist?** Its existence and even modal necessity are fixed across all
+three cases, so the test does not favor a source theory by varying the question.
+
+| Same-arena structure | Certified structure and the best proposed replacement answer | What remains unexplained or independently unproved |
+| --- | --- | --- |
+| Unique necessary source | Edge `y=0 ∧ x≠0`; exactly one relation-source,0. The proposed account makes target2 derive from0; an independently defended intrinsic real nature of0 could end deferral without efficient self-production. | The assigned edge is not evidence of actual sustaining dependence. The real nature of0, its existence and the nature-to-existence explanation remain open. Uniqueness of a relation-source gives neither God nor explanatory sufficiency. |
+| Two independent necessary sources | Edge `y≤1 ∧ 2≤x`; exactly0 and1 are sources, both contribute to target2. The proposed answer gives each root its own intrinsic account and treats their joint powers/natures as the basis of the effect. | No source derives from the other, but independent intrinsic accounts and a complete joint explanatory rule are not certified. Their compatibility/coexistence may be primitive or further explained; a totality demand cannot simply be assumed. |
+| Source-free non-well-founded account | Edge `y=x+1`; target2 has predecessor3, every member has another, and there is no source. Non-WF reuses `successorChainNotWellFounded`. The strongest existing #693 reply appeals to one uniform explanatory theory and permits local explanations without first explaining their ultimate base. | The edge supplies a local dependency assignment, not a full ground or an intrinsic explanation of the whole order. Why these members, this rule and its direction obtain remains open. Brute-totality acceptance and a claimed global structural explanation are different replies. |
+
+All three survive `EntailingCoverage(copied(arena g))`; all three are jointly
+inhabited rather than conditionally asserted under inconsistent assumptions.
+The source certificate does not label one metaphysically possible or actually
+true. Its purpose is to show that this proposed entailment condition cannot
+choose among their different source structures. The existing richer #684/#702 part-free plural-root controls remain a
+separate comparison; this simple Nat fixture does not claim every attribute in
+that earlier joint model. The generic expansion theorem preserves an original
+Profile, not an unencoded historical or metaphysical theory.
+
+### Memberwise, common and whole reasons
+
+Every member in all three fixtures receives an entailing copied reason, yet
+**no one copied token** explains every individual: reasons admitted for0 and1
+must be different `fact` tags. This is a checked failure of the
+`∀ individual, ∃ reason` to `∃ reason, ∀ individual` shift. A whole could have
+many jointly sufficient reasons, and one reason could explain several facts
+without being an explanation of their entire arrangement. Consequently the
+certificate does **not** infer “no explanation of the whole.” The current
+signature contains only individual targets, no independent target proposition
+for a complete totality and no defended rule aggregating memberwise reasons.
+Neither adding a totality object nor imposing totality PSR is licensed by this
+quantifier counterexample.
+
+For two roots, explanatory unity would add content only if it independently
+requires a common source, a coordination reason, or a sufficient account of
+their coexistence. #702 already shows why a common downstream effect does not
+supply upstream confluence in the original richer model. The present test adds
+that entailing existence reasons do not supply it either: those reasons can
+be copied without changing any graph. One source has a corresponding burden:
+why its nature and powers obtain and why they produce this arrangement. The
+number of roots is not an explanation score or a substitute for those answers.
+
+### Source-grounded positive proposal and its missing bridge
+
+For this comparison the same pinned primary witnesses were materialized and
+read: `LEIBNIZ-MONADOLOGY-31-45` in full; `SPINOZA-ETHICS-ELWES-FULL`, I definitions
+1–8, axioms1–7 and propositions1–11 with I8 notes and all I11 proofs/note;
+`AQUINAS-ST-I-Q3-A4` and `AQUINAS-ST-I-Q44-A1` in full. No new historical claim
+or formal source reading is introduced. The existing #694 analysis above is
+retained, not replaced by a reason-token caricature.
+
+Leibniz §32 asks why the fact is so rather than otherwise; §§36–37 renew the
+question for the contingent connection; §45 proposes the final ground's
+intrinsic reason. The construction satisfies an entailment test without
+answering that why-question. Spinoza I8 noteII's individual-existence demand
+and twenty-human/triangle examples also require more than copying each
+individual's existence into a label. His I7 and I11 offer an intended real
+nature-based alternative, not this copied truth assignment. Their explanatory
+exhaustion, genuine nature characterization and consistency/existence bridges
+remain disputed. Aquinas q3a4 distinguishes efficient causation from essential
+identity; q44a1 ad2 rejects necessity alone as exemption from causal dependence.
+An independent source's positive account must not be reduced to self-production,
+but neither bare necessity nor the absence of a received-esse representation
+supplies its explanatory adequacy.
+
+The narrow proposed **repair** is therefore semantic, still open: independently
+characterize an actual subject's real nature or a full ground, justify why it
+makes this individual exist (including relevant individuation), and justify
+the direction and application of that dependence. Positive ordinary production
+or constitution examples can motivate such a connection; a completed builder's
+activity or an arbitrary co-occurring truth is a near miss for continuing esse
+support (#691). An essence-based account may be nonproductive, so a blanket
+external-cause rule would beg the question against it. A necessary natural or
+impersonal foundation may offer the same intrinsic resource; a global infinitist
+may offer a real structural account. Each owes a positive justification of that
+resource's actual application, not merely the name “adequate.” There is no
+independently confirmed concrete intrinsic-existence example in this batch.
+
+No mere ban on identical token syntax would repair the defect: reason tokens
+and individuals are already distinct roles, and a synonym could repeat the
+same proposition. Nor is an arbitrary asymmetry or well-foundedness axiom
+independently defended by the countermodel. Some genuine explanations may
+presuppose an actual subject or establish an identity. The failure is the
+absence of any explanatory content beyond a freely copied truth condition,
+not a proof that every identity, necessary truth or intrinsic account is
+circular. The existing extensional vocabulary expresses truth/entailment but
+does not by those clauses alone express a warranted real-nature dependence.
+Additional interpreted structure or a justified restriction could do so; its
+specification and independent defense remain the next philosophical step.
+
+### Premise comparison, self-sweep and verification
+
+Intended and actual root-premise delta: **none**. No old premise or root route
+is replaced, strengthened or discharged. The new closed mathematical
+certificate has no ordinary philosophical hypotheses. Its internal graph and
+reason assignments establish formal satisfiability and a failed discriminator,
+not a new PSR, a sufficient explanation, metaphysical possibility or root closure.
+
+The statement, argument/inference meaning, result description, Lean comments
+and this note agree: the universal expansion preserves the full original
+profile; the modal condition is per admitted link; no necessity of arbitrary
+reasons is asserted; the common fixtures have one fixed all-present Nat domain;
+source count is relation-relative; the non-WF proof is imported; and the last
+conjunct denies a common **memberwise token**, not whole explanation. Source
+readings are separate from the analyst's constructed reasons and graphs.
+
+The frozen Challenge SHA256 is
+`e43ddd8b287e438bd2fcee795238c4a372d921e2be9d047b2dc2cf6ac9064310`.
+Shared-session corrected combined definitions/Solution were accepted at clean
+preview `db603d3140e92c4b1ca653ab2098a0189a70653f`, workspace
+`~/.cache/agent-work/truth-core-shared-preview`, session `master-20261029`,
+`Scratch/issue698/Combined.lean` version2, content SHA256
+`b790378375b2928fdd24b47eaf08f4c21a1ef97e35e24e3f45bf939c2d940b9a`.
+The only diagnostics were the axiom report (`propext`, `Quot.sound`, within the
+permitted Mathlib set). The first edit exposed a malformed nested record and
+an unused type parameter; corrected without weakening the advertised content.
+Warm elaboration was0.216s, client request0.236s, lease wait28µs. These are
+single-machine development observations, not proof-throughput evidence.
+A same-content CLI check under the shared lease passed in1.26s. The
+corpus-record request for `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON` was bound
+to the canonical clone at83a99328 (dirty), exact record SHA256
+`5511782ff199020a3e50b1f60755bf0d55b8480070781e06f04dd2c6774c6155`;
+no corpus speedup is claimed. Retain the shared service for warm edits and its
+binding checks; final delivered-head CI owns build, binding, Comparator and
+NanoDa. Reproduce after build with
+`scripts/verify-result.sh TARGET-COPY-ENTAILING-EXPANSION`.

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-READING-DERIVED-SOUND-CERTIFICATE",
+  "term": "uniformly sound reading-derived accuracy certificate",
+  "definition": "Fix a function from the complete readings to an arbitrary evidence type, then a Prop-valued test on that evidence. Uniform soundness requires that affirmation imply zero bias for every profile in the unrestricted constant-bias model class. SoundSelfCertificationFails says no such test can affirm on reachable derived evidence when a nonzero bias is permitted.",
+  "basis": "stipulative",
+  "note": "This is deductive model-class soundness, not fallible epistemic justification, psychological availability or computability. An evidence type Nat → Report includes infinitely many reading-derived reports, without adding independent input or asserting their physical production. The proof does not require completeness of the test; the exact-classifier corollary uses the existing criterion notion.",
+  "lean_declaration": "TruthCore.Science.ReadingSelfCertification.SoundSelfCertificationFails"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+  "paraphrase": "For each first mover moved by none, its represented individuating basis equals its represented nature. This OPEN candidate-domain adapter is not attributed to q3a3 as an unrestricted claim about every first mover, necessary existent, or underived being.",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverSuppositumIsNature",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

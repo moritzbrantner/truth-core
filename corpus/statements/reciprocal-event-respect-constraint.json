@@ -1,0 +1,21 @@
+{
+  "id": "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "paraphrase": "Each reciprocal pair of event edges C e f and C f e has equal exercise times and distinct target event respects. Thus a same-respect event circle is excluded under the six advertised premises; an alternating-respect simultaneous circle remains a survivor. This is not a ban on all event cycles, a ban on entity feedback over time, or a proof of the First Way regress premise.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.ReciprocalConstraint",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

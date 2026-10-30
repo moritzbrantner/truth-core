@@ -45,6 +45,36 @@ Passage identity is likewise not claim identity. Changing an interpretation does
 
 ## Verification boundaries
 
+The [proposition structure inspector](proposition-structure.md) derives a bounded
+expression view from elaborated Lean. Its internal addresses are scoped to the
+statement and input revision, require no authored statement records, and carry
+no frontier or proof status. Definition expansion, semantic interpretation and
+argument support remain separate.
+
+Selected strength comparisons use existing statement-to-statement relations
+with predicate `strength_comparison`. Their single semantic owner is
+`scripts/strength_comparisons.py`. The subject is the stronger proposition and
+the object the weaker proposition; `comparison_spec` names the Lean
+specification of their complete applications under shared parameters and
+background. `delta_statement_id` names the proposed extra requirement;
+`background_statement_ids` lists the ordered background.
+`statement_parameter_indices` gives every named field (including `background.N`)
+an explicit strictly increasing subsequence of the shared specification telescope,
+counting implicit types and instances. Lean checks dependent argument types,
+ordered argument equality and the full declaration application; specialization
+and parameter permutations are outside this generic registration contract. Optional
+`remainder_statement_id` identifies cases admitted only by the weaker formula.
+`evidence_result_ids` maps named obligations to existing result IDs; `separator`
+names a closed application of the same specification and its result ID.
+Optional `explanatory_control_result_ids` links existing result authorities as
+interpretive evidence only; these results never supply comparison certificate roles.
+Metadata never establishes any of these obligations. The producer validates
+canonical result/configuration bindings and uses Lean definitional equality for
+complete theorem types, then the existing result verifiers. Computed labels are
+derived presentation, not stored relation verdicts or a second proof authority.
+See the [comparison design and current handoff](proposition-structure.md#current-handoff-certified-strength-comparisons)
+for the obligation meanings, background boundaries and migration scope.
+
 There are three deliberately separate notions of verification:
 
 1. **Source integrity** — `scripts/source_evidence.py` checks that every formalized claim resolves to one passage, that the passage belongs to the registered work, and that the fetched edition bytes match the pinned Git blob SHA. Materialization makes the consulted text reproducible.

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSE-READINGS-EXACT-SELF-CAUSE-DELTA",
+  "paraphrase": "For every shared entity type with decidable equality, generation predicate and cause relation, the distinct-cause principle holds exactly when the broad cause principle and the local alternative-cause condition for self-causing generated beings both hold.",
+  "lean_declaration": "TruthCore.Logic.Strength.Cause.ExactDelta",
+  "definition_ids": [
+    "DEF-PLATONIC-GENERATION-CAUSE",
+    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PLATONIC-CAUSE"
+  ]
+}

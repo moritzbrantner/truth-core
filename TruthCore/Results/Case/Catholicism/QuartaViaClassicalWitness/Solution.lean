@@ -81,6 +81,10 @@ theorem uniqueClassicalGodFromQuartaViaExists (σ : Signature) {Respect : Type} 
   -- Uniqueness of maxima alone would not exclude another nonmaximal IsGod.
   have hOne := TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.godIsOne
     σ.IsGod InAct MoreIn CausesIn esse hMaximal hGenus hCauseMore hEM m hmGod
-  exact ⟨m, hmGod, hOne, hSuffice m hSimple hPerfect hGood hOne hInfinite hImmutable hEternal
-    hIntellect hWill⟩
+  -- The checked bridge equivalence groups only attributes of this same witness.
+  have hField := classicalAttributesFromNine σ (IsSimple Composite) (IsPerfect InAct)
+    (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
+    Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill hSuffice m
+    ⟨hSimple, hPerfect, hGood, hOne, hInfinite, hImmutable, hEternal, hIntellect, hWill⟩
+  exact ⟨m, hmGod, hOne, hField⟩
 end TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness

@@ -14,9 +14,9 @@
   "passages": [
     {
       "id": "KOONS-GRIM-REAPER-KALAM-4-5",
-      "locator": "printed pp. 4\u20135 (physical PDF pages 4\u20135)",
+      "locator": "printed pp. 4–5 (physical PDF pages 4–5)",
       "claim_locator_prefixes": [
-        "pp. 4\u20135"
+        "pp. 4–5"
       ],
       "pdf_pages": {
         "first": 4,
@@ -26,10 +26,23 @@
       "incipit": "Instead of looking for proof of the finitude of the past, we should look"
     },
     {
-      "id": "KOONS-GRIM-REAPER-KALAM-17-18",
-      "locator": "printed pp. 17\u201318 (physical PDF pages 17\u201318)",
+      "id": "KOONS-GRIM-REAPER-KALAM-6-16",
+      "locator": "printed pp. 6–16 (physical PDF pages 6–16)",
       "claim_locator_prefixes": [
-        "pp. 17\u201318"
+        "pp. 6–16"
+      ],
+      "pdf_pages": {
+        "first": 6,
+        "last": 16
+      },
+      "text_sha256": "sha256:e8926138c0600b628f29138fade144b8a14663a646d1f6ce061bcdfc6154be6b",
+      "incipit": "However, this is also inconsistent with a SILPS, since if time has an intrinsic"
+    },
+    {
+      "id": "KOONS-GRIM-REAPER-KALAM-17-18",
+      "locator": "printed pp. 17–18 (physical PDF pages 17–18)",
+      "claim_locator_prefixes": [
+        "pp. 17–18"
       ],
       "pdf_pages": {
         "first": 17,
@@ -37,6 +50,19 @@
       },
       "text_sha256": "sha256:5b36d0aa84a27799fcc2e44b3cb515e872f7860e93b338fa3ebd1dc3e6baf699",
       "incipit": "Intrinsicality of Causal Power are obviously true, we can deduce the falsity of"
+    },
+    {
+      "id": "KOONS-GRIM-REAPER-KALAM-18-22",
+      "locator": "printed pp. 18–22 (physical PDF pages 18–22)",
+      "claim_locator_prefixes": [
+        "pp. 18–22"
+      ],
+      "pdf_pages": {
+        "first": 18,
+        "last": 22
+      },
+      "text_sha256": "sha256:323f47899245c118982db7cf960a69893738ff7fe66e1736e1cb31740f02231f",
+      "incipit": "Suppose that x1 is a non-eternal thing. By P3, x2 began to exist at some time"
     }
   ]
 }

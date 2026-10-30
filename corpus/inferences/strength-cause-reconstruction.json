@@ -1,0 +1,12 @@
+{
+  "id": "INF-STRENGTH-CAUSE-RECONSTRUCTION",
+  "input_statement_ids": [
+    "STMT-CAUSE-PRINCIPLE-BROAD",
+    "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+  ],
+  "output_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "rule": "typed_strength_comparison",
+  "meaning": "Under shared decidable identity, retain the broad principle witness when distinct; if that witness is the entity itself, use the local alternative-cause condition. No global irreflexivity is assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -166,3 +166,76 @@ statement identity, argument premise list, transcription flag or root route
 is changed. The eight root-route costs remain 28, 29, 33, 35, 36, 36, 37 and
 38; the designated route retains 37 open leaves. This audit corrects what the
 prose claims, and discharges no philosophical obligation.
+
+## Uncaused principles: bounded source test (2026-10-28)
+
+Candidate `ARIST-MET-993B-PRINCIPLES-UNCAUSED-IN-BEING` asks whether
+*Metaphysics* II.1, 993b28–30 can replace unrestricted causal comparison when
+the primary is treated as an effect. The full pinned Greek `ARIST-MET-II-1`
+was materialized and reread, together with the whole newly pinned Latin
+`AQUINAS-IN-METAPH-II-L2` (Corpus Thomisticum, Turin 1950 text, II lect. 2).
+The source finding is preserved by `ATTEMPT-PRIMARY-ANALOGATE-UNCAUSED`;
+it is a blocked premise-substitution attempt, not a new attributed proposition
+or a proof of uncausedness.
+
+In lect. 2 n. 4–5 [81858–81859], Aquinas explicitly retains univocal
+predication and contrasts fire with the sun, whose causal excellence does not
+make it hottest in that same sense. In n. 6 [81860], his application to truth
+invokes a common name and common ratio beyond any particular species. That
+is a potentially important scope distinction from a species-restricted heat
+comparison. It does not itself supply the unrestricted existing rule that
+every cause of another's being is more in being, including a cause of the
+primary analogate's being. No identity of the truth and being comparatives,
+or transfer of this common-ratio argument to every analogical perfection,
+is introduced here.
+
+The decisive passage is n. 7 [81861]. Aquinas presents two reasons for the
+maximal truth of the principles of everlasting things, which he glosses as
+heavenly bodies: their truth does not alternate, and they lack a cause while
+causing the being of others. Thus the lack of a cause functions as a reason
+in this local argument; it is not inferred there from the qualified causal
+comparison of n. 4–6. This answers the candidate's independence question only
+at the level of the argument's premise structure. It does not constitute an
+independent metaphysical defense of that premise.
+
+N. 8 [81862] supplies further reasoning: composites and participants must be
+reduced to what is by essence as causes, and corporeal things are actual
+through participating forms; hence separated substance, form through its
+essence, is a principle of corporeal substance. This supports the direction
+from a separated principle to corporeal effects. It does not derive that
+principle's own lack of cause, uniqueness, identity with the primary analogate
+selected by the attribution order, or identity with every maximum in being.
+Nor does form through essence here identify essence with esse. N. 11 [81865]
+explicitly recognizes that the preceding reasoning presupposes first causes
+and announces the following argument against an infinite causal progression;
+that announcement is not the missing proof or an identification theorem.
+
+Rejected readings: treating the plural principles as a unique first being;
+treating an assertion of their uncausedness as its independent defense;
+treating n. 8's participation argument as a proof of the separated cause's
+uncausedness; and identifying that cause with the attribution primary merely
+because both are called principles. Each would add a substantive bridge that
+these locators do not provide. The exact principle-to-primary identification
+remains open even if the local uncausedness assertion is accepted.
+
+The existing certified types retain their roles. Attribution uniqueness uses
+approach, strict primacy and excluded middle; it identifies maxima with the
+selected primary without establishing causal firstness. Restricted causal
+comparison and the order-not-first-being control remain unchanged.
+`FirstMoverIsFirstBeing.firstMoverIsFirstBeing` still requires both
+`SimplyPriorIsCauseOfBeing` and unrestricted causal comparison to exclude a
+distinct predecessor of its maximum. Likewise
+`MaximalBeingCauseExclusion.maximumHasNoDistinctEsseCause` explicitly takes
+the latter comparison. The present reading supplies neither a weaker faithful
+replacement consumed by those results nor a proof that the maximum is
+uncaused. Adding “the primary has no distinct cause” and using it with the
+priority bridge would conditionally exclude a distinct predecessor, but
+would relocate the disputed work into that new premise; it is not a new
+non-transcription advance.
+
+Intended and actual premise comparison: no change. All existing premises are
+retained; none is added or removed from a formal argument, and no root route
+changes. No bridge is discharged. A continuation must defend the same-witness
+principle-to-primary identification and its uncausedness, or independently
+derive an applicable causal-priority constraint; repeating the order model or
+the already recorded synonymy gap would not meet that obligation.

@@ -1,0 +1,32 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
+  "premise_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-MAXIME-ENS-IS-GOD",
+    "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY"
+  ],
+  "meaning": "Separate sufficient interface under explicit DecidableEq Being; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed.",
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-GOD"
+  ],
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA"
+  ]
+}

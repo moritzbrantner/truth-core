@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+  "term": "universal cause of esse (scope condition)",
+  "definition": "CausesAllInGenus InAct CausesIn esse c: c causes the being of every distinct x that has esse. This is the existing predicate specialized to esse, not a new causal relation and not an identification with God, first being, maximality, or an uncaused cause.",
+  "basis": "stipulative",
+  "note": "Scope and finite interpretation for the existing causal vocabulary; semantic grounding, precise source locators, examples, rejected interpretations and remaining obligations: docs/notes/causal-perfection-transfer.md. No new structural law is attributed to a source.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+}

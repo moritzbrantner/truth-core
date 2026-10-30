@@ -45,6 +45,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      - name: Check bounded migration coverage and review freshness
+        run: python3 scripts/bundle_audit.py
       - name: Bind argument records to result theorem types
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check
@@ -218,6 +220,30 @@ jobs:
         with:
           name: configuration-explorer-report
           path: .cache/configuration-explorer.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+      - name: Derive proposition structure from Lean
+        if: needs.comparator-plan.outputs.report == 'true'
+        run: python3 scripts/corpus.py structure-report --output .cache/proposition-structure.json
+      - name: Upload derived proposition structure
+        if: needs.comparator-plan.outputs.report == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: proposition-structure-report
+          path: .cache/proposition-structure.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+      - name: Certify registered proposition strength comparisons
+        if: needs.comparator-plan.outputs.report == 'true'
+        run: python3 scripts/corpus.py strength-report --output .cache/strength-comparisons.json
+      - name: Upload certified strength presentation
+        if: needs.comparator-plan.outputs.report == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: strength-comparisons-report
+          path: .cache/strength-comparisons.json
           include-hidden-files: true
           if-no-files-found: error
           retention-days: 7

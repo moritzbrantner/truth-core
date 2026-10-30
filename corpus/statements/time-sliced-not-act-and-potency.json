@@ -1,0 +1,21 @@
+{
+  "id": "STMT-TIME-SLICED-NOT-ACT-AND-POTENCY",
+  "paraphrase": "At each supplied time, the existing canonical NotActAndPotencyInSameRespectReading holds: no being is both actual and potential in the same respect at that time. It does not prohibit potency earlier than an attained actuality. The temporal lift remains open and unattributed.",
+  "lean_declaration": "TruthCore.Causality.TemporalActualization.NotBoth",
+  "definition_ids": [
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-MOTION-AS-PHYSICAL-CHANGE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

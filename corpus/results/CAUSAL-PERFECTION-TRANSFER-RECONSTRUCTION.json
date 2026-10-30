@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.reconstruction",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION/comparator.json",
+  "status": "solution-present",
+  "description": "Decide universal esse scope and effect/source identity, then cover all legacy transfer cases by the corresponding restricted or residual case. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

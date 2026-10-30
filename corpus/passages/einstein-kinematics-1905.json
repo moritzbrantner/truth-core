@@ -1,0 +1,41 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+    "source_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+    "retrieved_at": "2026-10-28T20:43:55Z",
+    "sha256": "sha256:3ff9759092803a6d8375e037122b458ff944776fdc6a5994369bb045b5893ebb",
+    "encoding": "iso-8859-1",
+    "language": "eng",
+    "license": "Einstein1905 and Perrett–Jeffery1923 translation are public domain in the United States. Fourmilab reproduction; only hashes, locators, short incipit and analytical paraphrases committed, not source text or equation images.",
+    "wayback_url": "https://web.archive.org/web/20240116222652id_/https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+    "wayback_sha256": "sha256:3ff9759092803a6d8375e037122b458ff944776fdc6a5994369bb045b5893ebb",
+    "translation": {
+      "translator": "W. Perrett and G. B. Jeffery",
+      "year": 1923,
+      "edition": "On the Electrodynamics of Moving Bodies, English translation from The Principle of Relativity, reproduced by Fourmilab; John Walker electronic edition (1999), with declared notation/translation corrections"
+    }
+  },
+  "passages": [
+    {
+      "id": "EINSTEIN-1905-KINEMATICS",
+      "locator": "On the Electrodynamics of Moving Bodies, §§1–3 (complete kinematical discussion before §4)",
+      "claim_locator_prefixes": [
+        "§1,",
+        "§2,",
+        "§3,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "SECTION11"
+        },
+        "to": {
+          "anchor": "SECTION14"
+        }
+      },
+      "text_sha256": "sha256:92621fda8ab01e3bdcedb95895bf0e96031a7cfc64dfa05f9df35f466362ebeb",
+      "incipit": "§ 1. Definition of Simultaneity\nLet us take a system of co-ordinates i"
+    }
+  ],
+  "notes": "Live HTML and selected §§1–3 text fetched twice identically. The fixed 2024 Wayback fallback also fetched twice identically and preserves exactly the selected text. Wikisource German full-page render was inspected for orientation but rejected as a witness because a generated-at footer changed its raw bytes; its main raw page only transcludes changing subpages. Attributed claims use the materialized English translation, not that unpinned render. Existing HTML extractor omits equation images; mathematical certificate is independently specified and no image-only equation is attributed."
+}

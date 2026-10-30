@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OPTIMAL-CREATION-OUTPUTS",
+  "term": "total optimal positive outputs",
+  "definition": "At the selected world and accessible worlds, every output is an optimal candidate, and every performance has at least one output. This is a positive-output restriction beyond at-most-one output or necessary willing. It excludes no-creation outcomes at performance worlds; no-output is not modeled as an existent effect. The original Option Bool none remains the source, not no creation.",
+  "basis": "stipulative",
+  "note": "Analyst-defined diagnostic for the selected-effect frontier. Not a historical attribution or independently established metaphysical premise. See docs/notes/optimal-creation-choice.md.",
+  "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.OptimalOutputs"
+}

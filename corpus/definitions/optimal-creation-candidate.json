@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OPTIMAL-CREATION-CANDIDATE",
+  "term": "optimal admissible candidate",
+  "definition": "Optimal feasible quality x means x belongs to the fixed candidate set and its quality is IsGreatest in the image of that set. Quality has a Mathlib PartialOrder; no linearity, cardinal metric or injectivity is assumed. Candidates may be absent at the selected world. IsGreatest concerns quality values, not candidate identity.",
+  "basis": "stipulative",
+  "note": "Analyst-defined diagnostic for the selected-effect frontier. Not a historical attribution or independently established metaphysical premise. See docs/notes/optimal-creation-choice.md.",
+  "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.Optimal"
+}

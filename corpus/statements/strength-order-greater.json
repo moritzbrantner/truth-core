@@ -1,0 +1,8 @@
+{
+  "id": "STMT-STRENGTH-ORDER-GREATER",
+  "paraphrase": "For the supplied mathematical linear order and x,y, y is strictly greater than x.",
+  "lean_declaration": "TruthCore.Logic.Strength.Order.Strict",
+  "definition_ids": [
+    "DEF-STRENGTH-LINEAR-ORDER"
+  ]
+}

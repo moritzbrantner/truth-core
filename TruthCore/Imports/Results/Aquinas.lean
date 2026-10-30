@@ -6,11 +6,13 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAna
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsFirstBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
@@ -19,9 +21,11 @@ import TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Soluti
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution

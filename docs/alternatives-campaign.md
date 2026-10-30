@@ -83,7 +83,7 @@ Not yet recorded as relations. Each row names the strongest rival known to the c
 | `STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD` | the founded society is human, only the invisible Church is divine (Reformed ecclesiology) | evidential/abductive | bare premise |
 | `STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH` | a divinely founded authority can err (Westminster Confession 31.4; Luther) | evidential/abductive | to source |
 | `STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED` | the Latin Church proposes an interpolated creed (Orthodox objection to the Filioque) | evidential | candidate `CREED-C381-FILIOQUE` |
-| `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION` | mere conservationism (Durandus): the cause of being conserves it, secondary causes alone produce further perfections | not yet attackable | to source |
+| `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION` | existential conservation without primary causal responsibility for each particular actuality | shared-background rival witnessed; metaphysical applicability open | docs/notes/causal-perfection-transfer.md |
 | `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH` | emergence and amplification: causes producing a quality they lack or have less (Broad; natural selection, `DARWIN-ORIGIN`) | countermodel threat | the statement is a recorded strengthening of *Met.* II.1, 993b24-26; Fourth Way order work in #341; to source |
 | `STMT-CHRIST-FOUNDED-VISIBLE-CHURCH` | Jesus announced the Kingdom and founded no church (Loisy 1902) | evidential/abductive (#379) | to source (public domain) |
 | `STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH` | Orthodox and Protestant ecclesiologies | evidential/abductive (#379) | to source |

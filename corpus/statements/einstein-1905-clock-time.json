@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EINSTEIN-1905-CLOCK-TIME",
+  "paraphrase": "Einstein defines remote clock synchronization by a light-travel-time convention, assumes its consistency and symmetry/transitivity, and defines event time through a local stationary clock synchronized with the same reference clock in that system.",
+  "definition_ids": [
+    "DEF-EINSTEIN-CLOCK-TIME",
+    "DEF-BOOST-FRAME-SIMULTANEITY",
+    "DEF-PRIVILEGED-PRESENT-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+  ]
+}

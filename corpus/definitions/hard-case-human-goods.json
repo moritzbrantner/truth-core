@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HARD-CASE-HUMAN-GOODS",
+  "term": "stipulated human-life and bodily-integrity goods in the hard cases",
+  "definition": "A separate two-constructor HumanGood type distinguishes life from bodily integrity. A supplied good relation classifies bodily integrity of the victim as good in the violation context and life of the victim as good in the killing context; a separate damages relation assigns damage to the corresponding action and good. Both relations are shared across the compared verdicts.",
+  "basis": "stipulative",
+  "note": "These are explicit analyst assignments, not a sourced norm or proof of actual goodness or harm. The formal statement gives no general theory of bodily integrity, no causal account of damage, and no normative bridge from damage to prohibition. A negative instance for each relation prevents an all-true interpretation; it is not an assertion that the offender’s life lacks value.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseGoods.HumanGood"
+}

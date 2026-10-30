@@ -1,0 +1,24 @@
+{
+  "id": "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
+  "paraphrase": "For each first mover moved by none, its represented nature content agrees in every respect with the same InAct predicate used by every-perfection. This OPEN interface does not identify formal character with eminent possession without further defense.",
+  "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverContentAgreesWithAct",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

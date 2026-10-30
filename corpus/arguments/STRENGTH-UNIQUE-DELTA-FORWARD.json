@@ -1,0 +1,14 @@
+{
+  "id": "STRENGTH-UNIQUE-DELTA-FORWARD",
+  "premise_statement_ids": [
+    "STMT-STRENGTH-UNIQUE-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-STRENGTH-AT-MOST-ONE",
+  "inference_ids": [
+    "INF-STRENGTH-UNIQUE-DELTA-FORWARD"
+  ],
+  "meaning": "Any two witnesses equal the unique witness and hence each other.",
+  "definition_ids": [
+    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+  ]
+}
