@@ -508,8 +508,10 @@ hypothesis that a valid edge uses, or a model that separates an invalid one.
   domains supply the bridges, so weak PSR with necessitation then excludes all
   contingency, whereas without necessitation the same domain admits it.
 * Causation: external causation and existence coverage are independent.
-* Quality: copying gives every coverage and necessitation over any truth assignment
-  while independence fails wherever contingency exists.
+* Quality: copying gives `FactPSR`, necessitation and factivity over any truth
+  assignment while independence fails wherever contingency exists. `FactPSR` yields
+  `ContingentPSR` and `NoBrute` by the scope edges; `ExistencePSR` also needs `Coherent`,
+  and weak PSR also needs reflexivity, so copying alone guarantees neither.
 * Reuse: #312's `ExistencePSR` and `ContingentPSR` are the all-world forms of this
   arena's scopes restricted to existence facts, along `ofModel`. -/
 def StrengthMap : Prop :=
