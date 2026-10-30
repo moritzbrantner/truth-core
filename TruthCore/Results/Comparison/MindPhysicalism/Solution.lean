@@ -182,23 +182,44 @@ def pointFrame (candMental baseMental kindPhysical candCauses baseCauses realize
     | false => True
   mental := true
   IsEffect
+    | candidate => False
+    | base => False
     | effect => True
-    | _ => False
   Prior
+    | candidate, candidate => False
+    | candidate, base => False
     | candidate, effect => True
+    | base, candidate => False
+    | base, base => False
     | base, effect => True
-    | _, _ => False
+    | effect, candidate => False
+    | effect, base => False
+    | effect, effect => False
   FullyDeterminedByLaw := fun S x =>
     match x with
+    | candidate => False
+    | base => False
     | effect => (S candidate ∧ candCauses) ∨ (S base ∧ baseCauses)
-    | _ => False
   Causes
+    | candidate, candidate => False
+    | candidate, base => False
     | candidate, effect => candCauses
+    | base, candidate => False
+    | base, base => False
     | base, effect => baseCauses
-    | _, _ => False
+    | effect, candidate => False
+    | effect, base => False
+    | effect, effect => False
   RealizedBy
+    | candidate, candidate => False
     | candidate, base => realized
-    | _, _ => False
+    | candidate, effect => False
+    | base, candidate => False
+    | base, base => False
+    | base, effect => False
+    | effect, candidate => False
+    | effect, base => False
+    | effect, effect => False
 
 /-- The base occurrence is physical. -/
 theorem basePhysical (a b c d e g : Prop) : (pointFrame a b c d e g).Physical base :=
@@ -352,8 +373,9 @@ def pointAttribution (shares : Prop) : OperationAttribution Unit Unit :=
 
 /-- The candidate as the token of the operation. -/
 def candidateToken : Unit → Point → Prop
-  | _, candidate => True
-  | _, _ => False
+  | (), candidate => True
+  | (), base => False
+  | (), effect => False
 
 /-- The operation with no sharing is a per-se operation. -/
 theorem pointPerSe : PerSeIntellectualOperation (pointAttribution False) () :=
