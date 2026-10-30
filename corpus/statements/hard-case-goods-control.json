@@ -1,0 +1,15 @@
+{
+  "id": "STMT-HARD-CASE-GOODS-CONTROL",
+  "paraphrase": "A single typed hard-case factual structure and shared independently stipulated good and damage relations classify the victim’s bodily integrity as good and damaged in the violation case and the victim’s life as good and damaged in the killing case, while two supplied verdicts differ on both prohibitions. The good and damage relations are nonconstant. No actual goodness, permission, prohibition, categorical reason or metaphysical possibility follows, and richer accounts may exclude a verdict.",
+  "lean_declaration": "TruthCore.Ethics.HardCaseGoods.GoodsOmission",
+  "definition_ids": [
+    "DEF-HARD-CASE-TYPED-CONTROLS",
+    "DEF-HARD-CASE-NONCONSENT",
+    "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
+    "DEF-HARD-CASE-HUMAN-GOODS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
+    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+  ]
+}
