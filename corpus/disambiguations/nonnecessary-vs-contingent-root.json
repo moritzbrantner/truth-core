@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+  "term": "nonnecessary versus contingent root",
+  "sense_definition_ids": [
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "resolution": "The fork's second horn, STMT-NECESSARY-OR-NONNECESSARY-ROOT, uses nonnecessary (¬ NecessaryAt), a negated universal. Contingent (ContingentAt) adds a witnessed accessible world lacking x. A contingent root is nonnecessary without excluded middle; the converse is proved only with STMT-EXCLUDED-MIDDLE as a hypothesis (contingentRootOfNonnecessary). Because that hypothesis is explicit in every theorem that crosses over, no step silently swaps the quantifiers. Neither sense is a counterpart notion: both are de re over rigid candidates (CounterpartControl), and both are relative to the frame's accessibility (AccessibilityControl)."
+}

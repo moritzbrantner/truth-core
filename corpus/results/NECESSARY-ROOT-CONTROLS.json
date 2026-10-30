@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-CONTROLS",
+  "argument_id": "NECESSARY-ROOT-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryRootControls",
+  "comparator_config": "results/NECESSARY-ROOT-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Zero Lean axioms: branch witnesses, omission controls, overlaps, relation-type, counterpart and accessibility controls, the equivalence-in-strength of the root principle with excluded middle, and its constructive reductio form. Models establish satisfiability of the encoding only. No root change."
+}

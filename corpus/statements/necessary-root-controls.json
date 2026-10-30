@@ -1,0 +1,24 @@
+{
+  "id": "STMT-NECESSARY-ROOT-CONTROLS",
+  "paraphrase": "Witness and control bundle over logical models, none claimed metaphysically possible. (1) Branch witnesses, each at one inhabited model: a necessary concretum with well-founded actual grounding and no nonnecessary root; well-founded actual grounding, no necessary concretum and a contingent root; a two-cycle of contingent concreta with no necessary concretum and no nonnecessary root; an acyclic unending descent of contingent concreta with no necessary concretum and no nonnecessary root. (2) An uninhabited model has well-founded actual grounding, no necessary concretum and no nonnecessary root. With the first and third models, this shows that each of inhabitedness, well-foundedness and absence of a necessary concretum is needed for the root principle. (3) Overlaps: one well-founded model has a necessary concretum, a nonnecessary root and a failure of 'every actual contingent concretum is grounded'; another has a necessary concretum and non-well-founded actual grounding. (4) For every profile and world whole-carrier well-foundedness implies restricted well-foundedness, and one inhabited world has the restricted without the whole-carrier condition. (5) In one model, one actual concretum is a root of grounding and not of causing, and another of causing and not of grounding. (6) In one model a counterpart under a supplied relation exists at each accessible world, with no rigid necessary concretum. (7) In a frame with no accessibility, a candidate absent at another world satisfies the necessary horn. (8) The root principle quantified over all profiles holds given excluded middle and implies excluded middle. (9) For every profile and world, inhabitedness, restricted well-foundedness and no necessary concretum give the double negation of a nonnecessary root, with no excluded middle.",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NecessaryRootControls",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

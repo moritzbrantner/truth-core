@@ -1,0 +1,24 @@
+{
+  "id": "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+  "paraphrase": "Either some concrete individual exists at w and at every world accessible from w, or some concrete individual existing at w has no concrete ground existing at w and does not exist at every world accessible from w. The horns are not exclusive and the second exhibits no world lacking the individual. Neither is claimed actual or metaphysically possible; a root is a root of the selected relation only.",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NecessaryOrNonnecessaryRoot",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

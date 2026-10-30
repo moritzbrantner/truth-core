@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "paraphrase": "Every concrete individual that exists at w and is contingent at w (absent at some accessible world) has a concrete individual existing at w as a ground under the selected relation at w. It does not require the ground to be distinct from it or say that nothing else is ungrounded. An open premise, not attributed to any source; given excluded middle it is equivalent to there being no contingent actual root of the selected relation.",
+  "lean_declaration": "TruthCore.Causality.BruteFoundationBoundary.EveryContingentGroundedAt",
+  "definition_ids": [
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "constructive-proof",
+  "meaning": "Apply necessaryOrNonnecessaryRoot. In the second horn, excluded middle turns the nonnecessary root into a contingent one, and the anti-brute-root premise then gives it an actual concrete ground, against its being a root.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
