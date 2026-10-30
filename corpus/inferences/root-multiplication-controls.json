@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROOT-MULTIPLICATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROOT-MULTIPLICATION-CONTROLS",
+  "rule": "Explicit finite interpretations reusing the part-free and single-mover carriers",
+  "meaning": "Finite interpretations: the unchanged part-free model keeps its joint and #715 certificates, fails the bridge and act-determines-nature, and has exactly its two roots unlimited. Each of the bridge theorem's five hypotheses is omitted in turn with the other four retained and at-most-one failing. Three horns (differ in act; same act and nature; same act, different nature) are witnessed and covered given excluded middle. The #715 content bundle implies act-determines-nature, not conversely. On the single-mover carrier at-most-one holds with four hypotheses while the bridge fails, and all five hypotheses hold jointly with an actual first mover. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

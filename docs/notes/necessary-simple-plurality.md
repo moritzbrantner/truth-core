@@ -564,3 +564,87 @@ NanoDa belong to delivered-head CI; preview diagnostics are not certification.
 The six-member configuration combines incommunicable individuation, the first-mover suppositum/nature adapter, every-perfection, two witnessed distinct first movers, complete constitutive content, and alignment with the same `InAct` predicate. The imported conditional uniqueness theorem makes their conjunction inconsistent. This selects no premise for rejection and does not defend any premise or establish metaphysical impossibility. The existing Compendium I.12–15 and ST I q.3 a.3, q.11 a.3 and q.4 a.2 readings and the primitive different-whole-essence rival above remain the relevant source and interpretation boundaries.
 
 The original `PartFreePlurality.JointControl` is preserved in both content omissions: its act-derived content agrees with act but is incomplete; its separating code is complete but disagrees with act. For every possible content assignment on the same original mover/act/essence interpretation, completeness and alignment cannot both hold. The remaining omissions use the original two-root motion carrier with varied assignments: constant suppositum and nature omit individuation; identity suppositum and constant nature omit the adapter; separating-code act omits every-perfection. They do not claim to preserve the original full joint ontology. The distinct-movers omission uses the existing inhabited single-mover carrier and its separately named positive content. Each omission witnesses the five retained assumptions and failure of the omitted one; the certified result is inclusion-minimal in this explicit profile. This neither establishes the actual candidate's applicability to the adapter nor equates formal character with eminent perfection.
+
+## What remains of the rival, and whether the bridge is independent (#697)
+
+Question: which premise excludes the part-free two-root model, what is the
+weakest one, and does it say more than "at most one"? Results:
+`FIRST-MOVER-PLURALITY-RESIDUE`, `UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS`,
+`ROOT-MULTIPLICATION-CONTROLS` (`TruthCore.Causality.RootMultiplication`).
+
+**Fork.** Two distinct first movers either differ in act, or have one act profile
+and one nature, or have one act profile and different natures (`ForkCoverage`,
+excluded middle explicit; `HornWitnesses` witnesses each on the part-free movers).
+Every-perfection removes the first horn. Individuation with the first-mover adapter
+removes the second, which is the primitive-individuation reply with one nature.
+`residue` is that elimination: what remains is only the third horn, the
+different-whole-essence reply.
+
+**Weakest premise and its verdict.** Given those three premises, at-most-one is
+equivalent to `FirstMoverActDeterminesNature` and to `FirstMoversShareNature`. So
+any premise that yields at-most-one under that background entails both, and neither
+has content independent of the conclusion there: adopting either amounts to
+asserting uniqueness. `ConstitutiveContentComplete` with
+`FirstMoverContentAgreesWithAct` (#715) is strictly stronger than the first
+(`ContentBundleStrict`). This does not fault #715's composition. It says its
+apparent reduction lands on an equivalent of the target once the background is fixed.
+
+**A form that is not equivalent.** `UnlimitedBeingsShareNature` is the candidate
+`UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE` with an explicit proxy: limited means
+composite, or esse other than essence, or another being prior.
+`uniqueFromUnlimitedNature` derives at-most-one from it with individuation, the
+adapter, simplicity and first-being, without every-perfection.
+
+| Check | Certified in | Finding |
+| --- | --- | --- |
+| Bridge omitted | `SurvivingRival` | Unchanged part-free model, all other hypotheses, plus #715 certificates; at-most-one fails. Its only unlimited beings are the two roots. |
+| Individuation omitted | `OmissionControls` | Constant suppositum, nature and esse; at-most-one fails. |
+| Adapter omitted | `OmissionControls` | Identity suppositum, constant nature and esse: one nature, two supposita. |
+| Simplicity omitted | `OmissionControls` | Everything composite, bridge vacuous. |
+| First-being omitted | `OmissionControls` | Every other being prior, bridge vacuous. |
+| Uniqueness without the bridge | `BridgeExceedsUniqueness` | Single-mover carrier with an inert unlimited row `c` of another nature. |
+| Nonvacuity | `PositiveWitness` | All five hypotheses with an actual first mover. |
+
+The omissions other than the bridge vary stated parameters on the part-free motion
+tables and do not preserve the full joint model.
+
+**Independence verdict.** Formally the bridge is not "at most one": it neither
+follows from nor yields uniqueness alone, and its proof is not a transcription by
+the shape test of invariant 16. Philosophically this gains less than it appears.
+Given simplicity and first-being, its first-mover instance is `FirstMoversShareNature`,
+which is equivalent to uniqueness under `residue`'s premises. Its only further reach is
+over unlimited beings that are not first movers, and there it is a cost: it forbids a
+second unlimited being of another nature even if it moves nothing, as the row `c`
+shows. A proposed necessary abstract object, if it is read as unlimited, would be
+such a case; this reading is not encoded and is not defended here.
+
+**Why ordinary cases do not help (semantic grounding).** In ordinary language a
+limiting principle is something in or before a thing beyond what it is: parts,
+a distinct act of being, a prior source. Examples: a composite body, a dependent
+effect. The two roots are the represented non-examples. It is distinct from
+qualitative finitude and from mere difference. Its structural properties are not
+assumed; it is a unary disjunction. The generalization is the weak point: the bridge
+is vacuous at any pair with a limited member, so every ordinary plurality satisfies
+it without testing it, and `SurvivingRival` satisfies every such instance while
+failing at the root pair. Ordinary multiplication by matter or differentia therefore
+supplies no instance of the case at issue. Any support must come from a reason
+specific to unlimited beings.
+
+**Source reading.** `AQUINAS-DE-ENTE-C3-4` was rematerialized and read for this test.
+c.3 [69874] says of separated substances that, since the essence is not received in
+matter, there are as many species as individuals, and then that they nevertheless lack
+*omnimoda simplicitas* and are not pure act, since what lies outside the understanding
+of the quiddity makes composition with it. So that passage's differing whole essences
+carry esse other than quiddity, which is a limiting principle under the proxy; they
+are vacuous instances and neither support nor refute the bridge. No new source claim
+is made. The bridge is unattributed. The earlier finding stands that the source's
+exhaustive inventory is an assertion and that reversing c.3's reception conclusion
+would be circular.
+
+**Strongest rival and remaining gap.** The rival: two unlimited first movers, each
+identical with a different whole essence, one act profile. Its debt is an account of
+how a whole essence differs from another without limiting either, and of why there are
+two. The defender's debt is a reason not reducing to the first-mover instance. Neither
+is discharged. Also open: `InAct` formal versus eminent (`DISAMB-IN-ACT`); whether the
+three-disjunct proxy captures limitation; application to a selected necessary
+underived individual, since all results here concern first movers.

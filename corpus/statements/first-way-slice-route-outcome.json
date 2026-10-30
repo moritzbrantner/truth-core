@@ -1,0 +1,27 @@
+{
+  "id": "STMT-FIRST-WAY-SLICE-ROUTE-OUTCOME",
+  "paraphrase": "At each time at which something is moved, it cannot be lacking that some being moves something at that time and is moved in no respect at that time. No nonempty finite closed walk of event edges exists. And either every edge is strictly forward and each mover of another at t is moved in no respect at t, or no edge is backward and some edge is simultaneous. Unmoved at t is not unmoved at every time; the event relation need not be well-founded.",
+  "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceRouteOutcome",
+  "definition_ids": [
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-PER-SE-LINK",
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}
