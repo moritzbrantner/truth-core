@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PATH-RELOCATION-CONTROLS",
+  "paraphrase": "Closed Bool-state controls. The autonomous flip law has exactly two Int solutions, the changing alternation and its one-step re-dating, which differ as dated paths and agree up to dating; constant reason truth does not determine a flip solution and transition tokens do. Adding one dated pin gives a condition with a unique changing solution that is not shift-invariant. The all-true condition is shift-invariant with a unique nonchanging solution, determined by constant truth. These three delete in turn each member of the bundle shift-invariant, unique, changing. Under one autonomous many-valued law, two solutions agree through time 0 and differ at time 1, and tokens before time 0 do not determine the staying-false solution. A path revisiting a state with different successors follows no functional undated law, yet is the unique solution of its dated copy. On a two-point window a one-edge undated law has a unique changing solution, and the swapped law a different one. The flip state relation has a 2-cycle and its solutions are mutually accessible while dated occurrences of the alternation have no cycle and each has a predecessor. These are formal interpretations, not histories of reality.",
+  "lean_declaration": "TruthCore.Explanation.PathRelocation.Controls",
+  "definition_ids": [
+    "DEF-PATH-RELOCATION-PROFILE",
+    "DEF-PATH-RELOCATION-LAW",
+    "DEF-PATH-RELOCATION-DATING",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PATH-RELOCATION",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY"
+  ]
+}

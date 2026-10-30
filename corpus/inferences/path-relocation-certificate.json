@@ -1,0 +1,9 @@
+{
+  "id": "INF-PATH-RELOCATION-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PATH-RELOCATION-CERTIFICATE",
+  "rule": "direct-proof",
+  "meaning": "Apply uniqueness to the reindexed solution to get symmetry transfer; on Int conclude no change by induction. Compose #736 no_selection with the re-dated rival for the whole-vector failure, and #738 uniqueness for the global instance. Prove token and copy-law exactness pointwise; prove the graph-law dating theorem by integer induction from injectivity; prove the finite bijection by Fin induction and iteration; prove splicing by cases at the join; prove acyclicity by strict increase of date along TransGen.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

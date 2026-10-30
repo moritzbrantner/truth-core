@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PATH-RELOCATION-PROFILE",
+  "term": "temporal state path and its rival-path history",
+  "definition": "A path assigns one state to each supplied time inside one history. pathHistory C takes the solutions of a condition C on complete Int paths as worlds, all mutually accessible, with exactly the path's state present at each time, existence read at now=0 and an empty Causes relation. transitionTruth w (t,s,s') says that path w has state s at t and s' at t+1. TemporalEdge f relates dated occurrences (t,f t) and (t+1,f(t+1)) of one path. These are representations of rival complete paths, not an aggregate being, a causal relation or a metaphysical modality.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PathRelocation.pathHistory",
+  "note": "Reuses TemporalHistory.History and HistorySelection without a new timeline engine. Worlds are rivals in an analyst's contrast set; accessibility is not travel. TemporalEdge is adjacency in time, irreflexive and acyclic because Int order is, not causation or grounding; it inherits no productive direction. Semantic grounding, examples and rivals are in docs/notes/explanatory-relocation-753.md."
+}
