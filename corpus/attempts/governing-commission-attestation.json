@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-GOVERNING-COMMISSION-ATTESTATION",
+  "date": "2026-10-27",
+  "statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION",
+    "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+    "STMT-MATT-18-17-JUDGING-SAYING-LATER"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Tested the message rival, granting the link premise, against the critical denial and the multiple-attestation argument for a governing commission. Denial: pinned Harnack, History of Dogma I, ch. II §3, note 76 (same Gutenberg snapshot): 'The words of the Lord, Matt. XVI. 18; XVIII. 17, belong to a later period'. Read at the event level for 18.17 because Harnack's §2 II.7 denies that Jesus founded a community; rejected: a wording-only reading (only the term ekklēsia is late), which conflicts with that position. The note gives no argument and does not mention 16.19, 18.18, John 20.23 or 21.15-17; in Lean it refutes only the Matthew 18 commission and is compatible with the report-to-event premise, the link premise and both attestation premises (judgingSayingLater_compatible). Also read: Strauss, Life of Jesus Critically Examined (Gutenberg 64037), on Matthew 18.17-18 ('an anticipation of a subsequent state of things', at least in form) and on Peter; not pinned, since Harnack states the denial more directly and is already a corpus source. Positive side: binding and loosing (Matthew 16.19, 18.18) and forgiving and retaining (John 20.23) share one heaven-ratified form, reported in two strands; derived (CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION, not a transcription) that the link premise, John 20's independence of Matthew 18 or 16, and the criterion of multiple attestation for this family exclude the message rival wherever Jesus holds a mandate and founded the Catholic Church; each premise is needed (three omission models) and they are jointly satisfiable. So a rival granting the link premise, Jesus' mandate and his founding of the Catholic Church as a visible society with authority, must deny John's independence (from both Matthew passages) or the criterion; otherwise it denies the link premise, the mandate or the founding (stage 5, Harnack's §2 route) (for example: both strands reflect the early community's practice). The attestation premises do not give STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS (only some power of the family, not a whole report; attestation_not_reports); with Matthew 28 they would give the narrow premise (narrow_from_attestation), but that route is not recorded because it would replace a sourced premise with two unsourced ones (relocation without sourced leaves). Galatians 2.7-9 pinned (Cephas a reputed pillar with an apostolate to the circumcised; 1.18 the fifteen-day visit): a datum both sides explain (commission, or the first appearance of 1 Corinthians 15.5), so non-discriminating and not a premise. Source search for the criterion and John's independence: archive.org unreachable from the environment (Burkitt 1906 not obtained); Gutenberg has no Burkitt, Hort or Expositor's Greek Testament; Sanday, Criticism of the Fourth Gospel (Gutenberg 60553) does not discuss John 20.23; Catholic Encyclopedia 'Primacy' (newadvent) links John 20.23 to the power of binding doctrinally but gives no historical argument; Meier, Dodd and Brown are copyrighted and were not read, so no bibliographic span was created. Remaining blocker: a pinned or read source for STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION and STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW, and a critical source denying 16.19, 18.18 or John 20.23 specifically. Frontier: no change (the conclusion reaches no root route).",
+  "evidence": [
+    "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+    "HARNACK-HOD-I-II-3-N76-CHURCH-SAYINGS-LATER",
+    "NT-GAL-2-7-9-CEPHAS-PILLAR",
+    "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING",
+    "NT-MATT-18-17-18-CHURCH-JUDGES-DISCIPLES-BIND",
+    "NT-JOHN-20-21-23-SENDING-FORGIVE-RETAIN"
+  ]
+}

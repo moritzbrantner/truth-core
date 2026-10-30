@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HEAVEN-RATIFIED-POWER",
+  "term": "heaven-ratified power (HeavenRatified)",
+  "definition": "A power named in a commission report is heaven-ratified when the report pairs the disciples' act on earth with its standing before God: binding and loosing (Matthew 16.19, 'ho ean dēsēs epi tēs gēs estai dedemenon en tois ouranois'; 18.18, plural) and forgiving and retaining sins (John 20.23, 'an tinōn aphēte tas hamartias apheōntai autois; an tinōn kratēte kekratēntai'). John 20.23 has no 'in heaven': that its perfect passives mean ratification by God is this definition's reading. The other powers of CommissionReport.powers (preaching, making disciples, baptizing, teaching, the keys, the church's judging, shepherding) are not in the family. The family is the shared form, not an identity of the sayings: binding and loosing need not mean forgiving and retaining sins. Every heaven-ratified power is governing in the sense of Power.Governing (heavenRatified_governing).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.HeavenRatified",
+  "note": "Stipulative grouping for #357. Membership is read from the pinned texts recorded by the report claims NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING, NT-MATT-18-17-18-CHURCH-JUDGES-DISCIPLES-BIND and NT-JOHN-20-21-23-SENDING-FORGIVE-RETAIN, but those claims do not state the shared form; the grouping (in particular the divine-passive reading of John 20.23) carries the multiple-attestation argument and is unsourced. A commentary relating John 20.23 to Matthew 16.19 and 18.18 (for example C. H. Dodd, Historical Tradition in the Fourth Gospel, 1963; R. E. Brown, The Gospel according to John XIII-XXI, 1970) would source it."
+}

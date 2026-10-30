@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "paraphrase": "For any being g: if Jesus holds a mandate from g, founded the Catholic Church, and the Catholic Church is a visible society with an authority structure, then the message rival STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE is false: it is not the case that, for every being g' from which Jesus holds a mandate and every society c, Jesus did not found c in the exercise of that mandate. This is a negation of the rival only, not a positive existence statement (no witness society is produced), and it does not say that the Catholic Church is founded in the mandate. It does not assert that Jesus holds a mandate or founded the Catholic Church.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.MessageRivalExcludedGivenFounding",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

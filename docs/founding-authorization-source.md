@@ -219,8 +219,8 @@ against the rival. (iii) A separate "given in the mandate" premise: no rival
 separates it. (iv) Report statements as premises: their content is the sourced
 definition, and only the report-to-event step is a premise.
 
-**Open.** Neither side's historical argument is pinned. The pinned Harnack
-section does not discuss the governing sayings, so no source yet states their
+**Open** (at #581; see the fourth-PR section for the pinned denial). Neither side's historical argument was pinned. The pinned Harnack
+section does not discuss the governing sayings, so no source yet stated their
 historical denial; *Dei Verbum*'s own redaction clause (*statui ecclesiarum
 attendendo explanantes*) is where such readings place Matthew 16.18-19 and
 18.17-18. Next: pin a critical denial (for example on Matthew 16.18) and a
@@ -233,6 +233,87 @@ the narrow premise stays on the open frontier ("open although proved"), and the
 two new premises are listed beside it (on main at merge: 61 → 63 open premises;
 12 bare unchanged, 49 → 51 sourced-undefended). Per-route costs are unchanged
 (cheapest 31). Nothing is discharged.
+
+## Institution or message: multiple attestation against the critical denial (2026-10-27, fourth PR)
+
+Module `TruthCore.Case.Catholicism.StageThree.CommissionAttestation`, result
+`CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION`
+(`message_rival_excluded_by_attestation`). It tests the message rival, once it
+grants the link premise, against the strongest historical argument for a
+governing commission and against a pinned critical denial.
+
+**The pinned denial.** Harnack, *History of Dogma* I, ch. II §3, note 76
+(`HARNACK-HOD-I-II-3-FN-76`, same Gutenberg snapshot as §2): "The words of the
+Lord, Matt. XVI. 18; XVIII. 17, belong to a later period." Claim
+`HARNACK-HOD-I-II-3-N76-CHURCH-SAYINGS-LATER` reads it at the event level for
+18.17 (`STMT-MATT-18-17-JUDGING-SAYING-LATER`: Jesus did not give the
+*ekklēsia* its judging power), because Harnack's §2 denies that Jesus founded a
+community; a wording-only reading was rejected for that reason. The note gives
+no argument and names only the two *ekklēsia* sayings. Matthew 16.18 names no
+power given to a disciple and bears on stage 5, not here. In Lean the denial
+refutes only that Matthew 18.17-18 goes back to Jesus
+(`judgingSayingLater_refutes_mt18`); it is compatible with
+`STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS` and with both attestation premises
+below (`judgingSayingLater_compatible`). **Matthew 16.19, 18.18, John 20.23
+and 21.15-17 are untouched by any pinned denial.**
+
+**The attested family.** Matthew 16.19 and 18.18 (binding and loosing) and John
+20.23 (forgiving and retaining) share one form: the disciples' act on earth is
+ratified before God (`HeavenRatified`, `DEF-HEAVEN-RATIFIED-POWER`; a stipulated
+grouping, since John 20.23 has no "in heaven" and the divine-passive reading is
+the definition's). The family, not one saying, is reported in both the
+Matthean and the Johannine strand (`heavenRatified_in_both_strands`;
+`DISAMB-ATTESTATION-OF-POWER-AND-FAMILY`), and every power in it is governing.
+
+**The argument.** From the link premise, `STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW`
+(John 20.21-23's saying is literarily independent of Matthew 18.17-18's or
+16.18-19's) and `STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION` (two distinct,
+independent reports of the family ⇒ Jesus gave or promised some power of it), it follows that wherever
+Jesus holds a mandate and founded the Catholic Church as a visible society with
+authority, the message rival is false. It is not a transcription: the proof
+meets each premise's antecedent only through the reported content and the
+stipulated classifications; that checked content is thin, and the two
+attestation premises are tailored to this family. `omissionModels` shows each premise needed; `jointModel` shows
+them jointly satisfiable with stage 6 and every stage antecedent.
+
+**The fork, sharpened.** A message rival that grants the link premise, Jesus'
+mandate and his founding of the Catholic Church must now deny one of:
+
+1. John's independence for this saying, from both Matthew 18.17-18 and
+   16.18-19 (John 20.23 derives from Matthew's saying or shares a written
+   source with it); or
+2. the criterion for this family (both strands share the early community's
+   practice of binding and forgiving, or an oral tradition formed by it, not a
+   gift of Jesus). Note that John
+   20.23 is set after the resurrection: a gift by the risen Jesus counts as
+   Jesus' giving (`DISAMB-COMMISSION-REPORT-AND-EVENT`); "post-Easter" in the
+   critical sense means formed by the community.
+
+Otherwise it denies the link premise, the mandate or the founding (stage 5,
+Harnack's own route in §2). Harnack's note 76 supports none of these denials
+beyond the Matthew 18 commission.
+
+**What it does not do.** The two attestation premises yield only *some*
+heaven-ratified power, not a whole governing report, so they do not give
+`STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS` (`attestation_not_reports`). With
+Matthew 28's report-to-event content they would give the narrow premise
+(`narrow_from_attestation`), but that route is not recorded as an argument: it
+would replace one sourced premise with two unsourced ones.
+
+**Paul on Cephas** (`NT-GAL-2`, claim `NT-GAL-2-7-9-CEPHAS-PILLAR`; 1.18 in
+`NT-GAL-1`). Within Paul's lifetime Cephas is one of three reputed pillars and
+holds an apostolate to the circumcised. This is a datum both sides explain: by
+a commission (Matthew 16.18-19, John 21.15-17), or by the first appearance
+(1 Corinthians 15.5) and his role among the disciples. It does not discriminate
+and is not a premise; Paul names James first and opposes Cephas at Antioch.
+
+**Open.** Pinnable sources for the criterion and for John's independence (or
+dependence) were not found: archive.org was unreachable and the standard
+modern treatments are copyrighted and were not read
+(`ATTEMPT-GOVERNING-COMMISSION-ATTESTATION`).
+
+**Premise effect.** No change. The conclusion is used by no argument reaching
+the root, so `frontier --reaching-root` and `--routes` are unchanged.
 
 ## Verified witnesses and findings
 
