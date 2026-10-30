@@ -1,0 +1,9 @@
+{
+  "id": "INF-TRUTH-NONTRIVIALITY-CORE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TRUTH-NONTRIVIALITY-CORE",
+  "rule": "constructive-proof",
+  "meaning": "Transport the Prop theorem to a predicate through Expressive; derive the negation factorization from the predicate's own negation; compose the disquotation theorem with capture.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
