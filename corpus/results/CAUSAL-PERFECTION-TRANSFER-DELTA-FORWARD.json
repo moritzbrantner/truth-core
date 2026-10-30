@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.deltaForward",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD/comparator.json",
+  "status": "solution-present",
+  "description": "Project the legacy principle to nonuniversal sources and self-effects. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

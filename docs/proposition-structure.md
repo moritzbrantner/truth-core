@@ -246,72 +246,107 @@ formal/eminent interpretation remain open. Do not expand this audit into a
 claim of whole-corpus migration or renewed source fidelity.
 
 
-## Current handoff: bounded corpus migration
+## Current handoff: causal perfection transfer
 
-Naming/identity continuation from integrated #730 main
-`e634f01f6f77a8592f256cd72548ffa299a49613`, branch
-`refactor/naming-first-mover-route`. Verified implementation revision:
-`9e22dd5ea66103846c5c50e317855461c7d7487c`; the following handoff-only commit
-does not change checked inputs. The delivery PR records its exact delivered head,
-final CI run and completed current-head review.
+Continue from merged #731, starting synchronized main
+`aab5dcf4827b03dcc18be2c2b115990de0fcf7cc`. The bounded structural migration
+is complete; its [naming audit](notes/naming-first-mover-migration.md) and
+[inventory](notes/naming-first-mover-migration.json) remain the preservation
+evidence. The current substantive bundle is on
+`research/causal-perfections-transfer`. Checked implementation revision:
+`c55af5ec6e6e451a870fa7a87fc0650e55060f6c`; the CI follow-up changes no
+theorem inputs. The delivery PR records its exact delivered head, CI run and
+current-head review request/status.
 
-Scope is **six legacy bundles**: full-description naming, first-mover identity,
-Stage1 full-description, original same-witness consumer, Prima root composition,
-and `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES`. The
-[bounded self-sweep](notes/naming-first-mover-migration.md) and
-[exact inventory](notes/naming-first-mover-migration.json) persist 146 initial
-record dispositions plus 15 new argument/inference/result records for five
-separately frozen equality interfaces: **161 records**. Reuse #730's unchanged
-attribute/source/control evidence and same-witness expression contract. All six
-legacy Challenges **and Solutions** remain byte-identical. The first-mover
-argument gains existing semantic links; no statement or source claim changes.
+Target: `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION`. Reuse: existing
+`CausesIn`/`CausesAllInGenus`, q.4/q.6 support, the read pinned q.4 a.2,
+q.6 a.2 and q.44 a.1 witnesses, naming/reduced-description/goodness,
+`AtMostOneMaximeEns.atMostOneMaximeEns`, prior rival sourcing, and the existing
+omission/nonlogical controls at their original scopes. Missing step: active
+causal responsibility for each particular actuality rather than mere
+existential dependence. Premise comparison: preserve legacy route; substitute
+restricted universal transfer only in three separately frozen applications;
+no philosophical discharge.
 
-The audit binds description-to-God only, supplied f/m identity, transported
-maximality and the same named/attributed f through the root route. Neither naming
-nor identity supplies existence. Maximum uniqueness alone cannot establish
-original IsGod uniqueness. The retained God-to-maximality premise matches #730's
-attribute identity interface, which the alternative consumer imports without
-strengthening its original inputs. All causal, first-being, naming and field
-bridge directions are preserved. The historical end remains a structural
-transcription under its original open bridges.
+Investigation thesis/purpose: determine what causal transfer is needed to name
+and attribute the selected witness. Strongest positive case: participation of
+forms/powers plus active primary concurrence (q.44 and q.105). Strongest rival:
+universal conservation with proper secondary production, without primary
+responsibility for each particular exercise. The decisive fork is whether
+existential dependence supplies that active contribution. The source's
+God-indexed concurrence cannot identify a pre-naming witness without an
+independent applicability bridge.
 
-The two new bridge variants use explicit `DecidableEq Being`; three composition
-variants additionally use `DecidableEq Principle`. Same-witness/Prima variants
-retain `FirstUnmovedMoverExistsOrNot`; the efficient-regress variant adds that
-explicit hypothesis when dropping full EM. All other proposition inputs remain
-(7/5/30/37/38 respectively). Equality instances are assumptions outside frontier
-proposition counts; neither is established. There is no minimality, necessity,
-strict-strength or existence-disjunction replacement certificate.
+[Source/semantic findings and claim/type self-sweep](notes/causal-perfection-transfer.md)
+persist precise locators, ordinary examples and rejected readings, model
+backgrounds, exact application premise lists, and the remaining inference.
+`ATTEMPT-CAUSAL-PERFECTION-TRANSFER` and the existing nominal-description
+candidate link the evidence through the corpus/dossier. No source claim of
+unrestricted or universal transfer is fabricated. Papineau/Hume remain silent;
+the prior unsourced Durandus label is explicitly not adopted.
 
-Verified implementation evidence: library build; corpus and complete binding
-(648 bound, two pinned, zero mismatch); ten isolated frozen Challenge/Solution
-contracts and ten result Comparator/NanoDa checks with zero permitted axioms;
-new inhabited no-existence control; six focused audit, 35 impact and five
-structure tests. Inspector input includes the two bridge conclusions, naming
-premise and existence disjunction; existing presentation/verification authorities
-remain separate. Production browser acceptance is recorded in the delivery PR.
-Final CI retains all required integration, source, Comparator and NanoDa checks.
-No unchanged source checks or full dependency reviews are repeated locally.
+The ten-result bundle compares universal-source/distinct-effect transfer with
+the unrestricted premise, factors the residual nonuniversal/self cases, and
+propagates the narrower sufficient assumption through reduced naming, full
+naming and goodness. The source condition is the existing universal esse
+predicate, supplied by genus at esse **before** naming; it says neither God nor
+the desired causation of perfections. Comparison alone uses explicit decisions
+of identity and universal scope; no new instance is required by the three
+applications. All legacy Challenges and Solutions remain unchanged.
 
-Intended/actual philosophical premise discharge: **none**. All 63 root-reaching
-open-premise identities and all eight legacy route rows remain unchanged;
-designated cost stays 40. Registration adds two alternative root rows at costs
-39/40 with 37/38 proposition inputs; these counts exclude their two equality
-instances. Root selection is unchanged. The existing attempt retains findings,
-rejected inferences and the exact audit references. No new source-fidelity
-question was discovered within this structural review; existing q.105 translation
-basis, formal/eminent compatibility, strict causal ascent, perfections,
-first-being, naming sufficiency/converse, primitive attributes and
-historical/authority burdens remain open.
+Two populated four-role interpretations satisfy the identical genus,
+strict-ascent, actuality-to-being and preexistence background, with a universal
+esse maximum, no incoming distinct esse cause, and active particular/secondary
+causes. One separates restricted from unrestricted transfer. The other denies
+even restricted transfer while preserving existential dependence and possession
+of perfections. It exposes the missing concurrence inference, not physical or
+metaphysical possibility or a whole-root countermodel. The exact strength
+relation uses the existing certifier and explorer; no tooling or explorer code
+is changed.
 
-No installed convention artifacts exist; none was installed or updated. No
-service setup was supplied; documented CLI fallback was used, with no health or
-service-experiment claim. Cross-lane work is limited to necessary lane C audit,
-contract/fixture/impact and inspector/explorer presentation files and this
-handoff; no lane B proof is changed. Stop at this coherent route.
+Actual premise accounting: all ten pre-existing route costs, input counts,
+selection and exact open-premise sets are unchanged; designated cost remains
+40 with 38 proposition inputs. The three new applications replace only legacy
+transfer with universal transfer: 8/5/5 inputs remain 8/5/5. Reconstruction
+classifies legacy transfer as conditionally proved but **unestablished**.
+The global open-item list changes 63 → 62 for that classification; legacy
+transfer is still a route leaf, and both universal and residual transfer remain
+unestablished. Root-reaching graph size is 74 → 76. Only the four mathematical
+decomposition/model facts become established. The direct implication is a
+detector-classified transcription, not an independent defense. No philosophical
+premise closes and no new root route is registered.
 
-Next substantive question: which retained causal or naming bridge can
-discriminate the strongest surviving rival on this route? That investigation,
-other root routes and new source work belong to the next bounded task. Next
-concrete delivery step, if CI/review is pending in the PR: wait for the required
-checks and delivered-head review, fixing concrete findings only.
+Verified local evidence: library build; source manifest/claim binding; corpus
+consistency; complete binding (658 bound, two pinned, zero mismatch); all ten
+new Comparator/NanoDa results with zero permitted axioms. The existing strength
+producer binds the comparison parameters, four exact-delta obligations and
+closed separator; explanatory controls include both populated backgrounds.
+Explorer loaders resolve all ten results, the certified comparison and target
+attempt. Generated imports/docs and diff whitespace pass. Browser/export is
+not newly claimed. Independent final CI and current-head review are pending
+delivery obligations.
+
+The implementation uses the documented CLI fallback: no coordinator service
+workspace/session was supplied, and no service-health or new experiment claim
+is made. Necessary cross-lane edits from lane A are this handoff, its linked
+research note and the alternative-campaign entry/generated table. The CI
+follow-up also re-reviews DEF-CAUSE-OF-PERFECTION and DISAMB-CAUSE
+in the three existing migration inventory JSON files and adjusts
+`apps/corpus-explorer/src/lib/source-attribution.test.ts` to read attribution
+from the existing dossier independently of frontier-item classification.
+No lane B proof, runtime tooling/explorer code, dependency, registry or
+verification authority is changed. Prior proof checks remain valid; the
+follow-up changes only review records, regression coverage and documentation.
+Follow-up local validation: all three audit inventories pass; all 364 Python
+tooling tests and 130 explorer tests pass; explorer typechecking passes.
+The original delivered-head CI also passed Comparator and library verification;
+its two integration failures are the audit freshness and attribution test fixed
+here. Final CI must cover this follow-up head.
+
+Next concrete research step: independently justify application/concurrence for
+the universal esse witness, or defend an additional subsistent/first-cause
+characterization and prove that the witness satisfies it before naming.
+Universal coverage and absence of incoming esse cause alone are insufficient
+under the witnessed background. Source attribution and a narrower sufficient
+premise are not discharges. Final CI and current-head review remain delivery
+obligations, recorded in the PR; reuse unchanged successful evidence.

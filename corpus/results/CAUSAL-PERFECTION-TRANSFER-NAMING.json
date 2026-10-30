@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-NAMING",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-NAMING",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.naming",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-NAMING/comparator.json",
+  "status": "solution-present",
+  "description": "At a supplied maximum, genus at esse proves universal causal scope before any naming. Import maximum uniqueness and the separately frozen reduced-description application; retain full nominal naming and no existence inference. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "argument_id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.scopeSeparation",
+  "comparator_config": "results/CAUSAL-PERFECTION-TRANSFER-SEPARATOR/comparator.json",
+  "status": "solution-present",
+  "description": "Project the populated concurrent interpretation to the exact Separation certificate consumed by the existing strength-comparison checker. No philosophical premise is discharged. Scope, source boundaries and claim/type self-sweep: docs/notes/causal-perfection-transfer.md."
+}

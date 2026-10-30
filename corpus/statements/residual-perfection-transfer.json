@@ -1,0 +1,17 @@
+{
+  "id": "STMT-RESIDUAL-PERFECTION-TRANSFER",
+  "paraphrase": "Open residual obligation: retain the unrestricted transfer for nonuniversal causes and for self-effects. Together with universal-scope transfer this reconstructs the legacy principle under explicit decisions of universal scope and identity.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ResidualPerfectionTransfer",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-RESIDUAL-PERFECTION-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

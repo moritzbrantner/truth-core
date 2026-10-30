@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PERFECTION-TRANSFER-EXACT-DELTA",
+  "rule": "typed_scope_comparison",
+  "meaning": "Compose the implication, residual projection and reconstruction into the exact scope decomposition under explicitly quantified decision parameters.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

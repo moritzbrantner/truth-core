@@ -1,0 +1,23 @@
+{
+  "id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "premise_statement_ids": [
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-RESIDUAL-PERFECTION-TRANSFER",
+  "inference_ids": [
+    "INF-CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD"
+  ],
+  "meaning": "Project the legacy principle to nonuniversal sources and self-effects.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-RESIDUAL-PERFECTION-TRANSFER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

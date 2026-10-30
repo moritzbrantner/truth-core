@@ -1,0 +1,17 @@
+{
+  "id": "STMT-SECONDARY-ONLY-TRANSFER-SURVIVES",
+  "paraphrase": "The four-being secondary-only interpretation jointly satisfies TransferModelBackground false and denies universal-scope transfer. Source 0 causes every other being at esse and possesses both perfections, but source 2 alone causes skill in all the others. This witnesses the missing inference under the listed shared background, not a sourced denial or whole-root countermodel.",
+  "lean_declaration": "TruthCore.Case.Catholicism.SecondaryOnlyTransferSurvives",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-IN-ACT"
+  ]
+}

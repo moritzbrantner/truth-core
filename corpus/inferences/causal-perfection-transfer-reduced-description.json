@@ -1,0 +1,15 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "input_statement_ids": [
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+  ],
+  "output_statement_id": "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+  "rule": "typed_composition",
+  "meaning": "For the supplied reduced description, apply restricted transfer using its independently supplied universal esse causation. Derive remoteness from first-being/no-component premises, then apply the retained full nominal premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

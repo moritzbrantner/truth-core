@@ -1,0 +1,12 @@
+{
+  "id": "INF-CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "input_statement_ids": [
+    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+    "STMT-RESIDUAL-PERFECTION-TRANSFER"
+  ],
+  "output_statement_id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+  "rule": "typed_scope_comparison",
+  "meaning": "Decide universal esse scope and effect/source identity, then cover all legacy transfer cases by the corresponding restricted or residual case.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

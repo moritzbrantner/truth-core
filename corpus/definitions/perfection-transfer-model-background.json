@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND",
+  "term": "shared causal transfer test background",
+  "definition": "TransferModelBackground b combines the existing genus and strict-ascent principles, actuality-to-being, formal/eminent preexistence, a maximum and universal source 0 with no distinct incoming esse cause, a particular supporter 1 of recipient 3 at esse, and secondary producer 2 of recipient 3 at skill. All four beings have both actualities. The two causal tables and ranks are explicitly defined in the linked Lean module. No temporal/modal interpretation, whole-root consistency, or metaphysical possibility is certified.",
+  "basis": "stipulative",
+  "note": "Scope and finite interpretation for the existing causal vocabulary; semantic grounding, precise source locators, examples, rejected interpretations and remaining obligations: docs/notes/causal-perfection-transfer.md. No new structural law is attributed to a source.",
+  "lean_declaration": "TruthCore.Case.Catholicism.TransferModelBackground"
+}
