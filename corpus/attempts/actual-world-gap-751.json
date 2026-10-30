@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-ACTUAL-WORLD-GAP-751",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-ACTUAL-WORLD-GAP-SCHEMA",
+    "STMT-ACTUAL-WORLD-GAP-CONTROLS",
+    "STMT-HISTORY-SELECTION-CERTIFICATE",
+    "STMT-ULTIMATE-ADEQUACY-COMPARISON"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Composed #467 histories, #736 selection, #733/#734 records and the #755 arena under one total-history question. Finding: local records do not leave the history unselected in every sense. The named table selects, and under the local record condition agrees with the total; with names erased it selects nothing. Two inconsistent bundles: rival, a reason true on all accessible worlds, entailment; and rival, contrastive closure, well-founded reasons. Failed discriminator: brute, ground and law all deny closure, and on the chain the internal and copy answers keep closure and the contingent PSR. In the fixture only ground has both the contingent PSR and an independent reason for the total, and it does not separate personal from impersonal or supernatural from natural. Rejected: treating the gap as a refutation of physicalism; treating Recorded as every member being caused; reading member reasons' coextension with the total as general; a world-selecting event. Oppy §§I, VI was reread for the restricted modality and shared-laws reply; no new claim was extracted. Not modelled: rivals sharing an initial segment, probabilistic explanation, temporal presence that varies under a fixed table. See docs/notes/actual-world-gap-751.md.",
+  "blocker": "An independently defended relevance or adequacy bridge remains open: why a reason must be independent of, entail, or separate the total, and how far closure extends (#750). Hume-Edwards reply is stated as MemberLift without a pinned source witness.",
+  "evidence": [
+    "ACTUAL-WORLD-GAP-SCHEMA",
+    "ACTUAL-WORLD-GAP-CONTROLS",
+    "OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
+    "OPPY-2020-NECESSITY-COMPARATIVE-COST"
+  ]
+}

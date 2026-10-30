@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-WORLD-GAP-FIXTURE",
+  "term": "shared answers fixture",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ActualWorldGap.case",
+  "definition": "case o k p fixes accessibility (o), the #735 causal form k (single, plural, branch, chain) and the answer p (brute, internal, copy, ground, law). Worlds are tag and bit. Members are tagged by world tag; edges are the tagged #735 edges. Under ground, one further being exists at every world with an edge to each member of the world's population. holdsAt, reasonFor and partOf give truth, reasons and recorded conjuncts.",
+  "note": "Analyst model, not a defended ontology. Rivals here are disjoint tagged copies, unlike branching rivals that share an initial segment. No predicate separates a personal ground from an impersonal one. Member reasons being coextensive with the total fact under internal is an incidental feature of this fixture, not a general result."
+}
