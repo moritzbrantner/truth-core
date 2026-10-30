@@ -1,0 +1,21 @@
+{
+  "id": "PSR-COLLAPSE-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-COLLAPSE-CORE",
+  "inference_ids": [
+    "INF-PSR-COLLAPSE-CORE"
+  ],
+  "meaning": "An axiom-free inconsistency result with deletion witnesses for #755. It proves no PSR and rejects no member. Interpretation and limits are in docs/notes/psr-strength-755.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}
