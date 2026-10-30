@@ -1,0 +1,32 @@
+{
+  "id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "premise_statement_ids": [
+    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-MOVER-PLURALITY-RESIDUE",
+  "inference_ids": [
+    "INF-FIRST-MOVER-PLURALITY-RESIDUE"
+  ],
+  "meaning": "From Q11 incommunicable individuation, the first-mover suppositum/nature adapter and every-perfection: any two distinct first movers have one act profile and different represented natures; at-most-one first mover is equivalent to FirstMoverActDeterminesNature and to FirstMoversShareNature. No first mover is produced and no premise is defended. The equivalences show those nature conditions are not independent of uniqueness given these three premises.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
+    "DISAMB-IN-ACT",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}
