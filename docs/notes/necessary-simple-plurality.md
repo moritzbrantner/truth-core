@@ -839,8 +839,9 @@ uniqueness does not establish its other-world presence, simplicity, divinity,
 or uniqueness of all dependent necessary beings. Composing the earlier
 necessary-ancestor/root results requires an actual same-witness relation/domain
 adapter; bare existence of some necessary bearer cannot identify it with this
-source. No such adapter is fabricated as an axiom. This remains the next
-composition question alongside independent defense of shared self-power.
+source. No such adapter was fabricated as an axiom. The following same-witness
+composition supplies an explicit conditional application; independent defense
+of shared self-power remains open.
 
 
 ### Same-witness ancestry composition
@@ -905,3 +906,56 @@ Other-world rootness, intrinsic adequate explanation, simplicity and God are
 not established. The same-witness formal connection is now supplied; independent
 warrant for common power, its through interface, local dependence/foundation
 and the actual interpretation remains open. No root-frontier premise closes.
+
+
+### Common-source strength audit
+
+The two original self-power premises imply a simpler structural condition:
+`CommonSelfThroughAt := ∃ c, ∀ x, through w x x → through w x c`.
+`ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE` proves this in the original unchanged
+Context by retaining the common power witness and applying the separate
+power-to-through interface. It does NOT infer original power facts back from
+through facts. The condition concerns every self-through bearer, not just
+ultimate candidates, and does not by itself assert actuality, necessity or
+uniqueness of the common candidate.
+
+`ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION` proves the exact comparison under
+these FOUR explicit background inputs: actual population, through coverage,
+source actuality and GLOBAL ultimate availability. With those inputs,
+
+`CommonSelfThroughAt m w ↔ UniqueUltimateSourceAt m w`.
+
+Forward, the existing unique-source proof can be interpreted with power-from
+set equal to through: the original ontology and through relation, and hence
+the ultimate-source conclusion, are literally unchanged. This proof-only
+reinterpretation establishes no facts about the original selfPowerFrom relation.
+Reverse, each self-through x has some actual ultimate through-source by global
+availability and source actuality. Unique-source status identifies every such
+source with the same witness s, giving through w x s. Neither direction assumes
+transitivity, antisymmetry, excluded middle or a case-exhaustion principle.
+
+This identifies the structural unity content used by the original pair of
+power premises. It does **not** show that the original power bundle is equivalent
+to uniqueness: those relations remain distinct and no converse power inference
+has been proved. It also does **not** establish this equivalence for the local
+ancestry composition, which deliberately lacks global ultimate availability.
+The latter theorem remains its separate checked nine-premise connection.
+
+Equivalence relative to background premises is not itself a diagnosis of
+circular reasoning: a premise can have independent reasons even if it entails,
+and is entailed by, a conclusion with other inputs. The audit says precisely
+what a proposed structural reformulation would still need independently
+justified. Merely renaming the common-through condition is no new defense of
+uniqueness, and merely sharing the predicate self-through supplies no common
+numerical bearer.
+
+Re-reading the materialized Tapp article, §3.2 pp.83–84 (S9b/S10) explicitly
+introduces the numerical witness and the power-to-through implication as the
+two metaphysical assumptions. §7 pp.92–93 describes their reliance on Anselmian
+metaphysics. This reading, together with the already pinned Monologion III
+paragraph adcmon-c3-d1e119, supplies the source of the commitment; it does not
+independently answer the different-whole-nature/primitive-individuation reply.
+No new source claim, stronger attribution, rival model or premise discharge is
+introduced by this audit. The next substantive source argument must defend
+numerical common-source status or a replacement principle independently,
+rather than repeating the now-characterized structural condition.

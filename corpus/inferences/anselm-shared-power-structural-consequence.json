@@ -1,0 +1,30 @@
+{
+  "id": "INF-ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+  "input_statement_ids": [
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH"
+  ],
+  "output_statement_id": "STMT-ANSELM-COMMON-SELF-THROUGH",
+  "rule": "typed-premise-strength-audit",
+  "meaning": "Retain the original common self-power witness and apply the original power-to-through interface pointwise. This derives the weaker common-through condition in the SAME unchanged Context. No converse power inference, uniqueness, actual existence or necessary being is derived by this two-premise result.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-COMMON-SELF-THROUGH",
+    "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-ANSELM-COMMON-SOURCE-STRENGTH",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH",
+    "STMT-ANSELM-COMMON-SELF-THROUGH",
+    "STMT-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+    "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Re-materialized Tapp article and read §3.2 pp83–84 plus §7 pp92–93. The former explicitly introduces the numerical common witness and power-transfer as metaphysical assumptions; the latter locates them in Anselmian metaphysics, not an independent refutation of distinct whole natures. Derived their through-only consequence without changing the Context. Proved that consequence equivalent to unique actual ultimate-source status under four explicit GLOBAL background premises (population,coverage,source actuality,ultimate availability), reusing the earlier unique-source proof. Rejected inferring original power facts from through, equating full power bundle with uniqueness, exporting the equivalence to the local ancestry theorem without global availability, and diagnosing circularity from equivalence alone. Full lake build passes; exact binding reports 744 bound results,2 existing pins,0 mismatches. Both new results pass Comparator and independent NanoDa with zero permitted axioms; both axiom reports are empty. Corpus/source manifest and generator checks pass. Incremental source verification requires zero live fetches, with all354 manifests checked offline; the existing Tapp witness was separately re-materialized and read for this audit. Root-route and reaching-root reports are byte-identical (11 routes,62 open IDs). Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. No source claim strengthened and no root premise discharged.",
+  "blocker": "Independently justify a numerical common source or a replacement unity principle against different-whole-nature/primitive-individuation alternatives. The formal strength characterization supplies no premise-truth warrant.",
+  "evidence": [
+    "TAPP-HVEP1-SHARED-SELF-POWER",
+    "TAPP-HVEP2-POWER-THROUGH",
+    "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+    "ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+  ]
+}

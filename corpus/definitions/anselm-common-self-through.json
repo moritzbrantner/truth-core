@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-COMMON-SELF-THROUGH",
+  "term": "common through-source of all self-through bearers",
+  "definition": "There exists c such that for every x, through w x x implies through w x c. c is the same candidate witness for all self-through bearers, not merely a common predicate. It is not asserted unique, actual or necessary by this definition. All self-through bearers are covered, including ones not assumed ultimate. No selfPowerFrom facts occur; this is a structural consequence of the two original power premises, not their identification.",
+  "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughAt",
+  "basis": "stipulative",
+  "note": "Source-free premise-strength audit reusing the existing Context through relation. No source interpretation or independent adequacy claim is added. See docs/notes/necessary-simple-plurality.md, common-source strength audit."
+}

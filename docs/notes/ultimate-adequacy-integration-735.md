@@ -1170,3 +1170,18 @@ scope are recorded in the same-witness section of
 `docs/notes/necessary-simple-plurality.md`. This connects conditional results;
 it discharges no philosophical premise and excludes no dependent necessary
 individual solely because that individual is necessary.
+
+
+### Exact unity content of the common-power route
+
+The common-source strength audit in the existing uniqueness note now separates
+original power facts from their through-only consequence. Under the earlier
+GLOBAL population/coverage/actuality/ultimate-availability background, that
+structural common-source consequence is equivalent to unique actual ultimate
+source status. This is an exact premise-strength comparison, not a new
+independent unity argument, a proof of circularity, or a claim that the full
+power bundle has only that strength. It does not import global availability
+into the local same-necessary-witness composition. The next philosophical work
+is to defend numerical common-source applicability against distinct-whole-nature
+individuation, not to rename the equivalent structural condition. No established
+root-premise change.

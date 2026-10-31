@@ -1,0 +1,23 @@
+{
+  "id": "STMT-ANSELM-COMMON-SELF-THROUGH",
+  "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughAt",
+  "paraphrase": "One same candidate c is a through-source for every self-through bearer at the selected world. Neither original self-power facts, uniqueness, actuality nor necessity of c is built into the statement.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-COMMON-SELF-THROUGH",
+    "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

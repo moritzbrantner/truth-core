@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+  "argument_id": "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.forgetPower",
+  "comparator_config": "results/ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Retain the original common self-power witness and apply the original power-to-through interface pointwise. This derives the weaker common-through condition in the SAME unchanged Context. No converse power inference, uniqueness, actual existence or necessary being is derived by this two-premise result."
+}

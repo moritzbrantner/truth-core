@@ -1,0 +1,32 @@
+{
+  "id": "INF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-ANSELM-SOURCE-ACTUALITY",
+    "STMT-ANSELM-ULTIMATE-AVAILABILITY"
+  ],
+  "output_statement_id": "STMT-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "rule": "typed-premise-strength-audit",
+  "meaning": "Under the four explicit GLOBAL background premises, common-through for all self-through bearers is equivalent to one unique actual ultimate source. Forward: instantiate the existing uniqueness proof with a proof-only power interpretation equal to through; the original ontology and through relation are unchanged, so the source conclusion is definitionally the same. No original selfPowerFrom facts follow. Reverse: ultimate availability gives each self-through bearer an actual ultimate source; uniqueness identifies it with the one same source. This is a strength audit, not independent justification or a proof of circularity. No equivalent-strength claim is made for the original power bundle or for the local ancestry theorem lacking global ultimate availability.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-COMMON-SELF-THROUGH",
+    "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

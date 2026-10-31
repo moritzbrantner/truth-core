@@ -1,0 +1,23 @@
+{
+  "id": "STMT-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughCharacterizationAt",
+  "paraphrase": "In the same context/world, a common through-source for all self-through bearers is equivalent to existence of a unique actual ultimate source. The result proving this equivalence retains actual population, coverage, source actuality and global ultimate availability. This is not an unconditional equivalence or an equivalence of the original power premises with uniqueness.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-COMMON-SELF-THROUGH",
+    "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}
