@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ANSELM-ULTIMATE-AVAILABILITY",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UltimateAvailableAt",
+  "paraphrase": "For any through w x y, some z satisfies UltimateThroughAt m w x z. This is the substantive EP+3 availability premise, not a proved termination or adequate-supply principle. It is not identified with actual WF, inductive Supply or borrowing Escape.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

@@ -738,3 +738,106 @@ common-principle step against the different-whole-essence reply, or give an
 independently justified replacement, then compose with an identity theorem
 applicable to the same actual candidates. Mere necessity, a common predicate,
 one necessary joint condition, or a restated uniqueness bridge will not do.
+
+## Direct ultimate-source reduction of the Tapp reconstruction
+
+### Primary reconstruction witness and scope
+
+`TAPP-UNIQUENESS-MONOLOGION-72-93` pins Christian Tapp, *The Uniqueness of God
+in Anselm's Monologion*, Logical Analysis and History of Philosophy17 (2014),
+72–93. The institutional author offprint is copyrighted; only metadata/hashes
+and analytical paraphrases are committed. Two fetches matched raw/extracted
+hashes. The complete11-physical-page, two-up article was materialized and read,
+including all sections and references. The definitions on journal89 were also
+visually checked against a local rendering of the pinned PDF after the web
+screenshot cache failed. Tapp is the primary source for his own reconstruction,
+not a substitute for the separately read Latin Anselm.
+
+Tapp distinguishes universal from distributive existence provision (§§2.2–2.5,
+75–79), treats the through-something conclusion as a premise (§2.6,79), and
+identifies incomplete case coverage and the problematic intermediate-provider
+exclusion in the first reconstruction (§§3–5,81–88). His revised §6,89–91
+introduces EP+ (ultimately through) as EP(x,y) with no distinct further source
+of y. He explicitly keeps ultimate availability EP+3 as a metaphysical premise.
+The source's complete-case claim is not an independently machine-checked result.
+Neither the retained availability premise nor this reading reopens a wholly
+derivative chain as adequate under the earlier cut requirement.
+
+### The direct derivation and exact reduction
+
+`Context` reuses the existence-PSR Model's reality and adds two independent
+relations: `through w target source` and `selfPowerFrom w bearer source`.
+Ordinary Causes and explains stay separate. An actual ultimate source has some
+through-target and no distinct source of its own at this world. The open
+coverage premise says each actual existent is through something.
+
+For any actual ultimate source y, coverage supplies a source z of y. Its
+ultimate condition forces z=y, so y is through itself. HVEP1 then supplies one
+same c as source of self-existence power for all such y; HVEP2 makes each y
+through c. Ultimate status forces c=y for every one of them. Any two are equal.
+`ANSELM-DIRECT-ULTIMATE-UNIQUENESS` checks this direct proof from just coverage,
+shared self-power and power-to-through. It needs no transitivity, antisymmetry,
+three-way case distinction, excluded middle or foundation input.
+
+This is not an independent philosophical defense of HVEP1/HVEP2, nor a claim
+that the retained bundle is globally minimal or its every member indispensable.
+No strict-weakening countermodel is advertised. The exact reduction is that
+those extra laws/case assumptions are absent from the checked theorem; the
+source's substantive numerical common-power commitment remains open.
+
+| Source commitment or proof input | Direct composition |
+| --- | --- |
+| EP1, both endpoints actual | Source-side actuality alone retained for existence; actual sources explicitly guarded in the conclusion |
+| EP2, transitivity | Not used |
+| EP3, antisymmetry | Not used |
+| EP4, actual existence implies through-something | Retained |
+| EP+3, ultimate availability | Retained for existence, not needed for at-most-one |
+| HVEP1, one shared source of self-existence power | Retained and separately source-bound to Tapp's reconstruction |
+| HVEP2, power-from implies through | Retained as a distinct, nondefinitional interface |
+| P4, exhaustive three-case distinction | Not assumed: every actual ultimate candidate already falls in the self-through case |
+| Actual population | Owner-accepted starting point, reused through STMT-PSR-POPULATED-AT |
+
+Relative to Tapp's displayed final proof, the explicit actuality guard must not
+be hidden: our existence theorem retains source-side EP1 from his §6 axiom list,
+even though his concluding enumeration does not list EP1 among its12 open lines.
+The source targets EP+ provision, not uniqueness of every arbitrary candidate
+providing something intermediately. We do not inherit the first reconstruction's
+Excl principle or suppress intermediate sources.
+
+`ANSELM-ACTUAL-ULTIMATE-EXISTENCE` combines actual population, coverage, source
+actuality and ultimate availability. `ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE`
+composes existence with at-most-one, keeping the same context and world and all
+six inputs. `ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE` identifies each target's
+local ultimate source with that unique witness, giving one actual source for
+every actual target at this world. This last step uses uniqueness, not a bare
+exchange of ∀∃ with ∃∀. Actual population also prevents vacuous universal-source
+uniqueness. The output uses Mathlib ExistsUnique.
+
+### Meaning and remaining philosophical application
+
+The ordinary intended meaning is existential being-through, including the
+source's nonproductive through-self mode. The original light/shining analogy
+and ordinary material/efficient cases illustrate different meanings, not
+undisputed actual instances of one universal ultimate-source relation. Our
+context imposes no causal structure by default. Source actuality, coverage,
+ultimate availability and the two power interfaces must each be justified for
+the intended real relation; ordinary examples do not establish their universal
+abstraction. Shared predication, one necessary joint condition and a repeatable
+universal are not automatically one numerically real power-source.
+
+The serious rival retains two independently grounded whole natures and denies
+the HVEP1 numerical unification or the HVEP2 transfer to through. Its logical
+availability is not a certificate of adequate explanation. Conversely a valid
+conditional proof is no evidence that those interfaces hold of reality. A
+non-bearer qualitative explanation also challenges whether this bearer-valued
+through vocabulary covers the relevant explanation at all. No new rival model
+or claim of metaphysical possibility is introduced.
+
+Most importantly, the new result proves **one actual ultimate source relative
+to through**, not one individual satisfying NecessaryAt. World-relative source
+uniqueness does not establish its other-world presence, simplicity, divinity,
+or uniqueness of all dependent necessary beings. Composing the earlier
+necessary-ancestor/root results requires an actual same-witness relation/domain
+adapter; bare existence of some necessary bearer cannot identify it with this
+source. No such adapter is fabricated as an axiom. This remains the next
+composition question alongside independent defense of shared self-power.

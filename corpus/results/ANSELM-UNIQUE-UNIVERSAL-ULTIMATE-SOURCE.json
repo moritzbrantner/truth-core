@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE",
+  "argument_id": "ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.uniqueUniversalSource",
+  "comparator_config": "results/ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose pointwise actual ultimate-source existence with the direct at-most-one result to identify every local source with the SAME actual witness, then prove uniqueness of the universal ultimate-source predicate. Retains the same six premises, including actual population to avoid vacuous universality. No illicit forall-exists to exists-forall swap, modal necessity or other-world scope is assumed."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-UNIVERSAL-ULTIMATE-SOURCE",
+  "term": "one actual universal ultimate source at a world",
+  "definition": "UniversalUltimateSourceAt m w y asserts y exists at w and every actually existing x at w satisfies UltimateThroughAt m w x y. UniqueUniversalUltimateSourceAt uses Mathlib ExistsUnique for this same predicate. All targets share this one witness, but no other-world causal scope, necessary existence or uniqueness of all necessary individuals is included.",
+  "basis": "stipulative",
+  "note": "Typed analyst consequence in the same context. Pointwise existence of sources does not license exchanging quantifiers by itself; the separately proved at-most-one condition identifies each local witness. See docs/notes/necessary-simple-plurality.md.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UniqueUniversalUltimateSourceAt"
+}

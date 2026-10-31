@@ -1,0 +1,26 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "TAPP-UNIQUENESS-MONOLOGION-2014",
+    "source_url": "https://www.kath.ruhr-uni-bochum.de/mam/ph-th/downloads/tapp_a26_2014_anselm_lahp.pdf",
+    "retrieved_at": "2026-10-31T12:31:37Z",
+    "sha256": "sha256:d3216eb7df4ea07bbd04e06a9709f8f6f173be041a77bfca56c4cd7fe3c814f5",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© mentis Verlag GmbH 2014, author offprint hosted on the institutional author site for personal use. No open license asserted. Copyrighted PDF/extracted text remain in ignored cache; metadata, hashes, locators and analytical paraphrases only committed."
+  },
+  "passages": [
+    {
+      "id": "TAPP-UNIQUENESS-MONOLOGION-72-93",
+      "locator": "Logical Analysis and History of Philosophy 17 (2014), pp.72–93, complete article and references; physical PDF pp.1–11, two journal pages per PDF page",
+      "claim_locator_prefixes": [
+        "§"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 11
+      },
+      "text_sha256": "sha256:62c0b328a716af24501d7fd8dc1f563cde6d819e1721db197d8e14d0e8b8f399"
+    }
+  ]
+}

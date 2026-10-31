@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UniqueUltimateSourceAt",
+  "paraphrase": "Exactly one actually existing bearer is an ultimate source at the selected world relative to through. The same predicate is used for existence and uniqueness; no uniqueness of every necessary being, other-world universality or divine attribute is claimed.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

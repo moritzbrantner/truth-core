@@ -1,0 +1,30 @@
+{
+  "id": "INF-ANSELM-ACTUAL-ULTIMATE-EXISTENCE",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-ANSELM-SOURCE-ACTUALITY",
+    "STMT-ANSELM-ULTIMATE-AVAILABILITY"
+  ],
+  "output_statement_id": "STMT-ANSELM-SOME-ULTIMATE-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "From accepted actual population, coverage supplies a through fact, ultimate availability supplies an ultimate source for the same initial target, and source-side factivity makes that source actual. No uniqueness, modal necessity, universal causal scope or independent adequacy is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

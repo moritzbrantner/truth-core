@@ -1,0 +1,32 @@
+{
+  "id": "INF-ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-ANSELM-SOURCE-ACTUALITY",
+    "STMT-ANSELM-ULTIMATE-AVAILABILITY",
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH"
+  ],
+  "output_statement_id": "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "Compose the two preceding derivations in the same context and world to obtain Mathlib ExistsUnique for actual ultimate sources. Retains all six explicit hypotheses including the owner-accepted population starting point. Removes the source reconstruction’s separate transitivity, antisymmetry and case-completeness inputs, but does not defend common self-power or ultimate availability or identify this source with a previously obtained necessary witness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

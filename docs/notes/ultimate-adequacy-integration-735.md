@@ -383,6 +383,29 @@ step are in the existing `docs/notes/necessary-simple-plurality.md` and the
 #697 candidate. A single necessary joint condition still does not identify its
 several necessary members with one individual.
 
+## Checked direct uniqueness route from shared self-existence power
+
+The Tapp reconstruction now has a shorter checked analyst derivation.
+`ANSELM-DIRECT-ULTIMATE-UNIQUENESS` needs through-something coverage, one shared
+self-power source and the separate power-to-through interface. Actual ultimate
+candidates must be through themselves by coverage and their no-distinct-source
+condition; both then equal the common power-source. Transitivity, antisymmetry,
+case exhaustion and WF are not inputs to this at-most-one theorem.
+
+The same-context existence composition retains actual population, source-side
+actuality and ultimate availability. The final
+`ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE` uses those six explicit premises to
+obtain exactly one actual ultimate source for every actual target at the
+selected world. It does not swap pointwise existential witnesses without the
+intervening uniqueness proof. The common-power and availability premises remain
+open; no independent premise truth or root-frontier discharge is claimed.
+
+This source is not yet identified with the earlier necessary witness. The
+actual same-relation/domain adapter and other-world necessity remain explicit
+composition questions. Exact source/typed premise comparison, the narrower
+actuality guard, semantic application and remaining alternative are in
+`docs/notes/necessary-simple-plurality.md`.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

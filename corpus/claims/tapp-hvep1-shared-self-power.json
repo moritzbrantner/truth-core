@@ -1,0 +1,24 @@
+{
+  "id": "TAPP-HVEP1-SHARED-SELF-POWER",
+  "statement_id": "STMT-TAPP-SHARED-SELF-POWER",
+  "source_id": "TAPP-UNIQUENESS-MONOLOGION-2014",
+  "locator": "§3.2 pp.83–84, HVEP1; §6 pp.89–90, premise22",
+  "interpretation": "Primary reading of Tapp’s own explicit global common-witness premise, represented at one selected world. This is the reconstruction’s stronger numerical common-power assumption, not a proof from shared predication and not a claim that Anselm literally states this modern typed formula.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

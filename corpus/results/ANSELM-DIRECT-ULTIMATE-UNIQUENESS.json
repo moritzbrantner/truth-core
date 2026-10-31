@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+  "argument_id": "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.atMostOne",
+  "comparator_config": "results/ANSELM-DIRECT-ULTIMATE-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Direct typed reduction: actual ultimate sources have no distinct through source. Coverage makes each source through itself; HVEP1 gives the same self-power source and HVEP2 gives through that source. Each root forces identity with it, hence with the other root. No transitivity, antisymmetry, three-case premise, population, ultimate availability or WF is used for this at-most-one result. The three philosophical inputs remain open."
+}
