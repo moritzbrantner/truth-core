@@ -247,3 +247,62 @@ made this HTTP submission slower overall despite faster warm elaboration.
 Recommendation: retain the persistent shared service and client binding checks,
 revise cold-request timeout guidance, and retain CLI diagnosis when a request
 times out. Do not restart a live session solely because observation timed out.
+
+
+## Exact direct-esse genus omission on the original #681 control
+
+`DIRECT-ESSE-GENUS-OMISSION-CONTROL` adds a conditional configuration result for
+#697: two actual selected roots coexist with ALL inputs of
+`TruthCore.Results.Causality.DirectEsseRootUniqueness.uniqueRoot` except
+`STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS` (ledger I). Explicit excluded middle
+is retained as the new result's input. This tests the exact direct-esse interface,
+not a renamed first-mover uniqueness theorem.
+
+The certificate imports the ORIGINAL four-being
+`NecessarySimplePlurality.jointControl` unchanged. It does **not** substitute the
+later five-being `PartFreePlurality` strengthening described above. The profile
+view keeps the identical old `ontic`; its selected `grounds` is the old
+`power.supportsEsse`, and all four modeled candidates are stipulated concrete.
+The cause-to-ground correspondence is checked for these same assigned fields,
+not asserted as a general metaphysical identification.
+
+The old model did not contain a `MoreIn` dictionary. The new parameter assignment
+is explicit: `moreIn r y x` requires both old `inAct y r` and old `inAct x r`, plus
+old `component y x`, i.e. `rank y < rank x`. Smaller old rank represents a higher
+grade in this assignment. This changes no old carrier, act, cause, support,
+composition, essence, esse or world field. It is not independent warrant that
+metaphysical perfection is dependency rank. Both roots are weak esse maxima;
+`left` is positively more-in-esse than the actual `instrument`, so the grade
+premise is not tested only with empty grade antecedents.
+
+| Exact retained input | Same-assignment witness |
+| --- | --- |
+| `STMT-COGITO-INHABITED-CONCRETE-WORLD` | Old actual `left`, stipulated concrete. |
+| `STMT-WHOLE-ROSTER-NOT-TRAPPED` | Old actual `left` is an incoming-edge-free source, contradicting the whole-roster Trap. |
+| `STMT-EVERY-CONTINGENT-GROUNDED-AT` | Vacuous: every original candidate exists at every world. No contingent effect is claimed. |
+| `STMT-EXCLUDED-MIDDLE` | Explicit supplied logical-floor hypothesis; no axiom is added. |
+| `STMT-EXISTING-IN-ACT-AT` | Every original candidate is in act in the SAME old esse respect. |
+| `STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND` | Old esse causes and old supportsEsse use the SAME component/rank assignment; sources are actual and concrete. |
+| `STMT-GRADES-HAVE-A-MAXIMUM` | Old `left` is maximal in every supplied respect under the newly supplied dictionary. |
+
+The SAME old `left` and `right` are distinct `ActualRoot profile false` witnesses.
+The imported `DirectEsseRootUniqueness.uniqueRoot`, supplied with the table's
+seven inputs and a hypothetical I, would make them identical. Its conclusion
+therefore fails here, and I fails in this exact assignment. This establishes an
+omission distinction for I relative to the retained direct-esse bundle, not
+minimality of the entire bundle or philosophical falsity of I. It adds a checked
+configuration connection without changing root-frontier premise truth.
+
+Original #681 roots enter the instrument/effect's composition. This control does
+not retain the later part-free condition, ledger L, or every premise of the full
+God-existence route; that route is not its target. Nor does it turn represented
+necessary root plurality into an adequately explained worldview, real
+metaphysical possibility, two Gods or a theorem about all necessary individuals.
+The #715 common-content/nature/individuation interfaces remain separate open
+questions. No second ontology or rival-model framework is introduced.
+
+Focused core/Solution Lean compilation, corpus consistency and whitespace checks pass;
+checks/notGenus/notUniqueRoot report no axioms. Frozen Challenge SHA256:
+`7477a5302b3d80e13e5dbfdd6987d1bb91e3ba01397a2b11671f2ebb19c11125`.
+Final integrated binding, Comparator and NanoDa certification are coordinator-owned;
+no source premise is discharged by this control.
