@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "input_statement_ids": [
+    "STMT-NECESSARY-CONCRETE-AT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "existential-conjunction-projection",
+  "meaning": "Logical weakening: the same actual necessary concrete witness gives the existing general actual necessary-bearer statement on the same Ontic and selected world. Drop only the concrete predicate; no source interpretation or philosophical premise is added. This does not confer concreteness on a different witness selected by downstream reasoning.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

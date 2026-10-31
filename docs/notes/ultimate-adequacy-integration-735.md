@@ -85,6 +85,39 @@ supplies the cut premise through the new equivalence. Thus the full cut route
 shares that nontrivial joint interpretation. Root-path membership remains unchanged. These are reusable off-root compositions to the
 existing necessary-concrete statement, with no metaphysical premise discharge.
 
+### Shared necessary-witness interface
+
+`NECESSARY-CONCRETE-TO-NECESSARY-BEARER` connects the existing
+`STMT-NECESSARY-CONCRETE-AT` conclusion to
+`STMT-KANT-CONVERSION-NECESSARY-WITNESS`. Both use the same `Ontic`, selected
+world, literal cross-world identity and `NecessaryAt`; the proof simply retains
+the witness's actual/necessary existence while dropping its concrete predicate.
+The statement IDs stay distinct because the converse would add concreteness.
+No metaphysical bridge, modality change or source attribution is needed.
+
+`NECESSARY-BEARER-FROM-BORROWING-ESCAPE` also composes the full cut route with
+that projection, retaining exactly its four premises. Necessary population is
+therefore supplied by the earlier proof instead of restated as an assumption.
+The corpus now exposes a usable outgoing argument from necessary concrete
+existence to the shared witness interface, which previously had no such edge.
+
+At the pre-adapter head, the general witness has nine direct consumers: the
+restricted Kant conversion result, the three necessary-underived lifting
+results, the common support/ordinary-causal source results, the common
+noncomposite result, and the actual/global underived essence-identity results.
+These remain conditional on their own other hypotheses. In particular a
+minimality theorem may select another necessary bearer, so this projection
+alone does not make its final witness concrete. The separate
+`NECESSARY-CONCRETE-UNDERIVED-COMPOSITION` retains concreteness through its
+subtype construction when that stronger conclusion is needed.
+
+The source-route audit found no registered argument concluding
+`STMT-EVERY-CONTINGENT-GROUNDED-AT` at the pre-adapter head. The existing q.3
+external-esse-cause result is not silently equated with that modal concrete
+application; its precise boundary is preserved below. This does not undo the
+cumulative consequence under contingent dependence, or turn an omitted-premise
+chain into an adequate account under the retained commitments.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

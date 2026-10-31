@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "certified-composition-and-logical-weakening",
+  "meaning": "Import the certified borrowing-cut necessary-concrete theorem and project its witness to the existing general necessary-bearer interface, rather than assuming necessary population anew. The actual population, borrowing-cut application, contingent concrete dependence and explicit excluded middle premises are retained unchanged. This makes the cumulative route usable by existing generic necessary-bearer arguments; it does not discharge their remaining assumptions or identify their selected witnesses with the initial concrete witness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

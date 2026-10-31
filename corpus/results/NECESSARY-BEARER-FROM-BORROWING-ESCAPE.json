@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "argument_id": "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryWitnessConnection.fromBorrowingEscape",
+  "comparator_config": "results/NECESSARY-BEARER-FROM-BORROWING-ESCAPE/comparator.json",
+  "status": "solution-present",
+  "description": "Import the certified borrowing-cut necessary-concrete theorem and project its witness to the existing general necessary-bearer interface, rather than assuming necessary population anew. The actual population, borrowing-cut application, contingent concrete dependence and explicit excluded middle premises are retained unchanged. This makes the cumulative route usable by existing generic necessary-bearer arguments; it does not discharge their remaining assumptions or identify their selected witnesses with the initial concrete witness."
+}
