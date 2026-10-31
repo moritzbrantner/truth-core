@@ -39,8 +39,13 @@ import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
 import TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution
 import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
+import TruthCore.Results.Causality.NecessaryFirstAttributes.Solution
 import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
 import TruthCore.Results.Causality.NecessaryRootFork.Solution
+import TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Solution
+import TruthCore.Results.Causality.NecessaryRootGodExistence.Solution
+import TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution
+import TruthCore.Results.Causality.NecessaryRootUniqueness.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
 import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution

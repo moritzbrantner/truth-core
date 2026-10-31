@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-UNIQUENESS",
+  "argument_id": "NECESSARY-ROOT-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootUniqueness.uniqueRoot",
+  "comparator_config": "results/NECESSARY-ROOT-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Import the whole-roster necessary-root result, retaining its same actual root. Its modal necessity supplies esse population through the explicit necessary-being-has-being bridge; the existing QuartaViaMaximumInBeing actualFork/actualCore results supply a maximum under grades-to-maximum and explicit EM. Contingent dependence plus EM makes any actual root necessary. Applying necessaryRootIsMaximumOfRoot separately to both roots identifies each with that SAME maximum, yielding unique actual root status. All nine philosophical/logical inputs remain explicit; no CauseMore, simply-prior, pure-act or naming assumption is used. This is an explicit-bundle uniqueness consequence, not independent premise defense or a least-bundle claim."
+}

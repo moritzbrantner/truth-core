@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-NECESSARY-ROOT-GOD-UNIQUENESS-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-GOD-IS-ONE",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused the existing supplied-root convergence proof rather than the older CauseMore argument. Inspected GodIsOne/GodIsMaximal dossiers and exact prior theorem types; source attribution unchanged. Frozen Challenge SHA256 fc17f0dc6e2e62eb1f539fb13a45493fc3690026b22cfc5c6498440450933ad1 before Solution. Focused Lean check passes. Same root n identifies every maximum; the explicitly retained GodIsMaximalInBeing converse puts any God candidate in that class. Equality transitivity yields the existing GodIsOne type. No maximum existence is needed for this universal conditional. Exact nine-input route replaces CauseMore with the explicit foundation/convergence bundle, without claiming a weaker or minimal overall bundle. It proves at most one God and not God existence, exactly one necessary individual, or source truth. No new claim, definition, relation or model.  Convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Coordinator integration passes full lake build (4275 jobs), exact binding (773 bound, 2 existing pins, 0 mismatches), and zero-permitted-axiom Comparator plus independent NanoDa for all six new results. Source manifests, existing bundle audits and generated imports/docs pass. Final policy sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. No philosophical premise truth is discharged. The GodIsOne route costs 8 with 9 direct inputs; existing routes retain cost 3. Its reachable union grows 6 to 16 via ten alternate dependencies, with none removed. This is a different sufficient bundle, not a proof of global weakening.",
+  "blocker": "Independent warrant and application of the retained foundation, necessity/causal convergence and God-to-maximality interfaces remain open. God existence is handled by separate explicit-premise compositions.",
+  "evidence": [
+    "NECESSARY-ROOT-GOD-UNIQUENESS",
+    "NECESSARY-ROOT-IS-MAXIMUM",
+    "WHOLE-ROSTER-NECESSARY-CONCRETE"
+  ]
+}

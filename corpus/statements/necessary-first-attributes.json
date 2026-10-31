@@ -1,0 +1,41 @@
+{
+  "id": "STMT-NECESSARY-FIRST-ATTRIBUTES",
+  "paraphrase": "One and the same actual concrete root at w exists at every world accessible from w, has no distinct simply-prior predecessor, is in potency in no supplied respect, is not Composite, and is a ComponentOf nothing. Rootness concerns the selected relation at w. The scope of Composite and ComponentOf must be justified independently; no positive InAct perfection, essence/esse identity, uniqueness, maximum, universal causal coverage or God identification is asserted.",
+  "lean_declaration": "TruthCore.Causality.NecessaryFirstAttributes.NecessaryFirstAttributesAt",
+  "definition_ids": [
+    "DEF-NECESSARY-FIRST-ATTRIBUTES",
+    "DEF-NECESSARY-FIRST-BEING-PURE-ACT",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-PURE-ACT",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-SIMPLE",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-IN-ACT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NECESSARY",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE"
+  ]
+}

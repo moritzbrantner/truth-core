@@ -1,0 +1,19 @@
+{
+  "id": "INF-NECESSARY-ROOT-GOD-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+  ],
+  "output_statement_id": "STMT-GOD-IS-ONE",
+  "rule": "constructive-proof",
+  "meaning": "The whole-roster theorem supplies one actual concrete necessary root. The imported supplied-root convergence helper identifies every maximum, if any, with this same root. Under the existing God-is-maximal-in-being converse, every God candidate therefore equals that root, so any two God candidates equal each other. This proves the existing at-most-one GodIsOne statement, not God existence or uniqueness of all necessary individuals. No maximum-existence, grades, CauseMore, pure-act, simply-prior or forward God-naming premise is used. All nine listed premises remain open commitments except the separately recorded logical floor; no independent philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

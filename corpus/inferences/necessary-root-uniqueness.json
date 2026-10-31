@@ -1,0 +1,19 @@
+{
+  "id": "INF-NECESSARY-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-GRADES-HAVE-A-MAXIMUM"
+  ],
+  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "rule": "constructive-proof",
+  "meaning": "Import the whole-roster necessary-root result, retaining its same actual root. Its modal necessity supplies esse population through the explicit necessary-being-has-being bridge; the existing QuartaViaMaximumInBeing actualFork/actualCore results supply a maximum under grades-to-maximum and explicit EM. Contingent dependence plus EM makes any actual root necessary. Applying necessaryRootIsMaximumOfRoot separately to both roots identifies each with that SAME maximum, yielding unique actual root status. All nine philosophical/logical inputs remain explicit; no CauseMore, simply-prior, pure-act or naming assumption is used. This is an explicit-bundle uniqueness consequence, not independent premise defense or a least-bundle claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
