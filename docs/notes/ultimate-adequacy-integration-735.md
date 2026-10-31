@@ -64,6 +64,24 @@ contains its proof changes; the merge is integrated here by `f2053934`.
 Next concrete step: continue the remaining classified attribute connections.
 No additional owner premise selection has been received.
 
+Current bounded continuation (#826): compose the reduced eleven-input
+intellect/will result with act-priority and either act/potency exclusivity or
+strict selected priority. The intended endpoint retains its complete old
+witness tuple and adds PureAct for THAT SAME individual. Two separate
+existential results must not be conjoined by identifying their witnesses.
+This is thirteen explicit inputs; no new truth selection or global minimality
+is claimed. Implementation and final certification are pending.
+
+The adversarial positive control is being assembled on the unchanged later
+five-being PartFreePlurality carrier, not the original four-being #681 model.
+The proposed new view retains its ontic/ground/act/potency/component fields
+and assigns the previously unspecified intellect/will predicates to root.
+Both roots should retain the attributes while nonroots retain positive
+potency. Each alternative route has thirteen inputs; retaining BOTH
+replacement conditions jointly gives fourteen inputs, including supplied EM. This would certify compatibility and a uniqueness boundary, not
+real-world explanatory adequacy; contingent coverage in this all-present
+ontology remains vacuous. No unverified control is counted as a result.
+
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
 and the existing first-pass attempt. Source-search outcome is now succeeded
