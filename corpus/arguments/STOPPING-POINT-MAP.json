@@ -1,0 +1,25 @@
+{
+  "id": "STOPPING-POINT-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-STOPPING-POINT-MAP",
+  "inference_ids": [
+    "INF-STOPPING-POINT-MAP"
+  ],
+  "meaning": "Which uniform tests each named stopping point passes, and what any stop must give up. Conditional consequence and analyst-built models only; interpretation and limits are in docs/notes/stopping-points-746.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-DEMAND-STANCE",
+    "DEF-EXEMPTION-STANDING",
+    "DEF-STOP-TERMINAL",
+    "DEF-STOP-WORK-TESTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-BRUTE-TERMINAL-UNREASONED"
+  ]
+}

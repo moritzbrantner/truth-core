@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-ROUTE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-ROUTE-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Finite-model and natural-number-time constructions, and direct proofs of the two quantified implications.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

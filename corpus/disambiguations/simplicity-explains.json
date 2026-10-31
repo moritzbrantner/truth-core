@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SIMPLICITY-EXPLAINS",
+  "term": "explains (admitted reason; strictly sufficing reason)",
+  "sense_definition_ids": [
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-REASON-STRICTLY-SUFFICES"
+  ],
+  "resolution": "Every use of 'explains' in BranchCosts and the condition clauses of RootExposure is admission as a reason. Strict sufficiency is a separate named relation. The first clause of BranchCosts fires only on strict sufficiency; ground admits a necessary reason for a contingent target without it. So the collapse argument cannot pass from 'the necessary act explains the effect' to 'the act necessitates the effect' without a premise, and ground's admitted reason excludes no rival world, so a reply that drops strict sufficiency there has not supplied contrast by that reason. Which sense a source or worldview intends is not decided here."
+}

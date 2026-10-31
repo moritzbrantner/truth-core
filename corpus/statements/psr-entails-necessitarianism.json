@@ -1,0 +1,10 @@
+{
+  "id": "STMT-PSR-ENTAILS-NECESSITARIANISM",
+  "paraphrase": "The principle of sufficient reason entails that all truths are necessary truths.",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-PSR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BCCF-DERIVATIVE-REPLY"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "HARNACK-HOD-I-II-3-N76-CHURCH-SAYINGS-LATER",
+  "statement_id": "STMT-MATT-16-18-18-17-SAYINGS-LATER",
+  "source_id": "HARNACK-HOD",
+  "basis": "translation",
+  "locator": "I, ch. II §3, note 76",
+  "interpretation": "The note, on the designation of the Christian community as ἐκκλησία, says that this designation originates perhaps with Paul, 'though that is by no means certain', and that 'the words of the Lord, Matt. XVI. 18; XVIII. 17, belong to a later period'. Read as exactly that dating of the two sayings. The note does not say later than what; it follows the sentence on Paul. It gives no argument and does not mention Matthew 16.19, 18.18, John 20.23 or John 21.15-17; nothing is attributed to Harnack about those verses. Rejected as an attribution: an earlier draft read the note as saying that Jesus did not give the ekklēsia its hearing and excluding power. The note does not state that; its subject is the designation, so a wording-only reading (the term is late, the conferral might be Jesus') is not excluded by the note, even though §2 (claim HARNACK-HOD-I-II-2-NO-NEW-COMMUNITY-PREACHING-COMMISSION) denies that Jesus founded a community. The event-level proposition is the separate, unattributed STMT-JUDGING-POWER-NOT-GIVEN-BY-JESUS. Harnack is a historian's reconstruction; the claim records that a pinned source states the dating, not that it is true. Basis: Buchanan's English translation named in the passage manifest.",
+  "status": "formalized",
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

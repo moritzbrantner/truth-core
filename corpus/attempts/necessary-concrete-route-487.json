@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-NECESSARY-CONCRETE-ROUTE-487",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-NECESSARY-ROUTE-CONTROLS",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#487. Prior delivery checked first: NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED and NECESSARY-ROOT-CONTROLS (#553) deliver the conditional and omissions of dependence, well-foundedness and population, with relation-type, counterpart and accessibility controls; closed PR #528's branch codex/487-necessary-concrete-root was not merged and its vocabulary is superseded by Profile, so it was not revived. Its issue-comment strengthening (same witness necessary and root) is delivered here as a clause of the controls. Question: which route statement does a necessary concretum supply? Searched the paraphrases of the direct premises of the 11 root arguments: none mentions necessity or contingency, matching the blocker of ATTEMPT-WF-REVERSE-DILEMMA-553. Without bridges nothing: one model has two necessary actual roots and fails grades-have-a-maximum, something-is-moved and the first-being premise. These share no predicate with Profile, so that independence is cheap and tests only those three premises. With bridges one connection was found: via the tertia via's convergence, at modal readings of its parameters, the necessary root yields STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING. Rejected as a claim of progress: that conclusion costs seven open non-logical premises for one, so no route cost falls. Finding: with two bridges covering every actual concretum in place of NecessaryBeingHasBeing and the two necessity-cause bridges, the same premise follows from mere asymmetry of the selected relation, with no root, necessity, contingency or inhabitedness premise, and a witness has a contingent maximum. So under those stronger bridges that derivation uses neither rootness nor necessity. Rejected reading: identifying Possible with accessibility as source fidelity; it is recorded as a parameter reading. Also certified: rootness is world-relative; a begins-to-exist law does not give the closing premise over a past with no first moment. Not attempted: Pruss, Oppy and Craig witnesses listed on #487; no source claim is made.",
+  "evidence": [
+    "NECESSARY-ROOT-IS-MAXIMUM",
+    "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+    "NECESSARY-ROUTE-CONTROLS",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "NECESSARY-ROOT-CONTROLS",
+    "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS"
+  ],
+  "blocker": "The closing premise EveryContingentGroundedAt and restricted well-foundedness have no defence for any real relation; the four bridges are open; a route premise needing de re necessity was not found, so the necessary-being milestone does not lower a route cost. Whether a route should gain a necessity-consuming premise is a modelling question for the owner, not a proof gap."
+}

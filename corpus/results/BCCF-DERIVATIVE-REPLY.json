@@ -1,0 +1,9 @@
+{
+  "id": "BCCF-DERIVATIVE-REPLY",
+  "argument_id": "BCCF-DERIVATIVE-REPLY",
+  "challenge_module": "TruthCore.Results.Explanation.BCCFDerivative.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.BCCFDerivative.Solution",
+  "theorem": "TruthCore.Results.Explanation.BCCFDerivative.derivativeReply",
+  "comparator_config": "results/BCCF-DERIVATIVE-REPLY/comparator.json",
+  "status": "solution-present"
+}

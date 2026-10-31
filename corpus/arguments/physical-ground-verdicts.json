@@ -1,0 +1,38 @@
+{
+  "id": "PHYSICAL-GROUND-VERDICTS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PHYSICAL-GROUND-VERDICTS",
+  "inference_ids": [
+    "INF-PHYSICAL-GROUND-VERDICTS"
+  ],
+  "meaning": "Verdicts on fixed analyst-built models; none is shown metaphysically possible. Containment: a mental and a bodily ground with one switch setting have one causal table; counting every respect formally excludes both grounds, counting only esse keeps both, and the classifications with mental or with bodily each keep one, oppositely; the classification by something else having the respect purely keeps both with no optional row, only the mental ground with a simple mind, only the bodily ground with a simple body, and neither with both. Route: on the root, the positive table has the five structural premises, a maximum, q.14 a.1, q.19 a.1, intellect and will; deleting each structural premise, the q.14 a.1 premise or the maximum (on an endless scale) leaves the others and no intellect. Bearers: one witness per deleted member of the bearer bundle other than excluded middle. State: varying has state facts differing between rival outcomes, net selection at 0 and 1, a contingent state fact, and no reason-closed account of the target; oneWay has one state, net selection at 0 and not at 1. Capacity: ground has a necessary being with a capacity under a supplied response, law has no necessary being and no capacity under any response, and they have one net-selection verdict under one favouring. The #697 part-free rival survives, and a conceivability control. Ladder: five routes on one carrier share Signature, so one necessity profile, one capacity and one esse-causal row from the root: noMaximum has the structural premises and q.14 a.1 with no maximum and no intellect; compositeRoot is a composite matter-form maximum, with no cause of itself, no uniting cause and no intellect; simpleImpersonal is a noncomposite, not matter-form maximum with the structural premises, q.14 a.1 false and no intellect; willless has intellect, q.19 a.1 false and no will; classicalRoute has intellect and will. Coverage: powers has something at each accessible world; rotating does too, with no necessary being; law does not; the source of ground has no reason. ground has a contingent target with a reason that holds at a world lacking the target; idle has a necessary being, a contingent target and no reason for it. One existence table is necessary at the root on a narrow frame and not on a wide one. acting has the marks of a choice, and the bridge from marks to a flagged source holds at the true flag and fails at the false one. The coverage facts consult no attribute row, by construction. This does not show the rival or the classical ground exists, that any explanandum is answered adequately, or any root premise.",
+  "definition_ids": [
+    "DEF-PHYSICAL-GROUND-SIGNATURE",
+    "DEF-PHYSICAL-GROUND-LADDER",
+    "DEF-EFFECT-CONTAINMENT-MODES",
+    "DEF-INDEPENDENTLY-PURE",
+    "DEF-PHYSICAL-BEARERS-COMPOSITE",
+    "DEF-GROUND-STATE-FACTS",
+    "DEF-SOMETHING-NECESSARILY",
+    "DEF-MARKS-REQUIRE-PERSON",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-INTERVENTION-RESPONSE-CAPACITY",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-ALTOGETHER-IMMATERIAL",
+    "DEF-HAS-INTELLECT",
+    "DEF-HAS-WILL",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS",
+    "DEF-EXPLANATORY-CHOICE-MARKS",
+    "DEF-EXPLANATORY-NET-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL-GROUND",
+    "DISAMB-IN-ACT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-EXPLANATORY-CHOICE"
+  ]
+}

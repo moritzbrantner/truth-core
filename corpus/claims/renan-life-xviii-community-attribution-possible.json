@@ -1,0 +1,15 @@
+{
+  "id": "RENAN-LIFE-XVIII-COMMUNITY-ATTRIBUTION-POSSIBLE",
+  "statement_id": "STMT-COMMUNITY-ATTRIBUTION-OF-CHURCH-POWERS-POSSIBLE",
+  "source_id": "RENAN-LIFE-OF-JESUS",
+  "basis": "translation",
+  "locator": "ch. XVIII, paragraph 'The germ of a church', note 11",
+  "interpretation": "Renan writes that Jesus 'confided to the Church the right to bind and to unbind ..., to remit sins, to reprimand, to warn with authority, and to pray with the certainty of being heard favorably', with note 11 citing 'Matt. xviii. 17, and following; John xx. 23', and goes on: 'It is possible that many of these words may have been attributed to the master, in order to give a warrant to the collective authority which was afterward sought to be substituted for that of Jesus. At all events, it was only after his death that particular churches were established'. Read as stating that possibility only. Limits, from the whole of chapter XVIII: Renan is not a message-only rival. The chapter opens by saying that Jesus 'laid with rare forethought the foundation of a church destined to endure', and the same paragraph says that the idea of the power of men in association was 'doubtless derived from Jesus'. He does not deny that any named power was given; he says nothing there about literary independence, the criterion of multiple attestation, Matthew 16.19 (note 11 does not cite it) or John 21.15-17. That the possibility, if it obtained for binding and for remitting alike, would explain the two strands without a gift of Jesus is this corpus's use of it against STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION, not Renan's argument. Basis: the unnamed English translation of the pinned ebook.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

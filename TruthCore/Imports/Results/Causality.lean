@@ -37,6 +37,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+import TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution
 import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
 import TruthCore.Results.Causality.NecessaryRootFork.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
@@ -71,6 +72,7 @@ import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
 import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.UnderivedNonComposite.Solution
+import TruthCore.Results.Causality.UnderivedRootRoute.Solution
 import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution

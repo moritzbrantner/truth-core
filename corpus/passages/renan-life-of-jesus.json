@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "RENAN-LIFE-OF-JESUS",
+    "source_url": "https://www.gutenberg.org/files/16581/16581-8.txt",
+    "retrieved_at": "2026-10-30T23:48:25Z",
+    "sha256": "sha256:caa047bac4d6baeb8cce51a975be70ec5dcfb25b5bdf1836f40b3e84a6813f6e",
+    "encoding": "iso-8859-1",
+    "language": "eng",
+    "translation": {
+      "translator": "Not named in the ebook",
+      "year": "Not stated in the ebook; Vie de Jésus was published in 1863",
+      "edition": "The Life of Jesus, Project Gutenberg ebook 16581, plain-text file 16581-8.txt"
+    },
+    "wayback_url": "https://web.archive.org/web/20260909032632id_/https://www.gutenberg.org/files/16581/16581-8.txt",
+    "wayback_sha256": "sha256:caa047bac4d6baeb8cce51a975be70ec5dcfb25b5bdf1836f40b3e84a6813f6e",
+    "license": "Project Gutenberg metadata: public domain in the USA; Project Gutenberg license and territorial notice in the ebook. Only hashes and a short incipit committed. The plain-text file is pinned rather than the generated HTML, whose bytes and anchors change on regeneration."
+  },
+  "passages": [
+    {
+      "id": "RENAN-LIFE-XVIII",
+      "locator": "The Life of Jesus, whole ebook file; chapter XVIII, 'Institutions of Jesus', read in full",
+      "claim_locator_prefixes": [
+        "ch. XVIII,"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:37716e2e5109c033c605b9207a326c91dd7b3f8f03837ec9f6786c04132adc53",
+      "incipit": "The Project Gutenberg EBook of The Life of Jesus, by Ernest Renan"
+    }
+  ]
+}

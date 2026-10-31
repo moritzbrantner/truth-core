@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.BorrowedExercise.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.BorrowedExercise.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.BorrowedExercise.certificate"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

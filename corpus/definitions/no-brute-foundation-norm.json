@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-BRUTE-FOUNDATION-NORM",
+  "term": "no-brute-foundation norm",
+  "definition": "NoBruteFoundation A w says no foundation at w is a contingent truth with no reason at w. NoUnreasonedFoundation A w removes the restriction to contingent stops: every foundation at w has some reason at w, possibly itself. Both are open candidate norms: no result asserts either, and each is tested against named models.",
+  "basis": "stipulative",
+  "note": "Analyst-stated as the candidate named in the owner follow-up on #746. No source is claimed; a sourced formulation would need a pinned or bibliographic witness.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.NoBruteFoundation"
+}

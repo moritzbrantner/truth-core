@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-STOPPING-POINTS-746",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-STOPPING-POINT-MAP",
+    "STMT-NO-BRUTE-FOUNDATION-NORM-TEST"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Applied one set of modal and coverage tests to a brute terminus, a necessary ground, a contingent law, an unexplained whole, necessary stops and a stop-free domain, and tested the owner's no-brute-indispensable-foundation norm. Findings: two inconsistent cores with deletions; a fork for a terminal fact doing work on a contingent truth (brute, contingent self-reason, or noncontingent with nonnecessitating work); in the named models the necessary ground fails necessitating work, ground false fails unrestricted coverage, ground true passes it by a self-reason, and the target copy of ground false also has that self-reason. Rejected: reading brute as lacking evidence (the norm's verdict and support vary independently); treating the norm as excluding brute truths (twin roots and an isolated brute fact satisfy it); a bare preference for more explained facts (the target copy gains under it); reading WorkNecessitates as the right contrastive standard (no such claim is certified: non-necessitating and hyperintensional accounts reject it). Classification: no internal inconsistency of any rival was found; the cores are conditional constraints whose members are all open, and each survivor pays a stated cost it may knowingly accept. Not attempted or open: item 4 of the owner follow-up, a specific source-supported rational preference principle; no source was read, so nothing is attributed. Not modeled: personal agency, stability of Humean laws over time, joint rather than alternative reasons, actual-world designation (#751).",
+  "blocker": "No independent justification for either norm, for necessitation as a requirement on reasons, or for a principled line for self-reasons is certified. A source-supported preference principle remains open (#750 owns the adequacy norm).",
+  "evidence": [
+    "STOPPING-POINT-MAP",
+    "NO-BRUTE-FOUNDATION-NORM-TEST",
+    "PSR-COLLAPSE-CORE",
+    "PSR-STRENGTH-MAP",
+    "PSR-SELF-APPLICATION-STANCE-MAP"
+  ]
+}

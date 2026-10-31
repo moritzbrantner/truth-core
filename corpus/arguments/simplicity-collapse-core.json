@@ -1,0 +1,21 @@
+{
+  "id": "SIMPLICITY-COLLAPSE-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SIMPLICITY-COLLAPSE-CORE",
+  "inference_ids": [
+    "INF-SIMPLICITY-COLLAPSE-CORE"
+  ],
+  "meaning": "In any frame, no act token and effect have the token performed at every accessible world, strict efficacy of the token for the effect, and a contingent effect; no clause concerns the bearer's necessity and no frame condition is assumed. #462's cross-world stability, causal realization, sound relata and an actual output give strict efficacy. For a contingent effect, the token is unperformed at some accessible world or performed at an accessible world lacking the effect. Each member fails alone in a named two-world model with a necessary source and the token performed at the actual world false: optionalAct, inefficaciousAct, necessitarianAct. A bearer necessary at a world, wherever whose existence the token is performed, gives act necessity, and optionalAct has a necessary bearer without that condition. A sound description rigid at a world gives act necessity; in optionalAct a sound description covering the effect denotes nothing at the world without it, and in perWorldTokens a sound description denotes a token at every accessible world while no token has act necessity. With act necessity read of one token and efficacy of another the bundle needs their identity: if they are equal it is inconsistent, and twoTokens has act necessity of one, strict efficacy of the other and a contingent effect, each clause failing of the other token. Worlds are modal alternatives, tokens are overlay values, and models show only satisfiability. It does not establish that divine simplicity entails any member, that any member is true, or any root premise.",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-CREATIVE-ACT-DESCRIPTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREATIVE-ACT-IDENTITY",
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+  ]
+}

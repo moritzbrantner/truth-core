@@ -1,0 +1,12 @@
+{
+  "id": "STMT-JUDGING-POWER-NOT-GIVEN-BY-JESUS",
+  "paraphrase": "Open, unattributed event-level proposition: Jesus did not himself give or promise, to his disciples or to their community (the ekklēsia), the power reported in Matthew 18.17 (to hear a member's case and to treat one who refuses to hear it as a Gentile and tax collector). No source is cited for it. It is stronger than the dating STMT-MATT-16-18-18-17-SAYINGS-LATER, which does not say that no such power was given. It says nothing about binding and loosing (Matthew 16.19, 18.18), the keys (16.19), forgiving and retaining sins (John 20.23) or shepherding (John 21.15-17).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.JudgingPowerNotGiven",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

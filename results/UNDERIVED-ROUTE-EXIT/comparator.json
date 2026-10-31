@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UnderivedRootRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedRootRoute.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UnderivedRootRoute.underivedRouteExit"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

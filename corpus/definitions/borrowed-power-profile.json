@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BORROWED-POWER-PROFILE",
+  "term": "borrowed, retained and self-exercised power under a supplied profile",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Borrowed",
+  "definition": "A profile cap s e says the bearer of event e has the power for that exercise at scenario s; occurrence is the exercise. A Lender at s is an admitted record with at least one contributor, all contributors occurring at s, and at the actual scenario also exercised. Lent means some lender has e as effect. Borrowed: at every allowed scenario with the power a lender is present; it holds vacuously of an event whose power is absent at every allowed scenario. Retained is its negation: the power at some allowed scenario with no lender. Instrument is Borrowed with occurrence and an actual lender; Secondary is Retained with occurrence and an actual lender; SelfExercising is occurrence with no actual lender; OwnActive is occurrence with Retained; Essential is the power at every allowed scenario.",
+  "note": "Analyst vocabulary, not a reading attributed to a source. It mentions no source, termination or well-foundedness. Retained says nothing of how the bearer got the power, so it is not underived; SelfExercising says no record in the exercise lends, not that the exercise is uncaused or explained. All labels are relative to one scenario space and one supplied profile for one selected respect. docs/notes/borrowed-exercise-741.md gives examples, counterexamples, near neighbours, structural properties and rivals; what would source it is a pinned reading fixing what a power is at a scenario where it is not exercised."
+}

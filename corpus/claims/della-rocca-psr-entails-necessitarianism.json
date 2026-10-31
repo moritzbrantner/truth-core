@@ -1,0 +1,11 @@
+{
+  "id": "DELLA-ROCCA-PSR-ENTAILS-NECESSITARIANISM",
+  "statement_id": "STMT-PSR-ENTAILS-NECESSITARIANISM",
+  "source_id": "DELLA-ROCCA-PSR-2010",
+  "locator": "pp.1-10: p.1 with footnote 2 for the PSR; pp.9-10 with footnote 13 for the entailment",
+  "interpretation": "Della Rocca tends to think van Inwagen and Bennett are right about this entailment, and says a clear-headed proponent of the PSR can be expected to embrace necessitarianism. 'Tend to think' is kept: the claim is his tentative agreement, and it does not state that necessitarianism is true. He is willing to go along with their assumption that no contingent proposition is a sufficient reason for itself, and his footnote's PSR gives a 'sufficient reason' on which a necessary reason would make its target necessary.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-PSR"
+  ]
+}

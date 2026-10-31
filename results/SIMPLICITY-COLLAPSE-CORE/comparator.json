@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.SimplicityCollapse.Challenge",
+  "solution_module": "TruthCore.Results.Modal.SimplicityCollapse.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.SimplicityCollapse.core"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

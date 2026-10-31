@@ -1,0 +1,21 @@
+{
+  "id": "STMT-STOPPING-POINT-MAP",
+  "paraphrase": "A contingent truth, no brute contingent truth at that world, factive and necessitating reasons, and well-founded reasons at that world cannot stand together, and each member is deleted by a named model, well-foundedness by two. Unrestricted fact coverage, factive reasons, well-founded reasons and a truth cannot stand together, with no exemption for necessary facts, and each of those members is deleted by a named model. Under factivity, a fact all of whose work necessitates and that is a reason for a contingent truth is contingent; if it is also terminal, and no contingent fact is its own reason, it is brute. Under factivity and given decisions of its contingency and of having a reason, a terminal fact that is a reason for a contingent truth is brute, or contingent with a self-reason, or noncontingent with work that does not necessitate; these exclude each other and each has a named witness. One table evaluates being terminal, having a reason, being contingent, necessitating work and independent work, or the applicable part, at a brute terminus, a necessary ground with and without a self-reason, a contingent law, an unexplained infinite whole with no work, and two necessary stops; a named cofinite domain has no terminal fact and no aggregate of its contingent truths. Under the conjunct law, an aggregate of all contingent truths, a contingent truth, factive, necessitating and independent reasons cannot stand with no brute contingent truth, and under the conjunct law and necessitating, independent reasons a conjunct is no reason for a contingent aggregate. A necessary fact whose work is uniformly independent is no reason for a necessary fact, itself included; a necessary ground with a self-reason and the target copy of the same ground without one both have the ground as its own reason. One stance is selective relative to being terminal and restricted relative to being contingent on one pair of facts. No test is asserted as the right demand and no model is claimed metaphysically possible.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-DEMAND-STANCE",
+    "DEF-EXEMPTION-STANDING",
+    "DEF-STOP-TERMINAL",
+    "DEF-STOP-WORK-TESTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-BRUTE-TERMINAL-UNREASONED"
+  ],
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.StoppingMap"
+}

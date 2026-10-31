@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STOP-FOUNDATION",
+  "term": "indispensable foundation",
+  "definition": "Supplied A w S f says f is in S or has a reason at w supplied from S; one reason suffices at each step, so reasons are alternatives and joint requirements are not represented. Strict A w s t says some reason for t is supplied from s. Foundation A w s t says s is terminal, Strict A w s t holds, and t is not supplied from any terminal fact other than s. SingleStop A w t says any two terminal facts supplying t are the same. Indispensable means only this: it is not a modal claim that t could not have had another source.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #746. A second terminal fact that also supplies the target removes the status from both, as the twin-roots model shows.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.Foundation"
+}

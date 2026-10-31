@@ -30,6 +30,7 @@ import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NamedPotentialCauser
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
+import TruthCore.Causality.NecessaryConcreteRouteBridge
 import TruthCore.Causality.NecessaryConcreteUnderived
 import TruthCore.Causality.NecessaryRootFork
 import TruthCore.Causality.NecessarySimplePlurality
@@ -51,5 +52,6 @@ import TruthCore.Causality.TemporalPrimaVia
 import TruthCore.Causality.UnderivedCommonSource
 import TruthCore.Causality.UnderivedEssenceEsse
 import TruthCore.Causality.UnderivedNonComposite
+import TruthCore.Causality.UnderivedRootRoute
 import TruthCore.Causality.UniqueFeedback
 import TruthCore.Causality.WorldSourceRegress

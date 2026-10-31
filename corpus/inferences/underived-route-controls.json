@@ -1,0 +1,9 @@
+{
+  "id": "INF-UNDERIVED-ROUTE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-UNDERIVED-ROUTE-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Finite-model and natural-number constructions, and direct proofs of the two quantified implications. Each premise is needed, in that omitting it alone can defeat the conclusion in the encoded semantics, and the premises give neither unity nor a ground entailing its effect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DEF-DELLA-ROCCA-PSR",
+  "term": "PSR and necessitarianism (Della Rocca)",
+  "definition": "PSR: for each thing (object, state of affairs, or whatever) that exists or obtains, there is an explanation of its existence, a reason that it exists; alternatively, for each truth there is an explanation of its truth (p.1 with footnote 2). The scope is not restricted to contingent things. Footnote 13 treats 'an explanation, a sufficient reason' as one term and takes a necessary R sufficient for P to make P necessary. Necessitarianism: all truths are necessary truths (p.9). The cited pages give no analysis of explanation or of the modality.",
+  "basis": "sourced",
+  "claim_ids": [
+    "DELLA-ROCCA-PSR-ENTAILS-NECESSITARIANISM"
+  ]
+}

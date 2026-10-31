@@ -1185,3 +1185,83 @@ into the local same-necessary-witness composition. The next philosophical work
 is to defend numerical common-source applicability against distinct-whole-nature
 individuation, not to rename the equivalent structural condition. No established
 root-premise change.
+
+
+## Outstanding PR integration: common branch and remaining interfaces
+
+Owner instruction on 2026-10-31: incorporate the outstanding open PRs. All eight
+older PR heads are now composed on `research/lean-existential-self-actualization-20261031`,
+following merged #807. The separate dependent-necessary scope experiment was
+preserved in a named Git stash while this integration is validated; it is not
+part of the delivered integration proof set. Current next work is the independent
+numerical-unity defense and the preserved literal-necessity scope check, not
+another survey of already classified regress/brute omission models.
+
+| Input PR | Checked argument cluster and connection | Boundary retained |
+| --- | --- | --- |
+| #780 | BORROWED-EXERCISE-CERTIFICATE: actual exercise, power profiles and supply/descent forks | Modal borrowing, actual lending and adequate existential grounding are different; no bridge to Anselm's numerically shared self-power follows from the label power. |
+| #782 | NECESSARY-ROOT-IS-MAXIMUM, MAXIMUM-FIRST-FROM-NECESSARY-ROOT, NECESSARY-ROUTE-CONTROLS: connect the actual-root vocabulary to the case route | Identity with any maximum is conditional on a maximum's existence; the result does not produce a maximum. The bridge applications remain open. |
+| #785 | NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED, UNDERIVED-ROUTE-EXIT, UNDERIVED-ROUTE-CONTROLS: alternative actual-to-all-world-underived route | NecessarySupportIsPresent and ActualSupportersConcrete are explicit extra applications. This is an alternative to the earlier necessary-support union route, not an implication from bare modal necessity. |
+| #784 | PHYSICAL-GROUND-CORE, PHYSICAL-GROUND-VERDICTS: put impersonal physical and classical attribute packages over shared explananda | Maximum, simplicity, immateriality, intellect, will and selection each need the stated separators; necessity alone supplies none of them. |
+| #783 | SIMPLICITY-COLLAPSE-CORE, SIMPLICITY-ROOT-EXPOSURE, SIMPLICITY-BRANCH-COSTS: compose rigid-act and explanatory-branch costs | Necessary act, strict efficacy and contingent effect are a joint conflict. Mere necessary bearerhood does not imply necessary act; our mixed joint-condition rule does not identify the internal act with that joint condition. |
+| #770 | STOPPING-POINT-MAP, NO-BRUTE-FOUNDATION-NORM-TEST: compare all termini with one stated standard | A self-reason is terminal only absent a distinct reason. Weak token coverage and being through oneself are not independently sufficient explanation. Necessary-source reasons are not exempted. |
+| #776 | BCCF-DERIVATIVE-REPLY: primary source readings plus the derivative-facts restriction test | A ground of a conjunction need not ground each conjunct. This does not make one ingredient a complete ground or equate Dasgupta's substantive/autonomous distinction with the analyst's D predicate. |
+| #774 | CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION: separate Stage 3 report/event application | Dating of a saying is not event-level denial; the family-level attestation bridge remains an open historical application, not evidence for necessary existence. |
+
+These source/argument notes remain authoritative for each cluster:
+`borrowed-exercise-741.md`, `physical-ground-468.md`, `simplicity-collapse-555.md`,
+`stopping-points-746.md`, `bccf-sources-365.md` under this directory, and
+`docs/founding-authorization-source.md`; the two #487 records retain their exact
+model/premise comparison in their Lean comments, definitions and attempts.
+The current owner instruction to incorporate existing outstanding PRs includes
+the previously held #783; it does not supply truth of its philosophical inputs.
+
+### New actual path to the root, not a premise discharge
+
+The graph now composes today's existing
+`ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT` with #782's route:
+
+`STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE → STMT-ACTUAL-GROUNDING-WF`
+`→ MAXIMUM-FIRST-FROM-NECESSARY-ROOT → STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`
+`→ the existing Catholicism route`.
+
+Each arrow abbreviates an existing inference application WITH ITS ENTIRE
+premise bundle; no implication from the single displayed input is advertised.
+This makes the necessary-existence vocabulary usable on an actual case path.
+It is not independent warrant for borrowing Escape, contingent dependence or
+the new relation/scope bridges. The route's controls explicitly show why the
+stronger bridges can do work without the necessity milestone; their efficacy
+must not be credited to modal necessity alone.
+
+Compared with main after #807, all eleven route costs remain
+31,31,32,36,38,39,39,39,40,40,41. The reaching-root open-premise set changes
+62 → 67 because the alternative first-being derivation exposes its dependencies:
+remove STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING; add
+STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE,
+STMT-EVERY-CONTINGENT-GROUNDED-AT,
+STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS,
+STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND,
+STMT-NECESSARY-BEING-HAS-BEING, and
+STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY.
+ActualGroundingWF is already conditionally derived from borrowing Escape, so
+Escape is the open leaf here rather than the WF statement listed by #782 at
+its older base. The larger union is the dependency cost of exposing an
+alternative argument, not a new refutation or a worsening of the cheapest proof.
+
+### Source and review reconciliation
+
+#776 and today's §9 work used the SAME Dasgupta DOI, URL and byte-identical PDF
+(raw SHA256 9f20250621cca2ab202f5fe26a1edd08eed872c0db3761e90b34666f28b47472).
+The duplicate source file was removed after retaining its journal citation and
+footnote29 provenance note in the existing source record. Both passage IDs and
+all text/raw hashes stay intact. The full-article witness binds the existing
+§9 claims through prefix §9; the pp381–393 witness binds the separate §§1–6
+conjunction reading. Thus each claim resolves exactly one pinned witness;
+source identity is not inferred from similar wording and distinct readings
+are not merged.
+
+The fixed P1s from older #770/#776/#774 reviews are preserved: terminality is
+qualified, source-specific senses are linked, and the report/event record names
+both actual bridging premises. The combined revision requires its own fresh
+review and complete binding/Comparator/NanoDa checks. No older review receipt
+alone certifies this integrated head.

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STOP-WORK-TESTS",
+  "term": "work tests on a stop",
+  "definition": "WorkNecessitates A w s says everything s is a reason for at w is true at each accessible world where s is true. WorkIndependent A w s says nothing s is a reason for at w agrees with s at every accessible world. NecessaryFact A w f says f is true at every world accessible from w. These are modal tests only. They do not establish relevance, and a hyperintensional or non-necessitating account of reasons may reject them.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #746. WorkNecessitates restricts the clause of DEF-PSR-REASON-NECESSITATING to one stop at one world. WorkIndependent differs from DEF-PSR-REASON-INDEPENDENT by binding necessary targets too.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.WorkNecessitates"
+}

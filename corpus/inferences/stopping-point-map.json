@@ -1,0 +1,9 @@
+{
+  "id": "INF-STOPPING-POINT-MAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STOPPING-POINT-MAP",
+  "rule": "model-construction",
+  "meaning": "Prove the two cores, the transfer lemma and the fork generally, reuse the #755 collapse theorem, and construct or reuse the named models and evaluate the same tests on each.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

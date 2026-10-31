@@ -756,12 +756,12 @@
       "path": "corpus/disambiguations/cause.json",
       "status": "inspected",
       "classification": "reviewed_semantic_note",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md. Integration re-review for outstanding PR #782: the added paragraph names the two explicit open interfaces from cause of necessity and simple priority into actual concrete grounding. It preserves moving, perfection-causation, priority and Ontic.Causes as distinct and adds no identification, source attribution or structural law to the audited bundle.",
       "before": {
         "sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "aec33da624bc5c9069aadccceea3d0a2b9bc2ce838342046f8ad19b7d05d784b"
+      "reviewed_sha256": "38055ce91bd6dada07af40cf5e0a8133b23ca1dc1be84b93871c98aaa1047968"
     },
     {
       "kind": "disambiguations",
@@ -899,12 +899,12 @@
       "path": "corpus/disambiguations/order-of-being.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Re-reviewed after #719 appended verdict (4) on the maximum principle at esse: the addition is a further per-premise verdict that changes no earlier verdict and no sense used by this audited result.",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Re-reviewed after #719 appended verdict (4) on the maximum principle at esse: the addition is a further per-premise verdict that changes no earlier verdict and no sense used by this audited result. Integration re-review for outstanding PR #782: the appended paragraph accurately says its three route results take MoreIn as a free relation and assume no order interpretation. All four prior per-premise verdicts, source readings and open application burdens are retained; no audited theorem type or order premise changes.",
       "before": {
         "sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "7ef31a5caea8ce4699461407c1f55677610a330619edaa58c08fd71339a0533f"
+      "reviewed_sha256": "65a42b499a9fb047f5c2b19e4fbc78496d872b32a8953b8cf15d0c08538fa2a9"
     },
     {
       "kind": "claims",

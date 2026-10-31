@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-IS-MAXIMUM",
+  "argument_id": "NECESSARY-ROOT-IS-MAXIMUM",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.necessaryRootIsMaximum",
+  "comparator_config": "results/NECESSARY-ROOT-IS-MAXIMUM/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms. One necessary actual root is necessary per se in the modal reading and identical with every maximum in being, if any exists. All non-logical premises are open; no root change from this result."
+}
