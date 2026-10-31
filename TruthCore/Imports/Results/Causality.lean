@@ -72,7 +72,9 @@ import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 import TruthCore.Results.Causality.RootIntellectWill.Solution
 import TruthCore.Results.Causality.RootIntellectWillOmission.Solution
+import TruthCore.Results.Causality.RootIntellectWillReduced.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
+import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
 import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
@@ -80,6 +82,8 @@ import TruthCore.Results.Causality.SelectedAncestry.Solution
 import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 import TruthCore.Results.Causality.SourceForest.Solution
 import TruthCore.Results.Causality.SourceWitness.Solution
+import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
+import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
 import TruthCore.Results.Causality.SupertaskOscillation.Solution

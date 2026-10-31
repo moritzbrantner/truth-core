@@ -1,0 +1,43 @@
+{
+  "id": "STMT-STRICT-PRIORITY-PURE-ACT-CONTROLS",
+  "paraphrase": "On the unchanged original four-being #681 carrier and DirectEsseGenusOmissionControl.profile, two explicit assignments each satisfy the other six inputs (EM retained as the theorem input). First keep old act/potency and add only a simple-priority self-loop at the nonroot instrument: same-respect exclusivity and act-priority hold, while irreflexivity fails. Second keep strict component priority and old potency but stipulate act in every respect: irreflexivity and act-priority hold, while exclusivity fails at instrument/drive. The distinct-priority-to-actual-ground bridge is checked for both assignments; its distinctness guard excludes the added self-loop. Population, whole-roster non-trapping and contingent-ground coverage reuse the exact old profile. Contingent coverage is vacuous in its all-present ontology. Thus neither replacement condition implies the other even with the remaining six interfaces. Fixed dictionary within each comparison; no claim that the two assignments have identical primitive valuations. These formal joint configurations are not metaphysical possibility, an adequate explanation, independent truth of either condition or a global route minimality claim.",
+  "lean_declaration": "TruthCore.Causality.StrictPriorityPureAct.Controls.Separation",
+  "definition_ids": [
+    "DEF-NECESSARY-FIRST-BEING-PURE-ACT",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-PURE-ACT",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-STRICT-SIMPLE-PRIORITY",
+    "DEF-STRICT-PRIORITY-PURE-ACT-CONTROLS",
+    "DEF-DIRECT-ESSE-GENUS-OMISSION-CONTROL",
+    "DEF-NECESSARY-SIMPLE-JOINT-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-IN-ACT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NECESSARY",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-NECESSARY-SIMPLE-PLURALITY"
+  ]
+}

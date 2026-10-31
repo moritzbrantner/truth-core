@@ -1,0 +1,13 @@
+{
+  "id": "INF-STRICT-PRIORITY-PURE-ACT",
+  "input_statement_ids": [
+    "STMT-NECESSARY-FIRST-BEING-FIRST",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-STRICT-SIMPLE-PRIORITY"
+  ],
+  "output_statement_id": "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
+  "rule": "constructive-proof",
+  "meaning": "Three-input tail on the SAME profile/world/relation: consume the existing actual necessary first witness, act-priority and irreflexivity. The full argument retains the original five first-being inputs, seven total. Reuse NecessaryFirstBeing.necessaryFirst under its unchanged five inputs, preserving its actual concrete necessary root n. If n has potency in respect r, the unchanged act-priority reading gives y simply prior to n. Firstness forces y=n; irreflexivity then contradicts this self-priority. Derive the exact existing no-potency endpoint for the SAME n without same-respect act/potency exclusivity. Seven inputs replace only STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT by STMT-STRICT-SIMPLE-PRIORITY; the other six are unchanged. No transitivity, global well-foundedness, finite ancestry, positive actuality, uniqueness, maximum or God naming is used. This is a conditional alternative configuration, not a premise discharge, global weakening or minimality claim. No source reading or reality correspondence is newly established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

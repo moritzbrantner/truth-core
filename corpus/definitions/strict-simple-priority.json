@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRICT-SIMPLE-PRIORITY",
+  "term": "irreflexivity of the selected simple-priority relation",
+  "definition": "Standard Lean/Mathlib Std.Irrefl PriorSimply on the SAME candidate carrier and simple-priority argument used by act-priority and firstness: \u2200 x, \u00ac PriorSimply x x. No new relation is introduced. Strict here means only no self-priority, not a strict total order.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.StrictPriorityPureAct.StrictSimplePriority",
+  "note": "OPEN framework assumption, no historical attribution or independent defense. Ordinary dependency-order examples motivate considering no self-priority but do not justify metaphysical scope; feedback and mixed act/bearer relations are not silently excluded or identified. Existing simple-priority meaning and priority-to-actual-ground correspondence remain unchanged and open. Controls compare formal assignments only; they do not establish that coexistence of act/potency or self-priority is philosophically admissible."
+}

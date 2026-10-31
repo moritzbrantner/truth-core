@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.StrictPriorityPureActControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.StrictPriorityPureActControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.StrictPriorityPureActControls.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

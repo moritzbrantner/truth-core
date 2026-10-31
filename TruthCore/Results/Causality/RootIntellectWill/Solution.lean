@@ -20,6 +20,37 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 
 open TruthCore.Causality.RootIntellectWill
 open TruthCore.Case.Catholicism (IsSimple RemoteFromAll)
+/-- Public structural tail for the existing six-input corpus inference.
+Preserve the supplied existential witness; this introduces no new reading. -/
+theorem ofNonlimitation {W B P R : Type} (m : Profile W B) (w : W)
+    (p : TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile B P R)
+    (PriorSimply ComponentOf : B → B → Prop) (Composite MatterForm HasIntellect HasWill : B → Prop)
+    (hEM : ExcludedMiddle)
+    (hRoot : NecessaryRootWithoutLimitingPrincipleAt m w p Composite PriorSimply)
+    (hKinds : MatterFormAndEsseEssenceAreCompositionsReading MatterForm Composite p.essenceOf p.esseOf)
+    (hNoComponent : NoComponentIsFirstBeingReading ComponentOf PriorSimply)
+    (hIntellect : ImmaterialIsIntellectualReading MatterForm HasIntellect ComponentOf)
+    (hWill : WillFollowsIntellectReading HasIntellect HasWill) :
+    NecessaryRootIntellectWillAt m w p PriorSimply ComponentOf Composite MatterForm HasIntellect HasWill := by
+  obtain ⟨n, hr, hn, hNoLimit⟩ := hRoot
+  have hSimple : IsSimple Composite n := fun h => hNoLimit (Or.inl h)
+  have hFirst : IsFirstBeing PriorSimply n := by
+    intro y hy
+    rcases hEM (y = n) with hEq | hNe
+    · exact hEq
+    · exact (hNoLimit (Or.inr (Or.inr ⟨y, hNe, hy⟩))).elim
+  have hIdentity : p.esseOf n = p.essenceOf n := by
+    rcases hEM (p.esseOf n = p.essenceOf n) with hEq | hNe
+    · exact hEq
+    · exact (hNoLimit (Or.inr (Or.inl hNe))).elim
+  have hNotMatter : ¬ MatterForm n := fun h => hSimple ((hKinds n).1 h)
+  have hRemote : RemoteFromAll ComponentOf n :=
+    fun y hy => hNoComponent n y hy hFirst
+  have hUnderstanding := hIntellect n hNotMatter hRemote
+  exact ⟨n, hr, hn, hIdentity, hSimple, hFirst, hNotMatter, hRemote,
+    hUnderstanding, hWill n hUnderstanding⟩
+
+
 theorem necessaryRootIntellectWill {W B P R : Type} (m : Profile W B) (w : W)
     (p : TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile B P R)
     (PriorSimply ComponentOf : B → B → Prop) (Composite MatterForm HasIntellect HasWill : B → Prop)
@@ -38,25 +69,11 @@ theorem necessaryRootIntellectWill {W B P R : Type} (m : Profile W B) (w : W)
     (hIntellect : ImmaterialIsIntellectualReading MatterForm HasIntellect ComponentOf)
     (hWill : WillFollowsIntellectReading HasIntellect HasWill) :
     NecessaryRootIntellectWillAt m w p PriorSimply ComponentOf Composite MatterForm HasIntellect HasWill := by
-  obtain ⟨n, hr, hn, hNoLimit⟩ :=
+  have hRoot :=
     TruthCore.Results.Causality.RootWithoutLimitingPrinciple.necessaryRootWithoutLimitingPrinciple
       m w p PriorSimply ComponentOf Composite hPop hWhole hDep hEM hExisting hEsse
       hExhaustive hNoSelfCause hPrior hPosterior hOther
-  have hSimple : IsSimple Composite n := fun h => hNoLimit (Or.inl h)
-  have hFirst : IsFirstBeing PriorSimply n := by
-    intro y hy
-    rcases hEM (y = n) with hEq | hNe
-    · exact hEq
-    · exact (hNoLimit (Or.inr (Or.inr ⟨y, hNe, hy⟩))).elim
-  have hIdentity : p.esseOf n = p.essenceOf n := by
-    rcases hEM (p.esseOf n = p.essenceOf n) with hEq | hNe
-    · exact hEq
-    · exact (hNoLimit (Or.inr (Or.inl hNe))).elim
-  have hNotMatter : ¬ MatterForm n := fun h => hSimple ((hKinds n).1 h)
-  have hRemote : RemoteFromAll ComponentOf n :=
-    fun y hy => hNoComponent n y hy hFirst
-  have hUnderstanding := hIntellect n hNotMatter hRemote
-  exact ⟨n, hr, hn, hIdentity, hSimple, hFirst, hNotMatter, hRemote,
-    hUnderstanding, hWill n hUnderstanding⟩
+  exact ofNonlimitation m w p PriorSimply ComponentOf Composite MatterForm HasIntellect HasWill
+    hEM hRoot hKinds hNoComponent hIntellect hWill
 
 end TruthCore.Results.Causality.RootIntellectWill

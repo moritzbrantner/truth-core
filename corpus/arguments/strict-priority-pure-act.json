@@ -1,0 +1,52 @@
+{
+  "id": "STRICT-PRIORITY-PURE-ACT",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-STRICT-SIMPLE-PRIORITY"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
+  "inference_ids": [
+    "INF-NECESSARY-FIRST-BEING-FIRST",
+    "INF-STRICT-PRIORITY-PURE-ACT"
+  ],
+  "meaning": "Reuse NecessaryFirstBeing.necessaryFirst under its unchanged five inputs, preserving its actual concrete necessary root n. If n has potency in respect r, the unchanged act-priority reading gives y simply prior to n. Firstness forces y=n; irreflexivity then contradicts this self-priority. Derive the exact existing no-potency endpoint for the SAME n without same-respect act/potency exclusivity. Seven inputs replace only STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT by STMT-STRICT-SIMPLE-PRIORITY; the other six are unchanged. No transitivity, global well-foundedness, finite ancestry, positive actuality, uniqueness, maximum or God naming is used. This is a conditional alternative configuration, not a premise discharge, global weakening or minimality claim. No source reading or reality correspondence is newly established. The argument graph explicitly reuses the five-input first-being inference before its three-input strict-priority tail.",
+  "definition_ids": [
+    "DEF-NECESSARY-FIRST-BEING-PURE-ACT",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-PURE-ACT",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-STRICT-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-IN-ACT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NECESSARY",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE"
+  ]
+}

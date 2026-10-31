@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.necessaryRootWithoutLimitingPrinciple"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
