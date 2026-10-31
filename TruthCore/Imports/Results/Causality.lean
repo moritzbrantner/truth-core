@@ -70,6 +70,8 @@ import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+import TruthCore.Results.Causality.RootIntellectWill.Solution
+import TruthCore.Results.Causality.RootIntellectWillOmission.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
