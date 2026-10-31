@@ -1,0 +1,19 @@
+{
+  "id": "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+  "paraphrase": "Some concrete individual existing at w has no actual concrete ground under the selected relation at w, exists at every world accessible from w, is necessary per se in the modal reading, and is identical with whatever is maximal in being. It does not assert that anything is maximal in being, and it says nothing about other worlds' grounds, simplicity, intellect or God.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.NecessaryRootIsMaximumAt",
+  "definition_ids": [
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "argument_id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.maximumFirstOfNecessaryRoot",
+  "comparator_config": "results/MAXIMUM-FIRST-FROM-NECESSARY-ROOT/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms: whatever is maximal in being has nothing other than it simply prior to it, from restricted well-foundedness, the closing premise, the genus principle, two tertia via bridges and two bridges into the selected relation. Seven open non-logical premises for one; no discharge."
+}

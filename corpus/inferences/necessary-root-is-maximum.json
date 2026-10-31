@@ -1,0 +1,18 @@
+{
+  "id": "INF-NECESSARY-ROOT-IS-MAXIMUM",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+  "rule": "constructive-proof",
+  "meaning": "Take a witness that is an actual root and necessary. The bridge makes it necessary per se in the modal reading, since a cause of its necessity from elsewhere would be an actual concrete ground. The tertia via's convergence identifies a necessary per se being with every maximum in being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+  "paraphrase": "Open bridge, not attributed to any source: at the reading world w, whatever is simply prior to something other than itself is concrete, exists at w and stands in the profile's selected relation at w to it. A non-concrete or absent simply prior thing would falsify it.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.SimplyPriorIsActualConcreteGround",
+  "definition_ids": [
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}
