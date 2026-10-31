@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCENARIO-NECESSARY-CONCRETE-AT",
+  "term": "necessary existing individual under the original Scenario concrete predicate",
+  "definition": "Some SAME rigid individual satisfies the supplied Scenario concrete predicate, exists at the selected world, and exists at every accessible world. The original concrete predicate is world-independent. This asserts no causal capability beyond that supplied interpretation, uniqueness, sourcehood, intrinsic explanatory adequacy or divine attribute.",
+  "basis": "stipulative",
+  "note": "Exact existing Scenario.NecessaryConcreteAt endpoint. The existing BruteFoundationBoundary.NecessaryConcreteAt uses a different profile type and is not silently substituted. concrete is a supplied B\u2192Prop; no identification with causal capability, physicality, existential independence or modal causal activity is made. A separate registered logical projection retains the same Ontic and same witness while dropping only its concreteness conjunct.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.NecessaryConcreteAt"
+}

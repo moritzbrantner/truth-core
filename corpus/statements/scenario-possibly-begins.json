@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SCENARIO-POSSIBLY-BEGINS",
+  "paraphrase": "OPEN, unattributed existing Scenario premise: some accessible complete history satisfies the independently supplied beginning predicate and contains an existing contingent individual satisfying the original concrete predicate. No first transition, temporal or causal consequence is derived merely from this definition.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.PossiblyBeginsAt",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

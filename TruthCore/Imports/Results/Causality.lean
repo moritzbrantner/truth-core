@@ -39,6 +39,7 @@ import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.JointGroups.Solution
+import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution
@@ -72,6 +73,7 @@ import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
+import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
 import TruthCore.Results.Causality.SelectedAncestry.Solution
 import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 import TruthCore.Results.Causality.SourceForest.Solution
