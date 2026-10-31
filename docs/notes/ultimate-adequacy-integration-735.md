@@ -9,7 +9,10 @@ checks and current-head review without findings (reviewed head
 successor audit commit is `b4fae115`; verified implementation `afe46c04` adds
 the eleven-input same-root three-horn connection on the same research branch.
 Full build, binding (781 bound, two existing pins, zero mismatches), zero-axiom
-Comparator and independent NanoDa passed. Publication/review remain pending.
+Comparator and independent NanoDa passed. Delivery is [PR #817](https://github.com/moritzbrantner/truth-core/pull/817),
+head `cd240b133151839da167e50298aeeed8f00bd50a`. Current-head review completed
+without findings; CI run `41223817438` has passed the new-result shard, corpus
+and explorer checks, with the library-wide check still running.
 The new endpoint costs10/direct11; God/Catholic/unique-root unions66/73/14 and
 all existing route costs are unchanged. It discharges no philosophical premise. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
 proves equality of its represented essence/esse under eight explicit inputs,
