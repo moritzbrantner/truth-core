@@ -1,0 +1,15 @@
+{
+  "id": "INF-ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS",
+  "input_statement_ids": [
+    "STMT-NECESSARY-FIRST-BEING-FIRST",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+  ],
+  "output_statement_id": "STMT-ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "rule": "constructive-proof",
+  "meaning": "Alternative eight-input composition to the EXACT existing NecessaryRootWithoutLimitingPrincipleAt endpoint. Import NecessaryFirstBeing.necessaryFirst with its five existing inputs, keeping the SAME actual concrete necessary first n. Component priority and a distinct component in every composite exclude Composite n. Existing composition-kinds includes p.esseOf n≠p.essenceOf n→Composite n; explicit retained EM therefore yields equality of those SAME represented maps. Firstness excludes distinct predecessors; these three exclusions refute the existing limiting-principle disjunction. Relative to the old eleven-input no-limitation route, remove ExistingInActAt, EsseCauseIsActualConcreteGround and both q3a4 causal-dichotomy/no-self-cause readings, but ADD the existing composition-kinds reading. This is a different sufficient bundle, not a globally weaker bundle. No actuality, efficient-esse causal or metaphysical representation interface is silently derived. No premise truth or root frontier is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ROOT-INTELLECT-WILL-REDUCED",
+  "argument_id": "ROOT-INTELLECT-WILL-REDUCED",
+  "challenge_module": "TruthCore.Results.Causality.RootIntellectWillReduced.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootIntellectWillReduced.Solution",
+  "theorem": "TruthCore.Results.Causality.RootIntellectWillReduced.necessaryRootIntellectWill",
+  "comparator_config": "results/ROOT-INTELLECT-WILL-REDUCED/comparator.json",
+  "status": "solution-present",
+  "description": "Eleven-input composition to the EXACT existing NecessaryRootIntellectWillAt endpoint. First consume ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS, then import the public RootIntellectWill.ofNonlimitation helper implementing the EXISTING INF-ROOT-INTELLECT-WILL six-input structural tail. The old fifteen-input theorem delegates to that same helper with its original frozen type unchanged. Remove exactly ExistingInActAt, EsseCauseIsActualConcreteGround and the two q3a4 causal-dichotomy/no-self-cause statements from the old fifteen inputs; add NONE. Keep the same actual concrete necessary root, represented essence/esse identity, noncomposition, firstness, matter-form exclusion, remoteness, intellect and will. The already retained composition-kinds premise supplies nonidentity-to-composition; ledger L still supplies remoteness from composition of others, followed by the still-open q14/q19 readings. The existing original-model L omission checks a stronger fourteen-input background; reducedOmissionInputs projects its exact ten-input non-L subset without changing any carrier, fields or attribute assignments. This certifies deletion of four explicit inputs for the same conditional conclusion, not global logical strictness, minimality or independent truth of the eleven remaining commitments. No God, omniscience, free will, complete explanatory adequacy or philosophical closure is claimed."
+}
