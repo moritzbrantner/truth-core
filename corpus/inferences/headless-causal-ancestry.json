@@ -1,0 +1,11 @@
+{
+  "id": "INF-HEADLESS-CAUSAL-ANCESTRY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-HEADLESS-CAUSAL-ANCESTRY",
+  "rule": "constructive-proof",
+  "meaning": "Use Mathlib ReflTransGen.head to extend any cone member by every incoming edge, and ReflTransGen.refl to recover predecessor availability at the selected node from its own headless cone. Explicit EM converts absence of sources to positive predecessor availability; the converse is constructive. Package these derived statements as one universal structural result. The separate actual_no_sources_iff_headless helper applies existing WorldSourceRegress.actualGraph and actualSource_iff to the same Ontic.Causes/world and existing-node subtype, with no identification of causation and grounding. Only logical-floor STMT-EXCLUDED-MIDDLE is an input. No choice, WF, acyclicity, irreflexivity, finite branching, linearity or population premise; no metaphysical premise discharged. This is an analyst branching-network reconstruction, not a proof that the survey intended every full cone by chain, that the required causal scope is actual/concrete, or that possible-world correspondences hold.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

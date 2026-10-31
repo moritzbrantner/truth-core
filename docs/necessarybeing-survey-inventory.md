@@ -269,3 +269,31 @@ A possible-world application of `WholeRosterFoundation.actualRootExists` is a di
 Under that reconstruction, take the reflexive finite-path ancestors of a possible coverage counterinstance x. This collection exists without well-foundedness, transitivity of the original causal relation, or choosing an infinite path, and is closed under incoming causal edges. If x has no incoming cause, it already supplies the desired uncaused individual; it need not satisfy the source's relational head formulation in step 6. Otherwise the ancestor collection contains a causal edge. If it had no internal source/head, it would be an ungrounded headless ancestry containing x, contrary to the counterinstance. An internal source is externally uncaused by closure. A distinct ancestor has an outgoing finite causal path and hence the source's cause-capability; the seed case inherits its concrete guard. This repairs the *possible uncaused conclusion* without requiring every counterinstance to be a causal head as step 6 asserts.
 
 Consequently there is no demonstrated mathematical coverage obstruction once chain admits such ancestry and “first” means the source's no-incoming-cause head. What remains is an explicit interpretation of chain/first, causal domain and edge guards, plus the modal duality/classical existential extraction and possibility correspondence. A least predecessor comparable with every member would be a stronger reading than an internal source and is not supplied by this repair. This is a proposed structural reuse design, not a new verified result or independent defense of the reported exclusion of universal headless ungrounded coverage.
+
+### Verified branching-ancestry repair
+
+`HEADLESS-CAUSAL-ANCESTRY` now supplies the mathematical construction for the
+branching-network reconstruction: reflexive finite-path ancestry is closed
+under every incoming edge; universal predecessor availability is equivalent
+to every such cone being headless; explicit excluded middle makes the latter
+equivalent to absence of graph sources. The helper
+`HeadlessCausalAncestry.source_of_not_headless_coverage` extracts a source from
+failure of that universal coverage. The source need not cause a further node,
+so it avoids the source argument's stronger relational-head claim.
+
+The actual-world helper imports `WorldSourceRegress.actualGraph` and
+`actualSource_iff`, preserving the same supplied `Ontic.Causes` and existing-node
+subtype. It excludes incoming causes from actual nodes only; it assumes no
+endpoint-soundness for absent nodes and identifies no cause with a ground.
+Self-loops and cycles are admitted mathematically; headlessness does not assert
+infinitely many distinct nodes. No WF, acyclicity, finite branching, linearity,
+choice function or population premise is needed for the universal package.
+Empty carriers are handled vacuously; the failure-of-coverage hypothesis in the
+existence helper supplies the required nonvacuity.
+
+The registered theorem consumes only the explicit classical logical floor;
+full build, binding, zero-axiom Comparator and independent NanoDa passed. This
+repairs the construction under an explicit ancestry-network interpretation,
+not the source's metaphysical possibility, causal-domain or modal-individual
+correspondences. God/Catholic/unique-root open unions and route costs remain
+unchanged. The A2 alternate branches are still unread.

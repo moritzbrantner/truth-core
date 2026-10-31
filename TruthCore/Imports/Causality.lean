@@ -25,6 +25,7 @@ import TruthCore.Causality.FiniteRestriction
 import TruthCore.Causality.GrimReaper
 import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
+import TruthCore.Causality.HeadlessCausalAncestry
 import TruthCore.Causality.JointGroups
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
