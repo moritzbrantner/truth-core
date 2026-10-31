@@ -57,10 +57,12 @@ new batch on isolated branch
 `76fe328ea74f426c7737ecebc69b9afbb052c76f` in
 `/tmp/truth-core-genus-omission`. Its public-baseline full build4309,
 binding794/two legacy pins/zero mismatch and all five result checks passed.
-Current-head review was requested once and CI is running; no delivered-head
-success is inferred from the local checks. Next concrete step: inspect that
-exact review/run and land only when all required checks and review pass, then
-continue the remaining classified attribute connections.
+Delivered-head CI run `41247640825` passed all required checks. Exact-head
+review completed without findings, and #830 merged as
+`e9a184dcd521c0d17314adb639c3d3d5a357636c`. The research branch already
+contains its proof changes; the merge itself has not yet been integrated here.
+Next concrete step: continue the remaining classified attribute connections.
+No additional owner premise selection has been received.
 
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
@@ -211,6 +213,19 @@ view reuses the same Ontic/supportsEsse; any new MoreIn dictionary is explicitly
 new structure, not an existing model fact. A plural
 necessary-source account must defend its intrinsic necessities and productive
 connections; formal compatibility alone is not explanatory adequacy.
+
+A renewed adversarial audit after presenting the ledger isolates an
+actuality/adequacy bridge in D: saying that a source-free derivative roster
+fails to explain itself completely does not alone say that such a roster
+cannot actually obtain. The formal whole-roster norm excludes that actual
+configuration. Its application therefore needs an explicit demand that actual
+existence have the relevant complete explanation, together with a faithful
+interpretation of graph sourcehood as intrinsic existential contribution.
+This does not credit an infinite regress with global explanatory success.
+The adversary confirms that exact B/C/formal-D plus excluded middle entail
+the same actual necessary concrete root; no uniqueness, God identification,
+or complete explanatory adequacy follows from that theorem. These are
+interpretation boundaries, not new premises silently admitted by the owner.
 
 The requested adversary accepted the formal consequences and isolated I's
 independent universal-causal-reach warrant as the strongest challenge. Its
