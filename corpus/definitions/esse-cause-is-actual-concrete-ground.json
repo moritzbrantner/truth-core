@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+  "term": "distinct esse cause of an actual concretum supplies an actual concrete selected ground",
+  "definition": "At selected w, every numerically distinct c causing the supplied esse actuality of an actual concrete x is itself concrete, exists at w and stands in the profile selected grounds relation to x. No converse, global-world claim, causal sufficiency or completeness of explanation is asserted. This is the existing EsseCauseIsActualConcreteGround predicate, newly recorded as an OPEN interface, not newly proved or attributed to a source.",
+  "basis": "stipulative",
+  "note": "Metadata for the pre-existing NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround declaration. The correspondence, causal meaning and coverage need independent defense for the selected domain; recording the interface establishes no premise. It concerns actual concrete recipients, not only necessary ones, so substitution for necessity-cause bridges changes the coverage and is not a global weakening claim.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround"
+}

@@ -15,6 +15,7 @@ import TruthCore.Causality.ContingentAncestry
 import TruthCore.Causality.ContingentTotalityCause
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.DerivativeJointPower
+import TruthCore.Causality.DirectEsseRootRoute
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.ExistentialSelfActualization

@@ -25,13 +25,12 @@ theorem wholeRosterOfBorrowingEscape {W B : Type} (m : Profile W B) (w : W)
   · obtain ⟨contributor, hMember, hInside⟩ := hTrap.2 g hAdmitted hEffect
     exact hOutside contributor hMember hInside
 
-/-- Non-corpus helper preserving the very same actual necessary root for
-convergence. The only roster test is at Set.univ; no inductive Supply is used. -/
-theorem necessaryActualRoot {W B : Type} (m : Profile W B) (w : W)
+/-- Whole-roster nontrapping and actual concrete population supply a selected
+actual root. No contingent-dependence or modal-necessity premise is used. -/
+theorem actualRootExists {W B : Type} (m : Profile W B) (w : W)
     (hPop : InhabitedConcreteAt m.ontic m.concrete w)
-    (hWhole : WholeRosterNotTrapped m w)
-    (hDep : EveryContingentGroundedAt m w) (hEM : ExcludedMiddle) :
-    NecessaryActualRootAt m w := by
+    (hWhole : WholeRosterNotTrapped m w) (hEM : ExcludedMiddle) :
+    ∃ n, ActualRoot m w n := by
   obtain ⟨initial, hc, he⟩ := hPop
   have hNonempty : (Set.univ : Set {b // ActualConcrete m w b}).Nonempty :=
     ⟨⟨initial, hc, he⟩, trivial⟩
@@ -49,11 +48,21 @@ theorem necessaryActualRoot {W B : Type} (m : Profile W B) (w : W)
     refine ⟨source.property, ?_⟩
     intro candidate hGround
     exact hs ⟨⟨candidate, hGround.1, hGround.2.1⟩, hGround.2.2⟩
-  rcases hEM (TruthCore.German.Kant.CosmologicalInference.NecessaryAt m.ontic w source.val)
+  exact ⟨source.val, hr⟩
+
+/-- Non-corpus helper preserving the very same actual necessary root for
+convergence. The only roster test is at Set.univ; no inductive Supply is used. -/
+theorem necessaryActualRoot {W B : Type} (m : Profile W B) (w : W)
+    (hPop : InhabitedConcreteAt m.ontic m.concrete w)
+    (hWhole : WholeRosterNotTrapped m w)
+    (hDep : EveryContingentGroundedAt m w) (hEM : ExcludedMiddle) :
+    NecessaryActualRootAt m w := by
+  obtain ⟨source, hr⟩ := actualRootExists m w hPop hWhole hEM
+  rcases hEM (TruthCore.German.Kant.CosmologicalInference.NecessaryAt m.ontic w source)
       with hn | hn
-  · exact ⟨source.val, hr, hn⟩
+  · exact ⟨source, hr, hn⟩
   · exact ((everyContingentGrounded_iff_noContingentRoot m w hEM).mp hDep
-      (contingentRootOfNonnecessary m w hEM ⟨source.val, hr, hn⟩)).elim
+      (contingentRootOfNonnecessary m w hEM ⟨source, hr, hn⟩)).elim
 
 /-- Whole-roster nontrapping, actual population and contingent dependence give
 an actual necessary concretum. No all-subsets cut or WF premise is used. -/

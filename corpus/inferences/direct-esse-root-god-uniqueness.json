@@ -1,0 +1,17 @@
+{
+  "id": "INF-DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+  ],
+  "output_statement_id": "STMT-GOD-IS-ONE",
+  "rule": "constructive-proof",
+  "meaning": "Whole-roster nontrapping, actual concrete population and explicit EM supply an actual root, without contingent dependence. ExistingInActAt supplies that root’s esse. Genus causality and the existing direct esse-to-ground correspondence make every maximum equal this same actual root. God-to-maximum puts every God candidate in that class, so any two God candidates coincide. This proves the existing GodIsOne universal conditional, not God existence or modal necessity of the root. No grades-to-maximum, necessity-cause, modal-has-being, pure-act, simply-prior or forward naming premise is used. The direct correspondence covers actual concrete targets, including contingent ones, so this different coverage bundle is not asserted globally weaker than the older necessity-only route. No philosophical premise is independently established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

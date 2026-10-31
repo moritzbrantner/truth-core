@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+  "argument_id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.godExists",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY/comparator.json",
+  "status": "solution-present",
+  "description": "Twelve-input direct-esse GodExists composition: extract an actual selected root using actual population, whole-roster nontrapping and explicit excluded middle, without contingent dependence. Derive firstness through the retained priority correspondence. ExistingInActAt supplies actual esse of the root. The existing actual fork/core yields a maximum under grades-to-maximum; direct esse-to-selected-ground correspondence identifies every maximum with this root and supplies uniqueness without a new hypothesis. Genus gives universal causal scope, while the imported reduced-description naming theorem composes actuality-to-being, universal-source transfer, firstness/no-component remoteness and the retained nominal identification. The global maximum-to-firstness antecedent used internally is derived from this same root and maximum identity, not an added input. The direct esse interface covers actual concrete targets including contingent ones, so this coverage package is not claimed globally weaker than the earlier necessity-cause package. No philosophical premise is discharged. The witness-preserving helper asserts actual rootness, firstness and God of the same individual, but no NecessaryAt property; removing contingent dependence is a genuine input removal for the advertised GodExists conclusion, not a new proof of necessary existence. Focused checks only until coordinator binding/Comparator/NanoDa verification."
+}
