@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-DELLA-ROCCA-MANIFESTO-NUMERICAL-UNITY-SEARCH",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-ANSELM-COMMON-SELF-THROUGH",
+    "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Followed the Della Rocca PSR (2010) p.6 n.9 lead to A Rationalist Manifesto: Spinoza and the Principle of Sufficient Reason, Philosophical Topics31(1\u20132)(2003),75\u201393, DOI10.5840/philtopics2003311/215. Author-associated Yale Academia profile publicly links the exact paper, but the paper page exposes an unavailable preview and platform-generated AI takeaways/FAQs, not the primary text; ordinary direct retrieval returned HTTP403. PhilPapers ROCARM lists no archived version, ResearchGate reports no full text, and DOI access through the available browser failed. No legitimate pinnable primary bytes were acquired or materialized; no source attribution, claim, Lean theorem or independent unity warrant follows. Detailed URLs, rejected substitutions and the next discriminating proposition are preserved in docs/notes/necessary-simple-plurality.md. Existing common-source equivalence and distinct-whole-essence gap are retained. Intended/actual root-premise change: none. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Acquire and read a legitimately hosted primary witness. Then test whether its existence/intelligibility argument excludes two whole self-explaining natures, rather than merely requiring each nature to be intelligible or presupposing a shared numerical source. The unproved bridge is that the intelligibility of the same disputed candidates requires a common numerical explanatory bearer; universal intelligibility alone does not supply that quantifier order.",
+  "evidence": []
+}

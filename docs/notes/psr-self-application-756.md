@@ -179,7 +179,94 @@ this research attempt.
 at the publisher's `3521354.0010.007.pdf`, publisher download endpoint, and
 PhilPapers `DELPSR.pdf`; all returned HTTP 403. The Handle witness was
 inaccessible and a guessed course `mdr-psr.pdf` returned 404. Search snippets
-were not read as source evidence. The direct author reading remains open;
-Kleinschmidt's bibliography gives the research locator *Philosopher's Imprint*
-10(7), pp.1–12, and Pruss 2006 chapters 16–17. These references are leads, not
-claims that those texts were consulted.
+were not read as source evidence. That was the earlier access boundary. #776 subsequently pinned a matching
+Wayback capture of the publisher PDF. The complete 13-page Della Rocca paper
+has now been materialized/read as described below. The bibliography's pp.1–12
+range is not substituted for the consulted PDF's actual thirteen pages. Pruss
+2006 chapters16–17 remain leads, not consulted primary evidence.
+
+
+## First-principle justification: owner clarification and direct source test
+
+The owner prioritizes explanatory foundation, numerical unity and reality
+correspondence, and proposes that some principles may be vindicated by the
+conditions of meaningful inquiry or denial, as meaningful communication already
+uses meaning. This does not require every first principle to be deduced from
+strictly earlier principles. The existing Aristotle An.Post.I.2–3 reading is a
+positive account of nondemonstrative entitlement, not a choice between arbitrary
+assumption and endless demonstration. Aristotle Met.IV.4,1006a11–28 adds the
+elenctic method: the interlocutor's determinate signification is the starting
+concession. ARIST-MET-IV-4 was re-materialized and its opening defense read.
+DEF-ELENCTIC-FIRST-PRINCIPLE-DEFENSE and DISAMB-FIRST-PRINCIPLE-WARRANT now state
+this sense explicitly; the historical statement is not silently identified
+with Lean's primitive rules or a generic episode-occurrence link.
+
+The precise performance matters. A universal denial of meaningful signification
+made as meaningful communication defeats its own claimed presentation. This
+need not establish that every token is meaningful, every asserted sentence is
+true, or every challenge relies on an unrestricted ontic reason principle.
+The generic performed-denial theorem already supplies its conditional proof
+shape; it explicitly assumes its performance-to-episode link. Repeating that
+schema with a new first-principle name would not establish the missing link.
+No new opaque transcription, theorem or self-evident marking is added here.
+
+### Della Rocca's actual positive case, including its conclusion
+
+The integrated BCCF work made the author’s PSR paper available at a pinned
+publisher-PDF capture. The first witness, DELLA-ROCCA-PSR-PP1-10, ends mid-reply
+to a coherentist alternative. It must not be treated as the complete paper.
+The new DELLA-ROCCA-PSR-PP11-13 pins its remaining pages under the SAME verified
+raw hash, with a separate text hash. All13 pages were read; two scoped source
+claims preserve the positive argument and its explicit limit.
+
+Pages2–5 repeatedly distinguish accepting a particular explicability argument
+from accepting unrestricted PSR. Pages5–8 press for a principled restriction on
+extending the demand to existence; the alleged legitimacy of an arbitrary
+restriction is itself disputed in that dialectical setting. Pages11–12 consider
+coherentist, sorites and existing-versus-nonexisting contrast replies. On p13
+the author expressly leaves open whether a legitimate boundary can be found,
+while maintaining a powerful unrebutted dialectical reason for PSR. The new
+reading therefore preserves a positive case, not merely an objection to it.
+Its endorsement is not attributed as an unconditional deduction or an assertion
+that every possible domain restriction has been refuted.
+His target is the unrestricted PSR of DEF-DELLA-ROCCA-PSR, including necessary
+existence. Its relation to the corpus's weaker scope readings and to concrete
+bearer-valued through/support remains an explicit interpretation step. The
+positive dialectical case does not by itself install footnote13's necessitating
+reason assumption, a necessary concrete witness or a numerical-unity bridge.
+
+This directly advances #756's source-backed question without silently answering
+it by definition: the relevant target is the warrant for accepting/restricting
+explicability arguments in the existence case. Whether an opponent's boundary
+is principled and whether the defender's analogy warrants generalization are
+substantive questions. The already certified stanceMap and bridgeLadder show
+what follows when a same-sense demand or epistemic-to-ontic bridge is supplied;
+they do not certify Della Rocca's normative assessment. Conversely their bare
+consistent tables are not independently adequate rivals to his argument.
+Kleinschmidt's defeasible explanatory virtue remains the strongest recorded
+counterproposal, with its truth-tracking and overriding-cost burdens intact.
+
+### Consequences for the three priorities
+
+1. **Foundation:** consolidate the existing no-self-contained derivative-supply
+   argument; assess whether its actuality-to-supply commitment is a first
+   principle with independent entitlement or a performance-presupposition.
+   Borrowed power's counterfactual lender condition alone does not supply that
+   commitment (#780). An epistemic demonstration's priority does not automatically
+   become an existential grounding order (the existing cross-domain boundary).
+2. **Unity:** seek an independent reason against primitive different whole
+   natures or for one numerical source. Common determinate meaning or one
+   repeatable predicate does not itself supply a common numerical existent.
+   The exact Anselm/Q11 premise-strength audits remain the reuse target.
+3. **Reality correspondence:** establish the actual performance or dependency
+   instances and scope of any alleged presupposition. Keep existential actuality,
+   real concrete support, efficient production and sufficient explanation
+   distinct. The owner's accepted actual population remains the starting point;
+   no unnecessary proof of that accepted starting point is required.
+
+The required work is to defend these principles at the appropriate level, not
+to demand a fresh earlier proof forever and not to mark all three true merely
+because they are fundamental. Independent entitlement, performative exclusion,
+dialectical presumption and checked consequence retain their different scopes.
+No root-premise discharge or metaphysical truth claim is made by this source
+batch. No new Lean inputs or mechanically verified argument are advertised.

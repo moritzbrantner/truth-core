@@ -959,3 +959,45 @@ No new source claim, stronger attribution, rival model or premise discharge is
 introduced by this audit. The next substantive source argument must defend
 numerical common-source status or a replacement principle independently,
 rather than repeating the now-characterized structural condition.
+
+
+### Della Rocca Manifesto witness search (2026-10-31)
+
+The bounded numerical-unity follow-up to *PSR* (2010), p.6 n.9, searched for
+Michael Della Rocca, “A Rationalist Manifesto: Spinoza and the Principle of
+Sufficient Reason”, *Philosophical Topics*31(1–2)(2003),75–93,
+[DOI10.5840/philtopics2003311/215](https://doi.org/10.5840/philtopics2003311/215).
+The [author-associated Yale Academia profile](https://yale.academia.edu/MichaelDellaRocca)
+links [this exact paper page](https://www.academia.edu/3607094/A_Rationalist_Manifesto_Spinoza_and_the_Principle_of_Suffiicent_Reason).
+The accessible page identifies the publication but reports that its preview is
+unavailable. Its “Key takeaways” and FAQs are explicitly marked AI; they are
+not the author's text and supply no source evidence. Ordinary direct retrieval
+of that page returned HTTP403; the available browser could not open the DOI.
+The [PhilPapers ROCARM record](https://philpapers.org/rec/ROCARM) lists no archived
+version, and the [ResearchGate record](https://www.researchgate.net/publication/290915137_A_Rationalist_Manifesto)
+reports no full text. These are search/access observations on this date, not a
+claim that no legitimate accessible copy exists. No primary bytes were acquired,
+pinned, materialized or read, and no bibliographic-only claim was manufactured.
+The similarly titled Laurence BonJour article (1992) is a different work.
+
+This leaves the proposed Manifesto existence/intelligibility argument unread.
+Secondary quotations and summaries were rejected as substitutes for its primary
+witness. There is therefore no new attribution to Della Rocca and no finding
+that his argument succeeds or fails. The target remains independent warrant
+against the different-whole-necessary-essence reply, not another reformulation
+of the already characterized common-through commitment.
+
+The next discriminating proposition is explicitly OPEN: **the intelligibility
+of these same proposed self-explaining whole natures requires a common numerical
+explanatory bearer.** It must be defended against the rival that each distinct
+whole nature is intelligible through itself. Even universal intelligibility,
+if independently warranted, has the schematic form “for each x there is some
+explanation y”; it does not yield “there is one y explaining every x”. Nor does
+sharing the predicate self-explaining imply a shared individual. A meaningful
+denial may require determinate identity, stable inference and reasons for the
+denial without thereby requiring one numerical ontological source for every
+object discussed. An argument from the conditions of denial must expose and
+defend that additional object-level bridge; the present search neither proves
+nor refutes such an argument. This is a proposed test for the unread witness,
+not a reconstruction attributed to it. No premise was added, removed or
+discharged; no root-frontier change or mechanical consequence is claimed.

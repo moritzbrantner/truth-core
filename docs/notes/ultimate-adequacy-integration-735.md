@@ -1265,3 +1265,52 @@ qualified, source-specific senses are linked, and the report/event record names
 both actual bridging premises. The combined revision requires its own fresh
 review and complete binding/Comparator/NanoDa checks. No older review receipt
 alone certifies this integrated head.
+
+
+## Owner priority: first-principle entitlement for the three remaining bridges
+
+Owner clarification (2026-10-31): prioritize explanatory foundation, numerical
+unity and reality correspondence; investigate whether relevant principles are
+conditions of meaningful inquiry/denial, rather than requiring every one to
+have a further demonstrative basis. The already accepted actual population
+remains a working truth. This changes the strategy of justification, not the
+content or truth status of the three metaphysical bridges.
+
+The direct source/reuse audit is now in `psr-self-application-756.md`. It connects
+Aristotle's nondemonstrative/elenctic defense with the existing performed-denial
+and PSR stance schemas, while keeping their application links explicit. The
+integrated #776 Della Rocca witness now includes the previously unpinned final
+three pages; the complete thirteen-page paper was read. The positive dialectical
+PSR case and its express reservation about unexcluded principled boundaries are
+preserved as two source readings, not converted into an opaque proof premise.
+The next decisive work is independent entitlement or a scope-exact retorsion
+for each priority, with #697/#320's numerical individuation question retained.
+The separate dependent-necessary scope experiment is preserved; it is not made
+a prerequisite for advancing these three priorities.
+
+
+### First parallel follow-up and landing evidence
+
+The owner explicitly authorized parallel questions and more frequent landing.
+Integration #808 is now merged at main045de4c2e6a6330d84d420a5e15edd345f60fc48;
+all eight original PRs are marked MERGED and their exact heads are ancestors
+of main. The integrated682595d66e revision passed fresh review, the full CI and
+both Pages browser tests before merge. The public Argument forest at
+https://moritzbrantner.github.io/truth-core/forest/ was independently browser-
+checked: proposition selection and Explore ¬P work, with no page errors.
+The public footer was main3e05b29 at that check; the subsequent045de deployment
+was building. This verifies the promised view, not instant deployment of every
+new research commit. No application-code change was needed.
+
+Two bounded research lanes ran independently. The foundation lane's primary-
+source audit is appended to `unique-feedback-explanation-311.md`: same-act
+existential availability motivates a narrow non-self-production entitlement,
+while the residual collective non-generation commitment is the EXISTING full
+borrowing cut, not a newly renamed weak bridge. The unity lane's bounded
+Manifesto witness search and exact common-numerical-bearer question are appended
+to `necessary-simple-plurality.md`; primary access failed, so no source claim
+was manufactured from platform AI summaries. Both attempts persist their exact
+remaining gaps; neither is a philosophical refutation or premise discharge.
+These lanes can continue independently while the direct-source PSR and actual
+application work proceed. The complete Della Rocca2010 reading is verified;
+the Manifesto2003 is a different and still unread work.

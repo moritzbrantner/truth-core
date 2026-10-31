@@ -1,0 +1,15 @@
+{
+  "id": "DELLA-ROCCA-PSR-DIALECTICAL-WARRANT",
+  "statement_id": "STMT-DELLA-ROCCA-PSR-DIALECTICAL-WARRANT",
+  "source_id": "DELLA-ROCCA-PSR-2010",
+  "locator": "pp.11-13: pp.11–12, coherence and boundary replies; pp.12–13, concluding qualification and dialectical advantage",
+  "interpretation": "Della Rocca argues for powerful and unrebutted reason to accept PSR given the accepted explicability arguments and absence of a principled rebuttal, while expressly conceding he has not shown there is no legitimate line. This is his positive dialectical warrant with its stated limit, not attribution of an unconditional deduction, a proof from bare speech, or an endorsement by this corpus of all his rejection-of-rebuttal moves.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+    "DEF-DELLA-ROCCA-PSR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FIRST-PRINCIPLE-WARRANT"
+  ]
+}

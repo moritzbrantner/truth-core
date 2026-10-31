@@ -24,6 +24,18 @@
       },
       "text_sha256": "sha256:ae27292da1e74b5784bda6a5719c8ed329ac1f66157cdd2f2bb591775f0b8602",
       "incipit": "Imprint Philosophers’ \b \b volume 10, no. 7 july 2010 PSR Michael Della Rocca"
+    },
+    {
+      "id": "DELLA-ROCCA-PSR-PP11-13",
+      "locator": "PSR, pp.11-13, concluding reply to coherentist alternative and idealist implications",
+      "claim_locator_prefixes": [
+        "pp.11-13"
+      ],
+      "pdf_pages": {
+        "first": 11,
+        "last": 13
+      },
+      "text_sha256": "sha256:fcfa3189c33c2a8b4e80fca3fd83a17103b50e15dd93a17e5de24e3fd64b039b"
     }
   ]
 }
