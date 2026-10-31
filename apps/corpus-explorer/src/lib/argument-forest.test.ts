@@ -7,6 +7,7 @@ import { fixture } from "./proposition-graph.fixture";
 const roots = [
   { id: "ROOT", label: "Root conclusion" },
   { id: "DEF", label: "Alternative" },
+  { id: "TC", label: "Transcribed result" },
 ];
 
 describe("argument forest projection", () => {
