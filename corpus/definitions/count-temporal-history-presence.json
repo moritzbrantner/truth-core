@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+  "term": "one-way temporal presence to world-relative actual existence",
+  "definition": "HistoryPresenceActual h means every IsAt v c t implies h.ontic.ExistsAt v c, for every time. It is the one-way EVER-history interpretation required to retain an earlier cause as actual in that history; no converse, now-slice coherence or temporal persistence is asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CountTemporalNecessity.HistoryPresenceActual",
+  "note": "History itself does not imply this bridge. CoherentAtNow has a different meaning and does not supply presence at an arbitrary earlier time. World-history interpretation and applicability remain explicit open commitments; the original Ontic and History fields are unchanged."
+}

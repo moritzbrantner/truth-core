@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+  "term": "possible guarded causal count and its decrement interface",
+  "definition": "PossibleCount h Concrete CauseCount w n supplies a world v accessible from w and CausedThreshold at v for n. FiveThresholdPossible is that predicate at 5; ThresholdDescent is existing CountDescent applied to this predicate. Different n may have different worlds, individuals and causal histories; no joint realization, fixed cause or monotonicity follows. The supplied concrete predicate is world-invariant and not automatically materiality or the legacy intervention-response capacity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CountTemporalNecessity.PossibleCount",
+  "note": "The typed five and descent inputs remain OPEN framework commitments. They are distinct from the old sourced statements over an uninterpreted Nat-to-Prop parameter. Arithmetic weakening of a cardinal bound does not preserve causal pre-target absence. No universal PSR or actual causal explanation is inferred."
+}

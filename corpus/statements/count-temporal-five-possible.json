@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COUNT-TEMPORAL-FIVE-POSSIBLE",
+  "paraphrase": "A world accessible from the selected world has a caused first threshold of at least five distinct concrete contingent individuals: a concrete causal bearer is temporally present earlier, the supplied count-situation cause relation holds at the target, and no earlier time contains five such individuals. This is an explicit open guarded configuration, not an attributed strengthening of the survey five-causable report.",
+  "lean_declaration": "TruthCore.Causality.CountTemporalNecessity.FiveThresholdPossible",
+  "definition_ids": [
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

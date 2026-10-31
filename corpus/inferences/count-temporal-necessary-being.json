@@ -1,0 +1,16 @@
+{
+  "id": "INF-COUNT-TEMPORAL-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-COUNT-TEMPORAL-FIVE-POSSIBLE",
+    "STMT-COUNT-TEMPORAL-DESCENT",
+    "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "constructive-proof",
+  "meaning": "Six-input source-free composition. Instantiate existing NB-SURVEY-FIVE-TO-ONE at PossibleCount to obtain one guarded count-one caused threshold. Retain its SAME concrete cause c, history v and earlier time tc. If c were contingent at v, the constant map Fin 1 to c is injective and witnesses the forbidden count-one threshold at tc. Thus c is not contingent. The one-way history-presence bridge supplies actual existence at v; explicit EM converts accessible absence into contingency and contradiction, so SAME c is NecessaryAt v. Euclidean sibling access transports necessity to successors of w; actual reflexivity gives v access back to w, hence actual existence there. Project that very c into existing NecessaryBeing. No now-slice definition, universal frame, global PSR, WF, causal-to-grounding conversion or modal persistence of CauseCount is used. All semantic inputs remain OPEN; the imported count transcription is now connected to a structured witness inference, genuine conditional configuration progress without truth discharge. No weaker-overall-bundle/minimality, uniqueness, God, sufficient explanation or actual-world causal role is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
