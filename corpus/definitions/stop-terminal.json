@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STOP-TERMINAL",
+  "term": "terminal fact",
+  "definition": "Terminal A w s says s is true at w and every reason for s at w is s itself. A terminal fact may therefore have a self-reason, and may be necessary or contingent. Being terminal is a position in the explains relation, not a claim that nothing could explain the fact.",
+  "basis": "stipulative",
+  "note": "Analyst-stated for #746 so that one test applies to every candidate stop.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.Terminal"
+}

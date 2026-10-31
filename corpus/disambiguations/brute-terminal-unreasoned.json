@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-BRUTE-TERMINAL-UNREASONED",
+  "term": "brute",
+  "sense_definition_ids": [
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-STOP-TERMINAL",
+    "DEF-NO-BRUTE-FOUNDATION-NORM"
+  ],
+  "resolution": "Brute is read only as BruteAt (DEF-PSR-RESTRICTED-SCOPE): a contingent truth with no reason at the world. A necessary fact with no reason is unreasoned and not brute in this sense, and a contingent fact with a self-reason is not brute either. The first is terminal (DEF-STOP-TERMINAL), and the second is terminal only when it has no distinct reason, since a further external reason would make it nonterminal. The two norms of DEF-NO-BRUTE-FOUNDATION-NORM keep the senses apart: NoBruteFoundation uses brute, NoUnreasonedFoundation uses unreasoned. The results do not pass between them: ground false satisfies the first and fails the second. Brute says nothing about evidence for the fact; see DISAMB-REASON-EPISTEMIC-ONTIC."
+}

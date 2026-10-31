@@ -20,6 +20,7 @@ import TruthCore.Explanation.NoBruteExistence
 import TruthCore.Explanation.PSRSelfApplication
 import TruthCore.Explanation.PSRStrength
 import TruthCore.Explanation.PathRelocation
+import TruthCore.Explanation.StoppingPoints
 import TruthCore.Explanation.TargetCopyExpansion
 import TruthCore.Explanation.UltimateAdequacy
 import TruthCore.Explanation.WellFoundedSource

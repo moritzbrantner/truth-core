@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.StoppingPoints.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.StoppingPoints.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.StoppingPoints.stoppingMap"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

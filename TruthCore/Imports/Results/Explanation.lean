@@ -23,6 +23,7 @@ import TruthCore.Results.Explanation.PSRScope.Solution
 import TruthCore.Results.Explanation.PSRSelfApplication.Solution
 import TruthCore.Results.Explanation.PSRStrength.Solution
 import TruthCore.Results.Explanation.PathRelocation.Solution
+import TruthCore.Results.Explanation.StoppingPoints.Solution
 import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
 import TruthCore.Results.Explanation.UltimateAdequacy.Solution
 import TruthCore.Results.Explanation.WellFoundedSource.Solution

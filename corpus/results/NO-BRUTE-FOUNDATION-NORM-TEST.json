@@ -1,0 +1,9 @@
+{
+  "id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "argument_id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "challenge_module": "TruthCore.Results.Explanation.StoppingPoints.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.StoppingPoints.Solution",
+  "theorem": "TruthCore.Results.Explanation.StoppingPoints.foundationNormTest",
+  "comparator_config": "results/NO-BRUTE-FOUNDATION-NORM-TEST/comparator.json",
+  "status": "solution-present"
+}
