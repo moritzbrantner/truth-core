@@ -8,16 +8,19 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current delivery and parallel work
 
 Research branch: `research/lean-existential-self-actualization-20261031`.
-Verified committed research baseline is `a7398003` (root perfection/goodness
-and transfer omission); verified A2 reread findings are persisted in `b8a34521`.
-Delivered main through `939b28af73f1c9514c382209aa375cffaa1cc6ea` is integrated
-by `d6a53b5c`. Earlier scope/count code is retained at `1b21436b`/`71f12480`.
+Verified committed research baseline is `79a8eebb` (eighteen-input joint
+attributes/control), following `a7398003` (positive perfection/goodness).
+A2 extraction/review findings are persisted in `53f5d514`; its earlier verified
+reread is `b8a34521`. Delivered main through
+`4b2053126534431b7b062f02d6055064a97258c2` is integrated by `65d22f97`.
+The source merge preserves the fuller private witness history and next A2
+alternate queue while retaining the public extraction record and all five claims.
 The prior minimization baseline remains `4888cece` with matrix follow-up
 `0c1b1dd9`.
 The overarching goal remains active; conditional results do not establish the
 truth of their metaphysical inputs.
 
-Eleven PRs were landed after required checks and current-head review without
+Thirteen PRs were landed after required checks and current-head review without
 findings: #825 (`692b8b99`, exact genus-causality omission), #827 (`d3f85cfc`,
 temporal count-to-necessity composition), #828 (`413d3509`, joint positive
 count model), #822 (`cbfaaeca`, local-frame/source A3 batch), and #829
@@ -27,7 +30,9 @@ strict-priority pure act), #831 (`ea184c10`, joint root/intellect/will/pure-act
 and positive plurality control), and #832 (`c841c32e`, empty-contingent
 coverage to necessary existence), #833 (`3027af51`, fixed-esse scope),
 #834 (`52181913`, same-history compatibility), and #835 (`939b28af`,
-public handoff navigation/status). Existing earlier #810–#821 remain integrated.
+public handoff navigation/status), #836 (`aef30f77`, root perfection/goodness
+and transfer omission), and #837 (`4b205312`, five qualified A2 readings).
+Existing earlier #810–#821 remain integrated.
 
 The current #826 matrix is in
 [classical-attributes-all-migration.md](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31),
@@ -222,13 +227,11 @@ this cluster on `research/direct-esse-root-perfection-goodness-20261101`, head
 `/home/moenarch/.cache/truth-core-worktrees/root-perfect-goodness`.
 Public build4326, binding804/two legacy pins/zero mismatch and offline
 source/corpus checks pass; all29 proof/record/config/matrix artifacts match
-research. CI run `41251704824` is confirmed live: corpus/Lean job
-`124686442162`, library job `124686442119`; the result shard and explorer
-already passed. Current-head review requested once at
+research. CI run `41251704824` passed all required checks and exact-head review
+completed without findings. Merge `aef30f77487f1d3d71bffd5e171f1605b9fa16d3`
+is integrated. The same disk-backed worktree is now reused by #838 below. Current-head review requested once at
 [the review request](https://github.com/moritzbrantner/truth-core/pull/836#issuecomment-6550473248).
-Next delivery step: inspect that SAME run/review, fix actual findings, then
-merge only with required checks and review passing. No ledger truth selection
-beyond A has been received.
+No ledger truth selection beyond A has been received.
 
 The initial isolated public build under `/tmp/truth-core-genus-omission`
 failed with OS error122/EDQUOT and a truncated generated setup JSON. `/tmp`
@@ -241,26 +244,66 @@ was weakened. Use disk-backed TMPDIR for subsequent heavy verification and
 preserve the shared heavy-job lease; this was environment/cache recovery, not
 a source or logical repair.
 
-Next joint-attribute audit (NOT yet a proof): the goodness twelve plus
-`STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, composition-kinds, G, L, q14 and q19
-could yield one eighteen-input package, versus nineteen by union with old
-reduced intellect/will. F is already retained: any composite actual root has
-a distinct esse cause under the uniting premise, which F makes an actual
-ground, contradicting that SAME root's sourcehood. No maximum, CauseMore or
-firstness is needed for this pointwise noncomposition step. Kinds+EM supplies
-represented identity and matter/form exclusion; G supplies firstness; L
-supplies remoteness; q14/q19 supply intellect/will. Use exactly p.InAct,
-p.CausesIn and p.esse in the positive route. This replaces two component
-premises with a different uniting premise, not a certified global weakening.
-No existential witness swap is allowed; reuse RootIntellectWill.ofNonlimitation
-with retained root uniqueness or a pointwise tail.
+Current verified joint slice: `ROOT-POSITIVE-INTELLECT-WILL` retains the SAME
+positive twelve-input witness and adds represented identity, noncomposition,
+firstness, matter/form exclusion, remoteness, intellect and will under six
+additional inputs. Distinct uniting cause plus the already retained F excludes
+composition directly at the root. Kinds+EM gives identity/matter exclusion,
+G gives firstness, L remoteness, q14/q19 the existing cognitive predicates.
+It removes the old component-priority/other-component pair and adds a different
+uniting premise: eighteen versus nineteen is not certified global weakening,
+incomparability or a minimum. Worlds, p.InAct/p.CausesIn/p.esse and the witness
+remain fixed; no God predicate or all-necessary-individual uniqueness is inferred.
 
-Infinity and eternity still retain their explicit primitive adapters;
-immutability reuses no-potency after act-priority and either exclusion or
-strictness. The audited twenty-two-input full attribute package would still
-interpret 'one' as selected-root uniqueness. God-to-maximality, God naming and
-ClassicalAttributesSuffice remain separate interfaces for actual God/Signature
-consumers. None is silently admitted by this unimplemented outline.
+`ROOT-POSITIVE-INTELLECT-WILL-CONTROL` preserves the exact old concurrent
+four-role act/cause/grade setting. All previously absent modal/ground,
+component/composition, priority, represented essence and cognitive dictionaries
+are explicitly NEW. All eighteen inputs and the entire endpoint hold at the
+same source; producer composition, distinct uniter and secondary activity are
+positive. Old component-priority fails specifically at supporter→producer,
+which is not an old esse-cause edge. All fixture individuals are necessary,
+contingent dependence is vacuous, and cognitive/physical/causal adequacy remains
+open. This is a configuration discriminator, not an adequate worldview.
+
+Both new results pass full build4330, binding806/two legacy pins/zero mismatch,
+Comparator and independent result NanoDa. Scoped library NanoDa checked617
+dependency declarations with zero typechecker errors and one known axiom
+pretty-printer warning. The main theorem is zero-axiom; control uses propext.
+Independent cross-worker claim/type reviews found no findings. Source/corpus/
+generators/whitespace pass. Direct hypotheses count eighteen; target cost is
+twenty non-floor leaves because Iesse expands through the existing attribution
+route. Root routes, root-reaching IDs, open-premise count and depth counts
+remain unchanged, including after the A2 source additions.
+
+[PR #838](https://github.com/moritzbrantner/truth-core/pull/838) publishes
+this cluster on `research/root-positive-intellect-will-20261101`, exact head
+`2034d5844ae70152a65a50924d11dc1548bef405`, worktree
+`/home/moenarch/.cache/truth-core-worktrees/root-perfect-goodness`.
+Public build4330, binding806/two legacy pins/zero mismatch and offline source/
+corpus checks pass; all21 owned proof/record/config/matrix artifacts match
+research. CI run `41253734557` is confirmed live: corpus/Lean and result
+shard have passed; library job `124692437879` is still in progress. Exact-head
+review requested once at
+[the review request](https://github.com/moritzbrantner/truth-core/pull/838#issuecomment-6550734032).
+Next delivery step: inspect that SAME run and exact-head review, repair actual
+findings, then merge only on required checks/review passing. Do not restart a
+live process or infer delivered success from local checks.
+
+Next exact consumer audit (NOT a proof yet) confirms a twenty-five-input
+route to the existing God/Signature consumers. Use m:Profile W sigma.Being and
+p:q3.Profile sigma.Being P R directly. The eighteen fields plus act-priority
+and either exclusion or strictness, infinity and eternity adapters, existing
+M naming, N God-to-maximality, and ClassicalAttributesSuffice are sufficient
+at the type level. Imported Unit maximumEqualsRoot gives every esse maximum
+equal to n; M accepts max/universal esse cause/causal perfection scope/Remote/
+unique maximum to name that SAME n God. N then gives every God g=n, supplying
+actual IsTheOneGod sigma.IsGod n, not merely root uniqueness. Apply the exact
+existing nine-predicate sufficiency bridge and ClassicalGodAssembly consumer.
+No extra carrier-equivalence interface is needed. Infinity/eternity, nominal
+naming and primitive-field sufficiency remain explicit adapters; no independent
+infinity, free will, cognitive/moral warrant or all-necessary uniqueness is
+introduced. This audited outline is still unimplemented and must pass frozen
+Challenge/binding/Comparator/NanoDa before any consequence claim.
 
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
@@ -272,9 +315,12 @@ response or exhaustive server-side history is claimed. The A1 audit reused
 four existing claims with zero duplicates. The verified A2 reread at b8a34521
 materialized seven main/alternate witnesses plus A1P1/definition context,
 including hash-verified HTML title attributes. Existing notes already capture
-the eleven-step main argument and alternates, but corpus A2 attributions are
-still absent. The next source batch remains reported coverage and qualified
-predecessor-closure/head reading. Preserve causal-or-causable versus causal
+the eleven-step main argument and alternates, and at that reread corpus A2 attributions were absent. #837 now registers
+five main-branch readings: conditional coverage denial, qualified necessary
+member closure, disputed head/uncaused inference, reused unqualified causal
+report, and possibility invariance. Four source commitments remain unbound;
+no source argument or premise truth was mechanically proved. Next extraction
+is the existing alternate modal/revised-classification cluster. Preserve causal-or-causable versus causal
 capability domains, global distinct-existing-cause guards versus the source
 report, existential versus rigid-individual necessity, and A2c3's revised
 classification. Complete member-ancestry closure is not causation of a whole;
@@ -282,6 +328,26 @@ an isolated uncaused source is not automatically a relational head. Exact
 witness IDs/locators and reused theorem references are in the existing
 first-pass attempt; no new source claim or proof resulted from the reread. A4–A10/context manifests and
 findings remain committed privately, not smuggled into the refreshed #822.
+
+[PR #837](https://github.com/moritzbrantner/truth-core/pull/837) delivered
+the A2 readings at `3ad5cf0aceb9701c3b6981717d0c4f365f2490d2`, branch
+`research/necessarybeing-a2-readings-20261101`, disk-backed count worktree.
+All required checks in run `41253191382` and exact-head review passed before
+merge `4b2053126534431b7b062f02d6055064a97258c2`. Five claims, four new
+unbound statements, three source glosses and a disambiguation reuse three
+existing public witness bindings. Thirteen artifacts match research bytes;
+three public queue/attempt/inventory updates preserve the public baseline and
+exclude seventy-four later private pages. Public source/corpus/materialize/
+docs checks pass (394 unchanged passages, 1668 claims). Separate fidelity
+review materialized/read source/context and independently SHA-checked raw HTML
+tooltips; root read P1/C bytes and checked public baseline preservation.
+P1 is only a question/choices: negative-answer attribution is explicitly
+conditional, not actual assent or truth. C5's narrower capability domain,
+member rather than collective causation, isolated source versus relational
+head, and individual/joint/modal scope remain distinct. No old LocalCausal-
+Principle type, source pin, proof, inference or root frontier is changed.
+The research merge keeps local witness-search success separate from the public
+remaining-witness delivery boundary; no source findings were discarded.
 
 `EMPTY-HISTORY-CAUSAL-AVAILABILITY` was first verified privately at
 `15cc2bef`: six explicit inputs and the unchanged Arena/individual/fact
