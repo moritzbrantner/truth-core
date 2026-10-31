@@ -1,0 +1,39 @@
+{
+  "premise_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "conclusion_statement_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "definition_ids": [
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ],
+  "id": "WHOLE-ROSTER-FROM-CUT",
+  "inference_ids": [
+    "INF-WHOLE-ROSTER-FROM-CUT"
+  ],
+  "meaning": "Apply the existing all-subsets borrowing cut once at Set.univ. Either its intrinsic witness contradicts whole-roster Trap or its escaping contributor contradicts Trap. This is implication to a whole-roster restriction, not a proof of either norm’s actual truth."
+}

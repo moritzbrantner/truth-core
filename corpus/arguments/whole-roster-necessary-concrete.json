@@ -1,0 +1,42 @@
+{
+  "id": "WHOLE-ROSTER-NECESSARY-CONCRETE",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-WHOLE-ROSTER-NECESSARY-CONCRETE"
+  ],
+  "meaning": "Actual population and whole-roster nontrapping yield a source of the selected actual concrete relation: otherwise nonempty contributor records make the whole roster a Trap. Contingent dependence and explicit excluded middle exclude contingency of that same actual root, yielding existing NecessaryConcreteAt. No all-subsets cut, WF or inductive Supply assumption is used. No uniqueness, full explanatory completion or independent premise defense is asserted.",
+  "definition_ids": [
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

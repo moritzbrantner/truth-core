@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+  "term": "whole actual concrete roster not trapped in borrowing",
+  "definition": "If the entire actual concrete roster at w is nonempty, that entire roster is not a borrowing Trap under the recorded selected grounding graph, with intrinsic interpreted as graph sourcehood. Only Set.univ is tested: no condition on proper subsets, all-branch well-foundedness or finite chain lengths is imposed. This graph-source interpretation and its application to real existential explanation remain open, and are not automatically identified with the owner\u2019s verbal explanatory commitment.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.WholeRosterFoundation.WholeRosterNotTrapped",
+  "note": "Reuses Trap, recorded and the actual concrete graph without changing their semantics. Actual population is separate. Nontrapping does not promise full explanatory completion; the chosen Source predicate is relative to the selected actual-concrete grounding relation, not absolute independence. No new source attribution."
+}

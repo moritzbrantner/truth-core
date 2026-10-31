@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-WHOLE-ROSTER-FOUNDATION-20261031",
+  "statement_ids": [
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING"
+  ],
+  "date": "2026-10-31",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Scope correction prompted by owner: no-self-justifying whole borrowed structure is no longer represented only by the much stronger all-subsets Escape/WF condition. New WholeRosterNotTrapped tests precisely the complete actual roster Set.univ with existing Trap/recorded/graph/Source semantics. Proved old cut implies this single test. Population plus whole-roster nontrapping yields an actual root directly: if none is a source, all roster members are nonintrinsic and each nonempty recorded contributor set meets univ, making it a Trap. Explicit EM and existing contingent-root exclusion give the SAME necessary actual root; no WF or inductive Supply is used. Existing necessaryRootIsMaximumOfRoot/per-se/tertia-via convergence and prior bridge give existing MaximumInBeingIsFirstBeing. Challenge frozen before Solution, SHA256 37350e4d859f34fafaf731c0823bf45f7e861fdf8b9f1758fe9bad4352bc9b93. Locked focused worker_env build of WholeRosterFoundation.Solution passes. No new models/source claims or old public theorem edits. Claim/type self-sweep: no maximum existence, all-chains-finite, proper-subsets foundation, actual truth, absolute underivedness or full explanatory completion follows. This materially reduces the foundation scope; no strict/minimal complete-bundle claim is made, since old first-being theorem lacked population. Owner’s verbal commitment is not automatically identified with selected graph Source. Under population and EM the new norm requires some source of the chosen relation; it does not independently warrant that interpretation. No philosophical premise truth discharge; root-frontier comparison is recorded in the integration handoff. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Coordinator integration: full lake build passes (4266 jobs), exact binding reports 765 bound, 2 existing pins and zero mismatches. All five new results and three affected existing results pass Comparator and independent NanoDa. Supplied-root helper explicitly names the same n in its conclusion; no existential witness substitution. Final policy resolution sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "evidence": [
+    "WHOLE-ROSTER-FROM-CUT",
+    "WHOLE-ROSTER-NECESSARY-CONCRETE",
+    "WHOLE-ROSTER-FIRST-BEING"
+  ],
+  "blocker": "Independent defense/application of the chosen existential-grounding Source interpretation and whole-roster norm remains open; all old contingent-dependence and convergence/prior bridges retained."
+}

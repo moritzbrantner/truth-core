@@ -121,6 +121,28 @@ theorem isNecessaryPerSeOfRoot (m : Profile W B) (w : W) (x : B)
 /-! ## Composition with the tertia via -/
 
 /-- Adding the bridge into the selected relation and the tertia via's convergence
+premises at the modal reading, for the SUPPLIED actual necessary root. The
+conclusion names n explicitly so downstream composition cannot lose its identity.
+No maximum is asserted to exist. -/
+theorem necessaryRootIsMaximumOfRoot (m : Profile W B) (w : W) (CausesNecessityOf : B → B → Prop)
+    (InAct : B → Respect → Prop) (MoreIn : Respect → B → B → Prop)
+    (CausesIn : B → B → Respect → Prop) (esse : Respect)
+    (n : B) (hr : ActualRoot m w n) (hn : NecessaryAt m.ontic w n)
+    (hEM : ExcludedMiddle)
+    (hBridge : NecessityCausesAreActualConcreteGrounds m w CausesNecessityOf)
+    (hGenus : MaximumInGenusCausesAllInGenusReading InAct MoreIn CausesIn)
+    (hHasBeing : NecessaryBeingHasBeing (modalPossible m w) (modalIsAt m) InAct esse)
+    (hCause : CauseOfNecessaryBeingCausesItsNecessity (modalPossible m w) (modalIsAt m)
+      CausesIn esse CausesNecessityOf) :
+    IsNecessaryPerSe (modalPossible m w) (modalIsAt m) CausesNecessityOf n ∧
+      ∀ y, IsMaximumIn InAct MoreIn esse y → y = n := by
+  have hPerSe := isNecessaryPerSeOfRoot m w n CausesNecessityOf hBridge hr hn
+  refine ⟨hPerSe, fun y hy => ?_⟩
+  exact (TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.necessaryPerSeIsMaximeEns
+    (modalPossible m w) (modalIsAt m) CausesNecessityOf InAct MoreIn CausesIn esse
+    hGenus hHasBeing hCause hEM n hPerSe y hy).symm
+
+/-- Adding the bridge into the selected relation and the tertia via's convergence
 premises at the modal reading: one necessary actual root is necessary per se, and
 every maximum in being, if any exists, is identical with it. -/
 theorem necessaryRootIsMaximum (m : Profile W B) (w : W) (CausesNecessityOf : B → B → Prop)
@@ -135,11 +157,9 @@ theorem necessaryRootIsMaximum (m : Profile W B) (w : W) (CausesNecessityOf : B 
       CausesIn esse CausesNecessityOf) :
     NecessaryRootIsMaximumAt m w CausesNecessityOf InAct MoreIn esse := by
   obtain ⟨n, hr, hn⟩ := necessaryActualRootOfGrounded m w hPop hWF hDep hEM
-  have hPerSe := isNecessaryPerSeOfRoot m w n CausesNecessityOf hBridge hr hn
-  refine ⟨n, hr, hn, hPerSe, fun y hy => ?_⟩
-  exact (TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.necessaryPerSeIsMaximeEns
-    (modalPossible m w) (modalIsAt m) CausesNecessityOf InAct MoreIn CausesIn esse
-    hGenus hHasBeing hCause hEM n hPerSe y hy).symm
+  obtain ⟨hPerSe, hIdent⟩ := necessaryRootIsMaximumOfRoot m w CausesNecessityOf
+    InAct MoreIn CausesIn esse n hr hn hEM hBridge hGenus hHasBeing hCause
+  exact ⟨n, hr, hn, hPerSe, hIdent⟩
 
 /-- The route premise `MaximumInBeingIsFirstBeing` from the necessary root. There
 is no inhabitedness hypothesis: anything simply prior to a maximum and other than

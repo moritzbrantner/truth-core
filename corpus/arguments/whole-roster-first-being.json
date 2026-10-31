@@ -1,0 +1,47 @@
+{
+  "id": "WHOLE-ROSTER-FIRST-BEING",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "inference_ids": [
+    "INF-WHOLE-ROSTER-FIRST-BEING"
+  ],
+  "meaning": "Extract the same actual necessary root from population, whole-roster nontrapping, contingent dependence and explicit excluded middle. Reuse necessaryRootIsMaximumOfRoot, its per-se helper and imported tertia-via convergence; the retained simply-prior bridge contradicts rootness for any distinct predecessor of a maximum. This proves existing MaximumInBeingIsFirstBeing, without asserting a maximum exists. All old convergence/prior bridges remain open. Whole-roster restriction removes the all-subsets demand; no strict/minimal complete-bundle comparison is claimed, since the old first-being theorem did not require population.",
+  "definition_ids": [
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-MAXIME-ENS",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-FIRST-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-CAUSE",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

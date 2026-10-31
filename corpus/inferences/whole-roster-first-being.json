@@ -1,0 +1,22 @@
+{
+  "id": "INF-WHOLE-ROSTER-FIRST-BEING",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "rule": "constructive-proof",
+  "meaning": "Extract the same actual necessary root from population, whole-roster nontrapping, contingent dependence and explicit excluded middle. Reuse necessaryRootIsMaximumOfRoot, its per-se helper and imported tertia-via convergence; the retained simply-prior bridge contradicts rootness for any distinct predecessor of a maximum. This proves existing MaximumInBeingIsFirstBeing, without asserting a maximum exists. All old convergence/prior bridges remain open. Whole-roster restriction removes the all-subsets demand; no strict/minimal complete-bundle comparison is claimed, since the old first-being theorem did not require population.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

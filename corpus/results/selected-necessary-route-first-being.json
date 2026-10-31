@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-NECESSARY-ROUTE-FIRST-BEING",
+  "argument_id": "SELECTED-NECESSARY-ROUTE-FIRST-BEING",
+  "challenge_module": "TruthCore.Results.Causality.SelectedNecessaryRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelectedNecessaryRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.SelectedNecessaryRoute.maximumFirstOfNecessaryRoot",
+  "comparator_config": "results/SELECTED-NECESSARY-ROUTE-FIRST-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing selected complete-cone necessary-root theorem with the existing modal/per-se convergence proof, preserving its actual necessary root witness. The retained simply-prior bridge makes any distinct predecessor of a maximum an actual ground of that same root, contradicting rootness. No maximum existence is proved. Global grounding well-foundedness and contingent coverage are replaced by their complete-cone restrictions, with selected actuality explicit. This connects results and discharges no philosophical premise; no minimal-bundle or strict-strength claim is made. Excluded middle remains an explicit premise. The theorem passes exact premise binding, zero-permitted-axiom Comparator and independent NanoDa verification."
+}

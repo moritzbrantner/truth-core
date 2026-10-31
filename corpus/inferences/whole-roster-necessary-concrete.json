@@ -1,0 +1,17 @@
+{
+  "id": "INF-WHOLE-ROSTER-NECESSARY-CONCRETE",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "constructive-proof",
+  "meaning": "Actual population and whole-roster nontrapping yield a source of the selected actual concrete relation: otherwise nonempty contributor records make the whole roster a Trap. Contingent dependence and explicit excluded middle exclude contingency of that same actual root, yielding existing NecessaryConcreteAt. No all-subsets cut, WF or inductive Supply assumption is used. No uniqueness, full explanatory completion or independent premise defense is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

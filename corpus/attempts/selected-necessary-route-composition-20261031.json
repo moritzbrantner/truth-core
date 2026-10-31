@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-SELECTED-NECESSARY-ROUTE-COMPOSITION-20261031",
+  "statement_ids": [
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING"
+  ],
+  "date": "2026-10-31",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Source-free composition: factored existing necessaryRootIsMaximum proof into necessaryRootIsMaximumOfRoot, preserving all old public theorem types. New selected-cone Solutions import SelectedAncestry.necessaryRootAncestor and pass its same actual concrete necessary root to the existing per-se helper and tertia-via convergence proof; the first-being theorem then contradicts that rootness using SimplyPriorIsActualConcreteGround. Challenge frozen before Solution, SHA256 406960b6481345d1ef1f26160577cc49321369a0fb8bf911b74cf2527a0462ad. Focused locked worker_env lake build of SelectedNecessaryRoute.Solution passes (including changed helper module). Complete-cone WF and contingent coverage replace their global counterparts; selected actuality is explicit, EM and all convergence/prior bridges retained. No maximum existence, minimal/strict bundle comparison, independent premise defense or root-premise truth discharge claimed. Reuses existing statement/definition identities; no new vocabulary or source readings. Claim/type self-sweep: existential witness is actual/root/necessary/per-se and identifies every maximum conditionally, not proof a maximum exists; first-being is universal conditional and retains explicit actual selection unlike old first-being theorem. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Coordinator integration: full lake build passes (4266 jobs), exact binding reports 765 bound, 2 existing pins and zero mismatches. All five new results and three affected existing results pass Comparator and independent NanoDa. Supplied-root helper explicitly names the same n in its conclusion; no existential witness substitution. Final policy resolution sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "evidence": [
+    "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+    "SELECTED-NECESSARY-ROUTE-MAXIMUM",
+    "SELECTED-NECESSARY-ROUTE-FIRST-BEING"
+  ],
+  "blocker": "All philosophical application premises remain open. This connects local-ancestry results to an existing route premise; root route cost changes require coordinator frontier recomputation and must not be described as truth discharge."
+}

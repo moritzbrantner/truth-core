@@ -1,0 +1,14 @@
+{
+  "id": "INF-WHOLE-ROSTER-FROM-CUT",
+  "input_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "output_statement_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "rule": "constructive-proof",
+  "meaning": "Apply the existing all-subsets borrowing cut once at Set.univ. Either its intrinsic witness contradicts whole-roster Trap or its escaping contributor contradicts Trap. This is implication to a whole-roster restriction, not a proof of either norm’s actual truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

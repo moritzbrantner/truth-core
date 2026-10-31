@@ -1,0 +1,10 @@
+{
+  "id": "WHOLE-ROSTER-FIRST-BEING",
+  "argument_id": "WHOLE-ROSTER-FIRST-BEING",
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.WholeRosterFoundation.maximumFirst",
+  "comparator_config": "results/WHOLE-ROSTER-FIRST-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Extract the same actual necessary root from population, whole-roster nontrapping, contingent dependence and explicit excluded middle. Reuse necessaryRootIsMaximumOfRoot, its per-se helper and imported tertia-via convergence; the retained simply-prior bridge contradicts rootness for any distinct predecessor of a maximum. This proves existing MaximumInBeingIsFirstBeing, without asserting a maximum exists. All old convergence/prior bridges remain open. Whole-roster restriction removes the all-subsets demand; no strict/minimal complete-bundle comparison is claimed, since the old first-being theorem did not require population."
+}
