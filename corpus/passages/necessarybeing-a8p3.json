@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a8p3.html",
+    "retrieved_at": "2026-10-31T19:46:35Z",
+    "sha256": "sha256:0448e53dabbb7312a34d4843ffc292cc04d18eb967c2a8ae30f4dea057f49c21",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A8P3",
+      "locator": "A8P3, complete interactive page",
+      "claim_locator_prefixes": [
+        "A8P3,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is the property of possibly not existing limiting?"
+        }
+      },
+      "text_sha256": "sha256:b18a9fe20b74ad5b84e473a0a1dd4e84296cd4504750bdb70ff94dc071b981b8",
+      "incipit": "Is the property of possibly not existing limiting?\nIt seems so\nIt seems not"
+    }
+  ]
+}
