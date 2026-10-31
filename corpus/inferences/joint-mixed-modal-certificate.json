@@ -1,0 +1,24 @@
+{
+  "id": "INF-JOINT-MIXED-MODAL-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-JOINT-MIXED-MODAL-CERTIFICATE",
+  "rule": "direct-proof",
+  "meaning": "Reuse the unchanged existing ground false model: necessary ground fact and contingent choice fact have a contingent conjunction while an actual necessary individual remains. Applies the general joint-condition theorem. This witnesses the owner’s necessary-plus-contingent case without treating joint contingency as a refutation of necessary individuals or certifying adequate explanation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

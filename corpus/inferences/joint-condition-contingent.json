@@ -1,0 +1,27 @@
+{
+  "id": "INF-JOINT-CONDITION-CONTINGENT",
+  "input_statement_ids": [
+    "STMT-JOINT-CONDITION-ACTUAL",
+    "STMT-JOINT-CONTINGENT-MEMBER"
+  ],
+  "output_statement_id": "STMT-JOINT-CONDITION-CONTINGENT",
+  "rule": "direct-proof",
+  "meaning": "Actual joint truth plus one contingent required member makes the fixed conjunction contingent. The same accessible world lacking that member lacks the conjunction. No necessary-member premise is needed; if present it remains compatible with the conclusion. No effect contingency, causation or new joint being is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

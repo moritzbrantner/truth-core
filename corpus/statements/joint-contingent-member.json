@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-CONTINGENT-MEMBER",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.ContingentMember",
+  "paraphrase": "Some f belongs to S and satisfies the existing Contingent A w f: it holds actually and fails at an accessible world. This does not say that every member is contingent or that f is individually sufficient or indispensable for an effect.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

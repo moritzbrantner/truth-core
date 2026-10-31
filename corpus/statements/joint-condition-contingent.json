@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-CONDITION-CONTINGENT",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.JointContingent",
+  "paraphrase": "The fixed selected conjunction actually holds and fails at some accessible world. It is a proposition about the same required conditions, not a contingent group-being or a claim that every member is contingent.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

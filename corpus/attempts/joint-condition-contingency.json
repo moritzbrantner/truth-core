@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-JOINT-CONDITION-CONTINGENCY",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-JOINT-CONDITION-ACTUAL",
+    "STMT-JOINT-CONTINGENT-MEMBER",
+    "STMT-JOINT-CONDITION-CONTINGENT",
+    "STMT-JOINT-NECESSITY-MEMBERWISE",
+    "STMT-JOINT-MIXED-MODAL-CERTIFICATE",
+    "STMT-JOINT-COOPERATION-CERTIFICATE",
+    "STMT-PSR-STRENGTH-MAP"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner proposes compressing multiple causes into one joint cause. Formalized the exact fixed-conjunction reading using the existing Arena and a Set of facts, with no new fact/being domain member. Actual joint truth plus one contingent member yields joint contingency; joint necessity is equivalent to memberwise necessity. Reused the unchanged #755 ground false interpretation to check a necessary member plus contingent member, retaining its actual necessary individual. Rejected reifying the conjunction as a causal substance, inferring all members contingent, inferring effect contingency, conflating alternative sufficient groups with one conjunction, and transferring source existence necessity to its activity. Existing #755 BCCF/necessitating-reason lemmas and #744 cooperation semantics audited. Initial focused build lacked a Set import; added approved Mathlib Set.Defs, with no semantic or Challenge change. Focused and full builds pass. All three Comparator configs and independent NanoDa checks pass with zero permitted axioms; all three axiom reports are empty. Full binding: 737 bound results,2 existing pins,0 mismatches, all three new results exact. Root-route and reaching-root outputs are byte-identical (11 routes,62 open). Source/corpus/generator/diff checks pass. The existing integration note and #697 candidate preserve the owner’s next uniqueness priority and distinguish all-necessary-being from ultimate-ground uniqueness. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Logical compression does not defend causal sufficiency, full-condition completeness, PSR or existential grounding. A necessary source can coexist with the contingent joint condition. Uniqueness remains a separate research target, not a premise.",
+  "evidence": [
+    "JOINT-CONDITION-CONTINGENT",
+    "JOINT-NECESSITY-MEMBERWISE",
+    "JOINT-MIXED-MODAL-CERTIFICATE"
+  ]
+}

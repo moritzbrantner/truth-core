@@ -1,0 +1,24 @@
+{
+  "id": "JOINT-NECESSITY-MEMBERWISE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-JOINT-NECESSITY-MEMBERWISE",
+  "inference_ids": [
+    "INF-JOINT-NECESSITY-MEMBERWISE"
+  ],
+  "meaning": "Joint necessity of a fixed collection is memberwise necessity by interchange of universal quantifiers. No actual existence, causal cooperation, finite roster or S5 premise is assumed.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

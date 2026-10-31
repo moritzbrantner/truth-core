@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-MIXED-MODAL-CERTIFICATE",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.MixedCertificate",
+  "paraphrase": "Reuse exactly PSRStrength.ground false. The ground fact holds at every world, choice is contingent at false, their fixed two-member joint condition is contingent at false, and the original ontic domain still contains an actual necessary ground individual. No old truth, cause or reason relation is changed; this is a formal consistency witness, not proof of metaphysical adequacy.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+  "term": "necessary member and contingent joint condition in the existing ground model",
+  "definition": "Reuse exactly PSRStrength.ground false. The ground fact holds at every world, choice is contingent at false, their fixed two-member joint condition is contingent at false, and the original ontic domain still contains an actual necessary ground individual. No old truth, cause or reason relation is changed; this is a formal consistency witness, not proof of metaphysical adequacy.",
+  "basis": "stipulative",
+  "note": "Owner-proposed simplification on 2026-10-31. Logical conjunction packaging, not a new causal substance or an attributed historical claim. Exact meaning, examples, fixed-roster/alternative-cause distinctions, structural justification and open explanatory application: docs/notes/underived-essence-identity.md, joint-condition compression section.",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.MixedCertificate"
+}

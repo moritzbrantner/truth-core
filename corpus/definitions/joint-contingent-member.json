@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-CONTINGENT-MEMBER",
+  "term": "a contingent member of the fixed joint condition",
+  "definition": "Some f belongs to S and satisfies the existing Contingent A w f: it holds actually and fails at an accessible world. This does not say that every member is contingent or that f is individually sufficient or indispensable for an effect.",
+  "basis": "stipulative",
+  "note": "Owner-proposed simplification on 2026-10-31. Logical conjunction packaging, not a new causal substance or an attributed historical claim. Exact meaning, examples, fixed-roster/alternative-cause distinctions, structural justification and open explanatory application: docs/notes/underived-essence-identity.md, joint-condition compression section.",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.ContingentMember"
+}

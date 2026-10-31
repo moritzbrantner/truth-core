@@ -346,6 +346,29 @@ record certificate remain separate from source fidelity. No root-premise
 discharge is claimed. Actual truth, essential status and bearer realization are
 still needed before the extracted label can support a necessary-being claim.
 
+## Joint-condition compression and the next attribute target
+
+The owner's simplification is now explicit: a fixed conjunction of actual
+conditions with at least one contingent member is contingent, even if another
+member is necessary (`JOINT-CONDITION-CONTINGENT`). Conversely joint necessity
+is exactly necessity of every member (`JOINT-NECESSITY-MEMBERWISE`). The existing
+#755 ground model checks the necessary-plus-contingent case while retaining its
+necessary individual (`JOINT-MIXED-MODAL-CERTIFICATE`). This packages a full
+condition without adding a group-being. It neither makes every constituent
+contingent nor proves a contingent joint condition adequately explained. See
+`docs/notes/underived-essence-identity.md` for the exact scope and application.
+
+The owner requests **uniqueness as the next attribute investigation once the
+existence results are consolidated**. Reuse #697 and the existing
+`UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE` candidate and
+`docs/notes/necessary-simple-plurality.md`; do not start another general survey.
+Keep the literal claim that exactly one being is necessary distinct from
+uniqueness of an ultimate necessary ground. A dependent being may be necessary,
+and root-uniqueness is not by itself uniqueness of all necessary beings. The
+existing two-root/common-nature/individuation controls and positive Q11
+compositions determine the next concrete obligations. The requested uniqueness
+is a target to prove, not an accepted premise or an accomplished attribute.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the
