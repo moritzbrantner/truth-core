@@ -1,0 +1,35 @@
+{
+  "id": "STMT-NECESSARY-FIRST-BEING-FIRST",
+  "paraphrase": "Some n is an actual concretum at w, has no actual concrete ground under the selected relation there, exists at each world accessible from w, and has no distinct simply-prior predecessor. No uniqueness, maximum, God identification, universal causality or other-world rootness is asserted.",
+  "lean_declaration": "TruthCore.Causality.NecessaryFirstBeing.NecessaryActualFirstAt",
+  "definition_ids": [
+    "DEF-NECESSARY-FIRST-BEING-FIRST",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-IN-ACT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NECESSARY",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE"
+  ]
+}

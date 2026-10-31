@@ -1,0 +1,17 @@
+{
+  "id": "INF-NECESSARY-FIRST-BEING-PURE-ACT",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "output_statement_id": "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
+  "rule": "constructive-proof",
+  "meaning": "Preserve the actual necessary root from WholeRosterFoundation.necessaryActualRoot; a distinct simply-prior predecessor gives a forbidden actual concrete ground through the open correspondence bridge. Apply the imported FirstBeingNoPotency.firstBeingNoPotency theorem to this same first witness under act-priority and same-respect exclusivity. No maximum/convergence premise is used for this different conclusion. Relation applicability and the listed philosophical premises remain open; no premise is independently defended or discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

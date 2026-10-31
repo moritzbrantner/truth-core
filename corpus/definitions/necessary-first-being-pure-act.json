@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-FIRST-BEING-PURE-ACT",
+  "term": "actual necessary first being without potency",
+  "definition": "Some n is an actual concretum at w, has no actual concrete ground under the selected relation there, exists at each world accessible from w, and has no distinct simply-prior predecessor. This same n is in potency in no supplied respect (the existing PureAct predicate), without asserting any positive InAct perfection or completeness of the respect domain. No uniqueness, maximum, God identification, universal causality or other-world rootness is asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NecessaryFirstBeing.NecessaryActualFirstPureActAt",
+  "note": "A source-free conjunction packaging existing predicates for a conditional composition, not a new metaphysical relation. Existing firstness and no-potency source readings retain their own records. Independent sourcing would have to defend the selected grounding interpretation, simply-prior correspondence and input premises for the same actual candidates; naming this conjunction does not establish those commitments. Necessity modifies the same bearer’s existence. Firstness and absence of potency use the supplied predicates; no additional theorem asserts their modal invariance across worlds."
+}
