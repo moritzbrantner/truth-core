@@ -30,7 +30,11 @@ production urllib downloader both before and after the two eLife archives;
 all four matched existing pins without redirects. A subsequent TLS-verified
 curl connection timed out before HTTP. This supports transport unreliability,
 not a URL/pin repair or reproduction of the original urllib handshake failure.
-One evidence-backed failed-job rerun is now pending on the same exact PR head.
+The evidence-backed third attempt on the same exact head failed again at
+Koons: live HTTP403, archive connection refused (job124638194182). No fourth
+identical rerun is scheduled. All pre-source checks and other required jobs
+remain successful. A bounded transport/request-order diagnosis is active; no
+pin change or relaxed source gate is justified.
 Artifacts are retained for three days; precise diagnostic metadata was inspected.
 Pins, hash acceptance, fallback and trusted-cache logic are unchanged.
 Next concrete step: land #823 after its checks/review, merge main into the
@@ -47,9 +51,11 @@ situations do not entail nonempty contingent individuals, and individually
 possible causes do not entail joint causation. The source candidate begins A6,
 then retains the unfinished A7 question/alternate ranges before A8–A10.
 A6 eight-page source-only reading is complete in the existing survey records;
-no pending owner selection is inferred. The queued next range is remaining A7
-questions/alternates, then A8–A10, with earlier witness coverage reconciliation
-before campaign completion.
+no pending owner selection is inferred. A7 remaining eight pages were committed as `4cde10d6` and all eight passed
+live verification. They explicitly require the cause to exist before its target
+situation obtains; the count transcription alone still supplies no causal
+witness. A8 source reading is active, followed by A9–A10 and earlier witness
+coverage reconciliation before campaign completion.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and
