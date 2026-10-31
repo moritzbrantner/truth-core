@@ -325,6 +325,23 @@ actual causal role and connects to the shared necessary-being interface, but
 its external whole-cause premise is not a new defense of ultimate adequacy or
 of the selected-ancestry grounding relation.
 
+## Direct source refinement: existential ingredients in mixed grounds
+
+The next source step is now more precise. The freshly pinned/read Dasgupta
+*Metaphysical Rationalism* §9,397 requires **at least one** positive- or
+essential-existence fact among grounds of an existence fact; it does not require
+all contributors to be existence facts. The open reading is
+`STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT`. A selected existential spine
+through mixed grounds is therefore the weaker application to investigate.
+An ingredient alone need not be a sufficient explanation. His note44's positive
+qualitative-ground proposal challenges this extra premise, rather than merely
+accepting brute existence. It targets own-nature essential existence; it does
+not by itself refute bare modal necessity under his additional necessitarian
+assumptions. Exact source locators, rejected stronger readings, the independent
+modal assumptions, and the symmetric burden argument are preserved in
+`docs/notes/underived-essence-identity.md`. Two source readings are registered;
+no new Lean result or root-premise discharge is claimed by that source audit.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

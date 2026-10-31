@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE",
+  "term": "necessary existence by own nature versus accessible-world necessity",
+  "sense_definition_ids": [
+    "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct."
+}

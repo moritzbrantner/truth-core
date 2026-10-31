@@ -1,0 +1,11 @@
+{
+  "id": "DASGUPTA-EXISTENCE-GROUND-INGREDIENT",
+  "statement_id": "STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT",
+  "source_id": "DASGUPTA-METAPHYSICAL-RATIONALISM-2016",
+  "locator": "§9, p.397, paragraph beginning Now suppose (premise)",
+  "interpretation": "The author explicitly introduces an additional premise requiring at least some ground facts to be existence facts, after defining these to include positive existence and essential-existence facts. This is not a claim that all ground facts are existence facts, nor a defended unconditional theorem. The particles/arrangement illustration is motivation rather than universal verification.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ]
+}

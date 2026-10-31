@@ -1,0 +1,7 @@
+{
+  "id": "STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT",
+  "paraphrase": "Proposed premise: whenever some facts ground the fact that y exists, at least one of those grounding facts is an existence fact: either that some x exists, or that it is essential to some x that x exists. The premise permits additional grounding facts of other kinds and does not assert that any proposed ground actually obtains.",
+  "definition_ids": [
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ]
+}

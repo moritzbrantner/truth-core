@@ -305,8 +305,9 @@ opening §5 and surrounding §5.3 context; no claim to complete evaluation of
 §5's physics and modal theories.
 
 Pearce distinguishes rationalism from two additional theses: only real
-definitions terminate explanation, and existence facts have only existence
-facts as grounds (§1, 304–305). His numbered argument separately assumes
+definitions terminate explanation, and a restriction connecting existence grounds to existence
+facts (§1, 304–305). The direct Dasgupta reading below refines the strength
+needed for his own §9 argument. His numbered argument separately assumes
 necessary autonomous facts and contingent substantive facts (§3, 307).
 Section 4 argues that contingency licenses a why-question; it does not make
 actual grounding follow without rationalism. Section 6 distinguishes grounds
@@ -324,7 +325,7 @@ with an actually present concrete bearer.
    establish the real composition that the *De ente* argument discusses.
 2. **Autonomy is not a word for necessary concrete existence.** In the inspected
    Pearce argument, necessary autonomous *facts* are a separate premise.
-   Actual realization, the existence-fact-only-ground restriction and a
+   Actual realization, the existence-ingredient restriction and a
    concrete-bearer interpretation must each be defended. Classifying a
    contingent fact as apt for grounding supplies no actual ground by itself.
 3. **The enabling graph is not the grounding graph.** One-step grounding may
@@ -366,10 +367,97 @@ assuming the conclusion that every such existent is externally actualized.
 Compare that premise with the already recorded existential-inertia replacement
 in `docs/eternity-dependence-connection.md`; the latter's modern sources were
 not freshly read in this investigation. If an autonomous-essence route is
-pursued instead, defend existence-fact-only grounding and concrete realization
+pursued instead, defend existence-ingredient grounding and bearer/concrete realization
 explicitly. Preserve both routes rather than converting epistemic separability
 into modal contingency by definition.
 
 No Lean type, source claim or inference graph changed. Root-premise and
 configuration delta: none. Source integrity is newly reproducible; source
 fidelity and metaphysical applicability remain separate judgments.
+
+### Direct Dasgupta reading: one existential ingredient, not pure existence grounds
+
+New pinned author-hosted primary witness:
+`DASGUPTA-METAPHYSICAL-RATIONALISM-379-418`, Noûs 50(2) (2016), 379–418,
+DOI 10.1111/nous.12082. Two independent fetches matched raw and extracted hashes;
+the complete article was materialized. Reading scope: main text §§1–17,
+379–413, plus notes 22,28,32–33,42–46,53,65–68 (not a claim to have read every
+endnote/reference). Copyrighted text remains in the ignored source cache.
+
+**A weaker explicit application premise.** In §9,397, the author defines
+existence facts as either positive individual-existence facts or facts that
+existence is essential to an individual. He then introduces a premise that a
+ground of an individual's existence includes **at least some** existence facts.
+It need not consist entirely of them. The particles/arrangement illustration
+motivates this ingredient requirement without purporting to establish it for
+every metaphysical ground. `STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT`
+preserves the weaker reading as an OPEN source commitment, not a theorem.
+A prospective descent may follow one existential ingredient through mixed
+grounds rather than demand that every fact on every branch be an existence
+fact. No chosen ingredient alone is thereby a sufficient ground: the other
+contributors and conditions must be retained when assessing adequacy.
+
+**Autonomy is not literal self-grounding.** §§2–5,382–392 distinguish an
+apt-for-grounding fact left brute from a fact for which that grounding question
+does not arise. Core essentialist facts are proposed as autonomous by a working
+hypothesis (§4); mediated essential facts need not be autonomous. §9,397
+explicitly denies literal self-explanation in the same sense as ordinary
+constitutive grounding. Neither a loop nor productive self-causation is what
+this account proposes. Nor is it automatically the owner's unrestricted PSR:
+a claim that essential facts are not apt for this specific grounding question
+needs independent justification rather than an exemption secured by naming.
+
+**Positive claim versus modal surrogate.** §§7–9,394–398 distinguish necessity
+relative to one's own nature from necessity due to the natures of other things.
+`STMT-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE` records that distinction.
+NecessaryAt alone does not encode it. §13,402–403 defends the intelligibility
+of existence-entailing essential claims, contrasting them with conditional
+identity criteria evaluated in free logic. The author rejects a blanket ban on
+the former, but does not establish that a particular proposed nature exists.
+This is a positive response to one impossibility objection, not an existential
+proof by definition.
+
+**A serious competing explanation and its exact scope.** Note44,415 allows
+particular-existence facts to be grounded in predicate-functor facts, potentially
+essential facts about being F that need not concern any individual's existence.
+This challenges the extra existential-ingredient premise with a different
+proposed explanation, rather than merely refusing to explain. Its references to
+O'Leary-Hawthorne/Cortens and Dasgupta 2009 are leads, not directly read primary
+arguments here. Their truth and explanatory adequacy remain to be assessed.
+Crucially, note44 targets **own-nature necessary existence**. It is not a
+countermodel to bare accessible-world necessary existence under the author's
+additional necessitarian premises. The source's natural-number and spacetime
+examples in §9 are proposed ways of satisfying essential existence without
+divinity, not empirically established necessarily existing grounds. Necessary
+impersonal accounts therefore concern attributes and the nature of explanation,
+not an automatic rejection of the minimal necessary-being conclusion.
+
+**Do not smuggle necessitation into PSR.** §6,392–393 separately assumes that
+autonomous facts are necessary and complete grounds necessitate their results;
+note32 identifies the modal distribution step. Those are the extra commitments
+behind this source's necessitarian consequence, not consequences of the bare
+coverage principle. §§7–8 also distinguish relative, broad/amodal and ordinary
+world-relative necessity. The existing
+`BruteFoundationExplanations.necessaryReasonAndNecessitation` captures a related
+conditional pattern; it is not identified with this source's full ontology.
+Rejecting necessitation need not mean rejecting explanatory coverage, as the
+separately read Pearce argument emphasizes.
+
+**What the defense actually achieves.** §§12,16–17,401–402,409–413 dispute a
+presumption in favor of brute fundamentalism: a policy restricting which facts
+may be brute also owes justification. Note65 acknowledges that a disjunctive
+anti-PSR position is weaker than either specific alternative. The conclusion
+explicitly leaves a positive argument settling rationalism versus fundamentalism
+for another time. Thus this paper supports a symmetric burden-of-proof inquiry;
+it supplies neither a proof that PSR is true nor a contradiction of its denial.
+This matches the owner's requested comparison without treating every consistent
+alternative as an adequate explanation or assuming equal epistemic support.
+
+**Next consequential test.** Formalize/compose a selected existential-ingredient
+spine through mixed complete grounds using existing typed fact vocabulary and
+foundation results. Preserve the difference between a branch ingredient and a
+sufficient full ground, and between positive existence and essential existence.
+Before claiming reality applicability, assess the positive qualitative-ground
+proposal in note44 and justify the fact-to-bearer correspondence. Do not add
+concreteness, efficient causation or an actual support relation by fiat. This
+reduces a proposed structural demand; no existing root premise is discharged.
