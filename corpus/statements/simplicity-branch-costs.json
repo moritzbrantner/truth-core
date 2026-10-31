@@ -1,0 +1,17 @@
+{
+  "id": "STMT-SIMPLICITY-BRANCH-COSTS",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.BranchCosts",
+  "paraphrase": "Over the #755 arena: no fact true at every accessible world strictly suffices for a contingent fact. Any reason-closed founded account of a contingent fact has a reason that does not strictly suffice, is not contrast-relevant, and has a noncontingent reason for a contingent member. Three models delete one member each. In ground the source is necessary and admitted for a contingent target without sufficing; the account is closed and founded and not contrast-relevant. In relocated a contingent act is admitted for a contingent effect, suffices for it and is false at each world lacking it; the account is closed and founded, and every reason for the act holds at a world lacking the act, its reason being a necessary source that does not suffice for it, so the account is not contrast-relevant. In necessitarian the source is necessary, admitted and sufficing, no fact is contingent, the account is closed and founded, all its reasons necessitate, and contrast relevance holds vacuously. Admission as a reason does not imply strict sufficiency, and the first statement fires only on strict sufficiency. Models show satisfiability and none is a reading of divine simplicity; no standard is asserted, and no branch is excluded or preferred. No root premise is established.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-REASON-STRICTLY-SUFFICES",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-RIVALS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SIMPLICITY-EXPLAINS",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP"
+  ]
+}

@@ -53,6 +53,7 @@ import TruthCore.Results.Modal.S5.Laws.Solution
 import TruthCore.Results.Modal.S5.Projection.Solution
 import TruthCore.Results.Modal.S5.SymmetryBoundary.Solution
 import TruthCore.Results.Modal.SelectedEffectBridge.Solution
+import TruthCore.Results.Modal.SimplicityCollapse.Solution
 import TruthCore.Results.Modal.StandardCorrespondence.Solution
 import TruthCore.Results.Modal.StandardCorrespondenceCertificate.Solution
 import TruthCore.Results.Modal.T.Branching.Solution

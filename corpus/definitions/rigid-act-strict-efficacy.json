@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RIGID-ACT-STRICT-EFFICACY",
+  "term": "strict efficacy of a rigid act token",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.StrictEfficacy",
+  "definition": "For one Lean value a as the act and one being x as the effect: at every world accessible from w where a is performed, x exists. This is the box of a material conditional; it says nothing about production, and it is weaker than #462's StableActOutput with realization, which yields it.",
+  "note": "See docs/notes/simplicity-collapse-555.md. Stipulative analyst notion for #555; no source is claimed for it."
+}
