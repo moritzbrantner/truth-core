@@ -1,0 +1,10 @@
+{
+  "id": "COUNT-TEMPORAL-NECESSARY-BEING",
+  "argument_id": "COUNT-TEMPORAL-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.CountTemporalNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountTemporalNecessity.Solution",
+  "theorem": "TruthCore.Results.Causality.CountTemporalNecessity.necessaryBeing",
+  "comparator_config": "results/COUNT-TEMPORAL-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Six-input source-free composition. Instantiate existing NB-SURVEY-FIVE-TO-ONE at PossibleCount to obtain one guarded count-one caused threshold. Retain its SAME concrete cause c, history v and earlier time tc. If c were contingent at v, the constant map Fin 1 to c is injective and witnesses the forbidden count-one threshold at tc. Thus c is not contingent. The one-way history-presence bridge supplies actual existence at v; explicit EM converts accessible absence into contingency and contradiction, so SAME c is NecessaryAt v. Euclidean sibling access transports necessity to successors of w; actual reflexivity gives v access back to w, hence actual existence there. Project that very c into existing NecessaryBeing. No now-slice definition, universal frame, global PSR, WF, causal-to-grounding conversion or modal persistence of CauseCount is used. All semantic inputs remain OPEN; the imported count transcription is now connected to a structured witness inference, genuine conditional configuration progress without truth discharge. No weaker-overall-bundle/minimality, uniqueness, God, sufficient explanation or actual-world causal role is claimed."
+}
