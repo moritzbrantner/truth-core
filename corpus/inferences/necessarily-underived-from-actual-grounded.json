@@ -1,0 +1,16 @@
+{
+  "id": "INF-NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSARY-SUPPORT-IS-PRESENT",
+    "STMT-ACTUAL-SUPPORTERS-CONCRETE"
+  ],
+  "output_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "rule": "well-founded-descent-and-classical-case-analysis",
+  "meaning": "The whole route, in three steps. Inhabitedness and restricted well-foundedness give an actual root; the closing premise makes it necessary; present support and concrete supporters make it without existing supporter at any world. Compare NECESSARY-UNDERIVED-POSITIVE-LIFT, which assumes a necessary witness and well-foundedness of support by all existing supporters: this route derives the witness, and its well-foundedness is restricted to actual concreta. For that it pays with the closing premise and concrete supporters, and it takes present support in place of lifting. The conclusion asserts neither uniqueness nor any divine attribute. Each of the five non-logical premises is omitted in STMT-UNDERIVED-ROUTE-CONTROLS.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

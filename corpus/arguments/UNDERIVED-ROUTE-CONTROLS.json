@@ -1,0 +1,31 @@
+{
+  "id": "UNDERIVED-ROUTE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNDERIVED-ROUTE-CONTROLS",
+  "inference_ids": [
+    "INF-UNDERIVED-ROUTE-CONTROLS"
+  ],
+  "meaning": "Finite-model and natural-number constructions, and direct proofs of the two quantified implications. Each premise is needed, in that omitting it alone can defeat the conclusion in the encoded semantics, and the premises give neither unity nor a ground entailing its effect.",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARY-PREDECESSOR-LIFTING",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NO-NOVEL-NECESSARY-SUPPORT",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

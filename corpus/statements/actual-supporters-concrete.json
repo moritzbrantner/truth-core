@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ACTUAL-SUPPORTERS-CONCRETE",
+  "paraphrase": "Open premise, not attributed to any source: anything existing at w that supports, under the selected relation at w, a concrete individual existing at w is itself concrete. An existing abstract ground of an actual concretum would falsify it.",
+  "lean_declaration": "TruthCore.Causality.UnderivedRootRoute.ActualSupportersConcrete",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}
