@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-ESSENCE-MODAL-SOURCE-BRIDGE-545",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+  ],
+  "kind": "source-search",
+  "outcome": "blocked",
+  "summary": "Materialized/read full AQUINAS-DE-ENTE-C3-4 and newly pinned publisher CC-BY Pearce 2025 witness PEARCE-GROUNDING-INDETERMINISM-303-322 (two matching byte/text fetches; §§1–4 and6–7 plus selected §5 context read). Exact reading scope, locators, sourced observations, rejected interpretations and next discriminating question persist in docs/notes/underived-essence-identity.md. Rejected epistemic separability as an automatic modal-distinction proof; aptness as actual grounding; necessary essential facts as necessary concrete instances; enabling and grounding graph identity; memberwise coverage as arrangement coverage; and nonnecessitation as adequate relevance. Existing q3 causal transcription and PSR/adequacy/closure controls remain unchanged, not attributed as exact formalizations of Pearce. No new claim, Lean theorem or root premise discharge. Updated the existing modal-actuality bridge candidate rather than inventing a new proposition to log activity.",
+  "blocker": "The sources do not independently establish contingency-to-distinct/participated esse or actual concrete existential support. Defend De ente composition against an intrinsically intelligible contingent primitive, or separately defend existence-fact-only grounding and concrete realization in the autonomous-essence route.",
+  "evidence": [
+    "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+    "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+    "PSR-STRENGTH-MAP",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "EXPLANATORY-CLOSURE-CERTIFICATE"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PEARCE-GROUNDING-INDETERMINISM-2025",
+    "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DF300A3BD3E5F891F457108BDEFA47E/S2053447724000174a.pdf/metaphysical-rationalism-requires-grounding-indeterminism.pdf",
+    "retrieved_at": "2026-10-31T09:04:35Z",
+    "sha256": "sha256:1470bd44a48b2f006da652dd74dab5c8c21c8fa909e16f3a084359b88cc3dcc9",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© The Author(s), 2025. Published by Cambridge University Press on behalf of the American Philosophical Association. Creative Commons Attribution 4.0 (CC BY 4.0), as stated on PDF p.1. Two independent web-hashes fetches on 2026-10-31 matched byte and extracted-text hashes. Only metadata, hashes, locators and analytical paraphrases committed."
+  },
+  "passages": [
+    {
+      "id": "PEARCE-GROUNDING-INDETERMINISM-303-322",
+      "locator": "Journal of the American Philosophical Association 11(2) (2025), pp.303–322, §§1–7 and references (complete article)",
+      "claim_locator_prefixes": [
+        "§"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 20
+      },
+      "text_sha256": "sha256:914d35b4441cf3aee8e9b8ea7fe33a80c75c078838d418524fcac705643aa551",
+      "incipit": "Journal of the American Philosophical Association () – © The"
+    }
+  ]
+}

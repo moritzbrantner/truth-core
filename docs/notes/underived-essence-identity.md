@@ -272,3 +272,104 @@ Focused persistent-session evidence: preview HEAD
 diagnostics empty. The preview concatenated the new definition and solution
 modules and imported the already checked direct q3 result. This is development
 evidence; final build, binding, Comparator and NanoDa remain CI authorities.
+
+
+## Contingency, essence and autonomous grounds: source test (#545/#786)
+
+The proposed shortcut is: an actually existing but modally contingent bearer
+has esse distinct from essence, so the q.3 a.4 causal theorem applies. The
+existing q.3 profile has no modal frame. This source test asks whether the
+missing inference is independently supplied, while preserving its distinct
+presence/concreteness/support applications. It does not introduce another
+omnibus profile or a new philosophical claim merely to log the search.
+
+### Pinned readings
+
+`AQUINAS-DE-ENTE-C3-4` was materialized and read in full. At cap.3 [69874],
+the human/phoenix example distinguishes understanding a nature from knowing
+whether it is instantiated. The surrounding argument adds a composition rule,
+a unique subsistent-esse exception, a causal dichotomy, rejection of efficient
+self-production, and reduction of derivative causes to a first cause. The
+passage does not present an accessibility-relative contingency predicate.
+Cap.4 [69875] distinguishes subsistent esse from common predicable being and
+received esse from immaterial natures. These are relevant metaphysical
+commitments, rather than a definition of modal contingency.
+
+The new primary witness is `PEARCE-GROUNDING-INDETERMINISM-303-322`,
+[DOI:10.1017/apa.2024.17](https://doi.org/10.1017/apa.2024.17), Kenneth L.
+Pearce, *Journal of the American Philosophical Association* 11(2) (2025),
+303–322, publisher PDF under CC BY 4.0. Two independent fetches matched;
+materialization verified the complete 20-page extraction. Reading scope for
+this investigation: §§1–4 (304–308), §6 (316–318), §7 (318–319), with the
+opening §5 and surrounding §5.3 context; no claim to complete evaluation of
+§5's physics and modal theories.
+
+Pearce distinguishes rationalism from two additional theses: only real
+definitions terminate explanation, and existence facts have only existence
+facts as grounds (§1, 304–305). His numbered argument separately assumes
+necessary autonomous facts and contingent substantive facts (§3, 307).
+Section 4 argues that contingency licenses a why-question; it does not make
+actual grounding follow without rationalism. Section 6 distinguishes grounds
+from enabling circumstances and considers cycles/regresses of the latter
+while grounding chains terminate. His reply renews the demand for explanation
+of the obtaining arrangement. Section 7 defends nonnecessitating explanation;
+it offers no rule identifying fact-grounding with efficient cause-in-esse or
+with an actually present concrete bearer.
+
+### Fidelity and rejected shortcuts
+
+1. **Epistemic separability is not yet a modal bridge.** Moving from understanding
+   a nature without knowing its instantiation to an absent accessible world
+   needs an additional argument. Nor does representing absence at a world
+   establish the real composition that the *De ente* argument discusses.
+2. **Autonomy is not a word for necessary concrete existence.** In the inspected
+   Pearce argument, necessary autonomous *facts* are a separate premise.
+   Actual realization, the existence-fact-only-ground restriction and a
+   concrete-bearer interpretation must each be defended. Classifying a
+   contingent fact as apt for grounding supplies no actual ground by itself.
+3. **The enabling graph is not the grounding graph.** One-step grounding may
+   coexist with cyclic or infinite enabling conditions in the source's
+   proposed circumstantialist reply. Transitivity across the two relations
+   is disputed explicitly. A generic WF theorem cannot silently be applied
+   to their union.
+4. **Arrangement coverage is a substantive further burden.** Demanding an
+   explanation of the arrangement invokes a fact/domain/coverage principle;
+   memberwise coverage alone does not supply it. The existing #755 strength
+   map and #781 closure certificate are controls on that inference, not an
+   attribution that Pearce accepts their exact definitions or premises.
+5. **Nonnecessitation does not by itself give relevance.** The source supplies
+   a positive defense to assess against necessitating rivals, not a proof
+   that any necessary token adequately explains any contingent existent.
+   The #750 `ground`/`law` matched reduct remains applicable. Personal and
+   impersonal ground labels do not supply the missing explanatory mechanism.
+
+No source inspected here discharges contingency-to-distinct/participated esse
+or the concrete-support interface. This is a failed attempt to obtain that
+bridge directly from these witnesses, not a proof that no argument can supply
+it. The existing metaphysical commitments remain candidates for independent
+defense; neither the modern source nor a successful materialization establishes
+their truth.
+
+### Reuse and next discriminating question
+
+`STMT-EVERY-CONTINGENT-GROUNDED-AT` still requires a concrete supporter present
+at the selected world. `STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY` concerns a
+subject already shown to have distinct esse. The existing
+`Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE` remains a conditional transcription;
+`PSR-STRENGTH-MAP`, `EXPLANATORY-ADEQUACY-CORE` and
+`EXPLANATORY-CLOSURE-CERTIFICATE` remain independent formal controls. None is
+relabelled as a complete formalization of Pearce's argument.
+
+The next question is whether the *De ente* composition premise can be defended
+against an intrinsically intelligible contingent primitive **without**
+assuming the conclusion that every such existent is externally actualized.
+Compare that premise with the already recorded existential-inertia replacement
+in `docs/eternity-dependence-connection.md`; the latter's modern sources were
+not freshly read in this investigation. If an autonomous-essence route is
+pursued instead, defend existence-fact-only grounding and concrete realization
+explicitly. Preserve both routes rather than converting epistemic separability
+into modal contingency by definition.
+
+No Lean type, source claim or inference graph changed. Root-premise and
+configuration delta: none. Source integrity is newly reproducible; source
+fidelity and metaphysical applicability remain separate judgments.
