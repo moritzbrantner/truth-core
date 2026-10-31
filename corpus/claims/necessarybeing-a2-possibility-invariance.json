@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A2-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A2P2, complete question and note distinguishing individual from joint possibility",
+  "interpretation": "The affirmative branch reports invariance of each possible situation when another possible situation is actual, expressly without joint possibility. A2c's following modal paragraph names its interpretation necessity of possibility. Reuse existing modal consequence proofs only after supplying their explicit frame/NecessaryIf interfaces; this reading does not attribute rigid-witness transport or a new proof of the definition-page N-to-Box-N axiom.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

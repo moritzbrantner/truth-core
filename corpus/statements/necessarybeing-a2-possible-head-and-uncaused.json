@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED",
+  "paraphrase": "Under A2c's denial of necessary universal coverage by chains lacking a first member and outside causes together with its entire-chain conditions, a cause-capable head of an entire chain is possible and hence a cause-capable uncaused thing is possible. This is the source's disputed conditional, not a certified derivation; its cause-capable domain differs from A2P1 and a graph source alone need not be a relational head.",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

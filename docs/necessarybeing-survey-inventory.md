@@ -647,3 +647,21 @@ cluster is A2P1→A2P2→A2c's respondent causal/ancestry conditions, using its 
 read alternate pages only where their meanings differ. That extraction is NOT
 started here: owner issue #826 now prioritizes the cross-attribute matrix and a
 bounded conditional vertical slice.
+
+### A2 bounded source extraction: main branch (2026-11-01)
+
+Five source claims now preserve the main A2 cluster without inventing a second mathematical model or registering a new proof:
+
+| Claim | Statement / precise witness locator |
+| --- | --- |
+| `NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL` | New `STMT-NB-A2-REPORTED-COVERAGE-DENIAL`; `NECESSARYBEING-A2-QUESTION-ONE`, A2P1 question/tooltips and negative-answer continuation. This is **conditional on choosing that answer**, not an assertion in the bare question, actual respondent assent, or premise truth. A2C step5 is explicit immediate context, with its narrower domain preserved separately. |
+| `NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE` | New `STMT-NB-A2-ENTIRE-MEMBER-CLOSURE`; `NECESSARYBEING-A2-CONCLUSION`, A2C steps1–4,7 and title attributes. Necessity scope is retained. Membership in an entire chain, not containment of the original chain as a whole, is asserted. |
+| `NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED` | New `STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED`; same witness, steps5–8. Records the source's disputed conditional and stronger relational head, with isolated-source and broad-to-narrow-domain gaps explicit. It is not a new certified implication. |
+| `NB-SURVEY-A2-CONTINGENTS-CAUSED` | Reuses **`STMT-NB-A1-CONTINGENTS-CAUSED`**; same witness, step9. Unqualified reported causation, not the stronger global/distinct/existing-cause `LocalCausalPrinciple` or selected existential grounding. |
+| `NB-SURVEY-A2-POSSIBILITY-INVARIANCE` | New `STMT-NB-A2-POSSIBILITY-INVARIANCE`; `NECESSARYBEING-A2-QUESTION-TWO`, A2P2 question and individual-versus-joint-possibility note. The report is conditional on the affirmative branch. Main A2c's modal interpretation is context, not a new proof of S5 or rigid-individual necessity. |
+
+All selected witnesses and the four alternates were freshly materialized and read before extraction; A1P1 and the definition page supplied immediate context. The existing objective-possibility and existential N-to-Box-N source statements/claims remain unchanged. The four new statements intentionally have **no Lean declaration**: they preserve disputed source commitments before an exact formal interpretation is selected. No new Challenge/Solution, inference or result advertises the unverified source argument as a mechanically checked consequence. This is extraction/reuse progress, not a new proof or truth discharge.
+
+The new source-gloss definitions and `DISAMB-NB-A2-DOMAIN-AND-ANCESTRY` preserve the A2P1 cause-OR-effect capability domain, A2c cause-capability domain, and entire/member/head meanings. Formal actual-graph correspondence remains an explicit unattributed application question. `HEADLESS-CAUSAL-ANCESTRY` and `POSSIBLE-CAUSAL-SOURCE-NECESSITY` already provide the conditional mathematical consequences under their own dictionaries; neither is newly attributed to A2. There is no member-to-whole causal production inference in the source's member-closure argument. Infinite remains no-first-member rather than cardinal infinity; no separate objection to the working inadequacy of wholly borrowed reality is introduced.
+
+Three application seams remain distinct: source chains/heads versus actual full ancestor cones; capable-domain and actual-cause guards versus the typed global causal principle; and objective/de dicto modal reports versus the frame and rigid-witness interfaces. Mere model consistency is not explanatory adequacy. A2P2b/A2c2's alternate modal report and A2P2c/A2c3's changed necessity/contingency classification remain the next coherent **extraction** batch, though their witnesses were already read. The candidate is retained for those readings and source-ordered A3–A10; campaign completion is not claimed. Corpus consistency, offline source binding and whitespace checks pass. No source pin, old claim/type, shared generator or proof module changed.

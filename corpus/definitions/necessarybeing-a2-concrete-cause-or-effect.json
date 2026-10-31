@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+  "term": "concrete in A2P1: capable of causing or being caused",
+  "definition": "A2P1 defines concrete by capability to be a cause OR to be caused. The selected negative answer denies necessary universal coverage of that broader domain by a chain both without a first member and without even partial outside causes. Capability is not actual exercise, ordinary physicality, or membership in an Ontic actual-node subtype.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL"
+  ],
+  "note": "Pinned A2P1 term@title. A2c instead uses capability to cause alone. Denial of universal coverage over a broader domain does not by logic entail denial over its narrower subdomain; the source-to-conclusion correspondence remains open."
+}

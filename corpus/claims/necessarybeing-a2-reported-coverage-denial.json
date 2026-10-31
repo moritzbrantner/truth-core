@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL",
+  "statement_id": "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A2P1, question, concrete/infinite/ungrounded title attributes and negative-answer continuation",
+  "interpretation": "Conditional reading ONLY: if the respondent were to select the negative answer to this question, the reported input would deny its necessary universal coverage. P1 itself contains only the question and choices; no actual assent or truth is asserted. Preserve its broader cause-or-effect capability tooltip. Immediate context NECESSARYBEING-A2-CONCLUSION (A2C, step 5) explicitly states a denial by-your-report but uses cause-only capability. This claim does not broaden that conclusion-page domain or certify the cross-domain inference.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
