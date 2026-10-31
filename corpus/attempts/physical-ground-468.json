@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-PHYSICAL-GROUND-468",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-PHYSICAL-GROUND-CORE",
+    "STMT-PHYSICAL-GROUND-VERDICTS",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST",
+    "STMT-OPPY-2020-SHARED-LAWS-INITIAL-HISTORY"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Tested which premise separates a necessary physical ground from a classical ground. Findings: one necessity signature (necessary, underived, capacity, esse-cause of a contingent other) is shared by five route tables, so it yields no maximum, simplicity, immateriality, intellect or will. The strongest composite rival denies exactly the uniting-cause premise; a part-free impersonal rival denies exactly q.14 a.1; will is separated by q.19 a.1. Formal containment separates the grounds only given a classification of respects: two classifications favour opposite grounds, and the one independent of the candidate turns on which simple beings the table has. A physicalist bearer bundle excludes the classical ground, conditional on its three Papineau premises and two bearer premises. On four shared explananda neither ground gains in the encoded terms; contingency-of-laws selection takes no attribute. Rejected: importing Hume's Dialogues IX as an attribution, because no passage is pinned. Rejected: defining physical as composite outright, because a part-free ground may be physical in Papineau's sense. Rejected: flags for personhood as a discriminator; the flag appears only in the explicit bridge MarksRequirePerson. Details in docs/notes/physical-ground-468.md.",
+  "blocker": "Independent defense of the uniting-cause premise for a necessary composite, of a maximum for a necessary ground, of q.14 a.1 from a negative antecedent, and of any classification of respects remains open. No theory of laws, of a necessary initial state's identity across Oppy's restricted worlds, or of self-explanation is supplied. No root premise is discharged.",
+  "evidence": [
+    "PHYSICAL-GROUND-CORE",
+    "PHYSICAL-GROUND-VERDICTS",
+    "NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+    "EXPLANATORY-SYMMETRY-COMPARISON"
+  ]
+}

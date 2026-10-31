@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PHYSICAL-BEARERS-COMPOSITE",
+  "term": "physical as composite-bearer",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.PhysicalBearersComposite",
+  "definition": "In a #419 frame whose occurrences have bearers: every occurrence of a physical kind has a composite bearer. RealizerSameBearer adds that a realizer has the bearer of what it realizes. Both are open conditions on a frame.",
+  "note": "Stipulative and unattributed. It is one sense of physical and not Papineau's. See docs/notes/physical-ground-468.md."
+}
