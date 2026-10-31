@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-SELECTED-ANCESTRY-CONE-REUSE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+    "STMT-PSR-POPULATED-AT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Fresh #311/#613 checkpoint requested one full ancestral cone and exact controls. Inspected prior thinker-local proof and reused it by extracting its pointwise Acc descent into SelectedAncestry.rootForkOfAccessibility; the old thinker result now delegates, with all original Challenge bytes unchanged. New theorem lifts WF on the complete cone to the existing actual-ground accessibility relation, then excludes the contingent root using local dependence. No dummy thoughts, new ontology, hand-rolled closure or necessary witness premise. Three same-profile controls include the requested joint model: actual contingent selected target grounded in a necessary root, unrelated actual infinite chain, unrelated contingent brute singleton; both global premises fail. The Controls proposition was written before its proof; the wrapper Challenge precedes wrapper Solution and no frozen target was weakened. Complete new Challenge SHA256 998e55280f50a1335b6e0883931f68ff3a8efc0f489968532539844081c7281d. Focused generic/old thinker/model builds pass. CLI fallback, no service restart. See the existing integration note. Added the exact global-actual-WF\u2192cone-WF and global-contingent-dependence\u2192cone-dependence theorem, not just a local-without-global example. Complete additive Challenge SHA256 34b9daf593c30b197abd3292ad9b7e197786a0a5484132f7a2e7f09d83d74024. Incorporated the owner\u2019s explicit 2026-10-31 instruction accepting at least one actual being as true for this investigation. Recorded it in the existing STMT-PSR-POPULATED-AT note and integration note, without silently strengthening to concreteness, naming a candidate, marking it kernel-proved, or changing the general self-evidence machinery. Final full library build passes. Full binding: 726 bound,2 existing pins,0 mismatch. All four new results and all three affected original thinker results pass zero-axiom Comparator/NanoDa; new results and the reused thinker theorem have empty Lean axiom reports. Original thinker Challenges remain byte-identical. Corpus/source/generator/diff checks pass; root-route output byte-identical (11 routes,62 open root-reaching premises). The owner-accepted general existential starting point is recorded as such, without falsely claiming an independently verified/global self-evidence marking. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Local actual-grounding foundation/dependence remain philosophical application hypotheses, not independently established premises. The cone must include every actual ancestor, not an observed prefix. Rootness is selected-world concrete-relative; no unity, all-world independence or divine attributes.",
+  "evidence": [
+    "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+    "SELECTED-CONE-NECESSARY-CONCRETE",
+    "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+    "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+    "COGITO-ANCESTRY-ROOT-FORK",
+    "COGITO-ANCESTRY-CONTROLS",
+    "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE"
+  ]
+}

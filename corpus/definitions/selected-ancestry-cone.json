@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-ANCESTRY-CONE",
+  "term": "complete actual concrete ancestry of a selected existent",
+  "definition": "Cone m w selected x means that x is concrete and exists at w and is a finite reflexive-transitive actual-concrete-ground ancestor of selected. It includes selected only when selected is actual and concrete. Every actual concrete predecessor of a cone member is included; an observed finite prefix cannot substitute for the cone.",
+  "basis": "stipulative",
+  "note": "General selected-being form of the existing thinker-local vocabulary, reusing Profile, ActualConcreteGround and Mathlib ReflTransGen unchanged. Source-free application hypotheses remain OPEN. See the selected-cone scope section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.Cone"
+}

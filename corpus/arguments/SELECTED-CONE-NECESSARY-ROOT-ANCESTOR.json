@@ -1,0 +1,32 @@
+{
+  "id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "premise_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "inference_ids": [
+    "INF-SELECTED-CONE-NECESSARY-ROOT-ANCESTOR"
+  ],
+  "meaning": "Reuse the generalized descent extracted from the earlier thinker-local proof. Complete cone WF supplies accessibility of the selected actual concretum, preserving every actual predecessor; local contingent dependence then excludes the contingent root horn. The same selected ancestor is actual, concrete, necessary and an actual concrete ground-source. No global coverage/WF or thought-occurrence premise is needed. Local application remains open.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

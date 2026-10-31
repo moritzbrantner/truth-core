@@ -1,0 +1,23 @@
+{
+  "id": "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.ConeContingentGrounded",
+  "paraphrase": "Every actual concrete member of the full selected ancestry cone that is absent at some accessible world has an actual concrete ground at the selected world. The ground belongs to the same cone by predecessor closure. Nothing is demanded of unrelated contingent concreta, nor is selected assumed contingent.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

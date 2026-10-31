@@ -31,5 +31,6 @@ import TruthCore.Models.QuartaViaDegreeFork
 import TruthCore.Models.QuartaViaMaximumControls
 import TruthCore.Models.RespectAlternatingMotionCycle
 import TruthCore.Models.Scott
+import TruthCore.Models.SelectedAncestry
 import TruthCore.Models.TemporalHistoryControls
 import TruthCore.Models.WorldIndexedSources

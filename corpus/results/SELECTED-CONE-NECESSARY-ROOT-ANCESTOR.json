@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "argument_id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "challenge_module": "TruthCore.Results.Causality.SelectedAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelectedAncestry.Solution",
+  "theorem": "TruthCore.Results.Causality.SelectedAncestry.necessaryRootAncestor",
+  "comparator_config": "results/SELECTED-CONE-NECESSARY-ROOT-ANCESTOR/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the generalized descent extracted from the earlier thinker-local proof. Complete cone WF supplies accessibility of the selected actual concretum, preserving every actual predecessor; local contingent dependence then excludes the contingent root horn. The same selected ancestor is actual, concrete, necessary and an actual concrete ground-source. No global coverage/WF or thought-occurrence premise is needed. Local application remains open."
+}

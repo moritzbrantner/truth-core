@@ -1,0 +1,23 @@
+{
+  "id": "STMT-SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "lean_declaration": "TruthCore.Models.SelectedAncestry.Controls",
+  "paraphrase": "Two exact omission models each retain an actual selected concretum and one of local cone foundation/dependence while the other fails and no necessary concrete being exists. One combined model has an actually contingent selected target, both local premises and a necessary actual root ancestor; nevertheless global actual-grounding WF and global contingent dependence both fail, with an unrelated infinite actual successor chain and contingent brute singleton. These are formal interpretations, not metaphysical possibilities or adequate rivals retaining the omitted premise.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

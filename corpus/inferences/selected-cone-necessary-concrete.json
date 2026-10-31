@@ -1,0 +1,14 @@
+{
+  "id": "INF-SELECTED-CONE-NECESSARY-CONCRETE",
+  "input_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "shared-local-descent-and-contingent-root-exclusion",
+  "meaning": "Import the one-cone necessary-root result and project the same actual necessary concrete ancestor to the existing shared necessary-concrete statement. Retains the selected actual candidate, complete-cone foundation, local contingent dependence and explicit excluded middle. Does not assume necessary population anew or prove unity, all-world underivedness or God.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

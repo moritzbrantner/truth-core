@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "term": "a necessary actual concrete root ancestor of the selected being",
+  "definition": "One member of selected\u2019s complete actual concrete ancestry exists at every accessible world and has no incoming ground from any actual concrete candidate at the selected world. The same witness has ancestry, necessity and selected-world rootness. Non-concrete explanations and grounding at other worlds are not excluded; no uniqueness or divine attribute is asserted.",
+  "basis": "stipulative",
+  "note": "General selected-being form of the existing thinker-local vocabulary, reusing Profile, ActualConcreteGround and Mathlib ReflTransGen unchanged. Source-free application hypotheses remain OPEN. See the selected-cone scope section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.NecessaryRootAncestor"
+}

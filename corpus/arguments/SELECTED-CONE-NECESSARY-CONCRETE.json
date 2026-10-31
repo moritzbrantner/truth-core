@@ -1,0 +1,32 @@
+{
+  "id": "SELECTED-CONE-NECESSARY-CONCRETE",
+  "premise_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-SELECTED-CONE-NECESSARY-CONCRETE"
+  ],
+  "meaning": "Import the one-cone necessary-root result and project the same actual necessary concrete ancestor to the existing shared necessary-concrete statement. Retains the selected actual candidate, complete-cone foundation, local contingent dependence and explicit excluded middle. Does not assume necessary population anew or prove unity, all-world underivedness or God.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

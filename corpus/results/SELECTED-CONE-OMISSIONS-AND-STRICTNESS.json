@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "argument_id": "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Causality.SelectedAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelectedAncestry.Solution",
+  "theorem": "TruthCore.Results.Causality.SelectedAncestry.controls",
+  "comparator_config": "results/SELECTED-CONE-OMISSIONS-AND-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Two exact omission models each retain an actual selected concretum and one of local cone foundation/dependence while the other fails and no necessary concrete being exists. One combined model has an actually contingent selected target, both local premises and a necessary actual root ancestor; nevertheless global actual-grounding WF and global contingent dependence both fail, with an unrelated infinite actual successor chain and contingent brute singleton. These are formal interpretations, not metaphysical possibilities or adequate rivals retaining the omitted premise."
+}
