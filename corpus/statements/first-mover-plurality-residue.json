@@ -1,0 +1,24 @@
+{
+  "id": "STMT-FIRST-MOVER-PLURALITY-RESIDUE",
+  "paraphrase": "For the supplied first-mover, act and nature parameters: any two distinct first movers have one act profile and different represented natures, and at-most-one first mover is equivalent both to 'first movers with one act profile have one nature' and to 'any two first movers have one nature'. Derived only with Q11 individuation, the first-mover suppositum/nature adapter and every-perfection as premises of its argument; no first mover is asserted.",
+  "lean_declaration": "TruthCore.Causality.RootMultiplication.PluralityResidue",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
+    "DISAMB-IN-ACT",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

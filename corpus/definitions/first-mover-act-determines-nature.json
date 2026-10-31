@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE",
+  "term": "act profile determines first-mover nature",
+  "definition": "For any two first movers f and g, if InAct f r iff InAct g r for every supplied respect r, then essence f = essence g.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.RootMultiplication.FirstMoverActDeterminesNature",
+  "note": "Open analyst condition with no content assignment. ConstitutiveContentComplete and FirstMoverContentAgreesWithAct together imply it, and the implication does not reverse (ContentBundleStrict). Given individuation, the suppositum/nature adapter and every-perfection it is equivalent to at-most-one first mover. Using InAct leaves the formal/eminent question of DISAMB-IN-ACT unchanged."
+}

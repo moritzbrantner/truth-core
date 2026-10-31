@@ -35,11 +35,13 @@ import TruthCore.Causality.PluralRootConfluence
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
+import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.SourceForest
 import TruthCore.Causality.SourceWitness
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalActualization
 import TruthCore.Causality.TemporalEventControls
+import TruthCore.Causality.TemporalPrimaVia
 import TruthCore.Causality.UnderivedCommonSource
 import TruthCore.Causality.UnderivedEssenceEsse
 import TruthCore.Causality.UnderivedNonComposite

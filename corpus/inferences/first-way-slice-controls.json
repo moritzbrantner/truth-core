@@ -1,0 +1,9 @@
+{
+  "id": "INF-FIRST-WAY-SLICE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FIRST-WAY-SLICE-CONTROLS",
+  "rule": "explicit-model-and-theorem-composition",
+  "meaning": "Prove the conditional conflict from the strict-horn no-link lemma and check each of the four models by its definitions. The models are separate; none is a single world containing every profile.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ROOT-MULTIPLICATION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROOT-MULTIPLICATION-CONTROLS",
+  "inference_ids": [
+    "INF-ROOT-MULTIPLICATION-CONTROLS"
+  ],
+  "meaning": "Finite interpretations: the unchanged part-free model keeps its joint and #715 certificates, fails the bridge and act-determines-nature, and has exactly its two roots unlimited. Each of the bridge theorem's five hypotheses is omitted in turn with the other four retained and at-most-one failing. Three horns (differ in act; same act and nature; same act, different nature) are witnessed and covered given excluded middle. The #715 content bundle implies act-determines-nature, not conversely. On the single-mover carrier at-most-one holds with four hypotheses while the bridge fails, and all five hypotheses hold jointly with an actual first mover. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-Q11-INDIVIDUATING-BASIS",
+    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
+    "DEF-Q11-COMMON-DIVINE-NATURE",
+    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+    "DEF-ACT",
+    "DEF-RESPECT",
+    "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE",
+    "DEF-HAS-LIMITING-PRINCIPLE",
+    "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
+    "DEF-ESSE",
+    "DEF-SIMPLE",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-FIRST-BEING",
+    "DEF-PART-FREE-PLURALITY-JOINT-CONTROL",
+    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
+    "DISAMB-IN-ACT",
+    "DISAMB-NECESSARY-SIMPLE-PLURALITY",
+    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+  ]
+}

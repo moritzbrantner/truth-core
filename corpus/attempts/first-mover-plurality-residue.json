@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-FIRST-MOVER-PLURALITY-RESIDUE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+    "STMT-FIRST-MOVER-PLURALITY-RESIDUE",
+    "STMT-UNLIMITED-BEINGS-SHARE-NATURE",
+    "STMT-ROOT-MULTIPLICATION-CONTROLS",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Sought the weakest premise excluding the part-free two-root model and tested its independence. Given individuation, the first-mover adapter and every-perfection, distinct first movers can only have one act profile and different natures, and at-most-one is equivalent to act-determines-nature and to first-movers-share-nature; so those two conditions are not independent of uniqueness given those premises, and the #715 content bundle is strictly stronger than the first. The non-equivalent form tried is UnlimitedBeingsShareNature: it does not use every-perfection, each of five hypotheses is needed by a control, and it exceeds uniqueness on a single-mover carrier. Its first-mover instance is still not independent, and it is vacuous at every pair with a limited member, so ordinary pluralities give it no instance. Rejected: treating ordinary limited pairs as inductive support for the root pair; treating formal independence of the universal as an independent defense; using the intelligences of De ente c.3 as a counterexample, since that passage denies them omnimoda simplicitas through esse other than quiddity, which is a limiting principle here. Details in docs/notes/necessary-simple-plurality.md.",
+  "blocker": "Defend the bridge, or a replacement, on grounds that do not reduce to its first-mover instance and that answer the different-whole-essence rival; separately defend applying first-mover premises to a selected necessary underived individual. The part-free model survives every hypothesis but the bridge.",
+  "evidence": [
+    "FIRST-MOVER-PLURALITY-RESIDUE",
+    "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+    "ROOT-MULTIPLICATION-CONTROLS",
+    "CONSTITUTIVE-NATURE-OMISSION-CONTROLS",
+    "PART-FREE-PLURALITY-JOINT-CONTROL"
+  ]
+}
