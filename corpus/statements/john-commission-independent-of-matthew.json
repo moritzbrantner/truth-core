@@ -1,0 +1,11 @@
+{
+  "id": "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+  "paraphrase": "Open historical premise: the commission saying of John 20.21-23 is literarily independent of that of Matthew 18.17-18, or of that of Matthew 16.18-19 (Tradition.Independent: neither of the two sayings derives from the other and they share no written source). Its denial must deny independence from both Matthew passages. It does not say that John is independent of the Synoptics elsewhere, and it does not say that any saying goes back to Jesus. No source is pinned for it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.JohnCommissionIndependent",
+  "definition_ids": [
+    "DEF-INDEPENDENT-ATTESTATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"
+  ]
+}

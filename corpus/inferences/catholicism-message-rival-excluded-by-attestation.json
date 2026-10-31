@@ -1,0 +1,13 @@
+{
+  "id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+  "input_statement_ids": [
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+  ],
+  "output_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "rule": "direct-proof",
+  "meaning": "Fix g with HoldsMandate jesus g, suppose Jesus founded the Catholic Church and it is visible with authority, and suppose the message rival. By the independence premise, John 20 is independent of Matthew 18 or of Matthew 16; John 20 names forgiving and retaining, and Matthew 18 and 16 name binding and loosing, all heaven-ratified (DEF-HEAVEN-RATIFIED-POWER), so the antecedent of the criterion holds and Jesus gave some heaven-ratified power. Every heaven-ratified power is governing (CommissionAttestation.heavenRatified_governing), so the link premise at g gives FoundedInMandate jesus g catholicChurch, which the rival at g and the Catholic Church denies.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

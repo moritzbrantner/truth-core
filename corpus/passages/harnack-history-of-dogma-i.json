@@ -30,6 +30,22 @@
         }
       },
       "text_sha256": "sha256:a2c73dd66b40c7377ec2c2f99dbf1d3e7574f926dbeaf3c152432e366f070be7"
+    },
+    {
+      "id": "HARNACK-HOD-I-II-3-FN-76",
+      "locator": "I, ch. II §3, note 76",
+      "claim_locator_prefixes": [
+        "I, ch. II §3, note 76"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "footnote76"
+        },
+        "to": {
+          "anchor": "footnote77"
+        }
+      },
+      "text_sha256": "sha256:05bb18fac8fc79d95608234fdbe4c02289e672cdff18c160113b8e8b270e9179"
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEPENDENT-ATTESTATION",
+  "term": "strand, independent reports and multiple attestation (Strand, strandOf, Tradition.Independent, AttestedIn)",
+  "definition": "strandOf assigns each commission report to its Gospel strand: Matthew 16, 18 and 28 to the Matthean, John 20 and 21 to the Johannine. AttestedIn F r: report r names some power of family F (a textual fact fixed by CommissionReport.powers). Tradition.Independent r₁ r₂: the commission saying of r₁ neither derives from that of r₂ nor shares a written source with it; it is an uninterpreted parameter, and distinct strands are not assumed independent. A family is multiply attested when two independent reports each name a power of it. Independence of reports is a literary relation; it does not make either report historical.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.Tradition",
+  "note": "Stipulative modelling choice for #357. It encodes the standard form of the criterion of multiple (independent) attestation of historical-Jesus research; a source that states and defends the criterion (for example F. C. Burkitt, The Gospel History and its Transmission, 1906, or J. P. Meier, A Marginal Jew I, ch. 6) and one on John's relation to the Synoptics (for example C. H. Dodd, Historical Tradition in the Fourth Gospel, 1963) would source it; none was reachable as a pinnable witness, and no bibliographic span was read (ATTEMPT-GOVERNING-COMMISSION-ATTESTATION). The record covers strandOf and AttestedIn as well as its named lean_declaration Tradition."
+}
