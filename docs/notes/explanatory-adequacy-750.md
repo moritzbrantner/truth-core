@@ -33,7 +33,7 @@ The non-theistic witnesses are `law`, `chain` and `necessitarian`. The first two
 necessary being at all. So reason closure does not presuppose a necessary being, and
 `idle` shows a necessary being does not suffice for it.
 
-**Smallest open premise.** A standard that keeps a nonnecessitating ground and excludes a
+**An open premise.** A standard that keeps a nonnecessitating ground and excludes a
 token must read something beyond truth, admitted reasons and accessibility, because
 `ground` and `law` agree on all of these. What is missing is an independently defended
 account of how a reason true at both a world and its rival is relevant to which outcome

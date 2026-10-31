@@ -14,7 +14,7 @@ at pp.10-11 and a generous reading of causation gives realization (p.11).
 Premise 3, "The physical effects of mental causes are not all overdetermined", has
 two readings, each with its own claim. Per cause, it yields a universal
 conclusion in identity-or-realization form. Taken collectively it does not (`collectiveHybrid`). That is a result
-about the reading: Papineau calls the argument valid, and note 6 only discusses
+about the reading: Papineau says the argument "seems pretty clearly valid" (p.10), and note 6 only discusses
 Sturgeon's separate equivocation charge, which is not formalized here.
 
 Not consulted, so nothing is attributed: any eliminativist or nonreductivist author.

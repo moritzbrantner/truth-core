@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KOONS-REPLY-TO-OPPY-2001",
+    "source_url": "https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1825&context=faithandphilosophy",
+    "retrieved_at": "2026-10-31T00:07:50Z",
+    "sha256": "sha256:5e830611243d675d2159b319e103a67458fb64b70279e83199f559dd118fcdd0",
+    "encoding": "utf-8",
+    "language": "eng",
+    "wayback_url": "https://web.archive.org/web/20240117030437id_/https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1825&context=faithandphilosophy",
+    "wayback_sha256": "sha256:5e830611243d675d2159b319e103a67458fb64b70279e83199f559dd118fcdd0",
+    "license": "Open-access journal repository copy; no explicit reuse license observed. The repository answered this fetcher with an HTML page and not the PDF on 2026-10-31, so the pinned bytes are those of the fixed Wayback capture, which materialization uses as its fallback. Only hashes, locators, short incipits and paraphrases are committed."
+  },
+  "passages": [
+    {
+      "id": "KOONS-REPLY-OPPY-PP193-194",
+      "locator": "Defeasible Reasoning, Special Pleading and the Cosmological Argument, pp.193-194",
+      "claim_locator_prefixes": [
+        "pp.193-194"
+      ],
+      "pdf_pages": {
+        "first": 3,
+        "last": 4
+      },
+      "text_sha256": "sha256:7a647d6c60c010d293e0637c6a82ac95a8b5125fc14833ed5a2e164c88b73cc6",
+      "incipit": "193 THE COSMOLOGICAL ARGUMENT In addition, I will have little to say here about"
+    }
+  ]
+}

@@ -29,8 +29,8 @@ So bare `¬ PSR` plus a demand for evidence is consistent.
 demands reasons for the PSR claim and not for its own root is selective relative to a
 feature they share, and restricted relative to one they differ on. The same `selective`
 stance has both standings, relative to `commitment` and `generalLaw`. No theorem here
-says which feature is the right one. Uniformity is also cheap: any status is uniform
-relative to itself, and a boundary defined by having a reason holds in every arena and
+says which feature is the right one. A feature test is also cheap: any status can be
+made its own feature, so that agreeing on it forces agreeing in the status, and a boundary defined by having a reason holds in every arena and
 excludes nothing. A serious boundary has to be stated independently of having a reason
 and has to be able to fail, as the event-scoped boundary fails in `scene false`.
 
