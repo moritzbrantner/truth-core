@@ -227,6 +227,57 @@ local contingent dependence and remaining foundedness condition stay explicit.
 The registered root frontier is unchanged; this is a weaker sufficient route,
 not a claimed globally minimal premise set or philosophical premise discharge.
 
+## Positive source connection: intrinsic reason and productive self-cause
+
+Fresh reading of the materialized `SPINOZA-ETHICS-ELWES-FULL` witness covers
+Ethics I definitions/axioms and propositions 1–11, including proofs and notes.
+The witness is the public-domain Elwes translation at the immutable revision
+already identified in `docs/notes/selected-effect-bridge-462.md`; this is a
+translation-based source reading, not a new Lean result or premise discharge.
+
+**Two different explanations must stay distinct.** I definition 1 defines
+causa sui through essence involving existence. It does not describe an act
+producing the existence of its own bearer. Consequently the existing
+`STMT-NO-EXISTENTIAL-SELF-PRODUCTION` does not refute this reading of intrinsic
+explanation, and an intrinsically explained necessary being need not violate
+that result. Conversely, defining this sense of self-cause establishes no
+instance of it. The source's substance (I definition 3) and mode (definition 5)
+are not silently identified with our concrete-grounding relation or the
+Aristotelian bearer vocabulary.
+
+**The positive explanatory step is visible in the source.** I proposition 6
+and its corollary deny external production of substance; proposition 7 moves
+from that exclusion to intrinsic causation and hence essence-involving
+existence. The exclusion alone is not the complete inference. I proposition 8,
+note II, numbered commitments 3–4 explicitly require a cause of each individual
+existent and classify that cause as internal to its nature/definition or
+external to it. These commitments explain how the intrinsic/external fork
+functions; their truth is a philosophical commitment, not supplied by the
+no-self-production theorem. Nor does this classification show that every
+external explanation is an actual concrete ground in our selected model world.
+
+**Connection to the owner's cross-world objection.** I proposition 11, second
+proof, demands a reason for nonexistence as well as existence. Its triangle
+example distinguishes what follows from a nature alone from what follows given
+the order of nature. This is relevant to why presence in one world and absence
+in another cannot simply be left unexplained under that demand. It does not
+justify substituting the same complete order in both worlds, or infer that every
+sufficient reason must itself be necessary. Contingent external reasons remain
+subject to the cumulative adequacy argument above.
+
+**Exact remaining application.** A promising positive route is to defend that
+an intrinsic reason rooted in a being's nature entails its existence wherever
+that same nature is instantiated, so a genuinely contingent existent needs an
+external reason. But this requires fixing nature, identity and accessibility;
+“intrinsic” by itself is insufficient. Spinoza's I axiom 7 relates conceivable
+nonexistence to essence not involving existence; no identification of
+conceivability with our accessible worlds has been proved. Even a defended
+external-reason conclusion still needs the separately recorded reason-to-ground
+application before it supplies contingent concrete dependence. No exhaustion,
+modal sufficiency or concrete-realization premise is added as established here.
+Necessary impersonal accounts accept bare necessary existence; this reading
+does not refute them or establish unity, personality or divine attributes.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

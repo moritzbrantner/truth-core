@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-INTRINSIC-EXPLANATION-SOURCE-CONNECTION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Materialized and read SPINOZA-ETHICS-ELWES-FULL, Ethics I definitions/axioms and propositions 1–11 including proofs, corollaries and notes. Precise findings preserved in docs/notes/ultimate-adequacy-integration-735.md: definition 1 distinguishes essence-involving-existence self-cause from productive self-causation; proposition 7 uses an explanatory fork, made explicit in proposition 8 note II commitments 3–4; proposition 11 second proof requires reasons for absence as well as presence. Rejected equating nonexternal production with necessary existence without the fork, intrinsic explanation with efficient self-production, Spinozan substance with our concrete/bearer vocabulary, or conceptual necessity with accessible-world necessity. Positive source clarification, no new claim/type, no philosophical premise discharge or root-frontier change. Existing owner-accepted actual existence retained.",
+  "blocker": "Defend the intrinsic-nature-to-necessary-existence application with fixed identity/nature and accessibility; external reasons still require an independently justified actual concrete-ground bridge. The source classification and explanatory coverage are commitments rather than established truths.",
+  "evidence": [
+    "NO-EXISTENTIAL-SELF-ACTUALIZATION"
+  ]
+}
