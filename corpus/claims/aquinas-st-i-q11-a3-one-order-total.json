@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A3-ONE-ORDER-B",
+  "statement_id": "STMT-DIVERSE-IN-ONE-ORDER-TOTAL",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.3 co., third proof: Quae autem diversa sunt, in unum ordinem non convenirent, nisi ab aliquo uno ordinarentur",
+  "interpretation_of": "AQUINAS-ST-I-Q11-A3-ONE-ORDER-A",
+  "interpretation": "Total analyst reading, taking the sentence with its surroundings (Omnia enim quae sunt ... ; primum reducens omnia in unum ordinem): one event has a finite exercised path to all. Finite ancestry is the analyst's choice for reducens; the source does not state it. On this reading at most one exercised source follows at once, so it adds no independent step toward that conclusion.",
+  "status": "formalized"
+}

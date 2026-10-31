@@ -4,6 +4,7 @@ import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
 import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
+import TruthCore.Results.Explanation.JointCooperation.Solution
 import TruthCore.Results.Explanation.LawActuality.Solution
 import TruthCore.Results.Explanation.NoBruteCompatibility.Solution
 import TruthCore.Results.Explanation.NoBruteExistence.Solution

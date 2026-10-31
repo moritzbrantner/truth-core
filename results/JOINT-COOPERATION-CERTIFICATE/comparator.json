@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.JointCooperation.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointCooperation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.JointCooperation.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
