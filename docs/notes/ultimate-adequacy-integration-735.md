@@ -54,8 +54,12 @@ A6 eight-page source-only reading is complete in the existing survey records;
 no pending owner selection is inferred. A7 remaining eight pages were committed as `4cde10d6` and all eight passed
 live verification. They explicitly require the cause to exist before its target
 situation obtains; the count transcription alone still supplies no causal
-witness. A8 source reading is active, followed by A9–A10 and earlier witness
-coverage reconciliation before campaign completion.
+witness. A8 eight-page reading was committed as `45461b3e` and all eight passed live
+verification. Its explicitly vacuous entailment makes nonlimitation carry
+possibility strength when a deficiency property is admitted; this is not an
+independent possibility defense or the existing structural limitation predicate.
+A9 source reading is active, followed by A10 and earlier witness coverage
+reconciliation before campaign completion.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and
@@ -173,7 +177,10 @@ at-most-one-God route can omit C/H but produces no God witness. Formal D's
 source-existence strength, I's weak-maximum-to-universal-cause direction and
 numerical differentiation/common-nature exhaustion remain distinct burdens.
 The next assigned test is SAME-model satisfaction of all direct-esse uniqueness
-inputs except I by two roots, using the existing part-free control. A plural
+inputs except I by two roots, using the original four-being #681 jointControl
+unchanged (the later five-being part-free strengthening is distinct). A profile
+view reuses the same Ontic/supportsEsse; any new MoreIn dictionary is explicitly
+new structure, not an existing model fact. A plural
 necessary-source account must defend its intrinsic necessities and productive
 connections; formal compatibility alone is not explanatory adequacy.
 
