@@ -839,8 +839,9 @@ uniqueness does not establish its other-world presence, simplicity, divinity,
 or uniqueness of all dependent necessary beings. Composing the earlier
 necessary-ancestor/root results requires an actual same-witness relation/domain
 adapter; bare existence of some necessary bearer cannot identify it with this
-source. No such adapter is fabricated as an axiom. This remains the next
-composition question alongside independent defense of shared self-power.
+source. No such adapter was fabricated as an axiom. The following same-witness
+composition supplies an explicit conditional application; independent defense
+of shared self-power remains open.
 
 
 ### Same-witness ancestry composition
