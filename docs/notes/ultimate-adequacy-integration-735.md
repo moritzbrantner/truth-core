@@ -2,27 +2,30 @@
 
 ## Current delivery and parallel work
 
-PR #810 is merged as `66468a8e` after successful repository CI and a completed
-review with no findings. The successor's verified Lean/corpus implementation
-is `4327aed1` on `research/lean-existential-self-actualization-20261031`;
-its normal delivery/review remains pending. It adds the two direct existential
-firstness/potency-free results below. No required philosophical premise has been
-closed by either batch.
+[PR #810](https://github.com/moritzbrantner/truth-core/pull/810) is merged as
+`66468a8e`; [PR #811](https://github.com/moritzbrantner/truth-core/pull/811) is
+merged as `6653189c`. Both passed repository CI and review with no findings.
+The successor's verified Lean/corpus implementation is `6c3485f8` on
+`research/lean-existential-self-actualization-20261031`; normal delivery/review
+of this successor is pending. Its six results connect necessary-root existence
+to attributes, actual-root uniqueness, GodExists, and GodIsOne. No philosophical
+premise truth is discharged by this delivery.
 
-The owner's request for more workers was applied to three distinct lanes while
-integration continued: numerical-unity consumers, priority/ground reality
-correspondence, and downstream God-naming composition. Their durable deltas are
-in `necessary-simple-plurality.md`, `power-existence-scope-boundary.md`, and the
-linked attempts. The downstream audit identifies the same-witness positive
-maximum/causal-scope obligation: the existing full-description naming proof can
-reuse the new witness's firstness for remoteness, but its no-potency predicate
-alone gives neither positive perfection nor universal causal coverage. The
-existing numerical-unity theorems likewise retain common-source/common-nature
-or same-sense differentiation obligations; none is supplied by relabeling the
-new witness. The reality lane records positive current-constituent examples,
-then isolates the bridge from any dormant potency to a distinct present actual
-same-respect ground of the bearer's existence. Those exact applicability
-obligations, rather than new omission diagrams, are the next research targets.
+Three workers supplied disjoint implementation/research deltas while the
+coordinator integrated: same-witness structural attributes, numerical-root
+uniqueness, and God-existence composition, with separate source/type and frontier
+audits. The bounded backlog reread found no new unpaid inference outside those
+already recorded: latest complete-cone proposals were already implemented, and
+PSR/reality correspondence steering matches the existing obligations. No new
+omission model or duplicated cone theorem was added.
+
+The next philosophical work is independent warrant and real application of the
+retained selected-grounding, simple-priority, convergence/maximum and perfection
+principles. The source audit makes an important correction: a prior being **in
+act** need not currently exercise an actualization. Aquinas explicitly adopts
+broad act-priority; the limited reduction argument motivating it is not itself
+a source-fidelity defect or a hidden EveryPotencyActualized assumption. The
+separate bridge into present concrete existential grounding remains open.
 
 ## Accepted starting point
 
@@ -139,6 +142,84 @@ with no added or removed reaching-root premise. This is an existential
 same-witness composition, not philosophical premise discharge or an already
 rewired God-existence route. The next parallel lanes test uniqueness, the
 priority/ground correspondence, and the remaining downstream God-naming path.
+
+## Composition into God existence and numerical unity
+
+The same root now reaches the actual cumulative target, under explicit additional
+premises. This is not a new definition equating necessity with God.
+
+```mermaid
+flowchart TD
+  F["Actual concrete population, whole-roster norm, contingent dependence, EM"] --> N["One actual necessary root n"]
+  N -->|"priority-to-ground bridge"| R["n is first"]
+  R -->|"act/potency premises"| A["n has no potency"]
+  R -->|"component premises"| S["n is noncomposite and a component of nothing"]
+  N -->|"four convergence bridges"| I["Every maximum equals n"]
+  N -->|"has-being and grades-to-maximum"| M["A maximum exists"]
+  I --> X["n is that maximum"]
+  M --> X
+  X -->|"causal/perfection and nominal interfaces"| G["God n"]
+  R --> G
+  I -->|"God-to-maximum converse"| U["At most one God"]
+  I --> Q["One unique actual selected root"]
+  M --> Q
+```
+
+Every labelled interface remains an explicit premise; the arrows are conditional
+proof connections, not premise truth certificates. For root uniqueness the proof
+also uses contingent dependence to show that **every** actual root is necessary.
+The naming arrow derives remoteness from firstness using the retained
+no-component-is-first premise; it does not assume a separate maximum is n.
+
+| Result | Direct inputs | Exact connection |
+| --- | ---: | --- |
+| NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST | 4 | Existing necessary first/potency-free witness plus three component premises preserve that witness and add noncomposition/remoteness. |
+| NECESSARY-FIRST-ATTRIBUTES-FROM-WHOLE | 10 | Compose the seven-input first/potency-free route with the same three structural premises. |
+| NECESSARY-ROOT-UNIQUENESS | 9 | A common maximum identifies all actual roots; every such root is necessary. This is unique actual selected root, not unique necessary individual. |
+| NECESSARY-ROOT-GOD-EXISTENCE | 16 | Existing fourth-way maximum is identified with the same necessary first root before full-description naming. |
+| NECESSARY-ROOT-GOD-EXISTENCE-REDUCED | 14 | The necessary root already supplies an esse instance; existing actualFork/actualCore yield a maximum without observed truth-grades or most-true-to-most-being. |
+| NECESSARY-ROOT-GOD-UNIQUENESS | 9 | Every God candidate is maximal by the retained converse and therefore equals the same root. No maximum existence or God existence is assumed or proved here. |
+
+The two GodExists types are identical at their conclusion and the reduced theorem
+removes STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE and
+STMT-MOST-TRUE-IS-MOST-BEING without adding any premise. Its fourteen inputs
+retain the four foundation/logical conditions; priority-to-ground;
+necessity-cause correspondence; genus causality; necessary-being-has-being;
+cause-of-being-to-necessity; grades-to-maximum; actuality-to-being; restricted
+universal-cause perfection transfer; no-component-is-first; and full-description
+God naming. Both retain the same n through actual rootness, necessity, firstness,
+maximality and naming in a checked helper. Neither imports CauseMore, a separate
+maximum-uniqueness premise, global MaximumInBeingIsFirstBeing or pure-act premises.
+Original and reduced Challenges remain separately frozen. The final nominal
+application is openly retained; the structural antecedents and witness identity
+are derived, so neither whole result is a mere single-bridge transcription.
+
+The nine-input actual-root uniqueness theorem uses foundation four plus the four
+convergence interfaces and grades-to-maximum. It needs no simple-priority bridge,
+pure-act premise or God naming. The nine-input GodIsOne theorem replaces
+grades-to-maximum with GodIsMaximalInBeing; it needs no maximum existence because
+its conclusion is only that any two God candidates are equal. Necessary nonroots
+are allowed. The existence and at-most-one conclusions are separate; neither is
+advertised as uniqueness of every necessary object or a least-premise bundle.
+
+**Measured against main@6653189c.** GodExists now has two additional routes:
+reduced cost13/direct14 and original cost15/direct16. Existing costs7/13/14
+are unchanged. God/Catholic reachable open-premise unions remain64/73, with no
+added or removed IDs; all eleven Catholic route costs are unchanged. GodIsOne
+adds cost8/direct9 beside its unchanged cost3 routes. Its reachable union6→16
+adds ten alternative dependencies (the existing borrowing cut, cause-of-necessity
+transfer, cogito bearer-existence/concreteness/thought-subject/population/thought,
+contingent dependence, necessary-being-has-being and necessity-cause
+correspondence), with none removed. Union growth is alternate reachability,
+not regression or philosophical discharge. Reproduce with the existing
+`corpus.py frontier --root <STMT-ID> --routes` and `--reaching-root` commands.
+
+**Verified scope:** full lake build (4275 jobs), exact binding773 bound/two
+existing pins/zero mismatches, zero-permitted-axiom Comparator and independent
+NanoDa for all six results. Source manifests, existing bundle audits and
+imports/docs generation pass. Research source/type correction is preserved in
+`power-existence-scope-boundary.md` and its existing attempt; all retained
+philosophical applicability questions remain explicit.
 
 ## Cumulative necessary-being argument: use the established exclusions together
 
