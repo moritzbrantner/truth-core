@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DASGUPTA-METAPHYSICAL-RATIONALISM-2016",
+    "source_url": "https://shamik.net/papers/dasgupta%20metaphysical%20rationalism.pdf",
+    "retrieved_at": "2026-10-31T11:49:43Z",
+    "sha256": "sha256:9f20250621cca2ab202f5fe26a1edd08eed872c0db3761e90b34666f28b47472",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© 2014 Wiley Periodicals, Inc., as displayed in the author-hosted journal PDF. No open license asserted. Author website legitimately hosts this copy; two independent 2026-10-31 fetches match raw and extracted hashes. Only metadata, hashes, locators and analytical paraphrases committed."
+  },
+  "passages": [
+    {
+      "id": "DASGUPTA-METAPHYSICAL-RATIONALISM-379-418",
+      "locator": "Noûs 50(2) (2016), pp.379–418, §§1–17 and references (complete article)",
+      "claim_locator_prefixes": [
+        "§"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 40
+      },
+      "text_sha256": "sha256:3e54ee1034c92f7563af14d972fa437d8890696dbb9ec89340bc7833f592458e",
+      "incipit": "NOÛS 50:2 (2016) 379–418 doi: 10.1111/nous.12082 Metaphysical Rationalism"
+    }
+  ]
+}
