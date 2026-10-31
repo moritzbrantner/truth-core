@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+  "argument_id": "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.uniqueRoot",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Same eight-input selected actual necessary-root uniqueness conclusion via the existing DirectEsseRootUniqueness theorem, instantiated at Unit with the original esse dictionaries. Replace only all-respects genus causality and grades-to-maximum by their fixed-esse instances: existing MaximumInBeingCausesAllBeingsReading and explicit unattributed GradesToMaximumAtBeing. The same supplied root is retained; no fresh maximum or uniqueness premise is added. The old interfaces imply the replacements by specialization, while certified same-esse controls show each converse fails even with the remaining six inputs. This is genuine quantifier-scope weakening, not independent defense of either OPEN interface or philosophical truth closure. Uniqueness concerns selected actual concrete roots, not all necessary individuals; direct selected grounding is not explanatory sufficiency."
+}

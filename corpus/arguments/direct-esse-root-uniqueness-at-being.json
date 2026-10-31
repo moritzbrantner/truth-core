@@ -1,0 +1,63 @@
+{
+  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "inference_ids": [
+    "INF-DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING"
+  ],
+  "meaning": "Same eight-input selected actual necessary-root uniqueness conclusion via the existing DirectEsseRootUniqueness theorem, instantiated at Unit with the original esse dictionaries. Replace only all-respects genus causality and grades-to-maximum by their fixed-esse instances: existing MaximumInBeingCausesAllBeingsReading and explicit unattributed GradesToMaximumAtBeing. The same supplied root is retained; no fresh maximum or uniqueness premise is added. The old interfaces imply the replacements by specialization, while certified same-esse controls show each converse fails even with the remaining six inputs. This is genuine quantifier-scope weakening, not independent defense of either OPEN interface or philosophical truth closure. Uniqueness concerns selected actual concrete roots, not all necessary individuals; direct selected grounding is not explanatory sufficiency.",
+  "definition_ids": [
+    "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

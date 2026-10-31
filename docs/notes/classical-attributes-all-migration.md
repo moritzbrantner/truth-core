@@ -269,7 +269,7 @@ routes and the plurality control passed Comparator and independent result
 NanoDa. Scoped library NanoDa checked474 declarations with zero typechecker
 errors and one known axiom pretty-printer warning; all three theorem axiom
 reports are empty. Independent claim/type review found no findings.
-Delivered-head CI/review remains pending.
+These three results are delivered in #831, merge `ea184c10f892f9b0513e9fc6804ad1da6be483f8`, after required CI run `41249114042` and exact-head review passed.
 
 The proposed positive plurality control reuses the unchanged later five-being
 `PartFreePlurality` model. Both replacement conditions together give a
@@ -284,3 +284,37 @@ statement IDs, open-premise count and depth counts are unchanged. Each joint
 attribute route has twelve non-floor leaves; this is not a global minimum.
 The new established finite-control statement is not a truth certificate for
 its stipulated causal or cognitive interpretation.
+
+### Fixed-esse scope of the root-uniqueness route
+
+`DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING` preserves the exact existing
+`UniqueNecessaryActualRootAt` endpoint with eight explicit inputs. Relative
+to `DIRECT-ESSE-ROOT-UNIQUENESS`, it replaces the all-respects genus-causality
+input by the existing `STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS`, and the
+all-respects grades-to-maximum input by the explicit fixed-esse
+`STMT-GRADES-TO-MAXIMUM-AT-BEING`. Both old global principles specialize to
+these interfaces. The proof consumes the old theorem on Unit-restricted
+respect dictionaries; beings, worlds, grounds and the conclusion stay the
+same. This reduces quantifier scope, not the number of premises or the
+independent burden of maximum-to-cause. Ledger H/I selections remain pending;
+rejecting their global forms would not automatically reject the restrictions.
+
+`DIRECT-ESSE-ROOT-UNIQUENESS-SCOPE-CONTROLS` uses the existing Boolean
+CrossedTops carrier/act/esse dictionaries and an explicitly new all-present,
+all-concrete grounding-profile view. Both assignments retain the full new
+background and a positive esse grade. One satisfies global grades while
+failing global genus causality outside esse; the other satisfies global genus
+causality while failing global grades outside esse. The latter assigns a
+universal, reflexive nonesse comparison with self-loops. These separate scope
+under the current unconstrained MoreIn signature, not under strict/asymmetric
+order semantics, and are not proposed metaphysical explanations. All-present
+contingent grounding is vacuous. Both candidates are necessary, while only
+one is a selected root: the endpoint is not uniqueness of all necessary beings.
+
+Both results pass full build4321, binding801/two legacy pins/zero mismatch,
+Comparator and independent result NanoDa. The combined scope/count library
+check covers888 dependency declarations with zero typechecker errors and one
+known axiom pretty-printer warning. Both result axiom reports are empty;
+independent claim/type review found no findings. Required delivered-head
+CI/review remains pending. Root routes, reaching-root IDs, open-premise count
+and depth counts are unchanged against the verified joint-attribute baseline.

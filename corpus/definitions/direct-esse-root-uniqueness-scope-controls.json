@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DIRECT-ESSE-ROOT-UNIQUENESS-SCOPE-CONTROLS",
+  "term": "fixed-esse uniqueness interface scope controls",
+  "definition": "Two source-free Boolean assignments preserve the existing CrossedTops carrier, in-act dictionary and esse comparison/causation. A newly supplied all-present/all-concrete ontology selects old esse causation as grounds. Both assignments retain all seven nonlogical fixed-esse uniqueness inputs, a positive esse grade, and the same selected actual necessary-root uniqueness conclusion; supplied EM completes eight inputs. With no nonesse comparisons and no nonesse causes, global grades-to-maximum holds but global genus causality fails. With all nonesse pairs comparing and no nonesse causes, global genus causality holds vacuously there (no maxima) but global grades-to-maximum fails. The universal nonesse comparison is reflexive and has self-loops. Scope separation is therefore only under the current unconstrained MoreIn signature, not strict or asymmetric order semantics; no metaphysical plausibility or philosophical refutation is claimed. Contingent grounding is vacuous because every candidate is present in all worlds. Both candidates are necessary; only one is a selected root. This is formal scope separation, not a real metaphysical model, causal adequacy, premise truth or uniqueness of all necessary individuals.",
+  "basis": "stipulative",
+  "note": "New ontology/profile and nonesse assignments are explicit; no old CrossedTops field is edited. Retained bundles seven nonlogical inputs; the registered theorem supplies EM explicitly.",
+  "lean_declaration": "TruthCore.Causality.DirectEsseRootUniquenessAtBeing.Controls.ScopeControls"
+}

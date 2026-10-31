@@ -18,6 +18,7 @@ import TruthCore.Causality.CountTemporalNecessity
 import TruthCore.Causality.DerivativeJointPower
 import TruthCore.Causality.DirectEsseGenusOmissionControl
 import TruthCore.Causality.DirectEsseRootRoute
+import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.ExistentialSelfActualization
