@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a1p3b.html",
+    "retrieved_at": "2026-10-31T19:56:37Z",
+    "sha256": "sha256:460eaba9677f61cc900af769c5fd4e3ecdf990190c938c8d7ec31e93afec08d9",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, functional selector, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A1P3B",
+      "locator": "A1P3B, complete interactive page",
+      "claim_locator_prefixes": [
+        "A1P3B,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "We will now stipulate that by 'cause' we mean 'external cause', where an external cause of X is a cause of X that is neither X itself nor part of X (alone). Keep this stipulation in mind as you continue the quiz."
+        }
+      },
+      "text_sha256": "sha256:6d9fdc28917a785f9c51f11773c2fad4881e49eb811e017008b9c5a1601933e3",
+      "incipit": "We will now stipulate that by 'cause' we mean 'external cause', where an"
+    }
+  ]
+}

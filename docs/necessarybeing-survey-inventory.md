@@ -520,3 +520,80 @@ Six inputs are retained: typed five opportunity, typed decrement, one-way tempor
 This is genuine conditional derivation/configuration progress under policy #824, with no philosophical truth discharge. No universal frame, now-slice coherence, global PSR, well-foundedness, causal-grounding conversion, uniqueness or God identification is assumed or concluded. Temporal population coverage, causal interpretation, concrete-domain applicability, modal scope and the ever-history existence bridge remain explicit framework commitments. Focused Lean checks pass; both proof helpers/endpoints have zero axioms. Challenge SHA256 remains `e3834ccaaec1c02e679088b415f86e778fe2bcbc62ed957d1114bc64520d77fc`. Corpus and whitespace checks pass; Comparator/NanoDa integration is coordinator-owned and not yet claimed here. The new attempt `ATTEMPT-COUNT-TEMPORAL-NECESSARY-BEING-20261031` retains the exact premise comparison and focused evidence. Source extraction/argument registration for other family commitments remains queued.
 
 Retained strength in the typed count configuration: `CausedThreshold` requires absence at every earlier time, while the witness proof only uses absence at the cause time. This first-threshold guard is not silently attributed to the source. Weakening it to cause-time absence is a separate configuration opportunity; the frozen current Challenge remains unchanged.
+
+
+### A1 question chain and shared context closure audit (2026-10-31)
+
+Ten previously absent page witnesses are now pinned, materialized and read in
+full: `NECESSARYBEING-HOME`, `NECESSARYBEING-INSTRUCTIONS`,
+`NECESSARYBEING-NECESSITY-CONTEXT`, `NECESSARYBEING-Q1`, and
+`NECESSARYBEING-A1P0`, `A1P1`, `A1P2`, `A1P3`, `A1P3B`, `A1P4` (the latter IDs
+all retain the `NECESSARYBEING-` prefix). Each complete response matched two
+GETs before manifest creation; title definitions and actual redirect targets
+were read in those pinned bytes. No new archive fallback or displayed license
+is asserted. No survey response was submitted.
+
+**Shared context and selection scope.** Home frames the exercise as testing
+what follows from the respondent's reports, not establishing those reports as
+truths. Instructions equate can/possible with consistency with objective
+necessities, explain hover definitions, and state that some answers are
+tracked. The separate necessity explanation leaves the term familiar rather
+than reducing it to knowledge; it requires truth across every possible actual
+situation to count as necessary. The existing `NECESSARYBEING-DEFINITION`
+witness was re-materialized and its selected text compared with its complete
+hash-checked page: it includes the entire visible body, not a truncated argument.
+It preserves possible causal capability, impossibility of nonexistence, and the
+SEPARATELY stipulated existential necessitation axiom. It does not identify
+that axiom with de re candidate identity or prove the real-world modal frame.
+Existing A1c/A1c2 selected ranges were also re-materialized; they omit the
+congratulatory introduction but retain the full numbered arguments and closing
+questions. None of those existing manifests was changed.
+
+**Static A1 route closure.** The parsed choices have the following actual
+HTML destinations; no guessed alternate pages were fetched.
+
+| Page | Actual successor choices |
+| --- | --- |
+| A1p0 | Every answer goes to A1p1. Its inside-itself question adds no discriminating premise to these routes. |
+| A1p1 | Denying possible uncaused contingent existence goes to A1p2; affirmative/unsure exits to A3p1. |
+| A1p2 | Affirming totality contingency goes to A1p3; negative/unsure exits to A2p1. |
+| A1p3 | Answering no to the disjunction (self-origination or production solely by own parts) goes to A1c; affirmative/unsure goes to A1p3b. |
+| A1p3b | Explicit external-cause stipulation, then A1p4. |
+| A1p4 | Denying existence without at least partial external origination goes to A1c2; affirmative/unsure exits to A3p1. |
+
+A1p3's collective own-parts exclusion is not merely a prohibition of one act's
+self-production. The fallback does not infer externality from the earlier
+unqualified report: A1p3b changes the causal vocabulary, and A1p4 RE-ASKS the
+causal question under it. The stipulation excludes the effect itself or its part, retaining an explicit
+“(alone)” qualifier; A1p4's tooltip excludes a mere part as the relevant cause. Preserve those
+wordings and the partial-cause scope rather than silently deciding a full joint
+contribution theory. Its past-origination wording does not itself supply the
+present esse-sustaining correspondence used by direct-esse results. Existing
+A1 totality-relatum/actuality and complete self/parts-exclusion obligations and
+already checked external-whole-cause consequences remain unchanged.
+
+**Entry boundary.** Home links to instructions; instructions link to the full
+being definition, separate necessity explanation and Q1. Q1 asks the
+respondent's initial stance and directs its three answers to `a1.php`, `a2.php`
+and `a3.php`. Those answer endpoints were NOT requested or interpreted: reading
+their targets could submit a stance in a survey that announces answer tracking.
+The six A1 question pages were read directly. This closes the known static A1
+HTML/question/context witness gaps, not every server-side entry path, answer
+history or executable implementation. No extra A1 HTML branch was discovered
+from the inspected question chain; its A2/A3 exits already belong to the read
+numbered families.
+
+**Next source-ordered extraction cluster.** Reuse the existing four A1
+statements/claims and the checked external-whole consequence. First align
+A1p1→A1p2→A1p3→A1c as one respondent-conditional totality/self-parts cluster;
+then compare A1p3b→A1p4→A1c2 as the explicit stronger causal variant. New question
+witnesses do not by themselves merit duplicate claims or independent premise
+truth markings. The collective complete-contribution and whole-relatum roles
+may remain declared framework inputs while their conditional consequences are
+explored, under policy #824. This source batch adds no Lean, claim, model,
+causal principle, philosophical discharge or root-route change.
+
+Validation for this bounded source batch: all ten new witnesses passed live
+source verification after materialization; the other458 manifests received the
+offline check only. Offline source bindings, JSON parsing and whitespace checks
+pass. No Lean inputs changed.

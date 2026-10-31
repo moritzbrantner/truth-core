@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/q1.html",
+    "retrieved_at": "2026-10-31T19:57:25Z",
+    "sha256": "sha256:0042c26c169b3c12c761649e36efdbfd7fa2f40edbd0f8c33d50220f0c5aa80d",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, functional selector, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-Q1",
+      "locator": "Q1, complete initial stance question",
+      "claim_locator_prefixes": [
+        "Q1,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is there a Necessary Being?"
+        }
+      },
+      "text_sha256": "sha256:ea4505b23fb2b9766e2c9d0bb51877830e2cff58f801988503dbde67f06250ec",
+      "incipit": "Is there a Necessary Being?\nIt seems so\nIt seems not\nI can't say"
+    }
+  ]
+}

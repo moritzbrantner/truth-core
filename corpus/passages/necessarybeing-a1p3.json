@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a1p3.html",
+    "retrieved_at": "2026-10-31T19:56:36Z",
+    "sha256": "sha256:9f59cb98af499c8abb9e310de755af3338b2e02d0e3f30bad2573d968af91f93",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, functional selector, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A1P3",
+      "locator": "A1P3, complete interactive page",
+      "claim_locator_prefixes": [
+        "A1P3,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Can anything cause itself to exist, or be caused to exist solely by its parts?"
+        }
+      },
+      "text_sha256": "sha256:4d2c9f0dcf0d1c2d38a4892c9a2b0b1cb0289c9a613a73a2e65bdca571de4e74",
+      "incipit": "Can anything cause itself to exist, or be caused to exist solely by its "
+    }
+  ]
+}
