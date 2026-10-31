@@ -1,0 +1,19 @@
+{
+  "id": "STMT-ACTUAL-WORLD-GAP-SCHEMA",
+  "lean_declaration": "TruthCore.Explanation.ActualWorldGap.Schema",
+  "paraphrase": "For arbitrary histories and reason arenas. Tagged copying preserves exercise coherence, joint sufficiency, Supply and local power. If two worlds each have sound edges, an edge at every existent and existents present at exactly all supplied times, they have the same edge table iff they agree on presence and edge table. If a and all worlds accessible from it meet that condition, the named table as a reason-vector yields an evidence-only selector at a, and any fact coextensive with same-table on the accessible worlds is coextensive with a's total fact there. Given a rival b of a (accessible, different presence history): each world's own total fact holds at it, and a's total fact is contingent at a; and, if reasons for that fact are true at a, it has no reason, or some reason for it is true at b where it fails, or some reason for it fails at b and is contingent. That is coverage, not exclusivity. No fact true at a and at all accessible worlds entails a's total fact on them. Contrastive closure at a and well-founded reasons at a are jointly inconsistent with a rival. These are conditional consequences: the demand is a parameter and no premise is established.",
+  "definition_ids": [
+    "DEF-ACTUAL-WORLD-GAP-TOTAL",
+    "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
+    "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
+    "DEF-PSR-REASON",
+    "DEF-HISTORY-SELECTION-INFORMATION",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-WORLD-GAP-QUESTION",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}

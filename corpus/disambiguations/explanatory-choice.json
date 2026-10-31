@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EXPLANATORY-CHOICE",
+  "term": "personal choice; impersonal ground",
+  "sense_definition_ids": [
+    "DEF-EXPLANATORY-CHOICE-MARKS",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS"
+  ],
+  "resolution": "'Personal' has two uses here. As Marks it is four structural conditions on a frame; as PersonalStop it is a supplied flag. The acting model has the marks whatever flag is supplied, so the marks do not settle the flag, and nothing certifies that any model is or is not a person. Reading a model as a person's choice or as an indeterministic setup is the analyst's reading of one frame, and no step depends on it."
+}

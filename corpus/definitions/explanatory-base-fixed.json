@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-BASE-FIXED",
+  "term": "base-fixed favouring",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.BaseFixed",
+  "definition": "Worlds agreeing on the truth of every base fact (the #736 SameEvidence) agree on the favouring by each base member. NecessaryBase: every base fact is true at a and its accessible worlds. ExhaustiveAt and ExclusiveAt: at least one, and at most one, field member is true at the world.",
+  "note": "Candidate condition under test, not a law. Its rival is favouring that varies with the outcome, as settled does. A base can be enlarged by any further varying fact, and then the worlds no longer agree on it. See docs/notes/explanatory-symmetry-742.md."
+}

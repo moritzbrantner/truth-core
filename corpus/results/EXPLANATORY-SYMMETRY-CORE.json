@@ -1,0 +1,10 @@
+{
+  "id": "EXPLANATORY-SYMMETRY-CORE",
+  "argument_id": "EXPLANATORY-SYMMETRY-CORE",
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExplanatorySymmetry.core",
+  "comparator_config": "results/EXPLANATORY-SYMMETRY-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "An inconsistency of base agreement, base-fixed favouring, net selection at both worlds, and a swapped outcome pair, with a corollary for a necessary base and a deletion model per member of the first bundle. Conditional consequence only: it establishes no member, and which to reject remains open."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "EXPLANATORY-SYMMETRY-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXPLANATORY-SYMMETRY-CORE",
+  "inference_ids": [
+    "INF-EXPLANATORY-SYMMETRY-CORE"
+  ],
+  "meaning": "An inconsistency of base agreement, base-fixed favouring, net selection at both worlds, and a swapped outcome pair, with a corollary for a necessary base and a deletion model per member of the first bundle. Conditional consequence only: it establishes no member, and which to reject remains open. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-symmetry-742.md.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

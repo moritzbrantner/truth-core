@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
+  "term": "local causal record condition",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ActualWorldGap.LocalRecord",
+  "definition": "LocalRecord h v: edges at v hold between existents at v (Sound); each existent at v has an edge as effect or as cause (Recorded); and x is present at time t at v iff x exists at v (Perpetual). tableTruth is the named edge table as a #736 reason-vector.",
+  "note": "Recorded is weaker than every member having a cause: a source with an effect passes, a causally idle existent does not. Perpetual is a restriction of the fixtures and of the table theorems; the dated control violates it. Causal edges are supplied, not certified as genuine causes."
+}
