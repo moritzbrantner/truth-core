@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.JointCondition.necessityEquivalence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

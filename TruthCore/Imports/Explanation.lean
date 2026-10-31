@@ -8,6 +8,7 @@ import TruthCore.Explanation.ExplanatoryAdequacy
 import TruthCore.Explanation.ExplanatoryClosure
 import TruthCore.Explanation.ExplanatorySymmetry
 import TruthCore.Explanation.HistorySelection
+import TruthCore.Explanation.JointCondition
 import TruthCore.Explanation.JointCooperation
 import TruthCore.Explanation.LawActuality
 import TruthCore.Explanation.NecessaryFactBoundary

@@ -7,6 +7,7 @@ import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
 import TruthCore.Results.Explanation.ExplanatoryClosure.Solution
 import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
+import TruthCore.Results.Explanation.JointCondition.Solution
 import TruthCore.Results.Explanation.JointCooperation.Solution
 import TruthCore.Results.Explanation.LawActuality.Solution
 import TruthCore.Results.Explanation.NecessaryFactBoundary.Solution

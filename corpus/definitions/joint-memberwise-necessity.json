@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-MEMBERWISE-NECESSITY",
+  "term": "joint necessity versus necessity of each fixed member",
+  "definition": "JointNecessary A S w is joint truth at every accessible world. MembersNecessary A S w means each selected member holds at every accessible world. NecessityEquivalence universally states their equivalence; it is proved by exchanging the universal quantifiers. Neither alone asserts actual truth on a nonreflexive frame.",
+  "basis": "stipulative",
+  "note": "Owner-proposed simplification on 2026-10-31. Logical conjunction packaging, not a new causal substance or an attributed historical claim. Exact meaning, examples, fixed-roster/alternative-cause distinctions, structural justification and open explanatory application: docs/notes/underived-essence-identity.md, joint-condition compression section.",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.JointNecessary"
+}

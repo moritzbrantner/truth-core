@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-CONDITION-CONTINGENT",
+  "argument_id": "JOINT-CONDITION-CONTINGENT",
+  "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointCondition.contingent",
+  "comparator_config": "results/JOINT-CONDITION-CONTINGENT/comparator.json",
+  "status": "solution-present",
+  "description": "Actual joint truth plus one contingent required member makes the fixed conjunction contingent. The same accessible world lacking that member lacks the conjunction. No necessary-member premise is needed; if present it remains compatible with the conclusion. No effect contingency, causation or new joint being is inferred."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-MODAL-CONDITION",
+  "term": "joint obtaining of a fixed collection of conditions",
+  "definition": "JointTrue A S w means every fact f in the fixed Set S holds at w. JointContingent means this joint truth actually holds and fails at some world accessible from w, specializing the existing fact-level actual/accessible-absence modality to a conjunction predicate. No aggregate fact token or being is added to A. With a Groups record choose S = h.members g, including contributors and enablers.",
+  "basis": "stipulative",
+  "note": "Owner-proposed simplification on 2026-10-31. Logical conjunction packaging, not a new causal substance or an attributed historical claim. Exact meaning, examples, fixed-roster/alternative-cause distinctions, structural justification and open explanatory application: docs/notes/underived-essence-identity.md, joint-condition compression section.",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.JointTrue"
+}

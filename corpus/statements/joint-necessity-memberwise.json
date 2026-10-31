@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-NECESSITY-MEMBERWISE",
+  "lean_declaration": "TruthCore.Explanation.JointCondition.NecessityEquivalence",
+  "paraphrase": "For every arena, fixed set and world, joint necessity is equivalent to necessity of each selected member. Holds also for empty or infinite sets; no reflexivity or actual truth is assumed.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-MIXED-MODAL-CERTIFICATE",
+  "argument_id": "JOINT-MIXED-MODAL-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointCondition.mixedCertificate",
+  "comparator_config": "results/JOINT-MIXED-MODAL-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the unchanged existing ground false model: necessary ground fact and contingent choice fact have a contingent conjunction while an actual necessary individual remains. Applies the general joint-condition theorem. This witnesses the owner’s necessary-plus-contingent case without treating joint contingency as a refutation of necessary individuals or certifying adequate explanation."
+}

@@ -520,3 +520,57 @@ outside this conditional step. These are explicit remaining obligations, not
 premises silently included in the signature. The source's stronger PSR input
 is retained as open; the owner's accepted actual existence is not replaced by
 admitted fact labels. No root premise is discharged.
+
+### Owner simplification: the full joint condition can be contingent
+
+The owner proposes treating several causes together as one joint cause and
+observes that a necessary contributor plus a contingent contributor gives a
+contingent joint cause. This is correct for **a fixed conjunction of actually
+obtaining required conditions**. `JointCondition.JointTrue A S w` packages it as
+`∀ f ∈ S, A.holds w f`; with a Groups record take `S = h.members g`, retaining
+both contributors and enabling conditions. This is a predicate on worlds, so no
+new fact token, causal substance or fusion object need be postulated.
+
+`JOINT-CONDITION-CONTINGENT` proves the more general rule: actual joint truth
+and one contingent member imply actual joint truth with accessible failure.
+The member's absence witness is also a witness to failure of the conjunction.
+No necessary-member hypothesis, S5, transitivity or excluded middle is needed.
+`JOINT-NECESSITY-MEMBERWISE` proves joint necessity iff every fixed member is
+necessary, for finite, infinite or empty sets. Actual truth remains separate
+from necessity on frames without reflexivity.
+
+`JOINT-MIXED-MODAL-CERTIFICATE` reuses exactly the existing `ground false`
+arena. Its ground fact is true at all worlds, choice is contingent, and their
+fixed joint condition is contingent, while the original ontology still has an
+actual necessary ground individual. No truth, reason or cause edge changes.
+This checks the owner's necessary-plus-contingent case without declaring a
+new adequate metaphysical model.
+
+**What this simplifies.** The full explanatory condition can be treated as one
+conjunction for modal reasoning. A necessary source together with a contingent
+condition does not amount to a necessary **full** condition, so ordinary modal
+necessitation of that full condition does not by itself force modal collapse.
+The contingent condition still needs an adequate account under the working PSR.
+Grouping it does not discharge that obligation or show that every constituent
+is contingent. Nor does contingency of a sufficient condition imply contingency
+of the effect: other sufficient conditions could obtain.
+
+**Scope and reality correspondence.** Conditions about source existence,
+actual exercise, enabling circumstances and cooperation are distinct facts.
+A necessary source's existence need not make its exercise necessary. The roster
+here is fixed and conjunctive; alternative sufficient groups require a different,
+disjunctive condition. A set of jointly true facts need not be a productive
+cause or a sufficient explanation. The implication proved uses only conjunction
+and the existing accessible-absence notion; it asserts no structural law of
+causation. Actual causal/explanatory adequacy and whether all relevant conditions
+have been included remain independently OPEN. There is no general empirical
+claim that ordinary causal examples establish a full existential ground.
+
+**Reuse audit.** #755's `bccf_contingent` establishes a related result for an
+aggregate containing every contingent fact, and `necessitating_reason_contingent`
+classifies a factive reason for a contingent target under explicit necessitation.
+The present rule does not assume that the selected conjunction is the BCCF or
+that any explanatory relation is necessitating. #744's cooperation theorem
+already separates occurrence from sufficiency and exercise from necessary
+existence; those results and the existing disambiguations remain unchanged.
+No source-derived claim, necessary-being proof or root-premise closure is added.

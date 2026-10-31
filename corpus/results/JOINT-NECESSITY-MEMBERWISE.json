@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-NECESSITY-MEMBERWISE",
+  "argument_id": "JOINT-NECESSITY-MEMBERWISE",
+  "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointCondition.necessityEquivalence",
+  "comparator_config": "results/JOINT-NECESSITY-MEMBERWISE/comparator.json",
+  "status": "solution-present",
+  "description": "Joint necessity of a fixed collection is memberwise necessity by interchange of universal quantifiers. No actual existence, causal cooperation, finite roster or S5 premise is assumed."
+}
