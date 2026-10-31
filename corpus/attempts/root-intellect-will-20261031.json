@@ -1,0 +1,32 @@
+{
+  "id": "ATTEMPT-ROOT-INTELLECT-WILL-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-ROOT-INTELLECT-WILL",
+    "STMT-ROOT-INTELLECT-WILL-L-OMISSION",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Fifteen-input same-witness composition. Import ROOT-WITHOUT-LIMITING-PRINCIPLE with its eleven unchanged inputs and retain ONE actual concrete necessary root n. Extract represented essence/esse identity, noncomposition and firstness from its three-horn exclusion under the retained explicit EM. Composition-kinds excludes matter-form composition of n. The separately retained no-component-first-being reading (ledger L) excludes n entering the composition of ANY other being; this is different from n being noncomposite. Apply the existing altogether-immaterial-to-intellectual and intellect-to-will readings to this SAME n. The endpoint retains its rootness, necessity, represented identity, simplicity, firstness, matter-form exclusion, remoteness, intellect and will. No genus causality, maximality, God naming or new opaque bridge is used. Primitive intellect/will do not certify omniscience, libertarian freedom or explanatory adequacy. All source/applicability and causal/priority correspondence premises remain explicit open commitments; no philosophical premise is discharged. Four additional existing inputs relative to the eleven-input route; no global minimality or weaker-overall-bundle claim. Structural omission of ledger L on the unchanged ORIGINAL four-being #681 joint interpretation, using the existing DirectEsseGenusOmissionControl.profile view (old ontic and old supportsEsse; all four candidates stipulated concrete). Check all thirteen nonlogical inputs other than L, with EM explicitly retained as the fourteenth input. Old roots left/right remain actual necessary first beings, noncomposite and represented essence/esse-identical, yet each is a component of the instrument. L therefore fails in this SAME interpretation. Newly assign only the previously unspecified HasIntellect and HasWill predicates false. The q14 reading still holds: nonroots are matter-form composites, while roots fail remoteness because they enter the instrument; q19 holds vacuously under false intellect. No actual selected root has intellect, so the full same-witness intellect/will endpoint fails. Contingent-ground coverage is vacuous in the old all-present ontology; no q3a8 part-freeness or independent philosophical adequacy is claimed. This distinguishes noncomposition from remoteness and shows L is not entailed by the other fourteen exact inputs in this profile, not indispensability in every route or a metaphysically possible unintellectual ultimate reality. Frozen Challenge hashes: root c2863135efc83c3c069c4784b416253b6cada6358b7bef6eefb9269d7e0ec541; omission 8eb2bc165f3e056c792dc264bce9e35dcc7332025d4db5a244dca9930b69b31d. Focused locked CLI core/Solution compilation passes for both. Full integration, binding, Comparator/NanoDa and frontier evidence are coordinator-owned; none is inferred from local elaboration. Claim/type self-sweep: endpoint is existential at the same root, not universal God attributes or source truth; omission checks the exact other fourteen inputs and no new source claim. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Final focused compiled Solution modules and explicit axiom probes pass: both exported theorem declarations depend on no axioms. Corpus consistency passes with the existing unrelated Frege-Geach closure warning; diff whitespace passes. No root-frontier or philosophical closure change is claimed; coordinator records the integrated comparison. Reused the q14 dossier\u2019s ATTEMPT-Q14-IMMATERIAL-INTELLECT-RECEPTION: structural antecedent to positive cognitive aptitude/intellectual grade remains the explicit hIntellect premise, not a further consequence claimed here. Its existing empty/sensory-recipient controls remain separate and unchanged. Coordinator integration: full lake build passed (4306 jobs), binding passed (791 bound, 2 legacy pinned, zero mismatch), and BOTH registered results passed Comparator and independent result NanoDa. Independent reviewer accepts this as structured conditional composition with a nontrivial structural remoteness step, not a mere opaque-bridge transcription; the q14/q19 applications remain retained reading premises. Scoped library NanoDa also checked 435 dependency-closed declarations with zero typechecker errors, retaining one axiom pretty-printer warning. Delivered-head CI/review remain pending. No existing root premise closes or disappears; God-route costs remain 7/11/12/13/13/14/15. The nine-row matrix is persisted separately from historical migration dispositions in docs/notes/classical-attributes-all-migration.md.",
+  "evidence": [
+    "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+    "ROOT-INTELLECT-WILL",
+    "ROOT-INTELLECT-WILL-L-OMISSION",
+    "DIRECT-ESSE-GENUS-OMISSION-CONTROL"
+  ]
+}
