@@ -1,0 +1,26 @@
+{
+  "id": "STMT-POSSIBLY-INHABITED-CONCRETE-WORLD",
+  "paraphrase": "OPEN, unattributed application premise: Some v accessible from w satisfies existing InhabitedConcreteAt A.ontic Concrete v: an individual satisfying Concrete actually exists there. No contingency, causal exercise, necessity or metaphysical possibility of this instance is inferred by definition.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.PossiblyInhabitedConcreteAt",
+  "definition_ids": [
+    "DEF-NO-CONTINGENT-CONCRETE-AT",
+    "DEF-ACTUAL-CAUSED-FACT",
+    "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
+    "DEF-NEGATIVE-FACT-MEANING",
+    "DEF-ACCESSIBLE-EMPTY-COVERAGE",
+    "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
