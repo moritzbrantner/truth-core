@@ -6,7 +6,11 @@
     "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsTransitivity",
     "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsNothingPriorToItself",
     "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsCausePriorToEffect",
-    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsMiddleCause"
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.needsMiddleCause",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.noExistentialSelfActualization",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.existentialSelfActualizationNeedsTransitivity",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.existentialSelfActualizationNeedsIrreflexivity",
+    "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.otherBearerCanActualizeExistence"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

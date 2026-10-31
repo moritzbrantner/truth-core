@@ -64,6 +64,66 @@ or from explanatory dissatisfaction to an original causal source is made.
 EXP-SCOPE, EXP-LOCAL-TO-GLOBAL, EXP-NONCIRCULAR and EXP-ULTIMATE remain open.
 Source attribution remains paused; no historical claim is added.
 
+## Self-actualization of existence is a different problem from feedback
+
+The bearer of a productive **act** and the being whose **existence** the act
+produces are distinct sorts of explanatory relatum, even when the same being
+is named on both sides. The companion Lean certificate
+`PerSeCausalLoopImpossible.noExistentialSelfActualization` models an act `a`
+and an existential token `inl x`, rather than identifying an event or an
+explanation token with a concrete being:
+
+1. An occurring act presupposes its bearer: the bearer's existence-token is
+   prior to the act (`hBearerPrior`). This is the substantive formulation of
+   "it must already be in act to exercise a power"; its applicability to a
+   proposed kind of creation needs argument, not a name change.
+2. If the act actualizes a being's existence, the act is explanatorily prior
+   to that existence-token (`hProductPrior`). This says *existential
+   production*, not mere maintenance, dependence, or temporal feedback.
+3. Priority is irreflexive (`hNoSelfPrior`) and transitive (`hTrans`). These
+   are shared Aquinas-reading predicates applied to the **mixed** domain of
+   being-existence tokens and acts. Their extension to that domain is an
+   explicit, still-open metaphysical bridge.
+
+If `a` produces the existence of its own bearer `b`, the first two interfaces
+give `existence(b) ≺ a ≺ existence(b)`. Transitivity contradicts
+irreflexivity. **Lean proves this conditional**. No clock or initial instant
+is used: the paradox is explanatory/ontological, not a chronological claim.
+
+The omission controls certify the exact load-bearing property of the order:
+on two tokens, `x ≠ y` permits the cycle if transitivity is removed;
+universal priority permits it if irreflexivity is removed. A separate
+three-rank finite model (`otherBearerCanActualizeExistence`) permits an
+existing bearer to actualize the existence of a **different** being while
+satisfying all four premises. The result is therefore a targeted prohibition
+on productive self-origin, not a prohibition on ordinary productive acts.
+
+### Rival cases and missing routes
+
+| Case | What this result says | Further burden |
+| --- | --- | --- |
+| Efficiently producing one's own existence | Impossible **given** the two priority interfaces and a strict transitive order. | Defend those interfaces for the exact proposed kind of act. |
+| Ordinary self-change or self-maintenance | Not excluded: the produced item is not the bare existence of the act's bearer. | Distinguish the changed respect or persisting state from the originating existence fact. |
+| Time traveler supplying a plan to an earlier inventor | Not thereby an existential self-actualization: an information loop may be a consistent constraint without an originating productive act. | Show that the loop actually generates the existence of its own bearer, not just information. The unique-feedback model already defeats a claim of universal logical inconsistency. |
+| Contingent thing explaining its own existence by its essence | `BruteFoundationExplanations.contingentExcludesNecessaryNecessitatingReason` supplies the modal contradiction **if** that intrinsic reason is necessary across the relevant worlds *and* suffices to necessitate that particular being. | A contingent, world-local, or nonnecessitating explanation does not generate that contradiction merely from the fact that the being fails to exist elsewhere. |
+| Necessary being's intrinsic reason for existence | Not efficient self-production and not refuted by this theorem. | Argue for its actuality and genuine explanatory adequacy; calling it necessary is not an instantiation proof. |
+| Distinct predecessor for every contingent being | Acyclic, infinitely descending support is not ruled out. `BearerRegress.ChainBranchModel` already certifies a chain with no terminus, and the new positive control shows distinct productive bearers are compatible with the local order. | Defend a ban on source-free non-well-founded **existential production** or a stronger global explanatory/PSR principle; also deal with brute contingent termini. |
+
+The strongest reply is that a contingent individual can have an intrinsic
+*nonnecessitating* explanation at just those worlds where it exists, or that
+a consistent whole feedback structure has an adequate global explanation.
+Neither reply has been shown adequate, but neither contradicts the local
+Lean theorems as stated. Conversely, the proof cannot be promoted to a
+necessary being by quietly assuming that every actual contingent being is
+productively actualized by something, that all such precedence is governed
+by one strict order, or that every unbounded external chain is impossible.
+
+This is an **analyst conditional**, not a newly attributed quotation from
+Aquinas and not a proof of the open P2/P3 bridges. The source-derived
+`SecundaVia` exclusion of efficient self-causation remains separate; the
+`EssenceEsseExternalCause` reading likewise keeps the external-cause
+exhaustiveness burden visible. No root premise is marked closed.
+
 ## Premises, verification and service evidence
 
 Intended and actual root-path open-premise delta: zero. The closed certificate
