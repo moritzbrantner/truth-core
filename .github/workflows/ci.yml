@@ -23,50 +23,71 @@ jobs:
           import socket
           import subprocess
           import sys
+          import urllib.error
           import urllib.parse
           import urllib.request
-          sys.path.insert(0, "scripts")
+          sys.path.insert(0, 'scripts')
           import source_evidence as source
-          out = Path("source-delivery-diagnostic")
-          out.mkdir(exist_ok=True)
-          base = "d44e2ddfcbac5cbf9aa4b86ea854216488e2bc7c"
-          metadata = {"base_commit": base, "commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(), "run_id": os.environ["GITHUB_RUN_ID"], "user_agent": source.USER_AGENT, "accept_encoding": "identity", "records": []}
-          allowed = {"server", "date", "content-type", "content-length", "content-encoding", "last-modified", "etag", "vary", "via", "age", "cache-control", "x-cache", "cf-ray", "cf-cache-status"}
-          original = urllib.request.urlopen
+          out = Path('source-delivery-diagnostic'); out.mkdir(exist_ok=True)
+          meta = {'commit': subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(), 'base_commit':'d44e2ddfcbac5cbf9aa4b86ea854216488e2bc7c','run_id':os.environ['GITHUB_RUN_ID'],'user_agent':source.USER_AGENT,'accept_encoding':'identity','request_budget':8,'requests':0,'records':[]}
+          allowed = {'server','date','content-type','content-length','content-encoding','last-modified','etag','vary','via','age','cache-control','x-cache','cf-ray','cf-cache-status','location'}
           current = None
-          def observed_open(request, *args, **kwargs):
-              response = original(request, *args, **kwargs)
-              current["response"] = {"status": response.status, "final_url": response.geturl(), "headers": {k.lower(): v for k, v in response.headers.items() if k.lower() in allowed}}
+          def dns(url):
+              host = urllib.parse.urlsplit(url).hostname
+              try: return {'host':host,'addresses':sorted({x[4][0] for x in socket.getaddrinfo(host,443,type=socket.SOCK_STREAM)})}
+              except OSError as error: return {'host':host,'error_type':type(error).__name__}
+          def reserve(url):
+              if meta['requests'] >= 8: raise urllib.error.URLError('diagnostic request budget exhausted')
+              meta['requests'] += 1
+              current['transport_requests'].append({'url':url,'dns':dns(url)})
+          class Redirects(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  current['redirects'].append({'from':req.full_url,'status':code,'to':newurl,'headers':{k.lower():v for k,v in headers.items() if k.lower() in allowed}})
+                  reserve(newurl)
+                  return super().redirect_request(req,fp,code,msg,headers,newurl)
+          opener = urllib.request.build_opener(Redirects())
+          original = urllib.request.urlopen
+          def observed_open(req,*args,**kwargs):
+              reserve(req.full_url)
+              response = opener.open(req,*args,**kwargs)
+              current['response'] = {'status':response.status,'final_url':response.geturl(),'headers':{k.lower():v for k,v in response.headers.items() if k.lower() in allowed}}
               return response
           urllib.request.urlopen = observed_open
+          koons = json.loads(Path('corpus/passages/koons-defeasible-reasoning-reply-oppy.json').read_text())['snapshot']
+          sequence = [('koons-first',koons)]
+          for name in ['blount-lenski-innovation','dye-mechanical-feedback']:
+              sequence.append((name,json.loads(Path('corpus/passages/'+name+'.json').read_text())['snapshot']))
+          sequence.append(('koons-after-elife',koons))
           try:
-              for page in ("a3c", "a2c2"):
-                  manifest_path = Path("corpus/passages/necessarybeing-" + page + ".json")
-                  manifest_bytes = manifest_path.read_bytes()
-                  snapshot = json.loads(manifest_bytes)["snapshot"]
-                  url = snapshot["source_url"]
-                  for attempt in range(1, 6):
-                      current = {"page": page, "attempt": attempt, "utc": datetime.datetime.now(datetime.timezone.utc).isoformat(), "url": url, "expected": snapshot["sha256"], "manifest_sha256": hashlib.sha256(manifest_bytes).hexdigest()}
-                      try:
-                          current["dns"] = sorted({entry[4][0] for entry in socket.getaddrinfo(urllib.parse.urlsplit(url).hostname, 443, type=socket.SOCK_STREAM)})
-                          body = source.download(url, page, attempts=1)
-                          current["actual"] = source.sha256_bytes(body)
-                          current["bytes"] = len(body)
-                          current["matches"] = current["actual"] == current["expected"]
-                          if not current["matches"]:
-                              filename = page + "-" + str(attempt) + ".html"
-                              (out / filename).write_bytes(body)
-                              current["mismatch_body"] = filename
-                          print(page, attempt, current["actual"], "MATCH" if current["matches"] else "MISMATCH", flush=True)
-                      except Exception as error:
-                          current["error_type"] = type(error).__name__
-                          print(page, attempt, current["error_type"], flush=True)
-                      metadata["records"].append(current)
-                      (out / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
+              for label,snapshot in sequence:
+                  current={'label':label,'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'url':snapshot['wayback_url'],'expected':snapshot['wayback_sha256'],'redirects':[],'transport_requests':[]}
+                  try:
+                      body=source.download(current['url'],label,attempts=1)
+                      current.update(actual=source.sha256_bytes(body),bytes=len(body))
+                      current['matches']=current['actual']==current['expected']
+                      if not current['matches']:
+                          filename=label+'.bin';(out/filename).write_bytes(body);current['unexpected_body']=filename
+                  except Exception as error:
+                      current['error_type']=type(error).__name__
+                      current['error']=str(error)
+                  meta['records'].append(current)
+                  (out/'metadata.json').write_text(json.dumps(meta,indent=2)+'\n')
+                  print(label,current.get('actual',current.get('error_type')),current.get('matches'),flush=True)
           finally:
-              urllib.request.urlopen = original
-              metadata["verdict"] = "mismatch_captured" if any(r.get("matches") is False for r in metadata["records"]) else "no_current_reproduction" if all(r.get("matches") is True for r in metadata["records"]) else "incomplete_network_capture"
-              (out / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
+              urllib.request.urlopen=original
+          # A single cert-verified curl HTTP/1.1 request discriminates client transport;
+          # redirects are deliberately not followed, preserving the shared eight-request bound.
+          if meta['requests'] < 8:
+              meta['requests']+=1
+              bodyfile=out/'koons-curl.bin'
+              result=subprocess.run(['curl','--silent','--show-error','--http1.1','--max-time','60','--connect-timeout','30','--max-redirs','0','--user-agent',source.USER_AGENT,'--header','Accept-Encoding: identity','--output',str(bodyfile),'--write-out','%{http_code}\n%{remote_ip}\n%{url_effective}\n',koons['wayback_url']],capture_output=True,text=True)
+              record={'label':'koons-curl-http1.1','returncode':result.returncode,'dns':dns(koons['wayback_url']),'metrics':result.stdout.splitlines(),'error':result.stderr.strip()}
+              if bodyfile.exists():
+                  body=bodyfile.read_bytes();record.update(actual=source.sha256_bytes(body),bytes=len(body));record['matches']=record['actual']==koons['wayback_sha256']
+                  if record['matches']:bodyfile.unlink()
+                  else:record['unexpected_body']=bodyfile.name
+              meta['records'].append(record)
+          (out/'metadata.json').write_text(json.dumps(meta,indent=2)+'\n')
           PYTHON
       - name: Retain delivery evidence
         if: always()
