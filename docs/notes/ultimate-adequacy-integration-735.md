@@ -1,5 +1,29 @@
 # Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
 
+## Current delivery and parallel work
+
+PR #810 is merged as `66468a8e` after successful repository CI and a completed
+review with no findings. The successor's verified Lean/corpus implementation
+is `4327aed1` on `research/lean-existential-self-actualization-20261031`;
+its normal delivery/review remains pending. It adds the two direct existential
+firstness/potency-free results below. No required philosophical premise has been
+closed by either batch.
+
+The owner's request for more workers was applied to three distinct lanes while
+integration continued: numerical-unity consumers, priority/ground reality
+correspondence, and downstream God-naming composition. Their durable deltas are
+in `necessary-simple-plurality.md`, `power-existence-scope-boundary.md`, and the
+linked attempts. The downstream audit identifies the same-witness positive
+maximum/causal-scope obligation: the existing full-description naming proof can
+reuse the new witness's firstness for remoteness, but its no-potency predicate
+alone gives neither positive perfection nor universal causal coverage. The
+existing numerical-unity theorems likewise retain common-source/common-nature
+or same-sense differentiation obligations; none is supplied by relabeling the
+new witness. The reality lane records positive current-constituent examples,
+then isolates the bridge from any dormant potency to a distinct present actual
+same-respect ground of the bearer's existence. Those exact applicability
+obligations, rather than new omission diagrams, are the next research targets.
+
 ## Accepted starting point
 
 The owner explicitly accepts **at least one being actually exists** as true for
@@ -81,10 +105,40 @@ The source-reading findings below add no claims or philosophical discharges.
 Policy resolved at sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
 Integration baseline: `origin/main@75e5162ff214585988a5b9763dddc4b99f2d03ee`;
 working branch: `research/lean-existential-self-actualization-20261031`.
-Next delivery step: publish this reviewed-scope batch and let the repository's
-normal CI and review check its delivered inputs. The independent semantic-content
+This batch is now merged through PR #810; its successor exposes direct
+existential firstness and potency-freeness below. The independent semantic-content
 source lane investigates the next missing bridge rather than adding a new claim
 from the presentation alone.
+
+### Direct firstness and absence of potency: same witness, shorter connection
+
+The follow-up to [PR #810](https://github.com/moritzbrantner/truth-core/pull/810)
+bypasses the maximality detour for two different existential conclusions.
+`NECESSARY-FIRST-BEING-FIRST` retains the actual necessary root and the existing
+simply-prior-to-ground bridge. A distinct predecessor would ground that root,
+which is impossible; the SAME actual necessary individual is therefore first.
+`NECESSARY-FIRST-BEING-PURE-ACT` then imports
+`FirstBeingNoPotency.firstBeingNoPotency` with act-priority and same-respect
+act/potency exclusivity. It preserves rootness, actual concreteness, necessity,
+firstness and absence of potency together in that same witness.
+
+These five/seven-premise results use none of the four modal/convergence bridges
+needed for the earlier maximum-conditional conclusion. They do not weaken that
+older theorem, whose conclusion is different. PureAct here excludes potency in
+the supplied respects; it asserts no positive InAct perfection or completeness
+of that domain. Necessity applies to the individual's existence, not an additional
+all-world invariance theorem about these attribute predicates. Neither numerical
+uniqueness, maximum status, universal causal coverage nor the God-naming premise
+follows just from the words first or pure act.
+
+Full build, binding (767 bound / two existing pins / zero mismatch), both
+zero-axiom Comparator checks and independent NanoDa pass. Compared with
+#810's implementation head `da994efd79f4c4921e0205f102c8cbde66779802`, God/Catholic
+route reports and open-premise unions are unchanged (64 and 73 respectively),
+with no added or removed reaching-root premise. This is an existential
+same-witness composition, not philosophical premise discharge or an already
+rewired God-existence route. The next parallel lanes test uniqueness, the
+priority/ground correspondence, and the remaining downstream God-naming path.
 
 ## Cumulative necessary-being argument: use the established exclusions together
 

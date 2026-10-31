@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-NECESSARY-FIRST-BEING-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-FIRST-BEING-FIRST",
+    "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inspected related search and dossiers for all seven retained inputs. Frozen two-theorem Challenge SHA25683b6f60b1f8df7215b36243ae126dce89b4c05e25c1882c873f58163a5091229 before Solution. necessaryFirst reuses WholeRosterFoundation.necessaryActualRoot; any distinct simply-prior predecessor becomes a forbidden actual concrete ground via the existing open correspondence bridge. necessaryFirstPureAct reuses the first result and imports FirstBeingNoPotency.firstBeingNoPotency, retaining the identical individual as actual concrete root, necessary bearer, first being and potency-free. No new relation, source attribution or model. Prose/type sweep: actual existence and concreteness belong to ActualRoot at the selected world; NecessaryAt quantifies over accessible worlds, without adding reflexivity or cross-world rootness; IsFirstBeing excludes distinct predecessors, not multiple incomparable first beings; PureAct excludes potency in supplied respects and asserts no positive InAct perfection, completeness of respects or eminent perfection. Five direct inputs for firstness, seven for potency-free endpoint. Compared with the nine-input WholeRosterFoundation.maximumFirst, omit necessity-cause correspondence, genus causality, necessary-being-has-being and cause-of-necessity transfer for these DIFFERENT existential conclusions; no weakening theorem about maximumFirst is claimed. No max, universal cause, uniqueness or God conclusion; no existing root argument rewired and no philosophical premise discharged. Next consumers need independently defended applicable act-priority and correspondence; God naming still needs maximum/universal causal coverage/perfections/uniqueness, and simplicity requires its own component/uniter interfaces. Focused new-module Lean diagnostics, corpus consistency and diff whitespace passed; both delivered theorem axiom reports are empty; coordinator full build, exact binding (767 bound / 2 existing pins / 0 mismatch), both zero-permitted-axiom Comparator checks and both independent NanoDa checks pass. God/Catholic route reports and reachable open-premise unions are unchanged against da994efd (64 and 73 respectively); no root consumer is rewired. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Coordinator policy resolution sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Explicit necessary-existence definition links added; no modal invariance of firstness or potency-freeness claimed.",
+  "blocker": "Independent warrant for actual population, selected existential grounding and whole-roster adequacy, contingent dependence, simply-prior correspondence and act-priority application remains open. Typed potency-freeness is not divine naming or numerical uniqueness. No root premise has been discharged.",
+  "evidence": [
+    "NECESSARY-FIRST-BEING-FIRST",
+    "NECESSARY-FIRST-BEING-PURE-ACT"
+  ]
+}

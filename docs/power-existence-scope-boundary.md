@@ -737,3 +737,109 @@ philosophical premise. The positive finding is the defensible restricted
 state/process pattern and the endpoint requirement for actual applications.
 Bare-bearer conservation, actual existential WF, numerical unity and modal
 inheritance remain open. Intended and actual root-premise change: zero.
+
+## Actual prerequisite priority: positive scope for the first-being bridge (2026-10-31)
+
+The new `NecessaryFirstBeing.necessaryFirst` retains actual population,
+whole-roster nontrapping, contingent dependence, explicit excluded middle and
+`STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND`. Its pure-act continuation adds the
+existing act-priority and same-respect non-simultaneity premises and imports
+`FirstBeingNoPotency.firstBeingNoPotency`. The same necessary actual root is
+preserved. There is no maximum/convergence or genus-causality premise. This
+makes the semantic correspondence of priority the consequential remaining
+interface, rather than another maxima-identity problem.
+
+Re-materialized/read the complete pinned Latin `AQUINAS-ST-I-Q3-A1` and
+`AQUINAS-ST-I-Q3-A7`, and re-materialized the previously read translation
+`AQUINAS-ST-I-Q104-A1-EN`. Inspected the simply-prior bridge dossier and its
+existing route attempts. These readings do not add source claims or change the
+bridge's explicitly unattributed status.
+
+### A positive restricted applicability argument
+
+A **present ontic prerequisite of a bearer's actual being** must be actual in
+the context in which it supplies that prerequisite. A merely absent candidate,
+our concept of a constituent, or a proof that a constituent would suffice cannot
+constitute the actual bearer. If distinct constituents genuinely constitute this
+composite now, their actuality contributes to its being this actual composite;
+the dependence remains even when nobody knows it. This direction is justified
+by what changes when the constituents/constitutive arrangement fail: the same
+composite is no longer constituted. The composite's existence may conversely
+be evidence of its constituents, but that reverses epistemic inference, not the
+constitutive dependence. This is independently intelligible restricted
+applicability, not a definition of firstness as whatever the chosen root lacks.
+
+Aquinas's q.3 a.7, corpus, second reason explicitly joins posteriority to
+components with dependence on them. Q.104 a.1, corpus, makes the house's being
+depend on the materials' natures and arrangement, while its becoming depends on
+the builder's action. Together they motivate a real **current constitutive**
+priority instance without requiring a presently acting builder. A persisting
+house is thus a positive contrast between an actual prerequisite and a merely
+historical producer. No conservation of the bare existence of every material
+component has been inferred. A whole's organization also matters: selecting
+one constituent as a partial prerequisite is not representing that constituent
+as a complete sufficient reason for the whole.
+
+For the proposed bridge, its three commitments can therefore be appraised
+separately. **Presence:** a present ontic contributor must occur at the reading
+world; an absent former builder is no counterexample to that restricted
+contribution. **Concreteness:** an actual material constituent is a positive
+example of the shared concrete-domain reading; an abstract form-description or
+law is not automatically an individual in that domain. **Selected relation:**
+if `grounds w` is independently specified as actual constitutive/existential
+prerequisite dependence, the foregoing case is a reason for the corresponding
+edge. If it is efficient production of bare esse, the case does not justify that
+edge. A choice of the first interpretation is a coherent semantic profile with
+an argument for this restricted application; it is not a proof that every simple
+priority relation, or every source interpretation of `grounds`, has that meaning.
+
+### What q.3 a.1 adds, and the exact remaining bridge
+
+Q.3 a.1, corpus, second reason distinguishes temporal potency-before-act within
+one changing thing from act's simple priority. Its reason invokes actualization
+only by something in act. This supplies positive directed dependence for an
+**actual reduction in the relevant respect**: the reduction is performed by an
+actual agent in that respect, rather than by the patient's potentiality as such.
+It does not identify the product with the patient's bare existence. Q.104's
+being/becoming discrimination prevents silently performing that substitution.
+The source's conclusion that every first being lacks all potency uses the
+broader act-priority commitment already present in the corpus; it cannot serve
+as its own independent justification by being cited a second time.
+
+The strongest restricted application of the disputed bridge is therefore:
+when `PriorSimply y x` identifies a distinct **current actual ontic prerequisite
+of x's being**, rather than priority of explanation-to-us, an absent generator,
+a comparative perfection, or only a possible actualizer, that prerequisite
+belongs to the selected actual support relation at w. This has ordinary
+constitutive instances and source-backed motivation. It gives a real research
+standard for admitting an edge, not just a demand that the desired conclusion
+hold. It is broader than ongoing efficient production and narrower than all
+uses of priority. No transitivity or well-foundedness is inferred from it.
+
+What remains for the five-/seven-premise route is **exhaustiveness of that
+reading for the priorities the downstream proof uses**. In particular, if an
+actual bearer has an unexercised potency, why must there be a distinct present
+actual concrete prerequisite of that bearer's being, in the selected relation,
+which is in act in the *same* respect? A presently unused capacity does not
+by itself exhibit a current reducing act; its actual basis might be the bearer's
+own constitution in another respect. Conversely, a demonstrated present reduction
+shows the actualizer's contribution to that reduction without showing that the
+whole bearer's existence depends on the actualizer. These are two specific
+unpaid steps, not arguments that ordinary actualization is unreal.
+
+One could restrict the relation to current actual reducers and obtain firstness
+relative to those reducers. That yields absence of the corresponding actual
+reduction at the root; it does not license the imported theorem's absence of
+every potency. One could instead include every relevant constitutive priority in
+`grounds`; then whole-roster nontrapping and contingent dependence must be
+defended for that enriched relation. Neither move is a free consequence of the
+old existential profile. Similarly, restricting the correspondence merely to
+whatever threatens the selected root would restate the needed firstness instead
+of defending its semantics. No replacement interface is admitted here.
+
+**Premise comparison:** the positive current-constitutive reading supports some
+actual instances and a principled presence requirement. It does not discharge
+the universal `SimplyPriorIsActualConcreteGround` statement or the act-priority
+application to every unexercised potency. All five original foundation/priority
+premises and both pure-act premises remain. No relation, statement, theorem,
+model or claim changes; no philosophical premise is added or established.

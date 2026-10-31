@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-FIRST-BEING-PURE-ACT",
+  "argument_id": "NECESSARY-FIRST-BEING-PURE-ACT",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryFirstBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryFirstBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryFirstBeing.necessaryFirstPureAct",
+  "comparator_config": "results/NECESSARY-FIRST-BEING-PURE-ACT/comparator.json",
+  "status": "solution-present",
+  "description": "Preserve the actual necessary root from WholeRosterFoundation.necessaryActualRoot; a distinct simply-prior predecessor gives a forbidden actual concrete ground through the open correspondence bridge. Apply the imported FirstBeingNoPotency.firstBeingNoPotency theorem to this same first witness under act-priority and same-respect exclusivity. No maximum/convergence premise is used for this different conclusion. Relation applicability and the listed philosophical premises remain open; no premise is independently defended or discharged."
+}
