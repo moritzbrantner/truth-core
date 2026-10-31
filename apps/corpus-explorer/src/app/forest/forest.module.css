@@ -46,6 +46,8 @@
   transition: border-color 140ms ease, background 140ms ease;
 }
 
+.reset { white-space: nowrap; }
+
 .toolbar button:hover,
 .inspectorActions button:hover,
 .inspectorActions a:hover {
@@ -363,7 +365,7 @@
 .bigNumber { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; }
 .compactList { display: grid; gap: 0.5rem; margin-top: 0.75rem; }
 .compactList li { padding-top: 0.4rem; border-top: 1px solid var(--line); }
-.compactList button {
+.compactList button, .compactList a {
   color: var(--ink);
   text-align: left;
   background: transparent;
@@ -374,7 +376,7 @@
   text-decoration: underline;
   text-decoration-color: var(--line-strong);
 }
-.compactList button:hover { text-decoration-color: var(--accent); }
+.compactList button:hover, .compactList a:hover { text-decoration-color: var(--accent); }
 .linkType { font-size: 0.62rem; color: var(--muted); display: block; margin-bottom: 0.25rem; }
 
 .warning {
