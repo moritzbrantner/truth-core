@@ -1,0 +1,12 @@
+{
+  "id": "INF-ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
+  "input_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-ACTUAL-GROUNDING-WF",
+  "rule": "well-founded-induction-and-borrowing-cut-equivalence",
+  "meaning": "Use the proved cut/WF equivalence to connect the explicit no-self-contained-borrowing application to the existing actual-grounding well-foundedness premise. This gives the earlier necessary-being route a typed input from the cut argument, without assuming that either foundation formulation is independently established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

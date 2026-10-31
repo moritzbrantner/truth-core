@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
+  "argument_id": "ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.actualWfOfBorrowingEscape",
+  "comparator_config": "results/ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT/comparator.json",
+  "status": "solution-present",
+  "description": "Use the proved cut/WF equivalence to connect the explicit no-self-contained-borrowing application to the existing actual-grounding well-foundedness premise. This gives the earlier necessary-being route a typed input from the cut argument, without assuming that either foundation formulation is independently established."
+}

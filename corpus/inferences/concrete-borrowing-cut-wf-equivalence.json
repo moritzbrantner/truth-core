@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONCRETE-BORROWING-CUT-WF-EQUIVALENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONCRETE-BORROWING-CUT-WF-EQUIVALENCE",
+  "rule": "well-founded-induction-and-borrowing-cut-equivalence",
+  "meaning": "Given explicit excluded middle, the existing borrowing-cut principle applied to this recorded actual-concrete grounding graph is equivalent to well-founded actual concrete grounding. Cut-to-WF applies the cut to the set of inaccessible nodes; WF-to-cut chooses a minimal member of each nonempty set and distinguishes whether it is a source or has a nonempty supplier outside that set. This identifies shared premise strength, not independent philosophical confirmation or a weaker foundation assumption.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -20,4 +20,27 @@ theorem necessaryConcreteOfSupply {W B : Type} (m : Profile W B) (w : W)
 theorem jointWitness : TruthCore.Causality.ConcreteExistentialSupply.JointWitness := by
   sorry
 
+/-- The supply application's existential strength is exposed exactly. -/
+theorem supplyRootEquivalence : SupplyRootEquivalence := by
+  sorry
+
+/-- Full cumulative route from actual existence and the existing borrowing-cut
+principle, followed by contingent-root exclusion. No necessary witness assumed. -/
+theorem necessaryConcreteOfBorrowingEscape {W B : Type} (m : Profile W B) (w : W)
+    (hPop : TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt m.ontic m.concrete w)
+    (hEscape : ActualConcreteBorrowingEscape m w)
+    (hDep : EveryContingentGroundedAt m w)
+    (hEM : ExcludedMiddle) : NecessaryConcreteAt m w := by
+  sorry
+
+/-- Exact relation of the cut principle to the earlier actual WF premise. -/
+theorem borrowingEscapeWFEquivalence : BorrowingEscapeWFEquivalence := by
+  sorry
+
+/-- Corpus-facing connection into the existing actual-grounding WF premise. -/
+theorem actualWfOfBorrowingEscape {W B : Type} (m : Profile W B) (w : W)
+    (hEscape : ActualConcreteBorrowingEscape m w)
+    (hEM : ExcludedMiddle) : ActualGroundingWF m w := by
+  sorry
+
 end TruthCore.Results.Causality.ConcreteExistentialSupply
