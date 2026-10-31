@@ -251,7 +251,7 @@ theorem derivativeReply : DerivativeReply := by
         subst h0
         have := (hX (some 0)).1 ⟨0, rfl⟩
         injection this with h1
-        exact Nat.succ_ne_zero 0 h1.symm
+        cases h1
       · cases hh
     · exact fun hw => not_acc_chain (some 0) (hw.apply _) 0 rfl
     · rintro e ⟨_, _, Xs, ⟨_, (⟨n, rfl, hX⟩ | ⟨rfl, hX⟩)⟩, hx⟩
@@ -326,8 +326,12 @@ theorem derivativeReply : DerivativeReply := by
       · cases (hX .a).1 hx
       · cases (hX .b).1 hx
     · rintro f Xs x _ ⟨_, (⟨rfl, hX⟩ | ⟨rfl, hX⟩)⟩ hx _
-      · rw [(hX x).1 hx]; exact fun h => PairFact.noConfusion h
-      · rw [(hX x).1 hx]; exact fun h => PairFact.noConfusion h
+      · have h := (hX x).1 hx
+        subst h
+        exact fun h => PairFact.noConfusion h
+      · have h := (hX x).1 hx
+        subst h
+        exact fun h => PairFact.noConfusion h
     · intro f hf _
       cases f
       · exact ⟨(· = .b), rfl, Or.inl ⟨rfl, fun _ => Iff.rfl⟩⟩
