@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "argument_id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.ContingentTotalityCause.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentTotalityCause.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentTotalityCause.necessaryBeing",
+  "comparator_config": "results/NECESSARY-BEING-FROM-CONTINGENT-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Project the actual necessary individual from the witness-preserving necessary-whole-cause result to the existing shared NecessaryBeing interface. Both coverage and external-whole-cause premises remain explicit; no source reading or root premise is discharged."
+}

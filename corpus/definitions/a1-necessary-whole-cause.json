@@ -1,0 +1,8 @@
+{
+  "id": "DEF-A1-NECESSARY-WHOLE-CAUSE",
+  "term": "same actual necessary concrete cause of a selected whole",
+  "definition": "Some c is concrete, exists at w, satisfies NecessaryAt s.ontic w c and Causes w c whole. All conjuncts concern the same rigid individual. Causation is asserted only at w; no unique source, externality at other worlds or underivedness is included.",
+  "basis": "stipulative",
+  "note": "Analyst typed application, not an attributed survey claim. Meaning, examples/exclusions, property and abstraction burdens and competing routes: docs/necessarybeing-survey-inventory.md, typed causal connection section. No actual metaphysical applicability is established.",
+  "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.NecessaryWholeCause"
+}

@@ -278,6 +278,53 @@ modal sufficiency or concrete-realization premise is added as established here.
 Necessary impersonal accounts accept bare necessary existence; this reading
 does not refute them or establish unity, personality or divine attributes.
 
+## Reconciliation of the owner's independent-researcher proposal (2026-10-31)
+
+The proposal is methodological input, not independent proof evidence. It agrees
+with the distinction already recorded in #312 and #691: a consistent assignment
+is not an adequate explanation or a justified interpretation of reality. Use
+these three separate questions for each package, without turning them into a
+new proof-status registry:
+
+| Package | Logical consequence or omission | Explanatory burden | Reality correspondence |
+| --- | --- | --- | --- |
+| Brute contingent root | Omits contingent dependence; consistent in the existing omission control | Selected existence remains unexplained under the accepted working demand; a principled restriction must be defended | Fundamentality alone does not establish an exemption; test the rival's actual restriction |
+| Wholly contingent infinite ancestry | Omits contingent foundation; local arrows can all hold | Memberwise dependence does not supply ultimate adequacy under the retained requirement | Defend the proposed foundation/cut application rather than inferring it from an ordinary causal example |
+| Intrinsic global or uniquely selected structure | Can satisfy local equations or uniqueness without Supply in the existing controls | Specify how the structure explains its own obtaining; uniqueness alone is no answer | Give independent reasons for the global explanation relation and its scope |
+| Necessary personal or impersonal source | Bare necessity is compatible with the typed conclusion | Its own existence still owes an adequate noncircular account under unrestricted working PSR | Defend the intrinsic account; necessity status alone establishes neither adequacy nor personality |
+
+The updated selected-target milestone is narrower than the researcher's full
+ancestry-WF version: contingent-only foundedness suffices for necessary ancestry.
+Full-cone WF supports the stronger root conclusion. Neither result asserts that
+unrelated brute facts or infinite chains elsewhere defeat this local route.
+Do not count a model omitting a retained requirement as an adequate rival under
+that same requirement, or reopen a previously classified omission as a new
+objection. Conversely, inadequacy relative to an accepted requirement is not a
+logical contradiction of a package that explicitly rejects that requirement.
+
+For reality correspondence reuse `docs/power-existence-scope-boundary.md` and
+its #691 interpretation audit. Production, generation, powering and structural
+support are distinct relations. Intervention can test particular causal/state
+claims where available; it does not by itself establish conservation of a
+substantial bearer's existence or let us remove a purported metaphysically
+necessary background. Direct causation need not be transitive. Irreflexivity,
+asymmetry, transitivity and foundation must each be justified for the selected
+relation and scope; no blanket bundle is imported from ordinary examples.
+
+The current constructive priorities are the scoped positive PSR defense (#312),
+noncircular adequacy (#750), and reason-to-actual-concrete-ground application
+(#545/#691). The selected concrete witness must also be justified: the owner's
+accepted actual existence does not by itself fix concreteness or choose one.
+Keep constraint omission/strength results already obtained, and seek new ones
+when they resolve a live inference or semantic dispute; do not replace this
+positive research with endlessly more omission fixtures.
+
+The separate A1 typed totality connection is documented in
+`docs/necessarybeing-survey-inventory.md`. It preserves a necessary witness's
+actual causal role and connects to the shared necessary-being interface, but
+its external whole-cause premise is not a new defense of ultimate adequacy or
+of the selected-ancestry grounding relation.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

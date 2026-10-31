@@ -1,0 +1,24 @@
+{
+  "id": "STMT-A1-NECESSARY-WHOLE-CAUSE",
+  "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.NecessaryWholeCause",
+  "paraphrase": "Some c is concrete, exists at w, satisfies NecessaryAt s.ontic w c and Causes w c whole. All conjuncts concern the same rigid individual. Causation is asserted only at w; no unique source, externality at other worlds or underivedness is included.",
+  "definition_ids": [
+    "DEF-A1-COVERED-CONTINGENTS",
+    "DEF-A1-ACTUAL-CONCRETE-CAUSE",
+    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+    "DEF-A1-NECESSARY-WHOLE-CAUSE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-FUSION-OUTSIDE-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-A1-TYPED-EXTERNALITY"
+  ]
+}
