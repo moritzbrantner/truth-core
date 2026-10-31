@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-ACTUAL-ULTIMATE-EXISTENCE",
+  "argument_id": "ANSELM-ACTUAL-ULTIMATE-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.existsSource",
+  "comparator_config": "results/ANSELM-ACTUAL-ULTIMATE-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "From accepted actual population, coverage supplies a through fact, ultimate availability supplies an ultimate source for the same initial target, and source-side factivity makes that source actual. No uniqueness, modal necessity, universal causal scope or independent adequacy is inferred."
+}

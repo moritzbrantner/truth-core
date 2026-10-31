@@ -1,0 +1,21 @@
+{
+  "id": "STMT-TAPP-SHARED-SELF-POWER",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.SharedSelfPowerAt",
+  "paraphrase": "There exists one c such that every x satisfying through w x x has selfPowerFrom w x c. c is the same witness for all such x at this world. It is stronger than merely ascribing a common predicate and does not follow from bare modal necessity.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

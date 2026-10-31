@@ -1,0 +1,21 @@
+{
+  "id": "STMT-TAPP-SELF-POWER-THROUGH",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.PowerGivesThroughAt",
+  "paraphrase": "For all x,c at w, selfPowerFrom w x c implies through w x c. This is a separate open source-to-being-through interface; selfPowerFrom is not defined to imply it. No efficient production, essential identity or other-world relation follows.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+  "term": "actual ultimate source relative to being-through",
+  "definition": "RootAt m w y means y exists at w and every z with through w y z equals y. UltimateThroughAt m w x y means through w x y and that same no-distinct-source condition on y. UltimateSourceAt additionally asserts y exists at w and some x is ultimately through y. Neither a self-link nor necessity is assumed; self-link follows for a root under CoverageAt. The explicit actuality guard avoids giving a nonexistent candidate source status.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UltimateSourceAt",
+  "basis": "stipulative",
+  "note": "Typed analyst reduction of the primary Tapp reconstruction (§6,89–91), informed by the independently materialized Latin Monologion III. Not a defense of premise truth or a new identity of through with efficient cause. Exact source/semantic comparison, examples, exclusions and remaining actual/modal applications: docs/notes/necessary-simple-plurality.md, direct ultimate-source reduction section."
+}

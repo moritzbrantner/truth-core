@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+  "term": "ultimate source available for a through fact",
+  "definition": "For any through w x y, some z satisfies UltimateThroughAt m w x z. This is the substantive EP+3 availability premise, not a proved termination or adequate-supply principle. It is not identified with actual WF, inductive Supply or borrowing Escape.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UltimateAvailableAt",
+  "basis": "stipulative",
+  "note": "Typed analyst reduction of the primary Tapp reconstruction (§6,89–91), informed by the independently materialized Latin Monologion III. Not a defense of premise truth or a new identity of through with efficient cause. Exact source/semantic comparison, examples, exclusions and remaining actual/modal applications: docs/notes/necessary-simple-plurality.md, direct ultimate-source reduction section."
+}

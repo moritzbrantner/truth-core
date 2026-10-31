@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ANSELM-THROUGH-COVERAGE",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.CoverageAt",
+  "paraphrase": "For every x existing at w, some y satisfies through w x y. y may equal x. This is the typed open version of the through-something demand; unlike the existing existence-PSR, it requires a bearer-valued through relation rather than an arbitrary reason token.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

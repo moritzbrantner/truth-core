@@ -1,0 +1,22 @@
+{
+  "id": "STMT-ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UniqueUniversalUltimateSourceAt",
+  "paraphrase": "Exactly one actual bearer at the selected world is an ultimate source for every actually existing target at that world. The same source is used throughout. No claim that every necessary being is this source, or that it exists at every accessible world, is made.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-UNIVERSAL-ULTIMATE-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

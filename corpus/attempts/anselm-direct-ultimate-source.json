@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-ANSELM-DIRECT-ULTIMATE-SOURCE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-ANSELM-SOURCE-ACTUALITY",
+    "STMT-ANSELM-ULTIMATE-AVAILABILITY",
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH",
+    "STMT-PSR-POPULATED-AT",
+    "STMT-ANSELM-AT-MOST-ONE-ULTIMATE-SOURCE",
+    "STMT-ANSELM-SOME-ULTIMATE-SOURCE",
+    "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE",
+    "STMT-ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Pinned/materialized/read complete primary Tapp 2014 article (two matching raw/text fetches). Visually checked EP+/axioms on journal89 via local rendering after web screenshot cache miss. Direct reduction uses coverage to make each actual ultimate source self-through, then common self-power and power-to-through force both candidates equal to the same source. No three-case, transitivity, antisymmetry or WF premise used. Actual population, source-side actuality and ultimate availability separately provide existence; final composition identifies pointwise sources with the same universal actual source. Retained all substantive common-power and availability obligations; no strict/minimal-premise or philosophical-truth claim. Initial Mathlib ExistsUnique import path was absent in the pinned version; used existing Mathlib.Basic.ExistsUnique without dependency or Challenge changes. Focused builds pass; final full build passes. All four result configs pass Comparator and independent NanoDa with zero permitted axioms; all four axiom reports are empty. Fresh binding has 741 bound results,2 existing pins,0 mismatches with all new entries exact. Root-route and reaching-root reports are byte-identical (11 routes,62 open). Corpus/source/generator/diff checks pass. Two source-bound HVEP readings concern Tapp’s own reconstruction, not a stronger attribution to Latin Anselm. Precise proof/premise comparison, semantic grounding questions and missing same-witness/modal adapter persist in the existing uniqueness/integration notes. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Independently defend the numerically shared self-power source, power-to-through interface and ultimate availability; connect the same actual through-source to the earlier necessary witness without identifying per se with modal necessity or ordinary efficient cause by definition. No root premise discharged.",
+  "evidence": [
+    "TAPP-HVEP1-SHARED-SELF-POWER",
+    "TAPP-HVEP2-POWER-THROUGH",
+    "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+    "ANSELM-ACTUAL-ULTIMATE-EXISTENCE",
+    "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+    "ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE"
+  ]
+}

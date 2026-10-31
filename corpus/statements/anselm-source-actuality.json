@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ANSELM-SOURCE-ACTUALITY",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.SourcesActualAt",
+  "paraphrase": "For all x,y at the selected world, through w x y implies y exists there. This retains only the source-side part of Tapp’s EP1 endpoint-factivity condition, not its stronger target-side part. No necessary, concrete or causally productive source is inferred.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

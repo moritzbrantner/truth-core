@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ANSELM-AT-MOST-ONE-ULTIMATE-SOURCE",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.AtMostOneUltimateSourceAt",
+  "paraphrase": "Any two actual ultimate sources of this same selected world’s through relation are identical. This is not uniqueness of all necessary beings or even a modal-necessity conclusion.",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

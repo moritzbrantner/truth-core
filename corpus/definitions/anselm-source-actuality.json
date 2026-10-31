@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-SOURCE-ACTUALITY",
+  "term": "source-side actuality of through",
+  "definition": "For all x,y at the selected world, through w x y implies y exists there. This retains only the source-side part of Tapp’s EP1 endpoint-factivity condition, not its stronger target-side part. No necessary, concrete or causally productive source is inferred.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.SourcesActualAt",
+  "basis": "stipulative",
+  "note": "Typed analyst reduction of the primary Tapp reconstruction (§6,89–91), informed by the independently materialized Latin Monologion III. Not a defense of premise truth or a new identity of through with efficient cause. Exact source/semantic comparison, examples, exclusions and remaining actual/modal applications: docs/notes/necessary-simple-plurality.md, direct ultimate-source reduction section."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-THROUGH-COVERAGE",
+  "term": "every actual existent is through something",
+  "definition": "For every x existing at w, some y satisfies through w x y. y may equal x. This is the typed open version of the through-something demand; unlike the existing existence-PSR, it requires a bearer-valued through relation rather than an arbitrary reason token.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.CoverageAt",
+  "basis": "stipulative",
+  "note": "Typed analyst reduction of the primary Tapp reconstruction (§6,89–91), informed by the independently materialized Latin Monologion III. Not a defense of premise truth or a new identity of through with efficient cause. Exact source/semantic comparison, examples, exclusions and remaining actual/modal applications: docs/notes/necessary-simple-plurality.md, direct ultimate-source reduction section."
+}

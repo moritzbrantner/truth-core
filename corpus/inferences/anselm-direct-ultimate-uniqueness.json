@@ -1,0 +1,29 @@
+{
+  "id": "INF-ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH"
+  ],
+  "output_statement_id": "STMT-ANSELM-AT-MOST-ONE-ULTIMATE-SOURCE",
+  "rule": "direct-proof",
+  "meaning": "Direct typed reduction: actual ultimate sources have no distinct through source. Coverage makes each source through itself; HVEP1 gives the same self-power source and HVEP2 gives through that source. Each root forces identity with it, hence with the other root. No transitivity, antisymmetry, three-case premise, population, ultimate availability or WF is used for this at-most-one result. The three philosophical inputs remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

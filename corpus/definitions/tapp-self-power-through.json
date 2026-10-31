@@ -1,0 +1,10 @@
+{
+  "id": "DEF-TAPP-SELF-POWER-THROUGH",
+  "term": "self-existence power gives being-through its source",
+  "definition": "For all x,c at w, selfPowerFrom w x c implies through w x c. This is a separate open source-to-being-through interface; selfPowerFrom is not defined to imply it. No efficient production, essential identity or other-world relation follows.",
+  "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.PowerGivesThroughAt",
+  "basis": "sourced",
+  "claim_ids": [
+    "TAPP-HVEP2-POWER-THROUGH"
+  ]
+}

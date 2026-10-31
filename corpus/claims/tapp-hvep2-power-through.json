@@ -1,0 +1,24 @@
+{
+  "id": "TAPP-HVEP2-POWER-THROUGH",
+  "statement_id": "STMT-TAPP-SELF-POWER-THROUGH",
+  "source_id": "TAPP-UNIQUENESS-MONOLOGION-2014",
+  "locator": "§3.2 p.84, HVEP2; §6 p.90, premise24",
+  "interpretation": "Primary reading of Tapp’s separate power-to-through implication. The typed relations remain independent so the premise is not true by definition. The source offers it as a substantive Anselmian metaphysical commitment, not as independently established truth.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+  ]
+}

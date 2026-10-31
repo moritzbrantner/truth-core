@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "argument_id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.uniqueSource",
+  "comparator_config": "results/ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the two preceding derivations in the same context and world to obtain Mathlib ExistsUnique for actual ultimate sources. Retains all six explicit hypotheses including the owner-accepted population starting point. Removes the source reconstruction’s separate transitivity, antisymmetry and case-completeness inputs, but does not defend common self-power or ultimate availability or identify this source with a previously obtained necessary witness."
+}
