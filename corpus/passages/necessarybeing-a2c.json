@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a2c.html",
+    "retrieved_at": "2026-10-31T17:40:21Z",
+    "sha256": "sha256:64555166d51b25284c5976c375628700a61eb1e4ef4a58a0146ccc773b7eb64d",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A2-CONCLUSION",
+      "locator": "A2C, complete interactive page",
+      "html_selector": {
+        "from": {
+          "text": "Congratulations! Your answers (or a subset of them) appear to have an interesting implication: they imply that there is a Necessary Being."
+        }
+      },
+      "text_sha256": "sha256:990142e60c94b0369c74ab164d4926c252402303244bfb794cb9e8d278d1f5e3",
+      "incipit": "Congratulations! Your answers (or a subset of them) appear to have an inter",
+      "claim_locator_prefixes": [
+        "A2C,"
+      ]
+    }
+  ]
+}
