@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-SIMPLICITY-COLLAPSE-555",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-SIMPLICITY-COLLAPSE-CORE",
+    "STMT-SIMPLICITY-ROOT-EXPOSURE",
+    "STMT-SIMPLICITY-BRANCH-COSTS",
+    "STMT-GOD-IS-SIMPLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Tested whether a necessary simple ground can explain contingent things without making them necessary. Findings: act necessity, strict efficacy and a contingent effect are inconsistent in modal K without the bearer's necessity, and each deletion has a model. The root-route readings give collapse only with ModalCapacity and a decree treated as a respect, and each is deletable. At the level of explanation, the optional-act and extrinsic-effect replies do not remove the nonnecessitating link: every reason-closed founded account of a contingent fact has one and is not contrast-relevant, and relocated shows the gap moved one step behind the act. Among closed founded accounts, keeping necessitation throughout requires a target that is not contingent. Rejected: deriving act necessity from simplicity, because no checked or sourced bridge exists and the identity of act and being gives it only through BeingCarriesAct, a stated condition. Rejected: an enabling condition as a solution, because a true condition must itself be contingent and the effect itself qualifies. Rejected: attributing any horn to a source: the SEP Divine Simplicity entry and Vincent 2026 named in #555 were not read for this work and remain leads.",
+  "blocker": "Whether simplicity entails act necessity or an identity of act and being, whether ModalCapacity holds, whether a decree is a respect, and whether contrast relevance is demanded are all open. No root premise discharged.",
+  "evidence": [
+    "SIMPLICITY-COLLAPSE-CORE",
+    "SIMPLICITY-ROOT-EXPOSURE",
+    "SIMPLICITY-BRANCH-COSTS",
+    "SELECTED-EFFECT-BRIDGE-CERTIFICATE",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "EXPLANATORY-SYMMETRY-CORE"
+  ]
+}

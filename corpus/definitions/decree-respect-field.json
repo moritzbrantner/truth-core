@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DECREE-RESPECT-FIELD",
+  "term": "decree as a respect in a field",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Decreed",
+  "definition": "A respect d in a field O true of g at w, at most one field member at w, some member at each accessible world, d sufficing for x at accessible worlds, and x contingent. Treating a decree as a respect in which g is in act is the analyst's supposition under test; the oneRespect model is the branch where no decree is one.",
+  "note": "See docs/notes/simplicity-collapse-555.md. Stipulative analyst notion for #555; no source is claimed for it."
+}
