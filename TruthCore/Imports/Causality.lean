@@ -58,6 +58,7 @@ import TruthCore.Causality.RootWithoutLimitingPrinciple
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest
 import TruthCore.Causality.SourceWitness
+import TruthCore.Causality.StrictPriorityPureAct
 import TruthCore.Causality.Supertasks
 import TruthCore.Causality.TemporalActualization
 import TruthCore.Causality.TemporalEventControls

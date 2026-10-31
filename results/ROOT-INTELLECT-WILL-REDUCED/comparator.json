@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RootIntellectWillReduced.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootIntellectWillReduced.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RootIntellectWillReduced.necessaryRootIntellectWill"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
