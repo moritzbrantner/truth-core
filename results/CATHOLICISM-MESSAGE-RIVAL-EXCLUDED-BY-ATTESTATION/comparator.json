@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.message_rival_excluded_by_attestation"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

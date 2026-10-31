@@ -23,6 +23,19 @@
           "n": "1"
         }
       ]
+    },
+    {
+      "id": "NT-GAL-2",
+      "locator": "2",
+      "claim_locator_prefixes": [
+        "2."
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "2"
+        }
+      ]
     }
   ],
   "notes": "Whole chapter retained for context; claim locators identify exact verses."

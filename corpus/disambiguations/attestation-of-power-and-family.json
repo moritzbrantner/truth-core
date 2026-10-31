@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY",
+  "term": "attestation: of a single power versus of a family of powers",
+  "sense_definition_ids": [
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-HEAVEN-RATIFIED-POWER"
+  ],
+  "resolution": "A report attests individual powers (DEF-COMMISSION-REPORT-POWERS): Matthew 16.19 and 18.18 name binding and loosing, John 20.23 names forgiving and retaining sins, and these are different powers. Multiple attestation in STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION and STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW is of the family (DEF-HEAVEN-RATIFIED-POWER): the same form, the disciples' act on earth ratified before God, is reported in both strands. The criterion's consequent is accordingly only that Jesus gave some power of the family, not binding and loosing in particular nor forgiving and retaining in particular, and no step infers that the sayings are one saying. STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS uses the single-power sense (every power of a whole report), which is why the attestation premises do not give it (CommissionAttestation.attestation_not_reports)."
+}
