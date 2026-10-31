@@ -410,6 +410,37 @@ inference application, Lean theorem and Comparator contract.
 | Individual versus joint PSR (8) | `PSR-STRENGTH-MAP`, `EXPLANATORY-CLOSURE-CERTIFICATE`: member coverage need not explain the whole; under explicit coherent/nonempty-record hypotheses universal closure is equivalent to the record arena's PSR. | Defend joint scope/aggregation independently. The closure equivalence cannot be used as an independent argument for its PSR side. |
 | Nonnecessitating sufficiency (9) | `PSR-COLLAPSE-CORE`, `EXPLANATORY-ADEQUACY-CORE`, `EXPLANATORY-SYMMETRY-CORE`: distinct incompatible bundles constrain necessitation, contrast and selection. | Give nonnecessitating reasons substantive relevance. Necessary personal/free-choice and impersonal grounds face the same test; a choice fact moves the question unless its explanatory role is defended. |
 
+### Subsequent verified compositions: fact, motion and productive priority
+
+`NECESSARY-FACT-BOUNDARY` (merged #789) makes the fact-level route positive:
+explicit excluded middle, a reason-closed account, a contingent member and
+contingent-reason foundedness yield an actually true boxed fact admitted as a
+reason for some contingent account member. It need not directly explain the
+original target. The **same** existing `law` interpretation satisfies these
+explanatory backgrounds and the positive conclusion while having no necessary
+individual. Its [result contract](../../corpus/results/NECESSARY-FACT-BOUNDARY.json)
+links the exact certificate, argument and theorem. It supplies no
+`STMT-EVERY-CONTINGENT-GROUNDED-AT` bridge.
+
+The two self-actualization routes add separate constraints:
+`AQUINAS-NO-SELF-MOTION-SAME-RESPECT` and `AQUINAS-MOVED-BY-ANOTHER` compose the
+existing First Way inference applications; `NO-EXISTENTIAL-SELF-ACTUALIZATION`
+registers productive self-origin exclusion under four OPEN mixed-token
+priority interfaces, with `EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS` preserving
+the order omissions and productive nonvacuity test. Their exact boundaries
+are in [the motion/support note](../power-existence-scope-boundary.md) and
+[the priority note](unique-feedback-explanation-311.md). The First Way
+Solutions import the new intermediate proofs; the priority registration
+imports the original branch proof without changing it.
+
+These are checked theorem compositions, not an additional argument that
+all contingent existents are actualized, that existence-fact reasons are
+concrete supporters, or that an infinite distinct-support chain is impossible.
+The first route needs a moved subject in the same respect; the second needs
+its productive and mixed-order assumptions. Neither defines intrinsic
+noncausal explanation as self-production. The fact-to-concrete interface and
+the existing contingent-root/non-well-founded horns therefore remain open.
+
 ### Shared versus independent burdens
 
 The closure and non-arbitrary-stopping arguments do not give two independent
