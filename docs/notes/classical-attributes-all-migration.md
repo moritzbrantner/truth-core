@@ -355,10 +355,59 @@ Comparator and independent result NanoDa. Scoped library NanoDa checked356
 dependency declarations with zero typechecker errors and one known axiom
 pretty-printer warning. All helper/result axiom reports are empty; independent
 claim/type review found no findings. Source/corpus/generators pass with no
-source attribution change. Delivered-head CI/review is pending.
+source attribution change. These results are delivered in #836, merge
+`aef30f77487f1d3d71bffd5e171f1605b9fa16d3`, after required CI/review passed.
 
 Direct interfaces count ten and twelve hypotheses. The computed target costs
 are twelve and fourteen non-floor leaves: the existing Iesse statement expands
 through its four-input attribution derivation. These are different accounting
 levels, not global minimum or truth certificates. Root routes, reaching-root
 IDs, open-premise count and depth counts remain unchanged.
+
+### Eighteen-input joint positive and structural root attributes
+
+`ROOT-POSITIVE-INTELLECT-WILL` imports the twelve-input perfect/supremely-good
+root theorem once, using exactly p.InAct, p.CausesIn and p.esse. It retains that
+same witness's selected-root uniqueness, necessity, maximality, perfection and
+causal supreme goodness, then derives represented identity, noncomposition,
+firstness, matter/form exclusion, remoteness, intellect and will.
+
+Add six inputs: distinct uniting cause for composites, composition-kinds,
+simply-prior-to-ground, no-component-first-being, immaterial-intellect and
+intellect-will. A composite root would have a distinct esse cause under the
+uniting premise; the already retained F makes that an actual concrete ground,
+contradicting the root's sourcehood. No maximum comparison, firstness or
+component-priority premise is needed for that step. Kinds plus EM supplies
+identity and matter/form exclusion; G supplies firstness; L supplies remoteness;
+q14/q19 then supply the existing primitive cognitive predicates. All properties
+remain inside ONE existential; no independently chosen roots are identified.
+
+The direct union with the old eleven-input intellect/will route has nineteen
+inputs. This eighteen-input package removes component-priority and the
+other-component law and adds the different uniting-cause principle. Counting
+one instead of two does not establish global weakening, incomparability or a
+minimum. G/L are not silently supplied by the uniting principle.
+
+`ROOT-POSITIVE-INTELLECT-WILL-CONTROL` retains the exact old #732 concurrent
+roles, act, causal-responsibility and grade dictionaries. An all-present/concrete
+modal/ground view and the previously unspecified component, composition,
+priority, represented essence and cognitive dictionaries are explicitly new.
+All eighteen inputs hold, and the SAME source carries the full endpoint.
+Producer composition, a distinct source uniter, secondary support and skill
+production have positive witnesses. Component-priority fails at the new
+supporter→producer component edge, which is not an old esse-cause edge. Thus
+that old premise is not required by this route. This is a formal configuration,
+not physical/cognitive adequacy; all individuals are necessary in the fixture,
+contingent grounding is vacuous, and only selected roots are unique.
+
+Both results pass full build4330, binding806/two legacy pins/zero mismatch,
+Comparator and independent result NanoDa. Scoped library NanoDa checked617
+dependency declarations, zero typechecker errors, one known axiom pretty-printer
+warning. The main theorem is zero-axiom; the control uses propext. Independent
+claim/type reviews found no findings. Direct hypotheses count eighteen; the
+computed target cost is twenty non-floor leaves because Iesse expands through
+its existing attribution derivation. Root routes, root-reaching IDs, open-premise
+count and depth counts remain unchanged. Delivered-head CI/review is pending.
+Infinity, no-potency/immutability and eternity still need the separately listed
+interfaces; no full-nine, God-naming, moral or independent cognitive truth is
+certified by this slice.
