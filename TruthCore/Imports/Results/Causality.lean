@@ -83,6 +83,8 @@ import TruthCore.Results.Causality.RootIntellectWillReduced.Solution
 import TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
 import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
+import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
+import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
 import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution

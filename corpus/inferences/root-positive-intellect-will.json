@@ -1,0 +1,19 @@
+{
+  "id": "INF-ROOT-POSITIVE-INTELLECT-WILL",
+  "input_statement_ids": [
+    "STMT-DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT"
+  ],
+  "output_statement_id": "STMT-ROOT-POSITIVE-INTELLECT-WILL",
+  "rule": "constructive-proof",
+  "meaning": "Import the twelve-input DirectEsseRootPerfectionGoodness result with EXACT p.InAct, p.CausesIn and p.esse, and unpack its witness once. For that SAME actual root n, a composite uniter would supply a distinct esse cause; the already retained direct esse-to-actual-concrete-ground interface would give an incoming selected ground, contradicting roothood. Kinds plus retained EM yields represented esse/essence identity and matter/form exclusion. The simply-prior ground bridge and roothood yield firstness; ledger L yields remoteness; existing q14 and q19 readings yield intellect and will. Preserve the original positive tuple throughout; no existential witnesses are swapped or merely conjoined. Exact18 inputs: the positive12 plus Uniting,Kinds,G,L,Intellect,Will. Compared to union with the old reduced IW11 (19 distinct premises), replace Posterior+Other by Uniting; this is a different causal/component package, not a certified global weakening or minimality result. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
