@@ -21,6 +21,8 @@ import TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solu
 import TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodUniqueness.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
+import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution

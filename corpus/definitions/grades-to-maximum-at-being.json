@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+  "term": "grades imply a maximum at the supplied esse respect",
+  "definition": "At the supplied esse respect, existence of a pair related by MoreIn entails existence of an in-act individual with no greater individual in that same respect. No other respect is constrained.",
+  "basis": "stipulative",
+  "note": "Explicit unattributed OPEN restriction of the existing all-respects grades-to-maximum interface; no order law, positive grade, actual-world existence or uniqueness is built in.",
+  "lean_declaration": "TruthCore.Causality.DirectEsseRootUniquenessAtBeing.GradesToMaximumAtBeing"
+}
