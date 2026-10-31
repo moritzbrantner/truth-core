@@ -62,7 +62,11 @@ Everything else is new, because it differs:
   nothing for Scott (`SCOTT-EMPTY-PROPERTY-NOT-ESSENCE`), together with `Ax4`.
 * **Main existence.** Scott derives `□(∃ G)` (T3). The 1970 theory derives
   only `◇(∃⇧E G) → □(∃⇧E G)` (`Th3`) from satisfiable premises; the
-  unconditional claim follows from the full axiom set only by explosion.
+  unconditional claim follows from the full axiom set only by explosion. The
+  later source-free `ACTUALIST-POSSIBILITY-BOUNDARY` additionally proves that
+  the conditional antecedent is false already under Ax3 and symmetry. The
+  smaller bundle's satisfiability therefore does not certify a nonvacuous
+  possibility branch; no old theorem or definition is changed by that audit.
 * **Modal collapse.** Scott: derived through T3 (`SCOTT-MODAL-COLLAPSE`).
   Gödel 1970: by explosion only (`GOEDEL-1970-MODAL-COLLAPSE`).
 

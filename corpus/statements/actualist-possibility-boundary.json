@@ -1,0 +1,20 @@
+{
+  "id": "STMT-GOEDEL-1970-NO-POSSIBLE-ACTUALIST-GOD-LIKE",
+  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.ActualistPossibilityBoundary.NoPossibleActualistGodLike",
+  "paraphrase": "In the encoded 1970 actualist interpretation, at every world it is false that some accessible world contains an existing God-like individual. This excludes the possibility antecedent of its Th3, not actual God-likeness at a world with no accessibility edges, ordinary God existence, or Scott’s different theory.",
+  "definition_ids": [
+    "DEF-ESSENCE-GOEDEL-1970",
+    "DEF-GOD-LIKE-GOEDEL-1970",
+    "DEF-HOML-ACTUALIST-NECESSITY",
+    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+    "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
+    "DEF-QML-KB-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-EXISTS",
+    "DISAMB-GOD",
+    "DISAMB-NECESSARY",
+    "DISAMB-POSITIVE"
+  ]
+}

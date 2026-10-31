@@ -5,5 +5,6 @@
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.possibleGodLikeNecessarilyExists",
   "comparator_config": "results/GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS/comparator.json",
-  "status": "solution-present"
+  "status": "solution-present",
+  "description": "The existing 1970 actualist Th3 conditional is preserved. Its stated smaller axiom bundle has a model with a world, but ACTUALIST-POSSIBILITY-BOUNDARY now proves its possibility antecedent false already from retained Ax3 and symmetry. Thus premise satisfiability is not a nonvacuity certificate for this route to necessary existence. This is a new formal consequence of the encoded definitions, not an attribution of that observation to the AFP authors or a refutation of Scott or ordinary theism."
 }
