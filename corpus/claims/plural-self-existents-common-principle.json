@@ -1,0 +1,17 @@
+{
+  "id": "ANSELM-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+  "statement_id": "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+  "source_id": "ANSELM-MONOLOGION",
+  "locator": "cap.3 paragraph adcmon-c3-d1e119, Si vero ipsa plura singula sunt per se clause",
+  "interpretation": "Preserves the distinct independent-self-existents branch and the proposed one vis vel natura existendi per se. No numerical common nature, abstract-to-concrete realization or identity of supposed self-existents is proved by the source record.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

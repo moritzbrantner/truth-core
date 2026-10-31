@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SUPREME-PER-SE-NOT-SELF-PRODUCTION",
+  "paraphrase": "For the supreme nature, existing through itself and from itself does not mean efficient self-creation, being its own material or helping itself become what it previously was not.",
+  "note": "Open source reading from the pinned Latin witness; no Lean declaration or verified inference advertised. Application audit: docs/notes/necessary-simple-plurality.md.",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

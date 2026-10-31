@@ -1,0 +1,17 @@
+{
+  "id": "ANSELM-SINGLE-HIGHEST-NATURE",
+  "statement_id": "STMT-SINGLE-HIGHEST-NATURE",
+  "source_id": "ANSELM-MONOLOGION",
+  "locator": "cap.4 paragraph adcmon-c4-d1e149, equal-highest-natures argument and unam et solam conclusion",
+  "interpretation": "The preceding text posits an uppermost dignity rank and the selected paragraph appeals to one basis of equal greatness: if other than the natures it is higher; if their essence, the essence/nature is one. These remain source premises rather than independently verified results. The paragraph explicitly equates natura and essentia here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

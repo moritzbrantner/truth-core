@@ -369,6 +369,20 @@ existing two-root/common-nature/individuation controls and positive Q11
 compositions determine the next concrete obligations. The requested uniqueness
 is a target to prove, not an accepted premise or an accomplished attribute.
 
+## Uniqueness source comparison: a shared self-existence principle
+
+The first follow-up to the owner's uniqueness priority reads pinned Latin
+*Monologion* I–VI. III proposes one self-existence power behind several alleged
+self-existents; IV argues against several equally highest natures through a
+shared greatness basis. These give positive source arguments to assess against
+the existing different-whole-essence reply, while leaving the numerical common
+principle and nature-to-individual application explicit. Four atomic source
+readings are registered; no philosophical premise or uniqueness conclusion is
+closed. Exact paragraphs, source-quality limits and the next discriminating
+step are in the existing `docs/notes/necessary-simple-plurality.md` and the
+#697 candidate. A single necessary joint condition still does not identify its
+several necessary members with one individual.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

@@ -1,0 +1,18 @@
+{
+  "id": "ANSELM-MONOLOGION",
+  "kind": "primary_text",
+  "author": "Anselm of Canterbury",
+  "work": "Monologion",
+  "citation_system": "numbered chapters, SCTA paragraph IDs and Seckau 1938 page/line references",
+  "work_urn": "http://scta.info/resource/anselmmonologion",
+  "edition_urns": [
+    "http://scta.info/resource/adcmon-c1/cod-Sv1Sv1",
+    "http://scta.info/resource/adcmon-c2/cod-Sv1Sv1",
+    "http://scta.info/resource/adcmon-c3/cod-Sv1Sv1",
+    "http://scta.info/resource/adcmon-c4/cod-Sv1Sv1",
+    "http://scta.info/resource/adcmon-c5/cod-Sv1Sv1",
+    "http://scta.info/resource/adcmon-c6/cod-Sv1Sv1"
+  ],
+  "catalog_url": "https://reader.lombardpress.org/text/anselmmonologion",
+  "notes": "Latin SCTA transcription with cod-Sv1Sv1 witness described as Seckau 1938; TEI draft edition 0.0.0-dev encoded by Jeffrey C. Witt, 2020-07-13. Immutable repository revision pinned in passages. Original-language reading; no translation-based claim or critical-edition completeness asserted. Chapter manifestation URIs follow the adcmon-cN/cod-Sv1Sv1 identifiers from the SCTA project/witness metadata; the work parent URI is anselmmonologion. Draft OCR/paragraph-order limitations are recorded in the linked uniqueness note."
+}
