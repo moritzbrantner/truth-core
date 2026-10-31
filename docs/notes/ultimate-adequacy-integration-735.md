@@ -3,21 +3,25 @@
 ## Current delivery and parallel work
 
 Research branch: `research/lean-existential-self-actualization-20261031`.
-Verified committed research baseline is `34b8c239` (joint attributes/control);
-it incorporates delivered main through
-`e9a184dcd521c0d17314adb639c3d3d5a357636c` via merge `f2053934`.
+Verified committed research baseline is `71f12480` (scope minimization at
+`1b21436b`, same-history compatibility at `71f12480`); it incorporates
+delivered main through `c841c32efc4fe2c632837df3582d7af470b9e4b2` via
+merge `16fcf86f`. The merge regenerated only conflicting import lists and
+introduced no code/file delta against the already verified research inputs.
 The prior minimization baseline remains `4888cece` with matrix follow-up
 `0c1b1dd9`.
 The overarching goal remains active; conditional results do not establish the
 truth of their metaphysical inputs.
 
-Six PRs were landed after required checks and current-head review without
+Eight PRs were landed after required checks and current-head review without
 findings: #825 (`692b8b99`, exact genus-causality omission), #827 (`d3f85cfc`,
 temporal count-to-necessity composition), #828 (`413d3509`, joint positive
 count model), #822 (`cbfaaeca`, local-frame/source A3 batch), and #829
 (`f91cacde`, same-root intellect/will plus structural L omission and nine-row
 attribute inventory), and #830 (`e9a184dc`, reduced root/intellect/will and
-strict-priority pure act). Existing earlier #810–#821 results remain integrated.
+strict-priority pure act), #831 (`ea184c10`, joint root/intellect/will/pure-act
+and positive plurality control), and #832 (`c841c32e`, empty-contingent
+coverage to necessary existence). Existing earlier #810–#821 results remain integrated.
 
 The current #826 matrix is in
 [classical-attributes-all-migration.md](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31),
@@ -68,9 +72,9 @@ contains its proof changes; the merge is integrated here by `f2053934`.
 Next concrete step: continue the remaining classified attribute connections.
 No additional owner premise selection has been received.
 
-Current bounded continuation (#826): compose the reduced eleven-input
+Delivered joint-attribute continuation (#826): compose the reduced eleven-input
 intellect/will result with act-priority and either act/potency exclusivity or
-strict selected priority. The intended endpoint retains its complete old
+strict selected priority. The endpoint retains its complete old
 witness tuple and adds PureAct for THAT SAME individual. Two separate
 existential results must not be conjoined by identifying their witnesses.
 This is thirteen explicit inputs; no new truth selection or global minimality
@@ -78,11 +82,11 @@ is claimed. All three new results now pass full build4316, binding798/two legacy
 mismatch, Comparator and independent result NanoDa. Scoped library NanoDa
 checked474 declarations with zero typechecker errors and one known axiom
 pretty-printer warning. All exported theorem axiom reports are empty;
-independent claim/type review found no findings. The reviewable public PR is recorded below; delivered-head checks remain pending.
+independent claim/type review found no findings. Required public CI/review passed and the merge is recorded below.
 
 The adversarial positive control is verified on the unchanged later
 five-being PartFreePlurality carrier, not the original four-being #681 model.
-The proposed new view retains its ontic/ground/act/potency/component fields
+The new view retains its ontic/ground/act/potency/component fields
 and assigns the previously unspecified intellect/will predicates to root.
 Both roots retain the attributes while nonroots retain positive
 potency. Each alternative route has thirteen inputs; retaining BOTH
@@ -92,21 +96,13 @@ ontology remains vacuous. Root routes, root-reaching IDs, open-premise count and
 The complete reports additionally contain the new finite-control statement
 and new downstream dependents; those are not premise-truth discharges.
 
-[PR #831](https://github.com/moritzbrantner/truth-core/pull/831) publishes
-this three-result cluster on `research/root-attributes-joint-20261031`, exact
-head `3d94426837e3052b990047596fb4379b6ef9c597`, isolated worktree
-`/tmp/truth-core-genus-omission`. Public full build4314 and binding797/two
-legacy pins/zero mismatch pass, as do offline source/corpus checks. All27
-proof/record/config/matrix files match the research bytes; generators select
-only the public corpus. CI run `41249114042` is confirmed live (comparator-plan
-job `124678703387` in progress). Current-head review requested once at
-[the review request](https://github.com/moritzbrantner/truth-core/pull/831#issuecomment-6550084407).
-Exact-head #831 review subsequently completed without findings; corpus/Lean,
-explorer and the result shard passed, while the same library job remained live
-certifying registered proposition-strength comparisons.
-Next delivery step: inspect that same run and exact-head review, fix concrete
-findings if any, then merge only after required checks/review pass. Do not
-restart a live run or infer delivered success from local checks.
+[PR #831](https://github.com/moritzbrantner/truth-core/pull/831) delivered
+this three-result cluster at exact head
+`3d94426837e3052b990047596fb4379b6ef9c597`. Public build4314 and
+binding797/two legacy pins/zero mismatch passed. Required CI run
+`41249114042` passed all checks and exact-head review completed without
+findings. Merge `ea184c10f892f9b0513e9fc6804ad1da6be483f8` is integrated
+here by `a7cc9d4b`. The former isolated worktree is now reused for #833.
 
 Next uniqueness seam (read-only exact-theorem audit):
 `Q11NatureUniqueness.godIsOneFromNature` can mechanically take the full
@@ -134,11 +130,10 @@ premise selection follows from this audit.
 Current scope-minimization lane: DirectEsseRootUniqueness uses its global
 maximum-to-cause and grades-to-maximum commitments only at esse. Reuse the
 existing being-only genus statement; a new fixed-esse grades interface can
-supply the old proof through Unit-restricted dictionaries. Two intended
+supply the old proof through Unit-restricted dictionaries. Two verified
 Boolean scope controls retain the new eight inputs while separately failing
 the global genus principle or global grades principle outside esse. This is
-scope reduction, not an independent warrant for maximum-to-cause, and remains
-unverified until final checks. Do not weaken it further to root-recipient-only
+scope reduction, not an independent warrant for maximum-to-cause, and is verified under the exact encoded assumptions. Do not weaken it further to root-recipient-only
 causal coverage: given a selected root, that restriction effectively repackages
 uniqueness. All-actual-recipient direct coverage retains additional causal
 content; a unique source in a nontransitive graph need not directly ground
@@ -151,9 +146,46 @@ faithful individual existence facts and a fixed contingent negative fact
 causally marked at world false. Necessary none exists in every world, while
 contingent some0 exists only in true; thus the impossible literally empty
 concrete branch is explicitly absent. CauseFact, ordinary Ontic.Causes and
-fact-reasons retain distinct dictionaries. Focused compilation passes; final
-binding/Comparator/NanoDa remains pending. This checks that the two route
+fact-reasons retain distinct dictionaries. Full integration passes as recorded below. This checks that the two route
 frameworks can coexist without claiming causal or metaphysical adequacy.
+
+The new three-result integration at `1b21436b`/`71f12480` passes full
+build4321, binding801/two legacy pins/zero mismatch, Comparator and independent
+result NanoDa for BOTH scope results and the count compatibility control.
+Scoped library NanoDa checked888 dependency declarations with zero typechecker
+errors and one known axiom pretty-printer warning. Scope theorem/helper axiom
+reports are empty; the count control uses only propext inherited from the
+unchanged count certificate. Independent claim/type review found no findings.
+Source/corpus/generators/whitespace pass. Against the verified joint-attribute
+baseline, root routes, reaching-root IDs, open-premise count and depth counts
+are unchanged. New established finite controls do not certify premise truth.
+
+[PR #833](https://github.com/moritzbrantner/truth-core/pull/833) publishes the
+two fixed-esse results on `research/direct-esse-fixed-scope-20261031`, head
+`26db398d5afcdfbc815b468a9c5f3944e24a5c92`, worktree
+`/tmp/truth-core-genus-omission`. Public build4319, binding800/two legacy
+pins/zero mismatch and offline source/corpus checks pass. All19 owned
+proof/record/config/matrix artifacts match the verified research bytes.
+CI run `41250262801` is confirmed live (initial plan job `124682120470`).
+Exact-head review requested once at
+[the review request](https://github.com/moritzbrantner/truth-core/pull/833#issuecomment-6550243932).
+
+[PR #834](https://github.com/moritzbrantner/truth-core/pull/834) publishes the
+same-history control on `research/empty-history-count-compatibility-20261031`,
+head `99b745e9409c2f793d03b417e01cf1cd6b49fc89`, worktree
+`/home/moenarch/.cache/truth-core-worktrees/count-temporal`. Public build4318,
+binding799/two legacy pins/zero mismatch and offline source/corpus pass;
+all10 owned artifacts match research bytes. CI run `41250285595` is confirmed
+live (corpus/Lean job `124682227445`, library job `124682227529`).
+Exact-head review requested once at
+[the review request](https://github.com/moritzbrantner/truth-core/pull/834#issuecomment-6550248634).
+Next delivery step: inspect those same runs and exact-head reviews, fix any
+concrete failures, and merge only with required checks/reviews passing.
+No restart is justified by elapsed observation alone; no additional owner
+ledger selection has been received. After delivery, continue the classified
+#826 interfaces; the common-nature and positive-act audits above identify
+remaining uniqueness scope without assuming a God predicate or all-necessary
+root membership.
 
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
@@ -164,7 +196,7 @@ response or exhaustive server-side history is claimed. The A1 audit reused
 four existing claims with zero duplicates. A4–A10/context manifests and
 findings remain committed privately, not smuggled into the refreshed #822.
 
-`EMPTY-HISTORY-CAUSAL-AVAILABILITY` remains a verified private result from
+`EMPTY-HISTORY-CAUSAL-AVAILABILITY` was first verified privately at
 `15cc2bef`: six explicit inputs and the unchanged Arena/individual/fact
 separation lead to the shared necessary-witness statement. Its coverage
 bundle contains three commitments. Full build/binding/Comparator/result and
@@ -181,10 +213,10 @@ Independent publication review accepts consequence and scope, including that
 the literally empty-concrete branch is eliminated under the full inputs, not
 certified realizable. Current-head review requested once at
 [the review request](https://github.com/moritzbrantner/truth-core/pull/832#issuecomment-6550142184).
-CI run `41249534421` is confirmed live (initial comparator-plan job
-`124679954142`); review is pending. Private survey/candidate/handoff changes
-are excluded.
-No source/attribute result depends on pretending it is already on main.
+CI run `41249534421` passed all required checks and exact-head review
+completed without findings. Merge `c841c32efc4fe2c632837df3582d7af470b9e4b2`
+is integrated by `16fcf86f`. Private survey/candidate/handoff changes were
+excluded from the public PR.
 
 ### Delivery integrity evidence retained
 
