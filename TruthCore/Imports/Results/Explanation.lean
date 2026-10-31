@@ -2,6 +2,7 @@
 import TruthCore.Results.Explanation.ActualWorldGap.Solution
 import TruthCore.Results.Explanation.AnselmCommonSourceAudit.Solution
 import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
+import TruthCore.Results.Explanation.BorrowedExercise.Solution
 import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
 import TruthCore.Results.Explanation.ExistenceIngredient.Solution

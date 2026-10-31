@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-BORROWED-INSTRUMENT-SECONDARY",
+  "term": "instrument, moved mover and secondary cause; own power versus own exercise",
+  "sense_definition_ids": [
+    "DEF-BORROWED-POWER-PROFILE",
+    "DEF-LENDING-DESCENT",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "resolution": "Having an actual lender is not being borrowed: Instrument and Secondary both have one and differ in whether the power is present without a lender elsewhere in the scenario space. One exercise carries both labels under two profiles, so occurrence, records and sufficiency do not settle which applies. Own-power Supply stops at retained power; self-exercise Supply stops only at exercise with no actual lender. A chain of secondary causes has the first and lacks the second, so a claim that secondary causes end a regress must say which is meant. MovedMoversInstruments is an analyst reading compared with STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT and is not its formalization: the attributed statement has no Lean declaration and its claims do not use a scenario profile. Instrument here is not bound to STMT-INSTRUMENT-MOVES-ONLY-IF-MOVED-BY-PRINCIPAL-MOVER, whose principal mover the fork does not supply. Retained is scenario-relative: narrowing the allowed scenarios can turn the same profile's events into instruments, as SelectedCollapse witnesses. Different respects need different profiles; nothing here passes from motion to existence. See docs/notes/borrowed-exercise-741.md."
+}
