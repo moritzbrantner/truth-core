@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ClassicalGodAssembly.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClassicalGodAssembly.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ClassicalGodAssembly.assemble"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
