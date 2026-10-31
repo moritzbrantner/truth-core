@@ -3,6 +3,7 @@ import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
 import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
+import TruthCore.Results.Explanation.JointCooperation.Solution
 import TruthCore.Results.Explanation.LawActuality.Solution
 import TruthCore.Results.Explanation.NoBruteCompatibility.Solution
 import TruthCore.Results.Explanation.NoBruteExistence.Solution
@@ -11,6 +12,7 @@ import TruthCore.Results.Explanation.NoBruteIncompatible.Solution
 import TruthCore.Results.Explanation.PSRScope.Solution
 import TruthCore.Results.Explanation.PSRSelfApplication.Solution
 import TruthCore.Results.Explanation.PSRStrength.Solution
+import TruthCore.Results.Explanation.PathRelocation.Solution
 import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
 import TruthCore.Results.Explanation.UltimateAdequacy.Solution
 import TruthCore.Results.Explanation.WellFoundedSource.Solution

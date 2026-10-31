@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-COOPERATION-BRANCHES",
+  "term": "no cooperation needed, common source, mutual fit, brute coincidence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.JointCooperation.BruteCoincidence",
+  "definition": "Relative to one Exercise. NoCooperationNeeded: one of the two contributors is redundant in the record. CommonSource: one occurring event is an exercised strict ancestor of both and scenario-suffices for each. MutualFit: at every allowed scenario one occurs iff the other does. BruteCoincidence: both occur at the actual scenario, they are not in mutual fit, and no event of the carrier is a common source. NecessaryIn: occurrence at every allowed scenario.",
+  "note": "Analyst labels; no source is claimed for them. Brute does not mean unexplained simpliciter: enlarging the carrier or changing the scenario space can move a pair between branches, as the narrow restriction and the guided model show. Mutual fit records covariation and does not say what accounts for it. See docs/notes/joint-cooperation-744.md."
+}

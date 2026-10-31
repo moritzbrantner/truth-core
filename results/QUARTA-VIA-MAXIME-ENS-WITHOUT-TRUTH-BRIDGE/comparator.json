@@ -1,0 +1,22 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.maximeEnsCausesBeingOfAll",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.actualFork",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.unboundedGivesAmongActual",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.actualCore",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.truthBridgeNotEntailed",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.withoutActuality",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.withoutApproach",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.withoutGrades",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.flatBranch",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.flatMaximum"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

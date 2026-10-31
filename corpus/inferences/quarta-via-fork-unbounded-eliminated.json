@@ -1,0 +1,13 @@
+{
+  "id": "INF-QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "input_statement_ids": [
+    "STMT-QUARTA-VIA-DEGREE-FORK",
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+  ],
+  "output_statement_id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+  "rule": "disjunctive-syllogism",
+  "meaning": "Consumes the certified fork: its unbounded horn, with the maximum principle and observed grades, yields the certified incompatible core QUARTA-VIA-UNBOUNDED-CORE, so its strict-top horn holds. The selection is relative to these premises; a contradictory bundle by itself would not prefer a member, and here the maximum principle is an explicit open input.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

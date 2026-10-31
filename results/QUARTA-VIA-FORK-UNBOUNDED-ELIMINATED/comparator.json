@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.strictTop",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.survivors"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

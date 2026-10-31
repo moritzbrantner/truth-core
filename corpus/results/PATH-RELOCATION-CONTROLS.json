@@ -1,0 +1,10 @@
+{
+  "id": "PATH-RELOCATION-CONTROLS",
+  "argument_id": "PATH-RELOCATION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Explanation.PathRelocation.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PathRelocation.Solution",
+  "theorem": "TruthCore.Results.Explanation.PathRelocation.controls",
+  "comparator_config": "results/PATH-RELOCATION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Witnesses and deletion controls for the invariant/unique/changing core, branching, excluded paths, finite windows and state cycle versus dated acyclicity. Formal interpretations only."
+}
