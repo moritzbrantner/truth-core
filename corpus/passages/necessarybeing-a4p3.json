@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a4p3.html",
+    "retrieved_at": "2026-10-31T18:23:06Z",
+    "sha256": "sha256:db7b845cf15a331b53494acf76e43eda32034d1114d0e110e0b732c01b5ddf04",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A4P3",
+      "locator": "A4P3, complete interactive page",
+      "claim_locator_prefixes": [
+        "A4P3,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is a beginning of the existence of all contingent things (such as in a Big Bang) possible?"
+        }
+      },
+      "text_sha256": "sha256:d8db5790a9fdc78e83ff8dafc828c46cf1a9d80bd0ca4003c3e70e698b0d8f4e",
+      "incipit": "Is a beginning of the existence of all contingent things (such as in a Big "
+    }
+  ]
+}
