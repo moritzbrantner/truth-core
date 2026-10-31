@@ -16,7 +16,7 @@ productive explanation. Root premise delta: none.
 - **Component:** Mathlib's `Quiver.StronglyConnectedComponent` of the projected
   graph, a reachability class (`DEF-SCC-CONDENSATION`). It is no cause or ground.
 - **Source:** a node with no incoming edge. A source of the condensation is a
-  reachability-minimal component and can contain no intrinsic event.
+  reachability-minimal component and need not contain an intrinsic event.
 - **Ground, cause:** this module asserts no grounding or causal relation between
   actual things. Edges are analyst records, per `DISAMB-CAUSAL-POWER-GROUNDING`.
 - **Adequacy:** not a predicate here. The results relate Supply to graph facts.
@@ -70,8 +70,8 @@ finite carrier supplies that well-foundedness.
 
 LocalPower with an acyclic membership graph gives `ComponentEscape`. LocalPower
 with a well-founded membership graph gives Supply of every active event, without
-PoweredGroups. There the graph does settle Supply, so the warning above concerns
-nontrivial components, self-loops and non-well-founded graphs.
+PoweredGroups. So, given LocalPower, a well-founded graph settles Supply, and the
+warning above concerns nontrivial components, self-loops and non-well-founded graphs.
 
 Each hypothesis is tested:
 
@@ -125,8 +125,11 @@ compare other reason readings.
 The result excludes no rival outright. A circular or coherentist rival can accept
 every theorem and reject `Supply`: `circle` is a model of LocalPower with a reason
 for each fact. The foundationalist gets only the conditional: if Supply is the
-standard, then a cycle without an intrinsic member fails it, though a cycle with
-one does not, so cycles as such are not the defect. An infinite graph
+standard, then the bare `circle`, with no record from outside it and no intrinsic
+member, fails it, though the same cycle with one intrinsic member does not. The cycles
+of `disj` and `enabling` have no intrinsic member and every event has Supply, through
+the source s. So cycles as such are not the defect, and neither is a cycle's lacking
+an intrinsic member. An infinite graph
 with a non-well-founded condensation can have Supply of every event
 (`disjOverlap`), so that graph fact alone does not decide Supply.
 

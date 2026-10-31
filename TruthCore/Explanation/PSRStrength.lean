@@ -505,8 +505,9 @@ hypothesis that a valid edge uses, or a model that separates an invalid one.
   and each fails in a non-reflexive frame; neither converse holds. World-relative
   reasons at every world do not give one stable reason. Weak PSR gives `NoBrute` under distribution
   and the diagonal facts, and each of those two bridges is needed. Extensional
-  domains supply the bridges, so weak PSR with necessitation then excludes all
-  contingency, whereas without necessitation the same domain admits it.
+  domains with entailment conjuncts supply the bridges, so weak PSR with factive,
+  necessitating, distributing, irreflexive reasons then excludes contingency at the
+  world, whereas a named such domain without necessitation (`extensionalGround`) has it.
 * Causation: external causation and existence coverage are independent.
 * Quality: copying gives `FactPSR`, necessitation and factivity over any truth
   assignment while independence fails wherever contingency exists. `FactPSR` yields
