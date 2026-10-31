@@ -1082,3 +1082,98 @@ YOUTUBE-UNITY-GORMAN-PERFECTION --export <that-file>` (likewise SIMPLICITY).
 The export can be regenerated from the retained corpus with the pinned producer
 and video filter; it is source evidence, not a truth-core runtime dependency.
 Actual premise comparison: none added, removed or discharged; zero root delta.
+
+
+### Numerical-unity consumer audit of the direct necessary first being (2026-10-31)
+
+This is a type/reuse audit, not another source search or rival model. The new
+`NecessaryFirstBeing.necessaryFirst` and `necessaryFirstPureAct` preserve one
+witness of `ActualRoot ∧ NecessaryAt ∧ IsFirstBeing`, with `PureAct` added in
+the latter. The five/seven explicit inputs remain those recorded in
+**NECESSARY-FIRST-BEING-FIRST** and **NECESSARY-FIRST-BEING-PURE-ACT**. No
+simultaneous agreement of several separate existential witnesses is presumed.
+The direct firstness result avoids four maximum/convergence interfaces for its
+different conclusion. It neither produces nor identifies a maximum.
+
+Inspection of those endpoint dossiers, the Q11 nature/individuation dossiers,
+constitutive completeness/alignment, Tapp shared-power and the existing
+God-identification dossier found no existing structured uniqueness theorem
+whose substantive premises follow from these endpoint properties alone.
+The exact reusable choices and their remaining inputs are:
+
+- `Q11NatureUniqueness.godIsOneFromNature` is genuinely generic over its supplied
+  candidate predicate `IsGod`. It requires injectivity of the represented
+  individuating basis, suppositum/nature identity for every candidate, and one
+  common represented nature for all candidates. Specializing its predicate to
+  actual necessary potency-free first beings would establish at-most-one in
+  that domain **if those three extra premises were independently supplied**.
+  The endpoint supplies none of the three. The existing God-indexed source
+  readings do not authorize that specialization as a claim about every root.
+- `ConstitutiveNatureUniqueness.checks` avoids assuming common nature directly.
+  Its five inputs are individuation, the first-mover suppositum/nature adapter,
+  every-perfection, complete constitutive content, and content agreement with
+  the same act predicate. Its actual domain is `IsFirstUnmovedMover`. The new
+  endpoint is not in that domain by definition. More basically, `PureAct` is
+  `∀ r, ¬ InPotency n r`; it supplies no positive `InAct n r` from which the
+  every-perfection input could be recovered. Dropping this distinction would
+  silently add a new actuality/exhaustiveness premise.
+- `OneFirstMover.oneFirstMover` likewise uses every-perfection, real numerical
+  difference yielding a same-act possession/lack difference, and identity-or-
+  distinctness. Explicit EM can provide the last logical decision. Neither
+  no-potency nor necessary existence supplies either substantive premise.
+- `RootMultiplication.uniqueFromUnlimitedNature` avoids every-perfection, but
+  requires simplicity, firstness, individuation, suppositum/nature identity,
+  and **UnlimitedBeingsShareNature**. Firstness rules out only the third
+  disjunct in its `HasLimitingPrinciple`; it does not rule out composition or
+  represented essence/esse nonidentity. Even if those are independently
+  excluded, the common-nature bridge remains OPEN. The existing residue audit
+  already records that its first-mover instance is not independent of
+  uniqueness under individuation and the adapter. Its wider domain does not
+  provide a fresh independent warrant for that instance.
+- `AnselmUltimateSource.atMostOne` needs through-coverage, the numerical shared-
+  power witness, and the power-to-through interface. The new actual root is
+  relative to `Profile.grounds`; Anselm's through relation is target-first,
+  allows self-links and excludes only distinct predecessors at a root. The
+  direct root excludes all actual-concrete selected predecessors, including
+  self-support when actual. A faithful passage between them needs explicit
+  relation/endpoint correspondence and coverage. Neither firstness nor absence
+  of potency supplies those facts or the shared numerical power witness.
+  `NecessaryUltimateSource.necessaryUniqueSource` already composes a necessary
+  ancestry root with that uniqueness theorem, but it explicitly retains all
+  these source/concreteness/power interfaces. Renaming them would add no proof.
+
+**Actual God-route connection.** The closest existing non-maximum consumer is
+`UniquePureActFirstMoverIsGod` (**STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD**),
+used by `StageOneFromPrimaVia.stageOneFromPrimaVia`. To use it for this n one
+needs (1) that n actually moves something, (2) that n is moved in no respect,
+and (3) that **every first unmoved mover**, including candidates outside the
+new necessary-root domain, equals n. No-potency together with the existing
+moved-only-as-potency premise can supply (2); the endpoint alone gives no
+outgoing motion for (1). Even uniqueness restricted to actual necessary
+potency-free first beings would leave a coverage obligation for (3). A
+sourcehood predicate can hold of an isolated vertex; the proof may not invent
+an actual outgoing edge from its name. The identification premise itself
+remains open after these obligations. The full-description maximum route is
+an alternative consumer, but requires maximum/causal/perfection content that
+this audit deliberately has not recovered.
+
+A unique *ultimate through-source* is also different from the unique necessary
+individual: other necessary individuals may have incoming through-sources.
+Likewise a unique member of a selected actual root domain does not establish
+that all actual necessary individuals are roots. Neither numerical claim can
+replace the other in a consumer's hypothesis.
+
+**Disposition and exact premise comparison.** Retain the direct endpoint's
+five/seven inputs unchanged. No additional premise is admitted. The Q11 route
+would add three domain-specific identity/common-nature commitments; its
+constitutive alternative replaces a common-nature commitment with the explicit
+five-premise package plus domain applicability, rather than discharging it.
+The unlimited and Anselm routes retain their expressly OPEN common-nature or
+common-source bridges. The God consumer adds actual mover/domain-coverage and
+identification obligations. No route is wired, no new theorem or model is
+proposed for immediate implementation, and no input or root-frontier premise
+is discharged. The next discriminating research remains independent warrant
+for same-sense numerical differentiation or common-nature exhaustion, with
+its candidate domain fixed, followed by actual mover coverage for the existing
+God-naming consumer. The new endpoint improves the available witness; it does
+not by itself answer the numerical-unity question.
