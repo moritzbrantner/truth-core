@@ -14,7 +14,9 @@ import TruthCore.Causality.ConstitutiveNatureUniqueness
 import TruthCore.Causality.ContingentAncestry
 import TruthCore.Causality.ContingentTotalityCause
 import TruthCore.Causality.ConvergentSchedule
+import TruthCore.Causality.CountTemporalNecessity
 import TruthCore.Causality.DerivativeJointPower
+import TruthCore.Causality.DirectEsseGenusOmissionControl
 import TruthCore.Causality.DirectEsseRootRoute
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality

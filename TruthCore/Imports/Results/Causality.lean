@@ -13,7 +13,9 @@ import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ContingentAncestry.Solution
 import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
+import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 import TruthCore.Results.Causality.DerivativeJointPower.Solution
+import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodUniqueness.Solution

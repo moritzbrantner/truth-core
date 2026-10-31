@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COUNT-TEMPORAL-DESCENT",
+  "paraphrase": "For every natural n greater than one, possibility of the guarded caused n-threshold entails possibility of the guarded caused n-minus-one threshold, under the same History, concrete domain and count-situation causal relation. Worlds and witnesses may differ across counts. This is an open causal-configuration transfer, not arithmetic monotonicity or source truth.",
+  "lean_declaration": "TruthCore.Causality.CountTemporalNecessity.ThresholdDescent",
+  "definition_ids": [
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
