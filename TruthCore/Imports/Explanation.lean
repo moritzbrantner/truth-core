@@ -9,6 +9,7 @@ import TruthCore.Explanation.ExplanatorySymmetry
 import TruthCore.Explanation.HistorySelection
 import TruthCore.Explanation.JointCooperation
 import TruthCore.Explanation.LawActuality
+import TruthCore.Explanation.NecessaryFactBoundary
 import TruthCore.Explanation.NoBruteExistence
 import TruthCore.Explanation.PSRSelfApplication
 import TruthCore.Explanation.PSRStrength

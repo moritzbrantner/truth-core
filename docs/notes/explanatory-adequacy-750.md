@@ -171,3 +171,88 @@ requires one answer. #735 retains integration authority.
 
 Intended and actual root delta: none. Both results have no premises and neither lies on a
 root route. No configuration changes status.
+
+## Positive fact extraction and the concrete-being boundary (#786/#545)
+
+The bounded composition `NECESSARY-FACT-BOUNDARY` has the following brief:
+
+- **Target:** make the fact-level output of reason closure and foundedness
+  positive, while retaining the distinction from necessary concrete existence.
+- **Reuse:** `ExplanatoryAdequacy.forced`, `core_necessitate`, `law_closed`,
+  `ground_founded` and the exact existing `law` interpretation. No new reason,
+  world, fact, bearer or ground relation is introduced.
+- **Missing step:** explicit excluded-middle witness extraction and a joint
+  certificate showing all explanatory backgrounds with no necessary bearer.
+- **Premise comparison:** no root premise change or discharge. All internal
+  philosophical backgrounds remain conditional; no new claim about an author.
+
+For a fixed arena `A`, standpoint `a`, account `S` and target `x`, the new
+conditional is:
+
+```
+ExcludedMiddle → ReasonClosed A a S x → Contingent A a x → Founded A a S →
+  NecessaryReasonForMember A a S ∧ ¬ AllReasonsNecessitate A a S
+```
+
+The positive conclusion is exactly:
+
+```
+∃ r, S r ∧ A.holds a r ∧ (∀ v, Access A a v → A.holds v r) ∧
+  ∃ c, S c ∧ Contingent A a c ∧ A.explains a r c
+```
+
+This is stronger than merely reporting an incompatible bundle with all reasons
+contingent: it extracts an actual member and preserves that member's role as an
+admitted reason. It does **not** say that `r` directly explains `x`, that `r`
+is autonomous or ungrounded, that it is one individual's existence fact, or
+that it produces anything. No ancestry path back to `x` is advertised.
+Necessity is relative to the same accessibility relation; actual truth is
+stated separately, so reflexivity is not smuggled in.
+
+The proof uses the already proved `forced` descent lemma. At a contingent
+member with no contingent predecessor, coverage gives an admitted reason,
+closure puts it in the account, and truthfulness supplies its actual truth.
+Under explicit excluded middle, its noncontingency gives truth at every
+accessible world. A second excluded-middle split selects the positive
+existential. The modal cost is the imported `core_necessitate`; a necessary
+reason cannot necessitate a contingent member. No argument here shows excluded
+middle to be logically minimal. The full `ReasonClosed` record is reused,
+although this extraction does not use its `nonCopy` field; no weakest-premise
+or independently defended adequacy claim is made.
+
+`lawControl` uses the literal #750 `law`, with the same `OneSource` account,
+world `0`, fact `.target`, truth assignments, reason assignments and `Unit`
+bearer carrier. It jointly satisfies reason closure, target contingency,
+contingent-reason foundedness and the positive necessary-fact conclusion.
+The witness is `.source true`, not an extra bearer. At accessible world `1`
+the only bearer is absent, so **no** bearer is necessary at `0`. The inherited
+cause relation is empty. This is a countermodel to a bare promotion from the
+fact-level conclusion to a necessary individual, not a metaphysical possibility
+claim, an adequate real law explanation, or an abstract cause of concrete
+existence. No concrete predicate appears in this arena: in particular the
+certificate does not supply concrete existential support.
+
+The existing `brute` and `chain` deletion controls continue to guard the
+coverage and foundedness assumptions. No new independent omission certificate
+or exhaustive metaphysical partition is claimed. Nor is this a formalization of
+Pearce's entire argument: autonomous facts, circumstances and sufficient
+concrete support would require their own sourced interpretation and interfaces.
+The new statement packages a universal conditional and its matched control;
+its empty outer argument-premise list does not establish its internal premises.
+
+Development used the existing pinned Lean toolchain and CLI fallback because
+no local service/preview was running. The cold source build was stopped to use
+the same pinned prebuilt Mathlib cache as CI, without a dependency change.
+Focused `lake build TruthCore.Results.Explanation.NecessaryFactBoundary.Solution`
+then passed, as did the existing BindTypes/bind_result path restricted to this
+result (bound, no problems) and
+`scripts/verify-result.sh NECESSARY-FACT-BOUNDARY` including NanoDa with zero permitted axioms. The independent Lean axiom report
+also reports no axioms; excluded middle remains a quantified premise inside
+the conditional. This checks
+the formal conditional and named interpretation, not their metaphysical
+applicability. Full-library integration remains a delivered-head CI check.
+The Challenge was frozen before its Solution with SHA256
+`3b7e1581c6f97de7e8b1e068a8e9e543a5421531e97dce719a0f87c6af8d53f1`;
+no original Challenge changed. Root route costs and open-premise membership
+remain unchanged (11 routes,62 open), and this result is off root paths.
+Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.

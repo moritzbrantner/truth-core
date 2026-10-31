@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-FACT-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-FACT-BOUNDARY",
+  "rule": "Well-founded contingent-reason descent, explicit excluded-middle witness extraction, and existing law-model composition.",
+  "meaning": "An unattributed composition: under explicit excluded middle, a reason-closed account containing a contingent explanandum and having well-founded contingent-reason ancestry has an actually true, necessarily true member admitted as a reason for some contingent member, and not all its reasons for contingent members necessitate. The reason need not directly explain the original target, be autonomous or lack its own reasons. The exact existing law interpretation jointly satisfies reason closure, target contingency, foundedness and this positive necessary-fact conclusion, while no individual is necessary. This derives no necessary concrete being and defends none of the explanatory or modal backgrounds. See docs/notes/explanatory-adequacy-750.md.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
