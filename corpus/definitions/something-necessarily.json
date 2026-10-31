@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SOMETHING-NECESSARILY",
+  "term": "necessarily something exists",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.SomethingNecessarily",
+  "definition": "Each world accessible from the given one has an existent. This is the box over the existential; it does not give one being at all of them, as rotating shows.",
+  "note": "Stipulative. It records that something exists at each world, not why anything exists. See docs/notes/physical-ground-468.md."
+}

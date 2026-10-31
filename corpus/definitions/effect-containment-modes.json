@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EFFECT-CONTAINMENT-MODES",
+  "term": "formal and virtual containment",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.InActUnder",
+  "definition": "Formal x r: x has r in its own kind. Virtual x r: x has the power to produce r without having it in its own kind. InActUnder t P fixes the abstract InAct of ST I q.4 a.2: respects in P count only formally, others formally or virtually. Contains t P is the q.4 a.2 reading under that fixing.",
+  "note": "Analyst fixing of the parameter left open by DISAMB-IN-ACT. Which respects belong to P is the open question. See docs/notes/physical-ground-468.md."
+}

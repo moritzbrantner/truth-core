@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalGround.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalGround.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.PhysicalGround.verdicts"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

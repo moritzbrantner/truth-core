@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEPENDENTLY-PURE",
+  "term": "respect independently pure of a candidate",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.IndependentlyPure",
+  "definition": "Something other than the candidate has the respect formally and is not composite. A classification that uses structure and cannot be met by the candidate's own row.",
+  "note": "Open and unattributed as a criterion of what must be had formally. It yields a verdict only from which other beings the table has. See docs/notes/physical-ground-468.md."
+}

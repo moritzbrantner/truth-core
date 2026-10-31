@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PHYSICAL-GROUND-SIGNATURE",
+  "term": "necessity signature of a ground",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.Signature",
+  "definition": "On the #435 capacity model read as an Ontic, at actual world false: the root exists, exists at every accessible world, has no existing supporter at any world under the route's esse-causation read as support, has an intervention-response capacity at every world, and esse-causes the other being, which is contingent. It mentions no attribute of the root.",
+  "note": "Stipulative comparison notion for #468. It is what both candidates share, not a definition of God or of a physical ground. Reading esse-causation as support holds for these tables only. See docs/notes/physical-ground-468.md."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GROUND-STATE-FACTS",
+  "term": "intrinsic state facts of a ground",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.StateFacts",
+  "definition": "A ground's state at each world, with a fact for each state value that is true at a world exactly when the world has that state. A base of such facts lets the #742 core apply to state.",
+  "note": "Stipulative. Reading the state as intrinsic to a ground is the analyst's; the structure only ties facts to values. See docs/notes/physical-ground-468.md."
+}
