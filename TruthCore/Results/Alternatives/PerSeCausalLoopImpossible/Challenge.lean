@@ -18,6 +18,54 @@ theorem noPerSeCausalLoop {Being Respect : Type}
     NoPerSeCausalLoop CausesAsCaused := by
   sorry
 
+/-- A productive act cannot bring its own bearer into existence when the
+bearer's existence is prior to the act, the act is prior to the existence it
+produces, and priority is transitive and irreflexive. The two `Sum` tags keep
+the *existence of a being* distinct from an *act of that being*. This is an
+unattributed conditional, not a claim that all causal or explanatory relations
+have this priority interpretation. -/
+theorem noExistentialSelfActualization {Being Exercise : Type}
+    (Occurs : Exercise → Prop) (Bearer : Exercise → Being)
+    (ActualizesExistence : Exercise → Being → Prop)
+    (Prior : Sum Being Exercise → Sum Being Exercise → Prop)
+    (hBearerPrior : ∀ a, Occurs a → Prior (.inl (Bearer a)) (.inr a))
+    (hProductPrior : ∀ a x, Occurs a → ActualizesExistence a x →
+      Prior (.inr a) (.inl x))
+    (hNoSelfPrior : NothingPriorToItselfReading Prior)
+    (hTrans : SimplePriorityTransitiveReading Prior) :
+    ∀ a, Occurs a → ¬ ActualizesExistence a (Bearer a) := by
+  sorry
+
+/-- Without transitivity, a two-token priority cycle can be irreflexive while
+allowing the bearer's existence to precede the act and vice versa. -/
+theorem existentialSelfActualizationNeedsTransitivity :
+    ∃ Prior : Sum Unit Unit → Sum Unit Unit → Prop,
+      NothingPriorToItselfReading Prior ∧
+      Prior (.inl ()) (.inr ()) ∧ Prior (.inr ()) (.inl ()) := by
+  sorry
+
+/-- Without irreflexivity, universal priority permits the same two-token
+cycle while remaining transitive. -/
+theorem existentialSelfActualizationNeedsIrreflexivity :
+    ∃ Prior : Sum Unit Unit → Sum Unit Unit → Prop,
+      SimplePriorityTransitiveReading Prior ∧
+      Prior (.inl ()) (.inr ()) ∧ Prior (.inr ()) (.inl ()) := by
+  sorry
+
+/-- Positive control: an act can still actualize the existence of a being
+other than its already-existing bearer, while respecting both priority
+interfaces and strict transitive priority. -/
+theorem otherBearerCanActualizeExistence :
+    ∃ (Occurs : Unit → Prop) (Bearer : Unit → Bool)
+        (ActualizesExistence : Unit → Bool → Prop)
+        (Prior : Sum Bool Unit → Sum Bool Unit → Prop),
+      (∀ a, Occurs a → Prior (.inl (Bearer a)) (.inr a)) ∧
+      (∀ a x, Occurs a → ActualizesExistence a x → Prior (.inr a) (.inl x)) ∧
+      NothingPriorToItselfReading Prior ∧
+      SimplePriorityTransitiveReading Prior ∧
+      Occurs () ∧ ActualizesExistence () false := by
+  sorry
+
 /-- Transitivity is needed: two beings that cause each other per se, each
 simply prior to the other but neither to itself, satisfy the other premises. -/
 theorem needsTransitivity :
