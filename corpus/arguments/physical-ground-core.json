@@ -1,0 +1,30 @@
+{
+  "id": "PHYSICAL-GROUND-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PHYSICAL-GROUND-CORE",
+  "inference_ids": [
+    "INF-PHYSICAL-GROUND-CORE"
+  ],
+  "meaning": "Conditional consequences, each assuming what it states. Under a classification of respects counted only formally, an esse-cause of a thing with a classified respect has that respect formally, including under the classification that something else has it formally and is not composite. The five structural premises and a maximum give that the maximum is not composite, not matter-form, and no component; with ST I q.14 a.1 it has intellect, and with q.19 a.1 will. With excluded middle and Papineau's three premises, the third distributive, an occurrence of the target kind on a noncomposite bearer is inconsistent with composite physical bearers and same-bearer realizers. Worlds that swap an outcome, with base-fixed favouring, net selection at both, and a base of state facts, differ in state; a state that differs at an accessible world is a contingent fact; a reason-closed founded account of a contingent state fact does not have all its reasons contingent. The conceivability test with its extension to the deity excludes both, given the premise for the material world. A necessary being gives that each accessible world has an existent. This establishes no premise, and it does not say a necessary being is a maximum, simple, unique, or God.",
+  "definition_ids": [
+    "DEF-EFFECT-CONTAINMENT-MODES",
+    "DEF-INDEPENDENTLY-PURE",
+    "DEF-PHYSICAL-BEARERS-COMPOSITE",
+    "DEF-GROUND-STATE-FACTS",
+    "DEF-SOMETHING-NECESSARILY",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-ALTOGETHER-IMMATERIAL",
+    "DEF-HAS-INTELLECT",
+    "DEF-HAS-WILL",
+    "DEF-PAPINEAU-PHYSICAL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-REASON-CLOSED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PHYSICAL-GROUND",
+    "DISAMB-IN-ACT",
+    "DISAMB-EXPLANATORY-SELECTION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MARKS-REQUIRE-PERSON",
+  "term": "marks of a choice require a personal source",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalGround.MarksRequirePerson",
+  "definition": "If a frame has the #742 marks of a choice at a world, some base reason is the existence fact of a bearer with the supplied flag. It is the bridge a selection argument for will would need.",
+  "note": "Open and unattributed. The flag is an uninterpreted parameter, so the bridge states a demand and not a test of personhood. See docs/notes/physical-ground-468.md."
+}

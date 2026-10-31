@@ -8,5 +8,6 @@ import TruthCore.Alternatives.MindPhysicalism
 import TruthCore.Alternatives.NightActualizationFork
 import TruthCore.Alternatives.NightCosmogony
 import TruthCore.Alternatives.PhysicalCompleteness
+import TruthCore.Alternatives.PhysicalGround
 import TruthCore.Alternatives.RespectSwitch
 import TruthCore.Alternatives.Retorsion
