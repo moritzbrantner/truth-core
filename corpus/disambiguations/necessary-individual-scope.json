@@ -4,7 +4,8 @@
   "sense_definition_ids": [
     "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
     "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-NECESSARY-BEING"
+    "DEF-NECESSARY-BEING",
+    "DEF-ROUTE-BRIDGE-MODAL-READING"
   ],
-  "resolution": "The new quantifier diagnostics use the shared Kripke Box and Dia on an explicit existence or concrete-presence extension. DeDicto allows changing witnesses; DeRe fixes a literal roster member. Neither is Scott necessary existence, a property defined through essences. The Third Way uses cannot-not-be with primitive Possible over time predicates. collective_iff substitutes Kripke Dia for that primitive only to compare the exact collective-possibility formula; it does not identify temporal plenitude with metaphysical accessibility, derive Box from negated Dia intuitionistically, or transfer any source attribution. Concreteness and existence remain distinct as DEF-NECESSARY-INDIVIDUAL-CONCRETE specifies."
+  "resolution": "The new quantifier diagnostics use the shared Kripke Box and Dia on an explicit existence or concrete-presence extension. DeDicto allows changing witnesses; DeRe fixes a literal roster member. Neither is Scott necessary existence, a property defined through essences. The Third Way uses cannot-not-be with primitive Possible over time predicates. collective_iff substitutes Kripke Dia for that primitive only to compare the exact collective-possibility formula; it does not identify temporal plenitude with metaphysical accessibility, derive Box from negated Dia intuitionistically, or transfer any source attribution. Concreteness and existence remain distinct as DEF-NECESSARY-INDIVIDUAL-CONCRETE specifies. The #487 route bridge (DEF-ROUTE-BRIDGE-MODAL-READING) instantiates Possible at accessible worlds as an explicit reading of that parameter in its own results (NECESSARY-ROOT-IS-MAXIMUM, MAXIMUM-FIRST-FROM-NECESSARY-ROOT): it fills the Time slot with worlds and likewise does not identify temporal plenitude with accessibility, establish that the Third Way's Possible is this one, or transfer a source attribution. On that reading world-indexed de re necessity at w gives IsNecessary with no excluded middle."
 }
