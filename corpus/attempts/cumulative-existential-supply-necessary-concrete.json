@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-CUMULATIVE-EXISTENTIAL-SUPPLY-NECESSARY-CONCRETE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner correction: connect established infinite-borrowing insufficiency and contingent-root demand, rather than repeatedly presenting locally coherent chains as admissible within both standards. Instantiated the existing Supply/recorded vocabulary on actual concrete individuals and the same selected grounds relation. Source_path extracts a concrete root; existing contingentRootOfNonnecessary and everyContingentGrounded_iff_noContingentRoot exclude its nonnecessity. No new blanket WF, necessary witness, or identification of fact tokens/events with concrete bearers. The new application premise explicitly assigns intrinsic to graph sourcehood and leaves metaphysical applicability open. Challenge frozen before Solution, SHA256 6e479c939194af748a3293cd9445eeaf25d95456fa8680dabaa84e6edb2388c8. CLI fallback; existing service experiment is not restarted. Source-free composition, no source claims. See the leading cumulative argument in docs/notes/ultimate-adequacy-integration-735.md. Reused #792\u2019s exact necessary-root/contingent-dependent model to show supply and contingent dependence jointly hold with actual contingency. Added the companion before its Solution; complete Challenge SHA256 63d2c78dbea93a25170d7b484f17ecba7ea45a9c8499ca65583429c3fc45caf7. Both focused theorem builds pass. Final full library build passes. Full binding: 716 bound,2 existing pinned,0 mismatch. Main composition and reused joint witness each pass Comparator/NanoDa with zero permitted axioms; Lean reports neither theorem depends on axioms. Root routes byte-identical to baseline (11 routes,62 open root-reaching premises). Offline source/corpus checks and generators pass; no source passages changed. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Previously completed modal-underived controls are preserved separately at local branch research/concrete-underived-modal-controls-20261031, commit 026370d3; they are not substituted for the owner-requested cumulative connection.",
+  "blocker": "The argument is conditional on source-backed existential supply and contingent concrete dependence. Their philosophical truth/application is not proved by formal source extraction. Necessary personal/impersonal or plural grounds accept the bare conclusion; further attributes remain independent.",
+  "evidence": [
+    "NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+    "EXISTENTIAL-SUPPLY-JOINT-WITNESS"
+  ]
+}

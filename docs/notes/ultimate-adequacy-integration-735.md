@@ -1,4 +1,80 @@
-# Ultimate adequacy: joint supply does not select one least foundation (#735)
+# Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
+
+## Cumulative necessary-being argument: use the established exclusions together
+
+`NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY` now connects the joint-supply
+argument against self-contained borrowing with the contingent-existence demand
+in one concrete profile. The chain is:
+
+1. Some actual concrete existence is adequately supplied under the existing
+   inductive joint-supply standard, applied to its selected existential grounds.
+2. The existing `DerivativeJointPower.source_path` extracts an actual concrete
+   source of that same relation. This handles infinite contributor sets without
+   requiring finite branching or a bound on total graph size. It does not assume
+   that the whole graph is well-founded.
+3. If that source were nonnecessary, existing
+   `NecessaryRootFork.contingentRootOfNonnecessary` gives an actual contingent
+   root (using explicit excluded middle).
+4. The existing contingent-dependence principle excludes precisely such a root:
+   `everyContingentGrounded_iff_noContingentRoot`. Therefore the source exists
+   necessarily.
+
+The bound type is `ActualConcreteSupply m w →
+EveryContingentGroundedAt m w → ExcludedMiddle → NecessaryConcreteAt m w`.
+Supply already supplies an actual concrete witness, so population is not
+reintroduced as a disconnected premise. Neither necessary existence nor blanket
+well-foundedness is added to get the conclusion. Both nonlogical premises are
+explicit: (a) applying the source-backed supply standard to concrete existence,
+and (b) requiring an actual concrete ground for actual contingent concreta.
+This is a genuine composed consequence of those commitments, not their
+independent philosophical vindication.
+
+**How earlier objections combine.** An endless wholly derivative account does
+not become adequate by satisfying every local equation: the existing borrowing
+trap theorem denies its Supply. A contingent terminus does not finish the same
+account by having no further ground: it violates contingent dependence. These
+are complementary exclusions. Once both standards are retained, replacing a
+brute end by an endless contingent chain does not escape the conclusion.
+The new theorem makes this cumulative claim explicit on one bearer/grounding
+profile, rather than citing separate event and fact models as if they already
+formed that profile.
+
+**The modal-contrast argument's exact role.** Merely recording presence in one
+world and absence in another describes contingency; it does not explain why
+the actual existence obtains. Under contingent dependence, the actual instance
+must have a ground. The existing history-selection and explanatory-symmetry
+results additionally show where unchanged local/background data cannot do the
+claimed selecting work. Those results do not require every adequate reason to
+necessitate its outcome. The present proof likewise uses no rule transferring
+necessity from a ground to its contingent effects; it selects a necessary
+source, not a necessarily determined total history. Thus it does not create
+modal collapse by reusing the contrast argument.
+
+**How to read the alternatives below.** Locally coherent infinite and brute
+structures remain useful *premise-omission controls*. They are not surviving
+adequate accounts under both displayed commitments. To oppose this cumulative
+argument, a rival must reject or reinterpret source-backed existential adequacy
+or contingent concrete dependence (or its explicit logical/modal semantics).
+A necessary impersonal or plural foundation accepts the bare conclusion;
+intellect and unity belong to later arguments. A necessary fact alone still
+cannot substitute for the concrete carrier in this theorem.
+
+**What is and is not settled.** The argument's formal connection is checked;
+the application of Supply to existence is an openly identified philosophical
+commitment. In this instance intrinsic means a source of the selected concrete
+existential-grounding graph. This is not inferred from intrinsic event power.
+The contingent-dependence premise expresses the anti-brute concrete demand; it
+is not derived merely from the definition of contingency. No new historical
+claim, unity premise, necessary-being assumption or source attribution is made.
+Root-path membership remains unchanged; this is a reusable off-root route to
+the existing necessary-concrete statement.
+
+The companion `EXISTENTIAL-SUPPLY-JOINT-WITNESS` reuses the previously verified
+two-world necessary-root/contingent-dependent profile: both nonlogical premises
+hold while an actual contingent concrete dependent remains. Thus this route
+does not obtain necessity by eliminating all contingent effects.
+
+## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the
 existing inductive contributor standard. Supplying every actual productive

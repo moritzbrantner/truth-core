@@ -1,0 +1,10 @@
+{
+  "id": "EXISTENTIAL-SUPPLY-JOINT-WITNESS",
+  "argument_id": "EXISTENTIAL-SUPPLY-JOINT-WITNESS",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.jointWitness",
+  "comparator_config": "results/EXISTENTIAL-SUPPLY-JOINT-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "The existing two-world necessary-root/contingent-dependent concrete profile jointly satisfies actual concrete source-backed joint supply and contingent concrete dependence, and has an actual contingent concrete individual. It is one formal interpretation, not a metaphysical possibility claim. In particular the cumulative route does not force all concrete existence to be necessary."
+}

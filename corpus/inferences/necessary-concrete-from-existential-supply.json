@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY",
+  "input_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "joint-supply-source-extraction-and-contingent-root-exclusion",
+  "meaning": "Cumulative composition: the existing joint-supply source_path theorem extracts an actual concrete source of the selected grounding relation from an adequately supplied actual concrete candidate. The existing contingent-root conversion and no-contingent-root equivalence show that this source must be necessary if all actual contingent concreta are grounded. Explicit excluded middle supplies the positive modal witness. Thus jointly retaining source-backed existential supply and contingent dependence excludes an entirely contingent account, regardless of its cardinality or local coherence. No blanket global well-foundedness or fresh necessary-witness premise is added. The application of Supply and the contingent-dependence principle remain philosophical commitments, not consequences of the Lean proof. No unity, permanent underivedness, self-explanation or God identification follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

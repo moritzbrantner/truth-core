@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+  "term": "source-backed joint supply for actual concrete existence",
+  "definition": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded actual-concrete grounding graph, with its intrinsic predicate instantiated as sources of that same selected grounding relation. Records for non-source targets list all actual concrete immediate grounds and have nonempty contributors. This is an explicit existential-application/adequacy premise; it does not assert a necessary source or a well-founded whole graph.",
+  "basis": "stipulative",
+  "note": "Application of the already defined joint-supply standard to the existing actual-concrete subtype, not a new account of borrowing and not a historical source reading. Here the intrinsic predicate is expressly graph sourcehood for the selected existential-grounding relation, rather than intrinsic event power. Actual applicability and this source interpretation are OPEN; no event is silently identified with its bearer. Infinite contributor sets remain allowed. See the cumulative route at the beginning of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply"
+}

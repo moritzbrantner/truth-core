@@ -1,0 +1,18 @@
+{
+  "id": "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+  "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply",
+  "paraphrase": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded actual-concrete grounding graph, with its intrinsic predicate instantiated as sources of that same selected grounding relation. Records for non-source targets list all actual concrete immediate grounds and have nonempty contributors. This is an explicit existential-application/adequacy premise; it does not assert a necessary source or a well-founded whole graph.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-REGRESS-SCHEMA-GRAPH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}
