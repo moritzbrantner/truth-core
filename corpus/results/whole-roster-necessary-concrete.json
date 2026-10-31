@@ -1,0 +1,10 @@
+{
+  "id": "WHOLE-ROSTER-NECESSARY-CONCRETE",
+  "argument_id": "WHOLE-ROSTER-NECESSARY-CONCRETE",
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.WholeRosterFoundation.necessaryConcrete",
+  "comparator_config": "results/WHOLE-ROSTER-NECESSARY-CONCRETE/comparator.json",
+  "status": "solution-present",
+  "description": "Actual population and whole-roster nontrapping yield a source of the selected actual concrete relation: otherwise nonempty contributor records make the whole roster a Trap. Contingent dependence and explicit excluded middle exclude contingency of that same actual root, yielding existing NecessaryConcreteAt. No all-subsets cut, WF or inductive Supply assumption is used. No uniqueness, full explanatory completion or independent premise defense is asserted."
+}

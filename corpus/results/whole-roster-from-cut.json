@@ -1,0 +1,10 @@
+{
+  "id": "WHOLE-ROSTER-FROM-CUT",
+  "argument_id": "WHOLE-ROSTER-FROM-CUT",
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.WholeRosterFoundation.wholeRosterOfBorrowingEscape",
+  "comparator_config": "results/WHOLE-ROSTER-FROM-CUT/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the existing all-subsets borrowing cut once at Set.univ. Either its intrinsic witness contradicts whole-roster Trap or its escaping contributor contradicts Trap. This is implication to a whole-roster restriction, not a proof of either norm’s actual truth."
+}

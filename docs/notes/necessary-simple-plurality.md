@@ -1001,3 +1001,84 @@ defend that additional object-level bridge; the present search neither proves
 nor refutes such an argument. This is a proposed test for the unread witness,
 not a reconstruction attributed to it. No premise was added, removed or
 discharged; no root-frontier change or mechanical consequence is claimed.
+
+
+### Pinned recorded unity argument: Gorman (2026-10-31)
+
+A single recording was selected and ingested caption-only, with no ASR or
+channel intake: **Michael Gorman: Divine Unity and Simplicity**, channel
+**Peripatetic Pilgrim**, [YouTube w-aJIieX3-8](https://www.youtube.com/watch?v=w-aJIieX3-8),
+upload date **2021-11-29** according to the downloaded yt-dlp metadata, duration
+**1:09:13**. The uploader describes the Newburgh Summer Philosophy Workshop
+on Aquinas on Divine Attributes, June15,2018. Speaker identity follows the
+title and description, not automated voice identification. A web search showed
+a different date; the stored direct metadata determines the recorded upload
+date here. No claim of permission from, endorsement by or institutional upload
+by the Thomistic Institute is made: this is a third-party channel recording
+of the named philosopher's lecture.
+
+The new source **YOUTUBE-UNITY-GORMAN** and passages
+**YOUTUBE-UNITY-GORMAN-PERFECTION** (22:00–26:05) and
+**YOUTUBE-UNITY-GORMAN-SIMPLICITY** (08:40–15:30) pin English auto captions
+through `source_span_interchange@1`, producer `youtube-corpus` revision
+`git:3e22f067b93aaec54ae792f263fbae1e8da19265`. Both spans were materialized with
+the existing source-evidence command and read, including the surrounding
+premise discussion, before this interpretation. No transcript text is committed.
+Captions contain duplicated rolling lines and obvious recognizer errors in
+Latin and technical vocabulary; no listening/audio correction is claimed.
+Accordingly the paraphrase below follows only the stable surrounding argument
+and does not rely on a disputed technical word being transcribed correctly.
+
+**Positive source finding.** At23:31–24:28 the lecture argues from uncausedness
+to essence/existence identity, then to unlimited subsistent being and inclusive
+actuality, allowing eminent possession. At24:30–24:52 it contrasts determinate
+created essences with that unlimited case. The numerical-unity argument itself
+is25:09–26:02: real numerical difference would require a possession/lack
+contrast; the infinite candidate admits no such lack; therefore a second divine
+candidate cannot occur. This addresses numerical distinction directly. It is
+not the inference from one shared predicate to one bearer, nor the already
+characterized Anselm common-power condition. The passage makes explicit two
+places an independent defense would need to work: the consequence from
+essence/existence identity to inclusive actuality, and the exhaustiveness of
+possession/lack differences for numerical distinction in that same sense.
+
+**What remains open.** The relevant short transition is stated and illustrated,
+but the materialized spans do not independently exclude the different-whole-
+essence/primitive-individuation rival. The rival can deny that a whole-nature
+difference entails lacking an actual perfection in the eminent sense used by
+the unlimited-being premise. Conversely, using unrestricted identity predicates
+to manufacture a possession/lack contrast would make the argument trivial while
+losing the relevant perfection sense. The source's infinity qualification is
+therefore substantial, not an adjective that eliminates the old alignment and
+completeness interfaces. Our existing constitutive-content results already
+separate those interfaces and preserve the rival. No newly warranted common
+numerical source or discharge follows merely from hearing the modern argument.
+
+The earlier materialized span adds a useful check on overreading simplicity:
+at10:16–10:38 Gorman explains the essence/supposit distinction;14:21–15:30
+raises the fact that an immateriality-based argument also applies to angels,
+while those angels retain other compositions in the account. Thus this speaker
+does not treat one restricted simplicity argument as automatically establishing
+all simplicity claims. This is context for the lecture, not an attribution of
+the corpus's primitive-individuation rival to Gorman. No second video or
+external critical reply was ingested; none was needed to locate the exact step.
+The next discriminating proposition remains independently defending that every
+real difference between these proposed whole candidates manifests a lack in
+**the same actual/eminent perfection sense** covered by the infinity premise.
+A source commitment to it is evidence of an argument to investigate, not proof
+of premise truth. No source-derived statement/claim or Lean theorem is added.
+
+**Reproduction and acquisition boundaries.** The existing configured local
+Postgres container `youtube-corpus-postgres-1` was stopped initially; starting
+that existing container made the CLI diagnostics report reachable and schema
+ready. No migrations, new service, code, dependency or ASR model was added.
+The one-video ingest used `--no-asr --caption-language en` and no `--migrate`.
+The exporter filtered video UUID `008a4e96-6087-5326-8e1d-2a6a12001498` and
+specified the producer revision above. Its retained local output is
+`/home/moenarch/moritzbrantner/youtube-corpus/use-case-output/youtube-unity-source-span.json`;
+metadata and original VTT remain under that repository's `use-case-output/`.
+Materialization uses `python3 scripts/source_evidence.py materialize
+YOUTUBE-UNITY-GORMAN-PERFECTION --export <that-file>` (likewise SIMPLICITY).
+The export can be regenerated from the retained corpus with the pinned producer
+and video filter; it is source evidence, not a truth-core runtime dependency.
+Actual premise comparison: none added, removed or discharged; zero root delta.

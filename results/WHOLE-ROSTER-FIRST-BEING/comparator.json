@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterFoundation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WholeRosterFoundation.maximumFirst"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

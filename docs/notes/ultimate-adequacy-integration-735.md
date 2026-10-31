@@ -14,6 +14,78 @@ sometimes a specified target. Those stronger conditions remain explicit:
 existential population alone neither supplies a concrete criterion nor names
 the selected witness. No necessary being is assumed at the starting point.
 
+## Current integration: whole-roster scope and cumulative target (2026-10-31)
+
+The cumulative target is **STMT-GOD-EXISTS**. Necessary concrete existence is an
+intermediate result, not a renaming of God. The older all-subsets cut route below
+remains available, but its necessity proof used that cut only at the whole roster.
+The current batch exposes exactly that restriction as
+STMT-WHOLE-ROSTER-NOT-TRAPPED, without requiring well-foundedness, a condition
+on proper subsets, finite chains, or inductive Supply.
+
+`WHOLE-ROSTER-FROM-CUT` proves the old cut implies this restriction.
+`WHOLE-ROSTER-NECESSARY-CONCRETE` derives an actual necessary concretum from
+actual concrete population, whole-roster nontrapping, contingent dependence and
+explicit excluded middle. If no source exists, the entire inhabited actual
+roster is a borrowing Trap; if its extracted source were contingent, the retained
+dependence premise would give it an incoming ground. These contradict the two
+respective premises. This connects the owner's two exclusions in one profile;
+it does not independently prove either premise's real-world applicability.
+Under population and excluded middle, this whole-roster condition has
+source-existence strength. Replacing the stronger cut with it is a scope
+reduction, not a new independent philosophical defense of sourcehood.
+
+`WHOLE-ROSTER-FIRST-BEING` feeds that SAME actual necessary root through existing
+modal/per-se convergence and simply-prior bridges into
+STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING. The selected-ancestry counterparts
+`SELECTED-NECESSARY-ROUTE-MAXIMUM` and
+`SELECTED-NECESSARY-ROUTE-FIRST-BEING` instead reuse the already-proved necessary
+root from one complete ancestry cone. The shared helper
+`NecessaryConcreteRouteBridge.necessaryRootIsMaximumOfRoot` explicitly names
+the supplied individual in its conclusion. Existing public theorem types and
+all frozen Challenges are preserved. No maximum is asserted to exist: every
+maximum, if there is one, equals the supplied root; the first-being conclusion
+is conditional on being a maximum.
+
+**Premise comparison.** The whole-roster necessity route retains population,
+contingent dependence and excluded middle, replacing the all-subsets cut with
+its single whole-roster instance. The selected route replaces global grounding
+WF and contingent coverage by complete-cone restrictions and explicitly retains
+selected actuality. Both case connections retain all modal, convergence and
+priority bridges. This proves consequence and connects results; no philosophical
+leaf is discharged and no strictly minimal complete bundle is advertised.
+All-wholly-derivative infinite structures remain explanatorily insufficient under
+the accepted global demand; no omission model is promoted to a complete account.
+
+**Measured cumulative effect.** Against that integration baseline, the God-root
+route costs remain 7 / 13 / 14, and all eleven Catholic-root route costs are
+unchanged (31 / 31 / 32 / 36 / 38 / 39 / 39 / 39 / 40 / 40 / 41).
+The union of reachable open premises grows from 58 to 64 for God and 67 to 73
+for Catholicism because these alternate routes expose six additional existing
+conditions: STMT-COGITO-BEARER-EXISTS-AT-WORLD,
+STMT-COGITO-BEARER-IS-CONCRETE, STMT-COGITO-INHABITED-CONCRETE-WORLD,
+STMT-SELECTED-ACTUAL-CONCRETE, STMT-SELECTED-CONE-CONTINGENT-GROUNDED and
+STMT-SELECTED-CONE-WELL-FOUNDED. None is removed. Complete per-route reports are
+identical before/after. Thus assumption scope is reduced in the new theorems,
+but the graph's current best-route metric does not improve; union growth is
+additional dependency reachability, not a new burden imposed on old routes.
+Reproduce with `corpus.py frontier --root STMT-GOD-EXISTS --routes` and
+`--reaching-root`, likewise for STMT-CATHOLICISM-TRUE.
+
+**Verified scope.** Full Lean build, exact binding (765 bound, two existing pins,
+zero mismatches), Comparator and independent NanoDa pass for all five new results
+and the three affected existing results. All five configs permit zero axioms;
+excluded middle is an explicit premise. Reproduction:
+`python3 scripts/corpus.py bind-check` and `scripts/verify-result.sh <RESULT-ID>`.
+The source-reading findings below add no claims or philosophical discharges.
+Policy resolved at sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+Integration baseline: `origin/main@75e5162ff214585988a5b9763dddc4b99f2d03ee`;
+working branch: `research/lean-existential-self-actualization-20261031`.
+Next delivery step: publish this reviewed-scope batch and let the repository's
+normal CI and review check its delivered inputs. The independent semantic-content
+source lane investigates the next missing bridge rather than adding a new claim
+from the presentation alone.
+
 ## Cumulative necessary-being argument: use the established exclusions together
 
 `NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE` connects the existing no-self-contained-
@@ -1314,3 +1386,71 @@ remaining gaps; neither is a philosophical refutation or premise discharge.
 These lanes can continue independently while the direct-source PSR and actual
 application work proceed. The complete Della Rocca2010 reading is verified;
 the Manifesto2003 is a different and still unread work.
+
+
+### Capturing Christianity: bounded video/slide reuse intake (2026-10-31)
+
+The owner requested the video and suggested slide OCR. Exact primary uploader
+metadata identifies **Over 100 Arguments for the Existence of God**, Capturing
+Christianity, 2021-02-25, YouTube `Qi7ANgO2ZBU`, with Chad McIntosh presenting.
+The recording lasts 15,349 seconds. Its description directly links the original
+Google Slides presentation (`1i7-6PKnoOK8EiiC1r-tt44mZK7o3nCsN2_QH_0TxxZU`)
+and the author's updated list, https://www.camcintosh.com/theistic/index.html .
+The original deck exports to a searchable 359-page PDF. This intake concerns that
+presentation; it is not a reading of every original work its reference slides cite.
+
+**Reproduction and integrity.** Existing `youtube-corpus` release CLI ingested this
+ONE video with `--no-asr --caption-language en`, retaining 13,208 automatic-caption
+segments. Export used `export --format source-span --video-id
+e79ec30a-a7b0-5451-8bca-ca40f4c918ed --producer-revision
+git:3e22f067b93aaec54ae792f263fbae1e8da19265 --output
+use-case-output/youtube-100-arguments/source-span.json`.
+The initial `en-orig` ingest produced a language-unlabelled stream; it is retained
+but is not the English pinned witness. The subsequent `en` stream is genuinely
+language-labelled and selected by the existing media-span resolver. No export,
+caption source enum or source kind was patched. The shared
+`.cache/media/source-span.json` was not overwritten.
+
+The PDF export URL is
+https://docs.google.com/presentation/d/1i7-6PKnoOK8EiiC1r-tt44mZK7o3nCsN2_QH_0TxxZU/export/pdf .
+Two independent fetches matched raw SHA256
+`56c16fa056ab859c927ee73efdcc2b9e6caa61074274ed91868336d09b2aba91`.
+Existing `web_snapshot` manifests pin selected PDF text hashes; existing
+`media_span` manifests pin overlapping transcript segments. All bounded witnesses
+were materialized before research attribution. Automatic names/formulas remain
+fallible; original slide text supplies exact spelling. Rendered PDF p.206 was
+visually inspected and matches its extracted argument. No video-frame or audio
+comparison is claimed. Current `youtube-corpus` reports OCR unavailable
+(`src/detectors.rs`, #71); the generic visual-analysis OCR adapter is not an
+integrated slide-processing command. Original searchable slides obviate OCR for
+this intake. No ASR/GPU batch, model download, OCR implementation or external
+truth-core dependency was introduced.
+
+| Priority / exact locator | Existing reuse | Consequential missing step |
+| --- | --- | --- |
+| Foundation: PDF p.9, argument #4, dependence discussion 00:26:25–00:30:05; p.11 #5; pp.14–17 #7–8; pp.25–26 #11 | `STMT-WHOLE-ROSTER-NOT-TRAPPED`, `STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON`, `STMT-EVERY-CONTINGENT-GROUNDED-AT`, `STMT-BCCF-DERIVATIVE-REPLY`; `WholeRosterFoundation.necessaryActualRoot` / `necessaryConcrete` and existing BCCF work | #4 assumes its anti-infinite-series premise; do not treat its display as an independent defense. #5 excludes parts individually or collectively as the whole world's reason. That whole-series exclusion is closer to the owner's global demand than all-subsets WF, but still needs its own warrant and a bridge from fact explanation to this graph's sourcehood. #7's necessary explanation is not automatically a necessary concrete bearer. |
+| Unity: PDF pp.206–213, arguments #84–87; recording 02:51:50–02:55:15 | `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-UNITING-CAUSES-ARE-ACTUAL`, `STMT-ANSELM-COMMON-SELF-THROUGH`, `STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE`; existing uniting-cause interfaces and unity analyses | Distinguish fact unification (Vallicella reference p.207), temporal composite sustenance (Braine p.209), wholes/intelligence (Kronen–Menssen p.211), and cosmic unity (Juarez p.213). An external unifier per world does not yet give one rigid necessary unifier or numerical uniqueness. Their externality/intelligence premises must be defended, not absorbed into the word unity. |
+| Reality correspondence: PDF pp.272–273 #115, recording 03:14:55–03:16:10 | `STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER`, `STMT-ULTIMATE-ADEQUACY-EPISTEMIC`; `PSRSelfApplication.bridgeLadder` | De Ray's proposed truth-tracking aetiology of the intelligibility intuition is a substantive new reading lead. Establish the claimed absence of a naturalistic account and adequacy of a theistic account, holding the intuition fixed. The presentation alone does not establish either comparative premise or concrete existential grounding. |
+| Meaningful-language steering: PDF pp.299–300 #128 (Bonevac reference: *Arguments from Knowledge, Reference, and Content*, 2018, pp.215–237); pp.301–302 #129 (Pruss) | `STMT-PNC-ELENCTICALLY-DEFENSIBLE`, `DEF-ELENCTIC-FIRST-PRINCIPLE-DEFENSE`, existing performed-denial and epistemic/ontic distinctions | Entitlement to determinate meaningful reasoning is narrower than #128's objectivity, normativity, infinitary scope and independence from finite minds. Those properties, a transcendent ground, and probable identification with God are distinct bridges. #129 likewise needs its transcendent-mind exclusivity premise defended. Do not infer that meaningful denial concedes God. |
+| Scope warning: PDF pp.290–291 #124, recording 03:22:05–03:22:55 | Existing necessary-individual/quantifier-scope discipline | Fitch-style knowability does not by itself identify the knowers of different truths. The slide's move from someone for each truth to someone knowing every truth is a separate explicit conditional, not a freely interchangeable quantifier order or established theorem. |
+
+The strongest next targeted reading is Bonevac pp.215–237: can successful
+reference require an objective semantic anchor and, independently, a transcendent
+mind rather than merely determinate content? This directly addresses the owner's
+retorsion suggestion while locating the exact new burden. For numerical unity,
+Vallicella's external fact-unifier argument is the sharper complementary lead;
+its modal/numerical witness identity must be audited before reuse. No new claim
+or theorem is introduced by this intake, no cited modern paper is represented as
+read, and no philosophical premise is discharged. Original source presentation,
+primary-author defense, formal consequence and actual application remain distinct.
+
+The bounded primary-access follow-up is persisted in the same intake attempt.
+The legitimate full Bonevac chapter could not be read: publisher/PDF/DOI access
+returned HTTP403 and the legitimate distributor preview omits that chapter.
+Its publisher abstract is orientation only, not a materialized source claim.
+It identifies pragmatist finite-mind alternatives needing examination. The
+presentation's probable-theism conclusion does not itself yield a de re
+necessary concrete mind, much less numerical uniqueness. Stable content and
+a stable bearer remain separate questions. Continue with explicit bridge
+premises or another accessible primary defense rather than treating inaccessible
+text, retorsion alone, or the presentation's summary as a completed proof.

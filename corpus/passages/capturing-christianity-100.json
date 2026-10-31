@@ -1,0 +1,68 @@
+{
+  "snapshot": {
+    "kind": "media_span",
+    "source_id": "CAPTURING-CHRISTIANITY-100",
+    "youtube_id": "Qi7ANgO2ZBU",
+    "transcript_source": "caption_auto",
+    "language": "en",
+    "producer": "youtube-corpus",
+    "producer_revision": "git:3e22f067b93aaec54ae792f263fbae1e8da19265",
+    "export_schema": "source_span_interchange@1",
+    "source_url": "https://www.youtube.com/watch?v=Qi7ANgO2ZBU",
+    "license": "Rights reserved by uploader; only locators, metadata and hashes committed. Automatic captions retained in ignored local corpus."
+  },
+  "passages": [
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-DEPENDENCE",
+      "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 1585\u20131805 seconds",
+      "start_seconds": 1585,
+      "end_seconds": 1805,
+      "speaker": "Chad McIntosh and Cameron Bertuzzi",
+      "speaker_attribution": "Recording-level attribution from introduction and uploader description; conversational turns not mechanically identified; no audio or video-frame comparison claimed.",
+      "claim_locator_prefixes": [
+        "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 1585\u20131805 seconds:"
+      ],
+      "segment_count": 208,
+      "span_sha256": "sha256:f3b27709feb77f7ec4c833755bb9d75c4112400a6539195737ca1a054cd26731"
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-UNITY",
+      "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 10310\u201310515 seconds",
+      "start_seconds": 10310,
+      "end_seconds": 10515,
+      "speaker": "Chad McIntosh and Cameron Bertuzzi",
+      "speaker_attribution": "Recording-level attribution from introduction and uploader description; conversational turns not mechanically identified; no audio or video-frame comparison claimed.",
+      "claim_locator_prefixes": [
+        "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 10310\u201310515 seconds:"
+      ],
+      "segment_count": 189,
+      "span_sha256": "sha256:6230f1deec5fb81c11c625f579ba9785225f6bd1018fc732464dc47bc737c671"
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-INTELLIGIBILITY",
+      "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 11695\u201311770 seconds",
+      "start_seconds": 11695,
+      "end_seconds": 11770,
+      "speaker": "Chad McIntosh and Cameron Bertuzzi",
+      "speaker_attribution": "Recording-level attribution from introduction and uploader description; conversational turns not mechanically identified; no audio or video-frame comparison claimed.",
+      "claim_locator_prefixes": [
+        "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 11695\u201311770 seconds:"
+      ],
+      "segment_count": 64,
+      "span_sha256": "sha256:0f4de04de23554f347d355ab91de294ff46cdfece5ba392dee42e1a46bca1fdf"
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-KNOWABILITY",
+      "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 12125\u201312175 seconds",
+      "start_seconds": 12125,
+      "end_seconds": 12175,
+      "speaker": "Chad McIntosh and Cameron Bertuzzi",
+      "speaker_attribution": "Recording-level attribution from introduction and uploader description; conversational turns not mechanically identified; no audio or video-frame comparison claimed.",
+      "claim_locator_prefixes": [
+        "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 12125\u201312175 seconds:"
+      ],
+      "segment_count": 43,
+      "span_sha256": "sha256:dabbf26f539ce15ec3f115209a716795300178d3e791dfddab3935274c36c9cc"
+    }
+  ]
+}

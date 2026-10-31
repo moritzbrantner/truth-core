@@ -1,0 +1,19 @@
+{
+  "id": "INF-SELECTED-NECESSARY-ROUTE-FIRST-BEING",
+  "input_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing selected complete-cone necessary-root theorem with the existing modal/per-se convergence proof, preserving its actual necessary root witness. The retained simply-prior bridge makes any distinct predecessor of a maximum an actual ground of that same root, contradicting rootness. No maximum existence is proved. Global grounding well-foundedness and contingent coverage are replaced by their complete-cone restrictions, with selected actuality explicit. This connects results and discharges no philosophical premise; no minimal-bundle or strict-strength claim is made.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

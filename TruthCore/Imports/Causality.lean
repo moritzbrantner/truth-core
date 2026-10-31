@@ -54,4 +54,5 @@ import TruthCore.Causality.UnderivedEssenceEsse
 import TruthCore.Causality.UnderivedNonComposite
 import TruthCore.Causality.UnderivedRootRoute
 import TruthCore.Causality.UniqueFeedback
+import TruthCore.Causality.WholeRosterFoundation
 import TruthCore.Causality.WorldSourceRegress

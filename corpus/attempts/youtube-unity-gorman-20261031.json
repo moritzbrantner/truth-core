@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-YOUTUBE-UNITY-GORMAN-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Ingested exactly one sustained primary spoken argument: Michael Gorman: Divine Unity and Simplicity, Peripatetic Pilgrim,YouTube w-aJIieX3-8,upload2021-11-29. Existing youtube-corpus release/DB workflow, English auto captions,no ASR,no migration; pinned producer git:3e22f067b93aaec54ae792f263fbae1e8da19265 and per-video source-span export. Materialized/read new YOUTUBE-UNITY-GORMAN-PERFECTION22:00\u201326:05 and YOUTUBE-UNITY-GORMAN-SIMPLICITY08:40\u201315:30 before interpreting. Numerical argument25:09\u201326:02 requires possession/lack discrimination and inclusive infinite actuality from essence/existence identity, with premise discussion23:31\u201324:52. It addresses numerical distinction directly but does not independently exclude the different-whole-essence rival under the same eminent-perfection sense. Existing completeness/alignment burden remains; no common-predicate-to-common-object inference adopted. Detailed argument, caption-fidelity limits, actual producer/export provenance, exact timestamps and strongest rival persist in docs/notes/necessary-simple-plurality.md. No claim,statement or Lean change,no premise discharge,no root delta. Export SHA256:113eb0e6336ab023e8f4c3b9476d560a0a7c8008ef3304d11e6968d6c1a793ca.",
+  "blocker": "Independently defend why every real whole-nature or primitive numerical distinction among the same proposed candidates implies a lack in the same actual/eminent perfection sense covered by the infinity premise; also defend essence/existence identity-to-inclusive-actuality applicability. A modern primary speaker asserting these transitions does not establish them.",
+  "evidence": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "lean_declaration": "TruthCore.Causality.WholeRosterFoundation.WholeRosterNotTrapped",
+  "paraphrase": "If the entire actual concrete roster at w is nonempty, that entire roster is not a borrowing Trap under the recorded selected grounding graph, with intrinsic interpreted as graph sourcehood. Only Set.univ is tested: no condition on proper subsets, all-branch well-foundedness or finite chain lengths is imposed. This graph-source interpretation and its application to real existential explanation remain open, and are not automatically identified with the owner’s verbal explanatory commitment.",
+  "definition_ids": [
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+  ]
+}

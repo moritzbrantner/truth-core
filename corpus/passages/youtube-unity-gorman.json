@@ -1,0 +1,42 @@
+{
+  "snapshot": {
+    "kind": "media_span",
+    "source_id": "YOUTUBE-UNITY-GORMAN",
+    "youtube_id": "w-aJIieX3-8",
+    "transcript_source": "caption_auto",
+    "language": "en",
+    "producer": "youtube-corpus",
+    "producer_revision": "git:3e22f067b93aaec54ae792f263fbae1e8da19265",
+    "export_schema": "source_span_interchange@1",
+    "source_url": "https://www.youtube.com/watch?v=w-aJIieX3-8",
+    "license": "Rights reserved by uploader; no transcript text committed."
+  },
+  "passages": [
+    {
+      "id": "YOUTUBE-UNITY-GORMAN-PERFECTION",
+      "locator": "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 22:00\u201326:05",
+      "start_seconds": 1320,
+      "end_seconds": 1565,
+      "speaker": "Michael Gorman",
+      "speaker_attribution": "Attributed by recording title/uploader description; not mechanically speaker-verified; no audio comparison claimed.",
+      "claim_locator_prefixes": [
+        "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 22:00\u201326:05:"
+      ],
+      "segment_count": 206,
+      "span_sha256": "sha256:adf38181a277300c942b25f54b6bb6c5e8e0649de9b38ea9f3dc0fae43a75cb8"
+    },
+    {
+      "id": "YOUTUBE-UNITY-GORMAN-SIMPLICITY",
+      "locator": "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 08:40\u201315:30",
+      "start_seconds": 520,
+      "end_seconds": 930,
+      "speaker": "Michael Gorman",
+      "speaker_attribution": "Attributed by recording title/uploader description; not mechanically speaker-verified; no audio comparison claimed.",
+      "claim_locator_prefixes": [
+        "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 08:40\u201315:30:"
+      ],
+      "segment_count": 343,
+      "span_sha256": "sha256:6792ebbe52fbfeb2463427885c2c8ffe9f5f478f177a3e05ee02433828dfe777"
+    }
+  ]
+}
