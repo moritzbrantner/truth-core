@@ -1,0 +1,10 @@
+{
+  "id": "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "argument_id": "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "challenge_module": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.necessaryRootWithoutLimitingPrinciple",
+  "comparator_config": "results/ROOT-WITHOUT-LIMITING-PRINCIPLE/comparator.json",
+  "status": "solution-present",
+  "description": "Consume RootEssenceIdentity.necessaryRootIdentity with its eight unchanged inputs, preserving its witness. The added simply-prior-to-actual-ground bridge excludes each distinct predecessor of that root. Component priority and a distinct component in every composite then exclude composition of this same root. Its inherited represented esse/essence identity excludes the remaining horn. Thus eliminate the existing three-way disjunction without choosing another root. Eleven total inputs; three additional obligations relative to ROOT-ESSENCE-IDENTITY, no premise discharge or minimality claim. This is a structured conditional connection, not a transcription or independent defense of any input; remaining common-nature, individuation and genuine unreceivedness/infinity bridges are unchanged."
+}

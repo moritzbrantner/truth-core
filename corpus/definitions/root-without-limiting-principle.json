@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "term": "same actual necessary root without the represented three limiting principles",
+  "definition": "One and the same actual concrete root at the selected world is necessary at accessible worlds and satisfies none of the three represented HasLimitingPrinciple horns: composition, distinct represented esse/essence, or a distinct simply-prior predecessor. The essence and esse maps are those of the same supplied q3 profile. No unreceivedness, Q7 infinity, common nature, numerical uniqueness, first-mover status or God identification follows.",
+  "basis": "stipulative",
+  "note": "Source-free conjunction of existing ActualRoot, NecessaryAt and negation of HasLimitingPrinciple. No causal or modal relation is introduced or reinterpreted. The latter proxy is exactly its three disjuncts, not all possible metaphysical limitation. Semantic applicability of the inherited causal and priority interfaces remains open.",
+  "lean_declaration": "TruthCore.Causality.RootWithoutLimitingPrinciple.NecessaryRootWithoutLimitingPrincipleAt"
+}
