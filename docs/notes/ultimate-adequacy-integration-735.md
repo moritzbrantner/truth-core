@@ -46,7 +46,10 @@ seven linked A5 pages; their live verification passed. Nonempty contingent
 situations do not entail nonempty contingent individuals, and individually
 possible causes do not entail joint causation. The source candidate begins A6,
 then retains the unfinished A7 question/alternate ranges before A8–A10.
-A source-only A6 worker is active; no pending owner selection is inferred.
+A6 eight-page source-only reading is complete in the existing survey records;
+no pending owner selection is inferred. The queued next range is remaining A7
+questions/alternates, then A8–A10, with earlier witness coverage reconciliation
+before campaign completion.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and
@@ -56,7 +59,8 @@ unique-root unions66/73/14 and route costs are unchanged.
 Private research result `EMPTY-HISTORY-CAUSAL-AVAILABILITY` now composes into
 existing `STMT-KANT-CONVERSION-NECESSARY-WITNESS`. Full build, corpus check,
 bind-check (786 bound / 2 legacy pinned / zero mismatch), Comparator and
-result-level NanoDa passed. Scoped library NanoDa remains pending. Challenge
+result-level NanoDa passed. Scoped library NanoDa also passed: 59 dependency-closed declarations, zero
+typechecker errors; one axiom pretty-printer warning is retained in the log. Challenge
 was frozen before Solution (SHA256
 `7235e33bcaec724fd1c2a6b9817840a205b6a462c4fe049c32b1095c3014565f`).
 Six explicit hypotheses include EM and five open inputs; the coverage bundle
@@ -71,7 +75,8 @@ reaching-root statement union 26 to29, with three new open inputs and no
 premise discharge. God-route costs remain7/11/12/13/13/14/15.
 These private A4/A5/new-proof changes must not be pushed into reviewed #822
 before its diagnostic refresh; the isolated public refresh worktree preserves
-that separation. Next: scoped verification, persist the proof commit, then
+that separation. Proof commit `15cc2bef` persists this result. Next: final independent
+claim/type review and source-batch live verification, then
 land the source-diagnostic repair only after all required checks are green.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
