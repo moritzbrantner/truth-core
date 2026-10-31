@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.EmptyHistoryCountControl.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyHistoryCountControl.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.EmptyHistoryCountControl.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
