@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
+  "argument_id": "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.necessaryConcreteOfBorrowingEscape",
+  "comparator_config": "results/NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE/comparator.json",
+  "status": "solution-present",
+  "description": "Actual concrete population and the existing no-self-contained-borrowing cut yield source-backed actual concrete supply: apply the cut to the entire actual roster; a wholly external supplier is impossible because its contributors are nonempty. Compose the earlier supply/source extraction and contingent-root exclusion to derive necessary concrete existence. No necessary witness is assumed. The borrowing-cut application and contingent dependence remain substantive philosophical premises; this is their composed consequence, not an independent defense of either."
+}

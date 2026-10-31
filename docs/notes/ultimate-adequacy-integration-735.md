@@ -1,4 +1,91 @@
-# Ultimate adequacy: joint supply does not select one least foundation (#735)
+# Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
+
+## Cumulative necessary-being argument: use the established exclusions together
+
+`NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE` connects the existing no-self-contained-
+borrowing principle with the contingent-existence demand in one concrete profile.
+Its starting premises are actual concrete population, the borrowing-cut condition,
+contingent concrete dependence, and explicit excluded middle. The chain is:
+
+1. Apply the existing `Escape` cut to the entire nonempty roster of actual concrete
+   individuals, using the SAME selected existential-grounding relation throughout.
+2. Either that roster contains an intrinsic source, or an admitted supplier has
+   its entire contributor set outside the roster. The second horn is impossible:
+   all contributors are actual concrete individuals in this roster, and each
+   supplier record has a contributor. Hence there is source-backed supply.
+3. Invoke `necessaryConcreteOfSupply`, which imports the established
+   `DerivativeJointPower.source_path` and the existing contingent-root conversion
+   and exclusion. If the resulting actual source were nonnecessary, it would be
+   a contingent root; contingent dependence would require another actual concrete
+   ground, contradicting sourcehood. Therefore a necessary concretum exists.
+
+The exact bound type is `InhabitedConcreteAt m.ontic m.concrete w →
+ActualConcreteBorrowingEscape m w → EveryContingentGroundedAt m w →
+ExcludedMiddle → NecessaryConcreteAt m w`.
+No necessary witness is added. The cut principle supplies the work previously
+expressed by the supply premise. CONCRETE-BORROWING-CUT-WF-EQUIVALENCE proves
+that, on this recorded graph and given excluded middle, the cut is equivalent
+to the earlier actual-grounding WF condition. This is a connection between
+foundation formulations, not a weakening or independent confirmation of
+foundation. ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT exposes the forward
+implication as a corpus edge usable by the existing necessary-being route.
+It remains a substantive philosophical application to existential grounding,
+not something proved merely from occurrence or local equations.
+
+**Do not count a repackaged source assumption as a separate regress defense.**
+`CONCRETE-SUPPLY-ROOT-EQUIVALENCE` proves that the intermediate existential
+`ActualConcreteSupply` is equivalent to an actual concrete root existing: the
+forward direction uses source extraction; conversely the root itself is a supplied
+witness. `NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY` remains a valid intermediate
+composition, but its premise alone cannot justify source existence independently.
+The additional cut-to-supply step above is what connects it to the earlier
+anti-borrowing argument. This exact-strength audit is part of the result, not an
+unrecorded qualification.
+
+**How earlier objections combine.** An endless wholly derivative account does
+not become adequate by satisfying every local equation: the existing borrowing
+trap theorem denies its Supply, and a source-free closed actual roster violates
+the cut principle. A contingent terminus does not finish the same account by
+having no further ground: it violates contingent dependence. These are
+complementary exclusions. Under both commitments, replacing a brute end by an
+endless contingent chain does not escape the necessary-being conclusion. The
+same argument accommodates infinite contributor sets; no finite branching or
+graph-size bound is added.
+
+**The modal-contrast argument's exact role.** Presence in one world and absence
+in another describes contingency; it does not explain the actual existence.
+Under contingent dependence, the actual instance must have a ground. Existing
+history-selection and explanatory-symmetry results additionally locate failures
+of unchanged local/background data to do the claimed selecting work. The new
+proof uses no rule transferring necessity from a ground to its contingent effects;
+it selects a necessary source rather than a necessarily determined total history.
+
+**How to read the alternatives below.** Locally coherent infinite and brute
+structures are *premise-omission controls*, not adequate accounts satisfying both
+displayed commitments. A rival must reject or reinterpret the borrowing-cut
+application, contingent concrete dependence, or the stated logical/modal semantics.
+Necessary impersonal and plural foundations accept the bare conclusion; intellect
+and unity belong to later arguments. A necessary fact alone cannot substitute
+for the concrete carrier here.
+
+**Application boundary.** Nodes are actual concrete individuals, not event or
+reason tokens. Intrinsic is expressly instantiated as sourcehood of the same
+selected existential-grounding relation; this is not inferred from intrinsic
+event power. Each non-source target's record includes all its immediate actual
+concrete grounds. This application of the existing recorded graph and cut is
+an explicit commitment, not a source attribution or a proof of its real-world
+adequacy. Contingent dependence likewise is not derived merely from the definition
+of contingency. The source conclusion excludes actual concrete incoming grounds
+at the selected world; all-world underivedness and divine attributes are separate.
+
+The companion `EXISTENTIAL-SUPPLY-JOINT-WITNESS` reuses the earlier two-world
+necessary-root/contingent-dependent profile to satisfy the intermediate supply
+and dependence requirements with an actual contingent dependent. Given excluded middle, the same profile’s existing actual-WF certificate also
+supplies the cut premise through the new equivalence. Thus the full cut route
+shares that nontrivial joint interpretation. Root-path membership remains unchanged. These are reusable off-root compositions to the
+existing necessary-concrete statement, with no metaphysical premise discharge.
+
+## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the
 existing inductive contributor standard. Supplying every actual productive

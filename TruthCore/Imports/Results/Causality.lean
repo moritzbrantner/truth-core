@@ -6,6 +6,7 @@ import TruthCore.Results.Causality.BruteRootDisjunction.Solution
 import TruthCore.Results.Causality.CausalHarvest.Solution
 import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
+import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
