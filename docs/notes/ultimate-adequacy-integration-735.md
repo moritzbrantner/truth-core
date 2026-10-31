@@ -70,17 +70,45 @@ strict selected priority. The intended endpoint retains its complete old
 witness tuple and adds PureAct for THAT SAME individual. Two separate
 existential results must not be conjoined by identifying their witnesses.
 This is thirteen explicit inputs; no new truth selection or global minimality
-is claimed. Implementation and final certification are pending.
+is claimed. All three new results now pass full build4316, binding798/two legacy pins/zero
+mismatch, Comparator and independent result NanoDa. Scoped library NanoDa
+checked474 declarations with zero typechecker errors and one known axiom
+pretty-printer warning. All exported theorem axiom reports are empty;
+independent claim/type review found no findings. Publication remains pending.
 
-The adversarial positive control is being assembled on the unchanged later
+The adversarial positive control is verified on the unchanged later
 five-being PartFreePlurality carrier, not the original four-being #681 model.
 The proposed new view retains its ontic/ground/act/potency/component fields
 and assigns the previously unspecified intellect/will predicates to root.
-Both roots should retain the attributes while nonroots retain positive
+Both roots retain the attributes while nonroots retain positive
 potency. Each alternative route has thirteen inputs; retaining BOTH
-replacement conditions jointly gives fourteen inputs, including supplied EM. This would certify compatibility and a uniqueness boundary, not
+replacement conditions jointly gives fourteen inputs, including supplied EM. This certifies compatibility and a uniqueness boundary, not
 real-world explanatory adequacy; contingent coverage in this all-present
-ontology remains vacuous. No unverified control is counted as a result.
+ontology remains vacuous. Root routes, root-reaching IDs, open-premise count and depth counts are unchanged.
+The complete reports additionally contain the new finite-control statement
+and new downstream dependents; those are not premise-truth discharges.
+
+Next uniqueness seam (read-only exact-theorem audit):
+`Q11NatureUniqueness.godIsOneFromNature` can mechanically take the full
+qualified-root tuple as its predicate. It still needs incommunicable
+individuation, suppositum/nature identity and common nature for THAT predicate;
+represented esse/essence identity supplies neither of the latter interfaces.
+God-scoped source readings do not establish arbitrary-root applicability just
+because the Lean theorem has a predicate parameter. The positive five-being
+model retains the first two for its roots and rejects common nature. Under
+those retained interfaces and an inhabited candidate domain, common nature
+already amounts to at-most-one; reapplying the theorem supplies no new
+independent refutation of plurality.
+
+`OneFirstMover.oneFirstMover` is the alternative existing equality mechanism.
+The model already retains both roots' first-movership and every-perfection,
+and rejects the plural-first-movers-differ-in-act interface. The general new
+root tuple does not supply outgoing motion or every-perfection: PureAct only
+excludes potency. Those positive-act and membership bridges cannot be silently
+replaced by necessity or intellect/will. Next concrete research is to compare
+these existing individuation/positive-act interfaces against their dossiers,
+not to restate uniqueness as another opaque bridge. No new source reading or
+premise selection follows from this audit.
 
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
