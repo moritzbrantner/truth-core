@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-NECESSARY-UNION-WF",
+  "term": "well-founded modal support union among necessary concrete candidates",
+  "definition": "The existing union of selected world-local existential-support arrows between necessary concrete candidates is well-founded. The union includes arrows from every admitted world, not merely accessible worlds. This neither follows from actual-world well-foundedness nor requires invariant edges.",
+  "basis": "stipulative",
+  "note": "Source-free carrier restriction/composition of the existing Profile and necessarily-underived vocabulary. This introduces no competing metaphysical sense. Concrete is the existing fixed predicate; why it applies to actual beings, the causal meaning of grounds, and the two modal-grounding premises remain OPEN. See docs/notes/ultimate-adequacy-integration-735.md, concrete-underived composition.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.ConcreteNecessaryUnionWF"
+}

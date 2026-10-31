@@ -34,6 +34,7 @@ import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
 import TruthCore.Results.Causality.NecessaryRootFork.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution

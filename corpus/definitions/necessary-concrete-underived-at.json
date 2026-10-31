@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-CONCRETE-UNDERIVED-AT",
+  "term": "one actual necessary concrete candidate without concrete existential supporters",
+  "definition": "One and the same candidate is concrete, actually exists, exists in every accessible world, and has no incoming selected grounding arrow from an existing concrete candidate at any admitted world. Non-concrete support or explanation is not excluded. No uniqueness, self-explanation, simplicity, intellect or God identification is asserted.",
+  "basis": "stipulative",
+  "note": "Source-free carrier restriction/composition of the existing Profile and necessarily-underived vocabulary. This introduces no competing metaphysical sense. Concrete is the existing fixed predicate; why it applies to actual beings, the causal meaning of grounds, and the two modal-grounding premises remain OPEN. See docs/notes/ultimate-adequacy-integration-735.md, concrete-underived composition.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.NecessaryConcreteUnderivedAt"
+}

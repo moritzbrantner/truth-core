@@ -27,6 +27,7 @@ import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NamedPotentialCauser
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
+import TruthCore.Causality.NecessaryConcreteUnderived
 import TruthCore.Causality.NecessaryRootFork
 import TruthCore.Causality.NecessarySimplePlurality
 import TruthCore.Causality.OccurrenceUnderivedEssence

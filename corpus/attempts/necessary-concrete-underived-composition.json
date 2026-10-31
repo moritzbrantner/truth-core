@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
+    "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
+    "STMT-CONCRETE-NECESSARY-UNION-WF",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Composed the existing necessaryConcreteOfActualGrounded and PositiveUnion.checks certificates through a transparent restriction of the same Profile ontology and grounds relation to concrete candidates. Rejected forgetting concrete status and then claiming the generic underived witness is concrete; the selected final witness need not be the initial necessary witness. New Challenge frozen before Solution, SHA256 8dbbb91a19fa89b5fa1296f3bc36d5b1c57a865633335e9739da473ab5827462. Focused Solution build passes. CLI fallback; no coordinator service/preview running. Exact verification and final CI recorded with the delivered PR. See docs/notes/ultimate-adequacy-integration-735.md. Added a joint two-world finite interpretation satisfying all six nonlogical premises with an actual contingent concrete dependent; its standalone Challenge/Solution companion elaborates. Complete Challenge (original advertised composition type unchanged) SHA256 e85188d9a9359de7d340776f0d62831a138e087bbb77b9406a0ab1b2c5999c26. Full library build and binding passed before this additive companion; final checks will cover both. Final full library build passes. Full corpus binding: 714 bound, 2 pre-existing pinned, 0 mismatch. Both results pass zero-axiom Comparator and independent NanoDa; Lean reports no axioms for either theorem. Source manifests, generated indexes/imports and diff checks pass. Root-route output byte-identical to the pre-work baseline (11 routes,62 open root-reaching premises). Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "No philosophical premise discharge. Concrete classification, actual contingent dependence, actual grounding foundation, exclusion of contingent concrete supporters of necessary targets, and cross-world union foundation remain open. Non-concrete explanations are not excluded. Exact minimality/omission coverage for the composed profile remains future work; one joint nontrivial model is supplied.",
+  "evidence": [
+    "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "NECESSARY-UNDERIVED-POSITIVE-UNION",
+    "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS"
+  ]
+}

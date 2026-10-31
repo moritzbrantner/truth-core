@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-SUPPORT-RESTRICTION",
+  "term": "restriction to the existing concrete candidate roster",
+  "definition": "concreteOntic restricts the existing Profile ontology to the subtype of candidates satisfying its concrete predicate, inheriting accessibility, existence and generic causes. concreteSupport separately restricts the same Profile.grounds relation. No causal/grounding identification or existence axiom is introduced.",
+  "basis": "stipulative",
+  "note": "Source-free carrier restriction/composition of the existing Profile and necessarily-underived vocabulary. This introduces no competing metaphysical sense. Concrete is the existing fixed predicate; why it applies to actual beings, the causal meaning of grounds, and the two modal-grounding premises remain OPEN. See docs/notes/ultimate-adequacy-integration-735.md, concrete-underived composition.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.concreteOntic"
+}

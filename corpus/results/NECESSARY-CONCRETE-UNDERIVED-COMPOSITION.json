@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "argument_id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteUnderived.checks",
+  "comparator_config": "results/NECESSARY-CONCRETE-UNDERIVED-COMPOSITION/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the certified necessary-concrete result with the certified modal-union underivedness result on the concrete subtype. Derive a necessary concrete witness rather than assuming necessary population anew; the underived witness is concrete but need not be the initial necessary witness. Retain actual reflexivity, no contingent concrete supporters of necessary concrete targets, and well-foundedness of the cross-world necessary-concrete support union. Underived means absence of existing concrete grounds at every admitted world, not absence of every kind of explanation. Conditional composition only; no metaphysical premise discharge."
+}

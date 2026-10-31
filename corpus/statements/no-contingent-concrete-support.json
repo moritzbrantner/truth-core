@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.NoContingentConcreteSupport",
+  "paraphrase": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted world is itself necessary from the selected actual world. This is the existing no-contingent-ground condition instantiated on the concrete subtype, not a restriction on non-concrete reasons or generic efficient causes.",
+  "definition_ids": [
+    "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
+    "DEF-CONCRETE-SUPPORT-RESTRICTION",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

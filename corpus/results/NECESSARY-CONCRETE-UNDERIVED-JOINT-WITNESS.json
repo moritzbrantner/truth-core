@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "argument_id": "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteUnderived.jointWitness",
+  "comparator_config": "results/NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "A specified two-world Boolean profile jointly satisfies concrete actual population, well-founded actual concrete grounding, dependence of every actual contingent concretum, actual reflexivity, no contingent concrete supporter of necessary concrete targets, and well-founded necessary-concrete modal union. An actual contingent concrete dependent exists, so dependence is exercised. This certifies one formal interpretation, not metaphysical possibility or any universal premise."
+}
