@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-MOVED-BY-ANOTHER",
+  "argument_id": "AQUINAS-MOVED-BY-ANOTHER",
+  "challenge_module": "TruthCore.Results.Causality.SameRespectActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SameRespectActualization.Solution",
+  "theorem": "TruthCore.Results.Causality.SameRespectActualization.movedByAnother",
+  "comparator_config": "results/AQUINAS-MOVED-BY-ANOTHER/comparator.json",
+  "status": "solution-present",
+  "description": "A standalone verification of the existing first-way intermediate inference: the existence-of-a-mover premise and no-self-motion premise yield a distinct mover for a subject being moved in the same respect. It supplies neither a mover for an unmoved subject nor a necessary or underived source. Both original First Way solutions now import these intermediate theorems instead of repeating their derivations. The source is the already registered ST I q.2 a.3 first-way reading, materialized and reread without changing its claims. This connects existing statements; every philosophical premise remains open and no root premise is discharged. See docs/power-existence-scope-boundary.md."
+}

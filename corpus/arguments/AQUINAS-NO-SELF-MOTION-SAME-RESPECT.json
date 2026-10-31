@@ -1,0 +1,23 @@
+{
+  "id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "premise_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT"
+  ],
+  "meaning": "A standalone verification of the existing first-way intermediate inference: the three explicit act/potency laws imply that a subject being moved in a respect cannot move itself in that same respect. No motion premise is supplied for a merely existing or modally contingent subject; there is no blanket ban on intrinsic explanation, cross-respect activity or temporally separated feedback. The source is the already registered ST I q.2 a.3 first-way reading, materialized and reread without changing its claims. This connects existing statements; every philosophical premise remains open and no root premise is discharged. See docs/power-existence-scope-boundary.md.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

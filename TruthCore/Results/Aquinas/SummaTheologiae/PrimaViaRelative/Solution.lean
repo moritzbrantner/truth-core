@@ -1,4 +1,5 @@
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+import TruthCore.Results.Causality.SameRespectActualization.Solution
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative
 open TruthCore.Latin.Aquinas.SummaTheologiae
 theorem primaViaRelative {Being : Type} {Respect : Type}
@@ -16,18 +17,11 @@ theorem primaViaRelative {Being : Type} {Respect : Type}
       MovedIn MovesIn MovesAsMoved RelevantTo)
     (hRegress : NoInfinitePerSeMoverSeriesReading MovesAsMoved) :
     RelativelyUnmovedMoverCannotBeLackingReading MovedIn MovesIn RelevantTo := by
-  -- INF-AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT
-  have hNoSelf : NothingMovesItselfInSameRespectReading MovedIn MovesIn := by
-    intro x r hMoved hSelf
-    exact hNotBoth x r ⟨hAct x x r hSelf, hPotency x r hMoved⟩
-  -- INF-AQUINAS-ST-I-Q2-A3-MOVED-BY-ANOTHER
-  have hAnother : MovedByAnotherReading MovedIn MovesIn := by
-    intro x r hMoved
-    obtain ⟨y, hMoves⟩ := hReduction x r hMoved
-    refine ⟨y, ?_, hMoves⟩
-    intro hEq
-    subst hEq
-    exact hNoSelf y r hMoved hMoves
+  -- Reuse the two separately checked first-way intermediate inferences.
+  have hNoSelf := TruthCore.Results.Causality.SameRespectActualization.noSelfMotion
+    MovedIn MovesIn InPotency InAct hPotency hAct hNotBoth
+  have hAnother := TruthCore.Results.Causality.SameRespectActualization.movedByAnother
+    MovedIn MovesIn hReduction hNoSelf
   -- INF-AQUINAS-ST-I-Q2-A3-RELATIVE-FIRST-MOVER
   intro hNoFirst
   have hNoMotion : ∀ x, (∃ r, MovedIn x r) → False := by

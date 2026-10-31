@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "argument_id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "challenge_module": "TruthCore.Results.Causality.SameRespectActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SameRespectActualization.Solution",
+  "theorem": "TruthCore.Results.Causality.SameRespectActualization.noSelfMotion",
+  "comparator_config": "results/AQUINAS-NO-SELF-MOTION-SAME-RESPECT/comparator.json",
+  "status": "solution-present",
+  "description": "A standalone verification of the existing first-way intermediate inference: the three explicit act/potency laws imply that a subject being moved in a respect cannot move itself in that same respect. No motion premise is supplied for a merely existing or modally contingent subject; there is no blanket ban on intrinsic explanation, cross-respect activity or temporally separated feedback. The source is the already registered ST I q.2 a.3 first-way reading, materialized and reread without changing its claims. This connects existing statements; every philosophical premise remains open and no root premise is discharged. See docs/power-existence-scope-boundary.md."
+}
