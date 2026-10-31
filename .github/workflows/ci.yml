@@ -1,397 +1,78 @@
-name: CI
-
+name: Source delivery diagnostic
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  # Nightly full verification of main, so that a regression nothing on a PR selected still
-  # turns a run red (GitHub notifies the workflow's owner of failed scheduled runs).
-  schedule:
-    - cron: "17 3 * * *"
   workflow_dispatch:
-
 permissions:
   contents: read
-
-# A newer push to a PR cancels its older run; runs on main (push, schedule, dispatch) get a
-# unique group and always finish.
-concurrency:
-  group: ci-${{ github.event_name == 'pull_request' && github.ref || github.run_id }}
-  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
-
 jobs:
-  corpus-and-lean:
-    needs: comparator-plan
+  capture:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          # A PR checks out its merge commit; HEAD^1 is the base the source verify compares to.
-          fetch-depth: 2
-      - name: Check the per-area import aggregators import every module, sorted
-        run: scripts/root-imports.sh
-      - name: Check generated docs tables and lists are up to date
-        run: python3 scripts/docs_index.py
-      # Prebuilt Mathlib, then an incremental TruthCore build from the latest main build
-      # (.github/actions/lean-setup). This job alone writes the Lean caches, and only on main.
-      - uses: ./.github/actions/lean-setup
-        if: needs.comparator-plan.outputs.lean == 'true'
-        with:
-          build: "true"
-          save: "true"
-      # Offline PDF fixture tests always run, even when live source work is unaffected.
-      - name: Install PDF source extraction
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Validate corpus metadata and source bindings
-        run: python3 scripts/corpus.py check
-      - name: Check bounded migration coverage and review freshness
-        run: python3 scripts/bundle_audit.py
-      - name: Bind argument records to result theorem types
-        if: needs.comparator-plan.outputs.lean == 'true'
-        run: python3 scripts/corpus.py bind-check
-      - name: Test corpus tooling and media-span and web-snapshot evidence offline
-        run: python3 -m unittest discover -s scripts -p 'test_*.py'
-      - name: Report the premise frontier
-        run: python3 scripts/corpus.py frontier --reaching-root
-      # On a PR, refetch only the passages whose manifests the PR adds or changes (every
-      # passage when the verifier changed) and still validates every manifest offline. A live
-      # page that drifts then turns main and the nightly run red without blocking unrelated PRs.
-      - name: Verify immutable primary-source witnesses
-        if: needs.comparator-plan.outputs.source == 'true'
-        env:
-          EVENT: ${{ github.event_name }}
+          persist-credentials: false
+      - name: Capture exact downloader responses
+        shell: bash
         run: |
-          if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
-            python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
-          else
-            python3 scripts/source_evidence.py verify
-          fi
-      - name: Exercise source materialization
-        if: needs.comparator-plan.outputs.source == 'true'
-        run: |
-          python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt
-          python3 scripts/source_evidence.py materialize ARIST-CAT-V --output /tmp/aristotle-categories-v.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-IV-1 --output /tmp/aristotle-metaphysics-iv-1.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-IV-7 --output /tmp/aristotle-metaphysics-iv-7.txt
-          python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q2-A3 --output /tmp/aquinas-st-i-q2-a3.txt
-          python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q48-A3 --output /tmp/aquinas-st-i-q48-a3.txt
-          python3 scripts/source_evidence.py materialize VATICAN-I-DEI-FILIUS-CH3 --output /tmp/vatican-i-dei-filius-ch3.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q4-A2 --output /tmp/aquinas-st-i-q4-a2.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-II-1 --output /tmp/aristotle-metaphysics-ii-1.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q13-A8 --output /tmp/aquinas-st-i-q13-a8.txt
-
-  corpus-explorer:
-    needs: comparator-plan
-    if: needs.comparator-plan.outputs.explorer_tests == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
-        with:
-          bun-version: latest
-      - name: Install workspace dependencies
-        run: bun install --frozen-lockfile
-      - name: Typecheck explorer
-        run: bun run typecheck
-      - name: Test explorer
-        run: bun run test
-      - name: Lint explorer
-        run: bun run lint
-
-  # The two browser regressions need different static exports (root path and the GitHub Pages
-  # base path), so they build and test in parallel instead of one after the other.
-  # They run only when comparator-plan reports a changed explorer input; otherwise both checks
-  # report as skipped, which a required check accepts. They are two jobs sharing one composite action
-  # (.github/actions/explorer-browser), not a matrix: a skipped matrix job reports one check under its unexpanded
-  # name, so its per-leg checks could never be required. A certified build needs the
-  # configuration report that comparator-library verifies with Lean and the Comparator, so
-  # they wait for it rather than repeat that toolchain setup in each job.
-  corpus-explorer-browser-root:
-    needs: [comparator-plan, comparator-library]
-    if: needs.comparator-plan.outputs.explorer == 'true'
-    name: corpus-explorer (browser, root path)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - uses: ./.github/actions/explorer-browser
-        with:
-          github-pages: "false"
-          test-base-path: ""
-
-  corpus-explorer-browser-pages:
-    needs: [comparator-plan, comparator-library]
-    if: needs.comparator-plan.outputs.explorer == 'true'
-    name: corpus-explorer (browser, Pages base path)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - uses: ./.github/actions/explorer-browser
-        with:
-          github-pages: "true"
-          test-base-path: /truth-core
-
-  # One exact-head plan owns all heavyweight decisions. Main formal/corpus changes and
-  # nightly/manual runs retain exhaustive verification. Unknown inputs/base run everything.
-  comparator-plan:
-    runs-on: ubuntu-latest
-    outputs:
-      mode: ${{ steps.select.outputs.mode }}
-      count: ${{ steps.select.outputs.count }}
-      shards: ${{ steps.select.outputs.shards }}
-      shard_count: ${{ steps.select.outputs.shard_count }}
-      library_changed: ${{ steps.select.outputs.library_changed }}
-      lean: ${{ steps.select.outputs.lean }}
-      source: ${{ steps.select.outputs.source }}
-      explorer: ${{ steps.select.outputs.explorer }}
-      explorer_tests: ${{ steps.select.outputs.explorer_tests }}
-      report: ${{ steps.select.outputs.report }}
-      comparator_library: ${{ steps.select.outputs.comparator_library }}
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          # A PR checks out its merge commit; HEAD^1 is the base it is tested against.
-          fetch-depth: 2
-      - name: Select results to verify
-        id: select
-        env:
-          EVENT: ${{ github.event_name }}
-          BEFORE: ${{ github.event.before }}
-        run: |
-          if [[ "$EVENT" == pull_request ]]; then
-            python3 scripts/affected_results.py select --base HEAD^1 --head HEAD
-          elif [[ "$EVENT" == push && -n "$BEFORE" && ! "$BEFORE" =~ ^0+$ ]] \
-            && git fetch --quiet --no-tags --depth=1 origin "$BEFORE"; then
-            python3 scripts/affected_results.py select --base "$BEFORE" --head HEAD --main
-          else
-            python3 scripts/affected_results.py select --all
-          fi
-
-  # Whenever needed, produce a live configuration bundle at this workflow's checkout.
-  comparator-library:
-    needs: comparator-plan
-    if: needs.comparator-plan.outputs.comparator_library == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          # A PR checks out its merge commit; HEAD^1 is the base the scoped NanoDa check compares to.
-          fetch-depth: 2
-      # Build here: NanoDa exports the compiled library. The build is incremental from the latest
-      # main build (the same cache corpus-and-lean restores), not from that job's output, so the
-      # two jobs do not race.
-      - uses: ./.github/actions/lean-setup
-        with:
-          build: ${{ needs.comparator-plan.outputs.library_changed }}
-      # The pinned lean4export/landrun/nanoda builds and the comparator's Cargo target only change
-      # with their pins, so later runs restore them and the bootstrap's builds become no-ops.
-      # lean4export must be built for the exact Lean version pinned in lean-toolchain
-      # (a mismatch fails with "incompatible header"), so the key carries that version.
-      - name: Resolve Lean version
-        id: lean
-        run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"
-      - name: Cache Comparator toolchain
-        id: verifier
-        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
-        with:
-          path: ~/.cache/truth-core-verifier
-          key: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'scripts/verifier-pins.env', 'scripts/bootstrap-verifier.sh', 'verifier/Cargo.lock', 'verifier/Cargo.toml', 'verifier/src/**') }}
-          restore-keys: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-
-      # An exact hit restores binaries built from exactly these pins and sources, so the
-      # bootstrap (and the Go and Rust toolchains it needs) is skipped; `cargo test` below still
-      # needs Rust whenever the library changed.
-      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
-        if: steps.verifier.outputs.cache-hit != 'true'
-        with:
-          go-version: stable
-      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
-        if: steps.verifier.outputs.cache-hit != 'true' || needs.comparator-plan.outputs.library_changed == 'true'
-      - name: Build Comparator toolchain
-        if: steps.verifier.outputs.cache-hit != 'true'
-        run: scripts/bootstrap-verifier.sh
-      - name: Produce this workflow's verified configuration explorer report
-        if: needs.comparator-plan.outputs.report == 'true'
-        run: python3 scripts/corpus.py configuration-report --output .cache/configuration-explorer.json
-      - name: Upload the verified configuration report
-        if: needs.comparator-plan.outputs.report == 'true'
+          python3 - <<'PYTHON'
+          import datetime
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import socket
+          import subprocess
+          import sys
+          import urllib.parse
+          import urllib.request
+          sys.path.insert(0, "scripts")
+          import source_evidence as source
+          out = Path("source-delivery-diagnostic")
+          out.mkdir(exist_ok=True)
+          base = "d44e2ddfcbac5cbf9aa4b86ea854216488e2bc7c"
+          metadata = {"base_commit": base, "commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(), "run_id": os.environ["GITHUB_RUN_ID"], "user_agent": source.USER_AGENT, "accept_encoding": "identity", "records": []}
+          allowed = {"server", "date", "content-type", "content-length", "content-encoding", "last-modified", "etag", "vary", "via", "age", "cache-control", "x-cache", "cf-ray", "cf-cache-status"}
+          original = urllib.request.urlopen
+          current = None
+          def observed_open(request, *args, **kwargs):
+              response = original(request, *args, **kwargs)
+              current["response"] = {"status": response.status, "final_url": response.geturl(), "headers": {k.lower(): v for k, v in response.headers.items() if k.lower() in allowed}}
+              return response
+          urllib.request.urlopen = observed_open
+          try:
+              for page in ("a3c", "a2c2"):
+                  manifest_path = Path("corpus/passages/necessarybeing-" + page + ".json")
+                  manifest_bytes = manifest_path.read_bytes()
+                  snapshot = json.loads(manifest_bytes)["snapshot"]
+                  url = snapshot["source_url"]
+                  for attempt in range(1, 6):
+                      current = {"page": page, "attempt": attempt, "utc": datetime.datetime.now(datetime.timezone.utc).isoformat(), "url": url, "expected": snapshot["sha256"], "manifest_sha256": hashlib.sha256(manifest_bytes).hexdigest()}
+                      try:
+                          current["dns"] = sorted({entry[4][0] for entry in socket.getaddrinfo(urllib.parse.urlsplit(url).hostname, 443, type=socket.SOCK_STREAM)})
+                          body = source.download(url, page, attempts=1)
+                          current["actual"] = source.sha256_bytes(body)
+                          current["bytes"] = len(body)
+                          current["matches"] = current["actual"] == current["expected"]
+                          if not current["matches"]:
+                              filename = page + "-" + str(attempt) + ".html"
+                              (out / filename).write_bytes(body)
+                              current["mismatch_body"] = filename
+                          print(page, attempt, current["actual"], "MATCH" if current["matches"] else "MISMATCH", flush=True)
+                      except Exception as error:
+                          current["error_type"] = type(error).__name__
+                          print(page, attempt, current["error_type"], flush=True)
+                      metadata["records"].append(current)
+                      (out / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
+          finally:
+              urllib.request.urlopen = original
+              metadata["verdict"] = "mismatch_captured" if any(r.get("matches") is False for r in metadata["records"]) else "no_current_reproduction" if all(r.get("matches") is True for r in metadata["records"]) else "incomplete_network_capture"
+              (out / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
+          PYTHON
+      - name: Retain delivery evidence
+        if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
-          name: configuration-explorer-report
-          path: .cache/configuration-explorer.json
-          include-hidden-files: true
+          name: source-delivery-diagnostic-${{ github.sha }}
+          path: source-delivery-diagnostic/
+          retention-days: 3
           if-no-files-found: error
-          retention-days: 7
-      - name: Derive proposition structure from Lean
-        if: needs.comparator-plan.outputs.report == 'true'
-        run: python3 scripts/corpus.py structure-report --output .cache/proposition-structure.json
-      - name: Upload derived proposition structure
-        if: needs.comparator-plan.outputs.report == 'true'
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
-        with:
-          name: proposition-structure-report
-          path: .cache/proposition-structure.json
-          include-hidden-files: true
-          if-no-files-found: error
-          retention-days: 7
-      - name: Certify registered proposition strength comparisons
-        if: needs.comparator-plan.outputs.report == 'true'
-        run: python3 scripts/corpus.py strength-report --output .cache/strength-comparisons.json
-      - name: Upload certified strength presentation
-        if: needs.comparator-plan.outputs.report == 'true'
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
-        with:
-          name: strength-comparisons-report
-          path: .cache/strength-comparisons.json
-          include-hidden-files: true
-          if-no-files-found: error
-          retention-days: 7
-      - name: Test Comparator lambda annotation boundary
-        if: needs.comparator-plan.outputs.library_changed == 'true'
-        run: |
-          cargo test --locked --manifest-path verifier/Cargo.toml
-          python3 verifier/tests/test_lambda_binders.py ~/.cache/truth-core-verifier/rust-target/release/truth-core-comparator
-      # On a PR, check the declarations of the modules whose build output the diff can affect
-      # (changed modules and their reverse dependents, scripts/affected_results.py
-      # nanoda-modules), each with its full dependency closure; every other module's output is
-      # the base commit's, which main's full check covered. Pushes to main, nightly and manual
-      # runs check every TruthCore declaration.
-      - name: Select the modules the PR's NanoDa check covers
-        if: needs.comparator-plan.outputs.library_changed == 'true' && github.event_name == 'pull_request'
-        id: nanoda
-        run: python3 scripts/affected_results.py nanoda-modules --base HEAD^1 --head HEAD --output "$RUNNER_TEMP/nanoda-modules.txt"
-      - name: Verify TruthCore declarations and their dependencies with NanoDa
-        if: needs.comparator-plan.outputs.library_changed == 'true'
-        env:
-          SCOPE: ${{ steps.nanoda.outputs.scope }}
-        run: |
-          if [[ "$SCOPE" == scoped ]]; then
-            scripts/verify-library.sh --modules "$RUNNER_TEMP/nanoda-modules.txt"
-          else
-            scripts/verify-library.sh
-          fi
-      # The full check adds only imported declarations that no TruthCore declaration uses. Those
-      # are fixed by the toolchain, Mathlib and NanoDa pins and by the set of modules TruthCore
-      # imports from outside, so a marker keyed by exactly these records that it passed once.
-      # A PR runs it only when it changes a pin file of the marker key. A PR that only adds an
-      # external import leaves the newly imported declarations that TruthCore does not use to the
-      # next main or nightly run; the ones it uses are already in the scoped check above.
-      - name: Key the full-library NanoDa check
-        if: needs.comparator-plan.outputs.library_changed == 'true'
-        id: full-key
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          echo "imports=$(python3 scripts/affected_results.py external-imports | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
-          run=true
-          if [[ "$EVENT" == pull_request ]] && git diff --quiet HEAD^1 HEAD -- \
-            lean-toolchain lakefile.toml lake-manifest.json scripts/verifier-pins.env scripts/verify-library.sh; then
-            run=false
-          fi
-          echo "run=$run" >> "$GITHUB_OUTPUT"
-      - name: Restore the full-library NanoDa marker
-        if: needs.comparator-plan.outputs.library_changed == 'true' && steps.full-key.outputs.run == 'true'
-        id: full-marker
-        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
-        with:
-          path: ~/.cache/truth-core-nanoda-full
-          key: nanoda-full-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'lakefile.toml', 'lake-manifest.json', 'scripts/verifier-pins.env', 'scripts/verify-library.sh') }}-${{ steps.full-key.outputs.imports }}
-      - name: Verify everything TruthCore imports with NanoDa (once per pin)
-        if: needs.comparator-plan.outputs.library_changed == 'true' && steps.full-key.outputs.run == 'true' && steps.full-marker.outputs.cache-hit != 'true'
-        run: |
-          scripts/verify-library.sh --full
-          mkdir -p ~/.cache/truth-core-nanoda-full
-          echo "full NanoDa check passed at ${GITHUB_SHA}" > ~/.cache/truth-core-nanoda-full/passed
-
-  comparator-shard:
-    name: comparator (shard ${{ matrix.shard }})
-    needs: comparator-plan
-    if: needs.comparator-plan.outputs.count != '0'
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        shard: ${{ fromJSON(needs.comparator-plan.outputs.shards) }}
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          fetch-depth: 2
-      # verify-all.sh builds exactly the Challenge and Solution modules of its shard, incrementally
-      # from the restored main build.
-      - uses: ./.github/actions/lean-setup
-      - name: Resolve Lean version
-        id: lean
-        run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"
-      - name: Cache Comparator toolchain
-        id: verifier
-        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
-        with:
-          path: ~/.cache/truth-core-verifier
-          key: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-${{ hashFiles('lean-toolchain', 'scripts/verifier-pins.env', 'scripts/bootstrap-verifier.sh', 'verifier/Cargo.lock', 'verifier/Cargo.toml', 'verifier/src/**') }}
-          restore-keys: verifier-${{ runner.os }}-${{ steps.lean.outputs.version }}-
-      # Skipped on an exact hit, as in comparator-library.
-      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
-        if: steps.verifier.outputs.cache-hit != 'true'
-        with:
-          go-version: stable
-      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
-        if: steps.verifier.outputs.cache-hit != 'true'
-      - name: Build Comparator toolchain
-        if: steps.verifier.outputs.cache-hit != 'true'
-        run: scripts/bootstrap-verifier.sh
-      - name: Select results to verify
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          if [[ "$EVENT" == pull_request ]]; then
-            python3 scripts/affected_results.py select --base HEAD^1 --head HEAD --output "$RUNNER_TEMP/results.txt"
-          elif [[ "$EVENT" == push ]]; then
-            # The plan runs shards on main only for the exhaustive formal/safety path.
-            python3 scripts/affected_results.py select --all --output "$RUNNER_TEMP/results.txt"
-          else
-            python3 scripts/affected_results.py select --all --output "$RUNNER_TEMP/results.txt"
-          fi
-      - name: Verify this shard of the selected results
-        env:
-          SHARD: ${{ matrix.shard }}/${{ needs.comparator-plan.outputs.shard_count }}
-        run: scripts/verify-all.sh --results-file "$RUNNER_TEMP/results.txt" --shard "$SHARD"
-
-  # Stable aggregate: require exactly the work selected by the successful plan.
-  # A skipped producer is accepted only for an explicit unaffected-input decision.
-  comparator:
-    needs: [comparator-plan, comparator-library, comparator-shard]
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check comparator jobs
-        env:
-          PLAN: ${{ needs.comparator-plan.result }}
-          LIBRARY: ${{ needs.comparator-library.result }}
-          SHARDS: ${{ needs.comparator-shard.result }}
-          MODE: ${{ needs.comparator-plan.outputs.mode }}
-          COUNT: ${{ needs.comparator-plan.outputs.count }}
-          EXPECT_LIBRARY: ${{ needs.comparator-plan.outputs.comparator_library }}
-          EXPECT_REPORT: ${{ needs.comparator-plan.outputs.report }}
-          EXPLORER: ${{ needs.comparator-plan.outputs.explorer }}
-        run: |
-          echo "plan=$PLAN ($MODE, $COUNT results) library=$LIBRARY shards=$SHARDS"
-          [[ "$PLAN" == success && "$COUNT" =~ ^[0-9]+$ ]] || exit 1
-          [[ "$MODE" == full || "$MODE" == subset ]] || exit 1
-          [[ "$EXPECT_REPORT" == true || "$EXPECT_REPORT" == false ]] || exit 1
-          [[ "$EXPLORER" == true || "$EXPLORER" == false ]] || exit 1
-          if [[ "$EXPECT_LIBRARY" == true ]]; then
-            [[ "$LIBRARY" == success ]] || exit 1
-          elif [[ "$EXPECT_LIBRARY" == false ]]; then
-            [[ "$LIBRARY" == skipped && "$EXPECT_REPORT" == false && "$EXPLORER" == false ]] || exit 1
-            echo 'Comparator library/report inputs unaffected; no fresh certification produced.'
-          else
-            exit 1
-          fi
-          if [[ "$COUNT" != 0 ]]; then
-            [[ "$SHARDS" == success ]] || exit 1
-          else
-            [[ "$SHARDS" == skipped ]] || exit 1
-          fi
-          [[ "$EXPLORER" != true || "$EXPECT_REPORT" == true ]] || exit 1
-          [[ "$MODE" != full || ( "$EXPECT_LIBRARY" == true && "$EXPECT_REPORT" == true && "$SHARDS" == success ) ]] || exit 1
