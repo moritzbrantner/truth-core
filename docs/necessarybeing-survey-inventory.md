@@ -397,3 +397,22 @@ Six inputs are retained: typed five opportunity, typed decrement, one-way tempor
 This is genuine conditional derivation/configuration progress under policy #824, with no philosophical truth discharge. No universal frame, now-slice coherence, global PSR, well-foundedness, causal-grounding conversion, uniqueness or God identification is assumed or concluded. Temporal population coverage, causal interpretation, concrete-domain applicability, modal scope and the ever-history existence bridge remain explicit framework commitments. Focused Lean checks pass; both proof helpers/endpoints have zero axioms. Challenge SHA256 remains `e3834ccaaec1c02e679088b415f86e778fe2bcbc62ed957d1114bc64520d77fc`. Corpus and whitespace checks pass; Comparator/NanoDa integration is coordinator-owned and not yet claimed here. The new attempt `ATTEMPT-COUNT-TEMPORAL-NECESSARY-BEING-20261031` retains the exact premise comparison and focused evidence. Source extraction/argument registration for other family commitments remains queued.
 
 Retained strength in the typed count configuration: `CausedThreshold` requires absence at every earlier time, while the witness proof only uses absence at the cause time. This first-threshold guard is not silently attributed to the source. Weakening it to cause-time absence is a separate configuration opportunity; the frozen current Challenge remains unchanged.
+
+
+### A2 main-branch source extraction (2026-11-01)
+
+Five qualified claims now use the existing public A2 witnesses:
+
+| Claim | Statement and precise locator |
+| --- | --- |
+| `NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL` | New `STMT-NB-A2-REPORTED-COVERAGE-DENIAL`; `NECESSARYBEING-A2-QUESTION-ONE`, A2P1 question/tooltips and negative-answer continuation. Conditional answer reading only: no actual assent or truth. A2c5's explicit reported denial uses a narrower domain. |
+| `NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE` | New `STMT-NB-A2-ENTIRE-MEMBER-CLOSURE`; `NECESSARYBEING-A2-CONCLUSION`, A2C steps1–4,7 and title attributes. Necessity scope and membership rather than whole-chain extension are retained. |
+| `NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED` | New `STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED`; same witness, steps5–8. The source's disputed conditional retains its stronger relational head, domain shift and isolated-source gap. |
+| `NB-SURVEY-A2-CONTINGENTS-CAUSED` | Reuses `STMT-NB-A1-CONTINGENTS-CAUSED`; same witness, step9. This unqualified reported cause is not the stronger global/distinct/existing-cause LocalCausalPrinciple or a grounding relation. |
+| `NB-SURVEY-A2-POSSIBILITY-INVARIANCE` | New `STMT-NB-A2-POSSIBILITY-INVARIANCE`; `NECESSARYBEING-A2-QUESTION-TWO`, A2P2 question/note. Conditional affirmative-answer reading; individual possibility does not require joint possibility. |
+
+All claim witnesses were materialized/read before extraction, including title attributes in their hash-verified bytes. Existing objective-possibility and existential N-to-Box-N source statements remain unchanged. The four new source commitments intentionally have no Lean declaration: no exact formal interpretation or checked source inference is advertised. No new Challenge/Solution, inference or result is introduced. This is extraction/reuse progress with **no premise or root-frontier discharge**.
+
+Source-gloss definitions and `DISAMB-NB-A2-DOMAIN-AND-ANCESTRY` preserve A2P1 cause-OR-effect capability versus A2c cause capability. Entire-chain closure concerns causes of members, not causal production of a collective whole. Infinite means lacking a first member, not cardinal infinity; an isolated graph source need not be a cause/partial-cause head. Existing `HEADLESS-CAUSAL-ANCESTRY` and `POSSIBLE-CAUSAL-SOURCE-NECESSITY` remain unattributed mathematical consequences under their own dictionaries. Applying them still needs chain/head correspondence, capable/actual causal-domain guards, and objective/modal/rigid-individual correspondence. Mere consistency is not explanatory adequacy.
+
+Next coherent extraction is A2P2b/A2c2's alternate modal input, then A2P2c/A2c3's revised classification and reaffirmed report, using their existing public witnesses. Continue afterward with source-ordered A3 extraction and the remaining public campaign queue; no additional later-family witness coverage is delivered here. The candidate and existing first-pass attempt preserve this boundary. Source pins, old claims/types, proof modules and shared generators are unchanged.

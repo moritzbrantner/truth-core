@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED",
+  "statement_id": "STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A2C, steps 5\u20138 and concrete/head title attributes",
+  "interpretation": "The source claims a possible relational head and then an uncaused concrete thing from the reported denial and earlier closure conditions. Keep this as an OPEN attributed conditional. Existing source-agnostic headless-cone theorems repair the weaker uncaused conclusion under network correspondence but do not prove the source's stronger cause/partial-cause head assertion for an isolated counterinstance. Step8 cites5\u20136 although step7 supplies the uncaused-head justification. No formal inference/result or identity with PossiblyFailedHeadlessCoverage is registered by this claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+  "term": "A2 entire causal chain, ungroundedness and internal head",
+  "definition": "An entire chain has no cause of one of its members outside that chain; ungrounded excludes even partial outside causes of members. Infinite is glossed as lacking a first member, not infinite cardinality. A head is a cause or partial cause not caused by any element of the chain. A2c asserts that every concrete thing already in a causal chain belongs to an entire chain. It does not define linear comparability or a single predecessor, nor assert that the entire chain is a separate caused individual.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL",
+    "NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE",
+    "NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED"
+  ],
+  "note": "A2P1 infinite/ungrounded term@title; A2c steps1\u20134 and head term@title at6\u20137. A branching finite-ancestor interpretation is compatible but not stipulated as a formal identity. A source in that graph may be isolated and fail the stronger cause/partial-cause role of a head. Closure of member causes is not a member-to-whole causal-production law."
+}

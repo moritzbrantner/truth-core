@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+  "term": "concrete in A2c: capable of causing",
+  "definition": "A2c defines concrete as something that can cause something. This is narrower than A2P1 cause-or-effect capability. An uncaused actual individual does not acquire outgoing causal capability merely from being a graph source. The survey nominal necessary-being definition separately requires possible causal exercise and inability not to exist.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE",
+    "NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED"
+  ],
+  "note": "Pinned A2c concrete term@title. No identification with the intervention-response capacity, materiality, or all existing candidates is asserted."
+}
