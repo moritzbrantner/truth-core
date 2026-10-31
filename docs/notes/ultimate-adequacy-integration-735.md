@@ -2,38 +2,38 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#821](https://github.com/moritzbrantner/truth-core/pull/821) are
-merged. Latest merge `28de2b6683e2c87ba0b9c10456dfb336fd2267e8` passed all CI
-checks and current-head review without findings (reviewed head
-`18ef9f7227eabc62d7dda4144eee45f75df5122a`, CI run `41227428523`, attempt2).
-Its first source-fetch mismatch did not reproduce locally; unchanged-head retry
-verified all original pins. No manifest or verification rule changed, and the
-unretained first response remains unexplained. Exact diagnosis/resolution is
-preserved in the survey note/attempt.
+PRs #810–#821 are merged. Latest main is
+`28de2b6683e2c87ba0b9c10456dfb336fd2267e8`. [PR #822](https://github.com/moritzbrantner/truth-core/pull/822),
+head `d44e2ddfcbac5cbf9aa4b86ea854216488e2bc7c`, passed current-head review and
+its proof checks, but CI run `41229095931` rejected an A3C web response at
+18:26:18 UTC: expected `0c809bde26a72781c5fa7c3170ddd5b55adf87cfd60457be81e2f9da157ae7e5`,
+received `6cf3f2121f440290a93753264874e9ec5385ea48cad1eb7ccb0b3da3a07c575e`.
+The failed response was not retained. No source pin or hash rule changed.
 
-Current verified implementation `88baeeab` localizes the existing Scenario
-possible-external-cause frame premise: Euclidean accessibility plus reflexivity
-at the selected world replaces global universal access, with original causal
-opportunity and possible-beginning predicates unchanged. It retains the SAME
-concrete witness and old classical basis. The old universal premise implies the
-replacement frame bundle; existing identity controls separate only frame
-fragments, not the full causal bundle. No causal premise is discharged.
+An isolated hosted probe `41229947279`, diagnostic commit `fad1cf00` based on
+that exact research head, fetched A3c/A2c2 five times each; all ten matched their
+original pins. This is no current reproduction, not a diagnosed network fix.
+The temporary diagnostic workflow is not intended for main. A lasting five-file
+failure-capture patch is being verified separately in
+`/tmp/truth-core-source-diagnostics`, branch `agent/source-drift-diagnostics`,
+based on main28de2b66. It preserves unexpected hash-input bytes only in a separate
+ignored directory, still rejects drift, and uploads attempt-specific diagnostic
+artifacts. Independent review accepted it after fixing logging-I/O masking and
+PDF-fixture contamination. Full isolated Lean setup/tests are running before
+publication; pins, hash acceptance, fallback and trusted-cache logic are unchanged.
 
-LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE has cost4/direct4. Its one consumer is the
-explicit assembly projection SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER,
-connecting to the shared necessary-being statement. Full build4294jobs,
-binding785bound/2existingpins/0mismatch and both Comparator/NanoDa checks passed.
-Main permits the approved three Mathlib axioms; assembly permits none.
-Publication/review remain pending. God/Catholic/unique-root unions66/73/14 and
-route costs remain unchanged. The shared necessary-being target adds another
-cost4 assembly route; its causal and modal inputs remain open.
+Research successor `02c2f3ec` completes all nine linked A4 pages, with live
+verification. Its universal first-property transfer remains an independent
+admissibility/recombination premise. The rooted-causal-property scope test is
+conditional, not a certified metaphysical counterexample or refutation of theism.
+Source first/cause/property meanings and revised-necessity branches are preserved
+in the existing survey inventory/attempt. The source candidate now begins A5.
+No further ingestion is started while the verification diagnostic gap is repaired.
 
-The complete A3 linked cluster is read in source commit `3429bccd`: eight
-materialized pages, all live-verified. Its missing source-to-Scenario step is
-state-preserving causal availability of the first contingent transition and a
-prior existing concrete bearer outside the contingent class. The revised
-necessity alternatives retain separate classifications. The campaign candidate
-now begins with A4, without requeueing completed A1/A2/A3/A7 consequences.
+The existing formal baseline remains verified: local-frame possible external
+cause plus explicit shared-witness assembly, and earlier same-source/modal and
+full-ancestry results. No philosophical premise is discharged; God/Catholic/
+unique-root unions66/73/14 and route costs are unchanged.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.
