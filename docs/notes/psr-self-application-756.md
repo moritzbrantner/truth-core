@@ -100,3 +100,86 @@ a necessary personal ground from a necessary impersonal one.
   and no theorem says a narrower bridge cannot exist.
 - Stipulated support edges: `science` shows consistency, not that inferring a brute root
   from its effect is cogent.
+
+
+## Primary-source test: explanatory virtue versus universal coverage (#312)
+
+Read the complete pinned primary chapter by Shieva Kleinschmidt, *Reasoning
+Without the Principle of Sufficient Reason*, chapter 4, pp.64–79, §§1–3 and
+references: source `KLEINSCHMIDT-REASONING-WITHOUT-PSR`, passage
+`KLEINSCHMIDT-REASONING-WITHOUT-PSR-64-79`. Reproduce with
+`python3 scripts/source_evidence.py materialize KLEINSCHMIDT-REASONING-WITHOUT-PSR-64-79`.
+Two independent fetches matched the PDF and extracted-text hashes. This is
+primary evidence for Kleinschmidt's argument; her reconstruction does not
+substitute for reading Della Rocca or Pruss themselves.
+
+**Target and exact gap.** STMT-FACT-REQUIRES-SUFFICIENT-REASON remains the broad
+Leibniz reading, not an established universal norm. The existing
+STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER tests explicit support/explanation bridges.
+Kleinschmidt supplies a substantive rival to one attempted justification of
+coverage: justified preference for explanations need not presuppose that every
+truth in the relevant class has an explanation. This concerns epistemic
+justification, not the existence of concrete grounds. It does not identify her
+position with the existing `critic` model or attribute `GlobalDefeat`,
+`EvidenceBridge`, or `TrackingBridge` to any historical author.
+
+**Argument reconstructed, with its disputed assumptions retained.** In §1,
+pp.65–67, she distinguishes general PSR, contingent-truth PSR, and PSR for
+nonanalytic necessary truths. Her inductive argument starts with an allegedly
+indispensable assumption of explanation in some justified theory choice and
+extends it to a relevantly similar class. Footnote 8 distinguishes similarity
+in grounds for having an explanation from already having the same explained
+status. Treating similarity as identity of explanatory status would build in
+the disputed extension.
+
+In §2, pp.68–76, she contrasts rejection of an unexplained asymmetric fission
+outcome with acceptance of an unexplained composition fact when alternative
+answers to the Problem of the Many have unacceptable theoretical costs. This
+is a proposed comparison of justified responses, not an undisputed metaphysical
+counterexample. The dilemma depends on those responses and their relevant
+similarity. She records objections based on other solutions to the puzzles,
+transworld identity/counterpart assumptions, and differences in modal status
+(pp.73–75). Her contingency arguments are not defended against every such
+objection. These premises must remain open if formalized.
+
+**Crucial scope control.** T2, the contingent composition fact, can be explained
+by a composition rule plus actual circumstances. T3 is the residual selection
+under the full relevant circumstances, arrangements, histories and other
+nonhaecceitistic features (§2, pp.70–72, especially n.18). T3's necessity or
+contingency is disputed. Replacing T3 with T2 would turn a proposed unexplained
+rule/selection into an ordinary contingent explanandum and overstate the case
+against contingent PSR. Failure of the inductive defense is explicitly
+compatible with endorsing contingent PSR (p.68).
+
+**Positive rival and its own debt.** In §3, pp.76–79, EP treats explanatory
+power as a truth-tracking theoretical virtue: other things equal, greater
+explanatory power favors a theory. Other costs can override it, analogously to
+ontological parsimony. This explains how differing choices might be justified
+without a universal ontic coverage principle. It is not an unconditional rule
+that the most explanatory theory is true. Kleinschmidt acknowledges that the
+justification of EP itself remains to be explained (p.78), notes induction
+worries without resolving them, and expressly denies having shown that no PSR
+is true or that existence has no explanation (pp.78–79). Thus neither EP's
+truth-tracking nor an actual brute concrete foundation is established here.
+
+**Integration and next discriminator.** The existing bridge ladder establishes
+conditional consequences once its hypotheses are supplied. The source test
+adds no proof of any hypothesis. To defeat this rival, a PSR defender must show
+why the relevant justified explanatory practice needs universal coverage,
+rather than defeasible EP, or give an independent defense of coverage that
+survives her objection. To defend EP, the rival owes a truth-tracking account
+and a principled account of overriding costs. Neither side may define its
+preferred explanation standard into victory. Even successful fact-level
+coverage would leave the concrete-support and actual-grounding foundation
+obligations in the integration note open. No root premise is discharged, no
+Lean theorem is changed, and no new source claim is created merely to record
+this research attempt.
+
+**Rejected source shortcuts.** Direct Della Rocca *PSR* witnesses were sought
+at the publisher's `3521354.0010.007.pdf`, publisher download endpoint, and
+PhilPapers `DELPSR.pdf`; all returned HTTP 403. The Handle witness was
+inaccessible and a guessed course `mdr-psr.pdf` returned 404. Search snippets
+were not read as source evidence. The direct author reading remains open;
+Kleinschmidt's bibliography gives the research locator *Philosopher's Imprint*
+10(7), pp.1–12, and Pruss 2006 chapters 16–17. These references are leads, not
+claims that those texts were consulted.
