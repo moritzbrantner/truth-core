@@ -681,3 +681,67 @@ source locators and the existing actual-presence/concreteness/support interfaces
 kept open. This is more precise than asking q.3's already transcribed causal
 conclusion to establish `EveryContingentGroundedAt` unaided. No premise is
 discharged by the source audit.
+
+
+### Concrete-underived composition (#487, #495, #542)
+
+`NECESSARY-CONCRETE-UNDERIVED-COMPOSITION` connects the actual-grounding route
+to modal underivedness without adding necessary population as a fresh premise.
+Its Solution imports and applies
+`TruthCore.Results.Causality.NecessaryRootFork.necessaryConcreteOfActualGrounded`
+and `TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks`.
+It does not re-prove their descent arguments or change either Challenge.
+
+The exact premises are concrete actual population, well-founded actual concrete
+grounding, grounding of every actual contingent concretum, reflexivity at the
+selected actual world, no contingent existing concrete supporter of a necessary
+concrete target, well-foundedness of the union of necessary-concrete support
+arrows from all admitted worlds, and explicit excluded middle. The first three
+plus excluded middle produce necessary concrete population. The remaining
+modal-grounding conditions then produce a concrete underived witness.
+
+**Carrier interface, not a new metaphysics.** `concreteOntic` restricts the
+existing `Profile` roster to `{b // m.concrete b}`. Accessibility and existence
+are inherited; `concreteSupport` restricts the SAME selected `m.grounds` relation.
+Generic `Ontic.Causes` remains separate. This prevents a tempting invalid
+shortcut: forgetting concrete status, obtaining an underived candidate in the
+full roster, then assuming that candidate is concrete. The underived witness
+need not be the particular necessary witness first obtained by actual descent.
+The result retains concreteness of the finally selected witness.
+
+The type concludes
+`∃ b, concrete b ∧ ExistsAt w b ∧ NecessaryAt ontic w b ∧
+  ∀ v a, concrete a → ExistsAt v a → ¬ grounds v a b`.
+Necessity ranges over accessible worlds; the absence of incoming concrete
+support ranges over ALL admitted worlds, as in the reused underivedness theorem.
+The concretum may still have non-concrete support or another explanation. No
+uniqueness, intrinsic explanatory adequacy, simplicity or intellect follows.
+This is conditional proof composition, not a transcription of an open bridge
+whose consequent already states the conclusion, and not a defense of the
+metaphysical hypotheses.
+
+**Premise comparison.** Retain the necessary-concrete route's four premises;
+add actual reflexivity and the two existing modal-grounding conditions
+instantiated on the concrete subtype. Replace the generic underived theorem's
+necessary-population premise by the earlier theorem's derivation; do not claim
+its full-roster no-support conclusion. Root routes and open-root membership
+are unchanged. The new concrete instances have separate statement identities
+because their quantifiers exclude non-concrete candidates; their definitions
+explicitly identify the shared generic concepts they instantiate.
+
+**Open applicability.** Concrete is still the supplied fixed predicate. No
+source establishes that actual existential grounding has these properties.
+Ordinary causal power, PSR reason tokens, necessary facts and modal existence
+are not substituted for the selected grounding relation. Existing rotating-root
+and contingent-support controls explain why the extra hypotheses cannot be
+silently omitted from the generic route; no claim is made that those old
+controls already instantiate this exact seven-premise profile. The companion
+`NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS` gives one exact joint model: two
+worlds, a root present in both, and a contingent concrete dependent present and
+grounded only in the selected actual world. It satisfies all six nonlogical
+premises together, with a nonempty contingent domain. This is a formal
+interpretation, not a metaphysical possibility claim. Minimality/omission
+coverage for this exact composed profile remains separate work. For real-world application, defend contingent dependence,
+actual foundation, exclusion of contingent support for necessary existence,
+and cross-world union foundation independently. Neither actual-world
+well-foundedness nor no-self-production supplies the latter two conditions.

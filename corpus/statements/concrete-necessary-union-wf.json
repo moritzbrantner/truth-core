@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CONCRETE-NECESSARY-UNION-WF",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.ConcreteNecessaryUnionWF",
+  "paraphrase": "The existing union of selected world-local existential-support arrows between necessary concrete candidates is well-founded. The union includes arrows from every admitted world, not merely accessible worlds. This neither follows from actual-world well-foundedness nor requires invariant edges.",
+  "definition_ids": [
+    "DEF-CONCRETE-NECESSARY-UNION-WF",
+    "DEF-CONCRETE-SUPPORT-RESTRICTION",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

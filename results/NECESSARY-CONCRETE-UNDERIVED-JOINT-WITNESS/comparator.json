@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryConcreteUnderived.jointWitness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

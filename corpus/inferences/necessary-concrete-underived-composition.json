@@ -1,0 +1,17 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
+    "STMT-CONCRETE-NECESSARY-UNION-WF",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
+  "rule": "composition-and-concrete-carrier-restriction",
+  "meaning": "Compose the certified necessary-concrete result with the certified modal-union underivedness result on the concrete subtype. Derive a necessary concrete witness rather than assuming necessary population anew; the underived witness is concrete but need not be the initial necessary witness. Retain actual reflexivity, no contingent concrete supporters of necessary concrete targets, and well-foundedness of the cross-world necessary-concrete support union. Underived means absence of existing concrete grounds at every admitted world, not absence of every kind of explanation. Conditional composition only; no metaphysical premise discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

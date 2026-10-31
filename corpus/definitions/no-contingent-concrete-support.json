@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
+  "term": "no contingent concrete supporter of necessary concrete existence",
+  "definition": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted world is itself necessary from the selected actual world. This is the existing no-contingent-ground condition instantiated on the concrete subtype, not a restriction on non-concrete reasons or generic efficient causes.",
+  "basis": "stipulative",
+  "note": "Source-free carrier restriction/composition of the existing Profile and necessarily-underived vocabulary. This introduces no competing metaphysical sense. Concrete is the existing fixed predicate; why it applies to actual beings, the causal meaning of grounds, and the two modal-grounding premises remain OPEN. See docs/notes/ultimate-adequacy-integration-735.md, concrete-underived composition.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.NoContingentConcreteSupport"
+}
