@@ -20,6 +20,9 @@ import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution
 import TruthCore.Results.Causality.DirectEsseRootGodUniqueness.Solution
+import TruthCore.Results.Causality.DirectEsseRootGoodnessOmission.Solution
+import TruthCore.Results.Causality.DirectEsseRootPerfection.Solution
+import TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution

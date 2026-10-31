@@ -1,0 +1,22 @@
+{
+  "id": "INF-DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-GOODNESS-IS-ACTUALITY",
+    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+  ],
+  "output_statement_id": "STMT-DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+  "rule": "constructive-proof",
+  "meaning": "Import the ten-input same-root perfection result once. Its SAME n retains selected actual roothood, necessity, uniqueness, esse maximality and perfection. Goodness/actuality coextension gives GoodIn n esse from its maximum actuality. Existing Iesse establishes universal esse causation before applying the EXISTING restricted UniversalCauseTransfersPerfections to distinct effects. This gives the causal component of the existing IsSupremelyGood predicate without naming n God or assuming the unrestricted legacy transfer. All 12 inputs remain explicit supplied premises; conditional composition discharges no philosophical premise and makes no minimality claim. This concerns selected actual roots, not uniqueness of all necessary individuals or rootness in every world. InAct, GoodIn and CausesIn are supplied global dictionaries; their world correspondence, formal-or-eminent meaning and causal applicability remain OPEN. No God predicate, naming, moral perfection, omniscience, explanatory sufficiency or philosophical premise truth is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
