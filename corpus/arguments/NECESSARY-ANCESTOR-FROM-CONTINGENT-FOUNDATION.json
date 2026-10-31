@@ -1,0 +1,44 @@
+{
+  "id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "premise_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-CONTINGENT-CONE-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-SELECTED-ANCESTOR",
+  "inference_ids": [
+    "INF-NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION"
+  ],
+  "meaning": "Reuse ExplanatoryAdequacy.forced on tagged positive existence facts in the complete concrete ancestry. If no necessary ancestor existed, explicit excluded middle would make every account member contingent; local actual grounding gives each contingent member an in-account contingent reason, contradicting founded contingent descent. The resulting actual concrete necessary witness need not be a root. No non-copy, necessitation, reason-token realization, necessary population or full-cone WF premise is added.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-GROUND-EXISTENCE-FACT-ARENA",
+    "DEF-CONTINGENT-CONE-FOUNDED",
+    "DEF-NECESSARY-SELECTED-ANCESTOR",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS"
+  ]
+}

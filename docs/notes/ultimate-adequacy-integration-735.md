@@ -176,6 +176,57 @@ source claim, root closure, divine attribute or independent regress argument is
 advertised. The global borrowing-cut/WF equivalence remains the matching global
 formulation; this result reduces its required domain.
 
+### Further reduction: only contingent ancestry needs founded descent
+
+`NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION` weakens the foundation input
+again while retaining the same bare necessary-concrete goal. The required
+well-founded relation contains only contingent-to-contingent grounding arrows
+inside the selected complete actual cone. Incoming support involving necessary
+ancestors is not constrained by that premise. Once a necessary witness has been
+found, its own grounding need not be settled to establish that it exists.
+
+| Compared foundation requirement | Dependence scope | Advertised conclusion |
+| --- | --- | --- |
+| All actual concrete grounds | Every actual contingent concretum | Necessary concrete existence |
+| All grounds in one complete actual cone | Contingent members of that cone | Necessary concrete actual root ancestor |
+| Only contingent-to-contingent grounds in that cone | Contingent members of that cone | Necessary concrete ancestor; no rootness claim |
+
+This is a connection between the existing fact-level and concrete tracks,
+not a new independent inductive argument. The proof imports
+`TruthCore.Results.Explanation.ExplanatoryAdequacy.forced`. Its arena uses the
+existing `ExistenceFact.fact` constructor, with truth of `fact x` definitionally
+`ExistsAt x`; its account contains only facts of actual concrete ancestors.
+Actual ground arrows supply the admitted reason arrows. If no necessary
+ancestor existed, explicit excluded middle would make every cone member
+contingent, and local dependence would perpetuate contingent reason descent,
+contradicting the retained `Founded` condition.
+
+No arbitrary necessary fact is turned into a concrete being. The restriction
+to positive existence facts is a representation of the already chosen concrete
+roster, not a claim that every fact or explanatory reason has that form. Nor is
+`ReasonClosed` added: its non-copy clause is unnecessary for the old `forced`
+lemma and is not supplied merely to make the proof work. No necessitation of
+an effect by its reason is assumed.
+
+`FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION` exposes the logical weakening as a
+corpus edge from the earlier full-cone premise to the contingent-only one.
+`CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS` gives a fixed interpretation with an
+actual contingent selected target, local dependence and contingent-only
+foundation, while full-cone foundation fails. Two necessary individuals support
+one another and one supports the target. Necessary ancestry holds, but actual
+root ancestry fails. This checks the strict weakening and prevents inheriting
+the earlier stronger root conclusion. It is not a claim that a necessary cycle
+is metaphysically possible or an adequate explanation.
+
+Stopping this proof at a necessary witness does **not** exempt its existence
+from the owner's unrestricted working PSR. An account of that being's own
+explanation remains a further question. The result establishes neither its
+intrinsic adequacy nor underivedness, unity, intellect or divinity. Actual
+existence remains the owner-accepted starting point; the concrete application,
+local contingent dependence and remaining foundedness condition stay explicit.
+The registered root frontier is unchanged; this is a weaker sufficient route,
+not a claimed globally minimal premise set or philosophical premise discharge.
+
 ## Earlier integration and controls
 
 The new discriminator fails in **both directions**, even after granting the

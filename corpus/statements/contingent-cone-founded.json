@@ -1,0 +1,35 @@
+{
+  "id": "STMT-CONTINGENT-CONE-FOUNDED",
+  "lean_declaration": "TruthCore.Causality.ContingentAncestry.ContingentConeFounded",
+  "paraphrase": "Instantiate the existing ExplanatoryAdequacy.Founded predicate on the positive-existence arena and coneFacts account. Only reason arrows whose source and target are contingent existence facts within this cone enter the well-founded relation. Grounding involving a necessary ancestor is unrestricted by this premise; no foundation or exemption from explanation is asserted for that necessary being.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-GROUND-EXISTENCE-FACT-ARENA",
+    "DEF-CONTINGENT-CONE-FOUNDED",
+    "DEF-NECESSARY-SELECTED-ANCESTOR",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS"
+  ]
+}

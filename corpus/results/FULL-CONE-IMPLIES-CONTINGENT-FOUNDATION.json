@@ -1,0 +1,10 @@
+{
+  "id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+  "argument_id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAncestry.contingentFoundationOfFull",
+  "comparator_config": "results/FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION/comparator.json",
+  "status": "solution-present",
+  "description": "Restrict the existing full-cone well-founded relation to the contingent positive existence-fact arrows of the same complete actual-concrete ancestry. This exposes a typed corpus edge from full cone foundation to contingent-only foundation. Strictness is supplied separately by CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS; no actual instance of either philosophical premise is independently established."
+}

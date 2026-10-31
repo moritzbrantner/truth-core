@@ -1,0 +1,39 @@
+{
+  "id": "CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "inference_ids": [
+    "INF-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS"
+  ],
+  "meaning": "One fixed two-world interpretation has an actual contingent selected target, local contingent dependence, contingent-only foundation and a necessary concrete ancestor, while full-cone foundation and a necessary actual root ancestor both fail. Two necessary individuals support one another and one supports the contingent target. This separates premise and conclusion strengths; it does not establish that the necessary cycle is metaphysically possible or explanatorily adequate.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-GROUND-EXISTENCE-FACT-ARENA",
+    "DEF-CONTINGENT-CONE-FOUNDED",
+    "DEF-NECESSARY-SELECTED-ANCESTOR",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS"
+  ]
+}

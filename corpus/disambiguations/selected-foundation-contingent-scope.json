@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
+  "term": "full ancestry foundation versus contingent-only ancestry foundation",
+  "sense_definition_ids": [
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-CONTINGENT-CONE-FOUNDED"
+  ],
+  "resolution": "ConeWellFounded constrains every selected-world ground edge between actual concrete cone members. ContingentConeFounded constrains only the contingent-to-contingent arrows in the same cone, represented as tagged existence facts using the same Ontic. The former implies the latter; a necessary-cycle interpretation separates them while retaining an actual contingent target and local dependence. The weaker premise yields necessary existence, not the earlier root/underivedness conclusion. Stopping this deduction when a necessary witness is found does not exempt that witness from PSR or assert its own explanatory adequacy."
+}

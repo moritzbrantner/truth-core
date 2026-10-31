@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GROUND-EXISTENCE-FACT-ARENA",
+  "term": "tagged existence-fact representation of actual concrete grounds",
+  "definition": "Use the existing ExistenceFact.fact constructor for positive existence facts only. Truth of fact x at v is definitionally the same candidate x existing at v, and the arena reuses the original Ontic and accessibility. An admitted reason edge from fact source to fact target consists of an actual concrete target and an ActualConcreteGround from source to target at that world. coneFacts selects exactly the positive existence facts of the complete actual-concrete ancestry cone. No arbitrary necessary fact is thereby realized by a concrete individual; no claim that all philosophical explanations are these ground edges.",
+  "basis": "stipulative",
+  "note": "Reuse of the existing Profile, complete cone, positive existence-fact constructor and Founded relation, not a new ontology or source reading. This is a representation of already selected grounds, not an automatic philosophical fact-to-concrete bridge. See the contingent-only foundation section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.ContingentAncestry.existenceArena"
+}
