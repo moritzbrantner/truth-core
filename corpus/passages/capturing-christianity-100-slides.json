@@ -1,0 +1,66 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+    "source_url": "https://docs.google.com/presentation/d/1i7-6PKnoOK8EiiC1r-tt44mZK7o3nCsN2_QH_0TxxZU/export/pdf",
+    "retrieved_at": "2026-10-31T14:40:12Z",
+    "sha256": "sha256:56c16fa056ab859c927ee73efdcc2b9e6caa61074274ed91868336d09b2aba91",
+    "encoding": "utf-8",
+    "language": "en",
+    "license": "Rights reserved by presentation author; legitimately publicly shared through original video description. PDF and extracted text kept in ignored local artifacts; only locators, hashes and short incipits committed."
+  },
+  "passages": [
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-SLIDES-FOUNDATION",
+      "locator": "original presentation PDF pp.9\u201326",
+      "pdf_pages": {
+        "first": 9,
+        "last": 26
+      },
+      "text_sha256": "sha256:cb091fd691bd402bfcc2d91b81ed7bb3c22a659e870fc5a276e3eefff66ca84f",
+      "incipit": "SAMUEL CLARKE-ISH CA 1) 2) 3) 4) 5) 6) 7) There are dependent beings. For",
+      "claim_locator_prefixes": [
+        "original presentation PDF pp.9\u201326:"
+      ]
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-SLIDES-UNITY",
+      "locator": "original presentation PDF pp.206\u2013213",
+      "pdf_pages": {
+        "first": 206,
+        "last": 213
+      },
+      "text_sha256": "sha256:3a982047bc2630b260223732dd5146c59817690cba1c7bf41a745a846a1c5fe0",
+      "incipit": "UNITIES: FACTS 1) 2) 3) 4) 5) 6) 7) Facts exist and are unities of",
+      "claim_locator_prefixes": [
+        "original presentation PDF pp.206\u2013213:"
+      ]
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-SLIDES-REALITY",
+      "locator": "original presentation PDF pp.272\u2013291",
+      "pdf_pages": {
+        "first": 272,
+        "last": 291
+      },
+      "text_sha256": "sha256:4a44d4c97e8f966a4e171dfccbe15552f69ecc949c8d8dc83fd8cd202bddd12e",
+      "incipit": "INTELLIGIBILITY OF THE WORLD 1) 2) 3) 4) 5) 6) There is no plausible natura",
+      "claim_locator_prefixes": [
+        "original presentation PDF pp.272\u2013291:"
+      ]
+    },
+    {
+      "id": "CAPTURING-CHRISTIANITY-100-SLIDES-SEMANTICS",
+      "locator": "original presentation PDF pp.299\u2013302",
+      "pdf_pages": {
+        "first": 299,
+        "last": 302
+      },
+      "claim_locator_prefixes": [
+        "original presentation PDF pp.299\u2013302:"
+      ],
+      "text_sha256": "sha256:082bd9ce5b940b3f065a7274e21daf18cca16d5c3a9be7772d7f1df44ac20f02",
+      "incipit": "SEMANTIC CONTENT"
+    }
+  ]
+}

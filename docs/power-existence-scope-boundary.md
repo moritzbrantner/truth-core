@@ -638,3 +638,102 @@ Both original end Challenges are unchanged. Before/after route reports are
 byte-identical, and open-root-premise membership is identical: 11 routes,
 62 open premises (13 bare,49 sourced). No philosophical discharge is claimed.
 Final delivered-head CI retains full-library and reverse-dependency coverage.
+
+
+## Reality-correspondence follow-up: the positive illumination case (2026-10-31)
+
+This bounded follow-up to #691 reread the materialized **PLATO-PHAEDO-99**
+(full Stephanus99) and **AQUINAS-ST-I-Q104-A1-EN** (full article, objections,
+response and replies). The Phaedo witness is the existing Perseus Greek edition,
+`urn:cts:greekLit:tlg0059.tlg004.perseus-grc2`, repository
+`PerseusDL/canonical-greekLit`, revision
+`a065c359aab33c33bd17ddc2cac7d27fdc9cd870`, path
+`data/tlg0059/tlg004/tlg0059.tlg004.perseus-grc2.xml`, Git blob
+`d76020aa770f5a005e04a6ef0ae3ba60cf1faf86`. Q.104 uses the existing pinned
+New Advent Dominican English1920 translation manifest
+`corpus/passages/aquinas-summa-theologiae-q104-en.json`; no source bytes or
+attributions were changed. For context only, the existing source fetch/hash
+checker verified the full pinned Phaedo XML before extracting Stephanus98,
+and the full Aristotle Metaphysics XML before extracting V.2. The latter is
+`urn:cts:greekLit:tlg0086.tlg025.perseus-grc2`, same repository/revision, path
+`data/tlg0086/tlg025/tlg0086.tlg025.perseus-grc2.xml`, blob
+`4c03d2664d8acf43e49ce1b060d3e99f0e07c548`. These context ranges have no new
+passage records or claims; they are not advertised as newly materialized IDs.
+
+**Positive case and its exact object.** Q.104 a.1 co., the paragraph beginning
+“Therefore as the becoming”, contrasts retained heat with the loss of light
+when the illuminating action ceases. Reply4 again identifies conservation of
+light with continued illumination. This supplies a concrete causal pattern:
+an ongoing illuminating activity can account for the actual illumination of
+a subject while that activity occurs. The target of that positive example is
+the illumination, not the air's being at all. Its evidential force does not
+require endorsing the article's ancient physical explanation of why air and
+fire differ. Nor does it require claiming literally instantaneous disappearance
+of light in modern physics: finite propagation, stored excitation and other
+mediating processes require specifying the local effect and causal context.
+The reliable scope is a causally sustained state/process under specified
+conditions, rather than every light token or every substance universally.
+The article itself distinguishes the material subject from its illumination;
+reading its example as the sun giving the air bare existence would erase that
+distinction before the subsequent metaphysical analogy is argued.
+
+There are two honest applications. With air or lamp as b, illumination supports
+only a state/power claim: b can persist without that exercise, so this example
+does not establish R(c,b). With an independently individuated illumination
+episode as b, continued causal production is a candidate for a restricted
+process-domain application of R. It requires explaining which episode it is,
+when that episode exists and which activity sustains it. This is positive
+support for investigating that restricted instance, not an already verified
+assignment of the current primitive R, and not a reason to replace the domain
+of the necessary-bearer theorem with episodes silently. Such an episode's
+being generated or contingent would in particular give no necessary bearer.
+
+**Why the inference stops.** Phaedo99a–b distinguishes the genuine explanatory
+cause from that without which it could not operate;98c–99a applies this to
+Socrates's bones/sinews and his decision to remain. The source is addressing
+rational action, not proving that bodily conditions are never efficient causes
+or that all conditions are dispensable. Its relevant discrimination is narrow:
+indispensability for an action does not by itself identify the explanatory
+role for the question asked. Aristotle V.2,1013a24–1014a25, likewise distinguishes
+material, formal, initiating and final causal roles; its ending contrasts an
+actually operating builder with mere builder-capacity and explicitly permits
+the house to survive the builder. Neither text licenses replacing these roles
+with a single direct bare-existence edge. Q.104 a.1 co. itself separates removal
+of corruption, becoming and direct dependence in being, and ad2 rejects the
+builder comparison precisely because the builder is not the relevant cause
+of being. Thus these sources positively support keeping the effect and causal
+role fixed; they do not prove universal dependence on a concurrent giver.
+
+**Weak constraint available now.** In an actual causal application of R, its
+alleged recipient must actually exist in the selected situation: an absent
+recipient is not actually being conserved there. This endpoint-admissibility
+constraint is independently intelligible from the intended claim about an
+actual effect, and is weaker than asymmetry, directness, transitivity, source
+indispensability or foundation. It does not establish any R-instance and is
+not a theorem of `PresentEsseSupport m R w c b := ExistsAt w c ∧ R w c b`;
+that wrapper supplies only source presence. No code or premise record is
+changed to hide the difference. If w is a complete history rather than a
+moment, world-presence alone still supplies no temporal concurrence. This
+constraint is a requirement on a faithful application, not a new account of
+the source's metaphysical activity.
+
+The strongest reply to the illumination limitation is Aquinas's own next
+paragraph, beginning “Now every creature may be compared”: creaturely essence
+is not its existence, whereas God is being through essence, so every creature
+stands to God as illuminated air to the sun. That is a substantive proposed
+bridge, not merely an illustration. To use it before establishing God, one
+must independently defend received existence for the same bearer, the need
+for its concurrent actualization, and the source identification without
+assuming the regress conclusion. The existential-inertia rival can grant
+ongoing production of illumination while maintaining that a substance persists
+through its prior existence and absence of corruption. The reply needs to show
+why this is insufficient for that substance; changing b to the illumination
+episode answers a different question. Q.104 ad4 further excludes treating
+conservation as successive new additions, so an argument from observable
+changes alone does not settle its timeless esse-giving thesis.
+
+**Actual delta:** no new claim, definition, relation, Lean theorem or admitted
+philosophical premise. The positive finding is the defensible restricted
+state/process pattern and the endpoint requirement for actual applications.
+Bare-bearer conservation, actual existential WF, numerical unity and modal
+inheritance remain open. Intended and actual root-premise change: zero.
