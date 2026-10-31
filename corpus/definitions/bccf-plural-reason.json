@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BCCF-PLURAL-REASON",
+  "term": "plural reason",
+  "definition": "Plural W F relates a world, a class of facts and a fact: G w Xs f says that at w the facts Xs are together admitted as a reason why f obtains. PNecessitating says that at each accessible world where all Xs hold, f holds. PContrast says that at each accessible world where f fails, some member of Xs fails. PDistribution says that reasons for an aggregate are reasons for each conjunct. PartIrreflexive says that no contingent fact is among its own reasons. Each is a separate hypothesis, and none is built into G.",
+  "basis": "stipulative",
+  "note": "Analyst vocabulary for #365, because no one conjunct necessitates an aggregate. Dasgupta's talk of some facts together grounding a conjunction (DASGUPTA-MR-GROUND-CONJUNCTS) motivates the plural form, but G is the general reason relation and not his notion of ground, and PContrast is not attributed to any source. See docs/notes/bccf-sources-365.md.",
+  "lean_declaration": "TruthCore.Explanation.BCCFDerivative.Plural"
+}
