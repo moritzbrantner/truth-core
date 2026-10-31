@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NECESSARY-FACT-BOUNDARY-786",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-FACT-BOUNDARY",
+    "STMT-EXPLANATORY-ADEQUACY-CORE",
+    "STMT-EXPLANATORY-ADEQUACY-COMPARISON"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Designed positive necessary-fact extraction by composing the existing #750 forced descent lemma with explicit excluded middle. The existential identifies an actually true boxed member admitted as a reason for some contingent account member, without silently identifying that member with the original target. Composes core_necessitate for the modal cost and the existing law_closed/ground_founded interpretation for one joint no-necessary-individual control. Challenge was written before Solution; no original Challenge or explanatory relation changes. CLI fallback is used because no local service or coordinator preview is running. See docs/notes/explanatory-adequacy-750.md for the precise type/prose and philosophical boundaries. Frozen new Challenge SHA256 3b7e1581c6f97de7e8b1e068a8e9e543a5421531e97dce719a0f87c6af8d53f1. Offline corpus and generated-index checks pass. Before/after route costs and open-premise membership are unchanged (11 routes,62 open); the new certificate is off root paths. Separate research PRs #787/#788 completed review and CI and were merged while this cold import build continued; their changes do not touch the Lean dependencies. Focused new Solution build, exact corpus binding and independent Comparator/NanoDa all passed. The cold source build was intentionally stopped to restore the pinned prebuilt Mathlib cache used by CI; no toolchain/dependency change. Formal positive extraction and the single law control are verified, without any philosophical premise discharge. Lean axiom report found no axioms; tightened the Comparator contract to zero permitted axioms and reran it successfully, including NanoDa. Excluded middle is an explicit internal hypothesis, not a global classical axiom.",
+  "blocker": "Formal composition verified; explanatory coverage/adequacy, contingent-reason foundedness, metaphysical accessibility and concrete existential support remain open. No result establishes that a necessary fact is a necessary concrete bearer.",
+  "evidence": [
+    "NECESSARY-FACT-BOUNDARY",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "EXPLANATORY-ADEQUACY-COMPARISON"
+  ]
+}

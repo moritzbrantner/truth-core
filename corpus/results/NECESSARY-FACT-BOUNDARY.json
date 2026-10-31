@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-FACT-BOUNDARY",
+  "argument_id": "NECESSARY-FACT-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Solution",
+  "theorem": "TruthCore.Results.Explanation.NecessaryFactBoundary.checks",
+  "comparator_config": "results/NECESSARY-FACT-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "An unattributed composition: under explicit excluded middle, a reason-closed account containing a contingent explanandum and having well-founded contingent-reason ancestry has an actually true, necessarily true member admitted as a reason for some contingent member, and not all its reasons for contingent members necessitate. The reason need not directly explain the original target, be autonomous or lack its own reasons. The exact existing law interpretation jointly satisfies reason closure, target contingency, foundedness and this positive necessary-fact conclusion, while no individual is necessary. This derives no necessary concrete being and defends none of the explanatory or modal backgrounds. See docs/notes/explanatory-adequacy-750.md."
+}

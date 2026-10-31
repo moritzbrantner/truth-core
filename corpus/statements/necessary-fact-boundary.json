@@ -1,0 +1,21 @@
+{
+  "id": "STMT-NECESSARY-FACT-BOUNDARY",
+  "paraphrase": "An unattributed composition: under explicit excluded middle, a reason-closed account containing a contingent explanandum and having well-founded contingent-reason ancestry has an actually true, necessarily true member admitted as a reason for some contingent member, and not all its reasons for contingent members necessitate. The reason need not directly explain the original target, be autonomous or lack its own reasons. The exact existing law interpretation jointly satisfies reason closure, target contingency, foundedness and this positive necessary-fact conclusion, while no individual is necessary. This derives no necessary concrete being and defends none of the explanatory or modal backgrounds. See docs/notes/explanatory-adequacy-750.md.",
+  "lean_declaration": "TruthCore.Explanation.NecessaryFactBoundary.Certificate",
+  "definition_ids": [
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-S5-CLASSICAL-REASONING",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

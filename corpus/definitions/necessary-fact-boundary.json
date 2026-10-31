@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-FACT-BOUNDARY",
+  "term": "necessary explanatory fact for a contingent account member",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.NecessaryFactBoundary.NecessaryReasonForMember",
+  "definition": "NecessaryReasonForMember A a S means some fact r belongs to S, is true at a and every world accessible from a, and is admitted by explains as a reason for some contingent member c of S. It says nothing about a bearer of r, production, autonomy, an ancestry path from c to the original target, or absence of reasons for r. The Certificate combines conditional extraction using the existing ReasonClosed and Founded with one fixed law control having no necessary individual.",
+  "note": "A result proposition over the existing #755/#750 arena, not a new explanatory relation or account of adequate reason. ReasonClosed coverage, contingent-reason well-foundedness, metaphysical accessibility and excluded middle remain explicit open backgrounds. It inherits the semantic questions and rival tests of docs/notes/explanatory-adequacy-750.md. Ordinary meaning is a true general/background fact offered as a reason for a contingent occurrence; mathematical admitted reasons are not automatically genuinely relevant or efficient causes. No new structural property of explains is imposed or generalized to reality. The law fixture is an interpretation, not an example establishing metaphysical possibility."
+}
