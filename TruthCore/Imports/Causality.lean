@@ -50,6 +50,8 @@ import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.RootEssenceIdentity
+import TruthCore.Causality.RootIntellectWill
+import TruthCore.Causality.RootIntellectWillOmission
 import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.RootWithoutLimitingPrinciple
 import TruthCore.Causality.SelectedAncestry
