@@ -1,0 +1,9 @@
+{
+  "id": "STOPPING-POINT-MAP",
+  "argument_id": "STOPPING-POINT-MAP",
+  "challenge_module": "TruthCore.Results.Explanation.StoppingPoints.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.StoppingPoints.Solution",
+  "theorem": "TruthCore.Results.Explanation.StoppingPoints.stoppingMap",
+  "comparator_config": "results/STOPPING-POINT-MAP/comparator.json",
+  "status": "solution-present"
+}

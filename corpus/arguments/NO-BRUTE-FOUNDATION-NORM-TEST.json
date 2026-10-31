@@ -1,0 +1,26 @@
+{
+  "id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "inference_ids": [
+    "INF-NO-BRUTE-FOUNDATION-NORM-TEST"
+  ],
+  "meaning": "Tests the owner's candidate no-brute-indispensable-foundation norm: its implication, its survivors and its independence from evidence. The norm is open throughout; see docs/notes/stopping-points-746.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-RESTRICTED-SCOPE",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-STOP-TERMINAL",
+    "DEF-STOP-FOUNDATION",
+    "DEF-NO-BRUTE-FOUNDATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-BRUTE-TERMINAL-UNREASONED",
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}
