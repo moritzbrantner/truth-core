@@ -1,5 +1,10 @@
 # Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
 
+For the current necessary-root routes to the nine classical attributes, see the
+[consequence matrix](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31)
+from #826. It records exact inputs, same-witness results, omission controls and
+unresolved bridges; conditional consequence does not establish premise truth.
+
 ## Current delivery and parallel work
 
 PRs #810–[#821](https://github.com/moritzbrantner/truth-core/pull/821) are
