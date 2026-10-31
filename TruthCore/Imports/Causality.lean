@@ -59,6 +59,8 @@ import TruthCore.Causality.RootIntellectWillOmission
 import TruthCore.Causality.RootIntellectWillPureAct
 import TruthCore.Causality.RootIntellectWillPureActPlurality
 import TruthCore.Causality.RootMultiplication
+import TruthCore.Causality.RootPositiveIntellectWill
+import TruthCore.Causality.RootPositiveIntellectWillControl
 import TruthCore.Causality.RootWithoutLimitingPrinciple
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest

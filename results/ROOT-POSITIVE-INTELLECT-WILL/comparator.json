@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RootPositiveIntellectWill.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootPositiveIntellectWill.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RootPositiveIntellectWill.derive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
