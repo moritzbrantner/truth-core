@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-COUNT-TEMPORAL-POSITIVE-CONTROL-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-COUNT-TEMPORAL-FIVE-POSSIBLE",
+    "STMT-COUNT-TEMPORAL-DESCENT",
+    "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL",
+    "STMT-COUNT-TEMPORAL-POSITIVE-CONTROL"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "With explicit EM as logical input, construct a joint witness of all SIX unchanged CountTemporalNecessity assumptions. Standard Fin n injections into Fin5 supply each positive n\u22645 target. A before-time member cannot be contingent: some effects are absent and none is necessary. CauseCount restricts markers to realizable positive counts\u22645. A given n-threshold causal marker supplies n\u22645; Nat subtraction bounds give 0<n-1\u22645, so the fixture realizes the exact guarded decrement without cardinal pigeonhole or weakened first-threshold guards. Verify the one-way ever-history presence bridge, Euclidean access and actual reflexivity. Retain SAME source none with actual/necessary presence and its supplied cause-of-count5 marker, and actual contingent some0 plus the full five-target injection. No logical contradiction follows from the original six inputs merely by combining them: this positive configuration excludes an inconsistent-background victory relative to these encoded semantics. Source/application truth, causal adequacy and God remain open; no root premise discharged. Reuse audit: the existing mixed Bool/OptionBool Scenario and Bool-pair temporal fixture lack five contingent candidates, so no relabeling of those carriers can supply the advertised five injection; the new finite enlargement reuses History and the exact count vocabulary instead. No source investigation or semantic weakening. Challenge frozen SHA256 be8cd9e9fd2554a003e1b64405b603ab88de9ae44309e5be281ea3c2e8b69c89. Focused model/Challenge/Solution Lean checks passed (only expected Challenge sorry warning). Axiom probe reports exactly propext from standard Mathlib Bool.linearOrder and Nat.sub_pos_of_lt; permitted under existing Mathlib policy, with no choice or quotient axioms. Corpus and whitespace checks pass. No full build, binding, Comparator or NanoDa certification claimed; coordinator owns integration. Original zero-axiom count theorem and its frozen Challenge remain unchanged. Integration corrected the config from a propext-only allowlist to the repository-required Mathlib trio (propext/Classical.choice/Quot.sound). This changes no proof, frozen type or actual dependency: direct axiom evidence still reports only propext. Earlier corpus success preceded that final allowlist edit; final consistency is rerun by coordinator. Coordinator verification: full lake build passed (4302 jobs), binding passed (789 bound, 2 legacy pinned, zero mismatches), registered Comparator and result NanoDa passed. Independent read-only review found no unresolved correctness findings on exact joint six-input satisfaction, five distinct targets, same necessary none and actual contingent some0. Scoped library NanoDa also checked 753 dependency-closed declarations with zero typechecker errors; one axiom pretty-printer warning was retained. Final delivered-head CI/review remain separate.",
+  "evidence": [
+    "COUNT-TEMPORAL-POSITIVE-CONTROL",
+    "COUNT-TEMPORAL-NECESSARY-BEING"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-COUNT-TEMPORAL-POSITIVE-CONTROL",
+  "paraphrase": "One fixed Bool-world/Bool-time History with Option(Fin 5) candidates jointly satisfies all six original guarded temporal-count inputs (EM supplied explicitly), including five distinct contingent concrete targets and the all-earlier-times absence guard. The SAME none source is actual and necessary and has the supplied count5 causal marker. Some0 is actually contingent at world true, so necessity does not collapse this whole population. This is a stipulated finite configuration, not a metaphysically possible world or adequate causal explanation.",
+  "lean_declaration": "TruthCore.Models.CountTemporalControls.PositiveControl",
+  "definition_ids": [
+    "DEF-COUNT-TEMPORAL-POSITIVE-FIXTURE",
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
