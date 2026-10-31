@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-ROOT-WITHOUT-LIMITING-PRINCIPLE-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-ROOT-WITHOUT-LIMITING-PRINCIPLE",
+    "STMT-ROOT-ESSENCE-IDENTITY",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Consume RootEssenceIdentity.necessaryRootIdentity with its eight unchanged inputs, preserving its witness. The added simply-prior-to-actual-ground bridge excludes each distinct predecessor of that root. Component priority and a distinct component in every composite then exclude composition of this same root. Its inherited represented esse/essence identity excludes the remaining horn. Thus eliminate the existing three-way disjunction without choosing another root. Eleven total inputs; three additional obligations relative to ROOT-ESSENCE-IDENTITY, no premise discharge or minimality claim. This is a structured conditional connection, not a transcription or independent defense of any input; remaining common-nature, individuation and genuine unreceivedness/infinity bridges are unchanged. Prose/type self-sweep: conclusion is existential about the selected actual root, not every necessary individual; no modal lifting of its profile properties. Challenge frozen before Solution; focused Lean diagnostics and final integration verification are separate. No new source claim. Focused core endpoint and Solution Lean diagnostics pass, corpus consistency and whitespace checks pass. Challenge SHA256 49d87d0d390080b7989e0539e0aa7a648a118dc045d37488f4ca4326f8e49059. Shared convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Final binding, Comparator and NanoDa remain coordinator integration checks. The exact result theorem reports no axioms via Lean #print axioms. All eleven input dossiers inspected; no source reinterpretation added. Coordinator integration: full lake build passes; binding781bound/2existingpins/0mismatch; zero-permitted-axiom Comparator and independent NanoDa pass. Corpus/source-manifest and generated-import/docs checks pass. Relative to main de4869b5, existing God/Catholic/unique-root unions66/73/14 and route costs unchanged; new endpointcost10/direct11 under existing classical floor. Challenge hash49d87d0d390080b7989e0539e0aa7a648a118dc045d37488f4ca4326f8e49059 unchanged. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "evidence": [
+    "ROOT-WITHOUT-LIMITING-PRINCIPLE"
+  ],
+  "blocker": "No premise discharged. Common nature, numerical individuation and the Q7 unreceivedness/infinity interpretation remain open."
+}

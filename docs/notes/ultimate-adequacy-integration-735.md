@@ -2,11 +2,16 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#815](https://github.com/moritzbrantner/truth-core/pull/815) are
-merged. Latest merge `d8895103` passed repository CI and completed review with
-no findings. The successor's verified implementation is `fea3e6d7` on
-`research/lean-existential-self-actualization-20261031`; delivery/review is
-pending. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
+PRs #810–[#816](https://github.com/moritzbrantner/truth-core/pull/816) are
+merged. Latest merge `de4869b506cd45ce3dd9d629fd9cc6791dc7b765` passed all CI
+checks and current-head review without findings (reviewed head
+`5eb86a6ca91c3972dda750f72521e0abb3af66d7`, CI run `41222711343`). The
+successor audit commit is `b4fae115`; verified implementation `afe46c04` adds
+the eleven-input same-root three-horn connection on the same research branch.
+Full build, binding (781 bound, two existing pins, zero mismatches), zero-axiom
+Comparator and independent NanoDa passed. Publication/review remain pending.
+The new endpoint costs10/direct11; God/Catholic/unique-root unions66/73/14 and
+all existing route costs are unchanged. It discharges no philosophical premise. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
 proves equality of its represented essence/esse under eight explicit inputs,
 without genus causality, a maximum, grades or all-world modal lifting.
 No owner truth selection has been inferred; A remains explicitly accepted,

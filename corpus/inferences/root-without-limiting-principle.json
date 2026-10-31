@@ -1,0 +1,21 @@
+{
+  "id": "INF-ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"
+  ],
+  "output_statement_id": "STMT-ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "rule": "constructive-proof",
+  "meaning": "Consume RootEssenceIdentity.necessaryRootIdentity with its eight unchanged inputs, preserving its witness. The added simply-prior-to-actual-ground bridge excludes each distinct predecessor of that root. Component priority and a distinct component in every composite then exclude composition of this same root. Its inherited represented esse/essence identity excludes the remaining horn. Thus eliminate the existing three-way disjunction without choosing another root. Eleven total inputs; three additional obligations relative to ROOT-ESSENCE-IDENTITY, no premise discharge or minimality claim. This is a structured conditional connection, not a transcription or independent defense of any input; remaining common-nature, individuation and genuine unreceivedness/infinity bridges are unchanged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

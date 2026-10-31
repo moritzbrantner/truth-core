@@ -47,6 +47,7 @@ import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.RootEssenceIdentity
 import TruthCore.Causality.RootMultiplication
+import TruthCore.Causality.RootWithoutLimitingPrinciple
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest
 import TruthCore.Causality.SourceWitness

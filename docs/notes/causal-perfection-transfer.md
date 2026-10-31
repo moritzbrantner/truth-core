@@ -457,3 +457,190 @@ independent defense of q.3's causal exhaustion, efficient no-self-origination,
 or the actual-world cause/ground interface; its same-witness result is a
 conditional source composition, not universal common causality or numerical
 uniqueness.
+
+
+## Subsistent infinity after same-root essence/esse identity (#354, 2026-10-31)
+
+This bounded follow-up inspected issue#354, related results, the dossier for
+**STMT-SUBSISTENT-BEING-IS-INFINITE**, the prior unreceived-esse investigation,
+`InfinityEternity.lean`, and the new **ROOT-ESSENCE-IDENTITY** endpoint. The
+complete existing primary passages **AQUINAS-ST-I-Q7-A1** and
+**AQUINAS-ST-I-Q7-A2** were materialized and read, including all objections and
+replies, with the already materialized q.3 a.4 as immediate conceptual context.
+The q.7 Latin witness is SCTA/Leonine,
+`http://scta.info/resource/TAca84-d1e82/cod-cnLxE4`, repository
+`scta-texts/TAca84`, revision`f9065dc8ce7bc790b8c972e49ee19d661f028be6`,
+path`TAca84-d1e82/cod-cnLxE4_TAca84-d1e82.xml`, blob
+`9c97a592ff7802389e10a056a36338eb4ee1aba4`; a.1 and a.2 are respectively
+`TAca84-d1e82-Dd1e153` and `TAca84-d1e82-Dd1e356`. No source bytes, claims or
+legacy types were changed. The plurality note's earlier q.7 reading is reused;
+this section adds the exact consequences for the newly available represented
+identity endpoint and for the proposed typed limitation design.
+
+**What the source positively offers.** A.1 co., beginning with the distinction
+between matter being bounded by form and form by matter, separates two senses
+of limitation. Form perfects matter by determining its potentiality; matter
+contracts the amplitude of a received form without perfecting that form. The
+latter restriction motivates infinity as formal perfection, rather than the
+indeterminacy of unformed matter. The paragraph then identifies esse as most
+formal and applies nonreception to the divine subsistent esse. Ad2 explicitly
+excludes quantitative infinity from this application. This is substantial
+semantic structure for investigating receiver-limitation; a typed proof should
+preserve its direction and relevant act rather than replace it by any generic
+mathematical unboundedness predicate.
+
+A.2 co. makes the required **respect indexing** decisive. A created form that
+subsists without material reception can be unlimited with respect to matter,
+yet its esse is received and contracted to a determinate nature because it has
+esse rather than being its esse. It is not infinite simpliciter. Hence “no
+material receiver” cannot serve as unreceived esse, and no one undifferentiated
+Received predicate can safely collapse formal/material reception, act of being,
+and a merely represented component relation. A typed restriction witness must
+specify which act is received and which receiver restricts that act's formal
+amplitude. The domain's admitted restrictions must be justified; selecting only
+receivers as possible restrictions and then proving every restriction is a
+receiver would be definitional concealment of the proposed exhaustion premise.
+
+**The direction relevant to the new endpoint.** In the a.2 created-subsistent-
+form context, essence/esse nonidentity is the stated reason for reception and
+contraction of esse. This supports the direction from the stated nonidentity
+to reception **in that context**, not the converse from reception to nonidentity
+needed to infer nonreception from the new equality. Logically, reversing that
+conditional is not licensed. A.1's application treats divine esse as subsistent
+and unreceived together, with a back-reference to previous argument; it does
+not provide a reductive receiver relation on arbitrary values of the corpus's
+Principle sort. A.1 ad3 distinguishes subsistent unreceived esse from received
+instances without reducing the distinction to ordinary predication (God is not
+stone or wood). Q.3 a.4's existing Profile contains maps for esse and essence,
+actuality and efficient causation, but no reception or limitation field.
+Therefore `p.esseOf n = p.essenceOf n` supplies no theorem about a newly proposed
+reception relation by itself. That is a missing semantic/applicability bridge,
+not another consequence to recover by simplification.
+
+**What a useful decomposition would still have to establish.** There are at
+least three separate obligations before a typed receiver argument can replace
+the legacy premise: (1) explain why the same candidate's represented identity
+excludes genuine receipt of its esse, retaining the real act/receiver distinction;
+(2) defend that every relevant limitation of that esse's formal perfection is
+through an appropriate receiving potency, rather than merely proving that some
+ordinary limitations arise that way; and (3) give a faithful connection between
+the typed absence of such limitation and the old supplied `Infinite` predicate.
+The first is not supplied by #354's proposed receiver-exhaustion principle, and
+the third cannot be omitted because `Infinite` currently has no defining body.
+These are design obligations, not three newly admitted assumptions or newly
+registered predicates. An independent account of limitation could make the
+second a meaningful general constraint; a relation merely named LimitedBy does
+not yet provide that account. In particular, neither
+`RootMultiplication.HasLimitingPrinciple`'s three stipulated disjuncts nor their
+absence is identified with the q.7 reception account.
+
+The frozen legacy **SubsistentBeingIsInfiniteReading** is exactly
+`∀ x, esseOf x = essenceOf x → Infinite x`. Applying it to the newly proved
+same-root equality is a valid conditional application, but it would retain the
+very open premise under investigation, and would not discharge #354. Likewise,
+defining a new word for absence of receiver-limitation does not prove the old
+primitive Infinite parameter. Preserving the legacy interface while revealing
+its missing semantics is more informative than another wrapper theorem.
+
+**Disposition.** No proof file, new relation framework, model or philosophical
+premise was added. The positive source finding is the distinction of perfecting
+material determination from contracting formal reception and the explicit
+a.2 separation of immaterial-form infinity from esse infinity. The new root
+identity is a concrete prerequisite for the investigation, but a source-faithful
+identity-to-nonreception bridge, receiver-exhaustion defense and old-Infinite
+semantic adapter remain unresolved. No independent modal identity law,
+numerical unity, God naming or root-premise discharge follows. Exact premise
+change from this audit: zero. A subsequent implementation should wait until
+these obligations have content that improves the actual route, rather than
+renaming the old equality-to-Infinite implication.
+
+
+### Reception, real constitution and actualized receptive potency (2026-10-31)
+
+A further source test asks whether the SAME root's noncomposition could exclude
+esse reception without inferring nonreception directly from equality of the q3
+maps. Existing reception findings in `necessary-simple-plurality.md` and the
+four-composition-senses audit were read first. The full existing primary
+**AQUINAS-DE-ENTE-C3-4** witness and complete **AQUINAS-ST-I-Q3-A7** were then
+materialized and read. The De ente witness is the Corpus Thomisticum Baur/Koch
+chapter numbering, capp.3–4, anchors**[69874]–[69875]**, pinned source URL
+`https://www.corpusthomisticum.org/oee.html`, response SHA256
+`4fbd17e8136d920cd929f7b67fca45693f15eccdf4db7495bd16f9bcca119bb7`, selected
+text SHA256`eb7b620a51a79ede558a09af15b41264707a14cf6f6e7af009547a20ebf78114`.
+The unchanged `aquinas-de-ente-c3-4.json` manifest retains encoding and selectors.
+Q.3 a.7 is the existing SCTA/Leonine q.3 snapshot at revision
+`f9065dc8ce7bc790b8c972e49ee19d661f028be6`, blob
+`9204053aec597c5ea95b77543135e641ce4cfdeb`, XML section
+`TAca84-d1e61-Dd1e1553`. No source claim was introduced.
+
+**Positive explicit passage.** In De ente c.3[69874], after the paragraphs on
+essence/esse distinction, external efficient causation and reduction to esse
+tantum, the paragraph beginning with the general assertion that whatever
+receives something from another is in potency with respect to it identifies
+the received item as the recipient's act. Aquinas applies this to an intellectual
+substance's quiddity receiving esse. He then distinguishes this act/potency
+constitution from matter/form constitution, limits the vocabulary's univocity
+between intellectual and bodily cases, and in the following explanation relates
+the quiddity/intelligence to that-which-is and its received esse to that-by-which
+it subsists. This is an explicit account of received esse as constitutive
+act/potency, not an inference from the occurrence of two words. C.4[69875],
+the second mode of having essence (created intellectual substances), adds that
+the received esse is limited to the receiving nature's capacity while the
+quiddity remains unreceived in matter. These passages supply a stronger positive
+basis for investigating reception-to-real-constitution than q.7's analogy alone.
+
+**The actualized-potency distinction is indispensable.** Here the recipient is
+a presently subsisting intelligence, with received esse as its act, yet the
+quiddity is potential *with respect to that received esse*. This is receptive
+potency in an already actualized constitution. It cannot be silently assigned
+to the corpus's legacy `InPotency n esse`, whose current gloss is able to have
+the respect without actually having it and whose same-respect non-simultaneity
+is imposed alongside `InAct`. The existing-world interface simultaneously gives
+`InAct n esse`. Applying the old not-both law to the recipient qua receptive
+principle and to the subject qua actually existent would collapse these
+respects/roles and spuriously exclude the ordinary actual received beings the
+source is describing. The source's general receiving-from-another-to-potency
+conditional is a sourced reading to investigate; its applicability to a
+particular actual receipt is not established by calling that candidate a
+receiver. No new direct receipt-to-legacy-potency bridge is adopted here.
+
+**What noncomposition can and cannot do.** If an independently specified esse
+receipt really constitutes its bearer from an actualizing act and a receiving
+potential principle, and that constitution falls under the SAME `Composite`
+excluded for the root, noncomposition rules it out without needing the legacy
+same-respect not-both law. This is a promising choice of proof route. Its
+philosophical work is to establish the genuine constitutive distinction and
+map that constitution into the existing Composite predicate, not merely to
+name a relation Reception. The already recorded
+**STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS** supplies only two inclusion
+clauses: matter/form constitution implies Composite; represented esse/essence
+nonidentity implies Composite. It contains no reception relation and supplies
+no converse. Q.3 a.7 co., fourth proof, says a composite has act and potency
+(one constituent actualizes another, or parts are potential relative to the
+whole); this direction alone does not prove that every pair of conceptual
+act/potency descriptions is a real composite.
+
+There is a further source-order restriction on treating the De ente passage
+as an independent exclusion. C.3 has already established the essence/esse
+nonidentity of the intellectual substances under discussion before deriving
+their reception and explaining its act/potency constitution. Its concrete
+application therefore does not independently prove, against an arbitrary
+proposed identity-bearer, that ANY alleged receipt must introduce a real
+distinction. The general receiving-from-another conditional supports the
+receptive-role analysis; a universal receipt-to-real-composition rule for the
+new candidate still needs faithful semantics and defense. C.4's later
+whole-quiddity account of genus/differentia reinforces the limit: conceptual
+classification of an immaterial nature is not by itself two real constituents.
+Nor is receipt *from another* automatically identical to every use of receipt
+*in something* in the q.7 limitation argument; causal origin and internal
+receiving constitution must be kept distinct until their connection is argued.
+
+**Bounded result.** The positive finding changes the design: test actualized
+receptive constitution against noncomposition, rather than using ordinary
+unactualized potency plus not-both to manufacture a contradiction. It does not
+yet remove an independent burden. The missing identity-to-nonreception step
+could be replaced by a reception-to-real-constitution applicability step, but
+has not been discharged. Receiver-exhaustion for all relevant limitations and
+the old primitive-Infinite semantic adapter remain separate obligations.
+No new framework, source claim, proof file, model or philosophical premise was
+added; no modal invariance or numerical unity follows from this reading.

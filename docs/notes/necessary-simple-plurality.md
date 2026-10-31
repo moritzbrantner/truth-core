@@ -1326,3 +1326,83 @@ At-most-one IsGod alone does not exclude plural sources outside that predicate.
 This is adversarial diagnosis requested by the owner, not source testimony or
 independent proof authority. No premise truth, axiom, model or closure flag was
 changed; the owner has not yet selected ledger truths beyond the existing A.
+
+
+### Root essence identity: exact three-horn connection, not numerical unity
+
+The bounded follow-up inspected `RootEssenceIdentity.identityOfActualRoot` and
+`NecessaryRootEssenceIdentityAt`, then the exact existing
+`RootMultiplication.HasLimitingPrinciple`, `uniqueFromUnlimitedNature`,
+`ConstitutiveNatureUniqueness.checks`, and `Q11NatureUniqueness.godIsOneFromNature`
+interfaces. Related discovery and the root-identity dossier were consulted.
+No new source reading, countermodel or Lean declaration is introduced here.
+
+The new identity result supplies **one same actual necessary selected root n**
+with `p.esseOf n = p.essenceOf n`, under its eight explicit inputs. Its
+`identityOfActualRoot` helper can also be applied separately to any supplied
+actual root, but only under the same actual-existence/esse, direct esse-ground,
+q3 causal-dichotomy and essential-self-cause-exclusion premises. The audit does
+not declare that every real root has this identity without those commitments.
+
+There is a useful exact connection to the existing three-disjunct proxy:
+
+```
+HasLimitingPrinciple Composite Prior p.essenceOf p.esseOf n
+  := Composite n
+   ∨ p.esseOf n ≠ p.essenceOf n
+   ∨ ∃ y, y ≠ n ∧ Prior y n
+```
+
+The root-identity result eliminates the **second** horn. Firstness of the same n
+eliminates the third; noncomposition of that same n eliminates the first. The
+latter two facts can be derived from existing simple-priority-to-actual-ground,
+component-priority and distinct-component premises. No purity-of-act,
+every-perfection, common-nature or individuation premise is needed for this
+three-horn exclusion. Starting with the eight root-identity inputs, those three
+structural premises give an eleven-input route to this negative proxy endpoint;
+this is an inspected composition outline, not a newly verified theorem or a
+minimal-bundle certificate. Its `Composite`, `Prior`, `essenceOf` and `esseOf`
+must be the aligned predicates/maps, not unrelated assignments from another
+witness package. Proving absence of these three represented limiting principles
+does not establish that the proxy exhausts every philosophically possible
+limitation.
+
+That connection does **not** complete the existing uniqueness argument.
+`RootMultiplication.uniqueFromUnlimitedNature` still requires
+STMT-UNLIMITED-BEINGS-SHARE-NATURE and the individuation/suppositum-nature
+interfaces, and its advertised domain is first unmoved movers. An actual root
+is not automatically an outgoing mover. The generic Q11 theorem can use an
+explicit actual-root candidate predicate instead, but its numerical common
+nature, injective individuating basis and suppositum/nature agreement remain
+additional commitments. `ConstitutiveNatureUniqueness.checks` additionally
+requires its every-perfection, complete constitutive-content and same-act
+alignment interfaces on the first-mover domain. Essence/esse equality supplies
+neither those positive perfections nor the domain correspondence.
+
+In particular, individual equalities `esseOf n = essenceOf n` and
+`esseOf m = essenceOf m` imply no cross-individual equality `esseOf n = esseOf m`
+or `n = m`. Q3's common `Principle` sort does not assert a common numerical
+esse, injectivity of either map, or identity of a represented principle with its
+bearer. Choosing `suppositumOf := esseOf` would at most reuse the individual
+identity as a suppositum/nature equality; injectivity and common nature would
+still need independent warrant and a faithful interpretation of that choice.
+It is not a way to obtain individuation for free.
+
+For issue #354, the existing `SubsistentBeingIsInfiniteReading` has exactly the
+type `∀ x, esseOf x = essenceOf x → Infinite x`. Applying it to this same n is a
+valid one-step conditional composition, but the primitive `Infinite` predicate
+then adds no independent proof that equality entails unreceivedness. The q3
+`Profile` has no receiver/receivedness field. Its equality alone is therefore
+not a proof term for an independently defined unreceivedness relation, nor for
+common esse or numerical unity. The source fidelity of that identity-to-infinity
+reading is handled by the separate q7 audit, not silently repaired here.
+
+**Actual premise comparison:** root identity retains its eight inputs. The
+three-horn connection would add the three existing priority/component premises;
+no missing uniqueness premise is discharged. The infinity application would
+retain its existing open bridge and is not independent case progress. Best next
+action: use the identity result to remove the essence/esse-nonidentity horn in
+the current argument, then independently investigate common-nature/exhaustive
+limitation or source-backed unreceivedness. Do not add an identity/injectivity
+or universal-source bridge merely to force uniqueness, and do not create another
+omission model for a separation the existing plurality controls already record.

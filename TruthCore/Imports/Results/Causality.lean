@@ -65,6 +65,7 @@ import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
+import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
 import TruthCore.Results.Causality.SelectedAncestry.Solution
 import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
