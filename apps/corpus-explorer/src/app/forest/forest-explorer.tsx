@@ -97,11 +97,10 @@ function ConclusionTree({
 }
 
 function Counterfactual({
-  statement, onCompare, onSelect,
+  statement, onCompare,
 }: {
   statement: ForestStatement;
   onCompare: (id: string) => void;
-  onSelect: (id: string) => void;
 }) {
   return <section className={styles.treePanel} aria-label="Hypothetical negation">
     <div className={styles.panelHeading}>
@@ -118,7 +117,7 @@ function Counterfactual({
         <p>Recorded downstream arguments. This is dependency reach, not a count of disproved conclusions.</p>
         {statement.directConsequences.length ? <ul className={styles.compactList}>
           {statement.directConsequences.map((child) => <li key={child.id}>
-            <button onClick={() => onSelect(child.id)} type="button">{excerpt(child.paraphrase, 88)}</button>
+            <Link href={"/statements/" + child.id}>{excerpt(child.paraphrase, 88)}</Link>
           </li>)}
         </ul> : <p>No direct dependent conclusion is recorded.</p>}
         {statement.totalDirectConsequences > statement.directConsequences.length ?
@@ -198,7 +197,8 @@ export function ForestExplorer({ model }: { model: ForestModel }) {
   }
 
   function chooseGoal(id: string) {
-    change({ goal: id, sel: id, flip: null, open: null });
+    change({ goal: id, compare: compare === id ? model.roots.find((root) => root.id !== id)?.id ?? id : compare,
+      sel: id, flip: null, open: null });
   }
 
   if (!selectedStatement || !model.statements[goal]) {
@@ -235,8 +235,7 @@ export function ForestExplorer({ model }: { model: ForestModel }) {
         selected={selected} expanded={expanded} onSelect={(id) => change({ sel: id })}
         onToggle={toggle} />
       {flipped ? <Counterfactual statement={selectedStatement}
-        onCompare={(id) => change({ compare: id, flip: null })}
-        onSelect={(id) => change({ sel: id })} /> :
+        onCompare={(id) => change({ compare: id, flip: null })} /> :
         <ConclusionTree model={model} id={compare} title="Compared conclusion"
           subtitle="A separate recorded claim; not automatically the negation of the primary goal."
           selected={selected} expanded={expanded} onSelect={(id) => change({ sel: id })}
