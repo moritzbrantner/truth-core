@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LENDING-DESCENT",
+  "term": "lending descent, chain, regress and circle",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Descent",
+  "definition": "Descent m I e D says e is in D, each member occurs and has an actual lender, and D is a #734 Trap for I over the actually lending records. Chain m P e f is a sequence from e through events satisfying P, each next event a contributor of an actual lender of the previous one. Regress is such a chain that is injective; Circle is one that revisits an event.",
+  "note": "Analyst structure. A Chain follows one contributor per step, while Supply needs all contributors of a record; a Regress or Circle alone is not asserted to be a Descent. No clause says a descent is impossible, and the fork does not select a branch. DEF-DERIVATIVE-JOINT-SUPPLY gives the Trap it reuses."
+}
