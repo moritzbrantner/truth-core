@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-CHOICE-MARKS",
+  "term": "marks of a choice; personal stop",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Marks",
+  "definition": "Marks is a bundle of four structural conditions: pro tanto reasons at a and its accessible worlds, two distinct base reasons ranking some pair oppositely at a, an act between a true base reason and each true field member and true at an accessible world only with it, and an admitted base reason true at an accessible world lacking each contingent field member. PersonalStop: some base member is the existence fact of a bearer with a supplied uninterpreted flag.",
+  "note": "Marks collects conditions offered for choosing and is not an analysis of personhood; these four are what was tested. PersonalStop names its expected satisfier, so it is a circular control in the role of BeingStop. See docs/notes/explanatory-symmetry-742.md."
+}

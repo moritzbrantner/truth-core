@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-EXPLANATORY-SELECTION",
+  "term": "selecting an outcome",
+  "sense_definition_ids": [
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-ENABLES"
+  ],
+  "resolution": "'Selects this over that' has three formal senses here. ContrastRelevant: a reason false at the rival. Pro tanto or net selection: a reason, possibly true at the rival, favours this over that, with net selection also requiring that no true base member favours that over this. Enabling: lacking the reason, the outcome is lacking. They are separate conditions, and no step passes from one to another. A necessary reason fails the first, can meet the second, and meets the third vacuously. Necessitation is a further sense, kept apart by DISAMB-PSR-REASON-NECESSITATING; the core derives a bar on contingency in the field and does not assume necessitation."
+}

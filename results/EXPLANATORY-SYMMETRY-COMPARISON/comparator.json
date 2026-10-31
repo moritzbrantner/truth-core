@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ExplanatorySymmetry.comparison"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

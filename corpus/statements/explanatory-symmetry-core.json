@@ -1,0 +1,21 @@
+{
+  "id": "STMT-EXPLANATORY-SYMMETRY-CORE",
+  "paraphrase": "No frame has two worlds a and v that agree on the truth of the whole base, with base-fixed favouring, net selection at both, a field member true at v, at most one field member true at a, and a field member f true at a and false at v. If the base is true at a and its accessible worlds, favouring is base-fixed, and those worlds all have net selection and exactly one true field member, then no field member is contingent at a. No member says that a reason necessitates. For the first bundle, one named model each keeps the other members and refutes the deleted one: reasons that vary with the outcome, favouring settled by the outcome, one ranking of outcomes with either world designated (two models of one frame), the #755 necessary ground with no rival-outcome fact, overlapping outcomes, a target outside the field, and #750's no-rival model for each of truth at a and falsity at v. The core forces rejection of at least one member and chooses none.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Core"
+}

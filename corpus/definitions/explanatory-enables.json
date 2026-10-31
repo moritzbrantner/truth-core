@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-ENABLES",
+  "term": "modal enabling",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.EnablesNonvacuously",
+  "definition": "Enables at a: every accessible world lacking r lacks f. EnablesNonvacuously adds that some accessible world lacks r.",
+  "note": "A modal reading of difference-making, stipulated to test it. It is not a counterfactual semantics and not causation. See docs/notes/explanatory-symmetry-742.md."
+}
