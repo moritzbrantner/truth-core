@@ -2,36 +2,31 @@
 
 ## Current delivery and parallel work
 
-PRs [#810](https://github.com/moritzbrantner/truth-core/pull/810),
-[#811](https://github.com/moritzbrantner/truth-core/pull/811) and
-[#812](https://github.com/moritzbrantner/truth-core/pull/812) are merged;
-#812 is `22e1cfe8`, after green repository CI and review with no findings.
-The successor's verified implementation is `878f9939` on
-`research/lean-existential-self-actualization-20261031`; delivery/review is pending.
-It adds the four alternate direct-esse compositions below, using already existing
-typed actuality and esse-cause/ground interfaces. Registering the latter as an
-open statement is no proof of it. No philosophical premise truth is discharged.
+PRs #810–[#813](https://github.com/moritzbrantner/truth-core/pull/813) are
+merged. The latest merge is `cd302bf9`; #813 passed repository CI and completed
+review with no findings. The successor's verified implementation is `067fe19e`
+on `research/lean-existential-self-actualization-20261031`. Its one result is
+explicitly **structural assembly/transcription**, not a new philosophical
+argument: it connects existing GodExists, GodIsOne and GodHasClassicalAttributes
+to the existing one-witness stage-one/two endpoint. Delivery/review is pending.
+No philosophical premise truth is discharged.
 
-Parallel work tested premise minimization, existing actual-existence/esse
-semantics, and independence of the unity families. The earlier nine-premise
-unity result is a **derived common-source** mechanism, not an independently
-warranted plural-foundation refutation merely because it differs from Anselm's
-through/self-power interface. The new direct route can cover actual contingent
-recipients too, at the cost of its expressly retained broader actual-target
-correspondence. Efficient production, constitutive dependence and mere causal
-correlation are not thereby identified. Source presence and concreteness are
-conclusions of that interface, not hidden antecedents already established by
-ExistingInActAt.
+Three bounded audits accompany that wiring. An existing lifting theorem already
+preserves the very same necessary root into named all-world underivedness, but
+retains two explicit strong transport/concreteness interfaces. Joint Supply is
+constructively available only after a complete group's contributors are supplied;
+partial common-ground coverage alone supplies no such certificate. Finally,
+frontier inspection found that GodIsOne had no argument-level consumer, while
+older attribute/witness proofs called an older uniqueness proof internally.
+The new assembly makes independent uniqueness proofs consumable without changing
+the designated Catholic root route merely to improve a score.
 
-The next philosophical work remains independent warrant and real application of
-selected grounding, simple priority, convergence/maximum and perfection
-principles. The bounded source/reuse audit found ExistingInActAt already suitable
-for the actual root, but no generic reverse map from arbitrary InAct to actual
-existence. Thus the recipient-wide actuality-to-being premise remains explicit.
-A prior being in act need not currently exercise actualization; no hidden
-EveryPotencyActualized assumption is introduced. The owner-correction ledger
-below records the existing working commitments once without turning them into
-new axioms or closure flags.
+Next work should defend or instantiate the retained philosophical interfaces and
+identify an independently adequate complete contributor group, rather than add
+another modal countermodel or duplicate the already-proved lifting. Existing
+source/type, common-source-family and actual-world/esse distinctions remain in
+the linked notes and attempts. The owner-correction ledger below remains working
+context, not a new axiom or closure flag.
 
 ## Accepted starting point
 
@@ -252,6 +247,59 @@ NanoDa for all six results. Source manifests, existing bundle audits and
 imports/docs generation pass. Research source/type correction is preserved in
 `power-existence-scope-boundary.md` and its existing attempt; all retained
 philosophical applicability questions remain explicit.
+
+## Modular assembly and the remaining scope boundaries
+
+`CLASSICAL-GOD-ASSEMBLY` consumes the existing three propositions
+STMT-GOD-EXISTS, STMT-GOD-IS-ONE and
+STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES, then preserves one same witness in
+STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS. Any of the already verified
+existence/uniqueness routes can supply these inputs. The primitive classical
+field is not unpacked into nine proved properties: the actual attribute
+arguments, their premises and ClassicalAttributesSuffice are still required.
+This is logical assembly/transcription, explicitly classified as such, not
+independent case progress or a premise discharge.
+
+The dependency gap was concrete: GodIsOne previously had zero argument consumers;
+it now has one. Older StagesOneTwo/ClassicalAttributesAll proofs retain their
+source calculations. The Catholic frontier's designated root_route still
+restricts reaching-root traversal to its efficient-regress route; route costing
+also chooses cheaper intermediate proofs. Those policies explain why new
+GodExists/GodIsOne alternatives do not automatically change its union73. No
+policy or root designation was changed to advertise progress.
+
+Measured against #813 head `ca9a6a4f`: the unique-classical-God endpoint gains an
+assembly route of cost22/direct3, tying its old best22; its other old costs29,
+29 and31 are unchanged. Its union62→79 grows through seventeen alternate
+reachable dependencies and removes none (exact IDs in the assembly attempt).
+God/Catholic unions remain66/73 and their complete route reports are unchanged.
+Full build4281jobs, binding778bound/two existing pins/zero mismatches, zero-axiom
+Comparator and independent NanoDa pass. Corpus/source checks, bundle audits and
+generated imports/docs pass.
+
+**Same-witness underivedness.** The already verified
+`UnderivedRootRoute.underivedOfNecessaryRoot` retains supplied n. Add exactly
+STMT-NECESSARY-SUPPORT-IS-PRESENT and STMT-ACTUAL-SUPPORTERS-CONCRETE to the direct
+necessary-root premises, then project to NamedNecessarilyUnderived for that same
+n. Its absence of incoming support ranges over **all admitted worlds**, not
+merely accessible worlds; its transport premise must have that scope too. No
+new WF, reflexivity, union-WF, or different necessary witness is obtained for
+free. This reuse is recorded in the existing underived-root-route attempt;
+no duplicate proof or omission model was added. Actual-root uniqueness still
+concerns w; it does not imply all-world uniqueness or outgoing coverage.
+
+**Joint supply.** `Supply.joint` can consume a complete admitted contributor
+record once every contributor has a supply certificate; group FullSupply also
+tracks enablers where present. The recorded graph's incoming contributors are
+conjunctive, not alternative one-member sufficient causes. Therefore a common
+root's partial edge to each target is not by itself a Supply proof. The
+constructive next step is a defended complete/cumulative productive group for
+one actual target, with certificates for all its members and a faithful adapter
+into the selected relation. The owner’s joint-cause observation remains exact:
+a fixed actual joint condition containing a contingent member is contingent even
+when another member is necessary. This creates no new being and does not
+remove the contingent member's remaining explanatory burden. Detailed findings
+are preserved in `power-existence-scope-boundary.md` and its existing attempt.
 
 ## Alternate direct esse-cause route: what necessity adds
 

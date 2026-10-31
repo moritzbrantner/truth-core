@@ -1103,3 +1103,86 @@ reason and the whole-roster norm remain separate. The formal route's alternate
 premise mapping improves correspondence but is no numerical evidence that more
 philosophical truth has been established. No current semantic premise is
 independently discharged by this audit.
+
+### Constructive completeness connection after common-ground coverage
+
+`DirectEsseRootRoute.necessaryRootCommonGround` preserves one necessary actual
+root n and proves `ActualConcreteGround m w n x` for each other actual concrete
+x. This is useful **common contribution coverage**, including contingent targets.
+Its proof uses genus esse-causality and the direct interface; it does not show
+that n alone supplies everything needed for x. Necessity of n's existence is
+not necessity of n's productive exercise or its particular effect.
+
+The exact reusable mechanism for a stronger conclusion is already present:
+`DerivativeJointPower.Supply.intrinsic` supplies an admitted intrinsic source;
+`Supply.joint g` then supplies an effect when **every contributor of that
+admitted record** has Supply. `ExplanatoryClosure.FullSupply` applies the same
+constructor to `allMembers h`, counting both contributors and enablers. Thus,
+for a genuine complete/cumulative productive record for x, existing supply of
+all its members immediately supplies x. This is a constructive inference rather
+than another source-extraction result. `source_path` goes in the other direction:
+Supply yields an intrinsic source/ancestral path when contributor sets are
+nonempty; it does not turn a known common source/path into Supply.
+
+There are two sharply different applications of that inference.
+
+1. **On the unchanged recorded graph.** `JointGroups.recorded` has one record
+   for each target with predecessors and makes its contributors **all incoming
+   graph predecessors together**, with no enablers. A known n→x edge makes n
+   one such contributor. To apply its joint constructor, every other incoming
+   predecessor must already have Supply too. For a one-step proof from n's
+   intrinsic supply, the exact sufficient condition is that the full incoming
+   contributor set for x consists only of supplied intrinsic sources (the
+   singleton {n} case is a special case). This is stronger than common-ground
+   coverage. Merely calling n a complete/cumulative cause does not remove other
+   edges from that record. Conversely, representing alternative sufficient
+   suppliers as separate incoming edges in this adapter makes them conjunctive
+   requirements; the adapter itself asserts no sufficiency. No graph edit or
+   identification of alternatives with jointly indispensable contributors is
+   justified by the new common-ground theorem.
+2. **On an independently warranted productive group already expressible in
+   `Groups`.** An admitted alternative record for x whose full productive basis
+   is supplied allows `Supply.joint`; other alternative records need not be
+   selected. If n alone really is the whole productive basis in that respect,
+   an appropriately evidenced singleton contributor record gives a one-step
+   derivation. For **FullSupply**, the claim must also account for all enablers,
+   or show that none is required; otherwise the source's productive Supply and
+   the explanation's FullSupply remain different. This uses the existing
+   group/constructor semantics, not a new complete-explanation predicate.
+
+The faithful additional philosophical step is consequently **record adequacy
+plus actual member supply**: the chosen record must identify all real productive
+contributors in the chosen respect and every needed enabling condition, and
+those actual contributions must be supplied in the retained standard. Genuine
+scenario sufficiency of that complete member set must be separately defended
+if an explanatory-sufficiency conclusion is intended; admission or construction
+of a Supply term is not itself a proof of that metaphysical sufficiency. A
+complete/cumulative reading can justify a record only after this work, not by
+renaming the original partial binary edge. Neither a new all-subsets WF premise
+nor a new cycle control is needed merely to state this next connection.
+
+The owner's joint-condition observation fits exactly at this point. In the
+existing `JointCondition` vocabulary, fix **the same** member set S across the
+accessible worlds and suppose all its members actually hold. If one member is
+contingent, `JointCondition.contingent` proves that the joint condition is
+contingent. `necessityEquivalence` says the fixed conjunction is necessary
+exactly when every member is necessary. Accordingly, a necessary source together
+with an indispensable contingent exercise/enabler can have a contingent joint
+full condition. Nothing here creates a new composite being out of S, forbids
+a necessary partial source, or implies that an arbitrary cause is sufficient
+alone. Supplying only a necessary bearer does not supply the contingent member
+or explain why that exercise/enabler obtains. If a **complete necessary** joint
+condition were also defended as strictly necessitating the effect, the old
+necessitation consequence would apply; the mixed joint condition avoids that
+antecedent rather than refuting the consequence.
+
+**Next constructive connection:** select one actual target and an independently
+supported complete productive group for its existence; retain n as one real
+contributor, identify any distinct contingent exercise/enabling members, and
+reuse their existing Supply/FullSupply certificates before applying the joint
+constructor. Compare the same fixed group across worlds with the already checked
+joint-condition theorem. On the unchanged recorded graph, first show its entire
+incoming set faithfully is that group; if it is not, do not market the adapter
+as a complete explanation. No new model, definition, claim or theorem is added
+by this audit, and no direct edge or constructor is advertised as independently
+establishing full explanatory completion. No premise truth is discharged.
