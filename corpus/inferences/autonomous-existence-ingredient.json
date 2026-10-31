@@ -1,0 +1,25 @@
+{
+  "id": "INF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "input_statement_ids": [
+    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+    "STMT-EXISTENCE-INGREDIENT-AT"
+  ],
+  "output_statement_id": "STMT-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "rule": "direct-proof",
+  "meaning": "Direct typed joint-record extraction: an ultimate ground with all autonomous members plus at least one existence-related member per target record yields an autonomous existence-related member in that same full ground, retaining every antecedent. No descent/WF assumption, truth, sufficient individual ingredient, actual bearer or necessary being is inferred. The strong full-ground input supplies autonomous members directly; no termination or absence-of-incoming-ground theorem is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-AT",
+    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+  ]
+}

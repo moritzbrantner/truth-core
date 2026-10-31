@@ -461,3 +461,62 @@ Before claiming reality applicability, assess the positive qualitative-ground
 proposal in note44 and justify the fact-to-bearer correspondence. Do not add
 concreteness, efficient causation or an actual support relation by fiat. This
 reduces a proposed structural demand; no existing root premise is discharged.
+
+### Direct autonomous-ground extraction: no separate descent premise
+
+The first proposed formal follow-up was a selected existential spine. A tighter
+reuse audit identifies a simpler route for Dasgupta's **strong** PSR formulation:
+§5 already provides a full ground consisting of autonomous facts. Apply §9's
+at-least-one-existence-ingredient premise to that very ground. An autonomous
+existence-related member follows directly. A separate foundation/WF or chain
+termination assumption would duplicate work already demanded by that strong
+ultimate-ground premise. This does not derive ultimate adequacy from a weak
+local PSR. A spine/descent investigation is useful only if we first replace
+the strong full-ground input by genuinely weaker local coverage.
+
+`AUTONOMOUS-EXISTENCE-INGREDIENT` freezes and checks this narrow step. Its
+exact inputs are `AutonomousFullGround h autonomous b` and `IngredientAt h b`;
+its output is `AutonomousExistenceIngredient h autonomous b`. The proof retains
+the very same full record g, all its autonomous members, and one selected
+existence-related autonomous member. It is an analyst application, not a new
+source interpretation equating the unbound prose premise with a fully justified
+relation. It does not identify a single ingredient as a complete ground.
+
+**Representation reuse.** Positive existence labels reuse the existing
+`ExistenceFact.fact` constructor. `Sum (ExistenceFact B) (Sum B O)` adds separate
+B-indexed essential-existence labels and O-indexed other facts. An essential
+label is not an essence operator, a proof of existence or a modal necessity
+claim. The generic `Groups` record is reused as a full fact-ground antecedent
+list: BOTH contributor and enabler sets enter members. `Exercise`, physical
+event occurrence, efficient causation and graph-source predicates are unused.
+The separate disambiguation prevents transferring the causal interpretation.
+No existing statement or Challenge is strengthened.
+
+`MIXED-EXISTENCE-INGREDIENT-CERTIFICATE` checks the two premises and conclusion
+on one fixed record with essential () as contributor, other () as enabler and
+positive () as target. The other label is demonstrably nonexistential and is
+retained in the same record. This is the concrete scope separation motivating
+the new source correction, not another proposed adequate alternative.
+
+**Semantic questions and remaining application.** The ordinary intended reading
+is a complete constitutive/metaphysical ground of an existence fact, not its
+temporal producer. Dasgupta's chair/particle illustration motivates the mixed
+shape but does not establish an empirical instance of autonomous ground facts;
+our Unit certificate is only a formal interpretation. Record admission is
+independent of fact truth, genuine grounding and adequacy. No structural law of
+grounding is assumed: neither irreflexivity nor transitivity nor foundation is
+needed for this direct extraction. A reader applying the result to reality must
+justify the full-record interpretation, autonomy and the ingredient restriction.
+The positive qualitative-ground proposal in note44 challenges that restriction;
+nonnecessitating explanations challenge the separate modal route. Neither is
+refuted by syntactic extraction.
+
+**Boundary of this result.** It yields an autonomous **existence-related label**,
+which may be positive or essential. It does not show the label true, identify
+it as an essential fact, obtain an actual concrete bearer, or establish intrinsic
+explanatory sufficiency. Cases where the starting fact is itself autonomous,
+and the transition from autonomous existence facts to essential existence, remain
+outside this conditional step. These are explicit remaining obligations, not
+premises silently included in the signature. The source's stronger PSR input
+is retained as open; the owner's accepted actual existence is not replaced by
+admitted fact labels. No root premise is discharged.

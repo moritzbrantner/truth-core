@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ExistenceIngredient.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExistenceIngredient.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ExistenceIngredient.mixedCertificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

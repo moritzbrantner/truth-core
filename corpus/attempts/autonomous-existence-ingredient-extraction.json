@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-AUTONOMOUS-EXISTENCE-INGREDIENT-EXTRACTION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT",
+    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+    "STMT-EXISTENCE-INGREDIENT-AT",
+    "STMT-AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "STMT-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reuse audit found that the strong source PSR already supplies a full ground whose members are autonomous. Rejected adding a redundant WF/selected-spine premise to that formulation. Direct typed extraction retains the same joint record and all members, including enablers; a fixed mixed record shows the existential ingredient need not be the only antecedent. Reuses ExistenceFact.fact and Groups data without importing causal Exercise or identifying member projection with sufficient explanation. Source and analyst statements remain separate. Both local theorem axiom reports are empty; focused module build succeeds. Final full build succeeds. Both result configs pass Comparator and independent NanoDa with zero permitted axioms; both axiom reports empty. Fresh full binding has 734 bound results,2 existing pins,0 mismatch with both new entries exact. Source/corpus/generator/diff checks pass. Root route and reaching-root reports remain byte-identical (11 routes,62 open). The formal classification of autonomous labels is not a proof that they lack incoming grounds; no such termination conclusion is advertised. Exact semantics, examples/exclusions, properties, abstraction and strongest note44 reply are in docs/notes/underived-essence-identity.md. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Strong full autonomous grounding and the ingredient requirement remain open application premises. No label truth, essential-status identification, modal necessity, actual bearer/concrete support or independently sufficient explanation is established. The directly autonomous starting-fact case is outside this step.",
+  "evidence": [
+    "DASGUPTA-EXISTENCE-GROUND-INGREDIENT",
+    "AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "MIXED-EXISTENCE-INGREDIENT-CERTIFICATE"
+  ]
+}

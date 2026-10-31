@@ -1,0 +1,10 @@
+{
+  "id": "MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+  "argument_id": "MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Explanation.ExistenceIngredient.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExistenceIngredient.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExistenceIngredient.mixedCertificate",
+  "comparator_config": "results/MIXED-EXISTENCE-INGREDIENT-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "The fixed mixed record has an essential contributor and a nonexistential enabler, both autonomous labels. Both extraction premises and the preserved-record conclusion hold despite the nonexistential member. The proof reuses extract. This separates at-least-one existential ingredient from requiring all members to be existential, with no claim of actual truth or explanatory adequacy."
+}

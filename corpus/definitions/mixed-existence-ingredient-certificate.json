@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+  "term": "mixed autonomous-ground extraction scope certificate",
+  "definition": "The fixed Unit-beings/Unit-other-facts/Unit-record model has essential () as contributor and other () as enabler, positive () as effect and admission True. mixedAutonomous holds exactly of the essential or other label. Both premises and the extracted conclusion hold while the same full record contains a nonexistential member. This is a syntactic scope interpretation, not metaphysical possibility or an actual explanation.",
+  "basis": "stipulative",
+  "note": "Typed analyst application of the independently read Dasgupta §9 premise. Not an attributed complete formalization, proof of PSR or actual grounding. Full semantics, source distinction, examples, excluded interpretations and OPEN realization/adequacy burdens: docs/notes/underived-essence-identity.md, direct autonomous-ground extraction section.",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.MixedCertificate"
+}

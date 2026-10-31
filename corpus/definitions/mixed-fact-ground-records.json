@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MIXED-FACT-GROUND-RECORDS",
+  "term": "complete joint fact-ground record",
+  "definition": "Reuse Groups as a token record, with h.members g = contributors g ∪ enablers g as the COMPLETE antecedent list. AutonomousFullGround h autonomous b requires some admitted g targeting positive b and autonomy of every member. Here autonomous is an independently supplied predicate on labels, meant for the not-apt-for-grounding status rather than literal self-grounding. Admission is an explicitly supplied ground-record interpretation, not proof of truth or sufficiency. Exercise and physical causal semantics are not used.",
+  "basis": "stipulative",
+  "note": "Typed analyst application of the independently read Dasgupta §9 premise. Not an attributed complete formalization, proof of PSR or actual grounding. Full semantics, source distinction, examples, excluded interpretations and OPEN realization/adequacy burdens: docs/notes/underived-essence-identity.md, direct autonomous-ground extraction section.",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousFullGround"
+}
