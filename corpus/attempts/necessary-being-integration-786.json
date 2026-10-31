@@ -1,0 +1,36 @@
+{
+  "id": "ATTEMPT-NECESSARY-BEING-INTEGRATION-786",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-EXPLANATORY-ADEQUACY-COMPARISON"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Audited current main 7b7174f2c3090bbedb166d0e7b5bc8da0b939596 and owner issues #786/#750, preserving open PR #782/#785 ownership. Added an eight-family map covering all nine #786 candidate arguments to docs/notes/ultimate-adequacy-integration-735.md, with exact result/conclusion/premise/inference/argument/Lean/Comparator paths, one fixed actual contingent-concrete existence explanandum and explicit semantic interfaces. Rejected counting universal closure as an independent PSR defense, epistemic demands as ontic PSR, necessary facts as necessary concrete bearers, local coverage as global selection, mathematical uniqueness as productive explanation, rootness as absolute unexplainedness, and Supply as unity. The matched ground/law reduct leaves concrete support undecided; existing necessary-root trilemma leaves contingent-root and non-well-founded horns. Separated model comparisons rather than claiming separate reliability/root controls already form one certified rival. Priorities are P2 coverage/relevance, P3 actual concrete support, and well-foundedness of that same relation, not a proved globally minimal axiom set. Root map has 11 routes and 62 open premises (13 bare,49 sourced); necessary-concrete route and its dependence/WF premises remain off designated root paths. No root/configuration delta. No new source attribution or proof certificate; next task tests P3 against existing matched controls with independently defended source interpretation. Follow-up materialized/read full q3a4/q44a1 and Oppy sections I-II/VI-VII; P3 source audit in the same note identifies contingency-to-distinct/participated-esse, InAct-to-selected-world presence, cause concreteness and efficient-esse-cause-to-selected-support as separate application obligations. Existing existence-to-InAct is one-way; q44 corpus invokes earlier subsistent-esse/uniqueness, and q44 ad2 contests necessity-to-independence. Reused recorded existential-inertia replacement rather than treating it as brute denial of PSR; modern inertia articles were not freshly read. No new historical claims or statement identities.",
+  "blocker": "No independently defended bridge from fact-level sufficient reason to actual concrete existential support is supplied; contingent dependence and actual-grounding well-foundedness remain open. Pending route-composition PRs must not be treated as merged evidence. The q3/q44 causal application specifically needs independent contingency-to-distinct/participated-esse and same-world presence/concreteness/support interpretation; next research targets the first application against intrinsic/inertial alternatives.",
+  "evidence": [
+    "PSR-SELF-APPLICATION-STANCE-MAP",
+    "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+    "PSR-STRENGTH-MAP",
+    "PSR-COLLAPSE-CORE",
+    "EXPLANATORY-CLOSURE-CERTIFICATE",
+    "HISTORY-SELECTION-CERTIFICATE",
+    "ULTIMATE-EXPLANATION-SELECTION",
+    "PATH-RELOCATION-CERTIFICATE",
+    "ULTIMATE-ADEQUACY-COMPARISON",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "EXPLANATORY-ADEQUACY-COMPARISON",
+    "EXPLANATORY-SYMMETRY-CORE",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "NECESSARY-ROOT-TRILEMMA",
+    "NECESSARY-OR-NONNECESSARY-ROOT",
+    "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+    "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+    "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+    "OPPY-2020-NATURAL-CAUSAL-REALITY"
+  ]
+}
