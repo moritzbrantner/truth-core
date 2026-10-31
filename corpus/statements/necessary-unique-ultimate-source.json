@@ -1,0 +1,36 @@
+{
+  "id": "STMT-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.NecessaryUniqueUltimateSourceAt",
+  "paraphrase": "One same bearer exists at every accessible world, is an actual ultimate through-source at the selected world, and is identical to every actual ultimate through-source there. This does not assert that every necessary individual is this bearer, that every actual target is through it, or that it lacks grounds at other worlds.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-DISTINCT-THROUGH-GROUND-PROFILE",
+    "DEF-CONCRETE-THROUGH-SOURCES",
+    "DEF-NECESSARY-UNIQUE-ULTIMATE-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DISTINCT-THROUGH-GROUND-PROFILE",
+  "term": "distinct-source through relation as selected grounding",
+  "definition": "The derived Profile preserves exactly the Context reality.ontic and a supplied concrete predicate. grounds w source target means through w target source and source ≠ target. Self-through does not become a ground edge. No actuality, adequacy, foundation or dependence law follows from this data adapter; those application premises remain explicit.",
+  "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.distinctGroundProfile",
+  "basis": "stipulative",
+  "note": "Analyst same-witness composition, not a new source reading or defense of real applicability. See docs/notes/necessary-simple-plurality.md, same-witness ancestry composition section. The supplied concreteness sense is retained; through is not silently identified with ordinary causes or adequate explanation."
+}

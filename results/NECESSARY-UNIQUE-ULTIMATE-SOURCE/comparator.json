@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.NecessaryUltimateSource.necessaryUniqueSource"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

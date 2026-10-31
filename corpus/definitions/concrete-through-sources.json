@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-THROUGH-SOURCES",
+  "term": "concrete-domain closure of through sources",
+  "definition": "For every concrete actually existing target x at w, each y with through w x y is concrete. Actuality of y is the separate SourcesActualAt premise. This domain-closure commitment is required to exclude non-concrete through-sources using a theorem about concrete grounding roots.",
+  "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.ConcreteSourcesAt",
+  "basis": "stipulative",
+  "note": "Analyst same-witness composition, not a new source reading or defense of real applicability. See docs/notes/necessary-simple-plurality.md, same-witness ancestry composition section. The supplied concreteness sense is retained; through is not silently identified with ordinary causes or adequate explanation."
+}

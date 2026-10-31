@@ -13,6 +13,7 @@ import TruthCore.Explanation.JointCondition
 import TruthCore.Explanation.JointCooperation
 import TruthCore.Explanation.LawActuality
 import TruthCore.Explanation.NecessaryFactBoundary
+import TruthCore.Explanation.NecessaryUltimateSource
 import TruthCore.Explanation.NoBruteExistence
 import TruthCore.Explanation.PSRSelfApplication
 import TruthCore.Explanation.PSRStrength
