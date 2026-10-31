@@ -922,3 +922,184 @@ claim is needed merely to repeat that distinction. Exact premise comparison:
 all five foundation/priority premises and the two pure-act premises are retained;
 no hidden current-actualization premise is added, no source commitment is
 withdrawn, and no independent truth/application premise is discharged.
+
+### Reuse finding: actual entity to esse, without a global modal promise
+
+The corpus already has the exact one-way interface needed to express actual
+entity-to-esse applicability: `STMT-EXISTING-IN-ACT-AT`, defined by
+`ExistenceActuality.ExistingInActAt m InAct esse w` as
+`∀ x, m.ExistsAt w x → InAct x esse`. Existing direct underived-essence proofs
+consume it. `NecessaryConcreteRouteBridge.ActualConcretaHaveBeing` is the same
+consequent restricted by concreteness; it is already available as vocabulary,
+not a newly established premise. Neither declaration identifies the predicates
+by definition or supplies a converse. No new statement/profile is needed.
+
+Re-materialized/read the full pinned Latin q.3 a.4, q.4 a.1 and q.4 a.2;
+inspected `DEF-ESSE`, `DEF-ACT`, `DEF-BEING-AS-ENTITY` and the existing
+existence-to-esse dossier/attempts. The positive semantic case is modest but
+real: if x is an actual entity, rather than an uninstantiated nature, merely
+possible candidate or truth-bearing sentence, x **has being**. In the intended
+Thomistic reading `esse` names that being-actual of x, not another empirical
+quality arbitrarily assigned to the candidate. An actual horse has its being;
+thinking of a possible horse does not bestow being on that horse. The interface
+therefore need not posit an efficient conserver, necessary status, or a new
+mechanism to make the semantic application intelligible.
+
+Q.3 a.4, corpus, second reason supports this role by treating esse as actuality
+of form/nature; q.4 a.1 ad 3 makes even forms actual insofar as they are, and
+q.4 a.2 corpus says perfections belong to perfection of being. These are positive
+reasons for using the same sense of actual entity/being rather than independent
+arbitrary tables. But q.3 a.4 ad 2 expressly distinguishes actus essendi from
+propositional composition/truth. Merely proving the sentence `ExistsAt w x`,
+assigning a true flag to a candidate, or interpreting it as a true negative
+proposition does not settle that it represents a real entity with esse. The
+interface is source-shaped semantic correspondence under that real-entity
+interpretation, not a theorem about every uninterpreted `Ontic` structure.
+It asserts no essence/esse identity: participated and unparticipated being
+both satisfy its having-esse consequent on the intended reading. Nor does
+having esse imply every perfection; q.4 a.2 ad 3 distinguishes an entity merely
+having being from living or wise being.
+
+The existing `NecessaryBeingHasBeing` differs in **scope and origin**. It is an
+open bridge introduced for the tertia-via modal vocabulary, not a deliberate
+claim that contingent beings lack esse. Its antecedent is `IsNecessary`, read
+as inability possibly not to be; on the arbitrary supplied frame that alone
+does not yield presence at the selected world. It may hold vacuously where
+there are no accessible alternatives. Thus `ExistingInActAt` cannot simply
+prove the universal `NecessaryBeingHasBeing` without further presence/frame
+conditions. Concreteness alone does not repair this modal issue.
+
+For the actual root in the delivered route, however, `ActualRoot m w n` already
+supplies `m.ExistsAt w n`. The convergence proof's only use of the universal
+`hHasBeing` is precisely to establish `InAct n esse`, before a hypothetical
+maximum is made to cause n's being. A witness-consuming helper could instead
+accept that consequence, obtaining it from existing `ExistingInActAt` and the
+root's independent actual presence. This preserves the same n and avoids
+requiring presence for every modally necessary candidate. It is a genuine
+available semantic reuse, not a new proof or code change in this audit. No
+strict comparison of the complete premise bundles is asserted: the existing
+actuality interface covers present contingent entities too, whereas the modal
+bridge covers its separately specified necessary domain.
+
+`hBeing : ActualityOnlyInsofarAsBeingReading InAct esse` has a separate task.
+It takes `InAct x r` to `InAct x esse` for each other bearer/perfection considered
+by the universal transfer/naming argument. It cannot start from `ExistsAt` and
+cannot be replaced just by having-esse for n. Conversely
+`ExistingInActAt` alone says nothing about an `InAct x r` token for which actual
+presence has not been established. No converse `InAct x esse → ExistsAt w x`
+is already certified by this interface.
+
+The concrete reality-correspondence burden for universal naming is therefore
+to keep all these quantifiers on one coherent reading: which roster members
+represent actual entities, what actual perfection each supplied `InAct x r`
+means, how formal versus eminent possession is distinguished in transfer,
+and whether `ComponentOf`, `CausesIn` and `IsGod` concern those same actual
+beings. On a rigid possibilist candidate carrier, perfections of absent candidates
+cannot silently become actual effects/perfections merely because `InAct` is not
+world-indexed. One may give it a selected-world reading with actual instances
+only, but that interpretation needs independent fidelity/application; the
+one-way existence-to-esse interface does not supply it. The source's distinction
+between same-ratio and eminent perfection in q.4 a.2 must also survive that
+reading, rather than equating all opposed properties literally in the source.
+
+**Four-line candidate:** Target: the already actual necessary root's having esse
+in reduced-root/naming convergence. Reuse: `STMT-EXISTING-IN-ACT-AT`, actual
+root presence, the existing witness-specific per-se/convergence helper and
+unchanged source esse vocabulary. Missing step: independently adopt the
+same-sense actual-entity reading and consume its `InAct n esse` consequence
+without a global modal-to-presence promise; separately maintain coherent actual
+scope for the other-perfection/naming quantifiers. Premise comparison: a possible
+replacement of the global modal bridge by the existing selected-world actuality
+interface, not an implementation, equivalence, independent closure, or admission
+of a new philosophical premise. All delivered theorem premises remain unchanged.
+
+**Reverse-interface reuse check.** A bounded search of existing declarations
+containing both `InAct` and `ExistsAt`, and the corresponding corpus interfaces,
+found no generic existing `∀ x r, InAct x r → ExistsAt w x` (nor an equivalent
+all-perfection presence predicate). `ActualEsseCausesSupportAt` assumes endpoint
+presence; `UnitingCausesPresent` supplies presence of a distinct cause for an
+already present target, not the presence of every bearer of a perfection.
+`ModalCapacity` relates accessible actuality to capacity, not bearer existence;
+`RespectSuffices` gives existence of an effect from a particular sufficient
+respect, not existence of the bearer of arbitrary respects. None fills this
+reverse role without new semantic assumptions. If such a universal presence
+interface were later independently defended, composing it with the existing
+`ExistingInActAt` would give `ActualityOnlyInsofarAsBeingReading` for every
+recipient. That is a valid proposed composition, not reuse of an interface that
+already exists or a discharged source premise. This audit introduces no such
+interface. Keep `hBeing` retained for the present alternate-route proposal.
+
+### Direct esse-cause correspondence: exact coverage and restricted warrant
+
+The alternate route reuses the **pre-existing**, source-free
+`NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround`:
+
+```lean
+∀ c x, c ≠ x → ActualConcrete m w x → CausesIn c x esse →
+  ActualConcreteGround m w c x
+```
+
+Target actual concreteness is an antecedent. Cause concreteness, cause presence
+at w, and the selected `grounds w c x` edge are all conclusions of this interface;
+none is silently an additional input. The same bearer x is preserved. It does
+not assert source existence in an unrelated situation, full sufficiency of this
+one cause, modality of the cause/effect, or that every explanation is efficient
+causation. Standalone DEF/STMT registration names the existing commitment; it
+does not turn it into a sourced claim or establish its truth.
+
+The old two-premise path has a different coverage profile:
+`CauseOfNecessaryBeingCausesItsNecessity` sends an esse-cause of a modally
+necessary target to a necessity-cause; then
+`NecessityCausesAreActualConcreteGrounds` makes a distinct necessity-cause an
+actual concrete ground. Their composition supplies the desired edge for a
+necessary target, even without an actual-concrete target guard in those old
+types. The direct interface also covers **actual contingent** targets, avoiding
+any reason to reinterpret their esse-cause as a cause of necessity. Conversely
+its actual-concrete guard does not cover merely modally necessary, absent or
+non-concrete candidates. These are different semantic domains, not a global
+weakening/equivalence claim. On the already actual concrete necessary root used
+by the alternate proof, both interfaces provide the same needed edge, while the
+direct one avoids the disputed necessity-causing detour.
+
+The positive restricted warrant is this: an actual **current efficient cause of
+this bearer's esse**, in the productive sense claimed, cannot be only an absent
+candidate, an abstract description of a law, or our correlated observation.
+Giving a real entity its actual being requires an actual producer; the producer
+need not be material, embodied or temporally earlier. If the selected concrete
+predicate admits real immaterial agents, actuality is compatible with that
+concreteness. An abstraction that merely states which existence assignments are
+permitted does not itself exhibit such production. This reasons from an
+independently defended productive instance, rather than inferring productive
+causation from a bare `CausesIn` label.
+
+Q.3 a.4's efficient cause of esse is a source-shaped candidate for that reading;
+q.104's being/becoming distinction shows why a ceased generator is not thereby
+a current esse-contributor. But q.3 a.4's supplied `InAct` witness is not already
+an `Ontic.ExistsAt` witness, and the texts do not automatically establish the
+chosen concrete-domain criterion. Consequently actual producer presence and
+concreteness remain real interpretation obligations of this interface. They
+are not justified by registering its name. `ExistingInActAt` helps on the
+already present target's having esse; its direction gives no cause presence.
+
+The edge correspondence requires its own shared relation meaning. If `grounds`
+is actual existential dependence broad enough to include genuine efficient
+esse-contribution, the productive cause has a positive reason to count as a
+ground: the target receives its being through that contribution, independently
+of our description. If `grounds` instead means constitutive part-dependence
+alone, efficient production is not automatically an instance; a cause need not
+be a component. Likewise constitutional support of an organized bearer does
+not itself demonstrate efficient giving of its bare esse. A mere correlation
+or modal co-obtaining has neither interpretation merely by sharing a signature.
+Thus the direct interface is a proposed inclusion between independently
+specified real relations, not their identification.
+
+Finally an admitted cause can be one indispensable contributor to a joint
+productive basis. The interface neither says that each binary ground edge is
+a full explanation nor that all required contributors/enablers are listed.
+Concluding that a root cannot receive even such a genuine contribution uses
+absence of *any* selected incoming ground, not a premise that a single
+contributor is wholly sufficient. Full explanatory completion, adequate totality
+reason and the whole-roster norm remain separate. The formal route's alternate
+premise mapping improves correspondence but is no numerical evidence that more
+philosophical truth has been established. No current semantic premise is
+independently discharged by this audit.

@@ -2,30 +2,36 @@
 
 ## Current delivery and parallel work
 
-[PR #810](https://github.com/moritzbrantner/truth-core/pull/810) is merged as
-`66468a8e`; [PR #811](https://github.com/moritzbrantner/truth-core/pull/811) is
-merged as `6653189c`. Both passed repository CI and review with no findings.
-The successor's verified Lean/corpus implementation is `6c3485f8` on
-`research/lean-existential-self-actualization-20261031`; normal delivery/review
-of this successor is pending. Its six results connect necessary-root existence
-to attributes, actual-root uniqueness, GodExists, and GodIsOne. No philosophical
-premise truth is discharged by this delivery.
+PRs [#810](https://github.com/moritzbrantner/truth-core/pull/810),
+[#811](https://github.com/moritzbrantner/truth-core/pull/811) and
+[#812](https://github.com/moritzbrantner/truth-core/pull/812) are merged;
+#812 is `22e1cfe8`, after green repository CI and review with no findings.
+The successor's verified implementation is `878f9939` on
+`research/lean-existential-self-actualization-20261031`; delivery/review is pending.
+It adds the four alternate direct-esse compositions below, using already existing
+typed actuality and esse-cause/ground interfaces. Registering the latter as an
+open statement is no proof of it. No philosophical premise truth is discharged.
 
-Three workers supplied disjoint implementation/research deltas while the
-coordinator integrated: same-witness structural attributes, numerical-root
-uniqueness, and God-existence composition, with separate source/type and frontier
-audits. The bounded backlog reread found no new unpaid inference outside those
-already recorded: latest complete-cone proposals were already implemented, and
-PSR/reality correspondence steering matches the existing obligations. No new
-omission model or duplicated cone theorem was added.
+Parallel work tested premise minimization, existing actual-existence/esse
+semantics, and independence of the unity families. The earlier nine-premise
+unity result is a **derived common-source** mechanism, not an independently
+warranted plural-foundation refutation merely because it differs from Anselm's
+through/self-power interface. The new direct route can cover actual contingent
+recipients too, at the cost of its expressly retained broader actual-target
+correspondence. Efficient production, constitutive dependence and mere causal
+correlation are not thereby identified. Source presence and concreteness are
+conclusions of that interface, not hidden antecedents already established by
+ExistingInActAt.
 
-The next philosophical work is independent warrant and real application of the
-retained selected-grounding, simple-priority, convergence/maximum and perfection
-principles. The source audit makes an important correction: a prior being **in
-act** need not currently exercise an actualization. Aquinas explicitly adopts
-broad act-priority; the limited reduction argument motivating it is not itself
-a source-fidelity defect or a hidden EveryPotencyActualized assumption. The
-separate bridge into present concrete existential grounding remains open.
+The next philosophical work remains independent warrant and real application of
+selected grounding, simple priority, convergence/maximum and perfection
+principles. The bounded source/reuse audit found ExistingInActAt already suitable
+for the actual root, but no generic reverse map from arbitrary InAct to actual
+existence. Thus the recipient-wide actuality-to-being premise remains explicit.
+A prior being in act need not currently exercise actualization; no hidden
+EveryPotencyActualized assumption is introduced. The owner-correction ledger
+below records the existing working commitments once without turning them into
+new axioms or closure flags.
 
 ## Accepted starting point
 
@@ -40,6 +46,32 @@ The concrete routes below additionally use an actual *concrete* witness and
 sometimes a specified target. Those stronger conditions remain explicit:
 existential population alone neither supplies a concrete criterion nor names
 the selected witness. No necessary being is assumed at the starting point.
+
+### Working-premise ledger for owner correction
+
+This compact ledger records the owner's existing commitments, rather than asking
+for the same arguments again. It adds no Lean axiom, self-evident marking, or
+frontier closure. Corrections should change this ledger once and propagate to
+consumers; an old omitted-premise construction alone is not a reason to reopen
+an unchanged explanatory demand.
+
+| Item | Current working status | Exact limit |
+| --- | --- | --- |
+| At least one being actually exists | Explicitly accepted as true for this investigation. | Reuse STMT-PSR-POPULATED-AT. Actual **concrete** population and a specified witness remain stronger formal conditions. |
+| Contingent existence requires an adequate explanation | Retained working explanatory demand; mere presence in one world and absence in another does not explain why. | The particular relation, concrete-domain restriction and modal frame of STMT-EVERY-CONTINGENT-GROUNDED-AT still need faithful application; this is not a license to equate every causal relation. |
+| A wholly derivative infinite structure does not justify itself globally | Retained working adequacy demand. | It does not imply all chains are finite, all subsets are well-founded, or every disconnected component has already been explained. The whole-roster restriction has selected-source-existence strength. |
+| Fixed joint conditions can be considered together | Retain the fixed-set joint modal result and the distinction between a contributor group and a new being. | A necessary member plus an actually contingent member makes that joint condition contingent under the stated shared accessible-world reading; no rigid compound substance is created. |
+| Meaningful argument presupposes determinate signification | Retain as methodological direction for first-principle/retorsion research. | It does not by itself establish universal PSR, a transcendent mind or numerical uniqueness; those bridges remain explicit. |
+| There is one unique necessary being / God | Research target, not an admitted starting premise. | Distinguish a unique selected ultimate root, at most one God, existence of God, and exclusion of every dependent necessary individual. |
+| Direct esse-causation maps into actual concrete grounding | Open semantic/application interface, not silently accepted by the word cause. | The existing typed interface includes source presence/concreteness in its conclusion and covers actual contingent targets; its truth is not established by recording or instantiating it. |
+
+The owner need only correct a row that misstates a commitment. Synthesis, reuse,
+parallel task ownership, formal verification and delivery remain the agent's work.
+For outside criticism, the most discriminating request is an exact objection to
+numerical unity: which retained premise fails, or what coherent plural-ultimate
+account actually meets the same explanatory standard? General agreement with
+theism, or consistency after dropping the question being explained, does not
+settle that inference.
 
 ## Current integration: whole-roster scope and cumulative target (2026-10-31)
 
@@ -220,6 +252,74 @@ NanoDa for all six results. Source manifests, existing bundle audits and
 imports/docs generation pass. Research source/type correction is preserved in
 `power-existence-scope-boundary.md` and its existing attempt; all retained
 philosophical applicability questions remain explicit.
+
+## Alternate direct esse-cause route: what necessity adds
+
+`ExistingInActAt` is the pre-existing one-way current-world interface
+`ExistsAt w x → InAct x esse`. An actual root supplies its antecedent directly.
+It is not a proof of global `NecessaryBeingHasBeing`: on an arbitrary frame,
+modal necessity need not itself supply actual presence. Conversely the global
+modal bridge does not cover every actual contingent recipient. Neither coverage
+is silently treated as equivalent or globally weaker.
+
+The pre-existing `EsseCauseIsActualConcreteGround` says that a numerically distinct
+cause of the supplied esse of an **actual concrete** target is itself actual,
+concrete and a selected ground of that target. Genus causality therefore makes
+any maximum a forbidden incoming ground of the selected root unless it is that
+root. The existing actualFork/actualCore arguments supply a maximum from the
+root's actual esse plus grades-to-maximum and EM. No necessity-cause predicate
+or modal-necessity-to-esse assertion is needed for this calculation.
+
+| New result | Direct inputs | Exact scope |
+| --- | ---: | --- |
+| DIRECT-ESSE-ROOT-UNIQUENESS | 8 | The same actual necessary selected root is unique. A helper also derives its direct ground contribution to every other actual concretum, including contingents. |
+| DIRECT-ESSE-ROOT-GOD-EXISTENCE | 13 | Preserve the same actual necessary first witness through full-description naming. |
+| DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY | 12 | Drop contingent dependence for the unchanged GodExists conclusion; preserve an actual first God witness without claiming its modal necessity. |
+| DIRECT-ESSE-ROOT-GOD-UNIQUENESS | 7 | At most one God, with no contingent dependence, maximum existence, God existence, or modal-necessity conclusion. |
+
+The twelve-input GodExists route retains population, whole-roster nontrapping,
+EM, priority-to-ground, genus causality, ExistingInActAt, direct esse-cause/ground
+correspondence, grades-to-maximum, recipient-wide actuality-to-being, restricted
+universal-cause perfection transfer, no-component-is-first and full-description
+naming. The thirteen-input route adds contingent dependence precisely to retain
+necessity of that same witness. The seven-input at-most-one route retains only
+population, whole-roster norm, EM, genus, ExistingInActAt, direct correspondence
+and God-to-maximality. Firstness is not needed for that universal conditional.
+The eight-input necessary-root uniqueness route uses foundation four, genus,
+ExistingInActAt, direct correspondence and grades-to-maximum.
+
+`WholeRosterFoundation.actualRootExists` factors out the original actual-root
+step from `necessaryActualRoot`; the latter’s public type is unchanged. This records
+which inference uses contingent dependence, rather than quietly carrying it
+through an existential conclusion that no longer needs it. Original frozen
+Challenges and previous theorem types remain unchanged. The new existence-only
+Challenge is separate from the thirteen-input necessary-witness Challenge.
+
+**Comparison:** replacing the former three necessity/being/correspondence
+interfaces with two actual-world interfaces changes domains. The direct bridge
+covers contingent actual targets, while the old necessity-only interfaces can
+concern candidates without actual concrete presence. Smaller counts do not prove
+a global weakening, and none is claimed. The twelve-versus-thirteen comparison
+itself genuinely removes one premise for the identical GodExists conclusion,
+while the stronger helper's modal-necessity guarantee is intentionally separate.
+Direct selected-ground coverage is not complete explanatory sufficiency or an
+exhaustive account of joint prerequisites; no such closure is claimed.
+
+**Measured against main@22e1cfe8:** GodExists adds cost11/direct12 and
+cost12/direct13; GodIsOne adds cost6/direct7; unique necessary actual root adds
+cost7/direct8 beside cost8/direct9. All existing route reports remain unchanged.
+God and GodIsOne reachable unions grow64→66 and16→18, adding exactly
+STMT-EXISTING-IN-ACT-AT and STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND, with none
+removed. The Catholic union73 and its eleven route costs are unchanged.
+No best-root-route or philosophical closure improvement is inferred from those
+counts. The semantic and unity-family findings are in the existing power/scope
+and necessary/simple/plurality notes and their linked attempts.
+
+**Verification:** full build4280jobs; binding777bound/two existing pins/zero
+mismatches; zero-permitted-axiom Comparator and independent NanoDa for all four
+new results and three affected original whole-roster results. Corpus/source
+checks, existing bundle audits, and generated imports/docs pass. Reproduce with
+`corpus.py bind-check` and `scripts/verify-result.sh <RESULT-ID>`.
 
 ## Cumulative necessary-being argument: use the established exclusions together
 

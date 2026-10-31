@@ -1177,3 +1177,112 @@ for same-sense numerical differentiation or common-nature exhaustion, with
 its candidate domain fixed, followed by actual mover coverage for the existing
 God-naming consumer. The new endpoint improves the available witness; it does
 not by itself answer the numerical-unity question.
+
+
+### Classification of the nine-premise root-unity mechanism (2026-10-31)
+
+The new **NECESSARY-ROOT-UNIQUENESS** is genuine numerical identity of actual
+concrete selected roots under its explicit bundle, but it should not be counted
+as an independently defended plural-foundation refutation. Inspecting
+`NecessaryRootUniqueness.uniqueRoot`, `maximumExistsOfNecessaryAt`,
+`NecessaryConcreteRouteBridge.necessaryRootIsMaximumOfRoot`, and the existing
+Anselm/necessary-ultimate-source interfaces exposes a common-source mechanism.
+This comparison introduces no new theorem, relation, source claim or model.
+
+**Positive reusable inference and its exact scope.** Let c be the maximum in
+esse supplied by `maximumExistsOfNecessaryAt`. The imported genus premise gives
+
+```
+IsMaximumIn InAct MoreIn esse c →
+  ∀ x, x ≠ c → InAct x esse → CausesIn c x esse.
+```
+
+For every x with `NecessaryAt m.ontic w x`, the existing
+`isNecessaryOfNecessaryAt` and explicit `NecessaryBeingHasBeing` supply
+`InAct x esse`. Under x ≠ c, `CauseOfNecessaryBeingCausesItsNecessity` then gives
+`CausesNecessityOf c x`. The separate
+`NecessityCausesAreActualConcreteGrounds` bridge gives
+`ActualConcreteGround m w c x`, using c ≠ x, the symmetric inequality.
+Thus the SAME numerical c has the following conditional scope:
+
+```
+NecessaryAt m.ontic w x → x ≠ c →
+  CausesIn c x esse ∧ CausesNecessityOf c x ∧
+  ActualConcreteGround m w c x.
+```
+
+No firstness, absence of potency, causal-grade comparison or naming premise is
+needed for this inference. With the nine-premise result's root n, the supplied-
+root convergence helper identifies c=n. Hence the common source is itself
+actual concrete, root and necessary, and the displayed scope applies in
+particular to every *other actual necessary nonroot*. It is not merely an
+identity rule for an empty domain: the full theorem separately supplies its
+actual concrete root witness. It does not, however, assert that another
+necessary nonroot exists.
+
+For any actual root x, contingent dependence and EM first exclude its
+nonnecessity. If x≠c, the displayed incoming actual concrete ground contradicts
+`ActualRoot m w x`. EM therefore identifies x=c. Applying this to n and every
+other root yields unique actual root status. The structural heart is **one
+maximum whose causal reach covers all necessary root candidates**, together
+with an interface turning that reach into the same selected grounding relation.
+Maximum existence is produced by the necessary witness's esse population plus
+grades-to-maximum/EM, rather than assumed as a unique-source flag. This is a
+useful conditional derivation; its inputs' independent truth remains separate.
+
+**The actual-contingent boundary has two layers.** Nothing in this bundle says
+`m.ontic.ExistsAt w x → InAct x esse`. Its necessary-being bridge applies only
+to the modal necessary predicate. Therefore a merely actual concrete contingent
+candidate cannot automatically enter the genus premise's causal target domain.
+If that candidate's `InAct x esse` is separately given, genus causality does
+supply `CausesIn c x esse` under x≠c; but the next transfer premise is restricted
+to necessary targets. It then supplies neither a cause-of-necessity fact nor
+`ActualConcreteGround m w c x` for this contingent. Consequently the proved
+common causal scope over necessary candidates is not selected-ground coverage
+of every actual candidate, universal ancestry, well-foundedness, a complete
+explanation of actual reality, or a prohibition of all necessary nonroots.
+No Ontic existence/actuality or causal/grounding correspondence is filled in
+by terminology.
+
+**Comparison with the existing Anselm family.**
+`AnselmUltimateSource.atMostOne` also selects a single numerical c, makes it
+relevant to every rival source candidate, then uses rootness to identify that
+candidate with c. Its load-bearing scope comes from **SharedSelfPowerAt** and
+**PowerGivesThroughAt**, after coverage gives each ultimate root a self-through
+link. Through is target-first and allows self-links;
+`NecessaryUltimateSource.distinctGroundProfile` reverses orientation and
+explicitly excludes those links when connecting to a selected root. The new
+maximum route instead obtains c by grades-to-maximum and derives its causal
+reach from genus causality, necessary-being actuality, necessity transfer and
+selected-ground correspondence. These are different explicit interfaces and
+candidate domains. There is no proved implication or equivalence between the
+original self-power bundle and the convergence/maximum bundle; the relations
+have not been identified. The existing common-self-through equivalence is
+relative to its own global availability background and does not extend to this
+new profile by analogy.
+
+The routes should therefore be grouped as **conditional common-source unity
+arguments**, with their distinct arguments and obligations preserved. The new
+route is not merely a renamed shared-power premise: it decomposes the required
+common causal reach into existing maximum and convergence commitments and
+constructs its witness. Nor does this decomposition independently vindicate
+those commitments or remove the need to defend why the very same source must
+cover the disputed candidates. Counting both conditional proofs as two
+independent exclusions of plural underived reality would overstate the evidence.
+This classification is neither an equivalence theorem nor a diagnosis of
+circularity: an explicit sufficient bundle can have independent warrant, which
+requires a further argument.
+
+**Exact premise comparison.** The nine inputs remain actual concrete
+population; whole-roster nontrapping; every actual contingent concretum grounded;
+EM; necessity-cause-to-actual-concrete-ground correspondence; genus causality;
+necessary-being-has-being; cause-of-being-to-necessity transfer; and grades-to-
+maximum. None is replaced by an Anselm premise and none is discharged. EM
+retains its existing logical status; the classification supplies no new defense
+of a philosophical bridge. Relative to the Anselm route, source actuality and
+concreteness for the common maximum ultimately follow from identifying it with
+the separately supplied actual concrete root, whereas the Anselm composition
+retains its explicit source actuality/concreteness/coverage and shared-power
+interfaces. Neither route establishes arbitrary actual-contingent ground
+coverage under the other route's relations. Root-frontier premise change from
+this audit: zero. No theorem or proof file was changed.
