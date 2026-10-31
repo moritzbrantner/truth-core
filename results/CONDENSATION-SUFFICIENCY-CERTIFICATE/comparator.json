@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.CondensationSufficiency.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.CondensationSufficiency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.CondensationSufficiency.certificate"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

@@ -26,6 +26,23 @@
       "claim_locator_prefixes": [
         "XII, lect. 7 "
       ]
+    },
+    {
+      "id": "AQUINAS-IN-METAPH-XII-L11",
+      "locator": "XII, lect. 11",
+      "html_selector": {
+        "from": {
+          "text": "Lectio 11"
+        },
+        "to": {
+          "text": "Lectio 12"
+        }
+      },
+      "text_sha256": "sha256:0db40625a282fe2ac81366440288baab9787734ed70941d3187be0c15f12c3cf",
+      "incipit": "Lectio 11",
+      "claim_locator_prefixes": [
+        "XII, lect. 11 "
+      ]
     }
   ]
 }

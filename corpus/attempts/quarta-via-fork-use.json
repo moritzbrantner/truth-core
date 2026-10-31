@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-QUARTA-VIA-FORK-USE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-QUARTA-VIA-DEGREE-FORK",
+    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+    "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-MOST-TRUE-IS-MOST-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-HOMOGENEOUS-BEING-SCALE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#719. Target premise: STMT-MOST-TRUE-IS-MOST-BEING on CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES. Exact fork consumption: strictTop composes coverage and incompatible under the fork's background plus the maximum principle. Same-background classification (scale, at-being genus, cause-more-such, grades, maximum principle, excluded middle): the unbounded horn is refuted; the strict top survives, witnessed jointly by the existing Boolean interpretation. Dropping only the maximum principle, the unbounded horn is witnessed by the existing Nat interpretation. Coverage is the certified fork; exclusivity is the certified hornsIncompatible. Rejected: routing the root through exact coverage. That would replace one open sourced premise by STMT-HOMOGENEOUS-BEING-SCALE, a stipulated contrast at odds with the analogical reading in DISAMB-BEING-UNIVOCITY, at the same cost, and would import a profile without a bridge. Inspection of coverage showed its case split needs from the scale only that the tested being has esse, so the split was relativized to beings having esse (QuartaViaUnboundedAmongActual, implied by the fork's unbounded predicate). With a being having esse supplied by the maximum principle at truth and actuality only insofar as being at truth, the relative horn is excluded and a maximum in esse exists without the truth bridge. Thus the root route consumes the relativized split and core; the exact fork theorem is consumed only off-route. Rejected: applying incompatible on the subtype of beings having esse, because comparators need not have esse and observed grade pairs need not lie in the subtype. Load shift, not free removal: the maximum principle is used at truth and in the non-flat case at esse, and actuality at truth; premise IDs do not record this. Grades of truth supply only population. In the flat case the maximum is vacuous, so it does not presuppose grades of being; genus and cause-more-such then leave at most one being having esse (flatBranch, flatMaximum). The route keeps unrestricted cause-more-such, so avoiding the scale does not make it profile-clean. Witness loss: the maximum need not be maximally true; the CrossedTops interpretation has distinct truth and esse tops with the other nonlogical premises true. No source attribution: Aquinas passes through truth (AQUINAS-ST-I-Q2-A3 materialized and read). Open: whether the maximum principle at esse and actuality at truth are faithful instances; whether the route's other premises exclude crossed tops; no worldview elimination is claimed; no #696 greatest-whole work.",
+  "evidence": [
+    "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
+    "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+    "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+    "QUARTA-VIA-DEGREE-FORK",
+    "QUARTA-VIA-UNBOUNDED-CORE"
+  ]
+}

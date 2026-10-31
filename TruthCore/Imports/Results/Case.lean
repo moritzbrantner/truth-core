@@ -12,8 +12,10 @@ import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.So
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Solution
 import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution
 import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
+import TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Solution
 import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
 import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.FromMaximeEns
 import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
 import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof

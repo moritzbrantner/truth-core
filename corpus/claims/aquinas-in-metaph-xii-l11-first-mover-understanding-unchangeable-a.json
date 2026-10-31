@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-IN-METAPH-XII-L11-FIRST-MOVER-UNDERSTANDING-UNCHANGEABLE-A",
+  "statement_id": "STMT-FIRST-MOVER-CANNOT-CHANGE-WHAT-IT-UNDERSTANDS",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "XII, lect. 11 n. 8",
+  "interpretation": "Aquinas on Met. XII.9, 1074b25-27 (the most divine thing thinks what is most divine and does not change, for change would be for the worse and would already be a kind of motion): 'patet quod non mutatur de uno intellecto in aliud; quia cum intelligat divinissimum, si mutaretur in aliud intelligibile, esset eius mutatio in aliquid indignius ... Iterum hoc ipsum quod est transire de uno intellecto in aliud, est quidam motus: unde non potest competere primo moventi, cum sit omnino immobile.' Read existentially of the first mover, whose existence the commentary presupposes (lect. 7 n. 1), as the Lambda.7 readings are: some mover that moves something and is moved in no respect cannot be otherwise in the respect of what it understands. 'Moved in no respect' is what 'omnino immobile' entails for the case's MovedIn; the modal 'immobile' (cannot be moved) is not kept. 'Non potest competere ... transire de uno intellecto in aliud' is read as cannot be otherwise in that respect (DEF-RESPECT-OF-WHAT-IS-UNDERSTOOD). For this mover the reading thus says 'moved in no respect' of every respect, willing included (from 'omnino immobile', which the text presupposes as a reason, not argues from the respects of change), and 'cannot be otherwise' only of what it understands, a respect not among the respects of change of lect. 7 n. 12 (a gloss; the Lean type leaves `understood` a parameter). It does not say that the mover cannot be otherwise in further respects such as willing, and it is existential where STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY is universal. It therefore supports that bridge (its MovedIn half in every respect, its CanBeOtherwise half for understanding only) and does not state it. Aristotle's own sentence speaks of the divine thought (νοῦς), not of the mover; it is context, not a separate claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-CAN-BE-OTHERWISE",
+    "DEF-RESPECT",
+    "DEF-RESPECT-OF-WHAT-IS-UNDERSTOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

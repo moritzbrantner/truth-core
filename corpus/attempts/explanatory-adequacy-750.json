@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-EXPLANATORY-ADEQUACY-750",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-EXPLANATORY-ADEQUACY-CORE",
+    "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+    "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+    "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Tested candidate adequacy standards over the #755 arena on one target and shared rivals. Certified that reason closure, a contingent explanandum, well-founded contingent reasons and only contingent reasons are inconsistent, with necessitating and contrast variants, and a deletion model per member of the first bundle. Rejected: a necessary-being stop as a criterion (circular: it names the satisfier; recorded as a control); modal non-copying as relevance (a true-everywhere token passes); truth-discriminating contrast as the general norm (it refuses a reason that holds at the rival and, with closure and a contingent explanandum, every well-founded account); two-way reasons as sufficient (tokens pass given a rival outcome). Excluding a brute terminus under reason closure is stipulated by its covered clause, so no independent argument against that rival was obtained. Non-theistic witnesses meet reason closure: a necessary fact with no necessary being, and a source-free chain. First draft of the chain made the target coextensive with member 0; moved the member cut so non-copy holds. Read Leibniz Monadology §§31-45 and Oppy 2020 pp.13-22; no new claim. Root delta none.",
+  "blocker": "No standard is defended. Open: how a reason true at both a world and its rival is relevant to which outcome obtains; whether a contingent stop can be excluded independently; whether explanation is well-founded.",
+  "evidence": [
+    "EXPLANATORY-ADEQUACY-CORE",
+    "EXPLANATORY-ADEQUACY-COMPARISON"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "argument_id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExplanatoryAdequacy.comparison",
+  "comparator_config": "results/EXPLANATORY-ADEQUACY-COMPARISON/comparator.json",
+  "status": "solution-present",
+  "description": "Model verdicts for reason closure, contrast relevance, two-way reasons and the circular necessary-being stop on one target and shared rivals, with non-theistic witnesses, the general token expansion and #735 overlays. It defends no standard and shows no model metaphysically possible."
+}

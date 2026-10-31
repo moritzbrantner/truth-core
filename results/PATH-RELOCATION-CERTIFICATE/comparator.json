@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.PathRelocation.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PathRelocation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.PathRelocation.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

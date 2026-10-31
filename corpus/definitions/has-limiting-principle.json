@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HAS-LIMITING-PRINCIPLE",
+  "term": "limiting principle (represented)",
+  "definition": "x is composite under the supplied Composite predicate, or its supplied esse value differs from its supplied essence value, or some being other than x is prior to x under the supplied priority relation. Exactly these three disjuncts.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple",
+  "note": "Open analyst proxy for the limiting or receiving principle in candidate UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE; not a source definition. A difference of whole essences is not by itself a limiting principle here, so the different-whole-essence rival is not excluded by naming. What would source it: a materialized passage giving an exhaustive account of limitation that independently matches these disjuncts."
+}

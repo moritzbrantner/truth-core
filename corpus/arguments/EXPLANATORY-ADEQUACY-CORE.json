@@ -1,0 +1,26 @@
+{
+  "id": "EXPLANATORY-ADEQUACY-CORE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXPLANATORY-ADEQUACY-CORE",
+  "inference_ids": [
+    "INF-EXPLANATORY-ADEQUACY-CORE"
+  ],
+  "meaning": "An inconsistency of reason closure, a contingent explanandum, well-founded contingent reasons and only contingent reasons, with necessitating and contrast variants and a deletion model per member of the first bundle. Conditional consequence only: it establishes no member, and which to reject remains open. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-adequacy-750.md.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-TWO-WAY",
+    "DEF-EXPLANATORY-BEING-STOP",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

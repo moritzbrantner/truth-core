@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-PATH-RELOCATION",
+  "term": "transition, path, law and date in the relocation test",
+  "sense_definition_ids": [
+    "DEF-PATH-RELOCATION-PROFILE",
+    "DEF-PATH-RELOCATION-LAW",
+    "DEF-PATH-RELOCATION-DATING",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "resolution": "Transition law: an undated or dated condition on adjacent states, shared by every solution. Transition token: the dated fact of one world's adjacent states, varying by world. Only the first is held fixed in the whole-vector failures; tokens jointly carry exactly the path, so their success is re-encoding, not independent selection. Determination and selection concern the dated presence extension unless a clause says SameUpToDating. Temporal edges hold within one path between dated occurrences; state arrows relate state types and may cycle; accessibility relates rival worlds and is universal in pathHistory. No result passes among these three relations. 'Selected up to dating' is uniqueness modulo SameUpToDating, not dated uniqueness. None of these certifies explanatory adequacy, actuality of a law or a necessary being."
+}

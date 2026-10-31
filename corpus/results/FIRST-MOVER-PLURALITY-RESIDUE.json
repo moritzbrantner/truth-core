@@ -1,0 +1,10 @@
+{
+  "id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "argument_id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "challenge_module": "TruthCore.Results.Causality.RootMultiplication.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootMultiplication.Solution",
+  "theorem": "TruthCore.Results.Causality.RootMultiplication.residue",
+  "comparator_config": "results/FIRST-MOVER-PLURALITY-RESIDUE/comparator.json",
+  "status": "solution-present",
+  "description": "From Q11 incommunicable individuation, the first-mover suppositum/nature adapter and every-perfection: any two distinct first movers have one act profile and different represented natures; at-most-one first mover is equivalent to FirstMoverActDeterminesNature and to FirstMoversShareNature. No first mover is produced and no premise is defended. The equivalences show those nature conditions are not independent of uniqueness given these three premises."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.catholicismFromQuartaViaWithoutTruthBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

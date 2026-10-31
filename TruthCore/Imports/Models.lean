@@ -28,6 +28,7 @@ import TruthCore.Models.PopulationClosureSeparation
 import TruthCore.Models.PrimaVia
 import TruthCore.Models.Q11
 import TruthCore.Models.QuartaViaDegreeFork
+import TruthCore.Models.QuartaViaMaximumControls
 import TruthCore.Models.RespectAlternatingMotionCycle
 import TruthCore.Models.Scott
 import TruthCore.Models.TemporalHistoryControls
