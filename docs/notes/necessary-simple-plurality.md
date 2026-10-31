@@ -648,3 +648,93 @@ two. The defender's debt is a reason not reducing to the first-mover instance. N
 is discharged. Also open: `InAct` formal versus eminent (`DISAMB-IN-ACT`); whether the
 three-disjunct proxy captures limitation; application to a selected necessary
 underived individual, since all results here concern first movers.
+
+## Direct uniqueness follow-up: Anselm, Monologion I–VI
+
+The owner's next attribute target is uniqueness (2026-10-31). Reuse the existing
+#697 investigation rather than assuming that necessary existence already implies
+one individual, or that packaging several conditions as one joint condition
+changes the number of their bearers. The preceding `JointCondition` result is
+about a fixed conjunction. When all its members are necessary the conjunction
+is necessary; this is not an identity principle for those members.
+
+### Primary witness and reading scope
+
+`ANSELM-MONOLOGION-C1` through `C6` pin the complete Latin chapters in SCTA
+`scta-texts/anselmmonologion`, immutable revision
+`c6aeb2617ddf479869675d3497de6cdffa6355b5`, witness `cod-Sv1Sv1` (Seckau 1938),
+CC BY-NC-SA 4.0, encoded by Jeffrey C. Witt. All six chapters were materialized
+and read. Paragraph IDs below are precise locators; no English translation
+claim is made. Fordham/CCEL translation searches were orientation only and were
+not used as a substitute for this pinned Latin witness.
+
+The TEI is marked draft. It contains OCR residue (e.g. c.1's justice example)
+and c.6 has an interrupting paragraph sequence near the end of one argument.
+No text is silently corrected. The new c.6 claim relies on its unambiguous final
+paragraph `adcmon-c6-d1e239`; neither that earlier sequencing nor the OCR residue
+is used as an additional inferential premise. Successful byte verification does
+not establish a flawless critical text or an interpretation.
+
+### What the two unity arguments actually require
+
+**III, `adcmon-c3-d1e119`.** The source first requires every existent to be
+through something, admitting through-self as well as through-another. It then
+considers several proposed sources: referred to one prior source, individually
+through themselves, or through one another. In the individually-self-existing
+branch it posits one power/nature of self-existence through which they can be
+self-existing, and relocates the explanatory priority to that one principle.
+`STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE` preserves this distinctive step.
+
+This is a positive candidate for unifying foundations, not just an objection
+to a plural account. Its application still requires explaining why the common
+power is numerically one real explanatory principle rather than a distributive
+property, a shared universal, or an abstraction from distinct whole natures.
+The statement that each thing is self-existent does not by logical form alone
+supply that principle. Nor is this principle silently identified with Q11's
+common numerical nature: a common explanatory source and common essence-value
+are different relations, so the statement IDs remain separate.
+
+The mutual-existence exclusion argues that a thing cannot receive being from
+that to which it gives being. That is not automatically a full proof about an
+acyclic infinite roster: its global adequacy application must retain the earlier
+no-self-contained-borrowing/cut argument when needed. This interpretive limit
+does not reopen a wholly derivative chain as adequate under the already retained
+commitments. The source's final self-existence/supremacy conclusion also uses
+a dependence-to-inferiority principle; no modern modal predicate occurs.
+
+**IV, especially `adcmon-c4-d1e149`.** The source argues that a highest dignity
+rank exists, rejects several equally highest natures by invoking one basis of
+their equal greatness, then distinguishes two cases. If that basis is other
+than the natures, it is higher than they are, contradicting maximality. If it
+is their essence, the essence and hence the nature is one. The paragraph
+explicitly uses nature as essence. `STMT-SINGLE-HIGHEST-NATURE` records this
+conclusion as a source commitment, not a newly verified argument.
+
+The two substantial questions are why equal greatness requires a numerically
+one underlying basis and why the intrinsic-basis case gives one real essence,
+rather than several instances of a common characterization. A further scope
+question is how this nature-level result identifies all relevant individual
+bearers. The existing Q11 proof can turn numerical common nature into individual
+identity with its individuating and suppositum/nature premises, but Anselm's
+paragraph alone does not establish those interfaces for every necessary being.
+Neither proof supplies literal uniqueness of all de re necessary individuals.
+
+### Self-existence, production and exact premise comparison
+
+**V–VI, especially VI `adcmon-c6-d1e239`.** The source itself distinguishes
+senses of through/from. Its supreme nature is not efficiently self-made, its
+own material, or assisted by itself into a state it previously lacked. The
+final light/shining analogy offers a nonproductive reading of through-self.
+This is compatible with the earlier no-efficient-self-production result and
+the Leibniz/Spinoza intrinsic-explanation distinction. It supplies no concrete
+support edge, accessible-world necessity or actual instance merely by naming
+self-existence. `STMT-SUPREME-PER-SE-NOT-SELF-PRODUCTION` retains the narrow scope.
+
+Four new atomic Latin readings and their sourced definitions make the source
+arguments usable without confusing them with defended premises. No Lean result
+or new inference is advertised. Root premises, route costs and existing proof
+statements are unchanged. The next positive task is to defend the numerical
+common-principle step against the different-whole-essence reply, or give an
+independently justified replacement, then compose with an identity theorem
+applicable to the same actual candidates. Mere necessity, a common predicate,
+one necessary joint condition, or a restated uniqueness bridge will not do.

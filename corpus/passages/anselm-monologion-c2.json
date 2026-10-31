@@ -1,0 +1,23 @@
+{
+  "snapshot": {
+    "source_id": "ANSELM-MONOLOGION",
+    "edition_urn": "http://scta.info/resource/adcmon-c2/cod-Sv1Sv1",
+    "language": "lat",
+    "repository": "scta-texts/anselmmonologion",
+    "revision": "c6aeb2617ddf479869675d3497de6cdffa6355b5",
+    "path": "adcmon-c2/cod-Sv1Sv1_adcmon-c2.xml",
+    "git_blob_sha": "c7f83670b79a6e5ed2661255ce49bdc0eefc213c",
+    "source_url": "https://raw.githubusercontent.com/scta-texts/anselmmonologion/c6aeb2617ddf479869675d3497de6cdffa6355b5/adcmon-c2/cod-Sv1Sv1_adcmon-c2.xml",
+    "license": "CC BY-NC-SA 4.0, as stated in the SCTA TEI publicationStmt. Latin original public domain; pinned transcription credited to SCTA/Jeffrey C. Witt. No broader critical-edition or image verification claimed."
+  },
+  "passages": [
+    {
+      "id": "ANSELM-MONOLOGION-C2",
+      "locator": "cap.2 (SCTA cod-Sv1Sv1; complete chapter)",
+      "claim_locator_prefixes": [
+        "cap.2 "
+      ],
+      "tei_xml_id": "adcmon-c2"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ANSELM-PER-SE-NOT-SELF-PRODUCTION",
+  "statement_id": "STMT-SUPREME-PER-SE-NOT-SELF-PRODUCTION",
+  "source_id": "ANSELM-MONOLOGION",
+  "locator": "cap.6 paragraph adcmon-c6-d1e239, final question and light/shining analogy",
+  "interpretation": "Reads the unambiguous final paragraph as a semantic clarification of per se / ex se. It does not generalize to every modern grounding relation, establish an actual supreme nature or identify self-existence with modal necessity. Earlier paragraph ordering in the draft transcription is not used as a new proof step.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

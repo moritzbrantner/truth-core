@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SINGLE-HIGHEST-NATURE",
+  "paraphrase": "There is one and only one highest nature or essence in dignity. This is the source’s uniqueness conclusion concerning natures, not a proof that precisely one individual satisfies an arbitrary necessary-existence predicate.",
+  "note": "Open source reading from the pinned Latin witness; no Lean declaration or verified inference advertised. Application audit: docs/notes/necessary-simple-plurality.md.",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

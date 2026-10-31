@@ -1,0 +1,17 @@
+{
+  "id": "ANSELM-EVERY-EXISTENT-PER-ALIQUOD",
+  "statement_id": "STMT-EVERY-EXISTENT-PER-ALIQUOD",
+  "source_id": "ANSELM-MONOLOGION",
+  "locator": "cap.3 paragraph adcmon-c3-d1e119, opening per aliquid / per nihil alternatives",
+  "interpretation": "Reads the source’s broad existential dependence principle without replacing it by external efficient causation or by unrestricted fact PSR.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

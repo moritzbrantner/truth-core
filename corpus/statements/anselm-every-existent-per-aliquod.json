@@ -1,0 +1,14 @@
+{
+  "id": "STMT-EVERY-EXISTENT-PER-ALIQUOD",
+  "paraphrase": "Every existent is through something rather than through nothing; this source principle leaves open the distinction between through itself and through another. It is not the claim that every existent has a distinct efficient producer.",
+  "note": "Open source reading from the pinned Latin witness; no Lean declaration or verified inference advertised. Application audit: docs/notes/necessary-simple-plurality.md.",
+  "definition_ids": [
+    "DEF-ANSELMIAN-PER-ALIQUOD",
+    "DEF-ANSELMIAN-PER-SE",
+    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
+    "DEF-ANSELMIAN-HIGHEST-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-ANSELM-COMMON-PRINCIPLE-UNIQUENESS",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-EVERY-EXISTENT-PER-ALIQUOD",
+    "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+    "STMT-SINGLE-HIGHEST-NATURE",
+    "STMT-SUPREME-PER-SE-NOT-SELF-PRODUCTION",
+    "STMT-UNLIMITED-BEINGS-SHARE-NATURE",
+    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Pinned six complete Latin SCTA chapter witnesses, materialized and read Monologion I–VI at immutable c6aeb2617ddf479869675d3497de6cdffa6355b5. Registered four substantive source readings: through-something without universal external production, common self-existence principle, unique highest nature, and supreme through-self without productive self-origination. Compared III/IV’s numerical common-principle step with existing Q11/root-multiplication obligations, without identifying common cause, predicate, essence-value and joint condition. Rejected treating the pairwise mutual-existence exclusion as a standalone proof against all acyclic infinite rosters, literal modal-N uniqueness from nature uniqueness, and source assertions as premise defenses. Draft OCR/paragraph-order limits preserved; c6 claim uses only its unambiguous final paragraph. Exact locators, strongest different-whole-essence reply and proposed positive next step persist in docs/notes/necessary-simple-plurality.md and the existing integration note/candidate. No Lean type, inference or root-premise discharge added. Corpus/source manifest checks, both generators and diff check pass. Root-route and reaching-root outputs are byte-identical to the previous head (11 routes,62 open). No Lean inputs changed; no repeated build or new formal verification advertised. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Live source verification confirms all six immutable Git blobs; remaining347 passage manifests checked offline. Source-only change; prior #802 proof inputs are unchanged.",
+  "blocker": "Defend a numerically one real self-existence/greatness principle against the shared-predicate or different-whole-essence reply, then warrant an individual-identity interface for the same actual candidates. Existing necessary-existence conclusions alone do not supply either step.",
+  "evidence": [
+    "ANSELM-EVERY-EXISTENT-PER-ALIQUOD",
+    "ANSELM-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+    "ANSELM-SINGLE-HIGHEST-NATURE",
+    "ANSELM-PER-SE-NOT-SELF-PRODUCTION",
+    "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+    "FIRST-MOVER-PLURALITY-RESIDUE"
+  ]
+}
