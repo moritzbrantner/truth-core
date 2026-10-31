@@ -1,0 +1,26 @@
+{
+  "id": "STMT-NEGATIVE-FACT-MEANING",
+  "paraphrase": "OPEN, unattributed application premise: For every world v, A.holds v f if and only if NoContingentConcreteAt A Concrete v. The selected fact f is explicit supplied data, not inferred from closure of the fact domain. This is an OPEN admission/preservation commitment about one fixed fact. Its correspondence to no contingent thing having EVER existed requires an independent interpretation of Ontic.ExistsAt; a now-slice is insufficient.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.NegativeFactMeaning",
+  "definition_ids": [
+    "DEF-NO-CONTINGENT-CONCRETE-AT",
+    "DEF-ACTUAL-CAUSED-FACT",
+    "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
+    "DEF-NEGATIVE-FACT-MEANING",
+    "DEF-ACCESSIBLE-EMPTY-COVERAGE",
+    "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
