@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST",
+  "argument_id": "NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryFirstAttributes.attributesFromFirst",
+  "comparator_config": "results/NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST/comparator.json",
+  "status": "solution-present",
+  "description": "Consume the existing same-witness necessary potency-free first-being endpoint. A composite supplies a distinct component whose simple priority contradicts firstness. A component-of-anything status contradicts the existing no-component-is-first-being premise, giving RemoteFromAll of that same witness. Retain actual concrete rootness, modal necessity and no potency. The three structural premises remain independently open; no maximum/convergence, positive act, uniqueness or God premise is inferred."
+}

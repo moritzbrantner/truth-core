@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-GOD-UNIQUENESS",
+  "argument_id": "NECESSARY-ROOT-GOD-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.godIsOne",
+  "comparator_config": "results/NECESSARY-ROOT-GOD-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "The whole-roster theorem supplies one actual concrete necessary root. The imported supplied-root convergence helper identifies every maximum, if any, with this same root. Under the existing God-is-maximal-in-being converse, every God candidate therefore equals that root, so any two God candidates equal each other. This proves the existing at-most-one GodIsOne statement, not God existence or uniqueness of all necessary individuals. No maximum-existence, grades, CauseMore, pure-act, simply-prior or forward God-naming premise is used. All nine listed premises remain open commitments except the separately recorded logical floor; no independent philosophical premise is discharged."
+}

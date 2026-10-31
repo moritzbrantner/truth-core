@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "term": "unique actual concrete selected root, itself necessary",
+  "definition": "There exists an actual concrete root n of the profile selected relation at w, n exists at every world accessible from w, and every actual concrete root of that relation at w equals n. Necessary nonroots are not excluded. No other-world rootness, well-foundedness, universal ancestry, efficient-cause interpretation, firstness in a separate priority, potency-freeness or God identity is asserted.",
+  "basis": "stipulative",
+  "note": "Source-free conjunction of existing ActualRoot and NecessaryAt with numerical uniqueness restricted to actual roots at the selected world. A different graph-source predicate is not silently identified with this relation-relative root. Independent sourcing must defend the selected relation and the explicit convergence/maximum principles; neither the definition nor the result establishes these premises.",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootUniqueness.UniqueNecessaryActualRootAt"
+}

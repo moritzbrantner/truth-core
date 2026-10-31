@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED",
+  "argument_id": "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.godExists",
+  "comparator_config": "results/NECESSARY-ROOT-GOD-EXISTENCE-REDUCED/comparator.json",
+  "status": "solution-present",
+  "description": "Fourteen-premise same-witness GodExists composition. Reuse the existing necessary actual first root. NecessaryBeingHasBeing at its modal reading supplies actual esse of that necessary individual; maximumExistsOfNecessaryAt imports the checked actual fork/core to obtain a maximum under GradesByApproachToAMaximum and explicit excluded middle. Thus no grades of good/true/noble and no most-true-to-most-being transfer are assumed. Reuse the structured godOfRootAndMaximum calculation: supplied-root convergence identifies every maximum with the SAME actual necessary first individual, genus gives causal scope, restricted universal-source transfer gives every perfection, and firstness/no-component gives remoteness. Retain the full-description nominal naming bridge. Relative to the sixteen-input route, remove the two truth-grade premises without adding another assumption. No CauseMore, separate maximum uniqueness, global maximum-to-firstness or pure-act premise is used; no philosophical premise is discharged. Focused Lean checking passed; binding, Comparator, NanoDa and actual frontier comparison remain integration checks."
+}

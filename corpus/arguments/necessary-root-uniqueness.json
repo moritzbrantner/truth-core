@@ -1,0 +1,60 @@
+{
+  "id": "NECESSARY-ROOT-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-GRADES-HAVE-A-MAXIMUM"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "inference_ids": [
+    "INF-NECESSARY-ROOT-UNIQUENESS"
+  ],
+  "meaning": "Import the whole-roster necessary-root result, retaining its same actual root. Its modal necessity supplies esse population through the explicit necessary-being-has-being bridge; the existing QuartaViaMaximumInBeing actualFork/actualCore results supply a maximum under grades-to-maximum and explicit EM. Contingent dependence plus EM makes any actual root necessary. Applying necessaryRootIsMaximumOfRoot separately to both roots identifies each with that SAME maximum, yielding unique actual root status. All nine philosophical/logical inputs remain explicit; no CauseMore, simply-prior, pure-act or naming assumption is used. This is an explicit-bundle uniqueness consequence, not independent premise defense or a least-bundle claim.",
+  "definition_ids": [
+    "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE"
+  ]
+}

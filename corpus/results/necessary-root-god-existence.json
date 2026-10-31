@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-GOD-EXISTENCE",
+  "argument_id": "NECESSARY-ROOT-GOD-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryRootGodExistence.godExists",
+  "comparator_config": "results/NECESSARY-ROOT-GOD-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing necessary actual first-root theorem, supplied-root modal/per-se convergence and quarta-via maximum existence. Identify the separately obtained maximum with that SAME actual necessary first root, transporting maximality rather than postulating it. Genus at esse gives universal causal scope; actuality-to-being and restricted universal-source transfer give causal responsibility for every other actual perfection; firstness and the existing no-component premise give remoteness. The retained full-description nominal bridge then names this same root as God. No separate maximum-uniqueness, cause-of-quality ascent, global maximum-to-firstness or pure-act premise is used. The nominal application remains an open naming commitment, not an independent justification of that bridge. This connects existing structured results to GodExists; no philosophical premise is discharged. Focused Lean checking passed; binding, Comparator, NanoDa and actual frontier comparison remain integration checks."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryFirstAttributes.attributesFromWhole"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

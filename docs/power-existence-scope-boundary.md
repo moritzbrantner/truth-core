@@ -843,3 +843,82 @@ the universal `SimplyPriorIsActualConcreteGround` statement or the act-priority
 application to every unexercised potency. All five original foundation/priority
 premises and both pure-act premises remain. No relation, statement, theorem,
 model or claim changes; no philosophical premise is added or established.
+
+### Source-to-type clarification: act-priority is an attributed commitment
+
+The preceding applicability audit must not be read as a finding that the existing
+act-priority claim misquotes Aquinas, or that the new theorem silently needs an
+extra premise saying every potency is currently being actualized. It does not.
+The exact existing type is:
+
+```lean
+∀ x r, InPotency x r → ∃ y, InAct y r ∧ PriorSimply y x
+```
+
+It has neither `MovedIn x r` nor a time/world predicate. It does not directly say
+that y is distinct, that y efficiently causes x's bare existence, or that x's
+potency is currently being exercised. Distinctness follows only after the separate
+same-respect non-simultaneity premise is applied. World-local actual concrete
+presence and the selected grounding edge are supplied later by the open
+`SimplyPriorIsActualConcreteGround` interface, not by this type. The
+`necessaryFirstPureAct` proof lists the generic act-priority type itself as a
+premise and faithfully uses its full force; it does not infer it from motion.
+
+**What the source asserts.** In q.3 a.1, corpus, second proof, Aquinas explicitly
+asserts act's simple priority, then applies it to exclude *any* potency in the
+first being. His contrast with temporal priority in one changing thing and his
+unqualified absence-of-potency conclusion support a generic priority commitment,
+not merely a rule about those potencies that happen to be undergoing reduction.
+Thus retaining broad priority as an attributed **commitment** is defensible. The
+fact that its stated reason does not independently settle every case does not
+make the attribution false. Weakening the attributed commitment to current
+reducers would lose the use the same paragraph actually makes of it.
+
+**What the respect-indexed type interprets.** The source does not literally write
+quantifiers over every individual and every respect, or a separately indexed
+same-respect predecessor relation in this sentence. The existing reading makes
+that generic claim explicit using the repository's shared q.2 a.3 vocabulary,
+where actuality and potency are compared in the same respect. It is therefore a
+contextual formal reading, not a word-for-word transcription. Its strongest
+support is the combination of act's generic priority, the source's no-potency-
+in-any-way application, and the earlier same-respect actualization explanation.
+No additional quantifier over times or accessible worlds is licensed. Nor does
+`InAct y r` here require that the cause possess a perfection in exactly the
+univocal/formal way as the effect: `DEF-ACT`/`DISAMB-IN-ACT` explicitly leave
+formal versus virtual actuality open. An actual use must settle that reading
+consistently with non-simultaneity. These are interpretation and application
+questions; no definite quantifier reversal or source-scope bug was found.
+
+**What the source argues for.** The actualization reason is positive: potency
+considered merely as unactualized capacity cannot be the actuality that brings
+it to fulfillment; an actual reduction therefore requires actuality. This
+explains the direction rather than simply naming the actualizer “prior.” It
+motivates the broader idea that derivative/limited capacity presupposes an
+actual basis rather than manufacturing that basis by remaining possible.
+It does not, without a further account of potency and its actual basis, establish
+the exact existential predecessor theorem for every dormant respect. The
+existing `ActPriorFromMotion` investigation already certifies this limited
+motion-to-priority consequence and its boundary; this audit adds no new model.
+There is no need to demand that every dormant capacity be undergoing change.
+The philosophical question is whether the generic ontic priority can be defended
+without that demand, and whether its witness is the kind of **present bearer-
+existence prerequisite** to which the selected grounding norm applies.
+
+This corrects the potential overreading of the preceding phrase “dormant potency
+to distinct present same-respect actualizer.” For the delivered conditional,
+the act-priority premise plus non-simultaneity already supplies a distinct
+same-respect prior **being in act**. An exercising actualizer is not an additional
+necessary hypothesis. What is still unpaid independently is warrant for that
+broad reading in reality, followed by the new relation/presence correspondence;
+those are different burdens. Q.3 a.7's component dependence can support a
+restricted actual-basis instance without proving that every such prior being is
+an efficient producer of bare esse.
+
+A genuinely different, narrower reading is the existing
+`ActPriorToActualizedPotencyReading`, already recorded separately. It is a faithful
+formalization of the force of the **reason about reductions** alone, and it does
+not replace the broader commitment Aquinas asserts and uses. No new sibling
+claim is needed merely to repeat that distinction. Exact premise comparison:
+all five foundation/priority premises and the two pure-act premises are retained;
+no hidden current-actualization premise is added, no source commitment is
+withdrawn, and no independent truth/application premise is discharged.

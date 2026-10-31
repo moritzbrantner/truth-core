@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-NECESSARY-FIRST-ATTRIBUTES-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
+    "STMT-NECESSARY-FIRST-ATTRIBUTES",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inspected all four input dossiers, related discovery and existing FirstMoverSimple proof. Its same first-being noncomposition argument exists only locally and its advertised theorem additionally requires an actual unmoved-mover/body/kinds profile; no duplicate suitable existing general endpoint was found. Added two bounded results: attributesFromFirst consumes the existing necessary actual first/potency-free endpoint plus the three existing structural premises; attributesFromWhole imports NecessaryFirstBeing.necessaryFirstPureAct and composes the modular result with seven unchanged foundation/firstness/potency premises plus those same three. Both retain the SAME n as actual concrete root, modally necessary, first, potency-free, noncomposite under supplied Composite, and RemoteFromAll under supplied ComponentOf. Frozen Challenge SHA2564261fff987340d910f9a35c3300422ebb83247290f20aed157747708a56da262. Claim/type sweep: ActualRoot is selected-world/selected-relation only; modal necessity does not imply essence/esse identity; no potency adds no positive InAct or domain completeness; noncomposite excludes exactly supplied Composite; RemoteFromAll excludes outgoing ComponentOf edges to every supplied candidate, without actuality guards, and is not generic transcendence. No body/matter-form/essence-esse conclusions without their separate composition-kind interfaces. No source attribution, new structural premise identity, maximum, convergence or uniqueness assertion. Exact premise comparison: modular four inputs (one bundled endpoint +three structural); full ten inputs (seven retained +three structural), none independently defended or discharged. Existing roots/God arguments not rewired, no root premise discharge claimed. Focused vocabulary/Solution Lean diagnostics, corpus consistency and diff whitespace pass; both theorem axiom reports are empty;  No shared generators/imports or prior batch files changed. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. Coordinator integration passes full lake build (4275 jobs), exact binding (773 bound, 2 existing pins, 0 mismatches), and zero-permitted-axiom Comparator plus independent NanoDa for all six new results. Source manifests, existing bundle audits and generated imports/docs pass. Final policy sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. No philosophical premise truth is discharged.",
+  "blocker": "Structural-premise and selected-grounding applicability remain open. The companion GodExists compositions now derive the same-witness maximum/causal/perfection/naming content under their explicit additional fourteen/sixteen-premise bundles; those properties are not free consequences of noncomposition or remoteness. The mover-based consumer separately needs outgoing motion and coverage of all first unmoved movers.",
+  "evidence": [
+    "NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST",
+    "NECESSARY-FIRST-ATTRIBUTES-FROM-WHOLE",
+    "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED"
+  ]
+}
