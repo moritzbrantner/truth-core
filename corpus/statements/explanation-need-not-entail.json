@@ -1,0 +1,4 @@
+{
+  "id": "STMT-EXPLANATION-NEED-NOT-ENTAIL",
+  "paraphrase": "It is not the case that whenever q explains p, q entails p: q can explain p although it is possible for q to be true with p false."
+}

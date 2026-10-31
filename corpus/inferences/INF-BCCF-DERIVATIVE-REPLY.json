@@ -1,0 +1,9 @@
+{
+  "id": "INF-BCCF-DERIVATIVE-REPLY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-BCCF-DERIVATIVE-REPLY",
+  "rule": "model-construction",
+  "meaning": "Prove the general conditionals over any arena and plural relation, then construct the named models and check each listed condition in them.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DELLA-ROCCA-PSR-2010",
+    "source_url": "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/psr.pdf?c=phimp;idno=3521354.0010.007;format=pdf",
+    "retrieved_at": "2026-10-30T23:56:54Z",
+    "sha256": "sha256:c37681dcf96851da25625407567aa10e59b77816e82e37ca40aee63f15fc54a8",
+    "encoding": "utf-8",
+    "language": "eng",
+    "wayback_url": "https://web.archive.org/web/20240422194101id_/https://quod.lib.umich.edu/cgi/p/pod/dod-idx/psr.pdf?c=phimp;idno=3521354.0010.007;format=pdf",
+    "wayback_sha256": "sha256:c37681dcf96851da25625407567aa10e59b77816e82e37ca40aee63f15fc54a8",
+    "license": "© 2010 Michael Della Rocca, per the PDF. The publisher host answered this fetcher with HTTP 403 on 2026-10-31, so the pinned bytes are those of the fixed Wayback capture of the publisher PDF, which materialization uses as its fallback. Only hashes, locators, short incipits and paraphrases are committed."
+  },
+  "passages": [
+    {
+      "id": "DELLA-ROCCA-PSR-PP9-10",
+      "locator": "PSR, pp.9-10 with footnote 13",
+      "claim_locator_prefixes": [
+        "pp.9-10"
+      ],
+      "pdf_pages": {
+        "first": 9,
+        "last": 10
+      },
+      "text_sha256": "sha256:fe761dc3e56ded8eed1674835223c39a7d3bf1002f062aba989f237bbde73bf7",
+      "incipit": "michael della rocca PSR explicability arguments."
+    }
+  ]
+}

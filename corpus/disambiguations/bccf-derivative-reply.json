@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-BCCF-DERIVATIVE-REPLY",
+  "term": "derivative facts are different from direct facts",
+  "sense_definition_ids": [
+    "DEF-BCCF-PLURAL-REASON",
+    "DEF-BCCF-DIRECT-CLASS"
+  ],
+  "resolution": "The reply has two readings, tested separately. The class reading (DEF-BCCF-DIRECT-CLASS) restricts coverage to D and leaves the aggregate outside it; the aggregate may then have no reason. The plural reading (DEF-BCCF-PLURAL-REASON) keeps a reason for the aggregate, namely its conjuncts together, which requires denying distribution over it. The results never pass from one to the other: conjunct 2 shows that being outside D does not itself block the argument, and separate models witness each reading. Which reading the owner intends is not decided here."
+}

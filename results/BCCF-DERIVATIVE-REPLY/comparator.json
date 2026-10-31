@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.BCCFDerivative.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.BCCFDerivative.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.BCCFDerivative.derivativeReply"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

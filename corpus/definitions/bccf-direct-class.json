@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BCCF-DIRECT-CLASS",
+  "term": "direct fact",
+  "definition": "A class D of facts is a parameter. ClosedUnderReasons A G a D says that every contingent reason at a of a fact in D is in D, which is the one formal commitment that D carries: a fact in D has no contingent reason outside D. A derivative fact is here only a fact outside D. Nothing says which facts are in D, and an aggregate is not by definition outside it.",
+  "basis": "stipulative",
+  "note": "Formal reading of the owner's proposed reply on #365; no source states this distinction. Sourcing it would need a text that separates direct from derivative facts and says how each is explained. It is not Dasgupta's autonomous or substantive fact.",
+  "lean_declaration": "TruthCore.Explanation.BCCFDerivative.ClosedUnderReasons"
+}

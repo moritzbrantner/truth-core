@@ -1,0 +1,8 @@
+{
+  "id": "DASGUPTA-MR-GROUND-CONJUNCTS",
+  "statement_id": "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS",
+  "source_id": "DASGUPTA-METAPHYSICAL-RATIONALISM-2016",
+  "locator": "§6, pp.392-393 with footnote 30",
+  "interpretation": "Dasgupta says the popular argument fails against his grounding PSR because this inference is invalid for ground, since conjuncts ground their conjunction and one may hold that each conjunct is groundless. He restricts the point to ground and allows that it may fail for other notions of explanation. His PSR is that every substantive fact has an autonomous ground, and he goes on in the same section to give a different argument that it implies necessitarianism, whose two premises he calls plausible; so he is not read as preserving contingency. He does not state a direct-versus-derivative distinction.",
+  "status": "formalized"
+}

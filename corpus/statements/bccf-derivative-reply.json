@@ -1,0 +1,18 @@
+{
+  "id": "STMT-BCCF-DERIVATIVE-REPLY",
+  "paraphrase": "With plural reasons at a world. (1) Given that a conjunct is true wherever its aggregate is, these cannot all hold at a world: factive, necessitating and distributing reasons, no contingent fact among its own reasons, bivalence, an aggregate of all contingent truths there, a contingent truth there, and a plural reason for every contingent truth there. (2) Given the conjunct law, factive necessitating reasons, no contingent fact among its own reasons and bivalence, these also cannot hold together: a class D closed under contingent reasons at a world, a contingent truth in D there, an aggregate of D's contingent truths there that has a plural reason, and distribution over that aggregate there. The aggregate is not assumed to be in D. (3) With no aggregate and no distribution: factive necessitating reasons, bivalence, well-founded contingent reasons at a world, closure of D and a plural reason for each contingent truth in D exclude any contingent truth in D there. (4) The same holds with bivalence and necessitation replaced by the condition that at every accessible world where the target fails some reason fails. (5) That condition with bivalence gives necessitation. (6) Each of factive, necessitating, distributing and contingently irreflexive single reasons gives the plural condition on singletons, with the same facts having reasons. Named bivalent models: in one, an aggregate has its two members as reasons and the members have none, with well-founded reasons, and reasons do not distribute over the aggregate; in another the members are each other's reason, and in another form an endless chain with no fact below itself, each with a reason for every contingent truth there, no distribution over the aggregate and no well-foundedness; in the model with a reason true at every world, every other condition of (3) holds, reasons distribute, and reasons neither necessitate nor meet the condition of (4); in another, distribution and a reason for each member hold and the aggregate has no reason; in another, a member and the aggregate have a contingent reason outside the class, so closure fails; in another, a reason is true nowhere; in another, nothing is contingent. These are consequences and satisfiable encodings. No model is shown metaphysically possible, nothing says which facts are direct, no PSR is established, and no reply is established or refuted.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-BCCF-PLURAL-REASON",
+    "DEF-BCCF-DIRECT-CLASS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-BCCF-DERIVATIVE-REPLY"
+  ],
+  "lean_declaration": "TruthCore.Explanation.BCCFDerivative.DerivativeReply"
+}
