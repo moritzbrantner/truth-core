@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a7p2.html",
+    "retrieved_at": "2026-10-31T19:44:40Z",
+    "sha256": "sha256:a5b1913ecf6b370aef7a15295a4d212a873f2b204a5d70f6e82795d167f0ee65",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A7P2",
+      "locator": "A7P2, complete interactive page",
+      "claim_locator_prefixes": [
+        "A7P2,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "If 3 cats kill 3 rats in 3 minutes, then does it take 100 cats 100 minutes to kill 100 rats?"
+        }
+      },
+      "text_sha256": "sha256:4c7a19659657a6df3c2e0dab31c8d013c2fe8e13202e9f6c398ff9f24688d820",
+      "incipit": "If 3 cats kill 3 rats in 3 minutes, then does it take 100 cats 100 minutes "
+    }
+  ]
+}
