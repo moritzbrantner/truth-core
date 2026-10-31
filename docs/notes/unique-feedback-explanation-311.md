@@ -535,3 +535,55 @@ not an additional selected passage. The historical passage ID is retained.
 No extraction normalization, integrity gate or repository dependency changed.
 The publisher HTML was considered but rejected because repeated fetches
 changed raw bytes; it was not substituted as a stable witness.
+
+### Independent registration of the existential-production proof
+
+`NO-EXISTENTIAL-SELF-ACTUALIZATION` now has its own argument/result, rather
+than being described only beside the older causal-loop theorem. Its four
+named premises are `STMT-EXISTENTIAL-BEARER-PRIOR`,
+`STMT-EXISTENTIAL-PRODUCT-PRIOR`,
+`STMT-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE`, and
+`STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE`; the conclusion is
+`STMT-NO-EXISTENTIAL-SELF-PRODUCTION`.
+`EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS` separately registers the existing
+omission edges and positive productive interpretation. No model is copied.
+
+The named interfaces in `Causality.ExistentialSelfActualization` are only
+aliases of the branch's existing formulas, for exact type/premise binding.
+They introduce no new priority relation or Profile. The registered Solution
+imports `PerSeCausalLoopImpossible.noExistentialSelfActualization` and its
+existing controls. The original Challenge, its type and proofs are unchanged;
+a separate Challenge freezes the named registration.
+
+The new premises are explicitly unattributed. The fact that the original
+irreflexivity/transitivity templates are also used in Aquinas readings does
+not defend their extension from beings to the mixed `Sum Being Exercise`
+domain. `DISAMB-MIXED-EXISTENTIAL-PRIORITY` records this reading boundary.
+Both structural laws and both productive interfaces require independent
+justification for the proposed act; applying transitivity across unlike kinds
+of explanation is itself part of that open burden.
+
+The left tokens merely **label** bearer/product existence. There is no
+`ExistsAt` or truth predicate in this signature, and the theorem does not
+prove that a label denotes an actual existing bearer. Similarly `produces`
+is a supplied relation whose productive interpretation remains open. An
+ordinary embodied action motivates a bearer/act distinction but does not
+establish creation of bare existence. No undisputed empirical instance of
+that stronger existential production is supplied here. Intrinsic noncausal
+explanation and consistent feedback remain serious alternatives to that
+interpretation, not contradictory merely because they reject a productive
+interface. Root-path premises remain unchanged.
+
+The same branch also registers `AQUINAS-NO-SELF-MOTION-SAME-RESPECT` and
+`AQUINAS-MOVED-BY-ANOTHER` and imports them into both First Way Solutions.
+That source-preserving motion argument and this mixed-priority argument are
+distinct routes. Neither supplies the other one's existential application
+premise; see `docs/power-existence-scope-boundary.md` for the exact no-self-motion
+scope and the qualified specialization to an esse respect.
+
+Focused build, exact corpus binding, Comparator and NanoDa passed for both
+registered results and the expanded original causal-loop result, with zero
+permitted axioms. Named-interface Challenge SHA256: `da713a6343a7cfdf02ac4b81556794a32e268694758634ea4e622d46c4c2cde4`.
+Root route costs and open-premise membership remain unchanged: 11 routes,
+62 open premises. Full-library integration and reverse-dependency checks remain
+delivered-head CI obligations.

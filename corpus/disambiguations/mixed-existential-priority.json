@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-MIXED-EXISTENTIAL-PRIORITY",
+  "term": "simple priority of beings versus mixed-token existential-production priority",
+  "sense_definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-EXISTENTIAL-BEARER-PRIOR",
+    "DEF-EXISTENTIAL-PRODUCT-PRIOR",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+  ],
+  "resolution": "The old causal-loop result uses the sourced simple-priority vocabulary on beings. The existential-self-production result uses a separate supplied Prior on Sum B E, where inl labels bearer/product existence tokens and inr labels acts. Reusing the same logical irreflexivity/transitivity templates does not source or establish them on that mixed domain. Its two productive interfaces and both structural laws are separately named unattributed open premises. Neither relation is temporal precedence by definition; no source fidelity or actual bearer-presence claim transfers merely by notation."
+}

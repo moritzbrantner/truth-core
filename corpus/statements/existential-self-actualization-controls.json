@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS",
+  "paraphrase": "Registration of the pre-existing branch controls: irreflexive mixed priority with both directions between two Unit tokens; transitive mixed priority with both directions; and a Unit-act/Bool-bearer interpretation satisfying both productive interfaces and both order laws with an occurring act producing candidate false. The first two expose the separate order obligations; they do not assert metaphysical self-production. The third is a nonvacuity interpretation, not established metaphysical possibility or a truth/ExistsAt assertion.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.Controls",
+  "definition_ids": [
+    "DEF-EXISTENTIAL-BEARER-PRIOR",
+    "DEF-EXISTENTIAL-PRODUCT-PRIOR",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+    "DEF-NO-EXISTENTIAL-SELF-PRODUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+  ]
+}

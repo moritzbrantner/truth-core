@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+  "paraphrase": "NothingPriorToItselfReading applied to the supplied Prior on Sum B E. This is the logical shape of irreflexivity, separately OPEN on this mixed domain, not an attributed extension of Aquinas’ simple priority of beings.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.IrreflexivePriority",
+  "definition_ids": [
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+  ]
+}

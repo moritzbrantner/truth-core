@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTENTIAL-BEARER-PRIOR",
+  "term": "bearer-presupposition in mixed existential priority",
+  "definition": "For every occurring act a, Prior (inl (bearer a)) (inr a). The left token labels its bearer’s existence and the right token the act. There is no ExistsAt or truth field establishing that the labels really denote existing things; the productive interpretation is an explicit open commitment.",
+  "basis": "stipulative",
+  "note": "Analyst registration of the pre-existing branch theorem, with no new relation, historical claim or premise defense. Meaning and rival/application limits: docs/notes/unique-feedback-explanation-311.md. An occurring embodied action motivates a bearer/act distinction, but no undisputed empirical instance of bare existence production is supplied. Ordinary feedback and intrinsic noncausal explanation are near misses. Priority, its transitivity/irreflexivity and the abstraction from activity to existential production must be justified independently against those rivals; no such generalization is certified here.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.BearerPrior"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+  "paraphrase": "For every a, Occurs a implies not produces a (bearer a). This restricts the supplied productive relation; it does not forbid all intrinsic explanation, maintenance, self-change, temporal feedback or a source-free infinite chain.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.NoSelfProduction",
+  "definition_ids": [
+    "DEF-NO-EXISTENTIAL-SELF-PRODUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+  "term": "transitivity on the mixed existence-token/act domain",
+  "definition": "SimplePriorityTransitiveReading applied to the same Prior on Sum B E. This OPEN condition permits composition of bearer-to-act and act-to-product priority; transitivity of another relation or irreflexivity alone does not supply it.",
+  "basis": "stipulative",
+  "note": "Analyst registration of the pre-existing branch theorem, with no new relation, historical claim or premise defense. Meaning and rival/application limits: docs/notes/unique-feedback-explanation-311.md. An occurring embodied action motivates a bearer/act distinction, but no undisputed empirical instance of bare existence production is supplied. Ordinary feedback and intrinsic noncausal explanation are near misses. Priority, its transitivity/irreflexivity and the abstraction from activity to existential production must be justified independently against those rivals; no such generalization is certified here.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.TransitivePriority"
+}

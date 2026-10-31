@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ExistentialSelfActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ExistentialSelfActualization.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ExistentialSelfActualization.noSelf"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

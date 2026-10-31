@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+  "term": "irreflexivity on the mixed existence-token/act domain",
+  "definition": "NothingPriorToItselfReading applied to the supplied Prior on Sum B E. This is the logical shape of irreflexivity, separately OPEN on this mixed domain, not an attributed extension of Aquinas’ simple priority of beings.",
+  "basis": "stipulative",
+  "note": "Analyst registration of the pre-existing branch theorem, with no new relation, historical claim or premise defense. Meaning and rival/application limits: docs/notes/unique-feedback-explanation-311.md. An occurring embodied action motivates a bearer/act distinction, but no undisputed empirical instance of bare existence production is supplied. Ordinary feedback and intrinsic noncausal explanation are near misses. Priority, its transitivity/irreflexivity and the abstraction from activity to existential production must be justified independently against those rivals; no such generalization is certified here.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.IrreflexivePriority"
+}

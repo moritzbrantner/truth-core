@@ -1,17 +1,27 @@
 {
   "id": "ATTEMPT-EXISTENTIAL-SELF-ACTUALIZATION-PRIORITY-20261031",
   "statement_ids": [
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-EXISTENTIAL-BEARER-PRIOR",
+    "STMT-EXISTENTIAL-PRODUCT-PRIOR",
+    "STMT-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+    "STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+    "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+    "STMT-EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS"
   ],
   "date": "2026-10-31",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Closed a precisely delimited Lean formalization gap, not P2/P3. Reused the existing NothingPriorToItselfReading and SimplePriorityTransitiveReading interfaces and the PerSeCausalLoopImpossible Challenge/Solution/Comparator package. The new noExistentialSelfActualization theorem distinguishes an occurring act from the token of its bearer's existence, assumes the bearer is prior to its act and an existence-producing act is prior to its produced existence, and derives self-priority from hypothetical self-production. It does not import temporal precedence, efficient-causal exhaustiveness, PSR, or well-foundedness. Two omission controls give irreflexive-but-nontransitive and transitive-but-reflexive priority cycles. A positive model lets a distinct bearer actualize a different being under all four premises. Local pinned Lean build and #print axioms confirmed all four proofs depend on no axioms. The existing SecundaVia theorem already excludes efficient self-causation; BruteFoundationExplanations already refutes a necessary, existence-necessitating reason for an actually contingent individual. UniqueFeedback supplies a consistent global fixed-point rival, and BearerRegress.ChainBranchModel supplies an endless acyclic support rival; neither is refuted by this conditional. All ontological application premises and root-path open-premise counts are unchanged; no source quotation or necessary-being claim is added. The meaning, examples, distinction, properties, application conditions and strongest rival are recorded in docs/notes/unique-feedback-explanation-311.md.",
+  "summary": "Closed a precisely delimited Lean formalization gap, not P2/P3. Reused the existing NothingPriorToItselfReading and SimplePriorityTransitiveReading interfaces and the PerSeCausalLoopImpossible Challenge/Solution/Comparator package. The new noExistentialSelfActualization theorem distinguishes an occurring act from the token of its bearer's existence, assumes the bearer is prior to its act and an existence-producing act is prior to its produced existence, and derives self-priority from hypothetical self-production. It does not import temporal precedence, efficient-causal exhaustiveness, PSR, or well-foundedness. Two omission controls give irreflexive-but-nontransitive and transitive-but-reflexive priority cycles. A positive model lets a distinct bearer actualize a different being under all four premises. Local pinned Lean build and #print axioms confirmed all four proofs depend on no axioms. The existing SecundaVia theorem already excludes efficient self-causation; BruteFoundationExplanations already refutes a necessary, existence-necessitating reason for an actually contingent individual. UniqueFeedback supplies a consistent global fixed-point rival, and BearerRegress.ChainBranchModel supplies an endless acyclic support rival; neither is refuted by this conditional. All ontological application premises and root-path open-premise counts are unchanged; no source quotation or necessary-being claim is added. The meaning, examples, distinction, properties, application conditions and strongest rival are recorded in docs/notes/unique-feedback-explanation-311.md. Follow-up preserves the original raw Challenge and theorem, and independently registers the existential inference and controls with named-interface definitions, exact premise/conclusion statements, a mixed-priority disambiguation, inference/argument/result records and separate frozen Challenges. Named interfaces are aliases of the existing formulas, not a new priority relation or historical attribution. Labels in Sum B E have no truth/ExistsAt field, so no actual presence is inferred. Both registered results and the original expanded causal-loop Comparator contract passed independent Comparator/NanoDa with zero permitted axioms and exact corpus binding. Root route costs and open-premise membership remain unchanged (11 routes,62 open); final integration remains CI. The source-preserving same-respect intermediate proofs are separately registered on this branch, not conflated with mixed-token priority.",
   "blocker": "Defend for actual existential production both bearer-presupposition and act/product strict explanatory-priority interfaces, including their common transitive irreflexive order; then independently establish that actual contingent existence has an adequate productive source and that no infinite chain or brute contingent root can substitute. The modal premise connecting intrinsic self-explanation to necessary necessitating sufficiency remains separately open.",
   "evidence": [
     "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
     "AQUINAS-ST-I-Q2-A3-SECUNDA-VIA",
     "UNIQUE-FEEDBACK-CONTROL",
-    "BEARER-REGRESS-CONTROLS"
+    "BEARER-REGRESS-CONTROLS",
+    "NO-EXISTENTIAL-SELF-ACTUALIZATION",
+    "EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS",
+    "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+    "AQUINAS-MOVED-BY-ANOTHER"
   ]
 }

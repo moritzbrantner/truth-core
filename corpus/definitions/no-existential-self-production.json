@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-EXISTENTIAL-SELF-PRODUCTION",
+  "term": "no occurring act produces its own bearer’s existence",
+  "definition": "For every a, Occurs a implies not produces a (bearer a). This restricts the supplied productive relation; it does not forbid all intrinsic explanation, maintenance, self-change, temporal feedback or a source-free infinite chain.",
+  "basis": "stipulative",
+  "note": "Analyst registration of the pre-existing branch theorem, with no new relation, historical claim or premise defense. Meaning and rival/application limits: docs/notes/unique-feedback-explanation-311.md. An occurring embodied action motivates a bearer/act distinction, but no undisputed empirical instance of bare existence production is supplied. Ordinary feedback and intrinsic noncausal explanation are near misses. Priority, its transitivity/irreflexivity and the abstraction from activity to existential production must be justified independently against those rivals; no such generalization is certified here.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.NoSelfProduction"
+}

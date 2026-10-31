@@ -11,6 +11,7 @@ import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.DerivativeJointPower.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
