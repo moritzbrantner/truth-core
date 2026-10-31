@@ -1,0 +1,26 @@
+{
+  "id": "STMT-NECESSARY-ROUTE-CONTROLS",
+  "paraphrase": "Formal facts about the #487 bridge. Over all profiles, inhabitedness, restricted well-foundedness, the closing premise and excluded middle give one witness that is an actual root and necessary. One model satisfies the seven clauses of the first-being derivation with a maximum, a simple priority between distinct beings and a cause of necessity between distinct beings. For each of the seven clauses a model satisfies the other six while the first-being premise fails. One model has inhabitedness, restricted well-foundedness, the closing premise and two distinct necessary actual roots, while grades-have-a-maximum, something-is-moved and the first-being premise fail. Over all profiles, the first-being premise follows from asymmetry of the selected relation on actual concreta, excluded middle, the genus principle, the simple-priority bridge and two bridges covering every actual concretum (each has being; a cause of its being other than itself is an actual concrete ground), and one model satisfies those non-logical premises with a contingent maximum and no necessary concretum. One model has a necessary actual root at one world with an actual concrete ground at an accessible world. One model with a past lacking a first moment has a law that whatever begins has a ground, while the closing premise fails. No model is claimed metaphysically possible.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.NecessaryRouteControls",
+  "definition_ids": [
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-MAXIME-ENS",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CAUSE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

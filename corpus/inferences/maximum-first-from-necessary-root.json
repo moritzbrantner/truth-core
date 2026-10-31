@@ -1,0 +1,18 @@
+{
+  "id": "INF-MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "input_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "rule": "constructive-proof",
+  "meaning": "Suppose something other than a maximum is simply prior to it. The priority bridge makes it an actual concretum, so the world is inhabited and a necessary root exists, identical with that maximum by necessaryRootIsMaximum. The prior thing is then an actual concrete ground of a root, which is absurd; excluded middle gives identity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

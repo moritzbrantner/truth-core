@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROUTE-CONTROLS",
+  "argument_id": "NECESSARY-ROUTE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.necessaryRouteControls",
+  "comparator_config": "results/NECESSARY-ROUTE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Formal facts at zero non-logical premises, zero Lean axioms. Models are satisfiability witnesses in the encoded semantics, not claims of metaphysical possibility. No root change."
+}
