@@ -37,7 +37,8 @@ describe("argument forest projection", () => {
     expect(model.statements.P1.directConsequences.map((entry) => entry.id)).toContain("C");
     expect(model.statements.ROOT.directConsequences).toEqual([]);
     expect(model.statements.P1.status).toBe(graph.statements.find((entry) => entry.id === "P1")?.frontier ? "open" : "other");
-    expect(model.statements.TC.statusLabel).toContain("Formal consequence");
+    // A transcription with open premises remains on the frontier despite its recorded result.
+    expect(model.statements.TC.statusLabel).toBe("Open premise");
     expect(model.arguments.A4.transcriptionOnly).toBe(true);
   });
 
