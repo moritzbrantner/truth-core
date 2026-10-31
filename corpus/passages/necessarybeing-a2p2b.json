@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a2p2b.html",
+    "retrieved_at": "2026-10-31T17:52:35Z",
+    "sha256": "sha256:96cacd74c26c8958cd4b6c75e5cc393fc39c3d3447b122d5caa6a38478b094ec",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A2-POSSIBLE-IMPOSSIBILITY",
+      "locator": "A2P2B, complete interactive page",
+      "claim_locator_prefixes": [
+        "A2P2B,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "If a situation can be impossible, then is that situation actually impossible?"
+        }
+      },
+      "text_sha256": "sha256:af60369cbe397d85a6434584f0d2032f69b4b38c6d53d7e9b38d845c02b3ae3c",
+      "incipit": "If a situation can be impossible, then is that situation actually impossibl"
+    }
+  ]
+}

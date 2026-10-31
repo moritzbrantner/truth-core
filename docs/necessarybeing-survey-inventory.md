@@ -250,7 +250,7 @@ The attempt retains the verification and remaining application boundaries.
 
 ### A2 bounded primary reading (2026-10-31)
 
-Pinned and materialized the complete requested branch in order: `NECESSARYBEING-A2-QUESTION-ONE` (`a2p1.html`), `NECESSARYBEING-A2-QUESTION-TWO` (`a2p2.html`), and `NECESSARYBEING-A2-CONCLUSION` (`a2c.html`). Two independent GETs returned identical bytes for each page. No license is displayed; manifests commit hashes, locators and short incipits only, with no asserted archive fallback. The source's own title attributes were also inspected in these pinned response bytes; the ordinary text extractor omits those attributes. Alternate links to A2p2b/A2p2c and their conclusions are outside this three-page reading and remain unprocessed here.
+Pinned and materialized the complete requested branch in order: `NECESSARYBEING-A2-QUESTION-ONE` (`a2p1.html`), `NECESSARYBEING-A2-QUESTION-TWO` (`a2p2.html`), and `NECESSARYBEING-A2-CONCLUSION` (`a2c.html`). Two independent GETs returned identical bytes for each page. No license is displayed; manifests commit hashes, locators and short incipits only, with no asserted archive fallback. The source's own title attributes were also inspected in these pinned response bytes; the ordinary text extractor omits those attributes. Alternate links to A2p2b/A2p2c and their conclusions are outside this primary three-page reading; the subsequent complete alternate-cluster reading below now covers them.
 
 **Sequential argument.** A2p1 asks whether every concrete thing must belong to a chain both infinite and ungrounded. A2p2 asks whether individually possible situations remain individually possible when another possible situation is actual, expressly distinguishing this from joint possibility. A2c steps 1–4 define an *entire* chain as closed under its members' causes, hence ungrounded from outside, and assert that any chain-member belongs to such an entire chain. Steps 5–8 combine the reported denial of universal headless ungrounded coverage with that assertion to infer a possible concrete head, then a possible uncaused concrete. Steps 9–11 invoke the earlier reported exclusion of uncaused contingents, obtaining a possible necessary being. A separate twelve-step modal suffix escalates possible N to necessary N using necessity of possibility and the extra N-to-necessary-N reading, then applies reflexivity to obtain N.
 
@@ -296,4 +296,44 @@ full build, binding, zero-axiom Comparator and independent NanoDa passed. This
 repairs the construction under an explicit ancestry-network interpretation,
 not the source's metaphysical possibility, causal-domain or modal-individual
 correspondences. God/Catholic/unique-root open unions and route costs remain
-unchanged. The A2 alternate branches are still unread.
+unchanged. The A2 alternate branches were unread at construction time; their complete
+reading is recorded below.
+
+### A2 alternate branches, complete linked cluster (2026-10-31)
+
+Followed the actual `onclick` redirect targets in pinned A2p2: its negative/unsure answers lead to A2p2b; the latter's affirmative answer leads to A2c2, and negative/unsure answers lead to A2p2c. A2p2c's affirmative answer leads to A2c3; its other answers leave A2 for A3p1, which was not followed. New complete-page witnesses are `NECESSARYBEING-A2-POSSIBLE-IMPOSSIBILITY` (A2p2b), `NECESSARYBEING-A2-REVISED-DEFINITION` (A2p2c), `NECESSARYBEING-A2-CONCLUSION-TWO` (A2c2), and `NECESSARYBEING-A2-CONCLUSION-THREE` (A2c3). All four were materialized and read in full, including the relevant title attributes in hash-checked response bytes. Fresh GETs matched the previously fetched bytes. No license or archive fallback is asserted beyond the manifest's explicit rights limitation. This completes these linked A2 branches, superseding the earlier unread-alternates boundary.
+
+**A2p2b → A2c2.** The new report is that a situation's possible impossibility implies its actual impossibility. The `impossible` title attributes specify contradiction with something necessary. A2c2's first eleven numbered causal steps repeat A2c's argument and retain its causal/chain/domain obligations. Its following modal paragraph takes contraposition of the report: a possible situation cannot become impossible, hence is necessarily possible. In a classical modal representation with impossibility as negated possibility, the report has shape `◇¬◇P → ¬◇P`; contraposition and duality yield `◇P → □◇P`. This is an alternative input for the same necessity-of-possibility principle, not a rejection of that principle or an independently proved frame condition. A2c2 then repeats the twelve-step N suffix, including possible-N to possible-necessary-N and the final reflexivity step. Existing modal results remain the reuse target; there is no new modal theorem to implement merely because the respondent reaches that interface through another question.
+
+**A2p2c → A2c3.** A2p2c expressly stipulates a revised class: a thing must by nature exist when it would automatically exist if its existence were even possible; everything else is called contingent. It then asks the respondent *again* to accept the exclusion of uncaused contingent things under that definition. A2c3 repeats the eleven-step causal possibility argument and replaces the full S5 suffix with a final paragraph invoking precisely that stipulation to infer actual concrete existence. The causal premise therefore has a changed classification; the original no-uncaused-contingents report cannot simply be carried over unchanged. The prose still uses the familiar must-exist and contingent tooltips, so the explicit redefinition and reaffirmation must govern this branch's reading rather than those labels silently restoring the original semantics.
+
+**Premise and witness boundary.** A2c2 retains the causal premises, adds the reported possible-impossibility conditional in place of the original possibility-independence report, and reaches the same explicit modal interface. A2c3 trades that suffix for an automatic-actuality stipulation and a newly reaffirmed causal exclusion for its complementary class. This does not establish a globally weaker bundle. A predicate satisfying a possible-existence-to-actual-existence conditional is not thereby the existing `NecessaryAt` predicate: scope at worlds, accessibility, and persistence of the same individual's class membership must be supplied. In particular, learning at a possible world that some individual satisfies the revised class does not by itself apply that individual's conditional at the actual world. A source-faithful formal design would distinguish this revised class and its transport/actuality reading from de re all-accessible-world existence; merely calling both “necessary” would hide the burden. Both alternate conclusions retain cause-capability, not ordinary physicality, as their concrete meaning. No new source claim, formal result or root-premise discharge follows from this reading.
+
+### Same-individual causal/modal composition
+
+`POSSIBLE-CAUSAL-SOURCE-NECESSITY` imports the verified full-ancestry source
+extraction and existing actual-source correspondence. Its `sameSource` helper
+keeps the accessible world v and individual c: c exists and has no existing
+incoming cause at v; the existing global `LocalCausalPrinciple` makes c
+necessary there; Euclidean accessibility transports that SAME c's existence to
+every successor of w, while actual reflexivity supplies its existence at w.
+The registered result projects this witness to the existing
+`STMT-KANT-CONVERSION-NECESSARY-WITNESS`, with nine existing argument consumers.
+It does not assert that c is uncaused at w.
+
+The five inputs are explicit excluded middle, the existing global local causal
+principle, Euclidean accessibility, reflexivity at w, and accessible failure of
+full headless-cone coverage. The latter four remain open commitments; global
+causal scope/distinctness is stronger than this proof needs, so no minimality
+claim is made. No concreteness or causal capability is inferred for an isolated
+source, and the result does not formalize A2c3's revised necessity class. It is
+an unattributed conditional reconstruction, not source endorsement or proof of
+metaphysical possibility. No de dicto existential necessitation, universal
+accessibility, transitivity, WF or cause-to-ground identification is used.
+
+Full build, exact binding, zero-permitted-axiom Comparator and independent
+NanoDa passed. The shared necessary-being endpoint gains cost4/direct5 under
+the existing classical floor; its old costs2,2,3 remain unchanged. Its reachable
+premise union grows13→17 through alternative dependencies, removing none.
+God/Catholic/unique-root route costs and unions remain unchanged. No
+philosophical premise is discharged.

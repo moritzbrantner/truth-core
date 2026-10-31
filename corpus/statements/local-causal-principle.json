@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LOCAL-CAUSAL-PRINCIPLE",
+  "paraphrase": "OPEN, unattributed application premise: at every world, every existing contingent individual has a distinct existing cause under the supplied Ontic.Causes relation. This records the existing LocalCausalPrinciple predicate without endorsing its metaphysical applicability. Global world scope and distinctness are stronger than needed by the possible-source proof; no minimality claim.",
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.LocalCausalPrinciple",
+  "definition_ids": [
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

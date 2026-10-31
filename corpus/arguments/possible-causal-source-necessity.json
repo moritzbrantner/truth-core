@@ -1,0 +1,35 @@
+{
+  "id": "POSSIBLE-CAUSAL-SOURCE-NECESSITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-LOCAL-CAUSAL-PRINCIPLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-POSSIBLY-FAILED-HEADLESS-COVERAGE"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-POSSIBLE-CAUSAL-SOURCE-NECESSITY"
+  ],
+  "meaning": "Five-input source-free composition. At an accessible world v failing full headless-ancestry coverage, import HeadlessCausalAncestry.source_of_not_headless_coverage on existing actualGraph and actualSource_iff to obtain one existing source c under the supplied Ontic.Causes relation. If this SAME c were absent at any successor of v, LocalCausalPrinciple would provide an existing cause at v, contradicting sourcehood. Explicit EM gives NecessaryAt m v c. Euclidean sibling access transports its existence to every successor of the selected world w; actual reflexivity supplies access from v back to w, giving actual existence there too. The sameSource helper preserves v,c, sourcehood ONLY at v and necessity at both worlds; project its SAME c to the existing NecessaryBeing conclusion. No boxed de dicto G-necessitation, transitivity, universal frame, WF, acyclicity, choice function, population or causation-grounding bridge is assumed. Existing global LocalCausalPrinciple has stronger scope and distinctness than needed; no minimality or weaker-overall-bundle claim. All five inputs remain explicit; no metaphysical premise discharged. The branching-network opportunity is not attributed to survey A2, and its source-chain correspondence, intended concrete/capable domain and real modal availability remain open. No concreteness, causal capability, sourcehood at w, unique root, intrinsic explanatory adequacy or divine attribute follows.",
+  "definition_ids": [
+    "DEF-POSSIBLY-FAILED-HEADLESS-COVERAGE",
+    "DEF-HEADLESS-CAUSAL-ANCESTRY",
+    "DEF-HEADLESS-ANCESTRY-CHARACTERIZATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
