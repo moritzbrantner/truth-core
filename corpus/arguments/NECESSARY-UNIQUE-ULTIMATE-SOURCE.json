@@ -1,0 +1,50 @@
+{
+  "id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "premise_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ANSELM-THROUGH-COVERAGE",
+    "STMT-ANSELM-SOURCE-ACTUALITY",
+    "STMT-CONCRETE-THROUGH-SOURCES",
+    "STMT-TAPP-SHARED-SELF-POWER",
+    "STMT-TAPP-SELF-POWER-THROUGH"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "inference_ids": [
+    "INF-NECESSARY-UNIQUE-ULTIMATE-SOURCE"
+  ],
+  "meaning": "Source-free same-witness composition: instantiate the existing selected-ancestry theorem on distinctGroundProfile, preserving the supplied concrete predicate and original modal ontology. Its actual necessary ancestor has no incoming actual concrete distinct-through ground. Source actuality and concrete-domain closure turn this into absence of ANY distinct through-source. Coverage supplies a self-link, making that SAME ancestor an actual ultimate source. Reuse the direct common-power uniqueness theorem to identify every actual ultimate source with it. Local cone foundation/dependence replace the separate global ultimate-availability input for this conclusion; no universal-through target conclusion follows without further reachability/composition laws. All nine inputs remain explicit; no source-derived premise or philosophical obligation is discharged.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-ANSELM-THROUGH-CONTEXT",
+    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+    "DEF-ANSELM-SOURCE-ACTUALITY",
+    "DEF-ANSELM-THROUGH-COVERAGE",
+    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+    "DEF-TAPP-SHARED-SELF-POWER",
+    "DEF-TAPP-SELF-POWER-THROUGH",
+    "DEF-ANSELM-SOURCE-UNIQUENESS",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-DISTINCT-THROUGH-GROUND-PROFILE",
+    "DEF-CONCRETE-THROUGH-SOURCES",
+    "DEF-NECESSARY-UNIQUE-ULTIMATE-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

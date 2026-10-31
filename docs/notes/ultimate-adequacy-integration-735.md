@@ -1153,3 +1153,20 @@ coverage for this exact composed profile remains separate work. For real-world a
 actual foundation, exclusion of contingent support for necessary existence,
 and cross-world union foundation independently. Neither actual-world
 well-foundedness nor no-self-production supplies the latter two conditions.
+
+
+### Same necessary witness now enters the uniqueness proof
+
+`NECESSARY-UNIQUE-ULTIMATE-SOURCE` composes the existing selected-ancestry theorem
+with direct ultimate-source uniqueness in one unchanged modal ontology. Its
+explicit adapter selects distinct through-sources as grounds and retains the
+supplied concrete domain. Local cone foundation/dependence yield the necessary
+ancestor; source actuality and the new OPEN concrete-source closure make that
+same ancestor an unrestricted through-root. Coverage and the existing common
+power interfaces then identify every actual ultimate source with it. No global
+ultimate availability is required for this conclusion. The nine exact inputs,
+rejected domain shortcut, application obligations and weaker-than-universal
+scope are recorded in the same-witness section of
+`docs/notes/necessary-simple-plurality.md`. This connects conditional results;
+it discharges no philosophical premise and excludes no dependent necessary
+individual solely because that individual is necessary.

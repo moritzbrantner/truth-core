@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "argument_id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "challenge_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Solution",
+  "theorem": "TruthCore.Results.Explanation.NecessaryUltimateSource.necessaryUniqueSource",
+  "comparator_config": "results/NECESSARY-UNIQUE-ULTIMATE-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Source-free same-witness composition: instantiate the existing selected-ancestry theorem on distinctGroundProfile, preserving the supplied concrete predicate and original modal ontology. Its actual necessary ancestor has no incoming actual concrete distinct-through ground. Source actuality and concrete-domain closure turn this into absence of ANY distinct through-source. Coverage supplies a self-link, making that SAME ancestor an actual ultimate source. Reuse the direct common-power uniqueness theorem to identify every actual ultimate source with it. Local cone foundation/dependence replace the separate global ultimate-availability input for this conclusion; no universal-through target conclusion follows without further reachability/composition laws. All nine inputs remain explicit; no source-derived premise or philosophical obligation is discharged."
+}

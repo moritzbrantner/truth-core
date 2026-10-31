@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "term": "necessary witness of unique actual ultimate-source status",
+  "definition": "There exists one x with NecessaryAt reality.ontic w x and UltimateSourceAt m w x, and every y satisfying UltimateSourceAt m w y equals x. The same witness carries necessity, actual source status and uniqueness among ALL actual ultimate sources, including any contingent ones. Other dependent necessary individuals are not excluded. No universal-target source status, all-world rootness or divine identity is asserted.",
+  "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.NecessaryUniqueUltimateSourceAt",
+  "basis": "stipulative",
+  "note": "Analyst same-witness composition, not a new source reading or defense of real applicability. See docs/notes/necessary-simple-plurality.md, same-witness ancestry composition section. The supplied concreteness sense is retained; through is not silently identified with ordinary causes or adequate explanation."
+}

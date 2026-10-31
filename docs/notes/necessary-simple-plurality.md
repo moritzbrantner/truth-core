@@ -841,3 +841,67 @@ necessary-ancestor/root results requires an actual same-witness relation/domain
 adapter; bare existence of some necessary bearer cannot identify it with this
 source. No such adapter is fabricated as an axiom. This remains the next
 composition question alongside independent defense of shared self-power.
+
+
+### Same-witness ancestry composition
+
+The source-free `NecessaryUltimateSource.distinctGroundProfile` now makes an
+explicit application of the old selected-ancestry result possible **inside the
+same AnselmUltimateSource.Context**. It preserves the original ontic model,
+worlds, candidate identities and a separately supplied concreteness predicate.
+Its selected grounds are exactly `through w target source ∧ source ≠ target`,
+with source/target orientation reversed for Profile. A through-self link is
+excluded from this selected dependence relation; it is not redescribed as
+productive self-grounding. This is a data adapter, not an independent claim
+that the resulting relation supplies an adequate explanation of real existence.
+
+The composed theorem `NECESSARY-UNIQUE-ULTIMATE-SOURCE` retains these nine inputs:
+
+1. A selected actual concrete being.
+2. Well-foundedness of its COMPLETE cone under that distinct-through relation.
+3. Actual concrete grounds for contingent members of that cone.
+4. Explicit excluded middle.
+5. Actual through coverage (self-through allowed).
+6. Actuality of through-sources.
+7. Concrete-source closure for actual concrete through-targets.
+8. One shared source of self-existence power.
+9. Power-from implies through.
+
+Inputs 1–4 use the exact existing selected-ancestry statements instantiated at
+the derived Profile, not new stronger replacements. They yield one actual
+concrete necessary ancestor with no incoming actual concrete distinct-through
+ground. Inputs 6–7 turn that restricted no-ground property into absence of ANY
+distinct through-source: otherwise the distinct source would be actual and
+concrete and contradict the extracted root property. Input 5 then supplies its
+self-link, making this SAME necessary ancestor an actual ultimate through-source.
+The existing direct uniqueness result consumes inputs 5,8,9 to identify every
+actual ultimate through-source with it. Modal necessity is carried by the old
+witness; it is never inferred just from being through itself.
+
+The concrete-source closure is a substantive OPEN domain interface. Omitting it
+would leave possible abstract through-sources unexcluded by the old concrete
+root theorem. Likewise the selected cone hypotheses must apply to this exact
+derived relation: old evidence about an unrelated causal or grounding relation
+does not transfer automatically. An actual concrete selected being remains
+explicit; the owner's accepted bare actual population alone supplies no
+concreteness proof.
+
+This composition removes the need for global ultimate availability for the
+**necessary unique actual ultimate-source conclusion**: one selected founded
+cone already supplies its witness. It does not derive global availability or
+say that every actual target is through that witness. A root ancestor connected
+to a target by a finite path need not be directly through-related to that target
+without a composition/transitivity law, which is deliberately not assumed here.
+No strict-weakening, minimality or premise-truth result is claimed. The earlier
+six-input universal-source theorem remains a separate conditional with its own
+stronger universal-target conclusion.
+
+The conclusion is `∃ x, NecessaryAt x ∧ UltimateSourceAt x ∧
+∀ y, UltimateSourceAt y → y=x`, all at the selected world and same Context.
+This is stronger than merely finding one necessary member among potentially
+many ultimate sources. It remains weaker than uniqueness of all necessary
+individuals: necessary individuals with distinct through-sources are allowed.
+Other-world rootness, intrinsic adequate explanation, simplicity and God are
+not established. The same-witness formal connection is now supplied; independent
+warrant for common power, its through interface, local dependence/foundation
+and the actual interpretation remains open. No root-frontier premise closes.
