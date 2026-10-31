@@ -1,0 +1,32 @@
+{
+  "id": "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+  "paraphrase": "At selected w, every numerically distinct c causing the supplied esse actuality of an actual concrete x is itself concrete, exists at w and stands in the profile selected grounds relation to x. No converse, global-world claim, causal sufficiency or completeness of explanation is asserted. This is the existing EsseCauseIsActualConcreteGround predicate, newly recorded as an OPEN interface, not newly proved or attributed to a source.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround",
+  "definition_ids": [
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

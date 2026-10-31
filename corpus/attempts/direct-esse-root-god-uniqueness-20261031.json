@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-DIRECT-ESSE-ROOT-GOD-UNIQUENESS-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-GOD-IS-ONE",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inspected ExistingInActAt, direct esse-to-ground and GodIsOne dossiers/types; reused pre-existing typed interfaces without changing their meanings. Frozen Challenge SHA256568be720c80e51094177e6b6ba9767a6ebd19e5a1beace87fcff2986a79cb740 before Solution. Focused Lean check passes. Factored actualRootExists preserves the existing necessaryActualRoot type but exposes the actual-root step before contingency is excluded. This at-most-one-God theorem needs only that actual root: any maximum causing its esse becomes its forbidden incoming ground. Under the retained God-is-maximal converse, all God candidates identify with that same root. Seven explicit inputs, no contingent-dependence premise or assertion of this root’s necessity. The earlier nine-input necessity route has different global coverage; no strict overall weakening or minimality claim is made. No God existence, unique necessary individual, source claim, new model or philosophical truth is established.  SourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Coordinator full build passes (4280 jobs), exact binding reports777 bound/2existing pins/0mismatch; all4newresults and3affected existing whole-roster results pass zero-permitted-axiom Comparator and independent NanoDa. Measured vs main22e1cfe8: GodExists adds cost11/direct12 and cost12/direct13, GodIsOne adds cost6/direct7, unique necessary actual root adds cost7/direct8. Existing routes unchanged; God/GodIsOne unions64→66 and16→18 add only ExistingInActAt and direct esse-ground correspondence; Catholic union73 unchanged. These measurements neither establish premise truth nor globally weaker coverage than earlier necessity-only bundles. SourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "blocker": "Independent real-world interpretation and warrant for direct esse-causation to actual concrete grounding, existing-in-act and the retained foundation/genus/God-to-maximality interfaces remain open. At-most-one is not existence or necessity.",
+  "evidence": [
+    "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+    "DIRECT-ESSE-ROOT-UNIQUENESS",
+    "NECESSARY-ROOT-GOD-UNIQUENESS"
+  ]
+}

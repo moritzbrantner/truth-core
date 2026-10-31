@@ -1,0 +1,54 @@
+{
+  "id": "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+  ],
+  "conclusion_statement_id": "STMT-GOD-IS-ONE",
+  "inference_ids": [
+    "INF-DIRECT-ESSE-ROOT-GOD-UNIQUENESS"
+  ],
+  "meaning": "Whole-roster nontrapping, actual concrete population and explicit EM supply an actual root, without contingent dependence. ExistingInActAt supplies that root’s esse. Genus causality and the existing direct esse-to-ground correspondence make every maximum equal this same actual root. God-to-maximum puts every God candidate in that class, so any two God candidates coincide. This proves the existing GodIsOne universal conditional, not God existence or modal necessity of the root. No grades-to-maximum, necessity-cause, modal-has-being, pure-act, simply-prior or forward naming premise is used. The direct correspondence covers actual concrete targets, including contingent ones, so this different coverage bundle is not asserted globally weaker than the older necessity-only route. No philosophical premise is independently established.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ONE-GOD",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-IN-ACT",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-GOD",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-GENUS",
+    "DISAMB-NECESSARY",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-PER-SE"
+  ]
+}

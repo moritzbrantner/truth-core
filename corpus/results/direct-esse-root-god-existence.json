@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE",
+  "argument_id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootGodExistence.godExists",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-GOD-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Thirteen-input direct-esse GodExists composition: reuse the same actual necessary first root from the existing foundation result. ExistingInActAt supplies actual esse of the root. The existing actual fork/core yields a maximum under grades-to-maximum; direct esse-to-selected-ground correspondence identifies every maximum with this root and supplies uniqueness without a new hypothesis. Genus gives universal causal scope, while the imported reduced-description naming theorem composes actuality-to-being, universal-source transfer, firstness/no-component remoteness and the retained nominal identification. The global maximum-to-firstness antecedent used internally is derived from this same root and maximum identity, not an added input. The direct esse interface covers actual concrete targets including contingent ones, so this coverage package is not claimed globally weaker than the earlier necessity-cause package. No philosophical premise is discharged. The helper retains actual rootness, modal necessary existence, firstness and God of the same individual. Relative to the earlier fourteen-input route, replace necessary-being actuality and the two necessity-cause interfaces by existing-to-esse actuality and direct esse-to-ground correspondence; no global strength ordering is asserted. Focused checks only until coordinator binding/Comparator/NanoDa verification."
+}

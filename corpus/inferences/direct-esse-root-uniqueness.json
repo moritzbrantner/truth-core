@@ -1,0 +1,18 @@
+{
+  "id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-HAVE-A-MAXIMUM"
+  ],
+  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "rule": "constructive-proof",
+  "meaning": "Reuse the whole-roster actual necessary root. ExistingInActAt supplies esse actuality directly from its actual existence; existing maximum fork/core results and grades-to-maximum give a maximum. Genus causality plus the existing direct esse-cause-to-actual-concrete-ground interface identify every supplied maximum with that SAME root. This root directly grounds every other actual concretum, including contingent recipients, under the selected relation. A second actual root contradicts that incoming ground. Conclude the existing UniqueNecessaryActualRootAt proposition, not uniqueness of all necessary individuals. All eight inputs remain explicit; no necessity-cause relation/bridge or modal necessary-being-has-being interface is used. The direct bridge has different and stronger target coverage, so fewer inputs do not establish global logical weakening or independent philosophical warrant. Direct ground coverage does not establish complete explanatory sufficiency.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

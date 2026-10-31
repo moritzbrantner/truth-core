@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+  "argument_id": "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootGodUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootGodUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootGodUniqueness.godIsOne",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-GOD-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Whole-roster nontrapping, actual concrete population and explicit EM supply an actual root, without contingent dependence. ExistingInActAt supplies that root’s esse. Genus causality and the existing direct esse-to-ground correspondence make every maximum equal this same actual root. God-to-maximum puts every God candidate in that class, so any two God candidates coincide. This proves the existing GodIsOne universal conditional, not God existence or modal necessity of the root. No grades-to-maximum, necessity-cause, modal-has-being, pure-act, simply-prior or forward naming premise is used. The direct correspondence covers actual concrete targets, including contingent ones, so this different coverage bundle is not asserted globally weaker than the older necessity-only route. No philosophical premise is independently established."
+}
