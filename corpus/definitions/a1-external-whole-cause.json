@@ -1,0 +1,8 @@
+{
+  "id": "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+  "term": "actual concrete cause outside a whole’s parts",
+  "definition": "OutsideCause (ActualConcreteCause s w) whole: there is a concrete source existing at w, causing whole at w and not ≤ whole. With reflexive Mathlib parthood this also excludes selfhood. This is an existential causal premise, not a definition that guarantees its own satisfaction.",
+  "basis": "stipulative",
+  "note": "Analyst typed application, not an attributed survey claim. Meaning, examples/exclusions, property and abstraction burdens and competing routes: docs/necessarybeing-survey-inventory.md, typed causal connection section. No actual metaphysical applicability is established.",
+  "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ExternalWholeCause"
+}

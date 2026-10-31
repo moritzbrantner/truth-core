@@ -1,0 +1,8 @@
+{
+  "id": "DEF-A1-ACTUAL-CONCRETE-CAUSE",
+  "term": "actual concrete cause at a world",
+  "definition": "s.concrete c ∧ s.ontic.ExistsAt w c ∧ s.ontic.Causes w c x. Actual source existence and concreteness are explicit guards on the existing primitive world-relative causal relation; its target is not thereby present. No time, existential grounding or necessitating sufficiency is inferred.",
+  "basis": "stipulative",
+  "note": "Analyst typed application, not an attributed survey claim. Meaning, examples/exclusions, property and abstraction burdens and competing routes: docs/necessarybeing-survey-inventory.md, typed causal connection section. No actual metaphysical applicability is established.",
+  "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ActualConcreteCause"
+}

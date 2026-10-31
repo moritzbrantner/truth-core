@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-A1-TYPED-NECESSARY-CAUSE-CONNECTION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NB-A1-CONTINGENT-TOTALITY",
+    "STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED",
+    "STMT-A1-COVERED-CONTINGENTS",
+    "STMT-A1-EXTERNAL-WHOLE-CAUSE",
+    "STMT-A1-NECESSARY-WHOLE-CAUSE",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Freshly materialized/read A1c and A1c2, inspected existing source/typed dossiers. Added a typed analyst connection from coverage and actual concrete outside-parts cause to a necessary cause of the same selected whole, importing the prior ExternalCandidateNecessity.checks theorem. A failed prototype selected an arbitrary necessary witness and could not retain its identity with the original cause; the final proof restricts only auxiliary concreteness to the chosen source and recovers that same individual. Projection connects the route to shared NecessaryBeing rather than restating it as a fresh premise. No claim that the unbound survey premises are already these typed assumptions; no whole existence/contingency/fusion or causal law is proved. User-provided independent-researcher methodology reconciled with existing cut/selected/contingent-only results in the main integration note, preserving three separate logical/explanatory/reality assessments. Full build passes. Both result configs pass Comparator and independent NanoDa with exactly the permitted Mathlib axioms propext, Classical.choice and Quot.sound. Fresh full binding: 732 bound,2 existing pins,0 mismatch, both new records bound with no problems. Root routes and reaching-root outputs are byte-identical to pre-change baseline (11 routes,62 open). Source manifests, corpus and generators pass. Current branch research/lean-existential-self-actualization-20261031; publication waits for parent audit PR #798 final CI, whose current-head review is clean. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Coverage and actual external-whole-cause applicability remain OPEN. The positive PSR/adequacy and fact-to-ground application are separate research obligations; no root premise discharged.",
+  "evidence": [
+    "EXTERNAL-CANDIDATE-NECESSITY",
+    "NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE",
+    "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE"
+  ]
+}

@@ -200,3 +200,50 @@ existence alone supplies the required totality-level external cause. Compare
 `docs/notes/ultimate-adequacy-integration-735.md` for the separate cumulative
 route, which does not require a contingent fusion object. No premise change or
 root-frontier closure follows from this reuse audit.
+
+## Typed causal connection: preserve the actual causal witness
+
+`NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE` formalizes the narrow A1 application
+with two explicitly analyst-defined premises: `ContingentsCovered s w whole`
+and `ExternalWholeCause s w whole`. The first reuses Mathlib parthood and
+`UniversalFusionBoundary.Covers` for actual contingent concreta. The second
+reuses `OutsideCause`, guarded by source actuality, concreteness and the
+existing `Ontic.Causes` relation. It is not the unqualified A1 source causal law.
+The conclusion retains one same source's actual existence, concreteness,
+necessity and causal relation to this whole at this world.
+
+The Solution imports the prior `ExternalCandidateNecessity.checks` result.
+Its existential conclusion alone could select a different necessary individual;
+a first prototype using an arbitrary existential choice failed for exactly
+that witness mismatch. The final proof restricts only the auxiliary concrete
+predicate to equality with the actual cause, applies the universal result there,
+and recovers that very cause. No identity, existence, frame or causal relation
+changes. `NECESSARY-BEING-FROM-CONTINGENT-COVERAGE` then projects to the existing
+shared necessary-witness statement, giving the typed route an outgoing corpus
+connection. Neither Challenge changes after proof search.
+
+**Semantic grounding questions.** The causal relation means the supplied
+world-relative `Ontic.Causes`, with actual source guards; a defensible efficient,
+partial or sustaining interpretation must still be selected. Ordinary table
+construction or device power can illustrate causal relata, but neither is
+thereby a verified cause of a totality of all contingents. No undisputed empirical
+instance of that latter relation is supplied. Distinctness, temporal precedence,
+memberwise causation and mere overlap are excluded as substitutes for the
+outside-parts premise. Mathlib parthood's partial-order properties are explicit;
+no transitivity, asymmetry, foundation or necessitating sufficiency of Causes is
+assumed. No universal member-to-whole causal abstraction is proved. Rival
+accounts may deny the totality as a causal relatum, deny its contingency, allow
+only internal causes, or use holistic/noncausal reasons. Those replies locate
+the application dispute; their logical availability is not a certificate of
+explanatory adequacy. The separate selected-ancestry route avoids a contingent
+fusion premise, while still owing its existential-grounding interpretation.
+
+**Premise comparison:** two new typed application premises remain OPEN; they
+are not replacements asserting the truth of the unbound survey source claims.
+No root-reaching premise is discharged. The causal witness retains its source
+role, but the theorem does not establish a sufficient intrinsic explanation of
+that witness or any divine attribute. Full build and both independent Comparator/NanoDa checks pass with the three
+permitted Mathlib axioms. Full binding has 732 bound results, 2 existing pins and
+0 mismatches; both new entries match exactly. Root routes and reaching-root
+outputs are byte-identical to the pre-change baseline (11 routes,62 open).
+The attempt retains the verification and remaining application boundaries.

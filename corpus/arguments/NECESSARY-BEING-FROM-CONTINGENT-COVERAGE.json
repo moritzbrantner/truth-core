@@ -1,0 +1,31 @@
+{
+  "id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-A1-COVERED-CONTINGENTS",
+    "STMT-A1-EXTERNAL-WHOLE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-NECESSARY-BEING-FROM-CONTINGENT-COVERAGE"
+  ],
+  "meaning": "Project the actual necessary individual from the witness-preserving necessary-whole-cause result to the existing shared NecessaryBeing interface. Both coverage and external-whole-cause premises remain explicit; no source reading or root premise is discharged.",
+  "definition_ids": [
+    "DEF-A1-COVERED-CONTINGENTS",
+    "DEF-A1-ACTUAL-CONCRETE-CAUSE",
+    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+    "DEF-A1-NECESSARY-WHOLE-CAUSE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-FUSION-OUTSIDE-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-A1-TYPED-EXTERNALITY"
+  ]
+}

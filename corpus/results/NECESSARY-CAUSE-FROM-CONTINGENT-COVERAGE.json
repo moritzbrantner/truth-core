@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE",
+  "argument_id": "NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.ContingentTotalityCause.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentTotalityCause.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentTotalityCause.necessaryCause",
+  "comparator_config": "results/NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Typed analyst connection: coverage and an actual concrete cause outside the selected whole’s parts imply a necessary actual concrete cause of that same whole. Imports the independently certified external-candidate equivalence, restricting only its auxiliary concrete predicate to the chosen causal witness so an existential projection cannot substitute a different necessary individual. No whole contingency, fusion, temporal interpretation, member-to-whole causal law, unity or premise truth is established."
+}
