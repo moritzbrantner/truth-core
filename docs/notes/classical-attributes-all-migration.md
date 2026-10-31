@@ -207,8 +207,8 @@ The eight per-individual Stage 2 results have the form `∀ g, IsGod g → attri
 | infinite | [CATHOLICISM-STAGE2-GOD-IS-INFINITE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-INFINITE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-EXCLUDED-MIDDLE`, `STMT-SUBSISTENT-BEING-IS-INFINITE` | The eight-input ROOT-ESSENCE-IDENTITY output matches the exact maps of SubsistentBeingIsInfiniteReading. Applying that existing interface would be an assembly, not an independent derivation of its primitive Infinite predicate. Receivedness/individuation remains a separate boundary. |
 | immutable | [CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY`, `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT` | NECESSARY-FIRST-BEING-PURE-ACT preserves one actual necessary root under seven explicit inputs. StageTwo.IsImmutable is definitionally that same PureAct predicate; this is a vocabulary connection, not an independently richer theory of change. |
 | eternal | [CATHOLICISM-STAGE2-GOD-IS-ETERNAL](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-ETERNAL.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY`, `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`, `STMT-IMMUTABLE-IS-ETERNAL` | The same-root pure-act result can feed STMT-IMMUTABLE-IS-ETERNAL. That primitive eternity interface is retained; the combined root endpoint is not registered yet. Modal necessity is not silently timelessness. |
-| intellect | [CATHOLICISM-STAGE2-GOD-HAS-INTELLECT](../../corpus/results/CATHOLICISM-STAGE2-GOD-HAS-INTELLECT.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-NO-COMPONENT-IS-FIRST-BEING` | Selected vertical slice: the eleven-input nonlimitation root plus composition-kinds, no-component-first-being and immaterial-intellect. Firstness and the no-component law supply remoteness from every other being; noncomposition alone does not. ROOT-INTELLECT-WILL and ROOT-INTELLECT-WILL-L-OMISSION are merged in #829 after all required checks and current-head review. The locally verified reduced route now retains eleven inputs rather than fifteen; publication is pending. |
-| will | [CATHOLICISM-STAGE2-GOD-HAS-WILL](../../corpus/results/CATHOLICISM-STAGE2-GOD-HAS-WILL.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, `STMT-WILL-FOLLOWS-INTELLECT`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-NO-COMPONENT-IS-FIRST-BEING` | The selected intellect slice adds STMT-WILL-FOLLOWS-INTELLECT for the same witness (fifteen inputs total including EM). It promises only the existing supplied will predicate, not omniscience, libertarian freedom or explanatory sufficiency. |
+| intellect | [CATHOLICISM-STAGE2-GOD-HAS-INTELLECT](../../corpus/results/CATHOLICISM-STAGE2-GOD-HAS-INTELLECT.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-NO-COMPONENT-IS-FIRST-BEING` | Selected vertical slice: the eleven-input nonlimitation root plus composition-kinds, no-component-first-being and immaterial-intellect. Firstness and the no-component law supply remoteness from every other being; noncomposition alone does not. ROOT-INTELLECT-WILL and ROOT-INTELLECT-WILL-L-OMISSION are merged in #829 after all required checks and current-head review. The reduced route retains eleven inputs rather than fifteen and is delivered in #830 after required CI and exact-head review passed. |
+| will | [CATHOLICISM-STAGE2-GOD-HAS-WILL](../../corpus/results/CATHOLICISM-STAGE2-GOD-HAS-WILL.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, `STMT-WILL-FOLLOWS-INTELLECT`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-NO-COMPONENT-IS-FIRST-BEING` | The selected intellect slice adds STMT-WILL-FOLLOWS-INTELLECT for the same witness (fifteen original inputs, eleven in the reduced route, including EM). It promises only the existing supplied will predicate, not omniscience, libertarian freedom or explanatory sufficiency. |
 
 ### Exact root packages and comparison boundary
 These are inspected sufficient packages, not globally minimal sets. All are conditional; no owner ledger selection beyond actual existence is inferred.
@@ -223,7 +223,7 @@ These are inspected sufficient packages, not globally minimal sets. All are cond
 
 - `direct-esse-root-god-uniqueness`: `STMT-COGITO-INHABITED-CONCRETE-WORLD`, `STMT-WHOLE-ROSTER-NOT-TRAPPED`, `STMT-EXCLUDED-MIDDLE`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-EXISTING-IN-ACT-AT`, `STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND`, `STMT-GOD-IS-MAXIMAL-IN-BEING`.
 
-The selected new slice is **noncomposition/represented identity → immateriality → intellect → will**, retaining the same actual necessary root. It imports the eleven-input nonlimitation result and adds only `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-NO-COMPONENT-IS-FIRST-BEING`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, and `STMT-WILL-FOLLOWS-INTELLECT`. No genus causality, maximum or God-naming input is proposed. Its two registered results passed local full build, binding, Comparator and NanoDa with zero exported theorem axioms; independent claim/type review found no unresolved findings. The original fifteen-input route and its omission are delivered in #829; the reduced variants below await delivered-head CI/review.
+The selected new slice is **noncomposition/represented identity → immateriality → intellect → will**, retaining the same actual necessary root. It imports the eleven-input nonlimitation result and adds only `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-NO-COMPONENT-IS-FIRST-BEING`, `STMT-IMMATERIAL-IS-INTELLECTUAL`, and `STMT-WILL-FOLLOWS-INTELLECT`. No genus causality, maximum or God-naming input is proposed. Its two registered results passed local full build, binding, Comparator and NanoDa with zero exported theorem axioms; independent claim/type review found no unresolved findings. The original fifteen-input route and its omission are delivered in #829; the reduced variants below are delivered in #830.
 Its selected structural omission test preserves the original #681 interpretation: roots are individually noncomposite but are components of other beings. Thus no-component-first-being can fail independently of noncomposition. ROOT-INTELLECT-WILL-L-OMISSION certifies all fourteen other exact inputs with a false intellect/will assignment; it retains the original joint certificate and checks q14 through the component/matter-form alternatives. Merely setting an otherwise unconstrained Infinite predicate false would locate an opaque interface, but would not be presented as a substantive metaphysical refutation. Existing [plurality findings](necessary-simple-plurality.md) and [part-free comparison](part-free-plurality.md) preserve the stronger rival distinctions.
 `CLASSICAL-GOD-ASSEMBLY` still consumes existence, unity and a primitive attributes field. `ClassicalAttributesFromNine` reaches that field only with the existing `ClassicalAttributesSuffice` bridge; neither assembly proves the nine predicates. A verified root attribute does not by itself make that root an instance of IsGod.
 Configuration progress so far: nine attributes classified against exact existing inputs; genus causality omission certified and merged as #825; the same-root structural intellect/will composition and its L omission certified locally. Formal root-frontier change from this inventory: **none**. No designated route is changed.
@@ -236,8 +236,51 @@ The chain is explicit: existing five-input necessary-first-being inference → `
 
 `STRICT-PRIORITY-PURE-ACT` separately reaches the existing `STMT-NECESSARY-FIRST-BEING-PURE-ACT` endpoint with seven inputs. It retains the same six inputs as the earlier route and substitutes `STMT-STRICT-SIMPLE-PRIORITY` for global same-respect act/potency exclusivity. The new framework commitment is exactly standard `Std.Irrefl` on the selected candidate priority relation; it is not the separate mixed being/event relation. Firstness forces an alleged prior actualizer to be the same root, contradicting irreflexivity. Two joint controls show that neither replacement premise entails the other alongside the common background. These are formal interpretations, not complete rival explanations or metaphysically realized worlds.
 
-All four new results, the refactored old intellect/will result, and their relevant compiled modules passed full build, binding (795 bound / two legacy pins / zero mismatches), Comparator, result NanoDa and scoped library NanoDa (458 declarations, zero typechecker errors). Exported theorem axiom reports are empty. Independent claim/type reviews found no unresolved findings. Publication/CI is pending for these new variants. Computed target costs are 10 versus 14 non-floor leaves for intellect/will, 7 versus 10 for the different no-limitation bundles, and 6 for each pure-act bundle. These figures are not global logical-minimality certificates; philosophical root closure remains unchanged.
+All four new results, the refactored old intellect/will result, and their relevant compiled modules passed full build, binding (795 bound / two legacy pins / zero mismatches), Comparator, result NanoDa and scoped library NanoDa (458 declarations, zero typechecker errors). Exported theorem axiom reports are empty. Independent claim/type reviews found no unresolved findings. These variants are delivered in #830, merge `e9a184dcd521c0d17314adb639c3d3d5a357636c`; required CI run `41247640825` and exact-head review passed. Computed target costs are 10 versus 14 non-floor leaves for intellect/will, 7 versus 10 for the different no-limitation bundles, and 6 for each pure-act bundle. These figures are not global logical-minimality certificates; philosophical root closure remains unchanged.
 
 ### Joint constraints are separate from isolated attributes
 
 The existing [rigid-act investigation](simplicity-collapse-555.md), results `SIMPLICITY-COLLAPSE-CORE`, `SIMPLICITY-ROOT-EXPOSURE` and `SIMPLICITY-BRANCH-COSTS`, already constrains combinations involving contingent creation. Necessity of the **same act token**, strict efficacy and a contingent effect are incompatible; bearer necessity alone is not act necessity. Connecting immutability to modal invariance additionally retains `ModalCapacity` and the decree-as-respect interpretation. Optional-act and extrinsic-condition branches relocate a nonnecessitating explanatory link rather than automatically removing it. Those are conditional constraints, not a blanket refutation of simplicity or an endorsement of a rival. None is silently assumed in the new root-attribute packages, which contain no creation/decree field. A nine-row inventory does not by itself certify a complete joint metaphysical worldview.
+
+### Same-root intellect, will and pure act
+
+The next registered target, `STMT-ROOT-INTELLECT-WILL-PURE-ACT`, retains every
+conjunct of the existing reduced intellect/will endpoint and adds `PureAct`
+**inside the same existential**. Both new routes first consume
+`ROOT-INTELLECT-WILL-REDUCED` once, obtaining its particular witness and
+firstness. They do not identify witnesses from separate existence theorems.
+
+- `ROOT-INTELLECT-WILL-PURE-ACT`: the existing eleven inputs plus
+  `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY` and
+  `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`. It applies the existing
+  pointwise first-being/no-potency theorem to that witness.
+- `ROOT-INTELLECT-WILL-STRICT-PURE-ACT`: the same eleven inputs plus
+  act-priority and `STMT-STRICT-SIMPLE-PRIORITY`. Any alleged potency supplies
+  a prior actualizer; firstness identifies it with the root, contrary to
+  irreflexivity of that very priority relation.
+
+Each route has thirteen explicit inputs including EM. The same q3 profile
+supplies the act dictionary, and potency uses its respect domain. No positive
+actuality, exhaustive respect domain, eternity, unique necessary individual,
+God identification or richer cognition/volition follows. The older separation
+controls use a smaller background and do not certify incomparability under
+these full thirteen-input packages. Full build4316 and binding798/two legacy pins/zero mismatch passed. Both
+routes and the plurality control passed Comparator and independent result
+NanoDa. Scoped library NanoDa checked474 declarations with zero typechecker
+errors and one known axiom pretty-printer warning; all three theorem axiom
+reports are empty. Independent claim/type review found no findings.
+Delivered-head CI/review remains pending.
+
+The proposed positive plurality control reuses the unchanged later five-being
+`PartFreePlurality` model. Both replacement conditions together give a
+fourteen-input union including supplied EM. Its previously unspecified
+intellect/will predicates are assigned to the existing root predicate. The
+verified test retains two distinct witnesses with the whole joint attribute
+tuple, and explicit nonroot potency, motion and composition. This is a formal
+compatibility/uniqueness-boundary test; causal and cognitive adequacy is not
+established, and contingent coverage remains vacuous in the old all-present
+ontology. The same three-result check set verifies the control. Root routes, root-reaching
+statement IDs, open-premise count and depth counts are unchanged. Each joint
+attribute route has twelve non-floor leaves; this is not a global minimum.
+The new established finite-control statement is not a truth certificate for
+its stipulated causal or cognitive interpretation.
