@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCC-CONDENSATION",
+  "term": "strongly connected component and condensation of a projected membership graph",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.condensed",
+  "definition": "comp maps an event to its Mathlib Quiver.StronglyConnectedComponent of the projected graph: two events share a component when finite upstream paths run both ways. condensed has an edge between distinct components when some member edge joins them. condenseGroups replaces members by their components and drops any member in the effect's own component, keeping admission. condensedIntrinsic counts a component as intrinsic when some member is intrinsic. GraphCut is a set with no intrinsic member and no incoming edge from outside it.",
+  "note": "Graph vocabulary only. A component is a reachability class, not a substance, cause, ground, explanation or joint agent; a source component is not an ultimate foundation. Membership includes enablers, so a component can arise through an enabling edge. See docs/notes/scc-sufficiency-752.md."
+}

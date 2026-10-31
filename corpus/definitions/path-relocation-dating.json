@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PATH-RELOCATION-DATING",
+  "term": "re-dating, dated and undated contrast",
+  "definition": "ShiftInvariant C says moving every date by one step preserves C. shiftWorld gives the same path re-dated by one step. SameUpToDating f g says g is f after one common re-dating. A dated contrast treats f and its re-dating as rivals because their values at given times differ; an undated contrast compares paths only up to SameUpToDating. Changes f says some state differs from the next by value.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PathRelocation.SameUpToDating",
+  "note": "The formal results take no side on whether a dated contrast is genuine. The source context for that dispute is LEIBNIZ-III-6-TEMPORAL-REASON and CLARKE-III-4-6-TEMPORAL-REPLY, which are not formalized by these definitions. Changes is value difference only, not A-series passage."
+}

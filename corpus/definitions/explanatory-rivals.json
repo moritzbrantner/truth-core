@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-RIVALS",
+  "term": "shared rival accounts of one target",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.rival",
+  "definition": "Rivals share worlds Nat, actual world 0, universal accessibility, the fact signature Fact and the explanandum Fact.target. ground: a necessary being's existence fact is a nonnecessitating reason for the target and, at rival worlds, for another outcome. plural: two such beings. law: the truths and reasons of ground with the target's contingent bearer as only being. chain: infinitely many contingent members, each reason for its predecessor, member 0 for the target and every member for the whole. brute: a contingent terminus with no reason. idle: a necessary being and no reasons. necessitarian: the target has no rival world. tokenExpand adds a fact true everywhere as sole reason for each contingent truth. overlay reads the #735 modal overlays as arenas whose reasons are actual graph contributors.",
+  "note": "Analyst-built interpretations, not metaphysical possibilities. In the shared-signature rivals the signature has no personal-agency predicate and Causes is empty. law may be read as a necessary law or as a bare token; the arena is the same. See docs/notes/explanatory-adequacy-750.md."
+}

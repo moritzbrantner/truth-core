@@ -1,0 +1,29 @@
+{
+  "id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+  "inference_ids": [
+    "INF-EXPLANATORY-ADEQUACY-COMPARISON"
+  ],
+  "meaning": "Model verdicts for reason closure, contrast relevance, two-way reasons and the circular necessary-being stop on one target and shared rivals, with non-theistic witnesses, the general token expansion and #735 overlays. It defends no standard and shows no model metaphysically possible. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-adequacy-750.md.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-TWO-WAY",
+    "DEF-EXPLANATORY-BEING-STOP",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}

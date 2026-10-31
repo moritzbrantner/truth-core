@@ -1,0 +1,32 @@
+{
+  "id": "FIRST-WAY-SLICE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-FIRST-WAY-SLICE-CONTROLS",
+  "inference_ids": [
+    "INF-FIRST-WAY-SLICE-CONTROLS"
+  ],
+  "meaning": "A universal conditional: under StrictForward, the link bridge, the time-sliced strong per se premise and the pure-act premise at each time, each mover of another at t has no potency in any respect at t. Four models of the local route premises with stipulated predicates: (1) strictly forward feedback A₀→B₁→A₂, where A is a first unmoved mover at t=1 and B at t=2, no being that ever moves is unmoved at every time, and FirstUnmovedMoverIsPureAct fails at t=1 because A has potency in another respect there; (2) a strictly forward successor chain with a first unmoved mover at each event's clock value, whose event relation has a cause for every event and is not well-founded; (3) the simultaneous alternating circle, where the slice regress premise and the slice first-mover conclusion fail at time 0; (4) a simultaneous chain 0→1→2 satisfying also the conditional regress premise, with 0 a first unmoved mover at time 0. Satisfiability controls only: not actual causal history, metaphysical possibility or explanatory sufficiency.",
+  "definition_ids": [
+    "DEF-TEMPORAL-DIRECTION-PROFILES",
+    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+    "DEF-TEMPORAL-MOTION-PROJECTION",
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PER-SE-LINK-STRONG",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
+    "DISAMB-PER-SE-LINK",
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MOTION",
+    "DISAMB-IN-ACT"
+  ]
+}

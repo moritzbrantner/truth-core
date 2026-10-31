@@ -1,0 +1,10 @@
+{
+  "id": "FIRST-WAY-SLICE-ROUTE",
+  "argument_id": "FIRST-WAY-SLICE-ROUTE",
+  "challenge_module": "TruthCore.Results.Causality.TemporalPrimaVia.Route.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalPrimaVia.Route.route",
+  "comparator_config": "results/FIRST-WAY-SLICE-ROUTE/comparator.json",
+  "status": "solution-present",
+  "description": "Fork applied here: TEMPORAL-DIRECTION-FRAMEWORK is instantiated and case-split in TemporalPrimaVia.Route.route. Strict horn: the link bridge leaves no per se link at any time, so the regress hypothesis of the exact imported AQUINAS-ST-I-Q2-A3-PRIMA-VIA theorem holds at each slice, and each mover of another at t is unmoved at t. Simultaneous horn: the conditional regress premise supplies that hypothesis, and it also excludes every closed event walk. Backward horn: rejected by NoBackward. All ten premises remain open. The conclusion is in the slice sense (DEF-TIME-SLICED-FIRST-MOVER), not STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING, and STMT-NO-INFINITE-PER-SE-MOVER-SERIES is not discharged. Root-route delta zero."
+}

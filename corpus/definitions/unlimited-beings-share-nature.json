@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
+  "term": "bridge: beings without a limiting principle share a nature",
+  "definition": "For all beings x and y, if neither has a limiting principle then essence x = essence y. It ranges over all beings of the carrier and holds vacuously at every pair with a limited member.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.RootMultiplication.UnlimitedBeingsShareNature",
+  "note": "Open, unattributed bridge. It concerns equality of represented nature values, not numerical identity of beings. No source statement of this universal form has been read; De ente c.3 and Compendium I.15 give an inventory of multiplication modes whose exhaustiveness is the disputed point. A source for it would have to state that every difference of nature entails one of the three disjuncts."
+}

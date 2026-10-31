@@ -194,3 +194,60 @@ attempt. One corrected CLI comparison took 9.288 s against service 2.500 s
 (HTTP 2.518 s, lease 28 μs). These are single-run development observations;
 retain the service with dependency readiness/cold-timeout handling, without a
 proof-throughput claim. They do not certify the final canonical revision.
+
+## First Way route consumption (#718)
+
+`FIRST-WAY-SLICE-ROUTE` applies the exact `primaVia` theorem at each clock time and
+case-splits the imported direction fork, in one semantics: the prima via module
+reads its time-free vocabulary *simul*, and a clock slice is one analyst
+instantiation of that. Nothing below is a source reading. The witnesses audited
+above (`AQUINAS-ST-I-Q2-A3`, `ARIST-PHYS-VII-1`) were re-materialized; no claim
+was added.
+
+| Horn | Regress hypothesis at each slice | Other consequence | Survivor |
+| --- | --- | --- | --- |
+| `StrictForward` | Derived: the open link bridge leaves no per se link | Each mover of another at t is unmoved at t; no finite event cycle (imported) | Feedback A₀→B₁→A₂; successor chain with non-well-founded events |
+| `NoBackward ∧ HasSimultaneous` | Supplied by open `RegressIfSimultaneous` | The regress premise excludes every closed event walk | With the premise: chain 0→1→2. Without it: the alternating circle, where the slice conclusion fails |
+| `HasBackward` | Not reached | Rejected by open `NoBackward` | None under the theorem's premises; the #700 control still witnesses the horn without them |
+
+The three test structures of #718: entity feedback over distinct successive events
+is the first survivor; same-time reciprocal power in different respects is the
+circle; a time-decreasing loop is the rejected third horn.
+
+**How much the fork does.** Coverage is elementary. The slice first-mover conjunct
+also follows from the bridge by cases on `HasSimultaneous` alone. Coverage is what
+yields `StrictForward` in the outcome's first disjunct, and that disjunct is what
+carries the discriminating consequence.
+
+**What the strict horn's discharge is worth.** The regress hypothesis holds there
+because the slice relation is empty, not because a series stops. A successor chain
+has a first mover at each event's clock value and a cause for every event, so the event-level
+regress obligation is untouched. Do not read this as progress on
+`STMT-NO-INFINITE-PER-SE-MOVER-SERIES`.
+
+**Constraint found.** `StrictForward`, the link bridge and the strong per se premise
+at a time jointly exclude a mover of another that is moved in any respect at that
+time. That excludes the hand moved while moving the stick, and a mover moved in an
+irrelevant respect. So whoever takes the hand/stick case as a real instance must
+deny `StrictForward`, the bridge or the strong sliced premise. Adding the slice
+pure-act premise (`StrictPureActConflict`) yields that no mover of another has any
+potency at its time. In the feedback model the slice instance of
+`STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT` fails: A, the first mover at t = 1, has
+potency there for its later respect.
+
+**Meaning of the link bridge.** In ordinary language: when the stick moves the stone
+only as moved, the stick's token and the stone's token are exercised at the same
+time, as in the hand/stick case. Counterexamples to neighbouring relations: a father's
+begetting and his son's later begetting are successive, per accidens, and no link; a
+remote clock tick precedes another with no edge. It differs from `C`, which holds on
+edges that are not links, and from temporal precedence. No transitivity, asymmetry or
+well-foundedness is assumed of it. No generalization from these examples to all
+causation is made. Rivals: a strict-production account can deny the bridge, or keep it
+and accept that no time has a link; a regularity account can reject token production;
+an infinitist can keep the bridge and deny the regress premise. None is refuted here.
+
+**Missing bridge and root delta.** To reach the root route, the slice conclusion
+needs a defended premise that some slice first mover is unmoved at every time, or
+a reading on which the time-free vocabulary is not a clock slice. The feedback
+model shows the first does not follow from these premises. Root-route delta is
+zero; `DISAMB-UNMOVED-AT-A-TIME` keeps the two senses apart.

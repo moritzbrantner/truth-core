@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-UNMOVED-AT-A-TIME",
+  "term": "unmoved (at a time, or at every time)",
+  "sense_definition_ids": [
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-FIRST-UNMOVED-MOVER"
+  ],
+  "resolution": "DEF-FIRST-UNMOVED-MOVER is time-free and quantifies over respects, not times. Results that instantiate it at a clock time conclude only DEF-TIME-SLICED-FIRST-MOVER. FIRST-WAY-SLICE-CONTROLS has a model with a different first mover at each of two times and no being that ever moves and is unmoved at every time, so no step passes from the slice sense to unmoved at every time. FIRST-WAY-SLICE-ROUTE keeps its conclusion in the slice sense and does not bind to STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PATH-RELOCATION-CERTIFICATE",
+  "argument_id": "PATH-RELOCATION-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Explanation.PathRelocation.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PathRelocation.Solution",
+  "theorem": "TruthCore.Results.Explanation.PathRelocation.certificate",
+  "comparator_config": "results/PATH-RELOCATION-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "Relocation constraints: invariant uniqueness forces stationarity on Int time; composed whole-vector failure for changing paths; token and law-copy re-encoding; undated graph-law selection; functional restriction; finite boundary parametrization; splicing; dated acyclicity. No adequacy, law actuality or root premise is certified."
+}
