@@ -4,10 +4,6 @@
   "theorem_names": [
     "TruthCore.Results.Explanation.NecessaryFactBoundary.checks"
   ],
-  "permitted_axioms": [
-    "propext",
-    "Classical.choice",
-    "Quot.sound"
-  ],
+  "permitted_axioms": [],
   "enable_nanoda": true
 }

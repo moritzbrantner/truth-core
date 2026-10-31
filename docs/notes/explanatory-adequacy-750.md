@@ -240,8 +240,19 @@ concrete support would require their own sourced interpretation and interfaces.
 The new statement packages a universal conditional and its matched control;
 its empty outer argument-premise list does not establish its internal premises.
 
-Development uses the existing pinned Lean toolchain and CLI fallback: no local
-service/preview was running when inspected. A focused build of the imported
-ExplanatoryAdequacy solution is in progress; the new Challenge was frozen before
-its Solution. No verification claim is made before the new result passes its
-build, binding and Comparator/NanoDa gates. No original Challenge is edited.
+Development used the existing pinned Lean toolchain and CLI fallback because
+no local service/preview was running. The cold source build was stopped to use
+the same pinned prebuilt Mathlib cache as CI, without a dependency change.
+Focused `lake build TruthCore.Results.Explanation.NecessaryFactBoundary.Solution`
+then passed, as did the existing BindTypes/bind_result path restricted to this
+result (bound, no problems) and
+`scripts/verify-result.sh NECESSARY-FACT-BOUNDARY` including NanoDa with zero permitted axioms. The independent Lean axiom report
+also reports no axioms; excluded middle remains a quantified premise inside
+the conditional. This checks
+the formal conditional and named interpretation, not their metaphysical
+applicability. Full-library integration remains a delivered-head CI check.
+The Challenge was frozen before its Solution with SHA256
+`3b7e1581c6f97de7e8b1e068a8e9e543a5421531e97dce719a0f87c6af8d53f1`;
+no original Challenge changed. Root route costs and open-premise membership
+remain unchanged (11 routes,62 open), and this result is off root paths.
+Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
