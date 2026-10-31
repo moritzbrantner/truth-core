@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CountTemporalNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountTemporalNecessity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CountTemporalNecessity.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL",
+  "paraphrase": "Every individual temporally present at any time in a history actually exists at that same modal world, using the original Ontic. This one-way ever-history bridge is an explicit open interpretation; it is not derived from now-slice coherence.",
+  "lean_declaration": "TruthCore.Causality.CountTemporalNecessity.HistoryPresenceActual",
+  "definition_ids": [
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
