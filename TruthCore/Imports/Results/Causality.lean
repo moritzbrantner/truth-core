@@ -72,7 +72,10 @@ import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 import TruthCore.Results.Causality.RootIntellectWill.Solution
 import TruthCore.Results.Causality.RootIntellectWillOmission.Solution
+import TruthCore.Results.Causality.RootIntellectWillPureAct.Solution
+import TruthCore.Results.Causality.RootIntellectWillPureActPlurality.Solution
 import TruthCore.Results.Causality.RootIntellectWillReduced.Solution
+import TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
 import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
