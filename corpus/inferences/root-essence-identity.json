@@ -1,0 +1,18 @@
+{
+  "id": "INF-ROOT-ESSENCE-IDENTITY",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-ROOT-ESSENCE-IDENTITY",
+  "rule": "constructive-proof",
+  "meaning": "Import WholeRosterFoundation.necessaryActualRoot with its four unchanged inputs. Preserve that same actual necessary root. For this root, assume represented essence/esse nonidentity; ExistingInActAt supplies the q3 actuality antecedent. Imported EssenceEsseExternalCause.distinctEsseExternalFromExhaustion supplies a distinct efficient esse cause under the two explicit source premises. Existing direct EsseCauseIsActualConcreteGround turns that cause into an actual concrete selected ground, contradicting rootness. Explicit EM yields represented identity. The same q3 Profile fields occur definitionally in the actuality and cause-ground interfaces; no extra parameter correspondence, global underivedness, max/genus causality, grades, union-WF or modal lifting is used. This proves a conditional attribute connection, not independent defense of the source causal dichotomy, no-self-cause principle or existential correspondence. No weaker-overall-bundle claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

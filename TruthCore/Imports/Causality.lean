@@ -45,6 +45,7 @@ import TruthCore.Causality.PluralRootConfluence
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
+import TruthCore.Causality.RootEssenceIdentity
 import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest

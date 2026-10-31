@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RootEssenceIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootEssenceIdentity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RootEssenceIdentity.necessaryRootIdentity"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
