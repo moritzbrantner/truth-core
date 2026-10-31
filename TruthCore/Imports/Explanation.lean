@@ -3,6 +3,7 @@ import TruthCore.Explanation.CondensationSufficiency
 import TruthCore.Explanation.ConservativeReasonExpansion
 import TruthCore.Explanation.ExistencePSR
 import TruthCore.Explanation.ExplanatoryAdequacy
+import TruthCore.Explanation.ExplanatorySymmetry
 import TruthCore.Explanation.HistorySelection
 import TruthCore.Explanation.JointCooperation
 import TruthCore.Explanation.LawActuality

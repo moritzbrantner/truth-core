@@ -34,7 +34,7 @@ standard, exclude no position unconditionally, and no model's metaphysical possi
    has no net selection.
 3. **Opposite pro tanto reasons keep two-way answers and lose net selection.** `acting` has a
    pro tanto reason for each outcome at its own world, and no net selection at `0` or `1`. This
-   holds for any frame whose worlds agree on the base.
+   holds for any frame with base-fixed favouring whose two worlds agree on the base.
 4. **Favouring settled by the outcome keeps net selection and reports the outcome.** `settled
    ground` has net selection at every world. Under factive favouring, at a selected world, some
    base reason favours `f` over `g` exactly when `f` is true and `g` false. So this favouring is
@@ -67,16 +67,15 @@ Every deletion is certified, so it is inclusion-minimal, not minimum cardinality
 | `f` true at `a` | `necessitarian`, `f` the rival | No rival outcome is true |
 | `f` false at `v` | `necessitarian`, `f` the target | The target has no rival |
 
-The core forces rejection of at least one member and chooses none. `varying` also fails `nonCopy`
-at no pair: its members are not coextensive with the target, which also holds at `2` by another
-member. This list is not a partition of all positions.
+The core forces rejection of at least one member and chooses none. In `varying` the target's
+reasons are not coextensive with it, since member `2` serves at another world, while member `1` is
+coextensive with the rival outcome. This list is not a partition of all positions.
 
 ## Selection and collapse
 
 `CollapseCore` needs an aggregate, necessitating reasons and more; it is about a BCCF. The second
 conjunct of `core` needs no aggregate and no necessitation, but demands selection at each
-accessible world over an outcome field. The results are independent, and neither is derived from
-the other. They agree on one thing, which is the crux: demanding an answer at every history, from a
+accessible world over an outcome field. Neither is derived from the other here. They agree on one thing, which is the crux: demanding an answer at every history, from a
 base shared by those histories, has a modal price. `ground true` of #755 is the same structure with
 no rival-outcome fact, and so the first bundle does not apply to it.
 
@@ -87,7 +86,7 @@ Earlier results found one structure. This note tries to separate them.
 | Candidate separator | Result |
 | --- | --- |
 | Reasons for each option | `Marks.twoWay`; `acting` has it with any flag |
-| Incommensurable reasons | `Marks.plural`; the per-reason structure, which a scalar frame cannot have |
+| Opposing reasons | `Marks.plural`; per-reason in `acting`, and no scalar frame has opposite pro tanto reasons |
 | An act of choosing | `Marks.interposed`; the gap moves to the act (finding 5) |
 | Open alternatives | `Marks.open_`; `acting` has it |
 | Self-settling favouring | `settled`; coextensive with the outcome, and defined for any arena |
