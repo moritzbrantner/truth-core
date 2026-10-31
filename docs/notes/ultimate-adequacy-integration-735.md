@@ -101,6 +101,9 @@ proof/record/config/matrix files match the research bytes; generators select
 only the public corpus. CI run `41249114042` is confirmed live (comparator-plan
 job `124678703387` in progress). Current-head review requested once at
 [the review request](https://github.com/moritzbrantner/truth-core/pull/831#issuecomment-6550084407).
+Exact-head #831 review subsequently completed without findings; corpus/Lean,
+explorer and the result shard passed, while the same library job remained live
+certifying registered proposition-strength comparisons.
 Next delivery step: inspect that same run and exact-head review, fix concrete
 findings if any, then merge only after required checks/review pass. Do not
 restart a live run or infer delivered success from local checks.
@@ -128,6 +131,30 @@ these existing individuation/positive-act interfaces against their dossiers,
 not to restate uniqueness as another opaque bridge. No new source reading or
 premise selection follows from this audit.
 
+Current scope-minimization lane: DirectEsseRootUniqueness uses its global
+maximum-to-cause and grades-to-maximum commitments only at esse. Reuse the
+existing being-only genus statement; a new fixed-esse grades interface can
+supply the old proof through Unit-restricted dictionaries. Two intended
+Boolean scope controls retain the new eight inputs while separately failing
+the global genus principle or global grades principle outside esse. This is
+scope reduction, not an independent warrant for maximum-to-cause, and remains
+unverified until final checks. Do not weaken it further to root-recipient-only
+causal coverage: given a selected root, that restriction effectively repackages
+uniqueness. All-actual-recipient direct coverage retains additional causal
+content; a unique source in a nontransitive graph need not directly ground
+every indirectly dependent target (existing SourceForest diamond is only a
+graph-level control, not a newly certified full Profile instance).
+
+The positive empty-history compatibility lane uses the UNCHANGED count
+history and its full existing PositiveControl. A new fact arena supplies
+faithful individual existence facts and a fixed contingent negative fact
+causally marked at world false. Necessary none exists in every world, while
+contingent some0 exists only in true; thus the impossible literally empty
+concrete branch is explicitly absent. CauseFact, ordinary Ontic.Causes and
+fact-reasons retain distinct dictionaries. Focused compilation passes; final
+binding/Comparator/NanoDa remains pending. This checks that the two route
+frameworks can coexist without claiming causal or metaphysical adequacy.
+
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
 and the existing first-pass attempt. Source-search outcome is now succeeded
@@ -144,8 +171,20 @@ bundle contains three commitments. Full build/binding/Comparator/result and
 library NanoDa passed; the negative-fact admission, EVER-history mapping and
 causal application remain explicit. The same concrete witness is retained,
 with a causal role promised only in its caused-fact branch. This is not the
-nonempty-history externality argument. Publish separately when selected;
-no source/attribute result depends on pretending it is already on main.
+nonempty-history externality argument. [PR #832](https://github.com/moritzbrantner/truth-core/pull/832) now publishes
+its seventeen standalone artifacts and generated imports from public main,
+head `15f9248049b7c7ce64940687370afb5a6f21379d`, branch
+`research/empty-history-causal-availability-20261031`, worktree
+`/home/moenarch/.cache/truth-core-worktrees/count-temporal`. Public build4311,
+binding795/two legacy pins/zero mismatch, Comparator and result NanoDa pass.
+Independent publication review accepts consequence and scope, including that
+the literally empty-concrete branch is eliminated under the full inputs, not
+certified realizable. Current-head review requested once at
+[the review request](https://github.com/moritzbrantner/truth-core/pull/832#issuecomment-6550142184).
+CI run `41249534421` is confirmed live (initial comparator-plan job
+`124679954142`); review is pending. Private survey/candidate/handoff changes
+are excluded.
+No source/attribute result depends on pretending it is already on main.
 
 ### Delivery integrity evidence retained
 
