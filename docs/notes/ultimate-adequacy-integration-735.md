@@ -2,23 +2,28 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#816](https://github.com/moritzbrantner/truth-core/pull/816) are
-merged. Latest merge `de4869b506cd45ce3dd9d629fd9cc6791dc7b765` passed all CI
+PRs #810–[#817](https://github.com/moritzbrantner/truth-core/pull/817) are
+merged. Latest merge `287c61289df625d7fcfeeb1286610c526cba7f04` passed all CI
 checks and current-head review without findings (reviewed head
-`5eb86a6ca91c3972dda750f72521e0abb3af66d7`, CI run `41222711343`). The
-successor audit commit is `b4fae115`; verified implementation `afe46c04` adds
-the eleven-input same-root three-horn connection on the same research branch.
-Full build, binding (781 bound, two existing pins, zero mismatches), zero-axiom
-Comparator and independent NanoDa passed. Delivery is [PR #817](https://github.com/moritzbrantner/truth-core/pull/817),
-head `cd240b133151839da167e50298aeeed8f00bd50a`. Current-head review completed
-without findings; CI run `41223817438` has passed the new-result shard, corpus
-and explorer checks, with the library-wide check still running.
-The new endpoint costs10/direct11; God/Catholic/unique-root unions66/73/14 and
-all existing route costs are unchanged. It discharges no philosophical premise. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
-proves equality of its represented essence/esse under eight explicit inputs,
-without genus causality, a maximum, grades or all-world modal lifting.
+`cd240b133151839da167e50298aeeed8f00bd50a`, CI run `41223817438`). The
+same-root essence identity and eleven-input three-horn connection are now on
+main. Full build, binding (781 bound, two existing pins, zero mismatches),
+zero-permitted-axiom Comparator and independent NanoDa passed. God/Catholic/
+unique-root unions66/73/14 and all existing route costs are unchanged; no
+philosophical premise was discharged.
+
+The successor source audit is `bf59ae69`, reading all six chapters of Plotinus
+VI.9.1–6. Six new passage witnesses passed live immutable-source verification.
+The sequential findings and exact source/domain boundaries are in
+[the existing Plotinian note](plotinian-composition-unity.md). The exhausted
+V.4/VI.9 candidate was removed. This supplies a positive constituent-need and
+self-sufficiency argument, but no independent exclusion of two individually
+intrinsic simple whole natures; no source claim, Lean theorem or root edge was
+added. The next source for that numerical-common-source/individuation gap is
+not yet selected. Publication/review of this source-only batch remain pending.
+
 No owner truth selection has been inferred; A remains explicitly accepted,
-and other rows retain their prior working/pending distinctions.
+and other ledger rows retain their prior working/pending distinctions.
 
 The source audit found a positive local route in q.3 a.4 before universal
 causality or numerical unity: distinct actual esse would require an external
