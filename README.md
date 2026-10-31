@@ -15,6 +15,14 @@ The MVP deliberately keeps source evidence, proposition identity, source interpr
 
 The public Palomar registry currently targets research mathematics. This repository therefore uses Palomar's mechanical architecture without pretending that its philosophical entries are public Palomar registrations.
 
+## Research strategy: explore competing frameworks
+
+The overarching goal remains a rigorous investigation of the case for Catholicism and its strongest alternatives. In the foundational phase, Truth Core explores combinations of propositions, philosophical views, rules and semantic assumptions, including different routes toward a necessary concrete being. A framework's primitive commitments may be contested: they are explicit inputs to an investigation, **not questions that must all be independently settled before the investigation can proceed**.
+
+For each declared framework and semantic profile, reuse verified arguments to derive consequences; seek weaker sufficient assumption sets and other routes to the same target; identify inconsistent combinations; witness coherent alternatives with models; and preserve unresolved branches. Explore the effect of accepting, rejecting or changing a consequential low-level commitment. Formal models and Lean theorems certify only the encoded consequences, not that the framework accurately describes reality.
+
+Conditional derivations, minimized premise sets, countermodels and discriminating forks count as progress even when no assumption becomes established. Report those discoveries separately from root-frontier closure. The existing standards for sourcing attributed claims, preventing premise smuggling, checking proofs and claiming an established root conclusion remain unchanged. See [the agent research contract](AGENTS.md#conditional-framework-exploration-owner-direction-2026-10-31) and [configuration elimination](docs/configuration-elimination-loop.md).
+
 ## Corpus model
 
 The canonical corpus is **not a DAG**. The global structure may contain mutual implication, contradiction, equivalence relations, or other cycles. A particular proof/explanation may still be projected as an acyclic derivation for visualization.
@@ -154,6 +162,6 @@ See [`AGENTS.md`](AGENTS.md). The key invariants are:
 
 > A source worker must materialize and read the pinned primary text before formalizing a claim.
 >
-> A proof worker must never invent a substantive philosophical premise just to finish a proof. If a premise is missing, it becomes a new source-research candidate.
+> A proof worker must never smuggle a stronger premise into an existing proof. A missing premise may instead define a separate, explicitly labeled framework branch; investigate its consequences and countermodels, and seek source evidence when making a source-attributed claim.
 
 This makes both source uncertainty and failed proof attempts useful: they expose exactly which evidence or philosophical commitment still needs to be reviewed, sourced, and formalized.

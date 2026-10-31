@@ -116,20 +116,32 @@ for the attempt format and reference boundaries.
 - Keep source interpretation, proposition extraction, formalization, proof search, and proof verification distinct. Lean's kernel verifies accepted proof terms; tactics, solvers, and LLMs are search helpers, not authorities.
 - Machine-checkable does not mean automatically discoverable. Failure to find a proof is not a refutation, and formal verification establishes consequence only inside the encoded system—not premise truth, source fidelity, empirical truth, or completeness of the chosen logic.
 
+## Conditional framework exploration (owner direction, 2026-10-31)
+
+Truth Core retains its purpose: investigate the case for Catholicism and the strongest competing worldviews. In the foundational phase, systematically explore combinations of low-level propositions, rules, framework commitments and semantic profiles, including routes to necessary concrete being and alternative conclusions. Do not turn this into an endless demand to justify each primitive assumption before studying its consequences.
+
+- **Assumptions are legitimate research inputs.** A framework may take agency, causal structure, a PSR variant, a modal rule or another contested commitment as given. Declare the commitment and its interpretation explicitly; distinguish stipulated framework assumptions from claims attributed to sources. Independent proof of the assumption is not a prerequisite for conditional investigation.
+- **Explore the configuration space.** Compose checked results, seek multiple routes to the same conclusion, minimize sufficient assumption bundles, derive incompatible cores, and construct joint models of surviving branches. Compare changes when consequential commitments are added, removed or reversed. Keep the logic and semantic profile fixed for each comparison, or mark the required bridge.
+- **Classify outcomes precisely.** Record conditional entailment, contradiction under stated assumptions, a model-witnessed alternative, or unresolved search. A failed proof search is not a refutation; an inconsistent background cannot support a nonvacuous victory. An abstract model witnesses only the stated formal interpretation.
+- **Count conditional progress.** A new implication, weaker sufficient premise set, incompatibility, countermodel or distinguished alternative is genuine research progress even when no philosophical premise is independently defended. Report configuration/derivation progress separately from the existing root-frontier closure status; do not silently claim that a conditional theorem establishes a premise or the root as true.
+- **Avoid recursive premise-defense by default.** Investigate independent warrant, source interpretation or real-world applicability when that is the selected research question, when it discriminates serious surviving alternatives, or when an unconditional truth claim is being made. Otherwise keep the assumption open and continue exploring configurations. Do not automatically spawn a new source task for every open primitive.
+
+Existing Challenge/Solution boundaries, source fidelity, exact premise reporting, no-smuggling rules, and root-closure criteria remain in force. This direction governs research priorities and the interpretation of progress; it does not declare any particular framework's assumptions true.
+
 ## Semantic grounding of metaphysical relations
 
-Every newly introduced or substantially reinterpreted relation involving causation, dependence, grounding, contingency, necessity, or explanation must have an independently defensible interpretation.
+Every newly introduced or substantially reinterpreted relation involving causation, dependence, grounding, contingency, necessity, or explanation must have a clear, non-equivocal interpretation. Its independent applicability to reality may remain open while the relation is explored as an explicit framework assumption.
 
 For philosophically significant relations:
 
 1. Explain their meaning in ordinary language.
 2. Identify concrete examples and counterexamples, or explicitly record why examples remain unavailable.
 3. Distinguish them from superficially similar relations.
-4. Independently justify structural properties such as transitivity, asymmetry, and well-foundedness.
-5. Justify any generalization from ordinary experience to metaphysical claims.
+4. State structural properties such as transitivity, asymmetry, and well-foundedness explicitly; when their real-world applicability is claimed, defend that interpretation or mark it open.
+5. Mark any generalization from ordinary experience to metaphysical claims as an explicit bridge; investigate both accepting and rejecting it when consequential.
 6. Test the interpretation against serious competing accounts.
 
-A formally verified theorem establishes a conditional consequence, not the truth or applicability of its metaphysical interpretation. Never treat a mathematical relation as genuinely causal or explanatory merely because of its name.
+A formally verified theorem establishes a conditional consequence, not the truth or applicability of its metaphysical interpretation. This is a boundary on what may be claimed, not a prerequisite to independently prove each premise before exploring the framework. Never treat a mathematical relation as genuinely causal or explanatory merely because of its name.
 
 ## Permanent invariants
 
@@ -141,7 +153,7 @@ A formally verified theorem establishes a conditional consequence, not the truth
 6. **Do not merge by similarity.** Textual identity, translation equivalence, formal equality, logical equivalence, philosophical equivalence, and historical identity are different possible relations. Add relations later; do not silently merge statement IDs.
 7. **Reuse before invention.** Search existing statements and Lean declarations before adding vocabulary. Reuse only when the meanings genuinely coincide; a false identification is worse than a duplicate statement.
 8. **Weakest faithful formalization.** Do not strengthen a source passage to make later arguments easier.
-9. **No premise smuggling.** A proof worker may not add an axiom, assumption, definition, or stronger reading solely because a proof needs it. Create a new candidate and source it instead.
+9. **No premise smuggling.** A proof worker may not silently add an axiom, assumption, definition, or stronger reading to an existing argument or frozen Challenge solely because its proof needs it. Register a consequential stronger assumption as a separate, explicitly labeled framework configuration or candidate and compare its consequences. Source it when attributing it to a text; an openly stipulated framework commitment need not be independently proved to be explored. It does not close a root premise.
 10. **Inference is explicit.** Arguments connect statement IDs through inference-application records. Never encode a logical step as an overloaded bare statement-to-statement edge.
 11. **Global cycles are allowed; circular proof is not.** Semantic relations and mutually supporting statements may form cycles. Each advertised argument must still be grounded in its premises and mechanically checked by Lean/Comparator.
 12. **Challenge is frozen before solution work.** Never weaken or otherwise edit a Challenge merely to make the Solution pass. If source review changes the statement, treat that as a new/revised claim first.
@@ -256,10 +268,9 @@ Scoped assumptions and discharged assumptions belong to inference records. They 
 
 If a Solution cannot be proved from the advertised premises:
 
-- do not add an axiom;
-- do not strengthen a definition;
-- do not broaden an existing source claim;
-- create a candidate describing the missing philosophical proposition and the source location that should be investigated.
+- do not change the frozen Challenge, silently add an axiom, strengthen a definition, or broaden an existing source claim;
+- test for a countermodel or a useful alternative configuration and record the unresolved inference;
+- when a stronger commitment is worth exploring, register a separate candidate/configuration with that assumption explicit and compare its consequences; source research is required for attributed claims, not for every stipulated framework branch.
 
 ### 7. Verify the three boundaries
 
