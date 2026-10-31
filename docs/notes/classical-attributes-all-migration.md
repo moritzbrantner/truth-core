@@ -269,7 +269,7 @@ routes and the plurality control passed Comparator and independent result
 NanoDa. Scoped library NanoDa checked474 declarations with zero typechecker
 errors and one known axiom pretty-printer warning; all three theorem axiom
 reports are empty. Independent claim/type review found no findings.
-Delivered-head CI/review remains pending.
+These three results are delivered in #831, merge `ea184c10f892f9b0513e9fc6804ad1da6be483f8`, after required CI run `41249114042` and exact-head review passed.
 
 The proposed positive plurality control reuses the unchanged later five-being
 `PartFreePlurality` model. Both replacement conditions together give a
