@@ -308,3 +308,32 @@ Followed the actual `onclick` redirect targets in pinned A2p2: its negative/unsu
 **A2p2c → A2c3.** A2p2c expressly stipulates a revised class: a thing must by nature exist when it would automatically exist if its existence were even possible; everything else is called contingent. It then asks the respondent *again* to accept the exclusion of uncaused contingent things under that definition. A2c3 repeats the eleven-step causal possibility argument and replaces the full S5 suffix with a final paragraph invoking precisely that stipulation to infer actual concrete existence. The causal premise therefore has a changed classification; the original no-uncaused-contingents report cannot simply be carried over unchanged. The prose still uses the familiar must-exist and contingent tooltips, so the explicit redefinition and reaffirmation must govern this branch's reading rather than those labels silently restoring the original semantics.
 
 **Premise and witness boundary.** A2c2 retains the causal premises, adds the reported possible-impossibility conditional in place of the original possibility-independence report, and reaches the same explicit modal interface. A2c3 trades that suffix for an automatic-actuality stipulation and a newly reaffirmed causal exclusion for its complementary class. This does not establish a globally weaker bundle. A predicate satisfying a possible-existence-to-actual-existence conditional is not thereby the existing `NecessaryAt` predicate: scope at worlds, accessibility, and persistence of the same individual's class membership must be supplied. In particular, learning at a possible world that some individual satisfies the revised class does not by itself apply that individual's conditional at the actual world. A source-faithful formal design would distinguish this revised class and its transport/actuality reading from de re all-accessible-world existence; merely calling both “necessary” would hide the burden. Both alternate conclusions retain cause-capability, not ordinary physicality, as their concrete meaning. No new source claim, formal result or root-premise discharge follows from this reading.
+
+### Same-individual causal/modal composition
+
+`POSSIBLE-CAUSAL-SOURCE-NECESSITY` imports the verified full-ancestry source
+extraction and existing actual-source correspondence. Its `sameSource` helper
+keeps the accessible world v and individual c: c exists and has no existing
+incoming cause at v; the existing global `LocalCausalPrinciple` makes c
+necessary there; Euclidean accessibility transports that SAME c's existence to
+every successor of w, while actual reflexivity supplies its existence at w.
+The registered result projects this witness to the existing
+`STMT-KANT-CONVERSION-NECESSARY-WITNESS`, with nine existing argument consumers.
+It does not assert that c is uncaused at w.
+
+The five inputs are explicit excluded middle, the existing global local causal
+principle, Euclidean accessibility, reflexivity at w, and accessible failure of
+full headless-cone coverage. The latter four remain open commitments; global
+causal scope/distinctness is stronger than this proof needs, so no minimality
+claim is made. No concreteness or causal capability is inferred for an isolated
+source, and the result does not formalize A2c3's revised necessity class. It is
+an unattributed conditional reconstruction, not source endorsement or proof of
+metaphysical possibility. No de dicto existential necessitation, universal
+accessibility, transitivity, WF or cause-to-ground identification is used.
+
+Full build, exact binding, zero-permitted-axiom Comparator and independent
+NanoDa passed. The shared necessary-being endpoint gains cost4/direct5 under
+the existing classical floor; its old costs2,2,3 remain unchanged. Its reachable
+premise union grows13→17 through alternative dependencies, removing none.
+God/Catholic/unique-root route costs and unions remain unchanged. No
+philosophical premise is discharged.

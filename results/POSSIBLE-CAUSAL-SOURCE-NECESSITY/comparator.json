@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PossibleCausalSourceNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PossibleCausalSourceNecessity.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

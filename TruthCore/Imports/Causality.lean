@@ -43,6 +43,7 @@ import TruthCore.Causality.OccurrenceUnderivedEssence
 import TruthCore.Causality.ParityUnionRegress
 import TruthCore.Causality.PartFreePlurality
 import TruthCore.Causality.PluralRootConfluence
+import TruthCore.Causality.PossibleCausalSourceNecessity
 import TruthCore.Causality.PossibleCauseOfContingency
 import TruthCore.Causality.PowerExistenceBoundary
 import TruthCore.Causality.RegressReadings
