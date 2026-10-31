@@ -4,9 +4,12 @@
 
 PRs #810–[#815](https://github.com/moritzbrantner/truth-core/pull/815) are
 merged. Latest merge `d8895103` passed repository CI and completed review with
-no findings. The successor's verified implementation is `fea3e6d7` on
-`research/lean-existential-self-actualization-20261031`; delivery/review is
-pending. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
+no findings. The successor is [PR #816](https://github.com/moritzbrantner/truth-core/pull/816),
+head `5eb86a6ca91c3972dda750f72521e0abb3af66d7`, on
+`research/lean-existential-self-actualization-20261031`. Its current-head review
+completed without findings; CI run `41222711343` is still running. The new-result
+Comparator shard and explorer checks passed; library/configuration and corpus
+checks remain pending. Local complete verification is recorded below. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
 proves equality of its represented essence/esse under eight explicit inputs,
 without genus causality, a maximum, grades or all-world modal lifting.
 No owner truth selection has been inferred; A remains explicitly accepted,
