@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EXISTENTIAL-BEARER-PRIOR",
+  "paraphrase": "For every occurring act a, Prior (inl (bearer a)) (inr a). The left token labels its bearer’s existence and the right token the act. There is no ExistsAt or truth field establishing that the labels really denote existing things; the productive interpretation is an explicit open commitment.",
+  "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.BearerPrior",
+  "definition_ids": [
+    "DEF-EXISTENTIAL-BEARER-PRIOR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+  ]
+}

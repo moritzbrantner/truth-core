@@ -14,6 +14,7 @@ import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.DerivativeJointPower
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
+import TruthCore.Causality.ExistentialSelfActualization
 import TruthCore.Causality.FiniteBranching
 import TruthCore.Causality.FiniteNecessaryUnion
 import TruthCore.Causality.FiniteRestriction

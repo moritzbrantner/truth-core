@@ -11,6 +11,7 @@ import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.DerivativeJointPower.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 import TruthCore.Results.Causality.FiniteBranching.Solution
 import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
@@ -46,6 +47,7 @@ import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 import TruthCore.Results.Causality.RootMultiplication.Solution
+import TruthCore.Results.Causality.SameRespectActualization.Solution
 import TruthCore.Results.Causality.SourceForest.Solution
 import TruthCore.Results.Causality.SourceWitness.Solution
 import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution

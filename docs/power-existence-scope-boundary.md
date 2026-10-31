@@ -562,3 +562,79 @@ additional admitted premise. All root-route open-premise sets are unchanged
 (delta zero). This audit narrows the proposed reading and identifies where
 analogy stops; it neither discharges WF nor denies that a later independent
 metaphysical argument could establish existential conservation.
+
+## Same-respect self-actualization: reusable proof and application limit
+
+On `research/lean-existential-self-actualization-20261031`, the two existing
+First Way intermediate inferences are now separately exposed as
+`SameRespectActualization.noSelfMotion` and `movedByAnother` under
+`TruthCore.Results.Causality`. The source is the unchanged first-way reading
+of ST I q.2 a.3 co.; the complete pinned `AQUINAS-ST-I-Q2-A3` passage was
+materialized and reread. No new source claim or philosophical predicate is
+introduced. The new result records consume the **existing** statement and
+inference IDs rather than creating synonyms.
+
+The four-line brief is:
+
+- **Target:** make the same-respect no-self step reusable in an existential
+  actualization investigation without strengthening its conclusion.
+- **Reuse:** the existing three act/potency premise statements, mover-existence
+  premise, no-self/moved-by-another statements and inference applications.
+- **Missing step:** standalone Challenge/Solution/Comparator contracts and
+  composition by both strong and relative First Way proofs.
+- **Premise comparison:** identical end-theorem hypotheses and conclusions;
+  no philosophical premise discharged. Existing end Challenges stay frozen.
+
+The first theorem derives
+
+```
+∀ x r, MovedIn x r → ¬ MovesIn x x r
+```
+
+from `MovedOnlyAsInPotencyReading`, `MovesOnlyAsInActReading`, and
+`NotActAndPotencyInSameRespectReading`. A self-mover that is being moved in
+that respect would be both actual and potential there. The second theorem
+adds the separately stated existence-of-a-mover law and derives
+
+```
+∀ x r, MovedIn x r → ∃ y, y ≠ x ∧ MovesIn y x r
+```
+
+The existential witness comes from the mover-existence premise; no-self only
+makes that witness distinct. The two First Way Solutions import these results
+instead of repeating both local derivations. The regress proof, its premises,
+and the end theorem types are unchanged.
+
+For an existential application, one may instantiate `r` with a supplied
+`esse` respect **only after** justifying the interpretation of `MovedIn` and
+`MovesIn` there. This theorem does not give `MovedIn x esse` from
+`ExistsAt w x`, from `InAct x esse`, or from modal contingency. Nor does it
+identify `MovesIn` with continuing existential support, a complete-history
+explanation or a noncausal intrinsic reason. The existing actuality-as-being
+law has direction from act in a respect to being; it supplies no reduction
+premise in the reverse direction. The source's same-time/same-respect contrast
+is represented at one implicit context, not a license to identify two times.
+
+Three claims must remain distinct: a moved subject cannot be its own mover in
+that same respect; an efficiently caused thing cannot efficiently originate
+itself under the second-way priority premises; and a being cannot have any
+intrinsic explanation of its existence. Only the first is concluded here.
+The second has its own source/type and premises; the third is not supplied by
+either the First Way intermediate or q.3 a.4's exclusion of efficient
+self-origination. Different-respect activity and temporally separated feedback
+are not refuted by dropping the qualifications from the first formula.
+
+The standalone results are conditional consequences, not premise truth or a
+proof of a necessary being. Existing act/potency omission controls remain the
+authority for independence from their tested premises; no new omission model
+or exhaustive metaphysical fork is claimed. This step improves composition
+without silently treating a contingent bearer as an actualization event.
+
+Verification: both new standalone results and the affected `AQUINAS-ST-I-Q2-A3-PRIMA-VIA`
+and `AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE` results passed focused builds, exact
+corpus type binding and Comparator/NanoDa with zero permitted axioms. The new
+Challenge SHA256 is `3adfec801af9d4e6c63bca6d2b68cb7212af6c3e18d3f08d9c70f2105537cb25`.
+Both original end Challenges are unchanged. Before/after route reports are
+byte-identical, and open-root-premise membership is identical: 11 routes,
+62 open premises (13 bare,49 sourced). No philosophical discharge is claimed.
+Final delivered-head CI retains full-library and reverse-dependency coverage.

@@ -1,0 +1,24 @@
+{
+  "id": "NO-EXISTENTIAL-SELF-ACTUALIZATION",
+  "premise_statement_ids": [
+    "STMT-EXISTENTIAL-BEARER-PRIOR",
+    "STMT-EXISTENTIAL-PRODUCT-PRIOR",
+    "STMT-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+    "STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+  ],
+  "conclusion_statement_id": "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+  "inference_ids": [
+    "INF-NO-EXISTENTIAL-SELF-ACTUALIZATION"
+  ],
+  "meaning": "The pre-existing branch two-step priority proof is independently registered with four named OPEN mixed-domain premises: bearer-to-act priority, productive act-to-existence-token priority, irreflexivity and transitivity. Their cycle contradicts self-production. This is an analyst conditional with no modal, PSR, well-foundedness, actuality-of-token or necessary-being conclusion. The new named-interface proof imports the original theorem and controls; the original Challenge and proofs remain unchanged. See docs/notes/unique-feedback-explanation-311.md. No philosophical premise is discharged.",
+  "definition_ids": [
+    "DEF-EXISTENTIAL-BEARER-PRIOR",
+    "DEF-EXISTENTIAL-PRODUCT-PRIOR",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+    "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+    "DEF-NO-EXISTENTIAL-SELF-PRODUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+  ]
+}

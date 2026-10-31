@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-EXISTENTIAL-SELF-ACTUALIZATION-REUSE-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-WHATEVER-IS-MOVED-IS-MOVED-BY-ANOTHER"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "On the user-requested research/lean-existential-self-actualization-20261031 branch, materialized/read full AQUINAS-ST-I-Q2-A3 and inspected existing statement dossiers/inferences. Exposed the two formerly repeated local First Way intermediate derivations as standalone named theorem/results using existing statement and inference IDs. Updated strong and relative First Way Solutions to import and compose them; existing Challenges and advertised end types stay frozen. Rejected treating no same-respect self-motion as universal irreflexivity of MovesIn, deriving actualization from modal contingency or bare existence, treating different respects/times as one context, or banning all intrinsic noncausal explanation. The external-mover existence premise remains independent of the no-self step. Scope and missing existential-support application persist in docs/power-existence-scope-boundary.md. New standalone results and both affected First Way results passed focused builds, exact BindTypes/bind_result binding and independent Comparator/NanoDa with zero permitted axioms. Frozen standalone Challenge SHA256 3adfec801af9d4e6c63bca6d2b68cb7212af6c3e18d3f08d9c70f2105537cb25. Root route costs and open-premise membership were compared; no philosophical premise was established.",
+  "blocker": "Formal extraction/composition verified. Existential application still needs a justified MovedIn/MovesIn interpretation at esse and a premise supplying actualization, not merely actual existence or modal contingency. Every existing philosophical act/potency and regress premise remains open.",
+  "evidence": [
+    "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+    "AQUINAS-MOVED-BY-ANOTHER",
+    "AQUINAS-ST-I-Q2-A3-PRIMA-VIA",
+    "AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE"
+  ]
+}
