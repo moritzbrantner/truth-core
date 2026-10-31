@@ -51,13 +51,16 @@ for intellect/will, 7 versus10 for the different no-limitation packages, and6
 for each pure-act package. These are configuration improvements, not global
 minimality or philosophical root closure.
 
-Publication of this new batch is being prepared on isolated branch
+[PR #830](https://github.com/moritzbrantner/truth-core/pull/830) publishes this
+new batch on isolated branch
 `research/foundation-attribute-minimization-20261031`, head
-`76fe328e` in `/tmp/truth-core-genus-omission`; its public-baseline full build,
-binding and five-result verification process is running. Do not treat its
-local registry status as delivered-head CI evidence. Next concrete step:
-finish those exact public-input checks, push the coherent batch, request
-current-head review once and land only after all required checks/review pass.
+`76fe328ea74f426c7737ecebc69b9afbb052c76f` in
+`/tmp/truth-core-genus-omission`. Its public-baseline full build4309,
+binding794/two legacy pins/zero mismatch and all five result checks passed.
+Current-head review was requested once and CI is running; no delivered-head
+success is inferred from the local checks. Next concrete step: inspect that
+exact review/run and land only when all required checks and review pass, then
+continue the remaining classified attribute connections.
 
 The completed static NecessaryBeing survey witness coverage and A1 reuse
 audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
