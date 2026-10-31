@@ -76,7 +76,8 @@ premise discharge. God-route costs remain7/11/12/13/13/14/15.
 These private A4/A5/new-proof changes must not be pushed into reviewed #822
 before its diagnostic refresh; the isolated public refresh worktree preserves
 that separation. Proof commit `15cc2bef` persists this result. Next: final independent
-claim/type review and source-batch live verification, then
+claim/type review (now accepted without findings) and source-batch live
+verification (A6 eight pages now passed), then
 land the source-diagnostic repair only after all required checks are green.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
@@ -157,6 +158,18 @@ The fixed joint-condition theorem remains available independently of this
 choice: actual joint truth plus a contingent fixed member yields a contingent
 joint condition, without creating a compound being or removing the member's
 explanatory burden.
+
+The follow-up adversarial audit inspected these ledger-local sufficient
+bundles (not global minimality certificates): B/C/formal-D plus EM yield an
+actual necessary concrete selected root; E/F/H/I additionally yield uniqueness
+of actual selected roots through `DirectEsseRootUniqueness.uniqueRoot`. An
+at-most-one-God route can omit C/H but produces no God witness. Formal D's
+source-existence strength, I's weak-maximum-to-universal-cause direction and
+numerical differentiation/common-nature exhaustion remain distinct burdens.
+The next assigned test is SAME-model satisfaction of all direct-esse uniqueness
+inputs except I by two roots, using the existing part-free control. A plural
+necessary-source account must defend its intrinsic necessities and productive
+connections; formal compatibility alone is not explanatory adequacy.
 
 The requested adversary accepted the formal consequences and isolated I's
 independent universal-causal-reach warrant as the strongest challenge. Its
