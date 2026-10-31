@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-WORLD-GAP-TOTAL",
+  "term": "rigid total-history fact",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ActualWorldGap.Case",
+  "definition": "A Case pairs a supplied History with a reason arena over the same ontic structure. total a is a fact true at v exactly when v and a agree on presence at every supplied time and on the causal edge table (SameTotal). Rival a b requires that b is accessible from a and has a different presence history. Agreement concerns supplied presence and edges only, not all qualitative facts; no aggregate being is added.",
+  "note": "Analyst vocabulary. Ordinary illustration: the fact that this entire chess game was played, as against another game. Near miss: the fact that the game being described is the one being described, which is the diagonal, true at every world. See docs/notes/actual-world-gap-751.md."
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ActualWorldGap.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ActualWorldGap.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ActualWorldGap.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
