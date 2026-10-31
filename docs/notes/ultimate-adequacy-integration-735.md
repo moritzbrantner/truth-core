@@ -13,14 +13,18 @@ The failed response was not retained. No source pin or hash rule changed.
 An isolated hosted probe `41229947279`, diagnostic commit `fad1cf00` based on
 that exact research head, fetched A3c/A2c2 five times each; all ten matched their
 original pins. This is no current reproduction, not a diagnosed network fix.
-The temporary diagnostic workflow is not intended for main. A lasting five-file
-failure-capture patch is being verified separately in
-`/tmp/truth-core-source-diagnostics`, branch `agent/source-drift-diagnostics`,
-based on main28de2b66. It preserves unexpected hash-input bytes only in a separate
+The temporary diagnostic workflow is not intended for main. The lasting five-file failure-capture patch is now
+[PR #823](https://github.com/moritzbrantner/truth-core/pull/823), head
+`be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`, branch `agent/source-drift-diagnostics`,
+based on main28de2b66 (isolated worktree `/tmp/truth-core-source-diagnostics`). It preserves unexpected hash-input bytes only in a separate
 ignored directory, still rejects drift, and uploads attempt-specific diagnostic
 artifacts. Independent review accepted it after fixing logging-I/O masking and
-PDF-fixture contamination. Full isolated Lean setup/tests are running before
-publication; pins, hash acceptance, fallback and trusted-cache logic are unchanged.
+PDF-fixture contamination. Full isolated pinned Lean build and all372tests passed, with production
+diagnostics absent after fixture tests. Independent verification review has no
+unresolved findings. Current-head review and CI run `41231563508` are pending.
+Pins, hash acceptance, fallback and trusted-cache logic are unchanged.
+Next concrete step: land #823 after its checks/review, merge main into the
+research branch, and rerun #822 source verification with actual failure capture.
 
 Research successor `02c2f3ec` completes all nine linked A4 pages, with live
 verification. Its universal first-property transfer remains an independent
