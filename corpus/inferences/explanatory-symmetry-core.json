@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXPLANATORY-SYMMETRY-CORE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXPLANATORY-SYMMETRY-CORE",
+  "rule": "model-construction",
+  "meaning": "Prove the bundle inconsistent from the rival's favouring reason and base-fixed transfer, derive the necessary-base corollary, and construct a model for each deleted member.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

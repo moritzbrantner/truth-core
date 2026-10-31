@@ -1,0 +1,24 @@
+{
+  "id": "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+  "paraphrase": "With base-fixed asymmetric favouring, worlds agreeing on the base do not have one base reason favouring f over g pro tanto at one and g over f at the other; on the #750 ground, favouring everything over everything keeps both instances and is not asymmetric. With base-fixed favouring, opposite pro tanto reasons at two worlds agreeing on the base refute net selection at both. The acting model has the four tested marks of a choice at world 0, base-fixed favouring, a necessary base and a contingent target, and no net selection at 0 or at 1; the personal-stop flag holds there exactly when supplied as true, and the marks take no flag. Along any reason path from a fact true at v to a fact false at v, not every reason link of the arena preserves truth at v; if c true at v would give f, and r is true and f false at v, then c is false at v while r is true. No scalar frame has opposite pro tanto reasons at any two worlds, acting is not scalar on the rival outcomes for any Nat ranking, and on ground a constant ranking has no pro tanto instance. One ranking on ground net-selects the target at 0, with its reason true and the target false at 1, and does not net-select the rival outcome at 1. If favouring is factive and w has net selection, then for field members some base reason favours f over g at w exactly when f is true and g false; settled ground is such a frame at every world. A fact true at every accessible world enables every fact, and the tokenExpand token does. Nonvacuous enabling by a true reason makes it contingent. Reason closure, a contingent explanandum, foundedness and reasons that all nonvacuously enable are inconsistent, by the #750 core. In brute the contingent source nonvacuously enables the target and does not necessitate it. tokenFrame gives a pro tanto instance over each false fact for each contingent fact of any arena. Under one favouring, ground and law have one net-selection verdict at each world. These are conditional consequences and model verdicts. No standard is established, and no model is shown metaphysically possible or personal.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-EXPLANATORY-ENABLES",
+    "DEF-EXPLANATORY-CHOICE-MARKS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-EXPLANATORY-CHOICE"
+  ],
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Comparison"
+}
