@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDISPENSABLE-CONDITION",
+  "term": "indispensable condition of a record",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.IndispensableCondition",
+  "definition": "A member of a record, contributor or enabler, whose deletion with every other member retained leaves an allowed scenario where the rest occur and the effect fails. Relative to one scenario space and the record's membership; for a contributor that is not an enabler it agrees with #733 indispensable.",
+  "note": "Stipulative analyst notion for #745, reusing the #733 records. No source is claimed for it. See docs/notes/explanatory-closure-745.md. It does not separate production from idle co-occurrence (#744)."
+}
