@@ -1,0 +1,10 @@
+{
+  "id": "COUNT-TEMPORAL-POSITIVE-CONTROL",
+  "argument_id": "COUNT-TEMPORAL-POSITIVE-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.CountTemporalControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountTemporalControls.Solution",
+  "theorem": "TruthCore.Results.Causality.CountTemporalControls.checks",
+  "comparator_config": "results/COUNT-TEMPORAL-POSITIVE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "With explicit EM as logical input, construct a joint witness of all SIX unchanged CountTemporalNecessity assumptions. Standard Fin n injections into Fin5 supply each positive n\u22645 target. A before-time member cannot be contingent: some effects are absent and none is necessary. CauseCount restricts markers to realizable positive counts\u22645. A given n-threshold causal marker supplies n\u22645; Nat subtraction bounds give 0<n-1\u22645, so the fixture realizes the exact guarded decrement without cardinal pigeonhole or weakened first-threshold guards. Verify the one-way ever-history presence bridge, Euclidean access and actual reflexivity. Retain SAME source none with actual/necessary presence and its supplied cause-of-count5 marker, and actual contingent some0 plus the full five-target injection. No logical contradiction follows from the original six inputs merely by combining them: this positive configuration excludes an inconsistent-background victory relative to these encoded semantics. Source/application truth, causal adequacy and God remain open; no root premise discharged. Uses standard Mathlib Bool order and Nat subtraction bounds; actual axiom dependency propext; the configuration uses the repository-required three-axiom Mathlib allowlist. The original necessary-being composition remains zero-axiom."
+}

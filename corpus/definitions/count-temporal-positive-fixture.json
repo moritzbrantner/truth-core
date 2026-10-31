@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNT-TEMPORAL-POSITIVE-FIXTURE",
+  "term": "joint positive finite temporal-count configuration",
+  "definition": "The SAME History has Bool worlds and times, Option(Fin 5) individuals, universal modal access, and no ordinary Ontic.Causes edges. Source none exists in both worlds and is present at both times. Each some i exists only at world true and is present only at its later time true. All candidates are concrete. CauseCount w c n t holds exactly for w=true, c=none, t=true, and positive n\u22645. It is a supplied count-situation marker, not an ordinary causal relation or adequate explanation. PositiveControl conjoins the exact six CountTemporalNecessity inputs, the same source none being actual/necessary and marked cause of count5, an injective Fin5 contingent concrete target at time true, and actual ContingentAt(some0).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Models.CountTemporalControls.PositiveControl",
+  "note": "The old mixed Option Bool scenario has only two contingent candidates and the old four-candidate temporal controls cannot witness five distinct contingent targets, justifying this finite enlargement. The original every-earlier-time absence guard is retained exactly. There are no contingent bearers at the earlier false time; all five are at the later true time of world true and absent from world false. No no-collapse law beyond the exhibited contingent witness is claimed. This witnesses a conditional mathematical configuration, not metaphysical possibility, source fidelity, real causation, unique adequate explanation or frontier truth."
+}
