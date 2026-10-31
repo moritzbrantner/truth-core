@@ -1,0 +1,28 @@
+{
+  "id": "EXPLANATORY-SYMMETRY-COMPARISON",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+  "inference_ids": [
+    "INF-EXPLANATORY-SYMMETRY-COMPARISON"
+  ],
+  "meaning": "Verdicts of same-reason, plural-reason, ranked, settled, difference-making, token and marks readings of selection, on shared rivals. Conditional consequences and model verdicts only: no standard is established and no model is shown possible or personal. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-symmetry-742.md.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-SYMMETRY-MODELS",
+    "DEF-EXPLANATORY-RIVALS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-EXPLANATORY-ENABLES",
+    "DEF-EXPLANATORY-CHOICE-MARKS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-EXPLANATORY-CHOICE"
+  ]
+}

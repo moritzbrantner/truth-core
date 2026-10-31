@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-NET-SELECTION",
+  "term": "pro tanto and net selection",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.NetSelects",
+  "definition": "ProTanto at w: a true base reason is admitted for the true f, the rival g is false, and the reason favours f over g. NetSelects at w: some reason does this for f over g, and no true base member favours g over f at w. SelectedAt w: each true field member is net-selected over each false field member. ProTantoAt w: each has a pro tanto reason instead.",
+  "note": "One candidate reading of 'selects this outcome over that', stipulated to test it. It contains no necessitation clause: the reason may be true where f is false. See docs/notes/explanatory-symmetry-742.md."
+}

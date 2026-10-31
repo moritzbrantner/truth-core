@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXPLANATORY-SYMMETRY-COMPARISON",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+  "rule": "model-construction",
+  "meaning": "Prove each general clause and check each named model; the enabling clause composes the #750 core.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

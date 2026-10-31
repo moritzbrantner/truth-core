@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-FAVOURING-FRAME",
+  "term": "favouring frame",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Frame",
+  "definition": "An arena with one parameter: favours w r f g, read that at w the fact r counts in favour of f over g. It is not assumed necessitating, probabilistic, causal, asymmetric or stable across worlds. scalar reads favouring from one preorder ranking of outcomes, perReason from one ranking per reason, settled from which outcome is true at the world; tokenFrame lets the tokenExpand token favour anything.",
+  "note": "Stipulated so that the relevance left open by #750 becomes a named parameter. Nothing here says what favouring is: an interpretation must supply that, and token frames show the formal slot accepts an irrelevant fact. See docs/notes/explanatory-symmetry-742.md."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
+  "term": "contrastive closure of reasons at a world",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ActualWorldGap.ContrastiveClosure",
+  "definition": "ContrastiveClosure c a: for each rival b of a and each fact true at a and false at b, some reason for it at a is true at a and false at b. IndependentOf c a r f: r and f are not coextensive on the worlds accessible from a. MemberLift c a: if every recorded conjunct of the total fact has a reason, the total fact has one.",
+  "note": "These are tested conditions, not defended principles. Reasons remain the uninterpreted #755 relation, with no transitivity, asymmetry or well-foundedness assumed; WellFounded appears only as an explicit member of an inconsistent bundle. Ordinary illustration: the spark rather than no spark separates fire from no fire, and then the wiring separates spark from no spark. Counterexample to closure as a general norm: an indeterministic decay with no feature separating it from its non-decay."
+}

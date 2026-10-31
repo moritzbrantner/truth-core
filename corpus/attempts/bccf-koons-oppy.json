@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-BCCF-KOONS-OPPY-INTAKE",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-CAUSAL-UNIVERSALITY-WITHOUT-NECESSITATION",
+    "STMT-EMPIRICAL-KNOWLEDGE-NO-REASON-UNIVERSE-CAUSED"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read and pinned Koons 2001 pp.193-194 and Oppy 1999 pp.379-381 for #365 and #409. Mapping to the #755 collapse core, as analyst judgment: Koons's point concerns the necessitating member, for causes and not for the reason relation; Oppy's concerns coverage, epistemically, and neither text treats van Inwagen's argument. A stronger reading of Oppy as denying coverage was rejected because the sentence reports what non-theists dispute. Koons 1997 was not read: the search on 2026-10-31 found no author-hosted copy. Van Inwagen 1983 stays a candidate waiting for a witness. Root-premise delta: none.",
+  "evidence": [
+    "KOONS-CAUSAL-UNIVERSALITY-WITHOUT-NECESSITATION",
+    "OPPY-EMPIRICAL-KNOWLEDGE-NO-REASON-UNIVERSE-CAUSED"
+  ]
+}

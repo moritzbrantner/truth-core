@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-EXPLANATORY-SYMMETRY-742",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-EXPLANATORY-SYMMETRY-CORE",
+    "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+    "STMT-EXPLANATORY-ADEQUACY-CORE",
+    "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+    "STMT-PSR-COLLAPSE-CORE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Added favouring as an explicit parameter over the #755 arena and tested it on the #750 rivals. Certified that base agreement, base-fixed favouring, net selection at both worlds and a swapped outcome are inconsistent, with no necessitation clause, and a deletion model per member. A nonnecessitating reason net-selects under one ranking at the favoured world only. Opposite pro tanto reasons keep two-way selection and refute net selection at both worlds. Favouring settled by the outcome keeps net selection and is coextensive with the outcome pair at selected worlds. Tested four marks of a choice: acting has them with a flag free, and they give no net selection. Ranked and per-reason favouring separate, and the separation is not tied to a flag. Modal enabling is vacuous for a necessary reason and, nonvacuously, feeds the #750 core. Rejected: pro tanto favouring as sufficient (tokens pass); enabling as a discriminator for a necessary reason (vacuous); a personal flag as a standard (circular). Read Aquinas ST I q.19 a.3 with its replies; no new claim. First drafts of net selection read false base reasons too, which made the varying model fail; restricted to true reasons, which also weakens the hypothesis. Root delta none.",
+  "blocker": "No standard is defended. Open: a constraint on favours that excludes the token and keeps a reason true at both worlds, and whether a noncontrastive answer meets what a PSR demands. Personal agency has no certified formal separator here; a test beyond the four marks is unexamined.",
+  "evidence": [
+    "EXPLANATORY-SYMMETRY-CORE",
+    "EXPLANATORY-SYMMETRY-COMPARISON"
+  ]
+}

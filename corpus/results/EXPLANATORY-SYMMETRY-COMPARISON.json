@@ -1,0 +1,10 @@
+{
+  "id": "EXPLANATORY-SYMMETRY-COMPARISON",
+  "argument_id": "EXPLANATORY-SYMMETRY-COMPARISON",
+  "challenge_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExplanatorySymmetry.comparison",
+  "comparator_config": "results/EXPLANATORY-SYMMETRY-COMPARISON/comparator.json",
+  "status": "solution-present",
+  "description": "Verdicts of same-reason, plural-reason, ranked, settled, difference-making, token and marks readings of selection, on shared rivals. Conditional consequences and model verdicts only: no standard is established and no model is shown possible or personal."
+}

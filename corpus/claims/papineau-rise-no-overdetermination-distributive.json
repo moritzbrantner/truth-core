@@ -3,7 +3,7 @@
   "statement_id": "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
   "source_id": "PAPINEAU-RISE-PHYSICALISM",
   "locator": "pp.3–12 p.9 (Comments on the Causal Argument for Physicalism), premise 3 (no universal overdetermination), read distributively",
-  "interpretation": "Reading A of \"The physical effects of mental causes are not all overdetermined\": per mental cause. This is the reading under which a universal conclusion in identity-or-realization form follows (physicalistFork), and he calls the argument \"pretty clearly valid\" (p.10). The sentence does not itself fix this scope, so it is a reading of the premise, not his stated quantifier. The clause \"with a physical effect\" is added so that the reading is independent of premise 2, matching his treating them as separate exits. Overdetermination as a distinct cause is his contrast at p.10; \"or realized by\" follows his generous conclusion at p.11.",
+  "interpretation": "Reading A of \"The physical effects of mental causes are not all overdetermined\": per mental cause. This is the reading under which a universal conclusion in identity-or-realization form follows (physicalistFork), and he says the argument \"seems pretty clearly valid\" (p.10). The sentence does not itself fix this scope, so it is a reading of the premise, not his stated quantifier. The clause \"with a physical effect\" is added so that the reading is independent of premise 2, matching his treating them as separate exits. Overdetermination as a distinct cause is his contrast at p.10; \"or realized by\" follows his generous conclusion at p.11.",
   "status": "formalized",
   "definition_ids": [
     "DEF-MIND-OCCURRENCE-FRAME",
