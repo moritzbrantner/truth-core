@@ -3,23 +3,27 @@
 ## Current delivery and parallel work
 
 Research branch: `research/lean-existential-self-actualization-20261031`.
-Verified committed research baseline is `4888cece` (documentation follow-up
-`0c1b1dd9`); it incorporates delivered main through
-`f91cacde34c830a7e85f66a698f495caaf52a9ff` via merge `f47dfe1e`.
+Verified committed research baseline is `34b8c239` (joint attributes/control);
+it incorporates delivered main through
+`e9a184dcd521c0d17314adb639c3d3d5a357636c` via merge `f2053934`.
+The prior minimization baseline remains `4888cece` with matrix follow-up
+`0c1b1dd9`.
 The overarching goal remains active; conditional results do not establish the
 truth of their metaphysical inputs.
 
-Five PRs were landed after required checks and current-head review without
+Six PRs were landed after required checks and current-head review without
 findings: #825 (`692b8b99`, exact genus-causality omission), #827 (`d3f85cfc`,
 temporal count-to-necessity composition), #828 (`413d3509`, joint positive
 count model), #822 (`cbfaaeca`, local-frame/source A3 batch), and #829
 (`f91cacde`, same-root intellect/will plus structural L omission and nine-row
-attribute inventory). Existing earlier #810–#821 results remain integrated.
+attribute inventory), and #830 (`e9a184dc`, reduced root/intellect/will and
+strict-priority pure act). Existing earlier #810–#821 results remain integrated.
 
 The current #826 matrix is in
 [classical-attributes-all-migration.md](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31),
 separate from its frozen #730 migration dispositions. The published attribute
-slice has fifteen explicit inputs. It preserves the same actual necessary
+slice originally had fifteen explicit inputs; #830 supplies the reduced
+eleven-input route. It preserves the same actual necessary
 root through represented essence/esse identity, firstness, noncomposition,
 matter-form exclusion, remoteness, intellect and will. Its original-model
 omission checks the other fourteen inputs while L fails. Neither universal
@@ -74,7 +78,7 @@ is claimed. All three new results now pass full build4316, binding798/two legacy
 mismatch, Comparator and independent result NanoDa. Scoped library NanoDa
 checked474 declarations with zero typechecker errors and one known axiom
 pretty-printer warning. All exported theorem axiom reports are empty;
-independent claim/type review found no findings. Publication remains pending.
+independent claim/type review found no findings. The reviewable public PR is recorded below; delivered-head checks remain pending.
 
 The adversarial positive control is verified on the unchanged later
 five-being PartFreePlurality carrier, not the original four-being #681 model.
@@ -88,6 +92,19 @@ ontology remains vacuous. Root routes, root-reaching IDs, open-premise count and
 The complete reports additionally contain the new finite-control statement
 and new downstream dependents; those are not premise-truth discharges.
 
+[PR #831](https://github.com/moritzbrantner/truth-core/pull/831) publishes
+this three-result cluster on `research/root-attributes-joint-20261031`, exact
+head `3d94426837e3052b990047596fb4379b6ef9c597`, isolated worktree
+`/tmp/truth-core-genus-omission`. Public full build4314 and binding797/two
+legacy pins/zero mismatch pass, as do offline source/corpus checks. All27
+proof/record/config/matrix files match the research bytes; generators select
+only the public corpus. CI run `41249114042` is confirmed live (comparator-plan
+job `124678703387` in progress). Current-head review requested once at
+[the review request](https://github.com/moritzbrantner/truth-core/pull/831#issuecomment-6550084407).
+Next delivery step: inspect that same run and exact-head review, fix concrete
+findings if any, then merge only after required checks/review pass. Do not
+restart a live run or infer delivered success from local checks.
+
 Next uniqueness seam (read-only exact-theorem audit):
 `Q11NatureUniqueness.godIsOneFromNature` can mechanically take the full
 qualified-root tuple as its predicate. It still needs incommunicable
@@ -96,8 +113,9 @@ represented esse/essence identity supplies neither of the latter interfaces.
 God-scoped source readings do not establish arbitrary-root applicability just
 because the Lean theorem has a predicate parameter. The positive five-being
 model retains the first two for its roots and rejects common nature. Under
-those retained interfaces and an inhabited candidate domain, common nature
-already amounts to at-most-one; reapplying the theorem supplies no new
+those retained interfaces and an inhabited qualified-root domain, existence
+of some shared nature value already amounts to at-most-one; a preselected
+arbitrary nature value additionally needs to name that nature; reapplying the theorem supplies no new
 independent refutation of plurality.
 
 `OneFirstMover.oneFirstMover` is the alternative existing equality mechanism.
