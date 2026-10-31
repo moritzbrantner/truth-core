@@ -2,7 +2,7 @@
 
 Reading date: 2026-10-26 · Campaign: [#492](https://github.com/moritzbrantner/truth-core/issues/492) · Source identity: NECESSARYBEING-SURVEY
 
-**Status: source inventory plus first formalized conditional slice.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests, verified in a local checkout with `source_evidence.py materialize` and inspected there. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The first ten source claims cover the definition (three), A1/A1c2 (four), and A7c (three). An A7c steps 1–3 conditional result has Challenge/Solution and Comparator metadata but **must not be called mechanically verified before CI's Lean, bind-check and Comparator pass**. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. Other readings await pinned passages and fidelity checks.
+**Status: source inventory plus first formalized conditional slice.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests, verified in a local checkout with `source_evidence.py materialize` and inspected there. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The first ten source claims cover the definition (three), A1/A1c2 (four), and A7c (three). The A7c steps 1–3 conditional result passed local Lean compilation, Comparator and independent NanoDa checking on 2026-10-31 at baseline `770102e8b399bbc2ab6dcb36dd60ffff93cb4d14`, using `scripts/verify-result.sh NB-SURVEY-FIVE-TO-ONE` with zero permitted axioms. Corpus binding is a separate integration check. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. Other readings await pinned passages and fidelity checks.
 
 The survey has ten numbered arguments, but most share a modal suffix. They should be imported as distinct source arguments sharing the *same* verified modal intermediate result, not ten copies of that proof.
 
@@ -87,7 +87,7 @@ Shared introduction: [home](https://necessarybeing.com/), [instructions](https:/
 
 - **Definition:** `STMT-NB-SURVEY-DEFINITION`, `STMT-NB-SURVEY-EXISTENCE-NECESSITATION`, and `STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY` preserve the two-part nominal meaning, the extra existential axiom and its account of possibility as distinct claims. None is established by a proof.
 - **A1 and external A1c2:** `STMT-NB-A1-CONTINGENT-TOTALITY`, `STMT-NB-A1-CONTINGENTS-CAUSED`, `STMT-NB-A1-SELF-PARTS-EXCLUSION`, and `STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED` record four separate, respondent-reported premises. The first A1 route and its stronger external-cause variant have not been validated as full arguments.
-- **A7 finite descent:** `STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE` and `STMT-NB-COUNT-CAUSABILITY-DESCENT` are **two open reported premises**; `STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE` is their conditional intermediate conclusion under `NB-SURVEY-FIVE-TO-ONE`. The Lean solution instantiates the second premise at 5, 4, 3 and 2, so the result is declared a **transcription by instantiation** (`"transcription": "instantiation"`, AGENTS.md invariant 16): it closes no frontier node by itself, and the intermediate conclusion stays open while either premise is open. The `Nat → Prop` causability predicate is deliberately uninterpreted: this result does not reach any cause's metaphysical type, S5, or actual necessary existence. Comparator verification is pending.
+- **A7 finite descent:** `STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE` and `STMT-NB-COUNT-CAUSABILITY-DESCENT` are **two open reported premises**; `STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE` is their conditional intermediate conclusion under `NB-SURVEY-FIVE-TO-ONE`. The Lean solution instantiates the second premise at 5, 4, 3 and 2, so the result is declared a **transcription by instantiation** (`"transcription": "instantiation"`, AGENTS.md invariant 16): it closes no frontier node by itself, and the intermediate conclusion stays open while either premise is open. The `Nat → Prop` causability predicate is deliberately uninterpreted: this result does not reach any cause's metaphysical type, S5, or actual necessary existence. Comparator and independent NanoDa verification passed locally on 2026-10-31; this checks the conditional transcription, not either open premise.
 
 These records link definitions and disambiguations for necessary being, objective possibility, whole/parts, internal/external causation and the abstract possible-causability predicate. No source reading has become an accepted truth or a closed root premise.
 
@@ -107,7 +107,7 @@ These records link definitions and disambiguations for necessary being, objectiv
 
 ## Lean targets (source materialization done for the first four passages)
 
-1. **A7 finite descent (first version written, awaiting verification):** A schematic predicate `causableAtLeast : Nat → Prop` with explicit transfer for n ≥ 2 yields causability at one from causability at five. Next use a typed possible-world/situation/cause model where warranted, and test the countermodel with the transfer premise absent. This is not an infinite compactness principle. Separately formalize what makes a prior condition noncontingent.
+1. **A7 finite descent (conditional transcription verified locally):** A schematic predicate `causableAtLeast : Nat → Prop` with explicit transfer for n ≥ 2 yields causability at one from causability at five. Next use a typed possible-world/situation/cause model where warranted, and test the countermodel with the transfer premise absent. This is not an infinite compactness principle. Separately formalize what makes a prior condition noncontingent.
 2. **A1 causal totality:** Formalize the union/member relation and an external-cause predicate. Derive the narrow conditional consequence, and show models where each contingent member is caused but the whole is not contingent or not a cause-bearing entity. Do not strengthen a source claim to make its conclusion follow.
 3. **Shared S5 suffix:** Reuse existing TruthCore.Modal definitions and exact theorems. Test ◇□N ⇒ N on S5 and its failure in weaker frames, with a separate bridge N ⇒ □N. Do not create ten copied modal theorems.
 4. **A5/A6 quantifier discipline:** Provide a finite-world countermodel separating ◇∀x Causable(x) from ∀x◇Causable(x), and another for an empty exact-history situation.
@@ -123,3 +123,37 @@ These records link definitions and disambiguations for necessary being, objectiv
 5. Process remaining families in small source-order batches and compare intermediate open premises with the root frontier. No root premise closure has occurred from this first pass.
 
 **Premise comparison for this PR:** A7 introduces two new **open, sourced, respondent-reported premises** and one new conditional intermediate conclusion in a separate argument; neither is on an established root route. The remaining seven statements are separate sourced readings, not accepted truths. No root premise has been discharged, and no route cost is claimed to have decreased. Source and corpus checks pass locally; the new Lean result's independent Comparator verification must be reported from CI before it is called proven.
+
+## Integration priority after the 2026-10-31 issue review
+
+[Issue #786](https://github.com/moritzbrantner/truth-core/issues/786) now
+requests synthesis of the PSR, regress, necessary-foundation and adequacy tracks
+before further atomization. Its nine candidate arguments are research steering,
+not additional verified results. Read together with
+[#750](https://github.com/moritzbrantner/truth-core/issues/750), it separates
+contingent-existence PSR (#312), independently defended explanatory adequacy
+(#750), and the further bridge to actual concrete existential support (#545).
+These are proposed investigation boundaries, not a proved sufficient or minimal
+premise set. The survey's A1 causal-totality and A7 prior-cause steps must be
+compared with those existing tracks before introducing new vocabulary.
+
+The next synthesis should fix one actual contingent existence explanandum and
+trace existing premise, inference, result and rival-model IDs. Compare brute
+but locally reliable foundations, underdetermined infinite chains, uniquely
+determined source-free structures, and necessary personal/impersonal grounds
+under the same adequacy criterion. An unexplained condition is not thereby
+inconsistent; a necessary explanatory fact is not thereby a necessary concrete
+bearer. The new issue explicitly keeps these bridges open.
+
+Current verified delta: the A7 conditional transcription no longer awaits
+Comparator/NanoDa confirmation. No source reading, philosophical premise or
+root-path obligation was discharged. Shared policy was resolved at
+`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+The subsequent global `corpus.py bind-check` could not run to completion:
+`ActualityWithoutBeingNotEliminated/Solution.olean` was absent from the local
+build. That attempt was on old baseline `770102e8`; it was an unbuilt integration
+prerequisite, not a rejected A7 binding or failed philosophical inference. The
+checkout was subsequently fast-forwarded to `7b7174f2`; the old build was stopped
+and is not verification evidence for the new revision. Reuse applicable
+delivered-head CI evidence before scheduling another full integration build.
