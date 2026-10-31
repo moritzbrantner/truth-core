@@ -597,3 +597,53 @@ Validation for this bounded source batch: all ten new witnesses passed live
 source verification after materialization; the other458 manifests received the
 offline check only. Offline source bindings, JSON parsing and whitespace checks
 pass. No Lean inputs changed.
+
+
+### A1 source-ordered extraction audit: reuse, no duplicate readings
+
+The newly witnessed A1p1→A1p2→A1p3→A1c cluster and its A1p3b→A1p4→A1c2
+variant were compared with the four existing statement/claim records, their
+definitions/disambiguation and existing typed consequences. All four already
+record respondent-supplied commitments rather than unconditional author
+endorsement. No genuinely missing A1 premise reading or demonstrated
+claim/type mismatch was found that requires a new statement, source claim or
+Lean declaration in this bounded cluster.
+
+| Existing statement and claim reused | Exact question/conclusion correspondence |
+| --- | --- |
+| `STMT-NB-A1-CONTINGENT-TOTALITY` / `NB-SURVEY-A1-TOTALITY-CONTINGENT` | A1P2 asks for the sum's contingency; A1c steps 1–2 introduce C and explicitly credit contingency to the report. This is not a proved individual-to-totality closure law. |
+| `STMT-NB-A1-CONTINGENTS-CAUSED` / `NB-SURVEY-A1-CONTINGENTS-CAUSED` | A1P1's negative report supplies A1c step 3's exclusion of a possible causeless contingent thing. Externality is not part of that initial question. |
+| `STMT-NB-A1-SELF-PARTS-EXCLUSION` / `NB-SURVEY-A1-SELF-PARTS-EXCLUSION` | A1P3 asks one disjunctive question; its negative answer excludes both self-origination and production solely by own parts, as A1c step 5 records. It cannot be replaced by exclusion of a single act's self-production or merely distinct individual causes. |
+| `STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED` / `NB-SURVEY-A1-EXTERNAL-CAUSE` | A1P3B stipulates the altered cause vocabulary and A1P4 re-asks the originating-cause question; A1c2 steps 3,5 explicitly use that stronger report. It is not inferred from the unqualified answer. |
+
+The four premise statements remain unbound prose readings: there is no new
+Lean type to approve merely from these question witnesses. Future formal
+extraction must preserve the source's impossibility wording (A1c step 3 and
+A1c2 step 3), or explicitly identify a weaker selected-world use; it must not
+silently equate those scopes. A1P1's cause hover admits a prior condition
+capable of explaining or partly explaining an event/change, whereas the
+conclusion hover describes a prior condition explaining or partly explaining
+something else. This lexical detail does not independently impose present
+existential support, cause actuality, a time order or full explanatory
+sufficiency on a typed relation. The existing uninterpreted A1 cause sense
+remains appropriately distinct from Aquinas's origin-cause predicate and from
+present esse support. The `(alone)` qualifier in A1P3B is not silently turned
+into a complete joint-contribution axiom.
+
+`NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE` and
+`NECESSARY-BEING-FROM-CONTINGENT-COVERAGE` remain the existing typed analyst
+connections, with their SAME witness and explicit coverage/actual external
+cause inputs. They are not newly verified consequences of the four unbound
+source statements. The self/parts route's collective complete-contribution
+role may be a declared conditional framework input; this audit neither derives
+it from single-act exclusion nor starts a recursive defense campaign.
+
+Actual extraction delta: four statement/claim pairs reused; zero new or changed
+claims, statements, definitions, disambiguations, Lean types or source pins;
+no philosophical truth discharge or new root route. Audit findings are
+persisted here and in the existing first-pass attempt rather than manufactured
+as activity propositions. The next unprocessed source-ordered atomic extraction
+cluster is A2P1→A2P2→A2c's respondent causal/ancestry conditions, using its already
+read alternate pages only where their meanings differ. That extraction is NOT
+started here: owner issue #826 now prioritizes the cross-attribute matrix and a
+bounded conditional vertical slice.
