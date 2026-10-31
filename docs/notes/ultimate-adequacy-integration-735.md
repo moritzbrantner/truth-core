@@ -60,7 +60,7 @@ binding794/two legacy pins/zero mismatch and all five result checks passed.
 Delivered-head CI run `41247640825` passed all required checks. Exact-head
 review completed without findings, and #830 merged as
 `e9a184dcd521c0d17314adb639c3d3d5a357636c`. The research branch already
-contains its proof changes; the merge itself has not yet been integrated here.
+contains its proof changes; the merge is integrated here by `f2053934`.
 Next concrete step: continue the remaining classified attribute connections.
 No additional owner premise selection has been received.
 
