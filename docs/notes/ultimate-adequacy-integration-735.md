@@ -2,106 +2,118 @@
 
 ## Current delivery and parallel work
 
-PRs #810–#821 are merged. Latest main is
-`28de2b6683e2c87ba0b9c10456dfb336fd2267e8`. [PR #822](https://github.com/moritzbrantner/truth-core/pull/822),
-head `d44e2ddfcbac5cbf9aa4b86ea854216488e2bc7c`, passed current-head review and
-its proof checks, but CI run `41229095931` rejected an A3C web response at
-18:26:18 UTC: expected `0c809bde26a72781c5fa7c3170ddd5b55adf87cfd60457be81e2f9da157ae7e5`,
-received `6cf3f2121f440290a93753264874e9ec5385ea48cad1eb7ccb0b3da3a07c575e`.
-The failed response was not retained. No source pin or hash rule changed.
+Research branch: `research/lean-existential-self-actualization-20261031`.
+Verified committed research baseline is `4888cece` (documentation follow-up
+`0c1b1dd9`); it incorporates delivered main through
+`f91cacde34c830a7e85f66a698f495caaf52a9ff` via merge `f47dfe1e`.
+The overarching goal remains active; conditional results do not establish the
+truth of their metaphysical inputs.
 
-An isolated hosted probe `41229947279`, diagnostic commit `fad1cf00` based on
-that exact research head, fetched A3c/A2c2 five times each; all ten matched their
-original pins. This is no current reproduction, not a diagnosed network fix.
-The temporary diagnostic workflow is not intended for main. The lasting five-file failure-capture patch is now
-[PR #823](https://github.com/moritzbrantner/truth-core/pull/823), head
-`be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`, branch `agent/source-drift-diagnostics`,
-based on main28de2b66 (isolated worktree `/tmp/truth-core-source-diagnostics`). It preserves unexpected hash-input bytes only in a separate
-ignored directory, still rejects drift, and uploads attempt-specific diagnostic
-artifacts. Independent review accepted it after fixing logging-I/O masking and
-PDF-fixture contamination. Full isolated pinned Lean build and all372tests passed, with production
-diagnostics absent after fixture tests. Independent verification review has no
-unresolved findings. Current-head review completed without findings. CI run
-`41231563508` passed all four Comparator shards and other proof/browser checks,
-but its source job twice failed fetching the already-pinned Koons archive after
-live HTTP403. Hosted diagnostic `41235134658`, exact temporary commit
-`82a8a8c6115f590c1e2e594b2a3c0616d01f1ee1`, fetched that archive with the
-same source.download function before and after the two eLife archives, but
-with urlopen wrapped by a newly built Redirects opener rather than production
-default urlopen;
-all four matched existing pins without redirects. A subsequent TLS-verified
-curl connection timed out before HTTP. This supports transport unreliability,
-not a URL/pin repair or reproduction of the original urllib handshake failure.
-The evidence-backed third attempt on the same exact head failed again at
-Koons: live HTTP403, archive connection refused (job124638194182). No fourth
-identical rerun is scheduled. All pre-source checks and other required jobs
-remain successful. A bounded transport/request-order diagnosis is active; no
-pin change or relaxed source gate is justified.
-Artifacts are retained for three days; precise diagnostic metadata was inspected.
-Pins, hash acceptance, fallback and trusted-cache logic are unchanged.
-Next concrete step: land #823 after its checks/review, merge main into the
-research branch, and rerun #822 source verification with actual failure capture.
+Five PRs were landed after required checks and current-head review without
+findings: #825 (`692b8b99`, exact genus-causality omission), #827 (`d3f85cfc`,
+temporal count-to-necessity composition), #828 (`413d3509`, joint positive
+count model), #822 (`cbfaaeca`, local-frame/source A3 batch), and #829
+(`f91cacde`, same-root intellect/will plus structural L omission and nine-row
+attribute inventory). Existing earlier #810–#821 results remain integrated.
 
-Research successor `02c2f3ec` completes all nine linked A4 pages, with live
-verification. Its universal first-property transfer remains an independent
-admissibility/recombination premise. The rooted-causal-property scope test is
-conditional, not a certified metaphysical counterexample or refutation of theism.
-Source first/cause/property meanings and revised-necessity branches are preserved
-in the existing survey inventory/attempt. Successor `8c52a74a` pins and reads all
-seven linked A5 pages; their live verification passed. Nonempty contingent
-situations do not entail nonempty contingent individuals, and individually
-possible causes do not entail joint causation. The source candidate begins A6,
-then retains the unfinished A7 question/alternate ranges before A8–A10.
-A6 eight-page source-only reading is complete in the existing survey records;
-no pending owner selection is inferred. A7 remaining eight pages were committed as `4cde10d6` and all eight passed
-live verification. They explicitly require the cause to exist before its target
-situation obtains; the count transcription alone still supplies no causal
-witness. A8 eight-page reading was committed as `45461b3e` and all eight passed live
-verification. Its explicitly vacuous entailment makes nonlimitation carry
-possibility strength when a deficiency property is admitted; this is not an
-independent possibility defense or the existing structural limitation predicate.
-A9 nine-page reading is complete; its ordinary-to-nontrivial entailment lift
-is distinct from A8 vacuity and remains open. A10 fifteen-page reading is complete: its instance-entitlement inference is
-defeasible, not a numeric probability bound. Earlier shared/A1 witness coverage
-and substantive source-ordered proposition/argument extraction remain queued;
-reading every numbered family does not complete that campaign. The two-request
-hosted test `41236167940`, commit `5c7f2a6cf15e42418d4e77f5c7e0fc1a7ddc515d`,
-returned exact Koons bytes through BOTH default urlopen and fresh opener. All
-proxy-presence flags were false; no redirects. Thus the opener distinction
-does not currently explain failure or warrant changing production. No fourth
-full-CI retry is scheduled. Main `85f4f369` owner conditional-framework policy
-was merged into this research branch; next formal lane instantiates existing
-count descent with typed temporal caused-threshold semantics, retaining explicit
-history/world correspondence and guarded cause-bearer assumptions.
+The current #826 matrix is in
+[classical-attributes-all-migration.md](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31),
+separate from its frozen #730 migration dispositions. The published attribute
+slice has fifteen explicit inputs. It preserves the same actual necessary
+root through represented essence/esse identity, firstness, noncomposition,
+matter-form exclusion, remoteness, intellect and will. Its original-model
+omission checks the other fourteen inputs while L fails. Neither universal
+God attributes nor a God naming bridge is silently inferred.
 
-The existing formal baseline remains verified: local-frame possible external
-cause plus explicit shared-witness assembly, and earlier same-source/modal and
-full-ancestry results. No philosophical premise is discharged; God/Catholic/
-unique-root unions66/73/14 and route costs are unchanged.
+A further locally verified batch at `4888cece` improves that result:
 
-Private research result `EMPTY-HISTORY-CAUSAL-AVAILABILITY` now composes into
-existing `STMT-KANT-CONVERSION-NECESSARY-WITNESS`. Full build, corpus check,
-bind-check (786 bound / 2 legacy pinned / zero mismatch), Comparator and
-result-level NanoDa passed. Scoped library NanoDa also passed: 59 dependency-closed declarations, zero
-typechecker errors; one axiom pretty-printer warning is retained in the log. Challenge
-was frozen before Solution (SHA256
-`7235e33bcaec724fd1c2a6b9817840a205b6a462c4fe049c32b1095c3014565f`).
-Six explicit hypotheses include EM and five open inputs; the coverage bundle
-contains access, no contingent concrete individuals, and weak actual-concrete
-causal availability. A separate individual-to-fact relation preserves the
-existing Arena fact/explanation semantics. The same necessary concrete witness
-is preserved; a causal role is promised only in the caused-negative-fact branch.
-Negative-fact admission/preservation, world/EVER-history correspondence and
-real causal applicability remain open. The nonempty-history externality gap
-is not settled. Necessary-witness routes increase five to six and their
-reaching-root statement union 26 to29, with three new open inputs and no
-premise discharge. God-route costs remain7/11/12/13/13/14/15.
-These private A4/A5/new-proof changes must not be pushed into reviewed #822
-before its diagnostic refresh; the isolated public refresh worktree preserves
-that separation. Proof commit `15cc2bef` persists this result. Next: final independent
-claim/type review (now accepted without findings) and source-batch live
-verification (A6 eight pages now passed), then
-land the source-diagnostic repair only after all required checks are green.
+- `ROOT-INTELLECT-WILL-REDUCED` has eleven explicit hypotheses, removing
+  ExistingInActAt, EsseCauseIsActualConcreteGround and both q3a4 causal
+  readings from the fifteen-input route, adding none. Composition-kinds was
+  already retained and gives represented identity once noncomposition is
+  derived. It uses the exact old conclusion and the same witness.
+- `ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS` reaches the old no-limitation
+  endpoint with eight inputs. It adds kinds relative to the old eleven-input
+  no-limitation bundle, so that comparison is not a global weakening claim.
+- `STRICT-PRIORITY-PURE-ACT` reaches the same existing pure-act endpoint in
+  seven inputs, replacing act/potency exclusivity by selected-priority
+  irreflexivity. Two exact common-background controls separate those
+  replacement premises. No mixed being/event relation is identified with it.
+
+The graph explicitly preserves the existing first-being intermediate and
+existing structural tail. All four new results and the refactored old
+fifteen-input result passed Comparator and result NanoDa; full build4311,
+binding795/two legacy pins/zero mismatch, and scoped library NanoDa458
+(zero typechecker errors, one axiom pretty-printer warning) passed. All five
+exported theorem axiom reports are empty; independent claim/type reviews
+found no unresolved findings. Target costs are 10 versus14 non-floor leaves
+for intellect/will, 7 versus10 for the different no-limitation packages, and6
+for each pure-act package. These are configuration improvements, not global
+minimality or philosophical root closure.
+
+Publication of this new batch is being prepared on isolated branch
+`research/foundation-attribute-minimization-20261031`, head
+`76fe328e` in `/tmp/truth-core-genus-omission`; its public-baseline full build,
+binding and five-result verification process is running. Do not treat its
+local registry status as delivered-head CI evidence. Next concrete step:
+finish those exact public-input checks, push the coherent batch, request
+current-head review once and land only after all required checks/review pass.
+
+The completed static NecessaryBeing survey witness coverage and A1 reuse
+audit remain in [the source inventory](../necessarybeing-survey-inventory.md)
+and the existing first-pass attempt. Source-search outcome is now succeeded
+at the stated static boundary; A2 onward substantive extraction remains
+queued behind #826. PHP answer endpoints were not requested and no survey
+response or exhaustive server-side history is claimed. The A1 audit reused
+four existing claims with zero duplicates. A4–A10/context manifests and
+findings remain committed privately, not smuggled into the refreshed #822.
+
+`EMPTY-HISTORY-CAUSAL-AVAILABILITY` remains a verified private result from
+`15cc2bef`: six explicit inputs and the unchanged Arena/individual/fact
+separation lead to the shared necessary-witness statement. Its coverage
+bundle contains three commitments. Full build/binding/Comparator/result and
+library NanoDa passed; the negative-fact admission, EVER-history mapping and
+causal application remain explicit. The same concrete witness is retained,
+with a causal role promised only in its caused-fact branch. This is not the
+nonempty-history externality argument. Publish separately when selected;
+no source/attribute result depends on pretending it is already on main.
+
+### Delivery integrity evidence retained
+
+PR #822's original A3C failure (run41229095931 attempt1) expected
+`0c809bde26a72781c5fa7c3170ddd5b55adf87cfd60457be81e2f9da157ae7e5`
+and received `6cf3f2121f440290a93753264874e9ec5385ea48cad1eb7ccb0b3da3a07c575e`;
+its failed response body was not retained. Hosted probe41229947279 matched
+A3c/A2c2 five times each. Fresh unmodified downloads later matched both pins,
+and the single unchanged-head retry passed all eight changed A3 witnesses.
+The main refresh preserved both A3 findings and the incoming count section;
+its new head `df8538eee16c55e2ad5f072355a9c7c20896b2f7` again passed strict
+verification, review and checks before merge. No pin or verification rule
+changed. The first drift remains unexplained, not a diagnosed network fix.
+
+[PR #823](https://github.com/moritzbrantner/truth-core/pull/823) remains open at
+`be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`. The five-file failure-capture
+repair passed independent review, full372 local tests and all proof/UI checks.
+Full-source CI run41231563508 failed three times fetching the old Koons
+witness: live HTTP403, then archive TLS timeouts (attempts1–2) or connection
+refused (attempt3/job124638194182). No fourth identical retry is scheduled.
+The pinned archive is
+`https://web.archive.org/web/20240117030437id_/https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1825&context=faithandphilosophy`,
+288584 bytes, SHA256
+`5e830611243d675d2159b319e103a67458fb64b70279e83199f559dd118fcdd0`.
+The captured eLife live-page drifts had matching pinned archive fallbacks;
+they were not the job's failure.
+
+Hosted probe41235134658 fetched Koons before and after both eLife archives,
+matching its pin without redirects, but used a fresh Redirects opener;
+certificate-verified curl then failed before HTTP. Follow-up41236167940,
+commit`5c7f2a6cf15e42418d4e77f5c7e0fc1a7ddc515d`, compared unmodified default
+urlopen against that fresh opener in exactly two requests: both HTTP200,
+exact pin, DNS207.241.237.3, no redirects, all proxy-presence flags false.
+Thus no opener change, URL repair, repin, relaxed source gate or rate-limit
+explanation is justified. Failure-capture artifacts are deliberately retained
+for three days. Temporary diagnostic workflows are not intended for main.
+This separate tooling/source-access issue does not block conditional research.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.
