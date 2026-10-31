@@ -196,7 +196,7 @@ existence-disjunction premise. The [current handoff](../proposition-structure.md
 remains the one delivery handoff.
 
 ## Root-to-attribute configurations (#826, 2026-10-31)
-This current research section is separate from the frozen #730 migration inventory above. Baseline inspected: `5aeed9a3842cbdb9a2a691c32b6c855e76c368f8`. It classifies existing consequences and selected next tests; it does not certify new proofs merely by listing them. Exact theorem declarations and premises remain authoritative in the linked corpus records.
+This current research section is separate from the frozen #730 migration inventory above. Existing-input baseline: public main `d3f85cfcd603dd7626169fb255b8da2129d60b70`. All 76 existing result/argument/statement and frozen Challenge/Solution files used for the nine-row inventory were byte-compared against this public revision; the original local inspection head was `5aeed9a3842cbdb9a2a691c32b6c855e76c368f8`. It classifies existing consequences and selected next tests; it does not certify new proofs merely by listing them. Exact theorem declarations and premises remain authoritative in the linked corpus records.
 The eight per-individual Stage 2 results have the form `∀ g, IsGod g → attribute g`; unity instead requires any two IsGod instances to coincide. An actual necessary concrete root is supplied instead by an ontic grounding profile; the two domains are not identified by naming. Root variants are not a presumed hierarchy: firstness/potency, essence/esse and maximality/cause profiles retain their own explicit interfaces.
 | Attribute | Existing Stage 2 result and exact input statement IDs | Same-witness root classification / added interface |
 | --- | --- | --- |
