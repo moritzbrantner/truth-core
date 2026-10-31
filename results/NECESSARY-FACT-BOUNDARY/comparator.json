@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.NecessaryFactBoundary.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -8,6 +8,7 @@ import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
 import TruthCore.Results.Explanation.JointCooperation.Solution
 import TruthCore.Results.Explanation.LawActuality.Solution
+import TruthCore.Results.Explanation.NecessaryFactBoundary.Solution
 import TruthCore.Results.Explanation.NoBruteCompatibility.Solution
 import TruthCore.Results.Explanation.NoBruteExistence.Solution
 import TruthCore.Results.Explanation.NoBruteExplainedSource.Solution

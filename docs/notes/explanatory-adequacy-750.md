@@ -171,3 +171,77 @@ requires one answer. #735 retains integration authority.
 
 Intended and actual root delta: none. Both results have no premises and neither lies on a
 root route. No configuration changes status.
+
+## Positive fact extraction and the concrete-being boundary (#786/#545)
+
+The bounded composition `NECESSARY-FACT-BOUNDARY` has the following brief:
+
+- **Target:** make the fact-level output of reason closure and foundedness
+  positive, while retaining the distinction from necessary concrete existence.
+- **Reuse:** `ExplanatoryAdequacy.forced`, `core_necessitate`, `law_closed`,
+  `ground_founded` and the exact existing `law` interpretation. No new reason,
+  world, fact, bearer or ground relation is introduced.
+- **Missing step:** explicit excluded-middle witness extraction and a joint
+  certificate showing all explanatory backgrounds with no necessary bearer.
+- **Premise comparison:** no root premise change or discharge. All internal
+  philosophical backgrounds remain conditional; no new claim about an author.
+
+For a fixed arena `A`, standpoint `a`, account `S` and target `x`, the new
+conditional is:
+
+```
+ExcludedMiddle → ReasonClosed A a S x → Contingent A a x → Founded A a S →
+  NecessaryReasonForMember A a S ∧ ¬ AllReasonsNecessitate A a S
+```
+
+The positive conclusion is exactly:
+
+```
+∃ r, S r ∧ A.holds a r ∧ (∀ v, Access A a v → A.holds v r) ∧
+  ∃ c, S c ∧ Contingent A a c ∧ A.explains a r c
+```
+
+This is stronger than merely reporting an incompatible bundle with all reasons
+contingent: it extracts an actual member and preserves that member's role as an
+admitted reason. It does **not** say that `r` directly explains `x`, that `r`
+is autonomous or ungrounded, that it is one individual's existence fact, or
+that it produces anything. No ancestry path back to `x` is advertised.
+Necessity is relative to the same accessibility relation; actual truth is
+stated separately, so reflexivity is not smuggled in.
+
+The proof uses the already proved `forced` descent lemma. At a contingent
+member with no contingent predecessor, coverage gives an admitted reason,
+closure puts it in the account, and truthfulness supplies its actual truth.
+Under explicit excluded middle, its noncontingency gives truth at every
+accessible world. A second excluded-middle split selects the positive
+existential. The modal cost is the imported `core_necessitate`; a necessary
+reason cannot necessitate a contingent member. No argument here shows excluded
+middle to be logically minimal. The full `ReasonClosed` record is reused,
+although this extraction does not use its `nonCopy` field; no weakest-premise
+or independently defended adequacy claim is made.
+
+`lawControl` uses the literal #750 `law`, with the same `OneSource` account,
+world `0`, fact `.target`, truth assignments, reason assignments and `Unit`
+bearer carrier. It jointly satisfies reason closure, target contingency,
+contingent-reason foundedness and the positive necessary-fact conclusion.
+The witness is `.source true`, not an extra bearer. At accessible world `1`
+the only bearer is absent, so **no** bearer is necessary at `0`. The inherited
+cause relation is empty. This is a countermodel to a bare promotion from the
+fact-level conclusion to a necessary individual, not a metaphysical possibility
+claim, an adequate real law explanation, or an abstract cause of concrete
+existence. No concrete predicate appears in this arena: in particular the
+certificate does not supply concrete existential support.
+
+The existing `brute` and `chain` deletion controls continue to guard the
+coverage and foundedness assumptions. No new independent omission certificate
+or exhaustive metaphysical partition is claimed. Nor is this a formalization of
+Pearce's entire argument: autonomous facts, circumstances and sufficient
+concrete support would require their own sourced interpretation and interfaces.
+The new statement packages a universal conditional and its matched control;
+its empty outer argument-premise list does not establish its internal premises.
+
+Development uses the existing pinned Lean toolchain and CLI fallback: no local
+service/preview was running when inspected. A focused build of the imported
+ExplanatoryAdequacy solution is in progress; the new Challenge was frozen before
+its Solution. No verification claim is made before the new result passes its
+build, binding and Comparator/NanoDa gates. No original Challenge is edited.
