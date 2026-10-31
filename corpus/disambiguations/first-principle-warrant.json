@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-FIRST-PRINCIPLE-WARRANT",
+  "term": "first-principle entitlement and presupposition",
+  "sense_definition_ids": [
+    "DEF-ELENCTIC-FIRST-PRINCIPLE-DEFENSE",
+    "DEF-PRESUPPOSITION-LINK",
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "resolution": "The Aristotle reading concerns determinate signification and an elenctic dialectical method; it is not the occurrence-only PresuppositionLink of the generic performed-denial schema. That schema explicitly assumes its performance-to-episode link and never supplies a semantic or epistemic-to-ontic identity. Norm.Holds expresses a supplied scope/standard policy; an opponent violates it only when the relevant same-sense commitments have been stated. Della Rocca’s explicability argument rejects a proposed state for inexplicability and seeks a principled restriction; its reported dialectical support is not automatically a performative contradiction in every PSR denial. Project self-evident marking is a separate argued closure convention, not a synonym for undemonstrated or intrinsically intelligible. No new such marking is made here."
+}

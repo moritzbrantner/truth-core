@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-FUNDAMENTAL-PRINCIPLE-ENTITLEMENT-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-PNC-ELENCTICALLY-DEFENSIBLE",
+    "STMT-ARISTOTLE-ANPOST-IMMEDIATE-KNOWLEDGE",
+    "STMT-DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE",
+    "STMT-DELLA-ROCCA-PSR-DIALECTICAL-WARRANT",
+    "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read backlog756/750 and reused existing first-principles, performed-denial and PSR stance evidence in response to owner priority. Re-materialized Met.IV.4 and read its opening elenctic defense; distinguish determinate signification from the existing occurrence-only presupposition-link schema. Re-materialized/read Della Rocca pp1–10, found it ends mid-opponent-reply, then pinned/materialized/read pp11–13 under the same verified raw PDF. Entire13-page paper now read. Two atomic source readings retain the explicit local-to-global qualifications and positive dialectical warrant with p13 concession that a legitimate boundary has not been exhaustively excluded. Added source-specific definitions/disambiguation and corrected the earlier stale unavailable-author source note. No new Lean theorem, opaque bridge, source endorsement or self-evident marking. Exact priority plan and remaining actual/numerical application burdens persist in existing notes. Source/corpus validation pending; no root discharge.",
+  "blocker": "Independently defend a scope-exact entitlement or performance-presupposition for each metaphysical priority; the occurrence schema and a dialectical PSR argument do not themselves establish actual grounding foundation or numerical source unity.",
+  "evidence": [
+    "ARIST-MET-1006A-PNC-ELENCTIC-A",
+    "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE",
+    "DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE",
+    "DELLA-ROCCA-PSR-DIALECTICAL-WARRANT",
+    "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER"
+  ]
+}

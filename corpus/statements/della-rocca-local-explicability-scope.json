@@ -1,0 +1,11 @@
+{
+  "id": "STMT-DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE",
+  "paraphrase": "Acceptance of a particular explicability argument does not by itself commit one to rejection of inexplicability in every case; extending the demand puts pressure on a principled restriction.",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+    "DEF-DELLA-ROCCA-PSR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FIRST-PRINCIPLE-WARRANT"
+  ]
+}

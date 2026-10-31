@@ -1,0 +1,15 @@
+{
+  "id": "DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE",
+  "statement_id": "STMT-DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE",
+  "source_id": "DELLA-ROCCA-PSR-2010",
+  "locator": "pp.1-10: pp.2–5, definition and repeated local-scope qualifications; pp.5–6, modality and existence transition",
+  "interpretation": "Della Rocca defines an explicability argument by rejection of a state because its obtaining would be inexplicable, and repeatedly distinguishes local uses from general PSR commitment. This reading does not deny his subsequent case for extending the demand; it preserves the local-to-global step that argument must address.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+    "DEF-DELLA-ROCCA-PSR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FIRST-PRINCIPLE-WARRANT"
+  ]
+}

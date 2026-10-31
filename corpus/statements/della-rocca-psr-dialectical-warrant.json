@@ -1,0 +1,11 @@
+{
+  "id": "STMT-DELLA-ROCCA-PSR-DIALECTICAL-WARRANT",
+  "paraphrase": "The acceptance of some explicability arguments supplies a dialectical reason for accepting the unrestricted PSR pending a principled restriction; failure so far to find that restriction is not proof that no legitimate restriction exists.",
+  "definition_ids": [
+    "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+    "DEF-DELLA-ROCCA-PSR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FIRST-PRINCIPLE-WARRANT"
+  ]
+}
