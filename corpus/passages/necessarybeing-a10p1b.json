@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10p1b.html",
+    "retrieved_at": "2026-10-31T19:50:44Z",
+    "sha256": "sha256:1a7babe837d7e3a11b3c4239c1783debc3b41e6d3637bb72ed38b3574fbbd133",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10P1B",
+      "locator": "A10P1B, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10P1B,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Perhaps you think that some things have a cause, but you worry that other sorts of things (certain particles, say) might not have a cause."
+        }
+      },
+      "text_sha256": "sha256:770fa78a6f00985b8bea87a8b66ad27414b8ceecacf2165e663bbf63f95a3323",
+      "incipit": "Perhaps you think that some things have a cause, but you worry that other s"
+    }
+  ]
+}

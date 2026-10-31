@@ -61,10 +61,18 @@ verification. Its explicitly vacuous entailment makes nonlimitation carry
 possibility strength when a deficiency property is admitted; this is not an
 independent possibility defense or the existing structural limitation predicate.
 A9 nine-page reading is complete; its ordinary-to-nontrivial entailment lift
-is distinct from A8 vacuity and remains open. A10 and earlier witness coverage
-reconciliation remain. A two-request hosted test is assigned to compare default
-production urlopen against the successful probe fresh-opener path, preserving
-URL, headers, TLS and hashes; no fourth full-CI retry is scheduled.
+is distinct from A8 vacuity and remains open. A10 fifteen-page reading is complete: its instance-entitlement inference is
+defeasible, not a numeric probability bound. Earlier shared/A1 witness coverage
+and substantive source-ordered proposition/argument extraction remain queued;
+reading every numbered family does not complete that campaign. The two-request
+hosted test `41236167940`, commit `5c7f2a6cf15e42418d4e77f5c7e0fc1a7ddc515d`,
+returned exact Koons bytes through BOTH default urlopen and fresh opener. All
+proxy-presence flags were false; no redirects. Thus the opener distinction
+does not currently explain failure or warrant changing production. No fourth
+full-CI retry is scheduled. Main `85f4f369` owner conditional-framework policy
+was merged into this research branch; next formal lane instantiates existing
+count descent with typed temporal caused-threshold semantics, retaining explicit
+history/world correspondence and guarded cause-bearer assumptions.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and

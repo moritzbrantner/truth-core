@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10p2.html",
+    "retrieved_at": "2026-10-31T19:50:41Z",
+    "sha256": "sha256:eecaffde605283e599078fb0d99ae409ea861f425573da8cf3b889552caf6851",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10P2",
+      "locator": "A10P2, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10P2,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is it necessary that every concrete thing is included in a chain of causes that is both infinite and ungrounded?"
+        }
+      },
+      "text_sha256": "sha256:694e2ea1ffd1230bc704789620f826bd776dc184b7b9ec9f09b26c072e0b2a40",
+      "incipit": "Is it necessary that every concrete thing is included in a chain of causes "
+    }
+  ]
+}
