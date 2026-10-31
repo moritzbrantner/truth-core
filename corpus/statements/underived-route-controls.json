@@ -1,0 +1,25 @@
+{
+  "id": "STMT-UNDERIVED-ROUTE-CONTROLS",
+  "paraphrase": "Formal facts about the #487 route. Over all profiles, restricted well-foundedness, the closing premise, excluded middle, present support and concrete supporters give every actual concretum an actual concrete ground-ancestor, possibly itself, that is an actual root, necessary, and without existing supporter at any world; and necessary predecessor lifting at the selected relation gives present support. For each of inhabitedness, restricted well-foundedness, the closing premise, present support and concrete supporters, a model satisfies the other four with no necessarily underived individual. Well-foundedness is also omitted in a model on the natural numbers whose edges all run from larger to smaller, so with no cycle. In the rotating model, in the possible-contingent model and in the abstract-support model, inhabitedness, restricted well-foundedness and the closing premise hold and a necessary actual root exists, with no necessarily underived individual: the first two satisfy concrete supporters, the first has every supporter of a necessary being necessary and novel support, the second has no novel support between necessary beings and a contingent supporter of a necessary being, and the third has present support and lifting and fails concrete supporters. One model has all five premises, a necessarily underived individual, and lifting failing. One model has all five premises and two distinct underived roots with no ancestry either way, one of which grounds an actual concretum of which the other is no ancestor, while that concretum is absent at an accessible world where its ground exists. No model is claimed metaphysically possible.",
+  "lean_declaration": "TruthCore.Causality.UnderivedRootRoute.UnderivedRouteControls",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-NECESSARY-PREDECESSOR-LIFTING",
+    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "DEF-NO-NOVEL-NECESSARY-SUPPORT",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+  ]
+}

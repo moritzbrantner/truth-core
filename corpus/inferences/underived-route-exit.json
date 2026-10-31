@@ -1,0 +1,12 @@
+{
+  "id": "INF-UNDERIVED-ROUTE-EXIT",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-UNDERIVED-ROUTE-EXIT",
+  "rule": "classical-case-analysis",
+  "meaning": "Coverage: a rival that accepts an inhabited world and denies a necessarily underived individual must deny restricted well-foundedness (circular support or endless descent), or accept a contingent root (a brute contingent root), or deny present support (world-varying support of a necessary being), or deny concrete supporters (abstract support of concreta). These labels name models, not any author's view. The exits overlap, none is refuted and each is taken alone in STMT-UNDERIVED-ROUTE-CONTROLS.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

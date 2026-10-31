@@ -1,0 +1,10 @@
+{
+  "id": "UNDERIVED-ROUTE-EXIT",
+  "argument_id": "UNDERIVED-ROUTE-EXIT",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedRootRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedRootRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedRootRoute.underivedRouteExit",
+  "comparator_config": "results/UNDERIVED-ROUTE-EXIT/comparator.json",
+  "status": "solution-present",
+  "description": "Classical coverage with excluded middle as an explicit premise, zero Lean axioms: an inhabited world has a necessarily underived individual or takes one of four exits. Coverage only, with overlaps; no exit is refuted; inhabitedness is open; no root change."
+}

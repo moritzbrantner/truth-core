@@ -1,0 +1,23 @@
+{
+  "id": "STMT-UNDERIVED-ROUTE-EXIT",
+  "paraphrase": "At w at least one holds: some individual exists at w and at every accessible world and has no existing supporter at any world; or the selected relation is not well-founded on actual concreta; or some actual root is contingent, with an accessible world lacking it; or the present-support premise fails; or the concrete-supporters premise fails. The alternatives can overlap, and none is asserted.",
+  "lean_declaration": "TruthCore.Causality.UnderivedRootRoute.UnderivedRouteExit",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT"
+  ]
+}
