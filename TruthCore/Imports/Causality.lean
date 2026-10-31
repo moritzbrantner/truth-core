@@ -27,6 +27,7 @@ import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.HeadlessCausalAncestry
 import TruthCore.Causality.JointGroups
+import TruthCore.Causality.LocalFramePossibleExternalCause
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
 import TruthCore.Causality.NamedPotentialCauser

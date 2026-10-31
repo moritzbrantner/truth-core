@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SCENARIO-CAUSAL-OPPORTUNITY",
+  "paraphrase": "OPEN, unattributed existing Scenario premise: if a beginning of contingent concrete reality is possible, an accessible history has such a beginning with an existing original-concrete cause of that totality, numerically distinct from all contingent concrete individuals there. The totality-cause relation is not Ontic.Causes between individuals, and the opportunity is not established by logical consistency.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.CausalOpportunityAt",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

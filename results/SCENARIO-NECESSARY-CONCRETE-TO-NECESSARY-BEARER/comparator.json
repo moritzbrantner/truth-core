@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ScenarioNecessaryWitness.necessaryBearer"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

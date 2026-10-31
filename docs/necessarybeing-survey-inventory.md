@@ -349,3 +349,41 @@ Pinned/materialized/read in source order A3p1 → A3p2 → A3p3 → A3c, then A3
 **Closest existing consequence.** `PossibleCauseOfContingency.possibleExternalCauseYieldsNecessary` already derives `NecessaryConcreteAt s w` from `UniversalFrame s` and `PossiblyExternallyCausedAt s w`; `causalOpportunityAndPossibleBeginning` supplies that latter interface from `PossiblyBeginsAt` and `CausalOpportunityAt`. Its proof preserves the same rigid bearer from the accessible caused history to the actual world and all accessible worlds. The source-informed module explicitly records that its begins predicate is not itself an encoded temporal transition. Hence A3 does not need a duplicate external-candidate or modal suffix proof. To apply it, the fresh source work would be a faithful bridge from the state-preserving causability of the first transition and existing-before-cause condition to an existing concrete cause outside all contingent concrete individuals in that history. Simply assuming `CausalOpportunityAt` packages that substantive bridge rather than proving the source's steps 3–8. `UniversalFrame` is the existing theorem's sufficient modal scope, not something established by the respondent's prose. The propositional NecessaryIfExistent suffix remains separately reusable if chosen instead; neither route licenses exchanging `□∃` for `∃□` without the explicit individual semantics.
 
 **Alternates and premise comparison.** A3p3b/A3c2 replace the original possibility report by possible-impossibility implying actual impossibility, then recover the same necessity-of-possibility principle and modal suffix, as in A2c2. A3p3c instead stipulates automatic existence if possible and re-asks *whether the beginning of all contingent things is possible under the revised class*. Its affirmative path A3c3 repeats the eleven causal steps then appeals directly to the stipulation. Unlike A2p2c, it does not re-ask no-uncaused-contingents; that premise is not used by the A3 argument. Its revised contingent extension and individual/world scope cannot silently be identified with ordinary NecessaryAt. Compared with A2, A3 replaces the exclusion of universal headless ungrounded ancestry and the no-uncaused-contingents report by possible universal contingent beginning and universal possible-event causability, plus its temporal-priority exclusion. It leaves actual contingent beginnings possibly uncaused: possible causal availability is not actual universal PSR. No weaker-overall-bundle or actual-world causal-foundation claim follows. All source premises and representation bridges remain open; this reading makes no premise discharge and adds no formal/source claims.
+
+**A2c2 delivery integrity investigation (2026-10-31, PR821).** CI at 18:06:15 UTC received response hash `4fa48eaea30c51a151ca493514e1c265f12841afa8ac34dbb3d6bc6a0140351d` instead of pinned `4d6e116fa475f73416f9d1c6a36341e7841a000904592f18d5e45d4dec0df949`. The log supplies neither failed bytes nor headers, so the changed content and cause are presently unknown. At 18:12 UTC the exact existing downloader (fixed `truth-core-source-evidence/1`, identity encoding) still returned the pinned 9597 bytes; default urllib and browser user agents, HTTP/HTTPS and www/bare host variants also matched exactly. The local response was nginx, Last-Modified 2017-08-02 02:17:35 GMT; DNS resolved to 198.91.82.219. No local proxy environment was present. These observations exclude a reproduced local user-agent difference but do not exclude runner/network-specific delivery or a transient response. Exact URL and wildcard CDX queries for both host forms returned no capture; no legitimate matching archive fallback was found. No pin or interpretation was changed. A safe repair first requires retaining the failed runner response bytes, headers and resolution, then comparing and reading them; repinning a hash without those bytes or ignoring response differences would not repair source integrity.
+
+**CI delivery follow-up.** The unchanged-head retry of run `41227428523`,
+attempt2/job `124617249783`, verified all four original pinned A2 snapshots at
+18:18:06 UTC, including the original A2c2 hash `4d6e116fa475`. No source manifest,
+verification rule or proof input changed. The first differing response remains
+unexplained because its bytes were not retained; this is not evidence that the
+source text changed. If reproduced, retain the failing response before any
+repin. PR #821 subsequently passed all checks and merged.
+
+### Verified frame-scope reduction for possible external causes
+
+`LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE` keeps exactly the old Scenario,
+`PossiblyBeginsAt` and `CausalOpportunityAt`, while replacing global
+`UniversalFrame` with `Euclidean` and `ActualReflexive` at the selected world.
+Its same-cause helper reuses `ExternalCandidateNecessity.checks` with the
+already established singleton-concrete selection technique; it retains the
+original cause's concrete evidence and preserves its ontic/existence identity.
+Only existence/necessity transfer to the actual standpoint; its totality-causing
+role is asserted at the accessible history, not automatically here. The old
+classical logical basis and permitted Mathlib axioms are unchanged.
+
+`localFrameOfUniversal` proves the old frame premise supplies both replacement
+conditions. The existing Boolean identity-frame controls separate these frame
+fragments, but cannot witness the whole causal bundle: identity accessibility
+has no contingent existents, so possible contingent beginning fails there. No
+strictness or minimality certificate for the complete causal-premise bundle is
+claimed. A count of four named inputs versus three is not a strength metric.
+The beginning and external-opportunity commitments remain open.
+
+`SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER` is explicitly an assembly
+projection: retain the SAME witness's actual/necessary existence in the SAME
+ontic model, dropping only the supplied concrete conjunct. It connects this
+Scenario endpoint to the shared necessary-being statement without changing
+ontology or independently advancing premise truth. Full build, binding, both
+Comparator/NanoDa checks passed. Source temporal/event correspondence, concrete
+capability and metaphysical modal applicability remain unproved.

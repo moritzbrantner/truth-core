@@ -1,0 +1,26 @@
+{
+  "id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "premise_statement_ids": [
+    "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER"
+  ],
+  "meaning": "Assembly transcription: destructure the existing Scenario.NecessaryConcreteAt witness and retain the SAME individual\u2019s actual and necessary existence in the SAME s.ontic, dropping only its supplied concreteness conjunct. Connects to existing STMT-KANT-CONVERSION-NECESSARY-WITNESS. No additional premise, concreteness bestowed on another witness or independent metaphysical discharge; closure through this assembly requires its input already closed.",
+  "definition_ids": [
+    "DEF-SCENARIO-NECESSARY-CONCRETE-AT",
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}
