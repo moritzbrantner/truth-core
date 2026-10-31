@@ -1321,3 +1321,102 @@ bounded item. Its existing full-book source snapshot does not mean that lecture
 has already been materialized as a passage. The candidate now advances to that precise lecture; this finding exhausts
 the SCG I.16 lead only. Exact premise change: none; no
 Lean theorem, new modal/source principle, model or root-frontier discharge.
+
+
+### In Metaphysicam V lect.13: priority senses and the shared-Prior obligation (2026-10-31)
+
+The precise queued lecture **V lect.13**, complete nn.1–18, anchors
+**[82501]–[82518]**, has now been pinned as **AQUINAS-IN-METAPH-V-L13**,
+materialized and read. Its new manifest
+`corpus/passages/aquinas-in-metaphysicam-v-l13-lat.json` reuses the existing
+book-V Latin snapshot of `https://www.corpusthomisticum.org/cmp05.html`, response
+SHA256`230dcfb6b8fd45cefe50de8e185017961cf81739452a0286aa404885e17c28f1`,
+encodingISO-8859-1; selection runs from the heading Lectio13 up to Lectio14.
+The full eighteen numbered paragraphs, rather than an isolated priority
+sentence, supply the evidence. No other lecture was read, no candidate was
+edited, and no new attributed claim or formal interface is introduced.
+
+**Sequential scope.** Nn.1–2 introduce priority relative to a principle and
+separate ordering in becoming/motion/quantity, cognition, and being/nature.
+Nn.3–6 cover place/time and choice of reference principle; nn.7–8 cover motion,
+generation and effective command; nn.9–10 discrete ordering; nn.11–14 cognition;
+nn.15–18 priority in being with its dependence, substance/accident, and
+act/potency qualifications. Consequently the general vocabulary of prior,
+principle or even simply cannot by itself pick the current formal relation.
+N.11[82511] uses simply-prior language within the cognition discussion; it is
+not permission to put every epistemic predecessor into ontic grounding.
+
+**Positive ontic criterion.** N.15[82515] explicitly identifies a natural order
+in being, then gives as one mode priority through commonality or dependence:
+the prior can be without the posterior, whereas the posterior cannot be without
+the prior. This is an asymmetrically directed separability/dependence criterion,
+not just symmetric covariance. The immediately following Platonic universals,
+surfaces, lines and number applications are reported as Plato's use of that
+mode; the passage should not be made an endorsement of every Platonic instance.
+N.16[82516] supplies a distinct subject/substance-over-accident mode, with a
+per-se-existing primary subject. These are positive grounds for investigating
+ontic prerequisite dependence. Neither paragraph says every such predecessor
+is an efficient agent producing the posterior's bare esse or a concrete member
+of an arbitrary supplied Profile.
+
+**Act/potency is included, but with qualifications that do real work.**
+N.17[82517] explicitly makes the act/potency division a third mode in this
+natural/being-order discussion. Matter and parts are prior *in potency*;
+with respect to actuality they are posterior, and parts become actual through
+dissolution. N.18[82518] reduces the discussed modes, especially to asymmetric
+independence, while distinguishing whole-before-parts in generation from
+parts-without-whole after corruption. Thus the lecture does connect its modes
+under a common dependence/separability account; it does not leave them as
+wholly unrelated homonyms. But that reduction retains the qualified mode and
+phase of being. It does not yield an unqualified rule that every named part is
+an actually existing current efficient cause, or that a prior-in-potency role
+is a distinct actual bearer in the selected world's support graph. A whole-first
+comparison cannot ignore the actual/potential distinction in the examples.
+This does not refute the explicit q.3 `CompositePosteriorToComponentsReading`
+premise: q.3 constitutive principles need not be the detachable parts discussed
+here. It requires correspondence of the SAME ComponentOf, Prior and qualified
+respect before the source examples are used for or against that premise.
+
+N.1[82501]'s father-as-principle and n.7[82507]'s mover/generator are genuine
+causal examples. The latter calls the generator a principle simply and by
+nature, unlike an arbitrary spatial reference. The child's generative order
+and n.8[82508]'s command-to-execution order therefore give positive directed
+causal cases, not a denial that natural priority can be causal. Their roles
+remain generation or a particular commanded movement; neither proves a
+universal continuing bare-existence cause for every natural priority. The
+source's asymmetric independence criterion cannot be reversed into efficient
+causation merely by replacing “cannot be without” by the word cause.
+
+**The same-Prior constraint in the current proof.** Q.3/SCG I.16's generic act-
+priority premise and this lecture's natural/being-order modes share an
+act/potency and directed-dependence setting. V.13 expressly includes act/potency
+under its natural-order discussion. There is nevertheless no sentence here
+identifying every actualizer-prior individual in q.3/SCG with the natural-
+priority criterion of the patient's *bare existence*, nor every natural
+predecessor with an efficient esse giver. The source explanation of a
+potency-to-act transition and the present-constitutive existence-prerequisite
+reading remain different scoped roles until their agreement is defended.
+
+This matters because `necessaryFirstPureAct` consumes the SAME `PriorSimply`
+parameter in the act-priority premise and the bridge into selected actual
+concrete grounds. Using the ontic-dependence criterion to defend the bridge,
+then a producer-of-an-actualization reading to defend generic act-priority,
+would silently change that shared parameter's meaning. It is not enough that
+both predicates can be written with the same Lean function type or translated
+as priority. The source's reduction of priority modes supports a possible
+common account, but the actual-world presence, concrete-domain coverage and
+same-esse-relatum requirements still need proof for the specific priorities
+used by that theorem. Conversely a decision to restrict Prior to current
+constitutive prerequisites would need the broad act-priority premise defended
+for that restricted relation; the text's transition reason alone does not
+provide it for every unexercised potency.
+
+**Result for ledger G.** This lecture supplies a clearer positive criterion
+of ontic dependence and its multiple qualified modes, not the unrestricted
+**STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING** or its direct actual-concrete-ground
+variant. It also locates a shared-semantics obligation between G and the
+act-priority premise rather than supplying another opaque universal bridge.
+No presupposition-only-to-efficient-cause inference, respect-to-bare-being
+substitution, new passive-potency claim, transitivity, well-foundedness or
+modal support transport is admitted. Exact premise change: zero. The bounded
+lecture is exhausted; queue/candidate handling remains coordinator-owned.

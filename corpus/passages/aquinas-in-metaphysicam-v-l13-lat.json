@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-IN-METAPH",
+    "source_url": "https://www.corpusthomisticum.org/cmp05.html",
+    "sha256": "sha256:230dcfb6b8fd45cefe50de8e185017961cf81739452a0286aa404885e17c28f1",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-10-27T19:31:53Z",
+    "license": "Latin text as transcribed by Roberto Busa and reviewed by Enrique Alarc\u00f3n on the Corpus Thomisticum; the site claims copyright for this edition (Fundaci\u00f3n Tom\u00e1s de Aquino, all rights reserved). Only hashes, locators, metadata and a short incipit are committed. No Wayback capture is pinned: the archive was unreachable from the pinning host on 2026-10-27."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-IN-METAPH-V-L13",
+      "locator": "V, lect. 13, complete lecture (nn.1\u201318; anchors [82501]\u2013[82518])",
+      "html_selector": {
+        "from": {
+          "text": "Lectio 13"
+        },
+        "to": {
+          "text": "Lectio 14"
+        }
+      },
+      "incipit": "Lectio 13",
+      "claim_locator_prefixes": [
+        "V, lect. 13 "
+      ],
+      "text_sha256": "sha256:00cbd2819d88a92848424776efd773b790dee4090f5fef2c9ef9b93c6eca4903"
+    }
+  ],
+  "notes": "Bounded full lecture on prior/posterior senses. Reuses existing pinned book-V snapshot; no source claim introduced by this manifest."
+}

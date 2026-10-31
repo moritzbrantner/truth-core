@@ -2,35 +2,32 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#817](https://github.com/moritzbrantner/truth-core/pull/817) are
-merged. Latest merge `287c61289df625d7fcfeeb1286610c526cba7f04` passed all CI
+PRs #810–[#818](https://github.com/moritzbrantner/truth-core/pull/818) are
+merged. Latest merge `c066e5c32c756f431c8cc1bb15599863bcd97376` passed all CI
 checks and current-head review without findings (reviewed head
-`cd240b133151839da167e50298aeeed8f00bd50a`, CI run `41223817438`). The
-same-root essence identity and eleven-input three-horn connection are now on
-main. Full build, binding (781 bound, two existing pins, zero mismatches),
-zero-permitted-axiom Comparator and independent NanoDa passed. God/Catholic/
-unique-root unions66/73/14 and all existing route costs are unchanged; no
-philosophical premise was discharged.
+`b79aa001000e06974f93578e6fb6f0826fff4bd0`, CI run `41224475431`). The formal
+baseline from #817 preserves the same-root essence identity and eleven-input
+three-horn connection, verified by full build, exact binding, Comparator and
+independent NanoDa. God/Catholic/unique-root unions66/73/14 and existing route
+costs remain unchanged; no philosophical premise was discharged.
 
-The successor source audit is `bf59ae69`, reading all six chapters of Plotinus
-VI.9.1–6. Six new passage witnesses passed live immutable-source verification.
-The sequential findings and exact source/domain boundaries are in
-[the existing Plotinian note](plotinian-composition-unity.md). The exhausted
-V.4/VI.9 candidate was removed. This supplies a positive constituent-need and
-self-sufficiency argument, but no independent exclusion of two individually
-intrinsic simple whole natures; no source claim, Lean theorem or root edge was
-added. The next source for that numerical-common-source/individuation gap is
-not yet selected. The source-only batch is [PR #818](https://github.com/moritzbrantner/truth-core/pull/818),
-head `b79aa001000e06974f93578e6fb6f0826fff4bd0`, reviewed without findings. CI
-run `41224475431` has passed corpus/explorer checks; its library check is pending.
+The Plotinus VI.9.1–6 source investigation is on main: six complete chapters
+with live-verified witnesses, the constituent-need/self-sufficiency argument,
+and the unproved exclusion of plural intrinsic simples are preserved in the
+[existing Plotinian note](plotinian-composition-unity.md). Its exhausted source
+candidate was removed; no numerical-common-source proof was advertised.
 
-Successor queue audit `ac1f6de4` removes two exhausted reading tasks, preserves
-their open obligations in existing attempts, and distinguishes two witness-seeking
-applicability tasks from completed source ingestion. The remaining priority task
-now names the unread *In Metaphysicam* V lect.13. The completed SCG I.16 context
-supports directed actualization, not unrestricted priority-to-esse causation;
-its exact findings are in the existing power/existence scope note and first-being
-attempt. No Lean input or root-premise closure changes.
+Successor queue audit `ac1f6de4` removes two exhausted reading tasks and
+preserves their open obligations in existing attempts. Two other tasks now
+explicitly seek a new witness or discriminating premise defense. The remaining
+priority lead, *In Metaphysicam* V lect.13, has now also been fully read alongside
+SCG I.16. All 18 paragraphs are covered by AQUINAS-IN-METAPH-V-L13. Natural
+priority gives positive asymmetric independence; directed actualizer examples
+do not establish unrestricted efficient causation of a bearer's bare esse.
+The same PriorSimply/component/respect correspondence remains open, and the
+completed priority source candidate is retired. Exact findings are in the
+existing power/existence scope note and first-being attempt. This successor
+source/queue batch awaits publication/review; no Lean input or root edge changes.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.
@@ -91,6 +88,12 @@ Classical logic remains the current framework.
 | L | Something that is a component of anything cannot be first in being. | STMT-NO-COMPONENT-IS-FIRST-BEING; component-of-others differs from being composite. |
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
+
+Priority scope clarification for G: the completed V lect.13 reading distinguishes
+asymmetric natural independence, causal examples, cognition order, and
+act/potency/part-whole aspects. A shared word does not identify these relations.
+Any accepted G must use the same specified priority sense throughout its proof;
+this source audit neither marks G false nor admits it as true.
 
 A source-audit clarification of I was also given to the owner: the current
 formal antecedent is any **weak maximum**, including ties/incomparables. If
