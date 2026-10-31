@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REASON-STRICTLY-SUFFICES",
+  "term": "strict sufficiency of one fact for another",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Necessitates",
+  "definition": "At every world accessible from a where r is true, f is true. One pair-level relation, separate from admission as a reason; DEF-PSR-REASON-NECESSITATING is the global condition on admitted reasons. Not causal, not asymmetric, not explanatory by its name.",
+  "note": "See docs/notes/simplicity-collapse-555.md. Stipulative analyst notion for #555; no source is claimed for it."
+}

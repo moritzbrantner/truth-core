@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-CREATIVE-ACT-IDENTITY",
+  "term": "the creative act (rigid token; description; respect of the bearer)",
+  "sense_definition_ids": [
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-CREATIVE-ACT-DESCRIPTION",
+    "DEF-DECREE-RESPECT-FIELD",
+    "DEF-SIMPLE"
+  ],
+  "resolution": "The act may be a rigid token performed across worlds, what a world-relative description denotes, or a respect in which the bearer is in act. The Core reads act necessity and strict efficacy of one token, and a two-token model shows that the inconsistency needs their identity. A description is rigid only by the separate RigidAt condition. RootExposure reads a decree as a field respect only in its decree clauses, and oneRespect is the branch where no decree is one. DEF-SIMPLE says only that God is in no way composite: no certificate here passes from it to any of these senses."
+}

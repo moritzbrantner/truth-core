@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-CAPACITY-BRIDGE",
+  "term": "modal capacity bridge",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.ModalCapacity",
+  "definition": "Being actually in a respect at a world accessible from w suffices for being able to be so at w. It reads CanBe modally. Open and unattributed: the IX.6 examples of ability do not state it, and it is the premise a defender of immutability with contingent creation can deny.",
+  "note": "See docs/notes/simplicity-collapse-555.md. Stipulative analyst notion for #555; no source is claimed for it."
+}

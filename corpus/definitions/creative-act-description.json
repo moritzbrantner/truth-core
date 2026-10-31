@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CREATIVE-ACT-DESCRIPTION",
+  "term": "world-relative description of the creative act",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.SimplicityCollapse.DescriptionSound",
+  "definition": "A partial function d from worlds to tokens. Sound: what it denotes at a world is performed there. CoversEffect: it denotes at each accessible world with the effect. RigidAt: it denotes the same token at every accessible world. Soundness and coverage do not give rigidity.",
+  "note": "See docs/notes/simplicity-collapse-555.md. Stipulative analyst notion for #555; no source is claimed for it."
+}
