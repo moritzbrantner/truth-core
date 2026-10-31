@@ -2,7 +2,7 @@
 
 Reading date: 2026-10-26 · Campaign: [#492](https://github.com/moritzbrantner/truth-core/issues/492) · Source identity: NECESSARYBEING-SURVEY
 
-**Status: source inventory plus first formalized conditional slice.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests, verified in a local checkout with `source_evidence.py materialize` and inspected there. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The first ten source claims cover the definition (three), A1/A1c2 (four), and A7c (three). The A7c steps 1–3 conditional result passed local Lean compilation, Comparator and independent NanoDa checking on 2026-10-31 at baseline `770102e8b399bbc2ab6dcb36dd60ffff93cb4d14`, using `scripts/verify-result.sh NB-SURVEY-FIVE-TO-ONE` with zero permitted axioms. Corpus binding is a separate integration check. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. Other readings await pinned passages and fidelity checks.
+**Status: source inventory plus first formalized conditional slice.** These pages were traversed in the public interactive quiz, including different answer routes. No survey answers were submitted. Four initial pages (the necessary-being definition, A1c, A1c2 and A7c) now have byte-stable hash-pinned web_snapshot manifests, verified in a local checkout with `source_evidence.py materialize` and inspected there. The definition and A1c also have matching dated Wayback bytes; A1c2 and A7c remain fragile without known matching captures. The first ten source claims cover the definition (three), A1/A1c2 (four), and A7c (three). The A7c steps 1–3 conditional result passed local Lean compilation, Comparator and independent NanoDa checking on 2026-10-31 at baseline `770102e8b399bbc2ab6dcb36dd60ffff93cb4d14`, using `scripts/verify-result.sh NB-SURVEY-FIVE-TO-ONE` with zero permitted axioms. Fresh integration binding on 2026-10-31 at `9f583a004023e7ff6bc0db72dbc057ecca02239c` matches both named premises and the OneCausable conclusion exactly; the global report has 730 bound, 2 existing pins and 0 mismatches. The labels NB-SURV-P01 etc. below are inventory handles, **not STMT IDs**. Other readings await pinned passages and fidelity checks.
 
 The survey has ten numbered arguments, but most share a modal suffix. They should be imported as distinct source arguments sharing the *same* verified modal intermediate result, not ten copies of that proof.
 
@@ -119,10 +119,10 @@ These records link definitions and disambiguations for necessary being, objectiv
 1. Keep the four materialized page witnesses reproducible; find durable archival fallbacks for A1c2 and A7c if possible. Pin subsequent A2–A10 source pages before source claims.
 2. Check site authorship, update date and licensing rather than assigning a philosopher by speculation; inspect each later page's verified text with its context.
 3. Critique the first ten source claims against the pinned text. Preserve the A1 stronger external-cause variant, existential versus individual necessity, and the source's respondent-conditional framing.
-4. Verify the written A7 Lean result with `lake build`, `corpus.py bind-check` and Comparator. Then extend the typed causal semantics or register a countermodel without transfer; do not treat the count theorem as A7's entire ontic conclusion.
+4. Reuse the verified A7 count transcription and exact premise binding. Extend the typed causal semantics or register a countermodel without transfer; do not treat the count theorem as A7's entire ontic conclusion.
 5. Process remaining families in small source-order batches and compare intermediate open premises with the root frontier. No root premise closure has occurred from this first pass.
 
-**Premise comparison for this PR:** A7 introduces two new **open, sourced, respondent-reported premises** and one new conditional intermediate conclusion in a separate argument; neither is on an established root route. The remaining seven statements are separate sourced readings, not accepted truths. No root premise has been discharged, and no route cost is claimed to have decreased. Source and corpus checks pass locally; the new Lean result's independent Comparator verification must be reported from CI before it is called proven.
+**Premise comparison for this PR:** A7 introduces two new **open, sourced, respondent-reported premises** and one new conditional intermediate conclusion in a separate argument; neither is on an established root route. The remaining seven statements are separate sourced readings, not accepted truths. No root premise has been discharged, and no route cost is claimed to have decreased. Source and corpus checks pass; the independently checked count result remains a conditional transcription, with exact binding confirmed by the subsequent integration audit below.
 
 ## Integration priority after the 2026-10-31 issue review
 
@@ -150,10 +150,53 @@ Comparator/NanoDa confirmation. No source reading, philosophical premise or
 root-path obligation was discharged. Shared policy was resolved at
 `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
 
-The subsequent global `corpus.py bind-check` could not run to completion:
-`ActualityWithoutBeingNotEliminated/Solution.olean` was absent from the local
-build. That attempt was on old baseline `770102e8`; it was an unbuilt integration
-prerequisite, not a rejected A7 binding or failed philosophical inference. The
-checkout was subsequently fast-forwarded to `7b7174f2`; the old build was stopped
-and is not verification evidence for the new revision. Reuse applicable
-delivered-head CI evidence before scheduling another full integration build.
+The earlier global binding attempt at baseline `770102e8` stopped because an
+unrelated module had not been built. This historical setup failure is resolved:
+a fresh `python3 scripts/corpus.py bind-check --json` on 2026-10-31 at
+`9f583a004023e7ff6bc0db72dbc057ecca02239c` completes with 730 bound results,
+2 existing pins and 0 mismatches. Its A7 entry binds `hFive` to
+`STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE`, `hTransfer` to
+`STMT-NB-COUNT-CAUSABILITY-DESCENT`, and its conclusion to
+`STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE`, with no problems. This resolves a
+verification task, not either philosophical premise. The candidate no longer
+queues that completed check.
+
+## Reuse audit: A1's external cause and the shared modal step
+
+Fresh materialization and reading of `NECESSARYBEING-A1-TOTALITY` (A1c,
+steps 1–9) and `NECESSARYBEING-A1-EXTERNAL` (A1c2, steps 1–8) confirms two
+different source routes. A1c uses its step 5 self/parts exclusion to seek a
+cause or partial cause outside C and its parts. A1c2 assumes externally caused
+contingents at step 3. Neither source argument is already formalized by the
+A7 count transcription.
+
+Reuse `EXTERNAL-CANDIDATE-NECESSITY`, whose theorem
+`TruthCore.Results.Causality.ExternalCandidateNecessity.checks` invokes
+`TruthCore.Causality.PossibleCauseOfContingency.externalCandidateIffNecessary`.
+In its rigid, world-relative concrete domain, existence of an actual concrete
+individual outside every actual contingent concretum is equivalent to existence
+of a necessary concrete individual. This is the reusable logical core of A1c
+steps 7–8 and A1c2 steps 6–7, after the source-to-model applications are supplied.
+No new modal theorem or S5 suffix is needed for this **actual-world** step.
+The existing theorem is not a source attribution to the survey and is not yet a
+corpus inference from the survey's unbound prose statements.
+
+The exact application obligations are: C must be an admitted causal relatum;
+all relevant contingents must lie in C or its parts; a cause outside those parts
+must exist actually in the same individual domain; and the modal reading of
+contingency must agree. Survey concreteness means causal capability, whereas
+the reused theorem takes a stipulated concrete predicate. Their identification
+needs an explicit interpretation. An actual partial cause supplies causal
+capability only under a compatible causal semantics; modal necessity alone
+does not supply that power. The survey conclusion's capacity conjunct cannot
+be silently dropped or borrowed from the theorem's concrete label.
+
+For the first route, no-self-production by an act is not the full self/parts
+exclusion: `STMT-NO-EXISTENTIAL-SELF-PRODUCTION` does not rule out joint
+production by parts or transfer its mixed priority assumptions to a totality.
+For the external variant, the stronger universal external-cause premise remains
+explicit. Neither a local cause for each member nor the owner's accepted actual
+existence alone supplies the required totality-level external cause. Compare
+`docs/notes/ultimate-adequacy-integration-735.md` for the separate cumulative
+route, which does not require a contingent fusion object. No premise change or
+root-frontier closure follows from this reuse audit.
