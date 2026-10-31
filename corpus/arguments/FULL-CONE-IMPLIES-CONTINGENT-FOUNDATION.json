@@ -1,0 +1,41 @@
+{
+  "id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+  "premise_statement_ids": [
+    "STMT-SELECTED-CONE-WELL-FOUNDED"
+  ],
+  "conclusion_statement_id": "STMT-CONTINGENT-CONE-FOUNDED",
+  "inference_ids": [
+    "INF-FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION"
+  ],
+  "meaning": "Restrict the existing full-cone well-founded relation to the contingent positive existence-fact arrows of the same complete actual-concrete ancestry. This exposes a typed corpus edge from full cone foundation to contingent-only foundation. Strictness is supplied separately by CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS; no actual instance of either philosophical premise is independently established.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-GROUND-EXISTENCE-FACT-ARENA",
+    "DEF-CONTINGENT-CONE-FOUNDED",
+    "DEF-NECESSARY-SELECTED-ANCESTOR",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS"
+  ]
+}

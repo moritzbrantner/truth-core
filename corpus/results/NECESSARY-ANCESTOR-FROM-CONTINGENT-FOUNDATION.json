@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "argument_id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAncestry.necessaryAncestor",
+  "comparator_config": "results/NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse ExplanatoryAdequacy.forced on tagged positive existence facts in the complete concrete ancestry. If no necessary ancestor existed, explicit excluded middle would make every account member contingent; local actual grounding gives each contingent member an in-account contingent reason, contradicting founded contingent descent. The resulting actual concrete necessary witness need not be a root. No non-copy, necessitation, reason-token realization, necessary population or full-cone WF premise is added."
+}

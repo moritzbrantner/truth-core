@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ContingentAncestry.necessaryConcrete"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

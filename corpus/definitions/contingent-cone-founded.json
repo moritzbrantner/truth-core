@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-CONE-FOUNDED",
+  "term": "well-founded contingent portion of one actual grounding cone",
+  "definition": "Instantiate the existing ExplanatoryAdequacy.Founded predicate on the positive-existence arena and coneFacts account. Only reason arrows whose source and target are contingent existence facts within this cone enter the well-founded relation. Grounding involving a necessary ancestor is unrestricted by this premise; no foundation or exemption from explanation is asserted for that necessary being.",
+  "basis": "stipulative",
+  "note": "Reuse of the existing Profile, complete cone, positive existence-fact constructor and Founded relation, not a new ontology or source reading. This is a representation of already selected grounds, not an automatic philosophical fact-to-concrete bridge. See the contingent-only foundation section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.ContingentAncestry.ContingentConeFounded"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-SELECTED-ANCESTOR",
+  "term": "one actual concrete necessary ancestor without a rootness claim",
+  "definition": "One member of the selected complete actual-concrete grounding cone exists at every world accessible from the selected actual world. The same witness is actual, concrete and an ancestor; it may have incoming actual concrete support. No rootness, all-world underivedness, unity or God identification is asserted.",
+  "basis": "stipulative",
+  "note": "Reuse of the existing Profile, complete cone, positive existence-fact constructor and Founded relation, not a new ontology or source reading. This is a representation of already selected grounds, not an automatic philosophical fact-to-concrete bridge. See the contingent-only foundation section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.ContingentAncestry.NecessaryAncestor"
+}

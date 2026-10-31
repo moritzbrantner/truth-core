@@ -3,6 +3,7 @@ import TruthCore.Models.ActPotency
 import TruthCore.Models.ActPotencyRemaining
 import TruthCore.Models.BoundedOmission
 import TruthCore.Models.ConstitutiveConfiguration
+import TruthCore.Models.ContingentAncestry
 import TruthCore.Models.FiniteSupport
 import TruthCore.Models.HistoryTimeScope
 import TruthCore.Models.Inertia

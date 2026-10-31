@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
+  "input_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-CONTINGENT-CONE-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "reuse-of-contingent-reason-descent",
+  "meaning": "Project the same actual concrete necessary ancestor from the contingent-only foundation theorem to the existing shared necessary-concrete statement. Retains selected actual/concrete existence, local contingent dependence, contingent-only foundation and explicit excluded middle. This does not yield rootness, all-world underivedness, unity or divine attributes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

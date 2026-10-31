@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
+  "argument_id": "NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAncestry.necessaryConcrete",
+  "comparator_config": "results/NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION/comparator.json",
+  "status": "solution-present",
+  "description": "Project the same actual concrete necessary ancestor from the contingent-only foundation theorem to the existing shared necessary-concrete statement. Retains selected actual/concrete existence, local contingent dependence, contingent-only foundation and explicit excluded middle. This does not yield rootness, all-world underivedness, unity or divine attributes."
+}

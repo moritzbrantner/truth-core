@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-CONTINGENT-ANCESTRY-FOUNDATION-COMPOSITION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-CONTINGENT-CONE-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSARY-SELECTED-ANCESTOR",
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+    "STMT-SELECTED-CONE-WELL-FOUNDED"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reuse audit connected #750\u2019s existing contingent-reason forced lemma to #795\u2019s concrete complete cone through the existing tagged positive ExistenceFact constructor. Coherence between these facts and bearer existence is definitional in the restricted representation; arbitrary facts and bearers are not identified. Full cone WF implies the instantiated Founded condition; the necessary-cycle model strictly separates them while preserving a contingent selected target and local dependence. The result yields necessary ancestry, not a root: a stronger conclusion is not retained by weakening its Challenge. Existing #795 types unchanged. Rejected importing the full NecessaryFactBoundary extraction because its ReasonClosed input would add unnecessary nonCopy; the older forced lemma needs none. Rejected arbitrary necessary fact\u2192concrete bearer, stopping as a PSR exemption, and interpreting the cycle as metaphysically adequate. Generic Challenge frozen before its Solution, complete additive Challenge SHA256 d8409600a53f0c8ca76dff65cd503b66f8236d452d4ea14d5a531f6321e27383. CLI fallback; no service restart. See the existing integration note. Exposed full-cone\u2192contingent-only foundation as a typed corpus edge, not only an opaque universal comparison statement. The universal helper is also checked by that result\u2019s Comparator config. Focused generic proof, comparison and necessary-cycle control build successfully. Final additive Challenge SHA256 8103e18f9e010e0a0857f3f9838c35468a6e642cdca27c3076f12bdf563c6124. The initial multi-theorem comparison export differed only in the first forall binder annotation (Challenge implicit, Solution default), despite matching pp.all Lean statements. Rejected dependency layout: typed corollary proof directly applied the explicit-universe universal helper. Moved the shared induction proof into the typed corollary and made the universal helper invoke it, preserving every statement and Challenge byte and making both exports match. No verifier policy or permitted-axiom change. The exact comparison now passes Comparator/NanoDa. Final full library build passes. Full binding: 730 bound,2 existing pins,0 mismatch. All four result configs pass Comparator/NanoDa with zero permitted axioms (comparison config also checks the universal helper); all five theorem axiom reports are empty. Existing #795 Challenge/Solution types unchanged. Corpus/source/generator/diff checks pass; root-route output remains byte-identical (11 routes,62 open root-reaching premises). Parent #795 completed review/CI and merged while this independent extension was developed. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Contingent actual grounding and contingent-only foundation remain explicit application premises. The owner-accepted actual existence starting point is retained; concreteness/selection and grounding meaning are not silently supplied. Necessary beings still owe an account of their own explanation; bare necessary existence does not settle underivedness, unity or attributes.",
+  "evidence": [
+    "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+    "NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
+    "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+    "CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "NECESSARY-FACT-BOUNDARY",
+    "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR"
+  ]
+}

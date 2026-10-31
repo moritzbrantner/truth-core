@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "input_statement_ids": [
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-CONTINGENT-CONE-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-SELECTED-ANCESTOR",
+  "rule": "reuse-of-contingent-reason-descent",
+  "meaning": "Reuse ExplanatoryAdequacy.forced on tagged positive existence facts in the complete concrete ancestry. If no necessary ancestor existed, explicit excluded middle would make every account member contingent; local actual grounding gives each contingent member an in-account contingent reason, contradicting founded contingent descent. The resulting actual concrete necessary witness need not be a root. No non-copy, necessitation, reason-token realization, necessary population or full-cone WF premise is added.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS",
+  "term": "necessary ancestor versus actual concrete root ancestor",
+  "sense_definition_ids": [
+    "DEF-NECESSARY-SELECTED-ANCESTOR",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR"
+  ],
+  "resolution": "NecessaryAncestor retains actuality, concreteness, finite ancestry and modal necessity but imposes no no-incoming-ground condition. NecessaryRootAncestor adds no actual concrete predecessor at the selected world; even it is not all-world NecessarilyUnderived. Contingent-only foundation yields NecessaryAncestor only. The necessary-cycle control satisfies necessary ancestry and fails actual root ancestry, so the earlier stronger conclusion cannot be inherited when weakening foundation."
+}
