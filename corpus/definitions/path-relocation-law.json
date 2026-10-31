@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PATH-RELOCATION-LAW",
+  "term": "local transition law, autonomy and law copies",
+  "definition": "Follows R f says every adjacent state pair of f satisfies R at its time; R may be partial or many-valued. Autonomous R says R's condition does not depend on the date. InvariantUnder σ C says a time reindexing σ preserves a condition C on complete paths, local or global. UniqueSolution C f says f alone satisfies C. copyLaw f is the time-indexed condition read off f; graphLaw f is the undated relation holding exactly of f's adjacent state pairs. These are mathematical conditions. None is shown to govern, produce or explain anything.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PathRelocation.Follows",
+  "note": "'Law' names a constraint shape, not Humean, dispositional or governing lawhood. A switch rule is an ordinary example of a local transition condition, and a dated schedule of a time-indexed one; the transfer to total histories is OPEN. Actual applicability of any condition is an explicit OPEN premise, as in #748."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-EXPLANATORY-RELOCATION-753",
+  "statement_ids": [
+    "STMT-PATH-RELOCATION-CERTIFICATE",
+    "STMT-PATH-RELOCATION-CONTROLS",
+    "STMT-HISTORY-SELECTION-CERTIFICATE",
+    "STMT-TEMPORAL-SHIFT-NO-DISCERNIBLE-CONTRAST",
+    "STMT-TIME-ORDER-IMPLIES-SOONER-ABSURDITY"
+  ],
+  "date": "2026-10-30",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Precise failed lift. On Int time the bundle shift-invariant condition, unique solution, changing solution is incompatible, with a witness for each single deletion; #738's beginningless unique survivor is an instance, so its stationarity is forced rather than incidental. A changing solution is not determined by any vector agreeing with its re-dating (composes #736 no_selection). Transition tokens determine exactly because they re-encode the path. Copy laws make dated selection available for every path, and graph laws make undated selection available for every injective path, so an unrestricted law family relocates the contrast without excluding anything; a functional undated law does exclude paths. Rejected: an early plan treating the shift rival as a decisive refutation of beginningless histories, because the rival is only a re-dating and Leibniz III §6 denies that contrast; the undated flip control survives. Rejected: treating finite versus infinite as decisive by itself; a shift-invariant unpinned condition behaves the same way on any reindexing, and the finite contrast comes from window ends and start states. Not formalized: chance laws, plural enabling, intrinsic sufficiency.",
+  "blocker": "Whether a dated contrast is genuine, whether a restricted law family is independently warranted, why any condition actually applies, and whether an adequate account may decline entailment all remain OPEN. No root premise is discharged. See docs/notes/explanatory-relocation-753.md.",
+  "evidence": [
+    "PATH-RELOCATION-CERTIFICATE",
+    "PATH-RELOCATION-CONTROLS",
+    "HISTORY-SELECTION-CERTIFICATE",
+    "UNIQUE-FEEDBACK-CONTROL",
+    "LAW-ACTUALITY-743-CERTIFICATE",
+    "ULTIMATE-ADEQUACY-COMPARISON",
+    "LEIBNIZ-III-6-TEMPORAL-REASON",
+    "CLARKE-III-4-6-TEMPORAL-REPLY"
+  ]
+}

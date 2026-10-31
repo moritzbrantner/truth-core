@@ -1,0 +1,15 @@
+{
+  "id": "CLARKE-III-4-6-TEMPORAL-REPLY",
+  "statement_id": "STMT-TIME-ORDER-IMPLIES-SOONER-ABSURDITY",
+  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "locator": "Clarke III §§4,6",
+  "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument without treating it as a checked philosophical consequence or identifying it with the analyst re-dating model.",
+  "status": "formalized",
+  "basis": "translation",
+  "definition_ids": [
+    "DEF-PATH-RELOCATION-DATING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PATH-RELOCATION"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-PATH-RELOCATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PATH-RELOCATION-CONTROLS",
+  "rule": "direct-proof",
+  "meaning": "Compute the alternation, pin, all-true, rise, revisit and two-point window fixtures and apply the certificate's lemmas to each. Flip solutions are classified by their value at time 0.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

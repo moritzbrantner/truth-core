@@ -1,0 +1,19 @@
+{
+  "id": "PATH-RELOCATION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PATH-RELOCATION-CONTROLS",
+  "inference_ids": [
+    "INF-PATH-RELOCATION-CONTROLS"
+  ],
+  "meaning": "Compute the alternation, pin, all-true, rise, revisit and two-point window fixtures and apply the certificate's lemmas to each. Flip solutions are classified by their value at time 0.",
+  "definition_ids": [
+    "DEF-PATH-RELOCATION-PROFILE",
+    "DEF-PATH-RELOCATION-LAW",
+    "DEF-PATH-RELOCATION-DATING",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PATH-RELOCATION",
+    "DISAMB-HISTORY-SELECTION-ADEQUACY"
+  ]
+}
