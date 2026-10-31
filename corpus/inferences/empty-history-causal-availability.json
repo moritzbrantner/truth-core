@@ -1,0 +1,16 @@
+{
+  "id": "INF-EMPTY-HISTORY-CAUSAL-AVAILABILITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NEGATIVE-FACT-MEANING",
+    "STMT-ACCESSIBLE-EMPTY-CAUSAL-COVERAGE",
+    "STMT-POSSIBLY-INHABITED-CONCRETE-WORLD"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "constructive-proof",
+  "meaning": "Source-free structured empty-contingent-bearer branch over the SAME existing PSRStrength.Arena. CauseFact is a separate typed World-to-Being-to-Fact parameter, not Arena.explains or Ontic.Causes. Six explicit inputs: EM, Euclidean access, reflexivity at selected w, admission/preservation of one fixed negative fact f, accessible empty-contingent-bearer causal coverage, and possible actual concrete population. The coverage statement contains THREE commitments: a world v accessible from w, no contingent concreta at v, and individual weak actual-concrete causal availability there; packaging them is not a philosophical premise reduction. If v has an actual concrete c, noncontingency plus explicit EM gives necessity of SAME c at v. Otherwise an actual concrete b in the possible positive alternative p is contingent there because sibling access reaches empty v. The SAME negative fact f is true at v and false at p, hence contingent at v. Causal availability supplies f at u with an actual concrete CauseFact bearer c; fixed negative-fact meaning excludes its contingency at u, giving necessity of this SAME c. Euclidean access plus reflexivity only at w provide w-to-u reach and transfer SAME-c actual existence and necessity back to w. The stronger necessaryConcrete helper retains original concreteness in BOTH branches; only causeOfNegativeFactNecessary, used in the SECOND branch, promises a causal role at u. Project the same witness into existing NecessaryBeing A.ontic w. No no-NE reductio hypothesis, joint sufficiency, member-to-whole causal distribution, global transitivity/universal frame, temporal first cause or positive Scenario beginning. All semantic inputs remain OPEN/unattributed; no philosophical premise discharged. The negative fact is a supplied admitted fact, not a derived causal aggregate; correspondence of world-relative ExistsAt to EVER-history existence, fact identity across worlds, actual concrete causal guards and source-domain applicability remain independently open. This does not settle the nonempty-C whole-history priority/externality gap.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

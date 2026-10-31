@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
+  "term": "individual weak possible causal availability for obtaining contingent facts",
+  "definition": "For each fact f that is contingent at v under existing PSRStrength.Contingent, some world u accessible from v satisfies ActualCausedFact A Concrete CauseFact u f. Fact identity f is retained, but its cause and world may vary. No joint causal sufficiency or actual-world universal causal PSR is asserted.",
+  "basis": "stipulative",
+  "note": "Source-free typed profile over the unchanged PSRStrength.Arena and its Ontic. No source attribution or applicability is established. Existing fact/individual/world domains remain distinct; no fact is reified as a being.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.WeakActualConcreteCausalAvailabilityAt"
+}
