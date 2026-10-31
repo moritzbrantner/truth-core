@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CLOSURE-RECORD-ARENA",
+  "term": "record arena with scenarios as worlds",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.arena",
+  "definition": "The #755 arena of an Exercise: worlds are scenarios, accessibility goes to allowed scenarios, and at the actual scenario the reasons of an effect are all members of its exercised admitted records. It differs from #752's recordArena, which has one world and contributors only.",
+  "note": "Stipulative analyst notion for #745, reusing the #733 records. No source is claimed for it. See docs/notes/explanatory-closure-745.md. Calling a record member a reason is the analyst's reading; it does not show that the member explains the effect."
+}

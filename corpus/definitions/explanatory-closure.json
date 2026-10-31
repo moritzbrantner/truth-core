@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-CLOSURE",
+  "term": "explanatory closure of an event under a stop predicate",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.Closed",
+  "definition": "Accounted: each member of a set satisfies the stop predicate or has one admitted record with all contributors and enablers in the set. Closed: some accounted set contains the event. The stop predicate is a parameter; cycles and infinite descent are not excluded; other records of the same effect are ignored.",
+  "note": "Stipulative analyst notion for #745, reusing the #733 records. No source is claimed for it. See docs/notes/explanatory-closure-745.md. What would justify demanding closure stays open."
+}
