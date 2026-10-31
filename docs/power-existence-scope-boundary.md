@@ -1186,3 +1186,75 @@ incoming set faithfully is that group; if it is not, do not market the adapter
 as a complete explanation. No new model, definition, claim or theorem is added
 by this audit, and no direct edge or constructor is advertised as independently
 establishing full explanatory completion. No premise truth is discharged.
+
+### One positive productive-group brief: illumination received by receptive air
+
+The complete `AQUINAS-ST-I-Q104-A1-EN` witness was re-materialized and reread
+for this group, with its existing dossier. The productive case is the
+**received illumination process/state**, not production of the air's or sun's
+bare existence. Q.104 a.1 ad 1 explicitly makes light result from the air's
+diaphanous nature given the sun's action; corpus contrasts this continually
+received light with retained heat in water, and ad 4 restates continual solar
+influence. This is enough for a source-faithful, scoped conditional group that
+can advance the existing corpus without claiming new physics.
+
+**Target:** one specified region of receptive air a, its sun-derived
+illumination L, and the sun's productive influence U **on that region**. U is
+arrival/exercise of the influence, not merely existence of the sun or its being
+above a horizon. R is that region's diaphanous receptivity. The full candidate
+record has contributor U, enabler R and effect L. Keeping R as enabler, rather
+than pretending it emits light, is a substantive causal distinction already
+expressible by `Groups`. U and L have different bearers/roles; the group itself
+is not a new substance. Admission records this proposed complete basis at the
+chosen scope; actual exercise is a separate occurrence claim.
+
+**Source-supported scenario clause:** within Aquinas's stated illumination
+account, R and U together yield L. This is the direct conditional force of ad 1,
+not a proposed inference from every member having some predecessor. To state
+`Exercise.suffices {U,R} L` faithfully, allowed scenarios must preserve this
+receptivity/received-action interpretation and the source's causal background.
+A non-arriving ray or an opaque region does not satisfy U or R respectively;
+this does not justify adding unknown successful conditions by defining U as
+“whatever makes L happen.” A full independent physical group would need its
+own evidenced optical specification. The source supports the historical
+conditional reading and productive role; it is not an empirical certification
+of a modern optical model over all possible interference/delay situations.
+
+**Source-supported dependence clause:** corpus says the received light does
+not remain when the sun's relevant action ceases. Thus, on the source's scoped
+account, ¬U excludes this L. This motivates indispensability of U given R. The
+existing formal indispensability test additionally needs an *allowed* deletion
+scenario with R present, U absent and L absent; the temporal/hypothetical
+cessation discussion motivates that scenario, but its encoding as a member of
+an explicitly selected scenario space must be recorded. Ad 1 does not establish
+that R is a productive contributor, nor test independent deletion of each
+physical feature of transparency. No unnecessary second contributor is invented
+to obtain plural causality.
+
+**Actuality and modality:** the witness describes ordinary actual illumination,
+but does not identify a timestamped particular a/U/L for an actual `Exercise`
+record, and supplies no de re modal necessities of the sun, air or either event.
+For a named real episode, actual U/R/L must therefore be independently observed
+or sourced. Once an actual received illumination and a permitted cessation
+scenario are warranted, that very L is contingent relative to the chosen
+scenario relation. U is absent in that cessation scenario too. R may remain
+throughout this comparison without being declared metaphysically necessary.
+Nothing here assigns necessity to the sun as a concrete bearer. This is the
+precise boundary between a positive source-backed group and a fabricated actual
+or necessary/contingent witness assignment.
+
+**Actionable formalization brief:** reuse `Groups`, `Exercise`, `suffices`,
+`indispensable`, `allMembers`/`FullSupply` and the fixed-member `JointCondition`
+theorems. Record U as contributor and R as enabler, preserving the source's
+receptivity-plus-received-action conditional and cessation case. In a specified
+actually exercised episode, supplying U alone gives productive `Supply` for L
+only once U's own supply is supplied; supplying both U and R gives `FullSupply`
+via the existing joint constructor. If U (or another retained member) is
+contingent and the actual conjunction holds, reuse `JointCondition.contingent`
+to show that this fixed full condition is contingent. Do not infer that U has
+underived Supply, that the air's bare existence is produced, or that the sun is
+a necessary being. The next evidence needed for an **actual** group certificate
+is a specified illumination/cessation episode with warranted occurrence and
+allowed scenarios, not another regress model. No new claim, theorem or model is
+added in this brief; it identifies one faithful conditional group and exactly
+which actual-instance evidence a substantive follow-up must furnish.
