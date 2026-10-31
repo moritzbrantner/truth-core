@@ -1,0 +1,10 @@
+{
+  "id": "ROOT-ESSENCE-IDENTITY",
+  "argument_id": "ROOT-ESSENCE-IDENTITY",
+  "challenge_module": "TruthCore.Results.Causality.RootEssenceIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootEssenceIdentity.Solution",
+  "theorem": "TruthCore.Results.Causality.RootEssenceIdentity.necessaryRootIdentity",
+  "comparator_config": "results/ROOT-ESSENCE-IDENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Import WholeRosterFoundation.necessaryActualRoot with its four unchanged inputs. Preserve that same actual necessary root. For this root, assume represented essence/esse nonidentity; ExistingInActAt supplies the q3 actuality antecedent. Imported EssenceEsseExternalCause.distinctEsseExternalFromExhaustion supplies a distinct efficient esse cause under the two explicit source premises. Existing direct EsseCauseIsActualConcreteGround turns that cause into an actual concrete selected ground, contradicting rootness. Explicit EM yields represented identity. The same q3 Profile fields occur definitionally in the actuality and cause-ground interfaces; no extra parameter correspondence, global underivedness, max/genus causality, grades, union-WF or modal lifting is used. This proves a conditional attribute connection, not independent defense of the source causal dichotomy, no-self-cause principle or existential correspondence. No weaker-overall-bundle claim."
+}

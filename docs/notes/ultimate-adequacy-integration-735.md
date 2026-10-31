@@ -2,34 +2,31 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#814](https://github.com/moritzbrantner/truth-core/pull/814) are
-merged. The latest merge is `91539ee7`; #814 passed repository CI and completed
-review with no findings. The successor's verified implementation is `8f41fd23`
-on `research/lean-existential-self-actualization-20261031`. It proves a new
-nonvacuity obstruction for the 1970 actualist ontological argument, described
-below. Delivery/review is pending. No owner ledger choices have been inferred
-from continuation messages; A is still the only newly explicit accepted row.
+PRs #810–[#815](https://github.com/moritzbrantner/truth-core/pull/815) are
+merged. Latest merge `d8895103` passed repository CI and completed review with
+no findings. The successor's verified implementation is `fea3e6d7` on
+`research/lean-existential-self-actualization-20261031`; delivery/review is
+pending. ROOT-ESSENCE-IDENTITY preserves the same actual necessary root and
+proves equality of its represented essence/esse under eight explicit inputs,
+without genus causality, a maximum, grades or all-world modal lifting.
+No owner truth selection has been inferred; A remains explicitly accepted,
+and other rows retain their prior working/pending distinctions.
 
-The owner-requested adversarial agent accepted the checked uniqueness
-consequences and identified independent warrant for ledger I's universal causal
-reach as its strongest objection. Its plural-necessary-source proposal is not
-itself a metaphysical possibility proof. The independent diagnostic, exact
-concessions and needed answers are in the existing plurality note and attempt.
-No proof authority, new axiom or philosophical closure is assigned to agent
-agreement. The A–N table below preserves the exact IDs presented to the owner.
+The source audit found a positive local route in q.3 a.4 before universal
+causality or numerical unity: distinct actual esse would require an external
+efficient cause under the source's explicit dichotomy/no-self-origination
+commitments. Direct esse-cause/ground correspondence would make that an
+incoming ground of the selected root. The resulting contradiction yields
+identity. Its two source principles and real-world correspondence remain open.
+This is not a new proof of uniqueness, infinity, complete explanation or God.
 
-A bounded coverage audit then checked 2,465 statements, 764 arguments and 762 results,
-selecting 37 typed declarations containing NecessaryAt, NecessaryConcreteAt,
-NecessarilyUnderived, PSR, BCCF, GodLike or NecessaryBeing. This is a targeted
-inventory, not complete semantic coverage. It confirmed existing concrete-to-
-necessary-bearer and underived common-source reuse; PSR/BCCF controls do not
-supply concrete ontology merely by having reasons. The proposed actualist
-adapter was rejected after a new proof showed its antecedent unrealizable
-under already retained premises. Do not repeat that adapter as positive progress.
-
-Next work should address the retained semantic/causal or property-admissibility
-premises rather than duplicate existing lifting or treat a satisfiable axiom
-bundle as a certificate that its conditional antecedent is realizable.
+The independent adversarial source rereading also sharpened ledger I. Aquinas
+asserts genus causality faithfully; the cited Aristotle argument goes from
+cause to most-such under its qualification, rather than deriving every maximum's
+universal causal reach. Q.44's positive participation argument explicitly
+imports prior uniqueness of subsistent esse. It cannot supply that same
+uniqueness merely by being fed back into the argument. Exact locators and
+interpretive boundaries are in the existing causal-perfection note/attempt.
 
 ## Accepted starting point
 
@@ -71,6 +68,11 @@ Classical logic remains the current framework.
 | L | Something that is a component of anything cannot be first in being. | STMT-NO-COMPONENT-IS-FIRST-BEING; component-of-others differs from being composite. |
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
+
+A source-audit clarification of I was also given to the owner: the current
+formal antecedent is any **weak maximum**, including ties/incomparables. If
+only a unique greatest element is intended, that is a different reading and
+will not be silently marked as this broader universal premise.
 
 The owner may mark True, Provisional, Open, or Reject by ID. No continuation
 message or elapsed wait counts as a selection. Do not broaden a selected
@@ -264,6 +266,48 @@ NanoDa for all six results. Source manifests, existing bundle audits and
 imports/docs generation pass. Research source/type correction is preserved in
 `power-existence-scope-boundary.md` and its existing attempt; all retained
 philosophical applicability questions remain explicit.
+
+## Same-root essence/esse identity without genus causality
+
+ROOT-ESSENCE-IDENTITY uses the four existing whole-roster necessary-root inputs,
+ExistingInActAt, direct EsseCauseIsActualConcreteGround, and the two existing
+q.3 commitments STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY and
+STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE. It imports the existing
+external-cause theorem rather than restating that conclusion as a premise.
+
+For the SAME supplied n, actual presence gives p.InAct n p.esse. If its
+represented esse and essence differ, the imported q.3 theorem supplies a
+distinct efficient cause c. Direct correspondence gives ActualConcreteGround
+m w c n, contradicting that n is an actual root. Explicit EM yields
+p.esseOf n = p.essenceOf n. The q.3 profile's InAct, CausesIn and esse fields
+are used definitionally in both interfaces; no extra vocabulary correspondence
+or relabeling n as God is inserted.
+
+The new existential endpoint retains n's actuality, concreteness, rootness,
+modal necessary existence and represented identity together. It does not
+assert modal invariance of the profile's attributes, all-world underivedness,
+infinity, no potency, unique subsistent being, universal causality or God
+identification. The pointwise helper needs no modal necessity itself; the
+existential result retains contingent dependence to preserve necessity of n.
+No maximum/genus principle, grade-to-maximum, cause-of-necessity, union-WF or
+support transport is used. This is a different sufficient bundle, not a claim
+of globally minimal or weaker assumptions.
+
+The philosophical burdens remain precise: causal exhaustion of the distinct-
+esse case, exclusion of sufficient efficient self-origination from essential
+principles, and faithful actual-world causal/ground correspondence. Intrinsic
+noncausal intelligibility is not automatically efficient self-production.
+Source attribution is reused, not promoted into premise truth. This route
+adds two recorded q.3 commitments; it does not resolve them by avoiding ledger I.
+
+Full Lean build, exact binding 780 bound/two existing pins/zero mismatches,
+zero-permitted-axiom Comparator and independent NanoDa pass. Against
+main@d8895103, God/Catholic/unique-actual-root unions remain 66/73/14 and every
+existing route report is unchanged. The new endpoint has cost7/direct8 under
+the existing EM floor. That graph expands the whole-roster premise through its
+recorded stronger borrowing-cut producer; the actual theorem requires only the
+stated whole-roster restriction. No root-cost or philosophical premise closure
+improvement is claimed.
 
 ## Ontological nonvacuity correction: 1970 actualist possibility
 

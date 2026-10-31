@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ROOT-ESSENCE-IDENTITY",
+  "term": "same actual necessary root with represented essence/esse identity",
+  "definition": "One and the same n is an actual concrete root of the selected grounds relation at w, exists at every world accessible from w, and has equal represented esseOf and essenceOf values in the supplied q3 Profile. All actuality, causal and esse-respect inputs use that same profile definitionally. No modal invariance of profile properties, all-world underivedness, unique subsistent being, pure actuality, maximum, universal cause or God identification is asserted.",
+  "basis": "stipulative",
+  "note": "A source-free conjunction of existing ActualRoot, NecessaryAt and equality of the existing q3 Profile maps. No new relation meaning is installed. Independent source defense must establish the two q3 premises and selected actuality/causal-ground applicability; the represented equality alone is not an adequate intrinsic explanation or a modal identity law.",
+  "lean_declaration": "TruthCore.Causality.RootEssenceIdentity.NecessaryRootEssenceIdentityAt"
+}
