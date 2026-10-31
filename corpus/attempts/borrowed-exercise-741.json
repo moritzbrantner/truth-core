@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-BORROWED-EXERCISE-741",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-BORROWED-EXERCISE-CERTIFICATE",
+    "STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT",
+    "STMT-SECOND-MOVER-CANNOT-MOVE-WITHOUT-FIRST",
+    "STMT-INSTRUMENT-MOVES-ONLY-IF-MOVED-BY-PRINCIPAL-MOVER",
+    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Certified a fork for actual exercise under a supplied power profile, with regress and circle witnesses, and one exercise on which the same events are instruments or secondary causes depending on the profile. Rejected before certification: defining borrowed as having a source or finite grounding, which would make the source follow by definition; defining borrowed as having an actual lender, which erases secondary causes and makes the moved-mover reading trivially true; letting an empty record lend, which counts a power as borrowed from nobody; letting a merely live unexercised record lend at the actual scenario. Rejected as overreach: treating retained power as underived, since it says nothing of how the power was got; treating a self-exercising source as explaining its exercise, since a finite source with essential power has an exercise that does not occur at every allowed scenario. The moved-mover reading is refuted on one fixed model, not as a claim about real agents, and is not identified with the attributed statement. Actual productive exercise, which profile holds of real agents, adequacy and motion-to-existence remain OPEN; rivals rejecting Supply or profiles are not refuted. No source claim was added. Findings in docs/notes/borrowed-exercise-741.md. No root premise change.",
+  "evidence": [
+    "BORROWED-EXERCISE-CERTIFICATE",
+    "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+    "CONDENSATION-SUFFICIENCY-CERTIFICATE"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "BORROWED-EXERCISE-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-BORROWED-EXERCISE-CERTIFICATE",
+  "inference_ids": [
+    "INF-BORROWED-EXERCISE-CERTIFICATE"
+  ],
+  "meaning": "Split each occurring event by whether it has Supply; the unsupplied occurring events form a #734 Trap, which trap_obstruction makes exclusive, and a choice of contributors gives the chain. Reuse the #734 chain, rooted, circle and finite records and the #752 record pair unchanged. Root premise delta zero; no actual explanatory bridge is established. For any #733 exercise and any supplied power profile, where the actual scenario is allowed and each actual exercise has its power: an occurring event is exactly one of an instrument (power present only under a lender, lender actual), a secondary cause (power present at some allowed scenario without a lender, lender actual) or self-exercising (no actual lender). For every exercise, an occurring event has #734 Supply over the actually lending records from self-exercising events, or it lies in a self-contained set of occurring lent events (a #734 Trap for that standard). Under the same two hypotheses it has Supply from actually exercised retained powers, or lies in such a set of instruments. A descent excludes Supply of its event. A descent whose members satisfy a predicate gives a lending chain through that predicate that is injective or revisits an event. Lending-record Supply gives exercised-record Supply; with coherence and a standard within occurring events it gives occurrence; a well-founded lending membership graph gives self-exercise Supply of every occurring event. Self-exercise Supply gives own-power Supply under the two hypotheses; if also every lent occurring event is borrowed, an analyst reading compared with and not identified with STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT, the two standards coincide and the self-exercise fork's descent consists of instruments. Witnesses: the #734 source-free chain under the power-when-exercised profile is coherent, jointly sufficient and locally powered, with an injective chain of instruments and neither Supply; the same exercise under the power-at-every-scenario profile has only secondary causes, own-power Supply of every event and no self-exercise Supply, and refutes that reading; restricted to the on scenario, every event under the latter profile is an instrument without own-power Supply. The #634 rooted exercise has a self-exercising source occurring at every allowed scenario and every branch event an instrument without own-power Supply. The #711/#734 two-event circle has instruments on a revisiting chain without own-power Supply. Two #752 record structures on one membership graph have an instrument t with and without Supply. In a finite exercise the source's power can be essential or not, with the same own-power Supply of the effect, and the source's exercise does not occur at every allowed scenario. Controls: exercise under a profile with no power has neither branch of the power fork; an empty record seeds #734 Supply and does not lend; an unexercised record does not lend. Profiles are supplied, not derived; Supply remains a proposed standard; whether real productive exercise satisfies it, which profile holds of real agents, explanatory adequacy, and passage from a motion respect to existence remain OPEN, and rivals rejecting Supply or power profiles are not refuted.",
+  "definition_ids": [
+    "DEF-BORROWED-POWER-PROFILE",
+    "DEF-LENDING-DESCENT",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+    "DEF-TEMPORAL-ACTUALIZATION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BORROWED-INSTRUMENT-SECONDARY",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-POWER-CAPACITY-EXERCISE"
+  ]
+}
