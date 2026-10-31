@@ -1,0 +1,9 @@
+{
+  "id": "STMT-DIVERSE-IN-ONE-ORDER-PAIRWISE",
+  "lean_declaration": "TruthCore.Explanation.JointCooperation.PairwiseOrderer",
+  "paraphrase": "In a given exercise, any two distinct contributors of one exercised record in a coherent exercise have one exercised ancestor in common.",
+  "definition_ids": [
+    "DEF-JOINT-COOPERATION-LADDER",
+    "DEF-JOINT-CAUSAL-GROUPS"
+  ]
+}

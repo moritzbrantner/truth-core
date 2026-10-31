@@ -1,0 +1,9 @@
+{
+  "id": "MANY-CAUSE-ONE-PER-ACCIDENS",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.3 co., third proof: per se unius unum est causa, et multa non sunt causa unius nisi per accidens, inquantum scilicet sunt aliquo modo unum",
+  "priority": 436,
+  "goal": "Read and formalize the reason Aquinas gives for one orderer: one is the per se cause of one, and many cause one only per accidens, insofar as they are in some way one. Define per se versus per accidens causing so that it can differ between a producing pair and an idle pair that occur at the same scenarios, and test it against a plural rival and one source under the same standard.",
+  "reason": "The joint-cooperation certificate shows scenario-relative sufficiency cannot carry this: an effect occurring at every allowed scenario is sufficed for by the empty set, so joint sufficiency and indispensability cannot separate production from idle co-occurrence in the same-space fit branch. Whether the plural necessary rival fails depends on this unformalized productive premise. It must not be replaced by a disguised at-most-one; denying fit among contributors occurring everywhere already is one per record. See docs/notes/joint-cooperation-744.md.",
+  "status": "candidate"
+}

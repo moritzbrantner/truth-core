@@ -1,0 +1,8 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A3-ONE-ORDER-A",
+  "statement_id": "STMT-DIVERSE-IN-ONE-ORDER-PAIRWISE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.3 co., third proof: Quae autem diversa sunt, in unum ordinem non convenirent, nisi ab aliquo uno ordinarentur",
+  "interpretation": "Weak pairwise analyst reading: coming together in one order is read as joint contribution to one effect, and being ordered by some one as a common exercised ancestor. Stating the sentence only of two diverse things at a time, it says nothing of what orders them being one for all pairs. The event vocabulary is modern: the source speaks of things serving one another (deserviunt) and of an orderer, not of event ancestry, and the reading omits the following reason (per se unius unum est causa).",
+  "status": "formalized"
+}
