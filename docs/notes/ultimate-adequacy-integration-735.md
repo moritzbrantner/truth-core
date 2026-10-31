@@ -338,3 +338,315 @@ errors or warnings. This supersedes the earlier development hashes and is a
 single prepared-import comparison, not general throughput evidence. Retain
 the service for repeated bound edits; canonical proof and final CI checks
 remain necessary. No new service infrastructure or second session was used.
+
+
+## Necessary-being integration map (#786, 2026-10-31)
+
+This downstream synthesis reads main at
+`7b7174f2c3090bbedb166d0e7b5bc8da0b939596`. It preserves the original #735
+contribution question and its certificate. For #786 the fixed additional
+explanandum is **the actual existence of a selected contingent concrete
+individual**, not merely its exercise, a true proposition, or a whole history.
+No theorem below identifies these different explananda automatically.
+
+### Semantic profile and end-to-end route
+
+Use the existing `BruteFoundationBoundary.Profile W B`: rigid bearer candidates,
+`Ontic.ExistsAt`, accessibility, `concrete`, and selected world-local `grounds`.
+The concrete predicate is a parameter, not a proof of causal capacity or
+physicality. Actual grounds are existing concrete candidates in that same
+world. `ActualGroundingWF` restricts well-foundedness to those actual concreta;
+it does not prohibit abstract support or absent-candidate cycles.
+
+The exact existing route is:
+
+```
+STMT-COGITO-INHABITED-CONCRETE-WORLD
+  + STMT-ACTUAL-GROUNDING-WF
+  + STMT-EVERY-CONTINGENT-GROUNDED-AT
+  + STMT-EXCLUDED-MIDDLE
+    -- INF-NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED -->
+STMT-NECESSARY-CONCRETE-AT
+```
+
+The bound theorem is
+`TruthCore.Results.Causality.NecessaryRootFork.necessaryConcreteOfActualGrounded`.
+Its proof consumes `necessaryOrNonnecessaryRoot` and the equivalence between
+contingent dependence and absence of a contingent actual root. It does not
+assume that a necessary bearer is uncaused in every world. Its conclusion says
+one actual concrete bearer exists at every accessible world, with no uniqueness,
+intellect, simplicity or God-identification. Population itself has a separate
+Cogito route with thought/subjection/concreteness/existence bridges; a thought
+occurrence cannot replace that entire premise bundle.
+
+Without contingent dependence, `NECESSARY-OR-NONNECESSARY-ROOT` retains the
+nonnecessary-root horn. Without well-foundedness,
+`NECESSARY-ROOT-TRILEMMA` retains non-well-founded actual grounding. These are
+coverage results; horns overlap. A root of this relation can have an abstract,
+intrinsic, global or otherwise unmodelled explanation. Calling that root
+absolutely unexplained would overstate its Lean type.
+
+The PSR arena adds **facts and an admitted reason relation**. Coherence can
+identify the truth of an existence fact with a bearer's existence; it cannot
+turn its admitted reason into an actual concrete ground. That is the critical
+interface to the displayed route. Neither `FactPSR`, non-copying, modal
+sufficiency nor a necessary fact alone supplies the interface.
+
+### Eight families containing the nine candidate arguments
+
+Numbers in parentheses are the nine research arguments in #786. These are
+investigation groupings, not equivalences of statements. Every result identifier
+below resolves through the evidence table to its exact conclusion, argument,
+inference application, Lean theorem and Comparator contract.
+
+| Family | Current consequence or control | Still open; reuse boundary |
+| --- | --- | --- |
+| Inquiry and parity (1, 5) | `PSR-SELF-APPLICATION-STANCE-MAP`, `PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER`, `ULTIMATE-EXPLANATION-SELECTION`: same-sense commitment conflicts can be certified; a supported brute root and locally successful prediction can coexist in the represented models. | An independently defended epistemic-to-ontic bridge. An obligation to justify PSR is not already ontic PSR. Koons–Pruss source/strongest-critic work stays with #409/#737/#756. |
+| Principled stopping (2) | The #755 `ground false` and #756 `critic` controls distinguish necessary-fact exemptions from restricted contingent coverage. | Defend the scope boundary symmetrically. A necessary ground's necessity or intrinsic explanation is not secured by naming it. #746's stopping-point PR remains separate. |
+| Inheritance of explanatory debt (3) | `EXPLANATORY-CLOSURE-CERTIFICATE`: an ultimate account can lack closure at an indispensable enabler while retaining contributor Supply and conditional sufficiency. | Whether ultimate closure is owed and applies to real production; no inference to scientific unreliability. Enablers need not be productive contributors. |
+| Global selection and infinite structure (4) | `HISTORY-SELECTION-CERTIFICATE`, `ULTIMATE-EXPLANATION-SELECTION`, `PATH-RELOCATION-CERTIFICATE`: constant evidence cannot entail selection of differing histories; a unique source-free global solution is a separate positive control. | Explain law actuality and justify any entailing selection criterion. Uniqueness of a mathematical solution is neither production nor a proof of metaphysical inadequacy. |
+| Comparative adequacy (6) | `EXPLANATORY-ADEQUACY-COMPARISON`, `ULTIMATE-ADEQUACY-COMPARISON`: token closure passes weak tests; joint Supply and least foundation fail to imply one another. | Independently defend relevance and any unity demand. Missing explanation is a debt under a stated standard, not logical falsity. No worldview score follows. |
+| Necessary versus contingent concrete foundation (7) | `NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED` and `NECESSARY-ROOT-TRILEMMA`: exact conditional and surviving root/regress horns in one bearer profile. | Actual grounding well-foundedness and contingent dependence are open. A fact-reason token does not establish either. Necessity leaves personal/impersonal and plural alternatives open. |
+| Individual versus joint PSR (8) | `PSR-STRENGTH-MAP`, `EXPLANATORY-CLOSURE-CERTIFICATE`: member coverage need not explain the whole; under explicit coherent/nonempty-record hypotheses universal closure is equivalent to the record arena's PSR. | Defend joint scope/aggregation independently. The closure equivalence cannot be used as an independent argument for its PSR side. |
+| Nonnecessitating sufficiency (9) | `PSR-COLLAPSE-CORE`, `EXPLANATORY-ADEQUACY-CORE`, `EXPLANATORY-SYMMETRY-CORE`: distinct incompatible bundles constrain necessitation, contrast and selection. | Give nonnecessitating reasons substantive relevance. Necessary personal/free-choice and impersonal grounds face the same test; a choice fact moves the question unless its explanatory role is defended. |
+
+### Shared versus independent burdens
+
+The closure and non-arbitrary-stopping arguments do not give two independent
+proofs of PSR when both rely on the same contingent-coverage demand. The #781
+closure equivalence is an explicit guard against counting the same commitment
+twice. Inquiry parity is independent of this demand until an epistemic-to-ontic
+bridge is defended; #756's critic is the separating control.
+
+Global selection and memberwise/joint coverage are also different questions.
+An account can list reasons for every member and not select a history; a
+unique history can follow from a global law whose actuality remains unaccounted
+for. Neither gives the concrete-support bridge. Likewise joint productive
+Supply does not give one common source, and an intrinsic contribution does not
+explain its bearer's existence. Those interfaces remain explicit obligations.
+
+The modal-collapse controls are overlapping warnings, not one theorem under
+three names. #755 uses aggregate/distribution/necessitation commitments;
+#750 uses reason-closed contingent ancestry; #742 tests base-fixed favouring
+and selection at opposing worlds without requiring a BCCF. Their hypotheses
+must not be pooled into a supposedly weaker result. None selects which member
+of an incompatible bundle reality rejects.
+
+### Compare the strongest survivors on the fixed question
+
+| Rival account | Existing witness | What the witness establishes; remaining actual-existence question |
+| --- | --- | --- |
+| Contingent initial concretum with local reliability | `NecessaryRootFork.RootHornModel` (reusing `bruteProfile`); #756 `critic`; #737 locally exact observation model | Separate models witness a contingent root, epistemic/ontic distinction, and local prediction. There is no certified transport making them one complete model. They block three bare inferences, not a sourced proof that the whole rival is true. The proposed initial root may be admitted as primitive. |
+| Infinite locally supported, globally underdetermined account | #736 all-on/off and #735 `chain` | Coherent local tables need not entail which history obtains; inductive Supply fails in the specified chain. Whether coinductive/global production is metaphysically adequate remains open. |
+| Unique source-free global structure | #736 certificate’s `GlobalLaw` clause, reused by #737 | Unique beginningless signal under the supplied gate constraints; no proof those constraints obtain or produce concrete existence. This positive control prevents treating every infinite structure as underdetermined. |
+| Necessary impersonal ground with contingent effect | #755 `ground true`; #750 `ground`; #735 single-source modal overlay | Necessary facts/bearers and contingent outputs are jointly representable when reasons need not necessitate. Intrinsic productive interpretation and the actual existence bridge are not certified. |
+| Necessary personal/free-choice ground with contingent effect | The same ground signatures; #742 interposed-act controls | No personal-agency content in the common signatures distinguishes this account. A person label is not a separator; an interposed act must carry an independently defended explanatory role. |
+| Plural necessary grounds | #750 `plural`; #735 indispensable plural Supply | Necessary plurality and joint Supply survive the tested criteria; common effects alone do not prove one ground. This is a distinct burden after existence. |
+
+The #750 comparison uses one shared fact/world signature for ground, plural,
+law, chain and brute controls. It gives a particularly strong matched test:
+`ground` and `law` agree on facts, truth, admitted reasons and accessibility,
+but `law` has no necessary being. Their ontic carrier/existence assignment
+is intentionally different. Thus a standard that only reads their common
+fact/reason reduct cannot discriminate necessary **concrete support**. This is
+not a claim that a real law can cause an existent; `Ontic.Causes` is empty.
+
+### Three priority bridges, with measurable scope
+
+These are priorities for this fixed route, **not a proved globally minimal set**
+of metaphysical axioms. No count of results measures their truth.
+
+1. **P2: defend contingent-existence coverage and nonvacuous relevance.**
+   `STMT-FACT-REQUIRES-SUFFICIENT-REASON` is the existing source-reading seed;
+   its broad prose has no Lean declaration and is not silently identical with
+   #755 `ContingentPSR`. Coverage and quality are separate sub-obligations
+   (#312/#750/#755/#756). This bridge is shared by families 1, 2, 3, 5 and 7
+   above (five investigation dependencies, not five existing root consumers).
+   The brute and token controls defeat the proposed shortcuts. In particular
+   closure's `covered` field cannot independently eliminate a brute stop.
+2. **P3: from a sufficient reason to actual concrete existential support.**
+   The target interface is `STMT-EVERY-CONTINGENT-GROUNDED-AT` under the selected
+   `Profile` relation. Main has exactly one argument directly consuming this
+   premise: `NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED`. The #750 matched
+   ground/law control shows why fact-level coverage and necessity cannot fill
+   it. Families 3, 5, 6 and 7 need this interface when applied to concrete
+   existence. #545 owns its philosophical defense; it must cover actual
+   obtaining rather than efficient production of a first temporal event.
+3. **Foundation: exclude the surviving non-well-founded support horn.**
+   `STMT-ACTUAL-GROUNDING-WF` has exactly two direct argument consumers on
+   main: `NECESSARY-OR-NONNECESSARY-ROOT` and
+   `NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED`. The infinite positive and negative
+   controls require a defense for the *same* existential-support relation, not
+   a transfer from temporal order, finite observations or finite branching.
+   Families 4 and 6 meet at this burden. It remains independent of P2/P3.
+
+The displayed conditional also retains population and excluded middle. These
+three priorities are not a license to omit those premises. Necessity-to-
+underivedness, unity, classical attributes and source applicability are further
+steps, rather than consequences of solving only P2/P3/foundation.
+
+### Root reach, in-flight work and next bounded slice
+
+The current computed root map has **11 routes**, costs
+`31,31,32,36,38,39,39,39,40,40,41`, and **62** distinct open root-reaching
+premises. Neither the displayed necessary-concrete conclusion nor its
+contingent-dependence/well-foundedness premises nor the broad Leibniz seed
+is root-reaching in this snapshot. Consequently a new defense there does not
+automatically lower a registered #143 route cost.
+
+[PR #782](https://github.com/moritzbrantner/truth-core/pull/782) proposes a
+necessary-root-to-maximum route and reports stronger bridge costs;
+[PR #785](https://github.com/moritzbrantner/truth-core/pull/785) proposes the
+actual-root-to-necessarily-underived composition. Both were open at inspection.
+Their descriptions are pending-work evidence, not merged certificates; this
+synthesis changes neither branch. Do not duplicate them or count their stated
+checks as checks of main.
+
+**One next slice:** test the P3 interface on #750's existing matched `ground`/
+`law` controls. Before new vocabulary, inspect the dossiers of
+`STMT-EVERY-CONTINGENT-GROUNDED-AT` and the #750 comparison. Obtain one defended
+primary-source account of what an adequate existence reason must supply, paired
+with the strongest intrinsic/structural rival. Test whether the proposed
+condition distinguishes the matched reducts without defining support to mean
+“a necessary concrete being.” If it cannot, persist that failed discriminator
+rather than adding another universal PSR or personal-ground label. Any new
+proof must reuse those controls and record an actual map to `Profile.grounds`.
+No consulted source in this synthesis supplies that missing bridge.
+
+This section introduces no proposition, philosophical premise, relation or
+certificate. Its actual premise/configuration delta is zero. The family map references sources through existing claims/notes; the separate
+P3 source audit below records the passages freshly materialized and read. No
+new historical claim record is introduced. Baseline checks and source readings in the original sections retain
+their original revision/scope; the map itself is a current-record audit.
+
+### Exact record paths for the integration map
+
+An empty premise list below is an unconditional certificate of a formal
+conditional/model comparison, not an assertion of its internal metaphysical
+premises. Each argument record links its definitions and disambiguations;
+its inference record preserves scope. The Solution/Comparator links identify
+existing proof artifacts, not a fresh verification run of them.
+
+| Result and bound conclusion | Exact premises | Inference / argument | Lean / verifier |
+| --- | --- | --- | --- |
+| [PSR-SELF-APPLICATION-STANCE-MAP](../../corpus/results/PSR-SELF-APPLICATION-STANCE-MAP.json); `STMT-PSR-SELF-APPLICATION-STANCE-MAP` | none (certificate) | [application](../../corpus/inferences/psr-self-application-stance-map.json); [argument](../../corpus/arguments/PSR-SELF-APPLICATION-STANCE-MAP.json) | [`stanceMap`](../../TruthCore/Results/Explanation/PSRSelfApplication/Solution.lean); [Comparator](../../results/PSR-SELF-APPLICATION-STANCE-MAP/comparator.json) |
+| [PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER](../../corpus/results/PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER.json); `STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER` | none (certificate) | [application](../../corpus/inferences/psr-self-application-bridge-ladder.json); [argument](../../corpus/arguments/PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER.json) | [`bridgeLadder`](../../TruthCore/Results/Explanation/PSRSelfApplication/Solution.lean); [Comparator](../../results/PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER/comparator.json) |
+| [PSR-STRENGTH-MAP](../../corpus/results/PSR-STRENGTH-MAP.json); `STMT-PSR-STRENGTH-MAP` | none (certificate) | [application](../../corpus/inferences/psr-strength-map.json); [argument](../../corpus/arguments/PSR-STRENGTH-MAP.json) | [`strengthMap`](../../TruthCore/Results/Explanation/PSRStrength/Solution.lean); [Comparator](../../results/PSR-STRENGTH-MAP/comparator.json) |
+| [PSR-COLLAPSE-CORE](../../corpus/results/PSR-COLLAPSE-CORE.json); `STMT-PSR-COLLAPSE-CORE` | none (certificate) | [application](../../corpus/inferences/psr-collapse-core.json); [argument](../../corpus/arguments/PSR-COLLAPSE-CORE.json) | [`collapseCore`](../../TruthCore/Results/Explanation/PSRStrength/Solution.lean); [Comparator](../../results/PSR-COLLAPSE-CORE/comparator.json) |
+| [EXPLANATORY-CLOSURE-CERTIFICATE](../../corpus/results/EXPLANATORY-CLOSURE-CERTIFICATE.json); `STMT-EXPLANATORY-CLOSURE-CERTIFICATE` | none (certificate) | [application](../../corpus/inferences/explanatory-closure-certificate.json); [argument](../../corpus/arguments/explanatory-closure-certificate.json) | [`certificate`](../../TruthCore/Results/Explanation/ExplanatoryClosure/Solution.lean); [Comparator](../../results/EXPLANATORY-CLOSURE-CERTIFICATE/comparator.json) |
+| [HISTORY-SELECTION-CERTIFICATE](../../corpus/results/HISTORY-SELECTION-CERTIFICATE.json); `STMT-HISTORY-SELECTION-CERTIFICATE` | none (certificate) | [application](../../corpus/inferences/history-selection-certificate.json); [argument](../../corpus/arguments/HISTORY-SELECTION-CERTIFICATE.json) | [`certificate`](../../TruthCore/Results/Explanation/HistorySelection/Solution.lean); [Comparator](../../results/HISTORY-SELECTION-CERTIFICATE/comparator.json) |
+| [ULTIMATE-EXPLANATION-SELECTION](../../corpus/results/ULTIMATE-EXPLANATION-SELECTION.json); `STMT-ULTIMATE-EXPLANATION-SELECTION` | none (certificate) | [application](../../corpus/inferences/ultimate-explanation-selection.json); [argument](../../corpus/arguments/ULTIMATE-EXPLANATION-SELECTION.json) | [`integration`](../../TruthCore/Results/Epistemology/UltimateExplanation/Solution.lean); [Comparator](../../results/ULTIMATE-EXPLANATION-SELECTION/comparator.json) |
+| [PATH-RELOCATION-CERTIFICATE](../../corpus/results/PATH-RELOCATION-CERTIFICATE.json); `STMT-PATH-RELOCATION-CERTIFICATE` | none (certificate) | [application](../../corpus/inferences/path-relocation-certificate.json); [argument](../../corpus/arguments/PATH-RELOCATION-CERTIFICATE.json) | [`certificate`](../../TruthCore/Results/Explanation/PathRelocation/Solution.lean); [Comparator](../../results/PATH-RELOCATION-CERTIFICATE/comparator.json) |
+| [ULTIMATE-ADEQUACY-COMPARISON](../../corpus/results/ULTIMATE-ADEQUACY-COMPARISON.json); `STMT-ULTIMATE-ADEQUACY-COMPARISON` | none (certificate) | [application](../../corpus/inferences/ultimate-adequacy-comparison.json); [argument](../../corpus/arguments/ultimate-adequacy-comparison.json) | [`certificate`](../../TruthCore/Results/Explanation/UltimateAdequacy/Solution.lean); [Comparator](../../results/ULTIMATE-ADEQUACY-COMPARISON/comparator.json) |
+| [EXPLANATORY-ADEQUACY-CORE](../../corpus/results/EXPLANATORY-ADEQUACY-CORE.json); `STMT-EXPLANATORY-ADEQUACY-CORE` | none (certificate) | [application](../../corpus/inferences/explanatory-adequacy-core.json); [argument](../../corpus/arguments/EXPLANATORY-ADEQUACY-CORE.json) | [`core`](../../TruthCore/Results/Explanation/ExplanatoryAdequacy/Solution.lean); [Comparator](../../results/EXPLANATORY-ADEQUACY-CORE/comparator.json) |
+| [EXPLANATORY-ADEQUACY-COMPARISON](../../corpus/results/EXPLANATORY-ADEQUACY-COMPARISON.json); `STMT-EXPLANATORY-ADEQUACY-COMPARISON` | none (certificate) | [application](../../corpus/inferences/explanatory-adequacy-comparison.json); [argument](../../corpus/arguments/EXPLANATORY-ADEQUACY-COMPARISON.json) | [`comparison`](../../TruthCore/Results/Explanation/ExplanatoryAdequacy/Solution.lean); [Comparator](../../results/EXPLANATORY-ADEQUACY-COMPARISON/comparator.json) |
+| [EXPLANATORY-SYMMETRY-CORE](../../corpus/results/EXPLANATORY-SYMMETRY-CORE.json); `STMT-EXPLANATORY-SYMMETRY-CORE` | none (certificate) | [application](../../corpus/inferences/explanatory-symmetry-core.json); [argument](../../corpus/arguments/EXPLANATORY-SYMMETRY-CORE.json) | [`core`](../../TruthCore/Results/Explanation/ExplanatorySymmetry/Solution.lean); [Comparator](../../results/EXPLANATORY-SYMMETRY-CORE/comparator.json) |
+| [NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED](../../corpus/results/NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED.json); `STMT-NECESSARY-CONCRETE-AT` | `STMT-COGITO-INHABITED-CONCRETE-WORLD`, `STMT-ACTUAL-GROUNDING-WF`, `STMT-EVERY-CONTINGENT-GROUNDED-AT`, `STMT-EXCLUDED-MIDDLE` | [application](../../corpus/inferences/necessary-concrete-from-actual-grounded.json); [argument](../../corpus/arguments/NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED.json) | [`necessaryConcreteOfActualGrounded`](../../TruthCore/Results/Causality/NecessaryRootFork/Solution.lean); [Comparator](../../results/NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED/comparator.json) |
+| [NECESSARY-ROOT-TRILEMMA](../../corpus/results/NECESSARY-ROOT-TRILEMMA.json); `STMT-NECESSARY-ROOT-TRILEMMA` | `STMT-COGITO-INHABITED-CONCRETE-WORLD`, `STMT-EXCLUDED-MIDDLE` | [application](../../corpus/inferences/necessary-root-trilemma.json); [argument](../../corpus/arguments/NECESSARY-ROOT-TRILEMMA.json) | [`necessaryRootTrilemma`](../../TruthCore/Results/Causality/NecessaryRootFork/Solution.lean); [Comparator](../../results/NECESSARY-ROOT-TRILEMMA/comparator.json) |
+| [NECESSARY-OR-NONNECESSARY-ROOT](../../corpus/results/NECESSARY-OR-NONNECESSARY-ROOT.json); `STMT-NECESSARY-OR-NONNECESSARY-ROOT` | `STMT-COGITO-INHABITED-CONCRETE-WORLD`, `STMT-ACTUAL-GROUNDING-WF`, `STMT-EXCLUDED-MIDDLE` | [application](../../corpus/inferences/necessary-or-nonnecessary-root.json); [argument](../../corpus/arguments/NECESSARY-OR-NONNECESSARY-ROOT.json) | [`necessaryOrNonnecessaryRoot`](../../TruthCore/Results/Causality/NecessaryRootFork/Solution.lean); [Comparator](../../results/NECESSARY-OR-NONNECESSARY-ROOT/comparator.json) |
+
+The root and actual-grounding counts above were recomputed with
+`python3 scripts/corpus.py frontier --routes` and
+`python3 scripts/corpus.py frontier --reaching-root --json` at the named main
+revision. Direct consumer counts come from exact argument premise lists,
+excluding informal references and transitive hypotheses inside certificates.
+No extra source claim or broad-PSR-to-typed-PSR identity was introduced.
+
+Synthesis validation: corpus check passes; all record-map links resolve locally or name the two inspected GitHub PRs; before/after
+frontier JSON and route reports are identical. No Lean/source/argument changes
+were made, so this audit reuses existing proof evidence and does not advertise
+a new full-library build or binding result. Shared convention source revision:
+`c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+
+### P3 source audit: which existing argument can supply the interface?
+
+Materialized and read `AQUINAS-ST-I-Q3-A4` and `AQUINAS-ST-I-Q44-A1` in full,
+and `OPPY-UNIVERSE-NO-CAUSE-13-22` §§II, VI–VII with §I context, using the
+existing hash-pinned witnesses. Oppy's witness includes the beginning of
+Koons's reply; that reply is not attributed to Oppy. These readings check the
+existing corpus interpretations and expose missing applications, rather than
+registering another philosophical premise.
+
+**Q.3 a.4 co., first proof.** The existing
+[claim](../../corpus/claims/aquinas-st-i-q3-a4-distinct-esse-external-cause.json)
+and [argument](../../corpus/arguments/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE.json)
+separate `STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY` and
+`STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE` from
+`STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE`. The
+[bound theorem](../../TruthCore/Results/Aquinas/SummaTheologiae/EssenceEsseExternalCause/Solution.lean)
+is `distinctEsseExternalFromExhaustion`, explicitly recorded as a conditional
+transcription. Its two source-attributed causal premises remain open. The
+external-cause conclusion excludes sufficient efficient self-causation; it
+does not exclude every intrinsic noncausal reason. The existing omission
+certificate is `Q3A4-ESSE-CAUSE-OMISSION-MODELS`.
+
+This is a useful **conditional causal route**, but composing it with
+`EveryContingentGroundedAt` needs four separately justified applications:
+
+1. A concrete existent contingent across accessible worlds must instantiate
+   the source profile's actual essence–esse distinction. `DistinctEsseAt`
+   contains no modality, so the q.3 theorem supplies no such inference.
+2. The external cause's `InAct y esse` must give `ExistsAt w y` for the same
+   selected world and bearer. The existing `STMT-EXISTING-IN-ACT-AT` goes in
+   the other direction, from selected-world existence to actual esse. Its
+   converse must not be inferred. A type named `Being` alone supplies no
+   actuality/presence correspondence.
+3. That external cause must meet the selected `concrete` predicate. Q.3's
+   `HasExternalEsseCause` has no such field. The causally capable, physical,
+   spatiotemporal and nonabstract senses must not be silently substituted.
+4. Its actual efficient cause-in-esse edge must map into `grounds w`.
+   `STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT` is the existing open interface for
+   already-present endpoints. It does not establish their presence or
+   identify all reasons with efficient causes.
+
+These are application obligations, not four new statement records or an
+assertion that the route is impossible. The earlier
+[interface inventory](../../corpus/attempts/foundation-interface-reuse-inventory.json)
+already preserves the one-way actual-existence interface and cause-to-support
+boundary. Reuse it rather than introducing another omnibus profile.
+
+**Q.44 a.1 co.; ad 1–2.** The existing
+[participated-esse claim](../../corpus/claims/participated-esse-external-cause.json)
+is one-way: participated being is caused by another. The complete corpus
+invokes the earlier subsistent-esse and uniqueness results before concluding
+that other beings participate. This cannot be shortened into an independent
+proof of a first unique foundation with those earlier results omitted. Ad 2
+also rejects the inference from necessity alone to lack of a cause; its
+counterfactual-dependence rationale is not a rigid-bearer necessity theorem.
+The next applicable question is whether the selected contingent existent is
+independently shown to have participated esse, with the same four interface
+obligations preserved. Q.44 does not make a `concrete` field appear in q.3's
+type.
+
+**Oppy §§I–II, VI–VII.** The existing
+[natural-causal-reality claim](../../corpus/claims/oppy-natural-causal-reality.json)
+records a positive causal account, including natural sources/regress, rather
+than denial of ordinary causes. §VI considers necessary aspects or shared
+history alongside contingent outcomes; §VII contests an automatic comparative
+advantage for a necessary divine rather than natural foundation, restricted
+to general causal considerations. This is a serious alternative on the same
+causal/modal question, not proof that nature is necessary or that all
+explanatory criteria are equal. The move in §VI from necessity to independence
+is an asserted step requiring its own assessment; q.44 ad 2 offers a contrary
+reading of necessary dependence. Their causal meanings cannot be identified
+merely because both passages use necessity language.
+
+**The strongest already-recorded noncausal reply.** The
+[conservation/inertia investigation](../../corpus/attempts/conservation-existential-inertia-rival.json)
+and [source note](../eternity-dependence-connection.md) preserve the earlier
+Schmid/Feser/q.104 reading. Its replacement account appeals to prior existence
+and absence of destruction, rather than simply leaving persistence unexplained.
+This synthesis reuses that recorded assessment; it does not claim a fresh
+reading of those modern articles. Whether it explains *initial* actuality,
+whether it explains persistence adequately, and whether it supplies the
+selected actual concrete support are separate questions. Rejecting concurrent
+efficient sustenance does not by itself reject all PSR, and q.3's exclusion of
+efficient self-origination does not refute that noncausal reply.
+
+**Revised next step:** investigate the first application above—contingency to
+participated/distinct esse—against the intrinsic or inertial reply, with exact
+source locators and the existing actual-presence/concreteness/support interfaces
+kept open. This is more precise than asking q.3's already transcribed causal
+conclusion to establish `EveryContingentGroundedAt` unaided. No premise is
+discharged by the source audit.
