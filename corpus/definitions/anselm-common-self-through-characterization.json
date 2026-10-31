@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "term": "conditional common-through/unique-source strength characterization",
+  "definition": "CommonSelfThroughAt m w if and only if UniqueUltimateSourceAt m w, in the same original context and selected world. This proposition alone has no background hypotheses; the theorem establishing it explicitly requires actual population, coverage, source actuality and GLOBAL ultimate availability. It does not characterize the truth or full strength of the original selfPowerFrom premises, and it does not apply the equivalence to the local ancestry composition without establishing the global background.",
+  "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughCharacterizationAt",
+  "basis": "stipulative",
+  "note": "Source-free premise-strength audit reusing the existing Context through relation. No source interpretation or independent adequacy claim is added. See docs/notes/necessary-simple-plurality.md, common-source strength audit."
+}

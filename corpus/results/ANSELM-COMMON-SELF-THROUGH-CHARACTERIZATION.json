@@ -1,0 +1,10 @@
+{
+  "id": "ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "argument_id": "ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "challenge_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Solution",
+  "theorem": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.characterization",
+  "comparator_config": "results/ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION/comparator.json",
+  "status": "solution-present",
+  "description": "Under the four explicit GLOBAL background premises, common-through for all self-through bearers is equivalent to one unique actual ultimate source. Forward: instantiate the existing uniqueness proof with a proof-only power interpretation equal to through; the original ontology and through relation are unchanged, so the source conclusion is definitionally the same. No original selfPowerFrom facts follow. Reverse: ultimate availability gives each self-through bearer an actual ultimate source; uniqueness identifies it with the one same source. This is a strength audit, not independent justification or a proof of circularity. No equivalent-strength claim is made for the original power bundle or for the local ancestry theorem lacking global ultimate availability."
+}
