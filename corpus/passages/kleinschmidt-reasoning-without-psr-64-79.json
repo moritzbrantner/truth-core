@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KLEINSCHMIDT-REASONING-WITHOUT-PSR",
+    "source_url": "https://phil971-2022.colinmclear.net/materials/readings/kleinschmidt-psr-reasoning.pdf",
+    "retrieved_at": "2026-10-31T09:46:13Z",
+    "sha256": "sha256:0366be730103cdae082f4e8976dca648f161e9b525415fd949ea3ca91fda3007",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyrighted primary chapter publicly hosted as a reading on Colin McLear’s PHIL 971 university-course site. No open redistribution license asserted. Only metadata, hashes, locators and analytical paraphrases committed. Two independent 2026-10-31 fetches matched raw-byte and extracted-text hashes."
+  },
+  "passages": [
+    {
+      "id": "KLEINSCHMIDT-REASONING-WITHOUT-PSR-64-79",
+      "locator": "Reasoning Without the Principle of Sufficient Reason, chapter 4, pp.64–79, §§1–3 and references (complete 16-page chapter)",
+      "claim_locator_prefixes": [
+        "§",
+        "Introduction"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 16
+      },
+      "text_sha256": "sha256:f67a2a968c1d5a0ecb6c2605596d4d2eebb587c58f3760f36a267c0904bf9b39",
+      "incipit": "4 Reasoning Without the Principle of Sufficient Reason Shieva Kleinschmidt"
+    }
+  ]
+}
