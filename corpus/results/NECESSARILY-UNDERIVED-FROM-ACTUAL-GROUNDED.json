@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "argument_id": "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedRootRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedRootRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedRootRoute.necessarilyUnderivedOfGrounded",
+  "comparator_config": "results/NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED/comparator.json",
+  "status": "solution-present",
+  "description": "Classical conditional with excluded middle as an explicit premise, zero Lean axioms, not a transcription: inhabitedness, restricted well-foundedness, the closing premise, present support and concrete supporters give an individual existing at w and every accessible world with no existing supporter at any world. All five non-logical premises are open; no uniqueness or divine attribute; no root change."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NECESSARY-SUPPORT-IS-PRESENT",
+    "STMT-ACTUAL-SUPPORTERS-CONCRETE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "inference_ids": [
+    "INF-NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED"
+  ],
+  "meaning": "The whole route, in three steps. Inhabitedness and restricted well-foundedness give an actual root; the closing premise makes it necessary; present support and concrete supporters make it without existing supporter at any world. Compare NECESSARY-UNDERIVED-POSITIVE-LIFT, which assumes a necessary witness and well-foundedness of support by all existing supporters: this route derives the witness, and its well-foundedness is restricted to actual concreta. For that it pays with the closing premise and concrete supporters, and it takes present support in place of lifting. The conclusion asserts neither uniqueness nor any divine attribute. Each of the five non-logical premises is omitted in STMT-UNDERIVED-ROUTE-CONTROLS.",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

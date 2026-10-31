@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-UNDERIVED-ROOT-ROUTE-487",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARILY-UNDERIVED",
+    "STMT-NECESSARY-SUPPORT-IS-PRESENT",
+    "STMT-ACTUAL-SUPPORTERS-CONCRETE",
+    "STMT-UNDERIVED-ROUTE-EXIT",
+    "STMT-UNDERIVED-ROUTE-CONTROLS",
+    "STMT-NECESSARY-PREDECESSOR-LIFTING",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-ACTUAL-GROUNDING-WF"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#487: end-to-end route from actual existence to a necessarily underived ground. First tried composing NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED with NECESSARY-UNDERIVED-POSITIVE-LIFT. Rejected: that needs well-foundedness of support by all existing supporters, stronger than the restricted ActualGroundingWF, and lifting. Used instead: a direct step from the necessary root witness itself. Finding 1: rootness does not transfer. A necessary actual root can fail to be underived in three separate ways (rotating support, possible contingent support, abstract support), each with the earlier premises holding. Finding 2: the necessity clause of NecessaryPredecessorLifting is not used by this route; the weaker NecessarySupportIsPresent suffices, with a model of all five premises where lifting fails. Finding 3: restricted well-foundedness does not reach abstract supporters, so the route needs ActualSupportersConcrete, and without it an abstract cycle defeats the conclusion. Finding 4: under the premises every actual concretum descends from an underived root, which is the route's explanatory reach; but in one model of all five premises two such roots have no ancestry either way and a ground exists where its effect does not. So the premises give neither unity nor effect-entailment. Rejected reading: treating a root's absence of actual concrete grounds as absence of explanation. The rival labels (brute root, circular or endless support, world-varying support, abstract support) name models; no author's view is reported, and Pruss, Oppy and Craig witnesses listed on #487 remain unread. #553's reverse direction was already certified by NECESSARY-OR-NONNECESSARY-ROOT, so nothing was added for it. The connection to the root route is in ATTEMPT-NECESSARY-CONCRETE-ROUTE-487's PR.",
+  "evidence": [
+    "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+    "UNDERIVED-ROUTE-EXIT",
+    "UNDERIVED-ROUTE-CONTROLS",
+    "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+    "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+    "NECESSARY-OR-NONNECESSARY-ROOT"
+  ],
+  "blocker": "No defence for any real relation of the closing premise, restricted well-foundedness, present support or concrete supporters. No route premise consumes STMT-NECESSARILY-UNDERIVED, so the route does not lower a root cost."
+}

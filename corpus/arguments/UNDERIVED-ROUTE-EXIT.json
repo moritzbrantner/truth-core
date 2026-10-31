@@ -1,0 +1,32 @@
+{
+  "id": "UNDERIVED-ROUTE-EXIT",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-UNDERIVED-ROUTE-EXIT",
+  "inference_ids": [
+    "INF-UNDERIVED-ROUTE-EXIT"
+  ],
+  "meaning": "Coverage: a rival that accepts an inhabited world and denies a necessarily underived individual must deny restricted well-foundedness (circular support or endless descent), or accept a contingent root (a brute contingent root), or deny present support (world-varying support of a necessary being), or deny concrete supporters (abstract support of concreta). These labels name models, not any author's view. The exits overlap, none is refuted and each is taken alone in STMT-UNDERIVED-ROUTE-CONTROLS.",
+  "definition_ids": [
+    "DEF-UNDERIVED-ROOT-ROUTE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-NECESSARILY-UNDERIVED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}
