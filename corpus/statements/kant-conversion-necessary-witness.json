@@ -1,9 +1,13 @@
 {
   "id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-  "paraphrase": "An actually existing necessary individual is given at the selected world; an explicit open premise, not obtained from universal predicate inclusion.",
+  "paraphrase": "At least one individual exists at the selected world and at every world accessible from it, with literal cross-world identity. No concreteness, uniqueness, absence of grounds or divine attribute is asserted.",
   "definition_ids": [
     "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY"
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
   ],
-  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing"
+  "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing",
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
 }

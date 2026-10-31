@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "argument_id": "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryWitnessConnection.necessaryBearer",
+  "comparator_config": "results/NECESSARY-CONCRETE-TO-NECESSARY-BEARER/comparator.json",
+  "status": "solution-present",
+  "description": "Logical weakening: the same actual necessary concrete witness gives the existing general actual necessary-bearer statement on the same Ontic and selected world. Drop only the concrete predicate; no source interpretation or philosophical premise is added. This does not confer concreteness on a different witness selected by downstream reasoning."
+}

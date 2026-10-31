@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NECESSARY-WITNESS-INTERFACE-CONNECTION",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-NECESSARY-CONCRETE-AT",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inventory at 9c213151 found no argument directly consuming the necessary-concrete statement, while the same-Ontic general necessary-witness statement has nine existing consumers. Registered existential/conjunction projection and a complete composition from the prior borrowing-cut theorem, using existing statement identities and no new philosophical premise or definition. Updated the general witness paraphrase to its unchanged bound type rather than calling it only an open workflow premise, and linked existing identity/scope vocabulary. Rejected merging the stronger and weaker statement IDs, inheriting concreteness for a different witness selected downstream, or restating derived necessary population as a fresh premise in the end-to-end route. Challenge frozen before Solution, SHA256 610592e995032b9750cc56b1595e618653a3b5debf291fdb1a91947fdd8dd719. No source attribution or new source reading. CLI fallback; existing service experiment is not restarted. See the shared necessary-witness interface in docs/notes/ultimate-adequacy-integration-735.md. Full library build passes. Full binding: 722 bound,2 existing pins,0 mismatch. Both new results pass independent Comparator/NanoDa with zero permitted axioms; Lean reports no axioms. Source manifests, generators and diff checks pass. Root-route output remains byte-identical to baseline. corpus.py related now exposes the concrete\u2192general witness edge directly. Shared convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
+  "blocker": "Structural connection only; philosophical source/adequacy applicability and downstream modal/causal/attribute assumptions remain open. No registered argument currently concludes contingent concrete dependence; existing distinct-esse causal results have different hypotheses/relations and are not silently substituted.",
+  "evidence": [
+    "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+    "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+    "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE"
+  ]
+}
