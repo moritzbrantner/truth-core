@@ -1,0 +1,23 @@
+{
+  "id": "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.NecessaryRootAncestor",
+  "paraphrase": "One member of selected\u2019s complete actual concrete ancestry exists at every accessible world and has no incoming ground from any actual concrete candidate at the selected world. The same witness has ancestry, necessity and selected-world rootness. Non-concrete explanations and grounding at other worlds are not excluded; no uniqueness or divine attribute is asserted.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

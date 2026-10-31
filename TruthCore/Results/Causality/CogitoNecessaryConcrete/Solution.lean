@@ -1,4 +1,5 @@
 import TruthCore.Causality.CogitoNecessaryConcrete
+import TruthCore.Causality.SelectedAncestry
 import TruthCore.Results.Logic.CogitoSubject.Solution
 
 namespace TruthCore.Results.Causality.CogitoNecessaryConcrete
@@ -31,24 +32,11 @@ theorem ancestryRootForkWithRoot {W B Episode : Type}
       ContingentRootAncestorOfThinker m Occurs Bears w) := by
   obtain ⟨b, e, he, hb⟩ :=
     TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought Occurs Bears hOccurs hBearer
-  have walk : ∀ x, Acc (ActualConcreteGround m w) x → GroundAncestor m w x b →
-      m.concrete x → m.ontic.ExistsAt w x → (NecessaryConcreteRootAncestorOfThinker m Occurs Bears w ∨
-      ContingentRootAncestorOfThinker m Occurs Bears w) := by
-    intro x hx
-    induction hx with
-    | intro x _ ih =>
-      intro hanc hc hex
-      rcases hEM (∃ y, ActualConcreteGround m w y x) with ⟨y, hy⟩ | hnone
-      · exact ih y hy (Relation.ReflTransGen.head hy hanc) hy.1 hy.2.1
-      · rcases hEM (ContingentAt m.ontic w x) with hcont | hncont
-        · exact Or.inr ⟨b, e, x, he, hb, hanc, hc, hex, hcont, fun y hy => hnone ⟨y, hy⟩⟩
-        · refine Or.inl ⟨b, e, x, he, hb, hanc, hc, hex, ?_, fun y hy => hnone ⟨y, hy⟩⟩
-          intro v hv
-          rcases hEM (m.ontic.ExistsAt v x) with h | h
-          · exact h
-          · exact (hncont ⟨hex, v, hv, h⟩).elim
-  exact walk b (hAcc b e he hb) Relation.ReflTransGen.refl (hConcrete b e he hb)
-    (hExists b e he hb)
+  rcases TruthCore.Causality.SelectedAncestry.rootForkOfAccessibility m w b
+      ⟨hConcrete b e he hb, hExists b e he hb⟩ (hAcc b e he hb) hEM with
+      ⟨x, ⟨⟨hc, hx⟩, hanc⟩, hn, hRoot⟩ | ⟨x, ⟨⟨hc, hx⟩, hanc⟩, ht, hRoot⟩
+  · exact Or.inl ⟨b, e, x, he, hb, hanc, hc, hx, hn, hRoot⟩
+  · exact Or.inr ⟨b, e, x, he, hb, hanc, hc, hx, ht, hRoot⟩
 
 /-- Original frozen fork, projected from the same descent with its minimality
 fact retained by `ancestryRootForkWithRoot`. -/

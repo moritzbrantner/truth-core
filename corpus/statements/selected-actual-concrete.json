@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SELECTED-ACTUAL-CONCRETE",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualConcrete",
+  "paraphrase": "The specified candidate is concrete and exists at the selected world. It is not assumed contingent, necessary, a thinker or a substance.",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+  "term": "contingent dependence within one complete actual cone",
+  "definition": "Every actual concrete member of the full selected ancestry cone that is absent at some accessible world has an actual concrete ground at the selected world. The ground belongs to the same cone by predecessor closure. Nothing is demanded of unrelated contingent concreta, nor is selected assumed contingent.",
+  "basis": "stipulative",
+  "note": "General selected-being form of the existing thinker-local vocabulary, reusing Profile, ActualConcreteGround and Mathlib ReflTransGen unchanged. Source-free application hypotheses remain OPEN. See the selected-cone scope section of docs/notes/ultimate-adequacy-integration-735.md.",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.ConeContingentGrounded"
+}

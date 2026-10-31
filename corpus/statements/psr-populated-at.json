@@ -2,6 +2,11 @@
   "id": "STMT-PSR-POPULATED-AT",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.PopulatedAt",
   "paraphrase": "At least one individual actually exists at the selected model world.",
-  "definition_ids": ["DEF-PSR-POPULATED-WORLD"],
-  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+  "definition_ids": [
+    "DEF-PSR-POPULATED-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ],
+  "note": "Owner-accepted as true for the current necessary-being investigation on 2026-10-31: \u201cI think it is safe to assume that one being exists. You can mark that as simply true for now, if that helps you.\u201d The accepted scope is actual existential population, \u2203 x, m.ontic.ExistsAt w x, in the intended actual-world interpretation. It does not assert that every toy model is populated, select a named candidate, add concreteness, or assert necessary existence. This is an explicitly accepted working starting point; no Lean axiom or independent proof is claimed."
 }

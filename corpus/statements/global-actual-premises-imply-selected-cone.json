@@ -1,0 +1,23 @@
+{
+  "id": "STMT-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "lean_declaration": "TruthCore.Causality.SelectedAncestry.ScopeComparison",
+  "paraphrase": "For any selected candidate, global well-founded actual-concrete grounding implies well-founded grounding on its complete actual ancestry cone, and global contingent concrete dependence implies contingent dependence within that cone. These scope implications, together with the combined local-but-not-global model, certify a strict weakening of both premises. They do not establish any instance of either local or global metaphysical premise.",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

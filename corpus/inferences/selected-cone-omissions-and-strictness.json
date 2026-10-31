@@ -1,0 +1,9 @@
+{
+  "id": "INF-SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "rule": "exact-profile-omissions-and-combined-interpretation",
+  "meaning": "Two exact omission models each retain an actual selected concretum and one of local cone foundation/dependence while the other fails and no necessary concrete being exists. One combined model has an actually contingent selected target, both local premises and a necessary actual root ancestor; nevertheless global actual-grounding WF and global contingent dependence both fail, with an unrelated infinite actual successor chain and contingent brute singleton. These are formal interpretations, not metaphysical possibilities or adequate rivals retaining the omitted premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,5 +1,19 @@
 # Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
 
+## Accepted starting point
+
+The owner explicitly accepts **at least one being actually exists** as true for
+this investigation (2026-10-31). Reuse `STMT-PSR-POPULATED-AT`, whose exact type
+is `∃ x, m.ontic.ExistsAt w x`. Actual existence is therefore an accepted working
+starting point here, rather than a philosophical question this investigation
+needs to reopen. This acceptance is recorded in the statement's note; it is not
+a new Lean axiom or a claim that an empty toy model is impossible by logic.
+
+The concrete routes below additionally use an actual *concrete* witness and
+sometimes a specified target. Those stronger conditions remain explicit:
+existential population alone neither supplies a concrete criterion nor names
+the selected witness. No necessary being is assumed at the starting point.
+
 ## Cumulative necessary-being argument: use the established exclusions together
 
 `NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE` connects the existing no-self-contained-
@@ -117,6 +131,50 @@ external-esse-cause result is not silently equated with that modal concrete
 application; its precise boundary is preserved below. This does not undo the
 cumulative consequence under contingent dependence, or turn an omitted-premise
 chain into an adequate account under the retained commitments.
+
+### One complete ancestry cone suffices (#311/#613)
+
+`SELECTED-CONE-NECESSARY-ROOT-ANCESTOR` narrows both foundation and contingent
+coverage to one selected actual concrete being's **complete** actual grounding
+ancestry. Its four explicit premises are: the selected candidate is actual and
+concrete; grounding restricted to its full ancestor cone is well-founded; every
+contingent member of that cone has an actual concrete ground; excluded middle.
+The result retains one same ancestor's actuality, concreteness, necessity and
+absence of incoming actual concrete grounds at the selected world.
+
+This reuses the descent previously embedded in the thinker-local proof. The
+shared `rootForkOfAccessibility` now serves both the original thinker result and
+the general selected-being result; no dummy thought or duplicate descent proof
+is introduced, and every old thinker Challenge is unchanged. Predecessor closure
+of the full Mathlib `ReflTransGen` cone lifts cone-WF to the earlier `Acc`-based
+proof. An observed finite prefix is not predecessor-closed and cannot be used
+for that step.
+
+The separate `SELECTED-CONE-NECESSARY-CONCRETE` projects the same ancestor to
+the existing necessary-concrete statement, which already connects to the shared
+necessary-witness interface. The selected being itself need not be necessary
+or even a thinker. The final source is only a selected-world root of the chosen
+actual-concrete grounding relation, not shown absolutely unexplained or
+underived at all worlds.
+
+`GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE` proves each global premise implies
+its local counterpart. `SELECTED-CONE-OMISSIONS-AND-STRICTNESS` gives one combined
+interpretation where an actual contingent target has a necessary root and both
+local premises hold, but an unrelated actual infinite successor chain and
+contingent brute singleton make **both** global premises fail. This certifies
+strictly weaker scope, rather than simply reducing a premise count. The same
+certificate includes separate omissions: a contingent brute selected singleton
+without local dependence, and a wholly contingent selected infinite chain
+without local foundation. Neither satisfies both local requirements.
+
+These are formal interpretations and conditional consequences, not a defense
+of either local philosophical application. The reduction removes the need to
+settle unrelated grounding domains to infer a necessary ancestor of this
+selected target. It does not reopen an endless derivative chain *inside* the
+target's cone as adequate under the retained foundation requirement. No new
+source claim, root closure, divine attribute or independent regress argument is
+advertised. The global borrowing-cut/WF equivalence remains the matching global
+formulation; this result reduces its required domain.
 
 ## Earlier integration and controls
 
