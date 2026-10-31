@@ -12,7 +12,8 @@ Verified committed research baseline is `79a8eebb` (eighteen-input joint
 attributes/control), following `a7398003` (positive perfection/goodness).
 A2 extraction/review findings are persisted in `53f5d514`; its earlier verified
 reread is `b8a34521`. Delivered main through
-`4b2053126534431b7b062f02d6055064a97258c2` is integrated by `65d22f97`.
+`3fdce7d786f313eb84953d9a05769c22aee19a42` is integrated by `3761eb1f`
+(the A2 source merge is retained at `65d22f97`).
 The source merge preserves the fuller private witness history and next A2
 alternate queue while retaining the public extraction record and all five claims.
 The prior minimization baseline remains `4888cece` with matrix follow-up
@@ -20,7 +21,7 @@ The prior minimization baseline remains `4888cece` with matrix follow-up
 The overarching goal remains active; conditional results do not establish the
 truth of their metaphysical inputs.
 
-Thirteen PRs were landed after required checks and current-head review without
+Fourteen PRs were landed after required checks and current-head review without
 findings: #825 (`692b8b99`, exact genus-causality omission), #827 (`d3f85cfc`,
 temporal count-to-necessity composition), #828 (`413d3509`, joint positive
 count model), #822 (`cbfaaeca`, local-frame/source A3 batch), and #829
@@ -32,7 +33,8 @@ coverage to necessary existence), #833 (`3027af51`, fixed-esse scope),
 #834 (`52181913`, same-history compatibility), and #835 (`939b28af`,
 public handoff navigation/status), #836 (`aef30f77`, root perfection/goodness
 and transfer omission), and #837 (`4b205312`, five qualified A2 readings).
-Existing earlier #810–#821 remain integrated.
+#838 (`3fdce7d7`, joint positive/structural eighteen-input route and
+discriminating control) is also delivered. Existing #810–#821 remain integrated.
 
 The current #826 matrix is in
 [classical-attributes-all-migration.md](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31),
@@ -281,13 +283,14 @@ this cluster on `research/root-positive-intellect-will-20261101`, exact head
 `/home/moenarch/.cache/truth-core-worktrees/root-perfect-goodness`.
 Public build4330, binding806/two legacy pins/zero mismatch and offline source/
 corpus checks pass; all21 owned proof/record/config/matrix artifacts match
-research. CI run `41253734557` is confirmed live: corpus/Lean and result
-shard have passed; library job `124692437879` is still in progress. Exact-head
-review requested once at
+research. CI run `41253734557` passed every required check and exact-head review
+completed without findings. Review was requested once at
 [the review request](https://github.com/moritzbrantner/truth-core/pull/838#issuecomment-6550734032).
-Next delivery step: inspect that SAME run and exact-head review, repair actual
-findings, then merge only on required checks/review passing. Do not restart a
-live process or infer delivered success from local checks.
+Merge `3fdce7d786f313eb84953d9a05769c22aee19a42` is integrated by
+`3761eb1f`. No result remains pending delivery in this slice. The overall goal
+remains active: implement and independently certify the audited God/Signature
+composition below, while the source lane extracts the A2 alternate cluster.
+No additional ledger truth selection has been received.
 
 Next exact consumer audit (NOT a proof yet) confirms a twenty-five-input
 route to the existing God/Signature consumers. Use m:Profile W sigma.Being and
