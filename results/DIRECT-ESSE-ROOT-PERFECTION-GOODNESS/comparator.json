@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.derive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

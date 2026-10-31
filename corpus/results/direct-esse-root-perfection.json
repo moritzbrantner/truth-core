@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-PERFECTION",
+  "argument_id": "DIRECT-ESSE-ROOT-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootPerfection.derive",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Import the fixed-esse eight-input uniqueness result once, retaining its SAME n. Use the existing maximum-existence and maximum-equals-root helpers at Unit to derive a positive esse maximum of n. For every bearer and respect, equality with n handles the self case; otherwise actuality-to-being, existing Iesse universality and formal-or-eminent preexistence yield InAct n r. No arbitrary existential witnesses are conjoined. All 10 inputs remain explicit supplied premises; conditional composition discharges no philosophical premise and makes no minimality claim. This concerns selected actual roots, not uniqueness of all necessary individuals or rootness in every world. InAct, GoodIn and CausesIn are supplied global dictionaries; their world correspondence, formal-or-eminent meaning and causal applicability remain OPEN. No God predicate, naming, moral perfection, omniscience, explanatory sufficiency or philosophical premise truth is established."
+}

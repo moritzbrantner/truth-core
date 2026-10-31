@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+  "argument_id": "DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.derive",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-PERFECTION-GOODNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Import the ten-input same-root perfection result once. Its SAME n retains selected actual roothood, necessity, uniqueness, esse maximality and perfection. Goodness/actuality coextension gives GoodIn n esse from its maximum actuality. Existing Iesse establishes universal esse causation before applying the EXISTING restricted UniversalCauseTransfersPerfections to distinct effects. This gives the causal component of the existing IsSupremelyGood predicate without naming n God or assuming the unrestricted legacy transfer. All 12 inputs remain explicit supplied premises; conditional composition discharges no philosophical premise and makes no minimality claim. This concerns selected actual roots, not uniqueness of all necessary individuals or rootness in every world. InAct, GoodIn and CausesIn are supplied global dictionaries; their world correspondence, formal-or-eminent meaning and causal applicability remain OPEN. No God predicate, naming, moral perfection, omniscience, explanatory sufficiency or philosophical premise truth is established."
+}

@@ -201,9 +201,9 @@ The eight per-individual Stage 2 results have the form `∀ g, IsGod g → attri
 | Attribute | Existing Stage 2 result and exact input statement IDs | Same-witness root classification / added interface |
 | --- | --- | --- |
 | one | [CATHOLICISM-STAGE2-GOD-IS-ONE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-ONE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-EXCLUDED-MIDDLE` | A necessary root alone does not identify all roots. Existing direct-esse root uniqueness needs its explicit causal/maximality package; God uniqueness additionally uses the naming predicate. The certified genus-omission control retains two roots when I is withheld. |
-| simple | [CATHOLICISM-STAGE2-GOD-IS-SIMPLE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-SIMPLE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH` | ROOT-WITHOUT-LIMITING-PRINCIPLE certifies the same necessary root lacks Composite as one of its three excluded horns. This needs the recorded eleven-input package; it is not inferred from necessity alone. |
-| perfect | [CATHOLICISM-STAGE2-GOD-IS-PERFECT](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-PERFECT.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING`, `STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE`, `STMT-EXCLUDED-MIDDLE` | Root firstness, no potency and represented essence identity do not by themselves supply positive perfections. Same-root maximality plus the listed causal/perfection inputs is a candidate specialization; the combined root-to-perfect result is not registered yet. |
-| supremely good | [CATHOLICISM-STAGE2-GOD-IS-SUPREMELY-GOOD](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-SUPREMELY-GOOD.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING`, `STMT-GOODNESS-IS-ACTUALITY`, `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION` | CausalPerfectionTransfer.goodness offers an existing restricted transfer route. Same-root maximality and its exact universal-being-cause interface still need composition; necessary existence alone gives neither goodness nor causal scope. |
+| simple | [CATHOLICISM-STAGE2-GOD-IS-SIMPLE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-SIMPLE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH` | ROOT-WITHOUT-LIMITING-PRINCIPLE certifies the same necessary root lacks Composite as one of its three excluded horns. This has the original eleven-input package and the eight-input composition-kinds variant; it is not inferred from necessity alone. |
+| perfect | [CATHOLICISM-STAGE2-GOD-IS-PERFECT](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-PERFECT.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING`, `STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE`, `STMT-EXCLUDED-MIDDLE` | Root firstness, no potency and represented essence identity do not by themselves supply positive perfections. DIRECT-ESSE-ROOT-PERFECTION now retains the same selected unique necessary root and esse maximum under ten explicit inputs: fixed-esse eight plus actuality-to-being and preexistence. It derives the existing IsPerfect predicate without a God predicate. |
+| supremely good | [CATHOLICISM-STAGE2-GOD-IS-SUPREMELY-GOOD](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-SUPREMELY-GOOD.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS`, `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING`, `STMT-GOODNESS-IS-ACTUALITY`, `STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION` | DIRECT-ESSE-ROOT-PERFECTION-GOODNESS extends that same perfect root under twelve explicit inputs, adding goodness/actuality and the existing restricted universal-cause transfer. DIRECT-ESSE-ROOT-GOODNESS-OMISSION retains all eleven other interfaces on the old secondary-cause rival while the perfect root fails the existing causal supreme-goodness predicate. This is not moral perfection. |
 | infinite | [CATHOLICISM-STAGE2-GOD-IS-INFINITE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-INFINITE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-COMPOSITE-HAS-A-UNITING-CAUSE`, `STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH`, `STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS`, `STMT-EXCLUDED-MIDDLE`, `STMT-SUBSISTENT-BEING-IS-INFINITE` | The eight-input ROOT-ESSENCE-IDENTITY output matches the exact maps of SubsistentBeingIsInfiniteReading. Applying that existing interface would be an assembly, not an independent derivation of its primitive Infinite predicate. Receivedness/individuation remains a separate boundary. |
 | immutable | [CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY`, `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT` | NECESSARY-FIRST-BEING-PURE-ACT preserves one actual necessary root under seven explicit inputs. StageTwo.IsImmutable is definitionally that same PureAct predicate; this is a vocabulary connection, not an independently richer theory of change. |
 | eternal | [CATHOLICISM-STAGE2-GOD-IS-ETERNAL](../../corpus/results/CATHOLICISM-STAGE2-GOD-IS-ETERNAL.json): `STMT-GOD-IS-MAXIMAL-IN-BEING`, `STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING`, `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY`, `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`, `STMT-IMMUTABLE-IS-ETERNAL` | The same-root pure-act result can feed STMT-IMMUTABLE-IS-ETERNAL. That primitive eternity interface is retained; the combined root endpoint is not registered yet. Modal necessity is not silently timelessness. |
@@ -315,6 +315,50 @@ Both results pass full build4321, binding801/two legacy pins/zero mismatch,
 Comparator and independent result NanoDa. The combined scope/count library
 check covers888 dependency declarations with zero typechecker errors and one
 known axiom pretty-printer warning. Both result axiom reports are empty;
-independent claim/type review found no findings. Required delivered-head
-CI/review remains pending. Root routes, reaching-root IDs, open-premise count
+independent claim/type review found no findings. These scope results are delivered in #833, merge `3027af51261727ccf37f1d14db97568dd18feecf`, after required CI/review passed. Root routes, reaching-root IDs, open-premise count
 and depth counts are unchanged against the verified joint-attribute baseline.
+
+### Same-root positive perfection and causal supreme goodness
+
+The new ten-input `DIRECT-ESSE-ROOT-PERFECTION` first consumes the fixed-esse
+eight-input uniqueness theorem once. The imported maximum-existence and
+maximum-equals-root helpers on Unit dictionaries make THAT SAME root an esse
+maximum. Actuality-to-being reaches the esse of every distinct perfection
+bearer, the being-only genus principle supplies its cause, and q4 preexistence
+transfers its actuality to this same root. The self-case preserves its own
+actuality directly. The endpoint retains actual roothood, necessity, selected
+root uniqueness, esse maximality and the existing `IsPerfect` predicate.
+
+`DIRECT-ESSE-ROOT-PERFECTION-GOODNESS` consumes that ten-input result once
+and appends `IsSupremelyGood` inside the SAME existential under two additional
+inputs: goodness/actuality and `STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS`.
+This uses the already weaker #732 transfer interface, not unrestricted transfer.
+Its antecedent universal esse scope is derived before the transfer is applied.
+No singleton God predicate, naming or new perfect-to-good bridge is introduced.
+The supreme-goodness predicate means goodness in esse and causal responsibility
+for others' actual perfections, not moral perfection, omniscience or freedom.
+Global attribute/causal dictionaries' correspondence to the selected world
+remains open; no complete respect-domain or real causal adequacy follows.
+
+`DIRECT-ESSE-ROOT-GOODNESS-OMISSION` retains the exact old #732 secondary-only
+role/act/grade/cause model and its positive supporting/producing activity.
+Only an explicit all-present/all-concrete modal/grounding view is new. All
+eleven other exact inputs hold. The source is the same actual necessary,
+selected unique, maximal, perfect root and is good in esse, yet does not cause
+the recipient's skill. Thus it fails causal supreme goodness, and uniqueness
+of the selected root excludes an alternative witness for the whole endpoint.
+The model's all-present contingent-grounding coverage is vacuous. This tests
+the restricted transfer's independent role, not a complete rival worldview.
+
+All three results pass full build4326, binding804/two legacy pins/zero mismatch,
+Comparator and independent result NanoDa. Scoped library NanoDa checked356
+dependency declarations with zero typechecker errors and one known axiom
+pretty-printer warning. All helper/result axiom reports are empty; independent
+claim/type review found no findings. Source/corpus/generators pass with no
+source attribution change. Delivered-head CI/review is pending.
+
+Direct interfaces count ten and twelve hypotheses. The computed target costs
+are twelve and fourteen non-floor leaves: the existing Iesse statement expands
+through its four-input attribution derivation. These are different accounting
+levels, not global minimum or truth certificates. Root routes, reaching-root
+IDs, open-premise count and depth counts remain unchanged.
