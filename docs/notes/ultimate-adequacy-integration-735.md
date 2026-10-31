@@ -26,7 +26,9 @@ unresolved findings. Current-head review completed without findings. CI run
 but its source job twice failed fetching the already-pinned Koons archive after
 live HTTP403. Hosted diagnostic `41235134658`, exact temporary commit
 `82a8a8c6115f590c1e2e594b2a3c0616d01f1ee1`, fetched that archive with the
-production urllib downloader both before and after the two eLife archives;
+same source.download function before and after the two eLife archives, but
+with urlopen wrapped by a newly built Redirects opener rather than production
+default urlopen;
 all four matched existing pins without redirects. A subsequent TLS-verified
 curl connection timed out before HTTP. This supports transport unreliability,
 not a URL/pin repair or reproduction of the original urllib handshake failure.
@@ -58,8 +60,11 @@ witness. A8 eight-page reading was committed as `45461b3e` and all eight passed 
 verification. Its explicitly vacuous entailment makes nonlimitation carry
 possibility strength when a deficiency property is admitted; this is not an
 independent possibility defense or the existing structural limitation predicate.
-A9 source reading is active, followed by A10 and earlier witness coverage
-reconciliation before campaign completion.
+A9 nine-page reading is complete; its ordinary-to-nontrivial entailment lift
+is distinct from A8 vacuity and remains open. A10 and earlier witness coverage
+reconciliation remain. A two-request hosted test is assigned to compare default
+production urlopen against the successful probe fresh-opener path, preserving
+URL, headers, TLS and hashes; no fourth full-CI retry is scheduled.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and

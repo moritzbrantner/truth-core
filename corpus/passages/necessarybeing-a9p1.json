@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a9p1.html",
+    "retrieved_at": "2026-10-31T19:48:50Z",
+    "sha256": "sha256:a73c60a8786b68c687e33cfe43946b5e7273b6e2d9519c11258bcf6748a4fcf8",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A9P1",
+      "locator": "A9P1, complete interactive page",
+      "claim_locator_prefixes": [
+        "A9P1,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Some properties cannot have instances. For example, there cannot be instances of being a square-circle."
+        }
+      },
+      "text_sha256": "sha256:520c7b4b2ec70980a8c3475c71e36b88ee2f65213c5340ff3e335c283801306f",
+      "incipit": "Some properties cannot have instances. For example, there cannot be instanc"
+    }
+  ]
+}

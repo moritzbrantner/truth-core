@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a9p1b.html",
+    "retrieved_at": "2026-10-31T19:48:50Z",
+    "sha256": "sha256:ea74e277a08006749b3067349c5d78c3d7008d57925345ee6fa932312916c542",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A9P1B",
+      "locator": "A9P1B, complete interactive page",
+      "claim_locator_prefixes": [
+        "A9P1B,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Suppose being concrete entails P."
+        }
+      },
+      "text_sha256": "sha256:c74892aae1e8548cf97456287bd415212bb1c428659b4bca9c014969e610db39",
+      "incipit": "Suppose being concrete entails P.\nDoes being concrete and necessary non-tri"
+    }
+  ]
+}
