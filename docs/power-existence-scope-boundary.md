@@ -1258,3 +1258,66 @@ is a specified illumination/cessation episode with warranted occurrence and
 allowed scenarios, not another regress model. No new claim, theorem or model is
 added in this brief; it identifies one faithful conditional group and exactly
 which actual-instance evidence a substantive follow-up must furnish.
+
+
+### SCG I.16: prior actualizer versus cause of a bearer's being (2026-10-31)
+
+This bounded ledger-G source follow-up reuses the actual-prerequisite and
+act-priority scope audits above and the already recorded IX.8 rejected readings;
+it does not repeat that search. The complete existing primary witness
+**AQUINAS-SCG-I-16-EN**, *Summa contra gentiles* I.16[1]–[7], was materialized
+and read before this finding. The witness is the Anton C. Pegis1955 English
+translation in the existing pinned `aquinas-summa-contra-gentiles-en.json`
+snapshot of `https://isidore.co/aquinas/english/ContraGentiles1.htm`, response
+SHA256`c46d9f71e075b6cd4508e37331029b32aff5432f2aff502a3015fcd93e6dd45c`;
+selected chapter hash
+`1cb2108606aea6ceb0153fde3e9fb22b893974230aa07c4a9bb1503b19518a91`.
+This remains translation evidence, not an upgrade to a newly read Latin edition.
+No claim, source record or candidate was changed.
+
+**Positive argument.** I.16[3] distinguishes temporal potency-before-act in
+one changing thing from act's absolute priority: a potential condition does not
+actualize itself; its actualization requires something actual. The text then
+states its generic any-potency priority conclusion and excludes potency in God
+because God is already first being and first cause. [7] again argues from an
+observed emergence into act to a prior actualizer, then uses its no-infinite-
+regress premise. These are source-backed directed actualizer/prior roles,
+not merely an existential presupposition inferred from a necessary condition.
+The whole chapter supports keeping broad act-priority as an attributed
+commitment; the audit does not revise its type to actual motions only. The
+independent defense of applying its actualization reason to every unexercised
+potency remains the existing philosophical question.
+
+**What the chapter does not infer.** Neither [3] nor [7] identifies every
+priority relatum with a cause of the patient's bare existence. The actualizer
+explains the transition to act in the relevant respect. Replacing that
+transition by the bearer's being would require a justified existential
+application, not the word “prior”. [2] addresses potency to be, but reasons from
+divine eternity to exclusion of that potency; it does not establish a universal
+ontic-priority-to-esse-cause law. [4] argues within per-se-necessity and causal-
+possibility commitments, not the bare de re `NecessaryAt` semantics. [5] uses
+the already designated first agent to exclude partial/participated action;
+[6] addresses passive potency, receptivity and the designated divine agent's
+immutability. None converts every ontic prerequisite into efficient causation
+of its bearer. The God-as-first-being-and-first-cause assertion in [3] is the
+existing back-reference to preceding arguments, correctly recorded by
+**AQUINAS-SCG-I-16-GOD-FIRST-BEING**; its two roles cannot be converted into a
+universal implication between priority and causation simply because one
+candidate is asserted to possess both.
+
+Thus **STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING** remains without a source argument
+for its unrestricted formula. The direct actual-ground variant additionally
+requires current presence, concreteness and membership in the selected grounds
+relation. An actualizer of a currently occurring change motivates actual
+agency in that respect; this chapter supplies neither its current efficient
+causation of the patient's bare esse nor its concreteness under an arbitrary
+Profile. The existing current-constitutive-prerequisite interpretation remains
+a positive restricted application, not a coverage proof for every priority
+used by the pure-act continuation. No efficient cause is inferred solely from
+logical presupposition, and no change of causal respect is made.
+
+The optional *In Metaphysicam* V lect.13 lead was not read or cited in this
+bounded item. Its existing full-book source snapshot does not mean that lecture
+has already been materialized as a passage. The candidate now advances to that precise lecture; this finding exhausts
+the SCG I.16 lead only. Exact premise change: none; no
+Lean theorem, new modal/source principle, model or root-frontier discharge.

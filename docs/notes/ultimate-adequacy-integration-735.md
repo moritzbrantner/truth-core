@@ -20,7 +20,17 @@ V.4/VI.9 candidate was removed. This supplies a positive constituent-need and
 self-sufficiency argument, but no independent exclusion of two individually
 intrinsic simple whole natures; no source claim, Lean theorem or root edge was
 added. The next source for that numerical-common-source/individuation gap is
-not yet selected. Publication/review of this source-only batch remain pending.
+not yet selected. The source-only batch is [PR #818](https://github.com/moritzbrantner/truth-core/pull/818),
+head `b79aa001000e06974f93578e6fb6f0826fff4bd0`, reviewed without findings. CI
+run `41224475431` has passed corpus/explorer checks; its library check is pending.
+
+Successor queue audit `ac1f6de4` removes two exhausted reading tasks, preserves
+their open obligations in existing attempts, and distinguishes two witness-seeking
+applicability tasks from completed source ingestion. The remaining priority task
+now names the unread *In Metaphysicam* V lect.13. The completed SCG I.16 context
+supports directed actualization, not unrestricted priority-to-esse causation;
+its exact findings are in the existing power/existence scope note and first-being
+attempt. No Lean input or root-premise closure changes.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.
