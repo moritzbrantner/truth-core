@@ -3,6 +3,7 @@ import TruthCore.Results.Explanation.ActualWorldGap.Solution
 import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
 import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+import TruthCore.Results.Explanation.ExplanatoryClosure.Solution
 import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
 import TruthCore.Results.Explanation.JointCooperation.Solution

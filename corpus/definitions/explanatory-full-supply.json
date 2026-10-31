@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-FULL-SUPPLY",
+  "term": "inductive closure (full supply)",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.FullSupply",
+  "definition": "The #734 Supply of the groups in which enablers are counted as contributors, so every member of a used record is derived from stops by a well-founded derivation, which may branch infinitely. It is not the contributor-only Supply.",
+  "note": "Stipulative analyst notion for #745, reusing the #733 records. No source is claimed for it. See docs/notes/explanatory-closure-745.md."
+}
