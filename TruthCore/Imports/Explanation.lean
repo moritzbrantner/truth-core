@@ -2,6 +2,7 @@
 import TruthCore.Explanation.ActualWorldGap
 import TruthCore.Explanation.CondensationSufficiency
 import TruthCore.Explanation.ConservativeReasonExpansion
+import TruthCore.Explanation.ExistenceIngredient
 import TruthCore.Explanation.ExistencePSR
 import TruthCore.Explanation.ExplanatoryAdequacy
 import TruthCore.Explanation.ExplanatoryClosure

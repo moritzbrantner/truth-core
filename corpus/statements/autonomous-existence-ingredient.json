@@ -1,0 +1,18 @@
+{
+  "id": "STMT-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousExistenceIngredient",
+  "paraphrase": "There exist an admitted g targeting positive b and a member f such that all full-record members are autonomous and f is existence-related and autonomous. The same g and all its members are retained; no member-alone sufficiency, essential-rather-than-positive tag, truth, modal necessity or bearer is concluded.",
+  "definition_ids": [
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-AT",
+    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTENCE-INGREDIENT-AT",
+  "term": "at least one existential member of a selected full ground",
+  "definition": "For every admitted g whose effect is positive b, some member f of the full record satisfies ExistenceRelated. Nonexistential members may remain. The chosen member alone need not ground the target, be indispensable, be true or be autonomous.",
+  "basis": "stipulative",
+  "note": "Typed analyst application of the independently read Dasgupta §9 premise. Not an attributed complete formalization, proof of PSR or actual grounding. Full semantics, source distinction, examples, excluded interpretations and OPEN realization/adequacy burdens: docs/notes/underived-essence-identity.md, direct autonomous-ground extraction section.",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.IngredientAt"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "term": "autonomous existential ingredient in the same full record",
+  "definition": "There exist an admitted g targeting positive b and a member f such that all full-record members are autonomous and f is existence-related and autonomous. The same g and all its members are retained; no member-alone sufficiency, essential-rather-than-positive tag, truth, modal necessity or bearer is concluded.",
+  "basis": "stipulative",
+  "note": "Typed analyst application of the independently read Dasgupta §9 premise. Not an attributed complete formalization, proof of PSR or actual grounding. Full semantics, source distinction, examples, excluded interpretations and OPEN realization/adequacy burdens: docs/notes/underived-essence-identity.md, direct autonomous-ground extraction section.",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousExistenceIngredient"
+}

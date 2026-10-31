@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+  "term": "mixed positive/essential/other fact labels",
+  "definition": "Sum (ExistenceFact B) (Sum B O) separates existing positive ExistenceFact.fact labels, a B-indexed essential-existence label and other O labels. Labels alone confer no truth, bearer actuality, modal necessity or real essence. ExistenceRelated selects the first two tags.",
+  "basis": "stipulative",
+  "note": "Typed analyst application of the independently read Dasgupta §9 premise. Not an attributed complete formalization, proof of PSR or actual grounding. Full semantics, source distinction, examples, excluded interpretations and OPEN realization/adequacy burdens: docs/notes/underived-essence-identity.md, direct autonomous-ground extraction section.",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.Fact"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "STMT-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.MixedCertificate",
+  "paraphrase": "The fixed Unit-beings/Unit-other-facts/Unit-record model has essential () as contributor and other () as enabler, positive () as effect and admission True. mixedAutonomous holds exactly of the essential or other label. Both premises and the extracted conclusion hold while the same full record contains a nonexistential member. This is a syntactic scope interpretation, not metaphysical possibility or an actual explanation.",
+  "definition_ids": [
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-AT",
+    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+  ]
+}

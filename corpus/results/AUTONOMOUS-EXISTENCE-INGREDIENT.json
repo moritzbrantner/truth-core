@@ -1,0 +1,10 @@
+{
+  "id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "argument_id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "challenge_module": "TruthCore.Results.Explanation.ExistenceIngredient.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ExistenceIngredient.Solution",
+  "theorem": "TruthCore.Results.Explanation.ExistenceIngredient.extract",
+  "comparator_config": "results/AUTONOMOUS-EXISTENCE-INGREDIENT/comparator.json",
+  "status": "solution-present",
+  "description": "Direct typed joint-record extraction: an ultimate ground with all autonomous members plus at least one existence-related member per target record yields an autonomous existence-related member in that same full ground, retaining every antecedent. No descent/WF assumption, truth, sufficient individual ingredient, actual bearer or necessary being is inferred. The strong full-ground input supplies autonomous members directly; no termination or absence-of-incoming-ground theorem is claimed."
+}

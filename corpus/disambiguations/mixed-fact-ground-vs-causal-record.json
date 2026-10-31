@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+  "term": "shared group record for fact grounds versus causal exercise",
+  "sense_definition_ids": [
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-JOINT-CAUSAL-GROUPS"
+  ],
+  "resolution": "The existing polymorphic record structure is reused for joint fact-ground antecedent lists; this does not identify facts with physical events or ground with efficient causation. Both contributor and enabler fields are included in members, avoiding a hidden condition omission. No Exercise, occurs, allowed-scenario sufficiency or graph source predicate is used. The autonomy predicate is a source-motivated open classification, not self-causation, intrinsic productive power or a necessary-bearer definition. Positive and essential labels remain distinct and uninterpreted beyond their tags."
+}

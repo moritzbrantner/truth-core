@@ -1,0 +1,18 @@
+{
+  "id": "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+  "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousFullGround",
+  "paraphrase": "Reuse Groups as a token record, with h.members g = contributors g ∪ enablers g as the COMPLETE antecedent list. AutonomousFullGround h autonomous b requires some admitted g targeting positive b and autonomy of every member. Here autonomous is an independently supplied predicate on labels, meant for the not-apt-for-grounding status rather than literal self-grounding. Admission is an explicitly supplied ground-record interpretation, not proof of truth or sufficiency. Exercise and physical causal semantics are not used.",
+  "definition_ids": [
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-AT",
+    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-PSR-EXISTENCE-FACT",
+    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+  ]
+}

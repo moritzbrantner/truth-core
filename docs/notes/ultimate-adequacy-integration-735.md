@@ -331,16 +331,20 @@ The next source step is now more precise. The freshly pinned/read Dasgupta
 *Metaphysical Rationalism* §9,397 requires **at least one** positive- or
 essential-existence fact among grounds of an existence fact; it does not require
 all contributors to be existence facts. The open reading is
-`STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT`. A selected existential spine
-through mixed grounds is therefore the weaker application to investigate.
+`STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT`. The direct `AUTONOMOUS-EXISTENCE-INGREDIENT` connection now applies that premise
+to a full ground whose members are already autonomous, retaining its mixed
+antecedents. No additional descent assumption is required for this strong PSR
+formulation; a selected spine remains a possible weaker-local-coverage task.
 An ingredient alone need not be a sufficient explanation. His note44's positive
 qualitative-ground proposal challenges this extra premise, rather than merely
 accepting brute existence. It targets own-nature essential existence; it does
 not by itself refute bare modal necessity under his additional necessitarian
 assumptions. Exact source locators, rejected stronger readings, the independent
 modal assumptions, and the symmetric burden argument are preserved in
-`docs/notes/underived-essence-identity.md`. Two source readings are registered;
-no new Lean result or root-premise discharge is claimed by that source audit.
+`docs/notes/underived-essence-identity.md`. Two source readings are registered; the subsequent typed extraction and mixed
+record certificate remain separate from source fidelity. No root-premise
+discharge is claimed. Actual truth, essential status and bearer realization are
+still needed before the extracted label can support a necessary-being claim.
 
 ## Earlier integration and controls
 
