@@ -38,7 +38,6 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
       data-conditional={Boolean(statement?.closureReason && !statement.established)}
       data-refuted={statement?.refuted}
       data-emphasis={data.emphasis}
-      title={`${node.id}: ${title}. ${data.degree} incident inference connections`}
       style={{ "--community": colors[data.community % colors.length], "--marker-size": `${Math.min(20, 9 + Math.sqrt(data.degree) * 1.8)}px` } as React.CSSProperties}
     >
       <Handle position={Position.Bottom} type="target" />
