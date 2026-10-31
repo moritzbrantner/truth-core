@@ -1,0 +1,14 @@
+{
+  "id": "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+  "paraphrase": "OPEN fixed-esse interface: if some pair compares in the supplied esse respect, some in-act individual has no greater individual in that respect. No requirement is imposed at other respects.",
+  "lean_declaration": "TruthCore.Causality.DirectEsseRootUniquenessAtBeing.GradesToMaximumAtBeing",
+  "definition_ids": [
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-IN-ACT"
+  ]
+}
