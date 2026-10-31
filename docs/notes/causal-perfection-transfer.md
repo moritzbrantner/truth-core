@@ -298,3 +298,162 @@ Type-valued parameters. EQUIVALENCE universally quantifies those parameters.
 The three model facts have no open proposition assumptions: their background
 is proved of the concrete table in the theorem, rather than being a hidden
 satisfiability premise. This is not a claim that the background holds of reality.
+
+
+## Source defense audit: why would an esse maximum cause other beings? (2026-10-31)
+
+This bounded source lane targets **STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS**,
+not the distinct transfer from an already given esse cause to particular
+perfections. Its dossier and existing attributed/supporting claims were
+inspected. The existing primary witnesses **AQUINAS-ST-I-Q4-A2**,
+**AQUINAS-ST-I-Q44-A1**, **AQUINAS-ST-I-Q3-A4** and **AQUINAS-ST-I-Q13-A5**
+were materialized and read in full, including objections/replies. These are the
+pinned SCTA/Leonine Latin, revision
+`f9065dc8ce7bc790b8c972e49ee19d661f028be6`; exact witness paths/blob hashes remain
+in their unchanged passage manifests. **AQUINAS-SCG-I-13-EN** was materialized;
+its relevant final argument context is I.13[28]–[35], especially[33]–[34], in the
+existing Pegis1955 translation snapshot `aquinas-summa-contra-gentiles-en.json`.
+No translation bytes or source claims were added or changed, and no unread SCG
+chapter is cited as evidence.
+
+**The strongest positive argument is participation in received esse, not bare
+comparative maximality.** Q.3 a.4 co., first proof, states a local conditional:
+if a subject's esse differs from its essence, that esse must come either from
+its essential principles or from another; its essential principles alone cannot
+sufficiently efficiently originate its own caused being; hence an external cause
+is required. This is real causal reasoning whose general conditional does not
+need an already unique God or a common cause. Its causal-exhaustiveness and
+no-efficient-self-origination premises remain substantive, explicitly recorded
+commitments. It excludes neither every intrinsic noncausal reason nor the
+brute/noncausal rival merely by being formalized. The existing
+`EssenceEsseExternalCause.distinctEsseExternalFromExhaustion` proves the
+conditional as a declared transcription; it does not defend its two premises.
+The local conclusion supplies *some external cause*, not the particular
+maximum as that cause, and not yet an essentially-esse source.
+
+Q.44 a.1 co. supplies the next stronger rationale: a perfection possessed by
+participation is caused in its possessor by that to which it belongs essentially.
+The heated-iron/fire illustration explains received possession versus essential
+possession, rather than measuring the hottest object on a neutral scale. The
+paragraph then explicitly appeals to previously established subsistent esse and
+its numerical uniqueness, infers that all others participate in esse, and
+concludes one first source of their diverse received being. Ad1 distinguishes
+being itself from participated being: causal dependence need not enter the
+abstract definition of being, while still following from received being.
+Ad2 explicitly permits caused necessary effects; modality alone is not the
+source's criterion of causal dependence. None of these steps says merely that
+the largest item on a degree ordering creates every lower item.
+
+A faithful schematic decomposition of that paragraph therefore has four
+separate burdens: a designated n is subsistent/unreceived esse; every relevant
+other recipient has esse by participation; received esse depends causally on
+what has it essentially; and the relevant essentially-esse source is n rather
+than a different whole necessary source. Q.44 uses prior subsistence and unity
+to supply the recipient classification and numerical source selection. These
+may be investigated independently, but cannot be silently imported when the
+current task is precisely to justify universal causality or unity of an unnamed
+maximum. The existing claim **AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE** is
+correctly weaker: participated esse requires an external cause. It should not
+be rewritten as a newly established universal common-source theorem.
+
+**Why q.4 a.2 does not discharge this interface.** In its first proof, effect
+perfections preexist in the agent formally or eminently; applying that principle
+to all effects explicitly presupposes God as first effective cause. Reversing
+it would turn an agent's possession into causal responsibility for every other
+possessor. In its second proof, subsistent esse has unrestricted fullness of
+being and therefore lacks no perfection. That is a claim from subsistence to
+fullness, not a derivation from the weak encoded maximum to subsistence or
+universal causation. Ad1–2 allows opposed finite perfections to coexist
+eminently in the one cause; a formal-character distinction cannot automatically
+be treated as absence of the relevant eminent perfection. Ad3 distinguishes
+having being from possessing every mode of being. Thus neither proof supplies
+maximal-possession-to-production merely by removing the word God.
+
+**Analogy preserves a causal reading but does not manufacture its coverage.**
+Q.13 a.5 co. rejects univocity and pure equivocity, using a causal proportion
+between medicine and animal health as its relevant analogy. The text's
+creature-to-primary ordering is explicitly causal, with eminent preexistence;
+it is not simple membership in a homogeneous genus. Ad1 distinguishes a
+particular univocal generator from a universal nonunivocal cause; ad3 rejects
+God and creatures forming one proportionate genus. The cited historical solar
+illustration is not taken here as independently verified modern physics.
+The already certified
+`QuartaViaAttributionGenusAtBeing.attributionOrderGenusPrincipleAtBeing` exposes
+its exact reconstruction: approach to a primary, strict primacy, creatures'
+causal ordering to that primary, all others being creatures, and EM. It first
+identifies a maximum with the supplied primary and then applies the supplied
+causal ordering. It does not derive causal ordering or all-other-creature
+coverage from the order alone. **STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES** is
+already recorded as an open unattributed coverage premise. The present reading
+supplies no new evidence discharging it before the participation/uniqueness
+burdens above have been met.
+
+SCG I.13[33] separately argues for a first efficient cause through an ordered
+causal series. [34] separately reaches a maximally true/being item through
+comparisons approaching the true; it does not furnish a missing proof that any
+weak maximum is the cause of every being, or identify these independently
+introduced roles without further argument. Merely joining the two paragraphs'
+God labels is not a proof that their witnesses coincide. This is a source-scope
+finding, not a new criticism of the Aristotelian reference being audited in
+another lane.
+
+**Actionable positive next connection.** The local q.3 a.4 conditional can be
+used for the SAME actual concrete root without assuming universal max causality:
+existing-world esse actuality makes essence/esse nonidentity eligible for the
+external-cause theorem; the explicit direct esse-cause-to-actual-concrete-ground
+interface turns that cause into an incoming ground, contradicting rootness;
+EM yields equality of the represented esse/essence. Its q.3 Profile must use
+the same InAct, CausesIn and esse fields definitionally. This does not need
+all-world underivedness, modal lifting, grades or genus causality. It would
+supply a substantive conditional attribute of the supplied individual while
+leaving the local causal-exhaustiveness/no-self-origination and correspondence
+premises open. Equality alone is still not universal common causality or an
+adequate intrinsic explanation. No new theorem is implemented by this audit.
+
+Actual premise change: zero. No claim, definition or source attribution changed.
+Ledger I remains independently open; the positive source route identifies its
+received-being and numerical coverage prerequisites instead of hiding them in
+an enriched meaning of maximum.
+
+
+### Cited Aristotle direction and the weak-maximum reading
+
+The independent adversarial source lane materialized and read full
+AQUINAS-ST-I-Q2-A3, ARIST-MET-II-1, AQUINAS-IN-METAPH-II-L2 and
+AQUINAS-ST-I-Q44-A1. Its bounded interpretation agrees that Aquinas explicitly
+asserts the genus-causality principle in q.2 a.3. That attribution is faithful;
+absence of an independent demonstration is not itself a fidelity defect.
+
+The cited Aristotle passage, Metaphysics II/alpha.1, 993b24–26, moves from being
+the cause of a synonymous quality in others to being most such; 993b26–31
+applies causal priority to truth/being. The supplied passage does not derive
+the converse from every maximum to universal causation. Aquinas's commentary
+II lect.2 n.4 [81858] makes the cause-to-most-such direction and univocal
+condition explicit. N.5 [81859] distinguishes solar heat-causing from being
+hottest in that same species. Nn.6–7 [81860–81861] discuss causal principles of
+truth/being. N.8 [81862] offers a different positive participation route:
+composites/participants reduce as causes to what is such essentially; that
+reduction still needs warrant, not mere comparative terminology.
+
+Q.44 a.1 co. explicitly imports previously established uniqueness of subsistent
+esse before concluding one first cause of other participated being. Feeding
+that conclusion back into the proof of that same uniqueness would not provide
+an independent justification. Ad1 targets participated being rather than bare
+being. Ad2 distinguishes necessity from being uncaused; this does not identify
+every historical necessity sense with absolute cross-world NecessaryAt.
+
+There is a formal applicability sensitivity even when q.2's assertion is read
+faithfully: IsMaximumIn means possession with no strictly greater bearer, not
+a greatest element or total comparability. Weakening an existential conclusion
+to weak maximality makes that conclusion weaker; weakening the antecedent of
+`maximum → causes all` makes the universal premise stronger. Tied/incomparable
+maxima are now included. A source-backed participation/cause argument or a
+different stronger maximum notion would need its own explicit semantics; no
+source claim, old definition or frozen Challenge is changed here.
+
+ROOT-ESSENCE-IDENTITY implements the constructive local connection described
+above. It does not need this genus principle or maximum existence. It adds no
+independent defense of q.3's causal exhaustion, efficient no-self-origination,
+or the actual-world cause/ground interface; its same-witness result is a
+conditional source composition, not universal common causality or numerical
+uniqueness.
