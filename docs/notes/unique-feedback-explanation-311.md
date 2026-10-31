@@ -587,3 +587,115 @@ permitted axioms. Named-interface Challenge SHA256: `da713a6343a7cfdf02ac4b81556
 Root route costs and open-premise membership remain unchanged: 11 routes,
 62 open premises. Full-library integration and reverse-dependency checks remain
 delivered-head CI obligations.
+
+
+### First-principle entitlement audit: existential availability (2026-10-31)
+
+This bounded follow-up retains the owner's actual population and working PSR.
+It asks what independently licenses existential production, rather than reopening
+bare coherent regress tables as adequate rivals. Reuse inspection covered the
+actual borrowing-cut, contingent-dependence and borrowed-exercise dossiers and
+the existing cumulative supply and #780 attempts. No new model is needed.
+
+**Narrow positive argument.** An actual exercise cannot be the whole productive
+source of the very existential availability required for that same exercise.
+Here “required” concerns the actuality of this exercise in this respect, not a
+temporally earlier instant or a merely possible power. In a bearer-based account,
+there must be an actual bearer to exercise a power. If producing that bearer's
+existence is what allegedly supplies this requisite actuality, production must
+already be exercisable to supply what makes it exercisable. The proposed act
+therefore cannot fill that role by itself. This is a constitutive-priority
+argument, for which demanding a temporally earlier production would be a mistake.
+The existing mixed-priority theorem captures its conditional structure; no new
+formal proof or self-evident corpus marking is supplied by this appraisal.
+
+This gives a substantive reason for the bearer-presupposition interface, once
+“an exercise of this bearer” has been established. Its limit matters: an
+unowned episode has not thereby acquired a substantial bearer, and a causal
+process that maintains a living system presupposes current constituents rather
+than producing their bare existence. A source's existence need not be caused by
+its activity; intrinsic explanation is not efficient self-production. Transitivity
+across bearer-to-act and act-to-product priority still requires one coherent
+sense of existential productive priority. Treating any counterfactual necessary
+condition as that priority would illegitimately include reciprocal conditions.
+
+**Materialized sources and context.** Re-materialized and read the complete
+existing passages `ARIST-MET-IV-4`, `ARIST-MET-II-2`, and
+`AQUINAS-ST-I-Q104-A1-EN` using `scripts/source_evidence.py materialize`.
+The first two are the pinned Greek witnesses; the third is the recorded
+Dominican translation. These are source readings and analyst appraisal,
+not newly attributed claims.
+
+Aristotle, *Metaphysics* IV.4, 1006a11–28, supplies a positive model of elenctic
+entitlement: the disputant's determinate signification supplies the concession,
+rather than a demonstration from a supposedly prior demonstration of everything.
+This supports rejecting the demand that every first principle have a prior
+proof. It does not turn the existence of a meaningful denial into a concession
+of all-subsets existential foundation. A denial of its own meaningfulness, as
+meaningful communication, undermines that performance; denying the borrowing
+cut does not deny determinate signification. The extra claim that every meaningful
+performance has source-complete existential Supply would already carry the
+foundation application under investigation. A new performance-to-Supply alias
+would relocate this claim, not vindicate it.
+
+Aristotle, *Metaphysics* II.2, 994a1–19, argues from the causal role of the first
+in a first/middle/last ordering to the insufficiency of endlessly intermediate
+causes. The parenthetical extension from one middle to many, finite or infinite,
+is precisely the consequential move. Its strongest productive reading is that
+an intermediary's causal contribution is wholly derivative in the relevant
+respect: multiplying intermediaries never supplies the primary contribution.
+It is not merely the claim that an infinite chain is psychologically impossible
+to inspect. But the source's three-position illustration does not independently
+prove that every member of a beginningless existential structure has that
+wholly derivative role. Calling all of them “middle” in the source's strong
+sense already commits to what their actuality fails to supply. The later
+knowledge/infinite-traversal discussion is not substituted for ontic production.
+
+Aquinas, *ST* I q.104 a.1, corpus and ad 4, gives a useful positive discriminator:
+a cause of becoming may cease while the product remains, whereas dependence
+on a cause of being lasts with the relevant action. The house/building and
+heated-water examples prevent equating every historical producer with a present
+existential supplier. Direct conservation is distinguished from removing a
+corrupting factor. Reply 4 explicitly describes continued giving of esse without
+motion or time, so a temporal initial event is not the intended necessity.
+However, the universal application compares creatures with illuminated air only
+after invoking God as essence-identical existence and creatures as participated
+being. Those are substantive prior metaphysical commitments, not consequences
+of the lamp/air analogy. This source cannot independently supply the borrowing
+cut here by presupposing its intended divine terminus. The existing claims
+`AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE` and
+`AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE` preserve the relevant readings.
+
+**Exact remaining proposition.** For every nonempty collection S of actual
+concreta under this selected existential-production relation, if S contains no
+underived contribution, some actual member must receive a sufficient productive
+contribution whose whole contributing basis is outside S. This is the existing
+`STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE`, with the recorded graph's sourcehood
+reading, not a newly weaker principle. The all-immediate-ground recording also
+means that applying it requires identifying complete productive contributors,
+not merely identifying one helpful cause or an enabling condition.
+
+The strongest collective argument is that a collection whose members contribute
+only existential actuality borrowed within that collection cannot supply the
+actuality those borrowings all require. Its independent burden is collective
+non-generation: why no arrangement of exclusively derivative contributions can
+possess existential productive actuality that none supplies independently. The
+single-act argument establishes no such extension merely by plurality or
+transitivity. Nor does working PSR alone select the externality and strict
+priority of the proposed adequate reason. This identifies what must be defended;
+it does not concede that a bare infinite diagram answers the demand.
+
+**Generation audit and next discriminator.** Defining actual production to be
+inductively generated Supply would secure the conclusion by the chosen standard.
+That is not independent entitlement. The existing borrowing-cut/WF equivalence
+shows the cut has full well-foundedness strength on the selected actual graph;
+it is not a weak local no-self-production axiom. Conversely the present narrow
+availability argument assumes neither a finite population nor finite branching,
+and says nothing by itself about an infinite strictly prior order. The decisive
+source/semantic task is to defend collective non-generation for bare existential
+actuality, allowing joint contributors and distinguishing intrinsic sufficient
+reason from efficient self-production. A source that merely repeats “no first,
+no middle” or labels every relation derivative is insufficient without that
+interpretation defended. No new theorem, source claim or root premise is
+introduced, removed or discharged. Intended and actual root-premise delta: zero.
+Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
