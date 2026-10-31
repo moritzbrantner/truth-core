@@ -12,10 +12,10 @@ Each row states what the cited text says. "Member" is my mapping to `CollapseCor
 
 | Reading | Witness | Member affected |
 | --- | --- | --- |
-| Pruss formulates the argument with premises (11)-(15), credits it to van Inwagen (1983, pp.202-204), calls it plainly valid (`PRUSS-LCA-VAN-INWAGEN-FORM`) | `PRUSS-LCA-2-3-2` | The form the members model. His (11) is not a member: `Necessitating` is the stronger premise (27) that he says motivates it |
+| Pruss formulates the argument with premises (11)-(15), credits it to van Inwagen (1983, pp.202-204), calls it plainly valid (read; no claim yet, because of the PR file limit) | `PRUSS-LCA-2-3-2` | The form the members model. His (11) is not a member: `Necessitating` is the stronger premise (27) that he says motivates it |
 | Pruss says we should not accept (11), attacks (24), and says its contraposition (27), that what explains entails, is falsified by just about every modern scientific non-conceptual explanation he knows (`PRUSS-LCA-EXPLANATION-NEED-NOT-ENTAIL`) | `PRUSS-LCA-2-3-2` | `Necessitating` denied |
-| Della Rocca tends to think the PSR entails necessitarianism, and expects a clear-headed proponent to embrace it (`DELLA-ROCCA-PSR-ENTAILS-NECESSITARIANISM`) | `DELLA-ROCCA-PSR-PP9-10` | `Contingent` is the member a proponent gives up; this does not state that he asserts necessitarianism |
-| Dasgupta says that for ground the inference to each conjunct is invalid (`DASGUPTA-MR-GROUND-CONJUNCTS`) | `DASGUPTA-MR-6` | `Distribution` denied, for ground only. The same section argues by another route to necessitarianism |
+| Della Rocca tends to think the PSR entails necessitarianism, and expects a clear-headed proponent to embrace it (`DELLA-ROCCA-PSR-ENTAILS-NECESSITARIANISM`) | `DELLA-ROCCA-PSR-PP1-10` | `Contingent` is the member a proponent gives up; this does not state that he asserts necessitarianism |
+| Dasgupta says that for ground the inference to each conjunct is invalid (`DASGUPTA-MR-GROUND-CONJUNCTS`) | `DASGUPTA-MR-1-6` | `Distribution` denied, for ground only. The same section argues by another route to necessitarianism |
 
 Further text read and not made a claim: Pruss §2.3.2.2-3 gives conditions on a
 libertarian's position, namely denying (27) or holding a free choice nearly
@@ -27,6 +27,12 @@ objection fails. Koons (2001) and Oppy (1999) are in a separate intake change.
 Not read, so not attributed: van Inwagen (1983, 2002), Bennett (1984), Pruss (2006),
 Gale and Pruss. A candidate waiting for those witnesses is in the companion intake
 change. Dasgupta's footnote 29 says his presentation is based on Della Rocca's.
+
+Senses: `DEF-PRUSS-EXPLANATION-ENTAILMENT`, `DEF-DELLA-ROCCA-PSR`, `DEF-DASGUPTA-GROUND`.
+`DISAMB-BCCF-DERIVATIVE-REPLY` says where each mapping crosses from an author's sense to
+an analyst's. Dasgupta (§3, p.385) calls a fact derivative when it is apt for a ground
+and has one, beside brute and autonomous facts. That is his taxonomy, not `D`, and he
+does not state the owner's reply.
 
 ## The relation
 
@@ -100,5 +106,5 @@ there. The signature cannot separate a necessary personal ground from an imperso
 - Weaker contrast, and `D` in the sense of #348's strict ground, are not tested.
 - Premise (11) has no separate Lean form: `Necessitating` gives it through #755's
   lemma that a true necessitating reason for a contingent fact is contingent.
-- No text states the owner's reply, so its fit with what the owner means is a question
+- No text read states the owner's reply, so its fit with what the owner means is a question
   for the owner, not settled by these records.

@@ -13,17 +13,17 @@
   },
   "passages": [
     {
-      "id": "DELLA-ROCCA-PSR-PP9-10",
-      "locator": "PSR, pp.9-10 with footnote 13",
+      "id": "DELLA-ROCCA-PSR-PP1-10",
+      "locator": "PSR, pp.1-10 with footnotes 2 and 13",
       "claim_locator_prefixes": [
-        "pp.9-10"
+        "pp.1-10"
       ],
       "pdf_pages": {
-        "first": 9,
+        "first": 1,
         "last": 10
       },
-      "text_sha256": "sha256:fe761dc3e56ded8eed1674835223c39a7d3bf1002f062aba989f237bbde73bf7",
-      "incipit": "michael della rocca PSR explicability arguments."
+      "text_sha256": "sha256:ae27292da1e74b5784bda6a5719c8ed329ac1f66157cdd2f2bb591775f0b8602",
+      "incipit": "Imprint Philosophers’ \b \b volume 10, no. 7 july 2010 PSR Michael Della Rocca"
     }
   ]
 }

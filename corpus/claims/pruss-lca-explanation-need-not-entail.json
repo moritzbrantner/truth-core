@@ -4,5 +4,8 @@
   "source_id": "PRUSS-LCA-2009",
   "locator": "§2.3.2.2, on (24) and (27)",
   "interpretation": "Pruss says we should not accept (11), attacks (24), that q does not explain p if q can be true with p false, and says (27), its contraposition that explanation entails, is falsified by just about every modern scientific non-conceptual explanation he knows. He grants that (27) seems to hold in many conceptual explanations, so the statement is the negated universal and not that explanations generally fail to entail. In §2.3.2.3 he defends explaining a choice by a state compatible with another choice, as a hypothesis. No theistic conclusion is included here.",
-  "status": "formalized"
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-PRUSS-EXPLANATION-ENTAILMENT"
+  ]
 }

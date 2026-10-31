@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PRUSS-EXPLANATION-ENTAILMENT",
+  "term": "explanation and entailment (Pruss)",
+  "definition": "In §2.3.2, entailment: (24) says that if q can be true with p false then q does not explain p, and Pruss gives (27), if q explains p then q entails p, as its contraposition, so entailment here is the impossibility of q true with p false. Sufficient reason: he says he means reasons sufficient to explain the explanandum, not entailing reasons, and offers to rename the principle the Principle of Good-Enough Explanation. The PSR he defends says that every contingent proposition has an explanation, not always the best kind. An explanation must be true (premise (14)). The section illustrates explanation by scientific, statistical, conceptual and free-choice cases and gives no general definition of it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "PRUSS-LCA-EXPLANATION-NEED-NOT-ENTAIL"
+  ]
+}

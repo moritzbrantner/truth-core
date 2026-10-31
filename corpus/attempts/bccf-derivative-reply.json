@@ -3,17 +3,15 @@
   "date": "2026-10-31",
   "statement_ids": [
     "STMT-BCCF-DERIVATIVE-REPLY",
-    "STMT-VAN-INWAGEN-ARGUMENT-PRUSS-FORM",
     "STMT-EXPLANATION-NEED-NOT-ENTAIL",
     "STMT-PSR-ENTAILS-NECESSITARIANISM",
     "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS"
   ],
   "kind": "reading",
   "outcome": "succeeded",
-  "summary": "Read and pinned Pruss §§2.3.2 and 4.1.1.3, Della Rocca pp.9-10 and Dasgupta §6. Rejected a single-reason formalization of the reply: no one conjunct necessitates its aggregate, so plural reasons were added and shown by the embedding to extend single ones. Rejected the hypothesis that classifying the aggregate as derivative is the escape: conjunct 2 is valid without assuming the aggregate direct. Denying distribution blocks the aggregate argument, as Dasgupta says for ground, but conjunct 3 needs no aggregate or distribution, so that reply still needs a brute direct fact, ill-founded reasons, nonnecessitating reasons or no closure, each with a model. Not read: van Inwagen 1983, Pruss 2006 and Gale-Pruss, and the owner's reply has no source. A candidate waiting for those witnesses and the intake of Koons 2001 and Oppy 1999, which were read, are a separate change because of the PR file limit. The #364 Cantorian obstacle and weaker contrast readings were not tested. Root-premise delta: none.",
+  "summary": "Read and pinned Pruss §§2.3.2 and 4.1.1.3, Della Rocca pp.1 and 9-10 and Dasgupta §§1-3 and 6. Pruss's numbered formulation (11)-(23) of the van Inwagen argument at §2.3.2.1 was read and is not yet a claim, because of the PR file limit. Dasgupta §3 uses 'derivative' for facts apt for a ground that have one; he states no direct-versus-derivative reply. Rejected a single-reason formalization of the reply: no one conjunct necessitates its aggregate, so plural reasons were added and shown by the embedding to extend single ones. Rejected the hypothesis that classifying the aggregate as derivative is the escape: conjunct 2 is valid without assuming the aggregate direct. Denying distribution blocks the aggregate argument, as Dasgupta says for ground, but conjunct 3 needs no aggregate or distribution, so that reply still needs a brute direct fact, ill-founded reasons, nonnecessitating reasons or no closure, each with a model. Not read: van Inwagen 1983, Pruss 2006 and Gale-Pruss, and the owner's reply has no source. A candidate waiting for those witnesses and the intake of Koons 2001 and Oppy 1999, which were read, are a separate change because of the PR file limit. The #364 Cantorian obstacle and weaker contrast readings were not tested. Root-premise delta: none.",
   "evidence": [
     "BCCF-DERIVATIVE-REPLY",
-    "PRUSS-LCA-VAN-INWAGEN-FORM",
     "PRUSS-LCA-EXPLANATION-NEED-NOT-ENTAIL",
     "DELLA-ROCCA-PSR-ENTAILS-NECESSITARIANISM",
     "DASGUPTA-MR-GROUND-CONJUNCTS"

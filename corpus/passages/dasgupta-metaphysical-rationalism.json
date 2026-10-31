@@ -13,17 +13,17 @@
   },
   "passages": [
     {
-      "id": "DASGUPTA-MR-6",
-      "locator": "Metaphysical Rationalism, §6, pp.392-393 with footnotes 29-34",
+      "id": "DASGUPTA-MR-1-6",
+      "locator": "Metaphysical Rationalism, §§1-6, pp.381-393 with footnotes",
       "claim_locator_prefixes": [
-        "§6"
+        "§§1-6"
       ],
       "pdf_pages": {
-        "first": 14,
+        "first": 3,
         "last": 15
       },
-      "text_sha256": "sha256:d26ba460c0057b5cd26708e10b74efb45efa739aa4ad30f5f66124bac708e119",
-      "incipit": "392 NOÛS talk of ground as a relation between facts. It follows that my laptop"
+      "text_sha256": "sha256:ed023e36f28b0ca883f3689f9ec4db4173fe983280b79a061cf9ef6e9d5f501d",
+      "incipit": "Metaphysical Rationalism 381 to create the world exactly as she did (this"
     }
   ]
 }
