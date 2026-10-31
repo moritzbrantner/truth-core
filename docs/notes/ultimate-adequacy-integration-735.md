@@ -2,31 +2,34 @@
 
 ## Current delivery and parallel work
 
-PRs #810–[#813](https://github.com/moritzbrantner/truth-core/pull/813) are
-merged. The latest merge is `cd302bf9`; #813 passed repository CI and completed
-review with no findings. The successor's verified implementation is `067fe19e`
-on `research/lean-existential-self-actualization-20261031`. Its one result is
-explicitly **structural assembly/transcription**, not a new philosophical
-argument: it connects existing GodExists, GodIsOne and GodHasClassicalAttributes
-to the existing one-witness stage-one/two endpoint. Delivery/review is pending.
-No philosophical premise truth is discharged.
+PRs #810–[#814](https://github.com/moritzbrantner/truth-core/pull/814) are
+merged. The latest merge is `91539ee7`; #814 passed repository CI and completed
+review with no findings. The successor's verified implementation is `8f41fd23`
+on `research/lean-existential-self-actualization-20261031`. It proves a new
+nonvacuity obstruction for the 1970 actualist ontological argument, described
+below. Delivery/review is pending. No owner ledger choices have been inferred
+from continuation messages; A is still the only newly explicit accepted row.
 
-Three bounded audits accompany that wiring. An existing lifting theorem already
-preserves the very same necessary root into named all-world underivedness, but
-retains two explicit strong transport/concreteness interfaces. Joint Supply is
-constructively available only after a complete group's contributors are supplied;
-partial common-ground coverage alone supplies no such certificate. Finally,
-frontier inspection found that GodIsOne had no argument-level consumer, while
-older attribute/witness proofs called an older uniqueness proof internally.
-The new assembly makes independent uniqueness proofs consumable without changing
-the designated Catholic root route merely to improve a score.
+The owner-requested adversarial agent accepted the checked uniqueness
+consequences and identified independent warrant for ledger I's universal causal
+reach as its strongest objection. Its plural-necessary-source proposal is not
+itself a metaphysical possibility proof. The independent diagnostic, exact
+concessions and needed answers are in the existing plurality note and attempt.
+No proof authority, new axiom or philosophical closure is assigned to agent
+agreement. The A–N table below preserves the exact IDs presented to the owner.
 
-Next work should defend or instantiate the retained philosophical interfaces and
-identify an independently adequate complete contributor group, rather than add
-another modal countermodel or duplicate the already-proved lifting. Existing
-source/type, common-source-family and actual-world/esse distinctions remain in
-the linked notes and attempts. The owner-correction ledger below remains working
-context, not a new axiom or closure flag.
+A bounded coverage audit then checked 2,465 statements, 764 arguments and 762 results,
+selecting 37 typed declarations containing NecessaryAt, NecessaryConcreteAt,
+NecessarilyUnderived, PSR, BCCF, GodLike or NecessaryBeing. This is a targeted
+inventory, not complete semantic coverage. It confirmed existing concrete-to-
+necessary-bearer and underived common-source reuse; PSR/BCCF controls do not
+supply concrete ontology merely by having reasons. The proposed actualist
+adapter was rejected after a new proof showed its antecedent unrealizable
+under already retained premises. Do not repeat that adapter as positive progress.
+
+Next work should address the retained semantic/causal or property-admissibility
+premises rather than duplicate existing lifting or treat a satisfiable axiom
+bundle as a certificate that its conditional antecedent is realizable.
 
 ## Accepted starting point
 
@@ -42,31 +45,45 @@ sometimes a specified target. Those stronger conditions remain explicit:
 existential population alone neither supplies a concrete criterion nor names
 the selected witness. No necessary being is assumed at the starting point.
 
-### Working-premise ledger for owner correction
+### Owner truth ledger A–N: selection pending
 
-This compact ledger records the owner's existing commitments, rather than asking
-for the same arguments again. It adds no Lean axiom, self-evident marking, or
-frontier closure. Corrections should change this ledger once and propagate to
-consumers; an old omitted-premise construction alone is not a reason to reopen
-an unchanged explanatory demand.
+The owner requested a selectable ledger and an adversarial agent. The A–N IDs
+below are the exact labels presented in chat. No selection has yet been received.
+A remains explicitly accepted; earlier explanatory demands remain working
+context, not automatic endorsement of every stronger formal instance. Accepting
+a row authorizes its use in the intended interpretation as a working truth; it
+is not a new Lean axiom, self-evident flag, or independent proof of the row.
+Classical logic remains the current framework.
 
-| Item | Current working status | Exact limit |
+| ID | Statement shown to owner | Formal reuse / scope |
 | --- | --- | --- |
-| At least one being actually exists | Explicitly accepted as true for this investigation. | Reuse STMT-PSR-POPULATED-AT. Actual **concrete** population and a specified witness remain stronger formal conditions. |
-| Contingent existence requires an adequate explanation | Retained working explanatory demand; mere presence in one world and absence in another does not explain why. | The particular relation, concrete-domain restriction and modal frame of STMT-EVERY-CONTINGENT-GROUNDED-AT still need faithful application; this is not a license to equate every causal relation. |
-| A wholly derivative infinite structure does not justify itself globally | Retained working adequacy demand. | It does not imply all chains are finite, all subsets are well-founded, or every disconnected component has already been explained. The whole-roster restriction has selected-source-existence strength. |
-| Fixed joint conditions can be considered together | Retain the fixed-set joint modal result and the distinction between a contributor group and a new being. | A necessary member plus an actually contingent member makes that joint condition contingent under the stated shared accessible-world reading; no rigid compound substance is created. |
-| Meaningful argument presupposes determinate signification | Retain as methodological direction for first-principle/retorsion research. | It does not by itself establish universal PSR, a transcendent mind or numerical uniqueness; those bridges remain explicit. |
-| There is one unique necessary being / God | Research target, not an admitted starting premise. | Distinguish a unique selected ultimate root, at most one God, existence of God, and exclusion of every dependent necessary individual. |
-| Direct esse-causation maps into actual concrete grounding | Open semantic/application interface, not silently accepted by the word cause. | The existing typed interface includes source presence/concreteness in its conclusion and covers actual contingent targets; its truth is not established by recording or instantiating it. |
+| A | At least one being actually exists. Already accepted. | STMT-PSR-POPULATED-AT; not automatically concrete population. |
+| B | At least one actual concrete being exists; concrete need not mean material. | STMT-COGITO-INHABITED-CONCRETE-WORLD. Selection pending. |
+| C | Every actual contingent concrete being has an actual concrete ground of its existence. | STMT-EVERY-CONTINGENT-GROUNDED-AT; stronger than an unspecified explanation. |
+| D | A wholly derivative structure cannot completely explain its own existence merely by infinitely many dependent members. | Working adequacy demand; its application to STMT-WHOLE-ROSTER-NOT-TRAPPED must preserve the selected relation. No all-subsets WF is admitted by this wording. |
+| E | An actually existing being has esse, actuality of being. | STMT-EXISTING-IN-ACT-AT; one-way selected-world map. |
+| F | A genuine present cause of another concrete being's existence is itself an actual concrete ground of that being. Mere historical production is insufficient. | STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND; presence and concreteness of cause are conclusions, not established by the term cause alone. |
+| G | Whatever is ontologically prior to another being actually grounds its existence; priority is not temporal. | STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND; formal candidate/domain scope still must match the owner's intended priority. |
+| H | Whenever a represented perfection has genuine grades, some being possesses it maximally. | STMT-GRADES-HAVE-A-MAXIMUM. |
+| I | A maximum in a perfection causes that perfection in every other bearer of it. | STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS; includes tied/incomparable maxima under weak IsMaximumIn. |
+| J | Whatever actually possesses any perfection has actuality of being. | STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING; applies to arbitrary recipients, not only the root. |
+| K | A universal cause of being also causes the actual perfections of its effects. | STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS, with the stated universal scope and recipient conditions. |
+| L | Something that is a component of anything cannot be first in being. | STMT-NO-COMPONENT-IS-FIRST-BEING; component-of-others differs from being composite. |
+| M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
+| N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
 
-The owner need only correct a row that misstates a commitment. Synthesis, reuse,
-parallel task ownership, formal verification and delivery remain the agent's work.
-For outside criticism, the most discriminating request is an exact objection to
-numerical unity: which retained premise fails, or what coherent plural-ultimate
-account actually meets the same explanatory standard? General agreement with
-theism, or consistency after dropping the question being explained, does not
-settle that inference.
+The owner may mark True, Provisional, Open, or Reject by ID. No continuation
+message or elapsed wait counts as a selection. Do not broaden a selected
+plain-language principle into stronger quantifiers or a different relation.
+The fixed joint-condition theorem remains available independently of this
+choice: actual joint truth plus a contingent fixed member yields a contingent
+joint condition, without creating a compound being or removing the member's
+explanatory burden.
+
+The requested adversary accepted the formal consequences and isolated I's
+independent universal-causal-reach warrant as the strongest challenge. Its
+plural-necessary-source rival and concessions are preserved in the existing
+plurality note/attempt; agent agreement or criticism is not proof authority.
 
 ## Current integration: whole-roster scope and cumulative target (2026-10-31)
 
@@ -247,6 +264,44 @@ NanoDa for all six results. Source manifests, existing bundle audits and
 imports/docs generation pass. Research source/type correction is preserved in
 `power-existence-scope-boundary.md` and its existing attempt; all retained
 philosophical applicability questions remain explicit.
+
+## Ontological nonvacuity correction: 1970 actualist possibility
+
+ACTUALIST-POSSIBILITY-BOUNDARY proves, from only
+STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE and
+STMT-ACCESSIBILITY-SYMMETRIC, that the 1970 actualist Th3 possibility antecedent
+is false at every world in that encoded theory. It uses the already verified
+empty-property essence theorem:
+
+1. A God-like individual has the positive property of 1970 necessary existence.
+2. That definition quantifies over every essence, including the empty property.
+3. Any outgoing accessibility edge would therefore require an existing bearer
+   of False at its endpoint.
+4. A possible God-like witness gives an incoming edge; symmetry reverses it,
+   contradicting step3.
+
+Ax2a, A4, Ax4, reflexivity and excluded middle are not used. This does not say the
+partial axioms have no worlds: their existing satisfiability witness has a world
+and no accessibility edges, so no possibility antecedent. It does not exclude
+God-likeness at a world with no accessibility edges, refute ordinary theism, or
+refute Scott's different essence/quantifier theory. The larger 1970
+Ax2a/Ax3/Ax4 no-world theorem remains distinct and unchanged.
+
+The old Th3 conditional is still valid, but adding its possibility antecedent
+would conflict with two premises already retained in its proof. A proposed
+same-witness adapter into Kant NecessaryBeing could not be a nonvacuous positive
+route on that basis. Original definitions, frozen Challenges and theorem types
+are preserved; old argument/result/module and Scott audit/candidate notes now
+record this qualification. The new observation is a source-free formal
+consequence, not a new attribution to the AFP authors or Gödel's manuscript.
+
+Full Lean build, binding 779 bound/two existing pins/zero mismatches, zero-axiom
+Comparator and independent NanoDa pass for the new result and the existing
+conditional-existence and full-inconsistency results. Source manifests, bundle
+audits and generated imports/docs pass. Against main@91539ee7, God/Catholic
+unions 66/73 and all routes are unchanged; the old Gödel conditional's union/cost4
+also stays unchanged. The progress is exclusion of a previously untested
+antecedent, not a claim of lower root cost or a new proof of necessary existence.
 
 ## Modular assembly and the remaining scope boundaries
 

@@ -17,6 +17,7 @@ Working comparison for [existence phase B, #274](https://github.com/moritzbrantn
 | [`SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL`](../corpus/results/SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL.json) | Countermodel | A two-world, two-individual universal frame has an admitted world-varying property but excludes its selected-world and selected-individual naming properties; filtered NE holds for one bearer and fails for another, while unrestricted Scott NE fails for the first. |
 | [`SCOTT-MODAL-COLLAPSE`](../corpus/results/SCOTT-MODAL-COLLAPSE.json) | Derived conditionally | From the same Scott axiom set used for T3, every proposition implies its necessity in the embedding. This is not a theory-free property of God. |
 | [`GOEDEL-1970-INCONSISTENT`](../corpus/results/GOEDEL-1970-INCONSISTENT.json) | Inconsistent conditional axiom bundle | The specified 1970 Ax2a, Ax3 and Ax4 cannot hold at any world in that **different** embedding. Scott's essence and NE are not the 1970 definitions. |
+| [`ACTUALIST-POSSIBILITY-BOUNDARY`](../corpus/results/actualist-possibility-boundary.json) | Antecedent excluded conditionally | In the different 1970 actualist embedding, Ax3 plus symmetry already imply that no accessible world contains an existing God-like witness. The empty property is an essence, so NE would require an existing bearer of False along the reverse edge. The old conditional existence theorem is valid but vacuous under its own retained premises; partial-bundle satisfiability does not establish possible God-likeness. No conclusion about ordinary theism or Scott follows. |
 | Positivity of Scott's NE, `P(NE)` | Open substantive commitment | A5 is independent of the preceding axioms. Neither the independence model nor a world-isolation characterization proves that the axiom is false or rationally unjustifiable. |
 | Metaphysical admissibility of properties | Open | Neither unrestricted HOL comprehension nor world-invariance has been justified as the correct domain of genuine essences. Other defensible restrictions and actualist existence predicates remain to be tested. |
 
@@ -48,3 +49,21 @@ This makes the filter **nontrivial**, but exposes two unfinished commitments. Th
 1. Investigate which primitive properties, identity/haecceity operations, and modal or quantifier constructors a *defensible* property language must contain. The Boolean-generated control tests exclusion of two named properties and a finite essence failure; it does not yet justify its primitive, treat arbitrarily complex properties, or model actualist existence. Test language enlargement without choosing syntax because it produces a preferred theorem.
 2. Compare source-grounded Anderson and Fitting alternatives under their *own* quantifier and positivity semantics, keeping Scott and Gödel 1970 separate.
 3. Independently defend or challenge `P(NE)` and clarify how formal `NE` could connect to metaphysical necessity, actuality and grounding. These are still epistemic-frontier questions, not completed Lean theorems.
+
+
+## Actualist antecedent audit (2026-10-31)
+
+A proposed typed adapter from the existing 1970 actualist conditional to the
+shared Kant necessary-being predicate was rejected on nonvacuity grounds. With
+`ex x v := m.ExistsAt v x` and the same frame, identity-property reasoning could
+preserve a hypothetical God-like witness; it cannot supply the antecedent.
+The new boundary needs only Ax3 (1970 necessary existence is positive) and
+symmetry, not Ax2a, A4, Ax4, reflexivity or excluded middle. Its import of the
+existing empty-essence proof and complete argument are in the linked result.
+
+The earlier satisfiability witness has a world but no accessibility edges. That
+makes its possibility antecedent false; it never supplied the needed possible
+God-like individual. The larger Ax2a/Ax3/Ax4 inconsistency result remains a
+separate stronger-bundle result. Neither this correction nor Scott's distinct
+consistency control establishes real-world truth of positivity axioms or a
+metaphysically warranted admissible-property domain.

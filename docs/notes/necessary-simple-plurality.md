@@ -1286,3 +1286,43 @@ retains its explicit source actuality/concreteness/coverage and shared-power
 interfaces. Neither route establishes arbitrary actual-contingent ground
 coverage under the other route's relations. Root-frontier premise change from
 this audit: zero. No theorem or proof file was changed.
+
+
+## Owner-requested adversarial review: universal causal reach (2026-10-31)
+
+The adversarial agent accepted the kernel-checked uniqueness consequences and
+identified their independent-warrant burden rather than a Lean error.
+STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS (owner ledger I) asserts that **each**
+maximum causes the relevant perfection in **every other** bearer. IsMaximumIn
+is weak maximality: possession with no strictly greater bearer. It imposes no
+comparability, total order or unique maximum. Thus tied/incomparable maxima
+are included in the causal principle, which is more than maximum existence
+(ledger H). Actuality and direct esse-to-ground correspondence then validly
+turn the resulting cause into a forbidden incoming ground of an ultimate root.
+This is a sufficient mechanism, not formal circularity, but decomposition does
+not independently warrant its universal causal reach.
+
+The strongest rival offered was two independently necessary ultimate natures,
+neither receiving being from the other, with nonnecessitating productive
+explanations of contingent recipients. It does not invoke an unexplained
+contingent terminus or an all-derivative infinite chain. Their fixed necessary
+joint condition does not become a third being. The rival still owes independent
+warrant for both alleged necessary natures and for explanatory adequacy; its
+proposal is not a metaphysical possibility proof. Existing
+PART-FREE-PLURALITY-JOINT-CONTROL is related formal evidence that encoded
+simplicity/pure-act/shared-effect structure alone need not exclude plurality,
+not a certificate of this rival's entire philosophical package.
+
+A substantive response must independently defend either universal esse-causal
+reach of an esse-maximum, or a source-backed reason why distinct ultimate
+necessary natures require received actuality/dependence/limitation. Merely
+calling every difference a limitation or assuming a numerical common source
+would not supply that warrant. Conversely, if the owner accepts the genus,
+actuality and direct-ground interfaces in the intended same senses, the existing
+checked proof defeats plural **actual selected roots**. The adversary concedes
+that conditional, while retaining the distinction from all necessary individuals.
+At-most-one IsGod alone does not exclude plural sources outside that predicate.
+
+This is adversarial diagnosis requested by the owner, not source testimony or
+independent proof authority. No premise truth, axiom, model or closure flag was
+changed; the owner has not yet selected ledger truths beyond the existing A.
