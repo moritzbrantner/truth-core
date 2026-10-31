@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-CAUSED-FACT",
+  "term": "same-world fact occurrence with an actual concrete individual cause",
+  "definition": "The SAME supplied fact f holds at v, and some c satisfies Concrete c, A.ontic.ExistsAt v c and the separate CauseFact v c f relation. CauseFact has type World\u2192Being\u2192Fact\u2192Prop; it is not Arena.explains (fact\u2192fact) or Ontic.Causes (individual\u2192individual). The guard does not create a causal bearer or a fact.",
+  "basis": "stipulative",
+  "note": "Source-free typed profile over the unchanged PSRStrength.Arena and its Ontic. No source attribution or applicability is established. Existing fact/individual/world domains remain distinct; no fact is reified as a being. Intended reading: c partly or fully causally produces f\u2019s obtaining, with both actually present in the represented complete history. A person closing a valve and the resulting no-flow condition illustrates individual-to-negative-fact orientation only; it does not establish a cause of an entire no-contingent-history situation. Mere co-occurrence, logical implication and an abstract fact-reason are excluded substitutes. No transitivity, asymmetry, priority, well-foundedness or necessitating sufficiency is assumed. Generalizing ordinary examples to the selected negative whole-history fact is OPEN. Rivals may reject causal relata of this kind, the concrete-bearer guard, or negative-fact causation; this theorem does not refute those interpretations.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.ActualCausedFact"
+}

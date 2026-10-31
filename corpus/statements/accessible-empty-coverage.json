@@ -1,0 +1,26 @@
+{
+  "id": "STMT-ACCESSIBLE-EMPTY-CAUSAL-COVERAGE",
+  "paraphrase": "OPEN, unattributed application premise: Three commitments: some v accessible from w has NoContingentConcreteAt A Concrete v and WeakActualConcreteCausalAvailabilityAt A Concrete CauseFact v. Empty refers only to contingent concrete bearers; existing necessary concreta and obtaining contingent situations are not excluded. Combining these in one statement is not a three-to-one philosophical premise discharge.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.AccessibleEmptyCoverage",
+  "definition_ids": [
+    "DEF-NO-CONTINGENT-CONCRETE-AT",
+    "DEF-ACTUAL-CAUSED-FACT",
+    "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
+    "DEF-NEGATIVE-FACT-MEANING",
+    "DEF-ACCESSIBLE-EMPTY-COVERAGE",
+    "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

@@ -21,7 +21,17 @@ ignored directory, still rejects drift, and uploads attempt-specific diagnostic
 artifacts. Independent review accepted it after fixing logging-I/O masking and
 PDF-fixture contamination. Full isolated pinned Lean build and all372tests passed, with production
 diagnostics absent after fixture tests. Independent verification review has no
-unresolved findings. Current-head review and CI run `41231563508` are pending.
+unresolved findings. Current-head review completed without findings. CI run
+`41231563508` passed all four Comparator shards and other proof/browser checks,
+but its source job twice failed fetching the already-pinned Koons archive after
+live HTTP403. Hosted diagnostic `41235134658`, exact temporary commit
+`82a8a8c6115f590c1e2e594b2a3c0616d01f1ee1`, fetched that archive with the
+production urllib downloader both before and after the two eLife archives;
+all four matched existing pins without redirects. A subsequent TLS-verified
+curl connection timed out before HTTP. This supports transport unreliability,
+not a URL/pin repair or reproduction of the original urllib handshake failure.
+One evidence-backed failed-job rerun is now pending on the same exact PR head.
+Artifacts are retained for three days; precise diagnostic metadata was inspected.
 Pins, hash acceptance, fallback and trusted-cache logic are unchanged.
 Next concrete step: land #823 after its checks/review, merge main into the
 research branch, and rerun #822 source verification with actual failure capture.
@@ -31,13 +41,38 @@ verification. Its universal first-property transfer remains an independent
 admissibility/recombination premise. The rooted-causal-property scope test is
 conditional, not a certified metaphysical counterexample or refutation of theism.
 Source first/cause/property meanings and revised-necessity branches are preserved
-in the existing survey inventory/attempt. The source candidate now begins A5.
-No further ingestion is started while the verification diagnostic gap is repaired.
+in the existing survey inventory/attempt. Successor `8c52a74a` pins and reads all
+seven linked A5 pages; their live verification passed. Nonempty contingent
+situations do not entail nonempty contingent individuals, and individually
+possible causes do not entail joint causation. The source candidate begins A6,
+then retains the unfinished A7 question/alternate ranges before A8–A10.
+A source-only A6 worker is active; no pending owner selection is inferred.
 
 The existing formal baseline remains verified: local-frame possible external
 cause plus explicit shared-witness assembly, and earlier same-source/modal and
 full-ancestry results. No philosophical premise is discharged; God/Catholic/
 unique-root unions66/73/14 and route costs are unchanged.
+
+Private research result `EMPTY-HISTORY-CAUSAL-AVAILABILITY` now composes into
+existing `STMT-KANT-CONVERSION-NECESSARY-WITNESS`. Full build, corpus check,
+bind-check (786 bound / 2 legacy pinned / zero mismatch), Comparator and
+result-level NanoDa passed. Scoped library NanoDa remains pending. Challenge
+was frozen before Solution (SHA256
+`7235e33bcaec724fd1c2a6b9817840a205b6a462c4fe049c32b1095c3014565f`).
+Six explicit hypotheses include EM and five open inputs; the coverage bundle
+contains access, no contingent concrete individuals, and weak actual-concrete
+causal availability. A separate individual-to-fact relation preserves the
+existing Arena fact/explanation semantics. The same necessary concrete witness
+is preserved; a causal role is promised only in the caused-negative-fact branch.
+Negative-fact admission/preservation, world/EVER-history correspondence and
+real causal applicability remain open. The nonempty-history externality gap
+is not settled. Necessary-witness routes increase five to six and their
+reaching-root statement union 26 to29, with three new open inputs and no
+premise discharge. God-route costs remain7/11/12/13/13/14/15.
+These private A4/A5/new-proof changes must not be pushed into reviewed #822
+before its diagnostic refresh; the isolated public refresh worktree preserves
+that separation. Next: scoped verification, persist the proof commit, then
+land the source-diagnostic repair only after all required checks are green.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.

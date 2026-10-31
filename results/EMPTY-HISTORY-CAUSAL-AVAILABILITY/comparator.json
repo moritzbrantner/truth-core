@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.EmptyHistoryCausalAvailability.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyHistoryCausalAvailability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.EmptyHistoryCausalAvailability.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

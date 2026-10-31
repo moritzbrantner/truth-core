@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACCESSIBLE-EMPTY-COVERAGE",
+  "term": "accessible empty-contingent-bearer branch with individual causal availability",
+  "definition": "Three commitments: some v accessible from w has NoContingentConcreteAt A Concrete v and WeakActualConcreteCausalAvailabilityAt A Concrete CauseFact v. Empty refers only to contingent concrete bearers; existing necessary concreta and obtaining contingent situations are not excluded. Combining these in one statement is not a three-to-one philosophical premise discharge.",
+  "basis": "stipulative",
+  "note": "Source-free typed profile over the unchanged PSRStrength.Arena and its Ontic. No source attribution or applicability is established. Existing fact/individual/world domains remain distinct; no fact is reified as a being.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.AccessibleEmptyCoverage"
+}

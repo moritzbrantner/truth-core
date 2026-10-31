@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-CONTINGENT-CONCRETE-AT",
+  "term": "no actual contingent concrete individual at one world",
+  "definition": "For every candidate b satisfying the supplied world-independent Concrete predicate, not ContingentAt A.ontic v b. ContingentAt includes actual world existence plus accessible absence. This permits both an empty concrete extension and actual necessary concreta; it does not assert that no individuals or situations exist.",
+  "basis": "stipulative",
+  "note": "Source-free typed profile over the unchanged PSRStrength.Arena and its Ontic. No source attribution or applicability is established. Existing fact/individual/world domains remain distinct; no fact is reified as a being.",
+  "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.NoContingentConcreteAt"
+}
