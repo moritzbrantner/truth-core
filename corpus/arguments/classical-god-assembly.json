@@ -1,0 +1,30 @@
+{
+  "id": "CLASSICAL-GOD-ASSEMBLY",
+  "premise_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-GOD-IS-ONE",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+  "inference_ids": [
+    "INF-CLASSICAL-GOD-ASSEMBLY"
+  ],
+  "meaning": "Structural assembly/transcription only: take the existing GodExists witness g, apply the independent GodIsOne proposition to that SAME g, and apply GodHasClassicalAttributes to g. The result is the existing UniqueClassicalGodExists conjunction. This creates a modular argument-level consumer for existence and uniqueness proofs; it proves no attribute, nominal identification or philosophical premise and does not unpack the primitive HasClassicalAttributes field. No philosophical frontier closes merely from this assembly.",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ONE-GOD",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+    "DEF-UNIQUE-CLASSICAL-GOD-WITNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-IN-ACT",
+    "DISAMB-INFINITY",
+    "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+    "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+    "DISAMB-INTELLECT-AND-SENSE-COGNITION",
+    "DISAMB-CAUSE",
+    "DISAMB-PER-SE",
+    "DISAMB-ESSENCE"
+  ]
+}

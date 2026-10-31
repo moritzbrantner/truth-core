@@ -1,0 +1,11 @@
+{
+  "id": "CLASSICAL-GOD-ASSEMBLY",
+  "argument_id": "CLASSICAL-GOD-ASSEMBLY",
+  "challenge_module": "TruthCore.Results.Causality.ClassicalGodAssembly.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClassicalGodAssembly.Solution",
+  "theorem": "TruthCore.Results.Causality.ClassicalGodAssembly.assemble",
+  "comparator_config": "results/CLASSICAL-GOD-ASSEMBLY/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Structural assembly/transcription only: take the existing GodExists witness g, apply the independent GodIsOne proposition to that SAME g, and apply GodHasClassicalAttributes to g. The result is the existing UniqueClassicalGodExists conjunction. This creates a modular argument-level consumer for existence and uniqueness proofs; it proves no attribute, nominal identification or philosophical premise and does not unpack the primitive HasClassicalAttributes field. No philosophical frontier closes merely from this assembly."
+}
