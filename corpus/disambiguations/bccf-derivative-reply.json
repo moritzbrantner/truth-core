@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-BCCF-DERIVATIVE-REPLY",
+  "term": "derivative facts are different from direct facts",
+  "sense_definition_ids": [
+    "DEF-BCCF-PLURAL-REASON",
+    "DEF-BCCF-DIRECT-CLASS",
+    "DEF-DASGUPTA-GROUND",
+    "DEF-DELLA-ROCCA-PSR",
+    "DEF-PRUSS-EXPLANATION-ENTAILMENT"
+  ],
+  "resolution": "The reply has two readings, tested separately. The class reading (DEF-BCCF-DIRECT-CLASS) restricts coverage to D and leaves the aggregate outside it; the aggregate may then have no reason. The plural reading (DEF-BCCF-PLURAL-REASON) keeps a reason for the aggregate, namely its conjuncts together, which requires denying distribution over it. The results never pass from one to the other: conjunct 2 shows that being outside D does not itself block the argument, and separate models witness each reading. Which reading the owner intends is not decided here. The authors' senses are separate from these analyst senses, and each mapping to a formal condition is an analyst judgment that crosses senses. DEF-DASGUPTA-GROUND concerns ground only: his denial of distribution bears on PDistribution only if G is read as ground, and G is not assumed to be. His derivative fact is apt for a ground and has one, which is not membership outside D: nothing here makes his brute, derivative or autonomous classes equal D or its complement. DEF-PRUSS-EXPLANATION-ENTAILMENT uses possibility without an arena, and Necessitating and PNecessitating quantify over accessible worlds of an arena, so they match it only where accessibility is his possibility. DEF-DELLA-ROCCA-PSR is unrestricted, while NoBrute and CoveredOn cover contingent truths, so his PSR gives coverage of them only as an instance; his necessitarianism is about all truths, while Contingent is local to a world of an arena."
+}

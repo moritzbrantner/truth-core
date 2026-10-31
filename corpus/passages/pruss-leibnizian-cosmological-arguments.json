@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "PRUSS-LCA-2009",
+    "source_url": "https://bearspace.baylor.edu/Alexander_Pruss/www/papers/LCA.html",
+    "retrieved_at": "2026-10-30T23:56:28Z",
+    "sha256": "sha256:39b925091ada11257ced21a7feee22d831a068e736a48ff8376e09949c033e91",
+    "encoding": "windows-1252",
+    "language": "eng",
+    "wayback_url": "https://web.archive.org/web/20140709095623id_/https://bearspace.baylor.edu/Alexander_Pruss/www/papers/LCA.html",
+    "wayback_sha256": "sha256:baf56bdc7308b182a124ff03b93ee339d7a4d4ac2fcb883a052a84216d15467e",
+    "license": "Copyright 2009 Blackwell Publishing Ltd, per the notice on the author-hosted page. Only hashes, locators, short incipits and paraphrases are committed. A 2014 capture of the same URL was pinned as the fallback; its bytes differ and its extracted text matches."
+  },
+  "passages": [
+    {
+      "id": "PRUSS-LCA-2-3-2",
+      "locator": "Leibnizian Cosmological Arguments, §2.3.2 (van Inwagen's modal fatalism argument)",
+      "claim_locator_prefixes": [
+        "§2.3.2"
+      ],
+      "html_selector": {
+        "heading": "2.3.2. Van Inwagen’s modal fatalism argument"
+      },
+      "text_sha256": "sha256:193d80017d06bde5958131c4c5954a1c9928ea58c7ad376abc06dfbef9852a07",
+      "incipit": "2.3.2. Van Inwagen’s modal fatalism argument"
+    },
+    {
+      "id": "PRUSS-LCA-4-1-1-3",
+      "locator": "Leibnizian Cosmological Arguments, §4.1.1.3 (Can we form the BCCF?)",
+      "claim_locator_prefixes": [
+        "§4.1.1.3"
+      ],
+      "html_selector": {
+        "heading": "4.1.1.3. Objection 2: Can we form the BCCF?"
+      },
+      "text_sha256": "sha256:cfd8c70979c80c127f9593188e23304e7dea8b06d775b85078a4b49024401ccd",
+      "incipit": "4.1.1.3. Objection 2: Can we form the BCCF?"
+    }
+  ]
+}

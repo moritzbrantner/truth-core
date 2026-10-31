@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "DASGUPTA-METAPHYSICAL-RATIONALISM-2016",
+    "source_url": "https://shamik.net/papers/dasgupta%20metaphysical%20rationalism.pdf",
+    "retrieved_at": "2026-10-30T23:56:34Z",
+    "sha256": "sha256:9f20250621cca2ab202f5fe26a1edd08eed872c0db3761e90b34666f28b47472",
+    "encoding": "utf-8",
+    "language": "eng",
+    "wayback_url": "https://web.archive.org/web/20260317194046id_/https://shamik.net/papers/dasgupta%20metaphysical%20rationalism.pdf",
+    "wayback_sha256": "sha256:9f20250621cca2ab202f5fe26a1edd08eed872c0db3761e90b34666f28b47472",
+    "license": "Author-hosted copy of the journal article; no explicit reuse license observed. Copyright remains with the rights holder. Only hashes, locators, short incipits and paraphrases are committed."
+  },
+  "passages": [
+    {
+      "id": "DASGUPTA-MR-1-6",
+      "locator": "Metaphysical Rationalism, §§1-6, pp.381-393 with footnotes",
+      "claim_locator_prefixes": [
+        "§§1-6"
+      ],
+      "pdf_pages": {
+        "first": 3,
+        "last": 15
+      },
+      "text_sha256": "sha256:ed023e36f28b0ca883f3689f9ec4db4173fe983280b79a061cf9ef6e9d5f501d",
+      "incipit": "Metaphysical Rationalism 381 to create the world exactly as she did (this"
+    }
+  ]
+}

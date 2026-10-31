@@ -1,0 +1,10 @@
+{
+  "id": "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS",
+  "paraphrase": "For ground, the inference from some facts explaining a conjunction to those facts explaining each conjunct is not valid: facts can ground a conjunction without those facts or any subplurality of them grounding a given conjunct.",
+  "definition_ids": [
+    "DEF-DASGUPTA-GROUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BCCF-DERIVATIVE-REPLY"
+  ]
+}
