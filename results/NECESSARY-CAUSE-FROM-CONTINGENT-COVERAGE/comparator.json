@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ContingentTotalityCause.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentTotalityCause.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ContingentTotalityCause.necessaryCause"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

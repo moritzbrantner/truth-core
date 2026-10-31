@@ -1,0 +1,31 @@
+{
+  "id": "NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-A1-COVERED-CONTINGENTS",
+    "STMT-A1-EXTERNAL-WHOLE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-A1-NECESSARY-WHOLE-CAUSE",
+  "inference_ids": [
+    "INF-NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE"
+  ],
+  "meaning": "Typed analyst connection: coverage and an actual concrete cause outside the selected whole’s parts imply a necessary actual concrete cause of that same whole. Imports the independently certified external-candidate equivalence, restricting only its auxiliary concrete predicate to the chosen causal witness so an existential projection cannot substitute a different necessary individual. No whole contingency, fusion, temporal interpretation, member-to-whole causal law, unity or premise truth is established.",
+  "definition_ids": [
+    "DEF-A1-COVERED-CONTINGENTS",
+    "DEF-A1-ACTUAL-CONCRETE-CAUSE",
+    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+    "DEF-A1-NECESSARY-WHOLE-CAUSE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-FUSION-OUTSIDE-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-A1-TYPED-EXTERNALITY"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-A1-COVERED-CONTINGENTS",
+  "term": "selected whole covers actual contingent concreta",
+  "definition": "Covers (fun x => s.concrete x ∧ ContingentAt s.ontic w x) whole. Every actual contingent concretum is a part of this candidate whole in the supplied Mathlib partial order. Neither a fusion nor the whole’s contingency/existence is asserted.",
+  "basis": "stipulative",
+  "note": "Analyst typed application, not an attributed survey claim. Meaning, examples/exclusions, property and abstraction burdens and competing routes: docs/necessarybeing-survey-inventory.md, typed causal connection section. No actual metaphysical applicability is established.",
+  "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ContingentsCovered"
+}

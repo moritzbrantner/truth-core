@@ -12,6 +12,7 @@ import TruthCore.Causality.ConcreteExistentialSupply
 import TruthCore.Causality.ConstitutiveConfiguration
 import TruthCore.Causality.ConstitutiveNatureUniqueness
 import TruthCore.Causality.ContingentAncestry
+import TruthCore.Causality.ContingentTotalityCause
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.DerivativeJointPower
 import TruthCore.Causality.EssentialPower
