@@ -241,3 +241,46 @@ All four new results, the refactored old intellect/will result, and their releva
 ### Joint constraints are separate from isolated attributes
 
 The existing [rigid-act investigation](simplicity-collapse-555.md), results `SIMPLICITY-COLLAPSE-CORE`, `SIMPLICITY-ROOT-EXPOSURE` and `SIMPLICITY-BRANCH-COSTS`, already constrains combinations involving contingent creation. Necessity of the **same act token**, strict efficacy and a contingent effect are incompatible; bearer necessity alone is not act necessity. Connecting immutability to modal invariance additionally retains `ModalCapacity` and the decree-as-respect interpretation. Optional-act and extrinsic-condition branches relocate a nonnecessitating explanatory link rather than automatically removing it. Those are conditional constraints, not a blanket refutation of simplicity or an endorsement of a rival. None is silently assumed in the new root-attribute packages, which contain no creation/decree field. A nine-row inventory does not by itself certify a complete joint metaphysical worldview.
+
+### Same-root intellect, will and pure act
+
+The next registered target, `STMT-ROOT-INTELLECT-WILL-PURE-ACT`, retains every
+conjunct of the existing reduced intellect/will endpoint and adds `PureAct`
+**inside the same existential**. Both new routes first consume
+`ROOT-INTELLECT-WILL-REDUCED` once, obtaining its particular witness and
+firstness. They do not identify witnesses from separate existence theorems.
+
+- `ROOT-INTELLECT-WILL-PURE-ACT`: the existing eleven inputs plus
+  `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY` and
+  `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`. It applies the existing
+  pointwise first-being/no-potency theorem to that witness.
+- `ROOT-INTELLECT-WILL-STRICT-PURE-ACT`: the same eleven inputs plus
+  act-priority and `STMT-STRICT-SIMPLE-PRIORITY`. Any alleged potency supplies
+  a prior actualizer; firstness identifies it with the root, contrary to
+  irreflexivity of that very priority relation.
+
+Each route has thirteen explicit inputs including EM. The same q3 profile
+supplies the act dictionary, and potency uses its respect domain. No positive
+actuality, exhaustive respect domain, eternity, unique necessary individual,
+God identification or richer cognition/volition follows. The older separation
+controls use a smaller background and do not certify incomparability under
+these full thirteen-input packages. Full build4316 and binding798/two legacy pins/zero mismatch passed. Both
+routes and the plurality control passed Comparator and independent result
+NanoDa. Scoped library NanoDa checked474 declarations with zero typechecker
+errors and one known axiom pretty-printer warning; all three theorem axiom
+reports are empty. Independent claim/type review found no findings.
+Delivered-head CI/review remains pending.
+
+The proposed positive plurality control reuses the unchanged later five-being
+`PartFreePlurality` model. Both replacement conditions together give a
+fourteen-input union including supplied EM. Its previously unspecified
+intellect/will predicates are assigned to the existing root predicate. The
+verified test retains two distinct witnesses with the whole joint attribute
+tuple, and explicit nonroot potency, motion and composition. This is a formal
+compatibility/uniqueness-boundary test; causal and cognitive adequacy is not
+established, and contingent coverage remains vacuous in the old all-present
+ontology. The same three-result check set verifies the control. Root routes, root-reaching
+statement IDs, open-premise count and depth counts are unchanged. Each joint
+attribute route has twelve non-floor leaves; this is not a global minimum.
+The new established finite-control statement is not a truth certificate for
+its stipulated causal or cognitive interpretation.

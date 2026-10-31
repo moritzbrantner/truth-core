@@ -1,0 +1,10 @@
+{
+  "id": "ROOT-INTELLECT-WILL-STRICT-PURE-ACT",
+  "argument_id": "ROOT-INTELLECT-WILL-STRICT-PURE-ACT",
+  "challenge_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Solution",
+  "theorem": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.necessaryRootIntellectWillPureAct",
+  "comparator_config": "results/ROOT-INTELLECT-WILL-STRICT-PURE-ACT/comparator.json",
+  "status": "solution-present",
+  "description": "Thirteen-input same-witness structural composition: import RootIntellectWillReduced.necessaryRootIntellectWill ONCE and destruct its original full root/intellect/will tuple to obtain n and firstness. If THIS n has potency, act-priority supplies y simply prior to n. Its retained firstness forces y=n; selected-priority irreflexivity contradicts that self-priority. Use the same pointwise reasoning as StrictPriorityPureAct, not its separate existential witness. Retain EVERY original conjunct and append PureAct InPotency n inside the SAME existential. Exactly the existing reduced eleven inputs plus act-priority and StrictSimplePriority on the very same selected relation; no hidden additional premise or equality of independently chosen roots. The q3 profile supplies the act dictionary, and InPotency uses that same respect domain. No eternity, positive perfection, God naming, omniscience or free choice follows. All framework/source applicability remains open; this is configuration progress without philosophical closure or minimality. The two thirteen-input packages are alternatives, but the older six-background separation controls do NOT establish incomparability after adding the full intellect/will background; no such stronger claim is made."
+}

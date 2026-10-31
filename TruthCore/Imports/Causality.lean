@@ -53,6 +53,8 @@ import TruthCore.Causality.RegressReadings
 import TruthCore.Causality.RootEssenceIdentity
 import TruthCore.Causality.RootIntellectWill
 import TruthCore.Causality.RootIntellectWillOmission
+import TruthCore.Causality.RootIntellectWillPureAct
+import TruthCore.Causality.RootIntellectWillPureActPlurality
 import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.RootWithoutLimitingPrinciple
 import TruthCore.Causality.SelectedAncestry

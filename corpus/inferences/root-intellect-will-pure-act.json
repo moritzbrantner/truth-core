@@ -1,0 +1,13 @@
+{
+  "id": "INF-ROOT-INTELLECT-WILL-PURE-ACT",
+  "input_statement_ids": [
+    "STMT-ROOT-INTELLECT-WILL",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "output_statement_id": "STMT-ROOT-INTELLECT-WILL-PURE-ACT",
+  "rule": "constructive-proof",
+  "meaning": "Thirteen-input same-witness structural composition: import RootIntellectWillReduced.necessaryRootIntellectWill ONCE and destruct its original full root/intellect/will tuple to obtain n and firstness. Apply the existing FirstBeingNoPotency.firstBeingNoPotency pointwise to THIS n, using act-priority for p.InAct/InPotency and the retained global same-respect act/potency exclusion. Retain EVERY original conjunct and append PureAct InPotency n inside the SAME existential. Exactly the existing reduced eleven inputs plus act-priority and same-respect exclusivity; no hidden additional premise or equality of independently chosen roots. The q3 profile supplies the act dictionary, and InPotency uses that same respect domain. No eternity, positive perfection, God naming, omniscience or free choice follows. All framework/source applicability remains open; this is configuration progress without philosophical closure or minimality. The two thirteen-input packages are alternatives, but the older six-background separation controls do NOT establish incomparability after adding the full intellect/will background; no such stronger claim is made.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

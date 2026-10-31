@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.necessaryRootIntellectWillPureAct"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
