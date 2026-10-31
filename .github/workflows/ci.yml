@@ -82,6 +82,15 @@ jobs:
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q4-A2 --output /tmp/aquinas-st-i-q4-a2.txt
           python3 scripts/source_evidence.py materialize ARIST-MET-II-1 --output /tmp/aristotle-metaphysics-ii-1.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q13-A8 --output /tmp/aquinas-st-i-q13-a8.txt
+      - name: Upload rejected source bytes for diagnosis
+        if: always() && needs.comparator-plan.outputs.source == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: source-drift-diagnostics-${{ github.run_attempt }}
+          path: .cache/truth-core/source-diagnostics
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 3
 
   corpus-explorer:
     needs: comparator-plan

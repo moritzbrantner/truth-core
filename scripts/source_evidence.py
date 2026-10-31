@@ -27,6 +27,7 @@ PASSAGES = CORPUS / "passages"
 CACHE = ROOT / ".cache" / "truth-core" / "sources"
 MEDIA_CACHE = ROOT / ".cache" / "truth-core" / "media"
 WEB_CACHE = ROOT / ".cache" / "truth-core" / "web"
+SOURCE_DIAGNOSTICS = ROOT / ".cache" / "truth-core" / "source-diagnostics"
 SHA1_RE = re.compile(r"^[0-9a-f]{40}$")
 SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
 YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
@@ -1178,11 +1179,34 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
     raise SourceEvidenceError(f"{label}: cannot fetch {url}: {last_error}")
 
 
+def save_web_drift(url: str, expected: str, actual: str, label: str, data: bytes) -> None:
+    """Keep rejected bytes separate from trusted source caches; never refetch."""
+    metadata = {
+        "url": url, "label": label,
+        "expected_sha256": expected, "actual_sha256": actual,
+    }
+    encoded = json.dumps(metadata, sort_keys=True, ensure_ascii=False)
+    # No URL, label or caller-supplied hash becomes a filesystem path.
+    stem = hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+    SOURCE_DIAGNOSTICS.mkdir(parents=True, exist_ok=True)
+    (SOURCE_DIAGNOSTICS / f"{stem}.bin").write_bytes(data)
+    (SOURCE_DIAGNOSTICS / f"{stem}.json").write_text(encoded + "\n", encoding="utf-8")
+
+
 def fetch_web_bytes(url: str, expected: str, label: str) -> bytes:
     """Fetch a page body and reject byte drift."""
     data = download(url, label)
     actual = sha256_bytes(data)
     if actual != expected:
+        try:
+            save_web_drift(url, expected, actual, label, data)
+        except OSError as exc:
+            # Diagnostics must neither accept drift nor replace its original error.
+            try:
+                print(f"warning: could not save source drift diagnostics: {exc}", file=sys.stderr)
+            except (OSError, ValueError):
+                # A failed warning must not mask the byte-drift error either.
+                pass
         raise SourceEvidenceError(f"{label}: byte drift at {url}: expected {expected}, got {actual}")
     return data
 
