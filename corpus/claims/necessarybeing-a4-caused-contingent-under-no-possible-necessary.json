@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A4-CAUSED-CONTINGENT-UNDER-NO-POSSIBLE-NECESSARY",
+  "statement_id": "STMT-NB-A4-CAUSED-CONTINGENT-UNDER-NO-POSSIBLE-NECESSARY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C, causal steps 1–4 and note 1 after step 17",
+  "interpretation": "The author opens a reductio, then classifies the possible caused thing as contingent under that supposition. Record this asserted conditional step, not an established no-Necessary-Being premise. If the caused-thing domain includes non-cause-capable or otherwise unclassified bearers, the classification does not follow merely from impossibility of the source’s cause-capable Necessary Being. Do not fix that gap by silently strengthening P1 or assuming all caused things concrete. Note1 permits bearer talk without requiring abstract properties as causal objects.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

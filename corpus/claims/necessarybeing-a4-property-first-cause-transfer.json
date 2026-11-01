@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+  "statement_id": "STMT-NB-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4P2, complete property-transfer question, redness illustration and property/instance/first-exemplification/cause title attributes",
+  "interpretation": "Preserve the universal property report as conditional on an affirmative answer. First-exemplification possibility and caused-bearer possibility are separate; neither shared witnesses nor joint occurrence is asserted. The antecedent concerns a P-instance whose bearer has a cause, not specifically causing that bearer to acquire P. One first-exemplification tooltip explicitly says first time and another omits first; the question’s first-instance wording supplies the context. No hidden admissibility restriction, unrestricted formal property domain or metaphysical recombination theorem is invented from the redness illustration.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-A3-EVENT-AND-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+  "paraphrase": "Conditional on the affirmative A4P2 report: for any property P that can first be exemplified and can have a bearer with a cause, caused first exemplification of P is possible. The two antecedent possibilities can have different histories and witnesses. The antecedent does not require that the bearer be caused to acquire P; the redness example mentions caused existence of red bearers. The consequent concerns causation of first exemplification, not merely a caused P-bearer after earlier P-instances. This records the reported transfer, not a general theorem combining separate possibilities.",
+  "definition_ids": [
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-A3-EVENT-AND-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

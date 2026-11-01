@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A4-POSSIBLE-CAUSED-THING",
+  "statement_id": "STMT-NB-A4-POSSIBLE-CAUSED-THING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4P1, question, possible/cause title attributes and affirmative-answer continuation",
+  "interpretation": "The question records no actual answer. A4C step2 attributes the affirmative possibility report; preserve its anything/caused-thing domain without silently strengthening it to a concrete or cause-capable individual, prior temporal existence, PSR or actual causation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-A3-EVENT-AND-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
