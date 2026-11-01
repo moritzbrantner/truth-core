@@ -130,6 +130,37 @@ bounded read-only source/design audit. A fresh root-route report confirms cheape
 cost31 and the assembled necessary-classical-God consumer cost37 unchanged;
 this extraction improves attribution and reuse, not root-premise closure.
 
+## Latest proof and A7 source delta
+
+The new `WholeRosterRootEquivalence` core/Solution and all three declaration
+axiom probes pass: registered equivalence, root-to-nontrapping reverse and the
+existing-Supply equivalence helper use no axioms. New Challenge hash remains
+`20b397942b817d91b2378c9b1e93cd9074f6cf2b51f55147b839dde5a1786088`;
+old Challenges are unchanged. The lightweight focused job was deliberately
+removed from the waiting lock queue after confirming no compiler had started,
+then completed once against Root artifacts. Full build, binding, Comparator,
+result NanoDa and scoped-library NanoDa remain queued behind the live #823
+cold build. No completed independent gate or philosophical discharge is claimed.
+
+A7 main source batch is committed at `bb6011fc`: four new claims, three bare
+statements, one scoped gloss, a minimal existing disambiguation extension,
+three old count-claim context clarifications and three source-history files.
+Root independently read the five main witnesses, verified P1/P3/DESCENT raw
+titles and accepted source fidelity of the complete diff; acceptance is recorded
+in the existing attempt. Source468/1724 bindings, corpus2537/1724 and whitespace
+checks pass. The existing five-to-one transcription and six-input
+`CountTemporalNecessity.sameCause` are reused rather than duplicated.
+
+The substantive comparison is preserved: a contingent factory may be outside
+T=cubed-block, whereas any contingent supplier is already in T=all-contingents.
+Transferring guarded causal availability down to one is therefore not merely
+arithmetic weakening of a lower bound. Source cause-time threshold absence also
+does not automatically supply the existing theorem's all-earlier-time absence.
+A7 directly excludes a contingent prior cause at count one, unlike A5/A6's outer
+reductio; no unsupported identification merges those statements. No Lean, source
+pins, public witness coverage or premise truth changes. Candidate begins A7
+alternates, with the source campaign still incomplete.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
