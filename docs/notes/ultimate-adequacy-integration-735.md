@@ -9,7 +9,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
 Canonical proof batches7f9c35e4 and08522d6b separate actual-root uniqueness,
-necessity and common actual-ground coverage. Main through #900 is integrated ate79a6263;
+necessity and common actual-ground coverage. Main through #901 is integrated at1cf6ac79;
 #896 merged cdaf322b and #897 merged bfe12066 after required CI and completed
 clean review at their exact heads fcbfe4ee and3e2beae4 respectively. Run41308525530
 passed both browser base paths; run41311442494 passed the proof-batch gates.
@@ -133,17 +133,20 @@ than expanding permissions. Frozen Challenge/types are unchanged. Both zero-axio
 Canonical4a993fe2/e79a6263 plus evidence10b5b828 passes full4409-job build,
 binding850/2pins/0mismatch, both Comparator/result NanoDa gates and scoped-library
 NanoDa6exports/176checked/0typeerrors (one known axiom pretty-printer diagnostic).
-Heavy session85612 is terminal0. Publication worker copies the immutable10b5b828
-nineteen-file snapshot and regenerates public imports; later composition edits
-must not be swept into that slice. Source attribution stays separate: physical
+Heavy session85612 is terminal0. Provenance PR902 is published ata0f2605ba108e48f5be4e7c69624e2e54969588a,
+CI41315196096 confirmed live and exact-head review requested once. Exact21-file
+public diff is the immutable10b5b828 nineteen-file snapshot plus regenerated
+imports, with unchanged three-module Lean closure/toolchain/Challenge. Root owns
+watch42975, HOME artifact log pr902-watch.log; no restart on observation timeout.
+Later composition edits are excluded. Source attribution stays separate: physical
 PGR positions motivate the bounded interface, while the later signal revision
 does not explicitly supply every numeric validation/forwarding constraint.
 
 
 
 Q3a5 source follow-up is published as PR901 at
-eeb91e8e2c176dab0f4c9ce8268089bcd58d89a7, CI41314492037 confirmed live and
-review requested once. Three files preserve the full a5 witness, one claim
+eeb91e8e2c176dab0f4c9ce8268089bcd58d89a7, CI41314492037 passed and exact-head review completed clean. PR901 merged
+b2d375f2; watch48624 is terminal0. Three files preserve the full a5 witness, one claim
 reusing the existing SCGI42 common-source statement and the existing audit.
 Public source440/claims1877, no second/third forced identification or truth change.
 
@@ -166,6 +169,24 @@ head with a source-free statement rather than invent a parallel law definition.
 Source/detector/closed alphabet, countable assembly and bearer-to-event application
 remain separate OPEN burdens. New files and later attempt append are isolated
 from the immutable provenance-publication snapshot.
+
+
+Independent CPNPP quantifier audit (pinned pp14–17): edges are powers to
+influence, not explicitly a transitive reduction, but N represents SOME
+connections. Selecting sparse successive chain edges is therefore a faithful
+reply to a dense-graph objection. If dense N is selected, each local-world premise
+requires simultaneous duplicates of EVERY predecessor/successor; a trio alone
+cannot meet that infinite-neighborhood demand. Sparse selected edges do not
+exclude bypass inputs or establish closed one-input/exhaustive-code behavior.
+These source-positive and open-interface distinctions are being preserved in
+the existing pruss-koons attempt, not presented as a refutation of CPNPP.
+
+New composition Challenge initially had an ambiguous unqualified Controls name
+from two open namespaces and never elaborated. Root authorized only full
+qualification to the intended IndexedSignalReaper.Controls in Challenge/Solution,
+with original diagnostic/hash and corrected pre-solution freeze preserved. This
+is a name-resolution repair, not a changed proposition or weaker challenge.
+Solution arithmetic/case edits and final verification remain worker-owned/pending.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
