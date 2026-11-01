@@ -7,19 +7,17 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
-Branch: `research/lean-existential-self-actualization-20261031`; verified source
-correction `aa1f185a`. Main through PR908 is integrated (`8fee868b`, merge1a5af8ef).
+Branch: `research/lean-existential-self-actualization-20261031`; verified proof
+snapshot `a0652a82`. Main through PR909 is integrated (`9eda0cd9`, merge791829c5).
 Only ledger A is accepted; scoped PSR authorization persists. D3 remains the
 explicit foundation assumption, not a consequence of D1/D2 by terminology.
 
 PR908 merged after exact-head clean review and CI41331601271; watch23196 is
 terminal0. It adds the two necessary-being compositions (same source under local
 causality; necessary constituent under CF3/CF4/actual-parts policy). PR909 old
-head72277262 also passed CI41331708678/review, watch23562 terminal0, but merge
-is held for a substantive source-attribution correction. Its corrected36-file
-slice is now public at235e77f3cef537e4700a4948b8c039abb56cb2de on fresh
-main908, CI41332971360 live, exact-head review requested once (6561556840).
-Root owns watch21624 and merge; old green head is superseded, not failed.
+head72277262 passed CI41331708678/review, then was superseded by the corrected
+36-file235e77f3 head. The corrected head passed CI41332971360 and clean review
+and is now MERGED; watches23562/21624 are terminal0. No old head failed.
 
 The pinned/read ChapterVII154–158 directly addresses our objections: p155–156
 explicitly adjusts original atomism P2 to terminating proper-part descent;
@@ -42,6 +40,17 @@ canonical passages including CHVII; the public correction selects only CHVII
 and reuses the exact verified pin. Corpus/source check2788/1925claims/476passages
 and independent8-file review pass. The older combined modal/priority gates and
 exact65→69/17→19 route comparison remain below. No premise is discharged.
+
+The contributor-cover and scoped-causality batches are verified at a0652a82:
+4424 build,865 bindings/2legacy/0mismatch, all four result Comparators/result
+NanoDa, scoped4modules/15exports/568checked/0typeerrors (known printer diagnostic).
+Contributor14 files plus two source-status edits and imports are prepared as an
+18-file direct-main slice; scoped20 files plus imports as a22-file slice. Both
+hold for final evidence synchronization before publication. Exact old mixed
+ontology certifies strict world-scope weakening of the causal policy with all
+four nonlogical structural inputs and nonvacuous contingent coverage retained.
+BareNE19→20 routes/best2 unchanged; all-reaching69→70 adds only the selected
+coverage head. Catholic81/12/best31 unchanged. No accepted premise changes.
 
 ### How the new atomistic route composes
 
@@ -67,7 +76,12 @@ parts, conditional coverage of caused simples, and cause/effect nonoverlap.
 The causal principle and classical logic complete the six-head registered
 route. Its registered LocalCausalPrinciple retains ALL-world coverage and a
 distinct-cause clause, even though this proof uses only selected-world coverage
-and does not use that distinctness clause. Full proper-part termination, activity, P6, unique complete causes,
+and does not use that distinctness clause. The verified new
+ScopedActualCausality.necessaryBeing replaces it by selected-world coverage;
+the unchanged mixed model proves the scope reduction strict. The fixed-sum
+identity issue does not block either necessity composition: the cover is used
+only at the selected actual world, while the SAME selected source individual
+is carried by Ontic across accessible worlds. Full proper-part termination, activity, P6, unique complete causes,
 grounding identity, concreteness and special modal frame laws are not inputs.
 This is an alternative route with explicit burdens, not a defense that its
 structural/causal policies describe all actual beings or a proof of God.
@@ -1913,6 +1927,7 @@ Classical logic remains the current framework.
 | A | At least one being actually exists. Already accepted. | STMT-PSR-POPULATED-AT; not automatically concrete population. |
 | B | At least one actual concrete being exists; concrete need not mean material. | STMT-COGITO-INHABITED-CONCRETE-WORLD. Selection pending. |
 | C | Every actual contingent concrete being has an actual concrete ground of its existence. | STMT-EVERY-CONTINGENT-GROUNDED-AT; stronger than an unspecified explanation. |
+| C_P (new, open) | Every contingent individual actually existing at the selected world has an actually existing complete existence-producing cause there. | STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE. Applies only at that world; does not require concreteness or causal coverage at other worlds. Different relation/domain from C, not selected by C or by D1/D2; no grounding or explanatory dictionary is inferred. |
 | D | A wholly derivative structure cannot completely explain its own existence merely by infinitely many dependent members. | Working adequacy demand; its application to STMT-WHOLE-ROSTER-NOT-TRAPPED must preserve the selected relation. No all-subsets WF is admitted by this wording. |
 | E | An actually existing being has esse, actuality of being. | STMT-EXISTING-IN-ACT-AT; one-way selected-world map. |
 | F | For an actual concrete being x at the selected world, any numerically distinct cause c of its supplied esse is concrete, exists at that same world and grounds x. | STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND; cause actuality/concreteness and the grounds edge are conclusions at the same w, with no temporal-concurrence claim. |
