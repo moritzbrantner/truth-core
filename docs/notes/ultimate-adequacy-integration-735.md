@@ -31,9 +31,12 @@ strict hash rejection and trusted-cache separation. A deterministic regression
 fails against baseline (no captured body) and passes with the diagnostic change;
 all 65 source-evidence tests pass. The broader 364-test run has three failures
 and one setup error involving missing built TruthCore modules in that worktree;
-it is not a full-suite pass. Next: independent review and build/setup-correct
-verification before publishing the refreshed diagnostic head, then apply it to
-#850 before any controlled new-head source verification. Original drift remains
+it is not a full-suite pass. Independent verification-surface review found no blocking defects in the five-file
+change at local head `a3f75598cee7dbcce07ef8fd3fc841265a3e1cec`. The existing
+build is live and owns the heavy-verification lease; the verification worker
+will complete setup-correct full tests before publishing the refreshed head,
+then apply the diagnostic result to #850 before controlled new-head source
+verification. Original drift remains
 unexplained until evidence establishes its cause.
 
 The renewed read-only adversarial review accepts the conditional B/C/formal-D/EM
@@ -47,7 +50,21 @@ proved principle. D1/D2 in chat distinguish inadequacy from actuality; no new
 statement identity or formal equivalence is asserted by those informal labels.
 The asymmetry route instead retains maximum existence and universal esse-causal
 reach; it does not independently discharge that bridge or establish uniqueness
-of every necessary individual. Only ledger A is accepted. A5 alternate readings
+of every necessary individual. Only ledger A is accepted.
+
+A second connection audit located `CONCRETE-SUPPLY-ROOT-EQUIVALENCE`: existential
+Supply already has actual-root-existence strength, so it is not an independently
+weaker foundation justification. Its witness also supplies concrete population;
+adding B separately to that route is redundant. Universal inductive Supply
+instead feeds Escape, which is equivalent to actual grounding WF on the recorded
+graph, and is stronger than testing only the whole roster. Fact-level explanatory
+closure permits an unfounded-descent branch; it does not independently eliminate
+that branch. The bounded next formal task is the missing root-to-nontrapping
+reverse implication, composed with `actualRootExists` to expose exact strength
+under B/EM. This is classified as a strength audit, with no philosophical leaf
+discharged. Existing theorem types and accepted premises remain unchanged.
+
+A5 alternate readings
 are assigned for a bounded source batch; their main-reading dependencies prevent
 independent public delivery before #850. No premise or frontier is closed here.
 
