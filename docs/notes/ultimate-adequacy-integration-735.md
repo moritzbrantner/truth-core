@@ -78,8 +78,12 @@ new costs5/raw6 and7/raw8. All reaching open premises65→69 adds only the four
 atomistic inputs; none removed. Route-expanded union40→44 is a separate measure.
 Catholic81/12routes/best31 and route-expanded union67 are unchanged. This is
 composition progress, not premise discharge or global/philosophical weakening.
-The two modal routes have a focused15-file direct-main publication prepared;
-the31-file priority batch remains a separate publication. No owner truth
+The two modal routes are public15-file PR908 at
+81789298f42d257753c5c7201269ed407bb5ea12, CI41331601271 live, review requested
+once (6561374277), Root watch23196. Priority is separate33-file PR909 at
+7227726293c7a57b4374281b22791db145fa8010, CI41331708678 live, review requested
+once (6561389354), Root watch23562. Both have fresh main907 bases and exact
+certified compiled-input identity; no cold checks or source fetch repeated. No owner truth
 selection changes. Full author M-priority/FirstCause and policy applicability
 remain open.
 
