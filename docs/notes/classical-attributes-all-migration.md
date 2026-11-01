@@ -584,8 +584,9 @@ Every row retains its own definitions and semantic-application obligations.
 | Count cause-time | Open pointwise count-cause opportunity; history-presence bridge; EM; Euclidean access; actual reflexivity | SAME actual necessary concrete individual and supplied count-one marker at accessible v. Imported old six-input bundle implies new five-input bundle; marker is not transported to w. Registered assembly connects the shared NecessaryBeing endpoint. |
 | Generic limitation separation | Known limiting Q; nonlimiting Phi; backward closure under boxed inclusion; EM | Accessible SAME exemplar with Phi and not Q. The target property is arbitrary; this is not actual necessary existence by itself. |
 | Nonlimiting concrete existence | Specialized limiting possible absence; specialized nonlimiting concrete existence; same closure; EM; Euclidean access; actual reflexivity | Instantiates the preceding row with Phi=concrete-and-exists and Q=accessible absence. SAME exemplar is necessary at v, then actual and necessary at w. Uses existing NecessaryConcreteAt and its already registered necessary-being connection. Grounds is unused. |
+| Complete autonomous ground | Selected actual concrete target; complete autonomous ground; autonomous-fact necessity; whole-ground necessitation; aligned positive-target coherence | SAME target is necessary; helper retains actuality/concreteness, registered result connects existing NecessaryBeing. IngredientAt, essential-label realization and productive R are unused. Four ground/modal/coherence inputs already exclude that target’s contingency. |
 
-The last route is verified at `6ad5567a`: full build4351, binding823/2 old pins/
+The nonlimiting-concrete route is verified at `6ad5567a`: full build4351, binding823/2 old pins/
 0 mismatch, three Comparator/result NanoDa checks, scoped NanoDa127 declarations/
 0 type errors. Generic/transport/consumer probes use no axioms; the unchanged
 mixed-ontology control imports propext. Its NEW classifier and unused-ground
@@ -620,3 +621,28 @@ establishes the rival's complete explanatory adequacy. The exact primary
 witnesses, rejected bridges and remaining burdens are persisted in the existing
 nonlimiting-concrete derivation attempt. No source or owner truth selection is
 inferred from the successful proofs.
+
+
+The autonomous-ground consumer is verified at `8b4bd0f6`: full build4353,
+binding825/2 old pins/0 mismatch, both Comparator/result NanoDa acceptances,
+and scoped NanoDa100 declarations without type errors. All five explicit axiom
+probes are empty. Frozen Challenge70972d9b remains unchanged. Its main five
+named inputs include conjunctive packages; they are not five independently
+established truths. Positive coherence is stronger than needed: the proof uses
+only forward truth-to-existence at accessible worlds. No frame law or EM is used.
+
+This connects a different strong rationalist package, not a weaker version of
+the old two-input ingredient extraction: the old result yields an autonomous
+existence-related label; the new result retains the complete-ground input, omits
+IngredientAt and adds actual target, autonomy necessity, joint necessitation and
+positive coherence. Complete-record admission itself establishes neither
+nonempty/adequate explanation nor philosophical reality. Applied universally,
+the package excludes contingency of covered targets, not all propositions
+without additional all-fact coverage. No productive-root or God conclusion follows.
+
+Actual public comparison against main7cabc661: NecessaryBeing open reaching
+leaves42→47 and new raw/expanded route5; existing cheapest2 unchanged. All five
+newly reaching leaves remain OPEN, including the previously existing autonomous
+full-ground commitment. No old leaf is removed or discharged. Catholic81/best31
+and every route cost/reaching set remain unchanged. This measures a new
+verified connection and its cost, not independent premise entitlement.

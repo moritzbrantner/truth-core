@@ -8,11 +8,11 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`ada57c9b` before this update. Main is `8d696d5d1501cec1f2c54140f36fa2f8b70e153f`
-through #856. Integration preserves the full private research history, 468 source
-witnesses and the A9 cursor. The current committed corpus has 2559 statements,
-1740 claims and 807 result records. Corpus, source bindings, generated docs and
-whitespace pass. No Lean inputs changed from the verified 6ad5567a proof batch.
+`0377c9c8` before this update. Main is `d7f741b6a85e71fdb82a2eae24942fd93421feff`
+through #858; its canonical ancestry integration is next, after this clean handoff commit. Integration preserves the full private research history, 468 source
+witnesses and the A9 cursor. The current committed corpus has 2570 statements,
+1751 claims and 809 result records. Corpus, source bindings, generated docs and
+whitespace pass. The only new Lean inputs are the verified autonomous-ground consumer below.
 Only owner ledger A is accepted; earlier explicit PSR working authorization is
 retained. Optional NLC/MF rows remain unselected.
 
@@ -29,6 +29,8 @@ Landed with all required CI and a clean completed review of each exact head:
   CI41274287992. Canonical integrationada57c9b passes scoped live verification
   of the one changed witness; the other467 passages pass offline checks only.
   Abstract body is identical, with only the old extracted heading omitted.
+- #857 A9 MAIN: main7cabc661, reviewed30738138, CI41274890902.
+- #858 A9 alternates: maind7f741b6, reviewedd57394e4, CI41275792546.
 
 The #855 proof batch retains full build4351, binding823/2 old pins/0 mismatch,
 three Comparator/result NanoDa acceptances and scoped NanoDa127 declarations
@@ -48,15 +50,24 @@ source/corpus and whitespace pass; no Lean or truth status changed. Public
 PR #857 at30738138b0e696639e5e76f1ad1c924750e63425 adds exactly nine pinned A9
 witnesses to main's411 for420 passages. All9 pass scoped live verification;
 other411 pass offline only. A5 stays queued publicly; A9 alternate pins are
-context, not completed alternate claim extraction. CI41274890902 and exact-head
-review are pending. The canonical worker is processing A9 alternates next.
+context, not completed alternate claim extraction. All required CI41274890902 and clean exact-head review passed before merge.
+A9 alternates30f55352 were independently fidelity-reviewed and delivered by
+#858 after all required CI41275792546/clean exact-head review. Canonical A10
+MAIN0377c9c8 adds seven qualified claims/five bare statements and a default
+gloss/disambiguation. Source468/1751 bindings, corpus2570/1751/809 and whitespace
+pass. All15 A10 contexts were read; Root independently read MAIN bodies, claims
+and SHA-verified titles. Default-to-selected-case and effect-only versus source
+cause-capable Necessary Being remain explicit OPEN bridges. The candidate now
+starts A10 P1 reconsideration, then modal alternates; public A5 stays queued.
 
 #823 is refreshed at e588c155890d0465f56144fd3ace6619e59bac65 by merging actual
 main #856. The five-file diagnostic patch is byte-identical to reviewed a3f75598;
 372 tests/65 source tests/build4348 evidence is reused on unchanged code inputs.
 New full local verification of all411 public passages passes (46 immutable and
 186 web witnesses; existing absent media exports and bibliographic boundaries
-remain explicit). CI41274982379 and a fresh exact-head review are pending.
+remain explicit). CI41274982379 failed its source job on Koons access as detailed below; fresh
+exact-head review is completed and clean. Other jobs finish independently; no
+merge or automatic retry is authorized.
 Both old hosted failures remain recorded: connection refusal and TLS timeout
 for the former Dye archive. No old-head retry, automatic further retry or bypass
 is authorized; the new head contains a scholarly witness upgrade. #850's original
@@ -72,6 +83,105 @@ PRs only after gates pass, finish A9 alternates, and test whether the stronger
 autonomous-full-ground route can reuse existing necessity propagation without
 an existential-ingredient premise. No owner classifications are inferred.
 Coordinator owns this note, matrix and merges; workers retain separate ownership.
+
+
+The new autonomous-ground proof is committed8b4bd0f6 (24files). It imports
+memberwise/joint necessity on the same complete record and derives necessity
+of the SAME actual target through whole-ground necessitation and explicit
+positive-fact coherence. It needs no IngredientAt, essential-label realization,
+R/sourcehood, WF, EM or frame law. The registered conclusion is existing
+NecessaryBeing; the helper retains the selected target's actuality/concreteness.
+The four ground/modal/coherence inputs also exclude its contingency. Five main
+premises remain OPEN; this differs from the earlier two-input label extraction.
+No full propositional collapse or divine identification follows.
+
+Full build4353, bind825/2 pins/0 mismatch, both Comparator/result NanoDa checks
+and scoped NanoDa100 declarations/0 type errors pass; five explicit axiom
+probes are empty. Frozen Challenge70972d9b remains unchanged. Public PR #859
+atcb63cb7a5c9c8449307253c53c9fcc44a2667684, CI41276921929, carries the exact
+24-file slice on main #858. All1908 Lean/toolchain/dependency files match the
+verified canonical checkout; no duplicate cold build was run. Public metadata
+checks pass420 passages, zero changed live witnesses. Review requested once
+(comment6553905982); delivered-head CI/review are pending. Root-frontier effects:
+NecessaryBeing42→47 open reaching leaves/new route5, cheapest2 unchanged;
+Catholic81/best31/all routes unchanged. No premise closes.
+
+### Local service trial and lifecycle (2026-11-01)
+
+The existing agent service was absent at8765. Coordinator preflight
+`python3 scripts/worker_env.py --check --lean-version` passed for v4.35.0 and
+/home/moenarch/.cache/truth-core-verifier. Actual startup command:
+
+```sh
+python3 scripts/worker_env.py -- python3 scripts/agent_service.py --port 8765 --workspace /home/moenarch/.cache/truth-core-worktrees/count-temporal
+curl --max-time 3 -sS http://127.0.0.1:8765/health
+```
+
+Health bound the preview to8fc1148e56a80d47c33f2f3404e605f5ff42bfe5 and its
+pre-existing dirty fingerprintcea2b66934a326208534ad60cacc740449131277cf3119e728ea774a97670e60.
+The worker queried `/corpus/record?id=STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND`,
+then submitted full old-import combined scratch content through agent_lean.py:
+
+```sh
+python3 scripts/agent_lean.py <combined-scratch-file> --workspace /home/moenarch/.cache/truth-core-worktrees/count-temporal --session autonomous-ground-20261101 --path Scratch/autonomous-ground/Edit.lean --expect-head 8fc1148e56a80d47c33f2f3404e605f5ff42bfe5 --goal 84 2
+```
+
+Two SAME-session requests returned the intended unfinished goal, then accepted
+the completed edit (content199b7b282da3254f4f10195dd9c480bdef00d8b0961cb703f3a8106efc7d1079).
+Initial request11.839s; warm edit0.406s versus same-content CLI6.374s. The attempt
+preserves canonical/preview/content bindings and the first-versus-warm caveat.
+Retain the service for repeated edits/goals, with CLI fallback; this one task
+is not a general performance benchmark. Final build/Comparator/NanoDa above
+remain authoritative. Coordinator closed the session under the exclusive
+/tmp/truth-core-lean.lock, sent SIGTERM only to its matching service process,
+and collected its exit0 and successful close response. No service/session is
+left running; no dependency or proof-status registry was added.
+
+### Koons witness availability audit (2026-11-01)
+
+Fresh diagnostic head e588c155 failed job124755257453 in CI41274982379 at
+05:02:15 UTC: KOONS-REPLY-OPPY-PP193-194 official PDF returned HTTP403 and its
+pinned archive refused the connection. The new Dye witness verified. Artifact
+13071431309 contains a correctly captured Blount live drift (593328 bytes,
+SHA25614884b58222d71017c65a4978750b94a77e239333c92a758cff7b5f24d28e56c);
+no Koons response body reached hashing. No retry, merge or pin change follows.
+
+Bounded same-edition search: Robert C. Koons, *Defeasible Reasoning, Special
+Pleading and the Cosmological Argument: A Reply to Oppy*, *Faith and Philosophy*
+18(2),2001,192–203, DOI10.5840/faithphil20011823. The verified old PDF is288584
+bytes, SHA2565e830611243d675d2159b319e103a67458fb64b70279e83199f559dd118fcdd0.
+PDF pages3–4 reproduce cited printed193–194 and selected text
+SHA2567a647d6c60c010d293e0637c6a82ac95a8b5125fc14833ed5a2e164c88b73cc6.
+The complete cited pages and immediate context were read; no source claim changes.
+
+The [publisher landing](https://place.asburyseminary.edu/faithandphilosophy/vol18/iss2/3/)
+returns matching DOI/title/page metadata but links only the existing PDF. The
+[author-linked Academia manuscript](https://www.academia.edu/81260097/Defeasible_Reasoning_Special_Pleading_and_the_Cosmological_Argument)
+is dated2008-04-13, has its own pagination/changed introduction and supplied no
+verified downloadable PDF; it is not established as the same journal edition.
+The [author-uploaded ResearchGate candidate](https://www.researchgate.net/publication/271165735_DEFEASIBLE_REASONING_SPECIAL_PLEADING_AND_THE_COSMOLOGICAL_ARGUMENT_A_REPLY_TO_OPPY)
+has matching publication metadata but its public download returned404; displayed
+garbled text cannot certify the cited pages. The author's current article list
+provided no matching2001 download; the1997 work is a different article.
+
+The [author-attributed Discovery text](https://www.discovery.org/a/143/), dated
+2000-01-07, preserves the narrow causal/nonnecessitation/aggregate/nonoverlap
+reading but differs in introduction/design context, notes and pagination. Two
+138238-byte responses had different raw hashes,
+8be2d9a806a7105201a27deadcd9df87d320395980295446b87d197ab42c9f2a and
+d636b6cc5f5a3f0ed68bbe77111a4a467912f87d0aa1de845eee563625e0fb62,
+while selected causal text matched
+SHA256a05611f44da5856ff69d139d1fc8e055f9d2706e301767a0a65d21a805a39f06.
+It is not an immutable same-edition transport replacement. No reuse licence was
+established and no source bytes were publicly rehosted. An unattributed WordPress
+rehost was excluded without downloading. Bounded publisher/author Git searches
+found no positive witness; this does not prove none exists.
+
+Keep the existing witness. A distinct draft/Discovery reading would need honest
+edition/locator changes, readable pinned bytes and fresh fidelity/rights review,
+not a hash swap to clear CI. The present access problem is local to that delivery;
+independent philosophical/proof work continues. No source kind, dependency,
+meaning, owner classification or premise truth changed.
 
 ## Current head and next action (2026-11-01)
 
