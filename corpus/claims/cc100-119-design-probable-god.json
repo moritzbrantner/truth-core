@@ -1,0 +1,15 @@
+{
+  "id": "CC100-119-DESIGN-PROBABLE-GOD",
+  "statement_id": "STMT-CC100-119-DESIGN-PROBABLE-GOD",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.280, argument #119, step 5",
+  "interpretation": "Preserve the explicit design-to-probable-God bridge and probably qualification. No numeric probability, prior, likelihood model, exclusive divine-designer claim or classical God signature is supplied. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
