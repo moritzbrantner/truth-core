@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-86-INTELLIGENT-WHOLE-MAKER",
+  "paraphrase": "Every whole is made by an intelligent agent.",
+  "definition_ids": [
+    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

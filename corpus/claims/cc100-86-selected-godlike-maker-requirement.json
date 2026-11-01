@@ -1,0 +1,15 @@
+{
+  "id": "CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
+  "statement_id": "STMT-CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 4",
+  "interpretation": "Retain the existential SOME-whole/selected-agent wording and the local THAT-agent identity. Do not silently equate this whole with the earlier excluded-embodied whole, or broaden its selected-agent requirement to every maker. God-like is an unspecified source attribute, not Scott/Gödel positivity, classical IsGod or a proved full divine signature. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
