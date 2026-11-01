@@ -18,4 +18,11 @@ def WholeRosterNotTrapped {W B : Type} (m : Profile W B) (w : W) : Prop :=
   (Set.univ : Set {b // ActualConcrete m w b}).Nonempty →
     ¬ Trap (recorded (graph m w)) (graph m w).Source Set.univ
 
+/-- Exact-strength comparison, not an independent foundation premise. Under
+explicit actual population and excluded middle, whole-roster nontrapping is
+equivalent to an actual root of the SAME selected grounding relation existing.
+Neither side asserts necessity, uniqueness or complete explanatory adequacy. -/
+def WholeRosterRootEquivalenceAt {W B : Type} (m : Profile W B) (w : W) : Prop :=
+  WholeRosterNotTrapped m w ↔ ∃ n, ActualRoot m w n
+
 end TruthCore.Causality.WholeRosterFoundation
