@@ -588,3 +588,44 @@ Existing `HeadlessCausalAncestry.source_of_not_headless_coverage` and `Necessary
 Context boundaries: size/shape/parts/partless-angel/generalization prompts are conditional route-specific reports, not all-route premises; P1B2 reports only no implication found. P3B’s alternate question is followed by C2 literally recalling original invariance; no silent textual repair. P3C reasks the DEFEASIBLE default under revised classification, unlike A2’s exceptionless revised causation. C3 retains prima-facie/defeater qualifications. All are witnessed/read context; their philosophical claims are not added here.
 
 No Lean/argument/result/model/probability framework, source kind/pin/selector/dependency, truth flag, owner selection, philosophical premise or root closure changes. Fifteen new pages alone receive scoped live verification; other420 are checked offline. This independent cluster publication does not complete the source campaign or move the public A5 cursor.
+
+
+### A10 P1 reconsideration extraction (2026-11-01)
+
+Six qualified source claims now extract the coherent reconsideration cluster,
+using the existing seven pinned pages and unchanged MAIN P1/C context. Six bare
+statement identities preserve the different categorical, counterfactual and
+default scopes; none is Lean-bound. The existing default/cause gloss is reused,
+with one minimal case gloss distinguishing partlessness and hypothetical
+beginning from formal simplicity or an actual angel.
+
+| New claim suffix (`NB-SURVEY-A10-…`) | Exact source scope |
+| --- | --- |
+| `SIZE-CAUSAL-DIFFERENCE-DENIAL` | P1B’s negative report rejects the proposed size-based caused/uncaused contrast; its particle worry is not a physics finding. |
+| `SHAPE-CAUSAL-DIFFERENCE-DENIAL` | P1C’s negative report rejects the proposed shape-based contrast, not equality of causal probabilities. |
+| `PARTS-CAUSAL-DIFFERENCE-DENIAL` | P1D’s negative report bypasses the angel detour; affirmative/uncertain parts reports do not supply this denial. |
+| `PARTLESS-BEGINNING-ANGEL-CAUSED` | P1D2 asks a hypothetical beginning case; no angel existence, possible beginning or actual cause is established. |
+| `PARTLESS-CAUSAL-DEFAULT` | P1D3 asks for a further defeasible generalization to OTHER partless things, conditional on the angel case. No contingent-only restriction or exceptionless universal is added. |
+| `ARBITRARY-CONTINGENT-CAUSAL-DEFAULT` | P1E reconsiders arbitrary X with explicit more-likely-than-not/default language. Its scope is distinct from MAIN’s generic/encountered default and C’s selected possible first contingent. |
+
+The static continuation evidence fixes the report conditions: initial P1
+uncertainty enters reconsideration; size-negative and shape-negative reach
+parts. Parts-negative goes directly to P1E, while parts-affirmative OR uncertain
+enters the angel question, then its affirmative answer enters the partless-default
+question, whose affirmative answer reaches P1E. Initial P1 affirmation bypasses
+the entire cluster. P1E affirmation continues to P2. Thus neither an angel
+premise nor a negative-parts answer is required by every successful route, and
+no uniform answer retention or retraction is invented. The existing fifteen-page
+reading/route inventory remains authoritative rather than being counted again.
+
+P1E’s qualified “appears” transition does not establish an exhaustive catalogue
+of causal exceptions or resolve the selected-case/reference-class burden.
+P1B2 remains contextual authorial no-found-implication, not a refutation or an
+activity claim. No actual respondent/session, PHP submission, numerical
+probability, default-to-`Dia`, productive concrete support, new source pin,
+model, formal argument or philosophical discharge follows. All cause titles
+retain the prior partial-explanatory-condition meaning. A10 modal alternate extraction (P3B/C2, then P3C/C3) remains pending; the public A5 queue is unchanged.
+
+
+
+Public delivery boundary: thirteen semantic files byte-match research1a704a20. All seven witnesses were already public in #860; no manifests, private A5–A7 history or canonical later cursor are copied.
