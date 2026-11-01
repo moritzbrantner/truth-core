@@ -21,6 +21,7 @@ import TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
 import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
+import TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Solution
 import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
