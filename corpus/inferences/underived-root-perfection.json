@@ -1,0 +1,18 @@
+{
+  "id": "INF-UNDERIVED-ROOT-PERFECTION",
+  "input_statement_ids": [
+    "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+  ],
+  "output_statement_id": "STMT-DIRECT-ESSE-ROOT-PERFECTION",
+  "rule": "existing-maximum-comparison-and-pointwise-perfection",
+  "meaning": "Preserve the SAME supplied necessary concrete underived witness n. Instantiate its all-world concrete-support exclusion only at selected w to obtain ActualRoot; no all-world attribute is inferred. Import maximumExistsOfExistingRoot and maximumEqualsRoot using the existing fixed-esse Unit restriction: one maximum equals n and also equals every other selected actual concrete root. Apply perfectOfMaximum to this SAME n. Eight explicit inputs replace the old ten-input root-producing configuration: the supplied underived existential replaces population, whole-roster and contingent-grounding inputs, while seven other interfaces are retained. This is a conditional composition, not a certified global package weakening, numerical philosophical progress or premise truth discharge. Uniqueness concerns selected actual concrete roots, NOT all necessary individuals. The original supplied existential is unpacked once; its same final witness is retained, though the target records only selected-world roothood, necessity, esse maximum and perfection. Global InAct/CausesIn and modal/support correspondence remain OPEN. No God naming, moral/cognitive perfection, production-ground identity, explanatory adequacy or all-world attribute conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

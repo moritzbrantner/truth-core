@@ -138,6 +138,7 @@ import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
 import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.UnderivedNonComposite.Solution
+import TruthCore.Results.Causality.UnderivedRootPerfection.Solution
 import TruthCore.Results.Causality.UnderivedRootRoute.Solution
 import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WholeRosterFoundation.Solution
