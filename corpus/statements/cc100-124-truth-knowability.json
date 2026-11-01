@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-124-TRUTH-KNOWABILITY",
+  "paraphrase": "For every proposition p, if p is true, possibly someone knows p.",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
