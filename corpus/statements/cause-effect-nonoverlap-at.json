@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CAUSE-EFFECT-NONOVERLAP-AT",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.CauseEffectNonoverlapAt",
+  "paraphrase": "At the selected world, no cause overlaps its effect under existing common-part Overlap in the SAME fixed order. This OPEN exclusion is stronger than numerical inequality and is not automatically justified by causal language or order.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
