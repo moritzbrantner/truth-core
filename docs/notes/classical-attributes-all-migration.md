@@ -560,7 +560,7 @@ represent productive existential contributors, enabling conditions, or both;
 choosing an interpretation does not require a Lean field change. None of those
 labels itself establishes completeness, individual/joint sufficiency or O.
 The contingent-grounding C, esse-cause inclusion F and same-sense priority
-inclusion G must describe that same relation, with their stated actuality guards.
+inclusion G must describe that same relation, with their stated distinctness and actuality guards.
 
 The incoming-edge `JointGroups.recorded` adapter asserts no sufficiency and
 does not establish that each recorded edge is productive. Partial productive
