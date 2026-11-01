@@ -1,0 +1,10 @@
+{
+  "id": "SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "argument_id": "SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.ScopedActualCausality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ScopedActualCausality.Solution",
+  "theorem": "TruthCore.Results.Causality.ScopedActualCausality.strictControl",
+  "comparator_config": "results/SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Preserve EXACT mixed.ontic, its worlds, existence, Causes and identities. Standard Mathlib lift transports the old identity-parthood order to the selected actual nodes; no default linear Option order is used. All four nonlogical atomistic inputs and nonvacuous selected coverage hold at false. Existing mixedContingentAtFalse supplies the actual contingent witness; existing mixedHasContingentUncausedRoot at true refutes global coverage. No EM premise, new ontology or reality interpretation is certified."
+}
