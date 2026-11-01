@@ -3155,3 +3155,28 @@ and whether CF5p concerns complete existential production or ordinary partial
 contribution. Do not restrict the causal relation after proving coverage for a
 broader relation without an explicit bridge. None of these objections is itself
 a complete alternative explanation or a discharged premise.
+
+### Route-cost interpretation and next composition
+
+A fresh canonical `frontier --root STMT-KANT-CONVERSION-NECESSARY-WITNESS
+--routes` reports 14 routes. The cheapest non-transcription route remains
+NECESSARY-BEING-FROM-CONTINGENT-COVERAGE at two open premises:
+STMT-A1-COVERED-CONTINGENTS and STMT-A1-EXTERNAL-WHOLE-CAUSE. Its latter dossier
+confirms an existential actual concrete cause outside the selected whole,
+not an independently established theorem or a merely distinct cause. Thus two
+leaves versus the cover route's six is a packaging/dependency metric, not an
+independent ranking of philosophical plausibility or a claim that causal
+coverage/nonparthood were discharged. The correct necessary-being root ID is
+STMT-KANT-CONVERSION-NECESSARY-WITNESS; a query of the nonexistent shorter
+STMT-NECESSARY-BEING returned no routes and supplies no research evidence.
+
+Approved for implementation: compose the existing NecessaryFactBoundary
+necessaryReason producer with an unregistered selected-fact consumer, using
+one genuine Arena and a fixed constituent assignment K. Retain the producer's
+EM, reason-closed account, contingent explanandum and foundedness, then add
+separate OPEN account-member constituent nonemptiness and all-world
+realization hypotheses. No new necessary-fact premise is inserted into the
+composed theorem. No fact is renamed an individual; the same constituent is
+chosen once and realized at the actual and every accessible world. No result
+is yet claimed verified. Source #117 reviewed/committed as 056d7f69; its
+qualitative likelihood claim supplies no actual-theism or numeric update.
