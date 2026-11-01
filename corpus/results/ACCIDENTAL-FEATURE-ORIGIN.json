@@ -1,0 +1,10 @@
+{
+  "id": "ACCIDENTAL-FEATURE-ORIGIN",
+  "argument_id": "ACCIDENTAL-FEATURE-ORIGIN",
+  "challenge_module": "TruthCore.Results.Causality.AccidentalFeatureOrigin.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution",
+  "theorem": "TruthCore.Results.Causality.AccidentalFeatureOrigin.externalOrigin",
+  "comparator_config": "results/ACCIDENTAL-FEATURE-ORIGIN/comparator.json",
+  "status": "solution-present",
+  "description": "Partial structural case formalization: five selected accidental-feature/occurrence/origin/shared-production/realization heads exclude internal essential production and retain an externalFeatureCause-role witness. Not the whole I42[9] source argument, a source binding, complete essential/accidental case analysis or proof of existential dependence/actuality/distinctness/necessity/uniqueness. Philosophical and root-premise progress NONE; all relation/policy applicability remains OPEN."
+}
