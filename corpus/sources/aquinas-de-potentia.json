@@ -1,0 +1,10 @@
+{
+  "id": "AQUINAS-DE-POTENTIA",
+  "kind": "primary_text",
+  "author": "Thomas Aquinas",
+  "work": "Quaestiones disputatae de potentia",
+  "citation_system": "question, article, objection/body/reply; Corpus Thomisticum numbered entries",
+  "catalog_url": "https://www.corpusthomisticum.org/qdp5.html",
+  "work_urn": "urn:truth-core:work:aquinas-de-potentia",
+  "notes": "Latin text: Turin 1953 edition, digitized by Roberto Busa and reviewed by Enrique Alarcón, as identified by Corpus Thomisticum. The host claims copyright in its digital edition; no open licence is asserted. Only metadata, hashes, locators and short incipits are committed. The work URN is a repository-local identifier, not a CTS authority identifier."
+}
