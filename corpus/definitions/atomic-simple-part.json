@@ -1,0 +1,11 @@
+{
+  "id": "DEF-ATOMIC-SIMPLE-PART",
+  "term": "simple part as minimal non-null object",
+  "definition": "In a partial-order parthood domain, a simple lacks proper parts: Mathlib IsMin. AtomicParts says every object contains such a simple part, possibly itself. Composite reuses the existing predicate of having a proper part. There is no OrderBot, null constituent, atom-count bound or global well-foundedness assumption.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-ATOMIC-PART-CONSEQUENCE"
+  ],
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.AtomicParts",
+  "note": "This is ONLY a weaker consequence of primary P2. Rutten Step1p127 and pp129–131 use terminating proper-part descent. Standard nonempty composition/parthood makes his terminating-simple decomposition supply this weaker existence claim; the full source commitment is not replaced by it."
+}

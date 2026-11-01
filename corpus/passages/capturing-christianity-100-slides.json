@@ -24,6 +24,19 @@
       ]
     },
     {
+      "id": "CAPTURING-CHRISTIANITY-100-SLIDES-ATOMISTIC",
+      "locator": "original presentation PDF pp.27–28",
+      "pdf_pages": {
+        "first": 27,
+        "last": 28
+      },
+      "text_sha256": "sha256:48e60debb312d4f301170fe24049cf2a3b4cd20f1e0d74a60b7a670272618e6d",
+      "incipit": "EMANUEL RUTTEN’S ATOMISTIC CA",
+      "claim_locator_prefixes": [
+        "original presentation PDF pp.27–28:"
+      ]
+    },
+    {
       "id": "CAPTURING-CHRISTIANITY-100-SLIDES-UNITY",
       "locator": "original presentation PDF pp.206\u2013213",
       "pdf_pages": {

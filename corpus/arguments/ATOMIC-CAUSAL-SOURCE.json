@@ -1,0 +1,29 @@
+{
+  "id": "ATOMIC-CAUSAL-SOURCE",
+  "premise_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS",
+  "inference_ids": [
+    "INF-ATOMIC-CAUSAL-SOURCE"
+  ],
+  "meaning": "With explicit EM, deny that any graph source exists, so each object has an incoming edge. Population and atomic parts populate the caused-simple family; conditional coverage yields an object whole. Its cause c has a simple part p, which is also caused in this reductio and hence is a part of whole. Thus c and its effect whole overlap, contrary to nonoverlap. No activity/P6/complete-cause uniqueness or WF is used. The endpoint is ONLY a graph source.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

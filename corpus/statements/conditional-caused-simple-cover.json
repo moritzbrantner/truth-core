@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+  "paraphrase": "If the family of caused simple objects is nonempty, an object contains every member of that same family.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.ConditionalCausedSimpleCover",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "Only containment from primary nonempty object-valued sum is used; empty-family formation and no-extra-parts properties are not asserted."
+}

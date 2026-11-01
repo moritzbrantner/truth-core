@@ -1,0 +1,22 @@
+{
+  "id": "RUTTEN-CH6-CONDITIONAL-COVER-CONSEQUENCE",
+  "statement_id": "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.127 premise4 and footnote181; pp.125–126 sum/composition definitions",
+  "interpretation": "Explicit WEAKER CONSEQUENCE reading: a nonempty object-valued sum contains its members. Retain the nonempty guard in primary P4/fn181, which the short presentation omits. The typed cover does not encode the full sum, composition-as-identity, extensionality or unrestricted fusion. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}
