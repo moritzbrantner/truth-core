@@ -74,7 +74,8 @@ Consumer and closed asymmetry helper have no axioms; compatibility uses
 `propext` from the old control. The81-open-leaf union29bare/52sourced, cheapest
 root cost31 and existing32-input consumer37 remain unchanged. Its direct-main
 public PR is #843 at `8cb583cebb7674d5cfbf713e4799732dc41df13c`,
-CI41257847939 and exact-head review pending. The eight-file public patch
+CI41257847939 has only its library certification job still running; exact-head
+review completed without findings. The eight-file public patch
 contains the consumer plus the previously verified seven-input matrix section;
 source records/history/handoff are excluded.
 
@@ -87,18 +88,32 @@ not establish an earlier existing concrete bearer, possible NB does not
 establish a rigid actual necessary witness, and source reports do not supply
 Scenario's guarded interfaces. No Lean/pin/truth change. The public source PR
 is #842 at `c62d452d1069e030257f1b1d2a8b39cb08daa0a8`, CI41257708781
-pending and exact-head review completed without findings. Its sixteen-file
+passed with exact-head review completed without findings. PR #842 merged
+as `f669db3db29855a348b0d459cf2281a0b7056831`, integrated by `b0af6dc5`
+while preserving the later alternate extraction. Its sixteen-file
 patch has only thirteen new records and minimal public-baseline updates; private
 later witness coverage is excluded.
 Next source range is A3P3B/C2 then P3C/C3, followed by remaining families.
 
-Next concrete steps: finish guarded #842/#843 delivery and integrate main,
-then progress through the already materialized A3 alternate range. A read-only
-worker is comparing A3P3B/C2 and P3C/C3 with exact A2 alternate/main statements
-before proposing any new identity or claim. The other workers own the two PR
-gates; final checks must be tied to their exact public heads. Do not
-restart general infinite-regress diagnostics or treat optional O, causal
-reach, naming or classical-field sufficiency as independently established.
+A3 alternate extraction is committed as `27495d1c`. It adds five qualified
+claims but only two bare statements: revised possible beginning and revised
+causal-prefix possibility under κ. Three exact A2 statement meanings are reused
+for the alternate modal report, revised stipulation and final actuality. Four
+alternate witnesses and all raw titles were hash-verified/read; independent
+fidelity review found no findings. The minimal existing disambiguation extension
+preserves ordinary/revised class differences and all application gaps. The
+eleven-file public source PR is being prepared in root-perfect-goodness from
+the delivered A3 main baseline; private later history and Lean are excluded.
+
+Next concrete steps: finish guarded #843 and A3-alternate delivery, integrate
+main while preserving all source findings, then continue A4. A read-only worker
+is materializing the complete A4 main range (P1/P2/P3/P4/C), including tooltips,
+and comparing universal property-transfer/first-instantiation commitments with
+existing typed consequences and the existing property-P stress outline. A4
+witnesses exist privately but are not yet delivered public evidence; any public
+batch must explicitly include its named witnesses. Do not restart general
+infinite-regress diagnostics or treat optional O, causal reach, naming or
+classical-field sufficiency as independently established.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
