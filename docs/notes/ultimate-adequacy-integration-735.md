@@ -8,13 +8,13 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
-Canonical source/proof head d820924f is integrated with main through #893
-(d578c8c0921e3520613faeff63decc0a1504f3bc) at17ff7137. #891, #892 and #893
-passed every required check and their exact-head reviews before merging.
-Four corpus conflicts retained newer canonical source cursors, full source/
-origin-individuation findings, and the public statement-identity self-sweep
-annotation. Generators and corpus checks pass after integration; old Lean inputs
-are unchanged. The new modal-actuality adapter is in development below.
+Canonical configured proof1d37c5a6 is integrated with main through #894
+(3d61d386c4b7fc9208e4aa11b94c81e13bfb42a6) atcd5a9050. #891–894 passed
+required CI and exact-head reviews before merging. Source chapter extraction
+and scope-corrected configured proofs are separate milestones; neither declares
+an independently defended root premise. Main integration changed no Lean input
+of the final configured proof gates61988. Detailed earlier conflict resolutions
+and source-validation findings remain in their existing records.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
 
@@ -23,7 +23,7 @@ full handle95157 passed build4396, binding840/2existingpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa3new/74closure declarations with no
 type errors. Both theorem probes are zero-axiom; independent10-file review
 passes. Its public #886 is merged621f7fb3. Current corpus validation passes
-2753 statements,1909 claims,825 results,471 witnesses; the existing unrelated
+2755 statements,1909 claims,827 results,471 witnesses; the existing unrelated
 Frege–Geach warning remains.
 
 The verified composition sequence is:
@@ -38,7 +38,7 @@ The verified composition sequence is:
   Founded (e93220fc/#886). Unrelated chains are unrestricted; no converse,
   strictness, global minimality or independent actuality entitlement is claimed.
 
-Catholic root frontier remains81/best31. Necessary-being graph has17 routes,
+Catholic root frontier remains81/best31 (93789:29bare/52sourced-undefended). Necessary-being graph has17 routes,
 best2 unchanged; the local route costs4 open heads under the existing EM floor.
 These metrics measure explicit dependencies, not philosophical plausibility.
 Only ledger A is owner-accepted; scoped PSR working authorization from #312
@@ -92,8 +92,17 @@ graph compares IDs, not parameters. Separate ConfiguredHasBeing and
 ConfiguredConvergence heads plus two independent statement IDs now prevent
 reverse inference to arbitrary temporal schemas. This corrects advertised scope,
 not a failed proof; the original passed evidence is retained. Revised Challenge
-a1bd6a36…0d88c73 was frozen before Solution changes; focused71862/corpus90858
-active, renewed review/full gates pending. Root owns generators and full gates.
+a1bd6a36…0d88c73 was frozen before Solution changes and remains unchanged.
+Focused71862/corpus90858 and both zero-axiom58178 probes pass; independent
+corrected14-file review accepts the new statement identities. Final61988 passes
+build, binding843/2existingpins/0mismatch, both Comparator/result NanoDa gates,
+and scoped5-module export4/check55 with zero typechecker errors. Static83579
+and53726 pass2755statements/1909claims/827results; necessary17/best2 and
+Catholic12/best31 route counts unchanged. Only A remains owner-selected.
+Public delivery of exact17-file commit1d37c5a6 is being prepared; no generic
+schema is registered as its conclusion. The off-root candidate retains real
+semantic/application and cause-of-necessity obligations, rather than repeating
+the already checked configured derivation.
 
 Vincent2026 full text remains unavailable through the checked legitimate
 sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
@@ -102,8 +111,8 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: finish the configured modal-actuality composition and integrate #894, preserving
-exact off-root scope. Existing consumers remain the route for constitutive
+Next: finish the configured proof delivery gates, preserving exact off-root
+scope; keep generic schemas separate from their proved instances. Existing consumers remain the route for constitutive
 individuation and common numerical origin; no duplicate generic wrapper is needed. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
 retry/repin/merge without new evidence. No local Lean service is running; the
