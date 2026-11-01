@@ -1,0 +1,12 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-ALTERNATING-MOVERS-IRREGULAR",
+  "paraphrase": "If several movers do not move together, each moves at some times and not others, and their motion is not continuous and regular.",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
