@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+    "source_url": "https://web.archive.org/web/20000902170203id_/http://www.dla.utexas.edu/depts/philosophy/faculty/koons/cosmo.pdf",
+    "retrieved_at": "2026-11-01T08:03:52Z",
+    "sha256": "sha256:c0dba715d1e362084217106bfc26ec686e841e28eb052edb72afae00cc9f2c59",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright retained by author/publisher; no explicit reuse license observed. Legitimately author-posted UT faculty preprint, consulted via fixed archived original directly linked by Koons’s Discovery article. Raw PDF/extracted text remain ignored local artifacts; only hashes, locators, short incipit and paraphrases committed."
+  },
+  "passages": [
+    {
+      "id": "KOONS-NEW-LOOK-PREPRINT-1996-FULL",
+      "locator": "author preprint dated 18 December 1996, physical PDF pp.1–26",
+      "claim_locator_prefixes": [
+        "author preprint dated 18 December 1996,"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 26
+      },
+      "text_sha256": "sha256:06555114c90249cfb0fa94bc2d608eb494aed2618ba113c39ede724bdab6d7cb",
+      "incipit": "A New Look at the Cosmological Argument Robert C. Koons ∗ Department of"
+    }
+  ]
+}
