@@ -40,11 +40,28 @@ terminal0: six passages in changed manifests verified live, including the
 unchanged CC100 raw snapshot and new Rutten chapter. Scoped library69479 is
 terminal0: 36 exports, 548 declarations checked, zero typechecker errors and
 one known axiom pretty-printer diagnostic. The exact52-file direct-main
-publication is PR907, head `356c1ca3ac0ee93c649135ba389c0171578ccf05`,
-CI41330144587 confirmed live; review requested once (comment6561172063).
+publication PR907 is MERGED, reviewed head
+`356c1ca3ac0ee93c649135ba389c0171578ccf05`; all required checks in
+CI41330144587 succeed/skip and structured review is completed with no findings.
+Watch89387 is terminal0.
 Root retains merge responsibility. Public52-file scope and all1894 nongenerated
 Lean/toolchain inputs match the certified inputs; no cold verification repeated. Source claims and explanations
 remain distinct from formal consequence.
+
+Next proof lanes now compose existing results rather than add a fresh opaque
+bridge. `AtomisticNecessaryBeing` (9007fcb1/992dcf05) applies the five atomistic
+inputs to the existing actual-object graph, then imports
+PossibleCausalSourceNecessity.source_necessary_at with the OPEN local causal
+principle. The SAME actual source is necessary relative to the supplied frame;
+no concreteness, special frame law or grounding identity is inferred. First
+Comparator13364 failed because the Challenge lacked an explicit ExcludedMiddle
+import, though Solution compiled transitively. Focused Challenge30382 confirmed
+that error; repair992dcf05 adds only that import, preserves theorem tokens and
+records the prior unelaborated hash. Corrected Challenge compiles; corrected
+Comparator87262 is terminal0, including result NanoDa; scoped library is pending. Two other lanes test the distinct necessary-part
+route (CF3/CF4/actual-parts existence) and stronger source N universal priority
+from full proper-part termination/P6 and explicit source priority policies.
+Neither is certified yet; neither closes a premise merely by composition.
 
 Independent adversarial ledger assessment identifies D3 as the strongest open
 foundation bridge. B is stronger than mere existence A; C is stronger than an
