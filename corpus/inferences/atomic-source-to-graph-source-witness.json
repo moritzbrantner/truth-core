@@ -1,0 +1,11 @@
+{
+  "id": "INF-ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "input_statement_ids": [
+    "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS"
+  ],
+  "output_statement_id": "STMT-GRAPH-HAS-SOURCE-WITNESS",
+  "rule": "mechanical-same-graph-interface-projection",
+  "meaning": "Mechanical assembly/transcription: the existing SourceExists G and HasSource G definitions express the SAME existential of a graph-relative source. Preserve the exact carrier G and edge interpretation; repack the SAME source witness without selecting another. No actual presence follows for a raw graph; an actualGraph subtype already supplies that separately. No source truth, uniqueness, WF, necessity, grounding interpretation or new independent philosophical argument is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

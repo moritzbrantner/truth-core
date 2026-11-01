@@ -1,0 +1,11 @@
+{
+  "id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "argument_id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "challenge_module": "TruthCore.Results.Causality.SourceForestInterop.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForestInterop.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForestInterop.uniquePredecessor",
+  "comparator_config": "results/UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Mechanical assembly/transcription: UniqueCausePerEffect G and Relator.LeftUnique G.edge differ only in quantifier binder order. On the SAME graph G, reorder effect/cause variables and preserve the exact incoming-edge condition and equality. The complete-production interpretation is not transferred to a different contribution/grounding graph. No new existence, connectivity, source uniqueness, causal WF, single-effect-per-producer law, necessity or premise truth follows."
+}

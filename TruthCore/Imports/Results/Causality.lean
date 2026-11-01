@@ -127,6 +127,8 @@ import TruthCore.Results.Causality.ScopedActualCausality.Solution
 import TruthCore.Results.Causality.SelectedAncestry.Solution
 import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 import TruthCore.Results.Causality.SourceForest.Solution
+import TruthCore.Results.Causality.SourceForestInterop.Solution
+import TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solution
 import TruthCore.Results.Causality.SourceWitness.Solution
 import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
 import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution
