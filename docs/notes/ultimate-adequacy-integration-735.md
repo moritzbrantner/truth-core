@@ -7,8 +7,31 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Latest verified delta (2026-11-01): contingent-only atomicity suffices for modal
+necessary existence, and two concrete-domain assemblies reach the existing
+NecessaryConcreteAt endpoint. All five results pass full build, exact binding,
+Comparator and result NanoDa; scoped NanoDa checks1256 declarations with zero
+type errors. Independent reviews pass. This weak route does not itself return
+an uncaused witness. Exact frontier effects are persisted in the two dedicated
+attempt records: bare NE20→21 routes, concrete8→10, best cost2 unchanged;
+Catholic root81open/12routes/best31 unchanged. No premise truth discharged.
+
+PR910 and PR911 are MERGED after exact-head green CI and clean structured
+reviews (runs41334829941 and41334838393). PR911 initial `@codexreview` typo
+was corrected by the first valid `@codex review` request; no environment change.
+The combined contingent/concrete batch is prepared for public review; final
+attempt metadata and the owner's B acceptance are being synchronized.
+
+Next substantive connection: compose existing NecessaryConcreteAt with existing
+PositiveUnion machinery to NecessaryConcreteUnderivedAt, retaining explicit
+ActualReflexive, NoContingentConcreteSupport, ConcreteNecessaryUnionWF and EM.
+These are additional open inputs. The witness may change; exclusion covers
+existing concrete grounds at every admitted world, not abstract grounds.
+Ordinary production is not identified with existential grounding. The proposed
+pointwise assembly is assigned; it is not yet advertised as verified.
+
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `a0652a82`. Main through PR909 is integrated (`9eda0cd9`, merge791829c5).
+snapshot `6e159f78` (identical proof tree after integration3966d4c3). Main through PR911 is integrated (`9828aab6`).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
