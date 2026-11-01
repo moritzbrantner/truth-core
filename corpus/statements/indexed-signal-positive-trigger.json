@@ -1,0 +1,10 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+  "paraphrase": "At each station, absence of an admitted upstream code requires issuance in the supplied role. This is the positive direction only, an explicit open local-interface premise.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.PositiveTrigger",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}

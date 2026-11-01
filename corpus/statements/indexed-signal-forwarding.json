@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-FORWARDING",
+  "paraphrase": "Every present indexed code at upstream output n+1 persists unchanged at output n, for all stations and finite numeric codes. Complete forwarding is an explicit open local-interface premise, not merely a sending capacity.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Forwarding",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-FORWARDING",
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION"
+  ]
+}

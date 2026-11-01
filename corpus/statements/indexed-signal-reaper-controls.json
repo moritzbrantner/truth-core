@@ -1,0 +1,14 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-REAPER-CONTROLS",
+  "paraphrase": "Each of the four local interfaces can be omitted while the other three hold on the same Nat/Option Nat carrier and the complete Grim Reaper action law fails. The omitted interfaces are index admissibility, positive trigger, emission and forwarding respectively. These are formal assignments, not metaphysical realizations.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Controls",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-PROVENANCE",
+    "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+    "DEF-INDEXED-SIGNAL-EMISSION",
+    "DEF-INDEXED-SIGNAL-FORWARDING",
+    "DEF-GRIM-REAPER-ACTION-RULE"
+  ]
+}
