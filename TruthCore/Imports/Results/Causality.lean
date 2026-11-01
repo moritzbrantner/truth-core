@@ -83,6 +83,7 @@ import TruthCore.Results.Causality.PluralRootConfluence.Solution
 import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
+import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
 import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 import TruthCore.Results.Causality.RegressReadingsCoincide.Solution

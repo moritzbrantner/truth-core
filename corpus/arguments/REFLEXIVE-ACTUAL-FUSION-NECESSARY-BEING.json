@@ -1,0 +1,32 @@
+{
+  "id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING"
+  ],
+  "meaning": "Use existing selected-world ActualReflexive to actualize ANY NecessaryAt p directly by evaluating its universal definition at w. A shared unregistered helper consumes that pointwise actualization; it does not derive actual-part existence. Under scoped denial of any actual NE, every candidate has no necessary parts, since any necessary part would be actual and would witness the denied NE. Actual sum/C3 gives cause c, C1 makes c actual, the scoped classification places c in the exact fusion family, and Fusion.upper plus reflexivity gives forbidden cause/effect overlap. Discharge the scoped denial classically to SOME bare actual NE, not necessity of the selected c. CF2 is replaced ONLY by MF2; no L1/L2/A1, Euclidean/S5/PSR/concreteness or source-truth premise is added.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
