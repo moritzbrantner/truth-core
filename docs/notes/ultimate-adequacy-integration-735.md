@@ -66,7 +66,9 @@ AQUINAS-DE-POTENTIA-Q5-A1-LAT is now pinned/read, no longer an unread opportunit
 Scoped live source verification --base90f7fc38 --head527d2ee4 passes for that new
 manifest, with471 other witnesses checked offline. No new claim/Lean/interface
 or root premise truth is established. Public three-file audit PR899 is published atde686d3978a2646e32d155a0bb4d0be708188ed0,
-CI41313719148 confirmed live; exact-head review requested once. Body/evidence under
+CI41313719148 is SUCCESS and exact-head review completed clean. PR899
+is merged; watch51248 is terminal0. Canonical merge awaits the owned q3a5
+audit commit to preserve its newer attempt history. Body/evidence under
 ~/.cache/truth-core-artifacts/de-potentia-q5a1/.
 
 GRIM-REAPER-FINITE-TESTS is implemented and Root-reviewed: indices.sup id+1
@@ -117,6 +119,19 @@ investigation, not an accusation that Koons simply assumes his conclusion.
 Existing pruss-koons attempt preserves the completed audit; worker now checks
 source constraints before proposing a new proof. Both are premise investigations,
 not more opaque conditional proof wrappers.
+
+The local-provenance lane has an approved exact positive proof target:
+signal n=some j implies either issued n with j=n or unchanged signal at n+1;
+and signal n=some j implies n≤j. Finite iteration to n+(j+1) then forces
+issued j, without assuming global provenance or WF of all histories. Omit the
+bound: constant some0/no issuance survives forwarding. Omit forwarding: isolated
+some0 at0/no issuance survives the bound. Both no-signal/no-issuance satisfies
+the retained pair, so no firing law or GrimReaperLaw follows from these two
+alone. Worker owns IndexedSignalProvenance and exact omission controls; code
+and final verification are pending. Source attribution stays separate: physical
+PGR positions motivate the bounded interface, while the later signal revision
+does not explicitly supply every numeric validation/forwarding constraint.
+
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
