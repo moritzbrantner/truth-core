@@ -18,6 +18,7 @@ import TruthCore.Explanation.HistorySelection
 import TruthCore.Explanation.JointCondition
 import TruthCore.Explanation.JointContingencyLocalization
 import TruthCore.Explanation.JointCooperation
+import TruthCore.Explanation.JointGroundEffectContingency
 import TruthCore.Explanation.LawActuality
 import TruthCore.Explanation.NecessaryFactBoundary
 import TruthCore.Explanation.NecessaryUltimateSource

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-POSITIVE-GROUND-RECORD",
+  "term": "selected admitted record with the same positive target label",
+  "lean_declaration": "TruthCore.Explanation.JointGroundEffectContingency.SelectedPositiveGround",
+  "definition": "SelectedPositiveGround h g b is exactly h.admitted g AND h.effect g = positive b for the existing Groups of mixed fact labels. It names the explicit record-admission and target-identity guards required by WholeGroundNecessitatesTargetAt; members remains the SAME contributors union enablers.",
+  "basis": "stipulative",
+  "note": "Minimal analyst guard bundle, not a new relation or stronger definition of adequate ground. Existing positive is a fact tag, not by itself A.exist b or actual Ontic existence. No subtype or carrier parameter hides either guard. No actual truth, explanatory sufficiency, autonomy, modal law or productive interpretation follows from admission. Groups imposes no ban on effect membership, cycles or self-grounding, so a selected contingent member may be the effect itself; no distinctness or explanatory independence is claimed. Empty or cyclic records are not newly modeled or excluded. Source truth/adequate full-ground interpretation and any independent noncircular real-support application remain OPEN; existing semantic examples/boundaries are linked by the reused record definitions."
+}

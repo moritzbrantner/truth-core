@@ -1,0 +1,14 @@
+{
+  "id": "INF-JOINT-GROUND-EFFECT-CONTINGENCY",
+  "input_statement_ids": [
+    "STMT-JOINT-CONDITION-ACTUAL",
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
+    "STMT-SELECTED-POSITIVE-GROUND-RECORD"
+  ],
+  "output_statement_id": "STMT-JOINT-CONDITION-CONTINGENT",
+  "rule": "same-effect-failure-contradicts-full-ground-joint-truth-under-explicit-necessitation",
+  "meaning": "Use the existing whole-ground modal necessitation with the two explicit selected-record guards. Contingency of positive b supplies an accessible SAME failure world v. If all members of THIS g held at v, whole necessitation would make that SAME positive b true there, contradicting its failure. Combine this joint failure with supplied actual JointTrue to obtain existing JointContingent of h.members g. No frame, coherence, autonomy, causal, concrete-bearer, R or ingredient premise is added. The effect’s actual truth remains in the retained Contingent input, although this joint-failure proof uses only its accessible-absence field; no minimality is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
