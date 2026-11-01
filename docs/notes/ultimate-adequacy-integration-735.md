@@ -8,20 +8,29 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
-Canonical proofs7f9c35e4 and08522d6b include actual unicity/necessity and common actual-ground coverage;
-main through #895 (bef1cc7a89c84b7c21757c34da4a490f2577dcb7) is integrated
-atb2682e09. #895 passed all required CI and exact-head review before merging.
-Ledger-F clarification5c2f676c removes an unintended current-time requirement
-from prose, preserving the formal world-relative premise and its OPEN status.
-No owner selection beyond A is received.
+Canonical proof batches7f9c35e4 and08522d6b separate actual-root uniqueness,
+necessity and common actual-ground coverage. Main through #897 is integrated;
+#896 merged cdaf322b and #897 merged bfe12066 after required CI and completed
+clean review at their exact heads fcbfe4ee and3e2beae4 respectively. Run41308525530
+passed both browser base paths; run41311442494 passed the proof-batch gates.
+Watch83480 is terminal0; old watch12904 is terminal1. Neither needs restarting.
+Ledger-F clarification5c2f676c preserves world-relative existence, not current-time
+presence. No owner selection beyond A is received. The fresh ledger presentation
+separates verbal D1, explanatory demand D2 and the actual-root application D3;
+these are not newly established premises.
 
-Measurement repair ba0c37d8 and scoped mobile wrap07c4e597 are published
-in PR896, CURRENT head fcbfe4eec09ed7f319e5c5f0e3cbc7c1f9314915,
-CI41308525530 active with clean exact-head review. The previous d7db16a4 run
-41305000723 is TERMINAL FAILURE solely for both skeleton mobile tests; all
-Lean/corpus/library/Comparator shards passed. Old watch12904 is terminal1.
-New watch83480 follows the NEW run and writes /tmp/pr896-current-watch.log;
-do not restart either job merely for an observation timeout.
+Common coverage public checkout is prepared at0555a228 on
+research/actual-common-root-public-20261101. Its worker is released to merge fresh
+main, regenerate imports, check the intended18-file slice and publish. Evidence
+and prepared body are in ~/.cache/truth-core-artifacts/actual-common-public/.
+No new /tmp artifacts: that filesystem is full. The requested read-only
+ledger_adversary examines independent warrant for the no-trap/root step and C;
+its completed audit accepts the conditional proof and confirms the existing
+root-equivalence attempt: formal no-trap has actual-root-existence strength under
+B/EM. D1 alone does not supply that actuality entitlement. It also flags that
+NecessaryAt quantifies over accessible worlds; unrestricted metaphysical necessity
+requires interpreting the frame as all genuine metaphysical possibilities.
+No new premise discharge or countermodel follows from this audit.
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
 38b4885c (same bytes as old d7 head), genuine CI reports and local webpack
@@ -30,7 +39,7 @@ long unbroken IDs forced candidate-grid min-content. Scoped overflow-wrap:anywhe
 restores390px with all text/links visible, no clipping or test weakening. The
 unchanged browser test is GREEN after full rebuild. Root and independent reviews
 accept the one-line utility. Local default Turbopack hit a Bun1.4.3 resolution
-setup problem; final CI must validate default Turbopack and BOTH base paths.
+setup problem; final CI41308525530 validated default Turbopack and BOTH base paths.
 No lockfiles/dependencies changed. Only three tool/UI files belong to PR896.
 
 372 scripts tests, 51 frontier tests and 8 atlas/state integration tests pass;
@@ -44,9 +53,8 @@ upgrade10, NOT the erroneous2; old global direct necessary-root route7 remains
 cheapest. Root12911 remains81 (29bare/52sourced), Catholic12routes/best31 and
 necessary-being17routes/best2 unchanged. Regressions capture unverified/
 transcription-only leaves and cyclic-core dependents, including grounded escapes.
-No philosophical progress is claimed from changing the report. After PR896
-passes its UPDATED-head gates and lands, publish the verified root decomposition
-and then the common-coverage batch; its public graph must use corrected counting.
+No philosophical progress is claimed from changing the report. PR896 and the root decomposition PR897 are merged; the common-coverage
+batch follows with corrected public counting.
 
 New proof batch is fully verified: ACTUAL-ROOT-UNIQUENESS has7 heads and asserts
 one actual concrete selected root, dropping C AND the necessity conclusion.
@@ -58,8 +66,7 @@ export3/check122 with no typechecker errors. Both probes are zero-axiom;
 independent16-file reviews pass. Frozen hashes baef9acc…6e9948bd and
 e8fbcc88…5dd42e6 are unchanged. Source/corpus33128 passes2756/1909/829/471.
 Owned proof18-file commit7f9c35e4 plus two relevant F-record clarifications are
-listed in /tmp/actual-root-uniqueness-delivery-files.txt; proof publication waits
-for PR896 to merge; the repair itself is locally verified. Do not publish the whole private handoff as that
+listed in /tmp/actual-root-uniqueness-delivery-files.txt; proof publication is merged in PR897; the repair is merged in PR896. Do not publish the whole private handoff as that
 slice. Verified source findings remain in their existing attempts.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
@@ -84,6 +91,7 @@ first proof PR. No source/explanatory truth or root premise is discharged.
 ```mermaid
 flowchart TD
   B["B + formal D + EM"] --> R["An actual concrete root exists"]
+  R -->|"C + EM"| NR["An actual necessary concrete root exists"]
   R -->|"E + F + Iesse + Hesse"| G["One root directly grounds every other actual concretum"]
   G --> U["The actual root is unique"]
   U -->|"C + EM"| N["That same root is necessary"]
