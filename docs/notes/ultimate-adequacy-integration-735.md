@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`bf6abb8a` before this update. Main is `576a1da3` through #870, integrated in
+`afa5a588` before this update. Main is `576a1da3` through #870, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2633
-statements,1806 claims,816 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2640
+statements,1813 claims,816 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -134,6 +134,21 @@ the eight-input necessary-cause blueprint, but loses the same-cause necessary
 endpoint. Formal implementation is assigned; no new checked whole theorem or
 independent philosophical weakening is yet advertised. Actual fusion existence
 and real causal/mereological applicability remain explicit OPEN commitments.
+L2 public PR #872 at4250d546, CI41285530914/review pending, preserves the
+verified proof inputs; its public attempt omits one unpublished source-context
+statement pointer only, with canonical evidence retained.
+First unity #84 batch is committedafa5a588: seven source readings with sibling
+de-re/distributive capability interpretations, explicit disambiguation and no
+worldwise-to-common-witness exchange. Candidate now#85 p208. Primary Vallicella
+access/read feasibility is separately assigned; no primary reading is claimed.
+Whole-route implementation now includes the frozen five-input selected-actual-
+fusion theorem and a separate conditional-fusion variant. The latter reuses
+owner A's exact existing Model-based populated head; its explanation field is
+unused data, with no PSR or new-field hypothesis. Actual population plus a
+conditional actual fusion for the selected nonempty family replaces assumed
+actual sum existence. Six named inputs include A; no numeric premise-count
+reduction or verified whole theorem is yet claimed. The original frozen
+five-input Challenge will not be edited.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
