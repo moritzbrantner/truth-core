@@ -20,7 +20,8 @@ separates verbal D1, explanatory demand D2 and the actual-root application D3;
 these are not newly established premises.
 
 Common coverage is published as PR898, headce11f281dae959825498aa11e0495173561e5e9d,
-CI41312998718 confirmed in_progress; exact-head review requested once. Its fresh
+CI41312998718 is SUCCESS; completed clean exact-head review accepted. PR898
+merged8f4f020f and is integrated in canonical91c3c56b. Watch1183 is terminal0. Its fresh
 main base is bfe12066. Exact18-file scope and95 Lean dependency/toolchain identities
 match certified inputs. Public corpus2741/1876/831 and438 source witnesses pass
 cheap checks; no cold verification repeated. Prepared reports/body remain in
@@ -64,8 +65,8 @@ ignored; its defeat still depends on the higher-source/action-to-esse premises.
 AQUINAS-DE-POTENTIA-Q5-A1-LAT is now pinned/read, no longer an unread opportunity.
 Scoped live source verification --base90f7fc38 --head527d2ee4 passes for that new
 manifest, with471 other witnesses checked offline. No new claim/Lean/interface
-or root premise truth is established. Public three-file batch85897974 is prepared
-atop898, HOLD until898 lands; body/evidence under
+or root premise truth is established. Public three-file audit PR899 is published atde686d3978a2646e32d155a0bb4d0be708188ed0,
+CI41313719148 confirmed live; exact-head review requested once. Body/evidence under
 ~/.cache/truth-core-artifacts/de-potentia-q5a1/.
 
 GRIM-REAPER-FINITE-TESTS is implemented and Root-reviewed: indices.sup id+1
@@ -77,10 +78,11 @@ Full build4407 jobs, binding and result Comparator/NanoDa pass; scoped-library
 verification passed2128 declarations/0typechecker errors (one known axiom
 pretty-printer diagnostic); session39414 is terminal0, log
 ~/.cache/truth-core-artifacts/grim-finite-gates.log. Root owns
-public898 watch1183, still live; do not restart it on observation timeout. Independent
+completed public898 watch1183 (terminal0); neither requires restarting. Independent
 Mathlib axiom probe reports only the standard permitted three. Source/corpus
 passes2758 statements/832results/472witnesses; root route count12/best31 unchanged.
-This is a compatibility control distinguishing infinite assembly from finite
+The proof batch is committed6c33aee6 and its worker is publishing a narrow
+direct-main slice with regenerated imports. This is a compatibility control distinguishing infinite assembly from finite
 full-rule satisfiability, not actual realization, causal finitism or a foundation
 premise discharge. No ordinary finitary compactness failure is asserted.
 
