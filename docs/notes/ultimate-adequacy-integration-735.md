@@ -37,7 +37,15 @@ build is live and owns the heavy-verification lease; the verification worker
 will complete setup-correct full tests before publishing the refreshed head,
 then apply the diagnostic result to #850 before controlled new-head source
 verification. Original drift remains
-unexplained until evidence establishes its cause.
+unexplained until evidence establishes its cause. During the new full-public
+source verification, the diagnostic code retained a real rejected eLife response:
+`BLOUNT-LENSKI-INNOVATION-ABSTRACT`, expected
+`593211d8a92dcd2db66961b3d0dc9dc2fe37a82a1e22b1bea15927074e6fb6c3`, received
+`14884b58222d71017c65a4978750b94a77e239333c92a758cff7b5f24d28e56c`.
+Root independently hashed the retained body and confirmed byte/hash agreement;
+metadata contains only public URL, label and expected/actual hashes. The existing
+pinned fallback then applies. This is real capture-path evidence, not resolution
+of the earlier A5 failure or completion of the still-live full verification.
 
 The renewed read-only adversarial review accepts the conditional B/C/formal-D/EM
 consequence in `WholeRosterFoundation.necessaryActualRoot`. Its strongest
@@ -67,6 +75,16 @@ discharged. Existing theorem types and accepted premises remain unchanged.
 A5 alternate readings
 are assigned for a bounded source batch; their main-reading dependencies prevent
 independent public delivery before #850. No premise or frontier is closed here.
+Root independently materialized and read the complete A5P2B/C2/P2C/C3 witnesses
+and inspected the six alternate claim records and two new statements. The
+source-fidelity review found no blocking issue: short P2C does not silently
+supply C3's full recalled conditional, stock fact contingency is not silently
+reclassified as κ individual contingency, and step17's hypothetical cause is
+not exported as step20's discharged conclusion. The writer is completing the
+existing attempt/inventory record and checks. The exact-strength proof has its
+new Challenge frozen and records prepared; focused compilation is queued behind
+the already live #823 baseline build. Neither queued compilation nor source
+fidelity acceptance is a completed Comparator/NanoDa gate.
 
 ## Current delivery and parallel work
 
