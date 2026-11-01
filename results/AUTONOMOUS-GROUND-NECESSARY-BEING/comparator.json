@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.AutonomousGroundNecessity.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

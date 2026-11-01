@@ -574,3 +574,46 @@ that any explanatory relation is necessitating. #744's cooperation theorem
 already separates occurrence from sufficiency and exercise from necessary
 existence; those results and the existing disambiguations remain unchanged.
 No source-derived claim, necessary-being proof or root-premise closure is added.
+
+### Complete autonomous ground: necessity of the original target
+
+`AUTONOMOUS-GROUND-NECESSARY-BEING` supplies the missing selected-target
+consumer, without changing the earlier extraction. It uses the **same**
+`Arena W B (ExistenceIngredient.Fact B O)`, Ontic and target `b` throughout.
+Its five explicit inputs are:
+
+- the particular target is actual and concrete;
+- an admitted complete ground of `positive b` has only autonomous members;
+- autonomous facts are necessary at the selected standpoint;
+- the complete joint ground necessitates this target;
+- `A.exist b = positive b` and that target label is true exactly where `b` exists.
+
+The proof imports `JointCondition.necessityEquivalence` on the exact full
+member union, including enablers. Joint necessity and whole-ground
+necessitation yield necessity of `positive b`; aligned fact coherence yields
+`NecessaryAt` for that very `b`. `sameTarget` retains its concrete/actual
+properties before the registered theorem projects to existing `NecessaryBeing`.
+No fact/condition is reified as a new being, and no dummy Profile or Exercise
+is constructed. The fixed joint-condition theorem is used unchanged.
+
+This bypasses `IngredientAt` and realization of essential-existence labels
+**for bare necessary existence**. It does not obtain an autonomous bearer or
+productive selected root. Comparing endpoints matters: the old two-input
+extraction returns an autonomous existential label; the new five-input
+consumer retains full ground, omits IngredientAt and adds actual target,
+autonomous necessity, joint necessitation and positive truth correspondence.
+These are different bundles and conclusions, not global weakening or an
+independent premise discharge. In particular, the owner's scoped adequate,
+nonvacuous PSR does not by itself supply the stronger autonomous-full-ground
+or either modal premise. Their source-to-framework interpretations remain OPEN.
+
+`AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT` is the companion incompatibility:
+the four ground/modal/coherence inputs already exclude contingency of this
+particular target; actual/concrete admission is unnecessary for that negative
+conclusion. It reuses the existing necessity/accessible-absence incompatibility
+with identity sufficiency, not efficient self-causation. Applied to every
+actually explained concrete target, this strong package excludes contingent
+concreta in its covered scope. It does not prove full propositional modal
+collapse without separately covering all facts. No member-alone sufficiency, frame law, excluded middle, descent, WF or productive-R bridge
+is introduced. The frozen coherence premise is stronger than the proof needs:
+only its forward truth-to-existence direction at accessible worlds is used.

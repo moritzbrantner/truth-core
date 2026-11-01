@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WHOLE-GROUND-NECESSITATION-AT",
+  "term": "joint necessitation by the complete ground of a selected target",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.WholeGroundNecessitatesTargetAt",
+  "definition": "For every admitted full record g whose effect is positive b, at each accessible world where ALL members g hold, positive b holds. Members is exactly contributors union enablers; no individual member is declared sufficient.",
+  "note": "OPEN selected-target scope of the stronger necessitating reading, separate from adequate nonvacuous explanation/PSR, admission and autonomous necessity. The record vocabulary is used for facts, not physical exercise or efficient causation. No frame law, IngredientAt, existential spine or well-foundedness is added."
+}
