@@ -11,7 +11,9 @@ open TruthCore.Logic.Regress (Graph)
 open TruthCore.Mereology.UniversalFusionBoundary (Covers)
 open TruthCore.Causality.AtomisticCausalSource
 
-/-- Source P2's terminating proper-part descent (p127, defended pp129–131).
+/-- Termination INVOKED by ChapterVI Step1 (p127, defended pp129–131),
+explicitly adopted as ADJUSTED P2 in ChapterVII pp155–156. Original listed
+P2 atomism alone does not assert this stronger termination policy.
 This is stronger than merely having a simple part. -/
 def ProperPartWF (B : Type) [PartialOrder B] : Prop :=
   WellFounded (fun p x : B => p < x)

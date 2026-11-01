@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "RUTTEN-RENEWED-THEISM-2012",
+    "source_url": "https://www.gjerutten.nl/TowardsARenewedCaseForTheism_ERutten.pdf",
+    "retrieved_at": "2026-11-01T16:11:11Z",
+    "sha256": "sha256:aaf4942b77a4f54f3c5d26f56f9d3880e2afd97425eeb478b3a71128bb5028d0",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright©2012 Emanuel Rutten, all rights reserved; no explicit reuse license observed. Legitimately author-posted dissertation, corroborated by VU institutional final-version catalogue. Only metadata, hashes, short incipit and paraphrases committed; raw/extracted full text remains ignored local evidence."
+  },
+  "passages": [
+    {
+      "id": "RUTTEN-RENEWED-THEISM-CH7-REPLIES",
+      "locator": "2012 dissertation, chapter VII, printed pp.154–158 (physical PDF pp.156–160), atomism/Step5/unity/causation replies and immediate context",
+      "claim_locator_prefixes": [
+        "2012 dissertation, chapter VII, printed p.154",
+        "2012 dissertation, chapter VII, printed p.155",
+        "2012 dissertation, chapter VII, printed p.156",
+        "2012 dissertation, chapter VII, printed p.157",
+        "2012 dissertation, chapter VII, printed p.158"
+      ],
+      "pdf_pages": {
+        "first": 156,
+        "last": 160
+      },
+      "incipit": "154 Towards a Renewed Case for T heism",
+      "text_sha256": "sha256:569a7e15ef9bed64d7da9e252bd225ec742640df293b4104f448e675d19b4761"
+    }
+  ]
+}
