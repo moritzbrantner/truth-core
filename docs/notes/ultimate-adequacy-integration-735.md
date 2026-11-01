@@ -52,8 +52,8 @@ Koons Cor1 source #883 and narrow q44ad2/ad3 #888 are landed; no universal
 convergence bridge was closed. AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE remains
 queued with both dictionary obligations and the #180 off-root condition.
 
-Current source delivery: #894 headfee38e92514959b43bae0a5eb79e2c909ad07dc2,
-CI41301061424 active; one current-head review requested. It publishes the final
+Final I42 source delivery #894 headfee38e92514959b43bae0a5eb79e2c909ad07dc2
+passed CI41301061424 and clean exact-head review and is merged. It publishes the final
 I42[17–24] batch, canonical3631aaf5, after source/corpus59163 passed and Root plus
 independent twelve-file fidelity review accepted it. All substantive I42[2–24]
 readings are extracted; independent warrant and SAME actual-root application
@@ -77,8 +77,8 @@ original full gates are reused without a cold duplicate build. #697/#320 retain
 the substantive uniqueness campaign.
 
 
-Active configured composition: ModalNecessaryBeingActuality.hasBeing derives the
-old NecessaryBeingHasBeing using existing modalPossible/modalIsAt, EM,
+Active configured composition: ModalNecessaryBeingActuality.hasBeing derives
+ONLY the configured NecessaryBeingHasBeing instance using modalPossible/modalIsAt, EM,
 ActualReflexive and ExistingInActAt. It then composes the imported Third Way
 convergence theorem with the SAME remaining maximum-causation and
 cause-of-necessity heads. The old four-head convergence becomes a configured
@@ -86,8 +86,14 @@ five-head route; this is dictionary alignment, no independent premise discharge
 or weakening claim. Generic temporal Possible is untouched. Exact conclusion
 identifies any necessary-per-se candidate with any maximum IF ONE EXISTS; it
 asserts no maximum existence or selected candidate's maximum predicate. Keep
-off root under #180. Challenge frozen ba46cec8…4e82864; focused45326 active,
-new corpus metadata/gates/review pending. Root owns generators and full gates.
+off root under #180. Original Challenge ba46cec8…4e82864 passed full51558/scoped55051. Before
+publication Root caught generic-versus-instance registration: the corpus closure
+graph compares IDs, not parameters. Separate ConfiguredHasBeing and
+ConfiguredConvergence heads plus two independent statement IDs now prevent
+reverse inference to arbitrary temporal schemas. This corrects advertised scope,
+not a failed proof; the original passed evidence is retained. Revised Challenge
+a1bd6a36…0d88c73 was frozen before Solution changes; focused71862/corpus90858
+active, renewed review/full gates pending. Root owns generators and full gates.
 
 Vincent2026 full text remains unavailable through the checked legitimate
 sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
@@ -96,7 +102,7 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: finish #894 and the configured modal-actuality composition, preserving
+Next: finish the configured modal-actuality composition and integrate #894, preserving
 exact off-root scope. Existing consumers remain the route for constitutive
 individuation and common numerical origin; no duplicate generic wrapper is needed. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
