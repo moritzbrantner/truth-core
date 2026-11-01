@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.underived"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
