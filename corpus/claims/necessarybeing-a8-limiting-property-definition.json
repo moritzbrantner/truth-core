@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A8-LIMITING-PROPERTY-DEFINITION",
+  "statement_id": "STMT-NB-A8-LIMITING-PROPERTY-DEFINITION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8P1, entire limiting-property introduction and property/entails title attributes",
+  "interpretation": "Attribute the source definition and example without silently choosing a full Limiting-as-existential-deficiency formal model. Admission of a deficiency property differs from an actual deficient bearer; uniformity/intension of the property and formal quantifier/domain semantics remain open. Main C4 separately asserts backward closure under entailing a limiting property, explicitly preserved in the main-argument record.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

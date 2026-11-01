@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A8-MAIN-LIMITATION-REDUCTIO",
+  "statement_id": "STMT-NB-A8-MAIN-LIMITATION-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8C, steps 1–11 and concrete/entails/limiting/property/Necessary-Being title attributes",
+  "interpretation": "Preserve C2’s necessarily-every-causal-concrete-individual classification and C6’s separate powerful-Necessary-Being-to-concrete implication; neither concerns arbitrary entities or physicality. C4 explicitly asserts BACKWARD closure: if X entails Y and Y is limiting, X is limiting. C7–8 use that same direction. Source modalities/property domains and classification correspondence remain open, rather than assuming a full existential-deficiency semantics. Entailment is modal universal inclusion, including vacuity, not A9’s nontrivial relation. Admission/uniform deficiency and evaluative applicability need independent scrutiny. No Scott complement-exclusion/positivity, source soundness, God naming, uniqueness or all-attribute proof is supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

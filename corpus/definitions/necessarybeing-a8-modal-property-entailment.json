@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+  "term": "property entailment as modal universal inclusion in A8",
+  "definition": "A8P1 describes a property as a term, concept or abstract entity characterizing whatever has it. Its entails title says necessarily anything characterized by X is characterized by Y. A8C uses that modal universal inclusion and A8C2 explicitly allows necessarily false antecedents to entail vacuously. This is not relevant, causal, explanatory or independently nontrivial consequence.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A8-LIMITING-PROPERTY-DEFINITION",
+    "NB-SURVEY-A8-MAIN-LIMITATION-REDUCTIO"
+  ],
+  "note": "No complete formal property domain, actualist/possibilist quantification or selected correspondence with Kripke Property/Box fields is established. A9’s nontrivial-entailment distinction is not silently substituted. Existing Scott positivity uses a separate classifier and global closure/exclusion axioms; no equivalence or complement-exclusion bridge is supplied."
+}
