@@ -1,0 +1,20 @@
+{
+  "id": "STMT-COUNT-CAUSE-TIME-OPPORTUNITY",
+  "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.CauseTimeOpportunity",
+  "paraphrase": "An accessible world contains a concrete individual at a time when no concrete contingent individual is present, and that same individual has the supplied count-one cause marker at a target time. No ordering, first threshold or all-earlier absence is required. An explicit OPEN packaged witness, not a source-attributed causability report.",
+  "definition_ids": [
+    "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

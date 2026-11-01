@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
+  "term": "possible count-one cause with absence at its own presence time",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.CauseTimeOpportunity",
+  "definition": "On the unchanged History and existing AtLeastAt, an accessible world v has a concrete candidate c present at tc, a supplied CauseCount v c 1 t0 marker, and no count-one threshold at tc. The times tc and t0 need no order; no assertion of a later threshold or absence at all earlier times is made. CauseCount retains its existing situation-marker meaning, distinct from Ontic.Causes or existential grounding.",
+  "note": "OPEN analyst-defined admission, not a source attribution. Direct productive contribution can be partial, but a prior condition is not automatically an individual or a concrete candidate. A7 cause-time absence motivates the guard; temporal/individual/contingent-class/world interpretation and real availability remain open. The original first-threshold witness projects into this witness without changing its c, tc or t0. This is not CountDescent monotonicity, independently defended modal possibility, or an adequate explanation of reality."
+}

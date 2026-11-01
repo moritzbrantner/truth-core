@@ -1,0 +1,10 @@
+{
+  "id": "COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "argument_id": "COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Solution",
+  "theorem": "TruthCore.Results.Causality.CountCauseTimeNecessity.checks",
+  "comparator_config": "results/COUNT-CAUSE-TIME-POSITIVE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "On the EXACT unchanged CountTemporalControls.history, import the existing old PositiveControl and project its old six-input bundle to all five new inputs. Retain its necessary none cause, five distinct contingent targets and actual contingent some0; verify the additional count-one marker for none. Apply the new theorem to obtain the same-concrete-cause endpoint. No new carrier, history, causal field or metaphysical possibility is introduced. CauseCount remains a fixture marker, not Ontic.Causes; the old ordinary cause relation stays empty. This is joint compatibility, not philosophical adequacy or premise truth."
+}

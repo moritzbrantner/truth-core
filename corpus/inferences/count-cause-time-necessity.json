@@ -1,0 +1,15 @@
+{
+  "id": "INF-COUNT-CAUSE-TIME-NECESSITY",
+  "input_statement_ids": [
+    "STMT-COUNT-CAUSE-TIME-OPPORTUNITY",
+    "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "output_statement_id": "STMT-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
+  "rule": "count-cause-time-inference",
+  "meaning": "From the cause-time opportunity and unchanged history-presence, excluded-middle, Euclidean-access and selected-world-reflexivity commitments, derive the SAME actual necessary concrete individual, preserving its count-one cause role and necessity at the accessible history. If it were contingent, its Fin1 singleton would violate absence at its own presence time. History presence supplies existence; EM excludes accessible absence, and Euclidean sibling/back access transports necessity and actuality to w. No time Preorder, cause-before-target, later threshold or all-earlier absence is used. Opportunity admission and all semantic bridges remain OPEN; no uniqueness, God or explanatory adequacy follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

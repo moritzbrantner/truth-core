@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
+  "term": "same concrete necessary individual retaining a possible count-one cause role",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.NecessaryConcreteCauseAt",
+  "definition": "One world v accessible from w and one rigid individual c witness: Concrete c, CauseCount v c 1 t for some t, NecessaryAt h.ontic v c, ExistsAt w c, and NecessaryAt h.ontic w c. It is the exact existing CountTemporalNecessity.sameCause conclusion body with a named reusable predicate.",
+  "note": "No source attribution, actual-world causal role, uniqueness, groundlessness, God identity or complete explanatory sufficiency is asserted. The concrete domain and supplied count-cause interpretation remain unchanged. Structural projection to NecessaryBeing forgets information rather than discharging an open premise."
+}

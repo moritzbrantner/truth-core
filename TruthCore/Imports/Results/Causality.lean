@@ -13,6 +13,8 @@ import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ContingentAncestry.Solution
 import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
+import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
+import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
 import TruthCore.Results.Causality.CountTemporalControls.Solution
 import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 import TruthCore.Results.Causality.DerivativeJointPower.Solution

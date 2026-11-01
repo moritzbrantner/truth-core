@@ -1,0 +1,22 @@
+{
+  "id": "STMT-COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.PositiveControl",
+  "paraphrase": "On the EXACT unchanged CountTemporalControls.history, import the existing old PositiveControl and project its old six-input bundle to all five new inputs. Retain its necessary none cause, five distinct contingent targets and actual contingent some0; verify the additional count-one marker for none. Apply the new theorem to obtain the same-concrete-cause endpoint. No new carrier, history, causal field or metaphysical possibility is introduced. CauseCount remains a fixture marker, not Ontic.Causes; the old ordinary cause relation stays empty. This is joint compatibility, not philosophical adequacy or premise truth.",
+  "definition_ids": [
+    "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
+    "DEF-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
+    "DEF-COUNT-TEMPORAL-POSITIVE-FIXTURE",
+    "DEF-COUNT-TEMPORAL-THRESHOLD",
+    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
+    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

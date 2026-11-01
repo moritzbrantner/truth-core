@@ -1,0 +1,11 @@
+{
+  "id": "COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
+  "argument_id": "COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution",
+  "theorem": "TruthCore.Results.Causality.CountCauseTimeNecessityProjection.project",
+  "comparator_config": "results/COUNT-CAUSE-TIME-NECESSITY-PROJECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly/transcription: select the SAME individual from the richer concrete count-cause witness and retain actual existence and NecessaryAt at w. Forget concreteness, accessible-history necessity and cause role. One composite OPEN input, not an independently defended one-premise existence proof or philosophical discharge.",
+  "transcription": "assembly"
+}
