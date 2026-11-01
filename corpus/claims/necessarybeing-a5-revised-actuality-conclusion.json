@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A5-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5C3, final actuality paragraph after step 20 and the fixed-roster note",
+  "interpretation": "The final paragraph/ending matches the existing A2 revised actuality meaning. It consumes the discharged possible κ Necessary Being conclusion at20, not the hypothetical possible cause at17. This is an attributed conditional application of automatic existence, not actual causal exercise, ordinary NecessaryAt, κ fact-obtaining semantics or a proved rigid-witness transport.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

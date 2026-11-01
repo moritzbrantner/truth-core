@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A5-REVISED-HISTORY-REDUCTIO",
+  "statement_id": "STMT-NB-A5-REVISED-HISTORY-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5C3, steps 1–20, step 11 inner proof and the fixed-roster note following step 20",
+  "interpretation": "The prefix words match main A5 but the individual class/roster is now κ-related; do not alias the ordinary history argument or direct A3/A4 revised arguments. Keep the separately recalled FULL P1 content as an input without deriving it from the short prompt. Inner NecC is discharged11, outer NoPossibleκNB remains11–17 and is discharged18–20 only to possible κ Necessary Being. Earlier STMT-NB-A4-POSSIBLE-CAUSED-THING is borrowed CONTENT, not new assent or an all-entry-path/session guarantee. Situation contingency retains its stock modal-obtaining wording; no κ-to-Fact classification bridge is chosen. Exact current/past roster, empty negative C, fact admission/preservation, class/time/domain and actual concrete causal-bearer/externality gaps remain OPEN. Existing empty-history/count/modal proofs are guarded reuse, not source soundness or a new cause/witness export.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

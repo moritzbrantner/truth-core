@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A5-REVISED-SHORT-UNCAUSABILITY-REPORT",
+  "statement_id": "STMT-NB-A5-REVISED-SHORT-UNCAUSABILITY-REPORT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5P2C, shortened previous-report reaffirmation question and affirmative-answer continuation",
+  "interpretation": "Keep the literal short report separate from the original full P1 conditional. P2C omits explicit obtaining/nonempty conditional wording; its situation tooltip still says possible and not required to obtain. The previous-report reference may be anaphoric, but no formal relation to the full report is selected or certified here. Do not infer either entailment direction, actual assent, stored session state or κ application to fact obtaining.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
