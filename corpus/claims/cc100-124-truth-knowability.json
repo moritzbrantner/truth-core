@@ -1,0 +1,16 @@
+{
+  "id": "CC100-124-TRUTH-KNOWABILITY",
+  "statement_id": "STMT-CC100-124-TRUTH-KNOWABILITY",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 1",
+  "interpretation": "Preserve truth-restricted possible knowledge, not actual universal knowledge, one same possible knower or knowledge of false propositions. No knowledge/modal axioms, factivity, conjunction closure or proposition-domain comprehension are supplied. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
