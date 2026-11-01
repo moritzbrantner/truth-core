@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+  "statement_id": "STMT-NB-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9P1, complete ordinary/nontrivial distinction, hedged square-circle examples and entails/nontrivially-entails/property/instance titles",
+  "interpretation": "Keep ordinary necessary universal inclusion and the additional basis/independence criterion distinct. The source expressly considers impossible square-circle antecedents while hedging its examples; do not strengthen may-seem/plausibly into proved NT facts. NT cannot faithfully be replaced by Dia(antecedent) AND ordinary boxed implication, nor by sourcehood/causal explanation. A derivational, intensional or counterpossible account would need separate semantics and defense; no such formal framework is selected.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
