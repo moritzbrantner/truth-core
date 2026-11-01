@@ -1,0 +1,27 @@
+{
+  "id": "RUTTEN-CH6-EXISTENTIAL-PRIORITY-TRANSITIVITY",
+  "statement_id": "STMT-EXISTENTIAL-PRIORITY-TRANSITIVE",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.124 footnote174",
+  "interpretation": "The footnote explicitly asserts and argues for transitivity of asymmetric existential-requirement priority. This attributes its structural commitment; the conditional proof does not independently establish that existence requirements have this interpretation or structure. Full materialized chapter printed123–135/PDF125–137 was read, and these precise contexts reread. Source assertion is not independent premise truth, actuality, necessity or God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

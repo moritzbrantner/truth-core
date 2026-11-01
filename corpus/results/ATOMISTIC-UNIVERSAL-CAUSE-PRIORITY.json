@@ -1,0 +1,10 @@
+{
+  "id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY",
+  "argument_id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.universalPriority",
+  "comparator_config": "results/ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY/comparator.json",
+  "status": "solution-present",
+  "description": "Well-foundedness supplies the old AtomicParts input; import the certified old outgoing theorem to populate caused simples, then use the new caused-simple extraction. A cover M cannot cause an object without overlapping that effect. Activity supplies N→M; a caused N would likewise overlap M. Thus N is uncaused. For every caused x choose a caused simple p≤x, also p≤M. The explicit cause-to-EACH-effect-part interface gives Prior N p; equality or proper-part priority and transitivity gives Prior N x. M is only a cover. No unique incoming cause, priority irreflexivity, causal well-foundedness, full author effect-universality, modality or grounding dictionary is assumed or established. Root-premise closure delta: zero. Applicability and source premise truth remain open."
+}

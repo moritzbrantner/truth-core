@@ -1,0 +1,27 @@
+{
+  "id": "RUTTEN-CH6-CAUSE-PRIOR-EFFECT-PARTS",
+  "statement_id": "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.135 P5 defense; p.124 footnote174",
+  "interpretation": "The P5 defense explicitly asserts priority of an existence-producing cause to its effect AND EACH OF ITS PARTS. This is an additional priority interface, not derived from cause-to-effect and proper-part-to-whole alone. Includes the improper part under standard reflexive parthood. Full materialized chapter printed123–135/PDF125–137 was read, and these precise contexts reread. Source assertion is not independent premise truth, actuality, necessity or God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

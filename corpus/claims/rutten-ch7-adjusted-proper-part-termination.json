@@ -1,0 +1,27 @@
+{
+  "id": "RUTTEN-CH7-ADJUSTED-PROPER-PART-TERMINATION",
+  "statement_id": "STMT-PROPER-PART-WELL-FOUNDEDNESS",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VII, printed p.155 through p.156, objection that the second premise is insufficient for Step1 and adjusted second-premise reply",
+  "interpretation": "The author distinguishes original P2 mereological atomism from the absence of infinite descending proper-part sequences. He raises the atomistic interval/subset model objection, disputes its independent ontological significance, but grants that IF such a model is admitted then original Step1 does not follow from atomism alone. He then explicitly adjusts P2 to prohibit downward infinite proper-part sequences, claiming that the earlier defense already supports it; footnote209 adds a science-based defense. Render that adjusted termination premise by the existing standard WellFounded strict parthood on the supplied non-null object domain, with its classical order interpretation explicit. This is not a new statement, a proof that atomicity entails well-foundedness, an independently verified defense of the premise, causal well-foundedness, a prohibition of infinite causal chains, or a modal-necessity/God conclusion. The entire pinned ChapterVII reply range154–158/PDF156–160 was materialized and read, including the distinct Step5 and total-cause replies.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}
