@@ -1,0 +1,17 @@
+{
+  "id": "STMT-FUSION-FAMILY-NO-NECESSARY-PARTS-AT",
+  "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.FamilyNoNecessaryPartsAt",
+  "paraphrase": "At the chosen standpoint of the SAME Ontic and fixed parthood, every selected family member has no part satisfying existing NecessaryAt. This does not assert actual family-member existence, an inhabited actual population, ordinary ContingentAt or causal role.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
