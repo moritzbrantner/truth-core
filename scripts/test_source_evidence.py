@@ -343,6 +343,72 @@ class FakeWeb:
         return page
 
 
+class WebDriftDiagnosticsTest(unittest.TestCase):
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.root = Path(directory.name)
+        for name, value in (("WEB_CACHE", self.root / "trusted"),
+                            ("SOURCE_DIAGNOSTICS", self.root / "diagnostics")):
+            patcher = mock.patch.object(se, name, value, create=True)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def test_rejected_download_is_recoverable_without_entering_trusted_cache(self) -> None:
+        passage = web_passage({"from": {"anchor": "13"}})
+        passage["id"] = "../../untrusted-label"
+        unexpected = b"<html>unexpected response</html>\x00\xff"
+        expected_error = (f"{passage['id']}: byte drift at {LIVE_URL}: expected "
+                          f"{passage['sha256']}, got {se.sha256_bytes(unexpected)}")
+        with mock.patch.object(se, "download", return_value=unexpected) as download:
+            with self.assertRaises(se.SourceEvidenceError) as error:
+                se.resolve_web_snapshot(passage, use_cache=False, fetch=se.fetch_web_bytes)
+        self.assertEqual(str(error.exception), expected_error)
+        download.assert_called_once_with(LIVE_URL, passage["id"])
+        bodies = list(se.SOURCE_DIAGNOSTICS.glob("*.bin"))
+        self.assertEqual(len(bodies), 1)
+        self.assertRegex(bodies[0].name, r"^[0-9a-f]{64}\.bin$")
+        self.assertEqual(bodies[0].read_bytes(), unexpected)
+        self.assertEqual(json.loads(bodies[0].with_suffix(".json").read_text()), {
+            "url": LIVE_URL, "label": passage["id"],
+            "expected_sha256": passage["sha256"], "actual_sha256": se.sha256_bytes(unexpected),
+        })
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_diagnostic_io_failure_preserves_byte_drift_rejection(self) -> None:
+        se.SOURCE_DIAGNOSTICS.write_bytes(b"not a directory")
+        with mock.patch.object(se, "download", return_value=b"unexpected"), \
+                contextlib.redirect_stderr(io.StringIO()) as stderr:
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                se.fetch_web_bytes(LIVE_URL, se.sha256_bytes(HTML), "fixture")
+        self.assertIn("could not save source drift diagnostics", stderr.getvalue())
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_disk_and_stderr_failure_preserve_exact_byte_drift_error(self) -> None:
+        se.SOURCE_DIAGNOSTICS.write_bytes(b"not a directory")
+        unexpected = b"unexpected"
+        expected = se.sha256_bytes(HTML)
+        for failure in (OSError("stderr unavailable"), ValueError("closed stderr")):
+            with self.subTest(failure=type(failure).__name__), \
+                    mock.patch.object(se, "download", return_value=unexpected), \
+                    mock.patch.object(se.sys, "stderr") as stderr:
+                stderr.write.side_effect = failure
+                with self.assertRaises(se.SourceEvidenceError) as error:
+                    se.fetch_web_bytes(LIVE_URL, expected, "fixture")
+            self.assertEqual(str(error.exception),
+                             f"fixture: byte drift at {LIVE_URL}: expected {expected}, "
+                             f"got {se.sha256_bytes(unexpected)}")
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_matching_download_uses_only_trusted_cache(self) -> None:
+        passage = web_passage({"from": {"anchor": "13"}})
+        with mock.patch.object(se, "download", return_value=HTML):
+            self.assertEqual(se.resolve_web_snapshot(
+                passage, use_cache=False, fetch=se.fetch_web_bytes), HTML)
+        self.assertEqual(se.web_cache_path(passage["sha256"]).read_bytes(), HTML)
+        self.assertFalse(se.SOURCE_DIAGNOSTICS.exists())
+
+
 class WebSnapshotTest(unittest.TestCase):
     def setUp(self) -> None:
         directory = tempfile.TemporaryDirectory()

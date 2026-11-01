@@ -193,3 +193,21 @@ The source-evidence layer intentionally does not use an LLM score as a truth ora
 - the philosophical premise itself is true.
 
 Those are handled by explicit interpretation notes, fidelity critique, alternative claims, and human or scholarly review. The source-evidence layer makes that review auditable because the underlying witness is stable and reproducible.
+
+## Rejected web-response diagnostics
+
+When a downloaded web body fails its pinned SHA-256, verification still rejects
+it and saves those exact hash-input bytes as `.bin` under the ignored
+`.cache/truth-core/source-diagnostics/` directory. A paired JSON file records
+only the requested URL, passage label, expected hash and actual hash. Filenames
+are hashes; rejected bodies never enter the trusted web cache. The diagnostic
+write uses the failed download itself, with no second request. If writing fails,
+the original byte-drift error still fails verification.
+
+The source-verification CI job uploads only this directory as
+`source-drift-diagnostics-<run_attempt>`, retained for three days. Each rerun
+keeps earlier attempts’ artifacts. Inspect a downloaded `.bin`
+as untrusted data and compare its paired hashes; a later successful fetch cannot
+explain what the failed request returned. Request/response headers and environment
+values are not collected. These diagnostics do not establish the cause of drift
+or authorize changing a source pin.
