@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A5-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5P2C, opening revised must-exist stipulation and complementary individual classification",
+  "interpretation": "The opening stipulation matches the existing A2 revised meaning. Reuse that statement, leaving automatic/counterfactual semantics, material implication, ordinary NecessaryAt identity and class persistence unselected. This is an individual-existence classification, not an automatic redefinition of the contingent-situation tooltip or fact obtaining. No existing bearer or actual assent is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
