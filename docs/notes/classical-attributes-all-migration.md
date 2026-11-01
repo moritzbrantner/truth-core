@@ -651,3 +651,24 @@ Public PR #859 delivered this exact24-file autonomous-ground slice atcb63cb7a
 and merged as332a0321 after required CI41276921929 and completed clean exact-head
 review. Canonical integrationf101837f changes none of the verified Lean inputs.
 The source readings remain distinct from source truth and the open premises.
+
+
+### Modal event-measure consequence (2026-11-01)
+
+`NECESSARY-BEING-MEASURE-EQUALITY` composes existing same-individual modal
+transport with Mathlib `measure_congr`. Its sole named open input bundles
+almost-everywhere Euclidean accessibility and selected-world reflexivity over
+a supplied family of interpretations. Possible-necessary and actual-necessary
+events then have equal arbitrary measure; the helper transfers a supplied
+strict lower threshold. It supplies neither that threshold nor weights,
+normalization, event measurability, causal capability or actual existence.
+The witness is preserved within each interpretation, not uniformly across them.
+
+This is a secondary mathematical consequence, not a new actuality route.
+Public PR #863 at `bfcd1ee23ce3e3574a506b453933f8ba5ca173cd` preserves Catholic
+reaching premises81/best route31 and NecessaryBeing47/best2; every route and
+reaching set is unchanged. All1891 Lean files and actual toolchain/manifest/
+lakefile match the independently verified canonical proof inputs; public
+source verification checks435 offline witnesses with zero live fetches.
+Required delivered-head CI and review remain pending. No frontier closure
+or owner truth selection is inferred.

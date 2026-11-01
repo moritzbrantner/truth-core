@@ -22,9 +22,11 @@ existing pins/0mismatch, exact Comparator/result NanoDa and scoped library
 NanoDa (7 new declarations/16775 dependency declarations, zero type errors)
 pass on its unchanged proof inputs. It proves conditional event-measure
 equality and supplied strict-threshold transfer, not actuality, calibrated
-probability or a root-premise discharge. Focused public delivery is in progress
-in the isolated necessary-being-measure worktree; no delivered-head CI success
-is yet claimed. The existing attempt records exact premises and boundaries.
+probability or a root-premise discharge. Public PR #863 is open at `bfcd1ee23ce3e3574a506b453933f8ba5ca173cd`;
+CI41282292755 and the once-requested exact-head review are pending.
+All1891 Lean files and actual toolchain/manifest/lakefile match verified inputs;
+Catholic81/best31 and NecessaryBeing47/best2, including every route, are unchanged.
+No delivered-head CI success is yet claimed. The existing attempt records exact premises and boundaries.
 
 Fresh adversarial audit confirms D2 as the key existence-application burden:
 D1's explanatory insufficiency does not alone establish formal whole-roster
