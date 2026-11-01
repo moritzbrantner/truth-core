@@ -497,10 +497,11 @@ independent explanation of the necessary source.
 
 The materialized *In Metaphysicam* V lect.13 nn15/18 ([82515]/[82518])
 supports asymmetry of its specified natural-priority sense. Applying it to the
-selected actual grounds field still needs an R-to-that-priority bridge: F and G
-run in the converse direction and do not supply it. The materialized ST I q104
-a1 distinction between becoming and ongoing being-giving conservation supports
-effect-dependence, not the preserver's converse independence or exclusion of
+selected actual grounds field still needs an R-to-that-priority bridge. G maps
+priority to R; F maps esse-causation to R. Neither supplies R-to-priority.
+The materialized ST I q104 a1 distinction between becoming and ongoing
+being-giving conservation supports effect-dependence, not the preserver's
+converse independence or exclusion of
 all reciprocal partial support. Its universal divine application depends on
 prior theological commitments and cannot independently justify the earlier
 God route. No-self-efficient-causation alone does not prove two-way R exclusion.
