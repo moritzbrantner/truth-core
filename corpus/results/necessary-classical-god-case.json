@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CLASSICAL-GOD-CASE",
+  "argument_id": "NECESSARY-CLASSICAL-GOD-CASE",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodCase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodCase.derive",
+  "comparator_config": "results/NECESSARY-CLASSICAL-GOD-CASE/comparator.json",
+  "status": "solution-present",
+  "description": "Registered32-input root composition: import the existing25-input NecessaryClassicalGodRoot theorem ONCE, preserving the actual selected necessary root and all exact dictionaries on sigma.Being. Apply its existing transparent projection to UniqueClassicalGodExists and unpack that SAME witness g. Its actual IsTheOneGod sigma.IsGod clause identifies every signature-God with g; identity substitution transports its primitive classical-attributes field to every such God. Import the unchanged Skeleton.catholicismSkeleton with this witness, the transported universal attributes, and EXACTLY the seven existing revelation/historical/teaching premises. This materializes a root consumer for the new necessary-root route; no historical proof, religious premise, source claim, vocabulary, carrier bridge or independently defended attribute is added. The historical/teaching end remains structural assembly/transcription conditional on those OPEN interfaces; the earlier infinity, eternity, naming and primitive-field adapters likewise remain explicit. Exact32=25+7; no philosophical premise is discharged, old fixed root arguments are unchanged, and no global weakening/minimality or independent Catholic truth is claimed."
+}
