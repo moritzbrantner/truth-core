@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
+  "argument_id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
+  "challenge_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointGroundEffectContingency.contingentMember",
+  "comparator_config": "results/JOINT-GROUND-EFFECT-CONTINGENT-MEMBER/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the constructive joint-ground/effect result with imported classical JointContingencyLocalization.localize under the SAME four inputs. Some member of the SAME full contributor/enabler union actually holds and fails at the effect’s SAME failure world. No particular cause, choice, sufficient/indispensable contributor or concrete bearer is identified; the member need not be distinct from the effect, and no independence, actual grounding or root truth is established."
+}
