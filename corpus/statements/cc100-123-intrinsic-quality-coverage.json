@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-123-INTRINSIC-QUALITY-COVERAGE",
+  "paraphrase": "Every thing has an intrinsic, non-relational quality.",
+  "definition_ids": [
+    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

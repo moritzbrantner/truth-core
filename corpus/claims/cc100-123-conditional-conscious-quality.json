@@ -1,0 +1,16 @@
+{
+  "id": "CC100-123-CONDITIONAL-CONSCIOUS-QUALITY",
+  "statement_id": "STMT-CC100-123-CONDITIONAL-CONSCIOUS-QUALITY",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 3 under steps 1–2",
+  "interpretation": "Retain the displayed conscious-quality conclusion, not the stronger claim every thing is identical to a conscious state. The shift from a conscious-state bearer restriction to a conscious quality needs interpretation; no formal proof or equivocation refutation is registered. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
