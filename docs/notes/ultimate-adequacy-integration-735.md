@@ -3197,3 +3197,23 @@ source Rogers2008 remains unread, and no necessary/classical God conclusion
 or proof is registered. Corpus/source checks pass at 2683 statements, 1847
 claims and 469 witnesses. Next source item is #119, with #120 adjacent suffix
 reuse subject to semantic identity and its missing actuality step retained.
+
+### Reuse and reduction audit
+
+Root reviewed the FixedConstituentNecessaryBeing core, frozen Challenge and
+Solution while focused verification was still underway: SAME genuine Arena,
+actual fact truth and boxed truth realize the same selected assigned bearer.
+The composed proof calls the existing necessaryReason producer. No acceptance
+of verification is inferred from this code review. Root also inspected the
+producer and its ReasonClosed type: five fields are bundled (explanandum,
+truthful, closed, covered, nonCopy), and necessaryReason does not project
+nonCopy. Preserve the current frozen result; a separate future weaker result
+can reuse ExplanatoryAdequacy.forced with only the required account clauses.
+This is an identified potential reduction, not an already verified discharge.
+
+Source #119/120 committed 4fdb5784 after full record/source review and focused
+checks (2690 statements,1857 claims,469 witnesses). Ten claims reuse exactly
+three identical suffix statements; #120's initial normative probability
+account does not establish actual proper function. Both design steps and
+probable-God bridges remain open attributed commitments, no Lean consequence
+or actual God truth. #121 is next.
