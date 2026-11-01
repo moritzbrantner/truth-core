@@ -34,7 +34,22 @@ existing root-equivalence attempt: formal no-trap has actual-root-existence
 strength under B/EM. D1 alone does not supply that actuality entitlement.
 NecessaryAt quantifies over accessible worlds; unrestricted metaphysical necessity
 requires interpreting the frame as all genuine metaphysical possibilities.
-No new premise discharge or countermodel follows. Next research lanes inspect
+No new premise discharge or countermodel follows. Coordinator worker_env --check passed at82d9a9a6:
+pinned Leanv4.35.0 and repo-local verifier setup; workers use worker_env command
+mode without repeated preflight. The causal-finitism lane is developing a genuinely
+stronger finite test: every finite set of COMPLETE infinite-tail rules is
+satisfiable although the existing full Grim Reaper law is impossible. Each rule
+has an infinite tail quantifier; ordinary finitary compactness is not being denied.
+Until checked, this is a proof target, not a certified control.
+
+Public tree availability is now independently observed in headless Chromium:
+/truth-core/forest/ HTTP200, rendered AND/OR tree with16buttons/2selects and no
+visible loading placeholder. Footer main@bef1cc7 remains older than pending
+bfe deployment. The earlier Pages failure annotation identifies hosted-runner
+ENOSPC writing _diag/Worker_20261101-132819-utc.log, not a repository failing step.
+Cause of disk consumption remains unestablished. Evidence lives under
+~/.cache/truth-core-artifacts/ only for current proof CI; Pages diagnostic
+artifacts are ~/.cache/pages-diagnosis/. No retry was launched. Next research lanes inspect
 backlog arguments for foundation (including causal-finitism and unique global
 source-free configurations) and a primary De Potentia q5a1 witness for continued
 existential dependence. Existing q104a1 findings must be reused; no source reading
