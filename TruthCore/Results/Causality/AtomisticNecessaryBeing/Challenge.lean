@@ -1,4 +1,5 @@
 import TruthCore.Causality.AtomisticCausalSource
+import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Causality.WorldSourceRegress
 
 namespace TruthCore.Results.Causality.AtomisticNecessaryBeing
