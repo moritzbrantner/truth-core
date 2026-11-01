@@ -102,6 +102,32 @@ contribution/parthood edges cannot be substituted for complete-production edges.
 No source existence, necessity or grounding correspondence follows from an
 at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 terminal0 PASS:4430jobs,873bound/2legacy/0mismatch, Comparator/resultNanoDa, scoped1module/1export/672checked/0typeerrors (known axiom pretty-printer diagnostic). No premise truth discharged.
 
+### Registered cumulative chain (new consumers at bd9b6aea)
+
+All stages use one supplied Profile, selected world and literal being carrier;
+the attribute profile has that same carrier. The first modal-union step may
+select a different necessary witness. Every later stage retains its selected
+root, including the structural-tail witness identified by root uniqueness.
+
+```mermaid
+flowchart LR
+  NC["Necessary concrete being"] -->|"support closure + union foundation + T + EM"| U["Necessary concrete underived being"]
+  U -->|"existing maximum and perfection interfaces"| P["Perfect necessary actual root"]
+  P -->|"13-head supplied-root consumer"| PW["Same root: goodness, simplicity, intellect and will"]
+  PW -->|"11-head supplied-root consumer"| G["Same root: classical God package"]
+  G -->|"existing projection"| UG["Unique classical God exists"]
+```
+
+The two new consumers are PerfectRootPositiveIntellectWill.derive and
+ClassicalGodFromPositiveRoot.derive. Their exact additional policies are in the
+bound argument records; the13/11 head counts include the supplied endpoint.
+They remove the need to re-assume an entire old foundation producer at each
+stage, not the need to defend the retained metaphysical interpretations.
+The15-file snapshot passes build/binding and both Comparators/result NanoDa;
+final dependency-scoped NanoDa remains live in41078. No StageThree conclusion
+or philosophical premise closure is claimed. Ordinary complete-production
+source uniqueness from PR915 remains separate from existential-ground roothood.
+
 ### Consolidated producer inventory (snapshot d1da6053)
 
 The existing integration attempt ATTEMPT-NECESSARY-BEING-INTEGRATION-786 records
