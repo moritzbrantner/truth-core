@@ -552,3 +552,21 @@ The cheapest non-transcription existence route remains2; the upstream new
 eight-input uniqueness route still costs10 after expansion. Default root
 union81/cost31 and existing32-input consumer37 are unchanged. These metrics
 measure connectivity and classification, not independent metaphysical warrant.
+
+### Interpreting the selected support relation
+
+`Profile.grounds` is parametric. An application must say whether its edges
+represent productive existential contributors, enabling conditions, or both;
+choosing an interpretation does not require a Lean field change. None of those
+labels itself establishes completeness, individual/joint sufficiency or O.
+The contingent-grounding C, esse-cause inclusion F and same-sense priority
+inclusion G must describe that same relation, with their stated distinctness and actuality guards.
+
+The incoming-edge `JointGroups.recorded` adapter asserts no sufficiency and
+does not establish that each recorded edge is productive. Partial productive
+contribution is distinct from a complete sufficient cause. The fixed joint
+condition theorem creates no new individual to discharge C; likewise an
+incoming-free selected root is not declared absolutely explanation-free.
+These interface limits are now explicit in the existing relative-grounding
+definition and O attempt. No proof type, relation, premise truth or frontier
+count is changed by the clarification.
