@@ -492,3 +492,26 @@ Compared with the seven-input-lemma baseline, the81-open-leaf union
 are unchanged; no reaching premise is added or removed. This records an
 explicit alternative composition, not premise truth, global weakening or an
 independent explanation of the necessary source.
+
+### Source limits of optional grounding asymmetry O
+
+The materialized *In Metaphysicam* V lect.13 nn15/18 ([82515]/[82518])
+supports asymmetry of its specified natural-priority sense. Applying it to the
+selected actual grounds field still needs an R-to-that-priority bridge. G maps
+priority to R; F maps esse-causation to R. Neither supplies R-to-priority.
+The materialized ST I q104 a1 distinction between becoming and ongoing
+being-giving conservation supports effect-dependence, not the preserver's
+converse independence or exclusion of
+all reciprocal partial support. Its universal divine application depends on
+prior theological commitments and cannot independently justify the earlier
+God route. No-self-efficient-causation alone does not prove two-way R exclusion.
+
+The old positive fixture's necessarily existing non-God effect also prevents
+silently reading natural independence as ordinary accessible-world absence.
+The next interface question is whether R denotes direct productive esse-giving
+in one fixed respect/context or broader partial support/enabling; conservation
+and support remain distinct until that abstraction and source-independence are
+defended. Optional O remains OPEN. Exact source locators, existing statement
+IDs, rejected converse readings and theological-dependency limits are persisted
+in its existing definition and whole-roster attempt. No theorem, model, source
+claim, premise truth or frontier cost changes in this source audit.
