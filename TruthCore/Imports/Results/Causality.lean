@@ -8,6 +8,8 @@ import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
 import TruthCore.Results.Causality.ActualRootUniqueness.Solution
 import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+import TruthCore.Results.Causality.AtomisticNecessaryBeing.Solution
+import TruthCore.Results.Causality.AtomisticNecessaryConstituent.Solution
 import TruthCore.Results.Causality.BearerRegress.Solution
 import TruthCore.Results.Causality.BoundedPastResource.Solution
 import TruthCore.Results.Causality.BruteRootDisjunction.Solution
