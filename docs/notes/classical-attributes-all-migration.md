@@ -670,7 +670,8 @@ reaching premises81/best route31 and NecessaryBeing47/best2; every route and
 reaching set is unchanged. All1891 Lean files and actual toolchain/manifest/
 lakefile match the independently verified canonical proof inputs; public
 source verification checks435 offline witnesses with zero live fetches.
-Required delivered-head CI and review remain pending. No frontier closure
+Required CI41282292755 and completed clean review at bfcd1ee2 passed;
+PR #863 merged6f4785f3, integrated with no Lean delta. No frontier closure
 or owner truth selection is inferred.
 
 
@@ -687,6 +688,7 @@ It does not identify the member as choice, intention, enabler or cause.
 Canonical5e9dd272 passes full build4378, binding828/2existing pins/0mismatch,
 both Comparator/result NanoDa checks and scoped library NanoDa4new declarations/
 170dependency declarations without type errors. All three proof probes use
-exactly the permitted Mathlib trio. Public premise comparison is pending;
+exactly the permitted Mathlib trio. Public PR #865 at1a61afc6 confirms unchanged Catholic81/best31 andNE47/best2;
+CI41283075570/review remain pending;
 no actual package contingency, necessary existence or philosophical discharge
 is inferred from the equivalence.

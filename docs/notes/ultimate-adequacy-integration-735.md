@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`5e9dd272` before this update. Main is `385838b2` through #862, integrated in
+`5e9dd272` before this update. Main is `6f4785f3` through #863, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -19,8 +19,8 @@ corpus/source binding/whitespace checks pass. Candidate now starts #6 at p12;
 public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 CI41282874715/review pending. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2587
-statements,1769 claims,810 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2588
+statements,1769 claims,812 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -29,10 +29,11 @@ NanoDa (7 new declarations/16775 dependency declarations, zero type errors)
 pass on its unchanged proof inputs. It proves conditional event-measure
 equality and supplied strict-threshold transfer, not actuality, calibrated
 probability or a root-premise discharge. Public PR #863 is open at `bfcd1ee23ce3e3574a506b453933f8ba5ca173cd`;
-CI41282292755 and the once-requested exact-head review are pending.
+Required CI41282292755 and the completed clean exact-head review passed;
+PR #863 merged6f4785f3 and is integrated without a Lean delta.
 All1891 Lean files and actual toolchain/manifest/lakefile match verified inputs;
 Catholic81/best31 and NecessaryBeing47/best2, including every route, are unchanged.
-No delivered-head CI success is yet claimed. The existing attempt records exact premises and boundaries.
+Delivered-head CI success is confirmed for #863. The existing attempt records exact premises and boundaries.
 
 Fresh adversarial audit confirms D2 as the key existence-application burden:
 D1's explanatory insufficiency does not alone establish formal whole-roster
@@ -60,8 +61,13 @@ Joint localization is verified and committed5e9dd272: build4378, binding828/
 2existing pins/0mismatch, two Comparator/result NanoDa acceptances and scoped
 NanoDa4new declarations/170dependencies/zero type errors. The exact classical
 equivalence composes the old forward theorem and retains the same failure world;
-no particular member role or actual contingent package is inferred. Focused
-public publication is assigned; existing attempt and matrix preserve boundaries.
+no particular member role or actual contingent package is inferred. Public PR #865 at1a61afc65661d720bcb3b9ea9677401d12c8403a is open,
+CI41283075570 and once-requested review pending; Catholic81/best31 andNE47/best2
+are unchanged. Existing attempt and matrix preserve boundaries.
+The next composition consumes actual joint truth, contingent effect and explicit
+whole-ground necessitation with selected-record guards to derive joint
+contingency and import member localization. This is a fact-level consequence,
+not an independent defense of modal necessitation or a concrete bearer.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
