@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-GREATEST-INTERNAL-UNITY",
+  "statement_id": "STMT-AQUINAS-SCG-I42-GREATEST-INTERNAL-UNITY",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [18]",
+  "interpretation": "The conclusion concerns INTERNAL unity of the divine nature, not directly the number of externally distinct roots. The being/unity-power proportionality and maximum-unity-to-no-internal-plurality steps remain source commitments. Do not infer common numerical nature across candidates or deny distinct divine persons by substituting their domain for essential composition. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
