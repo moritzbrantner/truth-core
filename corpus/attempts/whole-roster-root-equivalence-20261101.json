@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-WHOLE-ROSTER-ROOT-EQUIVALENCE-20261101",
+  "date": "2026-11-01",
+  "statement_ids": [
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-WHOLE-ROSTER-ROOT-EQUIVALENCE",
+    "STMT-CONCRETE-SUPPLY-ROOT-EQUIVALENCE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Under actual concrete population and explicit excluded middle, whole-roster nontrapping is equivalent to an actual concrete root of the SAME selected grounding relation existing. Import the existing actualRootExists for the forward direction; an actual root contradicts the whole-roster Trap source-free clause for the reverse direction. This audits the foundation premise’s exact strength, not independent actuality, explanatory adequacy, modal necessity or uniqueness. New registered theorem retains exactly B and EM; neither D nor root existence is assumed. The reverse helper needs neither population nor EM as additional inputs; its actual root witness already supplies population. An unregistered supplyEquivalence helper composes the existing supplyRootEquivalence, exposing that existential Supply is another presentation of the same foundation commitment under B/EM. No new relation, source attribution or metaphysical selection. Existing frozen Challenges remain untouched; new Challenge frozen before Solution SHA25620b397942b817d91b2378c9b1e93cd9074f6cf2b51f55147b839dde5a1786088. SourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Prior coverage/closure work in issues750/756 does not establish this foundation policy: reason_bridge yields Closed, allowing unfounded descent; universal inductive Supply/Escape would be stronger, not independent premise discharge. The exact equivalence does not turn verbal explanatory insufficiency into impossibility of actuality. All owner selections beyond A remain pending. Focused core/Solution compilation passes against the existing Root artifacts. Explicit probes report no axioms for equivalence, wholeRosterOfRoot and supplyEquivalence. Corpus consistency and whitespace pass; the new Challenge hash remains unchanged and no old Challenge file is modified. Final verification passes: full Root lake build4341 jobs; bind-check815 bound/2existing pins/0mismatch; Comparator accepts the exact frozen Challenge/Solution and independent result NanoDa accepts the solution. Scoped library NanoDa on WholeRosterFoundation and WholeRosterRootEquivalence.Solution checks117 declarations with no typechecker errors; the usual Unable-to-print-axioms pretty-printer diagnostic remains, separately from the explicit zero-axiom probes. Offline source manifests, corpus, docs/import generator freshness and whitespace checks pass. Claim/type self-sweep confirms EXACT B/EM inputs, the same Profile/world/root witness, and no necessity, uniqueness, source attribution, sourcehood-as-absolute-independence or actuality-to-adequacy conclusion. The result is a structured equivalence audit, not a foundation justification; no old Challenge changed. Only one generated Causality-results import was added. Intended root-path effect: no removed or discharged open premises; the new conclusion is an exact-strength audit, not a consumer deriving D outright. Closure of this equivalence is not closure of either equivalent proposition.",
+  "evidence": [
+    "WHOLE-ROSTER-NECESSARY-CONCRETE",
+    "CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
+    "WHOLE-ROSTER-ROOT-EQUIVALENCE"
+  ]
+}
