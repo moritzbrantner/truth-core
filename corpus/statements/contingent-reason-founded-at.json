@@ -1,0 +1,24 @@
+{
+  "id": "STMT-CONTINGENT-REASON-FOUNDED-AT",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.Founded",
+  "paraphrase": "The existing ContingentReason relation among contingent fact members of THIS account at w is WellFounded. Each edge requires both members in S, both actually contingent there, and the SAME admitted explains relation. This says nothing about all ontic grounds or all reason arrows being well-founded.",
+  "definition_ids": [
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

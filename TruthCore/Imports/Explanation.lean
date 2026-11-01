@@ -14,6 +14,7 @@ import TruthCore.Explanation.ExistencePSR
 import TruthCore.Explanation.ExplanatoryAdequacy
 import TruthCore.Explanation.ExplanatoryClosure
 import TruthCore.Explanation.ExplanatorySymmetry
+import TruthCore.Explanation.FixedConstituentNecessaryBeing
 import TruthCore.Explanation.HistorySelection
 import TruthCore.Explanation.JointCondition
 import TruthCore.Explanation.JointContingencyLocalization

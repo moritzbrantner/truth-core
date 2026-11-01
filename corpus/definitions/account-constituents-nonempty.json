@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+  "term": "nonempty assigned fixed constituent sets for account facts",
+  "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsNonempty",
+  "basis": "stipulative",
+  "definition": "For fixed data K:F→Set B and account S:F→Prop, every f with S f has (K f).Nonempty. The set for one fact does not vary with world; no global constituent shared by distinct facts is specified.",
+  "note": "Assigned candidate sets are not proven real constituents merely by being data. This is an independently OPEN nonemptiness/constitution-application premise. It asserts no actual existence, necessity, causal role, indispensability, minimality, uniqueness or factual truth. B and F remain distinct sorts in the genuine PSRStrength.Arena. Ordinary bearer examples such as a colored object underlying a predication may orient the interpretation but do not justify the universal account scope or cross-world persistence. Necessary laws/abstract facts and world-varying realizations are serious rival readings. Existing NecessaryFactBoundary.lawControl has an actual necessary reason with no necessary ordinary individual, so constituent realization is not automatic; that fixture is a formal scope control, not a proven metaphysical possibility. No new model is introduced."
+}
