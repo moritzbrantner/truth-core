@@ -1,0 +1,10 @@
+{
+  "id": "INDEXED-SIGNAL-PROVENANCE",
+  "argument_id": "INDEXED-SIGNAL-PROVENANCE",
+  "challenge_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Challenge",
+  "solution_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Solution",
+  "theorem": "TruthCore.Results.Causality.IndexedSignalProvenance.provenance",
+  "comparator_config": "results/INDEXED-SIGNAL-PROVENANCE/comparator.json",
+  "status": "solution-present",
+  "description": "Propagate the SAME fixed code j along n+steps: at each step either station j has issued or the unchanged code remains upstream. After j+1 steps the latter violates n+steps<=j. Finite Nat induction and arithmetic derive provenance; no classical choice, global channel well-foundedness, all-output nonemptiness or global-origin assumption is used. Both local interfaces remain OPEN interpretations. No root-path premise discharge or real-world applicability is asserted."
+}
