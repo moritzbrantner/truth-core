@@ -1,0 +1,25 @@
+{
+  "id": "STMT-CAUSE-NOT-PART-OF-EFFECT-AT",
+  "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.CauseNotPartOfEffectAt",
+  "paraphrase": "At the selected world, every cause is NOT part of its effect in the SAME supplied order and primitive Ontic cause relation. This excludes cause-as-part, not all common-part overlap; causal endpoint actuality and real applicability remain independent commitments.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "DEF-CAUSE-NOT-PART-OF-EFFECT",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE"
+  ]
+}
