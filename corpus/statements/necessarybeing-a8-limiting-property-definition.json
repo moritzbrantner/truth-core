@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A8-LIMITING-PROPERTY-DEFINITION",
+  "paraphrase": "The source defines a limiting property as one entailing a deficiency of some kind, with lack of power as example. Its entails title says necessarily anything characterized by the first property is characterized by the second. This is unrestricted modal property inclusion, not relevant or independently nonvacuous consequence. No full formal deficiency/property domain, existential classifier semantics or premise truth is selected.",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

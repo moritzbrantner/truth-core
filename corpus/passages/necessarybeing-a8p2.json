@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a8p2.html",
+    "retrieved_at": "2026-10-31T19:46:34Z",
+    "sha256": "sha256:83f59f4cbb03e2043bb021a9563f71a9d54d9efccf7ee9d5b4f486fd3f6cf308",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A8P2",
+      "locator": "A8P2, complete interactive page",
+      "claim_locator_prefixes": [
+        "A8P2,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is the property of being a powerful Necessary Being limiting?"
+        }
+      },
+      "text_sha256": "sha256:146c660e813276388c806d657e1e898e725146ae745ec12f24d6dabf27f1ddc8",
+      "incipit": "Is the property of being a powerful Necessary Being limiting?\nIt seems so\nI"
+    }
+  ]
+}

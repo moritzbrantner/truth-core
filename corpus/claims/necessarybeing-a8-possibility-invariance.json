@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A8-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8P4, complete X/Y question, examples and non-joint-possibility note; A8C modal paragraph following step 11",
+  "interpretation": "Reuse the exact existing A2 invariance meaning: P4’s wording matches A7P4. The subsequent attributed modal suffix is not an independently justified S5/frame proof or a same-individual necessary witness. NecessaryIfExistent.positive remains a conditional reuse only with its Euclidean and boxed conditional inputs plus possibility; actuality additionally needs the appropriate reflexivity/application guard.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
