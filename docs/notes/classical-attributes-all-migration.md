@@ -772,3 +772,32 @@ Comparator/result NanoDa and scoped library NanoDa7new declarations/541dependenc
 with zero type errors. Helperprobezero/resultpermittedMathlibtrio. Public
 publication is preparing after dependency #870 landed576a1da3, CI41284829674
 and clean exact-head reviewe9fea8d2. No source L2 or root premise is discharged.
+
+
+### Actual-fusion bare necessary-being routes (2026-11-01)
+
+`ACTUAL-FUSION-NECESSARY-BEING` derives existing NecessaryBeing from actual
+selected fusion, actual parts, no-necessary-parts causal coverage, causal
+actuality and causal nonoverlap. Its classical reductio shows any actual cause
+would belong to the fusion family under denial of all actual NE.
+`ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION` composes this result with
+existing owner-accepted population and conditional actual formation of this
+family only when nonempty. Its six explicit inputs include A; no independent
+actual wholly-contingent population or sum is assumed. Model.explains is unused.
+
+Both conclude SOME actual necessary individual, without identifying the
+selected cause as necessary, concrete, underived, unique or God. No L1/L2/A1,
+S5/frame, well-foundedness, finite-chain or PSR premise is used. The actual
+fusion/part/causal interpretation remains OPEN; logical joint conditions do
+not by themselves supply real sums. Source A2/A4/C1–3 are not aliased.
+
+Canonical54b00408 passes build4387, binding834/2oldpins/0mismatch, both
+Comparator/result NanoDa checks and scoped library NanoDa10new declarations/
+554dependencies without type errors. Both proof probes use the permitted
+Mathlib trio. Public PR #874 atb8272dfc has unchanged verified dependencies;
+CI41286665441/review pending. Catholic81/best31 and all routes unchanged.
+NecessaryBeing reaching union47→54 adds seven open choices, not seven new
+requirements for every route; raw5/6 routes are added, cheapest existing2 is
+unchanged and no old input is removed. Scoped reductio denial is not a reaching
+premise. No independent premise is discharged. The CF1–CF5 optional ledger in
+the current handoff records the five open policies alongside accepted A.

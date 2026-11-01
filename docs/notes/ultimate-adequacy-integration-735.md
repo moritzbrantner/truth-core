@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`afa5a588` before this update. Main is `576a1da3` through #870, integrated in
+`54b00408` before this update. Main is `4de00622` through #872, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2640
-statements,1813 claims,816 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical committed corpus checks pass with2651
+statements,1817 claims,818 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -149,6 +149,22 @@ conditional actual fusion for the selected nonempty family replaces assumed
 actual sum existence. Six named inputs include A; no numeric premise-count
 reduction or verified whole theorem is yet claimed. The original frozen
 five-input Challenge will not be edited.
+Whole five-input and population-six necessary-being results are VERIFIED and
+committed54b00408: build4387, binding834/2oldpins/0mismatch, two Comparator/
+result NanoDa acceptances, scopedNanoDa10new declarations/554dependencies with
+zero type errors. Both probes use the Mathlib trio. Public PR #874 atb8272dfc,
+CI41286665441/review pending, preserves proof dependencies. Catholic frontier
+unchanged81/best31; NEunion47→54 adds raw5/6 routes, existingbest2 unchanged,
+no old leaves removed. Seven new reaching leaves include accepted A (still
+rawcounted/no truthflag); scoped denial does not reach. CF1–CF5 ledger below
+is OPEN; only A accepted, no independent premise discharged.
+#872 landed4de00622 after CI41285530914 and clean exact-head review, integrated
+ffa1a5d0 retaining canonical source-context pointer omitted only in public
+delivery. #871 sourcecluster landed1638561e, integrated6893b3e4 preserving
+foundation completion/unity research. Source#85 is committede8310049; #86 is
+prepared13files/focusedchecks passed, pending Root fidelity review/staging.
+Public remainder#873 at1caab661, CI41285998806/review pending; later unity
+publication waits for it. No primary Vallicella reading is claimed.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
@@ -1180,6 +1196,39 @@ individual scope. The already proved contingency of a fixed joint condition
 does not automatically make that condition a concrete individual. The existing
 whole-roster attempt records this comparison and the still-open abstraction
 bridge; no owner reacceptance or new philosophical closure is inferred.
+
+### Optional conditional-fusion ledger CF1–CF5 (all OPEN)
+
+The verified `ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION` result reuses
+accepted A and the following five independently open principles. These are
+additional route choices, not reinterpretations of A–O or new Lean axioms.
+The same fixed parthood, causal relation, candidate domain and selected world
+must be used throughout. Owner classifications remain pending.
+
+| ID | Intended principle | Exact premise |
+| --- | --- | --- |
+| CF1 | If the actual beings with no necessary parts form a nonempty class, that class has an actually existing sum with the supplied Sum2 fusion properties. | STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-FUSION; only this selected class, not all arbitrary families. |
+| CF2 | Every part of an actually existing whole actually exists at the selected world. | STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS; no cross-world part-persistence law. |
+| CF3 | Every actual being with no necessary parts has a cause under the selected causal interpretation. | STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES; causal coverage, not merely an unspecified explanation. |
+| CF4 | Every cause and effect related at the selected world actually exists there. | STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT; both endpoints retained. |
+| CF5 | A cause and its effect have no common part under that same mereology. | STMT-CAUSE-EFFECT-NONOVERLAP-AT; stronger than being numerically distinct. |
+
+“No necessary parts” means the existing `NoNecessaryPartsAt`: every candidate
+part fails the existing frame-relative `NecessaryAt` predicate. It is not
+silently ordinary contingency, and the family additionally requires actual
+existence. CF1 requires a real sum; the earlier logical joint-condition theorem
+supplies no such ontic existence. Mathematical data alone do not establish
+these principles' applicability to reality.
+
+A + CF1–CF5 entail SOME actual necessary being in the shared Ontic. They do not
+establish that the selected cause is necessary, unique, concrete, underived or
+God. There is no well-foundedness, finite-chain, S5, modal downward-closure,
+overlap-extensionality or selected necessary-parts-fusion premise. This is a
+new alternative package, not a proved global weakening of every earlier route.
+The six-input result retains A explicitly; its Model explanation field is
+unused and adds no PSR/quality condition. Only A is currently owner-accepted.
+The owner may classify each CF row True, Provisional, Open or Reject with an
+interpretive qualification. No continuation or elapsed wait selects a row.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
