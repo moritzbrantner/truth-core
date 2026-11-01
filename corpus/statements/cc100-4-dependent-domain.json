@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-4-DEPENDENT-DOMAIN",
+  "paraphrase": "Dependent beings exist, and every dependent being depends either on itself or on another being.",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

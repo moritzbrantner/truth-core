@@ -1,0 +1,15 @@
+{
+  "id": "CC100-4-NO-INFINITE-DEPENDENCE-SERIES",
+  "statement_id": "STMT-CC100-4-NO-INFINITE-DEPENDENCE-SERIES",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.9, argument #4, step 5",
+  "interpretation": "An OPEN attributed commitment only: do not identify the definite series with every subset, every branch, temporal history or a formal well-founded relation. The source does not distinguish infinitely many different members from an indefinitely unfolded dependency walk. No claim that finite encoded models establish real explanatory adequacy or that an existing whole-roster theorem defends this premise is made.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+  ]
+}

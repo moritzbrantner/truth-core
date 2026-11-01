@@ -1,0 +1,12 @@
+{
+  "id": "DEF-CC100-5-WORLD-REASON",
+  "term": "world, sufficient reason and necessary outside-world being in presentation #5",
+  "definition": "The source calls the world the collection of all contingent beings. A sufficient reason for its existence is said to be in another contingent being or a necessary being; outside the world excludes that contingent collection, not a spatial region. These are the presentation’s nominal roles, with its contingent/necessary contrast retained but no formal modal frame or concrete-bearer dictionary selected.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-5-EXISTENCE-REASON-DICHOTOMY",
+    "CC100-5-WORLD-PARTS-EXCLUSION",
+    "CC100-5-NECESSARY-OUTSIDE-REASON"
+  ],
+  "note": "Minimal editorial glossary of materialized p11, not a new reason relation or adequacy theorem. The slide provides no concrete case, causal interpretation, all-worlds scope, necessitation rule, proof of individual/collective parts exclusion or identity with actual-grounding/PSRStrength semantics. Those application/structural/generalization burdens remain OPEN; no unread Leibniz source is attributed."
+}
