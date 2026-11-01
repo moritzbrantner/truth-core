@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+  "term": "account-scoped all-world realization of assigned fixed constituents",
+  "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsRealized",
+  "basis": "stipulative",
+  "definition": "For all f with S f, all worlds v and all b∈K f, A.holds v f implies A.ontic.ExistsAt v b. The SAME fact, assignment, candidate and Ontic are retained. Actual-world realization and accessible-world realization are both included; no converse is assumed.",
+  "note": "Explicit OPEN constitution/factivity policy, restricted to this account, not all facts or only facts already assumed necessary. Necessity is not in its consequent. Fixedness of K alone does not warrant this implication or establish real fact constituents. No identification f=b, forced A.exist/positive label, dummy Model/Arena, constructive bearer reification or source-involvement alias is used. NecessaryFact alone lacks an actual guard; the selected consumer separately retains actual fact truth, so no reflexive frame is required. This transfers bearer existence, not agency, concrete substance, productive grounding, a necessary action, a necessary causal source, numerical uniqueness or God. Source §7 involvement/fixed-constitution correspondence remains a philosophical application obligation; this analyst head carries no source claim."
+}

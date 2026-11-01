@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+  "term": "well-founded contingent admitted-reason relation of an account",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.Founded",
+  "basis": "stipulative",
+  "definition": "Reuse EXACT existing Founded A w S := WellFounded (ContingentReason A w S). ContingentReason A w S r f requires S r, S f, A.explains w r f, Contingent A w r and Contingent A w f. The order is on facts, not beings or actual existential-support edges.",
+  "note": "This new registry binding does not redefine Founded or independently justify it. It restricts well-foundedness to contingent account members; necessary reasons may still have reasons. It is distinct from all-subsets grounding WF, mere absence of a self-loop, ordinary causal priority or total explanatory adequacy. The owner’s individual scoped PSR and global regress-insufficiency criticism do not automatically supply this typed premise. Existing ExplanatoryAdequacy/NecessaryFactBoundary attempts and law/chain controls retain the interpretation and rival boundaries."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "FIXED-CONSTITUENT-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-CONTINGENT-REASON-FOUNDED-AT",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-FIXED-CONSTITUENT-NECESSARY-BEING"
+  ],
+  "meaning": "Import NecessaryFactBoundary.necessaryReason with the SAME Arena/account/target and exact excluded-middle, ReasonClosed, fact-contingency and Founded inputs. Its selected r is in S, true actually and at every accessible world; its admitted reason role need not concern the original target directly. Account nonemptiness selects b once from the SAME fixed K r. Account realization applied to actual truth makes b actual; applied to r’s truth at each accessible world makes that SAME b NecessaryAt. Package it into existing NecessaryBeing A.ontic w. No necessary fact is restated as a new main premise, and no fact/being identity, frame axiom, positive-label coherence or productive role is inserted.",
+  "definition_ids": [
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}
