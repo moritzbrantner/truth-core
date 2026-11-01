@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A6-POSSIBLE-EXISTENCE-SITUATION-COVERAGE",
+  "statement_id": "STMT-NB-A6-POSSIBLE-EXISTENCE-SITUATION-COVERAGE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6P1B, whole question and affirmative continuation with existence-situation/obtains/cause titles; A6C steps 2–3",
+  "interpretation": "Keep possible outer coverage and each situation’s possible causability distinct from joint or actual causes. P1B is an independently requested report, not a consequence of P1’s individual question. Its title restricts the domain to situations pertaining to what exists, including exact cardinalities; obtaining means actual. Source W does not automatically admit every typed fact.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A6-EXISTENCE-HISTORY-DOMAIN-AND-CAUSABILITY",
+  "statement_id": "STMT-NB-A6-EXISTENCE-HISTORY-DOMAIN-AND-CAUSABILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C, step 8 inner proof and steps 9–11, with existence-situation/contingent-situation/cause titles",
+  "interpretation": "Step9 is genuine source-domain admission, not an automatic all-Fact coverage rule. The empty branch borrows earlier STMT-NB-A4-POSSIBLE-CAUSED-THING CONTENT, without new assent or all-entry-path/session retention. An empty individual roster is a negative obtaining situation, not an empty Fact domain or absence of necessary concrete beings. Existing empty-history/count/modal results remain guarded reuse, not source soundness.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

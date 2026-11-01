@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A6-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "statement_id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C, steps 16–18 and transition to the modal suffix",
+  "interpretation": "Reuse the same outer reductio role, here discharged at18 rather than A5’s20. Possible Necessary Being at15 remains hypothetical until16–18. Do not export hypothetical C-causability/cause, actual causal exercise or a rigid actual necessary individual. The ordinary modal suffix is separately represented by the existing report and guarded typed results.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

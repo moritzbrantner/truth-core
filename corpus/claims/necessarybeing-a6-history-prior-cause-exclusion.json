@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A6-HISTORY-PRIOR-CAUSE-EXCLUSION",
+  "statement_id": "STMT-NB-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C, steps 12–15 and cause/prior titles, with fixed-roster note following step 18",
+  "interpretation": "Reuse the same conditional exact-EVER whole-history exclusion and possible noncontingent cause under outer NoPossibleNB. Step12 remains substantive: an earlier included contingent bearer need not falsify C. Neither C’s truth, positive conjunction nor SelfAct proves the exclusion. Partial explanatory source cause is not automatically Ontic.Causes, PSR fact-reason, sufficient explanation or earlier actual concrete bearer.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

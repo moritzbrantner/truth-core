@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A6-RIGID-EVER-HISTORY",
+  "statement_id": "STMT-NB-A5-RIGID-EVER-HISTORY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C, steps 4–7 and fixed-roster note following step 18",
+  "interpretation": "Reuse the same fixed particular current-or-past EVER-roster content, W includes C and inferred possibility, with the same empty-roster option. The four-member illustration is not required population. Do not identify EVER occurrence with current existence, nonrigid beginning, complete future history or automatically admitted typed fact.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

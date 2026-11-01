@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A6-POSSIBLE-INDIVIDUAL-CAUSAL-COVERAGE",
+  "statement_id": "STMT-NB-A6-POSSIBLE-INDIVIDUAL-CAUSAL-COVERAGE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6P1, whole question and affirmative continuation; contingent thing and cause titles",
+  "interpretation": "The individual report is separate from P1B’s situation report. The cause title concerns a prior condition capable of explaining or partly explaining an event/change. No inference from individual coverage to situation coverage, shared cause/world for all possibilities, actual assent or guaranteed session retention is certified.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

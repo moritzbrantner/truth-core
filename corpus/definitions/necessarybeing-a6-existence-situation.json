@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NB-A6-EXISTENCE-SITUATION",
+  "term": "existence situation and its possible cause in A6",
+  "definition": "A6P1B and C describe an existence situation as a situation pertaining to what exists, including cardinality and exact all-and-only examples. Obtaining means being actual. A contingent situation is possible but not required to obtain. A situation-cause is a prior condition capable of explaining or partly explaining why the situation obtains. C9 explicitly places the SAME exact history situation in this restricted domain; this is not an automatic identification of situations with individuals or every typed fact.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A6-POSSIBLE-EXISTENCE-SITUATION-COVERAGE",
+    "NB-SURVEY-A6-EXISTENCE-HISTORY-DOMAIN-AND-CAUSABILITY"
+  ],
+  "note": "The source’s emerald examples illustrate exact cardinality, not an actual empirical cause. Partial explanatory causability is not complete PSR sufficiency or automatically concrete Ontic.Causes. Negative empty-roster admission, historical/now correspondence, actual causal bearer and structural causal laws remain open."
+}

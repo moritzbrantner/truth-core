@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A6-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6P2, complete X/Y question, examples and non-joint-possibility note; A6C modal paragraph after step 18 and note",
+  "interpretation": "The complete P2 text exactly matches A5P2, whose existing proposition reuses A2. This conditional report and attributed modal suffix are not actual assent, a new verified S5/frame theorem or a rigid actual necessary witness.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

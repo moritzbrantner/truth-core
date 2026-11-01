@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A6-POSSIBLE-EXISTENCE-SITUATION-COVERAGE",
+  "paraphrase": "Conditional on the respondent report, it is possible that every contingent existence situation that might obtain possibly has a cause. The source selects W with coverage of its obtaining contingent existence situations. This is restricted situation coverage, not A5’s negation of a necessary guarded conditional: no nonempty obtaining-situation domain, contingent individual population, joint realized causes or actual concrete bearer follows from this report alone.",
+  "definition_ids": [
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
