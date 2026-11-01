@@ -8,11 +8,38 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Branch: `research/lean-existential-self-actualization-20261031`.
-Main through PR904 is integrated at `316d1945`; the working branch also contains
-the reviewed source audits and fully verified firing-law composition below.
-Only ledger A is owner-accepted. Scoped PSR working authorization from #312
-persists. Verbal D1 does not automatically select formal WholeRosterNotTrapped,
-which under B/EM is equivalent to an actual selected root existing.
+Current proof batch: `cb6a183e`, generated imports `12862fbc`.
+Only ledger A is owner-accepted; scoped PSR authorization from #312 persists.
+The owner-facing ledger separates D1 (derivative regress does not explain
+itself), D2 (actual contingent existence requires adequate explanation), and
+D3 (faithful application to the formal grounding/no-trap condition). D3 is an
+open bridge, not inferred merely from accepting D1. The existing formal
+WholeRosterNotTrapped condition is equivalent to selected root existence under
+B/classical logic. No new owner selections have been received.
+
+PR905 is merged after exact-head clean review and CI41320061973. PR906 is now
+merged at main `763e4c0c`, following all successful/skipped checks in
+CI41322586292 and completed clean structured review at
+`6d426a0fe2888e53362097db5485e1b7588846e3`.
+
+The next bounded source batch pins and reads Rutten's complete chapter VI,
+printed123–135 (PDF125–137), alongside CC100 slides27–28/#12. Source/passage
+commits `e4b476b7`, `d68e14ca`, `5e2fc145` precede the 47-file proof batch.
+`AtomisticCausalSource` derives an uncaused source from population, atomic
+parts, a conditional cover of caused simples, cause/effect nonoverlap and
+excluded middle. Adding causal activity yields an outgoing effect of the SAME
+source. Neither causal well-foundedness, unique incoming causation nor the
+caused-composite principle is needed for this restricted conclusion. The
+source's full first-cause/effect-priority conclusion remains open; no necessity,
+uniqueness or God conclusion is certified. Independent claim/type review passes.
+Full gates97112 are terminal0: build4416, binding856/2legacy pins/0mismatch,
+and all three Comparator/result-NanoDa checks pass. Sourceverification30005 is
+terminal0: six passages in changed manifests verified live, including the
+unchanged CC100 raw snapshot and new Rutten chapter. Scoped library69479 is
+still live; publication holds for that gate. Source claims and explanations
+remain distinct from formal consequence.
+
+### Historical delivery evidence (superseded status; findings retained)
 
 **Current delivery.** PRs896–904 are merged after required CI and clean
 exact-head reviews. Watches1183/51248/44842/48624/42975/14819/1146 are terminal0.
