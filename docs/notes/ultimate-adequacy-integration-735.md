@@ -33,6 +33,14 @@ D1's explanatory insufficiency does not alone establish formal whole-roster
 actuality. It also retains Iesse's universal causal reach as a distinct
 uniqueness burden. Findings are persisted in the existing whole-roster
 equivalence attempt; no rival consistency is credited as complete explanation.
+A fact-based composition audit found the proposed consumer already verified in
+`AUTONOMOUS-GROUND-NECESSARY-BEING`; its remaining autonomy-necessity and
+whole-ground-necessitation commitments are not supplied by explanation alone.
+Existing PSRStrength contingent-reason and collapse-omission results already
+locate that fork. Fresh #750/#755/#742 backlog guidance therefore directs the
+next entitlement comparison to adequate nonnecessitating effects versus whole
+modal necessitation, not another generic consumer. The existing autonomous-
+ground attempt preserves exact findings and limits. No new premise is closed.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
