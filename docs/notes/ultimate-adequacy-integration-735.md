@@ -8,19 +8,42 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Branch: `research/lean-existential-self-actualization-20261031`.
-Main through PR903 is integrated at `1b16d547`; the working branch also contains
+Main through PR904 is integrated at `316d1945`; the working branch also contains
 the reviewed source audits and fully verified firing-law composition below.
 Only ledger A is owner-accepted. Scoped PSR working authorization from #312
 persists. Verbal D1 does not automatically select formal WholeRosterNotTrapped,
 which under B/EM is equivalent to an actual selected root existing.
 
-**Current delivery.** PR903 is published at
-`8ffa9c3baa29c1b03d491193be8f28df8817a832`, CI41315907341, passed all required
-CI and completed clean exact-head review; PR903 is merged. Watch14819 is terminal0, log
-`~/.cache/truth-core-artifacts/pr903-watch.log`. It needs no restart. PRs896–903 are merged after required CI and
-clean exact-head reviews. Watches1183/51248/44842/48624/42975 are terminal0.
-PRs823/850 remain held for their existing source failures; no new evidence
-currently authorizes another identical retry or repin.
+**Current delivery.** PRs896–904 are merged after required CI and clean
+exact-head reviews. Watches1183/51248/44842/48624/42975/14819/1146 are terminal0.
+The live local job is greatest-source verification4820, log
+`~/.cache/truth-core-artifacts/greatest-source-gates.log`: full4412-job build and
+binding852/2legacy pins/0mismatch pass; scoped NanoDa is still running. Re-poll
+that handle, do not restart on observation timeout. No new result/Comparator
+profile belongs to this source-reading repair. PRs823/850 remain held for their
+existing source failures; no identical retry or repin without new evidence.
+
+**Live source correction.** Independent audits confirmed that old I applies to
+EVERY weakly maximal bearer, including incomparable branches. The source's
+'most such' does not establish that strengthened antecedent scope. Repair
+8e29cfbf/7a084f5c/94c57ed8 adds a separate supplied-preorder greatest-degree
+reading, retargets only claimA, and preserves all old proof premises/types.
+Greatestness allows tied bearers; no totality, injectivity, strict primacy or
+uniqueness is inserted. The old core changes comments only, with identical
+comment-stripped declaration tokens. All12 owned files and generated import
+687945a2 are frozen; focused/corpus/source and independent12-file reviews pass.
+New source statement is off-root. Root81IDs, every route/cost and29bare/52sourced
+classification remain unchanged; I's direct stating claims are now empty, while
+two existing explicitly qualified contextual support paths remain.
+
+MostTrue received a separate audit and needs no analogous repair: the existing
+AS-TO-BEING-SO-TO-TRUTH premise explicitly supplies both possession correspondence
+and comparative covariance. MostTrueIsMostBeing.mostTrueIsMostBeing already
+transports weak maximality, including the own-being guard. Primary context
+Aristotle993b30–31, InMetaph81860/81864 and STq16a3 supports that ontic-truth
+reading; arbitrary sentence truth is excluded. Independent truth of that order
+correspondence remains open. No duplicate lemma or MostTrue claim edit.
+
 
 **Verified composition.** The immutable public903 slice is canonical319ef93f:
 20 owned files plus two regenerated imports. It imports the previously verified
@@ -1685,6 +1708,7 @@ Classical logic remains the current framework.
 | G | Whatever is ontologically prior to another being actually grounds its existence; priority is not temporal. | STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND; formal candidate/domain scope still must match the owner's intended priority. |
 | H | Whenever a represented perfection has genuine grades, some being possesses it maximally. | STMT-GRADES-HAVE-A-MAXIMUM. |
 | I | A maximum in a perfection causes that perfection in every other bearer of it. | STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS; includes tied/incomparable maxima under weak IsMaximumIn. |
+| I_G (new, open) | A bearer at a greatest represented degree of a selected perfection causes that perfection in every other bearer. | STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS; permits ties, does not assert greatest-bearer existence, and does not select old I or an order-alignment bridge. |
 | J | Whatever actually possesses any perfection has actuality of being. | STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING; applies to arbitrary recipients, not only the root. |
 | K | A universal cause of being also causes the actual perfections of its effects. | STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS, with the stated universal scope and recipient conditions. |
 | L | Something that is a component of anything cannot be first in being. | STMT-NO-COMPONENT-IS-FIRST-BEING; component-of-others differs from being composite. |
