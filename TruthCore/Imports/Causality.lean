@@ -48,6 +48,7 @@ import TruthCore.Causality.NecessaryFirstBeing
 import TruthCore.Causality.NecessaryRootFork
 import TruthCore.Causality.NecessaryRootUniqueness
 import TruthCore.Causality.NecessarySimplePlurality
+import TruthCore.Causality.NonlimitingConcreteExistence
 import TruthCore.Causality.OccurrenceUnderivedEssence
 import TruthCore.Causality.ParityUnionRegress
 import TruthCore.Causality.PartFreePlurality

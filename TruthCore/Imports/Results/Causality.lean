@@ -72,6 +72,7 @@ import TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution
 import TruthCore.Results.Causality.NecessaryRootUniqueness.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
+import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution
 import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
