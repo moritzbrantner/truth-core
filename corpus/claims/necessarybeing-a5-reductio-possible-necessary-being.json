@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "statement_id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5C, steps 18–20 and transition to the shared modal suffix",
+  "interpretation": "Only here is the outer no-possible-Necessary-Being assumption discharged. This is an attributed reductio under the reported premises and source’s earlier assertions, not independent premise truth or a verified consequence. Do not retain hypothetical C-causability/cause from13–17 as unconditional output. The reused modal suffix and any typed SAME-individual consequence have separate explicit semantic/frame guards; no duplicate proof, actual caused C or rigid actual necessary witness is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
