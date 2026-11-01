@@ -43,6 +43,40 @@ and reuses the exact verified pin. Corpus/source check2788/1925claims/476passage
 and independent8-file review pass. The older combined modal/priority gates and
 exact65→69/17→19 route comparison remain below. No premise is discharged.
 
+### How the new atomistic route composes
+
+The merged `AtomisticNecessaryBeing.necessaryBeing` combines the existing
+`AtomisticCausalSource.source`, `WorldSourceRegress.actualSource_iff`, and
+`PossibleCausalSourceNecessity.source_necessary_at`. All use the SAME selected
+world, actual-object carrier and complete-production relation. Its proof can be
+read without assuming causal well-foundedness:
+
+1. Suppose every actual object has an actual cause. Population and atomic parts
+   then supply at least one caused simple, so the conditional cover exists.
+2. The actual cover has an actual cause. That cause has a simple actual part.
+   Under the supposition this part is caused too, so it belongs to the covered
+   family and is a part of the cover as well.
+3. Cause and cover therefore share a part, contradicting the supplied nonoverlap
+   premise. Classical logic yields an actual object without an actual cause.
+4. The separate OPEN local causal principle excludes contingency of that SAME
+   object: if it were contingent, it would have an actual cause. The old theorem
+   therefore gives de re necessity relative to the supplied frame.
+
+The four substantive structural inputs are actual population, actual atomic
+parts, conditional coverage of caused simples, and cause/effect nonoverlap.
+The causal principle and classical logic complete the six-head registered
+route. Full proper-part termination, activity, P6, unique complete causes,
+grounding identity, concreteness and special modal frame laws are not inputs.
+This is an alternative route with explicit burdens, not a defense that its
+structural/causal policies describe all actual beings or a proof of God.
+
+The separate eight-head constituent route retains the same four structural
+inputs and classical logic, replacing the local causal principle with the
+three one-world CF3/CF4/actual-parts policies. It can yield a necessary part of
+an uncaused source without proving that the source itself is necessary.
+Neither route should be collapsed into an assumed foundation D3, or treated as
+an answer to explanatory adequacy merely because a necessary witness exists.
+
 ### Earlier coordinator evidence (statuses superseded above; findings retained)
 
 Branch: `research/lean-existential-self-actualization-20261031`.
