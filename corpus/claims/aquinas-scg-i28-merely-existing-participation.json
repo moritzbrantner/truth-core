@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
+  "statement_id": "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.28 [4]",
+  "interpretation": "Retain the exact restricted subject: things that MERELY EXIST, against the living/more-perfect comparison in [1]. Do not replace it by all beings distinct from God, all creatures, every other necessary root or everything with a determinate nature. The receiver/limited-mode reasoning of [2] supplies context, not a proved converse from determinate essence to reception or essence/esse nonidentity. This attributed reading supplies no independent STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES or identity-sensitive strict-primacy premise. Based on the verified complete Pegis English chapter; no independently consulted Latin edition or proof/truth certification is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-ESSE",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}
