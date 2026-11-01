@@ -1,0 +1,15 @@
+{
+  "id": "CC100-120-CONDITIONAL-PROBABLE-GOD",
+  "statement_id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.282, argument #120, step 5 under steps 3–4",
+  "interpretation": "Exact reuse of the guarded design-plus-probable-God application; the source’s new design step remains open. No conversion from probably God to actual God, certainty, necessary individual or unique designer. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

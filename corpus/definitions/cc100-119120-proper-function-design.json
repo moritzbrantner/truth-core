@@ -1,0 +1,19 @@
+{
+  "id": "DEF-CC100-119120-PROPER-FUNCTION-DESIGN",
+  "term": "proper functioning, proper function, design and probable God in #119–120",
+  "definition": "#119 asserts knowledge and its proper-functioning requirement; both arguments assert that having a proper function requires design and that design implies probable God existence. #120 begins instead with a best account of epistemic probability as permissible belief for properly functioning faculties. That account is not by definition actual proper functioning.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+    "CC100-119-PROPER-FUNCTION-DESIGN",
+    "CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
+    "CC100-119-DESIGN-PROBABLE-GOD",
+    "CC100-119-CONDITIONAL-PROBABLE-GOD",
+    "CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT",
+    "CC100-120-PROPER-FUNCTION-DESIGN",
+    "CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
+    "CC100-120-DESIGN-PROBABLE-GOD",
+    "CC100-120-CONDITIONAL-PROBABLE-GOD"
+  ],
+  "note": "Function properly and have a proper function require interpretation; neither is defined as design. No numerical probability, actual designer, classical God signature, necessity or probably-to-actuality bridge. Same suffix predicates are reused exactly, but the two initial grounds and resulting design claims are not merged."
+}

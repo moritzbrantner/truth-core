@@ -1,0 +1,15 @@
+{
+  "id": "CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+  "statement_id": "STMT-CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.280, argument #119 Knowledge as Proper Function, steps 1–2",
+  "interpretation": "Preserve both actual knowledge and the can-only proper-function restriction. Proper functioning is not defined as design or reliable truth production; no cognitive mechanism or independent warrant is supplied. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
