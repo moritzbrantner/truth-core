@@ -1,0 +1,12 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-COMMON-BEING-NUMERICAL-SOURCE",
+  "paraphrase": "If agreement in one respect depends on one source and all things agree in being, there is one being that is the source of all things, called God.",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
