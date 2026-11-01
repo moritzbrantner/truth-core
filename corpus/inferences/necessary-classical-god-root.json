@@ -1,0 +1,22 @@
+{
+  "id": "INF-NECESSARY-CLASSICAL-GOD-ROOT",
+  "input_statement_ids": [
+    "STMT-ROOT-POSITIVE-INTELLECT-WILL",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-GOD-IS-MAXIMAL-IN-BEING",
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CLASSICAL-GOD-ROOT",
+  "rule": "constructive-proof",
+  "meaning": "Import RootPositiveIntellectWill.derive ONCE with m and p sharing exactly sigma.Being. Preserve its original witness n and dictionaries throughout. Existing Unit-restricted maximumEqualsRoot identifies every supplied maximum with n, with no actual-existence premise on the competing maximum. Existing Iesse gives universal esse causation; causal supreme goodness supplies every-perfection causation; existing remoteness and maximum uniqueness feed the explicitly retained full nominal naming interface M. The retained converse N makes EVERY signature-God a maximum and hence equal n, giving actual IsTheOneGod sigma.IsGod n. Apply the existing first-being/no-potency theorem pointwise using act-priority and same-respect exclusion. Apply the retained represented-identity-to-Infinite and pure-act-to-Eternal interfaces, package the exact NineClassicalAttributes, and apply existing classicalAttributesFromNine under the retained open sufficiency bridge. Exact25 inputs are old18 plus the seven listed interfaces. No global genus, CauseMore, maximum-to-first, full legacy perfection transfer, or carrier-identification assumption is added. The root/God identity and uniqueness steps are structural; infinity, eternity, nominal naming and primitive-field sufficiency remain explicit adapter applications, not independently established philosophical proofs. No philosophical premise is discharged and no global weakening/minimality is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
