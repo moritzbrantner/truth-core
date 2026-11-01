@@ -17,6 +17,7 @@ import TruthCore.Results.Causality.BruteRootDisjunction.Solution
 import TruthCore.Results.Causality.CausalHarvest.Solution
 import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
+import TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
 import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
@@ -99,6 +100,7 @@ import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
 import TruthCore.Results.Causality.PastResourceControls.Solution
+import TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solution
 import TruthCore.Results.Causality.PluralRootConfluence.Solution
 import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
