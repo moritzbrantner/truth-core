@@ -7,7 +7,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current delivery and parallel work
 
-Current verified research head: `e9141899` (same necessary root through named
+Verified full-attribute baseline: `e9141899` (same necessary root through named
 God, nine attributes and the unchanged historical consumer), following source
 reading commit `3df93681`. The new25-input theorem, its structural projection,
 full25 positive/scope control and32-input downstream consumer all pass
@@ -104,6 +104,15 @@ fidelity review found no findings. The minimal existing disambiguation extension
 preserves ordinary/revised class differences and all application gaps. The
 eleven-file public source PR is being prepared in root-perfect-goodness from
 the delivered A3 main baseline; private later history and Lean are excluded.
+
+The separately measured user-facing `STMT-GOD-EXISTS` target currently has72
+reaching-root open leaves (35bare/37sourced). Its seven existing registered
+routes have costs7/11/12/13/13/14/15; these are not global minimality or
+logical-strength comparisons, and some GodExists-only routes explicitly do
+not carry NecessaryAt. The new25-input endpoint is stronger: it retains the
+SAME actual necessary witness and nine predicates, not only an IsGod label.
+The default Catholicism-root81-leaf/31-cost figures and the GodExists-root
+figures concern different targets and must not be conflated.
 
 Next concrete steps: finish guarded #843 and A3-alternate delivery, integrate
 main while preserving all source findings, then continue A4. A read-only worker
