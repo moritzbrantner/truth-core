@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-84-EXTERNAL-FACT-UNIFIER",
+  "paraphrase": "Facts can be unities of constituents only if there is an external fact-unifier.",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-84-WORLDWISE-FACT-EXISTENCE",
+  "paraphrase": "Some fact or other exists in every possible world.",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

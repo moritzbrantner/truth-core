@@ -1,0 +1,15 @@
+{
+  "id": "CC100-84-FACT-UNITIES",
+  "statement_id": "STMT-CC100-84-FACT-UNITIES",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, step 1",
+  "interpretation": "Facts are the source’s entities with constituent unity; no identity with concrete individuals, BCCF conjunctions or ordinary material composites is selected. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
