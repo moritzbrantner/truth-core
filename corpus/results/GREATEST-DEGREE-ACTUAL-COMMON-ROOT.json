@@ -1,0 +1,10 @@
+{
+  "id": "GREATEST-DEGREE-ACTUAL-COMMON-ROOT",
+  "argument_id": "GREATEST-DEGREE-ACTUAL-COMMON-ROOT",
+  "challenge_module": "TruthCore.Results.Causality.GreatestDegreeRootRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GreatestDegreeRootRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.GreatestDegreeRootRoute.commonRoot",
+  "comparator_config": "results/GREATEST-DEGREE-ACTUAL-COMMON-ROOT/comparator.json",
+  "status": "solution-present",
+  "description": "Seven explicit inputs derive the EXISTING common actual-concrete root on the same Ontic, world and grounds relation. Greatest-being attainment and greatest-degree causality replace the old weak H and stronger all-maximal I, with a supplied Preorder/value interpretation and no global package-weakening claim. A distinct greatest bearer would ground the selected root; identification then gives direct coverage. No C, necessity, God, all-necessary uniqueness, global WF, temporal simultaneity or complete explanatory adequacy is concluded. Source assertions remain OPEN; no philosophical premise is discharged."
+}
