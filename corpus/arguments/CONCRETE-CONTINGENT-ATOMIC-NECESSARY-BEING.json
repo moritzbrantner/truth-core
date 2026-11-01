@@ -1,0 +1,41 @@
+{
+  "id": "CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-CONTINGENT-ATOMIC-PARTS",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING"
+  ],
+  "meaning": "Assembly composition, not an independent philosophical inference: instantiate existing CONTINGENT-ATOMICITY-NECESSARY-BEING on NecessaryConcreteUnderived.concreteOntic m. The EXISTING InhabitedConcreteAt input supplies concrete b and actual existence; construct the nonempty nested actual-concrete subtype internally. All atomicity, cover, nonoverlap and selected causal-coverage inputs concern that SAME subtype/order and selected world, not an unrestricted domain. Coverage supplies concrete actual causal witnesses. Unpack the imported necessary witness c to c.val with c.property, retaining SAME candidate, frame and original ExistsAt; conclude existing NecessaryConcreteAt. Ordinary Ontic.Causes remains separate from Profile.grounds, which is unused. No NE-to-concrete axiom, extra frame law, source claim, uniqueness, God or root-premise truth is inferred. Generic object population alone does not supply concrete population. Restriction to concrete candidates does not automatically preserve unrestricted-domain atomicity or coverage; their applicability remains OPEN.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-CONTINGENT-ATOMIC-PARTS",
+    "DEF-CONCRETE-SUPPORT-RESTRICTION",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
