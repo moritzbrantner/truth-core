@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A4-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4P4, entire individually-possible X/Y question, examples and explicit non-joint-possibility note",
+  "interpretation": "The materialized question matches A3P3 exactly and has the existing A2 report’s meaning, so reuse the existing proposition. The report is conditional, not actual assent. A4C’s modal suffix also matches A3C; no new S5/frame proof, N-to-Box-N definition identity or rigid-individual necessity is credited.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
