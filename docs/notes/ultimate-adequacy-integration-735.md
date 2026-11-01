@@ -5,6 +5,49 @@ For the current necessary-root routes to the nine classical attributes, see the
 from #826. It records exact inputs, same-witness results, omission controls and
 unresolved bridges; conditional consequence does not establish premise truth.
 
+## Current coordinator handoff (supersedes the snapshots below)
+
+Research branch `research/lean-existential-self-actualization-20261031` is at
+`c2b53afb6e093db8f891e6c90d4e12c4336479e1` before this note update, with
+new A8-modal and count-cause-time proof work in progress. Only ledger A is
+owner-accepted. Source reading, conditional verification and philosophical
+truth remain distinct; no new premise has been accepted or discharged.
+
+PR #851 is published at exact head
+`31d2754411ff6f646e70182fb107022fe516c80d`, CI41267050197 and exact-head review
+requested once. Its ten-file strength audit passed local full build4341,
+binding815/2 pins/0 mismatches, Comparator/result NanoDa and117-declaration
+scoped NanoDa. Three declarations use no axioms. CI/review must pass before
+merge. Public root frontier remains81 open leaves, cheapest route31 and the
+necessary-classical-God consumer37; proof-source snapshot records below retain
+older pending-check states as chronology, not current gate status.
+
+PR #823 remains published at `be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`;
+its refreshed local head is `a3f75598cee7dbcce07ef8fd3fc841265a3e1cec`.
+Independent five-file review and full403-passage source verification pass,
+and its cold library build completed4348 jobs. The setup-correct372-test run
+resolved the earlier missing Lean artifacts but failed a nonrepository-context
+fixture because TMPDIR was inside another checkout. No code change is warranted;
+focused and full verification are proceeding with disk temporary files outside
+any repository. Preserve the failed evidence and real quarantined drift bytes.
+#850 remains blocked on its original unretained A5 response mismatch: no repin,
+blind retry or bypass, and no claim that the cause is known. Diagnostic delivery
+and a controlled instrumented new head remain the next publication dependency.
+
+A8 alternate source batch `fa7f5b91` completes the A8 reading cluster: two
+claims, one bare statement and three existing source records. Independent Root
+fidelity acceptance is persisted in the source attempt. Source468/1735 bindings,
+corpus2543/1735 and whitespace checks pass. No Lean, pins or public coverage
+changed. Source cursor is A9; immediate priority is the A8 typed connection,
+not additional ingestion. Its four-input analyst modal theorem and same-model
+Scott separation control are in focused verification, with source correspondence
+open and broad source IDs unbound. The other proof lane is replacing count
+all-earlier absence with one cause-time absence witness, explicitly composing
+the entire old bundle into the new one. Its existing-necessary-being projection
+must be registered as structural assembly; witness packaging is not philosophical
+premise discharge. Coordinator owns review, focused public delivery and this
+handoff; workers own the two disjoint new proof areas.
+
 ## Current head and next action (2026-11-01)
 
 Research branch `research/lean-existential-self-actualization-20261031` is at
