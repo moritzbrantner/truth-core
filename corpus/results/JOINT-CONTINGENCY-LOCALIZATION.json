@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-CONTINGENCY-LOCALIZATION",
+  "argument_id": "JOINT-CONTINGENCY-LOCALIZATION",
+  "challenge_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointContingencyLocalization.localize",
+  "comparator_config": "results/JOINT-CONTINGENCY-LOCALIZATION/comparator.json",
+  "status": "solution-present",
+  "description": "From existing JointContingent infer existing ContingentMember, classically localizing a failing member at the supplied SAME accessible failure world. Actual joint truth supplies that selected member’s actual truth. No particular named member, causal role, new individual, group substance, effect contingency or premise truth is established."
+}
