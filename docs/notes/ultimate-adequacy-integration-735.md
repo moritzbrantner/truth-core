@@ -8,20 +8,36 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
-Canonical actual-root proof7f9c35e4 includes the new unicity/necessity split;
+Canonical proofs7f9c35e4 and08522d6b include actual unicity/necessity and common actual-ground coverage;
 main through #895 (bef1cc7a89c84b7c21757c34da4a490f2577dcb7) is integrated
 atb2682e09. #895 passed all required CI and exact-head review before merging.
 Ledger-F clarification5c2f676c removes an unintended current-time requirement
 from prose, preserving the formal world-relative premise and its OPEN status.
 No owner selection beyond A is received.
 
-Measurement repair ba0c37d8 is committed and published as PR896
-head d7db16a4c43ce691a25b643a4e42e79665b9da2d. CI41305000723 is active;
-exact-head review is clean. Both Root and independent reviews accept the fix;
-372 full scripts tests, 51 frontier tests and 8 atlas/state integration tests
-pass. Python is the sole frontier-cost authority for CLI, service, dossiers and
-Pages; the existing Pages build invalidates scripts/* inputs. No separate TS
-solver or new dependency is introduced. Source/premise closure rules stay intact.
+Measurement repair ba0c37d8 and scoped mobile wrap07c4e597 are published
+in PR896, CURRENT head fcbfe4eec09ed7f319e5c5f0e3cbc7c1f9314915,
+CI41308525530 active with clean exact-head review. The previous d7db16a4 run
+41305000723 is TERMINAL FAILURE solely for both skeleton mobile tests; all
+Lean/corpus/library/Comparator shards passed. Old watch12904 is terminal1.
+New watch83480 follows the NEW run and writes /tmp/pr896-current-watch.log;
+do not restart either job merely for an observation timeout.
+
+Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
+38b4885c (same bytes as old d7 head), genuine CI reports and local webpack
+static export. Opening strict-primacy candidate content widened390→531px;
+long unbroken IDs forced candidate-grid min-content. Scoped overflow-wrap:anywhere
+restores390px with all text/links visible, no clipping or test weakening. The
+unchanged browser test is GREEN after full rebuild. Root and independent reviews
+accept the one-line utility. Local default Turbopack hit a Bun1.4.3 resolution
+setup problem; final CI must validate default Turbopack and BOTH base paths.
+No lockfiles/dependencies changed. Only three tool/UI files belong to PR896.
+
+372 scripts tests, 51 frontier tests and 8 atlas/state integration tests pass;
+fresh real-corpus/binding/source81675 passed845bound/2pins/0mismatch before
+the separate common-root batch. Python is the sole route-cost authority for CLI,
+service, dossiers and Pages; the existing Pages build invalidates scripts/*.
+No separate TS solver or premise/source closure rule is introduced.
 
 Corrected real reports71296: actual-root unicity9 open leaves; its necessity
 upgrade10, NOT the erroneous2; old global direct necessary-root route7 remains
@@ -29,8 +45,8 @@ cheapest. Root12911 remains81 (29bare/52sourced), Catholic12routes/best31 and
 necessary-being17routes/best2 unchanged. Regressions capture unverified/
 transcription-only leaves and cyclic-core dependents, including grounded escapes.
 No philosophical progress is claimed from changing the report. After PR896
-lands, publish the verified root decomposition; do not let its public graph use
-the known erroneous fallback algorithm.
+passes its UPDATED-head gates and lands, publish the verified root decomposition
+and then the common-coverage batch; its public graph must use corrected counting.
 
 New proof batch is fully verified: ACTUAL-ROOT-UNIQUENESS has7 heads and asserts
 one actual concrete selected root, dropping C AND the necessity conclusion.
@@ -48,12 +64,53 @@ slice. Verified source findings remain in their existing attempts.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
 
+
+Common actual-ground coverage is independently verified at08522d6b:
+ACTUAL-COMMON-ROOT has the SAME7 inputs and uses old actualRootExists plus
+maximum helpers directly. Its endpoint gives each actual concretum either
+identity with n or a direct ActualConcreteGround edge from n; no self-grounding
+is required. ACTUAL-COMMON-ROOT-UNIQUENESS constructively projects that SAME n
+to UniqueActualRootAt, which the prior C+EM upgrade makes necessary. This new
+local proof chain is noncircular; existing corpus semantic cycles are unchanged.
+Root94270 passes build/binding/both Comparator+result NanoDa/scoped5modules,
+export3/check108 with zero typechecker errors; probes11673 both zero-axiom.
+Independent14-file review and static93546/54655 pass2757/1909/831/471.
+Frozen Challenge6bf4b42f…927623ef is unchanged. Public order is PR896, then
+/tmp/actual-root-uniqueness-delivery-files.txt (20paths), then
+/tmp/actual-common-root-delivery-files.txt (18paths). Regenerate public imports
+from each actual slice; do not import the later private common module in the
+first proof PR. No source/explanatory truth or root premise is discharged.
+
+```mermaid
+flowchart TD
+  B["B + formal D + EM"] --> R["An actual concrete root exists"]
+  R -->|"E + F + Iesse + Hesse"| G["One root directly grounds every other actual concretum"]
+  G --> U["The actual root is unique"]
+  U -->|"C + EM"| N["That same root is necessary"]
+```
+
+This is a conditional proof outline over the SAME supplied world, carrier and
+relations. Formal D is WholeRosterNotTrapped; verbal D1 alone does not select
+it. Iesse/Hesse are fixed-esse interfaces. The full spine retains the original
+eight named assumptions. Ground-edge coverage supplies neither global WF nor
+complete explanatory adequacy; extra chains/cycles may coexist with those
+common-source edges. Necessary nonroots and other-world roothood are unrestricted.
+
+The next philosophical pressure point remains I/Iesse. The verified Greek
+Aristotle II.1 993b24–31 and Aquinas In Metaph. II lect.2[81858–81862] support
+causal-source→most-such under specified accounts; they do not independently
+prove the converse maximum→cause-all that STq2a3 asserts. Weak IsMaximumIn
+permits ties/incomparables, making the universal converse substantial. The
+participation→essential-source alternative still owes domain/being application.
+The actual primary readings and existing tie/scope controls are preserved in
+aristotle-synonymous-cause-scope; no new model or source claim was invented.
+
 Latest verified necessary-being route is `ACCESSIBLE-ACCOUNT-NECESSARY-BEING`, e93220fc:
 full handle95157 passed build4396, binding840/2existingpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa3new/74closure declarations with no
 type errors. Both theorem probes are zero-axiom; independent10-file review
 passes. Its public #886 is merged621f7fb3. Current corpus validation passes
-2756 statements,1909 claims,829 results,471 witnesses; the existing unrelated
+2757 statements,1909 claims,831 results,471 witnesses; the existing unrelated
 Frege–Geach warning remains.
 
 The verified composition sequence is:
@@ -155,9 +212,9 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: finish PR896 external gates, merge and integrate it, then publish the
-actual-unicity/necessity composition with corrected measurements and unchanged
-philosophical commitments. Keep generic schemas separate
+Next: finish UPDATED PR896 external gates, integrate it, publish the frozen
+actual-unicity/necessity slice and then common coverage. Preserve the explicit
+I/F/domain/adequacy obligations rather than generating another unnamed bridge. Keep generic schemas separate
 from configured instances. Existing consumers remain the route for constitutive
 individuation and common numerical origin; no duplicate generic wrapper is needed. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
