@@ -1,0 +1,10 @@
+{
+  "id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "argument_id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.consistency",
+  "comparator_config": "results/ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Import the exact previous consistency theorem on its two identity-parthood atoms. Let Prior equal the sole origin→effect edge. Strict parthood is empty, so proper-part well-foundedness, P6 and proper-part priority are vacuous; cause-to-effect-part priority and the outgoing edge are nonvacuous. Transitivity is vacuous, priority is irreflexive, and explicit N=origin/M=effect witnesses the endpoint. This is a formal interpretation, not physical realizability. Root-premise closure delta: zero. Applicability and source premise truth remain open."
+}
