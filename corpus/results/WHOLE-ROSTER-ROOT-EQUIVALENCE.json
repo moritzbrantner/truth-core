@@ -1,0 +1,10 @@
+{
+  "id": "WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "argument_id": "WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterRootEquivalence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution",
+  "theorem": "TruthCore.Results.Causality.WholeRosterRootEquivalence.equivalence",
+  "comparator_config": "results/WHOLE-ROSTER-ROOT-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Under actual concrete population and explicit excluded middle, whole-roster nontrapping is equivalent to an actual concrete root of the SAME selected grounding relation existing. Import the existing actualRootExists for the forward direction; an actual root contradicts the whole-roster Trap source-free clause for the reverse direction. This audits the foundation premise’s exact strength, not independent actuality, explanatory adequacy, modal necessity or uniqueness."
+}
