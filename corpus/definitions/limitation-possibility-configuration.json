@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+  "term": "typed analyst limitation classifier, backwards inclusion closure and possible exemplification",
+  "definition": "Reuse AFP Property W B = B→W→Prop, Box over supplied Frame access and Dia as an accessible-world witness. L : Property W B→W→Prop is arbitrary until constrained by KnownLimitingAt, NonlimitingAt and BackwardClosedAt at one selected w. Closure pulls limitation backwards across Box(∀x,Phi→Psi). PossiblyExemplifiedAt is Dia(∃x,Phi). No frame axiom, actualist existence predicate, full deficiency-property model, Scott positivity or metaphysical classifier interpretation is built in.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt",
+  "note": "Analyst configuration motivated by A8 source assertions, without binding the broad source statements to this full function-domain interpretation. A8 report/classifier correspondence, evaluative justification, actualist/domain/intensional adequacy and actual/necessary witness transport remain OPEN. Formal examples are supplied by the separate joint control; no indisputable real powerful Necessary Being or causal/physical model is offered. Unrestricted modal inclusion admits vacuity; changing it to nontrivial/relevant consequence would change this configuration. No structural causal law or deficiency uniformization is asserted."
+}
