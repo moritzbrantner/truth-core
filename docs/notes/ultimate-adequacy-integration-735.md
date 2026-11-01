@@ -18,8 +18,9 @@ Two additional same-graph interface projections are in final verification:
 heads without merging their identities and are explicitly assembly/transcription;
 they establish no independent philosophical premise. Their combined build passes
 4435 jobs, exact binding879/2pinned/0mismatch and both Comparator/result NanoDa
-checks. Scoped library verification and independent review remain pending. Next
-step: complete those checks, then publish the coherent source/functionality
+checks. Independent eleven-file review passes; scoped library NanoDa checked21
+declarations with no typechecker errors (one axiom pretty-printer warning).
+The connections are committed at d7289ae0. Next step: publish the coherent source/functionality
 and interface batch. No premise-truth discharge is claimed.
 
 PR918 head `e88c22c10370035d070c920abaed6e494d5d1958` remains open.
