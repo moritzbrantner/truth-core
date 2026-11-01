@@ -55,16 +55,43 @@ connected alternative increases the global reaching-root open union73→81
 new statement identity (the binding for existing asymmetry). Exact newly
 reaching IDs and proof boundaries are in the existing attempt and matrix.
 Its focused public PR is #841 at `3df07ab69d46c42715417d6de91d1f6af62cf821`,
-CI41257058290 and exact-head review pending. The ten-file patch excludes the
-private later witness history, entire research handoff and pending #840 matrix.
-Its separately measured public baseline also has73→81 union and all eleven
-existing root-route costs unchanged; the32-input consumer belongs to #840 and
-was not represented as present in the #841 public baseline. The source and same-witness composition PRs #839/#840 are delivered. A worker
-owns the guarded merge of #841 once its exact-head gates pass; #841 is not yet
-merged. Next concrete step: finish #841 delivery and integrate main, then use
-its exact seven-input endpoint in the existing necessity/attribute route or
-continue the already selected A3 source range. Do not restart general
-infinite-regress diagnostics or mark asymmetry/causal reach as established.
+CI41257058290 and exact-head review passed without findings. PR #841 merged
+as `a18d1929c55a05cf319d47a744d30d71916a8846`; research integration follows
+after the current commits. The ten-file public patch excludes private later
+witness history and the entire research handoff.
+
+The explicit25-input consumer is verified at `15de1fad`:
+`NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY` derives the old whole-roster
+premise with the imported seven-input theorem, then imports the old25 result
+using identical carrier/model/world/profile/dictionaries. Exactly D is replaced
+by selected actual-grounding asymmetry, now optional ledger O; the other24
+inputs and old same-witness endpoint remain unchanged. Its two helper checks
+retain the complete unchanged old positive fixture alongside asymmetry. That
+fixture's incidental D is stronger positive background, not a consumer input;
+empty potency/finite respects/necessary non-God effect limits remain explicit.
+Full build4338, binding812/2pinned/0mismatch, Comparator+independent NanoDa,
+663-declaration module verification and independent type/prose review pass.
+Consumer and closed asymmetry helper have no axioms; compatibility uses
+`propext` from the old control. The81-open-leaf union29bare/52sourced, cheapest
+root cost31 and existing32-input consumer37 remain unchanged. Its direct-main
+public PR is being prepared in count-temporal after #841 delivery.
+
+A3 main source extraction is committed as `3e51f187`: five qualified unbound
+claims, five statements, two source glosses and one disambiguation, plus the
+three existing source records. Four existing main witnesses were materialized
+and all raw tooltip hashes checked; Root and independent source reviews
+accepted fidelity without findings. Source causal/explanatory priority does
+not establish an earlier existing concrete bearer, possible NB does not
+establish a rigid actual necessary witness, and source reports do not supply
+Scenario's guarded interfaces. No Lean/pin/truth change. The public source PR
+is being prepared in root-perfect-goodness with only thirteen new records and
+minimal public-baseline updates; private later witness coverage is excluded.
+Next source range is A3P3B/C2 then P3C/C3, followed by remaining families.
+
+Next concrete steps: integrate #841, finish the explicit25-consumer and A3
+source deliveries, and preserve their exact premise comparisons. Do not
+restart general infinite-regress diagnostics or treat optional O, causal
+reach, naming or classical-field sufficiency as independently established.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
@@ -510,10 +537,12 @@ sometimes a specified target. Those stronger conditions remain explicit:
 existential population alone neither supplies a concrete criterion nor names
 the selected witness. No necessary being is assumed at the starting point.
 
-### Owner truth ledger A–N: selection pending
+### Owner truth ledger A–N, with optional O: selection pending
 
 The owner requested a selectable ledger and an adversarial agent. The A–N IDs
-below are the exact labels presented in chat. No selection has yet been received.
+below are the exact labels presented in chat. Optional O was added after the
+verified asymmetry route; it remains OPEN and is not a retrospective owner
+selection. No selection has yet been received.
 A remains explicitly accepted; earlier explanatory demands remain working
 context, not automatic endorsement of every stronger formal instance. Accepting
 a row authorizes its use in the intended interpretation as a working truth; it
@@ -536,6 +565,7 @@ Classical logic remains the current framework.
 | L | Something that is a component of anything cannot be first in being. | STMT-NO-COMPONENT-IS-FIRST-BEING; component-of-others differs from being composite. |
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
+| O (new, open) | Among actual concrete individuals at the selected world, if x grounds y, y does not ground x; this also excludes self-grounding. | STMT-ACTUAL-GROUNDING-ASYMMETRIC; the selected existential grounding relation, not every causal/explanatory relation. Offered as an alternative to formal D only with the retained B/E/F/Iesse/Hesse/EM package. No owner acceptance or global weakening is inferred. |
 
 Priority scope clarification for G: the completed V lect.13 reading distinguishes
 asymmetric natural independence, causal examples, cognition order, and
