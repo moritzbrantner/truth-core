@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a5p1.html",
+    "retrieved_at": "2026-10-31T19:06:39Z",
+    "sha256": "sha256:934b172e321658e6102fed3c00ce14e816780aff39a660abb5fabafa58d96182",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A5P1",
+      "locator": "A5P1, complete interactive page",
+      "claim_locator_prefixes": [
+        "A5P1,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Is it necessary that if there are contingent situations that obtain, then at least one of them is impossible to cause?"
+        }
+      },
+      "text_sha256": "sha256:763732c2d0bb0aac97c1f5e384927334aae7b2461c27aad7cbd5c667b6ac2246",
+      "incipit": "Is it necessary that if there are contingent situations that obtain, then a"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "paraphrase": "Given its reported inputs and preceding conditional history argument, the source takes possible Necessary Being to contradict the outer no-possible-Necessary-Being assumption, rejects it and concludes possible Necessary Being at step20. C’s hypothetical causability and causal witness are not exported unconditionally. The following already represented modal suffix is distinct; this reading establishes neither actual existence nor a SAME rigid necessary individual or cause.",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
