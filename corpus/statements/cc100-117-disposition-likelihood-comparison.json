@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CC100-117-DISPOSITION-LIKELIHOOD-COMPARISON",
+  "paraphrase": "The probability of a disposition to form beliefs in supernatural agency given theism is much greater than its probability given naturalism.",
+  "definition_ids": [
+    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

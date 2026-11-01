@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION",
+  "paraphrase": "Under the preceding reason, personal-explanation and best-explanation commitments, the best explanation of reason is theistic.",
+  "definition_ids": [
+    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
