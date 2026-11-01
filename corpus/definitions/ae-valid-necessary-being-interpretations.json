@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AE-VALID-NECESSARY-BEING-INTERPRETATIONS",
+  "term": "almost-everywhere Euclidean and selected-reflexive validity under a supplied measure",
+  "definition": "AlmostEverywhereModalValidity m w μ means that for μ-almost every θ, the frame of m θ is Euclidean and the selected w θ accesses itself. The conjunction is only required almost everywhere under THIS arbitrary supplied measure. It asserts no modal frame is actual, no probability normalization or uniform prior, and no positive mass of possible necessary beings. Euclidean here is the modal condition: R u v and R u z imply R v z; selected reflexivity is R (w θ) (w θ). Neither is a statement about spatial geometry.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.NecessaryBeingMeasure.AlmostEverywhereModalValidity",
+  "note": "Uses pinned Mathlib MeasureTheory.ae, with no hand-rolled probability calculus. Euclideanness and selected reflexivity retain their exact existing meanings; the main result assumes their almost-everywhere conjunction rather than defending it. Classical mathematical countermodels/consistency do not warrant this support condition, assign prior weights or establish metaphysical possibility. No structural property of causal or grounding relations follows; these relations are unused. Source modal-report-to-frame and epistemic support interpretation remain OPEN. One named hypothesis groups two frame conditions; this is not a philosophical premise reduction or global weakening."
+}
