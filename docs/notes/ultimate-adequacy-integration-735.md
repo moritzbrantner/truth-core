@@ -3217,3 +3217,20 @@ three identical suffix statements; #120's initial normative probability
 account does not establish actual proper function. Both design steps and
 probable-God bridges remain open attributed commitments, no Lean consequence
 or actual God truth. #121 is next.
+
+### Candidate reduction: no upfront contingent explanandum
+
+Root inspected ReasonClosed and the necessaryReason producer and proposed a
+separate later variant: ReasonClosed supplies actual truth and membership of
+x. Under excluded middle, if x is necessary, realize a fixed member of K x
+directly; otherwise classical accessible-failure extraction makes actual x
+contingent and the existing composed route applies. Thus upfront contingency
+appears unnecessary for bare necessary-being output. Together with unused
+nonCopy, this is assigned for independent design checking after the frozen
+six-input result. Neither reduction is yet advertised as mechanically checked.
+No frozen Challenge, current result, source reading or truth flag changes.
+
+Source #122 committed c58f7e80 after independent review: five readings preserve
+the open realism-without-God-to-skepticism bridge, anti-skepticism and realism
+premises. No opaque-proposition transcription proof is counted as progress.
+Next source reading is #123.
