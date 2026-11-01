@@ -411,3 +411,37 @@ count and depth counts remain unchanged. Delivered-head CI/review is pending.
 Infinity, no-potency/immutability and eternity still need the separately listed
 interfaces; no full-nine, God-naming, moral or independent cognitive truth is
 certified by this slice.
+
+### Same-witness named God and root consumer (2026-11-01)
+
+`NECESSARY-CLASSICAL-GOD-ROOT` composes the eighteen-input joint route with
+seven explicit additional inputs: act priority, same-respect act/potency
+exclusivity, subsistent-being infinity, immutable eternity, sufficient God
+naming, God maximality, and sufficiency of the exact nine attributes for the
+signature field. The same actual concrete necessary root carries all nine
+encoded attributes, including `IsTheOneGod` for the actual signature God
+predicate. The registered projection preserves that witness into the existing
+`STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS`; it is a structural
+projection/transcription, not another philosophical discharge.
+
+`NECESSARY-CLASSICAL-GOD-ROOT-CONTROL` checks joint satisfaction of all25
+inputs in the unchanged earlier four-role fixture with explicit new dictionaries.
+It retains a distinct, actual, concrete, necessarily existing non-God effect.
+Consequently unique God/root does not imply unique necessarily existing
+individual. All roles have act in both supplied respects; exclusivity forces the
+new potency predicate empty. The composite producer consequently has no supplied
+potency: this exposes the limited respect domain and missing composition-to-potency
+semantic scope, not a demonstrated metaphysical world. Infinity, eternity and
+the primitive attribute field are interpreted explicitly, not independently
+established by this model. Unused historical signature fields are placeholders.
+
+`NECESSARY-CLASSICAL-GOD-CASE` connects that same witness to the unchanged
+Catholicism Skeleton using exactly seven existing revelation/history/teaching
+premises. Its32 direct inputs expand to37 open obligations in the current
+frontier report; the cheapest existing root route remains31 and the designated
+route is unchanged. Compared with the eighteen-input baseline, the reaching-root
+open union remains73 (23bare/50sourced), with no added or removed reaching IDs.
+This is new verified conditional composition, not a reduction in open premises.
+The historical tail is structural assembly; the25-input positive model does not
+certify the additional seven inputs. Independent reviews found no type/prose
+or same-witness mismatch. Only owner ledger A remains accepted.

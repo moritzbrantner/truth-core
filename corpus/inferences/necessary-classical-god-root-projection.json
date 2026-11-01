@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
+  "input_statement_ids": [
+    "STMT-NECESSARY-CLASSICAL-GOD-ROOT"
+  ],
+  "output_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+  "rule": "constructive-proof",
+  "meaning": "Structural projection/transcription only: unpack the shared NecessaryClassicalGodRootAt witness and retain its sigma.IsGod membership, the IsTheOneGod component of its exact nine-predicate conjunction, and sigma.HasClassicalAttributes. This supplies the existing UniqueClassicalGodExists consumer without a new philosophical premise, naming claim, attribute derivation or independent closure. All twenty-five upstream philosophical/logical inputs retain their original status; the projection merely connects existing endpoints.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

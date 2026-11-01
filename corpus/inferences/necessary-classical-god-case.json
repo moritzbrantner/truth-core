@@ -1,0 +1,18 @@
+{
+  "id": "INF-NECESSARY-CLASSICAL-GOD-CASE",
+  "input_statement_ids": [
+    "STMT-NECESSARY-CLASSICAL-GOD-ROOT",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+  ],
+  "output_statement_id": "STMT-CATHOLICISM-TRUE",
+  "rule": "existential-instantiation-and-identity-substitution",
+  "meaning": "Registered32-input root composition: import the existing25-input NecessaryClassicalGodRoot theorem ONCE, preserving the actual selected necessary root and all exact dictionaries on sigma.Being. Apply its existing transparent projection to UniqueClassicalGodExists and unpack that SAME witness g. Its actual IsTheOneGod sigma.IsGod clause identifies every signature-God with g; identity substitution transports its primitive classical-attributes field to every such God. Import the unchanged Skeleton.catholicismSkeleton with this witness, the transported universal attributes, and EXACTLY the seven existing revelation/historical/teaching premises. This materializes a root consumer for the new necessary-root route; no historical proof, religious premise, source claim, vocabulary, carrier bridge or independently defended attribute is added. The historical/teaching end remains structural assembly/transcription conditional on those OPEN interfaces; the earlier infinity, eternity, naming and primitive-field adapters likewise remain explicit. Exact32=25+7; no philosophical premise is discharged, old fixed root arguments are unchanged, and no global weakening/minimality or independent Catholic truth is claimed. This composes the existing necessary-root projection and INF-CATHOLICISM-SKELETON-FROM-CLASSICAL-WITNESS without changing either.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
