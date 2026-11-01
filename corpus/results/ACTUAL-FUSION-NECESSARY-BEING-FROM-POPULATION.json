@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
+  "argument_id": "ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
+  "challenge_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.necessaryBeing",
+  "comparator_config": "results/ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION/comparator.json",
+  "status": "solution-present",
+  "description": "Six explicit inputs: existing owner-accepted population, conditional selected-family actual fusion, and four unchanged OPEN part/causal policies yield SOME actually existing necessary individual in the same Ontic by scoped reductio. The particular cause is not asserted necessary, concrete, underived, unique or God. No ordinary extra negation premise, L1/L2/A1/frame/concreteness/PSR, source alias or independent premise truth is introduced. Actual no-necessary-parts family population and an actual sum are obtained only within the discharged reductio; no unconditional such population is assumed. Existing Model.explains is unused."
+}

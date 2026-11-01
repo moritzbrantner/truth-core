@@ -1,0 +1,31 @@
+{
+  "id": "ACTUAL-FUSION-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-ACTUAL-FUSION-NECESSARY-BEING"
+  ],
+  "meaning": "Assume the scoped negation of existing NecessaryBeing. Every actual x then has no necessary parts: any necessary p ≤ x would be actual by the actual-part policy and would witness the denied NE. The explicitly actual sum therefore has no necessary parts and gets a cause c by the causal input. Causal actuality makes c actual, so the SAME reductio also makes c have no necessary parts. Thus c belongs to the exact fusion family and Fusion.upper places c below the sum. The common part c witnesses forbidden cause/effect overlap. Discharge the scoped denial classically to obtain SOME actual necessary individual. This does not establish that c is necessary. No L1/L2/A1, modal frame, concrete profile, grounding or source-truth premise is smuggled in.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

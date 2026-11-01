@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.CausesHaveActualEndpointsAt",
+  "paraphrase": "At the selected world, both cause and effect of every Ontic.Causes edge actually exist. This is an explicit actuality policy, not inferred from primitive Causes or from an explanation token.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

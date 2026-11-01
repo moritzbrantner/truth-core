@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ActualFusionNecessaryBeing.necessaryBeing"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

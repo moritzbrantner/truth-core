@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualNoNecessaryPartsHaveCausesAt",
+  "paraphrase": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in the SAME primitive Ontic.Causes relation. This OPEN causal policy is not ordinary contingent-existence PSR, explanatory sufficiency, a cause by definition or an independent source theorem.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
