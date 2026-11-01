@@ -1,0 +1,15 @@
+{
+  "id": "CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+  "statement_id": "STMT-CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 3 under steps 1–2",
+  "interpretation": "The source’s displayed restriction-transfer conclusion is preserved conditionally. Applicability from involvement to explanatory restriction is not a new checked theorem; no actual personal explanation or same selected person is produced by this record. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
