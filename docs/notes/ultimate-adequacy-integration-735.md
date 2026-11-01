@@ -27,9 +27,9 @@ and required CI passed. Main merge `7cd1a3dfaeeff58f63aa00d2b4cc491c55c9c0ce`
 is integrated by `c7c5f8d7`, preserving fuller private source history. The source-only public branch excludes
 the private later witness history. The separate math publication is PR #840 at
 `aa1ef0e4ebde6782c44c92cd2981e3e7e9b2223d`, prepared in the existing
-root-perfect-goodness worktree. Exact-head review completed without findings; CI41256501034 has only its
-library NanoDa job still running, with other required checks passing. No merge
-is claimed yet. The complete source-network verifier
+root-perfect-goodness worktree. Exact-head review completed without findings and CI41256501034 passed.
+PR #840 merged as `1183b628de3225c25b1228dfc4b5fdd7d015ae48`;
+research integration is `7b0adc83`, preserving the additional asymmetry section. The complete source-network verifier
 passes:468 passages,46 immutable snapshots and243 web passages checked. Existing
 media spans without local exports were not re-verified, and one bibliographic
 span remains citation-only. Offline manifest/corpus/generated-index/whitespace
@@ -59,8 +59,12 @@ CI41257058290 and exact-head review pending. The ten-file patch excludes the
 private later witness history, entire research handoff and pending #840 matrix.
 Its separately measured public baseline also has73→81 union and all eleven
 existing root-route costs unchanged; the32-input consumer belongs to #840 and
-was not represented as present in the #841 public baseline. Workers own guarded
-merges of #840/#841 once their exact-head gates pass; no merge is claimed yet.
+was not represented as present in the #841 public baseline. The source and same-witness composition PRs #839/#840 are delivered. A worker
+owns the guarded merge of #841 once its exact-head gates pass; #841 is not yet
+merged. Next concrete step: finish #841 delivery and integrate main, then use
+its exact seven-input endpoint in the existing necessity/attribute route or
+continue the already selected A3 source range. Do not restart general
+infinite-regress diagnostics or mark asymmetry/causal reach as established.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
