@@ -1,0 +1,10 @@
+{
+  "id": "FUSION-NO-NECESSARY-PARTS",
+  "argument_id": "FUSION-NO-NECESSARY-PARTS",
+  "challenge_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Solution",
+  "theorem": "TruthCore.Results.Mereology.FusionNoNecessaryParts.noNecessaryParts",
+  "comparator_config": "results/FUSION-NO-NECESSARY-PARTS/comparator.json",
+  "status": "solution-present",
+  "description": "Three explicit analyst inputs give no necessary parts of the selected sum: existing Sum2 Fusion, no necessary parts in every selected family member, and OPEN necessity-downward-along-parthood. A proposed necessary part overlaps a selected member through a common necessary part, contradiction. This is a structural L3 reconstruction, not source-premise truth, actual sum/ordinary contingency, source L1/L2, cause, necessary source or God. No source bare statement is bound or aliased."
+}
