@@ -1292,7 +1292,7 @@ Classical logic remains the current framework.
 | C | Every actual contingent concrete being has an actual concrete ground of its existence. | STMT-EVERY-CONTINGENT-GROUNDED-AT; stronger than an unspecified explanation. |
 | D | A wholly derivative structure cannot completely explain its own existence merely by infinitely many dependent members. | Working adequacy demand; its application to STMT-WHOLE-ROSTER-NOT-TRAPPED must preserve the selected relation. No all-subsets WF is admitted by this wording. |
 | E | An actually existing being has esse, actuality of being. | STMT-EXISTING-IN-ACT-AT; one-way selected-world map. |
-| F | A genuine present cause of another concrete being's existence is itself an actual concrete ground of that being. Mere historical production is insufficient. | STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND; presence and concreteness of cause are conclusions, not established by the term cause alone. |
+| F | For an actual concrete being x at the selected world, any numerically distinct cause c of its supplied esse is concrete, exists at that same world and grounds x. | STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND; cause actuality/concreteness and the grounds edge are conclusions at the same w, with no temporal-concurrence claim. |
 | G | Whatever is ontologically prior to another being actually grounds its existence; priority is not temporal. | STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND; formal candidate/domain scope still must match the owner's intended priority. |
 | H | Whenever a represented perfection has genuine grades, some being possesses it maximally. | STMT-GRADES-HAVE-A-MAXIMUM. |
 | I | A maximum in a perfection causes that perfection in every other bearer of it. | STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS; includes tied/incomparable maxima under weak IsMaximumIn. |
@@ -1302,6 +1302,13 @@ Classical logic remains the current framework.
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
 | O (new, open) | Among actual concrete individuals at the selected world, if x grounds y, y does not ground x; this also excludes self-grounding. | STMT-ACTUAL-GROUNDING-ASYMMETRIC; the selected existential grounding relation, not every causal/explanatory relation. Offered as an alternative to formal D only with the retained B/E/F/Iesse/Hesse/EM package. No owner acceptance or global weakening is inferred. |
+
+F uses world-relative existence, not presence at a current time. If w denotes a
+complete history, a past producer may exist in that world without being alive
+now. Historical production alone still supplies neither the supplied esse-cause
+relation nor the selected grounds edge; interpreting them as sustaining causation
+requires independent defense. A now-slice reading would need an explicit
+world/time coherence interface, which F does not contain.
 
 The renewed owner-facing presentation keeps A accepted and requests selections;
 no additional reply has selected a premise. Independent adversarial review
