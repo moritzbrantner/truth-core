@@ -1,0 +1,11 @@
+{
+  "id": "DEF-OBJECT-CAUSE-NONOVERLAP",
+  "term": "no common part between complete cause and effect",
+  "definition": "For each G.edge c e, no object p is part of both c and e, under the SAME fixed partial order and the existing common-part Overlap. This is stronger than numerical distinction or merely not being part of the effect.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-CAUSE-EFFECT-NONOVERLAP"
+  ],
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.CauseEffectNonoverlap",
+  "note": "This raw graph policy has no world-indexed actuality guards, unlike CauseEffectNonoverlapAt. Rutten p135 argues from ontological priority; that defense is attributed, not established by order logic. Constitutive parts overlap their wholes, so the relation cannot silently be all ontological grounding."
+}

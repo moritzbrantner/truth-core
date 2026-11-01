@@ -1,0 +1,21 @@
+{
+  "id": "STMT-OBJECT-CAUSAL-ACTIVITY",
+  "paraphrase": "Every object has an incoming cause or an outgoing cause-edge to a distinct object, inclusively.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.CausalActivity",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "This is the strict actual-domain framework reading. A default version or a modal universal is a different commitment."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "RUTTEN-CH6-ATOMIC-PART-CONSEQUENCE",
+  "statement_id": "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.127 Step1 and pp.129–131 P2 defense",
+  "interpretation": "Explicit WEAKER CONSEQUENCE reading: terminating decomposition into simples supplies a simple part in an ordinary nonempty/reflexive parthood domain. IsMin-part existence is not identified with the author's full P2; Step1 explicitly uses terminating proper-part descent, and footnote186 distinguishes qualitative reasoning from a quantitative infinite-limit proof. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

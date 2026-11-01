@@ -1,0 +1,10 @@
+{
+  "id": "DEF-FIRST-CAUSE-UNIVERSAL-EFFECT",
+  "term": "first cause with universal priority-or-inclusion of its effect",
+  "definition": "In Rutten's adjusted sense a first cause is an uncaused complete existence-producing cause with an effect M that is ontologically prior to OR includes every other caused effect. Ontological priority is his asymmetric existence-requirement notion, distinct from overlap or merely sharing a part. This is stronger than an uncaused object or an uncaused outgoing cause.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-FIRST-CAUSE-CONCLUSION"
+  ],
+  "note": "Primaryp124 states the prior-only definition; fn182p128 explicitly adds inclusion. The source asserts this full conclusion; no Lean proof of it is supplied here. Step5's passage from a caused shared part to M's priority remains a separate typed obligation."
+}

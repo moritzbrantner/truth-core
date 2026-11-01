@@ -1,0 +1,22 @@
+{
+  "id": "RUTTEN-CH6-UNIQUE-CAUSE-PER-EFFECT",
+  "statement_id": "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.124 stage setting and p.125 footnote175",
+  "interpretation": "This is uniqueness of the incoming complete cause for EACH effect, not uniqueness of an effect per cause. Source causation brings objects into existence. Footnote175 groups several partial contributors into one distinct sum-cause; no every-partial-source identity or arbitrary fusion existence is supplied by the typed graph. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DEF-ATOMIC-OBJECT-DOMAIN",
+  "term": "non-null object domain and population",
+  "definition": "The chosen carrier represents objects that exist at the standpoint: objects, not a mere roster of possible candidates or an added null object. ObjectPopulation B is Nonempty B. This model has no Ontic/world/concreteness field, so a Lean carrier's population alone supplies no independent actuality or concrete-existence theorem.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-OBJECT-POPULATION"
+  ],
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.ObjectPopulation",
+  "note": "Rutten p124 permits abstract or concrete objects and p132 discusses restricting the domain to concreta. Those are distinct applications. The finite two-object interpretation is a logical witness only."
+}
