@@ -11,9 +11,10 @@ Branch: `research/lean-existential-self-actualization-20261031`; latest verified
 proof commit `68d95270`. Main now includes #879 (`903178ac`, remaining selected
 unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
 merged after clean exact-head reviews and all required CI success/skips.
-Canonical integration is c33c4461; 29a49e87 preserves retirement of the
-exhausted reality range after the incoming historical seed. Later canonical
-source findings and cursor retirement are retained.
+Canonical integration through #880/#881 is 520bf8d9. The exhausted reality
+range remains retired; complete later source findings and rejected readings
+are retained. Corpus check passes2720statements/1882claims/823results, with
+only the existing unrelated Frege–Geach warning.
 
 `FIXED-CONSTITUENT-NECESSARY-BEING` passed full original verification handle
 39369: build4392, bind838/2existingpins/0mismatch, Comparator/result NanoDa,
@@ -37,6 +38,12 @@ whole-deck completion is claimed. Next bounded source investigation is Koons
 1996 §7 Corollary1 constitution/involvement completed c8e89ade (five precise
 source readings, no truth closure); its public slice is assigned.
 Source coverage does not establish its open commitments.
+Current source deliveries: #882 CC118–120, headbf2799214f960cbe6da5572a3784e420b5eb4a7d,
+CI41293075188 live; #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
+CI41293227827 live. Both reviews requested once. Prepared CC121–122 slice is
+held until #882 lands. No checks are described as complete while still live.
+Two read-only research lanes inspect causal distribution/nonparthood and local
+contingent-foundedness reuse; neither has a new verified reduction yet.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
@@ -47,7 +54,11 @@ WeakAccountNecessaryBeing variant, frozen Challenge
 Full original verification handle5062 passes: build4394, bind839/2oldpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa11new/88closure/0type errors. Both
 theorems have zero axioms; independent final metadata review passes.
-Committed68d95270; public preparation is resumed after parent #881 landing. The
+Committed68d95270; public PR #884 head987c87dea77bf428d6b519ba7664417eee6e978c,
+CI41293276248 running, review requested once. Exact public110-module proof
+closure/toolchain/manifest/lakefile identity passes; Catholic81/best31 unchanged,
+NE61→62 adds only the weaker-account statement, newroutecost4 vs oldcost5,
+existingbest2 unchanged. Four account clauses remain explicit in the bundle. The
 conditional route now mechanically omits upfront contingency and nonCopy;
 remaining four account clauses, foundedness and constitution policies stay OPEN. No unique,
 concrete, causal, personal or divine character is inferred for the new bearer.
