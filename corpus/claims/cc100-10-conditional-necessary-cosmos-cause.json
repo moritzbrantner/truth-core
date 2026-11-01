@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
+  "statement_id": "STMT-CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.22, T citing L4, C2, L5 and A1, argument #10 Koons",
+  "interpretation": "This is the displayed guarded conclusion, not an independently proved necessary-being result. The intended exclusion uses a cause’s nonoverlap with C against every contingent thing’s overlap with C; merely distinct cause does not suffice. C1 supplies an existence restriction only when a causal witness is given. Noncontingent-to-necessary classification and any mapping to concrete Ontic existence/causation or grounding remain unproved application obligations; no all-necessary uniqueness, God identity or complete explanation follows. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

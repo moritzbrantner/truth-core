@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-10-CONTINGENT-OVERLAPS-COSMOS",
+  "paraphrase": "Every contingent thing overlaps the aggregate C of all wholly contingent things.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
