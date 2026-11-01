@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.atMostOne"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

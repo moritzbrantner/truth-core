@@ -1,0 +1,13 @@
+{
+  "id": "DEF-NB-A8-LIMITING-PROPERTY",
+  "term": "deficiency-entailing limiting property and backward closure in A8",
+  "definition": "A8P1 calls a property limiting when it entails a deficiency of some kind, giving lack of power as example. Main A8C4 asserts that entailing a limiting property makes the antecedent property limiting, and C7–8 applies that backward closure. The powerful-Necessary-Being nonlimitation and possible-nonexistence limitation are separate respondent-report commitments.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A8-LIMITING-PROPERTY-DEFINITION",
+    "NB-SURVEY-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
+    "NB-SURVEY-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+    "NB-SURVEY-A8-MAIN-LIMITATION-REDUCTIO"
+  ],
+  "note": "No full Limiting-as-existential-deficiency semantics is selected. Deficiency-property admission is not an actual deficient instance; a uniform deficiency/intension cannot silently be extracted from varying bearers. Lack of power is a source example, not an independently measured universal evaluative standard. No real powerful Necessary Being or quantitative power model is supplied. This is distinct from composition/esse/prior-root structural limitation, source A9 nontrivial consequence and Scott positivity. Rival relevance-sensitive readings would alter the stated unrestricted entails sense and need separate defense."
+}

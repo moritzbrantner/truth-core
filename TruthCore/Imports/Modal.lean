@@ -24,6 +24,9 @@ import TruthCore.Modal.GraphBridgeCertificate
 import TruthCore.Modal.HistoryContrastive
 import TruthCore.Modal.KResearch
 import TruthCore.Modal.Kripke
+import TruthCore.Modal.LimitationPossibility
+import TruthCore.Modal.LimitationSeparation
+import TruthCore.Modal.NecessaryBeingMeasure
 import TruthCore.Modal.NecessaryContingentActivity
 import TruthCore.Modal.NecessaryIfConnectivity
 import TruthCore.Modal.NecessaryIfExistent

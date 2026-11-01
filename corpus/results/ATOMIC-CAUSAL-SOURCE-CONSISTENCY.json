@@ -1,0 +1,10 @@
+{
+  "id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "argument_id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticCausalSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticCausalSource.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticCausalSource.consistency",
+  "comparator_config": "results/ATOMIC-CAUSAL-SOURCE-CONSISTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Construct one fixed two-object identity-parthood interpretation with the sole complete-cause candidate edge origin→effect. Verify every nonlogical minimum input plus activity, unique cause per effect, all-simple/vacuous composite P6, exact singleton caused-simple family/full Fusion and explicit source/outgoing witnesses. This certifies nonvacuity of the analyst package, not real-world applicability or the full author first cause. Primary P2 termination and P4 sum are stronger than the used consequences. No root-path premise is discharged and no complete-cause-to-ground dictionary is established."
+}

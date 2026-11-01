@@ -1,0 +1,23 @@
+{
+  "id": "INDEXED-SIGNAL-REAPER",
+  "premise_statement_ids": [
+    "STMT-INDEXED-SIGNAL-INDEX-ADMISSIBLE",
+    "STMT-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+    "STMT-INDEXED-SIGNAL-EMISSION",
+    "STMT-INDEXED-SIGNAL-FORWARDING"
+  ],
+  "conclusion_statement_id": "STMT-GRIM-REAPER-FIRING-LAW",
+  "inference_ids": [
+    "INF-INDEXED-SIGNAL-REAPER"
+  ],
+  "meaning": "Derive LocalConservation by case analysis on the immediate upstream input, then import IndexedSignalProvenance.provenance with the SAME index bound. Complete forwarding propagates one code across any finite station interval. Two issuances would force different station codes at one output, so an issuance excludes every larger-index issuance. Conversely a present upstream code has a larger-index issuing station by provenance and the bound; absence of all such issuances forces absent input, and the positive trigger issues. Thus derive the EXISTING GrimReaperLaw, without global provenance or firing law as a premise. Importing the original impossibility separately makes this four-interface package incompatible; it is not a satisfiable worldview proposal or a proof of causal finitism.",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-PROVENANCE",
+    "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+    "DEF-INDEXED-SIGNAL-EMISSION",
+    "DEF-INDEXED-SIGNAL-FORWARDING",
+    "DEF-GRIM-REAPER-ACTION-RULE"
+  ]
+}

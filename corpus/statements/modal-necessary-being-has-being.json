@@ -1,0 +1,25 @@
+{
+  "id": "STMT-MODAL-NECESSARY-BEING-HAS-BEING",
+  "lean_declaration": "TruthCore.Causality.ModalNecessaryBeingActuality.ConfiguredHasBeing",
+  "paraphrase": "For the supplied Profile and selected world, the OLD necessary-being-to-act proposition instantiated with modalPossible (accessible-world possibility) and modalIsAt (world-relative existence). Every candidate that cannot be absent at an accessible world is in the supplied act-in-esse extension. This is NOT the generic proposition over arbitrary temporal Possible/IsAt dictionaries.",
+  "note": "Independent configured-instance identity under the corpus schema/instance boundary; the alias is definitionally the old type at this explicit dictionary. It supplies no reverse edge or generic-schema closure.",
+  "definition_ids": [
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

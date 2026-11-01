@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
+  "paraphrase": "Some wholes made by an intelligent, unembodied agent require that agent to be God-like.",
+  "definition_ids": [
+    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

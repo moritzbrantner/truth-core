@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-8-ACTUAL-BCCP-POSSIBLE-EXPLANATION",
+  "paraphrase": "All contingently true propositions in the actual world form a big conjunctive proposition BCCP; under possible-explanation coverage for every true proposition, possibly a proposition explains that BCCP.",
+  "definition_ids": [
+    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

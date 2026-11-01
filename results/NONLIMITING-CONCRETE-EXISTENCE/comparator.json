@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NonlimitingConcreteExistence.necessaryConcrete"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

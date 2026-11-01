@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
+  "statement_id": "STMT-NB-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9P1B, complete concrete-entails-P question and titles; A9C step 4 universal extraction",
+  "interpretation": "Preserve P1B’s intermediate nontrivial-to-concrete wording and C4’s for-any-P extraction. Ordinary projection/conjunction composition yields only ordinary entailment; it does not establish independence from impossibility as a basis. Replacing the ordinary antecedent by NT would change the question and its C5 application. Concrete is source causal capability, necessary is necessarily existing; actualist/domain/modal/class correspondence is OPEN. No actual respondent assent or retained session state is supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

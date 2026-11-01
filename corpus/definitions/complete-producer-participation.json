@@ -1,0 +1,11 @@
+{
+  "id": "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+  "term": "whole complete producer as a productive participant",
+  "definition": "ProducerParticipates G participants says every complete cause c of effect e belongs to the supplied set participants e. Participants means productive participants broadly, including whole producers, not exclusively proper partial causes. The independently supplied family is not defined as G’s predecessor set.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH7-COMPLETE-PRODUCER-PARTICIPATES"
+  ],
+  "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.ProducerParticipates",
+  "note": "Explicit interpretive logical reading of ChapterVII157 all objects participating in causing. In the source’s joint-production example, constituent producers and their productive aggregate may all participate; the aggregate is not required to be its own proper part. Extensional coincidence of the family with complete causes in a simple case is not forbidden, but taking them as definitionally identical would erase the partial/complete distinction. Necessary background conditions and enablers are not automatically productive participants. Membership is interpreted in ONE supplied causal context, not across alternative histories. Applicability to reality and the broad participant interpretation remain OPEN."
+}

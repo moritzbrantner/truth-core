@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-122-REALISM-TRUE",
+  "paraphrase": "Realism is true.",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

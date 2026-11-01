@@ -1,0 +1,15 @@
+{
+  "id": "CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
+  "statement_id": "STMT-CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.16, argument #8, step 5 citing steps 3–4 and S5",
+  "interpretation": "Preserve the displayed conclusion about an explaining proposition, rather than silently weakening it to bare necessary-being existence. The source invokes S5; no proof that S5 transports the explanatory relation or its selected token to actuality is registered. Existing same-bearer necessity results do not by themselves supply an actual explanans of this fixed BCCP. This is an OPEN attributed conditional, not a formal refutation or established modal consequence. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WEAK-REASON-CLOSED-ACCOUNT",
+  "term": "four-clause reason-closed account",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.WeakAccountNecessaryBeing.WeakReasonClosed",
+  "definition": "Exactly four existing account clauses: S contains x; every S member holds at w; every admitted reason for an S member belongs to S; each contingent S member has an admitted reason. The original ReasonClosed nonCopy clause is omitted.",
+  "note": "Transparent weakening of existing shared explanatory vocabulary, not a new ontology or definition of adequate explanation. ofReasonClosed checks the original-to-weaker projection. Coverage still excludes a contingent unexplained account member by stipulation, not independent defense. Founded and both fixed-constituent policies remain separate OPEN inputs. Ordinary reason examples orient the reading but do not establish universal coverage or real constituency; brute contingent stops, non-well-founded accounts and necessary abstract facts remain serious rival policies. No causal direction, modal sufficiency, structural asymmetry, source correspondence or reality applicability follows."
+}

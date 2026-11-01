@@ -1,0 +1,21 @@
+{
+  "id": "NB-SURVEY-A9-REVISED-NONTRIVIAL-REDUCTIO",
+  "statement_id": "STMT-NB-A9-REVISED-NONTRIVIAL-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9C3, steps 1–8 and source concrete/contingent/Necessary-Being titles, following A9P3C generic revisit/keep context",
+  "interpretation": "The prefix words exactly match main A9, but they occur after the revised must-exist stipulation. Retain the reported ordinary-to-NT transfer and negative relation instance only as conditional inputs in that context, without inventing a specific P3C reaffirmation. Do not silently substitute the revised classifier for every necessary/modal term or select a complete NT semantics. The source NoPossibleNB supposition remains through1–6; only7–8 discharges possible Necessary Being in the revised context. Source classification/basis/intensional/actualist/world/rigid-witness mappings remain OPEN. This is not A5/A6 history, A7 count or A8 limitation reasoning and supplies no new cause-opportunity premise or independent NonLimC entitlement.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

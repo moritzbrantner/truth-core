@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A9-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9P3C, opening automatic-existence stipulation/complement and generic revisit-or-keep invitation",
+  "interpretation": "Reuse only the existing revised must-exist/complement stipulation. P3C invites revisiting or keeping previous answers generically; it does not specifically reaffirm the NT transfer or negative relation report. No actual response, all-entry-path/session retention, material-implication interpretation, ordinary NecessaryAt identity or uniform substitution for every necessary/modal term is certified.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

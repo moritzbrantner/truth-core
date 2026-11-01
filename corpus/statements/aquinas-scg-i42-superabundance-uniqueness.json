@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-SUPERABUNDANCE-UNIQUENESS",
+  "paraphrase": "What is predicated by superabundance belongs to only one being; if God is the highest good, there cannot be two highest goods or several gods.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "CONCRETE-ACTUAL-COVER-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-NOT-PART-OF-EFFECT-AT"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-CONCRETE-ACTUAL-COVER-NECESSARY-BEING"
+  ],
+  "meaning": "Existing actual-cover theorem assembly on the existing rigid concreteOntic restriction, with PartialOrder on the CONCRETE CARRIER rather than only its actual nodes. Under scoped absence of NecessaryBeing on that restriction, local reflexivity actualizes any proposed necessary part, so the supplied actual concrete population witness has no necessary parts. The exact conditional actual cover policy then supplies an actual cover of the actual no-necessary-parts family. Import ActualCoverNecessaryBeing.necessaryBeingOfCover once with the retained restricted causal coverage, actual endpoints and cause-nonparthood; unpack its SAME resulting concrete subtype witness to NecessaryConcreteAt, preserving the original frame, existence and rigid candidate identity. No ExistencePSR.Model/unused explains data or phantom ontology is constructed. ALL five structural/modal/causal policies are supplied on the SAME concrete restriction; none is automatically transported from the full carrier. Atomic parts, caused-simple coverage, full nonoverlap, actual-parts existence, ordinary PSR, sourcehood, underivedness, uniqueness, perfection and God are neither assumed nor inferred. Compared with contingent-only atomicity this uses a DIFFERENT family-cover and different local modal/causal policies, not a global weakening or numerical philosophical advance. The output is SOME actual necessary concrete individual, not necessity of the selected cover or its cause. B retains its owner-accepted working-truth status; the five additional policies and their real-world applicability remain OPEN. Verification independently establishes no premise truth or root closure, and supplies no new source attribution.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "DEF-CAUSE-NOT-PART-OF-EFFECT",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-CONCRETE-NECESSARY-UNION-WF",
+    "DEF-CONCRETE-SUPPORT-RESTRICTION",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-NECESSARY-CONCRETE-UNDERIVED-AT",
+    "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

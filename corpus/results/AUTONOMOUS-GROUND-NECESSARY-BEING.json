@@ -1,0 +1,10 @@
+{
+  "id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "argument_id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution",
+  "theorem": "TruthCore.Results.Explanation.AutonomousGroundNecessity.necessaryBeing",
+  "comparator_config": "results/AUTONOMOUS-GROUND-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Import memberwise/joint necessity on the SAME complete autonomous ground record: every contributor and enabler is autonomous, hence necessary under a separately explicit modal input. Joint necessity plus WHOLE-ground necessitation yields necessity of positive b; the explicitly aligned existence-fact correspondence yields NecessaryAt of the SAME b in the SAME Ontic. Preserve the given actual concrete b and project its actual existence/necessity into existing NecessaryBeing. Five explicit inputs; no IngredientAt, essential-label realization, productive R/sourcehood, WF, EM or frame axiom. The strong complete-ground, autonomy-necessity and necessitation commitments remain OPEN and are not inferred from authorized scoped adequate nonvacuous PSR."
+}

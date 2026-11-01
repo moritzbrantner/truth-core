@@ -1,0 +1,16 @@
+{
+  "id": "CC100-118-MATHEMATICAL-KNOWLEDGE",
+  "statement_id": "STMT-CC100-118-MATHEMATICAL-KNOWLEDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 1",
+  "interpretation": "Preserve the positive actual knowledge and strongly certain belief commitment. Strong certainty is not by itself defined as infallibility, necessity or knowledge; mathematical objects and our access to them are not identified with concrete causal beings. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

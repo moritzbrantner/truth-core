@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A10-PARTLESS-BEGINNING-ANGEL-CAUSED",
+  "statement_id": "STMT-NB-A10-PARTLESS-BEGINNING-ANGEL-CAUSED",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1D2, full hypothetical beginning-partless-angel question and cause title, with P1D continuation as context",
+  "interpretation": "This is a counterfactual question, not an assertion that an angel exists, that a partless angel could begin, or that the contemplated cause actually exists at a world. The affirmative report continues to P1D3; negative escapes and uncertainty goes to P1B2. This premise occurs only on the P1D affirmative/uncertain detour, not on every successful A10 route. Partlessness is not identified with a Lean Composite, IsSimple or component predicate. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

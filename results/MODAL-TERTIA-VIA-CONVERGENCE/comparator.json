@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ModalNecessaryBeingActuality.convergence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

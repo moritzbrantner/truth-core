@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I28-MEASURE-ALL-BEINGS-PERFECTION",
+  "statement_id": "STMT-AQUINAS-SCG-I28-MEASURE-ALL-BEINGS-PERFECTION",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.28 [8]",
+  "interpretation": "The source asserts the common-measure application and invokes own-being; the generic examples are colors and human virtue. Its order-by-approach language does not specify a Mathlib degree dictionary or rule out a distinct thing tied with the primary. Do not bind this statement to StrictPrimacyReading or silently identify genus-specific measurement with numerical uniqueness. Context [7] explicitly invokes reduction to one efficient cause and all things coming from it, with previous/future arguments referenced; its stronger comparative eminence is not an independently established all-others causal or creature-coverage premise. [10] explains the extension of the name perfect to complete act without making; no temporal making of God is attributed. Based on the verified complete Pegis English chapter; no independently consulted Latin edition or proof/truth certification is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-ESSE",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

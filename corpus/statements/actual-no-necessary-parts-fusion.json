@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualFusionAt",
+  "paraphrase": "The selected sum actually exists at w AND satisfies the existing Sum2 Fusion predicate for exactly the family of actually existing candidates with NoNecessaryPartsAt at that SAME w and Ontic. This is an explicit actual-sum/fusion input, not mere carrier inhabitation, abstract fusion, general population or unrestricted fusion over all Sets.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

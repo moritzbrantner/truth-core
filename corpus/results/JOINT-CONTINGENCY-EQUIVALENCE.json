@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-CONTINGENCY-EQUIVALENCE",
+  "argument_id": "JOINT-CONTINGENCY-EQUIVALENCE",
+  "challenge_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointContingencyLocalization.equivalence",
+  "comparator_config": "results/JOINT-CONTINGENCY-EQUIVALENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact classical iff for the SAME Arena, selected fixed set and actual world, using new localization and the imported existing forward JointCondition.contingent. There are no philosophical Prop inputs to this law, but it asserts neither joint truth nor a contingent member. Classical logical axioms are audited separately; no source attribution, global weakening or root premise closure is inferred."
+}

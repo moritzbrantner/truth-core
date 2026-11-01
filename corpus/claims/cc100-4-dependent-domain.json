@@ -1,0 +1,15 @@
+{
+  "id": "CC100-4-DEPENDENT-DOMAIN",
+  "statement_id": "STMT-CC100-4-DEPENDENT-DOMAIN",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.9, argument #4 Samuel Clarke-ish CA, steps 1–2",
+  "interpretation": "This attributes the displayed population and exhaustion commitments to the presentation, not to an inspected Clarke/Rowe/Gale/Reichenbach text. The slide supplies no concrete example, empirical witness or typed existence/domain guard. Dependent is not automatically ContingentAt, nor is dependence automatically an efficient cause, existential ground or temporal predecessor.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

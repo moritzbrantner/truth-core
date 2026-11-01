@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-WHOLLY-CONTINGENT-CAUSE",
+  "statement_id": "STMT-CC100-10-WHOLLY-CONTINGENT-CAUSE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.21, C3, argument #10 Koons",
+  "interpretation": "The domain is the defined no-necessary-parts class, not all ordinary contingent individuals or all facts. No independently warranted PSR, complete explanation, uniqueness of cause or actual concrete grounding relation is registered. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

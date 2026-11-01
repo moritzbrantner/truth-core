@@ -1,0 +1,26 @@
+{
+  "id": "JOINT-CONTINGENCY-LOCALIZATION",
+  "premise_statement_ids": [
+    "STMT-JOINT-CONDITION-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-JOINT-CONTINGENT-MEMBER",
+  "inference_ids": [
+    "INF-JOINT-CONTINGENCY-LOCALIZATION"
+  ],
+  "meaning": "Unpack the actual truth and accessible failure world of the SAME fixed conjunction. Classical double-negation elimination extracts a selected fact failing at THAT SAME failure world; actual joint truth supplies its actual truth. Package this exact fact with the original accessible world into existing ContingentMember. No choice/cause/bearer role, all-members contingency, explanatory sufficiency or new aggregate is inferred.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

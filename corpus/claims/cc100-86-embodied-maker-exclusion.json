@@ -1,0 +1,15 @@
+{
+  "id": "CC100-86-EMBODIED-MAKER-EXCLUSION",
+  "statement_id": "STMT-CC100-86-EMBODIED-MAKER-EXCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 2",
+  "interpretation": "Preserve both the positive some-wholes population and modal cannot-be-made restriction. This is stronger than merely not actually made by an embodied agent; no particular whole, possibility semantics or embodied-maker capability theory is supplied. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

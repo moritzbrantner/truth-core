@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-CAUSE-PRIORITY",
+  "term": "uncaused cause prior to every caused object",
+  "definition": "There are N and M such that N has no incoming G-edge, N causes M, M covers all caused simples, and N is Prior to every G-caused object.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.AtomisticUniversalCausePriority.UniversalCausePriority",
+  "note": "M is only a COVER, not a full fusion or the object proved universally prior. N-priority does not imply direct causation of every object, uniqueness, priority to uncaused objects, necessary existence or God. Rutten full first-cause effect-priority-or-inclusion is a distinct stronger endpoint."
+}

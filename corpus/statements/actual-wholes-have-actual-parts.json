@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualPartsExistAt",
+  "paraphrase": "At the selected world, every part of an actually existing whole actually exists. This selected-world policy asserts neither world-uniform part existence nor necessity downward along parthood or cross-world rigidity.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

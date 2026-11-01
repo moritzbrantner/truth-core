@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A10-PARTLESS-CAUSAL-DEFAULT",
+  "statement_id": "STMT-NB-A10-PARTLESS-CAUSAL-DEFAULT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1D3, full conditional partless-default question and cause/rule-of-thumb titles, recalling P1D2’s hypothetical beginning case",
+  "interpretation": "The antecedent retains P1D2’s hypothetical beginning context; it is not a claim about all angels or an actual caused angel. The source ASKS for the further generalization, rather than proving a frequency from the single hypothetical case. Its consequent concerns other partless things generally, without adding a contingent-only restriction or asserting exceptionless causation. Affirmative continues to P1E, negative escapes and uncertainty goes to P1B2; this entire detour is route-specific. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

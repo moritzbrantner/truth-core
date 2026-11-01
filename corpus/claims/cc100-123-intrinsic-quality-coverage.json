@@ -1,0 +1,16 @@
+{
+  "id": "CC100-123-INTRINSIC-QUALITY-COVERAGE",
+  "statement_id": "STMT-CC100-123-INTRINSIC-QUALITY-COVERAGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 1",
+  "interpretation": "Retain the universal quality-bearing assertion, not a definition of every entity or an independent argument. Having a quality is not identity with that quality or with a conscious state; no particular ontology of intrinsicness is supplied. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

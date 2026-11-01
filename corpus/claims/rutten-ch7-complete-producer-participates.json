@@ -1,0 +1,20 @@
+{
+  "id": "RUTTEN-CH7-COMPLETE-PRODUCER-PARTICIPATES",
+  "statement_id": "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VII, printed p.157, causation reply and footnote211: total or complete cause and all objects participating in causing the effect",
+  "interpretation": "INTERPRETIVE logical reading: the author’s all objects participating in causing includes a whole object that is itself the complete producer, rather than only proper partial causes. The paragraph does not separately state this as an axiom. This reading remains explicit and distinguishable from the narrower proper-participant reading, under which the policy would require a separate bridge. The supplied productive-participant family is independent data, not defined as the set of complete causes. No background necessity condition is counted productive merely because it is required. This attribution and its application remain distinct from the formal consequence or independent truth. The entire pinned ChapterVII reply range printed154–158/PDF156–160 was materialized and read, with p157 reread before this extraction. No independent premise truth, full first-cause proof or metaphysical possibility is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

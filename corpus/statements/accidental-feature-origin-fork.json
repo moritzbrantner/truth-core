@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACCIDENTAL-FEATURE-ORIGIN-FORK",
+  "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.OriginFork",
+  "paraphrase": "For this selected x,f, accidental classification and occurrence imply either production by essenceOf x or an externalFeatureCause witness. This OPEN cause-role fork is not a full uniqueness argument.",
+  "definition_ids": [
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+  ]
+}

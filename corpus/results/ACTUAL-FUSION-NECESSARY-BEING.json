@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-FUSION-NECESSARY-BEING",
+  "argument_id": "ACTUAL-FUSION-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualFusionNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/ACTUAL-FUSION-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Five explicit OPEN actual-sum/part/causal inputs yield SOME actually existing necessary individual in the same Ontic by scoped reductio. The particular cause is not asserted necessary, concrete, underived, unique or God. No ordinary extra negation premise, L1/L2/A1/frame/concreteness/PSR, source alias or independent premise truth is introduced. Actual sum existence remains explicit and strong."
+}

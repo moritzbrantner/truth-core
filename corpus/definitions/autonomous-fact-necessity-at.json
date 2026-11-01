@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+  "term": "necessity of autonomous facts at one standpoint",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.AutonomousFactsNecessaryAt",
+  "definition": "Every label f classified autonomous holds at each world accessible from selected w in the SAME existing Arena. Autonomous is the independently supplied not-apt-for-grounding status from the full-ground interface, not literal self-grounding.",
+  "note": "OPEN separate modal commitment. Neither autonomy nor actual truth entails it by definition. This frame-relative formulation is not silently identified with authorial own-nature or broad/amodal necessity, and it is not implied by scoped PSR coverage."
+}

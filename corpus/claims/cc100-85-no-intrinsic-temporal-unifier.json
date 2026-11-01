@@ -1,0 +1,15 @@
+{
+  "id": "CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER",
+  "statement_id": "STMT-CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.208, argument #85 Unities: Contingents, step 2",
+  "interpretation": "Retain the exclusion of intrinsic diachronic sustaining explanation. It is not simply a claim of compositeness, no self-production, no intrinsic sufficient reason or absence of a momentary uniting cause. No independent adequacy standard or proof of the exclusion is supplied. Attribution is to McIntosh’s presentation only, not the unread Braine1988 book referenced on p209. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

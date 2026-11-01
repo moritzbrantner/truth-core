@@ -1,0 +1,14 @@
+{
+  "id": "CC100-117-LIKELIHOOD-CONFIRMATION-RULE",
+  "statement_id": "STMT-CC100-117-LIKELIHOOD-CONFIRMATION-RULE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.276, argument #117 Naturalness of Theistic Belief, step 2",
+  "interpretation": "This is the explicit comparative confirmation rule. No numeric Bayesian calculus, exhaustiveness/exclusivity of T/N, positive priors, observed SD or posterior update is supplied. Comparative confirmation is not posterior probability above one half, certainty or actual/necessary theism. Attribution is to McIntosh’s presentation only, not the unread Braddock/Barrett works referenced on p277. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

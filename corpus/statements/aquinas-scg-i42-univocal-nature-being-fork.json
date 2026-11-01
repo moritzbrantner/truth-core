@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
+  "paraphrase": "If God is predicated univocally of two beings, they share one nature in notion: one being for both excludes substantial distinction, while separate beings for each would make quiddity differ from being, contrary to the divine quiddity-being identity.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

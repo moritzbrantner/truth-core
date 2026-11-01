@@ -1,0 +1,20 @@
+{
+  "id": "LIMITATION-NONLIMITING-POSSIBILITY",
+  "premise_statement_ids": [
+    "STMT-LIMITATION-KNOWN-LIMITING-AT",
+    "STMT-LIMITATION-NONLIMITING-AT",
+    "STMT-LIMITATION-BACKWARD-CLOSED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-LIMITATION-POSSIBLY-EXEMPLIFIED-AT",
+  "inference_ids": [
+    "INF-LIMITATION-NONLIMITING-POSSIBILITY"
+  ],
+  "meaning": "With SAME classifier, properties and world, decide possible target exemplification using explicit EM. If absent, target-to-known-property modal inclusion holds vacuously at every accessible world. Backwards closure and known limitation would mark the target limiting, contradicting its nonlimitation. Thus an accessible target exemplar exists. Four explicit inputs; no frame axiom, Scott A1a, full uniform-deficiency semantics or source/God/actual-necessary existence claim. New analyst interfaces remain open; no source premise is bound or discharged.",
+  "definition_ids": [
+    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+  ]
+}

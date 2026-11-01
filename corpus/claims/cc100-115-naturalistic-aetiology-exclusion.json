@@ -1,0 +1,15 @@
+{
+  "id": "CC100-115-NATURALISTIC-AETIOLOGY-EXCLUSION",
+  "statement_id": "STMT-CC100-115-NATURALISTIC-AETIOLOGY-EXCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.272, argument #115 Intelligibility of the World, step 1",
+  "interpretation": "This excludes a plausible truth-linked naturalistic origin account, not every naturalistic causal account or an actual demonstration of naturalism’s falsity. Intelligibility intuition is not silently unrestricted PSR, universal fact explanation or certified reality correspondence. The exclusion and plausibility criterion remain OPEN. Attribution is to McIntosh’s presentation only, not the unread deRay2021 article or Koons2018 chapter referenced on p273. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

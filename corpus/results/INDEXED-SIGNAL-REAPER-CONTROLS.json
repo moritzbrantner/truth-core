@@ -1,0 +1,10 @@
+{
+  "id": "INDEXED-SIGNAL-REAPER-CONTROLS",
+  "argument_id": "INDEXED-SIGNAL-REAPER-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.IndexedSignalReaper.Challenge",
+  "solution_module": "TruthCore.Results.Causality.IndexedSignalReaper.Solution",
+  "theorem": "TruthCore.Results.Causality.IndexedSignalReaper.controls",
+  "comparator_config": "results/INDEXED-SIGNAL-REAPER-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Without the bound use constant some(0) and no issuance; without the trigger use all-none/no-issuance; without emission use all-none/all-issuance; without forwarding output own code at every station with all-issuance. Each retains the other THREE interfaces, falsifies the omitted one and fails the full action law. Same station/code carrier and meanings throughout; no global minimality or actual/metaphysical possibility inferred. Root-path open premises: no change. Closed alphabet/detector fidelity, countable causal patchwork and existential-grounding applicability remain OPEN."
+}

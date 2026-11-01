@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CC100-121-RELIABILITY-CONFIRMATION-RULE",
+  "paraphrase": "If the probability of general cognitive reliability given theism is much greater than its probability given naturalism, general cognitive reliability confirms theism over naturalism.",
+  "definition_ids": [
+    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

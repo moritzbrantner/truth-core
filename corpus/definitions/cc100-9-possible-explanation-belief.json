@@ -1,0 +1,12 @@
+{
+  "id": "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF",
+  "term": "possible explanation, hypothetical explanatory content and reasonable belief in #9",
+  "definition": "The explanatory proposal is evaluated as what would explain if true; possible-explanation availability is a separate commitment. PPE passes from such availability and an entailment restriction to reasonable belief in the entailed proposition. Reasonable belief is not identified with its truth, and the proposed unique willing necessary being is not identified with an actual witness.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+    "CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
+    "CC100-9-REASONABLE-NECESSARY-BEING-BELIEF"
+  ],
+  "note": "No probability calculus, epistemic entitlement model, actual cause, PSR or belief-to-existence rule is introduced. Metaphysical possibility and explanatory adequacy need independent interpretation and defense."
+}

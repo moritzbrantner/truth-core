@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "term": "selected-world actual causal coverage of contingent individuals",
+  "definition": "At ONE supplied world w, every ContingentAt m w x has some y existing at w with m.Causes w y x. The target is actual already by ContingentAt. No distinctness, concreteness, causal endpoint policy, temporal presence or modal frame law is included.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ScopedActualCausality.SelectedActualCausalCoverage",
+  "note": "OPEN analyst restriction of LocalCausalPrinciple, not a newly sourced or independently defended principle. The ordinary cause relation is read as complete existence-production in the atomistic application, not every partial contribution or grounding. Global coverage entails this local policy, but other worlds are unconstrained. The exact existing mixed ontology supplies nonvacuous selected coverage at false and a contingent uncaused object at true; a transported identity-parthood order supplies its full four-head structural background. Ordinary productive examples do not by themselves establish unrestricted modal coverage. Brute contingent sources or alternative causal/existence interpretations may reject this policy. NecessaryBeing alone does not imply coverage: other contingent sources may remain. Under EM it excludes contingent actual sources, not merely absence of all necessary beings. No new world identity or actuality convention is introduced."
+}

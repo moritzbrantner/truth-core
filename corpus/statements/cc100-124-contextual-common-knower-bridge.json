@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
+  "paraphrase": "If every true proposition is known by someone, there is someone who knows every truth.",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

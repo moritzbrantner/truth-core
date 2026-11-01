@@ -1,0 +1,11 @@
+{
+  "id": "DEF-COMPLETE-OBJECT-CAUSATION",
+  "term": "complete cause of an object's existence",
+  "definition": "Under Rutten's interpretation G.edge c e means c brings e into existence as its complete cause. Several partial contributors jointly form one sum-cause, rather than each being that complete cause. The source separately requires one INCOMING complete cause per effect; it permits one cause to have many effects.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-UNIQUE-CAUSE-PER-EFFECT"
+  ],
+  "lean_declaration": "TruthCore.Logic.Regress.Graph.edge",
+  "note": "Graph.edge is still mathematically primitive: the name certifies no real causal role. Ordinary production suggests the interpretation, but no independently established physical example of the ENTIRE atomicity/complete-cause/nonoverlap/fusion profile is supplied here; the two-object model is only formal. Complete production differs from constitutive parthood, partial enabling contribution, temporal precedence and generic grounds. Nonoverlap/activity/unique-cause are separate policies, not laws inserted into Graph. No causal transitivity or WF is assumed. In particular R⊆Ground does not lift an uncaused R-source into a grounding root; Ground⊆R, contingent-R-causation or another faithful dictionary would need independent defense."
+}

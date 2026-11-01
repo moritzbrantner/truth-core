@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

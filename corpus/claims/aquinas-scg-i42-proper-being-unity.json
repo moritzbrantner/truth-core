@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-PROPER-BEING-UNITY",
+  "statement_id": "STMT-AQUINAS-SCG-I42-PROPER-BEING-UNITY",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [17]",
+  "interpretation": "Retain the source’s conditional own-being argument. One proper esse for each thing is not automatically one numerically common esse for all things; distinct whole essences/own-being instances are not excluded merely by repeating each-one. The individuation/identity transfer and application to a selected root remain OPEN. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

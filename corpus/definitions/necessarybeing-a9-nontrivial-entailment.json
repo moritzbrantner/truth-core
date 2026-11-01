@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+  "term": "A9 nontrivial property entailment and its basis independent of antecedent impossibility",
+  "definition": "A9P1 says P nontrivially entails Q when P entails Q independently of whether P can or cannot have instances, not merely because P cannot. Ordinary entails remains necessary universal property inclusion. An impossible square-circle property may seem to nontrivially entail shape, while octopus entailment does not seem nontrivial; the supporting counterpossible remark is explicitly hedged plausible. The criterion does not require possible antecedent instances and does not itself specify a complete intensional/relevance/counterpossible calculus.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+    "NB-SURVEY-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER"
+  ],
+  "note": "The square-circle illustrations are source conceptual examples, not demonstrated mathematical theorems or certified finite countermodels. No empirical impossible-instance example is available or implied. A pure possible-world extension cannot by itself distinguish every impossible antecedent’s asserted conceptual consequences; suitable basis/derivation/intensional semantics remains OPEN. No causation, grounding, transitivity, general monotonicity or ordinary-to-NT closure is built in. P1B’s restricted cross-kind report is a separate open commitment; substituting NT into its ordinary antecedent would change it. No NT model is introduced merely to make that report true."
+}

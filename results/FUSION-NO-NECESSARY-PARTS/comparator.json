@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.FusionNoNecessaryParts.noNecessaryParts"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

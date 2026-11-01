@@ -1,0 +1,19 @@
+{
+  "id": "AQUINAS-DE-POTENTIA-Q3-A5-COMMON-BEING-NUMERICAL-SOURCE",
+  "statement_id": "STMT-AQUINAS-SCG-I42-COMMON-BEING-NUMERICAL-SOURCE",
+  "source_id": "AQUINAS-DE-POTENTIA",
+  "locator": "q.3 a.5 co. [58680], prima ratio, Oportet enim through Et ista videtur ratio Platonis",
+  "interpretation": "Reuse the existing conditional common-being/one-source proposition, not an unrestricted new maximum or source-role theorem. The first argument asserts that one feature common to distinct things must be caused in them by one cause: what distinguishes each thing as itself cannot, on the proposed contrastive rationale, explain their agreement, and diversity of causes produces diversity of effects. It applies this rule to common esse and attributes the reasoning to Plato; the article concludes universal divine creation. This records Aquinas’s attribution and rationale, not independently verified Platonic provenance or premise truth. The contrastive explanatory-uniformity rule, the rejection of intrinsically shared formal nature as sufficient explanation, the application to being, and actual/concrete/source dictionaries remain OPEN. Agreement in a predicate does not by itself supply one numerical causal witness. No self-efficient-creation, Anselm self-power correspondence, modal necessity, unique actual root or temporal concurrence follows from this source claim. The guarded existing proposition is weaker than treating every step of the article as a certified argument.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE",
+    "DEF-BEING-AS-ENTITY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY"
+  ]
+}

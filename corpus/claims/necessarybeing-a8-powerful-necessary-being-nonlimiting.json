@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
+  "statement_id": "STMT-NB-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8P2, complete powerful-Necessary-Being question and negative-answer continuation; A8C step 9",
+  "interpretation": "The source uses a negative answer as a commitment in the reductio, not a proof of the intended object. Powerful is not quantified or identified with omnipotence here. The nominal Necessary Being/concrete meanings require causal capability and necessity by nature, not ordinary materiality or a God-naming/uniqueness claim. No actual respondent/session retention is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

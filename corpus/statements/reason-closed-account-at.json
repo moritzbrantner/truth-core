@@ -1,0 +1,24 @@
+{
+  "id": "STMT-REASON-CLOSED-ACCOUNT-AT",
+  "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed",
+  "paraphrase": "The selected account S contains its explanandum x, has actually true members, contains every admitted reason for its members, supplies a reason for each contingent member and excludes admitted reasons modally coextensive with contingent members. These are the FIVE existing ReasonClosed fields, not an independently established definition of adequate explanation or a global PSR.",
+  "definition_ids": [
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

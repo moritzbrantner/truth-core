@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNCAUSED-CAUSE-WITH-UNIVERSAL-EFFECT",
+  "paraphrase": "Some uncaused complete cause has an effect that is ontologically prior to or includes every other caused effect.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-FIRST-CAUSE-UNIVERSAL-EFFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "This is the separately attributed full primary first-cause conclusion. The analyst source/outgoing-source proofs do not verify it."
+}

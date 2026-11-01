@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE",
+  "paraphrase": "If either realism is false or God exists, and realism is true, then God exists.",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

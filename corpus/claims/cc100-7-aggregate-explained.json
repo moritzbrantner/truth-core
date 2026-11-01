@@ -1,0 +1,15 @@
+{
+  "id": "CC100-7-AGGREGATE-EXPLAINED",
+  "statement_id": "STMT-CC100-7-AGGREGATE-EXPLAINED",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.14, argument #7, step 3 under steps 1–2",
+  "interpretation": "This is the displayed application to the admitted contingent aggregate, not a new checked theorem or one common reason for every fact. Distribution of an aggregate explanation to its members is not supplied merely by an explanation existing. No explanation-to-concrete-cause or actual individual bearer conversion is attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

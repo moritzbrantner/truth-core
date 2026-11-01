@@ -1,0 +1,17 @@
+{
+  "id": "CC100-84-DISTRIBUTIVE-MIND-RESTRICTION",
+  "statement_id": "STMT-CC100-84-DISTRIBUTIVE-MIND-RESTRICTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, step 6, distributive capability reading",
+  "interpretation": "Sibling reading distributing the mind restriction over world-local candidates. This is a stronger/different scope choice than the de-re globally-capable-candidate reading and is not silently attributed as equivalent. The literal in-every-world wording admits the competing parse; capability versus actual exercise and world scope of mind remain open. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER",
+    "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ],
+  "interpretation_of": "CC100-84-DE-RE-MIND-RESTRICTION"
+}

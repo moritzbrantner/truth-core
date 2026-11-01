@@ -1,0 +1,23 @@
+{
+  "id": "RUTTEN-CH6-CAUSAL-ACTIVITY",
+  "statement_id": "STMT-OBJECT-CAUSAL-ACTIVITY",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed pp.126–127 premise3, footnote180, and p.131 actual/default scope",
+  "interpretation": "The formal strict inclusive premise is read as stated in the argument. The p131 defense limits it to actual reality and also discusses a defeasible/default version; no inference from an exception-permitting default to this strict universal is claimed. Abstract/concrete domain alternatives remain separate applications. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

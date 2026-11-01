@@ -1,0 +1,10 @@
+{
+  "id": "FIXED-CONSTITUENT-NECESSARY-BEING",
+  "argument_id": "FIXED-CONSTITUENT-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/FIXED-CONSTITUENT-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the checked necessary-reason producer with fixed assigned-set realization to derive an actual necessary ordinary candidate in the SAME genuine Arena. Six named heads retain the original four inputs and separately add account constituent-set nonemptiness and all-world realization. ReasonClosed itself bundles FIVE clauses; six heads are not six atomic commitments or a minimality result. No source binding, actual constitution proof, necessary cause/root/concrete God or premise truth is established."
+}

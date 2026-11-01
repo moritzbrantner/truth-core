@@ -1,0 +1,28 @@
+{
+  "id": "STMT-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "paraphrase": "The unchanged finite mixed ontology at false satisfies the four nonlogical atomistic structural inputs and selected-world causal coverage with an actual contingent individual, while global causal coverage fails at true.",
+  "lean_declaration": "TruthCore.Causality.ScopedActualCausality.StrictControl",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

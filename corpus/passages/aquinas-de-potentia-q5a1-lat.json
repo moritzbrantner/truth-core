@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-DE-POTENTIA",
+    "source_url": "https://www.corpusthomisticum.org/qdp5.html",
+    "retrieved_at": "2026-11-01T13:49:47Z",
+    "sha256": "sha256:f470797614277976e9a030aaa1b33238a8853b30bd4f52443cbde09bcc449d70",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "The medieval Latin work is public domain; Corpus Thomisticum identifies this as the Turin 1953 text digitized by Roberto Busa and reviewed by Enrique Alarcón and claims ©2019 Fundación Tomás de Aquino, all rights reserved, for its digital edition. No open licence for that transcription is asserted. Only metadata, hashes, precise locators and a short incipit are committed; no full transcription. Two independent exact-downloader GETs returned identical response bytes and selected text. No archive fallback is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-DE-POTENTIA-Q5-A1-LAT",
+      "locator": "q.5 a.1 [59411–59453]",
+      "claim_locator_prefixes": [
+        "q.5 a.1 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "59411"
+        },
+        "to": {
+          "anchor": "59454"
+        }
+      },
+      "text_sha256": "sha256:da46670c0ec6288664776cb25af27d5d0e4a2d81e896b5c50b5269c510770021",
+      "incipit": "[59411] De potentia, q. 5 a. 1 tit. 1 Et primo quaeritur utrum res conserventur "
+    }
+  ]
+}

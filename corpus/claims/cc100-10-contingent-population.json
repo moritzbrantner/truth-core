@@ -1,0 +1,15 @@
+{
+  "id": "CC100-10-CONTINGENT-POPULATION",
+  "statement_id": "STMT-CC100-10-CONTINGENT-POPULATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.23, argument #10 simplified, step 1",
+  "interpretation": "Preserve the explicit asserted population premise, rather than treating the later guarded cosmos conditional as providing its own antecedent. No exact existing bare population statement matched the source; typed cogito/member certificates have additional semantics. No concrete population, beginning or actual grounded individual is silently added. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

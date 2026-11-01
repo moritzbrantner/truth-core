@@ -1,0 +1,15 @@
+{
+  "id": "CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
+  "statement_id": "STMT-CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 3 under steps 1–2",
+  "interpretation": "Preserve the displayed conclusion as a conditional source reading, not a new checked proof. Effect-level not-made-by-embodied does not by definition select a source-agent unembodied predicate; role and embodiment correspondence remain to be interpreted. No common maker of all wholes is inferred. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

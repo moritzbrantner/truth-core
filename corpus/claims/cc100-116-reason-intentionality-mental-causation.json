@@ -1,0 +1,15 @@
+{
+  "id": "CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+  "statement_id": "STMT-CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 1",
+  "interpretation": "This is an asserted relation between reason, intentionality and mental causation, not a definition of formal inference, truth, knowledge or ordinary physical causation. No independently defended ontology of mental causation or actual concrete explanatory bearer is supplied. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

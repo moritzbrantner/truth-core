@@ -1,0 +1,23 @@
+{
+  "id": "RUTTEN-CH6-FIRST-CAUSE-CONCLUSION",
+  "statement_id": "STMT-UNCAUSED-CAUSE-WITH-UNIVERSAL-EFFECT",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.128 Step5 and footnote182; p.124 original definition",
+  "interpretation": "Record the author's asserted full conclusion with footnote182's priority-OR-inclusion adjustment. It is stronger than the separately verified source and outgoing-source minima. No Lean proof of the universal-effect property or source's uniqueness claim is created. Step5's move from sharing a caused simple part with M to M's priority remains an explicit separate formalization/application burden. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-FIRST-CAUSE-UNIVERSAL-EFFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

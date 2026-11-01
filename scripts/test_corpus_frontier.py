@@ -481,6 +481,74 @@ class RouteCostTest(unittest.TestCase):
         arguments, results = arguments[:2] + arguments[3:], results[:2] + results[3:]
         self.assertEqual(self.by_id(self.routes(arguments, results))["R1"]["open_premise_statement_ids"], ["P1", "P2"])
 
+    def test_unexpandable_leaves_propagate_through_proved_dependents(self) -> None:
+        for kind in ("unverified", "transcription"):
+            with self.subTest(kind=kind):
+                arguments = [
+                    argument("UPGRADE", ["A", "C"], "ROOT"),
+                    argument("DERIVE-A", ["B", "E"], "A"),
+                    argument("DERIVE-B", ["P1"], "B"),
+                ]
+                results = [{"id": rid, "argument_id": rid} for rid in ("UPGRADE", "DERIVE-A")]
+                if kind == "transcription":
+                    results.append({"id": "DERIVE-B", "argument_id": "DERIVE-B"})
+                routes = corpus.root_routes(
+                    "ROOT", {sid: statement(sid) for sid in ("ROOT", "A", "B", "C", "E", "P1")},
+                    {item["id"]: item for item in arguments}, results,
+                    {"DERIVE-B"} if kind == "transcription" else set(),
+                    {"ROOT", "A"}, set(), lambda _sid: False, set(),
+                )
+                entry = self.by_id(routes)["UPGRADE"]
+                self.assertEqual(entry["open_premise_statement_ids"], ["B", "C", "E"])
+                self.assertEqual(entry["cost"], 3)
+
+    def test_cycle_fallback_expands_acyclic_dependents(self) -> None:
+        arguments = [
+            argument("UPGRADE", ["A", "C"], "ROOT"),
+            argument("DERIVE-A", ["B", "E"], "A"),
+            argument("CYCLE-B", ["P1"], "B"),
+            argument("CYCLE-P1", ["B"], "P1"),
+        ]
+        results = [{"id": item["id"], "argument_id": item["id"]} for item in arguments]
+        for ordered in (arguments, list(reversed(arguments))):
+            with self.subTest(order=[item["id"] for item in ordered]):
+                routes = corpus.root_routes(
+                    "ROOT", {}, {item["id"]: item for item in ordered}, results,
+                    set(), {"ROOT", "A", "B", "P1"}, set(), lambda _sid: False, set(),
+                )
+                self.assertEqual(self.by_id(routes)["UPGRADE"]["open_premise_statement_ids"], ["B", "C", "E"])
+
+    def test_cycle_with_grounded_alternative_uses_the_grounded_proof(self) -> None:
+        arguments = [
+            argument("UPGRADE", ["A", "C"], "ROOT"),
+            argument("DERIVE-A", ["B", "E"], "A"),
+            argument("CYCLE-B", ["P1"], "B"),
+            argument("CYCLE-P1", ["B"], "P1"),
+            argument("GROUNDED-B", ["P2", "P3"], "B"),
+        ]
+        results = [{"id": item["id"], "argument_id": item["id"]} for item in arguments]
+        routes = corpus.root_routes(
+            "ROOT", {}, {item["id"]: item for item in arguments}, results,
+            set(), {"ROOT", "A", "B", "P1"}, set(), lambda _sid: False, set(),
+        )
+        self.assertEqual(self.by_id(routes)["UPGRADE"]["open_premise_statement_ids"], ["C", "E", "P2", "P3"])
+
+    def test_cycle_fallback_prefers_dependency_core_before_dependent_cycle(self) -> None:
+        arguments = [
+            argument("UPGRADE", ["A", "C"], "ROOT"),
+            argument("DERIVE-A", ["B", "E"], "A"),
+            argument("DEPENDENT-CYCLE-A", ["P2"], "A"),
+            argument("DEPENDENT-CYCLE-P2", ["A"], "P2"),
+            argument("CYCLE-B", ["P1"], "B"),
+            argument("CYCLE-P1", ["B"], "P1"),
+        ]
+        results = [{"id": item["id"], "argument_id": item["id"]} for item in arguments]
+        routes = corpus.root_routes(
+            "ROOT", {}, {item["id"]: item for item in arguments}, results,
+            set(), {"ROOT", "A", "B", "P1", "P2"}, set(), lambda _sid: False, set(),
+        )
+        self.assertEqual(self.by_id(routes)["UPGRADE"]["open_premise_statement_ids"], ["B", "C", "E"])
+
     def test_transcriptions_and_cycles_lower_no_cost(self) -> None:
         arguments = [
             argument("R1", ["A"], "ROOT"),

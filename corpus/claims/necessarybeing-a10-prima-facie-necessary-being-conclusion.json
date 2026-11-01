@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A10-PRIMA-FACIE-NECESSARY-BEING-CONCLUSION",
+  "statement_id": "STMT-NB-A10-PRIMA-FACIE-NECESSARY-BEING-CONCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10C, opening conclusion and closing counter-reasons/presentation-friendly qualifications, with the two preceding argument paragraphs and modal suffix as context",
+  "interpretation": "Preserve appear/prima-facie/more-likely-than-not and the final express defeater qualification together. The source supplies no total-evidence, reference-class, probability or epistemic-closure theory. Conditional mechanical modal consequence and the source’s evidential transition are distinct boundaries: neither a green source check nor an existing conditional theorem certifies the latter. No report/session assent, deductive universal causal premise, actual grounding source or independent metaphysical truth is inferred.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

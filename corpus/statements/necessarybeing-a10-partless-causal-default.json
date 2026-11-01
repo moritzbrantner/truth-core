@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NB-A10-PARTLESS-CAUSAL-DEFAULT",
+  "paraphrase": "If the partless angel in the hypothetical beginning case would have a cause, other partless things generally have causes as a defeasible rule of thumb.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

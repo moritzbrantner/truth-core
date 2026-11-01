@@ -1,0 +1,20 @@
+{
+  "id": "STMT-HAS-NO-NECESSARY-PARTS-PART-AT",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.HasNoNecessaryPartsPartAt",
+  "paraphrase": "Some candidate q is part of the SAME selected x and has no necessary parts at w. Neither actual existence of x or q, ordinary ContingentAt, properness, causal role nor a concrete necessary being is asserted.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART"
+  ]
+}

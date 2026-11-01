@@ -1,0 +1,16 @@
+{
+  "id": "INF-FIXED-CONSTITUENT-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-CONTINGENT-REASON-FOUNDED-AT",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "import-necessary-reason-and-realize-one-same-fixed-assigned-bearer",
+  "meaning": "Import NecessaryFactBoundary.necessaryReason with the SAME Arena/account/target and exact excluded-middle, ReasonClosed, fact-contingency and Founded inputs. Its selected r is in S, true actually and at every accessible world; its admitted reason role need not concern the original target directly. Account nonemptiness selects b once from the SAME fixed K r. Account realization applied to actual truth makes b actual; applied to r’s truth at each accessible world makes that SAME b NecessaryAt. Package it into existing NecessaryBeing A.ontic w. No necessary fact is restated as a new main premise, and no fact/being identity, frame axiom, positive-label coherence or productive role is inserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "RUTTEN-CH6-CAUSE-EFFECT-NONOVERLAP",
+  "statement_id": "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.127 premise5 and p.135 defense",
+  "interpretation": "Preserve disjointness as absence of ANY common part, not just distinctness. Its priority-based defense is attributed rather than certified; a constitutive-ground relation cannot be substituted automatically. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

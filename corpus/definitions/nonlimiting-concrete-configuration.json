@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+  "term": "nonlimitation of actual concrete existence versus limitation of possible absence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.ConcreteExistence",
+  "definition": "On the existing Profile, ConcreteExistence m c v means concrete c and ExistsAt v c, with NO necessity in this target. PossibleAbsence m c v means some world u accessible from v lacks that SAME c, without requiring c to exist at v. KnownAbsenceLimitingAt marks exactly this possible-absence property limiting at w; ConcreteExistenceNonlimitingAt denies limitation of exactly this concrete-existence property at w. Both specialize the same supplied Property-to-world classifier L.",
+  "note": "Both classifier judgments are OPEN analyst commitments, not new bindings of source A8 reports. Nonlimitation of concrete existence differs from source P2 nonlimitation of being a powerful Necessary Being. A boxed implication from that source target to actual concrete existence could support a further conditional application of backward closure, but is not assumed or discharged here. Modal-world, rigid-individual, concrete/cause-capable, property-admission and evaluative applicability remain open. PossibleAbsence is not ContingentAt, which additionally requires actual existence. Profile.grounds is unused and is not identified with any cause/support relation. The Ontic-level necessity transport repeats the existing three-line frame algorithm without inventing irrelevant Arena/fact fields."
+}

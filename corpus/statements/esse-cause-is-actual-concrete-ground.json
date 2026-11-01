@@ -1,6 +1,6 @@
 {
   "id": "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-  "paraphrase": "At selected w, every numerically distinct c causing the supplied esse actuality of an actual concrete x is itself concrete, exists at w and stands in the profile selected grounds relation to x. No converse, global-world claim, causal sufficiency or completeness of explanation is asserted. This is the existing EsseCauseIsActualConcreteGround predicate, newly recorded as an OPEN interface, not newly proved or attributed to a source.",
+  "paraphrase": "At the selected world w, for any c and x, if x is actual and concrete, c is distinct from x, and c causes the supplied esse actuality of x, then c is concrete, exists at w and grounds x under the selected relation.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround",
   "definition_ids": [
     "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
@@ -27,6 +27,9 @@
     "DISAMB-IN-ACT",
     "DISAMB-ORDER-OF-BEING",
     "DISAMB-PER-SE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
-  ]
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
+    "DISAMB-HISTORY-TIME-SCOPE"
+  ],
+  "note": "Records the pre-existing EsseCauseIsActualConcreteGround predicate as an OPEN, unattributed interface, not a newly proved premise. No converse, global-world claim, causal sufficiency or completeness of explanation is asserted. ExistsAt w is world-relative existence, not temporal concurrence or presentism: a complete-history interpretation may include past producers not alive now. Historical production alone does not establish the supplied esse-cause or grounds relation; their sustaining interpretation requires separate defense. An explicit world/time coherence interface would be needed to read existence at w as presence at a designated time; none is part of this predicate."
 }

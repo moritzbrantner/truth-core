@@ -506,6 +506,159 @@ The ordinary-class C2 prefix reuses A4 main. Revised C3 uses property transfer a
 
 All four witnesses were materialized/read with raw SHA/title checks and exact reused-text comparisons. Root and an independent adversary accepted source fidelity without P1 findings; that is neither soundness nor premise truth. No glossary, framework, Lean, argument, result, source kind, dependency, repin or archive fallback is introduced. The other65 private manifests and later private read history are not delivered or copied. Candidate progression to A5 marks only this completed reading range; the remaining public A5–A10 witness/reading/extraction queue remains open, without campaign completion or PHP answer requests.
 
+
+### Independent A8 source delivery (2026-11-01)
+
+A8 is published as one bounded source dependency for the separate analyst limitation configuration, independently of the still-queued A5–A7 work. The public source cursor remains **A5**; this delivery does not imply that intervening families were processed publicly. It reuses already-public A2 modal/nominal/concrete meanings, with no A5–A7 dependency.
+
+The exact eight unchanged manifests are `NECESSARYBEING-A8P1/P2/P3/P4/C/P2B/P3B/C2`. Seven qualified claims add five bare statements, two source glosses and one disambiguation:
+
+| Reading | Precise witness/locator and scope |
+| --- | --- |
+| Limiting-property definition | P1 entire introduction/property/entails titles; deficiency-entailing limitation and necessary universal inclusion, not a selected full existential classifier. |
+| Powerful Necessary Being nonlimiting | Negative P2 report, C9; conditional evaluative commitment, not actual assent or independently established possibility/quantitative omnipotence. |
+| Possible nonexistence limiting | Affirmative P3 report, C3; a separate main-branch commitment, not actual absence or an alternate-branch requirement. |
+| Main limitation reductio | C1–11; source2 scoped causal-concrete classification, explicit C4 BACKWARD closure, separate source6 powerful-NB→concrete implication; possibility discharged10–11 only. |
+| Main possibility invariance | P4 and C modal paragraph after11; exact P4 match to existing A2 meaning, without a new modal proof or rigid individual. |
+| Alternate vacuous limitation reductio | C2steps1–10, explicit vacuity after3 and compressed deficiency/transitivity5–7; no affirmative main-P3 or powerlessness report required. |
+| Alternate possibility invariance | P3B entire shorter question/examples/non-joint note and C2 suffix after10; same A2 proposition content despite nonidentical wording, separately located for unambiguous witness binding. |
+
+All eight materialized bodies and raw SHA-verified titles were read. Independent Root fidelity reviews accepted main and alternate: backwards closure and source2/source6 scope are faithful; no full uniform-deficiency semantics or Scott bridge is selected. P2B’s three answer links all lead to P3B, so no affirmative powerlessness answer is invented. No κ branch exists here. Alternate5–7 remains an attributed compressed inference, not an illicit uniform deficiency chosen from varying bearers. Admission of a deficiency property is distinct from an actual deficient bearer. Source assertions, reports, typed conditional consequences and premise truth remain separate.
+
+The two glosses distinguish modal inclusion from stronger relevant/nontrivial consequence and deficiency limitation from root composition/esse/priority horns or Scott positivity. Property/deficiency admission, intension/uniformity, evaluative applicability, causal-concrete/domain and modal/actual rigid-witness correspondence remain OPEN. No empirical powerful Necessary Being, God naming, uniqueness, all-attribute result, source soundness or independently justified possibility follows. A separate analyst proof is not included here, and no bare source statement receives a Lean binding.
+
+This explicit named manifest delta raises public coverage **403→411**. Scoped live verification selects these eight; the other403 public passages receive offline checks only. No other private later witnesses/history or A5–A7/A9–A10 readings are copied. No pin, selector, source kind/dependency, archive fallback, PHP answer/session request, argument/result, truth flag or root-premise closure changes. Public A5 remains queued; A8 coverage is neither campaign completion nor an owner choice of its philosophical premises.
+
+
+### Independent A9 MAIN source delivery (2026-11-01)
+
+Deliver exactly nine unchanged A9 witnesses `P1/P1B/P2/P3/C/P3B/C2/P3C/C3`, including full alternate context, with five MAIN claims/four bare statements, one NT glossary/disambiguation and a minimal existing ordinary-entailment provenance extension. This compares a genuinely different source argument with the already-public ordinary-property work; it does not copy intervening private history or advance the public **A5** cursor.
+
+| Main reading | Precise source scope |
+| --- | --- |
+| Nontrivial-entailment criterion | P1 complete contrast/examples/titles. Entailment independent of whether antecedent instances are possible; impossible square-circle **may seem** NT-shape-entailing, octopus entailment **does not seem** nontrivial, with a **plausible** counterpossible remark. |
+| Ordinary-to-nontrivial transfer | P1B question/titles and C4: ordinary Concrete→P licenses NT(Concrete-and-Necessary,P), any P, retaining the intermediate NT-to-concrete wording. This is a cross-kind reported commitment, not ordinary conjunction projection. |
+| Negative relation-instance report | Negative P2/C6: NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont), actual assent or a possible witness. |
+| Main reductio | C1–8: source causal-concrete classification, ordinary inclusion, reported cross-kind lift and contradiction. NoPossibleNB remains1–6; only7–8 discharges possibility. |
+| Possibility invariance | P3/C suffix after8: exact P3=A8P4 and existing A2 proposition reuse, not a new S5/frame or rigid-witness proof. |
+
+All nine full materializations and raw SHA/title contexts were read. Root independent main fidelity review accepted these scopes with no findings. The ordinary-entails title is byte-identical to A8P1, so the existing ordinary glossary receives only A9 source provenance; NT stays distinct. No source relation is merged by similar wording.
+
+NT cannot faithfully be equated with Dia antecedent AND boxed implication: the source explicitly considers impossible antecedents in hedged examples. Its basis/derivational/intensional/counterpossible criterion is not a complete chosen calculus. Ordinary conjunction strengthening gives only ordinary inclusion and does not establish that criterion. Changing P1B’s ordinary antecedent to NT would alter the actual report/application. A charitable basis account could be investigated, but no proof, refutation or invented model forces the source bridge true.
+
+Source not-necessarily-existing/by-nature contingency is not automatically actual-presence-guarded ContingentAt. Cause-capable concreteness is not every entity or ordinary physicality. Actualist/domain/class/world/intensional and rigid-witness correspondences remain OPEN. Existing Scott/A8 closure or separation results do not establish NT transfer or independently defend nonlimitation of concrete existence. These are source attributions only: all new statements are unbound, and no Lean/argument/result/model/framework, truth flag, premise discharge or owner choice is added.
+
+Public named passage coverage rises **411→420**. The nine selected witnesses are the scoped live delta; the other 411 receive offline checks only. Alternate witnesses are read/delivered for context but alternate claims remain pending, including the revised generic revisit/keep context; no actual session/assent is inferred. No A5–A7 private progress or later history, new source kind, repin/selector change, archive fallback, PHP request or campaign completion is delivered. The public queue remains A5.
+
+
+### Public A9 alternate completion with unchanged witnesses (2026-11-01)
+
+Four accepted alternate claims add one bare revised-context NT statement, reusing the nine A9 manifests already delivered in #857. The five semantic files byte-match research30f55352; only public survey notes are adapted. No private A5–A7 progress or canonical later cursor is copied. The public **A5** queue remains next.
+
+| Alternate claim | Precise locator / reuse and scope |
+| --- | --- |
+| `NB-SURVEY-A9-ALT-POSSIBLE-IMPOSSIBILITY` | C2 modal paragraph after8, P3B context; reuses existing A2 alternate report. Ordinary prefix reuses main A9. |
+| `NB-SURVEY-A9-REVISED-MUST-EXIST` | P3C opening must-exist/complement stipulation and generic revisit/keep invitation; reuses A2 meaning without a specific NT-report reaffirmation. |
+| `NB-SURVEY-A9-REVISED-NONTRIVIAL-REDUCTIO` | NEW statement; C3steps1–8/titles in revised context. Conditional transfer/negative reports, no uniform κ substitution or selected complete NT semantics. |
+| `NB-SURVEY-A9-REVISED-ACTUALITY-CONCLUSION` | C3 final paragraph after8; reuses A2 actuality meaning, consuming discharged8 rather than hypothetical class2/NT consequence5. |
+
+All four full materializations and raw SHA/title contexts were read; independent Root fidelity review accepted the scope with no findings. P3C’s generic keep/revisit invitation is neither a specific reaffirmation nor actual/all-entry-route/session evidence. Prefix wording remains identical to main, but the revised context is recorded separately without silently changing every necessary/modal/NT term. Ordinary-to-NT remains a cross-kind commitment, negative report remains NOT NT(CNec,Cont), and the impossible-antecedent criterion is not Dia antecedent AND boxed inclusion. Outer NoPossibleNB persists1–6; only7–8 discharges possibility. Causal-capability concrete is not actual causal exercise. No new causal opportunity, count/history/limitation consequence or independent NonLimC warrant is supplied.
+
+Public A9 main+alternate **source readings** are complete, not a formal NT framework or source-soundness proof. Intensional/basis/class/actualist/world/rigid-witness correspondence remains OPEN. Total public passages stay **420**; manifests/pins/selectors are unchanged. Cached materializations and offline checks reuse prior live-byte evidence with no live fetch or retry. No new glossary, Lean/argument/result/model/framework, source kind/dependency, truth flag, owner choice, root premise discharge or campaign completion is added. A5 stays queued.
+
+
+### Independent public A10 MAIN delivery (2026-11-01)
+
+Seven MAIN qualified readings and five unbound statements/default glossary/disambiguation byte-match accepted research0377c9c8. Exactly15 unchanged manifests are the named public delta: `NECESSARYBEING-A10P1/P2/P3/C`, reconsideration `A10P1B/P1C/P1D/P1D2/P1D3/P1E/P1B2`, and modal alternatives `A10P3B/C2/P3C/C3` (all IDs have the `NECESSARYBEING-` prefix). Public passages rise **420→435**. All full bodies and raw SHA/title contexts were read; only MAIN claims are delivered here. Reconsideration/alternate extraction remains pending, and the public **A5** queue stays next. No private A5–A7 history or canonical later cursor is copied.
+
+| MAIN reading | Precise source scope / reuse |
+| --- | --- |
+| Causal default | P1 question/rule/cause titles; C second paragraph. Conditional defeasible report, not exceptionless causal law or numeric probability. |
+| Coverage denial | P2 question/titles; C first paragraph. Exact existing A2 broad cause-OR-effect statement reuse. |
+| Possible first contingent | C first paragraph/parenthesis. Complete-chain argument and temporary necessarily-all-concreta-contingent assumption; infinite means no first member. |
+| Selected-case application | C second paragraph. Prima-facie cause expectation for selected possible C, conditional noncontingent-cause exclusion. |
+| Possibility invariance | P3 question/note and C modal introduction. Exact A2 individual-not-joint possibility report reuse. |
+| Modal conditional | C numbered1–12. Consumes possible N/necessitation/modal/actuality interfaces, not evidence for them. |
+| Overall evidential conclusion | C opening and closing counter-reasons qualifications. Defeasible prima-facie conclusion, not source truth or undefeated warrant. |
+
+A selected first contingent in a merely possible history is not random sampling or automatically an ordinary encountered case. The reference-class/default-applicability and defeater bridge remains OPEN. Firstness requires same-history/population prior-existing-bearer/absence correspondence; partial explanatory cause alone gives neither it nor actual existential support, complete ground or universal PSR (#545/#311). Whole-ancestry/nonemptiness/head representation remains OPEN; finite is not silently finite cardinality. Coverage P2/C uses cause-OR-effect capability, but nominal Necessary Being is cause-capable: dropping the all-contingent assumption may leave a noncontingent effect-only candidate. That OPEN source-domain bridge is not a refutation of bare necessary-concrete/NE routes under their proper premises.
+
+Existing `HeadlessCausalAncestry.source_of_not_headless_coverage` and `NecessaryIfExistent.positive` supply conditional structural/modal reuse, not the source’s epistemic transfer, actual support or rigid-witness selection. The modal suffix cannot turn prima-facie warrant into `Dia N` or transport numerical probability. Root independently accepted MAIN4 complete bodies/all7 claims/5 statements/gloss/disambiguation and SHA-verified raw P1/P2/C titles; acceptance concerns fidelity, not premise truth or proof.
+
+Context boundaries: size/shape/parts/partless-angel/generalization prompts are conditional route-specific reports, not all-route premises; P1B2 reports only no implication found. P3B’s alternate question is followed by C2 literally recalling original invariance; no silent textual repair. P3C reasks the DEFEASIBLE default under revised classification, unlike A2’s exceptionless revised causation. C3 retains prima-facie/defeater qualifications. All are witnessed/read context; their philosophical claims are not added here.
+
+No Lean/argument/result/model/probability framework, source kind/pin/selector/dependency, truth flag, owner selection, philosophical premise or root closure changes. Fifteen new pages alone receive scoped live verification; other420 are checked offline. This independent cluster publication does not complete the source campaign or move the public A5 cursor.
+
+
+### A10 P1 reconsideration extraction (2026-11-01)
+
+Six qualified source claims now extract the coherent reconsideration cluster,
+using the existing seven pinned pages and unchanged MAIN P1/C context. Six bare
+statement identities preserve the different categorical, counterfactual and
+default scopes; none is Lean-bound. The existing default/cause gloss is reused,
+with one minimal case gloss distinguishing partlessness and hypothetical
+beginning from formal simplicity or an actual angel.
+
+| New claim suffix (`NB-SURVEY-A10-…`) | Exact source scope |
+| --- | --- |
+| `SIZE-CAUSAL-DIFFERENCE-DENIAL` | P1B’s negative report rejects the proposed size-based caused/uncaused contrast; its particle worry is not a physics finding. |
+| `SHAPE-CAUSAL-DIFFERENCE-DENIAL` | P1C’s negative report rejects the proposed shape-based contrast, not equality of causal probabilities. |
+| `PARTS-CAUSAL-DIFFERENCE-DENIAL` | P1D’s negative report bypasses the angel detour; affirmative/uncertain parts reports do not supply this denial. |
+| `PARTLESS-BEGINNING-ANGEL-CAUSED` | P1D2 asks a hypothetical beginning case; no angel existence, possible beginning or actual cause is established. |
+| `PARTLESS-CAUSAL-DEFAULT` | P1D3 asks for a further defeasible generalization to OTHER partless things, conditional on the angel case. No contingent-only restriction or exceptionless universal is added. |
+| `ARBITRARY-CONTINGENT-CAUSAL-DEFAULT` | P1E reconsiders arbitrary X with explicit more-likely-than-not/default language. Its scope is distinct from MAIN’s generic/encountered default and C’s selected possible first contingent. |
+
+The static continuation evidence fixes the report conditions: initial P1
+uncertainty enters reconsideration; size-negative and shape-negative reach
+parts. Parts-negative goes directly to P1E, while parts-affirmative OR uncertain
+enters the angel question, then its affirmative answer enters the partless-default
+question, whose affirmative answer reaches P1E. Initial P1 affirmation bypasses
+the entire cluster. P1E affirmation continues to P2. Thus neither an angel
+premise nor a negative-parts answer is required by every successful route, and
+no uniform answer retention or retraction is invented. The existing fifteen-page
+reading/route inventory remains authoritative rather than being counted again.
+
+P1E’s qualified “appears” transition does not establish an exhaustive catalogue
+of causal exceptions or resolve the selected-case/reference-class burden.
+P1B2 remains contextual authorial no-found-implication, not a refutation or an
+activity claim. No actual respondent/session, PHP submission, numerical
+probability, default-to-`Dia`, productive concrete support, new source pin,
+model, formal argument or philosophical discharge follows. All cause titles
+retain the prior partial-explanatory-condition meaning. A10 modal alternate extraction (P3B/C2, then P3C/C3) remains pending; the public A5 queue is unchanged.
+
+
+
+Public delivery boundary: thirteen semantic files byte-match research1a704a20. All seven witnesses were already public in #860; no manifests, private A5–A7 history or canonical later cursor are copied.
+
+
+### Independent public A10 alternate readings (2026-11-01)
+
+Ten semantic files byte-match accepted researchf5316567: five claims, two bare
+statements, a narrow input glossary and minimal existing gloss/disambiguation
+updates. Four unchanged witnesses already public in #860 were read in full
+with raw SHA/title/static-route context; no manifests or pins are added.
+
+| Claim suffix (`NB-SURVEY-A10-…`) | Scope |
+| --- | --- |
+| ALT-POSSIBLE-IMPOSSIBILITY-INPUT | P3B complete question; narrow input avoids importing A2’s explicit derivation absent here. |
+| ALTERNATE-MODAL-ACTUALITY-CONDITIONAL | C2 modal introduction/steps1–12; exact main conditional reuse, with literal original-invariance recall after different P3B question. |
+| REVISED-MUST-EXIST | P3C opening classification; exact A2 stipulation reuse, not an existing bearer. |
+| REVISED-CAUSAL-DEFAULT | P3C specific reasked defeasible default/titles; not A2 exceptionless revised causation. |
+| REVISED-ACTUALITY-CONCLUSION | C3 final paragraph; conditional revised possibility-to-actuality pattern only, retaining literal actual wording AND its same-paragraph prima-facie alternative. |
+
+P3B affirmative goes C2; negative/uncertain goes P3C. P3C affirmative goes C3,
+negative escapes and uncertain goes P1B2. No actual answers, all-entry-route
+retention, silent textual repair or modal equivalence is inferred. C3’s whole
+conclusion remains qualified: its parenthetical is not dropped, nor is merely
+prima-facie possibility warrant silently upgraded to an actual modal premise.
+No proven epistemic fallacy is attributed; default applicability and epistemic
+transfer remain OPEN. Independent fidelity review accepted all five readings.
+
+A10 source readings are complete at these scopes, not formal NE proof,
+probability calibration, source truth or root closure. No Lean/model/measure
+framework, pins, truth choices, private A5–A7 history or canonical successor
+bookkeeping is delivered. Public A5 remains queued.
+
 ### A5 main obtaining-situation and rigid-history readings (2026-11-01)
 
 Materialized/read complete `NECESSARYBEING-A5P1/P2/C` and all four linked alternate contexts, with raw HTML SHA256 verified before inspecting title attributes. Seven qualified main claims add six bare statements and reuse the existing possibility-invariance proposition. No alternate reading records are added in this batch.
@@ -530,6 +683,8 @@ For nonempty C, exact history content alone does not exclude an included earlier
 
 Linked alternate context is recorded for the next range, not merged into main semantics: P2B/C2 reuse the alternate modal input and ordinary prefix; P2C reaffirms a shortened uncausability sentence without P1’s explicit obtaining/nonempty conditional, while C3 repeats the full conditional by report. Their literal forms are not silently identified. The revised individual class and unchanged contingent-situation tooltips also require separate scope review. No PHP answer/session endpoint was requested.
 
-Two narrow source glosses and one disambiguation supply no Lean relation or framework. No pin, proof, inference/result or philosophical truth changes. This batch explicitly delivers only the three main A5 witness manifests (public403→406); the four alternate witnesses remain pending public delivery. Other private source/read history is excluded. The candidate remains at **A5P2B/C2, then A5P2C/C3**, before A6—not campaign completion.
+Two narrow source glosses and one disambiguation supply no Lean relation or framework. No pin, proof, inference/result or philosophical truth changes. This batch explicitly delivers only the three main A5 witness manifests (three-manifest delta; the original prepared branch was public403→406, while the refreshed delivery also retains independently landed A8/A9/A10 and later sources); the four alternate witnesses remain pending public delivery. Other private source/read history is excluded. The candidate remains at **A5P2B/C2, then A5P2C/C3**, before A6—not campaign completion.
 
 Root and independent fidelity reviews accepted these readings without substantive findings after materialization/raw-title hash checks; this is source fidelity only, not soundness or formal consequence.
+
+A5C archive availability repair: existing dated Wayback capture20200217005950 returns exactly the original13527bytes/hash0fe7083b…ca26009. Only fallback URL/hash are added; no repin or claim/type change. Historical hosted677677… drift remains unexplained because its response body was not retained. This supports a repaired new head, not an identical-run retry.

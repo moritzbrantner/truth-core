@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-PER-SE-NECESSITY-ADDED-DISTINCTION",
+  "paraphrase": "If two beings necessary through themselves agree in the notion of necessity of being, they must differ by something added to one or both; that would make one or both composite, whereas no composite is necessary through itself.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

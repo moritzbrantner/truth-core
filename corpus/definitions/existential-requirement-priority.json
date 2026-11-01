@@ -1,0 +1,13 @@
+{
+  "id": "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+  "term": "asymmetric existential requirement priority",
+  "definition": "Prior x y is interpreted as x being required for y to exist, while y is not required for x to exist. Separate typed policies assert cause-priority to each effect-part, proper-part priority, and transitivity.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Causality.AtomisticUniversalCausePriority.CausePriorToEffectParts",
+  "note": "Rutten fn174 defines the interpretation and asserts strict partial order; p135 asserts cause-priority to EVERY effect-part. This is distinct from act/potency priority, temporal precedence and complete-cause edges. Ordinary component dependence can illustrate proper-part priority, but no independent example establishes the entire universal complete-cause-to-each-part policy. A component can overlap its whole, so Prior is not the nonoverlapping production edge. The formal primitive relation has only the explicit policies; no reality, modal, empirical or PSR bridge is certified. Humean and reciprocal-dependence readings can reject these policies; their explanatory adequacy is not settled by this theorem.",
+  "claim_ids": [
+    "RUTTEN-CH6-CAUSE-PRIOR-EFFECT-PARTS",
+    "RUTTEN-CH6-PROPER-PART-PRIORITY",
+    "RUTTEN-CH6-EXISTENTIAL-PRIORITY-TRANSITIVITY"
+  ]
+}
