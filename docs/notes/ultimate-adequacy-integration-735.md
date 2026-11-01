@@ -173,6 +173,31 @@ for a read-only full-range/design audit. The possible later weakening of A7's
 all-earlier threshold guard is only an assessment task after current proof gates;
 it must compare full premise packages and is not yet a proved reduction.
 
+## A8 property argument and next formal connection
+
+A8 main source records are committed at `7ecaef39`: five claims, four new bare
+statements, two scoped definitions, one disambiguation and three source records.
+Root read the five main materialized bodies and alternate conclusion for context,
+verified P1/P2/P3 raw hashes/titles, and accepted the complete record diff's source
+fidelity. The existing attempt records that acceptance. Source468/1733 bindings,
+corpus2542/1733 and whitespace checks pass. No Lean, source pins, public witness
+coverage or philosophical truth changes. A8's two alternate readings are next:
+separate P3B invariance reuse and the substantive vacuous-entailment reductio.
+
+The bounded next formal connection uses existing Property/Box/Dia vocabulary:
+backward closure of limitation under modal inclusion, one limiting property,
+nonlimitation of the target property and EM imply possible target exemplification.
+The source's main C4 explicitly asserts backward closure. This is a proposed
+analyst conditional; no full existential-deficiency classifier, property-domain
+correspondence, evaluative truth or actual necessary witness is assumed proved.
+Its exact assumptions must remain separate from the broader source records.
+The existing Scott positive-possibility theorem cannot simply be applied with
+positivity equal to nonlimitation: its complement-exclusion condition is not
+supplied by A8. The alternate's uniform deficiency witness is another open scope
+issue, and an admitted deficiency property does not mean an actual deficient
+being. Prefer this concrete connection to unrelated further source coverage;
+protect the pending equivalence build/binding inputs while developing it.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
