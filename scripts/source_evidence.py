@@ -12,6 +12,7 @@ import html.parser
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -20,6 +21,11 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Iterable, Iterator
+
+try:
+    from compression import zstd as _zstd
+except ImportError:
+    _zstd = None
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -1154,8 +1160,36 @@ def sha256_bytes(data: bytes) -> str:
     return "sha256:" + hashlib.sha256(data).hexdigest()
 
 
+def decompress_zstd(data: bytes, label: str) -> bytes:
+    """Decode an HTTP entity without accepting compressed bytes as pinned content."""
+    if _zstd is not None:
+        try:
+            return _zstd.decompress(data)
+        except _zstd.ZstdError as exc:
+            raise SourceEvidenceError(f"{label}: invalid zstd response body: {exc}") from exc
+    decoder = shutil.which("zstd")
+    if decoder is None:
+        raise SourceEvidenceError(
+            f"{label}: zstd response requires Python 3.14 compression.zstd or the zstd CLI "
+            "(install zstd on older Python)"
+        )
+    try:
+        decoded = subprocess.run(
+            [decoder, "--decompress", "--stdout", "--quiet"],
+            input=data,
+            capture_output=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise SourceEvidenceError(f"{label}: cannot run zstd response decoder: {exc}") from exc
+    if decoded.returncode:
+        detail = decoded.stderr.decode("utf-8", errors="replace").strip()
+        raise SourceEvidenceError(f"{label}: invalid zstd response body: {detail}")
+    return decoded.stdout
+
+
 def download(url: str, label: str, *, attempts: int = 3) -> bytes:
-    """The response body with any gzip content coding removed; network errors are retried.
+    """The response body with gzip/zstd content coding removed; network errors are retried.
 
     The pinned hash covers these bytes. A fixed User-Agent is sent because some
     servers vary the page by client.
@@ -1168,8 +1202,11 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
                 data = response.read()
-                if response.headers.get("Content-Encoding", "").lower() == "gzip":
+                content_encoding = response.headers.get("Content-Encoding", "").strip().lower()
+                if content_encoding == "gzip":
                     data = gzip.decompress(data)
+                elif content_encoding == "zstd":
+                    data = decompress_zstd(data, label)
             return data
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_error = exc

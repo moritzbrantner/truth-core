@@ -65,6 +65,14 @@ python3 scripts/source_evidence.py web-hashes <URL> --encoding utf-8 \
   --wayback 'https://web.archive.org/web/<timestamp>id_/<URL>'
 ```
 
+Byte hashes cover the response entity after HTTP `Content-Encoding` decoding,
+not the gzip- or zstd-coded response bytes. The downloader requests `identity`, but still
+decodes a server's gzip or zstd response before applying the unchanged hash
+checks. Zstd uses Python 3.14's `compression.zstd` when available; older Python
+requires the OS `zstd` command (`sudo apt-get install zstd` on Debian/Ubuntu).
+A missing decoder or malformed zstd body fails explicitly. Decoding does not
+normalize page content or permit a different byte/text hash.
+
 Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Every web snapshot should therefore carry a Wayback fallback. Use a fixed-timestamp `id_` capture whose extracted text matches the pinned `text_sha256` for **every** passage of the manifest (`web-hashes … --wayback` prints `wayback_text_matches`). Fetch it twice so that `wayback_sha256` is byte-stable. If no existing capture matches but the live page still gives the pinned bytes, ask the Wayback Machine to save the page now (`https://web.archive.org/save/<URL>`), then pin the new capture after the same checks. Adding a fallback leaves `sha256`, `text_sha256` and `retrieved_at` unchanged; the `license` note says which capture was pinned and why. When no matching capture can be pinned, the note says so, and the snapshot stays fragile.
 
 A page that drifts without a matching capture can no longer be materialized. Do not just swap in the new hashes. First compare the newly extracted text with the pinned `text_sha256`. If the text is unchanged, only the byte hash is re-pinned, and the note records the old hash and the date. If the text changed, re-read every claim on the passage against the new text before re-pinning (a fidelity review, not a hash update).
