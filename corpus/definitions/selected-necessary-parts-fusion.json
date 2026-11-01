@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+  "term": "selected necessary-parts fusion with explicit necessity warrant",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.SelectedNecessaryPartsFusionAt",
+  "basis": "stipulative",
+  "definition": "necessaryParts m w x is exactly the fixed Set of p with p ≤ x AND NecessaryAt m w p. SelectedNecessaryPartsFusionAt says: if this Set is Nonempty, there is n satisfying existing Sum2 Fusion of this Set AND NecessaryAt m w n. Only this one selected family is covered.",
+  "note": "Necessity of the chosen fusion is a separate OPEN modal/type-fusion commitment. It is not inferred from necessity of the members, unrestricted existence of fusions, local whole/part existence, or source A5. Reflexive parthood makes a local all-parts-exist-to-whole-exists condition self-inclusive unless a distinct scope is justified. World-uniform formation, identity and actualist-domain readings need independent application arguments. No existing source A1/A2/L2 statement is bound or aliased. Empty selected family requires no fusion, and no actual sum/bearer or modal-frame law follows. The source’s type-indexed aggregation and the analyst’s fixed Set/Fusion semantics remain distinct."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "argument_id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "challenge_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution",
+  "theorem": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.decompose",
+  "comparator_config": "results/NECESSARY-PART-FUSION-DECOMPOSITION/comparator.json",
+  "status": "solution-present",
+  "description": "Three explicit analyst heads derive a candidate part without necessary parts: nonnecessity of x, overlap-extensional parthood and a conditional selected necessary-parts fusion that is itself necessary. No actual part, ordinary contingency, source A1/A2/L2 truth, cause, root or God is established. No global weakening or minimality is claimed."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.OverlapExtensionalParthood",
+  "paraphrase": "For the supplied fixed Mathlib partial order, x is part of y exactly when every object overlapping x overlaps y, using the existing common-part Overlap. This explicit structural premise is not inferred from PartialOrder alone or identified with a source axiom by fiat.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART"
+  ]
+}

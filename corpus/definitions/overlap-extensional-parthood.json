@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+  "term": "overlap-extensional parthood on a fixed partial order",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.OverlapExtensionalParthood",
+  "basis": "stipulative",
+  "definition": "For all x,y, x ≤ y iff for all z, existing Overlap z x implies Overlap z y. Overlap is existence of a common part in the SAME fixed carrier and Mathlib partial order.",
+  "note": "Explicit analyst structural premise reflecting the displayed A1 shape, not a binding of the presentation’s bare source assertion or independent defense. PartialOrder alone supplies no converse from overlap inclusion to parthood. Classical contraposition of this premise yields an overlap-separation witness; no atomism, finite carrier, actual existence or causal interpretation is implied. Existing nonempty-subset Body gives a parthood illustration only; no new model of the modal package is claimed."
+}
