@@ -16,14 +16,24 @@ which under B/EM is equivalent to an actual selected root existing.
 
 **Current delivery.** PRs896–904 are merged after required CI and clean
 exact-head reviews. Watches1183/51248/44842/48624/42975/14819/1146 are terminal0.
-Source-scope repair PR905 is published at
-8d17bc4205372bbee827c9b4fb4273dcae7c4787, CI41319067089, exact-head review
-requested once. Root owns watch43686, HOME artifact log pr905-watch.log; re-poll
-that handle, do not restart on observation timeout. Local4820 is terminal0:
-full4412-job build, binding852/2legacy pins/0mismatch, scoped library10exports/
-444checked/0typeerrors (one known axiom pretty-printer diagnostic). The exact
-13-file public slice copies12 immutableeffbf167 files plus a generated Latin
-import; all1888 non-generated Lean/toolchain inputs match certified canonical.
+Source-scope repair PR905 CURRENT head is
+e104c82701a777e865dd8f9586f48e8815f6873f, CI41320061973 confirmed live, review
+requested once for that head. Root owns watch86418, HOME log
+pr905-reviewed-head-watch.log. Old head8d17bc42/run41319067089 is terminal
+FAILURE solely for stale bundle-audit review after changed I metadata; old
+watch43686 is terminal1. Do not retry that old run. Independent re-review of15
+changed dispositions in three audit JSON files preserves historical findings,
+before hashes, contract baselines, record sets and statuses; it keeps I open.
+The freshness checker is unchanged. Exact16-file public slice adds only those
+three reviewed audit records to the original13. Audit checks69/149/161,8Python
+audit tests, exact Bun audit test and full135 explorer tests pass. The first local
+full test attempt lacked installed d3-force; frozen-lock installation refreshed
+two declared packages without lock changes, then full suite67548 passed.
+
+Local greatest-source gates4820 are terminal0: full4412-job build,
+binding852/2legacy pins/0mismatch, scoped library10exports/444checked/
+0typeerrors (one known axiom pretty-printer diagnostic). All compiled Lean
+inputs are unchanged by the audit-data follow-up; no cold verification repeated.
 No new result/Comparator profile belongs to this source-reading repair.
 PRs823/850 remain held for their
 existing source failures; no identical retry or repin without new evidence.
@@ -48,7 +58,7 @@ transports weak maximality, including the own-being guard. Primary context
 Aristotle993b30–31, InMetaph81860/81864 and STq16a3 supports that ontic-truth
 reading; arbitrary sentence truth is excluded. Independent truth of that order
 correspondence remains open. No duplicate lemma or MostTrue claim edit.
-The next read-only proposal tests a faithful greatest-degree common-root route:
+The next approved work item implements a faithful greatest-degree common-root route:
 use explicit greatest-degree attainment and I_G with the same B/D/EM/E/F, identify
 the greatest bearer with the already selected actual root through groundlessness,
 and reuse common-root uniqueness/necessity upgrade. Attainment must have its own
@@ -124,8 +134,8 @@ remain separate, with no missing uniqueness smuggled through their definitions.
 is running. Coordinator worker_env preflight passed with Lean4.35.0 and the
 repository-local verifier setup; workers use command mode without repeating
 preflight. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0
-is unchanged (27 applicable files already read). Heavy checks use the existing
-flock lease and TMPDIR=/var/tmp/truth-core-proof-checks. No new /tmp artifacts:
+is unchanged (27 applicable files already read). Heavy checks use
+flock /tmp/moenarch/truth-core-heavy.lock and TMPDIR=/var/tmp/truth-core-proof-checks. No new /tmp artifacts:
 that filesystem is full. Use HOME cache artifacts/worktrees. Reuse certified
 inputs by exact dependency identity; final public-head CI/review still applies.
 
