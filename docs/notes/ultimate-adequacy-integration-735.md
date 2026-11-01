@@ -903,9 +903,10 @@ The verified composition sequence is:
 Catholic root frontier remains81/best31 (93789:29bare/52sourced-undefended). Necessary-being graph has17 routes,
 best2 unchanged; the local route costs4 open heads under the existing EM floor.
 These metrics measure explicit dependencies, not philosophical plausibility.
-Only ledger A is owner-accepted; scoped PSR working authorization from #312
-persists. All other listed application/constitution/foundation policies remain
-OPEN. Bare necessary entity does not entail a causal root, substance, person,
+At that verification snapshot only ledger A was owner-accepted. The current
+ledger also accepts B (actual concrete existence); C_PC remains tentative. Scoped
+PSR working authorization from #312 persists. The listed constitution and formal
+foundation/application policies remain OPEN. Bare necessary entity does not entail a causal root, substance, person,
 unique foundation or God; concrete facts require a justified existence reading.
 
 Selected CC100 foundation, unity and reality ranges are extracted and publicly
