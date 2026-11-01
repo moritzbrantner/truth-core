@@ -1,0 +1,17 @@
+{
+  "id": "INF-ACTUAL-COMMON-ROOT",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "output_statement_id": "STMT-ACTUAL-COMMON-ROOT",
+  "rule": "actual-common-root",
+  "meaning": "Import old WholeRosterFoundation.actualRootExists directly from population/formal whole-roster/EM. Choose ONE esse maximum with maximumExistsOfExistingRoot and identify it with the SAME root using maximumEqualsRoot, under the faithful respect-only Unit restriction. For each actual concretum split equality with n using supplied EM. Equality gives the identity horn; otherwise existing-to-act plus fixed-esse genus causality gives CausesIn n x esse, and direct F gives ActualConcreteGround m w n x. No actual-root-unicity theorem or modal necessity is an input.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
