@@ -2,6 +2,7 @@
 import TruthCore.Results.Mereology.ArrangementDynamics.Solution
 import TruthCore.Results.Mereology.FusionNoNecessaryParts.Solution
 import TruthCore.Results.Mereology.GenusCauseBoundary.Solution
+import TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution
 import TruthCore.Results.Mereology.ProcessTurnover.Solution
 import TruthCore.Results.Mereology.SoulUnityIndependence.Solution
 import TruthCore.Results.Mereology.TheseusIdentity.Solution

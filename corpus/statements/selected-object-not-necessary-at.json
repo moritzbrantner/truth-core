@@ -1,0 +1,20 @@
+{
+  "id": "STMT-SELECTED-OBJECT-NOT-NECESSARY-AT",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.NotNecessaryAt",
+  "paraphrase": "The selected candidate x does not satisfy existing NecessaryAt at w. This negation includes no actual existence, concreteness or ordinary ContingentAt guard.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART"
+  ]
+}

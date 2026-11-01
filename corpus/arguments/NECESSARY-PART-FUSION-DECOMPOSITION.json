@@ -1,0 +1,28 @@
+{
+  "id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "premise_statement_ids": [
+    "STMT-SELECTED-OBJECT-NOT-NECESSARY-AT",
+    "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "STMT-SELECTED-NECESSARY-PARTS-FUSION-AT"
+  ],
+  "conclusion_statement_id": "STMT-HAS-NO-NECESSARY-PARTS-PART-AT",
+  "inference_ids": [
+    "INF-NECESSARY-PART-FUSION-DECOMPOSITION"
+  ],
+  "meaning": "If x has no necessary part, choose x itself. Otherwise use the selected necessary-parts fusion n and its explicit necessity. Fusion’s no-extra-parts clause plus overlap-extensional parthood place n below x. Nonnecessity of x makes x distinct from necessary n, so x is not part of n. Classical overlap separation yields a common part q of x and an object disjoint from n. Any necessary r below q would belong to the selected family and hence be below n by Fusion’s upper-bound clause, contradiction. Return the SAME candidate q without necessary parts. No actual existence, ordinary contingency, necessity-downward, unrestricted fusion, causal role or source truth follows.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART"
+  ]
+}
