@@ -1017,3 +1017,41 @@ Public A9 main+alternate **source readings** are complete, not a formal NT frame
 
 
 Public alternate delivery confirmed: PR #858 merged as `d7f741b6a85e71fdb82a2eae24942fd93421feff` after all required CI `41275792546` and completed clean structured review at `d57394e45932003ae03506f15508501304e37585`. Public A9 source readings are complete at the recorded scope with420 witnesses unchanged. Canonical A10 MAIN `0377c9c8` and all prior private history are preserved; its next range is P1 reconsideration, distinct from queued public A5. No source pin, Lean or premise-truth change follows.
+
+### A10 P1 reconsideration extraction (2026-11-01)
+
+Six qualified source claims now extract the coherent reconsideration cluster,
+using the existing seven pinned pages and unchanged MAIN P1/C context. Six bare
+statement identities preserve the different categorical, counterfactual and
+default scopes; none is Lean-bound. The existing default/cause gloss is reused,
+with one minimal case gloss distinguishing partlessness and hypothetical
+beginning from formal simplicity or an actual angel.
+
+| New claim suffix (`NB-SURVEY-A10-…`) | Exact source scope |
+| --- | --- |
+| `SIZE-CAUSAL-DIFFERENCE-DENIAL` | P1B’s negative report rejects the proposed size-based caused/uncaused contrast; its particle worry is not a physics finding. |
+| `SHAPE-CAUSAL-DIFFERENCE-DENIAL` | P1C’s negative report rejects the proposed shape-based contrast, not equality of causal probabilities. |
+| `PARTS-CAUSAL-DIFFERENCE-DENIAL` | P1D’s negative report bypasses the angel detour; affirmative/uncertain parts reports do not supply this denial. |
+| `PARTLESS-BEGINNING-ANGEL-CAUSED` | P1D2 asks a hypothetical beginning case; no angel existence, possible beginning or actual cause is established. |
+| `PARTLESS-CAUSAL-DEFAULT` | P1D3 asks for a further defeasible generalization to OTHER partless things, conditional on the angel case. No contingent-only restriction or exceptionless universal is added. |
+| `ARBITRARY-CONTINGENT-CAUSAL-DEFAULT` | P1E reconsiders arbitrary X with explicit more-likely-than-not/default language. Its scope is distinct from MAIN’s generic/encountered default and C’s selected possible first contingent. |
+
+The static continuation evidence fixes the report conditions: initial P1
+uncertainty enters reconsideration; size-negative and shape-negative reach
+parts. Parts-negative goes directly to P1E, while parts-affirmative OR uncertain
+enters the angel question, then its affirmative answer enters the partless-default
+question, whose affirmative answer reaches P1E. Initial P1 affirmation bypasses
+the entire cluster. P1E affirmation continues to P2. Thus neither an angel
+premise nor a negative-parts answer is required by every successful route, and
+no uniform answer retention or retraction is invented. The existing fifteen-page
+reading/route inventory remains authoritative rather than being counted again.
+
+P1E’s qualified “appears” transition does not establish an exhaustive catalogue
+of causal exceptions or resolve the selected-case/reference-class burden.
+P1B2 remains contextual authorial no-found-implication, not a refutation or an
+activity claim. No actual respondent/session, PHP submission, numerical
+probability, default-to-`Dia`, productive concrete support, new source pin,
+model, formal argument or philosophical discharge follows. All cause titles
+retain the prior partial-explanatory-condition meaning. The canonical next
+range is **A10 P3B/C2, then P3C/C3**; it does not advance to A11. Later public
+witness delivery remains separate from this extraction.

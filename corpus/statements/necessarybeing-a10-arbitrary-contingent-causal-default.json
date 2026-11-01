@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NB-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
+  "paraphrase": "For an arbitrarily chosen contingent thing X, the proposed causal rule of thumb gives a defeasible prima-facie expectation, described as more likely than not, that X has a cause.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

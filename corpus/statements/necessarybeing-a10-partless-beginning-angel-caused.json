@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NB-A10-PARTLESS-BEGINNING-ANGEL-CAUSED",
+  "paraphrase": "If an angel lacking parts were to begin to exist, it would have a cause in the prior partial-explanatory-condition sense.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}
