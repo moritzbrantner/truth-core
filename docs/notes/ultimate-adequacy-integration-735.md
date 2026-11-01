@@ -36,7 +36,9 @@ Full gates97112 are terminal0: build4416, binding856/2legacy pins/0mismatch,
 and all three Comparator/result-NanoDa checks pass. Sourceverification30005 is
 terminal0: six passages in changed manifests verified live, including the
 unchanged CC100 raw snapshot and new Rutten chapter. Scoped library69479 is
-still live; publication holds for that gate. Source claims and explanations
+terminal0: 36 exports, 548 declarations checked, zero typechecker errors and
+one known axiom pretty-printer diagnostic. The exact52-file direct-main
+publication is authorized, with Root retaining merge responsibility. Source claims and explanations
 remain distinct from formal consequence.
 
 ### Historical delivery evidence (superseded status; findings retained)
