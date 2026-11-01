@@ -1,0 +1,25 @@
+{
+  "id": "FUSION-NO-NECESSARY-PARTS",
+  "premise_statement_ids": [
+    "STMT-SELECTED-SUM2-FUSION",
+    "STMT-FUSION-FAMILY-NO-NECESSARY-PARTS-AT",
+    "STMT-NECESSITY-DOWNWARD-ALONG-PARTHOOD-AT"
+  ],
+  "conclusion_statement_id": "STMT-NO-NECESSARY-PARTS-AT",
+  "inference_ids": [
+    "INF-FUSION-NO-NECESSARY-PARTS"
+  ],
+  "meaning": "Suppose p is a necessary part of the selected sum. Existing Fusion’s no-extra-parts clause gives a family member x overlapping p, hence a common part q of p and x. Explicit downward necessity along parthood makes q necessary from p. But the family premise says x has no necessary part q, contradiction. Retain the SAME Ontic, w, fixed order, family and sum. No actual existence, ordinary contingency, nonempty actual population, cause, source scope or frame property is inferred. The full Fusion premise is retained even though this proof uses its no-extra-parts clause; no minimality is claimed.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

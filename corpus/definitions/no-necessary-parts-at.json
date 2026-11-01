@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-NECESSARY-PARTS-AT",
+  "term": "no necessary parts at a selected modal standpoint",
+  "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt",
+  "definition": "NoNecessaryPartsAt m w x means for every p with p ≤ x, NOT NecessaryAt m w p, in the existing Ontic and fixed Mathlib partial order. FamilyNoNecessaryPartsAt universally applies this SAME predicate to every member of one fixed Set. The object itself is a part under reflexivity; no actual-existence clause is included.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction candidate for the presentation’s no-necessary-parts language, not a binding or independent source proof. Source D/ordinary contingency, domain and actual sum existence need separate justification. NecessaryAt is the existing de-re accessible-existence predicate; not Scott NE, necessary action, reality of an essence or a causal condition. Empty accessibility/existence/domain issues retain their exact supplied meanings. Existing finite Body fusion is a parthood illustration only, not a newly claimed model of these modal inputs. No new model/examples or metaphysical possibilities are invented. Parthood/overlap adequacy, source sum/type correspondence and actuality remain OPEN. No fact/being aggregate or causal/explanatory property is added."
+}
