@@ -1,0 +1,28 @@
+{
+  "id": "STMT-POSITIVE-TARGET-EXISTENCE-COHERENT",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.PositiveTargetCoherent",
+  "paraphrase": "The target’s existence label A.exist b is exactly positive b and is true exactly where that SAME b exists. This explicit target-local fact/individual truth correspondence supplies no existence or necessity by itself.",
+  "definition_ids": [
+    "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+    "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-POSITIVE-TARGET-COHERENCE",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

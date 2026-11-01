@@ -1,0 +1,39 @@
+{
+  "id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-EXISTENCE-TARGET",
+    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+    "STMT-AUTONOMOUS-FACTS-NECESSARY-AT",
+    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
+    "STMT-POSITIVE-TARGET-EXISTENCE-COHERENT"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-AUTONOMOUS-GROUND-NECESSARY-BEING"
+  ],
+  "meaning": "Import memberwise/joint necessity on the SAME complete autonomous ground record: every contributor and enabler is autonomous, hence necessary under a separately explicit modal input. Joint necessity plus WHOLE-ground necessitation yields necessity of positive b; the explicitly aligned existence-fact correspondence yields NecessaryAt of the SAME b in the SAME Ontic. Preserve the given actual concrete b and project its actual existence/necessity into existing NecessaryBeing. Five explicit inputs; no IngredientAt, essential-label realization, productive R/sourcehood, WF, EM or frame axiom. The strong complete-ground, autonomy-necessity and necessitation commitments remain OPEN and are not inferred from authorized scoped adequate nonvacuous PSR.",
+  "definition_ids": [
+    "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+    "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-POSITIVE-TARGET-COHERENCE",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-INHABITED-CONCRETE-WORLD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
