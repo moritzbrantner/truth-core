@@ -8,9 +8,10 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
-Canonical integration `96494913` includes main through #888
-(`3c39f38bc3541c943477c98549ba80d383023fa4`). All proof/source PRs #874–888
-were delivered after their required checks and exact-head reviews passed.
+Canonical proof head `60b94316` includes the selected accidental-feature case;
+main is now through #890 (`e8038a39ccd037bd6679a84d64340d56631cffa9`).
+PRs #889 and #890 passed required CI and exact-head reviews and were merged;
+canonical main integration follows the current owned commits.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
 
@@ -19,7 +20,7 @@ full handle95157 passed build4396, binding840/2existingpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa3new/74closure declarations with no
 type errors. Both theorem probes are zero-axiom; independent10-file review
 passes. Its public #886 is merged621f7fb3. Current corpus validation passes
-2724 statements,1885 claims,824 results,469 witnesses; the existing unrelated
+2749 statements,1904 claims,825 results,471 witnesses; the existing unrelated
 Frege–Geach warning remains.
 
 The verified composition sequence is:
@@ -48,13 +49,27 @@ Koons Cor1 source #883 and narrow q44ad2/ad3 #888 are landed; no universal
 convergence bridge was closed. AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE remains
 queued with both dictionary obligations and the #180 off-root condition.
 
-Current delivery: #889 head31637708674f144958edce14620f8d7f6de92ff0,
-CI41295783056 running; exact-head review requested once. It publishes ONLY the
-existing plurality note/attempt clarification for #868: correct four/five-being
-history, five-row mapping, essence fibres and root differentiator inventory,
-plus the constitutive completeness/alignment and individuation boundaries.
-Two-file independent review and local checks pass; root frontier unchanged.
-#697/#320 retain the substantive uniqueness campaign.
+Current source deliveries: #891 head36927176c4bfc6b6b083fb68c4914a74d1ee623a,
+CI41300114892 running; #892 head73bd4aa0b43bbee17cacf8dcd9879f0ee34ea81f,
+CI41300194324 running. Each has one current-head review request. They publish
+I42[4–7] and I28 source readings, respectively; no formal application premise
+is closed. Canonical source commits84dfc3d2/932ed9e1 and independent statement
+identity cleanup51449c74 retain scope limits. I42[17–24] is fully read with
+findings persisted in the existing unreceived-esse attempt, but remains queued
+for extraction. Its common-numerical-origin route [19] still owes the same
+source/through relation and coverage premises as the existing Anselm consumer.
+
+New partial proof60b94316/ACCIDENTAL-FEATURE-ORIGIN passes full79332:
+build4398, binding841/2existingpins/0mismatch, Comparator/result NanoDa;
+scoped19192 exports23 declarations/checks76 with zero typechecker errors.
+Its frozen Challenge hash12c1d311…13dd5a3 and zero-axiom probe are unchanged.
+Five OPEN heads eliminate essential internal production of a distinguishing
+repeatable feature, yielding ONLY an external-feature-cause role witness.
+No actual cause, distinct cause, existential dependence, necessary root or
+uniqueness follows. External qualitative production can leave two intrinsically
+distinct individuals intact; constitutive individuation and indispensability
+remain independently open. Public proof delivery is being prepared from this
+exact slice. #697/#320 retain the substantive uniqueness campaign.
 
 Vincent2026 full text remains unavailable through the checked legitimate
 sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
@@ -63,8 +78,9 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: finish #889 delivery gates and continue the exact #697 individuation
-obligation from the clarified baseline. No new model or parallel God predicate
+Next: finish #891/#892 and the partial proof delivery gates; investigate the
+constitutive-individuation and common-numerical-origin obligations using the
+existing consumers rather than duplicate bridge wrappers. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
 retry/repin/merge without new evidence. No local Lean service is running; the
 bounded experiment was completed earlier and the authorized CLI fallback uses
@@ -1250,6 +1266,19 @@ Classical logic remains the current framework.
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
 | O (new, open) | Among actual concrete individuals at the selected world, if x grounds y, y does not ground x; this also excludes self-grounding. | STMT-ACTUAL-GROUNDING-ASYMMETRIC; the selected existential grounding relation, not every causal/explanatory relation. Offered as an alternative to formal D only with the retained B/E/F/Iesse/Hesse/EM package. No owner acceptance or global weakening is inferred. |
+
+The renewed owner-facing presentation keeps A accepted and requests selections;
+no additional reply has selected a premise. Independent adversarial review
+confirmed that D1 is not answered by a consistent infinite graph, but D1 alone
+neither proves D2 nor the formal no-trap target. In the abbreviated chat ledger,
+D2 states the general demand that actual contingent existence have an adequate
+explanation. Accepting that wording does **not** also select its grounding
+interpretation, a concrete foundation, or STMT-WHOLE-ROSTER-NOT-TRAPPED.
+Those application commitments remain separate. C likewise requires an actual
+concrete existential ground, rather than an unspecified explanation. H and I
+remain independently open; foundation uniqueness and uniqueness of every
+necessary entity remain distinct targets. The subagent's agreement verifies no
+premise truth; its role here is to expose missing inferences and scope risks.
 
 D needs two separate classifications in future owner replies:
 
