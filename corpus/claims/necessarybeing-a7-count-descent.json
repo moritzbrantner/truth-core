@@ -2,9 +2,14 @@
   "id": "NB-SURVEY-A7-COUNT-DESCENT",
   "statement_id": "STMT-NB-COUNT-CAUSABILITY-DESCENT",
   "source_id": "NECESSARYBEING-SURVEY",
-  "locator": "A7c, step 2",
-  "interpretation": "The source reports the respondent's universal transfer answer for n greater than one, and later substitutes the type 'contingent thing'. This claim specializes the reported rule to that type, without endorsing the premise or equating causation of two distinct situations.",
+  "locator": "A7c, step 2, with A7P1 type-general question and factory example as context",
+  "interpretation": "The source reports the respondent's universal transfer answer for n greater than one, and later substitutes the type 'contingent thing'. This claim specializes the reported rule to that type, without endorsing the premise or equating causation of two distinct situations. This existing statement remains the contingent-things specialization; the full any-T report is separately recorded, without broadening the frozen Lean CountDescent declaration.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY", "DEF-NB-COUNT-DESCENT"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "DEF-NB-COUNT-CAUSABILITY",
+    "DEF-NB-COUNT-DESCENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY"
+  ]
 }

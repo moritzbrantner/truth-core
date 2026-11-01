@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+  "term": "type-count situations, joint contributors and temporally prior situation-cause in A7",
+  "definition": "A7P1 quantifies over types T and counts of contingent instances; an instance is a bearer characterized by the type, illustrated by a pillow. Its factory/cubed-block example illustrates a possible transfer report, not independent justification of the type-general rule. A7P3 has four joint contributors causing a fifth and attributes causation of an at-least-five situation, not causation of the contributors themselves. The situation-cause title requires a condition existing prior to obtaining S, while S does not yet obtain, capable of explaining or partly explaining S. A7c4 applies that condition to absence of the at-least-one-contingent situation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A7-GENERAL-TYPE-COUNT-TRANSFER",
+    "NB-SURVEY-A7-FOUR-CONTRIBUTORS-CAUSE-FIFTH",
+    "NB-SURVEY-A7-COUNT-ONE-PRIOR-CAUSE-EXCLUSION"
+  ],
+  "note": "No real example of a global first contingent threshold is supplied. A factory may be outside the type cubed block, whereas any contingent supplier is inside type all contingent things. Transfer preserving strict first-threshold guards therefore carries substantive externality; it is not arithmetic weakening. A weaker static partial-explanation interpretation may have contingent things already present, so it cannot silently import the source count-one prior/absence step. Joint-condition bearer, distinctness/co-presence, concrete/temporal/modal applicability and structural laws remain OPEN; no refutation, new model or sufficiency theorem is claimed."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A7-FOUR-CONTRIBUTORS-CAUSE-FIFTH",
+  "paraphrase": "Conditional on an affirmative report, the source presents a possible scenario of initially just four contingent things jointly causing a fifth, and says those initial four would have caused the situation of at least five contingent things. This does not say they cause themselves or every contributor, supply an individual complete cause, establish actual population or prove that the joint conditions preserve all five at one time.",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-CAUSABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

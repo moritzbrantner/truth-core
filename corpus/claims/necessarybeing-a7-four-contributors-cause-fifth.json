@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A7-FOUR-CONTRIBUTORS-CAUSE-FIFTH",
+  "statement_id": "STMT-NB-A7-FOUR-CONTRIBUTORS-CAUSE-FIFTH",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7P3, complete four-contingents/fifth scenario, possibility question and cause titles; A7c step 1 context",
+  "interpretation": "The scenario motivates the already recorded five-causability input; do not replace that input with a new theorem or infer causes of all contributors. The individual/event and situation-cause titles are partial explanatory conditions. Distinctness, persistence/co-presence of initial contributors and fifth, collective-condition representation and guarded temporal-threshold interpretation remain application burdens. No factory, five-being model or actual causal event is certified.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-CAUSABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

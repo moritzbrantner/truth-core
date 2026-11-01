@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A7-GENERAL-TYPE-COUNT-TRANSFER",
+  "statement_id": "STMT-NB-A7-GENERAL-TYPE-COUNT-TRANSFER",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7P1, whole type-T/n question, cubed-block factory example and instance/cause titles; A7c step 2 before specialization",
+  "interpretation": "Keep the full any-T scope distinct from existing CountDescent over the specialized Nat predicate. A factory making cubed blocks can be outside type cubed block; that example does not independently warrant applying the rule to ALL contingent things, which already includes any contingent supplier. It is an attributed possible answer, not actual assent, monotonicity of causal relations or a first-threshold preservation theorem.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-DESCENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

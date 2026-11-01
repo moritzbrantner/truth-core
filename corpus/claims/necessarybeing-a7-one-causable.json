@@ -2,9 +2,13 @@
   "id": "NB-SURVEY-A7-ONE-CAUSEABLE",
   "statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
   "source_id": "NECESSARYBEING-SURVEY",
-  "locator": "A7c, step 3",
-  "interpretation": "This is the author's intermediate conclusion by repeated substitution from steps 1 and 2, not an unconditional fact. The source's later claim that such a cause must be noncontingent remains a distinct, unformalized inference.",
+  "locator": "A7c, step 3, following steps 1–2",
+  "interpretation": "This is the author’s intermediate conclusion by repeated substitution from steps1–2, not an unconditional fact. This finite-count transcription remains distinct from the separately recorded source steps4–7. The existing source-free CountTemporalNecessity.sameCause subsequently verifies a related same-cause necessary-being consequence only under its six explicit guards; it does not certify the source interpretation.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "DEF-NB-COUNT-CAUSABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY"
+  ]
 }

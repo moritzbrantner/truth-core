@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A7-COUNT-ONE-PRIOR-CAUSE-EXCLUSION",
+  "statement_id": "STMT-NB-A7-COUNT-ONE-PRIOR-CAUSE-EXCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7c, steps 4–7 and prior-to/situation-cause titles, following existing step 3 one-causability conclusion",
+  "interpretation": "The cause title explicitly requires presence prior to obtaining, while S does not yet obtain. That source condition is distinct from A5’s exact-EVER whole-history externality and from weak partial explanation of a later snapshot when contingent things already exist. Existing CountTemporalNecessity.sameCause verifies a related SAME-cause consequence under six OPEN typed inputs, including stronger absence at ALL earlier times, not merely count arithmetic. The source-to-guarded-threshold bridge is not supplied by this attribution.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-CAUSABILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

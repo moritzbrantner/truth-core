@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A7-GENERAL-TYPE-COUNT-TRANSFER",
+  "paraphrase": "Conditional on the affirmative respondent report, for any type T and n at least two, possible causation of a situation with at least n contingent instances of T transfers to possible causation of a situation with at least n minus one contingent instances of that SAME type. This is the full type-general reported rule, not the existing specialization to contingent things, arithmetic inclusion alone or a common world/cause for all counts.",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-DESCENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

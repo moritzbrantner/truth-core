@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A7-COUNT-ONE-PRIOR-CAUSE-EXCLUSION",
+  "paraphrase": "Given the source’s possible causation of the at-least-one-contingent situation, it directly excludes a contingent cause: a prior existing contingent condition would exist while the count-one situation does not yet obtain, contradicting absence of every contingent thing. It therefore infers a possible noncontingent cause and possible Necessary Being. There is no outer no-possible-Necessary-Being supposition here. This attributed consequence retains source temporal-priority/absence and causal-bearer/classification bridges; it is not a ban on every cause of a later static count snapshot, an actual necessary witness or complete sufficient explanation.",
+  "definition_ids": [
+    "DEF-NB-A7-TYPE-COUNT-AND-PRIOR-CAUSE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-COUNT-CAUSABILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
