@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+  "paraphrase": "The source distinguishes ordinary entailment, which impossible antecedents satisfy vacuously, from P nontrivially entailing Q: P entails Q independently of whether P can or cannot have instances, not merely because it cannot. Its impossible square-circle example MAY SEEM nontrivially shape-entailing, while octopus entailment does not seem nontrivial and the counterpossible explanation is hedged plausible. This is a source criterion/examples, not possible exemplification of the antecedent, a complete relation calculus or verified countermodel.",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

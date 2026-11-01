@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+  "term": "A9 ordinary inclusion, nontrivial entailment, negative relation instance and modal class scope",
+  "sense_definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "resolution": "Ordinary A9 entails matches the existing A8 necessary universal property-inclusion sense; nontrivial entailment adds an independence-of-impossibility basis criterion. It is neither Dia antecedent AND Box implication nor ordinary conjunction projection, Scott positivity/limitation closure, causal explanation or grounding. Impossible square-circle examples retain may-seem/plausible qualifications. The P1B/C4 report lifts ordinary Concrete→P to NT(Concrete-and-Necessary,P) for any P, crossing relation kinds; no complete relation calculus or independent warrant is supplied. Negative P2 is NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont). Its not-necessarily-existing title is not automatically typed ContingentAt with actual presence. C1–6 remains inside NoPossibleNB; only7–8 discharges possibility, not the hypothetical classifications or actual/rigid witness. Concrete means source cause-capability, not all entities or physicality. Actualist/domain/intensional/world/class and modal-transport correspondences remain OPEN; none is selected to obtain a proof."
+}
