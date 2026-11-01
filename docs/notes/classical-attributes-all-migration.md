@@ -570,3 +570,53 @@ incoming-free selected root is not declared absolutely explanation-free.
 These interface limits are now explicit in the existing relative-grounding
 definition and O attempt. No proof type, relation, premise truth or frontier
 count is changed by the clarification.
+
+
+### Necessary-existence routes and the remaining entitlement boundary (2026-11-01)
+
+These are different conditional packages, not a ranking by philosophical strength.
+Every row retains its own definitions and semantic-application obligations.
+
+| Verified route | Explicit input package | Exact output / connection |
+| --- | --- | --- |
+| Whole roster | Actual concrete population B; contingent grounding C; formal whole-roster nontrapping D; EM | Actual necessary concrete selected root. The new equivalence audit shows formal D has root-existence strength under B/EM; explanatory inadequacy alone is weaker. |
+| Maximum/asymmetry | B/C/E/F/Hesse/Iesse/O/EM | Unique actual selected root with necessity. Uniqueness is over the selected relation's actual roots, not every necessary individual. |
+| Count cause-time | Open pointwise count-cause opportunity; history-presence bridge; EM; Euclidean access; actual reflexivity | SAME actual necessary concrete individual and supplied count-one marker at accessible v. Imported old six-input bundle implies new five-input bundle; marker is not transported to w. Registered assembly connects the shared NecessaryBeing endpoint. |
+| Generic limitation separation | Known limiting Q; nonlimiting Phi; backward closure under boxed inclusion; EM | Accessible SAME exemplar with Phi and not Q. The target property is arbitrary; this is not actual necessary existence by itself. |
+| Nonlimiting concrete existence | Specialized limiting possible absence; specialized nonlimiting concrete existence; same closure; EM; Euclidean access; actual reflexivity | Instantiates the preceding row with Phi=concrete-and-exists and Q=accessible absence. SAME exemplar is necessary at v, then actual and necessary at w. Uses existing NecessaryConcreteAt and its already registered necessary-being connection. Grounds is unused. |
+
+The last route is verified at `6ad5567a`: full build4351, binding823/2 old pins/
+0 mismatch, three Comparator/result NanoDa checks, scoped NanoDa127 declarations/
+0 type errors. Generic/transport/consumer probes use no axioms; the unchanged
+mixed-ontology control imports propext. Its NEW classifier and unused-ground
+Profile view are explicit; actual contingent existence remains. Source and old
+proof records are unchanged. PR #855 carries this31-file slice; delivered-head
+CI/review remain separate from these completed local gates.
+
+At the necessary-concrete target, this alternative connects five additional open
+leaves (the two specialized judgments, closure and two frame conditions): union
+24→29, route raw6/expanded5. The cheapest non-transcription route remains2;
+the displayed overall best1 row is the prior composite unique-root assembly.
+NecessaryBeing union39→42 adds the two judgments and closure because its frame
+leaves were already connected; cheapest2 is unchanged. God stays72/best7 and
+Catholicism81/best31, with the existing assembled consumer37 unchanged. No old
+leaf closes. The counts measure alternative connectivity, not truth or a minimal
+metaphysical explanation.
+
+The entitlement audit read the complete q4a1/q7a1 articles, including replies,
+and the full A8/A9 context. ST I q4a1 co./ad3 supports esse as act/perfection;
+q7a1 co./ad3 locates restriction in reception and applies infinity after divine
+subsistent esse. Neither establishes that concrete existence cannot MODALLY
+ENTAIL a deficiency. Being intrinsically positive is not that stronger claim.
+If all possible concrete existents are contingent, concrete existence can entail
+possible absence nonvacuously without actuality causing its own restriction.
+A9's rejection of vacuity does not remove this case. A8P3 elicits the absence-as-
+limitation judgment rather than independently arguing for it.
+
+Both specialized judgments therefore remain OPEN, not refuted. A rival can deny
+nonlimitation under the modal reading, or retain an intrinsic/relevance-sensitive
+reading while rejecting the present boxed-inclusion closure. Neither response
+establishes the rival's complete explanatory adequacy. The exact primary
+witnesses, rejected bridges and remaining burdens are persisted in the existing
+nonlimiting-concrete derivation attempt. No source or owner truth selection is
+inferred from the successful proofs.

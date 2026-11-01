@@ -7,73 +7,58 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff (supersedes the snapshots below)
 
-Research branch `research/lean-existential-self-actualization-20261031` is at
-`7a26e3f767eda66d2325a2abfc18324f59b3ffe6` before this note update. Only ledger A
-is owner-accepted. No source reading, logical check or new analyst configuration
-is an additional owner truth selection or philosophical premise discharge.
+Canonical branch is `research/lean-existential-self-actualization-20261031`, at
+`f8678cde3c84fb7619fab8360991ed04bf4b3d45` before this update. The main integration
+preserved full private research history, all468 witnesses and the A9 research
+cursor while recording main's independent A8 delivery411. Four metadata/note
+conflicts were resolved with both intents retained; corpus2555/1735 claims and
+offline source bindings pass. No Lean code differs from the verified6ad inputs.
+Only owner ledger A is accepted. Optional NLC/MF rows below remain unselected.
 
-PR #851 has MERGED as `663d3a8cf9414fedda11b466b91720d010888635` after all required
-CI41267050197 gates and clean structured review at exact head
-`31d2754411ff6f646e70182fb107022fe516c80d`. Root integration is `7a26e3f7`.
-The ten-file audit establishes whole-roster nontrapping iff an actual root exists,
-under B/EM; it does not independently justify either side. Its previous local
-build4341/bind815 and Comparator/NanoDa evidence remains in the attempt below.
+Landed exact-head reviewed, required-CI-green PRs:
+- #851 foundation equivalence: main663d3a8c; Root integration7a26e3f7.
+- #853 count cause-time weakening/projection: main4d2f6cff; canonical integrationf8678cde.
+- #852 eight named A8 source witnesses/readings: mainb001d0ed; same canonical integration.
+- #854 two generic modal results/control: mainccb37777; proof inputs already identical
+  on Root, with Git ancestry integration deferred to the next safe merge.
 
-The count cause-time cluster is verified and committed at
-`fac2fa12cb430a25e5eb4889268e54c6e34a9936`: three results, shared build4347,
-bind820/2 pins/0 mismatches, all Comparator/result NanoDa checks and scoped
-NanoDa769 declarations/0 type errors. Main/helpers/projection use no axioms;
-unchanged-fixture control uses propext. Public PR #853 is at
-`8fc1148e56a80d47c33f2f3404e605f5ff42bfe5`, CI41268647036 and one exact-head review
-request. Its public attempt omits one not-yet-public contextual A7 claim pointer;
-Root retains that pointer and all findings, while the public pinned A7-DESCENT
-witness/hash and interpretation gaps are unchanged. Independent public-dependency
-review passed. Main raw5/expanded4; projection raw1/expanded4 and explicitly
-assembly; old count NE route remains5 and cheapest non-transcription NE route2.
-Default root open union81 and all root costs (cheapest31/assembled consumer37)
-remain unchanged. Guard weakening and packaging are not premise entitlement.
+PR #855 at `ca3a3d45d1b30b9154737fca0e1eb75839f7743e`, CI41271532565, now carries the
+31-file stronger separation/actual necessary-concrete consumer and joint control.
+Its exact-head review was requested once; CI/review must pass before merge.
+Local evidence at6ad5567a: build4351, binding823/2 old pins/0 mismatch, all three
+Comparator/result NanoDa checks, scoped NanoDa127 declarations/0 type errors.
+Main/generic/transport proofs use no axioms; control inherits propext. The target
+contains only concrete-and-actual existence, not necessity. The SAME separated
+individual lacks accessible absence and is transported back to actual w using
+Euclidean access/actual reflexivity. The Profile grounds field is unused.
 
-A8 analyst modal cluster is verified at `e9fc9049`: two Comparator/result NanoDa
-passes, scoped12 TruthCore/60 dependency declarations/0 type errors, zero-axiom
-probes and the same combined4347/820 global evidence. Its four explicit inputs
-are three OPEN classifier commitments plus the unchanged EM floor. It concludes
-possible property exemplification; the same-model control falsifies Scott A1a
-for nonlimitation. No source statement is rebound. Source delivery PR #852 at
-`409bb550c13fdf3c95005ce85edeca7c0d939860`, CI41268644642, carries seven A8 claims,
-five statements, scoped terminology and eight named snapshots. Those eight pass
-live verification; other403 were checked offline. Its branch has411 passages;
-main still has403 until merge. Public A5 stays queued; A5–A7 are not falsely
-reported delivered. A8 is dependency-independent of those ranges. The worker is
-preparing its24-file modal proof delivery from that source head, holding push
-until #852 is on main and fresh main is merged. Root holds source landing until
-the controlled #823 retry outcome is known, to keep that attempt's scope stable.
+The verified matrix now compares whole-roster, maximum/asymmetry, count and
+nonlimitation packages with their distinct endpoints. Actual public metrics for
+#855: necessary-concrete open union24→29/new route raw6-expanded5, non-transcription
+best2 unchanged (overall best1 is the prior composite assembly); NecessaryBeing
+union39→42/best2 unchanged. God72/best7 and Catholic81/best31/assembled37 are
+unchanged. No philosophical premise closes. The independent entitlement audit,
+persisted in the existing attempt, leaves BOTH specialized judgments OPEN:
+q4a1/q7a1 act/perfection and reception readings do not establish modal non-entailment
+of deficiency, and A8P3 supplies a report question rather than an independent
+warrant. A9's nontrivial relation does not remove nonvacuous all-contingent
+inclusion. These objections do not certify a rival as explanatorily complete.
 
-PR #823 remains at `a3f75598cee7dbcce07ef8fd3fc841265a3e1cec`, clean exact-head
-review, local full403-source verification/build4348/all372 tests passed. CI
-41267481376 attempt1 passed its proof/browser/library jobs but failed because
-the pinned Dye Wayback fallback refused the connection. The diagnostic artifact
-successfully retained both exact rejected live eLife bodies. A later bounded
-request recovered the unchanged Dye archive pin (622426 bytes, SHA256
-`01b430a20b35a1714424471ba0d3dfad18e02ea19ab38970642408e410dd1b11`).
-ONE failed-job availability-recovery retry was authorized after attempt1 became
-terminal; API now confirms attempt2 in progress on the same head. No code/pin
-change, full-workflow retry, bypass or merge. Stop retries if that external block
-recurs. #850's original unretained A5 mismatch remains unexplained; its next
-instrumented head still depends on diagnostic delivery.
+#823 remains unmerged at a3f75598. Local403-source verification/build4348/all372
+tests and exact-head review pass; both hosted attempts failed the SAME pinned
+Dye archive availability condition (connection refusal, then TLS handshake timeout).
+The single authorized failed-job retry is exhausted; no further retries, repin,
+bypass or merge. Both diagnostic artifacts captured the rejected live bytes
+correctly. #850's original unretained A5 mismatch remains unexplained and its
+instrumented delivery still awaits this diagnostic dependency. Other independent
+work continues; the overall goal is not at an impasse.
 
-The next active proof lane strengthens the generic classifier conclusion to an
-accessible exemplar satisfying Phi and not Q, then specializes Phi to concrete
-existence and Q to accessible absence on the SAME Profile/Ontic. Six explicit
-inputs would yield the existing NecessaryConcreteAt endpoint without placing
-necessity in Phi, a PSR or grounding premise. Two specialized classifier premise
-heads must remain distinct from source P2/P3 and generic owner commitments;
-frame/actualism/property/evaluative correspondence stays OPEN. Profile grounds
-is unused. Old mixed ontology/concreteness may support a joint noncollapse
-control with an explicitly NEW classifier/view, not a sourced model of deficiency.
-This lane is implementation in progress, not yet a verified result. Source
-cursor remains A9; concrete composition takes priority over further ingestion.
-Coordinator owns this handoff, public review and landing; source/math publication
-and archive monitoring workers have separate worktrees.
+All new proof/source batches are committed. The source cursor remains A9;
+completed primary reading for the entitlement comparison is not a completed
+A9 source-extraction campaign. Next actions: monitor/land #855 if all gates pass,
+record optional owner classifications without inferring answers, and prioritize
+independent premise warrant over further conditional restatements. Coordinator
+owns this note, matrix and merge; workers preserve separate source/proof ownership.
 
 ## Current head and next action (2026-11-01)
 
@@ -896,6 +881,29 @@ Classical logic remains the current framework.
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
 | O (new, open) | Among actual concrete individuals at the selected world, if x grounds y, y does not ground x; this also excludes self-grounding. | STMT-ACTUAL-GROUNDING-ASYMMETRIC; the selected existential grounding relation, not every causal/explanatory relation. Offered as an alternative to formal D only with the retained B/E/F/Iesse/Hesse/EM package. No owner acceptance or global weakening is inferred. |
+
+### Optional route-specific ledger: NLC and modal assumptions
+
+The newly verified route has three philosophical inputs and two explicit modal
+conditions in addition to the unchanged EM framework. These labels supplement
+A–O; every row below is OPEN pending a specific owner selection. They are working
+truth classifications, not new Lean axioms, source endorsements or automatic
+frontier closure. Only A remains accepted.
+
+| ID | Intended working proposition | Exact statement |
+| --- | --- | --- |
+| NLC1 | The property of possible nonexistence is genuinely limiting. | STMT-POSSIBLE-ABSENCE-IS-LIMITING-AT |
+| NLC2 | Concrete existence does not modally entail any genuine deficiency. This is stronger than saying actuality does not intrinsically cause restriction. | STMT-CONCRETE-EXISTENCE-IS-NONLIMITING-AT |
+| NLC3 | If P necessarily implies Q and Q is limiting, P is limiting, at the same standpoint. | STMT-LIMITATION-BACKWARD-CLOSED-AT |
+| MF1 | If v and u are accessible from w, u is accessible from v, for the supplied modal relation. | STMT-EUCLIDEAN-FRAME |
+| MF2 | The selected actual world is accessible from itself. | STMT-ACTUAL-MODAL-REFLEXIVITY |
+
+The same intended actual Profile/classifier/property interpretation must be used
+throughout. NLC2 is not source P2's differently scoped powerful-Necessary-Being
+judgment; neither is it the weaker intrinsic-act intuition. A choice on NLC1–3
+does not silently choose MF1/MF2 or establish the formal-to-reality mapping.
+The owner may classify True, Provisional, Open or Reject and qualify the intended
+meaning. No elapsed wait or automatic continuation supplies a classification.
 
 Priority scope clarification for G: the completed V lect.13 reading distinguishes
 asymmetric natural independence, causal examples, cognition order, and
