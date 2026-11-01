@@ -445,3 +445,50 @@ This is new verified conditional composition, not a reduction in open premises.
 The historical tail is structural assembly; the25-input positive model does not
 certify the additional seven inputs. Independent reviews found no type/prose
 or same-witness mismatch. Only owner ledger A remains accepted.
+
+### Alternative foundation via an actual maximum and asymmetry
+
+`WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY` derives the existing
+`STMT-WHOLE-ROSTER-NOT-TRAPPED` endpoint from seven inputs: actual concrete
+population, existing-to-esse, esse-cause-to-actual-ground, fixed-esse maximum
+causal reach, fixed-esse grades-to-maximum, excluded middle and the existing
+actual-grounding asymmetry property. The same maximum is selected, actualized
+and shown to have no incoming actual ground. Neither contingent grounding nor
+well-foundedness is used in this lemma. Existing necessity results can then
+consume its endpoint together with contingent grounding.
+
+For the25-input route, this permits replacing D with actual-grounding asymmetry
+while retaining the other24 inputs. It is an alternative package, not a global
+weakening or independently defended premise. Maximality, causal reach and
+selected-relation asymmetry remain open. The proof/helper are zero-axiom;
+Comparator, independent NanoDa and independent type/prose review pass.
+
+The cheapest root cost remains31 and the new32-input consumer remains37.
+Connecting this alternative adds eight previously unreached open leaves to
+the global root-path union (73→81;23bare/50sourced→29bare/52sourced), removing
+none. This measures connected coverage, not eight new premises imposed on any
+existing route and not a reduction in philosophical assumptions. Exact IDs
+and final verification are preserved in the existing attempt record.
+
+### Explicit God/attribute consumer of the asymmetry route
+
+`NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY` imports the seven-input
+nontrapping theorem and the original25-input named-God theorem. Its frozen type
+replaces only D by selected actual-grounding asymmetry; the other24 hypotheses,
+including contingent grounding C, and the exact existing endpoint are unchanged.
+All dictionaries and the carrier remain identical across both calls.
+
+Two narrowly scoped helpers check asymmetry on the unchanged full25 positive
+fixture and retain that fixture's entire old Control alongside asymmetry.
+Its incidental D is stronger positive background, not an input of the new
+consumer. Empty potency, finite represented respects and the necessarily
+existing non-God effect retain their previous limitations. The main theorem
+and closed asymmetry check are zero-axiom; compatibility uses `propext` through
+the old control. Comparator, independent NanoDa (including module helpers),
+binding and independent type/prose review pass.
+
+Compared with the seven-input-lemma baseline, the81-open-leaf union
+(29bare/52sourced), cheapest root cost31 and existing32-input consumer cost37
+are unchanged; no reaching premise is added or removed. This records an
+explicit alternative composition, not premise truth, global weakening or an
+independent explanation of the necessary source.
