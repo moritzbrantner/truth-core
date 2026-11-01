@@ -1,0 +1,19 @@
+{
+  "id": "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+  "paraphrase": "Every complete-cause candidate edge has cause and effect with no common part in the SAME fixed order. No actuality, concreteness or grounding identity is inferred.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.CauseEffectNonoverlap",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

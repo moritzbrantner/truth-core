@@ -1,0 +1,23 @@
+{
+  "id": "RUTTEN-CH6-CAUSED-COMPOSITE-PROPER-PART",
+  "statement_id": "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.127 premise6 and p.135 defense",
+  "interpretation": "Preserve the CAUSED PROPER PART wording. Obtaining a caused simple requires the separately retained terminating descent. The p135 defense uses collective-uncausedness plus supplementation/CAI and is not silently treated as ordinary part-order logic. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

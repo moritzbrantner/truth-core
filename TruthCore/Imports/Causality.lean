@@ -5,6 +5,7 @@ import TruthCore.Causality.ActualCoverNecessaryBeing
 import TruthCore.Causality.ActualFusionNecessaryBeing
 import TruthCore.Causality.ActualRootUniqueness
 import TruthCore.Causality.ActualUnderivedEssenceEsse
+import TruthCore.Causality.AtomisticCausalSource
 import TruthCore.Causality.BearerRegress
 import TruthCore.Causality.BoundedPastResource
 import TruthCore.Causality.BruteFoundationBoundary

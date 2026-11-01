@@ -1,0 +1,25 @@
+{
+  "id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "inference_ids": [
+    "INF-ATOMIC-CAUSAL-SOURCE-CONSISTENCY"
+  ],
+  "meaning": "Construct one fixed two-object identity-parthood interpretation with the sole complete-cause candidate edge origin→effect. Verify every nonlogical minimum input plus activity, unique cause per effect, all-simple/vacuous composite P6, exact singleton caused-simple family/full Fusion and explicit source/outgoing witnesses. This certifies nonvacuity of the analyst package, not real-world applicability or the full author first cause.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

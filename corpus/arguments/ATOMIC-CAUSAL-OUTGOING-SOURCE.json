@@ -1,0 +1,31 @@
+{
+  "id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "premise_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-OBJECT-CAUSAL-ACTIVITY"
+  ],
+  "conclusion_statement_id": "STMT-ATOMIC-CAUSAL-OUTGOING-SOURCE-EXISTS",
+  "inference_ids": [
+    "INF-ATOMIC-CAUSAL-OUTGOING-SOURCE"
+  ],
+  "meaning": "Import the five-input source theorem and retain its SAME witness x. Activity's incoming horn contradicts x's sourcehood, so its outgoing-to-a-distinct-effect horn holds. No universal effect-priority, source uniqueness, necessity or God is inferred.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

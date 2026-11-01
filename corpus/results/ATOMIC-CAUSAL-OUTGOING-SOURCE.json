@@ -1,0 +1,10 @@
+{
+  "id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "argument_id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticCausalSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticCausalSource.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticCausalSource.outgoing",
+  "comparator_config": "results/ATOMIC-CAUSAL-OUTGOING-SOURCE/comparator.json",
+  "status": "solution-present",
+  "description": "Import the five-input source theorem and retain its SAME witness x. Activity's incoming horn contradicts x's sourcehood, so its outgoing-to-a-distinct-effect horn holds. No universal effect-priority, source uniqueness, necessity or God is inferred. Primary P2 termination and P4 sum are stronger than the used consequences. No root-path premise is discharged and no complete-cause-to-ground dictionary is established."
+}

@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "RUTTEN-RENEWED-THEISM-2012",
+    "source_url": "https://www.gjerutten.nl/TowardsARenewedCaseForTheism_ERutten.pdf",
+    "retrieved_at": "2026-11-01T16:11:11Z",
+    "sha256": "sha256:aaf4942b77a4f54f3c5d26f56f9d3880e2afd97425eeb478b3a71128bb5028d0",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright©2012 Emanuel Rutten, all rights reserved; no explicit reuse license observed. Legitimately author-posted dissertation, corroborated by VU institutional final-version catalogue. Only metadata, hashes, short incipit and paraphrases committed; raw/extracted full text remains ignored local evidence."
+  },
+  "passages": [
+    {
+      "id": "RUTTEN-RENEWED-THEISM-CH6",
+      "locator": "2012 dissertation, chapter VI, printed pp.123–135 (physical PDF pp.125–137)",
+      "claim_locator_prefixes": [
+        "2012 dissertation, chapter VI,"
+      ],
+      "pdf_pages": {
+        "first": 125,
+        "last": 137
+      },
+      "incipit": "VI Atomism, causalism and the existence of a first cause",
+      "text_sha256": "sha256:3c8ec0b91ef6b74a62f9b3146f3b95e000d207dd99d30a3d565a12270a86783a"
+    }
+  ]
+}

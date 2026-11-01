@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+  "term": "nonempty-family conditional coverage of caused simples",
+  "definition": "CausedSimples G selects IsMin objects with an incoming G.edge. If that family is nonempty, ConditionalCausedSimpleCover requires some object u containing every selected member, using existing Covers. No formation is required for an empty family; no no-extra-parts, extensionality, composition-as-identity or unrestricted-fusion principle is included.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH6-CONDITIONAL-COVER-CONSEQUENCE"
+  ],
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.ConditionalCausedSimpleCover",
+  "note": "Primary P4p127 is a NONEMPTY conditional for an object-valued sum, unlike the abbreviated slide. Containment is only a weaker consequence of that sum. Object population remains a separate input; the proof derives family nonemptiness inside its all-caused reductio."
+}
