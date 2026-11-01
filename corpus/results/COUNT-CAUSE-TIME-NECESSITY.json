@@ -1,0 +1,10 @@
+{
+  "id": "COUNT-CAUSE-TIME-NECESSITY",
+  "argument_id": "COUNT-CAUSE-TIME-NECESSITY",
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Solution",
+  "theorem": "TruthCore.Results.Causality.CountCauseTimeNecessity.sameCause",
+  "comparator_config": "results/COUNT-CAUSE-TIME-NECESSITY/comparator.json",
+  "status": "solution-present",
+  "description": "From the cause-time opportunity and unchanged history-presence, excluded-middle, Euclidean-access and selected-world-reflexivity commitments, derive the SAME actual necessary concrete individual, preserving its count-one cause role and necessity at the accessible history. If it were contingent, its Fin1 singleton would violate absence at its own presence time. History presence supplies existence; EM excludes accessible absence, and Euclidean sibling/back access transports necessity and actuality to w. No time Preorder, cause-before-target, later threshold or all-earlier absence is used. Opportunity admission and all semantic bridges remain OPEN; no uniqueness, God or explanatory adequacy follows."
+}

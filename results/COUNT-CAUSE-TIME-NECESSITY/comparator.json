@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CountCauseTimeNecessity.sameCause"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
