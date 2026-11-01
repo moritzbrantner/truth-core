@@ -99,7 +99,7 @@ export default function SkeletonPage() {
                 </summary>
                 <p className="mt-3 font-mono text-xs break-all text-[var(--muted)]">{item.statement_id}</p>
                 <h3 className="mt-4 text-sm font-semibold">{candidates.length ? "Next recorded gap" : "Next inference not recorded"}</h3>
-                {candidates.length ? <ul className="mt-2 grid gap-4 text-sm leading-6">{candidates.map((candidate) => (
+                {candidates.length ? <ul className="mt-2 grid gap-4 text-sm leading-6 [overflow-wrap:anywhere]">{candidates.map((candidate) => (
                   <li key={candidate.id}>
                     <p>{candidate.title}</p>
                     <p className="mt-1 text-[var(--muted)]">{candidate.blocker}</p>
