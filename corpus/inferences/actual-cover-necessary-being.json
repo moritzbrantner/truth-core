@@ -1,0 +1,20 @@
+{
+  "id": "INF-ACTUAL-COVER-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-NOT-PART-OF-EFFECT-AT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "conditional-actual-cover-and-causal-nonparthood-scoped-reductio",
+  "meaning": "Under scoped denial of bare actual NE, selected-world reflexivity actualizes every proposed necessary candidate and so makes every candidate have no necessary parts. Existing owner population supplies an actual member; conditional selected-family cover formation supplies an actual cover there. The unregistered selected-cover tail uses strict causal coverage to choose a cause, actual endpoints to actualize it, and the scoped classification to put it in the SAME covered family. Existing Covers places the cause below its effect, contradicting the explicit causal nonparthood policy. Discharge the scoped denial classically to SOME bare actual NE. No Fusion, no-extra-parts clause, common-part nonoverlap, actual-part law or source/default warrant is inferred.",
+  "assumption_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ],
+  "discharged_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ]
+}

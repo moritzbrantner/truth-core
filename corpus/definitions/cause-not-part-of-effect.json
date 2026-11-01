@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSE-NOT-PART-OF-EFFECT",
+  "term": "cause is not part of its effect at the selected world",
+  "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.CauseNotPartOfEffectAt",
+  "basis": "stipulative",
+  "definition": "For every c,e, the SAME primitive Ontic.Causes w c e implies NOT c ≤ e in the supplied fixed Mathlib order. This excludes cause-as-part, without excluding every common part of cause and effect.",
+  "note": "Explicit OPEN causal restriction, not inequality, not full nonoverlap and not a new causal relation. The old universal common-part nonoverlap policy implies it via the cause itself as common-part witness if c ≤ e; no converse is proved or assumed. Generalized causal language alone does not justify it. Constitutive/overlapping causal interpretations and different domain/parthood readings remain serious application alternatives; no rival worldview is refuted merely by this conditional formalization. No necessity of the causal witness, actual endpoints, transitivity, asymmetry, well-foundedness or explanatory sufficiency follows from this head. Actual causal endpoints remain a separate retained input."
+}
