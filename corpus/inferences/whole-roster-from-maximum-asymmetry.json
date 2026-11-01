@@ -1,0 +1,17 @@
+{
+  "id": "INF-WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+  ],
+  "output_statement_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "rule": "constructive-proof",
+  "meaning": "Derive the EXACT existing WholeRosterNotTrapped endpoint from seven explicit inputs: actual concrete population B, existing-to-esse E, direct esse-cause-to-actual-concrete-ground F, fixed-esse genus I, fixed-esse grades-to-maximum H, EM and the EXISTING selected actual-grounding asymmetry property. Import the existing actualFork; esse population from B/E and H supplies a maximum without assuming an actual root. Preserve that SAME maximum n: if equal to the original actual witness it is actual concrete; otherwise I makes it the witness's esse cause and F makes n actual concrete. Any incoming actual ground y of n contradicts asymmetry: self-ground is excluded directly; for distinct y, E/I/F supply a reverse selected ground n\u2192y. Hence this SAME n is an actual selected root. Its source property contradicts the source-free horn of a whole-roster Trap, proving nontrapping. The nonregistered actualRootMaximum helper exposes the same actual maximum/root witness. C is NOT used: modal necessity remains a later consequence through the existing contingent-dependence theorem. No all-subsets Escape, well-foundedness, transitivity, finite ancestry, total-explanation axiom, new causal relation or new source attribution is used. For an assembled route already retaining B/E/F/I/H/EM, replace D by asymmetry while retaining the other premises; this is an alternative conditional route, not global weakening, minimality or philosophical discharge. Both causal reach and actual-grounding asymmetry remain OPEN semantic commitments, and the conclusion concerns the chosen actual-concrete relation only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

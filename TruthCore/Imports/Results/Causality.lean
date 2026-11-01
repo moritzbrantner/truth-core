@@ -116,6 +116,7 @@ import TruthCore.Results.Causality.UnderivedNonComposite.Solution
 import TruthCore.Results.Causality.UnderivedRootRoute.Solution
 import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 import TruthCore.Results.Causality.WorldSourceRegress.Solution

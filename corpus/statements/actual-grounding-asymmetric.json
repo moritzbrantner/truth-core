@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "paraphrase": "OPEN structural application premise: at the selected world, actual concrete individuals cannot stand in the supplied grounding relation in both directions. This includes exclusion of self-grounding, but does not impose well-foundedness, transitivity, finite ancestry or global explanatory completeness.",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.ActualGroundingAsymmetric",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+  ]
+}

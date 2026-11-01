@@ -445,3 +445,27 @@ This is new verified conditional composition, not a reduction in open premises.
 The historical tail is structural assembly; the25-input positive model does not
 certify the additional seven inputs. Independent reviews found no type/prose
 or same-witness mismatch. Only owner ledger A remains accepted.
+
+### Alternative foundation via an actual maximum and asymmetry
+
+`WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY` derives the existing
+`STMT-WHOLE-ROSTER-NOT-TRAPPED` endpoint from seven inputs: actual concrete
+population, existing-to-esse, esse-cause-to-actual-ground, fixed-esse maximum
+causal reach, fixed-esse grades-to-maximum, excluded middle and the existing
+actual-grounding asymmetry property. The same maximum is selected, actualized
+and shown to have no incoming actual ground. Neither contingent grounding nor
+well-foundedness is used in this lemma. Existing necessity results can then
+consume its endpoint together with contingent grounding.
+
+For the25-input route, this permits replacing D with actual-grounding asymmetry
+while retaining the other24 inputs. It is an alternative package, not a global
+weakening or independently defended premise. Maximality, causal reach and
+selected-relation asymmetry remain open. The proof/helper are zero-axiom;
+Comparator, independent NanoDa and independent type/prose review pass.
+
+The cheapest root cost remains31 and the new32-input consumer remains37.
+Connecting this alternative adds eight previously unreached open leaves to
+the global root-path union (73→81;23bare/50sourced→29bare/52sourced), removing
+none. This measures connected coverage, not eight new premises imposed on any
+existing route and not a reduction in philosophical assumptions. Exact IDs
+and final verification are preserved in the existing attempt record.
