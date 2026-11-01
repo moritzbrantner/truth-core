@@ -7,6 +7,17 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Compatibility audit (2026-11-02, c80f5a6e): the explanatory-account attempt now
+records why generic causal-source constraints cannot silently discharge account
+accessibility. ContingentReason on the unrestricted fact carrier has irrelevant
+isolated sources; relevant sourcehood must be tied to the selected account.
+On a full account-reason graph, an account-member source is already noncontingent
+under coverage and closure, so adding connectivity and functionality does not
+reduce that conditional step. Existing tagged-existence specialization remains
+available in ContingentAncestry; its interpretation is not universalized to
+arbitrary reasons. Fixed-bearer realization remains an independent OPEN bridge.
+
+
 Progress-metric audit (2026-11-02): the concrete endpoint currently has11 direct
 arguments. The cheapest has2 open heads, but its existential-supply input is
 already equivalent to actual concrete root existence by
