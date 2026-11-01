@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+  "paraphrase": "If there is a possible explanation of the fact that F and every possible explanation of that fact entails P, it is reasonable to believe P.",
+  "definition_ids": [
+    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CC100-8-NECESSARY-BEING-INVOLVEMENT",
+  "statement_id": "STMT-CC100-8-NECESSARY-BEING-INVOLVEMENT",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.16, argument #8, step 4",
+  "interpretation": "This is an explicit open involvement restriction, not a demonstrated explanation-to-bearer theorem. Involvement is not identified with a proposition being necessary, a cause being exercised, or a particular concrete bearer existing at the actual world. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

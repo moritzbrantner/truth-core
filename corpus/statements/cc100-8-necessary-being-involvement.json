@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-8-NECESSARY-BEING-INVOLVEMENT",
+  "paraphrase": "A proposition explains the actual-world BCCP only if it involves a necessary being.",
+  "definition_ids": [
+    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
