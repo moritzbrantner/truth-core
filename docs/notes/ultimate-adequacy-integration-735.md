@@ -38,16 +38,18 @@ whole-deck completion is claimed. Next bounded source investigation is Koons
 1996 §7 Corollary1 constitution/involvement completed c8e89ade (five precise
 source readings, no truth closure); its public slice is assigned.
 Source coverage does not establish its open commitments.
-Current source deliveries: #882 CC118–120, headbf2799214f960cbe6da5572a3784e420b5eb4a7d,
-CI41293075188 live; #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
-CI41293227827 live. Both reviews requested once. Prepared CC121–122 slice is
-held until #882 lands. No checks are described as complete while still live.
+Source #882 CC118–120 merged e18e94f986ce119db4395e1dcf27d60b9664d9c1
+after exact-head clean review and all required CI41293075188 success/skips.
+Current source delivery #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
+CI41293227827 live. Its review completed clean; CI remains live. Prepared CC121–122 slice is
+resumed after #882 landing. No checks are described as complete while still live.
 Causal distribution/nonparthood audit completed and is preserved in the primary
 Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
 application needs independent warrant. A new AccessibleAccountNecessaryBeing
 proof lane tests exact selected-target Acc on the existing ContingentReason,
 with a global-foundedness projection and no fabricated concrete ontology.
-No new verified localization is claimed yet.
+New selected-Acc code passes initial independent review; focused proof and
+metadata work continue. No new verified localization is claimed yet.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
