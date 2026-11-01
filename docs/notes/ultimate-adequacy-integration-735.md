@@ -11,7 +11,10 @@ Working branch: `research/lean-existential-self-actualization-20261031`.
 Canonical proof head `60b94316` includes the selected accidental-feature case;
 main is now through #890 (`e8038a39ccd037bd6679a84d64340d56631cffa9`).
 PRs #889 and #890 passed required CI and exact-head reviews and were merged;
-canonical main integration follows the current owned commits.
+canonical integration560cccc2 includes both merged deliveries. Three corpus
+conflicts retained the newer verified I28/I42 source cursors and full canonical
+attempt; incoming main added no missing research content. Generators and corpus
+checks pass after integration; Lean inputs are unchanged from79332/19192.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
 
