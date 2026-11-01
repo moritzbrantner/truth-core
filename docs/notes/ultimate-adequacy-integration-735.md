@@ -105,7 +105,9 @@ fidelity review found no findings. The minimal existing disambiguation extension
 preserves ordinary/revised class differences and all application gaps. The
 eleven-file public source PR is #844 at
 `04cce4f8bbae9745edd1fb5aacea7572ff33844b`, CI41258319342 and exact-head
-review pending, from the delivered A3 main baseline. Private later history and
+review passed without findings. PR #844 merged as
+`3bca0b7855e94041d1ea567e7438d3e5b033ba6d`; Root integration is deferred
+until the A4 source worker freezes its owned source-record edits. Private later history and
 Lean are excluded.
 
 The separately measured user-facing `STMT-GOD-EXISTS` target currently has72
@@ -117,8 +119,9 @@ SAME actual necessary witness and nine predicates, not only an IsGod label.
 The default Catholicism-root81-leaf/31-cost figures and the GodExists-root
 figures concern different targets and must not be conflated.
 
-Next concrete steps: finish guarded #844 delivery and integrate main while
-preserving all source findings, then implement the bounded A4 main extraction.
+Next concrete steps: obtain the A4 source worker’s NO-FURTHER-EDITS handoff,
+review and commit its bounded main extraction, then integrate delivered #844
+while preserving the private witness history and newer A4 findings.
 The read-only A4 audit is persisted at `4f527e8b` in the existing first-pass
 attempt/inventory. It read all five main witnesses and SHA-verified raw titles;
 its key new guard is that A4C3–14 remain under NoPossibleNB from step1. Only
@@ -133,6 +136,14 @@ witnesses exist privately but are not yet delivered public evidence; any public
 batch must explicitly include its named witnesses. Do not restart general
 infinite-regress diagnostics or treat optional O, causal reach, naming or
 classical-field sufficiency as independently established.
+
+Current parallel ownership: Pages owns the new A4 main source records and
+three existing first-pass/candidate/inventory files; the master must not merge
+#844 across those edits until the worker freezes them. Unity completed all
+source PR gates and is idle. The adversary is performing a read-only optional-O
+entitlement audit against exact existing source/definition records, separating
+strict priority, no-self-cause and selected actual existential support; no new
+model/proof or truth closure is authorized by that audit.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
