@@ -961,3 +961,27 @@ P3C asks generally whether to revisit or keep earlier answers. It does not speci
 The lift remains ordinary Concrete→P to NT(CNec,P), any P; ordinary conjunction projection alone does not supply the independence-of-impossibility criterion. Negative P2 remains NOT NT(CNec,Cont), not NT(CNec,NOT Cont). The hedged impossible-antecedent criterion is not changed to Dia antecedent AND boxed implication. Outer NoPossibleNB persists1–6; only7–8 discharges possibility. Final stipulative actuality establishes neither actual causal exercise nor independent truth/rigid-witness transport. Source concrete stays causal capability, with class/actualist/domain/basis/intensional/world correspondence OPEN. This is not a new history/count/causal-opportunity/limitation proof or independent NonLimC defense; no model/framework is invented to force success.
 
 All materially different A9 main/alternate meanings now have precise attributed or reuse locators, so the canonical candidate advances to **A10 main and linked alternatives**, not campaign completion. Public A5 and canonical A10 cursors describe different branch coverage; no public manifest or publication is added by this batch. No new glossary, Lean/argument/result, pin/kind/dependency, truth flag or owner choice changes. Root handoff/ledger/entitlement records and other workers’ proof files remain untouched.
+
+
+### Independent A9 MAIN source delivery (2026-11-01)
+
+Deliver exactly nine unchanged A9 witnesses `P1/P1B/P2/P3/C/P3B/C2/P3C/C3`, including full alternate context, with five MAIN claims/four bare statements, one NT glossary/disambiguation and a minimal existing ordinary-entailment provenance extension. This compares a genuinely different source argument with the already-public ordinary-property work; it does not copy intervening private history or advance the public **A5** cursor.
+
+| Main reading | Precise source scope |
+| --- | --- |
+| Nontrivial-entailment criterion | P1 complete contrast/examples/titles. Entailment independent of whether antecedent instances are possible; impossible square-circle **may seem** NT-shape-entailing, octopus entailment **does not seem** nontrivial, with a **plausible** counterpossible remark. |
+| Ordinary-to-nontrivial transfer | P1B question/titles and C4: ordinary Concrete→P licenses NT(Concrete-and-Necessary,P), any P, retaining the intermediate NT-to-concrete wording. This is a cross-kind reported commitment, not ordinary conjunction projection. |
+| Negative relation-instance report | Negative P2/C6: NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont), actual assent or a possible witness. |
+| Main reductio | C1–8: source causal-concrete classification, ordinary inclusion, reported cross-kind lift and contradiction. NoPossibleNB remains1–6; only7–8 discharges possibility. |
+| Possibility invariance | P3/C suffix after8: exact P3=A8P4 and existing A2 proposition reuse, not a new S5/frame or rigid-witness proof. |
+
+All nine full materializations and raw SHA/title contexts were read. Root independent main fidelity review accepted these scopes with no findings. The ordinary-entails title is byte-identical to A8P1, so the existing ordinary glossary receives only A9 source provenance; NT stays distinct. No source relation is merged by similar wording.
+
+NT cannot faithfully be equated with Dia antecedent AND boxed implication: the source explicitly considers impossible antecedents in hedged examples. Its basis/derivational/intensional/counterpossible criterion is not a complete chosen calculus. Ordinary conjunction strengthening gives only ordinary inclusion and does not establish that criterion. Changing P1B’s ordinary antecedent to NT would alter the actual report/application. A charitable basis account could be investigated, but no proof, refutation or invented model forces the source bridge true.
+
+Source not-necessarily-existing/by-nature contingency is not automatically actual-presence-guarded ContingentAt. Cause-capable concreteness is not every entity or ordinary physicality. Actualist/domain/class/world/intensional and rigid-witness correspondences remain OPEN. Existing Scott/A8 closure or separation results do not establish NT transfer or independently defend nonlimitation of concrete existence. These are source attributions only: all new statements are unbound, and no Lean/argument/result/model/framework, truth flag, premise discharge or owner choice is added.
+
+Public named passage coverage rises **411→420**. The nine selected witnesses are the scoped live delta; the other 411 receive offline checks only. Alternate witnesses are read/delivered for context but alternate claims remain pending, including the revised generic revisit/keep context; no actual session/assent is inferred. No A5–A7 private progress or later history, new source kind, repin/selector change, archive fallback, PHP request or campaign completion is delivered. The public queue remains A5.
+
+
+Public delivery confirmed: PR #857 merged as `7cabc661` after required CI `41274890902` and completed clean exact-head review at `30738138b0e696639e5e76f1ad1c924750e63425`. This public snapshot covers MAIN claims only. Canonical alternate extraction/fidelity review at `30f55352` is preserved above, and the canonical cursor remains A10; it is not retroactively claimed as part of this delivery. Public witness420/research468 boundaries and queued public A5 remain explicit. No Lean, owner choice or premise truth changes.
