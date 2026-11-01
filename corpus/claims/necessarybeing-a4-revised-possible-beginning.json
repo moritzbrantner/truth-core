@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A4-REVISED-POSSIBLE-BEGINNING",
+  "statement_id": "STMT-NB-A3-REVISED-POSSIBLE-BEGINNING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4P4C, reaffirmation question after the revised-class stipulation and affirmative-answer continuation",
+  "interpretation": "The entire P4C page matches A3P3C, including the same revised beginning question and stock contingency/possibility titles. Reuse that proposition under the affirmative-answer condition, not the ordinary A4P3 beginning or A2 causal-exclusion premise. No actual assent, actual beginning, Scenario predicate or rigid class/world correspondence follows.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
