@@ -1,4 +1,4 @@
-name: One Koons canonical fetch diagnostic
+name: Koons canonical sequence diagnostic
 
 on:
   push:
@@ -8,15 +8,17 @@ permissions:
   contents: read
 
 jobs:
-  canonical-fetch-once:
+  canonical-sequence-once:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - name: One resolver call with public DNS and pinned-byte verdict
+      - name: Install existing CI PDF extraction dependency
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Prepare temporary diagnostic harnesses
         shell: bash
         run: |
-          python3 - <<'PYTHON'
+          cat > "$RUNNER_TEMP/koons_single.py" <<'PYTHON'
           import json
           import os
           import socket
@@ -25,37 +27,107 @@ jobs:
           import tempfile
           from pathlib import Path
           from urllib.parse import urlsplit
-
           sys.path.insert(0, "scripts")
           import source_evidence as source
 
-          passage_path = source.PASSAGES / "koons-defeasible-reasoning-reply-oppy.json"
-          helper_path = Path("scripts/source_evidence.py")
-          print(json.dumps({
-              "stage": "input_identity",
-              "head": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
-              "helper_blob": subprocess.check_output(["git", "hash-object", str(helper_path)], text=True).strip(),
-              "manifest_blob": subprocess.check_output(["git", "hash-object", str(passage_path)], text=True).strip(),
-          }), flush=True)
-          manifest = json.loads(passage_path.read_text())
-          row = next(item for item in manifest["passages"] if item["id"] == "KOONS-REPLY-OPPY-PP193-194")
-          passage = {**manifest["snapshot"], **row}
-          source.validate_manifest(passage_path, passage)
-          for host in sorted({urlsplit(passage[key]).hostname for key in ("source_url", "wayback_url")}):
+          def identity(cell):
+              manifest_path = source.PASSAGES / "koons-defeasible-reasoning-reply-oppy.json"
+              print(json.dumps({"stage": "input_identity", "cell": cell,
+                  "head": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
+                  "helper_blob": subprocess.check_output(["git", "hash-object", "scripts/source_evidence.py"], text=True).strip(),
+                  "manifest_blob": subprocess.check_output(["git", "hash-object", str(manifest_path)], text=True).strip()}), flush=True)
+              return manifest_path
+
+          def load_passage():
+              path = source.PASSAGES / "koons-defeasible-reasoning-reply-oppy.json"
+              manifest = json.loads(path.read_text())
+              row = next(item for item in manifest["passages"] if item["id"] == "KOONS-REPLY-OPPY-PP193-194")
+              passage = {**manifest["snapshot"], **row}
+              source.validate_manifest(path, passage)
+              return passage
+
+          def main(cell):
+              identity(cell)
+              passage = load_passage()
+              if cell == "A":
+                  for host in sorted({urlsplit(passage[key]).hostname for key in ("source_url", "wayback_url")}):
+                      try:
+                          addresses = sorted({item[4][0] for item in socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)})
+                          print(json.dumps({"stage": "public_dns", "host": host, "addresses": addresses}), flush=True)
+                      except OSError as error:
+                          print(json.dumps({"stage": "public_dns", "host": host, "error_type": type(error).__name__, "error": str(error)}), flush=True)
               try:
-                  addresses = sorted({item[4][0] for item in socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)})
-                  print(json.dumps({"stage": "public_dns", "host": host, "addresses": addresses}), flush=True)
-              except OSError as error:
-                  print(json.dumps({"stage": "public_dns", "host": host, "error_type": type(error).__name__, "error": str(error)}), flush=True)
+                  with tempfile.TemporaryDirectory(prefix="koons-single-", dir=os.environ["RUNNER_TEMP"]) as directory:
+                      source.WEB_CACHE = Path(directory)
+                      data = source.resolve_web_snapshot(passage, use_cache=False)
+                      digest = source.sha256_bytes(data)
+                      print(json.dumps({"stage": "canonical_resolver", "cell": cell, "status": "resolved", "data_type": type(data).__name__, "bytes": len(data), "digest": digest, "expected": passage["sha256"]}), flush=True)
+                      if digest != passage["sha256"]:
+                          raise RuntimeError("Resolved bytes do not match the unchanged manifest pin")
+              except Exception as error:
+                  print(json.dumps({"stage": "canonical_resolver", "cell": cell, "status": "failed", "error_type": type(error).__name__, "error": str(error)}), flush=True)
+                  raise SystemExit(1)
+
+          if __name__ == "__main__":
+              main(sys.argv[1])
+          PYTHON
+          cat > "$RUNNER_TEMP/koons_prefix.py" <<'PYTHON'
+          import json
+          import os
+          import tempfile
+          from pathlib import Path
+          from koons_single import source, identity, load_passage
+
+          class StopAfterKoons(BaseException):
+              pass
+
+          identity("B")
+          passage = load_passage()
+          original = source.materialize_web_snapshot
+          original_cache = source.WEB_CACHE
+          outcome = {"status": "target_not_reached"}
+          web_rows_before_target = 0
+
+          def stop_at_koons(current, *args, **kwargs):
+              global outcome, web_rows_before_target
+              if current.get("id") != passage["id"]:
+                  web_rows_before_target += 1
+                  return original(current, *args, **kwargs)
+              print(json.dumps({"stage": "canonical_prefix_target", "cell": "B", "status": "reached", "web_rows_before_target": web_rows_before_target}), flush=True)
+              try:
+                  original(current, *args, **kwargs)
+              except source.SourceEvidenceError as error:
+                  outcome = {"status": "failed", "error_type": type(error).__name__, "error": str(error)}
+                  raise StopAfterKoons from None
+              else:
+                  outcome = {"status": "matched_and_materialized", "configured_expected_raw_hash": current["sha256"], "configured_expected_text_hash": current["text_sha256"]}
+                  raise StopAfterKoons
+
           try:
-              with tempfile.TemporaryDirectory(prefix="koons-resolver-", dir=os.environ["RUNNER_TEMP"]) as directory:
+              with tempfile.TemporaryDirectory(prefix="koons-prefix-", dir=os.environ["RUNNER_TEMP"]) as directory:
                   source.WEB_CACHE = Path(directory)
-                  data = source.resolve_web_snapshot(passage, use_cache=False)
-                  digest = source.sha256_bytes(data)
-                  print(json.dumps({"stage": "canonical_resolver", "status": "resolved", "data_type": type(data).__name__, "bytes": len(data), "digest": digest, "expected": passage["sha256"]}), flush=True)
-                  if digest != passage["sha256"]:
-                      raise RuntimeError("Resolved bytes do not match the unchanged manifest pin")
-          except Exception as error:
-              print(json.dumps({"stage": "canonical_resolver", "status": "failed", "error_type": type(error).__name__, "error": str(error)}), flush=True)
+                  source.materialize_web_snapshot = stop_at_koons
+                  try:
+                      source.verify_all(export_path=None, passage_ids=None)
+                  except StopAfterKoons:
+                      print(json.dumps({"stage": "canonical_prefix", "cell": "B", "controlled_stop": True, "full_verification_completed": False, **outcome}), flush=True)
+                  except Exception as error:
+                      print(json.dumps({"stage": "canonical_prefix", "cell": "B", "controlled_stop": False, "full_verification_completed": False, "status": "failed_before_controlled_stop", "error_type": type(error).__name__, "error": str(error)}), flush=True)
+                      raise SystemExit(1)
+                  else:
+                      print(json.dumps({"stage": "canonical_prefix", "cell": "B", "controlled_stop": False, "status": "unexpected_full_return", "full_verification_completed": True}), flush=True)
+                      raise SystemExit(1)
+          finally:
+              source.materialize_web_snapshot = original
+              source.WEB_CACHE = original_cache
+          if outcome["status"] != "matched_and_materialized":
               raise SystemExit(1)
           PYTHON
+      - name: A - one canonical Koons fetch in a fresh process
+        run: python3 "$RUNNER_TEMP/koons_single.py" A
+      - name: B - canonical verifier prefix stopping at Koons
+        if: always()
+        run: python3 "$RUNNER_TEMP/koons_prefix.py"
+      - name: C - one canonical Koons fetch in a fresh process after B
+        if: always()
+        run: python3 "$RUNNER_TEMP/koons_single.py" C
