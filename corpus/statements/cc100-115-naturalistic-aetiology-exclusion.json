@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-115-NATURALISTIC-AETIOLOGY-EXCLUSION",
+  "paraphrase": "There is no plausible naturalistic aetiology of the intelligibility intuition such that we have that intuition because it is true.",
+  "definition_ids": [
+    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
