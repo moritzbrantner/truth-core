@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
+  "paraphrase": "Conditional on the affirmative report, if being concrete ordinarily entails P, then being concrete-and-necessary nontrivially entails being concrete and so P, for any P. The source uses the ordinary concrete-to-P antecedent to license the nontrivial concrete-and-necessary-to-P conclusion. This is a cross-kind transfer commitment, not ordinary conjunction strengthening, a rule whose antecedent already requires NT, or a proved law of every entailment relation.",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

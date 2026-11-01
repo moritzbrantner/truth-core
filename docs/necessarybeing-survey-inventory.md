@@ -528,3 +528,24 @@ All eight materialized bodies and raw SHA-verified titles were read. Independent
 The two glosses distinguish modal inclusion from stronger relevant/nontrivial consequence and deficiency limitation from root composition/esse/priority horns or Scott positivity. Property/deficiency admission, intension/uniformity, evaluative applicability, causal-concrete/domain and modal/actual rigid-witness correspondence remain OPEN. No empirical powerful Necessary Being, God naming, uniqueness, all-attribute result, source soundness or independently justified possibility follows. A separate analyst proof is not included here, and no bare source statement receives a Lean binding.
 
 This explicit named manifest delta raises public coverage **403→411**. Scoped live verification selects these eight; the other403 public passages receive offline checks only. No other private later witnesses/history or A5–A7/A9–A10 readings are copied. No pin, selector, source kind/dependency, archive fallback, PHP answer/session request, argument/result, truth flag or root-premise closure changes. Public A5 remains queued; A8 coverage is neither campaign completion nor an owner choice of its philosophical premises.
+
+
+### Independent A9 MAIN source delivery (2026-11-01)
+
+Deliver exactly nine unchanged A9 witnesses `P1/P1B/P2/P3/C/P3B/C2/P3C/C3`, including full alternate context, with five MAIN claims/four bare statements, one NT glossary/disambiguation and a minimal existing ordinary-entailment provenance extension. This compares a genuinely different source argument with the already-public ordinary-property work; it does not copy intervening private history or advance the public **A5** cursor.
+
+| Main reading | Precise source scope |
+| --- | --- |
+| Nontrivial-entailment criterion | P1 complete contrast/examples/titles. Entailment independent of whether antecedent instances are possible; impossible square-circle **may seem** NT-shape-entailing, octopus entailment **does not seem** nontrivial, with a **plausible** counterpossible remark. |
+| Ordinary-to-nontrivial transfer | P1B question/titles and C4: ordinary Concrete→P licenses NT(Concrete-and-Necessary,P), any P, retaining the intermediate NT-to-concrete wording. This is a cross-kind reported commitment, not ordinary conjunction projection. |
+| Negative relation-instance report | Negative P2/C6: NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont), actual assent or a possible witness. |
+| Main reductio | C1–8: source causal-concrete classification, ordinary inclusion, reported cross-kind lift and contradiction. NoPossibleNB remains1–6; only7–8 discharges possibility. |
+| Possibility invariance | P3/C suffix after8: exact P3=A8P4 and existing A2 proposition reuse, not a new S5/frame or rigid-witness proof. |
+
+All nine full materializations and raw SHA/title contexts were read. Root independent main fidelity review accepted these scopes with no findings. The ordinary-entails title is byte-identical to A8P1, so the existing ordinary glossary receives only A9 source provenance; NT stays distinct. No source relation is merged by similar wording.
+
+NT cannot faithfully be equated with Dia antecedent AND boxed implication: the source explicitly considers impossible antecedents in hedged examples. Its basis/derivational/intensional/counterpossible criterion is not a complete chosen calculus. Ordinary conjunction strengthening gives only ordinary inclusion and does not establish that criterion. Changing P1B’s ordinary antecedent to NT would alter the actual report/application. A charitable basis account could be investigated, but no proof, refutation or invented model forces the source bridge true.
+
+Source not-necessarily-existing/by-nature contingency is not automatically actual-presence-guarded ContingentAt. Cause-capable concreteness is not every entity or ordinary physicality. Actualist/domain/class/world/intensional and rigid-witness correspondences remain OPEN. Existing Scott/A8 closure or separation results do not establish NT transfer or independently defend nonlimitation of concrete existence. These are source attributions only: all new statements are unbound, and no Lean/argument/result/model/framework, truth flag, premise discharge or owner choice is added.
+
+Public named passage coverage rises **411→420**. The nine selected witnesses are the scoped live delta; the other 411 receive offline checks only. Alternate witnesses are read/delivered for context but alternate claims remain pending, including the revised generic revisit/keep context; no actual session/assent is inferred. No A5–A7 private progress or later history, new source kind, repin/selector change, archive fallback, PHP request or campaign completion is delivered. The public queue remains A5.
