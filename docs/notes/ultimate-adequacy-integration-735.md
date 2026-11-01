@@ -3124,3 +3124,34 @@ as 6d0bc5ae (six readings; no Lean proof or truth upgrade); #116 is next.
 Neither PR is described as merged or CI-passed here. New fixed-constituent
 consumer work is scoped for theorem-interface review before implementation,
 using an existing genuine Arena and explicit OPEN bearer realization.
+
+### Adversarial actual-cover assessment
+
+The independent audit found no contradiction in the checked consequence. Its
+strongest applicability objections are:
+
+- CF1c requires a real actual common whole; logical conjunction or set formation
+  does not establish it. Denying that whole leaves the plurality/arrangement
+  explanation to be supplied separately.
+- MF2 requires metaphysical accessibility including actuality. Future-only or
+  idealized accessibility changes the modality and supplies no existential
+  explanation by itself.
+- CF3 requires strict causal coverage, whereas empirical/default warrant does
+  not alone license exceptionless application to the cover classified as having
+  no necessary parts only under the reductio hypothesis. Default discharge and
+  defeater treatment remain explicit open questions. An adequate noncausal
+  reason is a possible rival proposal; its adequacy must actually be defended.
+- CF4 must distinguish world actuality from present-time presence. Historical
+  production may explain particular effects without a presently acting cause;
+  it does not refute world-level endpoint factivity when both belong to that
+  history. It does not thereby explain the whole history's existence.
+- CF5p excludes any cause that is a part of its effect, a stronger commitment
+  than prohibiting self-production. Internal partial contribution need not
+  produce itself. A partial or constitutive account still owes the complete
+  existential explanation under investigation.
+
+Priority: hold one causal interpretation fixed while investigating strict CF3
+and whether CF5p concerns complete existential production or ordinary partial
+contribution. Do not restrict the causal relation after proving coverage for a
+broader relation without an explicit bridge. None of these objections is itself
+a complete alternative explanation or a discharged premise.
