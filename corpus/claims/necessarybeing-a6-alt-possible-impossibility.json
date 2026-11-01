@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A6-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C2, modal paragraph following step 18 and the fixed-roster note, with A6P2B question context",
+  "interpretation": "The alternate modal question and suffix reuse the existing A2 possible-impossibility report. This attributed conditional report is neither actual assent nor a new proved S5/frame principle. C2’s ordinary causal prefix exactly matches main C and reuses the existing ordinary C-prefix readings; it is not a new occurrence of the main P2 invariance question.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

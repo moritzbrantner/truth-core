@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A6-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6P2C, opening automatic-existence stipulation and complementary individual classification",
+  "interpretation": "Reuse the existing revised κ individual-classification meaning. This does not select material implication, ordinary NecessaryAt identity, classification persistence or κ semantics for situation obtaining. The source stipulation is attributed, not an established actual bearer or respondent assent.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

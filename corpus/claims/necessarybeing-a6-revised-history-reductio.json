@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A6-REVISED-HISTORY-REDUCTIO",
+  "statement_id": "STMT-NB-A6-REVISED-HISTORY-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6C3, steps 1–18, step 8 inner proof, step 9 existence-situation admission and fixed-roster note",
+  "interpretation": "The causal prefix words exactly match main A6, but κ changes the individual class/roster. Preserve restricted existence-situation coverage and explicit C9 admission; do not alias A5’s revised argument, which retains its different guarded P1 report. Inner NecC is discharged8; outer NoPossibleκNB persists through15 and only16–18 discharges possible κ Necessary Being. Empty8 borrows earlier A4 possible-caused-thing CONTENT without new assent or all-entry-path/session guarantee. Exact current/past history, typed fact admission/preservation, κ-versus-stock fact classification, actual concrete bearer/time and source12 whole-history externality remain OPEN. Existing conditional empty-history/count/modal results are guarded reuse, not source soundness, new proof or an exported cause.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

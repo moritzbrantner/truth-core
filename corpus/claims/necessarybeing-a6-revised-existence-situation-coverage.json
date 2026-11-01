@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A6-REVISED-EXISTENCE-SITUATION-COVERAGE",
+  "statement_id": "STMT-NB-A6-POSSIBLE-EXISTENCE-SITUATION-COVERAGE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A6P2C, repeated previous-report question and affirmative continuation; A6C3 steps 2–3",
+  "interpretation": "P2C literally repeats the restricted existence-situation coverage question under the revised individual stipulation; C3 independently repeats its reported content and W selection. Reuse the existing situation-coverage proposition, not A5’s shortened uncausability report or its full negative conditional. Stock situation contingency retains possible/nonnecessary obtaining, while κ changes the individual classification/roster; no κ-to-Fact identification, equivalence of classifications or actual assent/session retention is selected. P2C’s existence title uses a 45-emerald example without C3’s exact/no-other wording: attribute neither that negative condition nor its negation to this shorter title. C3 separately supplies the exact-roster content.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A6-EXISTENCE-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A6-EXISTENCE-SITUATION-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
