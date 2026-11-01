@@ -14,7 +14,7 @@ New pointwise concrete-underived assembly is committed7a92ac73 after focused
 zero-axiom proof and independent7-file review. Full build4428jobs passes;
 binding871/2legacy/0mismatch and Comparator/result NanoDa PASS (12952 terminal0); scoped NanoDa1module/1export/68checked/0typeerrors PASS (20591 terminal0), log
 `~/.cache/truth-core-artifacts/necessary-concrete-underived-from-necessity/full-gates.log`.
-Attempt fc1449f3 records exact frontier delta: underived routes1→2, cheapest6→5; open-leaf union10→39, no truth discharge. Separate8-file public slice is being prepared.
+Attempt fc1449f3 records exact frontier delta: underived routes1→2, cheapest6→5; open-leaf union10→39, no truth discharge. Separate8-file [PR913](https://github.com/moritzbrantner/truth-core/pull/913) is published at dba94623; CI41346872845 and once-requested structured review are live. No merge.
 
 Latest verified delta (2026-11-01): contingent-only atomicity suffices for modal
 necessary existence, and two concrete-domain assemblies reach the existing
