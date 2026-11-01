@@ -27,7 +27,8 @@ and required CI passed. Main merge `7cd1a3dfaeeff58f63aa00d2b4cc491c55c9c0ce`
 is integrated by `c7c5f8d7`, preserving fuller private source history. The source-only public branch excludes
 the private later witness history. The separate math publication is PR #840 at
 `aa1ef0e4ebde6782c44c92cd2981e3e7e9b2223d`, prepared in the existing
-root-perfect-goodness worktree. Review and CI41256501034 are pending; no merge
+root-perfect-goodness worktree. Exact-head review completed without findings; CI41256501034 has only its
+library NanoDa job still running, with other required checks passing. No merge
 is claimed yet. The complete source-network verifier
 passes:468 passages,46 immutable snapshots and243 web passages checked. Existing
 media spans without local exports were not re-verified, and one bibliographic
@@ -53,8 +54,13 @@ connected alternative increases the global reaching-root open union73→81
 (23bare/50sourced→29bare/52sourced), removes no open leaves, and adds only one
 new statement identity (the binding for existing asymmetry). Exact newly
 reaching IDs and proof boundaries are in the existing attempt and matrix.
-Its focused public PR is being prepared in count-temporal; the private later
-witness history and entire research handoff are excluded from that patch.
+Its focused public PR is #841 at `3df07ab69d46c42715417d6de91d1f6af62cf821`,
+CI41257058290 and exact-head review pending. The ten-file patch excludes the
+private later witness history, entire research handoff and pending #840 matrix.
+Its separately measured public baseline also has73→81 union and all eleven
+existing root-route costs unchanged; the32-input consumer belongs to #840 and
+was not represented as present in the #841 public baseline. Workers own guarded
+merges of #840/#841 once their exact-head gates pass; no merge is claimed yet.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
