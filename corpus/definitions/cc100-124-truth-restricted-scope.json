@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE",
+  "term": "contextual truth-restricted step2 and common-knower antecedent",
+  "definition": "The contextual reading carries if-p from step1 to step2, so each truth has some actual knower; step3 then adds one common knower of all truths.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
+    "CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE"
+  ],
+  "note": "Truth restriction is an interpretation choice, not silent textual correction. Varying per-truth knowers do not provide one common witness without an additional bridge."
+}

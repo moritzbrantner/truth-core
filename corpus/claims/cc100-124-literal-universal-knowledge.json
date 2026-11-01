@@ -1,0 +1,17 @@
+{
+  "id": "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+  "statement_id": "STMT-CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 2, literal unguarded consequent reading",
+  "interpretation": "The displayed consequent literally quantifies over every proposition without repeating if-p. Preserve that omission as a reading, including possible false propositions; do not silently add a truth guard or certify a factive consistent interpretation. This conditional is source-attributed OPEN, not a Fitch proof or a refutation. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-LITERAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

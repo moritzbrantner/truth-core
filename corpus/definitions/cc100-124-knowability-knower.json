@@ -1,0 +1,15 @@
+{
+  "id": "DEF-CC100-124-KNOWABILITY-KNOWER",
+  "term": "possible knowledge, actual knowledge and common truth-knower",
+  "definition": "Step1 restricts possible knowledge to truths; step2 concerns actual knowers, and steps3–4 introduce one knower of every truth. Per-proposition witnesses, world-relative possibility and one common witness are distinct scopes.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-124-TRUTH-KNOWABILITY",
+    "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+    "CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
+    "CC100-124-LITERAL-COMMON-KNOWER-BRIDGE",
+    "CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
+    "CC100-124-CONDITIONAL-COMMON-TRUTH-KNOWER"
+  ],
+  "note": "No epistemic modal system, factivity, closure, proposition comprehension, agent existence or divine signature is defined. Parmenides object-directed Cognition and PSR stable reasons do not supply this propositional knowledge relation."
+}
