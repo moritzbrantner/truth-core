@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-MUTUAL-PART-IDENTITY",
+  "paraphrase": "Two things x and y are identical if and only if each is part of the other.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
