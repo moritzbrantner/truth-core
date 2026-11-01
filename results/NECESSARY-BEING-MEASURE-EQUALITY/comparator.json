@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.NecessaryBeingMeasure.measureEquality"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
