@@ -18,6 +18,7 @@ import TruthCore.Results.Causality.CausalHarvest.Solution
 import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
+import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
 import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
@@ -115,6 +116,7 @@ import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
 import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 import TruthCore.Results.Causality.SameRespectActualization.Solution
 import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
+import TruthCore.Results.Causality.ScopedActualCausality.Solution
 import TruthCore.Results.Causality.SelectedAncestry.Solution
 import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 import TruthCore.Results.Causality.SourceForest.Solution

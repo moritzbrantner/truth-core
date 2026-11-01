@@ -15,6 +15,7 @@ import TruthCore.Causality.BruteFoundationExplanations
 import TruthCore.Causality.BruteFoundationRoutes
 import TruthCore.Causality.ChainInstantiation
 import TruthCore.Causality.CogitoNecessaryConcrete
+import TruthCore.Causality.CompleteCauseContributorCover
 import TruthCore.Causality.ConcreteExistentialSupply
 import TruthCore.Causality.ConstitutiveConfiguration
 import TruthCore.Causality.ConstitutiveNatureUniqueness
@@ -78,6 +79,7 @@ import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.RootPositiveIntellectWill
 import TruthCore.Causality.RootPositiveIntellectWillControl
 import TruthCore.Causality.RootWithoutLimitingPrinciple
+import TruthCore.Causality.ScopedActualCausality
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest
 import TruthCore.Causality.SourceWitness
