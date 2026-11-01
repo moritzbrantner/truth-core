@@ -1081,3 +1081,43 @@ No Lean/argument/result/model/probability framework, source kind/pin/selector/de
 
 
 Public MAIN delivery confirmed: PR #860 merged as `037ef1d6` after required CI `41277831539` and completed clean structured review at `f1707a744284db44b32224b216fd16ce57742dd2`. Public435 witnesses include contextual reconsideration/alternate pages, not their claims. Canonical reconsideration `1a704a20` remains preserved and its next range is A10 modal alternatives; queued public A5 and private468 coverage remain distinct. No Lean, source hash or premise-truth change.
+
+
+### A10 modal and revised alternate extraction (2026-11-01)
+
+Five qualified claims and two bare statements complete A10 source extraction at
+the recorded scopes. Existing four pins and complete verified bodies/titles
+are reused; no Lean or modal/probability framework is added.
+
+| Claim suffix (`NB-SURVEY-A10-…`) | Exact locator / reading |
+| --- | --- |
+| ALT-POSSIBLE-IMPOSSIBILITY-INPUT | P3B complete question. New generic narrow input; old A2 statement also bundles its absent authorial derivation. |
+| ALTERNATE-MODAL-ACTUALITY-CONDITIONAL | C2 modal introduction/steps1–12. Exact main conditional reuse, preserving literal original-invariance recall after different P3B input. |
+| REVISED-MUST-EXIST | P3C opening. Exact A2 automatic-existence/complement stipulation reuse, no bearer or uniform modal substitution. |
+| REVISED-CAUSAL-DEFAULT | P3C specific reasked default/titles. NEW revised defeasible report, not A2 exceptionless causation. |
+| REVISED-ACTUALITY-CONCLUSION | C3 final actuality paragraph. Literal actual cause-capable conclusion retained alongside its prima-facie prefix/qualification and unresolved warrant-to-possibility gap. |
+
+P3B affirmative leads C2; negative/uncertain leads P3C. P3C affirmative leads
+C3, negative escapes, uncertain leads P1B2. No actual assent, all-entry-route
+retention, source textual repair or verified equivalence is inferred. The
+source-only completion adds no premise truth, root closure, causal witness or
+probability transport. Exact raw hashes/rejected readings are preserved in
+the existing Survey attempt. The canonical A1–A10 range is exhausted; successor selection remains
+coordinator-owned. No A11 is supplied by the source. Public delivery and
+queued A5 remain separate.
+
+C3 final-paragraph qualification: the actual-existence sentence itself ends
+with the alternative that one has a prima-facie reason to think so. The whole
+conclusion therefore remains qualified; literal actuality and its parenthetical
+are retained together, without attributing unqualified certainty or a proven
+prima-facie-to-truth fallacy. A2 reuse captures only the conditional revised
+classification possibility-to-actuality pattern. Independent possible existence
+and default/epistemic applicability remain OPEN, not refuted.
+
+Canonical A1–A10 source extraction is exhausted; this is neither case proof nor
+premise truth. The successor follows the owner's explicit Capturing Christianity
+100-arguments request and existing intake: pinned foundation PDF pages9–26
+(arguments4–11), followed later by selected unity pages206–213 and reality
+pages272–291. This does not claim that all359 slides were processed or that the
+global priority command selected this campaign. Public A5 remains a separate
+publication queue; no canonical source completion is copied into it.
