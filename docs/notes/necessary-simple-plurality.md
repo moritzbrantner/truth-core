@@ -46,6 +46,114 @@ eternity or an independently defended intrinsic explanation. The existence-fact 
 assignments also do not explain a totality, its number of members, or primitive
 individuating identities; those need separate scope and adequacy premises.
 
+## Owner clarification: what distinguishes the two candidates? (#868)
+
+**There are two distinct candidate roots, not two established divine natures.**
+The distinction between interpretations matters here: #681's
+`NecessarySimplePlurality` has **four** beings; #684's `PartFreePlurality` has
+**five**. The later #831 `RootIntellectWillPureActPlurality` explicitly imports
+and reuses the **five-being #684** carrier and its old fields. It adds a profile
+view stipulating all five concrete, with grounds equal to old esse support, and
+NEW `hasIntellect := root` / `hasWill := root` predicates. Those assignments do
+not encode or establish cognitive/appetitive adequacy. They are not fields of
+the original four-being interpretation.
+
+### The actual five-row assignment
+
+This table reads the definitions in
+[PartFreePlurality](../../TruthCore/Causality/PartFreePlurality.lean), not a
+new model or a metaphysical account of nature instantiation. `suppositum` is
+identity, like `esse`. All five are present at both universally accessible
+worlds and therefore necessarily exist in this interpretation.
+
+| Being | `essence` | `esse` = `suppositum` | `root` | `composite` | NEW #831 intellect / will |
+| --- | --- | --- | --- | --- | --- |
+| `left` | `left` | `left` | true | false | true / true |
+| `right` | `right` | `right` | true | false | true / true |
+| `constituent` | `constituent` | `constituent` | false | false | false / false |
+| `instrument` | `left` | `instrument` | false | true | false / false |
+| `effect` | `left` | `effect` | false | true | false / false |
+
+**Is each nature instantiated exactly once?** Among the two roots, each
+candidate essence tag occurs once. Across the whole lookup table, however,
+`essence⁻¹(left) = {left, instrument, effect}`,
+`essence⁻¹(right) = {right}` and
+`essence⁻¹(constituent) = {constituent}`; no row has essence `instrument` or
+`effect`. Thus even the lookup-table claim “each essence occurs once” is false.
+More importantly, the supplied `essenceOf` map is not independently established
+semantics for genuine nature-instantiation. The nonroots mapped to `left`
+still have distinct esse values and need not satisfy root suppositum/nature
+identity. This table does not assert that those nonroots share a divine nature.
+
+### Root-field inventory on the same interpretation
+
+**What actually distinguishes left and right?** They are different constructors
+with distinct identity-valued esse and suppositum images, and distinct
+self-valued essence images. There is also an asymmetry in the *other rows*:
+`instrument` and `effect` point to `left`, not `right`, under `essence`. This is
+a primitive assignment of that represented map, not an encoded qualitative
+privation, received actuality or weaker causal power. The remaining relevant
+root profiles agree:
+
+| Interface / exact assignment | Both roots |
+| --- | --- |
+| `ontic`, `power`, #831 `model` | Actual and necessary, intrinsic power, no incoming support/ground; all five are concrete only in the new #831 view. |
+| `prior`, `Causes`, `supportsEsse`, `CausesIn` | Rank zero; neither prior to nor causes the other. Each is prior to, causes and supports all three nonroots. `CausesIn` uses that same rank relation at every represented respect. |
+| `component` | Neither has any components nor is a component of anything. Efficient causing is not identified with being a part. |
+| `body`, `matterForm`, `composite` | All false at either root; firstness, noncomposition and remoteness hold. |
+| `moved`, `moves`, `asMoved` | No incoming motion/potency at either root. Each moves `constituent` and `instrument` in `drive`; the nonroot per-se link to the effect is retained. Neither root has an `asMoved` outgoing link. |
+| `inAct`, represented every-perfection | True in all three respects `esse`, `drive`, `heat` for either root. No represented act contrast distinguishes them. |
+| #831 `Witness` | Each SAME root satisfies actual roothood, necessity, esse/essence equality, simplicity, firstness, no matter/form, remoteness, intellect, will and three-respect pure act. |
+| `explanation` | Each has its own identity-indexed intrinsic reason token, as every being does. These tokens establish neither intrinsic explanatory completeness nor real individuation. |
+
+`PartFreePlurality.jointControl` checks the old joint configuration;
+[RootIntellectWillPureActPlurality.checks](../../TruthCore/Results/Causality/RootIntellectWillPureActPlurality/Solution.lean)
+checks the extension with supplied EM. Full part-freedom strengthens the earlier
+four-being control, where roots themselves are components of later beings.
+Neither `¬composite`, full modeled part-freedom, nor absence of potency in three
+respects is a certificate of *absolute* divine simplicity or completeness of
+the respect dictionary.
+
+### Exactly which additional interpretation would exclude plurality?
+
+For the candidate predicate `root`, identity `suppositum` is injective and
+suppositum equals essence at both roots. Q11's missing third input is
+`ProperGodInstancesHaveCommonNatureReading root essence deity`:
+`∀ g, root g → essence g = deity`. No single `deity` equals both distinct tags.
+[godIsOneFromNature](../../TruthCore/Results/Case/Catholicism/Q11NatureUniqueness/Challenge.lean)
+therefore cannot be applied with all three inputs. Calling the predicate God
+would not supply this common-nature premise or identify divine persons.
+
+The other route's `PluralFirstMoversWouldDifferInActReading` requires a
+represented respect with opposite `InAct` truth values. Both roots have every
+represented act, so that premise fails. The existing #697 constitutive route
+isolates the substantive gap using the exact statements
+`STMT-CONSTITUTIVE-CONTENT-COMPLETE` and
+`STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT`: old `actContent` aligns with act but
+cannot distinguish the two essence values; `separatingContent` distinguishes
+them but at `right/heat` is false while old act is true. The checked
+`ConstitutiveNatureUniqueness.checks` consumes both interfaces with its other
+inputs; neither is automatic from the table. Existing omissions below retain
+the old model fields and vary only that additional content assignment.
+
+Three interpretations consequently remain to be compared under #697/#320:
+(1) primitive distinct whole essences/haecceities without represented perfection
+loss; (2) differentiation requiring some independently justified reception or
+limitation; (3) Aquinas's unreceived-subsistent-esse/no-multiplication argument.
+The already consulted [Compendium I.12–15 witness](../../corpus/passages/aquinas-compendium-i-12-15.json)
+and q.3/q.11 readings discussed below supply the source context, not a new
+source campaign here. The missing application must connect THESE candidates
+to unreceived subsistent esse and justify the exhaustiveness of reception,
+differentiae or subjects as modes of multiplication—or independently defend
+constitutive completeness and its alignment with the same act sense. Pointwise
+`esse x = essence x` proves neither common numerical esse across roots nor that
+exhaustiveness. The primitive-identity reply itself still owes metaphysical
+and explanatory warrant; this finite control proves no metaphysical possibility
+of two Gods or two fully divine natures.
+
+**Premise comparison: no change.** This clarifies the existing finite controls;
+it adds no model, theorem, God predicate, source claim or uniqueness campaign.
+
 ## Exactly where the existing uniqueness routes exclude it
 
 The Q11 predicate parameter is instantiated by the two-root **candidate**
