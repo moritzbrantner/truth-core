@@ -7,6 +7,98 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Branch: `research/lean-existential-self-actualization-20261031`.
+Main through PR902 is integrated at `ef581885`; the working branch also contains
+the reviewed source audits and fully verified firing-law composition below.
+Only ledger A is owner-accepted. Scoped PSR working authorization from #312
+persists. Verbal D1 does not automatically select formal WholeRosterNotTrapped,
+which under B/EM is equivalent to an actual selected root existing.
+
+**Current delivery.** PR903 is published at
+`8ffa9c3baa29c1b03d491193be8f28df8817a832`, CI41315907341, exact-head review
+requested once. Root owns watch14819, log
+`~/.cache/truth-core-artifacts/pr903-watch.log`. Re-poll that handle; do not
+restart on observation timeout. PRs896–902 are merged after required CI and
+clean exact-head reviews. Watches1183/51248/44842/48624/42975 are terminal0.
+PRs823/850 remain held for their existing source failures; no new evidence
+currently authorizes another identical retry or repin.
+
+**Verified composition.** The immutable public903 slice is canonical319ef93f:
+20 owned files plus two regenerated imports. It imports the previously verified
+IndexedSignalProvenance theorem and the original GrimReaperImpossible theorem.
+Four explicit local rules—index admissibility, positive no-input trigger,
+own-code emission and complete unchanged forwarding—derive the EXISTING
+GrimReaperLaw; the helper imports its impossibility. Four exact omissions retain
+the other three rules and fail that law. The full four-rule package is
+incompatible, not a satisfiable actual-world proposal.
+
+Canonical gates70956 are terminal0: full4411-job build; binding852/2legacy pins/
+0mismatch; both Comparator and result NanoDa gates; scoped library9exports/
+178checked/0typeerrors. One known axiom pretty-printer diagnostic is separate
+from all five explicit zero-axiom probes. Independent20-file review passes.
+Challenge `9f57609f6c42459abc5f24c27a822be4c27cc3ecab08fd6e6018cfd89c649876`
+was mechanically qualified after the original ambiguous Controls name failed to
+elaborate, then refrozen before further Solution work. No premise/type weakening.
+Evidence and original/corrected hashes are in the existing pruss-koons attempt.
+
+The prior provenance batch4a993fe2/e79a6263 plus evidence10b5b828 is merged via902.
+Its two local interfaces derive true named issuance by finite propagation;
+quiet all-none/no-issuance satisfies both, so they imply no firing law alone.
+Full85612 gates and independent review pass, both results zero-axiom. Neither
+batch discharges a necessary-being root premise or establishes CPNPP/reality.
+
+**Next source decision.** Source audit6ffb76d0 preserves the positive PGRp9
+normalization argument: a relevant Fred register can ignore/clear other particles;
+OptionNat need not enumerate all physical particles. PGR maintains the inherited
+Fred at its original position. Section5.2p19 explicitly acknowledges full-sequence
+persistence; the signal revision describes receiving the predecessor's sent
+signal. A recoding channel is therefore not a countermodel to the full intended
+protocol. The next task is to distinguish an explicitly asserted source handoff
+commitment from its independent preservation by CPNPP. Do not keep a source
+commitment classified as unread merely because its truth is open.
+
+The graph may select SOME causal-power links (p15), so a sparse chain is a
+faithful reply to the dense-neighborhood objection. Positive selected edges
+alone do not exclude bypass/erasure/relabeling. Complete duplicated patches may
+include detector, normalized register and channel boundary; determine exactly
+what the source claims and what still requires independent warrant. Ledger
+worker owns this read-only/source-attempt follow-up. No new split-I/O wrapper
+or recoder certificate is authorized; existing forwarding omissions already
+isolate the formal rule, and the suggested recoder is not a full PGR rival.
+
+The shortest audited actual necessary-concrete-root route remains B + formal D
++ C + EM. Maximum/degree/esse-cause interfaces belong to stronger unicity/common
+coverage routes, not prerequisites for that bare existence theorem. The same
+selected-world/profile witness must be preserved; necessity is relative to the
+supplied accessibility frame. No uniqueness of every necessary individual,
+divine identity or complete explanatory adequacy is established by that endpoint.
+Q104a1, full De Potentia q5a1 and q3a5 are read and recorded; the q3a5 shared-being
+claim reuses the existing SCGI42 statement. Its graded and participated routes
+remain separate, with no missing uniqueness smuggled through their definitions.
+
+**Runtime and verification setup.** CLI fallback remains in use; no Lean service
+is running. Coordinator worker_env preflight passed with Lean4.35.0 and the
+repository-local verifier setup; workers use command mode without repeating
+preflight. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0
+is unchanged (27 applicable files already read). Heavy checks use the existing
+flock lease and TMPDIR=/var/tmp/truth-core-proof-checks. No new /tmp artifacts:
+that filesystem is full. Use HOME cache artifacts/worktrees. Reuse certified
+inputs by exact dependency identity; final public-head CI/review still applies.
+
+Pages41312906804 succeeded at bfe120661da4a517b5ebc1abe13ebe66ab1641b4.
+Public root/forest/skeleton returned200 at that revision; browser collapse/expand
+passed with no runtime/HTTP errors. Watch25854 is terminal0. The earlier failed
+runner annotation was ENOSPC, not an app failing step. No newer proof deployment
+is claimed without checking the public revision. Diagnostic artifacts live at
+`~/.cache/truth-core-artifacts/pages-diagnosis/`.
+
+All earlier precise witnesses, rejected readings, hashes, verification handles
+and premise comparisons remain in the historical evidence below and linked
+corpus attempts. The following snapshots are historical, not additional current
+handoffs.
+
+## Integration evidence preceding current handoff (historical)
+
 Working branch: `research/lean-existential-self-actualization-20261031`.
 Canonical proof batches7f9c35e4 and08522d6b separate actual-root uniqueness,
 necessity and common actual-ground coverage. Main through #901 is integrated at1cf6ac79;
@@ -769,7 +861,7 @@ not a hash swap to clear CI. The present access problem is local to that deliver
 independent philosophical/proof work continues. No source kind, dependency,
 meaning, owner classification or premise truth changed.
 
-## Current head and next action (2026-11-01)
+## Historical head and next action (2026-11-01)
 
 Research branch `research/lean-existential-self-actualization-20261031` is at
 `5102a361` before this handoff update. PRs #845–#849 are merged; main is
@@ -962,7 +1054,7 @@ issue, and an admitted deficiency property does not mean an actual deficient
 being. Prefer this concrete connection to unrelated further source coverage;
 protect the pending equivalence build/binding inputs while developing it.
 
-## Current delivery and parallel work
+## Historical delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
 God, nine attributes and the unchanged historical consumer), following source
@@ -1823,7 +1915,7 @@ independent universal-causal-reach warrant as the strongest challenge. Its
 plural-necessary-source rival and concessions are preserved in the existing
 plurality note/attempt; agent agreement or criticism is not proof authority.
 
-## Current integration: whole-roster scope and cumulative target (2026-10-31)
+## Historical integration: whole-roster scope and cumulative target (2026-10-31)
 
 The cumulative target is **STMT-GOD-EXISTS**. Necessary concrete existence is an
 intermediate result, not a renaming of God. The older all-subsets cut route below
