@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A3-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3C3, final actuality paragraph after the causal-prefix note following step 11",
+  "interpretation": "The final paragraph matches A2C3 exactly and applies the SAME revised automatic-actuality stipulation; reuse the existing statement. Here its prior possibility argument is the revised A3 causal prefix. This is an attributed conditional actuality conclusion, not actual existence from a definition alone, a new modal suffix proof, ordinary NecessaryAt or a justified transport of a classified possible individual to the actual world. Cause-capable concrete meaning is retained without upgrading it to actual causal exercise here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
