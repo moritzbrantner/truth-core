@@ -1,0 +1,16 @@
+{
+  "id": "CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
+  "statement_id": "STMT-CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 4",
+  "interpretation": "Preserve only and capability scope. No provider is established by a can-only restriction alone; the connection in step3 must correspond to the explaining/providing role for beliefs here. God-like remains unspecified, not Scott/Gödel positivity or classical IsGod, necessity or uniqueness. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

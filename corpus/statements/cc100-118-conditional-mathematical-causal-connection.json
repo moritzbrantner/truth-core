@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
+  "paraphrase": "If we know mathematical objects and knowledge requires a causal explanation connecting knower and object known, there is a causal explanation connecting us and mathematical objects.",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

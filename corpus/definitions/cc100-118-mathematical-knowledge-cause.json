@@ -1,0 +1,14 @@
+{
+  "id": "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE",
+  "term": "mathematical knowledge, causal connection and God-like provider in #118",
+  "definition": "The presentation asserts strongly certain mathematical beliefs and knowledge, imposes a causal explanation between knower and object known, and restricts possible providers of the belief explanation to God-like beings. The final existence conclusion uses these separate commitments.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-118-MATHEMATICAL-KNOWLEDGE",
+    "CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
+    "CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
+    "CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
+    "CC100-118-CONDITIONAL-GODLIKE-PROVIDER-EXISTENCE"
+  ],
+  "note": "Knowledge of proposition p and relation to an object, connection existence and actual provider, certainty and knowledge, and causal explanation versus Ontic causation are distinct. God-like has no specified classical or positivity signature; no concrete/necessary/unique bearer dictionary is introduced."
+}
