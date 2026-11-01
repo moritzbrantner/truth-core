@@ -99,7 +99,25 @@ It imports the contributor-uniqueness theorem and existing SourceForest result.
 Connectivity remains OPEN and grouping participants does not supply it; member
 contribution/parthood edges cannot be substituted for complete-production edges.
 No source existence, necessity or grounding correspondence follows from an
-at-most-one statement alone. No new verification claim yet.
+at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 are live; do not restart them.
+
+### Reusable production-source chain
+
+The following pieces share the selected actual carrier and complete-production
+graph when instantiated compatibly. Their real-world interpretation remains open.
+
+| Step | Existing producer/consumer | Additional substantive inputs |
+| --- | --- | --- |
+| Obtain an actual production source | AtomisticCausalSource.source | Actual population, all-actual atomic parts, conditional caused-simple cover, nonoverlap; EM. |
+| Make that same source necessary | ScopedActualCausality.selectedSourceNecessary | Selected actual contingent causal coverage; EM. |
+| Restrict production sources to at most one | CompleteCauseSourceUniqueness.atMostOne | Producer participation, coverage of every contributor, weak connectivity on that same graph. Final gates pending. |
+| Extend finite source ancestry to every node | SourceWitness.rooted_from_source with SourceForest.confluent_of_uniquePredecessor | Same connected graph, derived incoming uniqueness, and the supplied source; no new WF premise. |
+
+This is a composition map of the existing typed interfaces, not a new registered
+end-to-end theorem. The contingent-only atomicity route supplies modal existence
+but does not itself supply the source witness required in rows two/four. Generic
+production-source uniqueness does not identify production with existential ground,
+exclude necessary dependents, or prove the explanatory completeness of the model.
 
 ### Unity target and remaining investigation
 
