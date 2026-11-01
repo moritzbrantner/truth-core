@@ -1,0 +1,15 @@
+{
+  "id": "CC100-5-NECESSARY-OUTSIDE-REASON",
+  "statement_id": "STMT-CC100-5-NECESSARY-OUTSIDE-REASON",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.11, argument #5, steps 5–6 under steps 1–4",
+  "interpretation": "The source speaks of a necessary being, not merely a necessary fact, but gives no typed reason-to-existing-bearer or actual-concrete causal interpretation. Do not infer God identity, uniqueness, potency-freedom, full explanatory adequacy, or a SAME rigid individual across a supplied modal frame. No formal argument/result is registered by this reading; all source premises and stronger application interfaces remain open.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-5-WORLD-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

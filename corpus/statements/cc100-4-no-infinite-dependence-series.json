@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-4-NO-INFINITE-DEPENDENCE-SERIES",
+  "paraphrase": "The series of beings that depend on another cannot be infinite.",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "DEF-CC100-4-DEPENDENCE",
+  "term": "dependent, dependence on another and independent terminus in presentation #4",
+  "definition": "For this source-only glossary, x depends on y retains the presentation’s ordinary orientation: x is the dependent being, y that on which it depends. Independent contrasts with dependent in its terminal-being conclusion. The slide supplies no further account of the relation or its domain; none is silently selected as a typed causal, explanatory, grounding or modal relation.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-4-DEPENDENT-DOMAIN",
+    "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+    "CC100-4-NO-INFINITE-DEPENDENCE-SERIES",
+    "CC100-4-INDEPENDENT-TERMINUS"
+  ],
+  "note": "Minimal editorial source glossary, not a metaphysical definition or substantive relation axiom. Materialized p9 supplies the words and commitments, not concrete examples or a defense of their structure. Actual/concrete guards, transitivity, asymmetry, indirect-cycle exclusion, chain semantics, real-world generalization and competing interpretations remain OPEN before formal application. The cited books have not been read for this attribution."
+}
