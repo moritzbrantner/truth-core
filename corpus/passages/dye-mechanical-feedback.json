@@ -2,14 +2,12 @@
   "snapshot": {
     "kind": "web_snapshot",
     "source_id": "DYE-MECHANICAL-FEEDBACK",
-    "source_url": "https://elifesciences.org/articles/57964",
-    "retrieved_at": "2026-10-25T13:51:13Z",
-    "sha256": "sha256:5e79ce9ff55c50e2e098e0a2a902628e8887c777c1eafddb676d7fc193ec6a23",
-    "wayback_url": "https://web.archive.org/web/20251207011350id_/https://elifesciences.org/articles/57964",
-    "wayback_sha256": "sha256:01b430a20b35a1714424471ba0d3dfad18e02ea19ab38970642408e410dd1b11",
+    "source_url": "https://raw.githubusercontent.com/elifesciences/elife-article-xml/a6ef39fcf99c69bc264d06d72cad3d4754a3a1d0/articles/elife-57964-v3.xml",
+    "retrieved_at": "2026-11-01T04:43:55Z",
+    "sha256": "sha256:da7f3140a1d759cdd6e4a0f014d4de634282965d7091b79249a4d4a9e7d4f303",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "Creative Commons Attribution license, as stated on eLife article. A fixed 2025-12-07 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
+    "license": "CC BY 4.0, stated in front/article-meta/permissions/license of this publisher-maintained Version of Record XML; copyright 2021 Dye et al."
   },
   "passages": [
     {
@@ -19,9 +17,14 @@
         "Abstract,"
       ],
       "html_selector": {
-        "heading": "Abstract"
+        "from": {
+          "text": "Tissue organization is often characterized by specific patterns of cell morphology. How such patterns emerge in developing tissues is a fundamental open question. Here, we investigate the emergence of tissue-scale patterns of cell shape and mechanical tissue stress in the Drosophila wing imaginal disc during larval development. Using quantitative analysis of the cellular dynamics, we reveal a pattern of radially oriented cell rearrangements that is coupled to the buildup of tangential cell elongation. Developing a laser ablation method, we map tissue stresses and extract key parameters of tissue mechanics. We present a continuum theory showing that this pattern of cell morphology and tissue stress can arise via self-organization of a mechanical feedback that couples cell polarity to active cell rearrangements. The predictions of this model are supported by knockdown of MyoVI, a component of mechanosensitive feedback. Our work reveals a mechanism for the emergence of cellular patterns in morphogenesis."
+        },
+        "to": {
+          "text": "During development, carefully choreographed cell movements ensure the creation of a healthy organism. To determine their identity and place across a tissue, cells can read gradients of far-reaching signaling molecules called morphogens; in addition, physical forces can play a part in helping cells acquire the right size and shape. Indeed, cells are tightly attached to their neighbors through connections linked to internal components. Structures or proteins inside the cells can pull on these junctions to generate forces that change the physical features of a cell. However, it is poorly understood how these forces create patterns of cell size and shape across a tissue."
+        }
       },
-      "text_sha256": "sha256:fda5df5fbb0af8d00baad8fa90f75e0474921739360d3b9dff7c422be0ae01fb"
+      "text_sha256": "sha256:627e9e5f43075dd44ebe78b68f51f059698b1814d6dafe4f57a71655e545e619"
     }
   ]
 }

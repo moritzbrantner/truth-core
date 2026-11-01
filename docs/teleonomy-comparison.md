@@ -150,3 +150,53 @@ exchange. None contains a bridge premise whose consequent is the advertised
 global philosophical conclusion. Accepting these finite consequences does not
 accept the truth of either worldview, the fidelity of a stronger source reading,
 or closure of the Fifth Way's open philosophical obligations.
+
+
+## Dye abstract publisher-witness upgrade (2026-11-01)
+
+`DYE-MECHANICAL-FEEDBACK-ABSTRACT` now selects the same abstract from the
+publisher-maintained `elifesciences/elife-article-xml` Version of Record v3,
+DOI `10.7554/eLife.57964`. The repository's pinned README identifies its
+article/revision collection; the file's author/title/DOI and permissions identify
+Dye and colleagues' article and CC BY 4.0 licence. The immutable provenance is
+commit `a6ef39fcf99c69bc264d06d72cad3d4754a3a1d0` (2021-05-27, eLife bot),
+path `articles/elife-57964-v3.xml`, Git blob
+`5e107ea742527d6aee8ee595759f690bfacf2bfb`; the manifest's raw URL pins all three.
+The 415692 source bytes have SHA-256
+`da7f3140a1d759cdd6e4a0f014d4de634282965d7091b79249a4d4a9e7d4f303`.
+
+The complete old abstract and the publisher XML abstract plus introduction
+context were read. The selected body is identical word for word; the old
+selection additionally contained the heading `Abstract` and a newline. Thus the
+old selected-text SHA-256 `fda5df5fbb0af8d00baad8fa90f75e0474921739360d3b9dff7c422be0ae01fb`
+changes to `627e9e5f43075dd44ebe78b68f51f059698b1814d6dafe4f57a71655e545e619`
+solely for that explicit extraction difference. The former archive witness was
+622426 bytes with SHA-256
+`01b430a20b35a1714424471ba0d3dfad18e02ea19ab38970642408e410dd1b11`;
+its live-page pin was `5e79ce9ff55c50e2e098e0a2a902628e8887c777c1eafddb676d7fc193ec6a23`.
+Those delivery paths had live byte drift and hosted archive connection failures;
+this is an independently checked publisher-edition upgrade, not acceptance of
+the rejected live response or a claim that its network cause has been fixed.
+
+The existing `web_snapshot` extractor supports the immutable XML bytes using
+its unchanged exact text markers: from the complete abstract paragraph, up to
+(but excluding) the first eLife-digest paragraph. Both markers are unique in the
+pinned file. No new source kind, XML selector or runtime dependency is added.
+The narrower git-text `tei_xml_id` approach was rejected: this JATS abstract has
+no XML-namespace ID, so that selector matches nothing. Selecting the whole git
+XML without a selector works, but would broaden the witness to the full article;
+it is not represented as an abstract-only extraction.
+
+`DYE-FEEDBACK-PATTERNING`, `STMT-TELEONOMY-EXPERIMENTAL-FEEDBACK` and their
+interpretation remain unchanged: continuum-theory mechanical feedback and
+MyoVI-knockdown support in the specified developing Drosophila wing tissue. No
+claim about all biological/nonliving order, consciousness, final causality or
+divine direction is added. Premise comparison: no change; source integrity and
+fidelity do not discharge the philosophical claim or formal application burden.
+
+Validation of the committed upgrade: both old and new witnesses materialized
+with the existing CLI; exact body comparison passed with only the documented
+heading omission. Scoped live verification checked this one changed passage;
+the other 410 public passages passed offline checks only. Corpus/source binding,
+docs/import freshness and whitespace checks passed. No proof or claim status
+was changed, and hosted transport availability is not independently guaranteed.
