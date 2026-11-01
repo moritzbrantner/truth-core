@@ -1,0 +1,19 @@
+{
+  "id": "INF-WEAK-ACCOUNT-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-CONTINGENT-REASON-FOUNDED-AT",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "classical-reductio-imported-fixed-bearer-and-contingent-reason-descent",
+  "meaning": "Under scoped denial of ordinary NecessaryBeing, the imported necessaryBeingOfFact consumer shows no account member can have boxed truth: truthful supplies actual truth and both fixed-set policies would yield an ordinary necessary bearer. Explicit excluded middle therefore supplies an accessible failure for every account member. Imported ExplanatoryAdequacy.forced, applied to the actual contingent target and Founded, yields a contingent member with no contingent account reason. covered supplies a reason and closed places it in the SAME account, where it is contingent, contradiction. Excluded middle discharges denial to obtain existing NecessaryBeing in the SAME Arena. No nonCopy premise is manufactured. A bearer is chosen once within each selected fact, not separately by world; no causal role, frame law or fact/being identification is inferred.",
+  "assumption_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ],
+  "discharged_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ]
+}
