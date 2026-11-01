@@ -19,18 +19,26 @@ presence. No owner selection beyond A is received. The fresh ledger presentation
 separates verbal D1, explanatory demand D2 and the actual-root application D3;
 these are not newly established premises.
 
-Common coverage public checkout is prepared at0555a228 on
-research/actual-common-root-public-20261101. Its worker is released to merge fresh
-main, regenerate imports, check the intended18-file slice and publish. Evidence
-and prepared body are in ~/.cache/truth-core-artifacts/actual-common-public/.
-No new /tmp artifacts: that filesystem is full. The requested read-only
-ledger_adversary examines independent warrant for the no-trap/root step and C;
-its completed audit accepts the conditional proof and confirms the existing
-root-equivalence attempt: formal no-trap has actual-root-existence strength under
-B/EM. D1 alone does not supply that actuality entitlement. It also flags that
+Common coverage is published as PR898, headce11f281dae959825498aa11e0495173561e5e9d,
+CI41312998718 confirmed in_progress; exact-head review requested once. Its fresh
+main base is bfe12066. Exact18-file scope and95 Lean dependency/toolchain identities
+match certified inputs. Public corpus2741/1876/831 and438 source witnesses pass
+cheap checks; no cold verification repeated. Prepared reports/body remain in
+~/.cache/truth-core-artifacts/actual-common-public/. No new /tmp artifacts:
+that filesystem is full. Main Pages41311406251 failed before any recorded failing
+step (build124862393273 has no log); replacement main Pages41312906804 is confirmed
+live, not assumed successful. Pages worker diagnoses and follows those handles.
+
+The requested adversarial audit accepts the conditional proof and confirms the
+existing root-equivalence attempt: formal no-trap has actual-root-existence
+strength under B/EM. D1 alone does not supply that actuality entitlement.
 NecessaryAt quantifies over accessible worlds; unrestricted metaphysical necessity
 requires interpreting the frame as all genuine metaphysical possibilities.
-No new premise discharge or countermodel follows from this audit.
+No new premise discharge or countermodel follows. Next research lanes inspect
+backlog arguments for foundation (including causal-finitism and unique global
+source-free configurations) and a primary De Potentia q5a1 witness for continued
+existential dependence. Existing q104a1 findings must be reused; no source reading
+or premise closure is presumed before those audits finish.
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
 38b4885c (same bytes as old d7 head), genuine CI reports and local webpack
