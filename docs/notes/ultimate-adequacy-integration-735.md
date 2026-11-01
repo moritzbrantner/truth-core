@@ -3099,3 +3099,28 @@ audit is preserved in the primary Koons attempt: fact necessity alone is
 insufficient, while a genuine same-frame fixed nonempty bearer set with
 all-world factivity would supply the missing transfer. That correspondence is
 OPEN, and no new consumer theorem or premise closure is claimed.
+
+### Current published follow-ups after main integration
+
+Canonical main integration is 0d340c71. Source #115 was reviewed and committed
+as 6d0bc5ae (six readings; no Lean proof or truth upgrade); #116 is next.
+
+- PR #878, head b00e3e5b7ff26d571f87ee39273c3789a29a8931, publishes the
+  verified actual-cover proof. CI 41291311236 was observed queued; exact-head
+  review requested once in comment 6555846597. Public comparison against
+  main 8f7e132d: Catholic 81 open items and all 12 routes unchanged (best cost
+  31); necessary-being open union 54 to 56, adding only the cover/nonpart
+  premises, routes 13 to 14 with new route cost 6 and existing best cost 2
+  unchanged. This is a weaker alternative premise package, not two discharged
+  premises or a worsening of old routes. Local checks reuse exact 14-module
+  proof dependency closure/toolchain/manifest from verified canonical inputs.
+- PR #879, head d93f0ffd43d1459e3af410b28a21cdb88c0f2db6, publishes the
+  remaining selected unity readings. CI 41291319251 was observed queued;
+  exact-head review requested once in comment 6555847451. Source bindings,
+  offline witness integrity and generated files pass; all three compared root
+  frontiers unchanged. It retires the exhausted unity candidate and seeds
+  reality; later canonical #115 progress must survive its eventual merge.
+
+Neither PR is described as merged or CI-passed here. New fixed-constituent
+consumer work is scoped for theorem-interface review before implementation,
+using an existing genuine Arena and explicit OPEN bearer realization.
