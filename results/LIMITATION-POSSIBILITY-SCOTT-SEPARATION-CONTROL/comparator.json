@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.LimitationPossibility.Control.Challenge",
+  "solution_module": "TruthCore.Results.Modal.LimitationPossibility.Control.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.LimitationPossibility.Control.control"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

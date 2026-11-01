@@ -1,0 +1,10 @@
+{
+  "id": "LIMITATION-NONLIMITING-POSSIBILITY",
+  "argument_id": "LIMITATION-NONLIMITING-POSSIBILITY",
+  "challenge_module": "TruthCore.Results.Modal.LimitationPossibility.Challenge",
+  "solution_module": "TruthCore.Results.Modal.LimitationPossibility.Solution",
+  "theorem": "TruthCore.Results.Modal.LimitationPossibility.possible",
+  "comparator_config": "results/LIMITATION-NONLIMITING-POSSIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "With SAME classifier, properties and world, decide possible target exemplification using explicit EM. If absent, target-to-known-property modal inclusion holds vacuously at every accessible world. Backwards closure and known limitation would mark the target limiting, contradicting its nonlimitation. Thus an accessible target exemplar exists. Four explicit inputs; no frame axiom, Scott A1a, full uniform-deficiency semantics or source/God/actual-necessary existence claim. New analyst interfaces remain open; no source premise is bound or discharged."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMITATION-POSSIBILITY-CONTROL",
+  "term": "same-model positive limitation configuration separating Scott complement exclusion",
+  "definition": "Frame Unit has its single accessibility edge; individuals are Bool. controlLimitation Phi w is ¬∃x,Phi x w, target is x=true and known property is False. The known property is limiting, target and its negation are nonlimiting with distinct displayed witnesses, and backward closure holds. controlPositive Phi w is ¬controlLimitation Phi w solely to test Scott NegationPositiveExcludesPositive; that global axiom fails. The main four-input theorem is imported once under explicitly supplied EM.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.LimitationPossibility.JointControl",
+  "note": "A NEW formal fixture for this classifier, not an existing source deficiency interpretation or a metaphysically possible necessary-being model. It witnesses joint retained nonlogical assumptions and target exemplification while distinguishing A1a; it claims neither all other Scott axioms nor necessity/actualist causal interpretation. No source is attributed to the new limitation assignment."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-LIMITATION-NONLIMITING-AT",
+  "paraphrase": "The SAME supplied analyst classifier does not mark the target property Phi limiting at the SAME selected world w. This is not a source powerful-Necessary-Being identity or independent possibility claim.",
+  "lean_declaration": "TruthCore.Modal.LimitationPossibility.NonlimitingAt",
+  "definition_ids": [
+    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+  ]
+}
