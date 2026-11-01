@@ -3,7 +3,7 @@
   "statement_id": "STMT-PROPER-PART-WELL-FOUNDEDNESS",
   "source_id": "RUTTEN-RENEWED-THEISM-2012",
   "locator": "2012 dissertation, chapter VI, printed p.127 Step1 and pp.129–131 P2 defense",
-  "interpretation": "Termination reading of author P2 as explicitly used by Step1, rendered by standard well-founded proper parthood. This is stronger than the already registered weaker simple-part consequence. No causal well-foundedness is asserted; fn186 does not supply a mathematical finite-to-infinite limit argument. Full materialized chapter printed123–135/PDF125–137 was read, and these precise contexts reread. Source assertion is not independent premise truth, actuality, necessity or God.",
+  "interpretation": "Record the termination that Step1 invokes on p.127 and the pp.129–131 qualitative P2 defense, NOT the literal wording or an immediate consequence of original listed P2 (ultimate composition from simples). The later explicit correction in ChapterVII pp.155–156 distinguishes atomicity from termination and adopts an adjusted P2 excluding infinite proper-part descent; that passage has its own claim. Standard WellFounded strict parthood is the classical order rendering of this invoked/adjusted termination policy, not causal well-foundedness or a theorem from mere atomicity. Footnote186 disclaims a mathematical finite-to-infinite limit argument. Full ChapterVI and the separately pinned bounded ChapterVII reply were read. This claim attributes the Step1 invocation, not independent premise truth, actuality, necessity or God.",
   "status": "formalized",
   "definition_ids": [
     "DEF-ATOMIC-OBJECT-DOMAIN",
