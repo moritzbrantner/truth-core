@@ -1,0 +1,15 @@
+{
+  "id": "CC100-84-WORLDWISE-MIND-CONCLUSION",
+  "statement_id": "STMT-CC100-84-WORLDWISE-MIND-CONCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, step 7 under steps 1–6",
+  "interpretation": "Preserve the displayed worldwise-mind conclusion as OPEN. Worldwise unifier existence does not supply one candidate capable in every world for the de-re reading. A distributive reading still requires applicable capability/exercise and mind-world semantics. No formal success or refutation, one common mind for all facts, same rigid mind across worlds, uniqueness, necessary concrete bearer or God identification is inferred. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

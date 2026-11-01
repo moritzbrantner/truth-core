@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-84-FACT-UNITIES",
+  "paraphrase": "Facts exist and are unities of constituents.",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

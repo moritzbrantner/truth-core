@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+  "term": "can be an external fact-unifier in every possible world",
+  "sense_definition_ids": [
+    "DEF-CC100-84-DE-RE-CAPABILITY",
+    "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY",
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "resolution": "Step6 admits a de-re globally-capable-candidate restriction and a distributive world-local restriction. Preserve them as sibling interpretations, not equivalent statements. Step5 worldwise existential unifiers do not provide a globally capable candidate. Neither parse licenses silently exchanging worldwise existentials for one rigid mind or one common source of all facts. Can-role and actual exercise, as well as world scope of mind, remain independently open."
+}

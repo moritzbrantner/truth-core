@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-84-WORLDWISE-MIND-CONCLUSION",
+  "paraphrase": "Under the preceding fact-existence, external-unifier and mind-restriction commitments, there is a fact-unifying mind in every possible world.",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
