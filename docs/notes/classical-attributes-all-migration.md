@@ -540,9 +540,9 @@ uses different interfaces and is not a logical-strength comparison.
 `NECESSARY-CONCRETE-FROM-UNIQUE-ROOT` now registers the missing SAME-witness
 projection from this existing unique-root endpoint to `NecessaryConcreteAt`.
 It only destructures/repackages a hypothesis and is explicitly classified
-`transcription: assembly`; the older named-God endpoint projection also receives
-its missing structured assembly flag, matching its existing prose and helper.
-No old Lean theorem changes and no philosophical premise is discharged.
+`transcription: assembly`, matching the already declared assembly classification
+of the older named-God endpoint projection. The older record and all old Lean
+theorems remain unchanged; no philosophical premise is discharged.
 
 The necessary-concrete target now reaches24 open leaves rather than19
 (18bare/6sourced), because five existing root-proof premises are newly connected;
