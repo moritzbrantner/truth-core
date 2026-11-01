@@ -9,7 +9,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Current delivery: [PR912](https://github.com/moritzbrantner/truth-core/pull/912)
 contains the verified34-file contingent/concrete batch at ddbbcf5c;
-CI41346555239 remains live (watch67208); exact-head structured review completed clean with both findings flags false. No merge.
+CI41346555239 passed all SUCCESS/SKIPPED and exact-head structured review completed clean with both findings flags false. PR912 is MERGED at f52b088f; watch67208 and merge1186 terminal0.
 New pointwise concrete-underived assembly is committed7a92ac73 after focused
 zero-axiom proof and independent7-file review. Full build4428jobs passes;
 binding871/2legacy/0mismatch and Comparator/result NanoDa PASS (12952 terminal0); scoped NanoDa1module/1export/68checked/0typeerrors PASS (20591 terminal0), log
@@ -39,10 +39,10 @@ existing concrete grounds at every admitted world, not abstract grounds.
 Ordinary production is not identified with existential grounding. The proposed
 pointwise assembly is now verified. Its additional policies remain open. Existing switching controls show modal necessity does not by itself exclude contingent supporters; complete sufficiency is not fixed indispensability. See the existing no-contingent-support discussion in underived-essence-identity.md.
 
-A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data and separate public slice are being prepared.
+A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final delivery/check evidence remains pending.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `6e159f78` (identical proof tree after integration3966d4c3). Main through PR911 is integrated (`9828aab6`).
+snapshot `6e159f78` (identical proof tree after integration3966d4c3). Main through PR912 is integrated (`f52b088f`, mergec49e499a).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
