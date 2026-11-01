@@ -1,0 +1,61 @@
+name: One Koons canonical fetch diagnostic
+
+on:
+  push:
+    branches: [diagnostic/koons-fetch-hosted-once-20261101]
+
+permissions:
+  contents: read
+
+jobs:
+  canonical-fetch-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: One resolver call with public DNS and pinned-byte verdict
+        shell: bash
+        run: |
+          python3 - <<'PYTHON'
+          import json
+          import os
+          import socket
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+          from urllib.parse import urlsplit
+
+          sys.path.insert(0, "scripts")
+          import source_evidence as source
+
+          passage_path = source.PASSAGES / "koons-defeasible-reasoning-reply-oppy.json"
+          helper_path = Path("scripts/source_evidence.py")
+          print(json.dumps({
+              "stage": "input_identity",
+              "head": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
+              "helper_blob": subprocess.check_output(["git", "hash-object", str(helper_path)], text=True).strip(),
+              "manifest_blob": subprocess.check_output(["git", "hash-object", str(passage_path)], text=True).strip(),
+          }), flush=True)
+          manifest = json.loads(passage_path.read_text())
+          row = next(item for item in manifest["passages"] if item["id"] == "KOONS-REPLY-OPPY-PP193-194")
+          passage = {**manifest["snapshot"], **row}
+          source.validate_manifest(passage_path, passage)
+          for host in sorted({urlsplit(passage[key]).hostname for key in ("source_url", "wayback_url")}):
+              try:
+                  addresses = sorted({item[4][0] for item in socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)})
+                  print(json.dumps({"stage": "public_dns", "host": host, "addresses": addresses}), flush=True)
+              except OSError as error:
+                  print(json.dumps({"stage": "public_dns", "host": host, "error_type": type(error).__name__, "error": str(error)}), flush=True)
+          try:
+              with tempfile.TemporaryDirectory(prefix="koons-resolver-", dir=os.environ["RUNNER_TEMP"]) as directory:
+                  source.WEB_CACHE = Path(directory)
+                  data = source.resolve_web_snapshot(passage, use_cache=False)
+                  digest = source.sha256_bytes(data)
+                  print(json.dumps({"stage": "canonical_resolver", "status": "resolved", "data_type": type(data).__name__, "bytes": len(data), "digest": digest, "expected": passage["sha256"]}), flush=True)
+                  if digest != passage["sha256"]:
+                      raise RuntimeError("Resolved bytes do not match the unchanged manifest pin")
+          except Exception as error:
+              print(json.dumps({"stage": "canonical_resolver", "status": "failed", "error_type": type(error).__name__, "error": str(error)}), flush=True)
+              raise SystemExit(1)
+          PYTHON
