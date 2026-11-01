@@ -15,21 +15,21 @@ truth remain distinct; no new premise has been accepted or discharged.
 
 PR #851 is published at exact head
 `31d2754411ff6f646e70182fb107022fe516c80d`, CI41267050197 and exact-head review
-requested once. Its ten-file strength audit passed local full build4341,
+requested once and completed without findings. Its ten-file strength audit passed local full build4341,
 binding815/2 pins/0 mismatches, Comparator/result NanoDa and117-declaration
 scoped NanoDa. Three declarations use no axioms. CI/review must pass before
 merge. Public root frontier remains81 open leaves, cheapest route31 and the
 necessary-classical-God consumer37; proof-source snapshot records below retain
 older pending-check states as chronology, not current gate status.
 
-PR #823 remains published at `be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`;
-its refreshed local head is `a3f75598cee7dbcce07ef8fd3fc841265a3e1cec`.
-Independent five-file review and full403-passage source verification pass,
-and its cold library build completed4348 jobs. The setup-correct372-test run
-resolved the earlier missing Lean artifacts but failed a nonrepository-context
-fixture because TMPDIR was inside another checkout. No code change is warranted;
-focused and full verification are proceeding with disk temporary files outside
-any repository. Preserve the failed evidence and real quarantined drift bytes.
+PR #823 is now refreshed and published at
+`a3f75598cee7dbcce07ef8fd3fc841265a3e1cec`; exact-head review completed without
+findings and CI41267481376 is running. Independent five-file review, full403-source
+verification and cold build4348 pass. All372 Python tests pass with disk TMPDIR
+outside every repository; focused context tests also pass. The prior fixture
+failure came from nesting its nonrepository temporary directory inside a checkout;
+no code change was needed. Failed logs and real quarantined drift bytes remain
+preserved. Real capture files are unchanged by the test suite.
 #850 remains blocked on its original unretained A5 response mismatch: no repin,
 blind retry or bypass, and no claim that the cause is known. Diagnostic delivery
 and a controlled instrumented new head remain the next publication dependency.
@@ -39,9 +39,14 @@ claims, one bare statement and three existing source records. Independent Root
 fidelity acceptance is persisted in the source attempt. Source468/1735 bindings,
 corpus2543/1735 and whitespace checks pass. No Lean, pins or public coverage
 changed. Source cursor is A9; immediate priority is the A8 typed connection,
-not additional ingestion. Its four-input analyst modal theorem and same-model
-Scott separation control are in focused verification, with source correspondence
-open and broad source IDs unbound. The other proof lane is replacing count
+not additional ingestion. Its analyst modal theorem and same-model Scott separation control pass
+focused compilation and zero-axiom probes. The main type has four explicit inputs:
+three new OPEN classifier commitments plus the unchanged EM logical floor. Its
+endpoint is possible property exemplification, not necessary-being existence;
+source correspondence remains open and broad source IDs are unbound. Both proof
+clusters together pass full build4347 and exact binding820/2 pins/0 mismatches;
+result-specific Comparator/NanoDa and scoped-library gates are proceeding without
+duplicating the combined build/binding checks. The other proof lane is replacing count
 all-earlier absence with one cause-time absence witness, explicitly composing
 the entire old bundle into the new one. Its existing-necessary-being projection
 must be registered as structural assembly; witness packaging is not philosophical
