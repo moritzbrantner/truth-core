@@ -1,0 +1,11 @@
+{
+  "id": "INF-GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "input_statement_ids": [
+    "STMT-LOCAL-CAUSAL-PRINCIPLE"
+  ],
+  "output_statement_id": "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "rule": "structural-projection",
+  "meaning": "Structural projection/transcription: specialize existing global LocalCausalPrinciple to the selected world and forget distinctness. No causal coverage truth is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
