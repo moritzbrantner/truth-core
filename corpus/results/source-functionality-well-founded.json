@@ -1,0 +1,10 @@
+{
+  "id": "SOURCE-FUNCTIONALITY-WELL-FOUNDED",
+  "argument_id": "SOURCE-FUNCTIONALITY-WELL-FOUNDED",
+  "challenge_module": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.wellFounded",
+  "comparator_config": "results/SOURCE-FUNCTIONALITY-WELL-FOUNDED/comparator.json",
+  "status": "solution-present",
+  "description": "A genuine accessibility consequence on ONE supplied graph G. SourceExists is the existing atomistic producer endpoint, supplied independently of WF; it is definitionally accepted by the existing HasSource consumer without a new statement alias or invented bridge. Import SourceForest.confluent_of_uniquePredecessor and SourceWitness.rooted_from_source to obtain a finite upstream causal path from EVERY node to a supplied source. Induct on existing FiniteCausalPath: source has no predecessor and is Acc; at each successor node every incoming predecessor equals the already accessible path predecessor by UniquePredecessor. Package Acc at every node as existing WellFoundedEdges G. No well-foundedness hypothesis, source-from-WF argument, finite bound, finite cardinality, forward termination/time endpoint, acyclicity or excluded-middle premise is smuggled. In particular infinitely many nodes or arbitrarily long finite upstream paths are not ruled out. The SAME G.edge supplies sourcehood, connectivity, functionality, finite paths and final upstream WF; no parthood/participant graph is substituted. If G is an actual-world production graph this concerns only that selected graph: no ordinary production-to-existential-ground dictionary, modal support-union WF, explanatory adequacy, metaphysical reality or philosophical premise truth is inferred."
+}
