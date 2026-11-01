@@ -1,0 +1,15 @@
+{
+  "id": "CC100-119-CONDITIONAL-PROBABLE-GOD",
+  "statement_id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.280, argument #119, step 6 under steps 4–5",
+  "interpretation": "Retain conditional probable existence rather than actual/necessary God existence or a particular divine witness. Probably is not assigned a numerical threshold and no evidence-to-truth rule is introduced. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

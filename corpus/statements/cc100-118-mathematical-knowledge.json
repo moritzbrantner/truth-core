@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-118-MATHEMATICAL-KNOWLEDGE",
+  "paraphrase": "We have strongly certain beliefs about mathematical objects and knowledge of them.",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

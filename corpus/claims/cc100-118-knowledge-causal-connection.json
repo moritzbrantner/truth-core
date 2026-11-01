@@ -1,0 +1,16 @@
+{
+  "id": "CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
+  "statement_id": "STMT-CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 2",
+  "interpretation": "This is a universal displayed causal-explanation requirement on knowledge. It is not independently defended by defining knowledge, and object known is not silently the proposition p or an Ontic cause with actual concrete endpoints. No causal process, abstract-object efficacy or factivity law is supplied. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

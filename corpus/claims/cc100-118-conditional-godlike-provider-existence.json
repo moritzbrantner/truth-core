@@ -1,0 +1,16 @@
+{
+  "id": "CC100-118-CONDITIONAL-GODLIKE-PROVIDER-EXISTENCE",
+  "statement_id": "STMT-CC100-118-CONDITIONAL-GODLIKE-PROVIDER-EXISTENCE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 5 under steps 1–4",
+  "interpretation": "This is the displayed existence conclusion retained conditionally, not a new checked proof. A causal explanation’s existence and an exclusive capability restriction do not silently supply an actual provider without the corresponding provider/explanation bridge. No actual concrete Ontic witness, rigid necessary being, unique God or full divine attributes are registered. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
