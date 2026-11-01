@@ -1,0 +1,14 @@
+{
+  "id": "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT",
+  "term": "fixed actual BCCP, proposition involvement and personal explanation in #8",
+  "definition": "BCCP collects the contingently true propositions of the actual world. The same target is retained when explanation is said to be possible. A proposition involving a necessary being and reporting a personal explanation is not thereby identified with a true necessary fact, an actually existing concrete bearer or an exercised cause.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
+    "CC100-8-ACTUAL-BCCP-POSSIBLE-EXPLANATION",
+    "CC100-8-NECESSARY-BEING-INVOLVEMENT",
+    "CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
+    "CC100-8-PERSONAL-EXPLANATION-CONCLUSION"
+  ],
+  "note": "Source-only glossary. All-true coverage, aggregate admission, explanation actuality, involvement-to-bearer and personal-explanation interpretation remain open. S5 is displayed by the source, not certified here as an actuality-of-explanans rule."
+}

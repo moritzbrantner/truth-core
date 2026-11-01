@@ -1,0 +1,15 @@
+{
+  "id": "CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+  "statement_id": "STMT-CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.18, argument #9 CA without the PSR, PPE",
+  "interpretation": "PPE concludes reasonable belief, not truth, knowledge, actuality or metaphysical necessity of P. Possible explanation is not silently defined as an actually true proposition or an exercised concrete cause. No epistemic-to-ontic bridge is added. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
