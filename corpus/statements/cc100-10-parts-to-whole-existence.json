@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-PARTS-TO-WHOLE-EXISTENCE",
+  "paraphrase": "If all of the parts of a whole exist, that whole exists.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

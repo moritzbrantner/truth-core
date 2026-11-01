@@ -1,0 +1,15 @@
+{
+  "id": "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+  "term": "overlap, type aggregation, whole/parts existence and wholly contingency in #10",
+  "definition": "Parthood is characterized by overlap inclusion, and mutual parthood by identity. A2 conditionally admits a sum for an inhabited type, with the slide’s type/aggregate wording left as an interpretation issue. A4 and A5 link existence of a selected whole and all its parts without specifying cross-world persistence. Wholly contingent means having no necessary parts, not automatically ordinary contingency.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-10-OVERLAP-PARTHOOD",
+    "CC100-10-TYPE-AGGREGATE",
+    "CC100-10-MUTUAL-PART-IDENTITY",
+    "CC100-10-WHOLE-TO-PARTS-EXISTENCE",
+    "CC100-10-PARTS-TO-WHOLE-EXISTENCE",
+    "CC100-10-WHOLLY-CONTINGENT-DEFINITION"
+  ],
+  "note": "Source-only editorial glossary, not a new formal mereology. No arbitrary-set fusion, rigid part relation, modal part necessity, causal nonoverlap, explanatory adequacy or contingency-equivalence is assumed. Existing UniversalFusionBoundary uses an explicit partial-order domain and arbitrary nonempty-family Sum2 semantics; it is a scope comparison, not an exact source A2 alias."
+}

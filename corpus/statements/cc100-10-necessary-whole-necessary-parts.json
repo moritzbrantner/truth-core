@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-10-NECESSARY-WHOLE-NECESSARY-PARTS",
+  "paraphrase": "All parts of a necessary thing are necessary.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-OVERLAP-PARTHOOD",
+  "paraphrase": "A thing x is part of a thing y if and only if everything that overlaps x also overlaps y.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

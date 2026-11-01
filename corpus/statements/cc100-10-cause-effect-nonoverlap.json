@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-10-CAUSE-EFFECT-NONOVERLAP",
+  "paraphrase": "A cause and its effect are distinct, and a cause cannot overlap its effect.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

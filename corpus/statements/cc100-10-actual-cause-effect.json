@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CC100-10-ACTUAL-CAUSE-EFFECT",
+  "paraphrase": "Only actually existing things can be causes or effects.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
