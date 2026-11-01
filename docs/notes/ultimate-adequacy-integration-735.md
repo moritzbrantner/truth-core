@@ -7,6 +7,15 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Current delivery: [PR912](https://github.com/moritzbrantner/truth-core/pull/912)
+contains the verified34-file contingent/concrete batch at ddbbcf5c;
+CI41346555239 and the once-requested structured review are pending. No merge.
+New pointwise concrete-underived assembly is committed7a92ac73 after focused
+zero-axiom proof and independent7-file review. Full build4428jobs passes;
+remaining binding/Comparator verification runs in session12952, log
+`~/.cache/truth-core-artifacts/necessary-concrete-underived-from-necessity/full-gates.log`.
+Do not restart this live handle or advertise final mechanical verification yet.
+
 Latest verified delta (2026-11-01): contingent-only atomicity suffices for modal
 necessary existence, and two concrete-domain assemblies reach the existing
 NecessaryConcreteAt endpoint. All five results pass full build, exact binding,
