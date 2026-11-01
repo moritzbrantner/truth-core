@@ -19,10 +19,12 @@ import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
+import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ContingentAncestry.Solution
+import TruthCore.Results.Causality.ContingentAtomicity.Solution
 import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
