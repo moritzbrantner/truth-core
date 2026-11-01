@@ -1,0 +1,11 @@
+{
+  "id": "INF-ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-ACTUAL-COMMON-ROOT"
+  ],
+  "output_statement_id": "STMT-UNIQUE-ACTUAL-ROOT",
+  "rule": "actual-common-root-uniqueness",
+  "meaning": "Unpack n and its roothood/common coverage. For another actual root x, apply coverage to its actual concreteness. Identity is the required equality; a direct n\u2192x actual-ground edge contradicts x\u2019s existing roothood. Thus the SAME n witnesses existing UniqueActualRootAt, constructively, with no extra EM or C. The advertised local import/inference chain is common coverage\u2192actual unicity\u2192existing necessity upgrade; global semantic corpus cycles remain allowed and no global acyclicity claim is made.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-ACTUAL-COMMON-ROOT-20261101",
+  "date": "2026-11-01",
+  "statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUAL-COMMON-ROOT",
+    "STMT-UNIQUE-ACTUAL-ROOT",
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Approved bounded stronger actual-only coverage connection, preserving frozen20file actual-root publication slice. Reuse query/dossier for STMT-UNIQUE-ACTUAL-ROOT and existing exact seven-premise dossier snapshots inspected; definition search found no existing actual-only common root endpoint. Existing DirectEsseRootRoute.necessaryRootCommonGround uses hn only in assembled endpoint, not in maximum/coverage proof. Added ONLY new ActualCommonRootAt endpoint using old relation/data. Root chosen DIRECTLY via oldactualRootExists, then ONEmaximum via oldmaximumExistsOfExistingRoot and maximumEqualsRoot under respect-only Unitrestriction; no imported actualuniqueRoot theorem used to derive commoncoverage. With same esse dictionary, target actual presence→esseact(E), fixedessemaxcausality(I), and directesseground(F) give direct n→x for every other actualconcretum; EM supplies equality alternative for n. Second result onehead common→oldUniqueActualRootAt uses xroot incoming-edge exclusion, constructive/no newEM/C. Local advertised inference/importchain has no circular proof: common→unique→existingNEupgrade; global corpus semantic cycles remain allowed. Same7premises, no added assumptions or newNEcommon endpoint; with existing C+EM upgrade, flattenedfullNEchain remains old8. This is conditional derivation progress while independent premise truth/rootclosure is unchanged. No globalWF/necessitation/universal actualpresence/allnecessary/God/completeexplanation claim. Unrelated source-free actual components violate fullcoverage; infinite chains among dependent members can retain n→member edges, and this endpoint imposes no WF on remaining edges. No newmodel/metaphysicalpossibility certificate or source extraction. Frozen both-theorem Challenge BEFORE Solution SHA6bf4b42f9e00d3d933ae57ef7ba70d1654f3a6225e3384198e53b7c4927623ef. Initial core65145 failed only incorrect namespace qualification of ActualConcrete (defined in NecessaryRootFork, not CogitoNecessaryConcrete); corrected qualification, no semantic/frozenChallenge weakening. Finalcore5843terminal0; Solution51292/probe11673 terminal0; BOTH commonRoot and uniqueRoot ZEROaxioms/config[]. Corpus25694 terminal0 (2757 statements/1909 claims/831 results), whitespace pass, known Frege-Geach warning unchanged. Frozenhash unchanged. Independent fourteen-file review PASS/no findings: direct oldrootexists, same7 inputs/one max coverage, constructive common→unique with SAME witness, no circular proof/NE/sourceadequacy/WF/costreduction overclaim. Claim/type self-sweep preserves direct actual-concrete scope, identity alternative, all old shared dictionaries and no global semantic acyclicity assertion. Coordinator fullgates pending. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0 unchanged; approvedCLI/heavylock/TMPDIR. Root owns generatedimports/fullgates/staging; oldproof/source/candidate files untouched. Coordinator full gates94270 terminal0: lake build, exact premise binding, both Comparator/result NanoDa gates and scoped five-module library check pass. Scoped export3/check108declarations yields zero typechecker errors (one axiom pretty-printer diagnostic). Both probes11673 are zero-axiom; frozen Challenge6bf4b42f9e00d3d933ae57ef7ba70d1654f3a6225e3384198e53b7c4927623ef unchanged. Root and independent fourteen-file source/type self-review PASS. Static/source93546 terminal0:2757statements/1909claims/831results/471witnesses. Corrected necessary-root routes retain direct-global best7 and upgraded fixed-esse cost10; no extra philosophical premise discharged. This is a stronger explicit actual-coverage endpoint from the existing seven-head package, with constructive projection into the prior unique-actual-root and same-witness necessity-upgrade chain. It does not make actual roothood or direct edges a sufficient explanation by definition, deny all infinite paths, exclude absent/nonconcrete/unrepresented alternatives, or certify the premise interpretation in reality. Prior20-file root decomposition remains frozen pending PR896 responsive-browser repair/gates; this separate coverage batch depends on its new core endpoint and must follow it publicly.",
+  "blocker": "E/I/F/grades, actual population and formal whole-roster semantic applicability remain explicit inputs. Common direct grounding is not independently adequate explanation or necessity. No source or owner truth closure.",
+  "evidence": [
+    "ACTUAL-COMMON-ROOT",
+    "ACTUAL-COMMON-ROOT-UNIQUENESS",
+    "ACTUAL-ROOT-UNIQUENESS",
+    "ACTUAL-ROOT-NECESSITY-UPGRADE"
+  ]
+}

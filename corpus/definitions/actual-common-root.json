@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-COMMON-ROOT",
+  "term": "direct common root of the selected actual concrete domain",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualCommonRoot.ActualCommonRootAt",
+  "definition": "There is n with ActualRoot m w n, and each x with ActualConcrete m w x is either equal to n or directly ActualConcreteGround m w n x. The identity alternative covers n without requiring a self-ground edge.",
+  "note": "Reuses EXACT existing Profile/ActualRoot/ActualConcreteGround at one world; introduces no causal relation or second ontology. Direct edge coverage is stronger than merely one root existing or every node having a predecessor. Abstract/absent/nonconcrete and other-world bearers are outside the quantified domain. No necessity, universal modal actuality, God, cross-world roothood, explanatory completeness or well-foundedness is included. Arbitrary extra chains/cycles among dependent actual members are not excluded just by this endpoint; members unrelated to n by identity or the stated direct edge fail coverage. No new model or metaphysical-possibility certificate is supplied. E/I/F/grades and formal whole-roster interpretation remain OPEN; this is conditional structural progress, not independent reality applicability."
+}
