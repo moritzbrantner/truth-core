@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+  "statement_id": "STMT-NB-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8P3, complete possible-nonexistence question and affirmative-answer continuation; A8C step 3",
+  "interpretation": "Keep the positive limitation report separate from P2’s negative report and source1’s definition. Main uses it at C3; the linked C2 alternate does not need this affirmative answer. Do not identify possible absence with current absence, a fact-reason, arbitrary entities’ contingency or the root structural limiting-principle proxy.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
