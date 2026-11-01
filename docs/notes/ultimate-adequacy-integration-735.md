@@ -7,6 +7,35 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current delivery and parallel work
 
+Current verified research head: `e9141899` (same necessary root through named
+God, nine attributes and the unchanged historical consumer), following source
+reading commit `3df93681`. The new25-input theorem, its structural projection,
+full25 positive/scope control and32-input downstream consumer all pass
+Comparator and independent NanoDa. Full build4336, binding810/2pinned/0mismatch,
+and scoped NanoDa701 declarations over six new modules pass. Independent
+reviews accepted the same-witness/type/prose scope without findings.
+The32-input consumer expands to37 open obligations; the cheapest prior route
+remains31, designated route unchanged, and reaching-root union remains73
+(23bare/50sourced), with no added/removed reaching IDs. No premise is discharged.
+The full25 control retains a distinct actual necessarily existing non-God
+effect and does not certify the seven historical inputs. See the existing
+matrix's “Same-witness named God and root consumer” subsection.
+
+A2 alternate source readings are public in PR #839 at
+`bdc32cabc78ac60e93ea3e7ebbd562388f0e93aa`; current-head review found no major
+issues and required CI is still running. The source-only public branch excludes
+the private later witness history. The separate math publication is being
+prepared in the existing root-perfect-goodness worktree; no mathematical
+publication or merge is claimed yet. The complete source-network verifier is
+still live; offline manifest/corpus/generated-index/whitespace checks pass.
+
+The renewed adversary found no newly concealed premise. Its decisive open
+obligations remain D's actuality-to-complete-adequacy/source semantics, I's
+maximality-to-universal-causal-reach warrant, and any stronger claim of uniqueness
+of **all** necessary individuals. One God/root alone does not establish that
+last claim. Only ledger A is owner-accepted; all other selections remain pending.
+
+
 Research branch: `research/lean-existential-self-actualization-20261031`.
 Verified committed research baseline is `79a8eebb` (eighteen-input joint
 attributes/control), following `a7398003` (positive perfection/goodness).
