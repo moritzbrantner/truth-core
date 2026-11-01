@@ -1,0 +1,56 @@
+{
+  "id": "NECESSARY-CONCRETE-FROM-UNIQUE-ROOT",
+  "premise_statement_ids": [
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-NECESSARY-CONCRETE-FROM-UNIQUE-ROOT"
+  ],
+  "meaning": "Structural projection/transcription: destructure UniqueNecessaryActualRootAt on the supplied Profile and world, select the SAME n, and retain its concreteness, actual existence and NecessaryAt while forgetting selected-rootness and uniqueness. One existing input and the exact existing NecessaryConcreteAt conclusion; no source attribution, additional premise, new witness, independent philosophical progress or truth closure. Necessity remains relative to the supplied frame, and the input says uniqueness of actual selected roots, not all necessary individuals. All premise truth statuses remain unchanged; closure through this assembly still requires the input already closed.",
+  "definition_ids": [
+    "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

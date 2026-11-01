@@ -515,3 +515,40 @@ defended. Optional O remains OPEN. Exact source locators, existing statement
 IDs, rejected converse readings and theological-dependency limits are persisted
 in its existing definition and whole-roster attempt. No theorem, model, source
 claim, premise truth or frontier cost changes in this source audit.
+
+### Eight-input necessity and selected-root uniqueness stage
+
+`DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY` composes the seven-input
+whole-roster lemma with the existing fixed-esse uniqueness theorem. It retains
+B/C/E/F/Iesse/Hesse/EM and substitutes O for D, reaching the exact old
+`UniqueNecessaryActualRootAt` endpoint. C supplies necessity; uniqueness is
+over actual concrete roots of the selected relation, not every necessary
+individual or every possible world's roots. The represented accessibility
+scope is unchanged. No naming, cognitive or other attribute adapter is used.
+
+This eight-input endpoint is different from the25-input God/attributes endpoint:
+the latter needs seventeen additional retained interfaces. That comparison
+is not removal of seventeen premises from a God proof. Relative to the old
+fixed-esse eight-input theorem, only D/O changes. Full build, binding,
+Comparator, independent NanoDa and independent type/prose review pass, with
+zero proof axioms. No philosophical premise or real-relation applicability
+is discharged. The default81-leaf root frontier and existing route costs are
+unchanged; at the selected-root target this route and the old fixed-esse
+route both cost10 after expansion. The broader all-respects route's cost7
+uses different interfaces and is not a logical-strength comparison.
+
+`NECESSARY-CONCRETE-FROM-UNIQUE-ROOT` now registers the missing SAME-witness
+projection from this existing unique-root endpoint to `NecessaryConcreteAt`.
+It only destructures/repackages a hypothesis and is explicitly classified
+`transcription: assembly`, matching the already declared assembly classification
+of the older named-God endpoint projection. The older record and all old Lean
+theorems remain unchanged; no philosophical premise is discharged.
+
+The necessary-concrete target now reaches24 open leaves rather than19
+(18bare/6sourced), because five existing root-proof premises are newly connected;
+none is removed or newly invented. The CLI cost1 projection row assumes the
+entire unique-root endpoint, so it is not a one-independent-premise proof.
+The cheapest non-transcription existence route remains2; the upstream new
+eight-input uniqueness route still costs10 after expansion. Default root
+union81/cost31 and existing32-input consumer37 are unchanged. These metrics
+measure connectivity and classification, not independent metaphysical warrant.

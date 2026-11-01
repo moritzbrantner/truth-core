@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+  "argument_id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution",
+  "theorem": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.uniqueRoot",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the EXISTING seven-input WholeRosterFromMaximumAsymmetry.wholeRoster with DirectEsseRootUniquenessAtBeing.uniqueRoot on the SAME Profile, world, being/respect carriers and InAct/MoreIn/CausesIn/esse dictionaries. Eight retained inputs are population B, contingent grounding C, EM, existing-to-esse E, direct esse-cause-to-ground F, fixed-esse genus I, fixed-esse grades-to-maximum H and actual-grounding asymmetry O. Derive D internally, then import the exact old unique actual necessary selected-root endpoint. Relative to old8 replace ONLY D by O, retaining its other seven; this is an alternative conditional bundle, not global weakening, minimality or truth closure. Uniqueness ranges over actual concrete roots of the supplied grounding relation, not all necessary individuals, efficient causes or all-world roots. NecessaryAt retains the supplied accessible-world scope. No God naming, attributes, source claim, new relation or existence guard is added."
+}
