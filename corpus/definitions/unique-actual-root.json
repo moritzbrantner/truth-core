@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIQUE-ACTUAL-ROOT",
+  "term": "unique actual concrete root of selected grounds at one world",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualRootUniqueness.UniqueActualRootAt",
+  "definition": "There is n with existing ActualRoot m w n, and every x with ActualRoot m w x equals n. ActualRoot includes actual concreteness and absence of actual concrete incoming selected grounds.",
+  "note": "Distinct weaker endpoint from UniqueNecessaryActualRootAt: no modal necessity, all-necessary uniqueness, cross-world roothood, unique efficient cause or God identity is asserted. Rootness is relative to the supplied actual-concrete grounding relation; abstract, absent or unmodelled explanations are not excluded. This new definition does not reinterpret grounds or assert global explanatory completeness. It permits no independent premise discharge or owner truth choice; the same formal whole-roster and direct-esse applicability burdens remain OPEN. No new model or counterexample is added."
+}

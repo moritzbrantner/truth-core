@@ -3,6 +3,8 @@ import TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution
 import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
 import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
 import TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Solution
+import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
+import TruthCore.Results.Causality.ActualRootUniqueness.Solution
 import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution
 import TruthCore.Results.Causality.BearerRegress.Solution
 import TruthCore.Results.Causality.BoundedPastResource.Solution
