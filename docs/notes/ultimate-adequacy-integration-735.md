@@ -24,7 +24,7 @@ type errors. Independent reviews pass. This weak route does not itself return
 an uncaused witness. Exact frontier effects are persisted in the two dedicated
 attempt records: bare NE20→21 routes, concrete8→10, best cost2 unchanged;
 Catholic root81open/12routes/best31 unchanged. No premise truth discharged.
-Published8-file PR915 at b5c9dc8b; final CI41347966884 and the once-requested exact-head review are pending.
+PR915 at b5c9dc8b passed CI41347966884 SUCCESS/SKIPPED and clean exact-head review; MERGED at cd02a8ce, merge37584 terminal0.
 
 PR910 and PR911 are MERGED after exact-head green CI and clean structured
 reviews (runs41334829941 and41334838393). PR911 initial `@codexreview` typo
@@ -43,7 +43,7 @@ pointwise assembly is now verified. Its additional policies remain open. Existin
 A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d passed CI41347478634 SUCCESS/SKIPPED and clean structured exact-head review; PR914 is MERGED at edbd6c92, merge16897 terminal0. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `ac9ab18f` (latest joint-cause composition; earlier proof inputs unchanged). Main through PR914 is integrated (`edbd6c92`, merge0a7beaa3).
+snapshot `d1da6053` (concrete actual-cover adapter; earlier proof inputs unchanged). Main through PR915 is integrated (`cd02a8ce`, merged9292602).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
@@ -102,6 +102,29 @@ contribution/parthood edges cannot be substituted for complete-production edges.
 No source existence, necessity or grounding correspondence follows from an
 at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 terminal0 PASS:4430jobs,873bound/2legacy/0mismatch, Comparator/resultNanoDa, scoped1module/1export/672checked/0typeerrors (known axiom pretty-printer diagnostic). No premise truth discharged.
 
+### Consolidated producer inventory (snapshot d1da6053)
+
+The existing integration attempt ATTEMPT-NECESSARY-BEING-INTEGRATION-786 records
+all36 exact result IDs, their canonical argument/type references and the family
+classification. This counts registered direct producers, not independent arguments.
+
+| Endpoint | Direct producers | Important boundary |
+| --- | ---: | --- |
+| Bare actual necessary being | 21 | Neither concreteness nor sourcehood follows automatically. |
+| Necessary concrete being | 11 | Three concrete-domain assemblies; sourcehood remains separate. |
+| Necessary concrete underived being | 2 | Same modal-union tail; the selected witness may change. |
+| Unique actual grounding root | 2 | Separate from the five unique **necessary** actual-root producers. |
+
+No orphan producer was found for these four endpoints. Repeated fact-account,
+fusion/cover, atomic-source and grounding-root variants are grouped by their
+shared proofs rather than counted as separate philosophical defenses.
+A downstream defect remains: PerfectRoot and PositiveRoot had no registered
+consumers despite their full original proofs being called inside hardwired
+foundation arguments. Two supplied-witness consumers are now assigned, with13
+and11 existing premise heads, to connect the new prefixes to the existing final
+classical-God result. No new philosophical premise is introduced by that repair;
+all retained interpretation and naming/sufficiency commitments remain explicit.
+
 ### Reusable production-source chain
 
 The following pieces share the selected actual carrier and complete-production
@@ -123,9 +146,11 @@ exclude necessary dependents, or prove the explanatory completeness of the model
 Atomicity-free alternative: existing ActualCoverNecessaryBeing already reaches
 bare NE using the actual no-necessary-parts family cover, local reflexivity,
 CF3/CF4 and cause-nonparthood. AP is not required on every route. No implication
-between that family cover and caused-simple coverage is established. A concrete
-adapter using existing concreteOntic and necessaryBeingOfCover is assigned;
-it must retain explicit restricted policies and a concrete-carrier order.
+between that family cover and caused-simple coverage is established. The concrete adapter using existing concreteOntic and necessaryBeingOfCover
+is verified: full4431jobs/874bound/2legacy/0mismatch, Comparator/resultNanoDa,
+scoped1module/1export/546checked/0typeerrors; handles89371/80309 terminal0.
+It retains explicit restricted policies and a concrete-carrier order. PR916
+is published at bb113cd0, CI41348931797/review pending.
 The recorded PSR audit distinguishes same-sense epistemic self-application from
 universal ontic coverage and from actual concrete complete production; owner D1
 is retained, not treated as defeated by a consistency control.
