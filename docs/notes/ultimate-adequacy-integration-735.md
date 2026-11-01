@@ -11,9 +11,9 @@ Branch: `research/lean-existential-self-actualization-20261031`; latest verified
 proof commit `e93220fc`. Main now includes #879 (`903178ac`, remaining selected
 unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
 merged after clean exact-head reviews and all required CI success/skips.
-Canonical integration through #882/#883/#884 is c1283da8. The exhausted reality
+Canonical integration through #885/#886/#887 is 8bf68346. The exhausted reality
 range remains retired; complete later source findings and rejected readings
-are retained. Corpus check passes2720statements/1882claims/823results, with
+are retained. Corpus check passes2724statements/1885claims/824results, with
 only the existing unrelated Frege–Geach warning.
 
 `FIXED-CONSTITUENT-NECESSARY-BEING` passed full original verification handle
@@ -44,8 +44,12 @@ Current source delivery #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d5
 CI41293227827 live. Koons #883 merged3fe341e0 after clean review/all required checks. CC121–122
 #885 mergedf4437527c8d683f246540cb02b7a8575df4a0c0d after clean exact-head
 review/all required CI41293700076 success/skips. Final123–124 source slice
-is PR #887 head919a05fa638e42db68e81c5ec3a1ba32211e1bfd,
-CI41294333818 running, review requested once. No checks are described as complete while still live.
+is merged PR #887 atcab909e8fbbc043645a282b9132d246a3f7a1ec0, after
+clean exact-head review and all required CI41294333818 success/skips.
+All three selected CC100 source ranges are now publicly delivered; no whole-deck
+or philosophical-case completion. Narrow q44 source PR #888,
+head238a7133be02eaca04f49be310c5afde590872f8, CI41295044612 running,
+review requested once, publishes9filesexact23effb3b without bridge closure. No checks are described as complete while still live.
 Causal distribution/nonparthood audit completed and is preserved in the primary
 Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
 application needs independent warrant. AccessibleAccountNecessaryBeing is verified/committed e93220fc: full95157
@@ -61,10 +65,13 @@ integration of this delivered metadata is pending final source #887.
 Selected-route audit is persisted in the Accessible attempt: one terminating
 path may omit indispensable joint contributors; a necessary-fact-seeded Supply
 would assume the key ancestry burden. No extra selector theorem is added.
-Next bounded source task is existing AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE,
-read-only planning on pinned witnesses; the #180 keep-off-root-until-sourced
-condition is retained. A separate audit checks all-necessary-entity uniqueness
-versus underived-foundation uniqueness; neither target is silently substituted.
+The existing AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE source audit is completed
+at23effb3b: three narrow q44ad2/ad3 readings, exact reused q3/SCG claims,
+received-esse DeEnte context and both missing dictionaries retained. The #180
+keep-off-root-until-sourced condition remains. Uniqueness scope audit is
+persisted566b796f with no overclaims found; both targets remain explicit.
+A current read-only GitHub backlog scan seeks new actionable source/inference
+findings before another proof task is selected.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
