@@ -1121,3 +1121,6 @@ premise truth. The successor follows the owner's explicit Capturing Christianity
 pages272–291. This does not claim that all359 slides were processed or that the
 global priority command selected this campaign. Public A5 remains a separate
 publication queue; no canonical source completion is copied into it.
+
+
+Public delivery update: A10 reconsideration #861 (`c3861f0e`) and alternate readings #862 (`385838b2`) merged after successful required CI and completed clean reviews of their exact heads. Both deliver source readings only using the435 existing public witnesses. The public A5 publication queue remains distinct from the exhausted canonical A1–A10 campaign and selected CCfoundation successor. No philosophical premise or Lean change.
