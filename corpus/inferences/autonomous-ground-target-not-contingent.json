@@ -1,0 +1,14 @@
+{
+  "id": "INF-AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "input_statement_ids": [
+    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+    "STMT-AUTONOMOUS-FACTS-NECESSARY-AT",
+    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
+    "STMT-POSITIVE-TARGET-EXISTENCE-COHERENT"
+  ],
+  "output_statement_id": "STMT-AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "rule": "complete-joint-ground-necessity-and-same-target-realization",
+  "meaning": "Retain the four full-ground/autonomous-necessity/joint-necessitation/positive-coherence inputs and derive NecessaryAt for that SAME target. Apply the existing necessity/accessible-absence incompatibility with identity sufficiency to rule out ContingentAt b. No actual-concrete-target premise is needed for this negative conclusion; an actually contingent target is therefore incompatible with this exact strong package. Universal application would exclude contingent covered concrete targets, not full propositional modal collapse without additional all-fact coverage.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
