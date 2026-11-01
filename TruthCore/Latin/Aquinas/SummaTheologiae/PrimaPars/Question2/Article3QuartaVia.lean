@@ -1,8 +1,14 @@
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
-Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.,
-the *quarta via* (argument from the grades found in things).
+Source-inspired readings and explicit framework abstractions of Thomas Aquinas,
+*Summa theologiae* I q.2 a.3 co., the *quarta via* (argument from grades).
+The weak maximal predicates below do not uniformly preserve source scope when
+used as implication antecedents. In particular the all-maximal-to-cause
+principle is a stronger OPEN analyst configuration, not the directly sourced
+greatest-degree reading; see Question2.Article3QuartaViaGreatestDegree (a
+separate module, not imported here). Existing formal consequences retain these
+exact declared framework premises.
 
 The vocabulary of the *prima via* (`Being`, `Respect`, `InAct`; see
 `Question2.Article3`) is reused. A respect is read here as a perfection, as in
@@ -38,7 +44,7 @@ def IsMaximumIn {Being : Sort u} {Respect : Sort v}
     (MoreIn : Respect → Being → Being → Prop) (r : Respect) (m : Being) : Prop :=
   InAct m r ∧ ∀ y, ¬ MoreIn r y m
 
-/-- Canonical maximality name for the existing source reading. The body is exactly
+/-- Canonical maximality name for the existing weak framework reading. The body is exactly
 `IsMaximumIn`; existing statement identities and theorem interfaces retain their
 name. On a homogeneous preorder this corresponds to Mathlib `IsMax`, not
 `IsGreatest`. See `DISAMB-MAXIME-ENS`. -/
@@ -107,12 +113,19 @@ genus (*Quod autem dicitur maxime tale in aliquo genere, est causa omnium quae
 sunt illius generis: sicut ignis, qui est maxime calidus, est causa omnium
 calidorum, ut in eodem libro dicitur*).
 
-Stated, as in the text, for every genus (every perfection `r`). The argument
-uses only the instance `r = esse`. Aristotle's sentence that Aquinas cites
+The text states a principle about what is most such. This stronger analyst
+configuration instead applies to EVERY merely maximal bearer under an
+unconstrained comparative, including incomparable maxima. Replacing a greatest
+antecedent by this weak maximal predicate strengthens the conditional; no
+source comparability or greatestness bridge is supplied. The separate
+Question2.Article3QuartaViaGreatestDegree module records the greatest-degree
+source interpretation with ties allowed. The existing argument uses only the
+instance `r = esse`. Aristotle's sentence that Aquinas cites
 (*Metaphysics* II.1, 993b24-26) runs the other way, from being the cause to
 being most such.
 
-Source: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co., fourth way.
+Source motivation: Thomas Aquinas, *Summa theologiae* I q.2 a.3 co., fourth
+way; direct claim attribution belongs to the separate greatest-degree reading.
 -/
 def MaximumInGenusCausesAllInGenusReading {Being : Sort u} {Respect : Sort v}
     (InAct : Being → Respect → Prop)

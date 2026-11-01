@@ -4,7 +4,8 @@
   "sense_definition_ids": [
     "DEF-MAXIME-ENS",
     "DEF-GREATEST-BEING-STRICT",
-    "DEF-GREATEST-CONCEIVABLE-BEING"
+    "DEF-GREATEST-CONCEIVABLE-BEING",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
   ],
-  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts."
+  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Source-attribution correction2026-11-01: AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now supports STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS, using DEF-GREATEST-DEGREE-IN-A-PERFECTION. It does not support the old unrestricted maximality principle I or its fixed-esse instance Iesse. Greatest represented degree allows ties without strict supremacy or uniqueness. The weak maximal abstraction can preserve a weaker existential consequence of greatestness under an appropriate order interpretation (as with H); putting it in an implication antecedent instead strengthens the causal conditional. No old definition, proof premise or formal consequence changes, and no totality or source-to-old-I bridge is supplied."
 }

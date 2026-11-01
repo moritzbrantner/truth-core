@@ -298,12 +298,12 @@
       "path": "corpus/statements/maximum-in-genus-causes-all-in-genus.json",
       "status": "inspected",
       "classification": "open_premise",
-      "finding": "Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
+      "finding": "Source-scope re-review for PR905: Retained OPEN analyst commitment for every merely maximal bearer, including incomparable branches. Its declaration and every scoped proof premise are unchanged. Claim AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now states the separate greatest-degree reading, not this stronger antecedent scope. No comparability, strict supremacy, unique bearer or source-to-old-I bridge is supplied; existing conditional results remain conditional. Earlier recorded disposition (historical context, not the current source attribution): Inspected exact declaration, dossier and prior attempts. Retained conditional commitment with its original ordered parameters; truth/applicability is not discharged by this audit. Listed external premise remains explicit.",
       "before": {
         "sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
       },
-      "reviewed_sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568"
+      "reviewed_sha256": "104b2ecb366125fef36c7e0fd0284c56c9043b8db42e482365128d2f7afb33da"
     },
     {
       "kind": "statements",
@@ -743,12 +743,12 @@
       "path": "corpus/disambiguations/being-univocity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "finding": "Source-scope re-review for PR905: The analogical/univocal sense separation is preserved. The source-supported greatest-degree reading uses an explicitly interpreted selected value map, not an asserted homogeneous ontology. Old I remains an open analyst configuration and is no longer directly attributed through claim A. No actual order interpretation or premise truth is established. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
       "before": {
         "sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff",
         "lean_declaration": null
       },
-      "reviewed_sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff"
+      "reviewed_sha256": "4839988bc56ea488c3d555ecfad61fcebf5feab2afbdf5a8b2ef7f8c7380f59a"
     },
     {
       "kind": "disambiguations",
@@ -795,12 +795,12 @@
       "path": "corpus/disambiguations/genus.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "finding": "Source-scope re-review for PR905: The strict-genus/broad-perfection distinction is preserved. Claim A now targets the selected greatest-degree causal reading; old I still ranges over all supplied respects as an open analyst principle. Broad-genus compatibility alone establishes neither greatestness, comparability nor universal causal coverage. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
       "before": {
         "sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856",
         "lean_declaration": null
       },
-      "reviewed_sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856"
+      "reviewed_sha256": "c8041d357e52327ba9d44ddf1e495d59e9ef365475b96091830665e6e5ba64cf"
     },
     {
       "kind": "disambiguations",
@@ -886,12 +886,12 @@
       "path": "corpus/disambiguations/maxime-ens.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713"
+      "reviewed_sha256": "b4ed2a67d9b014d6f23d93cca1dd614cc68059c5ec61f17acdaf3c2fde5de903"
     },
     {
       "kind": "disambiguations",
@@ -899,12 +899,12 @@
       "path": "corpus/disambiguations/order-of-being.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Re-reviewed after #719 appended verdict (4) on the maximum principle at esse: the addition is a further per-premise verdict that changes no earlier verdict and no sense used by this audited result. Integration re-review for outstanding PR #782: the appended paragraph accurately says its three route results take MoreIn as a free relation and assume no order interpretation. All four prior per-premise verdicts, source readings and open application burdens are retained; no audited theorem type or order premise changes.",
+      "finding": "Source-scope re-review for PR905: All earlier order-model and conditional attribution-order verdicts are retained. Unconstrained MoreIn and a preorder do not make every maximal element greatest. Claim A is retargeted to a separate greatest-degree reading; neither this correction nor the supplied value map silently adds totality or an inference back to old I. Exact old theorem types and their open application burdens remain unchanged. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Re-reviewed after #719 appended verdict (4) on the maximum principle at esse: the addition is a further per-premise verdict that changes no earlier verdict and no sense used by this audited result. Integration re-review for outstanding PR #782: the appended paragraph accurately says its three route results take MoreIn as a free relation and assume no order interpretation. All four prior per-premise verdicts, source readings and open application burdens are retained; no audited theorem type or order premise changes.",
       "before": {
         "sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "65a42b499a9fb047f5c2b19e4fbc78496d872b32a8953b8cf15d0c08538fa2a9"
+      "reviewed_sha256": "4a546e33c9ebf82dacada9e99a6c441f4a0a7c58af3fd18951a63375e2c57dac"
     },
     {
       "kind": "claims",
