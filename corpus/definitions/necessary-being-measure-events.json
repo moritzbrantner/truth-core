@@ -1,0 +1,7 @@
+{
+  "id": "DEF-NECESSARY-BEING-MEASURE-EVENTS",
+  "term": "possible and actual bare NecessaryBeing events over supplied interpretations",
+  "definition": "For m : Ω → Ontic W B and w : Ω → W, PossibleEvent contains θ when some v accessible from w θ has existing NecessaryBeing (m θ) v. ActualEvent contains θ when NecessaryBeing (m θ) (w θ). The existing NecessaryBeing means an individual exists at that standpoint and has NecessaryAt there. Candidates share the chosen carrier type B, but the witness may vary with θ; neither event asserts any interpretation’s actuality outside the model.",
+  "basis": "stipulative",
+  "note": "Reuses exact Ontic, NecessaryBeing and NecessaryAt, not Scott essence-based NE, source causal-capability Necessary Being or a new ontology. Causes is unused; concreteness, grounds, causal capability, uniqueness and naming are absent. Accessibility is not time or causation. Across Ω this is uncertainty between supplied interpretations, not automatically logical/proof uncertainty or actual respondent warrant. Empty carriers and zero/infinite measures are allowed; the equality supplies no positive existence event. Mathlib measures apply to all sets through outer-measure set-values; probability/credence interpretation additionally needs measurable events, a normalized measure and coherent semantic-event modeling. No empirical calibration or metaphysical interpretation-space examples are supplied or inferred; such applicability remains OPEN."
+}

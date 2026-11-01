@@ -186,3 +186,47 @@ metaphysics. Source attribution is paused by the current owner scope; adequacy
 of the tags and the bridge remain open philosophical commitments. Complete
 history/external-inventory selection belongs to #467. Intended and actual
 Catholicism-root open-premise change: **none**, on every existing route.
+
+## Measure equality across supplied modal interpretations (2026-11-01)
+
+`TruthCore.Modal.NecessaryBeingMeasure` adds an analyst consumer over a supplied
+family `m : Ω → Ontic W B`, selected standpoints `w : Ω → W`, and an arbitrary
+Mathlib measure `μ` on `Ω`. This is uncertainty between supplied interpretations,
+not an automatic representation of logical/proof uncertainty or a respondent's
+warrant. It is not a new finite model or an attribution of measure semantics to
+the survey's defeasible causal default.
+
+The possible event contains interpretations with an accessible world at which
+existing bare `NecessaryBeing` holds. The actual event contains interpretations
+with that same predicate at their selected standpoint. `NecessaryBeing` includes
+present existence and de-re `NecessaryAt`; it adds no concreteness, causal
+capability, explanatory support, God identity or uniqueness. Assuming almost
+every interpretation has a Euclidean frame and reflexivity at its selected
+standpoint, the two events agree almost everywhere and therefore have equal
+measure. The forward direction imports
+`NonlimitingConcreteExistence.necessaryAtOrigin`: the SAME individual `c` at
+one accessible world supplies actual existence and necessity at the selected
+standpoint. The reverse direction selects that standpoint itself by
+reflexivity. Only the witness WITHIN each interpretation is retained; there is
+no individual shared across `Ω`, nor a shift from `∀ θ, ∃ c` to `∃ c, ∀ θ`.
+
+The measure conclusion uses Mathlib `measure_congr` on almost-everywhere event
+equality; any supplied strict threshold is then preserved by equality. The main
+statement has one explicit almost-everywhere modal-validity hypothesis, bundling
+both frame conditions. It assumes no positive measure or probability threshold
+and concludes no interpretation's actuality. Empty interpretation carriers and
+zero measures are allowed; they cannot establish existence. No uniform prior,
+independence or metaphysical possibility of every interpretation is assumed.
+
+For arbitrary sets, the supplied measure's set-values may be outer-measure
+values. The mathematical equality needs no event-measurability or normalization
+hypothesis. A probability/credence interpretation additionally requires a
+normalized measure, measurable events and coherent semantic-event modeling.
+Its almost-sure frame support and any threshold require independent defense;
+logical consistency does not provide a uniform prior. This result neither
+calibrates a causal default nor derives the selected-case applicability,
+reference class, defeater handling, source-Necessary-Being causal capability or
+reality of the underlying interpretations. Those commitments remain OPEN.
+Existing source claims remain unbound to these new analyst heads. No numerical
+God confidence, actual Necessary Being, source soundness or root-premise
+closure follows. Final verification is recorded in the focused result/attempt.

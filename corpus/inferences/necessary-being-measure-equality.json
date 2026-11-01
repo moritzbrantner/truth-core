@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-BEING-MEASURE-EQUALITY",
+  "input_statement_ids": [
+    "STMT-AE-VALID-NECESSARY-BEING-MODAL-INTERPRETATIONS"
+  ],
+  "output_statement_id": "STMT-NECESSARY-BEING-MEASURE-EQUALITY",
+  "rule": "same-individual-modal-transport-and-mathlib-ae-measure-congruence",
+  "meaning": "Within each supplied interpretation with Euclidean accessibility and selected-world reflexivity, unpack the accessible NecessaryBeing witness and reuse NonlimitingConcreteExistence.necessaryAtOrigin to retain the SAME c with existence and necessity at the selected standpoint. Conversely, selected-world reflexivity makes every actual NecessaryBeing an accessible one. The supplied almost-everywhere modal-validity premise therefore makes the two events agree almost everywhere; Mathlib measure_congr gives equality of their arbitrary measures. Witnesses may vary with the interpretation: no global c is selected. No positive threshold, actual NecessaryBeing, causal role, concreteness, God identity, probability interpretation or source/default entitlement follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
