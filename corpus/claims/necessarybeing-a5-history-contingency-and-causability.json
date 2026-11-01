@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
+  "statement_id": "STMT-NB-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5C, step 11 inner proof and steps 12–13, with the note after step 20",
+  "interpretation": "The inner C-is-necessary supposition is discharged at11, but outer NoPossibleNB remains through17. Preserve both nonempty and empty individual-roster branches. Empty C is an obtaining negative situation, not an empty situation domain; nonempty facts from the P1 reading do not guarantee an individual member of C. Step11 invokes the earlier possible-caused-thing CONTENT also recorded by STMT-NB-A4-POSSIBLE-CAUSED-THING; this is not a new A5 question, actual assent, or a guarantee that every entry route/session retained that report. Borrowed positive possibility, cause-capable domain and actual-concrete bearer interpretation remain explicit obligations. Existing JointCondition/EmptyHistory conditional results are reusable only with their own admission, EVER/now, class, causal and frame guards; no source soundness or new proof is credited.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

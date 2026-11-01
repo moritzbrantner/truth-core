@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+  "term": "obtaining contingent situation and possible situation-cause in A5",
+  "definition": "A5 describes a contingent situation as a possible situation that need not obtain; obtains means actual. Coverage selects situations obtaining in the chosen W, not all individuals or all possible situations jointly. Its situation-cause title describes a prior condition capable of explaining or partly explaining why that SAME situation obtains. The source does not thereby identify situations with individual beings, fact-reasons with concrete causes, or possible causal availability with actual causation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+    "NB-SURVEY-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
+    "NB-SURVEY-A5-HISTORY-PRIOR-CAUSE-EXCLUSION"
+  ],
+  "note": "No particular empirical concrete cause-bearer is supplied. The partial explanatory wording supplies no complete sufficient explanation, temporal-existence guard, structural causal law or independent applicability warrant. A negative situation may obtain even when no contingent individual does; fact admission and actual-concrete causal interpretation remain open."
+}
