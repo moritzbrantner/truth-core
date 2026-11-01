@@ -1,0 +1,17 @@
+{
+  "id": "INF-GREATEST-DEGREE-ACTUAL-COMMON-ROOT",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GREATEST-BEING-DEGREE-ATTAINED",
+    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+  ],
+  "output_statement_id": "STMT-ACTUAL-COMMON-ROOT",
+  "rule": "greatest-degree-actual-common-root",
+  "meaning": "Import WholeRosterFoundation.actualRootExists at the SAME m,w from B,D,EM. Choose g from the separately supplied greatest-being attainment. If g differs from the selected actual root n, greatest-degree causality gives CausesIn g n esse using existing-to-act at n; F makes it an actual concrete incoming ground, contradicting n’s rootness. Thus g=n. For each actual concrete x, supplied EM gives identity with n or the same greatest-degree principle plus E and F gives ActualConcreteGround m w n x. No old weak-maximal I/H, source-to-old-I inference, uniqueness of greatestness or order linearity is assumed. The value map/preorder interpretation remains explicit; the same actual-common-root endpoint is obtained under the exchanged input pair, without claiming whole-bundle weakening or philosophical premise discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

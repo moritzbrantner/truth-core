@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-GREATEST-BEING-DEGREE-ATTAINED",
+  "statement_id": "STMT-GREATEST-BEING-DEGREE-ATTAINED",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., quarta via: Est igitur aliquid quod est verissimum, et optimum, et nobilissimum, et per consequens maxime ens",
+  "interpretation": "Read the explicitly asserted maxime ens conclusion as attainment of a greatest represented degree among bearers of the selected being respect, consistent with the separate greatest-degree reading of maxime tale. The full verified article and Fourth Way paragraph were reread. The value map/preorder are an explicit interpretation, not mathematics stated by Aquinas or a homogeneous ontology for analogical being. This is a source assertion of attainment, not an independent proof from the old weak H, a repaired MostTrue premise, the grades alone or any modern order-completeness principle. No greatestness for unrelated perfections, linearity, injectivity, strict supremacy, unique bearer, source reality correspondence or modal necessity is attributed. Source fidelity and the premise truth/application remain distinct; this claim supplies no inferred proof edge from old source or framework premises.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GREATEST-BEING-DEGREE-ATTAINED",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}
