@@ -58,10 +58,30 @@ Comparator13364 failed because the Challenge lacked an explicit ExcludedMiddle
 import, though Solution compiled transitively. Focused Challenge30382 confirmed
 that error; repair992dcf05 adds only that import, preserves theorem tokens and
 records the prior unelaborated hash. Corrected Challenge compiles; corrected
-Comparator87262 is terminal0, including result NanoDa; scoped library is pending. Two other lanes test the distinct necessary-part
+Comparator87262 is terminal0, including result NanoDa. Combined gates below
+supersede the historical pending statuses. Two other lanes test the distinct necessary-part
 route (CF3/CF4/actual-parts existence) and stronger source N universal priority
 from full proper-part termination/P6 and explicit source priority policies.
 Neither is certified yet; neither closes a premise merely by composition.
+
+All three new batches are now verified at snapshot2fde5a4e: full4420-job build,
+binding861/2legacy pins/0mismatch, all five result Comparators/result NanoDa,
+and scoped library4modules/14exports/650checked/0typechecker errors (known
+axiom pretty-printer diagnostic only). Corrected continuation63710 is terminal0;
+initial71256 passed build/bind/constituent then stopped on a coordinator's wrong
+result ID, not a proof defect. Earlier scoped52855 was a NO-OP before generated
+imports and is not evidence. Independent reviews pass for modal and31-file
+priority batches; frozen Challenges retain their recorded import-only repairs.
+
+Exact public907 baseline: necessary endpoint17→19 routes, best2 unchanged;
+new costs5/raw6 and7/raw8. All reaching open premises65→69 adds only the four
+atomistic inputs; none removed. Route-expanded union40→44 is a separate measure.
+Catholic81/12routes/best31 and route-expanded union67 are unchanged. This is
+composition progress, not premise discharge or global/philosophical weakening.
+The two modal routes have a focused15-file direct-main publication prepared;
+the31-file priority batch remains a separate publication. No owner truth
+selection changes. Full author M-priority/FirstCause and policy applicability
+remain open.
 
 Independent adversarial ledger assessment identifies D3 as the strongest open
 foundation bridge. B is stronger than mere existence A; C is stronger than an
