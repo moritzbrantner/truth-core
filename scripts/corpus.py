@@ -461,7 +461,9 @@ def root_routes(
     expands a statement (rule (d): it only carries closure from closed
     premises, which makes its conclusion established). An intermediate
     conclusion with no usable proof (only unverified or transcription
-    arguments, or a cycle with no grounded proof) falls back to a leaf.
+    arguments) falls back to a leaf before propagation. Unresolved cyclic cores
+    fall back only after grounded proofs are exhausted, then their proved
+    dependents are expanded from those leaves.
 
     The minimum over proofs is taken per statement and the unions are then
     formed upward, so overlaps between premises are counted once but the
@@ -481,41 +483,70 @@ def root_routes(
     for result in results:
         results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
     statement_ids = set(statement_by_id)
-    concluded: set[str] = set()
     for argument in argument_by_id.values():
         statement_ids.update(argument["premise_statement_ids"])
         statement_ids.add(argument["conclusion_statement_id"])
-        concluded.add(argument["conclusion_statement_id"])
-    leaves: dict[str, frozenset[str] | None] = {}
-    for statement_id in statement_ids:
-        if statement_id in established:
-            leaves[statement_id] = frozenset()
-        elif sourced(statement_id) or statement_id not in concluded:
-            leaves[statement_id] = frozenset({statement_id})
-        else:
-            leaves[statement_id] = None
     proofs = sorted(
         (argument_id, argument_by_id[argument_id])
         for argument_id, result_ids in results_by_argument.items()
         if argument_id in argument_by_id
         and any(result_id not in transcription_results for result_id in result_ids)
     )
-    changed = True
-    while changed:
-        changed = False
+    expandable = {argument["conclusion_statement_id"] for _, argument in proofs}
+    leaves: dict[str, frozenset[str] | None] = {}
+    for statement_id in statement_ids:
+        if statement_id in established:
+            leaves[statement_id] = frozenset()
+        elif sourced(statement_id) or statement_id not in expandable:
+            leaves[statement_id] = frozenset({statement_id})
+        else:
+            leaves[statement_id] = None
+
+    def propagate() -> None:
+        changed = True
+        while changed:
+            changed = False
+            for _, argument in proofs:
+                conclusion = argument["conclusion_statement_id"]
+                premise_sets = [leaves[premise] for premise in set(argument["premise_statement_ids"])]
+                if any(premise_set is None for premise_set in premise_sets):
+                    continue
+                candidate = frozenset().union(*premise_sets)
+                current = leaves[conclusion]
+                if current is None or len(candidate) < len(current):
+                    leaves[conclusion] = candidate
+                    changed = True
+
+    propagate()
+    while unresolved := {statement_id for statement_id, value in leaves.items() if value is None}:
+        dependencies: dict[str, set[str]] = {statement_id: set() for statement_id in unresolved}
         for _, argument in proofs:
             conclusion = argument["conclusion_statement_id"]
-            premise_sets = [leaves[premise] for premise in set(argument["premise_statement_ids"])]
-            if any(premise_set is None for premise_set in premise_sets):
-                continue
-            candidate = frozenset().union(*premise_sets)
-            current = leaves[conclusion]
-            if current is None or len(candidate) < len(current):
-                leaves[conclusion] = candidate
-                changed = True
-    for statement_id, value in leaves.items():
-        if value is None:
+            if conclusion in unresolved:
+                dependencies[conclusion].update(set(argument["premise_statement_ids"]) & unresolved)
+
+        def reachable(seed: str) -> frozenset[str]:
+            reached: set[str] = set()
+            pending = [seed]
+            while pending:
+                node = pending.pop()
+                if node not in reached:
+                    reached.add(node)
+                    pending.extend(dependencies[node] - reached)
+            return frozenset(reached)
+
+        # Reachability includes the seed. Thus a smallest reachable unresolved
+        # set is a terminal cyclic component: a nonterminal component strictly
+        # contains a downstream component's reachable set. Break ties by IDs.
+        # Seed only that core, then expand its dependents instead of giving each
+        # proved intermediate an artificially cheap singleton fallback.
+        core = min(
+            (reachable(statement_id) for statement_id in sorted(unresolved)),
+            key=lambda component: (len(component), tuple(sorted(component))),
+        )
+        for statement_id in core:
             leaves[statement_id] = frozenset({statement_id})
+        propagate()
 
     entries: list[dict[str, Any]] = []
     for argument_id in sorted(argument_by_id):
