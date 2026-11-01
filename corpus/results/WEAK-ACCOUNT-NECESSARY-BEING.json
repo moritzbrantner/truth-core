@@ -1,0 +1,10 @@
+{
+  "id": "WEAK-ACCOUNT-NECESSARY-BEING",
+  "argument_id": "WEAK-ACCOUNT-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/WEAK-ACCOUNT-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Derive an actual necessary ordinary candidate from five named heads: a transparent four-clause account, contingent-reason foundedness, two separate fixed-constituent policies and excluded middle. Compared with FIXED-CONSTITUENT-NECESSARY-BEING, remove upfront target contingency and the original account nonCopy clause; retain all other account clauses and policies. This is a conditional composition, not minimality, source truth, actual constitution, causal roothood, concreteness, uniqueness or God."
+}

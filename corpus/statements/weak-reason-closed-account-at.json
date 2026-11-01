@@ -1,0 +1,25 @@
+{
+  "id": "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+  "lean_declaration": "TruthCore.Explanation.WeakAccountNecessaryBeing.WeakReasonClosed",
+  "paraphrase": "The selected account retains exactly the original explanandum, truthful, closed and covered clauses, omitting nonCopy. It does not assume target contingency or establish adequate explanation.",
+  "definition_ids": [
+    "DEF-WEAK-REASON-CLOSED-ACCOUNT",
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

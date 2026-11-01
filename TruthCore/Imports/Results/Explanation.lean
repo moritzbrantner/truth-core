@@ -33,4 +33,5 @@ import TruthCore.Results.Explanation.PathRelocation.Solution
 import TruthCore.Results.Explanation.StoppingPoints.Solution
 import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
 import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+import TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Solution
 import TruthCore.Results.Explanation.WellFoundedSource.Solution
