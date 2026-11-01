@@ -16,8 +16,10 @@ PR908 merged after exact-head clean review and CI41331601271; watch23196 is
 terminal0. It adds the two necessary-being compositions (same source under local
 causality; necessary constituent under CF3/CF4/actual-parts policy). PR909 old
 head72277262 also passed CI41331708678/review, watch23562 terminal0, but merge
-is held for a substantive source-attribution correction. Its updated36-file
-slice is prepared UNPUSHED atb7e6bd42 on fresh main908, with Root owning merge.
+is held for a substantive source-attribution correction. Its corrected36-file
+slice is now public at235e77f3cef537e4700a4948b8c039abb56cb2de on fresh
+main908, CI41332971360 live, exact-head review requested once (6561556840).
+Root owns watch21624 and merge; old green head is superseded, not failed.
 
 The pinned/read ChapterVII154–158 directly addresses our objections: p155–156
 explicitly adjusts original atomism P2 to terminating proper-part descent;
