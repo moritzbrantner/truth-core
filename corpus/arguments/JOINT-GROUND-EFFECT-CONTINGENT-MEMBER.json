@@ -1,0 +1,33 @@
+{
+  "id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
+  "premise_statement_ids": [
+    "STMT-JOINT-CONDITION-ACTUAL",
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
+    "STMT-SELECTED-POSITIVE-GROUND-RECORD"
+  ],
+  "conclusion_statement_id": "STMT-JOINT-CONTINGENT-MEMBER",
+  "inference_ids": [
+    "INF-JOINT-GROUND-EFFECT-CONTINGENCY",
+    "INF-JOINT-CONTINGENCY-LOCALIZATION"
+  ],
+  "meaning": "Use the existing whole-ground modal necessitation with the two explicit selected-record guards. Contingency of positive b supplies an accessible SAME failure world v. If all members of THIS g held at v, whole necessitation would make that SAME positive b true there, contradicting its failure. Combine this joint failure with supplied actual JointTrue to obtain existing JointContingent of h.members g. No frame, coherence, autonomy, causal, concrete-bearer, R or ingredient premise is added. The effect’s actual truth remains in the retained Contingent input, although this joint-failure proof uses only its accessible-absence field; no minimality is claimed. Then import the existing localization inference to obtain a contingent selected fact member at that SAME world. Do not identify it as a choice, cause, bearer or independently sufficient condition; it may even be the effect if that belongs to the supplied record.",
+  "definition_ids": [
+    "DEF-SELECTED-POSITIVE-GROUND-RECORD",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

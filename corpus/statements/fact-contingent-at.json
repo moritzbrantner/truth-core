@@ -1,0 +1,15 @@
+{
+  "id": "STMT-FACT-CONTINGENT-AT",
+  "lean_declaration": "TruthCore.Explanation.PSRStrength.Contingent",
+  "paraphrase": "The selected fact holds at the supplied actual world and fails at some accessible world of the SAME Arena. This reuses existing fact-level Contingent, not individual ContingentAt; there is no automatic fact-to-being, cause, choice or existence-coherence identification. The joint-ground consumer instantiates this fact by the existing positive b label.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
