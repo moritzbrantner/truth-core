@@ -42,7 +42,7 @@ pointwise assembly is now verified. Its additional policies remain open. Existin
 A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final delivery/check evidence remains pending.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `6e159f78` (identical proof tree after integration3966d4c3). Main through PR912 is integrated (`f52b088f`, mergec49e499a).
+snapshot `75d584de` (identical Lean/results tree after integrationc49e499a). Main through PR912 is integrated (`f52b088f`, mergec49e499a).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
