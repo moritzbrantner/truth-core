@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+  "paraphrase": "Conditional on the negative A5P1 answer, the source report denies necessity of the WHOLE conditional: if contingent situations obtain, at least one obtaining contingent situation is impossible to cause. It is not merely denial that some uncausable situation necessarily exists, a denial of all uncaused actuality, or an assertion of respondent assent.",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
