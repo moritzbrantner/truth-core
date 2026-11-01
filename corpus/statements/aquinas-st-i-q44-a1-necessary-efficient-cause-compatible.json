@@ -1,0 +1,14 @@
+{
+  "id": "STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+  "paraphrase": "Some necessary things have causes of their necessity; being necessary does not by itself exclude having an efficient cause.",
+  "definition_ids": [
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
