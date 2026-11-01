@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.decompose"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

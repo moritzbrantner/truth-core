@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSARY-PART-FUSION-DECOMPOSITION",
+  "input_statement_ids": [
+    "STMT-SELECTED-OBJECT-NOT-NECESSARY-AT",
+    "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
+    "STMT-SELECTED-NECESSARY-PARTS-FUSION-AT"
+  ],
+  "output_statement_id": "STMT-HAS-NO-NECESSARY-PARTS-PART-AT",
+  "rule": "selected-necessary-fusion-overlap-separation-and-common-part-contradiction",
+  "meaning": "If x has no necessary part, choose x itself. Otherwise use the selected necessary-parts fusion n and its explicit necessity. Fusion’s no-extra-parts clause plus overlap-extensional parthood place n below x. Nonnecessity of x makes x distinct from necessary n, so x is not part of n. Classical overlap separation yields a common part q of x and an object disjoint from n. Any necessary r below q would belong to the selected family and hence be below n by Fusion’s upper-bound clause, contradiction. Return the SAME candidate q without necessary parts. No actual existence, ordinary contingency, necessity-downward, unrestricted fusion, causal role or source truth follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
