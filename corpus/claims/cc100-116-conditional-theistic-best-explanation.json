@@ -1,0 +1,15 @@
+{
+  "id": "CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION",
+  "statement_id": "STMT-CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 5 under steps 1–4",
+  "interpretation": "Preserve best-explanation status as the source’s conditional conclusion, not actual theism, a numerical posterior, necessary existence, a unique God or an actually exercised concrete cause. No best-explanation-to-truth bridge or formal argument is registered. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

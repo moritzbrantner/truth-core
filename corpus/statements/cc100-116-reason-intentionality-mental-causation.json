@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+  "paraphrase": "Reason involves intentionality and mental causation.",
+  "definition_ids": [
+    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
