@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+  "argument_id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAtomicity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAtomicity.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAtomicity.necessaryBeing",
+  "comparator_config": "results/CONTINGENT-ATOMICITY-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Retain the same actual-node population, conditional caused-simple cover, cause/effect nonoverlap, explicit EM and selected actual causal coverage; replace all-object AtomicParts by contingent-only atomicity. Under no NecessaryBeing, EM turns every actual individual into a contingent one, reconstructing the EXACT old AtomicParts. Import ScopedActualCausality.necessaryBeing to contradict no NE. The conclusion is the SAME existing frame-relative de re NecessaryBeing, not concrete God, a unique source, full FirstCause or premise truth. This genuine strict restriction leaves necessary objects free to be atomless; the separate shared-order control witnesses the difference. No direct necessary-being bridge is inserted in the new predicate."
+}

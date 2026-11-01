@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-ATOMIC-PARTS",
+  "term": "simple parts of actually contingent objects only",
+  "basis": "stipulative",
+  "definition": "ContingentAtomicParts m w requires each actual node x that is ContingentAt m w x.val to have a simple actual part a≤x in the SAME actual-node partial order. IsMin uses all actual nodes in that order, not merely contingent nodes. Neither x nor its part is declared concrete. Necessary objects have no atomicity requirement.",
+  "lean_declaration": "TruthCore.Causality.ContingentAtomicity.ContingentAtomicParts",
+  "note": "OPEN analyst scope restriction, not attributed to Rutten or independently established. Ordinary component examples do not establish universal contingent atomicity. It preserves the existing modal existence, frame and parthood semantics. Gunk views may reject the policy; a source-relative infinite causal chain is a different issue. There is no necessity conclusion inside the definition: necessary existence can coexist with its failure, as the reverse formal control shows. No priority, causal inheritance, well-foundedness, concrete-world application, or law identifying cause with every ground is supplied."
+}

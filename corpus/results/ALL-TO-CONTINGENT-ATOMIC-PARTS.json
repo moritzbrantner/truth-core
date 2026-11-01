@@ -1,0 +1,11 @@
+{
+  "id": "ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "argument_id": "ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAtomicity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAtomicity.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAtomicity.allToContingent",
+  "comparator_config": "results/ALL-TO-CONTINGENT-ATOMIC-PARTS/comparator.json",
+  "status": "solution-present",
+  "description": "Structural restriction/assembly: specialize all-actual-object AtomicParts to actual contingent objects. No atomicity premise is established.",
+  "transcription": "assembly"
+}

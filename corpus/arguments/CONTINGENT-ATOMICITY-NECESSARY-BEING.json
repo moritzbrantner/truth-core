@@ -1,0 +1,39 @@
+{
+  "id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-CONTINGENT-ATOMIC-PARTS",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-CONTINGENT-ATOMICITY-NECESSARY-BEING"
+  ],
+  "meaning": "Retain the same actual-node population, conditional caused-simple cover, cause/effect nonoverlap, explicit EM and selected actual causal coverage; replace all-object AtomicParts by contingent-only atomicity. Under no NecessaryBeing, EM turns every actual individual into a contingent one, reconstructing the EXACT old AtomicParts. Import ScopedActualCausality.necessaryBeing to contradict no NE. The conclusion is the SAME existing frame-relative de re NecessaryBeing, not concrete God, a unique source, full FirstCause or premise truth. This genuine strict restriction leaves necessary objects free to be atomless; the separate shared-order control witnesses the difference. No direct necessary-being bridge is inserted in the new predicate.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-CONTINGENT-ATOMIC-PARTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

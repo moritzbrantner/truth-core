@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-CONTINGENT-ATOMICITY-20261101",
+  "date": "2026-11-01",
+  "statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-CONTINGENT-ATOMIC-PARTS",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONTINGENT-ATOMICITY-CONTROL",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded approved strict retained-background scope weakening. Related/dossiers and exact existing source/scoped consumers inspected; no contingent-only AtomicParts head found. Reuse existing Ontic, ContingentAt, NecessaryAt, actualGraph, standard IsMin/PartialOrder, and IMPORT ScopedActualCausality.necessaryBeing without old edits. New source-free analyst predicate restricts only the target x to contingent actual nodes; its simple part is minimal in the SAME entire actual domain. This does not merely require minimality among contingents. Explicit EM/no-NE reductio reconstructs the OLD all-actual AtomicParts, then applies the imported six-head scoped consumer. Same actual NE conclusion, same other five heads; necessary candidates need not be atomic. The all-to-contingent result is explicitly assembly/transcription, not standalone philosophical progress. Strictness uses the already known reversed-Nat atomless component from RegressDomains.AtomlessBoundary, not an invented substitute for standard order. Both formal controls use the SAME carrier Unit⊕OrderDualNat and Mathlib standard disjoint-sum order (not lexicographic). All candidates actual at false. Strict: necessary gunk plus contingent atom, gunk0→point; new atomicity true, old false, caused-simple family={point} and nonvacuous cover. Reverse: necessary atom plus contingent gunk, point→each gunk; NE true while new atomicity false, caused-simple family empty and conditional cover vacuous. Both retain all other structural inputs and nonvacuous actual contingency/selected coverage. No finite atomless-control claim, new source claim, metaphysical possibility, explanatory adequacy, infinite contingent-regress defense, cause-to-all-grounds dictionary or God conclusion. The reverse interpretation proves the new policy is not equivalent to NE even under retained other inputs. Necessary existence alone does not establish that contingent objects have simple parts. Challenge compiled72085 BEFORE Solution with three intended sorry warnings, then frozen SHAa76aba45a77a73513a405af95252a33fad0974f9c1b04368d2daf2783eb73744. Solution focus23222 terminal0 PASS first run. Actual probes and cheap metadata gates pending. Source and old candidate/intake/handoff/proofs untouched. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0 unchanged; existing worker_env CLI fallback setup reused without preflight. Final full build/binding/Comparator/NanoDa and independent review are coordinator-owned. Actual root-premise truth closure delta NONE; conditional sufficient assumptions strictly weaker, not independently defended. Final focused compiled-olean31323 terminal0 and explicit axiom probe76520 terminal0 PASS: allToContingent and necessaryBeing have ZERO axioms, matching configs[]; control uses exactly propext/Classical.choice/Quot.sound, matching the approved Mathlib trio. Corpus21281 terminal0 PASS2794statements/1927claims/852results; offline source476/1927unambiguousbindings and whitespace PASS. Frozen Challenge hash unchanged. Claim/type self-sweep: new predicate restricts target contingency but minimality quantifies over ALL actual nodes; both controls retain identical Carrier/order and differ only in stated Ontic fields; nonvacuous contingency and causal coverage in both; strict cover exercised, reverse cover empty/vacuous explicit. Four original structural policies remain population/restricted atomicity/conditional cover/nonoverlap, plus EM and selected coverage. No universal source simplicity, NE-equivalence, source attribution or root-premise truth discharge. Independent review and coordinator final gates pending.",
+  "blocker": "Independent applicability of contingent atomicity, selected causal coverage and the other structural policies remains OPEN; neither necessary gunk nor contingent gunk is asserted to be a metaphysically possible or explanatory account.",
+  "evidence": [
+    "ALL-TO-CONTINGENT-ATOMIC-PARTS",
+    "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+    "CONTINGENT-ATOMICITY-CONTROL",
+    "SCOPED-ATOMISTIC-NECESSARY-BEING",
+    "ATOMIC-CAUSAL-SOURCE"
+  ]
+}
