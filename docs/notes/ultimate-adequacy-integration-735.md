@@ -119,31 +119,46 @@ SAME actual necessary witness and nine predicates, not only an IsGod label.
 The default Catholicism-root81-leaf/31-cost figures and the GodExists-root
 figures concern different targets and must not be conflated.
 
-Next concrete steps: obtain the A4 source worker’s NO-FURTHER-EDITS handoff,
-review and commit its bounded main extraction, then integrate delivered #844
-while preserving the private witness history and newer A4 findings.
-The read-only A4 audit is persisted at `4f527e8b` in the existing first-pass
-attempt/inventory. It read all five main witnesses and SHA-verified raw titles;
-its key new guard is that A4C3–14 remain under NoPossibleNB from step1. Only
-14–17 discharge that assumption. The step9 caused-first possibility and
-13–14 causal witness are not independent unconditional Scenario inputs.
-Eight proposed qualified readings reuse beginning/modal reports and need only
-two property/first-exemplification glosses. Appropriately scoped local-frame
-consequence reuse, domain/temporal/event/classification bridges and the
-unverified rooted-P stress boundary are explicit. No new claim/proof/pin was
-created by this audit. A4
-witnesses exist privately but are not yet delivered public evidence; any public
-batch must explicitly include its named witnesses. Do not restart general
-infinite-regress diagnostics or treat optional O, causal reach, naming or
-classical-field sufficiency as independently established.
+A4 main source extraction is committed as `14e6a9ea`, with independent
+fidelity acceptance in `e8d8ed93`. Eight qualified claims add six bare
+statements, two source glosses and one disambiguation while reusing the ordinary
+beginning/modal report meanings. Root and an independent reviewer materialized
+all five main pages and SHA-verified raw titles; the worker also read all four
+alternate contexts. NoPossibleNB remains in scope through C3–14; only14–17
+discharge it. No unconditional causal-opportunity or actual rigid witness is
+credited. Main C's essential-state event tooltip is not silently imported into
+C3's shorter alternate tooltip. The source candidate now begins A4P4B/C2 then
+P4C/C3; later families and campaign completion remain pending.
 
-Current parallel ownership: Pages owns the new A4 main source records and
-three existing first-pass/candidate/inventory files; the master must not merge
-#844 across those edits until the worker freezes them. Unity completed all
-source PR gates and is idle. The adversary is performing a read-only optional-O
-entitlement audit against exact existing source/definition records, separating
-strict priority, no-self-cause and selected actual existential support; no new
-model/proof or truth closure is authorized by that audit.
+Public A4 main PR #845 is `f2dd81df254f4d4f3a7a84c86d4d9665637420e3`,
+CI41259356233 running and exact-head review completed without findings. Its
+25 files explicitly deliver FIVE previously private main witness manifests,
+17 reading records and minimal three public-source-record updates. Public
+passages394→399; committed-public scoped live verification checked exactly
+the five new web passages successfully, all other394 offline only. No repin,
+drift/fallback, new source kind or unadvertised private history was included.
+
+The O entitlement comparison is persisted in `4f74e27e`, `4c853eb5`,
+`98512c96` and public-wording sync `d4d04a8c`. It materialized complete
+Vlect13 and q104a1. The former supports strict natural priority in its own sense;
+the latter supports continuing effect-dependence, not converse source
+independence or arbitrary partial-R asymmetry. F supplies esse-cause→R and G
+priority→R; neither supplies R→priority. The related PowerExistenceBoundary
+supportsEsse relation is not identified with Profile.grounds. Theological
+conservation dependencies cannot independently justify the earlier God route.
+The next interface issue is direct productive esse-giving in one respect versus
+broader partial enabling; no source-backed closure of O was found. No new
+claim/model/proof was created by that audit. Its focused public PR #846 is
+`ac227132d14a737f9cb1d3b45657a27787054691`, CI41259655409 and exact-head
+review running; only the O definition, existing attempt and matrix changed.
+
+Next concrete steps: finish guarded #845/#846 delivery and integrate main
+while preserving all private/newer source findings; then audit/extract the
+already read A4 alternate range with exact semantic reuse before adding IDs.
+All conditional proof terms and frozen types remain unchanged after the O
+source audit. Pages has released all Root source files and is idle; Unity owns
+#845 public gates; the adversary owns #846 public gates. No live heavy local
+proof job remains. No owner truth selection beyond A is inferred.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
