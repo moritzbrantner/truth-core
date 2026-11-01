@@ -298,3 +298,78 @@ rival. The decisive next inquiry is whether intrinsic powers plus independently
 justified interface/independence constraints license **countable causal-network
 assembly**, and whether those constraints apply to direct esse support. A
 formal theorem assuming CPNPP or well-foundedness would not resolve it.
+
+
+## Verified local-protocol composition (2026-11-01)
+
+The later results make one part of the patchwork argument mechanically explicit.
+They do not establish that the complete protocol can be jointly realized.
+
+`IndexedSignalProvenance` represents each output as absent or as a finite station
+code. Its local conservation rule says an output was issued at that station or
+forwarded unchanged from the immediate upstream output. Index admissibility
+requires every output code j at station n to satisfy n≤j. Finite propagation
+then establishes issuance at the named station: a fixed code cannot be forwarded
+upstream past its own finite bound. This imports no global well-foundedness or
+independent global-origin premise. The quiet all-none/no-issuance assignment
+satisfies both interfaces, so provenance alone supplies no firing law.
+
+`IndexedSignalReaper` supplies three response rules: absent admitted input
+triggers issuance; issuance writes the station's own code; and every present
+upstream code is forwarded unchanged. These derive local conservation. The
+proof imports provenance, proves finite-interval forwarding, and derives the
+**existing** GrimReaperLaw. Its `impossible` helper imports the original
+GrimReaperImpossible theorem.
+
+```mermaid
+flowchart TD
+  R["Positive trigger + own-code emission + unchanged forwarding"] --> C["Local conservation"]
+  C --> P["Named issuance provenance"]
+  B["Output index admissibility"] --> P
+  P --> L["Existing GrimReaperLaw"]
+  R --> L
+  B --> L
+  L --> X["Contradiction by the existing impossibility theorem"]
+```
+
+The registered results are `INDEXED-SIGNAL-PROVENANCE`,
+`INDEXED-SIGNAL-PROVENANCE-CONTROLS`, `INDEXED-SIGNAL-REAPER` and
+`INDEXED-SIGNAL-REAPER-CONTROLS`. Comparator and result NanoDa accept them; full
+build, binding, affected-library NanoDa and zero-axiom probes pass. Definitions,
+argument premises and exact proof terms are in the corresponding corpus records
+and [Solution](../../TruthCore/Results/Causality/IndexedSignalReaper/Solution.lean).
+Each of the four Reaper-rule omissions retains the other three and falsifies
+the complete law. These are mathematical assignments, not complete worldviews
+or certified physical possibilities.
+
+`GRIM-REAPER-FINITE-TESTS` separately proves that every finite selection of the
+complete infinite-tail firing clauses is satisfiable on Nat, although the whole
+family is not. The assignment varies with the finite selection. Each tested
+clause still quantifies over its whole infinite tail; this is neither a finite
+schedule truncation nor a counterexample to ordinary finitary compactness.
+
+### Source commitment versus justification
+
+The source does assert persistence. PGR on p.9 preserves the inherited Fred's
+original position, and §5.2 on p.19 explicitly acknowledges persistence through
+the remaining sequence. The signal reformulation on pp.19–20 receives the
+predecessor's sent signal with its origin information. A recoding or vanishing
+channel therefore does not refute that full stipulated protocol.
+
+The intended state can be a normalized relevant Fred register: PGR's treatment
+of competing particles supports this reading without requiring every physical
+particle to have a numeric code. The mathematical interfaces remain an analyst
+model until the relevant-state projection, detector and interstage boundaries
+are matched faithfully. Source assertion is distinct from independent warrant
+for preserving the asserted protocol under countable recombination.
+
+CPNPP permits selecting some causal-power connections, so a sparse chain is a
+faithful reading. It does not follow from positive selected edges alone that
+there are no additional relevant inputs. A complete duplicated patch may protect
+its detector, register and channel; the outstanding question is whether the
+source's assembly principle preserves those boundary conditions together. If
+it does, the local-protocol-to-contradiction step is now available without
+assuming global provenance. If it does not, the verified contradiction does not
+by itself rule out the original infinite causal history. Application from
+causal-power events to every existential-support edge remains a further
+obligation. No necessary-being root premise is discharged by these results.
