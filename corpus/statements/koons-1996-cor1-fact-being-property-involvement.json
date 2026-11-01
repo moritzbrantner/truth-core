@@ -1,0 +1,13 @@
+{
+  "id": "STMT-KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
+  "paraphrase": "Every fact includes at least one being and at least one property of that being.",
+  "definition_ids": [
+    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
