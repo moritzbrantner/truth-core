@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "paraphrase": "Conditional on the affirmative alternate report: if a situation can be impossible, it is actually impossible. The source takes its contrapositive, with possibility/impossibility duality, to imply that a possible situation is necessarily possible. This records the alternate input and proposed interpretation; it asserts neither actual respondent assent nor a proved modal axiom, source of metaphysical possibility, or rigid necessary individual.",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

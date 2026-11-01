@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A2C2, modal paragraph after causal step 11: recalled possible-impossibility report and contraposition",
+  "interpretation": "The author recalls the affirmative answer to the A2P2B question and derives necessity of possibility by contraposition/duality. The input remains conditional on that answer; P2B itself only asks the question. No actual response, justified premise truth, formal S5 theorem or frame characterization is attributed. The following twelve-step suffix is already covered by the existing shared source/modal audit and is not duplicated.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
