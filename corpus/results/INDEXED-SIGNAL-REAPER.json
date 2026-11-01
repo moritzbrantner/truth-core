@@ -1,0 +1,10 @@
+{
+  "id": "INDEXED-SIGNAL-REAPER",
+  "argument_id": "INDEXED-SIGNAL-REAPER",
+  "challenge_module": "TruthCore.Results.Causality.IndexedSignalReaper.Challenge",
+  "solution_module": "TruthCore.Results.Causality.IndexedSignalReaper.Solution",
+  "theorem": "TruthCore.Results.Causality.IndexedSignalReaper.firingLaw",
+  "comparator_config": "results/INDEXED-SIGNAL-REAPER/comparator.json",
+  "status": "solution-present",
+  "description": "Derive LocalConservation by case analysis on the immediate upstream input, then import IndexedSignalProvenance.provenance with the SAME index bound. Complete forwarding propagates one code across any finite station interval. Two issuances would force different station codes at one output, so an issuance excludes every larger-index issuance. Conversely a present upstream code has a larger-index issuing station by provenance and the bound; absence of all such issuances forces absent input, and the positive trigger issues. Thus derive the EXISTING GrimReaperLaw, without global provenance or firing law as a premise. Importing the original impossibility separately makes this four-interface package incompatible; it is not a satisfiable worldview proposal or a proof of causal finitism. Root-path open premises: no change. Closed alphabet/detector fidelity, countable causal patchwork and existential-grounding applicability remain OPEN."
+}

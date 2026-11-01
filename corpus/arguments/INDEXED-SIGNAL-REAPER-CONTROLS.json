@@ -1,0 +1,18 @@
+{
+  "id": "INDEXED-SIGNAL-REAPER-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INDEXED-SIGNAL-REAPER-CONTROLS",
+  "inference_ids": [
+    "INF-INDEXED-SIGNAL-REAPER-CONTROLS"
+  ],
+  "meaning": "Without the bound use constant some(0) and no issuance; without the trigger use all-none/no-issuance; without emission use all-none/all-issuance; without forwarding output own code at every station with all-issuance. Each retains the other THREE interfaces, falsifies the omitted one and fails the full action law. Same station/code carrier and meanings throughout; no global minimality or actual/metaphysical possibility inferred.",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-PROVENANCE",
+    "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+    "DEF-INDEXED-SIGNAL-EMISSION",
+    "DEF-INDEXED-SIGNAL-FORWARDING",
+    "DEF-GRIM-REAPER-ACTION-RULE"
+  ]
+}
