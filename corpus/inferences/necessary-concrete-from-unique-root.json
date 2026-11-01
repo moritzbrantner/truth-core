@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-CONCRETE-FROM-UNIQUE-ROOT",
+  "input_statement_ids": [
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "constructive-proof",
+  "meaning": "Structural projection/transcription: destructure UniqueNecessaryActualRootAt on the supplied Profile and world, select the SAME n, and retain its concreteness, actual existence and NecessaryAt while forgetting selected-rootness and uniqueness. One existing input and the exact existing NecessaryConcreteAt conclusion; no source attribution, additional premise, new witness, independent philosophical progress or truth closure. Necessity remains relative to the supplied frame, and the input says uniqueness of actual selected roots, not all necessary individuals. All premise truth statuses remain unchanged; closure through this assembly still requires the input already closed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

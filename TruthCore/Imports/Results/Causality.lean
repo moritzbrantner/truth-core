@@ -25,6 +25,7 @@ import TruthCore.Results.Causality.DirectEsseRootPerfection.Solution
 import TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
 import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
@@ -57,6 +58,7 @@ import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
 import TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution
 import TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution
 import TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.Solution
+import TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.Solution
 import TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution
 import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
 import TruthCore.Results.Causality.NecessaryFirstAttributes.Solution
