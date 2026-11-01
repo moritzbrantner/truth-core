@@ -8,17 +8,16 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Branch: `research/lean-existential-self-actualization-20261031`.
-Main through PR902 is integrated at `ef581885`; the working branch also contains
+Main through PR903 is integrated at `1b16d547`; the working branch also contains
 the reviewed source audits and fully verified firing-law composition below.
 Only ledger A is owner-accepted. Scoped PSR working authorization from #312
 persists. Verbal D1 does not automatically select formal WholeRosterNotTrapped,
 which under B/EM is equivalent to an actual selected root existing.
 
 **Current delivery.** PR903 is published at
-`8ffa9c3baa29c1b03d491193be8f28df8817a832`, CI41315907341, exact-head review
-requested once. Root owns watch14819, log
-`~/.cache/truth-core-artifacts/pr903-watch.log`. Re-poll that handle; do not
-restart on observation timeout. PRs896–902 are merged after required CI and
+`8ffa9c3baa29c1b03d491193be8f28df8817a832`, CI41315907341, passed all required
+CI and completed clean exact-head review; PR903 is merged. Watch14819 is terminal0, log
+`~/.cache/truth-core-artifacts/pr903-watch.log`. It needs no restart. PRs896–903 are merged after required CI and
 clean exact-head reviews. Watches1183/51248/44842/48624/42975 are terminal0.
 PRs823/850 remain held for their existing source failures; no new evidence
 currently authorizes another identical retry or repin.
@@ -53,16 +52,20 @@ OptionNat need not enumerate all physical particles. PGR maintains the inherited
 Fred at its original position. Section5.2p19 explicitly acknowledges full-sequence
 persistence; the signal revision describes receiving the predecessor's sent
 signal. A recoding channel is therefore not a countermodel to the full intended
-protocol. The next task is to distinguish an explicitly asserted source handoff
-commitment from its independent preservation by CPNPP. Do not keep a source
-commitment classified as unread merely because its truth is open.
+protocol. The source audit now classifies persistence as PROVIDED/ASSERTED in that
+scenario, separately from independent justification and CPNPP transport. A narrow
+particle-position-persistence claim is being recorded against §5.2p19, without
+forcing the broader numeric Forwarding interface onto that passage. No Lean
+result or universal physical law is claimed. Root's readable proof-chain map is
+in docs/notes/causal-finitism-367.md at035c49c3, preserving source/application gaps.
+The source-claim delivery may include that note as one coherent reviewed batch.
 
 The graph may select SOME causal-power links (p15), so a sparse chain is a
 faithful reply to the dense-neighborhood objection. Positive selected edges
 alone do not exclude bypass/erasure/relabeling. Complete duplicated patches may
 include detector, normalized register and channel boundary; determine exactly
 what the source claims and what still requires independent warrant. Ledger
-worker owns this read-only/source-attempt follow-up. No new split-I/O wrapper
+worker owns the bounded statement/claim/definition/attempt follow-up. No new split-I/O wrapper
 or recoder certificate is authorized; existing forwarding omissions already
 isolate the formal rule, and the suggested recoder is not a full PGR rival.
 
