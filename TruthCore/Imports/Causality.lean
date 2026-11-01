@@ -39,6 +39,7 @@ import TruthCore.Causality.JointGroups
 import TruthCore.Causality.LocalFramePossibleExternalCause
 import TruthCore.Causality.LocalTransmission
 import TruthCore.Causality.MathlibBridges
+import TruthCore.Causality.ModalNecessaryBeingActuality
 import TruthCore.Causality.NamedPotentialCauser
 import TruthCore.Causality.NecessarilyUnderived
 import TruthCore.Causality.NecessaryBeingSurvey
