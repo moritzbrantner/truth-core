@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A2-REVISED-CLASSIFICATION",
+  "term": "revised must-exist and complementary contingency in A2P2C/A2C3",
+  "definition": "A2P2C stipulates that a thing must by nature exist when it would automatically exist if its existence were even possible; any other kind of thing is called contingent. The editorial label \u03ba denotes that revised class and its complement only to distinguish this reading. The page then re-asks the uncaused-contingent exclusion under that classification. \u03ba is not a source symbol or a new Lean relation.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A2-REVISED-MUST-EXIST",
+    "NB-SURVEY-A2-REVISED-CONTINGENTS-CAUSED",
+    "NB-SURVEY-A2-REVISED-ACTUALITY-CONCLUSION"
+  ],
+  "note": "The would/automatically wording is retained without selecting a counterfactual or material-implication semantics. In particular \u03ba is not defined as a truth-functional possible-existence-implies-existence conditional that could hold vacuously, nor identified with NecessaryAt, ordinary inability not to exist, or the old source contingency class. A2C3 retains stock must-exist/contingent tooltips but expressly appeals to the revised stipulation. No example of an actually existing \u03ba bearer is supplied independently of the disputed argument."
+}

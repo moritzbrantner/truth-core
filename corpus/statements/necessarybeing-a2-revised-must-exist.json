@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "paraphrase": "The revised stipulation calls a thing must-exist by nature when it would automatically exist if its existence were even possible, and calls any other kind of thing contingent. This revised classification is separate from ordinary modal necessity and does not itself assert an existing bearer or choose a material/counterfactual semantics.",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

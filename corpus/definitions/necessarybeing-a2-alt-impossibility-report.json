@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+  "term": "A2 alternate possible-impossibility report",
+  "definition": "A2P2B asks whether a situation that can be impossible is actually impossible. Its impossible title attributes mean contradicting something necessary. A2C2 recalls the affirmative report, then uses contraposition and possibility/impossibility duality to say a possible situation cannot be impossible and therefore is necessarily possible. This is a source reading of a reported conditional and its proposed interpretation, not a proof of a modal frame axiom.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY"
+  ],
+  "note": "The question alone asserts no answer. Actual here concerns whether the situation is impossible, not an actual concrete cause or a rigid individual. The original A2P2 individual-possibility invariance report is not silently identified with this differently worded input; the source reaches the same named modal principle by a separate paragraph."
+}
