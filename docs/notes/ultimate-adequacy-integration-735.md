@@ -8,15 +8,32 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`f101837f` before this update. Main is `332a03217fdd8a3366e57c10e32c121968462131`
-through #859, integrated at that canonical head after #858 integration4ecdaa3d.
-The merge has no Lean or metadata delta from the already verified canonical
-proof/source inputs. Full private research history, 468 witnesses and the
-A10 P1-reconsideration cursor are preserved. The current committed corpus has 2570 statements,
-1751 claims and 809 result records. Corpus, source bindings, generated docs and
-whitespace pass. The only new Lean inputs are the verified autonomous-ground consumer below.
-Only owner ledger A is accepted; earlier explicit PSR working authorization is
-retained. Optional NLC/MF rows remain unselected.
+`b3fc981d` before this update. Main is `385838b2` through #862, integrated in
+that merge. Canonical A1–A10 source extraction is exhausted; the selected
+successor is the owner-requested Capturing Christianity foundation slice,
+PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
+in the existing CC100 intake attempt; the first extraction batch is #4–5.
+Public A5 publication remains separate. Canonical corpus checks pass with2580
+statements,1762 claims,810 results and468 passages. Only ledger A is accepted;
+scoped PSR working authorization persists, with no additional selections.
+
+The measure consumer is committed at `e9419df9`: full build4376, binding826/2
+existing pins/0mismatch, exact Comparator/result NanoDa and scoped library
+NanoDa (7 new declarations/16775 dependency declarations, zero type errors)
+pass on its unchanged proof inputs. It proves conditional event-measure
+equality and supplied strict-threshold transfer, not actuality, calibrated
+probability or a root-premise discharge. Focused public delivery is in progress
+in the isolated necessary-being-measure worktree; no delivered-head CI success
+is yet claimed. The existing attempt records exact premises and boundaries.
+
+Fresh adversarial audit confirms D2 as the key existence-application burden:
+D1's explanatory insufficiency does not alone establish formal whole-roster
+actuality. It also retains Iesse's universal causal reach as a distinct
+uniqueness burden. Findings are persisted in the existing whole-roster
+equivalence attempt; no rival consistency is credited as complete explanation.
+The local service experiment is closed; CLI fallback continues. External
+Koons witness access still blocks #823, and #850 remains held without retries;
+these do not block independent proof/source work.
 
 Landed with all required CI and a clean completed review of each exact head:
 
@@ -33,6 +50,9 @@ Landed with all required CI and a clean completed review of each exact head:
   Abstract body is identical, with only the old extracted heading omitted.
 - #857 A9 MAIN: main7cabc661, reviewed30738138, CI41274890902.
 - #858 A9 alternates: maind7f741b6, reviewedd57394e4, CI41275792546.
+- #860 A10 MAIN: main037ef1d6, reviewedf1707a74, CI41277831539.
+- #861 A10 reconsideration: mainc3861f0e, reviewed6212a873, CI41278836076.
+- #862 A10 alternates: main385838b2, reviewed56a6692e, CI41281523889.
 - #859 autonomous-ground necessity/corollary: main332a0321, reviewedcb63cb7a,
   CI41276921929. All required checks and completed clean exact-head review passed.
 
