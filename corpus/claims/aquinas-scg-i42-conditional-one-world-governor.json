@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
+  "statement_id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [7], application from observed world order through no-other-world conclusion",
+  "interpretation": "Retain the observed mutual-service pattern, nonaccidentality inference and NO OTHER WORLD scope premise. One governor of this whole world does not automatically cover independent realms or all possible worlds. God is the source’s name for that governor, not an independently established unique necessary concrete bearer or full divine signature. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

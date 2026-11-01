@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-ALTERNATING-MOVERS-IRREGULAR",
+  "statement_id": "STMT-AQUINAS-SCG-I42-ALTERNATING-MOVERS-IRREGULAR",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [5], non-simultaneous-moving branch",
+  "interpretation": "Retain the temporal branch and source’s intermittence/irregularity rationale, including its comparison of natural and violent motions. No modern dynamical theorem, exhaustive model of coordinated alternation or modal-world interpretation is supplied. Intermittent individual motion does not become collectively irregular just by definition. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

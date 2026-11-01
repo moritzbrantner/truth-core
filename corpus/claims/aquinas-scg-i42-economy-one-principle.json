@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-ECONOMY-ONE-PRINCIPLE",
+  "statement_id": "STMT-AQUINAS-SCG-I42-ECONOMY-ONE-PRINCIPLE",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [4]",
+  "interpretation": "Preserve the conclusion NO NEED TO POSIT many, not impossibility of their existence or numerical uniqueness. Best-world-order, first-cause power meeting perfection-potency and adequate-one sufficiency are source commitments. Explanatory economy does not silently rule out independently adequate plural sources. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
