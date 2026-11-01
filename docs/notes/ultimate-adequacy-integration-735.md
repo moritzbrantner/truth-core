@@ -38,6 +38,33 @@ No new result/Comparator profile belongs to this source-reading repair.
 PRs823/850 remain held for their
 existing source failures; no identical retry or repin without new evidence.
 
+**Verified greatest-degree route.** New11-file owned batchbc19d314 plus
+imports9ce9f88d and evidence6381cc64/03c56264 passes heavy75411 (terminal0):
+full4414-job build, binding853/2legacy pins/0mismatch, Comparator/result NanoDa,
+scoped library4exports/507checked/0typeerrors, with the known axiom pretty-printer
+diagnostic. All three declaration probes are zero-axiom and independent11-file
+review passes. Frozen Challenge eeeeb1d7745107eabf3a0ea5a4ebd6c7acd7d8916806838147dbd40fc3189865
+is unchanged. The SAME actual-common-root endpoint follows from B,D,EM,E,F,HG,IG;
+old registered uniqueness and C-upgrade are reused. No MoreIn, linearity,
+injectivity, strict primacy or unique-greatest premise is inserted.
+
+Public13-file batch is prepared UNPUSHED atf46e71257446a9b6569ba9600c2408bd2066d681
+on research/greatest-degree-root-20261101, HOME worktree greatest-degree-root-public.
+It is based on905e104 and HOLD until905 lands, then fresh-main merge/gens/cheap
+checks before push. Only the attempt was refreshed to03c56264; all1891
+non-generated Lean/toolchain inputs match certified snapshot6381cc64. Body and
+baseline reports are under HOME artifacts/greatest-root-route/.
+
+Exact3706d3eb baseline comparison: common-root best9→6, both raw7;
+unique-necessary-root best7 unchanged while existing upgrade10→7 ties direct7.
+Common open union14→16, unique-necessary-root20→22, bare necessary-being63→65;
+only HG/IG are added globally, nothing removed. Bare endpoint17routes/best2
+and Catholic endpoint81premises(29/52)/12routes/best31 are unchanged. The local
+old five leaves (approach, creature-causal-order, weak maximum, strict primacy,
+others-creatures) are exchanged for HG/IG; B,E,F and the report's existing
+BorrowingEscape expansion of D remain. These are route counts, not a proof of
+philosophical package weakening, global minimality or premise truth.
+
 **Live source correction.** Independent audits confirmed that old I applies to
 EVERY weakly maximal bearer, including incomparable branches. The source's
 'most such' does not establish that strengthened antecedent scope. Repair
@@ -1729,6 +1756,7 @@ Classical logic remains the current framework.
 | F | For an actual concrete being x at the selected world, any numerically distinct cause c of its supplied esse is concrete, exists at that same world and grounds x. | STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND; cause actuality/concreteness and the grounds edge are conclusions at the same w, with no temporal-concurrence claim. |
 | G | Whatever is ontologically prior to another being actually grounds its existence; priority is not temporal. | STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND; formal candidate/domain scope still must match the owner's intended priority. |
 | H | Whenever a represented perfection has genuine grades, some being possesses it maximally. | STMT-GRADES-HAVE-A-MAXIMUM. |
+| H_G (new, open) | Some bearer of the selected being respect attains a greatest represented degree of that respect. | STMT-GREATEST-BEING-DEGREE-ATTAINED; uses the same value map as I_G, allows ties and supplies no actuality/necessity/uniqueness by itself. It is not silently inferred from old H. |
 | I | A maximum in a perfection causes that perfection in every other bearer of it. | STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS; includes tied/incomparable maxima under weak IsMaximumIn. |
 | I_G (new, open) | A bearer at a greatest represented degree of a selected perfection causes that perfection in every other bearer. | STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS; permits ties, does not assert greatest-bearer existence, and does not select old I or an order-alignment bridge. |
 | J | Whatever actually possesses any perfection has actuality of being. | STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING; applies to arbitrary recipients, not only the root. |
