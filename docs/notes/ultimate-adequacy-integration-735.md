@@ -41,6 +41,15 @@ locate that fork. Fresh #750/#755/#742 backlog guidance therefore directs the
 next entitlement comparison to adequate nonnecessitating effects versus whole
 modal necessitation, not another generic consumer. The existing autonomous-
 ground attempt preserves exact findings and limits. No new premise is closed.
+Verified Leibniz §§33,36–38 and complete ST I q19a3/q19a8 rereading
+does not warrant identifying a necessary bearer with a necessarily obtaining
+complete specification of its effect. The existing free-creation source-boundary
+attempt now records the source qualifications and exact remaining intentional-
+specification question. A fixed contingent joint condition can coexist with a
+necessary bearer; this neither explains the contingent specification by itself
+nor makes source support for whole-ground necessitation available. A bounded
+proof lane is testing the converse localization of joint contingency using the
+existing fixed-set vocabulary, with no new philosophical premise or model.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
