@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A7-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7C2, modal paragraph following step 7, with A7P4B question context",
+  "interpretation": "Reuse the existing alternate possible-impossibility report and attributed modal suffix. The question and modal paragraph match the earlier recorded alternate content; this is not actual assent or an independently proved S5/frame principle. The ordinary C2 count prefix exactly matches main and reuses its existing readings without repeating the proof.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

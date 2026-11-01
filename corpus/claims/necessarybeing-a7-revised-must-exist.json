@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A7-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A7P4C, opening automatic-existence stipulation/complement, followed by generic invitation to revisit or keep previous answers",
+  "interpretation": "Reuse only the existing κ individual-classification stipulation. Unlike A5/A6, this page asks generally whether to revisit previous answers; it does not specifically reaffirm any count-transfer, contributor or causability report. Neither button proves actual assent, preserved session state, validity of earlier answers under the changed classification, ordinary NecessaryAt identity or a κ-to-temporal/modal mapping.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-CAUSABILITY",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
