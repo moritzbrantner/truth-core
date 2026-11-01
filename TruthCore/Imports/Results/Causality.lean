@@ -48,6 +48,7 @@ import TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solution
 import TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution
 import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 import TruthCore.Results.Causality.FiniteRestriction.Solution
+import TruthCore.Results.Causality.GrimReaperFiniteTests.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
