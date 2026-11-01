@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-122-RADICAL-SKEPTICISM-FALSE",
+  "paraphrase": "Radical skepticism is false.",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

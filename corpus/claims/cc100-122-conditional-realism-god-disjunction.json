@@ -1,0 +1,15 @@
+{
+  "id": "CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
+  "statement_id": "STMT-CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 3 citing steps 1–2",
+  "interpretation": "This is the displayed conditional disjunction, not an unconditional God witness or closure of the first bridge. Its opaque-proposition logical pattern could be transcribed, but no new proof/result is created or counted as philosophical progress. Any classical logical treatment must be explicit if later formalized. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

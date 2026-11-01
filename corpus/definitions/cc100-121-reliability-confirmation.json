@@ -1,0 +1,13 @@
+{
+  "id": "DEF-CC100-121-RELIABILITY-CONFIRMATION",
+  "term": "R, really-low likelihood and comparative reliability confirmation in #121",
+  "definition": "R means our cognitive faculties are generally reliable, T theism and N naturalism. The displayed hypotheses compare conditional reliability probabilities against an uncalibrated really-low label and then against each other. Confirmation is comparative support, not actual theism or a posterior threshold.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
+    "CC100-121-CONDITIONAL-RELIABILITY-COMPARISON",
+    "CC100-121-RELIABILITY-CONFIRMATION-RULE",
+    "CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION"
+  ],
+  "note": "No numeric really-low/>> meaning, reliability measure, positive prior, hypothesis partition or observation of R is selected. R is distinct from #117 SD; defining it does not assert that it obtains. No probability or actual/necessary God theorem is introduced."
+}

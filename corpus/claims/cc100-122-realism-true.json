@@ -1,0 +1,15 @@
+{
+  "id": "CC100-122-REALISM-TRUE",
+  "statement_id": "STMT-CC100-122-REALISM-TRUE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 4",
+  "interpretation": "Preserve realism as an asserted premise separate from rejecting skepticism. The source does not specify its domain or independently establish it; it is not silently moral realism, Sum2 ontology, physicalism or the truth of every appearance. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

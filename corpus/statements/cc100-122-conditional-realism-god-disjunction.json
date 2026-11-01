@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
+  "paraphrase": "If realism without God entails radical skepticism and radical skepticism is false, then either realism is false or God exists.",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
