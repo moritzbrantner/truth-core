@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A10-PRIMA-FACIE-NECESSARY-BEING-CONCLUSION",
+  "paraphrase": "A10C says that the respondent’s reports appear to provide a prima-facie reason to think there is, more likely than not, a Necessary Being. Its causal-default/first-contingent argument and modal conditional remain the stated grounds, and the author expressly allows counter-reasons that defeat the implication. This attributes a defeasible evidential conclusion; it does not establish a numeric probability, undefeated rational warrant, actual Necessary Being or premise truth.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

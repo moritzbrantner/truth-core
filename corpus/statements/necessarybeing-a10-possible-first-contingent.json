@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NB-A10-POSSIBLE-FIRST-CONTINGENT",
+  "paraphrase": "From the reported denial of necessary universal infinite-ungrounded coverage, A10C asserts a possible complete chain with a first contingent member. It uses closure into complete chains and their lack of outside causes, and temporarily assumes that necessarily every concrete thing is contingent. The page says to proceed to its later modal argument if that assumption is dropped. This is an attributed conditional selection, not independently proved possible history, a finite-cardinality theorem or an actual first bearer.",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
