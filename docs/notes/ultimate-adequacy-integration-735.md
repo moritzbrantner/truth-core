@@ -9,12 +9,12 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Current delivery: [PR912](https://github.com/moritzbrantner/truth-core/pull/912)
 contains the verified34-file contingent/concrete batch at ddbbcf5c;
-CI41346555239 and the once-requested structured review are pending. No merge.
+CI41346555239 remains live (watch67208); exact-head structured review completed clean with both findings flags false. No merge.
 New pointwise concrete-underived assembly is committed7a92ac73 after focused
 zero-axiom proof and independent7-file review. Full build4428jobs passes;
-remaining binding/Comparator verification runs in session12952, log
+binding871/2legacy/0mismatch and Comparator/result NanoDa PASS (12952 terminal0); scoped NanoDa1module/1export/68checked/0typeerrors PASS (20591 terminal0), log
 `~/.cache/truth-core-artifacts/necessary-concrete-underived-from-necessity/full-gates.log`.
-Do not restart this live handle or advertise final mechanical verification yet.
+Attempt fc1449f3 records exact frontier delta: underived routes1→2, cheapest6→5; open-leaf union10→39, no truth discharge. Separate8-file public slice is being prepared.
 
 Latest verified delta (2026-11-01): contingent-only atomicity suffices for modal
 necessary existence, and two concrete-domain assemblies reach the existing
@@ -37,7 +37,9 @@ ActualReflexive, NoContingentConcreteSupport, ConcreteNecessaryUnionWF and EM.
 These are additional open inputs. The witness may change; exclusion covers
 existing concrete grounds at every admitted world, not abstract grounds.
 Ordinary production is not identified with existential grounding. The proposed
-pointwise assembly is assigned; it is not yet advertised as verified.
+pointwise assembly is now verified. Its additional policies remain open. Existing switching controls show modal necessity does not by itself exclude contingent supporters; complete sufficiency is not fixed indispensability. See the existing no-contingent-support discussion in underived-essence-identity.md.
+
+A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. No verification claim yet.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
 snapshot `6e159f78` (identical proof tree after integration3966d4c3). Main through PR911 is integrated (`9828aab6`).
