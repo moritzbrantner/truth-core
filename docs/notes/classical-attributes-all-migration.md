@@ -646,3 +646,8 @@ newly reaching leaves remain OPEN, including the previously existing autonomous
 full-ground commitment. No old leaf is removed or discharged. Catholic81/best31
 and every route cost/reaching set remain unchanged. This measures a new
 verified connection and its cost, not independent premise entitlement.
+
+Public PR #859 delivered this exact24-file autonomous-ground slice atcb63cb7a
+and merged as332a0321 after required CI41276921929 and completed clean exact-head
+review. Canonical integrationf101837f changes none of the verified Lean inputs.
+The source readings remain distinct from source truth and the open premises.

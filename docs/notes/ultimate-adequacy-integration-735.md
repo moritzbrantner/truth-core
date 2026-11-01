@@ -8,9 +8,11 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`0377c9c8` before this update. Main is `d7f741b6a85e71fdb82a2eae24942fd93421feff`
-through #858; its canonical ancestry integration is next, after this clean handoff commit. Integration preserves the full private research history, 468 source
-witnesses and the A9 cursor. The current committed corpus has 2570 statements,
+`f101837f` before this update. Main is `332a03217fdd8a3366e57c10e32c121968462131`
+through #859, integrated at that canonical head after #858 integration4ecdaa3d.
+The merge has no Lean or metadata delta from the already verified canonical
+proof/source inputs. Full private research history, 468 witnesses and the
+A10 P1-reconsideration cursor are preserved. The current committed corpus has 2570 statements,
 1751 claims and 809 result records. Corpus, source bindings, generated docs and
 whitespace pass. The only new Lean inputs are the verified autonomous-ground consumer below.
 Only owner ledger A is accepted; earlier explicit PSR working authorization is
@@ -31,6 +33,8 @@ Landed with all required CI and a clean completed review of each exact head:
   Abstract body is identical, with only the old extracted heading omitted.
 - #857 A9 MAIN: main7cabc661, reviewed30738138, CI41274890902.
 - #858 A9 alternates: maind7f741b6, reviewedd57394e4, CI41275792546.
+- #859 autonomous-ground necessity/corollary: main332a0321, reviewedcb63cb7a,
+  CI41276921929. All required checks and completed clean exact-head review passed.
 
 The #855 proof batch retains full build4351, binding823/2 old pins/0 mismatch,
 three Comparator/result NanoDa acceptances and scoped NanoDa127 declarations
@@ -49,8 +53,9 @@ explicit ordinary/nontrivial-entailment terminology. Independent fidelity review
 source/corpus and whitespace pass; no Lean or truth status changed. Public
 PR #857 at30738138b0e696639e5e76f1ad1c924750e63425 adds exactly nine pinned A9
 witnesses to main's411 for420 passages. All9 pass scoped live verification;
-other411 pass offline only. A5 stays queued publicly; A9 alternate pins are
-context, not completed alternate claim extraction. All required CI41274890902 and clean exact-head review passed before merge.
+other411 pass offline only. At that MAIN-only delivery, alternate pins provided
+context; their claims were separately delivered by #858. A5 stays queued publicly.
+All required CI41274890902 and clean exact-head review passed before merge.
 A9 alternates30f55352 were independently fidelity-reviewed and delivered by
 #858 after all required CI41275792546/clean exact-head review. Canonical A10
 MAIN0377c9c8 adds seven qualified claims/five bare statements and a default
@@ -76,12 +81,14 @@ unretained A5 response mismatch remains unexplained and awaits diagnostic delive
 The source-reuse audit is persisted in the existing whole-roster attempt:
 Leibniz's fact/whole scope is distinct from scoped individual PSR, and joint
 condition contingency does not reify a concrete individual. No regress is credited
-with global explanatory completeness. The adversary is testing the remaining
-fact-to-bearer/contributor connection, distinguishing bare necessary existence
-from selected productive roothood. Next actions: review/land pending exact-head
-PRs only after gates pass, finish A9 alternates, and test whether the stronger
-autonomous-full-ground route can reuse existing necessity propagation without
-an existential-ingredient premise. No owner classifications are inferred.
+with global explanatory completeness. The audit distinguishes bare necessary existence from selected productive
+roothood; the new source consumer below completes its strongest conditional
+necessity connection. Productive-contributor and actuality/adequacy applicability
+remain independently OPEN. Next actions: review the isolated public A10 MAIN
+delivery and continue the canonical P1 reconsideration subsection, then A10
+modal alternates. The source worker and adversarial worker own those separate
+workspaces. Do not reingest exhausted q3/DeEnte sources or rerun failed source
+jobs without new evidence. Record owner classifications only when received.
 Coordinator owns this note, matrix and merges; workers retain separate ownership.
 
 
@@ -102,7 +109,9 @@ atcb63cb7a5c9c8449307253c53c9fcc44a2667684, CI41276921929, carries the exact
 24-file slice on main #858. All1908 Lean/toolchain/dependency files match the
 verified canonical checkout; no duplicate cold build was run. Public metadata
 checks pass420 passages, zero changed live witnesses. Review requested once
-(comment6553905982); delivered-head CI/review are pending. Root-frontier effects:
+(comment6553905982); all delivered-head CI and completed clean structured review
+passed before merge332a0321. Canonical integrationf101837f preserves identical
+proof inputs, so completed kernel/build/binding checks are reused. Root-frontier effects:
 NecessaryBeing42→47 open reaching leaves/new route5, cheapest2 unchanged;
 Catholic81/best31/all routes unchanged. No premise closes.
 
