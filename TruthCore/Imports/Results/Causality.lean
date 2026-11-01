@@ -80,6 +80,7 @@ import TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.Solution
 import TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.Solution
 import TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution
 import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
+import TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.Solution
 import TruthCore.Results.Causality.NecessaryFirstAttributes.Solution
 import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
 import TruthCore.Results.Causality.NecessaryRootFork.Solution
