@@ -1,0 +1,25 @@
+{
+  "id": "STMT-MODAL-NECESSARY-PER-SE-IS-MAXIME-ENS",
+  "lean_declaration": "TruthCore.Causality.ModalNecessaryBeingActuality.ConfiguredConvergence",
+  "paraphrase": "For the supplied Profile/world and explicit accessible-world modalPossible/modalIsAt dictionary, every necessary-per-se candidate is identical with every maximum in being (the supplied esse respect) IF ANY. No maximum or necessary candidate exists by this proposition alone, and no candidate is independently shown maximal.",
+  "note": "Independent configured-instance identity, not the generic temporal convergence schema. The alias retains exactly its configured logical type; no reverse registered implication to the generic old statement, God naming, temporal-world identification or root migration is asserted.",
+  "definition_ids": [
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

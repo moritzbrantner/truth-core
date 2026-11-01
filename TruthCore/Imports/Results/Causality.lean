@@ -53,6 +53,7 @@ import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.JointGroups.Solution
 import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution
 import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution
