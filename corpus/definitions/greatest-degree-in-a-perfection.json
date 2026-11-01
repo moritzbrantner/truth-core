@@ -1,0 +1,11 @@
+{
+  "id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+  "term": "greatest represented degree of a selected perfection (maxime tale)",
+  "definition": "GreatestDegreeBearer InAct r value m requires m to possess r and Mathlib IsGreatest of value m in the image under value of all bearers of r. Degree has only a Preorder. Distinct bearers may have equal or preorder-equivalent greatest degrees; no strict superiority, injective grading, uniqueness or total comparability is assumed.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeBearer",
+  "note": "Explicit greatest-degree interpretation of the quarta via superlative in its approach-to-the-most context, not a claim that Aquinas supplied a modern value function or a homogeneous ontology. The supplied interpretation of degrees and its application to analogical being remain OPEN. Mere IsMaximumIn maximality allows incomparability and is not identified with this reading."
+}
