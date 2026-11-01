@@ -96,7 +96,27 @@ that article. Source worker is obtaining the full coherent a5 witness before
 reading; no conclusion is attributed in advance. Placer audit checks whether
 local duplicate capacities also ensure an issued signal's provenance, reusing
 existing phantom/least-fixed-point controls before proposing anything new.
-Both are premise investigations, not more opaque conditional proof wrappers.
+The full q3a5 range is now materialized and independently read by Root. Its
+three58680 arguments must remain distinct: shared esse→one cause (contrastive
+uniformity premise), grades→most-perfect source (imports unmoved/perfect source
+and causal degrees), and participated esse→self-subsisting source (imports first
+pure act and restricts others to those NOT their own esse). The third is not a
+refutation of plural own-esse roots without another argument. The closest exact
+common-being statement already exists from SCGI42[19]; source worker tests one
+new claim using that identity, preserving the full contrastive rationale and
+open intrinsic-common-nature rival. Other two readings are not forced onto
+stronger existing statements.
+
+Placer source audit corrects an overbroad rival comparison: controlled placement
+and indexed signals are stronger than unlabeled always-on transmission. The
+unlabeled model is not a full Placer countermodel. Reception/issuance and local
+index admissibility need an exact interface test; a physical 'first-origin'
+label need not already have truthful origin, but local bounds plus preservation
+might establish it without universal WF. The read source supports this positive
+investigation, not an accusation that Koons simply assumes his conclusion.
+Existing pruss-koons attempt preserves the completed audit; worker now checks
+source constraints before proposing a new proof. Both are premise investigations,
+not more opaque conditional proof wrappers.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
