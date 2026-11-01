@@ -1,0 +1,16 @@
+{
+  "id": "STMT-GREATEST-BEING-DEGREE-ATTAINED",
+  "paraphrase": "Some bearer of the supplied being respect attains a greatest represented degree among bearers of that same respect.",
+  "lean_declaration": "TruthCore.Causality.GreatestDegreeRootRoute.GreatestBeingDegreeAttained",
+  "definition_ids": [
+    "DEF-GREATEST-BEING-DEGREE-ATTAINED",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-ORDER-OF-BEING"
+  ],
+  "note": "This selected-being attainment is OPEN. It is not existence of a mere incomparable maximal element, a greatest bearer of every unrelated perfection, numerical uniqueness, actual-world existence or necessity. The source asserts maxime ens; its derivation and the application of supplied degrees remain independent obligations."
+}
