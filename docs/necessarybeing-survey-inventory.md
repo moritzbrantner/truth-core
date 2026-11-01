@@ -549,3 +549,19 @@ NT cannot faithfully be equated with Dia antecedent AND boxed implication: the s
 Source not-necessarily-existing/by-nature contingency is not automatically actual-presence-guarded ContingentAt. Cause-capable concreteness is not every entity or ordinary physicality. Actualist/domain/class/world/intensional and rigid-witness correspondences remain OPEN. Existing Scott/A8 closure or separation results do not establish NT transfer or independently defend nonlimitation of concrete existence. These are source attributions only: all new statements are unbound, and no Lean/argument/result/model/framework, truth flag, premise discharge or owner choice is added.
 
 Public named passage coverage rises **411→420**. The nine selected witnesses are the scoped live delta; the other 411 receive offline checks only. Alternate witnesses are read/delivered for context but alternate claims remain pending, including the revised generic revisit/keep context; no actual session/assent is inferred. No A5–A7 private progress or later history, new source kind, repin/selector change, archive fallback, PHP request or campaign completion is delivered. The public queue remains A5.
+
+
+### Public A9 alternate completion with unchanged witnesses (2026-11-01)
+
+Four accepted alternate claims add one bare revised-context NT statement, reusing the nine A9 manifests already delivered in #857. The five semantic files byte-match research30f55352; only public survey notes are adapted. No private A5–A7 progress or canonical later cursor is copied. The public **A5** queue remains next.
+
+| Alternate claim | Precise locator / reuse and scope |
+| --- | --- |
+| `NB-SURVEY-A9-ALT-POSSIBLE-IMPOSSIBILITY` | C2 modal paragraph after8, P3B context; reuses existing A2 alternate report. Ordinary prefix reuses main A9. |
+| `NB-SURVEY-A9-REVISED-MUST-EXIST` | P3C opening must-exist/complement stipulation and generic revisit/keep invitation; reuses A2 meaning without a specific NT-report reaffirmation. |
+| `NB-SURVEY-A9-REVISED-NONTRIVIAL-REDUCTIO` | NEW statement; C3steps1–8/titles in revised context. Conditional transfer/negative reports, no uniform κ substitution or selected complete NT semantics. |
+| `NB-SURVEY-A9-REVISED-ACTUALITY-CONCLUSION` | C3 final paragraph after8; reuses A2 actuality meaning, consuming discharged8 rather than hypothetical class2/NT consequence5. |
+
+All four full materializations and raw SHA/title contexts were read; independent Root fidelity review accepted the scope with no findings. P3C’s generic keep/revisit invitation is neither a specific reaffirmation nor actual/all-entry-route/session evidence. Prefix wording remains identical to main, but the revised context is recorded separately without silently changing every necessary/modal/NT term. Ordinary-to-NT remains a cross-kind commitment, negative report remains NOT NT(CNec,Cont), and the impossible-antecedent criterion is not Dia antecedent AND boxed inclusion. Outer NoPossibleNB persists1–6; only7–8 discharges possibility. Causal-capability concrete is not actual causal exercise. No new causal opportunity, count/history/limitation consequence or independent NonLimC warrant is supplied.
+
+Public A9 main+alternate **source readings** are complete, not a formal NT framework or source-soundness proof. Intensional/basis/class/actualist/world/rigid-witness correspondence remains OPEN. Total public passages stay **420**; manifests/pins/selectors are unchanged. Cached materializations and offline checks reuse prior live-byte evidence with no live fetch or retry. No new glossary, Lean/argument/result/model/framework, source kind/dependency, truth flag, owner choice, root premise discharge or campaign completion is added. A5 stays queued.
