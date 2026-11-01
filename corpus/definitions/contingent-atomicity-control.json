@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-ATOMICITY-CONTROL",
+  "term": "two modal interpretations on one atom-plus-gunk order",
+  "basis": "stipulative",
+  "definition": "Both Ontics have carrier Unit ⊕ OrderDual Nat with the SAME standard Mathlib disjoint-sum parthood and two universally accessible Bool worlds. At false every candidate exists. Strict model: the point is contingent, every gunk node necessary, and gunk0 causes the point. Reverse model: point necessary, each gunk node contingent, and point causes each gunk node. Causes occur only at false.",
+  "lean_declaration": "TruthCore.Causality.ContingentAtomicity.Control",
+  "note": "Reuses the reversed-Nat atomless mathematical component already exhibited by RegressDomains.AtomlessBoundary, without identifying parthood with causal dependence. In the strict model the caused-simple family is exactly the point, so its conditional cover and contingent atomicity are exercised nonvacuously, yet global AtomicParts fails. In the reverse model the caused-simple family is empty, conditional cover vacuous, and NE holds while contingent atomicity fails; contingent objects and coverage are still nonvacuous. Both have population, nonoverlap and selected actual coverage. These are infinite formal interpretations, not finite countermodels, metaphysically possible realities, adequate explanations or replies that a contingent causal regress explains itself."
+}

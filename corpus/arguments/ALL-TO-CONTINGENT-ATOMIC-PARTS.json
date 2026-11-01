@@ -1,0 +1,34 @@
+{
+  "id": "ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "premise_statement_ids": [
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART"
+  ],
+  "conclusion_statement_id": "STMT-CONTINGENT-ATOMIC-PARTS",
+  "inference_ids": [
+    "INF-ALL-TO-CONTINGENT-ATOMIC-PARTS"
+  ],
+  "meaning": "Structural restriction/assembly: specialize all-actual-object AtomicParts to actual contingent objects. No atomicity premise is established.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-CONTINGENT-ATOMIC-PARTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

@@ -5,5 +5,6 @@
   "definition_ids": [
     "DEF-INHABITED-CONCRETE-WORLD",
     "DEF-KANT-ONTOLOGICAL-MODEL"
-  ]
+  ],
+  "note": "Owner-accepted as a working truth for the current necessary-being investigation on 2026-11-01: the owner explicitly selected B, while expressing uncertainty about the other concrete-route inputs. This accepts an actual concrete witness at the intended actual standpoint, not population at every toy-model world, concreteness of every individual, necessary existence, or any causal/grounding principle. C_PC was described as maybe acceptable and remains tentative; AP, AC and NC remain open. No Lean axiom, self-evident flag or independent proof is added."
 }

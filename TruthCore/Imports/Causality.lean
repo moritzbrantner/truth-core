@@ -20,6 +20,7 @@ import TruthCore.Causality.ConcreteExistentialSupply
 import TruthCore.Causality.ConstitutiveConfiguration
 import TruthCore.Causality.ConstitutiveNatureUniqueness
 import TruthCore.Causality.ContingentAncestry
+import TruthCore.Causality.ContingentAtomicity
 import TruthCore.Causality.ContingentTotalityCause
 import TruthCore.Causality.ConvergentSchedule
 import TruthCore.Causality.CountCauseTimeNecessity

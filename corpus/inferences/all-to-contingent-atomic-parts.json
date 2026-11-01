@@ -1,0 +1,11 @@
+{
+  "id": "INF-ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "input_statement_ids": [
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART"
+  ],
+  "output_statement_id": "STMT-CONTINGENT-ATOMIC-PARTS",
+  "rule": "structural-restriction",
+  "meaning": "Structural restriction/assembly: specialize all-actual-object AtomicParts to actual contingent objects. No atomicity premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
