@@ -65,7 +65,9 @@ read without assuming causal well-foundedness:
 The four substantive structural inputs are actual population, actual atomic
 parts, conditional coverage of caused simples, and cause/effect nonoverlap.
 The causal principle and classical logic complete the six-head registered
-route. Full proper-part termination, activity, P6, unique complete causes,
+route. Its registered LocalCausalPrinciple retains ALL-world coverage and a
+distinct-cause clause, even though this proof uses only selected-world coverage
+and does not use that distinctness clause. Full proper-part termination, activity, P6, unique complete causes,
 grounding identity, concreteness and special modal frame laws are not inputs.
 This is an alternative route with explicit burdens, not a defense that its
 structural/causal policies describe all actual beings or a proof of God.
