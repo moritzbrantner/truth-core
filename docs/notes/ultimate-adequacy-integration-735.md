@@ -5,7 +5,37 @@ For the current necessary-root routes to the nine classical attributes, see the
 from #826. It records exact inputs, same-witness results, omission controls and
 unresolved bridges; conditional consequence does not establish premise truth.
 
-## Current coordinator handoff (supersedes the snapshots below)
+## Current coordinator handoff
+
+Branch: `research/lean-existential-self-actualization-20261031`; latest verified
+proof commit `edb1825e`. Main now includes #879 (`903178ac`, remaining selected
+unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
+merged after clean exact-head reviews and all required CI success/skips.
+Canonical integration of these two merges is next, after the #124 source write
+window closes; retain the later canonical source history and retired cursors.
+
+`FIXED-CONSTITUENT-NECESSARY-BEING` passed full original verification handle
+39369: build4392, bind838/2existingpins/0mismatch, Comparator/result NanoDa,
+scoped NanoDa5new/78dependency declarations/0type errors. All three proof
+helpers/theorems are zero-axiom. Independent16-file review passes. The owned
+attempt records exact freeze, inputs and boundaries. Public delivery is assigned
+to adversarial_uniqueness; no public PR exists for this result yet.
+
+Open source PR #880: head `82f49959a323c92b8a9c6b60ddd590ab56dd7542`, CI
+41292234322 running, review requested once; covers #115–117 only. Canonical
+source #118–123 is reviewed/committed; latest #123 `1617d091`. Worker owns final
+#124 literal/context quantifier readings, not yet reviewed; campaign successor
+is not selected. Source coverage does not establish its open commitments.
+
+Only ledger A is owner-accepted; scoped PSR working authorization persists.
+The new composed route retains all original four producer inputs (ReasonClosed
+bundles five clauses) and adds two OPEN fixed-constituent policies. Candidate
+removal of unused nonCopy and upfront target contingency is independently
+supported conceptually, but has no frozen/verified variant yet. No unique,
+concrete, causal, personal or divine character is inferred for the new bearer.
+
+## Earlier coordinator snapshot (historical evidence)
+
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
 `54b00408` before this update. Main is `4de00622` through #872, integrated in
