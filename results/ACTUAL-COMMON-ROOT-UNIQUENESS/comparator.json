@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ActualCommonRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualCommonRoot.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ActualCommonRoot.uniqueRoot"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
