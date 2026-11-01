@@ -1,0 +1,10 @@
+{
+  "id": "DEF-NB-A3-EVENT-AND-CAUSE",
+  "term": "essential-state event and prior explanatory cause (survey A3)",
+  "definition": "An event is a change from one state of affairs to another with those states essential to its identity. A3P1 describes a cause as a prior condition capable of explaining or partly explaining an event; A3C describes a prior condition that explains or partly explains something else. Possible causability of the SAME event must preserve its essential states. Neither wording alone defines a concrete individual bearer, temporal presence or complete explanatory sufficiency.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A3-POSSIBLE-EVENT-CAUSABILITY",
+    "NB-SURVEY-A3-PRIOR-CAUSE-EXCLUSION"
+  ]
+}

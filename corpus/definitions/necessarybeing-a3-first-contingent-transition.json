@@ -1,0 +1,9 @@
+{
+  "id": "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+  "term": "first nonrigid contingent transition (survey A3)",
+  "definition": "The source event C* changes from no contingent things to some contingent things; no contingents previously existed. All does not rigidly designate particular individuals across worlds. This source glossary does not select a formal time/order, history-to-existence bridge or Scenario event dictionary.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A3-NONRIGID-FIRST-TRANSITION"
+  ]
+}

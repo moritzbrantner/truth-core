@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A3-PRIOR-CAUSE-EXCLUSION",
+  "paraphrase": "Given possible occurrence of the none-to-some transition C* and possible-event causability, the source asserts possible causation of that same transition. It excludes a contingent cause because no contingent thing can exist prior to the beginning of all contingent things, and infers a possible noncontingent cause. The conclusion tooltip calls a cause a prior condition that explains or partly explains something else.",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

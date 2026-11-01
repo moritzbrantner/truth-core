@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A3-NONRIGID-FIRST-TRANSITION",
+  "paraphrase": "The source asserts that a possible beginning C of all contingent things entails a possible event C* changing from no contingent things to some. Its note makes all nonrigid: C* is the first occurrence of some contingent things with none previously existing, not a fixed collection of particular individuals across worlds. These before/after states belong to the event identity.",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

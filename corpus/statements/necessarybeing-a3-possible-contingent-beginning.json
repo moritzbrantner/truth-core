@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A3-POSSIBLE-CONTINGENT-BEGINNING",
+  "paraphrase": "Conditional on selecting the affirmative A3P2 answer, it is possible for the existence of all contingent things to have a beginning. The source means a change to a new state of affairs, calls contingent what does not by nature have to exist, and gives a Big Bang only as an illustration. This is not an assertion that the actual world began.",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

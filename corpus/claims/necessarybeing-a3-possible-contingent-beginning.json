@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A3-POSSIBLE-CONTINGENT-BEGINNING",
+  "statement_id": "STMT-NB-A3-POSSIBLE-CONTINGENT-BEGINNING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3P2, question, possible/beginning/contingent title attributes and affirmative-answer continuation",
+  "interpretation": "The source question is interpreted conditionally, not as actual assent or independent truth. Immediate A3C steps1–4 and its note clarify the nonrigid none-to-some reading; no fixed actual roster, simultaneous beginning of each actual individual or encoded Scenario beginning predicate is attributed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
