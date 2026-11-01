@@ -1,0 +1,10 @@
+{
+  "id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "argument_id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Challenge",
+  "solution_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Solution",
+  "theorem": "TruthCore.Results.Causality.IndexedSignalProvenance.controls",
+  "comparator_config": "results/INDEXED-SIGNAL-PROVENANCE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Use constant some(0) with no issuing nodes for conservation without the bound; use some(0) only at station0, with no issuing nodes, for the bound without conservation. Both fail provenance. Constant none with no issues satisfies both local interfaces. No metaphysical possibility or causal interpretation is inferred. No root-path premise discharge or real-world applicability is asserted."
+}

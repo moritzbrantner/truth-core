@@ -1,0 +1,9 @@
+{
+  "id": "INF-INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "rule": "same-carrier-interface-omission",
+  "meaning": "Use constant some(0) with no issuing nodes for conservation without the bound; use some(0) only at station0, with no issuing nodes, for the bound without conservation. Both fail provenance. Constant none with no issues satisfies both local interfaces. No metaphysical possibility or causal interpretation is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "paraphrase": "On the same Nat station/code carrier, local conservation without index admissibility permits an unissued signal; admissibility without conservation also permits an unissued signal. A quiet assignment satisfies both interfaces with no signals or issuance, so they imply no firing or nonempty-output law. These are formal assignments only.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.Controls",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}
