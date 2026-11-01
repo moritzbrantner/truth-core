@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A4-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C2, modal paragraph after causal step 17 and notes 1–2, with A4P4B question context",
+  "interpretation": "The P4B question and C2 modal paragraph/full suffix exactly match the existing A2 alternate input. Reuse that proposition identity, keeping the recalled affirmative report conditional rather than asserting actual respondent assent or a verified S5/frame principle. C2’s ordinary-class causal prefix matches A4 main and retains its reductio scope; no repeated prefix or suffix proof is added.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
