@@ -80,8 +80,16 @@ and inspected the six alternate claim records and two new statements. The
 source-fidelity review found no blocking issue: short P2C does not silently
 supply C3's full recalled conditional, stock fact contingency is not silently
 reclassified as κ individual contingency, and step17's hypothetical cause is
-not exported as step20's discharged conclusion. The writer is completing the
-existing attempt/inventory record and checks. The exact-strength proof has its
+not exported as step20's discharged conclusion. The A5 alternate batch is committed at `648697c5`: six claims, two new bare
+statement meanings, four exact reuses and the existing attempt/candidate/inventory
+updates (11 files). Source manifests and Lean proofs are unchanged. Source
+check passes with468 passages/1708 claim bindings; corpus check passes with2530
+statements/1708 claims including concurrent prepared proof records. Public
+publication still depends on #850, and the four named alternate manifests remain
+private. The queue advances to A6; its main four witnesses have been materialized
+and read by Root, and a read-only eight-witness audit is assigned. The new
+existence-situation coverage/domain-admission distinction must not silently
+inherit A5's nonempty conditional guard. The exact-strength proof has its
 new Challenge frozen and records prepared; focused compilation is queued behind
 the already live #823 baseline build. Neither queued compilation nor source
 fidelity acceptance is a completed Comparator/NanoDa gate.
