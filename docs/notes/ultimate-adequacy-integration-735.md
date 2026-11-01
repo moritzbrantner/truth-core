@@ -43,7 +43,7 @@ pointwise assembly is now verified. Its additional policies remain open. Existin
 A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d passed CI41347478634 SUCCESS/SKIPPED and clean structured exact-head review; PR914 is MERGED at edbd6c92, merge16897 terminal0. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `bd9b6aea` (both supplied-root consumers; identical proof tree after main916 integration). Main through PR916 is integrated (`8198058e`, merge496171f6).
+snapshot `bd9b6aea` (both supplied-root consumers; identical proof tree after main916 integration). Main through PR917 is integrated (`be2bf05d`, merged1b9c78a).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
@@ -102,10 +102,36 @@ contribution/parthood edges cannot be substituted for complete-production edges.
 No source existence, necessity or grounding correspondence follows from an
 at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 terminal0 PASS:4430jobs,873bound/2legacy/0mismatch, Comparator/resultNanoDa, scoped1module/1export/672checked/0typeerrors (known axiom pretty-printer diagnostic). No premise truth discharged.
 
+### Alternative verdicts and live tree audit
+
+The classification audit found no unconditional refutation claim in the inspected
+formal records. Preserve these separate conclusions:
+
+| Alternative | What the inspected evidence establishes | What remains open |
+| --- | --- | --- |
+| Brute contingent foundation | Incompatible with the supplied coverage demand; not inconsistent merely by existing without an explanation. | Independent coverage/adequacy warrant; owner D1 is retained. |
+| Infinite contingent ancestry | EXPLANATORY-ADEQUACY-CORE excludes its exact joint commitments; local links do not certify total explanation. | Intrinsic global-structure interpretation and adequacy, not mere cardinal infinity. |
+| Plural ultimate roots | The joint five-being confluence control permits two roots but does not retain both complete-producer policies from PR915. | Same-graph connectivity, individuation and those productive policies. |
+| Impersonal necessary foundation | PHYSICAL-GROUND-VERDICTS preserves the intellect/will/Uniting separators. | Applicability of q14/q19 and cognitive interpretation; concrete does not mean material. |
+| Intrinsic global structure | Unique-feedback/history-selection certificates establish mathematical assignment/uniqueness. | Ontic realization and complete explanatory adequacy, not supplied by the unique solution. |
+
+No comparison combines witnesses from different models into one certified rival.
+The existing physical-ground note now links the new conditional consumers;
+#311's proposed structural account and #312's completed Della Rocca reading
+status were corrected without changing premises or source claims.
+
+Live browser inspection confirmed the argument tree at
+https://moritzbrantner.github.io/truth-core/forest/?goal=STMT-NECESSARY-CONCRETE-AT .
+Navigation calls it **Forest**, second item. At inspection the deployed revision
+was cd02a8ce; both tree/AND-OR branches and Explore-negation worked with no browser
+errors. Pages deployment is independent of CI source verification;8198058e's
+Pages41349686863 was still building, while be2bf05d Pages41351200904 was pending.
+No tree/base-path defect was found or cache fault assumed.
+
 ### Registered cumulative chain (new consumers at bd9b6aea)
 
 Published15-file [PR917](https://github.com/moritzbrantner/truth-core/pull/917)
-at c44d83de; CI41349935479 and once-requested exact-head review pending.
+at c44d83de passed CI41349935479 SUCCESS/SKIPPED and clean exact-head structured review. MERGED be2bf05d; merge31772 terminal0.
 Final public baseline8198058e→PR: God-root open union33→61, routes2→3,
 best27 unchanged; unique-classical-God85→105, routes6/best22 unchanged.
 The two endpoint consumer counts each change0→1. Catholicism81/12/best31
@@ -1247,6 +1273,37 @@ and collected its exit0 and successful close response. No service/session is
 left running; no dependency or proof-status registry was added.
 
 ### Koons witness availability audit (2026-11-01)
+
+**Later controlled availability follow-up (not a replacement witness).** Full
+main8198058e failed source job124977030955 in41349686917 at21:06:09UTC:
+original live403 plus archive connection refused. Maincd02a8ce and ef8e934d also
+failed. PR917's green source step checked0 live changed passages and443 offline,
+so it does not establish recovery. Latest mainbe2bf05d CI41351200918 remained live
+on inspection. PR850's distinct latest failure is A5C byte drift in41263633842;
+its cause must not be conflated with Koons availability.
+
+The exact unchanged single-source resolver reproduced locally in90341 returns
+288584 bytes and the existing SHA2565e830611243d675d2159b319e103a67458fb64b70279e83199f559dd118fcdd0.
+The first local canonical74083 attempt instead hit local/tmp quota after network
+fetch; it is not evidence of the hosted failure. Cache was then confined to the
+existing/var/tmp proof scratch and deleted afterward; trusted cache was untouched.
+
+ONE isolated hosted canonical-resolver probe41351585911 at11092160ba4657284e159cd6d81de805f3bd9f05
+also passed that exact byte count/hash. Helper blob70afd669a289fbea555ad62a86d118ec75eb416a
+and manifest blob80bc44d1637fc9822479ea07b8060f3db9e9124f match main. It uses
+use_cache=False with ephemeral RUNNER_TEMP cache, original headers/internal3retry
+policy and no outer retry. It is a temporary diagnostic branch, not a production
+fix. No cause, recovery, repin or verifier relaxation follows from this success.
+
+Next authorized bounded probe: one hosted A isolated / B exact full-verifier
+prefix through Koons / C isolated fresh-process contrast, then stop. Prefix on
+failedmain8198058e and currentroot is identical:235 rows,80web including Koons,
+150Git rows queued as31 snapshots (not fetched before Koons),4media,1bibliographic.
+Forward materialize_web_snapshot kwargs including fetch_once unchanged and stop
+at target. Ranked distinctions are preceding requests, process state, and
+intermittent archive reachability; none is established. No PR823/850 retry is
+scheduled merely because the isolated probe passed.
+
 
 Fresh diagnostic head e588c155 failed job124755257453 in CI41274982379 at
 05:02:15 UTC: KOONS-REPLY-OPPY-PP193-194 official PDF returned HTTP403 and its
