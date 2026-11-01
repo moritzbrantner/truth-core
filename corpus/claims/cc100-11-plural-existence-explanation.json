@@ -1,0 +1,15 @@
+{
+  "id": "CC100-11-PLURAL-EXISTENCE-EXPLANATION",
+  "statement_id": "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.25, argument #11 Pruss and Rasmussen, step 1",
+  "interpretation": "This is particular-plurality existence-fact coverage, not merely one existence fact per individual, ordinary Ontic causation, fact PSR for arbitrary truths or collective causal sufficiency. The parenthetical concrete meaning is possible causal capability; it does not select the repository’s concrete predicate without correspondence. Empty/singleton/totality admission and actual-world extent are not independently specified. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
