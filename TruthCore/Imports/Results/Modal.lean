@@ -33,6 +33,7 @@ import TruthCore.Results.Modal.K.Laws.Solution
 import TruthCore.Results.Modal.K.ScopeBoundary.Solution
 import TruthCore.Results.Modal.LimitationPossibility.Control.Solution
 import TruthCore.Results.Modal.LimitationPossibility.Solution
+import TruthCore.Results.Modal.LimitationSeparation.Solution
 import TruthCore.Results.Modal.NecessaryIfConnectivity.Solution
 import TruthCore.Results.Modal.NecessaryIfExistent.Solution
 import TruthCore.Results.Modal.NecessaryPotentialCausers.Solution

@@ -1,0 +1,49 @@
+{
+  "id": "NONLIMITING-CONCRETE-EXISTENCE",
+  "premise_statement_ids": [
+    "STMT-POSSIBLE-ABSENCE-IS-LIMITING-AT",
+    "STMT-CONCRETE-EXISTENCE-IS-NONLIMITING-AT",
+    "STMT-LIMITATION-BACKWARD-CLOSED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "inference_ids": [
+    "INF-NONLIMITING-CONCRETE-EXISTENCE"
+  ],
+  "meaning": "Specialize the separation result to Phi = concrete-and-ExistsAt and Q = accessible absence under the SAME Profile Ontic. The SAME accessible individual is concrete and present but lacks any accessible absence; EM therefore yields NecessaryAt there. Euclidean sibling access and selected-world reflexivity transport that SAME c to actual existence and necessity at w, giving the existing NecessaryConcreteAt endpoint. Exactly six inputs: specialized known limitation of possible absence, specialized nonlimitation of concrete existence, existing backward closure, EM, Euclidean frame and actual reflexivity. Neither necessity nor powerful-NB identity occurs inside Phi. No PSR, sourcehood, causal law, R interpretation, source entitlement, God or uniqueness follows.",
+  "definition_ids": [
+    "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+    "DEF-LIMITATION-SEPARATION-WITNESS",
+    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NONLIMITING-CONCRETE-AND-SOURCE-NB",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+  ]
+}

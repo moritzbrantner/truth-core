@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.LimitationSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.LimitationSeparation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.LimitationSeparation.separate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

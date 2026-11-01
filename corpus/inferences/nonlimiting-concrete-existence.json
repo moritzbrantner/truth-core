@@ -1,0 +1,16 @@
+{
+  "id": "INF-NONLIMITING-CONCRETE-EXISTENCE",
+  "input_statement_ids": [
+    "STMT-POSSIBLE-ABSENCE-IS-LIMITING-AT",
+    "STMT-CONCRETE-EXISTENCE-IS-NONLIMITING-AT",
+    "STMT-LIMITATION-BACKWARD-CLOSED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "limitation-separation-and-same-individual-modal-consequence",
+  "meaning": "Specialize the separation result to Phi = concrete-and-ExistsAt and Q = accessible absence under the SAME Profile Ontic. The SAME accessible individual is concrete and present but lacks any accessible absence; EM therefore yields NecessaryAt there. Euclidean sibling access and selected-world reflexivity transport that SAME c to actual existence and necessity at w, giving the existing NecessaryConcreteAt endpoint. Exactly six inputs: specialized known limitation of possible absence, specialized nonlimitation of concrete existence, existing backward closure, EM, Euclidean frame and actual reflexivity. Neither necessity nor powerful-NB identity occurs inside Phi. No PSR, sourcehood, causal law, R interpretation, source entitlement, God or uniqueness follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

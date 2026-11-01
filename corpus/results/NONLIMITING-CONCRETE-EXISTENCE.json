@@ -1,0 +1,10 @@
+{
+  "id": "NONLIMITING-CONCRETE-EXISTENCE",
+  "argument_id": "NONLIMITING-CONCRETE-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution",
+  "theorem": "TruthCore.Results.Causality.NonlimitingConcreteExistence.necessaryConcrete",
+  "comparator_config": "results/NONLIMITING-CONCRETE-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Specialize the separation result to Phi = concrete-and-ExistsAt and Q = accessible absence under the SAME Profile Ontic. The SAME accessible individual is concrete and present but lacks any accessible absence; EM therefore yields NecessaryAt there. Euclidean sibling access and selected-world reflexivity transport that SAME c to actual existence and necessity at w, giving the existing NecessaryConcreteAt endpoint. Exactly six inputs: specialized known limitation of possible absence, specialized nonlimitation of concrete existence, existing backward closure, EM, Euclidean frame and actual reflexivity. Neither necessity nor powerful-NB identity occurs inside Phi. No PSR, sourcehood, causal law, R interpretation, source entitlement, God or uniqueness follows."
+}

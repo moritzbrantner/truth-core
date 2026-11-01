@@ -1,0 +1,10 @@
+{
+  "id": "LIMITATION-SEPARATION",
+  "argument_id": "LIMITATION-SEPARATION",
+  "challenge_module": "TruthCore.Results.Modal.LimitationSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Modal.LimitationSeparation.Solution",
+  "theorem": "TruthCore.Results.Modal.LimitationSeparation.separate",
+  "comparator_config": "results/LIMITATION-SEPARATION/comparator.json",
+  "status": "solution-present",
+  "description": "From SAME known-limiting Q, nonlimiting Phi, backward closure and explicit EM, derive an accessible individual with Phi and not Q. If no such witness existed, EM on Q at each Phi-exemplar would give boxed universal Phi-to-Q inclusion, so closure would classify Phi limiting, contradicting nonlimitation. Typed reuse of the existing property/classifier vocabulary; a new direct stronger proof rather than an invalid projection from the old weaker possible-exemplification result. No frame law, source interpretation or necessity is added."
+}

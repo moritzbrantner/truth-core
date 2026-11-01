@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMITATION-SEPARATION-WITNESS",
+  "term": "accessible target exemplar outside a known limiting property",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.LimitationSeparation.PossiblyOutsideAt",
+  "definition": "PossiblyOutsideAt F Q Phi w is the existing Dia F of an individual c satisfying Phi c v and not Q c v at the SAME accessible v. It carries more information than possible target exemplification alone. No actualist existence predicate, classifier truth, power, necessity or frame law is built in.",
+  "note": "The existing generic KnownLimitingAt/NonlimitingAt/BackwardClosedAt plus explicit EM yield this witness by excluding boxed Phi-to-Q inclusion. This stronger consequence requires a direct proof; the old possible theorem does not expose a counterexample outside Q."
+}
