@@ -21,9 +21,10 @@ The full25 control retains a distinct actual necessarily existing non-God
 effect and does not certify the seven historical inputs. See the existing
 matrix's “Same-witness named God and root consumer” subsection.
 
-A2 alternate source readings are public in PR #839 at
-`bdc32cabc78ac60e93ea3e7ebbd562388f0e93aa`; current-head review found no major
-issues and required CI is still running. The source-only public branch excludes
+A2 alternate source readings were delivered in PR #839 at
+`bdc32cabc78ac60e93ea3e7ebbd562388f0e93aa`; exact-head review found no findings
+and required CI passed. Main merge `7cd1a3dfaeeff58f63aa00d2b4cc491c55c9c0ce`
+is integrated by `c7c5f8d7`, preserving fuller private source history. The source-only public branch excludes
 the private later witness history. The separate math publication is PR #840 at
 `aa1ef0e4ebde6782c44c92cd2981e3e7e9b2223d`, prepared in the existing
 root-perfect-goodness worktree. Review and CI41256501034 are pending; no merge
@@ -33,14 +34,27 @@ media spans without local exports were not re-verified, and one bibliographic
 span remains citation-only. Offline manifest/corpus/generated-index/whitespace
 checks also pass.
 
-Next bounded research task: test whether existing maximum-in-being machinery
-plus actual-grounding asymmetry derives the existing WholeRosterNotTrapped
-endpoint, actualizing the SAME maximum via B/E/F/Iesse/Hesse/EM. This would
-supply an alternate route replacing D by an explicit order condition while
-retaining the causal/maximality inputs, not an independent actuality-to-adequacy
-discharge or a global weakening. The adversarial worker owns only the new
-WholeRosterFromMaximumAsymmetry module/result and its corpus records. The
-proposed derivation is unverified until the new proof and required checks pass.
+The alternative foundation result is now verified at `c3d9183f`:
+`WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY` derives the existing WholeRosterNotTrapped
+endpoint from B/E/F/Iesse/Hesse/EM and selected actual-grounding asymmetry.
+The same initially unguarded maximum is actualized and proved source-like;
+C is absent from this lemma and remains necessary for the later modal step.
+The existing asymmetry declaration receives an explicit OPEN statement/definition
+binding; no new relation, source attribution or truth closure is introduced.
+Full build4337, binding811/2pinned/0mismatch, Comparator, independent NanoDa
+(solution and95-declaration module scope), empty helper/theorem axiom reports
+and independent type/prose review pass. Source manifests are unchanged;
+offline source/corpus/generators/diff checks pass.
+
+For the25-input route, D can be replaced by asymmetry retaining the other24.
+This is an alternative package, not global weakening or philosophical discharge.
+Cheapest root cost31 and32-input consumer cost37 remain unchanged. The newly
+connected alternative increases the global reaching-root open union73→81
+(23bare/50sourced→29bare/52sourced), removes no open leaves, and adds only one
+new statement identity (the binding for existing asymmetry). Exact newly
+reaching IDs and proof boundaries are in the existing attempt and matrix.
+Its focused public PR is being prepared in count-temporal; the private later
+witness history and entire research handoff are excluded from that patch.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
