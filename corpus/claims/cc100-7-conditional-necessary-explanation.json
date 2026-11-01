@@ -1,0 +1,15 @@
+{
+  "id": "CC100-7-CONDITIONAL-NECESSARY-EXPLANATION",
+  "statement_id": "STMT-CC100-7-CONDITIONAL-NECESSARY-EXPLANATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.14, argument #7, step 5 under steps 1–4",
+  "interpretation": "The presentation concludes necessary explanation under its preceding commitments. The factive obtaining/classification step from not-contingent to necessary is not separately defended. A necessary fact or explanation is not thereby a concrete necessarily existing individual, an exercised cause, God or a SAME rigid bearer. Fact-versus-being and modal-domain correspondence remain OPEN; no formal consequence or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

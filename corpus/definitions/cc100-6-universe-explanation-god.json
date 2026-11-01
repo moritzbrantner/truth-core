@@ -1,0 +1,12 @@
+{
+  "id": "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD",
+  "term": "universe, explanation and God in presentation #6",
+  "definition": "Universe is the existent totality named in #6; this slide does not define it as #5’s collection of all contingent beings. Explanation is its unelaborated explanatory role, and God is the label explicitly identified with that explanation by the bridge premise. No typed reason, cause, grounding relation, metaphysical bearer or classical-attribute signature is selected by this glossary.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-6-EXISTENCE-EXPLANATION",
+    "CC100-6-EXPLANATION-GOD-BRIDGE",
+    "CC100-6-CONDITIONAL-GOD-EXISTENCE"
+  ],
+  "note": "Minimal editorial source glossary for p12, not an existence/naming proof. Examples, explanatory adequacy, actual bearer/factivity, modal scope and identity with existing God-route interfaces remain OPEN. No all-world PSR or uninspected Davis/Craig text is imported."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CC100-6-EXPLANATION-GOD-BRIDGE",
+  "statement_id": "STMT-CC100-6-EXPLANATION-GOD-BRIDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.12, argument #6, step 4",
+  "interpretation": "This is the displayed explicit naming/identity bridge, not an independently defended inference from explanation to God. No cause, maximum, uniqueness or attribute dictionary is supplied that identifies it with an existing God-route adapter. The record supplies no proof or truth closure.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
