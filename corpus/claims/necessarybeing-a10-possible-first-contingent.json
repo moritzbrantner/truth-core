@@ -1,0 +1,20 @@
+{
+  "id": "NB-SURVEY-A10-POSSIBLE-FIRST-CONTINGENT",
+  "statement_id": "STMT-NB-A10-POSSIBLE-FIRST-CONTINGENT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10C, first argument paragraph from reported coverage denial through the parenthetical necessarily-all-concreta-contingent assumption, with concrete/infinite/ungrounded titles",
+  "interpretation": "Keep the source’s finite/infinite contrast tied to its no-first-member title, rather than silently imposing finite cardinality or linear comparability. Denial of coverage, complete-chain closure and existence of a first contingent require their precise domain/nonemptiness/ancestry correspondences; they are not all supplied by modal duality alone. HeadlessCausalAncestry.source_of_not_headless_coverage is an existing source-free graph consequence only under its explicit graph and EM hypotheses; it does not certify this source paragraph or an outgoing causal role. The all-contingent assumption is temporary context, not established truth or a new actual population. Preserve C’s nominal Necessary Being title as cause-capable, whereas P2/C concrete includes cause-OR-effect capability. Matching P2/C coverage domains removes only the older textual mismatch. Dropping necessarily-all-concreta-contingent may supply a noncontingent concrete effect-only candidate; it does not automatically supply the source Necessary Being’s cause-capability. That source-domain bridge remains OPEN. A bare necessary-concrete endpoint can still be relevant under appropriate modal/correspondence premises; this note is not a refutation of that weaker endpoint.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

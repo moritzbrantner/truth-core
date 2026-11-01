@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10p1.html",
+    "retrieved_at": "2026-10-31T19:50:38Z",
+    "sha256": "sha256:1157ae002f40252ed928ade7751bc81fc1bd516ffe1e8ed9eb69ceb24464b20f",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10P1",
+      "locator": "A10P1, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10P1,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "As a rule of thumb, do contingent things generally have a cause?"
+        }
+      },
+      "text_sha256": "sha256:8d689fabee0f8787d9a61c137f941cea7066291e9a699fb495377849094404a7",
+      "incipit": "As a rule of thumb, do contingent things generally have a cause?\nIt seems s"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A10-MODAL-ACTUALITY-CONDITIONAL",
+  "paraphrase": "A10C presents the conditional escalation from possible Necessary Being to actual Necessary Being using its reported necessity-of-possibility principle, the definition/stipulation step from possible N to possible necessary N, classical modal duality and the final necessity-to-actuality step. The twelve-step suffix takes possible N as its input; it does not independently establish that input from the preceding defeasible reasoning, a rigid necessary individual or actual causal exercise.",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
