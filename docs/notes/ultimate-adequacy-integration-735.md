@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Branch: `research/lean-existential-self-actualization-20261031`; latest verified
-proof commit `edb1825e`. Main now includes #879 (`903178ac`, remaining selected
+proof commit `68d95270`. Main now includes #879 (`903178ac`, remaining selected
 unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
 merged after clean exact-head reviews and all required CI success/skips.
 Canonical integration is c33c4461; 29a49e87 preserves retirement of the
@@ -21,8 +21,9 @@ scoped NanoDa5new/78dependency declarations/0type errors. All three proof
 helpers/theorems are zero-axiom. Independent16-file review passes. The owned
 attempt records exact freeze, inputs and boundaries. Public delivery is assigned
 to adversarial_uniqueness and published as PR #881, head
-`0878081b699316954ba371013538362fde1f35dd`; CI41292510171 running,
-review requested once. Exact public dependency identity covers109 modules;
+`0878081b699316954ba371013538362fde1f35dd`; merged
+`926b936aa64b52acd48dfc26718a301221c3fe02` after clean exact-head review
+and all required CI41292510171 success/skips. Exact public dependency identity covers109 modules;
 Catholic81/all12routes unchanged; NE56→61 addsfiveopenheads, routes14→15,
 newrawcost5 with EMfloor and bestexisting2 unchanged.
 
@@ -33,7 +34,8 @@ source #118–124 is reviewed/committed; final #124 `8a433eab` preserves
 literal/context quantifier readings and retires the exhausted selected range.
 The selected foundation, unity and reality source ranges are extracted; no
 whole-deck completion is claimed. Next bounded source investigation is Koons
-1996 §7 Corollary1 constitution/involvement, read-only planning before records.
+1996 §7 Corollary1 constitution/involvement completed c8e89ade (five precise
+source readings, no truth closure); its public slice is assigned.
 Source coverage does not establish its open commitments.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
@@ -44,7 +46,8 @@ WeakAccountNecessaryBeing variant, frozen Challenge
 969395d349ee557aa7017422c21c5f41825cae2194c25ad486fbb32c98c493ef.
 Full original verification handle5062 passes: build4394, bind839/2oldpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa11new/88closure/0type errors. Both
-theorems have zero axioms; independent final metadata review is pending. The
+theorems have zero axioms; independent final metadata review passes.
+Committed68d95270; public preparation is resumed after parent #881 landing. The
 conditional route now mechanically omits upfront contingency and nonCopy;
 remaining four account clauses, foundedness and constitution policies stay OPEN. No unique,
 concrete, causal, personal or divine character is inferred for the new bearer.
@@ -1303,6 +1306,43 @@ strict CF3 remains explicit. Necessary-fact-to-individual constitution and
 actual fact population also require faithful domain correspondence. See the
 [primary reading audit](../../corpus/attempts/koons-new-look-preprint-cf-scope-20261101.json).
 No joint-condition theorem alone supplies a real actual covering object.
+
+### Verified weaker-account route: four OPEN obligation groups
+
+These are optional route labels, not replacements for A–O or CF. Fresh dossiers
+for all four exact statement IDs report `established: false` and no supporting
+source claim. Only A remains owner-accepted. Classical excluded middle is an
+explicit theorem input and the existing corpus floor, not a new truth selection.
+
+| Label | Commitment required by this route | Exact statement |
+| --- | --- | --- |
+| WA | A selected fact account contains x; every member is actually true; every admitted reason for a member belongs to the account; every contingent member has an admitted reason. These are FOUR separate clauses in one transparent bundle. | STMT-WEAK-REASON-CLOSED-ACCOUNT-AT |
+| WF | The admitted-reason relation restricted to contingent members of this account is well-founded. | STMT-CONTINGENT-REASON-FOUNDED-AT |
+| KN | Each member has a nonempty assigned set of ordinary candidate bearers, fixed across worlds. Assignment alone does not establish real constitution. | STMT-ACCOUNT-CONSTITUENTS-NONEMPTY |
+| KR | Whenever that same account fact obtains, every member of its fixed assigned set actually exists at that world. | STMT-ACCOUNT-CONSTITUENTS-REALIZED |
+
+The checked `WEAK-ACCOUNT-NECESSARY-BEING` theorem at 68d95270 uses these four
+groups plus excluded middle. No upfront contingency of x and no nonCopy clause
+are required. Compared with the previous six-head fixed-constituent result,
+this removes two commitments; it is not a global minimality result. Five named
+heads include a four-clause bundle, so the route cost of four open heads does
+not mean four atomic philosophical assumptions.
+
+Connection: suppose there is no actual necessary ordinary bearer. Any account
+member that were necessary would, through KN/KR and its actual truth, supply
+such a bearer. Every account member is therefore contingent. WF supplies a
+contingent member with no contingent account reason; WA supplies a reason and
+keeps it in the same account, contradicting that result. The proof imports the
+checked fixed-bearer consumer and contingent-reason descent theorem.
+
+This fact route needs neither a real fusion/covering object nor a cause-outside-
+effect policy. It instead retains WF and the explicit fact-to-bearer policies;
+no global weakening relative to the cover route is claimed. The owner's D1
+regress-insufficiency objection is preserved, but does not by itself select
+this WF proposition or establish its real-world application. The Koons Cor1
+readings at c8e89ade distinguish source assumptions and the transfer inference;
+they are not automatic bindings or independent proofs of KN/KR. No uniqueness,
+concreteness, causal role, underivedness or divine attributes follow here.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
