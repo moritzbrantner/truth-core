@@ -1222,13 +1222,42 @@ these principles' applicability to reality.
 
 A + CF1–CF5 entail SOME actual necessary being in the shared Ontic. They do not
 establish that the selected cause is necessary, unique, concrete, underived or
-God. There is no well-foundedness, finite-chain, S5, modal downward-closure,
+God. The original CF2 package has no well-foundedness, finite-chain, S5, modal downward-closure,
 overlap-extensionality or selected necessary-parts-fusion premise. This is a
 new alternative package, not a proved global weakening of every earlier route.
-The six-input result retains A explicitly; its Model explanation field is
+The original six-input result retains A explicitly; its Model explanation field is
 unused and adds no PSR/quality condition. Only A is currently owner-accepted.
 The owner may classify each CF row True, Provisional, Open or Reject with an
 interpretive qualification. No continuation or elapsed wait selects a row.
+
+### Verified substitutions for the conditional-fusion route (all OPEN)
+
+The separately verified MF2 route replaces CF2 with existing **MF2**, selected-
+world reflexivity. It directly actualizes a necessary candidate; it does not
+prove that an arbitrary part of an actual whole is actual. These are different
+commitments, without a global implication claim between CF2 and MF2.
+
+The verified actual-cover route additionally uses these weaker requirements:
+
+| ID | Intended principle | Exact premise |
+| --- | --- | --- |
+| CF1c | If the selected actual no-necessary-parts class is nonempty, some actually existing whole contains every member as a part. It need not be an exact fusion. | STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER |
+| CF5p | No cause is itself a part of its effect. Other overlap is not excluded. | STMT-CAUSE-NOT-PART-OF-EFFECT-AT |
+
+Checked projection helpers show CF1 implies CF1c and CF5 implies CF5p in the
+same ontology, order, causal relation and selected world. No converse,
+strictness or global minimality is claimed. **A + CF1c + MF2 + CF3 + CF4 + CF5p**
+entail existing bare actual NecessaryBeing. All five choices after accepted A
+remain OPEN; the original CF labels retain their meanings.
+
+The primary Koons author preprint uses a possible concrete-facts domain, not
+propositions or an automatically ordinary-individual carrier. Its strict
+universal causal axiom and its separately defended default rule are distinct.
+Our reduced proof's default-warrant transfer under scoped denial is OPEN;
+strict CF3 remains explicit. Necessary-fact-to-individual constitution and
+actual fact population also require faithful domain correspondence. See the
+[primary reading audit](../../corpus/attempts/koons-new-look-preprint-cf-scope-20261101.json).
+No joint-condition theorem alone supplies a real actual covering object.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
@@ -3054,3 +3083,19 @@ necessary concrete mind, much less numerical uniqueness. Stable content and
 a stable bearer remain separate questions. Continue with explicit bridge
 premises or another accessible primary defense rather than treating inaccessible
 text, retorsion alone, or the presentation's summary as a completed proof.
+
+### Delivery update: reviewed public integrations, 2026-11-01
+
+PRs #875 (first unity reading), #876 (pinned author preprint) and #877
+(reflexive actual-fusion routes) were merged after all required checks succeeded
+or were skipped and structured current-head reviews completed without findings.
+Merge commits: ec230bdd40b9def01998c746f32dee148910fd16,
+dcc43d440a64ada026fb1177b95e54e534e2aa7d, and
+8f7e132d0a9dc4670974c2e95b699de90dbb4903 respectively.
+The cover proof is verified canonically at 0ad058b4; its public delivery and the
+remaining unity-source delivery are assigned to their existing workers.
+No owner selection beyond A was received. The independent fixed-constituent
+audit is preserved in the primary Koons attempt: fact necessity alone is
+insufficient, while a genuine same-frame fixed nonempty bearer set with
+all-world factivity would supply the missing transfer. That correspondence is
+OPEN, and no new consumer theorem or premise closure is claimed.
