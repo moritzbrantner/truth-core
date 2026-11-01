@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A4-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4P4C, opening automatic-actuality must-exist stipulation and complementary contingent classification",
+  "interpretation": "Reuse the same revised stipulation already extracted from A2; the opening and following question page match A3P3C. κ remains an editorial class label, not a new source symbol or Lean relation. Automatic actuality if possible is left without a selected counterfactual/material-implication semantics, ordinary NecessaryAt identity or an independently existing bearer. The following A4 question reaffirms possible beginning, not A2’s no-uncaused-contingents report.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

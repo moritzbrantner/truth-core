@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A4-REVISED-PROPERTY-REDUCTIO",
+  "statement_id": "STMT-NB-A4-REVISED-PROPERTY-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C3, property/causal steps 1–17 and notes 1–2 under the A4P4C revised-class reaffirmation",
+  "interpretation": "The prefix words match A4 main, but κ changes their classification; record one new conditional argument reading rather than aliasing ordinary A4 or A3’s revised possible-cause statement. A3 uses possible-event causability directly; this A4 argument uses property-transfer and a reductio. No-possible-κ-Necessary-Being remains the step1 scope through3–14; only possible κ Necessary Being is discharged at17. The main hypothetical cause at13 cannot be retained unconditionally. Property admissibility/intension, classification of a caused bearer, earlier existing concrete source and temporal/event/world correspondence remain OPEN. C3’s event title is only a change from one state to another; it omits main C’s explicit essential-state phrase. Neither essentiality nor its negation is credited, and no definition link to the stronger A3 essential-state event reading is used. Nonrigid none-to-some and first-exemplification roles remain explicit without supplying an actual or rigid causal witness.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

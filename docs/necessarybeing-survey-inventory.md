@@ -489,3 +489,19 @@ Existing `LocalFramePossibleExternalCause` and `ScenarioNecessaryWitness` retain
 No Lean, inference, result, pin or philosophical premise truth changes. This batch explicitly delivers the five A4 main witness manifests, raising the public passage count from394 to399; no other private witness is included. Main attribution is now boundedly recorded; the candidate remains at **A4P4B/C2, then A4P4C/C3**, before later families. Private witness/read history does not complete the public campaign, and no PHP answer endpoint was requested.
 
 Root and independent fidelity reviews read all five main witnesses and raw hash-verified titles without substantive findings; the latter also inspected four alternate contexts. This accepts source fidelity only, not premise truth or a new formal consequence.
+
+### A4 alternate public extraction and exact reuse (2026-11-01)
+
+This batch explicitly delivers only the four existing pinned witness manifests `NECESSARYBEING-A4P4B`, `NECESSARYBEING-A4C2`, `NECESSARYBEING-A4P4C`, and `NECESSARYBEING-A4C3`, raising public passages399→403. Five qualified claims add only one bare statement:
+
+| Claim | Reused meaning or new scoped reading |
+| --- | --- |
+| `NB-SURVEY-A4-ALT-POSSIBLE-IMPOSSIBILITY` | Reuses `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY`; C2 modal paragraph after17/notes, with P4B question context. The question and modal suffix match A2 exactly, without actual assent or a verified S5/frame principle. |
+| `NB-SURVEY-A4-REVISED-MUST-EXIST` | Reuses `STMT-NB-A2-REVISED-MUST-EXIST`; P4C opening automatic-actuality/complement stipulation. No new class definition or selected material/counterfactual semantics. |
+| `NB-SURVEY-A4-REVISED-POSSIBLE-BEGINNING` | Reuses `STMT-NB-A3-REVISED-POSSIBLE-BEGINNING`; P4C reaffirmation/affirmative continuation. Its entire page matches A3P3C. This is not ordinary A4P3 beginning or A2’s causal-exclusion report. |
+| `NB-SURVEY-A4-REVISED-PROPERTY-REDUCTIO` | NEW `STMT-NB-A4-REVISED-PROPERTY-REDUCTIO`; C3 steps1–17/notes1–2. Prefix words match main C but κ changes classification. NoPossibleκNB remains hypothetical through3–14; only possibility is discharged17. |
+| `NB-SURVEY-A4-REVISED-ACTUALITY-CONCLUSION` | Reuses `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION`; C3 final paragraph after17/notes matches A2C3. Automatic actuality consumes discharged17, not hypothetical13 cause; actual causal exercise is not inferred. |
+
+The ordinary-class C2 prefix reuses A4 main. Revised C3 uses property transfer and reductio, so it is not aliased to A3’s direct revised possible-cause argument. C3’s shorter event title omits main C’s essential-state qualification: attribute neither that criterion nor its negation. The new reading has no stronger essential-state event definition link; the existing A4 disambiguation distinguishes contexts explicitly. Nonrigid first-exemplification, separate possibilities, property admissibility/intension, earlier existing concrete bearer, class persistence and modal/actual rigid-witness correspondence remain OPEN. No unconditional Scenario opportunity or hypothetical causal witness is exported after the reductio.
+
+All four witnesses were materialized/read with raw SHA/title checks and exact reused-text comparisons. Root and an independent adversary accepted source fidelity without P1 findings; that is neither soundness nor premise truth. No glossary, framework, Lean, argument, result, source kind, dependency, repin or archive fallback is introduced. The other65 private manifests and later private read history are not delivered or copied. Candidate progression to A5 marks only this completed reading range; the remaining public A5–A10 witness/reading/extraction queue remains open, without campaign completion or PHP answer requests.
