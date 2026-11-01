@@ -161,6 +161,18 @@ reductio; no unsupported identification merges those statements. No Lean, source
 pins, public witness coverage or premise truth changes. Candidate begins A7
 alternates, with the source campaign still incomplete.
 
+A7 alternate batch is committed at `7645b5da`: four claims, one new bare direct
+κ-count statement and three source records (eight files). Three exact A2
+meanings are reused; the generic P4C revisit/keep invitation is context rather
+than an invented specific report or new philosophical claim. Root independently
+read all four complete materialized bodies, verified P4C raw SHA/titles and
+accepted fidelity of all records; the existing attempt preserves that acceptance.
+Source468/1728 bindings, corpus2538/1728 and whitespace checks pass. No Lean,
+pins, public coverage or truth flags change. Source order advances to A8, assigned
+for a read-only full-range/design audit. The possible later weakening of A7's
+all-earlier threshold guard is only an assessment task after current proof gates;
+it must compare full premise packages and is not yet a proved reduction.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
