@@ -7,6 +7,42 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Branch: `research/lean-existential-self-actualization-20261031`; verified source
+correction `aa1f185a`. Main through PR908 is integrated (`8fee868b`, merge1a5af8ef).
+Only ledger A is accepted; scoped PSR authorization persists. D3 remains the
+explicit foundation assumption, not a consequence of D1/D2 by terminology.
+
+PR908 merged after exact-head clean review and CI41331601271; watch23196 is
+terminal0. It adds the two necessary-being compositions (same source under local
+causality; necessary constituent under CF3/CF4/actual-parts policy). PR909 old
+head72277262 also passed CI41331708678/review, watch23562 terminal0, but merge
+is held for a substantive source-attribution correction. Its updated36-file
+slice is prepared UNPUSHED atb7e6bd42 on fresh main908, with Root owning merge.
+
+The pinned/read ChapterVII154–158 directly addresses our objections: p155–156
+explicitly adjusts original atomism P2 to terminating proper-part descent;
+p156 asserts the any-caused-simple→sum-exists reply; p157 explicitly treats
+total cause as ALL contributors (fn211 requires their sum to be an object);
+p154 treats changed constituents as numerical change; p158 disclaims guaranteed
+causal paths to every other object. The sole new claim attributes adjusted P2
+to the EXISTING WF statement. Core change is comments only; all declarations,
+proofs and frozen Challenges are unchanged. No full-source countermodel is
+claimed. Fixed actual M versus world-local family/sum identity, strict priority
+versus mere existence requirement, and causal-participant closure remain open.
+Existing JointCondition.contingent/mixedCertificate already establish mixed
+necessary+contingent FIXED condition contingency; transfer to a concrete cause
+still requires an explicit same-condition realization/identity bridge.
+
+Changed-source gates42897 PASS:4420 build,861 bound/2legacy/0mismatch, three
+priority Comparator/result NanoDa checks, scoped2modules/11exports/601checked/
+0typeerrors/known axiom pretty-printer diagnostic. Source86448 PASS34 changed
+canonical passages including CHVII; the public correction selects only CHVII
+and reuses the exact verified pin. Corpus/source check2788/1925claims/476passages
+and independent8-file review pass. The older combined modal/priority gates and
+exact65→69/17→19 route comparison remain below. No premise is discharged.
+
+### Earlier coordinator evidence (statuses superseded above; findings retained)
+
 Branch: `research/lean-existential-self-actualization-20261031`.
 Current proof batch: `cb6a183e`, generated imports `12862fbc`.
 Only ledger A is owner-accepted; scoped PSR authorization from #312 persists.
