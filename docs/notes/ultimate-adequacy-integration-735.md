@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`5b6ee140` before this update. Main is `385838b2` through #862, integrated in
+`5e9dd272` before this update. Main is `385838b2` through #862, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -16,7 +16,9 @@ in the existing CC100 intake attempt. First #4–5 batch is committed5b6ee140: s
 claims, seven independent bare statements and two minimal source glosses.
 Full witness and claim/type review accept attribution and conditional scope;
 corpus/source binding/whitespace checks pass. Candidate now starts #6 at p12;
-focused public delivery is assigned with no SurveyA5 cursor change.
+public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
+CI41282874715/review pending. Its three target frontiers are unchanged;
+no SurveyA5 cursor changed.
 Public A5 publication remains separate. Canonical corpus checks pass with2587
 statements,1769 claims,810 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
@@ -54,6 +56,12 @@ necessary bearer; this neither explains the contingent specification by itself
 nor makes source support for whole-ground necessitation available. A bounded
 proof lane is testing the converse localization of joint contingency using the
 existing fixed-set vocabulary, with no new philosophical premise or model.
+Joint localization is verified and committed5e9dd272: build4378, binding828/
+2existing pins/0mismatch, two Comparator/result NanoDa acceptances and scoped
+NanoDa4new declarations/170dependencies/zero type errors. The exact classical
+equivalence composes the old forward theorem and retains the same failure world;
+no particular member role or actual contingent package is inferred. Focused
+public publication is assigned; existing attempt and matrix preserve boundaries.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.

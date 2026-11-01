@@ -672,3 +672,21 @@ lakefile match the independently verified canonical proof inputs; public
 source verification checks435 offline witnesses with zero live fetches.
 Required delivered-head CI and review remain pending. No frontier closure
 or owner truth selection is inferred.
+
+
+### Fixed joint contingency localization (2026-11-01)
+
+`JOINT-CONTINGENCY-LOCALIZATION` derives an actual contingent selected member
+from the existing fixed `JointContingent` premise. Its helper retains the same
+accessible failure world. `JOINT-CONTINGENCY-EQUIVALENCE` composes that direction
+with imported `JointCondition.contingent`: joint contingency iff actual joint
+truth and a contingent member. This is classical extraction over arbitrary
+fixed sets, with no finiteness, frame, productive-role or aggregate-being input.
+It does not identify the member as choice, intention, enabler or cause.
+
+Canonical5e9dd272 passes full build4378, binding828/2existing pins/0mismatch,
+both Comparator/result NanoDa checks and scoped library NanoDa4new declarations/
+170dependency declarations without type errors. All three proof probes use
+exactly the permitted Mathlib trio. Public premise comparison is pending;
+no actual package contingency, necessary existence or philosophical discharge
+is inferred from the equivalence.
