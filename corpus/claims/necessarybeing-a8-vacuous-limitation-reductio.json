@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A8-VACUOUS-LIMITATION-REDUCTIO",
+  "statement_id": "STMT-NB-A8-VACUOUS-LIMITATION-REDUCTIO",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8C2, steps 1–10, explicit vacuous-conditional paragraph after step 3 and entails/limiting/property titles",
+  "interpretation": "Preserve the author’s explicit use of vacuity at3–4 and compressed deficiency/transitivity assertions at5–7, without silently selecting full Limiting-as-existential-deficiency semantics or extracting one uniform deficiency from varying bearers. Source1–8 remains inside NoPossibleNB; only9–10 discharges possibility. Earlier negative P2 nonlimitation is conditional input, not actual assent. Main P3 affirmative limitation of possible nonexistence is not an input here. P2B asks about powerlessness but all three answers continue to P3B, so no required affirmative report is invented. An admitted fixed deficiency property would support a simpler conditional vacuity reconstruction, not establish that this compressed source formulation already supplies its exact domain/uniformity premises. No κ stipulation, Scott complement-exclusion, independent possibility truth, actual causal role or same-individual transport is supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A8-LIMITING-PROPERTY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

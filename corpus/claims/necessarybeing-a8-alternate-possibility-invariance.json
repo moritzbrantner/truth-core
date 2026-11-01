@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A8-ALTERNATE-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A8P3B, complete shorter X/Y question, examples and non-joint-possibility note; A8C2 modal paragraph following step 10",
+  "interpretation": "Reuse the existing invariance proposition: the shorter introduction still quantifies any possible X/Y, preserves the non-joint note and same examples/title sense. Wording is not byte-identical to main P4, but its stated possible-if-actual content genuinely coincides. This separately located claim keeps primary witness binding unambiguous. It is not an actual response, a new full S5/frame proof or a fixed individual across worlds; the modal suffix remains guarded conditional reuse.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
