@@ -1,0 +1,32 @@
+{
+  "id": "CAUSED-SIMPLE-PART-FROM-DESCENT",
+  "premise_statement_ids": [
+    "STMT-PROPER-PART-WELL-FOUNDEDNESS",
+    "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-EVERY-CAUSED-OBJECT-HAS-CAUSED-SIMPLE-PART",
+  "inference_ids": [
+    "INF-CAUSED-SIMPLE-PART-FROM-DESCENT"
+  ],
+  "meaning": "Proper-part well-founded induction with explicit EM: a caused composite has a caused strict part by P6; recurse and compose parthood. A simple object itself is its caused simple part. This derives the missing Step1 bridge rather than assuming it.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

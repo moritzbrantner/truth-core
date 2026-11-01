@@ -1,0 +1,11 @@
+{
+  "id": "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+  "term": "terminating proper-part descent",
+  "definition": "WellFounded of strict parthood on non-null objects. This is a mereological termination policy, not causal well-foundedness and not merely simple-part existence.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Causality.AtomisticUniversalCausePriority.ProperPartWF",
+  "note": "The chapter Step1p127 explicitly invokes termination; pp129–131 defend P2 qualitatively (fn186). Standard WellFounded is the classical order rendering of that termination reading; this is not a proof that it describes reality.",
+  "claim_ids": [
+    "RUTTEN-CH6-PROPER-PART-TERMINATION"
+  ]
+}

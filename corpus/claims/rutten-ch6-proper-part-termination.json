@@ -1,0 +1,27 @@
+{
+  "id": "RUTTEN-CH6-PROPER-PART-TERMINATION",
+  "statement_id": "STMT-PROPER-PART-WELL-FOUNDEDNESS",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VI, printed p.127 Step1 and pp.129–131 P2 defense",
+  "interpretation": "Termination reading of author P2 as explicitly used by Step1, rendered by standard well-founded proper parthood. This is stronger than the already registered weaker simple-part consequence. No causal well-foundedness is asserted; fn186 does not supply a mathematical finite-to-infinite limit argument. Full materialized chapter printed123–135/PDF125–137 was read, and these precise contexts reread. Source assertion is not independent premise truth, actuality, necessity or God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}
