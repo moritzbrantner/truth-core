@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Branch: `research/lean-existential-self-actualization-20261031`; latest verified
-proof commit `68d95270`. Main now includes #879 (`903178ac`, remaining selected
+proof commit `e93220fc`. Main now includes #879 (`903178ac`, remaining selected
 unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
 merged after clean exact-head reviews and all required CI success/skips.
 Canonical integration through #880/#881 is 520bf8d9. The exhausted reality
@@ -45,11 +45,12 @@ CI41293227827 live. Its review completed clean; CI remains live. Prepared CC121â
 resumed after #882 landing. No checks are described as complete while still live.
 Causal distribution/nonparthood audit completed and is preserved in the primary
 Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
-application needs independent warrant. A new AccessibleAccountNecessaryBeing
-proof lane tests exact selected-target Acc on the existing ContingentReason,
-with a global-foundedness projection and no fabricated concrete ontology.
-New selected-Acc code passes initial independent review; focused proof and
-metadata work continue. No new verified localization is claimed yet.
+application needs independent warrant. AccessibleAccountNecessaryBeing is verified/committed e93220fc: full95157
+passes build4396/bind840/2oldpins/0mismatch/Comparator+resultND/scopedND3new74closure
+zero type errors and two zero-axiom probes; independent10-file review passes.
+It replaces only global Founded with selected Acc; same named cost, no
+converse/strictness or independent reality entitlement. Public delivery is
+assigned after #884 merged06b7806cd8a9a83e64547b465919509ddd0c8810.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
@@ -1360,6 +1361,15 @@ this WF proposition or establish its real-world application. The Koons Cor1
 readings at c8e89ade distinguish source assumptions and the transfer inference;
 they are not automatic bindings or independent proofs of KN/KR. No uniqueness,
 concreteness, causal role, underivedness or divine attributes follow here.
+
+Optional **WFL** replaces WF with selected-target accessibility for the SAME
+`ContingentReason A w S`: STMT-SELECTED-ACCOUNT-ACCESSIBLE. This is checked by
+ACCESSIBLE-ACCOUNT-NECESSARY-BEING at e93220fc, with a zero-axiom old-WF-to-WFL
+projection. WA + WFL + KN + KR + EM suffice. WFL remains OPEN: its dossier has
+no established closure or supporting source claim. Only the selected contingent
+ancestry is constrained; unrelated account chains need not be well-founded.
+This is scope weakening, not a reduction in named input count or an inference
+from owner D1. No converse or strictness is asserted.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
