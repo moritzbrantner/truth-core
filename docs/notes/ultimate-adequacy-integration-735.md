@@ -84,6 +84,22 @@ conditional route now mechanically omits upfront contingency and nonCopy;
 remaining four account clauses, foundedness and constitution policies stay OPEN. No unique,
 concrete, causal, personal or divine character is inferred for the new bearer.
 
+### Uniqueness targets retained separately
+
+The initial bare necessary-entity endpoint does not restrict its carrier to
+substances or persons. Accordingly, two later questions remain distinct:
+uniqueness of an underived necessary foundation/God, and uniqueness of every
+modally necessary entity. Existing UNIQUE-NECESSARY-ACTUAL-ROOT and
+UniqueClassicalGodExists endpoints concern the first restricted targets.
+NECESSARY-CLASSICAL-GOD-ROOT-CONTROL already preserves a unique God and a
+necessarily existing caused non-God producer in one checked interpretation.
+It is a formal scope control, not a real-world adequacy claim. The stronger
+all-necessary-entities question is retained; no restricted theorem is advertised
+as answering it. The control attempt records the additional all-actual-NE-to-
+root policy that such a lift would need. The source audit of q44 a1 separately
+supports caused necessary effects without silently identifying that source sense
+with every supplied modal interpretation or proving cause-to-effect necessitation.
+
 ## Earlier coordinator snapshot (historical evidence)
 
 
