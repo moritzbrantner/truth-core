@@ -1,0 +1,13 @@
+{
+  "id": "DEF-CC100-10-SIMPLIFIED-SCOPE",
+  "term": "simplified cosmos, explicit contingent population and noncontingent cause",
+  "definition": "The simplified argument asserts a contingent population, defines cosmos as the sum of wholly contingent things, and repeats wholly-contingent causal coverage. Its final cause is called not contingent; that wording is not by definition necessary, concrete or an adequate complete explanation.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-10-CONTINGENT-POPULATION",
+    "CC100-10-SIMPLIFIED-WHOLLY-COSMOS",
+    "CC100-10-SIMPLIFIED-CAUSE-COVERAGE",
+    "CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE"
+  ],
+  "note": "The earlier full argument’s nonoverlap/exclusion obligations cannot be omitted merely because the simplified step cites only coverage and whole contingency. No new causal law or modal dictionary is selected."
+}

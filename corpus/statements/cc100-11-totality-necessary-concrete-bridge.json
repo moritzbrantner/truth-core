@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-11-TOTALITY-NECESSARY-CONCRETE-BRIDGE",
+  "paraphrase": "Considering all contingent concrete things that exist, if there is an explanation of the fact that those things exist, then there is a necessary concrete thing.",
+  "definition_ids": [
+    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
