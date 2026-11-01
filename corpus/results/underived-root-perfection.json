@@ -1,0 +1,10 @@
+{
+  "id": "UNDERIVED-ROOT-PERFECTION",
+  "argument_id": "UNDERIVED-ROOT-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.UnderivedRootPerfection.derive",
+  "comparator_config": "results/UNDERIVED-ROOT-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Preserve the SAME supplied necessary concrete underived witness n. Instantiate its all-world concrete-support exclusion only at selected w to obtain ActualRoot; no all-world attribute is inferred. Import maximumExistsOfExistingRoot and maximumEqualsRoot using the existing fixed-esse Unit restriction: one maximum equals n and also equals every other selected actual concrete root. Apply perfectOfMaximum to this SAME n. Eight explicit inputs replace the old ten-input root-producing configuration: the supplied underived existential replaces population, whole-roster and contingent-grounding inputs, while seven other interfaces are retained. This is a conditional composition, not a certified global package weakening, numerical philosophical progress or premise truth discharge. Uniqueness concerns selected actual concrete roots, NOT all necessary individuals. The original supplied existential is unpacked once; its same final witness is retained, though the target records only selected-world roothood, necessity, esse maximum and perfection. Global InAct/CausesIn and modal/support correspondence remain OPEN. No God naming, moral/cognitive perfection, production-ground identity, explanatory adequacy or all-world attribute conclusion."
+}

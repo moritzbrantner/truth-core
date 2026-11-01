@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UnderivedRootPerfection.derive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
