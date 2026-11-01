@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
+  "statement_id": "STMT-CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.22, L4 citing L3 and C3, argument #10 Koons",
+  "interpretation": "Retain the selected population guard and defined aggregate. This is the source’s displayed application of wholly-contingent causation, not a new formal proof, actual concrete cause witness or independently defended collective explanatory sufficiency. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

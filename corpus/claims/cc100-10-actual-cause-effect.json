@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-ACTUAL-CAUSE-EFFECT",
+  "statement_id": "STMT-CC100-10-ACTUAL-CAUSE-EFFECT",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.21, C1, argument #10 Koons",
+  "interpretation": "This is an explicit existence restriction on the source’s cause/effect roles. It is not a definition of causation, sufficiency or grounding; no particular actually existing cause or concrete Ontic bearer is supplied just by the universal restriction. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

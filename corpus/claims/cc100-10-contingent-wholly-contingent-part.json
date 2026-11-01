@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
+  "statement_id": "STMT-CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.22, L2 citing A1 and A2, argument #10 Koons",
+  "interpretation": "Preserve the stated part-extraction conclusion as distinct from the definition of wholly contingent. The source cites overlap and aggregation axioms, but this record does not certify their sufficiency, atomism, removal of necessary parts or arbitrary-family fusion. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

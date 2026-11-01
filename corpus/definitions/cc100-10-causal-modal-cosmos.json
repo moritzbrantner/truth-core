@@ -1,0 +1,18 @@
+{
+  "id": "DEF-CC100-10-CAUSAL-MODAL-COSMOS",
+  "term": "actual cause/effect, nonoverlap, necessary parts and restricted cosmos in #10",
+  "definition": "C is the aggregate of all wholly contingent things, where wholly contingent means having no necessary parts. Causal roles are restricted to actually existing things; a cause cannot overlap its effect, a stronger requirement than mere inequality. The conditional cosmos argument starts from a nonempty ordinary contingent population. Necessary parts and contingent-part extraction are substantive modal/mereological commitments, not definitions of causation or contingency.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-10-ACTUAL-CAUSE-EFFECT",
+    "CC100-10-CAUSE-EFFECT-NONOVERLAP",
+    "CC100-10-WHOLLY-CONTINGENT-CAUSE",
+    "CC100-10-NECESSARY-WHOLE-NECESSARY-PARTS",
+    "CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
+    "CC100-10-CONTINGENT-POPULATION-WHOLLY-COSMOS",
+    "CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
+    "CC100-10-CONTINGENT-OVERLAPS-COSMOS",
+    "CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE"
+  ],
+  "note": "Editorial source glossary only. No actual concrete Ontic dictionary, complete explanation, causal-grounding identity, rigid parthood, necessary/contingent exhaustiveness or source soundness is assumed. UniversalFusionBoundary separates DistinctCause, OutsideCause and overlap under an explicit fixed-domain formal profile; these are comparison vocabulary, not automatically this source’s cause relation."
+}
