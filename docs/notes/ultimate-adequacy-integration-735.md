@@ -92,6 +92,18 @@ four nonlogical structural inputs and nonvacuous contingent coverage retained.
 BareNE19→20 routes/best2 unchanged; all-reaching69→70 adds only the selected
 coverage head. Catholic81/12/best31 unchanged. No accepted premise changes.
 
+### Unity target and remaining investigation
+
+Owner issue #320 explicitly targets at most one **ultimate simple ground**,
+not elimination of every necessary dependent. The checked necessary-dependent
+controls prevent overstating root uniqueness; they are not a reason to postpone
+this intended unity target. Current #697 directs the next metaphysical work to
+the existing UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE candidate and the #715
+constitutive-content interfaces, especially different-whole-essence or primitive
+individuation. Reuse the pinned Compendium I.12–15 and ST q3/q11 findings.
+The latest verified maximum route provides a conditional alternative; neither
+route's applicability is established merely by formal composition.
+
 ### How the new atomistic route composes
 
 The merged `AtomisticNecessaryBeing.necessaryBeing` combines the existing
