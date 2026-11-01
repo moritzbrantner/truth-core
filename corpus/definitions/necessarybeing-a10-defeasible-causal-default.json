@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+  "term": "A10 rule-of-thumb causal default and prima-facie expectation",
+  "definition": "A10P1’s rule-of-thumb title gives a defeasible reason to expect a property of a particular encountered class member, allowing counter-reasons that mark it as an exception. Applied to contingency and causation, its question asks whether contingent things generally have causes. Cause means a prior condition capable of explaining or partly explaining an event/change. The title’s every-A-is-B wording describes the general default, not an exceptionless theorem once exceptions are explicitly allowed.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A10-CAUSAL-DEFAULT",
+    "NB-SURVEY-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+    "NB-SURVEY-A10-PRIMA-FACIE-NECESSARY-BEING-CONCLUSION"
+  ],
+  "note": "The source’s particle worry and size/shape/parts questions are examples of proposed exceptions or distinctions, not established quantum facts, causal invariance laws or metaphysically possible models. A possible beginning partless angel is a route-specific question, not a universal background. No actual statistical sample or complete exception set is supplied. Transfer to a selected first contingent in a possible history, evidence aggregation and defeater resolution remain OPEN. No probability measure, numeric bound, actual concrete support, universal PSR, asymmetry, transitivity or well-foundedness follows from this gloss. The weak prior partial-explanation sense differs from a complete existential ground and from the stronger temporal-presence/absence guards of existing count/history results; applicability to all contingents and serious brute/nonnecessitating/holistic rivals remains OPEN."
+}

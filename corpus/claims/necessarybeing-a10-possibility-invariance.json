@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A10-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P3, complete question and note distinguishing individual from joint possibility, with A10C modal introduction as context",
+  "interpretation": "Reuse the existing A2 invariance report: each situation stays individually possible if another individually possible situation is actual; joint possibility is expressly not required. No actual response, objective possibility, complete S5 frame characterization or fixed individual follows. A10C names its interpretation necessity of possibility. Its later use does not by itself upgrade the earlier prima-facie default to the modal premise Dia N.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-SURVEY-POSSIBILITY",
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

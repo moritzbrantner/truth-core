@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+  "paraphrase": "Given the source’s possible first contingent C and reported causal default, A10C attributes a prima-facie reason to think C would have a cause. It excludes a contingent cause by C’s firstness and says that, if C has a cause, that cause is a Necessary Being. It concludes only an apparent prima-facie reason for the possibility of something caused by a Necessary Being, not a deductively established possible cause, actual existential support or actual Necessary Being.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A10-MODAL-ACTUALITY-CONDITIONAL",
+  "statement_id": "STMT-NB-A10-MODAL-ACTUALITY-CONDITIONAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10C, modal introduction and numbered deduction 1–12, with N/possible/necessary titles",
+  "interpretation": "This records the source’s conditional suffix, not a new Lean proof or source soundness. The existing NecessaryIfExistent.positive theorem consumes explicit Euclidean, boxed-conditional and possible-existence premises for one proposition G; actuality additionally needs the appropriate designated-world reflexivity. Its proof does not identify source N with a rigid individual, justify the source’s separate N-to-Box-N rule or transport prima-facie warrant/probabilities. Keep the source’s premise at1 separate from evidence for it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
