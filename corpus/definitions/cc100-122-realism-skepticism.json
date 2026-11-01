@@ -1,0 +1,14 @@
+{
+  "id": "DEF-CC100-122-REALISM-SKEPTICISM",
+  "term": "realism, radical skepticism and God in #122",
+  "definition": "Realism, radical skepticism and God existence are the source’s unelaborated propositions. The argument separately assumes realism-without-God implies radical skepticism, rejects radical skepticism, and asserts realism before its God conclusion.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-122-REALISM-NO-GOD-SKEPTICISM",
+    "CC100-122-RADICAL-SKEPTICISM-FALSE",
+    "CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
+    "CC100-122-REALISM-TRUE",
+    "CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE"
+  ],
+  "note": "No particular realism domain, global knowledge logic, divine explanatory role or classical God signature is selected. Epistemic failure and ontic falsity differ; the realism/skepticism bridge and truth of realism remain open. A propositional transcription would not independently defend them."
+}

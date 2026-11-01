@@ -1,0 +1,14 @@
+{
+  "id": "CC100-121-RELIABILITY-CONFIRMATION-RULE",
+  "statement_id": "STMT-CC100-121-RELIABILITY-CONFIRMATION-RULE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.284, argument #121 Reliability of Our Cognitive Faculties, step 4",
+  "interpretation": "This is a reliability-specific confirmation bridge, not an actual observation of R, numeric Bayes theorem, posterior threshold or certainty. #117 has the analogous schema for SD, a different evidence proposition; its statement is not silently identified with this R-specific claim. Attribution is to McIntosh’s presentation only, not unread Arnold2018 or Slagle2021 works referenced on p285. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}
