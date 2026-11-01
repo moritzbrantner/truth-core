@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACCIDENTAL-FEATURE-SHARED-PRODUCTION",
+  "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.SharedProduction",
+  "paraphrase": "For this selected pair and characteristic, essence-production through essenceOf x implies essence-production through essenceOf y. Common necessity is not a proof of this OPEN production-sharing premise.",
+  "definition_ids": [
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+  ]
+}
