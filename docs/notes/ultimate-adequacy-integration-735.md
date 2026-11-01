@@ -7,6 +7,26 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
+Current public batches (2026-11-02): PR919 exact85e9f97b has clean completed
+structured review; CI41360548374 is still running its library kernel gate, with
+all completed jobs successful. [PR920](https://github.com/moritzbrantner/truth-core/pull/920)
+publishes the15-file A5 alternate slice at a915e1ed; four changed live pins and
+all cheap checks pass, CI41360905599 and exact-head review pending.
+[PR921](https://github.com/moritzbrantner/truth-core/pull/921) publishes the3-file
+alternative-account/physical-ground integration at8498205b; corpus/offline
+source/generator/diff checks pass, CI41360923811 and exact-head review pending.
+Each review was requested once. None is yet merged; no source or proof inputs
+were weakened for publication. Root's physical-ground note now records917 as
+merged rather than pending.
+
+UniqueRootPerfection's existing eight-head design is approved and focused
+Solution/Challenge checks pass, with zero axioms. Frozen Challenge SHA256
+3ad42e2c61b1d3000750d395b06818869390badd97e9a8ec8725017bf5f3768c.
+Full build/binding/Comparator gate87878 is live, log
+`~/.cache/truth-core-artifacts/unique-root-perfection/final-gates.log`.
+Independent seven-file review is underway. No verification completion claimed.
+
+
 Next bounded composition (2026-11-02): existing
 `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` has several producers but no direct consumer
 to the perfection endpoint in the inspected result modules. A worker is checking

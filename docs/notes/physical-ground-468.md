@@ -133,9 +133,9 @@ contested. See `DISAMB-PHYSICAL-GROUND`.
 The earlier open-step list below now has reusable conditional consumers. This
 connects supplied configurations; it does not establish their premises or
 eliminate the impersonal rival. The last two consumers are in
-[PR #917](https://github.com/moritzbrantner/truth-core/pull/917), **pending** at
-exact head `c44d83ded7767b459bfa055755afb9a9cc5471c6` when this section was written.
-Their local verification is not a claim that public CI or merge has completed.
+[PR #917](https://github.com/moritzbrantner/truth-core/pull/917), merged at
+`be2bf05d2d77b093971ebb7b2a880ffd14f665d6` after exact-head CI and review passed.
+Those checks certify the conditional consumers; their philosophical inputs remain open.
 
 | Supplied endpoint → resulting endpoint | Registered result and exact theorem | Retained boundary |
 | --- | --- | --- |
