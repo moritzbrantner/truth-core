@@ -53,12 +53,18 @@ Fred at its original position. Section5.2p19 explicitly acknowledges full-sequen
 persistence; the signal revision describes receiving the predecessor's sent
 signal. A recoding channel is therefore not a countermodel to the full intended
 protocol. The source audit now classifies persistence as PROVIDED/ASSERTED in that
-scenario, separately from independent justification and CPNPP transport. A narrow
-particle-position-persistence claim is being recorded against §5.2p19, without
-forcing the broader numeric Forwarding interface onto that passage. No Lean
+scenario, separately from independent justification and CPNPP transport. Narrow source batch8d4d753f records
+STMT-PLACED-FRED-POSITION-PERSISTS against §5.2p19, with one sourced definition
+and an attributed claim. It does not force the broader numeric Forwarding
+interface onto that passage. Corpus2768/1911claims/836results and source473
+bindings pass. Root and worker scope reviews accept the four-file reading. No Lean
 result or universal physical law is claimed. Root's readable proof-chain map is
 in docs/notes/causal-finitism-367.md at035c49c3, preserving source/application gaps.
-The source-claim delivery may include that note as one coherent reviewed batch.
+The worker is publishing one coherent five-file source-and-explanation batch:
+four immutable8d4d753f records plus that note from035c49c3. No Lean/source-pin
+change, proof count increase or root-premise discharge. A separate read-only
+root-route audit seeks a genuinely weaker same-conclusion composition beyond
+causal finitism; it must reject mere bundle/atom-count changes.
 
 The graph may select SOME causal-power links (p15), so a sparse chain is a
 faithful reply to the dense-neighborhood objection. Positive selected edges
