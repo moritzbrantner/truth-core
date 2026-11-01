@@ -1,0 +1,16 @@
+{
+  "id": "INF-CONCRETE-SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "rule": "concrete-domain-instantiation-and-witness-projection",
+  "meaning": "Assembly composition, not an independent philosophical inference: instantiate existing SCOPED-ATOMISTIC-NECESSARY-BEING on NecessaryConcreteUnderived.concreteOntic m. The EXISTING InhabitedConcreteAt input supplies concrete b and actual existence; construct the nonempty nested actual-concrete subtype internally. All atomicity, cover, nonoverlap and selected causal-coverage inputs concern that SAME subtype/order and selected world, not an unrestricted domain. Coverage supplies concrete actual causal witnesses. Unpack the imported necessary witness c to c.val with c.property, retaining SAME candidate, frame and original ExistsAt; conclude existing NecessaryConcreteAt. Ordinary Ontic.Causes remains separate from Profile.grounds, which is unused. No NE-to-concrete axiom, extra frame law, source claim, uniqueness, God or root-premise truth is inferred. Generic object population alone does not supply concrete population. Restriction to concrete candidates does not automatically preserve unrestricted-domain atomicity or coverage; their applicability remains OPEN.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
