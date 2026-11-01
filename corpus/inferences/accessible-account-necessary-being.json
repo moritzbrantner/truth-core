@@ -1,0 +1,19 @@
+{
+  "id": "INF-ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-SELECTED-ACCOUNT-ACCESSIBLE",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "local-accessibility-reductio-with-existing-fixed-bearer-consumer",
+  "meaning": "Under scoped denial of ordinary NecessaryBeing, imported necessaryBeingOfFact makes boxed truth of any actual account member impossible under the two fixed-set policies. Explicit EM supplies accessible failure, so every member is contingent. Standard Acc induction from the selected target contradicts this: covered gives a reason for the current member; closed places it in the SAME account; both are contingent, hence it is an exact ContingentReason predecessor to which the induction hypothesis applies. Discharge NoNE with supplied EM. No global Founded, concrete profile, per-world bearer choice or source truth is inserted.",
+  "assumption_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ],
+  "discharged_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ]
+}

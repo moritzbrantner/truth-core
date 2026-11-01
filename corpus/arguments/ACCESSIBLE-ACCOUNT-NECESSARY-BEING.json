@@ -1,0 +1,36 @@
+{
+  "id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-SELECTED-ACCOUNT-ACCESSIBLE",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-ACCESSIBLE-ACCOUNT-NECESSARY-BEING"
+  ],
+  "meaning": "Under scoped denial of ordinary NecessaryBeing, imported necessaryBeingOfFact makes boxed truth of any actual account member impossible under the two fixed-set policies. Explicit EM supplies accessible failure, so every member is contingent. Standard Acc induction from the selected target contradicts this: covered gives a reason for the current member; closed places it in the SAME account; both are contingent, hence it is an exact ContingentReason predecessor to which the induction hypothesis applies. Discharge NoNE with supplied EM. No global Founded, concrete profile, per-world bearer choice or source truth is inserted.",
+  "definition_ids": [
+    "DEF-SELECTED-ACCOUNT-ACCESSIBLE",
+    "DEF-WEAK-REASON-CLOSED-ACCOUNT",
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}
