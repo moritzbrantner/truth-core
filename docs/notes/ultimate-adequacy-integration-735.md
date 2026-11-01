@@ -9,7 +9,10 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
 snapshot `a0652a82`. Main through PR909 is integrated (`9eda0cd9`, merge791829c5).
-Only ledger A is accepted; scoped PSR authorization persists. D3 remains the
+Ledger A and B are accepted as working truths; scoped PSR authorization persists.
+The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
+C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
+self-evident flag, all-world population or causal/grounding dictionary is added. D3 remains the
 explicit foundation assumption, not a consequence of D1/D2 by terminology.
 
 PR908 merged after exact-head clean review and CI41331601271; watch23196 is
@@ -95,6 +98,32 @@ three one-world CF3/CF4/actual-parts policies. It can yield a necessary part of
 an uncaused source without proving that the source itself is necessary.
 Neither route should be collapsed into an assumed foundation D3, or treated as
 an answer to explanatory adequacy merely because a necessary witness exists.
+
+### Current concrete atomistic package: optional working selections
+
+These rows describe the concrete contingent-atomicity route. The owner has now
+accepted B as a working truth. C_PC is tentative (the owner said “maybe”);
+AP, AC and NC remain OPEN. This is not independent premise verification.
+The selected causal carrier and parthood interpretation must stay the same
+throughout. Concrete does not mean material.
+
+| Label | Proposed working input | Existing formal head |
+| --- | --- | --- |
+| B — accepted | At least one concrete individual actually exists. | STMT-COGITO-INHABITED-CONCRETE-WORLD; accepted working truth at the intended actual standpoint. |
+| AP | Every actually contingent concrete individual has an actual concrete simple part, possibly itself, under the chosen actual parthood order. No atomicity of necessary individuals is required. | STMT-CONTINGENT-ATOMIC-PARTS on concreteOntic |
+| AC | If there are actual caused concrete simples, an actual concrete object contains every member of that family. Full fusion and unrestricted composition are stronger and not required here. | STMT-CONDITIONAL-CAUSED-SIMPLE-COVER on the actual-concrete graph |
+| NC | An actual complete production cause and its actual effect share no actual concrete part in this same order/context. | STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP on the actual-concrete graph |
+| C_PC — tentative | Every actual contingent concrete individual has an actual concrete complete production cause at this selected world. | STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE on concreteOntic |
+
+Classical logic is the retained framework. C_PC requires a concrete causal
+witness; unrestricted C_P does not supply that automatically. The package
+concludes an actual concrete individual existing at every represented accessible
+world. It does not certify ground-sourcehood, unique necessity or divine
+attributes. The contingent-only variant does not advertise an uncaused-source
+witness; clients needing one should retain full AtomicParts and apply
+AtomisticCausalSource.source plus selectedSourceNecessary. An adversarial
+source-boundary sketch is not a machine-checked countermodel or an adequate
+explanation of reality.
 
 ### Earlier coordinator evidence (statuses superseded above; findings retained)
 
@@ -1913,13 +1942,13 @@ sometimes a specified target. Those stronger conditions remain explicit:
 existential population alone neither supplies a concrete criterion nor names
 the selected witness. No necessary being is assumed at the starting point.
 
-### Owner truth ledger A–N, with optional O: selection pending
+### Owner truth ledger A–N, with optional O: A and B accepted
 
 The owner requested a selectable ledger and an adversarial agent. The A–N IDs
 below are the exact labels presented in chat. Optional O was added after the
 verified asymmetry route; it remains OPEN and is not a retrospective owner
-selection. No selection has yet been received.
-A remains explicitly accepted; earlier explanatory demands remain working
+selection. The owner subsequently selected B explicitly on2026-11-01.
+A and B are accepted working truths; C_PC is tentative, not accepted. Earlier explanatory demands remain working
 context, not automatic endorsement of every stronger formal instance. Accepting
 a row authorizes its use in the intended interpretation as a working truth; it
 is not a new Lean axiom, self-evident flag, or independent proof of the row.
@@ -1928,7 +1957,7 @@ Classical logic remains the current framework.
 | ID | Statement shown to owner | Formal reuse / scope |
 | --- | --- | --- |
 | A | At least one being actually exists. Already accepted. | STMT-PSR-POPULATED-AT; not automatically concrete population. |
-| B | At least one actual concrete being exists; concrete need not mean material. | STMT-COGITO-INHABITED-CONCRETE-WORLD. Selection pending. |
+| B — accepted | At least one actual concrete being exists; concrete need not mean material. | STMT-COGITO-INHABITED-CONCRETE-WORLD. Accepted as a working truth on2026-11-01. |
 | C | Every actual contingent concrete being has an actual concrete ground of its existence. | STMT-EVERY-CONTINGENT-GROUNDED-AT; stronger than an unspecified explanation. |
 | C_P (new, open) | Every contingent individual actually existing at the selected world has an actually existing complete existence-producing cause there. | STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE. Applies only at that world; does not require concreteness or causal coverage at other worlds. Different relation/domain from C, not selected by C or by D1/D2; no grounding or explanatory dictionary is inferred. |
 | D | A wholly derivative structure cannot completely explain its own existence merely by infinitely many dependent members. | Working adequacy demand; its application to STMT-WHOLE-ROSTER-NOT-TRAPPED must preserve the selected relation. No all-subsets WF is admitted by this wording. |
@@ -1953,8 +1982,8 @@ relation nor the selected grounds edge; interpreting them as sustaining causatio
 requires independent defense. A now-slice reading would need an explicit
 world/time coherence interface, which F does not contain.
 
-The renewed owner-facing presentation keeps A accepted and requests selections;
-no additional reply has selected a premise. Independent adversarial review
+The renewed owner-facing presentation now records A and B as accepted working
+truths. C_PC is tentative; the other unselected rows remain open. Independent adversarial review
 confirmed that D1 is not answered by a consistent infinite graph, but D1 alone
 neither proves D2 nor the formal no-trap target. In the abbreviated chat ledger,
 D2 states the general demand that actual contingent existence have an adequate
