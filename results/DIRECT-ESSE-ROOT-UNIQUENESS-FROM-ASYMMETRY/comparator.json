@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.uniqueRoot"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

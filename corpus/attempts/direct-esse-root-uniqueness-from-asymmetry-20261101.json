@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY-20261101",
+  "date": "2026-11-01",
+  "statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Compose the EXISTING seven-input WholeRosterFromMaximumAsymmetry.wholeRoster with DirectEsseRootUniquenessAtBeing.uniqueRoot on the SAME Profile, world, being/respect carriers and InAct/MoreIn/CausesIn/esse dictionaries. Eight retained inputs are population B, contingent grounding C, EM, existing-to-esse E, direct esse-cause-to-ground F, fixed-esse genus I, fixed-esse grades-to-maximum H and actual-grounding asymmetry O. Derive D internally, then import the exact old unique actual necessary selected-root endpoint. Relative to old8 replace ONLY D by O, retaining its other seven; this is an alternative conditional bundle, not global weakening, minimality or truth closure. Uniqueness ranges over actual concrete roots of the supplied grounding relation, not all necessary individuals, efficient causes or all-world roots. NecessaryAt retains the supplied accessible-world scope. No God naming, attributes, source claim, new relation or existence guard is added. Reuse/dossier audit inspected all eight inputs, D and the target plus exact old theorem types and recorded asymmetry derivation; no new vocabulary or philosophical claim. Challenge frozen before Solution SHA256 70f04f311fca09ad98701a316b3d927f184abf5dca4821c35f1ad2e1b76353b9. Existing inference records are composed directly: first produces D, second consumes D and the retained inputs. Claim/type sweep preserves all guards and the literal old endpoint; no arbitrary necessary witness or global necessity is advertised. Focused Solution CLI compilation passes under shared lease /tmp/truth-core-lean.lock and disk TMPDIR .verification-tmp/unique-root-asymmetry. Explicit axiom probe reports no axioms for the exported uniqueRoot. Corpus consistency and whitespace checks pass with only the existing unrelated Frege-Geach warning; frozen Challenge hash unchanged. No Comparator/NanoDa or full-verification status claimed; coordinator owns generators/integration. This eight-input stage avoids the25-route seventeen additional attribute/naming inputs for a DIFFERENT endpoint; no overall bundle weakening or philosophical discharge follows. Shared policy sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Final coordinator verification: full lake build4339, bind-check813 bound/2existing pins/0mismatch, Comparator and independent NanoDa solution acceptance; scoped module NanoDa checks128 declarations with no typechecker errors (usual axiom printer diagnostic only). Explicit axiom probe remains empty, frozen Challenge hash unchanged. Independent read-only review accepted exact old8 type comparison, same dictionaries and source/necessity/uniqueness bounds without findings. Offline corpus/source/generators/whitespace pass after all source records were complete. Default root union81 (29bare/52sourced) and route costs31 cheapest/37 existing32consumer unchanged; no added/removed reaching IDs. At the selected-root target, this new8-input route has expanded cost10, same as the prior fixed-esse8 route; the all-respects8 route has cost7 but different stronger interfaces, so this is not a logical-strength/minimality ranking. No assumption or source application is independently discharged. A separately declared structural projection to NecessaryConcreteAt is verified to expose this existing witness at the user-requested target; no new philosophical consequence is counted for projection. The companion projection is explicitly classified assembly/transcription; its cost1 row must not be advertised as one independently defended premise or as a reduction of the eight-input upstream proof. The existing God/attribute projection receives only its missing structured assembly flag; mathematical content is unchanged.",
+  "evidence": [
+    "WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY",
+    "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+    "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY"
+  ]
+}

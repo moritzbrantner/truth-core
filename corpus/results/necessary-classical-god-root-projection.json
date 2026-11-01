@@ -6,6 +6,6 @@
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.project",
   "comparator_config": "results/NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION/comparator.json",
   "status": "solution-present",
-  "description": "Structural projection/transcription only: unpack the shared NecessaryClassicalGodRootAt witness and retain its sigma.IsGod membership, the IsTheOneGod component of its exact nine-predicate conjunction, and sigma.HasClassicalAttributes. This supplies the existing UniqueClassicalGodExists consumer without a new philosophical premise, naming claim, attribute derivation or independent closure. All twenty-five upstream philosophical/logical inputs retain their original status; the projection merely connects existing endpoints.",
+  "description": "Transcription (structural projection/assembly): Structural projection/transcription only: unpack the shared NecessaryClassicalGodRootAt witness and retain its sigma.IsGod membership, the IsTheOneGod component of its exact nine-predicate conjunction, and sigma.HasClassicalAttributes. This supplies the existing UniqueClassicalGodExists consumer without a new philosophical premise, naming claim, attribute derivation or independent closure. All twenty-five upstream philosophical/logical inputs retain their original status; the projection merely connects existing endpoints.",
   "transcription": "assembly"
 }
