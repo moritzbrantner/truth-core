@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A3-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3C2, modal paragraph after step 11 and its note: recalled A3P3B possible-impossibility report and proposed contraposition/duality",
+  "interpretation": "The A3P3B question and A3C2 modal paragraph/suffix match the already extracted A2 alternate input exactly. Reuse its proposition identity rather than introducing another A3 modal statement or proof. The recalled affirmative report remains conditional; the question establishes no actual assent, and the author’s proposed necessity-of-possibility interpretation is not a verified S5/frame theorem. The unchanged ordinary-class A3 causal prefix and modal suffix are not duplicated.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

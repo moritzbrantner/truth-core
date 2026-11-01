@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A3-REVISED-MUST-EXIST",
+  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3P3C, opening revised must-exist stipulation and complementary contingent classification",
+  "interpretation": "The opening stipulation is exactly the existing A2 revised-class meaning, so reuse its statement and glossary. κ remains an editorial source-class label, not a source symbol or Lean relation. No existing bearer, material-implication semantics, counterfactual calculus or identity with ordinary NecessaryAt follows. The subsequent A3 reaffirmation asks about a possible beginning; it does not re-ask A2’s causal-exclusion report.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
