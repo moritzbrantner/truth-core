@@ -1,0 +1,10 @@
+{
+  "id": "NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
+  "argument_id": "NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution",
+  "theorem": "TruthCore.Results.Causality.NonlimitingConcreteExistence.checks",
+  "comparator_config": "results/NONLIMITING-CONCRETE-EXISTENCE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the EXACT mixed Ontic and concrete predicate; explicitly add an unused empty-grounds Profile view and a NEW analyst classifier L P v = not P none v. Jointly certify all SIX consumer inputs including supplied EM, apply the new consumer, and retain actual contingent some false, a possible-absence exemplar and necessary none. No old ontology field, source judgment or real causal interpretation is changed. The fixture demonstrates joint compatibility and noncollapse, not source A8 truth, adequate explanation or metaphysical realizability. The old imported mixed-contingency proof contributes propext; the control uses the standard Mathlib three-axiom allowlist. The generic separation, transport and necessary-concrete consumer remain zero-axiom."
+}
