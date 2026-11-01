@@ -505,3 +505,26 @@ This batch explicitly delivers only the four existing pinned witness manifests `
 The ordinary-class C2 prefix reuses A4 main. Revised C3 uses property transfer and reductio, so it is not aliased to A3’s direct revised possible-cause argument. C3’s shorter event title omits main C’s essential-state qualification: attribute neither that criterion nor its negation. The new reading has no stronger essential-state event definition link; the existing A4 disambiguation distinguishes contexts explicitly. Nonrigid first-exemplification, separate possibilities, property admissibility/intension, earlier existing concrete bearer, class persistence and modal/actual rigid-witness correspondence remain OPEN. No unconditional Scenario opportunity or hypothetical causal witness is exported after the reductio.
 
 All four witnesses were materialized/read with raw SHA/title checks and exact reused-text comparisons. Root and an independent adversary accepted source fidelity without P1 findings; that is neither soundness nor premise truth. No glossary, framework, Lean, argument, result, source kind, dependency, repin or archive fallback is introduced. The other65 private manifests and later private read history are not delivered or copied. Candidate progression to A5 marks only this completed reading range; the remaining public A5–A10 witness/reading/extraction queue remains open, without campaign completion or PHP answer requests.
+
+
+### Independent A8 source delivery (2026-11-01)
+
+A8 is published as one bounded source dependency for the separate analyst limitation configuration, independently of the still-queued A5–A7 work. The public source cursor remains **A5**; this delivery does not imply that intervening families were processed publicly. It reuses already-public A2 modal/nominal/concrete meanings, with no A5–A7 dependency.
+
+The exact eight unchanged manifests are `NECESSARYBEING-A8P1/P2/P3/P4/C/P2B/P3B/C2`. Seven qualified claims add five bare statements, two source glosses and one disambiguation:
+
+| Reading | Precise witness/locator and scope |
+| --- | --- |
+| Limiting-property definition | P1 entire introduction/property/entails titles; deficiency-entailing limitation and necessary universal inclusion, not a selected full existential classifier. |
+| Powerful Necessary Being nonlimiting | Negative P2 report, C9; conditional evaluative commitment, not actual assent or independently established possibility/quantitative omnipotence. |
+| Possible nonexistence limiting | Affirmative P3 report, C3; a separate main-branch commitment, not actual absence or an alternate-branch requirement. |
+| Main limitation reductio | C1–11; source2 scoped causal-concrete classification, explicit C4 BACKWARD closure, separate source6 powerful-NB→concrete implication; possibility discharged10–11 only. |
+| Main possibility invariance | P4 and C modal paragraph after11; exact P4 match to existing A2 meaning, without a new modal proof or rigid individual. |
+| Alternate vacuous limitation reductio | C2steps1–10, explicit vacuity after3 and compressed deficiency/transitivity5–7; no affirmative main-P3 or powerlessness report required. |
+| Alternate possibility invariance | P3B entire shorter question/examples/non-joint note and C2 suffix after10; same A2 proposition content despite nonidentical wording, separately located for unambiguous witness binding. |
+
+All eight materialized bodies and raw SHA-verified titles were read. Independent Root fidelity reviews accepted main and alternate: backwards closure and source2/source6 scope are faithful; no full uniform-deficiency semantics or Scott bridge is selected. P2B’s three answer links all lead to P3B, so no affirmative powerlessness answer is invented. No κ branch exists here. Alternate5–7 remains an attributed compressed inference, not an illicit uniform deficiency chosen from varying bearers. Admission of a deficiency property is distinct from an actual deficient bearer. Source assertions, reports, typed conditional consequences and premise truth remain separate.
+
+The two glosses distinguish modal inclusion from stronger relevant/nontrivial consequence and deficiency limitation from root composition/esse/priority horns or Scott positivity. Property/deficiency admission, intension/uniformity, evaluative applicability, causal-concrete/domain and modal/actual rigid-witness correspondence remain OPEN. No empirical powerful Necessary Being, God naming, uniqueness, all-attribute result, source soundness or independently justified possibility follows. A separate analyst proof is not included here, and no bare source statement receives a Lean binding.
+
+This explicit named manifest delta raises public coverage **403→411**. Scoped live verification selects these eight; the other403 public passages receive offline checks only. No other private later witnesses/history or A5–A7/A9–A10 readings are copied. No pin, selector, source kind/dependency, archive fallback, PHP answer/session request, argument/result, truth flag or root-premise closure changes. Public A5 remains queued; A8 coverage is neither campaign completion nor an owner choice of its philosophical premises.

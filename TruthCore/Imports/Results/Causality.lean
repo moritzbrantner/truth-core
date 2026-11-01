@@ -13,6 +13,8 @@ import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 import TruthCore.Results.Causality.ContingentAncestry.Solution
 import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
+import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
+import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
 import TruthCore.Results.Causality.CountTemporalControls.Solution
 import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 import TruthCore.Results.Causality.DerivativeJointPower.Solution
@@ -70,6 +72,7 @@ import TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution
 import TruthCore.Results.Causality.NecessaryRootUniqueness.Solution
 import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
+import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution
 import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 import TruthCore.Results.Causality.ParityUnionRegress.Solution
 import TruthCore.Results.Causality.PartFreePlurality.Solution
@@ -120,6 +123,7 @@ import TruthCore.Results.Causality.UnderivedRootRoute.Solution
 import TruthCore.Results.Causality.UniqueFeedback.Solution
 import TruthCore.Results.Causality.WholeRosterFoundation.Solution
 import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
+import TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 import TruthCore.Results.Causality.WorldSourceRegress.Solution

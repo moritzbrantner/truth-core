@@ -1,0 +1,11 @@
+{
+  "id": "STMT-LIMITATION-KNOWN-LIMITING-AT",
+  "paraphrase": "The SAME supplied analyst classifier marks the given property Q limiting at selected world w. This is an explicit open typed input, not the broad source definition or an independently established deficiency judgment.",
+  "lean_declaration": "TruthCore.Modal.LimitationPossibility.KnownLimitingAt",
+  "definition_ids": [
+    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+  ]
+}

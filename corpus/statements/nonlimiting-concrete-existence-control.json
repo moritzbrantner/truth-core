@@ -1,0 +1,39 @@
+{
+  "id": "STMT-NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
+  "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.JointControl",
+  "paraphrase": "Reuse the EXACT mixed Ontic and concrete predicate; explicitly add an unused empty-grounds Profile view and a NEW analyst classifier L P v = not P none v. Jointly certify all SIX consumer inputs including supplied EM, apply the new consumer, and retain actual contingent some false, a possible-absence exemplar and necessary none. No old ontology field, source judgment or real causal interpretation is changed. The fixture demonstrates joint compatibility and noncollapse, not source A8 truth, adequate explanation or metaphysical realizability.",
+  "definition_ids": [
+    "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+    "DEF-NONLIMITING-CONCRETE-CONTROL",
+    "DEF-LIMITATION-SEPARATION-WITNESS",
+    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NONLIMITING-CONCRETE-AND-SOURCE-NB",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+  ]
+}
