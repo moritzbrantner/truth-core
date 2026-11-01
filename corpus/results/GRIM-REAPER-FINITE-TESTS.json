@@ -1,0 +1,10 @@
+{
+  "id": "GRIM-REAPER-FINITE-TESTS",
+  "argument_id": "GRIM-REAPER-FINITE-TESTS",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperFiniteTests.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperFiniteTests.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperFiniteTests.checks",
+  "comparator_config": "results/GRIM-REAPER-FINITE-TESTS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct a Nat-wide action assignment for each finite selected set of complete infinite-tail clauses, then import the existing impossibility of satisfying every clause at once. No finite domain truncation, actual causal realization, modal recombination, actual grounding foundation or independent premise defense follows. No root-path open premise changes."
+}
