@@ -8,13 +8,17 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`b3fc981d` before this update. Main is `385838b2` through #862, integrated in
+`5b6ee140` before this update. Main is `385838b2` through #862, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
-in the existing CC100 intake attempt; the first extraction batch is #4–5.
-Public A5 publication remains separate. Canonical corpus checks pass with2580
-statements,1762 claims,810 results and468 passages. Only ledger A is accepted;
+in the existing CC100 intake attempt. First #4–5 batch is committed5b6ee140: seven
+claims, seven independent bare statements and two minimal source glosses.
+Full witness and claim/type review accept attribution and conditional scope;
+corpus/source binding/whitespace checks pass. Candidate now starts #6 at p12;
+focused public delivery is assigned with no SurveyA5 cursor change.
+Public A5 publication remains separate. Canonical corpus checks pass with2587
+statements,1769 claims,810 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
