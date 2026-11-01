@@ -100,6 +100,21 @@ new Challenge frozen and records prepared; focused compilation is queued behind
 the already live #823 baseline build. Neither queued compilation nor source
 fidelity acceptance is a completed Comparator/NanoDa gate.
 
+A6 main is now committed at `43593586`: seven claims, three new bare statements,
+one scoped existence-situation gloss, one disambiguation and three existing
+source-queue/history files (15 files). The new scope covers individual causal
+availability, restricted existence-situation coverage and C8–11's explicit domain
+admission before coverage is applied. Four exact existing proposition meanings
+are reused. Root independently reviewed all seven claims/three statements and
+read all four materialized main bodies; P1B raw SHA and exact-cardinality,
+obtaining and partial-cause titles were also independently inspected. No blocking
+source-fidelity findings; the existing attempt records the acceptance and limits.
+Source check468/1715 bindings, corpus2533/1715 and whitespace checks pass (counts
+include prepared concurrent proof records). No Lean, pins or public coverage
+changes. The candidate begins A6P2B/C2, then A6P2C/C3; main source completion
+neither settles those alternatives nor discharges C9's typed-admission bridge,
+source12's externality, actual concrete causal-bearer or modal/history guards.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
