@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+  "statement_id": "STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.44 a.1 ad 2, reply to the claim that what cannot not-be needs no efficient cause",
+  "interpretation": "Aquinas rejects the necessity-therefore-uncaused inference, citing necessary principles causing necessary conclusions and Aristotle’s caused necessities. The demonstrative example is not by itself an efficient-cause ontology. The reply’s efficient-cause conclusion is retained without treating every necessary being as caused or proving every cause of esse is a cause of necessity. Reading is based on the verified complete Latin article and its objections/replies; no formal proof or independent premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
