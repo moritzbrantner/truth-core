@@ -1,0 +1,20 @@
+{
+  "id": "RUTTEN-CH7-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+  "statement_id": "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "locator": "2012 dissertation, chapter VII, printed p.157, causation reply and footnote211: total or complete cause and all objects participating in causing the effect",
+  "interpretation": "Explicit WEAKER CONSEQUENCE reading of total or complete cause as the sum of ALL objects participating in causing its effect: each participant is contained in that cause, formalized only with existing Covers. Do not identify full mereological fusion with this upper-bound clause or infer a cause from an arbitrary cover. Footnote211 discusses participant-sum objecthood separately; this policy quantifies only over causes already supplied by the graph and does not prove object eligibility or existence of a cause. Causing a part is NOT silently identified with participating in producing the whole, and all participants belong to one selected causal context, not a union of alternative histories. The entire pinned ChapterVII reply range printed154–158/PDF156–160 was materialized and read, with p157 reread before this extraction. No independent premise truth, full first-cause proof or metaphysical possibility is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

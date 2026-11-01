@@ -1,0 +1,18 @@
+{
+  "id": "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+  "paraphrase": "Every complete cause contains every supplied productive participant in producing its same effect, under the fixed parthood order.",
+  "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.CompleteCauseCoversContributors",
+  "definition_ids": [
+    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
+    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "Covers is the existing upper-bound condition only; no fusion formation, no-extra-parts, causation of parts or cross-world sum identity is included. The participant family’s real interpretation remains OPEN."
+}

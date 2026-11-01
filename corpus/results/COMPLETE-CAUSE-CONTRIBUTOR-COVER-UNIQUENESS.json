@@ -1,0 +1,10 @@
+{
+  "id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "argument_id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.CompleteCauseContributorCover.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CompleteCauseContributorCover.Solution",
+  "theorem": "TruthCore.Results.Causality.CompleteCauseContributorCover.uniqueCause",
+  "comparator_config": "results/COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Derive existing complete-cause uniqueness per effect from two transparent participant policies and parthood antisymmetry. The independent contributor family retains partial/complete role separation; no cause existence, full fusion, causal inheritance, world rigidity, necessity, global root uniqueness or source truth is inferred. This is a structural conditional, not a bridge merely restating uniqueness, and no philosophical premise is discharged."
+}
