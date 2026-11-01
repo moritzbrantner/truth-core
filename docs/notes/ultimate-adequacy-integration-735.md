@@ -99,8 +99,11 @@ build, binding843/2existingpins/0mismatch, both Comparator/result NanoDa gates,
 and scoped5-module export4/check55 with zero typechecker errors. Static83579
 and53726 pass2755statements/1909claims/827results; necessary17/best2 and
 Catholic12/best31 route counts unchanged. Only A remains owner-selected.
-Public delivery of exact17-file commit1d37c5a6 is being prepared; no generic
-schema is registered as its conclusion. The off-root candidate retains real
+Public PR895 head5c51ede97c760b83f60b720ba0aad04ea8175013 publishes the
+exact17-file commit1d37c5a6 slice; CI41302041154 is active and review requested
+once. All29local proof imports and toolchain/dependency files match corrected
+certified inputs; cheap public checks and three frontier comparisons pass.
+No generic schema is registered as its conclusion. The off-root candidate retains real
 semantic/application and cause-of-necessity obligations, rather than repeating
 the already checked configured derivation.
 
