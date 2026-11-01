@@ -1,0 +1,17 @@
+{
+  "id": "INF-ACTUAL-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "output_statement_id": "STMT-UNIQUE-ACTUAL-ROOT",
+  "rule": "import-actual-root-and-one-maximum-compare-each-root",
+  "meaning": "Import WholeRosterFoundation.actualRootExists from population/formal whole-roster nontrapping/EM. Restrict ONLY the respect carrier to Unit with act,comparison,cause equal to the supplied esse dictionaries, preserving B,m,w and every old relation. Import maximumExistsOfExistingRoot once to choose ONE maximum from the supplied actual root and fixed-esse grades. Apply maximumEqualsRoot to identify that SAME maximum with the selected root and separately with every other actual root; compose the equalities. Existing actual-root and direct-esse hypotheses suffice; no contingency/necessity conversion is used. Conclusion is actual-root unicity, not the old necessary-root endpoint.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

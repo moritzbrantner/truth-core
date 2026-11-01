@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-ROOT-NECESSITY-UPGRADE",
+  "argument_id": "ACTUAL-ROOT-NECESSITY-UPGRADE",
+  "challenge_module": "TruthCore.Results.Causality.ActualRootNecessityUpgrade.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualRootNecessityUpgrade.upgrade",
+  "comparator_config": "results/ACTUAL-ROOT-NECESSITY-UPGRADE/comparator.json",
+  "status": "solution-present",
+  "description": "Import the old contingent-root exclusion to upgrade the SAME unique actual root to existing UniqueNecessaryActualRootAt from three heads: unique actual root, contingent dependence and EM. Combined with ACTUAL-ROOT-UNIQUENESS, the flattened premises remain exactly the old fixed-esse eight; no cost reduction, minimality or philosophical truth discharge. Necessity concerns the selected unique root, not all necessary individuals or God."
+}

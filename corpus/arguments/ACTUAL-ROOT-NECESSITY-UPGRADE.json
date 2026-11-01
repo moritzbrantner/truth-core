@@ -1,0 +1,59 @@
+{
+  "id": "ACTUAL-ROOT-NECESSITY-UPGRADE",
+  "premise_statement_ids": [
+    "STMT-UNIQUE-ACTUAL-ROOT",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "inference_ids": [
+    "INF-ACTUAL-ROOT-NECESSITY-UPGRADE"
+  ],
+  "meaning": "Unpack the SAME n and its root uniqueness from UniqueActualRootAt. Split NecessaryAt n with supplied EM. If necessary, package that SAME n with retained uniqueness. Otherwise imported contingentRootOfNonnecessary makes it a contingent root, contradicted by EveryContingentGroundedAt through imported everyContingentGrounded_iff_noContingentRoot. No root-existence proof or modal-absence extraction is duplicated. The conclusion is old UniqueNecessaryActualRootAt; flattened composition with the seven-input actual-root theorem retains the original eight premises, including contingent dependence and EM only once.",
+  "definition_ids": [
+    "DEF-UNIQUE-ACTUAL-ROOT",
+    "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}
