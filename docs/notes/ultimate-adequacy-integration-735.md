@@ -44,9 +44,12 @@ exact65→69/17→19 route comparison remain below. No premise is discharged.
 The contributor-cover and scoped-causality batches are verified at a0652a82:
 4424 build,865 bindings/2legacy/0mismatch, all four result Comparators/result
 NanoDa, scoped4modules/15exports/568checked/0typeerrors (known printer diagnostic).
-Contributor14 files plus two source-status edits and imports are prepared as an
-18-file direct-main slice; scoped20 files plus imports as a22-file slice. Both
-hold for final evidence synchronization before publication. Exact old mixed
+Contributor18-file PR910 is public ataec6497a4c41f1934819b0ae14e1ead19c1fd182,
+CI41334829941 queued/running, exact-head review requested once (6561808716),
+Root watch30616. Scoped22-file PR911 is public at
+595c9241da50cb2278826d3e6ca80bb80293b153, CI41334838393 queued/running,
+review requested once (6561809864), Root watch67827. Both are fresh main909
+slices with certified public compiled-input identity; no cold checks repeated. Exact old mixed
 ontology certifies strict world-scope weakening of the causal policy with all
 four nonlogical structural inputs and nonvacuous contingent coverage retained.
 BareNE19→20 routes/best2 unchanged; all-reaching69→70 adds only the selected
