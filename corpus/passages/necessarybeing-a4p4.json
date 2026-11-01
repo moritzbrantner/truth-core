@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a4p4.html",
+    "retrieved_at": "2026-10-31T18:23:07Z",
+    "sha256": "sha256:b2a8ead34813fe9ccbe56ad9a42f6d5aedd0b50b0e44c89feceb5d1374f2883f",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A4P4",
+      "locator": "A4P4, complete interactive page",
+      "claim_locator_prefixes": [
+        "A4P4,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Suppose X and Y are any situations that are individually possible. That is, each is logically consistent with whatever is necessary."
+        }
+      },
+      "text_sha256": "sha256:aad1d18b58cbfd84f4c92f20eb38d2b9f736ef36d750da0efc5a8041f17accf6",
+      "incipit": "Suppose X and Y are any situations that are individually possible. That is,"
+    }
+  ]
+}

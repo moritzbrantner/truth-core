@@ -1,0 +1,11 @@
+{
+  "id": "INF-SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "input_statement_ids": [
+    "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "constructive-proof",
+  "meaning": "Assembly transcription: destructure the existing Scenario.NecessaryConcreteAt witness and retain the SAME individual\u2019s actual and necessary existence in the SAME s.ontic, dropping only its supplied concreteness conjunct. Connects to existing STMT-KANT-CONVERSION-NECESSARY-WITNESS. No additional premise, concreteness bestowed on another witness or independent metaphysical discharge; closure through this assembly requires its input already closed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

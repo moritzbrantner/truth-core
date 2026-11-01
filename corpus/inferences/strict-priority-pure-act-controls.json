@@ -1,0 +1,11 @@
+{
+  "id": "INF-STRICT-PRIORITY-PURE-ACT-CONTROLS",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-STRICT-PRIORITY-PURE-ACT-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "On the unchanged original four-being #681 carrier and DirectEsseGenusOmissionControl.profile, two explicit assignments each satisfy the other six inputs (EM retained as the theorem input). First keep old act/potency and add only a simple-priority self-loop at the nonroot instrument: same-respect exclusivity and act-priority hold, while irreflexivity fails. Second keep strict component priority and old potency but stipulate act in every respect: irreflexivity and act-priority hold, while exclusivity fails at instrument/drive. The distinct-priority-to-actual-ground bridge is checked for both assignments; its distinctness guard excludes the added self-loop. Population, whole-roster non-trapping and contingent-ground coverage reuse the exact old profile. Contingent coverage is vacuous in its all-present ontology. Thus neither replacement condition implies the other even with the remaining six interfaces. Fixed dictionary within each comparison; no claim that the two assignments have identical primitive valuations. These formal joint configurations are not metaphysical possibility, an adequate explanation, independent truth of either condition or a global route minimality claim.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

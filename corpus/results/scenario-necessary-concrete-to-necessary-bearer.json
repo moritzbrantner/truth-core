@@ -1,0 +1,11 @@
+{
+  "id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "argument_id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "challenge_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution",
+  "theorem": "TruthCore.Results.Causality.ScenarioNecessaryWitness.necessaryBearer",
+  "comparator_config": "results/SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Assembly transcription: destructure the existing Scenario.NecessaryConcreteAt witness and retain the SAME individual\u2019s actual and necessary existence in the SAME s.ontic, dropping only its supplied concreteness conjunct. Connects to existing STMT-KANT-CONVERSION-NECESSARY-WITNESS. No additional premise, concreteness bestowed on another witness or independent metaphysical discharge; closure through this assembly requires its input already closed."
+}

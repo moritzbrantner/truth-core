@@ -1,39 +1,44 @@
 # Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
 
+For the current necessary-root routes to the nine classical attributes, see the
+[consequence matrix](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31)
+from #826. It records exact inputs, same-witness results, omission controls and
+unresolved bridges; conditional consequence does not establish premise truth.
+
 ## Current delivery and parallel work
 
-PRs #810–[#820](https://github.com/moritzbrantner/truth-core/pull/820) are
-merged. Latest merge `3268b6950c4e5bc889ecfe6f5fb42c43a9c5c168` passed all CI
+PRs #810–[#821](https://github.com/moritzbrantner/truth-core/pull/821) are
+merged. Latest merge `28de2b6683e2c87ba0b9c10456dfb336fd2267e8` passed all CI
 checks and current-head review without findings (reviewed head
-`49a92f831ea7dd4b408a2b5704a6aef1f124be93`, CI run `41226549875`). The full
-causal-ancestry closure/no-source characterization is on main, alongside the
-same-root essence identity and three-horn connection. No philosophical premise
-was discharged; God/Catholic/unique-root unions66/73/14 and route costs remain
-unchanged.
+`18ef9f7227eabc62d7dda4144eee45f75df5122a`, CI run `41227428523`, attempt2).
+Its first source-fetch mismatch did not reproduce locally; unchanged-head retry
+verified all original pins. No manifest or verification rule changed, and the
+unretained first response remains unexplained. Exact diagnosis/resolution is
+preserved in the survey note/attempt.
 
-Current verified implementation `39ae3798` adds POSSIBLE-CAUSAL-SOURCE-NECESSITY:
-five explicit inputs yield the existing necessary-being statement, retaining
-the SAME individual from an accessible world's source. Sourcehood is asserted
-only there; existence and necessity transfer to the selected standpoint. It
-uses the existing global local-causal principle, Euclidean frame, actual
-reflexivity, accessible failed headless coverage and explicit EM. Full build,
-binding783bound/2existingpins/0mismatch, zero-permitted-axiom Comparator and
-independent NanoDa passed. Publication/review remain pending.
+Current verified implementation `88baeeab` localizes the existing Scenario
+possible-external-cause frame premise: Euclidean accessibility plus reflexivity
+at the selected world replaces global universal access, with original causal
+opportunity and possible-beginning predicates unchanged. It retains the SAME
+concrete witness and old classical basis. The old universal premise implies the
+replacement frame bundle; existing identity controls separate only frame
+fragments, not the full causal bundle. No causal premise is discharged.
 
-The shared necessary-being target gains cost4/direct5, while existing costs
-2,2,3 remain unchanged. Its open union13→17 reflects four additional alternative
-commitments, none discharged; nine existing argument consumers can reuse the
-new route. No concreteness, capability, selected-world sourcehood or uniqueness
-is proved. The precise scope and retained assumptions are in the existing
-survey inventory and new attempt.
+LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE has cost4/direct4. Its one consumer is the
+explicit assembly projection SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER,
+connecting to the shared necessary-being statement. Full build4294jobs,
+binding785bound/2existingpins/0mismatch and both Comparator/NanoDa checks passed.
+Main permits the approved three Mathlib axioms; assembly permits none.
+Publication/review remain pending. God/Catholic/unique-root unions66/73/14 and
+route costs remain unchanged. The shared necessary-being target adds another
+cost4 assembly route; its causal and modal inputs remain open.
 
-The A2 family is now completely read, including four alternate pages in source
-commit `11668e29`; all four passed live snapshot verification. A2c2 reaches the
-same modal interface through a different report; A2c3 revises necessity and
-reaffirms causal exclusion for its complementary class. It is not silently
-identified with NecessaryAt or declared a weaker overall bundle. The single
-campaign candidate now begins with A3; it does not requeue completed A1/A2/A7
-proofs. Exact source/domain boundaries remain in the survey inventory/attempt.
+The complete A3 linked cluster is read in source commit `3429bccd`: eight
+materialized pages, all live-verified. Its missing source-to-Scenario step is
+state-preserving causal availability of the first contingent transition and a
+prior existing concrete bearer outside the contingent class. The revised
+necessity alternatives retain separate classifications. The campaign candidate
+now begins with A4, without requeueing completed A1/A2/A3/A7 consequences.
 
 No owner truth selection has been inferred; A remains explicitly accepted,
 and other ledger rows retain their prior working/pending distinctions.

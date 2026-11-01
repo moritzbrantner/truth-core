@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+  "term": "source concrete coverage and causal head versus actual graph ancestry",
+  "sense_definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "resolution": "A2P1 uses cause-or-effect capability, while A2c uses cause capability alone; do not silently carry its reported denial across that narrowing. Source entire-chain member closure is not collective causation. The existing actualGraph ranges over actual Ontic candidates and its sources exclude incoming causes from actual nodes only. Its finite ancestor cones allow branching, cycles and self-loops and its sources need not cause anything else. Matching those meanings, actual causal endpoint guards and objective modal scope requires explicit application interfaces. The source existential N-to-Box-N stipulation does not itself identify one rigid individual across worlds. A2P2c/A2c3 additionally changes the necessity/contingency classification and remains a separate pending extraction, not an alias for NecessaryAt."
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.wholeRoster"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A4-CAUSED-CONTINGENT-UNDER-NO-POSSIBLE-NECESSARY",
+  "paraphrase": "Within the reductio supposition that a Necessary Being is not possible, and given the reported possibility of something having a cause, the source asserts a possible caused contingent thing and redescribes it as a caused instance of being contingent. The supposition is not an established premise or an unconditional conclusion; classification/domain correspondence between caused things, causal capability and the source Necessary Being class remains unproved.",
+  "definition_ids": [
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

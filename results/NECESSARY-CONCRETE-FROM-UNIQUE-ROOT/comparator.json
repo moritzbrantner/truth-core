@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.necessaryConcrete"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

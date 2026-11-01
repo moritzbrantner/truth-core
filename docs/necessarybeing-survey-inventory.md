@@ -337,3 +337,171 @@ the existing classical floor; its old costs2,2,3 remain unchanged. Its reachable
 premise union grows13→17 through alternative dependencies, removing none.
 God/Catholic/unique-root route costs and unions remain unchanged. No
 philosophical premise is discharged.
+
+### A3 complete linked reading and reuse design (2026-10-31)
+
+Pinned/materialized/read in source order A3p1 → A3p2 → A3p3 → A3c, then A3p3b → A3c2 and A3p3c → A3c3. Exact witness IDs are `NECESSARYBEING-A3P1`, `NECESSARYBEING-A3P2`, `NECESSARYBEING-A3P3`, `NECESSARYBEING-A3C`, `NECESSARYBEING-A3P3B`, `NECESSARYBEING-A3C2`, `NECESSARYBEING-A3P3C`, `NECESSARYBEING-A3C3`. Each complete response matched two GETs; relevant title attributes were read in the same hash-checked bytes. Only actual A3 redirect targets were traversed. Negative/unsure A3p1 exits to A4; negative/unsure A3p2 and A3p3c exit to A5. Those exits were not fetched. Rights remain undisplayed; manifests assert no archived fallback.
+
+**Ordered argument.** A3p1 asks whether a possible event can be impossible to cause; its negative answer selects the argument. Its event title fixes a transition's before/after states as essential to event identity, and its uncausable title concerns a prior condition capable of partly explaining that event. A3p2 asks whether all contingent existence could begin, with a Big Bang offered only as illustration. A3p3 supplies the familiar possibility-independence report. A3c steps 1–4 infer the possibility of a transition from no contingent things to some. Step 5 invokes possible causability of every possible event; step 6 infers possible caused occurrence of that transition. Steps 7–8 exclude a contingent cause by requiring the cause to be prior to the first contingent existence. Steps 9–11 obtain a possible noncontingent cause, whose causing supplies concreteness, then a possible Necessary Being. The standard twelve-step modal suffix follows.
+
+**Scope and new obligations.** A3c's note after step 11 expressly denies that “all contingent things” rigidly names a fixed collection. The event is the first occurrence of *some* contingent things, preceded by none; it is not a joint beginning of exactly the actual world's roster, nor a sum inferred contingent from its members. The source's event-identity restriction makes step 6 stronger than possibility of an analogous event with different essential states: possible causation must preserve the transition from no contingents. The cause tooltip in the conclusion is a prior explanatory/partly explanatory condition. Step 7's positive argument works when this priority requires an existing causal bearer on the no-contingents side of the transition. Mere explanatory ordering, simultaneous production, or a nonexistent reason does not yet supply that condition. Conversely, the source's contradiction argument is substantive under the intended temporal-before/existence reading; it need not assume that a cause of each member is a cause of their fusion. Converting this event-cause to the existing concrete individual/existence semantics remains explicit. The causal bearer is capable by its possible exercise; ordinary physicality and the existing intervention-response definition are not automatically identical to that capability.
+
+**Closest existing consequence.** `PossibleCauseOfContingency.possibleExternalCauseYieldsNecessary` already derives `NecessaryConcreteAt s w` from `UniversalFrame s` and `PossiblyExternallyCausedAt s w`; `causalOpportunityAndPossibleBeginning` supplies that latter interface from `PossiblyBeginsAt` and `CausalOpportunityAt`. Its proof preserves the same rigid bearer from the accessible caused history to the actual world and all accessible worlds. The source-informed module explicitly records that its begins predicate is not itself an encoded temporal transition. Hence A3 does not need a duplicate external-candidate or modal suffix proof. To apply it, the fresh source work would be a faithful bridge from the state-preserving causability of the first transition and existing-before-cause condition to an existing concrete cause outside all contingent concrete individuals in that history. Simply assuming `CausalOpportunityAt` packages that substantive bridge rather than proving the source's steps 3–8. `UniversalFrame` is the existing theorem's sufficient modal scope, not something established by the respondent's prose. The propositional NecessaryIfExistent suffix remains separately reusable if chosen instead; neither route licenses exchanging `□∃` for `∃□` without the explicit individual semantics.
+
+**Alternates and premise comparison.** A3p3b/A3c2 replace the original possibility report by possible-impossibility implying actual impossibility, then recover the same necessity-of-possibility principle and modal suffix, as in A2c2. A3p3c instead stipulates automatic existence if possible and re-asks *whether the beginning of all contingent things is possible under the revised class*. Its affirmative path A3c3 repeats the eleven causal steps then appeals directly to the stipulation. Unlike A2p2c, it does not re-ask no-uncaused-contingents; that premise is not used by the A3 argument. Its revised contingent extension and individual/world scope cannot silently be identified with ordinary NecessaryAt. Compared with A2, A3 replaces the exclusion of universal headless ungrounded ancestry and the no-uncaused-contingents report by possible universal contingent beginning and universal possible-event causability, plus its temporal-priority exclusion. It leaves actual contingent beginnings possibly uncaused: possible causal availability is not actual universal PSR. No weaker-overall-bundle or actual-world causal-foundation claim follows. All source premises and representation bridges remain open; this reading makes no premise discharge and adds no formal/source claims.
+
+**A2c2 delivery integrity investigation (2026-10-31, PR821).** CI at 18:06:15 UTC received response hash `4fa48eaea30c51a151ca493514e1c265f12841afa8ac34dbb3d6bc6a0140351d` instead of pinned `4d6e116fa475f73416f9d1c6a36341e7841a000904592f18d5e45d4dec0df949`. The log supplies neither failed bytes nor headers, so the changed content and cause are presently unknown. At 18:12 UTC the exact existing downloader (fixed `truth-core-source-evidence/1`, identity encoding) still returned the pinned 9597 bytes; default urllib and browser user agents, HTTP/HTTPS and www/bare host variants also matched exactly. The local response was nginx, Last-Modified 2017-08-02 02:17:35 GMT; DNS resolved to 198.91.82.219. No local proxy environment was present. These observations exclude a reproduced local user-agent difference but do not exclude runner/network-specific delivery or a transient response. Exact URL and wildcard CDX queries for both host forms returned no capture; no legitimate matching archive fallback was found. No pin or interpretation was changed. A safe repair first requires retaining the failed runner response bytes, headers and resolution, then comparing and reading them; repinning a hash without those bytes or ignoring response differences would not repair source integrity.
+
+**CI delivery follow-up.** The unchanged-head retry of run `41227428523`,
+attempt2/job `124617249783`, verified all four original pinned A2 snapshots at
+18:18:06 UTC, including the original A2c2 hash `4d6e116fa475`. No source manifest,
+verification rule or proof input changed. The first differing response remains
+unexplained because its bytes were not retained; this is not evidence that the
+source text changed. If reproduced, retain the failing response before any
+repin. PR #821 subsequently passed all checks and merged.
+
+### Verified frame-scope reduction for possible external causes
+
+`LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE` keeps exactly the old Scenario,
+`PossiblyBeginsAt` and `CausalOpportunityAt`, while replacing global
+`UniversalFrame` with `Euclidean` and `ActualReflexive` at the selected world.
+Its same-cause helper reuses `ExternalCandidateNecessity.checks` with the
+already established singleton-concrete selection technique; it retains the
+original cause's concrete evidence and preserves its ontic/existence identity.
+Only existence/necessity transfer to the actual standpoint; its totality-causing
+role is asserted at the accessible history, not automatically here. The old
+classical logical basis and permitted Mathlib axioms are unchanged.
+
+`localFrameOfUniversal` proves the old frame premise supplies both replacement
+conditions. The existing Boolean identity-frame controls separate these frame
+fragments, but cannot witness the whole causal bundle: identity accessibility
+has no contingent existents, so possible contingent beginning fails there. No
+strictness or minimality certificate for the complete causal-premise bundle is
+claimed. A count of four named inputs versus three is not a strength metric.
+The beginning and external-opportunity commitments remain open.
+
+`SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER` is explicitly an assembly
+projection: retain the SAME witness's actual/necessary existence in the SAME
+ontic model, dropping only the supplied concrete conjunct. It connects this
+Scenario endpoint to the shared necessary-being statement without changing
+ontology or independently advancing premise truth. Full build, binding, both
+Comparator/NanoDa checks passed. Source temporal/event correspondence, concrete
+capability and metaphysical modal applicability remain unproved.
+
+### Conditional A7 temporal-count connection (2026-10-31)
+
+`COUNT-TEMPORAL-NECESSARY-BEING` connects the existing count result to the shared actual necessary-individual conclusion, rather than repeating its opaque decrement proof. `CountTemporalNecessity` reuses the same `TemporalHistory.History`. AtLeastAt means an injective Fin n family of concrete, world-relative contingent bearers present at one time. A guarded caused threshold supplies a concrete cause present earlier, an edge in a separate count-situation causal relation, the target count, and absence of that count at every earlier time. PossibleCount supplies an accessible history with those guards. The new typed five and decrement premises are OPEN configurations, not silent strengthenings of the old sourced count claims.
+
+Six inputs are retained: typed five opportunity, typed decrement, one-way temporal-presence-to-world-existence, explicit EM, Euclidean accessibility and reflexivity at the designated world. The proof imports `NecessaryBeingCountDescent.fiveToOne` instantiated at PossibleCount. At count one, contingency of its SAME earlier cause would give the forbidden earlier singleton threshold. Presence supplies existence in that history; EM yields necessity of that very cause, and the local modal conditions transport its existence/necessity to the designated world. The non-corpus sameCause helper retains its original concrete guard and count-one causal role at the accessible history; no causal role at the designated world is asserted. The corpus endpoint projects to existing `STMT-KANT-CONVERSION-NECESSARY-WITNESS`.
+
+This is genuine conditional derivation/configuration progress under policy #824, with no philosophical truth discharge. No universal frame, now-slice coherence, global PSR, well-foundedness, causal-grounding conversion, uniqueness or God identification is assumed or concluded. Temporal population coverage, causal interpretation, concrete-domain applicability, modal scope and the ever-history existence bridge remain explicit framework commitments. Focused Lean checks pass; both proof helpers/endpoints have zero axioms. Challenge SHA256 remains `e3834ccaaec1c02e679088b415f86e778fe2bcbc62ed957d1114bc64520d77fc`. Corpus and whitespace checks pass; Comparator/NanoDa integration is coordinator-owned and not yet claimed here. The new attempt `ATTEMPT-COUNT-TEMPORAL-NECESSARY-BEING-20261031` retains the exact premise comparison and focused evidence. Source extraction/argument registration for other family commitments remains queued.
+
+Retained strength in the typed count configuration: `CausedThreshold` requires absence at every earlier time, while the witness proof only uses absence at the cause time. This first-threshold guard is not silently attributed to the source. Weakening it to cause-time absence is a separate configuration opportunity; the frozen current Challenge remains unchanged.
+
+
+### A2 main-branch source extraction (2026-11-01)
+
+Five qualified claims now use the existing public A2 witnesses:
+
+| Claim | Statement and precise locator |
+| --- | --- |
+| `NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL` | New `STMT-NB-A2-REPORTED-COVERAGE-DENIAL`; `NECESSARYBEING-A2-QUESTION-ONE`, A2P1 question/tooltips and negative-answer continuation. Conditional answer reading only: no actual assent or truth. A2c5's explicit reported denial uses a narrower domain. |
+| `NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE` | New `STMT-NB-A2-ENTIRE-MEMBER-CLOSURE`; `NECESSARYBEING-A2-CONCLUSION`, A2C steps1–4,7 and title attributes. Necessity scope and membership rather than whole-chain extension are retained. |
+| `NB-SURVEY-A2-POSSIBLE-HEAD-AND-UNCAUSED` | New `STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED`; same witness, steps5–8. The source's disputed conditional retains its stronger relational head, domain shift and isolated-source gap. |
+| `NB-SURVEY-A2-CONTINGENTS-CAUSED` | Reuses `STMT-NB-A1-CONTINGENTS-CAUSED`; same witness, step9. This unqualified reported cause is not the stronger global/distinct/existing-cause LocalCausalPrinciple or a grounding relation. |
+| `NB-SURVEY-A2-POSSIBILITY-INVARIANCE` | New `STMT-NB-A2-POSSIBILITY-INVARIANCE`; `NECESSARYBEING-A2-QUESTION-TWO`, A2P2 question/note. Conditional affirmative-answer reading; individual possibility does not require joint possibility. |
+
+All claim witnesses were materialized/read before extraction, including title attributes in their hash-verified bytes. Existing objective-possibility and existential N-to-Box-N source statements remain unchanged. The four new source commitments intentionally have no Lean declaration: no exact formal interpretation or checked source inference is advertised. No new Challenge/Solution, inference or result is introduced. This is extraction/reuse progress with **no premise or root-frontier discharge**.
+
+Source-gloss definitions and `DISAMB-NB-A2-DOMAIN-AND-ANCESTRY` preserve A2P1 cause-OR-effect capability versus A2c cause capability. Entire-chain closure concerns causes of members, not causal production of a collective whole. Infinite means lacking a first member, not cardinal infinity; an isolated graph source need not be a cause/partial-cause head. Existing `HEADLESS-CAUSAL-ANCESTRY` and `POSSIBLE-CAUSAL-SOURCE-NECESSITY` remain unattributed mathematical consequences under their own dictionaries. Applying them still needs chain/head correspondence, capable/actual causal-domain guards, and objective/modal/rigid-individual correspondence. Mere consistency is not explanatory adequacy.
+
+Next coherent extraction is A2P2b/A2c2's alternate modal input, then A2P2c/A2c3's revised classification and reaffirmed report, using their existing public witnesses. Continue afterward with source-ordered A3 extraction and the remaining public campaign queue; no additional later-family witness coverage is delivered here. The candidate and existing first-pass attempt preserve this boundary. Source pins, old claims/types, proof modules and shared generators are unchanged.
+
+
+### A2 alternate source extraction (2026-11-01)
+
+Four qualified claims use the existing public alternate witnesses:
+
+| Claim / new unbound statement | Precise witness locator |
+| --- | --- |
+| `NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY` / `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY` | `NECESSARYBEING-A2-CONCLUSION-TWO`, A2C2 modal paragraph after causal step11, with A2P2B question context. Conditional affirmative report and proposed contraposition/duality, not actual assent or a proved modal axiom. |
+| `NB-SURVEY-A2-REVISED-MUST-EXIST` / `STMT-NB-A2-REVISED-MUST-EXIST` | `NECESSARYBEING-A2-REVISED-DEFINITION`, A2P2C opening author stipulation and complementary class. A definition does not independently supply an existing bearer. |
+| `NB-SURVEY-A2-REVISED-CONTINGENTS-CAUSED` / `STMT-NB-A2-REVISED-CONTINGENTS-CAUSED` | `NECESSARYBEING-A2-CONCLUSION-THREE`, A2C3 steps9–11 under the P2C reaffirmation question. The changed complementary class makes this a distinct premise from ordinary contingent causation. |
+| `NB-SURVEY-A2-REVISED-ACTUALITY-CONCLUSION` / `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION` | Same witness, final actuality paragraph after step11. Attributed conditional conclusion through the revised stipulation, not a certified actual or rigid necessary witness. |
+
+All four witnesses were freshly materialized/read, including hash-verified raw title attributes. Independent read-only fidelity review found no findings; this accepts the source readings, not their truth or formal consequence. Main causal-prefix readings and existing modal results remain reused without duplicate claims/proofs. The four new statements intentionally have no Lean declaration; no new Challenge, inference or result is introduced.
+
+The editorial tag κ distinguishes the revised must-exist class and its complementary contingency. Its would/automatic wording remains unbound: no material-implication classification, ordinary NecessaryAt, counterfactual calculus, existential N-to-Box-N identity or actual-world membership/witness persistence is selected. A2C2 changes a modal report while retaining the ordinary nominal class; A2P2C/A2C3 changes the class and re-asks causal exclusion. Stock tooltips do not erase the explicit stipulation. Source pins, old claims/types and proof modules are unchanged; **no premise truth or root-frontier discharge** is claimed.
+
+A2 main/alternate substantive extraction is complete at these stated boundaries. The candidate remains for source-ordered A3 extraction on its existing public witnesses, then the remaining public A4–A10 witness/reading/extraction queue. This batch delivers no additional later-family witnesses or private reading history and requests no PHP answer endpoint.
+
+
+### A3 main source extraction and conditional reuse (2026-11-01)
+
+Freshly materialized and read complete `NECESSARYBEING-A3P1`, `NECESSARYBEING-A3P2`, `NECESSARYBEING-A3P3` and `NECESSARYBEING-A3C`, including essential raw HTML title attributes. Five unbound source readings are `NB-SURVEY-A3-POSSIBLE-EVENT-CAUSABILITY` (P1 question/negative continuation), `NB-SURVEY-A3-POSSIBLE-CONTINGENT-BEGINNING` (P2 question/affirmative continuation), `NB-SURVEY-A3-NONRIGID-FIRST-TRANSITION` (C1–4 and note after11), `NB-SURVEY-A3-PRIOR-CAUSE-EXCLUSION` (C5–9) and `NB-SURVEY-A3-POSSIBLE-NECESSARY-CAUSE` (C9–11). Question reports are conditional; the remaining inferences are authorial assertions, not independent truth. The same event retains its essential before/after states; “all” means no contingents before some first appear, not a rigid actual roster. Possible causability does not require every actual event actually to be caused.
+
+The positive exclusion argument is substantive under an earlier-existing causal-condition reading: a contingent cause on the no-contingents side contradicts that side. But the cause tooltip's prior explanatory condition does not alone establish an existing concrete individual, temporal presence, or a totality-cause dictionary. Mere atemporal ordering, simultaneous production or a nonexistent reason cannot supply the reading. These remain unattributed OPEN application bridges; `STMT-SCENARIO-CAUSAL-OPPORTUNITY` is not source-attributed by renaming the assertion. Existing `LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE` requires `STMT-EUCLIDEAN-FRAME`, `STMT-ACTUAL-MODAL-REFLEXIVITY`, `STMT-SCENARIO-POSSIBLY-BEGINS` and `STMT-SCENARIO-CAUSAL-OPPORTUNITY`; its same-bearer output can feed `SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER`. Those explicit conditional consequences are not a source-to-model bridge or fresh premise defense. The existing A2 possibility-invariance report/modal suffix is reused without a duplicate proof or claim of □∃→∃□.
+
+Two source-only glosses define essential-state events/prior explanatory conditions and the first nonrigid transition; neither introduces a Lean framework. No new source witness, argument/result, Lean file or philosophical discharge. Next extraction is A3P3B/C2 then A3P3C/C3 on existing public witnesses, retaining the revised beginning question under its changed classification. The candidate remains open for that extraction and the remaining public A4–A10 witness/reading/extraction queue; this batch delivers no private later-family witnesses or reading history.
+
+Independent Root and Pages fidelity reviews materialized/read all four main witnesses and verified raw HTML/title hashes without findings. This accepts source fidelity only, not premise truth or Lean consequence.
+
+
+### A3 alternate extraction and exact semantic reuse (2026-11-01)
+
+Materialized/read the full existing `NECESSARYBEING-A3P3B`, `NECESSARYBEING-A3C2`, `NECESSARYBEING-A3P3C` and `NECESSARYBEING-A3C3` witnesses and verified raw HTML SHA256 before reading title attributes. Exact comparisons of materialized text, not similarity rankings, give the following bounded delta:
+
+| New source claim | Statement and precise witness scope |
+| --- | --- |
+| `NB-SURVEY-A3-ALT-POSSIBLE-IMPOSSIBILITY` | Reuses `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY`. A3P3B question/choices match A2P2B; A3C2's modal paragraph after step11 and its note, plus the full suffix, match A2C2. The conditional report and proposed contraposition/duality are not actual assent or a certified S5 principle. |
+| `NB-SURVEY-A3-REVISED-MUST-EXIST` | Reuses `STMT-NB-A2-REVISED-MUST-EXIST`. A3P3C opening stipulation/complement exactly matches A2P2C. κ is the same editorial source-class tag, not a new definition, Lean relation or ordinary `NecessaryAt`. |
+| `NB-SURVEY-A3-REVISED-POSSIBLE-BEGINNING` | NEW `STMT-NB-A3-REVISED-POSSIBLE-BEGINNING`. A3P3C's question reaffirms possible beginning under the revised contingent complement. This is distinct from the ordinary A3P2 report and from A2P2C's reaffirmed no-uncaused-contingents input. |
+| `NB-SURVEY-A3-REVISED-POSSIBLE-NECESSARY-CAUSE` | NEW `STMT-NB-A3-REVISED-POSSIBLE-NECESSARY-CAUSE`. A3C3 steps1–11 and the following nonrigid-all note apply the causal prefix under κ. The words match A3 main, but the class scope changes. One conditional argument reading preserves the transition, possible causation, exclusion and possible κ-cause inference without duplicating intermediate proofs. |
+| `NB-SURVEY-A3-REVISED-ACTUALITY-CONCLUSION` | Reuses `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION`. A3C3's final actuality paragraph after the note and its ending exactly match A2C3; only its preceding possibility argument differs. This is attributed conditional actuality, not a definition supplying an actual rigid bearer. |
+
+The unchanged ordinary-class A3C2 prefix reuses all A3 main readings. General possible-event causability and essential-state event/nonrigid glosses remain reusable in A3C3, but ordinary-class beginning, exclusion and possible-necessary-cause statements are not silently generalized to every classification. A2's revised contingent-cause premise is not imported into A3. The prior explanatory condition still does not alone establish an earlier existing concrete individual; the SAME event, temporal bearer, revised-class persistence and actual-world/rigid-witness correspondence remain OPEN. Stock ordinary tooltips do not erase the explicit revised stipulation. Existing modal and Scenario results retain their own hypotheses; no source soundness, new modal proof or source-to-model identity is credited.
+
+Five qualified claims thus add only two bare statements, no glossary, pin, Lean module, argument or result. The existing alternate/revised disambiguation is extended without changing old meanings. These records cover the materially different A3 main/alternate readings at their stated boundaries, so the existing candidate now advances to the remaining public **A4** witness/reading/extraction range, followed by A5–A10. This is neither campaign completion nor public delivery of private later-family witness/read history, and no philosophical premise or root obligation is discharged. No PHP answer endpoint was requested.
+
+Public A3 main delivery: PR #842 merged as `f669db3d` after exact-head review and required CI passed. Independent A3 alternate fidelity review checked all four materialized witnesses and hash-verified raw titles, directly comparing the three reused A2 meanings; no findings. Source fidelity does not establish soundness, reality correspondence or a new formal consequence. The fuller research A4 queue and public remaining witness/delivery queue retain their separate scopes.
+
+### A4 main property-transfer readings with scoped reductio (2026-11-01)
+
+Materialized/read complete `NECESSARYBEING-A4P1/P2/P3/P4/C`, verifying the pinned raw HTML SHA256 before reading title attributes. Four linked alternate pages informed the independent research review as context; their public witness/reading/extraction delivery remains pending. This main batch adds eight qualified claims, six bare statements, two narrow property/first-exemplification glosses and one scope disambiguation. Ordinary contingent beginning and possibility invariance reuse existing propositions, not new A4 duplicates.
+
+| Claim / statement | Precise main witness scope |
+| --- | --- |
+| `NB-SURVEY-A4-POSSIBLE-CAUSED-THING` / new `STMT-NB-A4-POSSIBLE-CAUSED-THING` | A4P1 question/affirmative continuation and possible/cause titles; A4C2 recalls the report. Possible caused existence is not actual causation or a guarded concrete bearer. |
+| `NB-SURVEY-A4-PROPERTY-FIRST-CAUSE-TRANSFER` / new corresponding statement | A4P2 complete question, redness illustration and property/instance/first-exemplification/cause titles. Separate first-P and caused-P possibilities are not assumed to share worlds or bearers. The antecedent does not require caused acquisition of P. |
+| `NB-SURVEY-A4-POSSIBLE-CONTINGENT-BEGINNING` / reused `STMT-NB-A3-POSSIBLE-CONTINGENT-BEGINNING` | A4P3 question/affirmative continuation; C5 and note2 retain the ordinary nonrigid none-to-some meaning. This is not the revised alternate-class question. |
+| `NB-SURVEY-A4-POSSIBILITY-INVARIANCE` / reused `STMT-NB-A2-POSSIBILITY-INVARIANCE` | A4P4 complete question/examples/non-joint-possibility note. Its text and the following C modal suffix exactly match A3. No duplicate modal proof or frame characterization. |
+| `NB-SURVEY-A4-CAUSED-CONTINGENT-UNDER-NO-POSSIBLE-NECESSARY` / new corresponding statement | A4C1–4 and note1 after17. The author classifies a possible caused thing inside the no-possible-Necessary-Being supposition; the caused-thing/cause-capable-class correspondence is not independently supplied. |
+| `NB-SURVEY-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY` / new corresponding statement | A4C4–9 and notes1–2. Contingency is substituted as P and the transfer is applied, still UNDER that supposition. Its admissibility/intension across histories and first-event correspondence remain open. |
+| `NB-SURVEY-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION` / new corresponding statement | A4C10–14, cause/event/Necessary Being titles and note2. The possible noncontingent cause remains inside the reductio; prior explanatory condition alone does not supply an earlier existing concrete bearer. |
+| `NB-SURVEY-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING` / new corresponding statement | A4C14–17 and transition to the reused modal suffix. Only possible Necessary Being is discharged from the supposition, not unconditional caused-first opportunity or its hypothetical causal witness. |
+
+The two property glosses preserve the source's term/concept/abstract-entity account and its permission to use bearer talk. Neither commits to abstract properties as causal objects or a new formal predicate framework. One first-exemplification title includes “first time” and another omits it; the question's first-instance wording and main conclusion's note2 fix the context. The main A4C event title explicitly retains essential states. The revised A4C3 title is shorter and omits that phrase; future alternate extraction must inspect that scope rather than copy every main qualifier automatically.
+
+The source has no explicit restriction against causal or modal properties. Admissibility of contingency, fixed intension with history-dependent extensions, and transfer between separate possibilities remain substantive commitments. Restricting the antecedent to causing acquisition of P or inventing an admissibility exclusion merely to secure the inference would change the source. The existing rooted-causal-property stress outline remains unverified: possible first-P is unestablished, so no source inconsistency or philosophical refutation follows.
+
+Existing `LocalFramePossibleExternalCause` and `ScenarioNecessaryWitness` retain their exact guarded hypotheses. A bridge would have to preserve the accessible history, SAME essential event and existing concrete causal bearer, source classification, externality and the reductio's scope. Neither the general report nor the discharged possibility conclusion alone establishes unconditional `CausalOpportunityAt`; no stronger bridge is source-attributed. Euclidean accessibility, actual reflexivity and rigid-individual transport are not obtained merely from the source's S5 label. Possible cause or de dicto Necessary Being is not an actual rigid necessary causal witness.
+
+No Lean, inference, result, pin or philosophical premise truth changes. This batch explicitly delivers the five A4 main witness manifests, raising the public passage count from394 to399; no other private witness is included. Main attribution is now boundedly recorded; the candidate remains at **A4P4B/C2, then A4P4C/C3**, before later families. Private witness/read history does not complete the public campaign, and no PHP answer endpoint was requested.
+
+Root and independent fidelity reviews read all five main witnesses and raw hash-verified titles without substantive findings; the latter also inspected four alternate contexts. This accepts source fidelity only, not premise truth or a new formal consequence.
+
+### A4 alternate public extraction and exact reuse (2026-11-01)
+
+This batch explicitly delivers only the four existing pinned witness manifests `NECESSARYBEING-A4P4B`, `NECESSARYBEING-A4C2`, `NECESSARYBEING-A4P4C`, and `NECESSARYBEING-A4C3`, raising public passages399→403. Five qualified claims add only one bare statement:
+
+| Claim | Reused meaning or new scoped reading |
+| --- | --- |
+| `NB-SURVEY-A4-ALT-POSSIBLE-IMPOSSIBILITY` | Reuses `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY`; C2 modal paragraph after17/notes, with P4B question context. The question and modal suffix match A2 exactly, without actual assent or a verified S5/frame principle. |
+| `NB-SURVEY-A4-REVISED-MUST-EXIST` | Reuses `STMT-NB-A2-REVISED-MUST-EXIST`; P4C opening automatic-actuality/complement stipulation. No new class definition or selected material/counterfactual semantics. |
+| `NB-SURVEY-A4-REVISED-POSSIBLE-BEGINNING` | Reuses `STMT-NB-A3-REVISED-POSSIBLE-BEGINNING`; P4C reaffirmation/affirmative continuation. Its entire page matches A3P3C. This is not ordinary A4P3 beginning or A2’s causal-exclusion report. |
+| `NB-SURVEY-A4-REVISED-PROPERTY-REDUCTIO` | NEW `STMT-NB-A4-REVISED-PROPERTY-REDUCTIO`; C3 steps1–17/notes1–2. Prefix words match main C but κ changes classification. NoPossibleκNB remains hypothetical through3–14; only possibility is discharged17. |
+| `NB-SURVEY-A4-REVISED-ACTUALITY-CONCLUSION` | Reuses `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION`; C3 final paragraph after17/notes matches A2C3. Automatic actuality consumes discharged17, not hypothetical13 cause; actual causal exercise is not inferred. |
+
+The ordinary-class C2 prefix reuses A4 main. Revised C3 uses property transfer and reductio, so it is not aliased to A3’s direct revised possible-cause argument. C3’s shorter event title omits main C’s essential-state qualification: attribute neither that criterion nor its negation. The new reading has no stronger essential-state event definition link; the existing A4 disambiguation distinguishes contexts explicitly. Nonrigid first-exemplification, separate possibilities, property admissibility/intension, earlier existing concrete bearer, class persistence and modal/actual rigid-witness correspondence remain OPEN. No unconditional Scenario opportunity or hypothetical causal witness is exported after the reductio.
+
+All four witnesses were materialized/read with raw SHA/title checks and exact reused-text comparisons. Root and an independent adversary accepted source fidelity without P1 findings; that is neither soundness nor premise truth. No glossary, framework, Lean, argument, result, source kind, dependency, repin or archive fallback is introduced. The other65 private manifests and later private read history are not delivered or copied. Candidate progression to A5 marks only this completed reading range; the remaining public A5–A10 witness/reading/extraction queue remains open, without campaign completion or PHP answer requests.

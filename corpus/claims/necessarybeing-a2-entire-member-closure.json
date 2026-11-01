@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE",
+  "statement_id": "STMT-NB-A2-ENTIRE-MEMBER-CLOSURE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A2C, steps 1\u20134 and 7, with entire/ungrounded/head title attributes",
+  "interpretation": "One coherent qualified closure/head commitment: an entire chain excludes outside causes of its members; each concrete chain-member is asserted to occur in an entire chain; closure plus internal head-uncausation yields uncausation. This is the source's asserted extension, not a stronger statement that every original chain as a whole is included in one larger linear chain. The step3 by-definition label supplies no independent metaphysical warrant.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

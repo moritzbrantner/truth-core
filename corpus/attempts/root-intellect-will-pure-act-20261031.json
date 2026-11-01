@@ -1,0 +1,32 @@
+{
+  "id": "ATTEMPT-ROOT-INTELLECT-WILL-PURE-ACT-20261031",
+  "date": "2026-10-31",
+  "statement_ids": [
+    "STMT-ROOT-INTELLECT-WILL-PURE-ACT",
+    "STMT-ROOT-INTELLECT-WILL",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-WILL-FOLLOWS-INTELLECT",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-STRICT-SIMPLE-PRIORITY"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Thirteen-input same-witness structural composition: import RootIntellectWillReduced.necessaryRootIntellectWill ONCE and destruct its original full root/intellect/will tuple to obtain n and firstness. Apply the existing FirstBeingNoPotency.firstBeingNoPotency pointwise to THIS n, using act-priority for p.InAct/InPotency and the retained global same-respect act/potency exclusion. Retain EVERY original conjunct and append PureAct InPotency n inside the SAME existential. Exactly the existing reduced eleven inputs plus act-priority and same-respect exclusivity; no hidden additional premise or equality of independently chosen roots. The q3 profile supplies the act dictionary, and InPotency uses that same respect domain. No eternity, positive perfection, God naming, omniscience or free choice follows. All framework/source applicability remains open; this is configuration progress without philosophical closure or minimality. The two thirteen-input packages are alternatives, but the older six-background separation controls do NOT establish incomparability after adding the full intellect/will background; no such stronger claim is made. Thirteen-input same-witness structural composition: import RootIntellectWillReduced.necessaryRootIntellectWill ONCE and destruct its original full root/intellect/will tuple to obtain n and firstness. If THIS n has potency, act-priority supplies y simply prior to n. Its retained firstness forces y=n; selected-priority irreflexivity contradicts that self-priority. Use the same pointwise reasoning as StrictPriorityPureAct, not its separate existential witness. Retain EVERY original conjunct and append PureAct InPotency n inside the SAME existential. Exactly the existing reduced eleven inputs plus act-priority and StrictSimplePriority on the very same selected relation; no hidden additional premise or equality of independently chosen roots. The q3 profile supplies the act dictionary, and InPotency uses that same respect domain. No eternity, positive perfection, God naming, omniscience or free choice follows. All framework/source applicability remains open; this is configuration progress without philosophical closure or minimality. The two thirteen-input packages are alternatives, but the older six-background separation controls do NOT establish incomparability after adding the full intellect/will background; no such stronger claim is made. New shared endpoint is transparent existing conjunctions, not an opaque adapter. Existing dossiers/readings and the prior full-scope strictness-control limits are reused. Challenges frozen before Solutions: ordinary eb91327a2df4eca07fe16a5f12d0b25ff1e51f459d69a76427999fb689f938db; strict 3b38ac5a4f9d55b7915e2a1920260f86d5a542a711eb728c0fb08355404bf863. No old Challenge/core, source claim, ontology, matrix/handoff or generated import changed by this worker. Focused and integrated evidence recorded below/by coordinator; no certification inferred from source presence. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Final focused shared-core and BOTH Solution compilations pass under coordinator worker_env and shared heavy lock. Explicit axiom probes for both exported theorems report no axioms. Corpus consistency passes with the existing unrelated Frege-Geach closure warning; whitespace passes. The strict result retains the policy Mathlib trio in Comparator because its selected-priority wrapper imports the standard unbundled relation definition; the actual proof dependency set is empty. Independent full integration, binding, Comparator/NanoDa and frontier comparison remain coordinator-owned. Claim/type sweep confirms ONE existential witness and unchanged original concrete predicate and respect dictionary; no extra attribute, all-world rootness or philosophical premise closure inferred. Coordinator final integration: full lake build passed (4316 jobs), bind-check passed (798 bound, two legacy pins, zero mismatches), all three new results passed Comparator and independent result NanoDa. Scoped library NanoDa checked 474 dependency-closed declarations across the five new modules with zero typechecker errors and one known axiom pretty-printer warning. All three exported theorem axiom probes are empty. Independent claim/type review found no findings. Offline source and corpus checks pass; source witnesses are unchanged. Target routes each cost twelve non-floor leaves/thirteen explicit hypotheses; root routes, reaching-root IDs, open-premise count and depth counts are unchanged. No philosophical premise closes. Delivered-head checks remain pending.",
+  "evidence": [
+    "ROOT-INTELLECT-WILL-REDUCED",
+    "AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY",
+    "STRICT-PRIORITY-PURE-ACT",
+    "ROOT-INTELLECT-WILL-PURE-ACT",
+    "ROOT-INTELLECT-WILL-STRICT-PURE-ACT"
+  ]
+}

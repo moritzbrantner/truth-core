@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NB-A2-REVISED-CONTINGENTS-CAUSED",
+  "paraphrase": "Conditional on the reaffirmed answer under the revised automatic-actuality classification: there cannot be a thing in that revised complementary contingent class that has no cause. This is a distinct reported premise; it does not reinstate the ordinary contingency class, guarantee an actual distinct Ontic cause, or independently establish causal exclusion.",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-CAUSE-RELATUM",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

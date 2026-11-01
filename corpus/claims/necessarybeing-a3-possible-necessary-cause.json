@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A3-POSSIBLE-NECESSARY-CAUSE",
+  "statement_id": "STMT-NB-A3-POSSIBLE-NECESSARY-CAUSE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3C, steps 9–11 and Necessary Being title attributes",
+  "interpretation": "The author uses possible exercise to supply causal capability and noncontingency to supply must-exist classification. The extraction records that assertion without proving its domain/classification applicability. The repeated following modal suffix is already represented elsewhere: no new proof, necessity of a rigid individual, exchange of □∃ with ∃□ or actual-witness transport is credited here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

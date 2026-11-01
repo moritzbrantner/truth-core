@@ -1,0 +1,19 @@
+{
+  "id": "STMT-SCENARIO-NECESSARY-CONCRETE-AT",
+  "paraphrase": "Some SAME rigid individual satisfies the supplied Scenario concrete predicate, exists at the selected world, and exists at every accessible world. The original concrete predicate is world-independent. This asserts no causal capability beyond that supplied interpretation, uniqueness, sourcehood, intrinsic explanatory adequacy or divine attribute.",
+  "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.NecessaryConcreteAt",
+  "definition_ids": [
+    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-SCENARIO-NECESSARY-CONCRETE-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

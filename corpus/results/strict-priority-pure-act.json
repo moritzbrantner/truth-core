@@ -1,0 +1,10 @@
+{
+  "id": "STRICT-PRIORITY-PURE-ACT",
+  "argument_id": "STRICT-PRIORITY-PURE-ACT",
+  "challenge_module": "TruthCore.Results.Causality.StrictPriorityPureAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.StrictPriorityPureAct.Solution",
+  "theorem": "TruthCore.Results.Causality.StrictPriorityPureAct.necessaryFirstPureAct",
+  "comparator_config": "results/STRICT-PRIORITY-PURE-ACT/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse NecessaryFirstBeing.necessaryFirst under its unchanged five inputs, preserving its actual concrete necessary root n. If n has potency in respect r, the unchanged act-priority reading gives y simply prior to n. Firstness forces y=n; irreflexivity then contradicts this self-priority. Derive the exact existing no-potency endpoint for the SAME n without same-respect act/potency exclusivity. Seven inputs replace only STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT by STMT-STRICT-SIMPLE-PRIORITY; the other six are unchanged. No transitivity, global well-foundedness, finite ancestry, positive actuality, uniqueness, maximum or God naming is used. This is a conditional alternative configuration, not a premise discharge, global weakening or minimality claim. No source reading or reality correspondence is newly established."
+}

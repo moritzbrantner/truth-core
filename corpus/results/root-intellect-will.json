@@ -1,0 +1,10 @@
+{
+  "id": "ROOT-INTELLECT-WILL",
+  "argument_id": "ROOT-INTELLECT-WILL",
+  "challenge_module": "TruthCore.Results.Causality.RootIntellectWill.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootIntellectWill.Solution",
+  "theorem": "TruthCore.Results.Causality.RootIntellectWill.necessaryRootIntellectWill",
+  "comparator_config": "results/ROOT-INTELLECT-WILL/comparator.json",
+  "status": "solution-present",
+  "description": "Fifteen-input same-witness composition. Import ROOT-WITHOUT-LIMITING-PRINCIPLE with its eleven unchanged inputs and retain ONE actual concrete necessary root n. Extract represented essence/esse identity, noncomposition and firstness from its three-horn exclusion under the retained explicit EM. Composition-kinds excludes matter-form composition of n. The separately retained no-component-first-being reading (ledger L) excludes n entering the composition of ANY other being; this is different from n being noncomposite. Apply the existing altogether-immaterial-to-intellectual and intellect-to-will readings to this SAME n. The endpoint retains its rootness, necessity, represented identity, simplicity, firstness, matter-form exclusion, remoteness, intellect and will. No genus causality, maximality, God naming or new opaque bridge is used. Primitive intellect/will do not certify omniscience, libertarian freedom or explanatory adequacy. All source/applicability and causal/priority correspondence premises remain explicit open commitments; no philosophical premise is discharged. Four additional existing inputs relative to the eleven-input route; no global minimality or weaker-overall-bundle claim."
+}

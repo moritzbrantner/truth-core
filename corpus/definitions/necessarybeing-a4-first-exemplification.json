@@ -1,0 +1,12 @@
+{
+  "id": "DEF-NB-A4-FIRST-EXEMPLIFICATION",
+  "term": "first exemplification and caused first instance in A4",
+  "definition": "A4P2’s first-instance context concerns the first occurrence of one or more bearers having P; one title explicitly includes first time and another omits that phrase. A4C applies this to a nonrigid first occurrence of some contingent things, preceded by none. Causing first exemplification concerns the first event, not merely a later caused P-bearer. Separate first-instance and caused-instance possibilities need not share histories, bearers or causes.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+    "NB-SURVEY-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
+    "NB-SURVEY-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION"
+  ],
+  "note": "Temporal order, existing concrete causal bearer, fixed property intension and first-event correspondence remain OPEN when applying this source reading to a typed framework. The main A4C event title preserves essential before/after states; no universal first-instantiation theorem is introduced."
+}
