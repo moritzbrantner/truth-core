@@ -629,3 +629,32 @@ retain the prior partial-explanatory-condition meaning. A10 modal alternate extr
 
 
 Public delivery boundary: thirteen semantic files byte-match research1a704a20. All seven witnesses were already public in #860; no manifests, private A5–A7 history or canonical later cursor are copied.
+
+
+### Independent public A10 alternate readings (2026-11-01)
+
+Ten semantic files byte-match accepted researchf5316567: five claims, two bare
+statements, a narrow input glossary and minimal existing gloss/disambiguation
+updates. Four unchanged witnesses already public in #860 were read in full
+with raw SHA/title/static-route context; no manifests or pins are added.
+
+| Claim suffix (`NB-SURVEY-A10-…`) | Scope |
+| --- | --- |
+| ALT-POSSIBLE-IMPOSSIBILITY-INPUT | P3B complete question; narrow input avoids importing A2’s explicit derivation absent here. |
+| ALTERNATE-MODAL-ACTUALITY-CONDITIONAL | C2 modal introduction/steps1–12; exact main conditional reuse, with literal original-invariance recall after different P3B question. |
+| REVISED-MUST-EXIST | P3C opening classification; exact A2 stipulation reuse, not an existing bearer. |
+| REVISED-CAUSAL-DEFAULT | P3C specific reasked defeasible default/titles; not A2 exceptionless revised causation. |
+| REVISED-ACTUALITY-CONCLUSION | C3 final paragraph; conditional revised possibility-to-actuality pattern only, retaining literal actual wording AND its same-paragraph prima-facie alternative. |
+
+P3B affirmative goes C2; negative/uncertain goes P3C. P3C affirmative goes C3,
+negative escapes and uncertain goes P1B2. No actual answers, all-entry-route
+retention, silent textual repair or modal equivalence is inferred. C3’s whole
+conclusion remains qualified: its parenthetical is not dropped, nor is merely
+prima-facie possibility warrant silently upgraded to an actual modal premise.
+No proven epistemic fallacy is attributed; default applicability and epistemic
+transfer remain OPEN. Independent fidelity review accepted all five readings.
+
+A10 source readings are complete at these scopes, not formal NE proof,
+probability calibration, source truth or root closure. No Lean/model/measure
+framework, pins, truth choices, private A5–A7 history or canonical successor
+bookkeeping is delivered. Public A5 remains queued.

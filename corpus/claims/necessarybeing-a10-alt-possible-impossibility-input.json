@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A10-ALT-POSSIBLE-IMPOSSIBILITY-INPUT",
+  "statement_id": "STMT-POSSIBLE-IMPOSSIBILITY-INPUT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P3B, complete alternate question with both impossible titles",
+  "interpretation": "Reuse only the narrower conditional input, not the old A2 statement’s bundled authorial contraposition/duality explanation. Affirmative routes to C2; negative or uncertain routes to P3C. C2 literally recalls original invariance instead, so no silent repair, equivalence proof or actual respondent assent is inferred.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-POSSIBLE-IMPOSSIBILITY-INPUT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
