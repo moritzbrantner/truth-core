@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-WEAK-ACCOUNT-NECESSARY-BEING-20261101",
+  "date": "2026-11-01",
+  "statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-CONTINGENT-REASON-FOUNDED-AT",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED",
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-FACT-CONTINGENT-AT"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Related/dossiers and existing fixed-constituent attempt inspected; bounded declaration search found no existing four-field account interface. New WeakReasonClosed reuses EXACT first four ReasonClosed fields, omitting only nonCopy; public ofReasonClosed checks original projection. Freeze before Solution SHA969395d349ee557aa7017422c21c5f41825cae2194c25ad486fbb32c98c493ef. Main five heads also omit original upfront fact contingency, retaining Founded, EM and both separately OPEN constituent policies. Under scoped NoNE every actually true account fact must have accessible failure, since boxed truth plus existing necessaryBeingOfFact would supply ordinary NE. Existing forced then contradicts coverage and closure. No manufacture of nonCopy or replacement of old theorem/Challenge. SAME Arena/ordinary Ontic/frame/world/account and fixed K preserved; no worldwise bearer swap, fact=being, phantom Model, positive labels, T or causal role. Existing lawControl remains a boundary: necessary fact truth alone does not yield ordinary necessity. No new model or source claim. Actual removals are two commitments, not minimality or philosophical closure. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0; approved CLI fallback and shared tools. Core68341 and Solution28077 terminal0; Final olean53794 and explicit axiom probe6723 terminal0: ofReasonClosed and necessaryBeing both ZERO axioms, matching config[]. Cheap corpus68118 terminal0 (2715 statements/1877 claims/823 results) and diff check pass; known Frege-Geach warning unchanged. First olean-output attempt failed only because the new output directory did not exist, then mkdir and final compilation succeeded; no proof change was needed. Coordinator integration gates pending. No staging/generators by worker. Coordinator independently reviewed all10ownedfiles/code/type/prose with nofindings. Full originalhandle5062completedterminal0: lakebuild4394jobs; corpus2715statements/1877claims/823results; bind839bound/2existingpins/0mismatch; exactComparator andresultNanoDa acceptzeroaxiomSolution; scopedlibraryNanoDa11newdeclarations/88dependencyclosuredeclarations/0typecheckererrors. Existing Unable-to-print-axioms pretty-printerwarning remains separate from explicitofReasonClosed/mainzeroaxiomprobes. Source469witnesses/1877claimbindingcheckandwhitespacePASS, unchangedwitnesspinsreused. Frozen969395d349ee557aa7017422c21c5f41825cae2194c25ad486fbb32c98c493efunchanged. FreshcanonicalNEfrontierreports16routes,new5namedheadroutecost4withlegacyEMfloor,bestexisting2unchanged. Comparedwith6headfullaccountvariant,thischecksremovaloftargetContingentandnonCopywhilepreserving4otheraccountclauses,Founded,andbothconstitutionpolicies. This is genuineconditionalpremiseweakening, notindependenttruth,minimality,orclosure. Publicexactfrontiercomparisonpending. Independentfinalmetadatareviewpending; no source/ownertruthflagschanged. Independentfinal10-filereviewcompletedPASS/nofindings: exactfiveheadpremisecomparison/scopedNoNE/forwardprojection/SAMEbearerandframescope/sourceboundariesaccepted; no newchecksorfilesfromreviewer.",
+  "blocker": "Four account clauses, Founded, excluded middle and both constitution policies remain explicit inputs; no independent applicability or source truth established.",
+  "evidence": [
+    "FIXED-CONSTITUENT-NECESSARY-BEING",
+    "NECESSARY-FACT-BOUNDARY",
+    "WEAK-ACCOUNT-NECESSARY-BEING"
+  ]
+}

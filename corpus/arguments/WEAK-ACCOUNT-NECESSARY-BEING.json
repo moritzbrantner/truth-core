@@ -1,0 +1,35 @@
+{
+  "id": "WEAK-ACCOUNT-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+    "STMT-CONTINGENT-REASON-FOUNDED-AT",
+    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-WEAK-ACCOUNT-NECESSARY-BEING"
+  ],
+  "meaning": "Under scoped denial of ordinary NecessaryBeing, the imported necessaryBeingOfFact consumer shows no account member can have boxed truth: truthful supplies actual truth and both fixed-set policies would yield an ordinary necessary bearer. Explicit excluded middle therefore supplies an accessible failure for every account member. Imported ExplanatoryAdequacy.forced, applied to the actual contingent target and Founded, yields a contingent member with no contingent account reason. covered supplies a reason and closed places it in the SAME account, where it is contingent, contradiction. Excluded middle discharges denial to obtain existing NecessaryBeing in the SAME Arena. No nonCopy premise is manufactured. A bearer is chosen once within each selected fact, not separately by world; no causal role, frame law or fact/being identification is inferred.",
+  "definition_ids": [
+    "DEF-WEAK-REASON-CLOSED-ACCOUNT",
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}
