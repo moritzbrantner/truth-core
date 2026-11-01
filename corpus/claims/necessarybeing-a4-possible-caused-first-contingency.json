@@ -1,0 +1,21 @@
+{
+  "id": "NB-SURVEY-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
+  "statement_id": "STMT-NB-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C, causal steps 4–9 with notes 1–2 after step 17",
+  "interpretation": "Keep the step1 reductio supposition in scope throughout. The source substitutes modal contingency for the universal P and combines separately possible first exemplification and a caused bearer via the reported transfer. Admissibility of this classification as a property, fixed intension with history-dependent extensions, actual bearer/event correspondence and first-event causation remain OPEN. Step9 is not an independently asserted unconditional Scenario.CausalOpportunityAt; the source does not establish its typed guards by renaming this step.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

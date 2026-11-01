@@ -1,0 +1,11 @@
+{
+  "id": "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+  "term": "property and bearer instance in the A4 transfer report",
+  "definition": "A4P2 describes a property as a term, concept or abstract entity characterizing whatever has it; an instance is a bearer characterized by it. A4C note1 permits translating property talk into talk of bearers. The transfer antecedent requires a P-bearer having a cause, not necessarily being caused to acquire P. This source glossary does not identify properties with a particular formal predicate domain or require abstract properties themselves as causal relata.",
+  "basis": "sourced",
+  "claim_ids": [
+    "NB-SURVEY-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+    "NB-SURVEY-A4-CAUSED-CONTINGENT-UNDER-NO-POSSIBLE-NECESSARY"
+  ],
+  "note": "No admissibility restriction excluding modal or causal properties is stated in the question. No formal unrestricted substitution principle or independent defense of applying the report to contingency follows from the redness example."
+}

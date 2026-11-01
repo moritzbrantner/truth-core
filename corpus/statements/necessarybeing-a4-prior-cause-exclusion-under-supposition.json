@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NB-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
+  "paraphrase": "Under the same no-possible-Necessary-Being supposition and possible caused first contingency, the source excludes a contingent cause: otherwise it would exist before the first contingent occurrence. It infers a possible noncontingent cause and hence possible Necessary Being. All steps remain inside the reductio scope. Prior explanatory condition alone does not establish an earlier existing concrete causal bearer, and the event/individual classification correspondence is not independently verified.",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

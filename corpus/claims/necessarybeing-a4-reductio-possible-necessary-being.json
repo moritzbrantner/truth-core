@@ -1,0 +1,21 @@
+{
+  "id": "NB-SURVEY-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "statement_id": "STMT-NB-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C, causal steps 14–17 and transition to the shared modal suffix",
+  "interpretation": "The source ends its reductio by rejecting the no-possible-Necessary-Being assumption and concluding possible Necessary Being, conditional on the reported inputs and asserted earlier steps. This is an attributed argument, not a checked proof. It does not retain the step9 caused-first opportunity or step13 causal witness unconditionally, establish actual existence, or exchange de dicto existence necessity for a SAME rigid individual. The following already represented modal suffix is not duplicated.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

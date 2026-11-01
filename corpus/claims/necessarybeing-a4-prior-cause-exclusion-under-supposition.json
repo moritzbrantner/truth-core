@@ -1,0 +1,21 @@
+{
+  "id": "NB-SURVEY-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
+  "statement_id": "STMT-NB-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C, causal steps 10–14, cause/event/Necessary Being title attributes and note 2 after step 17",
+  "interpretation": "This exclusion and possible noncontingent cause remain UNDER the step1 supposition. The positive contradiction works given an earlier existing causal bearer on the no-contingents side of the SAME first event. Prior explaining condition alone supplies neither that temporal/existence interpretation nor an existing concrete individual; those correspondence obligations remain unattributed OPEN. Note2 is nonrigid, not a fixed actual roster or a member-to-fusion inference. Do not export the hypothetical causal witness after discharging the supposition.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

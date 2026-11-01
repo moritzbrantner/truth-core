@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NB-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "paraphrase": "Given its selected causal/property/beginning reports and preceding scoped argument, the source takes possible Necessary Being to contradict the supposition that no Necessary Being is possible, rejects that supposition and concludes possible Necessary Being. Only this possibility conclusion is discharged from the reductio. Possible caused-first contingency and a particular possible causal witness from inside the supposition are not thereby retained unconditionally; no actual rigid necessary individual is established here.",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
+    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
