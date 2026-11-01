@@ -19,6 +19,7 @@ import TruthCore.Results.Causality.ChainInstantiation.Solution
 import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
 import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
+import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
 import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
 import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
