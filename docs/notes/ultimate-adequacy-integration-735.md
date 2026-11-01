@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`f151811b` before this update. Main is `d54ac80a` through #865, integrated in
+`d316ced4` before this update. Main is `820de57d` through #866, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2605
-statements,1784 claims,814 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2611
+statements,1790 claims,814 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -81,10 +81,20 @@ actual independent explanatory member follows. Public #866 carries source
 #6–7 atc0d510d1, CI41283483717/review pending. Canonical #8–9 source extraction
 is committedf151811b: eight claims/statements, candidate now#10p20.
 Positive modal-bearer reuse versus actual-explanans stability is durable in
-the intake attempt and consequence matrix. Focused public publication is
-preparing, held for #866 to land. Joint-ground publicPR #867 is open at
+the intake attempt and consequence matrix. Public #869 at9838c77cc68a06b1541c6ea09ad65315c3e12a92 is open,
+CI41284069428/review pending; its three root frontiers are unchanged.
+#866 merged820de57d after required CI41283483717 and clean exact-head review,
+integratedd316ced4 preserving subsequent source work. Joint-ground publicPR #867 is open at
 fb1ae4e5dbce5aaad870c26199d9612da7bb2ec2, CI41283752578/review pending;
 Catholic81/best31 andNE47/best2 remain unchanged on its exact public slice.
+Koons presentation p20 A1–5/D source batch is committed62339662: six
+claims/statements and a minimal scope glossary. Root fidelity review accepts
+its explicit A2 editorial reading and nonidentification with arbitrary-family
+fusion, ordinary contingency or modal part persistence. Source/corpus checks
+pass at2611statements/1790claims. Canonical next source batch p21–22 C1–3,
+lemmas and conditional necessary-cause conclusion is assigned; p23 simplified
+remains next. Public p20 preparation waits for #869. The existing mereology/
+contingent-totality reuse audit is live, with no fresh formal route yet claimed.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
