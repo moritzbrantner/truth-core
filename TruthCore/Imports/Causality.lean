@@ -34,6 +34,7 @@ import TruthCore.Causality.FiniteBranching
 import TruthCore.Causality.FiniteNecessaryUnion
 import TruthCore.Causality.FiniteRestriction
 import TruthCore.Causality.GrimReaper
+import TruthCore.Causality.GrimReaperFiniteTests
 import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.HeadlessCausalAncestry

@@ -1,0 +1,8 @@
+{
+  "id": "GRIM-REAPER-FINITE-TESTS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GRIM-REAPER-FINITE-TESTS",
+  "inference_ids": ["INF-GRIM-REAPER-FINITE-TESTS"],
+  "meaning": "Distinguish compatibility of every finite selection of complete unbounded-tail action clauses from one assignment satisfying their whole infinite family. This strengthens the old three-Reaper truncation control while importing the old infinite impossibility proof. It supplies no ordinary finitary compactness counterexample, countable metaphysical assembly principle, causal finitism, grounding foundation or philosophical premise discharge.",
+  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE", "DEF-GRIM-REAPER-FINITE-FULL-TAIL-TESTS"]
+}
