@@ -8,19 +8,22 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`5e9dd272` before this update. Main is `6f4785f3` through #863, integrated in
+`5255b389` before this update. Main is `6f4785f3` through #863, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
 in the existing CC100 intake attempt. First #4–5 batch is committed5b6ee140: seven
 claims, seven independent bare statements and two minimal source glosses.
 Full witness and claim/type review accept attribution and conditional scope;
-corpus/source binding/whitespace checks pass. Candidate now starts #6 at p12;
+corpus/source binding/whitespace checks pass. Second #6–7 batch is committed5255b389: seven further source claims and
+independent bare statements, with the selected-explanation scope preserved.
+The explanation-to-God and noncontingent-explanation bridges remain open,
+not supplied by slide attribution. Candidate now starts #8 at p16;
 public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 CI41282874715/review pending. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2588
-statements,1769 claims,812 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2595
+statements,1776 claims,812 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
