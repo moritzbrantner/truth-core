@@ -43,7 +43,7 @@ pointwise assembly is now verified. Its additional policies remain open. Existin
 A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d passed CI41347478634 SUCCESS/SKIPPED and clean structured exact-head review; PR914 is MERGED at edbd6c92, merge16897 terminal0. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `d1da6053` (concrete actual-cover adapter; earlier proof inputs unchanged). Main through PR915 is integrated (`cd02a8ce`, merged9292602).
+snapshot `bd9b6aea` (both supplied-root consumers; identical proof tree after main916 integration). Main through PR916 is integrated (`8198058e`, merge496171f6).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
@@ -104,6 +104,13 @@ at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus 
 
 ### Registered cumulative chain (new consumers at bd9b6aea)
 
+Published15-file [PR917](https://github.com/moritzbrantner/truth-core/pull/917)
+at c44d83de; CI41349935479 and once-requested exact-head review pending.
+Final public baseline8198058e→PR: God-root open union33→61, routes2→3,
+best27 unchanged; unique-classical-God85→105, routes6/best22 unchanged.
+The two endpoint consumer counts each change0→1. Catholicism81/12/best31
+unchanged. These are composition/configuration changes, not truth discharges.
+
 All stages use one supplied Profile, selected world and literal being carrier;
 the attribute profile has that same carrier. The first modal-union step may
 select a different necessary witness. Every later stage retains its selected
@@ -124,7 +131,7 @@ bound argument records; the13/11 head counts include the supplied endpoint.
 They remove the need to re-assume an entire old foundation producer at each
 stage, not the need to defend the retained metaphysical interpretations.
 The15-file snapshot passes build/binding and both Comparators/result NanoDa;
-final dependency-scoped NanoDa remains live in41078. No StageThree conclusion
+final dependency-scoped NanoDa41078 terminal0 PASS2modules/2exports/111checked/0typeerrors (known pretty-printer diagnostic). Full74323 terminal0:4433jobs/876bound/2legacy/0mismatch and BOTH Comparators/resultNanoDa PASS. No StageThree conclusion
 or philosophical premise closure is claimed. Ordinary complete-production
 source uniqueness from PR915 remains separate from existential-ground roothood.
 
@@ -146,8 +153,8 @@ fusion/cover, atomic-source and grounding-root variants are grouped by their
 shared proofs rather than counted as separate philosophical defenses.
 A downstream defect remains: PerfectRoot and PositiveRoot had no registered
 consumers despite their full original proofs being called inside hardwired
-foundation arguments. Two supplied-witness consumers are now assigned, with13
-and11 existing premise heads, to connect the new prefixes to the existing final
+foundation arguments. Two supplied-witness consumers are now verified, with13
+and11 existing premise heads, connecting the new prefixes to the existing final
 classical-God result. No new philosophical premise is introduced by that repair;
 all retained interpretation and naming/sufficiency commitments remain explicit.
 
@@ -176,7 +183,7 @@ between that family cover and caused-simple coverage is established. The concret
 is verified: full4431jobs/874bound/2legacy/0mismatch, Comparator/resultNanoDa,
 scoped1module/1export/546checked/0typeerrors; handles89371/80309 terminal0.
 It retains explicit restricted policies and a concrete-carrier order. PR916
-is published at bb113cd0, CI41348931797/review pending.
+at bb113cd0 passed CI41348931797 SUCCESS/SKIPPED and clean exact-head review; MERGED8198058e, merge13156 terminal0.
 The recorded PSR audit distinguishes same-sense epistemic self-application from
 universal ontic coverage and from actual concrete complete production; owner D1
 is retained, not treated as defeated by a consistency control.
