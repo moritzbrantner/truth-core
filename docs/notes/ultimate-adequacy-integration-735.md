@@ -24,13 +24,23 @@ matrix's “Same-witness named God and root consumer” subsection.
 A2 alternate source readings are public in PR #839 at
 `bdc32cabc78ac60e93ea3e7ebbd562388f0e93aa`; current-head review found no major
 issues and required CI is still running. The source-only public branch excludes
-the private later witness history. The separate math publication is being
-prepared in the existing root-perfect-goodness worktree; no mathematical
-publication or merge is claimed yet. The complete source-network verifier
+the private later witness history. The separate math publication is PR #840 at
+`aa1ef0e4ebde6782c44c92cd2981e3e7e9b2223d`, prepared in the existing
+root-perfect-goodness worktree. Review and CI41256501034 are pending; no merge
+is claimed yet. The complete source-network verifier
 passes:468 passages,46 immutable snapshots and243 web passages checked. Existing
 media spans without local exports were not re-verified, and one bibliographic
 span remains citation-only. Offline manifest/corpus/generated-index/whitespace
 checks also pass.
+
+Next bounded research task: test whether existing maximum-in-being machinery
+plus actual-grounding asymmetry derives the existing WholeRosterNotTrapped
+endpoint, actualizing the SAME maximum via B/E/F/Iesse/Hesse/EM. This would
+supply an alternate route replacing D by an explicit order condition while
+retaining the causal/maximality inputs, not an independent actuality-to-adequacy
+discharge or a global weakening. The adversarial worker owns only the new
+WholeRosterFromMaximumAsymmetry module/result and its corpus records. The
+proposed derivation is unverified until the new proof and required checks pass.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
