@@ -12,7 +12,9 @@
       "year": 1920,
       "edition": "The Summa Theologiae of St. Thomas Aquinas, Second and Revised Edition, 1920; New Advent online edition by Kevin Knight"
     },
-    "license": "1920 Dominican translation, public domain in the US; New Advent online edition copyright Kevin Knight. Only hashes and locators committed."
+    "license": "1920 Dominican translation, public domain in the US; New Advent online edition copyright Kevin Knight. Only hashes and locators committed. The existing 2026-10-13 Wayback capture has a separately pinned raw hash: only the terminal Cloudflare Insights script src/integrity attributes differ from the original live witness; the complete article 6 text matches the unchanged selected-text hash.",
+    "wayback_url": "https://web.archive.org/web/20261013074840id_/https://www.newadvent.org/summa/1025.htm",
+    "wayback_sha256": "sha256:908a350e7505fc52e3c0841ddd9c710aa388942dfe4e43c29d6510e6a265b400"
   },
   "passages": [
     {
