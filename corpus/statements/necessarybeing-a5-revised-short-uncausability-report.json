@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NB-A5-REVISED-SHORT-UNCAUSABILITY-REPORT",
+  "paraphrase": "Conditional on an affirmative A5P2C reaffirmation, the shortened report says it is not necessary that some contingent situation cannot have a cause. This literal wording omits P1’s explicit conditional about obtaining contingent situations and its nonempty obtaining-domain guard. The source calls it a previous report, but this record certifies no equivalence or implication between the short wording and the separately recalled full conditional, no actual assent or session retention, and no κ definition of situation-obtaining.",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
