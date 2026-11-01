@@ -71,8 +71,11 @@ repeatable feature, yielding ONLY an external-feature-cause role witness.
 No actual cause, distinct cause, existential dependence, necessary root or
 uniqueness follows. External qualitative production can leave two intrinsically
 distinct individuals intact; constitutive individuation and indispensability
-remain independently open. Public proof delivery is being prepared from this
-exact slice. #697/#320 retain the substantive uniqueness campaign.
+remain independently open. Public proof PR893 head3e8d198a8a8465fe2572d954a952255413632634,
+CI41300378986 running, publishes this exact19-file slice; review requested once.
+Toolchain/dependency identity and three public root-frontier comparisons pass;
+original full gates are reused without a cold duplicate build. #697/#320 retain
+the substantive uniqueness campaign.
 
 Vincent2026 full text remains unavailable through the checked legitimate
 sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
