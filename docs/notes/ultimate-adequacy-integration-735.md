@@ -7,89 +7,69 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current coordinator handoff
 
-Branch: `research/lean-existential-self-actualization-20261031`; latest verified
-proof commit `e93220fc`. Main now includes #879 (`903178ac`, remaining selected
-unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
-merged after clean exact-head reviews and all required CI success/skips.
-Canonical integration through #885/#886/#887 is 8bf68346. The exhausted reality
-range remains retired; complete later source findings and rejected readings
-are retained. Corpus check passes2724statements/1885claims/824results, with
-only the existing unrelated Frege–Geach warning.
+Working branch: `research/lean-existential-self-actualization-20261031`.
+Canonical integration `96494913` includes main through #888
+(`3c39f38bc3541c943477c98549ba80d383023fa4`). All proof/source PRs #874–888
+were delivered after their required checks and exact-head reviews passed.
+Detailed hashes, original verification handles and measured delivery comparisons
+remain in the existing result attempts and historical sections below.
 
-`FIXED-CONSTITUENT-NECESSARY-BEING` passed full original verification handle
-39369: build4392, bind838/2existingpins/0mismatch, Comparator/result NanoDa,
-scoped NanoDa5new/78dependency declarations/0type errors. All three proof
-helpers/theorems are zero-axiom. Independent16-file review passes. The owned
-attempt records exact freeze, inputs and boundaries. Public delivery is assigned
-to adversarial_uniqueness and published as PR #881, head
-`0878081b699316954ba371013538362fde1f35dd`; merged
-`926b936aa64b52acd48dfc26718a301221c3fe02` after clean exact-head review
-and all required CI41292510171 success/skips. Exact public dependency identity covers109 modules;
-Catholic81/all12routes unchanged; NE56→61 addsfiveopenheads, routes14→15,
-newrawcost5 with EMfloor and bestexisting2 unchanged.
+Latest verified proof is `ACCESSIBLE-ACCOUNT-NECESSARY-BEING`, e93220fc:
+full handle95157 passed build4396, binding840/2existingpins/0mismatch,
+Comparator/result NanoDa and scoped NanoDa3new/74closure declarations with no
+type errors. Both theorem probes are zero-axiom; independent10-file review
+passes. Its public #886 is merged621f7fb3. Current corpus validation passes
+2724 statements,1885 claims,824 results,469 witnesses; the existing unrelated
+Frege–Geach warning remains.
 
-Source PR #880 merged `3668f2e38c47b9862c4a04143ae6a516164a6c5f` after
-clean exact-head review and all required CI41292234322 success/skips; it covers
-#115–117 only. Canonical
-source #118–124 is reviewed/committed; final #124 `8a433eab` preserves
-literal/context quantifier readings and retires the exhausted selected range.
-The selected foundation, unity and reality source ranges are extracted; no
-whole-deck completion is claimed. Next bounded source investigation is Koons
-1996 §7 Corollary1 constitution/involvement completed c8e89ade (five precise
-source readings, no truth closure); its public slice is assigned.
-Source coverage does not establish its open commitments.
-Source #882 CC118–120 merged e18e94f986ce119db4395e1dcf27d60b9664d9c1
-after exact-head clean review and all required CI41293075188 success/skips.
-Current source delivery #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
-CI41293227827 live. Koons #883 merged3fe341e0 after clean review/all required checks. CC121–122
-#885 mergedf4437527c8d683f246540cb02b7a8575df4a0c0d after clean exact-head
-review/all required CI41293700076 success/skips. Final123–124 source slice
-is merged PR #887 atcab909e8fbbc043645a282b9132d246a3f7a1ec0, after
-clean exact-head review and all required CI41294333818 success/skips.
-All three selected CC100 source ranges are now publicly delivered; no whole-deck
-or philosophical-case completion. Narrow q44 source PR #888,
-head238a7133be02eaca04f49be310c5afde590872f8, CI41295044612 running,
-review requested once, publishes9filesexact23effb3b without bridge closure. No checks are described as complete while still live.
-Causal distribution/nonparthood audit completed and is preserved in the primary
-Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
-application needs independent warrant. AccessibleAccountNecessaryBeing is verified/committed e93220fc: full95157
-passes build4396/bind840/2oldpins/0mismatch/Comparator+resultND/scopedND3new74closure
-zero type errors and two zero-axiom probes; independent10-file review passes.
-It replaces only global Founded with selected Acc; same named cost, no
-converse/strictness or independent reality entitlement. Public #886 head63606e388c89f731ccebefb57c34ae74b7dbe723 merged
-621f7fb321874f32b2efa80e8c2dbe7d4e84f9ba after clean exact-head review
-and all required CI41293986063 success/skips;111-module dependency identity
-and local public checks pass. Catholic81/best31 unchanged; NE62→63 adds only
-selected-accessibility head, routecost4 and oldbest2 unchanged. Canonical
-integration of this delivered metadata is pending final source #887.
-Selected-route audit is persisted in the Accessible attempt: one terminating
-path may omit indispensable joint contributors; a necessary-fact-seeded Supply
-would assume the key ancestry burden. No extra selector theorem is added.
-The existing AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE source audit is completed
-at23effb3b: three narrow q44ad2/ad3 readings, exact reused q3/SCG claims,
-received-esse DeEnte context and both missing dictionaries retained. The #180
-keep-off-root-until-sourced condition remains. Uniqueness scope audit is
-persisted566b796f with no overclaims found; both targets remain explicit.
-A current read-only GitHub backlog scan seeks new actionable source/inference
-findings before another proof task is selected.
+The verified composition sequence is:
 
-Only ledger A is owner-accepted; scoped PSR working authorization persists.
-The new composed route retains all original four producer inputs (ReasonClosed
-bundles five clauses) and adds two OPEN fixed-constituent policies. Candidate
-removal of unused nonCopy and upfront target contingency is in a separate
-WeakAccountNecessaryBeing variant, frozen Challenge
-969395d349ee557aa7017422c21c5f41825cae2194c25ad486fbb32c98c493ef.
-Full original verification handle5062 passes: build4394, bind839/2oldpins/0mismatch,
-Comparator/result NanoDa and scoped NanoDa11new/88closure/0type errors. Both
-theorems have zero axioms; independent final metadata review passes.
-Committed68d95270; public PR #884 head987c87dea77bf428d6b519ba7664417eee6e978c,
-CI41293276248 running, review requested once. Exact public110-module proof
-closure/toolchain/manifest/lakefile identity passes; Catholic81/best31 unchanged,
-NE61→62 adds only the weaker-account statement, newroutecost4 vs oldcost5,
-existingbest2 unchanged. Four account clauses remain explicit in the bundle. The
-conditional route now mechanically omits upfront contingency and nonCopy;
-remaining four account clauses, foundedness and constitution policies stay OPEN. No unique,
-concrete, causal, personal or divine character is inferred for the new bearer.
+- Actual cover replaces full fusion and cause nonparthood replaces full
+  nonoverlap, with checked old-to-new projection helpers (0ad058b4/#878).
+- Necessary-reason extraction plus two explicit fixed-constituent policies
+  yields an actual necessary bearer on the SAME Arena/frame (edb1825e/#881).
+- Four account clauses suffice without nonCopy or upfront target contingency
+  (68d95270/#884); five named inputs still include a four-clause bundle.
+- Selected-target Acc of EXACT ContingentReason replaces global account
+  Founded (e93220fc/#886). Unrelated chains are unrestricted; no converse,
+  strictness, global minimality or independent actuality entitlement is claimed.
+
+Catholic root frontier remains81/best31. Necessary-being graph has17 routes,
+best2 unchanged; the local route costs4 open heads under the existing EM floor.
+These metrics measure explicit dependencies, not philosophical plausibility.
+Only ledger A is owner-accepted; scoped PSR working authorization from #312
+persists. All other listed application/constitution/foundation policies remain
+OPEN. Bare necessary entity does not entail a causal root, substance, person,
+unique foundation or God; concrete facts require a justified existence reading.
+
+Selected CC100 foundation, unity and reality ranges are extracted and publicly
+delivered through #887 (cab909e8). This is not whole-deck/case completion.
+Koons Cor1 source #883 and narrow q44ad2/ad3 #888 are landed; no universal
+convergence bridge was closed. AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE remains
+queued with both dictionary obligations and the #180 off-root condition.
+
+Current delivery: #889 head31637708674f144958edce14620f8d7f6de92ff0,
+CI41295783056 running; exact-head review requested once. It publishes ONLY the
+existing plurality note/attempt clarification for #868: correct four/five-being
+history, five-row mapping, essence fibres and root differentiator inventory,
+plus the constitutive completeness/alignment and individuation boundaries.
+Two-file independent review and local checks pass; root frontier unchanged.
+#697/#320 retain the substantive uniqueness campaign.
+
+Vincent2026 full text remains unavailable through the checked legitimate
+sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
+no paper reading/source claim is asserted. This narrow witness gap does not
+block other research. Avoid duplicate selector/transport proofs: the existing
+attempts record why necessary seeds assume ancestry, paths may omit joint
+contributors, and truth-to-existence requires an ontology interpretation.
+
+Next: finish #889 delivery gates and continue the exact #697 individuation
+obligation from the clarified baseline. No new model or parallel God predicate
+is authorized by #868. Held #823/#850 source failures remain narrow: do not
+retry/repin/merge without new evidence. No local Lean service is running; the
+bounded experiment was completed earlier and the authorized CLI fallback uses
+the pinned toolchain/shared heavy lock. Shared policy revision remains
+625cb04ca568aebc8d45c90033e107a05e9bd2a0 (27 resolved files).
 
 ### Uniqueness targets retained separately
 
