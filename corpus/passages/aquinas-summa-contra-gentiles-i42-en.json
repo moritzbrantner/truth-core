@@ -1,0 +1,38 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-SCG",
+    "source_url": "https://isidore.co/aquinas/english/ContraGentiles1.htm",
+    "retrieved_at": "2026-10-24T01:22:15Z",
+    "sha256": "sha256:c46d9f71e075b6cd4508e37331029b32aff5432f2aff502a3015fcd93e6dd45c",
+    "encoding": "utf-8",
+    "language": "en",
+    "translation": {
+      "translator": "Anton C. Pegis",
+      "year": 1955,
+      "edition": "On the Truth of the Catholic Faith: Summa contra gentiles, Book One: God (New York: Hanover House, 1955); HTML edition by Joseph Kenny, O.P., with updated references, on isidore.co"
+    },
+    "license": "No license or terms of use on isidore.co (checked 2026-10-24); the site's GitHub source (Geremia/AquinasOperaOmnia) has no license either. The Pegis translation (1955) may still be under copyright. Only hashes, locators and a short incipit are committed.",
+    "wayback_url": "https://web.archive.org/web/20261024011724id_/https://isidore.co/aquinas/english/ContraGentiles1.htm",
+    "wayback_sha256": "sha256:c46d9f71e075b6cd4508e37331029b32aff5432f2aff502a3015fcd93e6dd45c"
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-SCG-I-42-EN",
+      "locator": "I.42",
+      "claim_locator_prefixes": [
+        "I.42 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "42"
+        },
+        "to": {
+          "anchor": "43"
+        }
+      },
+      "text_sha256": "sha256:d036071adc85ec2a7bcbb1c986a35cae663dee9235758060a13e336e9c8e2805",
+      "incipit": "Chapter 42\nTHAT GOD IS ONE"
+    }
+  ]
+}

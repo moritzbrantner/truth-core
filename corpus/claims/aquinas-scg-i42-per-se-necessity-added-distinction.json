@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-PER-SE-NECESSITY-ADDED-DISTINCTION",
+  "statement_id": "STMT-AQUINAS-SCG-I42-PER-SE-NECESSITY-ADDED-DISTINCTION",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [8], read with the explicit per-se scope of [11]",
+  "interpretation": "Preserve necessity-through-itself as the relevant scope, not the stronger claim no two necessary individuals of any kind can exist. The passage infers added differentiation from a common notion and then composition; it does not independently prove that primitive whole-essence difference is an additional constitutive item. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

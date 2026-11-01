@@ -1,0 +1,10 @@
+{
+  "id": "DEF-SCG-I42-DESIGNATED-NECESSITY",
+  "term": "this-designated necessity versus the common notion of necessity",
+  "definition": "The source’s minor asserts that a per-se necessary being is necessary precisely as this designated individual, because otherwise its designation/actual distinct being would depend on another. This concerns the candidate’s own individuated necessity, distinct from a shared generic necessity predicate.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY"
+  ],
+  "note": "No independent principle says every non-self-necessary designation depends on an external cause, or that each candidate’s own necessity instance is the same numerical item. The resulting incommunicability/uniqueness transfer and ordinary-ground dictionary remain open."
+}

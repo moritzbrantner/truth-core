@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
+  "paraphrase": "Under the preceding common-necessity, differentiation, composition and causal-fork commitments, there cannot be several beings each necessary through itself.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

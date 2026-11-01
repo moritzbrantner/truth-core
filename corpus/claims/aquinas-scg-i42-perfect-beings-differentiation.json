@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION",
+  "statement_id": "STMT-AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [3]",
+  "interpretation": "The source explicitly uses perfection/difference to exclude plurality. Neutral or primitive individuation and formal versus eminent perfection are not silently resolved: the source’s claim that no perfection/imperfection difference leaves any distinction needs independent interpretation. Existing Q11 first-mover differentiation ranges over a different supplied domain and act dictionary; no alias is imposed. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}
