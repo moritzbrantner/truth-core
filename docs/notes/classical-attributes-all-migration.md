@@ -734,3 +734,25 @@ attempt preserves source locators, the exact reusable declarations and open
 application obligations.
 
 Public effect-to-ground PR #867 merged53b73ba8 after required CI41283752578 and completed clean exact-head review atfb1ae4e5. Canonical integration changes no verified Lean input. Its public Catholic81/best31 andNE47/best2 routes remain unchanged.
+
+
+### Fusion closure of no necessary parts (2026-11-01)
+
+`FUSION-NO-NECESSARY-PARTS` uses existing Sum2 Fusion, the family's lack of
+necessary parts, and explicit downward inheritance of necessity along the same
+fixed parthood. Any necessary part of the fusion overlaps a family member;
+their common part would be necessary, contradicting the family condition.
+The output is `NoNecessaryPartsAt`, not actual existence or `ContingentAt`.
+No source D/L1/L3 claim is rebound to this analyst interpretation.
+
+Canonical8c7a1500 passes build4382, binding831/2old pins/0mismatch,
+Comparator/result NanoDa and scoped library NanoDa4new declarations/450dependencies
+with zero type errors; proof probe has no axioms. Focused public publication
+is assigned, with actual frontier comparison pending.
+
+The next bounded L2 reconstruction investigates extraction of a no-necessary-
+parts subpart from a nonnecessary thing under overlap-extensional parthood
+and a selected necessary-parts fusion that is necessary. The verified outline
+does not require unrestricted fusion or downward necessity, but the selected
+fusion's necessity remains an explicit modal burden. No new L2 proof is yet
+claimed, and local A5 is not its warrant.

@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`eaa6340e` before this update. Main is `53b73ba8` through #867, integrated in
+`8c7a1500` before this update. Main is `aaf107ad` through #869, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2620
-statements,1799 claims,814 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2624
+statements,1799 claims,815 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -82,7 +82,8 @@ actual independent explanatory member follows. Public #866 carries source
 is committedf151811b: eight claims/statements, candidate now#10p20.
 Positive modal-bearer reuse versus actual-explanans stability is durable in
 the intake attempt and consequence matrix. Public #869 at9838c77cc68a06b1541c6ea09ad65315c3e12a92 is open,
-CI41284069428/review pending; its three root frontiers are unchanged.
+required CI41284069428 and clean exact review passed; merged aaf107ad,
+integratedbba48025 preserving Koons findings. Its three root frontiers are unchanged.
 #866 merged820de57d after required CI41283483717 and clean exact-head review,
 integratedd316ced4 preserving subsequent source work. Joint-ground publicPR #867 is open at
 fb1ae4e5dbce5aaad870c26199d9612da7bb2ec2, required CI41283752578 and clean exact-head review passed; merged53b73ba8
@@ -99,6 +100,16 @@ public PR after #869. Completed reuse audit is durable in the CC100 intake: no
 part-coverage alias for overlap and no implicit actual/modal fusion bridge.
 A separate analyst L3 consumer (Fusion/no-extra-parts plus explicit necessary-
 part closure) is assigned, with no fresh result or source discharge yet claimed.
+The structural fusion L3 consumer is verified/committed8c7a1500: fullbuild4382,
+binding831/2oldpins/0mismatch, Comparator/result NanoDa, scopedNanoDa4new
+declarations/450dependencies/zero type errors and zero proof axioms. It gives
+no necessary parts under three explicit inputs, not actual contingency or
+source-premise closure. Public publication is assigned. A bounded L2 extraction
+proof is assigned in separate new files: overlap-extensional parthood plus a
+necessary selected fusion of necessary parts and nonnecessity of x; the modal
+fusion warrant stays open, with no unrestricted-fusion/downward input inferred.
+Source remainder p23/p25 is assigned; only after actual completion will the
+foundation candidate retire and selected unity range206–213 be queued.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
