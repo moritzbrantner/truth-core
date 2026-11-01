@@ -39,6 +39,7 @@ import TruthCore.Causality.GroundingLimits
 import TruthCore.Causality.GroundingRegress
 import TruthCore.Causality.HeadlessCausalAncestry
 import TruthCore.Causality.IndexedSignalProvenance
+import TruthCore.Causality.IndexedSignalReaper
 import TruthCore.Causality.JointGroups
 import TruthCore.Causality.LocalFramePossibleExternalCause
 import TruthCore.Causality.LocalTransmission
