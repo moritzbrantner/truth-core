@@ -1,0 +1,21 @@
+{
+  "id": "STMT-NO-ACTUAL-NECESSARY-BEING-AT",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.NoNecessaryBeingAt",
+  "paraphrase": "There is no actually existing candidate that is NecessaryAt at the selected world in the supplied Ontic. This is the negation of existing NecessaryBeing, without concreteness or a causal restriction.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ],
+  "note": "Used only as a SCOPED hypothetical negation discharged by the two reductio inference records. It is not an ordinary argument premise, accepted truth, new axiom or source attribution."
+}
