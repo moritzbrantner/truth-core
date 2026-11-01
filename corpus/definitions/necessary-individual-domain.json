@@ -3,6 +3,6 @@
   "term": "fixed roster, existence extension and rigid identity",
   "definition": "The type I is a fixed possibilist roster quantified over at every world. ExistsAt W I selects its world-dependent existence extension; actualist quantifiers are represented by guards ex x w. A fixed variable x denotes literally the same Lean individual across worlds, with Lean equality; no counterpart relation or world identity criterion is supplied. A supplied w witnesses a nonempty world type; no axiom makes all existence extensions nonempty. These are stipulated mathematical semantics, not a metaphysical ontology.",
   "basis": "stipulative",
-  "note": "Theory-relative diagnostic for #435; source-grounded adoption and concreteness defenses remain open. See docs/necessary-individual-quantifiers.md.",
+  "note": "Theory-relative diagnostic for #435; source-grounded adoption and concreteness defenses remain open. See docs/necessary-individual-quantifiers.md. Individual here means one fixed candidate entity, not an additional substancehood or personhood condition. The unrestricted carrier does not exclude concrete facts/events as candidates; treating their obtaining as their existence still requires a faithful ontology/existence interpretation. Necessary propositional truth alone does not supply that interpretation. This clarifies the existing type rather than adding a source-derived ontology or changing its formal semantics.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeRe"
 }
