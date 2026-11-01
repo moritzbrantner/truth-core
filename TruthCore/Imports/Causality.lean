@@ -78,6 +78,7 @@ import TruthCore.Causality.RootMultiplication
 import TruthCore.Causality.RootPositiveIntellectWill
 import TruthCore.Causality.RootPositiveIntellectWillControl
 import TruthCore.Causality.RootWithoutLimitingPrinciple
+import TruthCore.Causality.ScopedActualCausality
 import TruthCore.Causality.SelectedAncestry
 import TruthCore.Causality.SourceForest
 import TruthCore.Causality.SourceWitness
