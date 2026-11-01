@@ -1,0 +1,20 @@
+{
+  "id": "INF-REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "conditional-formation-and-imported-reflexive-fusion-reductio",
+  "meaning": "Under scoped denial of any actual NE, evaluate a proposed necessary part at the selected reflexive w to make it actual, contradiction. Existing owner-accepted PopulatedAt supplies an actual a; this gives a selected actual-family member ONLY within the reductio. Conditional selected-family formation supplies an actual sum there. Import the new five-input MF2 result with the SAME Ontic, reflexivity and three causal policies, contradict the scoped denial, then discharge it. Existing Model.explains is unused data, no PSR/quality property. Actual-part existence is not derived or used, and no unconditional actual no-necessary-parts population/sum is assumed.",
+  "assumption_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ],
+  "discharged_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ]
+}
