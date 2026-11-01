@@ -756,3 +756,19 @@ and a selected necessary-parts fusion that is necessary. The verified outline
 does not require unrestricted fusion or downward necessity, but the selected
 fusion's necessity remains an explicit modal burden. No new L2 proof is yet
 claimed, and local A5 is not its warrant.
+
+
+### Selected necessary-parts fusion decomposition (2026-11-01)
+
+`NECESSARY-PART-FUSION-DECOMPOSITION` derives a candidate part without
+necessary parts from nonnecessity of x, overlap-extensional parthood and the
+conditional existence of a necessary Sum2 fusion of x's necessary parts.
+It reuses existing Fusion/Overlap and NoNecessaryPartsAt, without unrestricted
+fusion or downward necessity. The output need not be actual or proper.
+Necessity of the selected fusion remains open, not inferred from local A5.
+
+Canonicalbf6abb8a passes build4384, exact binding832/2old pins/0mismatch,
+Comparator/result NanoDa and scoped library NanoDa7new declarations/541dependencies
+with zero type errors. Helperprobezero/resultpermittedMathlibtrio. Public
+publication is preparing after dependency #870 landed576a1da3, CI41284829674
+and clean exact-head reviewe9fea8d2. No source L2 or root premise is discharged.

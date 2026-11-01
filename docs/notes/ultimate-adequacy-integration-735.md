@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`8c7a1500` before this update. Main is `aaf107ad` through #869, integrated in
+`bf6abb8a` before this update. Main is `576a1da3` through #870, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2624
-statements,1799 claims,815 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2633
+statements,1806 claims,816 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -110,6 +110,19 @@ necessary selected fusion of necessary parts and nonnecessity of x; the modal
 fusion warrant stays open, with no unrestricted-fusion/downward input inferred.
 Source remainder p23/p25 is assigned; only after actual completion will the
 foundation candidate retire and selected unity range206–213 be queued.
+Selected L2 candidate-part extraction is verified/committedbf6abb8a: build4384,
+binding832/2old pins/0mismatch, Comparator/result NanoDa and scopedNanoDa7new
+declarations/541dependencies/zero type errors. It keeps nonnecessity, overlap-
+extensional parthood and selected-fusion necessity explicit. No actual part,
+ordinary contingency or source L2 truth follows. Public preparation is released
+after #870 landed576a1da3 with all CI/review gates.
+Foundation remainder is committed61d4cf0a: selected pp9–26 extraction exhausted,
+not whole-deck/case completion; unity206–213 is queued. Combined Koons source
+PR #871 at40c308a4, CI41284941196/review pending; remainder public preparation
+waits for it. First unity reading plan is under scope review (per-world witness
+versus one cross-world unifier). The whole-route audit is checking a five-input
+bare-NE reduction separately from the stronger eight-input same-cause route;
+neither new whole theorem is yet claimed.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
