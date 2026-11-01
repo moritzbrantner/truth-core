@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.derive"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
