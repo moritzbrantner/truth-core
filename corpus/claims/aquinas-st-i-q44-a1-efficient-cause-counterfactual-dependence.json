@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "statement_id": "STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.44 a.1 ad 2, Non ergo propter hoc solum requiritur causa agens through possibilia sive impossibilia",
+  "interpretation": "Retain the positive asymmetric dependence rationale and explicit impossible-antecedent/consequent scope. It is not a proof from material-implication vacuity, a temporal-removal experiment or the converse that cause existence necessitates the effect. No Kripke/whole-ground necessitation law or independent every-esse-cause→necessity-cause dictionary is supplied. Reading is based on the verified complete Latin article and its objections/replies; no formal proof or independent premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
