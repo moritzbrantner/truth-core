@@ -1055,3 +1055,29 @@ model, formal argument or philosophical discharge follows. All cause titles
 retain the prior partial-explanatory-condition meaning. The canonical next
 range is **A10 P3B/C2, then P3C/C3**; it does not advance to A11. Later public
 witness delivery remains separate from this extraction.
+
+
+### Independent public A10 MAIN delivery (2026-11-01)
+
+Seven MAIN qualified readings and five unbound statements/default glossary/disambiguation byte-match accepted research0377c9c8. Exactly15 unchanged manifests are the named public delta: `NECESSARYBEING-A10P1/P2/P3/C`, reconsideration `A10P1B/P1C/P1D/P1D2/P1D3/P1E/P1B2`, and modal alternatives `A10P3B/C2/P3C/C3` (all IDs have the `NECESSARYBEING-` prefix). Public passages rise **420→435**. All full bodies and raw SHA/title contexts were read; only MAIN claims are delivered here. Reconsideration/alternate extraction remains pending, and the public **A5** queue stays next. No private A5–A7 history or canonical later cursor is copied.
+
+| MAIN reading | Precise source scope / reuse |
+| --- | --- |
+| Causal default | P1 question/rule/cause titles; C second paragraph. Conditional defeasible report, not exceptionless causal law or numeric probability. |
+| Coverage denial | P2 question/titles; C first paragraph. Exact existing A2 broad cause-OR-effect statement reuse. |
+| Possible first contingent | C first paragraph/parenthesis. Complete-chain argument and temporary necessarily-all-concreta-contingent assumption; infinite means no first member. |
+| Selected-case application | C second paragraph. Prima-facie cause expectation for selected possible C, conditional noncontingent-cause exclusion. |
+| Possibility invariance | P3 question/note and C modal introduction. Exact A2 individual-not-joint possibility report reuse. |
+| Modal conditional | C numbered1–12. Consumes possible N/necessitation/modal/actuality interfaces, not evidence for them. |
+| Overall evidential conclusion | C opening and closing counter-reasons qualifications. Defeasible prima-facie conclusion, not source truth or undefeated warrant. |
+
+A selected first contingent in a merely possible history is not random sampling or automatically an ordinary encountered case. The reference-class/default-applicability and defeater bridge remains OPEN. Firstness requires same-history/population prior-existing-bearer/absence correspondence; partial explanatory cause alone gives neither it nor actual existential support, complete ground or universal PSR (#545/#311). Whole-ancestry/nonemptiness/head representation remains OPEN; finite is not silently finite cardinality. Coverage P2/C uses cause-OR-effect capability, but nominal Necessary Being is cause-capable: dropping the all-contingent assumption may leave a noncontingent effect-only candidate. That OPEN source-domain bridge is not a refutation of bare necessary-concrete/NE routes under their proper premises.
+
+Existing `HeadlessCausalAncestry.source_of_not_headless_coverage` and `NecessaryIfExistent.positive` supply conditional structural/modal reuse, not the source’s epistemic transfer, actual support or rigid-witness selection. The modal suffix cannot turn prima-facie warrant into `Dia N` or transport numerical probability. Root independently accepted MAIN4 complete bodies/all7 claims/5 statements/gloss/disambiguation and SHA-verified raw P1/P2/C titles; acceptance concerns fidelity, not premise truth or proof.
+
+Context boundaries: size/shape/parts/partless-angel/generalization prompts are conditional route-specific reports, not all-route premises; P1B2 reports only no implication found. P3B’s alternate question is followed by C2 literally recalling original invariance; no silent textual repair. P3C reasks the DEFEASIBLE default under revised classification, unlike A2’s exceptionless revised causation. C3 retains prima-facie/defeater qualifications. All are witnessed/read context; their philosophical claims are not added here.
+
+No Lean/argument/result/model/probability framework, source kind/pin/selector/dependency, truth flag, owner selection, philosophical premise or root closure changes. Fifteen new pages alone receive scoped live verification; other420 are checked offline. This independent cluster publication does not complete the source campaign or move the public A5 cursor.
+
+
+Public MAIN delivery confirmed: PR #860 merged as `037ef1d6` after required CI `41277831539` and completed clean structured review at `f1707a744284db44b32224b216fd16ce57742dd2`. Public435 witnesses include contextual reconsideration/alternate pages, not their claims. Canonical reconsideration `1a704a20` remains preserved and its next range is A10 modal alternatives; queued public A5 and private468 coverage remain distinct. No Lean, source hash or premise-truth change.
