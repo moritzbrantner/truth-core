@@ -5,6 +5,52 @@ For the current necessary-root routes to the nine classical attributes, see the
 from #826. It records exact inputs, same-witness results, omission controls and
 unresolved bridges; conditional consequence does not establish premise truth.
 
+## Current head and next action (2026-11-01)
+
+Research branch `research/lean-existential-self-actualization-20261031` is at
+`5102a361` before this handoff update. PRs #845–#849 are merged; main is
+`150214f12fe281d1cd155a121881fc01e2386863`. The older delivery chronology below
+is retained as evidence, not the current queue. #848 publishes the eight-input
+selected necessary-root uniqueness result and its explicitly classified
+structural necessary-concrete projection; #849 clarifies the productive versus
+enabling interpretation burden without selecting a relation or closing a premise.
+
+A5 main readings are complete locally and independently fidelity-reviewed.
+PR #850 at `7471c253e5858b9f42241cfdd4e262a0057e43f6` remains open: CI
+41263633842 rejected A5C response bytes (expected SHA256
+`0fe7083b67d8a660858c8333e805fb06de05ce2037e68e14e96a5d610ca26009`,
+received `67767705340b8eaf4bc6d1539cb6e5718973733e99f21f91676fd73934b5b0e1`).
+A subsequent identical-downloader request matched the original pin; that does
+not explain the failed response. No repin, bypass, merge or blind rerun is
+justified by that observation. The failed CI retained no response body.
+
+Diagnostic PR #823 remains published at
+`be5978f1d8a69d89ce3fc776028dbfc9fc38da9c`; its local worktree has freshly
+merged main. Its five-file change retains exact rejected bytes while preserving
+strict hash rejection and trusted-cache separation. A deterministic regression
+fails against baseline (no captured body) and passes with the diagnostic change;
+all 65 source-evidence tests pass. The broader 364-test run has three failures
+and one setup error involving missing built TruthCore modules in that worktree;
+it is not a full-suite pass. Next: independent review and build/setup-correct
+verification before publishing the refreshed diagnostic head, then apply it to
+#850 before any controlled new-head source verification. Original drift remains
+unexplained until evidence establishes its cause.
+
+The renewed read-only adversarial review accepts the conditional B/C/formal-D/EM
+consequence in `WholeRosterFoundation.necessaryActualRoot`. Its strongest
+remaining challenge is the bridge from explanatory insufficiency to exclusion
+from actuality, already recorded below. A precise selectable formulation is:
+“For the selected productive existential-support relation, an actually obtaining
+complete roster cannot consist entirely of derivative contributions with no
+intrinsic source.” This is a proposed working commitment, not an independently
+proved principle. D1/D2 in chat distinguish inadequacy from actuality; no new
+statement identity or formal equivalence is asserted by those informal labels.
+The asymmetry route instead retains maximum existence and universal esse-causal
+reach; it does not independently discharge that bridge or establish uniqueness
+of every necessary individual. Only ledger A is accepted. A5 alternate readings
+are assigned for a bounded source batch; their main-reading dependencies prevent
+independent public delivery before #850. No premise or frontier is closed here.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
