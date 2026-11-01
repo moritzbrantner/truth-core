@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A9-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9C3, final actuality paragraph following step 8",
+  "interpretation": "Reuse the existing revised actuality meaning: the final paragraph/ending exactly matches earlier revised branches. It applies the automatic-existence stipulation to the discharged possible conclusion at8, not the hypothetical concrete classification or NT consequence inside1–6. No actual causal exercise, source truth, ordinary NecessaryAt identity, rigid-individual transport or specifically reaffirmed NT report follows.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
