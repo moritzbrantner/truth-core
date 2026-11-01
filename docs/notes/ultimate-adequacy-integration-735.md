@@ -74,8 +74,9 @@ Consumer and closed asymmetry helper have no axioms; compatibility uses
 `propext` from the old control. The81-open-leaf union29bare/52sourced, cheapest
 root cost31 and existing32-input consumer37 remain unchanged. Its direct-main
 public PR is #843 at `8cb583cebb7674d5cfbf713e4799732dc41df13c`,
-CI41257847939 has only its library certification job still running; exact-head
-review completed without findings. The eight-file public patch
+CI41257847939 passed with exact-head review completed without findings.
+PR #843 merged as `6dccc389832ed9ac37d9fd16f7fd3e0f4d158e00`, integrated
+by `f0006131` with unchanged proof inputs and regenerated imports. The eight-file public patch
 contains the consumer plus the previously verified seven-input matrix section;
 source records/history/handoff are excluded.
 
@@ -116,11 +117,18 @@ SAME actual necessary witness and nine predicates, not only an IsGod label.
 The default Catholicism-root81-leaf/31-cost figures and the GodExists-root
 figures concern different targets and must not be conflated.
 
-Next concrete steps: finish guarded #843 and A3-alternate delivery, integrate
-main while preserving all source findings, then continue A4. A read-only worker
-is materializing the complete A4 main range (P1/P2/P3/P4/C), including tooltips,
-and comparing universal property-transfer/first-instantiation commitments with
-existing typed consequences and the existing property-P stress outline. A4
+Next concrete steps: finish guarded #844 delivery and integrate main while
+preserving all source findings, then implement the bounded A4 main extraction.
+The read-only A4 audit is persisted at `4f527e8b` in the existing first-pass
+attempt/inventory. It read all five main witnesses and SHA-verified raw titles;
+its key new guard is that A4C3–14 remain under NoPossibleNB from step1. Only
+14–17 discharge that assumption. The step9 caused-first possibility and
+13–14 causal witness are not independent unconditional Scenario inputs.
+Eight proposed qualified readings reuse beginning/modal reports and need only
+two property/first-exemplification glosses. Appropriately scoped local-frame
+consequence reuse, domain/temporal/event/classification bridges and the
+unverified rooted-P stress boundary are explicit. No new claim/proof/pin was
+created by this audit. A4
 witnesses exist privately but are not yet delivered public evidence; any public
 batch must explicitly include its named witnesses. Do not restart general
 infinite-regress diagnostics or treat optional O, causal reach, naming or
