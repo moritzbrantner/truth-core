@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+  "term": "asymmetry of selected actual-concrete grounding",
+  "definition": "Existing ActualGroundingAsymmetric m w: for actual concrete a and b, grounds w a b implies not grounds w b a. It quantifies over the SAME selected grounds field used for actual roots, not efficient causation, temporal order, arbitrary facts or mixed act/bearer priority. It rules out self-edges and two-way pairs but not all longer cycles or infinite descending chains.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.ActualGroundingAsymmetric",
+  "note": "New corpus binding of an EXISTING typed property, not a new relation, axiom or source attribution. Existing actualGroundingAsymmetricOfWF derives it from actual-grounding WF; necessityFreeFirstBeing uses the reverse-ground contradiction conditionally. No source or independent metaphysical warrant is supplied here. Reading ontological grounding as strict dependence motivates testing asymmetry, but ordinary temporal feedback or mutual explanation are different relations and neither establish nor refute this application. Its scope and abstraction to existential grounding remain OPEN; no metaphysical example or actual universal law is claimed."
+}
