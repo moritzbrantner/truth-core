@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-COVER-NECESSARY-BEING",
+  "argument_id": "ACTUAL-COVER-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.fromPopulation",
+  "comparator_config": "results/ACTUAL-COVER-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Six explicit inputs derive SOME bare actual necessary individual: existing owner population, conditional actual cover formation, selected reflexivity, strict causal coverage, causal endpoint actuality and cause-nonparthood. Relative to the same six-input MF2 route, Fusion is replaced by cover and full nonoverlap by nonparthood with checked same-profile old-to-new helpers. No strictness, minimality, source truth, default warrant transfer, selected necessary cause or God is claimed."
+}

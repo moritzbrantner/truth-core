@@ -1,0 +1,36 @@
+{
+  "id": "ACTUAL-COVER-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-NOT-PART-OF-EFFECT-AT"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-ACTUAL-COVER-NECESSARY-BEING"
+  ],
+  "meaning": "Under scoped denial of bare actual NE, selected-world reflexivity actualizes every proposed necessary candidate and so makes every candidate have no necessary parts. Existing owner population supplies an actual member; conditional selected-family cover formation supplies an actual cover there. The unregistered selected-cover tail uses strict causal coverage to choose a cause, actual endpoints to actualize it, and the scoped classification to put it in the SAME covered family. Existing Covers places the cause below its effect, contradicting the explicit causal nonparthood policy. Discharge the scoped denial classically to SOME bare actual NE. No Fusion, no-extra-parts clause, common-part nonoverlap, actual-part law or source/default warrant is inferred.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "DEF-CAUSE-NOT-PART-OF-EFFECT",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+  "term": "actual cover and conditional formation of the selected actual no-necessary-parts family",
+  "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.ActualCoverAt",
+  "basis": "stipulative",
+  "definition": "ActualCoverAt m w C is ExistsAt w C AND existing Covers (ActualNoNecessaryPartsFamily m w) C. This is exactly an actual candidate above every actual no-necessary-parts candidate in the SAME order and Ontic. ConditionalActualCoverAt requires some such actual cover only IF this one family is nonempty.",
+  "note": "Existing Covers is reused, not a new parthood or fusion. No no-extra-parts clause, leastness, exact fusion identity, all-Set formation, necessary fusion, ordinary contingency or productive role is inferred. Extra parts are permitted by this definition; no example/model or strict separation theorem is claimed. Actual existence of the cover is an independently OPEN formation premise, not inferred from a carrier value or abstract upper bound. Actual population remains separate; the proof constructs an actual family member only under scoped NoNE. Model.explains is unused and no PSR is assumed. Source type/fact/bearer/application semantics remain OPEN; no source statement is bound or reinterpreted by this analyst head."
+}
