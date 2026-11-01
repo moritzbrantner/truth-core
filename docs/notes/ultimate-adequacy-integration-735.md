@@ -55,6 +55,36 @@ source-free configurations) and a primary De Potentia q5a1 witness for continued
 existential dependence. Existing q104a1 findings must be reused; no source reading
 or premise closure is presumed before those audits finish.
 
+New conservation source audit527d2ee4 is independently reviewed against the full
+materialized De Potentia q5a1 [59411–59453]. All18 objections,4 sed-contra appeals,
+body and18 replies were read. The argument distinguishes generation from per-se
+form/esse dependence, but imports universal creation of forms and matter from
+an earlier question. Intrinsic persistence is confronted explicitly, not simply
+ignored; its defeat still depends on the higher-source/action-to-esse premises.
+AQUINAS-DE-POTENTIA-Q5-A1-LAT is now pinned/read, no longer an unread opportunity.
+Scoped live source verification --base90f7fc38 --head527d2ee4 passes for that new
+manifest, with471 other witnesses checked offline. No new claim/Lean/interface
+or root premise truth is established. Public three-file batch85897974 is prepared
+atop898, HOLD until898 lands; body/evidence under
+~/.cache/truth-core-artifacts/de-potentia-q5a1/.
+
+GRIM-REAPER-FINITE-TESTS is implemented and Root-reviewed: indices.sup id+1
+supplies the sole acting index beyond every finite tested set. Each tested
+complete tail clause has false action and false no-action tail; the imported
+old grimReaperImpossible rules out a global schedule. New frozen Challenge
+c16364586ac509a8d3d78c592c9a2dec46a41ef56fd5cfa7eb5e8446f93d0c6f unchanged.
+Full build4407 jobs, binding and result Comparator/NanoDa pass; scoped-library
+verification passed2128 declarations/0typechecker errors (one known axiom
+pretty-printer diagnostic); session39414 is terminal0, log
+~/.cache/truth-core-artifacts/grim-finite-gates.log. Root owns
+public898 watch1183, still live; do not restart it on observation timeout. Independent
+Mathlib axiom probe reports only the standard permitted three. Source/corpus
+passes2758 statements/832results/472witnesses; root route count12/best31 unchanged.
+This is a compatibility control distinguishing infinite assembly from finite
+full-rule satisfiability, not actual realization, causal finitism or a foundation
+premise discharge. No ordinary finitary compactness failure is asserted.
+
+
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
 38b4885c (same bytes as old d7 head), genuine CI reports and local webpack
 static export. Opening strict-primacy candidate content widened390→531px;
