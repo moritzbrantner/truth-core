@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
+  "statement_id": "STMT-AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [7], argument through accidental-or-first-ordering-cause alternative",
+  "interpretation": "Preserve AS DIVERSE and the source’s explanatory fork. Common intention, coordination and diverse causes acting as a unity require interpretation, rather than being excluded merely by numerical difference. The army/general analogy does not independently establish exhaustiveness or prove every genuine joint cause insufficient. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
