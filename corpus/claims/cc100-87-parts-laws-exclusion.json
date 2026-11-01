@@ -1,0 +1,15 @@
+{
+  "id": "CC100-87-PARTS-LAWS-EXCLUSION",
+  "statement_id": "STMT-CC100-87-PARTS-LAWS-EXCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 3",
+  "interpretation": "Preserve the modal/explanatory exclusion, not merely a claim that no such explanation has currently been found. The adequacy standard and both exclusions are asserted, not independently defended or inferred from parts/laws being internal. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

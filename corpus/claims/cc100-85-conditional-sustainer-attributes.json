@@ -1,0 +1,15 @@
+{
+  "id": "CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
+  "statement_id": "STMT-CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.208, argument #85 Unities: Contingents, step 4 under steps 1–3",
+  "interpretation": "Preserve a conditional selected-sustainer attribute conclusion, not existence of such an explainer or a common numerical source. The slide literally ends “sustaining case”; the editorial cause reading is explicit, but no unqualified causal relation is thereby defined. The necessary/incomposite/atemporal package is asserted under the preceding exclusions, not independently derived here. No God identity, unique/rigid necessary concrete bearer, actual Ontic cause or adequate explanation is registered. Attribution is to McIntosh’s presentation only, not the unread Braine1988 book referenced on p209. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
