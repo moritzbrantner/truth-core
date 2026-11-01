@@ -1,0 +1,24 @@
+{
+  "id": "JOINT-CONTINGENCY-EQUIVALENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-JOINT-CONTINGENCY-EQUIVALENCE",
+  "inference_ids": [
+    "INF-JOINT-CONTINGENCY-EQUIVALENCE"
+  ],
+  "meaning": "Compose the new localization theorem with the actual-truth projection in one direction, and import the existing JointCondition.contingent theorem for the other. This gives the exact classical equivalence of existing fixed JointContingent with JointTrue AND ContingentMember. The no-premise law asserts neither side unconditionally and adds no aggregate fact, existential bearer, causal/explanatory principle or modal frame input.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-JOINT-CONTINGENCY-LOCALIZATION",
+  "input_statement_ids": [
+    "STMT-JOINT-CONDITION-CONTINGENT"
+  ],
+  "output_statement_id": "STMT-JOINT-CONTINGENT-MEMBER",
+  "rule": "classical-fixed-conjunction-failure-localization",
+  "meaning": "Unpack the actual truth and accessible failure world of the SAME fixed conjunction. Classical double-negation elimination extracts a selected fact failing at THAT SAME failure world; actual joint truth supplies its actual truth. Package this exact fact with the original accessible world into existing ContingentMember. No choice/cause/bearer role, all-members contingency, explanatory sufficiency or new aggregate is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-JOINT-CONTINGENCY-EQUIVALENCE",
+  "lean_declaration": "TruthCore.Explanation.JointContingencyLocalization.Equivalence",
+  "paraphrase": "Under classical logic, the SAME fixed selected conjunction is contingent exactly when it is actually true and at least one selected fact member is contingent. This is a universally parameterized logical equivalence, not an assertion of joint truth, a contingent member or actual contingency. It does not make every member contingent or identify any member as a choice, individual bearer, cause, necessary ingredient or sufficient explanation.",
+  "definition_ids": [
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+  ]
+}
