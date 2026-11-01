@@ -134,7 +134,9 @@ Canonical4a993fe2/e79a6263 plus evidence10b5b828 passes full4409-job build,
 binding850/2pins/0mismatch, both Comparator/result NanoDa gates and scoped-library
 NanoDa6exports/176checked/0typeerrors (one known axiom pretty-printer diagnostic).
 Heavy session85612 is terminal0. Provenance PR902 is published ata0f2605ba108e48f5be4e7c69624e2e54969588a,
-CI41315196096 confirmed live and exact-head review requested once. Exact21-file
+CI41315196096 passed and exact-head review completed clean. PR902 is merged;
+watch42975 is terminal0. Canonical integration awaits the later source-audit
+attempt commit to preserve it. Exact21-file
 public diff is the immutable10b5b828 nineteen-file snapshot plus regenerated
 imports, with unchanged three-module Lean closure/toolchain/Challenge. Root owns
 watch42975, HOME artifact log pr902-watch.log; no restart on observation timeout.
@@ -186,7 +188,28 @@ from two open namespaces and never elaborated. Root authorized only full
 qualification to the intended IndexedSignalReaper.Controls in Challenge/Solution,
 with original diagnostic/hash and corrected pre-solution freeze preserved. This
 is a name-resolution repair, not a changed proposition or weaker challenge.
-Solution arithmetic/case edits and final verification remain worker-owned/pending.
+IndexedSignalReaper is committed eefae05a with generated imports68845a00 and
+final evidence319ef93f. Heavy70956 is terminal0: full4411-job build,
+binding852/2pins/0mismatch, both Comparator/result NanoDa gates and scoped-library
+NanoDa9exports/178checked/0typeerrors (one known axiom pretty-printer diagnostic).
+All five declaration probes are zero-axiom and independent20-file review passes.
+Corrected frozen hash9f57609f6c42459abc5f24c27a822be4c27cc3ecab08fd6e6018cfd89c649876
+is unchanged. Public worker prepares exact20 immutable owned files plus regenerated
+imports and is released to publish now902 has landed. No root premise is discharged.
+
+
+New positive source refinement, PGRp9: explicit removal of competing particles
+and maintenance of the unique earlier indexed Fred can justify a projection
+onto a normalized relevant register. The OptionNat model need not assert that
+all physical particles have valid codes; malformed/limit-position inputs may
+be cleared or ignored if the detector/normalizer really has those dispositions.
+The remaining application burden is exact relevant-state handoff between patches,
+including no intervening admitted-code injection, deletion or relabeling.
+Complete patch envelopes containing register/detector/channel offer the strongest
+reply; selected positive causal links alone do not establish that protection.
+The source worker persists this refinement separately from the frozen public
+composition slice. Earlier broad alphabet cautions must be read as admitted-input
+modeling cautions, not an objection requiring every physical entity to be coded.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
