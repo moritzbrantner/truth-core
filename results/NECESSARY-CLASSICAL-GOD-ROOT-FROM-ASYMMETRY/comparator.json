@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.derive"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

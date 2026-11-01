@@ -469,3 +469,26 @@ the global root-path union (73→81;23bare/50sourced→29bare/52sourced), removi
 none. This measures connected coverage, not eight new premises imposed on any
 existing route and not a reduction in philosophical assumptions. Exact IDs
 and final verification are preserved in the existing attempt record.
+
+### Explicit God/attribute consumer of the asymmetry route
+
+`NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY` imports the seven-input
+nontrapping theorem and the original25-input named-God theorem. Its frozen type
+replaces only D by selected actual-grounding asymmetry; the other24 hypotheses,
+including contingent grounding C, and the exact existing endpoint are unchanged.
+All dictionaries and the carrier remain identical across both calls.
+
+Two narrowly scoped helpers check asymmetry on the unchanged full25 positive
+fixture and retain that fixture's entire old Control alongside asymmetry.
+Its incidental D is stronger positive background, not an input of the new
+consumer. Empty potency, finite represented respects and the necessarily
+existing non-God effect retain their previous limitations. The main theorem
+and closed asymmetry check are zero-axiom; compatibility uses `propext` through
+the old control. Comparator, independent NanoDa (including module helpers),
+binding and independent type/prose review pass.
+
+Compared with the seven-input-lemma baseline, the81-open-leaf union
+(29bare/52sourced), cheapest root cost31 and existing32-input consumer cost37
+are unchanged; no reaching premise is added or removed. This records an
+explicit alternative composition, not premise truth, global weakening or an
+independent explanation of the necessary source.
