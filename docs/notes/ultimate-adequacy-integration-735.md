@@ -11,7 +11,7 @@ Branch: `research/lean-existential-self-actualization-20261031`; latest verified
 proof commit `e93220fc`. Main now includes #879 (`903178ac`, remaining selected
 unity readings) and #878 (`7741b6a6`, actual-cover necessary-being route), both
 merged after clean exact-head reviews and all required CI success/skips.
-Canonical integration through #880/#881 is 520bf8d9. The exhausted reality
+Canonical integration through #882/#883/#884 is c1283da8. The exhausted reality
 range remains retired; complete later source findings and rejected readings
 are retained. Corpus check passes2720statements/1882claims/823results, with
 only the existing unrelated Frege–Geach warning.
@@ -41,16 +41,21 @@ Source coverage does not establish its open commitments.
 Source #882 CC118–120 merged e18e94f986ce119db4395e1dcf27d60b9664d9c1
 after exact-head clean review and all required CI41293075188 success/skips.
 Current source delivery #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
-CI41293227827 live. Its review completed clean; CI remains live. Prepared CC121–122 slice is
-resumed after #882 landing. No checks are described as complete while still live.
+CI41293227827 live. Koons #883 merged3fe341e0 after clean review/all required checks. CC121–122
+#885 mergedf4437527c8d683f246540cb02b7a8575df4a0c0d after clean exact-head
+review/all required CI41293700076 success/skips. Final123–124 source slice
+is PR #887 head919a05fa638e42db68e81c5ec3a1ba32211e1bfd,
+CI41294333818 running, review requested once. No checks are described as complete while still live.
 Causal distribution/nonparthood audit completed and is preserved in the primary
 Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
 application needs independent warrant. AccessibleAccountNecessaryBeing is verified/committed e93220fc: full95157
 passes build4396/bind840/2oldpins/0mismatch/Comparator+resultND/scopedND3new74closure
 zero type errors and two zero-axiom probes; independent10-file review passes.
 It replaces only global Founded with selected Acc; same named cost, no
-converse/strictness or independent reality entitlement. Public delivery is
-assigned after #884 merged06b7806cd8a9a83e64547b465919509ddd0c8810.
+converse/strictness or independent reality entitlement. Public #886 head63606e388c89f731ccebefb57c34ae74b7dbe723,
+CI41293986063 running, review requested once;111-module dependency identity
+and local public checks pass. Catholic81/best31 unchanged; NE62→63 adds only
+selected-accessibility head, routecost4 and oldbest2 unchanged. No merge yet.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
