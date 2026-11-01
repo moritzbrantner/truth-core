@@ -42,8 +42,12 @@ Current source deliveries: #882 CC118–120, headbf2799214f960cbe6da5572a3784e42
 CI41293075188 live; #883 Koons Cor1, head3c69948679c0581956ee763b233293ea4d568c3d,
 CI41293227827 live. Both reviews requested once. Prepared CC121–122 slice is
 held until #882 lands. No checks are described as complete while still live.
-Two read-only research lanes inspect causal distribution/nonparthood and local
-contingent-foundedness reuse; neither has a new verified reduction yet.
+Causal distribution/nonparthood audit completed and is preserved in the primary
+Koons attempt: the fact-distribution pattern is checked, but its cause/parthood
+application needs independent warrant. A new AccessibleAccountNecessaryBeing
+proof lane tests exact selected-target Acc on the existing ContingentReason,
+with a global-foundedness projection and no fabricated concrete ontology.
+No new verified localization is claimed yet.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
