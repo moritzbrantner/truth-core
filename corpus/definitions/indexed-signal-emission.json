@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-EMISSION",
+  "term": "local issuance-to-own-code output",
+  "definition": "At every station n, issued(n) implies signal(n)=some(n). An issuing act in the supplied role writes that same station's finite code. This is not itself an account of efficient causation or physical production.",
+  "basis": "stipulative",
+  "note": "Source-free interface motivated conditionally by the indexed Placer's own-position placement. No global originating act or full firing law is assumed. Source fidelity, actual realization and exact detector/output mapping remain OPEN.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Emission"
+}

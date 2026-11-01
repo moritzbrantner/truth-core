@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GRIM-REAPER-FIRING-LAW",
+  "paraphrase": "For the supplied Nat-indexed issuance predicate, station n issues exactly when no station with larger index issues. This reuses the existing stipulated GrimReaperLaw; no actual or possible causal system is asserted.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperLaw",
+  "definition_ids": [
+    "DEF-GRIM-REAPER-ACTION-RULE",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}

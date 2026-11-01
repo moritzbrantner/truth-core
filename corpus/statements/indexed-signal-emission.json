@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-EMISSION",
+  "paraphrase": "Every issuance at station n places its own numeric code some(n) at output n. This explicit open interface has no physical-causation or actual-world assertion.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Emission",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-EMISSION",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}
