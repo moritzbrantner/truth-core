@@ -115,6 +115,21 @@ changes. The candidate begins A6P2B/C2, then A6P2C/C3; main source completion
 neither settles those alternatives nor discharges C9's typed-admission bridge,
 source12's externality, actual concrete causal-bearer or modal/history guards.
 
+A6 alternate batch is committed at `66a62215`: five claims, one new bare revised
+history statement and three existing source records (nine files). Root read the
+four complete materialized bodies, independently verified P2C raw hash/titles,
+and reviewed all five claims/new statement. Review corrected C2-prefix wording
+that could have included the separate P1 individual question. The shorter P2C
+emerald title does not itself assert exact/no-more cardinality; C3 independently
+specifies the exact roster. Four exact proposition meanings are reused; A6's
+revised-history argument is distinct from A5's guarded-report version. The
+existing attempt records independent fidelity acceptance. Source check468/1720
+bindings, corpus2534/1720 and whitespace checks pass; no Lean, pins, public
+coverage or premise truth changes. Candidate advances to A7, assigned for a
+bounded read-only source/design audit. A fresh root-route report confirms cheapest
+cost31 and the assembled necessary-classical-God consumer cost37 unchanged;
+this extraction improves attribution and reuse, not root-premise closure.
+
 ## Current delivery and parallel work
 
 Verified full-attribute baseline: `e9141899` (same necessary root through named
