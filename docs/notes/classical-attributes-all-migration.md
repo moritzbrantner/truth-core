@@ -732,3 +732,5 @@ particular possible q only with same-q stability. Neither personality nor
 uniqueness follows from necessary-bearer transport. The existing CC100 intake
 attempt preserves source locators, the exact reusable declarations and open
 application obligations.
+
+Public effect-to-ground PR #867 merged53b73ba8 after required CI41283752578 and completed clean exact-head review atfb1ae4e5. Canonical integration changes no verified Lean input. Its public Catholic81/best31 andNE47/best2 routes remain unchanged.

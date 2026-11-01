@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`d316ced4` before this update. Main is `820de57d` through #866, integrated in
+`eaa6340e` before this update. Main is `53b73ba8` through #867, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2611
-statements,1790 claims,814 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2620
+statements,1799 claims,814 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -85,16 +85,20 @@ the intake attempt and consequence matrix. Public #869 at9838c77cc68a06b1541c6ea
 CI41284069428/review pending; its three root frontiers are unchanged.
 #866 merged820de57d after required CI41283483717 and clean exact-head review,
 integratedd316ced4 preserving subsequent source work. Joint-ground publicPR #867 is open at
-fb1ae4e5dbce5aaad870c26199d9612da7bb2ec2, CI41283752578/review pending;
+fb1ae4e5dbce5aaad870c26199d9612da7bb2ec2, required CI41283752578 and clean exact-head review passed; merged53b73ba8
+and integrated without a Lean delta;
 Catholic81/best31 andNE47/best2 remain unchanged on its exact public slice.
 Koons presentation p20 A1–5/D source batch is committed62339662: six
 claims/statements and a minimal scope glossary. Root fidelity review accepts
 its explicit A2 editorial reading and nonidentification with arbitrary-family
 fusion, ordinary contingency or modal part persistence. Source/corpus checks
-pass at2611statements/1790claims. Canonical next source batch p21–22 C1–3,
-lemmas and conditional necessary-cause conclusion is assigned; p23 simplified
-remains next. Public p20 preparation waits for #869. The existing mereology/
-contingent-totality reuse audit is live, with no fresh formal route yet claimed.
+pass at2611statements/1790claims. Canonical p21–22 C1–3/lemmas/conditional necessary-cause conclusion is
+committedeaa6340e after full source-fidelity review. Candidate nowp23 simplified.
+The combined p20–22 fifteen-claim coherent source cluster is preparing for one
+public PR after #869. Completed reuse audit is durable in the CC100 intake: no
+part-coverage alias for overlap and no implicit actual/modal fusion bridge.
+A separate analyst L3 consumer (Fusion/no-extra-parts plus explicit necessary-
+part closure) is assigned, with no fresh result or source discharge yet claimed.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
