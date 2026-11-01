@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-SUPERABUNDANCE-UNIQUENESS",
+  "statement_id": "STMT-AQUINAS-SCG-I42-SUPERABUNDANCE-UNIQUENESS",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [2]",
+  "interpretation": "Retain the superabundant-predicate uniqueness principle and its highest-good application as source commitments. It is not directly an identity-sensitive no-tie theorem for the repository’s Approaches/degree relation. God/highest-good applicability and the meaning of superabundance remain independent obligations. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}
