@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
+  "paraphrase": "For every true proposition, possibly there is a proposition explaining it.",
+  "definition_ids": [
+    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
