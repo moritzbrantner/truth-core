@@ -102,8 +102,10 @@ for the alternate modal report, revised stipulation and final actuality. Four
 alternate witnesses and all raw titles were hash-verified/read; independent
 fidelity review found no findings. The minimal existing disambiguation extension
 preserves ordinary/revised class differences and all application gaps. The
-eleven-file public source PR is being prepared in root-perfect-goodness from
-the delivered A3 main baseline; private later history and Lean are excluded.
+eleven-file public source PR is #844 at
+`04cce4f8bbae9745edd1fb5aacea7572ff33844b`, CI41258319342 and exact-head
+review pending, from the delivered A3 main baseline. Private later history and
+Lean are excluded.
 
 The separately measured user-facing `STMT-GOD-EXISTS` target currently has72
 reaching-root open leaves (35bare/37sourced). Its seven existing registered
