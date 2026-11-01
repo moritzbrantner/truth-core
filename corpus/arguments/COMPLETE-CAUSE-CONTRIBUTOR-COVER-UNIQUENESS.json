@@ -1,0 +1,28 @@
+{
+  "id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT",
+  "inference_ids": [
+    "INF-COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS"
+  ],
+  "meaning": "For two complete causes c and d of the SAME effect e, ProducerParticipates puts c and d in the SAME supplied productive family. CompleteCauseCoversContributors gives c≤d and d≤c. The existing PartialOrder antisymmetry yields c=d, exactly existing UniqueCausePerEffect G. No cause or participant is asserted to exist, and participants is not defined from the complete-cause graph. Full fusion, overlap extensionality, object formation, cause-of-part inheritance, world rigidity, necessity and full first-cause uniqueness are not used or concluded. The two selected-context participant policies remain OPEN interpretations of the author’s total-cause discussion.",
+  "definition_ids": [
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND"
+  ]
+}
