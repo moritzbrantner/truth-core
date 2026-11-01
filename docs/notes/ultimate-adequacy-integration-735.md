@@ -42,7 +42,7 @@ pointwise assembly is now verified. Its additional policies remain open. Existin
 A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d is published after terminal cheap checks, with a single exact-head review request and CI41347478634 live. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `75d584de` (identical Lean/results tree after integrationc49e499a). Main through PR913 is integrated (`ef8e934d`).
+snapshot `ac9ab18f` (latest joint-cause composition; earlier proof inputs unchanged). Main through PR913 is integrated (`ef8e934d`).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
@@ -99,7 +99,7 @@ It imports the contributor-uniqueness theorem and existing SourceForest result.
 Connectivity remains OPEN and grouping participants does not supply it; member
 contribution/parthood edges cannot be substituted for complete-production edges.
 No source existence, necessity or grounding correspondence follows from an
-at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 are live; do not restart them.
+at-most-one statement alone. Snapshotac9ab18f passes focused proof/axiom/corpus and independent review. Final full gates54675 and scoped NanoDa78379 terminal0 PASS:4430jobs,873bound/2legacy/0mismatch, Comparator/resultNanoDa, scoped1module/1export/672checked/0typeerrors (known axiom pretty-printer diagnostic). No premise truth discharged.
 
 ### Reusable production-source chain
 
@@ -110,7 +110,7 @@ graph when instantiated compatibly. Their real-world interpretation remains open
 | --- | --- | --- |
 | Obtain an actual production source | AtomisticCausalSource.source | Actual population, all-actual atomic parts, conditional caused-simple cover, nonoverlap; EM. |
 | Make that same source necessary | ScopedActualCausality.selectedSourceNecessary | Selected actual contingent causal coverage; EM. |
-| Restrict production sources to at most one | CompleteCauseSourceUniqueness.atMostOne | Producer participation, coverage of every contributor, weak connectivity on that same graph. Final gates pending. |
+| Restrict production sources to at most one | CompleteCauseSourceUniqueness.atMostOne | Producer participation, coverage of every contributor, weak connectivity on that same graph. |
 | Extend finite source ancestry to every node | SourceWitness.rooted_from_source with SourceForest.confluent_of_uniquePredecessor | Same connected graph, derived incoming uniqueness, and the supplied source; no new WF premise. |
 
 This is a composition map of the existing typed interfaces, not a new registered
