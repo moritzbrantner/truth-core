@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SourceForestInterop.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForestInterop.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SourceForestInterop.uniquePredecessor"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
