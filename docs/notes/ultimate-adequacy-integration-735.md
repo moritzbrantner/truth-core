@@ -26,8 +26,11 @@ A2 alternate source readings are public in PR #839 at
 issues and required CI is still running. The source-only public branch excludes
 the private later witness history. The separate math publication is being
 prepared in the existing root-perfect-goodness worktree; no mathematical
-publication or merge is claimed yet. The complete source-network verifier is
-still live; offline manifest/corpus/generated-index/whitespace checks pass.
+publication or merge is claimed yet. The complete source-network verifier
+passes:468 passages,46 immutable snapshots and243 web passages checked. Existing
+media spans without local exports were not re-verified, and one bibliographic
+span remains citation-only. Offline manifest/corpus/generated-index/whitespace
+checks also pass.
 
 The renewed adversary found no newly concealed premise. Its decisive open
 obligations remain D's actuality-to-complete-adequacy/source semantics, I's
