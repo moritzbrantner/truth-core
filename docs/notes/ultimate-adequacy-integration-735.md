@@ -45,7 +45,13 @@ source verification, the diagnostic code retained a real rejected eLife response
 Root independently hashed the retained body and confirmed byte/hash agreement;
 metadata contains only public URL, label and expected/actual hashes. The existing
 pinned fallback then applies. This is real capture-path evidence, not resolution
-of the earlier A5 failure or completion of the still-live full verification.
+of the earlier A5 failure. The full public-source verification subsequently
+completed successfully:403 passages,46 immutable snapshots and178 web passages;
+12 unavailable media exports were not re-verified and one bibliographic span
+remains citation-only. Two real eLife mismatches were quarantined and existing
+pinned fallbacks (including Koons) passed. No source pin changed. The diagnostic
+worktree's cold Lean build remains live; full setup-correct Python tests and
+publication gates are still pending.
 
 The renewed read-only adversarial review accepts the conditional B/C/formal-D/EM
 consequence in `WholeRosterFoundation.necessaryActualRoot`. Its strongest
