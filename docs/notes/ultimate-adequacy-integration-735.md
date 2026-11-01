@@ -24,6 +24,7 @@ type errors. Independent reviews pass. This weak route does not itself return
 an uncaused witness. Exact frontier effects are persisted in the two dedicated
 attempt records: bare NE20→21 routes, concrete8→10, best cost2 unchanged;
 Catholic root81open/12routes/best31 unchanged. No premise truth discharged.
+Published8-file PR915 at b5c9dc8b; final CI41347966884 and the once-requested exact-head review are pending.
 
 PR910 and PR911 are MERGED after exact-head green CI and clean structured
 reviews (runs41334829941 and41334838393). PR911 initial `@codexreview` typo
@@ -39,10 +40,10 @@ existing concrete grounds at every admitted world, not abstract grounds.
 Ordinary production is not identified with existential grounding. The proposed
 pointwise assembly is now verified. Its additional policies remain open. Existing switching controls show modal necessity does not by itself exclude contingent supporters; complete sufficiency is not fixed indispensability. See the existing no-contingent-support discussion in underived-essence-identity.md.
 
-A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d is published after terminal cheap checks, with a single exact-head review request and CI41347478634 live. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
+A same-witness underived-root consumer for the existing NecessaryPerfectRootAt endpoint is assigned. It uses only the selected-world projection of underivedness and the existing maximum/actuality/esse-ground/perfection interfaces, avoiding re-assumption of population, whole-roster foundation and contingent grounding. Its uniqueness remains among actual selected roots, not all necessary individuals. Snapshot75d584de passes full4429job build,872bound/2legacy/0mismatch, Comparator/resultNanoDa and scoped1module/1export/73checked/0typeerrors; both finalhandles92867/87405 terminal0. Independent7-file review passes. Final attempt/frontier data are recorded in a2c93b4b, distinguishing the integrated research snapshot from the separate public slice (different producer availability). Public PR914 preparation exposed a metadata-only unresolved-ID dependency; initialhead is superseded by follow-up correction, no Lean/type change and no review was requested on the initial head. Final PR914 head6486171d passed CI41347478634 SUCCESS/SKIPPED and clean structured exact-head review; PR914 is MERGED at edbd6c92, merge16897 terminal0. Its final push was based on then-fresh mainf52b088f; public and integrated frontier metrics remain explicitly separate.
 
 Branch: `research/lean-existential-self-actualization-20261031`; verified proof
-snapshot `ac9ab18f` (latest joint-cause composition; earlier proof inputs unchanged). Main through PR913 is integrated (`ef8e934d`).
+snapshot `ac9ab18f` (latest joint-cause composition; earlier proof inputs unchanged). Main through PR914 is integrated (`edbd6c92`, merge0a7beaa3).
 Ledger A and B are accepted as working truths; scoped PSR authorization persists.
 The owner explicitly selected B on2026-11-01 and said C_PC may be acceptable;
 C_PC remains TENTATIVE, while AP/AC/NC remain OPEN. No new Lean axiom,
@@ -118,6 +119,16 @@ end-to-end theorem. The contingent-only atomicity route supplies modal existence
 but does not itself supply the source witness required in rows two/four. Generic
 production-source uniqueness does not identify production with existential ground,
 exclude necessary dependents, or prove the explanatory completeness of the model.
+
+Atomicity-free alternative: existing ActualCoverNecessaryBeing already reaches
+bare NE using the actual no-necessary-parts family cover, local reflexivity,
+CF3/CF4 and cause-nonparthood. AP is not required on every route. No implication
+between that family cover and caused-simple coverage is established. A concrete
+adapter using existing concreteOntic and necessaryBeingOfCover is assigned;
+it must retain explicit restricted policies and a concrete-carrier order.
+The recorded PSR audit distinguishes same-sense epistemic self-application from
+universal ontic coverage and from actual concrete complete production; owner D1
+is retained, not treated as defeated by a consistency control.
 
 ### Unity target and remaining investigation
 
