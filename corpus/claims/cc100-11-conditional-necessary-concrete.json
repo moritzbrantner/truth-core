@@ -1,0 +1,15 @@
+{
+  "id": "CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
+  "statement_id": "STMT-CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.25, argument #11, step 3 under steps 1–2",
+  "interpretation": "The displayed conclusion is retained conditionally; applying the particular-plurality coverage to the admitted all-existing totality remains a scope/admission burden. No actual concrete bearer, rigid modal witness, uniqueness or God identity is proved here. STMT-NECESSARY-CONCRETE-AT carries explicit actual existence, a particular frame and same-individual modality, so is not silently aliased with this unelaborated source conclusion. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

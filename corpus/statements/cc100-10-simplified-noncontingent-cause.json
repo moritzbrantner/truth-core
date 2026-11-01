@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
+  "paraphrase": "Under the contingent-population and restricted-cosmos premises, if the cosmos is wholly contingent and every wholly contingent thing has a cause, the cosmos has a cause that is not contingent.",
+  "definition_ids": [
+    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

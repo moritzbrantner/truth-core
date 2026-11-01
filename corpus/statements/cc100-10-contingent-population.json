@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-CONTINGENT-POPULATION",
+  "paraphrase": "There are contingent things.",
+  "definition_ids": [
+    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

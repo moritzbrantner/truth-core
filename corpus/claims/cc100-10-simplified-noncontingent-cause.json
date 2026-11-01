@@ -1,0 +1,15 @@
+{
+  "id": "CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
+  "statement_id": "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.23, argument #10 simplified, step 6 citing steps 5 and 4",
+  "interpretation": "Retain the source’s noncontingent-cause conclusion, not an automatic necessary-cause alias. Steps4/5 directly provide a cause but do not alone exclude its contingency; the earlier nonoverlap/contingent-overlap exclusion would be additional structure. This abbreviated displayed conditional is an OPEN source commitment, not a formal proof or refutation. No actuality/concreteness/necessity classification dictionary is invented. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
