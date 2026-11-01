@@ -689,6 +689,26 @@ Canonical5e9dd272 passes full build4378, binding828/2existing pins/0mismatch,
 both Comparator/result NanoDa checks and scoped library NanoDa4new declarations/
 170dependency declarations without type errors. All three proof probes use
 exactly the permitted Mathlib trio. Public PR #865 at1a61afc6 confirms unchanged Catholic81/best31 andNE47/best2;
-CI41283075570/review remain pending;
+Required CI41283075570 and completed clean review at1a61afc6 passed;
+PR #865 mergedd54ac80a and is integrated without a Lean delta;
 no actual package contingency, necessary existence or philosophical discharge
 is inferred from the equivalence.
+
+
+### From contingent effect to contingent joint condition (2026-11-01)
+
+`JOINT-GROUND-EFFECT-CONTINGENCY` consumes actual truth of the selected full
+member set, contingency of its positive effect fact, explicit whole-ground
+modal necessitation, and record admission/effect identity. The effect's same
+accessible failure world cannot satisfy the whole joint condition. The
+constructive proof therefore yields existing joint contingency.
+`JOINT-GROUND-EFFECT-CONTINGENT-MEMBER` then imports localization, retaining
+all contributors and enablers without reifying a fact aggregate or concrete
+bearer. Its member may be the effect itself; no distinct or independent
+explanatory source follows. Adequacy alone does not establish necessitation.
+
+Canonicalf9c6c51c passes build4380, exact binding830/2old pins/0mismatch,
+both Comparator/result NanoDa checks and scoped library NanoDa3new declarations/
+196dependencies without type errors. The joint proof uses zero axioms; member
+extraction inherits exactly the permitted Mathlib trio. Public premise
+comparison is pending. No actual effect contingency or root premise is closed.

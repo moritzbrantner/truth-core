@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`5255b389` before this update. Main is `6f4785f3` through #863, integrated in
+`f9c6c51c` before this update. Main is `d54ac80a` through #865, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -20,10 +20,11 @@ independent bare statements, with the selected-explanation scope preserved.
 The explanation-to-God and noncontingent-explanation bridges remain open,
 not supplied by slide attribution. Candidate now starts #8 at p16;
 public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
-CI41282874715/review pending. Its three target frontiers are unchanged;
+Required CI41282874715 and clean review passed; #864 mergedc3219a98
+and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2595
-statements,1776 claims,812 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2597
+statements,1776 claims,814 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -65,12 +66,20 @@ Joint localization is verified and committed5e9dd272: build4378, binding828/
 NanoDa4new declarations/170dependencies/zero type errors. The exact classical
 equivalence composes the old forward theorem and retains the same failure world;
 no particular member role or actual contingent package is inferred. Public PR #865 at1a61afc65661d720bcb3b9ea9677401d12c8403a is open,
-CI41283075570 and once-requested review pending; Catholic81/best31 andNE47/best2
+required CI41283075570 and clean review passed, merged d54ac80a; Catholic81/best31 andNE47/best2
 are unchanged. Existing attempt and matrix preserve boundaries.
 The next composition consumes actual joint truth, contingent effect and explicit
 whole-ground necessitation with selected-record guards to derive joint
 contingency and import member localization. This is a fact-level consequence,
 not an independent defense of modal necessitation or a concrete bearer.
+Effect-to-ground composition is now verified and committedf9c6c51c: build4380,
+binding830/2existing pins/0mismatch, both Comparator/result NanoDa checks and
+scoped NanoDa3new declarations/196dependencies/zero type errors. The constructive
+joint step and imported classical localization preserve the effect's same
+failure world. Focused public publication is assigned; no premise truth or
+actual independent explanatory member follows. Public #866 carries source
+#6–7 atc0d510d1, CI41283483717/review pending. Canonical #8–9 source extraction
+is assigned with explicit fixed-actual-BCCP and epistemic/ontic boundaries.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
