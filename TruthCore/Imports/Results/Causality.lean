@@ -53,6 +53,7 @@ import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
+import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
 import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 import TruthCore.Results.Causality.JointGroups.Solution
 import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
