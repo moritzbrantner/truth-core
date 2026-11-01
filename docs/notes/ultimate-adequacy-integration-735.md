@@ -123,6 +123,17 @@ waits for it. First unity reading plan is under scope review (per-world witness
 versus one cross-world unifier). The whole-route audit is checking a five-input
 bare-NE reduction separately from the stronger eight-input same-cause route;
 neither new whole theorem is yet claimed.
+Independent whole-route reuse audit validates a five-input bare-NE reductio:
+actual selected fusion of actual no-necessary-parts objects; actual parts of
+actual wholes; causal coverage of actual no-necessary-parts objects; actual
+causes; nonoverlap of cause/effect. Under no actual necessary being, every
+actual object's parts are nonnecessary, so the fusion's actual cause belongs
+to its family and overlaps its effect, contradiction. This outline omits L1
+downward, overlap-extensionality and selected necessary-fusion warrant from
+the eight-input necessary-cause blueprint, but loses the same-cause necessary
+endpoint. Formal implementation is assigned; no new checked whole theorem or
+independent philosophical weakening is yet advertised. Actual fusion existence
+and real causal/mereological applicability remain explicit OPEN commitments.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
