@@ -128,6 +128,50 @@ contested. See `DISAMB-PHYSICAL-GROUND`.
 - Defining physical as composite outright.
 - A new necessary-bearer model: the ladder reuses #435's bearer and tables.
 
+## Registered integration with the current necessary-being routes
+
+The earlier open-step list below now has reusable conditional consumers. This
+connects supplied configurations; it does not establish their premises or
+eliminate the impersonal rival. The last two consumers are in
+[PR #917](https://github.com/moritzbrantner/truth-core/pull/917), merged at
+`be2bf05d2d77b093971ebb7b2a880ffd14f665d6` after exact-head CI and review passed.
+Those checks certify the conditional consumers; their philosophical inputs remain open.
+
+| Supplied endpoint → resulting endpoint | Registered result and exact theorem | Retained boundary |
+| --- | --- | --- |
+| Concrete population and restricted actual-cover policies → `NecessaryConcreteAt` | `CONCRETE-ACTUAL-COVER-NECESSARY-BEING`; `TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.derive` | No atomicity input. The cover concerns actual candidates without necessary parts, not caused simples. Local reflexivity, causal coverage, actual endpoints and cause-nonparthood are explicit on the concrete carrier. Concrete does not mean material; no sourcehood follows. |
+| `NecessaryConcreteAt` → `NecessaryConcreteUnderivedAt` | `NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY`; `TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.underived` | Reflexivity, no contingent concrete support of necessary targets, necessary-support-union WF and EM remain inputs. Its selected witness may differ from the original. It excludes existing concrete support at all admitted worlds, not nonconcrete explanations. |
+| Supplied concrete underived witness → `NecessaryPerfectRootAt` | `UNDERIVED-ROOT-PERFECTION`; `TruthCore.Results.Causality.UnderivedRootPerfection.derive` | Preserves that supplied witness. Uses its exclusion only at the selected world; retains fixed-esse maximality/causality, actuality, direct esse-ground correspondence, grades and q4 transfer interfaces. No all-world attributes or uniqueness of every necessary being follows. |
+| Supplied perfect root → `NecessaryPositiveRootIntellectWillAt` | `PERFECT-ROOT-POSITIVE-INTELLECT-WILL`; `TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.derive` | Retains causal goodness, uniting cause, composition kinds, priority, remoteness, q14 intellect and q19 will interfaces. Imported structural-tail witness is identified with the supplied root by selected-root uniqueness. No new population/whole-roster/contingent-grounding producer is assumed. |
+| Supplied positive root → `NecessaryClassicalGodRootAt` | `CLASSICAL-GOD-FROM-POSITIVE-ROOT`; `TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.derive` | Retains act/potency, infinity, eternity, God-naming, God-maximality and attribute-sufficiency interfaces. It preserves one witness; it does not derive those interpretations from bare necessity. |
+
+The existing `simpleImpersonal` separator therefore remains consequential:
+the Perfect→Positive consumer reaches intellect only with
+`STMT-IMMATERIAL-IS-INTELLECTUAL`, after matter/form exclusion **and** remoteness
+have been obtained under their own interfaces. Noncomposition alone is not
+remoteness from being a component of another. `willless` still separates
+`STMT-WILL-FOLLOWS-INTELLECT`; `compositeRoot` still separates the uniting-cause
+reading. These models test their encoded commitments, not metaphysical
+possibility, and are not reverified or strengthened by this integration map.
+
+The primitive `HasIntellect`/`HasWill` dictionaries still need an adequate
+cognitive/appetitive interpretation. Neither the note's tables nor the new
+consumers show that all physically describable sources lack those properties,
+or that every source with those predicates is a personal agent in the intended
+sense. `DISAMB-PHYSICAL-GROUND` continues to distinguish composite-bearer
+physicality from Papineau's sense: a part-free impersonal candidate is not
+excluded from the latter merely by simplicity. The classical naming and
+attribute interfaces also do not supply a general physical/nonphysical
+classification theorem.
+
+Source boundaries are unchanged: q14a1 and q19a1 are the attributed conditional
+readings; the model assignments are analyst interpretations. Oppy's §§VI–VII
+comparative argument and restricted modal frame remain distinct from the
+truth or metaphysical exhaustiveness of that frame. No new source claim,
+model, premise acceptance, worldview elimination or root-frontier closure is
+introduced by this update. B retains its owner-accepted working status;
+independent warrant for the additional support/attribute policies remains open.
+
 ## Open steps from a necessary ground to the classical God
 
 1. A maximum for a necessary ground, in shared vocabulary with `NecessaryAt`.
