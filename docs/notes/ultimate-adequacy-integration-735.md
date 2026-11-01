@@ -12,8 +12,10 @@ Current proof batch: `cb6a183e`, generated imports `12862fbc`.
 Only ledger A is owner-accepted; scoped PSR authorization from #312 persists.
 The owner-facing ledger separates D1 (derivative regress does not explain
 itself), D2 (actual contingent existence requires adequate explanation), and
-D3 (faithful application to the formal grounding/no-trap condition). D3 is an
-open bridge, not inferred merely from accepting D1. The existing formal
+D3 (foundation assumption: on the chosen actual-concrete domain and grounding
+relation, some actual concrete object has no actual concrete ground). D3 is
+equivalent to the formal no-trap condition under B/classical logic; it must not
+be presented as merely a harmless interpretation rule or inferred from D1/D2. The existing formal
 WholeRosterNotTrapped condition is equivalent to selected root existence under
 B/classical logic. No new owner selections have been received.
 
@@ -38,8 +40,24 @@ terminal0: six passages in changed manifests verified live, including the
 unchanged CC100 raw snapshot and new Rutten chapter. Scoped library69479 is
 terminal0: 36 exports, 548 declarations checked, zero typechecker errors and
 one known axiom pretty-printer diagnostic. The exact52-file direct-main
-publication is authorized, with Root retaining merge responsibility. Source claims and explanations
+publication is PR907, head `356c1ca3ac0ee93c649135ba389c0171578ccf05`,
+CI41330144587 confirmed live; review requested once (comment6561172063).
+Root retains merge responsibility. Public52-file scope and all1894 nongenerated
+Lean/toolchain inputs match the certified inputs; no cold verification repeated. Source claims and explanations
 remain distinct from formal consequence.
+
+Independent adversarial ledger assessment identifies D3 as the strongest open
+foundation bridge. B is stronger than mere existence A; C is stronger than an
+unspecified reason/PSR. B+C+D3+classical logic validly yield a necessary actual
+concrete root, but calling D3 “adequacy” alone would hide the required inference.
+The equal-standard test includes contingent conditions of a necessary being's
+creative exercise/choice: a necessary label or frame box does not itself explain
+this world's actuality. Nonnecessitating reasons must be allowed or challenged
+consistently for personal and impersonal accounts. Consistency alone does not
+answer the owner's demand for a complete explanation. Greatest attainment HG
+and greatest-to-causal-reach IG remain distinct open commitments. Naming M/N
+provides no proof of the named divine attributes or uniqueness of all necessary
+entities. This assessment changes no accepted premise or frontier closure.
 
 ### Historical delivery evidence (superseded status; findings retained)
 
