@@ -416,3 +416,21 @@ All claim witnesses were materialized/read before extraction, including title at
 Source-gloss definitions and `DISAMB-NB-A2-DOMAIN-AND-ANCESTRY` preserve A2P1 cause-OR-effect capability versus A2c cause capability. Entire-chain closure concerns causes of members, not causal production of a collective whole. Infinite means lacking a first member, not cardinal infinity; an isolated graph source need not be a cause/partial-cause head. Existing `HEADLESS-CAUSAL-ANCESTRY` and `POSSIBLE-CAUSAL-SOURCE-NECESSITY` remain unattributed mathematical consequences under their own dictionaries. Applying them still needs chain/head correspondence, capable/actual causal-domain guards, and objective/modal/rigid-individual correspondence. Mere consistency is not explanatory adequacy.
 
 Next coherent extraction is A2P2b/A2c2's alternate modal input, then A2P2c/A2c3's revised classification and reaffirmed report, using their existing public witnesses. Continue afterward with source-ordered A3 extraction and the remaining public campaign queue; no additional later-family witness coverage is delivered here. The candidate and existing first-pass attempt preserve this boundary. Source pins, old claims/types, proof modules and shared generators are unchanged.
+
+
+### A2 alternate source extraction (2026-11-01)
+
+Four qualified claims use the existing public alternate witnesses:
+
+| Claim / new unbound statement | Precise witness locator |
+| --- | --- |
+| `NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY` / `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY` | `NECESSARYBEING-A2-CONCLUSION-TWO`, A2C2 modal paragraph after causal step11, with A2P2B question context. Conditional affirmative report and proposed contraposition/duality, not actual assent or a proved modal axiom. |
+| `NB-SURVEY-A2-REVISED-MUST-EXIST` / `STMT-NB-A2-REVISED-MUST-EXIST` | `NECESSARYBEING-A2-REVISED-DEFINITION`, A2P2C opening author stipulation and complementary class. A definition does not independently supply an existing bearer. |
+| `NB-SURVEY-A2-REVISED-CONTINGENTS-CAUSED` / `STMT-NB-A2-REVISED-CONTINGENTS-CAUSED` | `NECESSARYBEING-A2-CONCLUSION-THREE`, A2C3 steps9–11 under the P2C reaffirmation question. The changed complementary class makes this a distinct premise from ordinary contingent causation. |
+| `NB-SURVEY-A2-REVISED-ACTUALITY-CONCLUSION` / `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION` | Same witness, final actuality paragraph after step11. Attributed conditional conclusion through the revised stipulation, not a certified actual or rigid necessary witness. |
+
+All four witnesses were freshly materialized/read, including hash-verified raw title attributes. Independent read-only fidelity review found no findings; this accepts the source readings, not their truth or formal consequence. Main causal-prefix readings and existing modal results remain reused without duplicate claims/proofs. The four new statements intentionally have no Lean declaration; no new Challenge, inference or result is introduced.
+
+The editorial tag κ distinguishes the revised must-exist class and its complementary contingency. Its would/automatic wording remains unbound: no material-implication classification, ordinary NecessaryAt, counterfactual calculus, existential N-to-Box-N identity or actual-world membership/witness persistence is selected. A2C2 changes a modal report while retaining the ordinary nominal class; A2P2C/A2C3 changes the class and re-asks causal exclusion. Stock tooltips do not erase the explicit stipulation. Source pins, old claims/types and proof modules are unchanged; **no premise truth or root-frontier discharge** is claimed.
+
+A2 main/alternate substantive extraction is complete at these stated boundaries. The candidate remains for source-ordered A3 extraction on its existing public witnesses, then the remaining public A4–A10 witness/reading/extraction queue. This batch delivers no additional later-family witnesses or private reading history and requests no PHP answer endpoint.
