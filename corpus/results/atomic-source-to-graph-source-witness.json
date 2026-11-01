@@ -1,0 +1,11 @@
+{
+  "id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "argument_id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "challenge_module": "TruthCore.Results.Causality.SourceForestInterop.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SourceForestInterop.Solution",
+  "theorem": "TruthCore.Results.Causality.SourceForestInterop.hasSource",
+  "comparator_config": "results/ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Mechanical assembly/transcription: the existing SourceExists G and HasSource G definitions express the SAME existential of a graph-relative source. Preserve the exact carrier G and edge interpretation; repack the SAME source witness without selecting another. No actual presence follows for a raw graph; an actualGraph subtype already supplies that separately. No source truth, uniqueness, WF, necessity, grounding interpretation or new independent philosophical argument is established."
+}
