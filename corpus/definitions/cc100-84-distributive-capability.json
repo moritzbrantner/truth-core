@@ -1,0 +1,10 @@
+{
+  "id": "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY",
+  "term": "distributive world-local capable unifier restriction",
+  "definition": "At each world the mind restriction applies to anything capable there of external fact-unification; candidates need not be the same between worlds.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-84-DISTRIBUTIVE-MIND-RESTRICTION"
+  ],
+  "note": "Alternative scope reading, not established equivalent to the de-re globally-capable restriction. Capability-to-exercise and mind-world dictionary remain open."
+}
