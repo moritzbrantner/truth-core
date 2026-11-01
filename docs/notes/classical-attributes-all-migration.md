@@ -712,3 +712,23 @@ both Comparator/result NanoDa checks and scoped library NanoDa3new declarations/
 196dependencies without type errors. The joint proof uses zero axioms; member
 extraction inherits exactly the permitted Mathlib trio. Public premise
 comparison is pending. No actual effect contingency or root premise is closed.
+
+
+### CC100 #8: necessary bearer versus actual explanans (2026-11-01)
+
+The p16 presentation's involvement premise can feed the existing
+`NonlimitingConcreteExistence.necessaryAtOrigin` only after an explicit
+interpretation supplies a necessary bearer at the possible explanation world,
+in the same Ontic, with the restriction applicable there. Euclidean accessibility
+and selected reflexivity then yield that same bearer's actual necessary
+existence. Mere propositional mention supplies no such witness. This is reuse
+of a verified conditional, not a new result or source-premise discharge.
+
+The stronger displayed conclusion that a proposition actually explains the
+fixed actual BCCP additionally needs explanatory stability/transport. Existing
+`PSRStrength.StableReason` and `Results.Explanation.PSRStrength.strengthMap`
+yield actual explanatory coverage when the target holds, but preserve a
+particular possible q only with same-q stability. Neither personality nor
+uniqueness follows from necessary-bearer transport. The existing CC100 intake
+attempt preserves source locators, the exact reusable declarations and open
+application obligations.

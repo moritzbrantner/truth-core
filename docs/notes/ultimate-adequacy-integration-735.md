@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`f9c6c51c` before this update. Main is `d54ac80a` through #865, integrated in
+`f151811b` before this update. Main is `d54ac80a` through #865, integrated in
 that merge. Canonical A1–A10 source extraction is exhausted; the selected
 successor is the owner-requested Capturing Christianity foundation slice,
 PDF pp9–26, arguments4–11. Its full-range audit and exact reuse/gaps are durable
@@ -23,8 +23,8 @@ public PR #864 is open at c129f44ff2ff0764649ede559b4bfbf44096d4f8,
 Required CI41282874715 and clean review passed; #864 mergedc3219a98
 and is integrated preserving canonical #8 cursor. Its three target frontiers are unchanged;
 no SurveyA5 cursor changed.
-Public A5 publication remains separate. Canonical corpus checks pass with2597
-statements,1776 claims,814 results and468 passages. Only ledger A is accepted;
+Public A5 publication remains separate. Canonical corpus checks pass with2605
+statements,1784 claims,814 results and468 passages. Only ledger A is accepted;
 scoped PSR working authorization persists, with no additional selections.
 
 The measure consumer is committed at `e9419df9`: full build4376, binding826/2
@@ -79,7 +79,12 @@ joint step and imported classical localization preserve the effect's same
 failure world. Focused public publication is assigned; no premise truth or
 actual independent explanatory member follows. Public #866 carries source
 #6–7 atc0d510d1, CI41283483717/review pending. Canonical #8–9 source extraction
-is assigned with explicit fixed-actual-BCCP and epistemic/ontic boundaries.
+is committedf151811b: eight claims/statements, candidate now#10p20.
+Positive modal-bearer reuse versus actual-explanans stability is durable in
+the intake attempt and consequence matrix. Focused public publication is
+preparing, held for #866 to land. Joint-ground publicPR #867 is open at
+fb1ae4e5dbce5aaad870c26199d9612da7bb2ec2, CI41283752578/review pending;
+Catholic81/best31 andNE47/best2 remain unchanged on its exact public slice.
 The local service experiment is closed; CLI fallback continues. External
 Koons witness access still blocks #823, and #850 remains held without retries;
 these do not block independent proof/source work.
