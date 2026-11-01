@@ -81,10 +81,22 @@ pretty-printer diagnostic); session39414 is terminal0, log
 completed public898 watch1183 (terminal0); neither requires restarting. Independent
 Mathlib axiom probe reports only the standard permitted three. Source/corpus
 passes2758 statements/832results/472witnesses; root route count12/best31 unchanged.
-The proof batch is committed6c33aee6 and its worker is publishing a narrow
-direct-main slice with regenerated imports. This is a compatibility control distinguishing infinite assembly from finite
+The proof batch6c33aee6 is published as PR900 at
+11f72ead941b66d6e39094123725001599809cd8, CI41313855505 confirmed live and
+exact-head review requested once. Exact12-file public diff reuses the same five
+transitive Lean modules/toolchain; public counts2742/1876/832/438. Root owns
+PR899 watch51248 and PR900 watch44842, logs under ~/.cache/truth-core-artifacts/;
+no restart on observation timeout. Public attempt clarifies obsolete pending
+verification as an earlier stage; retain that correction on integration. This is a compatibility control distinguishing infinite assembly from finite
 full-rule satisfiability, not actual realization, causal finitism or a foundation
 premise discharge. No ordinary finitary compactness failure is asserted.
+Next source tests: De Potentia q3a5 [58674–58683] explicitly addresses universal
+creation, while q5a1 says only another question and does not uniquely identify
+that article. Source worker is obtaining the full coherent a5 witness before
+reading; no conclusion is attributed in advance. Placer audit checks whether
+local duplicate capacities also ensure an issued signal's provenance, reusing
+existing phantom/least-fixed-point controls before proposing anything new.
+Both are premise investigations, not more opaque conditional proof wrappers.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
