@@ -8,71 +8,70 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`0968847d` before this update. Integration0b53e840 brought main through #855 at
-`d30b1e128b0e085a4fdc6bf6f2452c4e737c6ef2`. The integration preserves full private
-research history, all468 witnesses and the A9 research cursor alongside main's
-independent A8 delivery411. The nonlimiting-existence attempt retains both the
-full entitlement audit and actual public delivery evidence. Corpus2555/1735
-claims and whitespace checks pass. No Lean code differs from the verified6ad inputs.
-Only owner ledger A is accepted. Optional NLC/MF rows below remain unselected.
+`ada57c9b` before this update. Main is `8d696d5d1501cec1f2c54140f36fa2f8b70e153f`
+through #856. Integration preserves the full private research history, 468 source
+witnesses and the A9 cursor. The current committed corpus has 2559 statements,
+1740 claims and 807 result records. Corpus, source bindings, generated docs and
+whitespace pass. No Lean inputs changed from the verified 6ad5567a proof batch.
+Only owner ledger A is accepted; earlier explicit PSR working authorization is
+retained. Optional NLC/MF rows remain unselected.
 
-Landed exact-head reviewed, required-CI-green PRs:
-- #851 foundation equivalence: main663d3a8c; Root integration7a26e3f7.
-- #853 count cause-time weakening/projection: main4d2f6cff; canonical integrationf8678cde.
-- #852 eight named A8 source witnesses/readings: mainb001d0ed; same canonical integration.
-- #854 two generic modal results/control: mainccb37777; canonical integration0b53e840.
-- #855 actual necessary-concrete route and separation/control: maind30b1e12; same integration.
+Landed with all required CI and a clean completed review of each exact head:
 
-PR #855 at `ca3a3d45d1b30b9154737fca0e1eb75839f7743e`, CI41271532565, delivered the
-31-file stronger separation/actual necessary-concrete consumer and joint control.
-All required CI and a clean completed structured review of that exact head passed
-before merge; the PR is confirmed MERGED at d30b1e12.
-Local evidence at6ad5567a: build4351, binding823/2 old pins/0 mismatch, all three
-Comparator/result NanoDa checks, scoped NanoDa127 declarations/0 type errors.
-Main/generic/transport proofs use no axioms; control inherits propext. The target
-contains only concrete-and-actual existence, not necessity. The SAME separated
-individual lacks accessible absence and is transported back to actual w using
-Euclidean access/actual reflexivity. The Profile grounds field is unused.
+- #851 foundation equivalence: main663d3a8c.
+- #853 count cause-time weakening/projection: main4d2f6cff.
+- #852 eight named A8 source witnesses/readings: mainb001d0ed.
+- #854 generic modal results/control: mainccb37777.
+- #855 separation and actual necessary-concrete route/control: maind30b1e12,
+  reviewed ca3a3d45, CI41271532565. Root integration0b53e840 preserves the full
+  premise-entitlement audit alongside the public delivery evidence.
+- #856 immutable publisher Dye abstract: main8d696d5d, reviewed411bf986,
+  CI41274287992. Canonical integrationada57c9b passes scoped live verification
+  of the one changed witness; the other467 passages pass offline checks only.
+  Abstract body is identical, with only the old extracted heading omitted.
 
-The verified matrix now compares whole-roster, maximum/asymmetry, count and
-nonlimitation packages with their distinct endpoints. Actual public metrics for
-#855: necessary-concrete open union24→29/new route raw6-expanded5, non-transcription
-best2 unchanged (overall best1 is the prior composite assembly); NecessaryBeing
-union39→42/best2 unchanged. God72/best7 and Catholic81/best31/assembled37 are
-unchanged. No philosophical premise closes. The independent entitlement audit,
-persisted in the existing attempt, leaves BOTH specialized judgments OPEN:
-q4a1/q7a1 act/perfection and reception readings do not establish modal non-entailment
-of deficiency, and A8P3 supplies a report question rather than an independent
-warrant. A9's nontrivial relation does not remove nonvacuous all-contingent
-inclusion. These objections do not certify a rival as explanatorily complete.
+The #855 proof batch retains full build4351, binding823/2 old pins/0 mismatch,
+three Comparator/result NanoDa acceptances and scoped NanoDa127 declarations
+without type errors. Main/generic/transport proofs use no axioms; the control
+inherits propext. The same concrete individual is actual and necessary at w;
+grounds is unused. It proves no sourcehood, uniqueness or divine identity.
+Its two specialized evaluative premises and classifier/modal applicability stay
+OPEN. The act/perfection texts do not establish modal non-entailment of deficiency.
+No philosophical premise closes: #855's route has raw6/expanded5 open inputs;
+best non-transcription necessary-existence route remains2. God72/best7 and
+Catholic81/best31/assembled37 remain unchanged. See the consequence matrix for
+exact endpoint and premise comparisons; counts are not truth rankings.
 
-#823 remains unmerged at a3f75598. Local403-source verification/build4348/all372
-tests and exact-head review pass; both hosted attempts failed the SAME pinned
-Dye archive availability condition (connection refusal, then TLS handshake timeout).
-The single authorized failed-job retry is exhausted; no further retries, repin,
-bypass or merge. Both diagnostic artifacts captured the rejected live bytes
-correctly. #850's original unretained A5 mismatch remains unexplained and its
-instrumented delivery still awaits this diagnostic dependency. Other independent
-work continues; the overall goal is not at an impasse.
+A9 MAIN is committed0968847d: five source claims, four bare statements and
+explicit ordinary/nontrivial-entailment terminology. Independent fidelity review,
+source/corpus and whitespace pass; no Lean or truth status changed. Public
+PR #857 at30738138b0e696639e5e76f1ad1c924750e63425 adds exactly nine pinned A9
+witnesses to main's411 for420 passages. All9 pass scoped live verification;
+other411 pass offline only. A5 stays queued publicly; A9 alternate pins are
+context, not completed alternate claim extraction. CI41274890902 and exact-head
+review are pending. The canonical worker is processing A9 alternates next.
 
-All new proof/source batches are committed. A9 MAIN source extraction is now
-committed at0968847d: five claims/four bare statements and explicit NT terminology,
-with source/corpus/whitespace and independent fidelity review passing. No Lean or
-premise status changes; the source cursor remains A9 alternates;
-completed primary reading for the entitlement comparison is not a completed
-A9 source-extraction campaign. The source worker has resumed after the canonical
-merge. A separate bounded worker is upgrading the blocked Dye witness to the
-publisher-maintained immutable XML of the same article. PR #856 at
-411bf986f418a9648a5310bd5881e916e3d37560 uses the existing web-snapshot selectors;
-the complete abstract body is unchanged, with only its heading omitted. One
-changed witness passes scoped live verification; other410 public witnesses were
-checked offline. CI41274287992 and exact-head review are running, so no merge
-is yet justified. No old-head
-#823 retry or pin bypass is authorized. The adversary is checking existing PSR
-compositions for the precise actuality/adequacy bridge. Next actions: review those
-source and bridge findings, record optional owner classifications without inferring
-answers, and prioritize independent premise warrant over conditional restatements. Coordinator
-owns this note, matrix and merge; workers preserve separate source/proof ownership.
+#823 is refreshed at e588c155890d0465f56144fd3ace6619e59bac65 by merging actual
+main #856. The five-file diagnostic patch is byte-identical to reviewed a3f75598;
+372 tests/65 source tests/build4348 evidence is reused on unchanged code inputs.
+New full local verification of all411 public passages passes (46 immutable and
+186 web witnesses; existing absent media exports and bibliographic boundaries
+remain explicit). CI41274982379 and a fresh exact-head review are pending.
+Both old hosted failures remain recorded: connection refusal and TLS timeout
+for the former Dye archive. No old-head retry, automatic further retry or bypass
+is authorized; the new head contains a scholarly witness upgrade. #850's original
+unretained A5 response mismatch remains unexplained and awaits diagnostic delivery.
+
+The source-reuse audit is persisted in the existing whole-roster attempt:
+Leibniz's fact/whole scope is distinct from scoped individual PSR, and joint
+condition contingency does not reify a concrete individual. No regress is credited
+with global explanatory completeness. The adversary is testing the remaining
+fact-to-bearer/contributor connection, distinguishing bare necessary existence
+from selected productive roothood. Next actions: review/land pending exact-head
+PRs only after gates pass, finish A9 alternates, and test whether the stronger
+autonomous-full-ground route can reuse existing necessity propagation without
+an existential-ingredient premise. No owner classifications are inferred.
+Coordinator owns this note, matrix and merges; workers retain separate ownership.
 
 ## Current head and next action (2026-11-01)
 
