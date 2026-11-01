@@ -15,17 +15,22 @@ Ledger-F clarification5c2f676c removes an unintended current-time requirement
 from prose, preserving the formal world-relative premise and its OPEN status.
 No owner selection beyond A is received.
 
-Current blocker for PUBLICATION, not the research goal: a verified frontier
-fallback propagation defect falsely reports the new necessity upgrade as cost2.
-The actual-root parent expands to9 open leaves, so that selected expansion plus
-contingent dependence is10, not2; the old direct global route remains7. Treat
-all current route-cost figures below as PRE-REPAIR observations. No philosophical
-reduction is inferred. Unity owns only scripts/corpus.py and
-scripts/test_corpus_frontier.py for the bounded fix: minimized real-function
-red regressions reproduce unverified/transcription-only fallback B yielding
-{A,C} instead of {B,C,E}; cycle and grounded-alternative checks are being added.
-Existing sourced-leaf, floor, transcription and closure semantics must remain.
-Root owns final review/publication; no script repair is committed yet.
+Measurement repair ba0c37d8 is committed and published as PR896
+head d7db16a4c43ce691a25b643a4e42e79665b9da2d. CI41305000723 is active;
+exact-head review is clean. Both Root and independent reviews accept the fix;
+372 full scripts tests, 51 frontier tests and 8 atlas/state integration tests
+pass. Python is the sole frontier-cost authority for CLI, service, dossiers and
+Pages; the existing Pages build invalidates scripts/* inputs. No separate TS
+solver or new dependency is introduced. Source/premise closure rules stay intact.
+
+Corrected real reports71296: actual-root unicity9 open leaves; its necessity
+upgrade10, NOT the erroneous2; old global direct necessary-root route7 remains
+cheapest. Root12911 remains81 (29bare/52sourced), Catholic12routes/best31 and
+necessary-being17routes/best2 unchanged. Regressions capture unverified/
+transcription-only leaves and cyclic-core dependents, including grounded escapes.
+No philosophical progress is claimed from changing the report. After PR896
+lands, publish the verified root decomposition; do not let its public graph use
+the known erroneous fallback algorithm.
 
 New proof batch is fully verified: ACTUAL-ROOT-UNIQUENESS has7 heads and asserts
 one actual concrete selected root, dropping C AND the necessity conclusion.
@@ -38,7 +43,7 @@ independent16-file reviews pass. Frozen hashes baef9acc…6e9948bd and
 e8fbcc88…5dd42e6 are unchanged. Source/corpus33128 passes2756/1909/829/471.
 Owned proof18-file commit7f9c35e4 plus two relevant F-record clarifications are
 listed in /tmp/actual-root-uniqueness-delivery-files.txt; proof publication waits
-for the measurement repair. Do not publish the whole private handoff as that
+for PR896 to merge; the repair itself is locally verified. Do not publish the whole private handoff as that
 slice. Verified source findings remain in their existing attempts.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
@@ -132,6 +137,17 @@ No generic schema is registered as its conclusion. The off-root candidate retain
 semantic/application and cause-of-necessity obligations, rather than repeating
 the already checked configured derivation.
 
+
+Direct-esse source reuse inventory: q104a1 is ALREADY pinned/read/extracted
+(AQUINAS-ST-I-Q104-A1-EN, cause-being/becoming and conservation claims).
+Its causal-role distinction is useful, but its universal divine application
+presupposes own-esse versus participated creatures. Do not reextract it or use
+that application to classify every competing necessary root as a creature.
+The F dictionary remains open. Bounded repository search found no De potentia
+q5a1 witness; this is an unprocessed source opportunity, not a claim that its
+text is unavailable. Exact records, consulted materials and rejected readings
+are persisted in the existing existential-support-reality-correspondence attempt.
+
 Vincent2026 full text remains unavailable through the checked legitimate
 sources. Access findings are durable in simplicity-collapse-555, commit807167e8;
 no paper reading/source claim is asserted. This narrow witness gap does not
@@ -139,9 +155,9 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: repair and independently review fallback leaf propagation; remeasure
-actual/full root routes, then publish the actual-unicity/necessity composition
-with its unchanged philosophical commitments. Keep generic schemas separate
+Next: finish PR896 external gates, merge and integrate it, then publish the
+actual-unicity/necessity composition with corrected measurements and unchanged
+philosophical commitments. Keep generic schemas separate
 from configured instances. Existing consumers remain the route for constitutive
 individuation and common numerical origin; no duplicate generic wrapper is needed. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
