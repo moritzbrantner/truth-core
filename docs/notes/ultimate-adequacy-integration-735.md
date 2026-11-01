@@ -8,23 +8,25 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`f8678cde3c84fb7619fab8360991ed04bf4b3d45` before this update. The main integration
-preserved full private research history, all468 witnesses and the A9 research
-cursor while recording main's independent A8 delivery411. Four metadata/note
-conflicts were resolved with both intents retained; corpus2555/1735 claims and
-offline source bindings pass. No Lean code differs from the verified6ad inputs.
+`0b53e840` before this update, integrating main through #855 at
+`d30b1e128b0e085a4fdc6bf6f2452c4e737c6ef2`. The integration preserves full private
+research history, all468 witnesses and the A9 research cursor alongside main's
+independent A8 delivery411. The nonlimiting-existence attempt retains both the
+full entitlement audit and actual public delivery evidence. Corpus2555/1735
+claims and whitespace checks pass. No Lean code differs from the verified6ad inputs.
 Only owner ledger A is accepted. Optional NLC/MF rows below remain unselected.
 
 Landed exact-head reviewed, required-CI-green PRs:
 - #851 foundation equivalence: main663d3a8c; Root integration7a26e3f7.
 - #853 count cause-time weakening/projection: main4d2f6cff; canonical integrationf8678cde.
 - #852 eight named A8 source witnesses/readings: mainb001d0ed; same canonical integration.
-- #854 two generic modal results/control: mainccb37777; proof inputs already identical
-  on Root, with Git ancestry integration deferred to the next safe merge.
+- #854 two generic modal results/control: mainccb37777; canonical integration0b53e840.
+- #855 actual necessary-concrete route and separation/control: maind30b1e12; same integration.
 
-PR #855 at `ca3a3d45d1b30b9154737fca0e1eb75839f7743e`, CI41271532565, now carries the
+PR #855 at `ca3a3d45d1b30b9154737fca0e1eb75839f7743e`, CI41271532565, delivered the
 31-file stronger separation/actual necessary-concrete consumer and joint control.
-Its exact-head review was requested once; CI/review must pass before merge.
+All required CI and a clean completed structured review of that exact head passed
+before merge; the PR is confirmed MERGED at d30b1e12.
 Local evidence at6ad5567a: build4351, binding823/2 old pins/0 mismatch, all three
 Comparator/result NanoDa checks, scoped NanoDa127 declarations/0 type errors.
 Main/generic/transport proofs use no axioms; control inherits propext. The target
@@ -55,9 +57,14 @@ work continues; the overall goal is not at an impasse.
 
 All new proof/source batches are committed. The source cursor remains A9;
 completed primary reading for the entitlement comparison is not a completed
-A9 source-extraction campaign. Next actions: monitor/land #855 if all gates pass,
-record optional owner classifications without inferring answers, and prioritize
-independent premise warrant over further conditional restatements. Coordinator
+A9 source-extraction campaign. The source worker has resumed after the canonical
+merge. A separate bounded worker is upgrading the blocked Dye witness to the
+publisher-maintained immutable XML of the same article, using the existing
+web-snapshot selectors and checking unchanged abstract meaning. No old-head
+#823 retry or pin bypass is authorized. The adversary is checking existing PSR
+compositions for the precise actuality/adequacy bridge. Next actions: review those
+source and bridge findings, record optional owner classifications without inferring
+answers, and prioritize independent premise warrant over conditional restatements. Coordinator
 owns this note, matrix and merge; workers preserve separate source/proof ownership.
 
 ## Current head and next action (2026-11-01)
@@ -881,6 +888,26 @@ Classical logic remains the current framework.
 | M | A unique maximum in being, causing the being and perfections of all others and a component of nothing, qualifies as God. | STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE; sufficient naming direction, not a proved truth or a converse. |
 | N | Whatever qualifies as God is maximal in being. | STMT-GOD-IS-MAXIMAL-IN-BEING; separate converse used for uniqueness. |
 | O (new, open) | Among actual concrete individuals at the selected world, if x grounds y, y does not ground x; this also excludes self-grounding. | STMT-ACTUAL-GROUNDING-ASYMMETRIC; the selected existential grounding relation, not every causal/explanatory relation. Offered as an alternative to formal D only with the retained B/E/F/Iesse/Hesse/EM package. No owner acceptance or global weakening is inferred. |
+
+D needs two separate classifications in future owner replies:
+
+- **D1 — explanatory insufficiency:** the derivative whole does not provide its
+  own complete existential explanation. This is the owner's stated regress
+  objection and is not reopened by exhibiting a merely consistent graph.
+- **D2 — actuality/application:** actual concrete existence must satisfy the
+  relevant complete-explanation requirement, and the selected existential
+  grounding interpretation represents that requirement faithfully. This remains
+  OPEN. It must be defended without defining adequate explanation to require
+  the desired root and then treating that definition as evidence of actuality.
+
+The exact formal target is STMT-WHOLE-ROSTER-NOT-TRAPPED. Under B and classical
+logic, WHOLE-ROSTER-ROOT-EQUIVALENCE shows its equivalence to an actual selected
+root existing. Therefore selecting D1 alone must never be recorded as selecting
+this formal target. With that formal target, B and C, the existing
+WHOLE-ROSTER-NECESSARY-CONCRETE result supplies the same actual necessary concrete
+root. No unique necessary individual, divine identity or complete explanatory
+adequacy follows. This is a classification clarification with no premise
+closure, source-attribution change or new Lean assumption.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
