@@ -56,8 +56,7 @@ new statement identity (the binding for existing asymmetry). Exact newly
 reaching IDs and proof boundaries are in the existing attempt and matrix.
 Its focused public PR is #841 at `3df07ab69d46c42715417d6de91d1f6af62cf821`,
 CI41257058290 and exact-head review passed without findings. PR #841 merged
-as `a18d1929c55a05cf319d47a744d30d71916a8846`; research integration follows
-after the current commits. The ten-file public patch excludes private later
+as `a18d1929c55a05cf319d47a744d30d71916a8846`; research integration is `2dc8e42a`. The ten-file public patch excludes private later
 witness history and the entire research handoff.
 
 The explicit25-input consumer is verified at `15de1fad`:
@@ -74,7 +73,10 @@ Full build4338, binding812/2pinned/0mismatch, Comparator+independent NanoDa,
 Consumer and closed asymmetry helper have no axioms; compatibility uses
 `propext` from the old control. The81-open-leaf union29bare/52sourced, cheapest
 root cost31 and existing32-input consumer37 remain unchanged. Its direct-main
-public PR is being prepared in count-temporal after #841 delivery.
+public PR is #843 at `8cb583cebb7674d5cfbf713e4799732dc41df13c`,
+CI41257847939 and exact-head review pending. The eight-file public patch
+contains the consumer plus the previously verified seven-input matrix section;
+source records/history/handoff are excluded.
 
 A3 main source extraction is committed as `3e51f187`: five qualified unbound
 claims, five statements, two source glosses and one disambiguation, plus the
@@ -84,12 +86,17 @@ accepted fidelity without findings. Source causal/explanatory priority does
 not establish an earlier existing concrete bearer, possible NB does not
 establish a rigid actual necessary witness, and source reports do not supply
 Scenario's guarded interfaces. No Lean/pin/truth change. The public source PR
-is being prepared in root-perfect-goodness with only thirteen new records and
-minimal public-baseline updates; private later witness coverage is excluded.
+is #842 at `c62d452d1069e030257f1b1d2a8b39cb08daa0a8`, CI41257708781
+pending and exact-head review completed without findings. Its sixteen-file
+patch has only thirteen new records and minimal public-baseline updates; private
+later witness coverage is excluded.
 Next source range is A3P3B/C2 then P3C/C3, followed by remaining families.
 
-Next concrete steps: integrate #841, finish the explicit25-consumer and A3
-source deliveries, and preserve their exact premise comparisons. Do not
+Next concrete steps: finish guarded #842/#843 delivery and integrate main,
+then progress through the already materialized A3 alternate range. A read-only
+worker is comparing A3P3B/C2 and P3C/C3 with exact A2 alternate/main statements
+before proposing any new identity or claim. The other workers own the two PR
+gates; final checks must be tied to their exact public heads. Do not
 restart general infinite-regress diagnostics or treat optional O, causal
 reach, naming or classical-field sufficiency as independently established.
 
