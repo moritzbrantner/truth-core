@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-GOVERNANCE-UNITY-ANALOGY",
+  "statement_id": "STMT-AQUINAS-SCG-I42-GOVERNANCE-UNITY-ANALOGY",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [20]",
+  "interpretation": "This is a governance analogy and source attribute application, not a general theorem that every actual system has exactly one ruler. Monarchy’s preference and the already universal cause-of-all premise do not independently establish one actual necessary root or rule out coordinated sufficient sources. No world/modal governance or IsGod-role adapter is introduced. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-DIVINE-UNITY-CONFESSION",
+  "statement_id": "STMT-GOD-IS-ONE",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [21–24], scriptural confession and doctrinal applications",
+  "interpretation": "One coherent reading of the same proper-divine-being unity confession, not independent new historical claims. [21] adduces Scripture; [22] distinguishes the highest divine cause from dependent everlasting/wise beings or others called gods; [23] identifies two independent first principles, neither causing the other, as the central opposing case; [24] applies the confession against several-gods language about Father and Son. Exact reuse is at-most-one proper divine Being, not at-most-one necessarily existing individual, no dependent beings named gods, or one divine person. The doctrinal references explain source scope and are not independent historical/theological verification or an argument defeating plural roots. No source/scriptural truth, formal proof, ordinary Ontic dictionary or divine-person identity is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE",
+    "DEF-ONE-GOD",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q11-GOD-BEING-PERSON",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
