@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-7-CONTINGENT-FACT-TOTALITY",
+  "paraphrase": "Every contingent fact has an explanation, and there is a contingent fact that includes all other contingent facts.",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
