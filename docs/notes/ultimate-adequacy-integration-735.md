@@ -9,7 +9,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
 Canonical proof batches7f9c35e4 and08522d6b separate actual-root uniqueness,
-necessity and common actual-ground coverage. Main through #899 is integrated atc3bb69a8;
+necessity and common actual-ground coverage. Main through #900 is integrated ate79a6263;
 #896 merged cdaf322b and #897 merged bfe12066 after required CI and completed
 clean review at their exact heads fcbfe4ee and3e2beae4 respectively. Run41308525530
 passed both browser base paths; run41311442494 passed the proof-batch gates.
@@ -84,8 +84,8 @@ Mathlib axiom probe reports only the standard permitted three. Source/corpus
 passes2758 statements/832results/472witnesses; root route count12/best31 unchanged.
 The proof batch6c33aee6 is published as PR900 at
 11f72ead941b66d6e39094123725001599809cd8, CI41313855505 passed and exact-head review completed clean. PR900 is merged;
-watch44842 is terminal0. Canonical main integration is deferred until the
-local-provenance worker commits its newer pruss-koons attempt coherently. Exact12-file public diff reuses the same five
+watch44842 is terminal0. Canonical mergee79a6263 preserves the newer pruss-koons audit and the public
+earlier-stage pending-evidence correction. Exact12-file public diff reuses the same five
 transitive Lean modules/toolchain; public counts2742/1876/832/438. Root collected PR899 watch51248 and PR900 watch44842, both terminal0; logs
 remain under ~/.cache/truth-core-artifacts/. Public attempt clarifies obsolete pending
 verification as an earlier stage; retain that correction on integration. This is a compatibility control distinguishing infinite assembly from finite
@@ -129,8 +129,13 @@ the retained pair, so no firing law or GrimReaperLaw follows from these two
 alone. Worker owns IndexedSignalProvenance and exact omission controls; focused proof/corpus checks pass and independent initial review accepts the
 mathematical construction. Axiom probing found Omega-generated dependencies in
 the core-only proof; the worker is replacing arithmetic with Nat lemmas rather
-than expanding permissions. Frozen Challenge/types are unchanged. Final zero-axiom
-probe, complete independent record review and heavy verification remain pending. Source attribution stays separate: physical
+than expanding permissions. Frozen Challenge/types are unchanged. Both zero-axiom probes and complete independent nineteen-file review pass.
+Canonical4a993fe2/e79a6263 plus evidence10b5b828 passes full4409-job build,
+binding850/2pins/0mismatch, both Comparator/result NanoDa gates and scoped-library
+NanoDa6exports/176checked/0typeerrors (one known axiom pretty-printer diagnostic).
+Heavy session85612 is terminal0. Publication worker copies the immutable10b5b828
+nineteen-file snapshot and regenerates public imports; later composition edits
+must not be swept into that slice. Source attribution stays separate: physical
 PGR positions motivate the bounded interface, while the later signal revision
 does not explicitly supply every numeric validation/forwarding constraint.
 
@@ -148,6 +153,19 @@ forest and skeleton all return200 with that exact revision. Forest collapse/
 expand works, runtime/HTTP errors empty. Thus the promised tree is available;
 later proof/source batches are not claimed deployed at this older revision.
 Evidence: ~/.cache/truth-core-artifacts/pages-diagnosis/.
+
+
+Next approved composition: new IndexedSignalReaper uses IndexAdmissible plus
+positive no-input trigger, own-issuance emission and complete unchanged forwarding.
+Those last three derive the earlier LocalConservation; import provenance, prove
+finite forwarding, then derive the EXISTING GrimReaperLaw and import its old
+impossibility. Negative trigger is derived rather than assumed. Four same-carrier
+omission assignments are proposed, not yet certified. No existing registered
+statement uses the firing-law head, so the worker will bind that existing core
+head with a source-free statement rather than invent a parallel law definition.
+Source/detector/closed alphabet, countable assembly and bearer-to-event application
+remain separate OPEN burdens. New files and later attempt append are isolated
+from the immutable provenance-publication snapshot.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
