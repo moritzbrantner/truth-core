@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-7-EXPLANATION-NOT-CONTINGENT",
+  "paraphrase": "The explanation under consideration of the contingent fact that includes all other contingent facts cannot itself be a contingent fact.",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
