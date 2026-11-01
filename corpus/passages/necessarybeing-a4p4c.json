@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a4p4c.html",
+    "retrieved_at": "2026-10-31T18:23:10Z",
+    "sha256": "sha256:ac6f57614e8fd4c2369bfdc186c21d32eeb160192d2e2466f197e66e11cb93b0",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A4P4C",
+      "locator": "A4P4C, complete interactive page",
+      "claim_locator_prefixes": [
+        "A4P4C,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "We will now stipulate that a thing that must (by nature) exist is a thing that would automatically exist if it were even possible for it to exist. Any other kind of thing is contingent."
+        }
+      },
+      "text_sha256": "sha256:9f8373c5c299fd9f5d4d10874d398b857556c92b0527351036fe6c6b91c715f2",
+      "incipit": "We will now stipulate that a thing that must (by nature) exist is a thing t"
+    }
+  ]
+}

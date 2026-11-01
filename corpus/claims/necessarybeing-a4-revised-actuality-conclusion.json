@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A4-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A4C3, final actuality paragraph after causal step 17 and notes 1–2",
+  "interpretation": "The final paragraph/ending exactly matches A2C3, so reuse the same revised actuality proposition. Its possibility input comes from the DISCHARGED conclusion at17, not the hypothetical cause at13. No actual causal exercise is inferred. Class persistence, counterfactual/automatic interpretation and actual rigid-bearer transport remain OPEN; the stock source vocabulary is not ordinary NecessaryAt or a new modal proof.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-REVISED-CLASSIFICATION",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
