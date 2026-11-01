@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A3-POSSIBLE-EVENT-CAUSABILITY",
+  "statement_id": "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A3P1, question, event/uncausable title attributes and negative-answer continuation",
+  "interpretation": "The bare page asks a question and provides choices; it records no actual respondent assent. A3C step5 explicitly attributes this negative-answer commitment by your report. The event identity and opportunity scope are retained; no bearer, temporal-existence, physicality or Scenario correspondence is silently supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A3-EVENT-AND-CAUSE",
+    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
