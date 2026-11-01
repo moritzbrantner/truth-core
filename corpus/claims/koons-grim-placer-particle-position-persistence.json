@@ -1,0 +1,9 @@
+{
+  "id": "KOONS-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE",
+  "statement_id": "STMT-PLACED-FRED-POSITION-PERSISTS",
+  "source_id": "KOONS-GRIM-REAPER-KALAM",
+  "locator": "pp. 18–22, §5.2, printed p.19, opening paragraph",
+  "interpretation": "Koons explicitly identifies persistence at the placed position throughout the remaining GP sequence as a tacit assumption of the particle argument. This records an acknowledged condition of the stipulated scenario, not a universal physical law, an independently established possibility or a proof of causal finitism. Read with the full materialized pp.18–22 context, including his vanishing-particle objection and proposed persistent-signal replacement; PGR at printed p.9 was also read as context for indexed creation and maintenance. The signal reformulation is not silently substituted for this particle-position statement. No identification with the all-code IndexedSignalReaper.Forwarding interface is made: that requires an explicit normalized-register and detector/handoff dictionary. Countable patchwork preservation and independent metaphysical applicability remain open.",
+  "status": "formalized",
+  "definition_ids": ["DEF-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE"]
+}
