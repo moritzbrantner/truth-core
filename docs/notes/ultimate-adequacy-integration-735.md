@@ -52,10 +52,19 @@ application needs independent warrant. AccessibleAccountNecessaryBeing is verifi
 passes build4396/bind840/2oldpins/0mismatch/Comparator+resultND/scopedND3new74closure
 zero type errors and two zero-axiom probes; independent10-file review passes.
 It replaces only global Founded with selected Acc; same named cost, no
-converse/strictness or independent reality entitlement. Public #886 head63606e388c89f731ccebefb57c34ae74b7dbe723,
-CI41293986063 running, review requested once;111-module dependency identity
+converse/strictness or independent reality entitlement. Public #886 head63606e388c89f731ccebefb57c34ae74b7dbe723 merged
+621f7fb321874f32b2efa80e8c2dbe7d4e84f9ba after clean exact-head review
+and all required CI41293986063 success/skips;111-module dependency identity
 and local public checks pass. Catholic81/best31 unchanged; NE62→63 adds only
-selected-accessibility head, routecost4 and oldbest2 unchanged. No merge yet.
+selected-accessibility head, routecost4 and oldbest2 unchanged. Canonical
+integration of this delivered metadata is pending final source #887.
+Selected-route audit is persisted in the Accessible attempt: one terminating
+path may omit indispensable joint contributors; a necessary-fact-seeded Supply
+would assume the key ancestry burden. No extra selector theorem is added.
+Next bounded source task is existing AQUINAS-NECESSARY-PER-SE-TO-STAGE-ONE,
+read-only planning on pinned witnesses; the #180 keep-off-root-until-sourced
+condition is retained. A separate audit checks all-necessary-entity uniqueness
+versus underived-foundation uniqueness; neither target is silently substituted.
 
 Only ledger A is owner-accepted; scoped PSR working authorization persists.
 The new composed route retains all original four producer inputs (ReasonClosed
