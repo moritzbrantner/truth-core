@@ -1,0 +1,10 @@
+{
+  "id": "DEF-KOONS-1996-FIXED-POSSIBLE-FACT-DOMAIN",
+  "term": "fixed possible-fact domain in Koons1996 modal mereology",
+  "definition": "The domain of possible concrete facts is fixed across worlds; actuality is the obtaining predicate on that domain. The specified modal resources are T and Barcan/converse-Barcan. This fixes fact quantifier domain, not automatically a world-independent ordinary-being constituent set for each fact.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN"
+  ],
+  "note": "Editorial scope glossary for §3physicalp3. Fact/proposition distinction and fixed fact-domain semantics do not establish bearer constitution, real membership in an arbitrary K assignment or all-world realization."
+}

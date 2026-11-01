@@ -1,0 +1,14 @@
+{
+  "id": "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
+  "term": "possible fact, actual obtaining, involved being/property and necessary being/system in Koons1996 Corollary1",
+  "definition": "Possible concrete facts/events/states of affairs are distinct from propositions. Actuality is a possible fact obtaining. Corollary1 presumes every fact includes some being and a property of it, assumes actual involvement requires the being’s actual existence, and infers necessary existence of some being or system from a necessary fact.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
+    "KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
+    "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+    "KOONS-1996-COR1-CONDITIONAL-NECESSARY-FACT-BEING",
+    "KOONS-1996-COR1-CONDITIONAL-COSMOS-CAUSE-BEING"
+  ],
+  "note": "Editorial source glossary, not a new formal framework. Fixed fact domain differs from fixed bearer constitution and all-world realization. Source T connects necessity and actual obtaining; the existing Arena consumer instead explicitly retains both actual and boxed truth without assuming reflexivity. No arbitrary K assignment proves real involvement, and no cause-fact is identified with an ordinary causing individual or classical God."
+}

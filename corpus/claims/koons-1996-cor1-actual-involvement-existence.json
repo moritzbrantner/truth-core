@@ -1,0 +1,17 @@
+{
+  "id": "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+  "statement_id": "STMT-KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+  "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+  "locator": "author preprint dated 18 December 1996, §7, Corollary 1, physical PDF p.9, second explanatory sentence",
+  "interpretation": "The author expressly assumes this realization/factivity principle. Preserve the actual-fact guard and actual existence of the involved being; a bare tag or possible-fact membership does not supply involvement. No fixed world-independent candidate set or same-member all-world realization policy is stated by this sentence alone. This attribution is to the verified author preprint, not an asserted identical journal edition. No formal consequence or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}
