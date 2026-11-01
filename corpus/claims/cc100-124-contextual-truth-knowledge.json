@@ -1,0 +1,18 @@
+{
+  "id": "CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
+  "statement_id": "STMT-CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 2, contextual truth-restricted consequent reading",
+  "interpretation": "Sibling contextual reading carries the step1 truth restriction into step2, as suggested by the final every-truth conclusion. This is not literal textual identity or established equivalence with the unguarded reading. Actual knowers may vary by proposition; no modal or epistemic closure theorem is supplied. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ],
+  "interpretation_of": "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE"
+}

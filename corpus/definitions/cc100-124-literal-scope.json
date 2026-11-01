@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CC100-124-LITERAL-SCOPE",
+  "term": "literal unguarded step2 and its common-knower antecedent",
+  "definition": "Step2 literally says for any proposition p someone knows p, without repeating if-p. The associated step3 antecedent therefore ranges over all propositions, not only truths.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+    "CC100-124-LITERAL-COMMON-KNOWER-BRIDGE"
+  ],
+  "note": "This editorial literal reading may conflict with additional factive assumptions, but no such formal system or countermodel is introduced and no equivalence to contextual reading is asserted."
+}

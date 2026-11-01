@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+  "term": "for any proposition someone knows it; someone knows every truth",
+  "sense_definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-LITERAL-SCOPE",
+    "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
+  ],
+  "resolution": "Literal step2 lacks a truth guard; contextual reading inherits it from step1/final every-truth scope. Separate sibling claims preserve both without equivalence. On either reading step3 is an explicit common-knower bridge, not valid by exchanging per-proposition existential witnesses. Possible/actual knowledge, factivity/closure and world scope require independent treatment; no God/necessary/rigid knower is inferred."
+}
