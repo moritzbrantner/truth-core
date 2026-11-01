@@ -8,7 +8,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff (supersedes the snapshots below)
 
 Canonical branch is `research/lean-existential-self-actualization-20261031`, at
-`0b53e840` before this update, integrating main through #855 at
+`0968847d` before this update. Integration0b53e840 brought main through #855 at
 `d30b1e128b0e085a4fdc6bf6f2452c4e737c6ef2`. The integration preserves full private
 research history, all468 witnesses and the A9 research cursor alongside main's
 independent A8 delivery411. The nonlimiting-existence attempt retains both the
@@ -55,12 +55,19 @@ correctly. #850's original unretained A5 mismatch remains unexplained and its
 instrumented delivery still awaits this diagnostic dependency. Other independent
 work continues; the overall goal is not at an impasse.
 
-All new proof/source batches are committed. The source cursor remains A9;
+All new proof/source batches are committed. A9 MAIN source extraction is now
+committed at0968847d: five claims/four bare statements and explicit NT terminology,
+with source/corpus/whitespace and independent fidelity review passing. No Lean or
+premise status changes; the source cursor remains A9 alternates;
 completed primary reading for the entitlement comparison is not a completed
 A9 source-extraction campaign. The source worker has resumed after the canonical
 merge. A separate bounded worker is upgrading the blocked Dye witness to the
-publisher-maintained immutable XML of the same article, using the existing
-web-snapshot selectors and checking unchanged abstract meaning. No old-head
+publisher-maintained immutable XML of the same article. PR #856 at
+411bf986f418a9648a5310bd5881e916e3d37560 uses the existing web-snapshot selectors;
+the complete abstract body is unchanged, with only its heading omitted. One
+changed witness passes scoped live verification; other410 public witnesses were
+checked offline. CI41274287992 and exact-head review are running, so no merge
+is yet justified. No old-head
 #823 retry or pin bypass is authorized. The adversary is checking existing PSR
 compositions for the precise actuality/adequacy bridge. Next actions: review those
 source and bridge findings, record optional owner classifications without inferring
@@ -908,6 +915,15 @@ WHOLE-ROSTER-NECESSARY-CONCRETE result supplies the same actual necessary concre
 root. No unique necessary individual, divine identity or complete explanatory
 adequacy follows. This is a classification clarification with no premise
 closure, source-attribution change or new Lean assumption.
+
+Existing PSR working authorization remains in force: issue #312 directs its
+conditional use while truth is defended separately. Its scoped individual form
+is weaker than C's actual-concrete-ground requirement. The source-reuse audit
+of Leibniz's §§32,36–38 also isolates whole/fact explanatory scope from that
+individual scope. The already proved contingency of a fixed joint condition
+does not automatically make that condition a concrete individual. The existing
+whole-roster attempt records this comparison and the still-open abstraction
+bridge; no owner reacceptance or new philosophical closure is inferred.
 
 ### Optional route-specific ledger: NLC and modal assumptions
 
