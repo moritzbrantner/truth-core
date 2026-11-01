@@ -8,13 +8,38 @@ unresolved bridges; conditional consequence does not establish premise truth.
 ## Current coordinator handoff
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
-Canonical configured proof1d37c5a6 is integrated with main through #894
-(3d61d386c4b7fc9208e4aa11b94c81e13bfb42a6) atcd5a9050. #891–894 passed
-required CI and exact-head reviews before merging. Source chapter extraction
-and scope-corrected configured proofs are separate milestones; neither declares
-an independently defended root premise. Main integration changed no Lean input
-of the final configured proof gates61988. Detailed earlier conflict resolutions
-and source-validation findings remain in their existing records.
+Canonical actual-root proof7f9c35e4 includes the new unicity/necessity split;
+main through #895 (bef1cc7a89c84b7c21757c34da4a490f2577dcb7) is integrated
+atb2682e09. #895 passed all required CI and exact-head review before merging.
+Ledger-F clarification5c2f676c removes an unintended current-time requirement
+from prose, preserving the formal world-relative premise and its OPEN status.
+No owner selection beyond A is received.
+
+Current blocker for PUBLICATION, not the research goal: a verified frontier
+fallback propagation defect falsely reports the new necessity upgrade as cost2.
+The actual-root parent expands to9 open leaves, so that selected expansion plus
+contingent dependence is10, not2; the old direct global route remains7. Treat
+all current route-cost figures below as PRE-REPAIR observations. No philosophical
+reduction is inferred. Unity owns only scripts/corpus.py and
+scripts/test_corpus_frontier.py for the bounded fix: minimized real-function
+red regressions reproduce unverified/transcription-only fallback B yielding
+{A,C} instead of {B,C,E}; cycle and grounded-alternative checks are being added.
+Existing sourced-leaf, floor, transcription and closure semantics must remain.
+Root owns final review/publication; no script repair is committed yet.
+
+New proof batch is fully verified: ACTUAL-ROOT-UNIQUENESS has7 heads and asserts
+one actual concrete selected root, dropping C AND the necessity conclusion.
+ACTUAL-ROOT-NECESSITY-UPGRADE takes that actual unicity+C+EM to recover the OLD
+necessary-root endpoint for the SAME n. Flattened premises remain the old8;
+this is separation/composition, no source truth or same-conclusion weakening.
+Root46967 passes build/binding/both Comparator+result NanoDa/scoped6modules,
+export3/check122 with no typechecker errors. Both probes are zero-axiom;
+independent16-file reviews pass. Frozen hashes baef9acc…6e9948bd and
+e8fbcc88…5dd42e6 are unchanged. Source/corpus33128 passes2756/1909/829/471.
+Owned proof18-file commit7f9c35e4 plus two relevant F-record clarifications are
+listed in /tmp/actual-root-uniqueness-delivery-files.txt; proof publication waits
+for the measurement repair. Do not publish the whole private handoff as that
+slice. Verified source findings remain in their existing attempts.
 Detailed hashes, original verification handles and measured delivery comparisons
 remain in the existing result attempts and historical sections below.
 
@@ -23,7 +48,7 @@ full handle95157 passed build4396, binding840/2existingpins/0mismatch,
 Comparator/result NanoDa and scoped NanoDa3new/74closure declarations with no
 type errors. Both theorem probes are zero-axiom; independent10-file review
 passes. Its public #886 is merged621f7fb3. Current corpus validation passes
-2755 statements,1909 claims,827 results,471 witnesses; the existing unrelated
+2756 statements,1909 claims,829 results,471 witnesses; the existing unrelated
 Frege–Geach warning remains.
 
 The verified composition sequence is:
@@ -100,8 +125,8 @@ and scoped5-module export4/check55 with zero typechecker errors. Static83579
 and53726 pass2755statements/1909claims/827results; necessary17/best2 and
 Catholic12/best31 route counts unchanged. Only A remains owner-selected.
 Public PR895 head5c51ede97c760b83f60b720ba0aad04ea8175013 publishes the
-exact17-file commit1d37c5a6 slice; CI41302041154 is active and review requested
-once. All29local proof imports and toolchain/dependency files match corrected
+exact17-file commit1d37c5a6 slice; CI41302041154 and clean exact-head review
+passed; merged bef1cc7a and integrated b2682e09. All29local proof imports and toolchain/dependency files match corrected
 certified inputs; cheap public checks and three frontier comparisons pass.
 No generic schema is registered as its conclusion. The off-root candidate retains real
 semantic/application and cause-of-necessity obligations, rather than repeating
@@ -114,8 +139,10 @@ block other research. Avoid duplicate selector/transport proofs: the existing
 attempts record why necessary seeds assume ancestry, paths may omit joint
 contributors, and truth-to-existence requires an ontology interpretation.
 
-Next: finish the configured proof delivery gates, preserving exact off-root
-scope; keep generic schemas separate from their proved instances. Existing consumers remain the route for constitutive
+Next: repair and independently review fallback leaf propagation; remeasure
+actual/full root routes, then publish the actual-unicity/necessity composition
+with its unchanged philosophical commitments. Keep generic schemas separate
+from configured instances. Existing consumers remain the route for constitutive
 individuation and common numerical origin; no duplicate generic wrapper is needed. No new model or parallel God predicate
 is authorized by #868. Held #823/#850 source failures remain narrow: do not
 retry/repin/merge without new evidence. No local Lean service is running; the
