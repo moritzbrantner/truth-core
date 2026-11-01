@@ -9,7 +9,7 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 Working branch: `research/lean-existential-self-actualization-20261031`.
 Canonical proof batches7f9c35e4 and08522d6b separate actual-root uniqueness,
-necessity and common actual-ground coverage. Main through #897 is integrated;
+necessity and common actual-ground coverage. Main through #899 is integrated atc3bb69a8;
 #896 merged cdaf322b and #897 merged bfe12066 after required CI and completed
 clean review at their exact heads fcbfe4ee and3e2beae4 respectively. Run41308525530
 passed both browser base paths; run41311442494 passed the proof-batch gates.
@@ -67,8 +67,7 @@ Scoped live source verification --base90f7fc38 --head527d2ee4 passes for that ne
 manifest, with471 other witnesses checked offline. No new claim/Lean/interface
 or root premise truth is established. Public three-file audit PR899 is published atde686d3978a2646e32d155a0bb4d0be708188ed0,
 CI41313719148 is SUCCESS and exact-head review completed clean. PR899
-is merged; watch51248 is terminal0. Canonical merge awaits the owned q3a5
-audit commit to preserve its newer attempt history. Body/evidence under
+is merged; watch51248 is terminal0. Canonical mergec3bb69a8 preserves the later q3a5 audit74f58694. Body/evidence under
 ~/.cache/truth-core-artifacts/de-potentia-q5a1/.
 
 GRIM-REAPER-FINITE-TESTS is implemented and Root-reviewed: indices.sup id+1
@@ -84,11 +83,11 @@ completed public898 watch1183 (terminal0); neither requires restarting. Independ
 Mathlib axiom probe reports only the standard permitted three. Source/corpus
 passes2758 statements/832results/472witnesses; root route count12/best31 unchanged.
 The proof batch6c33aee6 is published as PR900 at
-11f72ead941b66d6e39094123725001599809cd8, CI41313855505 confirmed live and
-exact-head review requested once. Exact12-file public diff reuses the same five
-transitive Lean modules/toolchain; public counts2742/1876/832/438. Root owns
-PR899 watch51248 and PR900 watch44842, logs under ~/.cache/truth-core-artifacts/;
-no restart on observation timeout. Public attempt clarifies obsolete pending
+11f72ead941b66d6e39094123725001599809cd8, CI41313855505 passed and exact-head review completed clean. PR900 is merged;
+watch44842 is terminal0. Canonical main integration is deferred until the
+local-provenance worker commits its newer pruss-koons attempt coherently. Exact12-file public diff reuses the same five
+transitive Lean modules/toolchain; public counts2742/1876/832/438. Root collected PR899 watch51248 and PR900 watch44842, both terminal0; logs
+remain under ~/.cache/truth-core-artifacts/. Public attempt clarifies obsolete pending
 verification as an earlier stage; retain that correction on integration. This is a compatibility control distinguishing infinite assembly from finite
 full-rule satisfiability, not actual realization, causal finitism or a foundation
 premise discharge. No ordinary finitary compactness failure is asserted.
@@ -127,11 +126,28 @@ issued j, without assuming global provenance or WF of all histories. Omit the
 bound: constant some0/no issuance survives forwarding. Omit forwarding: isolated
 some0 at0/no issuance survives the bound. Both no-signal/no-issuance satisfies
 the retained pair, so no firing law or GrimReaperLaw follows from these two
-alone. Worker owns IndexedSignalProvenance and exact omission controls; code
-and final verification are pending. Source attribution stays separate: physical
+alone. Worker owns IndexedSignalProvenance and exact omission controls; focused proof/corpus checks pass and independent initial review accepts the
+mathematical construction. Axiom probing found Omega-generated dependencies in
+the core-only proof; the worker is replacing arithmetic with Nat lemmas rather
+than expanding permissions. Frozen Challenge/types are unchanged. Final zero-axiom
+probe, complete independent record review and heavy verification remain pending. Source attribution stays separate: physical
 PGR positions motivate the bounded interface, while the later signal revision
 does not explicitly supply every numeric validation/forwarding constraint.
 
+
+
+Q3a5 source follow-up is published as PR901 at
+eeb91e8e2c176dab0f4c9ce8268089bcd58d89a7, CI41314492037 confirmed live and
+review requested once. Three files preserve the full a5 witness, one claim
+reusing the existing SCGI42 common-source statement and the existing audit.
+Public source440/claims1877, no second/third forced identification or truth change.
+
+Pages41312906804 is SUCCESS atbfe120661da4a517b5ebc1abe13ebe66ab1641b4;
+watch25854 is terminal0 and the browser is closed. Cache-disabled public root,
+forest and skeleton all return200 with that exact revision. Forest collapse/
+expand works, runtime/HTTP errors empty. Thus the promised tree is available;
+later proof/source batches are not claimed deployed at this older revision.
+Evidence: ~/.cache/truth-core-artifacts/pages-diagnosis/.
 
 
 Browser diagnosis reproduced unchanged test91 at the exact CI-merge tree
