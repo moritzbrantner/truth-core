@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import contextlib
 import copy
+import gzip
 import io
 import json
+import shutil
 import subprocess
 import tempfile
 import unittest
@@ -13,6 +15,93 @@ from unittest import mock
 from pathlib import Path
 
 import source_evidence as se
+
+
+class HttpContentDecodingTest(unittest.TestCase):
+    ZSTD_FIXTURE = bytes.fromhex("28b52ffd2007390000") + b"fixture"
+
+    def test_zstd_response_returns_decoded_entity(self) -> None:
+        with mock.patch.object(se.urllib.request, "urlopen") as opener:
+            response = opener.return_value.__enter__.return_value
+            response.headers = {"Content-Encoding": "zstd"}
+            response.read.return_value = self.ZSTD_FIXTURE
+            self.assertEqual(
+                se.download("https://fixture.invalid/page", "fixture", attempts=1),
+                b"fixture",
+            )
+
+
+    def download_fixture(self, body: bytes, encoding: str | None) -> bytes:
+        with mock.patch.object(se.urllib.request, "urlopen") as opener:
+            response = opener.return_value.__enter__.return_value
+            response.headers = {} if encoding is None else {"Content-Encoding": encoding}
+            response.read.return_value = body
+            return se.download("https://fixture.invalid/page", "fixture", attempts=1)
+
+    def test_identity_and_gzip_responses_are_preserved(self) -> None:
+        for body, encoding in [(b"fixture", None), (b"fixture", "identity"), (gzip.compress(b"fixture"), "gzip")]:
+            with self.subTest(encoding=encoding):
+                self.assertEqual(self.download_fixture(body, encoding), b"fixture")
+
+    def test_native_zstd_is_preferred_without_cli_lookup(self) -> None:
+        native = mock.Mock()
+        native.decompress.return_value = b"fixture"
+        native.ZstdError = ValueError
+        with mock.patch.object(se, "_zstd", native), mock.patch.object(se.shutil, "which") as which:
+            self.assertEqual(self.download_fixture(self.ZSTD_FIXTURE, "Zstd"), b"fixture")
+        native.decompress.assert_called_once_with(self.ZSTD_FIXTURE)
+        which.assert_not_called()
+
+    def test_native_decoder_failure_does_not_fall_back(self) -> None:
+        native = mock.Mock()
+        native.decompress.side_effect = ValueError("bad frame")
+        native.ZstdError = ValueError
+        with mock.patch.object(se, "_zstd", native), mock.patch.object(se.shutil, "which") as which:
+            with self.assertRaisesRegex(se.SourceEvidenceError, "invalid zstd response body"):
+                self.download_fixture(b"not a frame", "zstd")
+        which.assert_not_called()
+
+    @unittest.skipIf(se._zstd is None, "native zstd requires Python 3.14")
+    def test_native_decoder_rejects_truncated_body(self) -> None:
+        with self.assertRaisesRegex(se.SourceEvidenceError, "invalid zstd response body"):
+            self.download_fixture(self.ZSTD_FIXTURE[:-1], "zstd")
+
+    @unittest.skipUnless(shutil.which("zstd"), "zstd CLI is not installed")
+    def test_cli_fallback_decodes_observed_frame(self) -> None:
+        with mock.patch.object(se, "_zstd", None):
+            self.assertEqual(self.download_fixture(self.ZSTD_FIXTURE, "zstd"), b"fixture")
+
+    @unittest.skipUnless(shutil.which("zstd"), "zstd CLI is not installed")
+    def test_cli_fallback_rejects_truncated_body(self) -> None:
+        with mock.patch.object(se, "_zstd", None):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "invalid zstd response body"):
+                self.download_fixture(self.ZSTD_FIXTURE[:-1], "zstd")
+
+    def test_missing_decoder_fails_explicitly(self) -> None:
+        with mock.patch.object(se, "_zstd", None), mock.patch.object(se.shutil, "which", return_value=None):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "install zstd on older Python"):
+                self.download_fixture(self.ZSTD_FIXTURE, "zstd")
+
+    def test_unavailable_cli_fails_closed(self) -> None:
+        with (
+            mock.patch.object(se, "_zstd", None),
+            mock.patch.object(se.shutil, "which", return_value="zstd"),
+            mock.patch.object(se.subprocess, "run", side_effect=FileNotFoundError("zstd")),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "cannot run zstd response decoder"):
+                self.download_fixture(self.ZSTD_FIXTURE, "zstd")
+
+    def test_hash_checks_decoded_entity_and_still_rejects_drift(self) -> None:
+        for expected, matches in [(se.sha256_bytes(b"fixture"), True), (se.sha256_bytes(self.ZSTD_FIXTURE), False)]:
+            with self.subTest(matches=matches), mock.patch.object(se.urllib.request, "urlopen") as opener:
+                response = opener.return_value.__enter__.return_value
+                response.headers = {"Content-Encoding": "zstd"}
+                response.read.return_value = self.ZSTD_FIXTURE
+                if matches:
+                    self.assertEqual(se.fetch_web_bytes("https://fixture.invalid/page", expected, "fixture"), b"fixture")
+                else:
+                    with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                        se.fetch_web_bytes("https://fixture.invalid/page", expected, "fixture")
 
 
 class PerseusPunctuationTest(unittest.TestCase):
