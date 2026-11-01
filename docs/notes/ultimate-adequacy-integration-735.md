@@ -26,8 +26,9 @@ review requested once. Exact public dependency identity covers109 modules;
 Catholic81/all12routes unchanged; NE56→61 addsfiveopenheads, routes14→15,
 newrawcost5 with EMfloor and bestexisting2 unchanged.
 
-Open source PR #880: head `82f49959a323c92b8a9c6b60ddd590ab56dd7542`, CI
-41292234322 running, review requested once; covers #115–117 only. Canonical
+Source PR #880 merged `3668f2e38c47b9862c4a04143ae6a516164a6c5f` after
+clean exact-head review and all required CI41292234322 success/skips; it covers
+#115–117 only. Canonical
 source #118–124 is reviewed/committed; final #124 `8a433eab` preserves
 literal/context quantifier readings and retires the exhausted selected range.
 The selected foundation, unity and reality source ranges are extracted; no
@@ -41,8 +42,11 @@ bundles five clauses) and adds two OPEN fixed-constituent policies. Candidate
 removal of unused nonCopy and upfront target contingency is in a separate
 WeakAccountNecessaryBeing variant, frozen Challenge
 969395d349ee557aa7017422c21c5f41825cae2194c25ad486fbb32c98c493ef.
-Focused proof work and metadata review are in progress; no verified reduction
-is claimed yet. No unique,
+Full original verification handle5062 passes: build4394, bind839/2oldpins/0mismatch,
+Comparator/result NanoDa and scoped NanoDa11new/88closure/0type errors. Both
+theorems have zero axioms; independent final metadata review is pending. The
+conditional route now mechanically omits upfront contingency and nonCopy;
+remaining four account clauses, foundedness and constitution policies stay OPEN. No unique,
 concrete, causal, personal or divine character is inferred for the new bearer.
 
 ## Earlier coordinator snapshot (historical evidence)
