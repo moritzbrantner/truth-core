@@ -84,11 +84,24 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   const total = Number((await orLabel.textContent())?.match(/OR · (\d+)/)?.[1]);
   expect(total).toBeGreaterThan(2);
   expect(await tree.getByRole("region", { name: /^Argument / }).count()).toBe(total);
+  expect(await tree.getByRole("button", { name: /^Expand route / }).count()).toBe(total);
+
+  await page.getByLabel("Order argument routes").selectOption("recorded");
+  await page.waitForURL((next) => next.searchParams.get("order") === "recorded");
+  await page.getByLabel("Order argument routes").selectOption("beliefs");
+  await page.waitForURL((next) => !next.searchParams.has("order"));
 
   const deeper = tree.getByRole("button", { name: /^Expand all arguments for / });
+  const routeButtons = tree.getByRole("button", { name: /^Expand route / });
+  for (let index = 0; index < total; index += 1) {
+    await routeButtons.nth(index).click();
+    if (await deeper.count()) { break; }
+    await tree.getByRole("button", { name: /^Collapse route / }).first().click();
+  }
   expect(await deeper.count()).toBeGreaterThan(0);
+  await page.waitForURL((next) => next.searchParams.getAll("open").some((entry) => entry.includes("/route:")));
   await deeper.first().click();
-  await page.waitForURL((next) => next.searchParams.getAll("open").some((entry) => entry.includes("/")));
+  await page.waitForURL((next) => next.searchParams.getAll("open").some((entry) => entry.includes(":0")));
   expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);
   await page.reload();
   expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);

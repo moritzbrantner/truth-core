@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import type { ForestTreeModel } from "@/lib/argument-forest";
+import type { RouteOrder } from "@/lib/argument-route-order";
 import { exploreAssumptions } from "@/lib/argument-scenarios";
 import { activeCertifiedCores, reviewNewBelief, type CertifiedBeliefCore } from "@/lib/belief-conflicts";
 import { BELIEF_STORAGE_KEY, chooseBelief, EMPTY_BELIEFS, readBeliefProfile, rejectBeliefs, writeBeliefProfile, type BeliefProfile } from "@/lib/belief-profile";
@@ -58,6 +59,8 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
   const activeCores = activeCertifiedCores(accepted, certifiedCores);
   const pendingReview = pending ? reviewNewBelief(new Set(saved?.accepted ?? []), pending, certifiedCores) : null;
   const expanded = new Set(params.has("open") ? params.getAll("open") : ["root"]);
+  const routeOrder: RouteOrder = params.get("order") === "recorded" ? "recorded"
+    : params.get("order") === "shortest" ? "shortest" : "beliefs";
   const query = search.trim().toLowerCase();
   const choices = query.length >= 2 ? Object.values(model.statements)
     .filter((entry) => entry.id.toLowerCase().includes(query) || entry.paraphrase.toLowerCase().includes(query))
@@ -180,6 +183,16 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
             </button></li>)}</ul> : <p>No matching corpus proposition.</p>}
         </div> : null}
       </div>
+      <label className={styles.routeSortControl}>Order argument routes
+        <select value={routeOrder} onChange={(event) => update((next) => {
+          if (event.target.value === "beliefs") { next.delete("order"); }
+          else { next.set("order", event.target.value); }
+        })}>
+          <option value="beliefs">Fit with my beliefs</option>
+          <option value="shortest">Fewest listed premises</option>
+          <option value="recorded">Evidence-first map order</option>
+        </select>
+      </label>
       <button type="button" className={styles.reset} onClick={() => {
         setResultFilter("");
         update((next) => { next.delete("goal"); next.delete("open"); });
@@ -253,11 +266,11 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
       <section className={styles.treePanel} aria-label="Single proposition tree">
         <div className={styles.panelHeading}><div>
           <span className={styles.eyebrow}>Focused proposition · all argument routes</span>
-          <p>Each OR route contains all its AND premises. Expand branches independently, including shared premises.</p>
+          <p>Every OR alternative is listed, with its AND premises folded until opened. Belief-fit ordering reflects your selections, not proof strength. Routes with unlisted ordinary premises sort last by default.</p>
         </div></div>
         <StatementBranch model={model} id={goal} selected={goal} expanded={expanded}
           onSelect={focus} onToggle={toggle} exhaustive
-          scenario={scenario} onAssume={setAssumption} />
+          scenario={scenario} onAssume={setAssumption} routeOrder={routeOrder} />
         <p className={styles.hint}>
           <Link href={"/statements/" + goal}>View this proposition&apos;s evidence</Link>
           {" · "}<Link href="/forest">Compare two conclusions instead</Link>

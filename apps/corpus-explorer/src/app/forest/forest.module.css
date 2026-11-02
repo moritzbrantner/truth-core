@@ -334,6 +334,59 @@
 .argumentFooter a { color: var(--accent); text-decoration: underline; }
 .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; color: var(--muted); font-size: 0.68rem; overflow-wrap: anywhere; }
 
+.routeOverview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.7rem;
+  padding: 0.5rem 0.6rem;
+  margin-bottom: 0.65rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.66rem;
+  line-height: 1.5;
+}
+.routeOverview span + span::before { content: "· "; }
+.routeCard {
+  --route-tone: var(--line-strong);
+  border-left: 3px solid var(--route-tone);
+  padding: 0;
+  overflow: hidden;
+}
+.routeCard[data-readiness="reached"] { --route-tone: var(--status-defended); }
+.routeCard[data-readiness="needs"] { --route-tone: var(--status-proved); }
+.routeCard[data-readiness="blocked"] { --route-tone: var(--status-objection); }
+.routeToggle {
+  display: grid;
+  gap: 0.37rem;
+  width: 100%;
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
+}
+.routeToggle:hover { background: color-mix(in srgb, var(--route-tone) 6%, var(--paper)); }
+.routeToggle[aria-expanded="true"] { background: color-mix(in srgb, var(--route-tone) 6%, var(--paper)); }
+.routeTop { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
+.routeNumber { color: var(--ink); font-size: 0.7rem; font-weight: 750; }
+.routeState {
+  color: var(--ink);
+  border: 1px solid var(--route-tone);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--route-tone) 11%, var(--paper));
+  padding: 0.15rem 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+.routeChevron { margin-left: auto; color: var(--muted); font-size: 1.15rem; line-height: 1; }
+.routeMeaning { font-size: 0.77rem; line-height: 1.4; overflow-wrap: anywhere; }
+.routeMeta, .routeNeed { color: var(--muted); font-size: 0.67rem; line-height: 1.4; overflow-wrap: anywhere; }
+.routeNeed { color: var(--ink); }
+.routeDetail { border-top: 1px solid var(--line); padding: 0.25rem 0.8rem 0.65rem; }
+.routeDetail .premises { margin-top: 0.5rem; }
+
 .hint, .missing {
   color: var(--muted);
   font-size: 0.7rem;
@@ -483,6 +536,26 @@
   background: var(--paper);
   padding: 0.5rem 0.8rem;
   cursor: pointer;
+}
+.routeSortControl {
+  display: grid;
+  gap: 0.35rem;
+  flex: 0 1 12.5rem;
+  color: var(--muted);
+  font-size: 0.73rem;
+  font-weight: 650;
+}
+.routeSortControl select {
+  min-width: 0;
+  min-height: 2.55rem;
+  width: 100%;
+  border: 1px solid var(--line-strong);
+  border-radius: 0.4rem;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 0.5rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 400;
 }
 .beliefBanner {
   display: flex;

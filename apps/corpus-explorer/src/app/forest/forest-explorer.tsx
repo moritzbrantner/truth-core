@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import type { ForestArgument, ForestModel, ForestStatement, ForestTreeModel } from "@/lib/argument-forest";
+import { orderArgumentRoutes, type RankedRoute, type RouteOrder } from "@/lib/argument-route-order";
 import type { AssumptionScenario } from "@/lib/argument-scenarios";
 import styles from "./forest.module.css";
 
@@ -21,6 +22,7 @@ export type TreeProps = {
   path?: string;
   scenario?: AssumptionScenario;
   onAssume?: (id: string, value: "true" | "false" | "clear") => void;
+  routeOrder?: RouteOrder;
 };
 
 function excerpt(value: string, limit = 115) {
@@ -28,9 +30,68 @@ function excerpt(value: string, limit = 115) {
   return value.slice(0, limit - 1).trimEnd() + "…";
 }
 
+/** A compact OR alternative; its complete AND subtree is available on demand. */
+function ScenarioArgumentRoute({
+  route, index, model, selected, expanded, onSelect, onToggle, depth, ancestors,
+  path, scenario, onAssume, routeOrder,
+}: Omit<TreeProps, "id" | "scenario" | "path"> & {
+  route: RankedRoute;
+  index: number;
+  path: string;
+  scenario: AssumptionScenario;
+}) {
+  const { argument, readiness, reachedCount, totalCount, missing, denied } = route;
+  const routePath = path + "/route:" + argument.id;
+  const open = expanded.has(routePath);
+  const stateLabel = readiness === "reached" ? "Premises met"
+    : readiness === "needs" ? `${missing.length} still needed`
+      : readiness === "blocked" ? `${denied.length} denied`
+        : "Conditions unlisted";
+  const resultLabel = !argument.resultIds.length ? "No result recorded"
+    : argument.transcriptionOnly ? "Transcription result" : "Result recorded";
+  const nextId = denied[0] ?? missing[0];
+  const nextStatement = nextId ? model.statements[nextId] : null;
+  const nextPrefix = denied.length ? "Denied premise" : "Next needed";
+
+  return <section className={`${styles.argument} ${styles.routeCard}`} data-readiness={readiness}
+    aria-label={"Argument " + argument.id}>
+    <button type="button" className={styles.routeToggle} aria-expanded={open}
+      aria-label={(open ? "Collapse route " : "Expand route ") + argument.id}
+      onClick={() => onToggle(routePath)}>
+      <span className={styles.routeTop}>
+        <span className={styles.routeNumber}>Route {index + 1}</span>
+        <span className={styles.routeState}>{stateLabel}</span>
+        <span className={styles.routeChevron} aria-hidden="true">{open ? "−" : "+"}</span>
+      </span>
+      <span className={styles.routeMeaning}>{excerpt(argument.meaning, 145)}</span>
+      <span className={styles.routeMeta}>
+        AND · {argument.premises.length} ordinary premise{argument.premises.length === 1 ? "" : "s"}
+        {totalCount ? ` · ${reachedCount}/${totalCount} distinct premises reached` : " · undisplayed commitments may apply"}
+        {" · "}{resultLabel}
+      </span>
+      {nextStatement ? <span className={styles.routeNeed}>{nextPrefix}: {excerpt(nextStatement.paraphrase, 100)}</span> : null}
+    </button>
+    {open ? <div className={styles.routeDetail}>
+      {argument.premises.length ? <div className={styles.premises}>
+        {argument.premises.map((premise, premiseIndex) => <StatementBranch
+          key={premise + ":" + premiseIndex} model={model} id={premise} selected={selected}
+          expanded={expanded} onSelect={onSelect} onToggle={onToggle}
+          exhaustive path={path + "/" + argument.id + ":" + premiseIndex}
+          scenario={scenario} onAssume={onAssume} routeOrder={routeOrder}
+          depth={(depth ?? 0) + 1} ancestors={[...(ancestors ?? []), argument.conclusion]} />)}
+      </div> : <p className={styles.hint}>No ordinary premises listed. This route cannot automatically derive its conclusion: inspect the result for undisplayed conditions.</p>}
+      {!argument.resultIds.length ? <p className={styles.hint}>No recorded result licenses an implication from this argument, even if its listed premises are met.</p> : null}
+      <div className={styles.argumentFooter}>
+        <span className={styles.mono}>{argument.id}</span>
+        {argument.resultIds[0] ? <Link href={"/results/" + argument.resultIds[0]}>Inspect result</Link> : null}
+      </div>
+    </div> : null}
+  </section>;
+}
+
 export function StatementBranch({
   model, id, selected, expanded, onSelect, onToggle, depth = 0, ancestors = [],
-  exhaustive = false, path = "root", scenario, onAssume,
+  exhaustive = false, path = "root", scenario, onAssume, routeOrder = "beliefs",
 }: TreeProps) {
   const statement = model.statements[id];
   if (!statement) {
@@ -41,6 +102,7 @@ export function StatementBranch({
     .map((argumentId) => model.arguments[argumentId])
     .filter((argument): argument is ForestArgument => Boolean(argument));
   const argumentsShown = exhaustive ? availableArguments : availableArguments.slice(0, 2);
+  const rankedRoutes = exhaustive && scenario ? orderArgumentRoutes(availableArguments, scenario, routeOrder) : null;
   const canExpand = !repeated && (exhaustive || depth < 2) && argumentsShown.length > 0;
   const isExpanded = canExpand && expanded.has(exhaustive ? path : id);
   const assumedTrue = scenario?.accepted.has(id) ?? false;
@@ -82,8 +144,18 @@ export function StatementBranch({
       <p className={styles.hint}>Further arguments are outside this overview. Focus this proposition to inspect its records.</p> : null}
     {isExpanded ? <div className={styles.supports}>
       <p className={styles.junction}>OR · {statement.totalArguments} recorded argument{statement.totalArguments === 1 ? "" : "s"} supporting this conclusion</p>
+      {rankedRoutes ? <div className={styles.routeOverview} aria-label="Argument route readiness">
+        <span>{rankedRoutes.filter((route) => route.readiness === "reached").length} with premises met</span>
+        <span>{rankedRoutes.filter((route) => route.readiness === "needs").length} need premises</span>
+        <span>{rankedRoutes.filter((route) => route.readiness === "blocked").length} blocked by a False selection</span>
+        <span>{rankedRoutes.filter((route) => route.readiness === "unlisted").length} with unlisted conditions</span>
+      </div> : null}
       <div className={styles.argumentColumns}>
-        {argumentsShown.map((argument) => <section key={argument.id} className={styles.argument}
+        {rankedRoutes && scenario ? rankedRoutes.map((route, index) => <ScenarioArgumentRoute key={route.argument.id}
+          route={route} index={index} model={model} selected={selected} expanded={expanded}
+          onSelect={onSelect} onToggle={onToggle} depth={depth} ancestors={ancestors}
+          path={path} scenario={scenario} onAssume={onAssume} routeOrder={routeOrder} />)
+          : argumentsShown.map((argument) => <section key={argument.id} className={styles.argument}
           aria-label={"Argument " + argument.id}>
           <div className={styles.argumentHeading}>
             <span>AND · {argument.premises.length} ordinary premise{argument.premises.length === 1 ? "" : "s"}</span>
