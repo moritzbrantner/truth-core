@@ -13,6 +13,6 @@ theorem boundary : AgencyDutyBoundary := by
     obtain ⟨b, hPerformed, hEffective⟩ := hRealized.2
     have hSame : b = a := hOnly.2 b hEffective
     simpa only [hSame] using hPerformed
-  · decide
+  · simp [Realizes, OnlyEffective, oneGoalPractice]
 
 end TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty
